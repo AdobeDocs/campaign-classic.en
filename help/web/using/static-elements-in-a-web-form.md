@@ -1,0 +1,232 @@
+---
+title: Static elements in a web form
+seo-title: Static elements in a web form
+description: Static elements in a web form
+seo-description: 
+page-status-flag: never-activated
+uuid: 0ef4d382-0a15-47dc-b3f6-4d7e07f19028
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+content-type: reference
+discoiquuid: 78e776d5-5959-496a-9704-500a8ab0082f
+index: y
+internal: n
+snippet: y
+---
+
+# Static elements in a web form{#static-elements-in-a-web-form}
+
+You can include elements with which the user has no interaction in the pages of the form; these are static elements such as images, HTML content, a horizontal bar, or a hypertext link. These elements are created via the first button in the toolbar, by clicking the **Add static element** menu. 
+
+![](assets/s_ncs_admin_survey_add_static_element.png)
+
+The following types of field are available:
+
+* Value based on previously provided answers (in the context of the form) or on the database.
+* Hypertext link, HTML, horizontal bar. See [Inserting HTML content](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
+* Image saved in the resource library or on a server accessible by users. See [Inserting images](../../web/using/static-elements-in-a-web-form.md#inserting-images).
+* Script executed on client side and/or server side. It must be written in JavaScript and be compatible with most browsers to ensure correct execution on the client side.
+
+  >[!NOTE]
+  >
+  >On the server side, the script can use the functions defined in [Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html).
+
+## Inserting HTML content {#inserting-html-content}
+
+You can include HTML content in a form page: hypertext links, images, formatted paragraphs, video or Flash objects, etc.
+
+The HTML editor lets you enter the content to insert into the form page. To open the editor, go to **Static elements>HTML**.
+
+You can enter and format your content directly or display the source code window to paste in some external content. To switch to "source code" mode, click the first icon in the toolbar:
+
+![](assets/s_ncs_admin_survey_html_editor.png)
+
+To insert a database field, use the personalization button.
+
+![](assets/webapp_perso_button_in_html.png)
+
+>[!NOTE]
+>
+>The strings entered in the HTML editor are only translated if they are defined in the **Texts** sub-tab. Otherwise they will not be collected. For more on this, refer to [Translating a web form](../../web/using/translating-a-web-form.md).
+
+### Inserting a link {#inserting-a-link}
+
+Fill in the fields in the editing window as shown in the following example:
+
+To add a hypertext link, go to **Static elements>Link**.
+
+![](assets/s_ncs_admin_survey_add_link.png)
+
+* The **Label** is the content of the hypertext link as it will be displayed on the form page.
+* The **URL** is the desired address, e.g.: [https://www.adobe.com](https://www.adobe.com) for a website, or [mailto:info@adobe.com](mailto:info@adobe.com) to send a message.
+* The **Window** field lets you select the display mode for the link in the case of a site. You can decide to open the link in a new window, the current window, or another window.
+* You can add a ToolTip, as shown below: 
+
+  ![](assets/s_ncs_admin_survey_send_an_email.png)
+
+* You can choose to display the link as a button or an image. To do this, select the type of display in the **Type** field.
+
+### Types of links {#types-of-links}
+
+By default, the links are associated with a URL-type action, so that a link destination address can be entered in the URL field.
+
+![](assets/s_ncs_admin_survey_link_url.png)
+
+You can define other actions for the link, so that the user can click the link to do the following:
+
+* Refresh the page
+
+  To do this, select the **Refresh page** option in the drop-down box of the **Action** field.
+
+  ![](assets/s_ncs_admin_survey_link_refresh.png)
+
+* Display the next/previous page
+
+  To do this, select the **Next page** or **Previous page** option in the drop-down box of the **Action** field. 
+
+  ![](assets/s_ncs_admin_survey_link_next.png)
+
+  You can hide the **Next** and/or **Back** buttons if they are to be replaced by a link. Refer to this [page](../../web/using/defining-web-forms-page-sequencing.md).
+
+  The link will replace the **Next** button used by default.
+
+  ![](assets/s_ncs_admin_survey_link_next_ex.png)
+
+* Display another page
+
+  The **Enable a transition** option lets you display a specific page associated with the outgoing transition selected in the **Transition** field.
+
+  ![](assets/s_ncs_admin_survey_link_viral.png)
+
+  By default, a page has only one output transition. To create new transitions, select the page and then click the **Add** button in the **Output transitions ** section, as shown below:
+
+  ![](assets/s_ncs_admin_survey_add_transition.png)
+
+  In the diagram, this addition will look like this:
+
+  ![](assets/s_ncs_admin_survey_add_transition_graph.png)
+
+  >[!NOTE]
+  >
+  >For more on page sequencing in a Web form, refer to [Defining web forms page sequencing](../../web/using/defining-web-forms-page-sequencing.md).
+
+* Preload the fields of the form with data taken from the Facebook profile
+
+  >[!CAUTION]
+  >
+  >This function is only available if you have installed the **Social Marketing** application. To use this option, you need to create a Facebook application along with a **Facebook Connect** type external account. For more on this, refer to [this page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+
+  The **Preload with Facebook** option lets you insert a button into a form to preload fields using Facebook profile information. 
+
+  ![](assets/web_social_webapp_037.png)
+
+  When a user clicks the **Fill in automatically** button, the Facebook request for permission window opens.
+
+  ![](assets/web_social_webapp_029.png)
+
+  >[!NOTE]
+  >
+  >It's possible to change the list of extended rights when configuring the external account. If you don't enter any extended rights, Facebook forwards the basic profile information by default.  
+  >To view the list of extended rights and their syntax, click here: [https://developers.facebook.com/docs/reference/api/permissions/](https://developers.facebook.com/docs/reference/api/permissions/)
+
+  If the user agrees to share their information, the fields of the form are preloaded.
+
+  ![](assets/web_social_webapp_030.png)
+
+For this use case, we have created a Web application made up of the following elements:
+
+* a page containing the form
+* a **Record** activity
+* an **End** activity
+
+![](assets/social_webapp_031.png)
+
+To add a preload button, apply the following steps:
+
+1. Create a form.
+
+   ![](assets/social_webapp_032.png)
+
+1. Go to the same level as the fields in the form and add a link.
+
+   ![](assets/social_webapp_033.png)
+
+1. Enter the label and select the **Button** type. 
+
+   ![](assets/social_webapp_034.png)
+
+1. Go to the **Action** field and select **Preload with Facebook**.
+
+   ![](assets/social_webapp_035.png)
+
+1. Go to the **Application** field and select the **Facebook Connect** type external account created previously. For more on this, refer to [this page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+
+   ![](assets/social_webapp_036.png)
+
+### Personalizing HTML content {#personalizing-html-content}
+
+You can personalize the HTML content of a form page with data recorded in a previous page. For example, you can create a car insurance Web form whose first page lets you provide contact information and the brand of the car.
+
+![](assets/s_ncs_admin_survey_tag_ctx_1.png)
+
+Use personalization fields to re-inject the user name and selected brand into the next page. The syntax to use depends on the information storage mode. For more on this, refer to [Using collected information](../../web/using/static-elements-in-a-web-form.md#using-collected-information).
+
+>[!NOTE]
+>
+>For security reasons, the value entered in the **<%=** formula is replaced with escape characters. To avoid this, and only when necessary, use the following syntax: **<%=**.
+
+In our example, the first and last name of the recipient are stored in a field of the database, while the brand of their car is stored in a variable. The syntax of the message personalized on page 2 will be as follows:
+
+![](assets/webapp_perso_vars_include.png)
+
+```
+<P>Welcome <%= ctx.recipient.@firstName %> <%= ctx.recipient.@lastName %>,</P>
+<P>To start your customized study, please select your car <%=ctx.vars.marque%> and its year of purchase.</P>
+```
+
+This produces the following result:
+
+![](assets/s_ncs_admin_survey_tag_ctx_2.png)
+
+### Using text variables {#using-text-variables}
+
+The **Text** tab lets you create variable fields which can be used in the HTML between the <%= and %> characters with the following syntax: **$(IDENTIFIER)**.
+
+Use this method to easily have your strings localized. See [Translating a web form](../../web/using/translating-a-web-form.md)
+
+For example, you can create a **Contact** field that will enable you to display the "Date of last contact:" string to the HTML content. To do this, follow the steps below:
+
+1. Click on the **Text** tab of the HTML text.
+1. Click the **Add** icon.
+1. In the **Identifier** column, enter the name of the variable
+1. In the **Text** column, enter the default value.
+
+   ![](assets/s_ncs_admin_survey_html_text.png)
+
+1. In the HTML content, insert this text variable via the **<%= $(Contact) %>** syntax.
+
+   ![](assets/s_ncs_admin_survey_html_content.png)
+
+   >[!CAUTION]
+   >
+   >If you enter these characters in the HTML editor, the **<** and **>** fields will be replaced with their escape characters. In this case, you need to correct the source code by clicking the **Display source code** icon of the HTML text editor.
+
+1. Open the **Preview** label of the form to view the value entered in the HTML:
+
+   ![](assets/s_ncs_admin_survey_html_content_preview.png)
+
+This operating mode lets you factorize the text of Web forms and manage translations using the integrated translation tool. For more on this, refer to [Translating a web form](../../web/using/translating-a-web-form.md).
+
+## Inserting images {#inserting-images}
+
+For images to be included in forms, they must be saved on a server that is accessible from outside.
+
+Select the **Static elements>Image** menu.
+
+Select the source of the image to be inserted: it can come from the public resource library or be stored on an external server accessible from outside.
+
+![](assets/s_ncs_admin_survey_add_img.png)
+
+If this is an image from the library, select it in the combo-box of the field; if it is located in an external file, enter the access path. The label will be displayed by passing the cursor over the image (coincides with an ALT field in HTML), or when the image isn't displayed.
+
+The image can be viewed in the central section of the editor.

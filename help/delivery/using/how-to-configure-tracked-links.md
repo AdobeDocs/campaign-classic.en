@@ -1,0 +1,63 @@
+---
+title: How to configure tracked links
+seo-title: How to configure tracked links
+description: How to configure tracked links
+seo-description: 
+page-status-flag: never-activated
+uuid: cc1d063e-8916-4d8b-8ccc-c78e0851e23e
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+content-type: reference
+discoiquuid: 7f4cc94a-48dd-4f88-96b5-88ff53d3659c
+index: y
+internal: n
+snippet: y
+---
+
+# How to configure tracked links{#how-to-configure-tracked-links}
+
+For each delivery, you can track the reception of messages and the activation of the links inserted in the message content. This lets you track the behavior of recipients following the delivery actions which they were targeted by.
+
+>[!NOTE]
+>
+>Tracking applies to messages, but webtracking lets you monitor how recipients browse a website (pages visited, purchases).   
+>The configuration of webtracking is presented in [this section](../../configuration/using/about-web-tracking.md).
+
+Message tracking is enabled by default. To personalize how URLs are tracked, follow the steps below:
+
+1. Select the **Display URLs** option in the lower section of the delivery wizard, under the message content. 
+
+   ![](assets/s_ncs_user_email_del_display_urls.png)
+
+   When you select a URL from the tracked URLs list, it is highlighted in the delivery content - except for the link in the mirror page and the unsubscription link that are provided by default.
+
+   ![](assets/s_ncs_user_email_del_show_urls.png)
+
+1. For each URL of the message, select whether or not to activate tracking.
+
+   >[!CAUTION]
+   >
+   >When the URL of the link is used as a label, it is recommended to desactivate tracking to avoid risks of rejection due to phishing.   
+   >For example, if the www.adobe.com URL is inserted into the message and tracking activated on it, the content of the hypertext link will be modified to https://nlt.adobe.net/r/?id=xxxxxx. This means that it could be considered as fraudulent by recipient message clients.
+
+1. If needed, change the tracking label, double-click the label and enter a new one.
+
+   >[!NOTE]
+   >
+   >The labels of the tracked URLs and the labels can be modified to simplify the reading of information when tracking deliveries. Two URLs or two labels with the same name will be added together when calculating the click count.
+
+1. If needed, change the tracking mode, select a new mode in the **Tracking** column which matches the targeted link, as shown below:
+
+   ![](assets/s_ncs_user_select_tracking_mode.png)
+
+   For each individual URL, you can set tracking mode to one of these values:
+
+    * **Enabled**: activates tracking on this URL. 
+    * **Not tracked**: desactivates tracking on this URL.
+    * **Always enabled**: always activates tracking of this URL. This information is saved so that the next time, if the URL appears again in a future message content, its tracking is automatically activated.
+    * **Never tracked**: never activates tracking of this URL. This information is saved so that the next time, if the URL appears again in a future message, its tracking be automatically deactivated.
+    * **Opt-out**: considers this URL as an opt-out or unsubscription URL.
+    * **Mirror page**: considers this URL is a mirror page URL.
+
+1. In addition, you can select a category for each tracked URL in the drop-down list of the **Category** column. These categories can be displayed reports, as for example in **URLs and click streams** (see [this section](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). Categories are defined in a specific enumeration: **urlCategory** (see [Managing enumerations](/platform/using/managing-enumerations.md)).
+
