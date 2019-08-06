@@ -1,0 +1,43 @@
+---
+title: Managing rights
+seo-title: Managing rights
+description: Managing rights
+seo-description: 
+page-status-flag: never-activated
+uuid: aab3dcf7-e47e-4963-b529-48d55262f1d9
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+content-type: reference
+discoiquuid: 59aee972-b035-47d2-a93f-87e5812d725b
+index: y
+internal: n
+snippet: y
+---
+
+# Managing rights{#managing-rights}
+
+If they are not Administrators, Adobe Campaign operators need access rights for creating, executing or modifying workflows.
+
+Generally speaking, operators acting on workflows need to access the files containing the data used during the various activities (recipients, recipient list, subscriptions, deliveries, etc.), and possibly their sub-files.
+
+They must also be mapped to the named rights that coincide with the actions performed by workflows which they will affect (recipient import, file access, fusion, SQL script execution, etc.).
+
+For more on managing operators and permissions, refer to this [section](../../platform/using/access-management.md).
+
+## Operator groups {#operator-groups}
+
+The following operator groups are associated to the workflow:
+
+* The **Workflow execution** group lets you control the execution and approval of targeting workflows: the WORKFLOW named right is mapped to this group's operators. It is required for all actions on workflows, in addition to access rights to the data files. By default, the **Workflow execution** group has read-only access to standard targeting workflow files and workflow templates. Operators in this group also have read and write access to the pending approvals file.
+* The **Workflow supervisors** group lets operators manage workflow approvals.
+* The **Operation Managers** group to access campaign workflows.
+
+## Named rights {#named-rights}
+
+Only the WORKFLOW named right is specific to workflows: it lets you create, start and stop workflows. Reading rights on the workflow file are required for the named right to be applicable. For targeting workflows, the reading right on the **Profiles and Targets** file is necessary.
+
+## Workflow execution account {#workflow-execution-account}
+
+You can configure the execution account to be used at the workflow template level. The execution account lets you map authorizations to the workflow directly, irrespective of the Adobe Campaign operator starting the execution. By default, every workflow is executed with the rights of the operator who started it.
+
+To map an execution account to a workflow, go to the list of workflow templates and right-click on the template linked to the workflow. Choose **Action > Change execution account...** then select the account to be used.
