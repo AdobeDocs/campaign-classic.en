@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="audience:message-center" name="primaryAudienceTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="About transactional messaging" name="jcr:description" />
+  <meta content="" name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;topic_tags:introduction" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="About transactional messaging" name="jcr:title" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-08-06T06:59:41.151-0400" name="jcr:created" />
+  <meta content="e4db477b-439c-47b7-8c73-a924d493725e" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="About transactional messaging" name="navTitle" />
+  <meta content="95ca7e68-3a7a-48d7-9722-8dbdc45d825a" name="jcr:predecessors" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+ </head>
+ <body>
+  <p>Transactional messaging (Message Center) is a Campaign module designed for managing trigger messages. These messages are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement or website account creation for instance. </p> 
+  <p>Adobe Campaign Message Center module is integrated into an information system which returns events to be changed into personalized transactional messages. These messages can be sent individually or in batches via email, SMS or push notifications.</p> 
+  <p>In this specific architecture, execution cell is separated from the control instance, which ensures higher availability and better load management.</p> 
+  <note>
+   <p> To create new users for Message Center execution instances hosted on Adobe Cloud, you need to contact Adobe Customer Care. Message Center users are specific operators that require dedicated permissions to access 'Real time events' (nmsRtEvent) folders.<br /> </p> 
+  </note>
+ </body>
+</html>

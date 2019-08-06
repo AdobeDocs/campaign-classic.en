@@ -1,0 +1,146 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-08-06T06:59:10.838-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="ca950628-e9dc-4a13-ac84-6de7a9043b0e" name="jcr:predecessors" />
+  <meta content="Campaign simulations" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Campaign simulations" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Campaign simulations" name="navTitle" />
+  <meta content="audience:campaign" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="569c270b-3c7f-4f0f-a8fc-cad3bcc842af" name="jcr:uuid" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+ </head>
+ <body>
+  <h2 id="about-simulations">About simulations</h2>
+  <p>Campaign Optimization lets you test the efficiency of a campaign plan using simulations. This lets you measure the potential success of a campaign: generated revenue, target volume based on the typology rules applied, etc.</p> 
+  <p>Simulation lets you monitor and compare the impact of deliveries. </p> 
+  <note>
+   <p> Deliveries prepared in Test mode have no impact on each other, for example when assessing a campaign in distributed marketing, or as long as the deliveries aren't scheduled in the provisional calendar.<br /> This means that pressure and capacity rules are only applied to deliveries in <strong>Target estimation and message personalization</strong> mode. Deliveries in <strong>Estimation and approval of the provisional target</strong> and in <strong>Target evaluation</strong> mode are not taken into account.<br /> The delivery mode is chosen in the <strong>Typology</strong> sub-tab of the delivery properties.<br /> </p> 
+  </note>
+  <h2 id="setting-up-a-simulation">Setting up a simulation</h2>
+  <h3 id="creating-a-simulation">Creating a simulation</h3>
+  <p>To create a simulation, apply the following steps:</p> 
+  <ol>
+   <li><p>Go to the <strong>Campaigns</strong> universe, click the <strong>More</strong> link within the <strong>Create</strong> section and select the <strong>Simulation</strong> option.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_01.png" title="simu_campaign_opti_01.png" /></li>
+   <li><p>Enter the template and the name of the simulation. Click <strong>Save</strong> to create the simulation.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_02.png" title="simu_campaign_opti_02.png" /></li>
+   <li><p>Click the <strong>Edit</strong> tab to configure it.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_edit.png" title="simu_campaign_opti_edit.png" /></li>
+   <li><p>In the <strong>Scope</strong> tab, specify the deliveries you want to consider for this simulation. To do this, click the <strong>Add</strong> button and specify the delivery selection mode to take into account.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_edit_scope.png" title="simu_campaign_opti_edit_scope.png" /><p>You can either select each delivery one by one or sort them by campaign, program or plan. </p> 
+    <note>
+     <p> If you select deliveries via a plan, program or campaign, Adobe Campaign can automatically refresh the list of deliveries to take into account whenever a simulation is started. To do this, check the <strong>Refresh the selection of deliveries each time the simulation is started</strong> option.<br /> If you don't do this, any deliveries that are not available in the plan, program, or campaign when the simulation is created will not be taken into account: deliveries added later will be ignored.<br /> </p> 
+    </note></li>
+   <li><p>Select the elements to include in the simulation scope. If necessary, select multiple elements using the SHIFT and CTRL keys.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_edit_scope_select.png" title="simu_campaign_opti_edit_scope_select.png" /><p>Click <strong>Finish</strong> to approve the selection.</p> <p>You can manually combine selected deliveries and deliveries belonging to plans, programs or campaigns.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_edit_scope_save.png" title="simu_campaign_opti_edit_scope_save.png" /><p>If necessary, you can use a dynamic condition via the <strong>Edit the dynamic condition...</strong> link</p> <p>Click <strong>Save</strong> to approve this configuration.</p> 
+    <note>
+      Only deliveries whose target has been calculated are taken into account when calculating simulations (statuses: 
+     <strong>Target ready</strong> or 
+     <strong>Ready to deliver</strong>).
+     <br /> 
+    </note></li>
+   <li><p>In the <strong>Calculations</strong> tab, select an analysis dimension such as the recipient schema for example.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_dimension.png" title="simu_campaign_opti_dimension.png" /></li>
+   <li><p>You can then add expressions.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_dimension_02.png" title="simu_campaign_opti_dimension_02.png" /></li>
+  </ol>
+  <h3 id="execution-settings">Execution settings</h3>
+  <p>The <strong>General</strong> tab of the simulation lets you enter execution settings:</p> 
+  <ul>
+   <li><p>The <strong>Schedule execution for down-time</strong> option defers the simulation launch to a less busy time period, based on the chosen level of priority. Simulations use significant database resources, that's why non-urgent simulations should be scheduled to run at night, for example.</p> </li>
+   <li><p>The <strong>Priority</strong> is the level applied to the simulation to delay its triggering.</p> </li>
+   <li><p><strong>Save SQL queries in the log</strong>. SQL logs let you diagnose a simulation if it ends with errors. They can also help you find out why a simulation is too slow. These messages will be visible after the simulation in the <strong>SQL logs</strong> sub-tab of the <strong>Audit</strong> tab.</p> </li>
+  </ul>
+  <h2 id="executing-a-simulation">Executing a simulation</h2>
+  <h3 id="starting-a-simulation">Starting a simulation</h3>
+  <p>Once the simulation scope is defined, you can execute it.</p> 
+  <p>To do this, open the simulation dashboard and click <strong>Start simulation</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_start.png" title="simu_campaign_opti_start.png" />
+  <p>Once execution is complete, open the simulation and click the <strong>Results</strong> tab to view the targets calculated for each delivery.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_results.png" title="simu_campaign_opti_results.png" />
+  <ol>
+   <li><p>The <strong>Deliveries</strong> sub-tab lists all deliveries taken into account by the simulation. It shows two counts:</p> 
+    <ul>
+     <li><p>The <strong>Initial count</strong> is the target as it was calculated during its estimation in the delivery. </p> </li>
+     <li><p>The <strong>Final count</strong> is the number of recipients counted after simulation.</p> <p>The difference between initial and final counts reflects the application of the various rules or filters configured prior to the simulation.</p> <p>To learn more about this calculation, edit the <strong>Exclusions</strong> sub-tab.</p> </li>
+    </ul></li>
+   <li><p>The <strong>Exclusions</strong> sub-tab lets you view the exclusion break-down.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_14.png" title="simu_campaign_opti_14.png" /></li>
+   <li><p>The <strong>Alerts</strong> sub-tab groups all alert messages generated during the simulation. Alert messages can be sent in case of capacity overload (if the number of recipients targeted exceeds the set capacity, for instance).</p> </li>
+   <li><p>The <strong>Exploration of the exclusions</strong> sub-tab lets you create a result analysis table. The user needs to indicate variables in the abscissa/ordinates axes.</p> <p>For an example of analysis table creation, refer to the end of <a href="../../campaign/using/campaign-simulations.md#exploring-results" target="_blank">Exploring results</a>.</p> </li>
+  </ol>
+  <h3 id="viewing-results">Viewing results</h3>
+  <h4 id="audit">Audit</h4>
+  <p>The <strong>Audit</strong> tab lets you monitor simulation execution. The <strong>SQL Logs</strong> sub-tab is useful for expert users. It lists execution logs in SQL format. These logs are only displayed if the <strong>Save SQL queries in the log</strong> option has been selected in the <strong>General</strong> tab before simulation execution.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_11.png" title="simu_campaign_opti_11.png" />
+  <h4 id="exploring-results">Exploring results</h4>
+  <p>The <strong>Exploration of the exclusions</strong> sub-tab lets you analyze the data resulting from a simulation.</p> 
+  <p>Descriptive analysis is detailed in <a href="../../reporting/using/about-adobe-campaign-reporting-tools.md">this section</a>.</p> 
+  <h2 id="results-of-a-simulation">Results of a simulation</h2>
+  <p>The indicators in the <strong>Log</strong> and <strong>Results</strong> tabs provide a first overview of simulation results. For a more detailed view of results, open the <strong>Reports</strong> tab. </p> 
+  <h3 id="reports">Reports</h3>
+  <p>To analyze the result of a simulation, edit its reports: they show exclusions and causes.</p> 
+  <p>The following reports are provided by default:</p> 
+  <ul>
+   <li><p><strong>Detail of simulation exclusions</strong>: this report provides a detailed chart of exclusion causes for all concerned deliveries.</p> </li>
+   <li><p><strong>Simulation summary</strong>: this report shows the populations excluded from the simulation throughout the various deliveries. </p> </li>
+   <li><p><strong>Summary of exclusions linked to the simulation</strong>: this report shows a chart of exclusions caused by the simulation along with the applied typology rule and a chart showing the exclusion ratio per rule.</p> </li>
+  </ul>
+  <note>
+   <p> You can create new reports and add them to the ones offered. For more on this, refer to <a href="../../reporting/using/about-adobe-campaign-reporting-tools.md">this section</a>.<br /> </p> 
+  </note>
+  <p>To access reports, click the <strong>Reports</strong> link of the targeted simulation via its dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_reporting_edit_from_board.png" title="campaign_opt_reporting_edit_from_board.png" />
+  <p>You can also edit reports using the <strong>Reports</strong> link accessible from the simulation dashboard.</p> 
+  <h3 id="comparing-simulations-">Comparing simulations</h3>
+  <p>Each time a simulation is executed, the result replaces any previous results: you cannot display and compare results from one execution to another.</p> 
+  <p>To compare results, you need to use reports. Indeed, Adobe Campaign lets you save a report history to view it again later. This history is saved throughout the simulations' life-cycle.</p> 
+  <p><strong>Example:</strong></p> 
+  <ol>
+   <li><p>Create a simulation on a delivery which typology <strong>A</strong> is applied to.</p> </li>
+   <li><p>In the <strong>Reports</strong> tab, edit one of the available reports, such as <strong>Detail of simulation exclusions</strong> for example.</p> </li>
+   <li><p>In the upper right-hand section of the report, click the icon to create a new history.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_reporting_create_hist.png" title="campaign_opt_reporting_create_hist.png" /></li>
+   <li><p>Close the simulation and change the configuration of typology <strong>A</strong>.</p> </li>
+   <li><p>Execute the simulation again and compare the result with the one displayed in the report for which a history was created.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_reporting_edit_hist.png" title="campaign_opt_reporting_edit_hist.png" /><p>You can save as many report histories as necessary.</p> </li>
+  </ol>
+  <h3 id="reporting-axes">Reporting axes</h3>
+  <p>The <strong>Calculations</strong> tab lets you define reporting axes on the target. Theses axes will be used during result analysis (refer to <a href="../../campaign/using/campaign-simulations.md#exploring-results" target="_blank">Exploring results</a>).</p> 
+  <note>
+   <p> We recommend defining calculation axes in the simulation templates rather than individually for each simulation.<br /> Simulation templates are saved in the <strong>Resources &gt; Templates &gt; Simulation templates</strong> node of the Adobe Campaign tree.<br /> </p> 
+  </note>
+  <p><strong>Example:</strong></p> 
+  <p>In the example below, we want to create an additional reporting axis based on the recipients' status ("Customer", "Prospect" or none).</p> 
+  <ol>
+   <li><p>To define a reporting axis, select the table which contains the information to be processed in the <strong>Analysis dimension</strong> field. This information is mandatory.</p> </li>
+   <li><p>Here, we want to select the Segment field of the recipient table.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_09.png" title="simu_campaign_opti_09.png" /></li>
+   <li><p>The following options are available:</p> 
+    <ul>
+     <li><p><strong>Generate target overlap statistics</strong> lets you recover all overlap statistics in the simulation report. Overlaps are recipients targeted in at least two deliveries within one simulation.</p> 
+      <note>
+        Selecting this option considerably increases simulation execution time.
+       <br /> 
+      </note></li>
+     <li><p><strong>Keep the simulation work table</strong> lets you keep simulation traces. </p> 
+      <note>
+        The automatic saving of these tables requires a significant storage capacity: make sure the database is big enough.
+       <br /> 
+      </note></li>
+    </ul></li>
+  </ol>
+  <p>When the simulation results are displayed, the information on the selected expression will be displayed in the <strong>Overlaps</strong> sub-tab.</p> 
+  <p>Delivery target overlaps indicate the targeted recipients in at least two deliveries of a simulation.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_13.png" title="simu_campaign_opti_13.png" />
+  <note>
+   <p> This sub-tab is only displayed if the <strong>Generate target recovery statistics</strong> option has been enabled. <br /> </p> 
+  </note>
+  <p>The information on reporting axes can be processed in exclusion analysis reports created in the <strong>Exploring exclusions</strong> sub-tab. For more on this, refer to <a href="../../campaign/using/campaign-simulations.md#exploring-results" target="_blank">Exploring results</a>.</p> 
+ </body>
+</html>

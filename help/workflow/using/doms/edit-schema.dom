@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="d495a63a-d62e-4d97-8b83-c77fc11691ae" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Edit schema" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-08-06T06:59:14.617-0400" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="seoDescription" />
+  <meta content="Edit schema" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="topic_tags:targeting-activities;products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Edit schema" name="jcr:title" />
+  <meta content="0472d938-c46c-4137-ad4b-81a4ac604e49" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>Data can be transformed, normalized and, if necessary, enriched in the workflow using the <strong>Edit schema</strong> activity. It is generally used to normalize the data structure: you can rename the output columns or modify their content, by calculating the average values of a field or aggregate for example.</p> 
+  <p>This activity does not change the data in the work table, it changes only its schema, i.e. the logical view of the data.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf_manipulation_box.png" title="wf_manipulation_box.png" />
+  <p>You can also create joins with other worktables, via the <strong>Links</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf_manipulation_box_link_tab.png" title="wf_manipulation_box_link_tab.png" />
+  <p>The lower section lets you configure the list of joining conditions, i.e. the criteria used for reconciling the data from the two tables.</p> 
+ </body>
+</html>

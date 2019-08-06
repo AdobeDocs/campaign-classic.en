@@ -1,0 +1,230 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-08-06T06:59:29.457-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="42a87eb3-e4bb-4828-ae21-42c2d2f22924" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:installation" name="primaryAudienceTag" />
+  <meta content="Network configuration" name="jcr:title" />
+  <meta content="30abcdec-4c24-40b7-877a-f2627d2f6fc6" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Network configuration" name="jcr:description" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Network configuration" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <h2 id="communication-between-processes">Communication between processes</h2>
+  <p>Certain processes of the application need to communicate with others or to access the LAN and internet. This means that some TCP ports need to be open for these processes.</p> 
+  <p>Use the embedded Apache Tomcat port as a priority (8080 by default) for internal communications between the various application servers of an Adobe Campaign platform.</p> 
+  <h3 id="delivery-server">Delivery server</h3>
+  <p>For the delivery server (<strong>nlserver mta</strong>), the following ports must be open:</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> Ports<br /> </td> 
+     <td> Destination<br /> </td> 
+     <td> Comments<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 25/tcp (smtp)<br /> </td> 
+     <td> Anywhere<br /> </td> 
+     <td> SMTP traffic for e-mail broadcasting.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 53/udp (domain)<br /> </td> 
+     <td> DNS servers<br /> </td> 
+     <td> DNS queries.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 38000/tcp (default port)<br /> </td> 
+     <td> SMS gateway<br /> </td> 
+     <td> Used to send SMS traffic to the NetSize SMS router [option].<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 7777/udp<br /> </td> 
+     <td> Statistics server<br /> </td> 
+     <td> Accessing the statistics server.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h3 id="inbound-mail">Inbound mail</h3>
+  <p>For the inbound mail recovery process (<strong>nlserver inMail</strong>), the following ports must be open:</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> Ports<br /> </td> 
+     <td> Destination<br /> </td> 
+     <td> Comments<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 110/tcp (pop3)<br /> </td> 
+     <td> Internal mail server<br /> </td> 
+     <td> POP3 traffic to pick up bounce messages.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 25/tcp (smtp)<br /> </td> 
+     <td> Internal mail server<br /> </td> 
+     <td> SMTP traffic to send remaining bounce messages that are not automatically processed by the pre-defined rules.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h3 id="application-server">Application server</h3>
+  <p>For the application server (<strong>nlserver web</strong>), the following ports must be open:</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> Ports<br /> </td> 
+     <td> Destination<br /> </td> 
+     <td> Comments<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 80/tcp (http)<br /> 443/tcp (https)<br /> </td> 
+     <td> Anywhere<br /> </td> 
+     <td> HTTP or HTTPS traffic (including for the deliverability offer).<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p>When several application servers of an Adobe Campaign platform need to communicate with each other, we recommend using the port of the Apache Tomcat server (by default: 8080) rather than that of the HTTP port of the Web server which redirection module integration was carried out with. This means the port needs to be open between these servers.</p> 
+  <h3 id="sms-delivery-status">SMS delivery status</h3>
+  <p>To track SMS deliveries (<strong>nlserver sms</strong>), the following port must be open:</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> Ports<br /> </td> 
+     <td> Destination<br /> </td> 
+     <td> Comments<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 38000/tcp (default port)<br /> </td> 
+     <td> SMS gateway<br /> </td> 
+     <td> Queries the delivery queue status managed by the NetSize SMS gateway [option].<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h3 id="rich-client">Rich client</h3>
+  <p>For the Adobe Campaign rich client (<strong>nlclient</strong>), the following ports must be open:</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> Ports<br /> </td> 
+     <td> Destination<br /> </td> 
+     <td> Comments<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 80/tcp (http)<br /> 443/tcp (https)<br /> </td> 
+     <td> Application server<br /> </td> 
+     <td> SOAP traffic (HTTP).<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2 id="database-access">Database access</h2>
+  <p>All components that use the database must be able to connect to it. This is the case for most components, with the exception of the redirection server, which can work alone, and the thin Win32 client, which uses HTTP (or HTTPS) only to communicate with the application server. </p> 
+  <p>The default ports are the following: </p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> Database type<br /> </td> 
+     <td> Port (default)<br /> </td> 
+     <td> Destination<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Oracle</strong><br /> </td> 
+     <td> 1521/tcp<br /> </td> 
+     <td> 5 Database server.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>PostgreSQL</strong><br /> </td> 
+     <td> 5432/tcp<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Microsoft SQL Server</strong><br /> </td> 
+     <td> 1433/tcp<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>DB2</strong><br /> </td> 
+     <td> 50000/tcp<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2 id="external-access">External access</h2>
+  <p>In addition, certain components must be accessible from the public internet so that e-mail campaigns executed directly from Adobe Campaign can be viewed. This means that some ports need to be open for components.</p> 
+  <h3 id="redirection-server">Redirection server</h3>
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> Listening port<br /> </td> 
+     <td> Location<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 80/tcp (http)<br /> 443/tcp (https)<br /> </td> 
+     <td> Anywhere. Each click on a tracked link generates a HTTP request on the server.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h3 id="external-web-server">External Web server</h3>
+  <p>This server hosts Web forms, mirror pages, etc. The following ports need to be open:</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> Listening port<br /> </td> 
+     <td> Location<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 80/tcp (http)<br /> 443/tcp (https)<br /> </td> 
+     <td> Anywhere. Necessary when Web forms are managed directly from the Adobe Campaign platform or when mirror pages are used.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h3 id="internal-application-server--web-">Internal application server (Web)</h3>
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> Listening port<br /> </td> 
+     <td> Location<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 80/tcp (http)<br /> 443/tcp (https)<br /> </td> 
+     <td> All computers executing the thin client or rich client.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2 id="integration-with-adobe-experience-manager">Integration with Adobe Experience Manager</h2>
+  <p>Integration between Adobe Campaign and Adobe Experience Manager requires opening several ports if the installation is "on-premise". For more information on configuring this integration, refer to the <a href="../../integrations/using/about-adobe-experience-manager.md">detailed documentation</a>.</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> Listening port<br /> </td> 
+     <td> Description<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 80<br /> </td> 
+     <td> AEM connection to Adobe Campaign<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> 4502<br /> 4503<br /> </td> 
+     <td> Adobe Campaign connection to AEM's "authoring" and "publishing" instances. The ports to open may be different from the default ports, depending on your AEM configuration.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2 id="bandwidth">Bandwidth</h2>
+  <p>Another key parameter of the network configuration to take into account. It is almost always outbound and much in demand during e-mail broadcasts. Here are a few examples of configurations based on our experience: </p> 
+  <ul>
+   <li><p>1 Mb/s for 10,000 emails per hour (average size of 30 Kb)</p> </li>
+   <li><p>8 to 10 Mb/s for 100,000 emails per hour (average size of 30 Kb)</p> </li>
+  </ul>
+  <p>If you have constraints in terms of bandwidth, it is possible to schedule campaigns to run during the night when demand is lower.</p> 
+ </body>
+</html>

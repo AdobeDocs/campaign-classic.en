@@ -1,0 +1,273 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:platform" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:connectors" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="CRM Connectors" name="navTitle" />
+  <meta content="CRM Connectors" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="e87b5351-858c-4f35-88ec-a13ede3dd3db" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-08-05" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-08-06T07:02:33.437-0400" name="jcr:created" />
+  <meta content="06ab6ebe-e8d2-460d-8a95-f47f45486c3c" name="jcr:predecessors" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="CRM Connectors" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <h2 id="about-crm-connectors">About CRM connectors</h2>
+  <p>Adobe Campaign provides various CRM connectors for linking your Adobe Campaign platform to your third-party systems. These CRM connectors enable you to synchronize contacts, accounts, purchases, etc. They make for easy integration of your application with various third-party and business applications. </p> 
+  <p>These connectors enable quick and easy data integration: Adobe Campaign provides a dedicated wizard for collecting and selecting from the tables available in the CRM. This guarantees two-directional synchronization to make sure data is up-to-date at all times throughout the systems.</p> 
+  <note>
+   <p> This feature is available in Adobe Campaign through the <strong>CRM connectors</strong> dedicated package.<br /> </p> 
+  </note>
+  <p>Connecting to the CRM is carried out via dedicated workflow activities. These activities are detailed in the chapter presented in <a href="../../workflow/using/crm-connector.md">this section</a>.</p> 
+  <h3 id="compatible-crm-systems-and-limitations">Compatible CRM systems and limitations</h3>
+  <p>CRMs listed below can be integrated into Adobe Campaign.</p> 
+  <p>Supported versions are detailed in the <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Compatibility matrix</a>.</p> 
+  <ul>
+   <li><p><strong>Salesforce.com</strong></p> <p>Refer to <a href="../../platform/using/crm-connectors.md#example-for-salesforce-com">this section</a> to learn how to set up the connection with Salesforce.com.</p> 
+    <note>
+      When connecting Adobe Campaign with Salesforce.com, limitations are:
+     <br /> 
+     <ul> 
+      <li> <p>Test production instances are supported.</p> </li> 
+      <li> <p>Assignation rules are supported.</p> </li> 
+      <li> <p>Multiple selection enumerations are not supported by Adobe Campaign.</p> </li> 
+     </ul> 
+    </note></li>
+   <li><p><strong>Oracle On Demand</strong></p> <p>Refer to <a href="../../platform/using/crm-connectors.md#example-for-oracle-on-demand">this section</a> to learn how to set up the connection with Oracle On Demand.</p> 
+    <note>
+      When connecting Adobe Campaign with Oracle On Demand, limitations are:
+     <br /> 
+     <ul> 
+      <li> <p>Adobe Campaign can synchronize any object available in the standard Oracle On Demand templates. If you have added personalized tables in Oracle On Demand, these won't be recovered in Adobe Campaign.</p> </li> 
+      <li> <p>API version v1.0 lets you sort or filter data during a query but does not let you do both simultaneously.</p> </li> 
+      <li> <p>The dates sent by Oracle On Demand do not contain time zone information.</p> </li> 
+      <li> <p>Multiple selection enumerations are not supported by Adobe Campaign.</p> </li> 
+     </ul> 
+    </note></li>
+   <li><p><strong>MS Dynamics CRM</strong> and <strong>MS Dynamics Online</strong></p> <p>Refer to <a href="../../platform/using/crm-connectors.md#example-for-microsoft-dynamics">this section</a> to learn how to set up the connection with Microsoft Dynamics.</p> <p>Learn about Adobe Campaign and Microsoft Dynamics integration use cases in <a href="https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html">this video</a>.</p> 
+    <note>
+      When connecting Adobe Campaign with Microsoft Dynamics, limitations are:
+     <br /> 
+     <ul> 
+      <li> <p>Installing plug-ins can change the CRM's behavior, which can lead to compatibility issues with Adobe Campaign. </p> </li> 
+      <li> <p>Multiple selection enumerations are not supported by Adobe Campaign.</p> </li> 
+     </ul> 
+    </note></li>
+  </ul>
+  <h2 id="setting-up-the-connection">Setting up the connection</h2>
+  <p>To use CRM connectors in Adobe Campaign, apply the following steps:</p> 
+  <ol>
+   <li><p>Create the external account</p> </li>
+   <li><p>Collect the CRM tables</p> </li>
+   <li><p>Synchronize enumerations</p> </li>
+   <li><p>Create the synchronization workflow</p> </li>
+  </ol>
+  <note>
+   <p> The CRM connectors only work with a secure URL (https).<br /> </p> 
+  </note>
+  <h3 id="example-for-salesforce_com">Example for Salesforce.com</h3>
+  <p>To configure the <strong>Salesforce.com</strong> connector with Adobe Campaign, follow the steps below:</p> 
+  <ol>
+   <li><p>Create a new external account via the <strong>Administration &gt; Platform &gt; External accounts</strong> node of the Adobe Campaign tree.</p> </li>
+   <li><p>Run the configuration wizard to generate the available CRM tables.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_sfdc_wz.png" title="crm_connectors_sfdc_wz.png" /><p>The configuration wizard lets you collect tables and create the matching schema. </p> <p>Click <strong>Start</strong> to run the execution.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_sfdc_launch.png" title="crm_connectors_sfdc_launch.png" />
+    <note>
+     <p> To approve the setup, you need to log off and back on to the Adobe Campaign console.<br /> </p> 
+    </note></li>
+   <li><p>Check the schema generated in Adobe Campaign in the <strong>Administration &gt; Configuration &gt; Data schemas</strong> node.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_sfdc_table.png" title="crm_connectors_sfdc_table.png" /></li>
+   <li><p>Once the schema is created, you can synchronize enumerations automatically via the CRM to Adobe Campaign.</p> <p> To do this, click the <strong>Synchronizing enumerations...</strong> link and select the Adobe Campaign enumeration that matches the CRM enumeration.</p> <p>You can replace all values of an Adobe Campaign enumeration with those of the CRM: to do this, select <strong>Yes</strong> in the <strong>Replace</strong> column.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_sfdc_enum.png" title="crm_connectors_sfdc_enum.png" /><p>Click <strong>Next</strong> and then <strong>Start</strong> to start importing the list.</p> </li>
+   <li><p>Check the imported values in the <strong>Administration &gt; Platform &gt; Enumerations</strong> menu.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_sfdc_exe.png" title="crm_connectors_sfdc_exe.png" /></li>
+   <li><p>To import Salesforce data or to export Adobe Campaign data to Salesforce, you need to create a workflow and use the <strong>CRM connector</strong> activity.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_sfdc_wf.png" title="crm_connectors_sfdc_WF.png" /></li>
+  </ol>
+  <h3 id="example-for-oracle-on-demand">Example for Oracle On Demand</h3>
+  <p>To configure the <strong>Oracle On Demand</strong> connector to work with Adobe Campaign, apply the following steps:</p> 
+  <ol>
+   <li><p>Create a new external account via the <strong>Administration &gt; Platform &gt; External accounts</strong> node of the Adobe Campaign tree.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_ood_1.png" title="crm_connectors_ood_1.png" /></li>
+   <li><p>Open the configuration wizard: Adobe Campaign automatically shows the tables of the Oracle data model. Select the tables you want to collect.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_ood_2.png" title="crm_connectors_ood_2.png" /></li>
+   <li><p>Click <strong>Next</strong> to start creating the matching schema.</p> <p>The matching data schema becomes available in Adobe Campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_ood_3.png" title="crm_connectors_ood_3.png" /></li>
+   <li><p>Start synchronizing enumerations between Adobe Campaign and Oracle On Demand.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_ood_4.png" title="crm_connectors_ood_4.png" /></li>
+   <li><p>To import Oracle On Demand data into Adobe Campaign, create the following type of workflow:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_ood_5.png" title="crm_connectors_ood_5.png" /><p>This workflow imports contacts via Oracle On Demand, synchronizes them with the existing Adobe Campaign data, deletes duplicate contacts, and updates the Adobe Campaign database.</p> <p>The <strong>CRM Connector</strong> activity needs to be configured as shown here:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_ood_6.png" title="crm_connectors_ood_6.png" /></li>
+   <li><p>To export Adobe Campaign data to Oracle On Demand, create the following workflow:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_ood_7.png" title="crm_connectors_ood_7.png" /><p>This workflow collects the relevant data using queries, then exports it into the Oracle On Demand contacts table.</p> </li>
+  </ol>
+  <h3 id="example-for-microsoft-dynamics">Example for Microsoft Dynamics</h3>
+  <p>To configure the Microsoft Dynamics connector to work with Adobe Campaign, apply the following steps:</p> 
+  <ol>
+   <li><p>Create a new external account via the <strong>Administration &gt; Platform &gt; External accounts</strong> node of the Adobe Campaign tree.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_msdynamics_01_4.png" title="crm_connectors_msdynamics_01_4.png" /></li>
+   <li><p>Select the <strong>Deployment type</strong>: <strong>On-premise</strong>, <strong>Office 365</strong> or <strong>Web API</strong>, depending on the connector you want to configure.</p> <p>Adobe Campaign Classic supports the Dynamics 365 REST interface with OAuth protocol for authentication.</p> <p>If you select a <strong>WebAPI</strong> deployment, you need to register an app on Azure Directory and get the <strong>clientId</strong> from the Azure Directory. This registration is documented in <a href="https://msdn.microsoft.com/en-us/library/mt622431.aspx">this page</a>.</p> 
+    <note>
+     <p> The redirectURL parameter is not required by Adobe Campaign Classic.<br /> </p> 
+    </note><p>The <strong>clientId</strong> value is used with the username/password to fetch bearer token using grant type password. This is called <strong>Resource Owner Password Credentials Grant</strong>. For more on this, refer to <a href="https://blogs.msdn.microsoft.com/wushuai/2016/09/25/resource-owner-password-credentials-grant-in-azure-ad-oauth/">this page</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_msdynamics_01_3.png" title="crm_connectors_msdynamics_01_3.png" /><p>For more information on CRM version compatibility, refer to the <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Compatibility matrix</a>.</p> </li>
+   <li><p>Open the configuration wizard. Adobe Campaign automatically detects the tables from the Microsoft Dynamics data template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_msdynamics_02.png" title="crm_connectors_msdynamics_02.png" /><p>Select the tables to be recovered.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_msdynamics_03.png" title="crm_connectors_msdynamics_03.png" /></li>
+   <li><p>Click <strong>Next</strong> and start creating the corresponding schema.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_msdynamics_04.png" title="crm_connectors_msdynamics_04.png" />
+    <note>
+     <p> To approve the configuration, you must disconnect/reconnect to the Adobe Campaign console.<br /> </p> 
+    </note><p>The matching data schema becomes available in Adobe Campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_msdynamics_05.png" title="crm_connectors_msdynamics_05.png" /></li>
+   <li><p>Start synchronizing enumerations between Adobe Campaign and Microsoft Dynamics.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_msdynamics_06.png" title="crm_connectors_msdynamics_06.png" /></li>
+   <li><p>To import the Microsoft Dynamics data into Adobe Campaign, create the following type of workflow:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_msdynamics_07.png" title="crm_connectors_msdynamics_07.png" /><p>This workflow imports the contacts via Microsoft Dynamics, synchronizes them with the existing Adobe Campaign data, deletes duplicate contacts, and updates the Adobe Campaign database.</p> <p>The <strong>CRM Connector</strong> activity needs to be configured as below:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_connectors_msdynamics_08.png" title="crm_connectors_msdynamics_08.png" /></li>
+  </ol>
+  <h2 id="data-synchronization">Data synchronization</h2>
+  <p>Synchronization between Adobe Campaign and the CRM is carried out via a dedicated workflow activity: <a href="../../workflow/using/crm-connector.md">CRM connector</a>.</p> 
+  <p>This activity enables you to:</p> 
+  <ul>
+   <li><p>Import from the CRM (refer to <a href="../../platform/using/crm-connectors.md#importing-from-the-crm" target="_blank">Importing from the CRM</a>),</p> </li>
+   <li><p>Export to CRM (refer to <a href="../../platform/using/crm-connectors.md#exporting-to-the-crm" target="_blank">Exporting to the CRM</a>),</p> </li>
+   <li><p>Import objects deleted in the CRM (refer to <a href="../../platform/using/crm-connectors.md#importing-objects-deleted-in-the-crm" target="_blank">Importing objects deleted in the CRM</a>),</p> </li>
+   <li><p>Delete objects in the CRM (refer to <a href="../../platform/using/crm-connectors.md#deleting-objects-in-the-crm" target="_blank">Deleting objects in the CRM</a>).</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/crm_task_select_op.png" title="crm_task_select_op.png" />
+  <p>Select the external account that matches the CRM that you want to configure synchronization with, then select the object to be synchronized (accounts, opportunities, leads, contacts, etc.).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/crm_task_select_obj.png" title="crm_task_select_obj.png" />
+  <p>The configuration of this activity depends on the process to be carried out. Various configurations are detailed below.</p> 
+  <h3 id="importing-from-the-crm">Importing from the CRM</h3>
+  <p>To import data via the CRM in Adobe Campaign, you need to create the following type of workflow:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/crm_wf_import.png" title="crm_wf_import.png" />
+  <p>For an import activity, the <strong>CRM Connector</strong> activity configuration steps are:</p> 
+  <ol>
+   <li><p>Select an <strong>Import from the CRM</strong> operation.</p> </li>
+   <li><p>Go to the <strong>Remote object</strong> drop-down list and select the object concerned by the process. This object coincides with one of the tables created in Adobe Campaign during connector configuration.</p> </li>
+   <li><p>Go to the <strong>Remote fields</strong> section and enter the fields to be imported.</p> <p>To add a field, click the <strong>Add</strong> button in the toolbar, then click the <strong>Edit expression</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_task_import_add_field.png" title="crm_task_import_add_field.png" /><p>If necessary, alter the data format via the drop-down list of the <strong>Conversion</strong> columns. Possible conversion types are detailed in <a href="../../platform/using/crm-connectors.md#data-format" target="_blank">Data format</a>.</p> 
+    <note>
+      The identifier of the record in the CRM is mandatory for linking objects in CRM and in Adobe Campaign. It is added automatically when the box is approved.
+     <br /> The last modification date on the CRM side is also mandatory for incremental data imports.
+     <br /> 
+    </note></li>
+   <li><p>You can also filter the data to be imported based on your needs. To do this, click the <strong>Edit the filter...</strong> link.</p> <p>In the following example, Adobe Campaign will only import contacts for which some activity has been recorded since Nov 1st 2012.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_task_import_filter.png" title="crm_task_import_filter.png" />
+    <note>
+      The limitations linked to data filtering modes are detailed in 
+     <a href="../../platform/using/crm-connectors.md#filtering-data" target="_blank">Filtering data</a>.
+     <br /> 
+    </note></li>
+   <li><p>The <strong>Use automatic index...</strong> option enables you to automatically manage incremental object synchronization between the CRM and Adobe Campaign, depending on the date and their last modification.</p> <p>For more on this, refer to <a href="../../platform/using/crm-connectors.md#variable-management" target="_blank">Variable management</a>.</p> </li>
+  </ol>
+  <h4 id="variable-management">Variable management</h4>
+  <p>Enabling the <strong>Automatic index</strong> option lets you collect only objects modified since the last import.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/crm_task_import_option.png" title="crm_task_import_option.png" />
+  <p>The date of the last synchronization is stored in an option specified in the configuration window, by default: <strong>LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</strong>.</p> 
+  <note>
+   <p> This note only applies to the generic <strong>CRM Connector</strong> activity. For other CRM activities, the process is automatic.<br /> This option has to be manually created and populated under <strong>Administration</strong> &gt; <strong>Platform</strong> &gt; <strong>Options</strong>. It must be a text option and its value needs to match the following format: <strong>yyyy/MM/dd hh:mm:ss</strong>.<br /> You need to manually update this option for any further import.<br /> </p> 
+  </note>
+  <p>You can specify the remote CRM field to be taken into account to identify the most recent changes. </p> 
+  <p>By default, the following fields are used (in the specified order):</p> 
+  <ul>
+   <li><p>For Microsoft Dynamics: <strong>modifiedon</strong>,</p> </li>
+   <li><p>For Oracle On Demand: <strong>LastUpdated</strong>, <strong>ModifiedDate</strong>, <strong>LastLoggedIn</strong>,</p> </li>
+   <li><p>For Salesforce.com: <strong>LastModifiedDate</strong>, <strong>SystemModstamp</strong>.</p> </li>
+  </ul>
+  <p>Activating the <strong>Automatic index</strong> option generates three variables that can be used in the synchronization workflow via a <strong>JavaScript code</strong> type activity. These activities are:</p> 
+  <ul>
+   <li><p><strong>vars.crmOptionName</strong>: represents the name of the option that contains the last import date.</p> </li>
+   <li><p><strong>vars.crmStartImport</strong>: represents the start date (included) of the last data recovery.</p> </li>
+   <li><p><strong>vars.crmEndDate</strong>: represents the end date (excluded) of the last data recovery.</p> 
+    <note>
+     <p> These dates are shown in the following format: <strong>yyyy/MM/dd hh:mm:ss</strong>.<br /> </p> 
+    </note></li>
+  </ul>
+  <h4 id="filtering-data">Filtering data</h4>
+  <p>To ensure efficient operation with the various CRMs, filters need to be created using the following rules:</p> 
+  <ul>
+   <li><p>Each filtering level may only use one type of operator.</p> </li>
+   <li><p>The AND NOT operator is not supported.</p> </li>
+   <li><p>Comparisons may only concern null values ('is empty'/'is not empty' type) or numbers. This means that the value (right-hand column) is assessed and the result of this assessment must be a number. JOIN type comparisons are therefore not supported.</p> </li>
+   <li><p>The value contained in the right-hand column is assessed in JavaScript.</p> </li>
+   <li><p>JOIN comparisons are not supported.</p> </li>
+   <li><p>The expression in the left-hand column must be a field. It cannot be a combination of several expressions, a number, etc.</p> </li>
+  </ul>
+  <p> For instance, the following filtering conditions will NOT be valid for a CRM import, because the OR operator is placed at the same level as the AND operators:</p> 
+  <ul>
+   <li><p>The OR operator is placed at the same level as the AND operators</p> </li>
+   <li><p>Comparisons are carried out on text strings.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/crm_import_wrong_filter.png" title="crm_import_wrong_filter.png" />
+  <h4 id="order-by">Order by</h4>
+  <p>In Microsoft Dynamics and Salesforce.com, you can sort the remote fields to be imported in ascending or descending order.</p> 
+  <p>To do this, click the <strong>Order by</strong> link and add the columns to the list.</p> 
+  <p>The order of the columns in the list is the sorting order:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/crm_import_order.png" title="crm_import_order.png" />
+  <h4 id="record-identification">Record identification</h4>
+  <p>Rather than import elements included (and possibly filtered) in the CRM, you can use a population calculated beforehand in the workflow.</p> 
+  <p>To do this, select the <strong>Use the population calculated upstream</strong> option and specify the field that contains the remote identifier.</p> 
+  <p>Then select the fields of the inbound population that you want to import, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/crm_wf_import_calculated_population.png" title="crm_wf_import_calculated_population.png" />
+  <h3 id="exporting-to-the-crm">Exporting to the CRM</h3>
+  <p>Exporting Adobe Campaign data into the CRM lets you copy entire contents to a CRM database.</p> 
+  <p>To export data towards the CRM, you need to create the following type of workflow:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/crm_export_diagram.png" title="crm_export_diagram.png" />
+  <p>For an export, apply the following configuration to the <strong>CRM Connector</strong> activity:</p> 
+  <ol>
+   <li><p>Select an <strong>Export to CRM</strong> operation.</p> </li>
+   <li><p>Go to the <strong>Remote object</strong> drop-down list and select the object concerned by the process. This object coincides with one of the tables created in Adobe Campaign during connector configuration.</p> 
+    <note>
+      The export function of the 
+     <strong>CRM Connectors</strong> activity can insert or update fields on the CRM side. To enable field updates in the CRM, you need to specify the primary key of the remote table. If the key is missing, data will be inserted (instead of being updated).
+     <br /> 
+    </note></li>
+   <li><p>In the <strong>Mapping</strong> section, specify the fields to be exported and their mapping in the CRM.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_export_config.png" title="crm_export_config.png" /><p>To add a field, click the <strong>Add</strong> button in the toolbar, then click the <strong>Edit expression</strong> icon.</p> 
+    <note>
+     <p> For a given field, if no match is defined on the CRM side, the values cannot be updated: they are inserted directly into the CRM.<br /> </p> 
+    </note><p>If necessary, alter the data format via the drop-down list of the <strong>Conversion</strong> columns. Possible conversion types are detailed in <a href="../../platform/using/crm-connectors.md#data-format" target="_blank">Data format</a>.</p> 
+    <note>
+     <p> The list of records to be exported and the result of the export are saved in a temporary file that remains accessible until the workflow is finished or re-started. This enables you to start the process again in case of errors without running the risk of exporting the same record several times or losing data.<br /> </p> 
+    </note></li>
+  </ol>
+  <h3 id="additional-configurations">Additional configurations</h3>
+  <h4 id="data-format">Data format</h4>
+  <p>You can convert data format on the fly when importing them to or from the CRM.</p> 
+  <p> To do this, select the conversion to be applied in the matching column.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/crm_task_import.png" title="crm_task_import.png" />
+  <p>The <strong>Default</strong> mode applies automatic data conversion, which in most cases equals a copy/paste of the data. However, time zone management is applied.</p> 
+  <p>Other possible conversions are:</p> 
+  <ul>
+   <li><p><strong>Date only</strong>: this mode deletes Date + Time type fields.</p> </li>
+   <li><p><strong>Without time offset</strong>: this mode cancels the time zone management applied in the default mode.</p> </li>
+   <li><p><strong>Copy/Paste</strong>: this mode uses raw data such as strings (no conversion).</p> </li>
+  </ul>
+  <h4 id="error-processing">Error processing</h4>
+  <p>Within the framework of data imports or exports, you can apply a specific process to errors and rejects. To do this, select the <strong>Process rejects</strong> and <strong>Process errors</strong> options in the <strong>Behavior</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/crm_export_options.png" title="crm_export_options.png" />
+  <p>These options place the matching output transitions.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/crm_export_transitions.png" title="crm_export_transitions.png" />
+  <p>Then place the activities relevant to the processes you want to apply. </p> 
+  <p>To process errors for instance, you can add a wait box and schedule retries.</p> 
+  <p>Rejects are collected with their error code and the related message, this means you can set up the tracking of rejects to optimize your synchronization process.</p> 
+  <note>
+   <p> Even when the <strong>Process rejects</strong> option isn't enabled, a warning is generated for each rejected column with an error code and message.<br /> </p> 
+  </note>
+  <p>The <strong>Reject</strong> output transition lets you access the output schema that contains the specific columns relevant to error messages and codes. These columns are:</p> 
+  <ul>
+   <li><p>For Oracle On Demand: <strong>errorLogFilename</strong> (name of the log file on the Oracle side), <strong>errorCode</strong> (error code), <strong>errorSymbol</strong> (error symbol, different from the error code), <strong>errorMessage</strong> (description of the error context).</p> </li>
+   <li><p>For Salesforce.com: <strong>errorSymbol</strong> (error symbol, different from the error code), <strong>errorMessage</strong> (description of the error context).</p> </li>
+  </ul>
+  <h3 id="importing-objects-deleted-in-the-crm">Importing objects deleted in the CRM</h3>
+  <p>To enable the setting up of an extensive data synchronization process, you can import objects deleted in the CRM into Adobe Campaign.</p> 
+  <p>To do this, apply the following steps:</p> 
+  <ol>
+   <li><p>Select an <strong>Import objects deleted in the CRM</strong> operation.</p> </li>
+   <li><p>Go to the <strong>Remote object</strong> drop-down list and select the object concerned by the process. This object coincides with one of the tables created in Adobe Campaign during connector configuration.</p> </li>
+   <li><p>Specify the deletion period to be taken into account in the <strong>Start date</strong> and the <strong>End date</strong> fields. These dates will be included in the period.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/crm_import_deleted_obj.png" title="crm_import_deleted_obj.png" />
+    <note>
+      The element deletion period must coincide with the limitations specific to the CRM. This means that for Salesforce.com, for instance, elements deleted over 30 days ago cannot be recovered. 
+     <br /> 
+    </note></li>
+  </ol>
+  <h3 id="deleting-objects-in-the-crm">Deleting objects in the CRM</h3>
+  <p>To delete objects on the CRM side, you need to specify the primary key of the remote elements to be deleted.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/crm_delete_in_crm.png" title="crm_delete_in_crm.png" />
+  <p>The <strong>Behavior</strong> tab lets you enable the processing of rejects. This option generates a second output transition for the <strong>CRM connector</strong> activity. For more on this, refer to <a href="../../platform/using/crm-connectors.md#error-processing" target="_blank">Error processing</a>.</p> 
+  <note>
+   <p> Even when the <strong>Process rejects</strong> option is disabled, a warning is generated for each rejected column. <br /> </p> 
+  </note>
+ </body>
+</html>

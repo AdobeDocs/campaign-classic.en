@@ -1,0 +1,57 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2019-08-06T06:59:10.623-0400" name="jcr:created" /> 
+  <meta content="46d53372-dc10-4f02-a4b2-66e190fe1560" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="Control rules" name="jcr:description" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Control rules" name="jcr:title" /> 
+  <meta content="5db8c799-e911-4470-8f2d-e701b393824d" name="jcr:uuid" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="audience:campaign" name="primaryAudienceTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Control rules" name="navTitle" /> 
+ </head> 
+ <body> 
+  <h2 id="analysis-and-arbitration-control-rules">Analysis and arbitration control rules</h2> 
+  <p>Control rules let you guarantee the validity and quality of messages prior to delivery: character display, SMS size, address format, etc.</p> 
+  <p>A set of out-of-the-box rules lets you carry out usual checks. These checks (shown in bold in the interface) are:</p> 
+  <ul> 
+   <li><p><strong>Object approval</strong> (email): checks that the sender object and address do not contain special characters which may cause problems on certain mail agents.</p> </li> 
+   <li><p><strong>URL label approval</strong> (email): checks that each tracking URL has a label.</p> </li> 
+   <li><p><strong>URL approval</strong> (email): checks the tracking URLs (presence of the "&amp;" character).</p> </li> 
+   <li><p><strong>Message size approval</strong> (mobile): checks the size of SMS messages.</p> </li> 
+   <li><p><strong>Validity period check</strong> (email): checks that the validity period of the delivery is long enough to send all messages.</p> </li> 
+   <li><p><strong>Proof size check</strong> (all channels): generates an error message if the proof target population exceeds 100 recipients.</p> </li> 
+   <li><p><strong>Wave scheduling check</strong> (email): checks that the last wave of deliveries is scheduled to start before the end of the validity period, if the delivery is broken down into several waves.</p> </li> 
+   <li><p><strong>Unsubscription link approval</strong> (email): checks for the presence of at least one unsubscription (opt-out) URL in each content (HTML and Text).</p> </li> 
+  </ul> 
+  <h2 id="creating-a-control-rule">Creating a control rule</h2> 
+  <p> It is possible to create new control rules to suit your needs. To do this, create a <strong>Control</strong> typology rule and enter the control formula in SQL in the <strong>Code</strong> tab.</p> 
+  <p><strong>Example:</strong></p> 
+  <p>In the following example, we are going to create a rule to prevent an SMS offer from being sent to more than 100 recipients. This rule will be linked to a campaign typology, then to the SMS deliveries for which the concerned offer is available.</p> 
+  <p>Apply the following steps:</p> 
+  <ol> 
+   <li><p>Create a <strong>Control</strong> typology rule. Select a <strong>Warning</strong> alert level. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_control_01.png" title="campaign_opt_create_control_01.png" /></li> 
+   <li><p>In the <strong>Code</strong> tab, enter the script to apply the desired threshold, as shown below:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_control_02.png" title="campaign_opt_create_control_02.png" /><p>This script will trigger a warning if the delivery target exceeds 100 contacts:</p> 
+    <codeblock gutter="true" class="syntax html">
+      if(&amp;nbsp;delivery.FCP&amp;nbsp;==&amp;nbsp;false&amp;nbsp;&amp;&amp;&amp;nbsp;delivery.properties.toDeliver&amp;nbsp;&gt;&amp;nbsp;100&amp;nbsp;)&amp;nbsp;{&amp;nbsp;logWarning("Significant&amp;nbsp;number&amp;nbsp;of&amp;nbsp;SMS&amp;nbsp;to&amp;nbsp;deliver&amp;nbsp;("&amp;nbsp;+&amp;nbsp;delivery.properties.toDeliver&amp;nbsp;+&amp;nbsp;").&amp;nbsp;Please&amp;nbsp;make&amp;nbsp;sure&amp;nbsp;the&amp;nbsp;target&amp;nbsp;is&amp;nbsp;correct.")&amp;nbsp;return&amp;nbsp;false;&amp;nbsp;}&amp;nbsp;return&amp;nbsp;true!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Link this rule to a campaign typology and reference the typology in the concerned SMS delivery.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_control_03.png" title="campaign_opt_create_control_03.png" /></li> 
+   <li><p>During delivery analysis, the rule is applied and a warning is created if applicable.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_control_04.png" title="campaign_opt_create_control_04.png" /><p>However, the delivery will still be ready for sending.</p> <p> If you increase the alert level, this will prevent the delivery from starting.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_control_05.png" title="campaign_opt_create_control_05.png" /><p>At the end of the analysis, the <strong>Confirm delivery</strong> button will not be available.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_control_06.png" title="campaign_opt_create_control_06.png" /></li> 
+  </ol> 
+ </body> 
+</html>

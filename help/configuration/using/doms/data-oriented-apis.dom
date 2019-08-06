@@ -1,0 +1,333 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="1d1609ab-d6c2-4b0b-8848-c5d5e0f98e3a" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Data oriented APIs" name="jcr:description" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="d73cc43b-e7c4-4996-b899-9e5094185d9c" name="jcr:predecessors" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Data oriented APIs" name="jcr:title" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="Data oriented APIs" name="navTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-08-06T06:59:44.293-0400" name="jcr:created" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="light" name="heroGradient" /> 
+ </head> 
+ <body> 
+  <p>Data oriented APIs let you address the entire datamodel.</p> 
+  <h2 id="overview-of-the-datamodel">Overview of the datamodel</h2> 
+  <p>Adobe Campaign does not offer a dedicated read API per entity (no getRecipient or getDelivery function, etc.). Use the QUERY &amp; WRITER data read and modification methods to access the data of the model.</p> 
+  <p>Adobe Campaign lets you manage collections: queries enable you to recover a set of information collected throughout the base. Unlike access in SQL mode, Adobe Campaign APIs return an XML tree instead of data columns. Adobe Campaign thus creates composite documents with all the collected data.</p> 
+  <p>This operating mode does not offer one-to-one mapping between the attributes and elements of the XML documents and the columns of the tables in the database.</p> 
+  <p>XML documents are stored in MEMO type fields of the database. </p> 
+  <h2 id="description-of-the-model">Description of the model</h2> 
+  <p>You must be familiar with the Adobe Campaign data model to be able to address the fields of the database in your scripts.</p> 
+  <p>For a presentation of the data model, refer to the <a href="https://docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html">Adobe Campaign Data model description</a>.</p> 
+  <p> In order to generate its structure, refer to this article: <a href="https://helpx.adobe.com/campaign/kb/generate-data-model.html">How to generate a Data Model or Data Dictionary</a>.</p> 
+  <h2 id="query-and-writer">Query and Writer</h2> 
+  <p>The following introduction schema details low level exchanges for reading (ExecuteQuery) and writing (Writer) between database and customer (web pages or Adobe Campaign client console).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_integration_webservices_schema_writer.png" title="s_ncs_integration_webservices_schema_writer.png" /> 
+  <h3 id="executequery">ExecuteQuery</h3> 
+  <p>For columns and conditions, you can use Queries.</p> 
+  <p>This lets you isolate the underlying SQL. The query language does not depend on the underlying engine: some functions will be re-mapped, which may generate several SELECT SQL orders.</p> 
+  <p>For more on this, refer to <a href="../../configuration/using/data-oriented-apis.md#example-on-the--executequery--method-of-schema--xtk-querydef-" target="_blank">Example on the 'ExecuteQuery' method of schema 'xtk:queryDef'</a>.</p> 
+  <p>The <strong>ExecuteQuery</strong> method is presented in <a href="../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-" target="_blank">ExecuteQuery (xtk:queryDef)</a>.</p> 
+  <h3 id="write">Write</h3> 
+  <p>Write commands let you write simple or complex documents, with entries in one or more tables of the base.</p> 
+  <p>Transactional APIs let you manage reconciliations via the <strong>updateOrInsert</strong> command: one command lets you create or update data. You can also configure modification merging (<strong>merge</strong>): this operating mode lets you authorize partial updates.</p> 
+  <p>The XML structure offers a logical view of the data and lets you sidestep the physical structure of the SQL table.</p> 
+  <p>The Write method is presented in <a href="../../configuration/using/data-oriented-apis.md#write---writecollection--xtk-session-" target="_blank">Write / WriteCollection (xtk:session)</a>.</p> 
+  <h2 id="executequery--xtk-querydef-">ExecuteQuery (xtk:queryDef)</h2> 
+  <p>This method lets you perform queries from data associated with a schema. It takes an authentication string (must be logged in) and an XML document describing the query to be submitted as parameters. The return parameter is an XML document containing the result of the query in the format of the schema to which the query refers.</p> 
+  <p>Definition of the "ExecuteQuery" method in the "xtk:queryDef" schema:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;method&amp;nbsp;name="ExecuteQuery"&amp;nbsp;const="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;parameters&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;desc="Output&amp;nbsp;XML&amp;nbsp;document"&amp;nbsp;name="output"&amp;nbsp;type="DOMDocument"&amp;nbsp;inout="out"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/parameters&gt;!!discoiqbr!!&lt;/method&gt;!!discoiqbr!! 
+  </codeblock> 
+  <note> 
+   <p> This is a "const" method. The input parameters are included in an XML document in the format of the "xtk:queryDef" schema.<br /> </p> 
+  </note> 
+  <h3 id="format-of-the-xml-document-of-the-input-query">Format of the XML document of the input query</h3> 
+  <p>The structure of the XML document of the query is described in the "xtk:queryDef " schema. This document describes the clauses of a SQL query: "select", "where", "order by", "group by", "having".</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;queryDef&amp;nbsp;schema="schema_key"&amp;nbsp;operation="operation_type"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="expression1"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="expression2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;where&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="expression1"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="expression2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;orderBy&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="expression1"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="expression2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/ordery&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupBy&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="expression1"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="expression2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/groupBy&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;having&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="expression1"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="expression2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/having&gt;!!discoiqbr!!&lt;/queryDef&gt; 
+  </codeblock> 
+  <p>A sub-query ( 
+   <subquery>
+     ) can be defined in a 
+    <condition>
+      element. The syntax for a 
+     <subquery>
+       element is based on the syntax of a 
+      <querydef>
+        . 
+      </querydef> 
+     </subquery> 
+    </condition> 
+   </subquery></p> 
+  <p>Example of a 
+   <subquery>
+     : 
+   </subquery></p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!&lt;condition&amp;nbsp;setOperator="NOT&amp;nbsp;IN"&amp;nbsp;expr="@id"&amp;nbsp;enabledIf="$(/ignored/@ownerType)=1"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;subQuery&amp;nbsp;schema="xtk:operatorGroup"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="[@operator-id]"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="[@group-id]=$long(../@owner-id)"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/subQuery&gt;!!discoiqbr!!&lt;/condition&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp; 
+  </codeblock> 
+  <p>A query must reference a start schema from the <strong>schema</strong> attribute.</p> 
+  <p>The type of operation desired is entered in the <strong>operation</strong> attribute and contains one of the following values:</p> 
+  <ul> 
+   <li><p><strong>get</strong>: retrieves a record from the table and returns an error if the data does not exist,</p> </li> 
+   <li><p><strong>getIfExists</strong>: retrieves a record from the table and returns an empty document if the data does not exist,</p> </li> 
+   <li><p><strong>select</strong>: creates a cursor to return several records and returns an empty document if there is no data,</p> </li> 
+   <li><p><strong>count</strong>: returns a data count.</p> </li> 
+  </ul> 
+  <p>The <strong>XPath</strong> syntax is used to locate data based on the input schema. For further information about XPaths, refer to <a href="../../configuration/using/data-schemas.md" target="_blank">Data schemas</a>. </p> 
+  <h4 id="example-with-the--get--operation">Example with the 'get' operation</h4> 
+  <p>Retrieves the last name and first name of a recipient ("nms:recipient" schema) with a filter on the e-mail.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;queryDef&amp;nbsp;schema="nms:recipient"&amp;nbsp;operation="get"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;fields&amp;nbsp;to&amp;nbsp;retrieve&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@firstName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@lastName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/select&gt;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;condition&amp;nbsp;on&amp;nbsp;email&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;where&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@email=&amp;nbsp;'john.doe@aol.com'"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/where&gt;!!discoiqbr!!&lt;/queryDef&gt;!!discoiqbr!! 
+  </codeblock> 
+  <h4 id="example-with-the--select--operation">Example with the 'select' operation</h4> 
+  <p>Returns the list of recipients filtered on a folder and the e-mail domain with a sort in descending order on date of birth.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;queryDef&amp;nbsp;schema="nms:recipient"&amp;nbsp;operation="select"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;builds&amp;nbsp;a&amp;nbsp;string&amp;nbsp;with&amp;nbsp;the&amp;nbsp;concatenation&amp;nbsp;of&amp;nbsp;the&amp;nbsp;last&amp;nbsp;name&amp;nbsp;and&amp;nbsp;first&amp;nbsp;name&amp;nbsp;separated&amp;nbsp;by&amp;nbsp;a&amp;nbsp;dash&amp;nbsp;--&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@lastName+'-'+@firstName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;get&amp;nbsp;year&amp;nbsp;of&amp;nbsp;birth&amp;nbsp;date&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="Year(@birthDate)"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/select&gt;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;where&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="[@folder-id]&amp;nbsp;=&amp;nbsp;1234&amp;nbsp;and&amp;nbsp;@domain&amp;nbsp;like&amp;nbsp;'Adobe%'"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/where&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;order&amp;nbsp;by&amp;nbsp;birth&amp;nbsp;date&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;orderBy&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@birthDate"&amp;nbsp;sortDesc="true"/&gt;&amp;nbsp;&lt;!--&amp;nbsp;by&amp;nbsp;default&amp;nbsp;sortDesc="false"&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/orderBy&gt;!!discoiqbr!!&lt;/queryDef&gt; 
+  </codeblock> 
+  <p>Expressions can be simple fields or complex expressions such as arithmetic operations or the concatenation of strings.</p> 
+  <p>To limit the number of records to be returned, add the <strong>lineCount</strong> attribute to the 
+   <querydef p=""> 
+   </querydef></p> 
+  <p>To limit the number of records returned by the query to 100:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;queryDef&amp;nbsp;schema="nms:recipient"&amp;nbsp;operation="select"&amp;nbsp;lineCount="100"&gt;!!discoiqbr!!... 
+  </codeblock> 
+  <p>To retrieve the next 100 records, run the same query again, adding the <strong>startLine</strong> attribute.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;queryDef&amp;nbsp;schema="nms:recipient"&amp;nbsp;operation="select"&amp;nbsp;lineCount="100"&amp;nbsp;startLine="100"&gt;!!discoiqbr!!... 
+  </codeblock> 
+  <h4 id="example-with-the--count--operation">Example with the 'count' operation</h4> 
+  <p>To count the number of records on a query:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;queryDef&amp;nbsp;schema="nms:recipient"&amp;nbsp;operation="count""&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;condition&amp;nbsp;on&amp;nbsp;the&amp;nbsp;folder&amp;nbsp;and&amp;nbsp;domain&amp;nbsp;of&amp;nbsp;the&amp;nbsp;e-mail&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;where&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="[@folder-id]&amp;nbsp;=&amp;nbsp;1234"&amp;nbsp;and&amp;nbsp;@domain&amp;nbsp;like&amp;nbsp;'Adobe%'"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/where&gt;!!discoiqbr!!&lt;/queryDef&gt; 
+  </codeblock> 
+  <note> 
+   <p> Again we use the condition from the previous example. The <select> and clauses are not used. </select></p> 
+  </note> 
+  <h4 id="data-grouping">Data grouping</h4> 
+  <p>To retrieve e-mail addresses referenced more than once:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;queryDef&amp;nbsp;schema="nms:recipient"&amp;nbsp;operation="select"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="count(@email)"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/select&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;e-mail&amp;nbsp;grouping&amp;nbsp;clause&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupby&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/groupby&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;grouping&amp;nbsp;condition&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;having&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="count(@email)&amp;nbsp;&gt;&amp;nbsp;1"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/having&gt;!!discoiqbr!!!!discoiqbr!!&lt;/queryDef&gt;!!discoiqbr!! 
+  </codeblock> 
+  <p>The query can be simplified by adding the <strong>groupBy</strong> attribute directly to the field to be grouped:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@email"&amp;nbsp;groupBy="true"/&gt;!!discoiqbr!!&lt;/select&gt;!!discoiqbr!! 
+  </codeblock> 
+  <note> 
+   <p> It is no longer necessary to populate the 
+    <groupby>
+      element. 
+     <br /> 
+    </groupby></p> 
+  </note> 
+  <h4 id="bracketing-in-conditions">Bracketing in conditions</h4> 
+  <p>Here are two examples of bracketing on the same condition.</p> 
+  <ul> 
+   <li><p>The simple version in a single expression:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="(@age&amp;nbsp;&gt;&amp;nbsp;15&amp;nbsp;or&amp;nbsp;@age&amp;nbsp;&lt;=&amp;nbsp;45)&amp;nbsp;and&amp;nbsp;&amp;nbsp;(@city&amp;nbsp;=&amp;nbsp;'Newton'&amp;nbsp;or&amp;nbsp;@city&amp;nbsp;=&amp;nbsp;'Culver&amp;nbsp;City')&amp;nbsp;"/&gt;!!discoiqbr!!&lt;/where&gt;!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>The structured version with 
+     <condition>
+       elements: 
+     </condition></p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;bool-operator="AND"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@age&amp;nbsp;&gt;&amp;nbsp;15"&amp;nbsp;bool-operator="OR"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@age&amp;nbsp;&lt;=&amp;nbsp;45"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/condition&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;condition&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@city&amp;nbsp;=&amp;nbsp;'Newton'"&amp;nbsp;bool-operator="OR"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@city&amp;nbsp;=&amp;nbsp;'Culver&amp;nbsp;City'"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/condition&gt;!!discoiqbr!!&lt;/where&gt;!!discoiqbr!! 
+    </codeblock></li> 
+  </ul> 
+  <p>It is possible to replace the 'OR' operator with the 'IN' operation when several conditions apply to the same field:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;condition&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@age&amp;nbsp;IN&amp;nbsp;(15,&amp;nbsp;45)"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@city&amp;nbsp;IN&amp;nbsp;('Newton',&amp;nbsp;'Culver&amp;nbsp;City')"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/condition&gt;!!discoiqbr!!&lt;/where&gt;!!discoiqbr!! 
+  </codeblock> 
+  <p>This syntax simplifies the query when more than two data are used in the condition.</p> 
+  <h4 id="-
+examples-on-links">Examples on links</h4> 
+  <ul> 
+   <li><p>Links 1-1 or N1: when the table has the foreign key (the link starts from the table), the fields of the linked table can be filtered or retrieved directly.</p> <p>Example of a filter on the folder label:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="[folder/@label]&amp;nbsp;like&amp;nbsp;'Segment%'"/&gt;!!discoiqbr!!&lt;/where&gt;!!discoiqbr!! 
+    </codeblock><p>To retrieve the fields of the folder from the "nms:recipient" schema:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;label&amp;nbsp;of&amp;nbsp;recipient&amp;nbsp;folder&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="[folder/@label]"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;displays&amp;nbsp;the&amp;nbsp;string&amp;nbsp;count&amp;nbsp;of&amp;nbsp;the&amp;nbsp;folder&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="partition"/&gt;!!discoiqbr!!&lt;/select&gt; 
+    </codeblock></li> 
+   <li><p>Collection links (1N): the filtering on the fields of a collection table must be performed via the <strong>EXISTS</strong> or <strong>NOT EXISTS</strong> operator.</p> <p>To filter the recipients who have subscribed to the 'Newsletter' information service:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="subscription"&amp;nbsp;setOperator="EXISTS"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@name&amp;nbsp;=&amp;nbsp;'Newsletter'"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/condition&gt;!!discoiqbr!!&lt;/where&gt;!!discoiqbr!! 
+    </codeblock><p>Direct retrieval of the fields of a collection link from the <select> clause is not recommended because the query returns a cardinal product. It is used only when the linked table contains only one record (example </select></p><p>Example on the "subscription" collection link:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="subscription/@label"/&gt;!!discoiqbr!!&lt;/select&gt; 
+    </codeblock><p>It is possible to retrieve a sub-list containing the elements of a collection link in the <select> clause. The XPaths of the referenced fields are contextual from the collection element. </select></p><p>The filtering ( 
+     <orderby>
+       ) and restriction ( 
+      <where>
+        ) elements can be added to the collection element. 
+      </where> 
+     </orderby></p> <p>In this example, for each recipient the query returns the e-mail and list of information services to which the recipient subscribes:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;queryDef&amp;nbsp;schema="nms:recipient"&amp;nbsp;operation="select"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;collection&amp;nbsp;table&amp;nbsp;(unbound&amp;nbsp;type)&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="subscription"&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="[service/@label]"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;sub-condition&amp;nbsp;on&amp;nbsp;the&amp;nbsp;collection&amp;nbsp;table&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;where&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@expirationDate&amp;nbsp;&gt;=&amp;nbsp;GetDate()"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;orderBy&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@expirationDate"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/orderBy&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/select&gt;&amp;nbsp;!!discoiqbr!!&lt;/queryDef&gt; 
+    </codeblock></li> 
+  </ul> 
+  <h4 id="binding-the-parameters-of-the--where--and--select--clause">Binding the parameters of the 'where' and 'select' clause</h4> 
+  <p>The binding of parameters lets the engine set the values of the parameters used in the query. This is very useful, since the engine is in charge of the escaping of values, and there is the additional benefit of a cache for the parameters to be retrieved. </p> 
+  <p>When a query is constructed, the "bound" values are replaced by a character (? in ODBC, #[index]# in postgres...) in the body of the SQL query.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--the&amp;nbsp;value&amp;nbsp;will&amp;nbsp;be&amp;nbsp;bound&amp;nbsp;by&amp;nbsp;the&amp;nbsp;engine&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@startDate&amp;nbsp;=&amp;nbsp;#2002/02/01#"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;the&amp;nbsp;value&amp;nbsp;will&amp;nbsp;not&amp;nbsp;be&amp;nbsp;bound&amp;nbsp;by&amp;nbsp;the&amp;nbsp;engine&amp;nbsp;but&amp;nbsp;visible&amp;nbsp;directly&amp;nbsp;in&amp;nbsp;the&amp;nbsp;query&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@startDate&amp;nbsp;=&amp;nbsp;#2002/02/01#"&amp;nbsp;noSqlBind="true"/&gt;&amp;nbsp;!!discoiqbr!!&lt;/select&gt;!!discoiqbr!! 
+  </codeblock> 
+  <p>To avoid binding a parameter, the "noSqlBind" attribute must be populated with the value 'true'.</p> 
+  <note>
+    If the query includes "order-by" or "group-by" instructions, the database engines will not be able to "bind" values. You must place the @noSqlBind="true" attribute on the "select" and/or "where" instructions of the query. 
+   <br /> 
+  </note> 
+  <h4 id="query-building-tip-">Query-building tip:</h4> 
+  <p>To help with the syntax of a query, you can write the query using the generic query editor in the Adobe Campaign client console (<strong>Tools/ Generic query editor...</strong> menu). To do this:</p> 
+  <ol> 
+   <li><p>Select the data to be retrieved:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_integration_webservices_queyr1.png" title="s_ncs_integration_webservices_queyr1.png" /></li> 
+   <li><p>Define the filter condition:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_integration_webservices_queyr2.png" title="s_ncs_integration_webservices_queyr2.png" /></li> 
+   <li><p>Execute the query and press CTRL+F4 to view the query source code. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_integration_webservices_queyr3.png" title="s_ncs_integration_webservices_queyr3.png" /></li> 
+  </ol> 
+  <h3 id="output-document-format">Output document format</h3> 
+  <p>The return parameter is an XML document in the format of the schema associated with the query.</p> 
+  <p>Example of a return from the "nms:recipient" schema on a "get" operation:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;recipient&amp;nbsp;email="john.doe@adobe.com"&amp;nbsp;lastName"Doe"&amp;nbsp;firstName="John"/&gt; 
+  </codeblock> 
+  <p>On a "select" operation, the document returned is an enumeration of elements:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;!--&amp;nbsp;the&amp;nbsp;name&amp;nbsp;of&amp;nbsp;the&amp;nbsp;first&amp;nbsp;element&amp;nbsp;does&amp;nbsp;not&amp;nbsp;matter&amp;nbsp;--&gt;!!discoiqbr!!&lt;recipient-collection&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;recipient&amp;nbsp;email="john.doe@adobe.com"&amp;nbsp;lastName"Doe"&amp;nbsp;firstName="John"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;recipient&amp;nbsp;email="peter.martinez@adobe.com"&amp;nbsp;lastName"Martinez"&amp;nbsp;firstName="Peter"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;recipient...!!discoiqbr!!&lt;/recipient-collection&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! 
+  </codeblock> 
+  <p>Example of a document returned for "count" type operation:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;recipient&amp;nbsp;count="3"/&gt; 
+  </codeblock> 
+  <h4 id="alias">Alias</h4> 
+  <p>An alias lets you modify the location of data in the output document. The <strong>alias</strong> attribute must specify an XPath on the corresponding field. </p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;queryDef&amp;nbsp;schema="nms:recipient"&amp;nbsp;operation="get"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@firstName"&amp;nbsp;alias="@firstName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@lastName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="[folder/@label]"&amp;nbsp;alias="@My_folder"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/select&gt;&amp;nbsp;!!discoiqbr!!&lt;/queryDef&gt; 
+  </codeblock> 
+  <p>Returns: </p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;recipient&amp;nbsp;My_folder="Recipients"&amp;nbsp;First&amp;nbsp;name&amp;nbsp;="John"&amp;nbsp;lastName="Doe"/&gt; 
+  </codeblock> 
+  <p>Instead of:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;recipient&amp;nbsp;firstName="John"&amp;nbsp;lastName="Doe"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;folder&amp;nbsp;label="Recipients"/&gt;!!discoiqbr!!&lt;/recipient&gt;!!discoiqbr!! 
+  </codeblock> 
+  <h3 id="example-of-soap-messages">Example of SOAP messages</h3> 
+  <ul> 
+   <li><p>Query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;?xml&amp;nbsp;version='1.0'&amp;nbsp;encoding='ISO-8859-1'?&gt;!!discoiqbr!!&lt;SOAP-ENV:Envelope&amp;nbsp;xmlns:xsd='http://www.w3.org/2001/XMLSchema'&amp;nbsp;xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'&amp;nbsp;xmlns:ns='http://xml.apache.org/xml-soap'&amp;nbsp;xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;SOAP-ENV:Body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ExecuteQuery&amp;nbsp;xmlns='urn:xtk:queryDef'&amp;nbsp;SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;__sessiontoken&amp;nbsp;xsi:type='xsd:string'/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;entity&amp;nbsp;xsi:type='ns:Element'&amp;nbsp;SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;queryDef&amp;nbsp;operation="get"&amp;nbsp;schema="nms:recipient"&amp;nbsp;xtkschema="xtk:queryDef"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@lastName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@firstName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@id&amp;nbsp;=&amp;nbsp;3599"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/queryDef&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/entity&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ExecuteQuery&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/SOAP-ENV:Body&gt;!!discoiqbr!!&lt;/SOAP-ENV:Envelope&gt;!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Response:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;?xml&amp;nbsp;version='1.0'&amp;nbsp;encoding='ISO-8859-1'?&gt;!!discoiqbr!!&lt;SOAP-ENV:Envelope&amp;nbsp;xmlns:xsd='http://www.w3.org/2001/XMLSchema'&amp;nbsp;xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'&amp;nbsp;xmlns:ns='http://xml.apache.org/xml-soap'&amp;nbsp;xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;SOAP-ENV:Body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ExecuteQueryResponse&amp;nbsp;xmlns='urn:xtk:queryDef'&amp;nbsp;SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;pdomOutput&amp;nbsp;xsi:type='ns:Element'&amp;nbsp;SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;recipient&amp;nbsp;email="john.doe@adobe.com"&amp;nbsp;lastName"Doe"&amp;nbsp;firstName="John"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/pdomOutput&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ExecuteQueryResponse&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/SOAP-ENV:Body&gt;!!discoiqbr!!&lt;/SOAP-ENV:Envelope&gt;!!discoiqbr!! 
+    </codeblock></li> 
+  </ul> 
+  <h2 id="write---writecollection--xtk-session-">Write / WriteCollection (xtk:session)</h2> 
+  <p>These services are used to insert, update, or delete an entity ("Write" method) or a collection of entities ("WriteCollection" method).</p> 
+  <p>The entities to be updated are associated with a data schema. The input parameters are an authentication string (must be logged in) and an XML document containing the data to be updated.</p> 
+  <p>This document is supplemented by instructions for configuring the write procedures.</p> 
+  <p>The call does not return any data, except errors.</p> 
+  <p>Definition of the "Write" and "WriteCollection" methods in the "xtk:session" schema:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;method&amp;nbsp;name="Write"&amp;nbsp;static="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;parameters&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;name="doc"&amp;nbsp;type="DOMDocument"&amp;nbsp;desc="Difference&amp;nbsp;document"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/parameters&gt;!!discoiqbr!!&lt;/method&gt;!!discoiqbr!!&lt;method&amp;nbsp;name="WriteCollection"&amp;nbsp;static="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;parameters&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;name="doc"&amp;nbsp;type="DOMDocument"&amp;nbsp;desc="Difference&amp;nbsp;collection&amp;nbsp;document"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/parameters&gt;!!discoiqbr!!&lt;/method&gt;!!discoiqbr!! 
+  </codeblock> 
+  <note> 
+   <p> This is a "static" method. The input parameters are included in an XML document in the format of the schema to be updated.<br /> </p> 
+  </note> 
+  <h3 id="overview">Overview</h3> 
+  <p>Data reconciliation operates based on the definition of the keys entered in the associated schema. The write procedure looks for the first eligible key based on the data entered in the input document. The entity is inserted or updated based on its existence in the database.</p> 
+  <p>The key of the schema of the entity to be updated is completed based on the <strong>xtkschema</strong> attribute.</p> 
+  <p>The reconciliation key can therefore be forced with the <strong>_key</strong> attribute containing the list of XPaths that make up the key (separated by commas).</p> 
+  <p>It is possible to force the type of operation by populating the <strong>_operation</strong> attribute with the following values: </p> 
+  <ul> 
+   <li><p><strong>insert</strong>: forces the insertion of the record (the reconciliation key is not used),</p> </li> 
+   <li><p><strong>insertOrUpdate</strong>: updates or inserts the record depending on the reconciliation key (default mode),</p> </li> 
+   <li><p><strong>update</strong>: updates the record; does nothing if the data does not exist,</p> </li> 
+   <li><p><strong>delete</strong>: deletes the records,</p> </li> 
+   <li><p><strong>none</strong>: used only for link reconciliation, without update or insertion.</p> </li> 
+  </ul> 
+  <h3 id="example-with-the--write--method">Example with the 'Write' method</h3> 
+  <p>Updating or inserting a recipient (implicit "insertOrUpdate" operation) with e-mail address, date of birth and town:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;recipient&amp;nbsp;xtkschema="nms:recipient"&amp;nbsp;email="john.doe@adobe.com"&amp;nbsp;birthDate="1956/05/04"&amp;nbsp;folder-id=1203&amp;nbsp;_key="@email,&amp;nbsp;[@folder-id]"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;location&amp;nbsp;city="Newton"/&gt;!!discoiqbr!!&lt;/recipient&gt;!!discoiqbr!! 
+  </codeblock> 
+  <p>Deleting a recipient:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;recipient&amp;nbsp;xtkschema="nms:recipient"&amp;nbsp;_operation="delete"&amp;nbsp;email="rene.dupont@adobe.com"&amp;nbsp;folder-id=1203&amp;nbsp;_key="@email,&amp;nbsp;[@folder-id]"/&gt;!!discoiqbr!! 
+  </codeblock> 
+  <note> 
+   <p> For a deletion operation, the input document must contain only the fields that make up the reconciliation key.<br /> </p> 
+  </note> 
+  <h3 id="example-with-the--writecollection--method">Example with the 'WriteCollection' method</h3> 
+  <p>Update or insertion for several recipients:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;recipient-collection&amp;nbsp;xtkschema="nms:recipient"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;recipient&amp;nbsp;email="john.doe@adobe.com"&amp;nbsp;firstName="John"&amp;nbsp;lastName="Doe"&amp;nbsp;_key="@email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;recipient&amp;nbsp;email="peter.martinez@adobe.com"&amp;nbsp;firstName="Peter"&amp;nbsp;lastName="Martinez"&amp;nbsp;_key="@email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;recipient&amp;nbsp;...!!discoiqbr!!&lt;/recipient-collection&gt;!!discoiqbr!! 
+  </codeblock> 
+  <h3 id="example-on-links">Example on links</h3> 
+  <h4 id="example-1">Example 1</h4> 
+  <p>Associating the folder with a recipient based on its internal name (@name).</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;recipient&amp;nbsp;_key="[folder/@name],&amp;nbsp;@email"&amp;nbsp;email="john.doe@adobe.net"&amp;nbsp;lastName="Doe"&amp;nbsp;firstName="John"&amp;nbsp;xtkschema="nms:recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;folder&amp;nbsp;name="Folder2"&amp;nbsp;_operation="none"/&gt;!!discoiqbr!!&lt;/recipient&gt; 
+  </codeblock> 
+  <p>The "_key" and "_operation" attributes can be entered on a linked element. The behavior on this element is the same as on the main element of the input schema.</p> 
+  <p>The definition of the key of the main entity ("nms:recipient") consists of a field from a linked table (element 
+   <folder>
+     schema "xtk:folder") and the e-mail. 
+   </folder></p> 
+  <note> 
+   <p> The operation "none" entered on the folder element defines a reconciliation on the folder without update or insert.<br /> </p> 
+  </note> 
+  <h4 id="example-2">Example 2</h4> 
+  <p>Updating the company (linked table in "cus:company" schema) from a recipient:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;recipient&amp;nbsp;_key="[folder/@name],&amp;nbsp;@email"&amp;nbsp;email="john.doe@adobe.net"&amp;nbsp;lastName="Doe"&amp;nbsp;firstName="John"&amp;nbsp;xtkschema="nms:recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;company&amp;nbsp;name="adobe"&amp;nbsp;code="ERT12T"&amp;nbsp;_key="@name"&amp;nbsp;_operation="update"/&gt;!!discoiqbr!!&lt;/recipient&gt; 
+  </codeblock> 
+  <h4 id="example-3">Example 3</h4> 
+  <p>Adding a recipient to a group with the group relation table ("nms:rcpGrpRel"):</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;recipient&amp;nbsp;_key="@email"&amp;nbsp;email="martin.ledger@adobe.net"&amp;nbsp;xtkschema="nms:recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;rcpGrpRel&amp;nbsp;_key="[rcpGroup/@name]"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rcpGroup&amp;nbsp;name="GRP1"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/rcpGrpRel&gt;!!discoiqbr!!&lt;/recipient&gt; 
+  </codeblock> 
+  <note> 
+   <p> The definition of the key is not entered in the 
+    <rcpgroup>
+      element because an implicit key based on the group name is defined in the "nms:group" schema. 
+     <br /> 
+    </rcpgroup></p> 
+  </note> 
+  <h3 id="xml-collection-elements">XML collection elements</h3> 
+  <p>By default, all the collection elements must be populated in order to update the XML collection elements. Data from the database will be replaced with data from the input document. If the document contains only the elements to be updated, you must populate the "_operation" attribute on all collection elements to be updated in order to force a merge with the XML data of the database.</p> 
+  <h3 id="example-of-soap-messages">Example of SOAP messages</h3> 
+  <ul> 
+   <li><p>Query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;?xml&amp;nbsp;version='1.0'&amp;nbsp;encoding='ISO-8859-1'?&gt;!!discoiqbr!!&lt;SOAP-ENV:Envelope&amp;nbsp;xmlns:xsd='http://www.w3.org/2001/XMLSchema'&amp;nbsp;xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'&amp;nbsp;xmlns:ns='http://xml.apache.org/xml-soap'&amp;nbsp;xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;SOAP-ENV:Body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;Write&amp;nbsp;xmlns='urn:xtk:persist'&amp;nbsp;SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;__sessiontoken&amp;nbsp;xsi:type='xsd:string'/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;domDoc&amp;nbsp;xsi:type='ns:Element'&amp;nbsp;SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;recipient&amp;nbsp;xtkschema="nms:recipient"&amp;nbsp;email="rene.dupont@adobe.com"&amp;nbsp;firstName="René"&amp;nbsp;lastName="Dupont"&amp;nbsp;_key="@email"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/domDoc&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/Write&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/SOAP-ENV:Body&gt;!!discoiqbr!!&lt;/SOAP-ENV:Envelope&gt;!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Response:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;?xml&amp;nbsp;version='1.0'&amp;nbsp;encoding='ISO-8859-1'?&gt;!!discoiqbr!!&lt;SOAP-ENV:Envelope&amp;nbsp;xmlns:xsd='http://www.w3.org/2001/XMLSchema'&amp;nbsp;xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'&amp;nbsp;xmlns:ns='http://xml.apache.org/xml-soap'&amp;nbsp;xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;SOAP-ENV:Body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;WriteResponse&amp;nbsp;xmlns='urn:'&amp;nbsp;SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/WriteResponse&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/SOAP-ENV:Body&gt;!!discoiqbr!!&lt;/SOAP-ENV:Envelope&gt;!!discoiqbr!! 
+    </codeblock><p>Return with error:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;?xml&amp;nbsp;version='1.0'?&gt;!!discoiqbr!!&lt;SOAP-ENV:Envelope&amp;nbsp;xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;nbsp;xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&amp;nbsp;xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;SOAP-ENV:Body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;SOAP-ENV:Fault&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;faultcode&gt;SOAP-ENV:Server&lt;/faultcode&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;faultstring&amp;nbsp;xsi:type="xsd:string"&gt;Error&amp;nbsp;while&amp;nbsp;executing&amp;nbsp;the&amp;nbsp;method&amp;nbsp;'Write'&amp;nbsp;of&amp;nbsp;service&amp;nbsp;'xtk:persist'.&lt;/faultstring&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;detail&amp;nbsp;xsi:type="xsd:string"&gt;PostgreSQL&amp;nbsp;error:&amp;nbsp;ERROR:&amp;nbsp;&amp;nbsp;duplicate&amp;nbsp;key&amp;nbsp;violates&amp;nbsp;unique&amp;nbsp;constraint&amp;nbsp;&amp;quot;nmsrecipient_id&amp;quot;Impossible&amp;nbsp;to&amp;nbsp;save&amp;nbsp;document&amp;nbsp;of&amp;nbsp;type&amp;nbsp;'Recipients&amp;nbsp;(nms:recipient)'&lt;/detail&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/SOAP-ENV:Fault&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/SOAP-ENV:Body&gt;!!discoiqbr!!&lt;/SOAP-ENV:Envelope&gt; 
+    </codeblock></li> 
+  </ul> 
+ </body> 
+</html>

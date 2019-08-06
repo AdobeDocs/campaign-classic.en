@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Restricting PII view" name="navTitle" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="d5e2cb28-58ce-4233-bf48-2881414ad456" name="jcr:predecessors" /> 
+  <meta content="d32275c5-c1bb-4fca-9efa-be3e1fc6c198" name="jcr:uuid" /> 
+  <meta content="Restricting PII view" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="2019-08-06T06:59:43.383-0400" name="jcr:created" /> 
+  <meta content="Restricting PII view" name="jcr:description" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <h2 id="overview">Overview</h2> 
+  <p>Some customers need marketing users to be able to access data records but do not want them to see Personally Identifiable Information (PII), such as first name, last name or email address. Adobe Campaign proposes a way to protect privacy and prevent data from being misused by regular campaign operators.</p> 
+  <h2 id="implementation">Implementation</h2> 
+  <p>A new attribute that can be applied to any element or attribute has been added to the schemas, it complements the existing attribute <strong>visibleIf</strong>. This attribute is: <strong>accessibleIf</strong>. When containing an XTK expression related to the current user context, it can leverage <strong>HasNamedRight</strong> or <strong>$(login)</strong>, for instance.</p> 
+  <p>You can find a sample of a recipient schema extension that shows this usage below:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;srcSchema&amp;nbsp;desc="Recipient&amp;nbsp;table&amp;nbsp;(profiles"&amp;nbsp;entitySchema="xtk:srcSchema"&amp;nbsp;extendedSchema="nms:recipient"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;img="nms:recipient.png"&amp;nbsp;label="Recipients"&amp;nbsp;labelSingular="Recipient"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="recipient"&amp;nbsp;namespace="sec"&amp;nbsp;xtkschema="xtk:srcSchema"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;desc="Recipient&amp;nbsp;table&amp;nbsp;(profiles"&amp;nbsp;img="nms:recipient.png"&amp;nbsp;label="Recipients"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;labelSingular="Recipient"&amp;nbsp;name="recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="firstName"&amp;nbsp;accessibleIf="$(login)=='admin'"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="lastName"&amp;nbsp;visibleIf="$(login)=='admin'"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="email"&amp;nbsp;accessibleIf="$(login)=='admin'"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+  </codeblock> 
+  <p>The main properties are:</p> 
+  <ul> 
+   <li><p><strong>visibleIf</strong> : hides the fields from the metadata, hence they cannot be accessed within a schema view, or column selection, or an expression builder. But this does not hide any data, if the field name is manually entered in an expression the value will show up.</p> </li> 
+   <li><p><strong>accessibleIf</strong> : hides the data (replacing it with empty values) from resulting query. If visibleIf is empty, then it gets the same expresion as <strong>accessibleIf</strong>.</p> </li> 
+  </ul> 
+  <p>Here are the consequences of using this attribute in Campaign:</p> 
+  <ul> 
+   <li><p>Data will not be shown using generic query editor in the console,</p> </li> 
+   <li><p>Data will not be visible in overview lists and record list (console).</p> </li> 
+   <li><p>Data will become read-only in detailed view.</p> </li> 
+   <li><p>Data will only be usable within filters (meaning that using some dichotomy strategies, you can still guess values).</p> </li> 
+   <li><p>Any expression that is built using a restricted field becomes restricted too: lower(@email) becomes as accessible as @email.</p> </li> 
+   <li><p>In a workflow, you can add the restricted column to the targeted population as an extra column of the transition, but it is still inaccessible to Adobe Campaign users.</p> </li> 
+   <li><p>When storing the targeted population in a group (list), the characteristics of the stored fields are the same as the source of data.</p> </li> 
+   <li><p>Data is not accessible to JS code by default.</p> </li> 
+  </ul> 
+  <h2 id="recommendations">Recommendations</h2> 
+  <p>In each delivery, email addresses are copied into the <strong>broadLog</strong> and the <strong>forecastLog</strong> tables: as a consequence, those fields needs to be protected too.</p> 
+  <p>Below is a sample of log table extension to implement this:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;srcSchema&amp;nbsp;entitySchema="xtk:srcSchema"&amp;nbsp;extendedSchema="nms:broadLogRcp"&amp;nbsp;img="nms:broadLog.png"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;label="Recipient&amp;nbsp;delivery&amp;nbsp;logs"&amp;nbsp;labelSingular="Recipient&amp;nbsp;delivery&amp;nbsp;log"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="broadLogRcp"&amp;nbsp;namespace="sec"&amp;nbsp;xtkschema="xtk:srcSchema"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;img="nms:broadLog.png"&amp;nbsp;label="Recipient&amp;nbsp;delivery&amp;nbsp;logs"&amp;nbsp;labelSingular="Recipient&amp;nbsp;delivery&amp;nbsp;log"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="broadLogRcp"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;accessibleIf="$(login)=='admin'"&amp;nbsp;name="address"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt;!!discoiqbr!!&lt;srcSchema&amp;nbsp;desc="Delivery&amp;nbsp;messages&amp;nbsp;being&amp;nbsp;prepared."&amp;nbsp;entitySchema="xtk:srcSchema"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;extendedSchema="nms:tmpBroadcast"&amp;nbsp;img=""&amp;nbsp;label="Messages&amp;nbsp;being&amp;nbsp;prepared"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;labelSingular="Message"&amp;nbsp;name="tmpBroadcast"&amp;nbsp;namespace="sec"&amp;nbsp;xtkschema="xtk:srcSchema"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;desc="Delivery&amp;nbsp;messages&amp;nbsp;being&amp;nbsp;prepared."&amp;nbsp;label="Messages&amp;nbsp;being&amp;nbsp;prepared"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;labelSingular="Message"&amp;nbsp;name="tmpBroadcast"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;accessibleIf="$(login)=='admin'"&amp;nbsp;name="address"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt;!!discoiqbr!!&lt;srcSchema&amp;nbsp;entitySchema="xtk:srcSchema"&amp;nbsp;extendedSchema="nms:excludeLogRcp"&amp;nbsp;img="nms:excludeLog.png"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;label="Recipient&amp;nbsp;exclusion&amp;nbsp;logs"&amp;nbsp;labelSingular="Recipient&amp;nbsp;exclusion&amp;nbsp;log"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="excludeLogRcp"&amp;nbsp;namespace="sec"&amp;nbsp;xtkschema="xtk:srcSchema"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;img="nms:excludeLog.png"&amp;nbsp;label="Recipient&amp;nbsp;exclusion&amp;nbsp;logs"&amp;nbsp;labelSingular="Recipient&amp;nbsp;exclusion&amp;nbsp;log"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="excludeLogRcp"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;accessibleIf="$(login)=='admin'"&amp;nbsp;name="address"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+  </codeblock> 
+  <note> 
+   <p> This restriction applies to non technical users: a technical user, with related permissions, will be able to retrieve data. This method is therefore not 100% secure.<br /> </p> 
+  </note> 
+ </body> 
+</html>

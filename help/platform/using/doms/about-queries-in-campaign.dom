@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="About queries in Campaign" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:creating-queries" name="cq:tags" />
+  <meta content="audience:platform" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="About queries in Campaign" name="jcr:title" />
+  <meta content="6951ac96-3ccf-4be1-81b3-aeb55d5f9a78" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="seoDescription" />
+  <meta content="2019-08-05" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="About queries in Campaign" name="jcr:description" />
+  <meta content="0a3bee0d-59a7-459a-aaa4-8345ff6cdaac" name="jcr:uuid" />
+  <meta content="2019-08-06T07:02:31.607-0400" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <p>The Adobe Campaign query tool can be found on multiple levels of the software: to create a target population, segment customers, extract and filter tracking logs, build filters, etc.</p> 
+  <p>The Adobe Campaign query tool lets you query a database using a dedicated wizard: the generic query editor. It is accessed via the <strong>Tools &gt; Generic query editor...</strong> menu. It lets you extract information stored in a database and organize, group, sort, etc. For instance, the user can recover recipients who clicked more than 'n' times on the link of a newsletter over a given period. This tool lets you collect, sort and display results based on your needs.</p> 
+  <p>This tool combines all Adobe Campaign querying possibilities. For instance, it lets you create and save restriction filters. This means that a user filter created in the Generic query editor can be used in the Query box of a targeting workflow, etc.</p> 
+  <p>Queries are created using fields of the selected table or using a formula.</p> 
+  <p> <a href="../../workflow/using/designing-queries.md">Click here</a> to discover Campaign query editor through a set of use cases.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/query_recipients_4.png" title="query_recipients_4.png" />
+ </body>
+</html>

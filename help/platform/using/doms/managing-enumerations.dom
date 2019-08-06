@@ -1,0 +1,116 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="light" name="heroGradient" />
+  <meta content="audience:platform" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="546ea478-2f02-4e68-a988-3bcb458a8b4a" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Managing enumerations" name="jcr:title" />
+  <meta content="Managing enumerations" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:administration-basics" name="cq:tags" />
+  <meta content="07d0fc5b-aead-4a9d-a293-c930b7153289" name="jcr:predecessors" />
+  <meta content="Managing enumerations" name="navTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-08-05" name="publishExternalDate" />
+  <meta content="2019-08-06T07:02:32.309-0400" name="jcr:created" />
+ </head>
+ <body>
+  <h2 id="about-enumerations">About enumerations</h2>
+  <p>An enumeration (also known as 'itemized list') is a list of values suggested by the system to populate certain fields. Enumerations let you standardize the values of these fields, and help with data input or use within queries.</p> 
+  <p>The list of values appears as a drop-down list from which you can select the value to be entered in the field. The drop-down list also enables predictive input, where the operator enters the first few letters, and the application fills in the rest.</p> 
+  <p>Some of the console fields have been defined with this type of enumerations. Enumerations are called "open" if you can add values by direct input in the corresponding field.</p> 
+  <h2 id="access-to-values">Access to values</h2>
+  <p>The values for this type of field are defined and overall administration of these fields (adding/deleting a value) is performed via the <strong>Administration &gt; Platform &gt; Enumerations</strong> node of the tree.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_node.png" title="s_ncs_user_itemized_list_node.png" />
+  <ul>
+   <li><p>The upper section offers a list of fields for which an itemized list has been defined.</p> </li>
+   <li><p>The lower section lists the proposed values. These values will be repeated in the editors that use this field.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_values.png" title="s_ncs_user_itemized_list_values.png" /><p>To create a new enumeration value, click <strong>Add</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list.png" title="s_ncs_user_itemized_list.png" /><p> If the <strong>Open</strong> option is selected, the user can add a new itemized list value directly in the corresponding field. A confirmation message allows you to create this value.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_new_value.png" title="s_ncs_user_itemized_list_new_value.png" /></li>
+   <li><p>If the <strong>Closed</strong> option is selected, users will not be able to create new values, but merely choose from the values available.</p> </li>
+  </ul>
+  <h2 id="standardizing-data">Standardizing data</h2>
+  <h3 id="about-alias-cleansing">About alias cleansing</h3>
+  <p>In the itemized list fields, you can enter values other than enumeration values. These can either be stored as they are or be cleansed. </p> 
+  <note>
+    Data cleansing is a critical process that impacts the data in the database. Adobe Campaign carries out mass data updates, which may lead to some values being deleted. This operation is therefore reserved for expert users.
+   <br /> 
+  </note>
+  <p>The entered value is then either:</p> 
+  <ul>
+   <li><p> Added to the itemized list values: in this case the <strong>Open</strong> option must be selected,</p> </li>
+   <li><p>or automatically replaced by its corresponding alias: In this case, this case must then be defined in the <strong>Alias</strong> tab of the itemized list,</p> </li>
+   <li><p>or is stored in the list of aliases: an alias be assigned to it later on.</p> 
+    <note>
+     <p> If you need to use data cleansing capabilities, select the <strong>Alias cleansing</strong> option in the itemized list.<br /> </p> 
+    </note></li>
+  </ul>
+  <h3 id="using-aliases">Using aliases</h3>
+  <p>The option <strong>Alias cleansing</strong> makes it possible to use aliases for the selected itemized list. When this option is selected, the <strong>Alias</strong> tab is displayed at the bottom of the window. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_alias_option.png" title="s_ncs_user_itemized_list_alias_option.png" />
+  <h4 id="creating-an-alias">Creating an alias</h4>
+  <p>To create an alias, click <strong>Add</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_alias_create.png" title="s_ncs_user_itemized_list_alias_create.png" />
+  <p>Enter the alias you want to convert and the value to be applied and click <strong>Ok</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_alias_create_2.png" title="s_ncs_user_itemized_list_alias_create_2.png" />
+  <p>Check parameters before confirming this operation.</p> 
+  <note>
+    Once this stage has been confirmed, the previously entered values may not be recovered: they have been replaced.
+   <br /> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_alias_create_3.png" title="s_ncs_user_itemized_list_alias_create_3.png" />
+  <p>Thus, when a user enters the value <strong>NEILSEN</strong> in a "company" field (in the Adobe Campaign console or in a form), it will automatically be replaced by the value <strong>NIELSEN Ltd</strong>. Value replacement is performed by the <strong>Alias cleansing</strong> workflow. Refer to <a href="../../platform/using/managing-enumerations.md#running-data-cleansing" target="_blank">Running data cleansing</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_alias_use.png" title="s_ncs_user_itemized_list_alias_use.png" />
+  <h4 id="converting-values-into-aliases">Converting values into aliases</h4>
+  <p>To convert an enumeration value into an alias, right-click in the list of values and choose <strong>Convert values into aliases...</strong>. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_alias_detail.png" title="s_ncs_user_itemized_list_alias_detail.png" />
+  <p>Choose the values you want to convert and click <strong>Next</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_alias_transform.png" title="s_ncs_user_itemized_list_alias_transform.png" />
+  <p>Click <strong>Start</strong> to run the conversion.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_alias_detail1.png" title="s_ncs_user_itemized_list_alias_detail1.png" />
+  <p>Once execution is complete, the alias is added to the list of aliases.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_alias_detail2.png" title="s_ncs_user_itemized_list_alias_detail2.png" />
+  <h4 id="retrieving-alias-hits">Retrieving alias hits</h4>
+  <p>The values entered by the users can be converted into aliases. In effect, when the user enters a value that is not included in the itemized list, the value is stored in the <strong>Alias</strong> tab. </p> 
+  <p>The <strong>Alias cleansing</strong> technical workflow recovers these values every night to update itemized list. Refer to <a href="../../platform/using/managing-enumerations.md#running-data-cleansing" target="_blank">Running data cleansing</a></p> 
+  <p>If necessary, the <strong>Hits</strong> column can display the number of times this value was entered. Calculating this value can be both time and memory consuming. For more on this, refer to <a href="../../platform/using/managing-enumerations.md#calculating-entry-occurrences" target="_blank">Calculating entry occurrences</a>.</p> 
+  <h3 id="running-data-cleansing">Running data cleansing</h3>
+  <p>Data cleansing is performed by the <strong>Alias cleansing</strong> technical workflow. The configurations defined for enumerations are applied during execution. Refer to <a href="../../platform/using/managing-enumerations.md#alias-cleansing-workflow" target="_blank">Alias cleansing workflow</a>.</p> 
+  <p>Cleansing can be triggered via the <strong>Cleanse values...</strong> link.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_alias_start_normalize.png" title="s_ncs_user_itemized_list_alias_start_normalize.png" />
+  <p>The <strong>Advanced parameters...</strong> link lets you set the date starting from which collected values are taken into account.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_alias_normalize.png" title="s_ncs_user_itemized_list_alias_normalize.png" />
+  <p>Click the <strong>Start</strong> button to run data cleansing.</p> 
+  <h4 id="calculating-entry-occurrences">Calculating entry occurrences</h4>
+  <p>The <strong>Alias</strong> sub-tab of an itemized list can display the number of occurrences of an alias among all the values entered. This information is an estimate and will be displayed in the <strong>Hits</strong> column.</p> 
+  <note>
+    Calculating alias entry occurrences can take a long time. That's why caution should be applied when using this function.
+   <br /> 
+  </note>
+  <p>You can run hit calculation manually via the <strong>Cleanse values...</strong> link. To do this, click the <strong>Advanced parameters...</strong> link and select the desired option(s).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_alias_hits.png" title="s_ncs_user_itemized_list_alias_hits.png" />
+  <ul>
+   <li><p><strong>Update the number of alias hits</strong>: this lets you update hits which have already been calculated, based on the entered date.</p> </li>
+   <li><p><strong>Recalculate the number of alias hits from the start</strong>: lets you run calculation on the entire Adobe Campaign platform.</p> </li>
+  </ul>
+  <p>You can also create a dedicated workflow in order for the calculation to run automatically for a given period, once a week for example.</p> 
+  <p>To do this, create a copy of the <strong>Alias cleansing</strong> workflow, change the scheduler and use the following settings in the <strong>Enumeration value cleansing</strong> activity:</p> 
+  <ul>
+   <li><p><strong>-updateHits</strong> to update the number of alias hits,</p> </li>
+   <li><p><strong>-updateHits:full</strong> to recalculate all alias hits.</p> </li>
+  </ul>
+  <h4 id="alias-cleansing-workflow">Alias cleansing workflow</h4>
+  <p>The <strong>Alias cleansing</strong> workflow runs enumerations value cleansing. By default, it is executed on a daily basis.</p> 
+  <p>It is accessed via the <strong>Administration &gt; Production &gt; Technical workflows</strong> node.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_itemized_list_alias_wf.png" title="s_ncs_user_itemized_list_alias_wf.png" />
+ </body>
+</html>

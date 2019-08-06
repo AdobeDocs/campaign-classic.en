@@ -1,0 +1,137 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="audience:workflow" name="primaryAudienceTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="topic_tags:targeting-activities;products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Enrichment" name="jcr:title" /> 
+  <meta content="03b7630b-06ca-4660-a931-3e42cac3106c" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="Enrichment" name="jcr:description" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="355e329a-005e-4d20-b436-c9cf6dcbe0d1" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2019-08-06T06:59:14.482-0400" name="jcr:created" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="Enrichment" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <p>The <strong>Enrichment</strong> activity lets you add information to a profile list and links to an existing table (create a new join). Reconciliation criteria with profiles in the database can also be defined.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_design.png" title="Enrichment_Design.png" /> 
+  <h2 id="definitions">Definitions</h2> 
+  <p>To use the enrichment activity, you need to be familiar with the various options available when adding data.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_edit.png" title="Enrichment_edit.png" /> 
+  <p>The <strong>Data linked to the filtering dimension</strong> option gives you access to:</p> 
+  <ul> 
+   <li><p>Data of the filtering dimension: access to the work table data</p> </li> 
+   <li><p>Data linked to the filtering dimension: access to data linked to the work table</p> </li> 
+  </ul> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf_enrich_linkoptions.png" title="WF_enrich_linkoptions.png" /> 
+  <p>The <strong>A link</strong> option lets you create a join on any table of the database.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf_enrich_linkstype.png" title="WF_enrich_linkstype.png" /> 
+  <p> There are four types of links: </p> 
+  <ul> 
+   <li><p><strong>Define a collection</strong>: lets you define a link with a 1-N cardinality between the tables.</p> </li> 
+   <li><p><strong>Define a link whose target is still available</strong>: lets you define a link with a 1-1 cardinality between tables. The join conditions must be defined by a single record in the target table.</p> </li> 
+   <li><p><strong>Define a link whose target does not necessarily exist in the base</strong>: lets you define a link with a 0-1 cardinality between tables. The join condition must be defined by 0 or 1 (max.) record in the target table.</p> <p>This option is configured in the <strong>Simple Join</strong> tab that can be accessed via the <strong>Edit additional data</strong> link of the <strong>Enrichment</strong> activity.</p> </li> 
+   <li><p><strong>Define a link by searching for a reference among several options</strong>: this type of link defines a reconciliation towards a unique record. Adobe Campaign creates a link to a target table by adding a foreign key in the target table for storing a reference to the unique record.</p> <p>This option is configured in the <strong>Reconciliation and deduplication</strong> tab that can be accessed via the <strong>Edit additional data</strong> link of the <strong>Enrichment</strong> activity.</p> </li> 
+  </ul> 
+  <p>The <a href="../../workflow/using/enriching-data.md" target="_blank">Enriching data</a> and <a href="../../workflow/using/creating-a-summary-list.md" target="_blank">Creating a summary list</a> use cases detail the operating of Enrichment activities in their context.</p> 
+  <h2 id="adding-information">Adding information</h2> 
+  <p>Use the <strong>Enrichment</strong> activity to add columns to a work table: this activity can be used as a complement to a query activity.</p> 
+  <p>The configuration of additional columns is detailed in <a href="../../workflow/using/enrichment.md#adding-data" target="_blank">Adding data</a>.</p> 
+  <p>The <strong>Primary set</strong> field lets you select the inbound transition: the data of this activity's worktable will be enriched.</p> 
+  <p>Click the <strong>Add data</strong> link and select the type of data to add. The list of data types offered depends on the modules and options installed on your platform. In a minimal configuration, you can always add data linked to the filtering dimension and a link.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_edit.png" title="Enrichment_edit.png" /> 
+  <p>In the example below, the outbound transition will be enriched with information on the age of the targeted profiles.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_add_data.png" title="Enrichment_add_data.png" /> 
+  <p>Right-click on the enrichment activity's inbound transition to view the data before the enrichment stage. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_content_before.png" title="enrichment_content_before.png" /> 
+  <p>The worktable contains the following data and the associated schema:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_content_before_a.png" title="enrichment_content_before_a.png" /> 
+  <p>Repeat this operation at the enrichment stage output.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_content_after.png" title="enrichment_content_after.png" /> 
+  <p>You can see that the data related to profile ages has been added:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_content_after_a.png" title="enrichment_content_after_a.png" /> 
+  <p>The matching schema has also been enriched.</p> 
+  <h2 id="managing-additional-data">Managing additional data</h2> 
+  <p>Deselect the <strong>Keep all additional data from the main set</strong> option if you do not want to keep the previously defined additional data. In this case, only the additional columns that were selected in the enrichment activity will be added to the outgoing work table. The additional information added to the activities upstream will not be saved.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_edit_without_additional.png" title="enrichment_edit_without_additional.png" /> 
+  <p>The data and the schema at the enrichment stage output will be as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_content_after_without_additional.png" title="enrichment_content_after_without_additional.png" /> 
+  <h2 id="creating-a-link">Creating a link</h2> 
+  <p>You can use the enrichment activity to create a link between the working data and the Adobe Campaign database: this will be a local link to the workflow between the inbound data.</p> 
+  <p>For example, if you load data of a file which contains the account number, country and email of recipients, you will have to create a link towards the country table in order to update this information in their profiles.</p> 
+  <p>To do this, apply the following steps:</p> 
+  <ol> 
+   <li><p>Collect and load the following type of file:</p> 
+    <codeblock gutter="true" class="syntax html">
+      Account&amp;nbsp;number;Country;Email!!discoiqbr!!18D65;FRANCE;agnes@gmail.com!!discoiqbr!!243PP;RUSSIA;paul@gmail.com!!discoiqbr!!55H87;CROATIA;dave@gmail.com!!discoiqbr!!56U81;USA;susan@gmail.com!!discoiqbr!!853PI;ITALY;anna@gmail.com!!discoiqbr!!890LP;FRANCE;robert@gmail.com!!discoiqbr!!83TY2;SWITZERLAND;mike@gmail.com 
+    </codeblock></li> 
+   <li><p>Edit the enrichment activity and click the <strong>Add data...</strong> link to create a join with the Country table.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_edit_after_file_box.png" title="enrichment_edit_after_file_box.png" /></li> 
+   <li><p>Select the <strong>Link definition</strong> option and click the <strong>Next</strong> button. Specify the type of link to be created. In this example, we want to reconcile the file recipient's country with a country in the list of available countries in the dedicated table of the database. Choose the <strong>Define a link by searching for a reference among several options</strong> option. Select the country table in the <strong>Target schema</strong> field. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_add_a_link_select_option4.png" title="enrichment_add_a_link_select_option4.png" /></li> 
+   <li><p>Finally, select the field(s) which will let you link the source file values to those in the database.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_add_a_link_select_join.png" title="enrichment_add_a_link_select_join.png" /></li> 
+  </ol> 
+  <p>At the output of this enrichment activity, the temporary schema will contain the link to the country table:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_external_link_schema.png" title="enrichment_external_link_schema.png" /> 
+  <h2 id="data-reconciliation">Data reconciliation</h2> 
+  <p>The enrichment activity can be used to configure data reconciliation, including once data has been loaded into the database. In this case, the <strong>Reconciliation</strong> tab lets you define the link between the data in the Adobe Campaign database and the data in the work table.</p> 
+  <p>Select the <strong>Identify the targeting document based on work data</strong> option, specify the schema you want to create a link to and define the joining conditions: to do this, select the fields to be reconciled in the work data (<strong> Source expression</strong>) and in the targeting dimension (<strong>Destination expression</strong>). </p> 
+  <p>You can use one or more reconciliation criteria.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/enrichment_reconciliations_tab_01.png" title="enrichment_reconciliations_tab_01.png" /> 
+  <p>If several join conditions are specified, they must ALL be verified so that the data can be linked together.</p> 
+  <h2 id="inserting-an-offer-proposition">Inserting an offer proposition</h2> 
+  <p>The enrichment activity lets you add offers or links to offers for delivery recipients.</p> 
+  <p>For more information on the enrichment activity, refer to this <a href="../../workflow/using/enrichment.md">section</a>.</p> 
+  <p>For example, you can enrich the data for a recipient query before a delivery.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/int_enrichment_offer1.png" title="int_enrichment_offer1.png" /> 
+  <p>After configuring your query (refer to this <a href="../../workflow/using/query.md">section</a>):</p> 
+  <ol> 
+   <li><p>Add and open an enrichment activity.</p> </li> 
+   <li><p>In the <strong>Enrichment</strong> tab, select <strong>Add data</strong>.</p> </li> 
+   <li><p>Select <strong>An offer proposition</strong> in the types of data to add.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/int_enrichment_offer2.png" title="int_enrichment_offer2.png" /></li> 
+   <li><p>Specify an identifier as well as a label for the proposition that will be added.</p> </li> 
+   <li><p>Specify the offer selection. There are two possible options for this:</p> 
+    <ul> 
+     <li><p><strong>Search for the best offer in a category</strong>: check this option and specify the offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters. We recommend completing either the <strong>Category</strong> or the <strong>Theme</strong> field, rather than both at the same time.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/int_enrichment_offer3.png" title="int_enrichment_offer3.png" /></li> 
+     <li><p><strong>A predefined offer</strong>: check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the offer engine.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/int_enrichment_offer4.png" title="int_enrichment_offer4.png" /></li> 
+    </ul></li> 
+   <li><p>Then configure a delivery activity that corresponds to your chosen channel. Refer to <a href="../../workflow/using/cross-channel-deliveries.md" target="_blank">Cross-channel deliveries</a>.</p> <p>The number of propositions available for the preview depends on the configuration carried out in the enrichment activity rather than any possible configuration carried out directly in the delivery.</p> </li> 
+  </ol> 
+  <p>To specify offer propositions, you can also choose to reference a link to an offer. For more on this, refer to the following section <a href="../../workflow/using/enrichment.md#referencing-a-link-to-an-offer" target="_blank">Referencing a link to an offer</a>.</p> 
+  <h2 id="referencing-a-link-to-an-offer">Referencing a link to an offer</h2> 
+  <p>You can also reference a link to an offer in an enrichment activity.</p> 
+  <p>To do this:</p> 
+  <ol> 
+   <li><p>Select <strong>Add data</strong> in the activity's <strong>Enrichment</strong> tab.</p> </li> 
+   <li><p>In the window where you choose the type of data to add, select <strong>A link</strong>.</p> </li> 
+   <li><p>Select the type of link you want to establish as well as its target. In this case, the target is the offer schema.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/int_enrichment_link1.png" title="int_enrichment_link1.png" /></li> 
+   <li><p>Specify the join between the inbound table data in the enrichment activity (here the recipient table) and the offer table. For example, you can link an offer code to a recipient.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/int_enrichment_link2.png" title="int_enrichment_link2.png" /></li> 
+   <li><p>Then configure a delivery activity that corresponds to your chosen channel. Refer to <a href="../../workflow/using/cross-channel-deliveries.md" target="_blank">Cross-channel deliveries</a>.</p> 
+    <note> 
+     <p> The number of propositions available for the preview depends on the configuration carried out in the delivery.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <h2 id="storing-offer-rankings-and-weights">Storing offer rankings and weights</h2> 
+  <p>By default, when an <strong>enrichment</strong> activity is used to deliver offers, their rankings and their weights are not stored in the proposition table.</p> 
+  <p>The <strong>Offer engine</strong> activity does store this information by default.</p> 
+  <p>However, you can store this information as follows:</p> 
+  <ol> 
+   <li><p>Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. Refer to this <a href="../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine">section</a>.</p> </li> 
+   <li><p>In the activity's main window, select <strong>Edit additional data...</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ita_enrichment_rankweight_1.png" title="ita_enrichment_rankweight_1.png" /></li> 
+   <li><p>Add the <strong>@rank</strong> columns for the ranking and <strong>@weight</strong> for the offer weight.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ita_enrichment_rankweight_2.png" title="ita_enrichment_rankweight_2.png" /></li> 
+   <li><p>Confirm your addition and save your workflow.</p> </li> 
+  </ol> 
+  <p>The delivery automatically stores the ranking and weight of offers. This information is visible in the delivery's <strong>Offers</strong> tab.</p> 
+ </body> 
+</html>

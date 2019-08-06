@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Creating web tracking tags" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-08-06T06:59:45.466-0400" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2b50637a-48cb-4c54-b250-3ca039f82f34" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:configuration" name="primaryAudienceTag" />
+  <meta content="Creating web tracking tags" name="jcr:title" />
+  <meta content="" name="seoDescription" />
+  <meta content="Creating web tracking tags" name="jcr:description" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="a028f086-cef0-4c80-9cc1-41bdab96a014" name="jcr:predecessors" />
+ </head>
+ <body>
+  <p>Each page of the site that you wish to track must be referenced in your Adobe Campaign platform. This referencing can be performed in two ways:</p> 
+  <ol>
+   <li><p>Manual definition of URLs to be tracked,</p> </li>
+   <li><p>On-the-fly creation of URLs to be tracked.</p> </li>
+  </ol>
+  <h2 id="defining-the-urls-to-be-tracked-in-the-application">Defining the URLs to be tracked in the application</h2>
+  <p>This method lets you manually define the pages to be tracked and then generate an example of the associated web tracking tag. This operation is defined in the <strong>Campaign execution&gt;Resources&gt;Web tracking tags</strong> node of the client console.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_webtracking_screen.png" title="d_ncs_integration_webtracking_screen.png" />
+  <p>To generate the HTML code to be inserted in the page:</p> 
+  <ul>
+   <li><p>Enter the label of the tag: it will be shown in the tracking logs,</p> </li>
+   <li><p>Indicate the source URL: this field is for information purposes and lets you indicate the tracked page (optional),</p> </li>
+   <li><p>If needed, enter a validity period,</p> </li>
+   <li><p>Click <strong>Generate</strong> HTML code.</p> </li>
+  </ul>
+  <p>Then copy the generated code and paste it into the page to be tracked.</p> 
+  <h2 id="on-the-fly-creation-of-urls-to-be-tracked">On-the-fly creation of URLs to be tracked</h2>
+  <p>You can create the web tracking URLs on the fly by adding information to the value of the <strong>tagid</strong> parameter:</p> 
+  <ul>
+   <li><p>Type of page tracked: 'w' for WEB or 't' for TRANSACTION,</p> </li>
+   <li><p>The internal name of the folder where the URL must be created.</p> </li>
+  </ul>
+  <p>These two pieces of information must be concatenated with the identifier of the tracked page by adding the character '|': </p> 
+  <codeblock gutter="true" class="syntax html">
+   tagid=&lt;identifier&gt;|&lt;type&gt;|&lt;foldername&gt;
+  </codeblock>
+  <note>
+   Remember to encode the value of the 
+   <strong>tagid</strong> parameter when it is used as a URL parameter.
+   <br /> 
+  </note>
+  <p><strong>Example</strong>: creation of a transaction-type web tracking URL.</p> 
+  <p><strong>http://myserver.adobe.com/r/a?tagid=home%7Ct%7CMyFolder</strong></p> 
+ </body>
+</html>

@@ -1,0 +1,137 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Using the descriptive analysis wizard" name="navTitle" />
+  <meta content="2019-08-06T06:59:35.096-0400" name="jcr:created" />
+  <meta content="Using the descriptive analysis wizard" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:reporting" name="cq:tags" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="9e362d7a-702b-4f90-8b55-23e7d445a9ee" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="a473e29d-c6b2-405e-aa7b-ecf565793f9b" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Using the descriptive analysis wizard" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>To create a descriptive analysis report, use the dedicated wizard. Configuration depends on the data to be analyzed and on the desired rendering. </p> 
+  <h2 id="analyzing-data-in-the-database">Analyzing data in the database</h2>
+  <p>The descriptive analysis wizard can be launched via the <strong>Tools &gt; Descriptive analysis</strong> menu: in this case, the analysis concerns recipients by default (<strong>nms:recipient</strong>). It applies to all the data in the Adobe Campaign database.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_wz_launch.png" title="reporting_descriptive_wz_launch.png" />
+  <p>To analyze a table other than the standard recipients one (<strong>nms:recipient</strong>), click the <strong>Advanced settings...</strong> link in the last stage of the wizard and select the table that matches your settings, in this case <strong>cus:individual</strong>:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_other_schema.png" title="reporting_descriptive_other_schema.png" />
+  <p>If you want to produce statistics on part of the data, you can define a filter: to do this, click the <strong>Advanced settings...</strong> link and define the filter to apply, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_wz_filter.png" title="reporting_descriptive_wz_filter.png" />
+  <p>The analysis will only concern database recipients aged 16 and over and living in London.</p> 
+  <h2 id="analyzing-a-set-of-data">Analyzing a set of data</h2>
+  <p>You can use the descriptive analysis wizard via a different context: a list, a workflow transition, one or more deliveries, a selection of recipients, etc. </p> 
+  <p> It is accessible via several nodes of the Adobe Campaign tree that point to the recipient table.</p> 
+  <p>Open the descriptive analysis wizard by selecting items and right-clicking. Only the selected data will be analyzed.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_from_recipients.png" title="reporting_descriptive_from_recipients.png" />
+  <ul>
+   <li><p>For a set of <strong>recipients</strong>, select the recipients to be analyzed, then right-click and select <strong>Actions &gt; Explore...</strong>, as shown above. If a filter is applied to the list of recipients, only its content will be analyzed.</p> <p>To select all the recipients in the folder or the current filter, use the CTRL+A shortcut. This means that even recipients not shown will be selected.</p> <p>For an example of the descriptive analysis of recipients, refer to: <a href="../../reporting/using/using-the-descriptive-analysis-wizard.md#qualitative-data-analysis" target="_blank">Qualitative data analysis</a>.</p> </li>
+   <li><p>In the context of a <strong>workflow</strong>, place the cursor on a transition that points towards the recipients table, right-click and select <strong>Analyze target</strong>. For more on this, refer to the example in <a href="../../reporting/using/using-the-descriptive-analysis-wizard.md#analyzing-a-transition-target-in-a-workflow" target="_blank">Analyzing a transition target in a workflow</a>.</p> </li>
+   <li><p>For <strong>lists</strong>, select one or more lists and apply the same process as for recipients.</p> </li>
+   <li><p>In the context of a <strong>delivery</strong>, select the deliveries whose target you want to analyze, right-click and select <strong>Actions &gt; Explore the target</strong>, as shown below:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_from_deliveries.png" title="reporting_descriptive_from_deliveries.png" /><p>Examples of descriptive analyses for deliveries are provided here: <a href="../../reporting/using/using-the-descriptive-analysis-wizard.md#analyzing-a-population" target="_blank">Analyzing a population</a> and here: <a href="../../reporting/using/using-the-descriptive-analysis-wizard.md#analyzing-recipient-tracking-logs" target="_blank">Analyzing recipient tracking logs</a>.</p> </li>
+  </ul>
+  <h2 id="configuring-the-qualitative-distribution-template">Configuring the qualitative distribution template</h2>
+  <p>The <strong>Qualitative distribution</strong> template lets you create statistics on all types of data (e.g. company name, email domain).</p> 
+  <p>Configuration options available for a report created via the <strong>Qualitative distribution</strong> template are detailed in <a href="../../reporting/using/using-the-descriptive-analysis-wizard.md#displaying-data-in-the-table" target="_blank">Displaying data in the table</a>. A full example is detailed in <a href="../../reporting/using/using-the-descriptive-analysis-wizard.md#analyzing-a-population" target="_blank">Analyzing a population</a>.</p> 
+  <p>When you use the descriptive analysis wizard to analyze your data, the available options depend on the chosen settings. These are detailed below.</p> 
+  <h3 id="data-binning">Data binning</h3>
+  <p>When you select the variables to display, you can define data binning, in other words configure grouping criteria for the selected data. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_031.png" title="s_ncs_user_report_wizard_031.png" />
+  <note>
+   <p> When the field concerned by the calculation is computed using an aggregate, check <strong>The data is already aggregated</strong> to improve performances.<br /> </p> 
+  </note>
+  <p>The options will differ depending on the content of the field:</p> 
+  <ul>
+   <li><p><strong>None</strong>: this option lets you display all the values available for the variable, without binning.</p> 
+    <note>
+      This option should be used with care: it can have a major impact on the report and on machine performance.
+     <br /> 
+    </note></li>
+   <li><p><strong>Auto</strong>: this option lets you display the n most frequently represented values. They are calculated automatically and each represent a percentage of the variables compared to the number of bins. For numerical values, Adobe Campaign automatically generates n classes to sort the data into.</p> </li>
+   <li><p><strong>Manual</strong>: this option operates like the <strong>Auto</strong> option, except that you can set these values manually. To do this, click the <strong>Add</strong> button to the right of the value table.</p> <p>Values can be initialized automatically by Adobe Campaign before personalization: to do this, enter the number of bins you want to generate and click the <strong>Initialize with</strong> link, as shown below:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_initialize.png" title="reporting_descriptive_initialize.png" /><p>Then adapt your content to suit your needs:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_initialize_perso.png" title="reporting_descriptive_initialize_perso.png" /><p>Depending on the desired level of precision, fields containing dates can be grouped by time, day, month, year, etc.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_group_by_year.png" title="reporting_descriptive_group_by_year.png" /></li>
+   <li><p><strong>Modulo</strong>: lets you create groups of values in case of numerical values. For example, a modulo with a value of 10 lets you create an interval of values that change ten by ten.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_initialize_modulo.png" title="reporting_descriptive_initialize_modulo.png" /><p>This example lets you view the breakdown of recipients by age group.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_initialize_modulo_result.png" title="reporting_descriptive_initialize_modulo_result.png" /></li>
+  </ul>
+  <h3 id="displaying-data-in-the-table">Displaying data in the table</h3>
+  <p>Use the toolbar to personalize the display of variables in the table: delete a column, display data in lines rather than columns, move a column to the left or right, view or alter value calculation.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_toolbar.png" title="s_ncs_user_report_wizard_toolbar.png" />
+  <p>The upper section of the window lets you select the display settings.</p> 
+  <p>You can display or hide the name of the statistics and the sub-totals and choose the orientation of the statistics. For more on this, refer to <a href="../../reporting/using/using-the-descriptive-analysis-wizard.md#analysis-report-display-settings" target="_blank">Analysis report display settings</a>.</p> 
+  <h3 id="displaying-data-in-the-chart">Displaying data in the chart</h3>
+  <p>In the first step of the descriptive analysis wizard, you can choose to display the data in chart form only, without a table. In this case, variable selection must be done when configuring the graphic. You must first select the number of variables to display and select the fields from the relevant database. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_023.png" title="s_ncs_user_report_wizard_023.png" />
+  <p>Then select the desired chart type.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_024.png" title="s_ncs_user_report_wizard_024.png" />
+  <note>
+   <p> You can display the variables in a chart and a table at the same time. To do this, enter the variables in the <strong>Table configuration</strong> window. Click <strong>Next</strong> and select the type of chart in the chart configuration window. If sub-dimensions are defined in the table, they are not displayed in the chart.<br /> </p> 
+  </note>
+  <p>Click the <strong>Variants</strong> link to modify the chart properties. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_graphe_options.png" title="reporting_descriptive_graphe_options.png" />
+  <p>The options offered depend on the type of chart selected. For more information, refer to <a href="../../reporting/using/creating-a-chart.md#chart-types-and-variants">this page</a>.</p> 
+  <h3 id="statistics-calculation">Statistics calculation</h3>
+  <p>The descriptive analysis wizard lets you calculate several types of statistics on the data. By default, only one simple count is configured.</p> 
+  <p>Click <strong>Add</strong> to create a new statistic.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_create_stat.png" title="reporting_descriptive_create_stat.png" />
+  <p>The following operations are possible:</p> 
+  <ul>
+   <li><p><strong>Count</strong> to count all non-null values of the field to be aggregated, including duplicate values (of the aggregate field),</p> </li>
+   <li><p><strong>Average</strong> to calculate the average of the values in a numerical field,</p> </li>
+   <li><p><strong>Minimum</strong> to calculate the minimum of the values in a numerical field,</p> </li>
+   <li><p><strong>Maximum</strong> to calculate the maximum of the values in a numerical field,</p> </li>
+   <li><p><strong>Sum</strong> to calculate the sum of the values in a numerical field,</p> </li>
+   <li><p><strong>Standard deviation</strong> to calculate how the returned values are scattered around the average,</p> </li>
+   <li><p><strong>Row percentage distribution</strong> to calculate the ratio of the value in a column and the value in a row (available for tables only),</p> </li>
+   <li><p><strong>Column percentage distribution</strong> to calculate the ratio of the value in a row to the value in a column (available for tables only),</p> </li>
+   <li><p><strong>Total percentage distribution</strong> to calculate the distribution of recipients concerned by the values,</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_026.png" title="s_ncs_user_report_wizard_026.png" /></li>
+   <li><p><strong>Calculated field</strong> to create a personalized operator (available for tables only). The <strong>User function</strong> field lets you enter the calculation to be applied to the data.</p> <p>Example: Calculating the average purchase amount per customer based on country and origin</p> <img alt="" captionBottom="" imageRotate="0" src="assets/report_compute_data_sample1.png" title="report_compute_data_sample1.png" /><p>To display the above information in a table, you need to create a calculated field for storing the average purchase amount per customer.</p> <p>To do this:</p> 
+    <ol>
+     <li><p> Calculate the purchase total.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/report_compute_data_sample2.png" title="report_compute_data_sample2.png" /></li>
+     <li><p>This statistic won't be displayed in the table. You need to uncheck the <strong>Display in the table</strong> option of the <strong>Advanced</strong> tab. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/report_compute_data_sample3.png" title="report_compute_data_sample3.png" /></li>
+     <li><p>Create a new <strong>Calculated field</strong> type statistic and enter the following formula in the <strong>User function</strong> field: <strong>@purchases/@count</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/report_compute_data_sample4.png" title="report_compute_data_sample4.png" /></li>
+    </ol></li>
+  </ul>
+  <h3 id="displaying-the-report">Displaying the report</h3>
+  <p>The last step of the wizard lets you display the report, i.e. the table or the chart as they have been configured.</p> 
+  <p>When the report contains a table, the computation result cell is colored. The higher the result, the more intense the color.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/report_compute_data_sample1.png" title="report_compute_data_sample1.png" />
+  <p>It's possible to change the layout of results. To do this, right-click the concerned variable and select the input from the shortcut menu.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_029.png" title="s_ncs_user_report_wizard_029.png" />
+  <p>When the report includes a chart, the labels of the legend let you filter the displayed information: click a label to enable/disable display in the chart.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/report_display_data_in_graph.png" title="report_display_data_in_graph.png" />
+  <h2 id="configuring-the-quantitative-distribution-template">Configuring the quantitative distribution template</h2>
+  <p>To generate a descriptive analysis yourself, select the <strong>New descriptive analysis from a template</strong> option if it isn't set by default.</p> 
+  <p>The <strong>Quantitative distribution</strong> template that lets you generate statistics on data which can be measured or counted (e.g. invoice amount, age of recipients).</p> 
+  <p>The configuration mode of an analysis report created via the <strong>Quantitative distribution</strong> template is detailed in an implementation example <a href="../../reporting/using/using-the-descriptive-analysis-wizard.md#quantitative-data-analysis" target="_blank">Quantitative data analysis</a>.</p> 
+  <p>The options available when using the descriptive analysis wizard to create a quantitative report are detailed below.</p> 
+  <p>Start by selecting the variable which the calculations concern:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_017.png" title="s_ncs_user_report_wizard_017.png" />
+  <p>By default, Adobe Campaign offers a series of statistics to be calculated for the selected data. You can change this list, add to it or delete statistics depending on your needs.</p> 
+  <p>The following operations are possible:</p> 
+  <ul>
+   <li><p><strong>Count</strong> to count all non-null values of the field to be aggregated, including duplicate values (of the aggregate field),</p> </li>
+   <li><p><strong>Average</strong> to calculate the average of the values in a numerical field,</p> </li>
+   <li><p><strong>Minimum</strong> to calculate the minimum of the values in a numerical field,</p> </li>
+   <li><p><strong>Maximum</strong> to calculate the maximum of the values in a numerical field.</p> </li>
+   <li><p><strong>Sum</strong> to calculate the sum of the values in a numerical field,</p> </li>
+   <li><p><strong>Standard deviation</strong> to calculate how the values returned are distributed around the average.</p> </li>
+   <li><p><strong>Number of missing values</strong> to calculate the number of numeric fields without defined values.</p> </li>
+   <li><p><strong>Decile distribution</strong> to distribute the values returned such that each represents 1/10th of the values in a numeric field.</p> </li>
+   <li><p><strong>Custom distribution</strong> to distribute the values returned based on user-defined thresholds.</p> <p>The <strong>Detail...</strong> button lets you edit a statistic and, if needed, personalize its calculation or its display:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_030.png" title="s_ncs_user_report_wizard_030.png" /><p>The last step of the wizard shows the quantitative analysis report.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_view_report.png" title="reporting_descriptive_view_report.png" /><p>To make changes to the report, refer to <a href="../../reporting/using/processing-a-report.md" target="_blank">Processing a report</a>.</p> </li>
+  </ul>
+ </body>
+</html>

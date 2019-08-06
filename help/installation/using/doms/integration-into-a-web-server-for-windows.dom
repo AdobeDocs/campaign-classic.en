@@ -1,0 +1,121 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Integration into a Web server for Windows" name="jcr:description" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="52b6457a-c694-44b7-aefd-8feb960d21ac" name="jcr:uuid" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="Integration into a Web server for Windows" name="jcr:title" /> 
+  <meta content="Integration into a Web server for Windows" name="navTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="2019-08-06T06:59:31.148-0400" name="jcr:created" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="f7a9b886-adad-4b68-b552-65c424ccaa54" name="jcr:predecessors" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <p>Adobe Campaign includes Apache Tomcat which acts as the entry point in the application server via HTTP (and SOAP).</p> 
+  <p>You can use this integrated Tomcat server to serve HTTP requests.</p> 
+  <p>In this case:</p> 
+  <ul> 
+   <li><p>the default listening port is 8080. To change it, refer to <a href="../../installation/using/integration-into-a-web-server-for-windows.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>.</p> </li> 
+   <li><p>The client consoles then connect using a URL such as <a href="https://machine:8080">https:// 
+      <computer>
+        :8080 
+      </computer></a>.</p> </li> 
+  </ul> 
+  <p>However, for security and administration reasons, we recommend using a dedicated Web server as the main entry point for HTTP traffic when the computer that is running Adobe Campaign is exposed on the Internet and you wish to open access to the console outside of your network.</p> 
+  <p>A Web server also lets you guarantee data confidentiality with the HTTPs protocol.</p> 
+  <p>Likewise, you must use a Web server when you wish to use the tracking functionality, which is only available as a Web server extension module.</p> 
+  <h2 id="configuring-the-iis-web-server">Configuring the IIS Web server</h2> 
+  <p>The configuration procedure for an IIS Web server is mostly graphical. It involves using a Web site (already created or pending creation) to access the resources of the Adobe Campaign server: Java (.jsp) files, stylesheets (.css, .xsl), images (.png), the ISAPI DLL for redirection, etc. </p> 
+  <p>The following sections detail configuration in IIS 7. Configuration for IIS8 is basically the same.</p> 
+  <p>If the Web IIS server is not already installed on your computer, you can install it via the <strong>Add &gt; Remove Programs &gt; Enable or disable Windows functionalities</strong> menu.</p> 
+  <p>In IIS 7, in addition to standard services, you need to install the ISAPI Extensions and ISAPI filters. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_isapi.png" title="s_ncs_install_iis7_ISAPI.png" /> 
+  <h3 id="configuration-steps">Configuration steps</h3> 
+  <p>Apply the following configuration steps:</p> 
+  <ol> 
+   <li><p>Open the IIS via the <strong>Control panel &gt; Administrative tools &gt; Services</strong> menu.</p> </li> 
+   <li><p>Create and configure the site (Adobe Campaign, for example) depending on the parameters of your network (TCP connection port, DNS host, IP address). </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_add_site.png" title="s_ncs_install_iis7_add_site.png" /><p>You must at least specify the name of the site and the access path to the virtual directory. Since the path for accessing the Website directory is not used, you can use the following directory.</p> 
+    <codeblock gutter="true" class="syntax html">
+      C:inetpubwwwroot 
+    </codeblock><img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_parameters_step1.png" title="s_ncs_install_iis7_parameters_step1.png" /></li> 
+   <li><p>A <strong>VBS</strong> script enables you to automatically configure the resources used by the Adobe Campaign server on the virtual directory we have just created. To launch it, double click the <strong>iis_neolane_setup.vbs</strong> file located in the <strong>[INSTALL]tomcat-7conf</strong> folder, where <strong>[INSTALL]</strong> is the path for accessing the Adobe Campaign installation folder.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_parameters_step2.png" title="s_ncs_install_iis7_parameters_step2.png" /> 
+    <note> 
+     <p> In case of a Windows server 2008/IIS7 installation, you must be logged in as an administrator to run the VBS script or execute the script as administrator.<br /> </p> 
+    </note><p>Click <strong>OK</strong> if the Web server is used as a tracking redirection server, otherwise click <strong>Cancel</strong>.</p> <p>When multiple sites are already configured on the Web server, an intermediate page is displayed to specify to which Web site the installation applies: enter the number linked to the site and click <strong>OK</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_parameters_step3.png" title="s_ncs_install_iis7_parameters_step3.png" /><p>A confirmation message should be displayed: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_parameters_step7.png" title="s_ncs_install_iis7_parameters_step7.png" /></li> 
+   <li><p>In the <strong>Content View</strong> tab, make sure the Web site is correctly configured with the Adobe Campaign resources:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_parameters_step6.png" title="s_ncs_install_iis7_parameters_step6.png" /><p>If the tree is not displayed, restart the IIS.</p> </li> 
+  </ol> 
+  <h3 id="managing-rights">Managing rights</h3> 
+  <p>You must next configure the security settings for the ISAPI DLL and for the resources in the Adobe Campaign installation directory. </p> 
+  <p>To do this, apply the following steps:</p> 
+  <ol> 
+   <li><p>Select the <strong>Features View</strong> tab and double-click the <strong>Authentication</strong> link.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_parameters_step8.png" title="s_ncs_install_iis7_parameters_step8.png" /></li> 
+   <li><p>In the <strong>Directory Security</strong> tab of the Web site, make sure that anonymous access is enabled. If necessary, click the <strong>Edit</strong> link to change the settings.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_parameters_step9.png" title="s_ncs_install_iis7_parameters_step9.png" /></li> 
+  </ol> 
+  <h3 id="launching-the-web-server-and-testing-the-configuration">Launching the Web server and testing the configuration</h3> 
+  <p>You must now test whether the configuration is correct.</p> 
+  <p> To do this, apply the following procedure:</p> 
+  <ol> 
+   <li><p> Restart the IIS server using the <strong>iisreset</strong> command line.</p> </li> 
+   <li><p>Test the tracking module by inserting the following URL into a Web browser:</p> 
+    <codeblock gutter="true" class="syntax html">
+      https://&lt;computer&gt;/r/test 
+    </codeblock><p>The browser should display the following response:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;redir&amp;nbsp;status='OK'&amp;nbsp;date='YYYY/MM/DD&amp;nbsp;HH:MM:SS'&amp;nbsp;build='XXXX'&amp;nbsp;host='myserver.mydomain.com'&amp;nbsp;localHost='localhost'/&gt; 
+    </codeblock></li> 
+  </ol> 
+  <p>To test for the presence of the redirection module, run the following command line:</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;pdump 
+  </codeblock> 
+  <p>It must return the following information:</p> 
+  <codeblock gutter="true" class="syntax html">
+    12:00:33&amp;nbsp;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Application&amp;nbsp;server&amp;nbsp;for&amp;nbsp;Adobe&amp;nbsp;Campaign&amp;nbsp;Version&amp;nbsp;7.X&amp;nbsp;(build&amp;nbsp;XXXX)&amp;nbsp;of&amp;nbsp;DD/MM/YYYY!!discoiqbr!!webmdl@default&amp;nbsp;(1644)&amp;nbsp;-&amp;nbsp;18.2&amp;nbsp;Mo 
+  </codeblock> 
+  <p>You can also make sure the ISAPI DLL is correctly loaded. </p> 
+  <p>To do this, apply the following steps:</p> 
+  <ol> 
+   <li><p>Edit the ISAPI filters for the Adobe Campaign site by clicking the <strong>Driver mapping</strong> icon.</p> </li> 
+   <li><p>The check the content of the ISAPI filter:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_parameters_step11.png" title="s_ncs_install_iis7_parameters_step11.png" /></li> 
+  </ol> 
+  <h2 id="additional-configurations">Additional configurations</h2> 
+  <h3 id="changing-the-upload-file-size-limit">Changing the upload file size limit</h3> 
+  <p>When configuring the IIS Web server, a limit of approximately 28 MB is automatically for set files that are uploaded to the server.</p> 
+  <p>This may have an impact in Adobe Campaign, particularly if you would like to upload files that are larger than this limit.</p> 
+  <p>For example, if you use a <strong>Data loading (file)</strong> type activity in a workflow to import a 50 MB file, an error will stop the workflow from executing correctly.</p> 
+  <p>In this case, you must increase this limit:</p> 
+  <ol> 
+   <li><p>Open the IIS via the <strong>Start &gt; (Control panel) &gt; Administration tools</strong> menu.</p> </li> 
+   <li><p>In the <strong>Connections</strong> pane, select the site created for your Adobe installation, then double-click on <strong>Request Filtering</strong> in the main pane.</p> </li> 
+   <li><p>In the <strong>Actions</strong> pane, select <strong>Edit Feature Settings</strong> to be able to edit the value in the <strong>Maximum authorized content size (bytes)</strong> field.</p> <p>For example, to authorize uploading files of 50 MB, you must specify a value of more than "52428800" bytes.</p> </li> 
+  </ol> 
+  <note> 
+   <p> For more information on this IIS option, refer to the "How To" section of the <a href="https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits">official documentation</a>.<br /> </p> 
+  </note> 
+  <h3 id="configuring-http-error-message-display">Configuring http error message display</h3> 
+  <p>If you use a 6.1 version IIS server, generated error messages may be difficult to read due to an undesired HTML code being displayed in the message.</p> 
+  <p>To fix this and display the error correctly, apply the following configuration:</p> 
+  <ol> 
+   <li><p>Open the IIS via the <strong>Start &gt; Control Panel &gt; Administrative tools</strong> menu.</p> </li> 
+   <li><p>In the <strong>Connections</strong> pane, select the site created for your Adobe Campaign installation, then double-click <strong>Configuration editor</strong> in the main pane.</p> </li> 
+   <li><p>In the <strong>Section</strong> drop-down list, select <strong>system.webServer</strong> &gt; <strong>httpErrors</strong>.</p> </li> 
+   <li><p>Select the <strong>PassThrough</strong> value at the <strong>existingResponse</strong> line.</p> </li> 
+  </ol> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ins_iis_httperrors.png" title="ins_iis_httperrors.png" /> 
+ </body> 
+</html>

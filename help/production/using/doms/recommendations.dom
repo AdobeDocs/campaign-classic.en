@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="audience:production" name="primaryAudienceTag" />
+  <meta content="Recommendations" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="59aea9a6-3714-49da-9b7f-f039037ca51d" name="jcr:uuid" />
+  <meta content="Recommendations" name="jcr:title" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-08-06T06:59:02.778-0400" name="jcr:created" />
+  <meta content="Recommendations" name="jcr:description" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="seoDescription" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="06b4b14d-2859-4b31-a419-3bc5a4dd5ae0" name="jcr:predecessors" />
+ </head>
+ <body>
+  <p>Adobe Campaign is a highly transactional system (OLTP database). This means that the underlying database will be frequently updated, leading to a degradation of performance over time. To avoid this type of issue, regular database maintenance is necessary. </p> 
+  <note>
+    A database will only perform optimally if it is maintained on a regular basis. The automatic maintenance offered by some RDBMS is not sufficient and does not replace in-depth maintenance, as for any relational database transactional management systems.
+   <br /> Procedures described in this document are recommendations. Maintenance plans are the responsability of your database administrator, who must be your first contact in case of problems.
+   <br /> 
+  </note>
+ </body>
+</html>

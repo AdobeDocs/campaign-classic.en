@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="audience:delivery" name="primaryAudienceTag" /> 
+  <meta content="Use case: configuring the field substitution" name="navTitle" /> 
+  <meta content="2019-08-06T06:59:26.789-0400" name="jcr:created" /> 
+  <meta content="0ff9a115-dd2d-4f7c-a73a-f60c525affa0" name="jcr:uuid" /> 
+  <meta content="00d13c69-4007-4a2a-8a8c-9b6538343cf7" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="Use case: configuring the field substitution" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="Use case: configuring the field substitution" name="jcr:description" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <p>Random field substitution lets you attribute a value from the recipient list to the seed addresses that are empty when the user uses this value in a delivery (example: name, city, etc.).</p> 
+  <p>This substitution lets you save time when creating the delivery: instead of manually adding the desired value to the seed addresses, the substitution randomly recovers this value in the list of recipients targeted by the delivery and applies it to the seed addresses.</p> 
+  <h2 id="context">Context</h2> 
+  <p>In this use case, the site <strong>My online library</strong> would like to send a discount to its clients, based on their favorite literary genre.</p> 
+  <p>The delivery manager has integrated a personalization field linked with favorite genre into his email. He would like to use some seed addresses. These seed addresses have the personalization field in their table but no value is saved there.</p> 
+  <p>To use the random field substitution you must have:</p> 
+  <ul> 
+   <li><p>a delivery with one or several personalization fields,</p> </li> 
+   <li><p>seed addresses whose <strong>data schema</strong> is modified according to the personalization fields used in the delivery.</p> </li> 
+  </ul> 
+  <h2 id="step-1---creating-a-delivery">Step 1 - Creating a delivery</h2> 
+  <p>The steps for creating a delivery are detailed in the <a href="../../delivery/using/creating-an-email-delivery.md" target="_blank">Creating an email delivery</a> section.</p> 
+  <p>In this example, the delivery manager has created the newsletter.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_24.png" title="dlv_seeds_usecase_24.png" /> 
+  <h2 id="editing-the-seed-addresses-data-schema">Editing the seed addresses data schema</h2> 
+  <p>The instructions on how to modify a data schema are detailed in the section.</p> 
+  <p>In this example, the seed addresses data schema takes a value created from the recipients data schema:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &amp;nbsp;&lt;attribute&amp;nbsp;label="Favorite&amp;nbsp;literary&amp;nbsp;genre"&amp;nbsp;length="80"&amp;nbsp;name="favoriteLiteraryGenre"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;type="string"&amp;nbsp;userEnum="favoriteLiteraryGenre"/&gt; 
+  </codeblock> 
+  <p>This enumeration lets the user specify the favorite literary genre of their clients.</p> 
+  <p>For this data schema modification to be viewable in the seed addresses <strong>Input form</strong>, you must update it. Refer to the <a href="../../delivery/using/use-case--configuring-the-field-substitution.md#updating-the-input-form" target="_blank">Updating the input form</a> section.</p> 
+  <h2 id="configuring-personalization">Configuring personalization</h2> 
+  <ol> 
+   <li><p>Open a delivery.</p> <p>In this example, the delivery has two personalization fields: the recipient's <strong>first name</strong> and the recipient's <strong>favorite literary genre</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_25.png" title="dlv_seeds_usecase_25.png" /></li> 
+   <li><p>Configure your delivery list and your seed addresses. Refer to <a href="../../delivery/using/identifying-target-populations.md" target="_blank">Identifying target populations</a>.</p> <p>In this example, the user selects users whose <strong>favorite literary genre</strong> is Sci-Fi as the main target population.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_26.png" title="dlv_seeds_usecase_26.png" /><p>The user adds seed addresses to the delivery.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_27.png" title="dlv_seeds_usecase_27.png" /> 
+    <note> 
+     <p> For more information on the <strong>Edit the dynamic condition...</strong> link, refer to <a href="../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md" target="_blank">Use case: selecting seed addresses on criteria</a>.<br /> </p> 
+    </note></li> 
+   <li><p>Click the <strong>Preview</strong> tab then select a seed address to test the personalization.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_28.png" title="dlv_seeds_usecase_28.png" /><p>You can see that one of the personalization fields is empty. As the seed address does not have data for this field, the HTML content preview cannot display a value.</p> <p>Random substitution of fields is carried out <strong>at the time of delivery</strong>.</p> </li> 
+   <li><p>Click the <strong>Send</strong> button.</p> </li> 
+   <li><p>Analyze your delivery then <strong>confirm delivery</strong>.</p> <p>The seed addresses receive the delivery in their inbox.</p> <p>Field personalization is effective.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_08.png" title="dlv_seeds_usecase_08.png" /></li> 
+  </ol> 
+ </body> 
+</html>

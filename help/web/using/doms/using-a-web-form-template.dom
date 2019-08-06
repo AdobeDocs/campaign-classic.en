@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Using a web form template" name="jcr:description" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Using a web form template" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="3fe7fdc3-421e-4e34-8fe3-02b45ccd1dea" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-08-06T06:59:05.314-0400" name="jcr:created" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:web" name="primaryAudienceTag" />
+  <meta content="fd4e8047-d357-41de-9e7c-a91b418ce67c" name="jcr:predecessors" />
+  <meta content="Using a web form template" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>Form templates are re-usable configurations which let you create new forms. By default, form templates are stored with Web application templates in the <strong>Resources &gt; Templates &gt; Web application templates</strong> node.</p> 
+  <p>From here you can either create new templates or convert an existing form into a template.</p> 
+  <h2 id="convert-an-existing-form-into-a-template">Convert an existing form into a template</h2>
+  <p>A form can be changed into a template and its configuration re-used. To do this, select the form, right-click and select <strong>Actions &gt; Save as template...</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_saveastemplate.png" title="s_ncs_admin_survey_saveastemplate.png" />
+  <p>This action opens the window for creating Web applications. You can enter the name and description of the template and select the folder where it will be saved. </p> 
+  <h2 id="create-a-new-form-template">Create a new form template</h2>
+  <p>To create a Web form template, right-click the list of Web application templates and select <strong>New</strong>. You can also use the <strong>New</strong> button above the list of templates.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_createtemplate.png" title="s_ncs_admin_survey_createtemplate.png" />
+  <p>Enter the name of the template. In the <strong>Instance folder</strong> field, select the folder where the Web forms created based on this template are saved. The <strong>Nature</strong> field lets you add descriptive information to sort and/or filter your various Web application templates. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_createtemplate_details.png" title="s_ncs_admin_survey_createtemplate_details.png" />
+  <p>Click the <strong>Save</strong> button to create the template, then build the content of this template and define its parameters. </p> 
+  <p>You may now select this template when creating a new form.</p> 
+ </body>
+</html>

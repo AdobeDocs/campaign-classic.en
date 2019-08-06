@@ -1,0 +1,58 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Cross-channel deliveries" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="seoDescription" />
+  <meta content="2019-08-06T06:59:15.751-0400" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Cross-channel deliveries" name="jcr:description" />
+  <meta content="Cross-channel deliveries" name="jcr:title" />
+  <meta content="06bbcbbf-3ea8-41b9-bc96-1fa044daab42" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="ebfe2c22-5676-4f6a-8565-5e5c2ce8368c" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <p>Cross-channel deliveries are available in the <strong>Deliveries</strong> tab of campaign workflow activities.</p> 
+  <p>They let you create a delivery that is specific to a particular channel. You can specify the template on which you want to base your delivery as well as its content, in the same way as with a a classic delivery wizard.</p> 
+  <p>The various channels available are:</p> 
+  <ul>
+   <li><p> <a href="../../delivery/using/about-email-channel.md">Email</a></p> </li>
+   <li><p> <a href="../../delivery/using/about-direct-mail-channel.md">Direct Mail</a></p> </li>
+   <li><p> <a href="../../delivery/using/sms-channel.md">Mobile</a></p> </li>
+   <li><p> <a href="../../social/using/publishing-on-twitter.md">Twitter</a></p> </li>
+   <li><p> <a href="../../social/using/publishing-on-facebook.md">Facebook</a></p> </li>
+   <li><p> <a href="../../delivery/using/creating-notifications.md#sending-notifications-on-ios">iOS</a></p> </li>
+   <li><p> <a href="../../delivery/using/creating-notifications.md#sending-notifications-on-android">Android</a></p> </li>
+  </ul>
+  <p>You can specify a target for your delivery upstream of the workflow using the different targeting activities.</p> 
+  <p>For example, here we will create a workflow to send an email or an SMS for push notification subscribers then a push notification one week later. To do this:</p> 
+  <ol>
+   <li><p>Create a campaign.</p> </li>
+   <li><p>In the <strong>Targeting and workflows</strong> tab of your campaign, add a <strong>Query</strong> to your workflow.</p> </li>
+   <li><p>Configure your query. For example, here we select the recipients who are subscribed to push notifications as the target dimension.</p> 
+    <note>
+     <p> For the push notifications, remember to use the <strong>subscriber applications</strong> target dimension. <br /> </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/cross_channel_delivery_1.png" title="cross_channel_delivery_1.png" /></li>
+   <li><p>Add the filter conditions to your query. In this case, we will select recipients who have a mobile number or email address.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/cross_channel_delivery_2.png" title="cross_channel_delivery_2.png" /></li>
+   <li><p>Add a <strong>Split</strong> activity to your workflow to divide recipients who have a mobile number and those who have an email address.</p> </li>
+   <li><p>In the <strong>Delivery</strong> tab, select a delivery for each of your targets. </p> <p>Create your delivery in the same way as with a classic delivery wizard by double-clicking the delivery activity in your workflow. For more on this, refer to this <a href="../../delivery/using/about-email-channel.md">page</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/cross_channel_delivery_3.png" title="cross_channel_delivery_3.png" /></li>
+   <li><p>Add and configure a <strong>Wait</strong> activity in order for the recipients not to receive too many deliveries at once.</p> </li>
+   <li><p>Add a <strong>Split</strong> activity to divide subscribers of an iOS or Android mobile applications.</p> <p>Select a service for each of the operating systems. For more on service creation, refer to this <a href="../../delivery/using/setting-up-mobile-app-channel.md#creating-the-service-and-collecting-subscriptions">page</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/cross_channel_delivery_4.png" title="cross_channel_delivery_4.png" /></li>
+   <li><p>Select and configure a mobile application delivery for each of the operating systems.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/cross_channel_delivery_5.png" title="cross_channel_delivery_5.png" /></li>
+  </ol>
+ </body>
+</html>

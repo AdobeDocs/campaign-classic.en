@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="b32f31ce-dbcd-4c29-92ff-9df11375bf1a" name="jcr:uuid" />
+  <meta content="be154757-db5b-4761-8b7d-616252ced2c9" name="jcr:predecessors" />
+  <meta content="SQL code and JavaScript code" name="navTitle" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-08-06T06:59:16.169-0400" name="jcr:created" />
+  <meta content="SQL code and JavaScript code" name="jcr:title" />
+  <meta content="SQL code and JavaScript code" name="jcr:description" />
+  <meta content="" name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <p>An <strong>SQL code</strong> activity executes an SQL script. The script is a JST template. </p> 
+  <ul>
+   <li><p><strong>Script</strong></p> <p>The central area of the editor contains the script to be executed. This script is a JST template and can therefore be configured according to the workflow context.</p> </li>
+   <li><p><strong>Processing errors</strong></p> <p>Refer to <a href="../../workflow/using/sql-code-and-javascript-code.md#processing-errors" target="_blank">Processing errors</a>.</p> </li>
+  </ul>
+  <p><strong>JavaScript code</strong> type activities execute a JavaScript script in the context of a workflow. For more on scripting, refer to the <a href="../../workflow/using/javascript-scripts-and-templates.md" target="_blank">JavaScript scripts and templates</a> section.</p> 
+  <ul>
+   <li><p><strong>Script</strong></p> <p>The central area of the editor contains the script to be executed.</p> </li>
+   <li><p><strong>Processing errors</strong></p> <p>Refer to <a href="../../workflow/using/sql-code-and-javascript-code.md#processing-errors" target="_blank">Processing errors</a>.</p> </li>
+  </ul>
+  <p>An <strong>Advanced JavaScript code</strong> activity executes a JavaScript script in the context of a workflow. For more on scripting, refer to <a href="../../workflow/using/javascript-scripts-and-templates.md" target="_blank">JavaScript scripts and templates</a>.</p> 
+  <ul>
+   <li><p><strong>First call</strong></p> <p>The first zone of the editor contains the script to execute during the first call.</p> </li>
+   <li><p><strong>Next calls</strong></p> <p>The second zone of the editor contains the script to execute during the next calls.</p> </li>
+   <li><p><strong>Transitions</strong></p> <p>You can define several activity output transitions.</p> </li>
+   <li><p><strong>Schedule</strong></p> <p>The <strong>Schedule</strong> tab lets you schedule when to trigger the activity.</p> </li>
+  </ul>
+ </body>
+</html>

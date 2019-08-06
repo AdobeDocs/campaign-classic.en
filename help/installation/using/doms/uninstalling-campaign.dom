@@ -1,0 +1,44 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Uninstalling Campaign" name="jcr:title" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Uninstalling Campaign" name="jcr:description" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-08-06T06:59:33.710-0400" name="jcr:created" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="d90c5cf5-c80b-4824-a376-0a75aeff2f43" name="jcr:predecessors" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="77a0eb56-c7a9-4a26-9fb1-6b333bd7dd6e" name="jcr:uuid" /> 
+  <meta content="Uninstalling Campaign" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+ </head> 
+ <body> 
+  <note>
+    These procedures will uninstall permanently Adobe Campaign. All data will be lost. 
+   <br /> 
+  </note> 
+  <p><strong>RHEL:</strong></p> 
+  <codeblock gutter="true" class="syntax html">
+    rpm&amp;nbsp;-e&amp;nbsp;nlserver6-v7!!discoiqbr!!userdel&amp;nbsp;-r&amp;nbsp;neolane!!discoiqbr!!groupdel&amp;nbsp;neolane!!discoiqbr!!rm&amp;nbsp;-rf&amp;nbsp;/user/local/neolane 
+  </codeblock> 
+  <p><strong>Debian:</strong></p> 
+  <codeblock gutter="true" class="syntax html">
+    apt&amp;nbsp;purge&amp;nbsp;nlserver6-v7!!discoiqbr!!userdel&amp;nbsp;-r&amp;nbsp;neolane!!discoiqbr!!groupdel&amp;nbsp;neolane!!discoiqbr!!rm&amp;nbsp;-rf&amp;nbsp;/user/local/neolane 
+  </codeblock> 
+  <p><strong>Windows:</strong></p> 
+  <p>Refer to this <a href="../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version">page</a>. Don't forget to remove the Campaign installation folder.</p> 
+ </body> 
+</html>

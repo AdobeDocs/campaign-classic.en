@@ -1,0 +1,103 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Configuring the integration" name="jcr:title" />
+  <meta content="50afdf65-4e17-4ff3-bb9d-08d98bd11ac7" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Configuring the integration" name="jcr:description" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;topic_tags:adobe-experience-manager;content_type:reference" name="cq:tags" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="audience:integrations" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="af5ea073-cdbc-4725-8baa-5d4d08afab75" name="jcr:predecessors" />
+  <meta content="Configuring the integration" name="navTitle" />
+  <meta content="2019-08-06T06:59:39.996-0400" name="jcr:created" />
+  <meta content="" name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <h2 id="configuring-in-adobe-campaign">Configuring in Adobe Campaign</h2>
+  <p>To use these two solutions together, you must configure them to connect to one another.</p> 
+  <p>Follow the steps below to start the configuration in Adobe Campaign:</p> 
+  <ol>
+   <li><p> <a href="../../integrations/using/configuring-the-integration.md#install-the-aem-integration-package-in-adobe-campaign" target="_blank">Install the AEM integration package in Adobe Campaign</a></p> </li>
+   <li><p> <a href="../../integrations/using/configuring-the-integration.md#configure-the-external-account" target="_blank">Configure the external account</a></p> </li>
+   <li><p> <a href="../../integrations/using/configuring-the-integration.md#configure-aem-resources-filtering" target="_blank">Configure AEM resources filtering</a></p> </li>
+  </ol>
+  <p>For advanced configurations such as managing personalization fields and blocks. Refer to Adobe Experience Manager <a href="https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html">documentation</a>.</p> 
+  <h3 id="install-the-aem-integration-package-in-adobe-campaign">Install the AEM integration package in Adobe Campaign</h3>
+  <p>You first need to install the <strong>AEM integration</strong> package.</p> 
+  <ol>
+   <li><p>From your Adobe Campaign instance, select <strong>Tools</strong> from the upper toolbar.</p> </li>
+   <li><p>Select <strong>Tools &gt; Advanced &gt; Import package...</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_config_1.png" title="aem_config_1.png" /></li>
+   <li><p>Select <strong>Install a standard package</strong>.</p> </li>
+   <li><p>Check <strong>AEM integration</strong> then click the <strong>Next</strong> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_config_2.png" title="aem_config_2.png" /></li>
+   <li><p>In the next window, click the <strong>Start</strong> button to start the installation of your package. Close the window once the installation is finished.</p> </li>
+  </ol>
+  <h3 id="configure-the-security-zone-for-aem-operator">Configure the security zone for AEM operator</h3>
+  <p>The <strong>AEM integration</strong> package sets the <strong>aemserver</strong> operator in Campaign. This operator will be used to connect the Adobe Experience Manager server to Adobe Campaign.</p> 
+  <p>You need to configure a security zone for this operator to connect to Adobe Campaign via Adobe Experience Manager. </p> 
+  <note>
+    We strongly recommend creating a security zone dedicated to AEM to avoid any security problems. For more on this, refer to the Installation 
+   <a href="../../installation/using/configuring-campaign-server.md#defining-security-zones">guide</a>.
+   <br /> 
+  </note>
+  <p>If your Campaign instance is hosted by Adobe, contact Adobe Support team. If you are using Campaign on-premise, follow the steps below:</p> 
+  <ol>
+   <li><p>Open the <strong>serverConf.xml</strong> configuration file.</p> </li>
+   <li><p>Access the <strong>allowUserPassword</strong> attribute of the selected security zone and set it to <strong>true</strong>. </p> <p>This will allow Adobe Experience Manager to connect Adobe Campaign via login/password. </p> </li>
+  </ol>
+  <h3 id="configure-the-external-account">Configure the external account</h3>
+  <p>The <strong>AEM integration</strong> package created the external account for Adobe Experience Cloud. You need now to configure it to connect with your Adobe Experience Manager instance.</p> 
+  <p>To confugure the AEM external account, follow the steps below:</p> 
+  <ol>
+   <li><p>Click the <strong>Explorer</strong> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_config_3.png" title="aem_config_3.png" /></li>
+   <li><p>Select <strong>Administration &gt; Platform &gt; External accounts</strong>.</p> </li>
+   <li><p>From the <strong>External account</strong> list, select <strong>AEM instance</strong>.</p> </li>
+   <li><p>Enter the parameters for your AEM authoring instance: </p> 
+    <ul>
+     <li><p><strong>Server</strong></p> </li>
+     <li><p><strong>Account</strong></p> </li>
+     <li><p><strong>Password</strong></p> </li>
+    </ul>
+    <note>
+     <p> Make sure that your <strong>Server</strong> address does not end with a a trailing slash.<br /> </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/aem_config_4.png" title="aem_config_4.png" /></li>
+   <li><p>Check the <strong>Enabled</strong> box.</p> </li>
+   <li><p>Click the <strong>Save</strong> button.</p> </li>
+  </ol>
+  <h3 id="configure-aem-resources-filtering">Configure AEM resources filtering</h3>
+  <p>The <strong>AEMResourceTypeFilter </strong>option is used to filter types of Experience Manager resources that can be used in Adobe Campaign. This allows Adobe Campaign to retrieve Experience Manager contents that are specifically designed to be used in Adobe Campaign only.</p> 
+  <p>To check if the <strong>AEMResourceTypeFilter</strong> option is configured:</p> 
+  <ol>
+   <li><p>Click the <strong>Explorer</strong> button.</p> </li>
+   <li><p>Select <strong>Administration &gt; Platform &gt; Options</strong>.</p> </li>
+   <li><p>From the <strong>Options</strong> list, select <strong>AEMResourceTypeFilter</strong>.</p> </li>
+   <li><p>In the <strong>Value (text)</strong> field, the path should be as follows:</p> 
+    <codeblock gutter="true" class="syntax html">
+     mcm/campaign/components/newsletter,mcm/campaign/components/campaign_newsletterpage,mcm/neolane/components/newsletter
+    </codeblock><p>Or in some case:</p> 
+    <codeblock gutter="true" class="syntax html">
+     mcm/campaign/components/newsletter
+    </codeblock><img alt="" captionBottom="" imageRotate="0" src="assets/aem_config_5.png" title="aem_config_5.png" /></li>
+  </ol>
+  <h2 id="configuring-in-adobe-experience-manager">Configuring in Adobe Experience Manager</h2>
+  <p>Follow the steps below to start the configuration in Adobe Experience Manager:</p> 
+  <ol>
+   <li><p>Configure the <strong>replication</strong> to replicate from the AEM authoring instance to the AEM publishing instance.</p> <p>To learn how to configure replication, refer to Adobe Experience Manager <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/replication.html">documentation</a>.</p> </li>
+   <li><p>Install the integration <strong>FeaturePack</strong> on your authoring instance then replicate the installation on your publishing instance. (For AEM versions 5.6.1 and 6.0 only).</p> <p>To learn how to install FeaturePack, refer to Adobe Experience Manager <a href="https://helpx.adobe.com/experience-manager/aem-previous-versions.html">documentation</a>.</p> </li>
+   <li><p>Connect Adobe Experience Manager to Adobe Campaign by configuring a dedicated <strong>Cloud Service</strong>.</p> <p>To learn how to connect both solutions via Cloud Services, refer to Adobe Experience Manager .</p> </li>
+   <li><p>Configure the <strong>Externalizer service</strong>.</p> <p>To learn how to configure it, refer to Adobe Experience Manager <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/externalizer.html">documentation</a>.</p> </li>
+  </ol>
+ </body>
+</html>

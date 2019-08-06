@@ -1,0 +1,50 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="Configuration" name="navTitle" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="b554df7b-ba92-4399-b78e-c683aac7049f" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Configuration" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2019-08-06T06:59:01.191-0400" name="jcr:created" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="94a65e1b-06c1-4dbd-a61e-966ecd83e240" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Configuration" name="jcr:description" /> 
+  <meta content="audience:production" name="primaryAudienceTag" /> 
+ </head> 
+ <body> 
+  <h2 id="changing-the-syslogd-listening-port">Changing the syslogd listening port</h2> 
+  <p>By default, the <strong>syslogd</strong> listening port is 666 (udp). You can alter it using an environment variable if necessary.</p> 
+  <p>Once it is configured, this variable is taken into account by all Adobe Campaign modules.</p> 
+  <h3 id="in-linux">In Linux</h3> 
+  <p>Edit the <strong>customer.sh</strong> file and add the following line:</p> 
+  <codeblock gutter="true" class="syntax html">
+    export&amp;nbsp;TRACE_ADDR=localhost:&lt;listening&amp;nbsp;port&gt; 
+  </codeblock> 
+  <h3 id="in-windows">In Windows</h3> 
+  <p>You need to create the <strong>TRACE_ADDR</strong> environment variable with the <strong>localhost</strong> value: <strong> 
+    <listening port="" /></strong>.</p> 
+  <note>
+    We recommend running some tests to make sure your platform is working after you create this environment variable. 
+   <br /> 
+  </note> 
+  <h2 id="configuring-security-zones">Configuring security zones</h2> 
+  <p>Each operator needs to be linked to a zone to log on to an instance and the operator IP must be included in the addresses or address sets defined in the security zone. Technical zone configuration is carried out in the configuration file of the Adobe Campaign server. The linking of an operator to a security zone has to be defined in the console (<strong>Administration &gt; Access management &gt; Operators</strong> node). </p> 
+  <note> 
+   <p> For more on configuring security zones, refer to <a href="../../installation/using/configuring-campaign-server.md#defining-security-zones">this section</a>.<br /> </p> 
+  </note> 
+ </body> 
+</html>

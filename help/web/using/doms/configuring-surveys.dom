@@ -1,0 +1,37 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-08-06T06:59:06.993-0400" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:web" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="dd48af4b-d4da-43a0-ac6e-fe5833a5ff09" name="jcr:predecessors" />
+  <meta content="Configuring surveys" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Configuring surveys" name="jcr:description" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Configuring surveys" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2545a3c6-69e4-4cfb-a2a9-754166ae4dc2" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <h2 id="survey-properties">Survey properties</h2>
+  <p>Online surveys are fully configurable and customizable to satisfy your requirements. The parameters must be entered in the properties window.</p> 
+  <p>The available parameters are detailed in <a href="../../web/using/defining-web-forms-properties.md">this section</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_properties_general.png" title="s_ncs_admin_survey_properties_general.png" />
+  <h2 id="survey-data-storage">Survey data storage</h2>
+  <p>By default, the Web form fields are stored in the recipient table. To use another table, select it in the <strong>Document type</strong> field. The <strong>Zoom</strong> icon lets you view the content of the selected table.</p> 
+  <p>Answers to surveys provided by users which aren't stored in the fields (but in local variables) are stored in the <strong>Answers to surveys</strong> table. You can change the schema used based on the <strong>Library</strong> field. This field is only available for <strong>surveys</strong>.</p> 
+ </body>
+</html>

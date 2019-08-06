@@ -1,0 +1,72 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="5e9e52a1-59b3-46cd-b66d-50c99d928618" name="jcr:predecessors" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Viral and social marketing" name="navTitle" />
+  <meta content="" name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="Viral and social marketing" name="jcr:description" />
+  <meta content="2019-08-06T06:59:26.959-0400" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="662e5bcf-1ccd-4c3f-a26e-1098eac2cfcd" name="jcr:uuid" />
+  <meta content="Viral and social marketing" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <h2 id="about-viral-marketing">About viral marketing</h2>
+  <p>Adobe Campaign lets you set up tools to encourage viral marketing.</p> 
+  <p>This lets delivery recipients or website visitors share information with their network: from adding a link to their Facebook or Twitter profile to sending a message to a friend.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_viral_icons.png" title="s_ncs_user_viral_icons.png" />
+  <note>
+    In order for added links to function properly, the matching mirror page must be available. To do this, include the link to the mirror page in the delivery.
+   <br /> 
+  </note>
+  <h2 id="social-networks--sharing-a-link">Social networks: sharing a link</h2>
+  <p>To enable delivery recipients to share the content of messages with members of their network, you need to include the matching personalization block.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_viral_add_link.png" title="s_ncs_user_viral_add_link.png" />
+  <note>
+   <p> By default, this link is not offered in the list of blocks. You can access it by clicking <strong>Other...</strong>, and selecting the <strong>Social network sharing links</strong> block.<br /> </p> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_viral_add_link_via_others.png" title="s_ncs_user_viral_add_link_via_others.png" />
+  <p>Rendering will be as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_viral_add_link_rendering.png" title="s_ncs_user_viral_add_link_rendering.png" />
+  <p>When the recipient clicks the icon of one of the social networks displayed, they are automatically redirected to their account and can share the message content via a link. This lets the members of their network access the communication. </p> 
+  <note>
+   <p> This personalization block contains all links (for message sending and sharing with all social networks). It can be altered to meet your needs. However, configuration is reserved for advanced users. To edit the matching personalization block, go to the <strong>Resources &gt; Campaign management &gt; Personalization blocks</strong> node of the Adobe Campaign tree.<br /> </p> 
+  </note>
+  <h2 id="viral-marketing--forward-to-a-friend">Viral marketing: forward to a friend</h2>
+  <p>A viral service allows referral-type actions to be carried out: these actions enable you to forward a message to a friend. The profile of the referee(s) is stored temporarily in the database (in a dedicated table). Forwarded messages include a link for the referee to subscribe: if they do, they will be added to the Adobe Campaign database.</p> 
+  <p>Message forwarding is based on the same principles as social network links. </p> 
+  <p>Apply the following stages:</p> 
+  <ol>
+   <li><p>Add the <strong>Social network sharing links</strong> personalization block into the body of the original message.</p> </li>
+   <li><p> The message recipient can click the <strong>Email</strong> icon to send this message to one or more friends. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_viral_email_link.png" title="s_ncs_user_viral_email_link.png" /><p>A referral form enables you to enter the email addresses of referees. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_viral_email_msg.png" title="s_ncs_user_viral_email_msg.png" /><p>The message is sent to them when the main recipient clicks the <strong>Next</strong> button.</p> 
+    <note>
+     <p> The content of this message can be personalized to meet your needs. It is created based on the <strong>Transfer of original message</strong> template, which is stored in the <strong>Administration &gt; Campaign management &gt; Technical delivery templates</strong> node.<br /> It is also possible to change the message forward form made available to the referrer To do this, you need to change the <strong>Viral form</strong> Web application stored in the <strong>Resources &gt; Online &gt; Web applications</strong> node. <br /> </p> 
+    </note></li>
+   <li><p>In the forwarded message, a link lets the referee save their profile in the database. An entry form is provided for this purpose. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_viral_create_account_form.png" title="s_ncs_user_viral_create_account_form.png" />
+    <note>
+     <p> This configuration can be adapted. To do this, you need to modify the <strong>Recipient subscription</strong> Web application stored in the <strong>Resources &gt; Online &gt; Web applications</strong> node. <br /> For more information on Web applications, refer to <a href="../../web/using/about-web-applications.md">this section</a>.<br /> </p> 
+    </note><p>Once they validate, a confirmation message is sent to them: they will only be registered for good once they activate the link in the confirmation message. This message is created based on the <strong>Registration confirmation</strong> template, which is stored in the <strong>Administration &gt; Campaign management &gt; Technical delivery templates</strong> node.</p> <p>The referee is added to the <strong>Recipients</strong> folder of the database and is subscribed (by default) to the <strong>Newsletter</strong> information service.</p> </li>
+  </ol>
+  <h2 id="tracking-social-network-sharing">Tracking social network sharing</h2>
+  <p>Sharing and access to shared information is tracked. This information collected by Adobe Campaign is accessible in two places:</p> 
+  <ul>
+   <li><p>in the <strong>Tracking</strong> tab of the delivery (or individually for each recipient):</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_network_del_tracking_tab.png" title="s_ncs_user_network_del_tracking_tab.png" /></li>
+   <li><p>in a dedicated <strong>Sharing to social networks</strong> report:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_viral_report.png" title="s_ncs_user_viral_report.png" /></li>
+  </ul>
+ </body>
+</html>

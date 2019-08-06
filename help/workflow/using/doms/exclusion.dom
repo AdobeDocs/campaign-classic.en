@@ -1,0 +1,62 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="topic_tags:targeting-activities;products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Exclusion" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="1f8d9bfa-0d3d-4e0b-8df0-7429a42d1472" name="jcr:uuid" />
+  <meta content="light" name="heroGradient" />
+  <meta content="86a2c9c9-877c-4d42-8e57-5b1b58a6911b" name="jcr:predecessors" />
+  <meta content="" name="seoDescription" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Exclusion" name="jcr:description" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-08-06T06:59:14.148-0400" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Exclusion" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>An <strong>Exclusion</strong>-type activity creates a target based on a main target from which one or more other targets are extracted.</p> 
+  <p>To configure this activity, enter its label and select the main recipient set: the population from the main set lets you construct the result. Profiles shared by the main set and at least one of the entry activities will be excluded.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_exclu.png" title="s_user_segmentation_exclu.png" />
+  <note>
+   <p> For more on configuring and using the exclusion activity, refer to <a href="../../workflow/using/exclusion.md#excluding-a-population--exclusion-" target="_blank">Excluding a population (Exclusion)</a>.<br /> </p> 
+  </note>
+  <p>Check the <strong>Generate complement</strong> option if you wish to exploit the remaining population. The complement will contain the main incoming population minus the outgoing population. An additional output transition will then be added to the activity, as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_exclu_compl.png" title="s_user_segmentation_exclu_compl.png" />
+  <h2 id="exclusion-examples">Exclusion examples</h2>
+  <p>The following example seeks to compile a list of recipients aged between 18 and 30 years old, while excluding residents of Paris.</p> 
+  <ol>
+   <li><p>Insert and open an <strong>Exclusion</strong>-type activity following two queries. The first query targets recipients living in Paris. The second query targets those aged 18 to 30.</p> </li>
+   <li><p>Enter the main set. Here the main set is the <strong>18-30 years old</strong> query. Elements pertaining to the second set will be excluded from the final result.</p> </li>
+   <li><p>Check the <strong>Generate complement</strong> option if you wish to exploit the data that remains after the exclusion. In this case, the complement is made up of recipients aged 18 to 30 that live in Paris.</p> </li>
+   <li><p>Approve the exclusion configuration then insert an update list activity to the result. You can also insert an additional list update to the complement where necessary.</p> </li>
+   <li><p>Execute the workflow. In this example, the result is made up of recipients aged 18 to 30, but those living in Paris are excluded and sent to the complement.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/exclusion_example.png" title="exclusion_example.png" /></li>
+  </ol>
+  <p>The blacklist importation example uses an <strong>Exclusion</strong>-type activity which can be found in <a href="../../workflow/using/read-list.md" target="_blank">Read list</a>.</p> 
+  <h2 id="input-parameters">Input parameters</h2>
+  <ul>
+   <li><p>tableName</p> </li>
+   <li><p>schema</p> </li>
+  </ul>
+  <p>Each inbound event must specify a target defined by these parameters.</p> 
+  <h2 id="output-parameters">Output parameters</h2>
+  <ul>
+   <li><p>tableName</p> </li>
+   <li><p>schema</p> </li>
+   <li><p>recCount</p> </li>
+  </ul>
+  <p>This set of three values identifies the target resulting from the exclusion. <strong>tableName</strong> is the name of the table that records the target identifiers, <strong>schema</strong> is the schema of the population (usually nms:recipient) and <strong>recCount</strong> is the number of elements in the table.</p> 
+  <p>The transition associated with the complement has the same parameters.</p> 
+ </body>
+</html>

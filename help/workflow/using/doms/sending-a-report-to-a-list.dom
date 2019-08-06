@@ -1,0 +1,95 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Sending a report to a list" name="jcr:title" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-08-06T06:59:17.193-0400" name="jcr:created" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="3dd7f5fe-86f8-4df9-a41c-11d36d8e9533" name="jcr:uuid" /> 
+  <meta content="Sending a report to a list" name="navTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Sending a report to a list" name="jcr:description" /> 
+  <meta content="c8a50c3d-a034-41c6-9d5a-8b3ecfe6f81a" name="jcr:predecessors" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:workflow" name="primaryAudienceTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+ </head> 
+ <body> 
+  <p>This use case details how to generate a monthly out-of-the-box <strong>Tracking indicators</strong> report in PDF format and how to send it to a list of recipients.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/use_case_report_intro.png" title="use_case_report_intro.png" /> 
+  <p>The main implementation steps for this use case are:</p> 
+  <ul> 
+   <li><p>Creating a list of recipients who will receive the delivery (refer to: <a href="../../workflow/using/sending-a-report-to-a-list.md#step-1--creating-the-recipient-list" target="_blank">Step 1: Creating the recipient list</a>). </p> </li> 
+   <li><p>Creating a delivery template that will let you generate a new delivery each time the workflow is executed (refer to: <a href="../../workflow/using/sending-a-report-to-a-list.md#step-2--creating-the-delivery-template" target="_blank">Step 2: Creating the delivery template</a>).</p> </li> 
+   <li><p>Creating a workflow that will let you generate the report in PDF format and send it to the list of recipients (refer to: <a href="../../workflow/using/sending-a-report-to-a-list.md#step-3--creating-the-workflow" target="_blank">Step 3: Creating the workflow</a>).</p> </li> 
+  </ul> 
+  <h2 id="step-1--creating-the-recipient-list">Step 1: Creating the recipient list</h2> 
+  <p>Go to the <strong>Profiles and targets</strong> universe, click the <strong>Lists</strong> link, then the <strong>Create</strong> button. Select <strong>New list</strong> and create a new recipient list for the report to be sent to.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/use_case_report_1.png" title="use_case_report_1.png" /> 
+  <p>For more on creating lists, refer to this <a href="../../platform/using/creating-and-managing-lists.md">section</a>.</p> 
+  <h2 id="step-2--creating-the-delivery-template">Step 2: Creating the delivery template</h2> 
+  <ol> 
+   <li><p>Go to the <strong>Resources &gt; Templates &gt; Delivery templates</strong> node of the Adobe Campaign explorer and duplicate the <strong>Email delivery</strong> out-of-the-box template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/use_case_report_2.png" title="use_case_report_2.png" /><p>For more on creating a delivery template, refer to this <a href="../../delivery/using/about-templates.md">section</a>.</p> </li> 
+   <li><p>Enter the various template parameters: label, target (the list of previously created recipients), subject and content.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/use_case_report_3.png" title="use_case_report_3.png" /></li> 
+   <li><p>Each time the workflow is executed, the <strong>Tracking indicators</strong> report is updated (refer to <a href="../../workflow/using/sending-a-report-to-a-list.md#step-3--creating-the-workflow" target="_blank">Step 3: Creating the workflow</a>). To include the latest version of the report in the delivery, you need to add a <strong>Calculated attachment</strong>:</p> <p>For more on creating a calculated attachment, refer to this <a href="../../delivery/using/attaching-files.md#creating-a-calculated-attachment">section</a>.</p> 
+    <ul> 
+     <li><p>Click the <strong>Attachments</strong> link and click <strong>Add</strong>, then select <strong>Calculated attachment</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/use_case_report_4.png" title="use_case_report_4.png" /></li> 
+     <li><p>Go to the <strong>Type</strong> field and select the fourth option: <strong>File name is computed during delivery of each message (it may then depend on the recipient profile)</strong>. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/use_case_report_5.png" title="use_case_report_5.png" /><p>The value entered in the <strong>Label</strong> field will not appear in the final delivery.</p> </li> 
+     <li><p>Go to the edit zone and enter the access path and name of the file. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/use_case_report_6.png" title="use_case_report_6.png" /> 
+      <note>
+        The file must be present on the server. Its path and name must be identical to those entered in the 
+       <strong>JavaScript code</strong> type activity of the workflow (refer to: 
+       <a href="../../workflow/using/sending-a-report-to-a-list.md#step-3--creating-the-workflow" target="_blank">Step 3: Creating the workflow</a>). 
+       <br /> 
+      </note></li> 
+     <li><p>Select the <strong>Advanced</strong> tab and check <strong>Script the name of the file name displayed in the mails sent</strong>. Go to the edit zone and enter the name you want to give the attachment in the final delivery.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/use_case_report_6bis.png" title="use_case_report_6bis.png" /></li> 
+    </ul></li> 
+  </ol> 
+  <h2 id="step-3--creating-the-workflow">Step 3: Creating the workflow</h2> 
+  <p>The following workflow was created for this use case. It has three activities: </p> 
+  <ul> 
+   <li><p>One <strong>Scheduler</strong> type activity that lets you execute the workflow once a month,</p> </li> 
+   <li><p>One <strong>JavaScript code</strong> type activity that lets you generate the report in PDF format,</p> </li> 
+   <li><p>one <strong>Delivery</strong> type activity that uses the previously created delivery template.</p> </li> 
+  </ul> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/use_case_report_8.png" title="use_case_report_8.png" /> 
+  <ol> 
+   <li><p>Now go to the <strong>Administration &gt; Production &gt; Technical workflows</strong> node and create a new workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/use_case_report_7.png" title="use_case_report_7.png" /></li> 
+   <li><p>Start by adding a <strong>Scheduler</strong> type activity and configure it so that the workflow executes on the first Monday of the month.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/use_case_report_9.png" title="use_case_report_9.png" /><p>For more on configuring the scheduler, refer to <a href="../../workflow/using/scheduler.md" target="_blank">Scheduler</a>.</p> </li> 
+   <li><p>Then add a <strong>JavaScript code</strong> type activity.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/use_case_report_10.png" title="use_case_report_10.png" /><p>Enter the following code in the edit zone:</p> 
+    <codeblock gutter="true" class="syntax html">
+      var&amp;nbsp;reportName&amp;nbsp;=&amp;nbsp;"deliveryFeedback";!!discoiqbr!!var&amp;nbsp;path&amp;nbsp;=&amp;nbsp;"/tmp/deliveryFeedback.pdf";!!discoiqbr!!var&amp;nbsp;exportFormat&amp;nbsp;=&amp;nbsp;"PDF";!!discoiqbr!!var&amp;nbsp;reportURL&amp;nbsp;=&amp;nbsp;"&lt;PUT&amp;nbsp;THE&amp;nbsp;URL&amp;nbsp;OF&amp;nbsp;THE&amp;nbsp;REPORT&amp;nbsp;HERE&gt;";!!discoiqbr!!var&amp;nbsp;_ctx&amp;nbsp;=&amp;nbsp;&lt;ctx&amp;nbsp;_context="global"&amp;nbsp;_reportContext="deliveryFeedback"&amp;nbsp;/&gt;!!discoiqbr!!var&amp;nbsp;isAdhoc&amp;nbsp;=&amp;nbsp;0;!!discoiqbr!!!!discoiqbr!!xtk.report.export(reportName,&amp;nbsp;_ctx,&amp;nbsp;exportFormat,&amp;nbsp;path,&amp;nbsp;isAdhoc); 
+    </codeblock><p>The following variables are used:</p> 
+    <ul> 
+     <li><p><strong>var reportName</strong>: enter the internal name of the report in double quotes. In this case, the internal name of the <strong>Tracking indicator</strong> report is "deliveryFeedback".</p> </li> 
+     <li><p><strong>var path</strong>: enter the save path of the file ("tmp/files/"), the name you want to give the file ("deliveryFeedback") and the file extension (".pdf"). In this case, we have used the internal name as the file name. Values need to be between double quotes and separated by the "+" character.</p> 
+      <note>
+        The file must be saved on the server. You must enter the same path and the same name in the 
+       <strong>General</strong> tab of the edit window for the calculated attachment (refer to: 
+       <a href="../../workflow/using/sending-a-report-to-a-list.md#step-2--creating-the-delivery-template" target="_blank">Step 2: Creating the delivery template</a>). 
+       <br /> 
+      </note></li> 
+     <li><p><strong>var exportFormat</strong>: enter the export format of the file ("PDF").</p> </li> 
+     <li><p><strong>var _ctx</strong> (context): in this case, we are using the <strong>Tracking indicators</strong> report in its global context.</p> </li> 
+    </ul></li> 
+   <li><p>Finish by adding a <strong>Delivery</strong> type activity with the following options:</p> 
+    <ul> 
+     <li><p><strong>Delivery</strong>: select <strong>New, created from a template</strong>, and select the delivery template created previously.</p> </li> 
+     <li><p>For the <strong>Recipients</strong> and <strong>Content</strong> fields, select <strong>Specified in the delivery</strong>.</p> </li> 
+     <li><p><strong>Action to execute</strong>: select <strong>Prepare and start</strong>. </p> </li> 
+     <li><p>Un-check <strong>Generate an outbound transition</strong> and <strong>Process errors</strong>.</p> </li> 
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/use_case_report_11.png" title="use_case_report_11.png" /></li> 
+  </ol> 
+ </body> 
+</html>

@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="seoDescription" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Managing offer presentation" name="navTitle" />
+  <meta content="Managing offer presentation" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="553e54c4-acf9-43fa-8ed2-adc548cead6b" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-08-06T06:59:20.485-0400" name="jcr:created" />
+  <meta content="Managing offer presentation" name="jcr:title" />
+  <meta content="9538be90-29e2-436a-bfdc-0043d2bed977" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+ </head>
+ <body>
+  <h2 id="presentation-rules-overview">Presentation rules overview</h2>
+  <p>Interaction lets you control the flow of offer propositions using presentation rules. These rules, which are specific to Interaction, are typology rules. They let you exclude offers based on the history of propositions already made to a recipient. They are referenced in the environment </p> 
+  <h2 id="creating-and-referencing-an-offer-presentation-rule">Creating and referencing an offer presentation rule</h2>
+  <ol>
+   <li><p>Go to the <strong>Administration</strong> &gt; <strong>Campaign management</strong> &gt; <strong>Typology management</strong> &gt; <strong>Typology rules</strong> node. </p> </li>
+   <li><p>Create a typology rule and choose the <strong>Offer presentation</strong> type.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_typology_001.png" title="offer_typology_001.png" /></li>
+   <li><p>Specify the channel to which the rule should apply.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_typology_002.png" title="offer_typology_002.png" /></li>
+   <li><p>Configure the rule's application criteria. For more on this, refer to <a href="../../interaction/using/managing-offer-presentation.md#presentation-rule-settings" target="_blank">Presentation rule settings</a>.</p> </li>
+   <li><p>Go to the <strong>Administration</strong> &gt; <strong>Campaign execution</strong> &gt; <strong>Typology management</strong> &gt;<strong>Typologies</strong> node and create a typology that will group all <strong>Offer presentation</strong> type rules.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_typology_003.png" title="offer_typology_003.png" /></li>
+   <li><p>Once the typology has been created, place your cursor on the typology rules and group them in the typology you have just created.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_typology_004.png" title="offer_typology_004.png" /></li>
+   <li><p>In your offer environment, reference the typology using the drop-down list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_typology_005.png" title="offer_typology_005.png" /></li>
+  </ol>
+  <h2 id="presentation-rule-settings">Presentation rule settings</h2>
+  <h3 id="application-criteria-">Application criteria</h3>
+  <p>The application criteria available in the <strong>General</strong> tab lets you specify the offers which the presentation rule will apply to. To do this, you need to create a query and choose the concerned offers, as described below.</p> 
+  <ol>
+   <li><p>In your typology rule, click the <strong>Edit the rule application conditions...</strong> link to create your query.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_typology_006.png" title="offer_typology_006.png" /></li>
+   <li><p>In the query window, you can apply a filter on the offers to which you wish to apply a typology rule.</p> <p>For example, you can select an offer category.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_typology_008.png" title="offer_typology_008.png" /></li>
+  </ol>
+  <h3 id="offer-dimensions">Offer dimensions</h3>
+  <p>In the <strong>Offer presentation</strong> tab, you must specify the same dimensions for the presentation rule as those configured in the environment. </p> 
+  <p>The <strong>Targeting dimension</strong> coincides with the table of recipients (by default: nms:recipients) who will receive the offer propositions. The <strong>Storage dimension</strong> coincides with the table which contains the proposition history linked to the targeting dimension (by default:nms:propositionRcp).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_typology_009.png" title="offer_typology_009.png" />
+  <note>
+   <p> You can also use non-standard tables. If you want to use a specific targeting dimension, you will need to create tables as well as a dedicated environment using the target mapping. For more on this, refer to <a href="../../interaction/using/managing-offer-presentation.md#creating-an-offer-environment" target="_blank">Creating an offer environment</a>.<br /> </p> 
+  </note>
+  <h3 id="period">Period</h3>
+  <p>This is a sliding period which starts on the offer presentation date. It sets a time-limit for the validity of offer propositions. The rule does not apply to offer propositions made beyond this period.</p> 
+  <p>The period starts <strong>n</strong> days before the proposition date and ends <strong>n</strong> days afterwards, where <strong>n</strong> corresponds to the number entered in the <strong>Period considered</strong> field:</p> 
+  <ul>
+   <li><p>For inbound spaces, the proposition date is the offer presentation date. </p> </li>
+   <li><p>For outbound spaces, the proposition date is the delivery contact date (for example the delivery date entered in a targeting workflow). </p> </li>
+  </ul>
+  <p>Use the arrows to change the number of days or directly enter a period ("2d 6h", for instance).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_typology_010.png" title="offer_typology_010.png" />
+  <h3 id="number-of-propositions">Number of propositions</h3>
+  <p>It is possible to set the highest number of propositions that can be made before the concerned offer(s) is/are excluded. </p> 
+  <p>Use the arrows to change the number of offer propositions.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_typology_011.png" title="offer_typology_011.png" />
+  <h2 id="defining-propositions-and-recipients">Defining propositions and recipients</h2>
+  <p> The <strong>Propositions to count</strong> section lets you specify both the recipients and the propositions which will lead to the exclusion of the offers defined in the <strong>General</strong> tab if they appear a certain number of times in the propositions history.</p> 
+  <h3 id="filtering-propositions">Filtering propositions</h3>
+  <p>You can select filtering criteria to exclude propositions based on the channel, the offers concerned or the status of previously assigned propositions. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_typology_014.png" title="offer_typology_014.png" />
+  <p>These criteria represent the most frequent applications of presentation rules. To use other criteria, you can create a query using the <strong>Limit propositions...</strong> link. For more on this, refer to the <a href="../../interaction/using/managing-offer-presentation.md#creating-a-query-on-propositions" target="_blank">Creating a query on propositions</a> section.</p> 
+  <ul>
+   <li><p><strong>Filter on the channel</strong></p> <p><strong>On the same channel only</strong>: lets you exclude offer propositions on the channel specified in the <strong>General</strong> tab.</p> <p>For instance, the channel specified for the rule in the <strong>General</strong> tab is email. If the offers that the rule applies to were so far only offered on the web channel, the Interaction engine can present the offers in an email delivery. However, once the offers have been presented by email, the interaction engine will choose a different channel to present the offers.</p> 
+    <note>
+     <p> We are talking about the channel and not the space. If the rule must exclude an offer on the web channel, the offer destined to be presented on a website in two spaces (in a banner and in the body of the page, for instance), will not be displayed on the site if it has already been presented before.<br /> For a workflow involving offer presentation, the rules are only correctly taken into account if they are configured on <strong>All channels</strong>.<br /> </p> 
+    </note></li>
+  </ul>
+  <ul>
+   <li><p><strong>Filter on the offer</strong></p> <p>This filter lets you restrict the offer propositions to be counted to specific sets of offers.</p> <p><strong>All offers</strong>: default value. No filter is applied to the offers.</p> <p><strong>Offer being presented</strong>: the offer specified in the <strong>General</strong> tab is excluded if it has already been presented.</p> <p><strong>Offers from the same category</strong>: an offer is excluded if an offer from the same category has already been presented.</p> <p><strong>The offers which the rule applies to</strong>: when several offers are defined in the <strong>General</strong> tab, each offer proposition from this set of offers is taken into account and ends in the exclusion of all offers if the proposition threshold is reached. </p> <p>For instance, offers 2, 3 and 5 are defined in the <strong>General</strong> tab. The maximum number of propositions is set to 2. If offers 2 and 5 are each presented once, the number of propositions counted will be 2. As a result, offer 3 will never be presented.</p> </li>
+  </ul>
+  <ul>
+   <li><p><strong>Filter on the proposition status</strong></p> <p>This filter lets you choose the most frequent statuses for offer propositions to be taken into account in the proposition history.</p> <p><strong>Regardless of the proposition status</strong>: default value. No filter is applied to the proposition status.</p> <p><strong>Accepted or rejected propositions</strong>: lets you exclude previously presented offers which have been accepted or rejected.</p> <p><strong>Accepted propositions</strong>: lets you exclude previously presented offers which have been accepted.</p> <p><strong>Rejected propositions</strong>: lets you exclude previously presented offers which have been rejected.</p> </li>
+  </ul>
+  <h3 id="defining-recipients">Defining recipients</h3>
+  <p>To specify the recipients, click the <strong>Edit the query from the targeting dimension...</strong> link and select the recipients concerned by the rule.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_typology_012.png" title="offer_typology_012.png" />
+  <h3 id="creating-a-query-on-propositions">Creating a query on propositions</h3>
+  <p>To specify the propositions to be counted via a query, click the <strong>Limit propositions...</strong> link and specify the criteria to be taken into account.</p> 
+  <p>In the following example, the propositions to be counted after two presentations are the ones in the <strong>Special offers</strong> category, for the <strong>Call center</strong> space, with a weight below <strong>20</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_typology_013.png" title="offer_typology_013.png" />
+ </body>
+</html>

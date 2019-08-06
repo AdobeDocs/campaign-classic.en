@@ -1,0 +1,130 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="About distributed marketing" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="About distributed marketing" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="4f97917d-d263-42d3-99a1-ea34e944ac0d" name="jcr:predecessors" />
+  <meta content="2019-08-06T06:59:10.977-0400" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="audience:campaign" name="primaryAudienceTag" />
+  <meta content="About distributed marketing" name="jcr:description" />
+  <meta content="83051acd-78b0-4cdb-828a-aa0df4ca3b47" name="jcr:uuid" />
+  <meta content="" name="jcr:baseVersion" />
+ </head>
+ <body>
+  <h2 id="introduction">Introduction</h2>
+  <p>Adobe Campaign offers a <strong>Distributed Marketing</strong> application for implementing cooperative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). This cooperation is based on a shared workspace known as the <strong>list of campaign packages</strong>, where centrally created campaign templates and instances are offered to local entities. </p> 
+  <p>The central entity provides campaigns that local entities may use. Campaigns are materialized by packages representing either local or collaborative campaigns. To use a campaign, the local entity must order it and the order must be approved.</p> 
+  <note>
+    The Distributed Marketing module is a 
+   <strong>Campaign</strong> option. Please check your license agreement.
+   <br /> 
+  </note>
+  <h2 id="terminology">Terminology</h2>
+  <h3 id="central-entities">Central entities</h3>
+  <p>Central entities are made up of marketing operators in charge of specifying communications and assisting local entities in executing their marketing campaign. </p> 
+  <p>The distributed marketing module allows the central entity to:</p> 
+  <ul>
+   <li><p>set up marketing campaign packages for local entities,</p> </li>
+   <li><p>increase local entities' degree of autonomy regarding their choice in customer/prospect communication, targeting, content, etc.</p> </li>
+   <li><p>manage and control costs, </p> </li>
+   <li><p>handle a network of agencies.</p> </li>
+  </ul>
+  <h3 id="local-entities">Local entities</h3>
+  <p>Local entities can be agencies, stores or groups of specific local operators (country or regional managers, brand managers, etc.).</p> 
+  <p>Distributed Marketing allows local entities to have more autonomy while optimizing execution costs.</p> 
+  <h3 id="localization">Localization</h3>
+  <p>Localization is the capacity for a local entity to modify the target and content of a campaign. The possible level of localization depends on the type of campaign and its implementation.</p> 
+  <h3 id="list-of-campaign-packages">List of campaign packages</h3>
+  <p>The list of campaign packages contains the campaigns available to local entities.</p> 
+  <h3 id="campaign-package">Campaign package</h3>
+  <p>Template (or campaign instance) created by a central entity and made available to a set of local entities.</p> 
+  <h3 id="local-campaign">Local campaign</h3>
+  <p>A local campaign is an instance created from a template referenced in the list of <strong>campaign packages</strong> with a <strong>specific execution schedule</strong>. Its aim is to meet a local communication need using a campaign template that was set up and configured by the central entity.</p> 
+  <p>The local entity's degree of autonomy depends on the implementation used.</p> 
+  <p>Refer to <a href="../../campaign/using/creating-a-local-campaign.md" target="_blank">Creating a local campaign</a>.</p> 
+  <h3 id="collaborative-campaign">Collaborative campaign</h3>
+  <p>A collaborative campaign is a campaign whose <strong>execution schedule is defined</strong> by the central entity, which the local entity may use. The content remains the same for each local entity but costs are shared. To take part, local entities subscribe to the collaborative campaign.</p> 
+  <ul>
+   <li><p><strong>Collaborative campaign (by form)</strong>: recommended for campaigns involving up to 300 local entities. The local entity can enter predefined parameters for targeting and content personalization in a Web form. The form can be an Adobe Campaign form or an external form (extranet client). A functional administrator can define and configure the form based on a form template defined by the integrator. To order the campaign, the local entity just needs Web access.</p> </li>
+   <li><p><strong>Collaborative campaign (by campaign)</strong>: recommended for campaigns aimed at dozens of local entities. This type of campaign creates child campaigns for each local entity. Once the <strong>collaborative campaign (by campaign)</strong> is approved by the central entity, the campaign is made available to the local entity, who can modify it. Execution is automatically synched between parent and child campaigns. The local entity must have access to an instance to order a campaign and participate in it.</p> </li>
+   <li><p><strong>Collaborative campaign (by target approval)</strong>: recommended for campaigns aimed at several thousand local entities. Local entity receives a contact list that has been predefined by the central entity. The local entity decides whether or not to keep certain contacts based on the campaign content, via a Web form. Local entities are deduced from the list of selected contacts. To participate in the campaign, the local entity just needs Web access.</p> </li>
+   <li><p><strong>Collaborative campaign (simple)</strong>: this mode ensures compatibility with the specific execution processes of previous versions.</p> </li>
+  </ul>
+  <p>Refer to <a href="../../campaign/using/creating-a-collaborative-campaign.md" target="_blank">Creating a collaborative campaign</a>.</p> 
+  <h3 id="ordering-campaign-packages">Ordering campaign packages</h3>
+  <p>If a local entity registers for a campaign this is made into an order which regroups all information relative to the campaign localization.</p> 
+  <h2 id="workspace">Workspace</h2>
+  <p>The list of campaign packages can be accessed from the <strong>Campaigns</strong> universe: click the <strong>Campaign packages</strong> link.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_home_local_op.png" title="mkg_dist_home_local_op.png" />
+  <p>This window allows all local operators to view the campaigns available for their local agency.</p> 
+  <p>In the case of central agencies, this window displays all packages available in the list of campaign packages and offers additional links for editing the list.</p> 
+  <h2 id="operators-and-entities">Operators and entities</h2>
+  <p>Start by specifying the central and local entity operators via the <strong>Access management</strong> folder.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_tree.png" title="s_advuser_mkg_dist_tree.png" />
+  <h3 id="operators">Operators</h3>
+  <p>You need to create central and local operators.</p> 
+  <p>Central operators must belong to the <strong>Central management</strong> operator group or have the <strong>CENTRAL</strong> named right. </p> 
+  <p>Local operators must belong to the <strong>Local management</strong> operator group or have the <strong>LOCAL</strong> named right. They must also be linked to their local entity.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_local_create.png" title="s_advuser_mkg_dist_local_create.png" />
+  <h3 id="organizational-entities">Organizational entities</h3>
+  <p>To create an organizational entity, click the <strong>Administration &gt; Access management &gt; Organizational entities</strong> node and click the <strong>New</strong> icon above the list of entities.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_local_list.png" title="s_advuser_mkg_dist_local_list.png" />
+  <p>Each organizational entity contains identification information (label, internal name, contact information, etc.) and groups involved in the order approval process. These are defined in the <strong>Notifications and approvals</strong> section found in the <strong>General</strong> tab.</p> 
+  <ul>
+   <li><p>Define a package notification group: operators in this group will receive a notification each time a new package is added to the list of campaign packages and each time a campaign becomes available.</p> </li>
+   <li><p>Select the group of reviewers in charge of approving orders, i.e. those in charge of approving campaigns ordered by the local entity.</p> </li>
+   <li><p>Finally, select the group of reviewers in charge of approving the local campaign (target, content, budget, etc.). This group may be added to when ordering a campaign, depending on the template.</p> </li>
+  </ul>
+  <note>
+   <p> The approval process is presented in the <a href="../../campaign/using/about-distributed-marketing.md#approval-process" target="_blank">Approval process</a> section.<br /> </p> 
+  </note>
+  <h2 id="implementation">Implementation</h2>
+  <p>Distributed Marketing campaigns are created and published by the central entity. They may be used by both local and central entities as needed.</p> 
+  <p>The implementation procedure depends on the type of campaign package used and the local entity delegation levels.</p> 
+  <h3 id="integrator-side">Integrator side</h3>
+  <ol>
+   <li><p>Create local entities.</p> </li>
+   <li><p>Link recipients with the operators that manage local entities.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_entity_association.png" title="mkg_dist_local_entity_association.png" /></li>
+   <li><p>Specify rights and browsing rules for local entities</p> </li>
+   <li><p>Specify the set of fields necessary for campaign localization:</p> 
+    <ul>
+     <li><p>target definition and maximum size,</p> </li>
+     <li><p>content definition,</p> </li>
+     <li><p>execution schedule (contact date and extraction date), <strong>for local operators only</strong>,</p> </li>
+     <li><p>extension of order schema with all necessary additional fields.</p> </li>
+    </ul></li>
+   <li><p>Create a Web form (Adobe or extranet) that allows you to display localization parameters, evaluate the target and budget, as well as preview the content and approve the order.</p> <p>For <strong>collaborative campaigns (by target approval)</strong>, create the table where the approvals for each local entity will be saved.</p> </li>
+  </ol>
+  <h3 id="functional-administrator-side">Functional administrator side</h3>
+  <p>These steps must be carried out when creating each campaign.</p> 
+  <ol>
+   <li><p>Update the form with the fields used for campaign localization.</p> </li>
+   <li><p>Create an instance from an appropriate campaign template (collaborative campaign) or duplicate the campaign template (local campaign).</p> </li>
+   <li><p>Configure the campaign with the localization fields and the form reference.</p> </li>
+   <li><p>Publish the campaign.</p> </li>
+  </ol>
+  <h3 id="local-operator-side">Local operator side</h3>
+  <p>These steps must be carried out for each campaign.</p> 
+  <ol>
+   <li><p>Once you receive notification of the campaign package's availability, specify the campaign's location (optional).</p> </li>
+   <li><p>Evaluate the target, the budget, etc.</p> </li>
+   <li><p>Preview campaign content.</p> </li>
+   <li><p>Order the campaign.</p> </li>
+  </ol>
+ </body>
+</html>

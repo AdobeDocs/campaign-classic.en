@@ -1,0 +1,50 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Interaction - Data buffer" name="jcr:title" /> 
+  <meta content="fd992df1-ff29-46dc-aacd-91fa9f49df5b" name="jcr:predecessors" /> 
+  <meta content="5c62743f-519d-4c4d-a03a-7ea17caeeaee" name="jcr:uuid" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="Interaction - Data buffer" name="jcr:description" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2019-08-06T06:59:33.341-0400" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Interaction - Data buffer" name="navTitle" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p> Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the <a href="../../installation/using/hosting-models.md">Hosting models</a> section or to <a href="https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html">this article</a>.<br /> </p> 
+  </note> 
+  <p>In Adobe Campaign, a <strong>data buffer zone</strong> has been introduced in the Interaction module. This allows you to <strong>increase performance</strong> of inbound Interaction by desynchronizing stock and offer calculations.</p> 
+  <p>It only concerns inbound Interaction, whether by a call (with or without call data), or by a status update (updateStatus).</p> 
+  <p>To avoid a queue when writing proposals related to a recipient, a ne w process generates a <strong>data buffer zone</strong> that allows proposals to be <strong>written asynchronously</strong>. This data buffer zone is periodically read and emptied. The default period is in the space of about one second.Proposal writing is therefore grouped.</p> 
+  <p>Data buffer zone <strong>configuration</strong> can be done in the instance's configuration file (config-Instance.xml).</p> 
+  <note> 
+   <p> Any changes made to the configuration requires a restart of the web server (Apache:IIS) and the Adobe Campaign processes.<br /> After configuring the data buffer zone, please ensure that an adapted hardware configuration is available. (amount of memory present).<br /> </p> 
+  </note> 
+  <p>After configuring the data buffer zone, please ensure that an adapted hardware configuration is available. (amount of memory present).</p> 
+  <p>The definition for a writing daemon (process named: interaction) is as follows:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;interactiond&amp;nbsp;args=""&amp;nbsp;autoStart="false"&amp;nbsp;callDataSize="0"&amp;nbsp;initScript=""&amp;nbsp;maxProcessMemoryAlertMb="1800"!!discoiqbr!!maxProcessMemoryWarningMb="1600"&amp;nbsp;maxSharedEntries="25000"&amp;nbsp;nextOffersSize="0"!!discoiqbr!!processRestartTime="06:00:00"&amp;nbsp;runLevel="10"&amp;nbsp;targetKeySize="16"/&gt;!!discoiqbr!! 
+  </codeblock> 
+  <p>If you use Inbound Interaction, the @autostart attribute must be "true" to automatically launch the process when the Adobe Campaign server launches.</p> 
+  <p>Argument details:</p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!&amp;nbsp;args:&amp;nbsp;Start-up&amp;nbsp;parameters&amp;nbsp;!!discoiqbr!!&amp;nbsp;autoStart:&amp;nbsp;Automatic&amp;nbsp;start&amp;nbsp;Default:&amp;nbsp;false&amp;nbsp;!!discoiqbr!!&amp;nbsp;callDataSize:&amp;nbsp;Max.&amp;nbsp;number&amp;nbsp;of&amp;nbsp;characters&amp;nbsp;stored&amp;nbsp;in&amp;nbsp;the&amp;nbsp;shared&amp;nbsp;memory&amp;nbsp;for&amp;nbsp;call&amp;nbsp;data!!discoiqbr!!&amp;nbsp;Default:&amp;nbsp;0&amp;nbsp;!!discoiqbr!!&amp;nbsp;initScript:&amp;nbsp;ID&amp;nbsp;of&amp;nbsp;JavaScript&amp;nbsp;to&amp;nbsp;execute&amp;nbsp;when&amp;nbsp;starting&amp;nbsp;the&amp;nbsp;process&amp;nbsp;!!discoiqbr!!&amp;nbsp;maxProcessMemoryAlertMb:&amp;nbsp;Alert&amp;nbsp;concerning&amp;nbsp;the&amp;nbsp;amount&amp;nbsp;of&amp;nbsp;RAM&amp;nbsp;consumed&amp;nbsp;(in&amp;nbsp;Mb)&amp;nbsp;by&amp;nbsp;a&amp;nbsp;given&amp;nbsp;process&amp;nbsp;Default:&amp;nbsp;1800&amp;nbsp;!!discoiqbr!!&amp;nbsp;maxProcessMemoryWarningMb:&amp;nbsp;Warning&amp;nbsp;concerning&amp;nbsp;the&amp;nbsp;amount&amp;nbsp;of&amp;nbsp;RAM&amp;nbsp;consumed&amp;nbsp;(in&amp;nbsp;Mb)&amp;nbsp;by&amp;nbsp;a&amp;nbsp;given&amp;nbsp;process&amp;nbsp;Default:&amp;nbsp;1600&amp;nbsp;!!discoiqbr!!&amp;nbsp;maxSharedEntries:&amp;nbsp;Max.&amp;nbsp;number&amp;nbsp;of&amp;nbsp;events&amp;nbsp;stored&amp;nbsp;in&amp;nbsp;the&amp;nbsp;shared&amp;nbsp;memory.&amp;nbsp;Default:&amp;nbsp;25000&amp;nbsp;!!discoiqbr!!&amp;nbsp;nextOffersSize:&amp;nbsp;Maximum&amp;nbsp;number&amp;nbsp;of&amp;nbsp;eligible&amp;nbsp;offers&amp;nbsp;sorted&amp;nbsp;right&amp;nbsp;after&amp;nbsp;propositions,&amp;nbsp;to&amp;nbsp;be&amp;nbsp;stored&amp;nbsp;for&amp;nbsp;statistics&amp;nbsp;Default:&amp;nbsp;0&amp;nbsp;!!discoiqbr!!&amp;nbsp;processRestartTime:&amp;nbsp;Time&amp;nbsp;of&amp;nbsp;the&amp;nbsp;day&amp;nbsp;when&amp;nbsp;the&amp;nbsp;process&amp;nbsp;is&amp;nbsp;automatically&amp;nbsp;restartedDefault:&amp;nbsp;'06:00:00'&amp;nbsp;!!discoiqbr!!&amp;nbsp;runLevel:&amp;nbsp;Priority&amp;nbsp;at&amp;nbsp;start&amp;nbsp;Default:&amp;nbsp;10&amp;nbsp;!!discoiqbr!!&amp;nbsp;targetKeySize:&amp;nbsp;Max.&amp;nbsp;number&amp;nbsp;of&amp;nbsp;characters&amp;nbsp;stored&amp;nbsp;in&amp;nbsp;the&amp;nbsp;shared&amp;nbsp;memory&amp;nbsp;for&amp;nbsp;identifying&amp;nbsp;individuals&amp;nbsp;Default:&amp;nbsp;16&amp;nbsp;!!discoiqbr!! 
+  </codeblock> 
+ </body> 
+</html>

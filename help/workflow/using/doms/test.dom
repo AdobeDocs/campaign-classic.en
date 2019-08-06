@@ -1,0 +1,37 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="seoDescription" />
+  <meta content="Test" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="2019-08-06T06:59:15.277-0400" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="e33e8bd1-8ae3-47e8-b941-8121721258eb" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="3a2105c5-c9b8-436c-997c-bacb85c7b0bc" name="jcr:predecessors" />
+  <meta content="Test" name="jcr:description" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Test" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+ </head>
+ <body>
+  <p>A <strong>Test</strong> type activity activates the first transition that satisfies the condition associated with it. If no condition is satisfied and if the <strong>Use the default fork</strong> option is activated, the default transition will be activated.</p> 
+  <p>A condition is a JavaScript expression that must be evaluated to 'true' or 'false'. To enter the expression, click the icon to the right of the name of the condition, and then select <strong>Edit...</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/edit_test.png" title="edit_test.png" />
+  <p>For more information on all the additional JavaScript functions and SOAP methods of the applicative server accessible via workflow JavaScript, refer to <a href="http://docs.campaign.adobe.com/doc/AC/en/jsapi/p-1.html">JSAPI documentation</a>.</p> 
+  <p>You can also insert variables directly from this editor.</p> 
+  <p>Conditions can be added, deleted, or ordered from the activity property edit window, but can also be modified from the transition.</p> 
+  <p>If the result of a calculation is to be reused by different conditions, it is possible to calculate it in the initialization script of the activity. The result must be stored in a variable of the task to be accessed by the condition scripts (task.vars.xxx).</p> 
+ </body>
+</html>

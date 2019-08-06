@@ -1,0 +1,187 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="d7e41499-1e63-4afd-a0c5-971ae151fce9" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="seoDescription" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Operator profiles" name="jcr:description" />
+  <meta content="Operator profiles" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Operator profiles" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="3f0faf00-d1bf-4572-9b27-f60389ec43c3" name="jcr:uuid" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-08-06T06:59:19.938-0400" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <p>There are two types of operators who use Interaction: offer managers and delivery managers. They each have specific rights that only give them access to some parts of the tree and the platform.</p> 
+  <ul>
+   <li><p><strong>Offer manager</strong>: creates and maintains offers</p> </li>
+   <li><p><strong>Delivery manager</strong>: approves and uses offers</p> </li>
+  </ul>
+  <p>The steps for creating operators specific to Interaction are identical to those used to create all other operators on the platform. For more on this, refer to <a href="../../platform/using/access-management.md#creating-an-operator">this section</a>. The rights are configured during operator creation.</p> 
+  <h2 id="offer-manager">Offer manager</h2>
+  <ol>
+   <li><p>Create a new operator.</p> </li>
+   <li><p>Go to the <strong>Groups and named rights</strong> window, click <strong>Add</strong> and select the <strong>Offer manager</strong> group.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_operators_create_001.png" title="offer_operators_create_001.png" /></li>
+  </ol>
+  <p>The rights assigned to the offer manager enable them to carry out the following tasks:</p> 
+  <ul>
+   <li><p>Modify <strong>Design</strong> environments.</p> </li>
+   <li><p>View <strong>Live</strong> environments.</p> </li>
+   <li><p>Configure administration functions (predefined spaces and filters).</p> </li>
+   <li><p>Create and alter categories.</p> </li>
+   <li><p>Create offers.</p> </li>
+   <li><p>Configure offer eligibility.</p> </li>
+   <li><p>Approve offers.</p> 
+    <note>
+     <p> The offer manager can only approve an offer in two certain cases. The first being if nobody in particular was specified as the reviewer, and the second being if the operator in charge of creating templates (with the right to assign reviewers) specified him/her as the reviewer in the offer template on which the offer was based.<br /> </p> 
+    </note></li>
+  </ul>
+  <h2 id="delivery-manager">Delivery manager</h2>
+  <ol>
+   <li><p>Create a new operator.</p> </li>
+   <li><p>Go to the <strong>Groups and named rights</strong> window, click <strong>Add</strong> and select the <strong>Delivery manager</strong> group.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_operators_create_002.png" title="offer_operators_create_002.png" /></li>
+  </ol>
+  <p>The rights assigned to the delivery manager are/enable them to carry out the following tasks:</p> 
+  <ul>
+   <li><p>Display <strong>Live</strong> environments.</p> </li>
+   <li><p>Display and modify offer categories.</p> </li>
+   <li><p>Approve offers if s/he is specified as one of its reviewers.</p> 
+    <note>
+     <p> The delivery manager can only approve an offer if he has been defined as a reviewer during the offer configuration.<br /> </p> 
+    </note></li>
+  </ul>
+  <h2 id="recap-of-rights-according-to-operator">Recap of rights according to operator</h2>
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Offer manager (editing)</strong><br /> </td> 
+     <td> <strong>Offer manager (live)</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Tree structure level</strong><br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Offers being edited / Live offers<br /> </td> 
+     <td> Read / Write<br /> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Recipient - Environment<br /> </td> 
+     <td> Read / Write<br /> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Administration<br /> </td> 
+     <td> Read / Write<br /> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Spaces<br /> </td> 
+     <td> Read / Write<br /> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Predefined offer filters<br /> </td> 
+     <td> Read / Write<br /> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Typology<br /> </td> 
+     <td> Read / Write<br /> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Typology rules<br /> </td> 
+     <td> Read / Write<br /> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Offer catalog<br /> </td> 
+     <td> Read / Write<br /> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Offer category<br /> </td> 
+     <td> Read / Write<br /> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Delivery manager (editing)</strong><br /> </td> 
+     <td> <strong>Delivery manager (live)</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Tree structure level</strong><br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Offers being edited / Live offers<br /> </td> 
+     <td> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Recipient - Environment<br /> </td> 
+     <td> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Administration<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Spaces<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Predefined offer filters<br /> </td> 
+     <td> Read<br /> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Typology<br /> </td> 
+     <td> Read<br /> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Typology rules<br /> </td> 
+     <td> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Offer catalog<br /> </td> 
+     <td> Read<br /> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Offer category<br /> </td> 
+     <td> </td> 
+     <td> Read<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+ </body>
+</html>

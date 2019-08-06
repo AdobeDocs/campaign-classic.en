@@ -1,0 +1,81 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2019-08-06T06:59:36.410-0400" name="jcr:created" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="audience:reporting" name="primaryAudienceTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Actions on reports" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Actions on reports" name="jcr:title" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:reporting" name="cq:tags" /> 
+  <meta content="5ce39c3d-81d4-45a4-9ded-f2c2799f375d" name="jcr:predecessors" /> 
+  <meta content="7ea244cc-0315-4635-80c2-0faaac86766a" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Actions on reports" name="jcr:description" /> 
+ </head> 
+ <body> 
+  <p>When you are viewing a report, the toolbar lets you carry out a certain number of actions. These are detailed below.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_2.png" title="s_ncs_advuser_report_wizard_2.png" /> 
+  <p>The toolbar lets you export, print, archive or display the report in a web browser for instance.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_04.png" title="s_ncs_advuser_report_wizard_04.png" /> 
+  <h2 id="exporting-a-report">Exporting a report</h2> 
+  <p>Select the format you want to export your report into from the drop-down list. (.xls, .pdf or .ods).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_06.png" title="s_ncs_advuser_report_wizard_06.png" /> 
+  <p>When a report contains several pages, you need to repeat the operation for each page.</p> 
+  <p>You can configure your report in view of exporting it in PDF, Excel or OpenOffice format. Open the Adobe Campaign explorer and select the concerned report. </p> 
+  <p>Export options are accessed via the <strong>Page</strong> activities of the report, in the <strong>Advanced</strong> tab.</p> 
+  <p>Change the settings of <strong>Paper</strong> and <strong>Margins</strong> to suit your needs. You can also authorize the exporting of a page in PDF format only. To do this, uncheck the <strong>Activate OpenOffice/Microsoft Excel export</strong> option. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_021.png" title="s_ncs_advuser_report_wizard_021.png" /> 
+  <h3 id="exporting-into-microsoft-excel">Exporting into Microsoft Excel</h3> 
+  <p>For <strong>List with group</strong> type reports destined to be exported into Excel, the following recommendations and limitations apply: </p> 
+  <ul> 
+   <li><p>These reports must not contain any empty lines.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/export_limitations_remove_empty_line.png" title="export_limitations_remove_empty_line.png" /></li> 
+   <li><p>The legend of the list must be hidden.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/export_limitations_hide_label.png" title="export_limitations_hide_label.png" /></li> 
+   <li><p>The reports do not have to use specific formatting defined at the cell level. It is preferable to use <strong>Form rendering</strong> to define the format of the cells in the table. The <strong>Form rendering</strong> can be accessed via <strong>Administration &gt; Configuration &gt; Form rendering</strong>.</p> </li> 
+   <li><p>We do not recommend inserting HTML content.</p> </li> 
+   <li><p>If a report contains several table, chart, etc. type elements, they will be exported one under the other.</p> </li> 
+   <li><p>You can force the carriage return in cells: this configuration will be kept in Excel. For more on this, refer to this <a href="../../reporting/using/actions-on-reports.md#defining-cell-format" target="_blank">Defining cell format</a>.</p> </li> 
+  </ul> 
+  <h3 id="postpone-the-export">Postpone the export</h3> 
+  <p>You can postpone exporting a report, for instance to wait for asynchronous calls. To do this, enter the following parameter in the initialization script of the page:</p> 
+  <codeblock gutter="true" class="syntax html">
+    document.nl_waitBeforeRender&amp;nbsp;=&amp;nbsp;true; 
+  </codeblock> 
+  <p>To activate the export and start converting into a PDF, use the <strong>document.nl_renderToPdf()</strong> function without any parameter.</p> 
+  <h3 id="memory-allocation">Memory allocation</h3> 
+  <p>When exporting certain large reports, memory allocation errors may occur.</p> 
+  <p>In certain instances, the default value <strong>maxMB</strong> (<strong>SKMS</strong> for hosted instances) of the JavaScript indicated in the <strong>serverConf.xml</strong> configuration file is set to 64 MB. If you encounter any insufficient memory errors while exporting a report, it may be recommended to increase this figure to 512 MB:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;javaScript&amp;nbsp;maxMB="512"&amp;nbsp;stackSizeKB="8"/&gt; 
+  </codeblock> 
+  <p>To apply changes made to the configuration, the <strong>nlserver</strong> service needs to be restarted.</p> 
+  <p>To find out more about the <strong>serverConf.xml</strong> file, refer to <a href="../../production/using/configuration-principle.md">this section</a>.</p> 
+  <p>To find out more about the <strong>nlserver</strong> service, refer to <a href="../../production/using/administration.md">this section</a>.</p> 
+  <h2 id="printing-a-report">Printing a report</h2> 
+  <p>You can print your report: to do this, click the printer icon: this opens the dialog box.</p> 
+  <p>For a better result, edit the Internet Explorer printing options and select <strong>Print background colors and images</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_print_options.png" title="s_ncs_advuser_report_print_options.png" /> 
+  <h2 id="creating-report-archives">Creating report archives</h2> 
+  <p>Archiving a report lets you create a view of the report at various periods, for instance to show the statistics for a given period of time.</p> 
+  <p>To create an archive, open the concerned report and click the appropriate icon.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_07.png" title="s_ncs_advuser_report_wizard_07.png" /> 
+  <p>To display or hide existing archives, click the show/hide icon.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_history_06.png" title="s_ncs_advuser_report_history_06.png" /> 
+  <p>The archive dates are displayed under the show/hide icon. Click the archive to view it.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_history_04.png" title="s_ncs_advuser_report_history_04.png" /> 
+  <p>It's possible to delete a report archive. To do this, go to the Adobe Campaign node where your reports are stored. Click the <strong>Archives</strong> tab, select the one you want to delete and click <strong>Delete</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_history_01.png" title="s_ncs_advuser_report_history_01.png" /> 
+ </body> 
+</html>

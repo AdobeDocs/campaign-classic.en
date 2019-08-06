@@ -1,0 +1,105 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Filtering schemas" name="jcr:description" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Filtering schemas" name="navTitle" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="01146ff1-130d-492d-ba68-50f0077b7b77" name="jcr:predecessors" /> 
+  <meta content="0cc26ce6-ab36-4649-9356-ce860ce49137" name="jcr:uuid" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-08-06T06:59:43.262-0400" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Filtering schemas" name="jcr:title" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <h2 id="system-filters">System filters</h2> 
+  <p>You can filter schema access to specific users, depending on their permissions. System filters let you manage the read and write permissions of entities detailed in schemas, using <strong>readAccess</strong> and <strong>writeAccess</strong> parameters.</p> 
+  <note> 
+   <p> This restriction applies only to non technical users: a technical user, with related permissions, or using a workflow, will be able to retrieve and update data.<br /> </p> 
+  </note> 
+  <ul> 
+   <li><p><strong>readAccess</strong>: provides read only access to schema data.</p> <p><strong>Warning</strong> - All linked tables must be set with the same restriction. This configuration can impact performances.</p> </li> 
+   <li><p><strong>writeAccess</strong>: provides write access to schema data.</p> </li> 
+  </ul> 
+  <p>These filters are entered at the main <strong>element</strong> level of the schemas and, as shown in the following examples, can be formed to restrict access. </p> 
+  <ul> 
+   <li><p>Restrict WRITE permissions</p> <p>Here, the filter is used to disallow WRITE permissions on the schema for operators without the ADMINISTRATION permission. This means that only administrators will have write permissions on entities described by this schema.</p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!&lt;sysFilter&amp;nbsp;name="writeAccess"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&lt;condition&amp;nbsp;enabledIf="hasNamedRight('admin')=false"&amp;nbsp;expr="FALSE"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&lt;/sysFilter&gt; 
+    </codeblock></li> 
+  </ul> 
+  <ul> 
+   <li><p>Restrict READ and WRITE permissons:</p> <p>Here, the filter is used to disallow both READ and WRITE permissions on the schema for all operators. Only the <strong>internal</strong> account, represented by the expression "$(loginId)!=0", has these permissions.</p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!&lt;sysFilter&amp;nbsp;name="readAccess"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&lt;condition&amp;nbsp;enabledIf="$(loginId)!=0"&amp;nbsp;expr="FALSE"/&gt;!!discoiqbr!!&lt;/sysFilter&gt;!!discoiqbr!!!!discoiqbr!!&lt;sysFilter&amp;nbsp;name="writeAccess"&gt; &amp;nbsp;!!discoiqbr!!&amp;nbsp;&lt;condition&amp;nbsp;enabledIf="$(loginId)!=0"&amp;nbsp;expr="FALSE"/&gt;!!discoiqbr!!&lt;/sysFilter&gt; 
+    </codeblock><p>Possible <strong>expr</strong> attribute values used to define the condition are TRUE or FALSE.</p> </li> 
+  </ul> 
+  <note> 
+   <p> If no filter is specified, all operators will have read and write permissions to the schema.<br /> </p> 
+  </note> 
+  <h2 id="protecting-built-in-schemas">Protecting built-in schemas</h2> 
+  <p>By default, built-in schemas are only accessible with WRITE permissions for operators with ADMINISTRATION rights:</p> 
+  <ul> 
+   <li><p>ncm:publishing</p> </li> 
+   <li><p>nl:monitoring</p> </li> 
+   <li><p>nms:calendar</p> </li> 
+   <li><p>xtk:builder</p> </li> 
+   <li><p>xtk:connections</p> </li> 
+   <li><p>xtk:dbInit</p> </li> 
+   <li><p>xtk:entityBackupNew</p> </li> 
+   <li><p>xtk:entityBackupOriginal</p> </li> 
+   <li><p>xtk:entityOriginal</p> </li> 
+   <li><p>xtk:form</p> </li> 
+   <li><p>xtk:funcList</p> </li> 
+   <li><p>xtk:fusion</p> </li> 
+   <li><p>xtk:image</p> </li> 
+   <li><p>xtk:javascript</p> </li> 
+   <li><p>xtk:jssp</p> </li> 
+   <li><p>xtk:jst</p> </li> 
+   <li><p>xtk:navtree</p> </li> 
+   <li><p>xtk:operatorGroup</p> </li> 
+   <li><p>xtk:package</p> </li> 
+   <li><p>xtk:queryDef</p> </li> 
+   <li><p>xtk:resourceMenu</p> </li> 
+   <li><p>xtk:rights</p> </li> 
+   <li><p>xtk:schema</p> </li> 
+   <li><p>xtk:scriptContext</p> </li> 
+   <li><p>xtk:specFile</p> </li> 
+   <li><p>xtk:sql</p> </li> 
+   <li><p>xtk:sqlSchema</p> </li> 
+   <li><p>xtk:srcSchema</p> </li> 
+   <li><p>xtk:strings</p> </li> 
+   <li><p>xtk:xslt</p> </li> 
+  </ul> 
+  <note>
+    READ and WRITE permissions for the 
+   <strong>xtk:sessionInfo</strong> schema are only accessible by the internal account of an Adobe Campaign instance. 
+   <br /> 
+  </note> 
+  <h2 id="modifying-system-filters-of-built-in-schemas">Modifying system filters of built-in schemas</h2> 
+  <p>You can still modify the system filters of the out-of-the-box schemas which are by default protected due to compatibility issues with older versions.</p> 
+  <note> 
+   <p> However, Adobe recommends you not to modify the default parameters to guarantee optimal security.<br /> </p> 
+  </note> 
+  <ol> 
+   <li><p>Create an extension for the concerned schema or open an existing extension.</p> </li> 
+   <li><p>Add a child element <strong> 
+      <sysfilter _operation="delete" name="<filter name>" /></strong> in the main element to delete application of the filter under the same in the origin schema.</p> </li> 
+   <li><p>If you like, you can add a new filter, as detailed in <a href="../../configuration/using/filtering-schemas.md#system-filters" target="_blank">System filters</a>.</p> </li> 
+  </ol> 
+ </body> 
+</html>

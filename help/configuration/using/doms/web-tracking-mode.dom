@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-08-06T06:59:45.304-0400" name="jcr:created" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="26232eb6-1a5e-4847-be66-a6c6601c801e" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="d2a9107e-3b6b-4978-9f8b-9f9d9f755dcc" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Web tracking mode" name="jcr:description" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Web tracking mode" name="navTitle" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="Web tracking mode" name="jcr:title" /> 
+ </head> 
+ <body> 
+  <p>Adobe Campaign lets you select a web tracking mode which defines the way in which tracking logs are processed in the application.</p> 
+  <p>There are three available Web tracking modes: <strong> "Session tracking"</strong>,<strong> "Permanent tracking"</strong> and <strong>"Anonymous tracking"</strong>. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_deployment_wiz_tracking_mode.png" title="s_ncs_install_deployment_wiz_tracking_mode.png" /> 
+  <p>Each mode has specific characteristics. The "permanent" Web tracking mode includes the characteristics of the "session" Web tracking mode, while the "anonymous" mode includes the characteristics of the "permanent" and "session" modes.</p> 
+  <note>
+    The "anonymous" Web tracking mode is enabled by default if the "Leads" package is enabled. In all other cases, the "session" Web tracking mode is enabled by default. 
+   <br /> At any time, the default mode can be changed in the instance deployment wizard. 
+   <br /> 
+  </note> 
+  <p>Note that if you are using the <strong>permanent web</strong> or <strong>anonymous</strong> tracking mode, you must add an index to the "sourceID" column (uuid230) in the tracking tables (trackingLogXXX): </p> 
+  <ol> 
+   <li><p> Identify the tracking table(s) concerned by permanent tracking.</p> </li> 
+   <li><p>Extend the schemas that match these tables by adding the following lines: </p> </li> 
+  </ol> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;dbindex&amp;nbsp;name="sourceId"&gt;!!discoiqbr!!&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@sourceId"/&gt;!!discoiqbr!!&lt;/dbindex&gt; 
+  </codeblock> 
+  <p><strong>Permanent</strong> and <strong>Anonymous</strong> Web tracking modes include two options: <strong>Forced delivery</strong> and <strong>Last delivery</strong>.</p> 
+  <p>The <strong>Forced delivery</strong> option enables you to specify the identifier of the delivery (@jobid) during tracking.</p> 
+  <p>The <strong>Last delivery</strong> option lets you link the current tracking log to the last tracked delivery.</p> 
+  <p> </p> 
+  <p><strong>Characteristics of session Web tracking:</strong></p> 
+  <p>This mode creates a tracking log for people with a session cookie. These are people who clicked a URL in an email sent by Adobe Campaign, thus enabling us to track the following information:</p> 
+  <ul> 
+   <li><p>Delivery ID</p> </li> 
+   <li><p>Contact ID</p> </li> 
+   <li><p>delivery log</p> </li> 
+   <li><p>permanent cookie (uuid230)</p> </li> 
+   <li><p>Tracking URL</p> </li> 
+   <li><p>date of the tracking log</p> </li> 
+  </ul> 
+  <p>With this Web tracking mode, if part of the information is missing, no tracking log will be created in the application.</p> 
+  <p>This mode is economical in terms of volume (limited number of records in the trackingLog table) and calculation (no reconciliation).</p> 
+  <p><strong>Characteristics of the permanent Web tracking mode:</strong></p> 
+  <p>This Web tracking mode lets you create a tracking log based on the presence of the permanent uuid230 cookie. If a visitor closes their session, Adobe Campaign uses the permanent cookie to recover information on them from previous tracking logs. Adobe Campaign re-inserts a tracking log if the uuid230 of the current session has the same value as a uuid230 already stored in the tracking table. </p> 
+  <p>This means that the visitor needs to have been previously identified in Adobe Campaign (via a delivery) to enable reconciliation on uuid230 values. </p> 
+  <p>By default, searches in previous tracking logs are performed in the "trackingLog" table. If the Leads package is enabled, before searching the "trackingLog" table, Adobe Campaign will search the "incomingLead" table for previous tracking log records.</p> 
+  <p>This mode is costly in terms of calculation during log reconciliation. </p> 
+  <p><strong>Characteristics of the anonymous Web tracking mode:</strong></p> 
+  <p>This Web tracking mode lets you retrieve a tracking log linked to anonymous browsing in Adobe Campaign. A tracking log is created automatically for each click on a tracked URL. This log only has the value of the uuid230. During a marketing campaign, a tracking log is created automatically with all identification information (refer to session tracking). Adobe Campaign will automatically search previous logs for a "uuid230" value equal to the value from the tracking log for this marketing campaign. If identical values are found, all previous tracking logs are entered with all the information from the marketing campaign tracking log.</p> 
+  <p>This mode is the most costly in terms of calculation and volume.</p> 
+  <note> 
+   <p> If the <strong>Leads</strong> package is installed, you need to do the same for the activity table (<strong>crm:incomingLead</strong>)<br /> </p> 
+  </note> 
+  <p>The following schema sums up the functionalities of all three Web tracking modes:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_deployment_wiz_tracking_schema_mode.png" title="s_ncs_install_deployment_wiz_tracking_schema_mode.png" /> 
+  <p><strong>Example of Permanent web tracking based on the last delivery: </strong></p> 
+  <p>Florence receives a delivery, opens the email, clicks the link, browses on the retail site but doesn't make any purchases. The next day, Florence returns to the retail site, browses and makes a purchase. Since permanent web tracking (last delivery) is enabled, all the logs for her second visit will be linked to the delivery that was sent to her the previous day.</p> 
+ </body> 
+</html>

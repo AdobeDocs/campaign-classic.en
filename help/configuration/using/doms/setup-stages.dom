@@ -1,0 +1,54 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2019-08-06T06:59:45.391-0400" name="jcr:created" /> 
+  <meta content="add196b0-558c-405f-b215-d3543c0501cd" name="jcr:predecessors" /> 
+  <meta content="Setup stages" name="navTitle" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="Setup stages" name="jcr:description" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="Setup stages" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="d5d4e97b-85ee-43f5-8100-5e30e0f5c988" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+ </head> 
+ <body> 
+  <p>The basic principle is the insertion of web tracking tags in certain pages of your website.</p> 
+  <p>There are two types of tags:</p> 
+  <ul> 
+   <li><p><strong>WEB</strong>: this tag tells you if the page has been visited,</p> </li> 
+   <li><p><strong>TRANSACTION</strong>: operates like a Web tag, but with the possibility of adding information on the business volume generated, for example (transaction amount, number of items purchased, etc.). </p> </li> 
+  </ul> 
+  <p>Apply the following steps to set up these tags:</p> 
+  <ol> 
+   <li><p>Identify the pages you wish to track and determine their type (WEB or TRANSACTION).</p> </li> 
+   <li><p>Determine which additional information you wish to collect, and extend the <strong>nms:webTrackingLog</strong> schema with the description of this information. By default, this schema can store the transaction amounts and number of items per transaction.</p> </li> 
+   <li><p>Creating the web tracking tags. There are two ways of doing this:</p> 
+    <ul> 
+     <li><p>Insert the URLs corresponding to these pages in your Adobe Campaign platform, then generate and extract the associated web-tracking tags (from the <strong>Campaign execution&gt;Resources&gt;Web tracking tags</strong> node of the client console). </p> </li> 
+     <li><p>Create the web-tracking tags yourself in "on-the-fly creation" mode: the URLs corresponding to these pages will be automatically inserted in your Adobe Campaign platform. </p> </li> 
+    </ul></li> 
+   <li><p>Add these tags statically or dynamically in the pages you wish to track.</p> 
+    <note> 
+     <p> All WEB-type tags can be added as they are to the pages of your site. TRANSACTION tags must be modified or added dynamically in order to contain the additional information (amount, items, etc.). <br /> </p> 
+    </note></li> 
+  </ol> 
+  <p><strong>Example</strong>:</p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!&lt;script&amp;nbsp;type="text/javascript"&gt;!!discoiqbr!!var&amp;nbsp;_f&amp;nbsp;=&amp;nbsp;"nmsWebTracking"!!discoiqbr!!var&amp;nbsp;_t&amp;nbsp;=&amp;nbsp;window.location.href.match(/.*://[^/]*(/[^?#&amp;]*)/)[1]&amp;nbsp;+&amp;nbsp;"|w|"&amp;nbsp;+&amp;nbsp;_f!!discoiqbr!!document.write("&lt;img&amp;nbsp;height='0'&amp;nbsp;width='0'&amp;nbsp;alt=''&amp;nbsp;src='"&amp;nbsp;+!!discoiqbr!!window.location.protocol&amp;nbsp;+&amp;nbsp;"//tsupport/r/"&amp;nbsp;+!!discoiqbr!!Math.random().toString()&amp;nbsp;+&amp;nbsp;"?tagid="&amp;nbsp;+&amp;nbsp;escape(_t)&amp;nbsp;+&amp;nbsp;"'/&gt;")!!discoiqbr!!&lt;/script&gt;&amp;nbsp;!!discoiqbr!!!!discoiqbr!! 
+  </codeblock> 
+ </body> 
+</html>

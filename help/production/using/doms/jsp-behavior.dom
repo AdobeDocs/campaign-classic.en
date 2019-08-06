@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="JSP behavior" name="navTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="audience:production" name="primaryAudienceTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2019-08-06T06:59:03.450-0400" name="jcr:created" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="3b9d0786-b745-411c-8061-abf76c0c6771" name="jcr:uuid" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="83540b5a-6ddf-433a-b6bc-29f40d39afba" name="jcr:predecessors" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="JSP behavior" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="JSP behavior" name="jcr:description" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <p>If certain <strong>jsp</strong> jobs are not successfully executed, you must force them to recompile.</p> 
+  <p>For this, enter the following commands:</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;stop&amp;nbsp;web!!discoiqbr!!cd&amp;nbsp;nl6/tomcat-7!!discoiqbr!!rm&amp;nbsp;-r&amp;nbsp;work/!!discoiqbr!!nlserver&amp;nbsp;start&amp;nbsp;web 
+  </codeblock> 
+  <p>The <strong>jsp</strong> jobs are regenerated the next time you connect.</p> 
+ </body> 
+</html>

@@ -1,0 +1,135 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="f624e5c5-12de-4cca-8c49-0a62431ee694" name="jcr:predecessors" /> 
+  <meta content="audience:workflow" name="primaryAudienceTag" /> 
+  <meta content="Creating a summary list" name="jcr:title" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="34c1d457-d9a0-4a4e-9aa5-b2c41d59324b" name="jcr:uuid" /> 
+  <meta content="Creating a summary list" name="jcr:description" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2019-08-06T06:59:17.479-0400" name="jcr:created" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Creating a summary list" name="navTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="light" name="heroGradient" /> 
+ </head> 
+ <body> 
+  <p>This use case details the creation of a workflow which, after collecting files and following several enrichments, lets you create a summary list. The example is based on a list of contacts who made purchases in a store.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_overview.png" title="UC2_enrich_overview.png" /> 
+  <p>The following data structure is used:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_data.png" title="UC2_enrich_data.png" /> 
+  <p>Its purpose is to:</p> 
+  <ul> 
+   <li><p>To use the various options of the enrichment activity</p> </li> 
+   <li><p>To update the data in the database following a reconciliation</p> </li> 
+   <li><p>To create a global "view" of the enriched data</p> </li> 
+  </ul> 
+  <p>To create a summary list, you need to follow these steps: </p> 
+  <ol> 
+   <li><p>Collecting and loading a "Purchases" file in the work table of the workflow</p> </li> 
+   <li><p>Enriching the imported data by creating a link to a reference table</p> </li> 
+   <li><p>Updating the "Purchases" table with the enriched data</p> </li> 
+   <li><p>Enriching the "Contacts" data with an aggregate calculation from the "Purchases" table</p> </li> 
+   <li><p>Creating a summary list</p> </li> 
+  </ol> 
+  <h2 id="step-1--loading-the-file-and-reconciling-the-imported-data">Step 1: Loading the file and reconciling the imported data</h2> 
+  <p>The data to be loaded is "Purchase" related data with the following format:</p> 
+  <codeblock gutter="true" class="syntax html">
+    Product&amp;nbsp;Name;Product&amp;nbsp;price;Store!!discoiqbr!!Computer;2000;London&amp;nbsp;3!!discoiqbr!!Tablet;600;Cambridge!!discoiqbr!!Computer;2000;London&amp;nbsp;5!!discoiqbr!!Comptuer;2000;London&amp;nbsp;8!!discoiqbr!!Tablet;600;Cambridge!!discoiqbr!!Phone;500;London&amp;nbsp;5!!discoiqbr!! 
+  </codeblock> 
+  <p>This data is contained in a "Purchases.txt" text file.</p> 
+  <ol> 
+   <li><p>Add the <strong>File collector</strong> and <strong>Data loading (file)</strong> activities to the workflow.</p> <p>The <strong>File collector</strong> activity lets you collect and send files from and to the Adobe Campaign server.</p> <p>The <strong>Data loading(file)</strong> activity lets you enrich the work table of the workflow with the collected data.</p> <p>For more on this activity, refer to <a href="../../workflow/using/creating-a-summary-list.md#loading-data-from-a-file" target="_blank">Loading data from a file</a>.</p> </li> 
+   <li><p>Configure the <strong>File collector</strong> activity to collect text (*.txt) type files from the selected directory.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_collecteur.png" title="UC2_enrich_collecteur.png" /><p>The <strong>File collector</strong> activity lets you manage the absence of a file in the source directory. To do this, check the <strong>Process file nonexistence</strong> option. In this workflow, a <strong>Wait</strong> activity has been added to try another file collection if it is missing from the directory at the time of collection.</p> </li> 
+   <li><p>Configure the <strong>Data loading (file)</strong> activity using a sample file with the same format as the data to be imported.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_chargement1.png" title="UC2_enrich_chargement1.png" /><p>Click the <strong>Click here to change the file format...</strong> link to rename the columns using the internal names and labels of the "Purchases" table.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_chargement2.png" title="UC2_enrich_chargement2.png" /></li> 
+  </ol> 
+  <p>Once the data has been imported, enrichment is carried out by creating a link to a reference table which matches the "Stores" schema.</p> 
+  <p>Add the Enrichment activity and configure it as follows:</p> 
+  <ol> 
+   <li><p>Select the main set made up of the data from the <strong>Data loading(file)</strong> activity.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_enrich1.png" title="UC2_enrich_enrich1.png" /></li> 
+   <li><p>Click <strong>Add data</strong>, then select the <strong>A link</strong> option.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_enrich2.png" title="UC2_enrich_enrich2.png" /></li> 
+   <li><p>Select the <strong>Define a collection</strong> option.</p> </li> 
+   <li><p>Select the "Stores" schema as a target.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_enrich3.png" title="UC2_enrich_enrich3.png" /></li> 
+  </ol> 
+  <p>For more on the various types of links, refer to <a href="../../workflow/using/creating-a-summary-list.md#enriching-and-modifying-data" target="_blank">Enriching and modifying data</a>.</p> 
+  <p>In the following window, you need to create a join condition by selecting the source field (in the main set) and the target field (belonging to the "Stores" schema) to configure data reconciliation.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_enrich4.png" title="UC2_enrich_enrich4.png" /> 
+  <p>Now the link is created, we're going to add a column to the work table of the workflow from the "Stores" schema: the "ZipCode Reference" field.</p> 
+  <ol> 
+   <li><p>Open the enrichment activity.</p> </li> 
+   <li><p>Click <strong>Edit additional data</strong>.</p> </li> 
+   <li><p>Add the "ZipCode Reference" field to the <strong>Output columns</strong>.</p> </li> 
+  </ol> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_enrich5.png" title="UC2_enrich_enrich5.png" /> 
+  <p>The data in the work table of the workflow after this enrichment will be as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_population1.png" title="UC2_enrich_population1.png" /> 
+  <h2 id="step-2--writing-enriched-data-to-the--purchases--table">Step 2: Writing enriched data to the 'Purchases' table</h2> 
+  <p>This step details how to write the imported and enriched data to the "Purchases" table. To do this, we need to use an <strong>Update data</strong> activity.</p> 
+  <p>A reconciliation between the data in the work table of the workflow and the <strong>Purchases</strong> targeting dimension must be carried out before the data in the <strong>Purchases</strong> table is updated.</p> 
+  <ol> 
+   <li><p>Click the <strong>Reconciliation</strong> tab of the enrichment activity.</p> </li> 
+   <li><p>Select the targeting dimension, the "Purchases" schema in this case.</p> </li> 
+   <li><p>Select a "Source expression" for the data in the workflow table (the "storeName" field in this case).</p> </li> 
+   <li><p>Select a "Destination expression" for the data in the "Purchases" table (the "storename" field in this case).</p> </li> 
+   <li><p>Check the <strong>Keep unreconciled data coming from the work table </strong> option.</p> </li> 
+  </ol> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_reconciliation.png" title="UC2_enrich_reconciliation.png" /> 
+  <p>In the <strong>Update data</strong> activity, the following configuration is needed:</p> 
+  <ol> 
+   <li><p>Select the <strong>Insert or update</strong> option in the <strong>Operation type</strong> field to avoid creating new records each time the file is collected.</p> </li> 
+   <li><p>Select the <strong>By directly using the targeting dimension</strong> value for the <strong>Record identification</strong> option.</p> </li> 
+   <li><p>Select the "Purchases" schema as a <strong>Document type</strong>.</p> </li> 
+   <li><p>Specify the list of fields to be updated. The <strong>Destination</strong> column lets you define the fields of the "Purchases" schema. The <strong>Expression</strong> column lets you select the fields in the work table to carry out a mapping.</p> </li> 
+   <li><p>Click the <strong>Generate an outbound transition</strong> option.</p> </li> 
+  </ol> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_miseajour.png" title="UC2_enrich_miseajour.png" /> 
+  <h2 id="step-3--enriching--contact--data-">Step 3: Enriching 'Contact' data</h2> 
+  <p>The "Contacts" schema is physically linked to the "Purchases" schema. This means you can use another option of the "Enrichment" option: adding data linked to the filtering dimension.</p> 
+  <p>The purpose of this second enrichment is to create an aggregate on the purchase schema to calculate the total amount of purchases for each identified contact.</p> 
+  <ol> 
+   <li><p>Add a <strong>query</strong> type activity that lets you recover all <strong>Contacts</strong> stored.</p> </li> 
+   <li><p>Add an <strong>Enrichment</strong> activity then select the main set resulting from the previous query.</p> </li> 
+   <li><p>Click add <strong>Data</strong>.</p> </li> 
+   <li><p>Click the <strong>Data linked to the targeting dimension</strong> option.</p> </li> 
+   <li><p>Click the <strong>Data linked to the filtering dimension</strong> option in the <strong>Select fields to add</strong> window.</p> </li> 
+   <li><p>Select the <strong>Purchases</strong> node then click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_enrich9.png" title="UC2_enrich_enrich9.png" /></li> 
+   <li><p>Change the <strong>Collected data</strong> field by selecting the <strong>Aggregates</strong> option.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_enrich10.png" title="UC2_enrich_enrich10.png" /></li> 
+   <li><p>Click <strong>Next</strong>.</p> </li> 
+   <li><p>Add the following expression to calculate the purchase total for each contact: "Sum(@prodprice)".</p> <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_enrich6.png" title="UC2_enrich_enrich6.png" /></li> 
+  </ol> 
+  <p>To prepare the summary list, you need to add fields from the "Purchases" fields and from the first enrichment: the "ZipCode Reference" field.</p> 
+  <ol> 
+   <li><p>Click the <strong>Edit additional data...</strong> link in the enrichment activity.</p> </li> 
+   <li><p>Add the "Store name" and "Purchases / Zip Code Reference" fields.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_enrich7.png" title="UC2_enrich_enrich7.png" /></li> 
+   <li><p>Click the <strong>Properties</strong> tab.</p> </li> 
+   <li><p>Change the second link to create only one line.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_enrich8.png" title="UC2_enrich_enrich8.png" /></li> 
+  </ol> 
+  <h2 id="step-4--creating-and-adding-to-a-summary-list">Step 4: Creating and adding to a summary list</h2> 
+  <p>The last step involves writing all the enriched data to a list.</p> 
+  <ol> 
+   <li><p>Add a <strong>List update</strong> activity to the workflow. This activity must be linked to the outbound transition of the second enrichment activity.</p> </li> 
+   <li><p>Select the <strong>Create the list if necessary (Calculated name)</strong> option.</p> </li> 
+   <li><p>Select a value for the calculated name. The label chosen for the list is the current date: &lt;%= formatDate(new Date(), "%2D/%2M/%2Y") %&gt;.</p> </li> 
+  </ol> 
+  <p>Once the workflow is executed, the list will include:</p> 
+  <ul> 
+   <li><p>a list of contacts,</p> </li> 
+   <li><p>a "Total purchases" column,</p> </li> 
+   <li><p>a "Store name" column,</p> </li> 
+   <li><p>a "Zip Code Reference" column entered for all stores contained in the store reference schema.</p> </li> 
+  </ul> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/uc2_enrich_listfinal.png" title="UC2_enrich_listfinal.png" /> 
+ </body> 
+</html>

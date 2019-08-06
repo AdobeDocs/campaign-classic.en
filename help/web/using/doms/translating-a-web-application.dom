@@ -1,0 +1,54 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Translating a web application" name="jcr:title" />
+  <meta content="audience:web" name="primaryAudienceTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Translating a web application" name="jcr:description" />
+  <meta content="7a09e550-490a-4aed-9d67-6d21b09ebe7e" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Translating a web application" name="navTitle" />
+  <meta content="" name="seoDescription" />
+  <meta content="13e451f7-4fe4-4682-9ade-6cc20e6a73e1" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-08-06T06:59:03.840-0400" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+ </head>
+ <body>
+  <p>You can translate Web application pages created with the Adobe Campaign Digital content editor (DCE).</p> 
+  <p>If you select at least one additional language via the <strong>Localization</strong> tab in the <strong>Properties</strong> of a Web application, a new option becomes available when adding an HTML content block in a page edited with DCE. </p> 
+  <p>This option lets you indicate if the block content has to be translated or not.</p> 
+  <p>Strings to be translated are collected the same way as the other strings of the Web application, via the <strong>Translations</strong> tab of the application. For more on this, refer to <a href="../../web/using/translating-a-web-form.md">this page</a>.</p> 
+  <p>To flag the strings to be translated:</p> 
+  <ol>
+   <li><p>Open a content page edited with DCE in a Web application.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dce_translation_3.png" title="DCE_translation_3.png" /></li>
+   <li><p>Select an HTML block.</p> </li>
+   <li><p>In the parameters block on the right, the <strong>Localization</strong> option lets you flag the content of the selected block. By default, only the page title is to be translated.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dce_translation_1.png" title="DCE_translation_1.png" />
+    <note>
+     <p> Strings must not exceed 1023 characters.<br /> </p> 
+    </note><p>There are three specific cases:</p> 
+    <ul>
+     <li><p>When the selected block contains several strings/blocks, it is flagged as a single string to be translated. The string contains then the HTML code of the elements inside this block.</p> </li>
+     <li><p>When you want to flag a block that contains several strings and if at least one of these strings is already flagged, a warning is displayed. You can then remove the flag from the isolated string and add the entire block.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dce_translation_4.png" title="DCE_translation_4.png" /></li>
+     <li><p>When you want to remove the flag from a string contained in a block which is already flagged, you cannot directly modify the string translation option. However, you can access the block containing the string in order to change it.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dce_translation_2.png" title="DCE_translation_2.png" /></li>
+    </ul></li>
+   <li><p>Once you have finished flagging the strings, go back to the Web application and select the <strong>Translations</strong> tab.</p> </li>
+   <li><p>Select <strong>Collect the strings to translate</strong>. The strings flagged in DCE are added to the Web application's strings.</p> 
+    <note>
+     <p> Once the strings have been collected, they will not be removed from the list if you remove the translation flag in DCE. This allows to keep them in the translation memory.<br /> </p> 
+    </note></li>
+   <li><p>Translate and approve the strings.</p> <p>You can then preview the translations by selecting the desired language from the <strong>Preview</strong> tab in the Web application.</p> </li>
+  </ol>
+ </body>
+</html>

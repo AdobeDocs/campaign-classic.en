@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="seoDescription" />
+  <meta content="4571e3ae-2661-49e2-aaf9-8d0f937a03e9" name="jcr:predecessors" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:reporting" name="cq:tags" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-08-06T06:59:33.888-0400" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="6848c0f8-d443-48f2-aee8-fb67acd30b35" name="jcr:uuid" />
+  <meta content="Optimizing report creation" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Optimizing report creation" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Optimizing report creation" name="jcr:description" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <h2 id="data-volume">Data volume</h2>
+  <p>To guarantee optimal performances, the volume of manipulated data mustn't be too large. </p> 
+  <p>Namely:</p> 
+  <ul>
+   <li><p>Calculation time for a report must never exceed 5 minutes.</p> <p>Likewise, during the design phase, with a small volume of data, if report calculation exceeds 60 seconds, the calculation methods needs to be changed.</p> </li>
+   <li><p>When using Marketing Analytics, the manipulated data must not exceed 10 million lines.</p> </li>
+  </ul>
+  <p>We also recommend calculating aggregates at night and using this aggregated data directly in the reports. These aggregates must be created via dedicated Data Management workflows (SQL queries).</p> 
+  <p>You can also calculate reports during the night and automatically create a history that can be viewed at any time without overloading the database.</p> 
+  <h2 id="queries">Queries</h2>
+  <p>We recommend using SQL queries whenever possible and avoiding JavaScript post-processing. If necessary, use a Script activity in a workflow and delete the data used for calculation. You can also use archived data to accelerate the processing time. </p> 
+  <p>In this case, the following syntax should be used: </p> 
+  <codeblock gutter="true" class="syntax html">
+   if(string(ctx@_historyId)!==""))
+  </codeblock>
+  <p>Queries that enable you to collect the data displayed in the reports must not be too complex, especially if applied to all the data in the database. To improve performances, it can be useful to filter the data before executing these queries: this means the calculation will only concern part of the data.</p> 
+  <h2 id="performances">Performances</h2>
+  <p>The recommendations above enable you to optimize report calculation. </p> 
+  <p>In addition to this, Adobe Campaign recommends the following improvements:</p> 
+  <ul>
+   <li><p>Study the datamodel: indexed fields must be used mainly to improve calculation formulas.</p> <p>To find an indexed field quickly, look at the name of the column in the Adobe Campaign interface: the sorting arrow is underlined in red if the field is indexed.</p> </li>
+   <li><p>Make sure the report is valid in the long run: data volume may increase significantly over time. </p> <p>Likewise, the volume of data manipulated during the test phases may differ from the actual data volume in production. This is why test phases are important.</p> <p>Finally, data purge delays need to be known and adapted when necessary for easy data manipulation.</p> </li>
+  </ul>
+  <h2 id="exporting-reports">Exporting reports</h2>
+  <p>Recommendations specific to exporting reports are detailed in <a href="../../reporting/using/actions-on-reports.md#exporting-a-report">this section</a>.</p> 
+ </body>
+</html>

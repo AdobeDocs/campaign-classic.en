@@ -1,0 +1,252 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:administration-basics" name="cq:tags" />
+  <meta content="a9d893a8-514f-45a4-98cc-4b3b3d31502a" name="jcr:predecessors" />
+  <meta content="Access management" name="navTitle" />
+  <meta content="2019-08-06T07:02:31.868-0400" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="audience:platform" name="primaryAudienceTag" />
+  <meta content="2019-08-05" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Access management" name="jcr:title" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="seoDescription" />
+  <meta content="Access management" name="jcr:description" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="9d464c01-6afd-4ba7-a0f8-2fc3e88b7136" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <h2 id="about-permissions">About permissions</h2>
+  <p>Adobe Campaign lets you define and manage the rights assigned to the various operators. These are a set of rights and restrictions that authorize or deny:</p> 
+  <ul>
+   <li><p>Access to certain functionalities (via the named rights),</p> </li>
+   <li><p>Access to certain records,</p> </li>
+   <li><p>Creation, modification and/or deletion of records (actions, contacts, campaigns, groups, etc.).</p> </li>
+  </ul>
+  <p>The permissions apply to operator profiles or operator groups.</p> 
+  <p>They are completed by safety parameters linked to the operator's connection mode to Adobe Campaign. For more on this, refer to <a href="../../installation/using/configuring-campaign-server.md#defining-security-zones">this page</a>. </p> 
+  <p>There are two types of permissions you can grant to a user: </p> 
+  <ul>
+   <li><p>You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. Group creation and management are presented in <a href="../../platform/using/access-management.md#operator-groups" target="_blank">Operator groups</a>.</p> </li>
+   <li><p>You can attribute named rights directly to users, in some cases to overload the rights allocated via groups. These rights are presented in <a href="../../platform/using/access-management.md#named-rights" target="_blank">Named rights</a>.</p> </li>
+  </ul>
+  <note>
+   <p> Before starting defining permissions, Adobe recommends you to read the <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html">Security configuration checklist</a>.<br /> </p> 
+  </note>
+  <h2 id="operators">Operators</h2>
+  <h3 id="about-operators">About operators</h3>
+  <p>An operator is an Adobe Campaign user who has permissions to log in and perform actions. </p> 
+  <p>By default, operators are stored in the <strong>Administration &gt; Access management &gt; Operators</strong> node.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_list_operators.png" title="s_ncs_user_list_operators.png" />
+  <p>Operators can be created manually or mapped on an existing LDAP directory.</p> 
+  <p>Complete procedure to create an operator is described in <a href="../../platform/using/access-management.md#creating-an-operator">this page</a>.</p> 
+  <p>For more on Adobe Campaign and LDAP integration, refer to <a href="../../installation/using/connecting-through-ldap.md">this page</a>. </p> 
+  <note>
+    Operators need to be linked to a security zone to log on to an instance. For more on security zones in Adobe Campaign, refer to 
+   <a href="../../installation/using/configuring-campaign-server.md#defining-security-zones">this page</a>. 
+   <br /> 
+  </note>
+  <p>Users can also directly connect to Adobe Campaign using their Adobe ID. For more on this, refer to this <a href="../../integrations/using/about-adobe-id.md">page</a>.</p> 
+  <h3 id="creating-an-operator">Creating an operator</h3>
+  <p>To create a new operator and grant permissions, follow the steps below:</p> 
+  <ol>
+   <li><p>Click the <strong>New</strong> button located above the list of operators, and enter the details of the new operator.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_operator_new.png" title="s_ncs_user_operator_new.png" /></li>
+   <li><p>Specify the <strong>Identification parameters</strong> of the user: its login, password and name. The login and password will be used by the operator to log on to Adobe Campaign. Once the user is logged on, they can change their password via the <strong>Tools &gt; Change password</strong> menu. The email of the operator is essential as it enables the operator to receive notifications, for instance when processing approvals. </p> <p>This section also enables you to link an operator to an organizational entity. For more on this, refer to the <a href="../../campaign/using/about-distributed-marketing.md">this page</a>.</p> </li>
+   <li><p>Select the permissions granted to the operator in the <strong>Operator access rights</strong> section. </p> <p>To assign rights to the operator, click the <strong>Add</strong> button located above the list of rights, then select a group of operators from the list of available groups:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_permissions_operators.png" title="s_ncs_user_permissions_operators.png" /><p>You can also select one or more named rights (refer to <a href="../../platform/using/access-management.md#named-rights" target="_blank">Named rights</a>). To do this, click the arrow to the right of the <strong>Folder</strong> field, and select <strong>Named rights</strong>:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_rights_operators.png" title="s_ncs_user_rights_operators.png" /><p>Select groups and/or named rights to be assigned and click <strong>OK</strong> to validate.</p> </li>
+   <li><p>Click <strong>Ok</strong> to create the operator: the profile is added to the list of existing operators.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/operator_profile_new.png" title="operator_profile_new.png" /></li>
+  </ol>
+  <note>
+   <p> You can organize the operators according to your requirements by creating new operator folders. To do this, right-click the operator folder and select <strong>Add an 'Operators' folder</strong>.<br /> </p> 
+  </note>
+  <p>Once the operator's profile has been created, you can add to or update their information. To do this, click the <strong>Edit</strong> tab. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/operator_edit_profile.png" title="operator_edit_profile.png" />
+  <note>
+   <p> The <strong>Session timeout</strong> field lets you adjust the delay before the FDA session timeout. For more on this, refer to <a href="../../platform/using/access-management.md#about-federated-data-access" target="_blank">About Federated Data Access</a>.<br /> </p> 
+  </note>
+  <h3 id="time-zone-of-the-operator">Time zone of the operator</h3>
+  <p>In the <strong>General</strong> tab, you can select the time zone of the operator. By default, operators work in the server time zone. However, it is possible to select another time zone using the drop-down list.</p> 
+  <p> </p> 
+  <p>The configuration of time zones is described in <a href="../../installation/using/time-zone-management.md">this page</a>.</p> 
+  <note>
+   <p> Collaborations within various time zones require the storage of dates in UTC. Dates are converted in the appropriate time zone in the following contexts: when a date is displayed in the user time zone, when files are imported and exported, when an email delivery is scheduled, when activities are scheduled in a workflow (scheduler, wait, time constraint, etc.)<br /> Constraints and recommendations linked to these contexts are presented in related sections of the Adobe Campaign documentation.<br /> </p> 
+  </note>
+  <p>In addition, the <strong>Regional settings</strong> drop-down list lets you select the format to display dates and numbers. </p> 
+  <h3 id="access-rights-options">Access rights options</h3>
+  <p>Use the <strong>Access rights</strong> tab to update the groups and named rights linked to the operator.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/operator_profile_security_options.png" title="operator_profile_security_options.png" />
+  <p>The <strong>Edit the access parameters...</strong> link lets you access the following options:</p> 
+  <ul>
+   <li><p>The <strong>Disable account</strong> option lets you disable the operator's account: he will no longer access Adobe Campaign.</p> </li>
+   <li><p>The <strong>Forbid access from the rich client</strong> option lets you restrict the use of Adobe Campaign to <a href="../../platform/using/adobe-campaign-workspace.md#console-and-web-access">Web access</a> or through APIs: access to the Adobe Campaign client console is no longer available.</p> </li>
+   <li><p>It's possible to link a safety zone to the operator. For more on this, refer to <a href="../../installation/using/configuring-campaign-server.md#defining-security-zones">this page</a>.</p> </li>
+   <li><p>You can also define a trusted IP mask using the appropriate link.</p> <p>The operator will be able to connect to Adobe Campaign without entering their password if their IP address is in this list.</p> <p>You can also specify a set of IP addresses that will be authorized to connect without a password, such as in the following example:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/operator_trustip.png" title="operator_trustIP.png" />
+    <note>
+     <p> To keep access to your platform secure, this option must be used with care.<br /> </p> 
+    </note></li>
+  </ul>
+  <ul>
+   <li><p>The <strong>Restrict to information found in sub-folders of:</strong> option lets you limit the rights attributed to the operator of a folder. Only the subfolders of the node specified in this option will be visible to the user:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_restrictions_operators.png" title="s_ncs_user_restrictions_operators.png" />
+    <note>
+      This is a very tight restriction, and it must be used with caution. An operator logged in with this type of rights can ONLY see the content of the specified folder, and has no access to any other node of the tree via the explorer. However, depending on the functionalities he has access to (for example: workflows), he can display data that is usually stored in nodes that he cannot see.
+     <br /> 
+    </note></li>
+  </ul>
+  <h3 id="folders--approval-and-tasks-of-an-operator">Folders, approval and tasks of an operator</h3>
+  <p>The <strong>Audit</strong> tab lets you view information related to the operator. The various tabs are added to automatically based on the settings defined in the operator's area of intervention.</p> 
+  <p>You can access:</p> 
+  <ul>
+   <li><p>The list of rights on folders linked to the operator.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/operator_folder_permissions.png" title="operator_folder_permissions.png" />
+    <note>
+     <p> For more on this, refer to <a href="../../platform/using/access-management.md#folder-access-management" target="_blank">Folder access management</a>.<br /> </p> 
+    </note></li>
+   <li><p>The operator approvals log.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/operator_profile_validations.png" title="operator_profile_validations.png" /></li>
+   <li><p>The list of discussion forums which they are subscribed to.</p> </li>
+   <li><p>Events in their calendar.</p> </li>
+   <li><p>The list of tasks assigned to them.</p> </li>
+  </ul>
+  <h3 id="default-operators">Default operators</h3>
+  <p>Adobe Campaign uses technical operators with profiles configured by default: Administrator ('admin'), Billing ('billing'), Monitoring, Web application agent ('webapp'), etc. Some of these depend on the applications and options installed on the platform: 'central' and 'local' operators, for instance, are only visible if the Distributed Marketing option is installed.</p> 
+  <note>
+    These technical operators are notified by default when information messages are returned by the platform. We strongly recommend providing a contact email for them.
+   <br /> To make sure Web applications operate correctly, we also recommend not defining specific regional settings for the 'webapp' operator.
+   <br /> 
+  </note>
+  <p>By default, the 'webapp' technical operator has the named ADMINISTRATION right, which can lead to security risks. To fix this problem, we recommend removing this right. To do this:</p> 
+  <ol>
+   <li><p>From the <strong>Administration &gt; Access management &gt; Named rights</strong> node, click <strong>New</strong> to create a right and name it WEBAPP.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_default_operators_webapp_right.png" title="s_ncs_default_operators_webapp_right.png" /><p>Named rights are detailed in the <a href="../../platform/using/access-management.md#named-rights" target="_blank">Named rights</a> section.</p> </li>
+   <li><p>From the <strong>Administration &gt; Access management &gt; Operators</strong> node, select the Web applications agent operator ('webapp').</p> <p>Select the <strong>Edit</strong> tab, then the <strong>Access rights</strong> tab and delete the ADMINISTRATION named right from the list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_default_operators_webapp_admin_right.png" title="s_ncs_default_operators_webapp_admin_right.png" /><p>Click <strong>Add</strong> and select the WEBAPP right that you have just created, then save your changes.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_default_operators_webapp_webapp_right.png" title="s_ncs_default_operators_webapp_webapp_right.png" /></li>
+   <li><p>Assign the 'webapp' operator read and write data access rights on the folders that concern this operator, which is primarily the 'Recipient' folders.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_default_operators_webapp_folder_access.png" title="s_ncs_default_operators_webapp_folder_access.png" /><p>Modifying rights on tree folders is detailed in the <a href="../../platform/using/access-management.md#folder-access-management" target="_blank">Folder access management</a> section.</p> </li>
+  </ol>
+  <note>
+   <p> For more information on Security guidelines, refer to <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html">Adobe Campaign Security configuration checklist</a>.<br /> </p> 
+  </note>
+  <h2 id="operator-groups">Operator groups</h2>
+  <p>Operator groups are created via the <strong>Administration &gt; Access management &gt; Operator groups</strong> node in the tree.</p> 
+  <h3 id="creating-a-new-operator-group">Creating a new operator group</h3>
+  <p>To create a new operator group, apply the following steps: </p> 
+  <ol>
+   <li><p>Click the <strong>New</strong> button to the right of the list of groups or right-click the list and choose <strong>New</strong>.</p> </li>
+   <li><p>In the section lower window, from the <strong>General</strong> tab, enter the name and a description for this group in the corresponding fields.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_create_operator_gp.png" title="s_ncs_user_create_operator_gp.png" /></li>
+   <li><p>Click the <strong>Content</strong> tab to define authorizations for this group.</p> </li>
+   <li><p>Click the <strong>Add</strong> button to select an appointed right or an operator to associate to the group.</p> </li>
+   <li><p>Click the drop-down list or on the folder to the right of the <strong>Folder</strong> field to locate the appointed rights or operators to associate to this group.</p> </li>
+   <li><p>Select the rights or operators to add and click <strong>OK</strong> to validate.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_create_operator_gp03.png" title="s_ncs_user_create_operator_gp03.png" /><p>Repeat this operation to add other rights or operators.</p> </li>
+   <li><p>Click the <strong>Save</strong> button to add the group to the list.</p> </li>
+  </ol>
+  <h3 id="default-groups">Default groups</h3>
+  <p>The default operator groups are:</p> 
+  <ol>
+   <li><p>Delivery operators</p> <p>The operators in this group are in charge of managing deliveries: they enable access to the main resources required for creating and preparing deliveries (campaign typologies, delivery mappings, default templates, personalization blocks, etc.).</p> <p>This group contains the following named rights:</p> 
+    <ul>
+     <li><p>PREPARE DELIVERIES: right to create, edit and start the delivery analysis,</p> </li>
+     <li><p>START DELIVERIES: right to approve previously analyzed deliveries.</p> </li>
+    </ul></li>
+   <li><p>Campaign managers</p> <p>The operators in this group can manage marketing campaigns: it lets you access the objects linked to campaigns (plans, programs, workflows, budgets, etc.).</p> <p>This group contains the following named rights:</p> 
+    <ul>
+     <li><p>INSERT FOLDERS: right to insert folders into the Adobe Campaign tree (provided you have editing rights for the concerned branches),</p> </li>
+     <li><p>WORKFLOW: right to use workflows.</p> </li>
+    </ul>
+    <note>
+     <p> This group does not enable operators to start deliveries.<br /> </p> 
+    </note></li>
+   <li><p>Content contributors</p> <p>The operators in this group can access the Content folders, within the framework of <strong>Content management</strong> (optional Adobe Campaign module). This group does not grant any additional rights.</p> </li>
+   <li><p>Access to reports </p> <p>This group is reserved for external operators, to access the delivery reports via a Web access.</p> </li>
+   <li><p>Workflow execution</p> <p>This group lets you assign operators the right to manage workflows which are unrelated to campaigns.</p> </li>
+   <li><p>Workflow supervisors</p> <p>The operators in this group receive an email notification in case of alerts concerning campaign workflows.</p> </li>
+   <li><p>Local / Central management</p> <p>These groups let you use <strong>Distributed marketing</strong> (optional Adobe Campaign module).</p> </li>
+  </ol>
+  <h2 id="named-rights">Named rights</h2>
+  <p>By default, Adobe Campaign proposes a set of named rights that let you define the authorizations assigned to operators and groups of operators. These rights can be edited from the <strong>Administration &gt; Access management &gt; Named rights</strong> node of the tree. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_named_rights.png" title="s_ncs_admin_named_rights.png" />
+  <p>These rights are as follows:</p> 
+  <ul>
+   <li><p>FILES ACCESS: Right to read and write access for files via a script.</p> </li>
+   <li><p>ADMINISTRATION: Generic administration right applied to all folders on the console.</p> </li>
+   <li><p>APPROVAL ADMINISTRATION: Right to assign reviewers.</p> </li>
+   <li><p>CENTRAL: Right for central management (Distributed Marketing).</p> </li>
+   <li><p>START DELIVERIES: Right to approve previously analyzed deliveries.</p> </li>
+   <li><p>EDIT FOLDERS: Right to alter folder properties: name, label, associated image, etc.</p> </li>
+   <li><p>PROGRAM EXECUTION: Right to execute external programs.</p> </li>
+   <li><p>SQL SCRIPT EXECUTION: Right to execute SQL scripts on the database.</p> </li>
+   <li><p>EXPORT: Right to export data.</p> </li>
+   <li><p>MERGE: Right to merge records.</p> </li>
+   <li><p>RECIPIENT IMPORT: Right to import recipients.</p> </li>
+   <li><p>IMPORT: Right for generic data import.</p> </li>
+   <li><p>INSERT FOLDERS: Right to insert folders.</p> </li>
+   <li><p>LOCAL: Right for local management (Distributed Marketing).</p> </li>
+   <li><p>PREPARE DELIVERIES: Right to create, edit and start the delivery analysis.</p> </li>
+   <li><p>DELETE FOLDER: Right to delete folders.</p> </li>
+   <li><p>WORKFLOW: Right to use workflows.</p> </li>
+   <li><p>WEBAPP: Right to use web applications.</p> </li>
+   <li><p>USE SQL DATA MANAGEMENT ACTIVITY: Right to write your own SQL scripts using the SQL Data Management activity, in order to create and populate work tables (see <a href="../../workflow/using/sql-data-management.md">this section</a>).</p> </li>
+  </ul>
+  <note>
+   <p> This list can differ depending on the add-ons installed on the platform.<br /> </p> 
+  </note>
+  <h2 id="access-rights-matrix">Access rights matrix</h2>
+  <p>Default groups and named rights allow operators to access certain folders in the navigation hierarchy, and grant read, write, and delete permissions.</p> 
+  <p>Adobe Campaign access rights matrix is available <a href="https://docs.campaign.adobe.com/doc/AC6.1/en/technicalResources/accessRights.html">here</a>.</p> 
+  <h2 id="folder-access-management">Folder access management</h2>
+  <p>Each folder of the tree has read, write, and delete access rights attached to it. To access a file, an operator or group of operators must at least have read access to it.</p> 
+  <h3 id="edit-permissions-on-a-folder">Edit permissions on a folder</h3>
+  <p>To edit permissions on a specific folder of the tree, follow the steps below:</p> 
+  <ol>
+   <li><p> Right-click on the folder and select <strong>Properties...</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_folder_properties.png" title="s_ncs_user_folder_properties.png" /></li>
+   <li><p>Click the <strong>Security</strong> tab to view authorizations on this folder.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_folder_properties_security.png" title="s_ncs_user_folder_properties_security.png" /></li>
+  </ol>
+  <h3 id="modify-permissions">Modify permissions</h3>
+  <p>To modify permissions, you can:</p> 
+  <ul>
+   <li><p><strong>Replace a group or an operator</strong>. To do this, click one of the groups (or operators) with rights to the folder, and select a new group (or a new operator) from the drop-down list:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_folder_properties_security02.png" title="s_ncs_user_folder_properties_security02.png" /></li>
+   <li><p><strong>Authorize a group or an operator</strong>. To do this, click the <strong>Add</strong> button and select the group or operator to which you want to assign authorizations for this folder.</p> </li>
+   <li><p><strong>Forbid a group or an operator</strong>. To do this, click <strong>Delete</strong> and select the group or operator from which you want to remove authorization for this folder.</p> </li>
+   <li><p><strong>Select the rights assigned to a group or an operator</strong>. To do this, click the group or operator concerned, then select the access rights you want to grant and deselect the others.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_folder_properties_security03.png" title="s_ncs_user_folder_properties_security03.png" /></li>
+  </ul>
+  <h3 id="propagate-permissions">Propagate permissions</h3>
+  <p>You can propagate authorizations and access rights. To do this, select the <strong>Propagate</strong> option in the folder properties.</p> 
+  <p>The authorizations defined in this window will then be applied to all the sub-folders of the current node. You can then overload these authorizations for each of the sub-folders.</p> 
+  <note>
+   <p> Clearing this option for a folder does not automatically clear it for the sub-folders. You must clear it explicitly for each of the sub-folders.<br /> </p> 
+  </note>
+  <h3 id="grant-access-to-all-operators">Grant access to all operators</h3>
+  <p>In the <strong>Security</strong> tab, if the <strong>System folder</strong> option is selected, all operators will have access to this data, regardless of their rights. If this option is cleared, you must explicitly add the operator (or their group) to the list of authorizations in order for them to have access.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_folder_properties_security03b.png" title="s_ncs_user_folder_properties_security03b.png" />
+  <h2 id="folders-and-views">Folders and views</h2>
+  <h3 id="about-folders-and-views">About folders and views</h3>
+  <p>Folders are nodes in Adobe Campaign tree. These nodes are created by right-clicking the tree, via the <strong>Add new folder</strong> menu. By default, the first menu enables you to add the folder corresponding to the current context.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_folder_in_tree.png" title="s_ncs_user_add_folder_in_tree.png" />
+  <p>You can grant permissions to these folders as on all the other folders of the tree. See <a href="../../platform/using/access-management.md#folder-access-management" target="_blank">Folder access management</a>.</p> 
+  <p>In addition, you can create views in order to restrain access to data and organize the content of the tree to suit your requirements. You can then assign rights to the views.</p> 
+  <p>A view is a folder that displays records that are physically stored in one or more other folders of the same type. For example, if you create a Campaign folder that is a view, it displays all the campaigns present in the database by default, whatever their origin. This data can then be filtered.</p> 
+  <p>When you convert a folder to a view, all the data corresponding to the folder type present in the database is displayed in the view, irrespective of the folder in which it is saved. You can then filter it to restrict the list of data displayed.</p> 
+  <note>
+    The views contain data and provide access to it, but the data is not physically stored in the view folder. The operator must have the appropriate rights for the desired action in the data source folders (read access at least).
+   <br /> To give access to a view without giving access to its source folder, simply do not give read access on the parent node of the source folder.
+   <br /> 
+  </note>
+  <h3 id="adding-folders-and-creating-views">Adding folders and creating views</h3>
+  <p>In the example below, we will create new folders to display specific data:</p> 
+  <ol>
+   <li><p>Create a new <strong>Deliveries</strong> type folder, and name it <strong>Deliveries France</strong>.</p> </li>
+   <li><p>Right-click this folder and select <strong>Properties...</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_folder_exple.png" title="s_ncs_user_add_folder_exple.png" /></li>
+   <li><p>In the <strong>Restriction</strong> tab, select <strong>This folder is a view</strong>. All the deliveries in the database will then be displayed.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_folder_exple01.png" title="s_ncs_user_add_folder_exple01.png" /></li>
+   <li><p>Define the delivery filter criteria from the query editor in the middle section of the window: the campaigns corresponding to the defined filter will then be displayed. </p> 
+    <note>
+     <p> The query editor is presented in <a href="../../platform/using/about-queries-in-campaign.md">this section</a>.<br /> </p> 
+    </note><p>With the following filter conditions:</p> </li>
+  </ol>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_folder_exple00.png" title="s_ncs_user_add_folder_exple00.png" />
+  <p>The following deliveries will be displayed in the view:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_folder_exple02.png" title="s_ncs_user_add_folder_exple02.png" />
+ </body>
+</html>

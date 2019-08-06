@@ -1,0 +1,39 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Offer catalog overview" name="jcr:description" />
+  <meta content="Offer catalog overview" name="jcr:title" />
+  <meta content="" name="seoDescription" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="42e41bc5-7fbe-4975-89e1-165b88005455" name="jcr:uuid" />
+  <meta content="2019-08-06T06:59:20.167-0400" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Offer catalog overview" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="c6c3a6d1-1c5e-4189-b21a-66fb5cf6a3ec" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+ </head>
+ <body>
+  <p>An offer catalog is always either made up of categories that then have sub-categories or of offers directly.</p> 
+  <p>An offer catalog is part of a single environment, to be specified beforehand. Offers contained in this catalog can only be associated with the spaces specified in this environment.</p> 
+  <p>Offer management is carried out via a tree of folders in the Adobe Campaign.</p> 
+  <p>Before creating your offers, you must first specify an environment (see <a href="../../interaction/using/environments-overview.md" target="_blank">Environments overview</a>). It will contain all the characteristics (eligibility, constraints on the target, presentation rules) of a set of offers, sorted into categories, as well as the list of their spaces.</p> 
+  <note>
+    Creating the offer catalog, i.e. the categories and the offers, is the responsibility of the 
+   <strong>Offer manager</strong>.
+   <br /> 
+  </note>
+ </body>
+</html>

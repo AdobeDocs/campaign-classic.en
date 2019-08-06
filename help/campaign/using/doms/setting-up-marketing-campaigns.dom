@@ -1,0 +1,704 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="598c0f16-6e3a-446a-9a62-20043b7ee329" name="jcr:predecessors" /> 
+  <meta content="9a1b2116-d683-48b6-8ec0-bfd2d314d30c" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="Setting up marketing campaigns" name="jcr:description" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Setting up marketing campaigns" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="2019-08-06T06:59:08.198-0400" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="audience:campaign" name="primaryAudienceTag" /> 
+  <meta content="Setting up marketing campaigns" name="navTitle" /> 
+ </head> 
+ <body> 
+  <h2 id="overview">Overview</h2> 
+  <p>Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are grouped together in a program, and programs are included in a campaign plan.</p> 
+  <p>The steps to create a marketing campaign are as follows:</p> 
+  <ol> 
+   <li><p>Creating a campaign: description of the campaign and its characteristics: label, type, start and end dates, budget, associated resources, manager(s) and participants.</p> <p>See <a href="../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign" target="_blank">Creating a campaign</a>.</p> </li> 
+   <li><p>Defining target population(s): creating a workflow with targeting queries.</p> <p>See <a href="../../campaign/using/setting-up-marketing-campaigns.md#selecting-the-target-population" target="_blank">Selecting the target population</a>.</p> </li> 
+   <li><p>Creating deliveries: choice of channel(s) and defining the content to be sent.</p> <p>See <a href="../../campaign/using/setting-up-marketing-campaigns.md#creating-deliveries" target="_blank">Creating deliveries</a>.</p> </li> 
+   <li><p>Checking and approving deliveries.</p> <p>Refer to <a href="../../campaign/using/setting-up-marketing-campaigns.md#approval-process" target="_blank">Approval process</a>.</p> </li> 
+   <li><p>Planning campaigns and associated costs.</p> <p>See <a href="../../campaign/using/setting-up-marketing-campaigns.md#creating-service-providers-and-their-cost-structures" target="_blank">Creating service providers and their cost structures</a>.</p> </li> 
+  </ol> 
+  <p>When these steps have been completed, you can start the deliveries (see <a href="../../campaign/using/setting-up-marketing-campaigns.md#starting-a-delivery" target="_blank">Starting a delivery</a>), check the data, processes and information relating to the deliveries and, if necessary, manage the associated documents (see <a href="../../campaign/using/setting-up-marketing-campaigns.md#managing-associated-documents" target="_blank">Managing associated documents</a>). You can also track the execution of the processing phases of campaigns and deliveries (see <a href="../../campaign/using/setting-up-marketing-campaigns.md#tracking" target="_blank">Tracking</a>).</p> 
+  <h2 id="creating-plan-and-program-hierarchy">Creating plan and program hierarchy</h2> 
+  <p>To configure your folder hierarchy for marketing plans and programs, follow these steps:</p> 
+  <ol> 
+   <li><p>Click the <strong>Explorer</strong> icon on the home page.</p> </li> 
+   <li><p>Right-click the folder in which you want to create your plan.</p> </li> 
+   <li><p>Select <strong>Add new folder &gt; Campaign Management &gt; Plan</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/create_plan_1.png" title="create_plan_1.png" /></li> 
+   <li><p>Rename the plan.</p> </li> 
+   <li><p>Right-click the newly created plan and select <strong>Properties...</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/create_plan_2.png" title="create_plan_2.png" /></li> 
+   <li><p>In the <strong>General</strong> tab, modify the<strong> Internal name</strong> to avoid duplicates during package exports.</p> </li> 
+   <li><p>Click <strong>Save</strong>.</p> </li> 
+   <li><p>Right-click the newly created plan and select <strong>Create a new 'Program' folder</strong>. </p> </li> 
+   <li><p>Repeat the above steps to rename your new program folder and its internal name.</p> </li> 
+  </ol> 
+  <h2 id="creating-a-campaign">Creating a campaign</h2> 
+  <h3 id="configuring-a-campaign-template">Configuring a campaign template</h3> 
+  <p>Campaigns are based on models that group together a set of predefined parameters. </p> 
+  <p>In a default configuration, the campaign templates are centralized in the <strong>Resources &gt; Templates &gt; Campaign templates</strong> node of the Adobe Campaign tree.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_campaign_op_template_node.png" title="s_ncs_user_campaign_op_template_node.png" /> 
+  <note> 
+   <p> The tree is displayed when you click the <strong>Explorer</strong> icon on the home page.<br /> </p> 
+  </note> 
+  <p>An empty template is supplied out of the box in order to create a campaign for which no specific configuration has been defined. You can create and configure your campaign templates and then create campaigns from these templates. </p> 
+  <p>The creation and configuration of campaign templates are presented in <a href="../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates" target="_blank">Campaign templates</a>.</p> 
+  <p>For more on campaign creation, refer to the <a href="https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html">Creating a campaign and an email</a> video.</p> 
+  <h3 id="adding-a-campaign">Adding a campaign</h3> 
+  <p>You can create a campaign via the list of campaigns. To display this view, select the <strong>Campaigns</strong> menu in the <strong>Campaigns</strong> dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_an_op_from_list.png" title="s_ncs_user_add_an_op_from_list.png" /> 
+  <p>The <strong>Program</strong> field lets you select the program to which the campaign will be attached. This information is mandatory.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_new_op_wz_a.png" title="s_ncs_user_new_op_wz_a.png" /> 
+  <p>Campaigns can also be created via a program. To do this, click the <strong>Add</strong> button in the <strong>Schedule</strong> tab of the concerned program.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_an_op.png" title="s_ncs_user_add_an_op.png" /> 
+  <p>When you create a campaign via the <strong>Schedule</strong> tab of a program, the campaign is automatically linked to the concerned program. The <strong>Program</strong> field is hidden in this case.</p> 
+  <p>The campaign creation window lets you choose the campaign template and name and describe the campaign. You can also specify the campaign start and end dates.</p> 
+  <p>Click <strong>OK</strong> to create the campaign. It is added to the program schedule.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_program_planning_with_op.png" title="s_ncs_user_program_planning_with_op.png" /> 
+  <note> 
+   <p> To filter the campaigns to display, click the <strong>Filter</strong> link and select the status of campaigns to display.<br /> </p> 
+  </note> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_program_planning_filter.png" title="s_ncs_user_program_planning_filter.png" /> 
+  <h3 id="editing-and-configuring-a-campaign">Editing and configuring a campaign</h3> 
+  <p>You can then edit the campaign you have just created and define its parameters. </p> 
+  <p>To open and configure a campaign, select it from the schedule and click <strong>Open</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_new_op_edit.png" title="s_ncs_user_new_op_edit.png" /> 
+  <p>This takes you to the campaign dashboard. </p> 
+  <h2 id="creating-deliveries">Creating deliveries</h2> 
+  <p>Deliveries can be created via the campaign dashboard, a campaign workflow or directly via the overview of deliveries.</p> 
+  <p>To create a delivery linked to a campaign, click the <strong>Add a delivery</strong> link in the campaign dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_op_add_delivery.png" title="campaign_op_add_delivery.png" /> 
+  <p>The suggested configurations are suited to the different types of delivery (direct mail, email, mobile channels, fax, or telephone). For more on creating and configuring deliveries, refer to the <a href="../../delivery/using/communication-channels.md">Sending Messages</a> section.<br /> </p> 
+  <p></p> 
+  <h3 id="creating-a-recurring-delivery-in-a-targeting-workflow">Creating a recurring delivery in a targeting workflow</h3> 
+  <p>In the following workflow, we are going to create a recurring delivery so that every day an email is sent to all recipients whose birthday it is.</p> 
+  <p>To do this, create a campaign and click the <strong>Targeting and workflows</strong> tab. For more on this, refer to the <a href="../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow" target="_blank">Building the main target in a workflow</a> section.</p> 
+  <p>Then follow these steps:</p> 
+  <ol> 
+   <li><p>Drag and drop a <strong>Query</strong> activity and configure it so that it collects the recipients whose birthday is the current date.</p> </li> 
+   <li><p>Add a <strong>Recurring delivery</strong> activity based on the birthday email template that you want to send.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/recur_delivery1.png" title="recur_delivery1.png" /></li> 
+   <li><p>Finally, add a <strong>Scheduler</strong> to trigger sending the delivery every day. In the example below, the delivery is created every day at 6am.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/recur_delivery2.png" title="recur_delivery2.png" /><p>You can then start the workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/recur_delivery3.png" title="recur_delivery3.png" /></li> 
+  </ol> 
+  <p>For more information, a detailed example of this workflow is presented in <a href="../../workflow/using/sending-a-birthday-email.md">this section</a>.</p> 
+  <note>
+    For the workflows to execute, the technical workflows relating to the campaign process must be started. For more on this, refer to the 
+   <a href="../../campaign/using/setting-up-marketing-campaigns.md#list-of-campaign-process-workflows" target="_blank">List of campaign process workflows</a> section. 
+   <br /> If the approval steps are enabled for the campaign, the deliveries will only be sent once these steps have been confirmed. For more on this, refer to the 
+   <a href="../../campaign/using/setting-up-marketing-campaigns.md#choosing-the-processes-to-be-approved" target="_blank">Choosing the processes to be approved</a> section. 
+   <br /> 
+  </note> 
+  <h2 id="selecting-the-target-population">Selecting the target population</h2> 
+  <p>For each delivery, the campaign manager will define: </p> 
+  <ul> 
+   <li><p>The main target. For more on this, refer to <a href="../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow" target="_blank">Building the main target in a workflow</a> and <a href="../../campaign/using/setting-up-marketing-campaigns.md#selecting-the-target-population" target="_blank">Selecting the target population</a>.</p> </li> 
+   <li><p>The control group. For more on this, refer to <a href="../../campaign/using/setting-up-marketing-campaigns.md#defining-a-control-group" target="_blank">Defining a control group</a>.</p> </li> 
+   <li><p>The seed addresses. For more on this, refer to <a href="../../delivery/using/about-seed-addresses.md">this section</a>.</p> </li> 
+  </ul> 
+  <p>Some of this information is inherited from the template.</p> 
+  <note> 
+   <p> Campaign templates are presented in <a href="../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates" target="_blank">Campaign templates</a>.<br /> </p> 
+  </note> 
+  <h3 id="selecting-the-target-population">Selecting the target population</h3> 
+  <p>To build the delivery target, you can define filtering criteria for the recipients in the database. This recipient selection mode is presented in the <a href="../../delivery/using/identifying-target-populations.md">Sending Messages</a> section.</p> 
+  <h4 id="example--delivering-to-a-group-of-recipients">Example: delivering to a group of recipients</h4> 
+  <p>You can import a population into a list, then target this list in deliveries. </p> 
+  <p>To do this, edit the concerned delivery and click the <strong>To</strong> link to change the targeted population.</p> 
+  <p>In the <strong>Main target</strong> tab, select the <strong>Defined via the database</strong> option and click <strong>Add</strong> to select recipients.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_target_group_add.png" title="s_user_target_group_add.png" /> 
+  <p>Choose <strong>A list of recipients</strong> and click <strong>Next</strong> to select it.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_target_group_next.png" title="s_user_target_group_next.png" /> 
+  <h3 id="building-the-main-target-in-a-workflow">Building the main target in a workflow</h3> 
+  <p>The main target of a delivery can also be defined in the targeting workflow: this graphical environment lets you build a target using queries, tests and operators: union, deduplication, sharing, etc. </p> 
+  <p>The <a href="../../workflow/using/executing-a-workflow.md#architecture">Automating with workflows</a> guide includes a detailed description of how the workflow module operates.</p> 
+  <note>
+    In the same campaign, you cannot set up more than 28 workflows. Past this limit, additional workflows are not visible in the interface and can generate errors. 
+   <br /> 
+  </note> 
+  <h4 id="creating-a-targeting-workflow">Creating a targeting workflow</h4> 
+  <p>Targeting can be created via a combination of filtering conditions in a graphical sequence in a workflow. You can create populations and sub-populations which will be targeted according to your requirements. To display the workflow editor, click the <strong>Targeting and workflows</strong> tab in the campaign dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_edit_op_wf_link.png" title="s_ncs_user_edit_op_wf_link.png" /> 
+  <p>The target population is extracted from the Adobe Campaign database via one or more queries placed in a workflow. To learn how to build a query, refer to <a href="../../workflow/using/designing-queries.md">this section</a>.</p> 
+  <p>You can launch queries and share populations via boxes such as Union, Intersection, Sharing, Exclusion, etc.</p> 
+  <p>Select the objects from the lists to the left of the workspace and link them to construct the target.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_edit_op_wf_tab_a.png" title="s_ncs_user_edit_op_wf_tab_a.png" /> 
+  <p>In the diagram, link up the targeting and scheduling queries required for target construction in the diagram. You can execute the targeting while construction is in progress in order to check the population extracted from the database.</p> 
+  <note> 
+   <p> Exemples and procedure for defining queries are presented in <a href="../../workflow/using/designing-queries.md">this section</a>.<br /> </p> 
+  </note> 
+  <p>The left-hand section of the editor contains a library of graphical objects representing activities. The first tab contains the targeting activities, and the second tab contains the flow-control activities, which are used occasionally to coordinate targeting activities.</p> 
+  <p>The targeting workflow execution and formatting functions are accessible via the diagram editor toolbar.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_campaign_segmentation05.png" title="s_user_campaign_segmentation05.png" /> 
+  <note> 
+   <p> The activities available to build the diagram as well as all display and layout features are detailed in the <a href="../../workflow/using/executing-a-workflow.md#architecture">Automating with workflows</a> guide.<br /> </p> 
+  </note> 
+  <p>You can create several targeting workflows for a single campaign. To add a workflow:</p> 
+  <ol> 
+   <li><p> Go to the upper left-hand section of the workflow creation zone, right-click, and select <strong>Add</strong>. You can also use the <strong>New</strong> button located above this zone.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_a_wf.png" title="s_ncs_user_add_a_wf.png" /></li> 
+   <li><p>Select the <strong>New workflow</strong> template and name this workflow.</p> </li> 
+   <li><p>Click <strong>OK</strong> to confirm creation of the workflow, and then create the diagram for this workflow.</p> </li> 
+  </ol> 
+  <h4 id="executing-a-workflow">Executing a workflow</h4> 
+  <p>Targeting workflows can be launched manually via the <strong>Start</strong> button in the toolbar, provided that you have the appropriate rights.</p> 
+  <p>The targeting can be programmed for automatic execution according to a schedule (scheduler) or an event (external signal, file import, etc.).</p> 
+  <p>The actions related to executing the targeting workflow (launch, stop, pause, etc.) are <strong>asynchronous</strong> processes: the command is saved and will take effect as soon as the server is available to apply it.</p> 
+  <p>The toolbar icons let you take action concerning the execution of the targeting workflow.</p> 
+  <ul> 
+   <li><p>Start or restart</p> 
+    <ul> 
+     <li><p>The <strong>Start</strong> icon lets you launch the targeting workflow. When you click on this icon, all activities without an input transition are activated (except end point jumps).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_start.png" title="s_user_segmentation_start.png" /><p>The server takes the request into account, as shown by its status:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_start_status.png" title="s_user_segmentation_start_status.png" /><p>The process status changes to <strong>Started</strong>.</p> </li> 
+     <li><p>You can restart the targeting workflow via the appropriate toolbar icon. This command may be useful if the <strong>Start</strong> icon is not available, for example when targeting workflow stopping is in progress. In this case, click the <strong>Restart</strong> icon to anticipate the restart. The server takes the request into account, as its status shows:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_restart_status.png" title="s_user_segmentation_restart_status.png" /><p>The process then enters <strong>Started</strong> status.</p> </li> 
+    </ul></li> 
+   <li><p>Stop or pause</p> 
+    <ul> 
+     <li><p>The toolbar icons let you stop or pause a targeting workflow in progress.</p> <p>When you click <strong>Pause</strong>, operations in progress <strong>are not</strong> paused, but no other activity is launched until the next restart.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_pause.png" title="s_user_segmentation_pause.png" /><p>The server takes the command into account, as its status shows: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_pause_status.png" title="s_user_segmentation_pause_status.png" /><p>You can also pause a targeting workflow automatically when its execution reaches a particular activity. To do this, right-click the activity from which targeting workflow is to be paused, and select <strong>Enable but do not execute</strong>. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_donotexecute.png" title="s_user_segmentation_donotexecute.png" /><p>This configuration is shown by a special icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_pause_activity.png" title="s_user_segmentation_pause_activity.png" /> 
+      <note> 
+       <p> This option is useful during advanced targeting campaign design and test phases.<br /> </p> 
+      </note><p>Click <strong>Start</strong> to resume execution.</p> </li> 
+     <li><p>Click the <strong>Stop</strong> icon to stop the execution in progress.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_stop.png" title="s_user_segmentation_stop.png" /><p>The server takes the command into account, as its status shows: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_stop_status.png" title="s_user_segmentation_stop_status.png" /></li> 
+    </ul><p>You can also stop a targeting workflow automatically when the execution reaches an activity. To do this, right-click the activity from which targeting workflow will be stopped, and select <strong>Do not activate</strong>. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_donotactivate.png" title="s_user_segmentation_donotactivate.png" /><img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_unactivation.png" title="s_user_segmentation_unactivation.png" /><p>This configuration is shown by a special icon.</p> 
+    <note> 
+     <p> This option is useful during advanced targeting campaign design and test phases.<br /> </p> 
+    </note></li> 
+   <li><p>Unconditional stop</p> <p>In the Explorer, select <strong>Administration &gt; Production &gt; Object created automatically &gt; Campaign workflows</strong> to access and act on every campaign workflows.</p> <p>You can unconditionally stop your workflow by clicking the <strong>Actions</strong> icon and selecting <strong>Unconditional</strong> stop. This action terminates your campaign workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_stop_unconditional.png" title="s_user_segmentation_stop_unconditional.png" /></li> 
+  </ul> 
+  <h3 id="defining-a-control-group">Defining a control group</h3> 
+  <p>A control group is a population which will not receive the delivery; it is used to track post-delivery behavior and campaign impact by making a comparison with the behavior of target population, which has received the delivery.</p> 
+  <p>The control group can be extracted from the main target and/or come from a specific group or query.</p> 
+  <h4 id="activating-the-control-group-for-a-campaign">Activating the control group for a campaign</h4> 
+  <p>You can define a control group at campaign level, in which case the control group will be applied to each delivery of the campaign concerned.</p> 
+  <ol> 
+   <li><p>Edit the campaign concerned and click the <strong>Edit</strong> tab.</p> </li> 
+   <li><p>Click <strong>Advanced campaign settings</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_edit_op_target.png" title="s_ncs_user_edit_op_target.png" /></li> 
+   <li><p>Select the <strong>Enable and edit control group configuration</strong> option.</p> </li> 
+   <li><p>Click <strong>Edit...</strong> to configure the control group.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_edit_op_general_tab_exe_target.png" title="s_ncs_user_edit_op_general_tab_exe_target.png" /></li> 
+  </ol> 
+  <p>The configuration procedure is presented in <a href="../../campaign/using/setting-up-marketing-campaigns.md#extracting-the-control-group-from-the-main-target" target="_blank">Extracting the control group from the main target</a> and <a href="../../campaign/using/setting-up-marketing-campaigns.md#adding-a-population" target="_blank">Adding a population</a>.</p> 
+  <h4 id="activating-the-control-group-for-a-delivery">Activating the control group for a delivery</h4> 
+  <p>You can define a control group at delivery level, in which case the control group will be applied to each delivery of the campaign concerned.</p> 
+  <p>By default, the control group configuration defined at the campaign level applies to every delivery of that campaign. You can, however, adapt the control group for an individual delivery.</p> 
+  <note> 
+   <p> If you have defined a control group for a campaign, and you also configure it for a delivery linked to this campaign, only the control group defined for the delivery will be applied.<br /> </p> 
+  </note> 
+  <ol> 
+   <li><p>Edit the delivery concerned and then click the <strong>To</strong> link in the <strong>Email parameters</strong> section.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_edit_op_target_del.png" title="s_ncs_user_edit_op_target_del.png" /></li> 
+   <li><p>Click the <strong>Control group</strong> tab and then select <strong>Enable and edit control group configuration</strong>.</p> </li> 
+   <li><p>Click <strong>Edit...</strong> to configure the control group</p> </li> 
+  </ol> 
+  <p>The configuration procedure is presented in <a href="../../campaign/using/setting-up-marketing-campaigns.md#extracting-the-control-group-from-the-main-target" target="_blank">Extracting the control group from the main target</a> and <a href="../../campaign/using/setting-up-marketing-campaigns.md#adding-a-population" target="_blank">Adding a population</a>.</p> 
+  <h4 id="extracting-the-control-group-from-the-main-target">Extracting the control group from the main target</h4> 
+  <p>You can extract recipients from the main target of the delivery. In this case, recipients will be taken from the target of delivery actions affected by this configuration. This extraction can be random or can be the result of sorting the recipients. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_extract_from_target_population.png" title="s_ncs_user_extract_from_target_population.png" /> 
+  <p>To extract a control group, enable the control group for the campaign or delivery and select one of the following options: <strong>Activate random sampling</strong> or <strong>Keep only the first records after sorting</strong>. </p> 
+  <ul> 
+   <li><p><strong>Activate random sampling</strong>: this option applies random sampling to the recipients in the targeted population. If you then set the threshold to 100, the control group will be made up of 100 recipients selected randomly from the targeted population. The random sampling depends on the database engine. </p> </li> 
+   <li><p><strong>Keep only the first records after sorting</strong>: this option enables you to define a limitation based on one or more sorting orders. If you select the <strong>Age</strong> field as a sorting criterion and then define 100 as a threshold, the control group will be made up of the 100 youngest recipients. For instance, it could be interesting to define a control group that includes recipients who make few purchases, or recipients who make frequent purchases, and to compare their behavior with that of the contacted recipients.</p> </li> 
+  </ul> 
+  <p>Click <strong>Next</strong> to define the sorting order (if necessary) and select the recipient limitation mode.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_edit_op_target_param.png" title="s_ncs_user_edit_op_target_param.png" /> 
+  <p>This configuration is equivalent to a sharing activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. Refer to the <a href="../../workflow/using/executing-a-workflow.md#architecture">this section</a> for more information. </p> 
+  <h4 id="adding-a-population">Adding a population</h4> 
+  <p>You can define a new population to be used as a control group. This population can come from a group of recipients or you can create it via a specific query.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_to_target_population.png" title="s_ncs_user_add_to_target_population.png" /> 
+  <note> 
+   <p> Adobe Campaign query editor is presented in <a href="../../workflow/using/designing-queries.md">this section</a>.<br /> </p> 
+  </note> 
+  <h2 id="checking-and-approving-deliveries">Checking and approving deliveries</h2> 
+  <p>Campaign lets you set up approval processes for the main stages of the marketing campaign, in collaborative mode. </p> 
+  <p>For direct mail deliveries, Adobe Campaign operators can view the extraction file before it is sent to the router, and if necessary they can change the format and re-launch extraction. See <a href="../../campaign/using/setting-up-marketing-campaigns.md#approving-an-extraction-file" target="_blank">Approving an extraction file</a>.</p> 
+  <p>For each campaign you can approve the delivery target, contents (for more on this, refer to <a href="../../campaign/using/setting-up-marketing-campaigns.md#approving-content" target="_blank">Approving content</a>), and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a Web connection. See <a href="../../campaign/using/setting-up-marketing-campaigns.md#approving-processes" target="_blank">Approving processes</a>.</p> 
+  <p>When these validation phases are complete, the delivery can be launched. See <a href="../../campaign/using/setting-up-marketing-campaigns.md#starting-a-delivery" target="_blank">Starting a delivery</a>.</p> 
+  <note> 
+   <p> For further information about approval modes and tracking, see <a href="../../campaign/using/setting-up-marketing-campaigns.md#approval-process" target="_blank">Approval process</a>.<br /> </p> 
+  </note> 
+  <h3 id="approving-processes">Approving processes</h3> 
+  <h4 id="overview">Overview</h4> 
+  <p>The stages which require approval appear on the campaign dashboard (via the console of the web interface). They also appear in the delivery tracking table and on the delivery dashboard.</p> 
+  <p>At this point, the status of the campaign is <strong>To validate</strong>.</p> 
+  <note> 
+   <p> </p> 
+   <ul> 
+    <li> <p>To select the processes that will be subject to approval, modify the campaign template. For more on this, refer to <a href="../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates" target="_blank">Campaign templates</a>.</p> </li> 
+    <li> <p>Also refer to the section on the <a href="../../campaign/using/setting-up-marketing-campaigns.md#approval-process" target="_blank">Approval process</a>.</p> </li> 
+   </ul> 
+   <p></p> 
+  </note> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_edit_del_to_validate.png" title="s_ncs_user_edit_del_to_validate.png" /> 
+  <note> 
+   <p> In a targeting workflow, if an error linked to a configuration issue occurs during message preparation, the <strong>Restart message preparation</strong> link is shown on the dashboard. Correct the error and click this link to restart message preparation while bypassing the targeting stage.<br /> </p> 
+  </note> 
+  <p>For each delivery in the campaign, you can approve the following processes:</p> 
+  <ul> 
+   <li><p>Targeting, content and budget</p> <p>When the <strong>Enable target approval</strong>, <strong>Enable content approval</strong> or <strong>Enable budget approval</strong> options are selected in the job approval settings window, the relevant links are shown in the campaign dashboard for the concerned deliveries.</p> 
+    <note> 
+     <p> Budget approval is only available if targeting approval is enabled in the approval settings window. The link for budget approval is only displayed once the target has been analyzed. Also, this link is displayed along with the link for target approval. <br /> </p> 
+    </note><p>If the <strong>Assign content editing</strong> or <strong>External content approval</strong> options are selected in the approval settings window, the dashboard will show the <strong>Available content</strong> and <strong>External content approval</strong> links.</p> <p>Content approval lets you access the proofs sent.</p> </li> 
+   <li><p>Extraction approval (direct mail delivery)</p> <p>When <strong>Enable extraction approval</strong> is selected in the approval settings window, the extracted file must be approved before the router can be notified.</p> <p>An <strong>Approve content</strong> link is available on the campaign dashboard as shown below:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_edit_file_valid.png" title="s_ncs_user_edit_file_valid.png" /><p>Extraction files can be previewed via the approval box, and then accepted or rejected.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_edit_file_valid_preview_file.png" title="s_ncs_user_edit_file_valid_preview_file.png" /> 
+    <note> 
+     <p> The extraction file preview concerns a data sample only. The entire output file is not loaded.<br /> </p> 
+    </note></li> 
+   <li><p>Approving associated deliveries</p> <p>The <strong>Enable individual approval of each associated delivery</strong> option is used for one main delivery associated with secondary deliveries. By default, this option is not selected so that an overall approval of the main delivery can be performed. If this option is selected, each delivery must be approved individually.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_task_valid_associate.png" title="s_ncs_user_task_valid_associate.png" /></li> 
+  </ul> 
+  <h4 id="choosing-the-processes-to-be-approved">Choosing the processes to be approved</h4> 
+  <p>The approval phases are defined for the template associated with the campaign. You must select the elements to be approved from the template and specify the Adobe Campaign operators who will be responsible for these approvals. For more on this, refer to <a href="../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates" target="_blank">Campaign templates</a>.</p> 
+  <note> 
+   <p> The approval configuration for the campaign or campaign template will be applied to all future deliveries linked to this campaign. Any configuration changes will not be applied to previous deliveries.<br /> </p> 
+  </note> 
+  <p>This information can be overridden for each campaign and each delivery.</p> 
+  <p>For a campaign, click the <strong>Edit &gt; Properties</strong> tab, then the <strong>Advanced campaign settings...</strong> link, and finally the <strong>Approvals</strong> sub-tab to access the approvals configuration page. </p> 
+  <p>You can select and deselect the processes to approve and appoint Adobe Campaign operators in charge of approval. These can be individual operators, a group of operators, or a list of operators. </p> 
+  <p>To select a list of operators, click the <strong>Edit...</strong> link to the right of the field designating the first reviewer and add as many operators as necessary, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_add_operator.png" title="s_user_validation_add_operator.png" /> 
+  <note> 
+   <p> </p> 
+   <ul> 
+    <li> <p>If a list of reviewers is defined, a job is approved as soon as one reviewer has accepted it. The relevant approval link is then no longer offered in the dashboard. When the sending of notifications is enabled, if another reviewer clicks the approval link in the notification message, they are notified that another operator has already approved the job.</p> </li> 
+    <li> <p>You can define an approval schedule for the campaign in the lower section of the reviewer editing window. By default, reviewers have three days starting from the submission date to approve a process. It's possible to configure a reminder which is automatically sent to the operators concerned before the approval deadline.</p> </li> 
+    <li> <p>You can add reminders from this section.</p> </li> 
+   </ul> 
+   <p></p> 
+  </note> 
+  <p>For each delivery, click the <strong>Audit</strong> button and the <strong>Approvals</strong> tab to view and edit approval dates and automatic reminders.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_edit_del_valid.png" title="s_ncs_user_edit_del_valid.png" /> 
+  <note> 
+   <p> This tab is available once the content approval process has been started.<br /> </p> 
+  </note> 
+  <h3 id="approving-content">Approving content</h3> 
+  <note>
+    To approve a content, a Proof cycle is mandatory. Proofs let you approve the display of information, personalization data and check that links are working. For more on creating a proof and its lifecycle, refer to the 
+   <a href="../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof">Sending Messages</a> section. 
+   <br /> The content approval functionalities detailed below are designed to be added to the proof delivery. 
+   <br /> 
+  </note> 
+  <p>It's possible to configure a content approval cycle. To do this, select the <strong>Enable content approval</strong> option in the approval settings window. The main steps of the content approval cycle are:</p> 
+  <ol> 
+   <li><p>After creating a new delivery, the campaign manager clicks the <strong>Submit content</strong> link on the campaign dashboard to start the content approval cycle. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_validation_submit_content_validation.png" title="s_ncs_user_validation_submit_content_validation.png" /> 
+    <note> 
+     <p> If the <strong>Enable the sending of proofs</strong> option (for email deliveries) or <strong>Enable the sending and approval of proofs</strong> (for direct mail deliveries) options were selected in the approval settings window, proofs will be sent automatically.<br /> </p> 
+    </note></li> 
+   <li><p>A notification email is sent to the person responsible for content, who can choose whether or not to approve it:</p> 
+    <ul> 
+     <li><p>via the notification email:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_del_content_valid_bat_notif.png" title="s_ncs_user_del_content_valid_BAT_notif.png" /> 
+      <note> 
+       <p> The notification email contains a link to the proofs already sent, and possibly to a rendering of the message for the various webmails if the <strong>Deliverability</strong> option is enabled for this instance.<br /> </p> 
+      </note></li> 
+    </ul> 
+    <ul> 
+     <li><p>via the console or web interface, delivery tracking, the delivery dashboard or the campaign dashboard:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_validation_content_bat_op.png" title="s_ncs_user_validation_content_BAT_op.png" /> 
+      <note> 
+       <p> This campaign dashboard lets you view the list of proofs that have been sent, by clicking the <strong>Inbox rendering...</strong> link. To view their content, click the <strong>Detail</strong> icon to the right of the list.<br /> </p> 
+      </note></li> 
+    </ul></li> 
+   <li><p>A notification email is sent to the person responsible for the campaign telling them whether or not the content has been approved. </p> 
+    <note> 
+     <p> The person responsible for the campaign can re-start the content approval cycle at any time. To do this, click the link on the <strong>Content status</strong> line of the campaign dashboard (at delivery level), then click <strong>Reset content approval to submit it again</strong>. <br /> </p> 
+    </note></li> 
+  </ol> 
+  <h4 id="assign-content-editing">Assign content editing</h4> 
+  <p>This option lets you define someone in charge of content editing, such as a webmaster. If the <strong>Assign content editing</strong> option is selected in the approval settings window, several approval steps are added between delivery creation and delivery of the notification email to the person in charge of content: </p> 
+  <ol> 
+   <li><p>After creating a new delivery, the person responsible for the campaign clicks the <strong>Submit content editing</strong> link in the campaign dashboard to start the content editing cycle. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_validation_submit_content_edition.png" title="s_ncs_user_validation_submit_content_edition.png" /></li> 
+   <li><p>The person responsible for content editing will receive an email telling them that the content is available. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_validation_submit_content_notif.png" title="s_ncs_user_validation_submit_content_notif.png" /></li> 
+   <li><p>They can then log on to the console, open the delivery and edit it using a simplified wizard to change the subject, HTML and text content, and send proofs.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_content_edition.png" title="s_user_validation_content_edition.png" /> 
+    <note> 
+     <p> If the <strong>Enable the sending of proofs</strong> option (for email deliveries) or <strong>Enable the sending and approval of proofs</strong> (for direct mail deliveries) options were selected in the approval settings window, proofs will be sent automatically.<br /> </p> 
+    </note></li> 
+   <li><p>Once the person in charge of content editing has finished making any changes to the delivery content, they can make the content available. </p> <p>To do this, they can:</p> 
+    <ul> 
+     <li><p> click the <strong>Available content</strong> link via the Adobe Campaign console.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_validation_submit_content_available.png" title="s_ncs_user_validation_submit_content_available.png" /></li> 
+     <li><p>click the link in the notification message, then approve content availability.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_validation_submit_content_available2.png" title="s_ncs_user_validation_submit_content_available2.png" /><p>The operator can add a comment before submitting the content to the person in charge of the campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_validation_submit_content_available3.png" title="s_ncs_user_validation_submit_content_available3.png" /><p>The notification message lets the reviewer approve or reject the content.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_validation_submit_content_available4.png" title="s_ncs_user_validation_submit_content_available4.png" /></li> 
+    </ul></li> 
+  </ol> 
+  <h4 id="external-content-approval">External content approval</h4> 
+  <p>This option lets you define an external operator in charge of approving delivery rendering, such as brand communication consistency, rates, etc. When the <strong>External content approval</strong> option is selected in the approval settings window, several approval steps are added between content approval and the delivery of the notification to the person in charge of the campaign:</p> 
+  <ol> 
+   <li><p>The external content manager receives a notification email telling them that the content has been approved and requesting external approval.</p> </li> 
+   <li><p>The notification email contains links to the proofs sent, which lets you view delivery rendering, and a button for approving or rejecting the delivery content. </p> 
+    <note> 
+     <p> These links are only available if one or more proofs have been sent. Otherwise, delivery rendering is only available via the console or the web interface.<br /> </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_external_content.png" title="s_user_validation_external_content.png" /></li> 
+  </ol> 
+  <h3 id="approving-an-extraction-file">Approving an extraction file</h3> 
+  <p>For offline deliveries, Adobe Campaign generates an extraction file which, depending on how it is set up, is sent to the router. Its content depends on the export template used. </p> 
+  <p>When the content, targeting and budget have been approved, the delivery changes to <strong>Extraction pending</strong> until the extraction workflow for the campaigns is launched. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_waiting_file_extraction.png" title="s_ncs_user_waiting_file_extraction.png" /> 
+  <p>On the extraction request date, the extraction file is created and the delivery status changes to <strong>File to approve</strong>. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_file_extract_to_valid.png" title="s_ncs_user_file_extract_to_valid.png" /> 
+  <p>You can view the content of the extracted file (by clicking its name), approve it or, if necessary, change the format and re-launch the extraction using the links on the dashboard.</p> 
+  <p>Once the file has been approved, you can send the notification e-mail to the router. For more on this, refer to <a href="../../campaign/using/setting-up-marketing-campaigns.md#starting-an-offline-delivery" target="_blank">Starting an offline delivery</a></p> 
+  <h2 id="starting-a-delivery">Starting a delivery</h2> 
+  <p>Once all approvals have been granted, the delivery is ready to be started. The delivery procedure then depends on the type of delivery. For e-mail or mobile channel deliveries, see <a href="../../campaign/using/setting-up-marketing-campaigns.md#starting-an-online-delivery" target="_blank">Starting an online delivery</a>, and for direct mail deliveries, see <a href="../../campaign/using/setting-up-marketing-campaigns.md#starting-an-offline-delivery" target="_blank">Starting an offline delivery</a>.</p> 
+  <h3 id="starting-an-online-delivery">Starting an online delivery</h3> 
+  <p>Once all approval requests have been granted, the delivery status changes to <strong>Pending confirmation</strong> and can be started by an operator. Where appropriate, the Adobe Campaign operator (or group of operators) appointed as reviewer to start the delivery is notified that a delivery is ready to be started.</p> 
+  <note> 
+   <p> If a specific operator or group of operators is designated for starting a delivery in the delivery's properties, you can also allow the operator in charge of the delivery to confirm the send. To do this, activate the <strong>NMS_ActivateOwnerConfirmation</strong> option by entering <strong>1</strong> as the value. The options are managed from the <strong>Administration</strong> &gt; <strong>Platform</strong> &gt; <strong>Options</strong> node in the Adobe Campaign explorer.<br /> To deactivate this option, enter <strong>0</strong> as the value. The send confirmation process will then function as default: only the operator or group of operators designated for the send in the delivery properties (or an administrator) will be able to confirm and carry out the send.<br /> </p> 
+  </note> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_edit_del_to_start_from_del.png" title="s_ncs_user_edit_del_to_start_from_del.png" /> 
+  <p>The information also appears on the campaign dashboard. The <strong>Confirm delivery</strong> link lets you start the delivery.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_edit_del_to_start.png" title="s_ncs_user_edit_del_to_start.png" /> 
+  <p>A confirmation message lets you secure this action.</p> 
+  <h3 id="starting-an-offline-delivery">Starting an offline delivery</h3> 
+  <p>Once all approvals have been granted, the delivery status changes to <strong>Pending extraction</strong>. The extraction files are created via a special workflow which, in a default configuration, starts automatically when a direct mail delivery is pending extraction. When a process is in progress, it is displayed in the dashboard and can be edited via its link.</p> 
+  <note> 
+   <p> The technical workflows concerning campaign processes are presented in <a href="../../campaign/using/setting-up-marketing-campaigns.md#list-of-campaign-process-workflows" target="_blank">List of campaign process workflows</a>.<br /> </p> 
+  </note> 
+  <p><strong>Step 1 - File approval</strong></p> 
+  <p>Once the extraction workflow has been successfully executed, the extraction file must be approved (provided that extraction file approval was selected in the delivery settings). </p> 
+  <p>For more on this, refer to <a href="../../campaign/using/setting-up-marketing-campaigns.md#approving-an-extraction-file" target="_blank">Approving an extraction file</a>.</p> 
+  <p><strong>Step 2 - Approval of the message to the service provider</strong></p> 
+  <ul> 
+   <li><p>Once the extraction file is approved, you can generate the proof of the router notification e-mail. This e-mail message is constructed based on a delivery template. It must be approved.</p> 
+    <note> 
+     <p> This step is only available if the sending and approval of proofs was enabled in the approvals window.<br /> </p> 
+    </note></li> 
+   <li><p>Click the <strong>Send a proof</strong> button to create the proofs.</p> <p>The proof target must be defined beforehand.</p> <p>You can create as many proofs as necessary. These are accessed via the <strong>Direct mail...</strong> link of the delivery detail.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_file_notif_submit_proof.png" title="s_ncs_user_file_notif_submit_proof.png" /></li> 
+   <li><p>The delivery status changes to <strong>To submit</strong>. Click the <strong>Submit proofs</strong> button to start the approval process.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_file_notif_submit_proof_validation.png" title="s_ncs_user_file_notif_submit_proof_validation.png" /></li> 
+   <li><p>The delivery status changes to <strong>Proof to validate</strong> and a button lets you accept or reject approval.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_file_notif_supplier_link.png" title="s_ncs_user_file_notif_supplier_link.png" /><p>You can either accept or reject this approval, or return to the extraction step.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_file_notif_supplier_link_confirm.png" title="s_ncs_user_file_notif_supplier_link_confirm.png" /></li> 
+   <li><p> The extraction file is sent to the router and the delivery is finished.</p> </li> 
+  </ul> 
+  <h3 id="calculation-of-costs-and-stocks">Calculation of costs and stocks</h3> 
+  <p>The file extraction launches two operations: budget calculation and stock calculation. The budget entries are updated.</p> 
+  <ul> 
+   <li><p>The <strong>Budget</strong> tab lets you manage the budgets for the campaign. The total of the cost entries is shown in the <strong>Calculates cost</strong> field of the campaign's main tab and the program it belongs to. The amounts are also reflected in the campaign budget.</p> <p>The real cost will eventually be calculated from information supplied by the router. Only messages actually sent are invoiced.</p> </li> 
+   <li><p>Stocks are defined in the <strong>Administration &gt; Campaign management &gt; Stocks</strong> node of the tree, and cost structures in the <strong>Administration&gt;Campaign management&gt;Service providers</strong> node.</p> <p>Stock lines are visible in the stock section. To define the initial stock, open a stock line. The stock is decremented each time a delivery takes place. You can define an alert level and notifications.</p> </li> 
+  </ul> 
+  <note> 
+   <p> For further information about cost calculations and stock management, see <a href="../../campaign/using/providers--stocks-and-budgets.md" target="_blank">Providers, stocks and budgets</a>.<br /> </p> 
+  </note> 
+  <h3 id="execution-tracking">Execution tracking</h3> 
+  <p>You can look up the status of deliveries by clicking the <strong>Deliveries</strong>, which is accessible via the Adobe Campaign home page. See <a href="../../campaign/using/setting-up-marketing-campaigns.md#delivery-tracking" target="_blank">Delivery tracking</a>. </p> 
+  <p>Information concerning the processes executed in a campaign are collected in the <strong>Edit &gt; Audit </strong> tab of the campaign. There, you can view the list of deliveries in the campaign. See <a href="../../campaign/using/setting-up-marketing-campaigns.md#tracking-a-campaign" target="_blank">Tracking a campaign</a>.</p> 
+  <h3 id="list-of-campaign-process-workflows">List of campaign process workflows</h3> 
+  <p>By default, the following workflows are available in the <strong>Campaign process</strong> folder but are created when the <strong>Campaign</strong> or <strong>MRM</strong> modules are installed:</p> 
+  <ul> 
+   <li><p><strong>Stocks: orders and warnings</strong> (internal name:<strong>stockMgt</strong>): this workflow launches stock calculation on the order lines and manages warning thresholds. </p> <p>It is installed by default with the <strong>Campaign</strong> module.</p> </li> 
+   <li><p><strong>Processes on service providers</strong> (internal name: <strong>supplierMgt</strong>): this workflow launches service provider processes (email to the router and post-processing) once deliveries are approved. </p> <p>It is installed by default with the <strong>Campaign</strong> module.</p> </li> 
+   <li><p><strong>Processes on campaigns</strong> (internal name: <strong>operationMgt</strong>): this workflow manages processes on marketing campaigns (targeting, file extraction, etc.); It also creates the workflows related to recurring and periodic campaigns. </p> <p>It is installed by default with the <strong>Campaign</strong> module.</p> </li> 
+   <li><p><strong>Processes on deliveries within campaigns</strong> (internal name: <strong>deliveryMgt</strong>): this workflow sends approval notifications and reminders. </p> <p>It is installed by default with the <strong>Campaign</strong> module.</p> </li> 
+   <li><p><strong>Task notification</strong> (internal name: <strong>taskMgt</strong>: this workflow lets you send notification messages regarding tasks in marketing campaigns. </p> <p>It is installed by default with the <strong>MRM</strong> module.</p> </li> 
+   <li><p><strong>Marketing resource notification</strong> (internal name: <strong>assetMgt</strong>): this workflow manages notifications linked to approving and publishing marketing resources. </p> <p>It is installed by default with the <strong>MRM</strong> module.</p> </li> 
+   <li><p><strong>Processes on distributed marketing</strong> (internal name: <strong>centralLocalMgt</strong>): this workflow executes processes linked to using the distributed marketing module. It launches local campaign creation and manages notifications linked to orders and campaign package availability. </p> <p>It is installed by default with the <strong>Central/local marketing campaign management</strong> module.</p> </li> 
+   <li><p><strong>Cost calculation</strong> (internal name: <strong>budgetMgt</strong>): this workflow launches the calculation of expenditures and costs on budgets, plans, programs, campaigns, deliveries and tasks. </p> <p>It is installed by default with the <strong>Campaign</strong> module.</p> </li> 
+  </ul> 
+  <note>
+    These workflows MUST be started in order for the campaign processes to be executed at a campaign level. 
+   <br /> 
+  </note> 
+  <h2 id="managing-associated-documents">Managing associated documents</h2> 
+  <p>You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). To link documents with a campaign, see <a href="../../campaign/using/setting-up-marketing-campaigns.md#adding-documents" target="_blank">Adding documents</a>.</p> 
+  <note>
+    This mode is reserved for small documents. 
+   <br /> 
+  </note> 
+  <p>In a campaign you can also refer to other items, such as promotional coupons, special offers relating to a specific branch or store, etc. When these elements are included in an outline, they can be associated with a direct mail delivery. See <a href="../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline" target="_blank">Associating and structuring resources linked via a delivery outline</a>.</p> 
+  <note> 
+   <p> If you are using MRM, you can also manage a library of marketing resources that are available for several participants for collaborative work. See <a href="../../campaign/using/managing-marketing-resources.md" target="_blank">Managing marketing resources</a>.<br /> </p> 
+  </note> 
+  <h3 id="adding-documents">Adding documents</h3> 
+  <p>Documents can be associated at the campaign level (contextual documents) or the program level (general documents). </p> 
+  <p>The <strong>Documents</strong> tab contains:</p> 
+  <ul> 
+   <li><p>The list of all documents required for the content (template, images, etc.) that can be downloaded locally by Adobe Campaign operators with suitable rights,</p> </li> 
+   <li><p>Documents containing information for the router, if any.</p> </li> 
+  </ul> 
+  <p>The documents are linked to the program or the campaign via the <strong>Edit &gt; Documents</strong> tab. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_add_document.png" title="s_ncs_user_op_add_document.png" /> 
+  <p>You can also add a document to a campaign via the link offered in its dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/add_a_document_in_op.png" title="add_a_document_in_op.png" /> 
+  <p>Click the <strong>Details</strong> icon to view the content of a file and to add information:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_add_document_details.png" title="s_ncs_user_op_add_document_details.png" /> 
+  <p>In the dashboard, documents associated with the campaign are grouped in the <strong>Document(s)</strong> section, as in the following example:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_edit_document.png" title="s_ncs_user_op_edit_document.png" /> 
+  <p>They can also be edited and modified from this view.</p> 
+  <h3 id="associating-and-structuring-resources-linked-via-a-delivery-outline">Associating and structuring resources linked via a delivery outline</h3> 
+  <note> 
+   <p> Delivery outlines are essentially used in the context of direct mail campaigns.<br /> </p> 
+  </note> 
+  <p>A delivery outline denotes a structured set of elements (documents, branches/stores, promotional coupons, etc.) created in the company and for a particular campaign. </p> 
+  <p> These elements are grouped in delivery outlines, and a particular delivery outline will be associated with a delivery; it will be referenced in the extraction file sent to the <strong>service provider</strong> in order to be attached to the delivery. For example, you can create a delivery outline that refers to a branch and the marketing brochures it uses. </p> 
+  <p>For a campaign, delivery outlines let you structure external elements to be associated with the delivery according to certain criteria: related branch, promotional offer granted, invitation to a local event, etc.</p> 
+  <h4 id="creating-an-outline">Creating an outline</h4> 
+  <p>To create an outline, click the <strong>Delivery outlines</strong> sub-tab in the <strong>Edit &gt; Documents</strong> tab of the concerned campaign.</p> 
+  <note> 
+   <p> If this tab is not present, then this feature is not available for this campaign. Refer to the campaign template configuration. <br /> For more on this, refer to <a href="../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates" target="_blank">Campaign templates</a>.<br /> </p> 
+  </note> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_composition_link.png" title="s_ncs_user_op_composition_link.png" /> 
+  <p>Next, click <strong>Add a delivery outline</strong> and create the hierarchy of outlines for the campaign:</p> 
+  <ol> 
+   <li><p>Right-click the root of the tree and select <strong>New &gt; Delivery outlines</strong>.</p> </li> 
+   <li><p>Right-click the outline you have just created and select <strong>New &gt; Item</strong> or <strong>New &gt; Personalization fields</strong>.</p> </li> 
+  </ol> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_add_composition.png" title="s_ncs_user_op_add_composition.png" /> 
+  <p>An outline can contain items and personalization fields, resources and offers:</p> 
+  <ul> 
+   <li><p>Items can be physical documents, for example, which are referenced and described here and will be attached to the delivery. </p> </li> 
+   <li><p>Personalization fields enable you to create personalization elements related to deliveries rather than recipients. It is thus possible to create values to be used in deliveries for a specific target (welcome offer, a discount, etc.) They are created in Adobe Campaign and imported into the outline via the <strong>Import personalization fields...</strong> link. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_add_composition_field.png" title="s_ncs_user_op_add_composition_field.png" /><p>They can also be created directly in the outline by clicking the <strong>Add</strong> icon to the right of the list zone.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_add_composition_field_button.png" title="s_ncs_user_op_add_composition_field_button.png" /></li> 
+   <li><p>The resources are marketing resources generated in the marketing resource dashboard accessed via the <strong>Resources</strong> link of the <strong>Campaigns</strong> universe.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_ovv.png" title="s_ncs_user_mkg_resource_ovv.png" /> 
+    <note> 
+     <p> For more on marketing resources, refer to <a href="../../campaign/using/managing-marketing-resources.md" target="_blank">Managing marketing resources</a>.<br /> </p> 
+    </note></li> 
+  </ul> 
+  <h4 id="selecting-an-outline">Selecting an outline</h4> 
+  <p>For each delivery, you can select the outline to associate from the section reserved for the extraction outline, as in the following example:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_select_composition.png" title="s_ncs_user_op_select_composition.png" /> 
+  <p>The selected outline is then displayed in the lower section of the window. It can be edited using the icon to the right of the field or altered using the drop-down list:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_select_composition_b.png" title="s_ncs_user_op_select_composition_b.png" /> 
+  <p>The <strong>Summary</strong> tab of the delivery also displays this information:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_select_composition_c.png" title="s_ncs_user_op_select_composition_c.png" /> 
+  <h4 id="extraction-result">Extraction result</h4> 
+  <p>In the file extracted and sent to the service provider, the name of the outline and, where appropriate, its characteristics (cost, description, etc.) are added to the content according to the information in the export template associated with the service provider.</p> 
+  <p>In the following example, the label, estimated cost, and description of the outline associated with the delivery will be added to the extraction file. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_composition_in_export_template.png" title="s_ncs_user_op_composition_in_export_template.png" /> 
+  <p>The export model must be associated with the service provider selected for the delivery concerned. See <a href="../../campaign/using/setting-up-marketing-campaigns.md#creating-service-providers-and-their-cost-structures" target="_blank">Creating service providers and their cost structures</a>.</p> 
+  <note> 
+   <p> For more on exports, refer to the <a href="../../platform/using/generic-imports-and-exports.md">Getting Started</a> section.<br /> </p> 
+  </note> 
+  <h2 id="approval-process">Approval process</h2> 
+  <note> 
+   <p> You need to check that the reviewers have the correct rights for approving. Also check that their security zone is correctly defined.<br /> </p> 
+  </note> 
+  <p>Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes of the campaign: targeting, content, budget, extraction, and sending a proof.</p> 
+  <p>Notification e-mails are sent to the Adobe Campaign operators who are designated reviewers to inform them of an approval request.</p> 
+  <p>The approval procedure is presented in <a href="../../campaign/using/setting-up-marketing-campaigns.md#checking-and-approving-deliveries" target="_blank">Checking and approving deliveries</a>.</p> 
+  <note> 
+   <p> Only the delivery owner can start a delivery. In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the <strong>Delivery start:</strong> field.<br /> Also refer to <a href="../../campaign/using/setting-up-marketing-campaigns.md#selecting-reviewers" target="_blank">Selecting reviewers</a>.<br /> </p> 
+  </note> 
+  <h3 id="operating-principle-">Operating principle</h3> 
+  <p>For example, the standard e-mail for budget approval will be as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_link_in_mail.png" title="s_user_validation_link_in_mail.png" /> 
+  <p>The reviewer operators can then choose whether or not to approve the concerned step.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_page_confirm.png" title="s_user_validation_page_confirm.png" /> 
+  <p>Once the operator approves their choice, approval or rejection of the job is forwarded to the delivery dashboard. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_link_in_op_board.png" title="s_user_validation_link_in_op_board.png" /> 
+  <p>The information is also available in the approval logs of the campaign (Accessed via the <strong>Edit &gt;Tracking&gt;Approvals</strong> tab):</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_log_in_op_edit_tab.png" title="s_user_validation_log_in_op_edit_tab.png" /> 
+  <p> These notifications are sent to the operators affected to each process for which approval was enabled. </p> 
+  <p>Approvals can be enabled for the campaign template, for each campaign individually, or for a delivery.</p> 
+  <p>All jobs requiring approval are selected in the campaign template (<strong>Properties</strong> &gt; <strong>Advanced campaign settings...</strong> &gt; <strong>Approvals</strong> tab), as are the operators in charge of approval (they will receive notifications, unless this option is not enabled). For more on this, refer to <a href="../../campaign/using/setting-up-marketing-campaigns.md#approving-processes" target="_blank">Approving processes</a>. </p> 
+  <p>These settings can be overridden for each campaign created using this template, and individually for each campaign delivery: click the <strong>Properties</strong> button, then the <strong>Approvals</strong> tab.</p> 
+  <p>In the following example, the delivery content will not require approvals:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_select_process_from_del.png" title="s_user_validation_select_process_from_del.png" /> 
+  <h3 id="selecting-reviewers">Selecting reviewers</h3> 
+  <p>For each type of approval, the operators or operator groups in charge of approval are selected from the drop-down list in the delivery. Additional operators can be added using the <strong>Edit...</strong> link. This window also lets you edit the approval deadline. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_add_operator.png" title="s_user_validation_add_operator.png" /> 
+  <p>If no reviewer is specified, the campaign manager will be responsible for approval and will receive the notifications. The campaign manager is specified in the <strong>Edit &gt; Properties</strong> tab of the campaign: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_op_manager_field.png" title="s_user_op_manager_field.png" /> 
+  <note> 
+   <p> All other Adobe Campaign operators with <strong>Administrator</strong> rights can also approve jobs, but they will not receive notifications.<br /> By default, the campaign manager cannot carry out the approval or start the deliveries if approval operators have been defined. You can modify this behavior and authorize the campaign manager to approve/start deliveries by creating the<strong>NmsCampaign_Activate_OwnerConfirmation</strong> option with <strong>1</strong> as a value.<br /> </p> 
+  </note> 
+  <h3 id="approval-modes">Approval modes</h3> 
+  <h4 id="approval-via-the-dashboard">Approval via the dashboard</h4> 
+  <p> To approve a job via the console or the web interface, click the appropriate link on the campaign dashboard. Jobs can also be approved via delivery tracking or via the delivery dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_from_console.png" title="s_user_validation_from_console.png" /> 
+  <p>Check the information to be approved, choose whether to accept or reject approval and, if necessary, enter a comment. Click <strong>Ok</strong> to save.</p> 
+  <note> 
+   <p> If a process has already been approved by another operator, the approval link is not available.<br /> </p> 
+  </note> 
+  <h4 id="approval-via-notification-messages">Approval via notification messages</h4> 
+  <p>Click the link available in the notification message (see <a href="../../campaign/using/setting-up-marketing-campaigns.md#notifications" target="_blank">Notifications</a>). You will be asked to identify yourself, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation__log_in.png" title="s_user_validation__log_in.png" /> 
+  <p>Select <strong>Accept</strong> or <strong>Reject</strong> and enter a comment if necessary.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_save_target_validation.png" title="s_user_validation_save_target_validation.png" /> 
+  <p>Click <strong>Validate</strong>.</p> 
+  <note> 
+   <p> If warnings were raised during the process, a warning is displayed in the notification.<br /> </p> 
+  </note> 
+  <h4 id="approval-tracking">Approval tracking</h4> 
+  <p>The information is available in several places:</p> 
+  <ul> 
+   <li><p>In the campaign approval log, <strong>Approvals</strong> sub-tab of the <strong>Edit &gt; Tracking</strong> tab: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_log_from_op.png" title="s_user_validation_log_from_op.png" /></li> 
+   <li><p>In the campaign delivery log, <strong>Deliveries</strong> sub-tab of the <strong>Edit &gt; Tracking</strong> tab:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_log_from_delivery_list.png" title="s_user_validation_log_from_delivery_list.png" /></li> 
+   <li><p>The approval status for each delivery can be viewed by clicking the <strong>Hide/show log</strong> option of the <strong>Summary</strong> tab.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_log_delivery.png" title="s_user_validation_log_delivery.png" /></li> 
+   <li><p>This information can also be accessed via the <strong>Tracking &gt; Approvals</strong> tab of each delivery:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_log_from_exe_tab.png" title="s_user_validation_log_from_exe_tab.png" /></li> 
+  </ul> 
+  <note> 
+   <p> Once an operator has approved or rejected a job, the other reviewing operators can no longer act on the approval.<br /> </p> 
+  </note> 
+  <h4 id="automatic-and-manual-approval">Automatic and manual approval</h4> 
+  <p>When creating a targeting workflow, if approval is automatic (default mode), Adobe Campaign displays the approval link or sends a notification as soon as an approval is required.</p> 
+  <p>To choose the approval mode (manual or automatic), click the <strong>Edit &gt; Properties</strong> tab of the campaign or campaign template, then click <strong>Advanced campaign settings... </strong>and finally the <strong>Approvals</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_select_mode.png" title="s_user_validation_select_mode.png" /> 
+  <note> 
+   <p> The selected approval mode will apply to all deliveries of the campaign.<br /> </p> 
+  </note> 
+  <p>When a targeting workflow is being built, manual approval lets you avoid creating approval links or sending notifications automatically. The campaign dashboard then offers a <strong>Submit targeting for approval</strong> link to launch the approval process manually. </p> 
+  <p>A confirmation messages lets you authorize approvals on the jobs selected for this delivery.</p> 
+  <p>The approval buttons are then displayed on the campaign dashboard (for this delivery), on the delivery dashboard and in delivery tracking. If notifications are enabled, they will be sent in parallel. </p> 
+  <p>This method of enabling approvals lets you work on targeting without sending spurious notifications to reviewers.</p> 
+  <h3 id="notifications">Notifications</h3> 
+  <p>Notifications are specific email messages sent to reviewers to inform them that a process is pending approval. When the operator clicks the link in the message, an authentication page appears and, after logging in, the operator can view the information and approve or reject the job. A comment can also be entered in the approval window.</p> 
+  <p>The content of notification emails can be personalized. See <a href="../../campaign/using/setting-up-marketing-campaigns.md#notification-content" target="_blank">Notification content</a>.</p> 
+  <h4 id="enabling-disabling-notification">Enabling/Disabling Notification</h4> 
+  <p>By default, notification messages are sent if the approval of the related job is enabled in the campaign template, the campaign, or the delivery. Notifications can, however, be disabled in order to authorize approvals from the console only. </p> 
+  <p>To do this, edit the approval window of the campaign or campaign template (<strong>Edit &gt; Properties</strong> &gt; <strong>Advanced campaign settings...</strong> &gt; <strong>Approvals</strong> tab) and select <strong>Do not enable notification sending</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_validation_notif_desactivate.png" title="s_user_validation_notif_desactivate.png" /> 
+  <h4 id="notification-content">Notification content</h4> 
+  <p>Notification content is defined in a specific template: <strong>Notification of validations for the marketing campaign</strong>. This template is saved in the <strong>Administration&gt;Campaign management&gt;Technical delivery templates</strong> folder of the Adobe Campaign tree. </p> 
+  <h2 id="tracking">Tracking</h2> 
+  <h3 id="tracking-a-campaign">Tracking a campaign</h3> 
+  <p>For each campaign, the <strong>Tracking</strong> tab lets you view all jobs and their statuses. The following information is accessible via this sub-tab:</p> 
+  <ul> 
+   <li><p>The activity journal shows the jobs carried out on the campaign in general: workflow creation or start, approval, extraction, etc.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_edit_exe_tab_a.png" title="s_ncs_user_op_edit_exe_tab_a.png" /></li> 
+   <li><p>The <strong>Deliveries</strong> sub-tab contains all the deliveries of the campaign which can be edited from this view. To do so, select the delivery and click the <strong>Detail</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_edit_exe_tab_b.png" title="s_ncs_user_op_edit_exe_tab_b.png" /></li> 
+   <li><p>The <strong>Tasks</strong> sub-tab groups all tasks linked to the campaign. This view lets you edit them or delete them. Tasks are available with the MRM application. They are detailed in <a href="../../campaign/using/creating-and-managing-tasks.md" target="_blank">Creating and managing tasks</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_edit_exe_tab_e.png" title="s_ncs_user_op_edit_exe_tab_e.png" /></li> 
+   <li><p>The workflows created to generate messages for service providers are displayed in the <strong>Jobs on service providers</strong> sub-tab. Click the <strong>Detail</strong> icon to display the selected workflow. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_edit_exe_tab_d.png" title="s_ncs_user_op_edit_exe_tab_d.png" /></li> 
+  </ul> 
+  <h3 id="delivery-tracking">Delivery tracking</h3> 
+  <p>The list of deliveries is available via the <strong>Deliveries</strong> link of the Campaign node.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_del_state_from_homepage.png" title="s_ncs_user_op_del_state_from_homepage.png" /> 
+  <p>For each delivery, this list lets you access the key indicators: status, number of recipients targeted, linked campaigns, etc.</p> 
+  <p>To check the status of a delivery, edit it and view its dashboard and tabs.</p> 
+  <note> 
+   <p> Information concerning delivery details is available in the <a href="../../delivery/using/about-message-tracking.md">Sending Messages</a> section.<br /> </p> 
+  </note> 
+  <h2 id="campaign-templates">Campaign templates</h2> 
+  <p>Campaign templates are centralized in the <strong>Resources &gt; Templates &gt; Campaign templates</strong> node. A default template is supplied as standard. It lets you create a new campaign using all the available modules (Documents, Tasks, Seed addresses, etc.), but the modules offered depend on your rights and the configuration of your Adobe Campaign platform.</p> 
+  <h3 id="creating-or-duplicating-a-campaign-template">Creating or duplicating a campaign template</h3> 
+  <p>To create a new template, carry out the following steps:</p> 
+  <ol> 
+   <li><p>Open Campaign <strong>Explorer</strong>.</p> </li> 
+   <li><p>In <strong>Resources &gt; Templates &gt; Campaign templates</strong>, click <strong>New</strong> in the toolbar above the list of templates. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/create_campaign_template_1.png" title="create_campaign_template_1.png" /></li> 
+   <li><p>Enter the label of your new campaign template.</p> </li> 
+   <li><p>Click <strong>Save</strong> and reopen your template.</p> </li> 
+   <li><p>In the <strong>Edit </strong>tab, enter the <strong>Internal name</strong> and other values, if needed.</p> </li> 
+   <li><p>Select <strong>Advanced campaign settings</strong> to add a workflow to your campaign template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/create_campaign_template_2.png" title="create_campaign_template_2.png" /></li> 
+   <li><p>Change the <strong>Targeting and workflows</strong> value to <strong>Yes</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/create_campaign_template_3.png" title="create_campaign_template_3.png" /></li> 
+   <li><p>In the <strong>Targeting and workflows</strong> tab, click <strong>Add a workflow...</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/create_campaign_template_4.png" title="create_campaign_template_4.png" /></li> 
+   <li><p>Complete the <strong>Label</strong> field and click <strong>Ok</strong>.</p> </li> 
+   <li><p>Create your workflow according to your requirements.</p> </li> 
+   <li><p>Click <strong>Save</strong>. Your template is now ready to be used in a campaign.</p> </li> 
+  </ol> 
+  <p>You can also duplicate the default template to re-use and adapt its configuration.</p> 
+  <p>The various tabs and sub-tabs of the campaign template allow you to access its settings, described in <a href="../../campaign/using/setting-up-marketing-campaigns.md#general-configuration" target="_blank">General configuration</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_new_op_template_duplicate.png" title="s_ncs_user_new_op_template_duplicate.png" /> 
+  <h3 id="configuration-of-the-available-modules">Configuration of the available modules</h3> 
+  <h4 id="module-selection">Module selection</h4> 
+  <p>The <strong>Advanced campaign settings...</strong> link lets you enable and disable jobs for the campaigns based on this template. Select the functions you want to enable in the campaigns created based on this template.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_tab1.3.png" title="s_ncs_user_op_template_tab1.3.png" /> 
+  <p>If a functionality is not selected, the elements concerning the process (menus, icons, options, tabs, sub-tabs, etc.) will not appear in the interface of the template or in campaigns based on this template. The tabs to the left of the campaign details usually coincide with the processes selected in the template. For example, if <strong>Expenses and objectives</strong> is not selected, the corresponding <strong>Budget</strong> tab will not be shown in campaigns based on this template.</p> 
+  <p>Moreover, shortcuts to the configuration windows are added to the campaign dashboard. When a functionality is enabled, a direct link gives access to it from the campaign dashboard.</p> 
+  <p>For example, with the configuration below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_tab1.4.png" title="s_ncs_user_op_template_tab1.4.png" /> 
+  <p>The following links are displayed in the campaign dashboard (the <strong>Add a task</strong> link is missing):</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_tab1.3ex.png" title="s_ncs_user_op_template_tab1.3ex.png" /> 
+  <p>An only the following tabs will be displayed:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_tab1.4ex.png" title="s_ncs_user_op_template_tab1.4ex.png" /> 
+  <p>However, with this type of configuration:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_tab2.2ex.png" title="s_ncs_user_op_template_tab2.2ex.png" /> 
+  <p>The following links and tabs will be displayed: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_tab2.3ex.png" title="s_ncs_user_op_template_tab2.3ex.png" /> 
+  <h4 id="typology-of-enabled-modules">Typology of enabled modules</h4> 
+  <ul> 
+   <li><p><strong>Control group</strong></p> <p>When this module is selected, an additional tab is added to the advanced settings of the template and the campaigns based on this template. The configuration can be defined via the template or individually for each campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_activate_1.png" title="s_ncs_user_op_template_activate_1.png" /></li> 
+   <li><p><strong>Seed addresses</strong></p> <p>When this module is selected, an additional tab is added to the advanced settings of the template and the campaigns based on this template. The configuration can be defined via the template or individually for each campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_activate_2.png" title="s_ncs_user_op_template_activate_2.png" /></li> 
+   <li><p><strong>Documents</strong></p> <p>When this module is selected, an additional tab is added to the <strong>Edition</strong> tab of the template and the campaigns based on this template. Attached documents can be added from the template or individually for each campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_activate_3.png" title="s_ncs_user_op_template_activate_3.png" /></li> 
+   <li><p><strong>Outline</strong></p> <p>When this module is selected, a <strong>Delivery outlines</strong> sub-tab is added to the <strong>Documents</strong> tab in order to define delivery outlines for the campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_activate_4.png" title="s_ncs_user_op_template_activate_4.png" /></li> 
+   <li><p><strong>Targeting and workflows</strong></p> <p>When you select the <strong>Targeting and workflows</strong> module, a tab is added to let you create one or more workflows for campaigns based on this template. Workflows can also be configured individually for each campaign based on this template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_activate_5.png" title="s_ncs_user_op_template_activate_5.png" /><p>When this module is enabled, a tab is added to the advanced settings of the campaign to define the process execution sequence.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_activate_5a.png" title="s_ncs_user_op_template_activate_5a.png" /></li> 
+   <li><p><strong>Approval</strong></p> <p>If you select the <strong>Approval</strong>, you can select the processes to approve as well as the operators in charge of approvals.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_activate_5b.png" title="s_ncs_user_op_template_activate_5b.png" /></li> 
+   <li><p><strong>Expenditures and targets</strong></p> <p>When this module is selected, a <strong>Budget</strong> tab is added to the details of the template and campaigns based on this template so that the associated budget can be selected.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_activate_7.png" title="s_ncs_user_op_template_activate_7.png" /></li> 
+  </ul> 
+  <h4 id="approval-of-jobs">Approval of jobs</h4> 
+  <p>You may choose whether or not to enable process approval via the <strong>Approvals</strong> tab of the templates advanced settings section. The jobs for which approval is selected must be approved for message delivery to be authorized.</p> 
+  <p>You must associate a reviewer operator or group of operators to each enabled approval.</p> 
+  <h3 id="general-configuration">General configuration</h3> 
+  <h4 id="template-properties">Template properties</h4> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_new_template.png" title="s_ncs_user_op_new_template.png" /> 
+  <p>When you create a campaign template, you need to enter the following information:</p> 
+  <ul> 
+   <li><p>Enter the <strong>label</strong> of the template: this label will be assigned by default to all campaigns created via this template.</p> </li> 
+   <li><p>Select the campaign <strong>nature</strong> from the drop-down list. The values available in this list are those saved in the <strong>natureOp</strong> enumeration. </p> 
+    <note> 
+     <p> For more information on enumerations, refer to the <a href="../../platform/using/managing-enumerations.md">Getting Started</a> section.<br /> </p> 
+    </note></li> 
+   <li><p>Select the <strong>type of campaign</strong>: unique, recurring, or periodic. By default, campaign templates apply to unique campaigns. Recurring and periodic campaigns are detailed here: <a href="../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns" target="_blank">Recurring and periodic campaigns</a>.</p> </li> 
+   <li><p>Specify the duration of the campaign, i.e. the number of days over which the campaign will take place. When creating a campaign based on this template, the campaign start and end dates will be populated automatically.</p> <p>If the campaign is recurrent, you must specify the campaign start and end dates directly in the template. </p> </li> 
+   <li><p>Specify the <strong>related program</strong> of the template: campaigns based on this template will be linked to the selected program.</p> </li> 
+  </ul> 
+  <h4 id="template-execution-parameters">Template execution parameters</h4> 
+  <p>The <strong>Advanced campaign settings...</strong> link lets you configure the advanced options of the template for processing the delivery target (control group, seed addresses, etc.) and the configuration of campaign measurement and workflow execution.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_tab1.2.png" title="s_ncs_user_op_template_tab1.2.png" /> 
+  <h3 id="campaign-reverse-scheduling">Campaign reverse scheduling</h3> 
+  <p>You can create a reverse schedule for a campaign, for instance to prepare an event whose date is known in advance. Campaign templates now let you calculate the start date of a task based on the end date of a campaign.</p> 
+  <p>In the task configuration box, go to the <strong>Implementation schedule</strong> area and check the <strong>The start date is calculated based on the campaign end date</strong> box. (Here, "start date" is the task start date). Go to the <strong>Start</strong> field and enter an interval: the task will start this long before the campaign end date. If you enter a period which is longer than the campaign is set to last, the task will begin before the campaign.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mrm_task_in_template_start_date.png" title="mrm_task_in_template_start_date.png" /> 
+  <p>When you create a campaign using this template, the task start date will be calculated automatically. However, you can always change it later.</p> 
+  <h2 id="recurring-and-periodic-campaigns">Recurring and periodic campaigns</h2> 
+  <p>A recurring campaign is a campaign based on a specific template, whose workflows are configured to be executed according to an associated schedule. The workflows will therefore be recurring within a campaign. The targeting is duplicated on each execution and the various processes and target populations are tracked. It is also possible to execute future targetings in advance, via the coverage period during automatic workflow creation, in order to launch simulations with target estimates.</p> 
+  <p>A periodic campaign is a campaign created automatically according to the execution schedule of its template.</p> 
+  <h3 id="creating-a-recurring-campaign">Creating a recurring campaign</h3> 
+  <p>Recurring campaigns are created from a specific template defining the workflow template to be executed and the execution schedule.</p> 
+  <h4 id="creating-the-campaign-template">Creating the campaign template</h4> 
+  <ul> 
+   <li><p> Create a <strong>Recurring</strong> campaign template.</p> 
+    <note> 
+     <p> It is recommended that you duplicate the default template instead of creating an empty template.<br /> </p> 
+    </note></li> 
+   <li><p>Enter the name of the template and the duration of the campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_recur_tab.png" title="s_ncs_user_op_template_recur_tab.png" /></li> 
+   <li><p>For this type of campaign, a <strong>Schedule</strong> tab is added in order to create the template execution schedule.</p> <p>In this tab, specify the planned execution dates of the campaigns based on this template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_recur_planning.png" title="s_ncs_user_op_template_recur_planning.png" /><p>You can use the schedule creation wizard to fill in all of the execution dates automatically. To do this, click the <strong>Complete the execution schedule...</strong> link located above the table.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_recur_planning_wz.png" title="s_ncs_user_op_template_recur_planning_wz.png" /><p>The configuration mode of the execution schedule coincides with the <strong>Scheduler</strong> object of the Workflow. For more on this, refer to <a href="../../workflow/using/executing-a-workflow.md#architecture">this section</a>.</p> 
+    <note>
+      Execution schedule configuration must be performed carefully to avoid overloading the database. Recurring campaigns duplicate the workflow(s) of their template depending on the specified schedule. The implementation of excessively frequent workflow creation can hinder the operation of the database. 
+     <br /> 
+    </note></li> 
+   <li><p>Specify a value in the <strong>Create in advance for</strong> field in order to create the corresponding workflows for the period indicated.</p> </li> 
+   <li><p>Create the workflow template to be used in campaigns based on this template, with the targeting parameters and one or more generic deliveries. </p> 
+    <note>
+      This workflow must be saved as a recurring workflow template. To do this, edit the workflow properties and select the 
+     <strong>Recurring workflow template</strong> option in the 
+     <strong>Execution</strong> tab. 
+     <br /> 
+    </note></li> 
+  </ul> 
+  <h4 id="create-the-recurring-campaign">Create the recurring campaign</h4> 
+  <p>To create the recurring campaign and execute its workflows according to the schedule defined in the template, apply the following procedure:</p> 
+  <ol> 
+   <li><p>Create a new campaign based on a recurring campaign template.</p> </li> 
+   <li><p>Fill in the workflow execution schedule.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_recur_planning.png" title="s_ncs_user_op_recur_planning.png" /></li> 
+   <li><p>The campaign schedule lets you enter an automatic workflow creation or execution start date for each line.</p> <p>For each line, you can add the following additional options:</p> 
+    <ul> 
+     <li><p><strong>To be approved</strong>: lets you force the delivery approval requests in the workflow</p> </li> 
+     <li><p><strong>To be started</strong>: lets you start the workflow when the start date has been reached.</p> </li> 
+    </ul><p>The <strong>Create in advance for</strong> field lets you create all the workflows covering the period entered.</p> <p>Upon execution of the <strong>Jobs on campaigns</strong> workflow, the dedicated workflows are created based on the occurrences defined in the campaign schedule. A workflow is thus created for each execution date.</p> </li> 
+   <li><p>Recurring workflows are created automatically from the workflow template present in the campaign. They are visible from the <strong>Targeting and workflows</strong> tab of the campaign. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_recur_planning_wfs.png" title="s_ncs_user_op_recur_planning_wfs.png" /><p>The label of a recurring workflow instance consists of its template label and the workflow number, with the # character in between.</p> <p>Workflows created from the schedule are automatically associated with it in the <strong>Workflow</strong> column of the <strong>Schedule</strong> tab. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_recur_planning_wfs_1.png" title="s_ncs_user_op_recur_planning_wfs_1.png" /><p>Each workflow can be edited from this tab.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_recur_planning_wf_edit.png" title="s_ncs_user_op_recur_planning_wf_edit.png" /> 
+    <note> 
+     <p> The start date of the schedule line associated with the workflow is available from a variable of the workflow with the following syntax: <br /> $date(instance/vars/@startPlanningDate) </p> 
+    </note></li> 
+  </ol> 
+  <h3 id="creating-a-periodic-campaign">Creating a periodic campaign</h3> 
+  <p>A periodic campaign is a campaign based on a specific template that lets you create campaign instances based on an execution schedule. Campaign instances are created automatically based on a periodic campaign template, depending on the frequency defined in the template schedule.</p> 
+  <h4 id="creating-the-campaign-template">Creating the campaign template</h4> 
+  <ul> 
+   <li><p>Create a <strong>Periodic</strong> campaign template, preferably by duplicating an existing campaign template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_period_create.png" title="s_ncs_user_op_template_period_create.png" /></li> 
+   <li><p>Enter the properties of the template.</p> 
+    <note>
+      The operator whom the template is assigned to needs to have the appropriate rights to create campaigns in the selected program. 
+     <br /> 
+    </note></li> 
+   <li><p>Create the workflow associated with this template. It will be duplicated in every periodic campaign created by the template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_period_wf.png" title="s_ncs_user_op_template_period_wf.png" /> 
+    <note> 
+     <p> This workflow is a workflow template. It cannot be executed from the campaign template. <br /> </p> 
+    </note></li> 
+   <li><p>Complete its execution schedule as for a recurring campaign template: click the <strong>Add</strong> button and define the start and end dates, or fill in the execution schedule via the link.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_period_planning_add.png" title="s_ncs_user_op_template_period_planning_add.png" /> 
+    <note>
+      Periodic campaign templates create new campaigns according to the schedule defined above. It must therefore be completed carefully, to avoid overloading the Adobe Campaign database. 
+     <br /> 
+    </note></li> 
+   <li><p>Once the execution start date is reached, the matching campaign is created automatically. It takes on all the characteristics of its template.</p> <p>Each campaign can be edited via the template schedule.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_template_period_planning.png" title="s_ncs_user_op_template_period_planning.png" /><p>Each periodic campaign contains the same elements. Once created, it is managed as a standard campaign.</p> </li> 
+  </ul> 
+ </body> 
+</html>

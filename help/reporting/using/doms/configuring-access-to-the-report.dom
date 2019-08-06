@@ -1,0 +1,90 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="light" name="heroGradient" />
+  <meta content="7b089114-0bd4-46aa-bd3a-3cf805a97893" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-08-06T06:59:36.332-0400" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Configuring access to the report" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:reporting" name="cq:tags" />
+  <meta content="Configuring access to the report" name="jcr:title" />
+  <meta content="Configuring access to the report" name="jcr:description" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="e26dee0e-5b20-4de8-8749-a8bd04c93d8b" name="jcr:uuid" />
+ </head>
+ <body>
+  <h2 id="report-display-context">Report display context</h2>
+  <p>Define the display context of the report in the Adobe Campaign platform using the <strong>Display</strong> tab. Access to a report depends on its selection type, display conditions and access authorizations.</p> 
+  <h3 id="selection-type">Selection type</h3>
+  <p>Access to the report can be limited to a specific context or offer space, for instance a delivery, a recipient, a selection of recipients, etc. This access is configured in the <strong>Selection type</strong> section of the <strong>Display</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_visibility_4.png" title="s_ncs_advuser_report_visibility_4.png" />
+  <ul>
+   <li><p><strong>Single selection</strong>: the report is only accessible when a specific entity is selected. </p> </li>
+   <li><p><strong>Multiple selection</strong>: the report is accessed when several entities are selected.</p> </li>
+   <li><p><strong>Global</strong>: the report is accessed via the list of available reports in the Reports universe.</p> </li>
+  </ul>
+  <h3 id="display-sequence">Display sequence</h3>
+  <p>The <strong>Sequence</strong> field lets you enter a numeric value that specifies the display sequence of the report in the list. </p> 
+  <p>By default, reports are displayed by relevance: the value entered in this field lets you sort reports from the most (highest value) to the least (smallest value) relevant. </p> 
+  <p>You can select the scale to be used based on your needs: 1 to 10, 0 to 100, -10 to 10, etc.</p> 
+  <h3 id="display-conditions">Display conditions</h3>
+  <p>You can also condition the display of the report via a query. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_visibility_5.png" title="s_ncs_advuser_report_visibility_5.png" />
+  <p>In the following example, the report is displayed if the main campaign channel is email.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_visibility_6.png" title="s_ncs_advuser_report_visibility_6.png" />
+  <p>This means that if the main channel of the campaign is direct mail, the report won't be available in the campaign reports.</p> 
+  <h3 id="access-authorization">Access authorization</h3>
+  <p>The report can be shared with other operators.</p> 
+  <p>To make the report accessible, select the <strong>Report shared with other operators</strong> option. If this option isn't selected, only the operator who created the report can access the report. </p> 
+  <p>The report can also be shared with specific operators or groups of operators added via the authorizations window.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_visibility_8.png" title="s_ncs_advuser_report_visibility_8.png" />
+  <h3 id="defining-the-filtering-options">Defining the filtering options</h3>
+  <p>The <strong>Reports</strong> universe displays all available reports in the platform and for which the connected operator has an access right.</p> 
+  <p>By default, they are sorted by relevance, but you can apply other types of filters: alphabetical, by age, etc.</p> 
+  <p>You can also filter the display based on the report category:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/report_ovv_select_type.png" title="report_ovv_select_type.png" />
+  <p>To define the category of a report, select it via the <strong>Display</strong> tab, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/report_select_category.png" title="report_select_category.png" />
+  <p>You can enter a new category here, and add it to the list of available categories. The matching enumeration is updated automatically.</p> 
+  <h2 id="creating-a-link-to-a-report-">Creating a link to a report</h2>
+  <p>It's possible to make a report accessible via a specific node of the tree, such as a list, a recipient, a delivery, etc. To do this, simply create a link to the concerned report and specify the entity where you want to make it available.</p> 
+  <p>As an example, we are going to create a link to a report to make it accessible via a list of recipients.</p> 
+  <ol>
+   <li><p>Click <strong>New</strong> and select <strong>Create a link to an existing report</strong> in the report creation wizard.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_link_01.png" title="s_ncs_advuser_report_wizard_link_01.png" /></li>
+   <li><p>Select the report you want to create a link to using the drop-down list. In this example, we're going to select the <strong>Breakdown by country</strong> report.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_link_02.png" title="s_ncs_advuser_report_wizard_link_02.png" /></li>
+   <li><p>Enter a label and select the schema. In this example, we're going to select the recipient lists table. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_link_03.png" title="s_ncs_advuser_report_wizard_link_03.png" /><p>This means that the report will be accessible via any recipients list and that statistics will concern the recipients in the selected list.</p> </li>
+   <li><p>Saving and displaying your report.</p> </li>
+   <li><p>Enter the link key. In this case, the foreign key of the 'Folders' link.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_link_04.png" title="s_ncs_advuser_report_wizard_link_04.png" /></li>
+   <li><p>Publish your report.</p> </li>
+   <li><p>Go to one of your recipient lists and click the <strong>Reports</strong> link: the report you have just created is accessible.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_link_05.png" title="s_ncs_advuser_report_wizard_link_05.png" /></li>
+  </ol>
+  <h2 id="preview-of-the-report">Preview of the report</h2>
+  <p>Before publishing your report, make sure it is displayed correctly in the <strong>Preview</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_preview_01.png" title="s_ncs_advuser_report_preview_01.png" />
+  <p>To display the preview of the report, select the <strong>Global</strong> or the <strong>Selection</strong> option. </p> 
+  <p>These two options are selected based on the display settings of the report. If the display setting is <strong>Global</strong>, you need to select the <strong>Global</strong> preview option. If the display settings are <strong>Single selection</strong> or <strong>Multiple selection</strong>, the <strong>Selection</strong> preview option must be selected.</p> 
+  <p>For more on this, refer to <a href="../../reporting/using/configuring-access-to-the-report.md#report-display-context" target="_blank">Report display context</a>.</p> 
+  <p>Specific settings enable you to control errors. The <strong>_uuid</strong> setting is found in the URL of the report. You can add the <strong>&amp;_preview</strong> or the <strong>&amp;_debug</strong> settings to it.</p> 
+  <p>To learn more about these settings, refer to the <strong>Defning web form properties</strong> section of the <a href="../../web/using/about-web-forms.md">Web forms</a> chapter.</p> 
+  <h2 id="publishing-the-report">Publishing the report</h2>
+  <p>Publishing the report is mandatory in order to share them with other operators and display them in the list of available reports (also refer to <a href="../../reporting/using/configuring-access-to-the-report.md#report-display-context" target="_blank">Report display context</a>). This operation must be carried out again each time the report is changed.</p> 
+  <ol>
+   <li><p>Open the publishing wizard by clicking <strong>Publish</strong> in the toolbar.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_publish_01.png" title="s_ncs_advuser_report_publish_01.png" /></li>
+   <li><p>Click <strong>Start</strong> to publish.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_publish_02.png" title="s_ncs_advuser_report_publish_02.png" /></li>
+   <li><p>Click the <strong>Enlarge</strong> icon to open the report in a web browser.</p> </li>
+  </ol>
+ </body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Sharing audiences with Adobe Experience Cloud" name="jcr:title" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-08-06T06:59:39.716-0400" name="jcr:created" />
+  <meta content="a0ed136b-982d-4931-8f10-9503fdf994b6" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Sharing audiences with Adobe Experience Cloud" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="0246b5ee-8565-41b9-b5d2-ff2c6f824d90" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:integrations" name="primaryAudienceTag" />
+  <meta content="Sharing audiences with Adobe Experience Cloud" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <note>
+   <p> Using this integration requires having IMS implemented. Consult the section about <a href="../../integrations/using/about-adobe-id.md">IMS</a>.<br /> </p> 
+  </note>
+  <p>Adobe Campaign allows you to exchange and share audiences/segments with Adobe Experience Cloud solutions and core services. To do this, you need to integrate <strong>Adobe Campaign</strong> with <strong>People core service</strong> (also known as <strong>Profiles &amp; Audiences core service</strong>) or Adobe Audience Manager. You will then be able to:</p> 
+  <ul>
+   <li><p>Import shared audiences/segments from different Adobe Experience Cloud solutions into Adobe Campaign. Audiences can be imported via lists in Adobe Campaign.</p> </li>
+   <li><p>Export lists in the form of Adobe Experience Cloud shared audiences. These audiences can be used in the different Adobe Experience Cloud solutions that you use. Audiences can be exported after targeting in a workflow, using a dedicated <strong>Update shared audience</strong> activity.</p> </li>
+  </ul>
+  <note>
+    Depending on the type of data, importing audiences in Adobe Campaign may be subject to legal restrictions.
+   <br /> 
+  </note>
+  <p>The integration supports two types of Adobe Experience Cloud IDs:</p> 
+  <ul>
+   <li><p><strong>Visitor ID</strong>: this type of identifier reconciliates Adobe Experience Cloud visitors with Adobe Campaign recipients.</p> </li>
+   <li><p><strong>Declared ID</strong>: this type of identifier reconciliates all types of data with elements from the Adobe Campaign database. It is represented in Adobe Campaign as a predefined reconciliation key.</p> </li>
+  </ul>
+ </body>
+</html>

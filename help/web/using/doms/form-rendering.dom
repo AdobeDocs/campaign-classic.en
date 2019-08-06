@@ -1,0 +1,120 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Form rendering" name="jcr:description" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-08-06T06:59:05.869-0400" name="jcr:created" /> 
+  <meta content="Form rendering" name="navTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="audience:web" name="primaryAudienceTag" /> 
+  <meta content="1b751723-a6a6-4ef4-b213-01cd6a485d82" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="Form rendering" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="4c9b520f-b5dd-4f8e-bcf5-e7f1bde65e46" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <h2 id="selecting-the-form-rendering-template">Selecting the form rendering template</h2> 
+  <p>The form settings enable you to select the template used to generate the pages. To access them, click the <strong>Settings</strong> button in the form detail toolbar, and select the <strong>Rendering</strong> tab. There are a number of templates (style sheets) available by default.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_rendering_select.png" title="s_ncs_admin_survey_rendering_select.png" /> 
+  <p>The bottom section of the editor enables you to view a rendering of the selected template.</p> 
+  <p>The zoom feature lets you edit the selected template.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_render_edit.png" title="s_ncs_admin_survey_render_edit.png" /> 
+  <p>You can modify or override these templates. To do this, click the <strong>Page layout...</strong> link and personalize the information.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_render_edit_param.png" title="s_ncs_admin_survey_render_edit_param.png" /> 
+  <p>You can:</p> 
+  <ul> 
+   <li><p>Change the image used as a logo and adapt its size, </p> </li> 
+   <li><p>Also specify the path for accessing the preview image when users select this rendering template.</p> </li> 
+  </ul> 
+  <p>The <strong>Headers/Footers</strong> tab lets you change the information displayed in the headers and footers of each form page using this template.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_render_edit_header.png" title="s_ncs_admin_survey_render_edit_header.png" /> 
+  <p>Each line of the <strong>Page headers</strong> and <strong>Page footers</strong> section corresponds to a line in the HTML page. Click <strong>Add</strong> to create a new line.</p> 
+  <p>Select an existing line and click the <strong>Detail</strong> button to personalize it.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_render_edit_header_detail.png" title="s_ncs_admin_survey_render_edit_header_detail.png" /> 
+  <p>You can change the content of the line, add borders, and change the font attributes via the relevant tabs. Click <strong>OK</strong> to confirm these changes.</p> 
+  <p>The <strong>Position</strong> fields let you define the position of elements in the page header and footer.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_render_edit_header_position.png" title="s_ncs_admin_survey_render_edit_header_position.png" /> 
+  <note> 
+   <p> Rendering templates are stored in the <strong>Administration &gt; Configuration &gt; Form rendering</strong> node.<br /> For more on this, refer to <a href="../../web/using/form-rendering.md#customizing-form-rendering" target="_blank">Customizing form rendering</a><br /> </p> 
+  </note> 
+  <h2 id="customizing-form-rendering">Customizing form rendering</h2> 
+  <h3 id="changing-the-layout-of-elements">Changing the layout of elements</h3> 
+  <p>You can overload the style sheet for each element of the form (input fields, images, radio buttons, etc.).</p> 
+  <p>To do this, use the <strong>Advanced</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_advanced_tab.png" title="s_ncs_admin_survey_advanced_tab.png" /> 
+  <p>It enables you to define the following properties:</p> 
+  <ul> 
+   <li><p><strong>Label position</strong>: see <a href="../../web/using/form-rendering.md#defining-the-position-of-labels" target="_blank">Defining the position of labels</a>,</p> </li> 
+   <li><p><strong>Label format</strong>: Word wrap or No word wrap,</p> </li> 
+   <li><p><strong>Number of cells</strong>: see <a href="../../web/using/form-rendering.md#positioning-the-fields-on-the-page" target="_blank">Positioning the fields on the page</a>,</p> </li> 
+   <li><p><strong>Horizontal alignment</strong> (Left, Right, Centered) and <strong>Vertical alignment</strong> (High, Low, Middle),</p> </li> 
+   <li><p><strong>Width</strong> of the zone: this can be expressed as a percentage or in ems, points, or pixels (default value),</p> </li> 
+   <li><p>Maximum <strong>Length</strong>: Maximum number of characters allowed (for Text, Number and Password type controls),</p> </li> 
+   <li><p><strong>Lines</strong>: number of lines for a <strong>Multi-line text</strong> type zone,</p> </li> 
+   <li><p><strong>Style inline</strong>: enables you to overload the CSS style sheet with additional settings. These are separated using <strong>;</strong> characters as shown in the example below:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_advanced_tab_inline.png" title="s_ncs_admin_survey_advanced_tab_inline.png" /></li> 
+  </ul> 
+  <h3 id="defining-headers-and-footers">Defining headers and footers</h3> 
+  <p>Fields are sequenced in a tree structure whose root has the same name as the page. Select it to modify the name. </p> 
+  <p>The title of the window must be entered in the <strong>Page</strong> tab of the form property window. You can also add a set content to the page header and footer (this information will be shown on every page). This content is entered in the matching sections of the <strong>Texts</strong> tab, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_titles_config.png" title="s_ncs_admin_survey_titles_config.png" /> 
+  <h3 id="adding-elements-to-html-header">Adding elements to HTML header</h3> 
+  <p>You can enter additional elements to be inserted into the HTML header of a form page. To do this, enter the elements in the <strong>Header</strong> tab of the relevant page.</p> 
+  <p>This lets you reference an icon that will be displayed in the page's title bar, for example.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/webform_header_page_tab.png" title="webform_header_page_tab.png" /> 
+  <h2 id="defining-control-settings">Defining control settings</h2> 
+  <p>When the user fills in the form, a check is automatically carried out on certain fields depending on their format or configuration. This lets you make certain fields mandatory (refer to <a href="../../web/using/form-rendering.md#defining-mandatory-fields" target="_blank">Defining mandatory fields</a>) or check the format of the data entered (refer to <a href="../../web/using/form-rendering.md#checking-data-format" target="_blank">Checking data format</a>). Checks are carried out during page approval (by clicking a link or button which enables an output transition).</p> 
+  <h3 id="defining-mandatory-fields">Defining mandatory fields</h3> 
+  <p>To make certain fields mandatory, select this option when creating the field.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_required_field.png" title="s_ncs_admin_survey_required_field.png" /> 
+  <p>If the user approves this page without having entered the field, the following message will be displayed: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_required_default_msg.png" title="s_ncs_admin_survey_required_default_msg.png" /> 
+  <p>You can personalize this message by clicking the <strong>Personalize this message</strong> link.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_required_custom_msg.png" title="s_ncs_admin_survey_required_custom_msg.png" /> 
+  <p>If the user approves this page without having entered the field, the following message will be displayed: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_required_custom_msg2.png" title="s_ncs_admin_survey_required_custom_msg2.png" /> 
+  <h3 id="checking-data-format">Checking data format</h3> 
+  <p>For form checks whose values are stored in an existing field of the database, the rules for the storage field will be applied.</p> 
+  <p>For form checks whose values are stored in a variable, approval rules depend on the format of the variable.</p> 
+  <p>For example, if you create a <strong>Number</strong> check to store the client number, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_choose_format.png" title="s_ncs_admin_survey_choose_format.png" /> 
+  <p>The user must enter an integer in the form field. </p> 
+  <h2 id="defining-fields-conditional-display">Defining fields conditional display</h2> 
+  <p>You can configure the display of fields on the page to be displayed based on the values chosen by the user. This can apply to one field or a group of fields (when they are grouped in a container). </p> 
+  <p>For each element of the page, the <strong>Visibility</strong> section lets you define the display conditions. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_condition_edit.png" title="s_ncs_admin_survey_condition_edit.png" /> 
+  <p>Conditions can concern the value of database fields or variables.</p> 
+  <p> In the field selection window, you can choose from the following data:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_condition_select.png" title="s_ncs_admin_survey_condition_select.png" /> 
+  <ul> 
+   <li><p>The main tree contains the parameters of the form context. The default parameters are the Identifier (which matches the encrypted identifier of the recipient), Language and Origin. </p> <p>For more on this, refer to this <a href="../../web/using/defining-web-forms-properties.md#form-url-parameters">page</a>.</p> </li> 
+   <li><p>The <strong>Recipients</strong> sub-tree contains the input fields inserted into the form and stored in the database.</p> <p> For more on this, refer to <a href="../../web/using/form-rendering.md#storing-data-in-the-database" target="_blank">Storing data in the database</a>. </p> </li> 
+   <li><p>The <strong>Variables</strong> sub-tree contains the available variables for this form. For more on this, refer to <a href="../../web/using/form-rendering.md#storing-data-in-a-local-variable" target="_blank">Storing data in a local variable</a>.</p> </li> 
+  </ul> 
+  <p>For more on this, refer to the use case available here: <a href="../../web/using/form-rendering.md#displaying-different-options-depending-on-the-selected-values" target="_blank">Displaying different options depending on the selected values</a>.</p> 
+  <p>You can also condition the display of form pages using the <strong>Test</strong> object. For more on this, refer to this <a href="../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display">page</a>.</p> 
+  <h2 id="importing-elements-from-an-existing-form">Importing elements from an existing form</h2> 
+  <p>It's possible to import fields or containers from other Web forms. This lets you create a library of re-usable blocks which will be inserted into forms, such as the address block, the newsletter subscription area, etc.</p> 
+  <p>To import an element into a form, apply the following steps:</p> 
+  <ol> 
+   <li><p>Edit the page which you want to insert one or more elements into, then click <strong>Import an existing block</strong> in the toolbar.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_import_block.png" title="s_ncs_admin_survey_import_block.png" /></li> 
+   <li><p>Select the Web form which contains the fields to import and choose the containers and fields to import.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_import_block_selection.png" title="s_ncs_admin_survey_import_block_selection.png" /> 
+    <note> 
+     <p> The <strong>Edit link</strong> icon to the right of the source form name lets you view the selected Web form.<br /> </p> 
+    </note></li> 
+   <li><p>Click <strong>Ok</strong> to confirm insertion.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_import_block_rendering.png" title="s_ncs_admin_survey_import_block_rendering.png" /></li> 
+  </ol> 
+ </body> 
+</html>

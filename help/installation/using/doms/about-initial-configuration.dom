@@ -1,0 +1,39 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="About initial configuration" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-08-06T06:59:31.661-0400" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:installation" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="916a653a-15f2-4388-8291-92f0affdf0fe" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="eb096954-b1e9-4b05-8831-ebdaf952bdf3" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="seoDescription" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="About initial configuration" name="jcr:description" />
+  <meta content="light" name="heroGradient" />
+  <meta content="About initial configuration" name="jcr:title" />
+ </head>
+ <body>
+  <p>Once the Adobe Campaign installation is complete, you need to configure it to make sure it operates efficiently with your constraints and technical architecture. The steps for configuring an Adobe Campaign instance are detailed in this chapter, in the following sequence:</p> 
+  <ol>
+   <li><p>Creating the instance and the related connection, refer to <a href="../../installation/using/creating-an-instance-and-logging-on.md" target="_blank">Creating an instance and logging on</a>.</p> </li>
+   <li><p>Creating and configuring the database, refer to <a href="../../installation/using/creating-and-configuring-the-database.md" target="_blank">Creating and configuring the database</a>.</p> </li>
+   <li><p>Configuring the Adobe Campaign server, refer to <a href="../../installation/using/campaign-server-configuration.md" target="_blank">Campaign server configuration</a>.</p> </li>
+   <li><p>Deploying the instance, refer to <a href="../../installation/using/deploying-an-instance.md" target="_blank">Deploying an instance</a>.</p> </li>
+  </ol>
+  <p>Configuring the instance implies enabling processes (web, mta, wfserver, etc.) to be started on the server and configuring modules for sending e-mail, for tracking, etc. For each instance, Adobe Campaign processes are activated on the server. For more on this, refer to <a href="../../installation/using/about-initial-configuration.md#enabling-processes" target="_blank">Enabling processes</a>.</p> 
+  <p>Additional configurations can be required for each instance (depending on the modules used, your architecture and your needs) to optimize Adobe Campaign operation.</p> 
+ </body>
+</html>

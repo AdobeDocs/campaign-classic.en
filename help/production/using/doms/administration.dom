@@ -1,0 +1,97 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="2019-08-06T06:59:01.115-0400" name="jcr:created" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="8f784c33-edca-4105-b661-2a7bd1e0a8b2" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="audience:production" name="primaryAudienceTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="Administration" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Administration" name="navTitle" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="711ecb6e-12f6-4c1a-a4e2-73431463dae9" name="jcr:predecessors" /> 
+  <meta content="Administration" name="jcr:description" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <p>Automatic startup of the Adobe Campaign modules (<strong>web</strong>, <strong>mta</strong>, <strong>wfserver</strong>, etc.) is provided by the <strong>nlserver</strong> server. </p> 
+  <p>Installing Adobe Campaign automatically configures the machine so that the <strong>nlserver</strong> service starts up during the boot sequence.</p> 
+  <p>The following commands are used to start up and shut down the Adobe Campaign service manually:</p> 
+  <ul> 
+   <li><p>In Windows: </p> 
+    <ul> 
+     <li><p><strong>net start nlserver6</strong></p> </li> 
+     <li><p><strong>net stop nlserver6</strong></p> </li> 
+    </ul></li> 
+   <li><p>In Linux (as root):</p> 
+    <ul> 
+     <li><p><strong>/etc/init.d/nlserver6 start</strong></p> </li> 
+     <li><p><strong>/etc/init.d/nlserver6 stop</strong></p> </li> 
+    </ul></li> 
+  </ul> 
+  <p>Here is a list of the usual administration commands accessible in Linux (as <strong>Adobe Campaign</strong>):</p> 
+  <ul> 
+   <li><p>Display all started Adobe Campaign modules: <strong>/etc/init.d/nlserver6 pdump</strong> or <strong>/etc/init.d/nlserver6 status</strong></p> 
+    <note> 
+     <p> Adding the <strong>-who</strong> parameter to the <strong>pdump</strong> command lets you collect information on current connections (users and processes).<br /> The <strong>/etc/init.d/nlserver6 status</strong> command (without the "-who" parameter) will return:<br /> </p> 
+     <ul> 
+      <li> <p>0 if all of the processes are being executed.</p> </li> 
+      <li> <p>1 if a process is missing.</p> </li> 
+      <li> <p>2 if no process is being executed.</p> </li> 
+      <li> <p>another value if there is an error.</p> </li> 
+     </ul> 
+     <p></p> 
+    </note></li> 
+   <li><p>Start/stop a multi-instance or mono-instance module (<strong>web</strong>, <strong>trackinglogd</strong>, <strong>syslogd</strong>, <strong>mta</strong>, <strong>wfserver</strong>, <strong>inmail</strong>): </p> <p><strong>nlserver start 
+      <module>
+        [@ 
+       <instance>
+         ] 
+       </instance> 
+      </module></strong></p> <p><strong>nlserver stop 
+      <module>
+        [@ 
+       <instance>
+         ][-immediate] [-noconsole] 
+       </instance> 
+      </module></strong></p> <p>You can also use the <strong>nlserver restart 
+      <module>
+        [@ 
+       <instance>
+         ] 
+       </instance> 
+      </module></strong> command to restart a module.</p> <p>Example:</p> <p><strong>nlserver start web</strong> </p> <p><strong>nlserver start mta@my_instance</strong></p> <p><strong>nlserver stop syslogd</strong></p> <p><strong>nlserver stop wfserver@my_instance</strong></p> <p><strong>nlserver stop web -immediate</strong> </p> <p><strong>nlserver restart web</strong></p> 
+    <note> 
+     <p> </p> 
+     <ul> 
+      <li> <p>If the instance is not specified, the "default" instance will be used.</p> </li> 
+      <li> <p>In the event of an emergency, use the <strong>-immediate</strong> option to force an immediate halt to the process (equivalent to Unix command <strong>kill -9</strong>).</p> </li> 
+      <li> <p>Use the <strong>-noconsole</strong> option to ensure that the module launched will display nothing on the console. Its logs will be written to the disk via the <strong>syslogd</strong> module.</p> </li> 
+      <li> <p>Use the <strong>-verbose</strong> option to display additional information on process actions. </p> <p>Example:</p> <p><strong>nlserver restart web -verbose</strong></p> <p><strong>nlserver start mta@myinstance -verbose</strong></p> <p>This option adds additional logs. We recommend starting the processes again without the <strong>-verbose</strong> option once you have found the desired information, to avoid overloading logs.</p> </li> 
+     </ul> 
+     <p></p> 
+    </note></li> 
+   <li><p>Start up all Adobe Campaign processes (equivalent to starting up the <strong>nlserver6</strong> service): </p> <p><strong>nlserver watchdog -noconsole</strong></p> </li> 
+   <li><p>Shut down all Adobe Campaign processes (equivalent to shutting down the <strong>nlserver6</strong> service): </p> <p><strong>nlserver shutdown</strong></p> </li> 
+   <li><p>Reload the <strong>nlserver web</strong> module configuration (and the web server extension module, where applicable) when the <strong>serverConf.xml</strong> and <strong>config- 
+      <instance>
+        .xml 
+      </instance></strong> files have been edited.</p> <p><strong>nlserver config -reload</strong></p> 
+    <note> 
+     <p> Some configuration changes are not taken into account dynamically; Adobe Campaign must be shut down and then restarted.<br /> </p> 
+    </note></li> 
+  </ul> 
+ </body> 
+</html>

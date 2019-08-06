@@ -1,0 +1,228 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Adobe Campaign workspace" name="jcr:title" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="225d57fd-81f7-4e20-9fc2-adfeaf90453d" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:starting-with-adobe-campaign" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-08-05" name="publishExternalDate" />
+  <meta content="2019-08-06T07:02:29.756-0400" name="jcr:created" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Adobe Campaign workspace" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="1423b0a4-7299-4a0c-8393-310f340339c0" name="jcr:predecessors" />
+  <meta content="Adobe Campaign workspace" name="jcr:description" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:platform" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="seoDescription" />
+ </head>
+ <body>
+  <h2 id="about-adobe-campaign-interface">About Adobe Campaign interface</h2>
+  <p>Once you are connected to the database, you will access the Adobe Campaign home page, which is a dashboard: it is made up of links and shortcuts which let you access capabilities, depending on your installation as well as general platform configurations. </p> 
+  <p>From the central section of the home page, you can use links to access Campaign online documentation portal, forum and the support website.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_user_interface_home.png" title="d_ncs_user_interface_home.png" />
+  <p>The screenshot above is an example of the home page for an Adobe Campaign user. For more on this, watch the <a href="https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html">Adobe Campaign Interface overview video</a>. </p> 
+  <note>
+   <p> Adobe Campaign capabilities available on your instance depend on modules and add-ons installed. Some of them may also not be available, depending on your permissions and specific configurations.<br /> Before installing any module or add-on, you need to check your license agreement or contact your Adobe account executive.<br /> </p> 
+  </note>
+  <h3 id="console-and-web-access">Console and web access</h3>
+  <p>The Adobe Campaign platform is accessible via a console or via an internet browser.</p> 
+  <p>The Web access provides an interface that is similar to the console but with a reduced set of functionalities.</p> 
+  <p>For instance, for a given operator, a campaign will show up with the following options in the console:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/operation_from_console.png" title="operation_from_console.png" />
+  <p>Whereas with Web access, the options will mainly enable viewing:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/operation_from_web.png" title="operation_from_web.png" />
+  <h2 id="navigation-basics">Navigation basics</h2>
+  <h3 id="browsing-pages">Browsing pages</h3>
+  <p>The various functionalities of the platform are broken down into core capabilities: use the links that you see in the top section of the interface to access them. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/overview_home.png" title="overview_home.png" />
+  <p>The list of core capabilities you can access depends on the packages and add-ons you have installed and on your access rights.</p> 
+  <p>Each capability includes a set of functionalities based on task related needs and use context. For instance, the <strong>Profiles and targets</strong> link gets you to the recipient lists, subscription services, existing targeting workflows and the shortcuts for creating these elements.</p> 
+  <p>The lists are available via the <strong>Lists</strong> link in the left-hand section of the <strong>Profiles and Targets</strong> interface.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/recipient_list_overview.png" title="recipient_list_overview.png" />
+  <h3 id="using-tabs">Using tabs</h3>
+  <ul>
+   <li><p>When you click a core capability or a link, the relevant page replaces the current page. To go back to the previous page, click the <strong>Back</strong> button on the toolbar. To return to the home page, click the <strong>Home</strong> button. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_user_interface_back_home_buttons.png" title="d_ncs_user_interface_back_home_buttons.png" /></li>
+   <li><p>In the case of a menu or a shortcut to a display screen (such as a web application, program, delivery, report, etc.), the matching page is displayed in another tab. This enables you to browse from one page to the other using the tabs.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_user_interface_tabs.png" title="d_ncs_user_interface_tabs.png" /></li>
+  </ul>
+  <h3 id="creating-an-element">Creating an element</h3>
+  <p>Each core capability section lets you browse among the available elements. To do this, use the shortcuts in the <strong>Browsing</strong> section. The <strong>Other choices</strong> link lets you access all other pages, regardless of environment. </p> 
+  <p> You can create a new element (delivery, Web application, workflow, etc.) using the shortcuts in the <strong>Create</strong> section on the left of the screen. Use the <strong>Create</strong> button above the list to add new elements to the list. </p> 
+  <p>For example, on the delivery page, use the <strong>Create</strong> button to create a new delivery.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_user_interface_tab_add_del.png" title="d_ncs_user_interface_tab_add_del.png" />
+  <h2 id="using-adobe-campaign-explorer">Using Adobe Campaign explorer</h2>
+  <h3 id="about-adobe-campaign-explorer">About Adobe Campaign explorer</h3>
+  <p>The Adobe Campaign explorer is accessible via the toolbar icon. It lets you access the Adobe Campaign all the Adobe Campaign capabilities, configuration screens and a more detailed view of some of the platform elements.</p> 
+  <p>The <strong>Explorer</strong> workspace is divided into three zones:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_navigation.png" title="s_ncs_user_navigation.png" />
+  <p><strong>1 - Tree</strong>: you can personalize the content of the tree (add, move, or delete nodes). This procedure is intended for expert users only. For more on this, refer to <a href="../../configuration/using/about-navigation-hierarchy.md">this page</a>.</p> 
+  <p><strong>2 - List</strong>: you can filter this list, run searches, add information, or sort data. </p> 
+  <p><strong>3 - Details</strong>: you can display the details of the selected element. The icon in the upper right-hand section lets you display this information in full-screen format.</p> 
+  <h3 id="screen-resolution">Screen resolution</h3>
+  <p>For optimal navigation and usability, Adobe recommends using a minimum screen resolution of 1600x900 pixels. </p> 
+  <note>
+    Resolutions under 1600x900 pixels may not be supported by Adobe Campaign.
+   <br /> 
+  </note>
+  <p>In the <strong>Explorer</strong> workspace, if some parts of the <strong>Details</strong> zone appear to be truncated, expand it using the arrow on top of the zone or click the <strong>Enlarge</strong> button.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_resolution.png" title="s_ncs_user_resolution.png" />
+  <h3 id="browsing-lists">Browsing lists</h3>
+  <p>To browse a list, you can use <strong>the scroll bars</strong> (horizontal and vertical) to scroll through it without changing the record selection, <strong>the mouse wheel</strong>, or <strong>the arrow keys</strong>.</p> 
+  <note>
+   <p> Configuration and personalization of list content are presented in <a href="../../platform/using/adobe-campaign-workspace.md#configuring-lists" target="_blank">Configuring lists</a>.<br /> You can also sort and filter data. See <a href="../../platform/using/filtering-options.md" target="_blank">Filtering options</a>.<br /> </p> 
+  </note>
+  <h3 id="counting-records">Counting records</h3>
+  <p>By default, Adobe Campaign loads the first 200 records of a list. This means that the display does not necessarily show all the records of the table you are viewing. You can run a count of the number of records in the list and load more records.</p> 
+  <p>In the lower right-hand part of the list screen, a <strong>counter</strong> shows how many records have been loaded and the total number of records in the database (after applying any filters):</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_nb_200_0.png" title="s_ncs_user_nb_200_0.png" />
+  <p>If a "<strong>?</strong>" appears instead of the number on the right, click the counter to launch the calculation.</p> 
+  <h3 id="loading-more-records">Loading more records</h3>
+  <p>To load (and therefore display) additional records (200 lines by default) click <strong>Continue loading</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_load_list.png" title="s_ncs_user_load_list.png" />
+  <p>To load all the records, right-click the list and select <strong>Load all</strong>.</p> 
+  <note>
+    Depending on the number of records, the time for loading the full list can be long.
+   <br /> 
+  </note>
+  <h3 id="change-default-number-of-records">Change default number of records</h3>
+  <p>To change the default number of records loaded, click <strong>Configure list</strong> in the bottom right-hand corner of the list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_configure_list.png" title="s_ncs_user_configure_list.png" />
+  <p>In the list configuration window, click "Advanced parameters" (bottom left) and change the number of lines to retrieve.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_configurelist_advancedparam.png" title="s_ncs_user_configurelist_advancedparam.png" />
+  <h3 id="configuring-lists">Configuring lists</h3>
+  <h4 id="add-columns">Add columns</h4>
+  <p>There are two ways to add a column in a list. </p> 
+  <p>You can quickly add a column to a list from the detail of a record. To do this:</p> 
+  <ol>
+   <li><p>From a detail screen, right-click the field you want to display in a column.</p> </li>
+   <li><p>Select <strong>Add in the list</strong>.</p> <p>The column is added to the right of the existing columns.</p> </li>
+  </ol>
+  <p></p> 
+  <p>Another way to add columns, for example if you want to display data which is not displayed on the detail screen, is to use the list configuration window. To do this:</p>
+  <ul> 
+   <li> <p> Click <strong>Configure list</strong> below and to the right of the list.</p> </li> 
+   <li> <p>In the list configuration window, double-click the field to be added in the <strong>Available fields</strong> list in order to add it to the <strong>Output columns</strong>. </p>  </li> 
+   <li> <p>Repeat for each column to be displayed.</p> </li> 
+   <li> <p>Use the arrows to modify the <strong>display order</strong>. The highest column will be on the left in the list of records.</p> </li> 
+   <li> <p>If you need, you can click <strong>Distribution of values</strong> to view the repartition of values for the selected field in the current folder.</p> </li> 
+   <li> <p>Click <strong>OK</strong> to confirm the configuration and display the result.</p> </li> 
+  </ul>
+  <p></p> 
+  <h4 id="create-a-new-column">Create a new column</h4>
+  <p>You can create new columns to display additional fields in the list. To do this:</p> 
+  <ol>
+   <li><p>Click <strong>Configure the list</strong> at below and to the right of the list.</p> </li>
+   <li><p>Click <strong>Add</strong> to display a new field in the list.</p> </li>
+  </ol>
+  <h4 id="remove-a-column">Remove a column</h4>
+  <p>You can mask one or more columns in a list of records using <strong>Configure list</strong> located below and to the right of the list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_configure_list.png" title="s_ncs_user_configure_list.png" />
+  <p>In the list configuration window, select the column to be masked from the <strong>Output columns</strong> zone, and click the delete button.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_removecolumn_icon.png" title="s_ncs_user_removecolumn_icon.png" />
+  <p>Repeat for each column to be masked. Click <strong>OK</strong> to confirm the configuration and display the result.</p> 
+  <h4 id="adjust-column-width">Adjust column width</h4>
+  <p>When a list is active, i.e. at least one line is selected, you can use F9 to adjust the width of the columns so that all the columns can be displayed on screen.</p> 
+  <h4 id="display-sub-folders-records">Display sub-folders records</h4>
+  <p>Lists can display:</p> 
+  <ul>
+   <li><p>Either the records contained in the selected folder only,</p> </li>
+   <li><p>Or the records in the selected folder AND its sub-folders.</p> </li>
+  </ul>
+  <p>To switch from one display mode to the other, click <strong>Display sub-levels</strong> in the toolbar.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_display_children_icon.png" title="s_ncs_user_display_children_icon.png" />
+  <h3 id="saving-a-list-configuration">Saving a list configuration</h3>
+  <p>The list configurations are defined locally at the workstation level. When the local cache is cleared, local configurations are disabled.</p> 
+  <p>By default, the defined display parameters apply to all lists with the corresponding folder type. Thus, when you modify how the list of recipients is displayed from a folder, this configuration will be applied to all the other recipient folders. </p> 
+  <p>It is, however, possible to save more than one configuration to be applied to different folders of the same type. The configuration is saved with the properties of the folder containing the data and can be reapplied. </p> 
+  <p>For example, for a delivery folder, it is possible to configure the following display:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_folder_save_config_1.png" title="s_ncs_user_folder_save_config_1.png" />
+  <p>To save this list configuration so that it can be reused, follow the steps below:</p> 
+  <ol>
+   <li><p> Right click the folder containing the displayed data.</p> </li>
+   <li><p> Select <strong>Properties</strong>.</p> </li>
+   <li><p>Click <strong>Advanced settings</strong> and then specify a name in the <strong>Configuration</strong> field. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_folder_save_config_2.png" title="s_ncs_user_folder_save_config_2.png" /></li>
+   <li><p>Click <strong>OK</strong> and then click <strong>Save</strong>. </p> </li>
+  </ol>
+  <p>You can then apply this configuration to another <strong>Delivery</strong> folder:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_folder_save_config_3.png" title="s_ncs_user_folder_save_config_3.png" />
+  <p>Click <strong>Save</strong> in the folder properties window. The list display is modified to match the specified configuration:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_folder_save_config_5.png" title="s_ncs_user_folder_save_config_5.png" />
+  <h3 id="exporting-a-list">Exporting a list</h3>
+  <p>To export data from a list, you must use an export wizard. To access it, select the elements to be exported from the list, right-click and select <strong>Export...</strong>.</p> 
+  <p>The use of the import and export functions is explained in <a href="../../platform/using/generic-imports-and-exports.md" target="_blank">Generic imports and exports</a>.</p> 
+  <note>
+    Elements from a list must not be exported using the Copy/Paste function.
+   <br /> 
+  </note>
+  <h3 id="sorting-a-list">Sorting a list</h3>
+  <p>Lists can contain a large amount of data. You can sort these data or apply simple or advanced filters. Sorting lets you display data in ascending or descending order. Filters let you define and combine criteria to display selected data only.</p> 
+  <p>Click the column header to apply an ascending or descending sort, or to cancel data sorting. Active sort status and sorting order are indicated by a blue arrow before the column label. A red dash before the column label means that the sort is applied to data indexed from the database. This sorting method is used to optimize sort jobs.</p> 
+  <p>You can also configure sorting or combine sort criteria. To do this, follow the steps below:</p> 
+  <ol>
+   <li><p><strong>Configure list</strong> below and to the right of the list. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_configure_list.png" title="s_ncs_user_configure_list.png" /></li>
+   <li><p>In the list configuration window, click the <strong>Sorting</strong> tab.</p> </li>
+   <li><p>Select the fields to sort and the sort direction (ascending or descending).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_configurelist_sort.png" title="s_ncs_user_configurelist_sort.png" /></li>
+   <li><p>Sort priority is defined by the order of the sort columns. To change the priority, use the appropriate icons to change the order of the columns.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_configurelist_move.png" title="s_ncs_user_configurelist_move.png" /><p>Sort priority does not affect the display of the columns in the list.</p> </li>
+   <li><p>Click <strong>Ok</strong> to confirm this configuration and display the result in the list.</p> </li>
+  </ol>
+  <h3 id="running-a-search">Running a search</h3>
+  <p>You can run a search of the available fields in an editor using the <strong>Search</strong> field located above the list of fields. Press <strong>Enter</strong> on the keyboard or browse the list. The fields that match your search will have bold labels.</p> 
+  <note>
+   <p> You can create filters to display only some of the data in a list. See <a href="../../platform/using/creating-filters.md" target="_blank">Creating filters</a>.<br /> </p> 
+  </note>
+  <h2 id="formats-and-units">Formats and units</h2>
+  <h3 id="date-and-time">Date and time</h3>
+  <p>The language of your Adobe Campaign Classic instance impacts date and time formats.</p> 
+  <p>Language is selected when installing Campaign, and cannot be changed afterwards. You can select: English (US), English (EN), French, German or Japanese. For more on this, refer to <a href="../../installation/using/creating-an-instance-and-logging-on.md">this page</a>.</p> 
+  <p>Main differences between US English and UK English are: </p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> <strong>Formats</strong><br /> </td> 
+     <td> <strong>English (US)</strong><br /> </td> 
+     <td> <strong>English (EN)</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Date<br /> </td> 
+     <td> Week starts on Sunday<br /> </td> 
+     <td> Week starts on Monday<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Short date<br /> </td> 
+     <td> %2M/%2D/%4Y<br /> <strong>ex: 09/25/2018</strong><br /> </td> 
+     <td> %2D/%2M/%4Y<br /> <strong>ex: 25/09/2018</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Short date with time<br /> </td> 
+     <td> %2M/%2D/%4Y %I:%2N:%2S %P<br /> <strong>ex: 09/25/2018 10:47:25 PM</strong><br /> </td> 
+     <td> %2D/%2M/%4Y %2H:%2N:%2S<br /> <strong>ex: 25/09/2018 22:47:25</strong><br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h3 id="add-values-in-an-enumeration">Add values in an enumeration</h3>
+  <p>Using the input fields with a drop-down list, you can enter an enumeration value, which can be stored and then offered as an option in the drop-down list. For example, in the <strong>City</strong> field of the <strong>General</strong> tab of a recipient profile, you can enter London. When you press Enter to confirm this value, a message asks if you want to save this value for the enumeration associated with the field. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email_bat_substitute_email.png" title="s_ncs_user_wizard_email_BAT_substitute_email.png" />
+  <p>If you click <strong>Yes</strong>, this value will be available in the combo box of the relevant field (in this case: <strong>London</strong>).</p> 
+  <note>
+   <p> Enumerations (also known as 'itemized lists') are managed by the administrator via the <strong>Administration &gt; Platform &gt; Enumerations</strong> section. For more on this, refer to <a href="../../platform/using/managing-enumerations.md" target="_blank">Managing enumerations</a>.<br /> </p> 
+  </note>
+  <h3 id="default-units">Default units</h3>
+  <p>In the fields that express a duration (e.g. validity period of the resources of a delivery, approval deadline for a task, etc.), the value can be expressed in the following <strong>units</strong>:</p> 
+  <ul>
+   <li><p><strong>s</strong> for seconds,</p> </li>
+   <li><p><strong>mn</strong> for minutes,</p> </li>
+   <li><p><strong>h</strong> for hours,</p> </li>
+   <li><p><strong>d</strong> for days.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/enter_unit_sample.png" title="enter_unit_sample.png" />
+ </body>
+</html>

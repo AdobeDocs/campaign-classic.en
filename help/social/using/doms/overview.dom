@@ -1,0 +1,38 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Overview" name="jcr:title" />
+  <meta content="Overview" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Overview" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="5398eb8b-2c9c-4c24-9102-84d008da7d4d" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:social" name="primaryAudienceTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-08-06T06:59:45.973-0400" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="092c50c8-15a2-4c98-b8d3-182ae8ab69ab" name="jcr:uuid" />
+ </head>
+ <body>
+  <p>Social Marketing lets you send deliveries to your various Facebook pages and Twitter accounts as opposed to recipient profiles. On Facebook, delivery content is displayed in the form of publications on page walls and will also appear in the news feed of all page fans. On Twitter, delivery content is displayed as tweets and will appear on the home page of account followers. You can also send direct messages to the account followers which you collect. </p> 
+  <note>
+    Adobe Campaign asks that you comply with the terms of service communicated by Facebook and Twitter regarding message delivery.
+   <br /> Before sending publications, you need to comply with the configuration steps described in 
+   <a href="../../social/using/starting-workflows.md" target="_blank">Starting workflows</a>. 
+   <br /> 
+  </note>
+  <p>This section details the elements specific to a Facebook and Twitter delivery. All elements which are identical to email deliveries are detailed in <a href="../../delivery/using/about-email-channel.md">this section</a>. </p> 
+ </body>
+</html>

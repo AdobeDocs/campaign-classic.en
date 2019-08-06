@@ -1,0 +1,152 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="Integration via JavaScript (client side)" name="jcr:title" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="Integration via JavaScript (client side)" name="jcr:description" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="84fdcec2-53e4-4b17-bd82-3ce1d8df6ca9" name="jcr:predecessors" /> 
+  <meta content="2019-08-06T06:59:21.900-0400" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="223b577e-01a0-4164-928a-3e9bcdeee6b3" name="jcr:uuid" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="Integration via JavaScript (client side)" name="navTitle" /> 
+  <meta content="audience:interaction" name="primaryAudienceTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <p>To call the Interaction engine in a web page, insert a call to a JavaScript code directly into the page. This call returns the offer content in a targeted </p> 
+  <div>
+    element. 
+   <p></p> 
+  </div> 
+  <p>Adobe recommends using the JavaScript integration method.</p> 
+  <p>The script calling URL looks like this:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;script&amp;nbsp;id="interactionProposalScript"&amp;nbsp;src="https://&lt;SERVER_URL&gt;/nl/interactionProposal.js?env="&amp;nbsp;type="text/javascript"&gt;&lt;/script&gt; 
+  </codeblock> 
+  <p>The "<strong>env</strong>" parameter receives the internal name of the live environment dedicated to anonymous interactions.</p> 
+  <p>To present an offer, we need to create an environment and an offer space in Adobe Campaign, then configure the HTML page.</p> 
+  <p>The following use cases detail the possible options for integrating offers via JavaScript.</p> 
+  <h2 id="html-mode">HTML mode</h2> 
+  <h3 id="presenting-an-anonymous-offer">Presenting an anonymous offer</h3> 
+  <ol> 
+   <li><p><strong>Preparing the interaction engine</strong></p> <p>Open the Adobe Campaign interface and prepare an anonymous environment.</p> <p>Create an offer space linked to the anonymous environment.</p> <p>Create an offer and its representation linked to the offer space.</p> </li> 
+   <li><p><strong>Content of the HTML page</strong></p> <p>The HTML page must include a </p> 
+    <div>
+      element with an @id attribute with the value of the internal name of the created offer space ("i_internal name space"). The offer will be inserted into this 
+     <div>
+       element by Interaction. 
+      <p></p> 
+     </div> 
+    </div><p>In our example, the @id attribute receives the "i_SPC12" value, where "SPC12" is the internal name of the previously created offer space:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;div&amp;nbsp;id="i_SPC12"&gt;&lt;/div&gt; 
+    </codeblock><p>In our example, the URL for calling the script is as follows ("OE3" is the internal name of the live environment):</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;script&amp;nbsp;id="interactionProposalScript"&amp;nbsp;src="https://instance.adobe.org:8080/nl/interactionProposal.js?env=OE3"&amp;nbsp;type="text/javascript"&gt;&lt;/script&gt; 
+    </codeblock> 
+    <note>
+      The 
+     <script> tag must not be self-closing.&lt;br/&gt; </script> 
+    </note><p>This static call will automatically generate a dynamic call containing all the parameters needed by the Interaction engine.</p> <p>This behavior lets you use several offer spaces on the same page, to be managed by a single call to the engine.</p> </li> 
+   <li><p><strong>Results in the HTML page</strong></p> <p>The content of the offer representation is returned to the HTML page by the Interaction engine:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;div&amp;nbsp;id="banner_header"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;id="i_SPC12"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;table&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;tbody&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;tr&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;td&gt;&lt;h3&gt;Fly&amp;nbsp;to&amp;nbsp;Japan!&lt;/h3&gt;&lt;/td&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/tr&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;tr&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;td&gt;&lt;img&amp;nbsp;width="150px"&amp;nbsp;src="https://instance.adobe.org/res/Track/874fdaf72ddc256b2d8260bb8ec3a104.jpg"&gt;&lt;/td&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;td&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;Discover&amp;nbsp;Japan&amp;nbsp;for&amp;nbsp;2&amp;nbsp;weeks&amp;nbsp;at&amp;nbsp;an&amp;nbsp;unbelievable&amp;nbsp;price!!&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;&lt;b&gt;2345&amp;nbsp;Dollars&amp;nbsp;-&amp;nbsp;All&amp;nbsp;inclusive&lt;/b&gt;&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/tr&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/tbody&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/table&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;script&amp;nbsp;src="https://instance.adobe.org:8080/nl/interactionProposal.js?env=OE3"&amp;nbsp;id="interactionProposalScript"&amp;nbsp;type="text/javascript"&gt;&lt;/script&gt;!!discoiqbr!!&lt;/div&gt; 
+    </codeblock></li> 
+  </ol> 
+  <h3 id="presenting-an-identified-offer">Presenting an identified offer</h3> 
+  <p>To present an offer to an identified contact, the process is similar as the one detailed here: <a href="../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-anonymous-offer" target="_blank">Presenting an anonymous offer</a>. In the content of the web page, you need to add the following script that will identify the contact during the call to the engine: </p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;script&amp;nbsp;type="text/javascript"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;interactionTarget&amp;nbsp;=&amp;nbsp;&lt;contact_identifier&gt;;!!discoiqbr!!&lt;/script&gt;!!discoiqbr!! 
+  </codeblock> 
+  <ol> 
+   <li><p>Go to the offer space that will be called up by the web page, click <strong>Advanced parameters</strong> and add one or more identification keys.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/interaction_htmlmode_001.png" title="interaction_HTMLMode_001.png" /><p>In this example, the identification key is composite since it is based both on the email and the recipient name.</p> </li> 
+   <li><p>During the web page display, the script evaluation lets you pass the recipient ID on to the offer engine. If the ID is composite, the keys are displayed in the same sequence as used in the advanced settings and are separated by a |.</p> <p>In the following example, the contact has logged on to the website and was recognized during the call to the Interaction engine thanks to their email and name.</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;script&amp;nbsp;type="text/javascript"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;interactionTarget&amp;nbsp;=&amp;nbsp;myEmail|myName;!!discoiqbr!!&lt;/script&gt;!!discoiqbr!! 
+    </codeblock></li> 
+  </ol> 
+  <h3 id="using-an-html-rendering-function">Using an HTML rendering function</h3> 
+  <p>To generate the HTML offer representation automatically, you can use a rendering function. </p> 
+  <ol> 
+   <li><p>Go to the offer space and click the <strong>Edit functions</strong> link.</p> </li> 
+   <li><p>Select <strong>Overload the HTML rendering function</strong>.</p> </li> 
+   <li><p>Go to the <strong>HTML rendering</strong> tab and insert the variables that match the fields defined for the offer content in the offer space.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/interaction_htmlmode_002.png" title="interaction_HTMLMode_002.png" /><p>In this example, the offer is displayed in the form of a banner in a web page and is made up of a clickable image and a title that match the fields defined in the offer content.</p> </li> 
+  </ol> 
+  <h2 id="xml-mode">XML mode</h2> 
+  <h3 id="presenting-an-offer">Presenting an offer</h3> 
+  <p>Interaction lets you return an XML node to the HTML page which calls up the offer engine. This XML node can be processed by functions to be developed on the customer side.</p> 
+  <p>The call to the Interaction engine looks like this:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;id="interactionProposalScript"&amp;nbsp;src="https://&lt;SERVER_URL&gt;/nl/interactionProposal.js?env=&amp;cb="&gt;&lt;/script&gt; 
+  </codeblock> 
+  <p>The "<strong>env</strong>" parameter receives the internal name of the live environment.</p> 
+  <p>The "<strong>cb</strong>" parameter receives the name of the function which will read the XML node returned by the engine containing the (callback) proposition(s). This parameter is optional.</p> 
+  <p>The "<strong>t</strong>" parameter receives the value of the target, only for an identified interaction. This parameter can also be passed with the <strong>interactionTarget</strong> variable. This parameter is optional.</p> 
+  <p>The "<strong>c</strong>" parameter receives the list of internal names of the categories. This parameter is optional.</p> 
+  <p>The "<strong>th</strong>" parameter receives the list of themes. This parameter is optional.</p> 
+  <p>The "<strong>gctx</strong>" parameter receives the call data global (context) to the entire page. This parameter is optional.</p> 
+  <p>The returned XML node looks like this:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;propositions&gt;!!discoiqbr!!&amp;nbsp;&lt;proposition&amp;nbsp;id=""&amp;nbsp;offer-id=""&amp;nbsp;weight=""&amp;nbsp;rank=""&amp;nbsp;space=""&amp;nbsp;div=""&gt;&amp;nbsp;//proposition&amp;nbsp;identifiers!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;...XML&amp;nbsp;content&amp;nbsp;defined&amp;nbsp;in&amp;nbsp;Adobe&amp;nbsp;Campaign...!!discoiqbr!!&amp;nbsp;&lt;/proposition&gt;!!discoiqbr!!&amp;nbsp;...!!discoiqbr!!&lt;/propositions&gt; 
+  </codeblock> 
+  <p>The following use case details the configurations to carry out in Adobe Campaign to enable XML mode then show the result of the call to the engine in the HTML page.</p> 
+  <ol> 
+   <li><p><strong>Creating an environment and an offer space</strong></p> <p>For more on creating an environment, refer to <a href="../../interaction/using/live-design-environments.md" target="_blank">Live/Design environments</a>.</p> <p>For more on creating an offer space, refer to <a href="../../interaction/using/creating-offer-spaces.md" target="_blank">Creating offer spaces</a>. </p> </li> 
+   <li><p><strong>Extending the offer schema to add new fields</strong></p> <p>This schema will define the following fields: Title number 2 and price.</p> <p>The name of the schema in the example is <strong>cus:offer</strong></p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;srcSchema&amp;nbsp;_cs="Marketing&amp;nbsp;offers&amp;nbsp;(cus)"&amp;nbsp;created="2013-01-18&amp;nbsp;17:14:20.762Z"&amp;nbsp;createdBy-id="0"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;desc=""&amp;nbsp;entitySchema="xtk:srcSchema"&amp;nbsp;extendedSchema="nms:offer"&amp;nbsp;img="nms:offer.png"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;label="Marketing&amp;nbsp;offers"&amp;nbsp;labelSingular="Marketing&amp;nbsp;offers"&amp;nbsp;lastModified="2013-01-18&amp;nbsp;15:20:18.373Z"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mappingType="sql"&amp;nbsp;md5="F14A7AA009AE1FCE31B0611E72866AC3"&amp;nbsp;modifiedBy-id="0"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="offer"&amp;nbsp;namespace="cus"&amp;nbsp;xtkschema="xtk:srcSchema"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;createdBy&amp;nbsp;_cs="Administrator&amp;nbsp;(admin)"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;modifiedBy&amp;nbsp;_cs="Administrator&amp;nbsp;(admin)"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;img="nms:offer.png"&amp;nbsp;label="Marketing&amp;nbsp;offers"&amp;nbsp;labelSingular="Marketing&amp;nbsp;offer"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="offer"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Content"&amp;nbsp;name="view"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Price"&amp;nbsp;name="price"&amp;nbsp;type="long"&amp;nbsp;xml="true"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Title&amp;nbsp;2"&amp;nbsp;name="title2"&amp;nbsp;type="string"&amp;nbsp;xml="true"/&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;advanced="true"&amp;nbsp;desc="Price&amp;nbsp;calculation&amp;nbsp;script."&amp;nbsp;label="Script&amp;nbsp;price"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="price_jst"&amp;nbsp;type="CDATA"&amp;nbsp;xml="true"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;advanced="true"&amp;nbsp;desc="Title&amp;nbsp;calculation&amp;nbsp;script."&amp;nbsp;label="Script&amp;nbsp;title"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="title2_jst"&amp;nbsp;type="CDATA"&amp;nbsp;xml="true"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+    </codeblock> 
+    <note>
+      Each element needs to be defined twice. CDATA ("_jst") type elements can contain personalization fields. 
+     <br /> Don't forget to update the database structure. For more on this, refer to 
+     <a href="../../configuration/using/updating-the-database-structure.md">this section</a>. 
+     <br /> 
+    </note> 
+    <note> 
+     <p> You can extend the offer schema to add new fields both in batch and unitary mode, and in any format (text, HTML, and XML).<br /> </p> 
+    </note></li> 
+   <li><p><strong>Extending the offer formula to edit new fields and modify an existing field</strong></p> <p>Edit the <strong>Offer (nsm)</strong> input form.</p> <p>In the "Views" section, insert the two new fields with the following content:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;input&amp;nbsp;label="Title&amp;nbsp;2"&amp;nbsp;margin-right="5"&amp;nbsp;prebuildSubForm="false"&amp;nbsp;type="subFormLink"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xpath="title2_jst"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;form&amp;nbsp;label="Edit&amp;nbsp;title&amp;nbsp;2"&amp;nbsp;name="editForm"&amp;nbsp;nothingToSave="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;nolabel="true"&amp;nbsp;toolbarAlign="horizontal"&amp;nbsp;type="jstEdit"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xpath="."&amp;nbsp;xpathInsert="/ignored/customizeTitle2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;container&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;menuId="viewMenuBuilder"&amp;nbsp;options="inbound"&amp;nbsp;type="customizeBtn"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xpath="/ignored/customizeTitle2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/input&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/form&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/input&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;nolabel="true"&amp;nbsp;type="edit"&amp;nbsp;xpath="title2_jst"/&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;label="Price"&amp;nbsp;margin-right="5"&amp;nbsp;prebuildSubForm="false"&amp;nbsp;type="subFormLink"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xpath="price_jst"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;form&amp;nbsp;label="Edit&amp;nbsp;price"&amp;nbsp;name="editForm"&amp;nbsp;nothingToSave="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;nolabel="true"&amp;nbsp;toolbarAlign="horizontal"&amp;nbsp;type="jstEdit"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xpath="."&amp;nbsp;xpathInsert="/ignored/customizePrice"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;container&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;menuId="viewMenuBuilder"&amp;nbsp;options="inbound"&amp;nbsp;type="customizeBtn"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xpath="/ignored/customizePrice"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/input&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/form&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/input&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;colspan="2"&amp;nbsp;label="Prix"&amp;nbsp;nolabel="true"&amp;nbsp;type="number"&amp;nbsp;xpath="price_jst"/&gt; 
+    </codeblock><p>Comment out the destination URL field:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/interaction_xmlmode_form_001.png" title="interaction_XMLMode_form_001.png" /> 
+    <note>
+      The fields of the ( 
+     <input />) form must point to the CDATA type elements defined in the created schema. 
+     <br /> 
+    </note><p>The rendering in the offer representations form looks like this:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/interaction_xmlmode_form.png" title="interaction_XMLMode_form.png" /><p>The <strong>Title 2</strong> and <strong>Price</strong> fields have been added and the <strong>Destination URL</strong> field is no longer displayed.</p> </li> 
+   <li><p><strong>Creating an offer</strong></p> <p>For more on creating offers, refer to <a href="../../interaction/using/creating-an-offer.md" target="_blank">Creating an offer</a>.</p> <p>In the following use case, the offer is entered as follows:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/interaction_xmlmode_offer.png" title="interaction_XMLMode_offer.png" /></li> 
+   <li><p>Approve an offer or have it approved by somebody else, then activate it on the offer space created at the last step so that it is made available in the linked live environment.</p> </li> 
+   <li><p><strong>Engine calls and result on the HTML page</strong></p> <p>The call to the interaction engine in the HTML page looks like this:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;script&amp;nbsp;id="interactionProposalScript"&amp;nbsp;src="https://&lt;SERVER_URL&gt;/nl/interactionProposal.js?env=OE7&amp;cb=alert"&amp;nbsp;type="text/javascript"&gt; 
+    </codeblock><p>The value of the "<strong>env</strong>" parameter is the internal name of the live environment.</p> <p>The value of the "<strong>cb</strong>" parameter is the name of the function which needs to interpret the XML node returned by the engine. In our example, the called up function opens a modal window (alert() function).</p> <p>The XML node returned by the Interaction engine looks like this: </p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;propositions&gt;!!discoiqbr!!&amp;nbsp;&lt;proposition&amp;nbsp;id="a28002"&amp;nbsp;offer-id="10322005"&amp;nbsp;weight="1"&amp;nbsp;rank="1"&amp;nbsp;space="SPC14"&amp;nbsp;div="i_SPC14"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xmlOfferView&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;title&gt;Travel&amp;nbsp;to&amp;nbsp;Russia&lt;/title&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;price&gt;3456&lt;/price&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;description&gt;Discover&amp;nbsp;this&amp;nbsp;vacation&amp;nbsp;package!INCLUDES&amp;nbsp;10&amp;nbsp;nights.&amp;nbsp;FEATURES&amp;nbsp;buffet&amp;nbsp;breakfast&amp;nbsp;daily.&amp;nbsp;BONUS&amp;nbsp;5th&amp;nbsp;night&amp;nbsp;free.&lt;/description&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;image&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;path&gt;https://myinstance.com/res/Track/ae1d2113ed732d58a3beb441084e5960.jpg&lt;/path&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;alt&gt;Travel&amp;nbsp;to&amp;nbsp;Russia&lt;/alt&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/image&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/xmlOfferView&gt;!!discoiqbr!!&amp;nbsp;&lt;/proposition&gt;!!discoiqbr!!&lt;/propositions&gt; 
+    </codeblock></li> 
+  </ol> 
+  <h3 id="using-a-rendering-function-">Using a rendering function</h3> 
+  <p>It's possible to use an XML rendering function to create an offer presentation. This function will modify the XML node that is returned to the HTML page during the call to the engine. </p> 
+  <ol> 
+   <li><p>Go to the offer space and click the <strong>Edit functions</strong> link.</p> </li> 
+   <li><p>Select <strong>Overload the XML rendering function</strong>. </p> </li> 
+   <li><p>Go to the <strong>XML rendering</strong> tab and insert the desired function.</p> <p>The function can look like this:</p> 
+    <codeblock gutter="true" class="syntax html">
+      function&amp;nbsp;(proposition)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;delete&amp;nbsp;proposition.@id;!!discoiqbr!!&amp;nbsp;&amp;nbsp;proposition.@newAttribute&amp;nbsp;=&amp;nbsp;"newValue";!!discoiqbr!!}!!discoiqbr!! 
+    </codeblock></li> 
+  </ol> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/interaction_xmlmode_001.png" title="interaction_XMLMode_001.png" /> 
+ </body> 
+</html>

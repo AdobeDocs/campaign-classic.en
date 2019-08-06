@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Updating the database structure" name="jcr:title" />
+  <meta content="audience:configuration" name="primaryAudienceTag" />
+  <meta content="Updating the database structure" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="7f3af097-f3e3-4b71-a075-7e63ec2a5aa0" name="jcr:uuid" />
+  <meta content="" name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Updating the database structure" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-08-06T06:59:43.451-0400" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="9bdbf4e1-8f44-489a-9648-1e608b42f5f6" name="jcr:predecessors" />
+ </head>
+ <body>
+  <p>To apply the modifications made to the schemas, launch the database update wizard. This wizard is accessible via <strong>Tools &gt; Advanced &gt; Update database structure</strong>. It checks whether the physical structure of the database matches its logical description and executes the SQL update scripts.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_schema_update.png" title="d_ncs_integration_schema_update.png" />
+  <p>The modules in the database are automatically populated and activated.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_schema_update_select.png" title="d_ncs_integration_schema_update_select.png" />
+  <p>The <strong>Add stored procedures</strong> and <strong>Import initialization data</strong> options are used to launch the initial SQL scripts and the data packages executed when the database is created.</p> 
+  <p>You can import a set of data from an external data package. To do this, select <strong>Import a package</strong> and enter the XML file of the package.</p> 
+  <p>Follow the steps and view the database update SQL script:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_schema_update2.png" title="d_ncs_integration_schema_update2.png" />
+  <note>
+   <p> This is in an editing field and can be modified in order to delete or add SQL code.<br /> </p> 
+  </note>
+  <p>Next, launch the database update:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_schema_update3.png" title="d_ncs_integration_schema_update3.png" />
+ </body>
+</html>

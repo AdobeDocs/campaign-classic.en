@@ -1,0 +1,76 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Switching to Unicode" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="audience:production" name="primaryAudienceTag" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Switching to Unicode" name="jcr:title" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2019-08-06T06:59:02.695-0400" name="jcr:created" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="19c4f3a0-e000-4558-8ea4-8d8065c0704e" name="jcr:uuid" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="33593529-4bbf-4cf5-9e45-1ab4f85c9ed9" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Switching to Unicode" name="jcr:description" /> 
+ </head> 
+ <body> 
+  <p>For an existing <strong>prod</strong> instance in Linux/PostgreSQL, the steps for switching to unicode are as follows:</p> 
+  <ol> 
+   <li><p>Stop the processes writing to the database:</p> 
+    <codeblock gutter="true" class="syntax html">
+      su&amp;nbsp;-&amp;nbsp;neolane!!discoiqbr!!nlserver&amp;nbsp;shutdown 
+    </codeblock></li> 
+   <li><p>Dump the database:</p> 
+    <codeblock gutter="true" class="syntax html">
+      su&amp;nbsp;-&amp;nbsp;postgres!!discoiqbr!!pg_dump&amp;nbsp;mydatabase&amp;nbsp;&gt;&amp;nbsp;mydatabase.sql 
+    </codeblock></li> 
+   <li><p>Create a Unicode database:</p> 
+    <codeblock gutter="true" class="syntax html">
+      createdb&amp;nbsp;-E&amp;nbsp;UNICODE&amp;nbsp;mydatabase_unicode 
+    </codeblock></li> 
+   <li><p>Restore the database:</p> 
+    <codeblock gutter="true" class="syntax html">
+      psql&amp;nbsp;mydatabase_unicode&amp;nbsp;&lt;&amp;nbsp;mydatabase.sql 
+    </codeblock></li> 
+   <li><p>Update the option indicating that the database is Unicode:</p> 
+    <codeblock gutter="true" class="syntax html">
+      psql&amp;nbsp;mydatabase_unicode!!discoiqbr!!update&amp;nbsp;XtkOption&amp;nbsp;set&amp;nbsp;sStringValue&amp;nbsp;=&amp;nbsp;'u'||sStringValue&amp;nbsp;where&amp;nbsp;sName='XtkDatabaseId'&amp;nbsp;and&amp;nbsp;sStringValue&amp;nbsp;not&amp;nbsp;like&amp;nbsp;'u%'; 
+    </codeblock></li> 
+   <li><p>On the tracking servers:</p> 
+    <codeblock gutter="true" class="syntax html">
+      su&amp;nbsp;-&amp;nbsp;neolane!!discoiqbr!!cd&amp;nbsp;nl6/conf!!discoiqbr!!vi&amp;nbsp;config-prod.xml 
+    </codeblock><p>Add the <strong>u</strong> character in front of the value relating to the database identifier (<strong>databaseId</strong>):</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;web&gt;!!discoiqbr!!&amp;nbsp;&lt;redirection&amp;nbsp;databaseId="u7F0000010554364C"&amp;nbsp;trackingPassword="myPassword="/&gt;!!discoiqbr!!&lt;/web&gt; 
+    </codeblock></li> 
+   <li><p>On servers calling the database: </p> 
+    <codeblock gutter="true" class="syntax html">
+      su&amp;nbsp;-&amp;nbsp;neolane!!discoiqbr!!cd&amp;nbsp;nl6/conf!!discoiqbr!!vi&amp;nbsp;config-prod.xml 
+    </codeblock><p>Modify the database reference:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;dataSource&amp;nbsp;name="default"&gt;!!discoiqbr!!&amp;nbsp;&lt;dbcnx&amp;nbsp;encrypted="1"&amp;nbsp;!!discoiqbr!!&amp;nbsp;login="&lt;dbuser&gt;:&lt;base_unicode&gt;"&amp;nbsp;password="xxxx="!!discoiqbr!!&amp;nbsp;provider="postgresql"&amp;nbsp;server="yyyy"/&gt;!!discoiqbr!!&lt;/dataSource&gt; 
+    </codeblock></li> 
+   <li><p>Reboot all the machines:</p> 
+    <codeblock gutter="true" class="syntax html">
+      /etc/init.d/apache&amp;nbsp;stop!!discoiqbr!!/etc/init.d/nlserver6&amp;nbsp;stop!!discoiqbr!!/etc/init.d/nlserver6&amp;nbsp;start!!discoiqbr!!/etc/init.d/apache&amp;nbsp;start 
+    </codeblock></li> 
+   <li><p>Confirm the switch. To do this, connect via the Adobe Campaign console and:</p> 
+    <ul> 
+     <li><p>check that the data is displayed correctly, in particular the accentuated characters: </p> </li> 
+     <li><p>launch a delivery and check that the tracking retrieval works.</p> </li> 
+    </ul></li> 
+  </ol> 
+ </body> 
+</html>

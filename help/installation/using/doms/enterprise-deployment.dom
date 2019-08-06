@@ -1,0 +1,189 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2019-08-06T06:59:30.480-0400" name="jcr:created" /> 
+  <meta content="5f24b4fc-fd5b-49be-991c-a03cfdd4800d" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Enterprise deployment" name="navTitle" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="cbade553-1452-431c-814e-23f63b9fa34d" name="jcr:predecessors" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Enterprise deployment" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Enterprise deployment" name="jcr:description" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+ </head> 
+ <body> 
+  <p>This is the most complete configuration. It builds on the standard configuration for greater security and availability: </p> 
+  <ul> 
+   <li><p>dedicated redirection servers behind a HTTP or TCP load balancer, for scalability and availability,</p> </li> 
+   <li><p>two application servers for improved throughput and failover capability (fault tolerance) and which are isolated in the LAN.</p> </li> 
+  </ul> 
+  <p>General communication between servers and processes is carried out according to the following schema:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_901_ncs_install_enterpriseconfig.png" title="s_901_ncs_install_enterpriseconfig.png" /> 
+  <p>With this type of configuration, the expected throughput can exceed 100,000 mails per hour with appropriate bandwidth and tuning.</p> 
+  <h2 id="features">Features</h2> 
+  <h3 id="advantages">Advantages</h3> 
+  <ul> 
+   <li><p>Optimized security: Only those servers that need to be exposed to the outside are installed on the computer in the DMZ.</p> </li> 
+   <li><p>High availability easier to ensure: Only the computer visible from the outside needs to be managed with high availability in mind.</p> </li> 
+  </ul> 
+  <h3 id="disadvantages">Disadvantages</h3> 
+  <p>Higher hardware and administration costs.</p> 
+  <h3 id="recommended-equipment">Recommended equipment</h3> 
+  <ul> 
+   <li><p>Application servers: 2 Ghz quad-core CPU, 4 GB RAM, software RAID 1 80 GB SATA hard drive.</p> </li> 
+   <li><p>Redirection servers: 2 Ghz quad-core CPU, 4 GB RAM, software RAID 1 80 GB SATA hard drive.</p> </li> 
+  </ul> 
+  <note> 
+   <p> It is possible to reuse an existing load balancer for traffic to the redirection servers.<br /> </p> 
+  </note> 
+  <h2 id="installation-and-configuration-steps">Installation and configuration steps</h2> 
+  <h3 id="prerequisites">Prerequisites</h3> 
+  <ul> 
+   <li><p>JDK on both application servers,</p> </li> 
+   <li><p>Web server (IIS, Apache) on both frontals,</p> </li> 
+   <li><p>Access to a database server on both application servers,</p> </li> 
+   <li><p>Bounce mailbox accessible via POP3,</p> </li> 
+   <li><p>Creation of two DNS aliases on the load balancer:</p> 
+    <ul> 
+     <li><p>the first exposed to the public for tracking and pointing to the load balancer on a virtual IP address (VIP) and which is then distributed to the two frontal servers,</p> </li> 
+     <li><p>the second exposed to the internal users for access via the console and pointing to a load balancer on a virtual IP address (VIP) and which is then distributed to the two application servers.</p> </li> 
+    </ul></li> 
+   <li><p>Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to section <a href="../../installation/using/enterprise-deployment.md#database-access" target="_blank">Database access</a></p> </li> 
+  </ul> 
+  <note>
+    If your application servers point to a single database instance, after importing a standard package on one instance, the schema contained in the package is not loaded on the other instance. 
+   <br /> If your application servers point to a single database instance, after changing schema on one instance, the schema is not loaded on the other instance. 
+   <br /> To recover these issues, you need to reboot ‘web@default‘ process on the second instance where error occurred. 
+   <br /> 
+  </note> 
+  <h3 id="installing-and-configuring-the-application-server-1">Installing and configuring the application server 1</h3> 
+  <p>In the following examples, the parameters of the instance are:</p> 
+  <ul> 
+   <li><p>Name of the instance: demo</p> </li> 
+   <li><p>DNS mask: tracking.campaign.net*, console.campaign.net* (the application server handles the URLs for client console connections and reports and for mirror pages and unsubscription pages)</p> </li> 
+   <li><p>Language: English</p> </li> 
+   <li><p>Database: campaign:demo@dbsrv</p> </li> 
+  </ul> 
+  <p>The steps for installing the first server are:</p> 
+  <ol> 
+   <li><p>Follow the installation procedure for the Adobe Campaign server: <strong>nlserver</strong> package on Linux or <strong>setup.exe</strong> on Windows.</p> <p>For more on this, refer to <a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md" target="_blank">Prerequisites of Campaign installation in Linux</a> (Linux) and <a href="../../installation/using/prerequisites-of-campaign-installation-in-windows.md" target="_blank">Prerequisites of Campaign installation in Windows</a> (Windows).</p> </li> 
+   <li><p>Once the Adobe Campaign server is installed, start the application server (web) using the command <strong>nlserver web -tomcat</strong> (the Web module enables you to start Tomcat in standalone Web server mode listening on port 8080) and to make sure Tomcat starts correctly:</p> 
+    <codeblock gutter="true" class="syntax html">
+      12:08:18&amp;nbsp;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Application&amp;nbsp;server&amp;nbsp;for&amp;nbsp;Adobe&amp;nbsp;Campaign&amp;nbsp;Version&amp;nbsp;7.X&amp;nbsp;(build&amp;nbsp;XXXX)&amp;nbsp;of&amp;nbsp;DD/MM/YYYY!!discoiqbr!!12:08:18&amp;nbsp;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Starting&amp;nbsp;Web&amp;nbsp;server&amp;nbsp;module&amp;nbsp;(pid=28505,&amp;nbsp;tid=-1225184768)...!!discoiqbr!!12:08:18&amp;nbsp;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Tomcat&amp;nbsp;started!!discoiqbr!!12:08:18&amp;nbsp;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Server&amp;nbsp;started 
+    </codeblock> 
+    <note> 
+     <p> The first time the Web module is executed it creates the <strong>config-default.xml</strong> and <strong>serverConf.xml</strong> files in the <strong>conf</strong> directory under the installation folder. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.<br /> </p> 
+    </note><p>Press <strong>Ctrl+C</strong> to stop the server.</p> <p>For more on this, refer to the following sections:</p> 
+    <ul> 
+     <li><p>For Linux: <a href="../../installation/using/enterprise-deployment.md#first-start-up-of-the-server" target="_blank">First start-up of the server</a>,</p> </li> 
+     <li><p>For Windows: <a href="../../installation/using/enterprise-deployment.md#first-start-up-of-the-server" target="_blank">First start-up of the server</a>.</p> </li> 
+    </ul></li> 
+   <li><p>Change the <strong>internal</strong> password using the command: </p> 
+    <codeblock gutter="true" class="syntax html">
+      nlserver&amp;nbsp;config&amp;nbsp;-internalpassword 
+    </codeblock><p>For more on this, refer to <a href="../../installation/using/enterprise-deployment.md#internal-identifier" target="_blank">Internal identifier</a>.</p> </li> 
+   <li><p>Create the <strong>demo</strong> instance with the DNS masks for tracking (in this case, <strong>tracking.campaign.net</strong>) and access to client consoles (in this case, <strong>console.campaign.net</strong>). There are two ways of doing this: </p> 
+    <ul> 
+     <li><p>Create the instance via the console: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/install_create_new_connexion.png" title="install_create_new_connexion.png" /><p>For more on this, refer to <a href="../../installation/using/creating-an-instance-and-logging-on.md" target="_blank">Creating an instance and logging on</a>.</p> <p>or</p> </li> 
+     <li><p>Create the instance using command lines: </p> 
+      <codeblock gutter="true" class="syntax html">
+        nlserver&amp;nbsp;config&amp;nbsp;-addinstance:demo/tracking.campaign.net*,console.campaign.net* 
+      </codeblock><p>For more on this, refer to <a href="../../installation/using/enterprise-deployment.md#creating-an-instance" target="_blank">Creating an instance</a>.</p> </li> 
+    </ul></li> 
+   <li><p>Edit the <strong>config-demo.xml</strong> file (created via the previous command and located next to the <strong>config-default.xml</strong> file), check that the <strong>mta</strong> (delivery), <strong>wfserver</strong> (workflow), <strong>inMail</strong> (rebound mails) and <strong>stat</strong> (statistics) processes are enabled, then configure the address of the <strong>app</strong> statistics server:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;?xml&amp;nbsp;version='1.0'?&gt;!!discoiqbr!!&lt;serverconf&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;shared&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;add&amp;nbsp;lang="eng"&amp;nbsp;to&amp;nbsp;dataStore&amp;nbsp;to&amp;nbsp;force&amp;nbsp;English&amp;nbsp;for&amp;nbsp;the&amp;nbsp;instance&amp;nbsp;--&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dataStore&amp;nbsp;hosts="tracking.campaign.net*,console.campaign.net*"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;mapping&amp;nbsp;logical="*"&amp;nbsp;physical="default"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dataStore&gt;&amp;nbsp;&amp;nbsp;&lt;/shared&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;mta&amp;nbsp;autoStart="true"&amp;nbsp;statServerAddress="app"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;wfserver&amp;nbsp;autoStart="true"/&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;inMail&amp;nbsp;autoStart="true"/&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;sms&amp;nbsp;autoStart="false"/&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;listProtect&amp;nbsp;autoStart="false"/&gt;!!discoiqbr!!&lt;/serverconf&gt; 
+    </codeblock><p>For more on this, refer to <a href="../../installation/using/enterprise-deployment.md#enabling-processes" target="_blank">Enabling processes</a>.</p> </li> 
+   <li><p>Edit the <strong>serverConf.xml</strong> file and specify the delivery domain, then specify the IP (or host) addresses of the DNS servers used by the MTA module to answer MX type DNS queries.</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;dnsConfig&amp;nbsp;localDomain="campaign.com"&amp;nbsp;nameServers="192.0.0.1,&amp;nbsp;192.0.0.2"/&gt; 
+    </codeblock> 
+    <note> 
+     <p> The <strong>nameServers</strong> parameters is only used in Windows.<br /> </p> 
+    </note><p>For more on this, refer to <a href="../../installation/using/campaign-server-configuration.md" target="_blank">Campaign server configuration</a>.</p> </li> 
+   <li><p>Copy the client console setup program (<strong>setup-client-7.<strong>XX</strong>, <strong>YYYY</strong> .exe</strong> for v7 or <strong>setup-client-6.<strong>XX</strong>, <strong>YYYY</strong> .exe</strong> for v6.1) to the <strong>/datakit/nl/eng/jsp</strong> folder.</p> <p>For more on this, refer to the following sections:</p> 
+    <ul> 
+     <li><p>For Linux: <a href="../../installation/using/client-console-availability-for-windows.md" target="_blank">Client console availability for Windows</a>,</p> </li> 
+     <li><p>For Windows: <a href="../../installation/using/client-console-availability-for-windows.md" target="_blank">Client console availability for Windows</a>.</p> </li> 
+    </ul></li> 
+   <li><p>Start the Adobe Campaign server (<strong>net start nlserver6</strong> in Windows, <strong>/etc/init.d/nlserver6 start</strong> in Linux) and run the command <strong>nlserver pdump</strong> once more to check for presence of all enabled modules. </p> 
+    <codeblock gutter="true" class="syntax html">
+      12:09:54&amp;nbsp;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Application&amp;nbsp;server&amp;nbsp;for&amp;nbsp;Adobe&amp;nbsp;Campaign&amp;nbsp;Version&amp;nbsp;6.X&amp;nbsp;(build&amp;nbsp;XXXX)&amp;nbsp;of&amp;nbsp;DD/MM/YYYY!!discoiqbr!!syslogd@default&amp;nbsp;(7611)&amp;nbsp;-&amp;nbsp;9.2&amp;nbsp;MB!!discoiqbr!!stat@demo&amp;nbsp;(5988)&amp;nbsp;-&amp;nbsp;1.5&amp;nbsp;MB!!discoiqbr!!inMail@demo&amp;nbsp;(7830)&amp;nbsp;-&amp;nbsp;11.9&amp;nbsp;MB!!discoiqbr!!watchdog&amp;nbsp;(27369)&amp;nbsp;-&amp;nbsp;3.1&amp;nbsp;MB!!discoiqbr!!mta@demo&amp;nbsp;(7831)&amp;nbsp;-&amp;nbsp;15.6&amp;nbsp;MB!!discoiqbr!!wfserver@demo&amp;nbsp;(7832)&amp;nbsp;-&amp;nbsp;11.5&amp;nbsp;MB!!discoiqbr!!web@default&amp;nbsp;(28671)&amp;nbsp;-&amp;nbsp;40.5&amp;nbsp;MB!!discoiqbr!! 
+    </codeblock><p>This command also lets you know the version and build number of the Adobe Campaign server installed on the computer.</p> </li> 
+   <li><p>Test the <strong>nlserver web</strong> module using the URL: <a href="https://tracking.campaign.net/r/test">https://console.campaign.net/nl/jsp/logon.jsp</a>.</p> <p>This URL enables you to access the download page for the client setup program.</p> <p>Enter the <strong>internal</strong> login and associated password when you reach the access control page.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_access_client.png" title="s_ncs_install_access_client.png" /><p>For more on this, refer to the following sections:</p> 
+    <ul> 
+     <li><p>For Linux: <a href="../../installation/using/client-console-availability-for-linux.md" target="_blank">Client console availability for Linux</a>,</p> </li> 
+     <li><p>For Windows: <a href="../../installation/using/client-console-availability-for-windows.md" target="_blank">Client console availability for Windows</a>.</p> </li> 
+    </ul></li> 
+  </ol> 
+  <h3 id="installing-and-configuring-the-application-server-2">Installing and configuring the application server 2</h3> 
+  <p>Apply the following steps:</p> 
+  <ol> 
+   <li><p>Install the Adobe Campaign server.</p> </li> 
+   <li><p>Copy the files of the instance you created onto application server 1.</p> <p>We keep the same instance name as the application server 1.</p> </li> 
+   <li><p>Change the <strong>internal</strong> to the same as application server 1.</p> </li> 
+   <li><p>Link the database to the instance: </p> 
+    <codeblock gutter="true" class="syntax html">
+      nlserver&amp;nbsp;config&amp;nbsp;-setdblogin:PostgreSQL:campaign:demo@dbsrv&amp;nbsp;-instance:demo 
+    </codeblock></li> 
+   <li><p>Edit the <strong>config-demo.xml</strong> file (created via the previous command and located next to the <strong>config-default.xml</strong> file), check that the <strong>mta</strong> (delivery), <strong>wfserver</strong> (workflow), <strong>inMail</strong> (rebound mails) and <strong>stat</strong> (statistics) processes are enabled, then configure the address of the <strong>app</strong> statistics server:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;?xml&amp;nbsp;version='1.0'?&gt;!!discoiqbr!!&lt;serverconf&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;shared&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;add&amp;nbsp;lang="eng"&amp;nbsp;to&amp;nbsp;dataStore&amp;nbsp;to&amp;nbsp;force&amp;nbsp;English&amp;nbsp;for&amp;nbsp;the&amp;nbsp;instance&amp;nbsp;--&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dataStore&amp;nbsp;hosts="tracking.campaign.net*,console.campaign.net*"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;mapping&amp;nbsp;logical="*"&amp;nbsp;physical="default"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dataStore&gt;&amp;nbsp;&amp;nbsp;&lt;/shared&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;mta&amp;nbsp;autoStart="true"&amp;nbsp;statServerAddress="app"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;wfserver&amp;nbsp;autoStart="true"/&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;inMail&amp;nbsp;autoStart="true"/&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;sms&amp;nbsp;autoStart="false"/&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;listProtect&amp;nbsp;autoStart="false"/&gt;!!discoiqbr!!&lt;/serverconf&gt; 
+    </codeblock><p>For more on this, refer to <a href="../../installation/using/enterprise-deployment.md#enabling-processes" target="_blank">Enabling processes</a>.</p> </li> 
+   <li><p>Edit the <strong>serverConf.xml</strong> file and populate the DNS configuration of the MTA module:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;dnsConfig&amp;nbsp;localDomain="campaign.com"&amp;nbsp;nameServers="192.0.0.1,&amp;nbsp;192.0.0.2"/&gt; 
+    </codeblock> 
+    <note> 
+     <p> The <strong>nameServers</strong> parameter is only used in Windows.<br /> </p> 
+    </note><p>For more on this, refer to <a href="../../installation/using/campaign-server-configuration.md" target="_blank">Campaign server configuration</a>.</p> </li> 
+   <li><p>Start the Adobe Campaign servers.</p> <p>For more on this, refer to the following sections: </p> 
+    <ul> 
+     <li><p>For Linux: <a href="../../installation/using/enterprise-deployment.md#first-start-up-of-the-server" target="_blank">First start-up of the server</a>,</p> </li> 
+     <li><p>For Windows: <a href="../../installation/using/enterprise-deployment.md#first-start-up-of-the-server" target="_blank">First start-up of the server</a>.</p> </li> 
+    </ul></li> 
+  </ol> 
+  <h3 id="installing-and-configuring-the-frontal-servers">Installing and configuring the frontal servers</h3> 
+  <p>Installation and configuration procedures are identical on both computers.</p> 
+  <p>The steps are as follows:</p> 
+  <ol> 
+   <li><p>Install the Adobe Campaign server,</p> </li> 
+   <li><p>Comply with the Web server integration procedure (IIS, Apache) described in the following sections:</p> 
+    <ul> 
+     <li><p>For Linux: <a href="../../installation/using/integration-into-a-web-server-for-linux.md" target="_blank">Integration into a Web server for Linux</a>,</p> </li> 
+     <li><p>For Windows: <a href="../../installation/using/integration-into-a-web-server-for-windows.md" target="_blank">Integration into a Web server for Windows</a>.</p> </li> 
+    </ul></li> 
+   <li><p>Copy the <strong>config-demo.xml</strong> and <strong>serverConf.xml</strong> files created during installation. In the <strong>config-demo.xml</strong> file, activate the <strong>trackinglogd</strong> process and deactivate the <strong>mta</strong>, <strong>inmail</strong>, <strong>wfserver</strong> and <strong>stat</strong> processes.</p> </li> 
+   <li><p>Edit the <strong>serverConf.xml</strong> file and populate the redundant tracking servers in the parameters of the redirection:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;spareServer&amp;nbsp;enabledIf="$(hostname)!='front_srv1'"&amp;nbsp;id="1"&amp;nbsp;url="https://front_srv1:8080"/&gt;!!discoiqbr!!&lt;spareServer&amp;nbsp;enabledIf="$(hostname)!='front_srv2'"&amp;nbsp;id="2"&amp;nbsp;url="https://front_srv2:8080"/&gt; 
+    </codeblock></li> 
+   <li><p>Start the website and test the redirection from the URL: <a href="https://tracking.campaign.net/r/test">https://tracking.campaign.net/r/test</a></p> <p>The browser should display the following messages (depending on the URL redirected by the load balancer):</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;redir&amp;nbsp;status="OK"&amp;nbsp;date="AAAA/MM/JJ&amp;nbsp;HH:MM:SS"&amp;nbsp;build="XXXX"&amp;nbsp;host="tracking.campaign.net"&amp;nbsp;localHost="front_srv1"/&gt; 
+    </codeblock><p>or</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;redir&amp;nbsp;status="OK"&amp;nbsp;date="AAAA/MM/JJ&amp;nbsp;HH:MM:SS"&amp;nbsp;build="XXXX"&amp;nbsp;host="tracking.campaign.net"&amp;nbsp;localHost="front_srv2"/&gt; 
+    </codeblock><p>For more on this, refer to the following sections:</p> 
+    <ul> 
+     <li><p>For Linux: <a href="../../installation/using/enterprise-deployment.md#launching-the-web-server-and-testing-the-configuration" target="_blank">Launching the Web server and testing the configuration</a>,</p> </li> 
+     <li><p>For Windows: <a href="../../installation/using/enterprise-deployment.md#launching-the-web-server-and-testing-the-configuration" target="_blank">Launching the Web server and testing the configuration</a>.</p> </li> 
+    </ul></li> 
+   <li><p>Start the Adobe Campaign server.</p> </li> 
+  </ol> 
+ </body> 
+</html>

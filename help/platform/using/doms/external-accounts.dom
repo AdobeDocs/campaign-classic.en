@@ -1,0 +1,264 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="audience:platform" name="primaryAudienceTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="b9194c62-e483-4d63-8ea5-10955e5c9413" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:administration-basics" name="cq:tags" /> 
+  <meta content="2019-08-06T07:02:32.477-0400" name="jcr:created" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="External accounts" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="External accounts" name="navTitle" /> 
+  <meta content="038cc394-8fad-4745-9eda-98836bcca923" name="jcr:uuid" /> 
+  <meta content="2019-08-05" name="publishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="External accounts" name="jcr:description" /> 
+ </head> 
+ <body> 
+  <p>An external account is a configuration that allows you to configure and test the access to a server that is external to Adobe Campaign. These external accounts can be used in Campaign workflows to access and manage data.</p> 
+  <p>You can set up the following types of external accounts:</p> 
+  <ul> 
+   <li><p> <a href="../../platform/using/external-accounts.md#routing-external-account" target="_blank">Routing external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#ftp-external-account" target="_blank">FTP external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#external-database-external-account" target="_blank">External database external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#web-analytics-external-account" target="_blank">Web Analytics external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#facebook-connect-external-account" target="_blank">Facebook connect external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#execution-instance-external-account" target="_blank">Execution instance external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#adobe-experience-cloud-external-account" target="_blank">Adobe Experience Cloud external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#sftp-external-account" target="_blank">SFTP external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#adobe-experience-manager-external-account" target="_blank">Adobe Experience Manager external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account" target="_blank">Amazon Simple Storage Service (S3) external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#azure-external-account" target="_blank">Azure external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#hadoop-external-account" target="_blank">Hadoop external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#microsoft-dynamics-crm-external-account" target="_blank">Microsoft Dynamics CRM external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#oracle-on-demand-external-account" target="_blank">Oracle on demand external account</a></p> </li> 
+   <li><p> <a href="../../platform/using/external-accounts.md#salesforce-crm-external-account" target="_blank">Salesforce CRM external account</a></p> </li> 
+  </ul> 
+  <h2 id="creating-an-external-account">Creating an external account</h2> 
+  <p>Adobe Campaign comes with a set of pre-defined external accounts. In order to set up connections with external systems such as FTP servers used for file transfers, you can create your own external accounts.</p> 
+  <p>External accounts are used by technical processes such as technical workflows or campaign workflows. When setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account.</p> 
+  <ol> 
+   <li><p>From the <strong>Explorer</strong>, unfold the <strong>Administration</strong> menu.</p> </li> 
+   <li><p>Unfold the <strong>Platform</strong> menu and click <strong>External accounts</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_1.png" title="ext_account_1.png" /></li> 
+   <li><p>Click the <strong>New</strong> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_2.png" title="ext_account_2.png" /></li> 
+   <li><p>Enter a <strong>Label</strong> and <strong>Internal Name</strong>. Both will be used when selecting external accounts in workflows.</p> </li> 
+   <li><p>Check <strong>Enabled</strong> if you want your connection to be enabled. </p> </li> 
+   <li><p>Select your external account <strong>Type</strong> which one you want to create.</p> </li> 
+   <li><p>Configure the access to the account by specifying credentials depending on the chosen external account type.</p> <p>The necessary information is usually provided by the provider of the server you are connecting to.</p> </li> 
+   <li><p>Click <strong>Save</strong>.</p> </li> 
+  </ol> 
+  <p>The external account is created and added to the external accounts list. It is now available for your data/file transfers or routing configurations in workflow activities and delivery properties.</p> 
+  <h2 id="bounce-mails-external-account">Bounce mails external account</h2> 
+  <p>The <strong>Bounce mails</strong> external account specifies the external POP3 account to be used to connect to the email service. For more on this external account, refer to this <a href="../../workflow/using/inbound-emails.md">page</a>.</p> 
+  <p>All servers configured for POP3 access can be used to receive return mail.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_6.png" title="ext_account_6.png" /> 
+  <p>To configure the <strong>Bounce mails (defaultPopAccount)</strong> external account:</p> 
+  <ul> 
+   <li><p><strong>Server</strong></p> <p>URL of the POP3 server.</p> </li> 
+   <li><p><strong>Port</strong></p> <p>POP3 connection port number. The default port is 110.</p> </li> 
+   <li><p><strong>Account</strong></p> <p>Name of the user.</p> </li> 
+   <li><p><strong>Password</strong></p> <p>User account password.</p> </li> 
+   <li><p><strong>Encryption</strong></p> <p>Type of chosen encryption between <strong>By default</strong>, <strong>POP3 + STARTTLS</strong>, <strong>POP3</strong> or <strong>POP3S</strong>.</p> </li> 
+  </ul> 
+  <h2 id="routing-external-account">Routing external account</h2> 
+  <p>The <strong>Routing</strong> external account allows you to configure each channel available in Adobe Campaign depending on the packages installed.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_7.png" title="ext_account_7.png" /> 
+  <p>The following channels can be configured:</p> 
+  <ul> 
+   <li><p> <a href="../../installation/using/deploying-an-instance.md#email-channel-parameters">Email</a></p> </li> 
+   <li><p> <a href="../../delivery/using/sms-channel.md#activating-an-external-account">Mobile (SMS)</a>.</p> </li> 
+   <li><p> <a href="../../delivery/using/other-channels.md">Phone</a></p> </li> 
+   <li><p> <a href="../../delivery/using/about-direct-mail-channel.md">Direct mail</a></p> </li> 
+   <li><p> <a href="../../delivery/using/other-channels.md">Agency</a></p> </li> 
+   <li><p> <a href="../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign">Facebook</a></p> </li> 
+   <li><p> <a href="../../social/using/configuring-publishing-on-twitter.md">Twitter</a></p> </li> 
+   <li><p> <a href="../../delivery/using/setting-up-mobile-app-channel.md#ios-connectors">iOS channel</a></p> </li> 
+   <li><p> <a href="../../delivery/using/setting-up-mobile-app-channel.md#android-connectors">Android channel</a></p> </li> 
+  </ul> 
+  <h2 id="ftp-external-account">FTP external account</h2> 
+  <p>The FTP external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as FTP servers 898 used for file transfers, you can create your own external accounts. For more on this, refer to this <a href="../../workflow/using/file-transfer.md">page</a>.</p> 
+  <p>To do so, specify in this external account the address and credentials used to establish the connection to the FTP server</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_8.png" title="ext_account_8.png" /> 
+  <ul> 
+   <li><p><strong>Server</strong></p> <p>Name of the FTP server.</p> </li> 
+   <li><p><strong>Port</strong></p> <p>FTP connection port number. The default port is 21.</p> </li> 
+   <li><p><strong>Account</strong></p> <p>Name of the user.</p> </li> 
+   <li><p><strong>Password</strong></p> <p>User account password.</p> </li> 
+   <li><p><strong>Encryption</strong></p> <p>Type of chosen encryption between <strong>None</strong> or <strong>SSL</strong>.</p> </li> 
+  </ul> 
+  <p>To know where to locate these credentials, refer to this <a href="https://help.dreamhost.com/hc/en-us/articles/115000675027-FTP-overview-and-credentials">page</a>.</p> 
+  <h2 id="external-database-external-account">External database external account</h2> 
+  <p>Adobe Campaign provides several connectors that allow you to communicate with external applications and connect to database engines.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_11.png" title="ext_account_11.png" /> 
+  <p>The following connection types can be configured:</p> 
+  <ul> 
+   <li><p>Oracle</p> </li> 
+   <li><p>Microsoft SQL server</p> </li> 
+   <li><p>PostgreSQL</p> </li> 
+   <li><p>Teradata</p> </li> 
+   <li><p>DB2</p> </li> 
+   <li><p>MySQL</p> </li> 
+   <li><p>InfiniDB</p> </li> 
+   <li><p>Netezza</p> </li> 
+   <li><p>AsterData</p> </li> 
+   <li><p>SAP HANA</p> </li> 
+   <li><p>Amazon Redshift</p> </li> 
+   <li><p>ODBC (Sybase ASE, Sybase IQ)</p> </li> 
+   <li><p>HTTP relay to remote database</p> </li> 
+  </ul> 
+  <h3 id="teradata-external-account">Teradata external account</h3> 
+  <p>The <strong>Teradata</strong> external account allows you to connect your Campaign instance to your Teradata external database. For more information on how to configure Campaign Classic with Teradata, refer to this <a href="https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html">page</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_19.png" title="ext_account_19.png" /> 
+  <p>To configure this external account to work with Adobe Campaign, you need to provide the following details:</p> 
+  <ul> 
+   <li><p><strong>Type</strong></p> <p>Choose the <strong>Teradata</strong> type.</p> </li> 
+   <li><p><strong>Server</strong></p> <p>URL or name of your Teradata server.</p> </li> 
+   <li><p><strong>Account</strong></p> <p>Name of the account used to access the Teradata database.</p> </li> 
+   <li><p><strong>Password</strong></p> <p>Password used to connect to the Teradata database.</p> </li> 
+   <li><p><strong>Database</strong></p> <p>This field can be left empty.</p> </li> 
+   <li><p><strong>Options</strong></p> <p>Options to be passed through Teradata</p> </li> 
+   <li><p><strong>Timezone</strong></p> <p>Timezone set in Teradata</p> </li> 
+  </ul> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_20.png" title="ext_account_20.png" /> 
+  <p>When multiple Adobe Campaign users connect to the same FDA Teradata external account, the <strong>Query banding</strong> tab allows you to set a query band, i.e. a set of key/value pairs, on a session.</p> 
+  <p>Each time a Campaign user performs a query on the Teradata database, Adobe Campaign will send meta data, which consists of a list of keys, associated to this user. This data can then be used by Teradata administrators for audit purposes or to manage access rights.</p> 
+  <p>Check the <strong>Active</strong> box to activate this feature</p> 
+  <p>The <strong>Default</strong> field lets you enter a default query band that will be used if a user has no associated query band. If this field is left empty, the users with no query band will not be able to use Teradata.</p> 
+  <p>The <strong>Users</strong> field allows you to specify a query band for each user. You can add as many key/value pairs as you need e.g. priority=1;workload=high. If the user has no query band assigned, the <strong>Default</strong> field will be applied.</p> 
+  <p>For more information on <strong>Query banding</strong>, refer to the <a href="https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw">Teradata documentation</a>.</p> 
+  <h2 id="web-analytics-external-account">Web Analytics external account</h2> 
+  <p>The <strong>Web Analytics (Adobe Analytics - Data connector)</strong> external account allows you to forward data from Adobe Analytics to Adobe Campaign in the form of segments. Conversely, it sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics - Data connector.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_10.png" title="ext_account_10.png" /> 
+  <p>For this external account, the calculation formula for tracked URLs must be enriched and connection between the two solutions must be approved. For more on this, refer to this <a href="../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign">page</a>.</p> 
+  <h2 id="facebook-connect-external-account">Facebook connect external account</h2> 
+  <p>The <strong>Facebook Connect</strong> external account lets you display personalized content in your Facebook applications, making it easier to acquire prospects via this social network.</p> 
+  <p>For each Facebook application, you need to create a <strong>Facebook Connect</strong> type external account. For more on this, refer to <a href="../../social/using/creating-a-facebook-application.md#configuring-external-accounts">page</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_12.png" title="ext_account_12.png" /> 
+  <ul> 
+   <li><p><strong>Hosting mode</strong></p> <p>Hosting mode of the application between <strong>hosted by a partner</strong> or <strong>hosted by this instance</strong>.</p> </li> 
+   <li><p><strong>Application ID</strong></p> <p>App ID of your Facebook application.</p> </li> 
+   <li><p><strong>Application secret</strong></p> <p>App secret of your Facebook application</p> </li> 
+  </ul> 
+  <p>If you chose the hosted by this instance mode, the Secure Canvas URL needs to be paste into the <strong>Facebook Web games (https)</strong> field on Facebook</p> 
+  <p>To know where to locate these credentials, refer to this <a href="https://developers.facebook.com/docs/facebook-login/access-tokens">page</a>.</p> 
+  <h2 id="execution-instance-external-account">Execution instance external account</h2> 
+  <p>If you have a broken-down architecture, you need to specify the execution instances linked to the control instance and connect them. Transactional message templates are deployed to the execution instance</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_13.png" title="ext_account_13.png" /> 
+  <ul> 
+   <li><p><strong>URL</strong></p> <p>URL of the server on which the execution instance is installed.</p> </li> 
+   <li><p><strong>Account</strong></p> <p>Name of the account, it must match the Message Center Agent as defined in the operator folder. </p> </li> 
+   <li><p><strong>Password</strong></p> <p>Password of the account as defined in the operator folder.</p> </li> 
+  </ul> 
+  <p>For more information on this configuration, refer to this <a href="../../message-center/using/creating-a-shared-connection.md#control-instance">page</a>.</p> 
+  <h2 id="adobe-experience-cloud-external-account">Adobe Experience Cloud external account</h2> 
+  <p>To connect to the Adobe Campaign console using an Adobe ID, you must configure the <strong>Adobe Experience Cloud (MAC)</strong> external account.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_9.png" title="ext_account_9.png" /> 
+  <ul> 
+   <li><p><strong>IMS server</strong></p> <p>URL of your IMS server. Make sure both stage and production instances point to the same IMS production end point.</p> </li> 
+   <li><p><strong>IMS scope</strong></p> <p>Scopes defined here must be a subset of those provisioned by IMS.</p> </li> 
+   <li><p><strong>IMS client identifier</strong></p> <p>ID of your IMS client.</p> </li> 
+   <li><p><strong>IMS client secret</strong></p> <p>Credential of your IMS client secret</p> </li> 
+   <li><p><strong>Callback server</strong></p> <p>Access URL of your Adobe Campaign instance</p> </li> 
+   <li><p><strong>IMS organization ID</strong></p> <p>ID of your IMS organization. To find your organization ID, refer to this <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/faq.html">page</a> (<strong>Where can I find my IMS organization ID?</strong>).</p> </li> 
+   <li><p><strong>Association mask</strong></p> <p>Syntax which will allow configuration names in Enterprise Dashboard to be synced with the groups in Adobe Campaign.</p> </li> 
+   <li><p><strong>Server</strong></p> <p>URL of your Adobe Experience Cloud instance.</p> </li> 
+   <li><p><strong>Tenant</strong></p> <p>Name of your Adobe Experience Cloud Tenant.</p> </li> 
+  </ul> 
+  <p>For more information on this configuration, refer to this <a href="../../integrations/using/configuring-ims.md">page</a>.</p> 
+  <h2 id="sftp-external-account">SFTP external account</h2> 
+  <p>The SFTP external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as SFTP used for file transfers, you can create your own external accounts. For more on this, refer to this <a href="../../workflow/using/file-transfer.md">page</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_4.png" title="ext_account_4.png" /> 
+  <ul> 
+   <li><p><strong>Server</strong></p> <p>URL of the SFTP server.</p> </li> 
+   <li><p><strong>Port</strong></p> <p>FTP connection port number. The default port is 22.</p> </li> 
+   <li><p><strong>Account</strong></p> <p>Account name used to connect to the SFTP server.</p> </li> 
+   <li><p><strong>Password</strong></p> <p>Password used to connect to the SFTP server.</p> </li> 
+  </ul> 
+  <h2 id="adobe-experience-manager-external-account">Adobe Experience Manager external account</h2> 
+  <p>The <strong>AEM (AEM instance)</strong> external account allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_5.png" title="ext_account_5.png" /> 
+  <ul> 
+   <li><p><strong>Server</strong></p> <p> URL of the Adobe Experience Manager server.</p> </li> 
+   <li><p><strong>Port</strong></p> <p>Account name used to connect to the Adobe Experience Manager authoring instance.</p> </li> 
+   <li><p><strong>Password</strong></p> <p>Password used to connect to the Adobe Experience Manager authoring instance.</p> </li> 
+  </ul> 
+  <p>For more on this, refer to this <a href="../../integrations/using/about-adobe-experience-manager.md">section</a>.</p> 
+  <h2 id="amazon-simple-storage-service--s3--external-account">Amazon Simple Storage Service (S3) external account</h2> 
+  <p>The Amazon Simple Storage Service (S3) connector can be used to import or export data to Adobe Campaign. It can be set up in a workflow activity. For more on this, refer to this <a href="../../workflow/using/file-transfer.md">page</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_3.png" title="ext_account_3.png" /> 
+  <p>As you are setting up this new external account, you need to provide the following details:</p> 
+  <ul> 
+   <li><p><strong>AWS S3 Account Server</strong></p> <p>URL of your server, it should be filled as follows:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;S3bucket&amp;nbsp;name&gt;.s3.amazonaws.com/&lt;s3object&amp;nbsp;path&gt; 
+    </codeblock></li> 
+   <li><p><strong>AWS access key ID</strong></p> <p>To know where to find your AWS access key ID, refer to this .</p> </li> 
+   <li><p><strong>Secret access key to AWS</strong></p> <p>To know where to find your secret access key to AWS, refer to this <a href="https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/">page</a>.</p> </li> 
+   <li><p>The <strong>Use server side encryption</strong> checkbox allows you to store your file in S3 encrypted mode.</p> </li> 
+  </ul> 
+  <p>To learn where to find the access key ID and secret access key, refer to Amazon Web services .</p> 
+  <h2 id="azure-external-account">Azure external account</h2> 
+  <p>The <strong>Azure</strong> external account enables a connection to a shared external database, as long as this connection is active, the database can be accessed via Adobe Campaign.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_15.png" title="ext_account_15.png" /> 
+  <ul> 
+   <li><p><strong>Server</strong></p> <p> URL of the Azure server.</p> </li> 
+   <li><p><strong>Encryption</strong></p> <p>Type of chosen encryption between <strong>None</strong> or <strong>SSL</strong>.</p> </li> 
+   <li><p><strong>Access key</strong></p> <p>To know where to find your access key, refer to this <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-account-manage">page</a> (section <strong>View and copy access keys</strong>).</p> </li> 
+  </ul> 
+  <h2 id="hadoop-external-account">Hadoop external account</h2> 
+  <p>The <strong>Hadoop</strong> external account enables a connection to a shared external database, as long as this connection is active, the database can be accessed via Adobe Campaign.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_16.png" title="ext_account_16.png" /> 
+  <ul> 
+   <li><p><strong>Server</strong></p> <p> URL of the Hadoop server.</p> </li> 
+   <li><p><strong>User account name</strong></p> <p>Name of the account used to access Hadoop.</p> </li> 
+  </ul> 
+  <h2 id="microsoft-dynamics-crm-external-account">Microsoft Dynamics CRM external account</h2> 
+  <p>The <strong>Microsoft Dynamics CRM</strong> external account allows you to import and export Microsoft Dynamics data into Adobe Campaign.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_14.png" title="ext_account_14.png" /> 
+  <p>To configure the Microsoft Dynamics connector to work with Adobe Campaign, you need to provide the following details:</p> 
+  <ul> 
+   <li><p><strong>Account</strong></p> <p>Account used to sign in to Microsoft CRM.</p> </li> 
+   <li><p><strong>Server</strong></p> <p>URL of your Microsoft CRM server.</p> </li> 
+   <li><p><strong>Password</strong></p> <p>Password used to sign in to Microsoft CRM.</p> </li> 
+   <li><p><strong>Company name</strong> for On-premise and Office 365 deployment</p> <p>Company name which can be found in the Developers resource dashboard, <strong>Unique Name</strong> field.</p> </li> 
+   <li><p><strong>Client identifier</strong> for Web API deployment</p> <p>Client ID which can be found from Microsoft Azure management portal in the <strong>Update your code</strong> category, <strong>Client ID</strong> field.</p> </li> 
+   <li><p><strong>Organization name</strong> for On-premise deployment</p> <p>Name of your organization.</p> </li> 
+   <li><p><strong>CRM version</strong> for On-premise and Web API deployments</p> <p>Version of the CRM between <strong>Dynamics CRM 2007</strong>, <strong>Dynamics CRM 2015</strong> or <strong>Dynamics CRM 2016</strong>.</p> </li> 
+  </ul> 
+  <p>For more information on this configuration, refer to this <a href="../../platform/using/crm-connectors.md#example-for-microsoft-dynamics">page</a>.</p> 
+  <h2 id="oracle-on-demand-external-account">Oracle on demand external account</h2> 
+  <p>The <strong>Oracle on demand</strong> external account allows you to import and export Oracle data into Adobe Campaign.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_18.png" title="ext_account_18.png" /> 
+  <p>To configure the Oracle on demand external account to work with Adobe Campaign, you need to provide the following details:</p> 
+  <ul> 
+   <li><p><strong>Account</strong></p> <p>Account used to sign in to Oracle CRM on demand.</p> </li> 
+   <li><p><strong>Server</strong></p> <p>URL of your Oracle CRM on demand server.</p> </li> 
+   <li><p><strong>Password</strong></p> <p>Password used to sign in to Oracle CRM on demand.</p> </li> 
+  </ul> 
+  <p>For more information on this configuration, refer to this <a href="../../platform/using/crm-connectors.md#example-for-oracle-on-demand">page</a>.</p> 
+  <h2 id="salesforce-crm-external-account">Salesforce CRM external account</h2> 
+  <p>The <strong>Salesforce CRM</strong> external account allows you to import and export Salesforce data into Adobe Campaign.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ext_account_17.png" title="ext_account_17.png" /> 
+  <p>To configure the Salesforce CRM external account to work with Adobe Campaign, you need to provide the following details:</p> 
+  <ul> 
+   <li><p><strong>Account</strong></p> <p>Account used to sign in to Salesforce CRM.</p> </li> 
+   <li><p><strong>Password</strong></p> <p>Password used to sign in to Salesforce CRM.</p> </li> 
+   <li><p><strong>Client identifier</strong></p> <p>To know where to find your client identifier, refer to this <a href="https://help.salesforce.com/articleView?id=000205876&amp;type=1">page</a>.</p> </li> 
+   <li><p><strong>Security token</strong></p> <p>To know where to find your security token, refer to this <a href="https://help.salesforce.com/articleView?id=000205876&amp;type=1">page</a>.</p> </li> 
+   <li><p><strong>API version</strong></p> <p>Version of the API between <strong>Version 37</strong>, <strong>Version 21</strong> or <strong>Version 15</strong>.</p> </li> 
+  </ul> 
+  <p>For this external account, you need to configure you Salesforce CRM with the configuration wizard.</p> 
+  <p>For more information on this configuration, refer to this <a href="../../platform/using/crm-connectors.md#example-for-salesforce-com">page</a>.</p> 
+ </body> 
+</html>

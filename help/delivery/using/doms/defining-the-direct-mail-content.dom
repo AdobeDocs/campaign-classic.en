@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="b12539bc-41a3-40cc-aa34-1f8b19c89269" name="jcr:uuid" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Defining the direct mail content" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Defining the direct mail content" name="jcr:description" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-08-06T06:59:25.302-0400" name="jcr:created" />
+  <meta content="Defining the direct mail content" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="b9dee320-1cce-43da-a673-7c0bc1477f91" name="jcr:predecessors" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <h2 id="extraction-file">Extraction file</h2>
+  <p>The name of the file which contains the extracted data is defined in the <strong>File</strong> field. The button to the right of the field lets you use personalization fields to create the file name. </p> 
+  <p>By default, the extraction file is created and stored on the server. You can save it on your computer. To do this, check the <strong>Download the generated file after the analysis of the delivery</strong>. In this case, you need to indicate the access path to the local storage directory as well as the file name.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mail_delivery_local_file.png" title="s_ncs_user_mail_delivery_local_file.png" />
+  <p>For a direct mail delivery, the content of the extraction is defined in <strong>Edit the extraction file format...</strong> link. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mail_delivery_format_link.png" title="s_ncs_user_mail_delivery_format_link.png" />
+  <p>This link lets you access the extraction wizard and define the information (columns) to be exported into the output file. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mail_delivery_format_wz.png" title="s_ncs_user_mail_delivery_format_wz.png" />
+  <p>It is possible to insert a personalized URL into the extraction file. For more on this, refer to <a href="../../web/using/publishing-a-web-form.md">Web functionality</a>.</p> 
+  <note>
+   <p> This wizard includes the steps of the export wizard detailed in the <a href="../../platform/using/exporting-data.md#export-wizard">Getting Started</a> section.<br /> </p> 
+  </note>
+ </body>
+</html>

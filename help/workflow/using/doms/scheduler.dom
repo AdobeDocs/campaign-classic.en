@@ -1,0 +1,46 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Scheduler" name="jcr:title" />
+  <meta content="2019-08-06T06:59:15.246-0400" name="jcr:created" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="ab42cd47-3f85-4282-a21d-274d3eabf3b8" name="jcr:uuid" />
+  <meta content="Scheduler" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="ad2482cc-87f6-46d2-9f0f-a239d71a72dd" name="jcr:predecessors" />
+  <meta content="" name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Scheduler" name="jcr:description" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>The <strong>Scheduler</strong> is a persistent task that activates its transition at the times specified by its schedule. </p> 
+  <p>The <strong>Scheduler</strong> activity should be considered as a scheduled start. The activity positioning rules within the chart are the same as for the <strong>Start</strong> activity. This activity must not have an inbound transition.</p> 
+  <p>It is a best practice not to schedule a workflow to run more than every 15 minutes because it may impede overall system performance and create blocks in the database.</p> 
+  <p>When building your workflow, never use more than one <strong>Scheduler</strong> activity per branch. For more on this, refer to: <a href="../../workflow/using/scheduler.md#using-activities" target="_blank">Using activities</a>.</p> 
+  <p>The scheduler defines the activation schedule of the transition. To configure it, double-click the graphical object, then click <strong>Change...</strong> </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_scheduler.png" title="s_user_segmentation_scheduler.png" />
+  <p>A wizard lets you define the frequency and validity period of the activity. The configuration steps are as follows: </p> 
+  <ol>
+   <li><p>Select the activation frequency and click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_scheduler2.png" title="s_user_segmentation_scheduler2.png" /></li>
+   <li><p>Give the activation times and days. The parameters for this step depend on the frequency selected in the previous step. If you choose to launch the activity several times a day, the configuration options will be as follows:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_scheduler3.png" title="s_user_segmentation_scheduler3.png" /></li>
+   <li><p>Define the validity period of the schedule, or specify how many times it will be executed.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_scheduler4.png" title="s_user_segmentation_scheduler4.png" /></li>
+   <li><p>Check the configuration and click <strong>Finish</strong> to save.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_scheduler5.png" title="s_user_segmentation_scheduler5.png" /></li>
+  </ol>
+  <p>It is important to configure the frequency of the scheduler and certain parameters of the following activities, because the scheduler can generate cascading tasks. For example, the scheduler followed by an external command can re-execute the command even if it has not finished. To avoid this, modify the <strong>Behavior</strong> field of the activities that have to be finished before a new execution by selecting the <strong>The current task has priority</strong> option.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/current_task_priority.png" title="current_task_priority.png" />
+  <p>Note also that the transition can be activated several hours later if the workflow was executing a long-term task, such as an import, or if the wfserver module was stopped for a time. In this case, it may be necessary to restrict the execution of the task activated by the scheduler to a certain time range. </p> 
+ </body>
+</html>

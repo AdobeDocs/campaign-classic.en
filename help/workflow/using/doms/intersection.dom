@@ -1,0 +1,59 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-08-06T06:59:14.101-0400" name="jcr:created" /> 
+  <meta content="Intersection" name="jcr:description" /> 
+  <meta content="topic_tags:targeting-activities;products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Intersection" name="jcr:title" /> 
+  <meta content="Intersection" name="navTitle" /> 
+  <meta content="04848eb5-9e4b-4d2e-8ab6-3652b4e161e7" name="jcr:predecessors" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="32339a13-604a-44c0-a026-607c81a570b4" name="jcr:uuid" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="audience:workflow" name="primaryAudienceTag" /> 
+ </head> 
+ <body> 
+  <p>An <strong>Intersection</strong>-type activity creates a target from the intersection of the targets received.</p> 
+  <p>An intersection lets you extract only the population that is common to all inbound activity results. The target is created with all results received: all prior activities must therefore be finished before the intersection can be executed. To configure this activity, you need to enter a label for it as well as the options concerning the result.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_inter.png" title="s_user_segmentation_inter.png" /> 
+  <p>For more on configuring and using the intersection activity, refer to <a href="../../workflow/using/intersection.md#extracting-joint-data--intersection-" target="_blank">Extracting joint data (Intersection)</a>.</p> 
+  <p>Check the <strong>Generate complement</strong> option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity, as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_inter_compl.png" title="s_user_segmentation_inter_compl.png" /> 
+  <h2 id="intersection-example">Intersection example</h2> 
+  <p>In the following example, the aim of the intersection is to calculate the recipients common to three simple queries in order to create a list.</p> 
+  <ol> 
+   <li><p>After three simple queries, insert an <strong>Intersection</strong>-type activity.</p> <p>In this example; the queries respectively target men, recipients living in Paris and recipients aged between 18 and 30 years old.</p> </li> 
+   <li><p>Configure the intersection. To do this, select the <strong>Keys only</strong> reconciliation method since the populations resulting from the queries contain consistent data.</p> </li> 
+   <li><p>If you have inputted additional data for the queries, you may choose to keep only those that are shared by recipients by checking the relevant box.</p> </li> 
+   <li><p>If you wish to use the rest of the data (in regard to the queries but not their intersection), check the <strong>Generate complement</strong> box.</p> </li> 
+   <li><p>Add a list update activity after the intersection result. You can also add a list update to the complement should you wish to use this too.</p> </li> 
+   <li><p>Execute the workflow. Here, two recipients apply to all three inputted queries at the same time. The complement is made up of five recipients who only apply to one or two of the three queries.</p> <p>The intersection result is sent to the first list update. If you have chosen to use the complement, it is also sent to the second list update.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/intersection_example.png" title="intersection_example.png" /></li> 
+  </ol> 
+  <h2 id="input-parameters">Input parameters</h2> 
+  <ul> 
+   <li><p>tableName</p> </li> 
+   <li><p>schema</p> </li> 
+  </ul> 
+  <p>Each inbound event must specify a target defined by these parameters.</p> 
+  <h2 id="output-parameters">Output parameters</h2> 
+  <ul> 
+   <li><p>tableName</p> </li> 
+   <li><p>schema</p> </li> 
+   <li><p>recCount</p> </li> 
+  </ul> 
+  <p>This set of three values identifies the target resulting from the intersection. <strong>tableName</strong> is the name of the table that records the target identifiers, <strong>schema</strong> is the schema of the population (usually <strong>nms:recipient</strong>) and <strong>recCount</strong> is the number of elements in the table.</p> 
+ </body> 
+</html>

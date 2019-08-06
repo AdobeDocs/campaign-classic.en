@@ -1,0 +1,46 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="About descriptive analysis" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="About descriptive analysis" name="jcr:title" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-08-06T06:59:35.065-0400" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:reporting" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="c478b673-d3e8-48e4-a0a8-8e713b3941cc" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="6c3ad94c-dfe3-4538-b94c-ab7d6a759c4b" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="About descriptive analysis" name="jcr:description" />
+ </head>
+ <body>
+  <p>In order to produce statistics on the data in the database, create descriptive analysis reports using the dedicated wizard and adapt their content and presentation to suit your needs. </p> 
+  <p>These reports concern populations and should only be used to analyze small data volumes.</p> 
+  <p>You can generate quantitative or qualitative analysis reports. Qualitative analyses enable you to represent data as follows:</p> 
+  <ul>
+   <li><p>Table and histogram:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_sample_1.png" title="reporting_descriptive_sample_1.png" /></li>
+   <li><p>Cumulated values, without the table:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_sample_3.png" title="reporting_descriptive_sample_3.png" /></li>
+   <li><p>Breakdown by line of business</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_sample_2.png" title="reporting_descriptive_sample_2.png" /></li>
+  </ul>
+  <p>Quantitative analyses provide overall statistics on the numerical data of the selection, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_quantitative_sample.png" title="reporting_descriptive_quantitative_sample.png" />
+  <p>These reports are created via the descriptive analysis wizard, which based on various steps, lets you choose the type of report you want to create as well as the data and layout. The report is displayed in the last step. If necessary, the report can be published and shared with other operators, printed, exported in Excel, PDF or OpenDocument format.</p> 
+  <p>Descriptive analysis wizards aren't as powerful as Adobe Campaign reports but they do provide a quick overview of the database content or a selection of data.</p> 
+  <note>
+    A descriptive analysis does not enable you to explore large data volumes. 
+   <br /> 
+  </note>
+ </body>
+</html>

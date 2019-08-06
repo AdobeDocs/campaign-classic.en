@@ -1,0 +1,102 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:integrations" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="54264b2b-dcd9-4d14-8600-9f812ca46954" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="4adc2fb4-ffe6-4860-9fbd-c8fd93a827f9" name="jcr:predecessors" />
+  <meta content="Synchronizing audiences" name="jcr:title" />
+  <meta content="Synchronizing audiences" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="2019-08-06T06:59:40.826-0400" name="jcr:created" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Synchronizing audiences" name="jcr:description" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>You can build a sophisticated list by using the Campaign v7 advanced features and share this list as an audience directly and in real time with Campaign Standard (including additional data) in a seamless way. Your Campaign Standard user can then consume the audience in Adobe Campaign Standard.</p> 
+  <p>Complex targeting involving additional data that are not replicated in Campaign Standard can only be achieved using Campaign v7.</p> 
+  <p>You can also simply share lists of recipients or data coming through a connector like Microsoft Dynamics with Campaign Standard.</p> 
+  <p>This use case shows how to prepare the target of your delivery in Campaign v7 and how to reuse this target and its additional data in a delivery created and sent with Adobe Campaign Standard.</p> 
+  <note>
+   <p> You can also enrich data using aggregates and collections in Adobe Campaign Standard if all the data you need are already replicated.<br /> </p> 
+  </note>
+  <h2 id="prerequisites">Prerequisites</h2>
+  <p>To achieve this, you need:</p> 
+  <ul>
+   <li><p>Recipients stored in Campaign v7 database and synchronized with Campaign Standard. Refer to the <a href="../../integrations/using/synchronizing-profiles.md" target="_blank">Synchronizing profiles</a> section.</p> </li>
+   <li><p>Additional data such as subscriptions or transactions stored in tables related to nms:recipients in Campaign v7 database. These data can come from Campaign v7 OOB schemas or custom tables. They are by default unavailable in Campaign Standard as they are not synchronized.</p> </li>
+   <li><p>Right to execute workflows in both Campaign v7 and Campaign Standard.</p> </li>
+   <li><p>Right to create and execute a delivery in Campaign Standard.</p> </li>
+  </ul>
+  <h2 id="create-a-targeting-workflow-with-additional-data-in-campaign-v7">Create a targeting workflow with additional data in Campaign v7</h2>
+  <p>Complex targeting involving additional data that are not replicated in Campaign Standard can only be achieved using Campaign v7. </p> 
+  <p>Once the target and its additional data are defined, it is possible to save it as a list that can be shared with Campaign Standard.</p> 
+  <note>
+   <p> This is an example. Depending on your requirements, you can simply query a list of recipients and share it with ACS without any further processing. You can also use other data management activities to prepare your final target.<br /> </p> 
+  </note>
+  <p>To get the final audience and its additional data:</p> 
+  <ol>
+   <li><p>Create a new workflow from <strong>Profiles and Targets</strong> &gt; <strong>Jobs</strong> &gt; <strong>Targeting workflows</strong>.</p> </li>
+   <li><p>Add a <strong>Query</strong> activity and select the recipients that you want to send final email to. For example, all recipients between 18 and 30 years old and living in France.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/acs_connect_query1.png" title="acs_connect_query1.png" /></li>
+   <li><p>Add additional data from within the query. For more information, refer to the <a href="../../workflow/using/query.md#adding-data">Adding data</a> section.</p> <p>This example shows how to add an aggregate to count how many deliveries a recipient received in a year. </p> <p>In the <strong>Query</strong>, select <strong>Add data...</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/acs_connect_query2.png" title="acs_connect_query2.png" /></li>
+   <li><p>Select <strong>Data linked to the filtering dimension</strong> and click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/acs_connect_query3.png" title="acs_connect_query3.png" /></li>
+   <li><p>Choose <strong>Data linked to the filtering dimension</strong> and then select the <strong>Recipient delivery logs</strong> node and click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/acs_connect_query4.png" title="acs_connect_query4.png" /></li>
+   <li><p>Select <strong>Aggregates</strong> in the <strong>Data collected</strong> field and click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/acs_connect_query5.png" title="acs_connect_query5.png" /></li>
+   <li><p>Add a filtering condition to only take into account logs that were created during the last 365 days and click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/acs_connect_query6.png" title="acs_connect_query6.png" /></li>
+   <li><p>Define the output columns. Here, the only needed column is the one counting the number of deliveries. To do that:</p> 
+    <ul>
+     <li><p>Select <strong>Add</strong> on the right of the window.</p> </li>
+     <li><p>From the <strong>Select field</strong> window, click <strong>Advanced selection</strong>.</p> </li>
+     <li><p>Select <strong>Aggregate</strong>, then <strong>Count</strong>. Check the <strong>Distinct</strong> option, and click <strong>Next</strong>.</p> </li>
+     <li><p>In the list of fields, select the field used for the <strong>Count</strong> function. Choose a field that will always be populated, for example the <strong>Primary key</strong> field, and click <strong>Finish</strong>.</p> </li>
+     <li><p>Change the expression in the <strong>Alias</strong> column. This alias will allow you to easily retrieve the added column in the final delivery. For example <strong>NBdeliveries</strong>.</p> </li>
+     <li><p>Click <strong>Finish</strong> and save the <strong>Query</strong> activity configuration.</p> </li>
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/acs_connect_query7.png" title="acs_connect_query7.png" /></li>
+   <li><p>Save the workflow. The next section shows how to share the population with ACS.</p> </li>
+  </ol>
+  <h2 id="share-the-target-with-campaign-standard">Share the target with Campaign Standard</h2>
+  <p>Once the target population is defined, you can share it with ACS through a <strong>List update</strong> activity.</p> 
+  <ol>
+   <li><p>In the workflow created previously, add a <strong>List update</strong> activity and specify the list you want to update or create.</p> <p>Specify the folder in which you want to save the list in Campaign v7. Lists are subject to the folder mapping defined during the implementation, which can have an impact on their visilibity once shared in Campaign Standard. Refer to the <a href="../../integrations/using/synchronizing-audiences.md#rights-conversion" target="_blank">Rights conversion</a> section.</p> </li>
+   <li><p>Make sure the <strong>Share with ACS</strong> option is checked. It is checked by default.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/acs_connect_listupdate1.png" title="acs_connect_listupdate1.png" /></li>
+   <li><p>Save and execute the workflow.</p> <p>The target and its additional data are saved in a list in Campaign v7 and shared immediately as a list audience in Campaign Standard. Only the profiles that have been replicated are shared with ACS.</p> </li>
+  </ol>
+  <p>If an error occurs on the <strong>List update</strong> activity, it means that the synchronization with Campaign Standard may have failed. To be able to see more details about what went wrong, go to <strong>Administration</strong> &gt; <strong>ACS Connector</strong> &gt; <strong>Process</strong> &gt; <strong>Diagnosis</strong>. This folder contains synchronization workflows triggered by the <strong>List update</strong> activity execution. Refer to the <a href="../../integrations/using/troubleshooting-the-acs-connector.md" target="_blank">Troubleshooting the ACS Connector</a> section.</p> 
+  <h2 id="retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery">Retrieve the data in Campaign Standard and use it in a delivery</h2>
+  <p>Once the targeting workflow is executed in Campaign v7, you are able to find the list audience in read-only mode from the <strong>Audiences</strong> menu of Campaign Standard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/acs_connect_deliveryworkflow_audience.png" title="acs_connect_deliveryworkflow_audience.png" />
+  <p>By creating a delivery workflow in Campaign Standard, it is then possible to use this audience as well as the additional data that it contains in a delivery.</p> 
+  <ol>
+   <li><p>Create a new workflow from the <strong>Marketing activities</strong> menu.</p> </li>
+   <li><p>Add a <strong>Read audience</strong> activity and select the audience you previously shared from Campaign v7.</p> <p>This activity is used to retrieve the data of the selected audience. You can also apply an additional <strong>Source Filtering</strong> if needed by using the according tab of this activity.</p> </li>
+   <li><p>Add an <strong>Email delivery</strong> activity and configure it as any other <a href="https://helpx.adobe.com/campaign/standard/automating/using/email-delivery.html">email delivery activity</a>.</p> </li>
+   <li><p>Open the delivery content.</p> </li>
+   <li><p>Add a personalization field. From the popup, locate the <strong>Additional data (targetData)</strong> node. This node contains the additional data of the audience that were computed in the initial targeting workflow. You can use them as any other personalization field.</p> <p>For this example, the additional data coming from the original targeting workflow is the number of deliveries sent to each recipient in the last 365 days. The NBdeliveries alias specified in the targeting workflow is visible here.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/acs_connect_deliveryworkflow_targetdata.png" title="acs_connect_deliveryworkflow_targetdata.png" /></li>
+   <li><p>Save the delivery and the workflow.</p> <p>The workflow is now ready to be executed. The delivery will be analyzed and ready to be sent.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/acs_connect_deliveryworkflow_ready.png" title="acs_connect_deliveryworkflow_ready.png" /></li>
+  </ol>
+  <h2 id="send-and-monitor-your-delivery">Send and monitor your delivery</h2>
+  <p>Once the delivery and its content are ready, send the delivery, as described with more details in <a href="https://helpx.adobe.com/campaign/standard/automating/using/email-delivery.html">this section</a>:</p> 
+  <ol>
+   <li><p>Execute the delivery workflow. This step prepares the email for sending.</p> </li>
+   <li><p>From the delivery dashboard, manually confirm that the delivery can be sent.</p> </li>
+   <li><p>Monitor the reports and logs of the delivery:</p> 
+    <ul>
+     <li><p><strong>In Campaign Standard</strong>: Access <a href="https://helpx.adobe.com/campaign/standard/reporting/using/about-dynamic-reports.html">reports</a> and <a href="https://helpx.adobe.com/campaign/standard/sending/using/monitoring-a-delivery.html">logs</a> related to the delivery as for any delivery.</p> </li>
+     <li><p><strong>in Campaign v7 and Campaign Standard</strong>: Delivery IDs, email broad logs, and email tracking logs are synchronized to Campaign v7. You can then get à 360° view of your marketing campaigns from Campaign v7.</p> <p>Quarantines are automatically synchronized back to Campaign v7. This allows to take non-deliverable information into account for the next targeting performed in Campaign v7.</p> <p>You can find more information about quarantine management in Campaign Standard in <a href="https://helpx.adobe.com/campaign/standard/sending/using/understanding-quarantine-management.html">this section</a>.</p> </li>
+    </ul></li>
+  </ol>
+ </body>
+</html>

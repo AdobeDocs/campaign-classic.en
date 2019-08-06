@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="audience:production" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Introduction" name="jcr:description" />
+  <meta content="Introduction" name="jcr:title" />
+  <meta content="79c9b6df-16cf-47d5-beca-defb290dff56" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="2019-08-06T06:59:02.478-0400" name="jcr:created" />
+  <meta content="ac6e2bc1-50f5-4912-8ab2-488e13936693" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Introduction" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+ </head>
+ <body>
+  <p>This section presents the procedure to be applied to upgrade Adobe Campaign, client side and server side, and describes the switching to Unicode of an existing instance.</p> 
+  <note>
+   <p> For hosted instances, you must coordinate with your Adobe Administrator.<br /> For on-premise instances, you can get assistance from Adobe Consultants.<br /> </p> 
+  </note>
+  <p>The upgrade must be applied to all servers where Adobe Campaign is installed. </p> 
+  <ol>
+   <li><p>Migrate the redirection and tracking servers (Apache/IIS).</p> </li>
+   <li><p>Migrate the Power Booster/Cluster servers.</p> </li>
+   <li><p>Migrate the marketing server. </p> </li>
+  </ol>
+  <p>Adobe Campaign is based on several processes executed on the server side which you will need to manipulate during updates, in particular:</p> 
+  <ul>
+   <li><p>Application server (nlserver web)</p> </li>
+   <li><p>Delivery server (nlserver mta)</p> </li>
+   <li><p>Redirection server (webmdl)</p> </li>
+  </ul>
+  <note>
+   <p> For more on the various Adobe Campaign processes, refer to <a href="../../installation/using/general-architecture.md#logical-application-layer">this section</a>.<br /> When using the Power Booster or Power Cluster type architecture, you must apply this process to all Power Booster/Cluster servers.<br /> </p> 
+  </note>
+  <p>If the new version involves an alteration of the database structure, we recommend restarting the servers in the following order:</p> 
+  <ol>
+   <li><p>Application server (nlserver web),</p> </li>
+   <li><p>Redirection server (webmdl),</p> </li>
+   <li><p>Delivery server (nlserver mta).</p> </li>
+  </ol>
+ </body>
+</html>

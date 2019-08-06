@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Configuring the integration with Adobe Target" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="light" name="heroGradient" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Configuring the integration with Adobe Target" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="159bcfd9-2f80-452a-bf23-6969e0e9ecb4" name="jcr:predecessors" />
+  <meta content="9c8c77ab-ae50-459a-b8e1-24d4a5b6014a" name="jcr:uuid" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:integrations" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-08-06T06:59:40.176-0400" name="jcr:created" />
+  <meta content="Configuring the integration with Adobe Target" name="jcr:title" />
+ </head>
+ <body>
+  <h2 id="prerequisites">Prerequisites</h2>
+  <p>In order to use the integration between Adobe Campaign and Adobe Target, you must have:</p> 
+  <ul>
+   <li><p>Adobe Experience Cloud and Adobe Target organizations</p> </li>
+   <li><p>An Adobe Target rawbox specified to establish the connection with Adobe Campaign</p> </li>
+  </ul>
+  <h2 id="configuring-adobe-campaign">Configuring Adobe Campaign</h2>
+  <p>To configure Adobe Campaign:</p> 
+  <ol>
+   <li><p>Install the <strong>Integration with the Adobe Experience Cloud</strong> standard package. Installing an integration package is the same as installing a standard package, which is detailed in the <a href="../../platform/using/working-with-data-packages.md#importing-packages">Package Import</a> section. This gives you access to the shared assets via Digital Asset Manager.</p> </li>
+   <li><p>Enable connection via IMS (Adobe ID connection service) to use images shared via Adobe Experience Cloud in your emails. Consult the section about <a href="../../integrations/using/about-adobe-id.md">IMS</a>.</p> </li>
+   <li><p>In <strong>Administration &gt; Platform &gt; Options</strong>, configure the server and organization (Tenant) options for Adobe Target:</p> 
+    <ul>
+     <li><p><strong>TNT_EdgeServer</strong>: Adobe Target server used for the integration. This option is already selected by default. This value corresponds to the Adobe Target <strong>Domain Server</strong>, followed by the value <strong>/m2</strong>. For example: <strong>tt.omtrdc.net/m2</strong>.</p> </li>
+     <li><p><strong>TNT_TenantName</strong>: Adobe Target Organization name. This value corresponds to the name of the Adobe Target <strong>Client</strong>.</p> </li>
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/tar_options.png" title="tar_options.png" /></li>
+  </ol>
+ </body>
+</html>

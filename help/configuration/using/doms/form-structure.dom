@@ -1,0 +1,437 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2019-08-06T06:59:43.733-0400" name="jcr:created" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="e821a96d-49d7-4d55-bf9d-b349c974a0df" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Form structure" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="5bf11181-40e4-4d6c-b3ed-ea18a2072c44" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="Form structure" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Form structure" name="jcr:description" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="seoDescription" /> 
+ </head> 
+ <body> 
+  <p>The description of a form is a structured XML document that observes the grammar of the form schema <strong>xtk:form</strong>.</p> 
+  <p>The XML document of the input form must contain the <strong></strong></p> 
+  <form>
+    root element with the 
+   <strong>name</strong> and 
+   <strong>namespace</strong> attributes to populate the form name and namespace. 
+   <p></p> 
+  </form> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;form&amp;nbsp;name="form_name"&amp;nbsp;namespace="name_space"&gt;!!discoiqbr!!...!!discoiqbr!!&lt;/form&gt; 
+  </codeblock> 
+  <p>By default, a form is associated with the data schema with the same name and namespace. To associate a form with a different name, set the <strong>entity-schema</strong> attribute of the </p> 
+  <form>
+    element to the name of the schema key. 
+   <p></p> 
+  </form> 
+  <p>To illustrate the structure of an input form, let us describe an interface using the "cus:recipient" example schema:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;srcSchema&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;enumeration&amp;nbsp;name="gender"&amp;nbsp;basetype="byte"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;value&amp;nbsp;name="unknown"&amp;nbsp;label="Not&amp;nbsp;specified"&amp;nbsp;value="0"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;value&amp;nbsp;name="male"&amp;nbsp;label="Male"&amp;nbsp;value="1"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;value&amp;nbsp;name="female"&amp;nbsp;label="Female"&amp;nbsp;value="2"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/enumeration&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="email"&amp;nbsp;type="string"&amp;nbsp;length="80"&amp;nbsp;label="Email"&amp;nbsp;desc="E-mail&amp;nbsp;address&amp;nbsp;of&amp;nbsp;recipient"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="birthDate"&amp;nbsp;type="datetime"&amp;nbsp;label="Date"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="gender"&amp;nbsp;type="byte"&amp;nbsp;label="Gender"&amp;nbsp;enum="gender"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+  </codeblock> 
+  <p>The input form based on the example schema:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple1.png" title="d_ncs_integration_form_exemple1.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;form&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@gender"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@birthDate"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@email"/&gt;!!discoiqbr!!&lt;/form&gt; 
+  </codeblock> 
+  <p>The description of the edit controls starts from the </p> 
+  <form>
+    root element. 
+   <p></p> 
+  </form> 
+  <p>An edit control is entered in an <strong><input /></strong> element with the <strong>xpath</strong> attribute containing the path of the field in its schema.</p> 
+  <p>The edit control automatically adapts to the corresponding data type and uses the label defined in the schema. </p> 
+  <note> 
+   <p> You can overload the label defined in its data schema by adding the <strong>label</strong> attribute to the <input /> element:<br /> <input label="E-mail address" xpath="@name" /> </p> 
+  </note> 
+  <p>By default, each field is displayed on a single line and occupies all available space depending on the type of data.</p> 
+  <h2 id="formatting">Formatting</h2> 
+  <p>The layout of the controls looks like the layout used in HTML tables, with the possibility of dividing a control into several columns, interlacing elements, or specifying the occupation of available space. Remember, however, that formatting only lets you divide the area up by proportions; you cannot specify fixed dimensions for an object.</p> 
+  <p>To display the controls of the above example in two columns:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple2.png" title="d_ncs_integration_form_exemple2.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;form&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;colcount="2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@gender"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@birthDate"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&lt;/form&gt; 
+  </codeblock> 
+  <p>The <strong> 
+    <container /></strong> element with the <strong>colcount</strong> attribute lets you force the display of child controls onto two columns.</p> 
+  <p>The <strong>colspan</strong> attribute on a control extends the control by the number of columns entered in its value:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple3.png" title="d_ncs_integration_form_exemple3.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;form&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;colcount="2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@gender"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@birthDate"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@email"&amp;nbsp;colspan="2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&lt;/form&gt;&amp;nbsp; 
+  </codeblock> 
+  <p>By populating the <strong>type="frame"</strong> attribute, the container adds a frame around the child controls with the label contained in the <strong>label</strong> attribute:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple4.png" title="d_ncs_integration_form_exemple4.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;form&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;colcount="2"&amp;nbsp;type="frame"&amp;nbsp;label="General"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@gender"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@birthDate"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@email"&amp;nbsp;colspan="2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&lt;/form&gt; 
+  </codeblock> 
+  <p>A <strong> 
+    <static /></strong> element can be used to format the input form:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple5.png" title="d_ncs_integration_form_exemple5.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;form&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;static&amp;nbsp;type="separator"&amp;nbsp;colspan="2"&amp;nbsp;label="General"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@gender"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@birthDate"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@email"&amp;nbsp;colspan="2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;static&amp;nbsp;type="help"&amp;nbsp;label="General&amp;nbsp;information&amp;nbsp;about&amp;nbsp;recipient&amp;nbsp;with&amp;nbsp;date&amp;nbsp;of&amp;nbsp;birth,&amp;nbsp;gender,&amp;nbsp;and&amp;nbsp;e-mail&amp;nbsp;address."&amp;nbsp;colspan="2"/&gt;!!discoiqbr!!&lt;/form&gt; 
+  </codeblock> 
+  <p>The <strong> 
+    <static /></strong> tag with the <strong>separator</strong> type lets you add a separator bar with a label contained in the <strong>label</strong> attribute.</p> 
+  <p>A help text was added using the 
+   <static a="" tag="" with="">
+     help type. The content of the text is entered in the 
+    <strong>label</strong> attribute. 
+   </static></p> 
+  <h2 id="containers">Containers</h2> 
+  <p>Containers let you group a set of controls. They are represented by the <strong> 
+    <container /></strong> element. They were used above to format controls over several columns.</p> 
+  <p>The <strong>xpath</strong> attribute on a 
+   <container>
+     lets you simplify the referencing of child controls. The referencing of controls is then relative to the parent 
+    <container>
+      parent. 
+    </container> 
+   </container></p> 
+  <p>Example of a container without "xpath":</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;container&amp;nbsp;colcount="2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="location/@zipCode"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="location/@city"/&gt;!!discoiqbr!!&lt;/container&gt; 
+  </codeblock> 
+  <p>Example with the addition of "xpath" to the element called "location":</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;container&amp;nbsp;colcount="2"&amp;nbsp;xpath="location"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@zipCode"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@city"/&gt;!!discoiqbr!!&lt;/container&gt; 
+  </codeblock> 
+  <h3 id="types-of-container">Types of container</h3> 
+  <p>Containers are used to construct complex controls using a set of fields formatted in pages.</p> 
+  <h4 id="tab-container">Tab container</h4> 
+  <p>A tab container formats data in pages that are accessible from tabs.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple6.png" title="d_ncs_integration_form_exemple6.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;container&amp;nbsp;type="notebook"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;colcount="2"&amp;nbsp;label="General"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@gender"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@birthDate"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@email"&amp;nbsp;colspan="2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;colcount="2"&amp;nbsp;label="Location"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&lt;/container&gt; 
+  </codeblock> 
+  <p>The main container is defined by the <strong>type="notebook"</strong> attribute. Tabs are declared in the child containers, and the label of the tabs is populated from the <strong>label</strong> attribute.</p> 
+  <note> 
+   <p> A <strong>style="down|up</strong>(by default)<strong>"</strong> feature forces the vertical positioning of tab labels below or above the control. This feature is optional.<br /> 
+    <container style="down" type="notebook">
+      ... 
+    </container> </p> 
+  </note> 
+  <h4 id="icon-list">Icon list</h4> 
+  <p>This container displays a vertical icon bar that lets you select the pages to be displayed.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple8.png" title="d_ncs_integration_form_exemple8.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;container&amp;nbsp;type="iconbox"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;colcount="2"&amp;nbsp;label="General"&amp;nbsp;img="xtk:properties.png"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@gender"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@birthDate"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@email"&amp;nbsp;colspan="2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;colcount="2"&amp;nbsp;label="Location"&amp;nbsp;img="nms:msgfolder.png"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&lt;/container&gt; 
+  </codeblock> 
+  <p>The main container is defined by the <strong>type="iconbox"</strong> attribute. The pages associated with the icons are declared in the child containers. The label of the icons is populated from the <strong>label</strong> attribute.</p> 
+  <p>The icon of a page is populated from the <strong>img="<img />"</strong> attribute, where <strong><img /></strong> is the name of the image corresponding to its key made up of the name and namespace (e.g., "xtk:properties.png"). </p> 
+  <p>The images are available from the <strong>Administration &gt; Configuration &gt; Images</strong> node.</p> 
+  <h4 id="visibility-container">Visibility container</h4> 
+  <p>You can mask a set of controls via a dynamic condition.</p> 
+  <p>This example illustrates the visibility of controls on the value of the "Gender" field:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;container&amp;nbsp;type="visibleGroup"&amp;nbsp;visibleIf="@gender=1"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&lt;/container&gt;!!discoiqbr!!&lt;container&amp;nbsp;type="visibleGroup"&amp;nbsp;visibleIf="@gender=2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&lt;/container&gt; 
+  </codeblock> 
+  <p>A visibility container is defined by the attribute <strong>type="visibleGroup"</strong>. The <strong>visibleIf</strong> attribute contains the visibility condition.</p> 
+  <p>Examples of condition syntax: </p> 
+  <ul> 
+   <li><p><strong>visibleIf="@email='peter.martinez@neeolane.net'"</strong>: tests equality on string-type data. The comparison value must be in quotes.</p> </li> 
+   <li><p><strong>visibleIf="@gender &gt;= 1 and @gender != 2"</strong>: condition on a numeric value.</p> </li> 
+   <li><p><strong>visibleIf="@boolean1==true or @boolean2==false"</strong>: test on Boolean fields.</p> </li> 
+  </ul> 
+  <h4 id="enabling-container">Enabling container</h4> 
+  <p>This container lets you enable or disable a set of data from a dynamic condition. Disabling a control prevents it from being edited. The following example illustrates the enabling of controls from the value of the "Gender" field:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;container&amp;nbsp;type="enabledGroup"&amp;nbsp;enabledIf="@gender=1"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&lt;/container&gt;!!discoiqbr!!&lt;container&amp;nbsp;type="enabledGroup"&amp;nbsp;enabledIf="@gender=2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&lt;/container&gt; 
+  </codeblock> 
+  <p>An enabling container is defined by the <strong>type="enabledGroup"</strong> attribute. The <strong>enabledIf</strong> attribute contains the activation condition.</p> 
+  <h2 id="editing-a-link">Editing a link</h2> 
+  <p>Remember that a link is declared in the data schema as follows:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;element&amp;nbsp;label="Company"&amp;nbsp;name="company"&amp;nbsp;target="cus:company"&amp;nbsp;type="link"/&gt; 
+  </codeblock> 
+  <p>The edit control of the link in its input form is as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple9.png" title="d_ncs_integration_form_exemple9.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;input&amp;nbsp;xpath="company"/&gt; 
+  </codeblock> 
+  <p>Target selection is accessible via the edit field. Entry is assisted by type-ahead so that a target element can easily be found from the first few characters entered. The search is then based on the <strong>Compute string</strong> defined in the targeted schema. If the schema does not exist after validation in the control, a confirmation message of on-the-fly target creation is displayed. The confirmation creates a new record in the target table and associates it with the link.</p> 
+  <p>A drop-down list is used to select a target element from the list of records already created.</p> 
+  <p> The <strong>Modify the link</strong> (folder) icon launches a selection form with the list of targeted elements and a filter zone:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple10.png" title="d_ncs_integration_form_exemple10.png" /> 
+  <p>The <strong>Edit link</strong> (magnifier) icon launches the edit form of the linked element. The form used is deduced by default on the key of the targeted schema. The <strong>form</strong> attribute lets you force the name of the edit form (e.g. "cus:company2").</p> 
+  <p>You can restrict the choice of target elements by adding the <strong> 
+    <sysfilter /></strong> element from the link definition in the input form:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;input&amp;nbsp;xpath="company"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;sysFilter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="[location/@city]&amp;nbsp;=&amp;nbsp;&amp;nbsp;'Newton"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/sysFilter&gt;!!discoiqbr!!&lt;/input&gt; 
+  </codeblock> 
+  <p>You can also sort the list with the <strong> 
+    <orderby /></strong> element:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;input&amp;nbsp;xpath="company"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;orderBy&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="[location/@zipCode]"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/orderBy&gt;!!discoiqbr!!&lt;/input&gt; 
+  </codeblock> 
+  <h3 id="control-properties">Control properties</h3> 
+  <ul> 
+   <li><p><strong>noAutoComplete</strong>: disables type-ahead (with the value "true")</p> </li> 
+   <li><p><strong>createMode</strong>: creates the link on the fly if it does not exist. Possible values are:</p> 
+    <ul> 
+     <li><p><strong>none</strong>: disables creation. An error message is displayed if the link does not exist</p> </li> 
+     <li><p><strong>inline</strong>: creates the link with the content in the edit field</p> </li> 
+     <li><p><strong>edition</strong>: displays the edit form on the link. When the form is validated, the data is saved (default mode)</p> </li> 
+    </ul></li> 
+   <li><p><strong>noZoom</strong>: no edit form on the link (with the value "true")</p> </li> 
+   <li><p><strong>form</strong>: overloads the edit form of the targeted element</p> </li> 
+  </ul> 
+  <h2 id="list-of-links">List of links</h2> 
+  <p>A link entered in the data schema as a collection element (unbound="true") must go through a list in order to view all the elements associated with it.</p> 
+  <p>The principle consists in displaying the list of linked elements with optimized data loading (downloading by data batch, execution of the list only if it is visible).</p> 
+  <p>Example of a collection link in a schema:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;element&amp;nbsp;label="Events"&amp;nbsp;name="rcpEvent"&amp;nbsp;target="cus:event"&amp;nbsp;type="link"&amp;nbsp;unbound="true"&gt;!!discoiqbr!!...!!discoiqbr!!&lt;/element&gt; 
+  </codeblock> 
+  <p>The list in its input form:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple11.png" title="d_ncs_integration_form_exemple11.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &amp;nbsp;&lt;input&amp;nbsp;xpath="rcpEvent"&amp;nbsp;type="linklist"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@label"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@date"/&gt;!!discoiqbr!!&lt;/input&gt; 
+  </codeblock> 
+  <p>List control is defined by the <strong>type="linklist"</strong> attribute. The list path must refer to the collection link.</p> 
+  <p>The columns are declared via the <strong><input /></strong> elements of the list. The <strong>xpath</strong> attribute refers to the path of the field in the target schema.</p> 
+  <p>A toolbar with a label (defined on the link in the schema) is automatically placed above the list. </p> 
+  <p>The list can be filtered via the <strong>Filters</strong> button and configured to add and sort the columns.</p> 
+  <p>The <strong>Add</strong> and <strong>Delete</strong> buttons let you add and delete collection elements on the link. By default, adding an element launches the edit form of the target schema.</p> 
+  <p>The <strong>Detail</strong> button is automatically added when the <strong>zoom="true"</strong> attribute is completed on the <strong><input /></strong> tag of the list: it lets you launch the edit form of the selected line.</p> 
+  <p>Filtering and sorting can be applied when the list is being loaded:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &amp;nbsp;&lt;input&amp;nbsp;xpath="rcpEvent"&amp;nbsp;type="linklist"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@label"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@date"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;sysFilter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@type&amp;nbsp;=&amp;nbsp;1"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/sysFilter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;orderBy&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@date"&amp;nbsp;sortDesc="true"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/orderBy&gt;!!discoiqbr!!&lt;/input&gt; 
+  </codeblock> 
+  <h3 id="relationship-table">Relationship table</h3> 
+  <p>A relationship table lets you link two tables with N-N cardinality. The relationship table contains only the links to the two tables.</p> 
+  <p>Adding an element to the list should therefore let you complete a list from one of the two links in the relationship table.</p> 
+  <p>Example of a relationship table in a schema:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;srcSchema&amp;nbsp;name="subscription"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&amp;nbsp;type="link"&amp;nbsp;target="cus:recipient"&amp;nbsp;label="Recipient"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="service"&amp;nbsp;type="link"&amp;nbsp;target="cus:service"&amp;nbsp;label="Subscription&amp;nbsp;service"/&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+  </codeblock> 
+  <p>For our example, we start with the input form of the "cus:recipient" schema. The list must display the associations with subscriptions to services and must allow you to add a subscription by selecting an existing service.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple12.png" title="d_ncs_integration_form_exemple12.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;input&amp;nbsp;type="linklist"&amp;nbsp;xpath="subscription"&amp;nbsp;xpathChoiceTarget="service"&amp;nbsp;xpathEditTarget="service"&amp;nbsp;zoom="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="recipient"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="service"/&gt;!!discoiqbr!!&lt;/input&gt; 
+  </codeblock> 
+  <p>The <strong>xpathChoiceTarget</strong> attribute lets you launch a selection form from the link entered. Creating the relationship table record will automatically update the link to the current recipient and the selected service.</p> 
+  <note> 
+   <p> The <strong>xpathEditTarget</strong> attribute lets you force editing of the selected line on the link entered. <br /> </p> 
+  </note> 
+  <h3 id="list-properties">List properties</h3> 
+  <ul> 
+   <li><p><strong>noToolbar</strong>: hides the toolbar (with value "true")</p> </li> 
+   <li><p><strong>toolbarCaption</strong>: overloads the toolbar label</p> </li> 
+   <li><p><strong>toolbarAlign</strong>: modifies the vertical or horizontal geometry of the toolbar (possible values: "vertical"|"horizontal") </p> </li> 
+   <li><p><strong>img</strong>: displays the image associated with the list</p> </li> 
+   <li><p><strong>form</strong>: overloads the edit form of the targeted element</p> </li> 
+   <li><p><strong>zoom</strong>: adds the <strong>Zoom</strong> button to edit the targeted element</p> </li> 
+   <li><p><strong>xpathEditTarget</strong>: sets editing on the link entered</p> </li> 
+   <li><p><strong>xpathChoiceTarget</strong>: for addition, launches the selection form on the link entered</p> </li> 
+  </ul> 
+  <h2 id="memory-list-controls">Memory list controls</h2> 
+  <p>Memory lists let you edit the collection elements using list data preloading. This list cannot be filtered or configured.</p> 
+  <p>These lists are used on XML mapped collection elements or on low-volume links.</p> 
+  <h3 id="column-list">Column list</h3> 
+  <p>This control displays an editable column list with a toolbar containing Add and Delete buttons.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple13.png" title="d_ncs_integration_form_exemple13.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;input&amp;nbsp;xpath="rcpEvent"&amp;nbsp;type="list"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@label"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@date"/&gt;!!discoiqbr!!&lt;/input&gt; 
+  </codeblock> 
+  <p>The list control must be filled in with the <strong>type="list"</strong> attribute, and the path of the list must refer to the collection element.</p> 
+  <p>The columns are declared in the child <strong><input /></strong> tags of the list. Column label and size can be forced with the <strong>label</strong> and <strong>colSize</strong> attributes.</p> 
+  <note> 
+   <p> Sort-order arrows are added automatically when the <strong>ordered="true"</strong> attribute is added to the collection element in the data schema.<br /> </p> 
+  </note> 
+  <p>The toolbar buttons can be aligned horizontally:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple14.png" title="d_ncs_integration_form_exemple14.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;input&amp;nbsp;nolabel="true"&amp;nbsp;toolbarCaption="List&amp;nbsp;of&amp;nbsp;events"&amp;nbsp;type="list"&amp;nbsp;xpath="rcpEvent"&amp;nbsp;zoom="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@label"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@date"/&gt;!!discoiqbr!!&lt;/input&gt; 
+  </codeblock> 
+  <p>The <strong>toolbarCaption</strong> attribute forces the horizontal alignment of the toolbar and enters the title above the list.</p> 
+  <h4 id="zoom-in-a-list">Zoom in a list</h4> 
+  <p>Insertion and editing of the data in a list can be entered in a separate edit form.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple15.png" title="d_ncs_integration_form_exemple15.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;input&amp;nbsp;nolabel="true"&amp;nbsp;toolbarCaption="List&amp;nbsp;of&amp;nbsp;events"&amp;nbsp;type="list"&amp;nbsp;xpath="rcpEvent"&amp;nbsp;zoom="true"&amp;nbsp;zoomOnAdd="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@label"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@date"/&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;form&amp;nbsp;colcount="2"&amp;nbsp;label="Event"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@label"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@date"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/form&gt;!!discoiqbr!!&lt;/input&gt; 
+  </codeblock> 
+  <p>The edit form is completed from the <strong></strong></p> 
+  <form>
+    element under list definition. Its structure is identical to that of an input form. 
+   <p></p> 
+  </form> 
+  <p>The <strong>Detail</strong> button is added automatically when the <strong>zoom="true"</strong> attribute is completed on the <strong><input /></strong> tag of the list. This attribute lets you launch the edit form of the selected line.</p> 
+  <note> 
+   <p> Adding the <strong>zoomOnAdd="true"</strong> attribute forces the edit form to be called up when a list element is inserted.<br /> </p> 
+  </note> 
+  <h3 id="list-properties">List properties</h3> 
+  <ul> 
+   <li><p><strong>noToolbar</strong>: hides the toolbar (with value "true")</p> </li> 
+   <li><p><strong>toolbarCaption</strong>: overloads the toolbar label</p> </li> 
+   <li><p><strong>toolbarAlign</strong>: modifies the positioning of the toolbar (possible values: "vertical"|"horizontal") </p> </li> 
+   <li><p><strong>img</strong>: displays the image associated with the list</p> </li> 
+   <li><p><strong>form</strong>: overloads the edit form of the targeted element</p> </li> 
+   <li><p><strong>zoom</strong>: adds the <strong>Zoom</strong> button to edit the targeted element</p> </li> 
+   <li><p><strong>zoomOnAdd</strong>: launches the edit form on the addition</p> </li> 
+   <li><p><strong>xpathChoiceTarget</strong>: for addition, launches the selection form on the link entered</p> </li> 
+  </ul> 
+  <h2 id="non-editable-fields">Non-editable fields</h2> 
+  <p>To display a field and prevent it from being edited, use the <strong> 
+    <value /></strong> tag or complete the <strong>readOnly="true"</strong> attribute on the <strong><input /></strong> tag.</p> 
+  <p>Example on the "Gender" field:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple16.png" title="d_ncs_integration_form_exemple16.png" /> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;value&amp;nbsp;value="@gender"/&gt;!!discoiqbr!!&lt;input&amp;nbsp;xpath="@gender"&amp;nbsp;readOnly="true"/&gt;!!discoiqbr!! 
+  </codeblock> 
+  <h2 id="radio-button">Radio button</h2> 
+  <p>A radio button lets you choose from several options. The <strong><input /></strong> tags are used to list the possible options, and the <strong>checkedValue</strong> attribute specifies the value associated with the choice. </p> 
+  <p>Example on the "Gender" field:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;input&amp;nbsp;type="RadioButton"&amp;nbsp;xpath="@gender"&amp;nbsp;checkedValue="0"&amp;nbsp;label="Choice&amp;nbsp;1"/&gt;!!discoiqbr!!&lt;input&amp;nbsp;type="RadioButton"&amp;nbsp;xpath="@gender"&amp;nbsp;checkedValue="1"&amp;nbsp;label="Choice&amp;nbsp;2"/&gt;!!discoiqbr!!&lt;input&amp;nbsp;type="RadioButton"&amp;nbsp;xpath="@gender"&amp;nbsp;checkedValue="2"&amp;nbsp;label="Choice&amp;nbsp;3"/&gt; 
+  </codeblock> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple17.png" title="d_ncs_integration_form_exemple17.png" /> 
+  <h2 id="checkbox">Checkbox</h2> 
+  <p>A checkbox reflects a Boolean state (selected or not). By default, this control is used by "Boolean" (true/false) fields. A variable taking a default value of 0 or 1 can be associated with this button. This value can be overloaded via the <strong>checkValue</strong> attributes.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;input&amp;nbsp;xpath="@boolean1"/&gt;!!discoiqbr!!&lt;input&amp;nbsp;xpath="@field1"&amp;nbsp;type="checkbox"&amp;nbsp;checkedValue="Y"/&gt; 
+  </codeblock> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple20.png" title="d_ncs_integration_form_exemple20.png" /> 
+  <h2 id="navigation-hierarchy-edit">Navigation hierarchy edit</h2> 
+  <p>This control builds a tree on a set of fields to be edited.</p> 
+  <p>The controls to be edited are grouped in a <strong> 
+    <container /></strong> entered under the <strong><input /></strong> tag of the tree control:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;input&amp;nbsp;nolabel="true"&amp;nbsp;type="treeEdit"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;label="Text&amp;nbsp;fields"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@text1"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@text2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;label="Boolean&amp;nbsp;fields"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@boolean1"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@boolean2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&lt;/input&gt; 
+  </codeblock> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple18.png" title="d_ncs_integration_form_exemple18.png" /> 
+  <h2 id="expression-field">Expression field</h2> 
+  <p>An expression field updates a field dynamically from an expression; the <strong><input /></strong> tag is used with an <strong>xpath</strong> attribute to enter the path of the field to be updated and an <strong>expr</strong> attribute containing the update expression.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;!--&amp;nbsp;Example:&amp;nbsp;updating&amp;nbsp;the&amp;nbsp;boolean1&amp;nbsp;field&amp;nbsp;from&amp;nbsp;the&amp;nbsp;value&amp;nbsp;contained&amp;nbsp;in&amp;nbsp;the&amp;nbsp;field&amp;nbsp;with&amp;nbsp;path&amp;nbsp;/tmp/@flag&amp;nbsp;--&gt;!!discoiqbr!!&lt;input&amp;nbsp;expr="Iif([/tmp/@flag]=='On',&amp;nbsp;true,&amp;nbsp;false)"&amp;nbsp;type="expr"&amp;nbsp;xpath="@boolean1"/&gt;!!discoiqbr!!&lt;input&amp;nbsp;expr="[/ignored/@action]&amp;nbsp;==&amp;nbsp;'FCP'"&amp;nbsp;type="expr"&amp;nbsp;xpath="@launchFCP"/&gt; 
+  </codeblock> 
+  <h2 id="context-of-forms">Context of forms</h2> 
+  <p>The execution of an input form initializes an XML document containing the data of the entity being edited. This document represents the context of the form, and can be used as a workspace.</p> 
+  <h3 id="updating-the-context">Updating the context</h3> 
+  <p>To modify the context of the form, use the <strong> 
+    <set expr="<value>" xpath="<field>" /></strong> tag, where <strong> 
+    <field> 
+    </field></strong> is the destination field, and <strong> 
+    <value /></strong> is the update expression or value.</p> 
+  <p>Examples of use of the <strong> 
+    <set /></strong> tag:</p> 
+  <ul> 
+   <li><p><strong> 
+      <set expr="'Test'" strong="" xpath="/tmp/@test">
+        : positions the 'Test' value at temporary location /tmp/@test1 
+      </set></strong></p><strong> </strong></li> 
+   <li><p><strong> 
+      <set expr="'Test'" strong="" xpath="@lastName">
+        : updates the entity on the "lastName" attribute with the 'Test' value 
+      </set></strong></p><strong> </strong></li> 
+   <li><p><strong> 
+      <set expr="true" strong="" xpath="@boolean1">
+        : sets the value of the "boolean1" field to "true" 
+      </set></strong></p><strong> </strong></li> 
+   <li><p><strong> 
+      <set expr="@lastName" strong="" xpath="/tmp/@test">
+        : updates with the content of the "lastName" attribute 
+      </set></strong></p><strong> </strong></li> 
+  </ul> 
+  <p>The context of the form can be updated when initializing and closing the form via the <strong> 
+    <enter /></strong> and <strong> 
+    <leave /></strong> tags.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;form&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;enter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;set...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/enter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;leave&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;set...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/leave&gt;!!discoiqbr!!&lt;/form&gt; 
+  </codeblock> 
+  <note> 
+   <p> The 
+    <enter>
+      and 
+     <leave>
+       tags can be used on the 
+      <container>
+        of pages ("notebook" and "iconbox" types). 
+       <br /> 
+      </container> 
+     </leave> 
+    </enter></p> 
+  </note> 
+  <h3 id="expression-language-">Expression language</h3> 
+  <p>A macro-language can be used in form definition in order to perform conditional tests.</p> 
+  <p>The <strong> 
+    <if expr="<expression>" /></strong> tag executes the instructions specified under the tag if the expression is verified:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;if&amp;nbsp;expr="([/tmp/@test]&amp;nbsp;==&amp;nbsp;'Test'&amp;nbsp;or&amp;nbsp;@lastName&amp;nbsp;!=&amp;nbsp;'Doe')&amp;nbsp;and&amp;nbsp;@boolean2&amp;nbsp;==&amp;nbsp;true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;set&amp;nbsp;xpath="@boolean1"&amp;nbsp;expr="true"/&gt;!!discoiqbr!!&lt;/if&gt; 
+  </codeblock> 
+  <p>The <strong> 
+    <check expr="<condition>" /></strong> tag combined with the <strong> 
+    <error /></strong> tag prevents validation of the form and displays an error message if the condition is not satisfied:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;leave&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;check&amp;nbsp;expr="/tmp/@test&amp;nbsp;!=&amp;nbsp;''"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;error&gt;You&amp;nbsp;must&amp;nbsp;populate&amp;nbsp;the&amp;nbsp;'Test'&amp;nbsp;field!&lt;/error&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/check&gt;!!discoiqbr!!&lt;/leave&gt; 
+  </codeblock> 
+  <h2 id="wizards">Wizards</h2> 
+  <p>A wizard guides you through a set of data entry steps in the form of pages. The data entered is saved when you validate the form.</p> 
+  <p>A wizard has the following structure:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;form&amp;nbsp;type="wizard"&amp;nbsp;name="example"&amp;nbsp;namespace="cus"&amp;nbsp;img="nms:rcpgroup32.png"&amp;nbsp;label="Wizard&amp;nbsp;example"&amp;nbsp;entity-schema="nms:recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;title="Title&amp;nbsp;of&amp;nbsp;page&amp;nbsp;1"&amp;nbsp;desc="Long&amp;nbsp;description&amp;nbsp;of&amp;nbsp;page&amp;nbsp;1"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@lastName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="comment"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;title="Title&amp;nbsp;of&amp;nbsp;page&amp;nbsp;2"&amp;nbsp;desc="Long&amp;nbsp;description&amp;nbsp;of&amp;nbsp;page&amp;nbsp;2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&lt;/form&gt;!!discoiqbr!! 
+  </codeblock> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_exemple19.png" title="d_ncs_integration_form_exemple19.png" /> 
+  <p>The presence of the <strong>type="wizard"</strong> attribute on the <strong></strong></p> 
+  <form>
+    element lets you define the wizard mode in the construction of the form. 
+   <p></p> 
+  </form> 
+  <p>The pages are completed from 
+   <container are="" children="" of="" the="" which="" /></p> 
+  <form>
+    element. The 
+   <container a="" element="" is="" of="" page="" populated="" the="" with="">
+     title attributes for the title and 
+    <strong>desc</strong> to display the description under the page title. 
+    <p></p> 
+   </container> 
+  </form> 
+  <p>The <strong>Previous</strong> and <strong>Next</strong> buttons are automatically added to allow browsing between pages. </p> 
+  <p>The <strong>Finish</strong> button saves the data entered and closes the form.</p> 
+  <h3 id="soap-methods">SOAP methods</h3> 
+  <p>SOAP method execution can be launched from a populated <strong> 
+    <leave /></strong> tag at the end of a page.</p> 
+  <p>The <strong> 
+    <soapcall /></strong> tag contains the call for the method with the following input parameters:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;soapCall&amp;nbsp;name="&lt;name&gt;"&amp;nbsp;service="&lt;schema&gt;"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;type="&lt;type&gt;"&amp;nbsp;exprIn="&lt;xpath&gt;"/&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&lt;/soapCall&gt; 
+  </codeblock> 
+  <p>The name of the service and its implementation schema are entered via the <strong>name</strong> and <strong>service</strong> attributes of the <strong> 
+    <soapcall /></strong> tag.</p> 
+  <p>The input parameters are described on the <strong><param /></strong> elements under the <strong> 
+    <soapcall /></strong> tag. </p> 
+  <p>The parameter type must be specified via the <strong>type</strong> attribute. The possible types are as follows: </p> 
+  <ul> 
+   <li><p><strong>string</strong>: character string</p> </li> 
+   <li><p><strong>boolean</strong>: Boolean</p> </li> 
+   <li><p><strong>byte</strong>: 8-bit integer</p> </li> 
+   <li><p><strong>short</strong>: 16-bit integer</p> </li> 
+   <li><p><strong>long</strong>: 32-bit integer</p> </li> 
+   <li><p><strong>short</strong>: 16-bit integer</p> </li> 
+   <li><p><strong>double</strong>: double-precision floating point number</p> </li> 
+   <li><p><strong>DOMElement</strong>: element-type node</p> </li> 
+  </ul> 
+  <p>The <strong>exprIn</strong> attribute contains the location of the data to be passed as a parameter.</p> 
+  <p><strong>Example</strong>:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;leave&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;soapCall&amp;nbsp;name="RegisterGroup"&amp;nbsp;service="nms:recipient"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;type="DOMElement"&amp;nbsp;exprIn="/tmp/entityList"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;type="DOMElement"&amp;nbsp;exprIn="/tmp/choiceList"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;type="boolean"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;exprIn="true"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/soapCall&gt;!!discoiqbr!!&lt;/leave&gt; 
+  </codeblock> 
+ </body> 
+</html>

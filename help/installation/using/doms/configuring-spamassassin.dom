@@ -1,0 +1,137 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Configuring SpamAssassin" name="navTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-08-06T06:59:33.139-0400" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Configuring SpamAssassin" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Configuring SpamAssassin" name="jcr:description" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="a492e9a1-9673-4b6c-a235-01babcbd62b8" name="jcr:uuid" /> 
+  <meta content="5a958ef5-1611-4d03-bd50-14f6a00da47c" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p> Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the <a href="../../installation/using/hosting-models.md">Hosting models</a> section or to <a href="https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html">this article</a>.<br /> </p> 
+  </note> 
+  <h2 id="overview">Overview</h2> 
+  <p>SpamAssassin is a piece of software designed to filter undesirable emails. In conjunction with this software, Adobe Campaign can assign a score to e-mails and determine whether a message is likely to be deemed undesirable before delivery is launched. To do this, SpamAssassin must be installed and configured on the application server(s) of Adobe Campaign and requires a certain number of additional Perl modules to operate. </p> 
+  <p>The deployment and integration of SpamAssassin as described in this chapter are based on default software installation, as are filtering and scoring rules, which are those provided by SpamAssassin without any alterations or optimizations. Score attribution and message qualification are based exclusively on the configuration of SpamAssassin options and on filtering rules. Network administrators are responsible for adapting them to their company's needs. </p> 
+  <note>
+    The qualification of emails as undesirable by SpamAssassin is based entirely on filtering and scoring rules. These rules therefore have to be updated at least once a day in order for your SpamAssassin installation and its integration into Adobe Campaign to be fully functional and to guarantee the relevance of scores assigned to your deliveries before sending. This update is the responsibility of the server administrator hosting SpamAssassin. 
+   <br /> 
+  </note> 
+  <p>Using SpamAssassin in Adobe Campaign provides an indication on the possible behavior of mail servers which use SpamAssassin when they receive email sent by Adobe Campaign. However, it is possible that the mail servers of internet providers or online mail servers still consider the messages sent by Adobe Campaign as undesirable.</p> 
+  <p>Deploying SpamAssassin and its modules in Perl requires Adobe Campaign application servers equipped with internet access via a HTTP connection (TCP/80 flow).</p> 
+  <h2 id="installing-on-a-windows-machine">Installing on a Windows machine</h2> 
+  <p>To install and configure SpamAssassin on Windows to enable integration with Adobe Campaign, apply the following steps:</p> 
+  <ol> 
+   <li><p>Install SpamAssassin</p> </li> 
+   <li><p>Integrate SpamAssassin into Adobe Campaign</p> </li> 
+  </ol> 
+  <h3 id="installing-spamassassin">Installing SpamAssassin</h3> 
+  <ol> 
+   <li><p>Connect to the <a href="http://support.neolane.net">Extranet portal</a> using your user credentials.</p> </li> 
+   <li><p>Go to the <strong>Download center</strong> then browse the page to find the <strong>Tools</strong> section.</p> </li> 
+   <li><p>Download the <strong>Spam Assassin (Windows Installation) (1.0)</strong> file.</p> </li> 
+   <li><p>Copy this file onto the Adobe Campaign server then unzip it.</p> 
+    <note> 
+     <p> You can choose to unzip the file wherever you want provided that the path is made up of any of the following regular expression characters: <strong>-_A-Za-zxA0-xFF0-9.%@=+,/\:.</strong>. The installation path must not include any whitespace characters.<br /> </p> 
+    </note></li> 
+   <li><p>Go to the file in which you have unzipped the file then double click on the <strong>run_me.bat</strong> file to launch the installation script.</p> <p>If a Windows Shell appears and continues to be displayed for a few seconds, wait until the installation and the update have finished, then click <strong>Enter</strong>. </p> <p>If the Windows Shell does not appear or is not displayed before instantly disappearing, follow these steps, double-click the <strong>portableShell.bat</strong> file to display a Windows Shell and check that the Shell path corresponds to the folder in which the <strong>spamassassin.zip</strong> file has been unzipped. If this is not the case, access it using the <strong>cd</strong> command.</p> <p>Enter <strong>run_me.bat</strong> then click <strong>Enter</strong> to start the installation and update process. The operation returns one of the following values in order to indicate the result of the update.</p> 
+    <ul> 
+     <li><p><strong>0</strong>: an update has been carried out.</p> </li> 
+     <li><p><strong>1</strong>: No new update available.</p> </li> 
+     <li><p><strong>2</strong>: no new update available.</p> </li> 
+     <li><p><strong>3</strong>: update failed during prior verification.</p> </li> 
+     <li><p><strong>4</strong> or more: an error has occurred.</p> </li> 
+    </ul></li> 
+   <li><p>To check that the SpamAssassin installation was successful, use the GTUBE test (Generic Test for Unsolicited Bulk Email) using the following procedure:</p> 
+    <ol> 
+     <li><p>Create a text file and save it under <strong>C:TestSpamMail.txt</strong>.</p> </li> 
+     <li><p>Insert the following content into the file:</p> 
+      <codeblock gutter="true" class="syntax html">
+        Subject:&amp;nbsp;Test&amp;nbsp;Spam&amp;nbsp;Mail&amp;nbsp;(GTUBE)!!discoiqbr!!Message-ID:&amp;nbsp;&lt;1010101@example.net&gt;!!discoiqbr!!Date:&amp;nbsp;MM-DD-YY!!discoiqbr!!From:&amp;nbsp;Sender&amp;nbsp;&lt;sender@example.net&gt;!!discoiqbr!!To:&amp;nbsp;Recipient&amp;nbsp;&lt;recipient@example.net&gt;!!discoiqbr!!Precedence:&amp;nbsp;junk!!discoiqbr!!MIME-Version:&amp;nbsp;1.0!!discoiqbr!!Content-Type:&amp;nbsp;text/plain;&amp;nbsp;charset=us-ascii!!discoiqbr!!Content-Transfer-Encoding:&amp;nbsp;7bit!!discoiqbr!!!!discoiqbr!!XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X!!discoiqbr!! 
+      </codeblock></li> 
+     <li><p>Double-click on the <strong>portableShell.bat</strong> file to display a Windows Shell then launch the following command (or " 
+       <root>
+         " designates the created folder when unzipping the 
+        <strong>spamassassin.zip</strong> file): 
+       </root></p> 
+      <codeblock gutter="true" class="syntax html">
+        &amp;nbsp;"&lt;root&gt;perlsitebinspamassassin"&amp;nbsp;"C:TestSpamMail.txt" 
+      </codeblock><p>The content of this test email triggers a 1,000 point score by SpamAssassin. This means it has been detected as undesirable and that the installation was successful and is fully functional.</p> </li> 
+    </ol></li> 
+  </ol> 
+  <h3 id="integrating-spamassassin-into-adobe-campaign">Integrating SpamAssassin into Adobe Campaign</h3> 
+  <ol> 
+   <li><p>Edit the <strong>[INSTALL]/conf/serverConf.xml</strong> file. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> </li> 
+   <li><p>Change the value of the <strong>spamCheck</strong> elements' <strong>command</strong> attribute in the <strong>Web</strong> node. To do this, run the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;spamCheck&amp;nbsp;command='"&lt;absolute&amp;nbsp;path&amp;nbsp;to&amp;nbsp;the&amp;nbsp;folder&amp;nbsp;where&amp;nbsp;you&amp;nbsp;unzipped&amp;nbsp;the&amp;nbsp;zip&amp;nbsp;file&gt;call_perl_with_args.bat"&amp;nbsp;"&lt;absolute&amp;nbsp;path&amp;nbsp;to&amp;nbsp;nlserver&gt;/spamcheck.pl"'/&gt; 
+    </codeblock> 
+    <note> 
+     <p> All paths must be absolute.<br /> </p> 
+    </note><p>Stop and start the <strong>Adobe Campaign</strong> service.</p> </li> 
+   <li><p>To check the integration of SpamAssassin in Adobe Campaign use a GTBUE test (Generic Test for Unsolicited Bulk Email):</p> <p>Double-click on the <strong>portableshell.bat</strong> file. This triggers the display of a Windows Shell. Then run the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      perl&amp;nbsp;"[INSTALL]binspamcheck.pl"&amp;nbsp;"C:TestSpamMail.txt" 
+    </codeblock><p>The content of this test email triggers 1,000 points assigned by SpamAssassin. This means it has been detected as undesirable and that integration in Adobe Campaign was successful and is fully functional.</p> </li> 
+   <li><p>Update SpamAssassin filtering and scoring rules</p> <p>For an initial update of filtering and scoring rules, start <strong>portableShell.bat</strong> and run the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      sa-update&amp;nbsp;--no-gpg 
+    </codeblock><p>To run an automatic update of filtering and scoring rules, use this same command in a scheduled system task:</p> 
+    <codeblock gutter="true" class="syntax html">
+      sa-update&amp;nbsp;--no-gpg 
+    </codeblock></li> 
+  </ol> 
+  <h2 id="installing-on-a-linux-machine">Installing on a Linux machine</h2> 
+  <h3 id="installation-steps-in-debian">Installation steps in Debian</h3> 
+  <ul> 
+   <li><p>If necessary, install Perl and SpamAssassin using the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      apt-get&amp;nbsp;install&amp;nbsp;spamassassin&amp;nbsp;libxml-writer-perl 
+    </codeblock></li> 
+   <li><p>In the <strong>serverConf.xml</strong> file (available in /usr/local/[INSTALL]/nl6/conf/), change the <strong>spamCheck</strong> line as follows:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;spamCheck&amp;nbsp;command="perl&amp;nbsp;/usr/local/[NSTALL]/nl6/bin/spamcheck.pl"/&gt; 
+    </codeblock></li> 
+  </ul> 
+  <h3 id="installation-steps-in-rhel-centos">Installation steps in RHEL/CentOS</h3> 
+  <p>If necessary, install Perl and recover the packages using CPAN:</p> 
+  <codeblock gutter="true" class="syntax html">
+    cpan&amp;nbsp;Digest::SHA1!!discoiqbr!!cpan&amp;nbsp;HTML::Parser!!discoiqbr!!cpan&amp;nbsp;Net::DNS!!discoiqbr!!cpan&amp;nbsp;Mail::SPF&amp;nbsp;!!discoiqbr!!cpan&amp;nbsp;XML::LibXML!!discoiqbr!!cpan&amp;nbsp;XML::Writer!!discoiqbr!!cpan&amp;nbsp;Mail::SpamAssassin 
+  </codeblock> 
+  <h3 id="updating-filter-rules">Updating filter rules</h3> 
+  <p>Filter rules can be updated automatically using the <strong>sa-update</strong> tool. Refer to the official SpamAssassin website <a href="http://spamassassin.apache.org/">http://spamassassin.apache.org/</a> for more information.</p> 
+  <p>In Debian, updates take place automatically each day.</p> 
+  <p>If this is not the case (for example when Debian is installed manually), create a script to automate rule updates.</p> 
+  <codeblock gutter="true" class="syntax html">
+    !/bin/sh!!discoiqbr!!test&amp;nbsp;-x&amp;nbsp;/usr/bin/sa-update&amp;nbsp;||&amp;nbsp;exit&amp;nbsp;0!!discoiqbr!!/usr/sbin/sa-update&amp;nbsp;&amp;&amp;&amp;nbsp;/etc/init.d/spamassassin&amp;nbsp;update 
+  </codeblock> 
+  <p>Insert this script into <strong>crontab</strong> using the following command:</p> 
+  <codeblock gutter="true" class="syntax html">
+    crontab-e 
+  </codeblock> 
+  <h3 id="performance-optimization">Performance optimization</h3> 
+  <p>To improve performances in Linux, edit the <strong> /etc/spamassassin/local.cf</strong> file and add the following line at the end of the file:</p> 
+  <codeblock gutter="true" class="syntax html">
+    dns_available&amp;nbsp;no 
+  </codeblock> 
+ </body> 
+</html>

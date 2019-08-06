@@ -1,0 +1,44 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Types of deliveries" name="jcr:title" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="28ddc85e-951a-4651-81f9-213f5288e5c0" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="Types of deliveries" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Types of deliveries" name="navTitle" />
+  <meta content="b959bbe1-9955-42cd-b922-853acadf1102" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-08-06T06:59:23.835-0400" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+ </head>
+ <body>
+  <p>There are three types of delivery objects in Campaign:</p> 
+  <h2 id="single-delivery">Single delivery</h2>
+  <p>A <strong>delivery</strong> is a standalone delivery object that is executed once. It can be duplicated, prepared again, but as long as it is in its final state (canceled, stopped, finished), it cannot be reused. </p> 
+  <p>Deliveries can be created either from the list of deliveries, or within a workflow via a <a href="../../workflow/using/delivery.md">Delivery</a> activity.</p> 
+  <p>Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activites, refer to <a href="../../workflow/using/cross-channel-deliveries.md">this section</a>.</p> 
+  <h2 id="recurring-delivery">Recurring delivery</h2>
+  <p>A <strong>recurring delivery</strong> lets you create a new delivery each time the activity is executed. This avoids you having to create a new delivery for recurring tasks.</p> 
+  <p>As an example, if you run this type of activity once a month, you will end up with 12 deliveries after a year.</p> 
+  <p>Recurring deliveries are created within workflows via the <a href="">Recurring delivery</a> activity. An example of this activity being used is presented in this section: <a href="../../campaign/using/setting-up-marketing-campaigns.md#creating-a-recurring-delivery-in-a-targeting-workflow">Creating a recurring delivery in a targeting workflow</a>.</p> 
+  <h2 id="continuous-delivery">Continuous delivery</h2>
+  <p>A <strong>continuous delivery</strong> lets you add new recipients to an existing delivery, which avoids having to create a new delivery each time it is executed.</p> 
+  <p>If an information in the delivery changes (content, name, etc.), a new delivery object is created at the delivery execution. If no information was changed, the same delivery object is reused and the delivery and tracking logs are added in the same object.</p> 
+  <p>As an example, if you run this type of activity once a month, you will end up with a single delivery after a year (provided you did not make any change to the delivery).</p> 
+  <p>Continuous deliveries are created whithin workflows via the <a href="">Continuous delivery</a> activity.</p> 
+ </body>
+</html>

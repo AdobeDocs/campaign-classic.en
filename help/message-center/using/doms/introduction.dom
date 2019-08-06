@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:message-center" name="primaryAudienceTag" />
+  <meta content="a8f5312d-6f93-42fb-b454-82e993f5c3a2" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Introduction" name="navTitle" />
+  <meta content="Introduction" name="jcr:title" />
+  <meta content="2019-08-06T06:59:41.624-0400" name="jcr:created" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Introduction" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="seoDescription" />
+  <meta content="24f1eba4-770d-46a7-966a-2a3795259d3f" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+ </head>
+ <body>
+  <p>To make sure each event can be changed into a personalized message, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. You can also use templates to test the message preview and send proofs using seed addresses before delivering to the final target. </p> 
+  <p>Using seed addresses, you can also display the rendering of the message for various internet access providers (inbox rendering) if you install the <strong>Deliverability</strong> module (for more on this, refer to <a href="../../delivery/using/about-deliverability.md">this section</a>). </p> 
+ </body>
+</html>

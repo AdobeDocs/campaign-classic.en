@@ -1,0 +1,49 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="ab6473d1-508e-4954-b2e9-73412ad3856b" name="jcr:uuid" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Simulation scope" name="jcr:description" />
+  <meta content="cbe69d5a-20c2-49a8-830d-605c911a757c" name="jcr:predecessors" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-08-06T06:59:20.641-0400" name="jcr:created" />
+  <meta content="Simulation scope" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Simulation scope" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <h2 id="definition-of-the-scope">Definition of the scope</h2>
+  <p>Open the <strong>Scope</strong> tab to choose your settings.</p> 
+  <p>The following items are mandatory:</p> 
+  <ul>
+   <li><p>Environment or offer category.</p> </li>
+   <li><p>Offer space.</p> </li>
+   <li><p>Contact date. Offers that are not eligible on the contact date are not taken into account.</p> </li>
+   <li><p>Target population.</p> <p>If you don't configure a filter on your target, the entire recipient table will be taken into account.</p> </li>
+   <li><p>Number of propositions to be simulated per target.</p> <p>The recipient will receive this many propositions. For example, if you enter 5, each recipient will receive a maximum of 5 offer propositions. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_009.png" title="offer_simulation_009.png" /></li>
+  </ul>
+  <p>To refine the offers to be taken into account for the simulation, you can add one or several themes (specified beforehand in the categories).</p> 
+  <p>You can also choose to carry out the simulation on all the offers or only those that are online. Some filters allow you to alter your selection if you want to.</p> 
+  <note>
+   <p> You must specify a contact date. This lets the interaction engine sort the offers in the selected environment or category. If no date is configured, the simulation will raise an error.<br /> </p> 
+  </note>
+  <h2 id="adding-reporting-axes">Adding reporting axes</h2>
+  <p>You can enhance the simulation analysis by adding reporting axes on the target or the offers themselves via the <strong>Calculations</strong> tab.</p> 
+  <p>To do this, click the <strong>Add</strong> button and choose the appropriate fields. Axes will be used for calculating the simulation and are displayed in the analysis report. For more on this, refer to <a href="../../interaction/using/simulation-tracking.md" target="_blank">Simulation tracking</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_011.png" title="offer_simulation_011.png" />
+ </body>
+</html>

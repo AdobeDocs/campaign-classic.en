@@ -1,0 +1,127 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-08-06T06:59:30.200-0400" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="21d0927b-9e3b-4b8e-86ff-21f949e5f98f" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="3f6eff7d-0ecc-4fd5-adbb-e5f43f0b24d2" name="jcr:predecessors" /> 
+  <meta content="Standard deployment" name="navTitle" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Standard deployment" name="jcr:description" /> 
+  <meta content="Standard deployment" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <p>For this configuration, three computers are required:</p> 
+  <ul> 
+   <li><p>An application server inside the LAN for the end users (preparing campaigns, reporting, etc.),</p> </li> 
+   <li><p>Two frontal servers in the DMZ behind a load balancer.</p> </li> 
+  </ul> 
+  <p>The two servers in the DMZ handle tracking, mirror pages and delivery and are redundant for high availability.</p> 
+  <p>The application server in the LAN serves the end users and performs all recurrent processes (workflow engine). Thus, when peak loads are reached on the frontal servers, the application users are not impacted. </p> 
+  <p>The database server can be hosted on a separate computer from these three. It is otherwise for the application server and database server to share the same computer within the LAN as long as the operating system is supported by Adobe Campaign (Linux or Windows).</p> 
+  <p>General communication between servers and processes is carried out according to the following schema:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_001_ncs_install_standardconfig.png" title="s_001_ncs_install_standardconfig.png" /> 
+  <p>This type of configuration can handle a large number of recipients (500,000 to 1,000,000) as the database server (and the available bandwidth) is the main limiting factor.</p> 
+  <h2 id="features">Features</h2> 
+  <h3 id="advantages">Advantages</h3> 
+  <ul> 
+   <li><p>Failover functionality: the ability to switch processes to one computer in case of a hardware problem on the other.</p> </li> 
+   <li><p>Better overall performance, since the MTA and redirection functions can be deployed on both of the computers behind a load balancer. With two active MTAs and enough bandwidth, it is possible to achieve broadcast rates in the region of 100,000 mails per hour.</p> </li> 
+  </ul> 
+  <h2 id="installation-and-configuration-steps">Installation and configuration steps</h2> 
+  <h3 id="prerequisites">Prerequisites</h3> 
+  <ul> 
+   <li><p>JDK on all three computers,</p> </li> 
+   <li><p>Web server (IIS, Apache) on both frontals,</p> </li> 
+   <li><p>Access to a database server on all three computers,</p> </li> 
+   <li><p>Bounce mailbox accessible via POP3,</p> </li> 
+   <li><p>Creation of two DNS aliases:</p> 
+    <ul> 
+     <li><p>the first exposed to the public for tracking and pointing to the load balancer on a virtual IP address (VIP) and which is then distributed to the two frontal servers,</p> </li> 
+     <li><p>the second exposed to the internal users for access via the console and pointing to the same application server.</p> </li> 
+    </ul></li> 
+   <li><p>Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to section <a href="../../installation/using/standard-deployment.md#database-access" target="_blank">Database access</a>.</p> </li> 
+  </ul> 
+  <h3 id="installing-the-application-server">Installing the application server</h3> 
+  <p>Follow the steps to install a standalone instance from the Adobe Campaign application server to the creation of the database (step 12). Refer to <a href="../../installation/using/standard-deployment.md#installing-and-configuring--single-machine-" target="_blank">Installing and configuring (single machine)</a>.</p> 
+  <p>Since the computer is not a tracking server, do not take the integration with the Web server into account.</p> 
+  <p>In the following examples, the parameters of the instance are:</p> 
+  <ul> 
+   <li><p>Name of the instance: <strong>demo</strong></p> </li> 
+   <li><p>DNS mask: <strong>console.campaign.net*</strong> (only for client console connections and for reports)</p> </li> 
+   <li><p>Language: English</p> </li> 
+   <li><p>Database: <strong>campaign:demo@dbsrv</strong></p> </li> 
+  </ul> 
+  <h3 id="installing-the-two-frontal-servers">Installing the two frontal servers</h3> 
+  <p>The installation and configuration procedure is identical on both computers.</p> 
+  <p>The steps are as follows:</p> 
+  <ol> 
+   <li><p>Install the Adobe Campaign server.</p> <p>For more on this, refer to <a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md" target="_blank">Prerequisites of Campaign installation in Linux</a> (Linux) and <a href="../../installation/using/prerequisites-of-campaign-installation-in-windows.md" target="_blank">Prerequisites of Campaign installation in Windows</a> (Windows).</p> </li> 
+   <li><p>Follow the Web server integration procedure (IIS, Apache) described in the following sections:</p> 
+    <ul> 
+     <li><p>For Linux: <a href="../../installation/using/integration-into-a-web-server-for-linux.md" target="_blank">Integration into a Web server for Linux</a>,</p> </li> 
+     <li><p>For Windows: <a href="../../installation/using/integration-into-a-web-server-for-windows.md" target="_blank">Integration into a Web server for Windows</a>.</p> </li> 
+    </ul></li> 
+   <li><p>Create the <strong>demo</strong> instance. There are two ways of doing this: </p> 
+    <ul> 
+     <li><p>Create the instance via the console: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/install_create_new_connexion.png" title="install_create_new_connexion.png" /><p>For more on this, refer to <a href="../../installation/using/creating-an-instance-and-logging-on.md" target="_blank">Creating an instance and logging on</a>.</p> <p>or</p> </li> 
+     <li><p>Create the instance using command lines: </p> 
+      <codeblock gutter="true" class="syntax html">
+        nlserver&amp;nbsp;config&amp;nbsp;-addinstance:demo/tracking.campaign.net* 
+      </codeblock><p>For more on this, refer to <a href="../../installation/using/standard-deployment.md#creating-an-instance" target="_blank">Creating an instance</a>.</p> </li> 
+    </ul><p>The name of the instance is the same as that of the application server.</p> <p>The connection to the server with the <strong>nlserver web</strong> module (mirror pages, unsubscription) will be made from the URL of the load balancer (tracking.campaign.net).</p> </li> 
+   <li><p>Change the <strong>internal</strong> to the same as the application server.</p> <p>For more on this, refer to <a href="../../installation/using/standard-deployment.md#internal-identifier" target="_blank">Internal identifier</a>.</p> </li> 
+   <li><p>Link the database to the instance: </p> 
+    <codeblock gutter="true" class="syntax html">
+      nlserver&amp;nbsp;config&amp;nbsp;-setdblogin:PostgreSQL:campaign:demo@dbsrv&amp;nbsp;-instance:demo 
+    </codeblock></li> 
+   <li><p>In the <strong>config-default.xml</strong> and <strong>config-demo.xml</strong> files, enable the <strong>web</strong>, <strong>trackinglogd</strong> and <strong>mta</strong> modules.</p> <p>For more on this, refer to <a href="../../installation/using/standard-deployment.md#enabling-processes" target="_blank">Enabling processes</a>.</p> </li> 
+   <li><p>Edit the <strong>serverConf.xml</strong> file and populate:</p> 
+    <ul> 
+     <li><p>the DNS configuration of the MTA module:</p> 
+      <codeblock gutter="true" class="syntax html">
+        &lt;dnsConfig&amp;nbsp;localDomain="campaign.com"&amp;nbsp;nameServers="192.0.0.1,&amp;nbsp;192.0.0.2"/&gt; 
+      </codeblock> 
+      <note> 
+       <p> The <strong>nameServers</strong> parameter is only used in Windows.<br /> </p> 
+      </note><p>For more on this, refer to <a href="../../installation/using/standard-deployment.md#delivery-settings" target="_blank">Delivery settings</a>.</p> </li> 
+     <li><p>the redundant tracking servers in the redirection parameters:</p> 
+      <codeblock gutter="true" class="syntax html">
+        &lt;spareServer&amp;nbsp;enabledIf="$(hostname)!='front_srv1'"&amp;nbsp;id="1"&amp;nbsp;url="https://front_srv1:8080"/&gt;!!discoiqbr!!&lt;spareServer&amp;nbsp;enabledIf="$(hostname)!='front_srv2'"&amp;nbsp;id="2"&amp;nbsp;url="https://front_srv2:8080"/&gt; 
+      </codeblock><p>For more on this, refer to <a href="../../installation/using/standard-deployment.md#redundant-tracking" target="_blank">Redundant tracking</a>.</p> </li> 
+    </ul></li> 
+   <li><p>Start the website and test the redirection from the URL: <a href="https://tracking.campaign.net/r/test">https://tracking.campaign.net/r/test</a>.</p> <p>The browser should display the following messages (depending on the URL redirected by the load balancer):</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;redir&amp;nbsp;status="OK"&amp;nbsp;date="AAAA/MM/JJ&amp;nbsp;HH:MM:SS"&amp;nbsp;build="XXXX"&amp;nbsp;host="tracking.campaign.net"&amp;nbsp;localHost="front_srv1"/&gt; 
+    </codeblock><p>or</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;redir&amp;nbsp;status="OK"&amp;nbsp;date="AAAA/MM/JJ&amp;nbsp;HH:MM:SS"&amp;nbsp;build="XXXX"&amp;nbsp;host="tracking.campaign.net"&amp;nbsp;localHost="front_srv2"/&gt; 
+    </codeblock><p>For more on this, refer to the following sections:</p> 
+    <ul> 
+     <li><p>For Linux: <a href="../../installation/using/standard-deployment.md#launching-the-web-server-and-testing-the-configuration" target="_blank">Launching the Web server and testing the configuration</a>,</p> </li> 
+     <li><p>For Windows: <a href="../../installation/using/standard-deployment.md#launching-the-web-server-and-testing-the-configuration" target="_blank">Launching the Web server and testing the configuration</a>.</p> </li> 
+    </ul></li> 
+   <li><p>Start the Adobe Campaign server.</p> </li> 
+   <li><p>In the Adobe Campaign console, connect using the <strong>admin</strong> login without a password and launch the deployment wizard.</p> <p>For more on this, refer to <a href="../../installation/using/deploying-an-instance.md" target="_blank">Deploying an instance</a>.</p> <p>Configuration is identical to a standalone instance apart from the configuration of the tracking module.</p> </li> 
+   <li><p>Populate the external URL (that of the load balancer) used for redirection and the internal URLs of the two frontal servers. </p> <p>For more on this, refer to <a href="../../installation/using/standard-deployment.md#tracking-configuration" target="_blank">Tracking configuration</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_install_tracking2.png" title="d_ncs_install_tracking2.png" /> 
+    <note> 
+     <p> We use the existing instance of the two tracking servers created previously and use the <strong>internal</strong> login.<br /> </p> 
+    </note></li> 
+  </ol> 
+ </body> 
+</html>

@@ -1,0 +1,54 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-08-06T06:59:19.295-0400" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="About technical workflows" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="About technical workflows" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="09972ccd-cfa2-4f89-809d-7dd3b8bb61f0" name="jcr:predecessors" />
+  <meta content="About technical workflows" name="jcr:description" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="82f75a6f-3fd1-43ba-9720-47b66ea9b89c" name="jcr:uuid" />
+ </head>
+ <body>
+  <p>The workflows detailed in this section are installed with the different Adobe Campaign built-in packages. These packages, and related technical workflows, depend on your licence agreement. By default, they are available in a sub-folder of the following node: <strong>Administration</strong> &gt; <strong>Production</strong> &gt; <strong>Technical workflows</strong>.</p> 
+  <note>
+   <p> Technical workflows related to the Message Center module are available by default in the <strong>Administration</strong> &gt; <strong>Production</strong> &gt; <strong>Message Center</strong> &gt; <strong>Technical workflows</strong> node.<br /> </p> 
+  </note>
+  <p>This section includes information concerning technical workflows that involve the following packages:</p> 
+  <ul>
+   <li><p> <a href="../../workflow/using/deliveries.md" target="_blank">Deliveries</a></p> </li>
+   <li><p> <a href="../../workflow/using/campaign.md" target="_blank">Campaign</a></p> </li>
+   <li><p> <a href="../../workflow/using/web-analytics.md" target="_blank">Web Analytics</a></p> </li>
+   <li><p> <a href="../../workflow/using/distributed-marketing.md" target="_blank">Distributed Marketing</a></p> </li>
+   <li><p> <a href="../../workflow/using/email-deliverability.md" target="_blank">Email Deliverability</a></p> </li>
+   <li><p> <a href="../../workflow/using/interaction.md" target="_blank">Interaction</a></p> </li>
+   <li><p> <a href="../../workflow/using/control-of-offer-engine.md" target="_blank">Control of offer engine</a></p> </li>
+   <li><p> <a href="../../workflow/using/message-center--control-.md" target="_blank">Message Center (Control)</a></p> </li>
+   <li><p> <a href="../../workflow/using/message-center--execution-.md" target="_blank">Message Center (Execution)</a></p> </li>
+   <li><p> <a href="../../workflow/using/mobile-app-channel.md" target="_blank">Mobile App Channel</a></p> </li>
+   <li><p> <a href="../../workflow/using/line-channel.md" target="_blank">LINE Channel</a></p> </li>
+   <li><p> <a href="../../workflow/using/marketing-resources--mrm-.md" target="_blank">Marketing Resources (MRM)</a></p> </li>
+   <li><p> <a href="../../workflow/using/social-marketing.md" target="_blank">Social Marketing</a></p> </li>
+   <li><p> <a href="../../workflow/using/integrations-with-adobe-experience-cloud-solutions.md" target="_blank">Integrations with Adobe Experience Cloud solutions</a></p> </li>
+   <li><p> <a href="../../workflow/using/general-data-protection-regulation--gdpr-.md" target="_blank">General Data Protection Regulation (GDPR)</a></p> </li>
+   <li><p> <a href="../../workflow/using/transfer-to-mid-sourcing.md" target="_blank">Transfer to Mid-sourcing</a></p> </li>
+   <li><p> <a href="../../workflow/using/mid-sourcing-platform.md" target="_blank">Mid-sourcing platform</a></p> </li>
+  </ul>
+ </body>
+</html>

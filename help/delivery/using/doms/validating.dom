@@ -1,0 +1,53 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="light" name="heroGradient" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="bf56c6a8-e6df-4fd0-9b76-7f422780e960" name="jcr:uuid" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Validating" name="jcr:description" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-08-06T06:59:25.374-0400" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Validating" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="36047bee-63b1-40f2-a070-27adaad134c8" name="jcr:predecessors" />
+  <meta content="" name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Validating" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+ </head>
+ <body>
+  <p>The execution of the delivery can be scheduled (in the calendar or a workflow) or launched manually.</p> 
+  <p>To launch a delivery, edit it and click the <strong>Send</strong> button. Select <strong>Deliver as soon as possible</strong>.</p> 
+  <p>Click <strong>Next</strong> and then <strong>Analyze</strong> to launch the delivery analysis.</p> 
+  <p>The output file is then generated. Its content depends on the selected output columns (refer to <a href="../../delivery/using/validating.md#extraction-file" target="_blank">Extraction file</a>).</p> 
+  <note>
+   <p> The analysis phase is detailed in <a href="../../delivery/using/validating.md#analyzing-the-delivery" target="_blank">Analyzing the delivery</a>.<br /> </p> 
+  </note>
+  <p>You can stop this job at any time by clicking <strong>Stop</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_stop_analyze.png" title="s_ncs_user_stop_analyze.png" />
+  <p>During the analysis phase, the file is generated but information concerning recipients (i.e. delivery logs) is not updated. You can therefore cancel this job without running any risks.</p> 
+  <p>Check the result of the analysis and the content of the output file before clicking <strong>Confirm delivery</strong>. A confirmation message lets you launch the delivery.</p> 
+  <p>The send confirmation starts the data extraction in the specified file.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_postal_del_send_confirm_postal.png" title="s_ncs_user_postal_del_send_confirm_postal.png" />
+  <p>You can then close the wizard and look at the delivery logs via the <strong>Delivery</strong> tab, accessible via the delivery details.</p> 
+  <p>You can configure the delivery logs retrieval mode from the <strong>Analysis</strong> tab of the delivery properties.</p> 
+  <p>There are two modes:</p> 
+  <ul>
+   <li><p><strong>Messages are considered sent after validation</strong> (default mode): in this function mode, all broadlogs are updated when the operator confirms the send (their status passes from 'Pending delivery' to 'Sent') and the delivery is automatically set to <strong>Finished</strong>.</p> </li>
+   <li><p><strong>A file of results determines the messages that are sent and those that have failed</strong>: this mode allows you to update the broadlogs via an external file sent by the service provider. In this case, a workflow to process this information needs to be used in order to update the broadlog status.</p> 
+    <note>
+     <p> In this case, the delivery's status also needs to be changed to <strong>Finished</strong> by the user as soon as the broadlogs are updated.<br /> </p> 
+    </note></li>
+  </ul>
+ </body>
+</html>

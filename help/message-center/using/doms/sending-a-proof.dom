@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Sending a proof" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="seoDescription" />
+  <meta content="Sending a proof" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-08-06T06:59:41.785-0400" name="jcr:created" />
+  <meta content="e0c40fd5-22e4-4fdf-947a-f49738189a8a" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="03938f80-a97d-4bfe-a53d-65ae2f6eceae" name="jcr:predecessors" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="audience:message-center" name="primaryAudienceTag" />
+  <meta content="Sending a proof" name="jcr:description" />
+ </head>
+ <body>
+  <p>You can test message delivery by sending a proof to a previously created seed address. </p> 
+  <p>Sending a proof involves the same process as for a regular delivery (for more on this, refer to <a href="../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof">this section</a>). However, to send a proof within Message Center you need to carry out the following operations beforehand: </p> 
+  <ul>
+   <li><p>create one or more seed addresses (refer to <a href="../../message-center/using/managing-seed-addresses-in-transactional-messages.md" target="_blank">Managing seed addresses in transactional messages</a>) with test data (refer to <a href="../../message-center/using/personalization-data.md" target="_blank">Personalization data</a>), </p> </li>
+   <li><p>create the message content (refer to <a href="../../message-center/using/creating-message-content.md" target="_blank">Creating message content</a>).</p> </li>
+  </ul>
+  <p>To send the proof:</p> 
+  <ol>
+   <li><p>Click the <strong>Send a proof</strong> button in the delivery window.</p> </li>
+   <li><p>Analyze the delivery.</p> </li>
+   <li><p>Correct any errors and confirm the delivery.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/messagecenter_send_proof_001.png" title="messagecenter_send_proof_001.png" /></li>
+   <li><p>Check that the message was delivered to the seed address and that its content complies with your configuration.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/messagecenter_send_proof_002.png" title="messagecenter_send_proof_002.png" /></li>
+  </ol>
+  <p>Proofs can be accessed in each template via the <strong>Audit</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/messagecenter_send_proof_003.png" title="messagecenter_send_proof_003.png" />
+ </body>
+</html>

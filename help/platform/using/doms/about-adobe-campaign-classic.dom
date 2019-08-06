@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="d3b1d588-5ef2-4dec-84d7-c883a90bde26" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="About Adobe Campaign Classic" name="jcr:title" />
+  <meta content="audience:platform" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:starting-with-adobe-campaign" name="cq:tags" />
+  <meta content="2019-08-05" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="19a566b1-3a1a-4929-97f7-c6fc7464c49b" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="seoDescription" />
+  <meta content="About Adobe Campaign Classic" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-08-06T07:02:29.609-0400" name="jcr:created" />
+  <meta content="About Adobe Campaign Classic" name="jcr:description" />
+ </head>
+ <body>
+  <p>To deliver a high degree of customer engagement and great experiences, brands must create consistent customer journeys at all touchpoints. Marketers can now efficiently design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment and drive loyalty.</p> 
+  <p>Adobe Campaign lets you coordinate the creation of conversational marketing campaigns. Adobe Campaign has innovative features to model, streamline, and automate marketing and customer communication processes.</p> 
+  <note>
+   <p> Adobe Campaign Classic is available in v6.11 and v7. Except when mentioned, help materials apply to both versions, in the latest build. Screenshots refer to Campaign Classic v7.<br /> </p> 
+  </note>
+  <h2 id="key-capabilities">Key capabilities</h2>
+  <p>Adobe Campaign provides a platform for designing cross-channel customer experiences and provides an environment for visual campaign orchestration, real time interaction management and cross channel execution.</p> 
+  <p>The marketing campaign cycle in Adobe Campaign illustrates the main areas of functionality of the product:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_user_emarketing.png" title="d_ncs_user_emarketing.png" />
+  <h3 id="integrated-customer-profile">Integrated customer profile</h3>
+  <p>Profiles (customers, prospects, newsletter subscribers, etc.) are centralized in the Adobe Campaign database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PII data in a consolidated view to analyze and take action. </p> 
+  <p>In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Thanks to the recipient data that are stored in the database, you will be able to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.</p> 
+  <p>Profile management basics are explained in <a href="../../platform/using/about-profiles.md" target="_blank">About profiles</a>.</p> 
+  <h3 id="targeted-segmentation">Targeted segmentation</h3>
+  <p>Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and <a href="../../platform/using/about-queries-in-campaign.md"> graphical query editor</a> functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. The analysis and targeting features are described in <a href="../../reporting/using/about-descriptive-analysis.md">this page</a> and in the <a href="../../platform/using/creating-filters.md" target="_blank">Creating filters</a> section.</p> 
+  <p>The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. This functionality is detailed in <a href="../../workflow/using/targeting-data.md#data-management">this page</a>.</p> 
+  <h3 id="cross-channel-campaign-orchestration">Cross-channel campaign orchestration</h3>
+  <p>Adobe Campaign lets you design and orchestrate targeted and personalized campaigns on multiple channels: email, direct mail, SMS, push notification. A single interface provides you with all the functions required to schedule, orchestrate, configure, personalize, automate, execute, and measure all your campaigns and communications. For more on scheduling and executing campaigns, refer to <a href="../../campaign/using/setting-up-marketing-campaigns.md">this page</a>.</p> 
+  <h3 id="personalization-and-real-time-interaction">Personalization and real-time interaction</h3>
+  <p>Attract your customers' attention and improve response rates thanks to the advanced personalization of message content and headers based on customer profiles and preferences. For more on message content management and personalization, refer to <a href="../../delivery/using/about-personalization.md">this page</a>. Collaborative management of content, notification and approval circuits are detailed in <a href="../../campaign/using/about-marketing-resource-management.md">this section</a>.</p> 
+  <h3 id="analysis-and-reporting">Analysis and reporting</h3>
+  <p>Adobe Campaign lets you monitor and interpret the behavior of your customers by gradually enriching their data and profiles. The reporting and analysis tools let you capitalize on each new campaign, target your marketing initiatives better, and optimize their impact and return on investment. Refer to <a href="../../reporting/using/reports-on-deliveries.md#accessing-existing-reports">this page</a> for more information.</p> 
+  <h3 id="adobe-experience-cloud-integrations">Adobe Experience Cloud integrations</h3>
+  <p>You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience: Adobe Experience Manager, Adobe Analytics, Adobe Target or Adobe Experience Cloud triggers for example. You can also integrate to Adobe IMS and login to Campaign with your Adobe ID. For more on cross-solution and authentication integrations, refer to <a href="../../integrations/using/about-adobe-id.md">this section</a>.</p> 
+  <h2 id="core-capabilities-and-add-ons">Core capabilities and add-ons</h2>
+  <p>Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html">Adobe Campaign Classic Product Description</a>.</p> 
+  <p>The following capabilities are available. Depending on your license agreement, some of these capabilities can be available or not in your instance.</p> 
+  <ul>
+   <li><p> <a href="../../delivery/using/communication-channels.md">Channels</a> - design and send deliveries on various channels: email, SMS, Line, mobile app, direct mail,</p> </li>
+   <li><p> <a href="../../campaign/using/designing-marketing-campaigns.md">Campaign</a> - orchestrate cross-channel campaigns,</p> </li>
+   <li><p> <a href="../../campaign/using/about-marketing-resource-management.md">MRM</a> - manage marketing resources and budgets,</p> </li>
+   <li><p> <a href="../../interaction/using/interaction-and-offer-management.md">Interaction</a> - managing offers with Campaign,</p> </li>
+   <li><p> <a href="../../message-center/using/about-transactional-messaging.md">Message Center</a> - send transactional messages by email, SMS or on mobile app,</p> </li>
+   <li><p> <a href="../../social/using/about-social-marketing.md">Social Marketing</a> - communicate on social media: Facebook, Twitter,</p> </li>
+   <li><p> <a href="../../workflow/using/about-workflows.md">Workflow</a> / Data Management - automate processes and manage data with workflows,</p> </li>
+   <li><p> <a href="../../web/using/about-web-applications.md">Web applications</a> - create web pages and forms,</p> </li>
+   <li><p> <a href="../../web/using/about-surveys.md">Survey Manager</a> - create online surveys and polls,</p> </li>
+   <li><p> <a href="../../delivery/using/about-content-management.md">Content Manager</a> - manage email content,</p> </li>
+   <li><p> <a href="../../campaign/using/about-distributed-marketing.md">Distributed Marketing</a> - coordinate campaigns for central/local agencies,</p> </li>
+   <li><p> <a href="../../campaign/using/about-response-manager.md">Response Manager</a> - manage customer response,</p> </li>
+   <li><p> <a href="../../platform/using/about-connectors.md">Connectors</a> - use connectors to communicate with external solutions and database engines,</p> </li>
+   <li><p> <a href="../../configuration/using/about-web-services.md">Web Services</a> - use Campaign through APIs/Web Services,</p> </li>
+   <li><p> <a href="../../reporting/using/about-adobe-campaign-reporting-tools.md">Reporting</a> - access built-in reports, analyze data and design your own reports.</p> </li>
+  </ul>
+ </body>
+</html>

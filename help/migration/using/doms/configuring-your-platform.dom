@@ -1,0 +1,65 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="a1574684-dcce-4826-aadd-77668b610d05" name="jcr:predecessors" />
+  <meta content="Configuring your platform" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-08-06T06:59:37.183-0400" name="jcr:created" />
+  <meta content="df0520d6-8215-4c14-84ad-5975b66c6a2e" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Configuring your platform" name="navTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Configuring your platform" name="jcr:title" />
+  <meta content="audience:migration" name="primaryAudienceTag" />
+ </head>
+ <body>
+  <p>Certain major changes in Adobe Campaign v7 require a configuration to ensure its effective operation. These parameters may be necessary before or after migrating. The concerned changes and their configuration mode are presented in this section.</p> 
+  <p>During migration, the <strong>NmsRecipient</strong> table is rebuilt from the schemas definition. Any change made to the SQL structure of this table outside of Adobe Campaign will be lost.</p> 
+  <p>Example elements to check: </p> 
+  <ul>
+   <li><p>If you have added a column (or an index) into the <strong>NmsRecipient</strong> table but you have not detailed it in the schema, this will not be saved.</p> </li>
+   <li><p>The <strong>tablespace</strong> attribute takes back its values by default, in other words those defined in the deployment wizard.</p> </li>
+   <li><p>If you have added a reference view to the NmsRecipient table, you must delete it before migrating.</p> </li>
+  </ul>
+  <p>This warning also concerns Oracle users: if you have added the <strong>usetimestamptz:1</strong> option during a postupgrade (see <a href="../../migration/using/configuring-your-platform.md#time-zones" target="_blank">Time zones</a>), all tables containing at least one <strong>date+time</strong> field are rebuilt. </p> 
+  <h2 id="before-the-migration">Before the migration</h2>
+  <p>When migrating to Adobe Campaign v7, the following elements must be configured. These elements must be addressed before starting the <strong>postupgrade</strong>.</p> 
+  <ul>
+   <li><p>Timezones</p> <p>During a migration from a v5.11 platform, you must specify the timezone to use during the postupgrade.</p> <p>If you wish to use the "multi timezone" mode, refer to the <a href="../../migration/using/configuring-your-platform.md#time-zones" target="_blank">Time zones</a> section.</p> <p>If you use Oracle as a database, check that the Oracle timezone files have properly been synched between the application server and the database server. For more on this, refer to the <a href="../../migration/using/configuring-your-platform.md#oracle" target="_blank">Oracle</a> section.</p> <p>In addition, during a migration from a v.5.11 platform, in MySQL, you must perform additional configurations. For more information, refer to the <a href="../../migration/using/configuring-your-platform.md#mysql-" target="_blank">MySQL </a> section.</p> </li>
+   <li><p>Security zones</p> <p>For security reasons, the Adobe Campaign platform is no longer accessible by default: you must configure the security zones, which requires collecting the user IP addresses before the migration.</p> <p>For more information, refer to the <a href="../../migration/using/configuring-your-platform.md#security" target="_blank">Security</a> section.</p> </li>
+   <li><p>Syntax</p> <p>Certain syntaxes in JavaScript may be accepted in versions 5.11 and 6.02 and no longer accepted in the v7 version, due to the use of a new interpreter. For more information, refer to the <a href="../../migration/using/configuring-your-platform.md#javascript" target="_blank">JavaScript</a> section.</p> <p>Similarly, a new syntax is introduced in Adobe Campaign v7 to replace the SQLData based syntax. If you use code elements with this syntax, you must adapt them. For more information, refer to the <a href="../../migration/using/configuring-your-platform.md#sqldata" target="_blank">SQLData</a> section.</p> </li>
+   <li><p>Passwords</p> <p>You must configure the <strong>Admin</strong> and <strong>Internal</strong> passwords. For more information, refer to the <a href="../../migration/using/configuring-your-platform.md#user-passwords" target="_blank">User passwords</a> section.</p> </li>
+   <li><p>Tree structure</p> <p>If migrating from a v5.11 platform, you must reorganize the tree structure folders according to Adobe Campaign v6 norms. For more information, refer to the <a href="../../migration/using/configuring-your-platform.md#adobe-campaign-v7-tree-structure" target="_blank">Adobe Campaign v7 tree structure</a> section.</p> </li>
+   <li><p>Interaction</p> <p>If you use <strong>Interaction</strong>, you must delete all 6.02 schema references that no longer exist in v7. For more information, refer to the <a href="../../migration/using/configuring-your-platform.md#interaction" target="_blank">Interaction</a> section.</p> </li>
+  </ul>
+  <h2 id="after-the-migration">After the migration</h2>
+  <p>After running <strong>postupgrade</strong>, the following elements must be taken into account and the corresponding configurations carried out.</p> 
+  <ul>
+   <li><p>Mirror pages</p> <p>Mirror page personalization block has changed with v6.x. This new version improves security when accessing these pages.</p> <p>If you used the v5 personalization block in your messages, the mirror page display will fail. Adobe highly recommends to use the new personalization block when inserting mirror page in your messages.</p> <p>However, as a temporary solution (and as the mirror pages are still live), you can turn back to the old personalization block to avoid this problem by changing the option <strong>XtkAcceptOldPasswords</strong> and set it to <strong>1</strong>. This will not affect the usage of the new v6.x personalization block.</p> </li>
+   <li><p>Syntax</p> <p>If you encounter any errors related to the syntax, during the postupgrade, you must temporarily activate the <strong>allowSQLInjection</strong> option in the <strong>serverConf.xml</strong> file, as this gives you time to rewrite the code. Once the code is adapted, be sure to reactivate the security. For more on this, refer to the <a href="../../migration/using/configuring-your-platform.md#sqldata" target="_blank">SQLData</a> section.</p> </li>
+   <li><p>Conflicts</p> <p>The migration is performed through a postupgrade and conflicts may appear in reports, forms or web applications. These conflicts can be resolved from the console. </p> <p>See the <a href="../../migration/using/configuring-your-platform.md#conflicts" target="_blank">Conflicts</a> section.</p> </li>
+   <li><p>Tomcat</p> <p>If you customized the installation folder, make sure to check it is correctly updated after the migration. For further details, refer to the <a href="../../migration/using/configuring-your-platform.md#tomcat" target="_blank">Tomcat</a> section.</p> </li>
+   <li><p>Reports</p> <p>All out-of-the-box reports currently use the v6.x rendering engine. If you had added JavaScript code into the reports, some elements may be altered.</p> <p>Consult the <a href="../../migration/using/configuring-your-platform.md#reports" target="_blank">Reports</a> section.</p> </li>
+   <li><p>Web Applications</p> <p>After the postupgrade, if you have any problems connecting to your identified Web applications, you must activate the <strong>allowUserPassword</strong> and <strong>sessionTokenOnly</strong> options in the <strong>serverConf.xml</strong> file. Remember to then deactivate these two options. For more information, refer to the <a href="../../migration/using/configuring-your-platform.md#identified-web-applications" target="_blank">Identified web applications</a> section.</p> <p>Depending on the type of Web applications and their configuration, you must perform additional manipulations to ensure they work correctly.</p> <p>See the <a href="../../migration/using/configuring-your-platform.md#web-applications" target="_blank">Web applications</a> section.</p> <p>If migrating from a v5.11 platform, additional configurations must be carried out: for more information, refer to the <a href="../../migration/using/configuring-your-platform.md#web-applications" target="_blank">Web applications</a> section.</p> </li>
+   <li><p>Security zones. </p> <p>Before starting the server, you must configure the security zones. For more information, refer to <a href="../../installation/using/configuring-campaign-server.md#defining-security-zones">this section</a> and the <a href="../../migration/using/configuring-your-platform.md#security" target="_blank">Security</a> section.</p> </li>
+   <li><p>Schemas</p> <p>In Red Hat, you may encounter errors when editing certain schemas. For more on this, refer to the <a href="../../migration/using/configuring-your-platform.md#red-hat" target="_blank">Red-Hat</a> section.</p> </li>
+   <li><p>Workflows</p> <p>If migrating from a v5.11 platform, you must control the workflows runtime directory. For more on this, refer to the <a href="../../migration/using/configuring-your-platform.md#workflows" target="_blank">Workflows</a> section.</p> </li>
+   <li><p>Tracking</p> <p>If migrating from a v5.11 platform, you must configure the tracking mode. For more on this, refer to the <a href="../../migration/using/configuring-your-platform.md#tracking" target="_blank">Tracking</a> section.</p> </li>
+   <li><p>Home page</p> <p>If migrating from a v6.02 platform, you may define additional parameters to keep your old home page from v6.02. For more on this, refer to the <a href="../../migration/using/configuring-your-platform.md#user-friendliness--home-page-and-navigation" target="_blank">User friendliness: Home page and navigation</a> section.</p> </li>
+   <li><p>Interaction</p> <p>If you use <strong>Interaction</strong>, you must adjust any parameters after the migration. For more on this, refer to the <a href="../../migration/using/configuring-your-platform.md#interaction" target="_blank">Interaction</a> section.</p> </li>
+  </ul>
+ </body>
+</html>

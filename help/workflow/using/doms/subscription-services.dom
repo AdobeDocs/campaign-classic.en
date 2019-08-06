@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Subscription Services" name="jcr:description" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="5ad1ee0a-9c4e-4507-864c-535d958d750c" name="jcr:predecessors" />
+  <meta content="Subscription Services" name="jcr:title" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Subscription Services" name="navTitle" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="a139f0c4-9bd4-4ac5-ac6c-6610dba2d7b7" name="jcr:uuid" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="topic_tags:targeting-activities;products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="2019-08-06T06:59:14.855-0400" name="jcr:created" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>A <strong>Subscription services</strong>-type activity lets you create or delete a subscription to an information service for the population specified in the transition. </p> 
+  <p>To configure it, edit the activity and enter its label, then select the action to be executed (Subscription or Unsubscription) and the service concerned, as in the following example:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/edit_service_inscription.png" title="edit_service_inscription.png" />
+  <ol>
+   <li><p>Enter the activity's label.</p> </li>
+   <li><p>Select <strong>Generate an outbound transition</strong> if you wish to create a transition at the end of the execution.</p> <p>Generally, a target's subscription to an information service marks the end of the targeting workflow, which is why the option is not activated by default.</p> </li>
+   <li><p>Click <strong>Subscription</strong> or <strong>Unsubscription</strong> if you wish to subscribe or unsubscribe the specified population to or from the selected information service.</p> </li>
+   <li><p>Select <strong>Send a confirmation message</strong> to notify recipients that they are subscribed to or unsubscribed from a service.</p> <p>The content of this message is specified in a delivery template related to the information service. For more on this, refer to this <a href="../../delivery/using/managing-subscriptions.md">section</a>.</p> </li>
+  </ol>
+  <h2 id="example--subscribe-a-list-of-recipients-to-a-newsletter">Example: Subscribe a list of recipients to a newsletter</h2>
+  <p>In a single operation the following workflow aims to make a list of recipients eligible for a newsletter, aimed at working people living in Paris, in order to get them to subscribe.</p> 
+  <p>To do this, you must also exclude recipients that have already subscribed.</p> 
+  <note>
+    Before manually subscribing recipients to a service, verify that these recipients accept to receive communications from you.
+   <br /> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/subscription_services_example.png" title="subscription_services_example.png" />
+  <ol>
+   <li><p>Add the following three queries:</p> 
+    <ul>
+     <li><p>One targeting recipients aged 18 to 60 years old.</p> </li>
+     <li><p>A second targeting recipients living in Paris.</p> </li>
+     <li><p>A third targeting recipients that are not currently subscribed to the newsletter.</p> </li>
+    </ul></li>
+   <li><p>Add an intersection activity to cross reference the different results.</p> </li>
+   <li><p>If you like, insert a list update to keep the list of latest subscribers up-to-date.</p> </li>
+   <li><p>Insert a subscription services activity, then double click this to configure it.</p> </li>
+   <li><p>Enter the activity label and select <strong>Subscription</strong>.</p> <p>If you like, you can inform recipients of their newsletter subscription by checking the <strong>Send a confirmation message</strong> box.</p> </li>
+   <li><p>Select the folder the newsletter is in then select the newsletter from the list that appears.</p> </li>
+   <li><p>Leave the <strong>Generate outbound transition</strong> unchecked so that this activity will mark the end of the workflow, then click <strong>Ok</strong>.</p> </li>
+  </ol>
+  <p>During workflow execution, the recipients that correspond to all three queries are added to the list and subscribed to the newsletter.</p> 
+  <p>You can check that the subscription was successful by going to the <strong>Subscription</strong> tab for your recipients.</p> 
+  <h2 id="input-parameters">Input parameters</h2>
+  <ul>
+   <li><p>tableName</p> </li>
+   <li><p>schema</p> </li>
+  </ul>
+  <p>Each inbound event must specify a target defined by these parameters.</p> 
+ </body>
+</html>

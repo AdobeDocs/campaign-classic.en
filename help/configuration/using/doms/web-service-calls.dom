@@ -1,0 +1,197 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Web service calls" name="jcr:description" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Web service calls" name="navTitle" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="21850026-a0d0-4636-868b-63d53d6dcf04" name="jcr:uuid" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="a387c27d-5907-4a08-a252-90b2342f9b4a" name="jcr:predecessors" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-08-06T06:59:44.146-0400" name="jcr:created" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Web service calls" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <h2 id="general-information">General information</h2> 
+  <p>All API methods are presented in the form of Web services. This enables you to manage all Adobe Campaign functions via SOAP calls, which are the native entry point of the Adobe Campaign application server. The Adobe Campaign console itself only uses SOAP calls. </p> 
+  <p>Web services let you create many applications from a third-party system:</p> 
+  <ul> 
+   <li><p>Synchronous alerts, notification, and real-time delivery template execution from a back office or transaction system,</p> </li> 
+   <li><p>Development of special interfaces with simplified functionality (Web interfaces, etc.),</p> </li> 
+   <li><p>Feeding and lookup of data in the database while observing trade rules and remaining isolated from the underlying physical model.</p> </li> 
+  </ul> 
+  <h2 id="definition-of-web-services">Definition of Web services</h2> 
+  <p>The definition of the Web services implemented on the Adobe Campaign application server is available from the data schemas.</p> 
+  <p>A Web service is described in the grammar of the data schemas and is available from the <strong> 
+    <methods /></strong> element.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;methods&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;method&amp;nbsp;name="GenerateForm"&amp;nbsp;static="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;help&gt;Generates&amp;nbsp;the&amp;nbsp;form&amp;nbsp;in&amp;nbsp;Mail&amp;nbsp;or&amp;nbsp;Web&amp;nbsp;mode&lt;/help&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;parameters&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;name="formName"&amp;nbsp;type="string"&amp;nbsp;desc="Name&amp;nbsp;of&amp;nbsp;form"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;name="mailMode"&amp;nbsp;type="boolean"&amp;nbsp;desc="Generate&amp;nbsp;a&amp;nbsp;form&amp;nbsp;of&amp;nbsp;type&amp;nbsp;Mail"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;name="result"&amp;nbsp;type="string"&amp;nbsp;inout="out"&amp;nbsp;desc="Result&amp;nbsp;"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/parameters&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/method&gt;!!discoiqbr!!&lt;/methods&gt;!!discoiqbr!! 
+  </codeblock> 
+  <p>Here we have an example of the definition of the method called <strong>GenerateForm</strong>.</p> 
+  <p>The description of the service starts with the 
+   <method>
+     element. The list of parameters of the method is completed from the 
+    <parameters>
+      element. Each parameter is specified by a name, a type (Boolean, string, DOMElement, etc.) and a description. The "inout" attribute with the "out" value lets you specify that the "result" parameter is at the SOAP call output. 
+    </parameters> 
+   </method></p> 
+  <p>The presence of the "static" attribute (with the value "true") describes this method as static, which means that all parameters of the method must be declared.</p> 
+  <p>A "const" method implicitly has an XML document in the format of its associated schema as its input.</p> 
+  <p>A full description of the 
+   <method>
+     element of an Adobe Campaign schema is available in the "Schema references" chapter under 
+    <a href="../../configuration/using/web-service-calls.md#-method--element" target="_blank"> 
+     <method>
+       element 
+     </method></a>. 
+   </method></p> 
+  <p>Example of the "const"-type "ExecuteQuery" method from the "xtk:queryDef" schema:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;method&amp;nbsp;name="ExecuteQuery"&amp;nbsp;const="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;help&gt;Retrieve&amp;nbsp;data&amp;nbsp;from&amp;nbsp;a&amp;nbsp;query&lt;/help&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;parameters&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;desc="Output&amp;nbsp;xml&amp;nbsp;document"&amp;nbsp;name="output"&amp;nbsp;type="DOMDocument"&amp;nbsp;inout="out"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/parameters&gt;!!discoiqbr!!&lt;/method&gt;!!discoiqbr!! 
+  </codeblock> 
+  <p>The input parameter of this method is an XML document in the format of the "xtk:queryDef" schema.</p> 
+  <h2 id="web-service-description--wsdl">Web service description: WSDL</h2> 
+  <p>A WSDL (Web Service Description Library) file is available for each service. This XML file uses a metalanguage to describe the service and to specify the available methods, parameters, and the server to contact for executing the service. </p> 
+  <h3 id="wsdl-file-generation">WSDL file generation</h3> 
+  <p>To generate a WSDL file, you must enter the following URL from a Web browser:</p> 
+  <p> <a href="https://XXXX/nl/jsp/schemawsdl.jsp?schema=YYYY">https:// 
+    <server>
+      /nl/jsp/schemawsdl.jsp?schema= 
+     <schema /> 
+    </server></a></p> 
+  <p>With:</p> 
+  <ul> 
+   <li><p><strong> 
+      <server /></strong>: the Adobe Campaign application server (nlserver web)</p> </li> 
+   <li><p><strong> 
+      <schema /></strong>: schema identification key (namespace:schema_name)</p> </li> 
+  </ul> 
+  <h3 id="example-on-the--executequery--method-of-schema--xtk-querydef-">Example on the 'ExecuteQuery' method of schema 'xtk:queryDef'</h3> 
+  <p>The WSDL file is generated from the URL:</p> 
+  <p> <a href="https://my_serveur/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef">https://localhost/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef</a></p> 
+  <p>A WSDL description starts by defining the types used to form messages, associated in "ports", connected to a protocol by "bindings" forming Web services.</p> 
+  <h4 id="types">Types</h4> 
+  <p>Type definitions are based on XML schemas. In our example, the "ExecuteQuery" method takes an "s:string" string and an XML document ( 
+   <s:complextype>
+     ) as parameters. The return value of the method ("ExecuteQueryResponse") is an XML document ( 
+    <s:complextype>
+      ). 
+    </s:complextype> 
+   </s:complextype></p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;types&gt;!!discoiqbr!!&lt;s:schema&amp;nbsp;elementFormDefault="qualified"&amp;nbsp;targetNamespace="urn:xtk:queryDef"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;s:element&amp;nbsp;name="ExecuteQuery"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;s:complexType&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;s:sequence&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;s:element&amp;nbsp;maxOccurs="1"&amp;nbsp;minOccurs="1"&amp;nbsp;name="sessiontoken"&amp;nbsp;type="s:string"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;s:element&amp;nbsp;maxOccurs="1"&amp;nbsp;minOccurs="1"&amp;nbsp;name="entity"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;s:complexType&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;s:sequence&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;s:any/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/s:sequence&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/s:complexType&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/s:element&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/s:sequence&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/s:complexType&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/s:element&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;s:element&amp;nbsp;name="ExecuteQueryResponse"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;s:complexType&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;s:sequence&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;s:element&amp;nbsp;maxOccurs="1"&amp;nbsp;minOccurs="1"&amp;nbsp;name="pdomOutput"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;s:complexType&amp;nbsp;mixed="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;s:sequence&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;s:any/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/s:sequence&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/s:complexType&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/s:element&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/s:sequence&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/s:complexType&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/s:element&gt;!!discoiqbr!! 
+  </codeblock> 
+  <h4 id="messages">Messages</h4> 
+  <p>The 
+   <message>
+     describes the names and types of a set of fields to be sent. The method uses two messages to pass as a parameter ("ExecuteQueryIn") and the return value ("ExecuteQueryOut"). 
+   </message></p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;message&amp;nbsp;name="ExecuteQueryIn"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;part&amp;nbsp;element="tns:ExecuteQuery"&amp;nbsp;name="parameters"/&gt;!!discoiqbr!!&lt;/message&gt;!!discoiqbr!!!!discoiqbr!!&lt;message&amp;nbsp;name="ExecuteQueryOut"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;part&amp;nbsp;element="tns:ExecuteQueryResponse"&amp;nbsp;name="parameters"/&gt;!!discoiqbr!!&lt;/message&gt;&amp;nbsp;!!discoiqbr!! 
+  </codeblock> 
+  <h4 id="porttype">PortType</h4> 
+  <p>The 
+   <porttype>
+     associates the messages on the "ExecuteQuery" operation triggered by the query ("input") generating a response ("output"). 
+   </porttype></p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;portType&amp;nbsp;name="queryDefMethodsSoap"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;operation&amp;nbsp;name="ExecuteQuery"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;message="tns:ExecuteQueryIn"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;output&amp;nbsp;message="tns:ExecuteQueryOut"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/operation&gt;!!discoiqbr!!&lt;/portType&gt;!!discoiqbr!! 
+  </codeblock> 
+  <h4 id="binding">Binding</h4> 
+  <p>The 
+   <binding>
+     part specifies the SOAP communication protocol ( 
+    <soap:binding>
+      ), data transport in HTTP (value of the "transport" attribute) and the data format for the "ExecuteQuery" operation. The body of the SOAP envelope contains the message segments directly without transformation. 
+    </soap:binding> 
+   </binding></p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;binding&amp;nbsp;name="queryDefMethodsSoap"&amp;nbsp;type="tns:queryDefMethodsSoap"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;soap:binding&amp;nbsp;style="document"&amp;nbsp;transport="http://schemas.xmlsoap.org/soap/http"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;operation&amp;nbsp;name="ExecuteQuery"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;soap:operation&amp;nbsp;soapAction="xtk:queryDef#ExecuteQuery"&amp;nbsp;style="document"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;soap:body&amp;nbsp;encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&amp;nbsp;namespace="urn:xtk:queryDef"&amp;nbsp;use="literal"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/input&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;output&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;soap:body&amp;nbsp;encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&amp;nbsp;namespace="urn:xtk:queryDef"&amp;nbsp;use="literal"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/output&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/operation&gt;!!discoiqbr!!&lt;/binding&gt;!!discoiqbr!! 
+  </codeblock> 
+  <h4 id="service">Service</h4> 
+  <p>The 
+   <service>
+     part describes the "XtkQueryDef" service with its URI on the URL of the Adobe Campaign application server. 
+   </service></p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;service&amp;nbsp;name="XtkQueryDef"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;port&amp;nbsp;binding="tns:queryDefMethodsSoap"&amp;nbsp;name="queryDefMethodsSoap"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;soap:address&amp;nbsp;location="https://localhost/nl/jsp/soaprouter.jsp"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/port&gt;!!discoiqbr!!&lt;/service&gt;!!discoiqbr!! 
+  </codeblock> 
+  <h2 id="connectivity">Connectivity</h2> 
+  <p>Adobe Campaign has increased security for authentication mechanisms by introducing security zones (refer to the <strong>Defining security zones</strong> chapter in <a href="../../installation/using/configuring-campaign-server.md#defining-security-zones">this section</a>) as well as session management settings.</p> 
+  <p>There are two authentication modes available: </p> 
+  <ul> 
+   <li><p><strong>via a call to logon method()</strong>. This mode generates a session token and a security token. It is the most secure mode and therefore the most recommended.</p> </li> 
+  </ul> 
+  <p>or</p> 
+  <ul> 
+   <li><p><strong>via the Adobe Campaign login + password</strong> that creates a session token. The session token automatically expires after a set period. This mode is not recommended and requires reducing the application security settings for some zone settings (allowUserPassword="true" and sessionTokenOnly="true").</p> </li> 
+  </ul> 
+  <h3 id="session-token-characteristics">Session token characteristics</h3> 
+  <p>The session token has the following characteristics:</p> 
+  <ul> 
+   <li><p>a X hour life cycle (the life cycle is configurable in the 'serverConf.xml' file, the default period is 24 hours)</p> </li> 
+   <li><p>a random construction (it no longer contains the user login and password)</p> </li> 
+   <li><p>when accessed via the Web:</p> 
+    <ul> 
+     <li><p>the session token becomes a permanent token, it is not destroyed once the browser closes</p> </li> 
+     <li><p>it is placed in an HTTP-ONLY cookie (cookies must be activated for operators)</p> </li> 
+    </ul></li> 
+  </ul> 
+  <h3 id="security-token-characteristics">Security token characteristics</h3> 
+  <p>The security token has the following characteristics:</p> 
+  <ul> 
+   <li><p>it is generated from the session token</p> </li> 
+   <li><p>it has a 24 hour life cycle (configurable in the 'serverConf.xml' file, the default period is 24 hours)</p> </li> 
+   <li><p>it is stored in the Adobe Campaign console</p> </li> 
+   <li><p>when accessed via the Web:</p> 
+    <ul> 
+     <li><p>it is stored in a document.__securityToken property</p> </li> 
+     <li><p>the page URLs are updated to update the security token</p> </li> 
+     <li><p>the forms are also updated via a hidden field containing the token</p> </li> 
+    </ul></li> 
+  </ul> 
+  <h4 id="security-token-movement">Security token movement</h4> 
+  <p>When accessed via console, it is:</p> 
+  <ul> 
+   <li><p>transmitted in the logon response (in the HTTP header)</p> </li> 
+   <li><p>used in each query (in the HTTP header)</p> </li> 
+  </ul> 
+  <p>From a POST and GET HTTP:</p> 
+  <ul> 
+   <li><p>the server completes the links with the token</p> </li> 
+   <li><p>the server adds a hidden field to forms</p> </li> 
+  </ul> 
+  <p>From an SOAP call:</p> 
+  <ul> 
+   <li><p>it is added to call headers</p> </li> 
+  </ul> 
+  <h3 id="call-examples">Call examples</h3> 
+  <ul> 
+   <li><p>Using <strong>HttpSoapConnection/SoapService</strong>:</p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!&amp;nbsp;&amp;nbsp;var&amp;nbsp;cnx&amp;nbsp;=&amp;nbsp;new&amp;nbsp;HttpSoapConnection("https://serverURL/nl/jsp/soaprouter.jsp");!!discoiqbr!!var&amp;nbsp;session&amp;nbsp;=&amp;nbsp;new&amp;nbsp;SoapService(cnx,&amp;nbsp;'urn:xtk:session');!!discoiqbr!!session.addMethod("Logon",&amp;nbsp;"xtk:session#Logon",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;["sessiontoken",&amp;nbsp;"string",&amp;nbsp;"Login",&amp;nbsp;"string",&amp;nbsp;"Password",&amp;nbsp;"string",&amp;nbsp;"Parameters",&amp;nbsp;"NLElement"],!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;["sessionToken",&amp;nbsp;"string",&amp;nbsp;"sessionInfo",&amp;nbsp;"NLElement",&amp;nbsp;"securityToken",&amp;nbsp;"string"]);!!discoiqbr!!!!discoiqbr!!var&amp;nbsp;res&amp;nbsp;=&amp;nbsp;session.Logon("",&amp;nbsp;"admin",&amp;nbsp;"pwd",&amp;nbsp;&lt;param/&gt;);!!discoiqbr!!var&amp;nbsp;sessionToken&amp;nbsp;=&amp;nbsp;res[0];!!discoiqbr!!var&amp;nbsp;securityToken&amp;nbsp;=&amp;nbsp;res[2];!!discoiqbr!!!!discoiqbr!!cnx.addTokens(sessionToken,&amp;nbsp;securityToken);!!discoiqbr!!var&amp;nbsp;query&amp;nbsp;=&amp;nbsp;new&amp;nbsp;SoapService(cnx,&amp;nbsp;'urn:xtk:queryDef');!!discoiqbr!!query.addMethod("ExecuteQuery",&amp;nbsp;"xtk:queryDef#ExecuteQuery",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;["sessiontoken",&amp;nbsp;"string",&amp;nbsp;"entity",&amp;nbsp;"NLElement"],!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;["res",&amp;nbsp;"NLElement"]);!!discoiqbr!!!!discoiqbr!!var&amp;nbsp;queryRes&amp;nbsp;=&amp;nbsp;query.ExecuteQuery("",&amp;nbsp;&lt;queryDef&amp;nbsp;operation="select"&amp;nbsp;schema="nms:recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@lastName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@firstName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@email&amp;nbsp;=&amp;nbsp;'joe.doe@aol.com'"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/queryDef&gt;);!!discoiqbr!!logInfo(queryRes[0].toXMLString())!!discoiqbr!!!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Using <strong>HttpServletRequest</strong>:</p> <p>Logon execution():</p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;var&amp;nbsp;req&amp;nbsp;=&amp;nbsp;new&amp;nbsp;HttpClientRequest("https://domain.org/nl/jsp/soaprouter.jsp");!!discoiqbr!!req.header["Content-Type"]&amp;nbsp;=&amp;nbsp;"text/xml;&amp;nbsp;charset=utf-8";!!discoiqbr!!req.header["SOAPAction"]&amp;nbsp;=&amp;nbsp;&amp;nbsp;&amp;nbsp;"xtk:session#Logon";!!discoiqbr!!req.method&amp;nbsp;=&amp;nbsp;"POST";!!discoiqbr!!!!discoiqbr!!req.body&amp;nbsp;=&amp;nbsp;'&lt;soapenv:Envelope&amp;nbsp;xmlns:soapenv="https://schemas.xmlsoap.org/soap/envelope/"&amp;nbsp;xmlns:urn="urn:xtk:session"&gt;'&amp;nbsp;+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;urn:Logon&gt;'&amp;nbsp;+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;urn:sessiontoken/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;urn:strLogin&gt;admin&lt;/urn:strLogin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;urn:strPassword&gt;pwd&lt;/urn:strPassword&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;urn:elemParameters/&gt;'&amp;nbsp;+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;/urn:Logon&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;';!!discoiqbr!!req.execute();!!discoiqbr!!!!discoiqbr!!var&amp;nbsp;resp&amp;nbsp;=&amp;nbsp;req.response;!!discoiqbr!!var&amp;nbsp;xmlRes&amp;nbsp;=&amp;nbsp;new&amp;nbsp;XML(String(resp.body).replace("&lt;?xml&amp;nbsp;version='1.0'?&gt;",""));!!discoiqbr!!var&amp;nbsp;sessionToken&amp;nbsp;=&amp;nbsp;String(xmlRes..*::pstrSessionToken);;!!discoiqbr!!var&amp;nbsp;securityToken&amp;nbsp;=&amp;nbsp;String(xmlRes..*::pstrSecurityToken);!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp; 
+    </codeblock><p>Query execution:</p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!var&amp;nbsp;req2&amp;nbsp;=&amp;nbsp;new&amp;nbsp;HttpClientRequest("http://serverURL/nl/jsp/soaprouter.jsp");!!discoiqbr!!req2.header["Content-Type"]&amp;nbsp;=&amp;nbsp;"text/xml;&amp;nbsp;charset=utf-8";!!discoiqbr!!req2.header["SOAPAction"]&amp;nbsp;=&amp;nbsp;&amp;nbsp;&amp;nbsp;"xtk:queryDef#ExecuteQuery";!!discoiqbr!!!!discoiqbr!!req2.header["X-Security-Token"]&amp;nbsp;=&amp;nbsp;securityToken;!!discoiqbr!!req2.header["cookie"]&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;=&amp;nbsp;"__sessiontoken="+sessionToken;!!discoiqbr!!req2.method&amp;nbsp;=&amp;nbsp;"POST";!!discoiqbr!!!!discoiqbr!!req2.body&amp;nbsp;=&amp;nbsp;'&lt;soapenv:Envelope&amp;nbsp;xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"&amp;nbsp;xmlns:urn="urn:xtk:queryDef"&gt;'&amp;nbsp;+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;urn:ExecuteQuery&gt;&lt;urn:sessiontoken/&gt;&lt;urn:entity&gt;'&amp;nbsp;+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;queryDef&amp;nbsp;operation="select"&amp;nbsp;schema="nms:recipient"&gt;'&amp;nbsp;+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;select&gt;&lt;node&amp;nbsp;expr="@email"/&gt;&lt;node&amp;nbsp;expr="@lastName"/&gt;&lt;node&amp;nbsp;expr="@firstName"/&gt;&lt;/select&gt;'&amp;nbsp;+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;where&gt;&lt;condition&amp;nbsp;expr="@email&amp;nbsp;=&amp;nbsp;'john.doe@aol.com'"/&gt;&lt;/where&gt;'&amp;nbsp;+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;/queryDef&gt;'&amp;nbsp;+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;/urn:entity&gt;&lt;/urn:ExecuteQuery&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;';!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!req2.execute();!!discoiqbr!!var&amp;nbsp;resp2&amp;nbsp;=&amp;nbsp;req2.response;!!discoiqbr!!logInfo(resp2.body)&amp;nbsp;!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!!!discoiqbr!! 
+    </codeblock></li> 
+  </ul> 
+ </body> 
+</html>

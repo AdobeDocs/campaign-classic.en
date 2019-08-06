@@ -1,0 +1,57 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="7c614821-9fab-44eb-a608-ab75b4c51347" name="jcr:predecessors" /> 
+  <meta content="Client console availability for Windows" name="jcr:title" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Client console availability for Windows" name="jcr:description" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="263a5db9-086a-4764-96d8-4440ff5b8ffa" name="jcr:uuid" /> 
+  <meta content="Client console availability for Windows" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="2019-08-06T06:59:31.262-0400" name="jcr:created" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <p>For Adobe Campaign users to be able to log on to the instance you have created and configured, they need to use the client console. </p> 
+  <p>When the computer used to start an Adobe Campaign application server (<strong>nlserver web</strong>) receives user connections from the client console, you can configure it to make the setup program for the Adobe Campaign rich client available via an HTML interface.</p> 
+  <p>To do this, you must: </p> 
+  <ol> 
+   <li><p>Recover the package that contains the console installation program.</p> <p>This file is called <strong>setup-client-7.<strong>X</strong>.<strong>XXXX</strong>.exe</strong> for v7 or <strong>setup-client-6.<strong>X</strong>.<strong>XXXX</strong>.exe</strong> for v6.1, where 'X' is the sub-version of Adobe Campaign and <strong>XXXX</strong> is the build number.</p> </li> 
+   <li><p>Copy and paste this package into the Adobe Campaign installation folder, under <strong>/datakit/nl/eng/jsp</strong>.</p> </li> 
+   <li><p>Start the Adobe Campaign server.</p> </li> 
+  </ol> 
+  <p> The final users may then download the console installation program via a Web browser thanks to the following URL: </p> 
+  <codeblock gutter="true" class="syntax html">
+    https://&lt;your&amp;nbsp;Adobe&amp;nbsp;Campaign&amp;nbsp;server&gt;:&gt;port&amp;nbsp;number&gt;/nl/jsp/logon.jsp 
+  </codeblock> 
+  <p>This page requires a login and password defined in the application.</p> 
+  <p>To download and install the console, refer to <a href="../../installation/using/installing-the-client-console.md" target="_blank">Installing the client console</a>.</p> 
+  <p>Whenever a new version of the client console is available, you are invited to download it.</p> 
+  <note> 
+   <p> In the prompt that is displayed, Adobe recommends leaving the option <strong>No longer ask this question</strong> unselected to make sure that all users are alerted when a new version of the console is available.<br /> If you select this option and choose not to download the latest version, no other user will be informed of new available versions.<br /> </p> 
+  </note> 
+  <p>To reset this prompt, follow the steps below (only system administrators comfortable with editing the Registry should make these changes):</p> 
+  <ol> 
+   <li><p>Open Registry Editor using the <strong>regedit</strong> command from the <strong>Start &gt; Run</strong> menu.</p> </li> 
+   <li><p>Search for the node and expand it.</p> 
+    <codeblock gutter="true" class="syntax html">
+      \HKEY_CURRENT_USERSoftwareNeolaneNL_6nlclient 
+    </codeblock></li> 
+   <li><p>Delete the <strong>confAdvisedUpgrade</strong> entry and close Registry Editor.</p> </li> 
+  </ol> 
+ </body> 
+</html>

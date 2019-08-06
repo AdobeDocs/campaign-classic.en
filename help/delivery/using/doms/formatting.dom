@@ -1,0 +1,291 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2d0cd32a-bd6a-4675-95b6-a161154a8b8c" name="jcr:predecessors" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="Formatting" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Formatting" name="jcr:description" /> 
+  <meta content="Formatting" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="audience:delivery" name="primaryAudienceTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="5c9784a8-5c55-42a4-80b3-80f1f5631d5c" name="jcr:uuid" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-08-06T06:59:28.444-0400" name="jcr:created" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <h2 id="javascript-templates">JavaScript templates</h2> 
+  <p>A JavaScript template is an HTML or text document that includes JavaScript code. It is constructed in the same way as an email content in a delivery action.</p> 
+  <h3 id="identification-of-a-javascript-template">Identification of a JavaScript template</h3> 
+  <p>A JavaScript template is identified by its name and namespace just like schemas and forms. It is, however, recommended to add the <strong>.js</strong> option to the template name.</p> 
+  <h3 id="structure-of-a-javascript-template">Structure of a JavaScript template</h3> 
+  <p>Example of a JavaScript HTML formatting template based on the "cus:book" schema:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;html&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;Title&amp;nbsp;of&amp;nbsp;book&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h1&gt;&lt;%=&amp;nbsp;content.@name&amp;nbsp;%&gt;&lt;/h1&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ul&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;%&amp;nbsp;for&amp;nbsp;each(var&amp;nbsp;chapter&amp;nbsp;in&amp;nbsp;content.chapter)&amp;nbsp;{&amp;nbsp;%&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&lt;%=&amp;nbsp;chapter.@name&amp;nbsp;%&gt;&lt;/li&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;%&amp;nbsp;}%&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ul&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/body&gt;!!discoiqbr!!&lt;/html&gt; 
+  </codeblock> 
+  <p>The various JavaScript directives appear in the following form: </p> 
+  <ul> 
+   <li><p>Merge fields: displays the content of the data with the <strong>&lt;%= <source /> %&gt;</strong> syntax where <source be="" data="" displayed.="" field="" is="" of="" p="" source="" the="" to="" /> </p></li> 
+   <li><p>Instruction blocks: executes a series of JavaScript instructions included between the &lt;% and %&gt; tags.</p> </li> 
+  </ul> 
+  <p>The <strong>content</strong> object represents the main element of the input XML document.</p> 
+  <p>In our example, the following line displays the content of the name book name:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;h1&gt;&lt;%=&amp;nbsp;content.@name&amp;nbsp;%&gt;&lt;/h1&gt; 
+  </codeblock> 
+  <p>The following code iterates on the 
+   <chapter>
+     collection element: 
+   </chapter></p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;%&amp;nbsp;for&amp;nbsp;each(var&amp;nbsp;chapter&amp;nbsp;in&amp;nbsp;content.chapter)&amp;nbsp;{&amp;nbsp;%&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;li&gt;&lt;%=&amp;nbsp;chapter.@name&amp;nbsp;%&gt;&lt;/li&gt;!!discoiqbr!!&lt;%&amp;nbsp;}%&gt; 
+  </codeblock> 
+  <p>The attributes and elements of the content are represented as JavaScript objects and respect the structure of the source document.</p> 
+  <p><strong>Example</strong>: </p> 
+  <ul> 
+   <li><p><strong>content.@name</strong>: retrieves the value of the "name" attribute of the main element</p> </li> 
+   <li><p><strong>content.@['name']</strong>: identical to the <strong>content.@name</strong> syntax</p> </li> 
+   <li><p><strong>content.chapter.length</strong>: returns the number of elements on the 
+     <chapter>
+       collection element 
+     </chapter></p> </li> 
+   <li><p><strong>content.chapter[0].@name</strong>: retrieves the name of the first 
+     <chapter>
+       element 
+     </chapter></p> </li> 
+   <li><p><strong>chapter.name()</strong>: returns the name of the 
+     <chapter>
+       element 
+     </chapter></p> </li> 
+   <li><p><strong>chapter.parent().name()</strong>: returns the name of the parent element of 
+     <chapter /></p> </li> 
+  </ul> 
+  <note>
+    Because the '-' character is reserved in the JavaScript language, the recovery of the value of any attribute or element containing this character must be carried out via the [' 
+   <field>
+     '] syntax. For example: content.@['offer-id']. 
+    <br /> 
+   </field> 
+  </note> 
+  <p>All the power of a programming language (variables, loops, conditional tests, functions, etc. ) is available to construct the output document. SOAP APIs are accessible to enrich the output document.</p> 
+  <p>Examples:</p> 
+  <ul> 
+   <li><p>Conditional test:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;%&amp;nbsp;if&amp;nbsp;(content.@number&amp;nbsp;==&amp;nbsp;1&amp;nbsp;||&amp;nbsp;content.@language&amp;nbsp;==&amp;nbsp;'en')&amp;nbsp;{&amp;nbsp;%&gt;!!discoiqbr!!&lt;!--&amp;nbsp;Content&amp;nbsp;to&amp;nbsp;be&amp;nbsp;displayed&amp;nbsp;if&amp;nbsp;test&amp;nbsp;is&amp;nbsp;true--&gt;&amp;nbsp;!!discoiqbr!!&lt;%&amp;nbsp;}&amp;nbsp;%&gt; 
+    </codeblock></li> 
+   <li><p>Function call:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;!--&amp;nbsp;Displays&amp;nbsp;a&amp;nbsp;horizontal&amp;nbsp;bar&amp;nbsp;--&gt;!!discoiqbr!!;&lt;%&amp;nbsp;function&amp;nbsp;DisplayHorizontalBar()&amp;nbsp;{&amp;nbsp;%&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;hr/&gt;!!discoiqbr!!&lt;%&amp;nbsp;}&amp;nbsp;%&gt;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&lt;!--&amp;nbsp;The&amp;nbsp;same&amp;nbsp;function&amp;nbsp;in&amp;nbsp;a&amp;nbsp;block&amp;nbsp;&amp;nbsp;--&gt;!!discoiqbr!!&lt;%&amp;nbsp;!!discoiqbr!!function&amp;nbsp;DisplayHorizontalBar2()!!discoiqbr!!{!!discoiqbr!!&amp;nbsp;&amp;nbsp;document.write('&lt;hr/&gt;');!!discoiqbr!!}!!discoiqbr!!%&gt;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&lt;!--&amp;nbsp;Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;in&amp;nbsp;uppercase&amp;nbsp;--&gt;!!discoiqbr!!&lt;%&amp;nbsp;!!discoiqbr!!function&amp;nbsp;formatName(value)!!discoiqbr!!{&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;return&amp;nbsp;value.toUpperCase();&amp;nbsp;!!discoiqbr!!}!!discoiqbr!!%&gt;!!discoiqbr!!!!discoiqbr!!&lt;!--&amp;nbsp;Call&amp;nbsp;functions&amp;nbsp;--&gt;!!discoiqbr!!&lt;%=&amp;nbsp;DisplayHorizontalBar1()&amp;nbsp;%&gt;!!discoiqbr!!&lt;%=&amp;nbsp;DisplayHorizontalBar2()&amp;nbsp;%&gt;!!discoiqbr!!&lt;%=&amp;nbsp;formatName(content.@name)&amp;nbsp;%&gt; 
+    </codeblock></li> 
+   <li><p>Declarations and variable call:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;%&amp;nbsp;&amp;nbsp;var&amp;nbsp;counter&amp;nbsp;=&amp;nbsp;0;&amp;nbsp;%&gt;!!discoiqbr!!!!discoiqbr!!&lt;%=&amp;nbsp;counter&amp;nbsp;+=&amp;nbsp;10&amp;nbsp;%&gt;!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Retrieval and display of a recipient name with static methods:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;%&amp;nbsp;var&amp;nbsp;recipient&amp;nbsp;=&amp;nbsp;nms.recipient.get(1246);&amp;nbsp;%&gt;!!discoiqbr!!&lt;%=&amp;nbsp;recipient.lastName&amp;nbsp;%&gt; 
+    </codeblock></li> 
+   <li><p>Recovery and display of a recipient name with non-static methods:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;%&amp;nbsp;var&amp;nbsp;query&amp;nbsp;=&amp;nbsp;xtk.queryDef.create(!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;queryDef&amp;nbsp;schema="nms:recipient"&amp;nbsp;operation="get"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;expr="@lastName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/select&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@id=1246"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/queryDef&gt;);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;var&amp;nbsp;recipient&amp;nbsp;=&amp;nbsp;query.ExecuteQuery();!!discoiqbr!!%&gt;!!discoiqbr!!!!discoiqbr!!&lt;%=&amp;nbsp;recipient.@lastName&amp;nbsp;%&gt; 
+    </codeblock></li> 
+  </ul> 
+  <h3 id="including-a-javascript-template">Including a JavaScript template</h3> 
+  <p>You can constitute a library of functions or variables for later use. To do this, import the JavaScript template with the <strong>eval</strong> function. This lets you enrich contexts with additional functions declared in other JavaScript templates.</p> 
+  <p><strong>Example</strong>: importing the <strong>common.jsp</strong> template.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;%&amp;nbsp;eval(xtk.javascript.get("cus:common.js").data);&amp;nbsp;&amp;nbsp;%&gt; 
+  </codeblock> 
+  <h3 id="editing-a-javascript-template">Editing a JavaScript template</h3> 
+  <p>The edit zone lets you populate the content of the JavaScript template:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_content_form16.png" title="d_ncs_content_form16.png" /> 
+  <note> 
+   <p> The associated data model schema must be populated for the initialization of JavaScript objects.<br /> </p> 
+  </note> 
+  <p>To generate the preview of the output document at any time, select a content and an output format (HTML, Text, XML), then click <strong>Generate</strong>:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_content_form17.png" title="d_ncs_content_form17.png" /> 
+  <note> 
+   <p> It is not necessary to save the changes in order to preview the output document.<br /> </p> 
+  </note> 
+  <h3 id="example-of-how-to-create-and-use-a-javascript-template">Example of how to create and use a JavaScript template</h3> 
+  <p>Below you will find the configuration required for implementing the following content management using a JavaScript template:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_content_sample_1.png" title="d_ncs_content_sample_1.png" /> 
+  <p>This example involves the following steps:</p> 
+  <ol> 
+   <li><p>Create the following schema (in this case: <strong>neo:news</strong>):</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;srcSchema&amp;nbsp;_cs="Invitation&amp;nbsp;(neo)"&amp;nbsp;&amp;nbsp;&amp;nbsp;entitySchema="xtk:srcSchema"&amp;nbsp;img="xtk:schema.png"&amp;nbsp;label="Invitation"&amp;nbsp;mappingType="sql"&amp;nbsp;name="news"&amp;nbsp;namespace="neo"&amp;nbsp;xtkschema="xtk:srcSchema"&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;enumeration&amp;nbsp;basetype="string"&amp;nbsp;default="en"&amp;nbsp;name="language"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;value&amp;nbsp;label="Français"&amp;nbsp;name="fr"&amp;nbsp;value="fr"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;value&amp;nbsp;label="English"&amp;nbsp;name="gb"&amp;nbsp;value="gb"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/enumeration&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;enumeration&amp;nbsp;basetype="string"&amp;nbsp;name="css"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;value&amp;nbsp;label="Blue"&amp;nbsp;name="bl"&amp;nbsp;value="blue"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;value&amp;nbsp;label="Orange"&amp;nbsp;name="or"&amp;nbsp;value="orange"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/enumeration&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Intervenants"&amp;nbsp;name="attendee"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;key&amp;nbsp;internal="true"&amp;nbsp;name="id"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@id"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/key&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;label="Name"&amp;nbsp;name="name"&amp;nbsp;type="string"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Image"&amp;nbsp;name="image"&amp;nbsp;target="xtk:fileRes"&amp;nbsp;type="link"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;label="Description"&amp;nbsp;name="description"&amp;nbsp;type="string"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;default="Gid()"&amp;nbsp;label="Id"&amp;nbsp;name="id"&amp;nbsp;type="long"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Invitation"&amp;nbsp;name="news"&amp;nbsp;template="ncm:content"&amp;nbsp;xmlChildren="true"&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;compute-string&amp;nbsp;expr="@name"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;enum="language"&amp;nbsp;label="Language"&amp;nbsp;name="language"&amp;nbsp;type="string"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;enum="css"&amp;nbsp;label="Stylesheet"&amp;nbsp;name="css"&amp;nbsp;type="string"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;label="Title"&amp;nbsp;name="title"&amp;nbsp;type="string"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Presentation"&amp;nbsp;name="presentation"&amp;nbsp;type="html"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;label="Date"&amp;nbsp;name="date"&amp;nbsp;type="date"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Attendees&amp;nbsp;list"&amp;nbsp;name="attendeesList"&amp;nbsp;ordered="true"&amp;nbsp;ref="attendee"&amp;nbsp;unbound="true"/&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+    </codeblock></li> 
+   <li><p>Create the linked <strong>Content management</strong> type form (<strong>neo:news</strong>)</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;form&amp;nbsp;_cs="News&amp;nbsp;(neo)"&amp;nbsp;entitySchema="xtk:form"&amp;nbsp;&amp;nbsp;img="xtk:form.png"&amp;nbsp;label="News"&amp;nbsp;&amp;nbsp;name="news"&amp;nbsp;namespace="neo"&amp;nbsp;type="contentForm"&amp;nbsp;xtkschema="xtk:form"&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;type="iconbox"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;label="Invitation"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@langue"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@css"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@title"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@date"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="presentation"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;label="Intervenants"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;container&amp;nbsp;toolbarCaption="Liste&amp;nbsp;des&amp;nbsp;intervenants"&amp;nbsp;type="notebooklist"&amp;nbsp;xpath="attendeesList"&amp;nbsp;xpath-label="@nom"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;container&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@nom"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;img="nl:sryimage.png"&amp;nbsp;newEntityFormChoice="true"&amp;nbsp;xpath="image"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;sysFilter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@isImage&amp;nbsp;=&amp;nbsp;true"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/sysFilter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/input&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@description"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/container&gt;!!discoiqbr!!!!discoiqbr!!&lt;/form&gt; 
+    </codeblock></li> 
+   <li><p>Create the JavaScript templates with message contents for HTML and Text formats.</p> 
+    <ul> 
+     <li><p>In our example, for HTML:</p> 
+      <codeblock gutter="true" class="syntax html">
+        &lt;html&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;head&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;title&gt;Newsletter&lt;/title&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;style&amp;nbsp;type="text/css"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.body&amp;nbsp;{font-family:Verdana,&amp;nbsp;Arial,&amp;nbsp;Helvetica,&amp;nbsp;sans-serif;&amp;nbsp;font-size:10px;&amp;nbsp;color:#514c48;&amp;nbsp;margin-left:&amp;nbsp;auto;&amp;nbsp;margin-right:&amp;nbsp;auto;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.body&amp;nbsp;table&amp;nbsp;{width:748;&amp;nbsp;border:&amp;nbsp;solid&amp;nbsp;1px;&amp;nbsp;cellpadding:0;&amp;nbsp;cellspacing:0"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/style&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/head&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;&lt;center&gt;&lt;%=&amp;nbsp;mirrorPage&amp;nbsp;%&gt;&lt;/center&gt;&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;center&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;table&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;tr&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img&amp;nbsp;src="[LOGO]"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;td&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h1&gt;&lt;%=&amp;nbsp;content.@title&amp;nbsp;%&gt;&lt;/h1&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/tr&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;tr&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;td&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h0&gt;&lt;%=&amp;nbsp;hello,&lt;/h0&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;&lt;%=&amp;nbsp;content.presentation&amp;nbsp;%&gt;&lt;/p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h0&gt;Useful&amp;nbsp;information&lt;/h0&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img&amp;nbsp;src="[IMAGE&amp;nbsp;1]"/&gt;When?&amp;nbsp;&lt;br/&gt;&lt;%=&amp;nbsp;formatDate(content.@date,&amp;nbsp;"%2D&amp;nbsp;%Bl&amp;nbsp;%4Y")&amp;nbsp;%&gt;&amp;nbsp;From&amp;nbsp;10&amp;nbsp;AM&amp;nbsp;in&amp;nbsp;your&amp;nbsp;bookshop.&lt;/p&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img&amp;nbsp;src="[IMAGE&amp;nbsp;2]"/&gt;Who?&amp;nbsp;&lt;br&gt;Meet&amp;nbsp;our&amp;nbsp;favorite&amp;nbsp;authors&amp;nbsp;and&amp;nbsp;illustrators&amp;nbsp;and&amp;nbsp;get&amp;nbsp;a&amp;nbsp;signed&amp;nbsp;copy&amp;nbsp;of&amp;nbsp;their&amp;nbsp;book.&lt;/p&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img&amp;nbsp;src="[IMAGE&amp;nbsp;3]"/&gt;Attendance&amp;nbsp;is&amp;nbsp;free&amp;nbsp;but&amp;nbsp;there&amp;nbsp;is&amp;nbsp;a&amp;nbsp;limited&amp;nbsp;number&amp;nbsp;of&amp;nbsp;seats:&amp;nbsp;sign&amp;nbsp;up&amp;nbsp;now!&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;style="text-align:left;&amp;nbsp;width:210;&amp;nbsp;height:400px;&amp;nbsp;background:url([IMAGE&amp;nbsp;DE&amp;nbsp;FOND])"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h0&gt;&lt;%=&amp;nbsp;participant&amp;nbsp;%&gt;&lt;/h0&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;i!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;iLength&amp;nbsp;=&amp;nbsp;content.attendeesList.length()!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;for&amp;nbsp;(i=0;&amp;nbsp;i&lt;iLength;&amp;nbsp;i++)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{&amp;nbsp;%&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;%=&amp;nbsp;generateImgTag(content.attendeesList[i].@["image-id"])&amp;nbsp;%&gt;&amp;nbsp;&amp;nbsp;&lt;%=&amp;nbsp;content.attendeesList[i].@description&amp;nbsp;%&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;%&amp;nbsp;}&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;%&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div2&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/tr&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/table&gt;!!discoiqbr!!&lt;/center&gt;!!discoiqbr!!&lt;/body&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&lt;/html&gt; 
+      </codeblock></li> 
+     <li><p>For the text:</p> 
+      <codeblock gutter="true" class="syntax html">
+        &lt;%=&amp;nbsp;content.@title&amp;nbsp;%&gt;!!discoiqbr!!&lt;%=&amp;nbsp;content.presentation&amp;nbsp;%&gt;!!discoiqbr!!!!discoiqbr!!***&amp;nbsp;When?&amp;nbsp;On&amp;nbsp;&lt;%=&amp;nbsp;formatDate(content.@date,&amp;nbsp;"%2D&amp;nbsp;%Bl&amp;nbsp;%4Y")&amp;nbsp;%&gt;&amp;nbsp;From&amp;nbsp;10&amp;nbsp;AM&amp;nbsp;in&amp;nbsp;your&amp;nbsp;bookshop.!!discoiqbr!!!!discoiqbr!!***&amp;nbsp;Who?&amp;nbsp;Come&amp;nbsp;and&amp;nbsp;meet&amp;nbsp;our&amp;nbsp;favorite&amp;nbsp;authors&amp;nbsp;and&amp;nbsp;illustrators&amp;nbsp;and&amp;nbsp;get&amp;nbsp;a&amp;nbsp;signed&amp;nbsp;copy&amp;nbsp;of&amp;nbsp;their&amp;nbsp;books.&amp;nbsp;!!discoiqbr!!!!discoiqbr!!***&amp;nbsp;Attendance&amp;nbsp;is&amp;nbsp;free&amp;nbsp;but&amp;nbsp;there&amp;nbsp;is&amp;nbsp;a&amp;nbsp;limited&amp;nbsp;number&amp;nbsp;of&amp;nbsp;seats:&amp;nbsp;sign&amp;nbsp;up&amp;nbsp;now!&amp;nbsp;!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!Guests:!!discoiqbr!!******************!!discoiqbr!!&lt;%!!discoiqbr!!var&amp;nbsp;i!!discoiqbr!!var&amp;nbsp;iLength&amp;nbsp;=&amp;nbsp;content.attendeesList.length()!!discoiqbr!!//for&amp;nbsp;(i=(iLength-1);&amp;nbsp;i&gt;-1;&amp;nbsp;i--)!!discoiqbr!!for(&amp;nbsp;i=0&amp;nbsp;;&amp;nbsp;i&lt;iLength&amp;nbsp;;&amp;nbsp;i++&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;{&amp;nbsp;%&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;Description&amp;nbsp;&lt;%=&amp;nbsp;i&amp;nbsp;%&gt;&amp;nbsp;:&amp;nbsp;&lt;%=&amp;nbsp;content.attendeesList[i].@description&amp;nbsp;%&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;%&amp;nbsp;}&amp;nbsp;&amp;nbsp;!!discoiqbr!!%&gt;!!discoiqbr!! 
+      </codeblock></li> 
+    </ul></li> 
+   <li><p>Now create the publication template used for both formats:</p> 
+    <ul> 
+     <li><p>For HTML: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_content_sample_2.png" title="d_ncs_content_sample_2.png" /></li> 
+     <li><p>For Text: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_content_sample_3.png" title="d_ncs_content_sample_3.png" /></li> 
+    </ul></li> 
+   <li><p>You may then use this content template in your deliveries.</p> <p>For more on this, refer to <a href="../../delivery/using/using-a-content-template.md" target="_blank">Using a content template</a>.</p> </li> 
+  </ol> 
+  <h2 id="xsl-stylesheets">XSL Stylesheets</h2> 
+  <p>XSLT language lets you change an XML document into an output document. Depending on the output method of the stylesheet, the resulting document can be generated in HTML, plain text or another XML tree.</p> 
+  <p>This transformation is in turn detailed in XML in a document known as the stylesheet.</p> 
+  <h3 id="identifying-a-stylesheet">Identifying a stylesheet</h3> 
+  <p>A stylesheet is identified by its name and namespace, just like schemas and forms. It is, however, recommended that you add the <strong>.xsl</strong> extension to the name of the stylesheet.</p> 
+  <p>The identification key of a stylesheet is a string formed by the namespace and the name separated by a colon; for example: <strong>cus:book.xsl</strong>.</p> 
+  <h3 id="structure-of-a-stylesheet">Structure of a stylesheet</h3> 
+  <p>Example of an HTML formatting stylesheet based on the example schema "cus:book":</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="ISO-8859-1"&amp;nbsp;?&gt;!!discoiqbr!!&lt;xsl:stylesheet&amp;nbsp;xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&amp;nbsp;version="1.0"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xsl:output&amp;nbsp;encoding="ISO-8859-1"&amp;nbsp;method="html"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;Point&amp;nbsp;of&amp;nbsp;entry&amp;nbsp;of&amp;nbsp;the&amp;nbsp;stylesheet&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xsl:template&amp;nbsp;match="/book"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;html&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;Book&amp;nbsp;title&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h1&gt;&lt;xsl:value-of&amp;nbsp;select="@name"/&gt;&lt;/h1&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lu&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;List&amp;nbsp;of&amp;nbsp;chapters&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:for-each&amp;nbsp;select="child::chapter"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&lt;xsl:value-of&amp;nbsp;select="@name"/&gt;&lt;/li&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xsl:for-each&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/lu&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/html&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xsl:template&gt;!!discoiqbr!!&lt;/xsl:stylesheet&gt; 
+  </codeblock> 
+  <p>A stylesheet is an XML document that obeys the following rules: </p> 
+  <ul> 
+   <li><p>the values of attributes are between quotation marks,</p> </li> 
+   <li><p>an element must have an opening marker and a closing marker,</p> </li> 
+   <li><p>replace the '&lt;' or '&amp;' characters with the <strong>'&amp;lt;'</strong> or <strong>'&amp;'</strong> entities,</p> </li> 
+   <li><p>each XSL element must use the <strong>xsl</strong> namespace.</p> </li> 
+  </ul> 
+  <p>A stylesheet must start with the XSL root element marker <strong> 
+    <xsl:stylesheet /></strong> and end with the <strong> </strong> marker. The XSL namespace must be defined in the opening marker as follows:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;xsl:stylesheet&amp;nbsp;xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&amp;nbsp;version="1.0"&gt; 
+  </codeblock> 
+  <p>The <strong> 
+    <xsl:output /></strong> element specifies the format of the document generated. Specify the desired set of characters and the output format.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;xsl:output&amp;nbsp;encoding="ISO-8859-1"&amp;nbsp;method="html"/&gt; 
+  </codeblock> 
+  <p>The following instructions describe the configuration of the stylesheet for the formatting of the output document.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;xsl:template&amp;nbsp;match="/book"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;html&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;Book&amp;nbsp;title&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h1&gt;&lt;xsl:value-of&amp;nbsp;select="@name"/&gt;&lt;/h1&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lu&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;List&amp;nbsp;of&amp;nbsp;chapters&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:for-each&amp;nbsp;select="child::chapter"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&lt;xsl:value-of&amp;nbsp;select="@name"/&gt;&lt;/li&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xsl:for-each&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/lu&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/html&gt;!!discoiqbr!!&lt;/xsl:template&gt; 
+  </codeblock> 
+  <p>By default, the XSLT processor seeks the <strong>template</strong> that applies to the root or main node of the input XML document. The construction of the output document begins with this <strong>template</strong>. </p> 
+  <p>In our example, an HTML page is generated from the "cus:book" schema by displaying the name of the book and the list of chapters.</p> 
+  <note> 
+   <p> For more information on the XSLT language, refer to an XSLT reference document.<br /> </p> 
+  </note> 
+  <h3 id="displaying-html-xml">Displaying HTML/XML</h3> 
+  <p>To display an <strong>html</strong> field, use the <strong> disable-output-escaping="yes"</strong> option from the <strong> 
+    <xsl:value-of /></strong> directive. This lets you avoid replacing characters with their XML entity (for example &lt; with &amp;lt;).</p> 
+  <p>The <strong> 
+    <xsl:text /></strong> directive with the <strong> disable-output-escaping="yes"</strong> option lets you insert JavaScript tags for personalization fields or conditional tests.</p> 
+  <p>Examples:</p> 
+  <ul> 
+   <li><p>Displaying the content of an "html"-type field:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;xsl:value-of&amp;nbsp;select="summary"&amp;nbsp;disable-output-escaping="yes"/&gt; 
+    </codeblock></li> 
+   <li><p>Inserting the personalization field <strong>&lt;%= recipient.email %&gt;</strong>: </p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;xsl:text&amp;nbsp;disable-output-escaping="yes"&gt;&amp;lt;%=&amp;nbsp;recipient.email&amp;nbsp;%&gt;&lt;/xsl:text&gt; 
+    </codeblock></li> 
+   <li><p>Adding the conditional test <strong>&lt;% if (recipient.language == 'en') { %&gt;</strong>:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;xsl:text&amp;nbsp;disable-output-escaping="yes"&gt;&amp;lt;%&amp;nbsp;if&amp;nbsp;(recipient.language&amp;nbsp;==&amp;nbsp;'en')&amp;nbsp;{&amp;nbsp;%&gt;&lt;/xsl:text&gt; 
+    </codeblock></li> 
+  </ul> 
+  <h3 id="including-stylesheets">Including stylesheets</h3> 
+  <p>It is possible to build up a library of templates or variables to be shared among several stylesheets. The "longMonth" <strong>template</strong>, presented above, is a typical example of the advantage of locating a template remotely in a stylesheet so that it can be reused later.</p> 
+  <p>The<strong> 
+    <xsl:include /></strong> directive indicates the name of the stylesheet to be included in the document.</p> 
+  <p><strong>Example</strong>: including the "common.xsl" style sheet.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;?&amp;nbsp;xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="ISO-8859-1"&amp;nbsp;?&gt;!!discoiqbr!!&lt;xsl:stylesheet&amp;nbsp;xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&amp;nbsp;version="1.0"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xsl:include&amp;nbsp;href="common.xsl"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xsl:output&amp;nbsp;encoding="ISO-8859-1"&amp;nbsp;method="jsp"&amp;nbsp;indent="yes"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&lt;/xsl:stylesheet&gt; 
+  </codeblock> 
+  <note> 
+   <p> The name of the namespace must not be entered in the reference of the stylesheet to include. As a standard, this stylesheet is created with the user namespace.<br /> </p> 
+  </note> 
+  <h3 id="editing-a-stylesheet">Editing a stylesheet</h3> 
+  <p>The edit zone lets you populate the content of the stylesheet:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_content_form14.png" title="d_ncs_content_form14.png" /> 
+  <p>To generate a preview of the output document at any time, select a content instance and the format (HTML, Text, XML), and then click <strong>Generate</strong>:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_content_form15.png" title="d_ncs_content_form15.png" /> 
+  <note> 
+   <p> There is no need to save changes in the stylesheet to view the output document preview.<br /> </p> 
+  </note> 
+  <h2 id="image-management">Image management</h2> 
+  <h3 id="image-referencing">Image referencing</h3> 
+  <p>The images entered in the HTML output document can be referenced with absolute or relative references. </p> 
+  <p>Relative referencing lets you enter the URL of the server containing the images in the <strong>NcmRessourcesDir</strong> and <strong>NcmRessourcesDirPreview</strong> options. These options contain the location of images for publication and preview in the Adobe Campaign client console. </p> 
+  <p>These two options are accessible via the option management screen in the <strong>Administration &gt; Platform &gt; Options</strong> folder.</p> 
+  <p><strong>Example</strong>: </p> 
+  <ul> 
+   <li><p>NcmResourcesDir = "https://server/images/"</p> </li> 
+   <li><p>NcmResourcesDirPreview = "x:/images/"</p> </li> 
+  </ul> 
+  <p>During stylesheet processing, the <strong>_resPath</strong> attribute on the main element of the input XML document is automatically filled in with one or other of the options depending on context (preview or publication).</p> 
+  <p>Example of how to use the image placement option and its use with an image:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;img&amp;nbsp;src="&lt;%=&amp;nbsp;content.@_resPath&amp;nbsp;%&gt;/newsletter/image.png"/&gt; 
+  </codeblock> 
+  <note> 
+   <p> We recommend declaring a variable containing the reference of the server where the images are stored ("resPath" in our example).<br /> </p> 
+  </note> 
+  <h3 id="using-public-resources">Using public resources</h3> 
+  <p>You can also use <strong>Public resources</strong> to declare images and upload them onto the server depending on the instance settings entered in the deployment wizard. </p> 
+  <p>You can then call up these images in contents. to do this, use the following syntax in the content management schema:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;element&amp;nbsp;label="Image"&amp;nbsp;name="image"&amp;nbsp;target="xtk:fileRes"&amp;nbsp;type="link"/&gt; 
+  </codeblock> 
+  <p>In the form, the field for selecting the image will be added via the following syntax:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;input&amp;nbsp;img="nl:sryimage.png"&amp;nbsp;newEntityFormChoice="true"&amp;nbsp;xpath="image"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;sysFilter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;condition&amp;nbsp;expr="@isImage&amp;nbsp;=&amp;nbsp;true"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/sysFilter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/input&gt; 
+  </codeblock> 
+  <note> 
+   <p> For more on <strong>Public resources</strong> and how to configure and use them, refer to <a href="../../installation/using/deploying-an-instance.md#managing-public-resources">this section</a>.<br /> </p> 
+  </note> 
+  <h2 id="date-display">Date display</h2> 
+  <p>In the XML input document, the dates are stored in internal XML format: <strong>YYYY/MM/DD HH:MM:SS</strong> (example 2018/10/01 12:23:30). </p> 
+  <p>Adobe Campaign provides date formatting functions for the JavaScript templates and XSL stylesheets detailed below.</p> 
+  <h3 id="javascript-date-formatting">JavaScript date formatting</h3> 
+  <p>To display a date in the desired format, Adobe Campaign provides the <strong>formatDate</strong> function that takes as input the content of the date and a string specifying the output format with the following syntax: <strong>%4Y/%2M/%2D %2H%2N%2S </strong></p> 
+  <p>Examples:</p> 
+  <ul> 
+   <li><p>Display the date in the <strong>31/10/2018</strong> format:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &amp;nbsp;&lt;%=&amp;nbsp;formatDate(content.@date,&amp;nbsp;"%2D/%2M/%4Y")&amp;nbsp;%&gt; 
+    </codeblock></li> 
+   <li><p>Display the date in the <strong>July 2018</strong> format:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;%!!discoiqbr!!&amp;nbsp;function&amp;nbsp;displayDate(date)!!discoiqbr!!&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;aMonth&amp;nbsp;=&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[&amp;nbsp;'January',&amp;nbsp;'February',&amp;nbsp;'March',&amp;nbsp;'April',&amp;nbsp;'May',&amp;nbsp;'June',&amp;nbsp;'July',&amp;nbsp;'August',&amp;nbsp;'September',&amp;nbsp;'October',&amp;nbsp;'November',&amp;nbsp;'December'&amp;nbsp;];!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;month&amp;nbsp;=&amp;nbsp;formatDate(content.@date,&amp;nbsp;"%2M")!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;year&amp;nbsp;=&amp;nbsp;formatDate(content.@date,&amp;nbsp;"%4Y")!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;aMonth[month-1]+"&amp;nbsp;"+year;!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!%&gt;!!discoiqbr!!!!discoiqbr!!&lt;%=&amp;nbsp;displayDate(content.@date)&amp;nbsp;%&gt; 
+    </codeblock></li> 
+  </ul> 
+  <h3 id="xsl-date-formatting">XSL date formatting</h3> 
+  <p>There is no standard date management function in XSLT syntax. To display a date in the desired format, Adobe Campaign provides the external function <strong>date-format</strong>. This function takes as its input the content of the date and a string specifying the output format with the following syntax: <strong>%4Y/%2M/%2D %2H%2N%2S </strong></p> 
+  <p>Examples:</p> 
+  <ul> 
+   <li><p>To display the date in the <strong>01/10/2018</strong> format:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;xsl:value-of&amp;nbsp;select="external:date-format(@date,&amp;nbsp;'%2D/%2M/%4Y')"/&gt; 
+    </codeblock></li> 
+   <li><p>To display the date in the <strong>July 2018</strong> format:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;!--&amp;nbsp;Returns&amp;nbsp;the&amp;nbsp;month&amp;nbsp;in&amp;nbsp;the&amp;nbsp;form&amp;nbsp;of&amp;nbsp;a&amp;nbsp;string&amp;nbsp;with&amp;nbsp;the&amp;nbsp;month&amp;nbsp;number&amp;nbsp;as&amp;nbsp;input&amp;nbsp;--&gt;!!discoiqbr!!&lt;xsl:template&amp;nbsp;name="longMonth"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xsl:param&amp;nbsp;name="monthNumber"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xsl:choose&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:when&amp;nbsp;test="$monthNumber&amp;nbsp;=&amp;nbsp;1"&gt;January&lt;/xsl:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:when&amp;nbsp;test="$monthNumber&amp;nbsp;=&amp;nbsp;2"&gt;February&lt;/xsl:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:when&amp;nbsp;test="$monthNumber&amp;nbsp;=&amp;nbsp;3"&gt;March&lt;/xsl:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:when&amp;nbsp;test="$monthNumber&amp;nbsp;=&amp;nbsp;4"&gt;April&lt;/xsl:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:when&amp;nbsp;test="$monthNumber&amp;nbsp;=&amp;nbsp;5"&gt;May&lt;/xsl:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:when&amp;nbsp;test="$monthNumber&amp;nbsp;=&amp;nbsp;6"&gt;June&lt;/xsl:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:when&amp;nbsp;test="$monthNumber&amp;nbsp;=&amp;nbsp;7"&gt;July&lt;/xsl:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:when&amp;nbsp;test="$monthNumber&amp;nbsp;=&amp;nbsp;8"&gt;August&lt;/xsl:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:when&amp;nbsp;test="$monthNumber&amp;nbsp;=&amp;nbsp;9"&gt;September&lt;/xsl:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:when&amp;nbsp;test="$monthNumber&amp;nbsp;=&amp;nbsp;10"&gt;October&lt;/xsl:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:when&amp;nbsp;test="$monthNumber&amp;nbsp;=&amp;nbsp;11"&gt;November&lt;/xsl:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:when&amp;nbsp;test="$monthNumber&amp;nbsp;=&amp;nbsp;12"&gt;December&lt;/xsl:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/xsl:choose&gt;!!discoiqbr!!&lt;/xsl:template&gt;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&lt;!--&amp;nbsp;Display&amp;nbsp;date&amp;nbsp;--&gt;!!discoiqbr!!&lt;xsl:call-template&amp;nbsp;name="longMonth"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xsl:with-param&amp;nbsp;name="monthNumber"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:value-of&amp;nbsp;select="external:date-format(@date,&amp;nbsp;'%2M')"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/xsl:with-param&gt;!!discoiqbr!!&lt;/xsl:call-template&gt;!!discoiqbr!!&amp;nbsp;&lt;xsl:value-of&amp;nbsp;select="external:date-format(@date,&amp;nbsp;'%4y')"/&gt;!!discoiqbr!! 
+    </codeblock></li> 
+  </ul> 
+ </body> 
+</html>

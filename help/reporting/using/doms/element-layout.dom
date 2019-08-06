@@ -1,0 +1,54 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="64320218-df01-451b-bdfc-d0c989068d16" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Element layout" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Element layout" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:reporting" name="cq:tags" />
+  <meta content="9e73f552-7944-4d59-b50e-302ec8cd9603" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Element layout" name="jcr:title" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="seoDescription" />
+  <meta content="2019-08-06T06:59:36.172-0400" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <p>In addition to the various charts detailed here: <a href="../../reporting/using/element-layout.md#chart-types-and-variants" target="_blank">Chart types and variants</a>, you can adapt the display and add elements to the report page(s).</p> 
+  <p>You can use containers: these enable you to link several elements of a page and configure their layout in columns and/or cells. How to use them is detailed in <a href="../../web/using/defining-web-forms-layout.md#creating-containers">this section</a>.</p> 
+  <p>You can configure the report layout at the root of the tree and overload it for each container. Pages are sorted into columns. Containers are also sorted into columns. Only the static and graphical items are sorted into cells. </p> 
+  <h2 id="defining-the-options-for-each-page">Defining the options for each page</h2>
+  <p>You can use the options on each page of the report.</p> 
+  <p>The <strong>General</strong> tab lets you change the title of the page, as well as configure legend positions and browsing between the report pages. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_022.png" title="s_ncs_advuser_report_wizard_022.png" />
+  <p>The <strong>Title</strong> field lets you personalize the label in the header of the report page. The title of the window can be configured via the <strong>Properties</strong> window of the report. For more on this, refer to <a href="../../reporting/using/element-layout.md#adding-a-header-and-a-footer" target="_blank">Adding a header and a footer</a>.</p> 
+  <p>The <strong>Display settings</strong> options enable you to select the position of the control caption within a report page and to define the number of columns on the page. For more on page layout, refer to the <strong>Item layout</strong> section of <a href="../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page">this section</a>.</p> 
+  <p>Select the various options in the <strong>Browse</strong> section to authorize browsing from one report page to another. If the <strong>Disable next page</strong> or the <strong>Disable previous page</strong> option is selected, the <strong>Next </strong> and <strong>Previous</strong> buttons disappear from the report page.</p> 
+  <h2 id="adding-a-header-and-a-footer">Adding a header and a footer</h2>
+  <p>The report properties window also lets you define the layout elements, such as: the title of the window, the HTML content of the headers and footers.</p> 
+  <p>To access the properties window, click the <strong>Properties</strong> button of the report.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_properties.png" title="reporting_properties.png" />
+  <p>The <strong>Page</strong> tab enables you to personalize your display. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_properties_04.png" title="s_ncs_advuser_report_properties_04.png" />
+  <p>The content configured in this tab will be visible on all report pages.</p> 
+  <p>The <strong>Texts</strong> sub-tab enables you to define variable content: it will be taken into account during the translation cycle if the report is designed for use in several languages. </p> 
+  <p>This lets you create a list of text fragments and link them to identifiers:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_properties_04a.png" title="s_ncs_advuser_report_properties_04a.png" />
+  <p>Then insert these identifiers into HTML contents of the report:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_properties_04b.png" title="s_ncs_advuser_report_properties_04b.png" />
+  <p>They will be automatically replaced with the appropriate content when the report is displayed.</p> 
+  <p>Like for HTML texts, this operating mode enables you to centralize the texts used in the report and manage their translation. The texts created in this tab are collected automatically by the Adobe Campaign integrated translation tool.</p> 
+ </body>
+</html>

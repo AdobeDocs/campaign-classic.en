@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Mid-sourcing platform" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Mid-sourcing platform" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2019-08-06T06:59:19.583-0400" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="efc59cb4-0e71-4e00-8c3e-aeaef15025c4" name="jcr:predecessors" />
+  <meta content="Mid-sourcing platform" name="jcr:description" />
+  <meta content="1f7be778-3545-4771-811b-e4ba61a97247" name="jcr:uuid" />
+ </head>
+ <body>
+  <p>The workflow detailed below is installed with the <strong>Mid-Sourcing platform</strong> module by default. For more on this module, refer to this <a href="../../installation/using/mid-sourcing-deployment.md">section</a>.</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> <strong>Label</strong><br /> </td> 
+     <td> <strong>Internal name</strong><br /> </td> 
+     <td> <strong>Description</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Delivery indicators</strong><br /> </td> 
+     <td> <strong>deliveryIndicators</strong><br /> </td> 
+     <td> This workflow updates delivery tracking indicators for a delivery. This workflow is triggered every hour by default.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+ </body>
+</html>

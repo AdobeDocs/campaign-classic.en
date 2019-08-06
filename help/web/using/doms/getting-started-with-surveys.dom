@@ -1,0 +1,89 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="ee175ae9-26b7-461d-bd93-56dcb56a2eaf" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="f81b6efc-80de-40ad-be5c-9e096a6a125a" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Getting started with surveys" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Getting started with surveys" name="jcr:title" />
+  <meta content="audience:web" name="primaryAudienceTag" />
+  <meta content="2019-08-06T06:59:06.653-0400" name="jcr:created" />
+  <meta content="Getting started with surveys" name="jcr:description" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="seoDescription" />
+ </head>
+ <body>
+  <p>Here is a quick overview of the main steps to create a simple survey, using the following template:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_result.png" title="s_ncs_admin_survey_result.png" />
+  <p>These steps are:</p> 
+  <ol>
+   <li><p> <a href="../../web/using/getting-started-with-surveys.md#step-1---creating-a-survey" target="_blank">Step 1 - Creating a survey</a>,</p> </li>
+   <li><p> <a href="../../web/using/getting-started-with-surveys.md#step-2---selecting-the-template" target="_blank">Step 2 - Selecting the template</a>,</p> </li>
+   <li><p> <a href="../../web/using/getting-started-with-surveys.md#step-3---building-the-survey" target="_blank">Step 3 - Building the survey</a>,</p> </li>
+   <li><p> <a href="../../web/using/getting-started-with-surveys.md#step-4---creating-the-page-content" target="_blank">Step 4 - Creating the page content</a>,</p> </li>
+   <li><p> <a href="../../web/using/getting-started-with-surveys.md#step-5---storing-the-survey-data-" target="_blank">Step 5 - Storing the survey data </a>,</p> </li>
+   <li><p> <a href="../../web/using/getting-started-with-surveys.md#step-6---publishing-the-pages" target="_blank">Step 6 - Publishing the pages</a>,</p> </li>
+   <li><p> <a href="../../web/using/getting-started-with-surveys.md#step-7---sharing-your-online-survey" target="_blank">Step 7 - Sharing your online survey</a>.</p> </li>
+  </ol>
+  <h2 id="step-1---creating-a-survey">Step 1 - Creating a survey</h2>
+  <p>To create a new survey, go to the <strong>Campaigns</strong> or <strong>Profiles and targets</strong> universe and click the <strong>Web Applications</strong> menu. Click the <strong>Create</strong> button above the list of forms.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_create.png" title="s_ncs_admin_survey_create.png" />
+  <h2 id="step-2---selecting-the-template">Step 2 - Selecting the template</h2>
+  <p>Select a survey template, then give the survey a name. This name will not be seen by end users, but it allows the survey to be identified within Adobe Campaign. Click <strong>Save</strong> to add the survey to the list of Web applications.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_wz_00.png" title="s_ncs_admin_survey_wz_00.png" />
+  <h2 id="step-3---building-the-survey">Step 3 - Building the survey</h2>
+  <p>Surveys are built in a diagram where the following elements are positioned: the page(s) where the content will be created, the data preloading and saving steps, and the testing phases. Scripts and queries can also be inserted.</p> 
+  <p>To build the chart, click the <strong>Edit</strong> form of the survey.</p> 
+  <p>A survey must contain <strong>at least</strong> the following three components: a page, a storage box, and an end page.</p> 
+  <ul>
+   <li><p> To create a page, select the <strong>Page</strong> object in the left-hand section of the editor and deposit it in the middle section, as shown below:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_new_page.png" title="s_ncs_admin_survey_new_page.png" /></li>
+   <li><p>Next, select the <strong>Storage</strong> object and place it on the output transition of the page.</p> </li>
+   <li><p>Finally, select the <strong>End</strong> object and place it on the end of the output transition of the storage box to obtain the following diagram:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_end.png" title="s_ncs_admin_survey_end.png" /></li>
+  </ul>
+  <h2 id="step-4---creating-the-page-content">Step 4 - Creating the page content</h2>
+  <p>In the following example, we are using a <strong>Page (v5 compatibility)</strong> type page. This type of page is accessed via the advanced menu of the <strong>Edit</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_pagev5.png" title="s_ncs_admin_survey_pagev5.png" />
+  <ul>
+   <li><p>Adding input fields</p> <p>To create the content of the page, you must edit it: to do this, double-click the <strong>Page</strong> object. Click the first icon in the toolbar to open the field creation wizard. To create an entry field for the user name to be stored in the matching field of the recipient's profile, select <strong>Edit a recipient</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_add_field_menu.png" title="s_ncs_admin_survey_add_field_menu.png" /><p>Click the <strong>Next</strong> button to select the field for data storage in the database. In this case, the 'Last name' field.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_choose_field.png" title="s_ncs_admin_survey_choose_field.png" /><p>Click <strong>Finish</strong> to confirm field creation.</p> <p>By default, when the information is stored in a field that already exists in the database, the field takes on the name of the selected field, i.e. 'Last name' in this example. You can modify this label as shown below:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_change_label.png" title="s_ncs_admin_survey_change_label.png" /><p>Now create an entry field for the user account number. Repeat the operation and select the 'account No.' field.</p> <p>Apply the same procedure to add a field for the user to enter an email address.</p> </li>
+   <li><p>To create a question, right-click the last element in the tree, and select <strong>Containers &gt; Question</strong>, or click the <strong>Containers</strong> icon and select <strong>Question</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_add_qu.png" title="s_ncs_admin_survey_add_qu.png" /><p>Enter the label of the question and insert the answer field(s) as a sub-branch of the question. To do this, the node linked to the question must be selected when you create the answer field. Add a <strong>drop-down listx</strong> using the <strong>Selection controls</strong> icon or by right-clicking, as shown below:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_add_list.png" title="s_ncs_admin_survey_add_list.png" /><p>Select a storage space: select an enumeration field to retrieve the values automatically (the email format in this case). </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_add_itz_list.png" title="s_ncs_admin_survey_add_itz_list.png" /><p>In the <strong>General</strong> tab, click the <strong>Initialize the list of values from the database</strong> link: the table of values is entered automatically.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_add_value.png" title="s_ncs_admin_survey_add_value.png" /><p>Click <strong>OK</strong> to close the editor, and <strong>Save</strong> to save changes.</p> 
+    <note>
+     <p> For each field or question, you can adapt the page layout to suit your needs, thanks to the options in the <strong>Advanced</strong> tab. The layout of survey screens is detailed in the <a href="../../web/using/about-web-forms.md">this section</a>.<br /> </p> 
+    </note><p>In the detail screen, click the <strong>Preview</strong> tab to view the rendering of the survey you have just created.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_preview.png" title="s_ncs_admin_survey_preview.png" /></li>
+  </ul>
+  <h2 id="step-5---storing-the-survey-data-">Step 5 - Storing the survey data</h2>
+  <p>The storage box lets you save the user responses in the database. You must select a reconciliation key to identify the profiles already in the database. </p> 
+  <p>To do this, edit the box and select the field that will be used as a reconciliation key when the data is stored. </p> 
+  <p>In the example below, when saving (confirmation) takes place, if a profile is saved in the database with the same account number as the one input in the form, the profile will be updated. If the profile does not exist, it will be created.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_save_edit.png" title="s_ncs_admin_survey_save_edit.png" />
+  <p>Click <strong>OK</strong> to confirm, then click <strong>Save</strong> to save the survey </p> 
+  <h2 id="step-6---publishing-the-pages">Step 6 - Publishing the pages</h2>
+  <p>For users to be able to access the HTML pages, the application must be made available. It must no longer be at the editing stage, but in production. To put a survey in production, you must publish it. To do this:</p> 
+  <ul>
+   <li><p>Click the <strong>Publish</strong> button located above the survey dashboard.</p> </li>
+   <li><p>Click <strong>Start</strong> to launch publication and close the wizard.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_start_publ.png" title="s_ncs_admin_survey_start_publ.png" /><p>The status of the survey changes to: <strong>Online</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/survey_published.png" title="survey_published.png" /></li>
+  </ul>
+  <h2 id="step-7---sharing-your-online-survey">Step 7 - Sharing your online survey</h2>
+  <p>Once it is in production, the survey is accessible on the server and you can deliver it. The URL for accessing the survey is displayed on the dashboard. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/survey_url_from_dashboard.png" title="survey_url_from_dashboard.png" />
+  <p>To deliver the survey, you can send a message containing an access link to the target population, or place the survey access URL on a web page, for example.</p> 
+  <p>You can then monitor user responses via reports and logs. See <a href="../../web/using/getting-started-with-surveys.md#response-tracking" target="_blank">Response tracking</a>.</p> 
+  <note>
+    The public URL includes the internal name of the survey. When the internal name is modified, the URL is updated automatically: all links to the survey must also be updated.
+   <br /> If deliveries containing the link to the form have already been sent, this link will no longer work.
+   <br /> 
+  </note>
+ </body>
+</html>

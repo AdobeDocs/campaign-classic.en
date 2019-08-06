@@ -1,0 +1,89 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Cross-channel delivery workflow" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="1283311e-3793-49c7-a142-58decd2d307e" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-08-06T06:59:18.246-0400" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="6b6c3b6c-ffba-40c4-8e8a-e7ea44556ec4" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="Cross-channel delivery workflow" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Cross-channel delivery workflow" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <p>This use case presents an example involving a cross-channel delivery workflow. The general concept of cross-channel deliveries is presented in <a href="../../workflow/using/cross-channel-deliveries.md">this section</a>.</p> 
+  <p>The objective is to segment an audience from the recipients of your database into different groups with the aim of sending an email to a group and an SMS message to another group.</p> 
+  <p>The main implementation steps for this use case are as follows:</p> 
+  <ol>
+   <li><p>Creating a <strong>Query</strong> activity to target your audience.</p> </li>
+   <li><p>Creating an <strong>Email delivery</strong> activity containing a link to an offer.</p> </li>
+   <li><p>Using a <strong>Split</strong> activity to:</p> 
+    <ul>
+     <li><p>Send another email to the recipients who did not open the first email.</p> </li>
+     <li><p>Send an SMS to the recipients who opened the email but did not click the link to the offer.</p> </li>
+     <li><p>Add to the database the recipients who opened the email and clicked the link.</p> </li>
+    </ul></li>
+  </ol>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_cross-channel_7.png" title="wkf_cross-channel_7.png" />
+  <h2 id="step-1--targeting-the-audience">Step 1: Targeting the audience</h2>
+  <p>To define your target, create a query to identify the recipients.</p> 
+  <ol>
+   <li><p>Create a campaign. For more on this, refer to <a href="../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign">this section</a>.</p> </li>
+   <li><p>In the <strong>Targeting and workflows</strong> tab of your campaign, add a <strong>Query</strong> activity to your workflow. For more on using this activity, refer to <a href="../../workflow/using/query.md">this section</a>.</p> </li>
+   <li><p>Define the recipients who will receive your deliveries. For example, select 'Gold' members as the target dimension.</p> </li>
+   <li><p>Add filtering conditions to your query. In this example, select recipients who have an email address and a mobile number.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_cross-channel_3.png" title="wkf_cross-channel_3.png" /></li>
+   <li><p>Save your changes.</p> </li>
+  </ol>
+  <h2 id="step-2--creating-an-email-including-an-offer">Step 2: Creating an email including an offer</h2>
+  <ol>
+   <li><p>Create an <strong>Email delivery</strong> activity and double-click it in your workflow to edit it. For more on creating an email, refer to <a href="../../delivery/using/about-email-channel.md">this section</a>.</p> </li>
+   <li><p>Design the message and insert a link including an offer into the content.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_cross-channel_1.png" title="wkf_cross-channel_1.png" /><p>For more on integrating an offer into the body of a message, refer to <a href="../../interaction/using/integrating-an-offer-via-the-wizard.md#delivering-with-a-call-to-the-offer-engine">this section</a>.</p> </li>
+   <li><p>Save your changes.</p> </li>
+   <li><p>Right-click the <strong>Email delivery</strong> activity to open it.</p> </li>
+   <li><p>Select the <strong>Generate an outbound transition</strong> option to recover the population and the tracking logs.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_cross-channel_2.png" title="wkf_cross-channel_2.png" /><p>This will enable you to use this information to send another delivery depending on the recipients' behaviors when receiving the first email.</p> </li>
+   <li><p>Add a <strong>Wait</strong> activity to let a few days for the recipients to open the email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_cross-channel_4.png" title="wkf_cross-channel_4.png" /></li>
+  </ol>
+  <h2 id="step-3--segmenting-the-resulting-audience">Step 3: Segmenting the resulting audience</h2>
+  <p>Once your target is identified and your first delivery created, you need to segment the target into different populations using filtering conditions.</p> 
+  <ol>
+   <li><p>Add a <strong>Split</strong> activity to the workflow and open it. For more on using this activity, refer to <a href="../../workflow/using/split.md">this section</a>.</p> </li>
+   <li><p>Create three segments from the population computed upstream in the query.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_cross-channel_6.png" title="wkf_cross-channel_6.png" /></li>
+   <li><p>For the first subset, select the <strong>Add a filtering condition on the inbound population</strong> option and click <strong>Edit</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_cross-channel_8.png" title="wkf_cross-channel_8.png" /></li>
+   <li><p>Select <strong>Recipients of a delivery</strong> as the restriction filter and click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_cross-channel_9.png" title="wkf_cross-channel_9.png" /></li>
+   <li><p>In the filter settings, select <strong>Recipients who have not opened or clicked (email)</strong> from the <strong>Behavior</strong> drop-down list and select the email including the offer you want to send from the delivery list. Click <strong>Finish</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_cross-channel_10.png" title="wkf_cross-channel_10.png" /></li>
+   <li><p>Proceed similarly for the second subset and select <strong>Recipients who have not clicked (email)</strong> from the <strong>Behavior</strong> drop-down-list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_cross-channel_11.png" title="wkf_cross-channel_11.png" /></li>
+   <li><p>For the third subset, after selecting the <strong>Add a filtering condition on the inbound population</strong> and clicking <strong>Edit</strong>, select the <strong>Use a specific filtering dimension</strong> option.</p> </li>
+   <li><p>Select <strong>Recipient tracking log</strong> from the <strong>Filtering dimension</strong> drop-down list, highlight <strong>Filtering conditions</strong> from the <strong>List of restriction filters</strong> and click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_cross-channel_12.png" title="wkf_cross-channel_12.png" /></li>
+   <li><p>Select the filter conditions as follows:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_cross-channel_13.png" title="wkf_cross-channel_13.png" /></li>
+   <li><p>Click <strong>Finish</strong> to save your changes.</p> </li>
+  </ol>
+  <h2 id="step-4--finalizing-the-workflow">Step 4: Finalizing the workflow</h2>
+  <ol>
+   <li><p>Add the relevant activities to your workflow after the three subsets resulting from the <strong>Split</strong> activity:</p> 
+    <ul>
+     <li><p>Add an <strong>Email delivery</strong> activity to send a reminder email to the first subset.</p> </li>
+     <li><p>Add a <strong>Mobile delivery</strong> activity to send an SMS message to the second subset.</p> </li>
+     <li><p>Add a <strong>List update</strong> activity to add the corresponding recipients to the database.</p> </li>
+    </ul></li>
+   <li><p>Double-click the delivery activities in your workflow to edit them. For more on creating an email and an SMS, refer to <a href="../../delivery/using/about-email-channel.md">Email channel</a> and <a href="../../delivery/using/sms-channel.md">SMS channel</a>.</p> </li>
+   <li><p>Double-click the <strong>List update</strong> activity and select the <strong>Generate an outbound transition</strong> option.</p> <p>You can then export the resulting recipients from Adobe Campaign to the Adobe Experience Cloud. For example, you can use the audience in Adobe Target by adding an <strong>Update shared audience</strong> activity to the workflow. For more on this, refer to <a href="../../integrations/using/importing-and-exporting-audiences.md#exporting-an-audience">Exporting an audience</a>.</p> </li>
+   <li><p>Click the <strong>Start</strong> button in the action bar to execute the workflow.</p> </li>
+  </ol>
+  <p>The population targeted by the <strong>Query</strong> activity will be segmented to receive an email or an SMS delivery according to the recipients' behaviors. The remaining population will be added to the database using the <strong>List update</strong> activity.</p> 
+ </body>
+</html>

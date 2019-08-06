@@ -1,0 +1,89 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Creating and managing lists" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-08-06T07:02:30.515-0400" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="696d35c3-c88a-4223-85e1-8646d4b39a8d" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:profile-management" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-08-05" name="publishExternalDate" />
+  <meta content="83bbc2af-0157-4398-92d2-d1a5f409a454" name="jcr:uuid" />
+  <meta content="Creating and managing lists" name="navTitle" />
+  <meta content="audience:platform" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Creating and managing lists" name="jcr:description" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <h2 id="about-lists-in-adobe-campaign">About lists in Adobe Campaign</h2>
+  <p>A list is a static set of profiles that can be targeted in delivery actions or updated during import operations or during workflow execution. For example, a population extracted from the database via a query can supply a list.</p> 
+  <p>Deliveries (via e-mail, SMS, or other channels) aimed at these lists can then be set up in keeping with the professional ethics of permission marketing.</p> 
+  <p>Lists are created and managed via the <strong>Lists</strong> link in the <strong>Profiles and targets</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_interface_group_link.png" title="s_ncs_user_interface_group_link.png" />
+  <p>Two types of lists are available in Adobe Campaign:</p> 
+  <ul>
+   <li><p><strong>Group</strong> type: The <strong>Group</strong> type lists belong to a <strong>static</strong> list of people selected according to specific criteria. The list is like a snapshot of a set of profiles. Please note that it is not updated automatically in the event of profiles being added to the database.</p> <p>For more information on how to create a <strong>Group</strong> type list, refer to this <a href="../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group">page</a>.</p> </li>
+   <li><p><strong>List</strong> type: The <strong>List</strong> type lists allows you to use workflows to create and manage lists. These will be specific lists resulting from data imports, that can be updated via the dedicated <strong>List update</strong> workflow activity. </p> <p>Unlike the <strong>Group</strong> type list, this type list can be automatically updated with a <strong>Scheduler</strong> activity. Note that For an example on how to create <strong>List</strong> type lists, refer to <a href="../../workflow/using/list-update.md">this page</a>.</p> </li>
+  </ul>
+  <h2 id="creating-a-profile-list-from-a-group">Creating a profile list from a group</h2>
+  <p><strong>Group</strong> type lists created via the <strong>Profiles and targets</strong> link must be based on the default Adobe Campaign profile table (nms:recipient).</p> 
+  <note>
+   <p> To create lists containing other types of data, you must run a workflow. For example, by using a query on the visitor table then updating the list, you can create a visitor list. For more information on workflows, refer to <a href="../../workflow/using/about-workflows.md">this section</a>.<br /> </p> 
+  </note>
+  <p>To create a new <strong>Group</strong> type list, apply the following steps:</p> 
+  <ol>
+   <li><p>Click the <strong>Create</strong> button and select <strong>New list</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_new_group.png" title="s_ncs_user_new_group.png" /></li>
+   <li><p>Enter the information in the <strong>Edit</strong> tab of the list creation window.</p> 
+    <ul>
+     <li><p>Enter the list name in the <strong>Label</strong> field and, if necessary, change the internal name.</p> </li>
+     <li><p>Add a description for this list.</p> </li>
+     <li><p>You can specify an expiration date: when this date is reached, the list is purged and automatically deleted.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/list_expiration_date.png" title="list_expiration_date.png" /></li>
+    </ul></li>
+   <li><p>In the <strong>Content</strong> tab, click <strong>Add</strong> to select the profiles belonging to the list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_group.png" title="s_ncs_user_add_group.png" /></li>
+   <li><p>Click <strong>Save</strong> to save the list. It is then added to the overview of lists.</p> </li>
+  </ol>
+  <p>You can create new profiles directly from the 'add profiles' window by clicking <strong>Create</strong>. The profile will be added to the database.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_new_recipient_from_group.png" title="s_ncs_user_new_recipient_from_group.png" />
+  <p>The profile list can be configured just like other lists. See <a href="../../platform/using/creating-and-managing-lists.md#configuring-lists" target="_blank">Configuring lists</a>.</p> 
+  <h2 id="linking-data-to-a-list">Linking data to a list</h2>
+  <note>
+   <p> Linking data to a list can only been done with a <strong>Group</strong> type list.<br /> </p> 
+  </note>
+  <p>The profiles of a set of profiles can be filtered and linked to a list. Delivery actions may then be sent to this list, to target profiles. To group profiles:</p> 
+  <ol>
+   <li><p>Select profiles and right-click. </p> </li>
+   <li><p>Select <strong>Actions &gt; Associate selection with a list...</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_selection_to_group.png" title="s_ncs_user_add_selection_to_group.png" /></li>
+   <li><p>Select the desired list or create a new list using the <strong>Create</strong> button, then click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_selection_to_group_2.png" title="s_ncs_user_add_selection_to_group_2.png" /></li>
+   <li><p>Click the <strong>Start</strong> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_selection_to_group_3.png" title="s_ncs_user_add_selection_to_group_3.png" /></li>
+  </ol>
+  <p>The <strong>Recreate the list</strong> option deletes the earlier content from the list. This mode is optimized since no query is needed to verify whether the profiles are already linked to the list.</p> 
+  <p>If you uncheck the <strong>No trace of this job is saved in the database</strong> option, you can select (or create) the execution folder where the information linked to this process will be stored.</p> 
+  <p>The upper section of the window lets you monitor execution. The <strong>Stop</strong> button lets you stop the process. Contacts already processed will be linked to the list.</p> 
+  <p>You can monitor the process via the <strong>Lists</strong> tab on the profiles concerned by this operation:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_selection_to_group_4.png" title="s_ncs_user_add_selection_to_group_4.png" />
+  <p> You can also edit the list via the Adobe Campaign home page: click the <strong>Profiles and Targets &gt; Lists</strong> menu and select the concerned list. The <strong>Content</strong> tab shows the profiles linked to this list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_selection_to_group_5.png" title="s_ncs_user_add_selection_to_group_5.png" />
+  <h2 id="removing-a-profile-from-a-list">Removing a profile from a list</h2>
+  <p>To remove a profile from a list, you can:</p> 
+  <ul>
+   <li><p>Edit the list, select the profile in the <strong>Content</strong> tab, then click the <strong>Delete</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/list_remove_a_recipient.png" title="list_remove_a_recipient.png" /></li>
+   <li><p>Edit the profile, click the <strong>List</strong> tab, then click the <strong>Delete</strong> icon. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/recipient_remove_a_list.png" title="recipient_remove_a_list.png" /></li>
+  </ul>
+  <h2 id="deleting-a-list-of-profiles">Deleting a list of profiles</h2>
+  <p>You can delete one or more lists from the group list in the Adobe Campaign tree. To do this, edit the tree via the <strong>Advanced &gt; Explorer</strong> link in the Adobe Campaign home page. Select the group(s) concerned and right-click. Select <strong>Delete</strong>. A warning message asks you to confirm the deletion.</p> 
+  <note>
+   <p> When you delete a list, the profiles on the list are not affected but the data in their profile is updated.<br /> </p> 
+  </note>
+ </body>
+</html>

@@ -1,0 +1,254 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:filtering-data" name="cq:tags" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Creating filters" name="jcr:description" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="audience:platform" name="primaryAudienceTag" /> 
+  <meta content="5ed1b017-4407-4dd7-8bd9-3e990658f033" name="jcr:uuid" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="Creating filters" name="navTitle" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2019-08-05" name="publishExternalDate" /> 
+  <meta content="2019-08-06T07:02:31.292-0400" name="jcr:created" /> 
+  <meta content="Creating filters" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="3d9a2e9d-e0cc-4c10-babd-a65931634b70" name="jcr:predecessors" /> 
+ </head> 
+ <body> 
+  <h2 id="introduction">Introduction</h2> 
+  <p>When you navigate in the Adobe Campaign tree (from the <strong>Explorer</strong> menu in the home page), the data contained in the database is displayed in lists. These lists can be configured to display only the data required by the operator. Actions can then be launched on the filtered data. Filter configuration lets you select data from a list <strong>dynamically</strong>. If the data is modified, the filtered data is updated.</p> 
+  <note> 
+   <p> The display configuration is defined locally at the workstation level. It is stored in hidden files, and it may sometimes be necessary to clean up this data, particularly if problems arise when refreshing data. To do this, use <strong>File &gt; Clear the local cache</strong> menu.<br /> </p> 
+  </note> 
+  <h2 id="typology-of-available-filters">Typology of available filters</h2> 
+  <p>Adobe Campaign lets you apply filters to data lists.</p> 
+  <p>These filters can be used once, or you can save them for future use. You can apply several filters at the same time.</p> 
+  <p>The following filter types are available in Adobe Campaign:</p> 
+  <ul> 
+   <li><p>Default filters</p> <p>The <strong>default filter</strong> is accessible via the fields located above the lists. It lets you filter on predefined fields (for recipient profiles, these are the name and email address by default). You can use the fields to enter the characters to filter on or to selection the filter conditions from a drop-down list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/filters_recipient_default_filter.png" title="filters_recipient_default_filter.png" /> 
+    <note> 
+     <p> The <strong>%</strong> character replaces any character string. For example, the string <strong>%@yahoo.com</strong> lets you display all the profiles with an e-mail address in the domain <strong>yahoo.com</strong>.<br /> </p> 
+    </note><p>You can change the default filter of a list. For more on this, refer to <a href="../../platform/using/creating-filters.md#altering-the-default-filter" target="_blank">Altering the default filter</a>.</p> </li> 
+   <li><p>Simple filters</p> <p><strong>Simple filters</strong> are one-off filters on the columns. They are defined with one or more simple search criteria on the displayed columns. </p> <p>You can combine several simple filters on the same data list to refine your search. The filter fields are displayed one beneath the other. They can be deleted independently of each other.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/filters_recipient_simple_filter.png" title="filters_recipient_simple_filter.png" /><p>Simple filters are detailed in <a href="../../platform/using/creating-filters.md#creating-a-simple-filter" target="_blank">Creating a simple filter</a>.</p> </li> 
+   <li><p>Advanced filters</p> <p><strong>Advanced filters</strong> are created using a query or a combination of queries on the data.</p> <p>For more on creating an advanced filter, refer to <a href="../../platform/using/creating-filters.md#creating-an-advanced-filter" target="_blank">Creating an advanced filter</a>.</p> <p>You can use functions to define the content of the filter. For more on this, refer to <a href="../../platform/using/creating-filters.md#creating-an-advanced-filter-with-functions" target="_blank">Creating an advanced filter with functions</a>.</p> 
+    <note> 
+     <p> For more on building queries in Adobe Campaign, refer to <a href="../../platform/using/about-queries-in-campaign.md">this section</a>.<br /> </p> 
+    </note></li> 
+   <li><p>User filters</p> <p>An <strong>application filter</strong> is an advanced filter that has been saved, to use and share its configuration with the other operators.</p> <p>The <strong>Filters</strong> button located above the lists offers a set of application filters that can be combined to refine the filtering. The method for creating these filters is presented in <a href="../../platform/using/creating-filters.md#saving-a-filter" target="_blank">Saving a filter</a>.</p> </li> 
+  </ul> 
+  <h2 id="altering-the-default-filter">Altering the default filter</h2> 
+  <p>To change the default filter for a recipient list, click the <strong>Profiles and Targets &gt; Pre-defined filters</strong> node of the tree. </p> 
+  <p>For all other types of data, configure the default filter via the <strong>Administration &gt; Configuration &gt; Predefined filters</strong> node. </p> 
+  <p>Apply the following steps:</p> 
+  <ol> 
+   <li><p>Select the filter you want to be used by default.</p> </li> 
+   <li><p>Click the <strong>Parameters</strong> tab and select <strong>Default filter for the associated document type</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_default_filter.png" title="s_ncs_user_default_filter.png" /> 
+    <note>
+      If a default filter is already applied to the list, you need to disable it before applying a new filter. To do this, click the red cross to the right of the filtering fields. 
+     <br /> 
+    </note></li> 
+   <li><p>Click <strong>Save</strong> to apply the filter.</p> 
+    <note> 
+     <p> The filter definition window is detailed in <a href="../../platform/using/creating-filters.md#creating-an-advanced-filter" target="_blank">Creating an advanced filter</a> and <a href="../../platform/using/creating-filters.md#saving-a-filter" target="_blank">Saving a filter</a>.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <h2 id="creating-a-simple-filter">Creating a simple filter</h2> 
+  <p>To create a <strong>simple filter</strong>, apply the following steps:</p> 
+  <ol> 
+   <li><p>Right-click the field you want to filter and select <strong>Filter on this field</strong>.</p>  <p>The default filter fields are displayed above the list.</p> </li> 
+   <li><p>Select the filter option from the drop-down list, or enter the filter criteria to apply (the method for selecting or entering criteria depends on the type of field: text, enumerated, etc.).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_sort_fields.png" title="s_ncs_user_sort_fields.png" /></li> 
+   <li><p>To activate the filter, press Enter on the keyboard, or click the green arrow to the right of the filter fields.</p> </li> 
+  </ol> 
+  <p>If the field on which you want to filter the data is not displayed in the form of the profile, you can add it in the columns displayed, then filter on that column. To do this,</p> 
+  <ol> 
+   <li><p>Click the <strong>Configure the list</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_configure_list.png" title="s_ncs_user_configure_list.png" /></li> 
+   <li><p>Select the column to be displayed, for example the age of the recipients.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_select_fields_to_display.png" title="s_ncs_user_select_fields_to_display.png" /></li> 
+   <li><p>Right-click the <strong>Age</strong> column in the recipient list, and select <strong>Filter on this column</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_sort_this_column.png" title="s_ncs_user_sort_this_column.png" /><p>You can then select the age filtering options.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_delete_filter.png" title="s_ncs_user_delete_filter.png" /></li> 
+  </ol> 
+  <h2 id="creating-an-advanced-filter">Creating an advanced filter</h2> 
+  <p>To create an <strong>advanced filter</strong>, apply the following steps:</p> 
+  <ol> 
+   <li><p>Click the <strong>Filters</strong> button and select <strong>Advanced filter...</strong>. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/filters_recipient_create_adv_filter.png" title="filters_recipient_create_adv_filter.png" /><p>You can also right-click the list of data to filter and select <strong>Advanced filter...</strong>. </p> <p>The filtering condition definition window is displayed.</p> </li> 
+   <li><p>Click the <strong>Expression</strong> column to define the input value.</p> </li> 
+   <li><p>Click <strong>Edit expression</strong> to select the field to which the filter will be applied.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_filter_choose_field.png" title="s_user_filter_choose_field.png" /></li> 
+   <li><p>From the list, select the field on which data will be filtered. Click <strong>Finish</strong> to confirm.</p> </li> 
+   <li><p>Click the <strong>Operator</strong> column and select the operator to be applied from the drop-down list.</p> </li> 
+   <li><p>Select an expected value from the <strong>Value</strong> column. You can combine several filters to refine your query. To add a filter condition, click <strong>Add</strong>.</p>  </li> 
+   <li><p>You can assign a hierarchy to the expressions or change the order of the query expressions using the toolbar arrows.</p> </li> 
+   <li><p>The default operator between expressions is <strong>And</strong>, but you can change this by clicking the field. You can select an <strong>Or</strong> operator.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_filter_operator.png" title="s_ncs_user_filter_operator.png" /></li> 
+   <li><p>Click <strong>OK</strong> to confirm filter creation and apply it to the list. </p> </li> 
+  </ol> 
+  <p>The filter applied is displayed above the list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_filter_adv_edit.png" title="s_ncs_user_filter_adv_edit.png" /> 
+  <p>To edit or modify this filter, click its label.</p> 
+  <p>To cancel this filter, click the <strong>Remove this filter</strong> icon to the right of the filter.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_filter_adv_remove.png" title="s_ncs_user_filter_adv_remove.png" /> 
+  <p>You can save an advanced filter to keep it for future use. For further information about this type of filter, see <a href="../../platform/using/creating-filters.md#saving-a-filter" target="_blank">Saving a filter</a>.</p> 
+  <h3 id="creating-an-advanced-filter-with-functions">Creating an advanced filter with functions</h3> 
+  <p>Advanced filters can use functions; <strong>filters with functions</strong> are created via an expression editor that lets you create formulas using the database data and advanced functions. To create a filter with functions, repeat advanced filter creation steps 1, 2 and 3, then proceed as follows:</p> 
+  <ol> 
+   <li><p>In the field selection window, click <strong>Advanced selection</strong>.</p> </li> 
+   <li><p>Select the type of formula to be used: aggregate, existing user filter or expression.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_filter_formula_select.png" title="s_ncs_user_filter_formula_select.png" /><p>The following options are available:</p> 
+    <ul> 
+     <li><p><strong>Field only</strong> to select a field. This is the default mode. </p> </li> 
+     <li><p><strong>Aggregate</strong> to select the aggregate formula to be used (counts, sum, average, maximum, minimum).</p> </li> 
+     <li><p><strong>User filter</strong> to select one of the existing user filters. User filters are detailed in <a href="../../platform/using/creating-filters.md#saving-a-filter" target="_blank">Saving a filter</a>.</p> </li> 
+     <li><p><strong>Expression</strong> to access the expressions editor.</p> <p>The expression editor lets you define an advanced filter. It looks like this:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_create_exp_exple01.png" title="s_ncs_user_create_exp_exple01.png" /><p>It lets you select fields in the database tables and attach advanced functions to them: Select the function to use in the <strong>List of functions</strong>. The functions available are detailed in <a href="../../platform/using/creating-filters.md#list-of-functions" target="_blank">List of functions</a>. Next, select the field or fields concerned by the functions and click <strong>OK</strong> to approve the expression.</p> 
+      <note> 
+       <p> For an example of filter creation based on an expression, refer to <a href="../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is">Identifying recipients whose birthday it is</a>.<br /> </p> 
+      </note></li> 
+    </ul></li> 
+  </ol> 
+  <h2 id="saving-a-filter">Saving a filter</h2> 
+  <p>Filters are specific to each operator and are re-initialized each time the operator clears the cache of their client console. </p> 
+  <p>You can create an <strong>application filter</strong> by saving an advanced filter: it can be re-used by right-clicking in any list or via the <strong>Filters</strong> button located above the lists. </p> 
+  <p>These filters can also be accessed directly via the delivery wizard, in the target selection stage (refer to <a href="../../delivery/using/creating-an-email-delivery.md">this section</a> for more on creating deliveries). To create the application filter, you can:</p> 
+  <ul> 
+   <li><p>Convert an advanced filter to an application filter. To do this, click <strong>Save</strong> before closing the advanced filter editor.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_filter_save.png" title="s_ncs_user_filter_save.png" /></li> 
+   <li><p>Create this application filter via the <strong>Administration &gt; Configuration &gt; Predefined filters</strong> (or <strong>Profiles and targets &gt; Predefined filters</strong> for recipients) node of the tree. To do this, right-click the list of filters, and select <strong>New...</strong>. The procedure is the same as for creating advanced filters.</p> <p>The <strong>Label</strong> field enables you to name this filter. This name will appear in the combo box of the <strong>Filters...</strong> button. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/user_filter_apply.png" title="user_filter_apply.png" /></li> 
+  </ul> 
+  <note> 
+   <p> You can delete all filters on the current list by right-clicking and selecting <strong>No filter</strong> or via the <strong>Filters</strong> icon located above the list.<br /> You can combine filters by clicking the <strong>Filters</strong> button and using the <strong>And...</strong> menu.<br /> </p> 
+  </note> 
+  <h2 id="filtering-recipients">Filtering recipients</h2> 
+  <p>Predefined filters (see <a href="../../platform/using/creating-filters.md#saving-a-filter" target="_blank">Saving a filter</a>) enable you to filter the profiles of recipients contained in the database. You can edit filters from the <strong>Profiles and Targets &gt; Predefined filters</strong> node of the tree. The filters are listed in the upper section of the workspace, via the <strong>Filters</strong> button. </p> 
+  <p>Select a filter to display its definition and to access a preview of the filtered data.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_segment_edit.png" title="s_ncs_user_segment_edit.png" /> 
+  <note> 
+   <p> For a detailed example of predefined filter creation, refer to <a href="../../platform/using/use-case.md" target="_blank">Use case</a>.<br /> </p> 
+  </note> 
+  <p>The predefined filters are:</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> <strong>Label</strong><br /> </td> 
+     <td> <strong>Query</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Opened<br /> </td> 
+     <td> Selects recipients who have opened a delivery.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Opened but not clicked<br /> </td> 
+     <td> Selects recipients who have opened a delivery but have not clicked on a link.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Inactive recipients<br /> </td> 
+     <td> Selects recipients who have not opened a delivery in X months.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Last activity by device type<br /> </td> 
+     <td> Selects recipients who have clicked or opened delivery Y using device X in the last Z days.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Last activity by device type (Tracking)<br /> </td> 
+     <td> Selects recipients who have clicked or opened delivery Y using device X in the last Z days.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Untargeted recipients<br /> </td> 
+     <td> Selects recipients who have never been targeted via channel Y in X months.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Very active recipients<br /> </td> 
+     <td> Selects recipients who have clicked in a delivery at least X times in the last Y months.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Blacklisted email address<br /> </td> 
+     <td> Selects recipients whose email address is blacklisted.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Quarantined email address<br /> </td> 
+     <td> Selects recipients whose email address is quarantined.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Email addresses duplicated in the folder<br /> </td> 
+     <td> Selects recipients whose email address is duplicated in the folder.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Neither opened nor clicked<br /> </td> 
+     <td> Selects recipients who have not opened a delivery, or clicked in a delivery.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> New recipients (days)<br /> </td> 
+     <td> Selects recipients that were created in the last X days.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> New recipients (minutes)<br /> </td> 
+     <td> Selects recipients that were created in the last X minutes.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> New recipients (months)<br /> </td> 
+     <td> Selects recipients that were created in the last X months.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> By subscription<br /> </td> 
+     <td> Selects recipients by subscription.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> By clicking on a specific link<br /> </td> 
+     <td> Selects recipients who clicked on a particular URL in a delivery.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> By post delivery behavior<br /> </td> 
+     <td> Selects recipients according to their behavior after receiving a delivery.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> By creation date<br /> </td> 
+     <td> Selects recipients by creation date, over a period ranging from X months (current date minus n months) to Y months (current date minus n months).<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> By list<br /> </td> 
+     <td> Selects recipients by list.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> By number of clicks<br /> </td> 
+     <td> Selects recipients who clicked in a delivery in the last X months.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> By number of messages received<br /> </td> 
+     <td> Selects recipients according to the number of messages that they received.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> By number of opens<br /> </td> 
+     <td> Selects recipients who opened between X and Y deliveries over Z amount of time.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> By name or email<br /> </td> 
+     <td> Selects recipients according to their name or email.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> By age range<br /> </td> 
+     <td> Selects recipients according to their age.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p> All comparisons concerning counting and periods are to be understood in the broader sense (recipients that correspond to the query limits are included in the comparison).<br /> </p> 
+  </note> 
+  <p>Examples of how the data is calculated:</p> 
+  <ul> 
+   <li><p>Selects recipients who are less than 30 years old: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/predefined_filters_01.png" title="predefined_filters_01.png" /></li> 
+   <li><p>Selects recipients who are 18 years of age or older:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/predefined_filters_03.png" title="predefined_filters_03.png" /></li> 
+   <li><p>Selects recipients aged between 18 and 30:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/predefined_filters_02.png" title="predefined_filters_02.png" /></li> 
+  </ul> 
+  <h2 id="advanced-settings-for-data-filters">Advanced settings for data filters</h2> 
+  <p>Click the <strong>Settings</strong> tab to access the following options:</p> 
+  <ul> 
+   <li><p><strong>Default filter for the associated document type</strong>: this option lets you suggest this filter by default in the editor of the lists concerned by the sort.</p> <p>For example, the<strong> By name or login </strong>filter is applied to operators. This option is selected, and so the filter is always offered on all operator lists.</p> </li> 
+   <li><p><strong>Filter shared with other operators</strong>: this option lets you make the filter available to all the other operators on the current database.</p> </li> 
+   <li><p><strong>Use parameter entry form</strong>: this option lets you define the filter field(s) to be displayed above the list when this filter is selected. These fields let you define the filter settings. This form must be entered in XML format via the <strong>Form</strong> button. For example, the preconfigured filter <strong>Recipients who have opened</strong>, available from the recipients list, displays a filter field that lets you select the delivery at which the filter is aimed.</p> <p>The <strong>Preview</strong> button displays the result of the selected filter.</p> </li> 
+   <li><p>The <strong>Advanced parameters</strong> link lets you define additional settings. In particular, you can associate a SQL table with the filter to make it common to all editors that share the table. </p> <p>Select the <strong>Do not restrict the filter</strong> option if you want to stop the user from overriding this filter. </p> <p> This option is enabled for "Recipients of a delivery" and "Recipients of deliveries belonging to a folder" filters offered in the delivery wizard that cannot be overloaded.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_filter_advanced_param.png" title="s_ncs_user_filter_advanced_param.png" /></li> 
+  </ul> 
+ </body> 
+</html>

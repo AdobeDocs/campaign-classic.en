@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Specific configurations in v5.11" name="jcr:description" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:migration" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="f769e635-208a-4614-9e9b-300d96a1ff80" name="jcr:uuid" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Specific configurations in v5.11" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="9c10e93f-ed19-4b5b-bf5d-f2092b811d2f" name="jcr:predecessors" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Specific configurations in v5.11" name="jcr:title" />
+  <meta content="2019-08-06T06:59:39.529-0400" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <p>This section details the additional configuration required when migrating from v5.11. You should also configure the settings detailed in the <a href="../../migration/using/general-configurations.md" target="_blank">General configurations</a> section.</p> 
+  <h2 id="web-applications">Web applications</h2>
+  <p>The following warning will be displayed automatically during migration:</p> 
+ </body>
+</html>

@@ -1,0 +1,245 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="f5b77993-bffc-407f-9a8b-72d8b889ddaa" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Adding fields to a web form" name="jcr:title" /> 
+  <meta content="Adding fields to a web form" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="d83adeed-c0aa-4f3f-9ccc-2fea944c161b" name="jcr:predecessors" /> 
+  <meta content="audience:web" name="primaryAudienceTag" /> 
+  <meta content="Adding fields to a web form" name="jcr:description" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2019-08-06T06:59:05.344-0400" name="jcr:created" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+ </head> 
+ <body> 
+  <p>In a Web form, fields enable users to enter information and select options. Web forms can offer input fields, selection fields, static and advanced content (captchas, subscriptions, etc.). </p> 
+  <p>When you use the wizard to add fields, the field type is detected automatically based on the selected field or storage variable. You can edit it using the <strong>Type</strong> drop-down box in the <strong>General</strong> tab. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_webform_change_type.png" title="s_ncs_admin_webform_change_type.png" /> 
+  <p>When using the buttons in the toolbar, select the type of field you want to add. </p> 
+  <p>The following types of field are available:</p> 
+  <ul> 
+   <li><p>Text/number input. See <a href="../../web/using/adding-fields-to-a-web-form.md#adding-input-fields" target="_blank">Adding input fields</a>.</p> </li> 
+   <li><p>Selection from a drop-down list. See <a href="../../web/using/adding-fields-to-a-web-form.md#adding-drop-down-lists" target="_blank">Adding drop-down lists</a>.</p> </li> 
+   <li><p>Multiple choice via checkboxes. See <a href="../../web/using/adding-fields-to-a-web-form.md#adding-checkboxes" target="_blank">Adding checkboxes</a>.</p> </li> 
+   <li><p>Exclusive selection via radio buttons. See <a href="../../web/using/adding-fields-to-a-web-form.md#adding-radio-buttons" target="_blank">Adding radio buttons</a>.</p> </li> 
+   <li><p>Vote in an option grid. See <a href="../../web/using/adding-fields-to-a-web-form.md#adding-grids" target="_blank">Adding grids</a>. </p> </li> 
+   <li><p>Entering numbers and dates. See <a href="../../web/using/adding-fields-to-a-web-form.md#adding-dates-and-numbers" target="_blank">Adding dates and numbers</a>.</p> </li> 
+   <li><p>Subscribing to and unsubscribing from an information service. See <a href="../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes" target="_blank">Subscription checkboxes</a>.</p> </li> 
+   <li><p>Check before approval via a captcha. See <a href="../../web/using/adding-fields-to-a-web-form.md#inserting-a-captcha" target="_blank">Inserting a captcha</a>.</p> </li> 
+   <li><p>Adding a download button. <a href="../../web/using/adding-fields-to-a-web-form.md#uploading-a-file" target="_blank">Uploading a file</a>.</p> </li> 
+   <li><p>Constant approval. See <a href="../../web/using/adding-fields-to-a-web-form.md#inserting-a-hidden-constant" target="_blank">Inserting a hidden constant</a>.</p> </li> 
+  </ul> 
+  <p>Please specify the answer registration mode: update a field in the database (stores only the last value saved) or store in a variable (the answer is not stored). For more on this, refer to <a href="../../web/using/adding-fields-to-a-web-form.md#response-storage-fields" target="_blank">Response storage fields</a>.</p> 
+  <note> 
+   <p> By default, the field is inserted at the bottom of the current tree. Use the arrows in the toolbar to move it up or down.<br /> </p> 
+  </note> 
+  <h2 id="field-creation-wizard">Field creation wizard</h2> 
+  <p>For each page of the form, you can add a field via the first button in the toolbar. To do this, go to the <strong>Add using the wizard</strong> menu. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_add_field_menu.png" title="s_ncs_admin_survey_add_field_menu.png" /> 
+  <p>Select the type of field you want to create: you can choose to add a field in the database, a variable or to import a group of fields created in another form and collected in a container.</p> 
+  <p>Click <strong>Next</strong> and select the storage field or variable, or the container you want to import.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_webform_wz_confirm_db.png" title="s_ncs_admin_webform_wz_confirm_db.png" /> 
+  <p>Click <strong>Finish</strong> to insert the selected field into the page.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_webform_wz_insert_field.png" title="s_ncs_admin_webform_wz_insert_field.png" /> 
+  <h2 id="adding-input-fields">Adding input fields</h2> 
+  <p>To add an input field, click the <strong>Input control</strong> button and choose the type of field you want to add.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_webform_select_field.png" title="s_ncs_admin_webform_select_field.png" /> 
+  <h3 id="types-of-input-fields">Types of input fields</h3> 
+  <p>Five different types of text fields can be inserted into a form page:</p> 
+  <ul> 
+   <li><p><strong>Text</strong>: lets the user enter a text on one line.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_txt_ex.png" title="s_ncs_admin_survey_txt_ex.png" /></li> 
+   <li><p><strong>Number</strong>: lets the user enter a number on one line. for more on this, refer to <a href="../../web/using/adding-fields-to-a-web-form.md#adding-numbers" target="_blank">Adding numbers</a>.</p> <p>When the page is approved, field content is checked to make sure the value entered is compatible with the field. For more on this, refer to <a href="../../web/using/adding-fields-to-a-web-form.md#defining-control-settings" target="_blank">Defining control settings</a>.</p> </li> 
+   <li><p><strong>Password</strong>: lets the user enter text on a single line. During text entry, the characters are replaced by periods:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_passwd_ex.png" title="s_ncs_admin_survey_passwd_ex.png" /> 
+    <note>
+      Passwords are stored unencrypted in the database. 
+     <br /> 
+    </note></li> 
+   <li><p><strong>Multi-line text</strong>: lets the user enter text on several lines.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_txtmulti_ex.png" title="s_ncs_admin_survey_txtmulti_ex.png" /> 
+    <note>
+      Multi-line text fields are specific fields that can contain carriage returns. Their storage space must be associated with a field mapped on an XML element, not an XML attribute. For more on the types of data in schemas, refer to the "Schema reference" chapter in 
+     <a href="../../configuration/using/about-schema-reference.md">this section</a>. 
+     <br /> If you are using the 
+     <strong>Survey</strong> module, you can store this type of field in an archived field which will automatically adapt to the format. For more on this, refer to 
+     <a href="../../web/using/about-surveys.md">this section</a>. 
+     <br /> 
+    </note></li> 
+   <li><p><strong>Enriched multi-line text</strong>: lets the user enter text with a layout which will be stored in HTML format.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_txthtmli_ex.png" title="s_ncs_admin_survey_txthtmli_ex.png" /><p>You can select the type of editor offered to users. To do this, use the drop-down box of the <strong>HTML editor</strong> field in the <strong>Advanced</strong> tab.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webapp_enrich_text_type.png" title="webapp_enrich_text_type.png" /><p>The number of icons displayed varies depending on the type of editor. For an <strong>Advanced</strong> editor, the rendering will be as follows: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/webapp_enrich_text_max.png" title="webapp_enrich_text_max.png" /></li> 
+  </ul> 
+  <h3 id="configure-input-fields">Configure input fields</h3> 
+  <p>Input fields are all configured based on the same mode, using the following options:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_txt_param.png" title="s_ncs_admin_survey_txt_param.png" /> 
+  <p>The <strong>General</strong> tab lets you enter the name of the field and attribute a default value to it if necessary.</p> 
+  <p>The answer storage mode can be altered via the <strong>Edit storage...</strong> link. Values can be stored in an existing field of the database; or you can choose not to save information in the database (use a local variable). </p> 
+  <note> 
+   <p> Storage modes are detailed in <a href="../../web/using/adding-fields-to-a-web-form.md#response-storage-fields" target="_blank">Response storage fields</a><br /> </p> 
+  </note> 
+  <p>The <strong>Advanced</strong> tab lets you define display parameters for the field (position of labels, alignment, etc.). See <a href="../../web/using/defining-web-forms-layout.md" target="_blank">Defining web forms layout</a>.</p> 
+  <h2 id="adding-drop-down-lists">Adding drop-down lists</h2> 
+  <p>You can insert a drop-down list into a survey page. This lets the user select a value from those on offer in a drop-down menu.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_dropdown_sample.png" title="s_ncs_admin_survey_dropdown_sample.png" /> 
+  <p>To add a drop-down box to a form page, click the <strong>Selection controls &gt; Drop-down list</strong> button in the toolbar of the page editor.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_create_dropdown.png" title="s_ncs_admin_survey_create_dropdown.png" /> 
+  <p>Select the answer storage mode and confirm your choice.</p> 
+  <p>Define the labels and values of the list in the lower section of the <strong>General</strong> tab. If the information is stored in an existing field of the database and it is an enumeration field, you can fill in the values automatically by clicking <strong>Initialize the list of values from the database</strong>, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_database_values.png" title="s_ncs_admin_survey_database_values.png" /> 
+  <note> 
+   <p> Use the arrows to the right of the list of values to change their sequence.<br /> </p> 
+  </note> 
+  <p>If the data is stored in a linked table, you can select the field where the values to be suggested in the list are saved. For example, if you select the table of countries, click <strong>Initialize the list of values from the database...</strong> and select the desired field.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_preload_values.png" title="s_ncs_admin_survey_preload_values.png" /> 
+  <p>Next, click the <strong>Load</strong> link to retrieve the values:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_load_button.png" title="s_ncs_admin_survey_load_button.png" /> 
+  <note>
+    Repeat this operation whenever the list is updated to refresh the values on offer. 
+   <br /> 
+  </note> 
+  <h2 id="adding-checkboxes">Adding checkboxes</h2> 
+  <p>In order for the user to select an option, you need to use a checkbox. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_check_box.png" title="s_ncs_admin_survey_check_box.png" /> 
+  <p>To add a checkbox to a form, click the <strong>Selection controls &gt; Checkbox...</strong> icon in the toolbar of the page editor. </p> 
+  <p>Select the answer storage mode and confirm your choice.</p> 
+  <p>Enter the label of the box in the <strong>Label</strong> field of the <strong>General</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_check_box_edit.png" title="s_ncs_admin_survey_check_box_edit.png" /> 
+  <p>A checkbox lets you assign a value to the storage field (or value) depending on whether or not the box is checked. The <strong>Values</strong> section lets you enter the value to assign if the box is checked (in the <strong>Value</strong> field), and the value to assign if it is not checked (in the <strong>Empty value</strong> field). These values depend on the data storage format.</p> 
+  <p>If the storage field (or variable) is boolean, the value to assign if the box is not checked will be deduced automatically. In this case, only the <strong>Value if checked</strong> field is offered, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_check_box_enum.png" title="s_ncs_admin_survey_check_box_enum.png" /> 
+  <h2 id="example--assign-a-value-to-a-field-if-a-box-is-checked">Example: Assign a value to a field if a box is checked</h2> 
+  <p>We want to insert a checkbox into a form to send a maintenance request, as shown below: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_check_box_ex.png" title="s_ncs_admin_survey_check_box_ex.png" /> 
+  <p>The information will be uploaded to the database and into an existing field (in this case, the <strong>Comment</strong> field):</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_check_box_ex_list.png" title="s_ncs_admin_survey_check_box_ex_list.png" /> 
+  <p>If the "Maintenance required" box is checked, the <strong>Comment</strong> column will contain "Maintenance required". If the box isn't checked, the column will show "Maintenance not required". To obtain this result, apply the following configuration to the checkbox on the form page:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_check_box_ex_edit.png" title="s_ncs_admin_survey_check_box_ex_edit.png" /> 
+  <h2 id="adding-radio-buttons">Adding radio buttons</h2> 
+  <p>Radio buttons let you offer the user a series of exclusive options to choose from. These are different values for the same field. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_radio_button.png" title="s_ncs_admin_survey_radio_button.png" /> 
+  <p>You can create radio buttons individually (unit buttons) or via a multiple-choice list, but since the point of the radio buttons is to select one option or another, we will always create at least a pair of radio buttons, never just a single button.</p> 
+  <note>
+    To make selection mandatory, you need to create a multiple choice list. 
+   <br /> 
+  </note> 
+  <h3 id="add-single-buttons">Add single buttons</h3> 
+  <p>To add a radio button to a form page, go to the <strong>Selection controls &gt; Radio button</strong> menu in the toolbar of the page editor and choose a storage mode.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_radio_button_sample.png" title="s_ncs_admin_survey_radio_button_sample.png" /> 
+  <p>Radio buttons are configured in a similar way to checkboxes (see <a href="../../web/using/adding-fields-to-a-web-form.md#adding-checkboxes" target="_blank">Adding checkboxes</a>). However, no value is assigned if the option is not selected. In order for several buttons to be interdependent, i.e. selecting one automatically deselects the others, they must be stored in the same field. If they are not stored in the database, the same local variable must be used for temporary storage. See <a href="../../web/using/adding-fields-to-a-web-form.md#response-storage-fields" target="_blank">Response storage fields</a>.</p> 
+  <h3 id="add-a-list-of-buttons">Add a list of buttons</h3> 
+  <p>To add radio buttons via a list, go to the <strong>Selection controls&gt;Multiple choice</strong> menu in the toolbar of the page editor.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_radio_button_sample2.png" title="s_ncs_admin_survey_radio_button_sample2.png" /> 
+  <p>Add as many radio buttons as there are labels. The advantage of this feature is that you can import values from an existing field (in case of an itemized field) and make it for the user to choose one option. However, the layout of buttons is less flexible.</p> 
+  <note> 
+   <p> Web forms don't authorize the selection of several values. Multiple selection may only be activated for <strong>Survey</strong> type forms. For more on this, refer to <a href="../../web/using/about-surveys.md">this section</a>.<br /> It is possible, however, to insert a <strong>Multiple choice</strong> type field into a Web application; but without authorizing the selection of several values: the options offered can be selected using radio buttons. <br /> </p> 
+  </note> 
+  <h2 id="adding-grids">Adding grids</h2> 
+  <p>Grids are used to design voting pages in Web applications. This lets you offer lists of radio buttons for answering survey or assessment type Web forms, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_vote_param.png" title="s_ncs_admin_survey_vote_param.png" /> 
+  <p>To use this type of element in a form, create a simple grid and add a line for each element to be assessed.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_vote_sample.png" title="s_ncs_admin_survey_vote_sample.png" /> 
+  <p>The number of radio buttons in each line of the grid matches the number of values defined in the simple grid.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_vote_ex.png" title="s_ncs_admin_survey_vote_ex.png" /> 
+  <p>Only one option can be selected per grid line.</p> 
+  <note> 
+   <p> In our example, the label of the grid is hidden. To do this, go to the <strong>Advanced</strong> tab, the <strong>Label position</strong> display is defined as <strong>Hidden</strong>. See <a href="../../web/using/adding-fields-to-a-web-form.md#defining-the-position-of-labels" target="_blank">Defining the position of labels</a>.<br /> </p> 
+  </note> 
+  <h2 id="adding-dates-and-numbers">Adding dates and numbers</h2> 
+  <p>The content of the form fields can be formatted to match the data stored in the database or to satisfy a particular requirement. You can create suitable fields for the entry of numbers and dates.</p> 
+  <h3 id="adding-dates">Adding dates</h3> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_date_calendar.png" title="s_ncs_admin_survey_date_calendar.png" /> 
+  <p>To allow the user to enter a date in a form page, select <strong>Add input field &gt; Date...</strong> in the toolbar or page editor. </p> 
+  <p>Enter a label for the field and configure the data storage mode.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_date_edit.png" title="s_ncs_admin_survey_date_edit.png" /> 
+  <p>The lower section of the window lets you select the date and time formats for the values stored in this field.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_date_edit_values.png" title="s_ncs_admin_survey_date_edit_values.png" /> 
+  <p>You can also choose not to display the date (or time).</p> 
+  <p>Dates can be selected via a calendar or drop-down boxes. You can also enter them directly in the field, but they need to match the format specified in the screen above.</p> 
+  <note> 
+   <p> By default, dates used in forms are entered via a calendar. For multilingual forms, please check that calendars are available in all the languages used. See <a href="../../web/using/translating-a-web-form.md" target="_blank">Translating a web form</a>.<br /> </p> 
+  </note> 
+  <p>However in some cases, (for entering dates of birth, for instance) it may be easier to use drop-down lists. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_date_list_select.png" title="s_ncs_admin_survey_date_list_select.png" /> 
+  <p>To do this, click the <strong>Advanced</strong> tab and choose the input mode using <strong>Drop-down lists</strong>. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_date_selection.png" title="s_ncs_admin_survey_date_selection.png" /> 
+  <p>You can then set limits to the values offered in the list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_date_first_last_y.png" title="s_ncs_admin_survey_date_first_last_y.png" /> 
+  <h3 id="adding-numbers">Adding numbers</h3> 
+  <p>You can create suitable fields for the entry of numbers.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_number.png" title="s_ncs_admin_survey_number.png" /> 
+  <p>In a numeric field, the user can enter numbers only. Entry control is applied automatically when the page is approved. </p> 
+  <p>Depending on the field in which data is stored in the database, special formatting or certain restrictions may be applied. You can also specify maximum and minimum values. This type of field is configured as follows: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_number_edit.png" title="s_ncs_admin_survey_number_edit.png" /> 
+  <p>The default value is the value displayed in the field when the form is published. It can be corrected by the user.</p> 
+  <p>You can add a prefix and/or suffix to the numeric field via the <strong>Advanced</strong> tab, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_number_ex_conf.png" title="s_ncs_admin_survey_number_ex_conf.png" /> 
+  <p>In the form, the rendering will be as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_number_ex.png" title="s_ncs_admin_survey_number_ex.png" /> 
+  <h2 id="subscription-checkboxes">Subscription checkboxes</h2> 
+  <p>You can add controls to allow users to subscribe to or unsubscribe from one or more information services (newsletters, warnings, real-time notifications, etc.). To subscribe, the user checks the corresponding service. </p> 
+  <p>To create a subscription checkbox, click <strong>Advanced controls&gt;Subscription</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_subscription_edit.png" title="s_ncs_admin_survey_subscription_edit.png" /> 
+  <p>Indicate the label for the checkbox and select the information service concerned using the <strong>Service</strong> drop-down box. </p> 
+  <note> 
+   <p> Information services are detailed in <a href="../../delivery/using/managing-subscriptions.md">this page</a>.<br /> </p> 
+  </note> 
+  <p>The user subscribes to the service by checking the relevant option.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_subscribe.png" title="s_ncs_admin_survey_subscribe.png" /> 
+  <note>
+    If the user is already subscribed to an information service and the box linked to this service isn't checked when they approve the form, they will be unsubscribed. 
+   <br /> 
+  </note> 
+  <p>Examples of subscriptions and referrals are available in <a href="../../web/using/about-surveys.md">this section</a>.</p> 
+  <h2 id="inserting-a-captcha">Inserting a captcha</h2> 
+  <p>The purpose of <strong>captcha</strong> tests is to prevent fraudulent use of your Web forms.</p> 
+  <note>
+    If your form contains several pages, the Captcha must always be placed on the last page, just before the storage box, to prevent any circumvention of the security measures. 
+   <br /> 
+  </note> 
+  <p>To insert a Captcha into a form, click the first button on the toolbar and Select <strong>Advanced controls&gt;Captcha</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_add_captcha.png" title="s_ncs_admin_survey_add_captcha.png" /> 
+  <p>Enter the label of the field. This label will be displayed in front of the Captcha display area. You can change the position of this label in the <strong>Advanced</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_captcha_adv.png" title="s_ncs_admin_survey_captcha_adv.png" /> 
+  <note> 
+   <p> For <strong>captcha</strong> type controls, there is no need to indicate a storage field or variable.<br /> </p> 
+  </note> 
+  <p>The Captcha is inserted into the page with an input field placed under the visual. These two elements are inseparable and are considered as a single item for the purpose of page layout (they occupy a single cell).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_captcha_sample.png" title="s_ncs_admin_survey_captcha_sample.png" /> 
+  <p>When the page is confirmed, the input field is displayed in red if the content of the Captcha was not entered correctly. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_captcha_error.png" title="s_ncs_admin_survey_captcha_error.png" /> 
+  <p>You can create an error message to display. To do that, use the <strong>Personalize the message</strong> link in the <strong>General</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_captcha_error_msg.png" title="s_ncs_admin_survey_captcha_error_msg.png" /> 
+  <note> 
+   <p> Captchas are always 8 characters long. You cannot modify this value.<br /> </p> 
+  </note> 
+  <h2 id="uploading-a-file">Uploading a file</h2> 
+  <p>You can add an upload field to a page. This functionality can be useful for intranet file sharing, for instance. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_download_file.png" title="s_ncs_admin_survey_download_file.png" /> 
+  <p>To insert an upload field to a form page, select the <strong>Advanced controls &gt; File...</strong> menu in the toolbar of the page editor.</p> 
+  <p>By default, the uploaded files are stored in resource files accessible via the <strong>Resources &gt; Online &gt; Public resources</strong> menu. You can use a script to change this behavior. This script can use the functions defined in <a href="http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html">Campaign JSAPI documentation</a>, including those that concern file manipulation. </p> 
+  <p>You can store the link to these files in a local variable or in a database field. For example, you can extend the recipient schema to add a link to file-based resources.</p> 
+  <note> 
+   <ul> 
+    <li> <p>This type of file must be reserved for forms with secure access (using credentials).</p> </li> 
+    <li> <p>Adobe Campaign does not control the size or the type of resource uploaded: we therefore highly recommend using upload fields for secure type intranet sites only.</p> </li> 
+    <li> <p>If several servers are linked to the instance ('load balancing'), you need to make sure calls to the Web form arrive on the same server.</p> </li> 
+    <li> <p>These implementations require the assistance of the Adobe Campaign Consulting team.</p> </li> 
+   </ul> 
+  </note> 
+  <h2 id="inserting-a-hidden-constant">Inserting a hidden constant</h2> 
+  <p>You can highlight a field when the user passes on one of the pages of the form. To do this, place a constant in the page and specify the value and the storage location. </p> 
+  <p>This field is not visible to the user, but can be used to enrich the data in the user profile.</p> 
+  <p>In the following example, the <strong>origin</strong> file of the recipient profile is filled in automatically whenever a user approves this page. The constant is not displayed on the page.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_constante.png" title="s_ncs_admin_survey_constante.png" /> 
+ </body> 
+</html>

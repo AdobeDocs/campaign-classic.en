@@ -1,0 +1,71 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="light" name="heroGradient" />
+  <meta content="Incremental query" name="navTitle" />
+  <meta content="62560a7a-5eea-4b18-83f2-f949b2c00fea" name="jcr:predecessors" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Incremental query" name="jcr:title" />
+  <meta content="2019-08-06T06:59:13.947-0400" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="topic_tags:targeting-activities;products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="69fd62e5-b56d-4896-9af2-fe9f32c03be2" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Incremental query" name="jcr:description" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <p>An incremental query lets you periodically select a target based on a criterion, while excluding the people already targeted for this criterion.</p> 
+  <p>The population already targeted is stored in the memory by workflow instance and by activity, i.e. two workflows started from the same template do not share the same log. On the other hand, two tasks based on the same incremental query for the same workflow instance will use the same log. </p> 
+  <p>The query is defined in the same way as for standard queries (refer to <a href="../../workflow/using/incremental-query.md#creating-a-query" target="_blank">Creating a query</a>), but its execution is scheduled. </p> 
+  <note>
+    If the result of an incremental query is equal to 
+   <strong>0</strong> during one of its executions, the workflow is paused until the query's next programmed execution. The transitions and activities that follow the incremental query are therefore not processed before the following execution.
+   <br /> 
+  </note>
+  <p>To do this:</p> 
+  <ol>
+   <li><p>In the <strong>Scheduling &amp; History</strong> tab, select the <strong>Schedule execution</strong> option. The task remains active once it has been created and will only be triggered at the times specified by the schedule for executing the query. However, if the option is disabled, the query is executed immediately <strong>and in one go</strong>.</p> </li>
+   <li><p>Click the <strong>Change</strong> button. </p> <p>In the <strong>Schedule editing wizard</strong> window, you can configure the type of frequency, event recurrence and event validity period.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_wizard_11.png" title="s_user_segmentation_wizard_11.png" /></li>
+   <li><p>Click <strong>Finish</strong> to save the schedule.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_wizard_valid.png" title="s_user_segmentation_wizard_valid.png" /></li>
+   <li><p>The lower section of the <strong>Scheduling &amp; History</strong> tab allows you to select the number of days to be taken into account in the history.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/edit_request_inc.png" title="edit_request_inc.png" />
+    <ul>
+     <li><p><strong>History in days</strong> </p> <p>Recipients already targeted can be logged a maximum number of days from the day they were targeted. If this value is zero, the recipients are never purged from the log.</p> </li>
+     <li><p><strong>Keep history when starting</strong></p> <p>This option lets you not purge the log when the activity is enabled.</p> </li>
+     <li><p><strong>SQL table name</strong></p> <p>This parameter lets you overload the default SQL table containing the history data.</p> </li>
+    </ul></li>
+  </ol>
+  <h2 id="example-of-an-incremental-query--quarterly-list-update">Example of an incremental query: quarterly list update</h2>
+  <p>In the following example, an incremental query is used to automatically update a recipient list. These recipients are targeted as part of seasonal marketing campaigns.</p> 
+  <p>As these campaigns are launched at the beginning of every season in order to offer relevant sports activities, these lists are updated every quarter. However, a recipient here must only be targeted once every 9 months by this campaign. This allows you to space out the recipient's eligibility frequency and to offer activities for different seasons over the years.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/incremental_query_example.png" title="incremental_query_example.png" />
+  <ol>
+   <li><p>Add an incremental query as well as a list update activity into a new workflow.</p> </li>
+   <li><p>Configure the <strong>Incremental query</strong> tab of the activity as specified in <a href="../../workflow/using/incremental-query.md#creating-a-query" target="_blank">Creating a query</a>.</p> </li>
+   <li><p>Select the <strong>Scheduling &amp; History</strong> tab and then specify a 270-day history. A recipient that has already been targeted will no longer be targeted for a period of 270 days, or roughly 9 months.</p> <p>Then click the <strong>Change...</strong> button.</p> </li>
+   <li><p>To ensure the list is updated before the start of each season, select <strong>Monthly</strong>.</p> </li>
+   <li><p>On the next screen, select March, June, September and December. Choose the 20th of the month and choose what time you would like to launch the workflow.</p> </li>
+   <li><p>Next select the validity period for the query. For example, if you want this activity to be permanently active, select <strong>Permanent validity</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/incremental_query_example_2.png" title="incremental_query_example_2.png" /></li>
+   <li><p>After approving the incremental query, configure the list update activity as explained in <a href="../../workflow/using/list-update.md" target="_blank">List update</a>.</p> </li>
+  </ol>
+  <p>The workflow will therefore be automatically launched just before the start of each season. The list will be updated with new, eligible recipients to receive the offers.</p> 
+  <h2 id="output-parameters">Output parameters</h2>
+  <ul>
+   <li><p>tableName</p> </li>
+   <li><p>schema</p> </li>
+   <li><p>recCount</p> </li>
+  </ul>
+  <p>This set of three values identifies the population targeted by the query. <strong>tableName</strong> is the name of the table that records the target identifiers, <strong>schema</strong> is the schema of the population (usually nms:recipient) and <strong>recCount</strong> is the number of elements in the table.</p> 
+ </body>
+</html>

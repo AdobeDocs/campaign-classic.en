@@ -1,0 +1,34 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="About outbound channels" name="jcr:description" />
+  <meta content="About outbound channels" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="e0f80211-a1ef-41bd-999a-58bf39fbf817" name="jcr:predecessors" />
+  <meta content="d743966c-b6a1-476a-867c-8bc49d8ddfef" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-08-06T06:59:20.695-0400" name="jcr:created" />
+  <meta content="About outbound channels" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <p>Offers can be presented in various spaces using inbound or outbound channels. This chapter details outbound channels. </p> 
+  <p>In order for an offer to be selected by the offer engine, it has to have been approved and be available in a live environment. For more on this, refer to <a href="../../interaction/using/approving-and-activating-an-offer.md" target="_blank">Approving and activating an offer</a>.</p> 
+  <p>Offer presentation via an outbound communication channel is carried out via direct mail, email, or SMS campaigns etc., generally in batch mode (refer to <a href="../../interaction/using/glossary.md" target="_blank">Glossary</a>). You can also use unitary mode, particularly with Message Center (for more on this, refer to the <a href="../../message-center/using/about-transactional-messaging.md">Message Center</a> guide).</p> 
+  <p>Various options are available for presenting an offer. For example, via a delivery, a campaign, delivery outlines or even via workflow activities.</p> 
+ </body>
+</html>

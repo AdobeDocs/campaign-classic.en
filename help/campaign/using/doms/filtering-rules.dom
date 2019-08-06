@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Filtering rules" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Filtering rules" name="jcr:description" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Filtering rules" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:campaign" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-08-06T06:59:10.677-0400" name="jcr:created" />
+  <meta content="a26f4cc0-9f99-4eef-b9c6-f5ac85f0fdfc" name="jcr:uuid" />
+  <meta content="a45a86a9-6a7a-42c0-9316-951c10170e9e" name="jcr:predecessors" />
+ </head>
+ <body>
+  <p>Filtering rules let you define the messages to exclude based on criteria defined in a query. These rules are linked to a targeting dimension.</p> 
+  <p>Filtering rules can be linked to other types of rules (control, pressure, etc.) in typologies, or grouped in a dedicated <strong>Filtering</strong> typology. For more on this, refer to <a href="../../campaign/using/filtering-rules.md#creating-and-using-a-filtering-typology" target="_blank">Creating and using a filtering typology</a>.</p> 
+  <h2 id="creating-a-filtering-rule">Creating a filtering rule</h2>
+  <p>For example, you can filter your newsletter subscribers to prevent communications from being sent to recipients who are underage.</p> 
+  <p>To define this filter, apply the following steps:</p> 
+  <ol>
+   <li><p>Create a <strong>Filtering</strong> typology rule applicable to all communication channels.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_filter_01.png" title="campaign_opt_create_filter_01.png" /></li>
+   <li><p>Change the default targeting dimension and select the subscriptions (<strong>nms:subscription</strong>).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_filter_02.png" title="campaign_opt_create_filter_02.png" /></li>
+   <li><p>Create the filter using the <strong>Edit the query from the targeting dimension...</strong> link.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_filter_03.png" title="campaign_opt_create_filter_03.png" /></li>
+   <li><p>Link this rule to a campaign typology and save it.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_filter_04.png" title="campaign_opt_create_filter_04.png" /></li>
+  </ol>
+  <p>When this rule is used in a delivery, underage subscribers are excluded automatically. A specific message indicates rule application:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_filter_05.png" title="campaign_opt_create_filter_05.png" />
+  <h2 id="conditioning-a-filtering-rule">Conditioning a filtering rule</h2>
+  <p>You can restrict the application field of the filtering rule based on the linked delivery or delivery outline.</p> 
+  <p>To do this, go to the <strong>General</strong> tab of the typology rule, select the type of restriction to apply and create the filter, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_filter_06.png" title="campaign_opt_create_filter_06.png" />
+  <p>In this case, even if the rule is linked to all deliveries, it will only be applied to those which match the criteria of the defined filter.</p> 
+  <note>
+   <p> Typologies and filtering rules can be used in a workflow, in the <strong>Delivery outline</strong> activity. For more on this, refer to <a href="../../workflow/using/delivery-outline.md">this section</a>. <br /> </p> 
+  </note>
+  <h2 id="creating-and-using-a-filtering-typology">Creating and using a filtering typology</h2>
+  <p>You can create <strong>Filtering</strong> typologies: they only contain filtering rules. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_typo_filtering.png" title="campaign_opt_create_typo_filtering.png" />
+  <p>These specific typologies can be linked to a delivery when the target is selected: in the delivery wizard, click the <strong>To</strong> link, then click the <strong>Exclusions</strong> tab. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_apply_typo_filtering.png" title="campaign_opt_apply_typo_filtering.png" />
+  <p>Then select the filtering typology to be applied to the delivery. To do this, click the <strong>Add</strong> button and select the typologies to apply. </p> 
+  <p>You can also link filtering rules directly via this tab, without them being grouped in a typology. To do this, use the lower section of the window. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_select_typo_filtering.png" title="campaign_opt_select_typo_filtering.png" />
+  <note>
+   <p> </p>
+   <ul> 
+    <li> <p>Only typologies and filtering rules are available in the selection window.</p> </li> 
+    <li> <p>These configurations can be defined in the delivery template to be applied automatically to all new deliveries created using the template.</p> </li> 
+   </ul> 
+   <p></p> 
+  </note>
+  <h2 id="default-deliverability-exclusion-rules">Default deliverability exclusion rules</h2>
+  <p>Two filtering rules are available by default: <strong>Exclude addresses</strong> (<strong>addressExclusions</strong>) and <strong>Exclude domains</strong> (<strong>domainExclusions</strong>). During the email analysis, these rules compare the recipient email addresses with the forbidden addresses or domain names contained in an encrypted global suppression list managed in the deliverability instance. If there is a match, the message is not sent to that recipient.</p> 
+  <p>This is to avoid being blacklisted due to malicious activity, especially the use of a Spamtrap. For example, if a Spamtrap is used to subscribe via one of your web forms, a confirmation email is automatically sent to that Spamtrap, and this results in your address being automatically blacklisted.</p> 
+  <note>
+   <p> The addresses and domain names contained in the global suppression list are hidden. Only the number of excluded recipients is indicated in the delivery analysis logs.<br /> </p> 
+  </note>
+ </body>
+</html>

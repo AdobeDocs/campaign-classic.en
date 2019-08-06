@@ -1,0 +1,62 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="ff0ef536-354c-4586-a5e8-02f3e61aabef" name="jcr:predecessors" />
+  <meta content="2019-08-06T06:59:15.430-0400" name="jcr:created" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="e5ad9271-8c27-4c79-ab26-0ce43c5fb951" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Approval" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="Approval" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Approval" name="navTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+ </head>
+ <body>
+  <p>An <strong>Approval</strong> task requires the participation of an operator. The operator is assigned a task and can respond by email, using the Web page linked in the email message, or via the console.</p> 
+  <h2 id="task-assignment">Task assignment</h2>
+  <p>By default, approval is assigned to a group of operators. This group represents a role, e.g. 'Newsletter content group' or 'Newsletter targeting group'. Each operator in the group can answer, but only the first reply is taken into account (except in the event of multiple approvals).</p> 
+  <p>If necessary, you can assign the approval task to a single operator or a set of operators defined by a filter. </p> 
+  <ul>
+   <li><p>To select a single operator, select the <strong>Operator</strong> value in the <strong>Assignment type</strong> field and select the relevant operator in the drop-down list of the <strong>Assignee</strong> field.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_validation_box_assign.png" title="s_advuser_validation_box_assign.png" />
+    <note>
+      Only the chosen operator will be authorized to approve the task.
+     <br /> 
+    </note></li>
+   <li><p>You can define a query for filtering approving operators. To do this, select the <strong>Filter</strong> value in the <strong>Assignment type</strong> field and click the <strong>Advanced parameters...</strong> link to define filtering conditions, as shown in the following example:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_validation_box_filter.png" title="s_advuser_validation_box_filter.png" /></li>
+  </ul>
+  <p>In the event of single approval, the transition corresponding to the choice of operator is activated and the task is finished: the other operators cannot reply.</p> 
+  <p>In the event of multiple approvals, transitions corresponding to the choice of each operator are enabled. The task is finished when all operators of the group have replied, or when the task has expired.</p> 
+  <p>This activity does not block processing, and the workflow can perform other tasks while waiting for a reply.</p> 
+  <p>An operator can approve the tasks assigned to that operator from the console. An operator with administrator rights can view and delete the tasks assigned to any operator, but cannot reply to them.</p> 
+  <p>Modifying the title or message body of the activity does not affect the current tasks, but, on the other hand, modifying the possible choices directly affects the current tasks, which automatically inherit the new list of choices.</p> 
+  <p><strong>Approval</strong> type tasks are accessible from the <strong>Administration &gt; Production &gt; Objects created automatically &gt; Approvals pending</strong> node: operators can access the approval form directly via this view.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_validation_from_console.png" title="s_advuser_validation_from_console.png" />
+  <h2 id="properties">Properties</h2>
+  <p>Customization variables can be used in the message sent to reviewers. They can be inserted into the message title or body.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/edit_validation.png" title="edit_validation.png" />
+  <p>This <strong>Title</strong> field contains the title of the message: This is the subject of the email message sent. The title, as well as the message body, are JavaScript templates and can therefore contain values calculated according to the context of the workflow.</p> 
+  <p>The lower section of the editor lets you define the list of possible answers. There is a transition corresponding to each answer. The name is the internal identifier, and the label is the text that will be displayed in the list of choices.</p> 
+  <p>Click the <strong>Advanced parameters...</strong> link to select the delivery template to be used to notify operators. The default template (internal name 'notifyAssignee') takes the title and message, and adds a link to the web page used to answer.</p> 
+  <p>This template can be modified to personalize message layout, but it is preferable to make a copy. The targeting mechanism (external file, target mapping) must not be modified because it is required for notifications to operate correctly.</p> 
+  <p>An approval example is shown in <a href="../../workflow/using/approval.md#defining-approvals" target="_blank">Defining approvals</a>.</p> 
+  <h2 id="output-parameters">Output parameters</h2>
+  <ul>
+   <li><p><strong>response</strong></p> <p>Comment related to the response</p> </li>
+   <li><p><strong>responseOperator</strong></p> <p>Identifier of the operator who responded. This field is a numerical value, but a <strong>String</strong> field.</p> </li>
+  </ul>
+ </body>
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="audience:web" name="primaryAudienceTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-08-06T06:59:04.011-0400" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="About Campaign HTML editor" name="jcr:description" />
+  <meta content="" name="seoDescription" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="About Campaign HTML editor" name="jcr:title" />
+  <meta content="6d2045d8-8762-4d6f-a32e-b02d416aa92c" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="484d5335-ec14-4103-bf91-ca242e4e5411" name="jcr:uuid" />
+  <meta content="About Campaign HTML editor" name="navTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+ </head>
+ <body>
+  <p>The <strong>Digital Content Editor (DCE)</strong> is an HTML content editor that lets you easily create or modify templates or content in HTML format within Adobe Campaign.</p> 
+  <p>The Digital Content Editor allows you to insert and format page elements and associate database fields with elements of an HTML page. It is offered by default when creating a page for a Web application, or available when creating deliveries based on a template in which it is active. </p> 
+  <note>
+   <p> The DCE only allows you to carry out the operations detailed in this section.<br /> If you would like to add server-side JavaScript code, it is better to add it in personalization blocks. For more information on creating and modifying personalization blocks, refer to <a href="../../delivery/using/personalization-blocks.md">this page</a>.<br /> </p> 
+  </note>
+  <note>
+    For privacy reasons, we recommend to use HTTPS for all external resources.
+   <br /> 
+  </note>
+  <h2 id="content-editor-general-operation">Content Editor general operation</h2>
+  <p>This section presents the main steps to edit and upload content edited with the DCE within the framework of a Web application and in the context of a delivery.</p> 
+  <p>The general operation is as follows: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_schema.png" title="DCE_schema.png" />
+  <p>To create a Web application, the steps are as follows:</p> 
+  <ul>
+   <li><p>Creating a 'Landing page' type Web application, for more on this, refer to <a href="../../web/using/creating-a-landing-page.md" target="_blank">Creating a landing page</a>,</p> </li>
+   <li><p>Selecting existing content or creating content from a standard template, for more on this, refer to <a href="../../web/using/template-management.md" target="_blank">Template management</a>,</p> </li>
+   <li><p>Editing and configuring online content, for more on this, refer to <a href="../../web/using/editing-content.md" target="_blank">Editing content</a>,</p> </li>
+   <li><p>Publishing the Web application, for more on this, refer to <a href="../../web/using/about-campaign-html-editor.md#step-3---publishing-content" target="_blank">Step 3 - Publishing content</a> and <a href="../../web/using/publishing-a-web-form.md#managing-web-forms-delivery-and-tracking">this page</a>.</p> </li>
+  </ul>
+  <note>
+   <p> For a complete example detailing the implementation of the DCE within the framework of a Web application, refer to <a href="../../web/using/creating-a-landing-page.md" target="_blank">Creating a landing page</a>.<br /> </p> 
+  </note>
+  <p>To create an email delivery, the steps are as follows:</p> 
+  <ul>
+   <li><p>Creating a delivery from an email type template in which the DCE is active,</p> </li>
+   <li><p>Selecting existing content or creating content from a standard template,</p> </li>
+   <li><p>Editing and configuring online content,</p> </li>
+   <li><p>Sending the delivery, for more on this refer to the <a href="../../delivery/using/communication-channels.md">this section</a>.</p> </li>
+  </ul>
+  <note>
+   <p> For a complete example detailing the implementation of the DCE within the framework of an email delivery, refer to <a href="../../web/using/use-case--creating-an-email-delivery.md" target="_blank">Use case: creating an email delivery</a>.<br /> </p> 
+  </note>
+ </body>
+</html>

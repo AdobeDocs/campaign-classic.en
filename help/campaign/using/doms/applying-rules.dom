@@ -1,0 +1,105 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Applying rules" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="Applying rules" name="jcr:description" />
+  <meta content="" name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Applying rules" name="jcr:title" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-08-06T06:59:10.721-0400" name="jcr:created" />
+  <meta content="0ab91a73-3c65-43ab-b5f7-c6316c63e153" name="jcr:uuid" />
+  <meta content="937d88cd-19b9-4c68-b164-230b73eb5794" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="audience:campaign" name="primaryAudienceTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <h2 id="applying-a-typology-to-a-delivery">Applying a typology to a delivery</h2>
+  <p>In order to apply the typology rules you created, you need to associate it to a typology and then reference this typology in your delivery. To do this:</p> 
+  <ol>
+   <li><p>Create a campaign typology.</p> <p>Typologies are accessed via the <strong>Administration &gt; Campaign Management &gt; Typology management</strong>&gt; <strong>Typologies</strong> node. </p> </li>
+   <li><p>Go to the <strong>Rules</strong> tab, click the <strong>Add</strong> button and select the rules to apply with this typology.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_pressure_sample_1_6.png" title="campaign_opt_pressure_sample_1_6.png" /></li>
+   <li><p>Save the typology: is it added to the list of existing typologies.</p> </li>
+   <li><p>Open the delivery you want to apply the rules to.</p> </li>
+   <li><p>Open the delivery properties and access the <strong>Typology</strong> tab.</p> </li>
+   <li><p>Select the typology in the drop-down list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_pressure_sample_1_7.png" title="campaign_opt_pressure_sample_1_7.png" />
+    <note>
+     <p> The typology can be defined in the delivery template, to be applied automatically to all deliveries created using this template.<br /> </p> 
+    </note></li>
+  </ol>
+  <h2 id="defining-application-conditions">Defining application conditions</h2>
+  <p>You can restrict the application field of a rule according to your needs (except for control rules).</p> 
+  <p>It is possible to configure typology rules so that they concern only certain deliveries which they are linked to, or certain recipients among the target of a delivery. </p> 
+  <p>To define the application conditions of a rule, click the <strong>Edit the rule application conditions...</strong> link in the <strong>General</strong> tab.</p> 
+  <p>Then use the query editor to define filtering conditions. In the following example, the capacity rule concerns only deliveries with the word 'offer' in their label or deliveries created before April 1st 2013.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_create_capacity_criterion.png" title="campaign_opt_create_capacity_criterion.png" />
+  <note>
+   <p> For filtering rules, you can select the application condition of filtering criteria: they can depend on the delivery or the delivery outline. For more on this, refer to <a href="../../campaign/using/applying-rules.md#conditioning-a-filtering-rule" target="_blank">Conditioning a filtering rule</a>.<br /> </p> 
+  </note>
+  <h2 id="adjusting-calculation-frequency">Adjusting calculation frequency</h2>
+  <p>Arbitrations are re-executed automatically every night via the database cleansing workflow. However, values can be saved beyond this period.</p> 
+  <p>Indeed, some calculations use values which do not change on a daily basis. It would therefore be irrelevant to re-calculate data every day and overload the database for nothing. For example, if a process enriches the marketing database with customer propensity scores and purchase information on a weekly basis, the data based on these values doesn't need to be re-calculated every day. </p> 
+  <p>To do this, the <strong>Frequency</strong> field of the <strong>General</strong> tab lets you define a maximum period during which targeting is saved. By default, the value <strong>0</strong> indicates that calculation remain valid until the next execution of daily re-arbitration.</p> 
+  <p>To save the results beyond this period, enter a value greater than 12 in the <strong>Frequency</strong> field: once this period expires, all rules are re-applied.</p> 
+  <p>The <strong>Re-apply the rule at the start of personalization</strong> option lets you apply the rule automatically during the personalization phase, including if the period stated in the <strong>Frequency</strong> field is still valid.</p> 
+  <p></p> 
+  <h2 id="selecting-the-rule-application-phase">Selecting the rule application phase</h2>
+  <p>Typology rules are applied in a specific sequence during the targeting, analysis and personalization phases of the deliveries they concern. </p> 
+  <h3 id="execution-order">Execution order</h3>
+  <p>In standard operation mode, the rules are applied in the following sequence:</p> 
+  <ol>
+   <li><p>Control rules, if they are applied at the start of targeting.</p> </li>
+   <li><p>Filtering rules:</p> 
+    <ul>
+     <li><p>Native application rules for address qualification: defined address / non-verified address / blacklisted address / quarantined address / address quality.</p> </li>
+     <li><p>Filtering rules defined by the user.</p> </li>
+     <li><p>Deduplication rule on the address or the identifier (applied if necessary).</p> </li>
+    </ul></li>
+   <li><p>Pressure rules.</p> </li>
+   <li><p>Capacity rules.</p> </li>
+   <li><p>Control rules, if they are applied at the end of targeting.</p> </li>
+   <li><p>Control rules, if they are applied at the start of personalization. If users rules (filtering / pressure / capacitive) have expired and need recalculating, they will be applied during this step.</p> </li>
+   <li><p>Control rules, if they apply at the end of personalization.</p> </li>
+  </ol>
+  <note>
+   <p> If you are working with Campaign Interaction module, offer eligibility rules are applied at the same time as filtering rules (for offers found in the delivery outlines) or during the personalization phase, during the call to the offer engine.<br /> </p> 
+  </note>
+  <p>You can adapt the execution sequence of rules which have the same type using the appropriate field in the <strong>General</strong> tab of the rule. When several rules are executed during the same message processing phase, you can configure their execution sequence in the <strong>Execution sequence</strong> field. </p> 
+  <p>For example, a pressure rule with an execution order of 20 will be executed before a pressure rule with an execution order of 30.</p> 
+  <h3 id="control-rules">Control rules</h3>
+  <p>For <strong>Control</strong> rules, you can decide at which point of the delivery life cycle the rule will be applied (before or after targeting, at the start of personalization, at the end of the analysis). Select the value to apply in the drop-down list of the <strong>Phase</strong> field, in the <strong>General</strong> tab of the typology rule.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_define_control_phase.png" title="campaign_opt_define_control_phase.png" />
+  <p>Possible values are:</p> 
+  <ul>
+   <li><p><strong>At the start of targeting</strong> </p> <p>To prevent the personalization step from being executed in case of errors, you can apply the control rule here. </p> </li>
+   <li><p><strong>After targeting</strong> </p> <p>If you need to know the volume of the target in order to apply the control rule, select this phase.</p> <p>For example, the <strong>Check proof size</strong> control rule applies after each targeting stage: this rule prevents message personalization if there are too many proof recipients.</p> </li>
+   <li><p><strong>At the start of personalization</strong> </p> <p>This phase must be selected if the control concerns the approval of message personalization. Message personalization is carried out during the analysis phase.</p> </li>
+   <li><p><strong>At the end of the analysis</strong> </p> <p>When a check requires message personalization to be complete, select this phase.</p> </li>
+  </ul>
+  <h2 id="additional-configurations">Additional configurations</h2>
+  <h3 id="control-outgoing-smtp-traffic">Control outgoing SMTP traffic</h3>
+  <p>As an option, you can use the <strong>Managing affinities with IP addresses</strong> field to link deliveries to the delivery server (MTA) this affinity. This lets you restrict the number of emails for specific deliveries towards machines or output addresses. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_opt_select_ip_affinity.png" title="campaign_opt_select_ip_affinity.png" />
+  <note>
+   <p> Affinity management does not apply for <strong>Filtering</strong> typologies.<br /> Affinities are defined in the instance configuration file, on the Adobe Campaign server. For more on this, refer to <a href="../../installation/using/about-initial-configuration.md">this section</a>.<br /> </p> 
+  </note>
+  <h3 id="campaign-optimization-and-distributed-marketing">Campaign Optimization and Distributed Marketing</h3>
+  <p>The <strong>Distributed Marketing</strong> tab lets you define the re-mapping of typologies and/or rules which applies when a shared campaign is ordered and/or reserved. Typologies/rules defined for a local entity (linked to those defined for the central entity) replace rules/typologies linked to the central entity. Re-mapping lets you adapt central entity rules to the local entities who order the campaign.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/simu_campaign_opti_distrib_mkg.png" title="simu_campaign_opti_distrib_mkg.png" />
+  <note>
+   <p> In typologies and typology rules, the <strong>Distributed Marketing</strong> tab is added if your license includes this option: please check you license agreement.<br /> For more information on Distributed Marketing, refer to <a href="../../campaign/using/about-distributed-marketing.md" target="_blank">About distributed marketing</a>.<br /> </p> 
+  </note>
+ </body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="950d7f0c-fbc1-4a8c-89b4-d5398371206d" name="jcr:predecessors" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-08-06T06:59:33.943-0400" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Accessing reports" name="navTitle" />
+  <meta content="71f3b6bd-107e-4a78-8fde-39761b82314c" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:reporting" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Accessing reports" name="jcr:title" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Accessing reports" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <p>Campaign built-in reports are grouped in the <strong>Reports</strong> tab of the Adobe Campaign interface.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_access_from_home.png" title="reporting_access_from_home.png" />
+  <p>Use the search fields to filter the displayed reports. </p> 
+  <p>Then click the report you want to display.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_edit_a_report.png" title="reporting_edit_a_report.png" />
+  <p>The <strong>Back</strong> link at the top of the screen takes you back to the list of reports.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_back_button.png" title="reporting_back_button.png" />
+  <p>Other possible actions on a report being edited are detailed in <a href="../../reporting/using/actions-on-reports.md">this page</a>.</p> 
+  <p>Reports that are specific to a campaign or a delivery are accessible via their respective dashboards.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_on_a_delivery.png" title="reporting_on_a_delivery.png" />
+  <p>The principle is the same for lists, services, offers, etc. as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_on_an_offer.png" title="reporting_on_an_offer.png" />
+ </body>
+</html>

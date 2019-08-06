@@ -1,0 +1,102 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Creating notifications" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="Creating notifications" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="6dfba50a-8c66-478f-801a-d6e45757a5ea" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="6c16aa9e-13cf-4895-b300-a44a3fc8cb0d" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Creating notifications" name="jcr:description" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-08-06T06:59:25.141-0400" name="jcr:created" />
+ </head>
+ <body>
+  <p>This section details the elements specific to the delivery of iOS and Android notifications. Global concepts on delivery creation are presented in <a href="../../delivery/using/key-steps-when-creating-a-delivery.md">this section</a>.</p> 
+  <p>Start by creating a new delivery.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_delivery_1.png" title="nmac_delivery_1.png" />
+  <h2 id="sending-notifications-on-ios">Sending notifications on iOS</h2>
+  <ol>
+   <li><p>Select the <strong>Deliver on iOS</strong> delivery template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_delivery_ios_1.png" title="nmac_delivery_ios_1.png" /></li>
+   <li><p>To define the target of the notification, click the <strong>To</strong> link, then click <strong>Add</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_delivery_ios_2.png" title="nmac_delivery_ios_2.png" />
+    <note>
+     <p> The detailed process when selecting the target population of a delivery is presented in <a href="../../delivery/using/key-steps-when-creating-a-delivery.md#defining-the-target-population">this section</a>.<br /> For more on the use of personalization fields, refer to <a href="../../delivery/using/about-personalization.md" target="_blank">About personalization</a>.<br /> For more on the inclusion of a seed list, refer to <a href="../../delivery/using/about-seed-addresses.md" target="_blank">About seed addresses</a>.<br /> </p> 
+    </note></li>
+   <li><p>Select <strong>Subscribers of an iOS mobile application (iPhone, iPad)</strong>, select the service relevant to your mobile application (Neotrips, in this case), then select the iOS version of the application.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_delivery_ios_3.png" title="nmac_delivery_ios_3.png" /></li>
+   <li><p>Select the notification type: <strong>Alert</strong>, <strong>Badge</strong>, or <strong>Alert and badge</strong> or <strong>Silent Push</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_delivery_ios_4.png" title="nmac_delivery_ios_4.png" />
+    <note>
+     <p> The <strong>Silent Push</strong> mode is available from iOS 7. This allows a "silent" notification to be sent to a mobile application. The user is not made aware of the notification's arrival. It is transferred directly to the application.<br /> </p> 
+    </note></li>
+   <li><p>In the <strong>Title</strong> field, enter the label of the title that you want to appear on the notification. It will only appear in the list of notifications available from the notification center. This field allows you to define the value of the <strong>title</strong> parameter of the iOS notification payload.</p> </li>
+   <li><p>If you use the HTTP/2 connector, you can add a subtitle (value of the <strong>subtitle</strong> parameter of the iOS notification payload). Refer to the <a href="../../delivery/using/creating-notifications.md#connectors" target="_blank">Connectors</a> section.</p> </li>
+   <li><p>Then enter the <strong>Message</strong> and the <strong>Value of the badge</strong> based on the chosen notification type. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_delivery_ios_5.png" title="nmac_delivery_ios_5.png" />
+    <note>
+     <p> You can add emojis into the content of your notification. To do so, go to an emoji listing website ( <a href="https://www.utf8-chartable.de/unicode-utf8-table.pl?start=9728">example</a>), copy an emoji and paste it directly into the content editor. On Windows 7, some emojis may not be displayed correctly in the editor (square symbol), but they should be sent correctly in the final notification. The ability to display emojis depends the OS used on the device. We recommend that you send proofs to verify that the delivery is correctly displayed before sending it.<br /> </p> 
+    </note>
+    <note>
+     <p> <strong>Badge</strong> and <strong>Alert and badge</strong> type notifications enable you to modify the value of the badge (the number above the mobile application logo). To refresh the badge, you just have to enter 0 as the value. If the field is empty, the badge value will not change.<br /> </p> 
+    </note></li>
+   <li><p>The <strong>Action button</strong> allows you to define a label for the action button appearing on the alert notifications (<strong>action_loc_key</strong> field of the payload). If your iOS application manages localizable strings (<strong>Localizable.strings</strong>), enter the corresponding key into this field. If your application does not manage localizable text, enter the label that you want to see appear on the action button. For more information on localizable strings, consult the .</p> </li>
+   <li><p>In the <strong>Play a sound</strong> field, select the sound to be played by the mobile terminal when the notification is received. </p> 
+    <note>
+     <p> Sounds must be included in the application and defined when the service is created. Refer to <a href="../../delivery/using/creating-notifications.md#-application-sounds" target="_blank"> Application sounds</a>.<br /> </p> 
+    </note></li>
+   <li><p>In the <strong>Application variables</strong> field, enter the value of each variable. Application variables let you define notification behavior: for instance, you can configure a specific application screen to be displayed when the user activates the notification.</p> 
+    <note>
+     <p> Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: <a href="../../delivery/using/creating-notifications.md#-general-information" target="_blank"> General information</a>.<br /> </p> 
+    </note></li>
+   <li><p>Once the notification is configured, click the <strong>Preview</strong> tab to preview the notification. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_intro_2.png" title="nmac_intro_2.png" />
+    <note>
+     <p> The notification style (banner or alert) is not defined in Adobe Campaign. It depends on the configuration selected by the user in their iOS settings. However, Adobe Campaign allows you to preview each type of notification style. Click the arrow in the bottom right to switch from one style to another.<br /> The preview uses the iOS 10 look and feel.<br /> </p> 
+    </note></li>
+  </ol>
+  <p>To send a proof and to send the final delivery, use the same process as email deliveries.</p> 
+  <p>After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:</p> 
+  <ul>
+   <li><p> <a href="../../delivery/using/creating-notifications.md#push-notification-quarantines" target="_blank">Push notification quarantines</a></p> </li>
+   <li><p> <a href="../../delivery/using/monitoring-a-delivery.md" target="_blank">Monitoring a delivery</a></p> </li>
+   <li><p> <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">Understanding delivery failures</a></p> </li>
+  </ul>
+  <h2 id="sending-notifications-on-android">Sending notifications on Android</h2>
+  <ol>
+   <li><p>Start by selecting the <strong>Deliver on Android (android)</strong> delivery template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_delivery_android_1.png" title="nmac_delivery_android_1.png" /></li>
+   <li><p>To define the target of the notification, click the <strong>To</strong> link, then click <strong>Add</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_delivery_android_2.png" title="nmac_delivery_android_2.png" /></li>
+   <li><p>Select <strong>Subscribers of an Android mobile application</strong>, choose the service relevant to your mobile application (Neotrips, in this case), then select the Android version of the application.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_delivery_android_3.png" title="nmac_delivery_android_3.png" /></li>
+   <li><p>Then enter the content for the notification.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_delivery_android_4.png" title="nmac_delivery_android_4.png" />
+    <note>
+     <p> You can add emojis into the content of your notification. To do so, go to an emoji listing website ( <a href="https://www.utf8-chartable.de/unicode-utf8-table.pl?start=9728">example</a>), copy an emoji and paste it directly into the content editor. On Windows 7, some emojis may not be displayed correctly in the editor (square symbol), but they should be sent correctly in the final email. The ability to display emojis depends the OS used on the device. We recommend that you send proofs to verify that the delivery is correctly displayed before sending it.<br /> </p> 
+    </note></li>
+   <li><p>In the <strong>Application variables</strong> field, enter the value of each variable. Application variables let you define notification behavior: for instance, you can configure a specific application screen to be displayed when the user activates the notification.</p> 
+    <note>
+     <p> Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: <a href="../../delivery/using/creating-notifications.md#-general-information" target="_blank"> General information</a>.<br /> </p> 
+    </note></li>
+   <li><p>Once the notification is configured, click the <strong>Preview</strong> tab to preview the notification. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_intro_1.png" title="nmac_intro_1.png" /></li>
+  </ol>
+  <p>To send a proof and to send the final delivery, use the same process as email deliveries.</p> 
+  <p>The detailed process when validating and sending a delivery is presented in the sections below: </p> 
+  <ul>
+   <li><p> <a href="../../delivery/using/creating-notifications.md#validating-the-delivery" target="_blank">Validating the delivery</a></p> </li>
+   <li><p> <a href="../../delivery/using/creating-notifications.md#sending-the-delivery" target="_blank">Sending the delivery</a></p> </li>
+  </ul>
+  <p>After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:</p> 
+  <ul>
+   <li><p> <a href="../../delivery/using/creating-notifications.md#push-notification-quarantines" target="_blank">Push notification quarantines</a></p> </li>
+   <li><p> <a href="../../delivery/using/monitoring-a-delivery.md" target="_blank">Monitoring a delivery</a></p> </li>
+   <li><p> <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">Understanding delivery failures</a></p> </li>
+  </ul>
+ </body>
+</html>

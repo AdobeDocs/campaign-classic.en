@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:reporting" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="seoDescription" />
+  <meta content="c7b11e4c-8575-4453-8bbb-3256d41c73cc" name="jcr:uuid" />
+  <meta content="bf4e6386-243f-4f0a-b0a2-c92490587d77" name="jcr:predecessors" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Defining a conditional content" name="jcr:title" />
+  <meta content="Defining a conditional content" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-08-06T06:59:36.201-0400" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Defining a conditional content" name="jcr:description" />
+ </head>
+ <body>
+  <p>You can condition the display of specific report items or pages.</p> 
+  <p>To make specific items conditional, adapt their visibility settings. For more on this, refer to <a href="../../reporting/using/defining-a-conditional-content.md#conditioning-item-display" target="_blank">Conditioning item display</a>.</p> 
+  <p>To make the display of one or more pages conditional, use a <strong>Test</strong> type activity. For more on this, refer to <a href="../../reporting/using/defining-a-conditional-content.md#conditioning-page-display" target="_blank">Conditioning page display</a>.</p> 
+  <h2 id="conditioning-item-display">Conditioning item display</h2>
+  <p>To make the display of part of a report conditional, you need to define its visibility conditions: if these aren't met, the items will not be displayed. </p> 
+  <p>Visibility conditions may depend on the operator status, on the items selected or entered in the report page.</p> 
+  <p>Examples showing the conditional display of items on a page are provided in <a href="../../web/using/form-rendering.md#defining-fields-conditional-display">this section</a>.</p> 
+  <p>In the following example, the display condition depends on the language:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_display_condition.png" title="reporting_display_condition.png" />
+  <h2 id="conditioning-page-display">Conditioning page display</h2>
+  <p>In the chart of a report, the <strong>Test</strong> activity lets you change the sequence of pages depending on one or more conditions.</p> 
+  <p>This activity is based on the following operating principle:</p> 
+  <ol>
+   <li><p>Place a <strong>Test</strong> in a chart and edit it.</p> </li>
+   <li><p>Click the <strong>Add</strong> button to create the various possible cases.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_test_sample.png" title="reporting_test_sample.png" /><p>For each case, an output transition is added to the <strong>Test</strong> activity.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_test_transitions.png" title="reporting_test_transitions.png" /></li>
+   <li><p>Select the <strong>Enable default transition</strong> to add a transition, in case one of the configured conditions isn't met.</p> <p>For more on this, refer to <a href="../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display">this section</a>.</p> </li>
+  </ol>
+  <p>A <strong>Test</strong> activity can be placed at the start of the chart to condition the display depending on context or operator profile for instance.</p> 
+ </body>
+</html>

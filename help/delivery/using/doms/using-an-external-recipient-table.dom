@@ -1,0 +1,35 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="a1589d87-cc77-446c-bb89-19eb833de038" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-08-06T06:59:26.655-0400" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Using an external recipient table" name="navTitle" />
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Using an external recipient table" name="jcr:title" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="c81afbc0-f8c9-4cdc-85f3-6f75353866a2" name="jcr:uuid" />
+  <meta content="Using an external recipient table" name="jcr:description" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+ </head>
+ <body>
+  <p>If the delivery table is an external table, you will need to make additional configurations. The <strong>nms:seedmember</strong> schema must be extended. A tab is added to the seed addresses to define the adequate fields, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_seedlist_new_tab.png" title="s_ncs_user_seedlist_new_tab.png" />
+  <p>In this case, to add seed addresses to the delivery, enter the adequate fields directly in the matching tab, or import the address templates:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_seedlist_add_new_tab.png" title="s_ncs_user_seedlist_add_new_tab.png" />
+  <p>The <strong>nms:seedMember</strong> schema extension is <a href="../../configuration/using/seed-addresses.md">this section</a>.</p> 
+ </body>
+</html>

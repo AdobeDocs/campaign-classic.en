@@ -1,0 +1,403 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Translating a web form" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Translating a web form" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-08-06T06:59:06.324-0400" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:web" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="221f3857-c426-4b58-99df-06308d07334e" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="849e71a3-255b-499c-b303-65d201805bda" name="jcr:predecessors" />
+  <meta content="Translating a web form" name="jcr:description" />
+ </head>
+ <body>
+  <p>It's possible to localize a Web application into several languages. </p> 
+  <p>You can carry out translations directly in the Adobe Campaign console (refer to <a href="../../web/using/translating-a-web-form.md#managing-translations-in-the-editor" target="_blank">Managing translations in the editor</a>), or export and import strings to externalize translation (refer to <a href="../../web/using/translating-a-web-form.md#externalizing-translation" target="_blank">Externalizing translation</a>). </p> 
+  <p>The list of translation languages available by default is detailed in <a href="../../web/using/translating-a-web-form.md#changing-forms-display-language" target="_blank">Changing forms display language</a>. </p> 
+  <p>The Web application is designed in an editing language: this is the reference language used to enter labels and other content to be translated.</p> 
+  <p>The default language is the language which the Web application will be displayed in if no language setting is added to its access URL.</p> 
+  <note>
+   <p> By default, the editing language and the default language are the same as the console language.<br /> </p> 
+  </note>
+  <h2 id="choosing-languages">Choosing languages</h2>
+  <p>To define one or more translation languages, click the <strong>Properties</strong> button of the Web application, then the <strong>Localization</strong> tab. Click the <strong>Add</strong> button to define a new translation language for the Web application.</p> 
+  <note>
+   <p> This window also lets you change the default language and the editing language. <br /> </p> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_add_lang.png" title="s_ncs_admin_survey_add_lang.png" />
+  <p>When you add translation languages for a Web application (or when the default language and the editing language are different), a <strong>Translation</strong> sub-tab is added to the <strong>Edit</strong> tab to manage translations.</p> 
+  <p>Adobe Campaign includes a tool for translating and managing multi-lingual translations. This editor lets you view the strings to translate or approve, enter translations directly into the interface or import/export character strings to externalize translations.</p> 
+  <h2 id="managing-translations-in-the-editor">Managing translations in the editor</h2>
+  <h3 id="collecting-strings">Collecting strings</h3>
+  <p>The <strong>Translations</strong> tab lets you enter translations for the character strings that make up the Web application. </p> 
+  <p>The first time you open this tab it won't contain any data. Click the <strong>Collect the strings to translate</strong> link to update the strings in the Web application. </p> 
+  <p>Adobe Campaign collects labels of fields and strings defined in the <strong>Texts</strong> tabs of all static elements: HTML blocks, Javascript, etc. Static elements are detailed in <a href="../../web/using/static-elements-in-a-web-form.md" target="_blank">Static elements in a web form</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_tab.png" title="s_ncs_admin_survey_trad_tab.png" />
+  <note>
+    This process can take several minutes depending on the volume of data to be processed. 
+   <br /> If a warning appears to say that some translations are missing in the system dictionary, refer to 
+   <a href="../../web/using/translating-a-web-form.md#translating-the-system-strings" target="_blank">Translating the system strings</a>.
+   <br /> 
+  </note>
+  <p>Each time a string is translated, its translation is added to the translation dictionary. </p> 
+  <p>When the collection process detects that a translation already exists, this translation is displayed in the <strong>Text</strong> column of the string. The status of the string is turned to <strong>Translated</strong>. </p> 
+  <p>For characters strings which have never been translated, the <strong>Text</strong> field is empty and the status is <strong>To translate</strong>.</p> 
+  <h3 id="filtering-strings">Filtering strings</h3>
+  <p>By default, each translation language of the Web application is displayed. There are two default filters: language and status. Click the <strong>Filters</strong> button, then click <strong>By language or status</strong> to display the matching drop-down boxes. You can also create an advanced filter. For more on this, refer to <a href="../../platform/using/creating-filters.md#creating-an-advanced-filter">this page</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_tab_en.png" title="s_ncs_admin_survey_trad_tab_en.png" />
+  <p>Go to the <strong>Language</strong> drop-down box to select the translation language.</p> 
+  <p> To display only untranslated strings, select <strong>To translate</strong> in the <strong>Status</strong> drop-down box. You can also display only translated or approved strings.</p> 
+  <h3 id="translating-strings">Translating strings</h3>
+  <ol>
+   <li><p>To translate a word, double-click its line on the list of strings.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_tab_add_term.png" title="s_ncs_admin_survey_trad_tab_add_term.png" /><p>The source string is displayed in the upper section of the window. </p> </li>
+   <li><p>Enter its translation in the lower section. To approve it, check the <strong>Translation approved</strong> option. </p> 
+    <note>
+     <p> Translation approval is optional and will not block the process.<br /> </p> 
+    </note><p>Non-approved translations are displayed as <strong>Translated</strong>. Approved translations are displayed as <strong>Approved</strong>.</p> </li>
+  </ol>
+  <h2 id="externalizing-translation">Externalizing translation</h2>
+  <p>It's possible to export and import character strings to translate them using a tool other than Adobe Campaign.</p> 
+  <note>
+    Once you have exported the strings, don't carry out any translations using the integrated tool. This would lead to a conflict when you re-import the translations and these will be lost. 
+   <br /> 
+  </note>
+  <h3 id="exporting-files">Exporting files</h3>
+  <ol>
+   <li><p>Select the Web application(s) whose strings you want to import, right-click, then select <strong>Actions</strong> &gt; <strong>Export strings for translation...</strong></p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_export.png" title="s_ncs_admin_survey_trad_export.png" /></li>
+   <li><p>Select an <strong>Export strategy</strong>:</p> 
+    <ul>
+     <li><p><strong>One file per language</strong>: the export will generate one file per translation language. Each file will be common to all selected Web applications.</p> </li>
+     <li><p><strong>One file per Web application</strong>: the export will generate one file per selected Web application. Each file will contain all translation languages.</p> 
+      <note>
+       <p> This type of export is not available for XLIFF exports.<br /> </p> 
+      </note></li>
+     <li><p><strong>One file per language and per Web application</strong>: the export will generate several files. Each file will contain one translation language per Web application.</p> </li>
+     <li><p><strong>One file for all</strong>: the export will generate a single multi-lingual file for all Web applications. It will contain all translation languages for all selected Web applications.</p> 
+      <note>
+       <p> This type of export is not available for XLIFF exports.<br /> </p> 
+      </note></li>
+    </ul></li>
+   <li><p>Then chose the <strong>Target folder</strong> where files will be recorded.</p> </li>
+   <li><p>Select the file format (<strong>CSV</strong> or <strong>XLIFF</strong>) and click <strong>Start</strong>.</p> </li>
+  </ol>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_export_start.png" title="s_ncs_admin_survey_trad_export_start.png" />
+  <note>
+   <p> The names of export files are generated automatically. If you carry out the same export several times, you will replace existing files by the new ones. If you need to keep the previous files, change the <strong>Target folder</strong>, then click <strong>Start</strong> again to run the export.<br /> </p> 
+  </note>
+  <p>When you export files in <strong>CSV format</strong>, each language is linked to a status and approval status. The <strong>Approve?</strong> column lets you approve a translation. This column may contain the values <strong>Yes</strong> or <strong>No</strong>. As for the integrated editor (refer to <a href="../../web/using/translating-a-web-form.md#managing-translations-in-the-editor" target="_blank">Managing translations in the editor</a>), approving translations is optional and does not block the process.</p> 
+  <h3 id="importing-files">Importing files</h3>
+  <p>Once external translation is completed, you can import the translated files.</p> 
+  <ol>
+   <li><p>Go to the list of Web applications, right-click, then select <strong>Actions</strong> <strong>Import translated strings...</strong></p> 
+    <note>
+     <p> There's no need to select the Web applications concerned by the translation. Place the cursor anywhere on the list of Web applications.<br /> </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_import.png" title="s_ncs_admin_survey_trad_import.png" /></li>
+   <li><p>Select the file to import, then click <strong>Upload</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_import_start.png" title="s_ncs_admin_survey_trad_import_start.png" /></li>
+  </ol>
+  <note>
+   <p> External translations always take priority over internal translations. In case of conflicts, the internal translation will be overwritten with the external translation.<br /> </p> 
+  </note>
+  <h2 id="changing-forms-display-language">Changing forms display language</h2>
+  <p>Web forms are displayed in the default language specified in the <strong>Localization</strong> tab of the Web application properties. To change languages, you must add the following characters to the end of the URL (where <strong>xx</strong> is the symbol of the language):</p> 
+  <ul>
+   <li>
+    <codeblock gutter="true" class="syntax html">
+     ?lang=xx
+    </codeblock><p>if the language is the first or only parameter of the URL. For example: <strong>https://myserver/webApp/APP34?lang=en</strong></p> </li>
+   <li>
+    <codeblock gutter="true" class="syntax html">
+     &amp;lang=xx
+    </codeblock><p>if there are other parameters before the language in the URL. For example: <strong>https://myserver/webApp/APP34?status=1&amp;lang=en</strong></p> </li>
+  </ul>
+  <p>The translation languages and dictionaries available by default are listed below.</p> 
+  <p> <strong>Default system dictionary</strong>: some languages include a default dictionary which contains the translation of the system strings. For more on this, refer to <a href="../../web/using/translating-a-web-form.md#translating-the-system-strings" target="_blank">Translating the system strings</a>.</p> 
+  <p><strong>Calendar management</strong>: the pages of a Web application can include a calendar for entering dates. By default, this calendar is available in several languages (translation of days, date format).</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> <strong>Language (symbols)</strong><br /> </td> 
+     <td> <strong>Default system dictionary</strong><br /> </td> 
+     <td> <strong>Calendar management</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> German (de)<br /> </td> 
+     <td> yes<br /> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> English (en)<br /> </td> 
+     <td> yes<br /> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> English (United States) (en_US)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> English (United Kingdom) (en_GB)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Arabic (ar)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Chinese (zh)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Korean (ko)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Danish (da)<br /> </td> 
+     <td> yes<br /> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Spanish (es)<br /> </td> 
+     <td> yes<br /> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Estonian (et)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Finnish (fi)<br /> </td> 
+     <td> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> French (fr)<br /> </td> 
+     <td> yes<br /> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> French (Belgium) (fr_BE)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> French (France) (fr_FR)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Greek (el)<br /> </td> 
+     <td> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Hebrew (he)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Hungarian (hu)<br /> </td> 
+     <td> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Indonesian (id)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Irish (ga)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Italian (it)<br /> </td> 
+     <td> yes<br /> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Italian (Italy) (it_IT)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Italian (Swiss) (it_CH)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Japanese (ja)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Latvian (lv)<br /> </td> 
+     <td> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Lithuanian (lt)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Maltese (mt)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Dutch (nl)<br /> </td> 
+     <td> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Dutch (Belgium) (nl_BE)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Dutch (Holland) (nl_NL)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Norwegian (Norway) (no_NO)<br /> </td> 
+     <td> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Polish (pl)<br /> </td> 
+     <td> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Portuguese (pt)<br /> </td> 
+     <td> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Portugese (Brazil) (pt_BR)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Portuguese (Portugal) (pt_PT)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Russian (ru)<br /> </td> 
+     <td> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Slovene (sl)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Slovak (sk)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Swedish (sv)<br /> </td> 
+     <td> yes<br /> </td> 
+     <td> yes<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Swedish (Finland) (sv_FI)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Swedish (Sweden) (sv_SE)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Czech (cs)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Thai (th)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Vietnamese (vi)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td> Waloon (wa)<br /> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <note>
+   <p> To add other languages than those offered by default, refer to <a href="../../web/using/translating-a-web-form.md#adding-a-translation-language" target="_blank">Adding a translation language</a><br /> </p> 
+  </note>
+  <h2 id="example--displaying-a-web-application-in-several-languages">Example: displaying a Web application in several languages</h2>
+  <p>The following Web form is available in four languages: English, French, German and Spanish. The character strings have all been translated via the <strong>Translation</strong> tab of the Web form. Because the default language is English, when the survey is published, use the standard URL to display it in English.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_sample_fr.png" title="s_ncs_admin_survey_trad_sample_fr.png" />
+  <p>Add <strong>?lang=fr</strong> to the end of the URL to display it in French:</p> 
+  <note>
+   <p> The list of symbols for each language is detailed in <a href="../../web/using/translating-a-web-form.md#changing-forms-display-language" target="_blank">Changing forms display language</a>. <br /> </p> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_sample_en.png" title="s_ncs_admin_survey_trad_sample_en.png" />
+  <p>You can add <strong>?lang=es</strong> or <strong>?lang=de</strong> to display it in Spanish or German.</p> 
+  <note>
+   <p> If other parameters are already used for this Web application, add <strong>&amp;lang=</strong>.<br /> For example: <strong>https://myserver/webApp/APP34?status=1&amp;lang=en</strong><br /> </p> 
+  </note>
+  <h2 id="advanced-translation-configuration">Advanced translation configuration</h2>
+  <note>
+    This section is only for expert users.
+   <br /> 
+  </note>
+  <h3 id="translating-the-system-strings">Translating the system strings</h3>
+  <p>System strings are out-of-the-box character strings used by all Web applications. For example: <strong>Next</strong>, <strong>Previous</strong>, <strong>Approve</strong> buttons, <strong>Loading</strong> messages, etc. By default, some languages contain a dictionary with translations for these strings. The list of languages is detailed in <a href="../../web/using/translating-a-web-form.md#changing-forms-display-language" target="_blank">Changing forms display language</a>.</p> 
+  <p>If you translate your Web application into a language for which the system dictionary isn't translated, a warning message will appear to let you know that some translations are missing.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_error.png" title="s_ncs_admin_survey_trad_error.png" />
+  <p>To add a language, apply the following steps:</p> 
+  <ol>
+   <li><p>Go to the Adobe Campaign tree and click <strong>Administration &gt; Configuration &gt; Global dictionary &gt; System dictionary</strong>.</p> </li>
+   <li><p>In the upper section of the window, select the system string to translate, then click <strong>Add</strong> in the lower section.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_system_translation.png" title="s_ncs_admin_survey_trad_system_translation.png" /></li>
+   <li><p>Select the translation language and enter a translation for the string. You can approve the translation by checking the <strong>Translation validated</strong> option. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_system_translation2.png" title="s_ncs_admin_survey_trad_system_translation2.png" />
+    <note>
+     <p> Translation approval is optional and will not block the process.<br /> </p> 
+    </note></li>
+  </ol>
+  <note>
+    Don't delete the out-of-the-box system strings.
+   <br /> 
+  </note>
+  <h3 id="adding-a-translation-language">Adding a translation language</h3>
+  <p>To translate Web applications into languages other than the default ones (refer to <a href="../../web/using/translating-a-web-form.md#changing-forms-display-language" target="_blank">Changing forms display language</a>), you will need to add a new translation language.</p> 
+  <ol>
+   <li><p>Click the <strong>Administration &gt; Platform &gt; Itemized lists</strong> node of the Adobe Campaign tree and select <strong>Languages available for translation</strong> from the list. The list of available translations is displayed in the lower section of the window. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_new_itemized_list_1.png" title="s_ncs_admin_survey_trad_new_itemized_list_1.png" /></li>
+   <li><p>Click the <strong>Add</strong> button, then enter the <strong>Internal name</strong>, <strong>Label</strong> and identifier of the image (flag). To add a new image, please contact your administrator.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_trad_new_itemized_list_2.png" title="s_ncs_admin_survey_trad_new_itemized_list_2.png" /></li>
+  </ol>
+ </body>
+</html>

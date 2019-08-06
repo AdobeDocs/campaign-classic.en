@@ -1,0 +1,122 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Publication templates" name="jcr:title" /> 
+  <meta content="audience:delivery" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="1a82ca84-ea73-4c92-a2db-acb9d3e50d7d" name="jcr:predecessors" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="Publication templates" name="navTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2019-08-06T06:59:28.680-0400" name="jcr:created" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Publication templates" name="jcr:description" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="34473b22-e7a1-48cd-b1ab-d847bd97bcf7" name="jcr:uuid" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <h2 id="about-publication-templates">About publication templates</h2> 
+  <p>The publication template is the identity card of the content to be published. It references the resources used in the publication process, i.e.:</p> 
+  <ul> 
+   <li><p>the data schema,</p> </li> 
+   <li><p>the input form,</p> </li> 
+   <li><p>the transformation templates for each output document.</p> </li> 
+  </ul> 
+  <h2 id="identification-of-a-publication-template">Identification of a publication template</h2> 
+  <p>A publication template is identified by its name and namespace. </p> 
+  <p>The identification key of a stylesheet is a string made up of the namespace and the name separated by a colon; for example: <strong>cus:newsletter</strong>.</p> 
+  <note> 
+   <p> In practice, it is recommended to use the same key for the schema, the form, and the publication template.<br /> </p> 
+  </note> 
+  <h2 id="creating-and-configuring-the-template">Creating and configuring the template</h2> 
+  <p>Publication templates are stored by default in the <strong>Administration &gt; Configuration &gt; Publication templates</strong> node. To create a new template, click the <strong>New</strong> button above the list of templates.</p> 
+  <p>To configure the publication template, populate the name of the template (i.e. the identification key consisting of the name and the namespace), its label, data schema, and the input form it is linked to.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_content_model.png" title="d_ncs_content_model.png" /> 
+  <note> 
+   <p> The label will appear whenever content is created based on this publication template.<br /> </p> 
+  </note> 
+  <p>The <strong>Check status to validate content generation</strong> option forces a check on the "Validated" status of the content instances to authorize file generation. For more on this, refer to <a href="../../delivery/using/publication-templates.md#publication" target="_blank">Publication</a>.</p> 
+  <p>A transformation template must be added for each output document. You can create as many transformation templates as necessary.</p> 
+  <p>The <strong>Name of template</strong> field is a free label that describes the type of rendering at the output. For each transformation template, the publication settings are available in the tabs.</p> 
+  <h3 id="rendering">Rendering</h3> 
+  <p>The <strong>Rendering</strong> tab, choose:</p> 
+  <ul> 
+   <li><p>the type of rendering used for projecting the output document: XSL stylesheet or JavaScript template,</p> </li> 
+   <li><p> the format of the output document: HTML, Text, XML or RTF,</p> </li> 
+   <li><p>the template which contains the construction data, i.e. the stylesheet or JavaScript template to be used.</p> </li> 
+  </ul> 
+  <h3 id="publication">Publication</h3> 
+  <p>Publication involves generating the output document in the form of a file, if the type selected is <strong>File</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_content_model2.png" title="d_ncs_content_model2.png" /> 
+  <p>The following publication options are available:</p> 
+  <ul> 
+   <li><p>The output file encoding character set can be forced via the <strong>Encoding</strong> field. The Latin 1 (1252) character set is used by default.</p> </li> 
+   <li><p>The <strong>Multi-file generation</strong> option activates a special document publication mode. This option consists of populating a partitioning tag at the beginning of each page of the output document. Generating the content will produce a file for each populated partitioning tag. This mode is used to generate mini-sites from a content block. for more on this, refer to <a href="../../delivery/using/publication-templates.md#multi-file-generation" target="_blank">Multi-file generation</a>.</p> </li> 
+   <li><p>The <strong>Location</strong> field contains the name of the output file. The name can be made up of variables in order to generate an automatic filename. </p> <p>A variable is populated with the following format: <strong>$( 
+      <xpath>
+        ) 
+      </xpath></strong>, where 
+     <xpath>
+       is the path of a field of the publication template data schema. 
+     </xpath></p> <p>The name of a file can consist of a date-type field. To format this field correctly, use the <strong>$date-format</strong> function, using the path of the field and the output format as parameters.</p> <p>By default, the construction format of the file name uses the variables on the "@name" and "@date" fields: </p> 
+    <codeblock gutter="true" class="syntax html">
+      ct_$(@name)_$date-format(@date,'%4Y%2M%2D').htm 
+    </codeblock><p>The generated file name will look like this: ct_news12_20110901.htm.</p> 
+    <note> 
+     <p> For more on content generation, refer to <a href="../../delivery/using/publication-templates.md#creating-a-content-instance" target="_blank">Creating a content instance</a>.<br /> </p> 
+    </note></li> 
+  </ul> 
+  <h3 id="delivery">Delivery</h3> 
+  <p>This tab lets you select a scenario in order to launch a delivery directly on the content. The content of the email will be populated automatically based on the output format (HTML or Text).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_content_model3.png" title="d_ncs_content_model3.png" /> 
+  <note> 
+   <p> For an example of delivery creation based on a content, refer to <a href="../../delivery/using/publication-templates.md#delivering-a-content-instance" target="_blank">Delivering a content instance</a>.<br /> </p> 
+  </note> 
+  <h3 id="aggregator">Aggregator</h3> 
+  <p>Aggregating the data from a script or query list lets you enrich the XML document with the content data. The aim is to supplement certain information referenced by links or to add elements from the database.</p> 
+  <p>s</p> 
+  <h3 id="multi-file-generation">Multi-file generation</h3> 
+  <p>To activate multiple file generation, select the <strong>Multi-file generation</strong> option in the publication model. This option lets you specify partitioning tags in the stylesheet for the beginning of each page of the output document. The generation of the content will produce a file for each partitioning tag encountered.</p> 
+  <p>The partitioning tag to be integrated in the stylesheet is as follows:</p> 
+  <p><strong> 
+    <xsl:comment>
+      #nl:output_replace( 
+     <name_of_file>
+       ) 
+     </name_of_file> 
+    </xsl:comment></strong> where <strong> 
+    <name_of_file /></strong> is the filename of the page to be generated.</p> 
+  <p><strong>Example:</strong>Multiple file generation using the "cus:book" schema.</p> 
+  <p>The principle is to generate a main page listing the chapters, with the possibility of displaying the details of the chapter in an external page.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_content_chunk.png" title="d_ncs_content_chunk.png" /> 
+  <p>The corresponding stylesheet ("cus:book.xsl") is as follows:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="ISO-8859-1"&amp;nbsp;?&gt;!!discoiqbr!!&lt;xsl:stylesheet&amp;nbsp;xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&amp;nbsp;version="1.0"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xsl:output&amp;nbsp;encoding="ISO-8859-1"&amp;nbsp;method="html"/&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;Style&amp;nbsp;sheet&amp;nbsp;entry&amp;nbsp;point&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xsl:template&amp;nbsp;match="/book"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;html&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h1&gt;&lt;xsl:value-of&amp;nbsp;select="@name"/&gt;&lt;/h1&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lu&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:for-each&amp;nbsp;select="chapter"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&lt;a&amp;nbsp;target="_blank"&amp;nbsp;href="chapter{@id}.htm"&gt;&lt;xsl:value-of&amp;nbsp;select="@name"/&gt;&lt;/a&gt;&lt;/li&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xsl:for-each&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/lu&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/html&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xsl:template&gt;!!discoiqbr!!&lt;/xsl:stylesheet&gt; 
+  </codeblock> 
+  <p>A second stylesheet ("cus:chapter.xsl") is required to generate the details of the chapters:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="ISO-8859-1"&amp;nbsp;?&gt;!!discoiqbr!!&lt;xsl:stylesheet&amp;nbsp;xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&amp;nbsp;version="1.0"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xsl:output&amp;nbsp;encoding="ISO-8859-1"&amp;nbsp;method="html"/&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;Detail&amp;nbsp;of&amp;nbsp;a&amp;nbsp;chapter&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xsl:template&amp;nbsp;match="chapter"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;Cut&amp;nbsp;tag&amp;nbsp;--&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:comment&gt;&amp;nbsp;#nl:output_replace($(path)/chapter&lt;xsl:value-of&amp;nbsp;select="@id"/&gt;.htm)&lt;/xsl:comment&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;html&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h1&gt;&lt;xsl:value-of&amp;nbsp;select="@name"/&gt;&lt;/h1&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:value-of&amp;nbsp;select="page"&amp;nbsp;disable-output-escaping="yes"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/html&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/xsl:template&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;Style&amp;nbsp;sheet&amp;nbsp;entry&amp;nbsp;point&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xsl:template&amp;nbsp;match="/book"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xsl:apply-templates/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xsl:template&gt;!!discoiqbr!!&lt;/xsl:stylesheet&gt; 
+  </codeblock> 
+  <p>The partitioning tag is populated at the beginning of the page to be included in the file to generate.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;xsl:comment&gt;&amp;nbsp;#nl:output_replace($(path)/&lt;xsl:value-of&amp;nbsp;select="@id"/&gt;.htm)&lt;/xsl:comment&gt; 
+  </codeblock> 
+  <p> The filename is constructed with the <strong>$(path)</strong> variable containing the publication path and <strong> 
+    <xsl:value-of select="@id" /></strong>, which matches the identifier of the chapter in the input document.</p> 
+  <p>The publication model must be populated with the two stylesheets "cus:book.xsl" and "cus:chapter.xsl".</p> 
+  <p>The <strong>Multi-file generation</strong> option must be active on the chapter transformation model:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_content_chunk2.png" title="d_ncs_content_chunk2.png" /> 
+  <p>The <strong>Location</strong> field is not used in the generation of multiple files, but you must still populate this field to avoid an error when publishing. </p> 
+ </body> 
+</html>

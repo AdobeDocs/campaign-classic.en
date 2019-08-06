@@ -1,0 +1,44 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Message Center service level" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:message-center" name="primaryAudienceTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="a4e83774-0173-4275-af8e-129b8c19f38e" name="jcr:uuid" />
+  <meta content="2019-08-06T06:59:42.015-0400" name="jcr:created" />
+  <meta content="light" name="heroGradient" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="286b2673-539c-4f1b-abb8-3195899ef868" name="jcr:predecessors" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Message Center service level" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Message Center service level" name="navTitle" />
+ </head>
+ <body>
+  <p>This report displays the delivery statistics related to transactional messages as well as the error breakdown. You can click on an error type to display its details. This report, aimed at technical administrators, can also be accessed via the <strong>Monitoring</strong> universe in the control instance.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mc_reports_1.png" title="mc_reports_1.png" />
+  <p>In this report, you can choose to display the overall statistics or those relative to a particular execution instance. You can also filter the data by channel and over a specific period. The indicators displayed in the <strong>Indicators over the period</strong> section are calculated over the period selected:</p> 
+  <ul>
+   <li><p><strong>Incoming (throughput event/h)</strong>: average hourly number of events entered in the Message Center queue.</p> </li>
+   <li><p><strong>Incoming (event vol)</strong>: number of events entered in the Message Center queue.</p> </li>
+   <li><p><strong>Outgoing (throughput msg/h)</strong>: average hourly number of successful outgoing Message Center events (sent by a delivery).</p> </li>
+   <li><p><strong>Outgoing (msg vol)</strong>: number of successful outgoing Message Center events (sent by a delivery).</p> </li>
+   <li><p><strong>Average sending time (seconds)</strong>: average time spent in Message Center for successfully processed events. The calculation takes the processing time and the mta sending time into account.</p> </li>
+   <li><p><strong>Error rate</strong>: number of events with errors compared to the number of events that have entered the Message Center queue. The following errors are taken into account: routing error, expired event (event that has been in the queue too long), delivery error, ignored by the delivery (quarantine, etc.).</p> </li>
+  </ul>
+  <note>
+   <p> The warning (orange) and alert (red) indicator thresholds can be configured in the deployment wizard. Refer to <a href="../../message-center/using/monitoring-thresholds.md" target="_blank">Monitoring thresholds</a>.<br /> </p> 
+  </note>
+ </body>
+</html>

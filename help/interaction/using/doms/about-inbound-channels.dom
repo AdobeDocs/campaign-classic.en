@@ -1,0 +1,37 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="About inbound channels" name="jcr:description" />
+  <meta content="light" name="heroGradient" />
+  <meta content="aed706ca-e3e9-41d3-9ff2-95df7a60e42a" name="jcr:predecessors" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-08-06T06:59:21.880-0400" name="jcr:created" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="About inbound channels" name="jcr:title" />
+  <meta content="df271acf-cf74-4f79-a123-4d99f987886e" name="jcr:uuid" />
+  <meta content="About inbound channels" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+ </head>
+ <body>
+  <p>Offers can be presented on various offer spaces using an inbound or outbound channel. This chapter details some specific features for inbound channels. </p> 
+  <p>In order for an offer to be selected by the offer engine, it has to be approved and be available in a live environment For more on this, refer to <a href="../../interaction/using/approving-and-activating-an-offer.md" target="_blank">Approving and activating an offer</a>.</p> 
+  <p>When a contact is inbound, there are two possible outcomes. The first being that the user is not identified by the site he is browsing on, and the second being that he is identified. The offer engine presents different offers depending on whether or not the user is identified.</p> 
+  <p>Before being able to present offers on an inbound channel, you must configure the offer engine call where you would like the offers to be presented. In most cases for an inbound interaction, this is the Web page.</p> 
+  <note>
+   <p> For inbound interactions, you must specifically configure the offer engine to present and update one or several offers.<br /> You also have to enable unitary mode on your offer spaces. For more on this, refer to the <a href="../../interaction/using/creating-offer-spaces.md" target="_blank">Creating offer spaces</a> section.<br /> </p> 
+  </note>
+ </body>
+</html>

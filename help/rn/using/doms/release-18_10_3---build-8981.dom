@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Release 18.10.3 - Build 8981" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:rn" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-08-06T06:59:07.405-0400" name="jcr:created" />
+  <meta content="" name="seoDescription" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="dbd780a7-6d19-4128-80b5-878979da2499" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Release 18.10.3 - Build 8981" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Release 18.10.3 - Build 8981" name="jcr:description" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="cde80fa0-30c2-4790-bb70-cdfebf986733" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:rn" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+ </head>
+ <body>
+  <p>29 January 2019</p> 
+  <h2 id="improvements">Improvements</h2>
+  <ul>
+   <li><p>Fixed an issue with the s3 File Transfer workflow activity. (NEO-12473) </p> </li>
+   <li><p>Fixed an issue with the Tracking workflow which could fail. (NEO-12520) </p> </li>
+   <li><p>Fixed an issue with the IMS login. </p> </li>
+   <li><p>Fixed an issue with the preview and content approval in Transactional messaging when using a large offer ID. </p> </li>
+   <li><p>Fixed an issue with the Mid-sourcing (delivery counters) workflow. </p> </li>
+   <li><p>Fixed an issue with the database structure update which dropped new indexes on NmsRecipient. </p> </li>
+   <li><p>Fixed a console crash that could occur when using the Defined in an external file option for the main target of a delivery. (NEO-12349) </p> </li>
+   <li><p>Fixed several InMail crashes. </p> </li>
+   <li><p>Fixed an issue when using an Update data workflow activity to delete records stored in an FDA Teradata database. </p> </li>
+   <li><p>Fixed inconsistency issues in secret key management. </p> </li>
+   <li><p>Fixed an issue with the Enrichment activity when typing a field as: xml=true and calculated=true</p> </li>
+   <li><p> Fixed a character escaping issue when sending push notifications on a mobile application. </p> </li>
+   <li><p>Fixed an issue which prevented from switching from FDA to SOAP synchronization method in a Mid-Sourcing external account.</p> </li>
+  </ul>
+ </body>
+</html>

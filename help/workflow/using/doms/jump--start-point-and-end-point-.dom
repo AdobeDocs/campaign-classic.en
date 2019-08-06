@@ -1,0 +1,37 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="0d248a72-5839-44e5-b125-f689ca508027" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="19fa0e9d-5c0c-4722-8601-55d7cf36080a" name="jcr:uuid" />
+  <meta content="2019-08-06T06:59:15.394-0400" name="jcr:created" />
+  <meta content="Jump (start point and end point)" name="navTitle" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="Jump (start point and end point)" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Jump (start point and end point)" name="jcr:description" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <p><strong>Jump</strong>-type graphical objects are used to improve the readability of a complex diagram, particularly one with crossing transitions.</p> 
+  <p>Jumps are transitions without arrows: They go from one activity to another, as in the following example.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_jump_sample.png" title="s_user_segmentation_jump_sample.png" />
+  <p>For each "start point"-type transition, an "end point"-type transition must be positioned.</p> 
+  <p>You can insert several start point and end point jumps in the same workflow. They are identified by a number that must be entered in the parameters:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_jump_in.png" title="s_user_segmentation_jump_in.png" />
+  <p>To improve the readability of the diagram, you can change the image associated with jumps to display the related number. See <a href="../../workflow/using/managing-activity-images.md" target="_blank">Managing activity images</a>.</p> 
+ </body>
+</html>

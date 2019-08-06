@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Editing forms" name="navTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="seoDescription" />
+  <meta content="Editing forms" name="jcr:title" />
+  <meta content="2019-08-06T06:59:43.716-0400" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:configuration" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Editing forms" name="jcr:description" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="07bcbb6b-20c0-4ddb-9b5b-9b8545da4b82" name="jcr:predecessors" />
+  <meta content="eb3ec3b9-350f-491d-a34d-19609e5db433" name="jcr:uuid" />
+ </head>
+ <body>
+  <p>The input form creation and configuration screen is accessible from the <strong>Administration &gt; Configuration &gt; Input forms</strong> folder of the Adobe Campaign client console:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_arbo.png" title="d_ncs_integration_form_arbo.png" />
+  <p>The editing zone lets you enter the XML content of the input form:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_edit.png" title="d_ncs_integration_form_edit.png" />
+  <p>The preview generates a display of the input form:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_form_preview.png" title="d_ncs_integration_form_preview.png" />
+ </body>
+</html>

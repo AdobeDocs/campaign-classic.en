@@ -1,0 +1,90 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="aba88741-fd1e-4f78-80ee-db47fbcd8eb9" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Using cubes to explore data" name="jcr:description" />
+  <meta content="2019-08-06T06:59:36.627-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:reporting" name="cq:tags" />
+  <meta content="47f58df2-15fe-4058-8910-6f3e22904233" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="Using cubes to explore data" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Using cubes to explore data" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <p>Marketing Analytics makes it easier to create reports and to identify and select data from the database via cubes. This enables you to: </p> 
+  <ul>
+   <li><p>Create reports based on cubes. The process is detailed here: <a href="../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report" target="_blank">Exploring the data in a report</a>.</p> </li>
+   <li><p>Collect the data in the database and group it into lists, for instance to identify and build targets and deliveries. For more on this, refer to <a href="../../reporting/using/using-cubes-to-explore-data.md#building-a-target-population" target="_blank">Building a target population</a>.</p> </li>
+   <li><p>Insert a pivot table into a report, reference an existing cube in it. For more on this, refer to <a href="../../reporting/using/using-cubes-to-explore-data.md#inserting-a-pivot-table-into-a-report" target="_blank">Inserting a pivot table into a report</a>.</p> </li>
+  </ul>
+  <note>
+   <p> Marketing Analytics is necessary to create or modify cubes. For more on this, refer to <a href="../../reporting/using/about-cubes.md" target="_blank">About cubes</a>.<br /> </p> 
+  </note>
+  <h2 id="exploring-the-data-in-a-report">Exploring the data in a report</h2>
+  <h3 id="step-1---creating-a-report-based-on-a-cube">Step 1 - Creating a report based on a cube</h3>
+  <p>To create a report based on a cube, click the <strong>Create</strong> button in the <strong>Reports</strong> universe and select the cube you want to use.</p> 
+  <p>The process is detailed here: <a href="../../reporting/using/using-cubes-to-explore-data.md#creating-a-report-based-on-a-cube" target="_blank">Creating a report based on a cube</a>.</p> 
+  <h3 id="step-2---selecting-lines-and-columns">Step 2 - Selecting lines and columns</h3>
+  <p>The default display shows the first two dimensions of the cube (age and city, in this case). </p> 
+  <p>The <strong>Add</strong> buttons on each axis enable you to add dimensions. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_03.png" title="s_advuser_cube_in_report_03.png" />
+  <ol>
+   <li><p>Select the dimensions you want to display in the lines and columns of the table. To do this, drag and drop the available dimensions as shown below:</p> </li>
+   <li><p>Select the dimensions that you want to add to the table from the list:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_04.png" title="s_advuser_cube_in_report_04.png" /></li>
+   <li><p>Then select the parameters of this dimension. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_04b.png" title="s_advuser_cube_in_report_04b.png" /><p>The parameters depend on the data type of the selected dimension.</p> <p>For instance, for dates, several levels can be available. For more on this, refer to <a href="../../reporting/using/using-cubes-to-explore-data.md#displaying-measures" target="_blank">Displaying measures</a>.</p> <p>The following options are offered in this case:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_config2.png" title="s_advuser_cube_in_report_config2.png" /><p>You can either:</p> 
+    <ul>
+     <li><p>Expand data during loading: the values will be displayed by default each time the report is updated (default value: no).</p> </li>
+     <li><p>Display the total at the end of the line: when the data is displayed in columns, an additional option lets you display the total at the end of the line: a column is added to the table (default value: yes).</p> </li>
+     <li><p>Apply a sort: the values of the column can be sorted according to value, label, or based on a measure (default value: by value).</p> </li>
+     <li><p>Display the values in ascending (a-z, 0-9) or descending (z-a, 9-0) order.</p> </li>
+     <li><p>Change the number of columns to be displayed upon loading (by default: 200).</p> </li>
+    </ul></li>
+   <li><p>Click <strong>Ok</strong> to confirm: the dimension is added to the existing dimensions.</p> <p>The yellow banner above the table shows that you have made changes: click the <strong>Save</strong> button to save them.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_04c.png" title="s_advuser_cube_in_report_04c.png" /></li>
+  </ol>
+  <h3 id="step-3---configuring-the-measures-to-display">Step 3 - Configuring the measures to display</h3>
+  <p>Once the lines and columns are in place, indicate the measures you want to display as well as their display mode. </p> 
+  <p>By default, only one measure is displayed. To add or configure measures:</p> 
+  <ol>
+   <li><p>Click the <strong>Measures</strong> button. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_05.png" title="s_advuser_cube_in_report_05.png" /></li>
+   <li><p>The <strong>Use a measure</strong> button enables you to select one of the existing measures.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_08.png" title="s_advuser_cube_in_report_08.png" /><p>Select the information you want to display and the type of formatting. The list of options depends on the type of measure which has been configured.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_09.png" title="s_advuser_cube_in_report_09.png" /><p>Overall measure configuration is also available via the <strong>Edit the configuration of the pivot table</strong> icon in the header.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_config_02.png" title="s_advuser_cube_in_report_config_02.png" /><p>You can then choose whether or not to display measure labels. For more on this, refer to <a href="../../reporting/using/using-cubes-to-explore-data.md#configuring-the-display" target="_blank">Configuring the display</a>.</p> </li>
+   <li><p>It's possible to build new measures using existing ones. To do this, click <strong>Create a measure</strong> and configure it.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_config_02a.png" title="s_advuser_cube_in_report_config_02a.png" /><p>The following types of measures are available:</p> 
+    <ul>
+     <li><p>Combination of measures: this type of measure enables you to build the new measure using existing ones: </p> <p>The available operators are: sum, difference, multiplication and rate.</p> </li>
+     <li><p>Proportion: this type of measure enables you to calculate the number of records measured for a given dimension. You can calculate the proportionality based on a dimension or sub-dimension.</p> </li>
+     <li><p>Variation: this measure lets you calculate the variation in values of a level.</p> </li>
+     <li><p>Standard deviation: this type of measure lets you calculate deviations within each group of cells compared to the average of the values. For instance, you could compare the purchase volume for all existing segments.</p> </li>
+    </ul><p>The created measure is added to the report.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_config_02b.png" title="s_advuser_cube_in_report_config_02b.png" /><p>Once you have created a measure, you can edit it and, if necessary, change its configuration. To do this, click the <strong>Measures</strong> button, then go to the tab of the measure you want to edit.</p> <p>Then click <strong>Edit the dynamic measure</strong> to access the settings menu.</p> </li>
+  </ol>
+  <h2 id="building-a-target-population">Building a target population</h2>
+  <p>Reports build using cubes enable you to collect data from the table and save it in a list.</p> 
+  <p>To do this, add them to a cart and process its content.</p> 
+  <p>To group a population into a list, apply the following steps:</p> 
+  <ol>
+   <li><p>Click the cells that contain the population to be collected to select them, then click the <strong>Add to cart</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_config_02c.png" title="s_advuser_cube_in_report_config_02c.png" /><p>To this as many times as necessary to collect various profiles</p> </li>
+   <li><p>Click the <strong>Show cart</strong> button to view its content before running the export.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_config_02d.png" title="s_advuser_cube_in_report_config_02d.png" /></li>
+   <li><p>The <strong>Export</strong> button lets you group the items in the cart into a list.</p> <p>You need to specify the name of the list and the type of export to carry out.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s-advuser_cube_in_report_config_02e.png" title="s-advuser_cube_in_report_config_02e.png" /><p>Click <strong>Start</strong> to run the export.</p> </li>
+   <li><p>Once the export is complete, a message confirms its execution and the number of records that have been processed.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_config_02f.png" title="s_advuser_cube_in_report_config_02f.png" /><p>You can either save the content of the cart or empty it. </p> <p>The relevant list is accessed via the <strong>Profiles and targets</strong> universe.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_config_02g.png" title="s_advuser_cube_in_report_config_02g.png" /></li>
+  </ol>
+  <h2 id="inserting-a-pivot-table-into-a-report">Inserting a pivot table into a report</h2>
+  <p>To create a table and explore the data in a cube, apply the following steps:</p> 
+  <ol>
+   <li><p>Create a new report with a single page and insert a pivot table into it. For more on this, refer to <a href="../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table">this page</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_01.png" title="s_advuser_cube_in_report_01.png" /></li>
+   <li><p>In the <strong>Data</strong> tab of the page, select a cube to process the dimensions it contains and display calculated measures.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_in_report_02.png" title="s_advuser_cube_in_report_02.png" /><p>This lets you build the report to be displayed. For more on this, refer to <a href="../../reporting/using/using-cubes-to-explore-data.md#step-2---selecting-lines-and-columns" target="_blank">Step 2 - Selecting lines and columns</a>.</p> </li>
+  </ol>
+ </body>
+</html>

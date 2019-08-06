@@ -1,0 +1,176 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:connectors" name="cq:tags" />
+  <meta content="audience:platform" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Adobe Analytics Data Connector" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="351f4a7c-9b4b-4bd2-bc6d-7f12062467c4" name="jcr:uuid" />
+  <meta content="" name="seoDescription" />
+  <meta content="2019-08-06T07:02:33.734-0400" name="jcr:created" />
+  <meta content="8229144d-c893-44b8-bd3f-5249ed7b4824" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Adobe Analytics Data Connector" name="jcr:title" />
+  <meta content="2019-08-05" name="publishExternalDate" />
+  <meta content="Adobe Analytics Data Connector" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <h2 id="about-data-connector-integration">About Data Connector integration</h2>
+  <note>
+    Adobe Analytics Data Connector is not compatible with Transactional messaging (Message Center).
+   <br /> 
+  </note>
+  <p>Data Connector (previously known as Adobe Genesis) allows Adobe Campaign and Adobe Analytics interact through the <strong>Web Analytics connectors</strong> package. It forwards data to Adobe Campaign in the form of segments concerning user behavior following an email campaign. Conversely, it sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics - Data connector. </p> 
+  <p>Using Data connector, Adobe Campaign has a way of measuring internet audience (Web Analytics). Thanks to these integrations, Adobe Campaign can recover data on visitor behavior for one or more sites following a marketing campaign, and (after analysis) run re-marketing campaigns with a view to converting them into buyers. Conversely, the Web analytics tools enable Adobe Campaign to forward indicators and campaign attributes to their platforms.</p> 
+  <p>For more information on the implementation of the integration Adobe Analytics with Adobe Campaign, refer to this <a href="https://helpx.adobe.com/marketing-cloud/how-to/analytics-ac.html">documentation</a>.</p> 
+  <p>The action fields for each tool are as follows:</p> 
+  <ul>
+   <li><p>Web analytics' role:</p> 
+    <ol>
+     <li><p>marks the email campaigns launched with Adobe Campaign,</p> </li>
+     <li><p>saves recipient behavior, on the site they browsed after clicking the campaign email, in the form of segments. Segments concern abandoned products (viewed but not added to the cart or purchased), purchases or cart abandonments.</p> </li>
+    </ol></li>
+   <li><p>Adobe Campaign's role:</p> 
+    <ol>
+     <li><p>sends the indicators and campaign attributes to the connector, which in turn forwards them to the Web analytics tool,</p> </li>
+     <li><p>recovers and analyzes segments,</p> </li>
+     <li><p>triggers a re-marketing campaign.</p> </li>
+    </ol></li>
+  </ul>
+  <h2 id="setting-up-the-integration">Setting up the integration</h2>
+  <p>To set up the Data connector, you must connect to your Adobe Campaign instance and perform the following operations: </p> 
+  <ul>
+   <li><p> <a href="../../platform/using/adobe-analytics-data-connector.md#step-1--configure-integration-in-analytics" target="_blank">Step 1: Configure integration in Analytics</a></p> </li>
+   <li><p> <a href="../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign" target="_blank">Step 2: Create the external account in Campaign</a></p> </li>
+   <li><p> <a href="../../platform/using/adobe-analytics-data-connector.md#step-3--synchronize-adobe-campaign-and-adobe-analytics" target="_blank">Step 3: Synchronize Adobe Campaign and Adobe Analytics</a></p> </li>
+  </ul>
+  <h3 id="step-1--configure-integration-in-analytics">Step 1: Configure integration in Analytics</h3>
+  <p>The following steps detail the configuration of Data connector using a wizard.</p> 
+  <ol>
+   <li><p>Log in to the Adobe Experience Cloud using an Adobe ID or or Enterprise ID.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/adobe_genesis_install_001.png" title="adobe_genesis_install_001.png" /></li>
+   <li><p>From the list of Experience Cloud solutions, select <strong>Analytics</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/adobe_genesis_install_013.png" title="adobe_genesis_install_013.png" /></li>
+   <li><p>From the <strong>Admin</strong> tab, select <strong>Data Connectors</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/adobe_genesis_install_002.png" title="adobe_genesis_install_002.png" /></li>
+   <li><p>From the list of partners, select <strong>Neolane - Enterprise Marketing Platform</strong>.</p> </li>
+   <li><p>In the <strong>Add integration</strong> dialog, click <strong>Activate</strong>.</p> </li>
+   <li><p>Check <strong>I accept these terms and conditions</strong> and select the<strong> Report suite</strong> linked to this integration and enter the connector label.</p> <p>When done, click <strong>Create and configure this integration</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/adobe_genesis_install_015.png" title="adobe_genesis_install_015.png" /></li>
+   <li><p>Enter the email address that will receive the notifications on behalf of the connector, then copy the <strong>Account ID</strong> as it appears in the external Adobe Campaign account (for more on this, refer to the <a href="../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign" target="_blank">Step 2: Create the external account in Campaign</a>).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/adobe_genesis_install_005.png" title="adobe_genesis_install_005.png" /></li>
+   <li><p>Specify the identifiers required for measuring the impact of the email campaign, i.e. the internal campaign name (cid) and the iNmsBroadlog (bid) table ID. You should also specify the indicators for events to be collected.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/adobe_genesis_install_006.png" title="adobe_genesis_install_006.png" /></li>
+   <li><p>If necessary, specify the personalized segments.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/adobe_genesis_install_007.png" title="adobe_genesis_install_007.png" /></li>
+   <li><p>In <strong>Data collection</strong>, select a method for recovering data, in this case the <strong>cid</strong> and <strong>bid</strong> identifiers specified in step 6.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/adobe_genesis_install_009.png" title="adobe_genesis_install_009.png" /></li>
+   <li><p>Select the information to display in the dashboard.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/adobe_genesis_install_0112.png" title="adobe_genesis_install_0112.png" /></li>
+   <li><p>Check the configuration in the page which sums up the previous steps.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/adobe_genesis_install_011.png" title="adobe_genesis_install_011.png" /></li>
+   <li><p>Click <strong>Activate Now</strong> to approve configuration and activate the connector.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/adobe_genesis_install_012.png" title="adobe_genesis_install_012.png" /><p>The Data connector is now configured.</p> </li>
+  </ol>
+  <h3 id="step-2--create-the-external-account-in-campaign">Step 2: Create the external account in Campaign</h3>
+  <p>The integration of Adobe Campaign into the Analytics platforms is carried out using a connector. To synchronize the applications, apply the following process:</p> 
+  <ol>
+   <li><p>Install the <strong>Web Analytics connectors</strong> package in Adobe Campaign.</p> </li>
+   <li><p>Go to the <strong>Administration &gt; Platform &gt; External accounts</strong> folder of the Adobe Campaign tree.</p> </li>
+   <li><p>Right-click the list of external accounts and select <strong>New</strong> in the drop-down menu (or click the <strong>New</strong> button above the list of external accounts).</p> </li>
+   <li><p>Use the drop-down list to select the <strong>Web Analytics</strong> type.</p> </li>
+   <li><p>Select the provider for the connector, i.e. <strong>Adobe Analytics - Data Connector</strong> in this case.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_ext_account_create_001.png" title="webanalytics_ext_account_create_001.png" /></li>
+   <li><p>Click the <strong>Enrich the formula...</strong> link to change the URL calculation formula to specify the Web analytics tool integration information (campaign IDs) and the domains of the sites whose activity must be tracked.</p> </li>
+   <li><p>Specify the domain name(s) of the sites.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_tracking_001.png" title="webanalytics_tracking_001.png" /></li>
+   <li><p>Click <strong>Next</strong> and make sure the domain names have been saved.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_tracking_002.png" title="webanalytics_tracking_002.png" /></li>
+   <li><p>If necessary, you must overload the calculation formula. To do this, check the box and edit the formula directly in the window.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_tracking_003.png" title="webanalytics_tracking_003.png" />
+    <note>
+      This configuration mode is reserved for expert users: any error in this formula may result in email deliveries being stopped.
+     <br /> 
+    </note></li>
+   <li><p>The <strong>Advanced</strong> tab lets you configure or modify more technical settings.</p> 
+    <ul>
+     <li><p><strong>Lifespan</strong>: lets you specify the delay (in days_ after which the web events recovered in Adobe Campaign by technical workflows. Default: 180 days.</p> </li>
+     <li><p><strong>Persistence</strong>: lets you the period during which all web events (a purchase for example) can be attributed to a re-marketing campaign, Default: 7 days.</p> </li>
+    </ul></li>
+  </ol>
+  <note>
+   <p> If you are using several audience measuring tools, you can select <strong>Other</strong> in the <strong>Partners</strong> drop-down list when creating the external account. You may only reference one external account in the delivery properties: you will therefore need to adapt the formula of tracked URLs by adding the parameters expected by the Adobe and all other measuring tools used.<br /> </p> 
+  </note>
+  <h3 id="step-3--synchronize-adobe-campaign-and-adobe-analytics">Step 3: Synchronize Adobe Campaign and Adobe Analytics</h3>
+  <p>Once you have created the external account, you need to synchronize both applications.</p> 
+  <ol>
+   <li><p>Go to your previously created external account.</p> </li>
+   <li><p>Change the account <strong>Label</strong> as needed.</p> </li>
+   <li><p>Change the <strong>Internal name</strong> so that it matches the <strong>Name</strong> chosen while configuring the Data Connector.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_ext_account_setting_001.png" title="webanalytics_ext_account_setting_001.png" /></li>
+   <li><p>Click the <strong>Approve connection</strong> link.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_ext_account_setting_002.png" title="webanalytics_ext_account_setting_002.png" /><p>Make sure the <strong>Internal name</strong> matches the <strong>Name</strong> specified in the Data Connector configuration wizard.</p> </li>
+   <li><p>Enter the <strong>Account ID</strong> in the Data Connector configuration wizard.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_ext_account_setting_003.png" title="webanalytics_ext_account_setting_003.png" /></li>
+   <li><p>Follow the steps according to the Data Connector wizard guide, then return to the external account in Adobe Campaign.</p> </li>
+   <li><p>Click <strong>Next</strong> in order for the data exchange to take place between Adobe Campaign and Adobe Analytics - Data connector.</p> <p>The segment list is displayed once synchronization is complete. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_ext_account_setting_004.png" title="webanalytics_ext_account_setting_004.png" /></li>
+  </ol>
+  <p>When the synchronization of data between Adobe Campaign and Adobe Analytics - Data connector is effective, the three default segments defined in the Data Connector wizard are recovered by Adobe Campaign and become accessible in the <strong>Segments</strong> tab of the Adobe Campaign external account. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_segments.png" title="webanalytics_segments.png" />
+  <p>If additional segments have been configured in the Data Connector wizard, you can add them to Adobe Campaign. To do this, click the <strong>Update segment list</strong> link and follow the steps outlined in the external account wizard. Once the operation is carried out, the new segments will be displayed in the list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_segments_update.png" title="webanalytics_segments_update.png" />
+  <h3 id="technical-workflows-of-web-analytics-processes">Technical workflows of web analytics processes</h3>
+  <p>Data exchange between Adobe Campaign and Adobe Analytics - Data connector is handled by four technical workflows which run as a background task.</p> 
+  <p>They are available in the Adobe Campaign tree, under the <strong>Administration &gt; Production &gt; Technical workflows &gt; Web analytics process</strong> folder.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_workflows.png" title="webanalytics_workflows.png" />
+  <ul>
+   <li><p><strong>Recovering web events</strong>: once an hour, this workflow downloads segments about the behavior of users on a given site, includes them in the Adobe Campaign database and starts the re-marketing workflow. </p> </li>
+   <li><p><strong>Event purging</strong>: this workflow enables you to delete all events from the database depending on the period configured in the <strong>Lifespan</strong> field (for more on this, refer to <a href="../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign" target="_blank">Step 2: Create the external account in Campaign</a>).</p> </li>
+   <li><p><strong>Sending campaign indicators and attributes</strong>: lets you send email campaign indicators via Adobe Campaign to the Adobe Experience Cloud using Adobe Analytics - Data connector. This workflow is triggered at 4am every day and it can take 24 hours for the data to be sent to Analytics.</p> <p>Please note that this workflow should not be restarted or else it will resend all the prior data which can skew Analytics results.</p> <p>The indicators involved are:</p> 
+    <ul>
+     <li><p><strong>Messages to deliver</strong> (@toDeliver)</p> </li>
+     <li><p><strong>Processed</strong> (@processed)</p> </li>
+     <li><p><strong>Success</strong> (@success)</p> </li>
+     <li><p><strong>Total count of opens</strong> (@totalRecipientOpen)</p> </li>
+     <li><p><strong>Recipients who have opened</strong> (@recipientOpen)</p> </li>
+     <li><p><strong>Total number of recipients who clicked</strong> (@totalRecipientClick)</p> </li>
+     <li><p><strong>People who clicked</strong> (@personClick)</p> </li>
+     <li><p><strong>Number of distinct clicks</strong> (@recipientClick)</p> </li>
+     <li><p><strong>Opt-Out</strong> (@optOut)</p> </li>
+     <li><p><strong>Errors</strong> (@error)</p> </li>
+    </ul>
+    <note>
+     <p> Data sent is the delta based on the last snapshot which may lead to negative value in the metric data.<br /> </p> 
+    </note><p>The attributes sent are as follows: </p> 
+    <ul>
+     <li><p><strong>Internal name</strong> (@internalName)</p> </li>
+     <li><p><strong>Label</strong> (@label)</p> </li>
+     <li><p><strong>Label</strong> (operation/@label): only if the <strong>Campaign</strong> package is installed</p> </li>
+     <li><p><strong>Nature</strong> (operation/@nature): only if the <strong>Campaign</strong> package is installed</p> </li>
+     <li><p><strong>Tag 1</strong> (webAnalytics/@tag1)</p> </li>
+     <li><p><strong>Tag 2</strong> (webAnalytics/@tag2)</p> </li>
+     <li><p><strong>Tag 3</strong> (webAnalytics/@tag3)</p> </li>
+     <li><p><strong>Contact date</strong> (scheduling/@contactDate)</p> </li>
+    </ul></li>
+   <li><p><strong>Identification of converted contacts</strong>: directory of the visitors who made a purchase following a re-marketing campaign. The data collected by this workflow is accessible in the <strong>Re-marketing efficiency</strong> report (refer to this <a href="../../platform/using/adobe-analytics-data-connector.md#creating-a-re-marketing-campaign">page</a>).</p> </li>
+  </ul>
+  <h2 id="tracking-deliveries-in-adobe-campaign">Tracking deliveries in Adobe Campaign</h2>
+  <p>In order for the Adobe Experience Cloud to be able to track activity on the sites once the delivery is sent by Adobe Campaign, you need to reference the matching connector in the delivery properties. To do this, apply the following steps:</p> 
+  <ol>
+   <li><p>Open the delivery of the campaign to be tracked.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_delivery_properties_003.png" title="webanalytics_delivery_properties_003.png" /></li>
+   <li><p>Open the delivery properties.</p> </li>
+   <li><p>Go to the <strong>Web Analytics</strong> tab and select the previously created external account (refer to <a href="../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign" target="_blank">Step 2: Create the external account in Campaign</a>).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_delivery_properties_002.png" title="webanalytics_delivery_properties_002.png" /></li>
+   <li><p>You can now send your delivery and access your report for it in Adobe Analytics.</p> </li>
+  </ol>
+  <h2 id="creating-a-re-marketing-campaign">Creating a re-marketing campaign</h2>
+  <p>To prepare your re-marketing campaign, simply create delivery templates to be used for re-marketing type campaigns. Then configure your re-marketing campaign and link it to a segment. Each segment must have a different re-marketing campaign.</p> 
+  <p>Re-marketing campaigns are started automatically once Adobe Campaign has finished recovering the segments analyzing the behavior of people targeted by the initial campaign. In case of cart abandonment or product viewing without a purchase, a delivery is sent to the concerned recipients in order for their site browsing to end in a purchase.</p> 
+  <p>Adobe Campaign provides personalized delivery templates which you can use or database yourselves on to prepare campaigns. </p> 
+  <ol>
+   <li><p>From the <strong>Explorer</strong>, go to the <strong>Resources &gt; Templates &gt; Delivery templates</strong> folder of the Adobe Campaign tree.</p> </li>
+   <li><p>Duplicate the <strong>Email delivery (re-marketing)</strong> template or the re-marketing template examples offered by Adobe Campaign.</p> </li>
+   <li><p>Personalize the template to suit your needs and save it.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_delivery_model.png" title="webanalytics_delivery_model.png" /></li>
+   <li><p>Create a new campaign and select the <strong>Re-marketing campaign</strong> template from the drop-down list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_remarketing_campaign_002.png" title="webanalytics_remarketing_campaign_002.png" /></li>
+   <li><p>Click the <strong>Configure...</strong> link to specify the segment and delivery template linked to the campaign.</p> </li>
+   <li><p>Select the previously configured external account.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_remarketing_campaign_003.png" title="webanalytics_remarketing_campaign_003.png" /></li>
+   <li><p>Select the concerned segment.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_remarketing_campaign_005.png" title="webanalytics_remarketing_campaign_005.png" /></li>
+   <li><p>Select the delivery template to be used for this re-marketing campaign, then click <strong>Finish</strong> to close the window.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_remarketing_campaign_006.png" title="webanalytics_remarketing_campaign_006.png" /></li>
+   <li><p>Click <strong>OK</strong> to close the campaign window.</p> </li>
+  </ol>
+  <p>The <strong>Re-marketing efficiency</strong> report is accessed via the global reports page. It lets you view the number of contacts converted (i.e. having purchased something) in relation to the number of cart abandonments following the Adobe Campaign re-marketing campaign. The conversion rate is calculated per week, month or since the start of synchronization between Adobe Campaign and Web analytics tools.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/webanalytics_reporting.png" title="webanalytics_reporting.png" />
+ </body>
+</html>

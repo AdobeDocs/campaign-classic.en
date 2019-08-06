@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Testing tracking" name="navTitle" />
+  <meta content="Testing tracking" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-08-06T06:59:27.521-0400" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Testing tracking" name="jcr:title" />
+  <meta content="de4158e9-fd9f-4c4d-bad7-6c3d12743753" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="seoDescription" />
+  <meta content="1f525d10-d41b-42a0-b531-434335a94607" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <p>You can test tracking on mirror pages, email logs and links. To do this:</p> 
+  <ol>
+   <li><p>Create a new email delivery that will be used for testing.</p> </li>
+   <li><p>Specify the user that will receive the email. Since this user will have to open the email and click the links it contains, make sure you select a test recipient address that you control.</p> </li>
+   <li><p>Add a mirror page (MirrorPage) personalization block in the email content.</p> </li>
+   <li><p>Send the delivery containing a link to the mirror page.</p> </li>
+   <li><p>Once you have received the email, open it and click the mirror page link.</p> </li>
+   <li><p>After you are correctly redirected to the mirror page, access the <strong>Administration &gt; Technical workflows</strong> folder and open the <strong>Tracking</strong> workflow.</p> </li>
+   <li><p>Start the workflow, right click the <strong>Scheduler</strong> activity and select <strong>Execute pending task now</strong>.</p> </li>
+   <li><p>Wait around 30 seconds, then select the <strong>Audit</strong> tab. Ensure that at least one tracking log record is found.</p> <p>Click <strong>Refresh</strong> if you do not see any new logs.</p> </li>
+   <li><p>Go to the profile page of the recipient you used for the test, and select the <strong>Tracking</strong> tab. Some records should appear with the <strong>Mirror Page</strong> value in the <strong>Type</strong> column.</p> 
+    <note>
+     <p> The recipient's profile page is located in the <strong>Profiles and Targets &gt; Recipients</strong> folder by default.<br /> </p> 
+    </note><p>To check the email log tracking, look for the values <strong>Open</strong> and <strong>Email click</strong> in the <strong>Type</strong> column.</p> <p>If the open logs do not appear, go to the delivery and access its <strong>Properties</strong> to make sure that both <strong>Activate tracking</strong> and <strong>Opens tracking</strong> options are checked.</p> </li>
+  </ol>
+ </body>
+</html>

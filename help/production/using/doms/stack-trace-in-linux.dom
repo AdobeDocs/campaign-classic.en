@@ -1,0 +1,53 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="cfe6a331-e51f-4ff2-9007-f2c35349deda" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Stack trace in Linux" name="jcr:title" /> 
+  <meta content="audience:production" name="primaryAudienceTag" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="Stack trace in Linux" name="jcr:description" /> 
+  <meta content="7c1af843-1a84-4d5b-8771-3fe19367553c" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Stack trace in Linux" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-08-06T06:59:03.345-0400" name="jcr:created" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <p>A <strong>stack trace</strong> represents a trace contained in a <strong>core</strong> type file. This file is generated in the event of a machine error. It can identify the origin of the error. </p> 
+  <note> 
+   <p> </p> 
+   <ul> 
+    <li> <p>A <strong>core</strong> file is named <strong>core. 
+       <num /></strong>.</p> </li> 
+    <li> <p><strong>gdb - The GNU Debugger</strong> must be installed on the machine.</p> </li> 
+   </ul> 
+   <p></p> 
+  </note> 
+  <p>Adobe Campaign technical support can ask you for this <strong>stack trace</strong>. To obtain it, enter the following commands in Linux: </p> 
+  <codeblock gutter="true" class="syntax html">
+    su&amp;nbsp;-&amp;nbsp;neolane!!discoiqbr!!gdb&amp;nbsp;nlserver&amp;nbsp;&lt;coreFile&gt;!!discoiqbr!!//You&amp;nbsp;get&amp;nbsp;lots&amp;nbsp;of&amp;nbsp;output&amp;nbsp;but&amp;nbsp;the&amp;nbsp;stack&amp;nbsp;trace&amp;nbsp;(or&amp;nbsp;Back&amp;nbsp;trace)&amp;nbsp;can&amp;nbsp;be&amp;nbsp;obtained&amp;nbsp;with&amp;nbsp;:&amp;nbsp;!!discoiqbr!!(gdb)&amp;nbsp;bt!!discoiqbr!!//&amp;nbsp;and&amp;nbsp;forward&amp;nbsp;all&amp;nbsp;the&amp;nbsp;output&amp;nbsp;:&amp;nbsp;!!discoiqbr!!#0&amp;nbsp;0x0836c189&amp;nbsp;in&amp;nbsp;ObjectValue::SetPropertyTarget&amp;nbsp;()!!discoiqbr!!#1&amp;nbsp;0x082623b3&amp;nbsp;in&amp;nbsp;CXtkScriptProperty::VDeclareProperties&amp;nbsp;()!!discoiqbr!!#2&amp;nbsp;0x0826a835&amp;nbsp;in&amp;nbsp;CXtkScriptContext::OnGetProperty&amp;nbsp;()!!discoiqbr!!#3&amp;nbsp;0x08370b3d&amp;nbsp;in&amp;nbsp;JavaScriptGetProperty&amp;nbsp;()!!discoiqbr!!#4&amp;nbsp;0x557b8aa7&amp;nbsp;in&amp;nbsp;js_Interpret&amp;nbsp;()&amp;nbsp;from&amp;nbsp;/usr/local/neolane/nl6/lib/libmozjs.so!!discoiqbr!!#5&amp;nbsp;0x557afb97&amp;nbsp;in&amp;nbsp;js_Execute&amp;nbsp;()&amp;nbsp;from&amp;nbsp;/usr/local/neolane/nl6/lib/libmozjs.so!!discoiqbr!!#6&amp;nbsp;0x5578921f&amp;nbsp;in&amp;nbsp;JS_ExecuteScript&amp;nbsp;()&amp;nbsp;from&amp;nbsp;/usr/local/neolane/nl6/lib/libmozjs.so!!discoiqbr!!#7&amp;nbsp;0x08370468&amp;nbsp;in&amp;nbsp;JavaScriptSource::Evaluate&amp;nbsp;()!!discoiqbr!!#8&amp;nbsp;0x0848fa03&amp;nbsp;in&amp;nbsp;JSTDeliveryContext::ProcessScript&amp;nbsp;()!!discoiqbr!!#9&amp;nbsp;0x0848fcb6&amp;nbsp;in&amp;nbsp;JSTDeliveryContext::ProcessTemplate&amp;nbsp;()!!discoiqbr!!#10&amp;nbsp;0x08460d2b&amp;nbsp;in&amp;nbsp;CDeliveryToolbox::CreateMailMessage&amp;nbsp;()!!discoiqbr!!#11&amp;nbsp;0x080d51fe&amp;nbsp;in&amp;nbsp;CMtaQueue::PrepareMessages&amp;nbsp;()!!discoiqbr!!#12&amp;nbsp;0x080d2b07&amp;nbsp;in&amp;nbsp;CMtaQueue::Prepare&amp;nbsp;()!!discoiqbr!!#13&amp;nbsp;0x080dca38&amp;nbsp;in&amp;nbsp;CMtaChild::OnRun&amp;nbsp;()!!discoiqbr!!#14&amp;nbsp;0x0814792c&amp;nbsp;in&amp;nbsp;ThreadStartRoutine&amp;nbsp;()!!discoiqbr!!#15&amp;nbsp;0x55575b63&amp;nbsp;in&amp;nbsp;start_thread&amp;nbsp;()&amp;nbsp;from&amp;nbsp;/lib/tls/libpthread.so.0!!discoiqbr!!#16&amp;nbsp;0x5565918a&amp;nbsp;in&amp;nbsp;clone&amp;nbsp;()&amp;nbsp;from&amp;nbsp;/lib/tls/libc.so.6 
+  </codeblock> 
+  <p>Adobe Campaign technical support might ask you to run this command using a specific executable (to be supplied by us).</p> 
+  <p>In this case, simply run the following command by replacing <strong>nlserver</strong> with the executable provided by Adobe Campaign:</p> 
+  <codeblock gutter="true" class="syntax html">
+    gdb&amp;nbsp;nlserver&amp;nbsp;&lt;coreFile&gt; 
+  </codeblock> 
+  <p>For example:</p> 
+  <codeblock gutter="true" class="syntax html">
+    gdb&amp;nbsp;nlserver.1823&amp;nbsp;&lt;coreFile&gt; 
+  </codeblock> 
+ </body> 
+</html>

@@ -1,0 +1,92 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Power Booster and Power Cluster" name="jcr:title" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="Power Booster and Power Cluster" name="jcr:description" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="2019-08-06T06:59:30.951-0400" name="jcr:created" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Power Booster and Power Cluster" name="navTitle" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="816336e8-6b09-44a7-a5d9-ba1518e146df" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="10c1a962-a24f-416d-a2ee-18bda5ddead9" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <h2 id="overview">Overview</h2> 
+  <p>Adobe Campaign provides you with two sets of pre-packaged architectural options for dimensioning your deployment:</p> 
+  <ul> 
+   <li><p><strong> Power Booster</strong></p> <p>This option provides support for a single additional execution instance decoupled from the primary Adobe Campaign application instance. Dedicated execution instances can be hosted remotely or by a third party. When implemented, email execution, tracking, mirror pages, and bounce messages are handled independently of the central application functions.</p> </li> 
+   <li><p><strong>Power Cluster</strong></p> <p>This option provides support for 2 to N clustered execution instances decoupled from the primary Adobe Campaign application instance in relation to a given application. Clusters can be hosted remotely, in distributed deployments, and by third parties. In addition to the benefits of process isolation, the Adobe Campaign Power Cluster option enables redundancy and scale out strategies using commodity hardware for simplified evolution of SLA or performance.</p> </li> 
+  </ul> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/architectural_options_diagram.png" title="architectural_options_diagram.png" /> 
+  <h2 id="eligible-applications">Eligible applications</h2> 
+  <p>The Power Booster and Power Cluster options can be used by the following applications:</p> 
+  <ul> 
+   <li><p> Campaign</p> </li> 
+   <li><p>Leads</p> </li> 
+   <li><p>Delivery</p> </li> 
+   <li><p>Message Center</p> </li> 
+  </ul> 
+  <h2 id="matrix-of-architectural-recommendations">Matrix of architectural recommendations</h2> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Standard architecture</strong><br /> </td> 
+     <td> <strong>Power Booster</strong><br /> </td> 
+     <td> <strong>Power Cluster</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Email campaigns and outbound interactions<br /> </td> 
+     <td> Up to approximately 30 million emails per month<br /> </td> 
+     <td> 30 to 100 million emails per month<br /> </td> 
+     <td> Over 100 million emails per month<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Transactional messages<br /> </td> 
+     <td> Up to several thousand per day<br /> </td> 
+     <td> Up to 50,000 per day<br /> </td> 
+     <td> Over 50,000 per day<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Availability<br /> </td> 
+     <td> That of the primary database<br /> </td> 
+     <td> 24/7 except maintenance windows and downtimes for the execution instance<br /> </td> 
+     <td> 24/7/365 service possible<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Security<br /> </td> 
+     <td> Data mart is potentially accessible from the public internet<br /> </td> 
+     <td> Data mart is isolated from frontal, internet-facing components<br /> </td> 
+     <td> Data mart is isolated from frontal, internet-facing components<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Deployment template<br /> </td> 
+     <td> All on one site (can be on premise or in the cloud)<br /> </td> 
+     <td> Marketing on premise with execution in the cloud possible<br /> </td> 
+     <td> Marketing on premise with execution in the cloud; execution in different geos possible<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2 id="recommendations">Recommendations</h2> 
+  <ul> 
+   <li><p>An execution instance must be dedicated to a service. You cannot install a package for a service which you haven't subscribed to. For instance, if you subscribe to the <strong>Power Booster</strong> option for the <strong>Message Center</strong> service, you may only install the <strong>Execution of transactional messages</strong> package on the dedicated execution instance. Please check your license agreement.</p> </li> 
+   <li><p>Since dedicated instances (or clusters) are Adobe Campaign instances, recommendations are the same as for a main instance. For more on this, refer to <a href="../../production/using/foreword.md">this document</a>.</p> </li> 
+   <li><p>To properly configure the instance from a database/hardware components point of view, please contact Adobe Campaign Professional Services.</p> </li> 
+  </ul> 
+ </body> 
+</html>

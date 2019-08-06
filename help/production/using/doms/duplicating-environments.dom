@@ -1,0 +1,185 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="Duplicating environments" name="jcr:title" /> 
+  <meta content="Duplicating environments" name="jcr:description" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2019-08-06T06:59:02.036-0400" name="jcr:created" /> 
+  <meta content="audience:production" name="primaryAudienceTag" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="d7b1b843-b580-48af-983e-9edbdaf5f60e" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Duplicating environments" name="navTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="c4620e51-5bc5-47dc-a870-dc3541b5a710" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <h2 id="introduction">Introduction</h2> 
+  <h3 id="overview">Overview</h3> 
+  <note>
+    If you do not have access to the server and the database (hosted environments), you will not be able to perform the procedures described below. Please contact Adobe. 
+   <br /> 
+  </note> 
+  <p>Using Adobe Campaign requires installing and configuring one or more environments: development, test, pre-production, production, etc.</p> 
+  <p>Each environment contains an Adobe Campaign instance and each Adobe Campaign instance is linked to one or more databases. The application server can execute one or more processes: almost all of these have direct access to the instance database.</p> 
+  <p>This section details the processes to be applied to duplicate an Adobe Campaign environment, i.e. to restore a source environment to a target environment, resulting in two identical work environments.</p> 
+  <p>To do this, apply the following steps:</p> 
+  <ol> 
+   <li><p>Create a copy of the databases on all instances in the source environment,</p> </li> 
+   <li><p>Restore these copies on all instances of the target environment, </p> </li> 
+   <li><p>Run the <strong>nms:freezeInstance.js</strong> cauterization script on the target environment before starting it up.</p> <p>This process does not impact the servers and their configuration.</p> 
+    <note> 
+     <p> In the context of Adobe Campaign, a <strong>cauterization</strong> combines actions that let you stop all processes interacting with the outside: logs, tracking, deliveries, campaign workflows, etc.<br /> This step is necessary to avoid delivering messages several times (once from the nominal environment and one from the duplicated environment).<br /> </p> 
+    </note> 
+    <note>
+      One environment can contain several instances. Each Adobe Campaign instance is subjected to a license contract. Check your license agreement to see how many environments you can have. 
+     <br /> The procedure below lets you transfer an environment without impacting the number of environments and instances you have installed. 
+     <br /> 
+    </note></li> 
+  </ol> 
+  <h3 id="before-you-start">Before you start</h3> 
+  <note>
+    We strongly recommend running a full backup of the databases for all instances of the source and target environments before starting the transfer process. This way if a problem occurs, you will be able to restore the backups and return to your initial configuration. 
+   <br /> 
+  </note> 
+  <p>In order for this process to work, the source and target environments must have the same number of instances, the same purpose (marketing instance, delivery instance) and similar configurations. The technical configuration must comply with software prerequisites. The same components must be installed on both environments.</p> 
+  <h2 id="implementation">Implementation</h2> 
+  <h3 id="transfer-procedure">Transfer procedure</h3> 
+  <p>This section will help you understand the steps required for transferring a source environment to a target environment via a case study: our aim here is to restore a production environment (<strong>prod</strong> instance) to a development environment (<strong>dev</strong> instance) to work in a context that is as close as possible to the 'live' platform.</p> 
+  <p>The following steps must be performed with great care: some processes may still be in progress when the source environment databases are copied. Cauterization (step 3 below) prevents messages from being sent twice and maintains data consistency. </p> 
+  <note> 
+   <ul> 
+    <li> <p>The following procedure is valid in PostgreSQL language. If the SQL language is different (Oracle, for example), the SQL queries must be adapted.</p> </li> 
+    <li> <p>The commands below apply within the context of a <strong>prod</strong> instance and a <strong>dev</strong> instance under PostgreSQL.</p> </li> 
+   </ul> 
+  </note> 
+  <h3 id="step-1---make-a-backup-of-the-source-environment--prod--data">Step 1 - Make a backup of the source environment (prod) data</h3> 
+  <p>Copy the databases</p> 
+  <p>Start by copying all of the source environment databases. The operation depends on the database engine and is the responsibility of the database administrator. </p> 
+  <p>Under PostgreSQL, the command is:</p> 
+  <codeblock gutter="true" class="syntax html">
+    pg_dump&amp;nbsp;mydatabase&amp;nbsp;&gt;&amp;nbsp;mydatabase.sql 
+  </codeblock> 
+  <h3 id="step-2---export-the-target-environment-configuration--dev-">Step 2 - Export the target environment configuration (dev)</h3> 
+  <p>Most configuration elements are different for each environment: external accounts (mid-sourcing, routing, etc.), technical options (platform name, DatabaseId, email addresses and default URLs, etc.). </p> 
+  <p>Before saving the source database on the target database, you need to export the target environment (dev) configuration. To do this, export the content of these two tables: <strong>xtkoption</strong> and <strong>nmsextaccount</strong>.</p> 
+  <p>This export lets you keep the dev configuration and only refresh dev data (workflows, templates, Web applications, recipients, etc.).</p> 
+  <p>To do this, perform a package export for the following two elements:</p> 
+  <ul> 
+   <li><p>Export the <strong>xtk:option</strong> table into an 'options_dev.xml' file, without the records with the following internal names: 'WdbcTimeZone', 'NmsServer_LastPostUpgrade' and 'NmsBroadcast_RegexRules'.</p> </li> 
+   <li><p>In an 'extaccount_dev.xml' file, export the <strong>nms:extAccount</strong> table for all records whose ID is not 0 (@id &lt;&gt; 0).</p> </li> 
+  </ul> 
+  <p>Check that the number of exported options/accounts is equal to the number of lines to export in each file.</p> 
+  <note> 
+   <p> The number of lines to export in a package export is 1000 lines. If the number of options or external accounts is more than 1000, you must carry out several exports.<br /> For more information, refer to <a href="../../platform/using/working-with-data-packages.md#exporting-packages">this section </a>.<br /> </p> 
+  </note> 
+  <h3 id="step-3---stop-the-target-environment--dev-">Step 3 - Stop the target environment (dev)</h3> 
+  <p>You need to stop Adobe Campaign processes on all target environment servers. This operation depends on your operating system. </p> 
+  <p>You can stop all processes, or only those that write to the database.</p> 
+  <p>To stop all processes, use the following commands: </p> 
+  <ul> 
+   <li><p>In Windows:</p> 
+    <codeblock gutter="true" class="syntax html">
+      net&amp;nbsp;stop&amp;nbsp;nlserver6 
+    </codeblock></li> 
+   <li><p>In Linux: </p> 
+    <codeblock gutter="true" class="syntax html">
+      /etc/init.d/nlserver6&amp;nbsp;stop 
+    </codeblock></li> 
+  </ul> 
+  <p>Use the following command to check that all processes have been stopped:</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;pdump 
+  </codeblock> 
+  <note> 
+   <p> In Windows, the <strong>webmdl</strong> process can still be active without impacting other operations.<br /> </p> 
+  </note> 
+  <p>You can also check that no system processes are still running. </p> 
+  <p>To do this, use the following process:</p> 
+  <ul> 
+   <li><p>In Windows: open the <strong>Task manager</strong> and check that there are no <strong>nlserver.exe</strong> processes.</p> </li> 
+   <li><p>In Linux: run the <strong>ps aux | grep nlserver</strong> command and check that there are no <strong>nlserver</strong> processes.</p> </li> 
+  </ul> 
+  <h3 id="step-4---restore-the-databases-in-the-target-environment--dev-">Step 4 - Restore the databases in the target environment (dev)</h3> 
+  <p>To restore the source databases in the target environment, use the following command:</p> 
+  <codeblock gutter="true" class="syntax html">
+    psql&amp;nbsp;mydatabase&amp;nbsp;&lt;&amp;nbsp;mydatabase.sql 
+  </codeblock> 
+  <h3 id="step-5---cauterize-the-target-environment--dev-">Step 5 - Cauterize the target environment (dev)</h3> 
+  <p>To avoid malfunctions, the processes linked to delivery sending and workflow execution must not be automatically executed when the target environment is activated. </p> 
+  <p>To do this, run the following command:</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;javascript&amp;nbsp;nms:freezeInstance.js&amp;nbsp;-instance:&lt;dev&gt;&amp;nbsp;-arg:run 
+  </codeblock> 
+  <h3 id="step-6---check-cauterization">Step 6 - Check cauterization</h3> 
+  <ol> 
+   <li><p>Check that the only deliverypart is the one whose ID is set to 0:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;*&amp;nbsp;FROM&amp;nbsp;neolane.nmsdeliverypart; 
+    </codeblock></li> 
+   <li><p>Check that the delivery status update is correct:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;iState,&amp;nbsp;count(*)&amp;nbsp;FROM&amp;nbsp;neolane.nmsdelivery&amp;nbsp;GROUP&amp;nbsp;BY&amp;nbsp;iState; 
+    </codeblock></li> 
+   <li><p>Check that the workflow status update is correct:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;iState,&amp;nbsp;count(*)&amp;nbsp;FROM&amp;nbsp;neolane.xtkworkflow&amp;nbsp;GROUP&amp;nbsp;BY&amp;nbsp;iState;!!discoiqbr!!SELECT&amp;nbsp;iStatus,&amp;nbsp;count(*)&amp;nbsp;FROM&amp;nbsp;neolane.xtkworkflow&amp;nbsp;GROUP&amp;nbsp;BY&amp;nbsp;iStatus; 
+    </codeblock></li> 
+  </ol> 
+  <h3 id="step-7---restart-the-target-environment-web-process--dev-">Step 7 - Restart the target environment Web process (dev)</h3> 
+  <p>On the target environment, re-start the Adobe Campaign processes for all servers.</p> 
+  <note> 
+   <p> Before re-starting Adobe Campaign on the <strong>dev</strong> environment, you can apply an additional safety procedure: start the <strong>web</strong> module only.<br /> To do this, edit your instance's configuration file (<strong>config-dev.xml</strong>), then add the "_" character before the autoStart="true" options for each module (mta, stat, etc.).<br /> </p> 
+  </note> 
+  <p>Run the following command to start the Web process: </p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;start&amp;nbsp;web 
+  </codeblock> 
+  <p>Use the following command to check that only the web process has started:</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;pdump 
+  </codeblock> 
+  <p>Check that access to the client console functions.</p> 
+  <h3 id="step-8---import-options-and-external-accounts-into-the-target-environment--dev-">Step 8 - Import options and external accounts into the target environment (dev)</h3> 
+  <note>
+    Warning: only the web process should be started at this step. If this is not the case, stop other running processes before continuing 
+   <br /> 
+  </note> 
+  <p>Above all, check the values of several lines of the files before importing (for example: 'NmsTracking_Pointer' for the options table and the delivery or mid-sourcing accounts for the external account table)</p> 
+  <p>To import the configuration from the target environment database (dev):</p> 
+  <ol> 
+   <li><p>Open the admin console of the database and purge the external accounts (table nms:extAccount) whose ID is not 0 (@id &lt;&gt; 0).</p> </li> 
+   <li><p>In the Adobe Campaign console, import the options_dev.xml package previously created via the import package functionality.</p> <p>Check that the options have indeed been updated in the <strong>Administration &gt; Platform &gt; Options</strong> node.</p> </li> 
+   <li><p>In the Adobe Campaign console, import the extaccount_dev.xml previously created via the import package functionality</p> <p>Check that external databases have indeed been imported in the <strong>Administration &gt; Platform &gt; External accounts</strong>.</p> </li> 
+  </ol> 
+  <h3 id="step-9---restart-all-processes-and-change-users--dev-">Step 9 - Restart all processes and change users (dev)</h3> 
+  <p>To start the Adobe Campaign processes, use the following commands: </p> 
+  <ul> 
+   <li><p>In Windows:</p> 
+    <codeblock gutter="true" class="syntax html">
+      net&amp;nbsp;start&amp;nbsp;nlserver6 
+    </codeblock></li> 
+   <li><p>In Linux: </p> 
+    <codeblock gutter="true" class="syntax html">
+      /etc/init.d/nlserver6&amp;nbsp;start 
+    </codeblock></li> 
+  </ul> 
+  <p>Use the following command to check that the processes are started:</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;pdump 
+  </codeblock> 
+  <p>Change users to find the users that already existed on the dev platform.</p> 
+ </body> 
+</html>

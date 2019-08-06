@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="44259585-4b8b-4ce7-88c6-f7c7f6d52cf4" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="Offers on an outbound channel" name="jcr:description" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Offers on an outbound channel" name="navTitle" />
+  <meta content="1e57e509-499b-493b-806a-f2d9f43f5b02" name="jcr:uuid" />
+  <meta content="2019-08-06T06:59:23.074-0400" name="jcr:created" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Offers on an outbound channel" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+ </head>
+ <body>
+  <h2 id="email-offer-delivery">Email offer delivery</h2>
+  <p>In our database, there is a category of travel offers to Africa. The eligibility, contexts and representations of each offer have been configured. We now want to create a campaign to present our offers via email.</p> 
+  <ol>
+   <li><p>Create a marketing campaign and a targeting workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_example_001.png" title="offer_delivery_example_001.png" /></li>
+   <li><p>Edit the email delivery and click the <strong>Offers</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_example_002.png" title="offer_delivery_example_002.png" /></li>
+   <li><p>Choose the email space for your offer environment that matches the holidays.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_example_003.png" title="offer_delivery_example_003.png" /></li>
+   <li><p>Choose the category which contains the Africa travel offers.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_example_004.png" title="offer_delivery_example_004.png" /></li>
+   <li><p>Set the number of offers in the delivery to two.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_example_005.png" title="offer_delivery_example_005.png" /></li>
+   <li><p>Close the offer management window and create the content of your delivery. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_example_006.png" title="offer_delivery_example_006.png" /></li>
+   <li><p>Use the menus to insert a first offer proposition and choose the HTML rendering function.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_example_007.png" title="offer_delivery_example_007.png" /></li>
+   <li><p>Insert the second offer proposition.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_example_008.png" title="offer_delivery_example_008.png" /></li>
+   <li><p>Click <strong>Preview</strong> to preview your offers in the delivery then select a recipient to preview the offers as they will receive them.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_example_009.png" title="offer_delivery_example_009.png" /></li>
+   <li><p>Save your delivery and start the targeting workflow.</p> </li>
+   <li><p>Open your delivery and click the <strong>Audit</strong> tab of your delivery: you can see that the offer engine has selected the propositions to be made from the various offers in the catalog.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_example_010.png" title="offer_delivery_example_010.png" /></li>
+  </ol>
+  <h2 id="perform-an-offer-simulation">Perform an offer simulation</h2>
+  <ol>
+   <li><p>In the <strong>Profiles and Targets</strong> universe, click the <strong>Simulations</strong> link, then click the <strong>Create</strong> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_001.png" title="offer_simulation_001.png" /></li>
+   <li><p>Choose a label and specify the execution settings if necessary. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_example_002.png" title="offer_simulation_example_002.png" /></li>
+   <li><p>Save the simulation. This then opens in a new tab.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_example_003.png" title="offer_simulation_example_003.png" /></li>
+   <li><p>Click the <strong>Edit</strong> tab, then <strong>Scope</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_example_004.png" title="offer_simulation_example_004.png" /></li>
+   <li><p>Choose the category for which you want to simulate offers.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_example_005.png" title="offer_simulation_example_005.png" /></li>
+   <li><p>Choose the offer space to be used for the simulation.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_example_006.png" title="offer_simulation_example_006.png" /></li>
+   <li><p>Enter validity dates. You must at least enter a start date. This lets the offer engine filter offers and choose those which are valid on a given date. </p> </li>
+   <li><p>If necessary, specify one or several themes to restrict the number of offers to those which contain this keyword in their settings. </p> <p>In our example, the <strong>Travel</strong> category contains two sub-categories with two separate themes. We want to run a simulation for offers with the <strong>Customers&gt;1 year</strong> theme.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_example_007.png" title="offer_simulation_example_007.png" /></li>
+   <li><p>Choose the recipients you want to target.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_example_008.png" title="offer_simulation_example_008.png" /></li>
+   <li><p>Configure the number of offers to be sent to each recipient.</p> <p>In our example, the offer engine will choose the 3 offers with the highest weight for each recipient.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_example_009.png" title="offer_simulation_example_009.png" /></li>
+   <li><p>Save your settings, then click <strong>Start</strong> in the <strong>Dashboard</strong> tab to run the simulation.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_example_010.png" title="offer_simulation_example_010.png" /></li>
+   <li><p>Once the simulation is finished, consult the <strong>Results</strong> for a detailed breakdown of propositions per offer.</p> <p>In our example, the offer engine has based the offer breakdown on 3 propositions. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_example_011.png" title="offer_simulation_example_011.png" /></li>
+   <li><p>Display the <strong>Breakdown of offers by rank</strong> to view the list of offers selected by the offer engine.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_example_012.png" title="offer_simulation_example_012.png" /></li>
+   <li><p>If necessary, you can change the scope settings and run the simulation again by clicking <strong>Start simulation</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_example_010.png" title="offer_simulation_example_010.png" /></li>
+   <li><p>To save the simulation data, use the history or export functions available in the report. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_simulation_example_013.png" title="offer_simulation_example_013.png" /></li>
+  </ol>
+ </body>
+</html>

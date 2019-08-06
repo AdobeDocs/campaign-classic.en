@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="seoDescription" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="3e7d9de9-2df3-45a9-b296-2aaaf2edb07f" name="jcr:predecessors" />
+  <meta content="Technical monitoring" name="jcr:description" />
+  <meta content="48bab7b9-b626-4544-9da4-7d6e3e722f73" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-08-06T06:59:27.710-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Technical monitoring" name="navTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Technical monitoring" name="jcr:title" />
+ </head>
+ <body>
+  <p>The technical monitoring report is available via the <strong>Supervision</strong> universe, in the <strong>Deliverability</strong> section.</p> 
+  <p>It includes a number of deliverability quality indicators for your platform. These indicators are updated daily at 9 AM. </p> 
+  <note>
+   <p> In addition, you are able to receive a daily report by email at a specified address. Please let us know the requested email address by email or via the Adobe Campaign Extranet.<br /> </p> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_tn_del_monitoring.png" title="s_tn_del_monitoring.png" />
+  <p>The following indicators are used in the report:</p> 
+  <ul>
+   <li><p><strong>IP and RBL domain</strong> (Real-time Blackhole List): List of IP addresses of polluting domains.</p> <p> These lists are maintained by dedicated organizations (such as SpamHaus, SpamCop...). Adobe Campaign currently processes these lists. These RBLs reflect your reputation and can be queried by the ISPs before accepting to receive your emails. </p> </li>
+   <li><p><strong>SPF</strong> (Sender Policy Framework): Mechanism enabling you to check whether the email sender is authorized on the sending domain. </p> </li>
+   <li><p><strong>SNDS</strong> (Smart Network Data Services): A Windows Live Hotmail anti-spam service ( <a href="https://postmaster.live.com/snds/FAQ.aspx">https://postmaster.live.com/snds/FAQ.aspx</a>).</p> </li>
+   <li><p><strong>DomainKeys</strong>: A service developed by Yahoo and intended to certify the identity of an email sender.</p> </li>
+   <li><p><strong>Reverse DNS</strong>: Adobe Campaign checks whether a reverse DNS is given for an IP address and that this correctly points back to the IP.</p> </li>
+   <li><p><strong>Sender Score</strong>: Database of reputed servers ( <a href="https://www.senderscore.org/">https://www.senderscore.org/</a>)</p> </li>
+  </ul>
+ </body>
+</html>

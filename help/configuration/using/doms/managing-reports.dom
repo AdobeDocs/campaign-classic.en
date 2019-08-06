@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Managing reports" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Managing reports" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Managing reports" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="4488282d-2177-4948-9a2a-bbdee9bd9af3" name="jcr:predecessors" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:configuration" name="primaryAudienceTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-08-06T06:59:45.252-0400" name="jcr:created" />
+  <meta content="" name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="14fc8579-89c9-4d42-81b9-ae3f3cbcd512" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
+ </head>
+ <body>
+  <p>Reports based on a schema that is specific to the default Adobe Campaign recipients (nm:recipient or schema linked) must be re-developed in order to take into account the data from the custom table and its tables linked via the target mapping (see the <a href="../../configuration/using/target-mapping.md" target="_blank">Target mapping</a> section).</p> 
+  <p>To create new reports, refer to <a href="../../reporting/using/about-reports-creation-in-campaign.md">this section</a>.</p> 
+  <p>In some cases, you must also put new cubes that are specific to these tables into place. Cubes are detailed in <a href="../../reporting/using/about-cubes.md">this section</a>.</p> 
+  <p>The following reports are concerned:</p> 
+  <ul>
+   <li><p><strong>Recent proposition tracking</strong> (recentPropositions): real-time proposition tracking.</p> </li>
+   <li><p><strong>Breakdown of opens</strong> (opensByUserAgent): opens broken down according to user software.</p> </li>
+   <li><p><strong>Statistics of the sharing activities</strong> (forwardActivities): analysis of sharing activities, opens and subscriptions per time period.</p> </li>
+   <li><p><strong>Tracking indicators</strong> (mobileAppDeliveryFeedback): tracking indicators for a delivery on a mobile application.</p> </li>
+   <li><p><strong>Offer analysis</strong> (offerAnalysis): offer analysis per date and channel.</p> </li>
+   <li><p><strong>Reactivity rate</strong> (mobileAppDistribution): reactivity rate for the latest deliveries.</p> </li>
+   <li><p><strong>Breakdown of subscriptions</strong> (mobileAppDistribution): breakdown of active subscriptions per mobile application.</p> </li>
+  </ul>
+ </body>
+</html>

@@ -1,0 +1,85 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="About schema reference" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="About schema reference" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="071d6f77-0050-4f52-ab99-e742c16924fa" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="4ee93295-52da-47aa-908e-cad78f7735d7" name="jcr:uuid" /> 
+  <meta content="2019-08-06T06:59:42.186-0400" name="jcr:created" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="About schema reference" name="jcr:description" /> 
+  <meta content="" name="jcr:primaryType" /> 
+ </head> 
+ <body> 
+  <p>This chapter describes how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database.</p> 
+  <p>The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a <strong>schema</strong>.</p> 
+  <p> A schema is an XML document associated with a database table. It defines data structure and describes the SQL definition of the table:</p> 
+  <ul> 
+   <li><p>The name of the table</p> </li> 
+   <li><p>Fields</p> </li> 
+   <li><p>Indexes</p> </li> 
+   <li><p>Links with other tables</p> </li> 
+  </ul> 
+  <p>It also describes the XML structure used to store data:</p> 
+  <ul> 
+   <li><p>Elements and attributes</p> </li> 
+   <li><p>Hierarchy of elements</p> </li> 
+   <li><p>Element and attribute types</p> </li> 
+   <li><p>Default values</p> </li> 
+   <li><p>Labels, descriptions, and other properties.</p> </li> 
+  </ul> 
+  <p>Schemas enable you to define an entity in the database. There is a schema for each entity.</p> 
+  <p>The following illustration shows the location of schemas in the Adobe Campaign data system:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reference_schema_intro.png" title="reference_schema_intro.png" /> 
+  <h2 id="syntax-of-schemas">Syntax of schemas</h2> 
+  <p>The root element of the schema is <strong> 
+    <srcschema /></strong>. It contains the <strong> 
+    <element /></strong> and <strong> 
+    <attribute /></strong> sub-elements.</p> 
+  <p>The first <strong> 
+    <element /></strong> sub-element coincides with the root of the entity.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;srcSchema&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="lastName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="location"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="city"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+  </codeblock> 
+  <note> 
+   <p> The root element of the entity has the same name as the schema.<br /> </p> 
+  </note> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_configuration_schema_and_entity.png" title="s_ncs_configuration_schema_and_entity.png" /> 
+  <p>The <strong> 
+    <element /></strong> tags define the names of entity elements. <strong> 
+    <attribute /></strong> tags of the schema define the names of the attributes in the <strong> 
+    <element /></strong> tags which they have been linked to.</p> 
+  <h2 id="identification-of-a-schema">Identification of a schema</h2> 
+  <p>A data schema is identified by its name and its namespace.</p> 
+  <p>A namespace lets you group a set of schemas by area of interest. For example, the <strong>cus</strong> namespace is used for customer-specific configuration (<strong>customers</strong>).</p> 
+  <note>
+    As a standard, the name of the namespace must be concise and must contain only authorized characters in accordance with XML naming rules. 
+   <br /> Identifiers must not begin with numeric characters. 
+   <br /> 
+  </note> 
+  <p>Certain namespaces are reserved for descriptions of the system entities required for the operation of the Adobe Campaign application: </p> 
+  <ul> 
+   <li><p> <strong>xtk</strong>: concerning platform system data,</p> </li> 
+   <li><p> <strong>nl</strong>: concerning the overall use of the application,</p> </li> 
+   <li><p> <strong>nms</strong>: concerning delivery (recipient, delivery, tracking, etc.),</p> </li> 
+   <li><p> <strong>ncm</strong>: concerning content management,</p> </li> 
+   <li><p><strong>temp</strong>: reserved for temporary schemas.</p> </li> 
+  </ul> 
+  <p>The identification key of a schema is a string built using the namespace and the name separated by a colon; for example: <strong>cus:recipient</strong>.</p> 
+ </body> 
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="About Adobe Experience Manager" name="navTitle" />
+  <meta content="2019-08-06T06:59:39.966-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;topic_tags:adobe-experience-manager;content_type:reference" name="cq:tags" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="913b21ab-fce4-41db-8813-fe0cd1d9a281" name="jcr:predecessors" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="About Adobe Experience Manager" name="jcr:title" />
+  <meta content="audience:integrations" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="56c04adf-38d7-44dc-8226-ce1e1d161b87" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="About Adobe Experience Manager" name="jcr:description" />
+ </head>
+ <body>
+  <p>Integration between Adobe Campaign and Adobe Experience Manager allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager.</p> 
+  <p>You can also directly insert assets from your AEM Assets library while editing an email or a landing page in Adobe Campaign. This functionality is detailed in the <a href="../../integrations/using/sharing-assets-with-adobe-experience-cloud.md">Assets</a> chapter.</p> 
+  <p>This means that you can make the most of both AEM's content editing functionalities as well as Adobe Campaign's delivery capacities.</p> 
+  <p><strong>Prerequisites</strong></p> 
+  <p>You must have the following elements:</p> 
+  <ul>
+   <li><p>An Adobe Experience Manager <strong>authoring</strong> instance.</p> </li>
+   <li><p>An Adobe Experience Manager <strong>publishing</strong> instance.</p> </li>
+   <li><p>An Adobe Campaign instance.</p> </li>
+  </ul>
+  <p>Adobe Campaign is compatible with Adobe Experience Manager 6.1, 6.2, 6.3 and 6.4. The following sections present an overview of the integration.</p> 
+  <p>For more details, refer to the documentation provided for your version of Adobe Experience Manager:</p> 
+  <ul>
+   <li><p> <a href="https://docs.adobe.com/docs/en/aem/6-1/administer/integration/marketing-cloud/campaign/campaignonpremise.html">Click here for Adobe Experience Manager 6.1</a></p> </li>
+   <li><p> <a href="https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/campaign/campaignonpremise.html">Click here for Adobe Experience Manager 6.2</a></p> </li>
+   <li><p> <a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/campaignonpremise.html">Click here for Adobe Experience Manager 6.3</a></p> </li>
+   <li><p> <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html">Click here for Adobe Experience Manager 6.4</a></p> </li>
+  </ul>
+ </body>
+</html>

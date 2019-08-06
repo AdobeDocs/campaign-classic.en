@@ -1,0 +1,72 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Additional parameters" name="jcr:title" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="dbc23b6d-e44c-46a7-b37b-402396981b85" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="92b5b6f7-32ce-4bc3-a6fb-8e054afdb6e7" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Additional parameters" name="jcr:description" /> 
+  <meta content="Additional parameters" name="navTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2019-08-06T06:59:45.425-0400" name="jcr:created" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+ </head> 
+ <body> 
+  <h2 id="definition-of-parameters">Definition of parameters</h2> 
+  <p>Your Adobe Campaign platform offers two TRANSACTION-type web-tracking parameters as a standard:</p> 
+  <ul> 
+   <li><p><strong>amount</strong>: represents the amount of a transaction,</p> </li> 
+   <li><p><strong>article</strong>: represents the number of items in a transaction.</p> </li> 
+  </ul> 
+  <p>These parameters are defined in the <strong>nms:webTrackingLog</strong> schema, and are some of the indicators seen in reporting.</p> 
+  <p>To define additional parameters, you must extend this schema. </p> 
+  <p><strong>Example</strong>:</p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!&lt;srcSchema&amp;nbsp;extendedSchema="nms:webTrackingLog"&amp;nbsp;label="Web&amp;nbsp;Tracking"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mappingType="sql"&amp;nbsp;name="webTrackingLog"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;namespace="cus"&amp;nbsp;xtkschema="xtk:srcSchema"&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="webTrackingLog"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;desc="Payment&amp;nbsp;method"&amp;nbsp;label="Payment&amp;nbsp;method"&amp;nbsp;length="10"&amp;nbsp;name="mode"&amp;nbsp;type="string"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;desc="Offer&amp;nbsp;code"&amp;nbsp;label="Offer&amp;nbsp;code"&amp;nbsp;length="5"&amp;nbsp;name="code"&amp;nbsp;type="string"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt;!!discoiqbr!!!!discoiqbr!! 
+  </codeblock> 
+  <p>You can display the values of these parameters by configuring the tracking log list (of a delivery or recipient). </p> 
+  <h2 id="redirection-server-configuration">Redirection server configuration</h2> 
+  <p>In the server configuration, you can define the maximum number of characters to be taken into account for your web tracking parameters.</p> 
+  <note>
+    Increasing the maximum number of characters to be taken into account can impact the web tracking performance of your platform. 
+   <br /> 
+  </note> 
+  <p>To do this, modify the <strong>webTrackingParamSize</strong> attribute of the <strong> 
+    <trackinglogd /></strong> element in the <strong>serverConf.xml</strong> file. This file is saved in the <strong>conf</strong> subdirectory of the Adobe Campaign installation directory.</p> 
+  <p><strong>Example</strong>:</p> 
+  <p>The default value is 64 characters. This value lets you take into account the <strong>amount</strong> and <strong>article</strong> ("amount=xxxxxxxx&amp;article=xxxxxxxx") standard parameters.</p> 
+  <p>By taking into account both parameters (size of name + size of value) indicated in the above extension schema example, you can modify the configuration to take 100 characters into account ("amount=xxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxx&amp;code=xxxxx").</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;trackinglogd&amp;nbsp;args=""&amp;nbsp;autoStart="false"&amp;nbsp;initScript=""&amp;nbsp;maxCreateFileRetry="5"&amp;nbsp;maxLogsSizeOnDiskMb="500"!!discoiqbr!!maxProcessMemoryAlertMb="1800"&amp;nbsp;maxProcessMemoryWarningMb="1600"&amp;nbsp;maxSharedLogs="25000"!!discoiqbr!!processRestartTime="06:00:00"&amp;nbsp;purgeLogsPeriod="50000"&amp;nbsp;runLevel="10"!!discoiqbr!!webTrackingParamSize="64"/&gt; 
+  </codeblock> 
+  <p>When the configuration has been modified, you must:</p> 
+  <ul> 
+   <li><p>Stop the web server that hosts the redirection module (Apache, IIS, etc.),</p> </li> 
+   <li><p>Stop the Adobe Campaign server: <strong>net stop nlserver6</strong> in Windows, <strong>/etc/init.d/nlserver6 stop</strong> in Linux,</p> </li> 
+   <li><p>In Linux, delete the shared memory segments using the <strong>ipcrm</strong> command,</p> </li> 
+   <li><p>Restart the Adobe Campaign server: <strong>net start nlserver6</strong> in Windows, <strong>/etc/init.d/nlserver6 start</strong> in Linux,</p> </li> 
+   <li><p>Restart the web server.</p> </li> 
+  </ul> 
+  <p><strong>Example</strong>: taking into account the configuration under Linux.</p> 
+  <codeblock gutter="true" class="syntax html">
+    adobe@selma:~$&amp;nbsp;/etc/init.d/nlserver6&amp;nbsp;stop!!discoiqbr!!adobe@selma:~$&amp;nbsp;/etc/init.d/apache&amp;nbsp;stop!!discoiqbr!!adobe@selma:~$&amp;nbsp;ipcs&amp;nbsp;shm!!discoiqbr!!!!discoiqbr!!------&amp;nbsp;Shared&amp;nbsp;Memory&amp;nbsp;Segments&amp;nbsp;--------!!discoiqbr!!key&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shmid&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;owner&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;perms&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bytes&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nattch&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;status&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!0x52020679&amp;nbsp;2097153&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;adobe&amp;nbsp;&amp;nbsp;&amp;nbsp;666&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;93608&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;8&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!------&amp;nbsp;Semaphore&amp;nbsp;Arrays&amp;nbsp;--------!!discoiqbr!!key&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;semid&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;owner&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;perms&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nsems&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!0x52020678&amp;nbsp;4227081&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;adobe&amp;nbsp;&amp;nbsp;&amp;nbsp;666&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!------&amp;nbsp;Message&amp;nbsp;Queues&amp;nbsp;--------!!discoiqbr!!key&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;msqid&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;owner&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;perms&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;used-bytes&amp;nbsp;&amp;nbsp;&amp;nbsp;messages&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!adobe@selma:~$&amp;nbsp;ipcrm&amp;nbsp;shm&amp;nbsp;2097153&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!1&amp;nbsp;resource(s)&amp;nbsp;deleted!!discoiqbr!!adobe@selma:~$&amp;nbsp;/etc/init.d/nlserver6&amp;nbsp;start!!discoiqbr!!adobe@selma:~$&amp;nbsp;/etc/init.d/apache&amp;nbsp;start 
+  </codeblock> 
+  <note> 
+   <p> For Linux, if you increase the size of the <strong>webTrackingParamSize</strong> or <strong>maxSharedLogs</strong> parameters, you may need to increase the size of the shared memory (SHM).<br /> </p> 
+  </note> 
+ </body> 
+</html>

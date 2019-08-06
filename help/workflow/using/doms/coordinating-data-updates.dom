@@ -1,0 +1,57 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="076275d4-8f65-4df5-af95-585b638151a9" name="jcr:uuid" />
+  <meta content="Coordinating data updates" name="navTitle" />
+  <meta content="" name="seoDescription" />
+  <meta content="Coordinating data updates" name="jcr:description" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Coordinating data updates" name="jcr:title" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="84b72a03-324d-488a-8a72-577e1db8fcb7" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="2019-08-06T06:59:17.432-0400" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <p>This use case details the creation of a workflow which lets you manage concomittent updates when using several executions of a workflow.</p> 
+  <p>The aim is to check that the update process has ended before executing another update operation. To do this, we will set up an instance variable, and let the workflow test if the instance is running to decide whether or not to continue the execution of the workflow and perform the update.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/uc_dataupdate_wkf.png" title="uc_dataupdate_wkf.png" />
+  <p>This workflow is made up of:</p> 
+  <ul>
+   <li><p>a <strong>Scheduler</strong> activity, that executes the workflow on a specific frequency.</p> </li>
+   <li><p>a <strong>Test</strong> activity that checks if the workflow is already executing.</p> </li>
+   <li><p><strong>Query</strong> and <strong>Update data</strong> activities in case the workflow is not already executing, followed by an <strong>End</strong> activity that reinitializes the workflow instance variable to false.</p> </li>
+   <li><p>An <strong>End</strong> activity if the workflow is already executing.</p> </li>
+  </ul>
+  <p>To build the workflow, follow the steps below:</p> 
+  <ol>
+   <li><p>Add a <strong>Scheduler</strong> activity, then configure its frequency according to your needs.</p> </li>
+   <li><p>Add a <strong>Test</strong> activity to check if the workflow is already executing, then configure it as below.</p> 
+    <note>
+     <p> "isRunning" is the instance variable name we have chosen for this example. This is not a built-in variable.<br /> </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/uc_dataupdate_test.png" title="uc_dataupdate_test.png" /></li>
+   <li><p>Add an <strong>End</strong> activity to the <strong>No</strong> fork. This way, nothing will be executed if the workflow is already executing.</p> </li>
+   <li><p>Add the desired activities to the <strong>Yes</strong> fork. In our case, <strong>Query</strong> and <strong>Update Data</strong> activities.</p> </li>
+   <li><p>Open the first activity, then add the <strong></strong> command in the <strong>Advanced</strong> tab. This way, the instance variable is set as running.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/uc_dataupdate_query.png" title="uc_dataupdate_query.png" /></li>
+   <li><p>Add an <strong>End</strong> activity at the end of the <strong>Yes</strong> fork, then add the <strong>instance.vars.isRunning = false</strong> command in the <strong>Advanced</strong> tab.</p> <p>This way, no action will be executed as long the workflow is executing.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/uc_dataupdate_end.png" title="uc_dataupdate_end.png" /></li>
+  </ol>
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../workflow/using/coordinating-data-updates.md#preventing-simultaneous-multiple-executions" target="_blank">Preventing simultaneous multiple executions</a></p> </li>
+   <li><p> <a href="../../workflow/using/update-data.md">Update Data activity</a></p> </li>
+  </ul>
+ </body>
+</html>

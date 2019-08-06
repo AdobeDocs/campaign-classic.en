@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="IMS troubleshooting" name="jcr:title" />
+  <meta content="1d89cc03-3203-482b-84c2-4927128a5c6c" name="jcr:predecessors" />
+  <meta content="IMS troubleshooting" name="jcr:description" />
+  <meta content="audience:integrations" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="d0c5f7d3-6d8a-4894-8de6-1a98c3e7d564" name="jcr:uuid" />
+  <meta content="2019-08-06T06:59:40.458-0400" name="jcr:created" />
+  <meta content="IMS troubleshooting" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>The following troubleshooting tips will help <strong>on-premise</strong> customers solve the most common problems happening when using the IMS integration. For <strong>hosted</strong> customers, please contact Adobe.</p> 
+  <p><strong>External Account</strong></p> 
+  <p>There should only be <strong>one</strong> external account with the following settings: </p> 
+  <ul>
+   <li><p><strong>Internal Name</strong>: Adobe_Marketing_Cloud</p> </li>
+   <li><p><strong>Type</strong>: Adobe Marketing Cloud</p> </li>
+  </ul>
+  <p>Delete any duplicate external account that have same the same settings.</p> 
+  <p><strong>Product Context</strong></p> 
+  <p>If the external account has a <strong>Product Context</strong> field, check that its value is set to: <strong>dma_campaign_classic</strong></p> 
+  <p>Make sure your product context is the same for Campaign and Experience Cloud.</p> 
+  <p>For example, if the <strong>Product Context</strong> does not appear, the default product context should be <strong>dma_campaign</strong> in both Campaign and Experience Cloud. If the <strong>Product Context</strong> field appears, the default product context should be <strong>dma_campaign_classic</strong> in both Campaign and Experience Cloud. </p> 
+  <p><strong>IMS Server URL</strong></p> 
+  <p>In the Campaign <strong>Adobe Marketing Cloud</strong> external account, check that the <strong>IMS Server URL</strong> is either <a href="https://adobeid-na1.services.adobe.com/">adobeid-na1.services.adobe.com</a> or <a href="http://ims-na1.adobelogin.com/">ims-na1.adobelogin.com</a>. Make sure both stage and production instances point to the same IMS production end point.</p> 
+  <p><strong>Association Mask</strong></p> 
+  <p> </p>
+  <ul> 
+   <li> <p>Check that the user trying to login is part of an operator group in the Enterprise Dashboard.</p> </li> 
+   <li> <p>Check that the <strong>Association Mask</strong> is a prefix of the user's operator group name in the Enterprise Dashboard.</p> </li> 
+   <li> <p>Make sure there are no white spaces and spelling mistakes. </p> </li> 
+   <li> <p>Check that the names of the operator groups in Campaign have not been changed and respect the following syntax: .</p> </li> 
+  </ul> 
+  <p></p> 
+  <p><strong>Scope</strong></p> 
+  <p>Scopes defined in the Campaign external account must be a subset of those provisioned by IMS.</p> 
+  <p><strong>Callback URL</strong></p> 
+  <p>The <strong>Callback URL</strong> should be whitelisted and start with "https://". Check that the <strong>Callback URL</strong> is linked to the corresponding instance. For example, the production instance should redirect to the production URL.</p> 
+  <p><strong>Client ID and secret</strong></p> 
+  <p>The client ID matches between the Campaign external account and the one provisioned by IMS.</p> 
+  <p>Check that the client secret entered is correct.</p> 
+  <p><strong>Restart the server</strong></p> 
+  <p>Restart the server if any changes are made to the above settings in the Campaign external account</p> 
+  <p><strong>Common types of errors and possible solutions</strong></p> 
+  <ul>
+   <li><p>User is redirected to adobe.com page:</p> <p>There is a problem with the <strong>Callback URL</strong>. Refer to the previous steps to check the <strong>Callback URL</strong> configuration.</p> </li>
+   <li><p>Message "Login does not have any right matching the expression":</p> <p>Refer to the previous steps to check the <strong>Association Mask</strong> and operator groups configuration.</p> </li>
+   <li><p>The user is unable to access the Adobe ID login page:</p> <p>Refer to the previous steps to check the scope configuration.</p> </li>
+  </ul>
+ </body>
+</html>

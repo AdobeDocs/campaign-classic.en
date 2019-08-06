@@ -1,0 +1,38 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Data loading (RDBMS)" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="1cd3046e-d200-4188-96d6-206337db9b49" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Data loading (RDBMS)" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="94295fa1-507d-4d82-9889-10424b58cc9e" name="jcr:uuid" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-08-06T06:59:15.877-0400" name="jcr:created" />
+  <meta content="Data loading (RDBMS)" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>The <strong>Data loading (RDBMS)</strong> activity lets you access this external database directly and to collect only the data required for targeting. </p> 
+  <p>To improve performance, we recommend using the query activity (where the data of an external database can be used). For more on this, refer to <a href="../../workflow/using/accessing-an-external-database--fda-.md" target="_blank">Accessing an external database (FDA)</a>.</p> 
+  <p>Operation is as follows:</p> 
+  <ol>
+   <li><p>Select the data source from the list and enter the name of the table that contains the data to be extracted.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_wf_sgbd_sample_1.png" title="s_advuser_wf_sgbd_sample_1.png" /><p>The name of the table entered in the corresponding field is used as a template for collecting data in the external database. The name of the table processed by the workflow can be computed or conveyed by the inbound transition of the data loading activity. To select the table to be used, click the <strong>Advanced..</strong>. link and select the <strong>Specified in the transition</strong> or <strong>Explicit</strong> option.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_wf_sgbd_sample_5.png" title="s_advuser_wf_sgbd_sample_5.png" /></li>
+   <li><p>Click the <strong>Select the columns to extract...</strong> link to choose the data to be collected in the database.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_wf_sgbd_sample_2.png" title="s_advuser_wf_sgbd_sample_2.png" /></li>
+   <li><p>You can define a filter on this data. To do this, click the <strong>Edit query....</strong> link.</p> <p>The data collected like this can be used throughout the workflow's life cycle.</p> </li>
+  </ol>
+ </body>
+</html>

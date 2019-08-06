@@ -1,0 +1,201 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="f980cce4-0e0d-43dd-9b21-dd0bc056428f" name="jcr:predecessors" /> 
+  <meta content="audience:platform" name="primaryAudienceTag" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:administration-basics" name="cq:tags" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Working with data packages" name="jcr:title" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Working with data packages" name="navTitle" /> 
+  <meta content="Working with data packages" name="jcr:description" /> 
+  <meta content="2019-08-06T07:02:32.137-0400" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="7b67a12a-d836-4c2b-a230-d1f538db5ad2" name="jcr:uuid" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-08-05" name="publishExternalDate" /> 
+ </head> 
+ <body> 
+  <h2 id="about-data-packages">About data packages</h2> 
+  <p>Adobe Campaign allows you to export or import the platform configuration and data through a package system. Packages can contain different kinds of configurations, elements, filtered or not. </p> 
+  <p>Data packages let entities of the Adobe Campaign database be displayed via files in XML format. Each entity contained in a package is represented with all of its data.</p> 
+  <p>The principle of <strong>data packages</strong> is to export a data configuration and integrate it into another Adobe Campaign system. For more information on how to maintain a consistent set of data packages, refer to this <a href="https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_How_to_maintain_a_consistent_set_of_data_packages.pdf">technote</a>.</p> 
+  <h3 id="types-of-packages">Types of packages</h3> 
+  <p>There are three types of exportable packages: user packages, platform packages and admin packages.</p> 
+  <ul> 
+   <li><p><strong>User package</strong>: it enables you to select the list of entities to be exported. This type of package manages dependencies and verifies errors.</p> </li> 
+   <li><p><strong>Platform package</strong>: it includes all added technical resources (not standard): schemas, JavaScript code, etc. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_datapackage_package_platform.png" title="ncs_dataPackage_package_platform.png" /></li> 
+   <li><p><strong>Admin package</strong>: it includes all added templates and business objects (not standard): templates, libraries, etc.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_datapackage_package_admin.png" title="ncs_dataPackage_package_admin.png" /></li> 
+  </ul> 
+  <note>
+    The 
+   <strong>platform</strong> and 
+   <strong>admin</strong> types contain a predefined list of entities to be exported. Each entity is linked to filtering conditions that enable you to remove the out-of-the-box resources of the created package. 
+   <br /> 
+  </note> 
+  <h2 id="data-structure">Data structure</h2> 
+  <p>The description of a data package is a structured XML document that complies with the grammar of the <strong>xrk:navtree</strong> data schema.</p> 
+  <p>Data package example:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;package&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;entities&amp;nbsp;schema="nms:recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;recipient&amp;nbsp;email="john.smith@adobe.com"&amp;nbsp;lastName="Smith"&amp;nbsp;firstName="John"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;folder&amp;nbsp;_operation="none"&amp;nbsp;name="nmsRootFolder"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;company&amp;nbsp;_operation="none"&amp;nbsp;name="Adobe"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/recipient&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/entities&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;entities&amp;nbsp;schema="sfa:company"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;company&amp;nbsp;name="Adobe"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;location&amp;nbsp;city="London"&amp;nbsp;zipCode="W11&amp;nbsp;2BQ"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/company&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/entities&gt;!!discoiqbr!!&lt;/package&gt; 
+  </codeblock> 
+  <p>The XML document must begin and end with the <strong> 
+    <package /></strong> element. Any <strong> 
+    <entities /></strong> elements that follow distribute the data by document type.</p> 
+  <p>An <strong> 
+    <entities /></strong> element contains the data of the package in the format of the data schema entered in the <strong>schema</strong> attribute. </p> 
+  <p>The data in a package must not contain internal keys that are not compatible between bases, such as auto-generated keys (<strong>autopk</strong> option).</p> 
+  <p>In our example, the joins on the "folder" and "company" links have been replaced by so-called "high level" keys on the destination tables:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;recipient&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;folder&amp;nbsp;_operation="none"&amp;nbsp;name="nmsRootFolder"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;company&amp;nbsp;_operation="none"&amp;nbsp;name="Adobe"/&gt;!!discoiqbr!!&lt;/recipient&gt; 
+  </codeblock> 
+  <p>The <strong> _operation</strong> attribute with the value "none" defines a reconciliation link.</p> 
+  <p>A data package can be constructed manually from any text editor. Simply ensure that the structure of the XML document complies with the "xtk:navtree" data schema. The Adobe Campaign console has a data package export and import module.</p> 
+  <h2 id="exporting-packages">Exporting packages</h2> 
+  <h3 id="about-package-export">About package export</h3> 
+  <p>Packages can be exported in three different ways:</p> 
+  <ul> 
+   <li><p>The <strong>Package Export Wizard</strong> enables you to export a set of objects in a single package. For more on this refer to <a href="../../platform/using/working-with-data-packages.md#exporting-a-set-of-objects-in-a-package" target="_blank">Exporting a set of objects in a package</a></p> </li> 
+   <li><p>A <strong>single object</strong> can be exported in a package directly by right-clicking on it and selecting <strong>Actions &gt; Export in a package</strong>.</p> </li> 
+   <li><p><strong>Package definitions</strong> let you create a package structure in which you add objects that will be exported later on in a package. For more on this, refer to <a href="../../platform/using/working-with-data-packages.md#managing-package-definitions" target="_blank">Managing package definitions</a></p> </li> 
+  </ul> 
+  <p>Once a package exported, you will be able to import it and all the added entities into another Campaign instance.</p> 
+  <h3 id="exporting-a-set-of-objects-in-a-package">Exporting a set of objects in a package</h3> 
+  <p>The package export wizard is accessible via the <strong>Tools &gt; Advanced &gt; Export package...</strong> menu of the Adobe Campaign client console.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_datapackage_typepackage.png" title="ncs_dataPackage_typePackage.png" /> 
+  <p>For the three types of packages, the wizard offers the following steps:</p> 
+  <ol> 
+   <li><p>List the entities to be exported by document type:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_datapackage_export2.png" title="ncs_dataPackage_export2.png" /> 
+    <note>
+      If you export an 
+     <strong>Offer category</strong>, 
+     <strong>Offer environment</strong>, 
+     <strong>Program</strong> or 
+     <strong>Plan</strong> type folder, don't ever select the 
+     <strong>xtk:folder</strong> as you may lose some data. Select the entity that corresponds with the folder: 
+     <strong>nms:offerCategory</strong> for offer categories, 
+     <strong>nms:offerEnv</strong> for offer environments, 
+     <strong>nms:program</strong> for programs, and 
+     <strong>nms:plan</strong> for plans. 
+     <br /> 
+    </note><p>List management lets you add or delete entities for export from the configuration. Click <strong>Add</strong> to select a new entity.</p> <p>The <strong>Detail</strong> button edits the selected configuration. </p> 
+    <note> 
+     <p> The dependency mechanism controls the entity export sequence. For more on this, refer to <a href="../../platform/using/working-with-data-packages.md#managing-dependencies" target="_blank">Managing dependencies</a>.<br /> </p> 
+    </note></li> 
+   <li><p>The entity configuration screen defines the filter query on the type of document to be extracted. </p> <p>You must configure the filtering clause for data extraction.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_datapackage_export4.png" title="ncs_dataPackage_export4.png" /> 
+    <note> 
+     <p> The query editor is presented in <a href="../../platform/using/about-queries-in-campaign.md">this section</a>.<br /> </p> 
+    </note></li> 
+   <li><p>Click <strong>Next</strong> and select the sorting columns to order the data during extraction:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_datapackage_export5.png" title="ncs_dataPackage_export5.png" /></li> 
+   <li><p>Preview the data to extract before running the export.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_datapackage_export6.png" title="ncs_dataPackage_export6.png" /></li> 
+   <li><p>The last page of the package export wizard lets you start the export. The data will be stored in the file indicated in the <strong>File</strong> field.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_datapackage_export7.png" title="ncs_dataPackage_export7.png" /></li> 
+  </ol> 
+  <h3 id="managing-dependencies">Managing dependencies</h3> 
+  <p>The export mechanism enables Adobe Campaign to track the links between the various exported elements.</p> 
+  <p>This mechanism is defined by two rules:</p> 
+  <ul> 
+   <li><p>objects linked to a link with an <strong>own</strong> or <strong>owncopy</strong> type integrity are exported in the same package as the exported object.</p> </li> 
+   <li><p>objects linked to a link with a <strong>neutral</strong> or <strong>define</strong> type integrity (defined link) must be exported separately.</p> </li> 
+  </ul> 
+  <note> 
+   <p> Integrity types linked to schema elements are defined in <a href="../../configuration/using/database-mapping.md#links--relation-between-tables">this section </a>.<br /> </p> 
+  </note> 
+  <h4 id="exporting-a-campaign">Exporting a campaign</h4> 
+  <p>Here is an example on how to export a campaign. The marketing campaign to be exported contains a task (label: "MyTask") and a workflow (label: "CampaignWorkflow") in a "MyWorkflow" folder (node: Administration / Production / Technical workflows / Campaign processes / MyWorkflow).</p> 
+  <p>The task and the workflow are exported in the same package as the campaign since the matching schemas are connected by links with an "own" type integrity.</p> 
+  <p>Package content:</p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!&lt;?xml&amp;nbsp;version='1.0'?&gt;!!discoiqbr!!&lt;package&amp;nbsp;author="Administrator&amp;nbsp;(admin)"&amp;nbsp;buildNumber="7974"&amp;nbsp;buildVersion="6.1"&amp;nbsp;img=""!!discoiqbr!!label=""&amp;nbsp;name=""&amp;nbsp;namespace=""&amp;nbsp;vendor=""&gt;!!discoiqbr!!&amp;nbsp;&lt;desc&gt;&lt;/desc&gt;!!discoiqbr!!&amp;nbsp;&lt;version&amp;nbsp;buildDate="2013-01-09&amp;nbsp;10:30:18.954Z"/&gt;!!discoiqbr!!&amp;nbsp;&lt;entities&amp;nbsp;schema="nms:operation"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;operation&amp;nbsp;duration="432000"&amp;nbsp;end="2013-01-14"&amp;nbsp;internalName="OP1"&amp;nbsp;label="MyCampaign"!!discoiqbr!!&amp;nbsp;&amp;nbsp;modelName="opEmpty"&amp;nbsp;start="2013-01-09"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;controlGroup&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;where&amp;nbsp;filteringSchema=""/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/controlGroup&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;seedList&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;where&amp;nbsp;filteringSchema="nms:seedMember"&gt;&lt;/where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;seedMember&amp;nbsp;internalName="SDM1"&gt;&lt;/seedMember&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/seedList&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;parameter&amp;nbsp;useAsset="1"&amp;nbsp;useBudget="1"&amp;nbsp;useControlGroup="1"&amp;nbsp;useDeliveryOutline="1"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;useDocument="1"&amp;nbsp;useFCPValidation="0"&amp;nbsp;useSeedMember="1"&amp;nbsp;useTask="1"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;useValidation="1"&amp;nbsp;useWorkflow="1"&gt;&lt;/parameter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fcpSeed&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;where&amp;nbsp;filteringSchema="nms:seedMember"&gt;&lt;/where&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/fcpSeed&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;owner&amp;nbsp;_operation="none"&amp;nbsp;name="admin"&amp;nbsp;type="0"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;program&amp;nbsp;_operation="none"&amp;nbsp;name="nmsOperations"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;task&amp;nbsp;end="2013-01-17&amp;nbsp;10:07:51.000Z"&amp;nbsp;label="MyTask"&amp;nbsp;name="TSK2"&amp;nbsp;start="2013-01-16&amp;nbsp;10:07:51.000Z"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;status="1"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;owner&amp;nbsp;_operation="none"&amp;nbsp;name="admin"&amp;nbsp;type="0"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;operation&amp;nbsp;_operation="none"&amp;nbsp;internalName="OP1"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;folder&amp;nbsp;_operation="none"&amp;nbsp;name="nmsTask"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/task&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;workflow&amp;nbsp;internalName="WKF12"&amp;nbsp;label="CampaignWorkflow"&amp;nbsp;modelName="newOpEmpty"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;order="8982"&amp;nbsp;scenario-cs="Notification&amp;nbsp;of&amp;nbsp;the&amp;nbsp;workflow&amp;nbsp;supervisor&amp;nbsp;(notifySupervisor)"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;schema="nms:recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;scenario&amp;nbsp;internalName="notifySupervisor"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;desc&gt;&lt;/desc&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;folder&amp;nbsp;_operation="none"&amp;nbsp;name="Folder4"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;operation&amp;nbsp;_operation="none"&amp;nbsp;internalName="OP1"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/workflow&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/operation&gt;!!discoiqbr!!&amp;nbsp;&lt;/entities&gt;!!discoiqbr!!&lt;/package&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp; 
+  </codeblock> 
+  <p>Affiliation to a type of package is defined in a schema with the <strong>@pkgAdmin and @pkgPlatform</strong> attribute. Both these attributes receive an XTK expression that defines the conditions of affiliation to the package.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;element&amp;nbsp;name="offerEnv"&amp;nbsp;img="nms:offerEnv.png"&amp;nbsp;!!discoiqbr!!template="xtk:folder"&amp;nbsp;pkgAdmin="@id&amp;nbsp;!=&amp;nbsp;0"&gt; 
+  </codeblock> 
+  <p>Finally, the <strong>@pkgStatus</strong> attribute enables you to define the export rules for these elements or attributes. Depending on the value of the attribute, the element or attribute will be found in the exported package. The three possible values for this attribute are:</p> 
+  <ul> 
+   <li><p><strong>never</strong>: does not export the field / link</p> </li> 
+   <li><p><strong>always</strong>: forces export for this field </p> </li> 
+   <li><p><strong>preCreate</strong>: authorizes creation of the linked entity</p> </li> 
+  </ul> 
+  <note> 
+   <p> The <strong>preCreate</strong> value is only admitted for link type events. It authorizes you to create or point towards an entity not yet loaded in the exported package.<br /> </p> 
+  </note> 
+  <h2 id="managing-package-definitions">Managing package definitions</h2> 
+  <h3 id="about-package-definitions">About package definitions</h3> 
+  <p>Package definitions let you create a package structure in which you add entities that will be exported later on in a single package. You will then be able to import this package and all the added entities into another Campaign instance.</p> 
+  <p><strong>Related topics:</strong></p> 
+  <ul> 
+   <li><p> <a href="../../platform/using/working-with-data-packages.md#creating-a-package-definition" target="_blank">Creating a package definition</a></p> </li> 
+   <li><p> <a href="../../platform/using/working-with-data-packages.md#adding-entities-to-a-package-definition" target="_blank">Adding entities to a package definition</a></p> </li> 
+   <li><p> <a href="../../platform/using/working-with-data-packages.md#configuring-package-definitions-generation" target="_blank">Configuring package definitions generation</a></p> </li> 
+   <li><p> <a href="../../platform/using/working-with-data-packages.md#exporting-packages-from-a-package-definition" target="_blank">Exporting packages from a package definition</a></p> </li> 
+  </ul> 
+  <h3 id="creating-a-package-definition">Creating a package definition</h3> 
+  <p>Package definitions can be accessed from the <strong>Administration &gt; Configuration &gt; Package management &gt; Package definitions</strong> menu.</p> 
+  <p>To create a package definition, click the <strong>New</strong> button, then fill in the package definition general information.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/packagedefinition_create.png" title="packageDefinition_create.png" /> 
+  <p>You can then add entities to the package definition, and export it to an XML file package.</p> 
+  <p><strong>Related topics:</strong></p> 
+  <ul> 
+   <li><p> <a href="../../platform/using/working-with-data-packages.md#adding-entities-to-a-package-definition" target="_blank">Adding entities to a package definition</a></p> </li> 
+   <li><p> <a href="../../platform/using/working-with-data-packages.md#configuring-package-definitions-generation" target="_blank">Configuring package definitions generation</a></p> </li> 
+   <li><p> <a href="../../platform/using/working-with-data-packages.md#exporting-packages-from-a-package-definition" target="_blank">Exporting packages from a package definition</a></p> </li> 
+  </ul> 
+  <h3 id="adding-entities-to-a-package-definition">Adding entities to a package definition</h3> 
+  <p>In the <strong>Content</strong> tab, click the <strong>Add</strong> button to select the entities to export with the package. Best practices when selecting entities are presented in the <a href="../../platform/using/working-with-data-packages.md#exporting-a-set-of-objects-in-a-package" target="_blank">Exporting a set of objects in a package</a> section.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/packagedefinition_addentities.png" title="packageDefinition_addEntities.png" /> 
+  <p>Entities can be added to a package definition directly from their location in the instance. To do this, follow the steps below:</p> 
+  <ol> 
+   <li><p>Right-click the desired entity, then select <strong>Actions &gt; Export in a package</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/packagedefinition_singleentity.png" title="packageDefinition_singleEntity.png" /></li> 
+   <li><p>Select <strong>Add to a package definition</strong>, then select the package definition to which you want to add the entity.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/packagedefinition_packageselection.png" title="packageDefinition_packageSelection.png" /></li> 
+   <li><p>The entity is added to the package definition, it will be exported with the package (see <a href="../../platform/using/working-with-data-packages.md#exporting-packages-from-a-package-definition" target="_blank">Exporting packages from a package definition</a>).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/packagedefinition_entityadded.png" title="packageDefinition_entityAdded.png" /></li> 
+  </ol> 
+  <h3 id="configuring-package-definitions-generation">Configuring package definitions generation</h3> 
+  <p>Package generation can be configured from the package definition <strong>Content</strong> tab. To do this, click the <strong>Generation parameters</strong> link.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/packagedefinition_generationparameters.png" title="packageDefinition_generationParameters.png" /> 
+  <ul> 
+   <li><p><strong>Include the definition</strong>: includes the definition currently used in the package definition.</p> </li> 
+   <li><p><strong>Include an installation script</strong>: lets you add a javascript script to execute at the package import. When selected, a <strong>Script</strong> tab is added in the package definition screen.</p> </li> 
+   <li><p><strong>Include default values</strong>: adds to the package the values of all the entities' attributes.</p> <p>This option is not selected by default, in order to avoid lengthy exports. This means that entities' attributes with default values ('empty string', '0', and 'false' if not defined otherwise in the schema) will not be added to the package and will therefore not be exported.</p> 
+    <note>
+      Unselecting this option can result in a merge of local and imported versions. 
+     <br /> If the instance where the package is imported contains entities that are identical to those of the package (for example with the same external ID), their attributes will not be updated. This can occur if the attributes from the former instance have default values, as they are not included in the package. 
+     <br /> In that case, selecting the 
+     <strong>Include default values</strong> option would prevent versions merging, as all attributes from the former instance would be exported with the package. 
+     <br /> 
+    </note></li> 
+  </ul> 
+  <h3 id="exporting-packages-from-a-package-definition">Exporting packages from a package definition</h3> 
+  <p>To export a package from a package definition, follow the steps below:</p> 
+  <ol> 
+   <li><p>Select the package definition to export, then click the <strong>Actions</strong> button and select <strong>Export the package</strong>.</p> </li> 
+   <li><p>An XML file corresponding to the exported package is selected by default. It is named according to the package definition namespace and name.</p> </li> 
+   <li><p>Once the package name and location defined, click the <strong>Start</strong> button to launch the export.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/packagedefinition_packageexport.png" title="packageDefinition_packageExport.png" /></li> 
+  </ol> 
+  <h2 id="importing-packages">Importing packages</h2> 
+  <h3 id="about-package-import">About package import</h3> 
+  <p>The package import wizard is accessible via the main menu <strong>Tools &gt; Advanced &gt; Package import...</strong> of the Adobe Campaign client console.</p> 
+  <p>You can import a package from an export performed earlier, e.g. from another Adobe Campaign instance, or a standard package, depending on the terms of your license.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_datapackage_import.png" title="ncs_dataPackage_import.png" /> 
+  <h3 id="installing-a-package-from-a-file">Installing a package from a file</h3> 
+  <p>To import an existing data package, select the XML file and click <strong>Open</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_datapackage_import_1.png" title="ncs_dataPackage_import_1.png" /> 
+  <p>The content of the package to be imported is then displayed in the middle section of the editor.</p> 
+  <p> Click <strong>Next</strong> and <strong>Start</strong> to launch the import.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_datapackage_import_2.png" title="ncs_dataPackage_import_2.png" /> 
+  <h3 id="installing-a-standard-package">Installing a standard package</h3> 
+  <p>Standard packages are installed when the Adobe Campaign is configured. Depending on your permissions and your deployment model, you can import new standard packages if you acquire new options or add-ons, or if you upgrade to a new offer.</p> 
+  <p>Refer to your license agreement to check which packages you can install.</p> 
+  <p>For more information on standard packages, refer to <a href="/installation/using/installing-packages.md">this page</a>.</p> 
+ </body> 
+</html>

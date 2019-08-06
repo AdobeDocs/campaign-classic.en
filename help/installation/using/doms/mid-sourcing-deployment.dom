@@ -1,0 +1,71 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Mid-sourcing deployment" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="2019-08-06T06:59:30.810-0400" name="jcr:created" />
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="Mid-sourcing deployment" name="navTitle" />
+  <meta content="070ffea6-0271-4370-aaa0-9fcb0d34e0dc" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="83f20a55-36a8-4edf-8179-19bbae8bcd7f" name="jcr:uuid" />
+  <meta content="audience:installation" name="primaryAudienceTag" />
+  <meta content="Mid-sourcing deployment" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <p>This configuration is an optimal intermediate solution between a hosted (ASP) configuration and internalization. The outward-facing execution components are carried out on a "mid-sourcing" server hosted at Adobe Campaign.</p> 
+  <note>
+   <p> To set up this type of deployment, you need to acquire the appropriate option. Please check your license contract.<br /> </p> 
+  </note>
+  <p>General communication between servers and processes is carried out according to the following schema:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_midsourcing.png" title="s_ncs_install_midsourcing.png" />
+  <ul>
+   <li><p>The execution and bounce management modules are disabled on the instance.</p> </li>
+   <li><p>The application is configured to perform message execution on a remote "mid-sourced" server that is driven using SOAP calls (over HTTP or HTTPS).</p> </li>
+  </ul>
+  <h2 id="features">Features</h2>
+  <h3 id="advantages">Advantages</h3>
+  <ul>
+   <li><p>Simplified server configuration: It is not necessary for the customer to configure outward-facing modules (mta and inMail).</p> </li>
+   <li><p>Limited use of bandwidth: Since execution is performed by the mid-sourcing server, only sufficient bandwidth is required to send personalization data to the mid-sourcing server.</p> </li>
+   <li><p>High availability is no longer an internal issue: The problem is shifted to the mid-sourcing server (redirection, mirror pages, execution servers, etc.).</p> </li>
+   <li><p>The database does not leave the company: Only data necessary to assemble the messages are sent to the mid-sourcing server (HTTPS can be used for this).</p> </li>
+   <li><p>This type of deployment can be a solution for high volume architectures (many recipients in the database), with a significant delivery throughput.</p> </li>
+  </ul>
+  <h3 id="disadvantages">Disadvantages</h3>
+  <ul>
+   <li><p>Slight delay in viewing message-execution information and for reporting functionality due to the time it takes to get information back from the mid-sourcing server.</p> </li>
+   <li><p>Surveys and web forms remain on the client platform.</p> </li>
+  </ul>
+  <h3 id="recommended-equipment">Recommended equipment</h3>
+  <ul>
+   <li><p>Application server: 2 Ghz quad-core CPU, 4 GB RAM, software RAID 1 80 GB SATA hard drive.</p> </li>
+   <li><p>Database server: 3 GHz bi-quad core CPUs , minimum 4 GB RAM, hardware RAID 10 15000RPM SAS hard drive, the number depending on the size and expected performance of the database.</p> </li>
+  </ul>
+  <note>
+   <p> Redirection and mid-sourcing are separate elements, however the tracking server will, in general, be shared with the mid-sourcing servers.<br /> </p> 
+  </note>
+  <h2 id="installation-and-configuration-steps-">Installation and configuration steps</h2>
+  <h3 id="prerequisites">Prerequisites</h3>
+  <ul>
+   <li><p>JDK on the application server.</p> </li>
+   <li><p>Access to a database server on the application server.</p> </li>
+   <li><p>Firewall configured to open HTTP (80) or HTTPS (443) ports to the mid-sourcing server.</p> </li>
+  </ul>
+  <h3 id="installing-and-configuring--mid-sourcing-deployment-">Installing and configuring (mid-sourcing deployment)</h3>
+  <p>Refer to <a href="../../installation/using/mid-sourcing-server.md" target="_blank">Mid-sourcing server</a>.</p> 
+ </body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Encoding of the Oracle database" name="jcr:description" />
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-08-06T06:59:03.368-0400" name="jcr:created" />
+  <meta content="14c8364b-559a-4fe1-994e-e52593c076b6" name="jcr:predecessors" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Encoding of the Oracle database" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="dbde96dc-4d39-414b-b984-c24b3c19554d" name="jcr:uuid" />
+  <meta content="audience:production" name="primaryAudienceTag" />
+  <meta content="Encoding of the Oracle database" name="navTitle" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>Adobe Campaign uses the default Oracle encodings. If you use different ones, an incompatibility can occur. For more on this, refer to <a href="../../installation/using/database.md#oracle">this section</a>.</p> 
+ </body>
+</html>

@@ -1,0 +1,229 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="ec79885b-cf0f-4d2b-aa90-e1f155475735" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2019-08-06T06:59:32.778-0400" name="jcr:created" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="Email deliverability" name="jcr:description" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="e037dc10-017d-4864-9af9-7925d259aad0" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Email deliverability" name="jcr:title" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Email deliverability" name="navTitle" /> 
+ </head> 
+ <body> 
+  <h2 id="overview">Overview</h2> 
+  <p>The following section provides an overview of the configuration required for controlling the output of Adobe Campaign instances when delivering messages.</p> 
+  <note> 
+   <p> All technical recommendations concerning the efficient sending and receiving of messages by an Adobe Campaign platform are available in the <strong>Deliverability</strong> Technical Note. <br /> Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the <a href="../../installation/using/hosting-models.md">Hosting models</a> section or to <a href="https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html">this article</a>.<br /> Refer to the <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html">getting started guide</a> that presents the concepts and best practices related to deliverability.<br /> </p> 
+  </note> 
+  <h2 id="operating-principle">Operating principle</h2> 
+  <p>It is possible to control the output of one or more Adobe Campaign instances to restrict the number of emails sent depending on a domain. For example, you can restrict the output to 20,000 per hour for <strong>yahoo.com</strong> addresses, while configuring 100,000 messages per hour for all other domains. </p> 
+  <p>Message output needs to be controlled for each IP address used by the delivery servers (<strong>mta</strong>). Several <strong>mta</strong> broken down over several machines and belonging to various Adobe Campaign instances can share the same IP address for email delivery: a process needs to be set up to coordinate the use of these IP addresses. </p> 
+  <p>This is what the <strong>stat</strong> module does: it forwards all connection requests and messages to be sent to the mail servers for a set of IP addresses. The statistics server keeps track of deliveries and can enable or disable sending based on set quotas.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_mta.png" title="s_ncs_install_MTA.png" /> 
+  <ul> 
+   <li><p>The statistics server (<strong>stat</strong>) is linked to an Adobe Campaign base to load its configuration.</p> </li> 
+   <li><p>The delivery servers (<strong>mta</strong>) use a UDP to contact a statistics server which does not always belong to their own instance.</p> </li> 
+  </ul> 
+  <h3 id="delivery-servers">Delivery servers</h3> 
+  <p>The <strong>mta</strong> module distributes messages to its <strong>mtachild</strong> child modules. Each <strong>mtachild</strong> prepares messages before requesting an authorization from the statistics server, and sending them.</p> 
+  <p>The steps are as follows:</p> 
+  <ol> 
+   <li><p>The <strong>mta</strong> selects eligible messages and assigns them an available <strong>mtachild</strong>.</p> </li> 
+   <li><p>The <strong>mtachild</strong> loads all information required for building the message (content, personalization elements, attachments, images, etc.) and forwards the message to the <strong>Email Traffic Shaper</strong>.</p> </li> 
+   <li><p>As soon as the email traffic shaper receives the statistics server's authorization (<strong>smtp stat</strong>), the message is sent to the recipient.</p> </li> 
+  </ol> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_email_traffic_shaper.png" title="s_ncs_install_email_traffic_shaper.png" /> 
+  <h3 id="email-server-statistics-and-limitations">Email server statistics and limitations</h3> 
+  <p>The statistics server maintains the following statistics for each email server which receives messages:</p> 
+  <ul> 
+   <li><p>Number of point-in-time connections open,</p> </li> 
+   <li><p>Number of messages sent in the last hour,</p> </li> 
+   <li><p>Rate of successful/rejected connections,</p> </li> 
+   <li><p>Rate of connections to unreachable servers.</p> </li> 
+  </ul> 
+  <p>At the same time, the module loads a list of limitations for certain email servers: </p> 
+  <ul> 
+   <li><p>Maximum number of simultaneous connections,</p> </li> 
+   <li><p>Maximum number of messages per hour, </p> </li> 
+   <li><p> Maximum number of messages per connection.</p> </li> 
+  </ul> 
+  <h3 id="managing-ip-addresses">Managing IP addresses</h3> 
+  <p>The statistics server can combine several instances or several machines with the same public IP address. It is therefore not linked to a specific instance, but it does have to contact an instance to recover limitations per domain.</p> 
+  <p>Delivery statistics are kept for each target MX and for each source IP. For example, if the targeted domain has 5 MX and the platform can use 3 different IP addresses, the server can manage up to 15 series of indicators for this domain.</p> 
+  <p>The source IP address matches the public IP address, i.e. the address as it is seen by the remote email server. This IP address can be different from the address of the machine which hosts the <strong>mta</strong>, if an NAT router is provided. This is why the statistics server uses an identifier which matches the public IP (<strong>publicId</strong>). The association between the local address and this identifier is declared in the <strong>serverConf.xml</strong> configuration file. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> 
+  <h2 id="delivery-output-controlling">Delivery output controlling</h2> 
+  <p>To deliver messages to email servers, the <strong>Email Traffic Shaper</strong> component requests a connection from the statistics server. Once the request is accepted, the connection is opened.</p> 
+  <p>Before sending messages, the module requests 'tokens' from the server. These are generally sets of at least 10 tokens, which reduces the number of queries to the server. </p> 
+  <p>The server saves all the statistics related to connections and deliveries. In case of rebooting, the information is temporarily lost: each client keeps a local copy of their sending statistics and returns them to the server on a regular basis (every 2 minutes). The server may then re-aggregate the data.</p> 
+  <p>The following sections describe the processing of a message by the <strong>Email Traffic Shaper</strong> component.</p> 
+  <h3 id="message-delivery">Message delivery</h3> 
+  <p>When a message is sent, there are 3 possible results:</p> 
+  <ol> 
+   <li><p><strong>Success</strong>: the message was sent successfully. The message is updated.</p> </li> 
+   <li><p><strong>Message Failed</strong>: the contacted server rejected the message for the chosen recipient. This result matches return codes 550 to 599, but exceptions can be defined.</p> </li> 
+   <li><p><strong>Session Failed</strong> (for 5.11 upward): if the <strong>mta</strong> receives an answer for this message, the message is abandoned (refer to <a href="../../installation/using/email-deliverability.md#message-abandonment" target="_blank">Message abandonment</a>). The message is sent to another path or set to pending if no other paths are available (refer to <a href="../../installation/using/email-deliverability.md#message-pending" target="_blank">Message pending</a>).</p> 
+    <note> 
+     <p> A <strong>path</strong> is a connection between the Adobe Campaign <strong>mta</strong> and the target <strong>mta</strong>. The Adobe Campaign <strong>mta</strong> can choose from several start IPs and several target domain IPs. <br /> </p> 
+    </note></li> 
+  </ol> 
+  <h3 id="message-abandonment">Message abandonment</h3> 
+  <p>Abandoned messages are returned to the <strong>mta</strong> and are no longer managed by the <strong>mtachild</strong>.</p> 
+  <p>The <strong>mta</strong> decides on the procedure for this message (recovery, abandonment, quarantine, etc.) depending on the response code and the rules.</p> 
+  <h3 id="message-pending">Message pending</h3> 
+  <p>A message is pended when it arrives in the active queue and there are no available paths.</p> 
+  <p>A path is generally marked as unavailable for a variable amount of time after a connection error. The unavailability period depends on the frequency and age of errors.</p> 
+  <h2 id="statistics-server-configuration">Statistics server configuration</h2> 
+  <p>The statistics server can be used by several instances: it has to be configured independently from the instances that will use it. </p> 
+  <p>Start by defining the Adobe Campaign database that will host the configuration. </p> 
+  <h3 id="start-configuration">Start configuration</h3> 
+  <p>By default, the <strong>stat</strong> module is started for each instance. When the instances are mutualized on the same machine, or when instances share the same IP address, a single statistics server is used: the others have to be disabled. </p> 
+  <h3 id="definition-of-the-server-port">Definition of the server port</h3> 
+  <p>By default, the statistics server listens on port 7777. This port can be modified in the <strong>serverConf.xml</strong> file. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;stat&amp;nbsp;port="1234"/&gt; 
+  </codeblock> 
+  <h3 id="mx-configuration">MX configuration</h3> 
+  <p>MX configuration is carried out in the database via the Adobe Campaign console. </p> 
+  <p>The rules to be complied with for MX are defined in the <strong>MX management</strong> document of the <strong>Campaign execution &gt; Administration &gt; Non deliverables Management &gt; Mail rule sets</strong> document of the tree. </p> 
+  <p>In order for changes to be taken into account, you need to restart the statistics server.</p> 
+  <p>To reload the configuration without restarting the statistics server, use the following command on the machine which hosts the server:</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;stat&amp;nbsp;-reload 
+  </codeblock> 
+  <p>If this document does not exist, you can create it manually. </p> 
+  <p>To do this: </p> 
+  <ol> 
+   <li><p>Create a new set of mail rules.</p> </li> 
+   <li><p>Choose the <strong>MX management</strong> mode.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_mx_mgt_rule.png" title="s_ncs_install_MX_mgt_rule.png" /></li> 
+   <li><p>Enter <strong>defaultMXRules</strong> in the <strong>Internal name</strong> field.</p> </li> 
+  </ol> 
+  <p>Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "*" and "?" generic characters. </p> 
+  <p>For example, the following addresses: </p> 
+  <ul> 
+   <li><p> a.mx.yahoo.com </p> </li> 
+   <li><p>b.mx.yahoo.com </p> </li> 
+   <li><p>c.mx.yahoo.com </p> </li> 
+  </ul> 
+  <p>are compatible with the following masks:</p> 
+  <ul> 
+   <li><p>*.yahoo.com</p> </li> 
+   <li><p>?.mx.yahoo.com</p> </li> 
+  </ul> 
+  <p>Configuration example:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_mx_mgt_rule_details.png" title="s_ncs_install_MX_mgt_rule_details.png" /> 
+  <p>These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.</p> 
+  <p>The following parameters are available for each rule:</p> 
+  <ul> 
+   <li><p><strong>Range of identifiers</strong>: this option lets you indicate the ranges of identifiers (publicID) for which the rule applies. You can specify:</p> 
+    <ul> 
+     <li><p>A number: the rule will only apply to this publicId, </p> </li> 
+     <li><p>A range of numbers (<strong>number1-number2</strong>): the rule will apply to all publicIds between these two numbers.</p> </li> 
+    </ul><p> If the field is empty, the rule applies to all identifiers.</p> </li> 
+   <li><p><strong>Shared</strong>: this option indicates that the highest number of messages per hour and the number of connections apply to all MXs linked to this rule. </p> </li> 
+   <li><p><strong>Maximum number of connections</strong>: maximum number of simultaneous connections to an MX from a given address. </p> </li> 
+   <li><p><strong>Maximum number of messages</strong>: maximum number of messages that can be sent on a connection. When the messages exceed this number, the connection is closed and a new one is opened. </p> </li> 
+   <li><p><strong>Messages per hour</strong>: maximum number of messages that can be sent in one hour for an MX via a given address. </p> </li> 
+   <li><p><strong>Connection time out</strong>: time threshold for connecting to an MX. </p> 
+    <note> 
+     <p> Windows can issue a <strong>timeout</strong> before this threshold, which depends on your version of Windows.<br /> </p> 
+    </note></li> 
+   <li><p><strong>Timeout Data</strong>: maximum wait time after sending message content (DATA section of the SMTP protocol). </p> </li> 
+   <li><p><strong>Timeout</strong>: maximum wait time for other exchanges with the SMTP server. </p> </li> 
+   <li><p><strong>TLS</strong>: The TLS protocol, which allows you to encrypt email deliveries, can be enabled selectively. For each MX mask, the following options are available:</p> 
+    <ul> 
+     <li><p><strong>Default configuration</strong>: This is the general configuration specified in the serverConf.xml configuration file which is applied.</p> 
+      <note>
+        It is not recommended to modify the default configuration. 
+       <br /> 
+      </note></li> 
+     <li><p><strong>Disabled</strong>: The messages are systematically sent without encryption.</p> </li> 
+     <li><p><strong>Opportunistic</strong>: Message delivery is encrypted if the receiving server (SMTP) can generate the TLS protocol.</p> </li> 
+    </ul></li> 
+  </ul> 
+  <h3 id="managing-email-formats">Managing email formats</h3> 
+  <p>You can define the format of sent messages, so that the content displayed automatically adapts according to the domain of each recipient's address.</p> 
+  <p>To do this, go to the <strong>Management of email formats</strong> document, which is located in <strong>Administration</strong> &gt; <strong>Campaign management</strong> &gt; <strong>Non deliverables management</strong> &gt; <strong>Mail rule sets</strong>.</p> 
+  <p>This document contains a list of all of the predefined domains that correspond to the Japanese formats managed by Adobe Campaign. For more information, refer to <a href="../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles">this document</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mail_rule_sets.png" title="mail_rule_sets.png" /> 
+  <p>The <strong>MIME structure</strong> (Multipurpose Internet Mail Extensions) parameter allows you to define the message structure that will be sent to the different mail clients. There are three options available:</p> 
+  <ul> 
+   <li><p><strong>Multipart</strong>: The message is sent in text or HTML format. If the HTML format is not accepted, the message will still be able to be displayed in text format.</p> <p>By default, the multipart structure is <strong>multipart/alternative</strong>, but it automatically becomes <strong>multipart/related</strong> when an image is added to the message. Certain providers expect the <strong>multipart/related</strong> format by default, the <strong>Force multipart/related</strong> option imposes this format even if no image is attached.</p> </li> 
+   <li><p><strong>HTML </strong>: An HTML only message is sent. If the HTML format is not accepted, the message will not be displayed.</p> </li> 
+   <li><p><strong>Text</strong>: A message in text only format is sent. The advantage of text format messages is their very small size.</p> </li> 
+  </ul> 
+  <p>If the <strong>Image inclusion</strong> option is enabled, these are displayed directly in the body of the email. The images will then be uploaded and the URL links will be replaced by their content.</p> 
+  <p>This option is particularly used by the Japanese market for <strong>Deco-mail</strong>, <strong>Decore Mail</strong> or <strong>Decoration Mail</strong>. For more information, consult <a href="../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles">this document</a>.</p> 
+  <note>
+    Inserting images in an email increases its size considerably. 
+   <br /> 
+  </note> 
+  <h2 id="delivery-server-configuration">Delivery server configuration</h2> 
+  <h3 id="clock-synchronization">Clock synchronization</h3> 
+  <p>The clocks of all the servers that make up the Adobe Campaign platform (including the database) must be synchronized, and their systems set to the same time-zone. </p> 
+  <h3 id="coordinates-of-the-statistics-server">Coordinates of the statistics server</h3> 
+  <p>The address of the statistics server has to be provided in the <strong>mta</strong>.</p> 
+  <p>The <strong>statServerAddress</strong> property of the <strong>mta</strong> element of the configuration lets you specify the address and number of the port to be used. </p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;mta&amp;nbsp;statServerAddress="emailStatServer:7777"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;[...]!!discoiqbr!!&amp;nbsp;&lt;/mta&gt;!!discoiqbr!! 
+  </codeblock> 
+  <p>To use the statistics server on the same machine, you must enter at least the name of the machine with the <strong>localhost</strong> value: </p> 
+  <codeblock gutter="true" class="syntax html">
+    &amp;nbsp;&lt;mta&amp;nbsp;statServerAddress="localhost"&gt;!!discoiqbr!! 
+  </codeblock> 
+  <note>
+    If this field is not populated, the 
+   <strong>mta</strong> will not start. 
+   <br /> 
+  </note> 
+  <h3 id="list-of-ip-addresses-to-use">List of IP addresses to use</h3> 
+  <p>The configuration concerning traffic management is located in the <strong>mta/child/smtp</strong> element of the configuration file.</p> 
+  <p>For each <strong>IPAffinity</strong> element, you need to declare the IP addresses that can be used for the machine. </p> 
+  <p>Example: </p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;IPAffinity&amp;nbsp;localDomain="&lt;domain&gt;"&amp;nbsp;name="default"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;IP&amp;nbsp;address="192.168.0.11"&amp;nbsp;publicId="1"&amp;nbsp;weight="5"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;IP&amp;nbsp;address="192.168.0.12"&amp;nbsp;heloHost="revdns1.campaign.com"&amp;nbsp;publicId="2"&amp;nbsp;weight="5"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;IP&amp;nbsp;address="192.168.0.13"&amp;nbsp;publicId="3"&amp;nbsp;weight="1"/&gt;!!discoiqbr!!&lt;/IPAffinity&gt;!!discoiqbr!! 
+  </codeblock> 
+  <p>The parameters are as follows:</p> 
+  <ul> 
+   <li><p><strong>address</strong>: this is the IP address of the MTA host machine to be used. </p> </li> 
+   <li><p><strong>heloHost</strong>: this identifier represents the IP address as it will be seen by the SMTP server. </p> </li> 
+   <li><p><strong>publicId</strong>: this information is useful when an IP address is shared by several Adobe Campaign <strong>mtas</strong> behind an NAT router. The statistics server uses this identifier to memorize connection and sending statistics between this starting point and the target server. </p> </li> 
+   <li><p><strong>weight</strong>: lets you define the relative frequency of use of the address. By default, all addresses have a weight equal to 1. </p> <p>In the previous example, with normal conditions, the addresses will be distributed as follows: </p> 
+    <ul> 
+     <li><p>"1": 5 / (5+5+1) = 45% </p> </li> 
+     <li><p>"2": 5 / (5+5+1) = 45% </p> </li> 
+     <li><p>"3": 1 / (5+5+1) = 10% </p> </li> 
+    </ul><p>If, for example, the first address cannot be used towards a given MX, messages will be sent as follows: </p> 
+    <ul> 
+     <li><p>"2": 5 / (5+1) = 83% </p> </li> 
+     <li><p>"3": 1 / (5+1) = 17% </p> </li> 
+    </ul></li> 
+   <li><p><strong>includeDomains</strong>: lets you reserve this IP address for emails belonging to a specific domain. This is a list of masks that can contain one or more wildcards ('*'). If the attribute is not specified, all domains can use this IP address. </p> <p>Example: <strong>includeDomains="wanadoo.com,orange.com,yahoo.*"</strong></p> </li> 
+   <li><p><strong>excludeDomains</strong>: excludes a list of domains for this IP address. This filter is applied after the <strong>includeDomains</strong> filter. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_mta_ips.png" title="s_ncs_install_MTA_IPs.png" /></li> 
+  </ul> 
+  <h2 id="email-sending-optimization">Email sending optimization</h2> 
+  <p>The internal architecture of the Adobe Campaign <strong>mta</strong> has an impact on the configuration for optimizing email delivery. Here are a few tips on improving your deliveries.</p> 
+  <h3 id="adjust-the-maxwaitingmessages-parameter">Adjust the maxWaitingMessages parameter</h3> 
+  <p>The <strong>maxWaitingMessages</strong> parameter indicates the highest number of messages prepared in advance by the <strong>mtachild</strong>. Messages are only deleted from this list once they have been sent or abandoned. </p> 
+  <p>This parameter is very important and particularly critical if messages are not sorted by domain. </p> 
+  <p>Once the <strong>maxWorkingSetMb</strong> (256) threshold is reached, the delivery server stops sending messages. Performance will decrease significantly until the <strong>mtachild</strong> starts up again. To sidestep this issue, you can either increase the threshold of the <strong>maxWorkingSetMb</strong> parameter, or decrease the threshold of the <strong>maxWaitingMessages</strong> parameter. </p> 
+  <p>The <strong>maxWorkingSetMb</strong> parameter is calculated empirically by multiplying the maximum number of messages by the average message size and multiplying the result by 2.5. For instance, if a message has an average size of 50 kB and the <strong>maxWaitingMessages</strong> parameter equals 1,000, the memory used will average 125 MB. </p> 
+  <h3 id="adjust-the-number-of-mtachild">Adjust the number of mtachild</h3> 
+  <p>The number of children should not exceed the number of processors in the machine (approx. 1000 sessions). We recommend that you do not exceed 8 <strong>mtachild</strong>. You may then increase the number of messages per <strong>child</strong> (<strong>maxMsgPerChild</strong>) to achieve a sufficient life-span.</p> 
+ </body> 
+</html>

@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:campaign" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Publishing the campaign package" name="navTitle" />
+  <meta content="0b83b3e9-41f8-447e-afe0-fa1dc08c553e" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Publishing the campaign package" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-08-06T06:59:11.361-0400" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Publishing the campaign package" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="0011a2a8-ea23-4f00-9280-f9bb60906703" name="jcr:uuid" />
+ </head>
+ <body>
+  <p>Central entity operators publish campaigns they wish to offer to local entities in the <strong>list of campaign packages</strong>.</p> 
+  <p>Before they can be published in the campaign package list, the campaign packages have to be approved by the central entity. To do this, you can specify a reviewer or group of reviewers via the <strong>Approval parameters</strong> link in the campaign package.</p> 
+  <h2 id="assigning-a-reviewer">Assigning a reviewer</h2>
+  <p>To select the reviewer, click the <strong>Approval parameters</strong> link from the campaign package and choose the relevant reviewer from the drop-down list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_define_valid.png" title="s_advuser_mkg_dist_define_valid.png" />
+  <p>You may then begin the approval process by clicking <strong>Submit for approval</strong>. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_valid_process.png" title="s_advuser_mkg_dist_valid_process.png" />
+  <p>A notification message is then sent to the reviewer to confirm the availability of this campaign package. The message contains a link to accept or reject the approval via Web access.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_valid_process1.png" title="s_advuser_mkg_dist_valid_process1.png" />
+  <note>
+   <p> At the organizational entity level, you may also specify reviewers to approve orders. For more on this, refer to <a href="../../campaign/using/publishing-the-campaign-package.md#organizational-entities" target="_blank">Organizational entities</a>.<br /> </p> 
+  </note>
+  <h2 id="adding-other-reviewers">Adding other reviewers</h2>
+  <p>You can add other reviewers from the <strong>Edit...</strong> link, found in the campaign package's <strong>Approval parameters...</strong> tab. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_select_op_valid.png" title="s_advuser_mkg_dist_select_op_valid.png" />
+  <h2 id="approval-periods">Approval periods</h2>
+  <p>By default, reviewers are given three days from the submission date to process the approval.</p> 
+  <p>Within the edit reviewers window, you can also set reminders to send one or multiple messages if a campaign package has not been approved. To do this, click the <strong>Add reminder</strong> link, then the <strong>Add</strong> button.</p> 
+  <p>Reminders can be sent out either on a given date and/or <strong>x</strong> days after the submission date. The type of reminder can be configured in the first column of the table of reminders. In the example below, the reviewers will receive a reminder message on the on the 29/01/2014, i.e. two days before the date selected in the <strong>Date</strong> column, and a second reminder one day before the end of the approval period, i.e. two days after the submission for approval date.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_reminder_planning.png" title="s_advuser_mkg_dist_reminder_planning.png" />
+  <p>Once it is defined and the package has been submitted for approval, the execution schedule is displayed in the <strong>Audit</strong> tab. It shows the processing deadline calculated based on previous configuration, as well as the dates of all configured reminders.</p> 
+  <h2 id="approving-via-the-adobe-campaign-console">Approving via the Adobe Campaign console</h2>
+  <p>If no reviewer has been specified or if none of the notified operators have approved the package, the <strong>Approve the package</strong> button lets you proceed directly to the approval from the campaign package <strong>Dashboard</strong> or from the packages overview.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_valid_button.png" title="s_advuser_mkg_dist_valid_button.png" />
+  <p>After approval, the campaign is published, added to the list and, as soon as its availability date is reached, local entities may use it. If the local entities were specified when creating the campaign, a message is sent to the operators in the notification group to let them know that the campaign is available. If no entity was specified beforehand, the campaign is available to all local entities, by default. For more on this, refer to <a href="../../campaign/using/publishing-the-campaign-package.md#organizational-entities" target="_blank">Organizational entities</a>.</p> 
+ </body>
+</html>

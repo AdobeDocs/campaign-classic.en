@@ -1,0 +1,54 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Command lines" name="jcr:description" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="Command lines" name="navTitle" /> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="2019-08-06T06:59:33.618-0400" name="jcr:created" /> 
+  <meta content="Command lines" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="17dcac18-5d00-46b5-8e36-515f14dfb76c" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="ec631bd9-c6d2-4d3a-ae1e-66f3c89dc7c3" name="jcr:uuid" /> 
+ </head> 
+ <body> 
+  <p>The following command lines require the ability to access the application server. For deployments hosted by Adobe, these commands can only be executed by Adobe.</p> 
+  <h2 id="creating-an-instance">Creating an instance</h2> 
+  <p>Instance creation can be executed using command lines, with the syntax:</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;config&amp;nbsp;-addinstance:instance/masques&amp;nbsp;DNS[/lang] 
+  </codeblock> 
+  <p> (where <strong>eng</strong> and <strong>fra</strong> are possible values for the [lang] parameter)</p> 
+  <p>The command <strong>nlserver config -addinstance:instance1/demo*/eng</strong> enables you to create an instance called <strong>instance1</strong> in English with the DNS mask demo*.</p> 
+  <h2 id="declaring-a-database">Declaring a database</h2> 
+  <p>You can associate an existing database with an instance from the command line by using the following syntax:</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;config&amp;nbsp;-setdblogin:[rbdms:]account[:database][/password]@server 
+  </codeblock> 
+  <p>The following values are possible for the <strong>[rdbms]</strong> parameter:</p> 
+  <ul> 
+   <li><p><strong>postgresql</strong>: for PostgreSQL,</p> </li> 
+   <li><p><strong>oracle</strong>: for Oracle,</p> </li> 
+   <li><p><strong>mssql</strong>: for Microsoft SQL Server,</p> </li> 
+   <li><p><strong>DB2</strong>: for the DB2 engine.</p> </li> 
+  </ul> 
+  <p>The following command configures the <strong>demo</strong> instance with the SQL type server known as <strong>base6</strong>, linked to the <strong>campaign</strong> account and its <strong>password</strong> on the <strong>dbsrv</strong> server:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &amp;nbsp;nlserver&amp;nbsp;config&amp;nbsp;-setdblogin:db:campaign:myBase/password@dbServer&amp;nbsp;-instance:demo 
+  </codeblock> 
+ </body> 
+</html>

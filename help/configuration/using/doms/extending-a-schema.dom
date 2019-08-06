@@ -1,0 +1,85 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Extending a schema" name="navTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="Extending a schema" name="jcr:title" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="f368f04a-80f4-4609-9269-6f6194520075" name="jcr:uuid" /> 
+  <meta content="Extending a schema" name="jcr:description" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2019-08-06T06:59:43.232-0400" name="jcr:created" /> 
+  <meta content="95ac389a-95dd-4131-bd64-be33b40b9007" name="jcr:predecessors" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <note>
+    Some built-in schemas must not be extended: mainly those for which the following settings are defined: 
+   <br /> 
+   <strong>dataSource="file"</strong> and 
+   <strong>mappingType="xmlFile"</strong>. 
+   <br /> The following schemas must not be extended: 
+   <strong>xtk:entityBackupNew</strong>, 
+   <strong>xtk:entityBackupOriginal</strong>, 
+   <strong>xtk:entityOriginal</strong>, 
+   <strong>xtk:form</strong>, 
+   <strong>xtk:srcSchema</strong>, 
+   <strong>ncm:publishing</strong>, 
+   <strong>nl:monitoring</strong>, 
+   <strong>nms:calendar</strong>, 
+   <strong>nms:remoteTracking</strong>, 
+   <strong>nms:userAgentRules</strong>, 
+   <strong>xtk:builder</strong>, 
+   <strong>xtk:connections</strong>, 
+   <strong>xtk:dbInit</strong>, 
+   <strong>xtk:funcList</strong>, 
+   <strong>xtk:fusion</strong>, 
+   <strong>xtk: jst</strong>, 
+   <strong>xtk:navtree</strong>, 
+   <strong>xtk:queryDef</strong>, 
+   <strong>xtk:resourceMenu</strong>, 
+   <strong>xtk:schema</strong>, 
+   <strong>xtk:scriptContext</strong>, 
+   <strong>xtk:session</strong>, 
+   <strong>xtk:sqlSchema</strong>, 
+   <strong>xtk:strings</strong>. 
+   <br /> This list is not exhaustive. 
+   <br /> 
+  </note> 
+  <p>There are two methods for extending an existing schema:</p> 
+  <ol> 
+   <li><p>Modifying the source schema directly.</p> </li> 
+   <li><p>Creating another schema with the same name but a different namespace. The advantage is that you can extend a table without needing to modify the original schema.</p> <p>The root element of the schema must contain the <strong>extendedSchema</strong> attribute with the name of the schema to be extended as its value.</p> <p>An extension schema does not have its own schema: the schema generated from the source schema will be filled in with the fields of the extension schema.</p> 
+    <note>
+      You are not allowed to modify the built-in schemas of the application, but rather the schema extension mechanism. Otherwise, modified schemas will not be updated at the time of future upgrades of the application. This can lead to malfunctions in the use of Adobe Campaign. 
+     <br /> 
+    </note><p><strong>Example</strong>: extension of the <strong>nms:recipient</strong> schema.</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;srcSchema&amp;nbsp;extendedSchema="nms:recipient"&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="code"&amp;nbsp;label="Branch&amp;nbsp;code"&amp;nbsp;type="long"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+    </codeblock><p>The <strong>nms:recipient</strong> extended schema is filled in with the field populated in the extension schema:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;schema&amp;nbsp;dependingSchemas="cus:recipient"&amp;nbsp;name="recipient"&amp;nbsp;namespace="nms"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;belongsTo="cus:recipient"&amp;nbsp;label="Branch&amp;nbsp;code"&amp;nbsp;name="code"&amp;nbsp;sqlname="iCode"&amp;nbsp;type="long"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&lt;/schema&gt; 
+    </codeblock><p>The <strong>dependingSchemas</strong> attribute on the root element of the schema references the dependences on the extension schemas.</p> <p>The <strong>belongsTo</strong> attribute on the field fills in the schema where it is declared.</p> </li> 
+  </ol> 
+  <note>
+    For the modifications to be taken into account, you need to regenerate schemas. For more on this, refer to the 
+   <a href="../../configuration/using/regenerating-schemas.md" target="_blank">Regenerating schemas</a> section. 
+   <br /> If the modifications impact the structure of the database, you need to run an update. For more on this, refer to the 
+   <a href="../../configuration/using/updating-the-database-structure.md" target="_blank">Updating the database structure</a> section. 
+   <br /> 
+  </note> 
+ </body> 
+</html>

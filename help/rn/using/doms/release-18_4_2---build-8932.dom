@@ -1,0 +1,38 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Release 18.4.2 - Build 8932" name="jcr:description" />
+  <meta content="2019-08-06T06:59:07.830-0400" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Release 18.4.2 - Build 8932" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:rn" name="cq:tags" />
+  <meta content="" name="seoDescription" />
+  <meta content="865cc7ad-5373-4610-84c9-cc789c5f3bb1" name="jcr:predecessors" />
+  <meta content="audience:rn" name="primaryAudienceTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="e35145bc-3357-400f-8dc5-fab6c7685033" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Release 18.4.2 - Build 8932" name="navTitle" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+ </head>
+ <body>
+  <p>22 May 2018</p> 
+  <h2 id="improvements">Improvements</h2>
+  <ul>
+   <li><p>Fixed an issue which prevented the Windows Server update from working correctly.</p> </li>
+   <li><p>Fixed an issue in the <strong>Survey Result</strong> activity when using data stored in XML. The report was displayed incorrectly. (NEO-10816)</p> </li>
+   <li><p>Fixed a performance issue which could occur with the inMail process when using a bounce mail server. (NEO-10641)</p> </li>
+   <li><p>Fixed a database upgrade issue which could occur when upgrading more than 1000 schemas.</p> </li>
+  </ul>
+ </body>
+</html>

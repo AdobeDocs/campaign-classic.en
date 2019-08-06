@@ -1,0 +1,34 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Other channels" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Other channels" name="navTitle" />
+  <meta content="c4104cae-e721-4994-a686-50176d48da1d" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-08-06T06:59:25.403-0400" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Other channels" name="jcr:description" />
+  <meta content="light" name="heroGradient" />
+  <meta content="7151c02b-0fed-42c5-bb2b-613db82a62e8" name="jcr:uuid" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <p>Adobe Campaign offers Agency or Telephone delivery templates, which are used to create external deliveries. Using these channels implies you set up dedicated methodologies to process output files. Configuration steps are the same as for <a href="../../delivery/using/about-direct-mail-channel.md">Direct mail channel</a>.</p> 
+  <p>In addition, 'Other' type deliveries use a specific technical template which does not execute a process: this lets them manage marketing actions executed outside of the Adobe Campaign platform.</p> 
+  <p>This channel has no specific mechanism. It is a generic channel that has its own external account routing option, delivery template type and campaign workflow activity, just like any other communication channel available in Adobe Campaign.</p> 
+  <p>This channel is designed for descriptive purposes only. Such as, to define deliveries for which you want to keep a trace of the target of a campaign performed in a tool other than Adobe Campaign.</p> 
+ </body>
+</html>

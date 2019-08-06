@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="audience:production" name="primaryAudienceTag" />
+  <meta content="Foreword" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Foreword" name="jcr:title" />
+  <meta content="Foreword" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;topic_tags:introduction" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="seoDescription" />
+  <meta content="cdf60408-f874-4074-b090-3fe4a81d388f" name="jcr:uuid" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="412bc2ff-8b88-4520-a644-7a5049e8e09e" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-08-06T06:59:01.006-0400" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>This document details the production procedures for Adobe Campaign: configuration, monitoring, upgrading process, data processing, database maintenance procedure and recommendations. A troubleshooting section is available at the end of this document.</p> 
+  <p> Production procedures must be carried out with caution, its impacts must be fully considered beforehand and the procedure must carried out rigorously. It must only be performed by an expert user. We strongly recommend getting in touch with Adobe Campaign before starting any production procedure, expecially postupgrade steps.</p> 
+ </body>
+</html>

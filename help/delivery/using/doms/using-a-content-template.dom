@@ -1,0 +1,60 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Using a content template" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="de32e033-29ba-4b9a-872e-264d6252fc22" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Using a content template" name="navTitle" />
+  <meta content="2019-08-06T06:59:28.760-0400" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Using a content template" name="jcr:description" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="b4bff5b5-7a9c-49f2-95e0-3537d6f655a9" name="jcr:predecessors" />
+  <meta content="" name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+ </head>
+ <body>
+  <h2 id="about-content-templates">About content templates</h2>
+  <p>Content templates can be referenced and used in deliveries directly. Refer to <a href="../../delivery/using/using-a-content-template.md#creating-a-delivery-via-content-management" target="_blank">Creating a delivery via content management</a></p> 
+  <p>They can also be used to create content instances. Once they have been created, these instances are ready to be delivered (refer to <a href="../../delivery/using/using-a-content-template.md#delivering-a-content-instance" target="_blank">Delivering a content instance</a>) or exported (refer to <a href="../../delivery/using/using-a-content-template.md#creating-a-content-instance" target="_blank">Creating a content instance</a>).</p> 
+  <h2 id="creating-a-delivery-via-content-management">Creating a delivery via content management</h2>
+  <p>You can reference a content template in a delivery in view of using input fields to enter content. An additional tab is added to the delivery wizard for defining delivery content. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_content_deliver_a_content.png" title="s_ncs_content_deliver_a_content.png" />
+  <p>The layout will be applied automatically based on the selected settings. To view it, click the <strong>HTML preview</strong> (or <strong>Text preview</strong>) and select a recipient to test personalization elements.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_content_deliver_a_content_html.png" title="s_ncs_content_deliver_a_content_HTML.png" />
+  <p> For more on this, refer to the full implementation example: <a href="../../delivery/using/using-a-content-template.md#creating-content-in-the-delivery-wizard" target="_blank">Creating content in the delivery wizard</a>.</p> 
+  <h2 id="creating-a-content-instance">Creating a content instance</h2>
+  <p>You can create contents directly in the Adobe Campaign tree to be used in workflows, exported, or injected straight into new deliveries. </p> 
+  <p> Apply the following steps:</p> 
+  <ol>
+   <li><p>Select the <strong>Resources &gt; Contents</strong> node of the tree, right-click and choose <strong>Properties</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_content_folder_properties.png" title="s_ncs_content_folder_properties.png" /></li>
+   <li><p>Select the publication templates that will be active for this folder. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_content_folder_templates.png" title="s_ncs_content_folder_templates.png" /></li>
+   <li><p>You can now create new content using the <strong>New</strong> button above the content list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_content_folder_create_a_template.png" title="s_ncs_content_folder_create_a_template.png" /></li>
+   <li><p>Enter the fields in the form.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_content_folder_use_a_template.png" title="s_ncs_content_folder_use_a_template.png" /></li>
+   <li><p>Then click the <strong>HTML preview</strong> tab to view the rendering. Here, the personalization fields taken from the database aren't entered.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_content_folder_use_a_template_preview.png" title="s_ncs_content_folder_use_a_template_preview.png" /></li>
+   <li><p>Once it is created, the content is added to the list of available contents. Click the <strong>Properties</strong> link to change its label, status, or view its history.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_content_folder_template_properties.png" title="s_ncs_content_folder_template_properties.png" /></li>
+   <li><p>If necessary, once the content is approved it can be generated using the appropriate button on the toolbar.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_content_folder_template_generate.png" title="s_ncs_content_folder_template_generate.png" />
+    <note>
+     <p> You can authorize the generation of non-approved contents. To do this, change the relevant option in the publication template. For more on this, refer to <a href="../../delivery/using/using-a-content-template.md#creating-and-configuring-the-template" target="_blank">Creating and configuring the template</a>.<br /> </p> 
+    </note><p>The HTML and Text contents are generated by default in the <strong>publishing</strong> folder of the Adobe Campaign instance. You can change the publication folder thanks to the <strong>NcmPublishingDir</strong> option.</p> </li>
+  </ol>
+  <h2 id="delivering-a-content-instance">Delivering a content instance</h2>
+  <p>To create a content instance and deliver it, a delivery template needs to be linked to the publication template used to generate this content. For more on this, refer to <a href="../../delivery/using/using-a-content-template.md#delivery" target="_blank">Delivery</a>.</p> 
+  <p>Moreover, the content storage folder must be dedicated to contents taken from this publication template (when a content folder enables you to generate several types of content, deliveries can't be created automatically).</p> 
+  <p>To create the delivery automatically based on the selected content, click the <strong>Delivery</strong> icon and choose the template.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_content_folder_create_the_delivery.png" title="s_ncs_content_folder_create_the_delivery.png" />
+  <p>Text and HTML contents are entered automatically.</p> 
+ </body>
+</html>

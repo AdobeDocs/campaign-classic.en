@@ -1,0 +1,123 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="0cb2fcc2-a9b5-4370-92ad-0b9eb4931319" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-08-06T06:59:24.165-0400" name="jcr:created" />
+  <meta content="Attaching files" name="navTitle" />
+  <meta content="bb001662-7446-4c03-869e-d1dc5e4e8815" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Attaching files" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Attaching files" name="jcr:description" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+ </head>
+ <body>
+  <h2 id="about-email-attachments">About email attachments</h2>
+  <p> You can attach one or more files to an email delivery. There are two possible cases:</p> 
+  <ol>
+   <li><p>Select a file and attach it to the delivery as it is.</p> </li>
+   <li><p>Personalize the content of the attachment for each recipient. In this case, you need to create a calculated attachment: the name of the attachment is computed at the time of delivery for each message depending on the recipient. The content can also be personalized and converted into PDF format at the time of delivery, if you have the <strong>Variable Digital Printing</strong> option.</p> </li>
+  </ol>
+  <note>
+   <p> This type of configuration is generally carried out in the delivery templates. For more on this, refer to <a href="../../delivery/using/about-templates.md" target="_blank">About templates</a>.<br /> </p> 
+  </note>
+  <h2 id="attaching-a-local-file">Attaching a local file</h2>
+  <p>To attach a local file to a delivery, click the <strong>Attachments</strong> link and select the file you want to attach to the message. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_add_file.png" title="s_ncs_user_wizard_add_file.png" />
+  <p>You can also use the matching icon in the toolbar.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_add_file_ico.png" title="s_ncs_user_wizard_add_file_ico.png" />
+  <p>Once the document is selected, it is immediately uploaded onto the server to be available at the time of delivery. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_add_file_load.png" title="s_ncs_user_wizard_add_file_load.png" />
+  <note>
+   <p> For more on this, refer to <a href="../../delivery/using/attaching-files.md#adding-attachments" target="_blank">Adding attachments</a>.<br /> </p> 
+  </note>
+  <h2 id="creating-a-calculated-attachment">Creating a calculated attachment</h2>
+  <p>When you create a calculated attachment, the name of the attachment can be computed during analysis or delivery of each message and can depend on the recipient. It can also be personalized and converted to PDF.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_attachment.png" title="s_ncs_user_wizard_attachment.png" />
+  <p>To create a personalized attachment, click the <strong>Attachments</strong> link and then the <strong>Add</strong> button, and select <strong>Calculated attachment</strong>.</p> 
+  <p>Select the type of calculation from the <strong>Type</strong> drop-down list:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email01_136.png" title="s_ncs_user_wizard_email01_136.png" />
+  <p>The following options are available:</p> 
+  <ul>
+   <li><p><strong>File name is specified when creating the delivery template</strong></p> </li>
+   <li><p><strong>The content of the file is personalized and converted to PDF during the delivery of each message</strong></p> </li>
+   <li><p><strong>The file name is computed during delivery analysis (it cannot depend on the recipient profile)</strong></p> </li>
+   <li><p><strong>File name is computed at the time of delivery for each recipient (it can depend on the recipient)</strong></p> </li>
+  </ul>
+  <h3 id="attach-a-local-file">Attach a local file</h3>
+  <p>When the attachment is a local file, select the option: <strong>File name is specified when creating the delivery template</strong>. The file is selected locally and uploaded onto the server. Follow the steps below:</p> 
+  <ol>
+   <li><p>Select the file to upload in the <strong>Local file</strong> field.</p> </li>
+   <li><p>Specify the label if necessary. The label replaces the filename when viewed in messaging systems. If nothing is specified, the filename is used by default.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email_calc_attachement_02.png" title="s_ncs_user_wizard_email_calc_attachement_02.png" /></li>
+   <li><p>If necessary, select <strong>Upload file on the server</strong>, and then click <strong>Update on server</strong> to start the transfer.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email_calc_attachement_01.png" title="s_ncs_user_wizard_email_calc_attachement_01.png" /><p>The file is then available on the server to be attached to the different deliveries created from this template.</p> </li>
+  </ol>
+  <h3 id="attach-a-personalized-message">Attach a personalized message</h3>
+  <p>The option <strong>The file content is personalized and converted into PDF format at the time of delivery for each message</strong> lets you select a fine with personalization fields, such as the last name and first name of the intended recipient.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email_calc_attachement_06.png" title="s_ncs_user_wizard_email_calc_attachement_06.png" />
+  <p>For this type of attachment, apply the following configuration steps:</p> 
+  <ol>
+   <li><p>Select the file to upload.</p> 
+    <note>
+     <p> The source file must be created in LibreOffice. The instance must be configured in keeping with the prerequisites detailed in <a href="../../installation/using/before-starting.md">this section</a>.<br /> </p> 
+    </note></li>
+   <li><p>Specify the label if necessary. </p> </li>
+   <li><p>Select <strong>Upload file on the server</strong>, and then click <strong>Update on server</strong> to start the transfer.</p> </li>
+   <li><p>You can display a preview. To do this, select a recipient.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email_calc_attachement_07.png" title="s_ncs_user_wizard_email_calc_attachement_07.png" /></li>
+   <li><p>Analyze your delivery and then start it. </p> <p>Each recipient receives a personalized PDF attached to the delivery.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email_calc_attachement_08.png" title="s_ncs_user_wizard_email_calc_attachement_08.png" /></li>
+  </ol>
+  <h3 id="attach-a-calculated-file">Attach a calculated file</h3>
+  <p>You can calculate the attachment name during the delivery preparation. To do this, select the option <strong>The file name is calculated during delivery analysis (it cannot depend on the recipient)</strong>.</p> 
+  <note>
+   <p> This option is used only when the delivery is sent by an external process or a workflow.<br /> </p> 
+  </note>
+  <ol>
+   <li><p>Specify the label you wish to apply to the attachment. </p> </li>
+   <li><p>Specify the access path of the file and its exact name in the definition window.</p> 
+    <note>
+      The file must be present on the server.
+     <br /> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email_calc_attachement_04.png" title="s_ncs_user_wizard_email_calc_attachement_04.png" /></li>
+   <li><p>Analyze and then start your delivery.</p> <p>The filename computation can be seen in the analysis log.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email_calc_attachement_05.png" title="s_ncs_user_wizard_email_calc_attachement_05.png" /></li>
+  </ol>
+  <h3 id="attach-a-personalized-file">Attach a personalized file</h3>
+  <p>When selecting the attachment, you can choose the option <strong>The file name is calculated during delivery for each recipient (it can depend on the recipient)</strong>. You can then map recipient personalization data with the name of the file to send.</p> 
+  <note>
+   <p> This option is used only when the delivery is sent by an external process or a workflow.<br /> </p> 
+  </note>
+  <ol>
+   <li><p>Specify the label you wish to apply to the attachment.</p> </li>
+   <li><p>Specify the access path of the file and its exact name in the definition window. If the filename is personalized, you can use the Personalization fields for the relevant values.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email_calc_attachement_010.png" title="s_ncs_user_wizard_email_calc_attachement_010.png" />
+    <note>
+      The file must be present on the server.
+     <br /> 
+    </note></li>
+   <li><p>Analyze and then start your delivery.</p> <p>In the example below, the attached file was chosen according to its name as defined using the merge fields.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email_calc_attachement_011.png" title="s_ncs_user_wizard_email_calc_attachement_011.png" /></li>
+  </ol>
+  <h3 id="attachment-settings">Attachment settings</h3>
+  <p>For the first two options, you can choose <strong>Upload file on the server</strong> by selecting the appropriate option. The <strong>Update the file on the server</strong> link lets you start uploading.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email01_137.png" title="s_ncs_user_wizard_email01_137.png" />
+  <p>A message tells you that the file has been uploaded to the server:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email01_1371.png" title="s_ncs_user_wizard_email01_1371.png" />
+  <p>For a change of file, a warning message is displayed:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email01_1372.png" title="s_ncs_user_wizard_email01_1372.png" />
+  <p>The <strong>Advanced</strong> tab lets you define advanced options on attached files:</p> 
+  <ul>
+   <li><p>You can define filter options to avoid sending the attached file to all recipients. The option <strong>Enable filtering of recipients who will receive the attachment</strong> activates an input field used to define a recipient selection script, which must be entered in JavaScript.</p> </li>
+   <li><p>You can script the name of the file in order to personalize it.</p> <p>Enter your text in the window and use the personalization fields available in the drop-down list. In the following example, the filename is personalized to contain today's date and the name of the recipient.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_email_calc_attachement_09.png" title="s_ncs_user_wizard_email_calc_attachement_09.png" /></li>
+  </ul>
+ </body>
+</html>

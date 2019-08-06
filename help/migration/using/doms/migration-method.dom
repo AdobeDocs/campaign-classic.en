@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="Migration method" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="2019-08-06T06:59:37.018-0400" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="f0b3aee0-fe9f-494b-9813-eac533a48493" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Migration method" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Migration method" name="jcr:title" />
+  <meta content="9d8c7085-e003-4aff-b6ab-466744cea04d" name="jcr:uuid" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:migration" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <h2 id="modernizing-your-environment">Modernizing your environment</h2>
+  <p>Performing a migration can be a chance to update your environment (database engines, operating systems). Adobe Campaign strongly recommends upgrading your production environments to the most recent versions.</p> 
+  <p>32-bit version databases and operating systems are still supported in v7, but will no longer be supported in future versions of Adobe Campaign. We strongly recommend you upgrade your platform to 64 bits as soon as possible.</p> 
+  <p>In v6.02, the "multi timezone" mode was only available for PostgreSQL database engines. It is now offered no matter what type of database engine is used. We strongly recommend that you transform your base to a "multi timezone" base. For more information on this, see the <a href="../../migration/using/migration-method.md#time-zones" target="_blank">Time zones</a> section.</p> 
+  <note>
+    Some software versions supported in Adobe Campaign 5.11 and 6.02 are no longer supported in Adobe Campaign v7.
+   <br /> For further information about the versions supported by Adobe Campaign, consult the 
+   <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">compatibility matrix</a>.
+   <br /> 
+  </note>
+  <h2 id="key-migration-steps">Key migration steps</h2>
+  <p>The general procedure for migrating to Adobe Campaign v7 is detailed in the <a href="../../migration/using/before-starting-migration.md" target="_blank">Before starting migration</a> section.</p> 
+  <p>Implementation steps for the migration to Adobe Campaign v7 are detailed in the <a href="../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md" target="_blank">Prerequisites for migration to Adobe Campaign 7</a> section.</p> 
+  <p>The required configurations depend on your existing configurations and the initial version of the platform. These are outlined in the <a href="../../migration/using/general-configurations.md" target="_blank">General configurations</a> section.</p> 
+  <h2 id="specific-configurations">Specific configurations</h2>
+  <p>The changes brought about by Adobe Campaign v7 may also mean that you have to adapt certain specific configurations developed in the earlier versions. Therefore, it may be necessary to perform an audit on all your configurations before the migration: contact Adobe Campaign for any assistance.</p> 
+  <p>For example, particular attention should be paid to specific settings for Web applications, schema extensions with SQLdata or out-of-the-box schema cloning. For more information, refer to the <a href="../../migration/using/configuring-your-platform.md" target="_blank">Configuring your platform</a> section.</p> 
+  <p>Similarly, in order to respond to the heightened security within Adobe Campaign, some internal mechanisms have been modified: you must adapt these corresponding configurations.</p> 
+ </body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="292715a2-be2f-4672-b38f-30371834ec1c" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="2019-08-06T06:59:20.243-0400" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="ae0186e5-59b1-4051-abf2-4a121275a086" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="seoDescription" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Recommending a category" name="jcr:title" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Recommending a category" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Recommending a category" name="jcr:description" />
+ </head>
+ <body>
+  <p>It may be the case that a recipient is not considered eligible for all offers. In order to ensure that all recipients receive an offer proposition, it is possible to systematically add one or various offer categories in the recommendations. Unlike the main offers, these "backup" offers must have a low weight (but not zero), so that they are only taken into account if no high weight offers are eligible. In addition, there must be no presentation rule applied to these offers to ensure that they are always included in the recommendations. This means that, during a proposition, if no high weight offer is available, the recipient will receive at least one offer from this category.</p> 
+  <p>To always include a category in the recommendations, apply the following steps:</p> 
+  <ol>
+   <li><p>Open the explorer and click an offer catalog from your tree structure.</p> </li>
+   <li><p>Click the <strong>Eligibility</strong> tab and tick the <strong>Always include this category in the recommendations</strong> box.</p> </li>
+   <li><p>Finish and approve by clicking <strong>Save</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_cat_default_001.png" title="offer_cat_default_001.png" /></li>
+  </ol>
+ </body>
+</html>

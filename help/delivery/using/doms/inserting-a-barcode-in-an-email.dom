@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="8d4d9e31-0233-4c2b-b4fe-3c79f1705d66" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Inserting a barcode in an email" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="seoDescription" />
+  <meta content="Inserting a barcode in an email" name="navTitle" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="Inserting a barcode in an email" name="jcr:description" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="4d5fb46c-54ca-4e96-947a-5e2d668b79c8" name="jcr:predecessors" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-08-06T06:59:24.274-0400" name="jcr:created" />
+ </head>
+ <body>
+  <p>The barcode generation module lets you create several types of barcodes that comply with many common standards, including 2D barcodes.</p> 
+  <p>It is possible to dynamically generate a barcode as a bitmap using a value defined using customer criteria. Personalized barcodes can be included in email campaigns. The recipient can print the message and show it to the issuing company for scanning (when checking out for example).</p> 
+  <p>To insert a barcode into an email, place the cursor in the content where you want to display it, then click the personalization button. Select <strong>Include &gt; Barcode...</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/barcode_insert_14.png" title="barcode_insert_14.png" />
+  <p>Then configure the following elements to suit your needs:</p> 
+  <ol>
+   <li><p> Select the type of barcode. </p> 
+    <ul>
+     <li><p>For 1D format, the following types are available in Adobe Campaign: Codabar, Code 128, GS1-128 (formerly EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, Interleaved 2 of 5, POSTNET and Royal Mail (RM4SCC). </p> <p>Example of a 1D barcode:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/barcode_insert_08.png" title="barcode_insert_08.png" /></li>
+     <li><p>The DataMatrix and PDF417 types concern the 2D format.</p> <p>Example of a 2D barcode:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/barcode_insert_09.png" title="barcode_insert_09.png" /></li>
+     <li><p>To insert a QR code, select this type and enter the error correction rate to apply. This rate defines the quantity of information repeated and the tolerance to deterioration.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/barcode_insert_06.png" title="barcode_insert_06.png" /><p>Example of a QR code:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/barcode_insert_12.png" title="barcode_insert_12.png" /></li>
+    </ul></li>
+   <li><p>Enter the size of the barcode that you want to insert into the email: configuring the scale lets you increase or reduce the size of the barcode, from x1 to x10.</p> </li>
+   <li><p>The <strong>Value</strong> field enables you to define the value of the barcode. A value can match a special offer and can be the function of a criteria, it can be the value of a database field linked to the customers.</p> <p>This example shows an EAN-8 type barcode, to which was added the account number of a recipient. To add this account number, click the personalization button to the right of the <strong>Value</strong> field and select <strong>Recipient &gt; Account number</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/barcode_insert_15.png" title="barcode_insert_15.png" /></li>
+   <li><p>The <strong>Height</strong> field lets you configure the height of the barcode without changing its width, by altering the amount of space between each bar.</p> <p>There is no restrictive entry control depending on the type of barcode. If a barcode value is incorrect, it will only be visible in <strong>Preview</strong> mode where the barcode will be crossed out in red.</p> 
+    <note>
+     <p> The value assigned to a barcode depends on its type. For example, an EAN-8 type shall have exactly 8 numbers.<br /> The personalization button to the right of the <strong>Value</strong> field lets you add data in addition to the value itself. This enriches the barcode, provided that the barcode standard accepts it.<br /> For example, if you are using a GS1-128 type barcode and want to enter the account number of a recipient in addition to the value, click the personalization button and select <strong>Recipient &gt; Account number</strong>. If the account number of the selected recipient is entered correctly, the barcode takes it into account.<br /> </p> 
+    </note></li>
+  </ol>
+  <p>Once these elements have been configured, you can finalize your email and send it. To avoid errors, always make sure your content is displayed correctly before performing a delivery by clicking the <strong>Preview</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/barcode_insert_10.png" title="barcode_insert_10.png" />
+  <note>
+   <p> If the value of a barcode is incorrect, its bitmap is shown crossed out in red.<br /> </p> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/barcode_insert_11.png" title="barcode_insert_11.png" />
+ </body>
+</html>

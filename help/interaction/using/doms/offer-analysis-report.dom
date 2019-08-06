@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Offer analysis report" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-08-06T06:59:22.210-0400" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="18c4504b-f5fe-4837-808c-d1cc55f6d227" name="jcr:predecessors" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Offer analysis report" name="jcr:title" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Offer analysis report" name="jcr:description" />
+  <meta content="a6e0882e-c068-43c3-8a40-01317bbc8180" name="jcr:uuid" />
+ </head>
+ <body>
+  <p>The <strong>Offer analysis</strong> report provides you with an overview of the number of accepted or rejected propositions. </p> 
+  <note>
+   <p> This functionality is only visible online and only to the delivery manager. <br /> </p> 
+  </note>
+  <p>Statistics are sorted based on three criteria:</p> 
+  <ul>
+   <li><p>by date.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_report_perdate.png" title="offer_report_perdate.png" /></li>
+   <li><p>by space.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_report_perspaces.png" title="offer_report_perspaces.png" /></li>
+   <li><p>by deliveries.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_report_perdeliveries.png" title="offer_report_perdeliveries.png" /></li>
+  </ul>
+  <p>Data can be filtered based on the various criteria available in the upper section of the report. Once you have selected the desired criteria, click the <strong>Refresh</strong> link to apply them to the report. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_report_criteria.png" title="offer_report_criteria.png" />
+ </body>
+</html>

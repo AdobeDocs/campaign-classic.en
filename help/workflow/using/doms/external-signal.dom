@@ -1,0 +1,39 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-08-06T06:59:15.411-0400" name="jcr:created" />
+  <meta content="6c09a7a6-5d36-4114-8c70-3ad3b2b8e7c8" name="jcr:predecessors" />
+  <meta content="light" name="heroGradient" />
+  <meta content="External signal" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="6ad5f432-cf51-4e3f-bfd4-b37f3881649f" name="jcr:uuid" />
+  <meta content="External signal" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="External signal" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <p>The <strong>External signal</strong> activity lets you trigger execution of a set of tasks in a workflow to a schedule.</p> 
+  <p>When an 'External signal' task is activated, it is paused indefinitely or until the end of the specified time period. Its transition is activated by the SOAP call <strong>PostEvent(sessionToken, workflowId, activity, transition, parameters, complete).</strong> The <strong>complete</strong> parameter allows the task to be finished, so it will not react to subsequent calls.</p> 
+  <p>Refer to the online documentation concerning SOAP calls for further information on the PostEvent function.</p> 
+  <p>You can configure this activity in order to define events if no signal is received. To do this, edit the activity and click the <strong>Expiration</strong> tab. Click the <strong>Insert</strong> button to create and configure an event.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/edit_signal.png" title="edit_signal.png" />
+  <p>The configuration of expirations is detailed in <a href="../../workflow/using/external-signal.md#expirations" target="_blank">Expirations</a>.</p> 
+  <p>The <strong>Delay</strong> field lets you specify an expiration delay in the units of your choice. See <a href="../../workflow/using/wait.md" target="_blank">Wait</a>.</p> 
+  <p> Each line represents a type of expiration and coincides with a transition.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/external_sign_diag.png" title="external_sign_diag.png" />
+ </body>
+</html>

@@ -1,0 +1,193 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-08-06T06:59:27.015-0400" name="jcr:created" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="Monitoring a delivery" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="d8ea9214-2916-4e99-84f0-a023822d6996" name="jcr:uuid" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Monitoring a delivery" name="jcr:title" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="50e4a163-3730-42d2-bec8-21b977fcaa18" name="jcr:predecessors" />
+  <meta content="Monitoring a delivery" name="jcr:description" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>The <strong>delivery dashboard</strong> is key to monitor your deliveries and eventual issues encountered during the sending of messages.</p> 
+  <p><strong>Related topics</strong></p> 
+  <ul>
+   <li><p> <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">Understanding delivery failures</a></p> </li>
+   <li><p> <a href="../../delivery/using/understanding-quarantine-management.md" target="_blank">Understanding quarantine management</a></p> </li>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html">Delivery best practices </a></p> </li>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html">Getting started: Managing deliverability</a></p> </li>
+  </ul>
+  <h2 id="delivery-dashboard">Delivery dashboard</h2>
+  <p>To view the information on a delivery, edit it, view the dashboard and click the available tabs.</p> 
+  <p>Tab contents may no longer be changed once the delivery has been sent. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_del_details.png" title="s_ncs_user_del_details.png" />
+  <h3 id="delivery-summary">Delivery summary</h3>
+  <p>The <strong>Summary</strong> tab contains the characteristics of the delivery: delivery status, channel used, information about the sender, subject, information concerning execution. For more on this, refer to <a href="../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent" target="_blank">Number of messages sent</a>.</p> 
+  <p>The <strong>reports</strong> link lets you look at a set of reports concerning the delivery action: general delivery report, detailed report, delivery report, distribution of failed messages, opening rate, clicks and transactions, etc. The contents of this tab can be configured according to your requirements. For more information, refer to <a href="../../reporting/using/reports-on-deliveries.md#delivery-reports">this section</a>.</p> 
+  <h3 id="delivery-logs-and-history">Delivery logs and history</h3>
+  <p>The <strong>Delivery</strong> tab gives a history of the occurrences in this delivery. It contains the delivery logs, i.e. the list of messages sent and their status and the associated messages.</p> 
+  <p>For a delivery, you can display (for example) only recipients with a failed delivery or an address in quarantine. To do this, click the <strong>Filters</strong> button and select <strong>By state</strong>. Then select the state in the drop-down list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_delivery_delivery_tab.png" title="s_ncs_user_delivery_delivery_tab.png" />
+  <p>Various statuses are listed on <a href="../../delivery/using/monitoring-a-delivery.md#delivery-statuses">this page</a>.</p> 
+  <note>
+   <p> The <strong>Display the mirror page for this message...</strong> link lets you view the mirror page for the contents of the delivery selected from the list in a new window. The mirror page is available only for deliveries for which HTML content has been defined. For more on this, refer to <a href="../../delivery/using/monitoring-a-delivery.md#generating-the-mirror-page" target="_blank">Generating the mirror page</a>.<br /> </p> 
+  </note>
+  <h3 id="tracking-logs">Tracking logs</h3>
+  <p>The <strong>Tracking</strong> tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign. The tracking data is updated hourly.</p> 
+  <note>
+   <p> If tracking isn't enabled for a delivery, this tab isn't displayed.<br /> </p> 
+  </note>
+  <p>Tracking configuration is performed at the appropriate stage in the delivery wizard. See <a href="../../delivery/using/how-to-configure-tracked-links.md" target="_blank">How to configure tracked links</a>.</p> 
+  <p><strong>Tracking</strong> data is interpreted in the delivery reports. See <a href="../../reporting/using/reports-on-deliveries.md#delivery-reports">this section</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_delivery_tracking_tab.png" title="s_ncs_user_delivery_tracking_tab.png" />
+  <h3 id="delivery-audit-">Delivery audit</h3>
+  <p>The <strong>Audit</strong> tab contains the delivery log and all the messages concerning the proofs. The <strong>Refresh</strong> button lets you update the data. Use the <strong>Filters</strong> button to define a filter on the data.</p> 
+  <p>Special icons enable you to identify errors or warnings. See <a href="../../delivery/using/monitoring-a-delivery.md#analyzing-the-delivery" target="_blank">Analyzing the delivery</a>.</p> 
+  <p>The <strong>Proofs</strong> sub-tab lets you view the list of proofs that have been sent.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_delivery_log_tab.png" title="s_ncs_user_delivery_log_tab.png" />
+  <p>You can modify the information displayed in this window (and that of the <strong>Delivery</strong> and <strong>Tracking</strong> tabs) by selecting the columns to be displayed. To do this, click the <strong>Configure list</strong> icon located in the lower right-hand corner. For more on configuring list display, refer to <a href="../../platform/using/adobe-campaign-workspace.md#configuring-lists">this section</a>. </p> 
+  <h3 id="delivery-dashboard-synchronization">Delivery dashboard synchronization</h3>
+  <p>From your delivery dashboard, you want to check the processed messages and delivery logs to be sure that your delivery was successfully sent.</p> 
+  <p>Some indicators or status can be incorrect or not up-to-date, this may be resolved with the following solutions:</p> 
+  <ul>
+   <li><p>If your delivery status is incorrect, check that all necessary approvals have been done for this delivery or that the <strong>operationMgt</strong> and <strong>deliveryMgt</strong> workflows are running without errors. This can also be due to the delivery using an affinity not configured on the sending instance.</p> </li>
+   <li><p>If your delivery indicators are still at zero and if you are on a mid-sourcing configuration, check the <strong>Mid-sourcing (delivery counters)</strong> technical workflow. Start it if its status is not <strong>Started</strong>. You can then try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting <strong>Actions</strong> &gt; <strong>Recompute delivery and tracking indicators</strong>. For more information on tracking indicators, refer to this <a href="../../reporting/using/reports-on-deliveries.md#tracking-indicators">section</a>.</p> </li>
+   <li><p>If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting <strong>Actions</strong> &gt; <strong>Recompute delivery and tracking indicators</strong> to resynchronize. For more information on tracking indicators, refer to this <a href="../../reporting/using/reports-on-deliveries.md#tracking-indicators">section</a>.</p> </li>
+   <li><p>If your delivery counter is not up-to-date for mid-sourcing deployments, check that the <strong>Mid-Sourcing (Delivery counters)</strong> technical workflow is running. For more on this, refer to this <a href="../../installation/using/mid-sourcing-deployment.md">page</a>.</p> </li>
+  </ul>
+  <p>You can also track your deliveries with different reports via the delivery dashboard. For more on this, refer to this <a href="../../reporting/using/reports-on-deliveries.md#accessing-existing-reports">section</a>.</p> 
+  <h2 id="performance-issues">Performance issues</h2>
+  <h3 id="checklist-">Checklist</h3>
+  <p>If delivery performances are bad, you can check:</p> 
+  <ul>
+   <li><p><strong>The size of the delivery</strong>: Large deliveries can take longer to complete. MTA children are configured to handle a default batch size, which works for most instances, but need to be checked when deliveries are constantly slow.</p> </li>
+   <li><p><strong>The target of the delivery</strong>: Delivery performances ban be affected by soft bounce errors, which are handled according to the retry configuration. The greater the number of errors, the more retries needed. </p> </li>
+   <li><p><strong>The overall platform load</strong>: When several large deliveries are being sent, the overall platform can be affected. You can also check IP reputation and deliverability issues. For more on this, refer to Adobe Campaign <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html"> Deliverability best practices guide</a> and to <a href="../../delivery/using/about-deliverability.md">this page</a>.</p> </li>
+  </ul>
+  <p>Platform and database maintenance can also affect delivery sending performances. For more on this, refer to <a href="../../production/using/database-performances.md">this page</a>.</p> 
+  <h3 id="slow-deliveries">Slow deliveries</h3>
+  <p>After clicking the <strong>Send</strong> button, your delivery seems to take longer than usual. This may be caused by different elements:</p> 
+  <ul>
+   <li><p>Some email providers might have blacklisted your IP addresses. In this case, check your broadlogs and consult <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html">this getting started</a> .</p> </li>
+   <li><p>Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html">Delivery best practices</a> to learn about content guidelines.</p> </li>
+   <li><p>Throttling might have occurred within the Adobe Campaign MTA. This is caused by:</p>
+    <ul> 
+     <li> <p>Messages pended (<strong>quotas met</strong> message): quotas declared by the declarative MX rules defined in Campaign have been met. For more information about this message, refer to <a href="../../delivery/using/technical-recommendations.md#quota-met">this page</a>. To learn more about MX rules, refer to <a href="../../delivery/using/technical-recommendations.md#mx-rules">this page</a>.</p> </li> 
+     <li> <p>Messages pended (<strong>dynamic flow control</strong> message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential blacklisting.</p> </li> 
+    </ul> </li>
+   <li><p>A system issue can prevent servers from interacting together: this can slow down the whole sending process. Check the servers to ensure that there is no memory or resource issues which can impact Campaign in the process of getting the personalization data for example.</p> </li>
+  </ul>
+  <h2 id="delivery-statuses">Delivery statuses</h2>
+  <p>While sending a delivery, you may face the following status on your delivery dashboard:</p> 
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Status<br /> </th> 
+     <th> Definitions and solutions<br /> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> Not applicable<br /> </td> 
+     <td> The delivery was taken into account by the server (MTA) but not processed.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Ignored<br /> </td> 
+     <td> The delivery was not sent to the recipient because of an error with his address. It was either blacklisted, quarantined, not provided or a duplicate. <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Sent<br /> </td> 
+     <td> The delivery was correctly sent to the message provider (but the recipient did not necessarily receive it).<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Failed<br /> </td> 
+     <td> The delivery could not reach the recipient because of an invalid address or a full inbox for example. It can also be linked to an issue with personalization blocks since they can generate errors when the schemas do not match the delivery mapping. See <a href="../../delivery/using/monitoring-a-delivery.md#failed-status" target="_blank">Failed status</a><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Taken into account by the service provider<br /> </td> 
+     <td> The SMS service provider received the delivery.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Received on mobile<br /> </td> 
+     <td> The recipient received the SMS on their mobile device.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Pending<br /> </td> 
+     <td> The delivery is ready to be sent and is going to be processed by the delivery server (MTA). See <a href="../../delivery/using/monitoring-a-delivery.md#pending-status" target="_blank">Pending status</a>.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Delivery canceled<br /> </td> 
+     <td> The delivery was canceled by an operator.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Prepared<br /> </td> 
+     <td> Intermediary status used only for external connectors such as the mobile channel. It follows the 'Pending' status and is the external connector that will determine the following status.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Sent to the service provider<br /> </td> 
+     <td> The delivery was sent to the SMS service provider but not received yet.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p>To learn how to optimize the deliverability of your Adobe Campaign emails, refer to Adobe Campaign <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html"> Deliverability best practices guide</a> and to <a href="../../delivery/using/about-deliverability.md">this page</a>.</p> 
+  <h3 id="pending-status">Pending status</h3>
+  <p>After confirming your delivery, you can see that the status of your delivery is <strong>Pending</strong>. This status means that the execution process is waiting on the availability of some resources.</p> 
+  <p>The <strong>Pending </strong>status can first mean that your delivery has been scheduled and is pending until the given date. For more on this, refer to the <a href="../../delivery/using/key-steps-when-creating-a-delivery.md#scheduling-the-delivery-sending">Delivery scheduling</a> section.</p> 
+  <p>If your delivery is not being sent and its status remains <strong>Pending</strong>, it can be the result of:</p>
+  <ul> 
+   <li> <p>The MTA (Message Transfert Agent), that runs modules and processes on the delivery server and that manages email sending, may have not been started, or need to be restarted. </p> <p>To check this and to start the module if necessary, apply the following steps:</p> </li>
+   <li> </li> 
+   <li> </li> 
+   <li> <p>The delivery may be using an affinity not configured on the sending tenant. In this case, check the configuration of the traffic management (IP affinity) and use the <strong>Managing affinities with IP addresses</strong> field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to <a href="../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters">this section</a>.</p> </li> 
+   <li> <p>When the delivery preparation is pending, there can be too many campaigns running, which blocked the status update of the delivery. To solve this, go to <strong>Options</strong> and increase the value of <strong>NmsOperation_LimitConcurrency</strong> (default is 10). Do not run more campaigns than the value assigned to this specific option.</p> </li> 
+  </ul>
+  <p></p> 
+  <h3 id="failed-status">Failed status</h3>
+  <p> If an email delivery's status is <strong>Failed</strong>, it can be linked to an issue with personalization blocks. Personalization blocks in a delivery can generate errors when the schemas do not match the delivery mapping, for example.</p> 
+  <p>Delivery logs are key to learn why a delivery failed. Here are possible errors that you can detect from delivery logs:</p> 
+  <ul>
+   <li><p>If recipient messages are failing with an "Unreachable" error stating: <strong>Error while compiling script 'content htmlContent' line X: [table] is not defined. JavaScript: error while evaluating script 'content htmlContent</strong>, the cause of this issue is almost always a personalization within the HTML attempting to call upon a table or field that has not been defined or mapped in the upstream targeting or in the delivery's target mapping. </p> <p>To correct this, the workflow and delivery content need to be reviewed to determine specifically what personalization is attempting to call the table in question and whether or not the table can be mapped. From there, either removing the call to this table in the HTML or fixing the mapping to the delivery would be the path to resolution.</p> </li>
+   <li><p>In mid-sourcing deployment model, the following message can appear in the delivery logs: <strong>Error during the call of method 'AppendDeliveryPart' on the mid sourcing server: 'Communication error with the server: please check this one is correctly configured. Code HTTP 408 'Service temporarily unavailable'</strong>. </p> <p>The cause is linked to performance issues. It means that the marketing instance spend too much time building data before sending it to the mid-sourcing server. </p> <p>To solve this, we recommend performing a vacuum and reindex on the database. For more information on database maintenance, refer to <a href="../../production/using/recommendations.md">this section</a>. </p> <p>You should also restart all workflows with a scheduled activity, and all workflows in failed status. Refer to <a href="../../workflow/using/scheduler.md">this section</a>.</p> </li>
+   <li><p>When a delivery fails, the following error can appear in the delivery logs: <strong>DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.</strong></p> <p>Usually, this error means that there is a personalization field or block within the email that has more than one values for the recipient. A personalization block is being used and it is fetching more than one record for a particular recipient.</p> <p>To solve this, check the personalization data used, and then check the target for recipients that have more than one entry for any of those fields. You can also use a <strong>Deduplication</strong> activity in the targeting workflow prior to the delivery activity to check there is only one personalization field at a time. For more information on deduplication, refer to <a href="../../workflow/using/deduplication.md">this page</a>.</p> </li>
+   <li><p> Some delivery can fail with an "Unreachable" error stating: "Inbound email bounce (rule 'Auto_replies' has matched this bounce). This means that the delivery succeeded but Adobe Campaign received an auto-reply from the recipient (e.g. an "Out of office" reply) that matched the 'Auto_replies' inbound email rules. The auto-reply email is ignored by Adobe Campaign, and the recipient's address will not be sent to quarantines.</p> </li>
+  </ul>
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history" target="_blank">Delivery logs and history</a></p> </li>
+   <li><p> <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">Understanding delivery failures</a></p> </li>
+   <li><p> <a href="../../delivery/using/monitoring-a-delivery.md#delivery-failure-types-and-reasons" target="_blank">Delivery failure types and reasons</a></p> </li>
+  </ul>
+  <h2 id="number-of-messages-sent">Number of messages sent</h2>
+  <p>You can access deliveries from the delivery list, via the <strong>Campaign Management &gt; Deliveries</strong> node of the tree.</p> 
+  <p>By default, the list of deliveries contains the names and statuses of the deliveries created in the selected node. It also shows the number of messages to send, processed and sent with success.</p> 
+  <ul>
+   <li><p>The number of <strong>Messages to send</strong> corresponds to the number of recipients targeted after analysis and prior to delivery.</p> </li>
+   <li><p>The number of messages in the <strong>success</strong> column corresponds to the number of messages sent by the server and received by the recipients.</p> </li>
+   <li><p>The number of <strong>processed</strong> messages corresponds to the number of messages received plus the number of messages with errors.</p> </li>
+  </ul>
+  <p>The delivery dashboard lets you track the number of messages sent.</p> 
+  <note>
+   <p> For large deliveries, you may wish to update these values. To do this, select the delivery in question and then right-click it. Select <strong>Action &gt; Recompute delivery and tracking indicators...</strong> and then use the wizard to update this information.<br /> </p> 
+  </note>
+  <h2 id="scheduled-deliveries-">Scheduled deliveries</h2>
+  <p>If deliveries do not execute at exact scheduled date, it can be related to a difference between servers time zone. The mid-sourcing instance and the production instance can be in different time zones.</p> 
+  <p>As an example, if the mid-sourcing instance is in Brisbane time zone and production instance is in Darwin time zone, both time zones are half an hour apart from each other, then in the audit log you would clearly see that if the delivery is scheduled for production at 11:56, the same delivery scheduled for mid would be at 12:26 which has a difference of half an hour. </p> 
+ </body>
+</html>

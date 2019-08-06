@@ -1,0 +1,46 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-08-06T06:59:25.978-0400" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="a199ed00-e8a9-4bb0-9615-fb25bb797e93" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="Creating a delivery from a template" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="seoDescription" />
+  <meta content="63837fa9-1508-4aa2-8983-d580954071b7" name="jcr:predecessors" />
+  <meta content="Creating a delivery from a template" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Creating a delivery from a template" name="jcr:description" />
+ </head>
+ <body>
+  <h2 id="linking-the-template-to-a-delivery">Linking the template to a delivery</h2>
+  <p>To create a delivery based on an existing template, select the template from the list of available delivery templates. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_select_template.png" title="s_ncs_user_wizard_select_template.png" />
+  <p> Otherwise, click the <strong>Select link</strong> folder to the right of the field to browse the tree.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_choose_link.png" title="s_ncs_user_wizard_choose_link.png" />
+  <p>Select the desired directory from the <strong>Folder</strong> field, or click the <strong>Display sub-levels</strong> icon to display the contents of the directories in the sub-trees of the current directory.</p> 
+  <p>Select the delivery template to be used, and click <strong>Ok</strong>.</p> 
+  <h2 id="executing-the-template">Executing the template</h2>
+  <p>You can launch the execution of a template directly from the template list without creating a delivery first. To do this, select the template to be executed and right-click. Select <strong>Actions&gt;Execute the delivery template...</strong>.</p> 
+  <p>You can also use <strong>File&gt;Actions&gt;Execute the delivery template...</strong>. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_template_execute_menu.png" title="s_ncs_user_template_execute_menu.png" />
+  <p>Enter the delivery parameters and click <strong>Send</strong>.</p> 
+  <p>This action generates a delivery in the folder attached to the template. The name of this delivery is the name of the delivery template from which it was created.</p> 
+  <note>
+   <p> For further information about configuring a delivery, see <a href="../../delivery/using/defining-the-email-content.md" target="_blank">Defining the email content</a>.<br /> </p> 
+  </note>
+ </body>
+</html>

@@ -1,0 +1,71 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Using the context" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:reporting" name="cq:tags" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Using the context" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Using the context" name="navTitle" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="bd317fc3-c0a1-4e99-bcae-087662ea30eb" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-08-06T06:59:35.693-0400" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="3a8f9d86-a8c1-4044-8095-7567dcdd1aca" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="seoDescription" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+ </head>
+ <body>
+  <p>When you want to represent data in the form of <strong>tables</strong> or <strong>charts</strong>, it can be taken from two sources: a new query (refer to <a href="../../reporting/using/using-the-context.md#defining-a-direct-filter-on-data" target="_blank">Defining a direct filter on data</a>) or the report context (refer to <a href="../../reporting/using/using-the-context.md#using-context-data" target="_blank">Using context data</a>).</p> 
+  <h2 id="defining-a-direct-filter-on-data">Defining a direct filter on data</h2>
+  <h3 id="filtering-data">Filtering data</h3>
+  <p>Using a <strong>Query</strong> type activity isn't mandatory when building a report. Data can be filtered directly in the tables and charts that make up the report.</p> 
+  <p>This enables you to select the data to display in the report directly via the <strong>Page</strong> activity of the report. </p> 
+  <p>To do this, click the <strong>Filter data...</strong> link in the <strong>Data</strong> tab: this link lets you access the expressions editor to define a query on the data to be analyzed.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_filter_data_from_page.png" title="reporting_filter_data_from_page.png" />
+  <h3 id="example--use-a-filter-in-a-chart">Example: use a filter in a chart</h3>
+  <p>In the following example, we want the chart to show only recipient profiles who live in France and who made a purchase during the year.</p> 
+  <p>To define this filter, place a page in the chart and edit it. Click the <strong>Filter data</strong> link and create the filter that matches the data you want to display. For more on building queries in Adobe Campaign, refer to <a href="../../platform/using/about-queries-in-campaign.md">this section</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_029.png" title="s_ncs_advuser_report_wizard_029.png" />
+  <p>Here, we want to display the breakdown by city of selected recipients.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_graph_with_2vars.png" title="reporting_graph_with_2vars.png" />
+  <p>The rendering will look like this: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_graph_with_2vars_preview.png" title="reporting_graph_with_2vars_preview.png" />
+  <h3 id="example--use-a-filter-in-a-pivot-table">Example: use a filter in a pivot table</h3>
+  <p>In this example, the filter lets you display only non-Parisian customers in the pivot table, without using another query beforehand.</p> 
+  <p>Apply the following steps:</p> 
+  <ol>
+   <li><p>Place a page in the chart and edit it.</p> </li>
+   <li><p>Create a pivot table.</p> </li>
+   <li><p>Go to the <strong>Data</strong> tab and select the cube to be used.</p> </li>
+   <li><p> Click the <strong>Filter data...</strong> link and define the following query to remove Adobe from the list of companies.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_display_03.png" title="s_ncs_advuser_report_display_03.png" /></li>
+  </ol>
+  <p>Only recipients that meet the filtering criteria will appear in the report.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_display_04.png" title="s_ncs_advuser_report_display_04.png" />
+  <h2 id="using-context-data">Using context data</h2>
+  <p>To represent data in the form of a <strong>table</strong> or a <strong>chart</strong>, the data can come from the report context.</p> 
+  <p>In the page that contains the table or the chart, the <strong>Data</strong> tab lets you select the data source. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_datasource_3.png" title="s_ncs_advuser_report_datasource_3.png" />
+  <ul>
+   <li><p>The <strong>New query</strong> option lets you build a query to collect data. For more on this, refer to <a href="../../reporting/using/using-the-context.md#defining-a-direct-filter-on-data" target="_blank">Defining a direct filter on data</a>.</p> </li>
+   <li><p>The <strong>Context data</strong> option lets you use the input data: the context of the report coincides with the information contained in the inbound transition of the page that contains the chart or the table. This context may, for instance, contain data collected via a <strong>Query</strong> activity placed before the <strong>Page</strong> activity and for which you need to specify the table and the fields that the report concerns.</p> </li>
+  </ul>
+  <p>For instance, in a query box, build the following query for the recipients:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_datasource_2.png" title="s_ncs_advuser_report_datasource_2.png" />
+  <p>Then indicate the source of the data in your report, in this case: <strong>Data from the context</strong>.</p> 
+  <p>The data location is inferred automatically. If necessary, you can force the data path.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_datasource_4.png" title="s_ncs_advuser_report_datasource_4.png" />
+  <p>When you select the data which the statistics will concern, the available fields coincide with the data specified in the query.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_datasource_1.png" title="s_ncs_advuser_report_datasource_1.png" />
+ </body>
+</html>

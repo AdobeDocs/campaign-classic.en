@@ -1,0 +1,80 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="a76de769-32ac-46b0-9b9f-1e93aac7ac61" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-08-06T06:59:27.750-0400" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Inbox rendering" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="344d37ff-0cb4-4146-9b1d-bce16be3d6c7" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Inbox rendering" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Inbox rendering" name="jcr:description" />
+  <meta content="" name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+ </head>
+ <body>
+  <h2 id="about-inbox-rendering">About inbox rendering</h2>
+  <p>Before hitting the <strong>Send</strong> button, make sure that your message will be displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.</p> 
+  <p>To allow this, Adobe Campaign leverages the <a href="https://litmus.com/email-testing">Litmus</a> web-based email testing solution to capture the renderings and make them available in a dedicated report. This enables you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications.</p> 
+  <note>
+   <p> Inbox rendering is configured on your instance by Adobe technical support and consultants. For more information, contact your Adobe Account executive.<br /> </p> 
+  </note>
+  <p>Litmus is a feature-rich email validation and previewing application. It allows email content creators to preview their message content in over 70 email renderers, such as the Gmail inbox or the Apple Mail client.</p> 
+  <p>The mobile, messaging and webmail clients available for <strong>Inbox rendering</strong> in Adobe Campaign are listed on the <a href="https://litmus.com/email-testing">Litmus website</a> (click <strong>View all email clients</strong>).</p> 
+  <note>
+   <p> Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as <strong>Preview</strong> and <a href="../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof">Proofs</a>.<br /> </p> 
+  </note>
+  <h2 id="about-litmus-tokens">About Litmus tokens</h2>
+  <p>As Litmus is a third-party service, it works on a credit-per-usage model. Each time a user calls on the Litmus functionality, credit is deducted.</p> 
+  <p>In Adobe Campaign, the credit corresponds to the number of available renderings (known as tokens).</p> 
+  <note>
+   <p> The number of Litmus tokens available depends on the Campaign license that you purchased. Check your license agreement.<br /> </p> 
+  </note>
+  <p>Each time you use the <strong>Inbox rendering</strong> feature in a delivery, each rendering generated decreases your available tokens by one.</p> 
+  <note>
+    Tokens account for each individual rendering and not for the whole Inbox rendering report, meaning that:
+   <br /> 
+   <ul> 
+    <li> <p>Each time the Inbox rendering report is generated, one token per messaging client is deducted: one token for the Outlook 2000 rendering, one for the Outlook 2010 rendering, one for the Apple Mail 9 rendering, and so on.</p> </li> 
+    <li> <p>For the same delivery, if you generate the Inbox rendering again, the number of available tokens is again decreased by the number of generated renderings.</p> </li> 
+   </ul> 
+  </note>
+  <p>The number of remaining available tokens is displayed in the <strong>General summary</strong> of the <a href="../../delivery/using/inbox-rendering.md#inbox-rendering-report" target="_blank">Inbox rendering report</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_tn_inbox_rendering_tokens.png" title="s_tn_inbox_rendering_tokens.png" />
+  <p>Typically, the Inbox rendering feature is used to test the HTML framework of a newly designed email. Each rendering requires approximately up to 70 tokens (depending on the number of environments generally tested on). However, in some cases you may require multiple inbox rendering reports to fully test your delivery. It could therefore take more tokens to complete several checks.</p> 
+  <note>
+   <p> If you are a Litmus client, you can use your own Litmus account to provision and use Inbox rendering in Adobe Campaign. For more on this, contact your Adobe account executive.<br /> Note that changing your Litmus credentials can cause authentication issues within Adobe Campaign.<br /> </p> 
+  </note>
+  <h2 id="accessing-the-inbox-rendering-report">Accessing the inbox rendering report</h2>
+  <p>Once you have created your email delivery and defined its content as well as the targeted population, follow the steps below.</p> 
+  <p>For more on creating, designing and targeting a delivery, refer to <a href="../../delivery/using/about-email-channel.md">this section</a>.</p> 
+  <ol>
+   <li><p>On the top bar of the delivery, click the <strong>Inbox rendering</strong> button.</p> </li>
+   <li><p>Select <strong>Analyze</strong> to start the capture process.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_tn_inbox_rendering_button.png" title="s_tn_inbox_rendering_button.png" /><p>A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to <a href="../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof">this section</a>.</p> </li>
+   <li><p>After being sent, the proof appears in the delivery list. Double-click it.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_tn_inbox_rendering_delivery_list.png" title="s_tn_inbox_rendering_delivery_list.png" /></li>
+   <li><p>Go to the <strong>Inbox Rendering</strong> tab of the proof.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_tn_inbox_rendering_tab.png" title="s_tn_inbox_rendering_tab.png" /><p>The Inbox rendering report is displayed.</p> </li>
+  </ol>
+  <h2 id="inbox-rendering-report">Inbox rendering report</h2>
+  <p>This report displays the inbox renderings as they appear to the recipient. The renderings can differ based upon how the recipient opens the email delivery: in a browser, on a mobile device, or via an email application.</p> 
+  <p>The <strong>General summary</strong> presents the number of messages received, unwanted (spam), not received, or pending reception, as a list and through a graphical color-coded representation.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_tn_inbox_rendering_summary.png" title="s_tn_inbox_rendering_summary.png" />
+  <p>Hover over the chart to display the details for each color.</p> 
+  <p>The body of the report is divided into three parts: <strong>Mobile</strong>, <strong>Messaging clients</strong>, and <strong>Webmails</strong>. Scroll down the report to display all the renderings grouped into these three categories.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_tn_inbox_rendering_report.png" title="s_tn_inbox_rendering_report.png" />
+  <p>To get the details for each report, click the corresponding card. The rendering is displayed for the reception method selected.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_tn_inbox_rendering_example.png" title="s_tn_inbox_rendering_example.png" />
+ </body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="audience:production" name="primaryAudienceTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Configuration principle" name="jcr:description" />
+  <meta content="25cd2e43-601b-4b10-acf8-ce9a4e0e66ed" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Configuration principle" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-08-06T06:59:01.053-0400" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="7742b9f7-2966-4013-9e93-2c666ad6e0ec" name="jcr:predecessors" />
+  <meta content="" name="seoDescription" />
+  <meta content="Configuration principle" name="navTitle" />
+ </head>
+ <body>
+  <p>The Adobe Campaign platform is based on the concept of instances, similar to that of virtual hosts used by Apache. This mode of operation lets you share a server by assigning several instances to it. Instances are completely separate from each other and operate with their own database and configuration file.</p> 
+  <p>For a given server, there are two elements that are common to all Adobe Campaign instances: </p> 
+  <ul>
+   <li><p>The <strong>internal</strong> password: this is the general administrator password. It is common to all instances of a particular application server.</p> 
+    <note>
+      To log on with the 
+     <strong>Internal</strong> identifier, you need to have defined a password beforehand. For more on this, refer to 
+     <a href="../../installation/using/configuring-campaign-server.md#internal-identifier">this section</a>.
+     <br /> 
+    </note></li>
+   <li><p>Multiple technical server configurations: these configurations can all be overloaded in the specific configuration of an instance.</p> </li>
+  </ul>
+  <p>The configuration files are saved in the <strong>conf</strong> directory of the installation directory. The configuration is broken down into three files:</p> 
+  <ul>
+   <li><p><strong>serverConf.xml</strong>: overall configuration for all instances.</p> </li>
+   <li><p><strong>config-<strong>
+       <instance /></strong>.xml</strong> (where <strong>
+      <instance /></strong> is the instance name): specific configuration of an instance.</p> </li>
+   <li><p><strong>serverConf.xml.diff</strong>: delta between the initial configuration and the current configuration. This file is generated automatically by the application and must not be modified manually. It is used to automatically propagate user modifications when updating a build version.</p> </li>
+  </ul>
+  <p>An instance configuration is loaded as follows: </p> 
+  <p></p>
+  <ul>
+   <li><p>The module loads the <strong>serverConf.xml</strong> file to obtain the parameters shared by all instances.</p> </li>
+   <li><p>It then loads the <strong>config-<strong>
+       <instance /></strong>.xml</strong> file. The values found in this file have priority over values contained in <strong>serverConf.xml</strong>.</p><p>These two files have the same format. Any value in <strong>serverConf.xml</strong> can be overloaded for a given instance in the <strong>config-
+      <instance>
+       .xml
+      </instance></strong> file.</p> </li> 
+  </ul>
+  <p></p> 
+  <p>This operating mode provides great flexibility for configurations.</p> 
+ </body>
+</html>

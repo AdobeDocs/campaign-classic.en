@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="How to use workflow data" name="jcr:description" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="50f4c75e-58a3-418d-9b13-220f6977026a" name="jcr:predecessors" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="How to use workflow data" name="navTitle" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="How to use workflow data" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="93a87d5c-6895-4c88-85f8-2210a3f39a9e" name="jcr:uuid" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2019-08-06T06:59:13.153-0400" name="jcr:created" /> 
+  <meta content="audience:workflow" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <h2 id="updating-the-database">Updating the database</h2> 
+  <p>All collected data can be used to update the database, or in deliveries. For example, you can enrich message content personalization possibilities (include the number of contracts in the message, specify the average shopping cart over the last year, etc.) or detail population targeting (send a message to contract co-holders, target the 1,000 best subscribers to online services, etc.). This data can also be exported or archived in a list.</p> 
+  <h3 id="lists-and-direct-updates">Lists and direct updates</h3> 
+  <p>The data of the Adobe Campaign database and the existing lists can be updated using two dedicated activities:</p> 
+  <ul> 
+   <li><p>The <strong>List update</strong> activity lets you store worktables in a datalist.</p> <p>You can select an existing list or create it. In this case, the name and possibly the record folder are computed.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_create_list.png" title="s_user_create_list.png" /><p>Refer to <a href="../../workflow/using/list-update.md" target="_blank">List update</a>.</p> </li> 
+   <li><p>The <strong>Update data</strong> activity performs a mass update of the fields in the database.</p> <p>For more on this, refer to <a href="../../workflow/using/update-data.md" target="_blank">Update data</a>.</p> </li> 
+  </ul> 
+  <h3 id="subscription-unsubscription-management">Subscription/unsubscription management</h3> 
+  <p>To find out about subscribing and unsubscribing recipients to an information service via a workflow, refer to <a href="../../workflow/using/subscription-services.md" target="_blank">Subscription Services</a>.</p> 
+  <h2 id="sending-via-a-workflow">Sending via a workflow</h2> 
+  <h3 id="delivery-activity">Delivery activity</h3> 
+  <p>The delivery activity is detailed in <a href="../../workflow/using/delivery.md" target="_blank">Delivery</a>.</p> 
+  <h3 id="enriching-and-targeting-deliveries">Enriching and targeting deliveries</h3> 
+  <p>Deliveries can process data from workflows in order to customize content or within the framework of target population selection.</p> 
+  <p>For example, within the framework of a direct mail delivery, you can include the additional data, taken from data manipulation carried out in the workflow, in the extraction file:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_add_data_postal_mail.png" title="s_advuser_add_data_postal_mail.png" /> 
+  <p>In addition to the usual personalization fields, you can add personalization fields from workflow stages to the delivery content. The additional data defined in the workflow activities can be kept and made accessible in the delivery wizard, as shown in the example below, for defining the name of the output file within the framework of direct mail delivery:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_using_additional_data.png" title="s_advuser_using_additional_data.png" /> 
+  <p>The data contained in the workflow table is identified by its name: it is always made up of the <strong>targetData</strong> link. For more on this, refer to <a href="../../workflow/using/how-to-use-workflow-data.md#target-data" target="_blank">Target data</a>.</p> 
+  <p>Within the framework of email delivery, personalization fields can also use data from target extension performed in the targeting workflow stages, as shown in the example below: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_add_data_email.png" title="s_advuser_add_data_email.png" /> 
+  <p>If a segment code is specified in a targeting activity, it is added to a specific column of the workflow table and will be offered along with the personalization fields. To display all personalization fields, click the <strong>Target extension &gt; Other...</strong> link accessible via the personalization button.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_segment_code_select.png" title="s_advuser_segment_code_select.png" /> 
+  <h2 id="exporting-data">Exporting data</h2> 
+  <h3 id="zipping-or-encrypting-a-file">Zipping or encrypting a file</h3> 
+  <p>Adobe Campaign lets you export zipped or encrypted files. When defining an export through a <strong>Data extraction (file)</strong> activity, you can define a post-processing to zip or to encrypt the file.</p> 
+  <p>To be able to do so:</p> 
+  <ul> 
+   <li><p>If your installation of Adobe Campaign is hosted by Adobe: send a request to <a href="https://support.neolane.net">Support</a> to have the necessary utilities installed on the server.</p> </li> 
+   <li><p>If your installation of Adobe Campaign is on premise: install the utility you want to use (for example: GPG, GZIP) as well as the necessary keys (encryption key) on the application server.</p> </li> 
+  </ul> 
+  <p>You can then use commands or code, such as:</p> 
+  <codeblock gutter="true" class="syntax html">
+    function&amp;nbsp;encryptFile(file)&amp;nbsp;{&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;var&amp;nbsp;systemCommand&amp;nbsp;=&amp;nbsp;“gpg&amp;nbsp;--encrypt&amp;nbsp;--recipient&amp;nbsp;&amp;nbsp;recipientToEncryptTo&amp;nbsp;”&amp;nbsp;+&amp;nbsp;file;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;var&amp;nbsp;result&amp;nbsp;=&amp;nbsp;execCommand(systemCommand,&amp;nbsp;true);&amp;nbsp;!!discoiqbr!!} 
+  </codeblock> 
+  <p>When importing a file, you can also unzip or decrypt it. See <a href="../../workflow/using/how-to-use-workflow-data.md#unzipping-or-decrypting-a-file-before-processing" target="_blank">Unzipping or decrypting a file before processing</a>.</p> 
+ </body> 
+</html>

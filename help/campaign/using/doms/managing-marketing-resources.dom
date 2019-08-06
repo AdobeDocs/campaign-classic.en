@@ -1,0 +1,150 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="Managing marketing resources" name="jcr:title" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Managing marketing resources" name="jcr:description" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="eda15168-5b18-4dee-b3cc-5f99c0b08e81" name="jcr:uuid" /> 
+  <meta content="71ade404-a8f1-434d-8c36-f0b306d9c903" name="jcr:predecessors" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="2019-08-06T06:59:10.081-0400" name="jcr:created" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Managing marketing resources" name="navTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="audience:campaign" name="primaryAudienceTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <p>Adobe Campaign lets you manage and track the marketing resources involved in the campaign life cycle. These marketing resources can be a brochure, a visual aid, or any other communication medium involving several operators.</p> 
+  <p>For each marketing resource managed via Adobe Campaign, you can track its status and history at any time and view the current version.</p> 
+  <h2 id="adding-a-marketing-resource">Adding a marketing resource</h2> 
+  <p>Marketing resources are accessed via the Campaigns universe.</p> 
+  <p>To add a resource, click the <strong>Create</strong> button.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_add.png" title="s_ncs_user_mkg_resource_add.png" /> 
+  <p>To make a resource available on the Adobe Campaign server, you must add the desired resource by dragging and dropping it in the middle area of the editor. You can also click the <strong>Upload file to server...</strong> link.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_file.png" title="s_ncs_user_mkg_resource_file.png" /> 
+  <p>A confirmation message lets you launch the upload.</p> 
+  <p>When upload is complete, the resource is added to the list of available resources. It is accessible to Adobe Campaign operators. They can view it (via the <strong>Preview</strong> tab), make a copy to modify it, or update the file on the server (using the <strong>Edit</strong> tab).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_extract.png" title="s_ncs_user_mkg_resource_extract.png" /> 
+  <p>Click the <strong>General</strong> tab to select the operators or groups of operators in charge of monitoring, tracking and approving this resource. Selecting the reviewer is done via the <strong>Advanced parameters</strong> link.</p> 
+  <ul> 
+   <li><p>The operator to whom the resource is assigned is responsible for tracking it.</p> </li> 
+   <li><p>The approving operator is responsible for approving the marketing resource. They will be notified when the resource validation process is launched. </p> <p>If no reviewer is selected, the resource <strong>cannot be</strong> subject to approval.</p> </li> 
+   <li><p>If necessary, you can also specify a proofreader.</p> </li> 
+  </ul> 
+  <p>You can specify an (indicative) availability date for the resource. Beyond this date, it will appear with <strong>Late</strong> status.</p> 
+  <h2 id="collaborative-work-on-resources">Collaborative work on resources</h2> 
+  <p>You can modify and update a marketing resource and, if necessary, inform other Adobe Campaign operators of this. You can:</p> 
+  <ul> 
+   <li><p>Download the resource locally in order to modify it.</p> </li> 
+   <li><p>Update the file on the server and make it accessible to other operators.</p> </li> 
+   <li><p>Lock a resource in order to prohibit its modification by other operators.</p> </li> 
+  </ul> 
+  <note> 
+   <p> The <strong>History</strong> tab contains the download and update log for the resource. The <strong>Details</strong> button lets you view the selected version:<br /> </p> 
+  </note> 
+  <h3 id="locking-unlocking-a-resource">Locking/unlocking a resource</h3> 
+  <p>Once created, resources are available in the marketing resource dashboard, and operators can edit and modify them.</p> 
+  <p>When an operator wishes to work on a resource, it is preferable to lock it before starting work, to prevent other operators from modifying it at the same time. The resource is then reserved; it remains accessible, but cannot be published or updated on the server by another operator. </p> 
+  <p>A special message notifies any operators who try to access it:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_locked.png" title="s_ncs_user_mkg_resource_locked.png" /> 
+  <p>The <strong>Tracking</strong> tab indicates the name of the operator who locked the resource and the planned update date.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_locked_date.png" title="s_ncs_user_mkg_resource_locked_date.png" /> 
+  <p>To lock a resource, you must click the resource followed by the <strong>Lock</strong> button in the resource dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_lock.png" title="s_ncs_user_mkg_resource_lock.png" /> 
+  <p>You can indicate the planned return date in the <strong>Tracking</strong> tab of the resource.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_lock_date.png" title="s_ncs_user_mkg_resource_lock_date.png" /> 
+  <p>This information lets you inform other Adobe Campaign operators of the date on which the resource will be unlocked.</p> 
+  <p>When the resource has been updated, it is automatically unlocked and made available to all operators again.</p> 
+  <p>If necessary, you can also unlock it manually from the dashboard.</p> 
+  <note> 
+   <p> Only the operator who locked the resource and operators with Administrator rights are authorized to unlock a resource.<br /> </p> 
+  </note> 
+  <h3 id="discussion-forums">Discussion forums</h3> 
+  <p>For each resource, the <strong>Forum</strong> tab lets participants exchange information.</p> 
+  <p> <a href="../../campaign/using/discussion-forums.md" target="_blank">Discussion forums</a> explains how discussion forums operate in Adobe Campaign.</p> 
+  <h2 id="life-cycle-of-a-marketing-resource">Life cycle of a marketing resource</h2> 
+  <p>When the resource is created, Adobe Campaign operators are appointed to design, proofread, approve and publish the resource. A duration can be determined for these campaigns. </p> 
+  <p>The <strong>Tracking</strong> tab lets you monitor any actions carried out on the resource: approvals, approval refusals, related comments, or publications. </p> 
+  <p>The <strong>History</strong> tab displays file transfers carried out for this resource.</p> 
+  <h3 id="approval-process">Approval process</h3> 
+  <p>The expected availability date is displayed in the resource details, if it was specified in the <strong>Tracking</strong> tab. Once this date is reached, you can execute the approval process using the <strong>Submit for approval</strong> button in the resource dashboard. The resource status then changes to <strong>Approval in progress</strong>.</p> 
+  <p>A resource can be approved via the <strong>Approve resource</strong> button on its dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_task_valid_date.png" title="s_ncs_user_task_valid_date.png" /> 
+  <p>Authorized operators can then accept or reject approval. This action is possible either: via the email message sent (by clicking the link in the notification message) or via the console (by clicking the <strong>Approve</strong>) button.</p> 
+  <p>The approval window lets you enter a comment.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_valid_ok.png" title="s_ncs_user_mkg_resource_valid_ok.png" /> 
+  <p>The <strong>Tracking</strong> tab enables all operators to track the various stages of the approval process.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_log.png" title="s_ncs_user_mkg_resource_log.png" /> 
+  <note> 
+   <p> In addition to the reviewer specified for each marketing resource, operators with administrator rights and the resource manager are authorized to approve a marketing resource.<br /> </p> 
+  </note> 
+  <h3 id="publishing-a-resource">Publishing a resource</h3> 
+  <p>When approved, the marketing resource must be published. The publication process must be subject to specific implementation according to company requirements. This means that resources can be published on an extranet or any other server, specific information can be sent to an external service provider, etc.</p> 
+  <p>To publish a resource, click the <strong>Publish</strong> button in the editing zone of the marketing resource dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_available.png" title="s_ncs_user_mkg_resource_available.png" /> 
+  <p>You can also automate the publishing of a resource via a workflow.</p> 
+  <p>Publishing a resource means making it available for use (by another task, for instance). Publication as such varies depending on the nature of your resource: for a flyer, publishing can mean sending the file to a printer, for a web agency, it can mean publishing it to a website, etc.</p> 
+  <p>In order for Adobe Campaign to publish, you need to create an adequate workflow and link it to the resource. To do this, open the <strong>Advanced settings</strong> box of the resource, then select the desired workflow in the <strong>Post-processing</strong> field.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mrm_asset_postprocessing_workflow.png" title="mrm_asset_postprocessing_workflow.png" /> 
+  <p>The workflow will be executed:</p> 
+  <ul> 
+   <li><p>When the reviewer clicks the <strong>Publish resource</strong> link (or, if no reviewer was defined, the person in charge of the resource).</p> </li> 
+   <li><p>If the resource is managed via a marketing resource creation task, it will be executed when the task is set to <strong>Finished</strong>, as long as the <strong>Publish the marketing resource</strong> box is checked in the task (Refer to <a href="../../campaign/using/managing-marketing-resources.md#marketing-resource-creation-task" target="_blank">Marketing resource creation task</a>)</p> </li> 
+  </ul> 
+  <p>If a workflow isn't started immediately (if the workflow is stopped for instance), the status of the resource changes to <strong>Pending publication</strong>. Once the workflow is started, the status of the resource changes to <strong>Published</strong>. This status does not take into account possible errors in the publishing process. Check the status of your workflow to make sure it has executed properly.</p> 
+  <h2 id="linking-a-resource-to-a-campaign">Linking a resource to a campaign</h2> 
+  <h3 id="referencing-a-marketing-resource">Referencing a marketing resource</h3> 
+  <p>Marketing resources can be associated with campaigns, provided that this feature was selected in the campaign template. </p> 
+  <note> 
+   <p> For details on how to create and configure campaign templates, refer to <a href="../../campaign/using/managing-marketing-resources.md#campaign-templates" target="_blank">Campaign templates</a>.<br /> </p> 
+  </note> 
+  <p>Click the <strong>Documents &gt; Resources</strong> tab in the campaign dashboard, then click <strong>Add</strong> to select the resource concerned.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_ref.png" title="s_ncs_user_mkg_resource_ref.png" /> 
+  <p>You can filter resources by status, nature or type, or apply a personalized filter.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_ref_filter.png" title="s_ncs_user_mkg_resource_ref_filter.png" /> 
+  <p>Click <strong>OK</strong> to add the resource to the list of marketing resources referenced for this campaign.</p> 
+  <p>The <strong>Details</strong> button lets you edit and view it.</p> 
+  <p>The resources added are displayed in the dashboard. They can also be edited there.</p> 
+  <h3 id="adding-a-marketing-resource-to-a-delivery-outline">Adding a marketing resource to a delivery outline</h3> 
+  <p>Marketing resources can be associated with deliveries via delivery outlines.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_in_compo.png" title="s_ncs_user_mkg_resource_in_compo.png" /> 
+  <note> 
+   <p> For more information on delivery outlines, refer to <a href="../../campaign/using/managing-marketing-resources.md#associating-and-structuring-resources-linked-via-a-delivery-outline" target="_blank">Associating and structuring resources linked via a delivery outline</a>.<br /> </p> 
+  </note> 
+  <h2 id="stock-management">Stock management</h2> 
+  <p>You can associate a marketing resource with one or more stocks in order to manage your supplies and to display a warning on the dashboard in the event of insufficient stock.</p> 
+  <note> 
+   <p> For more information on stock management in Adobe Campaign, refer to <a href="../../campaign/using/managing-marketing-resources.md#stock-management" target="_blank">Stock management</a>.<br /> </p> 
+  </note> 
+  <p>To associate a marketing resource with a stock, edit the stock map and edit or create a stock. Add a stock line and select the corresponding marketing resource.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_task_in_a_stock.png" title="s_ncs_user_task_in_a_stock.png" /> 
+  <p>If necessary, you can edit the selected resource via the <strong>Edit the link</strong> icon (magnifying glass) located to the right of the resource once it has been selected.</p> 
+  <p>Specify the initial stock and the alert stock, and then save.</p> 
+  <p>The stock is indicated in the resource details.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_task_with_a_stock.png" title="s_ncs_user_task_with_a_stock.png" /> 
+  <p>When the stock is insufficient, a warning is sent to the concerned operators.</p> 
+  <h2 id="advanced-functions">Advanced functions</h2> 
+  <p>The marketing resources dashboard lets you carry out the usual types of operations: add, edit, lock/unlock, approve, publish. You can create other types of marketing resources and access advanced functionality via the Adobe Campaign tree. To do this, click <strong>Explorer</strong> in the Adobe Campaign home page. </p> 
+  <p>By default, marketing resources are stored in the <strong>MRM &gt; Marketing resources</strong> node of the tree.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_mkg_resource_create_from_list.png" title="s_ncs_user_mkg_resource_create_from_list.png" /> 
+  <p>You can add the following resources from this view: </p> 
+  <ul> 
+   <li><p>File </p> </li> 
+   <li><p>HTML </p> </li> 
+   <li><p>Text</p> </li> 
+   <li><p>URL</p> </li> 
+  </ul> 
+ </body> 
+</html>

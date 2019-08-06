@@ -1,0 +1,41 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="fbaab3cd-7bcc-45b8-97e5-56c330b11ba6" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Before starting" name="jcr:description" />
+  <meta content="audience:installation" name="primaryAudienceTag" />
+  <meta content="7aeb38c1-6218-4f11-9713-051728bcb8bd" name="jcr:uuid" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-08-06T06:59:29.308-0400" name="jcr:created" />
+  <meta content="Before starting" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Before starting" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <p>Before starting, any installation or configuration for Adobe Campaign, read out the following prerequisites and recommentations. </p> 
+  <ul>
+   <li><p>Refer to the <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Adobe Campaign Classic Compatibility matrix</a> which lists all versions of the systems and components supported for Adobe Campaign. </p> 
+    <note>
+     <p> This matrix is updated regularly for the latest build of Adobe Campaign. We therefore recommend you systematically check compatibility before implementing or migrating your systems and components.<br /> </p> 
+    </note></li>
+   <li><p>Read out the prerequisites for <a href="/installation/using/prerequisites.md">Windows</a> and <a href="/installation/using/prerequisites.md">Linux</a> installations.</p> </li>
+   <li><p>Learn recommendations related to database engines in <a href="../../installation/using/database.md">this section</a>.</p> </li>
+   <li><p>Check the required database access layers are installed on the server and accessible from the Adobe Campaign account. For more information, refer to <a href="../../installation/using/application-server.md">this section</a>.</p> </li>
+   <li><p>Configure your networks as certain processes of the application need to communicate with others or to access the LAN and internet. This means that some TCP ports need to be open for these processes. Refer to <a href="../../installation/using/network-configuration.md">this section</a> to learn more about Network configuration requirements.</p> </li>
+  </ul>
+ </body>
+</html>

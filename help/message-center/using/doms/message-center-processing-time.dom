@@ -1,0 +1,44 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="76cc1256-e64e-4350-91ba-66396c164130" name="jcr:uuid" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="seoDescription" />
+  <meta content="2019-08-06T06:59:42.042-0400" name="jcr:created" />
+  <meta content="5d980828-6a21-4a42-a95a-87ef02b73de7" name="jcr:predecessors" />
+  <meta content="Message Center processing time" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="audience:message-center" name="primaryAudienceTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Message Center processing time" name="navTitle" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Message Center processing time" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+ </head>
+ <body>
+  <p>This report displays the main indicators related to the real time queue. This report, aimed at technical administrators, can also be accessed via the <strong>Monitoring</strong> universe in the control instance.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mc_reports_2.png" title="mc_reports_2.png" />
+  <p>Just like for the <strong>Message Center service level</strong> report, you can choose to display the overall statistics or those relative to a particular execution instance. You can also filter the data by channel and over a specific period. The indicators displayed in the <strong>Indicators over the period</strong> section are calculated over the period selected:</p> 
+  <ul>
+   <li><p><strong>Average queuing time</strong>: the average time that successfully processed events spent in Message Center. Only the processing time is taken into account.</p> </li>
+   <li><p><strong>Average message sending time (s)</strong>: the average time that successfully processed events spent in Message Center. Only the mta delivery time is taken into account.</p> </li>
+   <li><p><strong>Average processing time (s)</strong>: the average time that successfully processed events spent in Message Center. The calculation takes the processing time and the mta sending time into account.</p> </li>
+   <li><p><strong>Maximum number of queued events</strong>: maximum number of events present in the Message Center queue at any given moment.</p> </li>
+   <li><p><strong>Minimum number of queued events</strong>: minimum number of events present in the Message Center queue at any given moment.</p> </li>
+   <li><p><strong>Average number of queued events</strong>: average number of events present in the Message Center queue at any given moment.</p> </li>
+  </ul>
+  <note>
+   <p> The warning (orange) and alert (red) indicator thresholds can be configured in Adobe Campaign deployment wizard. Refer to <a href="../../message-center/using/monitoring-thresholds.md" target="_blank">Monitoring thresholds</a>.<br /> </p> 
+  </note>
+ </body>
+</html>

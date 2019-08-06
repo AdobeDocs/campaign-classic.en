@@ -1,0 +1,51 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="d258eee5-c4c6-4db6-b06b-8b87c859e0b0" name="jcr:uuid" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Collecting all visits" name="jcr:description" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Collecting all visits" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Collecting all visits" name="navTitle" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="e5aef6bd-6b07-4f65-a714-e3de0a36311e" name="jcr:predecessors" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2019-08-06T06:59:45.536-0400" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <p>The web tracking module supplied by Adobe Campaign lets you collect the visits to certain pages of the site performed by a recipient in the context of site tracking following a click in a message. </p> 
+  <p>You can, however, configure your platform so that it collects all visits to pages with a web tracking tag by a user known to the platform.</p> 
+  <p>A user known to the platform is a recipient who has already been targeted by a delivery and who has clicked in a received message at least once. A permanent cookie is used to identify this recipient.</p> 
+  <note>
+    The Adobe Campaign platform is not intended for use as a website tracking tool beyond the context of visiting the site following a click in a message. When this option is enabled, it can cause very high use of resources on the machines hosting your servers (redirection, application, and database). You are advised to ensure that your hardware architecture can support this load, and to avoid placing web tracking tags in the most frequently visited pages, such as the home page. 
+   <br /> 
+  </note> 
+  <h2 id="server-configuration">Server configuration</h2> 
+  <p>The servers are configured by overloading certain elements of the <strong>serverConf.xml</strong> file. These files are saved in the <strong>conf</strong> subdirectory of the Adobe Campaign installation directory.</p> 
+  <h3 id="redirection-server">Redirection server</h3> 
+  <p>For the redirection server, set the <strong>trackWebVisitors</strong> attribute of the <strong>redirection</strong> element to <strong>true</strong>.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;redirection&amp;nbsp;P3PCompactPolicy="CAO&amp;nbsp;DSP&amp;nbsp;COR&amp;nbsp;CURa&amp;nbsp;DEVa&amp;nbsp;TAIa&amp;nbsp;OUR&amp;nbsp;BUS&amp;nbsp;IND&amp;nbsp;UNI&amp;nbsp;COM&amp;nbsp;NAV"!!discoiqbr!!databaseId=""&amp;nbsp;defLogCount="30"&amp;nbsp;expirationURL=""&amp;nbsp;maxJobsInCache="100"!!discoiqbr!!startRedirection="true"&amp;nbsp;startRedirectionInModule="true"&amp;nbsp;trackWebVisitors="true"!!discoiqbr!!trackingPassword="" 
+  </codeblock> 
+  <h2 id="configuring-a-default-matching-campaign">Configuring a default matching campaign</h2> 
+  <p>To view tracking information via your client console, you must:</p> 
+  <ul> 
+   <li><p>Create a <strong>dummy delivery</strong> (the delivery mapping must be identical to the mapping of the target schema),</p> </li> 
+   <li><p>Enter the <strong>internal name</strong> of this delivery in the <strong>NmsTracking_WebTrackingDelivery</strong> option.</p> </li> 
+  </ul> 
+  <p>All site tracking information not directly subsequent to a click in an e-mail can be viewed in the dummy delivery created. </p> 
+ </body> 
+</html>

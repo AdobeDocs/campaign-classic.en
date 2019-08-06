@@ -1,0 +1,41 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="About templates" name="jcr:description" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="About templates" name="navTitle" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="85f97704-3415-4130-b37c-804578d3aabf" name="jcr:uuid" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="About templates" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="216ddd9c-76ef-4229-ab36-0808783c5e3c" name="jcr:predecessors" /> 
+  <meta content="audience:delivery" name="primaryAudienceTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-08-06T06:59:25.420-0400" name="jcr:created" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>A delivery configuration can be saved in a delivery template in order to be re-used. The template may contain a complete or partial configuration of the delivery. </p> 
+  <p>The delivery template may be executed manually, as described in this chapter, or according to an event (launched at a set time, on arrival of a file at a server, etc.). Delivery templates can be configured via the <strong>Resources &gt; Templates &gt; Delivery templates </strong> node in the tree.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_template_list.png" title="s_user_template_list.png" /> 
+  <p>There are two types of template:</p> 
+  <ol> 
+   <li><p>Adobe Campaign native delivery templates</p> <p>Native templates MUST NOT be deleted from the system. They include a minimum configuration for each delivery channel. The administrator can, however, restrict certain functions or offer default values to users (tracking activation, sender email addresses, etc.). Native scenarios appear in bold in the list of templates. They must be duplicated in order to modify them.</p> </li> 
+   <li><p>Predefined delivery templates</p> <p>The Adobe Campaign administrator can create new delivery templates. They can be reused by operators (those with suitable access rights) or automatically by server processes. For example, you can configure an email delivery template, and when the user creates a delivery using this template, he simply needs to enter the text or HTML content and then deliver it; the other choices have already been defined by the administrator. </p> </li> 
+  </ol> 
+  <note> 
+   <p> The available templates depend on your access rights, on your instance configuration, and on the context. For instance, when you create an information service, you can link a delivery template for confirmation messages: you may then only access the templates whose target mapping is the subscription mapping. For more on this, refer to <a href="../../delivery/using/selecting-a-target-mapping.md" target="_blank">Selecting a target mapping</a> and <a href="../../delivery/using/about-services-and-subscriptions.md" target="_blank">About services and subscriptions</a>.<br /> </p> 
+  </note> 
+ </body> 
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="About message tracking" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-08-06T06:59:27.363-0400" name="jcr:created" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="1fc648be-a5f5-43b0-b29d-2bb1903493c7" name="jcr:uuid" />
+  <meta content="About message tracking" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="About message tracking" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="b913eb56-5534-4c66-9de4-68e0aaa5e760" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+ </head>
+ <body>
+  <p>In the context of an email delivery, tracking lets you track the messages sent and the behavior of recipients: opening, clicks on links, unsubscription, etc. This information is retrieved in the <strong>Tracking</strong> tab of the profile of each recipient of the delivery. This tab presents all the URL links tracked and clicked by the recipient selected from the list. This is the accumulation of all URLs tracked in the deliveries that are still present in the delivery screen. The list can be configured and typically will contain: the URL clicked, the date and time of the click, and the document in which the URL was found. For more on this, refer to <a href="../../platform/using/editing-a-profile.md#tracking-tab">this section</a>.</p> 
+  <p>Tracking metrics can be consulted in the <strong>URLs and click streams</strong>, <strong>Tracking statistics</strong>, and <strong>Hot clicks</strong> reports, and in the <strong>Tracking</strong> tab of the delivery.</p> 
+  <p>The delivery dashboard is also key to monitor your deliveries and eventual issues encountered during the sending of messages. For more on this refer to this <a href="../../delivery/using/monitoring-a-delivery.md">section</a>.</p> 
+  <p><strong>Related topics</strong>:</p> 
+  <ul>
+   <li><p> <a href="../../delivery/using/how-to-configure-tracked-links.md" target="_blank">How to configure tracked links</a></p> </li>
+   <li><p> <a href="../../production/using/tracking-logs-issues.md">Forwarding of tracking logs</a></p> </li>
+   <li><p> <a href="../../reporting/using/reports-on-deliveries.md#delivery-reports">Delivery reports</a></p> </li>
+   <li><p> <a href="../../web/using/tracking-a-web-application.md">Tracking a web application</a></p> </li>
+   <li><p> <a href="../../web/using/web-application-tracking-opt-out.md">Web application tracking opt-out</a></p> </li>
+  </ul>
+ </body>
+</html>

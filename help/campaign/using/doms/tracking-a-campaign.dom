@@ -1,0 +1,76 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="24202949-6415-4707-9b7b-47edefe1eaa0" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Tracking a campaign" name="jcr:description" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Tracking a campaign" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-08-06T06:59:11.410-0400" name="jcr:created" />
+  <meta content="Tracking a campaign" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="d1578ef2-b2d0-472b-aa88-1234c236b3f0" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:campaign" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>Central entity operators can track campaign orders in the list of campaign packages.</p> 
+  <p>This lets them: </p> 
+  <ul>
+   <li><p> <a href="../../campaign/using/tracking-a-campaign.md#filter-packages" target="_blank">Filter packages</a>,</p> </li>
+   <li><p> <a href="../../campaign/using/tracking-a-campaign.md#edit-packages" target="_blank">Edit packages</a>,</p> </li>
+   <li><p> <a href="../../campaign/using/tracking-a-campaign.md#cancel-a-package" target="_blank">Cancel a package</a>,</p> </li>
+   <li><p> <a href="../../campaign/using/tracking-a-campaign.md#reinitializing-a-package" target="_blank">Reinitializing a package</a>.</p> </li>
+  </ul>
+  <h2 id="filter-packages">Filter packages</h2>
+  <p>From the <strong>Campaigns universe</strong>, you can display the list of <strong>Campaign packages</strong> which regroups all existing Distributed Marketing campaigns. You can filter this list so that it displays only campaigns that are either published, late, pending approval, etc. To do this, click the links in the upper section of this view, or use the <strong>Filter list</strong> link and select the campaign package status to display.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_catalog_filter.png" title="mkg_dist_catalog_filter.png" />
+  <h2 id="edit-packages">Edit packages</h2>
+  <p>The <strong>Campaign packages</strong> page lets you view the summary of each package.</p> 
+  <p>This summary shows the following information: label, type of campaign, as well as the name of the campaign from which it was created, and the folder.</p> 
+  <p>Click the package name to edit it. You can also view orders by their local entities and by their status.</p> 
+  <p>This information is also offered in the <strong>Campaign orders</strong> view which lists all orders.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_catalog_op_command_details.png" title="mkg_dist_catalog_op_command_details.png" />
+  <p>The central operator can edit the order. There are two ways of doing this:</p> 
+  <ol>
+   <li><p>The operator can click the order name to edit it: this displays the order detail.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_catalog_op_command_edit1.png" title="mkg_dist_catalog_op_command_edit1.png" /><p> The <strong>Edit &gt; General</strong> tab lets you view information entered by the local entity when it ordered the campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_catalog_op_command_edit1a.png" title="mkg_dist_catalog_op_command_edit1a.png" /></li>
+   <li><p>The operator can click the campaign package label to edit it and change certain settings.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_catalog_op_command_edit2.png" title="mkg_dist_catalog_op_command_edit2.png" /></li>
+  </ol>
+  <h2 id="cancel-a-package">Cancel a package</h2>
+  <p>The central entity can cancel a campaign package at any time. </p> 
+  <p>Click <strong>Cancel</strong> in the campaign package <strong>Dashboard</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_cancel_op_from_dashboard.png" title="mkg_dist_cancel_op_from_dashboard.png" />
+  <p>The <strong>Comment</strong> field lets you justify the cancellation.</p> 
+  <p>For <strong>local campaigns</strong>, canceling a package removes it from the list of available marketing campaigns.</p> 
+  <p>For <strong>collaborative campaigns</strong>, canceling a package triggers numerous actions:</p> 
+  <ol>
+   <li><p>Any orders related to this package are canceled,</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_mutual_op_cancelled.png" title="mkg_dist_mutual_op_cancelled.png" /></li>
+   <li><p>The reference campaign is canceled and all active processes (workflows, deliveries) are stopped,</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_mutual_op_cancelled1.png" title="mkg_dist_mutual_op_cancelled1.png" /></li>
+   <li><p>A notification is sent to all local entities concerned.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_mutual_op_cancelled2.png" title="mkg_dist_mutual_op_cancelled2.png" /></li>
+  </ol>
+  <p>Canceled packages can still be accessed and reinitialized by the central entity (see below) if necessary. They will only be offered to local entities again once they have been approved and started. The package reinitialization process is shown below.</p> 
+  <h2 id="reinitializing-a-package">Reinitializing a package</h2>
+  <p>Campaign packages which have already been published can be reinitialized, modified and made available to local entities. </p> 
+  <ol>
+   <li><p>Select the package concerned.</p> </li>
+   <li><p>Click the <strong>Reinitialize the package to reuse it</strong> link and click <strong>OK</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_mutual_op_reinit.png" title="mkg_dist_mutual_op_reinit.png" /></li>
+   <li><p>Click the <strong>Save</strong> button to approve package re-initialization.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_mutual_op_reinit2.png" title="mkg_dist_mutual_op_reinit2.png" /></li>
+   <li><p>The package status changes to <strong>Being edited</strong>. Modify, approve and publish it again to restore it to the list of campaign package.</p> </li>
+  </ol>
+  <note>
+   <p> You can also reinitialize canceled campaign packages.<br /> </p> 
+  </note>
+ </body>
+</html>

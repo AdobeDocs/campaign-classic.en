@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="84b8680f-5f72-43d4-a26f-69122c9cc646" name="jcr:predecessors" />
+  <meta content="About connectors" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="About connectors" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="4b158d85-5709-4981-9505-21b8d724f6fc" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="seoDescription" />
+  <meta content="2019-08-05" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:connectors" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="About connectors" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:platform" name="primaryAudienceTag" />
+  <meta content="2019-08-06T07:02:32.917-0400" name="jcr:created" />
+ </head>
+ <body>
+  <p>Adobe Campaign provides several connectors that allow you to communicate with external applications, connect to database engines, and integrate with Adobe Analytics to share data.</p> 
+  <p>These connectors are:</p> 
+  <ul>
+   <li><p>FDA Connector (<strong>Federated Data Access</strong>) enables you to connect Campaign to one or more external databases and process information stored into them without affecting your Campaign data. <a href="../../platform/using/accessing-an-external-database.md">Learn more</a>.</p> </li>
+   <li><p>CRM connectors enable to exchange data between Adobe Campaign and your CRM solution using dedicated workflow activities. <a href="../../platform/using/crm-connectors.md">Learn more</a>.</p> </li>
+   <li><p>Analytics Data Connectors (was <strong>Adobe Genesis</strong>) enables you to share data between Adobe Campaign and Adobe Analytics. <a href="../../platform/using/adobe-analytics-data-connector.md">Learn more</a>.</p> </li>
+  </ul>
+  <p>You can also integrate Campaign with multiple other systems, such as:</p>
+  <ul> 
+   <li> <p>Adobe Experience Cloud solutions: Adobe Experience Manager, Adobe Target, Adobe Audience Manager, Experience Cloud triggers, etc. <a href="../../integrations/using/about-campaign-integrations.md">Learn more</a></p> </li> 
+   <li> <p>Adobe IMS/SSO, to secure access to your Campaign instance, and connect to Adobe Campaign with the same Adobe ID as for the other Adobe Experience Cloud solutions. <a href="../../integrations/using/about-adobe-id.md">Learn more</a>.</p> </li> 
+   <li> <p>LDAP directory, to unify access management. <a href="../../installation/using/connecting-through-ldap.md">Learn more</a>.</p> </li> 
+  </ul>
+  <p></p> 
+  <note>
+   <p> The availability of these modules and their use can depend on the type of deployment of your installation. Refer to <a href="https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html">Campaign on-prem/hosted capabilities matrix</a>.<br /> </p> 
+  </note>
+ </body>
+</html>

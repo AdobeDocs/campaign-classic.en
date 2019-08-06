@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Target mapping" name="navTitle" /> 
+  <meta content="Target mapping" name="jcr:description" /> 
+  <meta content="2019-08-06T06:59:45.038-0400" name="jcr:created" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="4ccd1743-dc6f-4287-b998-b339f5e4afde" name="jcr:predecessors" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="8b4798ae-f925-478a-9f94-535f01936dbc" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Target mapping" name="jcr:title" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+ </head> 
+ <body> 
+  <p>Target mapping creation is necessary in two cases: </p> 
+  <ul> 
+   <li><p>if you use a recipient table other than the one provided by Adobe Campaign,</p> </li> 
+   <li><p>if you configure a filtering dimension which is different from the standard targeting dimension on the target mapping screen.</p> </li> 
+  </ul> 
+  <p>The target mapping creation wizard will help you create all schemas required to use your custom table.</p> 
+  <h2 id="creating-and-configuring-schemas-linked-to-the-custom-table">Creating and configuring schemas linked to the custom table</h2> 
+  <p>Before you create a target mapping, several configurations are necessary in order for Adobe Campaign to operate with a new recipient data schema.</p> 
+  <p>To do this, apply the following steps:</p> 
+  <ol> 
+   <li><p>Create a new data schema which integrates the fields of the custom table that you want to use. </p> <p>For further information, refer to <a href="../../configuration/using/about-schema-reference.md">Schema reference (xtk:srcSchema)</a>.<br /> </p> <p> In our example, we will create a customer schema, a very simple table containing the following fields: ID, first name, last name, email address, mobile phone number. The aim is to be able to send e-mail or SMS alerts to the individuals stored in this table. </p> <p>Example schema (cus:individual)</p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!&lt;srcSchema&amp;nbsp;name="individual"&amp;nbsp;namespace="cus"&amp;nbsp;label="Individuals"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="individual"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;key&amp;nbsp;name="id"&amp;nbsp;internal="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@id"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/key&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="id"&amp;nbsp;type="long"&amp;nbsp;length="32"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="lastName"&amp;nbsp;type="string"&amp;nbsp;length="100"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="firstName"&amp;nbsp;type="string"&amp;nbsp;length="100"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="email"&amp;nbsp;type="string"&amp;nbsp;length="100"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="mobile"&amp;nbsp;type="string"&amp;nbsp;length="100"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt;!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Declare your schema as an external view using the ="true" attribute. Refer to <a href="../../configuration/using/target-mapping.md#the-view-attribute" target="_blank">The view attribute</a>.</p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!&amp;nbsp;&lt;srcSchema&amp;nbsp;desc="External&amp;nbsp;recipient&amp;nbsp;table"&amp;nbsp;namespace="cus"&amp;nbsp;view="true"....&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&lt;/srcSchema&gt;!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>If you need to add a direct mail address, please use the following type of structure:</p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!&lt;element&amp;nbsp;advanced="true"&amp;nbsp;name="postalAddress"&amp;nbsp;template="nms:common:postalAddress"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;expr="SubString(JuxtWords(Smart([../infos/@firstname]),&amp;nbsp;Upper([../infos/@name])),&amp;nbsp;1,&amp;nbsp;80)"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="line1"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;expr="Upper([../address/@line2])"&amp;nbsp;name="line2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;expr="Upper([../address/@line])"&amp;nbsp;name="line3"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;expr="Upper([../address/@line])"&amp;nbsp;name="line4"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;expr="Upper([../address/@line])"&amp;nbsp;name="line5"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;expr="Upper([../address/@line])"&amp;nbsp;name="line6"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;_operation="delete"&amp;nbsp;name="line7"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;_operation="delete"&amp;nbsp;name="addrErrorCount"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;_operation="delete"&amp;nbsp;name="addrQuality"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;_operation="delete"&amp;nbsp;name="addrLastCheck"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;expr="@line1+'n'+@line2+'n'+@line3+'n'+@line4+'n'+@line5+'n'+@line6"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="serialized"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;expr="AllNonNull2([../address/@line],&amp;nbsp;[../infos/@name])"&amp;nbsp;name="addrDefined"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Click the <strong>Administration &gt; Campaign management &gt; Target mappings</strong> node.</p> </li> 
+   <li><p>Click the <strong>New</strong> button to open the target mapping creation wizard.</p> </li> 
+   <li><p>Enter the <strong>Label</strong> field and select the schema which you have just created in the <strong>Targeting dimension</strong> field.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mapping_diffusion_wizard_1.png" title="mapping_diffusion_wizard_1.png" /></li> 
+   <li><p>In the <strong>Edit address forms</strong> window, select the fields of the schema which match the various delivery addresses. Here, we are able to map the <strong>@email</strong> and <strong>@mobile</strong> fields.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mapping_diffusion_wizard_2.png" title="mapping_diffusion_wizard_2.png" /></li> 
+   <li><p>In the following <strong>Storage</strong> window, enter the <strong>Suffix of the extension schemas</strong> field to differentiate the new schemas from the out-of-the-box schemas provided by Adobe Campaign.</p> <p>Click <strong>Define new additional fields</strong> to select the dimension you want to target in your delivery. </p> <p>By default, exclusion management is stored in the same tables as messages. Check the <strong>Generate a storage schema for tracking</strong> box if you want to configure storage for the tracking linked to your target mapping.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mapping_diffusion_wizard_3.png" title="mapping_diffusion_wizard_3.png" /></li> 
+   <li><p>In the <strong>Extensions</strong> window, select the optional schemas that you want to generate (the list of available schemas depends on the modules installed on the Adobe Campaign platform).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mapping_diffusion_wizard_4.png" title="mapping_diffusion_wizard_4.png" /></li> 
+   <li><p>Click the <strong>Save</strong> button to close the wizard.</p> <p>The wizard uses the start schema to create all the other schemas required to make the new target mapping work.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mapping_schema_list.png" title="mapping_schema_list.png" /></li> 
+  </ol> 
+  <h2 id="using-target-mapping">Using target mapping</h2> 
+  <p>There are two ways of using the new schema as the target of a delivery:</p> 
+  <ul> 
+   <li><p>Create one or more delivery templates based on mapping</p> </li> 
+   <li><p>Select mapping directly during target selection when creating a delivery, as shown below:</p> </li> 
+  </ul> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mapping_selection_ciblage.png" title="mapping_selection_ciblage.png" /> 
+ </body> 
+</html>

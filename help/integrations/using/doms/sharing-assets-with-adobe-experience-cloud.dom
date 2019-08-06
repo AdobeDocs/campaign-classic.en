@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="bf7413d9-9823-4693-b7b4-ac2548bb2f61" name="jcr:predecessors" />
+  <meta content="light" name="heroGradient" />
+  <meta content="0d3d1ad8-a099-461f-967e-1a72e58ec7c3" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:integrations" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="seoDescription" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Sharing assets with Adobe Experience Cloud" name="navTitle" />
+  <meta content="Sharing assets with Adobe Experience Cloud" name="jcr:title" />
+  <meta content="2019-08-06T06:59:39.872-0400" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Sharing assets with Adobe Experience Cloud" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>Experience Cloud Assets provide a single, centralized repository of marketing-ready assets that you can share across solutions. An asset is a digital document, image, video, or audio file.</p> 
+  <p>Asset services include:</p> 
+  <ul>
+   <li><p>Asset storage, management interface, embedded selection interface (accessed through solutions).</p> </li>
+   <li><p>Integrations with Creative Cloud and Experience Cloud solutions.</p> </li>
+  </ul>
+  <p>When editing an email delivery or a landing page in Adobe Campaign, you can place assets from your Adobe Experience Cloud libraries. Depending on the solutions you are using, these assets can be stored in Assets core service or Adobe Experience Manager Assets.</p> 
+  <p>The different available libraries are detailed in <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html">this document</a>.</p> 
+  <p>Consult the <a href="../../integrations/using/configuring-access-to-assets.md" target="_blank">Configuring access to Assets</a> section to find out more about the specifics linked to each library.</p> 
+  <note>
+   <p> If you are using Adobe Campaign On-Premise, integration with Assets core service and with AEM Assets is not available, unless AEM Assets is also On-Premise.<br /> </p> 
+  </note>
+ </body>
+</html>

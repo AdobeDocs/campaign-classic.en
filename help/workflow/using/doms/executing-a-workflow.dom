@@ -1,0 +1,363 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Executing a workflow" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Executing a workflow" name="jcr:description" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Executing a workflow" name="navTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-08-06T06:59:13.222-0400" name="jcr:created" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="4cb5ad0e-e60d-4ca7-9553-162da32d6bc4" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="24c16f9c-58d1-487a-a0af-116a72a15e49" name="jcr:predecessors" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="audience:workflow" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="seoDescription" /> 
+ </head> 
+ <body> 
+  <h2 id="starting-a-workflow">Starting a workflow</h2> 
+  <p>A workflow is always started manually. When started, it can however remain inactive depending on the information specified via a scheduler (see <a href="../../workflow/using/scheduler.md" target="_blank">Scheduler</a>) or activity scheduling.</p> 
+  <p>Actions related to targeting workflow execution (launch, stop, pause, etc.) are <strong>asynchronous</strong> processes: the order is recorded and will be effective as soon as the server is available to apply it.</p> 
+  <p>The toolbar allows you to start and track the execution of the workflow.</p> 
+  <p>The list of options available in the <strong>Actions</strong> menu and the right-click menu are detailed below.</p> 
+  <h3 id="actions-toolbar">Actions toolbar</h3> 
+  <p>The toolbar buttons are detailed in this <a href="../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow">section</a>. The <strong>Actions</strong> button gives you access to additional execution options for acting on selected workflows. You can also use the <strong>File &gt; Actions</strong> menu, or right-click a workflow and select <strong>Actions</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/purge_historique.png" title="purge_historique.png" /> 
+  <ul> 
+   <li><p><strong>Start</strong></p> <p>This action lets you start the execution of a workflow: a workflow that is <strong>Finished</strong>, <strong>Being edited</strong> or <strong>Paused</strong> changes status to <strong>Started</strong>. The workflow engine then handles the execution of this workflow. If the workflow was paused, it is resumed, otherwise the workflow is started from the beginning and the initial activities are activated.</p> <p>Starting is an asynchronous process: The request is saved and is processed as soon as possible by a workflow server.</p> </li> 
+   <li><p><strong>Pause</strong></p> <p>This action sets the status of the workflow to <strong>Paused</strong>. No activities are activated until the workflow is resumed; however the operations in progress are not paused.</p> </li> 
+   <li><p><strong>Stop</strong></p> <p>This action stops a workflow currently being executed. The status of the instance is set to <strong>Finished</strong>. Operations in progress are stopped, if possible. Imports and SQL queries are canceled immediately.</p> <p>Stopping is an asynchronous process. The request is registered, then the workflow server or servers cancel operations in progress. Stopping a workflow instance can therefore take time, especially if the workflow is running on multiple servers, each one of which must take control to cancel the tasks in progress.</p> </li> 
+   <li><p><strong>Restart</strong></p> <p>This action stops then restarts the workflow. In most cases, it makes it possible to restart faster. It is also useful to automate restarting when stopping takes a certain amount of time: this is because the 'Stop' command is not available when the workflow is being stopped.</p> <p>The <strong>Start / Pause / Stop / Restart</strong> actions are also available via the execution icons in the toolbar. For more on this, refer to this <a href="../../campaign/using/setting-up-marketing-campaigns.md#creating-a-targeting-workflow">section</a>.</p> </li> 
+   <li><p><strong>Purge history</strong></p> <p>This action lets you purge the workflow history. For more on this, refer to <a href="../../workflow/using/executing-a-workflow.md#purging-the-logs" target="_blank">Purging the logs</a>.</p> </li> 
+   <li><p><strong>Start in simulation mode</strong></p> <p>This option lets you start the workflow in simulation mode as opposed to real mode. This means that when you enable this mode, only activities that do not impact the database or the file system are executed (e.g. <strong>Query</strong>, <strong>Union</strong>, <strong>Intersection</strong>, etc.). Activities that do have an impact (e.g. <strong>Export</strong>, <strong>Import</strong>, etc.) as well as those after them (in the same branch) are not executed.</p> </li> 
+   <li><p><strong>Execute pending tasks now</strong></p> <p> This action lets you start all pending tasks as soon as possible. To start a specific task, right-click its activity and select <strong>Execute pending task(s) now</strong>.</p> </li> 
+   <li><p><strong>Unconditional stop</strong></p> <p> This option changes the workflow status to <strong>Finished</strong>. This action should only be used as a last resort if the normal stop process fails after several minutes. Only use the unconditional stop if you are sure there are no actual workflow jobs in progress. </p> 
+    <note>
+      This option is reserved for expert users. 
+     <br /> 
+    </note></li> 
+   <li><p><strong>Save as template</strong></p> <p> This action creates a new workflow template based on the selected workflow. You need to specify the folder where it will be saved (in the <strong>Folder</strong> field).</p> <p>The <strong>Mass update of selected lines</strong> and <strong>Merge selected lines</strong> options are generic platform options available in all <strong>Actions</strong> menus. For more on this, refer to this <a href="../../platform/using/updating-data.md">section</a>.</p> </li> 
+  </ul> 
+  <h3 id="right-click-menu">Right-click menu</h3> 
+  <p>When one or more workflow activities are selected, you can right-click to act on your selection. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/contextual_menu.png" title="contextual_menu.png" /> 
+  <p>The following options are available in the right-click menu:</p> 
+  <p><strong>Open</strong>: this option lets you access the activity properties.</p> 
+  <p><strong>Display logs:</strong> this option lets you view the task execution log for the selected activity. Refer to <a href="../../workflow/using/executing-a-workflow.md#displaying-logs" target="_blank">Displaying logs</a>.</p> 
+  <p><strong>Execute pending task(s) now:</strong> this action lets you start pending tasks as soon as possible.</p> 
+  <p><strong>Workflow restart from a task:</strong> this option lets you restart the workflow using the results previously stored for this activity.</p> 
+  <p><strong>Cut/Copy/Paste/Delete:</strong> these options let you cut, copy, paste and delete activities.</p> 
+  <p><strong>Copy as bitmap:</strong> this option lets you take a screenshot of all activities. </p> 
+  <p><strong>Normal execution / Enable but do not execute / Do not enable:</strong> these options are also available in the <strong>Advanced</strong> tab of the activity properties. They are detailed in <a href="../../workflow/using/executing-a-workflow.md#execution" target="_blank">Execution</a>.</p> 
+  <p><strong>Save / Cancel:</strong> lets you save or cancel the changes made to a workflow.</p> 
+  <note> 
+   <p> You can select a group of activities and apply one of these commands to them.<br /> </p> 
+  </note> 
+  <p>The right-click menu is also detailed in this <a href="../../campaign/using/setting-up-marketing-campaigns.md#executing-a-workflow">section</a>.</p> 
+  <h2 id="workflow-life-cycle">Workflow life cycle</h2> 
+  <p>The workflow cycle has three main steps.</p> 
+  <ul> 
+   <li><p><strong>Being edited</strong></p> <p>This is the initial design phase: When is new workflow is created, its status is 'Being edited'. The workflow is not yet handled by the server and can be modified without risk.</p> </li> 
+   <li><p><strong>Started</strong></p> <p>Once the initial design phase is complete, the workflow can be started. In this phase, the instance is handled by the server and the individual tasks are executed. The workflow can still be modified with certain precautions.</p> </li> 
+   <li><p><strong>Finished</strong></p> <p>A workflow is 'Finished' when there are no longer any tasks in progress or when an operator has explicitly stopped the instance.</p> </li> 
+  </ul> 
+  <p>For example, the <strong>Start</strong> and <strong>Delivery</strong> activities are outlined while the <strong>Approval</strong> activity flashes in the worfklow below.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/new-workflow-6.png" title="new-workflow-6.png" /> 
+  <p>This means that the first two activities have been successfully executed and that approval is in progress, i.e. it has been created but not yet completed.</p> 
+  <p>The characters <strong>574 -Ok</strong> displayed above the transition following the <strong>Delivery</strong> activity mean that the delivery preparation has targeted 574 recipients and that the operation was completed successfully. This information, which is added to the transitions when they are executed, is computed by the activities that process data.</p> 
+  <p>The workflow is started and is waiting for an operator belonging to the group specified in the <strong>Approval</strong> activity to make a decision. The operators belonging to the group and who have an email address or mobile telephone number are notified.</p> 
+  <p>Operator management is detailed in this <a href="../../platform/using/access-management.md">section</a>.</p> 
+  <h2 id="data-life-cycle">Data life cycle</h2> 
+  <h3 id="work-table">Work table</h3> 
+  <p>In workflows, data transported from one activity to another is stored in a temporary work table. </p> 
+  <p>This data can be displayed and analyzed by right-clicking the appropriate transition. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf-right-click-analyze.png" title="wf-right-click-analyze.png" /> 
+  <p>To do this, select the relevant menu:</p> 
+  <ul> 
+   <li><p> Displaying the target</p> <p>This menu displays the available data on the target population as well as the structure of the work table (<strong>Schema</strong> tab).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wf-right-click-display.png" title="wf-right-click-display.png" /><p>For more on this, refer to <a href="../../workflow/using/executing-a-workflow.md#worktables-and-workflow-schema" target="_blank">Worktables and workflow schema</a>.</p> </li> 
+   <li><p> Analyzing the target</p> <p>This menu lets you access the descriptive analysis wizard which lets you produce statistics and reports on the transition data.</p> <p>For more on this, refer to this <a href="../../reporting/using/using-the-descriptive-analysis-wizard.md">section</a>.</p> </li> 
+  </ul> 
+  <p>The target data is purged as the workflow is executed. Only the last work table is accessible. You can configure the workflow so that all work tables remain accessible: check the <strong>Keep the result of interim populations between two executions</strong> option in the workflow properties.</p> 
+  <p>However, we recommend that you avoid activating this option in case of significant amounts of data. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf-purge-data-option.png" title="wf-purge-data-option.png" /> 
+  <h3 id="target-data">Target data</h3> 
+  <p>The data stored in the workflow's work table is accessible in the personalization fields.</p> 
+  <p>This lets you use data collected via a list or based on answers to a survey in a delivery. To do this, use the following syntax:</p> 
+  <codeblock gutter="true" class="syntax html">
+    %=&amp;nbsp;targetData.FIELD&amp;nbsp;% 
+  </codeblock> 
+  <p><strong>Target extension</strong> (targetData) type personalization elements are not available for targeting workflows. The delivery target has to be built in the workflow and specified in the inbound transition of the delivery.</p> 
+  <p>If you want to create delivery proofs, the proof target needs to be built based on the <strong>Address substitution</strong> mode so that the personalization data can be entered. For more on this, refer to this <a href="../../delivery/using/key-steps-when-creating-a-delivery.md#using-address-substitution-in-proof">section</a>.</p> 
+  <p>In the following example, we are going to collect a list of information on customers, to be used in a personalized email.</p> 
+  <p>Apply the following steps:</p> 
+  <ol> 
+   <li><p>Create a workflow to collect information, reconcile it with the data already in the database, then start a delivery. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/wf-targetdata-sample-1.png" title="wf-targetdata-sample-1.png" /><p>In our example, the file content is as follows:</p> 
+    <codeblock gutter="true" class="syntax html">
+      Music,First&amp;nbsp;name,Last&amp;nbsp;name,Account,CD/DVD,Card!!discoiqbr!!Pop,David,BLAIR,4323,CD,0!!discoiqbr!!Rock,Daniel,ARCARI,3222,DVD,1!!discoiqbr!!Disco,Uma,ALTON,0488,DVD,0!!discoiqbr!!Jazz,Paul,BOLES,6475,CD,1!!discoiqbr!!Jazz,David,BOUKHARI,0841,DVD,1!!discoiqbr!![...] 
+    </codeblock><p>To load the file, apply the following steps:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wf-targetdata-sample-2.png" title="wf-targetdata-sample-2.png" /></li> 
+   <li><p>Configure the <strong>Enrichment</strong> type activity to reconcile the collected data with that already in the Adobe Campaign database.</p> <p>Here, the reconciliation key is the account number:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wf-targetdata-sample-3.png" title="wf-targetdata-sample-3.png" /></li> 
+   <li><p>Then configure the <strong>Delivery</strong>: it is created based on a template, and the recipients are specified by the inbound transition. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/wf-targetdata-sample-4.png" title="wf-targetdata-sample-4.png" /> 
+    <note>
+      Only data contained in the transition may be used to personalize the delivery. 
+     <strong>targetData</strong> type personalization fields are only available for the inbound population of the 
+     <strong>Delivery</strong> activity. 
+     <br /> 
+    </note></li> 
+   <li><p>In the delivery template, use the fields collected in the workflow.</p> <p>To do this, insert <strong>Target extension</strong> type personalization fields.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wf-targetdata-sample-5.png" title="wf-targetdata-sample-5.png" /><p>Here, we want to insert the customer's favorite music genre and media type (CD or DVD) as stated in the file collected by the workflow.</p> <p>As a plus, we are going to add a coupon for loyalty card holders, i.e. recipients for whom the 'Card' value equals 1.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wf-targetdata-sample-6.png" title="wf-targetdata-sample-6.png" /><p><strong>Target extension</strong> (targetData) type data is inserted into deliveries using the same characteristics as all personalization fields. They may also be used in the subject, link labels, or the links themselves.</p> <p>Messages addressed to collected recipients will contain the following data:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wf-targetdata-sample-7.png" title="wf-targetdata-sample-7.png" /></li> 
+  </ol> 
+  <h2 id="monitoring-workflow-execution">Monitoring workflow execution</h2> 
+  <h3 id="displaying-progress">Displaying progress</h3> 
+  <p> You can monitor execution by displaying progress using the appropriate icon on the toolbar. </p> 
+  <p>The <strong>Display progress information</strong> icon lets you display the status and the activity result in the execution screen.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_toolbar_progr.png" title="s_user_segmentation_toolbar_progr.png" /> 
+  <p>When this option is selected, executed activities are shown in blue, pending activities blink, warnings are shown in orange and errors in red. This option also displays the result of activities on their outbound transition, followed by the label of the result as defined in the activity properties and the duration of the job if it exceeds one second </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_results.png" title="s_user_segmentation_results.png" /> 
+  <h3 id="displaying-logs">Displaying logs</h3> 
+  <p>The log contains the history or audit trail of the workflow. It registers all user actions, all operations performed and errors encountered. You can:</p> 
+  <ul> 
+   <li><p>Select the <strong>Tracking</strong> tab in the detail. This list contains all workflow messages.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/new-workflow-display-log-tab.png" title="new-workflow-display-log-tab.png" /></li> 
+   <li><p>Filter the log messages by activity. To do this, click <strong>Display the tasks and the log</strong> on the toolbar above the diagram in order to display the <strong>Log</strong> and <strong>Tasks</strong> tabs below the diagram. Select an activity to view all related messages. This list contains all the messages when no activity is selected.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/new-workflow-display-log-activity.png" title="new-workflow-display-log-activity.png" /> 
+    <note> 
+     <p> Click the background of the diagram to unselect all elements.<br /> </p> 
+    </note></li> 
+   <li><p>View only those messages linked to a given task. To do this, select the <strong>Tasks</strong> tab, and then select an activity in the diagram in order to restrict the list. Double-click a task to display the information; the last tab in the window contains the log.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/new-workflow-display-tasks-activity.png" title="new-workflow-display-tasks-activity.png" /><p>The <strong>Details...</strong> button lets you display all additional information on activity execution. For example, you can view the validating operator and when applicable, the comment they entered during approval, as in the following example:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/new-workflow-display-tasks-activity-details.png" title="new-workflow-display-tasks-activity-details.png" /></li> 
+  </ul> 
+  <note> 
+   <p> The log is not purged when a workflow is restarted. All messages are kept. If you wish to discard the messages from a previous execution, you must purge the history.<br /> </p> 
+  </note> 
+  <p>The log shows the chronological list of execution messages related to targeting workflow activities. </p> 
+  <ul> 
+   <li><p>Log of a targeting campaign</p> <p>Once a targeting campaign has been executed, click the <strong>Tracking</strong> tab to view the execution trace. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_journal.png" title="s_user_segmentation_journal.png" /><p>All campaign messages are shown: campaigns carried out as well as warnings or errors.</p> </li> 
+   <li><p>Log of an activity</p> <p>You can also view the execution log and details of each activity. There are two ways of doing this: </p> 
+    <ol> 
+     <li><p>Select the targeted activity and click the <strong>Display the tasks and the log</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_show_logs.png" title="s_user_segmentation_show_logs.png" /><p>The lower section of the diagram shows two tabs: Log and Tasks.</p> <p>Activities selected within the diagram act as filters on the log and task list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_logs.png" title="s_user_segmentation_logs.png" /></li> 
+     <li><p>Right-click the targeted activity and select <strong>Display logs</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_logs_menu.png" title="s_user_segmentation_logs_menu.png" /><p>The log is shown in a separate window.</p> </li> 
+    </ol></li> 
+  </ul> 
+  <h3 id="purging-the-logs">Purging the logs</h3> 
+  <p>Workflow history is not purged automatically: all messages are kept by default. History can be purged via the <strong>File &gt; Actions</strong> menu or by clicking the <strong>Actions</strong> button located in the toolbar above the list. Select <strong>Purge history</strong>. The options available in the <strong>Actions</strong> menu is detailed in the <a href="../../workflow/using/executing-a-workflow.md#actions-toolbar" target="_blank">Actions toolbar</a> section.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/purge_historique.png" title="purge_historique.png" /> 
+  <h3 id="worktables-and-workflow-schema">Worktables and workflow schema</h3> 
+  <p>The workflow conveys worktables that can be manipulated via certain activities. Adobe Campaign enables you, via Data Management activities, to modify, rename and enrich the columns of the workflow worktables, for example to align them with the nomenclature depending on the client's needs, for collecting additional information on the co-beneficiary of a contract, etc. </p> 
+  <p>It is also possible to create links between various work dimensions and to define dimension changes. For example, for each contract recorded in the database, address the main holder and use co-holder data in the additional information.</p> 
+  <p>The worktables of the workflow are deleted automatically when the workflow passivates. If you wish to keep a work table, save it in a list via the <strong>List update</strong> activity (refer to <a href="../../workflow/using/list-update.md" target="_blank">List update</a>).</p> 
+  <h3 id="managing-errors">Managing errors</h3> 
+  <p>When an error occurs, the workflow is paused and the activity being executed when the error occurred flashes red. In the workflow overview (<strong>Monitoring</strong> universe &gt; <strong>Workflows</strong> link) you can display workflows with errors only, as shown below.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf-global-view_filter_only_errors.png" title="wf-global-view_filter_only_errors.png" /> 
+  <p>In the Adobe Campaign Explorer, the workflow list displays a <strong>Failed</strong> column by default. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf-explorer_errors_col.png" title="wf-explorer_errors_col.png" /> 
+  <p>When a workflow is in error, the operator(s) belonging to the workflow supervision group are notified by email, as long as their email address is listed in their profile. This group is selected in the <strong>Supervisor(s)</strong> field of the workflow properties.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf-properties_select-supervisors.png" title="wf-properties_select-supervisors.png" /> 
+  <p>The notification content is configured in the <strong>Workflow manager notification</strong> default template: This template is selected in the <strong>Execution</strong> tab of the workflow properties. The notification shows the name of the error workflow and the concerned task.</p> 
+  <p>Notification example:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf-notification_error-msg.png" title="wf-notification_error-msg.png" /> 
+  <p>The link lets you access the Adobe Campaign console in Web mode and work on the error workflow once you have logged on.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf-notification_error-console.png" title="wf-notification_error-console.png" /> 
+  <p>You can configure the workflow so that it does not pause and continues execution in case of errors. To do this, edit workflow <strong>Properties</strong> and, in the <strong>Error management</strong> section, select the <strong>Ignore</strong> option in the <strong>In case of error</strong> field. You may then specify the number of consecutive errors that can be ignored before the process is paused.</p> 
+  <p>In this case, the error task is aborted. This mode is particularly suited to workflows designed to reattempt the campaign later (periodic actions).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf_edit_properties_for_error_mgt.png" title="wf_edit_properties_for_error_mgt.png" /> 
+  <note> 
+   <p> You can apply this configuration individually for each activity. To do this, edit activity properties and select the error management mode in the <strong>Advanced</strong> tab.<br /> </p> 
+  </note> 
+  <h3 id="processing-errors">Processing errors</h3> 
+  <p>Concerning activities, the <strong>Process errors</strong> option displays a specific transition which will be enabled if an error is generated. In this case, the workflow does not go into error mode and execution continues.</p> 
+  <p> Errors taken into account are file system errors (file could not be moved, directory could not be accessed, etc.).</p> 
+  <p>This option does not process errors related to activity configuration, i.e. invalid values. Errors related to faulty configuration will not enable this transition (directory does not exist, etc.).</p> 
+  <p>If a workflow is paused (manually or automatically after an error), the <strong>Start</strong> button restarts the workflow execution where it was stopped. The erroneous activity (or paused activity) will be re-executed. The previous activities are not re-executed.</p> 
+  <p>To re-execute all of the workflow activities, use the <strong>Restart</strong> button.</p> 
+  <p>If you modify activities that were already executed, the changes are not taken into account when the workflow execution is restarted.</p> 
+  <p>If you modify unexecuted activities, they are taken into account when the workflow execution is restarted.</p> 
+  <p>If you modify paused activities, the changes cannot be taken into account correctly when the workflow is restarted.</p> 
+  <p>If possible, we recommend completely restarting the workflow after having carried out modifications.</p> 
+  <h3 id="instance-supervision">Instance supervision</h3> 
+  <p>The <strong>Instance supervision</strong> page lets you view the Adobe Campaign server activity and display the list of workflows and deliveries with errors. </p> 
+  <p>To access this page, go to the <strong>Monitoring</strong> universe and click the <strong>General view</strong> link.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf-monitoring_from-homepage.png" title="wf-monitoring_from-homepage.png" /> 
+  <p>To display all the workflows, click the <strong>Workflows</strong> link. Use the drop-down list to display the workflows in the platform based on their state.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf-monitoring_edit-wf.png" title="wf-monitoring_edit-wf.png" /> 
+  <p>Click the link on a workflow with errors in order to open it and view its log.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf-monitoring_edit-task-wf.png" title="wf-monitoring_edit-task-wf.png" /> 
+  <h3 id="preventing-simultaneous-multiple-executions">Preventing simultaneous multiple executions</h3> 
+  <p>A single workflow can have several executions running at the same time. In some cases you should prevent this from happening.</p> 
+  <p>For instance, you can have a scheduler triggering the workflow execution every hour, but sometimes the execution of the whole workflow takes more than an hour. You may want to skip the execution if the workflow is already running.</p> 
+  <p>If you have a signal activity at the start of the workflow you may want to skip the signal if the workflow is running.</p> 
+  <p>The general principle is as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/workflow-reentrancy-protection-principle.png" title="workflow-reentrancy-protection-principle.png" /> 
+  <p>The solution is to use an instance variable. Instance variables are shared by all the parallel executions of the workflows.</p> 
+  <p>Here is a simple test workflow:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_simultaneous_execution1.png" title="wkf_simultaneous_execution1.png" /> 
+  <p>The <strong>Scheduler</strong> is triggering an event every minute. The following <strong>Test</strong> activity is going to test the <strong>isRunning</strong> instance variable to decide whether or not to continue the execution:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_simultaneous_execution2.png" title="wkf_simultaneous_execution2.png" /> 
+  <note> 
+   <p> <strong>isRunning</strong> is a variable name chosen for this example. This is not a built-in variable.<br /> </p> 
+  </note> 
+  <p>The activity immediately following the <strong>Test</strong> in the <strong>yes</strong> branch must set the instance variable in its <strong>Initialization script</strong>:</p> 
+  <codeblock gutter="true" class="syntax html">
+    instance.vars.isRunning&amp;nbsp;=&amp;nbsp;true 
+  </codeblock> 
+  <p>The very last activity in the <strong>yes</strong> branch must revert the variable to false in its <strong>Initialization script</strong>:</p> 
+  <codeblock gutter="true" class="syntax html">
+    instance.vars.isRunning&amp;nbsp;=&amp;nbsp;false 
+  </codeblock> 
+  <p>Note that:</p> 
+  <ul> 
+   <li><p>You can check the current value of the instance variable via the <strong>Variables</strong> tab in the workflow <strong>Properties</strong>.</p> </li> 
+   <li><p>Instance variables are reset when you restart a workflow.</p> </li> 
+   <li><p>In JavaScript, an undefined value is false in a test, allowing to test the instance variable even before having initialized it.</p> </li> 
+   <li><p>You can monitor the activities that are not processed due to this mechanism by adding a logging instruction to the initialization script of the "no" ending.</p> 
+    <codeblock gutter="true" class="syntax html">
+      logInfo("Workflow&amp;nbsp;already&amp;nbsp;running,&amp;nbsp;parallel&amp;nbsp;execution&amp;nbsp;not&amp;nbsp;allowed."); 
+    </codeblock></li> 
+  </ul> 
+  <p>A use case is presented in this section: <a href="../../workflow/using/coordinating-data-updates.md" target="_blank">Coordinating data updates</a>.</p> 
+  <h3 id="database-maintenance">Database maintenance</h3> 
+  <p>Workflows use a lot of work tables that consume space and end up slowing down the entire platform if not maintained. For more about database maintenance, refer to this <a href="../../production/using/tables-to-maintain.md">section</a> .</p> 
+  <p>The <strong>Database cleanup</strong> workflow accessible via the <strong>Administration &gt; Production &gt; Technical workflows</strong> node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention. Refer to this <a href="../../production/using/database-cleanup-workflow.md">section</a>.</p> 
+  <p>You can also create specific technical workflows to purge unnecessary data consuming space. Refer to this <a href="../../production/using/application-objects.md">section</a> and this <a href="../../workflow/using/executing-a-workflow.md#purging-the-logs">page</a>.</p> 
+  <h3 id="handling-of-paused-workflows">Handling of paused workflows</h3> 
+  <p>By default, if a workflow is paused, its working tables are never purged. From build 8880, workflows that have been in a paused state for too long are automatically stopped and their working tables are purged. This behaviour is triggered as follows:</p> 
+  <ul> 
+   <li><p>Workflows that have been paused since more than 7 days appear as a warning in the monitoring dashboard (and monitoring API) and a notification is sent to the supervisor group.</p> </li> 
+   <li><p>The same happens every week, when the <strong>cleanupPausedWorkflows</strong> technical workflow is triggered. For more details on the workflow, refer to <a href="../../workflow/using/delivery.md">this section</a>.</p> </li> 
+   <li><p>After 4 notifications (i.e. one month in paused state by default), the workflow is stopped unconditionnally. A log appears in the workflow after it has been stopped. The tables are purged at the next execution <strong>cleanup</strong> workflow</p> </li> 
+  </ul> 
+  <p>These periods can be configured via the NmsServer_PausedWorkflowPeriod option.</p> 
+  <p>Workflow supervisors are notified. The creator and last user who modified the workflow are notified as well. Administrators don't receive the notifications.</p> 
+  <h2 id="defining-approvals">Defining approvals</h2> 
+  <p>Approvals enable operators to make decisions governing a workflow or to confirm its continued execution.</p> 
+  <p>A message is sent to a group of operators and the workflow waits for a response before resuming. The workflow is not stopped and other operations can take place. For example, there may be multiple simultaneous approvals pending.</p> 
+  <p>An approval can contain multiple options for the operator to choose. However, it is possible to restrict the number of choices to one in order to submit a task to be performed to an operator, such as performing targeting. The operator can then respond once the task is performed (the process then resumes). The following example illustrates these types of approvals:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/validation-1.png" title="validation-1.png" /> 
+  <p>In operations, all stages that require approval are based on the same principle. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/validation-1-in-op.png" title="validation-1-in-op.png" /> 
+  <p>Approval examples can be found in this <a href="../../campaign/using/setting-up-marketing-campaigns.md#checking-and-approving-deliveries">section</a>.</p> 
+  <p>An operator can respond in one of two ways: validating using the Web page linked in the email message, or via the console.</p> 
+  <note> 
+   <p> Once the response is saved it may not be modified.<br /> </p> 
+  </note> 
+  <h3 id="sending-emails">Sending emails</h3> 
+  <p>It is possible to receive an approval message containing a link to a Web page via which it is possible to respond. For the targeted operator to receive an approval email, the operator email address must be complete. If this is not the case, the operator must use the console to respond </p> 
+  <p>Operator management is detailed in this <a href="../../platform/using/access-management.md">section</a>.</p> 
+  <p>Approval emails are sent continuously. The default delivery template is <strong>notifyAssignee</strong>: It is saved in the <strong>Administration &gt; Campaign management &gt; Technical delivery templates</strong> folder. This scenario can be customized and it is also recommended to make a copy and to change templates for each activity.</p> 
+  <p>Deliveries created via this template are stored in the <strong>Administration &gt; Production &gt; Objects created automatically &gt; Technical deliveries &gt; Workflow notifications</strong> folder.</p> 
+  <h3 id="approval-via-the-console">Approval via the console</h3> 
+  <p>In operations, elements to be approved are displayed on the campaign dashboard.</p> 
+  <p>For technical workflows, the tasks that the user can approve can be accessed from the tree structure in the <strong>Administration &gt; Production &gt; Objects created automatically &gt; Pending approvals</strong> folder.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/validation-node.png" title="validation-node.png" /> 
+  <h3 id="groups">Groups</h3> 
+  <p>An approval is assigned to a group of operators, a single operator or a set of operators selected via a filtering condition. </p> 
+  <ol> 
+   <li><p>For the simplest form of approval, the task is finished as soon as an operator responds. Any other operator who tries to respond will be notified that someone has already done it.</p> </li> 
+   <li><p>For multiple approvals, refer to <a href="../../workflow/using/executing-a-workflow.md#multiple-approval" target="_blank">Multiple approval</a>.</p> </li> 
+  </ol> 
+  <p>The operator groups for approvals should be designated as roles or functions rather than named individuals. For example, a "Campaign budget" group is preferable to "Harry's group". We recommend having at least two persons in a group who can approve a task. In this way, if one is absent, the other can respond.</p> 
+  <h3 id="expirations">Expirations</h3> 
+  <p>Expirations are specific transitions that are used in different types of activity, and particularly in approvals. An expiration can be used to trigger an action after a given lapse of time in the absence of a response or to pursue the workflow (and assign an approval to a different group, for example).</p> 
+  <p>The second tab in the activity approval properties lets you define one or more expirations. In fact, you can define multiple expiration types.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/expiration.png" title="expiration.png" /> 
+  <p>To add a new expiration, click <strong>Add</strong>. A transition is added to each of the expirations created. You can:</p> 
+  <ul> 
+   <li><p>modify the typical parameters directly by clicking on a cell in the list (or by pressing F2),</p> </li> 
+   <li><p> or edit the expression by clicking the <strong>Detail...</strong> button.</p> </li> 
+  </ul> 
+  <note> 
+   <p> It is not necessary to specify an order for the expirations as they are processed in chronological order. <br /> </p> 
+  </note> 
+  <p>The <strong>Do not terminate the task</strong> option leaves the approval active when the delay is overrun. This mode makes it possible to manage reminders while leaving the approval active: operators can still respond. This option is disabled by default meaning that the task is considered finished on expiration and that the operators may no longer respond.</p> 
+  <p>You can create four types of expirations:</p> 
+  <ul> 
+   <li><p><strong>Delay after task start</strong>: The expiration is calculated by adding a specified length of time to the date on which the approval is activated.</p> </li> 
+   <li><p><strong>Delay after a given date</strong>: The expiration is calculated by adding a length of time to a date that you specify.</p> </li> 
+   <li><p><strong>Delay before a given date</strong>: The expiration is calculated by subtracting a length of time from a date that you specify.</p> </li> 
+   <li><p><strong>Expiration calculated by script</strong>: The expiration is calculated using JavaScript.</p> <p>The following example calculates an expiration 24 hours before the date a delivery is started (identified by <strong>vars.deliveryId</strong>):</p> 
+    <codeblock gutter="true" class="syntax html">
+      var&amp;nbsp;delivery&amp;nbsp;=&amp;nbsp;nms.delivery.get(vars.deliveryId)!!discoiqbr!!var&amp;nbsp;expiration&amp;nbsp;=&amp;nbsp;delivery.scheduling.contactDate!!discoiqbr!!var&amp;nbsp;oneDay&amp;nbsp;=&amp;nbsp;1000*60*60*24!!discoiqbr!!expiration.setTime(expiration.getTime()&amp;nbsp;-&amp;nbsp;oneDay)!!discoiqbr!!return&amp;nbsp;expiration 
+    </codeblock></li> 
+  </ul> 
+  <h3 id="multiple-approval">Multiple approval</h3> 
+  <p>Multiple approval is a mechanism enabling all approval operators to respond. A transition is activated for each response.</p> 
+  <p> Multiple approval is useful for vote or survey mechanisms. You can count answers and process their result after a given period by adding a deadline.</p> 
+  <h3 id="required-rights">Required rights</h3> 
+  <p>The operators in a group must at least have the following rights in order to be able to respond to an approval request:</p> 
+  <ul> 
+   <li><p>Write permissions for workflow.</p> </li> 
+   <li><p>Read and write permissions for the folder containing the tasks to approve.</p> </li> 
+  </ul> 
+  <p>The 'Workflow execution' group has these rights. An operator added to this group has the rights to respond to an approval request.</p> 
+  <h2 id="monitoring-technical-workflows">Monitoring technical workflows</h2> 
+  <p>Technical workflows need to be monitored, and actions need to be taken when they fail.</p> 
+  <h3 id="instance-monitoring-dashboard">Instance monitoring dashboard</h3> 
+  <p>The instance monitoring dashboard can be accessed via the <strong>Monitoring</strong> universe.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/monitoring_technical_workflows1.png" title="monitoring_technical_workflows1.png" /> 
+  <p>Under System Indicators and core files, check that no indicators are highlighted in red. If this is the case and some are, you should:</p> 
+  <ul> 
+   <li><p>Check that the necessary processes are always running,</p> </li> 
+   <li><p>Check that none of the process are too old,</p> </li> 
+   <li><p>Check that the different processes' log files do not contain alarming and recurring errors.</p> </li> 
+  </ul> 
+  <h3 id="technical-workflows">Technical workflows</h3> 
+  <p>Technical workflows are available from <strong>Administration</strong> &gt; <strong>Production</strong> &gt; <strong>Technical workflows</strong>.</p> 
+  <p>Depending on the technical workflow, follow the steps detailed below to ensure that everything is working as expected.</p> 
+  <p>To better understand what each technical workflow is supposed to do, refer to this <a href="../../workflow/using/about-technical-workflows.md">section</a>.</p> 
+  <p>For <strong>Database Cleanup workflow (‘cleanup’)</strong>:</p> 
+  <ol> 
+   <li><p>Check that the <strong>Database Cleanup</strong> workflow runs and finishes successfully every day. For more on this, refer to this <a href="../../workflow/using/delivery.md">page</a>.</p> </li> 
+   <li><p>Look at the journal to verify that the elapsed time is relatively constant over time and does not interfere with other workflows.</p> </li> 
+   <li><p>For more information, check this <a href="../../production/using/database-cleanup-workflow.md">page</a>.</p> </li> 
+  </ol> 
+  <p>For <strong>Tracking workflow (‘tracking’)</strong>:</p> 
+  <p>Check that the Tracking workflow runs as scheduled (every hour by default), and that the journal does not highlight recurrent errors. For more on this, refer to this <a href="../../workflow/using/delivery.md">section</a>. </p> 
+  <p>For <strong>Deliverability update (‘deliverabilityUpdate’)</strong>:</p> 
+  <ol> 
+   <li><p>Check that the <strong>Deliverability update</strong> workflow runs and finishes successfully every day. For more on this, refer to this <a href="../../workflow/using/delivery.md">page</a>.</p> </li> 
+   <li><p>Verify in the journal that rules are being updated regularly.</p> </li> 
+  </ol> 
+  <p>For <strong>Campaign process ('operationMgt', 'deliveryMgt', ...)</strong>:</p> 
+  <ol> 
+   <li><p>Look at all the workflows located under the <strong>Campaign process</strong> folder. For more on this, refer to this <a href="../../workflow/using/campaign.md">page</a>.</p> </li> 
+   <li><p>Check that the workflows runs as scheduled and that the journal does not highlight recurrent errors.</p> </li> 
+  </ol> 
+  <h3 id="workflow-supervision">Workflow supervision</h3> 
+  <p>The <strong>Workflow supervisors</strong> group should contain operators that need to be kept informed of failures and who can take action in time.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/monitoring_technical_workflows3.png" title="monitoring_technical_workflows3.png" /> 
+  <p>An alert should be generated and sent to the correct group in case of problem.</p> 
+  <p>Make sure that each operator has a valid email address.</p> 
+  <p>Any workflow that should be running in order to keep the platform working, such as daily data imports, should be declared as “Production” (checkbox) and appear in bold.</p> 
+  <h3 id="workflow-maintenance-list">Workflow maintenance list</h3> 
+  <p>All custom technical workflows should be documented in a worksheet that contains:</p> 
+  <ul> 
+   <li><p>Workflow's name and location.</p> </li> 
+   <li><p>Purpose.</p> </li> 
+   <li><p>Scheduling and dependencies.</p> </li> 
+   <li><p>Operator in charge of monitoring.</p> </li> 
+   <li><p>Instructions about what to do in case of error.</p> </li> 
+  </ul> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/monitoring_technical_workflows4.png" title="monitoring_technical_workflows4.png" /> 
+  <h3 id="planning-and-automation-of-monitoring">Planning and automation of monitoring</h3> 
+  <p>Planning workflow monitoring improves its efficiency. Some tasks need to happen daily while other tasks can be done weekly or monthly.</p> 
+  <p>Setting workflows in folders named by recurrence and sorted by execution schedule improves efficiency of monitoring.</p> 
+  <p>Automation of monitoring reduces resources overhead and ensures that tasks are scheduled at the appropriate frequency.</p> 
+  <p>You can build a monitoring workflow to send an e-mail whenever certain tasks fail or when a critical table becomes too large.</p> 
+  <p>You can create a view so that all workflows across a functional area or system wide can be monitored.</p> 
+  <p>You can also use the Adobe Campaign job or report functionality to build documentation on demand, which is always up to date.</p> 
+  <h2 id="architecture">Architecture</h2> 
+  <p>Workflows are handled by a specific module. This module can be started on multiple servers in order to share the processing load.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/architecture.png" title="architecture.png" /> 
+  <ul> 
+   <li><p>The 'Workflow Instance Runner' (runwf) process executes all the tasks of a given workflow instance. When there are no tasks to be executed for the time being, it becomes 'passive', that is to say it saves its status in the database, then stops.</p> </li> 
+   <li><p>The 'Workflow Server' (wfserver) module monitors current workflow instances. When there is a task to perform, this module creates a process to activate (or reactivate) the corresponding instance.</p> </li> 
+  </ul> 
+  <p>When an operator performs an action on a workflow (start, stop, pause, etc.), the action is not executed straightaway by the 'nlserver' module, but instead placed in a queue in order to be processed by the workflow module.</p> 
+ </body> 
+</html>

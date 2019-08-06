@@ -1,0 +1,113 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="2019-08-06T06:59:20.037-0400" name="jcr:created" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="audience:interaction" name="primaryAudienceTag" /> 
+  <meta content="Creating offer spaces" name="jcr:title" /> 
+  <meta content="1e88f0f3-bce3-43b9-92a3-8900127903fd" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Creating offer spaces" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Creating offer spaces" name="jcr:description" /> 
+  <meta content="43b7b9a1-04e3-4e04-ac9d-badd3e0fa689" name="jcr:uuid" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <p>Offer space creation may only be carried out by a <strong>technical administrator</strong> with access to the offer space sub-folder. Offer spaces can only be created in the design environment, and are automatically duplicated into the live environment during offer approval. </p> 
+  <p>The content of the catalog offers is configured in the offer spaces. By default, the content can include the following fields: <strong>Title</strong>, <strong>Destination URL</strong>, <strong>Image URL</strong>, <strong>HTML content</strong> and <strong>Text content</strong>. The field sequence is configured in the offer space. </p> 
+  <p>Advanced parameters let you specify a contact identification key (which can be made of up of various elements, the name and email field at the same time for example). For more on this, refer to the <a href="../../interaction/using/creating-offer-spaces.md#presenting-an-identified-offer" target="_blank">Presenting an identified offer</a> section.</p> 
+  <p>The HTML or XML rendering is created via a rendering function. The sequence of the fields defined in the rendering function must be identical to the sequence configured in the content.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_space_create_009.png" title="offer_space_create_009.png" /> 
+  <p>To create a new offer space, apply the following process:</p> 
+  <ol> 
+   <li><p>Go to the list of offer spaces and click <strong>New</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_space_create_001.png" title="offer_space_create_001.png" /></li> 
+   <li><p>Select the channel you want to use and change the label of the offer space.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_space_create_002.png" title="offer_space_create_002.png" /></li> 
+   <li><p>Check the <strong>Enable unitary mode</strong> box if one of the following cases applies to you:</p> 
+    <ul> 
+     <li><p>You are using Interaction with Message Center</p> </li> 
+     <li><p>You are using Interaction's unitary mode (inbound interactions)</p> </li> 
+    </ul></li> 
+   <li><p>Go to the <strong>Content field</strong> window and click <strong>Add</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_space_create_003.png" title="offer_space_create_003.png" /></li> 
+   <li><p>Go to the <strong>Content</strong> node and select the fields in the following order: <strong>Title</strong>, then <strong>Image URL</strong>, then <strong>HTML content</strong>, then <strong>Destination URL</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_space_create_004.png" title="offer_space_create_004.png" /></li> 
+   <li><p>Check the <strong>Required</strong> box to make each field mandatory.</p> 
+    <note> 
+     <p> This configuration is used at the preview and makes offer spaces invalid when publishing if one of the mandatory elements is missing from the offer concerned. However, if an offer is already live on an offer space, these criteria are not taken into account.<br /> </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/offer_space_create_005.png" title="offer_space_create_005.png" /></li> 
+   <li><p>Click <strong>Edit functions</strong> to create a rendering function.</p> <p>These functions are used to generate offer representations on an offer space. There are several possible formats: HTML or text for outbound interactions and XML for inbound interactions.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_space_create_006.png" title="offer_space_create_006.png" /></li> 
+   <li><p>Go to the <strong>HTML rendering</strong> tab and select <strong>Overload the HTML rendering function</strong>.</p> </li> 
+   <li><p>Insert your rendering function.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_space_create_007.png" title="offer_space_create_007.png" /></li> 
+  </ol> 
+  <p>If necessary, you can overload the XML rendering functions for inbound interactions. You can also overload HTML and text rendering functions for outbound interactions. For more on this, refer to <a href="../../interaction/using/about-inbound-channels.md" target="_blank">About inbound channels</a>.</p> 
+  <h2 id="offer-proposition-statuses">Offer proposition statuses</h2> 
+  <p>An offer proposition can have various statuses depending on the interactions with the targeted population. Interaction comes with a set of values that can be applied to the offer proposition throughout its life cycle. However, you will need to configure the platform so that the status changes when the offer proposition is created and accepted.</p> 
+  <note> 
+   <p> The offer proposition's status is not updated immediately. It is carried out by the tracking workflow which is triggered every hour.<br /> </p> 
+  </note> 
+  <h3 id="status-list">Status list</h3> 
+  <p>Interaction comes with the following values that can be used to qualify the status of an offer proposition:</p> 
+  <ul> 
+   <li><p><strong>Accepted</strong>.</p> </li> 
+   <li><p><strong>Scheduled</strong>.</p> </li> 
+   <li><p><strong>Generated</strong>.</p> </li> 
+   <li><p><strong>Interested</strong>.</p> </li> 
+   <li><p><strong>Presented</strong>.</p> </li> 
+   <li><p><strong>Rejected</strong>.</p> </li> 
+  </ul> 
+  <p>These values aren't applied by default: they have to be configured. </p> 
+  <note> 
+   <p> The status of an offer proposition will automatically be changed to "Presented" if the offer is linked to a delivery with the "Sent" status.<br /> </p> 
+  </note> 
+  <h3 id="configuring-the-status-when-the-proposition-is-created">Configuring the status when the proposition is created</h3> 
+  <p>When an offer proposition is created by the interaction engine its status is changed, whether it is an inbound or an outbound interaction. The choice between these two values depends on the way the offer spaces were configured in the <strong>Design</strong> environment </p> 
+  <p>For each space, you can configure the status you want to apply when a proposition is created, depending on the information you want to display in the offer reports. </p> 
+  <p>To do this, use the following process:</p> 
+  <ol> 
+   <li><p>Go to the <strong>Storage</strong> tab of the desired space.</p> </li> 
+   <li><p>Select the status that you want to apply to the proposition when it is created.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_update_status_001.png" title="offer_update_status_001.png" /></li> 
+  </ol> 
+  <h3 id="configuring-the-status-when-the-proposition-is-accepted">Configuring the status when the proposition is accepted</h3> 
+  <p>Once an offer proposition has been accepted, you can use one of the values provided by default to configure the proposition's new status. The update is effective when a recipient clicks on a link in the offer, which calls up the Interaction engine. </p> 
+  <p>To do this, use the following process:</p> 
+  <ol> 
+   <li><p>Go to the <strong>Storage</strong> tab of the desired space.</p> </li> 
+   <li><p>Select the status that you want to apply to the proposition when it is accepted.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_update_status_002.png" title="offer_update_status_002.png" /></li> 
+  </ol> 
+  <p><strong>Inbound interaction</strong></p> 
+  <p>The <strong>Storage</strong> tab lets you define statuses for <strong>proposed</strong> and <strong>accepted</strong> offer propositions only. For inbound interaction, the status of offer propositions should be specified directly in the URL for calling the offer engine, rather than through the interface. This way, you will be able to specify which status to apply in other cases, for example if an offer proposition is rejected.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;BASE_URL&gt;?a=UpdateStatus&amp;p=&lt;PRIMARY_KEY_OF_THE_PROPOSITION&gt;&amp;st=&lt;NEW_STATUS_OF_THE_PROPOSITION&gt;&amp;r=&lt;REDIRECT_URL&gt; 
+  </codeblock> 
+  <p>For instance, the proposition (identifier <strong>40004</strong>) that matches the <strong>Home insurance</strong> offer displayed on the <strong>Neobank</strong> site contains the following URL:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;BASE_URL&gt;?a=UpdateStatus&amp;p=&lt;40004&gt;&amp;st=&lt;3&gt;&amp;r=&lt;"http://www.neobank.com/insurance/subscribe.html"&gt; 
+  </codeblock> 
+  <p>As soon as a visitor clicks the offer, and therefore the URL, the <strong>Accepted</strong> status (value <strong>3</strong>) is applied to the proposition and the visitor is redirected to a new page of the <strong>Neobank</strong> site to take out the insurance contract.</p> 
+  <note> 
+   <p> If you want to specify another status in the url (for example if an offer proposition is rejected), use the value corresponding to the desired status. Example: <strong>Rejected</strong> = "5", <strong>Presented</strong> = "1" and so on.<br /> Statuses and their values can be retrieved in the <strong>Offer propositions (nms)</strong> data schema. For more on this, refer to <a href="../../configuration/using/data-schemas.md">this page</a>.<br /> </p> 
+  </note> 
+  <p><strong>Outbound interaction</strong></p> 
+  <p>In case of an outbound interaction, you can automatically apply the <strong>Interested</strong> status to an offer proposition when the delivery contains a link. Simply add the <strong>_urlType="11"</strong> value to the link:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;a&amp;nbsp;_urlType="11"&amp;nbsp;href="&lt;DEST_URL&gt;"&gt;Link&amp;nbsp;inserted&amp;nbsp;into&amp;nbsp;the&amp;nbsp;delivery&lt;/a&gt; 
+  </codeblock> 
+  <h2 id="-offer-preview-per-space">Offer preview per space</h2> 
+  <p>In this tab, you can view the offers for which the recipient is eligible via a chosen method. In the example below, the recipient is eligible for three offer proposals via mail.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_space_overview_002.png" title="offer_space_overview_002.png" /> 
+  <p>If a recipient isn't eligible for any offers, this is shown in the preview.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_space_overview_001.png" title="offer_space_overview_001.png" /> 
+  <p>The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to <a href="../../interaction/using/extension-example.md" target="_blank">Extension example</a>).</p> 
+ </body> 
+</html>

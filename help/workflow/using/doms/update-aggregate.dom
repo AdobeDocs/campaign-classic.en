@@ -1,0 +1,37 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="9ee84777-d6d9-4e6e-9361-41ee3a3fb856" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Update aggregate" name="jcr:title" />
+  <meta content="2019-08-06T06:59:16.313-0400" name="jcr:created" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Update aggregate" name="navTitle" />
+  <meta content="Update aggregate" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="856405b0-3c92-4e6e-ad09-354e87391670" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <p>Aggregates are defined at cube level for reporting purposes. A <strong>Workflow</strong> tab is available when configuring an aggregate. </p> 
+  <p>For more information on cubes and using aggregates in Adobe Campaign, refer to the dedicated <a href="../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates">section</a>.</p> 
+  <p>The <strong>Update aggregate</strong> activity lets you select the update mode to apply: full or partial.</p> 
+  <p>By default, a full update is carried out during each calculation. To enable a partial update, select the relevant option and define the update conditions.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_agregate_05.png" title="s_advuser_cube_agregate_05.png" />
+  <p><strong>Good practice</strong>: a <strong>Scheduler</strong> activity can be used to specify the frequency of calculation updates.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_cube_agregate_04.png" title="s_advuser_cube_agregate_04.png" />
+ </body>
+</html>

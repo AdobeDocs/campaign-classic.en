@@ -1,0 +1,182 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Email archiving" name="jcr:description" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2019-08-06T06:59:32.989-0400" name="jcr:created" /> 
+  <meta content="ca074983-21e4-4e62-b79b-c26c68528ebf" name="jcr:predecessors" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Email archiving" name="jcr:title" /> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="Email archiving" name="navTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="c2f08d14-2790-4682-835f-de11d8a10b35" name="jcr:uuid" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <p>You can configure Adobe Campaign to keep a copy of emails sent from your platform.</p> 
+  <p>However, Adobe Campaign itself does not manage archived files. It does enable you to send the messages of your choice to a dedicated address, from where they can be processed and archived using an external system.</p> 
+  <p>To do this, .eml files corresponding to the sent emails are transferred to a remote server, such as an SMTP email server. The archiving destination is a BCC email address (invisible to the delivery recipients) that you must specify.</p> 
+  <h2 id="recommendations-and-limitations">Recommendations and limitations</h2> 
+  <ul> 
+   <li><p>The email archiving feature is optional. Please check your license agreement.</p> </li> 
+   <li><p>For hosted and hybrid architectures, contact your account executive to activate it. For on-premise installations, follow the guidelines below - see the <a href="../../installation/using/email-archiving.md#activating-email-archiving--on-premise-" target="_blank">Activating email archiving (on premise)</a> and <a href="../../installation/using/email-archiving.md#configuring-the-bcc-email-address--on-premise-" target="_blank">Configuring the BCC email address (on premise)</a> sections.</p> </li> 
+   <li><p>Once email BCC is configured, make sure the feature is enabled in the delivery template or in the delivery through the <strong>Archive emails</strong> option. For more on this, see <a href="../../delivery/using/sending-messages.md#archiving-emails">this section</a>.</p> </li> 
+   <li><p>You can only use one BCC email address.</p> </li> 
+   <li><p>Only successfully sent emails are taken in account, bounces are not.</p> </li> 
+   <li><p>The email archiving system changed with Adobe Campaign 17.2 (build 8795). If you were already using email archiving, you must upgrade manually to the new email archiving system (BCC). For more on this, see the <a href="../../installation/using/email-archiving.md#updated-email-archiving-system--bcc-" target="_blank">Updated email archiving system (BCC)</a> section.</p> </li> 
+  </ul> 
+  <h2 id="activating-email-archiving--on-premise-">Activating email archiving (on premise)</h2> 
+  <p>To activate BCC email archiving when Adobe Campaign is installed on premise, follow the steps below.</p> 
+  <h3 id="local-folder">Local folder</h3> 
+  <p>To enable transferring sent emails to a BCC email address, exact raw copies of sent emails must first be saved as .eml files to a local folder.</p> 
+  <p>The path for the local folder must be specified in the <strong>config- 
+    <instance name="">
+      .xml 
+    </instance></strong> file, from the <strong> 
+    <mta datalogpath="" /></strong> configuration. For example:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;mta&amp;nbsp;dataLogPath="C:emails"&gt; 
+  </codeblock> 
+  <note> 
+   <p> It is the responsibility of the team implementing the project to ensure that the security settings allow access to the folder defined through the <strong>dataLogPath</strong> parameters.<br /> </p> 
+  </note> 
+  <p>The full path is as follows: <strong> 
+    <datalogpath>
+      YYYY-MM-DDHHh 
+    </datalogpath></strong>. The date and time are set according to the MTA server's clock (UTC). For example:</p> 
+  <codeblock gutter="true" class="syntax html">
+    C:emails2018-12-0213h 
+  </codeblock> 
+  <p>The archive file name is <strong> 
+    <deliveryid>
+      - 
+     <broadlogid>
+       .eml 
+     </broadlogid> 
+    </deliveryid></strong> when the status of the emails is not <strong>Sent</strong>. Once the status has changed to <strong>Sent</strong>, the file name becomes <strong> 
+    <deliveryid>
+      - 
+     <broadlogid>
+       -sent.eml 
+     </broadlogid> 
+    </deliveryid></strong>. For example:</p> 
+  <codeblock gutter="true" class="syntax html">
+    C:emails2018-12-0213h4012-8040-sent.eml 
+  </codeblock> 
+  <note> 
+   <p> In a mid-sourcing instance, the directory for the archived emails is located on the mid-sourcing server.<br /> The deliveryID and the broadlogID come from the mid-sourcing server when the status of the emails is not sent. Once the status has changed to <strong>Sent</strong>, these IDs come from the marketing server.<br /> </p> 
+  </note> 
+  <h3 id="parameters">Parameters</h3> 
+  <p>Once the local folder path is defined, add and edit the following elements as desired in the <strong>config- 
+    <instance name="">
+      .xml 
+    </instance></strong> file. Below are the default values:</p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!&lt;archiving&amp;nbsp;autoStart="false"&amp;nbsp;compressionFormat="0"&amp;nbsp;compressBatchSize="10000"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;archivingType="0"&amp;nbsp;expirationDelay="2"&amp;nbsp;purgeArchivesDelay="7"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;pollDelay="600"&amp;nbsp;acquireLimit="5000"&amp;nbsp;smtpNbConnection="2"/&gt;!!discoiqbr!! 
+  </codeblock> 
+  <ul> 
+   <li><p><strong>compressionFormat</strong>: format used when compressing the .eml files. The possible values are:</p> <p><strong>0</strong>: no compression (default value)</p> <p><strong>1</strong>: compression (.zip format)</p> </li> 
+   <li><p><strong>compressBatchSize</strong>: number of .eml files added to an archive (.zip file).</p> </li> 
+   <li><p><strong>archivingType</strong>: archiving strategy to be used. The possible values are:</p> <p><strong>0</strong>: raw copies of sent emails are saved in .eml format to the <strong>dataLogPath</strong> folder (default value). An archiving copy of the <strong> 
+      <deliveryid>
+        - 
+       <broadlogid>
+         -sent.eml 
+       </broadlogid> 
+      </deliveryid></strong> file is saved to the <strong>dataLogPath/archives</strong> folder. The sent email file path becomes <strong> 
+      <datalogpath>
+        archivesYYYY-MM-DDHHh 
+       <deliveryid>
+         - 
+        <broadlogid>
+          -sent.eml 
+        </broadlogid> 
+       </deliveryid> 
+      </datalogpath></strong>.</p> <p><strong>1</strong>: raw copies of sent emails are saved in .eml format to the <strong>dataLogPath</strong> folder and they are sent to the BCC email address over SMTP. Once the email copies are sent to the BCC address, the archive file name becomes <strong> 
+      <deliveryid>
+        - 
+       <broadlogid>
+         -sent-archived.eml 
+       </broadlogid> 
+      </deliveryid></strong> and the file is moved to the <strong>dataLogPath/archives</strong> folder. The sent and BCC archived email file path is then <strong> 
+      <datalogpath>
+        archivesYYYY-MM-DDHHh 
+       <deliveryid>
+         - 
+        <broadlogid>
+          -sent-archived.eml 
+        </broadlogid> 
+       </deliveryid> 
+      </datalogpath></strong>.</p> </li> 
+   <li><p><strong>expirationDelay</strong>: number of days .eml files are kept for archiving. After that delay, they are automatically moved to the <strong>dataLogPath/archives</strong> folder for compression. By default, .eml files expire after two days.</p> </li> 
+   <li><p><strong>purgeArchivesDelay</strong>: number of days archives are kept in the <strong>dataLogPath/ 
+      <archives /></strong> folder. After that period, they are permanently deleted. The purge begins when the MTA is started. By default, it is carried out every seven days.</p> </li> 
+   <li><p><strong>pollDelay</strong>: checking frequency (in seconds) for new incoming sent emails to the <strong>dataLogPath</strong> folder. For example, if this parameter is set to 60, it means that every minute, the archiving process goes through the .eml files inside the <strong>dataLogPath/ 
+      <date and="" time="" /></strong> folders, apply a purge if needed and sends email copies to the BCC address and/or compress the archived files whenever needed.</p> </li> 
+   <li><p><strong>acquireLimit</strong>: number of .eml files processed at once before the archiving process is applied again according to the <strong>pollDelay</strong> parameter. For example, if you set the <strong>acquireLimit</strong> parameter to 100 while the <strong>pollDelay</strong> parameter is set to 60, 100 .eml files per minute will be processed.</p> </li> 
+   <li><p><strong>smtpNbConnection</strong>: number of SMTP connections to the BCC email address.</p> </li> 
+  </ul> 
+  <p>Make sure you adjust these parameters according to the email sending throughput. For example, in a configuration where the MTA is sending 30,000 emails per hour, you can set the <strong>pollDelay</strong> parameter to 600, the <strong>acquireLimit</strong> parameter to 5000 and the <strong>smtpNbConnection</strong> parameter to 2. It means that using 2 SMTP connections, 5,000 emails will be sent to the BCC address every 10 minutes.</p> 
+  <h2 id="configuring-the-bcc-email-address--on-premise-">Configuring the BCC email address (on premise)</h2> 
+  <note>
+    For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII). 
+   <br /> 
+  </note> 
+  <p>In the <strong>config- 
+    <instance name="">
+      .xml 
+    </instance></strong> file, use the following parameters to define the SMTP email server to which the stored files will be transferred:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;archiving&amp;nbsp;smtpBccAddress=""&amp;nbsp;smtpEnableTLS="false"&amp;nbsp;smtpRelayAddress=""&amp;nbsp;smtpRelayPort="25"/&gt; 
+  </codeblock> 
+  <ul> 
+   <li><p><strong>smtpBccAddress</strong>: archiving target destination</p> </li> 
+   <li><p><strong>smtpEnableTLS</strong>: using a secured SMTP connection (TLS/SSL protocol)</p> </li> 
+   <li><p><strong>smtpRelayAddress</strong>: relay address to use</p> </li> 
+   <li><p><strong>smtpRelayPort</strong>: relay port to use</p> </li> 
+  </ul> 
+  <note> 
+   <p> If you are using an SMTP relay, the changes to the emails made by the relay are not taken into account in the archiving process.<br /> Besides, the relay assigns a <strong>Sent</strong> status to all emails, including those that are not sent. Therefore, all messages are archived.<br /> </p> 
+  </note> 
+  <h2 id="updated-email-archiving-system--bcc-">Updated email archiving system (BCC)</h2> 
+  <note>
+    The email archiving system (BCC) changed with Adobe Campaign 17.2 (build 8795). If you are upgrading from an older build and were already using email archiving capabilities, you must upgrade manually to the new email archiving system (BCC). 
+   <br /> 
+  </note> 
+  <p>To do this, make the following changes to the <strong>config- 
+    <instance name="">
+      .xml 
+    </instance></strong> file:</p> 
+  <ol> 
+   <li><p>Remove the <strong>zipPath</strong> parameter from the <strong> 
+      <archiving /></strong> node.</p> </li> 
+   <li><p>Set the <strong>compressionFormat</strong> parameter to <strong>1</strong> if needed.</p> </li> 
+   <li><p>Set the <strong>archivingType</strong> parameter to <strong>1</strong>.</p> </li> 
+  </ol> 
+  <p>Once email BCC is configured, make sure you select the <strong>Archive emails</strong> option in the delivery template or the delivery. For more on this, see <a href="../../delivery/using/sending-messages.md#archiving-emails">this section</a>.</p> 
+  <h2 id="best-practices">Best practices</h2> 
+  <ul> 
+   <li><p><strong>BCC address mailbox</strong>: make sure it has enough reception capacity to archive all the emails that are sent by the MTA.</p> </li> 
+   <li><p><strong>MTA mutualization</strong>: the BCC archiving feature works at the MTA level. It lets you duplicate every email sent by the MTA. As the MTA can be mutualized across several instances (dev, test, or prod for example) or even across several clients (in a mid-sourcing environment), setting up this feature impacts security:</p> 
+    <ul> 
+     <li><p>If you share an MTA with multiple clients and one of them has this option activated, this client will access all the emails of the other clients that share the same MTA. To avoid such a situation, use a different MTA for each client.</p> </li> 
+     <li><p>If you use the same MTA across multiple instances (development, test, prod) for a single client, the messages sent from all three instances will be duplicated by the dataLogPath option.</p> </li> 
+    </ul></li> 
+   <li><p><strong>Emails per connection</strong>: BCC email archiving operates by opening a connection and trying to send all emails through that connection. Adobe recommends checking with your internal technical contact the number of emails that are accepted on a given connection. Increasing this number can have a great impact on BCC throughput.</p> </li> 
+   <li><p><strong>BCC sending IPs</strong>: currently, BCC emails are not sent through the normal MTA proxies. Instead, a direct connection is open from the MTA server to the destination email server. This means that you may need to whitelist additional IPs on your network, depending on your email server configuration.</p> </li> 
+  </ul> 
+ </body> 
+</html>

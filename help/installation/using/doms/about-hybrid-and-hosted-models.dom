@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="About hybrid and hosted models" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:installation" name="primaryAudienceTag" />
+  <meta content="0e388454-dc6c-41a3-9dc2-6b04a76398e2" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="About hybrid and hosted models" name="jcr:description" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-08-06T06:59:29.231-0400" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="d6f0ae2a-2f2a-481d-a9a5-b74b27cb3081" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="About hybrid and hosted models" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="seoDescription" />
+ </head>
+ <body>
+  <p>If you have a hosted or hybrid hosting model, you don't need to read this document in its entirety. Main installation and configuration steps are performed by Adobe. In this section, we regrouped the information you need to know if you have a hosted or hybrid hosting model.</p> 
+  <p>The different hosting models are introduced in this <a href="../../installation/using/hosting-models.md">section</a>.</p> 
+  <p>To learn more about the main differences between deployment modes, refer to <a href="https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html">this article</a>.</p> 
+ </body>
+</html>

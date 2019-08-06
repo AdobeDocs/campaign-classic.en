@@ -1,0 +1,154 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="Split" name="navTitle" />
+  <meta content="2019-08-06T06:59:14.196-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="seoDescription" />
+  <meta content="0c3866ed-6472-49a0-8e16-b34706e708c9" name="jcr:uuid" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="topic_tags:targeting-activities;products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Split" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Split" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="69a63b0b-eb78-4faa-b41a-ee4f0990ce42" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>A <strong>Split</strong>-type activity lets you split a target into several subsets. The target is constructed with all the received results: all previous activities must thus have finished in order for this activity to be executed. </p> 
+  <p>This activity does not trigger a union of inbound populations. If several transitions land in one split activity, we recommend inserting a <strong>Union</strong> activity in front of it.</p> 
+  <p>For an example of the split activity being used, refer to <a href="../../workflow/using/split.md#creating-subsets-using-the-split-activity" target="_blank">Creating subsets using the Split activity</a>.</p> 
+  <p>An example illustrating how to use the Split activity to segment the target into different populations using filtering conditions is described in <a href="../../workflow/using/cross-channel-delivery-workflow.md">this section</a>.</p> 
+  <p>An example showing how to use an instance variable in a Split activity is available in <a href="https://helpx.adobe.com/campaign/kb/instance-variable-in-workflow.html">Campaign Knowlegde Base</a>.</p> 
+  <p>To configure this activity, define the subset content and label in the <strong>Subsets</strong> tab, then choose the target dimension in the <strong>General</strong> tab.</p> 
+  <h2 id="creating-subsets">Creating subsets</h2>
+  <p>To create a subset:</p> 
+  <ol>
+   <li><p>Click the label in the matching field and select the filter to apply.</p> </li>
+   <li><p>To filter the inbound population, select the <strong>Add a filtering condition</strong> option and click the <strong>Edit...</strong> link. </p> <p>Select the type of filter to be applied to the data to include it in this set. </p> <p>The process is the same as for a <strong>Query</strong>-type activity. </p> 
+    <note>
+      You can filter the data in a maximum of two external databases (FDA).
+     <br /> 
+    </note></li>
+   <li><p>You can specify the maximum number of records to be extracted from the target to create the subset. To do this, check the <strong>Limit the selected records</strong> option and click the <strong>Edit...</strong> link. </p> <p>A wizard lets you choose the selection mode for records of this subset. The steps can be found in <a href="../../workflow/using/split.md#limiting-the-number-of-subset-records" target="_blank">Limiting the number of subset records</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_partage4.png" title="s_user_segmentation_partage4.png" /></li>
+   <li><p>If you wish, you can <strong>add other subsets</strong> using the <strong>Add</strong> button. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_partage_add.png" title="s_user_segmentation_partage_add.png" />
+    <note>
+      If the 
+     <strong>Enable overlapping of output populations</strong> option is not checked, subsets are created in the order of the tabs. Use the arrows in the upper right-hand section of this window to move them. If the first subset recovers 70% of the initial population, for example, then the next subset will apply its selection criteria only to the remaining 30%, and so on.
+     <br /> 
+    </note><p>For each subset created, an outbound transition will be added to the split activity.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_partage_add2.png" title="s_user_segmentation_partage_add2.png" /><p>You can choose to generate a single outbound transition (and identify sets using the segment code, for example): to do this, select the <strong>Generate subsets in the same table</strong> option in the <strong>General</strong> tab.</p> <p>If it is completed, the segment code of each subset is automatically stored in an additional column. This column will be accessible in the personalization fields at delivery level.</p> </li>
+  </ol>
+  <h2 id="limiting-the-number-of-subset-records">Limiting the number of subset records</h2>
+  <p>If you do not wish to use the entire population contained in a subset, you can limit the number of records it will contain.</p> 
+  <ol>
+   <li><p>In the subset edit window, check the <strong>Limit the selected records</strong> option and click the <strong>Edit...</strong> link.</p> </li>
+   <li><p>Select the limit type for your choice:</p> 
+    <ul>
+     <li><p><strong>Activate random sampling</strong>: this option takes a random sample of the records. The type of random sampling applied depends on the database engine.</p> </li>
+     <li><p><strong>Keep only the first records after sorting</strong>: this option lets you define a limitation based on one or more sorting orders. If you select the <strong>Age</strong> field as a sorting criterion and 100 as the limit, only the youngest 100 recipients will be kept.</p> </li>
+     <li><p><strong>Keep the first ones after sorting (criteria, random)</strong>: This option combines the two previous options. It lets you define a limitation based on one or more sorting orders then apply a random selection on the first records if some of the records have the same values as the defined criteria.</p> <p>For example, if you select the <strong>Age</strong> field as a sorting criteria, and you then define a limit of 100, but the 2000 youngest recipients in the database are all 18, then 100 recipients will be randomly selected out of those 2000.</p> </li>
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_partage_wz1.png" title="s_user_segmentation_partage_wz1.png" /></li>
+   <li><p>If you wish to define sorting criteria, an additional step lets you define the columns and the sorting order.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_partage_wz1.1.png" title="s_user_segmentation_partage_wz1.1.png" /></li>
+   <li><p>Then choose the data limitation method.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_partage_wz2.png" title="s_user_segmentation_partage_wz2.png" /><p>There are several ways of doing this: </p> 
+    <ul>
+     <li><p><strong>Size (in %)</strong>: a percentage of records. For example, the configuration below extracts 10% of the total population.</p> <p>The percentage applies to the initial population, not the result of the activity.</p> </li>
+     <li><p><strong>Size (as a % of the segment)</strong>: a percentage of records relating only to the subsets and not to the initial population.</p> </li>
+     <li><p><strong>Maximum size</strong>: a maximum number of records.</p> </li>
+     <li><p><strong>By data grouping</strong>: you can set a limit on the number of records depending on the values in a specified field of the inbound population. For more on this subject, refer to <a href="../../workflow/using/split.md#limiting-the-number-of-subset-records-by-data-grouping" target="_blank">Limiting the number of subset records by data grouping</a>.</p> </li>
+     <li><p><strong>By data grouping (in %)</strong>: you can set a limit on the number of records depending on the values in a specified field of the inbound population using a percentage. For more on this subject, refer to <a href="../../workflow/using/split.md#limiting-the-number-of-subset-records-by-data-grouping" target="_blank">Limiting the number of subset records by data grouping</a>.</p> </li>
+     <li><p><strong>By data distribution</strong>: If your grouping fields have too many values or if you want to avoid entering the values again for each new split activity, Adobe Campaign lets you configure a <strong>By data distribution</strong> limitation (optional Distributed Marketing module). For more on this, refer to <a href="../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution" target="_blank">Limiting the number of subset records per data distribution</a>. </p> </li>
+    </ul></li>
+   <li><p>Click <strong>Finish</strong> to approve the record selection criteria. The defined configuration is then displayed in the middle window of the editor.</p> </li>
+  </ol>
+  <h2 id="limiting-the-number-of-subset-records-by-data-grouping">Limiting the number of subset records by data grouping</h2>
+  <p>You can limit the number of records by data grouping. This limit can be carried out using a fixed value or a percentage.</p> 
+  <p>For instance, if you select the <strong>Language</strong> field as a group field, you can define a list of records for each language. </p> 
+  <ol>
+   <li><p>After selecting the data limitation values, select <strong>By data grouping</strong> or <strong>By data grouping (as a %) </strong> and click <strong>Next</strong>. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_partage_wz3.png" title="s_user_segmentation_partage_wz3.png" /></li>
+   <li><p>Then select the grouping field(s) (the <strong>Language</strong> field for instance) and click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_partage_wz4.png" title="s_user_segmentation_partage_wz4.png" /></li>
+   <li><p>Finally, specify the data grouping thresholds (using the fixed values or percentages depending on the previously selected grouping method). To set the same threshold for every value, for example if you wish to set the number of records for each language to 10, select the <strong>All data groupings are the same size</strong> option. To set a different limit for every value, select the <strong>Limitations by grouping value</strong> option. This will allow you to choose a different limitation for English, French, etc. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_partage_wz5.png" title="s_user_segmentation_partage_wz5.png" /></li>
+   <li><p>Click <strong>Finish</strong> to approve the limitation and return to editing the split activity.</p> </li>
+  </ol>
+  <h2 id="limiting-the-number-of-subset-records-per-data-distribution">Limiting the number of subset records per data distribution</h2>
+  <p>If your grouping fields contain too large a number of values or if you want to avoid resetting values for every new split activity, Adobe Campaign lets you create a limitation per data distribution. When selecting data limitation values (for more on this subject see the <a href="../../workflow/using/split.md#creating-subsets" target="_blank">Creating subsets</a> section), select the <strong>By data distribution</strong> option and select a template from the drop-down menu. Creating a data distribution template is demonstrated below.</p> 
+  <p>For an example of the <strong>Local approval</strong> activity with a distribution template, refer to <a href="../../workflow/using/using-the-local-approval-activity.md" target="_blank">Using the local approval activity</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_partage_wz6.png" title="s_user_segmentation_partage_wz6.png" />
+  <note>
+    To use this function, you need to purchase the Distributed Marketing module, which is a Campaign option. Please check your license agreement.
+   <br /> 
+  </note>
+  <p>The data distribution template lets you limit the number of records using a list of grouping values. To create a data distribution template, apply the following steps: </p> 
+  <ol>
+   <li><p>To create the data distribution template, go to the <strong>Resources &gt; Campaign management &gt; Data distribution</strong> node and click <strong>New</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_data_distribution_1.png" title="local_validation_data_distribution_1.png" /></li>
+   <li><p>The <strong>General</strong> tab lets you enter the label and the execution context of the distribution (targeting dimension, distribution field).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_data_distribution_2.png" title="local_validation_data_distribution_2.png" /><p>The following fields need to be entered:</p> 
+    <ul>
+     <li><p><strong>Label</strong>: label for the distribution template.</p> </li>
+     <li><p><strong>Targeting dimension</strong>: enter the targeting dimension to which the data distribution will be applied, <strong>Recipient</strong> for instance. This schema must always be compatible with the data used in the targeting workflow.</p> </li>
+     <li><p><strong>Distribution field</strong>: select a field via the targeting dimension. For instance, if you select the <strong>Email domain</strong> field, the list of recipients will be broken down by domain.</p> </li>
+     <li><p><strong>Distribution type</strong>: select the way the limitation value of the target will be broken down in the <strong>Distribution</strong> tab: <strong>Percentage</strong> or <strong>Set</strong>.</p> </li>
+     <li><p><strong>Assignment type</strong>: select the data distribution assignment type. You can choose between assignment by group or operator or assignment by local entity. Assignment by local entity is used in <strong>Distributed Marketing</strong>. For more information, refer to this <a href="../../campaign/using/about-distributed-marketing.md">section</a>.</p> </li>
+     <li><p><strong>Approval storage</strong>: if you use a <strong>Local approval</strong> activity in your targeting workflow (refer to <a href="../../workflow/using/local-approval.md" target="_blank">Local approval</a>), enter the schema in which the approval results will be stored. You must specify one storage schema per targeting schema. If you use the <strong>Recipients</strong> targeting schema, enter the default <strong>Local approval of recipients</strong> storage schema.</p> <p>In case of a simple limitation by data grouping without local approval, you do not need to enter the <strong>Approvals storage</strong> field. </p> </li>
+    </ul></li>
+   <li><p>If you are using a <strong>Local approval</strong> activity (refer to <a href="../../workflow/using/local-approval.md" target="_blank">Local approval</a>), enter the <strong>Advanced settings</strong> for the distribution template:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_data_distribution_3.png" title="local_validation_data_distribution_3.png" /><p>The following fields need to be entered:</p> 
+    <ul>
+     <li><p><strong>Approve targeted messages</strong>: check this option if you want all recipients to be pre-selected from the list of recipients to approve. If this option is unchecked, no recipient will be pre-selected.</p> 
+      <note>
+       <p> This option is checked by default.<br /> </p> 
+      </note><img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_notification.png" title="local_validation_notification.png" /></li>
+     <li><p><strong>Delivery label</strong>: lets you define an expression to display the delivery label in the return notification. The default expression provides information on the standard label of the delivery (compute string). You can modify this expression. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_notification_3.png" title="local_validation_notification_3.png" /></li>
+     <li><p><strong>Grouping field</strong>: this field lets you define the grouping used to display recipients in approval and return notifications.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_notification_4.png" title="local_validation_notification_4.png" /></li>
+     <li><p><strong>Web Interface</strong>: lets you link a web application to the recipient list. In the approval and return notification, each recipient will be clickable and will link to the selected web application. The <strong>Parameters</strong> field (for example <strong>recipientId</strong>) lets you configure the additional parameter to be used in the URL and the web application.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_notification_5.png" title="local_validation_notification_5.png" /></li>
+    </ul></li>
+   <li><p>The <strong>Breakdown</strong> tab lets you define the list of distribution values.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_data_distribution_4.png" title="local_validation_data_distribution_4.png" />
+    <ul>
+     <li><p><strong>Value</strong>: enter the distribution values. </p> </li>
+     <li><p><strong>Percentage / Set</strong>: enter the record limit (fixed or percentage) linked to each value.</p> <p>This column is defined by the <strong>Distribution type</strong> field within the <strong>General</strong> tab.</p> </li>
+     <li><p><strong>Label</strong>: enter the label linked to each value.</p> </li>
+     <li><p><strong>Group or operator</strong>: if you are using a <strong>Local approval</strong> activity (refer to <a href="../../workflow/using/local-approval.md" target="_blank">Local approval</a>), select the operator or group of operators assigned to each distribution value.</p> <p>In case of a simple limitation by data grouping without local approval, you do not need to enter the <strong>Group or operator</strong> field. </p> 
+      <note>
+        Make sure the operators have been assigned the appropriate rights. 
+       <br /> 
+      </note></li>
+     <li><p><strong>Local entity</strong>: select the local entity assigned to each distribution value. Local entities are used in <strong>Distributed Marketing</strong>. For more information, refer to this <a href="../../campaign/using/about-distributed-marketing.md">section</a>.</p> </li>
+    </ul></li>
+  </ol>
+  <h2 id="filtering-parameters">Filtering parameters</h2>
+  <p>Click the <strong>General</strong> tab to enter the activity label. Select the target and filter dimensions for this split. If necessary, you can change these dimensions for a given subset.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_partage_general.png" title="s_user_segmentation_partage_general.png" />
+  <p>Check the <strong>Generate complement</strong> option if you wish to exploit the remaining population. The complement is the inbound target minus the union of the subsets. An additional outbound transition will then be added to the activity, as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_partage_compl.png" title="s_user_segmentation_partage_compl.png" />
+  <p>For this option to work correctly, the inbound data must have a primary key.</p> 
+  <p>For example, if the data is read directly from an external database such as Netezza (which does not support the notion of an index) via a <strong>Data loading (RDBMS)</strong> activity, the complement generated by the <strong>Split</strong> activity will be incorrect.</p> 
+  <p>To avoid this, you can drag and drop an <strong>Enrichment</strong> activity just before the <strong>Split</strong> activity. In the <strong>Enrichment</strong> activity, check the <strong>Keep all additional data from the main set</strong> and specify in the additional data the columns that you want to use for configuring the filters of the <strong>Split</strong> activity. The data from the inbound transition of the <strong>Split</strong> activity are then stored locally in a temporary table on the Adobe Campaign server and the complement can be generated correctly. </p> 
+  <p>The <strong>Enable overlapping of output populations</strong> option lets you manage populations belonging to several subsets:</p> 
+  <ul>
+   <li><p>When the box isn't checked, the split activity makes sure a recipient cannot be present in several output transitions, even if it meets the criteria of several subsets. They will be in the target of the first tab with matching criteria. </p> </li>
+   <li><p>When the box is checked, the recipients can be found in several subsets if they meet their filter criteria. Adobe Campaign recommends using exclusive criteria.</p> </li>
+  </ul>
+  <h2 id="input-parameters">Input parameters</h2>
+  <ul>
+   <li><p>tableName</p> </li>
+   <li><p>schema</p> </li>
+  </ul>
+  <p>Each inbound event must specify a target defined by these parameters.</p> 
+  <h2 id="output-parameters">Output parameters</h2>
+  <ul>
+   <li><p>tableName</p> </li>
+   <li><p>schema</p> </li>
+   <li><p>recCount</p> </li>
+  </ul>
+  <p>This set of three values identifies the target resulting from the exclusion. <strong>tableName</strong> is the name of the table that records the target identifiers, <strong>schema</strong> is the schema of the population (usually nms:recipient) and <strong>recCount</strong> is the number of elements in the table.</p> 
+  <p>The transition associated with the complement has the same parameters.</p> 
+ </body>
+</html>

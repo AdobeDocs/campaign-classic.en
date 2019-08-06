@@ -1,0 +1,104 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Processing a report" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="2019-08-06T06:59:35.244-0400" name="jcr:created" />
+  <meta content="0cd2e7a9-49d4-498b-9864-dd35f59a4ef3" name="jcr:predecessors" />
+  <meta content="Processing a report" name="navTitle" />
+  <meta content="" name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2f4fe2e3-1e5a-40d4-ad04-39d0dc26e568" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:reporting" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Processing a report" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <p>If you have the appropriate rights, you can save an analysis report created from a template or export it in Excel, PDF, or OpenOffice format.</p> 
+  <h2 id="saving-an-analysis-report">Saving an analysis report</h2>
+  <p>To save your report, click <strong>Save</strong> and give your report a label.</p> 
+  <p>Select <strong>Also save data</strong> if you wish to create a history of your report and see the values of the report at the time of saving. For more on this, refer to <a href="../../reporting/using/processing-a-report.md#archiving-analysis-reports" target="_blank">Archiving analysis reports</a>.</p> 
+  <p>The <strong>Share this report</strong> option allows other operators to access the report.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_010.png" title="s_ncs_user_report_wizard_010.png" />
+  <p>Once it has been saved, this report can be re-used to generate other analysis reports: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_08a.png" title="s_ncs_user_report_wizard_08a.png" />
+  <p>To make changes to this report, edit the <strong>Administration &gt; Configuration &gt; Adobe Campaign tree reports</strong> node of the Adobe Campaign tree (or the first 'Reports' type folder for which the operator has editing rights). For more on this, refer to <a href="../../reporting/using/processing-a-report.md#configuring-the-layout-of-a-descriptive-analysis-report" target="_blank">Configuring the layout of a descriptive analysis report</a>.</p> 
+  <h2 id="analysis-report-additional-settings">Analysis report additional settings</h2>
+  <p>Once a descriptive analysis report has been saved, you can edit its properties and access additional options. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_08b.png" title="s_ncs_user_report_wizard_08b.png" />
+  <p>These options are the same as standard reports and are detailed in <a href="../../reporting/using/properties-of-the-report.md">this page</a>.</p> 
+  <h2 id="configuring-the-layout-of-a-descriptive-analysis-report">Configuring the layout of a descriptive analysis report</h2>
+  <p>You can personalize the display and layout of your data in the charts and tables of the descriptive analysis. All options are accessed via the Adobe Campaign tree, in the <strong>Edit</strong> tab of each report.</p> 
+  <h3 id="analysis-report-display-mode">Analysis report display mode</h3>
+  <p>When you create a report using the <strong>qualitative distribution</strong> template, table and chart display modes are selected by default. If you only want one display mode, un-check the appropriate box. This means that only the tab of the checked display mode will be available.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_display_01.png" title="s_ncs_advuser_report_display_01.png" />
+  <p>To change the schema of the report, click the <strong>Select the link</strong> and select another table from the database.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_display_02.png" title="s_ncs_advuser_report_display_02.png" />
+  <h3 id="analysis-report-display-settings">Analysis report display settings</h3>
+  <p>It's possible to hide or show statistics and sub-totals as well as choose the orientation of your statistics.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_display_05.png" title="s_ncs_advuser_report_display_05.png" />
+  <p>When you create statistics you can personalize their label. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_display_06.png" title="s_ncs_advuser_report_display_06.png" />
+  <p>Their name will be displayed in the report.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_display_07.png" title="s_ncs_advuser_report_display_07.png" />
+  <p>However, if you un-check the label and sub-total display option, they will not be visible in the report. The name will appear in a tooltip when you hover over a cell of the table.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_display_08.png" title="s_ncs_advuser_report_display_08.png" />
+  <p>By default, the statistics are displayed online. To change the orientation, select the appropriate option from the drop-down list. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_035a.png" title="s_ncs_advuser_report_wizard_035a.png" />
+  <p>In the following example, the statistics are displayed in columns.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_035.png" title="s_ncs_advuser_report_wizard_035.png" />
+  <h3 id="analysis-report-data-layout">Analysis report data layout</h3>
+  <p>You can personalize the data layout directly in the descriptive analysis tables. To do this, right-click the variable you want to work with. Select the available options from the drop-down menu:</p> 
+  <ul>
+   <li><p><strong>Pivot</strong> to change the axis of the variable.</p> </li>
+   <li><p><strong>Up</strong> / <strong>Down</strong> to swap the variables in lines.</p> </li>
+   <li><p><strong>Move to the right</strong> / <strong>Move to the left</strong> to swap the variables in columns.</p> </li>
+   <li><p><strong>Turn</strong> to invert the variables axes.</p> </li>
+   <li><p><strong>Sort from A to Z</strong> to sort the variable values low to high.</p> </li>
+   <li><p><strong>Sort from Z to A</strong> to sort the variable values high to low.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_016.png" title="s_ncs_advuser_report_wizard_016.png" /></li>
+  </ul>
+  <p>To return to the initial display, refresh the view.</p> 
+  <h3 id="analysis-report-chart-options">Analysis report chart options</h3>
+  <p>It's possible to personalize the display of data in the chart. To do this, click the <strong>Variables...</strong> link available during the chart type selection stage.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_3c.png" title="s_ncs_advuser_report_wizard_3c.png" />
+  <p>The following options are available:</p> 
+  <ul>
+   <li><p>The upper section of the window lets you modify the chart display area.</p> </li>
+   <li><p>By default, labels are displayed in the chart. You can hide them by un-checking the <strong>Show values</strong> option.</p> </li>
+   <li><p>The <strong>Accumulate values</strong> option lets you add up values from one series to another. </p> </li>
+   <li><p>You can decide whether or not to display the chart legend: to hide it, un-check the appropriate option. By default, the legend is displayed outside the chart in the top right-hand corner.</p> <p>The legend can also be displayed on top of the chart in order to save on display space. To do this, select the option <strong>Include in the chart</strong> </p> <p>Select the vertical and horizontal alignment in the <strong>Caption position</strong> drop-down list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_3d.png" title="s_ncs_advuser_report_wizard_3d.png" /></li>
+  </ul>
+  <h2 id="exporting-an-analysis-report">Exporting an analysis report</h2>
+  <p>To export data from an analysis report, click the drop-down list and select the desired output format.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_09.png" title="s_ncs_user_report_wizard_09.png" />
+  <p>For more on this, refer to <a href="../../reporting/using/actions-on-reports.md">this page</a>.</p> 
+  <h2 id="re-using-existing-reports-and-analyses">Re-using existing reports and analyses</h2>
+  <p>You can create descriptive analysis reports on data using existing reports already stored in Adobe Campaign. This mode is possible when analyses have been saved or when reports have been created and configured to be accessed via the descriptive analysis wizard. </p> 
+  <p>To find out how to save descriptive analyses, refer to <a href="../../reporting/using/processing-a-report.md#saving-an-analysis-report" target="_blank">Saving an analysis report</a>.</p> 
+  <p>To create descriptive analysis reports, the descriptive analysis wizard must be executed via a workflow transition or via the <strong>Tools &gt; Descriptive analysis</strong> menu.</p> 
+  <ol>
+   <li><p>Select <strong>Existing analyses and reports</strong> and click <strong>Next</strong>.</p> </li>
+   <li><p>This lets you access the list of available reports. Select the report you wish to generate.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_01.png" title="s_ncs_user_report_wizard_01.png" /></li>
+  </ol>
+  <h2 id="archiving-analysis-reports">Archiving analysis reports</h2>
+  <p>When you create a descriptive analysis based on an existing analysis, you can create archives to store data and compare report results. </p> 
+  <p>To create a history, apply the following steps:</p> 
+  <ol>
+   <li><p>Open an existing analysis or create a new descriptive analysis wizard.</p> </li>
+   <li><p> In the report display page, click the button to create a history in the tool bar, then confirm as shown below:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_historize_icon.png" title="reporting_descriptive_historize_icon.png" /></li>
+   <li><p>Use the archive access button to show previous analyses.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_descriptive_historize_access.png" title="reporting_descriptive_historize_access.png" /></li>
+  </ol>
+ </body>
+</html>

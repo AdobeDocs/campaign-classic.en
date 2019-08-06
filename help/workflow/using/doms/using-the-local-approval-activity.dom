@@ -1,0 +1,156 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Using the local approval activity" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2019-08-06T06:59:16.620-0400" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Using the local approval activity" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="ed8cc3a0-008f-41fe-b762-81e452e8508b" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="b4a269e2-ef8b-4f59-9a63-faecc58234d7" name="jcr:uuid" />
+  <meta content="Using the local approval activity" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <p>The <strong>Local approval</strong> activity integrated into a targeting workflow lets you set up a recipient approval process before the delivery is sent. </p> 
+  <note>
+    To use this function, you need to purchase the Distributed Marketing module, which is a Campaign option. Please check your license agreement.
+   <br /> 
+  </note>
+  <p>To set up this use case, we created the following targeting workflow:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_workflow.png" title="local_validation_workflow.png" />
+  <p>The main steps of the local approval process are:</p> 
+  <ol>
+   <li><p>The population resulting from targeting can be limited thanks to a <strong>Split</strong> type activity using a data distribution model. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_intro_1.png" title="local_validation_intro_1.png" /></li>
+   <li><p>The <strong>Local approval</strong> activity then takes over and sends a notification email to each local supervisor. The activity is pended until each local supervisor approves the recipients assigned to them.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_intro_4.png" title="local_validation_intro_4.png" /></li>
+   <li><p>Once the approval deadline is reached, the workflow starts again. In this example, the <strong>Delivery</strong> activity starts and the delivery is sent to the approved targets.</p> 
+    <note>
+     <p> Once the deadline is reached, recipients who haven't been approved are excluded from targeting.<br /> </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_intro_6.png" title="local_validation_intro_6.png" /></li>
+   <li><p>A few days later, the second <strong>Local approval</strong> type activity sends a notification email to each local supervisor with a summary of the actions carried out by their contacts (clicks, opens, etc.). </p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_intro_5.png" title="local_validation_intro_5.png" /></li>
+  </ol>
+  <h2 id="step-1--creating-the-data-distribution-template-">Step 1: Creating the data distribution template</h2>
+  <p>The data distribution template lets you limit the population resulting from targeting based on data grouping while enabling you to assign each value to a local supervisor. In this example, we have defined the <strong>Email address domain</strong> field as a distribution field and assigned a domain to each local supervisor </p> 
+  <p>For more on creating a data distribution template, refer to <a href="../../workflow/using/using-the-local-approval-activity.md#limiting-the-number-of-subset-records-per-data-distribution" target="_blank">Limiting the number of subset records per data distribution</a>.</p> 
+  <ol>
+   <li><p>To create the data distribution template, go to the <strong>Resources &gt; Campaign management &gt; Data distribution</strong> node and click <strong>New</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_data_distribution_1.png" title="local_validation_data_distribution_1.png" /></li>
+   <li><p>Select the <strong>General</strong> tab.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_data_distribution_2.png" title="local_validation_data_distribution_2.png" /></li>
+   <li><p>Enter the <strong>Label</strong> and the <strong>Distribution context</strong>. In this example, we have selected the <strong>Recipient</strong> targeting schema and the <strong>Email domain</strong> field as a distribution field. The list of recipients will be broken down by domain.</p> </li>
+   <li><p>In the <strong>Distribution type</strong> field, select how the target limitation value will be expressed in the <strong>Distribution</strong> tab. Here, we have chosen <strong>Percentage</strong>.</p> </li>
+   <li><p>In the <strong>Approval storage</strong> field, enter the storage schema of the approvals that match the targeting schema in use. Here we are going to use the default storage schema: <strong>Local approval of recipients</strong>.</p> </li>
+   <li><p>Then click the <strong>Advanced parameters</strong> link.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_data_distribution_3.png" title="local_validation_data_distribution_3.png" /></li>
+   <li><p>Keep the <strong>Approve the targeted messages</strong> option checked so that all recipients are pre-selected from the list of recipients to approve.</p> </li>
+   <li><p>In the <strong>Delivery label</strong> field, we've left the default expression (compute string of the delivery). The standard label of the delivery will be used in the feedback notification.</p> </li>
+   <li><p>In the <strong>Grouping field</strong> section, we have selected the <strong>Gender</strong> field as a grouping field for displaying recipients in the approval and feedback notifications.</p> </li>
+   <li><p>In the <strong>Edit targeted messages</strong> section, we've selected the <strong>Edit recipients</strong> web application and the <strong>recipientId</strong> parameter. In the approval and feedback notifications, recipients will be clickable and will point towards the URL of the web application. The additional URL parameter will be <strong>recipientId</strong>.</p> </li>
+   <li><p>Then click the <strong>Distribution</strong> tab. For each domain, enter the following fields:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_data_distribution_4.png" title="local_validation_data_distribution_4.png" />
+    <ul>
+     <li><p><strong>Value</strong>: enter the value of the domain name. </p> </li>
+     <li><p><strong>Percentage / Fixed</strong>: for each domain, enter the max. number of recipients you want to send the delivery to. In this example, we want to limit the delivery to 10% per domain.</p> </li>
+     <li><p><strong>Label</strong>: enter the label of the domain to be displayed in the approval and feedback notifications.</p> </li>
+     <li><p><strong>Group or operator</strong>: select the operator or group of operators assigned to the domain.</p> 
+      <note>
+        Make sure the operators have been assigned the appropriate rights. 
+       <br /> 
+      </note></li>
+    </ul></li>
+  </ol>
+  <h2 id="step-2--creating-the-targeting-workflow">Step 2: Creating the targeting workflow</h2>
+  <p>To set up this use case, we created the following targeting workflow:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_workflow.png" title="local_validation_workflow.png" />
+  <p>The following activities were added:</p> 
+  <ul>
+   <li><p>Two <strong>Query</strong> activities,</p> </li>
+   <li><p>One <strong>Intersection</strong> activity,</p> </li>
+   <li><p>One <strong>Split</strong> activity,</p> </li>
+   <li><p>One <strong>Local approval</strong> activity,</p> </li>
+   <li><p>One <strong>Delivery</strong> activity,</p> </li>
+   <li><p>One <strong>Wait</strong> activity,</p> </li>
+   <li><p>A second <strong>Local approval</strong> activity,</p> </li>
+   <li><p>One <strong>End</strong> activity.</p> </li>
+  </ul>
+  <h3 id="queries--intersection-and-split">Queries, Intersection and Split</h3>
+  <p>Upstream targeting is made up of two queries, one intersection and one split. The population resulting from targeting can be limited using a <strong>Split</strong> activity using a data distribution template.</p> 
+  <p>For more on configuring a split activity, refer to <a href="../../workflow/using/split.md" target="_blank">Split</a>. The creation of a data distribution template is detailed in <a href="../../workflow/using/using-the-local-approval-activity.md#limiting-the-number-of-subset-records-per-data-distribution" target="_blank">Limiting the number of subset records per data distribution</a>.</p> 
+  <p>If you do not want to limit the population from the query, you do not have to use the <strong>Query</strong>, <strong>Intersection</strong>, and <strong>Split</strong> activities. In this case, complete the data distribution template in the first <strong>Local approval</strong> activity.</p> 
+  <ol>
+   <li><p>In the <strong>Record count limitation</strong> section, select the <strong>Limit the selected records</strong> option and click the <strong>Edit</strong> link.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_split_1.png" title="local_validation_split_1.png" /></li>
+   <li><p>Select the <strong>Keep only the first records after sorting</strong> option and click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_split_1bis.png" title="local_validation_split_1bis.png" /></li>
+   <li><p>In the <strong>Sort columns</strong> section, add the field which the sort is applied to. Here, we have chosen the <strong>Email</strong> field. Click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_split_2.png" title="local_validation_split_2.png" /></li>
+   <li><p>Select the <strong>By data distribution</strong> option, select the distribution template created previously (refer to <a href="../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-" target="_blank">Step 1: Creating the data distribution template </a>) and click <strong>Finish</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_split_3.png" title="local_validation_split_3.png" /></li>
+  </ol>
+  <p>In the distribution template, we have chosen to limit the population to 10% per grouping value, which coincides with the values displayed in the workflow (340 as an input and 34 as an output).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_intro_1.png" title="local_validation_intro_1.png" />
+  <h3 id="approval-notification">Approval notification</h3>
+  <p>The <strong>Local approval</strong> activity lets you send a notification to each local supervisor.</p> 
+  <p>For more on configuring the <strong>Local approval</strong> activity, refer to <a href="../../workflow/using/local-approval.md" target="_blank">Local approval</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_workflow_2.png" title="local_validation_workflow_2.png" />
+  <p>The following fields need to be entered:</p> 
+  <ol>
+   <li><p>In the <strong>Action to execute</strong> section, select the <strong>Target approval notification</strong> option.</p> </li>
+   <li><p>In the <strong>Distribution context</strong> section, select the <strong>Specified in the transition</strong> option.</p> <p>If you don't want to limit the targeted population, select the <strong>Explicit</strong> option here and enter the distribution template created previously in the <strong>Data distribution</strong> field. </p> </li>
+   <li><p>In the <strong>Notification</strong> section, select the delivery template and the subject to be used for the notification email. Here, we have chosen the default template: <strong>Local approval notification</strong>.</p> </li>
+   <li><p>In the <strong>Approval schedule</strong> section, we've kept the default approval deadline (3 days) and added a reminder. The delivery will leave 3 days after the start of approval. Once the approval deadline has been reached, recipients who haven't been approved aren't taken into account by targeting.</p> </li>
+  </ol>
+  <p>The notification email sent by the <strong>Local approval</strong> activity to local supervisors is as follows: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_intro_2.png" title="local_validation_intro_2.png" />
+  <h3 id="wait">Wait</h3>
+  <p>The wait activity lets you postpone the start of the second local approval activity that will send the delivery feedback notification. In the <strong>Duration</strong> field, we have entered the <strong>5d</strong> value (5 days). The actions performed by recipients for 5 days following the sending of the delivery will be included in the feedback notification.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_workflow_3.png" title="local_validation_workflow_3.png" />
+  <h3 id="feedback-notification">Feedback notification</h3>
+  <p>The second <strong>Local approval</strong> activity lets you send a delivery feedback notification to each local supervisor.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_workflow_4.png" title="local_validation_workflow_4.png" />
+  <p>The following fields need to be entered.</p> 
+  <ol>
+   <li><p>In the <strong>Action to execute</strong> section, choose <strong>Delivery feedback report</strong>.</p> </li>
+   <li><p>In the <strong>Delivery</strong> section, choose <strong>Specified in the transition</strong>. </p> </li>
+   <li><p>In the <strong>Notification</strong> section, select the delivery template and the subject to be used for the notification email. </p> </li>
+  </ol>
+  <p>Once the deadline configured in the wait activity is reached, the second <strong>Local approval</strong> type activity sends the following notification email to each local supervisor:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_intro_3.png" title="local_validation_intro_3.png" />
+  <h3 id="approval-tracking-by-the-administrator">Approval tracking by the administrator</h3>
+  <p>Each time the local approval activity starts, an approval task is created. The administrator can control each of these approval tasks.</p> 
+  <p>Go to the targeting workflow of your campaign and click the <strong>Local approval tasks</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_admin_1.png" title="local_validation_admin_1.png" />
+  <p>The list of local approval tasks can also be accessed via the <strong>Approval tasks</strong> tab of the data distribution template.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_admin_2.png" title="local_validation_admin_2.png" />
+  <p>Select the task you want to monitor and click the <strong>Detail</strong> button. The <strong>General</strong> tab of the local approval task lets you view information on the task. If necessary, you can alter the approval and the reminder dates.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_admin_3.png" title="local_validation_admin_3.png" />
+  <p>This tab shows the following information:</p> 
+  <ul>
+   <li><p>the label of the task and its ID</p> </li>
+   <li><p>the distribution template used</p> </li>
+   <li><p>the number of targeted messages</p> </li>
+   <li><p>the linked workflow and campaign</p> </li>
+   <li><p>the task schedule</p> </li>
+  </ul>
+  <p>The <strong>Distribution</strong> tab for the task lets you view the approval logs, their status, the number of messages targeted, the approval date, as well as the operator who approved the delivery.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_admin_4.png" title="local_validation_admin_4.png" />
+  <p>Select an approval log and click the <strong>Detail</strong> button to display more information. The <strong>General</strong> tab of the local approval log lets you view general log information. You can also change the approval status.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_admin_5.png" title="local_validation_admin_5.png" />
+  <p>This tab shows the following information:</p> 
+  <ul>
+   <li><p>the linked approval task</p> </li>
+   <li><p>the approval status (<strong>Approved</strong> or <strong>Pending</strong>)</p> </li>
+   <li><p>the distribution template used</p> </li>
+   <li><p>the local supervisor who approved and the approval date</p> </li>
+   <li><p>the number of messages targeted and approved</p> </li>
+  </ul>
+  <p>The <strong>Targeted</strong> tab of the approval log displays the list of targeted recipients and their approval status. You can change this status if necessary. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/local_validation_admin_6.png" title="local_validation_admin_6.png" />
+ </body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="seoDescription" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="Managing time zones" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-08-06T06:59:19.259-0400" name="jcr:created" />
+  <meta content="Managing time zones" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="23e1afcb-6ac2-4be2-862b-20104311eef2" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="a5128cdc-1e5c-43a9-893c-a171e033a5d9" name="jcr:uuid" />
+  <meta content="Managing time zones" name="navTitle" />
+ </head>
+ <body>
+  <p>Adobe Campaign lets you manage time-lags between various countries concerned by the same instance. The applied configuration is configured during instance creation.</p> 
+  <p>For more on configuring time zones in Adobe Campaign, refer to this <a href="../../installation/using/time-zone-management.md">section</a>.</p> 
+  <p>In a workflow, you can adapt activity execution schedules and link a specific time zone to an activity or to the entire workflow. This configuration can be useful when importing the file, or within the framework of delivery scheduling.</p> 
+  <h2 id="execution-scheduling">Execution scheduling</h2>
+  <p>You can schedule the execution of tasks using the scheduler (refer to <a href="../../workflow/using/scheduler.md" target="_blank">Scheduler</a>). You can also use the scheduling options available in the activities which offer this functionality. These activities offer a <strong>Schedule</strong> tab: <strong>File collector</strong>, <strong>File transfer</strong>, <strong>Web download</strong>, <strong>Email reception</strong> &amp; <strong>SMS</strong>, etc.</p> 
+  <p>For all scheduled tasks, i.e. all activities with scheduling options, you can select the time zone to apply. The time zone is selected via the <strong>Advanced</strong> tab of the concerned activity:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf-timezone-in-a-box.png" title="wf-timezone-in-a-box.png" />
+  <p>Possible values are:</p> 
+  <ul>
+   <li><p>Server time zone</p> <p>Uses the time zone of the Adobe Campaign application server.</p> </li>
+   <li><p>User time zone</p> <p>Uses the time zone of the Adobe Campaign operator who executes the workflow.</p> </li>
+   <li><p>Database time zone</p> <p>Uses the time zone of the database server used.</p> </li>
+   <li><p>Specific time zones</p> <p>Uses the selected time zone.</p> </li>
+  </ul>
+  <p>If the <strong>By default</strong> value is selected, the time zone of the workflow is applied, or, otherwise, that of the application server.</p> 
+  <h2 id="linking-a-time-zone-to-an-activity">Linking a time zone to an activity</h2>
+  <p>The <strong>Advanced</strong> tab of the workflow activities lets you select its time zone. Although most of the time, the workflows' time zone is enough, it can be necessary to overload it now and again for a specific activity, such as data import, in order to link dates to their correct time zone.</p> 
+ </body>
+</html>

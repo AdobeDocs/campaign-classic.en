@@ -1,0 +1,50 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="827f2fa2-966b-442e-b5cc-8ad014307224" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="Continuous delivery" name="jcr:title" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Continuous delivery" name="jcr:description" />
+  <meta content="bc2852cc-9c67-492b-88b6-f0c00cd63cc6" name="jcr:uuid" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="Continuous delivery" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-08-06T06:59:15.694-0400" name="jcr:created" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+ </head>
+ <body>
+  <p>A <strong>Continuous delivery</strong> type action lets you add new recipients to an existing delivery. This delivery type avoids you having to create a new delivery each time: This mode is often more efficient, in particular for low-volume alerts or notifications sent out as and when needed. At a delivery template level, you can specify a script to calculate the label (and the campaign folder) of the associated delivery. If the script calculates a delivery that does not yet exist, it is created on the fly.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/edit_diffusion_fil.png" title="edit_diffusion_fil.png" />
+  <p>The <strong>Process errors</strong> option displays a particular transition which will be activated if an error is generated. In this case, the workflow does not go into error mode and carries on with the execution. </p> 
+  <p> Errors taken into account are file system errors (file could not be moved, directory could not be accessed, etc.).</p> 
+  <p>This option does not process errors related to activity configuration, i.e. invalid values.</p> 
+  <h2 id="input-parameters">Input parameters</h2>
+  <ul>
+   <li><p>tableName</p> </li>
+   <li><p>schema</p> </li>
+  </ul>
+  <p>Each inbound event must specify a target defined by these parameters.</p> 
+  <p>Only when the <strong>Specified by the inbound event</strong> option is selected.</p> 
+  <h2 id="output-parameters">Output parameters</h2>
+  <ul>
+   <li><p>tableName</p> </li>
+   <li><p>schema</p> </li>
+   <li><p>recCount</p> </li>
+  </ul>
+  <p>This set of three values identifies the target resulting from the on the fly delivery. <strong>tableName</strong> is the name of the table which memorizes the target's identifiers, <strong>schema</strong> is the schema of the population (usually nms:recipient) and <strong>recCount</strong> is the number of elements in the table.</p> 
+  <p>The transition associated with the complement has the same parameters.</p> 
+ </body>
+</html>

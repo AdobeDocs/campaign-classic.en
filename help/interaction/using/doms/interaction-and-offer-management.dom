@@ -1,0 +1,34 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="dc990eec-cdc9-4e0b-9520-39ee427d06e3" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="bd387b7a-db8b-4ab6-b9c9-cf1f0cdabbb2" name="jcr:uuid" />
+  <meta content="" name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Interaction and offer management" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Interaction and offer management" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2019-08-06T06:59:19.671-0400" name="jcr:created" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Interaction and offer management" name="jcr:description" />
+ </head>
+ <body>
+  <p>Interaction lets you respond in real time during an interaction with a given contact (a customer or target) by making them a single or several adapted offers. For example, these can be simple communication messages, special offers on one or several products or a service. </p> 
+  <p> Offers are sent to contacts via an inbound (website or call center) or outbound (email delivery, direct mail or SMS within a marketing campaign) contact. </p> 
+  <p>You can create an offer catalog that will interface with inbound and outbound channels to select the best offer to send to a contact in a given context. Offer relevance for a recipient is defined based on eligibility rules. The selection of an offer from a set of relevant offers is determined using priority rules. Offer presentation rules take into account the contact's exchange history and help avoid having them receive the same offer several times.</p> 
+  <p>Interaction lets you create and manage a catalog of offers, and configure the eligibility rules and application themes linked to them. Depending on the channel chosen, offer content can be personalized thanks to various rendering functions. Finally, you can use the simulation module to calculate the impact of an offer presentation.</p> 
+ </body>
+</html>

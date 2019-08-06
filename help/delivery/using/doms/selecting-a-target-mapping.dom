@@ -1,0 +1,80 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Selecting a target mapping" name="jcr:description" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Selecting a target mapping" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="2019-08-06T06:59:25.959-0400" name="jcr:created" />
+  <meta content="7396ebc9-258f-427c-8241-174d7ba01556" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="5798a64c-e1fc-4586-9bfe-4be575b798f3" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="seoDescription" />
+  <meta content="Selecting a target mapping" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <p>By default, delivery templates target <strong>Recipients</strong>. Their target mapping therefore uses the fields of the <strong>nms:recipient</strong> table. Adobe Campaign offers other target mappings for your deliveries, to be used based on your needs. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_select_mapping.png" title="delivery_select_mapping.png" />
+  <p>These mappings are as follows:</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> Name </td> 
+     <td> Use </td> 
+     <td> Standard schema </td> 
+    </tr> 
+    <tr> 
+     <td> Recipients </td> 
+     <td> Deliver to recipients of the Adobe Campaign database </td> 
+     <td> nms:recipient </td> 
+    </tr> 
+    <tr> 
+     <td> Visitors </td> 
+     <td> Deliver to visitors whose profiles have been collected via referral (viral marketing) or via social networks (Facebook, Twitter) for instance. </td> 
+     <td> mns:visitor </td> 
+    </tr> 
+    <tr> 
+     <td> Subscriptions </td> 
+     <td> Deliver to recipients who are subscribed to an information service such as a newsletter </td> 
+     <td> nms:subscription </td> 
+    </tr> 
+    <tr> 
+     <td> Visitor subscriptions </td> 
+     <td> Deliver to visitors who are subscribed to an information service </td> 
+     <td> nms:visitorSub </td> 
+    </tr> 
+    <tr> 
+     <td> Service </td> 
+     <td> Publish to a Twitter account or a Facebook page </td> 
+     <td> nms:service </td> 
+    </tr> 
+    <tr> 
+     <td> Operators </td> 
+     <td> Deliver to Adobe Campaign operators </td> 
+     <td> nms:operator </td> 
+    </tr> 
+    <tr> 
+     <td> External file </td> 
+     <td> Deliver via a file that contains all information needed for delivery </td> 
+     <td> No linked schema, no target entered </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <note>
+   <p> You can also create new target mappings. This operation is reserved for expert users. For more information, refer to the <a href="../../configuration/using/target-mapping.md">Configuration guide</a>.<br /> </p> 
+  </note>
+ </body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Hybrid model" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-08-06T06:59:29.246-0400" name="jcr:created" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="9f3410a5-fdfc-4a52-9f1c-02b19abdbd70" name="jcr:predecessors" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Hybrid model" name="jcr:title" />
+  <meta content="audience:installation" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="seoDescription" />
+  <meta content="f39a897f-a8fe-4ed5-a3f1-61c74d314e9f" name="jcr:uuid" />
+  <meta content="Hybrid model" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+ </head>
+ <body>
+  <p>Here are the installation and configuration steps that apply to hybrid hosting models: </p> 
+  <ul>
+   <li><p>Configuring transactional messages: refer to this <a href="../../message-center/using/transactional-messaging-architecture.md">section</a>.</p> </li>
+   <li><p>Configuring tracking and mirror page URLs per brand. For transactional messages, refer to this <a href="../../message-center/using/configuring-multibranding.md">section</a>.</p> </li>
+   <li><p>Installing the client console: refer to this <a href="../../installation/using/installing-the-client-console.md">section</a>.</p> </li>
+   <li><p>Installing packages: refer to this <a href="/installation/using/installing-packages.md">section</a>.</p> </li>
+   <li><p>Deliverability: configuring <a href="../../installation/using/email-deliverability.md#mx-configuration">MX rules</a> and <a href="../../installation/using/email-deliverability.md#managing-email-formats">email formats</a>. Learn more on the deliverability tools and best practices by reading the <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html">getting started guide</a> and <a href="../../delivery/using/about-deliverability.md">detailed documentation</a>.</p> </li>
+   <li><p>Configuring Campaign options: refer to this <a href="../../installation/using/configuring-campaign-options.md">section</a>.</p> </li>
+   <li><p>Configuring an external database (FDA): refer to this <a href="../../platform/using/accessing-an-external-database.md">section</a>.</p> </li>
+   <li><p>Configuring CRM connectors: refer to this <a href="../../platform/using/crm-connectors.md">section</a>.</p> </li>
+   <li><p>To learn more on mid-sourcing deployment principles, refer to this <a href="../../installation/using/mid-sourcing-deployment.md">section</a>.</p> </li>
+  </ul>
+ </body>
+</html>

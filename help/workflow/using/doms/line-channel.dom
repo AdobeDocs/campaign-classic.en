@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-08-06T06:59:19.506-0400" name="jcr:created" />
+  <meta content="2385f0ff-528d-4673-ac54-d5b745e29668" name="jcr:predecessors" />
+  <meta content="light" name="heroGradient" />
+  <meta content="LINE Channel" name="jcr:description" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="LINE Channel" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="6e6763ee-787b-465c-8a0c-455d2ac490de" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="LINE Channel" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+ </head>
+ <body>
+  <p>The workflows detailed below are installed with the <strong>LINE channel</strong> module by default. For more on this module, refer to this <a href="../../delivery/using/line-channel.md">section</a>.</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> <strong>Label</strong><br /> </td> 
+     <td> <strong>Internal name</strong><br /> </td> 
+     <td> <strong>Description</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>LINE V2 access token update</strong><br /> </td> 
+     <td> <strong>updateLineV2AccessToken</strong><br /> </td> 
+     <td> This workflow refreshes the access token to LINE V2.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Delete blocked LINE users</strong><br /> </td> 
+     <td> <strong>deleteBlockedLineUsersV2</strong><br /> </td> 
+     <td> This workflow ensures that the LINE V2 users' data is deleted after they have blocked the LINE official account for 180 days.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>MID to LineUserID migration</strong><br /> </td> 
+     <td> <strong>MIDToUserIDMigration</strong><br /> </td> 
+     <td> This workflow generates the LINE V2 users' ID for migration from LINE V1 to LINE V2.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+ </body>
+</html>

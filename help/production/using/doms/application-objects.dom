@@ -1,0 +1,51 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="d5662a1b-6283-4309-b059-82973ea572e1" name="jcr:predecessors" />
+  <meta content="" name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-08-06T06:59:02.945-0400" name="jcr:created" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Application objects" name="jcr:description" />
+  <meta content="Application objects" name="jcr:title" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:production" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="556d2388-586e-48da-8517-47bc68f284b0" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Application objects" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>Built-in objects should be monitored and preventing them from growing too much is important.</p> 
+  <h2 id="sequence-of-ids">Sequence of IDs</h2>
+  <p>Adobe Campaign uses an ID sequence that has to be consumed accordingly: <strong>xtkNewId</strong>. If the sequence is consumed very quickly (i.e. from 100,000 per day), you must verify that it is consistent with your business requirements, such as sending millions of emails per day. It is possible to define a dedicated sequence for particular tables. You can setup a workflow to monitor ID usage.</p> 
+  <p>When the sequence reaches more than 2 billion (2,147,483,648 is the exact number), it goes back to zero. It must be avoided and creates issues, which is why this sequence must be monitored.</p> 
+  <p>To prevent this with large tables, consider using a specific sequence. This can be done with the <strong>pkSequence</strong> attribute in the schema.</p> 
+  <p>High-frequency workflows that create a lot of logs will consume a lot of IDs. So it is highly recommended to avoid too many logs and high frequencies in workflows.</p> 
+  <p>If the sequence has already cycled, the best solution is to switch to negative IDs, starting from -2,147,483,648.</p> 
+  <h2 id="folders">Folders</h2>
+  <p>There should be less than 1000 folders on any instance. Having more folders than this can cause performance problems with the Campaign client. You can set up a monitoring job to count the number of folders, workflows, etc., and report back on a periodic basis.</p> 
+  <p>This method also highlights users who create too many objects.</p> 
+  <h2 id="deliveries">Deliveries</h2>
+  <p>There should be less than 1000 deliveries on the instance at any time. Having a lot of deliveries consumes database space and creates issues. An instance that creates more than 10 deliveries per day has to be checked against business requirements. Consider using continuous deliveries to create less deliveries. For more on this, refer to <a href="../../workflow/using/continuous-delivery.md">this section</a>.</p> 
+  <p>Deliveries older than two years should be purged from the instance.</p> 
+  <h2 id="files">Files</h2>
+  <p>The number of files on the application server disk should not increase indefinitely.</p> 
+  <p>Import workflows create files and therefore cause disk expansion. This can be prevented by using the standard <a href="../../workflow/using/file-collector.md">File collector</a> activity. The file collector moves files to a temporary folder and automatically purges them.</p> 
+  <p>If a workflow imports files and doesn't make use of the standard features, it needs to be purged in order to keep disk space to a minimum.</p> 
+  <h2 id="transactional-data-and-logs">Transactional data and logs</h2>
+  <p>Every <a href="../../workflow/using/executing-a-workflow.md#work-table">workflow</a> that imports data into Adobe Campaign causes the size of the database to grow.</p> 
+  <p>Check that cleanup or purge workflows are running and effectively purging records. All transactional data and logs must be purged. The cleanup task purges the standard tables only: tracking and broad logs. Specific tables must be purged by specific workflows. Refer to <a href="../../workflow/using/executing-a-workflow.md#purging-the-logs">this section</a>.</p> 
+  <p>Watch for aging transactional data by checking the oldest creation date of the records.</p> 
+ </body>
+</html>

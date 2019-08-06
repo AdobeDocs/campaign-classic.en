@@ -1,0 +1,41 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;topic_tags:introduction" name="cq:tags" />
+  <meta content="a5517e75-ee96-4a0e-a02c-2271a2aad938" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="About activities" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="About activities" name="jcr:description" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-08-06T06:59:12.292-0400" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="About activities" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="a3d489fa-43b9-4fa9-ba8c-2e088afd7e83" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <p>This section describes all of the available activities. According to the node or the context in which the workflow is created/edited, the activities available may vary. For example, the workflows created in a campaign have channel-specific delivery activities.</p> 
+  <p>Workflow activities are grouped by category. There are four tabs available at the same time.</p> 
+  <p>In the campaign workflows, the <strong>Events</strong> tab is replaced by the <strong>Deliveries</strong> tab. The activities in this tab are detailed in the <a href="../../workflow/using/about-activities.md#action-activities" target="_blank">Action activities</a> section.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf-activity-tabs.png" title="wf-activity-tabs.png" />
+  <p>Read more:</p> 
+  <ul>
+   <li><p> <a href="../../workflow/using/about-activities.md" target="_blank"></a></p> </li>
+   <li><p> <a href="../../workflow/using/importing-data.md" target="_blank">Importing data</a></p> </li>
+   <li><p> <a href="../../workflow/using/executing-a-workflow.md" target="_blank">Executing a workflow</a></p> </li>
+   <li><p> <a href="../../workflow/using/workflow-best-practices.md" target="_blank">Workflow best practices</a></p> </li>
+  </ul>
+ </body>
+</html>

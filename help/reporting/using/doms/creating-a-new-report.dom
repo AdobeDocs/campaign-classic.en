@@ -1,0 +1,108 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="a86d6fc8-b927-4960-851c-53567532ab91" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:reporting" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="audience:reporting" name="primaryAudienceTag" /> 
+  <meta content="Creating a new report" name="jcr:title" /> 
+  <meta content="Creating a new report" name="navTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="f7ab02bb-9062-4ff8-a43f-9f97e7cc0472" name="jcr:uuid" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Creating a new report" name="jcr:description" /> 
+  <meta content="2019-08-06T06:59:35.531-0400" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>To create a report, apply the following steps:</p> 
+  <ol> 
+   <li><p>Open the Adobe Campaign Explorer and from the <strong>Administration &gt; Configuration</strong> node, then select the <strong>Reports</strong> folder.</p> </li> 
+   <li><p>Click the <strong>New</strong> button above the list of reports. </p> </li> 
+   <li><p>Select <strong>Create a new report from a template</strong> and click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_new_01.png" title="s_ncs_advuser_report_wizard_new_01.png" /></li> 
+   <li><p>Select the report template in the drop-down list.</p> 
+    <ul> 
+     <li><p>The <strong>Extended report</strong> lets you create a report configured using a chart.</p> </li> 
+     <li><p>The <strong>Qualitative distribution</strong> report lets you create statistics based on all types of data (company name, email domain, etc.). </p> </li> 
+     <li><p>The <strong>Quantitative distribution</strong> report lets you create statistics on data that can be measured or counted (invoice amount, recipient age, etc.). </p> </li> 
+    </ul><p>For more information on these report templates, refer to <a href="../../reporting/using/about-descriptive-analysis.md">this section</a>.</p> </li> 
+   <li><p>Enter the report name and its description in the corresponding fields. Specify the <strong>schema</strong> on which the report will be applied.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_020.png" title="s_ncs_advuser_report_wizard_020.png" /></li> 
+   <li><p>Save this report.</p> </li> 
+  </ol> 
+  <h2 id="modelizing-the-chart">Modelizing the chart</h2> 
+  <p>After saving your report, this should be displayed. You can now build the chart of your report.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_report_wizard_021.png" title="s_ncs_user_report_wizard_021.png" /> 
+  <p>The chart for building the report is made up of a succession of activities. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_031.png" title="s_ncs_advuser_report_wizard_031.png" /> 
+  <p>Activities are linked up using transitions, represented by arrows.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_032.png" title="s_ncs_advuser_report_wizard_032.png" /> 
+  <p>To build a report, depending on its nature and context, you need to identify the useful elements and modelize their logical sequence.</p> 
+  <ol> 
+   <li><p>Use the 'Start' activity to materialize the first process to be carried out to build the report. You can only use one of these activities per report.</p> <p>It is mandatory if the chart includes a loop.</p> </li> 
+   <li><p>Add one or more 'Query' activities to collect data that is useful for building the report. Data can be collected either directly via a query on a schema of the database, or via an imported list or an existing Cube. </p> <p>For more on this, refer to <a href="../../reporting/using/collecting-data-to-analyze.md" target="_blank">Collecting data to analyze</a>.</p> <p> This data will be displayed (or not) in the report depending on page configuration.</p> </li> 
+   <li><p>Place one or more 'Page' activities to define the graphical representation of the collected data. You can insert tables, charts, input fields, and condition the display of one or more pages, or elements of the page. The displayed content is fully configurable. </p> <p>For more on this, refer to <a href="../../reporting/using/creating-a-new-report.md#static-elements" target="_blank">Static elements</a>.</p> </li> 
+   <li><p>Use a 'Test' activity to define the conditions for displaying or accessing data. </p> <p>For more on this, refer to <a href="../../reporting/using/creating-a-new-report.md#conditioning-page-display" target="_blank">Conditioning page display</a>.</p> </li> 
+   <li><p>If necessary, add personalized scripts via the 'Script' activity, for instance to calculate the name of a report, to filter the display of the result within a specific context, etc.</p> <p>For more on this, refer to <a href="../../reporting/using/creating-a-new-report.md#script-activity" target="_blank">Script activity</a>.</p> </li> 
+   <li><p>Finally, you for easier reading of complex reports, you can insert one or more 'jump' type activities. This lets you go from one activity to another without materializing the transition on the report. The 'Jump' can also be used to display another report.</p> <p>For more on this, refer to <a href="../../reporting/using/creating-a-new-report.md#jump-activity" target="_blank">Jump activity</a>.</p> </li> 
+  </ol> 
+  <p>You cannot execute several branches at the same time. This means that a report built like this will not work:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_graph_sample_ko.png" title="reporting_graph_sample_KO.png" /> 
+  <p>However, you can place several branches. Only one of them will be executed:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_graph_sample_ok.png" title="reporting_graph_sample_OK.png" /> 
+  <h2 id="creating-a-page">Creating a page</h2> 
+  <p>Content is configured via the activities placed in the chart. For more on this, refer to <a href="../../reporting/using/creating-a-new-report.md#modelizing-the-chart" target="_blank">Modelizing the chart</a>. </p> 
+  <p>To configure an activity, double-click its icon.</p> 
+  <p>The displayed content is defined in the <strong>Page</strong> type activities.</p> 
+  <p>A report can include one or more pages. Pages are created via a dedicated editor that lets you insert, in a tree structure, input fields, selection fields, static elements, charts, or tables. Containers help you define the layout. For more on this, refer to <a href="../../reporting/using/element-layout.md" target="_blank">Element layout</a>.</p> 
+  <p>To add a component to the page, use the icons in the upper left-hand section of the toolbar.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_add_component_in_page.png" title="reporting_add_component_in_page.png" /> 
+  <p>You can also right-click the node where you want to add the component and select it from the list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_09.png" title="s_ncs_advuser_report_wizard_09.png" /> 
+  <note>
+    If the report is destined to be exported in Excel format, we recommend not using complex HTML formatting. For more on this, refer to 
+   <a href="../../reporting/using/creating-a-new-report.md#exporting-a-report" target="_blank">Exporting a report</a>. 
+   <br /> 
+  </note> 
+  <p>A <strong>Page</strong> can include the following elements: </p> 
+  <ul> 
+   <li><p>Bar, pie, curve type <strong>charts</strong>, etc. </p> </li> 
+   <li><p>Pivot; List with group, or Breakdown <strong>tables</strong>. </p> </li> 
+   <li><p>Text or number type <strong>Input controls</strong>. </p> </li> 
+   <li><p>Drop-down list, checkbox, radio button, multiple choice, date, or Matrix type <strong>Selection controls</strong>. </p> </li> 
+   <li><p>Link editor, Constant, Folder selection type <strong>Advanced controls</strong>.</p> </li> 
+   <li><p>Value, Link, HTML, Image, etc. <strong>Static elements</strong>. </p> </li> 
+   <li><p><strong>Containers</strong> that enable you to control component layout.</p> </li> 
+  </ul> 
+  <p>The configuration mode of a page and its components is detailed in <a href="../../web/using/about-web-forms.md">this section</a>.</p> 
+  <p>The toolbar lets you add or remove controls and organize their sequence in the report page(s).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_advuser_report_wizard_08.png" title="s_ncs_advuser_report_wizard_08.png" /> 
+  <h3 id="static-elements">Static elements</h3> 
+  <p>Static elements enable you to display information in the report, such as graphical elements or scripts, which the user will not interact with. Refer to <a href="../../web/using/static-elements-in-a-web-form.md#inserting-html-content">this section</a> for more information.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_report_page_activity_03.png" title="s_advuser_report_page_activity_03.png" /> 
+  <h3 id="filtering-information-in-a-report">Filtering information in a report</h3> 
+  <p>Input and selection controls enable you to filter the information displayed in the report. For more on implementing this type of filtering, refer to <a href="../../reporting/using/creating-a-new-report.md#filtering-options-in-the-queries" target="_blank">Filtering options in the queries</a>.</p> 
+  <p>To learn more on creating and configuring input fields and selection fields, refer to <a href="../../web/using/about-web-forms.md">this section</a>.</p> 
+  <p> You can integrate one or more input controls into your reports. This type of control lets you filter information displayed according to a value entered.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_control_text.png" title="reporting_control_text.png" /> 
+  <p>You can also integrate one or more selection controls into your reports. This type of control lets you filter the information contained in the report, based on the selected value(s), such as:</p> 
+  <ul> 
+   <li><p> via radio buttons or checkboxes:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_radio_buttons.png" title="reporting_radio_buttons.png" /></li> 
+   <li><p> via a drop-down list: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_control_list.png" title="reporting_control_list.png" /></li> 
+   <li><p>via a calendar:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_control_date.png" title="reporting_control_date.png" /></li> 
+  </ul> 
+  <p>Finally, you can integrate one or more advanced controls into your reports. This type of control enables you to insert a link, a constant, or to select a folder.</p> 
+  <p>Here you can filter the data in the report to display only the information contained in one of the folders of the tree: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_control_folder.png" title="reporting_control_folder.png" /> 
+ </body> 
+</html>

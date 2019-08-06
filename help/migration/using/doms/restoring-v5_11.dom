@@ -1,0 +1,39 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:migration" name="primaryAudienceTag" />
+  <meta content="Restoring v5.11" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Restoring v5.11" name="jcr:description" />
+  <meta content="Restoring v5.11" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="seoDescription" />
+  <meta content="27698db7-4db3-429c-ac40-3135644b4507" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-08-06T06:59:39.582-0400" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="1bea5898-35d3-418a-b05c-cd322fd0848e" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>Here is the procedure to restore a v5.11 from a v7.</p> 
+  <ol>
+   <li><p>Recover the backup of the database and restore it.</p> </li>
+   <li><p>Recover the <strong>Neolane v5.back</strong> folder (<strong>nl5.back</strong> in Linux), rename it to <strong>Neolane v5</strong> (<strong>nl5</strong> in Linux) and restore it to its original location.</p> </li>
+   <li><p>Re-configure IIS by re-assigning the listen ports to re-establish the integration of Neolane v5 at IIS Website level.</p> </li>
+   <li><p>Stop the Adobe Campaign v7 service.</p> </li>
+   <li><p>Re-start IIS.</p> </li>
+   <li><p>Re-start the Adobe Campaign v5 service.</p> </li>
+  </ol>
+ </body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="cbee62e3-616e-482f-9e18-8d7cbfaef828" name="jcr:uuid" />
+  <meta content="2019-08-06T06:59:28.147-0400" name="jcr:created" />
+  <meta content="Content manager resources and principles" name="navTitle" />
+  <meta content="Content manager resources and principles" name="jcr:description" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Content manager resources and principles" name="jcr:title" />
+  <meta content="2dd41c9e-0b29-4499-b80c-89853abdfca9" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <p>You need to define a publication template, which contains transformation templates for each content.</p> 
+  <p>A content block is structured in an XML document for data storage. An edit interface is used to input the content from the Adobe Campaign client console or via a web browser. The content can also be entered automatically via the capture of XML flow or data aggregated in a database.</p> 
+  <p>Combining the XML document and the XSL or JavaScript Template stylesheets automatically generates the projection of the publication template in the various formats (HTML, text).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_content_process.png" title="d_ncs_content_process.png" />
+  <p>The following resources are required for content configuration:</p> 
+  <ul>
+   <li><p>Data schemas: description of the XML content structure. For more on this, refer to <a href="../../delivery/using/data-schemas.md" target="_blank">Data schemas</a>.</p> </li>
+   <li><p>Data entry forms: construction of data entry screens. For more on this, refer to <a href="../../delivery/using/input-forms.md" target="_blank">Input forms</a>.</p> </li>
+   <li><p>Images: images used in data entry forms. For more on this, refer to <a href="../../delivery/using/content-manager-resources-and-principles.md#image-management" target="_blank">Image management</a>.</p> </li>
+   <li><p>Stylesheets: formatting of output documents using XSLT language. For more on this, refer to <a href="../../delivery/using/formatting.md" target="_blank">Formatting</a>.</p> </li>
+   <li><p>JavaScript templates: formatting of output documents using JavaScript language. For more on this, refer to <a href="../../delivery/using/publication-templates.md" target="_blank">Publication templates</a>.</p> </li>
+   <li><p>JavaScript codes: JavaScript codes for data aggregation. For more on this, refer to <a href="../../delivery/using/content-manager-resources-and-principles.md#aggregator" target="_blank">Aggregator</a>.</p> </li>
+   <li><p>Publication templates: definition of publication templates. For more on this, refer to <a href="../../delivery/using/publication-templates.md" target="_blank">Publication templates</a>.</p> </li>
+   <li><p>Content: content instances to be created and published. For more on this, refer to <a href="../../delivery/using/using-a-content-template.md" target="_blank">Using a content template</a>.</p> </li>
+  </ul>
+ </body>
+</html>

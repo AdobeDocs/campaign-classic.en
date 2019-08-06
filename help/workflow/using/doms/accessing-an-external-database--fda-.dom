@@ -1,0 +1,39 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-08-06T06:59:19.157-0400" name="jcr:created" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Accessing an external database (FDA)" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="Accessing an external database (FDA)" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Accessing an external database (FDA)" name="jcr:title" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="f7cfbfc6-1094-4496-9ee0-5cbf7a10963f" name="jcr:predecessors" />
+  <meta content="35809cfe-6fd1-45b4-8409-b35763dcc8ee" name="jcr:uuid" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+ </head>
+ <body>
+  <p>Adobe Campaign provides the Federated Data Access (FDA) option in order to process information stored in one or more external databases: you can access external data without changing the structure of Adobe Campaign data.</p> 
+  <p>Multiple activities allow you to interact with data from an external database:</p> 
+  <ul>
+   <li><p>Query</p> </li>
+   <li><p>Split</p> </li>
+   <li><p>Enrichment</p> </li>
+   <li><p>Data loading</p> </li>
+  </ul>
+  <p>Use of the FDA option depends on your Adobe Campaign license. Configuring this option as well as the best practices and limitations linked to using it are detailed in this <a href="../../platform/using/accessing-an-external-database.md">section</a>.</p> 
+ </body>
+</html>

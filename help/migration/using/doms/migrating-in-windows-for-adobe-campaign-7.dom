@@ -1,0 +1,286 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Migrating in Windows for Adobe Campaign 7" name="jcr:description" /> 
+  <meta content="2019-08-06T06:59:37.286-0400" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="3770928c-28b1-424d-ac42-65b87c18bd34" name="jcr:predecessors" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="Migrating in Windows for Adobe Campaign 7" name="jcr:title" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="audience:migration" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="467c473f-9e96-46ae-ba91-97b875ec1c28" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Migrating in Windows for Adobe Campaign 7" name="navTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <h2 id="general-procedure">General procedure</h2> 
+  <p>For Windows, the migration steps are as follows:</p> 
+  <ol> 
+   <li><p>Stop services: refer to <a href="../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#service-stop" target="_blank">Service stop</a>,</p> </li> 
+   <li><p>Back up the database: refer to <a href="../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#back-up-the-database-and-the-current-installation" target="_blank">Back up the database and the current installation</a>,</p> </li> 
+   <li><p>Migrate the platform: refer to <a href="../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deploying-adobe-campaign-v7" target="_blank">Deploying Adobe Campaign v7</a>,</p> </li> 
+   <li><p>Migrate the redirection server (IIS): refer to <a href="../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#migrating-the-redirection-server--iis-" target="_blank">Migrating the redirection server (IIS)</a>,</p> </li> 
+   <li><p>Re-start service: refer to <a href="../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#re-starting-the-services" target="_blank">Re-starting the services</a>,</p> </li> 
+   <li><p>Delete and cleanse previous Adobe Campaign version: refer to <a href="../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version" target="_blank">Deleting and cleansing Adobe Campaign previous version</a>.</p> </li> 
+  </ol> 
+  <h2 id="service-stop">Service stop</h2> 
+  <p>First, stop all processes with access to the database on all machines concerned.</p> 
+  <ol> 
+   <li><p>All servers using the redirection module (<strong>webmdl</strong> service) must be stopped. For IIS, run the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      iisreset&amp;nbsp;/stop 
+    </codeblock></li> 
+   <li><p>The <strong>mta</strong> module and its child modules (<strong>mtachild</strong>) must be stopped using the following commands:</p> 
+    <codeblock gutter="true" class="syntax html">
+      nlserver&amp;nbsp;stop&amp;nbsp;mta@&lt;instance&amp;nbsp;name&gt;!!discoiqbr!!nlserver&amp;nbsp;stop&amp;nbsp;mtachild@&lt;instance&amp;nbsp;name&gt;!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Stop Adobe Campaign services on all servers. Log in with administrator rights and run the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      net&amp;nbsp;stop&amp;nbsp;nlserver6 
+    </codeblock><p>If you are migrating from v5.11, run the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      net&amp;nbsp;stop&amp;nbsp;nlserver5 
+    </codeblock></li> 
+   <li><p>For each server, make sure Adobe Campaign services are properly stopped. Log in with administrator rights and run the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      tasklist&amp;nbsp;/FI&amp;nbsp;"IMAGENAME&amp;nbsp;eq&amp;nbsp;nlserver*" 
+    </codeblock><p>The list of active processes along with their ID (PID) is displayed.</p> 
+    <codeblock gutter="true" class="syntax html">
+      Image&amp;nbsp;Name&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;PID&amp;nbsp;Session&amp;nbsp;Name&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Session#&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Mem&amp;nbsp;Usage!!discoiqbr!!=========================&amp;nbsp;========&amp;nbsp;================&amp;nbsp;===========&amp;nbsp;============!!discoiqbr!!nlserver.exe&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;3192&amp;nbsp;Console&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;13,108&amp;nbsp;K!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>If one or more Adobe Campaign processes are still active or blocked after a few minutes, kill them. Log in with administrator rights and run the following command: </p> 
+    <codeblock gutter="true" class="syntax html">
+      taskkill&amp;nbsp;/IM&amp;nbsp;nlserver*&amp;nbsp;/T 
+    </codeblock></li> 
+   <li><p>If some processes are still active after a few minutes, you can force them to close using the command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      taskkill&amp;nbsp;/F&amp;nbsp;/IM&amp;nbsp;nlserver*&amp;nbsp;/T 
+    </codeblock></li> 
+  </ol> 
+  <h2 id="back-up-the-database-and-the-current-installation">Back up the database and the current installation</h2> 
+  <p>The procedure depends on your Adobe Campaign previous version.</p> 
+  <h3 id="migrating-from-adobe-campaign-v5_11">Migrating from Adobe Campaign v5.11</h3> 
+  <ol> 
+   <li><p>Make a backup of the Adobe Campaign database.</p> </li> 
+   <li><p>Make a backup of the <strong>Neolane v5</strong> directory using the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      ren&amp;nbsp;"Neolane&amp;nbsp;v5"&amp;nbsp;"Neolane&amp;nbsp;v5.back" 
+    </codeblock> 
+    <note>
+      As a precaution, we recommend that you zip the 
+     <strong>Neolane v5.back</strong> folder and save it elsewhere in a safe location other than the server. 
+     <br /> 
+    </note></li> 
+   <li><p>In the windows service management console, disable the automatic startup of the 5.11 application server service. You can also use the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      sc&amp;nbsp;config&amp;nbsp;nlserver5&amp;nbsp;start=&amp;nbsp;disabled 
+    </codeblock></li> 
+   <li><p>Edit the <strong>config- 
+      <instance name="">
+        .xml 
+      </instance></strong> (in the <strong>Neolane v5. back</strong> folder) to prevent the <strong>mta</strong>, <strong>wfserver</strong>, <strong>stat</strong>, etc. services from starting automatically. For instance, replace <strong>autoStart</strong> with <strong>_autoStart</strong>.</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;?xml&amp;nbsp;version='1.0'?&gt;!!discoiqbr!!&lt;serverconf&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;shared&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dataStore&amp;nbsp;hosts="myServer*"&amp;nbsp;lang="en_US"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dataSource&amp;nbsp;name="default"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dbcnx&amp;nbsp;encrypted="1"&amp;nbsp;login="myLogin"&amp;nbsp;password="myPassword"&amp;nbsp;&amp;nbsp;provider="postgresql"&amp;nbsp;server="myServer"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dataSource&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dataStore&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/shared&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;mta&amp;nbsp;_autoStart="true"&amp;nbsp;statServerAddress="myStatServer"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;stat&amp;nbsp;_autoStart="true"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;wfserver&amp;nbsp;_autoStart="true"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;inMail&amp;nbsp;_autoStart="true"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;sms&amp;nbsp;_autoStart="false"/&gt;!!discoiqbr!!&lt;/serverconf&gt;!!discoiqbr!! 
+    </codeblock></li> 
+  </ol> 
+  <h3 id="migrating-from-adobe-campaign-v6_02">Migrating from Adobe Campaign v6.02</h3> 
+  <ol> 
+   <li><p>Make a backup of the Adobe Campaign database.</p> </li> 
+   <li><p>Make a backup of the <strong>Neolane v6</strong> directory using the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      ren&amp;nbsp;"Neolane&amp;nbsp;v6"&amp;nbsp;"Neolane&amp;nbsp;v6.back" 
+    </codeblock> 
+    <note>
+      As a precaution, we recommend that you zip the 
+     <strong>Neolane v6.back</strong> folder and save it elsewhere in a safe location other than the server. 
+     <br /> 
+    </note></li> 
+   <li><p>In the Windows service manager, deactivate the 6.02 application server automatic startup. You can also use the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      sc&amp;nbsp;config&amp;nbsp;nlserver6&amp;nbsp;start=&amp;nbsp;disabled 
+    </codeblock></li> 
+   <li><p>Edit the <strong>config- 
+      <instance name="">
+        .xml 
+      </instance></strong> (in the <strong>Neolane v6. back</strong> folder) to prevent the <strong>mta</strong>, <strong>wfserver</strong>, <strong>stat</strong>, etc. services from starting automatically. For instance, replace <strong>autoStart</strong> with <strong>_autoStart</strong>.</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;?xml&amp;nbsp;version='1.0'?&gt;!!discoiqbr!!&lt;serverconf&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;shared&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dataStore&amp;nbsp;hosts="myServer*"&amp;nbsp;lang="en_US"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dataSource&amp;nbsp;name="default"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dbcnx&amp;nbsp;encrypted="1"&amp;nbsp;login="myLogin"&amp;nbsp;password="myPassword"&amp;nbsp;provider="postgresql"&amp;nbsp;server="myServer"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dataSource&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dataStore&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/shared&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;mta&amp;nbsp;_autoStart="true"&amp;nbsp;statServerAddress="myStatServer"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;stat&amp;nbsp;_autoStart="true"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;wfserver&amp;nbsp;_autoStart="true"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;inMail&amp;nbsp;_autoStart="true"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;sms&amp;nbsp;_autoStart="false"/&gt;!!discoiqbr!!&lt;/serverconf&gt;!!discoiqbr!! 
+    </codeblock></li> 
+  </ol> 
+  <h3 id="migrating-from-adobe-campaign-v6_1">Migrating from Adobe Campaign v6.1</h3> 
+  <ol> 
+   <li><p>Make a backup of the Adobe Campaign database.</p> </li> 
+   <li><p>Make a backup of the <strong>Adobe Campaign v6</strong> directory using the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      ren&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v6"&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v6.back" 
+    </codeblock> 
+    <note>
+      As a precaution, we recommend that you zip the 
+     <strong>Adobe Campaign v6.back</strong> folder and save it elsewhere in a safe location other than the server. 
+     <br /> 
+    </note></li> 
+   <li><p>In the windows service management console, disable the automatic startup of the 6.11 application server service. You can also use the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      sc&amp;nbsp;config&amp;nbsp;nlserver6&amp;nbsp;start=&amp;nbsp;disabled 
+    </codeblock></li> 
+  </ol> 
+  <h2 id="deploying-adobe-campaign-v7">Deploying Adobe Campaign v7</h2> 
+  <p>Deploying Adobe Campaign involves two stages:</p> 
+  <ul> 
+   <li><p>Installing build v7: this operation must be performed on each server.</p> </li> 
+   <li><p>The post upgrade: this command must be started on each instance.</p> </li> 
+  </ul> 
+  <p>To deploy Adobe Campaign, apply the following steps:</p> 
+  <ol> 
+   <li><p>Install the most recent Adobe Campaign v7 build by running the <strong>setup.exe</strong> installation file. For more on installing the Adobe Campaign server in Windows, refer to <a href="../../installation/using/installing-the-server.md">this section</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/migration_wizard_1_7.png" title="migration_wizard_1_7.png" /> 
+    <note> 
+     <p> Adobe Campaign v7 is installed by default in the <strong>C:Program FilesAdobeAdobe Campaign v7</strong> directory.<br /> </p> 
+    </note></li> 
+   <li><p>To make the client console installation program available, copy the <strong>setup-client-7.0.XXXX.exe</strong> file into the Adobe Campaign installation directory: <strong>C:Program FilesAdobeAdobe Campaign v7datakitnlengjsp</strong>.</p> 
+    <note> 
+     <p> For more on installing Adobe Campaign in Windows, refer to <a href="../../installation/using/installing-the-server.md">this section</a>.<br /> </p> 
+    </note></li> 
+   <li><p>Start the instance for the first use with the following commands:</p> 
+    <codeblock gutter="true" class="syntax html">
+      net&amp;nbsp;start&amp;nbsp;nlserver6-v7!!discoiqbr!!net&amp;nbsp;stop&amp;nbsp;nlserver6-v7!!discoiqbr!! 
+    </codeblock> 
+    <note> 
+     <p> These commands let you create the Adobe Campaign v7 internal file system: <strong>conf</strong> directory (with the <strong>config-default.xml</strong> and <strong>serverConf.xml</strong> files), <strong>var</strong> directory, etc.<br /> </p> 
+    </note></li> 
+   <li><p>Copy and paste (overwrite) the configuration files and sub-folders of each instance via the <strong>Neolane v5.back</strong>, <strong>Neolane v6.back</strong> or <strong>Adobe Campaign v6.back</strong> backup file (depending on the version you are migrating from - see <a href="../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#back-up-the-database-and-the-current-installation">this section</a>).</p> </li> 
+   <li><p>According to the version you are migrating from, execute the following commands: </p> 
+    <codeblock gutter="true" class="syntax html">
+      copy&amp;nbsp;"Neolane&amp;nbsp;v5.back"/conf/config-&lt;instance&amp;nbsp;name&gt;.xml&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v7"/conf/!!discoiqbr!!copy&amp;nbsp;"Neolane&amp;nbsp;v5.back"/customers/*&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v7"/customers/!!discoiqbr!!copy&amp;nbsp;"Neolane&amp;nbsp;v5.back"/var/*&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v7"/var/ 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax html">
+      copy&amp;nbsp;"Neolane&amp;nbsp;v6.back"/conf/config-&lt;instance&amp;nbsp;name&gt;.xml&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v7"/conf/!!discoiqbr!!copy&amp;nbsp;"Neolane&amp;nbsp;v6.back"/customers/*&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v7"/customers/!!discoiqbr!!copy&amp;nbsp;"Neolane&amp;nbsp;v6.back"/var/*&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v7"/var/ 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax html">
+      copy&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v6.back"/conf/config-&lt;instance&amp;nbsp;name&gt;.xml&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v7"/conf/!!discoiqbr!!copy&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v6.back"/customers/*&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v7"/customers/!!discoiqbr!!copy&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v6.back"/var/*&amp;nbsp;"Adobe&amp;nbsp;Campaign&amp;nbsp;v7"/var/ 
+    </codeblock> 
+    <note>
+      For the first command above, do not copy the 
+     <strong>config-default.xml</strong> file. 
+     <br /> 
+    </note></li> 
+   <li><p>In the <strong>serverConf.xml</strong> and <strong>config-default.xml</strong> files of Adobe Campaign v7, apply the specific configurations that you had in Adobe Campaign previous version. For the <strong>serverConf.xml</strong> file, use the <strong>Neolane v5/conf/serverConf.xml.diff</strong>, <strong>Neolane v6/conf/serverConf.xml.diff</strong> or <strong>Adobe Campaign v6/conf/serverConf.xml.diff</strong> file.</p> 
+    <note> 
+     <p> When reporting configurations from Adobe Campaign previous version to Adobe Campaign v7, make sure the paths to the physical directories lead to Adobe Campaign v7 (and not Neolane v5, Neolane v6 or Adobe Campaign v6).<br /> </p> 
+    </note></li> 
+   <li><p>Reload the Adobe Campaign v7 configuration using the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      nlserver&amp;nbsp;config&amp;nbsp;-reload 
+    </codeblock></li> 
+   <li><p>Start the postupgrade process using the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      nlserver&amp;nbsp;config&amp;nbsp;-postupgrade&amp;nbsp;-instance:&lt;instance&amp;nbsp;name&gt; 
+    </codeblock></li> 
+  </ol> 
+  <note>
+    Do not start Adobe Campaign services yet: some changes need to be made on IIS. 
+   <br /> 
+  </note> 
+  <h2 id="migrating-the-redirection-server--iis-">Migrating the redirection server (IIS)</h2> 
+  <p>At this stage, the IIS server must be stopped. Refer to <a href="../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#service-stop" target="_blank">Service stop</a>.</p> 
+  <ol> 
+   <li><p>Open the <strong>Internet Information Services (IIS) Manager</strong> console.</p> </li> 
+   <li><p>Change the bindings (listen ports) of the site used for Adobe Campaign previous version:</p> 
+    <ul> 
+     <li><p>Right-click the site used for Adobe Campaign previous version and select <strong>Edit bindings</strong>.</p> </li> 
+     <li><p>For each type of listen port (<strong>http</strong> and/or <strong>https</strong>), select the appropriate line and click <strong>Edit</strong>.</p> </li> 
+     <li><p>Enter a different port. By default, the listen port is 80 for http and 443 for https. Check that the new port is available.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/_migration_iis_3_611.png" title="_migration_iis_3_611.png" /> 
+      <note> 
+       <p> If your IIS server includes several websites for Adobe Campaign with an advanced configuration (shared port and different IP addresses), please contact your administrator. <br /> </p> 
+      </note></li> 
+    </ul></li> 
+   <li><p>Create a new website for Adobe Campaign v7:</p> 
+    <ul> 
+     <li><p>Right-click the <strong>Sites</strong> folder and select <strong>Add Web Site...</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/_migration_iis_4.png" title="_migration_iis_4.png" /></li> 
+     <li><p>Enter the name of the site, <strong>Adobe Campaign v7</strong> for instance. </p> </li> 
+     <li><p> The access path to the website's basic directory is not used, but the <strong>Physical access path</strong> field must be entered. Enter the default IIS access path: <strong>C:inetpubwwwroot</strong>.</p> </li> 
+     <li><p>Click the <strong>Connect as...</strong> as button and make sure the <strong>Application user</strong> option is selected.</p> </li> 
+     <li><p>You can leave the default values in the <strong>IP address</strong> and <strong>Port</strong> fields. If you want to use other values, make sure the IP address and/or port are available.</p> </li> 
+     <li><p>Check the <strong>Start Web site immediately</strong> box. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/_migration_iis_5_7.png" title="_migration_iis_5_7.png" /></li> 
+    </ul></li> 
+   <li><p>Execute the <strong>iis_neolane_setup.vbs</strong> script to automatically configure the resources used by the Adobe Campaign server on the virtual directory previously created. </p> 
+    <ul> 
+     <li><p>This file is found in the <strong>[Adobe Campaign v7]tomcat-7conf file</strong>, where <strong>[Adobe Campaign v7]</strong> is the access path to the Adobe Campaign installation directory. The command for executing the script is as follows (for administrators):</p> 
+      <codeblock gutter="true" class="syntax html">
+        cd&amp;nbsp;C:Program&amp;nbsp;Files&amp;nbsp;(x86)Adobe&amp;nbsp;CampaignAdobe&amp;nbsp;Campaign&amp;nbsp;v7tomcat-7conf!!discoiqbr!!cscript&amp;nbsp;iis_neolane_setup.vbs 
+      </codeblock></li> 
+     <li><p>Click <strong>OK</strong> to confirm script execution.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_parameters_step2_7.png" title="s_ncs_install_iis7_parameters_step2_7.png" /></li> 
+     <li><p>Enter the number of the website previously created for Adobe Campaign v7 and click <strong>OK</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_parameters_step3_7.png" title="s_ncs_install_iis7_parameters_step3_7.png" /></li> 
+     <li><p>A confirmation message should come up: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_parameters_step7_7.png" title="s_ncs_install_iis7_parameters_step7_7.png" /></li> 
+     <li><p>In the <strong>Content view</strong> tab, make sure the Website configuration is correctly configured with Adobe Campaign resources:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_iis7_parameters_step6_7.png" title="s_ncs_install_iis7_parameters_step6_7.png" /> 
+      <note> 
+       <p> If the tree structure is not displayed, re-start the IIS.<br /> The following IIS configuration steps are detailed in <a href="/installation/using/integration-into-a-web-server.md#configuring-the-iis-web-server">this section</a>.<br /> </p> 
+      </note></li> 
+    </ul></li> 
+  </ol> 
+  <h2 id="security-zones">Security zones</h2> 
+  <p>If you are migrating from v6.02 or earlier, you must configure your security zones before starting services. For more information, refer to <a href="../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#security" target="_blank">Security</a>.</p> 
+  <h2 id="re-starting-the-services">Re-starting the services</h2> 
+  <p>Start IIS and Adobe Campaign services on each of the following servers:</p> 
+  <ol> 
+   <li><p>Tracking and redirection server.</p> </li> 
+   <li><p>Mid-sourcing server.</p> </li> 
+   <li><p>Marketing server.</p> </li> 
+  </ol> 
+  <p>Before going on to the next step, run a full test of the new installation, make sure there are no regressions and that everything works by following all the recommendations in the <a href="../../migration/using/general-configurations.md" target="_blank">General configurations</a> section. </p> 
+  <h2 id="deleting-and-cleansing-adobe-campaign-previous-version">Deleting and cleansing Adobe Campaign previous version</h2> 
+  <p>The procedure depends on your Adobe Campaign previous version.</p> 
+  <h3 id="adobe-campaign-v5">Adobe Campaign v5</h3> 
+  <p>Before you delete and cleanse the Adobe Campaign v5 installation, you must apply the following recommendations:</p> 
+  <ul> 
+   <li><p>Get the functional teams to run a full check of the new installation.</p> </li> 
+   <li><p>Only uninstall Adobe Campaign v5 once you are certain that no rollback is necessary. </p> </li> 
+  </ul> 
+  <ol> 
+   <li><p>In IIS, delete the <strong>Neolane v5</strong> website, then the <strong>Neolane v5</strong> application pool. </p> </li> 
+   <li><p>Rename the <strong>Neolane v5.back</strong> folder as <strong>Neolane v5</strong>.</p> </li> 
+   <li><p>Uninstall Adobe Campaign v5 using the Add/remove components wizard. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/migration_wizard_2.png" title="migration_wizard_2.png" /></li> 
+   <li><p>Delete the <strong>nlserver5</strong> Windows service using the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      sc&amp;nbsp;delete&amp;nbsp;nlserver5 
+    </codeblock></li> 
+   <li><p>Re-start the server.</p> </li> 
+  </ol> 
+  <h3 id="adobe-campaign-v6_02">Adobe Campaign v6.02</h3> 
+  <p>Before you delete and cleanse the Adobe Campaign v6.02 installation, you must apply the following recommendations:</p> 
+  <ul> 
+   <li><p>Get the functional teams to run a full check of the new installation.</p> </li> 
+   <li><p>Only uninstall Adobe Campaign v6.02 once you are certain that no rollback is necessary. </p> </li> 
+  </ul> 
+  <ol> 
+   <li><p>In IIS, delete the <strong>Neolane v6</strong> website, then the <strong>Neolane v6</strong> application pool. </p> </li> 
+   <li><p>Rename the <strong>Neolane v6.back</strong> folder as <strong>Neolane v6</strong>.</p> </li> 
+   <li><p>Uninstall Adobe Campaign v6.02 using the Add/remove components wizard. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/migration_wizard_2.png" title="migration_wizard_2.png" /></li> 
+   <li><p>Re-start the server.</p> </li> 
+  </ol> 
+  <h3 id="adobe-campaign-v6_1">Adobe Campaign v6.1</h3> 
+  <p>Before you delete and cleanse the Adobe Campaign v6 installation, you must apply the following recommendations:</p> 
+  <ul> 
+   <li><p>Get the functional teams to run a full check of the new installation.</p> </li> 
+   <li><p>Only uninstall Adobe Campaign v6 once you are certain that no rollback is necessary. </p> </li> 
+  </ul> 
+  <ol> 
+   <li><p>In IIS, delete the <strong>Adobe Campaign v6</strong> website, then the <strong>Adobe Campaign v6</strong> application pool. </p> </li> 
+   <li><p>Rename the <strong>Adobe Campaign v6.back</strong> folder as <strong>Adobe Campaign v6</strong>.</p> </li> 
+   <li><p>Uninstall Adobe Campaign v6 using the Add/remove components wizard. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/migration_wizard_2.png" title="migration_wizard_2.png" /></li> 
+   <li><p>Re-start the server.</p> </li> 
+  </ol> 
+ </body> 
+</html>

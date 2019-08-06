@@ -1,0 +1,41 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Edition" name="jcr:title" />
+  <meta content="" name="seoDescription" />
+  <meta content="audience:configuration" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2b83a804-4756-4acd-94a8-00e8466105ae" name="jcr:uuid" />
+  <meta content="2019-08-06T06:59:44.925-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="18f48377-97f7-4497-a690-142f11cc7d28" name="jcr:predecessors" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Edition" name="navTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Edition" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>The screen for creating and configuring the navigation hierarchy configuration documents is accessible via the <strong>Administration &gt; Configuration &gt; Navigation hierarchies</strong> node:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_navigation_arbo.png" title="d_ncs_integration_navigation_arbo.png" />
+  <p>The navigation hierarchy configuration is divided over several XML documents. It operates on a similar principle to schema extension: all documents are merged to generate a single document containing the whole configuration. This document cannot be edited, and is displayed via the "Preview" tab.</p> 
+  <p>The edit field provides the content of the XML document:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_navigation_edit.png" title="d_ncs_integration_navigation_edit.png" />
+  <note>
+   <p> The "Name" edit control lets you enter the document key consisting of the name and namespace. The "name" and "namespace" attributes of the <strong>
+     <navtree /></strong> element are automatically updated in the XML edit field of the schema.<br /> </p> 
+  </note>
+  <p>The preview automatically generates the merged document containing the complete configuration:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_integration_navigation_preview.png" title="d_ncs_integration_navigation_preview.png" />
+ </body>
+</html>

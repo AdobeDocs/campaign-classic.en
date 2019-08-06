@@ -1,0 +1,61 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="f1679005-28e9-4915-a0ec-ac5460c9ec5a" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="ccfcd806-bdd9-4dbb-840f-f20ffce955dc" name="jcr:predecessors" />
+  <meta content="Importing and exporting audiences" name="navTitle" />
+  <meta content="2019-08-06T06:59:39.822-0400" name="jcr:created" />
+  <meta content="Importing and exporting audiences" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Importing and exporting audiences" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="audience:integrations" name="primaryAudienceTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <h2 id="importing-an-audience">Importing an audience</h2>
+  <p>You can import audiences/segments from Audience manager or People core service into Adobe Campaign via the recipient lists.</p> 
+  <ol>
+   <li><p>Go to the <strong>Profiles and Targets</strong> &gt; <strong>Lists</strong> node in the Adobe Campaign explorer.</p> </li>
+   <li><p>In the action bar, select <strong>New</strong> &gt; <strong>Create a shared audience...</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aam_import_audience.png" title="aam_import_audience.png" /></li>
+   <li><p>In the window that opens, click <strong>Select a shared audience</strong> to go to the list of shared audiences/segments available from the other Adobe Experience Cloud solutions.</p> </li>
+   <li><p>Select an audience and confirm. The audience's information is automatically completed.</p> <p>Please note that to be able to import shared audience, you should be assigned the <strong>Audience library</strong> product in the admin console and be an administrator in Audience Manager. For more on this, refer to the <a href="https://helpx.adobe.com/enterprise/managing/user-guide.html">Admin console documentation</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aam_import_audience_3.png" title="aam_import_audience_3.png" /></li>
+   <li><p>Select the AMC Data source from the <strong>AMC Data source</strong> field to define the type of data expected.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aam_import_audience_2.png" title="aam_import_audience_2.png" /></li>
+   <li><p>Save the audience.</p> </li>
+  </ol>
+  <p>The audience is imported via a technical workflow. The imported list contains elements that can be reconciled using the AMC Data source. The elements that are not recognized by Adobe Campaign are not imported. </p> 
+  <p>The import process takes 24-36 hours to synchronize, when segments are imported directly from People core service or Audience Manager. After this period, you will be able to find and use your new audience in Adobe Campaign.</p> 
+  <note>
+   <p> If you are importing audiences from Adobe Analytics to Adobe Campaign, these audiences need to be first shared in People Core Service or Audience Manager. This process takes 12-24 hours, which must be added to the 24-36 hours synchronization with Campaign. <br /> In that specific case, audience sharing timeframe can be up to 60 hours. For more information on Adobe Analytics audience sharing in People Core service and Audience manager, refer to this <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html">documentation</a>.<br /> </p> 
+  </note>
+  <p>The audience data is completely replaced every time it is synchronized. Only segments can be imported. Granular data including key-value pairs, traits and rules are not supported.</p> 
+  <h2 id="exporting-an-audience">Exporting an audience</h2>
+  <p>You can export an audience from Adobe Campaign to Audience manager or People core service using a workflow. The processes for creating and using a workflow are detailed in <a href="../../workflow/using/building-a-workflow.md">this document</a>. The exported audiences are saved as segments in People core service:</p> 
+  <ol>
+   <li><p>Create a new targeting workflow.</p> </li>
+   <li><p>Using the different activities available, target a set of recipients.</p> </li>
+   <li><p>After the targeting, drag and drop an <strong>Update shared audience</strong> activity, then open it.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aam_export_example.png" title="aam_export_example.png" /></li>
+   <li><p>Define the audience that you want to export via the <strong>Select a shared audience</strong> option. In the window that opens, you can select an existing audience or create a new audience.</p> <p>If you select an existing audience, only the new records will be added to the audience.</p> <p>To export your recipient list in a new audience, complete the <strong>Segment name</strong> field then click <strong>Create</strong> before selecting the newly created audience.</p> <p>Finish the operation by clicking the check symbol at the top right of the window, then the <strong>OK</strong> button.</p> </li>
+   <li><p>Select the <strong>AMC Data source</strong> to specify the expected data type. The schema is automatically determined.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aam_export_audience_activity.png" title="aam_export_audience_activity.png" /></li>
+   <li><p>Save the audience.</p> </li>
+  </ol>
+  <p>The audience is then exported. The save audience activity has two outbound transitions. The main transition contains the recipients that were successfully exported. The additional transition contains the recipients that could not have been mapped with a visitor ID or declared ID.</p> 
+  <p>Synchronization between Adobe Campaign and People core service takes 24-36 hours. After this period, you will be able to find your new audience in People core service and reuse it in other Adobe Experience Cloud solutions. For more information on using an Adobe Campaign shared audience in Adobe People core service, refer to this <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/t_audience_create.html">documentation</a>.</p> 
+  <note>
+   <p> In order to be reconciled, the records must have an Adobe Experience Cloud ID ('visitor ID' or 'declared ID'). The records that do not have an Adobe Experience Cloud ID are ignored when exporting and importing audiences.<br /> </p> 
+  </note>
+ </body>
+</html>

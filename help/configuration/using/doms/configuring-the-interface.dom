@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="2019-08-06T06:59:45.099-0400" name="jcr:created" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="Configuring the interface" name="jcr:description" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="527df136-16ca-4471-8151-136d7418a7e0" name="jcr:uuid" /> 
+  <meta content="Configuring the interface" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="aa42b0ee-cd76-4740-b442-22b531610d71" name="jcr:predecessors" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Configuring the interface" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <p>To view and dialog with the new recipient table in the Adobe Campaign interface, apply the following steps:</p> 
+  <ul> 
+   <li><p>Create a new form to edit the content of the new recipient table.</p> </li> 
+   <li><p>Enter a new type in the folder of the explorer tree.</p> </li> 
+   <li><p>Create a new web application to access the custom table via the Adobe Campaign home page.</p> </li> 
+  </ul> 
+  <p>Adobe Campaign uses a "Nms_DefaultRcpSchema" global variable to dialog with the default recipient database (nms:recipient). This variable therefore needs to be altered.</p> 
+  <ol> 
+   <li><p>Go to the <strong>Administration&gt;Platform&gt;Options</strong> node of the explorer.</p> </li> 
+   <li><p>Change the value of the <strong>Nms_DefaultRcpSchema</strong> variable with the name of the schema which matches the external recipient table (in this case: cus:individual).</p> </li> 
+   <li><p>Save changes.</p> </li> 
+  </ol> 
+  <h2 id="creating-a-new-form-">Creating a new form</h2> 
+  <p>Creating a new form will enable you to view and edit the data of the external recipient table.</p> 
+  <note>
+    The name of the form must be identical to the name of the schema which it concerns. 
+   <br /> 
+  </note> 
+  <ol> 
+   <li><p>Go to the <strong>Administration &gt; Configuration &gt; Input forms</strong> node of the explorer.</p> </li> 
+   <li><p>Create a new <strong>xtk:form</strong> type <strong>form</strong> file.</p> </li> 
+   <li><p>Describe all the monitorings and fields which you need depending on your table template.</p> 
+    <note> 
+     <p> To find out more about <strong>form</strong> type files, refer to <a href="../../configuration/using/identifying-a-form.md">this page</a>.<br /> </p> 
+    </note><p>In our current example, the <strong>form</strong> file must be based on the <strong>cus:individual</strong> schema and therefore have the following layout:</p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!&lt;container&amp;nbsp;colspan="2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@id"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;static&amp;nbsp;type="separator"/&gt;!!discoiqbr!!&lt;/container&gt;!!discoiqbr!!&lt;container&amp;nbsp;colcount="2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@lastName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@firstName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;xpath="@mobile"/&gt;!!discoiqbr!!&lt;/container&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+    </codeblock></li> 
+   <li><p>Save the creation.</p> </li> 
+  </ol> 
+  <h2 id="creating-a-new-type-of-folder-in-the-navigation-hierarchy">Creating a new type of folder in the navigation hierarchy</h2> 
+  <ol> 
+   <li><p>Go to the <strong>Administration&gt;Configuration&gt;Navigation hierarchies</strong> node.</p> </li> 
+   <li><p>Create a new <strong>xtk:navtree</strong> type <strong>navtree</strong> document.</p> </li> 
+   <li><p>Describe all the monitorings and fields which you need depending on your table template.</p> 
+    <note> 
+     <p> For more on <strong>navtree</strong> type files, refer to <a href="../../configuration/using/about-navigation-hierarchy.md">this page</a>.<br /> </p> 
+    </note><p>In the current example, the <strong>navtree</strong> file must be based on the <strong>cus:individual</strong> schema and therefore have the following form:</p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!&amp;nbsp;&lt;model&amp;nbsp;name="root"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;nodeModel&amp;nbsp;img="nms:usergrp.png"&amp;nbsp;label="My&amp;nbsp;recipient&amp;nbsp;table"&amp;nbsp;name="cusindividual"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;view&amp;nbsp;name="listdet"&amp;nbsp;schema="cus:individual"&amp;nbsp;type="listdet"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;columns&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;xpath="@id"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;xpath="@lastName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;xpath="@firstName"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;xpath="@email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;xpath="@mobile"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/columns&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/view&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/nodeModel&gt;!!discoiqbr!!&lt;/model&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+    </codeblock></li> 
+   <li><p>Save the creation.</p> </li> 
+  </ol> 
+ </body> 
+</html>

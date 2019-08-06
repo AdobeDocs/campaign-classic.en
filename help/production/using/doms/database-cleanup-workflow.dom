@@ -1,0 +1,416 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="Database cleanup workflow" name="jcr:description" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="cd421836-6601-4991-aec6-c10a7e0c5ffb" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Database cleanup workflow" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-08-06T06:59:02.147-0400" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="audience:production" name="primaryAudienceTag" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Database cleanup workflow" name="navTitle" /> 
+  <meta content="6f675b0a-fc7a-4055-9d4b-140093b1de2b" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <h2 id="introduction">Introduction</h2> 
+  <p>The <strong>Database cleanup</strong> workflow accessible via the <strong>Administration &gt; Production &gt; Technical workflows</strong> node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_cleanup_workflow.png" title="ncs_cleanup_workflow.png" /> 
+  <h2 id="configuration">Configuration</h2> 
+  <p>The database cleanup is configured on two levels: in the workflow scheduler and in the deployment wizard.</p> 
+  <h3 id="the-scheduler">The scheduler</h3> 
+  <note> 
+   <p> For more on the scheduler, refer to <a href="../../workflow/using/scheduler.md">this section</a>.<br /> </p> 
+  </note> 
+  <p>By default, the <strong>Database cleanup</strong> workflow is configured to start daily at 4AM. The scheduler lets you change the workflow triggering frequency. The following frequencies are available: </p> 
+  <ul> 
+   <li><p><strong>Several times a day</strong></p> </li> 
+   <li><p><strong>Daily</strong></p> </li> 
+   <li><p><strong>Weekly</strong></p> </li> 
+   <li><p><strong>Once</strong></p> </li> 
+  </ul> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_cleanup_scheduler.png" title="ncs_cleanup_scheduler.png" /> 
+  <note>
+    In order for the 
+   <strong>Database cleanup</strong> workflow to start at the date and time defined in the scheduler, the workflow engine (wfserver) must be started. If this isn't the case, database cleansing won't take place until next time the workflow engine is started. 
+   <br /> 
+  </note> 
+  <h3 id="deployment-wizard">Deployment wizard</h3> 
+  <p>The <strong>Deployment wizard</strong>, accessed via the <strong>Tools &gt; Advanced</strong> menu, lets you configure how long data is saved for. Values are expressed in days. If these values aren't altered, the workflow will use the default values. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ncs_cleanup_deployment-wizard.png" title="ncs_cleanup_deployment wizard.png" /> 
+  <p>The fields of the <strong>Purge of data</strong> window coincide with the following options. These are used by some of the tasks executed by the <strong>Database cleanup</strong> workflow:</p> 
+  <ul> 
+   <li><p>Consolidated tracking: <strong>NmsCleanup_TrackingStatPurgeDelay</strong> (refer to <a href="../../production/using/database-cleanup-workflow.md#cleanup-of-tracking-logs" target="_blank">Cleanup of tracking logs</a>)</p> </li> 
+   <li><p>Delivery logs: <strong>NmsCleanup_BroadLogPurgeDelay</strong> (refer to <a href="../../production/using/database-cleanup-workflow.md#cleanup-of-delivery-logs" target="_blank">Cleanup of delivery logs</a>)</p> </li> 
+   <li><p>Tracking logs: <strong>NmsCleanup_TrackingLogPurgeDelay</strong> (refer to <a href="../../production/using/database-cleanup-workflow.md#cleanup-of-tracking-logs" target="_blank">Cleanup of tracking logs</a>)</p> </li> 
+   <li><p>Deleted deliveries: <strong>NmsCleanup_RecycledDeliveryPurgeDelay</strong> (refer to <a href="../../production/using/database-cleanup-workflow.md#cleanup-of-deliveries-to-be-deleted-or-recycled" target="_blank">Cleanup of deliveries to be deleted or recycled</a>)</p> </li> 
+   <li><p>Import rejects: <strong>NmsCleanup_RejectsPurgeDelay</strong> (refer to <a href="../../production/using/database-cleanup-workflow.md#cleanup-of-rejects-generated-by-imports-" target="_blank">Cleanup of rejects generated by imports </a>)</p> </li> 
+   <li><p>Visitor profiles: <strong>NmsCleanup_VisitorPurgeDelay</strong> (refer to <a href="../../production/using/database-cleanup-workflow.md#cleanup-of-visitors" target="_blank">Cleanup of visitors</a>)</p> </li> 
+   <li><p>Offer propositions: <strong>NmsCleanup_PropositionPurgeDelay</strong> (refer to <a href="../../production/using/database-cleanup-workflow.md#cleanup-of-propositions" target="_blank">Cleanup of propositions</a>) </p> 
+    <note> 
+     <p> The <strong>Offer propositions</strong> field is only available when the <strong>Interaction</strong> module is installed.<br /> </p> 
+    </note></li> 
+   <li><p>Events: <strong>NmsCleanup_EventPurgeDelay</strong> (refer to <a href="../../production/using/database-cleanup-workflow.md#cleansing-expired-events" target="_blank">Cleansing expired events</a>)</p> </li> 
+   <li><p>Archived events: <strong>NmsCleanup_EventHistoPurgeDelay</strong> (refer to <a href="../../production/using/database-cleanup-workflow.md#cleansing-expired-events" target="_blank">Cleansing expired events</a>)</p> 
+    <note> 
+     <p> The <strong>Events</strong> and <strong>Archived events</strong> fields are only available if the <strong>Message Center</strong> module is installed.<br /> </p> 
+    </note></li> 
+   <li><p>Audit trail: <strong>XtkCleanup_AuditTrailPurgeDelay </strong> (refer to <a href="../../production/using/database-cleanup-workflow.md#cleanup-of-audit-trail" target="_blank">Cleanup of Audit trail</a>)</p> </li> 
+  </ul> 
+  <p>All tasks executed by the <strong>Database cleanup</strong> workflow are described in the following section.</p> 
+  <h2 id="tasks-carried-out-by-the-database-cleanup-workflow">Tasks carried out by the Database cleanup workflow</h2> 
+  <p>At the date and time defined in the workflow scheduler (refer to <a href="../../production/using/database-cleanup-workflow.md#the-scheduler" target="_blank">The scheduler</a>), the workflow engine starts the database cleanup process. The Database cleanup connects to the database and executes the tasks in the sequence shown below.</p> 
+  <note>
+    If one of these tasks fails, the following ones will not be executed. 
+   <br /> SQL queries with a 
+   <strong>LIMIT</strong> attribute will be executed repeatedly until all information is processed. 
+   <br /> 
+  </note> 
+  <note> 
+   <p> The sections below describing the tasks carried out by the Database cleanup workflow are reserved for database administrators or users familiar with SQL language.<br /> </p> 
+  </note> 
+  <h3 id="lists-to-delete-cleanup">Lists to delete cleanup</h3> 
+  <p>The first task executed by the <strong>Database cleanup</strong> workflow deletes all groups with the <strong>deleteStatus != 0</strong> attribute from the <strong>NmsGroup</strong>. Records linked to these groups and which exist in other tables are also deleted.</p> 
+  <ol> 
+   <li><p>Lists to be deleted are recovered using the following SQL query: </p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;iGroupId,&amp;nbsp;sLabel,&amp;nbsp;iType&amp;nbsp;FROM&amp;nbsp;NmsGroup&amp;nbsp;WHERE&amp;nbsp;iDeleteStatus&amp;nbsp;&lt;&gt;&amp;nbsp;0&amp;nbsp;OR&amp;nbsp;tsExpirationDate&amp;nbsp;&lt;=&amp;nbsp;GetDate()&amp;nbsp; 
+    </codeblock></li> 
+   <li><p>Each list has several links to other tables. All of these links are deleted in bulk using the following query: </p> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;$(relatedTable)&amp;nbsp;WHERE&amp;nbsp;iGroupId=$(l)&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iGroupId&amp;nbsp;FROM&amp;nbsp;$(relatedTable)&amp;nbsp;WHERE&amp;nbsp;iGroupId=$(l)&amp;nbsp;LIMIT&amp;nbsp;5000)&amp;nbsp; 
+    </codeblock><p>where <strong>$(relatedTable)</strong> is a table related to <strong>NmsGroup</strong> and <strong>$(l)</strong> is the list identifier.</p> </li> 
+   <li><p>When the list is a 'List' type list, the associated table is deleted using the following query: </p> 
+    <codeblock gutter="true" class="syntax html">
+      DROP&amp;nbsp;TABLE&amp;nbsp;grp$(l) 
+    </codeblock></li> 
+   <li><p>Every <strong>Select</strong> type list recovered by the operation is deleted using the following query: </p> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;NmsGroup&amp;nbsp;WHERE&amp;nbsp;iGroupId=$(l)&amp;nbsp; 
+    </codeblock><p>where <strong>$(l)</strong> is the list identifier </p> </li> 
+  </ol> 
+  <h3 id="cleanup-of-deliveries-to-be-deleted-or-recycled">Cleanup of deliveries to be deleted or recycled</h3> 
+  <p>This task purges all deliveries to be deleted or recycled.</p> 
+  <ol> 
+   <li><p>The <strong>Database cleanup</strong> workflow selects all deliveries for which the <strong>deleteStatus</strong> field has the value <strong>Yes</strong> or <strong>Recycled</strong> and whose delete date is earlier than the period defined in the <strong>Deleted deliveries</strong> (<strong>NmsCleanup_RecycledDeliveryPurgeDelay</strong>) field of the deployment wizard. For more on this, refer to <a href="../../production/using/database-cleanup-workflow.md#deployment-wizard" target="_blank">Deployment wizard</a>. This period is calculated in relation to the current server date. </p> </li> 
+   <li><p>For each mid-sourcing server, the task selects the list of deliveries to be deleted. </p> </li> 
+   <li><p>The <strong>Database cleanup</strong> workflow deletes delivery logs, attachments, mirror page information and all other related data. </p> </li> 
+   <li><p>Before deleting the delivery for good, the workflow purges linked information from the following tables:</p> 
+    <ul> 
+     <li><p>In the delivery exclusion table (<strong>NmsDlvExclusion</strong>), the following query is used: </p> 
+      <codeblock gutter="true" class="syntax html">
+        DELETE&amp;nbsp;FROM&amp;nbsp;NmsDlvExclusion&amp;nbsp;WHERE&amp;nbsp;iDeliveryId=$(l) 
+      </codeblock><p>where <strong>$(l)</strong> is the identifier of the delivery. </p> </li> 
+     <li><p>In the coupon table (<strong>NmsCouponValue</strong>), the following query is used (with mass-deletions): </p> 
+      <codeblock gutter="true" class="syntax html">
+        DELETE&amp;nbsp;FROM&amp;nbsp;NmsCouponValue&amp;nbsp;WHERE&amp;nbsp;iMessageId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iMessageId&amp;nbsp;FROM&amp;nbsp;NmsCouponValue&amp;nbsp;WHERE&amp;nbsp;EXISTS&amp;nbsp;(SELECT&amp;nbsp;B.iBroadLogId&amp;nbsp;FROM&amp;nbsp;$(BroadLogTableName)&amp;nbsp;B&amp;nbsp;WHERE&amp;nbsp;B.iDeliveryId&amp;nbsp;=&amp;nbsp;$(l)&amp;nbsp;AND&amp;nbsp;B.iBroadLogId&amp;nbsp;=&amp;nbsp;iMessageId&amp;nbsp;)&amp;nbsp;LIMIT&amp;nbsp;5000)!!discoiqbr!! 
+      </codeblock><p>where <strong>$(l)</strong> is the identifier of the delivery.</p> </li> 
+     <li><p>In the delivery log tables (<strong>NmsBroadlogXxx</strong>), mass-deletions are executed in batches of 10,000 records.</p> </li> 
+     <li><p>In the offer proposition tables (<strong>NmsPropositionXxx</strong>), mass-deletions are executed in batches of 10,000 records.</p> </li> 
+     <li><p>In the tracking log tables (<strong>NmsTrackinglogXxx</strong>), mass-deletions are executed in batches of 5,000 records.</p> </li> 
+     <li><p>In the delivery fragment table (<strong>NmsDeliveryPart</strong>), mass-deletions are executed in batches of 5,000 records. This table contains personalization information on the remaining messages to be delivered. </p> </li> 
+     <li><p>In the mirror page data fragment table (<strong>NmsMirrorPageInfo</strong>), mass-deletions are executed in batches of 5,000 records. This table contains personalization information on all messages used for generating mirror pages. </p> </li> 
+     <li><p>In the mirror page search table (<strong>NmsMirrorPageSearch</strong>), mass-deletions are executed in batches of 5,000 records. This table is a search index which provides access to personalization information stored in the <strong>NmsMirrorPageInfo</strong> table. </p> </li> 
+     <li><p>In the batch process log table (<strong>XtkJobLog</strong>), mass-deletions are executed in batches of 5,000 records. This table contains the log of deliveries to be deleted. </p> </li> 
+     <li><p>In the delivery URL tracking table (<strong>NmsTrackingUrl</strong>), the following query is used: </p> 
+      <codeblock gutter="true" class="syntax html">
+        DELETE&amp;nbsp;FROM&amp;nbsp;NmsTrackingUrl&amp;nbsp;WHERE&amp;nbsp;iDeliveryId=$(l) 
+      </codeblock><p> where <strong>$(l)</strong> is the identifier of the delivery. </p> <p>This table contains the URLs found in the deliveries to be deleted to enable their tracking. </p> </li> 
+    </ul></li> 
+   <li><p>The delivery is deleted from the delivery table (<strong>NmsDelivery</strong>):</p> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;NmsDelivery&amp;nbsp;WHERE&amp;nbsp;iDeliveryId&amp;nbsp;=&amp;nbsp;$(l) 
+    </codeblock><p>where <strong>$(l)</strong> is the identifier of the delivery.</p> </li> 
+  </ol> 
+  <h4 id="deliveries-using-mid-sourcing">Deliveries using mid-sourcing</h4> 
+  <p>The <strong>Database cleanup</strong> workflow also deletes deliveries on the mid-sourcing server(s).</p> 
+  <ol> 
+   <li><p>To do this, the workflow checks that each delivery is inactive (based on its status). If a delivery is active, it will be stopped before it is deleted. The check is carried out by executing the following query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;iState&amp;nbsp;FROM&amp;nbsp;NmsDelivery&amp;nbsp;WHERE&amp;nbsp;iDeliveryId&amp;nbsp;=&amp;nbsp;$(l)&amp;nbsp;AND&amp;nbsp;iState&amp;nbsp;&lt;&gt;&amp;nbsp;100; 
+    </codeblock><p>where <strong>$(l)</strong> is the identifier of the delivery.</p> </li> 
+   <li><p>If the value of the status is <strong>Start pending</strong>, <strong>In progress</strong>, <strong>Recovery pending</strong>, <strong>Recovery in progress</strong>, <strong>Pause requested</strong>, <strong>Pause in progress</strong>, or <strong>Paused</strong> (values 51, 55, 61, 62, 71, 72, 75), the delivery is stopped and the task purges the linked information.</p> </li> 
+  </ol> 
+  <h3 id="cleanup-of-expired-deliveries">Cleanup of expired deliveries</h3> 
+  <p>This task stops deliveries whose validity period has expired.</p> 
+  <ol> 
+   <li><p>The <strong>Database cleanup</strong> workflow creates the list of deliveries which have expired. This list includes all expired deliveries with a status other than <strong>Finished</strong>, as well as recently stopped deliveries with over 10,000 non-processed messages. The following query is used:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;iDeliveryId,&amp;nbsp;iState&amp;nbsp;FROM&amp;nbsp;NmsDelivery&amp;nbsp;WHERE&amp;nbsp;iDeleteStatus=0&amp;nbsp;AND&amp;nbsp;iIsModel=0&amp;nbsp;AND&amp;nbsp;iDeliveryMode=1&amp;nbsp;AND&amp;nbsp;(&amp;nbsp;(iState&amp;nbsp;&gt;=&amp;nbsp;51&amp;nbsp;AND&amp;nbsp;iState&amp;nbsp;&lt;&amp;nbsp;85&amp;nbsp;AND&amp;nbsp;tsValidity&amp;nbsp;IS&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;AND&amp;nbsp;tsValidity&amp;nbsp;&lt;&amp;nbsp;$(currentDate)&amp;nbsp;)&amp;nbsp;OR&amp;nbsp;(iState&amp;nbsp;=&amp;nbsp;85&amp;nbsp;AND&amp;nbsp;DateMinusDays(15)&amp;nbsp;&lt;&amp;nbsp;tsLastModified&amp;nbsp;AND&amp;nbsp;iToDeliver&amp;nbsp;-&amp;nbsp;iProcessed&amp;nbsp;&gt;=&amp;nbsp;10000&amp;nbsp;)) 
+    </codeblock><p>where <strong>delivery mode 1</strong> matches the <strong>Mass delivery</strong> mode, <strong>state 51</strong> matches the <strong>Start pending</strong> state, <strong>state 85</strong> matches the <strong>Stopped</strong> state, and the highest number of delivery logs mass-updated on the delivery server equals 10,000.</p> </li> 
+   <li><p>The workflow then includes the list of recently expired deliveries which use mid-sourcing. Deliveries for which no delivery logs have yet been recovered via the mid-sourcing server are excluded. </p> <p>The following query is used:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;iDeliveryId,&amp;nbsp;tsValidity,&amp;nbsp;iMidRemoteId,&amp;nbsp;mData&amp;nbsp;FROM&amp;nbsp;NmsDelivery&amp;nbsp;WHERE&amp;nbsp;(iDeliveryMode&amp;nbsp;=&amp;nbsp;4&amp;nbsp;AND&amp;nbsp;(iState&amp;nbsp;=&amp;nbsp;85&amp;nbsp;OR&amp;nbsp;iState&amp;nbsp;=&amp;nbsp;95)&amp;nbsp;AND&amp;nbsp;tsValidity&amp;nbsp;IS&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;AND&amp;nbsp;(tsValidity&amp;nbsp;&lt;&amp;nbsp;SubDays(GetDate()&amp;nbsp;,&amp;nbsp;15)&amp;nbsp;OR&amp;nbsp;tsValidity&amp;nbsp;&lt;&amp;nbsp;$(DateOfLastLogPullUp))&amp;nbsp;AND&amp;nbsp;tsLastModified&amp;nbsp;&gt;&amp;nbsp;SubDays(GetDate()&amp;nbsp;,&amp;nbsp;15)) 
+    </codeblock></li> 
+   <li><p>The following query is used to detect whether or not the external account is still active, for filtering deliveries by date:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;iExtAccountId&amp;nbsp;FROM&amp;nbsp;NmsExtAccount&amp;nbsp;WHERE&amp;nbsp;iActive&lt;&gt;0&amp;nbsp;AND&amp;nbsp;sName=$(providerName) 
+    </codeblock></li> 
+   <li><p>In the list of expired deliveries, delivery logs whose status is <strong>Pending</strong>, switch to <strong>Delivery cancelled</strong>, and all deliveries in this list switch to <strong>Finished</strong>.</p> <p>The following queries are used:</p> 
+    <codeblock gutter="true" class="syntax html">
+      UPDATE&amp;nbsp;$(BroadLogTableName)&amp;nbsp;SET&amp;nbsp;tsLastModified=$(curdate),&amp;nbsp;iStatus=7,&amp;nbsp;iMsgId=$(bl)&amp;nbsp;WHERE&amp;nbsp;iDeliveryId=$(dl)&amp;nbsp;AND&amp;nbsp;iStatus=6 
+    </codeblock><p>where <strong>$(curdate)</strong> is the current date of the database server, <strong>$(bl)</strong> is the identifier of the delivery logs message, <strong>$(dl)</strong> is the delivery identifier, <strong>delivery status 6</strong> matches the <strong>Pending</strong> status and <strong>delivery status 7</strong> matches the <strong>Delivery cancelled</strong> status.</p> 
+    <codeblock gutter="true" class="syntax html">
+      UPDATE&amp;nbsp;NmsDelivery&amp;nbsp;SET&amp;nbsp;iState&amp;nbsp;=&amp;nbsp;95,&amp;nbsp;tsLastModified&amp;nbsp;=&amp;nbsp;$(curdate),&amp;nbsp;tsBroadEnd&amp;nbsp;=&amp;nbsp;tsValidity&amp;nbsp;WHERE&amp;nbsp;iDeliveryId&amp;nbsp;=&amp;nbsp;$(dl) 
+    </codeblock><p>where <strong>delivery state 95</strong> matches the <strong>Finished</strong> status, and <strong>$(dl)</strong> is the identifier of the delivery.</p> </li> 
+   <li><p>All fragments (<strong>deliveryParts</strong>) of obsolete deliveries are deleted and all obsolete fragments of notification deliveries in progress are deleted. Mass-deletion is used for both these tasks.</p> <p>The following queries are used:</p> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;NmsDeliveryPart&amp;nbsp;WHERE&amp;nbsp;iDeliveryPartId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iDeliveryPartId&amp;nbsp;FROM&amp;nbsp;NmsDeliveryPart&amp;nbsp;WHERE&amp;nbsp;iDeliveryId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iDeliveryId&amp;nbsp;FROM&amp;nbsp;NmsDelivery&amp;nbsp;WHERE&amp;nbsp;iState=95&amp;nbsp;OR&amp;nbsp;iState=85)&amp;nbsp;LIMIT&amp;nbsp;5000) 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;NmsDeliveryPart&amp;nbsp;WHERE&amp;nbsp;iDeliveryPartId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iDeliveryPartId&amp;nbsp;FROM&amp;nbsp;NmsDeliveryPart&amp;nbsp;WHERE&amp;nbsp;tsValidity&amp;nbsp;&lt;&amp;nbsp;$(curDate)&amp;nbsp;LIMIT&amp;nbsp;500000) 
+    </codeblock><p>where <strong>delivery state 95</strong> matches the <strong>Finished</strong> status, <strong>delivery state 85</strong> matches the <strong>Stopped</strong> status, and <strong>$(curDate)</strong> is the current server date.</p> </li> 
+  </ol> 
+  <h3 id="cleanup-of-mirror-pages">Cleanup of mirror pages</h3> 
+  <p>This task deletes the web resources (mirror pages) used by deliveries.</p> 
+  <ol> 
+   <li><p>First of all, the list of deliveries to be purged is recovered using the following query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;iDeliveryId,&amp;nbsp;iNeedMirrorPage&amp;nbsp;FROM&amp;nbsp;NmsDelivery&amp;nbsp;WHERE&amp;nbsp;iWebResPurged&amp;nbsp;=&amp;nbsp;0&amp;nbsp;AND&amp;nbsp;tsWebValidity&amp;nbsp;IS&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;AND&amp;nbsp;tsWebValidity&amp;nbsp;&lt;&amp;nbsp;$(curdate)" 
+    </codeblock><p>where <strong>$(curDate)</strong> is the current server date.</p> </li> 
+   <li><p>The <strong>NmsMirrorPageInfo</strong> table is then purged, if necessary using the identifier of the previously recovered delivery. Mass-deletion is used to generate the following queries:</p> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;NmsMirrorPageInfo&amp;nbsp;WHERE&amp;nbsp;iMirrorPageInfoId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iMirrorPageInfoId&amp;nbsp;FROM&amp;nbsp;NmsMirrorPageInfo&amp;nbsp;WHERE&amp;nbsp;iDeliveryId&amp;nbsp;=&amp;nbsp;$(dl))&amp;nbsp;LIMIT&amp;nbsp;5000) 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;NmsMirrorPageSearch&amp;nbsp;WHERE&amp;nbsp;iMessageId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iMessageId&amp;nbsp;FROM&amp;nbsp;NmsMirrorPageSearch&amp;nbsp;WHERE&amp;nbsp;iDeliveryId&amp;nbsp;=&amp;nbsp;$(dl))&amp;nbsp;LIMIT&amp;nbsp;5000) 
+    </codeblock><p>where <strong>$(dl)</strong> is the identifier of the delivery.</p> </li> 
+   <li><p>An entry is then added to the delivery log.</p> </li> 
+   <li><p>Purged deliveries are then identified, to avoid having to reprocess them later. The following query is executed:</p> 
+    <codeblock gutter="true" class="syntax html">
+      UPDATE&amp;nbsp;NmsDelivery&amp;nbsp;SET&amp;nbsp;iWebResPurged&amp;nbsp;=&amp;nbsp;1&amp;nbsp;WHERE&amp;nbsp;iDeliveryId&amp;nbsp;IN&amp;nbsp;($(strIn)) 
+    </codeblock><p>where <strong>$(strIn)</strong> is the list of delivery identifiers.</p> </li> 
+  </ol> 
+  <h3 id="cleanup-of-work-tables">Cleanup of work tables</h3> 
+  <p>This task deletes from the database, all work tables which match deliveries whose status is <strong>Being edited</strong>, <strong>Stopped</strong> or <strong>Deleted</strong>.</p> 
+  <ol> 
+   <li><p>The list of tables with names beginning with <strong>wkDlv_</strong> is recovered first with the following query (postgresql):</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;relname&amp;nbsp;FROM&amp;nbsp;pg_class&amp;nbsp;WHERE&amp;nbsp;relname&amp;nbsp;LIKE&amp;nbsp;Lower('wkDlv_')&amp;nbsp;ESCAPE&amp;nbsp;E'\\'&amp;nbsp;AND&amp;nbsp;relkind&amp;nbsp;IN&amp;nbsp;('r','v')&amp;nbsp;AND&amp;nbsp;pg_get_userbyid(relowner)&lt;&gt;'postgres' 
+    </codeblock></li> 
+   <li><p>The tables used by workflows in progress are then excluded. To do this, the list of deliveries in progress is recovered using the following query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;iDeliveryId&amp;nbsp;FROM&amp;nbsp;NmsDelivery&amp;nbsp;WHERE&amp;nbsp;iDeliveryId&lt;&gt;0&amp;nbsp;AND&amp;nbsp;iDeleteStatus=0&amp;nbsp;AND&amp;nbsp;iState&amp;nbsp;NOT&amp;nbsp;IN&amp;nbsp;(0,85,100); 
+    </codeblock><p>where 0 is the value which matches the <strong>Being edited</strong> delivery status, 85 matches the <strong>Stopped</strong> status and 100 matches the <strong>Deleted</strong> status. </p> </li> 
+   <li><p>Tables that are no longer used will be deleted using the following query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      DROP&amp;nbsp;TABLE&amp;nbsp;wkDlv_15487_1; 
+    </codeblock></li> 
+  </ol> 
+  <h3 id="cleanup-of-rejects-generated-by-imports-">Cleanup of rejects generated by imports</h3> 
+  <p>This step lets you delete records for which all data wasn't processed during import. </p> 
+  <ol> 
+   <li><p>Mass-deletion is carried out on the <strong>XtkReject</strong> table with the following query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;XtkReject&amp;nbsp;WHERE&amp;nbsp;iRejectId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iRejectId&amp;nbsp;FROM&amp;nbsp;XtkReject&amp;nbsp;WHERE&amp;nbsp;tsLog&amp;nbsp;&lt;&amp;nbsp;$(curDate))&amp;nbsp;LIMIT&amp;nbsp;$(l)) 
+    </codeblock><p>where <strong>$(curDate)</strong> is the current server date from which we subtract the period defined for the <strong>NmsCleanup_RejectsPurgeDelay</strong> option (refer to <a href="../../production/using/database-cleanup-workflow.md#deployment-wizard" target="_blank">Deployment wizard</a>) and <strong>$(l)</strong> is the maximum number of records to be mass deleted.</p> </li> 
+   <li><p>All orphan rejects are then deleted using the following query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;XtkReject&amp;nbsp;WHERE&amp;nbsp;iJobId&amp;nbsp;NOT&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iJobId&amp;nbsp;FROM&amp;nbsp;XtkJob) 
+    </codeblock></li> 
+  </ol> 
+  <h3 id="cleanup-of-workflow-instances">Cleanup of workflow instances</h3> 
+  <p>This task purges each workflow instance using its identifer (<strong>lWorkflowId</strong>) and history (<strong>lHistory</strong>). It deletes inactive tables by running the worktable cleanup task again.</p> 
+  <note> 
+   <p> The purge frequency of the history is specified for each workflow in the <strong>History in days</strong> field (default value 30 days). This field can be found in the <strong>Execution</strong> tab of the workflow properties. For more on this, refer to <a href="../../workflow/using/workflow-properties.md#execution">this section</a>.<br /> </p> 
+  </note> 
+  <ol> 
+   <li><p>To recover the list of workflows to be deleted, the following query is used:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;iWorkflowId,&amp;nbsp;iHistory&amp;nbsp;FROM&amp;nbsp;XtkWorkflow&amp;nbsp;WHERE&amp;nbsp;iWorkflowId&lt;&gt;0 
+    </codeblock></li> 
+   <li><p>This query generates the list of workflows which will be used to delete all linked logs, finished tasks and finished events, using the following queries:</p> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;XtkWorkflowLog&amp;nbsp;WHERE&amp;nbsp;iWorkflowId=$(lworkflow)&amp;nbsp;AND&amp;nbsp;tsLog&amp;nbsp;&lt;&amp;nbsp;DateMinusDays($(lhistory)) 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;XtkWorkflowTask&amp;nbsp;WHERE&amp;nbsp;iWorkflowId=$(lworkflow)&amp;nbsp;AND&amp;nbsp;iStatus&lt;&gt;0&amp;nbsp;AND&amp;nbsp;tsCompletion&amp;nbsp;&lt;&amp;nbsp;DateMinusDays($(lhistory))&amp;nbsp; 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;XtkWorkflowEvent&amp;nbsp;WHERE&amp;nbsp;iWorkflowId=$(l)&amp;nbsp;AND&amp;nbsp;iStatus&gt;2&amp;nbsp;AND&amp;nbsp;tsProcessing&amp;nbsp;&lt;&amp;nbsp;DateMinusDays($(lHistory)) 
+    </codeblock><p>where <strong>$(lworkflow)</strong> is the identifier of the workflow and <strong>$(lhistory)</strong> is the identifier of the history.</p> </li> 
+   <li><p>All unused tables are deleted. For this purpose, all tables are collected thanks to a <strong>wkf%</strong> type mask using the following query (postgresql):</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;relname&amp;nbsp;FROM&amp;nbsp;pg_class&amp;nbsp;WHERE&amp;nbsp;relname&amp;nbsp;LIKE&amp;nbsp;Lower('wkf%')&amp;nbsp;ESCAPE&amp;nbsp;E'\\'&amp;nbsp;AND&amp;nbsp;relkind&amp;nbsp;IN&amp;nbsp;('r','v')&amp;nbsp;AND&amp;nbsp;pg_get_userbyid(relowner)&lt;&gt;'postgres' 
+    </codeblock></li> 
+   <li><p>Then all tables used by a pending workflow instance are excluded. The list of active workflows is recovered using the following query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;iWorkflowId&amp;nbsp;FROM&amp;nbsp;XtkWorkflow&amp;nbsp;WHERE&amp;nbsp;iWorkflowId&lt;&gt;0&amp;nbsp;AND&amp;nbsp;iState&lt;&gt;20 
+    </codeblock></li> 
+   <li><p>Each workflow identifier is then recovered to find the name of the tables used by workflows in progress. These names are excluded from the list of previously recovered tables.</p> </li> 
+   <li><p>"incremental query" type activity history tables are excluded using the following queries:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;relname&amp;nbsp;FROM&amp;nbsp;pg_class&amp;nbsp;WHERE&amp;nbsp;relname&amp;nbsp;LIKE&amp;nbsp;Lower('wkfhisto%')&amp;nbsp;ESCAPE&amp;nbsp;E'\\'&amp;nbsp;AND&amp;nbsp;relkind&amp;nbsp;IN&amp;nbsp;('r','v')&amp;nbsp;AND&amp;nbsp;pg_get_userbyid(relowner)&lt;&gt;'postgres' 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;iWorkflowId&amp;nbsp;FROM&amp;nbsp;XtkWorkflow&amp;nbsp;WHERE&amp;nbsp;iWorkflowId&amp;nbsp;IN&amp;nbsp;($(strCondition)) 
+    </codeblock><p>where <strong>$(strcondition)</strong> is the list of tables which match the <strong>wkfhisto%</strong> mask.</p> </li> 
+   <li><p>The remaining tables are deleted using the following query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      DROP&amp;nbsp;TABLE&amp;nbsp;wkf15487_12; 
+    </codeblock></li> 
+  </ol> 
+  <h3 id="cleanup-of-workflow-logins">Cleanup of workflow logins</h3> 
+  <p>This task deletes workflow logins using the following query:</p> 
+  <codeblock gutter="true" class="syntax html">
+    DELETE&amp;nbsp;FROM&amp;nbsp;XtkWorkflowLogin&amp;nbsp;WHERE&amp;nbsp;iWorkflowId&amp;nbsp;NOT&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iWorkflowId&amp;nbsp;FROM&amp;nbsp;XtkWorkflow) 
+  </codeblock> 
+  <h3 id="cleanup-of-orphan-work-tables">Cleanup of orphan work tables</h3> 
+  <p>This task deletes orphan work tables linked to groups. The <strong>NmsGroup</strong> table stores the groups to be cleansed (with a type different from 0). The prefix of the table names is <strong>grp</strong>. To identify the groups to be cleansed, the following query is used:</p> 
+  <codeblock gutter="true" class="syntax html">
+    SELECT&amp;nbsp;iGroupId&amp;nbsp;FROM&amp;nbsp;NmsGroup&amp;nbsp;WHERE&amp;nbsp;iType&gt;0" 
+  </codeblock> 
+  <h3 id="cleanup-of-visitors">Cleanup of visitors</h3> 
+  <p>This task deletes obsolete records from the visitor table using mass-deletion. Obsolete records are those for which the last modification is earlier than the conservation period defined in the deployment wizard (refer to <a href="../../production/using/database-cleanup-workflow.md#deployment-wizard" target="_blank">Deployment wizard</a>). The following query is used:</p> 
+  <codeblock gutter="true" class="syntax html">
+    DELETE&amp;nbsp;FROM&amp;nbsp;NmsVisitor&amp;nbsp;WHERE&amp;nbsp;iVisitorId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iVisitorId&amp;nbsp;FROM&amp;nbsp;NmsVisitor&amp;nbsp;WHERE&amp;nbsp;iRecipientId&amp;nbsp;=&amp;nbsp;0&amp;nbsp;AND&amp;nbsp;tsLastModified&amp;nbsp;&lt;&amp;nbsp;$(tsDate)&amp;nbsp;LIMIT&amp;nbsp;5000) 
+  </codeblock> 
+  <p>where <strong>$(tsDate)</strong> is the current server date, from which we subtract the period defined for the <strong>NmsCleanup_VisitorPurgeDelay</strong> option.</p> 
+  <h3 id="cleanup-of-npai">Cleanup of NPAI</h3> 
+  <p>This task lets you delete records which match valid addresses from the <strong>NmsAddress</strong> table. The following query is used to perform mass-deletion:</p> 
+  <codeblock gutter="true" class="syntax html">
+    DELETE&amp;nbsp;FROM&amp;nbsp;NmsAddress&amp;nbsp;WHERE&amp;nbsp;iAddressId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iAddressId&amp;nbsp;FROM&amp;nbsp;NmsAddress&amp;nbsp;WHERE&amp;nbsp;iStatus=2&amp;nbsp;AND&amp;nbsp;tsLastModified&amp;nbsp;&lt;&amp;nbsp;$(tsDate1)&amp;nbsp;AND&amp;nbsp;tsLastModified&amp;nbsp;&gt;=&amp;nbsp;$(tsDate2)&amp;nbsp;LIMIT&amp;nbsp;5000) 
+  </codeblock> 
+  <p>where <strong>status 2</strong> matches the <strong>Valid</strong> status, <strong>$(tsDate1)</strong> is the current server date, and <strong>$(tsDate2)</strong> matches the <strong>NmsCleanup_LastCleanup</strong> option.</p> 
+  <h3 id="cleanup-of-subscriptions-">Cleanup of subscriptions</h3> 
+  <p>This task purges all subscriptions deleted by the user from the <strong>NmsSubscription</strong> table, using mass-deletion. The following query is used:</p> 
+  <codeblock gutter="true" class="syntax html">
+    DELETE&amp;nbsp;FROM&amp;nbsp;NmsSubscription&amp;nbsp;WHERE&amp;nbsp;iDeleteStatus&amp;nbsp;&lt;&gt;0 
+  </codeblock> 
+  <h3 id="cleanup-of-tracking-logs">Cleanup of tracking logs</h3> 
+  <p>This task deletes obsolete records from the tracking and webtracking log tables. Obsolete records are those which are earlier than the conservation period defined in the deployment wizard (refer to <a href="../../production/using/database-cleanup-workflow.md#deployment-wizard" target="_blank">Deployment wizard</a>).</p> 
+  <ol> 
+   <li><p>First, the list of tracking log tables is recovered using the following query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;distinct(sTrackingLogSchema)&amp;nbsp;FROM&amp;nbsp;NmsDeliveryMapping&amp;nbsp;WHERE&amp;nbsp;sTrackingLogSchema&amp;nbsp;IS&amp;nbsp;NOT&amp;nbsp;NULL; 
+    </codeblock></li> 
+   <li><p>Mass-deletion is used to purge all tables in the list of previously recovered tables. The following query is used:</p> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;XtkTrackingLogRcp&amp;nbsp;WHERE&amp;nbsp;iTrackingLogId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iTrackingLogId&amp;nbsp;FROM&amp;nbsp;XtkTrackingLogRcp&amp;nbsp;WHERE&amp;nbsp;tsLog&amp;nbsp;&lt;&amp;nbsp;$(tsDate)&amp;nbsp;LIMIT&amp;nbsp;5000)&amp;nbsp; 
+    </codeblock><p>where <strong>$(tsDate)</strong> is the current server date from which we subtract the period defined for the <strong>NmsCleanup_TrackingLogPurgeDelay</strong> option.</p> </li> 
+   <li><p>The tracking statistics table is purged using mass-deletion. The following query is used:</p> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;NmsTrackingStats&amp;nbsp;WHERE&amp;nbsp;iTrackingStatsId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iTrackingStatsId&amp;nbsp;FROM&amp;nbsp;NmsTrackingStats&amp;nbsp;WHERE&amp;nbsp;tsStart&amp;nbsp;&lt;&amp;nbsp;$(tsDate)&amp;nbsp;LIMIT&amp;nbsp;5000)&amp;nbsp; 
+    </codeblock><p>where <strong>$(tsDate)</strong> is the current server date from which we subtract the period defined for the <strong>NmsCleanup_TrackingStatPurgeDelay</strong> option.</p> </li> 
+  </ol> 
+  <h3 id="cleanup-of-delivery-logs">Cleanup of delivery logs</h3> 
+  <p>This task lets you purge the delivery logs stored in various tables. </p> 
+  <ol> 
+   <li><p>For this purpose, the list of delivery log schemas is recovered using the following query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;distinct(sBroadLogSchema)&amp;nbsp;FROM&amp;nbsp;NmsDeliveryMapping&amp;nbsp;WHERE&amp;nbsp;sBroadLogSchema&amp;nbsp;IS&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;UNION&amp;nbsp;SELECT&amp;nbsp;distinct(sBroadLogExclSchema)&amp;nbsp;FROM&amp;nbsp;NmsDeliveryMapping&amp;nbsp;WHERE&amp;nbsp;sBroadLogExclSchema&amp;nbsp;IS&amp;nbsp;NOT&amp;nbsp;NULL 
+    </codeblock></li> 
+   <li><p>When using mid-sourcing, the <strong>NmsBroadLogMid</strong> table isn't referenced in delivery mappings. The <strong>nms:broadLogMid</strong> schema is added to the list recovered by the previous query.</p> </li> 
+   <li><p>The <strong>Database cleanup</strong> workflow then purges obsolete data from previously recovered tables. The following query is used:</p> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;$(tableName)&amp;nbsp;WHERE&amp;nbsp;iBroadLogId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iBroadLogId&amp;nbsp;FROM&amp;nbsp;$(tableName)&amp;nbsp;WHERE&amp;nbsp;tsLastModified&amp;nbsp;&lt;&amp;nbsp;$(option)&amp;nbsp;LIMIT&amp;nbsp;5000)&amp;nbsp; 
+    </codeblock><p>where <strong>$(tableName)</strong> is the name of each table in the list of schemas, and <strong>$(option)</strong> is the date defined for the <strong>NmsCleanup_BroadLogPurgeDelay</strong> option (refer to <a href="../../production/using/database-cleanup-workflow.md#deployment-wizard" target="_blank">Deployment wizard</a>).</p> </li> 
+   <li><p>Finally, the workflow checks whether the <strong>NmsProviderMsgId</strong> table exists. If so, all obsolete data is deleted using the following query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      DELETE&amp;nbsp;FROM&amp;nbsp;NmsProviderMsgId&amp;nbsp;WHERE&amp;nbsp;iBroadLogId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iBroadLogId&amp;nbsp;FROM&amp;nbsp;NmsProviderMsgId&amp;nbsp;WHERE&amp;nbsp;tsCreated&amp;nbsp;&lt;&amp;nbsp;$(option)&amp;nbsp;LIMIT&amp;nbsp;5000) 
+    </codeblock><p>where <strong>$(option)</strong> matches the date defined for the <strong>NmsCleanup_BroadLogPurgeDelay</strong> option (refer to <a href="../../production/using/database-cleanup-workflow.md#deployment-wizard" target="_blank">Deployment wizard</a>).</p> </li> 
+  </ol> 
+  <h3 id="cleanup-of-the-nmsemailerrorstat-table-">Cleanup of the NmsEmailErrorStat table</h3> 
+  <p>This task cleanses the <strong>NmsEmailErrorStat</strong> table. The main program (<strong>coalesceErrors</strong>) defines two dates:</p> 
+  <ul> 
+   <li><p><strong>Start date</strong>: date of the next process which matches the <strong>NmsLastErrorStatCoalesce</strong> option or the most recent date in the table.</p> </li> 
+   <li><p><strong>End date</strong>: current server date.</p> </li> 
+  </ul> 
+  <p>If the start date is greater than or equal to the end date, no process will take place. In this case, the <strong>coalesceUpToDate</strong> message appears.</p> 
+  <p>If the start date is earlier than the end date, the <strong>NmsEmailErrorStat</strong> table is cleansed.</p> 
+  <p>The total number of errors in the <strong>NmsEmailErrorStat</strong> table, between the start and end dates, is recovered using the following query: </p> 
+  <codeblock gutter="true" class="syntax html">
+    "SELECT&amp;nbsp;COUNT(*)&amp;nbsp;FROM&amp;nbsp;NmsEmailErrorStat&amp;nbsp;WHERE&amp;nbsp;tsDate&gt;=&amp;nbsp;$(start)&amp;nbsp;AND&amp;nbsp;tsDate&lt;&amp;nbsp;$(end)" 
+  </codeblock> 
+  <p>where <strong>$end</strong> and <strong>$start</strong> are the start and end dates defined previously.</p> 
+  <p>If the total is greater than 0:</p> 
+  <ol> 
+   <li><p>The following query is executed in order to keep only errors beyond a certain threshold (which equals 20):</p> 
+    <codeblock gutter="true" class="syntax html">
+      "SELECT&amp;nbsp;iMXIP,&amp;nbsp;iPublicId,&amp;nbsp;SUM(iTotalConnections),&amp;nbsp;SUM(iTotalErrors),&amp;nbsp;SUM(iMessageErrors),&amp;nbsp;SUM(iAbortedConnections),&amp;nbsp;SUM(iFailedConnections),&amp;nbsp;SUM(iRefusedConnections),&amp;nbsp;SUM(iTimeoutConnections)&amp;nbsp;FROM&amp;nbsp;NmsEmailErrorStat&amp;nbsp;WHERE&amp;nbsp;tsDate&gt;=$(start&amp;nbsp;)&amp;nbsp;AND&amp;nbsp;tsDate&lt;$(end&amp;nbsp;)&amp;nbsp;GROUP&amp;nbsp;BY&amp;nbsp;iMXIP,&amp;nbsp;iPublicId&amp;nbsp;HAVING&amp;nbsp;SUM(iTotalErrors)&amp;nbsp;&gt;=&amp;nbsp;20" 
+    </codeblock></li> 
+   <li><p>The <strong>coalescingErrors</strong> message is displayed.</p> </li> 
+   <li><p>A new connection is created to delete all errors which occurred between the start and end dates. The following query is used:</p> 
+    <codeblock gutter="true" class="syntax html">
+      "DELETE&amp;nbsp;FROM&amp;nbsp;NmsEmailErrorStat&amp;nbsp;WHERE&amp;nbsp;tsDate&gt;=$(start)&amp;nbsp;AND&amp;nbsp;tsDate&lt;$(end)" 
+    </codeblock></li> 
+   <li><p>Each error is saved in the <strong>NmsEmailErrorStat</strong> table using the following query:</p> 
+    <codeblock gutter="true" class="syntax html">
+      "INSERT&amp;nbsp;INTO&amp;nbsp;NmsEmailErrorStat(iMXIP,&amp;nbsp;iPublicId,&amp;nbsp;tsDate,&amp;nbsp;iTotalConnections,&amp;nbsp;iTotalErrors,&amp;nbsp;iTimeoutConnections,&amp;nbsp;iRefusedConnections,&amp;nbsp;iAbortedConnections,&amp;nbsp;iFailedConnections,&amp;nbsp;iMessageErrors)&amp;nbsp;VALUES($(lmxip&amp;nbsp;),&amp;nbsp;$(lpublicId&amp;nbsp;),&amp;nbsp;$(tsstart&amp;nbsp;),&amp;nbsp;$(lconnections&amp;nbsp;),&amp;nbsp;$(lconnectionErrors&amp;nbsp;),$(ltimeoutConnections&amp;nbsp;),&amp;nbsp;$(lrefusedConnections&amp;nbsp;),&amp;nbsp;$(labortedConnections&amp;nbsp;),&amp;nbsp;$(lfailedConnections&amp;nbsp;),&amp;nbsp;$(lmessageErrors))" 
+    </codeblock><p>where each variable matches a value recovered by the previous query. </p> </li> 
+   <li><p>The <strong>start</strong> variable is updated with the values of the previous process to finish the loop.</p> </li> 
+  </ol> 
+  <p>The loop and the task stop.</p> 
+  <p>Cleanups are executed on the <strong>NmsEmailError</strong> and <strong>cleanupNmsMxDomain</strong> tables.</p> 
+  <h3 id="cleanup-of-the-nmsemailerror-table-">Cleanup of the NmsEmailError table</h3> 
+  <p>The following query is used:</p> 
+  <codeblock gutter="true" class="syntax html">
+    DELETE&amp;nbsp;FROM&amp;nbsp;NmsEmailError&amp;nbsp;WHERE&amp;nbsp;iMXIP&amp;nbsp;NOT&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;DISTINCT&amp;nbsp;iMXIP&amp;nbsp;FROM&amp;nbsp;NmsEmailErrorStat) 
+  </codeblock> 
+  <p>This query deletes all lines without linked records in the <strong>NmsEmailErrorStat</strong> from the <strong>NmsEmailError</strong> table.</p> 
+  <h3 id="cleanup-of-the-nmsmxdomain-table-">Cleanup of the NmsMxDomain table</h3> 
+  <p>The following query is used:</p> 
+  <codeblock gutter="true" class="syntax html">
+    DELETE&amp;nbsp;FROM&amp;nbsp;NmsMxDomain&amp;nbsp;WHERE&amp;nbsp;iMXIP&amp;nbsp;NOT&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;DISTINCT&amp;nbsp;iMXIP&amp;nbsp;FROM&amp;nbsp;NmsEmailErrorStat) 
+  </codeblock> 
+  <p>This query deletes all lines without a linked record in the <strong>NmsEmailErrorStat</strong> table from the <strong>NmsMxDomain</strong> table.</p> 
+  <h3 id="cleanup-of-propositions">Cleanup of propositions</h3> 
+  <p>If the <strong>Interaction</strong> module is installed, this task is executed to purge the <strong>NmsPropositionXxx</strong> tables. </p> 
+  <p>The list of propositions tables is recovered and mass-deletion is carried out on each one, using the following query:</p> 
+  <codeblock gutter="true" class="syntax html">
+    DELETE&amp;nbsp;FROM&amp;nbsp;NmsPropositionXxx&amp;nbsp;WHERE&amp;nbsp;iPropositionId&amp;nbsp;IN&amp;nbsp;(SELECT&amp;nbsp;iPropositionId&amp;nbsp;FROM&amp;nbsp;NmsPropositionXxx&amp;nbsp;WHERE&amp;nbsp;tsLastModified&amp;nbsp;&lt;&amp;nbsp;$(option)&amp;nbsp;LIMIT&amp;nbsp;5000)&amp;nbsp; 
+  </codeblock> 
+  <p>where <strong>$(option)</strong> is the date defined for the <strong>NmsCleanup_PropositionPurgeDelay</strong> option (refer to <a href="../../production/using/database-cleanup-workflow.md#deployment-wizard" target="_blank">Deployment wizard</a>).</p> 
+  <h3 id="cleanup-of-simulation-tables">Cleanup of simulation tables</h3> 
+  <p>This task cleanses orphan simulation tables (that are no longer linked to an offer simulation or a delivery simulation). </p> 
+  <ol> 
+   <li><p>To recover the list of simulations that require cleanup, the following query is used:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;iSimulationId&amp;nbsp;FROM&amp;nbsp;NmsSimulation&amp;nbsp;WHERE&amp;nbsp;iSimulationId&lt;&gt;0 
+    </codeblock></li> 
+   <li><p>The name of the tables to delete is made up of the <strong>wkSimu_</strong> prefix followed by the identifier of the simulation (for instance: <strong>wkSimu_456831_aggr</strong>):</p> 
+    <codeblock gutter="true" class="syntax html">
+      DROP&amp;nbsp;TABLE&amp;nbsp;wkSimu_456831_aggr 
+    </codeblock></li> 
+  </ol> 
+  <h3 id="statistics-update">Statistics update</h3> 
+  <p>If the <strong>XtkCleanup_NoStats</strong> option does not exist or if its value is 0 (i.e. the option is disabled), this task is executed to update the statistics in the database. If the value of the option is 1 (i.e. the option is activated), statistics updating isn't executed. This task calls up a database procedure.</p> 
+  <h3 id="subscription-cleanup--nmac-">Subscription cleanup (NMAC)</h3> 
+  <p>This task deletes any subscriptions related to deleted services or mobile applications.</p> 
+  <ol> 
+   <li><p>To recover the list of broadlog schemas, the following query is used:</p> 
+    <codeblock gutter="true" class="syntax html">
+      SELECT&amp;nbsp;distinct(sBroadLogSchema)&amp;nbsp;FROM&amp;nbsp;NmsDeliveryMapping&amp;nbsp;WHERE&amp;nbsp;sBroadLogSchema&amp;nbsp;IS&amp;nbsp;NOT&amp;nbsp;NULL 
+    </codeblock></li> 
+   <li><p>The task then recovers the names of the tables linked to the <strong>appSubscription</strong> link and deletes these tables.</p> </li> 
+  </ol> 
+  <h3 id="cleansing-session-information">Cleansing session information</h3> 
+  <p>This task cleanses information from the <strong>sessionInfo</strong> table, the following query is used:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &amp;nbsp;DELETE&amp;nbsp;FROM&amp;nbsp;XtkSessionInfo&amp;nbsp;WHERE&amp;nbsp;tsexpiration&amp;nbsp;&lt;&amp;nbsp;$(curdate)&amp;nbsp; 
+  </codeblock> 
+  <h3 id="cleansing-expired-events">Cleansing expired events</h3> 
+  <p>This task cleanses the events received and stored on the execution instances and the events archived on a control instance.</p> 
+  <h3 id="cleansing-reactions">Cleansing reactions</h3> 
+  <p>This task cleanses the reactions (table <strong>NmsRemaMatchRcp</strong>) in which the hypotheses have themselves been deleted.</p> 
+  <h3 id="cleanup-of-audit-trail">Cleanup of Audit trail</h3> 
+  <p>The following query is used:</p> 
+  <codeblock gutter="true" class="syntax html">
+    DELETE&amp;nbsp;FROM&amp;nbsp;XtkAudit&amp;nbsp;WHERE&amp;nbsp;tsChanged&amp;nbsp;&lt;&amp;nbsp;$(tsDate) 
+  </codeblock> 
+  <p>where <strong>$(tsDate)</strong> is the current server date from which the period defined for the <strong>XtkCleanup_AuditTrailPurgeDelay</strong> option is substracted.</p> 
+ </body> 
+</html>

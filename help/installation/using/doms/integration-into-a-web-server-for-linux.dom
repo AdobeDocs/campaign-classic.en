@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Integration into a Web server for Linux" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="153deea0-c875-41bb-bff7-e0fb60be7df8" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Integration into a Web server for Linux" name="navTitle" /> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Integration into a Web server for Linux" name="jcr:description" /> 
+  <meta content="3737a3c5-1da1-4dfd-bd6e-4fb6616dec15" name="jcr:predecessors" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="2019-08-06T06:59:31.605-0400" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>Adobe Campaign includes Apache Tomcat which acts as the entry point in the application server via HTTP (and SOAP).</p> 
+  <p>You can use this integrated Tomcat server to serve HTTP requests. </p> 
+  <p>In this case:</p> 
+  <ul> 
+   <li><p>the default listening port is 8080. To change it, refer to <a href="../../installation/using/integration-into-a-web-server-for-linux.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>.</p> </li> 
+   <li><p>The client consoles then connect using a URL such as:</p> 
+    <codeblock gutter="true" class="syntax html">
+      http://&lt;computer&gt;:8080 
+    </codeblock></li> 
+  </ul> 
+  <p>However, for security and administration reasons, we recommend using a dedicated Web server as the main entry point for HTTP traffic when the computer that is running Adobe Campaign is exposed on the Internet and you wish to open access to the console outside of your network.</p> 
+  <p>A Web server also lets you guarantee data confidentiality with the HTTPs protocol.</p> 
+  <p>Likewise, you must use a Web server when you wish to use the tracking functionality, which is only available as an extension module to a Web server.</p> 
+  <h2 id="configuring-the-apache-web-server-with-debian">Configuring the Apache Web server with Debian</h2> 
+  <p>This process applies if you have installed Apache under a distribution based on APT.</p> 
+  <p>Apply the following steps:</p> 
+  <ol> 
+   <li><p>Disable the modules loaded by default using the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      a2dismod&amp;nbsp;auth_basic&amp;nbsp;authn_file&amp;nbsp;authz_default&amp;nbsp;authz_user&amp;nbsp;autoindex&amp;nbsp;cgi&amp;nbsp;dir&amp;nbsp;env&amp;nbsp;negotiation&amp;nbsp;userdir 
+    </codeblock><p>Ensure that the <strong>alias</strong>, <strong>authz_host</strong> and <strong>mime</strong> modules are still enabled. To do this, use the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      a2enmod&amp;nbsp;&amp;nbsp;alias&amp;nbsp;authz_host&amp;nbsp;mime 
+    </codeblock></li> 
+   <li><p>Create the file <strong>nlsrv.load</strong> in <strong>/etc/apache2/mods-available</strong> and insert the following content:</p> <p>In Debian 7:</p> 
+    <codeblock gutter="true" class="syntax html">
+      LoadModule&amp;nbsp;requesthandler22_module&amp;nbsp;/usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so 
+    </codeblock><p>In Debian 8:</p> 
+    <codeblock gutter="true" class="syntax html">
+      LoadModule&amp;nbsp;requesthandler24_module&amp;nbsp;/usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so 
+    </codeblock></li> 
+   <li><p>Create the file <strong>nlsrv.conf</strong> in <strong>/etc/apache2/mods-available</strong> using the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      ln&amp;nbsp;-s&amp;nbsp;/usr/local/[INSTALL]/nl6/tomcat-7/conf/apache_neolane.conf&amp;nbsp;/etc/apache2/mods-available/nlsrv.conf 
+    </codeblock></li> 
+   <li><p>Activate this module with the following command: </p> 
+    <codeblock gutter="true" class="syntax html">
+      &amp;nbsp;a2enmod&amp;nbsp;nlsrv 
+    </codeblock><p>If you are using the <strong>mod_rewrite</strong> module for Adobe Campaign pages, you need to rename the <strong>nlsrv.load</strong> and <strong>nlsrv.conf</strong> files to <strong>zz-nlsrv.load</strong> and <strong>zz-nlsrv.conf</strong>. To activate the module, run the following command: </p> 
+    <codeblock gutter="true" class="syntax html">
+      a2enmod&amp;nbsp;zz-nlsrv 
+    </codeblock></li> 
+   <li><p>Edit the <strong>/etc/apache2/envvars</strong> file, add the following lines:</p> 
+    <codeblock gutter="true" class="syntax html">
+      #&amp;nbsp;Added&amp;nbsp;Neolane!!discoiqbr!!if&amp;nbsp;[&amp;nbsp;"$LD_LIBRARY_PATH"&amp;nbsp;!=&amp;nbsp;""&amp;nbsp;];&amp;nbsp;then&amp;nbsp;export&amp;nbsp;LD_LIBRARY_PATH="/usr/local/neolane/nl6/lib:$LD_LIBRARY_PATH";&amp;nbsp;else&amp;nbsp;export&amp;nbsp;LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib;&amp;nbsp;fi!!discoiqbr!!export&amp;nbsp;USERPATH=/usr/local/neolane 
+    </codeblock><p>Save the changes.</p> </li> 
+   <li><p>Then add Adobe Campaign users to the Apache user group and vice versa using the following type of command:</p> </li> 
+  </ol> 
+ </body> 
+</html>

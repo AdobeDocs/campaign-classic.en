@@ -1,0 +1,56 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="6637eb3d-3801-4070-8825-e84a7b2684a3" name="jcr:uuid" />
+  <meta content="Workflow properties" name="navTitle" />
+  <meta content="Workflow properties" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="e1091bfb-660f-436f-aec5-5c2a164826ab" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="seoDescription" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Workflow properties" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="2019-08-06T06:59:18.966-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <h2 id="execution-tab">Execution tab</h2>
+  <p>The <strong>Execution</strong> tab of the <strong>Properties</strong> window in a workflow is broken down into 3 sections:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf_execution_tab.png" title="wf_execution_tab.png" />
+  <h3 id="scheduler">Scheduler</h3>
+  <p>This section is only displayed in campaign workflows.</p> 
+  <ul>
+   <li><p><strong>Priority</strong></p> <p>The workflow engine processes the workflows to be executed based on the priority criterion defined in this field. For instance, all workflows with an <strong>Average</strong> priority will be executed before those with a <strong>Low</strong> priority.</p> </li>
+   <li><p><strong>Schedule execution for a time of low activity</strong></p> <p>This option postpones workflow start to a less busy period. Some workflows can be costly in terms of resources for the database engine. We recommend scheduling execution for a time of low activity (at night for instance). Low activity periods are defined in the <strong>Processes on campaigns</strong> technical workflow.</p> </li>
+  </ul>
+  <h3 id="execution">Execution</h3>
+  <ul>
+   <li><p><strong>Default affinity</strong></p> <p>If your installation includes several workflow servers, use this field to choose the machine which the workflow will be executed on. If the value defined in this field doesn't exist on any server, the workflow will remain pending.</p> <p>Refer to this <a href="../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities">section</a>.</p> </li>
+   <li><p><strong>History in days</strong></p> <p>The work tables of the database keep a history of executions (tasks, events, log). Here you can define the number of days to be archived for this workflow: the cleanup process will delete the oldest archives once a day. If the value in this field is zero, the archive will never be deleted.</p> </li>
+   <li><p><strong>Log SQL queries in the journal</strong></p> <p>This functionality is reserved for advanced users. It concerns workflows that contain targeting activities (query, union, intersection, etc.). When this option is checked, the SQL queries sent to the database during workflow execution are displayed in Adobe Campaign: this means you can analyze them to optimize queries or diagnose issues.</p> <p>Queries are displayed in an <strong>SQL logs</strong> tab which is added to the workflow (except campaign workflows) and to the <strong>Properties</strong> activity when the option is enabled. The <strong>Audit</strong> tab also includes SQL queries. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/wf_tab_log_sql.png" title="wf_tab_log_sql.png" /></li>
+   <li><p><strong>Execute in the engine</strong></p> <p>This option may only be used for de-bugging and never in production. When it is enabled, the workflow takes priority and all other workflows are stopped until this one is finished.</p> </li>
+  </ul>
+  <h3 id="error-management">Error management</h3>
+  <ul>
+   <li><p><strong>Troubleshooting</strong></p> <p>This field lets you define the actions to be taken if a workflow task has errors. There are two possible options:</p> 
+    <ul>
+     <li><p><strong>Stop the process</strong>: the workflow is automatically paused. the workflow status changes to <strong>Failed</strong>. Once the issue is solved, restart the workflow using the <strong>Start</strong> or <strong>Restart</strong> buttons.</p> </li>
+     <li><p><strong>Ignore</strong>: the status of the task that triggered the error changes to <strong>Failed</strong>, but the workflow keeps the <strong>Started</strong> status. This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.</p> </li>
+    </ul></li>
+   <li><p><strong>Consecutive errors</strong></p> <p>This field becomes available when the <strong>Ignore</strong> value is selected in the <strong>In case of errors</strong> field. You can specify the number of errors that can be ignored before the process is stopped. Once this number is reached, the workflow status changes to <strong>Failed</strong>. If the value of this field is 0, the workflow will never be stopped regardless of the number of errors.</p> </li>
+   <li><p><strong>Template</strong></p> <p>This field lets you select the notification template to be sent to the workflow supervisors when its status changes to <strong>Failed</strong>.</p> <p>The concerned operators will be notified by email, if there is an email address in their profile. To define workflow supervisors, go to the <strong>Supervisor(s)</strong> field of the properties (<strong>General</strong> tab).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wf-properties_select-supervisors.png" title="wf-properties_select-supervisors.png" /><p>The <strong>Notification to a workflow supervisor</strong> default template includes a link for accessing the Adobe Campaign console via the Web so that the recipient can work on the issue once they are logged on.</p> <p>To create a personalized template, go to <strong>Administration&gt;Campaign management&gt;Technical deliveries and templates</strong>.</p> </li>
+  </ul>
+ </body>
+</html>

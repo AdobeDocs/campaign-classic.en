@@ -1,0 +1,222 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="8f959ec7-a0b0-431c-ba70-3089b4a50111" name="jcr:predecessors" /> 
+  <meta content="2019-08-06T06:59:22.761-0400" name="jcr:created" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Offers on an inbound channel" name="navTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Offers on an inbound channel" name="jcr:title" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="audience:interaction" name="primaryAudienceTag" /> 
+  <meta content="Offers on an inbound channel" name="jcr:description" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="42610b08-121d-4fe3-8127-a3849231fab8" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <h2 id="presenting-an-offer-to-an-anonymous-visitor">Presenting an offer to an anonymous visitor</h2> 
+  <p>The Neobank site wants to display an offer on their website aimed at unidentified visitors who browse the page.</p> 
+  <p>To set up this interaction, we're going to:</p> 
+  <ol> 
+   <li><p> <a href="../../interaction/using/offers-on-an-inbound-channel.md#creating-an-anonymous-environment">Create an anonymous environement</a>.</p> </li> 
+   <li><p> <a href="../../interaction/using/offers-on-an-inbound-channel.md#creating-anonymous-offer-spaces">Create anonymous offer spaces</a>.</p> </li> 
+   <li><p> <a href="">Create an offer category and a theme</a>.</p> </li> 
+   <li><p> <a href="">Create anonymous offers</a>.</p> </li> 
+   <li><p> <a href="../../interaction/using/offers-on-an-inbound-channel.md#configure-the-web-offer-space-on-the-website">Configure the web offer spaces on the website</a>.</p> </li> 
+  </ol> 
+  <h3 id="creating-an-anonymous-environment">Creating an anonymous environment</h3> 
+  <p>Follow the procedure detailed in <a href="../../interaction/using/offers-on-an-inbound-channel.md#creating-an-offer-environment" target="_blank">Creating an offer environment</a> to create your anonymous environment based on the <strong>Visitors</strong>' dimensions.</p> 
+  <p>You will get a tree structure containing your new environment:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_env_anonymous_003.png" title="offer_env_anonymous_003.png" /> 
+  <h3 id="creating-anonymous-offer-spaces">Creating anonymous offer spaces</h3> 
+  <ol> 
+   <li><p>In your anonymous environment (<strong>Visitors</strong>) go to the <strong>Administration</strong> &gt; <strong>Spaces</strong> node.</p> </li> 
+   <li><p>Click <strong>New</strong> to create call channels.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_010.png" title="offer_inbound_anonymous_example_010.png" /> 
+    <note> 
+     <p> The space is automatically linked to the anonymous environment.<br /> </p> 
+    </note></li> 
+   <li><p>Change the label and select the <strong>Inbound Web</strong> channel. You also have to check the <strong>Enable unitary mode</strong> box.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_006.png" title="offer_inbound_anonymous_example_006.png" /></li> 
+   <li><p>Select the offer content fields used for the space and specify them as required by checking the relevant box.</p> <p>In this way, any offers missing one of the following elements will not be eligible for this space:</p> 
+    <ul> 
+     <li><p>Title</p> </li> 
+     <li><p>HTML content</p> </li> 
+     <li><p>Image URL</p> </li> 
+     <li><p>Destination URL.</p> </li> 
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_030.png" title="offer_inbound_anonymous_example_030.png" /></li> 
+   <li><p>Edit the HTML rendering function, for example as follows:</p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!function&amp;nbsp;(imageUrl,&amp;nbsp;targetUrl,&amp;nbsp;shortContent,&amp;nbsp;htmlSource){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;html&amp;nbsp;=&amp;nbsp;"&lt;p&gt;&lt;b&gt;"&amp;nbsp;+&amp;nbsp;shortContent&amp;nbsp;+&amp;nbsp;"&lt;/b&gt;&lt;/p&gt;";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;html&amp;nbsp;+=&amp;nbsp;"&lt;p&gt;"&amp;nbsp;+&amp;nbsp;htmlSource&amp;nbsp;+&amp;nbsp;"&lt;/p&gt;";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;html&amp;nbsp;+=&amp;nbsp;"&lt;a&amp;nbsp;_urlType='11'&amp;nbsp;href='"&amp;nbsp;+&amp;nbsp;targetUrl&amp;nbsp;+&amp;nbsp;"'&gt;&lt;img&amp;nbsp;src='"&amp;nbsp;+&amp;nbsp;encodeURI(imageUrl)&amp;nbsp;+&amp;nbsp;"'/&gt;&lt;/a&gt;";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;html;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+    </codeblock> 
+    <note>
+      The rendering function must name the fields used for the space in the order in which they were previously selected so that the offers display correctly. 
+     <br /> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_031.png" title="offer_inbound_anonymous_example_031.png" /></li> 
+   <li><p>Save the offer space.</p> </li> 
+  </ol> 
+  <h3 id="creating-an-offer-category-and-a-theme">Creating an offer category and a theme</h3> 
+  <ol> 
+   <li><p>Go to the <strong>Offer catalog</strong> node within the environment you have just created.</p> </li> 
+   <li><p>Right-click the <strong>Offer catalog</strong> node and select <strong>Create a new 'Offer category' folder</strong>.</p> <p>Name the new category, <strong>Financial products</strong> for example.</p> </li> 
+   <li><p>Go to the category's <strong>Eligibility</strong> tab and enter <strong>financing</strong> as a theme, then save changes.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_023.png" title="offer_inbound_anonymous_example_023.png" /></li> 
+  </ol> 
+  <h3 id="creating-anonymous-offers">Creating anonymous offers</h3> 
+  <ol> 
+   <li><p>Go to the category you've just created.</p> </li> 
+   <li><p>Click <strong>New</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_013.png" title="offer_inbound_anonymous_example_013.png" /></li> 
+   <li><p>Select the out-of-the-box anonymous offer template or a previously created template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_014.png" title="offer_inbound_anonymous_example_014.png" /></li> 
+   <li><p>Change the label and save your offer.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_015.png" title="offer_inbound_anonymous_example_015.png" /></li> 
+   <li><p>Go to the <strong>Eligibility</strong> tab and specify the weight of the offers according to its application contexts.</p> <p>In this example, the offer is configured to be displayed on the home page of the site as a priority until the end of the year.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_016.png" title="offer_inbound_anonymous_example_016.png" /></li> 
+   <li><p>Go to the <strong>Content</strong> tab and define the content of the offer. </p> 
+    <note> 
+     <p> You can select <strong>Content definitions</strong> to display the list of elements required for the web space.<br /> </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_017.png" title="offer_inbound_anonymous_example_017.png" /></li> 
+   <li><p>Create a second offer.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_018.png" title="offer_inbound_anonymous_example_018.png" /></li> 
+   <li><p>Go to the <strong>Eligibility</strong> tab and apply the same weight as for the first offer.</p> </li> 
+   <li><p>Run the approval cycle for each offer in order to make them, as well as their approved offer spaces, available in the online environment.</p> </li> 
+  </ol> 
+  <h3 id="configure-the-web-offer-space-on-the-website">Configure the web offer space on the website</h3> 
+  <p>To make the offers you have just configured visible on the website, insert a JavaScript code into the HTML page of your site to call up the Interaction engine (for more on this, refer to <a href="../../interaction/using/about-inbound-channels.md" target="_blank">About inbound channels</a>).</p> 
+  <ol> 
+   <li><p>Go to the HTML page and insert an @id attribute with a value matching the internal name of the anonymous offer space created previously (refer to <a href="../../interaction/using/offers-on-an-inbound-channel.md#creating-anonymous-offer-spaces" target="_blank">Creating anonymous offer spaces</a>), preceded by <strong>i_</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_019.png" title="offer_inbound_anonymous_example_019.png" /></li> 
+   <li><p>Insert the call URL.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_020.png" title="offer_inbound_anonymous_example_020.png" /><p>The blue URL boxes above correspond to the instance name, the internal name of the environment (refer to <a href="../../interaction/using/offers-on-an-inbound-channel.md#creating-an-anonymous-environment" target="_blank">Creating an anonymous environment</a>) and the theme linked to the category ( <a href="../../interaction/using/offers-on-an-inbound-channel.md#creating-an-offer-category-and-a-theme" target="_blank">Creating an offer category and a theme</a>). The latter is optional.</p> </li> 
+  </ol> 
+  <p>When a visitor accesses the website's home page, the offers with the <strong>financing</strong> theme are displayed as configured on the HTML page. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_anonymous_example_022.png" title="offer_inbound_anonymous_example_022.png" /> 
+  <p>A user who visits the page several times will see either one or the other offers in the category since they have both been assigned the same weight.</p> 
+  <h2 id="switching-to-an-anonymous-environment-in-case-of-unidentified-contacts">Switching to an anonymous environment in case of unidentified contacts</h2> 
+  <p>The Neobank company would like to create marketing offers for two different targets. It wants to display generic offers for its anonymous website browsers. If one of these users turns out to be a customer with identifiers provided by Neobank, the company would like them to receive personalized offers as soon as they log on.</p> 
+  <p>This case study is based on the following scenario:</p> 
+  <ol> 
+   <li><p>A visitor browses the Neobank website without logging on.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_050.png" title="offer_inbound_fallback_example_050.png" /><p>Three anonymous offers are displayed on the page: two <strong>Best Offer</strong> offers for Neobank products and one offer from a Neobank partner.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_051.png" title="offer_inbound_fallback_example_051.png" /></li> 
+   <li><p>The user, a Neobank customer, logs on with his credentials.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_052.png" title="offer_inbound_fallback_example_052.png" /><p>Three personalized offers are displayed.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_053.png" title="offer_inbound_fallback_example_053.png" /></li> 
+  </ol> 
+  <p>To implement this case study, you need to have two offer environments: one for anonymous interactions and one with offers configured especially for identified contacts. The identified offer environment will be configured to switch to the anonymous offer environment automatically if the contact isn't logged on and therefore isn't identified.</p> 
+  <p>Apply the following steps:</p> 
+  <ul> 
+   <li><p>Create a catalog of offers specific to anonymous inbound interactions using the following steps:</p> 
+    <ol> 
+     <li><p> <a href="../../interaction/using/offers-on-an-inbound-channel.md#creating-an-environment-for-anonymous-contacts" target="_blank">Creating an environment for anonymous contacts</a></p> </li> 
+     <li><p> <a href="../../interaction/using/offers-on-an-inbound-channel.md#configuring-offer-spaces-for-the-anonymous-environment" target="_blank">Configuring offer spaces for the anonymous environment</a></p> </li> 
+     <li><p> <a href="../../interaction/using/offers-on-an-inbound-channel.md#creating-offer-categories-in-an-anonymous-environment" target="_blank">Creating offer categories in an anonymous environment</a></p> </li> 
+     <li><p> <a href="../../interaction/using/offers-on-an-inbound-channel.md#creating-offers-for-anonymous-visitors" target="_blank">Creating offers for anonymous visitors</a></p> </li> 
+    </ol></li> 
+   <li><p>Create a catalog of offers specific to identified inbound interactions using the following steps:</p> 
+    <ol> 
+     <li><p> <a href="../../interaction/using/offers-on-an-inbound-channel.md#configure-the-offer-spaces-in-the-identified-environment" target="_blank">Configure the offer spaces in the identified environment</a></p> </li> 
+     <li><p> <a href="../../interaction/using/offers-on-an-inbound-channel.md#creating-offer-categories-in-an-identified-environment" target="_blank">Creating offer categories in an identified environment</a></p> </li> 
+     <li><p> <a href="../../interaction/using/offers-on-an-inbound-channel.md#creating-personalized-offers" target="_blank">Creating personalized offers</a></p> </li> 
+    </ol></li> 
+   <li><p>Configure the call to the offer engine:</p> 
+    <ol> 
+     <li><p> <a href="../../interaction/using/offers-on-an-inbound-channel.md#configuring-offer-spaces-on-the-web-page" target="_blank">Configuring offer spaces on the web page</a></p> </li> 
+     <li><p> <a href="../../interaction/using/offers-on-an-inbound-channel.md#specifying-the-advanced-settings-of-the-identified-offer-spaces" target="_blank">Specifying the advanced settings of the identified offer spaces</a></p> </li> 
+    </ol></li> 
+  </ul> 
+  <h3 id="creating-an-environment-for-anonymous-contacts">Creating an environment for anonymous contacts</h3> 
+  <ol> 
+   <li><p>Create an offer environment for anonymous inbound interactions via the delivery mapping wizard (<strong>Visitor</strong> mapping). For more on this, refer to <a href="../../interaction/using/offers-on-an-inbound-channel.md#creating-an-offer-environment" target="_blank">Creating an offer environment</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_env_anonymous_003.png" title="offer_env_anonymous_003.png" /></li> 
+  </ol> 
+  <h3 id="configuring-offer-spaces-for-the-anonymous-environment">Configuring offer spaces for the anonymous environment</h3> 
+  <p>The offers which must be presented on the web site belong to two different categories: <strong>Best Offer</strong> and <strong>Partner</strong>. In this example, we are going to create a specific offer space for each category.</p> 
+  <p>To create the offer space to match the <strong>Best Offer</strong> category, apply the following process:</p> 
+  <ol> 
+   <li><p>In the Adobe Campaign tree, go to the anonymous environment you have just created and add an offer space.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_023.png" title="offer_inbound_fallback_example_023.png" /></li> 
+   <li><p>Create a new <strong>Inbound web</strong> type space.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_024.png" title="offer_inbound_fallback_example_024.png" /></li> 
+   <li><p>Enter a label for it: <strong>Web Best Anonymous Offer</strong> for instance.</p> </li> 
+   <li><p>Add the offer content fields used for this offer space and configure the rendering functions.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_025.png" title="offer_inbound_fallback_example_025.png" /> 
+    <note>
+      The rendering function must name the fields used for the space in the order in which they were previously selected so that the offers display correctly. 
+     <br /> 
+    </note></li> 
+   <li><p>Use the same process to create an inbound web channel offer space to match the <strong>Partner</strong> category.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_026.png" title="offer_inbound_fallback_example_026.png" /></li> 
+  </ol> 
+  <h3 id="creating-offer-categories-in-an-anonymous-environment">Creating offer categories in an anonymous environment</h3> 
+  <p>Start by creating two offer categories: the <strong>Best Offer</strong> category and the <strong>Partner</strong> category. Each category will contain two offers for anonymous contacts.</p> 
+  <ol> 
+   <li><p>Go to the <strong>Offer catalog</strong> in the anonymous environment that you have just created.</p> </li> 
+   <li><p>Add an <strong>Offer category</strong> folder with <strong>Best Offer</strong> as a label.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_027.png" title="offer_inbound_fallback_example_027.png" /></li> 
+   <li><p>Create a second category with <strong>Partner</strong> as a label.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_028.png" title="offer_inbound_fallback_example_028.png" /></li> 
+  </ol> 
+  <h3 id="creating-offers-for-anonymous-visitors">Creating offers for anonymous visitors</h3> 
+  <p>We are now going to create two offers in each of the categories created above.</p> 
+  <ol> 
+   <li><p>Go to the <strong>Best Offer</strong> category and create an anonymous offer.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_029.png" title="offer_inbound_fallback_example_029.png" /></li> 
+   <li><p>Go to the <strong>Eligibility</strong> tab and specify the weight of the offers according to its application contexts.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_030.png" title="offer_inbound_fallback_example_030.png" /></li> 
+   <li><p>Go to the <strong>Content</strong> tab and define the content of the offer. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_032.png" title="offer_inbound_fallback_example_032.png" /></li> 
+   <li><p>Create a second offer in the <strong>Best Offer</strong> category.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_031.png" title="offer_inbound_fallback_example_031.png" /></li> 
+   <li><p>Go to the <strong>Partner</strong> category and create an anonymous offer.</p> </li> 
+   <li><p>Go to the <strong>Content</strong> tab and define the content of the offer. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_033.png" title="offer_inbound_fallback_example_033.png" /></li> 
+   <li><p>Go to the <strong>Eligibility</strong> tab and specify the weight of the offers according to its application contexts.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_034.png" title="offer_inbound_fallback_example_034.png" /></li> 
+   <li><p>Create a second offer for the <strong>Partner</strong> category.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_035.png" title="offer_inbound_fallback_example_035.png" /></li> 
+   <li><p>Go to the <strong>Eligibility</strong> tab and apply the same weight that you applied to the first offer in this category so that the offers are displayed successively on the website.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_036.png" title="offer_inbound_fallback_example_036.png" /></li> 
+   <li><p>Run the approval cycle for each offer to begin making them go live. When approving content, activate the <strong>Partner</strong> or <strong>Best Offer</strong> offer space, according to the offer.</p> </li> 
+  </ol> 
+  <h3 id="configure-the-offer-spaces-in-the-identified-environment">Configure the offer spaces in the identified environment</h3> 
+  <p>The offers which you are going to present on the website are taken from two different categories: <strong>Best Offer</strong> and <strong>Partner</strong>. In this example, we want to create a specific space for each category.</p> 
+  <p>To create the two offer spaces, apply the same procedure as for anonymous offer spaces. Refer to <a href="../../interaction/using/offers-on-an-inbound-channel.md#configuring-offer-spaces-for-the-anonymous-environment" target="_blank">Configuring offer spaces for the anonymous environment</a>.</p> 
+  <ol> 
+   <li><p>In the Adobe Campaign tree, go to the environment you have just created and add <strong>Best Offer</strong> and <strong>Partner</strong> offer spaces.</p> </li> 
+   <li><p>Apply the process detailed in <a href="../../interaction/using/offers-on-an-inbound-channel.md#configuring-offer-spaces-for-the-anonymous-environment" target="_blank">Configuring offer spaces for the anonymous environment</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_005.png" title="offer_inbound_fallback_example_005.png" /></li> 
+   <li><p>Select the <strong>Fall back on an anonymous environment if no individuals were identified</strong> option.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_006.png" title="offer_inbound_fallback_example_006.png" /></li> 
+   <li><p>Using the drop-down list, select the anonymous web offer space created previously (refer to <a href="../../interaction/using/offers-on-an-inbound-channel.md#configuring-offer-spaces-for-the-anonymous-environment" target="_blank">Configuring offer spaces for the anonymous environment</a>).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_007.png" title="offer_inbound_fallback_example_007.png" /></li> 
+  </ol> 
+  <h3 id="specifying-the-advanced-settings-of-the-identified-offer-spaces">Specifying the advanced settings of the identified offer spaces</h3> 
+  <p>In this example, contact identification takes place thanks to the email address in the Adobe Campaign database. To add the recipient email to the space, apply the following process:</p> 
+  <ol> 
+   <li><p>In the identified environment, go to the offer space folder.</p> </li> 
+   <li><p>Select the <strong>Best Offer</strong> offer space and click <strong>Advanced parameters</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_044.png" title="offer_inbound_fallback_example_044.png" /></li> 
+   <li><p>In the <strong>Target identification</strong> tab, click <strong>Add</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_046.png" title="offer_inbound_fallback_example_046.png" /></li> 
+   <li><p>Click <strong>Edit expression</strong>, go to the recipients table and select the <strong>Email</strong> field.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_047.png" title="offer_inbound_fallback_example_047.png" /></li> 
+   <li><p>Click <strong>OK</strong> to close the <strong>Advanced parameters</strong> window and finish configuring the <strong>Best Offer</strong> offer space.</p> </li> 
+   <li><p>Apply the same process for the <strong>Partner</strong> offer space.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_048.png" title="offer_inbound_fallback_example_048.png" /></li> 
+  </ol> 
+  <h3 id="creating-offer-categories-in-an-identified-environment">Creating offer categories in an identified environment</h3> 
+  <p>We are going to create two separate categories: the <strong>Best Offer</strong> category and the <strong>Partner</strong> category, each with two personalized offers.</p> 
+  <ol> 
+   <li><p>Go to the <strong>Offer catalogs</strong> node in the identified environment.</p> </li> 
+   <li><p>As in the anonymous environment, add two <strong>Offer category</strong> folders with <strong>Best Offer</strong> and <strong>Partner</strong> as a labels.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_009.png" title="offer_inbound_fallback_example_009.png" /></li> 
+  </ol> 
+  <h3 id="creating-personalized-offers">Creating personalized offers</h3> 
+  <p>We want to create two personalized offers for each category, i.e. four offers.</p> 
+  <ol> 
+   <li><p>Go to the <strong>Best Offer</strong> category and create a first personalized offer.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_011.png" title="offer_inbound_fallback_example_011.png" /></li> 
+   <li><p>Go to the <strong>Eligibility</strong> tab and specify the weight of the offers according to its application contexts.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_012.png" title="offer_inbound_fallback_example_012.png" /></li> 
+   <li><p>Go to the <strong>Content</strong> tab and define the content of the offer. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_013.png" title="offer_inbound_fallback_example_013.png" /></li> 
+   <li><p>Create a second offer in the <strong>Best Offer</strong> category.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_014.png" title="offer_inbound_fallback_example_014.png" /></li> 
+   <li><p>Go to the <strong>Partner</strong> category and create a personalized offer.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_015.png" title="offer_inbound_fallback_example_015.png" /></li> 
+   <li><p>Go to the <strong>Eligibility</strong> tab and specify the weight of the offers according to its application contexts.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_016.png" title="offer_inbound_fallback_example_016.png" /></li> 
+   <li><p>Create a second offer for the <strong>Partner</strong> category.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_017.png" title="offer_inbound_fallback_example_017.png" /></li> 
+   <li><p>Go to the <strong>Eligibility</strong> tab and apply the same weight that you applied to the first offer in this category so that the offers are displayed successively on the website.</p> </li> 
+   <li><p> Run the approval cycle for each offer to begin updating them. During content approval, activate the <strong>Partner</strong> or <strong>Best Offer</strong> offer spaces.</p> </li> 
+  </ol> 
+  <h3 id="configuring-offer-spaces-on-the-web-page">Configuring offer spaces on the web page</h3> 
+  <p>The website of the Neobank company has three spaces for offers: two for bank related offers from the <strong>Best Offer</strong> category, and one for offers from the <strong>Partner</strong> category.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_038.png" title="offer_inbound_fallback_example_038.png" /> 
+  <p>To configure these offer spaces on the HTML page of the website, apply the following process:</p> 
+  <ol> 
+   <li><p>In the content of the HTML page, insert three </p> 
+    <div>
+      elements with an @id attribute whose value will enable us to call up the offers in the various offer spaces of the website. 
+     <p></p> 
+    </div><img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_039.png" title="offer_inbound_fallback_example_039.png" /></li> 
+   <li><p>Then insert the script for defining attribute values. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_040.png" title="offer_inbound_fallback_example_040.png" /><p>In this example, <strong>ContBO1</strong> and <strong>ContBO2</strong> receive the value <strong>OsWebBestOfferIdentified</strong>, i.e. the internal name of the <strong>Best Offer</strong> offer space created previously in the identified environment. The <strong>CatBestOffer</strong> and <strong>CatBestOfferAnonym</strong> values match the internal name of the <strong>Best Offer</strong> categories for anonymous and identified environments. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_041.png" title="offer_inbound_fallback_example_041.png" /><p>Likewise, <strong>ContPtn</strong> receives the <strong>OSWebPartnerIdentified</strong> value, which matches the internal name of the <strong>Partner</strong> offer space created in the identified environment. <strong>CatPartner</strong> and <strong>CatPartnerAnonym</strong> match the internal name of the <strong>Partner</strong> categories for anonymous and identified environments. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_042.png" title="offer_inbound_fallback_example_042.png" /></li> 
+   <li><p>Assign the information that will let you identify the person who logs on to the Neobank site to the <strong>interactionTarget</strong> variable.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_043.png" title="offer_inbound_fallback_example_043.png" /><p>The person's identification can be based on a browser cookie, a reading parameter in the URL, email, or identifier of the person. If a field of the recipient table other than the primary key is used, it needs to be defined in the advanced parameters of the space (refer to <a href="../../interaction/using/offers-on-an-inbound-channel.md#specifying-the-advanced-settings-of-the-identified-offer-spaces" target="_blank">Specifying the advanced settings of the identified offer spaces</a>).</p> </li> 
+   <li><p>Insert the call URL.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_inbound_fallback_example_049.png" title="offer_inbound_fallback_example_049.png" /><p>The URL contains <strong>EnvNeobankRecip</strong>, the internal name of the identified environment.</p> </li> 
+  </ol> 
+  <p>When you open the web page; the script lets you call up the Interaction engine to display the content of offers in the relevant spaces of the web page. In a single call to the Adobe Campaign server, the engine determines the environment, the offer space and the categories to be selected. </p> 
+  <p>In this example, the engine recognizes the identified environment (<strong>EnvNeobankIdnRecip</strong>). It identifies the offer space (<strong>OSWebBestOfferIdentified</strong>) and the <strong>Best Offer</strong> category (<strong>CatBestOffer</strong>) for the first and second offer spaces on the web page, as well as the (<strong>OSWebPartnerIdentified</strong>) offer space and the <strong>Partner</strong> category (<strong>CatPartner</strong>) for the third offer space on the site. </p> 
+  <p>If the engine can't identify the recipient, it switches to the anonymous offer spaces referenced in the identified offer spaces and towards the anonymous categories (<strong>CatPartner</strong> and <strong>CatPartnerAnonym</strong>) as specified in the script. </p> 
+ </body> 
+</html>

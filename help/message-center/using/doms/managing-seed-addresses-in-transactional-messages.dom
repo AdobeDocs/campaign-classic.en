@@ -1,0 +1,46 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Managing seed addresses in transactional messages" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Managing seed addresses in transactional messages" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="3ceb844f-1fd2-4fa3-a7ff-57cd1b6d3b94" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Managing seed addresses in transactional messages" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-08-06T06:59:41.692-0400" name="jcr:created" />
+  <meta content="audience:message-center" name="primaryAudienceTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="19e5ea84-ec91-49f3-8fd8-85a251b69e92" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <p>A seed address lets you display a preview of your message, send a proof, and test message personalization before email or SMS delivery. Seed addresses are linked to the delivery and cannot be used for other deliveries.</p> 
+  <h2 id="creating-a-seed-address">Creating a seed address</h2>
+  <ol>
+   <li><p>In the transactional message template, click the <strong>Seed addresses</strong> tab.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/messagecenter_create_seedaddr_001.png" title="messagecenter_create_seedaddr_001.png" /></li>
+   <li><p>Assign a label to it for easy selection later.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/messagecenter_create_seedaddr_002.png" title="messagecenter_create_seedaddr_002.png" /></li>
+   <li><p>Enter the seed address (email or mobile phone depending on the communication channel). </p> <img alt="" captionBottom="" imageRotate="0" src="assets/messagecenter_create_seedaddr_003.png" title="messagecenter_create_seedaddr_003.png" /></li>
+   <li><p>Enter the external identifier: this optional field allows you to enter a business key (unique ID, name + email, etc.) that is common to all applications on your website, used to identify your profiles. If this field is also present in the Adobe Campaign marketing database, you can then reconcile an event with a profile in the database.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/messagecenter_create_seedaddr_003bis.png" title="messagecenter_create_seedaddr_003bis.png" /></li>
+   <li><p>Insert test data (refer to <a href="../../message-center/using/personalization-data.md" target="_blank">Personalization data</a>).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/messagecenter_create_custo_001.png" title="messagecenter_create_custo_001.png" /></li>
+  </ol>
+  <h2 id="creating-several-seed-addresses">Creating several seed addresses</h2>
+  <ol>
+   <li><p>Click the <strong>Add other seed addresses</strong> link, then click the <strong>Add</strong> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/messagecenter_create_seedaddr_004.png" title="messagecenter_create_seedaddr_004.png" /></li>
+   <li><p>Follow the configuration steps for a seed address detailed in the <a href="../../message-center/using/managing-seed-addresses-in-transactional-messages.md#creating-a-seed-address" target="_blank">Creating a seed address</a> section.</p> </li>
+   <li><p>Repeat the process to create as many addresses as you need.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/messagecenter_create_seedaddr_008.png" title="messagecenter_create_seedaddr_008.png" /></li>
+  </ol>
+  <p>Once the addresses are created, you can display their preview and personalization. Refer to <a href="../../message-center/using/transactional-message-preview.md" target="_blank">Transactional message preview</a>.</p> 
+ </body>
+</html>

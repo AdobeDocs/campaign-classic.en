@@ -1,0 +1,86 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Discussion forums" name="jcr:description" />
+  <meta content="" name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-08-06T06:59:10.194-0400" name="jcr:created" />
+  <meta content="audience:campaign" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="51e2ab21-8c75-4e98-954b-9904a039979e" name="jcr:uuid" />
+  <meta content="Discussion forums" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="f3655c0b-4c3c-4ff9-b9c2-fdfe08652d18" name="jcr:predecessors" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Discussion forums" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <p>Adobe Campaign operators can use discussion forums to share information. The following elements each have their own forum: plans, programs, campaigns, resources, simulations, stocks. Each operator also has a personal forum. All discussions are public, even on personal forums.</p> 
+  <p>Operators can subscribe to a forum to receive a notification email each time a message is posted.</p> 
+  <h2 id="accessing-a-forum">Accessing a forum</h2>
+  <p>To visit the forum of a campaign, an operator, etc., go to its dashboard and click the <strong>Forum</strong> link in the top right-hand corner. This link also gives you the total number of messages in the forum.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mrm_forum_access_link.png" title="mrm_forum_access_link.png" />
+  <h2 id="using-a-forum">Using a forum</h2>
+  <p>Messages and their responses are shown in chronological order (from newest to oldest).</p> 
+  <p>To display the content of a message, click on its header.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mrm_forum_expand_msg.png" title="mrm_forum_expand_msg.png" />
+  <p><strong>Start a new discussion</strong></p> 
+  <p>To start a new discussion, click the <strong>Add a discussion</strong> button in the top right-hand corner. The <strong>Discussion forum</strong> box comes up (see below).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mrm_forum_new_thread.png" title="mrm_forum_new_thread.png" />
+  <p><strong>Post a message to an existing discussion</strong></p> 
+  <p>To post a message to an existing discussion, open the message that you want to answer, then click the <strong>Reply</strong> link in the top left-hand corner. The <strong>Discussion forum</strong> box comes up (see below).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mrm_forum_answer_msg.png" title="mrm_forum_answer_msg.png" />
+  <p>When you reply to a message, the person who posted the original message will receive a notification.</p> 
+  <p><strong>Writing a message</strong></p> 
+  <p>In the <strong>Discussion forum</strong> box:</p> 
+  <ol>
+   <li><p> Enter your text in the <strong>Message</strong> field and a discussion title in the <strong>Subject</strong> field.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mrm_forum_edit_msg.png" title="mrm_forum_edit_msg.png" /></li>
+   <li><p>If necessary:</p> 
+    <ul>
+     <li><p>If you want someone to take part in the discussion who isn't subscribed to the forum, use the <strong>Operator to notify</strong> field. The operator will receive a notification email for this specific message (they will not be subscribed to the forum). To notify several operators, select a group of operators.</p> </li>
+     <li><p>To add an attachment to the message, click <strong>Browse</strong>. The attachment will also be included in the notification email. Attachments may only be sent individually: to send several files, you need to zip them.</p> </li>
+    </ul></li>
+   <li><p>Click <strong>Create the message</strong> to post it to the forum.</p> </li>
+  </ol>
+  <note>
+   <p> Once a message has been posted to the forum, it can no longer be changed or deleted.<br /> </p> 
+  </note>
+  <h2 id="posting-to-the-personal-forum-of-an-operator">Posting to the personal forum of an operator</h2>
+  <p>You can post a message to the forum of an operator if, for instance, your message doesn't concern a specific campaign but you still want to keep track of the conversation in Adobe Campaign. Personal forums are public and all operators will see your message. The operator receives a message each time someone posts to their personal forum.</p> 
+  <p>To access an operator's forum:</p> 
+  <ul>
+   <li><p>If you have the necessary rights to access the <strong>Administration &gt; Access management &gt; Operators</strong> node of the explorer, open the dashboard of the desired operator and click the <strong>Forum</strong> link in the top right-hand corner.</p> </li>
+   <li><p>If not, find the name of the operator in Adobe Campaign (via a message posted to the forum by this operator, a task being assigned to him) and click on it to access their dashboard. You can also ask your administrator to create a view of the operator folder.</p> </li>
+  </ul>
+  <h2 id="subscribing-to-a-forum">Subscribing to a forum</h2>
+  <p>Subscribing to a forum lets you follow discussions. You will receive an email notification each time a message is posted to the forum. This email will contain the message body and any attachments. To answer a message, click in the email body, then log in to the Adobe Campaign web interface. When you subscribe to a forum, this information is visible to all.</p> 
+  <ul>
+   <li><p>To subscribe to a forum, click the <strong>Follow discussions</strong> button in the top right hand section above the list of messages.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mrm_forum_subscribe.png" title="mrm_forum_subscribe.png" /><p>The section goes blue and shows that you are subscribed to the forum.</p> </li>
+   <li><p>To unsubscribe from a forum, click the <strong>Unsubscribe</strong> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mrm_forum_unsubscribe.png" title="mrm_forum_unsubscribe.png" /></li>
+   <li><p>Your personal dashboard lists the forums which you are subscribed to. Click the <strong>Subscription to discussion forums</strong> link to display the list, then click the item that interests you to access its forum.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/platform_dashboard_operator_subscr_forums.png" title="platform_dashboard_operator_subscr_forums.png" /><p>For more on personal dashboards, refer to the <a href="../../platform/using/access-management.md#operators">this section</a>.</p> </li>
+   <li><p>To see who is subscribed to a forum, click the <strong>List of subscribers to this discussion forum</strong> link above the list of messages.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mrm_forum_subscribers.png" title="mrm_forum_subscribers.png" /></li>
+  </ul>
+  <h2 id="checking-notification-delivery">Checking notification delivery</h2>
+  <p>If operators subscribed to a forum aren't receiving notifications as expected:</p> 
+  <ul>
+   <li><p>Check that email addresses are entered in the operator's profiles.</p> </li>
+   <li><p>Go to the <strong>Administration &gt; Production &gt; Technical workflows &gt; Campaign processes</strong> node and check that the <strong>Jobs in discussion forums</strong> workflow is started and free of errors.</p> </li>
+   <li><p>View the delivery logs:</p> 
+    <ul>
+     <li><p>On the Adobe Campaign home page, go to <strong>Campaigns &gt; Navigation &gt; Deliveries</strong>, then open the <strong>Discussion forum notification</strong> delivery.</p> </li>
+     <li><p>In the explorer, go to <strong>Administration &gt; Production &gt; Objects created automatically &gt; Technical deliveries &gt; Workflow notifications</strong>, then click <strong>Discussion forum notifications</strong>.</p> </li>
+    </ul><p>In the <strong>Discussion forum notifications</strong> box, the delivery logs are found in the <strong>Edit &gt; Delivery</strong> tab. You can also view the <strong>Tracking &gt; Log</strong> and the <strong>Exclusion causes</strong> tabs.</p> </li>
+  </ul>
+ </body>
+</html>

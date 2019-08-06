@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="SFTP server usage" name="jcr:title" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="66aa940f-a8e1-44a3-90e9-b3eed56e4fd1" name="jcr:uuid" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="a896567e-1d44-4ac6-bf8d-af6e2e0c193c" name="jcr:predecessors" /> 
+  <meta content="2019-08-06T07:02:31.204-0400" name="jcr:created" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2019-08-05" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="audience:platform" name="primaryAudienceTag" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" /> 
+  <meta content="SFTP server usage" name="jcr:description" /> 
+  <meta content="SFTP server usage" name="navTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="seoDescription" /> 
+ </head> 
+ <body> 
+  <h2 id="sftp-server-best-practices">SFTP server best practices</h2> 
+  <p>When managing files and data for ETL purposes, these files are stored on a hosted SFTP server provided by Adobe. This SFTP is designed to be a temporary storage space on which you can control retention and deletion of files.</p> 
+  <p>When not correctly used or monitored, this space can quickly fill the physical space available on the server and lead to files being truncated on subsequent uploads. Once the space saturated, automatic purge may trigger and erase oldest files from the SFTP storage.</p> 
+  <p>To avoid such problems, Adobe recommends to follow the best practices below.</p> 
+  <note> 
+   <p> If your instance is hosted on AWS, you can monitor your SFTP server storage with the Campaign Classic <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">Control Panel</a>.<br /> To check if your instance is hosted on AWS, follow the steps detailed in .<br /> </p> 
+  </note> 
+  <ul> 
+   <li><p>The server size capabilities vary according to your license. In any case, keep the minimum data possible, and keep data for only as long as required (15 days is the maximum time limit).</p> </li> 
+   <li><p>Use key based authentication rather than password authentication, in order to avoid password expiration (passwords have a validity period of 90 days). Moreover, key based authentication lets you generate multiple keys, for example when managing multiple entities. On the contrary, password authentication requires that you share the password with all the entities you are managing.</p> <p>The supported key format is SSH-2 RSA 2048. Keys can be generated with tools like PyTTY (Windows), or ssh-keygen (Unix).You will have to provide the public key to Adobe Support team via a <a href="https://support.neolane.net">support ticket</a> to have it uploaded on the Campaign server. </p> </li> 
+   <li><p>Use workflows to properly delete the data (manage the retention from workflows consuming the data).</p> </li> 
+   <li><p>Use batching in SFTP uploads as well as in workflows.</p> </li> 
+   <li><p>Handle errors/exceptions.</p> </li> 
+   <li><p>Occasionally, log-in to SFTP to directly check what is lying there.</p> </li> 
+   <li><p>Remember that SFTP disk management is primarily your responsibility.</p> </li> 
+   <li><p>By default, all the folders you create are in Read/Write mode for your identifier only. When creating folders that need to be accessed by Campaign, make sure to configure them with Read/write rights for the whole group. Otherwise, workflows may not be able to create / delete files as they are run under a different identifier within the same group for security reasons.</p> </li> 
+   <li><p>The public IPs from which you are trying to initiate the SFTP connection must be whitelisted on the Campaign instance. Whitelisting of IP addresses can be requested via a <a href="https://support.neolane.net">support ticket</a>.</p> </li> 
+  </ul> 
+  <note>
+    If you use your own SFTP server, make sure to follow the recommendations above as much as possible. 
+   <br /> 
+  </note> 
+  <h2 id="sftp-server-troubleshooting">SFTP server troubleshooting</h2> 
+  <p>The section below lists the information to check and provide to the Adobe Support team via a <a href="https://support.neolane.net">support ticket</a> when encountering connection issues with Adobe hosted SFTP servers.</p> 
+  <ol> 
+   <li><p>Check that your instance is running. To do this, open your browser, then make a <strong>GET</strong> call on the instance <strong>/r/test</strong> endpoint:</p> 
+    <codeblock gutter="true" class="syntax html">
+      https://instanceUrl/r/test 
+    </codeblock><p>If the instance is running, you should get this type of response:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;redir&amp;nbsp;status='OK'&amp;nbsp;date='YYYY-MM-DD&amp;nbsp;HH:MM:SS'&amp;nbsp;build='XXXX'&amp;nbsp;instance='instanceName'!!discoiqbr!!sourceIP='AAA.BB.CCC.DD'&amp;nbsp;host='instanceUrl'&amp;nbsp;localHost='instanceName'/&gt; 
+    </codeblock><p>In any case, provide the command response in the support ticket.</p> </li> 
+   <li><p>Check if the outbound port 22 is opened at the site from which you are trying to initiate the SFTP connection. To do this, use the following command:</p> 
+    <codeblock gutter="true" class="syntax html">
+      bash-3.2$&amp;nbsp;nc&amp;nbsp;-vz&amp;nbsp;&lt;SFTP_URL&gt;&amp;nbsp;22!!discoiqbr!!#&amp;nbsp;Replace&amp;nbsp;the&amp;nbsp;SFTP_URL&amp;nbsp;with&amp;nbsp;actual&amp;nbsp;SFTP&amp;nbsp;instance&amp;nbsp;URL!!discoiqbr!!#&amp;nbsp;If&amp;nbsp;the&amp;nbsp;port&amp;nbsp;22&amp;nbsp;is&amp;nbsp;opened&amp;nbsp;you&amp;nbsp;will&amp;nbsp;see&amp;nbsp;output&amp;nbsp;similar&amp;nbsp;to&amp;nbsp;the&amp;nbsp;below&amp;nbsp;one!!discoiqbr!!#&amp;nbsp;for&amp;nbsp;e.g.&amp;nbsp;the&amp;nbsp;&amp;nbsp;output&amp;nbsp;for&amp;nbsp;the&amp;nbsp;command&amp;nbsp;on&amp;nbsp;myCompany-stage-sftp.neolane.net&amp;nbsp;after&amp;nbsp;ssh-out,&amp;nbsp;will&amp;nbsp;give!!discoiqbr!!bash-3.2$&amp;nbsp;nc&amp;nbsp;-vz&amp;nbsp;myCompagny-stage-sftp.neolane.net&amp;nbsp;22!!discoiqbr!!myCompany-stage-sftp.neolane.net&amp;nbsp;[AAA.BBB.CCC.D]&amp;nbsp;22&amp;nbsp;(ssh)&amp;nbsp;open 
+    </codeblock> 
+    <note> 
+     <p> The Netcat tool lets you easily manage network connections on various operating systems (see <a href="">https://eternallybored.org/misc/netcat/</a>). <br /> </p> 
+    </note><p>If the port is not opened, make sure to open outbound connections at your side, then try again. If you still meet connection issues, share the output of the command with Adobe Support team.</p> </li> 
+   <li><p>Check that the public IP from which you are trying to initiate the SFTP connection is the one you provided to the Adobe Support for whitelisting.</p> </li> 
+   <li><p>If you are using a password based authentication, your password may have expired (passwords have a 90 days validity period). We therefore strongly recommend using a key based authentication (see <a href="../../platform/using/sftp-server-usage.md#sftp-server-best-practices" target="_blank">SFTP server best practices</a>).</p> </li> 
+   <li><p>If you are using a key based authentication, check that the key you are using is the same that you provided to Adobe Support team for the instance configuration.</p> </li> 
+   <li><p>If you are using FileZilla or an equivalent FTP tool, provide the connection logs details in the support ticket.</p> </li> 
+  </ol> 
+ </body> 
+</html>

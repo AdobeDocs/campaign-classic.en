@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Nlserver module" name="jcr:description" />
+  <meta content="83acbe4f-eb09-43b2-a62a-564da40a601c" name="jcr:uuid" />
+  <meta content="2019-08-06T06:59:16.262-0400" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Nlserver module" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="seoDescription" />
+  <meta content="74b59d0c-a672-4b3a-a37d-1af00aa7d790" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="Nlserver module" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>An <strong>nlserver module</strong> activity launches an nlserver module with the parameters specified in the central window.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/nlserver_module_edit.png" title="nlserver_module_edit.png" />
+ </body>
+</html>

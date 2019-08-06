@@ -1,0 +1,107 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Mid-sourcing server" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Mid-sourcing server" name="jcr:title" /> 
+  <meta content="4045a54f-dbd4-46d8-be6f-f90f641f36a1" name="jcr:uuid" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="47d227e9-b13d-44fe-b804-2f90749f4692" name="jcr:predecessors" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-08-06T06:59:33.238-0400" name="jcr:created" /> 
+  <meta content="Mid-sourcing server" name="jcr:description" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="light" name="heroGradient" /> 
+ </head> 
+ <body> 
+  <p>This section details the installation and configuration of a mid-sourcing server, as well as the deployment of an instance which enables third parties to send messages in <strong>mid-sourcing</strong> mode.</p> 
+  <p>The "mid-sourcing" architecture is presented in <a href="../../installation/using/mid-sourcing-deployment.md" target="_blank">Mid-sourcing deployment</a>.</p> 
+  <p>Installing a mid-sourcing server follows the same process as installing a server in the normal way (refer to the standard configuration). It is an independent instance with its own database which can be used to run deliveries. Simply put, it contains an extra configuration to allow remote instances execute deliveries through it in mid-sourcing mode.</p> 
+  <h2 id="steps-for-installing-and-configuring-an-instance">Steps for installing and configuring an instance</h2> 
+  <h3 id="prerequisites-for-installing-and-configuring-an-instance">Prerequisites for installing and configuring an instance</h3> 
+  <ul> 
+   <li><p>JDK on the application server.</p> </li> 
+   <li><p>Access to a database server on the application server.</p> </li> 
+   <li><p>Firewall configured to open HTTP (80) or HTTPS (443) ports to the mid-sourcing server.</p> </li> 
+  </ul> 
+  <p>The following procedure details a configuration using a single mid-sourcing server. It is also possible to use multiple servers. Likewise it is also possible to send certain messages (such as workflow notifications, for example) from an internal configuration.</p> 
+  <h3 id="installing-and-configuring-the-application-server-for-mid-sourcing-deployment">Installing and configuring the application server for mid-sourcing deployment</h3> 
+  <p>The installation procedure is identical to that of standalone instance. Refer to <a href="../../installation/using/mid-sourcing-server.md#installing-and-configuring--single-machine-" target="_blank">Installing and configuring (single machine)</a>. </p> 
+  <p>However, you must apply the following:</p> 
+  <ul> 
+   <li><p>At step <strong>5</strong>, You must disable the <strong>mta</strong> (delivery) and <strong>inMail</strong> (bounce mails) modules. The <strong>wfserver</strong> (workflow) module however, must stay activated.</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;?xml&amp;nbsp;version='1.0'?&gt;!!discoiqbr!!&lt;serverconf&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;shared&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;add&amp;nbsp;lang="eng"&amp;nbsp;to&amp;nbsp;dataStore&amp;nbsp;to&amp;nbsp;force&amp;nbsp;English&amp;nbsp;for&amp;nbsp;the&amp;nbsp;instance&amp;nbsp;--&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dataStore&amp;nbsp;hosts="console.campaign.net*"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;mapping&amp;nbsp;logical="*"&amp;nbsp;physical="default"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dataStore&gt;&amp;nbsp;&amp;nbsp;&lt;/shared&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;mta&amp;nbsp;autoStart="false"/&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;wfserver&amp;nbsp;autoStart="true"/&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;inMail&amp;nbsp;autoStart="false"/&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;sms&amp;nbsp;autoStart="false"/&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;listProtect&amp;nbsp;autoStart="false"/&gt;!!discoiqbr!!&lt;/serverconf&gt; 
+    </codeblock><p>For more on this, refer to <a href="../../installation/using/mid-sourcing-server.md#enabling-processes" target="_blank">Enabling processes</a>.</p> </li> 
+   <li><p>Steps <strong>6</strong>, <strong>9</strong> and <strong>10</strong> aren't necessary.</p> </li> 
+   <li><p>During steps <strong>12</strong> and <strong>13</strong>, you need to indicate the 8080 port in the connection URL (since the console communicates with Tomcat directly, not via the Web server). The URL becomes <a href="http://console.campaign.net">http://console.campaign.net:8080</a>. During step <strong>13</strong>, select the <strong>Issue towards Mid-sourcing</strong> package as well as those to install.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_midsourcing02.png" title="s_ncs_install_midsourcing02.png" /> 
+    <note>
+      The default routing of technical deliveries is automatically replaced with email routing via Mid-sourcing. 
+     <br /> 
+    </note></li> 
+  </ul> 
+  <h3 id="installing-and-configuring-the-mid-sourcing-server">Installing and configuring the mid-sourcing server</h3> 
+  <p>From the client console, locate the <strong>Email routing using mid-sourcing</strong> mid-sourcing account (in the <strong>/Administration/External accounts/</strong> folder). Populate the <strong>URL of server</strong>, <strong>account</strong>, <strong>password</strong> and <strong>Mirror page URL</strong> settings with the information provided by the server provider hosting the mid-sourcing server. Test the connection.</p> 
+  <note> 
+   <p> The <strong>mid-sourcingEmitter</strong> option creates two <strong>Mid-sourcing</strong> workflows. It is a process that runs by default every 1 hour and 20 minutes and collects delivery information on the mid-sourcing server.<br /> </p> 
+  </note> 
+  <h2 id="deploying-a-mid-sourcing-server">Deploying a mid-sourcing server</h2> 
+  <ol> 
+   <li><p>Installing the application server:</p> 
+    <note>
+      If you install the mid-sourcing server and want to install extra Adobe Campaign modules, we recommend using the Delivery module and not the Campaign module. 
+     <br /> 
+    </note><p>Follow the same procedure as for the standard deployment, selecting only the <strong>Mid-sourcing platform</strong> option.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_midsourcing01.png" title="s_ncs_install_midsourcing01.png" /></li> 
+   <li><p>Configuration for receiving in mid-sourcing mode</p> <p>Set the submission account password: In the <strong>/Mid-sourcing/Access Management/Operators/</strong> folder, the <strong>mid</strong> operator is used by the remote instance for submissions in mid-sourcing mode. You must set a password for this operator and give it to the administrator of the submission instance.</p> <p>The <strong>Mid-sourcing platform</strong> option creates the default folders for storing the deliveries submitted and the default operator performing the submissions.</p> </li> 
+  </ol> 
+  <h2 id="multiplexing-the-mid-sourcing-server">Multiplexing the mid-sourcing server</h2> 
+  <p>It is possible for a mid-sourcing instance to be shared by multiple submitting instances. Each of these instances needs to be associated with an operator in the mid-sourcing database. To create a second account on the mid-sourcing server:</p> 
+  <ol> 
+   <li><p>Create a folder in the <strong>Mid-sourcing &gt; Deliveries</strong> node that will be associated with the default mid-sourcing account (for example: prod). </p> </li> 
+   <li><p>Create a folder in the <strong>Mid-sourcing &gt; Deliveries</strong> node with the same name as the account (for example: acceptance_test). </p> <img alt="" captionBottom="" imageRotate="0" src="assets/mid_recette_account.png" title="Mid_recette_account.png" /></li> 
+   <li><p>In <strong>Mid-sourcing &gt; Access Management &gt; Operators</strong>, create a new account.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mid_recette_user_create.png" title="Mid_recette_user_create.png" /></li> 
+   <li><p>In the <strong>Access rights</strong> tab, give this operator the rights of the <strong>Mid-sourcing submissions</strong> group. This access right is available in <strong>Mid-sourcing &gt; Access Management &gt; Operator groups</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mid_recette_user_rights.png" title="Mid_recette_user_rights.png" /></li> 
+   <li><p>Select the <strong>Restrict to data in the sub-folders of</strong> option and select the deliveries folder to restrict this operator to the mid-sourcing deliveries folder.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mid_recette_user_restrictions.png" title="Mid_recette_user_restrictions.png" /></li> 
+   <li><p>Restart the Web module using the following command: <strong>nlserver restart web</strong>.</p> </li> 
+  </ol> 
+  <p>You must change the mid-sourcing server setting in the serverConf.xml file. The following line must be added to the "Management of affinities with IP addresses" section, under the existing line:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;IPAffinity&amp;nbsp;IPMask=""&amp;nbsp;localDomain=""&amp;nbsp;name=""/&gt; 
+  </codeblock> 
+  <p>The '@name' attribute must respect the following rules: </p> 
+  <p><strong>'marketing_account_operator_name'.'affinity_name'.'affinity_group'</strong></p> 
+  <p>'marketing_account_operator_name' relates to the internal name of the mid-sourcing account declared in the mid-sourcing instance.</p> 
+  <p>'affinity_name' relates to the arbitrary name given to the affinity. This name must be unique. Authorized characters are [a-z][A-Z][0-9]. The aim is to declare a group of public IP addresses.</p> 
+  <p>'affinity_group' relates the Sub-affinity declared in the target mapping used in each of the deliveries. The last part including the '.' is ignored if there is no Sub-affinity. Authorized characters are [a-z][A-Z][0-9].</p> 
+  <p>You must stop and then restart the server in order for the modification to be taken into account.</p> 
+  <h2 id="configuring-tracking-on-a-mid-sourcing-server">Configuring tracking on a mid-sourcing server</h2> 
+  <p><strong>Configuring the mid-sourcing server</strong></p> 
+  <ol> 
+   <li><p>Go to 'operators' and select the operator <strong>mid</strong>.</p> </li> 
+   <li><p>In the <strong>Frontal servers</strong> tab, enter the tracking server connection parameters. </p> <p>To create a tracking instance, enter the URL of the tracking server, the tracking server internal account password and the name of the instance, its password, and the DNS masks associated with it. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_midsourcing_tracking02.png" title="s_ncs_install_midsourcing_tracking02.png" /></li> 
+   <li><p>When you have entered the connection parameters, click <strong>Confirm the configuration</strong>.</p> </li> 
+   <li><p>If necessary, specify the location where images contained in deliveries are to be stored. To do this, select one of the publication modes from the drop-down list. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_midsourcing_tracking03.png" title="s_ncs_install_midsourcing_tracking03.png" /><p>If you choose the <strong>Tracking server(s)</strong> option, the images will be copied on the mid-sourcing server.</p> </li> 
+  </ol> 
+  <p><strong>Configuring the customer platform</strong></p> 
+  <ol> 
+   <li><p>Go to the external mid-sourcing routing account.</p> </li> 
+   <li><p>In the <strong>Mid-Sourcing</strong> tab, specify the mid-sourcing server connection parameters.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_midsourcing_tracking06.png" title="s_ncs_install_midsourcing_tracking06.png" /></li> 
+   <li><p>Confirm your configuration by clicking <strong>Test the connection</strong>.</p> </li> 
+   <li><p>Declare the tracking instance referenced on the mid-sourcing server:</p> <p>Click the link <strong>Use this platform as a platform to access the tracking servers</strong>,</p> <p>Specify the name of the tracking instance and then confirm the connection with the tracking server.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_midsourcing_tracking05.png" title="s_ncs_install_midsourcing_tracking05.png" /></li> 
+  </ol> 
+  <p>If the delivery of messages is to be managed by several mid-sourcing servers, select the option <strong>Routing with alternating mid-sourcing accounts</strong> and specify the different servers.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_midsourcing_tracking04.png" title="s_ncs_install_midsourcing_tracking04.png" /> 
+ </body> 
+</html>

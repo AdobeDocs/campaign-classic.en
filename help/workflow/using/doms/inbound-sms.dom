@@ -1,0 +1,41 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="0408b3f8-28e4-48c8-9827-ce5e428ae0aa" name="jcr:predecessors" />
+  <meta content="" name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Inbound SMS" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-08-06T06:59:16.592-0400" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Inbound SMS" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="9068ef51-f6c6-4fc4-8952-319028b06443" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="Inbound SMS" name="jcr:title" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>The <strong>Inbound SMS</strong> activity lets you download and process text messages from an external account.</p> 
+  <h2 id="properties">Properties</h2>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/sms_rec_edit.png" title="sms_rec_edit.png" />
+  <p>The first tab of the <strong>Inbound SMS</strong> activity lets you enter the routing parameters for SMS messages and enter the script to be executed on receiving each message. The second tab lets you assign a schedule to the activity, and the third tab defines the expiration conditions of the activity.</p> 
+  <ol>
+   <li><p><strong>SMS routing</strong>: Select the external account to be used for SMS recovery. External accounts are configured via the <strong>Administration &gt; Platform &gt; External accounts</strong> node of the tree.</p> </li>
+   <li><p><strong>Script</strong></p> </li>
+   <li><p><strong>Schedule</strong></p> <img alt="" captionBottom="" imageRotate="0" src="assets/sms_rec_edit_2.png" title="sms_rec_edit_2.png" /></li>
+   <li><p><strong>Expiration</strong></p> </li>
+  </ol>
+  <p>The <strong>Script</strong>, <strong>Schedule</strong> and <strong>Expiry</strong> tabs are detailed in <a href="../../workflow/using/inbound-emails.md" target="_blank">Inbound Emails</a>.</p> 
+ </body>
+</html>

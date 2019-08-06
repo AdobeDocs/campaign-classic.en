@@ -1,0 +1,136 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Building a workflow" name="jcr:description" />
+  <meta content="Building a workflow" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2019-08-06T06:59:12.319-0400" name="jcr:created" />
+  <meta content="825685b7-0867-4ae0-8dd7-dc946c041b7a" name="jcr:uuid" />
+  <meta content="33eacdb8-b211-4d85-82cc-1b11f6312fa4" name="jcr:predecessors" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Building a workflow" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <p>This section details the key principles and best practices to build a workflow in Campaign.</p> 
+  <ul>
+   <li><p>Create a workflow, see <a href="../../workflow/using/building-a-workflow.md#creating-a-new-workflow">Creating a new workflow</a></p> </li>
+   <li><p>Design the workflow diagram, see <a href="../../workflow/using/building-a-workflow.md#adding-and-linking-activities">Adding and linking activities</a></p> </li>
+   <li><p>Access parameters and properties of activities, see <a href="../../workflow/using/building-a-workflow.md#configuring-activities">Configuring activities</a></p> </li>
+   <li><p>Design targeting workflows, see <a href="../../workflow/using/building-a-workflow.md#targeting-workflows">Targeting workflows</a></p> </li>
+   <li><p>Use workflow to execute a campaign, see <a href="../../workflow/using/building-a-workflow.md#campaign-workflows">Campaign workflows</a></p> </li>
+   <li><p>Access and create technical workflows, see <a href="../../workflow/using/building-a-workflow.md#technical-workflows">Technical workflows</a></p> </li>
+   <li><p>Use templates to create workflows, see <a href="../../workflow/using/building-a-workflow.md#workflow-templates">Workflow templates</a></p> </li>
+  </ul>
+  <h2 id="creating-a-new-workflow">Creating a new workflow</h2>
+  <p>From the <strong>Explorer</strong>, access a workflow folder. By default, you can use <strong>Profiles and Targets</strong> &gt; <strong>Jobs</strong> &gt; <strong>Targeting workflows</strong>.</p> 
+  <p>Click the <strong>New</strong> button located above the list of workflows. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/create_a_wf_icon.png" title="create_a_wf_icon.png" />
+  <p>Or, you can also use the <strong>Create</strong> button in the workflow overview (<strong>Monitoring</strong> &gt; <strong>Workflow</strong> link).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/create_a_wf.png" title="create_a_wf.png" />
+  <p>Enter a label and click <strong>Save</strong>.</p> 
+  <note>
+   <p> When you modify the internal name of a workflow activity or the workflow itself, make sure that you save the workflow before closing it so that the new internal name is correctly taken into account.<br /> </p> 
+  </note>
+  <h2 id="adding-and-linking-activities">Adding and linking activities</h2>
+  <p>You must now define the various activities and link them together in the diagram. At this stage of the configuration, we can see the diagram label and the workflow status (Editing in progress). The lower section of the window is used for editing the diagram only. It contains a toolbar, a palette of activities (on the left) and the diagram itself (on the right).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/new-workflow-2.png" title="new-workflow-2.png" />
+  <note>
+   <p> If the palette is not shown, click the first button on the toolbar to display it.<br /> </p> 
+  </note>
+  <p>Activities are grouped by category inside the different tabs of the palette. Available tabs and activities can vary depending on the workflow type (technical, targeting or campaign workflow).</p> 
+  <ul>
+   <li><p>The first tab contains targeting and data manipulation activities. These activities are detailed in <a href="../../workflow/using/building-a-workflow.md#targeting-activities" target="_blank">Targeting activities</a>.</p> </li>
+   <li><p>The second tab contains the scheduling activities, which are mainly used for coordinating other activities. These activities are detailed in <a href="../../workflow/using/building-a-workflow.md#flow-control-activities" target="_blank">Flow control activities</a>.</p> </li>
+   <li><p>The third tab contains tools and actions that can be used in the workflow. These activities are detailed in <a href="../../workflow/using/building-a-workflow.md#action-activities" target="_blank">Action activities</a>.</p> </li>
+   <li><p>The fourth tab contains activities that depend on a given event, such as the receipt of an email or the arrival of a file on a server. These activities are detailed in <a href="../../workflow/using/building-a-workflow.md#event-activities" target="_blank">Event activities</a>.</p> </li>
+  </ul>
+  <p>To create the diagram</p> 
+  <ol>
+   <li><p>Add an activity by selecting it in the palette and by moving it to the diagram using a drag-and-drop operation.</p> <p>Add a <strong>Start</strong> activity and then a <strong>Delivery</strong> activity on the diagram.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/new-workflow-3.png" title="new-workflow-3.png" /></li>
+   <li><p>Link the activities together by dragging the <strong>Start</strong> activity transition and dropping it on to the <strong>Delivery</strong> activity.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/new-workflow-4.png" title="new-workflow-4.png" /><p>You can automatically link an activity to the previous one by placing the new activity at the end of the transition.</p> </li>
+   <li><p>Add the activities you need and link them together as shown in the diagram below.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/new-workflow-5.png" title="new-workflow-5.png" /></li>
+  </ol>
+  <h3 id="additional-layout-options">Additional layout options</h3>
+  <p>You can change the display and layout of the chart using the following elements:</p> 
+  <ul>
+   <li><p><strong>Using the toolbar</strong></p> <p>The diagram editing toolbar gives you access to the layout and execution functions of the workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_wizard_10.png" title="s_user_segmentation_wizard_10.png" /><p>This lets you adapt the layout of the editing tool: display of the palette and the overview, size and alignment of graphical objects.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_segmentation_toolbar.png" title="s_user_segmentation_toolbar.png" /><p>Icons related to tracking and launching an advanced targeting workflow are detailed in this <a href="../../campaign/using/setting-up-marketing-campaigns.md#creating-a-targeting-workflow">section</a>.</p> </li>
+   <li><p><strong>Object alignment</strong></p> <p>To align icons, select them and click the <strong>Align vertically</strong> or <strong>Align horizontally</strong> icon. </p> <p>Use the <strong>CTRL</strong> key to select several scattered activities or to deselect one or more activities. Click on the diagram background to deselect everything.</p> </li>
+   <li><p><strong>Image management</strong></p> <p>You can customize the background image of the diagram as well as those related to the various activities. Refer to <a href="../../workflow/using/managing-activity-images.md" target="_blank">Managing activity images</a>.</p> </li>
+  </ul>
+  <h2 id="configuring-activities">Configuring activities</h2>
+  <p>Double-click an activity to configure it or right-click and select <strong>Open...</strong>. </p> 
+  <note>
+   <p> Campaign workflow activities are detailed in <a href="../../workflow/using/about-activities.md">this section</a>.<br /> </p> 
+  </note>
+  <p>The first tab contains the basic configuration. The <strong>Advanced</strong> tab contains the additional parameters, which are used particularly for defining behavior when an error is encountered, specifying the execution duration for an activity, and for entering an initialization script. </p> 
+  <p>For a better understanding of the activities and to improve workflow legibility, you can enter comments in the activities: these will be displayed automatically when operators scroll over the activity.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/example1-comment.png" title="example1-comment.png" />
+  <h2 id="targeting-workflows">Targeting workflows</h2>
+  <p>Targeting workflows enable you to build several delivery targets. You can create queries, define unions or exclusions based on specific criteria, add scheduling, thanks to workflow activities. The result of this targeting can be transferred automatically to a list which can serve as the target of delivery actions </p> 
+  <p>In addition to these activities, Data Management options let you manipulate data and access advanced functions to satisfy complex targeting issues. For more on this, refer to <a href="../../workflow/using/building-a-workflow.md#data-management" target="_blank">Data Management</a>.</p> 
+  <p>All these activities can be found in the first workflow tab.</p> 
+  <note>
+   <p> Targeting activities are detailed in <a href="../../workflow/using/about-activities.md">this section</a>.<br /> </p> 
+  </note>
+  <p> Targeting workflows can be created and edited via the <strong>Profiles and Targets &gt; Jobs &gt; Targeting workflows</strong> node of the Adobe Campaign tree or via the <strong>Profiles and Targets &gt; Targeting workflows</strong> menu of the home page.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/target_wf.png" title="target_wf.png" />
+  <p>Targeting workflows within the framework of a campaign are stored with all campaign workflows. </p> 
+  <h3 id="implementation-steps-">Implementation steps</h3>
+  <p>Targeting data building stages are as follows:</p> 
+  <ol>
+   <li><p>For identifying data in the database, refer to <a href="../../workflow/using/building-a-workflow.md#creating-queries" target="_blank">Creating queries</a>.</p> </li>
+   <li><p>For preparing data to meet delivery needs, refer to <a href="../../workflow/using/building-a-workflow.md#enriching-and-modifying-data" target="_blank">Enriching and modifying data</a>.</p> </li>
+   <li><p>For using data to perform updates or within a delivery, refer to <a href="../../workflow/using/building-a-workflow.md#updating-the-database" target="_blank">Updating the database</a>.</p> </li>
+  </ol>
+  <p>The results of all enrichments and all handlings carried out during targeting are stored and accessible in personalization fields, in particular for use when creating personalized messages. For more on this, refer to <a href="../../workflow/using/building-a-workflow.md#target-data" target="_blank">Target data</a> </p> 
+  <h3 id="targeting-and-filtering-dimensions">Targeting and filtering dimensions</h3>
+  <p>During data segmentation operations, the targeting key is mapped to a filtering dimension. The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. The filtering dimension lets you select the population based on certain criteria: contract holders, newsletter subscribers, etc.</p> 
+  <p>For example, to select clients who have had a life-insurance policy for over 5 years, select the following targeting dimension: <strong>Clients</strong> and the following filtering dimension: <strong>Contract holder</strong>. You can then define the filtering conditions within the query activity </p> 
+  <p>During the targeting dimension selection stage, only compatible filtering dimensions are offered in the interface.</p> 
+  <p>These two dimensions must be related. Thus, the content of the <strong>Filtering dimension</strong> list depends on the targeting dimension specified in the first field.</p> 
+  <p>For example, for recipients (<strong>recipient</strong>), the following filtering dimensions will be available:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/query_filter_target_dimensions_1.png" title="query_filter_target_dimensions_1.png" />
+  <p>While for <strong>Web Applications</strong>, the list will contain the following filtering dimensions:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/query_filter_target_dimensions_2.png" title="query_filter_target_dimensions_2.png" />
+  <h2 id="campaign-workflows">Campaign workflows</h2>
+  <p>For each campaign, you can create workflows to be executed from the <strong>Targeting and workflows</strong> tab. These workflows are specific to the campaign.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wf-in-op-edit-delivery-tab.png" title="wf-in-op-edit-delivery-tab.png" />
+  <p>This tab contains the same activities as for all workflows. They are presented in the <a href="../../workflow/using/building-a-workflow.md#implementation-steps-" target="_blank">Implementation steps </a> section.</p> 
+  <p>In addition to targeting campaigns, campaign workflows enable you to create and configure deliveries entirely for all available channels. Once created in the workflow, these deliveries are available from the dashboard of the campaign.</p> 
+  <p>All campaign workflows are centralized under the <strong>Administration &gt; Production &gt; Objects created automatically &gt; Campaign workflows</strong> node.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaigns_wf.png" title="campaigns_wf.png" />
+  <p>Campaign workflows and implementation examples are detailed in this <a href="../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow">page</a>.</p> 
+  <h2 id="technical-workflows">Technical workflows</h2>
+  <p>Technical workflows are provided out-of-the-box with Adobe Campaign. They are operations or jobs scheduled for periodic execution on the server. They let you carry out maintenance on the database, forward tracking information on deliveries and set up provisional processes on deliveries. Technical workflows are configured via the <strong>Administration &gt; Production &gt; Technical workflows</strong> node.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/navtree.png" title="navtree.png" />
+  <p>Native templates are available for creating technical workflows. They can be configured to suit your needs.</p> 
+  <p>The <strong>Campaign process</strong> subfolder centralizes the workflows required for executing processes within the campaigns: task notification, stock management, cost calculation, etc.</p> 
+  <note>
+   <p> The list of technical workflows installed with each module is available in a <a href="../../workflow/using/about-technical-workflows.md">dedicated section</a>.<br /> </p> 
+  </note>
+  <p>You can create other technical workflows in the <strong>Administration &gt; Production &gt; Technical workflows</strong> node of the tree structure. However, this process is reserved for expert users.</p> 
+  <p>The activities offered are the same as for targeting workflows. For more on this, refer to <a href="../../workflow/using/building-a-workflow.md#implementation-steps-" target="_blank">Implementation steps </a>.</p> 
+  <h2 id="workflow-templates">Workflow templates</h2>
+  <p>Workflow templates contain the overall configuration of properties and possibly a range of activities concatenated within a diagram. This configuration can be reused for creating new workflows containing a certain number of pre-configured elements </p> 
+  <p>You can create new workflow templates based on existing templates or change a workflow into a template directly.</p> 
+  <p>Workflow templates are stored in the <strong>Resources &gt; Templates &gt; Workflow templates</strong> node of the Adobe Campaign tree.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_wf_template_tree.png" title="s_advuser_wf_template_tree.png" />
+  <p>In addition to the usual workflow properties, the template properties allow you to specify the execution file for workflows created based on this template. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_wf_template_properties.png" title="s_advuser_wf_template_properties.png" />
+ </body>
+</html>

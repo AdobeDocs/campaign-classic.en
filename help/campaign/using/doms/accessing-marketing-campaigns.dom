@@ -1,0 +1,121 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="3e2a7f1a-2fc3-4904-b99d-fa0e55136f5d" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="f179e450-ecfc-4d82-be0c-bda8aaad6f86" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Accessing marketing campaigns" name="jcr:description" />
+  <meta content="Accessing marketing campaigns" name="navTitle" />
+  <meta content="Accessing marketing campaigns" name="jcr:title" />
+  <meta content="audience:campaign" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-08-06T06:59:08.102-0400" name="jcr:created" />
+ </head>
+ <body>
+  <p>Adobe Campaign lets you create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center. </p> 
+  <h2 id="workspace-basics">Workspace basics</h2>
+  <h3 id="home-page">Home page</h3>
+  <p>Once you connect to Adobe Campaign, you will see the home page.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_global_view.png" title="campaign_global_view.png" />
+  <p>Click the links in the navigation bar to access the various universes. Campaign elements are found in the <strong>Campaigns</strong> universe: here you can see an overview of the marketing programs and campaigns as well as their sub-sets. A marketing program is made up of campaigns, which are made up of deliveries, tasks, linked resources, etc. In the context of marketing campaign management using Campaign, the information concerning deliveries, budgets, reviewers and linked documents are found in the campaigns.</p> 
+  <p>The navigation block of the <strong>Campaigns</strong> universe offers various entries, depending on modules installed on the instance. As an example, you can access:</p> 
+  <ul>
+   <li><p><strong>Campaign calendar</strong>: calendar of plans, marketing programs, deliveries and campaigns. Refer to <a href="../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar" target="_blank">Campaign calendar</a>.</p> </li>
+   <li><p><strong>Campaigns</strong>: access to the campaigns contained in all marketing programs.</p> </li>
+   <li><p><strong>Deliveries</strong>: access to the deliveries linked to the campaigns.</p> </li>
+   <li><p><strong>Web Applications</strong>: access to Web applications (forms, surveys, etc.).</p> </li>
+  </ul>
+  <note>
+   <p> For more on the overall Adobe Campaign ergonomics, permissions and on profile management functionalities, refer to <a href="../../platform/using/adobe-campaign-workspace.md">this section</a>.<br /> All functionalities related to channels and deliveries are detailed in <a href="../../delivery/using/communication-channels.md">this section</a>.<br /> </p> 
+  </note>
+  <h3 id="campaign-calendar">Campaign calendar</h3>
+  <p>Each campaign belongs to a program which in turn belongs to a plan. Plans, programs and campaigns are accessed via the <strong>Campaign calendar</strong> menu in the <strong>Campaigns</strong> universe.</p> 
+  <p>To edit a plan, program, campaign or delivery, click its name in the calendar and then click <strong>Open...</strong>. It is then displayed in a new tab, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/d_ncs_user_interface_hierar.png" title="d_ncs_user_interface_hierar.png" />
+  <p>You can filter the information displayed in the campaign calendar. To do this, click the <strong>Filter</strong> link and select the filtering criteria.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_planning_filter.png" title="campaign_planning_filter.png" />
+  <note>
+   <p> When you filter on a date, all campaigns with a start date that is later than the specified date and/or with an end date earlier than the specified date are displayed. Dates need to be selected using the calendars to the right of each field. <br /> </p> 
+  </note>
+  <p>You can also use the <strong>Search</strong> field to filter the displayed items. </p> 
+  <p>The icons linked to each item let you view its status: finished, in progress, being edited, etc.</p> 
+  <h3 id="browsing-in-a-marketing-program">Browsing in a marketing program</h3>
+  <p>Campaign allows you to manage a set of programs made up of various marketing campaigns. Each campaign contains deliveries and the associated processes and resources. </p> 
+  <h4 id="browsing-a-program">Browsing a program</h4>
+  <p>When editing a program, use the tabs described below to browse and configure it. </p> 
+  <ul>
+   <li><p>The <strong>Schedule</strong> tab displays the calendar of programs for a month, week or day depending on which tab you click in the calendar header.</p> <p>If necessary, you can create a campaign, a program, or a task via this page.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_interface_campaign02.png" title="s_ncs_user_interface_campaign02.png" /></li>
+   <li><p>The <strong>Edit</strong> tab lets you personalize the program: name, start and end dates, budget, linked documents, etc.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_interface_campaign05.png" title="s_ncs_user_interface_campaign05.png" /></li>
+  </ul>
+  <h4 id="browsing-campaigns">Browsing campaigns</h4>
+  <p>Campaigns can be accessed via the campaign calendar, the <strong>Schedule</strong> tab of the program, or the list of campaigns.</p> 
+  <ol>
+   <li><p>Via the campaign calendar, select the campaign you want to display, then click the <strong>Open</strong> link. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_planning_edit_op.png" title="campaign_planning_edit_op.png" /><p>The campaign is edited in a new tab, as shown below:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_op_edit.png" title="campaign_op_edit.png" /></li>
+   <li><p>Via the <strong>Schedule</strong> tab of the program, the edit mode is the same as via the campaign calendar.</p> </li>
+   <li><p>Via the <strong>Campaigns</strong> link of the <strong>Campaigns</strong> universe, click the name of the campaign you want to edit.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_edit_from_list.png" title="campaign_edit_from_list.png" /></li>
+  </ol>
+  <h3 id="controlling-a-campaign">Controlling a campaign</h3>
+  <h4 id="dashboard">Dashboard</h4>
+  <p>For each campaign, jobs, resources and deliveries are centralized in a single screen - the dashboard- which lets you manage marketing actions in collaboration with others.</p> 
+  <p>The dashboard of a campaign is used as a control interface. It accesses the main campaign creation and management stages directly: deliveries, extraction files, notifications, budgets, etc.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_board_start_del.png" title="s_ncs_user_op_board_start_del.png" />
+  <p> With Adobe Campaign you can set up collaborative processes for the creation and approval of the various stages of marketing and communication campaigns: approval of the budget, target, content, etc.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_op_board_validate.png" title="s_ncs_user_op_board_validate.png" />
+  <note>
+   <p> The configuration of campaign templates is presented in <a href="../../campaign/using/accessing-marketing-campaigns.md#campaign-templates" target="_blank">Campaign templates</a>.<br /> </p> 
+  </note>
+  <h4 id="schedule">Schedule</h4>
+  <p>A campaign centralizes a set of deliveries. For each campaign, the schedule offers a global view of all components: this lets you display the tasks and deliveries and access them easily.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_planning_tab.png" title="campaign_planning_tab.png" />
+  <h4 id="forum">Forum</h4>
+  <p>For each campaign, operators can exchange messages via a dedicated forum.</p> 
+  <p>For more on this, refer to <a href="../../campaign/using/discussion-forums.md" target="_blank">Discussion forums</a>.</p> 
+  <h4 id="reports">Reports</h4>
+  <p>The <strong>Reports</strong> link lets you access the campaign reports.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_reporting_tab.png" title="campaign_reporting_tab.png" />
+  <note>
+   <p> Reports are detailed in <a href="../../reporting/using/about-adobe-campaign-reporting-tools.md">this section</a>.<br /> </p> 
+  </note>
+  <h4 id="configuration">Configuration</h4>
+  <p>Campaigns are created via campaign templates. You can configure reusable templates for which some options are selected and other settings are already saved. For each campaign, the following functionality is offered: </p> 
+  <ul>
+   <li><p>Referencing of documents and resources: you can associate documents with the campaign (brief, report, images, etc.). All document formats are supported. See <a href="../../campaign/using/accessing-marketing-campaigns.md#managing-associated-documents" target="_blank">Managing associated documents</a>. </p> </li>
+   <li><p>Defining costs: for each campaign, Adobe Campaign lets you define cost entries and cost calculation structures which can be used when creating the marketing campaign. For example: printing costs, use of an external agency, room rental, etc. See <a href="../../campaign/using/accessing-marketing-campaigns.md#defining-cost-categories" target="_blank">Defining cost categories</a>.</p> </li>
+   <li><p> Defining objectives: you can define quantifiable objectives for a campaign, e.g. number of subscribers, business volume, etc. This information is later used in campaign reports.</p> </li>
+   <li><p>Managing seed addresses (for more on this, refer to <a href="../../delivery/using/about-seed-addresses.md">this section</a>) and control groups (refer to <a href="../../campaign/using/accessing-marketing-campaigns.md#defining-a-control-group" target="_blank">Defining a control group</a>).</p> </li>
+   <li><p>Managing approvals: you can select the treatments to be approved and, if necessary, select the reviewing operators or groups of operators. See <a href="../../campaign/using/accessing-marketing-campaigns.md#checking-and-approving-deliveries" target="_blank">Checking and approving deliveries</a>.</p> </li>
+  </ul>
+  <note>
+   <p> To access the campaign configurations and make changes to them, click the <strong>Advanced campaign parameters...</strong> link in the <strong>Edit</strong> tab.<br /> </p> 
+  </note>
+  <h2 id="using-the-web-interface-">Using the web interface</h2>
+  <p>You can access the Adobe Campaign console screens via an internet browser to view all campaigns and deliveries as well as reports and information on the profiles in your database. This access does not enable record creation. Depending on operator rights, you may view and/or act on the data in the database. For example, you can approve campaign contents and targeting, re-start or stop a delivery, etc.</p> 
+  <ol>
+   <li><p>Log on as usual via <a href="">https://
+      <your instance="">
+       :
+       <port>
+        /view/home
+       </port>
+      </your></a>.</p> </li>
+   <li><p>Use the menus to access the overviews.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_interface_web_campaign_01.png" title="s_ncs_user_interface_web_campaign_01.png" /></li>
+  </ol>
+  <p>Approvals (of a target or a delivery content, for instance) can be carried out via Web access.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_web_interface_validation.png" title="campaign_web_interface_validation.png" />
+  <p>You can also use the link contained in the notification messages. For more on this, refer to <a href="../../campaign/using/accessing-marketing-campaigns.md#checking-and-approving-deliveries" target="_blank">Checking and approving deliveries</a>.</p> 
+ </body>
+</html>

@@ -1,0 +1,82 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Integrating an offer via the wizard" name="jcr:title" />
+  <meta content="d18e6d53-ca6f-41ed-8cfb-6a1bbf9328e5" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-08-06T06:59:20.712-0400" name="jcr:created" />
+  <meta content="648d23f1-fb25-43a6-9578-90337a098842" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Integrating an offer via the wizard" name="jcr:description" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Integrating an offer via the wizard" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+ </head>
+ <body>
+  <p>When creating a delivery, there are two possible methods for integrating offers:</p> 
+  <ul>
+   <li><p>Calling the offer engine in the body of a delivery.</p> </li>
+   <li><p>Referencing offers via a campaign's delivery outlines. This method is generally used for paper campaigns.</p> </li>
+  </ul>
+  <h2 id="delivering-with-a-call-to-the-offer-engine">Delivering with a call to the offer engine</h2>
+  <p>To present an offer during a marketing campaign, simply create a classic delivery action based on the chosen channel. The offer engine is called up when the delivery content is defined, by clicking the <strong>Offers</strong> icon available in the toolbar.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_009.png" title="offer_delivery_009.png" />
+  <p>For more on deliveries and marketing campaigns, refer to <a href="../../delivery/using/about-direct-mail-channel.md">Delivery</a> and <a href="../../campaign/using/setting-up-marketing-campaigns.md">Campaign</a>.</p> 
+  <h3 id="main-steps-for-inserting-an-offer-into-a-delivery">Main steps for inserting an offer into a delivery</h3>
+  <p>To insert offer propositions into a delivery, apply the following steps:</p> 
+  <ol>
+   <li><p>In the delivery window, click the Offers icon. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_001.png" title="offer_delivery_001.png" /></li>
+   <li><p> Select the space that matches your offer environment.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_002.png" title="offer_delivery_002.png" /></li>
+   <li><p>To refine the engine's choice of offers, select either the category from which the offer(s) to be presented is a part of, or one/several themes. We recommend only using one of these fields at a time to avoid overloading the restrictions.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_003.png" title="offer_delivery_003.png" /><img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_004.png" title="offer_delivery_004.png" /></li>
+   <li><p>Specify the number of offers you want to insert into the delivery body.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_005.png" title="offer_delivery_005.png" /></li>
+   <li><p>Select the <strong>Exclude non-eligible recipients</strong> option if necessary. For more on this, refer to <a href="../../interaction/using/integrating-an-offer-via-the-wizard.md#parameters-for-calling-offer-engine" target="_blank">Parameters for calling offer engine</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_006.png" title="offer_delivery_006.png" /></li>
+   <li><p>If necessary, select the <strong>Do not display anything if no offers are selected</strong> option. For more on this, refer to <a href="../../interaction/using/integrating-an-offer-via-the-wizard.md#parameters-for-calling-offer-engine" target="_blank">Parameters for calling offer engine</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_007.png" title="offer_delivery_007.png" /></li>
+   <li><p>Insert the property(ies) into the delivery content using the merge fields. The number of propositions available depends on the way the engine call is configured and their order depends on the priority of offers.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_008.png" title="offer_delivery_008.png" /></li>
+   <li><p>Finalize the content and send your delivery as usual.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_010.png" title="offer_delivery_010.png" /></li>
+  </ol>
+  <h3 id="parameters-for-calling-offer-engine">Parameters for calling offer engine</h3>
+  <ul>
+   <li><p><strong>Space</strong>: space of the offer environment which must be selected to activate the offer engine.</p> </li>
+   <li><p><strong>Category</strong>: specific folder in which offers are sorted. If no category is specified, all the offers contained in the environment will be taken into account by the offer engine, unless a theme is selected. </p> </li>
+   <li><p><strong>Themes</strong>: key words defined upstream in the categories. These act as a filter and let you refine the number of offers to be presented by selecting them in a set of categories. </p> </li>
+   <li><p><strong>Number of propositions</strong>: number of offers returned by the engine that can be inserted into the delivery body. If they are not inserted into the message, the offers will still be generated, but not presented.</p> </li>
+   <li><p><strong>Exclude non-eligible recipients</strong>: This option lets you activate or deactivate the exclusion of recipients for whom there are not enough eligible offers. The number of eligible propositions may be lower than the requested number of propositions. If this box is checked, recipients who don't have enough propositions will be excluded from the delivery. If you don't select this option, these recipients will not be excluded but they won't have the requested number of propositions.</p> </li>
+   <li><p><strong>Do not display anything if no offer is selected</strong>: this option lets you choose how the message will be processed in case one of the propositions does not exist. When this box is checked, the representation of the missing proposition is not displayed and no content will appear in the message for this proposition. If the box isn't checked, the message itself is cancelled during sending and recipients will no longer receive any messages. </p> </li>
+  </ul>
+  <h3 id="inserting-an-offer-proposition-into-a-delivery">Inserting an offer proposition into a delivery</h3>
+  <p>The representation of offers to be presented is inserted into the body of the delivery via the merge fields. The number of propositions is defined in the parameters of the offer engine call.</p> 
+  <p>The delivery can be personalized using the offer's fields or, in the case of an email, the rendering functions.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_delivery_011.png" title="offer_delivery_011.png" />
+  <h2 id="delivering-with-delivery-outlines">Delivering with delivery outlines</h2>
+  <p>You can also present offers in a delivery using delivery outlines.</p> 
+  <p>For more information on delivery outlines, refer to the <a href="../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline">Campaign - MRM</a> guide.</p> 
+  <ol>
+   <li><p>Create a new campaign or access an existing campaign.</p> </li>
+   <li><p>Access the delivery outlines via the campaign's <strong>Edit</strong> &gt; <strong>Documents</strong> tab.</p> </li>
+   <li><p>Add an outline then insert as many offers as you like into it by right-clicking on the outline and selecting <strong>New</strong> &gt; <strong>Offer</strong>, then save the campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/int_compo_offre1.png" title="int_compo_offre1.png" /></li>
+   <li><p>Create a delivery whose delivery outlines you have access to (for example, a direct mail delivery).</p> </li>
+   <li><p>When editing the delivery, click <strong>Select a delivery outline</strong>.</p> 
+    <note>
+     <p> Depending on the type of delivery, this option can be found in the <strong>Properties</strong> &gt; <strong>Advanced</strong> menu (for email deliveries for example).<br /> </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/int_compo_offre2.png" title="int_compo_offre2.png" /></li>
+   <li><p>Using the <strong>Offers</strong> button, you can then configure the offer space as well as the number of offers to present in the delivery.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/int_compo_offre3.png" title="int_compo_offre3.png" /></li>
+   <li><p>Add the propositions into the delivery body using the personalization fields (for more on this, refer to the <a href="../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery" target="_blank">Inserting an offer proposition into a delivery</a> section), or in the case of a direct mail delivery, by editing the extraction file format.</p> <p>Propositions will be selected from the offers referenced in the delivery outline.</p> 
+    <note>
+     <p> Information regarding the offer rankings and weights is only saved in the proposition table if the offers are generated directly in the delivery.<br /> </p> 
+    </note></li>
+  </ol>
+ </body>
+</html>

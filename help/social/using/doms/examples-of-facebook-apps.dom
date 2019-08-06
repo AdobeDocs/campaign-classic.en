@@ -1,0 +1,224 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="d5a7ee35-0037-418a-90f4-1214ad428a1f" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-08-06T06:59:46.264-0400" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Examples of Facebook apps" name="jcr:description" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Examples of Facebook apps" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Examples of Facebook apps" name="navTitle" />
+  <meta content="" name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="audience:social" name="primaryAudienceTag" />
+  <meta content="79cdd4d7-aadc-4beb-8f20-8236fc7c97e5" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+ </head>
+ <body>
+  <p>When a user clicks the tab of a Facebook application, it is displayed in a space which is 810 pixels wide. Adobe Campaign uses a Facebook type web application to let you define and personalize the content displayed in the Facebook application, therefore making it easier to acquire profiles.</p> 
+  <note>
+   <p> It is also possible to integrate Adobe Campaign with a Facebook application developed by a partner. In this case, there is no need to use the Adobe Campaign web application to acquire Facebook profiles. For more on this, refer to <a href="../../social/using/examples-of-facebook-apps.md#configuring-external-accounts" target="_blank">Configuring external accounts</a>. <br /> </p> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_fb_000.png" title="social_webapp_FB_000.png" />
+  <note>
+    Please comply with the configuration steps described in 
+   <a href="../../social/using/creating-a-facebook-application.md" target="_blank">Creating a Facebook application</a>.
+   <br /> 
+  </note>
+  <note>
+   <p> This section details the elements linked to Facebook type web applications. All elements shared with standard web applications are detailed in <a href="../../web/using/about-web-applications.md">this section</a>. <br /> </p> 
+  </note>
+  <p>The examples of Facebook type web applications detailed here are:</p> 
+  <ul>
+   <li><p>How to create a Facebook application in 7 steps. Refer to <a href="../../social/using/examples-of-facebook-apps.md#quick-start--creating-a-facebook-application-in-7-steps" target="_blank">Quick start: creating a Facebook application in 7 steps</a>.</p> </li>
+   <li><p>How to forward settings to a Facebook application. Refer to <a href="../../social/using/examples-of-facebook-apps.md#how-to-forward-settings-to-a-facebook-application-" target="_blank">How to forward settings to a Facebook application?</a>.</p> </li>
+   <li><p>How to acquire fan data. Refer to <a href="../../social/using/examples-of-facebook-apps.md#how-to-acquire-fan-data-" target="_blank">How to acquire fan data?</a>.</p> </li>
+  </ul>
+  <note>
+    These simple use cases are provided as examples to illustrate the functionalities of Facebook type web applications.
+   <br /> 
+  </note>
+  <h2 id="recommendations">Recommendations</h2>
+  <p>The following limitations are linked directly to Facebook:</p> 
+  <ul>
+   <li><p>You must build all your web applications in HTTPS.</p> </li>
+   <li><p>A Facebook application displayed via a tab has a width of 810 pixels.</p> </li>
+  </ul>
+  <h2 id="quick-start--creating-a-facebook-application-in-7-steps">Quick start: creating a Facebook application in 7 steps</h2>
+  <p>This example provides a step by step process of how to display an Adobe Campaign built application in Facebook. In this case, we want to create an application that lets you display the <strong>Welcome</strong> message when the user clicks the application tab (<strong>App01</strong>).</p> 
+  <p>To create this application, apply the following steps:</p> 
+  <ol>
+   <li><p>Create an application on Facebook ( <a href="https://developers.facebook.com/apps">https://developers.facebook.com/apps</a>). For more on this, refer to: <a href="../../social/using/examples-of-facebook-apps.md#creating-a-facebook-application" target="_blank">Creating a Facebook application</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/social_create_facebook_app_002.png" title="social_create_facebook_app_002.png" /></li>
+   <li><p>Create a <strong>Facebook Connect</strong> type external account and enter the parameters of the Facebook application. For more on this, refer to: <a href="../../social/using/examples-of-facebook-apps.md#configuring-external-accounts" target="_blank">Configuring external accounts</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/social_quick_start_2.png" title="social_quick_start_2.png" /></li>
+   <li><p>Enter the <strong>Terms of service</strong> and <strong>Privacy policy</strong> links to be displayed on the Facebook permission request screen. For more on this, refer to: <a href="../../social/using/examples-of-facebook-apps.md#entering-the-terms-of-service-and-privacy-policy-links" target="_blank">Entering the Terms of service and Privacy policy links</a>. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/social_quick_start_1.png" title="social_quick_start_1.png" /></li>
+   <li><p>Create a Facebook type web application in Adobe Campaign. For more on this, refer to: <a href="../../social/using/examples-of-facebook-apps.md#creating-a-facebook-type-web-application" target="_blank">Creating a Facebook type web application</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_005.png" title="social_webapp_005.png" /></li>
+   <li><p>Edit your web application. In this example, we have added a <strong>Page</strong> activity and defined a title for it.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/social_quick_start_4.png" title="social_quick_start_4.png" /></li>
+   <li><p>Deploy your application.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_004.png" title="social_webapp_004.png" /></li>
+   <li><p>Configure your Facebook application so that it shows up as a tab on your Facebook page. For more on this, refer to: <a href="../../social/using/examples-of-facebook-apps.md#configuring-facebook-tabs" target="_blank">Configuring Facebook tabs</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/social_quick_start_5.png" title="social_quick_start_5.png" /></li>
+  </ol>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_quick_start_6.png" title="social_quick_start_6.png" />
+  <p>Check that the tab of the <strong>App01</strong> application shows up on your Facebook page. Clicking it should call up a <strong>Welcome</strong> message.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_042.png" title="social_webapp_042.png" />
+  <h2 id="how-to-forward-settings-to-a-facebook-application-">How to forward settings to a Facebook application?</h2>
+  <note>
+    Comply with the configuration steps detailed in 
+   <a href="../../social/using/creating-a-facebook-application.md" target="_blank">Creating a Facebook application</a>.
+   <br /> 
+  </note>
+  <p>In example 1, we personalized the display of the Facebook page according to the value in the <strong>Fan of the page</strong> field. It is also possible to process the <strong>Application settings</strong> field. This field lets you recover data contained in a link generated by Adobe Campaign, via Facebook. </p> 
+  <p>Let's take the example of a company which decides to send an email campaign. In the delivery, a link points towards the Facebook application. This link is personalized thanks to the <strong>app_data</strong> parameter added at the end of the URL. The value of this parameter could be an indicator which reflects customer significance. In our example, the values of the <strong>app_data</strong> parameter are <strong>big</strong> (significant customer) and <strong>small</strong> (less significant customer).</p> 
+  <p>Once it is personalized, the URL looks like this: </p> 
+  <ul>
+   <li><p><strong>http://<strong>
+       <path application="" facebook="" of="" the="" /></strong>&amp;app_data=big</strong> (for a significant customer)</p> </li>
+   <li><p><strong>http://<strong>
+       <path application="" facebook="" of="" the="" /></strong>&amp;app_data=small</strong> (for a less significant customer)</p> </li>
+  </ul>
+  <p>Among the anonymous data forwarded to Adobe Campaign by Facebook, the value of the <strong>Application parameters</strong> field is collected, thus enabling Adobe Campaign to personalize application display based on this parameter.</p> 
+  <p>If the user is a significant customer (the value of the <strong>app_data</strong> parameter is <strong>big</strong>), the following image is displayed:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_017.png" title="social_webapp_017.png" />
+  <p>If the user is a less significant customer (the value of the <strong>app_data</strong> parameter is <strong>small</strong>), the following image is displayed:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_016.png" title="social_webapp_016.png" />
+  <p>To recreate this use case, we have created a web application made up of the following elements:</p> 
+  <ul>
+   <li><p>A <strong>Test</strong> activity based on the <strong>Application parameter</strong> field.</p> </li>
+   <li><p>two pages which contain the images to display according to the value of the <strong>Application parameter</strong> field.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_018.png" title="social_webapp_018.png" />
+  <h2 id="how-to-acquire-fan-data-">How to acquire fan data?</h2>
+  <note>
+    Comply with the configuration steps detailed in 
+   <a href="../../social/using/creating-a-facebook-application.md" target="_blank">Creating a Facebook application</a>.
+   <br /> 
+  </note>
+  <p>This example shows you how to get in touch with Facebook users and offer for them to share their profile information. Let's take the example of a company which wants to acquire prospects and organizes a competition on their Facebook page to attract them.</p> 
+  <p>Whenever a user clicks the <strong>App03</strong> tab, we ask them if they want to take part in the competition.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_fb_000.png" title="social_webapp_FB_000.png" />
+  <p>If they decide to take part in the competition, we offer for them to share their profile information. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_021.png" title="social_webapp_021.png" />
+  <p>If they agree to share their information, the following screen is displayed.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_022.png" title="social_webapp_022.png" />
+  <p>To build this use case, we have created a web application which includes the following elements:</p> 
+  <ul>
+   <li><p>a <strong>Test</strong> activity</p> </li>
+   <li><p>three pages</p> </li>
+   <li><p>an <strong>Access control</strong> activity</p> </li>
+   <li><p>a <strong>Pre-loading</strong> activity</p> </li>
+   <li><p>A <strong>Save</strong> activity</p> </li>
+   <li><p>An <strong>End</strong> activity</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_019.png" title="social_webapp_019.png" />
+  <h3 id="test-activity">Test activity</h3>
+  <p>The <strong>Test</strong> activity is based on the <strong>ID</strong> and <strong>Application parameters</strong> field.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_023.png" title="social_webapp_023.png" />
+  <p>It is made up of three branches:</p> 
+  <ul>
+   <li><p><strong>identifier (UID) is empty</strong>: the identifier is only forwarded by Facebook if the user has already agreed to share their information. The first branch of the <strong>Test</strong> activity lets you make the competition available only to users who have never entered, i.e. those with an empty ID.</p> </li>
+   <li><p><strong>application parameter equals 'thanks'</strong>: to sidestep a display error linked to Facebook, the web application end page points towards the URL of the Facebook application which the <strong>app_data</strong> parameter is added to using the <strong>thanks</strong> value (for more on this, refer to: <a href="../../social/using/examples-of-facebook-apps.md#end-activity" target="_blank">End activity</a>). The second branch lets you find out whether the user comes from the <strong>End</strong> activity of the first branch (and has just entered the competition) to display a thank you message. For more on using additional URL parameters, refer to: <a href="../../social/using/examples-of-facebook-apps.md#how-to-forward-settings-to-a-facebook-application-" target="_blank">How to forward settings to a Facebook application?</a>.</p> </li>
+   <li><p><strong>Default branch</strong>: if the user has already entered the competition (ID already entered) at a previous date (application parameter different from <strong>thanks</strong>), we will display a page saying that they have already entered.</p> </li>
+  </ul>
+  <h3 id="competition-page">Competition page</h3>
+  <p>To sidestep the display error linked to Facebook, you also need to select <strong>Parent window</strong> or <strong>In the top window</strong> in the <strong>Window</strong> field of the competition page.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_028.png" title="social_webapp_028.png" />
+  <h3 id="access-control-activity">Access control activity</h3>
+  <p>The <strong>Access control</strong> activity lets you display the Facebook permission request page when the user enters the competition. If they agree to share their information, it is recovered during pre-loading. For more on this, refer to: <a href="../../social/using/examples-of-facebook-apps.md#pre-loading-activity" target="_blank">Pre-loading activity</a>.</p> 
+  <p>If you previously entered the external account when creating the web application (refer to <a href="../../social/using/examples-of-facebook-apps.md#creating-a-facebook-type-web-application" target="_blank">Creating a Facebook type web application</a>) you don't need to edit the activity. If not, go to the <strong>Application</strong> field and select the external account linked to the Facebook application. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_024.png" title="social_webapp_024.png" />
+  <h3 id="pre-loading-activity">Pre-loading activity</h3>
+  <p>Select the data source to be used for pre-loading:</p> 
+  <ul>
+   <li><p><strong>Marketing database</strong>: this option lets you preload data via the Adobe Campaign database.</p> </li>
+   <li><p><strong>Facebook</strong>: this option lets you pre-load data using Facebook.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_029.png" title="social_webapp_029.png" />
+  <p><strong>Marketing database</strong></p> 
+  <p>This option lets you recover the data of a profile which exists in the visitors table. Verification is carried out based on the external Facebook ID recovered when the user clicks on the Facebook application tab. If you add a form after the <strong>Pre-loading</strong> activity, the fields which contain information in the database are pre-loaded. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_030.png" title="social_webapp_030.png" />
+  <note>
+   <p> For more on pre-loading data via the Adobe Campaign database, refer to <a href="../../web/using/publishing-a-web-form.md#pre-loading-the-form-data">this section</a>.<br /> </p> 
+  </note>
+  <p><strong>Facebook</strong></p> 
+  <p>This option lets you define the Facebook profile information to collect, among that which the user has agreed to share, in view of saving it.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_025.png" title="social_webapp_025.png" />
+  <p>The <strong>Database information</strong> option lets you collect the following data:</p> 
+  <ul>
+   <li><p><strong>External ID</strong>: user ID</p> </li>
+   <li><p><strong>Gender</strong>: user's gender </p> </li>
+   <li><p><strong>Verified</strong>: this field specifies whether or not the user has a verified Facebook account.</p> </li>
+   <li><p><strong>Full name</strong>: user's full name</p> </li>
+   <li><p><strong>First name</strong>: user's first name</p> </li>
+   <li><p><strong>Last name</strong>: user's last name</p> </li>
+   <li><p><strong>Language</strong>: user's language</p> </li>
+  </ul>
+  <p>You can also decide to collect the profile photo, the list of friends, email address, date of birth, interests and location by checking the appropriate boxes.</p> 
+  <p>Before you click <strong>Ok</strong>, check the <strong>I agree to comply with Facebook conditions of use</strong> box.</p> 
+  <note>
+   <p> If you check one or more boxes in the <strong>Private information</strong> section, the Facebook permission request screen will automatically display the access request for this data. <br /> In order for you to collect the selected information, the user must agree to share it.<br /> If you want both types of pre-loading (via Adobe Campaign and via Facebook) add two pre-loading boxes one after the other.<br /> </p> 
+  </note>
+  <h3 id="save-activity">Save activity</h3>
+  <p>The <strong>Save</strong> activity lets you store the information collected during the previous stages in the visitors' table. </p> 
+  <p>If the profile already exists in the visitors' table, their data is updated with the new data collected.</p> 
+  <p>If the profile doesn't exist in the database and the Facebook user's email address has been collected, a visitor will be created in the visitors' table.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_026.png" title="social_webapp_026.png" />
+  <ol>
+   <li><p>In the <strong>Visitor creation folder</strong> field, select the folder which the profile will be created in. In case of a Facebook type web application, the default creation folder is <strong>Visitors</strong>.</p> </li>
+   <li><p>In the <strong>Reconciliation mode</strong> field, select the reconciliation mode you want to use:</p> 
+    <ul>
+     <li><p><strong>Automatic</strong>: Reconciliation is carried out based on email, last name, first name and date of birth.</p> </li>
+     <li><p><strong>Manual</strong>: Please select one or more reconciliation keys.</p> </li>
+     <li><p><strong>None</strong>: No reconciliation will take place.</p> </li>
+    </ul></li>
+   <li><p>In the <strong>Mapping</strong> field, select the schema which you want to carry out the reconciliation on.</p> 
+    <note>
+      Make sure the fields of the 
+     <strong>Social networks</strong> tab are correctly entered in the delivery mapping. Delivery mappings are accessed via the 
+     <strong>Administration &gt; Campaign management &gt; Target mappings</strong> node. 
+     <br /> 
+    </note></li>
+   <li><p>You can select a search folder for reconciliation and a creation folder for new profiles. If the fields are empty, profiles are searched for and created in the default folder of the mapping schema.</p> </li>
+  </ol>
+  <h3 id="end-activity">End activity</h3>
+  <p>To sidestep the display error linked to Facebook, you need to check the <strong>Use an external URL</strong> box and enter the URL of the Facebook application, followed by the <strong>app_data</strong> parameter and a value. This value will be used in the <strong>Test</strong> activity to detect whether or not the user has just entered the competition, and to display a thank you message if applicable. For more on this, refer to: <a href="../../social/using/examples-of-facebook-apps.md#test-activity" target="_blank">Test activity</a>.</p> 
+  <p>In our example, the value used is <strong>thanks</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_027.png" title="social_webapp_027.png" />
+  <h3 id="details-screen-of-a-visitor">Details screen of a visitor</h3>
+  <p>Just like for Twitter followers (refer to: <a href="../../social/using/examples-of-facebook-apps.md#operating-principle" target="_blank">Operating principle</a>), recovered Facebook profiles are stored in the visitors' table. To display the list of visitors, go to the <strong>Profiles and Targets &gt; Visitors</strong> node.</p> 
+  <p>Each Facebook prospect who agrees to share their profile information is added to the list of visitors. If the <strong>Friends</strong> box is checked in the <strong>Pre-load</strong> activity (refer to: <a href="../../social/using/examples-of-facebook-apps.md#pre-loading-activity" target="_blank">Pre-loading activity</a>), friends are also added.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_037.png" title="social_webapp_037.png" />
+  <p>In the <strong>Summary</strong> section of the visitor detail window, there are two possible states for the <strong>New Contact</strong> indicator:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_038.png" title="social_webapp_038.png" />
+  <p>If a green check mark is displayed, this means the visitor wasn't reconciled with any recipients. In this case, a new profile is created in the list of recipients. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_039.png" title="social_webapp_039.png" />
+  <p>A red cross means that the visitor was reconciled with a recipient. You can click the magnifier to the right of the <strong>Recipient</strong> field to display the matching recipient. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_040.png" title="social_webapp_040.png" />
+  <p>Go to the detail window of a recipient to display the matching visitor, if applicable. Select the <strong>Others</strong> tab, then double-click the name of the visitor in the <strong>Web identities</strong> section.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_041.png" title="social_webapp_041.png" />
+  <p>The <strong>Activities</strong> screen of a visitor's details page contains the following information:</p> 
+  <ul>
+   <li><p>"Open Graph" type fan activities: music played, videos watched, articles read and inferral of the applications installed (Deezer, Spotify, Dailymotion, Yahoo News, etc.)</p> <img alt="" captionBottom="" imageRotate="0" src="assets/social_facebook_activities.png" title="social_Facebook_activities.png" /></li>
+   <li><p>"Likes" and comments added by the fan following deliveries sent by Adobe Campaign</p> </li>
+   <li><p>pages liked by the fan</p> </li>
+   <li><p>check-ins by the fan </p> <img alt="" captionBottom="" imageRotate="0" src="assets/social_facebook_checkins.png" title="social_Facebook_checkins.png" />
+    <note>
+     <p> In order for Adobe Campaign to collect a fan's check-ins, you need to click the <strong>Subscribe</strong> button on the service configuration screen. For more on this, refer to <a href="../../social/using/examples-of-facebook-apps.md#configuring-external-accounts" target="_blank">Configuring external accounts</a>.<br /> </p> 
+    </note></li>
+  </ul>
+  <h2 id="how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data">How to pre-load the fields of a form using Facebook profile data</h2>
+  <p>The <strong> Social Marketing</strong> application also enables you to add a button to a form, for pre-loading fields using Facebook profile information. This option, which is available in all web application templates (<strong>Page</strong> type activities) is detailed in <a href="../../web/using/static-elements-in-a-web-form.md#inserting-html-content">this section</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/social_webapp_035.png" title="social_webapp_035.png" />
+  <note>
+   <p> Before you start using this function, you need to create a Facebook application and a <strong>Facebook Connect</strong> type external account. For more on this, refer to <a href="../../social/using/examples-of-facebook-apps.md#configuring-external-accounts" target="_blank">Configuring external accounts</a>.<br /> </p> 
+  </note>
+ </body>
+</html>

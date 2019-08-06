@@ -1,0 +1,283 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="736cfd53-860e-4db7-b2e4-50ab23336ae4" name="jcr:predecessors" /> 
+  <meta content="2019-08-06T06:59:42.407-0400" name="jcr:created" /> 
+  <meta content="Database mapping" name="navTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Database mapping" name="jcr:title" /> 
+  <meta content="bc89b95c-8be1-4da5-9fd8-9d8ca9a0569f" name="jcr:uuid" /> 
+  <meta content="Database mapping" name="jcr:description" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <p>The SQL mapping of our example schema gives the following XML document:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;schema&amp;nbsp;mappingType="sql"&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&amp;nbsp;xtkschema="xtk:schema"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;enumeration&amp;nbsp;basetype="byte"&amp;nbsp;name="gender"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;value&amp;nbsp;label="Not&amp;nbsp;specified"&amp;nbsp;name="unknown"&amp;nbsp;value="0"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;value&amp;nbsp;label="Male"&amp;nbsp;name="male"&amp;nbsp;value="1"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;value&amp;nbsp;label="Female"&amp;nbsp;name="female"&amp;nbsp;value="2"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/enumeration&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&amp;nbsp;sqltable="CusRecipient"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;desc="Recipient&amp;nbsp;e-mail&amp;nbsp;address"&amp;nbsp;label="Email"&amp;nbsp;length="80"&amp;nbsp;name="email"&amp;nbsp;sqlname="sEmail"&amp;nbsp;type="string"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;default="GetDate()"&amp;nbsp;label="Date&amp;nbsp;of&amp;nbsp;creation"&amp;nbsp;name="created"&amp;nbsp;sqlname="tsCreated"&amp;nbsp;type="datetime"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;enum="gender"&amp;nbsp;label="Gender"&amp;nbsp;name="gender"&amp;nbsp;sqlname="iGender"&amp;nbsp;type="byte"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Location"&amp;nbsp;name="location"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;label="City"&amp;nbsp;length="50"&amp;nbsp;name="city"&amp;nbsp;sqlname="sCity"&amp;nbsp;type="string"&amp;nbsp;userEnum="city"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/element&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/schema&gt; 
+  </codeblock> 
+  <h2 id="description">Description</h2> 
+  <p>The root element of the schema is no longer <strong> 
+    <srcschema /></strong>, but <strong> 
+    <schema /></strong>.</p> 
+  <p>This takes us to another type of document, which is generated automatically from the source schema, simply referred to as the schema. This schema will be used by the Adobe Campaign application.</p> 
+  <p>The SQL names are determined automatically based on element name and type.</p> 
+  <p>The SQL naming rules are as follows:</p> 
+  <ul> 
+   <li><p>table: concatenation of the schema namespace and name</p> <p>In our example, the name of the table is entered via the main element of the schema in the <strong>sqltable</strong> attribute:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;element&amp;nbsp;name="recipient"&amp;nbsp;sqltable="CusRecipient"&gt; 
+    </codeblock></li> 
+   <li><p>field: name of the element preceded by a prefix defined according to type ('i' for integer, 'd' for double, 's' for string, 'ts' for dates, etc.)</p> <p>The field name is entered via the <strong>sqlname</strong> attribute for each typed <strong> 
+      <attribute /></strong> and <strong> 
+      <element /></strong>:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;attribute&amp;nbsp;desc="E-mail&amp;nbsp;address&amp;nbsp;of&amp;nbsp;recipient"&amp;nbsp;label="Email"&amp;nbsp;length="80"&amp;nbsp;name="email"&amp;nbsp;sqlname="sEmail"&amp;nbsp;type="string"/&gt;&amp;nbsp; 
+    </codeblock></li> 
+  </ul> 
+  <note> 
+   <p> SQL names can be overloaded from the source schema. To do this, populate the "sqltable" or "sqlname" attributes on the element concerned.<br /> </p> 
+  </note> 
+  <p>The SQL script to create the table generated from the extended schema is as follows:</p> 
+  <codeblock gutter="true" class="syntax html">
+    CREATE&amp;nbsp;TABLE&amp;nbsp;CusRecipient(!!discoiqbr!!&amp;nbsp;&amp;nbsp;iGender&amp;nbsp;NUMERIC(3)&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;Default&amp;nbsp;0,&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;sCity&amp;nbsp;VARCHAR(50),&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;sEmail&amp;nbsp;VARCHAR(80),!!discoiqbr!!&amp;nbsp;&amp;nbsp;tsCreated&amp;nbsp;TIMESTAMP&amp;nbsp;Default&amp;nbsp;NULL); 
+  </codeblock> 
+  <p>The SQL field constraints are as follows:</p> 
+  <ul> 
+   <li><p>no null values in numeric and date fields,</p> </li> 
+   <li><p>numeric fields are initialized to 0.</p> </li> 
+  </ul> 
+  <h2 id="xml-fields">XML fields</h2> 
+  <p>By default, any typed <strong> 
+    <attribute /></strong> and <strong> 
+    <element /></strong> element is mapped onto an SQL field of the data schema table. You can, however, reference this field in XML instead of SQL, which means that the data is stored in a memo field ("mData") of the table containing the values of all XML fields. The storage of these data is an XML document that observes the schema structure.</p> 
+  <p>To populate a field in XML, you must add the <strong>xml</strong> attribute with the value "true" to the element concerned.</p> 
+  <p><strong>Example</strong>: here are two examples of XML field use.</p> 
+  <ul> 
+   <li><p>Multi-line comment field: </p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;element&amp;nbsp;name="comment"&amp;nbsp;xml="true"&amp;nbsp;type="memo"&amp;nbsp;label="Comment"/&gt; 
+    </codeblock></li> 
+   <li><p>Description of data in HTML format:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;element&amp;nbsp;name="description"&amp;nbsp;xml="true"&amp;nbsp;type="html"&amp;nbsp;label="Description"/&gt; 
+    </codeblock><p>The "html" type lets you store the HTML content in a CDATA tag and display a special HTML edit check in the Adobe Campaign client interface.</p> </li> 
+  </ul> 
+  <p>The use of XML fields lets you add fields without needing to modify the physical structure of the database. Another advantage is that you use less resources (size allocated to SQL fields, limit on the number of fields per table, etc.).</p> 
+  <p>The main disadvantage is that it is impossible to index or filter an XML field.</p> 
+  <h2 id="indexed-fields">Indexed fields</h2> 
+  <p>Indexes let you optimize the performance of the SQL queries used in the application.</p> 
+  <p>An index is declared from the main element of the data schema.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;dbindex&amp;nbsp;name="name_of_index"&amp;nbsp;unique="true/false"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="xpath_of_field1"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="xpath_of_field2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&lt;/key&gt; 
+  </codeblock> 
+  <p>Indexes obey the following rules:</p> 
+  <ul> 
+   <li><p>An index can reference one or more fields in the table.</p> </li> 
+   <li><p>An index can be unique (to avoid duplicates) in all of the fields if the <strong>unique</strong> attribute contains the value "true".</p> </li> 
+   <li><p>The SQL name of the index is determined from the SQL name of the table and the name of the index.</p> </li> 
+  </ul> 
+  <note> 
+   <p> As a standard, indexes are the first elements declared from the main element of the schema.<br /> </p> 
+  </note> 
+  <note> 
+   <p> Indexes are created automatically during table mapping (standard or FDA).<br /> </p> 
+  </note> 
+  <p><strong>Example</strong>: </p> 
+  <ul> 
+   <li><p>Adding an index to the e-mail address and city:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;srcSchema&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dbindex&amp;nbsp;name="email"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@email"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="location/@city"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dbindex&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="email"&amp;nbsp;type="string"&amp;nbsp;length="80"&amp;nbsp;label="Email"&amp;nbsp;desc="E-mail&amp;nbsp;address&amp;nbsp;of&amp;nbsp;recipient"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="location"&amp;nbsp;label="Location"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="city"&amp;nbsp;type="string"&amp;nbsp;length="50"&amp;nbsp;label="City"&amp;nbsp;userEnum="city"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+    </codeblock></li> 
+   <li><p>Adding a unique index to the "id" name field:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;srcSchema&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dbindex&amp;nbsp;name="id"&amp;nbsp;unique="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@id"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dbindex&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dbindex&amp;nbsp;name="email"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@email"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dbindex&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="id"&amp;nbsp;type="long"&amp;nbsp;label="Identifier"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="email"&amp;nbsp;type="string"&amp;nbsp;length="80"&amp;nbsp;label="Email"&amp;nbsp;desc="E-mail&amp;nbsp;address&amp;nbsp;of&amp;nbsp;recipient"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+    </codeblock></li> 
+  </ul> 
+  <h2 id="management-of-keys">Management of keys</h2> 
+  <p>A table must have at least one key for identifying a record in the table.</p> 
+  <p>A key is declared from the main element of the data schema.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;key&amp;nbsp;name="name_of_key"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="xpath_of_field1"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="xpath_of_field2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&lt;/key&gt; 
+  </codeblock> 
+  <p>Keys obey the following rules:</p> 
+  <ul> 
+   <li><p>A key can reference one or more fields in the table.</p> </li> 
+   <li><p>A key is known as 'primary' (or 'priority') when it is the first in the schema to be populated or if it contains the <strong>internal</strong> attribute with the value "true".</p> </li> 
+   <li><p>A unique index is declared implicitly for each key definition. The creation of an index on the key can be prevented by adding the <strong>noDbIndex</strong> attribute with the value "true".</p> </li> 
+  </ul> 
+  <note> 
+   <p> As a standard, keys are the elements declared from the main element of the schema after indexes have been defined.<br /> </p> 
+  </note> 
+  <note> 
+   <p> Keys are created during table mapping (standard or FDA), Adobe Campaign finds unique indexes.<br /> </p> 
+  </note> 
+  <p><strong>Example</strong>:</p> 
+  <ul> 
+   <li><p>Adding a key to the e-mail address and city:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;srcSchema&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;key&amp;nbsp;name="email"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@email"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="location/@city"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/key&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="email"&amp;nbsp;type="string"&amp;nbsp;length="80"&amp;nbsp;label="Email"&amp;nbsp;desc="E-mail&amp;nbsp;address&amp;nbsp;of&amp;nbsp;recipient"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="location"&amp;nbsp;label="Location"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="city"&amp;nbsp;type="string"&amp;nbsp;length="50"&amp;nbsp;label="City"&amp;nbsp;userEnum="city"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+    </codeblock><p>The schema generated:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;schema&amp;nbsp;mappingType="sql"&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&amp;nbsp;xtkschema="xtk:schema"&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&amp;nbsp;sqltable="CusRecipient"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dbindex&amp;nbsp;name="email"&amp;nbsp;unique="true"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@email"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="location/@city"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dbindex&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;key&amp;nbsp;name="email"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@email"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="location/@city"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/key&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;desc="E-mail&amp;nbsp;address&amp;nbsp;of&amp;nbsp;recipient"&amp;nbsp;label="Email"&amp;nbsp;length="80"&amp;nbsp;name="email"&amp;nbsp;sqlname="sEmail"&amp;nbsp;type="string"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Location"&amp;nbsp;name="location"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;label="City"&amp;nbsp;length="50"&amp;nbsp;name="city"&amp;nbsp;sqlname="sCity"&amp;nbsp;type="string"&amp;nbsp;userEnum="city"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/element&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/schema&gt; 
+    </codeblock></li> 
+   <li><p>Adding a primary or internal key on the "id" name field:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;srcSchema&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;key&amp;nbsp;name="id"&amp;nbsp;internal="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@id"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/key&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;key&amp;nbsp;name="email"&amp;nbsp;noDbIndex="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@email"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/key&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="id"&amp;nbsp;type="long"&amp;nbsp;label="Identifier"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="email"&amp;nbsp;type="string"&amp;nbsp;length="80"&amp;nbsp;label="Email"&amp;nbsp;desc="E-mail&amp;nbsp;address&amp;nbsp;of&amp;nbsp;recipient"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+    </codeblock><p>The schema generated:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;schema&amp;nbsp;mappingType="sql"&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&amp;nbsp;xtkschema="xtk:schema"&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&amp;nbsp;sqltable="CusRecipient"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;key&amp;nbsp;name="email"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@email"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/key&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dbindex&amp;nbsp;name="id"&amp;nbsp;unique="true"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@id"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dbindex&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;key&amp;nbsp;internal="true"&amp;nbsp;name="id"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@id"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/key&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;label="Identifier"&amp;nbsp;name="id"&amp;nbsp;sqlname="iRecipientId"&amp;nbsp;type="long"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;desc="E-mail&amp;nbsp;address&amp;nbsp;of&amp;nbsp;recipient"&amp;nbsp;label="Email"&amp;nbsp;length="80"&amp;nbsp;name="email"&amp;nbsp;sqlname="sEmail"&amp;nbsp;type="string"/&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/schema&gt; 
+    </codeblock></li> 
+  </ul> 
+  <h3 id="auto-incremental-key">Auto-incremental key</h3> 
+  <p>The primary key of most Adobe Campaign tables is a 32-bit long integer auto-generated by the database engine. The calculation of the key value depends on a sequence (by default, the <strong>XtkNewId</strong> SQL function) generating a number that is unique in the entire database. The content of the key is automatically entered on insertion of the record.</p> 
+  <p>The advantage of an incremental key is that it provides a non-modifiable technical key for the joins between tables. In addition, this key does not occupy much memory because it uses a double-byte integer.</p> 
+  <p>You can specify in the source schema the name of the sequence to be used with the <strong>pkSequence</strong> attribute. If this attribute is not given in the source schema, the <strong>XtkNewId</strong> default sequence will be used. The application uses dedicated sequences for the <strong>nms:broadLog</strong> and <strong>nms:trackingLog</strong> schemas (<strong>NmsBroadLogId</strong> and <strong>NmsTrackingLogId</strong> respectively) because these are the tables that contain the most records.</p> 
+  <p>From ACC 18.10, <strong>XtkNewId</strong> is no more the default value for the sequence in the out-of-the-box schemas. You are now able to build schema or to extend existing schema with a dedicated sequence.</p> 
+  <note>
+    When creating a new schema or during a schema extension, you need to keep the same primary key sequence value (@pkSequence) for the whole schema. 
+   <br /> 
+  </note> 
+  <note> 
+   <p> A sequence referenced in an Adobe Campaign schema (<strong>NmsTrackingLogId</strong> for example) must be associated to a SQL function that returns the number of IDs in the parameters, separated by commas. This function must be called <strong>GetNew<strong>XXX</strong>Ids</strong>, where <strong>XXX</strong> is the name of the sequence (<strong>GetNewNmsTrackingLogIds</strong> for example). View the <strong>postgres-nms.sql</strong>, <strong>mssql-nms.sql</strong> or <strong>oracle-nms.sql</strong> files provided with the appliation in the <strong>datakit/nms/eng/sql/</strong> directory to recover the example of a 'NmsTrackingLogId' sequence creation for each database engine. <br /> </p> 
+  </note> 
+  <p>To declare a unique key, populate the <strong>autopk</strong> attribute (with value "true") on the main element of the data schema.</p> 
+  <p><strong>Example</strong>: </p> 
+  <p>Declaring an incremental key in the source schema:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;srcSchema&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&amp;nbsp;autopk="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+  </codeblock> 
+  <p>The schema generated:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;schema&amp;nbsp;mappingType="sql"&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&amp;nbsp;xtkschema="xtk:schema"&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&amp;nbsp;autopk="true"&amp;nbsp;pkSequence="XtkNewId"&amp;nbsp;sqltable="CusRecipient"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dbindex&amp;nbsp;name="id"&amp;nbsp;unique="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@id"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dbindex&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;key&amp;nbsp;internal="true"&amp;nbsp;name="id"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@id"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/key&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;desc="Internal&amp;nbsp;primary&amp;nbsp;key"&amp;nbsp;label="Primary&amp;nbsp;key"&amp;nbsp;name="id"&amp;nbsp;sqlname="iRecipientId"&amp;nbsp;type="long"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/schema&gt; 
+  </codeblock> 
+  <p>In addition to the definition of the key and its index, a numeric field called "id" has been added to the extended schema in order to contain the auto-generated primary key.</p> 
+  <note>
+    A record with a primary key set to 0 is automatically inserted on creation of the table. This record is used to avoid outer joins, which are not effective on volume tables. By default, all foreign keys are initialized with value 0 so that a result can always be returned on the join when the data item is not populated. 
+   <br /> 
+  </note> 
+  <h2 id="links--relation-between-tables">Links: relation between tables</h2> 
+  <p>A link describes the association between one table and another.</p> 
+  <p> The various types of associations (known as "cardinalities") are as follows:</p> 
+  <ul> 
+   <li><p>Cardinality 1-1: one occurrence of the source table can have at most one corresponding occurrence of the target table.</p> </li> 
+   <li><p>Cardinality 1-N: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.</p> </li> 
+   <li><p>Cardinality N-N: one occurrence of the source table can have several corresponding occurrences of the target table, and vice-versa.</p> </li> 
+  </ul> 
+  <p>In the interface, you can distinguish the different types of relations easily thanks to their icons.</p> 
+  <p>For join relations with a campain table/database: </p> 
+  <ul> 
+   <li> <p> <img height="21px" src="assets/join_with_campaign11.png" /> : Cardinality 1-1. For example, between a recipient and a current order. A recipient can be related to only one occurrence of the current order table at a time. </p> </li> 
+   <li> <p> <img height="21px" src="assets/externaljoin11.png" /> : Cardinality 1-1, external join. For example, between a recipient and their country. A recipient can be related to only one occurrence of the table country. The content of the country table will not be saved. </p> </li> 
+   <li> <p> <img height="21px" src="assets/join_with_campaign1n.png" /> : Cardinality 1-N. For example, between a recipient and the subscriptions table. A recipient can be related to several occurences on the subscriptions table. </p> </li> 
+  </ul> 
+  <p></p> 
+  <p>For join relations using Federated Database Access: </p> 
+  <ul> 
+   <li> <p> <img height="21px" src="assets/join_fda_11.png" /> : Cardinality 1-1</p> </li> 
+   <li> <p> <img height="21px" src="assets/join_fda_1m.png" /> : Cardinality 1-N</p> </li> 
+  </ul> 
+  <p></p> 
+  <p>For more information on FDA tables, refer to <a href="../../platform/using/accessing-an-external-database.md">Accessing an external database</a>.</p> 
+  <p>A link must be declared in the schema containing the foreign key of the table linked via the main element:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;element&amp;nbsp;name="name_of_link"&amp;nbsp;type="link"&amp;nbsp;target="key_of_destination_schema"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;join&amp;nbsp;xpath-dst="xpath_of_field1_destination_table"&amp;nbsp;xpath-src="xpath_of_field1_source_table"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;join&amp;nbsp;xpath-dst="xpath_of_field2_destination_table"&amp;nbsp;xpath-src="xpath_of_field2_source_table"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&lt;/element&gt; 
+  </codeblock> 
+  <p>Links obey the following rules:</p> 
+  <ul> 
+   <li><p>The definition of a link is entered on a <strong>link</strong>-type <strong> 
+      <element /></strong> with the following attributes:</p> 
+    <ul> 
+     <li><p><strong>name</strong>: name of link from the source table,</p> </li> 
+     <li><p><strong>target</strong>: name of target schema,</p> </li> 
+     <li><p><strong>label</strong>: label of link,</p> </li> 
+     <li><p><strong>revLink</strong> (optional): name of reverse link from the target schema (deduced automatically by default),</p> </li> 
+     <li><p><strong>integrity</strong> (optional): referential integrity of the occurrence of the source table to the occurrence of the target table. Possible values are as follows:</p> 
+      <ul> 
+       <li><p><strong>define</strong>: it is possible to delete the source occurrence if it is no longer referenced by a target occurrence,</p> </li> 
+       <li><p><strong>normal</strong>: deleting the source occurrence initializes the keys of the link to the target occurrence (default mode), this type of integrity initializes all foreign keys,</p> </li> 
+       <li><p><strong>own</strong>: deleting the source occurrence leads to the deletion of the target occurrence,</p> </li> 
+       <li><p><strong>owncopy</strong>: the same as <strong>own</strong> (in case of deletion) or duplicates the occurrences (in case of duplication),</p> </li> 
+       <li><p><strong>neutral</strong>: does nothing.</p> </li> 
+      </ul></li> 
+     <li><p><strong>revIntegrity</strong> (optional): integrity on the target schema (optional, "normal" by default),</p> </li> 
+     <li><p><strong>revCardinality</strong> (optional): with value "single" populates cardinality with type 1-1 (1-N by default).</p> </li> 
+     <li><p><strong>externalJoin</strong> (optional): forces the outer join</p> </li> 
+     <li><p><strong>revExternalJoin</strong> (optional): forces the outer join on the reverse link</p> </li> 
+    </ul></li> 
+   <li><p>A link references one or more fields from the source table to the destination table. The fields making up the join ( 
+     <join>
+       element) need not be populated because they are automatically deduced by default using the internal key of the target schema. 
+     </join></p> </li> 
+   <li><p>An index is automatically added to the foreign key of the link in the extended schema.</p> </li> 
+   <li><p>A link consists of two half-links, where the first is declared from the source schema and the second is created automatically in the extended schema of the target schema.</p> </li> 
+   <li><p>A join can be an outer join if the <strong>externalJoin</strong> attribute is added, with the value "true" (supported in PostgreSQL).</p> </li> 
+  </ul> 
+  <note> 
+   <p> As a standard, links are the elements declared at the end of the schema.<br /> </p> 
+  </note> 
+  <h3 id="example-1">Example 1</h3> 
+  <p>1-N relation to the "cus:company" schema table:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;srcSchema&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Company"&amp;nbsp;name="company"&amp;nbsp;revIntegrity="define"&amp;nbsp;revLabel="Contact"&amp;nbsp;target="cus:company"&amp;nbsp;type="link"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+  </codeblock> 
+  <p>The schema generated:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;schema&amp;nbsp;mappingType="sql"&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&amp;nbsp;xtkschema="xtk:schema"&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&amp;nbsp;sqltable="CusRecipient"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dbindex&amp;nbsp;name="companyId"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@company-id"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dbindex&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Company"&amp;nbsp;name="company"&amp;nbsp;revLink="recipient"&amp;nbsp;target="cus:company"&amp;nbsp;type="link"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;join&amp;nbsp;xpath-dst="@id"&amp;nbsp;xpath-src="@company-id"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/element&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;advanced="true"&amp;nbsp;label="Foreign&amp;nbsp;key&amp;nbsp;of&amp;nbsp;'Company'&amp;nbsp;link&amp;nbsp;(field&amp;nbsp;'id')"&amp;nbsp;name="company-id"&amp;nbsp;sqlname="iCompanyId"&amp;nbsp;type="long"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/schema&gt; 
+  </codeblock> 
+  <p>The link definition is supplemented by the fields making up the join, i.e. the primary key with its XPath ("@id") in the destination schema, and the foreign key with its XPath ("@company-id") in the schema.</p> 
+  <p>The foreign key is added automatically in an element that uses the same characteristics as the associated field in the destination table, with the following naming convention: name of target schema followed by name of associated field ("company-id" in our example). </p> 
+  <p>Extended schema of the target ("cus:company"):</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;schema&amp;nbsp;mappingType="sql"&amp;nbsp;name="company"&amp;nbsp;namespace="cus"&amp;nbsp;xtkschema="xtk:schema"&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="company"&amp;nbsp;sqltable="CusCompany"&amp;nbsp;autopk="true"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dbindex&amp;nbsp;name="id"&amp;nbsp;unique="true"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@id"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dbindex&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;key&amp;nbsp;internal="true"&amp;nbsp;name="id"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@id"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/key&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;desc="Internal&amp;nbsp;primary&amp;nbsp;key"&amp;nbsp;label="Primary&amp;nbsp;key"&amp;nbsp;name="id"&amp;nbsp;sqlname="iCompanyId"&amp;nbsp;type="long"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;belongsTo="cus:recipient"&amp;nbsp;integrity="define"&amp;nbsp;label="Contact"&amp;nbsp;name="recipient"&amp;nbsp;revLink="company"&amp;nbsp;target="nms:recipient"&amp;nbsp;type="link"&amp;nbsp;unbound="true"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;join&amp;nbsp;xpath-dst="@company-id"&amp;nbsp;xpath-src="@id"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/schema&gt; 
+  </codeblock> 
+  <p>A reverse link to the "cus:recipient" table was added with the following parameters:</p> 
+  <ul> 
+   <li><p><strong>name</strong>: automatically deduced from the name of the source schema (can be forced with the "revLink" attribute in the link definition on the source schema)</p> </li> 
+   <li><p><strong>revLink</strong>: name of reverse link</p> </li> 
+   <li><p><strong>target</strong>: key of linked schema ("cus:recipient" schema)</p> </li> 
+   <li><p><strong>unbound</strong>: the link is declared as a collection element for a 1-N cardinality (by default)</p> </li> 
+   <li><p><strong>integrity</strong>: "define" by default (can be forced with the "revIntegrity" attribute in the link definition on the source schema).</p> </li> 
+  </ul> 
+  <h3 id="example-2">Example 2</h3> 
+  <p>In this example, we will declare a link towards the "nms:address" schema table. The join is an outer join and is populated explicitly with the recipient's e-mail address and the "@address" field of the linked table ("nms:address").</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;srcSchema&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;integrity="neutral"&amp;nbsp;label="Info&amp;nbsp;about&amp;nbsp;email"&amp;nbsp;name="emailInfo"&amp;nbsp;revIntegrity="neutral"&amp;nbsp;revLink="recipient"&amp;nbsp;target="nms:address"&amp;nbsp;type="link"&amp;nbsp;externalJoin="true"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;join&amp;nbsp;xpath-dst="@address"&amp;nbsp;xpath-src="@email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+  </codeblock> 
+  <h3 id="example-3">Example 3</h3> 
+  <p>1-1 relation to the "cus:extension" schema table:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;element&amp;nbsp;integrity="own"&amp;nbsp;label="Extension"&amp;nbsp;name="extension"&amp;nbsp;revCardinality="single"&amp;nbsp;revLink="recipient"&amp;nbsp;target="cus:extension"&amp;nbsp;type="link"/&gt; 
+  </codeblock> 
+  <h3 id="example-4">Example 4</h3> 
+  <p>Link to a folder ("xtk:folder" schema):</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;element&amp;nbsp;default="DefaultFolder('nmsFolder')"&amp;nbsp;label="Folder"&amp;nbsp;name="folder"&amp;nbsp;revDesc="Recipients&amp;nbsp;in&amp;nbsp;the&amp;nbsp;folder"&amp;nbsp;revIntegrity="own"&amp;nbsp;revLabel="Recipients"&amp;nbsp;target="xtk:folder"&amp;nbsp;type="link"/&gt; 
+  </codeblock> 
+  <p>The default value returns the identifier of the first eligible parameter type file entered in the "DefaultFolder('nmsFolder')" function.</p> 
+  <h3 id="example-5">Example 5</h3> 
+  <p>In this example, we wish to create a key on a link ("company" to "cus:company" schema) with the <strong>xlink</strong> attribute and a field of the ("email") table:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;srcSchema&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;key&amp;nbsp;name="companyEmail"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xlink="company"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/key&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;name="email"&amp;nbsp;type="string"&amp;nbsp;length="80"&amp;nbsp;label="Email"&amp;nbsp;desc="Recipient&amp;nbsp;email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Company"&amp;nbsp;name="company"&amp;nbsp;revIntegrity="define"&amp;nbsp;revLabel="Contact"&amp;nbsp;target="cus:company"&amp;nbsp;type="link"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/srcSchema&gt; 
+  </codeblock> 
+  <p>The schema generated:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;schema&amp;nbsp;mappingType="sql"&amp;nbsp;name="recipient"&amp;nbsp;namespace="cus"&amp;nbsp;xtkschema="xtk:schema"&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="recipient"&amp;nbsp;sqltable="CusRecipient"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dbindex&amp;nbsp;name="companyId"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@company-id"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dbindex&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dbindex&amp;nbsp;name="companyEmail"&amp;nbsp;unique="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@email"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@company-id"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dbindex&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;key&amp;nbsp;name="companyEmail"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@email"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;keyfield&amp;nbsp;xpath="@company-id"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/key&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;desc="E-mail&amp;nbsp;address&amp;nbsp;of&amp;nbsp;recipient"&amp;nbsp;label="Email"&amp;nbsp;length="80"&amp;nbsp;name="email"&amp;nbsp;sqlname="sEmail"&amp;nbsp;type="string"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Company"&amp;nbsp;name="company"&amp;nbsp;revLink="recipient"&amp;nbsp;target="sfa:company"&amp;nbsp;type="link"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;join&amp;nbsp;xpath-dst="@id"&amp;nbsp;xpath-src="@company-id"/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/element&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;advanced="true"&amp;nbsp;label="Foreign&amp;nbsp;key&amp;nbsp;of&amp;nbsp;link&amp;nbsp;'Company'&amp;nbsp;(field&amp;nbsp;'id')"&amp;nbsp;name="company-id"&amp;nbsp;sqlname="iCompanyId"&amp;nbsp;type="long"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&lt;/schema&gt; 
+  </codeblock> 
+  <p>The definition of the "companyEmail" name key was extended with the foreign key of the "company" link. This key generates a unique index on both fields.</p> 
+ </body> 
+</html>

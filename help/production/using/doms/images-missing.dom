@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="light" name="heroGradient" />
+  <meta content="3bd1f900-e378-442e-a0b5-48da802160b7" name="jcr:uuid" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Images missing" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:production" name="primaryAudienceTag" />
+  <meta content="Images missing" name="jcr:description" />
+  <meta content="Images missing" name="jcr:title" />
+  <meta content="" name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-08-06T06:59:03.030-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="6c3b7de7-652c-4079-beb5-177aede9a68e" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>In the 17.9 release, several files (icons in particular) have been moved.</p> 
+  <p>For hosted customers, there is no impact. For on-premise installations, please read the following.</p> 
+  <p><strong>Apache users:</strong></p> 
+  <p>There is no impact for Apache users if they use the provided <strong>apache_neolane.conf</strong></p> 
+  <p><strong>IIS users:</strong></p> 
+  <p>For IIS users (on Windows), several icons will appear missing in the console after the build update. Additional IIS update steps are required:</p> 
+  <ol>
+   <li><p>After the build update, double-click on <strong>iis_neolane_setup.vbs</strong> located in the Campaign installation directory. The default path is C:Program Files (x86)AdobeAdobe Campaign v7tomcat-7conf</p> </li>
+   <li><p>Restart the IIS site that has been updated by the previous step.</p> </li>
+  </ol>
+ </body>
+</html>

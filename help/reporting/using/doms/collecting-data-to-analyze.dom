@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="seoDescription" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference;audience:reporting" name="cq:tags" />
+  <meta content="1f364a00-0164-4d37-86a4-a7a2d56ba02e" name="jcr:uuid" />
+  <meta content="light" name="heroGradient" />
+  <meta content="faef1b55-6d97-4478-bd59-bade201723ca" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Collecting data to analyze" name="jcr:title" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-08-06T06:59:35.646-0400" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Collecting data to analyze" name="jcr:description" />
+  <meta content="Collecting data to analyze" name="navTitle" />
+ </head>
+ <body>
+  <p>The data to be used for building the report can be selected directly in the report page (for more on this, refer to <a href="../../reporting/using/using-the-context.md" target="_blank">Using the context</a>) or collected via one or more queries. </p> 
+  <p>This activity offers three different methods: </p> 
+  <ol>
+   <li><p>Building a query using the data in the database.</p> </li>
+   <li><p>Processing the data contained in a list.</p> </li>
+   <li><p>Using data contained in an existing cube.</p> </li>
+  </ol>
+  <p>The choice of method depends on the type of calculation, the data volume and their durability, etc. All these parameters must be examined carefully to avoid overloading the Adobe Campaign database and to optimize the generation and manipulation of the created reports. For more on this, refer to <a href="../../reporting/using/optimizing-report-creation.md">this page</a>.</p> 
+  <p>In all cases, data is collected via a <strong>Query</strong> type activity.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_query_edit.png" title="reporting_query_edit.png" />
+  <p>This data selection mode is relevant when the data in the report needs to be collected or built using data in the database. In some cases, you can also select the data straight from the elements used in the report. For instance when inserting a chart, you can select the source data directly. For more on this, refer to <a href="../../reporting/using/using-the-context.md" target="_blank">Using the context</a>.</p> 
+  <h2 id="using-the-data-from-a-schema">Using the data from a schema</h2>
+  <p>To use data linked to a database schema, select the appropriate option in the query editor and configure the query to be applied.</p> 
+  <p>The following example lets you collect the number of recipients for each country, among the profiles in the database. They can then be displayed in a report in the form of a table.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_query_from_schema.png" title="reporting_query_from_schema.png" />
+  <h2 id="using-an-imported-list">Using an imported list</h2>
+  <p>To create a report, you can use data from a list of imported data.</p> 
+  <p>To do this, select the <strong>Use an imported list</strong> option in the query box and select the concerned list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_query_from_list.png" title="reporting_query_from_list.png" />
+  <p>Click the <strong>Edit query...</strong> link to define the data to collect among the elements in this list for building the report.</p> 
+  <h2 id="using-a-cube">Using a cube</h2>
+  <p>It's possible to select a Cube for defining the query.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_query_from_cube.png" title="reporting_query_from_cube.png" />
+  <p>Cubes enable you to extend the database's exploration and analysis capacities while making for easier configuration of reports and tables for end users: simply select an existing, fully configured Cube and use its calculations, measures and statistics. For more on creating cubes, refer to <a href="../../reporting/using/about-cubes.md">this section</a>.</p> 
+  <p>Click the <strong>Edit query...</strong> link and select the indicators that you want to display or use in your report.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_query_from_cube_edit_query.png" title="reporting_query_from_cube_edit_query.png" />
+  <h2 id="filtering-options-in-the-queries">Filtering options in the queries</h2>
+  <p>To avoid running queries on the entire database, the data needs to be filtered.</p> 
+  <h3 id="simplified-filter">Simplified filter</h3>
+  <p>You can select the <strong>Filter automatically with the context</strong> option to make the report accessible via a specific node of the tree such as a list, a recipient, or a delivery. </p> 
+  <p>The <strong>Filter with the folder</strong> option lets you specify a folder and take into account only its contents. This lets you filter the report data to show only the data from one of the folders in the tree, as shown below: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reporting_control_folder.png" title="reporting_control_folder.png" />
+  <h3 id="limiting-the-amount-of-data-collected">Limiting the amount of data collected</h3>
+  <p>Configure the number of records to be extracted via the query using the result limiting options: </p> 
+  <ul>
+   <li><p><strong>Limit to first record</strong> to extract one result,</p> </li>
+   <li><p><strong>Size</strong> to extract a set number of records.</p> </li>
+  </ul>
+ </body>
+</html>

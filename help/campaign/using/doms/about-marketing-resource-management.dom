@@ -1,0 +1,52 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-08-06T06:59:09.479-0400" name="jcr:created" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="About marketing resource management" name="jcr:description" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="888f8b12-c8f4-4298-941b-2a763812c417" name="jcr:uuid" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="About marketing resource management" name="navTitle" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="About marketing resource management" name="jcr:title" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="audience:campaign" name="primaryAudienceTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="69756fc1-9842-45f6-b4e0-b70bc647f20a" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+ </head> 
+ <body> 
+  <h2 id="introduction">Introduction</h2> 
+  <p>The Marketing Resource Management (MRM) module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved. </p> 
+  <p>Adobe Campaign operators can coordinate their actions and approve their progress at all stages via complete validation processes and appropriate tracking tools: reporting, tracking of approvals, notifications, discussion forums, etc. They are alerted in the event or error or delay, and at each new stage of the validation cycle. </p> 
+  <p>Thus, in the context of the programs and sub-programs of marketing plans, tasks can be created and assigned to the operators concerned, and then managed through all their phases.</p> 
+  <p>MRM also lets you manage marketing resources in which several participants are involved: the integrity and monitoring of resources is performed via a dedicated dashboard. </p> 
+  <p>Finally, the management of budgets is broadened thanks to the management of targets and expense lines and an extended offer of standard reports; in this way, you can monitor and accurately measure the productivity and performance of all marketing activities.</p> 
+  <h2 id="core-concepts">Core concepts</h2> 
+  <p>In the context of Adobe Campaign, the following concepts must be defined:</p> 
+  <ul> 
+   <li><p>Task</p> <p>A task corresponds to an action to be carried out in the context of a campaign. A task is assigned to a group or person. A child task can be dependent on a parent task, meaning that the parent task will not be performed until all child tasks are complete. Examples of tasks include: referencing a website, a budget review, a brief, etc.</p> <p>For more on this, refer to <a href="../../campaign/using/creating-and-managing-tasks.md" target="_blank">Creating and managing tasks</a>.</p> </li> 
+   <li><p>Marketing resources</p> <p>Adobe Campaign lets you track the progress of collaborative marketing projects such as communication media, action plans, newsletters, etc. The creation and approval cycle of these marketing resources can be tracked from the resource dashboard until their publication. </p> <p>For more on this, refer to <a href="../../campaign/using/managing-marketing-resources.md" target="_blank">Managing marketing resources</a>.</p> </li> 
+  </ul> 
+  <h2 id="user-friendliness">User-friendliness</h2> 
+  <note> 
+   <p> For more on the overall Adobe Campaign workspace, refer to <a href="../../platform/using/adobe-campaign-workspace.md">this section</a>.<br /> All functionalities linked to deliveries and profile management are detailed in <a href="../../delivery/using/communication-channels.md">this section</a>.<br /> All campaign related functionalities are detailed in <a href="../../campaign/using/accessing-marketing-campaigns.md" target="_blank">Accessing marketing campaigns</a>.<br /> </p> 
+  </note> 
+  <p> Additionally, plans and programs in Adobe Campaign offer extra functionalities:</p> 
+  <ul> 
+   <li><p>Budget management. For more on this, refer to <a href="../../campaign/using/controlling-costs.md" target="_blank">Controlling costs</a>,</p> </li> 
+   <li><p>Task management. For more on this, refer to <a href="../../campaign/using/creating-and-managing-tasks.md" target="_blank">Creating and managing tasks</a>,</p> </li> 
+   <li><p>Marketing resource management. For more on this, refer to <a href="../../campaign/using/managing-marketing-resources.md" target="_blank">Managing marketing resources</a>.</p> </li> 
+  </ul> 
+ </body> 
+</html>

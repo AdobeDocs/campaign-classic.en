@@ -1,0 +1,110 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:web" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Building a survey" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Building a survey" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Building a survey" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="da38fabb-2d83-4813-88db-1897cdaa4f5d" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2019-08-06T06:59:06.741-0400" name="jcr:created" />
+  <meta content="986c3b52-0526-4cd7-9d14-6fc7c7f81f1b" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="seoDescription" />
+ </head>
+ <body>
+  <h2 id="creating-a-new-survey">Creating a new survey</h2>
+  <p>This chapter details the designing of a <strong>Survey</strong> type form using Adobe Campaign, as well as the available options and configurations. Adobe Campaign lets you make this survey available to users and collect and archive answers in the database.</p> 
+  <p>Web forms are accessed via the <strong>Resources &gt; Online &gt; Web applications</strong> node of the tree. To create a survey, click the <strong>New</strong> button above the list of applications, or right-click the list and choose <strong>New</strong>. </p> 
+  <p>Select the survey template (<strong>newSurvey</strong> by default).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_select_template.png" title="s_ncs_admin_survey_select_template.png" />
+  <p>The pages of the form are created using a special editor that lets you define and configure (text) input fields, selection fields (lists, checkboxes, etc.) and static elements (images, HTML content, etc.). They can be collected in "containers" and laid out according to requirements (see <a href="../../web/using/building-a-survey.md#adding-questions" target="_blank">Adding questions</a>). </p> 
+  <note>
+   <p> For more on how to define content and create screen layouts for a Web form, refer to <a href="../../web/using/about-web-forms.md">this section</a>.<br /> </p> 
+  </note>
+  <h2 id="adding-fields">Adding fields</h2>
+  <p>The fields in a form enable users to enter information and select options. For each page in the form, they are created via the first button in the toolbar using the <strong>Add using the wizard</strong> menu. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_add_field_menu.png" title="s_ncs_admin_survey_add_field_menu.png" />
+  <note>
+   <p> You can also use a right-click and insert an input zone. By default, the zone is inserted at the end of the selected tree. Use the arrows in the toolbar to move it.<br /> </p> 
+  </note>
+  <h3 id="types-of-fields">Types of fields</h3>
+  <p>When you add a field to a survey you need to select its type. The following options are available:</p> 
+  <ol>
+   <li><p><strong>Answer a question</strong>: this option lets you declare a new field (known as 'archived field') to store answers. In this case, all values collected are saved, even when a participant fills in the form more than once. This storage mode is only available in <strong>Surveys</strong>. Refer to <a href="../../web/using/building-a-survey.md#storing-collected-answers" target="_blank">Storing collected answers</a>.</p> </li>
+   <li><p><strong>Edit a recipient</strong>: this option lets you select a field in the database. In this case, user answers will be stored in this field. For each participant, only the last value saved is kept, and added to the profile data.</p> </li>
+   <li><p><strong>Add a variable</strong>: this option lets you create a setup so that information is not stored in the database. Local variables can be declared upstream. You can also add them directly when creating the field.</p> </li>
+   <li><p><strong>Import an existing question</strong>: this option lets you import existing questions created in other surveys.</p> 
+    <note>
+     <p> Standard storage modes and field imports are detailed in <a href="../../web/using/building-a-survey.md#storing-collected-answers" target="_blank">Storing collected answers</a>.<br /> </p> 
+    </note></li>
+  </ol>
+  <p>The nature of the field to add (drop-down list, text field, checkboxes, etc.) adapts to the storage mode selected. You can change it using the <strong>Type</strong> field of the <strong>General</strong> tab, but make sure to remain consistent with the data type.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_change_type.png" title="s_ncs_admin_survey_change_type.png" />
+  <p>The various types of available fields are detailed in <a href="../../web/using/about-web-forms.md">this section</a>.</p> 
+  <h2 id="survey-specific-elements">Survey-specific elements</h2>
+  <p>Online surveys are using Web applications capabilities. Specific features linked to survey fields are detailed below.</p> 
+  <h3 id="multiple-choice">Multiple choice</h3>
+  <p>For <strong>Multiple choice</strong> type controls, you can define a minimum and maximum number of selections. For example, this option enables you to force the selection to at least <strong>2</strong> values and at most <strong>4</strong> values from the available options:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_multichoice_ex1.png" title="s_ncs_admin_survey_multichoice_ex1.png" />
+  <p>If the number of selections is too big or too small, the appropriate message is displayed.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_multichoice_ex2.png" title="s_ncs_admin_survey_multichoice_ex2.png" />
+  <note>
+   <p> In this case, the options are selected using checkboxes. When only one option is possible, radio buttons are used.<br /> </p> 
+  </note>
+  <p>The corresponding configuration is as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_multichoice_ex3.png" title="s_ncs_admin_survey_multichoice_ex3.png" />
+  <p>In addition, the storage location for this input field must be a <strong>Multiple values</strong> type <strong>archived field</strong>: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_multiple_values_field.png" title="s_ncs_admin_survey_multiple_values_field.png" />
+  <note> 
+   <ul> 
+    <li> <p>This functionality is only available for <strong>Survey</strong> type forms. </p> </li> 
+    <li> <p>This option isn't compatible with random question display. For more on this, refer to <a href="../../web/using/building-a-survey.md#adding-questions" target="_blank">Adding questions</a>.</p> </li> 
+   </ul> 
+  </note>
+  <h3 id="adding-questions">Adding questions</h3>
+  <p>There are two types of containers: standard and question. Standard containers are used to configure page layout and conditional display in a page. They are detailed in <a href="../../web/using/about-web-forms.md">this section</a>.</p> 
+  <p>Use a <strong>Question</strong> container to add a question to the page and to insert the possible answers below in the hierarchy. User responses to questions placed in this type of container can be analyzed in reports. </p> 
+  <note>
+    Never insert a 
+   <strong>Question</strong> container below another 
+   <strong>Question</strong> container in the hierarchy.
+   <br /> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_question_label.png" title="s_ncs_admin_question_label.png" />
+  <p>The label of the question is entered in the label field. In this case, the style from the form's style sheet will be applied. Select the <strong>Enter the title in HTML format</strong> option to personalize it. This will give you access to the HTML editor.</p> 
+  <note>
+   <p> Refer to <a href="../../web/using/about-web-forms.md">this section</a> for more on using the HTML editor.<br /> </p> 
+  </note>
+  <p>For example:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_containers_qu_arbo.png" title="s_ncs_admin_survey_containers_qu_arbo.png" />
+  <p>In the example above, the rendering will be as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_containers_qu_ex.png" title="s_ncs_admin_survey_containers_qu_ex.png" />
+  <note>
+   <p> Every question has a <strong>Question</strong> type container.<br /> </p> 
+  </note>
+  <p>You can enable the random drawing of questions by Adobe Campaign. It is then possible to specify the number of questions to be displayed in the page, in the field located at the bottom of the configuration window.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_containers_qu_display.png" title="s_ncs_admin_survey_containers_qu_display.png" />
+  <p>The rendering will look like this:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_containers_qu_display_rendering.png" title="s_ncs_admin_survey_containers_qu_display_rendering.png" />
+  <p>When the page is refreshed, the questions displayed are not the same.</p> 
+  <note>
+    When you display a question randomly (
+   <strong>Display randomly</strong> option checked on the page), be careful not to use multiple choice questions for which one or more selections are mandatory. 
+   <br /> 
+  </note>
+ </body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="8b36c34e-1c14-4988-a22a-0b191d9c6132" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="a1c7772c-c0bf-4dcc-8c60-f676f97705f9" name="jcr:uuid" />
+  <meta content="Managing propensity" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Managing propensity" name="jcr:description" />
+  <meta content="2019-08-06T06:59:19.240-0400" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="seoDescription" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="Managing propensity" name="jcr:title" />
+ </head>
+ <body>
+  <p>You can choose to force the execution of a workflow or workflow activity on a specific machine. To do this, you must define one or more propensities at the level of the workflow or the concerned activity. </p> 
+  <p>High availability workflow configuration is detailed in this <a href="../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities">section</a>.</p> 
+ </body>
+</html>

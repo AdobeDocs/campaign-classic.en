@@ -1,0 +1,58 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Creating an Experience Manager newsletter" name="jcr:description" />
+  <meta content="3762b421-45c8-46fe-ae3a-567550c0d2e7" name="jcr:uuid" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Creating an Experience Manager newsletter" name="jcr:title" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Creating an Experience Manager newsletter" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:integrations" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="2019-08-06T06:59:40.093-0400" name="jcr:created" />
+  <meta content="5ea2e1e4-0d15-496e-989f-b9f841b92f85" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;topic_tags:adobe-experience-manager;content_type:reference" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <p>This integration can be used for example to create a newsletter in Adobe Experience Manager which will then be used in Adobe Campaign as part of an email campaign.</p> 
+  <p>For a more detailed example on how to use this integration, refer to this <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html">step-by-step guide</a>.</p> 
+  <p><strong>From Adobe Experience Manager:</strong></p> 
+  <ol>
+   <li><p>From your AEM author instance, click the <strong>Adobe Experience</strong> logo in the upper left side of the page and select <strong>Sites</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_uc_1.png" title="aem_uc_1.png" /></li>
+   <li><p>Select <strong>Campaigns &gt; Name of your brand (here We.Retail) &gt; Master Area &gt; Email campaigns</strong>.</p> </li>
+   <li><p>Click the <strong>Create</strong> button in the upper right side of the page then select <strong>Page</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_uc_2.png" title="aem_uc_2.png" /></li>
+   <li><p>Select the <strong>Adobe Campaign Email (AC 6.1)</strong> template and name your newsletter.</p> </li>
+   <li><p>Once your page is created, access the <strong>Page information</strong> menu and click <strong>Open Properties</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_uc_3.png" title="aem_uc_3.png" /></li>
+   <li><p>In the <strong>Cloud Services</strong> tab, select <strong>Adobe Campaign</strong> as <strong>Cloud service configuration</strong> and your Adobe Campaign instance in the second drop-down.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_uc_4.png" title="aem_uc_4.png" /></li>
+   <li><p>Edit your email content by adding components, e.g. personalization fields from Adobe Campaign.</p> </li>
+   <li><p>When your email is ready, access the <strong>Page information</strong> menu and click <strong>Start workflow</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_uc_5.png" title="aem_uc_5.png" /></li>
+   <li><p>From the first drop-down, select<strong> Publish to Adobe Campaign</strong> as workflow model and click <strong>Start workflow</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_uc_6.png" title="aem_uc_6.png" /></li>
+   <li><p>Then, as the previous step, launch the <strong>Approve for Campaign</strong> workflow.</p> </li>
+   <li><p>A disclaimer appears on top of your page. Click <strong>Complete</strong> to confirm the review and click <strong>Ok</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_uc_7.png" title="aem_uc_7.png" /></li>
+   <li><p>Click again <strong>Complete</strong> and select <strong>Newsletter approval</strong> in the <strong>Next Step</strong> drop-down.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_uc_8.png" title="aem_uc_8.png" /></li>
+  </ol>
+  <p>Your newsletter is now ready and synchronized in Adobe Campaign.</p> 
+  <p><strong>From Adobe Campaign:</strong></p> 
+  <ol>
+   <li><p>From the <strong>Campaigns</strong> tab, click <strong>Deliveries</strong> then <strong>Create</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_uc_9.png" title="aem_uc_9.png" /></li>
+   <li><p>In the <strong>Delivery template</strong> drop-down, select the <strong>Email delivery with AEM content (mailAEMContent)</strong> template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_uc_10.png" title="aem_uc_10.png" /></li>
+   <li><p>Add a <strong>Label</strong> to your delivery and click <strong>Continue</strong>.</p> </li>
+   <li><p>Click the <strong>Synchronize</strong> button.</p> <p>If this button does not appear in your interface, click the <strong>Properties</strong> button and select the <strong>Advanced</strong> tab. The <strong>Content editing mode</strong> field should be set to <strong>AEM</strong> with your AEM instance in the <strong>AEM account</strong> field.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_uc_11.png" title="aem_uc_11.png" /></li>
+   <li><p>Select the delivery previously created in Adobe Experience Manager and click <strong>Ok</strong>.</p> </li>
+   <li><p>Click the <strong>Refresh content</strong> button as soon as some changes are made to your AEM delivery.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_uc_12.png" title="aem_uc_12.png" /></li>
+  </ol>
+  <p>Your email is now ready to be send to your audience.</p> 
+ </body>
+</html>

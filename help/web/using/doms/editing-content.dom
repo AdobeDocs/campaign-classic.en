@@ -1,0 +1,193 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Editing content" name="jcr:title" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="audience:web" name="primaryAudienceTag" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="38d06416-6e0b-427b-990a-83f1efca62ce" name="jcr:predecessors" /> 
+  <meta content="Editing content" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2019-08-06T06:59:04.131-0400" name="jcr:created" /> 
+  <meta content="01c9c5a7-68cf-44f3-b8a4-c351a503b909" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Editing content" name="jcr:description" /> 
+ </head> 
+ <body> 
+  <h2 id="defining-a-visibility-condition">Defining a visibility condition</h2> 
+  <p>You can specify a visibility condition on a web page element: this element will only be visible if the condition is respected.</p> 
+  <p>To add a visibility condition, select a block and enter the condition in the <strong>Visibility condition</strong> field using the expression editor.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_add_condition.png" title="DCE_add_condition.png" /> 
+  <note> 
+   <p> Advanced expression editing is presented on <a href="../../platform/using/defining-filter-conditions.md#list-of-functions">this page</a>.<br /> </p> 
+  </note> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_popup_visibilitycondition.png" title="DCE_popup_visibilitycondition.png" /> 
+  <p>These conditions adopt the XTK expression syntax (for example <strong>ctx.recipient.@email != ""</strong> or <strong>ctx.recipient.@status=="0"</strong>). By default, all fields are visible.</p> 
+  <note> 
+   <p> Non-visible dynamic blocks, such as drop-down menus, cannot be edited.<br /> </p> 
+  </note> 
+  <h2 id="adding-a-border-and-background">Adding a border and background</h2> 
+  <p>You can add a <strong>border</strong> to a selected block. The borders are defined using three options: style, size and color.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_popup_border.png" title="DCE_popup_border.png" /> 
+  <p>You can also define a <strong>background color</strong> by selecting a color from the color chart.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_popup_background.png" title="DCE_popup_background.png" /> 
+  <h2 id="editing-forms">Editing forms</h2> 
+  <h3 id="changing-the-data-properties-for-a-form">Changing the data properties for a form</h3> 
+  <p>You can link database fields with input zone, radio button or checkbox type blocks.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_sidebar_field.png" title="DCE_sidebar_field.png" /> 
+  <note> 
+   <p> The default fields are those in the Web application storage schema.<br /> </p> 
+  </note> 
+  <p>The <strong>field</strong> input zone lets you select a database field to link with the form field.</p> 
+  <p> By default, the fields offered are those in the <strong>nms:recipient</strong> table.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_field_selection.png" title="DCE_field_selection.png" /> 
+  <p>The <strong>Required field</strong> option lets you only authorize the page's approval if the user has filled in the field. If a required field is not filled in, an error message will appear.</p> 
+  <p>For radio buttons and checkboxes, <strong>additional configuration is required</strong>.</p> 
+  <p>Indeed, if the template used does not contain a value by default, you must complete it in the editor.</p> 
+  <p>To do this: </p> 
+  <ul> 
+   <li><p>Click the <strong>Edit</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dce_sidebar_options.png" title="DCE_sidebar_options.png" /></li> 
+   <li><p>Enter the itemized list value (defined by the selected field) into the <strong>Value</strong> field.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dce_sidebar_completeoptionradio.png" title="DCE_sidebar_completeoptionradio.png" /></li> 
+  </ul> 
+  <h3 id="modifying-form-fields">Modifying form fields</h3> 
+  <p>Form fields such as radio buttons, input zones, drop-down lists, etc. can be modified from their toolbars.</p> 
+  <p>This means you can:</p> 
+  <ul> 
+   <li><p>Delete the block containing the form fields using the <strong>Delete</strong> icon.</p> </li> 
+   <li><p>Duplicate the selected field by creating a new block using the <strong>Duplicate</strong> icon.</p> </li> 
+   <li><p>Edit the <strong>Form data</strong> window to link a database field to the form zone, using the <strong>Edit</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dce_toolbar_formblock_edition.png" title="DCE_toolbar_formblock_edition.png" /></li> 
+  </ul> 
+  <h2 id="adding-an-action-to-a-button">Adding an action to a button</h2> 
+  <p>When the user clicks a button, you can define an associated action. To do this, select the action to be carried out from the drop-down list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_sidebar_button.png" title="DCE_sidebar_button.png" /> 
+  <p>The actions available are as follows:</p> 
+  <ul> 
+   <li><p><strong>Refresh</strong>: refreshes the current page.</p> </li> 
+   <li><p><strong>Next page</strong>: creates a link to the next page in the Web application.</p> </li> 
+   <li><p> <strong>Previous page</strong>: creates a link to the previous page in the Web application.</p> </li> 
+  </ul> 
+  <note> 
+   <p> The <strong>None</strong> value allows you to not activate the button.<br /> </p> 
+  </note> 
+  <p>You can modify the label linked to the button in the corresponding field.</p> 
+  <h2 id="adding-a-link">Adding a link</h2> 
+  <p>You can insert a link into any page element: image, word, group of words, block of text, etc.</p> 
+  <p>To do this, select the element then use the first icon from the pop-up menu.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_insertlink_icon.png" title="DCE_insertlink_icon.png" /> 
+  <p>This icon lets you access all the available types of links.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_insertlink_menu.png" title="DCE_insertlink_menu.png" /> 
+  <p>Personalization blocks and fields can only be inserted into Text type blocks.</p> 
+  <note> 
+   <p> For each type of link, you can configure the opening mode: select the target window in the <strong>Target</strong> drop-down list. This value corresponds to the <strong> 
+     <target /></strong> HTML tag.<br /> The list of available <strong>targets</strong> is as follows:<br /> </p> 
+   <ul> 
+    <li> <p>Other (IFrame)</p> </li> 
+    <li> <p>Top window (_top)</p> </li> 
+    <li> <p>Parent window (_parent)</p> </li> 
+    <li> <p>New window (_blank)</p> </li> 
+    <li> <p>Current window (_self)</p> </li> 
+    <li> <p>Default browser behavior</p> </li> 
+   </ul> 
+   <p></p> 
+  </note> 
+  <h3 id="link-to-a-url">Link to a URL</h3> 
+  <p>The <strong>Link to an external URL</strong> option lets you open any URL from the source content. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_toolbar_imgblock_externallink.png" title="DCE_toolbar_imgblock_externallink.png" /> 
+  <p> Enter the link address in question into the <strong>URL</strong> field. The URL field should be entered as: <strong>https://www.myURL.com</strong>.</p> 
+  <h3 id="link-to-a-web-application">Link to a Web application</h3> 
+  <p>The <strong>Link to a Web application</strong> option lets you access an Adobe Campaign Web application.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_toolbar_imgblock_appweb.png" title="DCE_toolbar_imgblock_appWeb.png" /> 
+  <p>Select the Web application from the corresponding field.</p> 
+  <p>The list of suggested Web applications corresponds to the available applications in the <strong>Resources &gt; Online &gt; Web Applications</strong> node. </p> 
+  <h3 id="link-to-an-action">Link to an action</h3> 
+  <p>The <strong>Link that defines an action</strong> option lets you configure an action when clicking a source element.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_toolbar_imgblock_action.png" title="DCE_toolbar_imgblock_action.png" /> 
+  <note> 
+   <p> Available actions are detailed in the <a href="../../web/using/editing-content.md#adding-an-action-to-a-button" target="_blank">Adding an action to a button</a> section.<br /> </p> 
+  </note> 
+  <h3 id="delete-a-link">Delete a link</h3> 
+  <p> When a link has been inserted, the tool bar offers two new icons: <strong>Edit link </strong> and <strong>Break the link</strong> that let you interact with the link created.</p> 
+  <ul> 
+   <li><p><strong>Edit link</strong> lets you display a window featuring all the parameters of the link.</p> </li> 
+   <li><p><strong>Break the link</strong> lets you delete, after confirmation, the link and all related parameters.</p> </li> 
+  </ul> 
+  <note> 
+   <p> If the link is deleted, the content is still kept.<br /> </p> 
+  </note> 
+  <h2 id="changing-font-attributes">Changing font attributes</h2> 
+  <p>When you select a text element, you can modify font attributes (style, format).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_toolbar_txt.png" title="DCE_toolbar_txt.png" /> 
+  <p>The available options are as follows:</p> 
+  <ul> 
+   <li><p><strong>Enlarge font</strong> icon: increases the size of the selected text (add )</p> </li> 
+   <li><p><strong>Reduce font</strong> icon: reduces the size of the selected text (add ).</p> </li> 
+   <li><p><strong>Bold</strong> icon: makes selected text bold (wrap text with the <strong></strong> tag).</p> </li> 
+   <li><p><strong>Italic</strong> icon: makes selected text italic (wrap text with the <em></em> tag).</p> </li> 
+   <li><p><strong>Underline</strong> icon: makes selected text underlined (wrap text with the  tag).</p> </li> 
+   <li><p><strong>Align left</strong> icon: aligns text to the left of the selected block (add style="text-align: left;").</p> </li> 
+   <li><p><strong>Center</strong> icon: centers the text for the selected block (add style="text-align: center;").</p> </li> 
+   <li><p><strong>Align right</strong> icon: aligns text to the right of the selected block (add style="text-align: right;").</p> </li> 
+   <li><p><strong>Change the background color</strong> icon: lets you change the background color for the selected block (add style="background-color: rgba(170, 86, 255, 0.87)).</p> </li> 
+   <li><p><strong>Change text color</strong> icon: lets you change the text color of the selected block or just the selected text ().</p> </li> 
+  </ul> 
+  <note> 
+   <p> </p> 
+   <ul> 
+    <li> <p><strong>Delete</strong> icon: deletes the block and all its content.</p> </li> 
+    <li> <p><strong>Duplicate</strong> icon: duplicates the block as well as all the styles related to the block.</p> </li> 
+   </ul> 
+   <p></p> 
+  </note> 
+  <h2 id="managing-images-and-animations">Managing images and animations</h2> 
+  <p>The Digital Content Editor lets you work on <strong>any type of image</strong> compatible with browsers. </p> 
+  <p>To be compatible with the DCE, <strong>"Flash" type animations</strong> must be inserted into an HTML page in the following way:</p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!&lt;object&amp;nbsp;type="application/x-shockwave-flash"&amp;nbsp;data="https://www.mydomain.com/flash/your_animation.swf"&amp;nbsp;width="200"&amp;nbsp;height="400"&gt;!!discoiqbr!!&amp;nbsp;&lt;param&amp;nbsp;name="movie"&amp;nbsp;value="https://www.mydomain.com/flash/your_animation.swf"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&lt;param&amp;nbsp;name="quality"&amp;nbsp;value="high"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&lt;param&amp;nbsp;name="play"&amp;nbsp;value="true"/&gt;!!discoiqbr!!&amp;nbsp;&lt;param&amp;nbsp;name="loop"&amp;nbsp;value="true"/&gt;&amp;nbsp;!!discoiqbr!!&lt;/object&gt;!!discoiqbr!! 
+  </codeblock> 
+  <note>
+    You must not call up 
+   <strong>external files in a <script> tag&lt;/strong&gt; of the HTML page. These files will not be imported onto the Adobe Campaign server.&lt;br/&gt; </script></strong> 
+  </note> 
+  <h3 id="adding---deleting---duplicating-an-image">Adding / Deleting / Duplicating an image</h3> 
+  <p>To insert an image, select an Image type block and click the <strong>Image</strong> icon.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_insert_image.png" title="DCE_insert_image.png" /> 
+  <p>Select an image file saved locally.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_popup_imgupload.png" title="DCE_popup_imgupload.png" /> 
+  <p>The <strong>Delete</strong> icon deletes the <img /> tag containing the image.</p> 
+  <p>The <strong>Duplicate</strong> icon duplicates the <img /> tag and its content.</p> 
+  <note>
+    When you duplicate an image, the identifiers related to the new image are deleted. 
+   <br /> 
+  </note> 
+  <h3 id="editing-image-properties">Editing image properties</h3> 
+  <p>When you select a block containing an image, you access the following properties:</p> 
+  <ul> 
+   <li><p><strong>Caption</strong> lets you define the caption linked to the image (corresponds to the <strong>alt</strong> HTML attribute).</p> </li> 
+   <li><p><strong>Dimensions</strong> lets you specify the image size, in pixels.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dce_popup_imgsize.png" title="DCE_popup_imgsize.png" /></li> 
+  </ul> 
+  <h2 id="adding-personalization-content">Adding personalization content</h2> 
+  <h3 id="inserting-a-personalization-field">Inserting a personalization field</h3> 
+  <p>The <strong>Personalization field</strong> option for the insert icon lets you add a database field into the content, such as the recipient's name. This option is only available for text type blocks.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_toolbar_textblock_persofield.png" title="DCE_toolbar_textblock_persofield.png" /> 
+  <p>By default, the fields offered are from the <strong>Recipient</strong> table. Where necessary, edit the Web application properties to select another table.</p> 
+  <p>The field name appears in the editor, highlighted in yellow. It will be replaced by the profile of the targeted recipient when the personalization is generated (for example, when previewing a landing page).</p> 
+  <p>An example is presented in the <a href="../../web/using/editing-content.md#inserting-a-personalization-field" target="_blank">Inserting a personalization field</a> section.</p> 
+  <h3 id="inserting-a-personalization-block">Inserting a personalization block</h3> 
+  <p>The <strong>Personalization block</strong> option lets you insert dynamic and personalized blocks into the content. For example, you can add a logo or a greeting message. It is not available for Text type blocks.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dce_toolbar_textblock_persoblock.png" title="DCE_toolbar_textblock_persoblock.png" /> 
+  <p>Once inserted, the personalization block name appears in the editor, highlighted in yellow. It is automatically adapted to the recipient profile when personalization is generated.</p> 
+  <p>For more on out-of-the- box personalization blocks and how to define custom personalization blocks, refer to <a href="../../delivery/using/personalization-blocks.md">this page</a>.</p> 
+ </body> 
+</html>

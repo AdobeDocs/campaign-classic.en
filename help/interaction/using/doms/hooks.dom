@@ -1,0 +1,112 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2019-08-06T06:59:22.462-0400" name="jcr:created" /> 
+  <meta content="74355ba1-c909-4ac6-8e5d-eef44f56ebea" name="jcr:predecessors" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Hooks" name="navTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="Hooks" name="jcr:description" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Hooks" name="jcr:title" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2b88595a-8fdf-4be0-8d50-be746f6c68e4" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="audience:interaction" name="primaryAudienceTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <p>Hooks in Interaction let you modify the <strong>standard engine behavior</strong>. </p> 
+  <p>The <strong>Target loading</strong> and <strong>Proposition post-processing</strong> hooks are configured, in Adobe Campaign, in the offer space:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/interaction_hooks_1.png" title="interaction_hooks_1.png" /> 
+  <p>The <strong>Dynamic offer</strong> hook is configured with the offer weight in Adobe Campaign:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/interaction_hooks_2.png" title="interaction_hooks_2.png" /> 
+  <h2 id="target-loading">Target loading</h2> 
+  <p>This hook lets you enrich the profile of the contact (that was loaded by the out-of-the-box query) with additional data from an external system. </p> 
+  <p>Data collected must be inserted into the call data node (Interaction node). The integrator must have extended the call data schema beforehand to define the structure of the collected data. The user can access this data in the same way as for standard call data (at an eligibility rules and personalization level).</p> 
+  <p><strong>Input parameters:</strong></p> 
+  <ul> 
+   <li><p>xmlInteraction (xml type): Interaction node</p> </li> 
+   <li><p>aTargetId (table type): target identifier</p> </li> 
+   <li><p> sUuid230 (string type): value of the uuid230 permanent cookie</p> </li> 
+   <li><p>sNlid (string type): value of the nlid session cookie</p> </li> 
+  </ul> 
+  <p><strong>Return parameters:</strong></p> 
+  <ul> 
+   <li><p>enriched Interaction node (first parameter of this hook)</p> </li> 
+  </ul> 
+  <note> 
+   <p> The <strong>xmlInteraction</strong> parameter contains both the call data and the profile of the contact that was loaded by the out-of-the-box query.<br /> </p> 
+  </note> 
+  <p><strong>Example:</strong></p> 
+  <codeblock gutter="true" class="syntax html">
+    //&amp;nbsp;Call&amp;nbsp;an&amp;nbsp;external&amp;nbsp;system&amp;nbsp;to&amp;nbsp;get&amp;nbsp;additional&amp;nbsp;data&amp;nbsp;for&amp;nbsp;the&amp;nbsp;target!!discoiqbr!!&amp;nbsp;&amp;nbsp;var&amp;nbsp;additionalData&amp;nbsp;&amp;nbsp;=&amp;nbsp;getUrl("https://EXTERNAL_SYSTEM?target="&amp;nbsp;+&amp;nbsp;encodeURIComponent(aTargetId.join("|")));!!discoiqbr!!&amp;nbsp;&amp;nbsp;//&amp;nbsp;Enrich&amp;nbsp;the&amp;nbsp;context&amp;nbsp;with&amp;nbsp;this&amp;nbsp;data!!discoiqbr!!&amp;nbsp;&amp;nbsp;interaction.@additionalData&amp;nbsp;=&amp;nbsp;additionalData; 
+  </codeblock> 
+  <h2 id="proposition-post-processing-">Proposition post-processing</h2> 
+  <p>This hook lets you check the consistency and compatibility of eligible propositions in a given interaction. It also lets you define a new scoring or probability calculation functionality.</p> 
+  <p>Example of using consistency rules:</p> 
+  <ul> 
+   <li><p>Limiting the number of propositions in the same call, linked to the same product, or the same category.</p> </li> 
+   <li><p>Only presenting offers related to a product in the same interaction.</p> </li> 
+  </ul> 
+  <p>The post-processing is executed after the typology rules application and the eligible proposition sorting, and before the prioritization step.</p> 
+  <p><strong>Input parameters:</strong></p> 
+  <ul> 
+   <li><p>aProposition: table of eligible propositions. Here is an example of the structure of an element in this table</p> 
+    <codeblock gutter="true" class="syntax html">
+      {&amp;nbsp;offer_id:1234,!!discoiqbr!!&amp;nbsp;&amp;nbsp;weight:2} 
+    </codeblock></li> 
+   <li><p>dicOffer (xml type): dictionary of all the attributes of eligible offers (offer code, category id, category full name, start date, end date, label, internal name, offer id, additional offer fields). For example</p> 
+    <codeblock gutter="true" class="syntax html">
+      {&amp;nbsp;"1242":&amp;nbsp;&lt;offer&amp;nbsp;category-id="61242"&amp;nbsp;categoryFullName="/FULL/PATH/TO/CATEGORY/"&amp;nbsp;code="CODE"&amp;nbsp;endDate=""&amp;nbsp;id="62473"&amp;nbsp;label="LABEL"&amp;nbsp;name="OFR38_OE4"&amp;nbsp;product-id="43"&amp;nbsp;startDate=""/&gt;,!!discoiqbr!!&amp;nbsp;&amp;nbsp;"1243":&amp;nbsp;...} 
+    </codeblock></li> 
+   <li><p> xmlTarget (xml type): profile data node</p> </li> 
+   <li><p>xmlInteraction (xml type): call data node</p> </li> 
+   <li><p>iPropNumber (integer type): number of expected offers</p> </li> 
+  </ul> 
+  <p><strong>Return parameters:</strong></p> 
+  <ul> 
+   <li><p>list of modified propositions (first parameter of the hook)</p> </li> 
+   <li><p>modified Interaction node</p> </li> 
+  </ul> 
+  <p><strong>Example:</strong></p> 
+  <codeblock gutter="true" class="syntax html">
+    var&amp;nbsp;aReturnedProps&amp;nbsp;=&amp;nbsp;[];!!discoiqbr!!!!discoiqbr!!if(&amp;nbsp;aProposition.length&amp;nbsp;&gt;&amp;nbsp;0&amp;nbsp;)!!discoiqbr!!{!!discoiqbr!!&amp;nbsp;&amp;nbsp;var&amp;nbsp;iReturnedProps&amp;nbsp;=&amp;nbsp;0;!!discoiqbr!!&amp;nbsp;&amp;nbsp;for(&amp;nbsp;var&amp;nbsp;iPropIdx&amp;nbsp;=&amp;nbsp;0;&amp;nbsp;iPropIdx&amp;nbsp;&lt;&amp;nbsp;aProposition.length&amp;nbsp;&amp;&amp;&amp;nbsp;iReturnedProps&amp;nbsp;&lt;&amp;nbsp;iPropNumber;&amp;nbsp;iPropIdx&amp;nbsp;++&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Check&amp;nbsp;a&amp;nbsp;consistency&amp;nbsp;rule&amp;nbsp;for&amp;nbsp;instance!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(&amp;nbsp;true&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aReturnedProps.push(aProposition[iPropIdx]);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;iReturnedProps++;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!return&amp;nbsp;aReturnedProps; 
+  </codeblock> 
+  <h2 id="dynamic-offer">Dynamic offer</h2> 
+  <p>This hook allows you to make a call to an external engine to select a list of products linked to an offer. It is configured in the offer after eligibility rules, and before the typology rules application.</p> 
+  <p>Beforehand, the integrator should extend the propositions <strong>PropositionRcp</strong> schema with the additional info on the product. To specify where this data will be stored, a <strong>Proposition being processed</strong> link is available in the <strong>Storage</strong> tab of the space </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/interaction_hooks_3.png" title="interaction_hooks_3.png" /> 
+  <p><strong>Input parameters:</strong></p> 
+  <ul> 
+   <li><p>xmlOffer (xml type): offer (offer code, category id, category full name, start date, end date, label, internal name, offer id, additional offer fields)</p> </li> 
+   <li><p>dWeight: context weight (double type)</p> </li> 
+   <li><p> xmlTarget (xml type): profile data node</p> </li> 
+   <li><p>xmlInteraction (xml type): call data node</p> </li> 
+  </ul> 
+  <p><strong>Return parameters:</strong></p> 
+  <p>A table of propositions to generate is returned. Each element of this table is composed of the following information:</p> 
+  <ul> 
+   <li><p>offer identifier</p> </li> 
+   <li><p>additional product data (product code, for example)</p> </li> 
+   <li><p>weight</p> </li> 
+  </ul> 
+  <note> 
+   <p> The system checks that the offer id is the same for both the input and return parameters.<br /> </p> 
+  </note> 
+  <p><strong>Example:</strong></p> 
+  <codeblock gutter="true" class="syntax html">
+    var&amp;nbsp;product&amp;nbsp;=&amp;nbsp;getUrl("https://EXTERNAL_SYSTEM?offerCode="&amp;nbsp;+&amp;nbsp;encodeURIComponent(xmlOffer.@code));!!discoiqbr!!if(&amp;nbsp;product&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;return&amp;nbsp;[{offer_id:&amp;nbsp;parseInt(String(xmlOffer.@id)),&amp;nbsp;weight:&amp;nbsp;dWeight,&amp;nbsp;productId:&amp;nbsp;product}]; 
+  </codeblock> 
+ </body> 
+</html>

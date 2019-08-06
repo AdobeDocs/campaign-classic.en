@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-08-06T06:59:25.237-0400" name="jcr:created" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="30ea7549-a3b2-4c53-bf8b-46c3501e39a3" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="Troubleshooting" name="jcr:title" />
+  <meta content="43808c0d-4a67-4338-8fba-9ad249736fa7" name="jcr:predecessors" />
+  <meta content="Troubleshooting" name="jcr:description" />
+  <meta content="Troubleshooting" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <p>If your mobile device is connected to Wi-Fi and you are not receiving notifications, check that the FCM/APNS ports are not being blocked by your firewall.</p> 
+  <p><strong>Android</strong>: The mobile device connects to the FCM servers on ports 5228 to 5230. You therefore must configure your firewall so that it authorizes connection with FCM. The ports to open are: 5228 (the most frequently used), 5229 and 5230. </p> 
+  <p><strong>iOS</strong>: </p> 
+  <p>Binary connector: to send notifications, you must authorize inbound and outbound TCP traffic on port 2195. Devices connected to the push service must authorize inbound and outbound TCP traffic on port 5223.</p> 
+  <p>HTTP/2 connector: you must allow communication to and from the following servers:</p> 
+  <ul>
+   <li><p>api.push.apple.com: port 443</p> </li>
+   <li><p>api.development.push.apple.com: port 443</p> </li>
+  </ul>
+  <note>
+   <p> For more information on the two connectors, refer to <a href="../../delivery/using/troubleshooting.md#connectors" target="_blank">Connectors</a>.<br /> </p> 
+  </note>
+ </body>
+</html>

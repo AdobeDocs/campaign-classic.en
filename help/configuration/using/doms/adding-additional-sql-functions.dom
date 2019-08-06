@@ -1,0 +1,117 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Adding additional SQL functions" name="jcr:description" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-08-06T06:59:44.693-0400" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="eee193da-92c5-41e2-99f2-a3b7268a97df" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Adding additional SQL functions" name="navTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="audience:configuration" name="primaryAudienceTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Adding additional SQL functions" name="jcr:title" /> 
+  <meta content="41ef1c2d-60de-4ed4-a826-0d3d9b0040d7" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+ </head> 
+ <body> 
+  <h2 id="introduction">Introduction</h2> 
+  <p>Adobe Campaign allows the user to define <strong>their own functions</strong> that can access SQL functions, both those offered by the database and those which are not already available in the console. This is useful for aggregate functions (average, maximum, sum) for example, which can only be calculated on the server or when the database provides an easier way to implement certain functions, rather than "manually" write the expression in the console (e.g. date management).</p> 
+  <p>This mechanism can also be used if you wanted to use a recent or uncommon database engine SQL function, which is not yet offered by the Adobe Campaign console.</p> 
+  <p>Once these functions have been added, they will appear in the expression editor just like other predefined functions.</p> 
+  <note>
+    SQL function calls in the console are no longer naturally sent to the server. The mechanism described here therefore becomes 
+   <strong>the only way to call</strong> on the unplanned SQL function server. 
+   <br /> 
+  </note> 
+  <h2 id="installation">Installation</h2> 
+  <p>The function(s) to add are in a <strong>"package" file in XML format</strong>, whose structure is detailed in the following paragraph.</p> 
+  <p>To install it from the console, select the <strong>Tools/Advanced/Import package</strong> options from the menu, then the <strong>Install from file</strong>, and follow the instructions in the import wizard.</p> 
+  <note>
+    Warning: even if the list of imported functions appears in the function editor straight away, they will not be usable until Adobe Campaign has been restarted. 
+   <br /> 
+  </note> 
+  <h2 id="general-structure-of-package-to-import">General structure of package to import</h2> 
+  <p>The function(s) to be added can be found in the <strong>"package" file</strong> in XML format. Here is an example:</p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!!!discoiqbr!!&lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding='ISO-8859-1'&amp;nbsp;?&gt;!!discoiqbr!!&lt;!--&amp;nbsp;===========================================================================!!discoiqbr!!&amp;nbsp;&amp;nbsp;Additional&amp;nbsp;SQL&amp;nbsp;functions&amp;nbsp;for&amp;nbsp;Adobe&amp;nbsp;Campaign!!discoiqbr!!&amp;nbsp;&amp;nbsp;==========================================================================&amp;nbsp;--&gt;!!discoiqbr!!&lt;package!!discoiqbr!!&amp;nbsp;&amp;nbsp;namespace&amp;nbsp;&amp;nbsp;&amp;nbsp;=&amp;nbsp;"nms"!!discoiqbr!!&amp;nbsp;&amp;nbsp;name&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;=&amp;nbsp;"package-additional-funclist"!!discoiqbr!!&amp;nbsp;&amp;nbsp;label&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;=&amp;nbsp;"Additional&amp;nbsp;functions"!!discoiqbr!!&amp;nbsp;&amp;nbsp;buildVersion=&amp;nbsp;"6.1"!!discoiqbr!!&amp;nbsp;&amp;nbsp;buildNumber&amp;nbsp;=&amp;nbsp;"10000"&gt;!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;entities&amp;nbsp;schema="xtk:funcList"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;funcList&amp;nbsp;name="myList"&amp;nbsp;namespace="cus"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;group&amp;nbsp;name="date"&amp;nbsp;label="Personalized&amp;nbsp;date"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;function&amp;nbsp;name="relativeMaturity"&amp;nbsp;type="long"&amp;nbsp;args="(&amp;lt;Âge&amp;gt;)"&amp;nbsp;help="Returns&amp;nbsp;the&amp;nbsp;difference&amp;nbsp;between&amp;nbsp;a&amp;nbsp;date&amp;nbsp;and&amp;nbsp;18&amp;nbsp;years"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;minArgs="1"&amp;nbsp;maxArgs="1"&amp;nbsp;display="Relative&amp;nbsp;maturity&amp;nbsp;of&amp;nbsp;the&amp;nbsp;person&amp;nbsp;born&amp;nbsp;on&amp;nbsp;the&amp;nbsp;date&amp;nbsp;$1"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;providerPart&amp;nbsp;provider="MSSQL,Sybase,PostgreSQL"&amp;nbsp;body="extract(year&amp;nbsp;from&amp;nbsp;age($1))-18"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/function&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/group&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/funcList&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/entities&gt;!!discoiqbr!!&lt;/package&gt;!!discoiqbr!!!!discoiqbr!! 
+  </codeblock> 
+  <ul> 
+   <li><p>The <strong>name</strong>, <strong>namespace</strong> and <strong>label</strong> are for information purposes only. They let you view a summary of the package in the installed packages list (Explorer/Administration/Package management/Installed packages).</p> </li> 
+   <li><p>The <strong>buildVersion</strong> and <strong>buildNumber</strong> fields are mandatory. They must correspond to the server number to which the console is connected. This information can be found in the "Help/About" box.</p> </li> 
+   <li><p>The following blocks, <strong>entities</strong> and <strong>funclist</strong> are mandatory. In funcList, the fields "name" and "namespace" are mandatory, but their name is left up to the user to decide, and they uniquely designate the function list.</p> <p>This means that if another list of functions with the same namespace/name pair (here "cus::myList") is imported, the previously imported functions will be deleted. Conversely, if you change this namespace/name pair, the new series of imported functions will be added to the previous one.</p> </li> 
+   <li><p>The <strong>group</strong> element lets you specify the function group in which the imported function(s) will appear in the function editor. The @name attribute can either be a name that already exists (in which case the functions will be added to the considered group) or a new name (in which case it will appear in a new group).</p> </li> 
+   <li><p>Reminder: possible values for the @name attribute in the 
+     <group>
+       element are: 
+     </group></p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;name="aggregate"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(&amp;nbsp;label="Aggregates"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;name="string"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(&amp;nbsp;label="String"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;name="date"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(&amp;nbsp;label="Date"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;name="numeric"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(&amp;nbsp;label="Numeric"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;name="geomarketing"&amp;nbsp;(&amp;nbsp;label="Geomarketing"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;name="other"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(&amp;nbsp;label="Others"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;name="window"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(&amp;nbsp;label="Windowing&amp;nbsp;functions"&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp; 
+    </codeblock></li> 
+  </ul> 
+  <note>
+    Make sure to complete the @label attribute: this is the name that will be displayed in the list of available functions. If you do not enter anything, the group will not have a name. However, if you enter a name other than the existing name, the name of the entire group will change. 
+   <br /> 
+  </note> 
+  <p>If you wish to add functions to several different groups, you can make several 
+   <group>
+     elements become tracked in the same list. 
+   </group></p> 
+  <p>Finally, a 
+   <group>
+     element can contain the definition of one or several functions, that is the purpose of the package file. The 
+    <function>
+      element is detailed in the following paragraph. 
+    </function> 
+   </group></p> 
+  <h2 id="function-descriptor--function-">Function descriptor &lt;function&gt;&lt;/function&gt;</h2> 
+  <p>The case presented here is a general case whereby we wish to provide the <strong>function implementation</strong>.</p> 
+  <p>Below is an example of a "relative maturity" function which, using an age, indicates for how many years the person has been considered mature.</p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!!!discoiqbr!!&amp;nbsp;&lt;function&amp;nbsp;name="relativeMaturity"&amp;nbsp;type="long"&amp;nbsp;args="(&amp;lt;Âge&amp;gt;)"&amp;nbsp;help="Returns&amp;nbsp;the&amp;nbsp;difference&amp;nbsp;between&amp;nbsp;a&amp;nbsp;date&amp;nbsp;and&amp;nbsp;18&amp;nbsp;years"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;minArgs="1"&amp;nbsp;maxArgs="1"&amp;nbsp;display="Relative&amp;nbsp;maturity&amp;nbsp;of&amp;nbsp;the&amp;nbsp;person&amp;nbsp;born&amp;nbsp;on&amp;nbsp;the&amp;nbsp;date&amp;nbsp;$1"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;providerPart&amp;nbsp;provider="PostgreSQL"&amp;nbsp;body="extract(year&amp;nbsp;from&amp;nbsp;age($1))-18"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;providerPart&amp;nbsp;provider="MSSQL,Sybase,Teradata"&amp;nbsp;body="[Other&amp;nbsp;implementation]"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/function&gt;!!discoiqbr!!!!discoiqbr!! 
+  </codeblock> 
+  <p>The <strong>@name</strong> field refers the name of the function, and "args" is the list of parameters that will be displayed in the description. In this case, the function will appear as "relativeMaturity ( 
+   <age>
+     )" in the function selection window. 
+   </age></p> 
+  <ul> 
+   <li><p><strong>help</strong> is the field displayed at the bottom of the expression editor window.</p> </li> 
+   <li><p><strong>@display</strong> is an informative message.</p> 
+    <note> 
+     <p> In the @help and @display attributes, the string "$1" represents the name that was given in the first function parameter (here, "Age"). $2, $3... would represent the following parameters. In the @body attribute detailed below, $1 designates the argument value passed to the function during the call.<br /> </p> 
+    </note> 
+    <note> 
+     <p> The description must be a string of valid XML characters: please note the use of '&lt;' and '&gt;' instead of &lt; and &gt;.<br /> </p> 
+    </note></li> 
+   <li><p><strong>@type</strong> is the function return type and is a standard value (long, string, byte, datetime...). If it is omitted, the server determines the best type among the available types within the expression implementing the function.</p> </li> 
+   <li><p><strong>@minArgs</strong> and <strong>maxArgs</strong> designates the number of parameters (minimum and maximum) for a parameter. For example, for a function with 2 parameters, minArgs and maxArgs will be 2 and 2. For 3 parameters, plus 1 optional, they will be 3 and 4 respectively.</p> </li> 
+   <li><p>Finally, the <strong>providerPart</strong> element provides the function implementation.</p> 
+    <ul> 
+     <li><p> The <strong>provider</strong> attribute is mandatory, it specifies the database systems for which the implementation is provided. As shown in the example, when expression syntaxes or underlying functions differ, alternative implementations can be provided according to the database.</p> </li> 
+     <li><p>The <strong>@body</strong> attribute contains the function implementation. Please note: this implementation must be an expression, in database language (not a block of code). Depending on the databases, expressions can be sub-queries ("(select column from table where...)") returning only a single value. For example, this is the case in Oracle (the query must be written in brackets).</p> </li> 
+    </ul> 
+    <note> 
+     <p> If only one or two databases are likely to be queried by the function defined, we can always provide only the definitions corresponding to these databases.<br /> </p> 
+    </note></li> 
+  </ul> 
+  <h2 id="-pass-through--function-descriptor">'Pass-through' function descriptor</h2> 
+  <p>A special function descriptor is the <strong> "pass-through"</strong> block, with an unspecified "provider" database system. In this case, "body" implementation can only contain a single function call with a syntax that is not dependent on the database used. Meanwhile, the "ProviderPart" block is unique.</p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;function&amp;nbsp;name="CountAll"&amp;nbsp;args="()"&amp;nbsp;help="Counts&amp;nbsp;the&amp;nbsp;values&amp;nbsp;returned&amp;nbsp;(all&amp;nbsp;fields&amp;nbsp;together)"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;type="long"&amp;nbsp;minArgs="0"&amp;nbsp;maxArgs="0"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;providerPart&amp;nbsp;body="Count(*)"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/function&gt;!!discoiqbr!!!!discoiqbr!! 
+  </codeblock> 
+  <p>In this case, adding a function only serves to make a database function that would not have been available by default, now visible to the client.</p> 
+  <h2 id="examples">Examples</h2> 
+  <p>Further function examples can be found in the predefined package "xtkdatakitfuncList.xml".</p> 
+ </body> 
+</html>

@@ -1,0 +1,114 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="Use cases: web forms" name="navTitle" /> 
+  <meta content="audience:web" name="primaryAudienceTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Use cases: web forms" name="jcr:title" /> 
+  <meta content="Use cases: web forms" name="jcr:description" /> 
+  <meta content="2019-08-06T06:59:06.447-0400" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="92ababb7-479e-4de3-9dfa-92344321ba4d" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2de2a178-eab7-4a5d-92a2-bf8310f54250" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+ </head> 
+ <body> 
+  <h2 id="create-a-subscription--form-with-double-opt-in">Create a subscription form with double opt-in</h2> 
+  <p>When you offer information services, recipients need to subscribe to receive all linked communications. To avoid improper communications and make sure the recipient subscribed intentionally, we recommend sending a subscription confirmation request to create a double opt-in. The subscription will only be effective once the user clicks the link included in the confirmation message.</p> 
+  <p>This example is based on the following scenario:</p> 
+  <ol> 
+   <li><p>Creating a newsletter subscription form on a website that contains a checkbox for subscribing to a temporary service. This service will enable you to deliver subscription confirmation messages.</p> </li> 
+   <li><p>Creating the subscription confirmation delivery with a delivery template linked to the Web form. It contains the confirmation link that calls up the form for newsletter subscription and displays a subscription approval message.</p> </li> 
+  </ol> 
+  <h3 id="step-1---creating-information-services">Step 1 - Creating information services</h3> 
+  <ol> 
+   <li><p>Create the newsletter subscription service to be offered to your recipients. For more information on how to create a newsletter, refer to <a href="../../delivery/using/about-services-and-subscriptions.md">this section</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_1.png" title="s_ncs_admin_survey_double-opt-in_sample_1.png" /></li> 
+   <li><p>Create a second information service, a temporary service linked to a delivery template for sending subscription confirmation messages.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_1c.png" title="s_ncs_admin_survey_double-opt-in_sample_1C.png" /></li> 
+  </ol> 
+  <h3 id="step-2---creating-confirmation-messages">Step 2 - Creating confirmation messages</h3> 
+  <p>Confirmation messages are sent via a dedicated delivery template referenced at the temporary service level.</p> 
+  <ol> 
+   <li><p>In the <strong>Explorer</strong>, select <strong>Resources &gt; Templates &gt; Delivery templates</strong>.</p> </li> 
+   <li><p>Create a delivery template for sending the subscription confirmation messages. </p> </li> 
+   <li><p>Click the <strong>To</strong> button in the <strong>Email parameters</strong> to associate the delivery template with the Subscriptions target mapping instead of Recipients.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_1d.png" title="s_ncs_admin_survey_double-opt-in_sample_1D.png" /></li> 
+   <li><p>Since the recipients of this delivery haven't confirmed their approval, they are still blacklisted in the database. For them to receive this communication, you need to authorize deliveries based on this template to target blacklisted recipients.</p> <p>To do this, click the <strong>Exclusions</strong> tab.</p> </li> 
+   <li><p>Click the <strong>Edit...</strong> link and uncheck the <strong>Exclude recipients who no longer want to be contacted (blacklist)</strong> option.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_4d.png" title="s_ncs_admin_survey_double-opt-in_sample_4D.png" /> 
+    <note>
+      This option may only be disabled in this type of context. 
+     <br /> 
+    </note></li> 
+   <li><p>Personalize your delivery and insert the confirmation link into the message content. This link lets you access the Web form to record subscription confirmation.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_1b.png" title="s_ncs_admin_survey_double-opt-in_sample_1B.png" /></li> 
+   <li><p>With the DCE, link your URL to the Web form. Since the Web form is not yet created, replace the value as soon as you create it.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_3.png" title="s_ncs_admin_survey_double-opt-in_sample_3.png" /></li> 
+   <li><p>Finally, link this template to the temporary service previously created.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_3c.png" title="s_ncs_admin_survey_double-opt-in_sample_3C.png" /></li> 
+  </ol> 
+  <h3 id="step-3---creating-the-subscription-form">Step 3 - Creating the subscription form</h3> 
+  <p>The Web form enables both recipient subscription and subscription confirmation. </p> 
+  <p>The Web form workflow will include the following activities:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_4c.png" title="s_ncs_admin_survey_double-opt-in_sample_4C.png" /> 
+  <p>To do this, follow the steps below:</p> 
+  <ol> 
+   <li><p>Create a Web form and choose the template <strong>Newsletter subscription (subNewsletter)</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_5a.png" title="s_ncs_admin_survey_double-opt-in_sample_5A.png" /></li> 
+   <li><p>In the <strong>Edit</strong> tab, we need to configure the existing workflow since we want to add a confirmation message to the recipients who want to subscribe. </p> <p>To do so, double-click the <strong>Preloading</strong> box and configure it as follows. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_5b.png" title="s_ncs_admin_survey_double-opt-in_sample_5B.png" /><p>This means that if the user accesses this form via the link in the confirmation message, their profile information will be loaded. If they access the Web form via a page of the website, no information will be loaded.</p> </li> 
+   <li><p>Add a <strong>Test</strong> activity to your workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_6e.png" title="s_ncs_admin_survey_double-opt-in_sample_6E.png" /><p>The <strong>Test</strong> activity can concern the recipient email. In this case, configure it as follows:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_6d.png" title="s_ncs_admin_survey_double-opt-in_sample_6D.png" /></li> 
+   <li><p>Add two <strong>Script</strong> activities to your workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_6f.png" title="s_ncs_admin_survey_double-opt-in_sample_6F.png" /><p>The first <strong>Script</strong> activity will blacklist recipients until they confirmed their subscription to the newsletter. Its content must be as follows: </p> 
+    <codeblock gutter="true" class="syntax html">
+      ctx.recipient.@blackList=1 
+    </codeblock><img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png" title="s_ncs_admin_survey_double-opt-in_sample_6Bbis.png" /><p>The second <strong>Script</strong> activity authorizes deliveries to be send to the users and subscribes them to the newsletter. The last two lines of the script will allow you to transfer your recipients from the temp folder to another folder and be reconciled with existing profiles as soon as they confirmed the subscription. </p> 
+    <codeblock gutter="true" class="syntax html">
+      ctx.recipient.@blackList=0!!discoiqbr!!nms.subscription.Subscribe("INTERNAL_NAME_OF_THE_NEWSLETTER",&amp;nbsp;ctx.recipient,&amp;nbsp;false)!!discoiqbr!!ctx.recipient.folder&amp;nbsp;=&amp;nbsp;&lt;folder&amp;nbsp;name="nmsRootRecipient"/&gt;!!discoiqbr!!nms.subscription.Unsubscribe("TEMP",&amp;nbsp;ctx.recipient)!!discoiqbr!! 
+    </codeblock> 
+    <note> 
+     <p> The <strong>Temp</strong> partition can also be purged on a regular basis using a workflow.<br /> </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_6b.png" title="s_ncs_admin_survey_double-opt-in_sample_6B.png" /></li> 
+   <li><p>Double-click the <strong>Subscription</strong> activity to personalize the subscription form and link a checkbox with the temporary service previously created.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_5c.png" title="s_ncs_admin_survey_double-opt-in_sample_5C.png" /></li> 
+   <li><p>Configure the <strong>Storage</strong> activity to save the information entered in the form page.</p> <p>This activity lets you create recipient profiles in a dedicated temporary to set them apart from the profiles in the database, whom communications can be sent to.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_5g.png" title="s_ncs_admin_survey_double-opt-in_sample_5G.png" /> 
+    <note> 
+     <p> You must not define any reconciliation options.<br /> </p> 
+    </note></li> 
+   <li><p>Add two <strong>End</strong> activities to display a message for the user.</p> <p>The second <strong>End</strong> box will display the confirmation message once the subscription is complete.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_5h.png" title="s_ncs_admin_survey_double-opt-in_sample_5H.png" /></li> 
+   <li><p>Once the Web form is created and configured, you can now reference it in the delivery template to send confirmation messages.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_7b.png" title="s_ncs_admin_survey_double-opt-in_sample_7B.png" /></li> 
+  </ol> 
+  <h3 id="step-4---publishing-and-testing-the-form">Step 4 - Publishing and testing the form</h3> 
+  <p>You can now publish the form to make it accessible to users.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_8b.png" title="s_ncs_admin_survey_double-opt-in_sample_8B.png" /> 
+  <p>Subscription to the newsletter involves the following steps:</p> 
+  <ol> 
+   <li><p>The user of the website logs on to the subscription page and approves the form.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_8c.png" title="s_ncs_admin_survey_double-opt-in_sample_8C.png" /><p>They are notified via a message in their browser that their request has been taken into account.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_8d.png" title="s_ncs_admin_survey_double-opt-in_sample_8D.png" /><p>The user is added to the Adobe Campaign database in the <strong>Temp</strong> folder, and their profile is blacklisted until they confirm their subscription with the email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_8f.png" title="s_ncs_admin_survey_double-opt-in_sample_8F.png" /></li> 
+   <li><p>A confirmation message including a link for approving their subscription is sent to them.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_8e.png" title="s_ncs_admin_survey_double-opt-in_sample_8E.png" /></li> 
+   <li><p>When they click this link, the approval page is displayed in their browser.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_8.png" title="s_ncs_admin_survey_double-opt-in_sample_8.png" /><p>In Adobe Campaign, the user profile is updated: </p> 
+    <ul> 
+     <li><p>they are no longer blacklisted,</p> </li> 
+     <li><p>they are subscribed to the information service.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_double-opt-in_sample_9.png" title="s_ncs_admin_survey_double-opt-in_sample_9.png" /></li> 
+    </ul></li> 
+  </ol> 
+  <h2 id="displaying-different-options-depending-on-the-selected-values">Displaying different options depending on the selected values</h2> 
+  <p>In the following example, the user is asked to select a type of vehicle. You can display the available vehicle categories according to the type selected. This means that the items displayed in the right-hand column depend on the user's selection:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_condition_sample0.png" title="s_ncs_admin_survey_condition_sample0.png" /> 
+  <ul> 
+   <li><p>When the user selects 'private vehicle', the choice between "Compact" and "Minivan" is offered.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_condition_sample2.png" title="s_ncs_admin_survey_condition_sample2.png" /></li> 
+   <li><p>When the user selects 'commercial vehicle', a selection is displayed in a drop-down list: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_condition_sample1.png" title="s_ncs_admin_survey_condition_sample1.png" /></li> 
+  </ul> 
+  <p>In this example, the vehicle type is not stored in the database. The drop-down list is configured as follows: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_condition_config1.png" title="s_ncs_admin_survey_condition_config1.png" /> 
+  <p>This information is stored in a local variable.</p> 
+  <p>The right-hand column's conditional display is configured in the containers: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_condition_config1bis.png" title="s_ncs_admin_survey_condition_config1bis.png" /> 
+  <ul> 
+   <li><p>Conditional visibility of fields for a private vehicle:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_condition_config2.png" title="s_ncs_admin_survey_condition_config2.png" /></li> 
+   <li><p>Conditional visibility of fields for a commercial vehicle:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_condition_config3.png" title="s_ncs_admin_survey_condition_config3.png" /></li> 
+  </ul> 
+ </body> 
+</html>

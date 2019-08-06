@@ -1,0 +1,60 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-08-06T06:59:19.401-0400" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="Web Analytics" name="jcr:title" />
+  <meta content="eebf9fe9-484c-46c4-bb89-9fd97f8a8804" name="jcr:uuid" />
+  <meta content="f81098ae-a7fa-475c-99b5-ee180b6109af" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Web Analytics" name="jcr:description" />
+  <meta content="Web Analytics" name="navTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>The workflows detailed below are installed with the <strong>Web Analytics connectors</strong> module by default. For more on this module, refer to this <a href="../../platform/using/adobe-analytics-data-connector.md">section</a>.</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> <strong>Label</strong><br /> </td> 
+     <td> <strong>Internal name</strong><br /> </td> 
+     <td> <strong>Description</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Sending of indicators and campaign attributes</strong><br /> </td> 
+     <td> <strong>webAnalyticsSendMetrics</strong><br /> </td> 
+     <td> This workflow lets you send email campaign indicators from Adobe Campaign to Adobe Experience Cloud Suite via the Adobe® Genesis connector. The indicators concerned are as follows: <strong>Sent</strong> (iSent), <strong>Total count of opens</strong> (iTotalRecipientOpen), <strong>Total number of recipients who clicked</strong> (iTotalRecipientClick), <strong>Errors</strong> (iError), <strong>Opt-Out</strong> (opt-out) (iOptOut).<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Identification of converted contacts</strong><br /> </td> 
+     <td> <strong>webAnalyticsFindConverted</strong><br /> </td> 
+     <td> This workflow indexes site visitors that have completed their purchase after a re-marketing campaign. The data recovered by this workflow can be accessed in the <strong>Re-marketing efficiency report</strong> (Refer to this <a href="../../platform/using/adobe-analytics-data-connector.md#creating-a-re-marketing-campaign"> page</a>). <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Event purge</strong><br /> </td> 
+     <td> <strong>webAnalyticsPurgeWebEvents</strong><br /> </td> 
+     <td> This workflow lets you delete every event from the database field according to the period configured in the <strong>Lifespan</strong> field. <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Recovery of web events</strong><br /> </td> 
+     <td> <strong>webAnalyticsGetWebEvents</strong><br /> </td> 
+     <td> Every hour, this workflow downloads segments on internet user behavior on a given site, puts them into the Adobe Campaign database and launches the re-marketing workflow. <br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+ </body>
+</html>

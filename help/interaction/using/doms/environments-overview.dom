@@ -1,0 +1,37 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Environments overview" name="navTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-08-06T06:59:19.924-0400" name="jcr:created" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="9f75c817-61cc-451b-8ae5-ec68945de766" name="jcr:uuid" />
+  <meta content="d7f18321-4911-4de6-9531-96a4b2cd70fa" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Environments overview" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Environments overview" name="jcr:description" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+ </head>
+ <body>
+  <p>This chapter details how to manage offer environments in Interaction. </p> 
+  <p>Several different user profiles are involved in managing and using offers. The first step therefore involves ensuring that these profiles exist, and if not, creating them.</p> 
+  <note>
+    The following configurations need to be carried out by a 
+   <strong>technical administrator</strong>.
+   <br /> 
+  </note>
+ </body>
+</html>

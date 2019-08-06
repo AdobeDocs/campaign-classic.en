@@ -1,0 +1,115 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="audience:delivery" name="primaryAudienceTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="528d1d95-bed4-41c0-805c-c18004f6e97f" name="jcr:predecessors" /> 
+  <meta content="Use case: selecting seed addresses on criteria" name="jcr:description" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="2019-08-06T06:59:26.669-0400" name="jcr:created" /> 
+  <meta content="da7365d1-d40a-485c-964c-023c1961f762" name="jcr:uuid" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="Use case: selecting seed addresses on criteria" name="navTitle" /> 
+  <meta content="Use case: selecting seed addresses on criteria" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+ </head> 
+ <body> 
+  <p>In the framework of a delivery or a campaign, the <strong>Edit the dynamic condition...</strong> link lets you choose seed addresses based on specific selection criteria.</p> 
+  <p>In this use case, the site <strong>My online library</strong> would like to personalize its newsletters according to its clients' literary tastes.</p> 
+  <p>In conjunction with the purchasing department, the user in charge of deliveries has created a newsletter for subscribers that have purchased police novels.</p> 
+  <p>To share the final result of their collaboration with them, the delivery manager decides to add his colleagues from the purchasing department to the delivery as seed addresses. Using a dynamic condition lets you save time on configuring and updating addresses.</p> 
+  <p>To use the dynamic condition, you must have:</p> 
+  <ul> 
+   <li><p>a delivery ready to be sent,</p> </li> 
+   <li><p>seed addresses that have a common value. This value can be a field that already exists in Adobe Campaign. In this example, the seed addresses share the "Purchasing" value in the "Department" field, which is not present in the application by default.</p> </li> 
+  </ul> 
+  <h2 id="step-1---creating-a-delivery">Step 1 - Creating a delivery</h2> 
+  <p>The steps for creating a delivery are detailed in the <a href="../../delivery/using/creating-an-email-delivery.md" target="_blank">Creating an email delivery</a> section.</p> 
+  <p>In this example, the delivery manager has created the newsletter and selected the recipients.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_01.png" title="dlv_seeds_usecase_01.png" /> 
+  <h2 id="step-2---creating-a-common-value">Step 2 - Creating a common value</h2> 
+  <p>To create a common value like the one in our example (Purchasing department), you must first extend the <strong>data schema</strong> of your seed addresses and edit the associated input form.</p> 
+  <h3 id="extending-the-data-schema">Extending the data schema</h3> 
+  <p>For further details on schema extensions, refer to the <a href="../../configuration/using/data-schemas.md">Configuration guide</a>. </p> 
+  <ol> 
+   <li><p>In the <strong>Administration &gt; Configuration &gt; Data schemas</strong> node, click the <strong>New</strong> icon.</p> </li> 
+   <li><p>In the <strong>Creation of a data schema</strong> window, select the <strong>Extension of a schema</strong> option and click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_09.png" title="dlv_seeds_usecase_09.png" /></li> 
+   <li><p>Select the <strong>Seed addresses</strong> source schema, enter <strong>doc</strong> as the <strong>Namespace</strong> and click <strong>Ok</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_10.png" title="dlv_seeds_usecase_10.png" /></li> 
+   <li><p>Click <strong>Save</strong>.</p> </li> 
+   <li><p>In the schema editing window, copy the lines below and paste them in the area indicated in the screenshot.</p> 
+    <codeblock gutter="true" class="syntax html">
+      &amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;name="common"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;label="Recipient"&amp;nbsp;name="custom_nms_recipient"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;label="Department"&amp;nbsp;length="80"&amp;nbsp;name="workField"&amp;nbsp;template="nms:recipient:recipient/@company"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;type="string"&amp;nbsp;userEnum="workField"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/element&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt; 
+    </codeblock><img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_20.png" title="dlv_seeds_usecase_20.png" /><p>Then copy the following lines and paste them under the <strong>Seed to insert in the export files</strong> element. </p> 
+    <codeblock gutter="true" class="syntax html">
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;element&amp;nbsp;aggregate="doc:seedMember:common"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/element&gt; 
+    </codeblock><img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_29.png" title="dlv_seeds_usecase_29.png" /><p>In this case, you are specifying that a new enumeration named <strong>Department</strong> has been created in the seed address table, and it is based on the standard <strong>@company</strong> enumeration template (labeled under the name <strong>Company</strong> in the seed address form).</p> </li> 
+   <li><p>Click <strong>Save</strong>.</p> </li> 
+   <li><p>In the <strong>Tools &gt; Advanced</strong> menu, select the <strong>Update database structure</strong> option.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_12.png" title="dlv_seeds_usecase_12.png" /></li> 
+   <li><p>When the update wizard is displayed, click the <strong>Next</strong> button to access the Edit tables window: changes carried out in the seed address data schema require a structure update.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_13.png" title="dlv_seeds_usecase_13.png" /></li> 
+   <li><p>Follow the wizard until you come to the page to run the update. Click the <strong>Start</strong> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_14.png" title="dlv_seeds_usecase_14.png" /><p>Once the update has finished, you can close the wizard.</p> </li> 
+   <li><p>Disconnect then reconnect to Adobe Campaign. The changes made in the seed address data schema are now effective. In order for them to be visible from the seed address screen, you must update the associated <strong>Input form</strong>. Refer to the <a href="../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form" target="_blank">Updating the input form</a> section.</p> </li> 
+  </ol> 
+  <h4 id="extending-the-data-schema-from-a-linked-table">Extending the data schema from a linked table</h4> 
+  <p>The seed addresses data schema can use values from a table linked to the recipient data schema - Recipient (nms). </p> 
+  <p>For example, the user would like to integrate the <strong>Internet Extension</strong> found in the <strong>Country</strong> table that is linked to the recipients schema.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_06.png" title="dlv_seeds_usecase_06.png" /> 
+  <p>They therefore must extend the seed addresses data schema as detailed in the section. However, the lines of code to integrate at <strong>step 4</strong> are as follows:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;element&amp;nbsp;name="country"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;label="Internet&amp;nbsp;Extension"&amp;nbsp;length="2"&amp;nbsp;name="iana"&amp;nbsp;type="string"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;attribute&amp;nbsp;label="Country&amp;nbsp;ISO"&amp;nbsp;length="2"&amp;nbsp;name="countryIsoA2"&amp;nbsp;type="string"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/element&gt; 
+  </codeblock> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_11.png" title="dlv_seeds_usecase_11.png" /> 
+  <p>They indicate:</p> 
+  <ul> 
+   <li><p>that the user wants to create a new element named <strong>Internet Extension</strong>,</p> </li> 
+   <li><p>that this element comes from the <strong>Country</strong> table.</p> </li> 
+  </ul> 
+  <note>
+    In the linked table name, you must specify the 
+   <strong>xpath-dst</strong> of said linked table. 
+   <br /> This can be found in the 
+   <strong>Country</strong> element in the recipients table. 
+   <br /> 
+  </note> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_07.png" title="dlv_seeds_usecase_07.png" /> 
+  <p>The user can then follow from <strong>step 5</strong> of the section, and update the <strong>Input form</strong> of the seed addresses. </p> 
+  <p>Refer to the <a href="../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form" target="_blank">Updating the input form</a> section.</p> 
+  <h4 id="updating-the-input-form">Updating the input form</h4> 
+  <ol> 
+   <li><p> In the <strong>Administration &gt; Configuration &gt; Input forms</strong> node, find the seed addresses input form.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_19.png" title="dlv_seeds_usecase_19.png" /></li> 
+   <li><p>Edit the form and insert the following line in the <strong>Recipient</strong> container.</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;input&amp;nbsp;xpath="@workField"/&gt; 
+    </codeblock><img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_21.png" title="dlv_seeds_usecase_21.png" /></li> 
+   <li><p>Save your changes.</p> </li> 
+   <li><p>Open a seed address. The <strong>Department</strong> field appears in the <strong>Recipient</strong> table.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_22.png" title="dlv_seeds_usecase_22.png" /></li> 
+   <li><p>Edit the seed addresses that you want to use for the delivery and enter <strong>Purchasing</strong> as the value in the <strong>Department</strong> field.</p> </li> 
+  </ol> 
+  <h2 id="step-3---defining-the-condition">Step 3 - Defining the condition</h2> 
+  <p>You can now specify the dynamic condition of the seed addresses for the delivery. To do this:</p> 
+  <ol> 
+   <li><p>Open a delivery.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_01.png" title="dlv_seeds_usecase_01.png" /></li> 
+   <li><p>Click the <strong>To</strong> link then the <strong>Seed addresses</strong> tab to access the <strong>Edit the dynamic condition...</strong> link. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_02.png" title="dlv_seeds_usecase_02.png" /></li> 
+   <li><p>Select the expression that lets you choose the seed addresses you want. Here the user selects the <strong>Department (@workField)</strong> expression.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_03.png" title="dlv_seeds_usecase_03.png" /></li> 
+   <li><p>Select the value you would like. In this example the user selects the <strong>Purchasing</strong> department from the drop-down list of values.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_17.png" title="dlv_seeds_usecase_17.png" /> 
+    <note> 
+     <p> The schema extension created earlier comes from the <strong>recipient</strong> schema. The values displayed on the screen above come from an enumeration of the <strong>recipient</strong> schema.<br /> </p> 
+    </note></li> 
+   <li><p>Click <strong>Ok</strong>.</p> <p>The query is displayed in the <strong>Select target</strong> window.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_04.png" title="dlv_seeds_usecase_04.png" /></li> 
+   <li><p>Click <strong>Ok</strong> to approve the query.</p> </li> 
+   <li><p>Analyze your delivery then click on the <strong>Delivery</strong> tab to access the delivery logs.</p> <p>The seed addresses of the purchasing department are displayed as pending delivery, just like those of the recipients or other seed addresses.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_05.png" title="dlv_seeds_usecase_05.png" /></li> 
+   <li><p>Click the <strong>Send</strong> button to start the delivery.</p> <p>The members of the purchasing department make up part of your seed addresses that will receive the delivery in their email inbox.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dlv_seeds_usecase_18.png" title="dlv_seeds_usecase_18.png" /></li> 
+  </ol> 
+ </body> 
+</html>

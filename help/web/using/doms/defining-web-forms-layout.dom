@@ -1,0 +1,71 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Defining web forms layout" name="jcr:description" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2019-08-06T06:59:05.812-0400" name="jcr:created" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="audience:web" name="primaryAudienceTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="ea31dee1-4b26-440e-a04f-e99853e0f64a" name="jcr:uuid" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="c03020e2-8d27-4fee-a363-e89b38160023" name="jcr:predecessors" /> 
+  <meta content="Defining web forms layout" name="navTitle" /> 
+  <meta content="Defining web forms layout" name="jcr:title" /> 
+ </head> 
+ <body> 
+  <h2 id="creating-containers">Creating containers</h2> 
+  <p>Containers let you combine the fields of a page and configure their layout; to organize the elements in the page.</p> 
+  <p>For each page of the form, containers are created via the <strong>Containers</strong> button of the toolbar.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_containers_add.png" title="s_ncs_admin_survey_containers_add.png" /> 
+  <p>Use a container to group elements of the page without adding a label to the final rendering. Elements are grouped into the container sub-tree. Standard containers let you manage the layout of checks.</p> 
+  <p>For example:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_containers_std_arbo.png" title="s_ncs_admin_survey_containers_std_arbo.png" /> 
+  <p>The position of labels is applied to elements placed below the container in the hierarchy. It can be overloaded for each element if necessary. Add or remove columns to change the layout. See <a href="../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page" target="_blank">Positioning the fields on the page</a>.</p> 
+  <p>In the above example, the rendering will be as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_containers_std_ex.png" title="s_ncs_admin_survey_containers_std_ex.png" /> 
+  <h2 id="positioning-the-fields-on-the-page">Positioning the fields on the page</h2> 
+  <p>The layout of the Web form is defined page by page in each container and can be overloaded for each check.</p> 
+  <p>Pages are broken down into columns: each page contains a certain number of columns. Each field of the page occupies <strong>n</strong> cells. Containers also occupy a certain number of columns and the fields they contain occupy a certain number of cells</p> 
+  <p>By default, pages are built on a single column and each element occupies one cell. This means that fields are displayed one under another, each one occupying a whole line, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_container_ex.png" title="s_ncs_admin_survey_container_ex.png" /> 
+  <p>In the following example, the default configuration has been kept. The page occupies a single column which includes four containers. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_container_ex0.png" title="s_ncs_admin_survey_container_ex0.png" /> 
+  <p>Each container occupies one column and each element occupies one cell:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_container_ex0a.png" title="s_ncs_admin_survey_container_ex0a.png" /> 
+  <p>The rendering is as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_container_ex0_rend.png" title="s_ncs_admin_survey_container_ex0_rend.png" /> 
+  <p>You can adapt the display parameters to obtain the following rendering:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_container_ex1_rend.png" title="s_ncs_admin_survey_container_ex1_rend.png" /> 
+  <p>In the above rendering example, each input field, title and image occupies one cell in the columns of the containers.</p> 
+  <p>You can modify the formatting in each container. In our example, you can spread the content of container 4 over two columns and distribute the elements.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_container_ex2_rend.png" title="s_ncs_admin_survey_container_ex2_rend.png" /> 
+  <p> The title and the list occupy one cell each (and therefore an entire line of the container) and the checkbox extends over two cells. The number of cells attributed to the input field is defined in the <strong>General</strong> tab or the <strong>Advanced</strong> tab, according to the type of field:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_container_ex2.png" title="s_ncs_admin_survey_container_ex2.png" /> 
+  <h2 id="defining-the-position-of-labels">Defining the position of labels</h2> 
+  <p>You can define the alignment of fields and labels in the form.</p> 
+  <p>By default, the display parameters for fields and other content of the page are inherited from the general configuration of the form, the configuration of the page, or the configuration of the parent container, if it exists. </p> 
+  <p>The global display parameters for the entire form are specified in the form properties box. The <strong>Rendering</strong> tab lets you select the position of labels. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_admin_survey_label_position.png" title="s_ncs_admin_survey_label_position.png" /> 
+  <p>This position can be overloaded for each page, each container, and each field, via the <strong>Advanced</strong> tab. </p> 
+  <p>The following alignments are supported:</p> 
+  <ul> 
+   <li><p>Inherited: the alignment is inherited from the parent element (default value), i.e. the parent container if any, or else the page.</p> </li> 
+   <li><p>Left/Right: the label is positioned to the right or to the left of the field,</p> </li> 
+   <li><p>Above/Below: the label is positioned above or below the field,</p> </li> 
+   <li><p>Hidden: the label is not displayed.</p> </li> 
+  </ul> 
+ </body> 
+</html>

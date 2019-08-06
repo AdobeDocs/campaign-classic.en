@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="82e6b5ae-aff6-43e8-ac67-6e01398dedac" name="jcr:predecessors" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Recurring delivery" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-08-06T06:59:15.728-0400" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Recurring delivery" name="jcr:description" />
+  <meta content="92bfde60-6f40-4681-b935-b803879ffffb" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Recurring delivery" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>A <strong>Recurring delivery</strong> activity lets you configure a delivery template occurrence that is specific to a campaign.</p> 
+  <p>This activity is only available from the <strong>Targeting and workflows</strong> tab found in a campaign.</p> 
+  <p>To do this:</p> 
+  <ol>
+   <li><p>Select the delivery template that the activity will be based on.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/recurring_delivery_001.png" title="recurring_delivery_001.png" /></li>
+   <li><p>Configure the delivery template.</p> </li>
+  </ol>
+  <p>The configuration process for this activity is similar to that of creating a delivery template in terms of the options available. For more on this, refer to this <a href="../../delivery/using/about-templates.md">section</a>.</p> 
+  <p>For an example of this activity being used, refer to this <a href="../../campaign/using/setting-up-marketing-campaigns.md#creating-a-recurring-delivery-in-a-targeting-workflow">section</a>.</p> 
+  <note>
+   <p> It is not possible to send a proof from a <strong>Recurring delivery</strong> type activity. <br /> To directly create a delivery via a campaign workflow, use the channel specific activities that are preconfigured (e.g. <strong>Email delivery</strong>).<br /> </p> 
+  </note>
+ </body>
+</html>

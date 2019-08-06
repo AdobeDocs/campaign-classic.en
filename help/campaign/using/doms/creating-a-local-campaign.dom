@@ -1,0 +1,204 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Creating a local campaign" name="jcr:title" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="9d08e399-87d1-47b9-b09c-f4261f067acf" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-08-06T06:59:11.098-0400" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:campaign" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Creating a local campaign" name="navTitle" />
+  <meta content="" name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="81a367e4-ca89-4cc4-ada9-52fffd8410fa" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Creating a local campaign" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <p>A local campaign is an instance created from a template referenced in the list of <strong>campaign packages</strong> with a <strong>specific execution schedule</strong>. Its aim is to meet a local communication need using a campaign template that was set up and configured by the central entity. The main stages for implementing a local operation are as follows:</p> 
+  <p><strong>For the central entity</strong></p> 
+  <ol>
+   <li><p>Creating a local campaign template.</p> </li>
+   <li><p>Creating a campaign package from a template.</p> </li>
+   <li><p>Publishing a campaign package.</p> </li>
+   <li><p>Approving orders.</p> </li>
+  </ol>
+  <p><strong>For the local entity</strong></p> 
+  <ol>
+   <li><p>Ordering the campaign.</p> </li>
+   <li><p>Executing campaigns.</p> </li>
+  </ol>
+  <h2 id="creating-a-local-campaign-template">Creating a local campaign template</h2>
+  <p>To create a campaign package, you must first create the <strong>campaign template</strong> via the <strong>Resources &gt; Templates</strong> node.</p> 
+  <p>To create a new local template, duplicate the default <strong>Local campaign (opLocal)</strong> template.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_creation.png" title="mkg_dist_local_op_creation.png" />
+  <p>Name your campaign template and complete the available fields.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_creation1.png" title="mkg_dist_local_op_creation1.png" />
+  <p>In the campaign window, click the <strong>Edit</strong> tab, then click the <strong>Advanced campaign settings...</strong> link. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkt_distr_4.png" title="mkt_distr_4.png" />
+  <h3 id="web-interface">Web interface</h3>
+  <p>In the <strong>Distributed marketing</strong> tab, you can choose the type of Web interface and specify the default values and parameters to be entered when a local entity places an order. </p> 
+  <p>The Web interface corresponds to a form to be filled in by the local entity when ordering the campaign.</p> 
+  <p>Select the type of Web interface to be applied to the campaigns created from the template:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkt_distr_1.png" title="mkt_distr_1.png" />
+  <p>There are four types of Web interfaces available:</p> 
+  <ul>
+   <li><p><strong>By brief</strong>: local entity must provide a description whereby it describes the campaign configurations. Once the order has been approved, the central entity configures and executes the campaign as a whole.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkt_distr_6.png" title="mkt_distr_6.png" /></li>
+   <li><p><strong>By form</strong>: local entity has access to a Web form where, depending on the template used, they can edit the content, the target, its maximum size, as well as creation and extraction dates using personalization fields. Local entity can evaluate the target and preview content from this Web form.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkt_distr_8.png" title="mkt_distr_8.png" /><p>The form offered is specified in a Web application that must be selected in a drop-down list from the <strong>Web Interface</strong> field in the template's <strong>Advanced campaign settings...</strong> link. Refer to <a href="../../campaign/using/creating-a-local-campaign.md#creating-a-local-campaign--by-form-" target="_blank">Creating a local campaign (by form)</a>.</p> 
+    <note>
+     <p>The Web application used in this example is an example. You must create a specific Web app to be able to use a form. Refer to <a href="../../configuration/using/about-web-services.md">API</a>.<br /> </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/mkt_distr_7.png" title="mkt_distr_7.png" /></li>
+   <li><p><strong>By external form</strong>: local entity has access to campaign parameters in its extranet (not Adobe Campaign). These parameters are identical to those of a <strong>local campaign (by form)</strong>.</p> </li>
+   <li><p><strong>Pre-set</strong>: local entity orders campaign using the default form, without localizing it.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkt_distr_5.png" title="mkt_distr_5.png" /></li>
+  </ul>
+  <h3 id="default-values">Default values</h3>
+  <p>Select the <strong>Default values</strong> to be completed by local entities. For example:</p> 
+  <ul>
+   <li><p>contact and extraction dates,</p> </li>
+   <li><p>target characteristics (age segment, etc.).</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_creation2.png" title="mkg_dist_local_op_creation2.png" />
+  <p>Complete the <strong>Parent marketing program</strong> and <strong>Charge</strong> fields.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_creation3.png" title="mkg_dist_local_op_creation3.png" />
+  <h3 id="approvals">Approvals</h3>
+  <p>From the <strong>Advanced parameters for campaign entry</strong> link, you can specify the maximum number of reviewers.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_add_valid_op1.png" title="s_advuser_mkg_dist_add_valid_op1.png" />
+  <p>Reviewers will be entered by the local entity when ordering the campaign.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkt_distr_5.png" title="mkt_distr_5.png" />
+  <p>If you do not wish to name reviewers for a campaign, enter 0.</p> 
+  <h3 id="documents">Documents</h3>
+  <p>You can allow local entity operators to link documents (text files, spreadsheets, images, campaign descriptions, etc.) to the local campaign when creating the order. The <strong>Advanced parameters for campaign entry...</strong> link lets you restrict the number of documents. To do this, simply enter the maximum number allowed in the <strong>Number of documents</strong> field.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_local_docs.png" title="s_advuser_mkg_dist_local_docs.png" />
+  <p>When ordering a campaign package, the form suggests linking as many documents as indicated in the corresponding field in the template.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_add_docs.png" title="s_advuser_mkg_dist_add_docs.png" />
+  <p>If you do not wish to display a document upload field, enter <strong>0</strong> in the <strong>Number of documents</strong> field.</p> 
+  <note>
+   <p> The <strong>Advanced parameters for campaign entry</strong> can be deactivated by checking <strong>Do not display the page used to enter the campaign parameters</strong>.<br /> </p> 
+  </note>
+  <h3 id="workflow">Workflow</h3>
+  <p>In the <strong>Targeting and workflows</strong> tab, create the campaign workflow that collects the <strong>Default values</strong> specified in the <strong>Advanced campaign settings...</strong> and creates the deliveries.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_creation4b.png" title="mkg_dist_local_op_creation4b.png" />
+  <p>Double click the <strong>Query</strong> activity to configure it according to the specified <strong>Default values</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkt_dist_local_campaign_localize_query.png" title="mkt_dist_local_campaign_localize_query.png" />
+  <h3 id="delivery">Delivery</h3>
+  <p>In the <strong>Audit</strong> tab, click the <strong>Detail...</strong> icon to view the <strong>Scheduling</strong> for the selected delivery.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_creation4c.png" title="mkg_dist_local_op_creation4c.png" />
+  <p>The <strong>Scheduling</strong> icon lets you configure the delivery's contact and execution date.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_creation4d.png" title="mkg_dist_local_op_creation4d.png" />
+  <p>If necessary, configure the maximum size of the delivery:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_creation4e.png" title="mkg_dist_local_op_creation4e.png" />
+  <p>Locate your delivery's HTML. For example, in <strong>Delivery &gt; Current order &gt; Additional fields</strong>, use the <strong>Age segment</strong> field to locate the delivery according to the age of the target.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkt_dist_local_campaign_localize_html.png" title="mkt_dist_local_campaign_localize_html.png" />
+  <p>Save your campaign template. You can now use it from the <strong>Campaign packages</strong> view in the <strong>Campaigns</strong> universe, by clicking the <strong>Create</strong> button.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkt_distr_9.png" title="mkt_distr_9.png" />
+  <note>
+   <p> Campaign templates and their general configuration are detailed in <a href="../../campaign/using/creating-a-local-campaign.md#campaign-templates" target="_blank">Campaign templates</a>.<br /> </p> 
+  </note>
+  <h2 id="creating-the-campaign-package">Creating the campaign package</h2>
+  <p>For the campaign template to become available to local entities, it needs to be added to the list. To do this, the central agency needs to create a new package.</p> 
+  <p>Apply the following steps:</p> 
+  <ol>
+   <li><p>In the <strong>Navigation</strong> section on the <strong>Campaigns</strong> page, click the <strong>Campaign packages</strong> link.</p> </li>
+   <li><p>Click the <strong>Create</strong> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_add_an_entry.png" title="mkg_dist_add_an_entry.png" /></li>
+   <li><p>The section above the window lets you select the <a href="../../campaign/using/creating-a-local-campaign.md#creating-a-local-campaign-template">previously</a> specified campaign package template.</p> <p>By default, the <strong>New local campaign package (localEmpty)</strong> template is used for local campaigns.</p> </li>
+   <li><p>Specify the label, folder and execution schedule for the campaign package.</p> </li>
+  </ol>
+  <h3 id="dates">Dates</h3>
+  <p>The start and end dates define the campaign's visibility period in the list of campaign packages.</p> 
+  <p>The availability date is the date on which the campaign will become available for local entities (to order).</p> 
+  <note>
+    If a local entity does not reserve the campaign before the deadline, it will not be able to use it.
+   <br /> 
+  </note>
+  <p>This information is found in the notification message sent to local agencies, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_local_notif.png" title="s_advuser_mkg_dist_local_notif.png" />
+  <h3 id="audience">Audience</h3>
+  <p>For a local campaign, the central entity can specify the local entities involved by checking the <strong>Limit the package to a set of local entities</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_advuser_mkg_dist_create_mutual_entry3.png" title="s_advuser_mkg_dist_create_mutual_entry3.png" />
+  <h3 id="additional-settings">Additional settings</h3>
+  <p>Once the package is saved, the central entity can edit it from the <strong>Edit</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_edit_kit.png" title="mkg_dist_edit_kit.png" />
+  <p>From the <strong>General</strong> tab, the central entity can:</p> 
+  <ul>
+   <li><p>configure the campaign package reviewer(s) from the <strong>Approval parameters...</strong> link,</p> </li>
+   <li><p>review the execution schedule,</p> </li>
+   <li><p>add or delete local entities.</p> </li>
+  </ul>
+  <note>
+   <p> By default, each entity can order a <strong>local campaign</strong> only once. <br /> Check the <strong>Enable multiple creation</strong> option to allow several local campaigns to be created from the campaign package.<br /> </p> 
+  </note>
+  <h3 id="notifications">Notifications</h3>
+  <p>When a campaign becomes available or when the registration deadline is reached, a message is sent to the operators of the local notification group. For more on this, refer to <a href="../../campaign/using/creating-a-local-campaign.md#organizational-entities" target="_blank">Organizational entities</a>.</p> 
+  <h2 id="ordering-a-campaign">Ordering a campaign</h2>
+  <p>Campaign packages become accessible to local entities once they are approved and their implementation period has started. Local entities receive an email letting them know that a new campaign package is available (as soon as its availability date is reached).</p> 
+  <note>
+   <p> If some local entities were specified when creating the campaign package, they will be the only ones to receive a notification. If no local entity was specified, all local entities will receive a notification.<br /> </p> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_notification.png" title="mkg_dist_local_op_notification.png" />
+  <p>To use a campaign offered by the central entity, the local entity must order it. </p> 
+  <p>To order a campaign:</p> 
+  <ol>
+   <li><p>Click <strong>Order campaign</strong> in the notification message, or the corresponding button in Adobe Campaign.</p> <p>Enter your ID and password to order the campaign. The interface is made up of a set of pages defined in a web application.</p> 
+    <note>
+     <p> Web applications are detailed in the <a href="../../web/using/about-web-applications.md">Web functionalities</a> guide.<br /> </p> 
+    </note></li>
+   <li><p>Enter the necessary information in the first page (order label and comment) and click <strong>Next</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_subscribe_step1.png" title="mkg_dist_subscribe_step1.png" /><p>Complete the available parameters and approve the order. </p> <p>A notification is sent to the manager of the organizational entity to which the local entity belongs, to approve this order.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_subscribe_step3.png" title="mkg_dist_subscribe_step3.png" /></li>
+   <li><p>The information is returned to the local and central entities. While local entities can only view their own orders, the central entity can view all orders by any local entity, as shown below:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_subscribe_central_view.png" title="mkg_dist_subscribe_central_view.png" /><p>Operators can display order details:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_catalog_detail_1.png" title="mkg_dist_local_op_catalog_detail_1.png" /><p> The <strong>Edit</strong> tab contains information entered by the local entity when ordering the campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_catalog_detail_1b.png" title="mkg_dist_local_op_catalog_detail_1b.png" /></li>
+   <li><p>The order must be approved by the central entity to be finalized. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_catalog_detail_3.png" title="mkg_dist_local_op_catalog_detail_3.png" /><p>For more on this, refer to the <a href="../../campaign/using/creating-a-local-campaign.md#approval-process" target="_blank">Approval process</a> section.</p> </li>
+   <li><p>The local operator is then notified that the campaign is available: campaign availability can be found in the list of campaign packages within the <strong>Campaigns</strong> universe. The campaign can then be used. For more on this, refer to <a href="../../campaign/using/accessing-campaigns.md" target="_blank">Accessing campaigns</a>.</p> <p>The <strong>Start targeting with order approval</strong> option lets the local entity run the campaign as soon as the order has been approved.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_catalog_use.png" title="mkg_dist_local_op_catalog_use.png" /></li>
+  </ol>
+  <h2 id="approving-an-order">Approving an order</h2>
+  <p>To confirm a campaign order, the central entity must approve it. </p> 
+  <p> The <strong>Campaign orders</strong> overview, accessed via the <strong>Campaigns</strong> universe lets you view the status of campaign orders and approve them. </p> 
+  <note>
+   <p> Local entities can make changes to the order until it is approved.<br /> </p> 
+  </note>
+  <h3 id="approval-process">Approval process</h3>
+  <h4 id="email-notification">Email notification</h4>
+  <p>When a campaign is ordered by a local entity, its reviewers are notified by email, as shown below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_valid_notif_email.png" title="mkg_dist_valid_notif_email.png" />
+  <note>
+   <p> Selecting reviewers is presented in the <a href="../../campaign/using/creating-a-local-campaign.md#reviewers" target="_blank">Reviewers</a> section. They can accept or reject the order.<br /> </p> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_command_valid_web.png" title="mkg_dist_command_valid_web.png" />
+  <h4 id="approving-via-the-adobe-campaign-console">Approving via the Adobe Campaign console</h4>
+  <p>The order may also be approved via the console, in the campaign order overview. To approve an order, select it and click <strong>Approve the order</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_order_valid.png" title="mkg_dist_local_order_valid.png" />
+  <note>
+   <p> The campaign can still be edited and reconfigured up until the campaign availability date. Local entities can also reject the campaign by clicking the <strong>Cancel</strong> button.<br /> </p> 
+  </note>
+  <h4 id="creating-a-campaign">Creating a campaign</h4>
+  <p>Once a campaign order is approved, it may be configured and executed by the local entity. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_mutual_op_created.png" title="mkg_dist_mutual_op_created.png" />
+  <p>For more on this, refer to <a href="../../campaign/using/accessing-campaigns.md" target="_blank">Accessing campaigns</a>.</p> 
+  <h3 id="rejecting-an-approval">Rejecting an approval</h3>
+  <p>The operator in charge of approval can reject an order or campaign package. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_do_not_valid.png" title="mkg_dist_do_not_valid.png" />
+  <p>If the reviewer rejects an order, the relevant notification is automatically sent to the local entities concerned: it displays the comment entered by the operator that rejected the approval.</p> 
+  <p>Information is displayed on the list of campaign packages page or on the campaign order page. If they have access to the Adobe Campaign console, local entities are informed of this rejection.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_do_not_valid_view.png" title="mkg_dist_do_not_valid_view.png" />
+  <p>They can view the related comment in the campaign package's <strong>Edit</strong> tab.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_do_not_valid_tab.png" title="mkg_dist_do_not_valid_tab.png" />
+  <h3 id="reviewers">Reviewers</h3>
+  <p>Every time an approval is required, reviewers are notified by email. </p> 
+  <p>For each local entity, reviewers are selected for campaign order approval and campaign approval. For more information on selecting local reviewers, refer to <a href="../../campaign/using/creating-a-local-campaign.md#organizational-entities" target="_blank">Organizational entities</a>. </p> 
+  <note>
+   <p> For this selection to be possible, order approval must not yet be effective.<br /> </p> 
+  </note>
+  <h3 id="canceling-an-order">Canceling an order</h3>
+  <p>The central agency can cancel an order using the <strong>Delete</strong> button, located on the order dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkg_dist_local_op_cancel.png" title="mkg_dist_local_op_cancel.png" />
+  <p>This cancels the campaign in the <strong>Campaign orders</strong> view.</p> 
+ </body>
+</html>

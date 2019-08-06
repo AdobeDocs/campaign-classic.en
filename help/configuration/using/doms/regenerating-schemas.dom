@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Regenerating schemas" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="seoDescription" />
+  <meta content="audience:configuration" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-08-06T06:59:43.595-0400" name="jcr:created" />
+  <meta content="7c0eaf9e-adab-4330-bcf3-431229295fad" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Regenerating schemas" name="navTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Regenerating schemas" name="jcr:description" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="bbeda594-bd34-4db3-b017-df67efbdbe37" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+ </head>
+ <body>
+  <p>When you modify a schema and save the modifications, extended schema is automatically generated. Nevertheless, you may need to regenerate schemas manually to apply modifications. To do this: </p> 
+  <ol>
+   <li><p>Select the schema(s) you need to regenerate.</p> </li>
+   <li><p>Right click and choose <strong>Actions &gt; Regenerate selected schemas...</strong>.</p> </li>
+   <li><p>Click <strong>OK</strong> to confirm and launch the process.</p> </li>
+  </ol>
+  <p>You can then check the structure of the generated schema in the Previw and Documentation tabs. For more on this, refer to the <a href="../../configuration/using/regenerating-schemas.md#principles" target="_blank">Principles</a> section. </p> 
+  <note>
+   <p> If you need to force regeneration of all schema, for example to solve certain dependency problems in the reverse links, you can launch the following command from the Adobe Campaign application server: <br /> <strong>nlserver config -postupgrade -instance:
+     <instance_name>
+       -force
+     </instance_name></strong><br /> You must then restart the Adobe Campaign application server and disconnect/reconnect to the client console.<br /> </p> 
+  </note>
+ </body>
+</html>

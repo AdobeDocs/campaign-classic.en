@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="help/components/morehelp" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="video" name="pageLayout" />
+  <meta content="left" name="sideColumn" />
+  <meta content="true" name="preview" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="isContainer" />
+  <meta content="Installing Campaign in Windows " name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:installation" name="primaryAudienceTag" />
+  <meta content="2019-08-06T06:59:33.772-0400" name="jcr:created" />
+  <meta content="/apps/help/templates/morehelp" name="cq:template" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body></body>
+</html>

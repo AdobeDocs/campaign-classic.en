@@ -1,0 +1,65 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="2019-08-06T06:59:22.096-0400" name="jcr:created" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="f6c07f03-6b27-46bd-8445-9e1ff8ca45ee" name="jcr:uuid" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" /> 
+  <meta content="93ebcbc8-6d0d-481d-b119-a85cf6e4a699" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="audience:interaction" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Integration via SOAP (server side)" name="jcr:description" /> 
+  <meta content="Integration via SOAP (server side)" name="navTitle" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Integration via SOAP (server side)" name="jcr:title" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <p>The SOAP web services provided for offer management are different from those usually used in Adobe Campaign. They can be accessed via the interaction URL described in the previous section and let you present or update offers for a given contact.</p> 
+  <h2 id="offer-proposition">Offer proposition</h2> 
+  <p>For an offer proposition via SOAP, add the <strong>nms:proposition#Propose</strong> command followed by the following parameters:</p> 
+  <ul> 
+   <li><p><strong>targetId</strong>: primary key of the recipient (can be a composite key). </p> </li> 
+   <li><p><strong>maxCount</strong>: specifies the number of offer propositions for the contact.</p> </li> 
+   <li><p><strong>context</strong>: lets you add context information in the space schema. If the schema used is <strong>nms:interaction</strong>, <strong> 
+      <empty /></strong> should be added.</p> </li> 
+   <li><p><strong>categories</strong>: specifies the category/ies that the offers must belong to.</p> </li> 
+   <li><p><strong>themes</strong>: specifies the theme(s) that the offer(s) must belong to.</p> </li> 
+   <li><p><strong>uuid</strong>: value of the Adobe Campaign permanent cookie ("uuid230").</p> </li> 
+   <li><p><strong>nli</strong>: value of the Adobe Campaign session cookie ("nlid").</p> </li> 
+   <li><p><strong>noProp</strong>: use the "true" value to deactivate proposal insertion.</p> </li> 
+  </ul> 
+  <note> 
+   <p> The <strong>targetId</strong> and <strong>maxCount</strong> settings are compulsory. The others are optional.<br /> </p> 
+  </note> 
+  <p>In response to the query, the SOAP service will return the following parameters:</p> 
+  <ul> 
+   <li><p><strong>interactionId</strong>: ID of the interaction.</p> </li> 
+   <li><p><strong>propositions</strong>: XML element, contains the list of propositions, each with their own ID and HTML representation.</p> </li> 
+  </ul> 
+  <h2 id="offer-update">Offer update</h2> 
+  <p>Add the <strong>nms:interaction#UpdateStatus</strong> command to the URL, followed by these parameters:</p> 
+  <ul> 
+   <li><p><strong>proposition</strong>: string of characters, it contains the proposition ID given as an output during an offer proposition. Refer to <a href="../../interaction/using/integration-via-soap--server-side-.md#offer-proposition" target="_blank">Offer proposition</a>.</p> </li> 
+   <li><p><strong>status</strong>: string type, it specifies the new status of the offer. The possible values are listed in the <strong>propositionStatus</strong> enumeration, in the <strong>nms:common</strong> schema. For example, out-of-the-box, the number 3 corresponds to the <strong>Accepted</strong> status.</p> </li> 
+   <li><p><strong>context</strong>: XML element, lets you add context information in the space schema. If the schema used is <strong>nms:interaction</strong>, <strong> 
+      <empty /></strong> should be added.</p> </li> 
+  </ul> 
+  <h2 id="example-using-a-soap-call">Example using a SOAP call</h2> 
+  <p>Here is an example of code for a SOAP call: </p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;%!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;var&amp;nbsp;space&amp;nbsp;=&amp;nbsp;request.parameters.sp!!discoiqbr!!&amp;nbsp;&amp;nbsp;var&amp;nbsp;cnx&amp;nbsp;=&amp;nbsp;new&amp;nbsp;HttpSoapConnection(!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"https://"&amp;nbsp;+&amp;nbsp;request.serverName&amp;nbsp;+&amp;nbsp;":"&amp;nbsp;+&amp;nbsp;request.serverPort&amp;nbsp;+&amp;nbsp;"/interaction/"&amp;nbsp;+&amp;nbsp;env&amp;nbsp;+&amp;nbsp;"/"&amp;nbsp;+&amp;nbsp;space,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"utf-8",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;HttpSoapConnection.SOAP_12)!!discoiqbr!!&amp;nbsp;&amp;nbsp;var&amp;nbsp;session&amp;nbsp;=&amp;nbsp;new&amp;nbsp;SoapService(cnx,&amp;nbsp;"nms:interaction")!!discoiqbr!!&amp;nbsp;&amp;nbsp;var&amp;nbsp;action&amp;nbsp;=&amp;nbsp;request.parameters.a!!discoiqbr!!&amp;nbsp;&amp;nbsp;if(&amp;nbsp;action&amp;nbsp;==&amp;nbsp;undefined&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;action&amp;nbsp;=&amp;nbsp;'propose'!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;try!!discoiqbr!!&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;switch(&amp;nbsp;action&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;"update":!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;proposition&amp;nbsp;=&amp;nbsp;request.parameters.p!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;status&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;=&amp;nbsp;request.parameters.st!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;session.addMethod("UpdateStatus",&amp;nbsp;"nms:interaction#UpdateStatus",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;["proposition",&amp;nbsp;"string",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"status",&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"string",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"context",&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"NLElement"],!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[])!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;session.UpdateStatus(proposition,&amp;nbsp;status,&amp;nbsp;&lt;undef/&gt;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;redirect&amp;nbsp;=&amp;nbsp;request.parameters.r!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(&amp;nbsp;redirect&amp;nbsp;!=&amp;nbsp;undefined&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;response.sendRedirect(redirect)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;"propose":!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;count&amp;nbsp;=&amp;nbsp;request.parameters.n!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;target&amp;nbsp;=&amp;nbsp;request.parameters.t!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;categorie&amp;nbsp;=&amp;nbsp;request.parameters.c!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;theme&amp;nbsp;=&amp;nbsp;request.parameters.th!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;layout&amp;nbsp;=&amp;nbsp;request.parameters.l!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(&amp;nbsp;count&amp;nbsp;==&amp;nbsp;undefined&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;count&amp;nbsp;=&amp;nbsp;1!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;session.addMethod("Propose",&amp;nbsp;"nms:proposition#Propose",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;["targetId",&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"string",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"maxCount",&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"string",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"categories",&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"string",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"themes",&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"string",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"context",&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"NLElement"],!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;["interactionId",&amp;nbsp;"string",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"propositions",&amp;nbsp;&amp;nbsp;"NLElement"])!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;response.setContentType("text/html")!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;result&amp;nbsp;=&amp;nbsp;session.Propose(target,&amp;nbsp;count,&amp;nbsp;category,&amp;nbsp;theme,&amp;nbsp;&lt;empty/&gt;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;props&amp;nbsp;=&amp;nbsp;result[1]!!discoiqbr!!&amp;nbsp;&amp;nbsp;%&gt;&lt;table&gt;&lt;tr&gt;&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;for&amp;nbsp;each(&amp;nbsp;var&amp;nbsp;propHtml&amp;nbsp;in&amp;nbsp;props.proposition.*.htmlSource&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;%&gt;&lt;td&gt;&lt;%=propHtml%&gt;&lt;/td&gt;&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;%&gt;&lt;/tr&gt;&lt;/table&gt;&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;catch(&amp;nbsp;e&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;%&gt; 
+  </codeblock> 
+ </body> 
+</html>

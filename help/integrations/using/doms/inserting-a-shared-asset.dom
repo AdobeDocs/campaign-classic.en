@@ -1,0 +1,46 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="audience:integrations" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="5f544c3a-0af4-4f79-9d1f-788de639a8ea" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Inserting a shared asset" name="jcr:description" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="seoDescription" />
+  <meta content="Inserting a shared asset" name="jcr:title" />
+  <meta content="bd1d336d-d0fa-4bfc-aad0-89b28e68f600" name="jcr:uuid" />
+  <meta content="2019-08-06T06:59:39.938-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Inserting a shared asset" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <p>Assets shared from Adobe Experience Cloud can be used in your emails and landing pages as follows:</p> 
+  <ol>
+   <li><p>Create a new email or a new landing page.</p> <p>If you use assets from Adobe Experience Manager assets library, use a delivery template created when <a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets">configuring the integration</a>.</p> <p>If you do not have this specific template, make sure that in the delivery <strong>Properties</strong>, the <strong>Content editing mode</strong> (<strong>Advanced</strong> tab) is set to <strong>DCE</strong> and that the AEM external account that you want to use for accessing your AEM Assets resource library is provided.</p> </li>
+   <li><p>In the editing window, select the option to add an image:</p> 
+    <ul>
+     <li><p>If you are using the <a href="../../delivery/using/defining-the-email-content.md#adding-images">standard editing mode</a>, select <strong>Image</strong> &gt; <strong>Select a shared asset</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dam_insert_image_standard.png" title="dam_insert_image_standard.png" /></li>
+     <li><p>If you are using the <a href="../../web/using/about-campaign-html-editor.md">advanced editing mode</a> (DCE), go to an image block, then via the contextual menu, select <strong>Select a shared asset</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dam_insert_image_dce.png" title="dam_insert_image_dce.png" />
+      <note>
+       <p> You cannot insert shared images from Adobe Campaign in <a href="../../platform/using/adobe-campaign-workspace.md#console-and-web-access">web access</a> when using the DCE.<br /> </p> 
+      </note></li>
+    </ul></li>
+   <li><p>In the selection window that opens, select an image, then confirm.</p> <p>The available images either come from your Adobe Experience Cloud library, or your AEM Assets library, depending on how your Adobe Campaign instance is configured. Refer to the <a href="../../integrations/using/configuring-access-to-assets.md" target="_blank">Configuring access to Assets</a> section.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dam_shared_image_selection.png" title="dam_shared_image_selection.png" /></li>
+  </ol>
+  <note>
+   <p> If you use the integration with Adobe Target, you can use a shared image as a default image. Refer to <a href="../../integrations/using/integrating-with-adobe-target.md">this page</a>.<br /> </p> 
+  </note>
+ </body>
+</html>

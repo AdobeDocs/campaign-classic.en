@@ -1,0 +1,145 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-08-06T06:59:24.593-0400" name="jcr:created" />
+  <meta content="LINE channel" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="461d062f-9cf3-40da-975b-f7fccd21f092" name="jcr:predecessors" />
+  <meta content="" name="seoDescription" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="46e3b2cf-1bef-4257-97a0-bfe670128a4a" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="LINE channel" name="jcr:description" />
+  <meta content="LINE channel" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+ </head>
+ <body>
+  <p>LINE is an application for free instant messaging, voice and video calls, available on all smartphones (iPhone, Android, Windows Phone, Blackberry, Nokia) and on PC. Adobe Campaign allows you to send LINE messages.</p> 
+  <p>LINE is only available for on-premise or managed services installations.</p> 
+  <p>LINE can also be combined with the transactional message module to send real time messages on the LINE app installed in consumer mobile devices. For more on this, refer to this <a href="../../message-center/using/transactional-messaging-architecture.md#transactional-messaging-and-line">page</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/line_message.png" title="line_message.png" />
+  <p>The steps for using the LINE channel are:</p> 
+  <ol>
+   <li><p>Creating a delivery</p> </li>
+   <li><p>Configuring the message content</p> </li>
+   <li><p>Selecting the target population</p> </li>
+   <li><p>Sending the messages</p> </li>
+   <li><p>Monitoring the delivery (tracking, quarantining, reports, etc.).</p> </li>
+  </ol>
+  <h2 id="setting-up-line-channel">Setting up LINE channel</h2>
+  <h3 id="creating-a-line-account-and-an-external-account-">Creating a LINE account and an external account</h3>
+  <note>
+   <p> Before creating a LINE account and external account, you first need to install the LINE package on your instance. For more information on this, consult the <a href="/installation/using/installing-packages.md#line-package">LINE</a> section in the Installation guide.<br /> </p> 
+  </note>
+  <p>You must first create a LINE account, so that you can then link it to Adobe Campaign. Then, you can send LINE messages to the users that have added your LINE account in their mobile application. External accounts and LINE account can only be managed by the functional administrator of the platform.</p> 
+  <p>To create and configure a LINE account, see <a href="https://developers.line.me/">https://developers.line.me/</a>.</p> 
+  <p>To create and configure a LINE service, see <a href="../../delivery/using/managing-subscriptions.md" target="_blank">Managing subscriptions</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/line_service.png" title="line_service.png" />
+  <p>Finally, to create an external account on Adobe Campaign:</p> 
+  <ol>
+   <li><p>In the <strong>Administration</strong> &gt; <strong>Platform</strong> tree structure, click the <strong>External Accounts</strong> tab.</p> </li>
+   <li><p>Then click the <strong>New</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/line_config.png" title="line_config.png" /></li>
+   <li><p>Complete the <strong>Label</strong> and <strong>Internal name</strong> fields.</p> </li>
+   <li><p>In the <strong>Type</strong> field, select Routing and in the <strong>Channel</strong> field, select LINE.</p> </li>
+   <li><p>Click <strong>Save</strong> to create your LINE external account.</p> </li>
+   <li><p>A <strong>LINE</strong> personalization field then appears under the <strong>General</strong> icon, fill the following fields:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/line_config_2.png" title="line_config_2.png" />
+    <ul>
+     <li><p><strong>Channel Alias</strong>: is provided via your LINE account in the <strong>Channels</strong> &gt; <strong>Technical configuration</strong> tab.</p> </li>
+     <li><p><strong>Channel ID</strong>: is provided via your LINE account in the <strong>Channels </strong>&gt; <strong>Basic Information panel</strong> tab.</p> </li>
+     <li><p><strong>Channel secret key</strong>: is provided via your LINE account in the <strong>Channels </strong>&gt; <strong>Basic Information panel</strong> tab.</p> </li>
+     <li><p><strong>Access token</strong>: is provided via your LINE account in the developer portal or by clicking the <strong>Get access token</strong> button.</p> </li>
+     <li><p><strong>Access token expiration date</strong>: allows you to specify the expiration date of the Access token.</p> </li>
+     <li><p><strong>LINE subscription service</strong>: allows you to specify the services to which the users will be subscribed.</p> </li>
+    </ul></li>
+  </ol>
+  <note>
+   <p> You must verify that the <strong>LINE access token update (updateLineAccessToken)</strong> and <strong>Delete blocked LINE users (deleteBlockedLineUsers)</strong> workflows have started. From the explorer, click <strong>Administration &gt; Production &gt; Technical workflows &gt; LINE workflows</strong> to check the status of the workflows.<br /> </p> 
+  </note>
+  <h2 id="creating-the-delivery">Creating the delivery</h2>
+  <p>To create a <strong>LINE</strong> delivery you have to follow these steps:</p> 
+  <note>
+   <p> Global concepts on delivery creation are presented in <a href="../../delivery/using/key-steps-when-creating-a-delivery.md">this section</a>.<br /> </p> 
+  </note>
+  <ol>
+   <li><p>From the <strong>Campaigns</strong> tab, select <strong>Deliveries</strong> then click the <strong>Create</strong> button. </p> </li>
+   <li><p>In the window that appears, select <strong>LINE V2 delivery</strong> delivery template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/line_message_01.png" title="line_message_01.png" /></li>
+   <li><p>Identify your delivery with a label, code, and description. For more on this, refer to <a href="../../delivery/using/key-steps-when-creating-a-delivery.md#identifying-the-delivery">this section</a>.</p> </li>
+   <li><p>Click <strong>Continue</strong> to create your delivery.</p> </li>
+  </ol>
+  <h2 id="defining-the-content">Defining the content</h2>
+  <p>To define the content of a LINE delivery, you first have to add message type to your delivery. Each LINE delivery can contain up to 5 messages.</p> 
+  <p>You can choose between two message types:</p> 
+  <ul>
+   <li><p>Text message</p> </li>
+   <li><p>Image and link</p> </li>
+  </ul>
+  <h3 id="configuring-a-text-message-delivery">Configuring a Text message delivery</h3>
+  <p>A <strong>Text message</strong> LINE delivery is a message sent to recipients in text form. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/line_message_02.png" title="line_message_02.png" />
+  <p>The configuration for this type of message is similar to the configuration of the <strong>text</strong> in an email. For more information, refer to this <a href="../../delivery/using/defining-the-email-content.md#message-content">page</a>.</p> 
+  <h3 id="configuring-an-image-and-link-delivery">Configuring an Image and link delivery</h3>
+  <p>An <strong>Image and link</strong> LINE delivery is a message sent to recipients in the form of an image that may contain one or multiple URLs.</p> 
+  <p>You can use:</p> 
+  <ul>
+   <li><p>a <strong>Personalized image</strong>,</p> 
+    <note>
+     <p> You can use the <strong>%SIZE%</strong> variable: this variable allows you to optimize the image display according to the screen size of the recipient's mobile device.<br /> </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/line_message_04.png" title="line_message_04.png" /></li>
+   <li><p>an <strong>Image URL</strong>,</p> <img alt="" captionBottom="" imageRotate="0" src="assets/line_message_03.png" title="line_message_03.png" /><p>The image URLs allow you to use different image resolutions to optimize delivery visibility on mobile devices. Only images with same height and width are supported.</p> <p>Images can be defined according to the screen size: </p> 
+    <ul>
+     <li><p>1040px</p> </li>
+     <li><p>700px</p> </li>
+     <li><p>460px</p> </li>
+     <li><p>300px</p> </li>
+     <li><p>240px</p> </li>
+    </ul>
+    <note>
+     <p> The 1040x1040 px size is mandatory for every LINE image with link.<br /> </p> 
+    </note><p>You then have to add alternative text that will pop up on the recipient's mobile device.</p> </li>
+   <li><p>and <strong>Links</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/line_message_05.png" title="line_message_05.png" /><p>The <strong>Links</strong> section allows you to choose between different layouts that will divide your image in multiple clickable regions. You can then assign each of them a dedicated link.</p> </li>
+  </ul>
+  <note>
+   <p> The &lt;%@ include option='NmsServer_URL' %&gt;/webApp/APP3?id=&lt;%=escapeUrl(cryptString(visitor.id))%&gt; syntax allows you to include a link to a web app in a LINE message.<br /> </p> 
+  </note>
+  <h3 id="recommendations">Recommendations</h3>
+  <ul>
+   <li><p>When you send a LINE delivery to a new recipient for the first time, you must add the official LINE message regarding the terms of use and consent into the delivery. The official message is available at the following link: <a href="https://terms.line.me/OA_privacy/sp?lang=fr">https://terms.line.me/OA_privacy/</a>.</p> </li>
+  </ul>
+  <h2 id="selecting-the-target-population">Selecting the target population</h2>
+  <p>Selecting recipients of a LINE delivery is similar to defining email delivery recipients. For more information, refer to <a href="../../delivery/using/identifying-target-populations.md" target="_blank">Identifying target populations</a>.</p> 
+  <p>Targeting is carried out on <strong>visitors</strong>. </p> 
+  <h2 id="sending-messages">Sending messages</h2>
+  <p>When your delivery is created and configured correctly, you can send it to the target defined earlier.</p> 
+  <p>Sending LINE deliveries is similar to sending an email delivery. For more information on sending a delivery, refer to <a href="../../delivery/using/sending-messages.md" target="_blank">Sending messages</a>.</p> 
+  <h2 id="accessing-reports">Accessing reports</h2>
+  <p>You can view reports on the LINE service by clicking <strong>Profiles and Targets &gt; Services and Subscriptions &gt; LINE</strong> in the explorer. Then click the <strong>Reports</strong> icon in the LINE service.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/line_reports.png" title="line_reports.png" />
+  <p>To view reports on LINE deliveries, click <strong>Campaign Management &gt; Deliveries</strong> then select the delivery you want. The tracking reports indicate the click-through rate. LINE does not take the open rate into account.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/line_reports_01.png" title="line_reports_01.png" />
+  <h2 id="example--create-and-send-a-personalized-line-message">Example: create and send a personalized LINE message</h2>
+  <p>In this example, we are going to create and configure a text message and an image containing data that will be personalized according to the recipient.</p> 
+  <ol>
+   <li><p>Create your LINE delivery by clicking the <strong>Create</strong> button from the <strong>Campaign</strong> tab.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/line_usecase.png" title="line_usecase.png" /></li>
+   <li><p>Select the <strong>LINE V2 delivery</strong> delivery template and name your delivery.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/line_usecase_01.png" title="line_usecase_01.png" /></li>
+   <li><p>In the configuration window of your delivery, select your target population.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/line_usecase_02.png" title="line_usecase_02.png" /></li>
+   <li><p>Click <strong>Add</strong> to create your message and select the <strong>Message type</strong>.</p> <p>Here, we first want to create a text message.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/line_usecase_03.png" title="line_usecase_03.png" /></li>
+   <li><p>Place your cursor in the place where you want to insert the personalized text and click the drop-down icon then select <strong>Visitor &gt; First name</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/line_usecase_05.png" title="line_usecase_05.png" /></li>
+   <li><p>Follow the same procedure to add an image, selecting <strong>Image and links</strong> in the <strong>Message type</strong> drop-down.</p> <p>Add your image URL.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/line_usecase_07.png" title="line_usecase_07.png" /></li>
+   <li><p>In the <strong>Links</strong> section, select the layout that will divide your image in multiple clickable regions.</p> </li>
+   <li><p>Assign an URL to each region of your image.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/line_usecase_08.png" title="line_usecase_08.png" /></li>
+   <li><p>Save your delivery then click <strong>Send</strong> to analyze and send it to the target.</p> <p>The delivery is sent to the target.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/line_usecase_06.png" title="line_usecase_06.png" /></li>
+  </ol>
+ </body>
+</html>

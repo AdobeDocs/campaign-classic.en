@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="General Data Protection Regulation (GDPR)" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="General Data Protection Regulation (GDPR)" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-08-06T06:59:19.557-0400" name="jcr:created" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="ffb008ae-00dc-4d8c-ae02-18c9c24daa04" name="jcr:predecessors" />
+  <meta content="General Data Protection Regulation (GDPR)" name="jcr:description" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="383dd7ee-823e-474a-9757-9ceb6907836d" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <p>The workflows detailed below are installed with the <strong>General Data Protection Regulation (GDPR)</strong> module by default. For more on this module, refer to this <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html">section</a>.</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> <strong>Label</strong><br /> </td> 
+     <td> <strong>Internal name</strong><br /> </td> 
+     <td> <strong>Description</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Collect privacy requests</strong><br /> </td> 
+     <td> <strong>collectPrivacyRequests</strong><br /> </td> 
+     <td> This workflow generates the recipient's data stored in Adobe Campaign and makes it available for download in the privacy request's screen.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Delete privacy requests data</strong><br /> </td> 
+     <td> <strong>deletePrivacyRequestsData</strong><br /> </td> 
+     <td> This workflow deletes the recipient's data stored in Adobe Campaign.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Privacy request cleanup</strong><br /> </td> 
+     <td> <strong>cleanupPrivacyRequests</strong><br /> </td> 
+     <td> This workflow erases the access request files that are older than 90 days.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+ </body>
+</html>

@@ -1,0 +1,102 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Delivery" name="jcr:title" /> 
+  <meta content="576aa0ba-f721-481e-a488-8c66b921212c" name="jcr:predecessors" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="Delivery" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2019-08-06T06:59:15.547-0400" name="jcr:created" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="e6899b00-1a1c-4be3-94b0-446c6b8a7f84" name="jcr:uuid" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Delivery" name="jcr:description" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="audience:workflow" name="primaryAudienceTag" /> 
+ </head> 
+ <body> 
+  <p>A <strong>Delivery</strong>-type activity lets you create a delivery action. It can be constructed using input elements. </p> 
+  <p>To configure it, edit the activity and enter the delivery options.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/edit_diffusion.png" title="edit_diffusion.png" /> 
+  <ol> 
+   <li><p><strong>Delivery</strong></p> <p>You can:</p> 
+    <ul> 
+     <li><p>Act on the delivery specified in the inbound transition. To do this, select the first option of the <strong>Delivery</strong> section of the window.</p> <p>This option can be used when a previous workflow activity has already created or specified the delivery. This can have been done, like in the example below, by an activity of the same type having generated an outbound transition.</p> <p>In the following example, the delivery is created for the first time. The population and the content are defined later. Next, the information for these three elements is re-entered into a new delivery activity using the inbound transition so that this can be sent.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/specified_transition_option_exemple.png" title="specified_transition_option_exemple.png" /></li> 
+     <li><p>Directly select the delivery concerned. To do this, select the <strong>Explicit</strong> option and select the delivery from the drop-down list of the <strong>Delivery</strong> field.</p> <p>The list shows unfinished deliveries contained in the <strong>Deliveries</strong> folder by default. To access other campaigns, click the <strong>Select link</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/diffusion_edit_1.png" title="diffusion_edit_1.png" /><p>Select the campaign from the drop-down list of the <strong>Folder</strong> field, or click <strong>Display sub-levels</strong> to display all of the deliveries contained in sub-folders:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/diffusion_edit_2.png" title="diffusion_edit_2.png" /><p>After selecting the delivery action, you can display the content by clicking the <strong>Edit link</strong> icon.</p> </li> 
+     <li><p>Create a script to calculate the delivery. To do this, select the <strong>Calculated by a script</strong> option and enter the script. You can open an input window by clicking the <strong>Edit...</strong> option. The following example recovers the identifier of the delivery:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/diffusion_edit_3.png" title="diffusion_edit_3.png" /></li> 
+     <li><p>Create a new delivery. To do this, select the <strong>New, created from a template</strong> option and select the delivery template which the delivery will be based on.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/diffusion_edit_4.png" title="diffusion_edit_4.png" /><p>Click the <strong>Select link</strong> icon to browse the folders, and click the <strong>Edit link</strong> icon if you wish to view the content of the selected template.</p> </li> 
+    </ul></li> 
+   <li><p><strong>Recipients</strong></p> <p>Recipients can be specified by the inbound events, for example following a file import, or specified in the delivery action. They can also be stored in one or more files.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/diffusion_edit_5.png" title="diffusion_edit_5.png" /></li> 
+   <li><p><strong>Content</strong></p> <p>The content of the message can be defined in the delivery or the inbound event.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/diffusion_edit_6.png" title="diffusion_edit_6.png" /></li> 
+   <li><p><strong>Action to execute</strong></p> <p>You can create the delivery, prepare it, start it, estimate the target or send a proof. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/diffusion_edit_7.png" title="diffusion_edit_7.png" /><p>Select the type of action to be carried out:</p> 
+    <ul> 
+     <li><p><strong>Save</strong>: this option lets you create the delivery and save it. It will not analyze or deliver it.</p> </li> 
+     <li><p><strong>Estimate the target</strong>: this option lets you calculate the delivery target to assess its potential (first analysis phase). This action is the equivalent of selecting the <strong>Estimate the population to be targeted</strong> option and clicking <strong>Analyze</strong> when sending a delivery to the main target via <strong>Delivery</strong>.</p> </li> 
+     <li><p><strong>Prepare</strong>: this option lets you run the full analysis process (target calculation and content preparation). The delivery isn't sent. This action is the equivalent of selecting the <strong>Deliver as soon as possible</strong> option and clicking <strong>Analyze</strong> when sending a delivery to the main target with <strong>Delivery</strong>.</p> </li> 
+     <li><p><strong>Send a proof</strong>: this option lets you send a proof of the delivery. This action is the equivalent of clicking the <strong>Send a proof</strong> button in the toolbar of a delivery with <strong>Delivery</strong> </p> </li> 
+     <li><p><strong>Prepare and start</strong>: this option launches the full analysis process (target calculation and content preparation) and sends the delivery. This action is the equivalent of clicking <strong>Deliver as soon as possible</strong>, <strong>Analyze</strong>, and <strong>Confirm delivery</strong> option when sending a delivery to the main target with <strong>Delivery</strong>.</p> </li> 
+    </ul><p>The <strong>Act on a delivery</strong> activity used further on in the workflow lets you launch all remaining steps required for starting the delivery (target calculation, content preparation, delivery). For more on this, refer to <a href="../../workflow/using/delivery-control.md" target="_blank">Delivery control</a>.</p> <p>The following options are also available:</p> 
+    <ul> 
+     <li><p><strong>Generate an outbound transition</strong></p> <p>Creates an outbound transition that will be activated at the end of execution. You can choose whether or not to retrieve the target of the outbound delivery.</p> </li> 
+     <li><p><strong>Do not recover target</strong></p> <p>Does not recover the target of the outgoing delivery action.</p> </li> 
+     <li><p><strong>Processing errors</strong></p> <p>Refer to <a href="../../workflow/using/delivery-control.md" target="_blank">Delivery control</a>.</p> </li> 
+    </ul><p>The <strong>Script</strong> tab lets you modify the delivery parameters.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/edit_diffusion_fil_script.png" title="edit_diffusion_fil_script.png" /></li> 
+  </ol> 
+  <h2 id="example--delivery-workflow">Example: delivery workflow</h2> 
+  <p>Create a new workflow and add activities as shown in the graphic below:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/new-workflow-5.png" title="new-workflow-5.png" /> 
+  <p>Open the <strong>Delivery</strong> activity and define the properties as follows: </p> 
+  <ul> 
+   <li><p>In the <strong>Delivery</strong> section, select <strong>New, created from a template</strong> and select a delivery template. </p> </li> 
+   <li><p>In the <strong>Recipients</strong> section, select <strong>Specified in the delivery</strong>. </p> </li> 
+   <li><p>In the <strong>Action to execute</strong> section, keep the <strong>Prepare</strong> option. </p> </li> 
+  </ul> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/new-workflow-param-delivery.png" title="new-workflow-param-delivery.png" /> 
+  <p>Click <strong>OK</strong> to close the properties window. You have just configured an activity that consists of creating and preparing a new delivery based on a delivery template whose target will be specified within it.</p> 
+  <p>Open the <strong>Approval</strong> activity and define the properties as follows:</p> 
+  <ol> 
+   <li><p>In the <strong>Assignment type</strong> field, select a group in which you are registered. If you are connected using the 'admin' account, select the Administration group.</p> </li> 
+   <li><p>Next, enter a title and insert the following text in the message body:</p> 
+    <codeblock gutter="true" class="syntax html">
+      Do&amp;nbsp;you&amp;nbsp;wish&amp;nbsp;to&amp;nbsp;approve&amp;nbsp;delivery&amp;nbsp;(&lt;%=&amp;nbsp;vars.recCount&amp;nbsp;%&gt;&amp;nbsp;recipient(s))? 
+    </codeblock><p>This is a message that includes an expression written in JavaScript: <strong>vars.recCount</strong> represents the number of recipients targeted by the delivery of the preceding task. For further information on JavaScript expressions, refer to <a href="../../workflow/using/javascript-scripts-and-templates.md" target="_blank">JavaScript scripts and templates</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/new-workflow-param-validation.png" title="new-workflow-param-validation.png" /><p>The Approval task is detailed in <a href="../../workflow/using/approval.md" target="_blank">Approval</a>.</p> </li> 
+  </ol> 
+  <h2 id="input-parameters">Input parameters</h2> 
+  <p>Delivery identifier, if the <strong>Specified in the transition</strong> option is selected in the <strong>Delivery</strong> section.</p> 
+  <ul> 
+   <li><p>deliveryId</p> </li> 
+   <li><p>tableName</p> </li> 
+   <li><p>schema</p> </li> 
+  </ul> 
+  <p>Each inbound event must specify a target defined by these parameters. </p> 
+  <note> 
+   <p> This parameter only appears if the <strong>Specified by inbound event(s)</strong> option is selected in the <strong>Recipients</strong> section.<br /> </p> 
+  </note> 
+  <ul> 
+   <li><p>filename</p> <p>Full name of the file generated if the <strong>File(s) specified by inbound event(s)</strong> option is selected in the <strong>Recipients</strong> section.</p> </li> 
+   <li><p>contentId</p> <p>Content identifier if the <strong>Specified by inbound events</strong> option is selected in the <strong>Content</strong> section.</p> </li> 
+  </ul> 
+  <h2 id="output-parameters">Output parameters</h2> 
+  <ul> 
+   <li><p>tableName</p> </li> 
+   <li><p>schema</p> </li> 
+   <li><p>recCount</p> </li> 
+  </ul> 
+  <p>This set of three values identifies the target resulting from the delivery. <strong>tableName</strong> is the name of the table which memorizes the identifiers of the target,<strong> schema </strong>is the schema of the population (usually nms:recipient) and <strong>recCount</strong> is the number of elements in the table.</p> 
+  <p>The transition associated with the complement has the same parameters.</p> 
+  <note> 
+   <p> There are no output parameters when the <strong>Do not recover target</strong> option is selected.<br /> </p> 
+  </note> 
+ </body> 
+</html>

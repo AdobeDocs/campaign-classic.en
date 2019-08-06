@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="seoDescription" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Offers by cell" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="529cebbe-79d7-48ca-a8e2-d70c89b37398" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-08-06T06:59:14.420-0400" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Offers by cell" name="navTitle" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="603c20dd-3f9a-47e3-adbb-024c537fcbe4" name="jcr:uuid" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Offers by cell" name="jcr:title" />
+  <meta content="topic_tags:targeting-activities;products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+ </head>
+ <body>
+  <p>The <strong>Offers by cell</strong> activity lets you distribute the inbound population (from a query for example) into several segments and to specify an offer to present for each of these segments.</p> 
+  <p>This activity can only be used with <strong>Interaction</strong>. For more information, refer to this <a href="../../interaction/using/about-outbound-channels.md">section</a>.</p> 
+  <p>To do this:</p> 
+  <ol>
+   <li><p>Add the <strong>Offers by cell</strong> activity once you have specified the target population, then open it.</p> </li>
+   <li><p>In the <strong>General</strong> tab, select the offer space on which you want to present the offers.</p> </li>
+   <li><p>In the <strong>Cells</strong> tab, specify the different sub-sets using the <strong>Add</strong> button:</p> 
+    <ul>
+     <li><p>Specify the subset population using the available filtering and limiting rules.</p> </li>
+     <li><p>Next, select the offer that you want to present to the sub-set. The available offers are those that are eligible on the offer space that was selected at the previous step.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/int_offer_per_cell1.png" title="int_offer_per_cell1.png" /></li>
+    </ul></li>
+   <li><p>Then configure a delivery activity that corresponds to your chosen channel. Refer to <a href="../../workflow/using/cross-channel-deliveries.md" target="_blank">Cross-channel deliveries</a>.</p> </li>
+  </ol>
+ </body>
+</html>

@@ -1,0 +1,83 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="audience:workflow" name="primaryAudienceTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2019-08-06T06:59:16.209-0400" name="jcr:created" /> 
+  <meta content="SQL Data Management" name="jcr:title" /> 
+  <meta content="SQL Data Management" name="jcr:description" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="878c5308-3045-45ce-84fb-2022ac4610f9" name="jcr:predecessors" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="e08c45ec-1c41-4bfc-b042-4d56e14e6307" name="jcr:uuid" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="SQL Data Management" name="navTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+ </head> 
+ <body> 
+  <p>The <strong>SQL Data Management</strong> activity lets you write your own SQL scripts to create and populate work tables.</p> 
+  <h2 id="prerequisites">Prerequisites</h2> 
+  <p>Before configuring the activity, make sure the following prerequisites are fulfilled:</p> 
+  <ul> 
+   <li><p>The activity is available for remote data sources only. The <strong>FDA</strong> (Federated Data Access) package must therefore be installed on your instance (see <a href="../../platform/using/accessing-an-external-database.md">this section</a>).</p> </li> 
+   <li><p>The Outbound schema must exist in the database and be linked to an FDA database (for more on data schemas, refer to <a href="../../configuration/using/about-schema-reference.md">this section</a>).</p> </li> 
+   <li><p>The operator executing the workflow must have the <strong>USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)</strong> named right. For more on named rights, refer to <a href="../../platform/using/access-management.md#named-rights">this section</a>.</p> </li> 
+  </ul> 
+  <h2 id="configuring-the-sql-data-management-activity">Configuring the SQL Data Management activity</h2> 
+  <ol> 
+   <li><p>Specify the activity <strong>Label</strong>.</p> </li> 
+   <li><p>Select the <strong>External account</strong> to use, then select the <strong>Outbound schema</strong> linked to this external account.</p> 
+    <note>
+      The Outbound schema is fixed and cannot be edited. 
+     <br /> 
+    </note></li> 
+   <li><p>Add the SQL script.</p> 
+    <note>
+      It is the SQL script writer's responsibility to make sure that the SQL script is functional, and that its references (fields names, etc.) are in accordance with the Outbound schema. 
+     <br /> 
+    </note><p>If you want to load an existing SQL code, select the <strong>The SQL script is contained in an entity stored in the database</strong> option. SQL scripts must be created and stored in the <strong>Administration</strong> / <strong>Configuration</strong> / <strong>SQL scripts</strong> menu.</p> <p>Otherwise, type or copy-paste your SQL script in the dedicated area.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sql_datamanagement.png" title="sql_datamanagement.png" /><p>The activity lets you use the following variables in the script:</p> 
+    <ul> 
+     <li><p><strong>activity.tableName</strong>: SQL name of the outbound work table.</p> </li> 
+     <li><p><strong>task.incomingTransitionByName(‘name’).tableName</strong>: SQL name of the work table carried by the incoming transition to use (the transition is identified by its name).</p> 
+      <note> 
+       <p> The ('name') value corresponds to the <strong>Name</strong> field from the transition properties.<br /> </p> 
+      </note></li> 
+    </ul></li> 
+   <li><p>If the SQL script already contains commands to create an outbound work table, unselect the <strong>Automatically create work table</strong> option. Otherwise, a work table is automatically created once the workflow executes.</p> </li> 
+   <li><p>Click <strong>Ok</strong> to confirm the activity configuration.</p> </li> 
+  </ol> 
+  <p>The activity is now configured. It is ready to be executed in the workflow.</p> 
+  <note>
+    Once the activity executed, the outbound transition records count is indicative only. It may vary according to the level of complexity of the SQL script. 
+   <br /> If the activity is restarted, the whole script is executed from its beginning, regardless of it execution status. 
+   <br /> 
+  </note> 
+  <h2 id="sql-script-samples">SQL script samples</h2> 
+  <note> 
+   <p> The script samples in this section are meant to be executed under PostgreSQL.<br /> </p> 
+  </note> 
+  <p>Below script lets you create a work table and insert data into this same work table:</p> 
+  <codeblock gutter="true" class="syntax html">
+    CREATE&amp;nbsp;UNLOGGED&amp;nbsp;TABLE&amp;nbsp;&lt;%=&amp;nbsp;activity.tableName&amp;nbsp;%&gt;&amp;nbsp;(!!discoiqbr!!&amp;nbsp;&amp;nbsp;iRecipientId&amp;nbsp;INTEGER&amp;nbsp;DEFAULT&amp;nbsp;0,!!discoiqbr!!&amp;nbsp;&amp;nbsp;sFirstName&amp;nbsp;VARCHAR(100),!!discoiqbr!!&amp;nbsp;&amp;nbsp;sMiddleName&amp;nbsp;VARCHAR(100),!!discoiqbr!!&amp;nbsp;&amp;nbsp;sLastName&amp;nbsp;VARCHAR(100),!!discoiqbr!!&amp;nbsp;&amp;nbsp;sEmail&amp;nbsp;VARCHAR(100)!!discoiqbr!!);!!discoiqbr!!!!discoiqbr!!INSERT&amp;nbsp;INTO&amp;nbsp;&lt;%=&amp;nbsp;activity.tableName&amp;nbsp;%&gt;!!discoiqbr!!SELECT&amp;nbsp;iRecipientId,&amp;nbsp;sFirstName,&amp;nbsp;sMiddleName,&amp;nbsp;sLastName,&amp;nbsp;sEmail!!discoiqbr!!FROM&amp;nbsp;nmsRecipient!!discoiqbr!!GROUP&amp;nbsp;BY&amp;nbsp;iRecipientId,&amp;nbsp;sFirstName,&amp;nbsp;sMiddleName,&amp;nbsp;sLastName,&amp;nbsp;sEmail; 
+  </codeblock> 
+  <p>Below script lets you perform a CTAS operation (CREATE TABLE AS SELECT) and create a work table index:</p> 
+  <codeblock gutter="true" class="syntax html">
+    CREATE&amp;nbsp;TABLE&amp;nbsp;&lt;%=&amp;nbsp;activity.tableName&amp;nbsp;%&gt;!!discoiqbr!!AS&amp;nbsp;SELECT&amp;nbsp;iRecipientId,&amp;nbsp;sEmail,&amp;nbsp;sFirstName,&amp;nbsp;sLastName,&amp;nbsp;sMiddleName!!discoiqbr!!FROM&amp;nbsp;nmsRecipient!!discoiqbr!!WHERE&amp;nbsp;sEmail&amp;nbsp;IS&amp;nbsp;NOT&amp;nbsp;NULL!!discoiqbr!!GROUP&amp;nbsp;BY&amp;nbsp;iRecipientId,&amp;nbsp;sEmail,&amp;nbsp;sFirstName,&amp;nbsp;sLastName,&amp;nbsp;sMiddleName;!!discoiqbr!!!!discoiqbr!!CREATE&amp;nbsp;INDEX&amp;nbsp;ON&amp;nbsp;&lt;%=&amp;nbsp;activity.tableName&amp;nbsp;%&gt;&amp;nbsp;(sEmail);!!discoiqbr!!!!discoiqbr!!ANALYZE&amp;nbsp;&lt;%=&amp;nbsp;activity.tableName&amp;nbsp;%&gt;&amp;nbsp;(sEmail); 
+  </codeblock> 
+  <p>Below script lets you merge two working tables:</p> 
+  <codeblock gutter="true" class="syntax html">
+    CREATE&amp;nbsp;TABLE&amp;nbsp;&lt;%=&amp;nbsp;activity.tableName&amp;nbsp;%&gt;!!discoiqbr!!AS&amp;nbsp;SELECT&amp;nbsp;i1.sFirstName,&amp;nbsp;i1.sLastName,&amp;nbsp;i2.sEmail!!discoiqbr!!FROM&amp;nbsp;&lt;%=&amp;nbsp;task.incomingTransitionByName('input1').tableName&amp;nbsp;%&gt;&amp;nbsp;i1!!discoiqbr!!JOIN&amp;nbsp;&lt;%=&amp;nbsp;task.incomingTransitionByName('input2').tableName&amp;nbsp;%&gt;&amp;nbsp;i2&amp;nbsp;ON&amp;nbsp;(i1.id&amp;nbsp;=&amp;nbsp;i2.id) 
+  </codeblock> 
+ </body> 
+</html>

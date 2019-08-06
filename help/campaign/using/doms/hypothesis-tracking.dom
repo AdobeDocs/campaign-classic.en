@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="audience:campaign" name="primaryAudienceTag" />
+  <meta content="Hypothesis tracking" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="6a7096a9-8fbe-4116-a338-6a8eacb26bfe" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Hypothesis tracking" name="jcr:title" />
+  <meta content="Hypothesis tracking" name="navTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-08-06T06:59:12.103-0400" name="jcr:created" />
+  <meta content="" name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="58ff92a5-cfef-467a-932d-408fbd8dbcfb" name="jcr:uuid" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+ </head>
+ <body>
+  <p>The result of hypothesis calculations is available at various levels of the Adobe Campaign platform: indicators calculated by hypotheses and the target populations reactions are visible via the actual hypothesis, as well as in the hypotheses reports available via campaigns and deliveries. </p> 
+  <h2 id="hypothesis-results">Hypothesis results</h2>
+  <h3 id="indicators">Indicators</h3>
+  <p>Once the hypothesis has been calculated, several measurement indicators are updated automatically. These are available in the <strong>General</strong> tab of the hypothesis.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/response_hypothesis_delivery_example_010.png" title="response_hypothesis_delivery_example_010.png" />
+  <p>These indicators are:</p> 
+  <ul>
+   <li><p><strong>Number of respondent contacts</strong>: number of contacted individuals who match the hypothesis.</p> </li>
+   <li><p><strong>Contacted response rate</strong>: number of respondent contacts / total people contacted during the delivery.</p> </li>
+   <li><p><strong>Number of respondent control group contacts</strong>: number of control groups that match the hypothesis.</p> </li>
+   <li><p><strong>Response rate of the control group</strong>: number of respondent control groups / total number of delivery control groups.</p> </li>
+   <li><p><strong>Number of reactions</strong>: number of records in the table which contains the relationship between individuals, the hypothesis and the transaction table.</p> </li>
+  </ul>
+  <p>For the full list of indicators, click the <strong>Display the list</strong> link:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/response_hypothesis_indicators_002.png" title="response_hypothesis_indicators_002.png" />
+  <p>The following information is provided by the indicators:</p> 
+  <ul>
+   <li><p><strong>Total revenue of population contacted</strong>: total amounts over the number of individuals contacted.</p> </li>
+   <li><p><strong>Total revenue of the control group</strong>: total amounts over the number of control groups.</p> </li>
+   <li><p><strong>Average revenue per contact</strong>: total amounts / contacted.</p> </li>
+   <li><p><strong>Average revenue of control group</strong>: total amounts / control group.</p> </li>
+   <li><p><strong>Total margin per contact</strong>: total margin over contacted.</p> </li>
+   <li><p><strong>Total margin of control group</strong>: total margin over control group.</p> </li>
+   <li><p><strong>Average margin per contact</strong>: total margin / contacted.</p> </li>
+   <li><p><strong>Average margin of control groups</strong>: total margins / control group.</p> </li>
+   <li><p><strong>Additional revenue</strong>: (Average revenue of contacted-Average revenue of control group)*Number of contacted</p> </li>
+   <li><p><strong>Additional margin</strong>: (Average margin of contacted-Average margin of control group) / number of contacted</p> </li>
+   <li><p><strong>Average cost per contact</strong>: calculated delivery cost / Number of contacts.</p> </li>
+   <li><p><strong>ROI</strong>: calculated cost of the delivery / Total margin per contact</p> </li>
+   <li><p><strong>Effective ROI</strong>: calculated delivery cost / Additional margin.</p> </li>
+   <li><p><strong>Significance</strong>: contains values 0 to 3 depending on campaign significance.</p> </li>
+  </ul>
+  <h3 id="reactions">Reactions</h3>
+  <p>You can view recipients' reactions to the hypotheses via the <strong>Reactions</strong> tab.</p> 
+  <ol>
+   <li><p>Once hypothesis calculation is complete, go to the <strong>Campaign management &gt; Measurement hypotheses</strong> node of the Adobe Campaign tree.</p> </li>
+   <li><p>Select the desired hypothesis and click the <strong>Reactions</strong> tab to view the list of recipients likely to purchase something following the marketing campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/response_hypothesis_reactions_001.png" title="response_hypothesis_reactions_001.png" /></li>
+  </ol>
+  <h2 id="reports">Reports</h2>
+  <p>The <strong>Hypothesis report</strong> lets you view the results of the hypotheses performed on campaigns and deliveries. This report contains the indicators calculated by the hypothesis (for more on this, refer to <a href="../../campaign/using/hypothesis-tracking.md#indicators" target="_blank">Indicators</a>).</p> 
+  <ul>
+   <li><p><strong>At campaign level</strong>: click the <strong>Reports</strong> link of the relevant campaign and select the <strong>Hypothesis report</strong>. This report contains the list of campaign deliveries and the hypotheses calculated for each delivery. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/response_hypothesis_campaign_report_001.png" title="response_hypothesis_campaign_report_001.png" /></li>
+   <li><p><strong>At delivery level</strong>: to access the report, open the concerned delivery, click the <strong>Reports</strong> in the <strong>Summary</strong> tab and select the <strong>Hypothesis report</strong>. If several hypotheses were calculated for the same delivery, the report will contain all hypotheses.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/response_hypothesis_delivery_report_001.png" title="response_hypothesis_delivery_report_001.png" /></li>
+  </ul>
+ </body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="73f0d287-2ede-4374-a2bb-eb5086c19e3f" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-08-06T06:59:15.667-0400" name="jcr:created" />
+  <meta content="Delivery control" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="289b5b49-0d0e-4e5a-ac6c-e56a0316e8d0" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="Delivery control" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Delivery control" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <p>A <strong>Delivery control</strong>-type action lets you start, pause, or stop a delivery. </p> 
+  <p>This can be the delivery specified in the transition, a delivery selected explicitly, or a delivery calculated by a script. For more on this, refer to <a href="../../workflow/using/delivery.md" target="_blank">Delivery</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/edit_diffusion_act.png" title="edit_diffusion_act.png" />
+  <p>If you select <strong>Start</strong>, the activity will perform all the steps required to start the delivery (target calculation, content preparation, delivery). If some of these steps have already been performed by a previous workflow activity they won't be performed again. For instance, if the target estimation was already performed by a <strong>Delivery</strong> type activity (refer to <a href="../../workflow/using/delivery.md" target="_blank">Delivery</a>), the <strong>Act on the delivery</strong> activity will launch the remaining steps (content preparation and delivery). </p> 
+  <p>The following options are available:</p> 
+  <ul>
+   <li><p><strong>Generate an outbound transition</strong></p> <p>Creates an outbound transition that will be activated at the end of execution. You can choose whether or not to retrieve the target of the outbound delivery.</p> </li>
+   <li><p><strong>Processing errors</strong></p> <p>Refer to <a href="../../workflow/using/delivery-control.md#processing-errors" target="_blank">Processing errors</a>.</p> </li>
+  </ul>
+  <h2 id="input-parameters">Input parameters</h2>
+  <ul>
+   <li><p>deliveryId</p> </li>
+  </ul>
+  <p>Delivery identifier, if the selected action is <strong>Specified in the transition</strong>.</p> 
+ </body>
+</html>

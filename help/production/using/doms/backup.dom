@@ -1,0 +1,57 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="c2ea72f1-8c61-4607-b0fb-13ac21c1ef09" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="f5b2d2ee-2c2a-4e66-b0ca-c28ed9247b45" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="Backup" name="navTitle" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Backup" name="jcr:description" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:production" name="primaryAudienceTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-08-06T06:59:01.977-0400" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Backup" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="seoDescription" />
+ </head>
+ <body>
+  <p>Backing up is essential in order to avoid losing data in the event of a problem (whether physical or system-related) on a machine.</p> 
+  <p>Data is stored in two separate locations: </p> 
+  <ul>
+   <li><p>physical files are stored in the Adobe Campaign directories,</p> </li>
+   <li><p>other data is stored in the database.</p> </li>
+  </ul>
+  <p>Most of the data is in the database. This represents 99% of the information to be backed up.</p> 
+  <h2 id="physical-files">Physical files</h2>
+  <p>Files are divided into several categories:</p> 
+  <ul>
+   <li><p>Configuration files, located in <strong>nl6/conf</strong></p> <p>These enable you to reconfigure Adobe Campaign very quickly. </p> </li>
+   <li><p>Redirection files <strong> nl6/var/
+      <instancename>
+       /redir
+      </instancename></strong></p> <p>These are on the tracking (often called 'frontal') servers, and include all previous campaign redirections. They are still used by previous campaigns.</p> </li>
+   <li><p>Log files: <strong>nl6/var/
+      <instancename>
+       /log
+      </instancename></strong></p> <p>These can be used to trace problems.</p> </li>
+  </ul>
+  <note>
+    It is essential to back up the database.
+   <br /> 
+  </note>
+  <h2 id="database">Database</h2>
+  <p>The database contains all of the information displayed in the Adobe Campaign rich client console, as well as all the line-of-business data.</p> 
+  <p>Your hosting company, and their database administrators in particular, are responsible for this operation. </p> 
+ </body>
+</html>

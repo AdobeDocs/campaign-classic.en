@@ -1,0 +1,39 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:installation" name="primaryAudienceTag" />
+  <meta content="Hosting models" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-08-06T06:59:29.204-0400" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Hosting models" name="jcr:title" />
+  <meta content="4cc416eb-f15b-4d98-adf6-dcd4e73d5887" name="jcr:predecessors" />
+  <meta content="Hosting models" name="jcr:description" />
+  <meta content="807c848f-0102-4df4-af39-ff46b2f97d2b" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+ </head>
+ <body>
+  <p>Adobe Campaign offers a choice of three hosting models, providing flexibility and freedom to choose the best model, or models to suit business needs.</p> 
+  <note>
+   <p> Main installation and configuration steps can only be performed by Adobe for deployments hosted by Adobe. For example, to configure the server and instance configuration files. To learn more about the main differences between deployment modes, refer to <a href="https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html">this article</a>. If you have a hosted or hybrid model, please refer to this <a href="/installation/using/introduction.md">section</a>. <br /> </p> 
+  </note>
+  <ul>
+   <li><p><strong>Managed Services (Hosted)</strong></p> <p>Adobe Campaign can be deployed as a Managed Service: all components of Adobe Campaign, including the user interface, the execution management engine, and the customer's Campaign database are fully hosted by Adobe, including email execution, mirror pages, tracking server, and externally-facing web components such as unsubscribe page/preference center and landing pages. Adobe allocates up to three instances in the Cloud---Development, Test/Stage, and Production. The installation and configuration steps for this hosting model are presented in this <a href="../../installation/using/hosted-model.md">section</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/deployment_hosted.png" title="deployment_hosted.png" /></li>
+   <li><p><strong>On-premise</strong></p> <p>Adobe Campaign can be deployed on-premise: all components of Adobe Campaign, including the user interface, execution management engine and database reside on-site in the customer's data center. In this deployment model, the customer manages all software and hardware updates and upgrades, and a dedicated database administrator needs to perform maintenance and optimization tasks to ensure Campaign instance management.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/deployment_onpremise.png" title="deployment_onpremise.png" /></li>
+   <li><p><strong>Hybrid</strong></p> <p>When deployed as a hybrid model, the Adobe Campaign solution software resides on-premise at the customer site, and execution management is delivered as a cloud service by Adobe. Adobe Campaign marketing instance is installed inside a customer's firewall, so personally identifiable information (PII) remains in-house and only data required to personalize emails is sent to the Cloud for email execution. The execution instance, hosted in the Cloud, receives the requests from the On-Premise instance to deliver emails. This instance personalizes all the emails and delivers them. No data of any kind is permanently stored in the cloud. The installation and configuration steps for this hosting model are presented in this <a href="../../installation/using/hybrid-model.md">section</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/deployment_hybrid.png" title="deployment_hybrid.png" /></li>
+  </ul>
+ </body>
+</html>

@@ -1,0 +1,451 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Setting up mobile app channel" name="navTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:delivery" name="primaryAudienceTag" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2019-08-06T06:59:24.783-0400" name="jcr:created" /> 
+  <meta content="5a48eaf1-bf09-4adb-952e-0353b7425635" name="jcr:uuid" /> 
+  <meta content="Setting up mobile app channel" name="jcr:description" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="Setting up mobile app channel" name="jcr:title" /> 
+  <meta content="d388d6ea-f57c-4b12-8a6b-8c4e4a01275a" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <h2 id="introduction">Introduction</h2> 
+  <note>
+    Mobile App Channel implementation has to be performed by expert users. If you need to be assisted, contact your Adobe Account executive or Professional services partner. 
+   <br /> 
+  </note> 
+  <p>You can create several versions of your mobile application (iOS, Android): the Mobile App channel option enables you to send notifications to terminals which the application is installed on.</p> 
+  <p>To use the functionalities of the Adobe Campaign Mobile App Channel, you need to change/adapt your mobile application to integrate it into the Adobe Campaign platform.</p> 
+  <p>Two Campaign Classic SDKs are available, one for Android and one for iOS, for an easy integration of your mobile application with Adobe Campaign. A deep technical knowledge of Java and Objective-C is required. A detailed description of Campaign SDK is found in <a href="../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application" target="_blank">Integrating Campaign SDK into the mobile application</a>.</p> 
+  <note> 
+   <p> Libraries provided by Adobe Campaign are designed to be used with Xcode (iOS) and Android Studio (Android). <br /> </p> 
+  </note> 
+  <h2 id="connectors">Connectors</h2> 
+  <h3 id="ios-connectors">iOS connectors</h3> 
+  <p>For iOS, two connectors are available:</p> 
+  <ul> 
+   <li><p>The iOS binary connector sends notifications on the legacy binary APNS server.</p> </li> 
+   <li><p>The iOS HTTP/2 connector sends notifications to the HTTP/2 APNS. </p> </li> 
+  </ul> 
+  <p>To choose which connector you want to use, follow these steps:</p> 
+  <ol> 
+   <li><p>Go to <strong>Administration &gt; Platform &gt; External accounts</strong>.</p> </li> 
+   <li><p>Select the iOS routing external account.</p> </li> 
+   <li><p>In the <strong>Connector</strong> tab, fill in the <strong>Access URL of the connector</strong> field:</p> <p>For iOS binary: https://localhost:8080/nms/jsp/ios.jsp</p> <p>For iOS HTTP2: http://localhost:8080/nms/jsp/iosHTTP2.jsp </p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_connectors.png" title="nmac_connectors.png" /></li> 
+  </ol> 
+  <h3 id="android-connectors">Android connectors</h3> 
+  <p>For Android, two connectors are available:</p> 
+  <ul> 
+   <li><p>The V1 connector which allows one connection per MTA child. </p> </li> 
+   <li><p>The V2 connector which allows simultaneous connections to the FCM server to improve throughput.</p> </li> 
+  </ul> 
+  <p>To choose which connector you want to use, follow these steps:</p> 
+  <ol> 
+   <li><p>Go to <strong>Administration &gt; Platform &gt; External accounts</strong>.</p> </li> 
+   <li><p>Select the <strong>Android routing</strong> external account.</p> </li> 
+   <li><p>In the <strong>Connector</strong> tab, fill in the <strong>JavaScript used in the connector</strong> field:</p> <p>For Android V1: https://localhost:8080/nms/jsp/androidPushConnector.js</p> <p>For Android V2: https://localhost:8080/nms/jsp/androidPushConnectorV2.js</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_connectors3.png" title="nmac_connectors3.png" /></li> 
+   <li><p>For Android V2, one additional parameter is available in the Adobe Server configuration file (serverConf.xml):</p> 
+    <ul> 
+     <li><p><strong>maxGCMConnectPerChild</strong>: Maximum limit of parallel HTTP requests to the FCM initiated by each child server (8 by default).</p> </li> 
+    </ul></li> 
+  </ol> 
+  <h2 id="configuration-steps">Configuration steps</h2> 
+  <h3 id="creating-the-application">Creating the application</h3> 
+  <p>If you don't have a mobile application (app), the application developer needs to create it and integrate the SDK. If the mobile application exists, the developer needs to adapt it by integrating the Adobe Campaign SDK and adding the settings specific to the service. For a description of the SDK, refer to <a href="../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application" target="_blank">Integrating Campaign SDK into the mobile application</a>.</p> 
+  <note>
+    The application must have been configured for Push actions BEFORE any integration to Adobe Campaign SDK. 
+   <br /> If this is not the case, please refer to: 
+   <a href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/Introduction.html">https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/Introduction.html</a>. 
+   <br /> 
+  </note> 
+  <h3 id="collecting-information-">Collecting information</h3> 
+  <p>To configure the application, you have to collect the technical specifications which define the set of parameters that enable Adobe Campaign and the mobile application to communicate. These parameters are:</p> 
+  <ul> 
+   <li><p><strong>the integration key</strong>: each application has a unique key. This key lets you link the Adobe Campaign service and the mobile application. Refer to <a href="../../delivery/using/setting-up-mobile-app-channel.md#-general-information" target="_blank"> General information</a>.</p> </li> 
+   <li><p><strong>the variables</strong>: define the behavior of the application when you activate the notification. Refer to <a href="../../delivery/using/setting-up-mobile-app-channel.md#-general-information" target="_blank"> General information</a>.</p> </li> 
+   <li><p><strong>the subscription settings</strong>: by default, Adobe Campaign recovers the <strong>@userKey</strong> field that enables you to reconcile mobile devices with the recipients in the database. If you want to collect additional data (such as a complex reconciliation key), you can define subscription settings. Refer to <a href="../../delivery/using/setting-up-mobile-app-channel.md#-subscription-settings" target="_blank"> Subscription settings</a>.</p> </li> 
+   <li><p><strong>the sounds</strong> (iOS only): if the selected sound isn't a system sound, the sound file must be embedded into the mobile application. Refer to <a href="../../delivery/using/setting-up-mobile-app-channel.md#-application-sounds" target="_blank"> Application sounds</a>.</p> </li> 
+   <li><p><strong>the URL of the marketing server and the tracking server</strong>: the Adobe Campaign administrator must provide the application developer with the URLs of the marketing server and the URLs of the tracking server. For more on this, refer to: <a href="../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application" target="_blank">Integrating Campaign SDK into the mobile application</a>.</p> </li> 
+  </ul> 
+  <h3 id="creating-the-service">Creating the service</h3> 
+  <p>The Adobe Campaign administrator needs to create and configure a service linked to the mobile application. For more on this, refer to <a href="../../delivery/using/setting-up-mobile-app-channel.md#configuring-the-mobile-application-in-adobe-campaign" target="_blank">Configuring the mobile application in Adobe Campaign</a>.</p> 
+  <h3 id="testing-the-application">Testing the application</h3> 
+  <p>On iOS, you need to create an application that uses the sandbox mode for tests and approvals. Then, within the same Adobe Campaign service, create a new production type application and enter the relevant certificate. For more on this, refer to the documentation on the Apple notifications service.</p> 
+  <p>On Android, you only need to create one application. Test the full subscription and delivery collection process on your application before making it public.</p> 
+  <h2 id="data-path">Data path</h2> 
+  <p>The following schemas detail the steps that enable a mobile application to exchange data with Adobe Campaign. This process involves three entities: </p> 
+  <ul> 
+   <li><p>the mobile application</p> </li> 
+   <li><p>the notification service: APNS (Apple Push Notification Service) for Apple and FCM (Firebase Cloud Messaging) for Android</p> </li> 
+   <li><p>Adobe Campaign</p> </li> 
+  </ul> 
+  <p>The three main steps of the notification process are: registration of the application in Adobe Campaign (subscription collection), deliveries, and tracking. </p> 
+  <h3 id="step-1--subscription-collection">Step 1: Subscription collection</h3> 
+  <p>The mobile application is downloaded by the user from the App Store or from Google Play. This application contains the connection settings (iOS certificate and project key for Android) and the integration key. The first time the application is opened, (depending on configuration), the user can be asked to enter registration information (@userKey: email or account number for instance). At the same time, the application questions the notification service to collect a notification ID (push ID). All this information (connection settings, integration key, notification identifier, userKey) is sent to Adobe Campaign.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_register_view.png" title="nmac_register_view.png" /> 
+  <h3 id="step-2--delivery">Step 2: Delivery</h3> 
+  <p>Marketers target application subscribers. The delivery process sends the connection settings to the notification service (iOS certificate and project key for Android), the notification ID (push ID) and the content of the notification. The notification service sends notifications to the targeted terminals.</p> 
+  <p>The following information is available in Adobe Campaign:</p> 
+  <ul> 
+   <li><p>Android only: number of devices that have displayed the notification (impressions)</p> </li> 
+   <li><p>Android and iOS: number of clicks on the notification</p> </li> 
+  </ul> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_delivery_view.png" title="nmac_delivery_view.png" /> 
+  <p> The Adobe Campaign server must be able to contact the APNS server on the following ports:</p> 
+  <ul> 
+   <li><p>2195 (sending) and 2186 (feedback service) for iOS binary connector</p> </li> 
+   <li><p>443 for iOS HTTP/2 connector</p> </li> 
+  </ul> 
+  <p>To check that it works correctly, use the following commands:</p> 
+  <ul> 
+   <li><p>For tests:</p> 
+    <codeblock gutter="true" class="syntax html">
+      telnet&amp;nbsp;gateway.sandbox.push.apple.com 
+    </codeblock></li> 
+   <li><p>In production:</p> 
+    <codeblock gutter="true" class="syntax html">
+      telnet&amp;nbsp;gateway.push.apple.com 
+    </codeblock></li> 
+  </ul> 
+  <p>If an iOS binary connector is used, the MTA and web server must be able to contact the APNS on port 2195 (sending), the workflow server must be able to contact the APNS on port 2196 (feedback service). </p> 
+  <p>If an iOS HTTP/2 connector is used, the MTA, web server and workflow server must be able to contact the APNS on port 443.</p> 
+  <h2 id="integrating-campaign-sdk-into-the-mobile-application">Integrating Campaign SDK into the mobile application</h2> 
+  <p>Campaign SDKs for iOS and Android are one of the components of the Mobile App Channel module.</p> 
+  <note> 
+   <p> To get Campaign SDK (previously known as Neolane SDK), contact Adobe Customer Care.<br /> </p> 
+  </note> 
+  <p>The goal of the SDK is to facilitate the integration of a mobile application into the Adobe Campaign platform.</p> 
+  <p>To learn more on the different Android and iOS versions supported, refer to the .</p> 
+  <h3 id="loading-campaign-sdk">Loading Campaign SDK</h3> 
+  <ul> 
+   <li><p><strong>In Android</strong>: the <strong>neolane_sdk-release.aar</strong> file must be linked to the project.</p> <p>The following permission grants access to the Adobe Campaign server:</p> 
+    <codeblock gutter="true" class="syntax html">
+      Neolane.getInstance().setIntegrationKey("your&amp;nbsp;Adobe&amp;nbsp;mobile&amp;nbsp;app&amp;nbsp;integration&amp;nbsp;key");!!discoiqbr!!Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");!!discoiqbr!!Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/");&amp;nbsp;!!discoiqbr!! 
+    </codeblock><p>The following permission allows you to recover a telephone's unique ID:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;uses-permission&amp;nbsp;android:name="android.permission.READ_PHONE_STATE"&amp;nbsp;/&gt;&amp;nbsp;!!discoiqbr!! 
+    </codeblock><p>From version 1.0.24 of the SDK, this permission is only used for versions older than Android 6.0.</p> <p>From version 1.0.26 of the SDK, this permission is no longer used.</p> </li> 
+   <li><p><strong>In iOS</strong>: the <strong>libNeolaneSDK.a</strong> and <strong>Neolane_SDK.h</strong> files must be linked to the project. From version 1.0.24 of the SDK, the option <strong>ENABLE_BITCODE</strong> is activated.</p> 
+    <note> 
+     <p> For version 1.0.25 of the SDK, the four architectures are available in the <strong>Neolane_SDK.h</strong> file.<br /> </p> 
+    </note></li> 
+  </ul> 
+  <h3 id="declaring-integration-settings">Declaring integration settings</h3> 
+  <p>To integrate Campaign SDK into the mobile application, the functional administrator must provide the following information to the developer:</p> 
+  <ul> 
+   <li><p><strong>An integration key</strong>: to enable the Adobe Campaign platform to identify the mobile application.</p> 
+    <note> 
+     <p> This integration key is entered in the Adobe Campaign console, in the <strong>Information</strong> tab of service dedicated to the mobile application. Refer to <a href="../../delivery/using/setting-up-mobile-app-channel.md#-general-information" target="_blank"> General information</a>.<br /> </p> 
+    </note></li> 
+   <li><p><strong>A tracking URL</strong>: that matches the address of the Adobe Campaign tracking server.</p> </li> 
+   <li><p><strong>A marketing URL</strong>: to enable the collection of subscriptions.</p> </li> 
+  </ul> 
+  <ul> 
+   <li><p><strong>In Android</strong>: </p> 
+    <codeblock gutter="true" class="syntax html">
+      Neolane.getInstance().setIntegrationKey("your&amp;nbsp;Adobe&amp;nbsp;mobile&amp;nbsp;app&amp;nbsp;integration&amp;nbsp;key");!!discoiqbr!!Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");!!discoiqbr!!Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/");&amp;nbsp;!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p><strong>In iOS</strong>: </p> 
+    <codeblock gutter="true" class="syntax html">
+      Neolane_SDK&amp;nbsp;*nl&amp;nbsp;=&amp;nbsp;[Neolane_SDK&amp;nbsp;getInstance];!!discoiqbr!![nl&amp;nbsp;setMarketingHost:strMktHost];!!discoiqbr!![nl&amp;nbsp;setTrackingHost:strTckHost];!!discoiqbr!![nl&amp;nbsp;setIntegrationKey:strIntegrationKey];!!discoiqbr!! 
+    </codeblock></li> 
+  </ul> 
+  <h3 id="registration-function">Registration function</h3> 
+  <p>The registration function enables you to:</p> 
+  <ul> 
+   <li><p>send the notification ID or push ID (deviceToken for iOS and registrationID for Android) to Adobe Campaign.</p> </li> 
+   <li><p>recover the reconciliation key or userKey (email or account number, for instance)</p> </li> 
+  </ul> 
+  <ul> 
+   <li><p><strong>In Android</strong>:</p> 
+    <codeblock gutter="true" class="syntax html">
+      void&amp;nbsp;registerInNeolane(String&amp;nbsp;registrationId,&amp;nbsp;String&amp;nbsp;userKey,&amp;nbsp;Context&amp;nbsp;context)!!discoiqbr!!{!!discoiqbr!!&amp;nbsp;try{!!discoiqbr!!&amp;nbsp;&amp;nbsp;Neolane.getInstance().registerDevice(registrationToken,&amp;nbsp;userKey,&amp;nbsp;null,&amp;nbsp;context);!!discoiqbr!!&amp;nbsp;}&amp;nbsp;catch&amp;nbsp;(NeolaneException&amp;nbsp;e){!!discoiqbr!!&amp;nbsp;&amp;nbsp;//...!!discoiqbr!!&amp;nbsp;}&amp;nbsp;catch&amp;nbsp;(IOException&amp;nbsp;e){!!discoiqbr!!&amp;nbsp;&amp;nbsp;//...!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!! 
+    </codeblock><p>If you use FCM (Firebase Cloud Messaging), we advise you use the <strong>registerDevice</strong> function when calling the <strong>onTokenRefresh</strong> function to notify Adobe Campaign of the change in the user's mobile device token.</p> 
+    <codeblock gutter="true" class="syntax html">
+      public&amp;nbsp;class&amp;nbsp;NeoTripFirebaseInstanceIDService&amp;nbsp;extends&amp;nbsp;FirebaseInstanceIdService&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;@Override!!discoiqbr!!&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;onTokenRefresh()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;registrationToken&amp;nbsp;=&amp;nbsp;FirebaseInstanceId.getInstance().getToken();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NeolaneAsyncRunner&amp;nbsp;neolaneAs&amp;nbsp;=&amp;nbsp;new&amp;nbsp;NeolaneAsyncRunner(Neolane.getInstance());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Neolane&amp;nbsp;Registration!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;neolaneAs.registerDevice(registrationToken,&amp;nbsp;userKey,&amp;nbsp;additionnalParam,&amp;nbsp;this,&amp;nbsp;new&amp;nbsp;NeolaneAsyncRunner.RequestListener()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;onComplete(String&amp;nbsp;e,&amp;nbsp;Object&amp;nbsp;state)&amp;nbsp;{&amp;nbsp;...&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;onNeolaneException(NeolaneException&amp;nbsp;e,&amp;nbsp;Object&amp;nbsp;state)&amp;nbsp;{&amp;nbsp;...&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;onIOException(IOException&amp;nbsp;e,&amp;nbsp;Object&amp;nbsp;state)&amp;nbsp;{&amp;nbsp;...&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p><strong>In iOS</strong>: </p> 
+    <codeblock gutter="true" class="syntax html">
+      //&amp;nbsp;Callback&amp;nbsp;called&amp;nbsp;on&amp;nbsp;successful&amp;nbsp;registration&amp;nbsp;to&amp;nbsp;the&amp;nbsp;APNS!!discoiqbr!!-&amp;nbsp;(void)application:(UIApplication*)application&amp;nbsp;didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken!!discoiqbr!!{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Pass&amp;nbsp;the&amp;nbsp;token&amp;nbsp;to&amp;nbsp;Adobe&amp;nbsp;Campaign!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Neolane_SDK&amp;nbsp;*nl&amp;nbsp;=&amp;nbsp;[Neolane_SDK&amp;nbsp;getInstance];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[nl&amp;nbsp;registerDevice:tokenString:self.userKey:dic];!!discoiqbr!!}!!discoiqbr!! 
+    </codeblock></li> 
+  </ul> 
+  <h3 id="tracking-function">Tracking function</h3> 
+  <ul> 
+   <li><p><strong>In Android</strong>:</p> <p>Tracking functions allow you to track notification activations (opens) and notification displays (screenshot).</p> <p>To track the notification display (done by calling the <strong>notifyReceive</strong> function of the SDK), follow the implementation below. Note that if you use FCM (Firebase Cloud Messaging), we advise you to use the <strong>notifyReceive</strong> function when the <strong>onMessageReceived</strong> function is called by the Android system..</p> 
+    <codeblock gutter="true" class="syntax html">
+      package&amp;nbsp;com.android.YourApplication;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!import&amp;nbsp;android.content.Context;!!discoiqbr!!import&amp;nbsp;android.content.SharedPreferences;!!discoiqbr!!import&amp;nbsp;android.os.Bundle;!!discoiqbr!!import&amp;nbsp;android.util.Log;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!import&amp;nbsp;com.google.firebase.messaging.FirebaseMessagingService;!!discoiqbr!!import&amp;nbsp;com.google.firebase.messaging.RemoteMessage;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!import&amp;nbsp;java.util.Iterator;!!discoiqbr!!import&amp;nbsp;java.util.Map;!!discoiqbr!!import&amp;nbsp;java.util.Map.Entry;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;YourApplicationFirebaseMessagingService&amp;nbsp;extends&amp;nbsp;FirebaseMessagingService&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;private&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;TAG&amp;nbsp;=&amp;nbsp;"MyFirebaseMsgService";!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;@Override!!discoiqbr!!&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;onMessageReceived(RemoteMessage&amp;nbsp;message)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Log.d(TAG,&amp;nbsp;"Receive&amp;nbsp;message&amp;nbsp;from:&amp;nbsp;"&amp;nbsp;+&amp;nbsp;message.getFrom());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Map&lt;String,String&gt;&amp;nbsp;payloadData&amp;nbsp;=&amp;nbsp;message.getData();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;final&amp;nbsp;Bundle&amp;nbsp;extras&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Bundle();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;final&amp;nbsp;Iterator&lt;Entry&lt;String,&amp;nbsp;String&gt;&gt;&amp;nbsp;iter&amp;nbsp;=&amp;nbsp;payloadData.entrySet().iterator();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;while(iter.hasNext())!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;final&amp;nbsp;Entry&lt;String,&amp;nbsp;String&gt;&amp;nbsp;&amp;nbsp;entry&amp;nbsp;=iter.next();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;extras.putString(entry.getKey(),&amp;nbsp;entry.getValue());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SharedPreferences&amp;nbsp;settings&amp;nbsp;=&amp;nbsp;this.getSharedPreferences(YourApplicationActivity.APPLICATION_PREF_NAME,&amp;nbsp;Context.MODE_PRIVATE);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;mesg&amp;nbsp;=&amp;nbsp;payloadData.get("_msg");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;title&amp;nbsp;=&amp;nbsp;payloadData.get("title");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;url&amp;nbsp;=&amp;nbsp;payloadData.get("url");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;messageId&amp;nbsp;=&amp;nbsp;payloadData.get("_mId");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;deliveryId&amp;nbsp;=&amp;nbsp;payloadData.get("_dId");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;YourApplicationActivity.handleNotification(this,&amp;nbsp;mesg,&amp;nbsp;title,&amp;nbsp;url,&amp;nbsp;messageId,&amp;nbsp;deliveryId,&amp;nbsp;extras);!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax html">
+      public&amp;nbsp;static&amp;nbsp;void&amp;nbsp;handleNotification(Context&amp;nbsp;context,&amp;nbsp;String&amp;nbsp;message,&amp;nbsp;String&amp;nbsp;title,&amp;nbsp;String&amp;nbsp;url,&amp;nbsp;String&amp;nbsp;messageId,&amp;nbsp;String&amp;nbsp;deliveryId,&amp;nbsp;Bundle&amp;nbsp;extras){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(&amp;nbsp;message&amp;nbsp;==&amp;nbsp;null&amp;nbsp;)&amp;nbsp;message&amp;nbsp;=&amp;nbsp;"No&amp;nbsp;Content";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(&amp;nbsp;title&amp;nbsp;==&amp;nbsp;null&amp;nbsp;)&amp;nbsp;&amp;nbsp;&amp;nbsp;title&amp;nbsp;=&amp;nbsp;"No&amp;nbsp;title";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(&amp;nbsp;url&amp;nbsp;==&amp;nbsp;null&amp;nbsp;)&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;url&amp;nbsp;=&amp;nbsp;"https://www.tripadvisor.fr";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;iconId&amp;nbsp;=&amp;nbsp;R.drawable.notif_neotrip;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;notify&amp;nbsp;Neolane&amp;nbsp;that&amp;nbsp;a&amp;nbsp;notification&amp;nbsp;just&amp;nbsp;arrived!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NeolaneAsyncRunner&amp;nbsp;nas&amp;nbsp;=&amp;nbsp;new&amp;nbsp;NeolaneAsyncRunner(Neolane.getInstance());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nas.notifyReceive(Integer.valueOf(messageId),&amp;nbsp;deliveryId,&amp;nbsp;new&amp;nbsp;NeolaneAsyncRunner.RequestListener()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;onNeolaneException(NeolaneException&amp;nbsp;arg0,&amp;nbsp;Object&amp;nbsp;arg1)&amp;nbsp;{}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;onIOException(IOException&amp;nbsp;arg0,&amp;nbsp;Object&amp;nbsp;arg1)&amp;nbsp;{}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;onComplete(String&amp;nbsp;arg0,&amp;nbsp;Object&amp;nbsp;arg1){}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(yourApplication.isActivityVisible())!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Log.i("INFO",&amp;nbsp;"The&amp;nbsp;application&amp;nbsp;has&amp;nbsp;the&amp;nbsp;focus"&amp;nbsp;);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;else!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;notification&amp;nbsp;creation&amp;nbsp;:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NotificationManager&amp;nbsp;notificationManager&amp;nbsp;=&amp;nbsp;(NotificationManager)&amp;nbsp;context.getSystemService(Context.NOTIFICATION_SERVICE);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Notification&amp;nbsp;notification;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Activity&amp;nbsp;to&amp;nbsp;start&amp;nbsp;:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Intent&amp;nbsp;notifIntent&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Intent(context.getApplicationContext(),&amp;nbsp;NotificationActivity.class);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;notifIntent.putExtra("notificationText",&amp;nbsp;message);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;notifIntent.putExtra(NotificationActivity.NOTIFICATION_URL_KEYNAME,&amp;nbsp;url);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;notifIntent.putExtra("_dId",&amp;nbsp;deliveryId);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;notifIntent.putExtra("_mId",&amp;nbsp;messageId);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;notifIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;PendingIntent&amp;nbsp;contentIntent&amp;nbsp;=&amp;nbsp;PendingIntent.getActivity(context,&amp;nbsp;1,&amp;nbsp;notifIntent,&amp;nbsp;PendingIntent.FLAG_UPDATE_CURRENT);!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;notification&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Notification.Builder(context)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.setContentTitle(title)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.setContentText(message)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.setSmallIcon(iconId)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.setContentIntent(contentIntent)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.build();!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;launch&amp;nbsp;the&amp;nbsp;notification&amp;nbsp;:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;notification.flags&amp;nbsp;|=&amp;nbsp;Notification.FLAG_AUTO_CANCEL;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;notificationManager.notify(Integer.valueOf(messageId),&amp;nbsp;notification);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+    </codeblock><p>Here is an implementation example for tracking a notification open (executed by calling the <strong>notifyOpening</strong> function of the SDK). The <strong>NotificationActivity</strong> class corresponds to the one used to create the <strong>notifIntent</strong> object in the previous example.</p> 
+    <codeblock gutter="true" class="syntax html">
+      public&amp;nbsp;class&amp;nbsp;NotificationActivity&amp;nbsp;extends&amp;nbsp;Activity&amp;nbsp;{!!discoiqbr!!&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;NOTIFICATION_URL_KEYNAME&amp;nbsp;=&amp;nbsp;"NotificationUrl";!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;.....!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;public&amp;nbsp;void&amp;nbsp;onCreate(Bundle&amp;nbsp;savedBundle)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;super.onCreate(savedBundle);!!discoiqbr!!&amp;nbsp;&amp;nbsp;setContentView(R.layout.notification_viewer);!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;.....!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;Bundle&amp;nbsp;extra&amp;nbsp;=&amp;nbsp;getIntent().getExtras();!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;.....!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;//get&amp;nbsp;the&amp;nbsp;messageId&amp;nbsp;and&amp;nbsp;the&amp;nbsp;deliveryId&amp;nbsp;to&amp;nbsp;do&amp;nbsp;the&amp;nbsp;tracking!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;String&amp;nbsp;deliveryId&amp;nbsp;=&amp;nbsp;extra.getString("_dId");!!discoiqbr!!&amp;nbsp;&amp;nbsp;String&amp;nbsp;messageId&amp;nbsp;=&amp;nbsp;extra.getString("_mId");!!discoiqbr!!&amp;nbsp;&amp;nbsp;if&amp;nbsp;(deliveryId&amp;nbsp;!=&amp;nbsp;null&amp;nbsp;&amp;&amp;&amp;nbsp;messageId&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;NeolaneAsyncRunner&amp;nbsp;neolaneAs&amp;nbsp;=&amp;nbsp;new&amp;nbsp;NeolaneAsyncRunner(Neolane.getInstance());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;neolaneAs.notifyOpening(Integer.valueOf(messageId),&amp;nbsp;deliveryId,&amp;nbsp;new&amp;nbsp;NeolaneAsyncRunner.RequestListener()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;onNeolaneException(NeolaneException&amp;nbsp;arg0,&amp;nbsp;Object&amp;nbsp;arg1)&amp;nbsp;{}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;onIOException(IOException&amp;nbsp;arg0,&amp;nbsp;Object&amp;nbsp;arg1)&amp;nbsp;{}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;onComplete(String&amp;nbsp;arg0,&amp;nbsp;Object&amp;nbsp;arg1)&amp;nbsp;{}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!} 
+    </codeblock></li> 
+   <li><p><strong>In iOS</strong>: </p> <p>The tracking function allows you to track when notifications are activated (opens).</p> 
+    <codeblock gutter="true" class="syntax html">
+      (void)application:(UIApplication&amp;nbsp;*)application&amp;nbsp;didReceiveRemoteNotification:(NSDictionary&amp;nbsp;*)launchOptions!!discoiqbr!!fetchCompletionHandler:(void&amp;nbsp;(^)(UIBackgroundFetchResult))completionHandler!!discoiqbr!!{!!discoiqbr!!if(&amp;nbsp;launchOptions&amp;nbsp;)&amp;nbsp;{&amp;nbsp;//&amp;nbsp;Retrieve&amp;nbsp;notification&amp;nbsp;parameters&amp;nbsp;here&amp;nbsp;...&amp;nbsp;//&amp;nbsp;Track&amp;nbsp;application&amp;nbsp;opening&amp;nbsp;Neolane_SDK!!discoiqbr!!*nl&amp;nbsp;=&amp;nbsp;[Neolane_SDK&amp;nbsp;getInstance];&amp;nbsp;[nl&amp;nbsp;track:launchOptions:NL_TRACK_CLICK];&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!...!!discoiqbr!!!!discoiqbr!!completionHandler(UIBackgroundFetchResultNoData);!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!! 
+    </codeblock> 
+    <note> 
+     <p> From version 7.0, once the <strong>application:didReceiveRemoteNotification:fetchCompletionHandler</strong> function is implemented, the operating system only calls this function. The <strong>application:didReceiveRemoteNotification</strong> function is therefore not called.<br /> </p> 
+    </note></li> 
+  </ul> 
+  <h3 id="silent-notification-tracking">Silent notification tracking</h3> 
+  <p>iOS lets you send silent notifications, a notification or data which will be directly sent to a mobile application without displaying it. Adobe Campaign allows you to track them.</p> 
+  <p>To track your silent notification, follow the example below:</p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!//&amp;nbsp;AppDelegate.m!!discoiqbr!!...!!discoiqbr!!...!!discoiqbr!!#import&amp;nbsp;"AppDelegate.h"!!discoiqbr!!#import&amp;nbsp;"Neolane_SDK.h"!!discoiqbr!!...!!discoiqbr!!...!!discoiqbr!!!!discoiqbr!!//&amp;nbsp;Callback&amp;nbsp;called&amp;nbsp;when&amp;nbsp;the&amp;nbsp;application&amp;nbsp;is&amp;nbsp;already&amp;nbsp;launched&amp;nbsp;(whether&amp;nbsp;the&amp;nbsp;application&amp;nbsp;is&amp;nbsp;running&amp;nbsp;foreground&amp;nbsp;or&amp;nbsp;background)!!discoiqbr!!-&amp;nbsp;(void)application:(UIApplication&amp;nbsp;*)application&amp;nbsp;didReceiveRemoteNotification:(NSDictionary&amp;nbsp;*)launchOptions&amp;nbsp;fetchCompletionHandler:(void&amp;nbsp;(^)(UIBackgroundFetchResult))completionHandler!!discoiqbr!!{&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;NSLog(@"IN&amp;nbsp;didReceiveRemoteNotification:fetchCompletionHandler");!!discoiqbr!!&amp;nbsp;if&amp;nbsp;(launchOptions)&amp;nbsp;NSLog(@"IN&amp;nbsp;launchOptions:&amp;nbsp;%@",&amp;nbsp;[launchOptions&amp;nbsp;description]);!!discoiqbr!!&amp;nbsp;NSLog(@"Application&amp;nbsp;state:&amp;nbsp;%ld",&amp;nbsp;(long)application.applicationState);&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;//&amp;nbsp;Silent&amp;nbsp;Notification&amp;nbsp;(specific&amp;nbsp;case,&amp;nbsp;can&amp;nbsp;use&amp;nbsp;NL_TRACK_RECEIVE&amp;nbsp;as&amp;nbsp;the&amp;nbsp;user&amp;nbsp;doesn't&amp;nbsp;have&amp;nbsp;click/open&amp;nbsp;the&amp;nbsp;notification)!!discoiqbr!!&amp;nbsp;if&amp;nbsp;([launchOptions[@"aps"][@"content-available"]&amp;nbsp;intValue]&amp;nbsp;==&amp;nbsp;1&amp;nbsp;)&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;NSLog(@"Silent&amp;nbsp;Push&amp;nbsp;Notification");&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;...&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;//Call&amp;nbsp;receive&amp;nbsp;tracking&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Neolane_SDK&amp;nbsp;*nl&amp;nbsp;=&amp;nbsp;[Neolane_SDK&amp;nbsp;getInstance];&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;[nl&amp;nbsp;track:launchOptions:NL_TRACK_RECEIVE];&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;completionHandler(UIBackgroundFetchResultNoData);&amp;nbsp;//Do&amp;nbsp;not&amp;nbsp;show&amp;nbsp;notification&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;return;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;}&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;...&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;...&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;completionHandler(UIBackgroundFetchResultNoData);!!discoiqbr!!} 
+  </codeblock> 
+  <h3 id="registerdevicestatus-delegate">RegisterDeviceStatus delegate</h3> 
+  <note> 
+   <p> Please note that this is exclusive to iOS.<br /> </p> 
+  </note> 
+  <p>In iOS, the delegate protocol allows you to get the result of the <strong>registerDevice</strong> call and can be used to know if an error occured during registration.</p> 
+  <p>The <strong>registerDeviceStatus</strong> prototype is:</p> 
+  <codeblock gutter="true" class="syntax html">
+    -&amp;nbsp;(void)&amp;nbsp;registerDeviceStatus:&amp;nbsp;(ACCRegisterDeviceStatus)&amp;nbsp;status:(NSString&amp;nbsp;*)&amp;nbsp;errorReason; 
+  </codeblock> 
+  <p><strong>Status</strong> allows you to know if a registration succeeded or if an error occured.</p> 
+  <p><strong>ErrorReason</strong> provides you with more information on the errors that occurred. For more information on available errors and their descriptions, refer to the table below.</p> 
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Status<br /> </th> 
+     <th> Description<br /> </th> 
+     <th> ErrorReason<br /> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> ACCRegisterDeviceStatusSuccess <br /> </td> 
+     <td> Registration Succeeded<br /> </td> 
+     <td> EMPTY<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td> 
+     <td> The ACC marketing server hostname is empty or not set.<br /> </td> 
+     <td> EMPTY<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> ACCRegisterDeviceStatusFailureIntegrationKeyEmpty <br /> </td> 
+     <td> The integration key is empty or not set.<br /> </td> 
+     <td> EMPTY<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> ACCRegisterDeviceStatusFailureConnectionIssue<br /> </td> 
+     <td> Connection issue with ACC<br /> </td> 
+     <td> More information (in OS current language)<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> ACCRegisterDeviceStatusFailureUnknownUUID<br /> </td> 
+     <td> The provided UUID (integration key) is unknown.<br /> </td> 
+     <td> EMPTY<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> ACCRegisterDeviceStatusFailureUnexpectedError<br /> </td> 
+     <td> Unexpected error returned to ACC server.<br /> </td> 
+     <td> The error message returned to ACC.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><strong>Neolane_SDKDelegate</strong> protocol and <strong>registerDeviceStatus</strong> delegate definition is as follows:</p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!//&amp;nbsp;&amp;nbsp;Neolane_SDK.h!!discoiqbr!!//&amp;nbsp;&amp;nbsp;Neolane&amp;nbsp;SDK!!discoiqbr!!..!!discoiqbr!!..&amp;nbsp;!!discoiqbr!!//&amp;nbsp;Register&amp;nbsp;Device&amp;nbsp;Status&amp;nbsp;Enum!!discoiqbr!!typedef&amp;nbsp;NS_ENUM(NSUInteger,&amp;nbsp;ACCRegisterDeviceStatus)&amp;nbsp;{&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;ACCRegisterDeviceStatusSuccess,&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Resistration&amp;nbsp;Succeed&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty,&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;The&amp;nbsp;ACC&amp;nbsp;marketing&amp;nbsp;server&amp;nbsp;hostname&amp;nbsp;is&amp;nbsp;Empty&amp;nbsp;or&amp;nbsp;not&amp;nbsp;set&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;ACCRegisterDeviceStatusFailureIntegrationKeyEmpty,&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;The&amp;nbsp;integration&amp;nbsp;key&amp;nbsp;is&amp;nbsp;empty&amp;nbsp;or&amp;nbsp;not&amp;nbsp;set&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;ACCRegisterDeviceStatusFailureConnectionIssue,&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Connection&amp;nbsp;issue&amp;nbsp;with&amp;nbsp;ACC,&amp;nbsp;more&amp;nbsp;information&amp;nbsp;in&amp;nbsp;errorReason&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;ACCRegisterDeviceStatusFailureUnknownUUID,&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;The&amp;nbsp;provided&amp;nbsp;UUID&amp;nbsp;(integration&amp;nbsp;key)&amp;nbsp;is&amp;nbsp;unknown&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;ACCRegisterDeviceStatusFailureUnexpectedError&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Unexpected&amp;nbsp;error&amp;nbsp;returned&amp;nbsp;by&amp;nbsp;ACC&amp;nbsp;server,&amp;nbsp;more&amp;nbsp;information&amp;nbsp;in&amp;nbsp;errorReason!!discoiqbr!!};&amp;nbsp;!!discoiqbr!!//&amp;nbsp;define&amp;nbsp;the&amp;nbsp;protocol&amp;nbsp;for&amp;nbsp;the&amp;nbsp;registerDeviceStatus&amp;nbsp;delegate!!discoiqbr!!@protocol&amp;nbsp;Neolane_SDKDelegate&amp;nbsp;&lt;NSObject&gt;!!discoiqbr!!@optional!!discoiqbr!!-&amp;nbsp;(void)&amp;nbsp;registerDeviceStatus:&amp;nbsp;(ACCRegisterDeviceStatus)&amp;nbsp;status&amp;nbsp;:(NSString&amp;nbsp;*)&amp;nbsp;errorReason;!!discoiqbr!!@end&amp;nbsp;!!discoiqbr!!@interface&amp;nbsp;Neolane_SDK:&amp;nbsp;NSObject&amp;nbsp;{!!discoiqbr!!}&amp;nbsp;!!discoiqbr!!...!!discoiqbr!!...&amp;nbsp;!!discoiqbr!!//&amp;nbsp;registerDeviceStatus&amp;nbsp;delegate!!discoiqbr!!@property&amp;nbsp;(nonatomic,&amp;nbsp;weak)&amp;nbsp;id&amp;nbsp;&lt;Neolane_SDKDelegate&gt;&amp;nbsp;delegate;&amp;nbsp;!!discoiqbr!!...!!discoiqbr!!...&amp;nbsp;!!discoiqbr!!@end 
+  </codeblock> 
+  <p>To implement <strong>registerDeviceStatus</strong> delegate, follow these steps:</p> 
+  <ol> 
+   <li><p>Implement the <strong>setDelegate</strong> during the SDK initialization.</p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!//&amp;nbsp;AppDelegate.m&amp;nbsp;!!discoiqbr!!...!!discoiqbr!!...&amp;nbsp;!!discoiqbr!!-&amp;nbsp;(BOOL)application:(UIApplication&amp;nbsp;*)application&amp;nbsp;didFinishLaunchingWithOptions:(NSDictionary&amp;nbsp;*)launchOptions!!discoiqbr!!{!!discoiqbr!!...!!discoiqbr!!...&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;//&amp;nbsp;Get&amp;nbsp;the&amp;nbsp;stored&amp;nbsp;settings&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;NSUserDefaults&amp;nbsp;*defaults&amp;nbsp;=&amp;nbsp;[NSUserDefaults&amp;nbsp;standardUserDefaults];!!discoiqbr!!&amp;nbsp;NSString&amp;nbsp;*strMktHost&amp;nbsp;=&amp;nbsp;[defaults&amp;nbsp;objectForKey:@"mktHost"];!!discoiqbr!!&amp;nbsp;NSString&amp;nbsp;*strTckHost&amp;nbsp;=&amp;nbsp;[defaults&amp;nbsp;objectForKey:@"tckHost"];!!discoiqbr!!&amp;nbsp;NSString&amp;nbsp;*strIntegrationKey&amp;nbsp;=&amp;nbsp;[defaults&amp;nbsp;objectForKey:@"integrationKey"];!!discoiqbr!!&amp;nbsp;userKey&amp;nbsp;=&amp;nbsp;[defaults&amp;nbsp;objectForKey:@"userKey"];&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;//&amp;nbsp;Configure&amp;nbsp;Neolane&amp;nbsp;SDK&amp;nbsp;on&amp;nbsp;first&amp;nbsp;launch&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;Neolane_SDK&amp;nbsp;*nl&amp;nbsp;=&amp;nbsp;[Neolane_SDK&amp;nbsp;getInstance];!!discoiqbr!!&amp;nbsp;[nl&amp;nbsp;setMarketingHost:strMktHost];!!discoiqbr!!&amp;nbsp;[nl&amp;nbsp;setTrackingHost:strTckHost];!!discoiqbr!!&amp;nbsp;[nl&amp;nbsp;setIntegrationKey:strIntegrationKey];!!discoiqbr!!&amp;nbsp;[nl&amp;nbsp;setDelegate:self];&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;HERE!!discoiqbr!!...!!discoiqbr!!...!!discoiqbr!!} 
+    </codeblock></li> 
+   <li><p>Add the protocol in the <strong>@interface</strong> of your class.</p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!//&amp;nbsp;&amp;nbsp;AppDelegate.h!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!#import&amp;nbsp;&lt;UIKit/UIKit.h&gt;!!discoiqbr!!#import&amp;nbsp;&lt;CoreLocation/CoreLocation.h&gt;!!discoiqbr!!#import&amp;nbsp;"Neolane_SDK.h"!!discoiqbr!!&amp;nbsp;!!discoiqbr!!@class&amp;nbsp;LandingPageViewController;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!@interface&amp;nbsp;AppDelegate&amp;nbsp;:&amp;nbsp;UIResponder&amp;nbsp;&lt;UIApplicationDelegate,&amp;nbsp;CLLocationManagerDelegate,&amp;nbsp;Neolane_SDKDelegate&gt;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CLLocationManager&amp;nbsp;*locationManager;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NSString&amp;nbsp;*userKey;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NSString&amp;nbsp;*mktServerUrl;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NSString&amp;nbsp;*tckServerUrl;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NSString&amp;nbsp;*homeURL;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NSString&amp;nbsp;*strLandingPageUrl;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NSTimer&amp;nbsp;*timer;!!discoiqbr!!} 
+    </codeblock></li> 
+   <li><p>Implement the delegate in the <strong>AppDelegate</strong>.</p> 
+    <codeblock gutter="true" class="syntax html">
+      //&amp;nbsp;&amp;nbsp;AppDelegate.m!!discoiqbr!!&amp;nbsp;!!discoiqbr!!#import&amp;nbsp;"AppDelegate.h"!!discoiqbr!!#import&amp;nbsp;"Neolane_SDK.h"!!discoiqbr!!#import&amp;nbsp;"LandingPageViewController.h"!!discoiqbr!!#import&amp;nbsp;"RootViewController.h"!!discoiqbr!!&amp;nbsp;!!discoiqbr!!...!!discoiqbr!!...!!discoiqbr!!&amp;nbsp;!!discoiqbr!!-&amp;nbsp;(void)&amp;nbsp;registerDeviceStatus:&amp;nbsp;(ACCRegisterDeviceStatus)&amp;nbsp;status&amp;nbsp;:(NSString&amp;nbsp;*)&amp;nbsp;errorReason!!discoiqbr!!{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NSLog(@"registerStatus:&amp;nbsp;%lu",status);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;errorReason&amp;nbsp;!=&amp;nbsp;nil&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NSLog(@"errorReason:&amp;nbsp;%@",errorReason);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(&amp;nbsp;status&amp;nbsp;==&amp;nbsp;ACCRegisterDeviceStatusSuccess&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Registration&amp;nbsp;successful!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;else&amp;nbsp;{&amp;nbsp;//&amp;nbsp;An&amp;nbsp;error&amp;nbsp;occurred&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NSString&amp;nbsp;*message;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;switch&amp;nbsp;(&amp;nbsp;status&amp;nbsp;){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;ACCRegisterDeviceStatusFailureUnknownUUID:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;message&amp;nbsp;=&amp;nbsp;@"Unkown&amp;nbsp;IntegrationKey&amp;nbsp;(UUID)";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;message&amp;nbsp;=&amp;nbsp;@"Marketing&amp;nbsp;URL&amp;nbsp;not&amp;nbsp;set&amp;nbsp;or&amp;nbsp;Empty";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;ACCRegisterDeviceStatusFailureIntegrationKeyEmpty:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;message&amp;nbsp;=&amp;nbsp;@"Integration&amp;nbsp;Key&amp;nbsp;not&amp;nbsp;set&amp;nbsp;or&amp;nbsp;empty";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;ACCRegisterDeviceStatusFailureConnectionIssue:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;message&amp;nbsp;=&amp;nbsp;[NSString&amp;nbsp;stringWithFormat:@"%@&amp;nbsp;%@",@"Connection&amp;nbsp;issue:",errorReason];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;ACCRegisterDeviceStatusFailureUnexpectedError:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;default:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;message&amp;nbsp;=&amp;nbsp;[NSString&amp;nbsp;stringWithFormat:@"%@&amp;nbsp;%@",@"Unexpected&amp;nbsp;Error",errorReason];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;...!!discoiqbr!!&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!!&amp;nbsp;!!discoiqbr!!@end 
+    </codeblock></li> 
+  </ol> 
+  <h3 id="variables">Variables</h3> 
+  <p>The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the <strong>Variables</strong> tab in the dedicated mobile application service (see <a href="../../delivery/using/setting-up-mobile-app-channel.md#-general-information" target="_blank"> General information</a>). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.</p> 
+  <ul> 
+   <li><p><strong>In Android</strong>: </p> 
+    <codeblock gutter="true" class="syntax html">
+      public&amp;nbsp;void&amp;nbsp;onReceive(Context&amp;nbsp;context,&amp;nbsp;Intent&amp;nbsp;intent)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;event&amp;nbsp;=&amp;nbsp;intent.getStringExtra("VAR");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!} 
+    </codeblock></li> 
+   <li><p><strong>In iOS</strong>:</p> 
+    <codeblock gutter="true" class="syntax html">
+      -&amp;nbsp;(BOOL)application:(UIApplication&amp;nbsp;*)application&amp;nbsp;didFinishLaunchingWithOptions:(NSDictionary&amp;nbsp;*)launchOptions!!discoiqbr!!{!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;....!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(&amp;nbsp;launchOptions&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;When&amp;nbsp;application&amp;nbsp;is&amp;nbsp;not&amp;nbsp;already&amp;nbsp;launched,&amp;nbsp;the&amp;nbsp;notification&amp;nbsp;data&amp;nbsp;if&amp;nbsp;any&amp;nbsp;are&amp;nbsp;stored&amp;nbsp;in&amp;nbsp;the&amp;nbsp;key&amp;nbsp;'UIApplicationLaunchOptionsRemoteNotificationKey'!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NSDictionary&amp;nbsp;*localLaunchOptions&amp;nbsp;=&amp;nbsp;[launchOptions&amp;nbsp;objectForKey:@"UIApplicationLaunchOptionsRemoteNotificationKey"];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(&amp;nbsp;localLaunchOptions&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[localLaunchOptions&amp;nbsp;objectForKey:@"VAR"];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!!&amp;nbsp;!!discoiqbr!!//&amp;nbsp;Callback&amp;nbsp;called&amp;nbsp;when&amp;nbsp;the&amp;nbsp;application&amp;nbsp;is&amp;nbsp;already&amp;nbsp;launched&amp;nbsp;(whether&amp;nbsp;the&amp;nbsp;application&amp;nbsp;is&amp;nbsp;running&amp;nbsp;foreground&amp;nbsp;or&amp;nbsp;background)!!discoiqbr!!-&amp;nbsp;(void)application:(UIApplication&amp;nbsp;*)application&amp;nbsp;didReceiveRemoteNotification:(NSDictionary&amp;nbsp;*)launchOptions!!discoiqbr!!{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(&amp;nbsp;launchOptions&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[launchOptions&amp;nbsp;objectForKey:@"VAR"];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!} 
+    </codeblock></li> 
+  </ul> 
+  <note>
+    Adobe recommends choosing short variable names because notification size is limited to 4kB for iOS and Android. 
+   <br /> 
+  </note> 
+  <h2 id="configuring-the-mobile-application-in-adobe-campaign">Configuring the mobile application in Adobe Campaign</h2> 
+  <p>You can find below a configuration sample based on a company which sells online holiday packages. His mobile application (Neotrips) is available to its customers in two versions: Neotrips for Android and Neotrips for iOS. To configure the mobile application in Adobe Campaign, you need to:</p> 
+  <ol> 
+   <li><p>Create a <strong>Mobile application</strong> type <a href="../../delivery/using/setting-up-mobile-app-channel.md#creating-the-service-and-collecting-subscriptions">information service</a> for the Neotrips mobile application.</p> </li> 
+   <li><p>Add the iOS and Android versions of the application to this service.</p> </li> 
+  </ol> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_service_diagram.png" title="nmac_service_diagram.png" /> 
+  <note> 
+   <p> Go to the <strong>Subscriptions</strong> tab of the service to view the list of subscribers to the service, i.e. all people who have installed the application on their mobile and agreed to receive notifications.<br /> </p> 
+  </note> 
+  <h3 id="creating-the-service-and-collecting-subscriptions">Creating the service and collecting subscriptions</h3> 
+  <ol> 
+   <li><p>Go to the <strong>Profiles and Targets &gt; Services and subscriptions</strong> node and click <strong>New</strong>. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_service_1.png" title="nmac_service_1.png" /></li> 
+   <li><p>Define a <strong>Label</strong> and an <strong>Internal name</strong>.</p> </li> 
+   <li><p>Go to the <strong>Type</strong> field and select <strong>Mobile application</strong>.</p> 
+    <note> 
+     <p> The default <strong>Subscriber applications (nms:appSubscriptionRcp)</strong> target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the <strong>Target mapping</strong> field of the service. For more on creating target mapping, refer to the <a href="../../configuration/using/about-custom-recipient-table.md">Configuration guide</a>.<br /> </p> 
+    </note></li> 
+   <li><p>Then click the <strong>Add</strong> button to define the various versions of your mobile application (iOS, Android). </p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_service_2.png" title="nmac_service_2.png" /></li> 
+  </ol> 
+  <p>See below for a detailed presentation of the configuration steps for each version.</p> 
+  <note> 
+   <p> When you create an iOS application, the wizard invites you to configure the application's development version (sandbox) and the production version. Once created, the two versions of the application are added.<br /> </p> 
+  </note> 
+  <h3 id="-general-information">General information</h3> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_service_3.png" title="nmac_service_3.png" /> 
+  <ol> 
+   <li><p>Start by entering the <strong>Label</strong>.</p> </li> 
+   <li><p>Make sure the same <strong>Integration key</strong> is defined in Adobe Campaign and in the application code (via the SDK). For more on this, refer to: <a href="../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application" target="_blank">Integrating Campaign SDK into the mobile application</a>. This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform. </p> </li> 
+   <li><p>If your application handles an application icon (top left corner of the notification), you can add it here so that the preview is more faithful to the actual style of the delivery. To add an image in the content (rich notification), refer to the <a href="../../delivery/using/setting-up-mobile-app-channel.md#rich-notifications" target="_blank">Rich notifications</a> section.</p> 
+    <note>
+      Expected image resolution is 48x48 pixels for iOS. 
+     <br /> 
+    </note></li> 
+   <li><p>For Android, enter the application's connection settings: enter the project key that was provided by the developer of the mobile application. </p> </li> 
+   <li><p>Then enter the application variables.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_service_4.png" title="nmac_service_4.png" /><p>Variables let you define the application behavior following the receipt of a notification: for instance, you can configure an application specific screen to come up when the user activates the notification. These variables must be defined in the code of your mobile application. Click the <strong>Add</strong> button to add them to Adobe Campaign. </p> <p>The delivery wizard lets you define the values of these variables. Refer to <a href="../../delivery/using/creating-notifications.md" target="_blank">Creating notifications</a>.</p> </li> 
+  </ol> 
+  <h3 id="-subscription-settings">Subscription settings</h3> 
+  <note> 
+   <p> This tab only needs configuring if you want to collect additional data.<br /> </p> 
+  </note> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_service_5.png" title="nmac_service_5.png" /> 
+  <p>By default, Adobe Campaign saves a key in the <strong>User identifier</strong> (@userKey) field of the <strong>Subscriber applications (nms:appSubscriptionRcp)</strong> table. This key enables you to link a subscription to a recipient. To collect additional data (such as a complex reconciliation key), you need to apply the following configuration:</p> 
+  <ol> 
+   <li><p>Create an extension of the <strong>Subscriber applications (nms:appsubscriptionRcp)</strong> schema and define the new fields.</p> </li> 
+   <li><p>Define the mapping in the <strong>Subscription parameters</strong> tab. </p> 
+    <note>
+      Make sure the configuration names in the 
+     <strong>Subscription parameters</strong> tab are the same as those in the mobile application code. Refer to the 
+     <a href="../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application" target="_blank">Integrating Campaign SDK into the mobile application</a> section. 
+     <br /> 
+    </note></li> 
+  </ol> 
+  <h3 id="-application-sounds">Application sounds</h3> 
+  <note> 
+   <p> This tab is only available for iOS versions of the applications. <br /> </p> 
+  </note> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_service_6.png" title="nmac_service_6.png" /> 
+  <p>If your iOS application has embedded sounds, use this tab to add them. You will then be able to use the delivery wizard to select one of the sounds to be played when the notification is received. For more on this, refer to <a href="../../delivery/using/setting-up-mobile-app-channel.md#sending-notifications-on-ios" target="_blank">Sending notifications on iOS</a>. </p> 
+  <note> 
+   <p> System sounds can also be defined in this screen.<br /> </p> 
+  </note> 
+  <p>In the <strong>Application setting</strong> screen, the <strong>Internal name</strong> field must contain the name of the file embedded in the application or the name of the system sound. The value entered in the <strong>Label</strong> field will appear in the <strong>Play a sound</strong> drop-down list of the delivery wizard.</p> 
+  <h3 id="certificate">Certificate</h3> 
+  <note> 
+   <p> This tab is only available for iOS versions of the applications. <br /> </p> 
+  </note> 
+  <p>In this screen, enter the application connection settings. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_service_7.png" title="nmac_service_7.png" /> 
+  <p>Click the <strong>Enter the certificate...</strong> link then select the authentication certificate and enter the password that was provided by the mobile application developer.</p> 
+  <note> 
+   <p> Make sure that you do not use the same certificate for the development version (sandbox) and the production version of the application.<br /> </p> 
+  </note> 
+  <h2 id="rich-notifications">Rich notifications</h2> 
+  <p>A rich notification allows you to include other types of media into your notifications such as images, videos, etc.</p> 
+  <h3 id="android">Android</h3> 
+  <p>Adobe Campaign allows you to define application variables in addition to content (see <a href="../../delivery/using/setting-up-mobile-app-channel.md#sending-notifications-on-android" target="_blank">Sending notifications on Android</a>). These variables can be used to provide information such as the image URL to the mobile application. The mobile application can then generate a custom notification.</p> 
+  <p>You first need to create a mobile application in Adobe Campaign and define the application variables for that application.</p> 
+  <ol> 
+   <li><p>Go to <strong>Profiles and Targets</strong> &gt; <strong>Services and Subscriptions</strong>.</p> </li> 
+   <li><p>Click <strong>New</strong> to create a service.</p> </li> 
+   <li><p>In the <strong>Edit</strong> tab, select <strong>Mobile application</strong> as the <strong>Type</strong> and <strong>Subscriber application</strong> (nms:appSubscriptionRcp) as the <strong>Target mapping</strong>.</p> </li> 
+   <li><p>In the <strong>List of mobile applications that use the service</strong>, add a new application and select <strong>Create an Android application</strong>.</p> </li> 
+   <li><p>Click <strong>Next</strong>.</p> </li> 
+   <li><p>In the <strong>Information</strong> tab of the creation wizard, enter a label.</p> </li> 
+   <li><p>In the <strong>Application variables</strong> field, add the parameters that you want to use for sending a rich push:</p> 
+    <ul> 
+     <li><p>title</p> </li> 
+     <li><p>sub</p> </li> 
+     <li><p>validity</p> </li> 
+     <li><p>imageURL</p> </li> 
+     <li><p>webpageURL</p> </li> 
+    </ul></li> 
+   <li><p>Click <strong>Finish</strong> and save the service.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_rich_android_config.png" title="nmac_rich_android_config.png" /></li> 
+  </ol> 
+  <p>Then you need to create a new delivery template and link it to the mobile application that you created.</p> 
+  <ol> 
+   <li><p>Go to <strong>Resources</strong> &gt; <strong>Templates</strong> &gt; <strong>Delivery templates</strong>.</p> </li> 
+   <li><p>Duplicate the <strong>Deliver on Android</strong> template.</p> </li> 
+   <li><p>Change the label and click <strong>Continue</strong>.</p> </li> 
+   <li><p>Click the <strong>To</strong> link to target the application's subscribers.</p> </li> 
+   <li><p>Change the <strong>Target mapping</strong> to <strong>Subscriber applications (nms:appSubscriptionRcp)</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_rich_android_target_mapping.png" title="nmac_rich_android_target_mapping.png" /></li> 
+   <li><p>Click <strong>Add</strong>, select <strong>Subscribers of an Android mobile application</strong> and click <strong>Next</strong>.</p> </li> 
+   <li><p>Enter a label, select the service that you created and the mobile application that you created within this service.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_rich_android_mobile_app.png" title="nmac_rich_android_mobile_app.png" /></li> 
+   <li><p>Click <strong>Finish</strong>.</p> </li> 
+  </ol> 
+  <p>The parameters that you created within your mobile application are displayed in the <strong>Application variables </strong>field.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_rich_android_template.png" title="nmac_rich_android_template.png" /> 
+  <p>Finally, create a new Android delivery and add the values that you want for the parameters that you defined in the mobile application.</p> 
+  <ol> 
+   <li><p>Go to <strong>Campaign management</strong> &gt; <strong>Deliveries</strong>.</p> </li> 
+   <li><p>Click <strong>New</strong>.</p> </li> 
+   <li><p>Select the delivery template that you just created and click <strong>Continue</strong>.</p> </li> 
+   <li><p>In the <strong>Application variables</strong> field, add the values of your choice for the different parameters.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_rich_android_delivery.png" title="nmac_rich_android_delivery.png" /></li> 
+   <li><p>Click <strong>Save</strong> and send your delivery.</p> </li> 
+  </ol> 
+  <p>The image and web page should be displayed in the push notification when received on the subscribers' mobile Android devices.</p> 
+  <h3 id="ios">iOS</h3> 
+  <p>With iOS 10 or higher, it is possible to generate rich notifications. Adobe Campaign can send notifications using variables that will allow the device to display a rich notification.</p> 
+  <note> 
+   <p> If you want to use rich notifications, you need to use the iOS HTTP/2 connector. Refer to the <a href="../../delivery/using/setting-up-mobile-app-channel.md#connectors" target="_blank">Connectors</a> section.<br /> </p> 
+  </note> 
+  <p>In Adobe Campaign, the following parameters have to be sent to the mobile application:</p> 
+  <ul> 
+   <li><p>Check the <strong>Mutable content</strong> box in the edit notification window. This will allow the mobile application to download media content.</p> </li> 
+   <li><p>The <strong>Category</strong> field must be set. The value must match one of the mobile application's content extensions (parameter <strong>UNNotificationExtensionCategory</strong>).</p> </li> 
+   <li><p>In the application variables, add the URL of the media file you want the mobile application to download and display. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/nmac_connectors2.png" title="nmac_connectors2.png" /></li> 
+  </ul> 
+  <p>To implement rich notifications in the mobile application, you need to add the following extensions to your project:</p> 
+  <ul> 
+   <li><p>Notification Service Extension</p> </li> 
+   <li><p>Notification Content Extension (one or more according to your implementation)</p> </li> 
+  </ul> 
+  <p><strong>Notification Service Extension</strong></p> 
+  <p>The media has to be downloaded at the notification service extension level.</p> 
+  <codeblock gutter="true" class="syntax html">
+    #import&amp;nbsp;"NotificationService.h"!!discoiqbr!!&amp;nbsp;!!discoiqbr!!@interface&amp;nbsp;NotificationService&amp;nbsp;()!!discoiqbr!!&amp;nbsp;!!discoiqbr!!@property&amp;nbsp;(nonatomic,&amp;nbsp;strong)&amp;nbsp;void&amp;nbsp;(^contentHandler)(UNNotificationContent&amp;nbsp;*contentToDeliver);!!discoiqbr!!@property&amp;nbsp;(nonatomic,&amp;nbsp;strong)&amp;nbsp;UNMutableNotificationContent&amp;nbsp;*bestAttemptContent;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!@end!!discoiqbr!!&amp;nbsp;!!discoiqbr!!@implementation&amp;nbsp;NotificationService!!discoiqbr!!&amp;nbsp;!!discoiqbr!!-&amp;nbsp;(void)didReceiveNotificationRequest:(UNNotificationRequest&amp;nbsp;*)request&amp;nbsp;withContentHandler:(void&amp;nbsp;(^)(UNNotificationContent&amp;nbsp;*&amp;nbsp;_Nonnull))contentHandler&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NSDictionary&amp;nbsp;*userInfo&amp;nbsp;=&amp;nbsp;nil;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NSString&amp;nbsp;*url&amp;nbsp;=&amp;nbsp;nil;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;self.contentHandler&amp;nbsp;=&amp;nbsp;contentHandler;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;self.bestAttemptContent&amp;nbsp;=&amp;nbsp;[request.content&amp;nbsp;mutableCopy];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;userInfo&amp;nbsp;=&amp;nbsp;request.content.userInfo;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;userInfo&amp;nbsp;!=&amp;nbsp;nil&amp;nbsp;)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;url&amp;nbsp;=&amp;nbsp;userInfo[@"mediaUrl"];&amp;nbsp;&amp;nbsp;//&amp;nbsp;Get&amp;nbsp;the&amp;nbsp;url&amp;nbsp;of&amp;nbsp;the&amp;nbsp;media&amp;nbsp;to&amp;nbsp;download&amp;nbsp;(Adobe&amp;nbsp;Campaign&amp;nbsp;additional&amp;nbsp;variable)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Perform&amp;nbsp;the&amp;nbsp;download&amp;nbsp;to&amp;nbsp;local&amp;nbsp;storage!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+  </codeblock> 
+  <p><strong>Notification Content Extension</strong></p> 
+  <p>At this level, you need to:</p> 
+  <ul> 
+   <li><p>Associate your content extension to the category sent by Adobe Campaign: </p> <p>If you want your mobile application to display an image, you can set the category value to "image" in Adobe Campaign and in your mobile application, you create a notification extension with the <strong>UNNotificationExtensionCategory</strong> parameter set to "image". When the push notification is received on the device, the extension is called according to the defined category value.</p> </li> 
+   <li><p>Define your notification layout</p> <p>You need to define a layout with the relevant widgets. For an image, the widget is named <strong>UIImageView</strong>.</p> </li> 
+   <li><p>Display your media</p> <p>You need to add code to feed the media data to the widget. Here is an example of code for an image:</p> 
+    <codeblock gutter="true" class="syntax html">
+      #import&amp;nbsp;"NotificationViewController.h"!!discoiqbr!!#import&amp;nbsp;&lt;UserNotifications/UserNotifications.h&gt;!!discoiqbr!!#import&amp;nbsp;&lt;UserNotificationsUI/UserNotificationsUI.h&gt;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!@interface&amp;nbsp;NotificationViewController&amp;nbsp;()&amp;nbsp;&lt;UNNotificationContentExtension&gt;!!discoiqbr!!!!discoiqbr!!@property&amp;nbsp;(strong,&amp;nbsp;nonatomic)&amp;nbsp;IBOutlet&amp;nbsp;UIImageView&amp;nbsp;*imageView;!!discoiqbr!!@property&amp;nbsp;(strong,&amp;nbsp;nonatomic)&amp;nbsp;IBOutlet&amp;nbsp;UILabel&amp;nbsp;*notifContent;!!discoiqbr!!@property&amp;nbsp;(strong,&amp;nbsp;nonatomic)&amp;nbsp;IBOutlet&amp;nbsp;UILabel&amp;nbsp;*label;!!discoiqbr!!!!discoiqbr!!@end!!discoiqbr!!&amp;nbsp;!!discoiqbr!!@implementation&amp;nbsp;NotificationViewController!!discoiqbr!!&amp;nbsp;!!discoiqbr!!-&amp;nbsp;(void)viewDidLoad&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[super&amp;nbsp;viewDidLoad];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Do&amp;nbsp;any&amp;nbsp;required&amp;nbsp;interface&amp;nbsp;initialization&amp;nbsp;here.!!discoiqbr!!}!!discoiqbr!!&amp;nbsp;!!discoiqbr!!-&amp;nbsp;(void)didReceiveNotification:(UNNotification&amp;nbsp;*)notification&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;self.label.text&amp;nbsp;=&amp;nbsp;notification.request.content.title;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;self.notifContent.text&amp;nbsp;=&amp;nbsp;notification.request.content.body;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;UNNotificationAttachment&amp;nbsp;*attachment&amp;nbsp;=&amp;nbsp;[notification.request.content.attachments&amp;nbsp;objectAtIndex:0];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;[attachment.URL&amp;nbsp;startAccessingSecurityScopedResource])!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NSData&amp;nbsp;*&amp;nbsp;imageData&amp;nbsp;=&amp;nbsp;[[NSData&amp;nbsp;alloc]&amp;nbsp;initWithContentsOfURL:attachment.URL];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;self.imageView.image&amp;nbsp;=[UIImage&amp;nbsp;imageWithData:&amp;nbsp;imageData];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[attachment.URL&amp;nbsp;stopAccessingSecurityScopedResource];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!!@end 
+    </codeblock></li> 
+  </ul> 
+ </body> 
+</html>

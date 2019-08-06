@@ -1,0 +1,44 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="audience:integrations" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="e91dc045-6ea4-4d63-bb48-cc14b11d0c3c" name="jcr:uuid" />
+  <meta content="Integrating with Adobe Target" name="jcr:title" />
+  <meta content="cbf6facb-dd99-40ca-9d33-e57563ef059d" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="2019-08-06T06:59:40.156-0400" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Integrating with Adobe Target" name="jcr:description" />
+  <meta content="Integrating with Adobe Target" name="navTitle" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <p>Integration between Adobe Campaign and Adobe Target (Classic and Standard) within Adobe Experience Cloud allows you to include an offer from Adobe Target in an Adobe Campaign email delivery.</p> 
+  <p>The operating principle is as follows: when a recipient opens an email sent via Adobe Campaign, a call to Adobe Target allows you to display a dynamic version of the content. This dynamic version is computed depending on the rules specified beforehand when creating the email. </p> 
+  <note>
+   <p> The integration only supports static images. The rest of the content cannot be personalized.<br /> </p> 
+  </note>
+  <p>Several types of data can be utilized by Adobe Target:</p> 
+  <ul>
+   <li><p>Data from the Adobe Campaign datamart</p> </li>
+   <li><p>Segments linked to the visitor ID in Adobe Target, if the data used is not subject to legal limitations</p> </li>
+   <li><p>Adobe Target data: user agent, IP address, geolocalization data</p> </li>
+  </ul>
+  <note>
+   <p> You can also find information regarding integration between Adobe Campaign and Adobe Target on the <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html">Adobe Target help pages</a>.<br /> </p> 
+  </note>
+ </body>
+</html>

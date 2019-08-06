@@ -1,0 +1,124 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="2019-08-06T06:59:01.773-0400" name="jcr:created" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="audience:production" name="primaryAudienceTag" /> 
+  <meta content="Usual commands" name="navTitle" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="8272afcd-36e6-4927-8f8d-d8cd9bc7fd79" name="jcr:predecessors" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="127e218b-96ab-469d-8964-ca8c19601d05" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="Usual commands" name="jcr:title" /> 
+  <meta content="Usual commands" name="jcr:description" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <p>This section lists the usual commands in Adobe Campaign.</p> 
+  <p>The command <strong>nlserver</strong> is the input command for the whole Adobe Campaign application.</p> 
+  <p>This command has the following syntax: <strong>nlserver <strong><command /></strong> <strong> 
+     <arguments /></strong></strong></p> 
+  <p>The parameter <strong><command /></strong> corresponds to the module.</p> 
+  <note> 
+   <p> </p> 
+   <ul> 
+    <li> <p>In any case, you can add the <strong>-noconsole</strong> argument to delete comments displayed once the modules are started.</p> </li> 
+    <li> <p>Conversely, you can add the argument <strong> -verbose</strong> to display more information.</p> </li> 
+   </ul> 
+   <p></p> 
+  </note> 
+  <h2 id="monitoring-commands-">Monitoring commands</h2> 
+  <note> 
+   <p> To list all modules, you need to use the <strong>nlserver pdump</strong> command.<br /> </p> 
+  </note> 
+  <p>You can add the parameter <strong>-who</strong> to list the connections in progress (database and application).</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;pdump&amp;nbsp;-who!!discoiqbr!!HH:MM:SS&amp;nbsp;&gt;&amp;nbsp;Application&amp;nbsp;server&amp;nbsp;for&amp;nbsp;Adobe&amp;nbsp;Campaign&amp;nbsp;Version&amp;nbsp;X.Y.Z&amp;nbsp;(build&amp;nbsp;XXX)&amp;nbsp;from&amp;nbsp;DD/MM/YYYY!!discoiqbr!!web@default&amp;nbsp;(9984)&amp;nbsp;-&amp;nbsp;50.1&amp;nbsp;Mo!!discoiqbr!!watchdog&amp;nbsp;(2273)&amp;nbsp;-&amp;nbsp;6.6&amp;nbsp;Mo!!discoiqbr!!syslogd@default&amp;nbsp;(9931)&amp;nbsp;-&amp;nbsp;7.0&amp;nbsp;Mo!!discoiqbr!!trackinglogd@default&amp;nbsp;(9985)&amp;nbsp;-&amp;nbsp;45.6&amp;nbsp;Mo!!discoiqbr!!mta@test&amp;nbsp;(9986)&amp;nbsp;-&amp;nbsp;9.6&amp;nbsp;Mo!!discoiqbr!!wfserver@test&amp;nbsp;(9987)&amp;nbsp;-&amp;nbsp;8.8&amp;nbsp;Mo!!discoiqbr!!!!discoiqbr!!Connections&amp;nbsp;------------------------------------------------------!!discoiqbr!!Last&amp;nbsp;Access&amp;nbsp;IP&amp;nbsp;Instance&amp;nbsp;Login&amp;nbsp;!!discoiqbr!!DD/MM/YYYY&amp;nbsp;HH:MM:SS&amp;nbsp;127.0.0.1&amp;nbsp;default&amp;nbsp;formation_fr|tracking!!discoiqbr!!DD/MM/YYYY&amp;nbsp;HH:MM:SS&amp;nbsp;127.0.0.1&amp;nbsp;default&amp;nbsp;internal|monitoring!!discoiqbr!!!!discoiqbr!!Connection&amp;nbsp;pool&amp;nbsp;--------------------------------------------------!!discoiqbr!!Datasource&amp;nbsp;Server&amp;nbsp;Provider&amp;nbsp;Login&amp;nbsp;!!discoiqbr!!default&amp;nbsp;xxxxx&amp;nbsp;myserver&amp;nbsp;myprovider&amp;nbsp;test400!!discoiqbr!! 
+  </codeblock> 
+  <p>Another useful command is <strong>nlserver monitor</strong>. It lists the monitoring XML file (obtained in the Adobe Campaign client or via the <strong>monitor.jsp</strong> web page).</p> 
+  <p>You can add the parameter <strong>-missing</strong> to list the absent modules (error in modules, modules shut down, etc.)</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;monitor&amp;nbsp;-missing!!discoiqbr!!HH:MM:SS&amp;nbsp;&gt;&amp;nbsp;Application&amp;nbsp;server&amp;nbsp;for&amp;nbsp;Adobe&amp;nbsp;Campaign&amp;nbsp;Version&amp;nbsp;X.Y.Z&amp;nbsp;(build&amp;nbsp;XXX)&amp;nbsp;from&amp;nbsp;DD/MM/YYYY!!discoiqbr!!inMail@test!!discoiqbr!!mta@test!!discoiqbr!!wfserver@test!!discoiqbr!! 
+  </codeblock> 
+  <p>This corresponds to the modules with automatic startup but which have not been launched.</p> 
+  <h2 id="module-launch-commands">Module launch commands</h2> 
+  <p>The syntax to launch modules will still have the following format:</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;start&amp;nbsp;&lt;module&gt;@&lt;INSTANCE&gt; 
+  </codeblock> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;stop&amp;nbsp;&lt;module&gt;@&lt;INSTANCE&gt; 
+  </codeblock> 
+  <note> 
+   <p> <strong> 
+     <instance /></strong> corresponds to the name of the instance as entered in the configuration files, or <strong>default</strong> for mono-instance modules.<br /> </p> 
+  </note> 
+  <h2 id="shut-down-services">Shut down services</h2> 
+  <p>To stop Adobe Campaign services, use one of the following commands: </p> 
+  <ul> 
+   <li><p>If you have root or administrator access: </p> 
+    <ul> 
+     <li><p>In Linux: </p> 
+      <codeblock gutter="true" class="syntax html">
+        /etc/init.d/nlserver6&amp;nbsp;stop 
+      </codeblock></li> 
+     <li><p>In Windows: </p> 
+      <codeblock gutter="true" class="syntax html">
+        net&amp;nbsp;stop&amp;nbsp;nlserver6 
+      </codeblock></li> 
+    </ul></li> 
+   <li><p>If not, then in the Adobe Campaign account: </p> 
+    <codeblock gutter="true" class="syntax html">
+      nlserver&amp;nbsp;shutdown&amp;nbsp; 
+    </codeblock></li> 
+  </ul> 
+  <h2 id="restart-services">Restart services</h2> 
+  <p>Similarly, in order to restart Adobe Campaign you can use one of the following commands: </p> 
+  <ul> 
+   <li><p>If you have root or administrator access: </p> 
+    <ul> 
+     <li><p>In Linux: /etc/init.d/nlserver6 start</p> </li> 
+     <li><p>In Windows: net start nlserver6</p> </li> 
+    </ul></li> 
+   <li><p>Otherwise, in the Adobe Campaign account: <strong>nlserver watchdog -svc -noconsole</strong></p> </li> 
+  </ul> 
+  <h2 id="the-config-command">The config command</h2> 
+  <p>The <strong>config</strong> command lets you manage server configuration, including the reconfiguration of the database connection.</p> 
+  <p>Use the <strong>config</strong> command of the <strong>nlserver</strong> executable file with the <strong>-setdblogin</strong> parameter.</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;config&amp;nbsp;-setdblogin:&lt;[dbms:]account[:database][/password]@server&gt; 
+  </codeblock> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;config&amp;nbsp;-setdblogin:PostgreSQL:&lt;accountName&gt;:test6@dbserver 
+  </codeblock> 
+  <p>Enter the password.</p> 
+  <p>To change the <strong>internal</strong> password: <strong>nlserver config -internalpassword</strong></p> 
+  <note>
+    To log on with the 
+   <strong>Internal</strong> identifier, you need to have defined a password beforehand. For more on this, refer to 
+   <a href="../../installation/using/configuring-campaign-server.md#internal-identifier">this section</a>. 
+   <br /> 
+  </note> 
+  <note> 
+   <p> </p> 
+   <ul> 
+    <li> <p>In general, instead of modifying the configuration files by hand, you can use the <strong>config</strong> command </p> </li> 
+    <li> <p>To get the list of parameters, use the <strong>-?</strong> parameter: <strong>nlserver config -?</strong></p> </li> 
+    <li> <p>In the case of an Oracle database, you must not specify the account. The syntax will be as follows:</p> <p>nlserver config -setdblogin:Oracle:test6@dbserver</p> </li> 
+   </ul> 
+   <p></p> 
+  </note> 
+ </body> 
+</html>

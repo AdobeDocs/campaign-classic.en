@@ -1,0 +1,35 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="d82f051d-83c4-49e4-a128-b2208c5e6107" name="jcr:predecessors" />
+  <meta content="Monitoring thresholds" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="Monitoring thresholds" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Monitoring thresholds" name="jcr:title" />
+  <meta content="3a98430e-84c0-493e-b958-52e793327cf3" name="jcr:uuid" />
+  <meta content="2019-08-06T06:59:41.494-0400" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="audience:message-center" name="primaryAudienceTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>You can configure the warning thresholds (orange) and alert thresholds (red) of the indicators that appear in the <strong>Message Center service level</strong> and <strong>Message Center processing time</strong> reports (refer to <a href="../../message-center/using/about-transactional-messaging-reports.md" target="_blank">About transactional messaging reports</a>). To do this, open the deployment wizard of the execution instance, go to the <strong>Message Center</strong> page and use the arrows to change the thresholds.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/messagecenter_monitor_events_001.png" title="messagecenter_monitor_events_001.png" />
+  <note>
+   <p> The number of events pending in queue is displayed in the <a href="../../production/using/monitoring-processes.md#system-indicators">System indicators</a> section of the Adobe Campaign process monitoring page. For more information on the deployment wizard, refer to <a href="../../installation/using/deploying-an-instance.md#deployment-wizard">this section</a>.<br /> </p> 
+  </note>
+ </body>
+</html>

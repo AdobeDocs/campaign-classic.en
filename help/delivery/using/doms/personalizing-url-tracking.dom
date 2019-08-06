@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="seoDescription" />
+  <meta content="2019-08-06T06:59:27.476-0400" name="jcr:created" />
+  <meta content="820fab1b-9473-4e5c-a119-d786ac47c11b" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Personalizing URL tracking" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="1d66151a-ad9b-4af9-bd1d-f42168a394fa" name="jcr:predecessors" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Personalizing URL tracking" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Personalizing URL tracking" name="navTitle" />
+ </head>
+ <body>
+  <p>Advanced message tracking settings are accessible via the <strong>Tracking &amp; Images</strong> icon in the toolbar of the delivery wizard.</p> 
+  <note>
+   <p> The management of images in emails is also configured in this window. See <a href="../../delivery/using/personalizing-url-tracking.md#adding-images" target="_blank">Adding images</a>.<br /> </p> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_email_del_tracking_ico.png" title="s_ncs_user_email_del_tracking_ico.png" />
+  <p>You can configure the tracking options:</p> 
+  <ul>
+   <li><p>Activate/Deactivate URL tracking for all messages.</p> 
+    <note>
+      When tracking is not activated on a delivery (i.e. 
+     <strong>Activate tracking</strong> option not selected), reports and data related to tracking are not available: Opens, Hot click and tracked URLs reports will not show any data, and 
+     <strong>Tracking logs</strong> tabs will not be displayed for this delivery.
+     <br /> 
+    </note></li>
+   <li><p>Activate/Deactivate tracking for message opens.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_email_del_tracking_param.png" title="s_ncs_user_email_del_tracking_param.png" />
+  <p>The tracked URLs are listed in the central window in tree form.</p> 
+  <p>You can activate or deactivate tracking individually for each URL of the message. For more on this, refer to <a href="../../delivery/using/how-to-configure-tracked-links.md">this section</a>.</p> 
+  <p>The <strong>Advanced</strong> tab lets you personalize the calculation formulas of the tracked URLs and the opening URL.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_email_del_tracking_param_adv.png" title="s_ncs_user_email_del_tracking_param_adv.png" />
+  <note>
+    Settings in this tab can only be modified by expert users.
+   <br /> 
+  </note>
+ </body>
+</html>

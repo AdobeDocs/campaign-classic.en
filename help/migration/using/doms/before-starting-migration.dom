@@ -1,0 +1,79 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Before starting migration" name="jcr:title" /> 
+  <meta content="d7a4a669-ea9d-484a-bf5b-e5f68d033190" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Before starting migration" name="navTitle" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="audience:migration" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2c6475ae-3708-4b29-861f-92cdebfe1b7f" name="jcr:predecessors" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Before starting migration" name="jcr:description" /> 
+  <meta content="2019-08-06T06:59:37.064-0400" name="jcr:created" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p> In this document, commands linked to the database are given as an example. These may vary depending on their configuration. Contact your database administrator.<br /> </p> 
+  </note> 
+  <h2 id="warnings">Warnings</h2> 
+  <h3 id="installed-version">Installed version</h3> 
+  <p>Before migrating, you should install the latest build of the current version that you are using.</p> 
+  <p>Check the version on your server by going to the <strong>Help&gt; About</strong> menu on the client console using the <strong>nlserver pdump</strong> command.</p> 
+  <h3 id="data-backup">Data backup</h3> 
+  <p>Before starting a migration process, you <strong>must</strong> back up your data.</p> 
+  <h3 id="environment">Environment</h3> 
+  <ul> 
+   <li><p>It is not possible to change your database engine type (DBMS). For instance, you cannot switch from a PostgreSQL engine to an Oracle engine. However, you can switch from an Oracle 8 engine to an Oracle 10 engine.</p> </li> 
+   <li><p>It is not possible to go from a non-Unicode database to a Unicode database.</p> </li> 
+  </ul> 
+  <h3 id="recommendation">Recommendation</h3> 
+  <p>As the migration procedure is particularly sensitive, we strongly recommend reading this document thoroughly before starting the procedure.</p> 
+  <h2 id="migration-steps">Migration steps</h2> 
+  <p>The migration procedure must be carried out on <strong>all</strong> servers and in a particular order.</p> 
+  <ul> 
+   <li><p>In the case of a <strong>standalone platform</strong> (single machine mode), the application is migrated in its entirety.</p> </li> 
+   <li><p>In the case of a <strong>standard platform</strong> (enterprise), the migration steps are as follows:</p> 
+    <ol> 
+     <li><p>Migrate the marketing server. </p> </li> 
+     <li><p>Migrate the mail server (mta).</p> </li> 
+     <li><p>Migrate the redirection and tracking servers (Apache / IIS).</p> </li> 
+    </ol></li> 
+   <li><p>In the case of a <strong>Cloud Messaging platform</strong>, the execution servers are hosted at Adobe Campaign. Please contact Adobe Campaign to coordinate migration between different servers.</p> </li> 
+   <li><p>In the case of a <strong>Power Booster or Power Cluster platform</strong>, the migration steps are as follows:</p> 
+    <ol> 
+     <li><p>Migrate the redirection and tracking servers (Apache / IIS).</p> </li> 
+     <li><p>Migrate the Power Booster/Cluster servers.</p> </li> 
+     <li><p>Migrate the marketing server. </p> </li> 
+    </ol></li> 
+  </ul> 
+  <note> 
+   <p> Communication between a v6.02 marketing server and a v7 Cloud Messaging or Power Booster/Cluster server is possible. Nevertheless, if you decide to keep your v6.02 marketing server, this must be updated with the most recent v6.02 build before migrating to the Cloud Messaging or Power Booster/Cluster. <br /> </p> 
+  </note> 
+  <h2 id="user-passwords">User passwords</h2> 
+  <p>In v7, <strong>internal</strong> and <strong>admin</strong> operator connection must be secured by a password. We strongly recommend assigning passwords to these accounts and all operator accounts, <strong>before migration</strong>. If you have not specified a password for <strong>internal</strong>, you will not be able to connect. To assign a password to <strong>internal</strong>, enter the following command:</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;config&amp;nbsp;-internalpassword 
+  </codeblock> 
+  <note>
+    The 
+   <strong>internal</strong> password must be identical for all the tracking servers. For more information, refer to the 
+   <a href="../../installation/using/configuring-campaign-server.md#internal-identifier">Internal identifier</a> and 
+   <a href="../../platform/using/access-management.md#about-permissions">About permissions</a> sections. 
+   <br /> 
+  </note> 
+ </body> 
+</html>

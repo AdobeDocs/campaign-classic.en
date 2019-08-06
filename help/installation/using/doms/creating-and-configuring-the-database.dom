@@ -1,0 +1,187 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="95ea3b5a-ce24-41c8-afe0-b42e62dcd93e" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2019-08-06T06:59:31.734-0400" name="jcr:created" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Creating and configuring the database" name="jcr:title" /> 
+  <meta content="33972089-7865-4676-85c1-d1d4c2eb7474" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="Creating and configuring the database" name="navTitle" /> 
+  <meta content="Creating and configuring the database" name="jcr:description" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <p>When you create a database, Adobe Campaign provides two different options:</p> 
+  <ol> 
+   <li><p>Creating or recycling a database: choose this options if you want to create a new database or re-use an existing one. Refer to <a href="../../installation/using/creating-and-configuring-the-database.md#case-1--creating-recycling-a-database" target="_blank">Case 1: Creating/recycling a database</a>.</p> </li> 
+   <li><p>Using an existing database: choose this option if an empty database has already been created by your administrator and you want to use it; or to extend the structure of an existing database. Refer to <a href="../../installation/using/creating-and-configuring-the-database.md#case-2--using-an-existing-database" target="_blank">Case 2: Using an existing database</a>.</p> </li> 
+  </ol> 
+  <p>The configuration steps are detailed hereafter.</p> 
+  <note>
+    Names of databases, users and schemas must not start with a number or include special characters. 
+   <br /> Only the 
+   <strong>internal</strong> identifier can carry out these operations. For more on this, refer to 
+   <a href="../../installation/using/creating-and-configuring-the-database.md#internal-identifier" target="_blank">Internal identifier</a>. 
+   <br /> 
+  </note> 
+  <h2 id="case-1--creating-recycling-a-database">Case 1: Creating/recycling a database</h2> 
+  <p>The steps for creating a database or recycling an existing base are presented below. Some configurations depend on the database engine used: </p> 
+  <p>The following steps are involved:</p> 
+  <ul> 
+   <li><p> <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine" target="_blank">Step 1 - Selecting the database engine</a>,</p> </li> 
+   <li><p> <a href="../../installation/using/creating-and-configuring-the-database.md#step-2---connecting-to-the-server" target="_blank">Step 2 - Connecting to the server</a>,</p> </li> 
+   <li><p> <a href="../../installation/using/creating-and-configuring-the-database.md#step-3---connection-and-characteristics-of-the-database" target="_blank">Step 3 - Connection and characteristics of the database</a>,</p> </li> 
+   <li><p> <a href="../../installation/using/creating-and-configuring-the-database.md#step-4---packages-to-install" target="_blank">Step 4 - Packages to install</a>,</p> </li> 
+   <li><p> <a href="../../installation/using/creating-and-configuring-the-database.md#step-5---creation-steps" target="_blank">Step 5 - Creation steps</a>,</p> </li> 
+   <li><p> <a href="../../installation/using/creating-and-configuring-the-database.md#step-6---creating-the-database" target="_blank">Step 6 - Creating the database</a>.</p> </li> 
+  </ul> 
+  <h3 id="step-1---selecting-the-database-engine">Step 1 - Selecting the database engine</h3> 
+  <p>Select the database engine among those in the drop-down list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_db_select_engine.png" title="s_ncs_install_db_select_engine.png" /> 
+  <p>Supported databases are presented in the section <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Compatibility matrix</a>.</p> 
+  <p>Identify the server and choose the type of operation to perform. In this case, <strong>Create or recycle a database</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_db_oracle_creation01.png" title="s_ncs_install_db_oracle_creation01.png" /> 
+  <p>Depending on the selected database engine, the server identification information may vary.</p> 
+  <ul> 
+   <li><p>For an <strong>Oracle</strong> engine, populate the <strong>TNS name</strong> defined for the application server.</p> </li> 
+   <li><p>For a <strong>PostgreSQL</strong> or <strong>DB2</strong> engine, you must specify the DNS name (or IP address) defined on the application server to access the database server.</p> </li> 
+   <li><p>For a <strong>Microsoft SQL Server</strong> engine, you must define: </p> 
+    <ol> 
+     <li><p>the DNS name (or IP address) defined on the application server to access the database server: <strong>DNS</strong> or <strong>DNS 
+        <instance /></strong> (instance mode),</p> </li> 
+     <li><p>the authentication method used to access Microsoft SQL Server: <strong>SQL Server authentication</strong> or <strong>Windows NT authentication</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_db_mssql_creation01.png" title="s_ncs_install_db_mssql_creation01.png" /></li> 
+    </ol></li> 
+  </ul> 
+  <h3 id="step-2---connecting-to-the-server">Step 2 - Connecting to the server</h3> 
+  <p>In the <strong>Server access</strong> window, define the database server access. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_db_oracle_creation02.png" title="s_ncs_install_db_oracle_creation02.png" /> 
+  <p>To do this, enter the name and password of an <strong>Administration system account</strong> which has permission to access the databases, i.e.:</p> 
+  <ul> 
+   <li><p> <strong>system</strong> for an Oracle database,</p> </li> 
+   <li><p><strong>sa</strong> for a Microsoft SQL Server database,</p> </li> 
+   <li><p><strong>postgres</strong> for a PostgreSQL database,</p> </li> 
+   <li><p><strong>db2inst1</strong> for a DB2 database.</p> </li> 
+  </ul> 
+  <h3 id="step-3---connection-and-characteristics-of-the-database">Step 3 - Connection and characteristics of the database</h3> 
+  <p>The following step lets you configure the settings for logging on to the database.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_db_oracle_creation03.png" title="s_ncs_install_db_oracle_creation03.png" /> 
+  <p>You need to define the following settings:</p> 
+  <ul> 
+   <li><p>Specify the name of the database to be created.</p> 
+    <note> 
+     <p> For a DB2 database, the name of the database must not exceed 8 characters.<br /> </p> 
+    </note></li> 
+   <li><p>Enter the password of the account linked to this database.</p> </li> 
+   <li><p>Indicate whether or not the database must be in Unicode. </p> <p>The <strong>Unicode database</strong> option lets you store all character types in Unicode regardless of language.</p> 
+    <note> 
+     <p> With an Oracle database, the <strong>Unicode storage</strong> option lets you use <strong>NCLOB</strong> and <strong>NVARCHAR</strong> type fields.<br /> If you do not select this option, the character set (charset) of the Oracle database must enable data storage in all languages (AL32UTF8 is recommended).<br /> </p> 
+    </note></li> 
+   <li><p>Choose a time zone for the database and specify whether you want it to be in UTC (if available).</p> <p>For more on this, refer to <a href="../../installation/using/time-zone-management.md" target="_blank">Time zone management</a>.</p> </li> 
+  </ul> 
+  <h3 id="step-4---packages-to-install">Step 4 - Packages to install</h3> 
+  <p>Select the packages you wish to install.</p> 
+  <p>Refer to your license agreement to check which solutions and options you are entitled to install, such as "Interaction" or "Social Marketing".</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_modules.png" title="s_ncs_install_modules.png" /> 
+  <h3 id="step-5---creation-steps">Step 5 - Creation steps</h3> 
+  <p>The <strong>Creation steps</strong> window enables you to display and edit the SQL script used to create the tables.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_db_oracle_creation04.png" title="s_ncs_install_db_oracle_creation04.png" /> 
+  <ul> 
+   <li><p>For an Oracle, Microsoft SQL Server or PostgreSQL database, the administrator may also define the <strong>storage parameters</strong> to be used when creating database objects. </p> <p>These parameters receive the exact tablespace names (warning: case sensitive). They are respectively stored in the <strong>Administration &gt; Platform &gt; Options</strong> node in the following options:</p> 
+    <ul> 
+     <li><p><strong>WdbcOptions_TableSpaceUser</strong>: user tables based on a schema</p> </li> 
+     <li><p><strong>WdbcOptions_TableSpaceIndex</strong>: index of user tables based on a schema</p> </li> 
+     <li><p><strong>WdbcOptions_TableSpaceWork</strong>: work tables with no schema</p> </li> 
+     <li><p><strong>WdbcOptions_TableSpaceWorkIndex</strong>: index of work tables with no schema</p> </li> 
+    </ul></li> 
+   <li><p>For an Oracle database, the Adobe Campaign user must have access to the Oracle libraries, typically as a member of the <strong>oinstall</strong> group.</p> </li> 
+   <li><p>The <strong>Set or change the administrator password</strong> option lets you enter the password linked to the Adobe Campaign operator with administrator rights.</p> <p>We recommend defining an Adobe Campaign account administrator password for security purposes.</p> </li> 
+  </ul> 
+  <h3 id="step-6---creating-the-database">Step 6 - Creating the database</h3> 
+  <p>The final stage of the wizard enables you to create the database. Click <strong>Start</strong> to confirm.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_db_oracle_creation06.png" title="s_ncs_install_db_oracle_creation06.png" /> 
+  <p>Once the database is created, you can re-connect to finalize instance configuration.</p> 
+  <p>You must now start the deployment wizard to finish configuring the instance. Refer to <a href="../../installation/using/creating-and-configuring-the-database.md#deployment-wizard" target="_blank">Deployment wizard</a>.</p> 
+  <p>The connection settings for the database linked to the instance are stored in the file <strong>/conf/config-<strong> 
+     <instance /></strong>.xml</strong> found in the Adobe Campaign installation directory.</p> 
+  <p>Example of a Microsoft SQL Server configuration on the base61 database linked to the 'campaign' account with its encrypted password:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;dbcnx&amp;nbsp;encrypted="1"&amp;nbsp;login="campaign:myBase"&amp;nbsp;password="myPassword"&amp;nbsp;provider="DB"&amp;nbsp;server="dbServer"/&gt; 
+  </codeblock> 
+  <h2 id="case-2--using-an-existing-database">Case 2: Using an existing database</h2> 
+  <p>The database, as well as the user, must have been created by the database administrator and the access rights correctly configured.</p> 
+  <p>For instance, for an Oracle database, the minimum required rights are: GRANT CONNECT, RESOURCE and UNLIMITED TABLESPACE.</p> 
+  <p>To use an existing database, the configuration steps are as follows:</p> 
+  <ul> 
+   <li><p> <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---choosing-the-database-engine" target="_blank">Step 1 - Choosing the database engine</a>,</p> </li> 
+   <li><p> <a href="../../installation/using/creating-and-configuring-the-database.md#step-2---database-connection-settings" target="_blank">Step 2 - Database connection settings</a>,</p> </li> 
+   <li><p> <a href="../../installation/using/creating-and-configuring-the-database.md#step-3---packages-to-install" target="_blank">Step 3 - Packages to install</a>,</p> </li> 
+   <li><p> <a href="../../installation/using/creating-and-configuring-the-database.md#step-4---creation-steps" target="_blank">Step 4 - Creation steps</a>,</p> </li> 
+   <li><p> <a href="../../installation/using/creating-and-configuring-the-database.md#step-5---creating-the-database" target="_blank">Step 5 - Creating the database</a>.</p> </li> 
+  </ul> 
+  <h3 id="step-1---choosing-the-database-engine">Step 1 - Choosing the database engine</h3> 
+  <p>Choose the database engine from the drop-down list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_db_select_engine.png" title="s_ncs_install_db_select_engine.png" /> 
+  <p>Identify the server and choose the type of operation you want to carry out. In this case, <strong>Use an existing database</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_db_oracle_exists_01.png" title="s_ncs_install_db_oracle_exists_01.png" /> 
+  <p>Depending on the selected database engine, the server identification information may vary.</p> 
+  <ul> 
+   <li><p>For an <strong>Oracle</strong> engine, populate the <strong>TNS name</strong> defined for the application server.</p> </li> 
+   <li><p>For a <strong>PostgreSQL</strong> or <strong>DB2</strong> engine, you must specify the DNS name (or IP address) defined on the application server to access the database server.</p> </li> 
+   <li><p>For a <strong>Microsoft SQL Server</strong> engine, you must define: </p> 
+    <ol> 
+     <li><p>the DNS name (or IP address) defined on the application server to access the database server,</p> </li> 
+     <li><p>the security method used to access Microsoft SQL Server: <strong>SQL Server authentication</strong> or <strong>Windows NT authentication</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_db_mssql_exists_01.png" title="s_ncs_install_db_mssql_exists_01.png" /></li> 
+    </ol></li> 
+  </ul> 
+  <h3 id="step-2---database-connection-settings">Step 2 - Database connection settings</h3> 
+  <p>In the <strong>Database</strong> window, define the database connection settings. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_db_oracle_exists_02.png" title="s_ncs_install_db_oracle_exists_02.png" /> 
+  <p>You need to define the following settings:</p> 
+  <ul> 
+   <li><p>Enter the name of the database to be used,</p> </li> 
+   <li><p>Enter the name and password of the account associated with this database,</p> 
+    <note> 
+     <p> For an Oracle database, you do not need to enter the account name.<br /> </p> 
+    </note></li> 
+   <li><p>Indicate whether the database should be Unicode or not.</p> </li> 
+  </ul> 
+  <h3 id="step-3---packages-to-install">Step 3 - Packages to install</h3> 
+  <p>Select the packages you wish to install.</p> 
+  <p>Refer to your license agreement to check which solutions and options you are entitled to install, such as "Interaction" or "Leads".</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_modules.png" title="s_ncs_install_modules.png" /> 
+  <h3 id="step-4---creation-steps">Step 4 - Creation steps</h3> 
+  <p>The <strong>Creation steps</strong> window enables you to display and edit the SQL script used to create the tables.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_db_oracle_creation04.png" title="s_ncs_install_db_oracle_creation04.png" /> 
+  <ul> 
+   <li><p>For Oracle, Microsoft SQL Server or PostgreSQL databases, the administrator can define the <strong>storage parameters</strong> to be used when creating database objects.</p> </li> 
+   <li><p>For an Oracle database, the Adobe Campaign user must have access to the Oracle libraries, typically as a member of the <strong>oinstall</strong> group.</p> </li> 
+   <li><p>The <strong>Set or change the administrator password</strong> option lets you enter the password linked to the Adobe Campaign operator with administrator rights.</p> <p>We recommend defining an Adobe Campaign account administrator password for security purposes.</p> </li> 
+  </ul> 
+  <h3 id="step-5---creating-the-database">Step 5 - Creating the database</h3> 
+  <p>The final stage of the wizard enables you to create the database. Click <strong>Start</strong> to confirm.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_db_oracle_creation06.png" title="s_ncs_install_db_oracle_creation06.png" /> 
+  <p>Once database creation is complete, you can reconnect to finalize instance configuration.</p> 
+  <p>You must now start the deployment wizard to finish configuring the instance. Refer to <a href="../../installation/using/creating-and-configuring-the-database.md#deployment-wizard" target="_blank">Deployment wizard</a>.</p> 
+  <p>The connection settings for the database linked to the instance are stored in the file <strong>/conf/config-<strong> 
+     <instance /></strong>.xml</strong> found in the Adobe Campaign installation directory.</p> 
+  <p>Example of a Microsoft SQL Server configuration on the base61 database linked to the 'campaign' account with its encrypted password:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;dbcnx&amp;nbsp;encrypted="1"&amp;nbsp;login="campaign:myBase"&amp;nbsp;password="myPassword"&amp;nbsp;provider="DB"&amp;nbsp;server="dbServer"/&gt; 
+  </codeblock> 
+ </body> 
+</html>

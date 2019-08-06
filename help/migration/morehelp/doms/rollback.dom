@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Rollback" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-08-06T06:59:39.683-0400" name="jcr:created" />
+  <meta content="true" name="isContainer" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="help/components/morehelp" name="sling:resourceType" />
+  <meta content="video" name="pageLayout" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/morehelp" name="cq:template" />
+  <meta content="audience:migration" name="primaryAudienceTag" />
+  <meta content="true" name="preview" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="left" name="sideColumn" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+ </head>
+ <body></body>
+</html>

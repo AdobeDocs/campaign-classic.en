@@ -1,0 +1,118 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="41420600-a97b-489c-b47a-ec685f26b935" name="jcr:uuid" />
+  <meta content="Managing subscriptions" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Managing subscriptions" name="jcr:title" />
+  <meta content="df93f156-6719-44d2-9a32-6339f47e13f0" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-08-06T06:59:26.864-0400" name="jcr:created" />
+  <meta content="Managing subscriptions" name="jcr:description" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="audience:delivery" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+ </head>
+ <body>
+  <h2 id="about-information-services">About information services</h2>
+  <p>An information service comprises:</p> 
+  <ul>
+   <li><p>Registration and subscription (opt-in),</p> </li>
+   <li><p>Deregistration, voluntary unsubscription (opt out) or automatic unsubscription (limited-time service, for example as a trial offer),</p> </li>
+   <li><p>Subscription and unsubscription confirmation mechanisms (simple mechanisms with confirmation, double opt in, etc.),</p> </li>
+   <li><p>Tracking of subscriber history.</p> </li>
+  </ul>
+  <p>As a standard feature, these services include specific statistical reports: subscriber tracking, loyalty level, unsubscription trends, etc.</p> 
+  <p>For emails, the mandatory unsubscription links are generated automatically, and the entire opt in/opt out process us fully automated, with history tracking to guarantee full compliance with the regulations in force.</p> 
+  <p>There are three service subscription/unsubscription modes:</p> 
+  <ol>
+   <li><p>manual</p> </li>
+   <li><p>by importing (subscription only),</p> </li>
+   <li><p>via a web form</p> </li>
+  </ol>
+  <note>
+   <p> A sample to create a subscription form with double opt-in is detailed in <a href="../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in">this section</a>.<br /> </p> 
+  </note>
+  <h2 id="creating-an-information-service">Creating an information service</h2>
+  <p>You can create and manage subscriptions to information services with associated confirmation messages or automatic deliveries to subscribers.</p> 
+  <p>To access the information services map, go to the <strong>Profiles and Targets</strong> universe and click the <strong>Services and Subscriptions</strong> link. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_services_new.png" title="s_ncs_user_services_new.png" />
+  <p>To edit an existing service, click its name. To create a service, click the <strong>Create</strong> button located above the list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_services_add.png" title="s_ncs_user_services_add.png" />
+  <ul>
+   <li><p>Enter the name of the service in the <strong>Label</strong> field and select the delivery channel: email, mobile, Facebook, Twitter, or mobile applications. </p> 
+    <note>
+     <p> Facebook and Twitter subscriptions are detailed in <a href="../../social/using/about-social-marketing.md">this section</a>. Mobile application subscriptions are detailed in <a href="../../delivery/using/about-mobile-app-channel.md" target="_blank">About mobile app channel</a>.<br /> </p> 
+    </note></li>
+   <li><p>For an Email type service, select the <strong>Delivery mode</strong>. The possible modes are: <strong>Newsletter</strong> or <strong>Viral</strong>.</p> </li>
+   <li><p>You can send <strong>confirmation messages</strong> for a subscription or unsubscription. To do this, select the delivery templates to be used to create the corresponding deliveries from the <strong>Subscription</strong> and <strong>Unsubscription</strong> fields. These templates must be configured with a <strong>Subscription</strong> type target mapping, without a defined target. See section <a href="../../delivery/using/about-email-channel.md" target="_blank">About email channel</a>.</p> </li>
+   <li><p>By default, subscriptions are unlimited. You can deselect the <strong>Unlimited</strong> option to define a validity duration for the service. The duration can be specified in days (<strong>d</strong>) or months (<strong>m</strong>).</p> </li>
+  </ul>
+  <p>Once the service has been saved, it is added to the Services and Subscriptions list: Click its name to edit it. Several tabs are available. The <strong>Subscriptions</strong> tab lets you look at the list of subscribers to the information service (<strong>Active subscriptions</strong> tab) or the subscription/unsubscription history (<strong>History</strong> tab). You can also add and delete subscribers from this tab. See <a href="../../delivery/using/managing-subscriptions.md#adding-and-deleting-subscribers" target="_blank">Adding and deleting subscribers</a>. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_services_subscriptions.png" title="s_ncs_user_services_subscriptions.png" />
+  <p>The <strong>Detail...</strong> button lets you look at the subscription properties for the selected recipient.</p> 
+  <p>You can modify the subscription properties for a recipient.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_services_modify.png" title="s_ncs_user_services_modify.png" />
+  <p>On the dashboard, click the <strong>Reports</strong> tab to track subscriptions: changes in subscription levels, total number of subscribers, etc. You can archive reports and look at histories from this tab. </p> 
+  <h2 id="adding-and-deleting-subscribers">Adding and deleting subscribers</h2>
+  <p>From the <strong>Subscriptions</strong> tab of an information service click <strong>Add</strong> to add subscribers. You can also right-click the list of subscribers and select <strong>Add</strong>. Select the folder in which the profiles to be subscribed are stored, and then select the profiles to subscribe and click <strong>OK</strong> to validate.</p> 
+  <p>To delete subscribers, select them and click <strong>Delete</strong>. You can also right-click the subscriber list and select <strong>Delete</strong>.</p> 
+  <p>In both cases, you can send a confirmation message to the users concerned if a delivery template for unsubscriptions has been attached to the service (see <a href="../../delivery/using/managing-subscriptions.md#creating-an-information-service" target="_blank">Creating an information service</a>). A warning lets you validate or not validate this delivery:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_services_update.png" title="s_ncs_user_services_update.png" />
+  <p>See <a href="../../delivery/using/managing-subscriptions.md#subscription-and-unsubscription-mechanisms" target="_blank">Subscription and unsubscription mechanisms</a>.</p> 
+  <h2 id="delivering-to-the-subscribers-of-a-service">Delivering to the subscribers of a service</h2>
+  <p>To deliver to the subscribers of an information service, you can target the subscribers to the information service concerned, as in the following example:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_target_is_a_service01.png" title="s_ncs_user_wizard_target_is_a_service01.png" />
+  <note>
+    The target mapping must be 
+   <strong>Subscriptions</strong>.
+   <br /> 
+  </note>
+  <p>Select <strong>Subscribers of an information service</strong> and click <strong>Next</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_target_is_a_service02.png" title="s_ncs_user_wizard_target_is_a_service02.png" />
+  <p>Select the targeted information service and click <strong>Finish</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_wizard_target_is_a_service03.png" title="s_ncs_user_wizard_target_is_a_service03.png" />
+  <p>The <strong>Preview</strong> tab lets you view the list of subscribers to the selected information service.</p> 
+  <h2 id="subscription-and-unsubscription-mechanisms">Subscription and unsubscription mechanisms</h2>
+  <p>You can set up subscription and unsubscription mechanisms to automate the processes and subscriber management.</p> 
+  <note>
+   <p> You can send a confirmation message to new subscribers. <br /> The content of this message is defined in the information service configuration via the <strong>Subscription</strong> or <strong>Unsubscription</strong> fields. <br /> The confirmation messages are created via the delivery templates specified in these fields. These target mappings must be <strong>Subscriptions</strong>.<br /></p> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_subscribe_confirmation.png" title="s_ncs_user_subscribe_confirmation.png" />
+  <h3 id="subscribing-a-recipient-to-a-service">Subscribing a recipient to a service</h3>
+  <p>To register recipients for an information service, you can:</p> 
+  <ul>
+   <li><p>Manually add the service: to do this, from the <strong>Subscriptions</strong> tab of their profile, click <strong>Add</strong> and select the information service concerned. </p> <p>For more on this, refer to the section on profile editing in <a href="../../platform/using/editing-a-profile.md">this section</a>.</p> </li>
+   <li><p>Automatically subscribe a set of recipients to this service. The list of recipients can come from a filtering operation, a group, a folder, an import, or a direct selection using the mouse. To subscribe these recipients, select the profiles and right-click. Select <strong>Actions &gt; Subscribe selection to a service...</strong>, select the service concerned, and launch the operation.</p> </li>
+   <li><p>Import recipients and subscribe them automatically to an information service. To do this, select the service concerned in the last step of the import wizard. </p> <p>For more on this, refer to <a href="../../platform/using/importing-data.md#import-wizard">this section</a>.</p> </li>
+   <li><p>Use a web form so that recipients can subscribe to a service. </p> <p>For more on this, refer to <a href="../../web/using/about-web-applications.md">this section</a>.</p> </li>
+   <li><p>Creating a targeting workflow and using a <strong>Subscription service</strong> box.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_subscribe_from_wf.png" title="s_ncs_user_subscribe_from_wf.png" /><p>Workflows and how to use them is detailed in <a href="../../workflow/using/about-workflows.md">this section</a>.</p> </li>
+  </ul>
+  <h3 id="unsubscribing-a-recipient-from-a-service">Unsubscribing a recipient from a service</h3>
+  <h4 id="manual-unsubscribing">Manual unsubscribing</h4>
+  <p>email deliveries must contain an unsubscription link, by law. Recipients can click this link to update their profile and be excluded from the targets of future deliveries.</p> 
+  <p>The default unsubscription link is inserted via the last button in the toolbar of the content editor provided in the delivery wizard (see <a href="../../delivery/using/about-personalization.md" target="_blank">About personalization</a>). When the recipient clicks this link, the profile is blacklisted (opt-out), meaning that this recipient will no longer be targeted by any delivery action.</p> 
+  <p>Recipients can, however, choose to unsubscribe from a service without unsubscribing from all services. To allow this, you can use a web form (refer to <a href="../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes">this section</a>) or insert a personalized unsubscription link (see <a href="../../delivery/using/personalization-blocks.md" target="_blank">Personalization blocks</a>).</p> 
+  <p>You can also unsubscribe a recipient manually from the recipient profile. To do this, click the <strong>Subscriptions</strong> tab of the recipient concerned, select the information service(s) concerned, and click <strong>Delete</strong>.</p> 
+  <p>You can finally unsubscribe one or more recipients via the information service concerned. To do this, click the <strong>Subscriptions</strong> tab of the service, select the recipients concerned and click <strong>Delete</strong>.</p> 
+  <h4 id="automatic-unsubscription">Automatic unsubscription</h4>
+  <p>An information service can have a limited duration. Recipients will be unsubscribed automatically when the period of validity has expired. This period is specified in the <strong>Edit</strong> tab of the service properties. It is expressed in days.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_services_delay.png" title="s_ncs_user_services_delay.png" />
+  <p>You can also set up an unsubscription workflow for a population. To do this, follow the same procedure as for a subscription workflow, but select the <strong>Unsubscription</strong> option. See <a href="../../delivery/using/managing-subscriptions.md#subscribing-a-recipient-to-a-service" target="_blank">Subscribing a recipient to a service</a>.</p> 
+  <h3 id="subscriber-tracking">Subscriber tracking</h3>
+  <p>You can track the changes in subscriptions to the information services using the <strong>Reports</strong> link on the dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_services_report.png" title="s_ncs_user_services_report.png" />
+ </body>
+</html>

@@ -1,0 +1,224 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="audience:campaign" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Controlling costs" name="jcr:description" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-08-06T06:59:09.878-0400" name="jcr:created" /> 
+  <meta content="085251ff-f5b2-48e6-b531-1f5803b8bacb" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Controlling costs" name="jcr:title" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="6281e268-1088-41bb-87b3-9a727c446e91" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="Controlling costs" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <h2 id="about-cost-control">About cost control</h2> 
+  <p>Adobe Campaign lets you control scheduled, committed and invoiced marketing costs and to break them down by category using the Marketing Resource Management module.</p> 
+  <p>The costs committed for the various processes of a campaign are charged to a budget defined in advance by the marketing department. The amounts can be broken down into several categories to make the information more readable and to provide more detailed reporting of marketing investments. </p> 
+  <p>The management and tracking of budgets is centralized in a dedicated node of the Adobe Campaign tree. This lets you monitor the amounts allocated, reserved, committed, and spent from the same view and for all budgets.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_budget_node_02.png" title="s_ncs_user_budget_node_02.png" /> 
+  <p>The following steps must be applied to implement budget management using MRM:</p> 
+  <ol> 
+   <li><p>Defining the budget</p> <p>For more on this, refer to <a href="../../campaign/using/controlling-costs.md#creating-a-budget" target="_blank">Creating a budget</a>.</p> </li> 
+   <li><p>Defining the cost calculation method</p> <p>Cost structures are defined for the service providers. See <a href="../../campaign/using/controlling-costs.md#creating-a-service-provider-and-its-cost-categories" target="_blank">Creating a service provider and its cost categories</a>.</p> </li> 
+   <li><p>Defining campaign costs (deliveries/tasks)</p> <p>The costs incurred by the deliveries and tasks are input individually or globally for the campaign template. See <a href="../../campaign/using/controlling-costs.md#calculation-of-costs-and-stocks" target="_blank">Calculation of costs and stocks</a>.</p> </li> 
+   <li><p>Consolidation</p> <p>According to the progress status of the tasks, deliveries and campaign, the costs will be calculated and passed on to the corresponding budget.</p> <p>When the creation of the campaign is sufficiently advanced, the progress status of the campaign budget can be changed to <strong>Specified</strong>. The calculated cost of the program is then entered automatically with the costs calculated on the campaign. See <a href="../../campaign/using/controlling-costs.md#cost-commitment--calculation-and-charging" target="_blank">Cost commitment, calculation and charging</a>.</p> </li> 
+  </ol> 
+  <h2 id="creating-a-budget">Creating a budget</h2> 
+  <p>Budgets are created in the map, via the <strong>Campaign management &gt; Budgets</strong> node. The <strong>New</strong> button in the toolbar lets you create a budget.</p> 
+  <ul> 
+   <li><p>Adding a new budget</p> <p>Click the <strong>New</strong> icon, name and save the budget.</p> </li> 
+   <li><p>Entering the initial amount</p> <p>Indicate the allocated amount in the relevant field. The other amounts are entered automatically. See <a href="../../campaign/using/controlling-costs.md#calculating-amounts" target="_blank">Calculating amounts</a>.</p> </li> 
+   <li><p>Defining the validity period</p> <p>Specify the start and end dates. This information is indicative only.</p> </li> 
+   <li><p>Expenses</p> <p>Create the expense categories to which the costs assigned to this budget for campaigns, tasks etc. can be linked. See <a href="../../campaign/using/controlling-costs.md#expense-categories" target="_blank">Expense categories</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_budget_create_and_save.png" title="s_ncs_user_budget_create_and_save.png" /></li> 
+  </ul> 
+  <note> 
+   <p> You can select a related budget.<br /> For more on this, refer to <a href="../../campaign/using/controlling-costs.md#linking-a-budget-to-another" target="_blank">Linking a budget to another</a>.<br /> </p> 
+  </note> 
+  <h3 id="calculating-amounts">Calculating amounts</h3> 
+  <p>Each budget is defined by an initial amount which will be decremented from the costs of the various campaigns, deliveries or tasks related to them after they have been scheduled or performed. The status of the amounts (planned, reserved, committed, spent, or invoiced) depends on the type of cost and the level of commitment defined in the campaign, delivery, or task. </p> 
+  <note> 
+   <p> The amounts entered for the categories must match the budget envelope defined in the <strong>Allocated</strong> field.<br /> </p> 
+  </note> 
+  <p> For campaigns, according to the level of commitment, a cost can be planned, committed or reserved for a future action. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_op_engaged.png" title="s_user_cost_op_engaged.png" /> 
+  <note>
+    When a campaign is created, the progress status in 
+   <strong>Budget</strong> must be set to 
+   <strong>Defined</strong> for the costs to be taken into account on execution. If the status is 
+   <strong>Being edited</strong>, the costs will not be consolidated. 
+   <br /> The option 
+   <strong>Commitment level</strong> represents a projection of costs into the future before they are charged to the budget. According to the progress of a campaign, task, or delivery, you can decide to assign a higher or lower commitment level (1. Planned, 2. Reserved, 3. Committed) using the combo box. 
+   <br /> 
+  </note> 
+  <p>For example, the estimated planned cost of a Web campaign is 45,000 Euro.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_edit_budget_node_impact_0.png" title="s_user_edit_budget_node_impact_0.png" /> 
+  <p>For the campaign, when the budget creation status is set to <strong>Defined</strong>, the real cost of the campaign (or, if none, the computed cost) will be carried over into the budget totals.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_budget_in_op_a.png" title="s_user_budget_in_op_a.png" /> 
+  <p>According to the level of commitment of the campaign budget, the amount will be entered in the <strong>Planned</strong>, <strong>Reserved</strong> or <strong>Committed</strong> field. </p> 
+  <p>The level of commitment can be modified:</p> 
+  <ul> 
+   <li><p>in the <strong>campaign</strong> level, in the <strong>Budget</strong> window, found in the <strong>Edit</strong> tab. This is where budgets, costs and expenses are configured.</p> </li> 
+   <li><p>in the <strong>tasks</strong> level, in the <strong>Expenses and revenues</strong> window.</p> </li> 
+  </ul> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_op_engagement_level_costs.png" title="s_user_op_engagement_level_costs.png" /> 
+  <p>When the budget is <strong>Reserved</strong>, the update is performed automatically for the charged budget.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_edit_budget_node_impact_2.png" title="s_user_edit_budget_node_impact_2.png" /> 
+  <p>The procedure is the same at task level.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_edit_budget_node_impact_task.png" title="s_user_edit_budget_node_impact_task.png" /> 
+  <p>When an expenditure gives rise to an invoice and the invoice is paid, its amount is then entered in the <strong>Invoiced</strong> field. </p> 
+  <h3 id="expense-categories">Expense categories</h3> 
+  <p> The amounts can be distributed in several expense categories for better readability of the data and for more detailed reporting of marketing investments. The expense categories are defined during budget creation, via the <strong>Budgets</strong> node of the tree.</p> 
+  <p>To add a category, click the <strong>Add</strong> button in the lower section of the window.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_budget_category.png" title="s_user_budget_category.png" /> 
+  <p>You can select a category from the existing ones or define a new category by entering it directly in the field. When you confirm your input, a confirmation message lets you add this category to the list of existing categories, and associate it with a Nature if necessary. This information will be used in the budget reports.</p> 
+  <h3 id="linking-a-budget-to-another">Linking a budget to another</h3> 
+  <p>You can link a budget to a main budget. To do this, select the main budget in the <strong>related budget</strong> field of the secondary budgets. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/budget_link.png" title="budget_link.png" /> 
+  <p>An additional tab will be added to the main budget in order to display the list of related budgets.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/budget_link_new_tab.png" title="budget_link_new_tab.png" /> 
+  <p>This information is carried over to the budget reports.</p> 
+  <h2 id="adding-expense-lines">Adding expense lines</h2> 
+  <p>Expense lines are automatically added to the budget. They are created during delivery analysis and when a task is finished.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_budget_line_edit.png" title="s_ncs_user_budget_line_edit.png" /> 
+  <p>For each campaign, delivery, or task, the costs generated are grouped in the expense lines of the budget to which they are charged. These expense lines are created according to the cost lines of the service provider concerned and calculated via the associated cost structures.</p> 
+  <p>Each expense line therefore contains the following information:</p> 
+  <ul> 
+   <li><p>The campaign and the delivery or task to which it is related</p> </li> 
+   <li><p>The amount calculated from the cost structures or the estimated provisional cost</p> </li> 
+   <li><p>Real cost of the delivery or task concerned</p> </li> 
+   <li><p>The corresponding invoice line (MRM only)</p> </li> 
+   <li><p>List of costs calculated by cost category (if a cost structure exists)</p> </li> 
+  </ul> 
+  <p>In the example above, the expense line edited contains the costs calculated for the <strong>New cards</strong> delivery for the <strong>Loyalty Spring Pack</strong> campaign. When the delivery is edited, the <strong>Direct Mail</strong> tab lets you see how the expense line is calculated.</p> 
+  <p>The cost calculation for this delivery is based on the cost categories selected for the service provider concerned:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_edit_del_supplier_costs.png" title="s_user_edit_del_supplier_costs.png" /> 
+  <p>According to the cost categories selected, the corresponding cost structures are applied in order to calculate the cost lines. In this example, for the service provider concerned, the cost structures are as follows: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_edit_node_supplier_costs.png" title="s_user_edit_node_supplier_costs.png" /> 
+  <note> 
+   <p> Cost categories and structures are presented in <a href="../../campaign/using/controlling-costs.md#creating-a-service-provider-and-its-cost-categories" target="_blank">Creating a service provider and its cost categories</a>.<br /> </p> 
+  </note> 
+  <h2 id="cost-commitment--calculation-and-charging">Cost commitment, calculation and charging</h2> 
+  <p>Costs can be committed for deliveries and tasks. According to the progress of the process to which it is related, the status of a cost is updated.</p> 
+  <h3 id="cost-calculation-process">Cost calculation process</h3> 
+  <p>Costs are divided into three categories:</p> 
+  <ol> 
+   <li><p>Estimated provisional cost</p> <p>The estimated provisional cost is an estimate of the costs for the processes of the campaign. As long as it is being edited, the amounts input are not consolidated. It must have <strong>Specified</strong> status for the amounts input to be taken into account in the calculations.</p> <p>This amount is input manually and can be broken down into several expense categories. To bread down a cost, click the <strong>Breakdown...</strong> link, and then the <strong>Add</strong> button to define a new amount. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_edit_budget_tab_ventil.png" title="s_user_edit_budget_tab_ventil.png" /><p>You can associate each cost with a category so that the cost breakdown by expense category can later be viewed in the related budget and the budget reports.</p> </li> 
+   <li><p>Calculated cost</p> <p>The calculated cost depends on the element concerned (campaign, delivery, task, etc.) and its status (being edited, in progress, finished). In any case, if the real cost is specified, the calculated cost will use this amount. </p> <p>If the real cost is not provided, the following rules apply:</p> 
+    <ul> 
+     <li><p>For a campaign being edited, the calculated cost is the estimated provisional cost of the campaign or, if this cost is not defined, the calculated cost will be the sum of all provisional costs of the deliveries and tasks of the campaign. If the campaign is finished, the campaign's calculated cost will be the sum of all calculated costs.</p> </li> 
+     <li><p>For a delivery that has not yet been analyzed, the calculated cost is the estimated provisional cost. If the analysis has already been performed, the calculated cost will be the sum of all the costs calculated from the service provide cost structures and the number of recipients targeted.</p> </li> 
+     <li><p>For a task in progress, the calculated cost uses the estimated provisional cost. If the task is finished, the calculated cost will be the sum of all the costs calculated from the service provider cost structures and the number of days completed. </p> </li> 
+     <li><p>For the marketing plan, as for the program, the calculated cost is the sum of the costs calculated for the campaigns. If these costs are not specified, the calculated cost will use the estimated provisional costs.</p> </li> 
+    </ul> 
+    <note> 
+     <p> The <strong>Breakdown</strong> link lets you view the details of the calculation and the last cost calculation date.<br /> </p> 
+    </note></li> 
+   <li><p>Real cost</p> <p>The real cost is input manually, and if necessary is broken down into different expense categories.</p> </li> 
+  </ol> 
+  <h3 id="calculation-and-charging">Calculation and charging</h3> 
+  <p>Costs are calculated via cost structures and charged to the budgets selected in the campaigns, deliveries or tasks concerned.</p> 
+  <p>A check can be performed on the amounts committed to campaigns via the budget approval. Additional checkpoint-style tasks can be created in a campaign in order to set up other approvals. See <a href="../../campaign/using/controlling-costs.md#types-of-task" target="_blank">Types of task</a>.</p> 
+  <h3 id="example">Example</h3> 
+  <p>We are going to create a campaign with:</p> 
+  <ul> 
+   <li><p>A direct mail delivery using a service provider's cost structures</p> </li> 
+   <li><p>A task with a fixed cost</p> </li> 
+   <li><p>A task with a daily cost</p> </li> 
+  </ul> 
+  <h4 id="step-1---creating-the-budget">Step 1 - Creating the budget</h4> 
+  <p>Create a new budget via the <strong>Campaign management &gt; Budgets</strong> node. </p> 
+  <p>Define a budget of 10,000 Euros in the <strong>Allocated</strong> field of the <strong>Amounts</strong> section. Add two expense categories in the lower section of the window:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_1.png" title="s_user_cost_mgmt_sample_1.png" /> 
+  <h4 id="step-2---configuring-the-service-provider-and-defining-the-cost-structures">Step 2 - Configuring the service provider and defining the cost structures</h4> 
+  <p>Create a service provider and a service template with its cost structure from the <strong>Administration &gt; Campaigns</strong> node. </p> 
+  <p>For more on this, refer to <a href="../../campaign/using/controlling-costs.md#creating-a-service-provider-and-its-cost-categories" target="_blank">Creating a service provider and its cost categories</a>.</p> 
+  <ul> 
+   <li><p>For direct mail deliveries, create cost categories <strong>Envelopes</strong> (types 114x229 and 162x229), <strong>Postage</strong> and <strong>Print</strong> (types A3 and A4). And then create the following cost structures:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_2.png" title="s_user_cost_mgmt_sample_2.png" /><p>Add a fixed cost (in the cost categories) whose calculation is fixed and whose amount is blank (in the corresponding cost structure) and which will be specified individually for each delivery.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_5.png" title="s_user_cost_mgmt_sample_5.png" /> </li> 
+  </ul> 
+  <ul> 
+   <li><p>For tasks, create the following two cost categories:</p> 
+    <ol> 
+     <li><p><strong>Room reservation</strong> (Small Room and Large Room), with a <strong>fixed</strong> cost structure in the amount of 300 and 500 Euros:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_6.png" title="s_user_cost_mgmt_sample_6.png" /></li> 
+     <li><p><strong>Creation</strong> (<strong>Content template</strong> type), with a <strong>daily</strong> cost structure of 300 Euros:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_7.png" title="s_user_cost_mgmt_sample_7.png" /></li> 
+    </ol></li> 
+  </ul> 
+  <h4 id="step-3---charging-the-budget-in-the-campaign">Step 3 - Charging the budget in the campaign</h4> 
+  <p>Create a campaign and select the budget created in Step 1.</p> 
+  <note> 
+   <p> By default, the budget selected for the program is applied to all campaigns in the program.<br /> </p> 
+  </note> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_4.png" title="s_user_cost_mgmt_sample_4.png" /> 
+  <p>Specify the estimated provisional cost, with breakdown:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_9.png" title="s_user_cost_mgmt_sample_9.png" /> 
+  <p>Click <strong>Ok</strong> and then <strong>Save</strong> to confirm this information. The calculated cost of the campaign is then updated with the estimated provisional cost. </p> 
+  <h4 id="step-4---creating-the-direct-mail-delivery">Step 4 - Creating the direct mail delivery</h4> 
+  <p>Create a workflow for the campaign and position the query activities to select the target (warning, the recipient postal addresses must be specified).</p> 
+  <p>Create a direct mail delivery and select the service provider created in Step 2: the cost categories are displayed automatically.</p> 
+  <p>Override the cost of the envelopes and add a fixed cost. Also select the categories, concerned by these costs.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_3.png" title="s_user_cost_mgmt_sample_3.png" /> 
+  <note> 
+   <p> If one of the cost categories is not used, it will not generate any expenses.<br /> </p> 
+  </note> 
+  <p>Start the workflow that you have just created to launch the analysis and calculate the costs.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_10.png" title="s_user_cost_mgmt_sample_10.png" /> 
+  <p>If budget approval is enabled for this campaign, approve the budget from the dashboard. You can check the approval of cost categories.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_10b.png" title="s_user_cost_mgmt_sample_10b.png" /> 
+  <p>The expense line concerning the delivery is added in the <strong>Edit &gt; Budget</strong> tab of the campaign. Edit it to view the details of the calculation.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_11.png" title="s_user_cost_mgmt_sample_11.png" /> 
+  <p>The cost calculated for the delivery is updated with this information:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_12.png" title="s_user_cost_mgmt_sample_12.png" /> 
+  <p>When you edit the calculated cost, you can check the cost breakdown and the status and date of the cost calculation.</p> 
+  <h4 id="step-5---creating-tasks">Step 5 - Creating tasks</h4> 
+  <p>To this campaign, we will add the two tasks for which the cost structures were created earlier (see <a href="../../campaign/using/controlling-costs.md#step-2---configuring-the-service-provider-and-defining-the-cost-structures" target="_blank">Step 2 - Configuring the service provider and defining the cost structures</a>). To do this, in the campaign dashboard, click the <strong>Add a task</strong> button. Name the task and click <strong>Save</strong>.</p> 
+  <p>The task is then added to the task list. You must edit it to configure it. </p> 
+  <p>In the <strong>Properties</strong> tab, select the service and the corresponding cost category:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_14.png" title="s_user_cost_mgmt_sample_14.png" /> 
+  <p>Next, click the <strong>Expenses and revenue</strong> icon of the task and specify the estimated provisional cost. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_15.png" title="s_user_cost_mgmt_sample_15.png" /> 
+  <p>When the task has been saved, the calculated cost is specified with the value entered for the estimated provisional cost. </p> 
+  <p>When the task is completed (status <strong>Finished</strong>), the calculated cost is automatically updated with the cost of the Large Room as entered in its cost structure. This cost also appears in this category in the breakdown.</p> 
+  <p>Next, create a second task according to the same procedure; scheduled over five days and related to the cost structure created earlier.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_16.png" title="s_user_cost_mgmt_sample_16.png" /> 
+  <p>When the task is finished, the calculated cost is specified with the value from the related cost structure, i.e. 1500 Euros in our example (5 days x 300 Euros): </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_17.png" title="s_user_cost_mgmt_sample_17.png" /> 
+  <h4 id="step-6---update-the-campaign-budget-status">Step 6 - Update the campaign budget status</h4> 
+  <p>When the campaign is configured, its status can be updated by setting it to <strong>Specified</strong>. The calculated cost of the campaign will then indicate the sum of the calculated costs of the delivery and the tasks of the campaign:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_18.png" title="s_user_cost_mgmt_sample_18.png" /> 
+  <h4 id="budget-approval">Budget approval</h4> 
+  <p>When approval is activated, a special link lets you approve the budget from the campaign dashboard. This link is displayed when the targeting workflow has been launched and a direct mail delivery needs to be approved.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_mgmt_sample_19.png" title="s_user_cost_mgmt_sample_19.png" /> 
+  <p>You can then click the link to grant or reject approval, or use the link in the notification e-mail if notification has been activated for this campaign.</p> 
+  <p>When the budget has been approved and the delivery finished, the costs are automatically uploaded via a special technical workflow. </p> 
+  <h2 id="orders-and-invoices">Orders and invoices</h2> 
+  <p>In the context of MRM, you can save orders with a service provider and issue invoices. The entire life cycle of these orders and invoices can be managed via the Adobe Campaign interface. </p> 
+  <h3 id="order-creation">Order creation</h3> 
+  <p>To save a new order with a service provider, click the <strong>MRM &gt; Orders </strong> node of the tree, and then click the <strong>New</strong> button.</p> 
+  <p>Specify the order number, the service provider concerned, and the total amount of the order. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_create_order.png" title="s_user_cost_create_order.png" /> 
+  <h3 id="issuing-and-tracking-invoices">Issuing and tracking invoices</h3> 
+  <p>For each service provider, you can save invoices and define their status and the budget charged.</p> 
+  <p>Invoices are created and stored in the <strong>MRM &gt; Invoices</strong> node of the Adobe Campaign tree.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_create_invoice.png" title="s_user_cost_create_invoice.png" /> 
+  <p>An invoice consists of invoice lines whose total allows the amount to be calculated automatically. These lines are created manually from the <strong>Invoice lines</strong> tab. They can be associated with an order to upload the information to the orders.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_user_cost_invoice_add_line.png" title="s_user_cost_invoice_add_line.png" /> 
+  <p>The invoices of each service provider are displayed in the <strong>Invoices</strong> tab of the profile:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_invoice_from_supplier.png" title="s_ncs_user_invoice_from_supplier.png" /> 
+  <p>The <strong>Details</strong> tab lets you display the content of the invoice.</p> 
+  <p>Click <strong>Add</strong> to create a new invoice.</p> 
+ </body> 
+</html>

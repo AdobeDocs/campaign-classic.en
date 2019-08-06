@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Launching Adobe Campaign" name="navTitle" />
+  <meta content="2019-08-05" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="Launching Adobe Campaign" name="jcr:title" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="audience:platform" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="00d7e69f-663b-463d-b34a-cbb7f3522503" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2eefc5dc-2f25-42e9-9550-4acd3ddd3626" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:starting-with-adobe-campaign" name="cq:tags" />
+  <meta content="Launching Adobe Campaign" name="jcr:description" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="seoDescription" />
+  <meta content="2019-08-06T07:02:29.705-0400" name="jcr:created" />
+ </head>
+ <body>
+  <h2 id="starting-adobe-campaign">Starting Adobe Campaign</h2>
+  <p>You can start Adobe Campaign by selecting <strong>Start / All Programs / Adobe Campaign v.X / Adobe Campaign client console</strong>.</p> 
+  <p>The client console connection window lets you select or configure existing databases and connect to them using a user name and password:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_login.png" title="s_ncs_user_login.png" />
+  <h2 id="connecting-to-adobe-campaign">Connecting to Adobe Campaign</h2>
+  <p>You can connect to Adobe Campaign using your Adobe ID. For more on this, refer to <a href="../../integrations/using/about-adobe-id.md">this page</a>.</p> 
+  <p>You can also connect with a dedicated login/password:</p> 
+  <ol>
+   <li><p>Enter the operator account identifier in the <strong>login</strong> field. </p> <p>Your identifier is given by the administrator of your Adobe Campaign platform.</p> </li>
+   <li><p>Enter your password in the <strong>Password</strong> field.</p> <p>The first time you access the database, your password is the one given to you by the administrator. Once you are connected, you can change your password via the <strong>Tools &gt; Change password...</strong> menu. Details on operators and connections are available in <a href="../../platform/using/access-management.md" target="_blank">Access management</a>.</p> </li>
+   <li><p>Click <strong>Log in</strong> to confirm.</p> </li>
+  </ol>
+  <p>You can now access <a href="../../platform/using/adobe-campaign-workspace.md">Adobe Campaign workspace</a>. </p> 
+  <h2 id="setting-up-connections">Setting up connections</h2>
+  <p>You can access the server connection settings via the link above the input zone.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_connections_management.png" title="s_ncs_user_connections_management.png" />
+  <p>In the <strong>Connections</strong> window, click <strong>Add &gt; Connection</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_add_connexion.png" title="s_ncs_user_add_connexion.png" />
+  <p>You must then define the connection settings. To do this:</p> 
+  <ul>
+   <li><p>Enter a <strong>Label</strong> to assign a name to your database connection.</p> </li>
+   <li><p>Add the address of the application server in the <strong>URL</strong> field. If you do not know the connection URL, contact the administrator.</p> </li>
+   <li><p>Check <strong>Connect with an Adobe ID</strong> for the operators to connect to the console using their Adobe ID. For more on this, refer to <a href="../../integrations/using/about-adobe-id.md">this page</a>.</p> </li>
+   <li><p>Click <strong>OK</strong> to validate.</p> </li>
+  </ul>
+  <note>
+   <p> The <strong>Add</strong> button lets you create <strong>folders</strong> to organize all your connections. Simply drag and drop each connection into a folder.<br /> </p> 
+  </note>
+  <h2 id="operators-and-permissions">Operators and permissions</h2>
+  <p>The identifiers and passwords of operators with access to the software and their respective permissions are defined by your Adobe Campaign system administrator in the <strong>Administration &gt; Access management &gt; Operators</strong> node of the Adobe Campaign tree.</p> 
+  <p>This functionality is detailed in the <a href="../../platform/using/access-management.md" target="_blank">Access management</a> section.</p> 
+  <h2 id="disconnecting-from-adobe-campaign">Disconnecting from Adobe Campaign</h2>
+  <p>To disconnect from Adobe Campaign, use the first icon in the icon bar.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_deconnexion.png" title="s_ncs_user_deconnexion.png" />
+  <note>
+   <p> You can also close the application without logging off first.<br /> </p> 
+  </note>
+  <h2 id="getting-your-campaign-version">Getting your Campaign version</h2>
+  <p>The <strong>Help &gt; About...</strong> menu lets you access the following information:</p> 
+  <ul>
+   <li><p><strong>version</strong> number,</p> </li>
+   <li><p><strong>build</strong> number,</p> </li>
+   <li><p>a link to contact Adobe Campaign Support.</p> 
+    <note>
+      Whenever you reach out to Adobe Support team, you need to provide the version number and build number of your Campaign client console and application server.
+     <br /> 
+    </note></li>
+  </ul>
+ </body>
+</html>

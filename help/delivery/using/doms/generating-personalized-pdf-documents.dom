@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="ed952e04-f491-4bb3-9dde-cbd04b13377a" name="jcr:predecessors" /> 
+  <meta content="Generating personalized PDF documents" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="462f4ed2-9a09-49e8-a52d-20463d9a4228" name="jcr:uuid" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="audience:delivery" name="primaryAudienceTag" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Generating personalized PDF documents" name="jcr:title" /> 
+  <meta content="Generating personalized PDF documents" name="jcr:description" /> 
+  <meta content="2019-08-06T06:59:26.503-0400" name="jcr:created" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+ </head> 
+ <body> 
+  <h2 id="about-variable-pdf-documents">About variable PDF documents</h2> 
+  <p>Adobe Campaign lets you generate variable PDF documents (for email attachments, direct mail delivery) from LibreOffice or Microsoft Word documents.</p> 
+  <p>The following extensions are supported: ".docx", ".doc", and ".odt".</p> 
+  <p>To personalize your documents, the same JavaScript functionalities as for email personalization are available.</p> 
+  <p>You need to activate the <strong>"The content of the file is personalized and converted to PDF during the delivery of each message"</strong> option. This option is accessible when you attach the file to the delivery email. For more on attaching a calculated file, refer to the <a href="../../delivery/using/attaching-files.md" target="_blank">Attaching files</a> section. </p> 
+  <p>Example of an invoice header personalization:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_pdf_simple.png" title="s_ncs_pdf_simple.png" /> 
+  <p>To generate dynamic tables or include images via a URL, you need to follow a specific process.</p> 
+  <h2 id="generating-dynamic-tables">Generating dynamic tables</h2> 
+  <p>The procedure for generating dynamic tables is as follows:</p> 
+  <ul> 
+   <li><p>Create a table with three lines and as many columns as necessary, then configure its layout (borders, etc.).</p> </li> 
+   <li><p>Place your cursor on the table and click the <strong>Table &gt; Table properties</strong> menu. Go to the <strong>Table</strong> tab and enter a name beginning with <strong>NlJsTable</strong>.</p> </li> 
+   <li><p>In the first cell of the first line, define a loop ("for", for example) that enables iteration on the values you want to display in the table.</p> </li> 
+   <li><p>In each cell of the second line of the table, insert scripts that return the values to display.</p> </li> 
+   <li><p>Close the loop in the third and last line of the table. </p> <p>Example of a dynamic table definition:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_pdf_table.png" title="s_ncs_pdf_table.png" /></li> 
+  </ul> 
+  <h2 id="inserting-external-images">Inserting external images</h2> 
+  <p>The insertion of external images is useful if, for instance, you want to personalize a document with an image whose URL is entered in a field of the recipient.</p> 
+  <p>To do this, you need to configure a personalization block, then include a call to the personalization block in the attachment.</p> 
+  <p><strong>Example: inserting a personalized logo depending on the recipient's country</strong></p> 
+  <p><strong>Step 1: create the attachment:</strong></p> 
+  <ul> 
+   <li><p>Insert the call to the personalization block: <strong>&lt;%@ include view="blockname" %&gt;</strong>. </p> </li> 
+   <li><p>Insert your content (personalized or not) into the body of the file.</p> </li> 
+  </ul> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_open_office_blocdeperso.png" title="s_ncs_open_office_blocdeperso.png" /> 
+  <p><strong>Step 2: create the personalization block:</strong></p> 
+  <ul> 
+   <li><p>Go to the <strong>Resources &gt; Campaign management &gt; Personalization blocks</strong> menu of the Adobe Campaign console.</p> </li> 
+   <li><p>Create a new "My Logo" personalization block with "My_Logo" as an internal name.</p> </li> 
+   <li><p>Click on the <strong>Advanced parameters...</strong> link then check the <strong>"The content of the block is included in an attachment"</strong> option. This lets you copy the definition of the personalization block directly into the content of the OpenOffice file.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_pdf_bloc_option.png" title="s_ncs_pdf_bloc_option.png" /><p>You need to differentiate two types of declarations within the personalization block: </p> 
+    <ul> 
+     <li><p>The Adobe Campaign code of the personalization fields for which the "open" and "closed" chevrons must be replaced with escape characters (respectively &amp;lt; and &amp;gt;).</p> </li> 
+     <li><p>The entire OpenOffice XML code will be copied into the OpenOffice document.</p> </li> 
+    </ul></li> 
+  </ul> 
+  <p>In the example, the personalization block looks like this:</p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!&amp;lt;%&amp;nbsp;if&amp;nbsp;(recipient.country.label&amp;nbsp;==&amp;nbsp;"Germany")&amp;nbsp;{&amp;nbsp;%&amp;gt;!!discoiqbr!!!!discoiqbr!!&lt;draw:frame&amp;nbsp;svg:width="4cm"&amp;nbsp;svg:height="3cm"&gt;!!discoiqbr!!!!discoiqbr!!&lt;draw:image&amp;nbsp;xlink:href=https://..../logo_germany.png&amp;nbsp;/&gt;!!discoiqbr!!!!discoiqbr!!&lt;/draw:frame&gt;!!discoiqbr!!!!discoiqbr!!&amp;lt;%&amp;nbsp;}&amp;nbsp;else&amp;nbsp;!!discoiqbr!!!!discoiqbr!!if&amp;nbsp;(recipient.country.label&amp;nbsp;==&amp;nbsp;"USA")&amp;nbsp;!!discoiqbr!!!!discoiqbr!!{&amp;nbsp;%&amp;gt;!!discoiqbr!!!!discoiqbr!!&lt;draw:frame&amp;nbsp;svg:width="4cm"&amp;nbsp;svg:height="3cm"&gt;!!discoiqbr!!!!discoiqbr!!&lt;draw:image&amp;nbsp;xlink:href=https://..../logo_USA.png&amp;nbsp;/&gt;!!discoiqbr!!!!discoiqbr!!&lt;/draw:frame&gt;!!discoiqbr!!!!discoiqbr!!&amp;lt;%&amp;nbsp;}&amp;nbsp;%&amp;gt;!!discoiqbr!!!!discoiqbr!!!!discoiqbr!! 
+  </codeblock> 
+  <p>Depending on the recipient's country, personalization is visible in the document linked to the delivery:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_pdf_result.png" title="s_ncs_pdf_result.png" /> 
+ </body> 
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="About Adobe ID" name="jcr:title" />
+  <meta content="audience:integrations" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-08-06T06:59:40.276-0400" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="4bb95c11-61ce-42b3-80ef-cb219e31acf6" name="jcr:uuid" />
+  <meta content="About Adobe ID" name="jcr:description" />
+  <meta content="About Adobe ID" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="723a03f9-0fcd-42bb-9c7a-11af3a079886" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>Campaign users can connect to the Adobe Campaign console using their Adobe ID. This integration provides the following advantages:</p> 
+  <ul>
+   <li><p>The same ID can be used for all Experience Cloud solutions.</p> </li>
+   <li><p>The connection is memorized when using Adobe Campaign with different integrations.</p> </li>
+   <li><p>Securer password management policy.</p> </li>
+   <li><p>Use of Federated ID accounts (external ID provider).</p> </li>
+  </ul>
+  <p>For more information on the different types of Adobe IDs, please consult: <a href="https://helpx.adobe.com/en/enterprise/help/identity.html">https://helpx.adobe.com/en/enterprise/help/identity.html</a></p> 
+  <note>
+    The IMS implementation is strictly reserved to the Adobe technical administrators. The IMS implementation is a complex process which can take some time.
+   <br /> 
+  </note>
+ </body>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Anonymous interactions" name="navTitle" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="46bd7db4-3d29-4ab9-8852-3e86e3666123" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="bcd6ba74-0335-413b-b1c9-a33f43f8a847" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-08-06T06:59:22.156-0400" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Anonymous interactions" name="jcr:description" />
+  <meta content="Anonymous interactions" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <h2 id="targeting-and-storing-an-environment-for-anonymous-interactions">Targeting and storing an environment for anonymous interactions</h2>
+  <p>By default, Interaction comes with a pre-configured environment to target the recipient table (identified offers). If you wish to target another table (visitor table for anonymous offers or a specific recipient table), you need to use the target mapping wizard to create the environment. For more on this, see <a href="../../interaction/using/anonymous-interactions.md#creating-an-offer-environment" target="_blank">Creating an offer environment</a>. </p> 
+  <p>When you create an anonymous environment via the mapping creation wizard, the <strong>Environment dedicated to incoming anonymous interactions</strong> box is automatically checked in the environment's <strong>General</strong> tab.</p> 
+  <p>The <strong>Targeting dimension</strong> is automatically completed. By default, it links to the visitor table.</p> 
+  <p>The <strong>Visitor folder</strong> field appears. It is automatically completed to link to the <strong>Visitors</strong> folder. This field lets you choose where to store visitor profiles. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/anonymous_environment_option.png" title="anonymous_environment_option.png" />
+  <note>
+   <p> If you want to filter several types of visitors, for instance in the case of anonymous offers presented for one or more brands, you need to create an environment for each brand, and a <strong>Visitors</strong> type folder for each environment.<br /> </p> 
+  </note>
+  <h2 id="offer-catalog-for-anonymous-interactions">Offer catalog for anonymous interactions</h2>
+  <p>Just like outbound interactions, inbound interactions are organized in an offer catalog which is made up of categories and offers.</p> 
+  <p>To create categories and spaces, apply the same process as for identified visitors (refer to <a href="../../interaction/using/creating-offer-categories.md" target="_blank">Creating offer categories</a> and <a href="../../interaction/using/anonymous-interactions.md#creating-an-offer-environment" target="_blank">Creating an offer environment</a>).</p> 
+  <h2 id="anonymous-visitors">Anonymous visitors</h2>
+  <p>Anonymous visitors may be submitted to a cookie identification process when they connect. This implicit recognition is based on the visitor's browser history.</p> 
+  <p>During this step, a comparison is made between the data recovered by the cookies and those in your database. In some cases, the visitor is recognized (he is then implicitly identified), in other cases, he is not recognized (and therefore remains anonymous).</p> 
+  <p>To run this analysis, for the offer space, check the <strong>Implicitly identify the individual based on their browser history</strong> option.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/identification_anonymous_visitors.png" title="identification_anonymous_visitors.png" />
+  <h2 id="processing-unidentified-anonymous-visitors">Processing unidentified anonymous visitors</h2>
+  <p>After analysis, if an anonymous visitor is not identified, you can store their data in a given space. This will allow you to suggest offers specifically aimed at this type of visitor, matching the specified typology rules.</p> 
+  <p>If there is no element that allows you to identify a contact, or if you do not want to suggest an identified offer to a contact that can be implicitly identified, you can choose to carry out a fallback on an anonymous environment.</p> 
+  <p>To do this, check the <strong>Fall back on an anonymous environment if no individuals were identified</strong>, then specify the environment dedicated to these unidentified visitors in the <strong>Linked anonymous space</strong> when specifying an offer space.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/anonymous_to_anonymous_environment.png" title="anonymous_to_anonymous_environment.png" />
+ </body>
+</html>

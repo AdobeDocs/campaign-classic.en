@@ -1,0 +1,381 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" /> 
+  <meta content="2019-08-06T06:59:32.356-0400" name="jcr:created" /> 
+  <meta content="b6ccf606-9570-44fe-9eab-0cbc4f9fb206" name="jcr:uuid" /> 
+  <meta content="2019-07-18" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Configuring Campaign server" name="jcr:title" /> 
+  <meta content="24276fbd-cae3-46f0-99e4-ca4f3cdd068b" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="audience:installation" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Configuring Campaign server" name="jcr:description" /> 
+  <meta content="Configuring Campaign server" name="navTitle" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="seoDescription" /> 
+ </head> 
+ <body> 
+  <p>Several server side technical settings can be added or modified to match your needs and your environment specificities.</p> 
+  <note> 
+   <p> Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the <a href="../../installation/using/hosting-models.md">Hosting models</a> section or to <a href="https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html">this article</a>. The installation and configuration steps for hosted and hybrid models are presented in this <a href="../../installation/using/hosted-model.md">section</a>.<br /> </p> 
+  </note> 
+  <p>The configuration files are stored in the <strong>conf</strong> folder of the Adobe Campaign installation folder. The configuration is spread over two files:</p> 
+  <ul> 
+   <li><p><strong>serverConf.xml</strong>: general configuration for all instances. This file combines the technical parameters of the Adobe Campaign server: these are shared by all instances. The description of some of these parameters is detailed below. The different nodes and parameters and listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> </li> 
+   <li><p><strong>config- 
+      <instance>
+        .xml 
+      </instance></strong> (where <strong>instance</strong> is the name of the instance): specific configuration of the instance. If you share your server among several instances, please enter the parameters specific to each instance in their relevant file.</p> </li> 
+  </ul> 
+  <h2 id="defining-security-zones">Defining security zones</h2> 
+  <h3 id="about-security-zones">About security zones</h3> 
+  <p>Each operator needs to be linked to a zone to log on to an instance and the operator IP must be included in the addresses or address sets defined in the security zone. Security zone configuration is carried out in the configuration file of the Adobe Campaign server. </p> 
+  <p>Operators are linked to a security zone from its profile in the console (<strong>Administration &gt; Access management &gt; Operators</strong> node). Learn how to link zones to Campaign operators in <a href="../../installation/using/configuring-campaign-server.md#linking-a-security-zone-to-an-operator">this section</a>.</p> 
+  <h3 id="creating-security-zones">Creating security zones</h3> 
+  <p>A zone is defined by:</p> 
+  <ul> 
+   <li><p>one or more ranges of IP addresses (IPv4 and IPv6)</p> </li> 
+   <li><p>a technical name linked to each range of IP addresses</p> </li> 
+  </ul> 
+  <p>Security zones are interlocked, which means that defining a new zone within another zone reduces the number of operators who can log on to it while increasing the rights assigned to each operator.</p> 
+  <p>Zones must be defined during server configuration, in the <strong>serverConf.xml</strong> file. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> 
+  <p>Each zone defines rights, such as:</p> 
+  <ul> 
+   <li><p>HTTP connection rather than HTTPS</p> </li> 
+   <li><p>Error display (Java errors, JavaScript, C++, etc.)</p> </li> 
+   <li><p>Report and webApp preview</p> </li> 
+   <li><p>Authentication via login / password</p> </li> 
+   <li><p>Non-secure connection mode</p> </li> 
+  </ul> 
+  <note> 
+   <p> <strong>Each operator must be linked to a zone</strong>. If the IP address of the operator belongs to the range defined by the zone, the operator can log on to the instance.<br /> The operator's IP address may be defined in several zones. In this case, the operator receives the <strong>set</strong> of available rights for each zone.<br /> </p> 
+  </note> 
+  <p>The out-of-the-box <strong>serverConf.xml</strong> file includes three zones: <strong>public, VPN, and LAN</strong>.</p> 
+  <note> 
+   <p> <strong>The out-of-the-box configuration is secure</strong>. However, before migrating from an earlier version of Adobe Campaign, it may be necessary to temporarily reduce security in order to migrate and approve the new rules. <br /> </p> 
+  </note> 
+  <p>Example of how to define a zone in the <strong>serverConf.xml</strong> file:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;securityZone&amp;nbsp;allowDebug="false"&amp;nbsp;allowHTTP="false"&amp;nbsp;label="Public&amp;nbsp;Network"&amp;nbsp;name="public"&gt;!!discoiqbr!!&lt;subNetwork&amp;nbsp;label="All&amp;nbsp;addresses"&amp;nbsp;mask="*"&amp;nbsp;name="all"/&gt;!!discoiqbr!!!!discoiqbr!!&lt;securityZone&amp;nbsp;allowDebug="true"&amp;nbsp;allowHTTP="false"&amp;nbsp;label="Private&amp;nbsp;Network&amp;nbsp;(VPN)"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="vpn"&amp;nbsp;showErrors="true"&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;securityZone&amp;nbsp;allowDebug="true"&amp;nbsp;allowEmptyPassword="true"&amp;nbsp;allowHTTP="true"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;allowUserPassword="false"&amp;nbsp;label="Private&amp;nbsp;Network&amp;nbsp;(LAN)"&amp;nbsp;name="lan"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sessionTokenOnly="true"&amp;nbsp;showErrors="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Lan&amp;nbsp;1"&amp;nbsp;mask="192.168.0.0/16"&amp;nbsp;name="lan1"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Lan&amp;nbsp;2"&amp;nbsp;mask="172.16.0.0/12"&amp;nbsp;name="lan2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Lan&amp;nbsp;3"&amp;nbsp;mask="10.0.0.0/8"&amp;nbsp;name="lan3"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Localhost"&amp;nbsp;mask="127.0.0.1/16"&amp;nbsp;name="locahost"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Lan&amp;nbsp;(IPv6)"&amp;nbsp;mask="fc00::/7"&amp;nbsp;name="lan6"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Localhost&amp;nbsp;(IPv6)"&amp;nbsp;mask="::1/128"&amp;nbsp;name="localhost6"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/securityZone&gt;!!discoiqbr!!!!discoiqbr!!&lt;/securityZone&gt;!!discoiqbr!!&lt;/securityZone&gt; 
+  </codeblock> 
+  <p>All of the rights defining a zone are as follows:</p> 
+  <ul> 
+   <li><p><strong>allowDebug</strong>: enables a webApp to be executed in "debug" mode</p> </li> 
+   <li><p><strong>allowEmptyPassword</strong>: authorizes a connection to an instance without a password</p> </li> 
+   <li><p><strong>allowHTTP</strong>: a session can be created without using the HTTPS protocol</p> </li> 
+   <li><p><strong>allowUserPassword</strong>: the session token can have the following form " 
+     <login>
+       / 
+      <password>
+        " 
+      </password> 
+     </login></p> </li> 
+   <li><p><strong>sessionTokenOnly</strong>: the security token is not required in the connection URL</p> </li> 
+   <li><p><strong>showErrors</strong>: errors on the server side are forwarded and displayed</p> </li> 
+  </ul> 
+  <note>
+    In a zone definition, each attribute with the 
+   <strong>true</strong> value reduces security. 
+   <br /> 
+  </note> 
+  <p>When using Message Center, if there are several execution instances, you need to create an additional security zone with the <strong>sessionTokenOnly</strong> attribute defined as <strong>true</strong>, wherein only the necessary IP addresses are to be added. For more on configuring instances, refer to <a href="../../message-center/using/creating-a-shared-connection.md">this document</a>.</p> 
+  <h3 id="best-practices-for-security-zones">Best practices for security zones</h3> 
+  <p>In the definition of the <strong>lan</strong> security zone, it's possible to add an IP address mask defining technical access. This add will enable access to all the instances hosted on the server.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;securityZone&amp;nbsp;allowDebug="true"&amp;nbsp;allowEmptyPassword="false"&amp;nbsp;allowHTTP="true"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;allowUserPassword="false"&amp;nbsp;label="Private&amp;nbsp;Network&amp;nbsp;(LAN)"&amp;nbsp;name="lan"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sessionTokenOnly="true"&amp;nbsp;showErrors="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Lan&amp;nbsp;1"&amp;nbsp;mask="192.168.0.0/16"&amp;nbsp;name="lan1"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Lan&amp;nbsp;2"&amp;nbsp;mask="172.16.0.0/12"&amp;nbsp;name="lan2"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Lan&amp;nbsp;3"&amp;nbsp;mask="10.0.0.0/8"&amp;nbsp;name="lan3"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Localhost"&amp;nbsp;mask="127.0.0.1/16"&amp;nbsp;name="locahost"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Lan&amp;nbsp;(IPv6)"&amp;nbsp;mask="fc00::/7"&amp;nbsp;name="lan6"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Localhost&amp;nbsp;(IPv6)"&amp;nbsp;mask="::1/128"&amp;nbsp;name="localhost6"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;Customer&amp;nbsp;internal&amp;nbsp;IPs&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;id="internalNetwork"&amp;nbsp;mask="a.b.c.d/xx"/&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/securityZone&gt;!!discoiqbr!! 
+  </codeblock> 
+  <p>We recommend defining IP address ranges directly in the configuration file dedicated to the instance for operators who access only a specific instance.</p> 
+  <p>In the <strong>config- 
+    <instance>
+      .xml 
+    </instance></strong> file: </p> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;securityZone&amp;nbsp;name="public"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;securityZone&amp;nbsp;name="vpn"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;id="cus1"&amp;nbsp;mask="a.b.c.d/xx"/&gt;!!discoiqbr!!!!discoiqbr!! 
+  </codeblock> 
+  <h3 id="sub-networks-and-proxies-in-a-security-zone">Sub networks and proxies in a security zone</h3> 
+  <p>The <strong>proxy</strong> parameter can be used in a <strong>subNetwork</strong> element to specify proxy use in a security zone.</p> 
+  <p>When a proxy is referenced and a connection enters via this proxy (visible via the HTTP X-Forwarded-For header), the verified zone is that of the clients of the proxy and not that of the proxy.</p> 
+  <note>
+    If a proxy is configured and it is possible to override it (or it if does not exist), the IP address that will be tested will be able to be falsified. 
+   <br /> In addition, relays are now generated like proxies. You can therefore add the IP address 127.0.0.1 to the list of proxies in your security zone configuration. 
+   <br /> For example: " 
+   <subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />". 
+   <br /> 
+  </note> 
+  <p>Various cases can occur:</p> 
+  <ul> 
+   <li><p>A sub-network is directly referenced in the security zone and no proxy is configured: users of the sub-network can directly connect to the Adobe Campaign server.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/8101_proxy1.png" title="8101_proxy1.png" /></li> 
+   <li><p>A proxy is specified for a sub-network in the security zone: users from this sub-network can access the Adobe Campaign server via this proxy.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/8101_proxy2.png" title="8101_proxy2.png" /></li> 
+   <li><p>A proxy is included in a security zone sub-network: users that have access through this proxy, regardless of their origin, can access the Adobe Campaign server.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/8101_proxy3.png" title="8101_proxy3.png" /></li> 
+  </ul> 
+  <p>The IP addresses of proxies that are likely to access the Adobe Campaign server must be entered in both the <strong> 
+    <subnetwork /></strong> concerned and the first level subnetwork <strong> 
+    <subnetwork name="all" /></strong>. For example, here for a proxy whose IP address is 10.131.146.102:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;securityZone&amp;nbsp;allowDebug="false"&amp;nbsp;allowHTTP="false"&amp;nbsp;label="Public&amp;nbsp;Network"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="public"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="All&amp;nbsp;addresses"&amp;nbsp;mask="*"&amp;nbsp;name="all"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;proxy="10.131.146.102,127.0.0.1,&amp;nbsp;::1"/&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;securityZone&amp;nbsp;allowDebug="true"&amp;nbsp;allowHTTP="false"&amp;nbsp;label="Private&amp;nbsp;Network&amp;nbsp;(VPN)"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="vpn"&amp;nbsp;showErrors="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;securityZone&amp;nbsp;allowDebug="true"&amp;nbsp;allowEmptyPassword="false"&amp;nbsp;allowHTTP="true"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;allowUserPassword="false"&amp;nbsp;label="Private&amp;nbsp;Network&amp;nbsp;(LAN)"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="lan"&amp;nbsp;sessionTokenOnly="true"&amp;nbsp;showErrors="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Lan&amp;nbsp;proxy"&amp;nbsp;mask="10.131.193.182"&amp;nbsp;name="lan3"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;proxy="10.131.146.102,127.0.0.1,&amp;nbsp;::1"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;subNetwork&amp;nbsp;label="Lan&amp;nbsp;1"&amp;nbsp;mask="192.168.0.0/16"&amp;nbsp;name="lan1"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;proxy="127.0.0.1,&amp;nbsp;::1"/&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/securityZone&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/securityZone&gt;!!discoiqbr!!&lt;/securityZone&gt; 
+  </codeblock> 
+  <h3 id="linking-a-security-zone-to-an-operator">Linking a security zone to an operator</h3> 
+  <p>Once zones are defined, each operator must be linked to one of them to be able to log on to an instance and the IP address of the operator must be included in the addresses or range of addresses referenced in the zone.</p> 
+  <p>The technical configuration of the zones is carried out in the configuration file of the Campaign Server: <strong>serverConf.xml</strong>.</p> 
+  <p>Prior to this, you must start by configuring the out-of-the-box <strong>Security zone</strong> enumeration to link a label to the internal name of the zone defined in the <strong>serverConf.xml</strong> file.</p> 
+  <p>This configuration is done in the Campaign explorer:</p> 
+  <ol> 
+   <li><p>Click the <strong>Administration &gt; Platform &gt; Enumerations</strong> node.</p> </li> 
+   <li><p>Select the <strong>Security zone (securityZone)</strong> system enumeration.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/enum_securityzone.png" title="enum_securityZone.png" /></li> 
+   <li><p>For each security zone defined in the configuration file of the server, click the <strong>Add</strong> button. </p> </li> 
+   <li><p>In the <strong>Internal name</strong> field, enter the name of the zone defined in the <strong>serverConf.xml</strong> file. It corresponds to the <strong>@name</strong> attribute of the 
+     <securityzone>
+       element. Enter the label linked to the internal name in the 
+      <strong>Label</strong> field. 
+     </securityzone></p> <img alt="" captionBottom="" imageRotate="0" src="assets/enum_addsecurityvalue.png" title="enum_addSecurityValue.png" /></li> 
+   <li><p>Click OK and save the modifications.</p> </li> 
+  </ol> 
+  <p>Once the zones are defined and the <strong>Security zone</strong> enumeration is configured, you need to link each operator to a security zone:</p> 
+  <ol> 
+   <li><p>Click the <strong>Administration &gt; Access management &gt; Operators</strong> node.</p> </li> 
+   <li><p>Select the operator whom you want to link a security zone to, and click the <strong>Edit</strong> tab.</p> </li> 
+   <li><p>Go to the <strong>Access rights</strong> tab and click the <strong>Edit access parameters...</strong> link.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/zone_operator.png" title="zone_operator.png" /></li> 
+   <li><p>Select a zone from the <strong>Authorized connection zone</strong> drop-down list</p> <img alt="" captionBottom="" imageRotate="0" src="assets/zone_operator_selection.png" title="zone_operator_selection.png" /></li> 
+   <li><p>Click <strong>OK</strong> and save the modifications to apply these changes.</p> </li> 
+  </ol> 
+  <h2 id="configuring-tomcat">Configuring Tomcat</h2> 
+  <h3 id="default-port-for-tomcat">Default port for Tomcat</h3> 
+  <p> When the 8080 listening port of the Tomcat server is already busy with another application required for your configuration, you need to replace the 8080 port with a free one (8090 for instance). To change it, edit the <strong>server.xml</strong> file saved in the <strong>/tomcat-7/conf</strong> directory of the Adobe Campaign installation folder.</p> 
+  <p>Then modify the port of the JSP relay pages. To do this, change the <strong>serverConf.xml</strong> file saved in the <strong>/conf</strong> directory of the Adobe Campaign installation directory. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;serverConf&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;web&amp;nbsp;controlPort="8005"&amp;nbsp;httpPort="8090"...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;url&amp;nbsp;...&amp;nbsp;targetUrl="http://localhost:8090"...!!discoiqbr!! 
+  </codeblock> 
+  <h3 id="mapping-a-folder-in-tomcat">Mapping a folder in Tomcat</h3> 
+  <p>To define customer specific settings, you can create a <strong> user_contexts.xml</strong> file in the <strong>/tomcat-7/conf</strong> folder, which also contains the <strong>contexts.xml</strong> file. </p> 
+  <p>This file will contain the following type of information:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &amp;nbsp;&lt;Context&amp;nbsp;path='/foo'&amp;nbsp;docBase='../customers/foo'&amp;nbsp;&amp;nbsp;&amp;nbsp;crossContext='true'&amp;nbsp;debug='0'&amp;nbsp;reloadable='true'&amp;nbsp;trusted='false'/&gt;!!discoiqbr!! 
+  </codeblock> 
+  <p>If necessary, this operation can be reproduced on the server-side.</p> 
+  <h2 id="personalizing-delivery-parameters">Personalizing delivery parameters</h2> 
+  <p>The delivery parameters are defined in the <strong>serverConf.xml</strong> configuration file. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> 
+  <p>General server configuration and commands are detailed in <a href="../../installation/using/campaign-server-configuration.md" target="_blank">Campaign server configuration</a>.</p> 
+  <p>You can also carry out the following configurations depending on your needs and settings.</p> 
+  <h3 id="smtp-relay">SMTP relay</h3> 
+  <p>The MTA module acts as a native mail transfer agent for SMTP broadcast (port 25).</p> 
+  <p> It is, however, possible to replace it by a relay server if your security policy requires it. In that case, the global throughput will be the relay one (provided that the relay server throughput is inferior to the Adobe Campaign one).</p> 
+  <p>In this case, these parameters are set by configuring the SMTP server in the <strong> 
+    <relay /></strong> section. You must specify the IP address (or host) of the SMTP server used to transfer mail and its associated port (25 by default).</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;relay&amp;nbsp;address="192.0.0.3"&amp;nbsp;port="25"/&gt; 
+  </codeblock> 
+  <note>
+    This operating mode implies serious limitations on deliveries, as it can greatly reduce the throughput because of the relay server intrinsic performances (latency, bandwith...). Moreover, the capacity to qualify synchronous delivery errors (detected by analyzing SMTP traffic) will be limited, and the sending will not be possible if the relay server is not available. 
+   <br /> 
+  </note> 
+  <h3 id="mta-child-processes">MTA child processes</h3> 
+  <p>It is possible to control the population of child processes (maxSpareServers by default 2) in order to optimize broadcast performance according to the CPU power of the servers and the available network resources. This configuration is to be made in the <strong> 
+    <master /></strong> section of MTA configuration on each individual computer.</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;master&amp;nbsp;dataBasePoolPeriodSec="30"&amp;nbsp;dataBaseRetryDelaySec="60"&amp;nbsp;maxSpareServers="2"&amp;nbsp;minSpareServers="0"&amp;nbsp;startSpareServers="0"&gt; 
+  </codeblock> 
+  <p>Also refer to <a href="../../installation/using/configuring-campaign-server.md#email-sending-optimization" target="_blank">Email sending optimization</a>.</p> 
+  <h3 id="managing-outbound-smtp-traffic-with-affinities">Managing outbound SMTP traffic with affinities</h3> 
+  <p>You can improve outbound SMTP traffic through affinities with IP addresses.</p> 
+  <p>To do this, apply the following steps:</p> 
+  <ol> 
+   <li><p>Enter the affinities in the <strong> 
+      <ipaffinity /></strong>section of the <strong>serverConf.xml</strong> file.</p> <p>One affinity can have several different names: to separate them, use the <strong>;</strong> character.</p> <p>Example: </p> 
+    <codeblock gutter="true" class="syntax html">
+      &amp;nbsp;IPAffinity&amp;nbsp;name="mid.Server;WWserver;local.Server"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;IP&amp;nbsp;address="XX.XXX.XX.XX"&amp;nbsp;heloHost="myserver.us.campaign.net"&amp;nbsp;publicId="123"&amp;nbsp;excludeDomains="neo.*"&amp;nbsp;weight="5"/ 
+    </codeblock><p>To view the relevant parameters, refer to the <strong>serverConf.xml</strong> file.</p> </li> 
+   <li><p>To enable affinity selection in the drop-down lists, you need to add the affinity name(s) in the <strong>IPAffinity</strong> enumeration.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ipaffinity_enum.png" title="ipaffinity_enum.png" /> 
+    <note> 
+     <p> Enumerations are detailed in <a href="../../platform/using/managing-enumerations.md">this document</a>.<br /> </p> 
+    </note><p>You can then select the affinity to be used, as shown below for typologies:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ipaffinity_typology.png" title="ipaffinity_typology.png" /> 
+    <note> 
+     <p> You can also refer to <a href="../../installation/using/configuring-campaign-server.md#delivery-server-configuration" target="_blank">Delivery server configuration</a>.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <h2 id="outgoing-connection-protection">Outgoing connection protection</h2> 
+  <p>The default list of URLs that can be called by JavaScript codes (workflows, etc.) is limited. To allow a new URL, the administrator needs to reference a new <strong>urlPermission</strong> in the<strong> serverConf.xml</strong> file. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> 
+  <p>Three connection protection modes exist:</p> 
+  <ul> 
+   <li><p><strong>Blocking</strong>: all URLs that do not belong to the whitelist are blocked, with an error message. This is the default mode after a postupgrade.</p> </li> 
+   <li><p><strong>Permissive</strong>: all URLs that do not belong to the whitelist are allowed.</p>  </li> 
+   <li><p><strong>Warning</strong>: all non-white URLs are allowed, but the JS interpreter emits a warning, so that the administrator can collect them. This mode adds JST-310027 warning messages.</p> </li> 
+  </ul> 
+  <codeblock gutter="true" class="syntax html">
+    !!discoiqbr!!&lt;urlPermission&amp;nbsp;action="warn"&amp;nbsp;debugTrace="true"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;url&amp;nbsp;dnsSuffix="abc.company1.com"&amp;nbsp;urlRegEx=".*"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;url&amp;nbsp;dnsSuffix="def.partnerA_company1.com"&amp;nbsp;urlRegEx=".*"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;url&amp;nbsp;dnsSuffix="xyz.partnerB_company1.com"&amp;nbsp;urlRegEx=".*"&amp;nbsp;/&gt;!!discoiqbr!!&lt;/urlPermission&gt; 
+  </codeblock> 
+  <note>
+    By default, new customers' client use the 
+   <strong>blocking mode</strong>. If they need to allow a new URL, they should contact their administrator to whitelist it. 
+   <br /> Existing customers coming from a migration can use the 
+   <strong>warning mode</strong> for a while. Meanwhile they need to analyze the outbound traffic before authorizing the URLs. Once the list of authorized URLs defined, they should contact their administrator to whitelist the URLs and activate the 
+   <strong>blocking mode</strong>. 
+   <br /> 
+  </note> 
+  <h2 id="dynamic-page-security-and-relays">Dynamic page security and relays</h2> 
+  <p>By default, all dynamic pages are automatically related to the <strong>local</strong> Tomcat server of the machine whose Web module has started. This configuration is entered in the <strong> 
+    <url /></strong> section of the query relay configuration for the <strong>ServerConf.xml</strong> file. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> 
+  <p>To relay execution of the dynamic page on a <strong>remote</strong> server; if the Web module is not activated on the computer. To do this, you must replace the <strong>localhost</strong> with the name of the remote computer for JSP and JSSP, Web applications, reports and strings.</p> 
+  <p>For more on the various parameters available, refer to the <strong>serverConf.xml</strong> configuration file. </p> 
+  <p>For JSP pages, the default configuration is:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;url&amp;nbsp;relayHost="true"&amp;nbsp;relayPath="true"&amp;nbsp;targetUrl="http://localhost:8080"&amp;nbsp;urlPath="*.jsp"/&gt; 
+  </codeblock> 
+  <p>Adobe Campaign uses the following JSP pages:</p> 
+  <ul> 
+   <li><p>/nl/jsp/<strong>soaprouter.jsp</strong>: client console and Web services connections (SOAP APIs),</p> </li> 
+   <li><p>/nl/jsp/<strong>m.jsp</strong>: mirror pages,</p> </li> 
+   <li><p>/nl/jsp/<strong>logon.jsp</strong>: Web-based access to reports and to deployment of the client console,</p> </li> 
+   <li><p>/nl/jsp/<strong>s.jsp </strong> : Using viral marketing (sponsoring and social networks).</p> </li> 
+  </ul> 
+  <p>The JSSPs used for the Mobile App Channel are as follows:</p> 
+  <ul> 
+   <li><p>nms/mobile/1/registerIOS.jssp</p> </li> 
+   <li><p>nms/mobile/1/registerAndroid.jssp</p> </li> 
+  </ul> 
+  <p><strong>Example:</strong></p> 
+  <p>It's possible to prevent client machine connections from the outside. To do this, simply restrict the execution of <strong>soaprouter.jsp</strong> and only authorize the execution of mirror pages, viral links, web forms and public resources. </p> 
+  <p>The parameters are as follows: </p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;url&amp;nbsp;IPMask="&lt;IP_addresses&gt;"&amp;nbsp;deny=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hostMask=""&amp;nbsp;relayHost="true"&amp;nbsp;&amp;nbsp;relayPath="true"&amp;nbsp;&amp;nbsp;targetUrl="http://localhost:8080"&amp;nbsp;timeout=""&amp;nbsp;urlPath="*.jsp"/&gt;!!discoiqbr!!&lt;url&amp;nbsp;IPMask="&lt;IP_addresses&gt;"&amp;nbsp;deny=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hostMask=""&amp;nbsp;relayHost="true"&amp;nbsp;&amp;nbsp;relayPath="true"&amp;nbsp;&amp;nbsp;targetUrl="http://localhost:8080"&amp;nbsp;timeout=""&amp;nbsp;urlPath="*.jssp"/&gt;&amp;nbsp;!!discoiqbr!!&lt;url&amp;nbsp;IPMask=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;deny=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hostMask=""&amp;nbsp;relayHost="true"&amp;nbsp;relayPath="true"&amp;nbsp;targetUrl="http://localhost:8080"&amp;nbsp;timeout=""&amp;nbsp;urlPath="m.jsp"/&gt;!!discoiqbr!!&lt;url&amp;nbsp;IPMask=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;deny=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hostMask=""&amp;nbsp;relayHost="true"&amp;nbsp;relayPath="true"&amp;nbsp;targetUrl="http://localhost:8080"&amp;nbsp;timeout=""&amp;nbsp;urlPath="s.jsp"/&gt;!!discoiqbr!!&lt;url&amp;nbsp;IPMask=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;deny=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hostMask=""&amp;nbsp;relayHost="true"&amp;nbsp;relayPath="true"&amp;nbsp;targetUrl="http://localhost:8080"&amp;nbsp;timeout=""&amp;nbsp;urlPath="webForm.jsp"/&gt;!!discoiqbr!!&lt;url&amp;nbsp;IPMask=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;deny=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hostMask=""&amp;nbsp;relayHost="true"&amp;nbsp;&amp;nbsp;relayPath="true"&amp;nbsp;&amp;nbsp;targetUrl="http://localhost:8080"&amp;nbsp;timeout=""&amp;nbsp;urlPath="/webApp/pub*"/&gt;!!discoiqbr!!&lt;url&amp;nbsp;IPMask=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;deny=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hostMask=""&amp;nbsp;relayHost="true"&amp;nbsp;&amp;nbsp;relayPath="true"&amp;nbsp;&amp;nbsp;targetUrl="http://localhost:8080"&amp;nbsp;timeout=""&amp;nbsp;urlPath="/jssp/pub*"/&gt;!!discoiqbr!!&lt;url&amp;nbsp;IPMask=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;deny=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hostMask=""&amp;nbsp;relayHost="true"&amp;nbsp;&amp;nbsp;relayPath="true"&amp;nbsp;&amp;nbsp;targetUrl="http://localhost:8080"&amp;nbsp;timeout=""&amp;nbsp;urlPath="/strings/pub*"/&gt;!!discoiqbr!!&lt;url&amp;nbsp;IPMask=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;deny=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hostMask=""&amp;nbsp;relayHost="true"&amp;nbsp;&amp;nbsp;relayPath="true"&amp;nbsp;&amp;nbsp;targetUrl="http://localhost:8080"&amp;nbsp;timeout=""&amp;nbsp;urlPath="/interaction/pub*"/&gt;!!discoiqbr!!&lt;url&amp;nbsp;IPMask=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;deny="true"&amp;nbsp;hostMask=""&amp;nbsp;relayHost="false"&amp;nbsp;relayPath="false"&amp;nbsp;targetUrl="http://localhost:8080"&amp;nbsp;timeout=""&amp;nbsp;urlPath="*.jsp"/&gt;!!discoiqbr!!&lt;url&amp;nbsp;IPMask=""&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;deny="true"&amp;nbsp;hostMask=""&amp;nbsp;relayHost="false"&amp;nbsp;relayPath="false"&amp;nbsp;targetUrl="http://localhost:8080"&amp;nbsp;timeout=""&amp;nbsp;urlPath="*.jssp"/&gt;!!discoiqbr!! 
+  </codeblock> 
+  <p>In this example, the <strong> 
+    <ip_addresses /></strong> value coincides with the list of IP addresses (separated by comas) authorized to use the relay module for this mask.</p> 
+  <note> 
+   <p> Values shall be adapted according to your configuration and your network constraints, especially if specific configurations have been developed for your installation.<br /> </p> 
+  </note> 
+  <h2 id="restricting-authorized-external-commands">Restricting authorized external commands</h2> 
+  <note> 
+   <p> The following configuration is only required for on-premise installations.<br /> </p> 
+  </note> 
+  <p>From build 8780, technical administrators can restrict the list of authorized external commands that can be used in Adobe Campaign.</p> 
+  <p>To do that, you need to create a text file with the list of commands that you want to prevent from using, for example:</p> 
+  <codeblock gutter="true" class="syntax html">
+    ln!!discoiqbr!!dd!!discoiqbr!!openssl!!discoiqbr!!curl!!discoiqbr!!wget!!discoiqbr!!python!!discoiqbr!!python3!!discoiqbr!!perl!!discoiqbr!!ruby!!discoiqbr!!sh 
+  </codeblock> 
+  <note>
+    This list is not exhaustive. 
+   <br /> 
+  </note> 
+  <p>In the <strong>exec</strong> node of the server configuration file, you need to reference the previously created file in the <strong>blacklistFile</strong> attribute.</p> 
+  <p><strong>For Linux only</strong>: in the server configuration file, you need to specify a user dedicated to executing external commands to enhance your security configuration. This user is set in the <strong>exec</strong> node of the configuration file. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> 
+  <p>For example:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;serverConf&gt;!!discoiqbr!!&amp;nbsp;&lt;exec&amp;nbsp;user="theUnixUser"&amp;nbsp;blacklistFile="/pathtothefile/blacklist"/&gt;!!discoiqbr!!&lt;/serverConf&gt; 
+  </codeblock> 
+  <p>This user needs to be added to the sudoer list of the 'neolane' Adobe Campaign operator.</p> 
+  <h2 id="managing-http-headers">Managing HTTP headers</h2> 
+  <p>By default, all HTTP headers are not relayed. You can add specific headers in the replies sent by relay. To do this:</p> 
+  <ol> 
+   <li><p>Go to the <strong>serverConf.xml</strong> file. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> </li> 
+   <li><p>In the <strong> 
+      <relay /></strong> node, go to the list of relayed HTTP headers.</p> </li> 
+   <li><p>Add a <strong> 
+      <responseheader /></strong> element with the following attributes:</p> 
+    <ul> 
+     <li><p><strong>name</strong>: header name</p> </li> 
+     <li><p><strong>value</strong>: value name.</p> </li> 
+    </ul><p>For example:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;responseHeader&amp;nbsp;name="Strict-Transport-Security"&amp;nbsp;value="max-age=16070400;&amp;nbsp;includeSubDomains"/&gt; 
+    </codeblock></li> 
+  </ol> 
+  <h2 id="redundant-tracking">Redundant tracking</h2> 
+  <p>When multiple servers are used for redirection, they must be able to communicate with each other via SOAP calls in order to share information from the URLs to be redirected. At the time of delivery start-up, it is possible that not all the redirection servers will be available; therefore they might not have the same level of information.</p> 
+  <note> 
+   <p> When using the standard or enterprise architecture, the main application server must be authorized to upload tracking information on each computer.<br /> </p> 
+  </note> 
+  <p>The URLs of the redundant servers must be specified in the redirection configuration, via the <strong>serverConf.xml</strong> file. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> 
+  <p><strong>Example:</strong> 
+   <spareserver enabledIf="$(hostname)!='front_srv1'" id="1" url="http://front_srv1:8080" /> 
+   <spareserver enabledIf="$(hostname)!='front_srv2'" id="2" url="http://front_srv2:8080" /></p> 
+  <p>The <strong>enableIf</strong> property is optional (empty by default) and allows you to enable the connection only if the result is true; This lets you obtain an identical configuration on all redirection servers.</p> 
+  <p>To obtain the hostname of the computer, run the following command: <strong>hostname -s</strong>.</p> 
+  <h2 id="managing-public-resources">Managing public resources</h2> 
+  <p>Public resources are presented in <a href="../../installation/using/configuring-campaign-server.md#managing-public-resources" target="_blank">Managing public resources</a>.</p> 
+  <p>They are stored in the <strong>/var/res/<strong>instance</strong></strong> directory of the Adobe Campaign installation directory. </p> 
+  <p>The matching URL is: <strong>http://<strong>server</strong>/res/<strong>instance</strong></strong> where <strong>instance</strong> is the name of the tracking instance.</p> 
+  <p>You can specify another directory by adding a node to the <strong>conf-<strong> 
+     <instance /></strong>.xml</strong> file to configure storage on the server. This means adding the following lines:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;serverconf&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;shared&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dataStore&amp;nbsp;hosts="media*"&amp;nbsp;lang="fra"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;virtualDir&amp;nbsp;name="images"&amp;nbsp;path="/var/www/images"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;virtualDir&amp;nbsp;name="publicFileRes"&amp;nbsp;path="$(XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)/"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dataStore&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/shared&gt;!!discoiqbr!!&lt;/serverconf&gt; 
+  </codeblock> 
+  <p>In this case, the new URL for the public resources given in the upper part of the window of the deployment wizard should point to this folder.</p> 
+  <h2 id="high-availability-workflows-and-affinities">High availability workflows and affinities</h2> 
+  <p>You can configure several workflow servers (wfserver) and distribute them on two or more machines. If you choose this type of architecture, configure the connection mode of the load balancers according to the Adobe Campaign access.</p> 
+  <p> For access from the web, select the <strong>load balancer</strong> mode to limit connection times.</p> 
+  <p>If accessing via the Adobe Campaign console, choose <strong>hash</strong> or <strong>sticky ip</strong> mode. This lets you maintain the connection between the rich client and the server and prevent a user session from being interrupted during an import or export operation, for example.</p> 
+  <p>You can choose to force the execution of a workflow or a workflow activity on a particular machine. To do this, you must define one or more affinities for the concerned workflow or activity.</p> 
+  <ol> 
+   <li><p>Create the affinities of the workflow or activity by entering them in the <strong>Affinity</strong> field.</p> <p>You can freely choose the affinity names. Nevertheless, make sure you do not use spaces or punctuation marks. If you use different servers, specify different names.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_server_wf_affinity01.png" title="s_ncs_install_server_wf_affinity01.png" /><img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_server_wf_affinity02.png" title="s_ncs_install_server_wf_affinity02.png" /><p>The drop-down list contains formerly used affinities. It is completed over time with the different entered values.</p> </li> 
+   <li><p>Open the <strong>nl6/conf/config- 
+      <instance>
+        .xml 
+      </instance></strong> file.</p> </li> 
+   <li><p>Modify the line which matches the <strong>wfserver</strong> module as follows: </p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;wfserver&amp;nbsp;autoStart="true"&amp;nbsp;affinity="XXX,"/&gt; 
+    </codeblock><p>If you define several affinities, they must be separated by commas without any spaces:</p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;wfserver&amp;nbsp;autoStart="true"&amp;nbsp;affinity="XXX,YYY,"/&gt; 
+    </codeblock><p>The comma following the name of the affinity is necessary for the execution of workflows for which no affinity is defined.</p> <p>If you wish to execute only workflows for which an affinity is defined, do not add a comma at the end of the list of your affinities. For example, modify the line as follows: </p> 
+    <codeblock gutter="true" class="syntax html">
+      &lt;wfserver&amp;nbsp;autoStart="true"&amp;nbsp;affinity="XXX"/&gt; 
+    </codeblock></li> 
+  </ol> 
+  <h2 id="automatic-process-restart">Automatic process restart</h2> 
+  <p>By default, the different Adobe Campaign processes restart automatically at 6am (server time) every day.</p> 
+  <p>However, you can change this configuration.</p> 
+  <p>To do this, go to the <strong>serverConf.xml</strong> file, located in the <strong>conf</strong> repository of your installation. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> 
+  <p>Each process configured in this file has a <strong>processRestartTime</strong> attribute. You can modify the value of this attribute to adapt the restart time of each process according to your needs.</p> 
+  <note>
+    Do not delete this attribute. All processes must be restarted every day. 
+   <br /> 
+  </note> 
+  <h2 id="limiting-uploadable-files">Limiting uploadable files</h2> 
+  <p>A new attribute <strong>uploadWhiteList</strong> lets you restrict the file types available for upload on the Adobe Campaign server.</p> 
+  <p>This attribute is available within the <strong>dataStore</strong> element of the <strong>serverConf.xml</strong> file. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> 
+  <p>The default value of this attribute is <strong>.+</strong> and it lets you upload any file type.</p> 
+  <p>To limit the possible formats, you must replace the attribute value by a valid java regular expression. You can enter several values by separating them by a comma.</p> 
+  <p>For example: <strong>uploadWhiteList=".*.png,.*.jpg"</strong> will let you upload PNG and JPG formats on the server. No other formats will be accepted.</p> 
+  <note>
+    In Internet Explorer, the complete file path must be verified by the regular expression. 
+   <br /> 
+  </note> 
+  <h2 id="proxy-connection-configuration">Proxy connection configuration</h2> 
+  <p>If you need to connect the Campaign server to the outside through a proxy (using a file transfer workflow activity for example), you need to configure the proxyConfig section of the serverConf via a command. The following proxy connections are possible: HTTP, HTTPS, FTP, SFTP. All the parameters available in the <strong>serverConf.xml</strong> are listed in this <a href="../../installation/using/the-server-configuration-file.md">section</a>.</p> 
+  <note> 
+   <p> SOCKS proxies are not supported.<br /> </p> 
+  </note> 
+  <p>Use the following command:</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;config&amp;nbsp;-setproxy:[protocol]/[serverIP]:[port]/[login] 
+  </codeblock> 
+  <p>For example:</p> 
+  <codeblock gutter="true" class="syntax html">
+    nlserver&amp;nbsp;config&amp;nbsp;-setproxy:http/198.51.100.0:8080/user 
+  </codeblock> 
+  <p>Then enter the password.</p> 
+  <p>HTTP or FTP connections are defined in the proxyHTTP parameter:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;proxyConfig&amp;nbsp;enabled=“1”&amp;nbsp;override=“localhost*”&amp;nbsp;useSingleProxy=“0”&gt;!!discoiqbr!!&lt;proxyHTTP&amp;nbsp;address=“198.51.100.0"&amp;nbsp;login=“user”&amp;nbsp;password=“*******”&amp;nbsp;port=“8080”/&gt;!!discoiqbr!!&lt;/proxyConfig&gt; 
+  </codeblock> 
+  <p>HTTPS or SFTP connections are defined in the proxyHTTPS parameter:</p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;proxyConfig&amp;nbsp;enabled=“1"&amp;nbsp;override=“localhost*”&amp;nbsp;useSingleProxy=“0"&gt;!!discoiqbr!!&lt;proxyHTTPS&amp;nbsp;address=“198.51.100.0”&amp;nbsp;login=“user”&amp;nbsp;password=“******”&amp;nbsp;port=“8080"/&gt;!!discoiqbr!!&lt;/proxyConfig&gt; 
+  </codeblock> 
+  <p>If you use the same proxy for several connection types, only the proxyHTTP will be defined with useSingleProxy set to "1" or "true".</p> 
+  <p>If you have internal connections that should go through the proxy, add them in the override parameter.</p> 
+  <p>If you want to tempararily disable the proxy connection, set the enabled parameter to "false" or "0". </p> 
+ </body> 
+</html>

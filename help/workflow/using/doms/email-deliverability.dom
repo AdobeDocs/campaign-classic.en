@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Email Deliverability" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Email Deliverability" name="jcr:description" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="20f9b1ef-c227-4468-978d-f947b945f5ec" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-08-06T06:59:19.428-0400" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="df76b7a8-1af4-4f2b-ab47-1bba838ff55c" name="jcr:uuid" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:workflow" name="primaryAudienceTag" />
+  <meta content="Email Deliverability" name="jcr:title" />
+ </head>
+ <body>
+  <p>The workflow detailed below is installed with the <strong>Email Deliverability</strong> module by default. For more on this module, refer to this <a href="../../delivery/using/about-deliverability.md">section</a>.</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> <strong>Label</strong><br /> </td> 
+     <td> <strong>Internal name</strong><br /> </td> 
+     <td> <strong>Description</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Test network update for Inbox Rendering</strong><br /> </td> 
+     <td> <strong>updateRenderingSeeds</strong><br /> </td> 
+     <td> This workflow updates email addresses used for the Rendering Inbox and only works if the HTTPS port is open.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+ </body>
+</html>

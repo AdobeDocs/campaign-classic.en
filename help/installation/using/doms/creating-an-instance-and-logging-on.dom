@@ -1,0 +1,70 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Creating an instance and logging on" name="jcr:description" />
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Creating an instance and logging on" name="jcr:title" />
+  <meta content="17ac378a-681e-4f01-84bb-8d0ee0ee11a2" name="jcr:uuid" />
+  <meta content="audience:installation" name="primaryAudienceTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="Creating an instance and logging on" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="69abfdc7-e961-40b6-985f-f63338d5c166" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="2019-08-06T06:59:31.682-0400" name="jcr:created" />
+ </head>
+ <body>
+  <p>To create a new instance and Adobe Campaign database, apply the following process:</p> 
+  <ol>
+   <li><p>Create the connection.</p> </li>
+   <li><p>Log on to create the related instance.</p> </li>
+   <li><p>Create and configure the database.</p> </li>
+  </ol>
+  <note>
+   <p> Only the <strong>internal</strong> identifier can carry out these operations. For more on this, refer to <a href="../../installation/using/creating-an-instance-and-logging-on.md#internal-identifier" target="_blank">Internal identifier</a>.<br /> </p> 
+  </note>
+  <p>When the Adobe Campaign console is started up, you access a login page.</p> 
+  <p>To create a new instance, follow the steps below:</p> 
+  <ol>
+   <li><p>Click the link in the top right-hand corner of the credentials fields to access the connection configuration window. This link can be either <strong>New...</strong> or an existing instance name.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_define_connection_01.png" title="s_ncs_install_define_connection_01.png" /></li>
+   <li><p>Click <strong>Add &gt; Connection</strong> and enter the label and URL of the Adobe Campaign application server.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_define_connection_02.png" title="s_ncs_install_define_connection_02.png" /></li>
+   <li><p>Specify a connection to your Adobe Campaign application server via a URL. Use either a DNS or an alias of the machine, or your IP address.</p> <p> For example, you can use the <a href="https://machine">https://
+      <machine>
+       .
+       <domain>
+        .com
+       </domain>
+      </machine></a> type URL.</p> 
+    <note>
+      For the connection URL, only use the following characters: [a-z], [A-Z], [0-9] and dashes (-) or full stops.
+     <br /> 
+    </note></li>
+   <li><p>Click <strong>Ok</strong> to confirm settings: you can now begin with the instance creation process.</p> </li>
+   <li><p>In the "<strong>Connection settings</strong>" window, enter the <strong>internal</strong> login and its password to connect to the Adobe Campaign application server. Once connected, you access the instance creation wizard to declare a new instance</p> </li>
+   <li><p>In the <strong>Name</strong> field, enter the <strong>instance name</strong>. As this name is used to generate a configuration file <strong>config-<strong>
+       <instance /></strong>.xml</strong> and is used in the command line parameters to identify the instance, make sure you choose a short name without special characters. For example: <strong>eMarketing</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_install_create_instance.png" title="s_ncs_install_create_instance.png" /><p>The name of the instance added to the domain name must not exceed 40 characters. This lets you restrict the size of "Message-ID" headers and prevents messages from being considered as spam, particularly by tools such as SpamAssassin.</p> </li>
+   <li><p>In the <strong>DNS masks</strong> fields, enter the <strong>list of DNS masks</strong> to which the instance should be attached. The Adobe Campaign server uses the hostname that appears in the HTTP requests to determine which instance to reach. </p> <p>The hostname is contained between the string <strong>https://</strong> and the first slash character <strong>/</strong> of the server address.</p> <p>You can define a list of values separated by commas. </p> <p>The ? and * characters can be used as wildcards to replace one or various characters (DNS, port, etc.). For instance, the <strong>demo*</strong> value will work with "https://demo" as it will with "https://demo:8080" and even "https://demo2".</p> <p>Names used must be defined in your DNS. You can also inform the correspondence between a DNS name and an IP address in the <strong>c:/windows/system32/drivers/etc/hosts</strong> file in Windows and in the <strong>/etc/hosts</strong> file in Linux. You therefore must modify the connection settings to use this DNS name in order to connect to your chosen instance.</p> <p>The server must be identified by this name, particularly for uploading images in emails.</p> <p>In addition, the server must be able to connect to itself by this name, and if possible by a loopback address - 127.0.0.1 -, particularly to allow reports to be exported in PDF format. </p> </li>
+   <li><p>In the <strong>Language</strong> drop-down list, select the <strong>instance language</strong>: English (US), English (UK) , French, or Japanese.</p> <p>Differences between US English and UK English are described in <a href="../../platform/using/adobe-campaign-workspace.md#date-and-time">this section</a>. </p> 
+    <note>
+      The instance language cannot be modified after this step. Adobe Campaign instances are not multilingual: you cannot switch the interface from a language to another.
+     <br /> 
+    </note></li>
+   <li><p>Click <strong>Ok</strong> to confirm instance declaration. Log off and back on to declare the database.</p> 
+    <note>
+     <p> The instance can be created from the command line. For more on this, refer to <a href="../../installation/using/command-lines.md" target="_blank">Command lines</a>.<br /> </p> 
+    </note></li>
+  </ol>
+ </body>
+</html>

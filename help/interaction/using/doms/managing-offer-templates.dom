@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Managing offer templates" name="jcr:title" />
+  <meta content="Managing offer templates" name="navTitle" />
+  <meta content="audience:interaction" name="primaryAudienceTag" />
+  <meta content="2019-08-06T06:59:20.450-0400" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:interaction;content_type:reference" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Managing offer templates" name="jcr:description" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="f6323709-6806-4efc-8b63-af31802fa21d" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="a89f0a60-c22a-482a-82f6-5f68d12d069a" name="jcr:predecessors" />
+ </head>
+ <body>
+  <p>Offer templates are delivered out-of-box in Adobe Campaign. You may use them after creating your offers, duplicating them or adapting their configuration to your needs. You can also create your own templates. Template offers are stored in the folder <strong>Resources</strong> &gt; <strong>Templates</strong> &gt; <strong>Offer templates</strong>.</p> 
+  <h2 id="creating-an-offer-template">Creating an offer template</h2>
+  <p>To create a template offer, follow these steps:</p> 
+  <ol>
+   <li><p>Go to <strong>Resources</strong> &gt; <strong>Templates</strong> &gt; <strong>Offer templates</strong>.</p> </li>
+   <li><p>Click the <strong>New</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_model_001.png" title="offer_model_001.png" /></li>
+   <li><p>Configure your template by applying the same process as for a normal offer, then save it by clicking <strong>Save</strong>.</p> </li>
+  </ol>
+  <h2 id="duplicate-an-existing-template">Duplicate an existing template</h2>
+  <p>To duplicate an offer template (out-of-the-box or not), take the following steps:</p> 
+  <ol>
+   <li><p>Go to <strong>Resources &gt; Templates &gt; Offer templates</strong>.</p> </li>
+   <li><p>Using the mouse, right click on the template that you wish to duplicate and select <strong>Duplicate</strong> from the drop-down menu.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/offer_model_002.png" title="offer_model_002.png" /></li>
+   <li><p>If necessary, configure the settings you wish to see appear in the template, then save the template by clicking <strong>Save</strong>.</p> </li>
+  </ol>
+  <p>This template will now be offered when creating an offer.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/offer_modelcreated_001.png" title="offer_modelcreated_001.png" />
+ </body>
+</html>

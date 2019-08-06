@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="light" name="heroGradient" />
+  <meta content="49582cf9-e963-4747-8789-87c640fc34ab" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Image display issues" name="jcr:description" />
+  <meta content="" name="seoDescription" />
+  <meta content="Image display issues" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Image display issues" name="navTitle" />
+  <meta content="audience:production" name="primaryAudienceTag" />
+  <meta content="2019-07-18" name="publishExternalDate" />
+  <meta content="2019-08-06T06:59:03.049-0400" name="jcr:created" />
+  <meta content="6f9bd6e2-bc06-4629-9e5c-128e3015b93b" name="jcr:predecessors" />
+ </head>
+ <body>
+  <p>If you face image display issues in a sent message, reasons may be linked to bad location: </p> 
+  <ul>
+   <li><p>locations may not match, or images may not have been correctly pushed to duplicate tracking server: check your configuration.</p> </li>
+   <li><p>images may not reside in the public resource folder on the marketing instance: upload the images into your resource folder to solve the issue.</p> </li>
+   <li><p>if you work in a mid-sourcing architecture: check images are uploading without errors when proofs are sent (information is displayed in the analysis logs).</p> </li>
+  </ul>
+  <p>How to troubleshoot:</p> 
+  <ol>
+   <li><p>Send a proof that will show the images.</p> </li>
+   <li><p>Validate the resources configuration in the instance setup is correct. </p> </li>
+   <li><p>Check the public resources folder, or - if it is not in the public resources folder - the folder referenced in the delivery. </p> </li>
+  </ol>
+ </body>
+</html>

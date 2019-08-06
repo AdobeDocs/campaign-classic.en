@@ -1,0 +1,99 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Exporting data" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="a7b5c690-669e-4e73-97c1-bb1bd954f98f" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC" name="primaryProductTag" />
+  <meta content="2019-08-06T07:02:30.657-0400" name="jcr:created" />
+  <meta content="Exporting data" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Exporting data" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/CLASSIC;audience:platform;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:platform" name="primaryAudienceTag" />
+  <meta content="09ef5c35-2a49-427e-bebf-3d3050d15c42" name="jcr:predecessors" />
+  <meta content="" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-08-05" name="publishExternalDate" />
+ </head>
+ <body>
+  <h2 id="export-wizard">Export wizard</h2>
+  <p>The export parameters are recorded via a wizard. The generic export module is available as a standard, and lets you access and extract data from the database: contacts, clients, lists, segments, etc. For example, it can be useful to use campaign tracking data (tracking history, etc.) in a spreadsheet. The output data can be in txt, CSV, TAB, or XML format.</p> 
+  <h3 id="step-1---choosing-the-export-template">Step 1 - Choosing the export template</h3>
+  <p>When launching the export wizard, you first have to select a template. As an example, to configure the export of recipients who recently registered, follow the steps below:</p> 
+  <ol>
+   <li><p>Select the <strong>Profiles and Targets &gt; Job &gt; Generic imports and exports</strong> folder.</p> </li>
+   <li><p>Click <strong>New</strong> and then click <strong>Export</strong> to create the export template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_export_wizard01.png" title="s_ncs_user_export_wizard01.png" /></li>
+   <li><p>Click the arrow to the right of the <strong>Export template</strong> field to select your template, or click <strong>Select link</strong> to browse the tree.</p> <p>The native template is <strong>New text export</strong>. This template must not be modified, but you can duplicate it to configure a new template. By default, export templates are saved in the <strong>Resources &gt; Templates &gt; Job templates</strong> node.</p> </li>
+   <li><p>Enter a name for export in the <strong>Label</strong> field. You can add a description.</p> </li>
+   <li><p>Select the export type. There are two possible types of export: <strong>Simple export</strong> to export only one file, and <strong>Multiple export</strong> to export several files in a single execution, from one or more types of source document.</p> </li>
+  </ol>
+  <h3 id="step-2---type-of-file-to-export">Step 2 - Type of file to export</h3>
+  <p>Select the type of document to be exported, i.e. the schema of the data to export.</p> 
+  <p>By default, when the export is launched from the <strong>Jobs</strong> node the data comes from the recipient table. When the export is launched from a list of data (from the <strong>right click &gt; Export</strong> menu), the table to which the data belongs is automatically filled in in the <strong>Document type</strong> field.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_export_wizard02.png" title="s_ncs_user_export_wizard02.png" />
+  <ul>
+   <li><p>By default, the <strong>Download the file generated on the server after the export</strong> option is selected. In the <strong>Local file</strong> field, fill in the name and path of the file to be created, or browse your local disk by clicking the folder to the right of the field. You can deselect this option to enter the access path and name of the server output file.</p> 
+    <note>
+     <p> Automatic import and export jobs are always performed on the server.<br /> To export only some of the data, click <strong>Advanced parameters</strong> and enter the number of lines to be exported in the appropriate field.<br /> </p> 
+    </note></li>
+   <li><p>You can create a differential export to export only records that have been modified since the last execution. To do this, click the <strong>Advanced parameters</strong> link, then click the <strong>Differential export</strong> tab, then select <strong>Activate differential export</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_export_wizard02_b.png" title="s_ncs_user_export_wizard02_b.png" /><p>You must enter the date of the last modification. It can be retrieved from a field or calculated.</p> </li>
+  </ul>
+  <h3 id="step-3---defining-the-output-format">Step 3 - Defining the output format</h3>
+  <p>Select an output format for the export file. The following formats can be used: text, fixed-column text, CSV, and XML.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_export_wizard03.png" title="s_ncs_user_export_wizard03.png" />
+  <ul>
+   <li><p>For <strong>Text</strong> format, select the delimiters to separate the columns (tabs, commas, semi-colons, or custom) and the strings (single or double quotes, or none).</p> </li>
+   <li><p>For <strong>text</strong> and <strong>CSV</strong>, you can select the option <strong>Use first lines as column titles</strong>.</p> </li>
+   <li><p>Indicate the date format and number format. To do this, click the <strong>Edit</strong> button for the field concerned and use the editor.</p> </li>
+   <li><p>For fields containing enumerated values, you can select <strong>Export labels instead of internal values of enumerations</strong>. For example, the title can be stored in the form <strong>1=Mr.</strong>, <strong>2=Miss</strong>,<strong> 3=Mrs.</strong>. If this option is selected, <strong>Mr.</strong>, <strong>Miss</strong> and <strong>Mrs.</strong> will be exported.</p> </li>
+  </ul>
+  <h3 id="step-4---data-selection">Step 4 - Data selection</h3>
+  <p>Select the fields to export. To do this:</p> 
+  <ol>
+   <li><p> Double-click the desired fields in the <strong>Available fields</strong> list in order to add them to the <strong>Output columns</strong> section. </p> </li>
+   <li><p>Use the arrows to the right of the list to define the order of the fields in the output file.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_export_wizard04.png" title="s_ncs_user_export_wizard04.png" /></li>
+   <li><p>Click the <strong>Add</strong> button to call on functions. For more on this, refer to <a href="../../platform/using/exporting-data.md#list-of-functions" target="_blank">List of functions</a>.</p> </li>
+  </ol>
+  <h3 id="step-5---sorting-columns">Step 5 - Sorting columns</h3>
+  <p>Select the sorting order of the columns.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_export_wizard05.png" title="s_ncs_user_export_wizard05.png" />
+  <h3 id="step-6---filter-conditions-">Step 6 - Filter conditions</h3>
+  <p>You can add filter conditions to avoid exporting all the data. The configuration of this filtering is the same as recipient targeting in the delivery wizard. Refer to <a href="../../delivery/using/identifying-target-populations.md">this page</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_export_wizard05_b.png" title="s_ncs_user_export_wizard05_b.png" />
+  <h3 id="step-7---data-formatting">Step 7 - Data formatting</h3>
+  <p>You can modify the order and label of the fields for the output file and apply transformations to the source data.</p> 
+  <ul>
+   <li><p>To change the order of columns to be exported, select the column concerned and use the blue arrows to the right of the table.</p> </li>
+   <li><p>To change the label of a field, click in the cell of the <strong>Label</strong> column that matches the field to be modified, and enter the new label. Press Enter on the keyboard to confirm.</p> </li>
+   <li><p>To apply a case transformation to the content of a field, select it from the <strong>Transformation</strong> column. You can select:</p> 
+    <ul>
+     <li><p>Switch to lower case</p> </li>
+     <li><p>Switch to upper case</p> </li>
+     <li><p>First letter in upper case</p> </li>
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_export_wizard06.png" title="s_ncs_user_export_wizard06.png" /></li>
+   <li><p>Click <strong>Add a calculated field</strong> if you want to create a new calculated field (for example, a column containing last name + first name). For more on this, refer to <a href="../../platform/using/exporting-data.md#calculated-fields" target="_blank">Calculated fields</a>.</p> </li>
+  </ul>
+  <p>If you are exporting a collection of elements (e.g. recipients' subscriptions, the lists to which they belong, etc.), you must specify the number of elements in the collection you want to export. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_export_wizard06_c.png" title="s_ncs_user_export_wizard06_c.png" />
+  <h3 id="step-8---data-preview">Step 8 - Data preview</h3>
+  <p>Click <strong>Start the preview of the data</strong> for a preview of the export result. By default, the first 200 lines are displayed. To change this value, click the arrows to the right of the <strong>Lines to display</strong> field.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_export_wizard07.png" title="s_ncs_user_export_wizard07.png" />
+  <p>Click the tabs at the bottom of the wizard to switch from the preview of results in columns to the results in XML. You can also view the generated SQL queries.</p> 
+  <h3 id="step-9---launching-the-export">Step 9 - Launching the export</h3>
+  <p>Click <strong>Start</strong> to launch data export.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/s_ncs_user_export_wizard08.png" title="s_ncs_user_export_wizard08.png" />
+  <h2 id="exporting-data-via-a-workflow">Exporting data via a workflow</h2>
+  <p>Workflows can be a useful way to automate some of your export processes or to export precise sets of data after using some of the available data management activities available to transform your data.</p> 
+  <p>To learn more about exporting data from a workflow, refer to <a href="../../workflow/using/how-to-use-workflow-data.md">this section</a>.</p> 
+ </body>
+</html>
