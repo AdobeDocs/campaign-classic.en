@@ -13,5 +13,5 @@ internal: n
 snippet: y
 ---
 
-#  General operation{#general-operation}
+# General operation{#general-operation}
 
