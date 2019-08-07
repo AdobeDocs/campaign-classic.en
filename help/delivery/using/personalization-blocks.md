@@ -105,11 +105,7 @@ A list of personalization blocks is available by default to help you personalize
 * **Unsubscription link**: inserts a link enabling to unsubscribe from all deliveries (blacklist). 
 * **Formatting function for proper nouns**: generates the **toSmartCase** Javascript function, which changes the first letter of each word to uppercase. This block must be inserted in the source code of the delivery, into **`<script></strong>...<strong></script>`** tags.
 
-  In the example below, the function is used to replace the
-
-  #  element "My header" by "My new header" with uppercase letters at each word:
-
-  {#element-my-header-by-my-new-header-with-uppercase-letters-at-each-word}
+  In the example below, the function is used to replace the element "My header" by "My new header" with uppercase letters at each word:
 
   ```
   <h1 id="sample">My header</h1>

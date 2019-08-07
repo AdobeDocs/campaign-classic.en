@@ -263,19 +263,19 @@ The **SMTP sending statistics** report lets you control server activity. It disp
 The list of indicators for this report is shown below the chart.
 
 1. Total number of messages sent.
-1. - Blue line: messages ready for sending which arrived in the Shaper, i.e. last stage before sending SMTP (coincides with the incoming data).
+1. * Blue line: messages ready for sending which arrived in the Shaper, i.e. last stage before sending SMTP (coincides with the incoming data).
 
-   - Green line: messages successfully sent (coincides with the outgoing data).
+* Green line: messages successfully sent (coincides with the outgoing data).
 
-   - Red line: messages abandoned by the Shaper, returned to the **mta** (coincides with the data rejected on this recovery).
+* Red line: messages abandoned by the Shaper, returned to the **mta** (coincides with the data rejected on this recovery).
 
    These values are expressed in number of messages per hour. 
 
 1. Represents two queues of the Shaper:
 
-   - Blue curve: queue of active messages. These messages will be sent as soon as possible.
+   * Blue curve: queue of active messages. These messages will be sent as soon as possible.
 
-   - Kaki curve: the 'deferred' queue. These messages cannot be returned for the moment due to throttling or because no connection to the target is available. Retries will take place every 5s, 10s, 20s, 40s, 2 min, etc. for the defined **MaxAgeSec** time before being abandoned. 
+   * Kaki curve: the 'deferred' queue. These messages cannot be returned for the moment due to throttling or because no connection to the target is available. Retries will take place every 5s, 10s, 20s, 40s, 2 min, etc. for the defined **MaxAgeSec** time before being abandoned. 
 
 1. This charts shows a detail of abandoned messages (red curve on the 2nd chart): it shows the proportion of messages abandoned without retries (mauve) compared with messages whose sending failed (red). This lets you view the proportion of messages not processed within the granted period due to limitations by the statistics server (throttling) or due to remote server unavailability. 
 1. SMTP connections open or being opened.
