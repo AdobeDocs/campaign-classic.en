@@ -173,7 +173,7 @@ To do this, execute the following command:
 >* Your script might be called **httpd** instead of **apache**.
 >* You MUST execute this command until you obtain the following reply: 
 >
->  This operation is required in order for Apache to apply the new library.
+>This operation is required in order for Apache to apply the new library.
 >
 
 Then restart Apache:
@@ -205,7 +205,6 @@ There are two ways of viewing the synchronization result:
   If the warning concerns a conflict of resources, user attention is required to resolve it.
 
 * The **postupgrade_ `<server number="" version="">  _  <time of="" postupgrade="">.log</time> </server>`** log file contains the synchronization result. It is available by default in the following directory: ** `<installation directory="" strong="" var="">  . Errors and warnings are indicated by the  <strong>error</strong> and  <strong>warning</strong> attributes. </installation>`**
-  ** **
 
 ### Resolving conflicts {#resolving-conflicts}
 
