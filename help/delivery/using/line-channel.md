@@ -38,7 +38,7 @@ The steps for using the LINE channel are:
 
 >[!NOTE]
 >
->Before creating a LINE account and external account, you first need to install the LINE package on your instance. For more information on this, consult the [LINE](/installation/using/installing-campaign-standard-packages.md#line-package) section in the Installation guide.
+>Before creating a LINE account and external account, you first need to install the LINE package on your instance. For more information on this, consult the [LINE](../../installation/using/installing-campaign-standard-packages.md#line-package) section in the Installation guide.
 
 You must first create a LINE account, so that you can then link it to Adobe Campaign. Then, you can send LINE messages to the users that have added your LINE account in their mobile application. External accounts and LINE account can only be managed by the functional administrator of the platform.
 

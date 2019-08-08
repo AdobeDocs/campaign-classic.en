@@ -330,4 +330,4 @@ Standard packages are installed when the Adobe Campaign is configured. Depending
 
 Refer to your license agreement to check which packages you can install.
 
-For more information on standard packages, refer to [this page](/installation/using/installing-campaign-standard-packages.md).
+For more information on standard packages, refer to [this page](../../installation/using/installing-campaign-standard-packages.md).

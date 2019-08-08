@@ -234,7 +234,7 @@ The packages are now installed.
    <td> Integration with Adobe Marketing Cloud<br /> </td> 
    <td> Enables you to import and export audiences/segments from different Adobe Marketing Cloud solutions into Adobe Campaign. </td> 
    <td> Yes </td> 
-   <td> <a href="/Integrations/using/configuring-ims.md#installing-the-package">Learn More</a> </td> 
+   <td> <a href="../../integrations/using/configuring-ims.md#installing-the-package">Learn More</a> </td> 
   </tr> 
   <tr> 
    <td> General Data Protection Regulation (GDPR)<br /> </td> 
