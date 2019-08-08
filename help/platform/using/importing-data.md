@@ -37,7 +37,7 @@ The import wizard lets you configure the import, define its options (such as dat
 >[!NOTE]
 >
 >If you use an IIS Web server, a configuration may be necessary to authorize uploading large files (>28 MB).  
->For more information, refer to [this section](/installation/using/integration-into-a-web-server.md#changing-the-upload-file-size-limit).
+>For more information, refer to [this section](../../installation/using/integration-into-a-web-server-for-windows.md#changing-the-upload-file-size-limit).
 
 ### Step 1 - Choosing the import template {#step-1---choosing-the-import-template}
 
