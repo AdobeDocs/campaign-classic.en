@@ -14,7 +14,7 @@ index: n
        + [Release 19.1 - Build 9026](rn/using/release-19-1-build-9026.md)
        + [Release 18.10.5 - Build 8984](rn/using/release-18-10-5-build-8984.md)
        + [Release 18.10.4 - Build 8983](rn/using/release-18-10-4-build-8983.md)
-       + [Release 18.10.3 - Build 8981](rn/using/release-18-10.3-build-8981.md)
+       + [Release 18.10.3 - Build 8981](rn/using/release-18-10-3-build-8981.md)
        + [Release 18.10.2 - Build 8978](rn/using/release-18-10-2-build-8978.md)
        + [Release 18.10 - Build 8977](rn/using/release-18-10-build-8977.md)
        + [Release 18.6.2 - Build 8949](rn/using/release-18-6-2-build-8949.md)
@@ -612,7 +612,6 @@ index: n
        + [About schema reference](configuration/using/about-schema-reference.md)
        + [Schema structure](configuration/using/schema-structure.md)
        + [Database mapping](configuration/using/database-mapping.md)
-       + [Elements and attributes](configuration/using/elements-and-attributes.md)
   + Editing schemas {#editing-schemas}
        + [About schema edition](configuration/using/about-schema-edition.md)
        + [Data schemas](configuration/using/data-schemas.md)
