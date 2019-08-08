@@ -354,7 +354,7 @@ The expression editor looks like this:
 ![](assets/s_ncs_user_filter_define_expression.png)
 
 It lets you select fields in the database tables and add advanced functions to them. The following functions are available:
-
+<!--
 1. Aggregates
 
 <table> 
@@ -1670,4 +1670,4 @@ It lets you select fields in the database tables and add advanced functions to t
   </tr> 
  </tbody> 
 </table>
-
+-->
