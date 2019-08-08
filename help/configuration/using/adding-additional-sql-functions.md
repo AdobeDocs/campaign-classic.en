@@ -138,7 +138,7 @@ The **@name** field refers the name of the function, and "args" is the list of p
   >
   >If only one or two databases are likely to be queried by the function defined, we can always provide only the definitions corresponding to these databases.
 
-## 'Pass-through' function descriptor {#-pass-through--function-descriptor}
+## 'Pass-through' function descriptor {#pass-through--function-descriptor}
 
 A special function descriptor is the ** "pass-through"** block, with an unspecified "provider" database system. In this case, "body" implementation can only contain a single function call with a syntax that is not dependent on the database used. Meanwhile, the "ProviderPart" block is unique.
 

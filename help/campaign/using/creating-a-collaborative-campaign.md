@@ -18,7 +18,7 @@ snippet: y
 
 The central entity creates collaborative campaigns from **Distributed Marketing** campaign templates. Refer to [this page](../../campaign/using/about-distributed-marketing.md#collaborative-campaign).
 
-## Creating a collaborative campaign {#-creating-a-collaborative-campaign}
+## Creating a collaborative campaign {#creating-a-collaborative-campaign}
 
 To configure a collaborative campaign, click the **Campaign management > Campaigns** node, then the **New** icon.
 
@@ -104,7 +104,7 @@ The local entity can delete certain contacts based on the campaign content.
 
 To create a simple collaborative campaign, the **Collaborative campaign (simple)** template must be selected.
 
-## Creating a collaborative campaign package {#-creating-a-collaborative-campaign-package}
+## Creating a collaborative campaign package {#creating-a-collaborative-campaign-package}
 
 To make a campaign available to local entities, the central entity must create a campaign package.
 

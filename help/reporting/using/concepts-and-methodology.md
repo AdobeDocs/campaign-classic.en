@@ -24,7 +24,7 @@ Binning enables you to simplify data display by grouping values according to cri
 Overall, three types of binning are available:
 
 1. Using manually defined value ranges. For instance, age, average shopping cart, number of deliveries opened, etc.). For more on this, refer to [Defining each bin](../../reporting/using/concepts-and-methodology.md#defining-each-bin).
-1. Dynamically, depending on the values of an enumeration: only display the values contained in the enumeration, all other values are grouped in 'Others'. For more on this, refer to [Dynamically managing bins](../../reporting/using/concepts-and-methodology.md#-dynamically-managing-bins).
+1. Dynamically, depending on the values of an enumeration: only display the values contained in the enumeration, all other values are grouped in 'Others'. For more on this, refer to [Dynamically managing bins](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 1. Using value ranges, all others being grouped together. For instance, 18 to 25 year-olds, 26 to 59 year-olds, and the others. For more on this, refer to [Creating value ranges](../../reporting/using/concepts-and-methodology.md#creating-value-ranges).
 
 To enable binning, check the appropriate box when creating the dimension.
@@ -55,7 +55,7 @@ In the example below, all email domains that start with **yahoo** (yahoo.fr, yah
 
 ![](assets/s_advuser_cube_class_03b.png)
 
-### Dynamically managing bins {#-dynamically-managing-bins}
+### Dynamically managing bins {#dynamically-managing-bins}
 
 Values can be managed dynamically via enumerations. This means that only the values contained in the enumeration will be displayed. When the enumeration values change, the content of the Cube is adapted automatically.
 

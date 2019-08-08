@@ -90,7 +90,7 @@ Click the **Add** button to create a new dimension, then in the **Expression fie
 
   Only the values in the enumeration will be displayed. The others will be grouped under the label defined in the **Label of the other values** field.
 
-  For more on this, refer to [Dynamically managing bins](../../reporting/using/creating-indicators.md#-dynamically-managing-bins).
+  For more on this, refer to [Dynamically managing bins](../../reporting/using/creating-indicators.md#dynamically-managing-bins).
 
 ## Building indicators {#building-indicators}
 

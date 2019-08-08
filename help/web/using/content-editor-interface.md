@@ -17,7 +17,7 @@ snippet: y
 
 # Content editor interface{#content-editor-interface}
 
-## Editing window {#-editing-window}
+## Editing window {#editing-window}
 
 The DCE editing window is broken down into three different sections. They let you view, modify and check the state of the content.
 

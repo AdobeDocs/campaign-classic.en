@@ -1522,14 +1522,14 @@ Here are the different parameters of the **mta** node. This is the configuration
   <tr> 
    <td> statServerAddress<br /> </td> 
    <td> Address of the delivery statistics server, given as 
-    <dns ip="" or="">
+    &lt;dns ip="" or="">
       [: 
-     <port>
+     &lt;port>
        ]. See 
       <a href="../../installation/using/the-server-configuration-file.md#coordinates-of-the-statistics-server" target="_blank">Coordinates of the statistics server</a>. 
       <br /> 
-     </port> 
-    </dns></td> 
+     &lt;/port> 
+    &lt;/dns></td> 
    <td> String<br /> </td> 
    <td> If not defined, the default port is 7777.<br /> </td> 
   </tr> 
