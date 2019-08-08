@@ -98,7 +98,7 @@ If you wish to add functions to several different groups, you can make several `
 
 Finally, a `<group>`  element can contain the definition of one or several functions, that is the purpose of the package file. The  `<function>`   element is detailed in the following paragraph.
 
-## Function descriptor <function></function> {#function-descriptor--function-}
+## Function descriptor &lt;function>&lt;/function> {#function-descriptor--function-}
 
 The case presented here is a general case whereby we wish to provide the **function implementation**.
 
