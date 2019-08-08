@@ -586,7 +586,7 @@ The context of the form can be updated when initializing and closing the form vi
 
 >[!NOTE]
 >
->The <enter>  and  <leave>   tags can be used on the   <container>    of pages ("notebook" and "iconbox" types).
+>The `<enter>`  and  `<leave>`   tags can be used on the   `<container>`    of pages ("notebook" and "iconbox" types).
 
 ### Expression language {#expression-language-}
 
