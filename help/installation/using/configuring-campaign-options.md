@@ -651,7 +651,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
     <ul> 
      <li> <p><strong>Data type:</strong> Integer</p> </li> 
      <li> <p><strong>Value (text)</strong>: 1 </p> </li> 
-    </ul> This option should only be used if the out-of-the-box navigation tree has undergone too many changes.<br /> For more on this, refer to <a href="../../migration/using/specific-configurations-in-v5_11.md#adobe-campaign-v7-tree-structure">this section</a>.<br /> </td> 
+    </ul> This option should only be used if the out-of-the-box navigation tree has undergone too many changes.<br /> For more on this, refer to <a href="../../migration/using/specific-configurations-in-v5-11.md#adobe-campaign-v7-tree-structure">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>NmsLastErrorStatCoalesce</strong><br /> </td> 

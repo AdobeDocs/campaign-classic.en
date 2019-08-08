@@ -21,7 +21,7 @@ Here are the installation and configuration steps that apply to hybrid hosting m
 * Configuring transactional messages: refer to this [section](../../message-center/using/transactional-messaging-architecture.md).
 * Configuring tracking and mirror page URLs per brand. For transactional messages, refer to this [section](../../message-center/using/configuring-multibranding.md).
 * Installing the client console: refer to this [section](../../installation/using/installing-the-client-console.md).
-* Installing packages: refer to this [section](/installation/using/installing-packages.md).
+* Installing packages: refer to this [section](/installation/using/installing-campaign-standard-packages.md).
 * Deliverability: configuring [MX rules](../../installation/using/email-deliverability.md#mx-configuration) and [email formats](../../installation/using/email-deliverability.md#managing-email-formats). Learn more on the deliverability tools and best practices by reading the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and [detailed documentation](../../delivery/using/about-deliverability.md).
 * Configuring Campaign options: refer to this [section](../../installation/using/configuring-campaign-options.md).
 * Configuring an external database (FDA): refer to this [section](../../platform/using/accessing-an-external-database.md).

@@ -156,7 +156,7 @@ The file is **nlserver6-v7-XXX.rpm**
 
 >[!NOTE]
 >
->Full installation procedures are detailed in [this section](/installation/using/installing-packages.md). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolving upgrade conflicts](../../production/using/upgrading.md#resolving-upgrade-conflicts).
+>Full installation procedures are detailed in [this section](/installation/using/installing-campaign-standard-packages.md). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolving upgrade conflicts](../../production/using/upgrading.md#resolving-upgrade-conflicts).
 
 ### Reboot the web server {#reboot-the-web-server}
 
