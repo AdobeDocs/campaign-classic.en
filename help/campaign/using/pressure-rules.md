@@ -378,8 +378,6 @@ Considering that an email has already been sent to the concerned recipients earl
    <th> Delivery status<br /> </th> 
    <th> Delivery sent (date/time)<br /> </th> 
   </tr> 
-  <tr></tr> 
-  <tr></tr> 
  </thead> 
  <tbody> 
   <tr> 
