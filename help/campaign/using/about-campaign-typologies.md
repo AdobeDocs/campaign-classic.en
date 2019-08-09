@@ -9,7 +9,6 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
 content-type: reference
 discoiquuid: 9a4137fe-a317-448c-8663-1f718bab36cb
-index: y
 internal: n
 snippet: y
 ---
