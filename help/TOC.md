@@ -7,7 +7,7 @@ index: n
 
 # Adobe Campaign Classic Help {#using}
 
-
++ [Product documentation](campaign-classic-home.md)
 + Release Notes {#release-notes}
   + Latest Release notes {#latest-release-notes}
        + [Release 19.1.2 - Build 9029](rn/using/release-19-1-2-build-9029.md)
