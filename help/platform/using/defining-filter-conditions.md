@@ -354,7 +354,7 @@ The expression editor looks like this:
 ![](assets/s_ncs_user_filter_define_expression.png)
 
 It lets you select fields in the database tables and add advanced functions to them. The following functions are available:
-<!--
+
 1. Aggregates
 
 <table> 
@@ -367,76 +367,48 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>Avg</strong><br /> </td> 
    <td> Returns the average of a number type column<br /> </td> 
-   <td> Avg(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Avg(&lt;value>)</td> 
   </tr> 
   <tr> 
    <td> <strong>Count</strong><br /> </td> 
    <td> Counts the non-null values of a column<br /> </td> 
-   <td> Count(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Count(&lt;value>)</td> 
   </tr> 
   <tr> 
    <td> <strong>CountAll</strong><br /> </td> 
    <td> Counts the values returned (all fields)<br /> </td> 
-   <td> CountAll()<br /> </td> 
+   <td> CountAll()</td> 
   </tr> 
   <tr> 
    <td> <strong>Countdistinct</strong><br /> </td> 
    <td> Counts the distinct non-null values of a column<br /> </td> 
-   <td> Countdistinct(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Countdistinct(&lt;value>)</td> 
   </tr> 
   <tr> 
    <td> <strong>Max</strong><br /> </td> 
    <td> Returns the maximum value of a number, string, or date type column<br /> </td> 
-   <td> Max(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Max(&lt;value>)</td> 
   </tr> 
   <tr> 
    <td> <strong>Min</strong><br /> </td> 
    <td> Returns the minimum value of a number, string or date type column<br /> </td> 
-   <td> Min(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Min(&lt;value>)</td> 
   </tr> 
   <tr> 
    <td> <strong>StdDev</strong><br /> </td> 
    <td> Returns the standard deviation of a number, string or date column<br /> </td> 
-   <td> StdDev(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> StdDev(&lt;value>)</td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
    <td> Returns the sum of the values of a number, string, or date type column<br /> </td> 
-   <td> Sum(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Sum(&lt;value>)</td> 
   </tr> 
  </tbody> 
 </table>
 
 1. String
-
+<!--
 <table> 
  <tbody> 
   <tr> 
