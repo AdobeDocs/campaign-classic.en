@@ -1,0 +1,57 @@
+---
+title: Campaign
+seo-title: Campaign
+description: Campaign
+seo-description: 
+page-status-flag: never-activated
+uuid: 9e5cf203-e5e9-4383-b628-aa6f131491e0
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: workflow
+content-type: reference
+topic-tags: technical-workflows
+discoiquuid: de892ec4-c378-4b22-875e-aa9345f82552
+index: y
+internal: n
+snippet: y
+---
+
+# Campaign{#campaign}
+
+The workflows detailed below are installed with the **Campaign** module by default. For more on this module, refer to this [section](https://helpx.adobe.com/campaign/classic/campaign/using/designing-marketing-campaigns.html).
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Label</strong><br /> </td> 
+   <td> <strong>Internal name</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Cost calculation</span> <br /> </td> 
+   <td> <span class="uicontrol">budgetMgt</span> <br /> </td> 
+   <td> This workflow starts the calculation of expense and cost lines on the budgets, plans, programs, campaigns, deliveries and tasks.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Stock: Orders and alerts</span> <br /> </td> 
+   <td> <span class="uicontrol">stockMgt</span> <br /> </td> 
+   <td> This workflow starts calculating stocks for control lines and alert thresholds.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Jobs on deliveries in campaigns</span> <br /> </td> 
+   <td> <span class="uicontrol">deliveryMgt</span> <br /> </td> 
+   <td> This workflow triggers the approved deliveries and starts post-processing the service provider for an external delivery.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Campaign jobs</span> <br /> </td> 
+   <td> <span class="uicontrol">operationMgt</span> <br /> </td> 
+   <td> This workflow manages the jobs for marketing campaigns (launches targeting, file extraction, etc.). It also creates workflows related to recurring and periodic campaigns.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Jobs on service providers</span> <br /> </td> 
+   <td> <span class="uicontrol">supplierMgt</span> <br /> </td> 
+   <td> This workflow starts processing the provider (email to the router and post-processing) once deliveries have been approved. <br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
+

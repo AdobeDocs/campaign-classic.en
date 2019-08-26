@@ -1,0 +1,82 @@
+---
+title: Deliveries
+seo-title: Deliveries
+description: Deliveries
+seo-description: 
+page-status-flag: never-activated
+uuid: d323eb4d-937b-4b37-8400-942336f0a1b4
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: workflow
+content-type: reference
+topic-tags: technical-workflows
+discoiquuid: 37612f62-68c0-4f73-a9a1-6d017aab862f
+index: y
+internal: n
+snippet: y
+---
+
+# Deliveries{#deliveries}
+
+The workflows detailed below are installed by default.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Label</strong><br /> </td> 
+   <td> <strong>Internal name</strong><br /> </td> 
+   <td> <strong>Description</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Reporting aggregates</span> <br /> </td> 
+   <td> <span class="uicontrol">reportingAggregates</span> <br /> </td> 
+   <td> This workflow updates aggregates used in reports. It is triggered every day at 2am by default.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Billing</span> <br /> </td> 
+   <td> <span class="uicontrol">billing</span> <br /> </td> 
+   <td> This workflow sends the system activity report to the 'billing' operator by email. It is triggered the 25th of every month by default.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Number of active billing profiles</span> <br /> </td> 
+   <td> <span class="uicontrol">billingActiveContactCount</span> <br /> </td> 
+   <td> This wokflow counts the number of active profiles. It is triggered every night at 1am by default.<br /> “<strong>Profile</strong>” means a record of information (e.g.: a record in the nmsRecipient table or an external table containing a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel) representing an end-customer, prospect, or lead. Billing only concerns Profiles that are “active”. A Profile is considered “active” if the Profile has been targeted or communicated within the past 12 months via any channel.<br /> Facebook and Twitter channels are not taken into account.<br /> You can have an overview of the <span class="uicontrol">Number of active profiles</span> from the <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Campaign Management</span> &gt; <span class="uicontrol">Customer metrics</span> menu.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Alias cleansing</span> <br /> </td> 
+   <td> <span class="uicontrol">aliasCleansing</span> <br /> </td> 
+   <td> This workflow standardizes enumeration values. It is triggered every day at 3am by default.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Update for deliverability</span> <br /> </td> 
+   <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
+   <td> This workflow lets you create the list of bounce mail qualification rules, as well as the list of domains and MXs in the platform. This workflow only works if the HTTPS port is open. These lists are not updated unless the Deliverability module is installed.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Database cleanup</span> <br /> </td> 
+   <td> <span class="uicontrol">cleanup</span> <br /> </td> 
+   <td> This workflow is the database maintenance workflow: it makes different calculations from the statistics and processes, and deletes obsolete data from the database according to the defined configuration in the deployment assistant. It is triggered every day at 4am by default.<br /> For more information, refer to this <a href="https://helpx.adobe.com/campaign/classic/production/using/database-cleanup-workflow.html">page</a>.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Paused workflows cleanup</span> <br /> </td> 
+   <td> <span class="uicontrol">cleanupPausedWorkflows</span> <br /> </td> 
+   <td> This workflow analyzes paused workflows that have severity set to normal and triggers warnings and notifications when they have been paused for too long. After a month, paused technical workflows are stopped unconditionally. By default, it is triggered every Monday at 5 am.<br /> For more information, refer to <a href="https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#handling-of-paused-workflows" target="_blank">Handling of paused workflows</a>. </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Offer notification</span> <br /> </td> 
+   <td> <span class="uicontrol">offerMgt</span> <br /> </td> 
+   <td> This workflow deploys approved offers onto the online environment, as well as every category contained in the offer catalog.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Preview</span> <br /> </td> 
+   <td> <span class="uicontrol">forecasting</span> <br /> </td> 
+   <td> This workflow analyzes deliveries saved in the provisional calendar (creates provisional logs). It is triggered every day at 1am by default.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Tracking</span> <br /> </td> 
+   <td> <span class="uicontrol">tracking</span> <br /> </td> 
+   <td> This workflow performs the recovery and consolidation of tracking information. It also assures the recalculation of tracking and delivery statistics, especially those used by Message Center archiving workflows. By default, it is triggered once per hour. <br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
+

@@ -1,0 +1,47 @@
+---
+title: About content management
+seo-title: About content management
+description: About content management
+seo-description: 
+page-status-flag: never-activated
+uuid: f5f4b666-239c-423a-81aa-a50902224d41
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: delivery
+content-type: reference
+topic-tags: content-management
+discoiquuid: 9f4e8d10-7387-4716-aa85-a6b012ad14ef
+index: y
+internal: n
+snippet: y
+---
+
+# About content management{#about-content-management}
+
+Adobe Campaign Content Manager module is used to create recurrent newsletters or website.
+
+It can help you to create, validate, and publish your messages.
+
+Content management incorporates working group, workflow and content aggregation functionality. This allows a message to be formatted automatically: email, mail, SMS, web, etc.
+
+Using content manager in a delivery lets you offer input or selection fields to the operators in charge of content creation. The layout and display of this content as well as any changes made are managed automatically using the stylesheet.
+
+![](assets/s_ncs_content_create_content_sample.png)
+
+>[!CAUTION]
+>
+>All changes made to the stylesheet are implemented at delivery level based on the content templates used.
+
+Content management provides the following advantages:
+
+* Structured message editing via input interfaces,
+* Separation of data content and how it is presented (generated in XML format),
+* Document generation in multiple formats (html, txt, XML, etc.) based on stylesheets to guarantee compliance with graphical charters,
+* Recovery and automatic aggregation of external content flows,
+* Collaboration with workflow for data validation and checking.
+
+This mode of content creation does however involve a few constraints; including in particular:
+
+* Restricted freedom concerning the final document design,
+* The analysis of requirements must be rigorous so that end users will not be inconvenienced by a missing function.
+
