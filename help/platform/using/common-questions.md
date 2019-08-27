@@ -22,55 +22,55 @@ snippet: y
 
 Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also [watch introducing videos](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) and read out Campaign [Getting started guides](https://helpx.adobe.com/campaign/classic/platform/using/tutorials.html#step-by-step-guides) to learn key concepts. Cannot find the answer? [Ask the Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/campaign).
 
-### 1. How can I upgrade Campaign to the latest version? {#1--how-can-i-upgrade-campaign-to-the-latest-version-}
+### 1. How can I upgrade Campaign to the latest version? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
 As an administrator, you can perform a build upgrade to a new version, or request it to Adobe - depending if your instance is hosted or not.
 
 [Click here to learn how to update your environment](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) and read common questions on this specific subject.
 
-### 2. What is the database cleanup workflow? {#2--what-is-the-database-cleanup-workflow-}
+### 2. What is the database cleanup workflow? {#what-is-the-database-cleanup-workflow-}
 
 The database cleanup workflow deletes obsolete data to avoid exponential growth of the database. This built-in technical workflow is triggered automatically without user intervention. It is accessible via the **[!UICONTROL Administration > Production > Technical workflows]** node of Campaign Explorer.
 
 [Click here to learn more](https://helpx.adobe.com/campaign/classic/production/using/database-cleanup-workflow.html) about database cleanup workflow.
 
-### 3. How can I configure security zones? {#3--how-can-i-configure-security-zones-}
+### 3. How can I configure security zones? {#how-can-i-configure-security-zones-}
 
 The Security Zones self-service interface can be used to manage entries in the VPN Security Zone configuration of an Adobe Campaign Classic deployment. Read out [this section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#defining-security-zones) to learn about security zones in Campaign.
 
 [Click here to learn more](https://helpx.adobe.com/campaign/kb/configuring-security-zones-self-service.html) about Security Zone self-service UI.
 
-### 4. How can I make sure my delivery is sent without errors? {#4--how-can-i-make-sure-my-delivery-is-sent-without-errors-}
+### 4. How can I make sure my delivery is sent without errors? {#how-can-i-make-sure-my-delivery-is-sent-without-errors-}
 
 Adobe Campaign comes with a set of dashboards and tools to monitor your email deliveries.
 
 [Click here to learn](https://helpx.adobe.com/campaign/classic/delivery/using/monitoring-a-delivery.html) how to make sure your messages are being sent, monitor the execution and engage action if an error occurs.
 
-### 5. Can I monitor workflow execution? {#5--can-i-monitor-workflow-execution-}
+### 5. Can I monitor workflow execution? {#can-i-monitor-workflow-execution-}
 
 Understand how to monitor Campaign workflow execution [in this page](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html).
 
-### 6. How can I connect to Campaign Classic? {#6--how-can-i-connect-to-campaign-classic-}
+### 6. How can I connect to Campaign Classic? {#how-can-i-connect-to-campaign-classic-}
 
 To connect to Adobe Campaign Classic, you need to launch Adobe Campaign client console and enter your login and password to your instance.
 
 [Click here to learn more](https://helpx.adobe.com/campaign/classic/platform/using/launching-adobe-campaign.html).
 
-### 7. Which systems and components Campaign Classic is compatible with? {#7--which-systems-and-components-campaign-classic-is-compatible-with-}
+### 7. Which systems and components Campaign Classic is compatible with? {#which-systems-and-components-campaign-classic-is-compatible-with-}
 
 You can get the list of all systems and components supported for the latest build of Campaign in [Adobe Campaign Classic Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
-### 8. Where are Campaign Classic release notes? {#8--where-are-campaign-classic-release-notes-}
+### 8. Where are Campaign Classic release notes? {#where-are-campaign-classic-release-notes-}
 
 You can access latest Campaign Classic release notes [in this page](https://docs.campaign.adobe.com/doc/AC/en/RN.html).
 
-### 9. What is the procedure for domain delegation? {#9--what-is-the-procedure-for-domain-delegation-}
+### 9. What is the procedure for domain delegation? {#what-is-the-procedure-for-domain-delegation-}
 
 Within the framework of its Adobe Campaign Cloud Marketing offer, Adobe takes account of the Domain Name System (DNS) for email delivery, which allows the client to keep their brand image by using a DNS alias with its domain names, and Adobe to autonomously implement all the technical best practices that allow it to optimize deliverability during emailing.
 
 [Click here to learn more](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
-### 10. How to get emails in the recipient's inbox? {#10--how-to-get-emails-in-the-recipient-s-inbox-}
+### 10. How to get emails in the recipient's inbox? {#how-to-get-emails-in-the-recipient-s-inbox-}
 
 Read out [Set up email deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) getting started to learn the concepts and best practices related to deliverability as well as the tools to optimize sending your emails.
 

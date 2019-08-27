@@ -562,16 +562,16 @@ The execution of an input form initializes an XML document containing the data o
 
 ### Updating the context {#updating-the-context}
 
-To modify the context of the form, use the ** `<set expr="<value>" xpath="<field>" />`** tag, where ** `<field>`** is the destination field, and ** `<value>`** is the update expression or value.
+To modify the context of the form, use the **`<set expr="<value>" xpath="<field>"/>`** tag, where **`<field>`** is the destination field, and **`<value>`** is the update expression or value.
 
-Examples of use of the ** `<set>`** tag:
+Examples of use of the **`<set>`** tag:
 
-* ** `<set expr="'Test'" xpath="/tmp/@test" />`**: positions the 'Test' value at temporary location /tmp/@test1
-* ** `<set expr="'Test'" xpath="@lastName" />`**: updates the entity on the "lastName" attribute with the 'Test' value
-* ** `<set expr="true" xpath="@boolean1" />`**: sets the value of the "boolean1" field to "true"
-* ** `<set expr="@lastName" xpath="/tmp/@test" />`**: updates with the content of the "lastName" attribute
+* **`<set expr="'Test'" xpath="/tmp/@test" />`**: positions the 'Test' value at temporary location /tmp/@test1
+* **`<set expr="'Test'" xpath="@lastName" />`**: updates the entity on the "lastName" attribute with the 'Test' value
+* **`<set expr="true" xpath="@boolean1" />`**: sets the value of the "boolean1" field to "true"
+* **`<set expr="@lastName" xpath="/tmp/@test" />`**: updates with the content of the "lastName" attribute
 
-The context of the form can be updated when initializing and closing the form via the ** `<enter>`** and ** `<leave>`** tags.
+The context of the form can be updated when initializing and closing the form via the **`<enter>`** and **`<leave>`** tags.
 
 ```
 <form name="recipient" namespace="cus">
@@ -587,7 +587,7 @@ The context of the form can be updated when initializing and closing the form vi
 
 >[!NOTE]
 >
->The `<enter>  and  <leave>   tags can be used on the   <container>    of pages ("notebook" and "iconbox" types).    <br />   </container>  </leave> </enter>`
+>The `<enter>`  and  `<leave>`   tags can be used on the  `<container>`    of pages ("notebook" and "iconbox" types).    
 
 ### Expression language {#expression-language-}
 
@@ -643,7 +643,7 @@ The **[!UICONTROL Finish]** button saves the data entered and closes the form.
 
 SOAP method execution can be launched from a populated ** `<leave>`** tag at the end of a page.
 
-The ** `<soapcall>`** tag contains the call for the method with the following input parameters:
+The **`<soapcall>`** tag contains the call for the method with the following input parameters:
 
 ```
 <soapCall name="<name>" service="<schema>">

@@ -107,11 +107,7 @@ A list of personalization blocks is available by default to help you personalize
 * **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (blacklist). 
 * **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. This block must be inserted in the source code of the delivery, into **[!UICONTROL `<script></span> ... <span class="uicontrol"></script>`]** tags.
 
-  In the example below, the function is used to replace the
-
-  #  element "My header" by "My new header" with uppercase letters at each word:
-
-  {#element-my-header-by-my-new-header-with-uppercase-letters-at-each-word}
+  In the example below, the function is used to replace the element "My header" by "My new header" with uppercase letters at each word:
 
   ```
   <h1 id="sample">My header</h1>

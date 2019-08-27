@@ -59,7 +59,6 @@ Check the following information:
     * Has the Adobe Campaign Web module been launched?
 
       Connect to the following URL: **http(s):// `<urlserver jsp="" logon.jsp="" nl="" strong="" />`**
-      ** **
 
         * If you obtain a Tomcat Java error:
 
@@ -88,7 +87,7 @@ Check the following information:
           >[!NOTE]
           >
           >If you obtain a response of the following type when you list the Adobe Campaign modules:   
-          >**nlserver pdump ** 
+          >**nlserver pdump** 
           >HH:MM:SS > Application server for Adobe Campaign Version X.Y (build XXXX) dated DD/MM/YYYY No tasks You must restart the entire Adobe Campaign application. To do this, use the following commands:   
 
           >

@@ -22,7 +22,7 @@ A **stack trace** represents a trace contained in a **core** type file. This fil
 
 >[!NOTE]
 >
->* A **core** file is named **core. `<num>`**.
+>* A **core** file is named **core.`<num>`**.
 >* **gdb - The GNU Debugger** must be installed on the machine.
 >
 

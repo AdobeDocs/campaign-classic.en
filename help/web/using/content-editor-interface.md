@@ -65,14 +65,8 @@ It has four icons:
 
   >[!NOTE]
   >
-  >This information corresponds to the ** >
-  >
-  >## </strong> and  {#strong-and}  >
-  >
-  >**`<meta>`** HTML tags on the page.  
-  >The key words must be separated by commas.  
-  >**
-  >** **
+  >This information corresponds to the **`<title>`** and **`<meta>`** HTML tags on the page.  
+  >The key words must be separated by commas. 
 
 ## Block options {#block-options}
 
