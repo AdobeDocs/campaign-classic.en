@@ -22,8 +22,8 @@ This section details the configuration to be carried out in Adobe Campaign v7 if
 
 In addition:
 
-* If you migrate from v5.11, you must also complete the configuration detailed in the [Specific configurations in v5.11](https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v5_11.html) section.
-* If you migrate from v6.02, you must also complete the configuration detailed in the [Specific configurations in v6.02](https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v6_02.html) section.
+* If you migrate from v5.11, you must also complete the configuration detailed in the [Specific configurations in v5.11](https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v5-11.html) section.
+* If you migrate from v6.02, you must also complete the configuration detailed in the [Specific configurations in v6.02](https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v6-02.html) section.
 
 ## Time zones {#time-zones}
 

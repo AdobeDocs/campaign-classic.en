@@ -23,7 +23,6 @@ A web tracking tag is simply a URL constructed with the appropriate parameters, 
 ## Format of the data to be sent {#format-of-the-data-to-be-sent}
 
 The format of a web-tracking URL is as follows: **https://**
-** **
 
 >[!NOTE]
 >

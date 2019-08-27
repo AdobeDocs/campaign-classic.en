@@ -65,9 +65,9 @@ Data package example:
 </package>
 ```
 
-The XML document must begin and end with the ** `<package>`** element. Any ** `<entities>`** elements that follow distribute the data by document type.
+The XML document must begin and end with the **`<package>`** element. Any **`<entities>`** elements that follow distribute the data by document type.
 
-An ** `<entities>`** element contains the data of the package in the format of the data schema entered in the **schema** attribute.
+An **`<entities>`** element contains the data of the package in the format of the data schema entered in the **schema** attribute.
 
 The data in a package must not contain internal keys that are not compatible between bases, such as auto-generated keys (**autopk** option).
 
@@ -330,4 +330,4 @@ Standard packages are installed when the Adobe Campaign is configured. Depending
 
 Refer to your license agreement to check which packages you can install.
 
-For more information on standard packages, refer to [this page](https://helpx.adobe.com/campaign/classic/installation/using/installing-packages.html).
+For more information on standard packages, refer to [this page](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html).

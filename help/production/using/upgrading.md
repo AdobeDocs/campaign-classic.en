@@ -158,7 +158,7 @@ The file is **nlserver6-v7-XXX.rpm**
 
 >[!NOTE]
 >
->Full installation procedures are detailed in [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-packages.html). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolving upgrade conflicts](https://helpx.adobe.com/campaign/standard/production/using/upgrading.html#resolving-upgrade-conflicts).
+>Full installation procedures are detailed in [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolving upgrade conflicts](https://helpx.adobe.com/campaign/standard/production/using/upgrading.html#resolving-upgrade-conflicts).
 
 ### Reboot the web server {#reboot-the-web-server}
 
@@ -205,8 +205,7 @@ There are two ways of viewing the synchronization result:
 
   If the warning concerns a conflict of resources, user attention is required to resolve it.
 
-* The **postupgrade_ `<server number="" version="">  _  <time of="" postupgrade="">.log</time> </server>`** log file contains the synchronization result. It is available by default in the following directory: ** `<installation directory="" var="">  <instance strong="">   . Errors and warnings are indicated by the   <strong>error</strong> and   <strong>warning</strong> attributes.  </instance> </installation>`**
-  ** **
+* The **postupgrade_ `<server number="" version="">  _  <time of="" postupgrade="">.log</time> </server>`** log file contains the synchronization result. It is available by default in the following directory: **`<installation directory="" var="">  <instance strong="">   . Errors and warnings are indicated by the   <strong>error</strong> and   <strong>warning</strong> attributes.  </instance> </installation>`**
 
 ### Resolving conflicts {#resolving-conflicts}
 

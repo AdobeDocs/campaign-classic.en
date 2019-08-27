@@ -22,7 +22,7 @@ Here are the installation and configuration steps that apply to hosted models:
 
 * Configuring tracking and mirror page URLs per brand. For transactional messages, refer to this [section](https://helpx.adobe.com/campaign/classic/message-center/using/configuring-multibranding.html).
 * Installing the client console: refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/installing-the-client-console.html).
-* Installing packages: refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/installing-packages.html).
+* Installing packages: refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html).
 * Learn more on the deliverability tools and best practices by reading the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and [detailed documentation](https://helpx.adobe.com/campaign/classic/delivery/using/about-deliverability.html).
 * Configuring Campaign options: refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-options.html).
 * Configuring CRM connectors: refer to this [section](https://helpx.adobe.com/campaign/classic/platform/using/crm-connectors.html).

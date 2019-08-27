@@ -35,7 +35,7 @@ To use this functionality, it is imperative that you install the latest version 
 
 ## Installing the package {#installing-the-package}
 
-You must install the **[!UICONTROL Integration with the Adobe Experience Cloud]** package. Installing an integration package is the same as installing a standard package, which is detailed in [this page](https://helpx.adobe.com/campaign/classic/installation/using/installing-packages.html). 
+You must install the **[!UICONTROL Integration with the Adobe Experience Cloud]** package. Installing an integration package is the same as installing a standard package, which is detailed in [this page](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html). 
 
 ![](assets/ims_6.png)
 

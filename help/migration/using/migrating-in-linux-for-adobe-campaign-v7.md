@@ -302,7 +302,7 @@ To deploy Adobe Campaign, apply the following steps:
 
    >[!NOTE]
    >
-   >For more on how to install Adobe Campaign in Linux, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-packages.html).
+   >For more on how to install Adobe Campaign in Linux, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html).
 
 1. Modify the **.bashrd** file which matches the **neolane** user. Log on as **neolane** and run the following command:
 
@@ -435,7 +435,7 @@ To deploy Adobe Campaign, apply the following steps:
 
    >[!NOTE]
    >
-   >For more on how to install Adobe Campaign in Linux, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-packages.html).
+   >For more on how to install Adobe Campaign in Linux, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html).
 
 1. Since migration is not a generic installation, you need to force the re-starting of the **trackinglogd** service. To do this, open the **nl6/conf/config-default.xml** file and make sure the **trackinglogd** service is activated (only on the tracking/redirection server(s)):
 
@@ -518,7 +518,7 @@ To deploy Adobe Campaign, apply the following steps:
 
    >[!NOTE]
    >
-   >For more on how to install Adobe Campaign in Linux, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-packages.html).
+   >For more on how to install Adobe Campaign in Linux, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html).
 
 1. Go to the **nl6.back** backup folder and copy (overwrite) the configuration files and sub-folders of each instance. Log in as **neolane** and run the following command:
 

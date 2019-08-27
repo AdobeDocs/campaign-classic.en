@@ -665,7 +665,7 @@ The following pre-installation precautions are required for automatic monitoring
 * You must have the **netreport.tgz **(Linux installation) or **netreport.zip** (Windows installation) files,
 * We strongly advise you not to install monitoring on the machine to be monitored, 
 * it must be installed on a machine with a JRE or a JDK,
-* in Linux, the machine to be monitored must have the **bc** package. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-packages.html#distribution-based-on-rpm--packages).
+* in Linux, the machine to be monitored must have the **bc** package. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html#distribution-based-on-rpm--packages).
 
 ### Installation procedure {#installation-procedure}
 
