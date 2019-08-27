@@ -120,7 +120,7 @@ By populating the **type="frame"** attribute, the container adds a frame around 
 </form>
 ```
 
-A ** `<static>`** element can be used to format the input form:
+A **`<static>`** element can be used to format the input form:
 
 ![](assets/d_ncs_integration_form_exemple5.png)
 
@@ -134,7 +134,7 @@ A ** `<static>`** element can be used to format the input form:
 </form>
 ```
 
-The ** `<static>`** tag with the **separator** type lets you add a separator bar with a label contained in the **label** attribute.
+The **`<static>`** tag with the **separator** type lets you add a separator bar with a label contained in the **label** attribute.
 
 A help text was added using the `<static a="" tag="" with="">  help type. The content of the text is entered in the  <strong>label</strong> attribute. </static>`
 
