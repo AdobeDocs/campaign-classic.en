@@ -124,7 +124,7 @@ By creating a delivery workflow in Campaign Standard, it is then possible to use
 
    This activity is used to retrieve the data of the selected audience. You can also apply an additional **[!UICONTROL Source Filtering]** if needed by using the according tab of this activity.
 
-1. Add an **[!UICONTROL Email delivery]** activity and configure it as any other [email delivery activity](../../automating/using/email-delivery.md).
+1. Add an **[!UICONTROL Email delivery]** activity and configure it as any other [email delivery activity](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html).
 1. Open the delivery content.
 1. Add a personalization field. From the popup, locate the **[!UICONTROL Additional data (targetData)]** node. This node contains the additional data of the audience that were computed in the initial targeting workflow. You can use them as any other personalization field.
 
@@ -140,16 +140,16 @@ By creating a delivery workflow in Campaign Standard, it is then possible to use
 
 ## Send and monitor your delivery {#send-and-monitor-your-delivery}
 
-Once the delivery and its content are ready, send the delivery, as described with more details in [this section](../../automating/using/email-delivery.md):
+Once the delivery and its content are ready, send the delivery, as described with more details in [this section](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
 
 1. Execute the delivery workflow. This step prepares the email for sending.
 1. From the delivery dashboard, manually confirm that the delivery can be sent.
 1. Monitor the reports and logs of the delivery:
 
-    * **In Campaign Standard**: Access [reports](../../reporting/using/about-dynamic-reports.md) and [logs](../../sending/using/monitoring-a-delivery.md) related to the delivery as for any delivery.
+    * **In Campaign Standard**: Access [reports](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) and [logs](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) related to the delivery as for any delivery.
     * **in Campaign v7 and Campaign Standard**: Delivery IDs, email broad logs, and email tracking logs are synchronized to Campaign v7. You can then get à 360° view of your marketing campaigns from Campaign v7.
 
       Quarantines are automatically synchronized back to Campaign v7. This allows to take non-deliverable information into account for the next targeting performed in Campaign v7.
 
-      You can find more information about quarantine management in Campaign Standard in [this section](../../sending/using/understanding-quarantine-management.md).
+      You can find more information about quarantine management in Campaign Standard in [this section](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
 

@@ -48,7 +48,7 @@ When a recipient clicks the unsubscription link in an email sent by Campaign Sta
 
    ![](assets/acs_connect_profile_sync_01.png)
 
-1. Confirm that the new recipient has been added to Campaign Standard. When reviewing the profile, make certain that the data you entered in Campaign v7 is also available in Campaign Standard. To learn where to find profiles in Campaign Standard, see [Navigation Basics](../../start/using/interface-description.md).
+1. Confirm that the new recipient has been added to Campaign Standard. When reviewing the profile, make certain that the data you entered in Campaign v7 is also available in Campaign Standard. To learn where to find profiles in Campaign Standard, see [Navigation Basics](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
 
    ![](assets/acs_connect_profile_sync_02.png)
 
@@ -62,7 +62,7 @@ The steps below for changing a single point of data offer a simple example of ho
 
    ![](assets/acs_connect_profile_sync_03.png)
 
-1. Confirm that the recipient’s name has been updated in Campaign Standard. To learn where to find profiles in Campaign Standard, see [Navigation Basics](../../start/using/interface-description.md).
+1. Confirm that the recipient’s name has been updated in Campaign Standard. To learn where to find profiles in Campaign Standard, see [Navigation Basics](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
 
    ![](assets/acs_connect_profile_sync_04.png)
 
@@ -72,7 +72,7 @@ The steps below for changing a single point of data offer a simple example of ho
 
 Profiles and services replicated from Campaign v7 are available to digital marketers to leverage the rich data in Campaign Standard. The instructions below demonstrate how to add a query to a Campaign Standard workflow and then use it with the replicated database.
 
-For further information and full instructions regarding Campaign Standard workflows, see [Workflows](../../automating/using/about-data-and-processes.md).
+For further information and full instructions regarding Campaign Standard workflows, see [Workflows](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/about-workflows-and-data-management/workflow-data-and-processes.html).
 
 1. Go to Campaign Standard and click **[!UICONTROL Marketing Activities]** .
 1. Click **[!UICONTROL Create]** on the upper right.
@@ -96,7 +96,7 @@ For further information and full instructions regarding Campaign Standard workfl
 
 Digital marketers can leverage a Campaign v7 web application to make certain that a recipient's choice to unsubscribe to a service is sent to the Campaign v7 database. After the recipient clicks the unsubscription link, the option to stop receiving the service is replicated from Campaign v7 to Campaign Standard. For additional details, see [Changing the unsubscription link](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
 
-Follow the steps below to add an email delivery to an existing workflow with the unsubscription service created in Campaign v7. For further information and full instructions regarding Campaign Standard workflows, see this [document](../../automating/using/about-data-and-processes.md).
+Follow the steps below to add an email delivery to an existing workflow with the unsubscription service created in Campaign v7. For further information and full instructions regarding Campaign Standard workflows, see this [document](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/about-workflows-and-data-management/workflow-data-and-processes.html).
 
 >[!NOTE]
 >
@@ -175,7 +175,7 @@ Follow the instructions in [Creating a workflow](../../integrations/using/synchr
 
    ![](assets/acs_connect_profile_sync_22.png)
 
-1. Go to Campaign Standard and open the profile details for the recipient. Confirm that a checkbox appears next to **[!UICONTROL No longer contact (by any channel)]** . To learn where to find profiles in Campaign Standard, see [Navigation Basics](../../start/using/interface-description.md).
+1. Go to Campaign Standard and open the profile details for the recipient. Confirm that a checkbox appears next to **[!UICONTROL No longer contact (by any channel)]** . To learn where to find profiles in Campaign Standard, see [Navigation Basics](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
 
    ![](assets/acs_connect_profile_sync_23.png)
 
