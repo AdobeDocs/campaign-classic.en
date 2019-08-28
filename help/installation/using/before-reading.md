@@ -18,6 +18,6 @@ snippet: y
 
 # Before reading{#before-reading}
 
-This document presents all the installation and configuration steps to know if you have an on-premise hosting model. If you have a Managed Services (hosted) or hybrid hosting model, do not read this document in its entirety as most of the installation and configuration steps are performed by Adobe. If you have one of these two models, please refer to this [section](../../installation/using/introduction.md).
+This document presents all the installation and configuration steps to know if you have an on-premise hosting model. If you have a Managed Services (hosted) or hybrid hosting model, do not read this document in its entirety as most of the installation and configuration steps are performed by Adobe. If you have one of these two models, please refer to this [section](../../installation/using/hosting-models.md).
 
 The different hosting models are introduced in this [section](../../installation/using/hosting-models.md).

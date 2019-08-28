@@ -42,7 +42,7 @@ When migrating to Adobe Campaign v7, the following elements must be configured. 
 
   If you use Oracle as a database, check that the Oracle timezone files have properly been synched between the application server and the database server. For more on this, refer to the [Oracle](../../migration/using/general-configurations.md#oracle) section.
 
-  In addition, during a migration from a v.5.11 platform, in MySQL, you must perform additional configurations. For more information, refer to the [MySQL](../../migration/using/specific-configurations-in-v5_11.md#mysql-) section.
+  In addition, during a migration from a v.5.11 platform, in MySQL, you must perform additional configurations. For more information, refer to the [MySQL](../../migration/using/specific-configurations-in-v5-11.md#mysql-) section.
 
 * Security zones
 
@@ -62,7 +62,7 @@ When migrating to Adobe Campaign v7, the following elements must be configured. 
 
 * Tree structure
 
-  If migrating from a v5.11 platform, you must reorganize the tree structure folders according to Adobe Campaign v6 norms. For more information, refer to the [Adobe Campaign v7 tree structure](../../migration/using/specific-configurations-in-v5_11.md#adobe-campaign-v7-tree-structure) section.
+  If migrating from a v5.11 platform, you must reorganize the tree structure folders according to Adobe Campaign v6 norms. For more information, refer to the [Adobe Campaign v7 tree structure](../../migration/using/specific-configurations-in-v5-11.md#adobe-campaign-v7-tree-structure) section.
 
 * Interaction
 
@@ -108,7 +108,7 @@ After running **postupgrade**, the following elements must be taken into account
 
   See the [Web applications](../../migration/using/general-configurations.md#web-applications) section.
 
-  If migrating from a v5.11 platform, additional configurations must be carried out: for more information, refer to the [Web applications](../../migration/using/specific-configurations-in-v5_11.md#web-applications) section.
+  If migrating from a v5.11 platform, additional configurations must be carried out: for more information, refer to the [Web applications](../../migration/using/specific-configurations-in-v5-11.md#web-applications) section.
 
 * Security zones.
 
@@ -120,15 +120,15 @@ After running **postupgrade**, the following elements must be taken into account
 
 * Workflows
 
-  If migrating from a v5.11 platform, you must control the workflows runtime directory. For more on this, refer to the [Workflows](../../migration/using/specific-configurations-in-v5_11.md#workflows) section.
+  If migrating from a v5.11 platform, you must control the workflows runtime directory. For more on this, refer to the [Workflows](../../migration/using/specific-configurations-in-v5-11.md#workflows) section.
 
 * Tracking
 
-  If migrating from a v5.11 platform, you must configure the tracking mode. For more on this, refer to the [Tracking](../../migration/using/specific-configurations-in-v5_11.md#tracking) section.
+  If migrating from a v5.11 platform, you must configure the tracking mode. For more on this, refer to the [Tracking](../../migration/using/specific-configurations-in-v5-11.md#tracking) section.
 
 * Home page
 
-  If migrating from a v6.02 platform, you may define additional parameters to keep your old home page from v6.02. For more on this, refer to the [User friendliness: Home page and navigation](../../migration/using/specific-configurations-in-v6_02.md#user-friendliness--home-page-and-navigation) section.
+  If migrating from a v6.02 platform, you may define additional parameters to keep your old home page from v6.02. For more on this, refer to the [User friendliness: Home page and navigation](../../migration/using/specific-configurations-in-v6-02.md#user-friendliness--home-page-and-navigation) section.
 
 * Interaction
 
