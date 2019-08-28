@@ -96,11 +96,11 @@ The function(s) to be added can be found in the **"package" file** in XML format
 >
 >Make sure to complete the @label attribute: this is the name that will be displayed in the list of available functions. If you do not enter anything, the group will not have a name. However, if you enter a name other than the existing name, the name of the entire group will change.
 
-If you wish to add functions to several different groups, you can make several `<group>  elements become tracked in the same list. </group>`
+If you wish to add functions to several different groups, you can make several `<group>`  elements become tracked in the same list.
 
-Finally, a `<group>  element can contain the definition of one or several functions, that is the purpose of the package file. The  <function>   element is detailed in the following paragraph.  </function> </group>`
+Finally, a `<group>` element can contain the definition of one or several functions, that is the purpose of the package file. The  `<function>`   element is detailed in the following paragraph.
 
-## Function descriptor <function></function> {#function-descriptor--function-}
+## Function descriptor &lt;function>&lt;/function> {#function-descriptor--function-}
 
 The case presented here is a general case whereby we wish to provide the **function implementation**.
 
@@ -140,7 +140,7 @@ The **@name** field refers the name of the function, and "args" is the list of p
   >
   >If only one or two databases are likely to be queried by the function defined, we can always provide only the definitions corresponding to these databases.
 
-## 'Pass-through' function descriptor {#-pass-through--function-descriptor}
+## 'Pass-through' function descriptor {#pass-through--function-descriptor}
 
 A special function descriptor is the ** "pass-through"** block, with an unspecified "provider" database system. In this case, "body" implementation can only contain a single function call with a syntax that is not dependent on the database used. Meanwhile, the "ProviderPart" block is unique.
 

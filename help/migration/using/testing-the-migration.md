@@ -73,7 +73,7 @@ Various options let you measure the impact from a migration and identify the pot
 >
 >You must use the **-instance: `<instancename>`** option. We do not recommend using the **-allinstances** option.
 
-### -showCustomEntities and -showDeletedEntities options {#-showcustomentities-and--showdeletedentities-options}
+### -showCustomEntities and -showDeletedEntities options {#showcustomentities-and--showdeletedentities-options}
 
 * The **-showCustomEntities** option displays the list of all non-standard objects:
 

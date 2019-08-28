@@ -356,7 +356,7 @@ The expression editor looks like this:
 It lets you select fields in the database tables and add advanced functions to them. The following functions are available:
 
 1. Aggregates
-
+<!--
 <table> 
  <tbody> 
   <tr> 
@@ -1671,3 +1671,4 @@ It lets you select fields in the database tables and add advanced functions to t
  </tbody> 
 </table>
 
+-->

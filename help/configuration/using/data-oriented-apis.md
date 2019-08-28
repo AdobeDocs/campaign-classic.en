@@ -308,7 +308,7 @@ It is possible to replace the 'OR' operator with the 'IN' operation when several
 
 This syntax simplifies the query when more than two data are used in the condition.
 
-#### Examples on links {#--examples-on-links}
+#### Examples on links {#examples-on-links}
 
 * Links 1-1 or N1: when the table has the foreign key (the link starts from the table), the fields of the linked table can be filtered or retrieved directly.
 

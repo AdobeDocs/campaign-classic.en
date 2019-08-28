@@ -134,7 +134,7 @@ The following rules must be adhered to:
 
 The data type is entered via the **type** attribute in the ** `<attribute>`** and ** `<element>`** elements.
 
-A detailed list is available in the description of the [ `<attribute>  element </attribute>`](https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#-attribute--element) and the [ `<element>  element </element>`](https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#-element--element).
+A detailed list is available in the description of the [ `<attribute>  element </attribute>`](https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#attribute--element) and the [ `<element>  element </element>`](https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#element--element).
 
 When this attribute is not populated, **string** is the default data type unless the element contains child elements. If it does, it is used only to structure the elements hierarchically (** `<location>`** element in our example).
 

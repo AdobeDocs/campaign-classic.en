@@ -91,7 +91,7 @@ Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[
 
   Only the values in the enumeration will be displayed. The others will be grouped under the label defined in the **[!UICONTROL Label of the other values]** field.
 
-  For more on this, refer to [Dynamically managing bins](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#-dynamically-managing-bins).
+  For more on this, refer to [Dynamically managing bins](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#dynamically-managing-bins).
 
 ## Building indicators {#building-indicators}
 

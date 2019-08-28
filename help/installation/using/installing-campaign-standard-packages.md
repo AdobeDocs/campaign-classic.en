@@ -56,7 +56,7 @@ The packages are now installed.
    <td> Delivery<br /> </td> 
    <td> Monitors deliveries and eventual issues encountered when messages are sent.<br /> </td> 
    <td> </td> 
-   <td> <a href="https://helpx.adobe.com/campaign/classic/delivery/using/.html">Learn More</a> </td> 
+   <td> Learn More</td> 
   </tr> 
   <tr> 
    <td> Marketing campaigns (Campaign)<br /> </td> 

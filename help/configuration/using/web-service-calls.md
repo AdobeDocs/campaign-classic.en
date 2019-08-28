@@ -56,7 +56,7 @@ The presence of the "static" attribute (with the value "true") describes this me
 
 A "const" method implicitly has an XML document in the format of its associated schema as its input.
 
-A full description of the `<method>  element of an Adobe Campaign schema is available in the "Schema references" chapter under  <a href="https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#-method--element" target="_blank">   <method>    element   </method></a>. </method>`
+A full description of the `<method>  element of an Adobe Campaign schema is available in the "Schema references" chapter under  <a href="https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#method--element" target="_blank">   <method>    element   </method></a>. </method>`
 
 Example of the "const"-type "ExecuteQuery" method from the "xtk:queryDef" schema:
 

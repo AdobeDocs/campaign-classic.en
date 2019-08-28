@@ -640,12 +640,12 @@ Some of them are built-in when installing Campaign, and others can be added manu
   <tr> 
    <td> <span class="uicontrol">XtkSequence_AutoGeneration</span> <br /> </td> 
    <td> All customized schemas, created after this time, with autopk="true" and without the attribute "pkSequence" will get an auto-geneated sequence "auto_ 
-    <schemanamespace> 
-     <schemaname>
+    &lt;schemanamespace> 
+     &lt;schemaname>
        _seq. 
       <br /> 
-     </schemaname> 
-    </schemanamespace></td> 
+     &lt;/schemaname> 
+    &lt;/schemanamespace></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NlMigration_KeepFolderStructure</span> <br /> </td> 

@@ -71,13 +71,13 @@ Start by creating a new delivery.
 
    >[!NOTE]
    >
-   >Sounds must be included in the application and defined when the service is created. Refer to [Application sounds](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#-application-sounds).
+   >Sounds must be included in the application and defined when the service is created. Refer to [Application sounds](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#application-sounds).
 
 1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. Application variables let you define notification behavior: for instance, you can configure a specific application screen to be displayed when the user activates the notification.
 
    >[!NOTE]
    >
-   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [General information](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#-general-information).
+   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [General information](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#general-information).
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
 
@@ -122,7 +122,7 @@ After sending messages, you can monitor and track your deliveries. For more on t
 
    >[!NOTE]
    >
-   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [General information](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#-general-information).
+   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [General information](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#general-information).
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
 

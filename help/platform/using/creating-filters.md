@@ -42,7 +42,7 @@ The following filter types are available in Adobe Campaign:
 
   >[!NOTE]
   >
-  >The **%** character replaces any character string. For example, the string **%@yahoo.com** lets you display all the profiles with an e-mail address in the domain **yahoo.com**.
+  >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an e-mail address in the domain "yahoo.com".
 
   You can change the default filter of a list. For more on this, refer to [Altering the default filter](https://helpx.adobe.com/campaign/standard/platform/using/creating-filters.html#altering-the-default-filter).
 

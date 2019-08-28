@@ -59,7 +59,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >You can also employ user-managed enumerations (usually under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) to specify the values for a given field. These are effectively global enumerations, and a better choice if your enumeration may be used outside of the specific schema you are working in.
 
-To find out more about enumerations, refer to the [Enumerations](https://helpx.adobe.com/campaign/standard/configuration/using/schema-structure.html#enumerations) and [ `<enumeration>  element </enumeration>`](https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#-enumeration--element) sections.
+To find out more about enumerations, refer to the [Enumerations](https://helpx.adobe.com/campaign/standard/configuration/using/schema-structure.html#enumerations) and [ `<enumeration>  element </enumeration>`](https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#enumeration--element) sections.
 
 ## Index {#index}
 
@@ -118,7 +118,7 @@ Attributes allow you to define the fields which make up your data object. You ca
 
 ![](assets/schemaextension_getting_started_2.png)
 
-The full list of attributes is available in the [ `<attribute>  element </attribute>`](https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#-attribute--element) section. Here are some of the more commonly used attributes:
+The full list of attributes is available in the [ `<attribute>  element </attribute>`](https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#attribute--element) section. Here are some of the more commonly used attributes:
 
 * **@advanced**
 * **@dataPolicy**

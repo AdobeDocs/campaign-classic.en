@@ -291,7 +291,7 @@ index: n
   + Introduction {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
        + [About activities](workflow/using/about-activities.md)
-  +  General operation {#-general-operation}
+  +  General operation {#general-operation}
        + [Building a workflow](workflow/using/building-a-workflow.md)
        + [Targeting data](workflow/using/targeting-data.md)
        + [Importing data](workflow/using/importing-data.md)

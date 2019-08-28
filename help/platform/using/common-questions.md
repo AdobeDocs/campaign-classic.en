@@ -46,7 +46,7 @@ Adobe Campaign comes with a set of dashboards and tools to monitor your email de
 
 [Click here to learn](https://helpx.adobe.com/campaign/classic/delivery/using/monitoring-a-delivery.html) how to make sure your messages are being sent, monitor the execution and engage action if an error occurs.
 
-### 5. Can I monitor workflow execution? {#can-i-monitor-workflow-execution-}
+### 5. Can I monitor workflow execution? {#can-i-monitor-workflow-execution}
 
 Understand how to monitor Campaign workflow execution [in this page](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html).
 

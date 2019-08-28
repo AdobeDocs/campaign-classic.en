@@ -150,7 +150,7 @@ In case of an outbound interaction, you can automatically apply the **[!UICONTRO
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>
 ```
 
-## Offer preview per space {#-offer-preview-per-space}
+## Offer preview per space {#offer-preview-per-space}
 
 In this tab, you can view the offers for which the recipient is eligible via a chosen method. In the example below, the recipient is eligible for three offer proposals via mail.
 

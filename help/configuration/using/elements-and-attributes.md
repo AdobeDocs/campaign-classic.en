@@ -22,7 +22,7 @@ When editing a schema, an approval system based on the source schema (xtk:srcSch
 
 By default, in Adobe Campaign schemas, all boolean type attributes are "false". To activate them, you need to specify the attribute in the schema and set its value to "true".
 
-## <attribute> element </attribute> {#-attribute--element}
+## <attribute> element </attribute> {#attribute--element}
 
 ### Content model {#content-model}
 
@@ -224,7 +224,7 @@ Example with "@feature" of "dedicated" type:
 <attribute name="field1" label="Field 1" type="long" feature="dedicated" sqlname="sField1" sqltable="Ft_recipient_field1"/>
 ```
 
-## <compute-string> element </compute-string> {#-compute-string--element}
+## <compute-string> element </compute-string> {#compute-string--element}
 
 ### Content model {#content-model-1}
 
@@ -269,7 +269,7 @@ Result of the string calculated on a recipient: "John Doe (john.doe@aol.com)":
 </element>
 ```
 
-## <condition> element </condition> {#-condition--element}
+## <condition> element </condition> {#condition--element}
 
 ### Content model {#content-model-2}
 
@@ -307,7 +307,7 @@ One `<sysfiler>  element can contain several filtering conditions. </sysfiler>`
 
 `<sysfilter>  <condition enabledIf="hasNamedRight('admin')=false" expr="@city=[currentOperator/location/@city]" /> </sysfilter>`
 
-## <dbindex> element </dbindex> {#-dbindex--element}
+## <dbindex> element </dbindex> {#dbindex--element}
 
 ### Content model {#content-model-3}
 
@@ -399,7 +399,7 @@ CREATE INDEX DocNewSchemaUser_myIndex ON DocNewSchemaUser(sEmail, sPhone);
                 
 ```
 
-## <element> element </element> {#-element--element}
+## <element> element </element> {#element--element}
 
 ### Content model {#content-model-4}
 
@@ -593,7 +593,7 @@ There are four types of `<element>  elements in Adobe Campaign: </element>`
 * **xml (boolean)**: if this option is activated, all values defined in the element are stored in XML in a TEXT type "mData" field. This means that there will be no filtering or sorting on these fields. 
 * **xmlChildren (boolean)**: forces storage for each child ( `<element>  or  <attribute>   ) of the   <element>    element in an XML document.   </element>  </attribute> </element>`
 
-## <enumeration> element </enumeration> {#-enumeration--element}
+## <enumeration> element </enumeration> {#enumeration--element}
 
 ### Content model {#content-model-5}
 
@@ -694,7 +694,7 @@ Definition of an enumeration with a default value:
  </enumeration>
 ```
 
-## <help> element </help> {#-help--element}
+## <help> element </help> {#help--element}
 
 ### Content model {#content-model-6}
 
@@ -724,7 +724,7 @@ This element has no attributes.
 
 `<method name="CheckOperation" static="true">  <helpchecks a="" help="" method="" of="" p="" the="" validity="">  </helpchecks> </method>`
 
-## <join> element </join> {#-join--element}
+## <join> element </join> {#join--element}
 
 ### Content model {#content-model-7}
 
@@ -776,7 +776,7 @@ Filtered link towards the "cus:Country" table based on the content of the "@coun
 
 `<element label="MyLink" name="StockEN" target="cus:Stock" type="link">  <join dstFilterExpr="@country = 'EN'" xpath-dst="@country" xpath-src="@code" /> </element>`
 
-## <key> element </key> {#-key--element}
+## <key> element </key> {#key--element}
 
 ### Content model {#content-model-8}
 
@@ -847,7 +847,7 @@ Declaration of a primary key on the "Name" field of STRING type in an `<srcschem
 CREATE UNIQUE INDEX Schema_PrimaryKey ON Schema(sName);
 ```
 
-## <keyfield> element </keyfield> {#-keyfield--element}
+## <keyfield> element </keyfield> {#keyfield--element}
 
 ### Content model {#content-model-9}
 
@@ -883,7 +883,7 @@ Selection of the "sName" field in an index with an Xpath on "@name":
 <keyfield xpath="@name"/>
 ```
 
-## <method> element </method> {#-method--element}
+## <method> element </method> {#method--element}
 
 ### Content model {#content-model-10}
 
@@ -948,7 +948,7 @@ Definition of the "Subscribe" out of the box method:
 
 ```
 
-## <methods> element </methods> {#-methods--element}
+## <methods> element </methods> {#methods--element}
 
 ### Content model {#content-model-11}
 
@@ -978,7 +978,7 @@ This element has no attributes.
 
 `<methods async="true" definition="" methods="" more="" of="" one="" or="" p=""> </methods>`
 
-## <param> element {#-param--element}
+## <param> element {#param--element}
 
 ### Content model {#content-model-12}
 
@@ -1057,7 +1057,7 @@ Definition of the "serviceName" inbound setting of character string type:
                name="serviceName" type="string" inout="in"/>
 ```
 
-## <parameters> element </parameters> {#-parameters--element}
+## <parameters> element </parameters> {#parameters--element}
 
 ### Content model {#content-model-13}
 
@@ -1091,7 +1091,7 @@ None
 
 `<parameters definition="" more="" of="" one="" or="" p="" parameters=""> </parameters>`
 
-## <srcschema> element </srcschema> {#-srcschema--element}
+## <srcschema> element </srcschema> {#srcschema--element}
 
 ### Content model {#content-model-14}
 
@@ -1164,7 +1164,7 @@ Schema presentation is available in [About schema reference](https://helpx.adobe
            name="delivery" namespace="nms" useRecycleBin="true" xtkschema="xtk:srcSchema">
 ```
 
-## <sysfilter> element </sysfilter> {#-sysfilter--element}
+## <sysfilter> element </sysfilter> {#sysfilter--element}
 
 ### Content model {#content-model-15}
 
@@ -1201,7 +1201,7 @@ Definition of a filter with a condition on the @name attribute:
   <sysFilter>
 ```
 
-## <value> element </value> {#-value--element}
+## <value> element </value> {#value--element}
 
 ### Content model {#content-model-16}
 

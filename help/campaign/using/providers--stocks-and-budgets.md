@@ -30,7 +30,7 @@ The jobs carried out during deliveries are performed by service providers, parti
 
 1. Creation of a service provider in Adobe Campaign
 
-   See [Adding a service provider](https://helpx.adobe.com/campaign/standard/campaign/using/providers--stocks-and-budgets.html#-adding-a-service-provider).
+   See [Adding a service provider](https://helpx.adobe.com/campaign/standard/campaign/using/providers--stocks-and-budgets.html#adding-a-service-provider).
 
 1. Defining cost categories and structures of associated service templates
 
@@ -38,7 +38,7 @@ The jobs carried out during deliveries are performed by service providers, parti
 
 1. Configuration of processes
 
-   See [Configuring processes associated with a service](https://helpx.adobe.com/campaign/standard/campaign/using/providers--stocks-and-budgets.html#-configuring-processes-associated-with-a-service).
+   See [Configuring processes associated with a service](https://helpx.adobe.com/campaign/standard/campaign/using/providers--stocks-and-budgets.html#configuring-processes-associated-with-a-service).
 
 1. Referencing the service provider at the campaign level
 
@@ -46,7 +46,7 @@ The jobs carried out during deliveries are performed by service providers, parti
 
 ### Creating a service provider and its cost categories {#creating-a-service-provider-and-its-cost-categories}
 
-#### Adding a service provider {#-adding-a-service-provider}
+#### Adding a service provider {#adding-a-service-provider}
 
 You can create as many service providers as necessary for your deliveries. The procedure for adding a service provider is as follows:
 
@@ -140,7 +140,7 @@ Finally, you can configure a cost calculation according to the total number of m
 
 ![](assets/s_ncs_user_supplier_cost_structure_calc_04.png)
 
-### Configuring processes associated with a service {#-configuring-processes-associated-with-a-service}
+### Configuring processes associated with a service {#configuring-processes-associated-with-a-service}
 
 You can associate information on the processes associated with the service via the **[!UICONTROL Processes]** tab.
 

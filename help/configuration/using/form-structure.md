@@ -213,9 +213,7 @@ This container displays a vertical icon bar that lets you select the pages to be
 
 The main container is defined by the **type="iconbox"** attribute. The pages associated with the icons are declared in the child containers. The label of the icons is populated from the **label** attribute.
 
-The icon of a page is populated from the **img=" ![]()"** attribute, where ** ![]()
-
-** is the name of the image corresponding to its key made up of the name and namespace (e.g., "xtk:properties.png").
+The icon of a page is populated from the `img="<image>"` attribute, where `<image>` is the name of the image corresponding to its key made up of the name and namespace (e.g., "xtk:properties.png").
 
 The images are available from the **[!UICONTROL Administration > Configuration > Images]** node.
 
@@ -238,7 +236,7 @@ A visibility container is defined by the attribute **type="visibleGroup"**. The 
 
 Examples of condition syntax:
 
-* **visibleIf="@email='peter.martinez@neeolane.net'"**: tests equality on string-type data. The comparison value must be in quotes.
+* **visibleIf="@email='peter.martinezATneeolane.net'"**: tests equality on string-type data. The comparison value must be in quotes.
 * **visibleIf="@gender >= 1 and @gender != 2"**: condition on a numeric value.
 * **visibleIf="@boolean1==true or @boolean2==false"**: test on Boolean fields.
 

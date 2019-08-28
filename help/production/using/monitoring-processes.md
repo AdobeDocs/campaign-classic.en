@@ -559,7 +559,7 @@ wfserver@prod
 
 ### Information published by the server {#information-published-by-the-server}
 
-#### /r/test {#-r-test}
+#### /r/test {#r-test}
 
 The **http(s):// `<application server="" url="">  /r/test </application>`** page is used to test the redirection server. We recommend using this same method to test the frontal servers used for tracking. This page can also be used to test a load dispatcher.
 
@@ -572,7 +572,7 @@ It displays a line like this in XML format:
 
 **Frequency**: this test does not use any load, and so it can be run very often (e.g. once every second).
 
-#### /nl/jsp/ping.jsp {#-nl-jsp-ping-jsp}
+#### /nl/jsp/ping.jsp {#nl-jsp-ping-jsp}
 
 This **http(s):// `<application jsp="" nl="" server="" strong="" url="">  page operates in the same way as its network counterpart: it tests a complete query going through apache/tomcat/web module/database and uploading to the client. If everything is working properly, it returns an "OK". We recommend running this test on machines with access to the databases (mtas and surveys, for instance). </application>`**
 ** ** **Usage**: a session token associated with an operator login must be passed as an argument in order to log in remotely (see the tip in [Automatic monitoring via Adobe Campaign scripts](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#automatic-monitoring-via-adobe-campaign-scripts)).
@@ -587,7 +587,7 @@ The operator name and login need to be previously configured in the Adobe Campai
 
 **Frequency**: this is a test that uses very little bandwidth. It can therefore be run fairly often, though not more than once a minute.
 
-#### /nl/jsp/monitor.jsp {#-nl-jsp-monitor-jsp}
+#### /nl/jsp/monitor.jsp {#nl-jsp-monitor-jsp}
 
 This is a test to check that an operator can access the Adobe Campaign server via a web page; the same web page as the one accessed via the client console menus. We recommend including it in your surveillance tools (Tivoli, Nagios, etc.).
 
@@ -599,7 +599,7 @@ The operator and their login needs to be configured previously in the Adobe Camp
 
 **Frequency**: this is a full server test and doesn't need be run often (it can be carried out once every ten minutes, for example).
 
-#### /nl/jsp/soaprouter.jsp {#-nl-jsp-soaprouter-jsp}
+#### /nl/jsp/soaprouter.jsp {#nl-jsp-soaprouter-jsp}
 
 This **jsp** represents the point of entry of Adobe Campaign application APIs. It can therefore provide detailed monitoring of the application. It can also be used to monitor Adobe Campaign web services. It is used in our monitoring scripts, but note that it is for power users only.
 
@@ -681,9 +681,9 @@ The installation procedure is as follows:
 
 The XML configuration file contains the following elements:
 
-* ['Properties' element](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#-properties--element)
-* ['Instance' element](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#-instance--element)
-* ['Host' element](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#-host--element)
+* ['Properties' element](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#properties--element)
+* ['Instance' element](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#instance--element)
+* ['Host' element](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#host--element)
 * [Sub-elements](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#sub-elements)
 
 Here is a configuration example:
@@ -723,7 +723,7 @@ Here is a configuration example:
 >
 >For the **monitoring** operator to work, the machine that the netreport is executed on must be in a security zone that is in **sessionTokenOnly** mode. If no trusted IP mask has been specified for this operator, the security zone must also be in **allowEmptyPassword** and **allowUserPassword** mode.
 
-#### 'Properties' element {#-properties--element}
+#### 'Properties' element {#properties--element}
 
 This element is used to populate the configuration of emails, i.e.
 
@@ -743,7 +743,7 @@ This element is used to populate the configuration of emails, i.e.
 >
 >The **persistHtmlFile** attribute with the value "true" on the ** `<property>`** element is used to record the latest monitoring status in the file **netreport.html**. This file is saved in the installation directory.
 
-#### 'Instance' element {#-instance--element}
+#### 'Instance' element {#instance--element}
 
 This element lets you regroup several machines (hosts) into the same instance. The instance names appear in the first part of the monitoring email. You can click on the name of an instance to access detail regarding each machine.
 
@@ -762,7 +762,7 @@ instance name="instanceName" recipientList="mail@mail.com,mail2@mail.com">
 * **name**: instance name that will appear in the first part of the email. 
 * **recipientList** (optional): lets you send a monitoring report regarding a particular instance by email.
 
-#### 'Host' element {#-host--element}
+#### 'Host' element {#host--element}
 
 This element configures the monitoring of a given server on the host, i.e.
 
