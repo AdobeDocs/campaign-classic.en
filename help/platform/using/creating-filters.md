@@ -39,11 +39,11 @@ The following filter types are available in Adobe Campaign:
   The **default filter** is accessible via the fields located above the lists. It lets you filter on predefined fields (for recipient profiles, these are the name and email address by default). You can use the fields to enter the characters to filter on or to selection the filter conditions from a drop-down list.
 
   ![](assets/filters_recipient_default_filter.png)
-
+<!--
   >[!NOTE]
   >
   >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an e-mail address in the domain "yahoo.com".
-
+-->
   You can change the default filter of a list. For more on this, refer to [Altering the default filter](https://helpx.adobe.com/campaign/standard/platform/using/creating-filters.html#altering-the-default-filter).
 
 * Simple filters

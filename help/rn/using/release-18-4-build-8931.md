@@ -36,7 +36,7 @@ snippet: y
     <ul> 
      <li> <p>Right to Access: allows the Data Subject to receive a copy of his/her personal data captured by Data Controllers, potentially including data stored in Adobe Campaign.</p> </li> 
      <li> <p>Right to Delete: entitles the Data Subject to have his/her personal data captured by Data Controllers erased, potentially including data stored in Adobe Campaign.</p> </li> 
-    </ul> For more information, refer to the <a href="../getting_started/EN/ACC_GDPR.md">detailed documentation</a>.<br /> </td> 
+    </ul> For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Active profiles<br /> </td> 
