@@ -28,11 +28,11 @@ For each input field in a form, the following storage options are available:
 
 * **[!UICONTROL Edit a recipient]**
 
-  You can select a field of the database: users' answers will be stored in this field. For each user, only the last value entered is saved: it is added to their profile: Refer to [Storing data in the database](https://helpx.adobe.com/campaign/standard/web/using/web-forms-answers.html#storing-data-in-the-database).
+  You can select a field of the database: users' answers will be stored in this field. For each user, only the last value entered is saved: it is added to their profile: Refer to [Storing data in the database](../../web/using/web-forms-answers.md#storing-data-in-the-database).
 
 * **[!UICONTROL Variable]**
 
-  If you don't want to store information in the database, you can use a variable. Local variables can be declared upstream. Refer to [Storing data in a local variable](https://helpx.adobe.com/campaign/standard/web/using/web-forms-answers.html#storing-data-in-a-local-variable).
+  If you don't want to store information in the database, you can use a variable. Local variables can be declared upstream. Refer to [Storing data in a local variable](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable).
 
 ### Storing data in the database {#storing-data-in-the-database}
 
@@ -118,9 +118,9 @@ To save the information collected in the pages of a form, you need to place a st
 
 There are two ways of using this box:
 
-* If the Web form is accessed via a link sent in an email, and if the user accessing the application is already in the database, you can check the **[!UICONTROL Update the preloaded record]** option. For more on this, refer to [Delivering a form via email](https://helpx.adobe.com/campaign/standard/web/using/publishing-a-web-form.html#delivering-a-form-via-email).
+* If the Web form is accessed via a link sent in an email, and if the user accessing the application is already in the database, you can check the **[!UICONTROL Update the preloaded record]** option. For more on this, refer to [Delivering a form via email](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
 
-  In this case, Adobe Campaign uses the encrypted primary key of the user profile, a unique identifier assigned to each profile by Adobe Campaign. You need to configure the information to preload via the preloading box. For more on this, refer to [Pre-loading the form data](https://helpx.adobe.com/campaign/standard/web/using/publishing-a-web-form.html#pre-loading-the-form-data).
+  In this case, Adobe Campaign uses the encrypted primary key of the user profile, a unique identifier assigned to each profile by Adobe Campaign. You need to configure the information to preload via the preloading box. For more on this, refer to [Pre-loading the form data](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
 
   >[!CAUTION]
   >
@@ -142,5 +142,5 @@ You can select a search folder for reconciliation and the creation folder for ne
 >
 >Possible operations are: **[!UICONTROL Simple reconciliation]** , **[!UICONTROL Update or insertion]** , **[!UICONTROL Insertion]** , **[!UICONTROL Update]** , **[!UICONTROL Deletion]** .  
 >The default folder of the operator is the first folder for which the operator has write-permission.   
->Refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/access-management.html).
+>Refer to [this section](../../platform/using/access-management.md).
 

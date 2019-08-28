@@ -22,7 +22,7 @@ Offer space creation may only be carried out by a **technical administrator** wi
 
 The content of the catalog offers is configured in the offer spaces. By default, the content can include the following fields: **[!UICONTROL Title]** , **[!UICONTROL Destination URL]** , **[!UICONTROL Image URL]** , **[!UICONTROL HTML content]** and **[!UICONTROL Text content]** . The field sequence is configured in the offer space.
 
-Advanced parameters let you specify a contact identification key (which can be made of up of various elements, the name and email field at the same time for example). For more on this, refer to the [Presenting an identified offer](https://helpx.adobe.com/campaign/standard/interaction/using/integration-via-javascript--client-side-.html#presenting-an-identified-offer) section.
+Advanced parameters let you specify a contact identification key (which can be made of up of various elements, the name and email field at the same time for example). For more on this, refer to the [Presenting an identified offer](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) section.
 
 The HTML or XML rendering is created via a rendering function. The sequence of the fields defined in the rendering function must be identical to the sequence configured in the content.
 
@@ -70,7 +70,7 @@ To create a new offer space, apply the following process:
 
    ![](assets/offer_space_create_007.png)
 
-If necessary, you can overload the XML rendering functions for inbound interactions. You can also overload HTML and text rendering functions for outbound interactions. For more on this, refer to [About inbound channels](https://helpx.adobe.com/campaign/standard/interaction/using/about-inbound-channels.html).
+If necessary, you can overload the XML rendering functions for inbound interactions. You can also overload HTML and text rendering functions for outbound interactions. For more on this, refer to [About inbound channels](../../interaction/using/about-inbound-channels.md).
 
 ## Offer proposition statuses {#offer-proposition-statuses}
 
@@ -132,7 +132,7 @@ The **[!UICONTROL Storage]** tab lets you define statuses for **proposed** and *
 For instance, the proposition (identifier **40004**) that matches the **Home insurance** offer displayed on the **Neobank** site contains the following URL:
 
 ```
-<BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
+<BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.md">
 ```
 
 As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL Accepted]** status (value **3**) is applied to the proposition and the visitor is redirected to a new page of the **Neobank** site to take out the insurance contract.
@@ -140,7 +140,7 @@ As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL 
 >[!NOTE]
 >
 >If you want to specify another status in the url (for example if an offer proposition is rejected), use the value corresponding to the desired status. Example: **[!UICONTROL Rejected]** = "5", **[!UICONTROL Presented]** = "1" and so on.  
->Statuses and their values can be retrieved in the **[!UICONTROL Offer propositions (nms)]** data schema. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/configuration/using/data-schemas.html).
+>Statuses and their values can be retrieved in the **[!UICONTROL Offer propositions (nms)]** data schema. For more on this, refer to [this page](../../configuration/using/data-schemas.md).
 
 **Outbound interaction**
 
@@ -160,4 +160,4 @@ If a recipient isn't eligible for any offers, this is shown in the preview.
 
 ![](assets/offer_space_overview_001.png)
 
-The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to [Extension example](https://helpx.adobe.com/campaign/standard/interaction/using/extension-example.html)).
+The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to [Extension example](../../interaction/using/extension-example.md)).

@@ -24,11 +24,11 @@ Adobe Campaign offers several types of reports, accessible via the customer cons
 
 The following types of report are available:
 
-* Reports on the entire platform, see [Global reports](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#global-reports).
-* Delivery reports, see [Delivery reports](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#delivery-reports).
-* Cumulated reports, see [Cumulative reports](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#cumulative-reports).
+* Reports on the entire platform, see [Global reports](../../reporting/using/reports-on-deliveries.md#global-reports).
+* Delivery reports, see [Delivery reports](../../reporting/using/reports-on-deliveries.md#delivery-reports).
+* Cumulated reports, see [Cumulative reports](../../reporting/using/reports-on-deliveries.md#cumulative-reports).
 
-You can access reports from the client console home page, the reports dashboard or the delivery list. The display mode of a report depends on its context. The list of main reports is available on the home page and lets you access delivery data quickly. This list can be changed to suit your needs. Refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-reports-creation-in-campaign.html) for more information.
+You can access reports from the client console home page, the reports dashboard or the delivery list. The display mode of a report depends on its context. The list of main reports is available on the home page and lets you access delivery data quickly. This list can be changed to suit your needs. Refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md) for more information.
 
 ## Using reports {#using-reports}
 
@@ -52,7 +52,7 @@ You can:
 >
 >Some reports feature charts (curve, bar, funnel, etc.). Move your cursor over a chart to display its values.
 
-For more information on these options, refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-adobe-campaign-reporting-tools.html).
+For more information on these options, refer to [this section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
 
 ## Global reports {#global-reports}
 
@@ -68,19 +68,19 @@ To display reports, click their names. The following reports are available by de
 >
 >This section shows only the reports linked to deliveries.
 
-* **[!UICONTROL Delivery throughput]** : refer to [Delivery throughput](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#delivery-throughput).
-* **[!UICONTROL Browsers]** : refer to [Browsers](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#browsers).
-* **[!UICONTROL Sharing to social networks]** : refer to [Sharing to social networks](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#sharing-to-social-networks).
-* **[!UICONTROL Statistics on sharing activities]** : refer to [Statistics on sharing activities](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#statistics-on-sharing-activities).
-* **[!UICONTROL Operating systems]** : refer to [Operating systems](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#operating-systems).
-* **[!UICONTROL URLs and click streams]** : refer to [URLs and click streams](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#urls-and-click-streams).
-* **[!UICONTROL Tracking indicators]** : refer to [Tracking indicators](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#tracking-indicators).
-* **[!UICONTROL Non-deliverables and bounces]** : refer to [Non-deliverables and bounces](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#non-deliverables-and-bounces).
-* **[!UICONTROL User activities]** : refer to [User activities](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#user-activities).
-* **[!UICONTROL Subscription tracking]** : refer to [Subscription tracking](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#subscription-tracking).
-* **[!UICONTROL Delivery summary]** : refer to [Delivery summary](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#delivery-summary).
-* **[!UICONTROL Delivery statistics]** : refer to [Delivery statistics](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#delivery-statistics).
-* **[!UICONTROL Breakdown of opens]** : refer to [Breakdown of opens](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#breakdown-of-opens).
+* **[!UICONTROL Delivery throughput]** : refer to [Delivery throughput](../../reporting/using/reports-on-deliveries.md#delivery-throughput).
+* **[!UICONTROL Browsers]** : refer to [Browsers](../../reporting/using/reports-on-deliveries.md#browsers).
+* **[!UICONTROL Sharing to social networks]** : refer to [Sharing to social networks](../../reporting/using/reports-on-deliveries.md#sharing-to-social-networks).
+* **[!UICONTROL Statistics on sharing activities]** : refer to [Statistics on sharing activities](../../reporting/using/reports-on-deliveries.md#statistics-on-sharing-activities).
+* **[!UICONTROL Operating systems]** : refer to [Operating systems](../../reporting/using/reports-on-deliveries.md#operating-systems).
+* **[!UICONTROL URLs and click streams]** : refer to [URLs and click streams](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams).
+* **[!UICONTROL Tracking indicators]** : refer to [Tracking indicators](../../reporting/using/reports-on-deliveries.md#tracking-indicators).
+* **[!UICONTROL Non-deliverables and bounces]** : refer to [Non-deliverables and bounces](../../reporting/using/reports-on-deliveries.md#non-deliverables-and-bounces).
+* **[!UICONTROL User activities]** : refer to [User activities](../../reporting/using/reports-on-deliveries.md#user-activities).
+* **[!UICONTROL Subscription tracking]** : refer to [Subscription tracking](../../reporting/using/reports-on-deliveries.md#subscription-tracking).
+* **[!UICONTROL Delivery summary]** : refer to [Delivery summary](../../reporting/using/reports-on-deliveries.md#delivery-summary).
+* **[!UICONTROL Delivery statistics]** : refer to [Delivery statistics](../../reporting/using/reports-on-deliveries.md#delivery-statistics).
+* **[!UICONTROL Breakdown of opens]** : refer to [Breakdown of opens](../../reporting/using/reports-on-deliveries.md#breakdown-of-opens).
 
 ### Delivery throughput {#delivery-throughput}
 
@@ -98,9 +98,9 @@ This report shows the breakdown of opens, clicks and transactions per half-hour,
 
 The following options are available:
 
-* **[!UICONTROL Opens]** : Total number of messages opened. Emails in text format are not taken into account. For more information on tracking opens, refer to [Tracking opens](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#tracking-opens-).
+* **[!UICONTROL Opens]** : Total number of messages opened. Emails in text format are not taken into account. For more information on tracking opens, refer to [Tracking opens](../../reporting/using/reports-on-deliveries.md#tracking-opens-).
 * **[!UICONTROL Clicks]** : Total number of clicks on links in deliveries. Clicks on unsubscription links and mirror pages are not taken into account.
-* **[!UICONTROL Transactions]** : Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](https://helpx.adobe.com/campaign/classic/configuration/using/about-web-tracking.html).
+* **[!UICONTROL Transactions]** : Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 
 ### Non-deliverables and bounces {#non-deliverables-and-bounces}
 
@@ -114,7 +114,7 @@ The **[!UICONTROL Number of messages processed]** represents the total number of
 
 >[!NOTE]
 >
->The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Quarantine management](https://helpx.adobe.com/campaign/classic/delivery/using/understanding-quarantine-management.html).
+>The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Quarantine management](../../delivery/using/understanding-quarantine-management.md).
 
 The first section of this report shows the breakdown of non-deliverables in the form of a table of values and a chart.
 
@@ -136,7 +136,7 @@ The following indicators are used:
 
   >[!NOTE]
   >
-  >This indicator only concerns deliveries on mobile channels. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/sms-channel.html).
+  >This indicator only concerns deliveries on mobile channels. For more on this, refer to [this section](../../delivery/using/sms-channel.md).
 
   You can open up each line of the value table by clicking the [+] symbol. For each error type, you can show the breakdown of error messages by domain.
 
@@ -158,7 +158,7 @@ You can open up each line of the value table by clicking the [+] symbol. For eac
 
 >[!NOTE]
 >
->The domain names displayed in this report are defined at cube level. To change theses values, edit the **[!UICONTROL Delivery logs (broadlogrcp)]** cube. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-cubes.html). The **[!UICONTROL Others]** category includes domain names that don't belong to a specific class.
+>The domain names displayed in this report are defined at cube level. To change theses values, edit the **[!UICONTROL Delivery logs (broadlogrcp)]** cube. For more on this, refer to [this section](../../reporting/using/about-cubes.md). The **[!UICONTROL Others]** category includes domain names that don't belong to a specific class.
 
 ### Browsers {#browsers}
 
@@ -199,7 +199,7 @@ The table of values uses the following indicators:
 
 ### Sharing to social networks {#sharing-to-social-networks}
 
-Viral marketing lets delivery recipients share information with their contact network: they can add a link to their profile (Facebook, Twitter, etc.) or send a message to a friend. Each share and each access to shared information is tracked within the delivery. For more information on viral marketing, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/viral-and-social-marketing.html).
+Viral marketing lets delivery recipients share information with their contact network: they can add a link to their profile (Facebook, Twitter, etc.) or send a message to a friend. Each share and each access to shared information is tracked within the delivery. For more information on viral marketing, refer to [this section](../../delivery/using/viral-and-social-marketing.md).
 
 This report shows the breakdown of shared and opened messages per social network (Facebook, Twitter, etc.) and/or per email.
 
@@ -236,7 +236,7 @@ This section includes two charts which represent the breakdown of sharing activi
 
 This report shows the evolution of shares to social networks (Facebook, Twitter, email, etc.) in time.
 
-For more information on viral marketing, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/viral-and-social-marketing.html).
+For more information on viral marketing, refer to [this section](../../delivery/using/viral-and-social-marketing.md).
 
 ![](assets/s_ncs_user_social_report2.png)
 
@@ -293,7 +293,7 @@ This report lets you monitor subscriptions to information services. It shows sub
 
 It can be displayed for a subscription by clicking the **[!UICONTROL Profiles and targets > Services and subscriptions]** node of the home page or the explorer. Select the desired subscription, and then click the **[!UICONTROL Reports]** tab. The **[!UICONTROL Subscriptions tracking]** report is available by default. It lets you see the subscription and unsubscription trends and the loyalty rate over a period. You can configure the representation of this data via the drop-down list. Click **[!UICONTROL Refresh]** to validate the selected configuration.
 
-For further information, refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/managing-subscriptions.html).
+For further information, refer to [this page](../../delivery/using/managing-subscriptions.md).
 
 The **[!UICONTROL Number subscribed to date]** represents the total number of people currently subscribed.
 
@@ -326,7 +326,7 @@ The following indicators are used:
 
   >[!NOTE]
   >
-  >For more on hard and soft bounces, refer to [Quarantine management](https://helpx.adobe.com/campaign/classic/delivery/using/understanding-quarantine-management.html).
+  >For more on hard and soft bounces, refer to [Quarantine management](../../delivery/using/understanding-quarantine-management.md).
 
 * **[!UICONTROL Opens]** : percentage of the number of targeted recipients who opened a message at least once compared to the number of messages processed successfully.
 * **[!UICONTROL Clicks]** : percentage of the number of people who clicked in a delivery at least once compared to the number of messages processed successfully. 
@@ -336,7 +336,7 @@ The following indicators are used:
 
 This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
 
-The number of opens corresponds to the total number of messages opened. Text format emails are not counted. For more information on Tracking opens, refer to the [Tracking opens](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#tracking-opens-) section.
+The number of opens corresponds to the total number of messages opened. Text format emails are not counted. For more information on Tracking opens, refer to the [Tracking opens](../../reporting/using/reports-on-deliveries.md#tracking-opens-) section.
 
 ![](assets/dlv_useragent_report.png)
 
@@ -359,19 +359,19 @@ You can track the execution of deliveries via various reports accessible from th
 
    By default, the following reports are available:
 
-    * **[!UICONTROL Delivery throughput]** : refer to [Delivery throughput](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#delivery-throughput).
-    * **[!UICONTROL Sharing to social networks]** : refer to [Sharing to social networks](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#sharing-to-social-networks).
-    * **[!UICONTROL Statistics on sharing activities]** : refer to [Statistics on sharing activities](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#statistics-on-sharing-activities).
-    * **[!UICONTROL Hot clicks]** : refer to [Hot clicks](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#hot-clicks).
-    * **[!UICONTROL Tracking statistics]** : refer to [Tracking statistics](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#tracking-statistics)
-    * **[!UICONTROL URLs and click streams]** : refer to [URLs and click streams](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#urls-and-click-streams).
-    * **[!UICONTROL Tracking indicators]** : refer to [Tracking indicators](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#tracking-indicators).
-    * **[!UICONTROL Non-deliverables and bounces]** : refer to [Non-deliverables and bounces](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#non-deliverables-and-bounces).
-    * **[!UICONTROL User activities]** : refer to [User activities](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#user-activities).
-    * **[!UICONTROL Delivery summary]** : refer to [Delivery summary](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#delivery-summary).
-    * **[!UICONTROL Subscription tracking]** : refer to [Subscription tracking](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#subscription-tracking).
-    * **[!UICONTROL Delivery statistics]** : refer to [Delivery statistics](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#delivery-statistics).
-    * **[!UICONTROL Breakdown of opens]** : refer to [Breakdown of opens](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#breakdown-of-opens).
+    * **[!UICONTROL Delivery throughput]** : refer to [Delivery throughput](../../reporting/using/reports-on-deliveries.md#delivery-throughput).
+    * **[!UICONTROL Sharing to social networks]** : refer to [Sharing to social networks](../../reporting/using/reports-on-deliveries.md#sharing-to-social-networks).
+    * **[!UICONTROL Statistics on sharing activities]** : refer to [Statistics on sharing activities](../../reporting/using/reports-on-deliveries.md#statistics-on-sharing-activities).
+    * **[!UICONTROL Hot clicks]** : refer to [Hot clicks](../../reporting/using/reports-on-deliveries.md#hot-clicks).
+    * **[!UICONTROL Tracking statistics]** : refer to [Tracking statistics](../../reporting/using/reports-on-deliveries.md#tracking-statistics)
+    * **[!UICONTROL URLs and click streams]** : refer to [URLs and click streams](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams).
+    * **[!UICONTROL Tracking indicators]** : refer to [Tracking indicators](../../reporting/using/reports-on-deliveries.md#tracking-indicators).
+    * **[!UICONTROL Non-deliverables and bounces]** : refer to [Non-deliverables and bounces](../../reporting/using/reports-on-deliveries.md#non-deliverables-and-bounces).
+    * **[!UICONTROL User activities]** : refer to [User activities](../../reporting/using/reports-on-deliveries.md#user-activities).
+    * **[!UICONTROL Delivery summary]** : refer to [Delivery summary](../../reporting/using/reports-on-deliveries.md#delivery-summary).
+    * **[!UICONTROL Subscription tracking]** : refer to [Subscription tracking](../../reporting/using/reports-on-deliveries.md#subscription-tracking).
+    * **[!UICONTROL Delivery statistics]** : refer to [Delivery statistics](../../reporting/using/reports-on-deliveries.md#delivery-statistics).
+    * **[!UICONTROL Breakdown of opens]** : refer to [Breakdown of opens](../../reporting/using/reports-on-deliveries.md#breakdown-of-opens).
 
 ### Tracking indicators {#tracking-indicators}
 
@@ -379,7 +379,7 @@ This report combines the key indicators for tracking the behavior of recipients 
 
 >[!NOTE]
 >
->Values calculated based on message opens are always estimates, due to the margin of error linked to emails in text format. The **[!UICONTROL Distinct opens/Sum of opens for the population reached]** indicators take this margin of error into account. For more information on tracking opens, refer to [Tracking opens](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#tracking-opens-).
+>Values calculated based on message opens are always estimates, due to the margin of error linked to emails in text format. The **[!UICONTROL Distinct opens/Sum of opens for the population reached]** indicators take this margin of error into account. For more information on tracking opens, refer to [Tracking opens](../../reporting/using/reports-on-deliveries.md#tracking-opens-).
 
 ![](assets/s_ncs_user_tracking_synth_report.png)
 
@@ -397,12 +397,12 @@ This report combines the key indicators for tracking the behavior of recipients 
 * **[!UICONTROL Distinct opens for the population reached]** : Estimation of the number of targeted recipients having opened a message at least once. Clicks on unsubscription links and mirror pages are taken into account. 
 * **[!UICONTROL Sum of opens for the population reached]** : Estimation of the total number of opens by targeted recipients. 
 * **[!UICONTROL Clicks on opt-out link]** : Number of clicks on the unsubscription link.
-* **[!UICONTROL Clicks on the mirror page link]** : Number of clicks on the link to the mirror page. In order to be taken into account, the link must be defined as such in the delivery wizard (tracked URLs). Refer to this [page](https://helpx.adobe.com/campaign/classic/delivery/using/monitoring-a-delivery.html). 
+* **[!UICONTROL Clicks on the mirror page link]** : Number of clicks on the link to the mirror page. In order to be taken into account, the link must be defined as such in the delivery wizard (tracked URLs). Refer to this [page](../../delivery/using/monitoring-a-delivery.md). 
 * **[!UICONTROL Estimation of forwards]** : Estimation of the number of emails forwarded by the targeted recipients. This value is calculated by subtracting the number of distinct people and the number of distinct recipients who clicked in the email.
 
   >[!NOTE]
   >
-  >For more information on the difference between distinct people and targeted recipients, refer to [Targeted persons / recipients](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#targeted-persons---recipients).
+  >For more information on the difference between distinct people and targeted recipients, refer to [Targeted persons / recipients](../../reporting/using/reports-on-deliveries.md#targeted-persons---recipients).
 
 **[!UICONTROL 3. Open and click-through rate]**
 
@@ -416,7 +416,7 @@ This table of values shows the breakdown of deliveries, opens, clicks and raw re
 
 >[!NOTE]
 >
->The domain names displayed in this report are defined in the itemized list used at cube level. To change, add or remove default domains, edit the **[!UICONTROL Domains]** itemized list and modify values and aliases. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/managing-enumerations.html). The **[!UICONTROL Others]** category includes domain names that don't belong to any value of the itemized list.
+>The domain names displayed in this report are defined in the itemized list used at cube level. To change, add or remove default domains, edit the **[!UICONTROL Domains]** itemized list and modify values and aliases. For more on this, refer to [this section](../../platform/using/managing-enumerations.md). The **[!UICONTROL Others]** category includes domain names that don't belong to any value of the itemized list.
 
 **[!UICONTROL 4. Generated click streams]**
 
@@ -441,11 +441,11 @@ This table of values shows the breakdown of deliveries, opens, clicks and raw re
 
   >[!NOTE]
   >
-  >In order for a visited page, transaction, amount or article to be taken into account, a webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](https://helpx.adobe.com/campaign/classic/configuration/using/about-web-tracking.html).
+  >In order for a visited page, transaction, amount or article to be taken into account, a webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 
 **[!UICONTROL 6. Sharing activities to email and social networks]**
 
-This section shows the number of messages shared on each social network. For more on this, refer to [Sharing to social networks](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#sharing-to-social-networks).
+This section shows the number of messages shared on each social network. For more on this, refer to [Sharing to social networks](../../reporting/using/reports-on-deliveries.md#sharing-to-social-networks).
 
 ### URLs and click streams {#urls-and-click-streams}
 
@@ -453,7 +453,7 @@ This report shows the list of pages visited following a delivery.
 
 ![](assets/s_ncs_user_url_report.png)
 
-You can configure the contents of this report by selecting: the score chart to be displayed, the time filter (since the action launch, over the first 6 hours following launch, etc.) and the data display mode (by label, by URL, by category - for more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/monitoring-a-delivery.html)). Click **[!UICONTROL Refresh]** to confirm your selection.
+You can configure the contents of this report by selecting: the score chart to be displayed, the time filter (since the action launch, over the first 6 hours following launch, etc.) and the data display mode (by label, by URL, by category - for more on this, refer to [this page](../../delivery/using/monitoring-a-delivery.md)). Click **[!UICONTROL Refresh]** to confirm your selection.
 
 The following rates are displayed in the upper section of the report:
 
@@ -461,7 +461,7 @@ The following rates are displayed in the upper section of the report:
 
   >[!NOTE]
   >
-  >For more information on tracking opens, refer to [Tracking opens](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#tracking-opens-).
+  >For more information on tracking opens, refer to [Tracking opens](../../reporting/using/reports-on-deliveries.md#tracking-opens-).
 
 * **[!UICONTROL Distinct clicks]** : Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully. 
 * **[!UICONTROL Cumulated clicks]** : Total number of clicks by targeted recipients (excluding unsubscription link and mirror page). The rate displayed is calculated based on the number of messages forwarded successfully.
@@ -488,7 +488,7 @@ This report provides all the main information on the delivery.
 This section has two indicators:
 
 * **[!UICONTROL Initial population]** : Total number of recipients targeted by the delivery. 
-* **[!UICONTROL Messages rejected by the rule]** : Number of addresses ignored during the analysis when applying typology rules: address missing, quarantined, blacklisted, etc. For more information on typology rules, refer to this [page](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#validation-process-with-typologies).
+* **[!UICONTROL Messages rejected by the rule]** : Number of addresses ignored during the analysis when applying typology rules: address missing, quarantined, blacklisted, etc. For more information on typology rules, refer to this [page](../../delivery/using/key-steps-when-creating-a-delivery.md#validation-process-with-typologies).
 
 **[!UICONTROL Causes of exclusion]**
 
@@ -523,9 +523,9 @@ It lets you track the marketing impact of the delivery. You can configure how va
 
 This report provides a table of values and a Pareto chart which display the time required for the delivery to reach maximum efficiency. The following indicators are used:
 
-* **[!UICONTROL Opens]** : Estimate of the time needed to reach a percentage of the total number of messages opened. Emails in text format aren't taken into account. For more information on tracking opens, refer to [Tracking opens](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#tracking-opens-).
+* **[!UICONTROL Opens]** : Estimate of the time needed to reach a percentage of the total number of messages opened. Emails in text format aren't taken into account. For more information on tracking opens, refer to [Tracking opens](../../reporting/using/reports-on-deliveries.md#tracking-opens-).
 * **[!UICONTROL Clicks]** : Estimate of the time required to reach a percentage of the total number of clicks recorded. Clicks on the opt-out link and the mirror page are not taken into account.
-* **[!UICONTROL Transactions]** : Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](https://helpx.adobe.com/campaign/classic/configuration/using/about-web-tracking.html).
+* **[!UICONTROL Transactions]** : Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 
 ## Cumulative reports {#cumulative-reports}
 
@@ -1474,7 +1474,7 @@ This sample will help you understanding the difference between a person/a people
 
 >[!NOTE]
 >
->These indicators are used in the **[!UICONTROL Tracking indicators]** report. For more on this, refer to [Tracking indicators](https://helpx.adobe.com/campaign/standard/reporting/using/reports-on-deliveries.html#tracking-indicators).
+>These indicators are used in the **[!UICONTROL Tracking indicators]** report. For more on this, refer to [Tracking indicators](../../reporting/using/reports-on-deliveries.md#tracking-indicators).
 
 Three links are added to a delivery. It is sent to 4 recipients:
 

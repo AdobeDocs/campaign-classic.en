@@ -49,7 +49,7 @@ You can also choose to carry out the simulation on all the offers or only those 
 
 You can enhance the simulation analysis by adding reporting axes on the target or the offers themselves via the **[!UICONTROL Calculations]** tab.
 
-To do this, click the **[!UICONTROL Add]** button and choose the appropriate fields. Axes will be used for calculating the simulation and are displayed in the analysis report. For more on this, refer to [Simulation tracking](https://helpx.adobe.com/campaign/standard/interaction/using/simulation-tracking.html).
+To do this, click the **[!UICONTROL Add]** button and choose the appropriate fields. Axes will be used for calculating the simulation and are displayed in the analysis report. For more on this, refer to [Simulation tracking](../../interaction/using/simulation-tracking.md).
 
 ![](assets/offer_simulation_011.png)
 

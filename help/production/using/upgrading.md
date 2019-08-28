@@ -18,27 +18,27 @@ snippet: y
 
 # Upgrading{#upgrading}
 
-Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html).
+Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.md).
 
 >[!CAUTION]
 >
->We strongly recommend making a database backup on each instance before updating. For more information, refer to [Backup](https://helpx.adobe.com/campaign/standard/production/using/backup.html).   
+>We strongly recommend making a database backup on each instance before updating. For more information, refer to [Backup](../../production/using/backup.md).   
 >To perform an upgrade, make sur you have the ability and permissions to access instances and logs.
 
 >[!NOTE]
 >
->Also refer to the [installation guide](https://helpx.adobe.com/campaign/classic/installation/using/general-architecture.html) and the [build upgrade](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) getting started.
+>Also refer to the [installation guide](../../installation/using/general-architecture.md) and the [build upgrade](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.md) getting started.
 
 ## In Windows {#in-windows}
 
 To update Adobe Campaign in a new version when delivering a new build, the following procedure should be applied in Windows:
 
-* [Shut down services](https://helpx.adobe.com/campaign/standard/production/using/upgrading.html#shut-down-services),
-* [Upgrade the Adobe Campaign server application](https://helpx.adobe.com/campaign/standard/production/using/upgrading.html#upgrade-the-adobe-campaign-server-application),
-* [Synchronize resources](https://helpx.adobe.com/campaign/standard/production/using/upgrading.html#synchronize-resources),
-* [Restart services](https://helpx.adobe.com/campaign/standard/production/using/upgrading.html#restart-services).
+* [Shut down services](../../production/using/upgrading.md#shut-down-services),
+* [Upgrade the Adobe Campaign server application](../../production/using/upgrading.md#upgrade-the-adobe-campaign-server-application),
+* [Synchronize resources](../../production/using/upgrading.md#synchronize-resources),
+* [Restart services](../../production/using/upgrading.md#restart-services).
 
-To find out how to update the client console, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/client-console-availability.html).
+To find out how to update the client console, refer to [this section](../../installation/using/client-console-availability.md).
 
 ### Shut down services {#shut-down-services}
 
@@ -98,7 +98,7 @@ This will enable you to carry out the following operations:
 >
 >This operation should be performed only once, and only on an (**nlserver web**) application server.
 
-Then check whether the synchronization has generated errors or warnings. For more on this, refer to [Resolving upgrade conflicts](https://helpx.adobe.com/campaign/standard/production/using/upgrading.html#resolving-upgrade-conflicts).
+Then check whether the synchronization has generated errors or warnings. For more on this, refer to [Resolving upgrade conflicts](../../production/using/upgrading.md#resolving-upgrade-conflicts).
 
 ### Restart services {#restart-services}
 
@@ -114,11 +114,11 @@ The services to be restarted are:
 
 To update Adobe Campaign in a new version when a new build is delivered, the procedure for Linux is as follows:
 
-* [Obtain updated packages](https://helpx.adobe.com/campaign/standard/production/using/upgrading.html#obtain-updated-packages),
-* [Perform an update](https://helpx.adobe.com/campaign/standard/production/using/upgrading.html#perform-an-update),
-* [Reboot the web server](https://helpx.adobe.com/campaign/standard/production/using/upgrading.html#reboot-the-web-server).
+* [Obtain updated packages](../../production/using/upgrading.md#obtain-updated-packages),
+* [Perform an update](../../production/using/upgrading.md#perform-an-update),
+* [Reboot the web server](../../production/using/upgrading.md#reboot-the-web-server).
 
-To find out how to update the client console, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/client-console-availability.html).
+To find out how to update the client console, refer to [this section](../../installation/using/client-console-availability.md).
 
 >[!NOTE]
 >
@@ -158,7 +158,7 @@ The file is **nlserver6-v7-XXX.rpm**
 
 >[!NOTE]
 >
->Full installation procedures are detailed in [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolving upgrade conflicts](https://helpx.adobe.com/campaign/standard/production/using/upgrading.html#resolving-upgrade-conflicts).
+>Full installation procedures are detailed in [this section](../../installation/using/installing-campaign-standard-packages.md). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolving upgrade conflicts](../../production/using/upgrading.md#resolving-upgrade-conflicts).
 
 ### Reboot the web server {#reboot-the-web-server}
 
@@ -257,7 +257,7 @@ The next time client consoles are connected, a window will inform users about th
 
 >[!NOTE]
 >
->Make sure the IIS_XPG user has the appropriate read rights for this installation file and refer to the [installation guide](https://helpx.adobe.com/campaign/classic/installation/using/general-architecture.html) for more information.
+>Make sure the IIS_XPG user has the appropriate read rights for this installation file and refer to the [installation guide](../../installation/using/general-architecture.md) for more information.
 
 ### In Linux {#in-linux-1}
 
@@ -275,5 +275,5 @@ The next time client consoles are connected, a window will inform users about th
 
 >[!NOTE]
 >
->Make sure the Apache user has the appropriate read rights for this installation file and refer to the [installation guide](https://helpx.adobe.com/campaign/classic/installation/using/general-architecture.html) for more information.
+>Make sure the Apache user has the appropriate read rights for this installation file and refer to the [installation guide](../../installation/using/general-architecture.md) for more information.
 

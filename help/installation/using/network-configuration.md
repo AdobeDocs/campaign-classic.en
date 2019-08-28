@@ -227,7 +227,7 @@ This server hosts Web forms, mirror pages, etc. The following ports need to be o
 
 ## Integration with Adobe Experience Manager {#integration-with-adobe-experience-manager}
 
-Integration between Adobe Campaign and Adobe Experience Manager requires opening several ports if the installation is "on-premise". For more information on configuring this integration, refer to the [detailed documentation](https://helpx.adobe.com/campaign/classic/integrations/using/about-adobe-experience-manager.html).
+Integration between Adobe Campaign and Adobe Experience Manager requires opening several ports if the installation is "on-premise". For more information on configuring this integration, refer to the [detailed documentation](../../integrations/using/about-adobe-experience-manager.md).
 
 <table> 
  <tbody> 

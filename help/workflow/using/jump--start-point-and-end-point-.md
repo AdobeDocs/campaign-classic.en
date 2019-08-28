@@ -30,4 +30,4 @@ You can insert several start point and end point jumps in the same workflow. The
 
 ![](assets/s_user_segmentation_jump_in.png)
 
-To improve the readability of the diagram, you can change the image associated with jumps to display the related number. See [Managing activity images](https://helpx.adobe.com/campaign/standard/workflow/using/managing-activity-images.html).
+To improve the readability of the diagram, you can change the image associated with jumps to display the related number. See [Managing activity images](../../workflow/using/managing-activity-images.md).

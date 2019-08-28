@@ -20,7 +20,7 @@ snippet: y
 
 The **[!UICONTROL Offers by cell]** activity lets you distribute the inbound population (from a query for example) into several segments and to specify an offer to present for each of these segments.
 
-This activity can only be used with **Interaction**. For more information, refer to this [section](https://helpx.adobe.com/campaign/classic/interaction/using/about-outbound-channels.html).
+This activity can only be used with **Interaction**. For more information, refer to this [section](../../interaction/using/about-outbound-channels.md).
 
 To do this:
 
@@ -33,5 +33,5 @@ To do this:
     
       ![](assets/int_offer_per_cell1.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](https://helpx.adobe.com/campaign/standard/workflow/using/cross-channel-deliveries.html).
+1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](../../workflow/using/cross-channel-deliveries.md).
 

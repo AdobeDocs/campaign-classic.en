@@ -64,6 +64,6 @@ There are two methods for extending an existing schema:
 
 >[!CAUTION]
 >
->For the modifications to be taken into account, you need to regenerate schemas. For more on this, refer to the [Regenerating schemas](https://helpx.adobe.com/campaign/standard/configuration/using/regenerating-schemas.html) section.   
->If the modifications impact the structure of the database, you need to run an update. For more on this, refer to the [Updating the database structure](https://helpx.adobe.com/campaign/standard/configuration/using/updating-the-database-structure.html) section.
+>For the modifications to be taken into account, you need to regenerate schemas. For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.   
+>If the modifications impact the structure of the database, you need to run an update. For more on this, refer to the [Updating the database structure](../../configuration/using/updating-the-database-structure.md) section.
 

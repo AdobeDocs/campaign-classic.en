@@ -22,27 +22,27 @@ The key steps when creating a delivery are as follows:
 
 1. Selecting the delivery.
 
-   For more on this, refer to [Creating an email delivery](https://helpx.adobe.com/campaign/standard/delivery/using/creating-an-email-delivery.html).
+   For more on this, refer to [Creating an email delivery](../../delivery/using/creating-an-email-delivery.md).
 
 1. Defining the delivery content.
 
-   For more on this, refer to [Defining the email content](https://helpx.adobe.com/campaign/standard/delivery/using/defining-the-email-content.html).
+   For more on this, refer to [Defining the email content](../../delivery/using/defining-the-email-content.md).
 
 1. Defining the target population.
 
-   For more on this, refer to [Identifying target populations](https://helpx.adobe.com/campaign/standard/delivery/using/identifying-target-populations.html)
+   For more on this, refer to [Identifying target populations](../../delivery/using/identifying-target-populations.md)
 
 1. Sending the delivery.
 
-   For more on this, refer to [Sending messages](https://helpx.adobe.com/campaign/standard/delivery/using/sending-messages.html)
+   For more on this, refer to [Sending messages](../../delivery/using/sending-messages.md)
 
 1. Monitoring the delivery (tracking, quarantine, reports, etc.).
 
-   For more on this, refer to the [Monitoring deliveries](https://helpx.adobe.com/campaign/classic/delivery/using/monitoring-a-delivery.html) and [Tracking deliveries](https://helpx.adobe.com/campaign/classic/delivery/using/about-message-tracking.html) sections.
+   For more on this, refer to the [Monitoring deliveries](../../delivery/using/monitoring-a-delivery.md) and [Tracking deliveries](../../delivery/using/about-message-tracking.md) sections.
 
 >[!NOTE]
 >
->The steps described below assume that all target recipients and their profiles are stored in the database, except in the case of external delivery (see [Selecting external recipients](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#selecting-external-recipients)).
+>The steps described below assume that all target recipients and their profiles are stored in the database, except in the case of external delivery (see [Selecting external recipients](../../delivery/using/key-steps-when-creating-a-delivery.md#selecting-external-recipients)).
 
 ## Selecting the delivery template {#selecting-the-delivery-template}
 
@@ -58,7 +58,7 @@ A default template is provided for each channel you have installed: direct mail,
 >
 >The channels offered in the list depend on your license agreement.
 
-You can create new delivery templates in order to pre-configure specific parameters to suit your needs. For further information about templates, see [About direct mail channel](https://helpx.adobe.com/campaign/standard/delivery/using/about-direct-mail-channel.html).
+You can create new delivery templates in order to pre-configure specific parameters to suit your needs. For further information about templates, see [About direct mail channel](../../delivery/using/about-direct-mail-channel.md).
 
 ## Identifying the delivery {#identifying-the-delivery}
 
@@ -75,14 +75,14 @@ You need to complete parameters to identify the delivery. To do this:
 
 1. Click **[!UICONTROL Continue]** to confirm this information and display the message configuration window.
 
-The delivery content is ready to be configured. For more on this, refer to [Defining the delivery content](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#defining-the-delivery-content).
+The delivery content is ready to be configured. For more on this, refer to [Defining the delivery content](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-the-delivery-content).
 
 For more details on selecting the delivery template for a specific channel, refer to the dedicated section:
 
-* [About email channel](https://helpx.adobe.com/campaign/standard/delivery/using/about-email-channel.html)
-* [About direct mail channel](https://helpx.adobe.com/campaign/standard/delivery/using/about-direct-mail-channel.html)
-* [SMS channel](https://helpx.adobe.com/campaign/standard/delivery/using/sms-channel.html)
-* [Mobile app channel](https://helpx.adobe.com/campaign/classic/delivery/using/about-mobile-app-channel.html)
+* [About email channel](../../delivery/using/about-email-channel.md)
+* [About direct mail channel](../../delivery/using/about-direct-mail-channel.md)
+* [SMS channel](../../delivery/using/sms-channel.md)
+* [Mobile app channel](../../delivery/using/about-mobile-app-channel.md)
 
 ## Defining the delivery content {#defining-the-delivery-content}
 
@@ -90,10 +90,10 @@ The delivery content definition is specific to each channel.
 
 For more on this, refer to the dedicated section:
 
-* [Defining the email content](https://helpx.adobe.com/campaign/standard/delivery/using/defining-the-email-content.html)
-* [Defining the SMS content](https://helpx.adobe.com/campaign/standard/delivery/using/sms-channel.html#defining-the-sms-content)
-* [Defining the direct mail content](https://helpx.adobe.com/campaign/standard/delivery/using/defining-the-direct-mail-content.html)
-* [Push notifications](https://helpx.adobe.com/campaign/classic/delivery/using/about-mobile-app-channel.html)
+* [Defining the email content](../../delivery/using/defining-the-email-content.md)
+* [Defining the SMS content](../../delivery/using/sms-channel.md#defining-the-sms-content)
+* [Defining the direct mail content](../../delivery/using/defining-the-direct-mail-content.md)
+* [Push notifications](../../delivery/using/about-mobile-app-channel.md)
 
 ## Defining the target population {#defining-the-target-population}
 
@@ -101,18 +101,18 @@ For more on this, refer to the dedicated section:
 
 For each delivery, you can define several types of target:
 
-* Recipients of the delivery, see [Selecting the main target](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#selecting-the-main-target).
-* Recipient of proof messages, in order to set up a validation cycle, see [Defining a specific proof target](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#defining-a-specific-proof-target).
-* Seed addresses, see [About seed addresses](https://helpx.adobe.com/campaign/standard/delivery/using/about-seed-addresses.html).
-* Control group - when the delivery is included in a marketing campaign, see [this section](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#defining-a-control-group).
+* Recipients of the delivery, see [Selecting the main target](../../delivery/using/key-steps-when-creating-a-delivery.md#selecting-the-main-target).
+* Recipient of proof messages, in order to set up a validation cycle, see [Defining a specific proof target](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target).
+* Seed addresses, see [About seed addresses](../../delivery/using/about-seed-addresses.md).
+* Control group - when the delivery is included in a marketing campaign, see [this section](../../campaign/using/setting-up-marketing-campaigns.md#defining-a-control-group).
 
-Once the population defined, you can define filtering criteria on the targeted recipients (see [Selecting the main target](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#selecting-the-main-target)) and on the proof recipients (see [Defining a specific proof target](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#defining-a-specific-proof-target)).
+Once the population defined, you can define filtering criteria on the targeted recipients (see [Selecting the main target](../../delivery/using/key-steps-when-creating-a-delivery.md#selecting-the-main-target)) and on the proof recipients (see [Defining a specific proof target](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target)).
 
 ### Selecting the main target {#selecting-the-main-target}
 
 In most cases, the main target is extracted from the Campaign database (default mode).
 
-Recipients can also be stored in an external file. The configuration of this type of delivery is presented in [Selecting external recipients](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#selecting-external-recipients).
+Recipients can also be stored in an external file. The configuration of this type of delivery is presented in [Selecting external recipients](../../delivery/using/key-steps-when-creating-a-delivery.md#selecting-external-recipients).
 
 To select the recipients of the delivery being created, follow the steps below:
 
@@ -123,7 +123,7 @@ To select the recipients of the delivery being created, follow the steps below:
 
 1. Select the target mapping in the **[!UICONTROL Target mapping]** drop-down list. Adobe Campaign default target mapping is **[!UICONTROL Recipients]** .
 
-   Other target mappings are available, and some can be related to your specific configuration. For more on target mappings, refer to [Selecting a target mapping](https://helpx.adobe.com/campaign/standard/delivery/using/selecting-a-target-mapping.html).
+   Other target mappings are available, and some can be related to your specific configuration. For more on target mappings, refer to [Selecting a target mapping](../../delivery/using/selecting-a-target-mapping.md).
 
 1. Click the **[!UICONTROL Add]** button to define restriction filters.
 
@@ -135,7 +135,7 @@ To select the recipients of the delivery being created, follow the steps below:
 
    The following target types are offered by default:
 
-    * **[!UICONTROL Filtering conditions]** : this option lets you define a query and display the result. The method for defining queries is presented in [this section](https://helpx.adobe.com/campaign/classic/platform/using/creating-filters.html#creating-an-advanced-filter).
+    * **[!UICONTROL Filtering conditions]** : this option lets you define a query and display the result. The method for defining queries is presented in [this section](../../platform/using/creating-filters.md#creating-an-advanced-filter).
     * **[!UICONTROL Subscribers of an information service]** : this option lets you select a newsletter to which the recipients must be subscribed to be targeted by the delivery being created.
     
       ![](assets/s_ncs_user_wizard_email02c.png)
@@ -158,8 +158,8 @@ To select the recipients of the delivery being created, follow the steps below:
 
     * **[!UICONTROL Recipients included in a folder]** : this option lets you target the profiles contained in a specific folder of the tree.
     * **[!UICONTROL A recipient]** : this option lets you select a specific recipient from the profiles in the database.
-    * **[!UICONTROL A list of recipients]** : this option lets you target a list of recipients. Lists are presented in the [this section](https://helpx.adobe.com/campaign/classic/platform/using/creating-and-managing-lists.html).
-    * **[!UICONTROL User filters]** : this option lets you access the preconfigured filters to use them as filtering criteria for profiles in the database. Preconfigured filters are presented in [this section](https://helpx.adobe.com/campaign/classic/platform/using/creating-filters.html#saving-a-filter).
+    * **[!UICONTROL A list of recipients]** : this option lets you target a list of recipients. Lists are presented in the [this section](../../platform/using/creating-and-managing-lists.md).
+    * **[!UICONTROL User filters]** : this option lets you access the preconfigured filters to use them as filtering criteria for profiles in the database. Preconfigured filters are presented in [this section](../../platform/using/creating-filters.md#saving-a-filter).
     * The option **[!UICONTROL Exclude recipients corresponding to this segment]** lets you target on recipients who do not satisfy the defined target criteria. To use this option, select the appropriate box and then apply targeting, as defined earlier, to exclude the resulting profiles.
     
       ![](assets/s_ncs_user_wizard_email02g.png)
@@ -211,7 +211,7 @@ The following options are available:
 
   >[!NOTE]
   >
-  >For further information about quarantine management, refer to [Understanding quarantine management](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-quarantine-management.html).
+  >For further information about quarantine management, refer to [Understanding quarantine management](../../delivery/using/understanding-quarantine-management.md).
 
 * **[!UICONTROL Limit delivery]** to a given number of messages. This option lets you enter the maximum number of messages to be sent. If the content of the target exceeds the number of messages indicated, a random selection is applied to the target.
 
@@ -233,7 +233,7 @@ To select the target of the proofs, follow the steps below:
 
 When selecting the proof target, the **[!UICONTROL Definition of a specific proof target]** option lets you select the proof recipients from the profiles in the database.
 
-Select this option to choose recipients using the **[!UICONTROL Add]** button, as in the case of defining the main target. See [Selecting the main target](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#selecting-the-main-target).
+Select this option to choose recipients using the **[!UICONTROL Add]** button, as in the case of defining the main target. See [Selecting the main target](../../delivery/using/key-steps-when-creating-a-delivery.md#selecting-the-main-target).
 
 ![](assets/s_ncs_user_wizard_email01_143.png)
 
@@ -269,7 +269,7 @@ You can use **[!UICONTROL Seed addresses]** as target of the proofs: this option
 
 >[!NOTE]
 >
->Seed addresses are presented in [About seed addresses](https://helpx.adobe.com/campaign/standard/delivery/using/about-seed-addresses.html).
+>Seed addresses are presented in [About seed addresses](../../delivery/using/about-seed-addresses.md).
 
 You can combine the definition of a specific proof target and the use of seed addresses using the **[!UICONTROL Specific target and Seed addresses]** option. The related configurations are then defined in two separate sub-tabs.
 
@@ -284,13 +284,13 @@ To do this:
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. By default, recipients are imported in the database. You must select the **[!UICONTROL Target mapping]** . For more on target mappings, refer to [Selecting a target mapping](https://helpx.adobe.com/campaign/standard/delivery/using/selecting-a-target-mapping.html)
+1. By default, recipients are imported in the database. You must select the **[!UICONTROL Target mapping]** . For more on target mappings, refer to [Selecting a target mapping](../../delivery/using/selecting-a-target-mapping.md)
 
    You can also choose **[!UICONTROL Do not import the recipients into the database]** .
 
 1. When importing the recipients, click the **[!UICONTROL File format definition...]** link to select and configure the external file.
 
-   For more information on data import, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/importing-data.html#step-2---source-file-selection).
+   For more information on data import, refer to [this section](../../platform/using/importing-data.md#step-2---source-file-selection).
 
 1. Click **[!UICONTROL Finish]** and configure your delivery as a standard delivery.
 
@@ -310,11 +310,11 @@ When a delivery has been created and configured, you must validate it before sen
 
 To do this:
 
-1. Analyze the delivery: this step lets you prepare the messages to deliver. Refer to [Analyzing the delivery](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#analyzing-the-delivery).
+1. Analyze the delivery: this step lets you prepare the messages to deliver. Refer to [Analyzing the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#analyzing-the-delivery).
 
-   Available validation modes are detailed in [Changing the approval mode](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#changing-the-approval-mode).
+   Available validation modes are detailed in [Changing the approval mode](../../delivery/using/key-steps-when-creating-a-delivery.md#changing-the-approval-mode).
 
-1. Send proofs: this step lets you approve content, URLs, personalization fields, etc. Refer to [Sending a proof](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#sending-a-proof) and [Defining a specific proof target](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#defining-a-specific-proof-target).
+1. Send proofs: this step lets you approve content, URLs, personalization fields, etc. Refer to [Sending a proof](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof) and [Defining a specific proof target](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target).
 
 >[!CAUTION]
 >
@@ -332,7 +332,7 @@ The **[!UICONTROL Analyze]** button lets you launch the analysis manually. The p
 
 >[!NOTE]
 >
->The validation rules are described in [Validation process with typologies](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#validation-process-with-typologies).
+>The validation rules are described in [Validation process with typologies](../../delivery/using/key-steps-when-creating-a-delivery.md#validation-process-with-typologies).
 
 You can stop this job at any time by clicking **[!UICONTROL Stop]** .
 
@@ -365,8 +365,8 @@ The delivery parameters **[!UICONTROL Analysis]** tab lets you define a set of i
 This tab gives access to the following options:
 
 * **[!UICONTROL Label and code of the delivery]** : the options concerning this section of the screen are used to calculate the values of these fields during the delivery analysis phase. The **[!UICONTROL Calculate the execution folder during the delivery analysis]** field computes the name of the folder that will contain this delivery action during the analysis phase.
-* **[!UICONTROL Approval mode]** : this field lets you select the type of delivery approval. The approval modes are presented in [Validation process with typologies](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#validation-process-with-typologies).
-* **[!UICONTROL Prepare the personalization data with a workflow]** : this option allows to prepare the personalization data contained in your delivery in an automatic workflow. It allows to highly improve the delivery analysis performance when a lot of data are being processed, especially if the personalization data come from an external table through FDA. Refer to the [Accessing an external database (FDA)](https://helpx.adobe.com/campaign/classic/platform/using/accessing-an-external-database.html#optimizing-email-personalization-with-external-data) section.
+* **[!UICONTROL Approval mode]** : this field lets you select the type of delivery approval. The approval modes are presented in [Validation process with typologies](../../delivery/using/key-steps-when-creating-a-delivery.md#validation-process-with-typologies).
+* **[!UICONTROL Prepare the personalization data with a workflow]** : this option allows to prepare the personalization data contained in your delivery in an automatic workflow. It allows to highly improve the delivery analysis performance when a lot of data are being processed, especially if the personalization data come from an external table through FDA. Refer to the [Accessing an external database (FDA)](../../platform/using/accessing-an-external-database.md#optimizing-email-personalization-with-external-data) section.
 * **[!UICONTROL Start job in a detached process]** : This option lets you start the delivery analysis in a separate process. The analysis function uses the Adobe Campaign application server process (web nlserver) by default. By selecting this option, you ensure that the analysis will be completed even in the event of application server failure.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : this option adds the SQL query logs to the delivery journal during the analysis phase.
 * **[!UICONTROL Ignore personalization scripts during sending]** : this option lets you bypass the interpretation of JavaScript directives found in HTML content. They will be displayed as is in the delivered contents. These directives are introduced with the **<%=** tag)
@@ -377,21 +377,21 @@ To detect possible errors in message configuration, Adobe highly recommend setti
 
 >[!NOTE]
 >
->* Available validation modes are detailed in [Changing the approval mode](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#changing-the-approval-mode).
->* Configuration of the proof target is explained in [Defining a specific proof target](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#defining-a-specific-proof-target).
+>* Available validation modes are detailed in [Changing the approval mode](../../delivery/using/key-steps-when-creating-a-delivery.md#changing-the-approval-mode).
+>* Configuration of the proof target is explained in [Defining a specific proof target](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target).
 >
 
 To send a proof, follow the steps below:
 
-1. Make sure the proof target has been configured as described in [Defining a specific proof target](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#defining-a-specific-proof-target).
+1. Make sure the proof target has been configured as described in [Defining a specific proof target](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target).
 1. Click **[!UICONTROL Send a proof]** on the top bar of the delivery wizard.
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
 
-1. Start message analysis. See [Analyzing the delivery](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#analyzing-the-delivery).
+1. Start message analysis. See [Analyzing the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#analyzing-the-delivery).
 1. Send the message.
 
-   After being sent, the proof appears in the delivery list, it is automatically created and numbered. It can be edited if you wish to access its content and properties. Refer to this [page](https://helpx.adobe.com/campaign/classic/delivery/using/monitoring-a-delivery.html#delivery-dashboard).
+   After being sent, the proof appears in the delivery list, it is automatically created and numbered. It can be edited if you wish to access its content and properties. Refer to this [page](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
 
    ![](assets/s_ncs_user_delivery_validation_cycle_03a.png)
 
@@ -416,7 +416,7 @@ The **[!UICONTROL Advanced]** tab of delivery properties lets you define the pro
 The following options are available:
 
 * The first option lets you keep the proof doubles.
-* Both of the following options let you keep blacklisted recipients and addresses in quarantine. See the description of these options for the main target in [Customizing exclusion settings](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#customizing-exclusion-settings). Unlike the target of a delivery, where these addresses are excluded by default, they are kept by default for the target of a proof.
+* Both of the following options let you keep blacklisted recipients and addresses in quarantine. See the description of these options for the main target in [Customizing exclusion settings](../../delivery/using/key-steps-when-creating-a-delivery.md#customizing-exclusion-settings). Unlike the target of a delivery, where these addresses are excluded by default, they are kept by default for the target of a proof.
 * The **[!UICONTROL Keep the delivery code for the proof]** option lets you give the proof the same delivery code as the one defined for the delivery to which it relates. This code is specified in the first step of the delivery wizard.
 * By default, the subject of the proof is prefixed by 'Proof #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.
 
@@ -448,7 +448,7 @@ The **[!UICONTROL Rule]** tab gives a list of the typology rules to apply. Selec
 
 >[!NOTE]
 >
->**[!UICONTROL Arbitration]** type typologies are used within the framework of sales pressure management. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/campaign/using/about-marketing-resource-management.html).
+>**[!UICONTROL Arbitration]** type typologies are used within the framework of sales pressure management. For more on this, refer to [this section](../../campaign/using/about-marketing-resource-management.md).
 
 ### Changing the approval mode {#changing-the-approval-mode}
 
@@ -477,7 +477,7 @@ The following approval modes are available:
 >[!NOTE]
 >
 >Only the delivery owner can start a delivery. In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field.  
->Refer to [this section](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#selecting-reviewers) for further information.
+>Refer to [this section](../../campaign/using/setting-up-marketing-campaigns.md#selecting-reviewers) for further information.
 
 Before sending the delivery, you can define the sending parameters in the delivery properties, via the **[!UICONTROL Delivery]** tab.
 
@@ -499,7 +499,7 @@ Before sending the delivery, you can define the sending parameters in the delive
 
 * **[!UICONTROL Send using multiple waves]**
 
-  For more on this, refer to the [Sending using multiple waves](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#sending-using-multiple-waves) section.
+  For more on this, refer to the [Sending using multiple waves](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-using-multiple-waves) section.
 
 * **[!UICONTROL Test SMTP delivery]**
 
@@ -508,13 +508,13 @@ Before sending the delivery, you can define the sending parameters in the delive
   >[!NOTE]
   >
   >Using this option is not advised when installing using mid-sourcing as to not call mta.  
-  >For more information on configuring an SMTP server, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#personalizing-delivery-parameters).
+  >For more information on configuring an SMTP server, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
 * **[!UICONTROL Archive emails]**
 
-  This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [Archiving emails](https://helpx.adobe.com/campaign/standard/delivery/using/sending-messages.html#archiving-emails).
+  This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [Archiving emails](../../delivery/using/sending-messages.md#archiving-emails).
 
-Once your delivery is ready to be sent, you must first run the delivery analysis. This analysis checks the validity of the message content and corrects any errors before sending messages to the main target. for more on this, refer to [Analyzing the delivery](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#analyzing-the-delivery).
+Once your delivery is ready to be sent, you must first run the delivery analysis. This analysis checks the validity of the message content and corrects any errors before sending messages to the main target. for more on this, refer to [Analyzing the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#analyzing-the-delivery).
 
 Once the analysis is complete, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages.
 
@@ -524,9 +524,9 @@ You can then close the delivery wizard and track the execution of the delivery f
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Monitoring a delivery](https://helpx.adobe.com/campaign/standard/delivery/using/monitoring-a-delivery.html)
-* [Understanding delivery failures](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-delivery-failures.html)
-* [About message tracking](https://helpx.adobe.com/campaign/standard/delivery/using/about-message-tracking.html)
+* [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md)
+* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
+* [About message tracking](../../delivery/using/about-message-tracking.md)
 
 ### Scheduling the delivery sending {#scheduling-the-delivery-sending}
 
@@ -599,14 +599,14 @@ To balance the load, you can divide deliveries into several batches. Configure t
     
       ![](assets/s_ncs_user_wizard_waves_create.png)
 
-   A specific typology rule, **[!UICONTROL Wave scheduling check]** , ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [Validation process with typologies](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#validation-process-with-typologies).
+   A specific typology rule, **[!UICONTROL Wave scheduling check]** , ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [Validation process with typologies](../../delivery/using/key-steps-when-creating-a-delivery.md#validation-process-with-typologies).
 
    >[!CAUTION]
    >
    >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent.   
-   >You must also allow enough time for retries when configuring the last waves. See [Additional delivery configurations](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#additional-delivery-configurations).
+   >You must also allow enough time for retries when configuring the last waves. See [Additional delivery configurations](../../delivery/using/key-steps-when-creating-a-delivery.md#additional-delivery-configurations).
 
-1. To monitor your sends, go to the delivery logs. See [this page](https://helpx.adobe.com/campaign/classic/delivery/using/monitoring-a-delivery.html#delivery-logs-and-history).
+1. To monitor your sends, go to the delivery logs. See [this page](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).
 
    You can see the deliveries that were already sent in the processed waves ( **[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves ( **[!UICONTROL Pending]** status).
 
@@ -637,18 +637,18 @@ The two examples below are the most common use cases for using multiple waves.
 When delivery has been launched, various additional configurations can be used to manage its life cycle. You can access it from the delivery properties.
 
 * The **[!UICONTROL Personalization]** tab lets you edit the **recipient profile loading** query. The result of this query can be viewed via the **[!UICONTROL Preview]** tab in the message contents editor. You can also add more script objects, which will be loaded during the analysis phase.
-* The configuration and management of message tracking are presented in this [section](https://helpx.adobe.com/campaign/classic/delivery/using/about-message-tracking.html).
-* Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [Validation process with typologies](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#validation-process-with-typologies).
+* The configuration and management of message tracking are presented in this [section](../../delivery/using/about-message-tracking.md).
+* Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [Validation process with typologies](../../delivery/using/key-steps-when-creating-a-delivery.md#validation-process-with-typologies).
 
 ### Configuring retries {#configuring-retries}
 
-Temporarily undelivered messages due to a **Soft** or **Ignored** error are subject to an automatic retry. The delivery failure types and reasons are presented in this [section](https://helpx.adobe.com/campaign/classic/delivery/using/understanding-delivery-failures.html#delivery-failure-types-and-reasons).
+Temporarily undelivered messages due to a **Soft** or **Ignored** error are subject to an automatic retry. The delivery failure types and reasons are presented in this [section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 The central section of the **[!UICONTROL Delivery]** tab for delivery parameters indicates how many retries should be performed the day after the delivery and the minimum delay between retries.
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#defining-validity-period)).
+By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-validity-period)).
 
 ### Defining validity period {#defining-validity-period}
 
@@ -664,7 +664,7 @@ When the delivery has been launched, the messages (and any retries) can be sent 
 
   The **[!UICONTROL Validity limit]** field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
-  The values in this field can be expressed in the units listed in [this section](https://helpx.adobe.com/campaign/classic/platform/using/adobe-campaign-workspace.html#default-units).
+  The values in this field can be expressed in the units listed in [this section](../../platform/using/adobe-campaign-workspace.md#default-units).
 
 ## Analysis priority {#analysis-priority-}
 

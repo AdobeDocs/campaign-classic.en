@@ -22,7 +22,7 @@ snippet: y
 
 Online surveys are fully configurable and customizable to satisfy your requirements. The parameters must be entered in the properties window.
 
-The available parameters are detailed in [this section](https://helpx.adobe.com/campaign/classic/web/using/defining-web-forms-properties.html).
+The available parameters are detailed in [this section](../../web/using/defining-web-forms-properties.md).
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 

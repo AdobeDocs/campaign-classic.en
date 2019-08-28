@@ -18,7 +18,7 @@ snippet: y
 
 # Email Deliverability{#email-deliverability}
 
-The workflow detailed below is installed with the **Email Deliverability** module by default. For more on this module, refer to this [section](https://helpx.adobe.com/campaign/classic/delivery/using/about-deliverability.html).
+The workflow detailed below is installed with the **Email Deliverability** module by default. For more on this module, refer to this [section](../../delivery/using/about-deliverability.md).
 
 <table> 
  <tbody> 

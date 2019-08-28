@@ -123,7 +123,7 @@ Once execution is complete, open the simulation and click the **[!UICONTROL Resu
 1. The **[!UICONTROL Alerts]** sub-tab groups all alert messages generated during the simulation. Alert messages can be sent in case of capacity overload (if the number of recipients targeted exceeds the set capacity, for instance).
 1. The **[!UICONTROL Exploration of the exclusions]** sub-tab lets you create a result analysis table. The user needs to indicate variables in the abscissa/ordinates axes.
 
-   For an example of analysis table creation, refer to the end of [Exploring results](https://helpx.adobe.com/campaign/standard/campaign/using/campaign-simulations.html#exploring-results).
+   For an example of analysis table creation, refer to the end of [Exploring results](../../campaign/using/campaign-simulations.md#exploring-results).
 
 ### Viewing results {#viewing-results}
 
@@ -137,7 +137,7 @@ The **[!UICONTROL Audit]** tab lets you monitor simulation execution. The **[!UI
 
 The **[!UICONTROL Exploration of the exclusions]** sub-tab lets you analyze the data resulting from a simulation.
 
-Descriptive analysis is detailed in [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-adobe-campaign-reporting-tools.html).
+Descriptive analysis is detailed in [this section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
 
 ## Results of a simulation {#results-of-a-simulation}
 
@@ -155,7 +155,7 @@ The following reports are provided by default:
 
 >[!NOTE]
 >
->You can create new reports and add them to the ones offered. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-adobe-campaign-reporting-tools.html).
+>You can create new reports and add them to the ones offered. For more on this, refer to [this section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
 
 To access reports, click the **[!UICONTROL Reports]** link of the targeted simulation via its dashboard.
 
@@ -186,7 +186,7 @@ To compare results, you need to use reports. Indeed, Adobe Campaign lets you sav
 
 ### Reporting axes {#reporting-axes}
 
-The **[!UICONTROL Calculations]** tab lets you define reporting axes on the target. Theses axes will be used during result analysis (refer to [Exploring results](https://helpx.adobe.com/campaign/standard/campaign/using/campaign-simulations.html#exploring-results)).
+The **[!UICONTROL Calculations]** tab lets you define reporting axes on the target. Theses axes will be used during result analysis (refer to [Exploring results](../../campaign/using/campaign-simulations.md#exploring-results)).
 
 >[!NOTE]
 >
@@ -226,4 +226,4 @@ Delivery target overlaps indicate the targeted recipients in at least two delive
 >
 >This sub-tab is only displayed if the **[!UICONTROL Generate target recovery statistics]** option has been enabled.
 
-The information on reporting axes can be processed in exclusion analysis reports created in the **[!UICONTROL Exploring exclusions]** sub-tab. For more on this, refer to [Exploring results](https://helpx.adobe.com/campaign/standard/campaign/using/campaign-simulations.html#exploring-results).
+The information on reporting axes can be processed in exclusion analysis reports created in the **[!UICONTROL Exploring exclusions]** sub-tab. For more on this, refer to [Exploring results](../../campaign/using/campaign-simulations.md#exploring-results).

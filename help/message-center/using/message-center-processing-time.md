@@ -33,5 +33,5 @@ Just like for the **[!UICONTROL Message Center service level]** report, you can 
 
 >[!NOTE]
 >
->The warning (orange) and alert (red) indicator thresholds can be configured in Adobe Campaign deployment wizard. Refer to [Monitoring thresholds](https://helpx.adobe.com/campaign/standard/message-center/using/monitoring-thresholds.html).
+>The warning (orange) and alert (red) indicator thresholds can be configured in Adobe Campaign deployment wizard. Refer to [Monitoring thresholds](../../message-center/using/monitoring-thresholds.md).
 

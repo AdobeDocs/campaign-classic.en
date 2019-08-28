@@ -75,5 +75,5 @@ nlserver config -internalpassword
 
 >[!CAUTION]
 >
->The **internal** password must be identical for all the tracking servers. For more information, refer to the [Internal identifier](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#internal-identifier) and [About permissions](https://helpx.adobe.com/campaign/classic/platform/using/access-management.html#about-permissions) sections.
+>The **internal** password must be identical for all the tracking servers. For more information, refer to the [Internal identifier](../../installation/using/configuring-campaign-server.md#internal-identifier) and [About permissions](../../platform/using/access-management.md#about-permissions) sections.
 

@@ -38,7 +38,7 @@ A seed address lets you display a preview of your message, send a proof, and tes
 
    ![](assets/messagecenter_create_seedaddr_003bis.png)
 
-1. Insert test data (refer to [Personalization data](https://helpx.adobe.com/campaign/standard/message-center/using/personalization-data.html)).
+1. Insert test data (refer to [Personalization data](../../message-center/using/personalization-data.md)).
 
    ![](assets/messagecenter_create_custo_001.png)
 
@@ -48,9 +48,9 @@ A seed address lets you display a preview of your message, send a proof, and tes
 
    ![](assets/messagecenter_create_seedaddr_004.png)
 
-1. Follow the configuration steps for a seed address detailed in the [Creating a seed address](https://helpx.adobe.com/campaign/standard/message-center/using/managing-seed-addresses-in-transactional-messages.html#creating-a-seed-address) section.
+1. Follow the configuration steps for a seed address detailed in the [Creating a seed address](../../message-center/using/managing-seed-addresses-in-transactional-messages.md#creating-a-seed-address) section.
 1. Repeat the process to create as many addresses as you need.
 
    ![](assets/messagecenter_create_seedaddr_008.png)
 
-Once the addresses are created, you can display their preview and personalization. Refer to [Transactional message preview](https://helpx.adobe.com/campaign/standard/message-center/using/transactional-message-preview.html).
+Once the addresses are created, you can display their preview and personalization. Refer to [Transactional message preview](../../message-center/using/transactional-message-preview.md).

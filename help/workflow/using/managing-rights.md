@@ -24,7 +24,7 @@ Generally speaking, operators acting on workflows need to access the files conta
 
 They must also be mapped to the named rights that coincide with the actions performed by workflows which they will affect (recipient import, file access, fusion, SQL script execution, etc.).
 
-For more on managing operators and permissions, refer to this [section](https://helpx.adobe.com/campaign/classic/platform/using/access-management.html).
+For more on managing operators and permissions, refer to this [section](../../platform/using/access-management.md).
 
 ## Operator groups {#operator-groups}
 

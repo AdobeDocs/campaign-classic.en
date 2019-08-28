@@ -58,7 +58,7 @@ The **[!UICONTROL Position]** fields let you define the position of elements in 
 >[!NOTE]
 >
 >Rendering templates are stored in the **[!UICONTROL Administration > Configuration > Form rendering]** node.  
->For more on this, refer to [Customizing form rendering](https://helpx.adobe.com/campaign/standard/web/using/form-rendering.html#customizing-form-rendering)
+>For more on this, refer to [Customizing form rendering](../../web/using/form-rendering.md#customizing-form-rendering)
 
 ## Customizing form rendering {#customizing-form-rendering}
 
@@ -72,9 +72,9 @@ To do this, use the **[!UICONTROL Advanced]** tab.
 
 It enables you to define the following properties:
 
-* **[!UICONTROL Label position]** : see [Defining the position of labels](https://helpx.adobe.com/campaign/standard/web/using/defining-web-forms-layout.html#defining-the-position-of-labels),
+* **[!UICONTROL Label position]** : see [Defining the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels),
 * **[!UICONTROL Label format]** : Word wrap or No word wrap,
-* **[!UICONTROL Number of cells]** : see [Positioning the fields on the page](https://helpx.adobe.com/campaign/standard/web/using/defining-web-forms-layout.html#positioning-the-fields-on-the-page),
+* **[!UICONTROL Number of cells]** : see [Positioning the fields on the page](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page),
 * **[!UICONTROL Horizontal alignment]** (Left, Right, Centered) and **[!UICONTROL Vertical alignment]** (High, Low, Middle),
 * **[!UICONTROL Width]** of the zone: this can be expressed as a percentage or in ems, points, or pixels (default value),
 * Maximum **[!UICONTROL Length]** : Maximum number of characters allowed (for Text, Number and Password type controls),
@@ -101,7 +101,7 @@ This lets you reference an icon that will be displayed in the page's title bar, 
 
 ## Defining control settings {#defining-control-settings}
 
-When the user fills in the form, a check is automatically carried out on certain fields depending on their format or configuration. This lets you make certain fields mandatory (refer to [Defining mandatory fields](https://helpx.adobe.com/campaign/standard/web/using/form-rendering.html#defining-mandatory-fields)) or check the format of the data entered (refer to [Checking data format](https://helpx.adobe.com/campaign/standard/web/using/form-rendering.html#checking-data-format)). Checks are carried out during page approval (by clicking a link or button which enables an output transition).
+When the user fills in the form, a check is automatically carried out on certain fields depending on their format or configuration. This lets you make certain fields mandatory (refer to [Defining mandatory fields](../../web/using/form-rendering.md#defining-mandatory-fields)) or check the format of the data entered (refer to [Checking data format](../../web/using/form-rendering.md#checking-data-format)). Checks are carried out during page approval (by clicking a link or button which enables an output transition).
 
 ### Defining mandatory fields {#defining-mandatory-fields}
 
@@ -149,17 +149,17 @@ In the field selection window, you can choose from the following data:
 
 * The main tree contains the parameters of the form context. The default parameters are the Identifier (which matches the encrypted identifier of the recipient), Language and Origin.
 
-  For more on this, refer to this [page](https://helpx.adobe.com/campaign/classic/web/using/defining-web-forms-properties.html#form-url-parameters).
+  For more on this, refer to this [page](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
 * The **[!UICONTROL Recipients]** sub-tree contains the input fields inserted into the form and stored in the database.
 
-  For more on this, refer to [Storing data in the database](https://helpx.adobe.com/campaign/standard/web/using/web-forms-answers.html#storing-data-in-the-database). 
+  For more on this, refer to [Storing data in the database](../../web/using/web-forms-answers.md#storing-data-in-the-database). 
 
-* The **[!UICONTROL Variables]** sub-tree contains the available variables for this form. For more on this, refer to [Storing data in a local variable](https://helpx.adobe.com/campaign/standard/web/using/web-forms-answers.html#storing-data-in-a-local-variable).
+* The **[!UICONTROL Variables]** sub-tree contains the available variables for this form. For more on this, refer to [Storing data in a local variable](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable).
 
-For more on this, refer to the use case available here: [Displaying different options depending on the selected values](https://helpx.adobe.com/campaign/standard/web/using/use-cases--web-forms.html#displaying-different-options-depending-on-the-selected-values).
+For more on this, refer to the use case available here: [Displaying different options depending on the selected values](../../web/using/use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
 
-You can also condition the display of form pages using the **[!UICONTROL Test]** object. For more on this, refer to this [page](https://helpx.adobe.com/campaign/classic/web/using/defining-web-forms-page-sequencing.html#conditional-page-display).
+You can also condition the display of form pages using the **[!UICONTROL Test]** object. For more on this, refer to this [page](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
 
 ## Importing elements from an existing form {#importing-elements-from-an-existing-form}
 

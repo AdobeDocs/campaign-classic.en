@@ -28,7 +28,7 @@ A **[!UICONTROL List with group]** type table lets you group data in the table a
 
 >[!CAUTION]
 >
->The **[!UICONTROL Page]** activity containing the table must be preceded by a **[!UICONTROL Query]** or **[!UICONTROL Script]** activity to collect the data to be analyzed in the report. For more on these activities, refer to [Collecting data to analyze](https://helpx.adobe.com/campaign/standard/reporting/using/collecting-data-to-analyze.html) and [Script activity](https://helpx.adobe.com/campaign/standard/reporting/using/advanced-functionalities.html#script-activity).
+>The **[!UICONTROL Page]** activity containing the table must be preceded by a **[!UICONTROL Query]** or **[!UICONTROL Script]** activity to collect the data to be analyzed in the report. For more on these activities, refer to [Collecting data to analyze](../../reporting/using/collecting-data-to-analyze.md) and [Script activity](../../reporting/using/advanced-functionalities.md#script-activity).
 
 ### Operating principle {#operating-principle}
 
@@ -42,20 +42,20 @@ It lets you list the campaigns ( **[!UICONTROL Label (Campaign)]** , the list of
 
 ### Implementation steps {#implementation-steps}
 
-A full implementation example is provided here: [Use case: Create a report with a group list](https://helpx.adobe.com/campaign/standard/reporting/using/creating-a-table.html#use-case--create-a-report-with-a-group-list).
+A full implementation example is provided here: [Use case: Create a report with a group list](../../reporting/using/creating-a-table.md#use-case--create-a-report-with-a-group-list).
 
 Please note the following steps to create a 'List with group' type table:
 
-1. Go to the report chart and place a **[!UICONTROL Query]** activity. Refer to [Collecting data to analyze](https://helpx.adobe.com/campaign/standard/reporting/using/collecting-data-to-analyze.html). 
+1. Go to the report chart and place a **[!UICONTROL Query]** activity. Refer to [Collecting data to analyze](../../reporting/using/collecting-data-to-analyze.md). 
 1. Fill in the source table and select the fields of the table which the statistics will concern. 
-1. Place a **[!UICONTROL Page]** activity in the chart. For more on this, refer to [Static elements](https://helpx.adobe.com/campaign/standard/reporting/using/creating-a-new-report.html#static-elements). 
+1. Place a **[!UICONTROL Page]** activity in the chart. For more on this, refer to [Static elements](../../reporting/using/creating-a-new-report.md#static-elements). 
 1. Insert a **[!UICONTROL List with group]** type table into the page. 
 1. Specify the data path, or the table selected as a data source in the query.
 
    This step is mandatory if you want to recover the fields in the source table later and insert them into the cells of the table.
 
 1. Creating the table and its content.
-1. Display the finalized report in the **[!UICONTROL Preview]** tab. You can then publish the report and export it into a different format if necessary. For more on this, refer to [Exporting a report](https://helpx.adobe.com/campaign/standard/reporting/using/actions-on-reports.html#exporting-a-report).
+1. Display the finalized report in the **[!UICONTROL Preview]** tab. You can then publish the report and export it into a different format if necessary. For more on this, refer to [Exporting a report](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 ### Adding lines and columns {#adding-lines-and-columns}
 
@@ -127,7 +127,7 @@ To define the cell format, the **[!UICONTROL Cell format...]** menu lets you acc
 
 These options enable you to personalize the final rendering of the report and make it easier to read information.
 
-Use the **[!UICONTROL Carriage return]** field when exporting data to Excel: select the **[!UICONTROL Yes]** value to force the carriage return. This value will be kept when exporting. For more on this, refer to [Exporting a report](https://helpx.adobe.com/campaign/standard/reporting/using/actions-on-reports.html#exporting-a-report).
+Use the **[!UICONTROL Carriage return]** field when exporting data to Excel: select the **[!UICONTROL Yes]** value to force the carriage return. This value will be kept when exporting. For more on this, refer to [Exporting a report](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 The **[!UICONTROL Cell format]** window lets you access the following tab:
 
@@ -194,7 +194,7 @@ In the example below, clicking the value in the cell lets you display the second
 
 ![](assets/s_advuser_ergo_listgroup_015.png)
 
-The **Extra** tab lets you link a visual to your data, such as a colored mark or a value bar. The colored mark is used when the table is shown as a legend in a chart. For more on this, refer to the implementation example: [Step 5 - Create the second page](https://helpx.adobe.com/campaign/standard/reporting/using/creating-a-table.html#step-5---create-the-second-page)
+The **Extra** tab lets you link a visual to your data, such as a colored mark or a value bar. The colored mark is used when the table is shown as a legend in a chart. For more on this, refer to the implementation example: [Step 5 - Create the second page](../../reporting/using/creating-a-table.md#step-5---create-the-second-page)
 
 ![](assets/s_advuser_ergo_listgroup_016.png)
 
@@ -426,9 +426,9 @@ We want to add a second query and a second page to display the detail of a deliv
 
    ![](assets/s_advuser_report_listgroup_019.png)
 
-1. Add a pie chart to the page using the right-click menu and assign the **Email domains** label to it. For more information, refer to [Chart types and variants](https://helpx.adobe.com/campaign/standard/reporting/using/creating-a-chart.html#chart-types-and-variants).
+1. Add a pie chart to the page using the right-click menu and assign the **Email domains** label to it. For more information, refer to [Chart types and variants](../../reporting/using/creating-a-chart.md#chart-types-and-variants).
 1. Click the **[!UICONTROL Variants]** link and deselect the **[!UICONTROL Display label]** and the **[!UICONTROL Display caption]** options. 
-1. Check that no value sorting is configured. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/processing-a-report.html#configuring-the-layout-of-a-descriptive-analysis-report).
+1. Check that no value sorting is configured. For more on this, refer to [this section](../../reporting/using/processing-a-report.md#configuring-the-layout-of-a-descriptive-analysis-report).
 
    ![](assets/s_advuser_report_listgroup_0191.png)
 
@@ -469,6 +469,6 @@ If you click the link of one of these deliveries, it shows the chart showing the
 
 This type of table lets you display statistics calculated on the data in the database.
 
-The configuration of these types of reports is similar to the one used for the descriptive analysis wizard. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/reporting/using/using-the-descriptive-analysis-wizard.html#configuring-the-quantitative-distribution-template).
+The configuration of these types of reports is similar to the one used for the descriptive analysis wizard. For more on this, refer to [this page](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template).
 
-For more on creating a pivot table, refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/using-cubes-to-explore-data.html).
+For more on creating a pivot table, refer to [this section](../../reporting/using/using-cubes-to-explore-data.md).

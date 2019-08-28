@@ -30,5 +30,5 @@ It is also accessible via the **[!UICONTROL Tracking]** tab of the delivery.
 
 >[!NOTE]
 >
->If you cannot see the **[!UICONTROL Tracking]** tab of a delivery, it means that tracking has not been activated. Refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/how-to-configure-tracked-links.html).
+>If you cannot see the **[!UICONTROL Tracking]** tab of a delivery, it means that tracking has not been activated. Refer to [this section](../../delivery/using/how-to-configure-tracked-links.md).
 

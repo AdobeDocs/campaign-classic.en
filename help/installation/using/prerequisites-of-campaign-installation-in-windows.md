@@ -18,16 +18,16 @@ snippet: y
 
 # Prerequisites of Campaign installation in Windows{#prerequisites-of-campaign-installation-in-windows}
 
-The technical configuration and software needed to install Adobe Campaign is presented in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+The technical configuration and software needed to install Adobe Campaign is presented in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
 
-The Adobe Campaign server installation process for multi-instance usage is described below in [Installing the server](https://helpx.adobe.com/campaign/standard/installation/using/installing-the-server.html).
+The Adobe Campaign server installation process for multi-instance usage is described below in [Installing the server](../../installation/using/installing-the-server.md).
 
 The main steps are as follows:
 
-1. Install the application server, refer to [Executing the installation program](https://helpx.adobe.com/campaign/standard/installation/using/installing-the-server.html#executing-the-installation-program).
-1. Integrate with a Web server (optional, depending on the components deployed), refer to [Configuring the IIS Web server](https://helpx.adobe.com/campaign/standard/installation/using/integration-into-a-web-server-for-windows.html#configuring-the-iis-web-server).
+1. Install the application server, refer to [Executing the installation program](../../installation/using/installing-the-server.md#executing-the-installation-program).
+1. Integrate with a Web server (optional, depending on the components deployed), refer to [Configuring the IIS Web server](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
 
-Once the installation steps are complete, you need to configure the instances, the database and the server. For more on this, refer to [About initial configuration](https://helpx.adobe.com/campaign/standard/installation/using/about-initial-configuration.html).
+Once the installation steps are complete, you need to configure the instances, the database and the server. For more on this, refer to [About initial configuration](../../installation/using/about-initial-configuration.md).
 
 >[!NOTE]
 >

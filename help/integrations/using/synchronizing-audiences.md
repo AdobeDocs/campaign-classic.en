@@ -34,7 +34,7 @@ This use case shows how to prepare the target of your delivery in Campaign v7 an
 
 To achieve this, you need:
 
-* Recipients stored in Campaign v7 database and synchronized with Campaign Standard. Refer to the [Synchronizing profiles](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-profiles.html) section.
+* Recipients stored in Campaign v7 database and synchronized with Campaign Standard. Refer to the [Synchronizing profiles](../../integrations/using/synchronizing-profiles.md) section.
 * Additional data such as subscriptions or transactions stored in tables related to nms:recipients in Campaign v7 database. These data can come from Campaign v7 OOB schemas or custom tables. They are by default unavailable in Campaign Standard as they are not synchronized.
 * Right to execute workflows in both Campaign v7 and Campaign Standard.
 * Right to create and execute a delivery in Campaign Standard.
@@ -56,7 +56,7 @@ To get the final audience and its additional data:
 
    ![](assets/acs_connect_query1.png)
 
-1. Add additional data from within the query. For more information, refer to the [Adding data](https://helpx.adobe.com/campaign/classic/workflow/using/query.html#adding-data) section.
+1. Add additional data from within the query. For more information, refer to the [Adding data](../../workflow/using/query.md#adding-data) section.
 
    This example shows how to add an aggregate to count how many deliveries a recipient received in a year.
 
@@ -99,7 +99,7 @@ Once the target population is defined, you can share it with ACS through a **[!U
 
 1. In the workflow created previously, add a **[!UICONTROL List update]** activity and specify the list you want to update or create.
 
-   Specify the folder in which you want to save the list in Campaign v7. Lists are subject to the folder mapping defined during the implementation, which can have an impact on their visilibity once shared in Campaign Standard. Refer to the [Rights conversion](https://helpx.adobe.com/campaign/standard/integrations/using/acs-connector-principles-and-data-cycle.html#rights-conversion) section.
+   Specify the folder in which you want to save the list in Campaign v7. Lists are subject to the folder mapping defined during the implementation, which can have an impact on their visilibity once shared in Campaign Standard. Refer to the [Rights conversion](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion) section.
 
 1. Make sure the **[!UICONTROL Share with ACS]** option is checked. It is checked by default.
 
@@ -109,7 +109,7 @@ Once the target population is defined, you can share it with ACS through a **[!U
 
    The target and its additional data are saved in a list in Campaign v7 and shared immediately as a list audience in Campaign Standard. Only the profiles that have been replicated are shared with ACS.
 
-If an error occurs on the **[!UICONTROL List update]** activity, it means that the synchronization with Campaign Standard may have failed. To be able to see more details about what went wrong, go to **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]** . This folder contains synchronization workflows triggered by the **[!UICONTROL List update]** activity execution. Refer to the [Troubleshooting the ACS Connector](https://helpx.adobe.com/campaign/standard/integrations/using/troubleshooting-the-acs-connector.html) section.
+If an error occurs on the **[!UICONTROL List update]** activity, it means that the synchronization with Campaign Standard may have failed. To be able to see more details about what went wrong, go to **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]** . This folder contains synchronization workflows triggered by the **[!UICONTROL List update]** activity execution. Refer to the [Troubleshooting the ACS Connector](../../integrations/using/troubleshooting-the-acs-connector.md) section.
 
 ## Retrieve the data in Campaign Standard and use it in a delivery {#retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery}
 
@@ -124,7 +124,7 @@ By creating a delivery workflow in Campaign Standard, it is then possible to use
 
    This activity is used to retrieve the data of the selected audience. You can also apply an additional **[!UICONTROL Source Filtering]** if needed by using the according tab of this activity.
 
-1. Add an **[!UICONTROL Email delivery]** activity and configure it as any other [email delivery activity](https://helpx.adobe.com/campaign/standard/automating/using/email-delivery.html).
+1. Add an **[!UICONTROL Email delivery]** activity and configure it as any other [email delivery activity](../../automating/using/email-delivery.md).
 1. Open the delivery content.
 1. Add a personalization field. From the popup, locate the **[!UICONTROL Additional data (targetData)]** node. This node contains the additional data of the audience that were computed in the initial targeting workflow. You can use them as any other personalization field.
 
@@ -140,16 +140,16 @@ By creating a delivery workflow in Campaign Standard, it is then possible to use
 
 ## Send and monitor your delivery {#send-and-monitor-your-delivery}
 
-Once the delivery and its content are ready, send the delivery, as described with more details in [this section](https://helpx.adobe.com/campaign/standard/automating/using/email-delivery.html):
+Once the delivery and its content are ready, send the delivery, as described with more details in [this section](../../automating/using/email-delivery.md):
 
 1. Execute the delivery workflow. This step prepares the email for sending.
 1. From the delivery dashboard, manually confirm that the delivery can be sent.
 1. Monitor the reports and logs of the delivery:
 
-    * **In Campaign Standard**: Access [reports](https://helpx.adobe.com/campaign/standard/reporting/using/about-dynamic-reports.html) and [logs](https://helpx.adobe.com/campaign/standard/sending/using/monitoring-a-delivery.html) related to the delivery as for any delivery.
+    * **In Campaign Standard**: Access [reports](../../reporting/using/about-dynamic-reports.md) and [logs](../../sending/using/monitoring-a-delivery.md) related to the delivery as for any delivery.
     * **in Campaign v7 and Campaign Standard**: Delivery IDs, email broad logs, and email tracking logs are synchronized to Campaign v7. You can then get à 360° view of your marketing campaigns from Campaign v7.
 
       Quarantines are automatically synchronized back to Campaign v7. This allows to take non-deliverable information into account for the next targeting performed in Campaign v7.
 
-      You can find more information about quarantine management in Campaign Standard in [this section](https://helpx.adobe.com/campaign/standard/sending/using/understanding-quarantine-management.html).
+      You can find more information about quarantine management in Campaign Standard in [this section](../../sending/using/understanding-quarantine-management.md).
 

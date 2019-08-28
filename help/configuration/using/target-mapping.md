@@ -33,7 +33,7 @@ To do this, apply the following steps:
 
 1. Create a new data schema which integrates the fields of the custom table that you want to use.
 
-   For further information, refer to [Schema reference (xtk:srcSchema)](https://helpx.adobe.com/campaign/classic/configuration/using/about-schema-reference.html).
+   For further information, refer to [Schema reference (xtk:srcSchema)](../../configuration/using/about-schema-reference.md).
 
    In our example, we will create a customer schema, a very simple table containing the following fields: ID, first name, last name, email address, mobile phone number. The aim is to be able to send e-mail or SMS alerts to the individuals stored in this table.
 
@@ -56,7 +56,7 @@ To do this, apply the following steps:
    
    ```
 
-1. Declare your schema as an external view using the ="true" attribute. Refer to [The view attribute](https://helpx.adobe.com/campaign/standard/configuration/using/schema-characteristics.html#the-view-attribute).
+1. Declare your schema as an external view using the ="true" attribute. Refer to [The view attribute](../../configuration/using/schema-characteristics.md#the-view-attribute).
 
    ```
    

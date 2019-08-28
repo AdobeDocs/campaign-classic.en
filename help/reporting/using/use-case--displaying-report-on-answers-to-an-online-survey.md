@@ -38,7 +38,7 @@ Before starting on this use case, you need to have access to a survey and a set 
 
 To collect the answers to the survey, apply the following steps:
 
-1. Create a workflow and place an **[!UICONTROL Answers to a survey]** activity. For more on using this activity, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/publish--track-and-use-collected-data.html#using-the-collected-data).
+1. Create a workflow and place an **[!UICONTROL Answers to a survey]** activity. For more on using this activity, refer to [this section](../../web/using/publish--track-and-use-collected-data.md#using-the-collected-data).
 1. Edit the activity and select the survey whose answers you want to analyze.
 1. Enable the **[!UICONTROL Select all the answer data]** option to collect all the information.
 
@@ -68,7 +68,7 @@ To collect the answers to the survey, apply the following steps:
 
 ## Step 2 - Creating the cube, its measures and its indicators {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-You may then create the cube and configure its measures: they will be used to create the indicators that will be shown in the report. For more on creating and configuring cubes, refer to [About cubes](https://helpx.adobe.com/campaign/standard/reporting/using/about-cubes.html).
+You may then create the cube and configure its measures: they will be used to create the indicators that will be shown in the report. For more on creating and configuring cubes, refer to [About cubes](../../reporting/using/about-cubes.md).
 
 In this example, the cube is based on the data in the list fed by the workflow created previously.
 

@@ -20,11 +20,11 @@ snippet: y
 
 ## Reverse DNS {#reverse-dns}
 
-The domain choice for a reverse DNS has an impact when dealing with certain ISPs. AOL, in particular, only accepts feedback loops with an address in the same domain as the reverse DNS (see [Feedback loop](https://helpx.adobe.com/campaign/standard/delivery/using/technical-recommendations.html#feedback-loop)).
+The domain choice for a reverse DNS has an impact when dealing with certain ISPs. AOL, in particular, only accepts feedback loops with an address in the same domain as the reverse DNS (see [Feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop)).
 
 Refer to [https://www.openspf.org/](https://www.openspf.org/). A wizard is available to create SPF records.
 
-A tool to verify an SPF record: [https://www.kitterman.com/spf/validate.html](https://www.kitterman.com/spf/validate.html)
+A tool to verify an SPF record: [https://www.kitterman.com/spf/validate.md](https://www.kitterman.com/spf/validate.md)
 
 ## SPF {#spf}
 
@@ -143,8 +143,8 @@ Gmail, Outlook.com and Microsoft Outlook support this method and an unsubscribe 
 
 You can implement the **List-Unsubscribe** by:
 
-* directly adding the command line in the delivery template - see [this section](https://helpx.adobe.com/campaign/classic/delivery/using/technical-recommendations.html#adding-a-command-line-in-a-delivery-template),
-* or, creating a typology rule - see [this section](https://helpx.adobe.com/campaign/classic/delivery/using/technical-recommendations.html#creating-a-typology-rule).
+* directly adding the command line in the delivery template - see [this section](../../delivery/using/technical-recommendations.md#adding-a-command-line-in-a-delivery-template),
+* or, creating a typology rule - see [this section](../../delivery/using/technical-recommendations.md#creating-a-typology-rule).
 
 ### Adding a command line in a delivery template {#adding-a-command-line-in-a-delivery-template}
 
@@ -214,7 +214,7 @@ For example, to only include this SMTP header in Gmail, the function is as follo
 
 This technology, mainly sponsored by Yahoo, can be implemented in Adobe Campaign.
 
-However, this authentication method was replaced by **DKIM**. Refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/technical-recommendations.html#domainkeys-identified-mail--dkim-).
+However, this authentication method was replaced by **DKIM**. Refer to [this section](../../delivery/using/technical-recommendations.md#domainkeys-identified-mail--dkim-).
 
 ```
 <%
@@ -320,7 +320,7 @@ To do this, follow the steps below:
 
    >[!NOTE]
    >
-   >In Windows, you must download the OpenSSL library from the following URL: [https://wiki.openssl.org/index.php/Binaries](https://www.openssl.org/related/binaries.html)
+   >In Windows, you must download the OpenSSL library from the following URL: [https://wiki.openssl.org/index.php/Binaries](https://www.openssl.org/related/binaries.md)
 
 1. Save the public key in the DNS
 
@@ -496,7 +496,7 @@ If this email address has been reattributed to another Yahoo! user, an error mes
 
 DKIM comes from a combination of the DomainKeys, Yahoo! and Cisco Identified Internet Mail authentication principles and is used to check the authenticity of the sender domain and guarantee the integrity of the message.
 
-DKIM replaced **DomainKeys** authentication. Refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/technical-recommendations.html#domainkeys).
+DKIM replaced **DomainKeys** authentication. Refer to [this section](../../delivery/using/technical-recommendations.md#domainkeys).
 
 Using DKIM requires some prerequisites:
 

@@ -20,7 +20,7 @@ snippet: y
 
 Below are some general principles concerning the use of data schemas in Adobe Campaign.
 
-For more on creating and configuring data schemas in Adobe Campaign, refer to [this section](https://helpx.adobe.com/campaign/classic/configuration/using/about-schema-edition.html).
+For more on creating and configuring data schemas in Adobe Campaign, refer to [this section](../../configuration/using/about-schema-edition.md).
 
 ## Schema structure {#schema-structure}
 

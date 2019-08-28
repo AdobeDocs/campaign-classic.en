@@ -24,7 +24,7 @@ There are various possibilities for creating/linking hypotheses to a campaign of
 * Via the **[!UICONTROL Edit]** > **[!UICONTROL Measurement]** tab in a campaign.
 * Via the **[!UICONTROL Measurement]** option of a delivery created from a campaign.
 
-Hypotheses can only be calculated once the marketing campaign has been launched and recipients have received the delivery. If the hypothesis is based on an offer proposition, the latter needs to at least be presented and still be active. Offer and delivery hypotheses are created via the **[!UICONTROL Measurement hypotheses]** folder and are based on a hypothesis template. However, it is possible to reference a hypothesis directly in the delivery or the campaign before the campaign starts. In this case, the hypotheses will be calculated automatically once the marketing campaign is launched, based on execution settings (for more on this, refer to [Hypothesis template execution settings](https://helpx.adobe.com/campaign/standard/campaign/using/hypothesis-templates.html#hypothesis-template-execution-settings)).
+Hypotheses can only be calculated once the marketing campaign has been launched and recipients have received the delivery. If the hypothesis is based on an offer proposition, the latter needs to at least be presented and still be active. Offer and delivery hypotheses are created via the **[!UICONTROL Measurement hypotheses]** folder and are based on a hypothesis template. However, it is possible to reference a hypothesis directly in the delivery or the campaign before the campaign starts. In this case, the hypotheses will be calculated automatically once the marketing campaign is launched, based on execution settings (for more on this, refer to [Hypothesis template execution settings](../../campaign/using/hypothesis-templates.md#hypothesis-template-execution-settings)).
 
 ## Creating a hypothesis on the fly on a delivery {#creating-a-hypothesis-on-the-fly-on-a-delivery}
 
@@ -39,7 +39,7 @@ To create a hypothesis on an existing delivery, apply the following process:
 
    ![](assets/response_hypothesis_instance_creation_002.png)
 
-1. In the hypothesis window, select a previously created template (refer to [Hypothesis templates](https://helpx.adobe.com/campaign/standard/campaign/using/hypothesis-templates.html)).
+1. In the hypothesis window, select a previously created template (refer to [Hypothesis templates](../../campaign/using/hypothesis-templates.md)).
 
    ![](assets/response_hypothesis_instance_creation_003.png)
 
@@ -55,7 +55,7 @@ To create a hypothesis on an existing delivery, apply the following process:
 
    ![](assets/response_hypothesis_instance_creation_005.png)
 
-1. You can personalize your hypothesis by editing the **[!UICONTROL General]** , **[!UICONTROL Transactions]** and **[!UICONTROL Scope]** tabs. For more on this, refer to [Creating a hypothesis model](https://helpx.adobe.com/campaign/standard/campaign/using/hypothesis-templates.html#creating-a-hypothesis-model).
+1. You can personalize your hypothesis by editing the **[!UICONTROL General]** , **[!UICONTROL Transactions]** and **[!UICONTROL Scope]** tabs. For more on this, refer to [Creating a hypothesis model](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model).
 1. Start the hypothesis by clicking **[!UICONTROL Start]** .
 
    A workflow is automatically created to perform the measurement. The name is automatically defined depending on the hypothesis configuration.
@@ -79,12 +79,12 @@ To create a hypothesis on an existing delivery, apply the following process:
 
 You can reference a hypothesis in a marketing campaign before it is started. In this case, the hypothesis will be launched automatically once the delivery is sent, based on the execution settings defined in the hypothesis template. To create a hypothesis in a delivery, apply the following process:
 
-1. Depending on your needs, you can create one or more **[!UICONTROL Delivery]** type templates, as described in [Creating a hypothesis model](https://helpx.adobe.com/campaign/standard/campaign/using/hypothesis-templates.html#creating-a-hypothesis-model)
+1. Depending on your needs, you can create one or more **[!UICONTROL Delivery]** type templates, as described in [Creating a hypothesis model](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)
 1. Create a marketing campaign and targeting workflows.
 1. In the delivery window, click the **[!UICONTROL Delivery measurement]** icon.
 1. Select the hypothesis template (the query configured in the model is displayed in the hypothesis window).
 
-   The hypothesis will be calculated automatically once the campaign is finished, based on the dates configured in the model (refer to [Hypothesis template execution settings](https://helpx.adobe.com/campaign/standard/campaign/using/hypothesis-templates.html#hypothesis-template-execution-settings)).
+   The hypothesis will be calculated automatically once the campaign is finished, based on the dates configured in the model (refer to [Hypothesis template execution settings](../../campaign/using/hypothesis-templates.md#hypothesis-template-execution-settings)).
 
    ![](assets/response_hypothesis_instance_creation_008.png)
 
@@ -105,15 +105,15 @@ You can directly reference a hypothesis at campaign level. In this case, the hyp
 
    ![](assets/response_hypothesis_instance_creation_012.png)
 
-The hypothesis results can be viewed in the **[!UICONTROL General]** and **[!UICONTROL Reactions]** tabs of the hypothesis (refer to [Hypothesis tracking](https://helpx.adobe.com/campaign/standard/campaign/using/hypothesis-tracking.html))
+The hypothesis results can be viewed in the **[!UICONTROL General]** and **[!UICONTROL Reactions]** tabs of the hypothesis (refer to [Hypothesis tracking](../../campaign/using/hypothesis-tracking.md))
 
-For more information, you can also refer to [Example: creating a hypothesis linked to a delivery](https://helpx.adobe.com/campaign/standard/campaign/using/creating-hypotheses.html#example--creating-a-hypothesis-linked-to-a-delivery).
+For more information, you can also refer to [Example: creating a hypothesis linked to a delivery](../../campaign/using/creating-hypotheses.md#example--creating-a-hypothesis-linked-to-a-delivery).
 
 ## Creating a hypothesis on an offer {#creating-a-hypothesis-on-an-offer}
 
-Creating a hypothesis on an offer proposition is similar to creating an on the fly delivery hypothesis. The hypothesis can be executed as long as the offer is active. The calculation period is based on the offer proposition date. When the hypothesis lets you link a recipient to a purchase, the status of the offer proposition likely to be accepted can be changed automatically (for more on this, refer to [Transactions](https://helpx.adobe.com/campaign/standard/campaign/using/hypothesis-templates.html#transactions)).
+Creating a hypothesis on an offer proposition is similar to creating an on the fly delivery hypothesis. The hypothesis can be executed as long as the offer is active. The calculation period is based on the offer proposition date. When the hypothesis lets you link a recipient to a purchase, the status of the offer proposition likely to be accepted can be changed automatically (for more on this, refer to [Transactions](../../campaign/using/hypothesis-templates.md#transactions)).
 
-1. Create one or more **[!UICONTROL Offer]** type models as described in [Creating a hypothesis model](https://helpx.adobe.com/campaign/standard/campaign/using/hypothesis-templates.html#creating-a-hypothesis-model).
+1. Create one or more **[!UICONTROL Offer]** type models as described in [Creating a hypothesis model](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model).
 1. Go to the **[!UICONTROL Campaign management > Measurement hypotheses]** node.
 1. Create an **[!UICONTROL Offers]** type hypothesis by selecting the model created previously.
 
@@ -129,19 +129,19 @@ Creating a hypothesis on an offer proposition is similar to creating an on the f
 
 1. Refine the query if necessary.
 1. Click **[!UICONTROL Start]** to run the hypothesis.
-1. The hypothesis results can be viewed in its **[!UICONTROL General]** and **[!UICONTROL Reactions]** tabs (refer to [Hypothesis tracking](https://helpx.adobe.com/campaign/standard/campaign/using/hypothesis-tracking.html)).
+1. The hypothesis results can be viewed in its **[!UICONTROL General]** and **[!UICONTROL Reactions]** tabs (refer to [Hypothesis tracking](../../campaign/using/hypothesis-tracking.md)).
 
    Hypotheses made on an offer are referenced in the **[!UICONTROL Measurement]** tab.
 
    ![](assets/response_hypothesis_instance_offer_007.png)
 
-   If the **[!UICONTROL Update offer proposition status]** option was enabled in the hypothesis template, the status of the offer proposition is changed automatically, thereby providing feedback on the impact of the campaign (for more on this, refer to [Transactions](https://helpx.adobe.com/campaign/standard/campaign/using/hypothesis-templates.html#transactions)).
+   If the **[!UICONTROL Update offer proposition status]** option was enabled in the hypothesis template, the status of the offer proposition is changed automatically, thereby providing feedback on the impact of the campaign (for more on this, refer to [Transactions](../../campaign/using/hypothesis-templates.md#transactions)).
 
 ## Example: creating a hypothesis linked to a delivery {#example--creating-a-hypothesis-linked-to-a-delivery}
 
-In this example, we want to create a hypothesis linked to a delivery. This hypothesis will be based on the model created previously (refer to [Example: creating a hypothesis template on a delivery](https://helpx.adobe.com/campaign/standard/campaign/using/hypothesis-templates.html#example--creating-a-hypothesis-template-on-a-delivery)). We will then refine the query inherited from the model to make a hypothesis on a specific article of the purchase table.
+In this example, we want to create a hypothesis linked to a delivery. This hypothesis will be based on the model created previously (refer to [Example: creating a hypothesis template on a delivery](../../campaign/using/hypothesis-templates.md#example--creating-a-hypothesis-template-on-a-delivery)). We will then refine the query inherited from the model to make a hypothesis on a specific article of the purchase table.
 
-1. Create a campaign and a delivery (For more on this, refer to [Creating a campaign](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#creating-a-campaign)).
+1. Create a campaign and a delivery (For more on this, refer to [Creating a campaign](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).
 
    In our example, we will use a direct mail type delivery.
 
@@ -151,7 +151,7 @@ In this example, we want to create a hypothesis linked to a delivery. This hypot
 
    >[!NOTE]
    >
-   >For more information, refer to [Defining a control group](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#defining-a-control-group).
+   >For more information, refer to [Defining a control group](../../campaign/using/setting-up-marketing-campaigns.md#defining-a-control-group).
 
 1. Open the **[!UICONTROL Direct mail delivery]** and click the **[!UICONTROL Delivery measurement]** icon, then click **[!UICONTROL Add]** .
 
@@ -173,7 +173,7 @@ In this example, we want to create a hypothesis linked to a delivery. This hypot
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. Launch your targeting workflow and run the necessary checks until the campaign is finished (for more on this, refer to [Starting a delivery](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#starting-a-delivery)).
+1. Launch your targeting workflow and run the necessary checks until the campaign is finished (for more on this, refer to [Starting a delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-a-delivery)).
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

@@ -30,15 +30,15 @@ To optimize the creation, use and durability of a report, you need to take a clo
 
    For instance, you can:
 
-    * Explore the data in the database and define measurements (via [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-cubes.html)),
-    * Add indicators to an existing report (refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-reports-creation-in-campaign.html)),
-    * View the data in the database (via [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-descriptive-analysis.html)),
-    * Create a new delivery report (refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-reports-creation-in-campaign.html)),
-    * Export data from the Adobe Campaign database (via a workflow, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/about-workflows.html)),
-    * Create a pivot table (refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/creating-a-table.html#creating-a-breakdown-or-pivot-table)),
-    * Explore aggregated data (via [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-cubes.html)),
-    * Use a wizard to analyze data (via [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-descriptive-analysis.html)),
-    * Analyze large volumes of data (refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-reports-creation-in-campaign.html)), etc.
+    * Explore the data in the database and define measurements (via [this section](../../reporting/using/about-cubes.md)),
+    * Add indicators to an existing report (refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md)),
+    * View the data in the database (via [this section](../../reporting/using/about-descriptive-analysis.md)),
+    * Create a new delivery report (refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md)),
+    * Export data from the Adobe Campaign database (via a workflow, refer to [this section](../../workflow/using/about-workflows.md)),
+    * Create a pivot table (refer to [this section](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)),
+    * Explore aggregated data (via [this section](../../reporting/using/about-cubes.md)),
+    * Use a wizard to analyze data (via [this section](../../reporting/using/about-descriptive-analysis.md)),
+    * Analyze large volumes of data (refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md)), etc.
 
 1. Identify the target population
 

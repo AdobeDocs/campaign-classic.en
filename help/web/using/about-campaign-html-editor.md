@@ -25,7 +25,7 @@ The Digital Content Editor allows you to insert and format page elements and ass
 >[!NOTE]
 >
 >The DCE only allows you to carry out the operations detailed in this section.  
->If you would like to add server-side JavaScript code, it is better to add it in personalization blocks. For more information on creating and modifying personalization blocks, refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/personalization-blocks.html).
+>If you would like to add server-side JavaScript code, it is better to add it in personalization blocks. For more information on creating and modifying personalization blocks, refer to [this page](../../delivery/using/personalization-blocks.md).
 
 >[!CAUTION]
 >
@@ -41,23 +41,23 @@ The general operation is as follows:
 
 To create a Web application, the steps are as follows:
 
-* Creating a 'Landing page' type Web application, for more on this, refer to [Creating a landing page](https://helpx.adobe.com/campaign/standard/web/using/creating-a-landing-page.html),
-* Selecting existing content or creating content from a standard template, for more on this, refer to [Template management](https://helpx.adobe.com/campaign/standard/web/using/template-management.html),
-* Editing and configuring online content, for more on this, refer to [Editing content](https://helpx.adobe.com/campaign/standard/web/using/editing-content.html),
-* Publishing the Web application, for more on this, refer to [Step 3 - Publishing content](https://helpx.adobe.com/campaign/standard/web/using/creating-a-landing-page.html#step-3---publishing-content) and [this page](https://helpx.adobe.com/campaign/classic/web/using/publishing-a-web-form.html#managing-web-forms-delivery-and-tracking).
+* Creating a 'Landing page' type Web application, for more on this, refer to [Creating a landing page](../../web/using/creating-a-landing-page.md),
+* Selecting existing content or creating content from a standard template, for more on this, refer to [Template management](../../web/using/template-management.md),
+* Editing and configuring online content, for more on this, refer to [Editing content](../../web/using/editing-content.md),
+* Publishing the Web application, for more on this, refer to [Step 3 - Publishing content](../../web/using/creating-a-landing-page.md#step-3---publishing-content) and [this page](../../web/using/publishing-a-web-form.md#managing-web-forms-delivery-and-tracking).
 
 >[!NOTE]
 >
->For a complete example detailing the implementation of the DCE within the framework of a Web application, refer to [Creating a landing page](https://helpx.adobe.com/campaign/standard/web/using/creating-a-landing-page.html).
+>For a complete example detailing the implementation of the DCE within the framework of a Web application, refer to [Creating a landing page](../../web/using/creating-a-landing-page.md).
 
 To create an email delivery, the steps are as follows:
 
 * Creating a delivery from an email type template in which the DCE is active,
 * Selecting existing content or creating content from a standard template,
 * Editing and configuring online content,
-* Sending the delivery, for more on this refer to the [this section](https://helpx.adobe.com/campaign/classic/delivery/using/communication-channels.html).
+* Sending the delivery, for more on this refer to the [this section](../../delivery/using/communication-channels.md).
 
 >[!NOTE]
 >
->For a complete example detailing the implementation of the DCE within the framework of an email delivery, refer to [Use case: creating an email delivery](https://helpx.adobe.com/campaign/standard/web/using/use-case--creating-an-email-delivery.html).
+>For a complete example detailing the implementation of the DCE within the framework of an email delivery, refer to [Use case: creating an email delivery](../../web/using/use-case--creating-an-email-delivery.md).
 

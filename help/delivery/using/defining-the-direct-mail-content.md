@@ -34,9 +34,9 @@ This link lets you access the extraction wizard and define the information (colu
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-It is possible to insert a personalized URL into the extraction file. For more on this, refer to [Web functionality](https://helpx.adobe.com/campaign/classic/web/using/publishing-a-web-form.html).
+It is possible to insert a personalized URL into the extraction file. For more on this, refer to [Web functionality](../../web/using/publishing-a-web-form.md).
 
 >[!NOTE]
 >
->This wizard includes the steps of the export wizard detailed in the [Getting Started](https://helpx.adobe.com/campaign/classic/platform/using/exporting-data.html#export-wizard) section.
+>This wizard includes the steps of the export wizard detailed in the [Getting Started](../../platform/using/exporting-data.md#export-wizard) section.
 

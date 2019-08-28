@@ -18,4 +18,4 @@ snippet: y
 
 # Defining the target population{#defining-the-target-population}
 
-The detailed process when selecting the target population of a delivery is presented in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#defining-the-target-population).
+The detailed process when selecting the target population of a delivery is presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-the-target-population).

@@ -147,7 +147,7 @@ To change the **internal** password: **nlserver config -internalpassword**
 
 >[!CAUTION]
 >
->To log on with the **Internal** identifier, you need to have defined a password beforehand. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#internal-identifier).
+>To log on with the **Internal** identifier, you need to have defined a password beforehand. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 >[!NOTE]
 >

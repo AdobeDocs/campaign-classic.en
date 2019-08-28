@@ -28,7 +28,7 @@ To set up this use case, we created the following targeting workflow:
 
 This (daily run) workflow selects all recipients that have their birthday on the current date.
 
-This use case can also be found in the form of a video. For more on this, refer to the [Creating a workflow](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
+This use case can also be found in the form of a video. For more on this, refer to the [Creating a workflow](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.md) video.
 
 ## Identifying recipients whose birthday it is {#identifying-recipients-whose-birthday-it-is}
 
@@ -116,7 +116,7 @@ After configuring the **[!UICONTROL Scheduler]** activity so that the workflow s
 
 ![](assets/birthday-workflow_usecase_2.png)
 
-Selecting recipients whose birthday corresponds to the current date is presented in the [Identifying recipients whose birthday it is](https://helpx.adobe.com/campaign/standard/workflow/using/sending-a-birthday-email.html#identifying-recipients-whose-birthday-it-is) section.
+Selecting recipients whose birthday corresponds to the current date is presented in the [Identifying recipients whose birthday it is](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is) section.
 
 ### Step 2: Select whether or not it is a leap year {#step-2--select-whether-or-not-it-is-a-leap-year}
 

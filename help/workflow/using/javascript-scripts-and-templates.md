@@ -82,7 +82,7 @@ Click **[!UICONTROL OK]** to close the creation wizard, then start the workflow 
 
 The variables are the free properties of the **[!UICONTROL instance]** , **[!UICONTROL task]** and **[!UICONTROL event]** objects. The JavaScript types authorized for these variables are **[!UICONTROL string]** , **[!UICONTROL number]** and **[!UICONTROL Date]** .
 
-You can find an example about how to use an instance variable in a Split activity in this [section](https://helpx.adobe.com/campaign/kb/instance-variable-in-workflow.html).
+You can find an example about how to use an instance variable in a Split activity in this [section](https://helpx.adobe.com/campaign/kb/instance-variable-in-workflow.md).
 
 ### Instance variables {#instance-variables}
 
@@ -100,7 +100,7 @@ In the case of **AND-join** type activities, the variables are merged but if a s
 
 These are the most often used variables, and they should be used in preference to instance variables.
 
-Certain event variables are modified or read by the various activities. These are all string-type variables. For example, an export sets the **[!UICONTROL vars.filename]** variable with the full name of the file that has just been exported. All these read or modified variables are documented in [About activities](https://helpx.adobe.com/campaign/standard/workflow/using/about-activities.html), in the sections **Input parameters** and **Output parameters** of the activities.
+Certain event variables are modified or read by the various activities. These are all string-type variables. For example, an export sets the **[!UICONTROL vars.filename]** variable with the full name of the file that has just been exported. All these read or modified variables are documented in [About activities](../../workflow/using/about-activities.md), in the sections **Input parameters** and **Output parameters** of the activities.
 
 ### Example {#example}
 

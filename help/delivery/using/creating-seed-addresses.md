@@ -20,9 +20,9 @@ snippet: y
 
 Seed addresses are not managed via standard profiles and targets, but in a dedicated node of the Adobe Campaign hierarchy **[!UICONTROL Resources > Campaign management > Seed addresses]** .
 
-You can create sub-folders in order to organize the seed addresses. To do this, right-click the **[!UICONTROL Seed addresses]** node and select **[!UICONTROL Create a new 'Seed addresses' folder]** . Name the sub-folder and then press **[!UICONTROL Enter]** to validate. You can now create or copy seed addresses to this sub-folder. For more on this, refer to [Defining addresses](https://helpx.adobe.com/campaign/standard/delivery/using/creating-seed-addresses.html#defining-addresses).
+You can create sub-folders in order to organize the seed addresses. To do this, right-click the **[!UICONTROL Seed addresses]** node and select **[!UICONTROL Create a new 'Seed addresses' folder]** . Name the sub-folder and then press **[!UICONTROL Enter]** to validate. You can now create or copy seed addresses to this sub-folder. For more on this, refer to [Defining addresses](../../delivery/using/creating-seed-addresses.md#defining-addresses).
 
-Adobe Campaign also lets you create seed address templates which are imported into deliveries or campaigns and adapted based on the specific needs of the concerned deliveries and campaigns. Refer to [Creating seed address templates](https://helpx.adobe.com/campaign/standard/delivery/using/creating-seed-addresses.html#creating-seed-address-templates).
+Adobe Campaign also lets you create seed address templates which are imported into deliveries or campaigns and adapted based on the specific needs of the concerned deliveries and campaigns. Refer to [Creating seed address templates](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates).
 
 ## Defining addresses {#defining-addresses}
 
@@ -55,5 +55,5 @@ To define a template folder, apply the following process:
 
    ![](assets/s_ncs_user_seedlist_folder_is_model.png)
 
-   Addresses stored in this folder may now be used as address templates. You can import them into deliveries or campaigns and adapt them based on the specific needs of the concerned deliveries and campaigns (see [Adding seed addresses](https://helpx.adobe.com/campaign/standard/delivery/using/adding-seed-addresses.html)).
+   Addresses stored in this folder may now be used as address templates. You can import them into deliveries or campaigns and adapt them based on the specific needs of the concerned deliveries and campaigns (see [Adding seed addresses](../../delivery/using/adding-seed-addresses.md)).
 

@@ -26,7 +26,7 @@ To create a new instance and Adobe Campaign database, apply the following proces
 
 >[!NOTE]
 >
->Only the **internal** identifier can carry out these operations. For more on this, refer to [Internal identifier](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html#internal-identifier).
+>Only the **internal** identifier can carry out these operations. For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
 When the Adobe Campaign console is started up, you access a login page.
 
@@ -72,7 +72,7 @@ To create a new instance, follow the steps below:
 
 1. In the **[!UICONTROL Language]** drop-down list, select the **instance language**: English (US), English (UK) , French, or Japanese.
 
-   Differences between US English and UK English are described in [this section](https://helpx.adobe.com/campaign/classic/platform/using/adobe-campaign-workspace.html#date-and-time).
+   Differences between US English and UK English are described in [this section](../../platform/using/adobe-campaign-workspace.md#date-and-time).
 
    >[!CAUTION]
    >
@@ -82,5 +82,5 @@ To create a new instance, follow the steps below:
 
    >[!NOTE]
    >
-   >The instance can be created from the command line. For more on this, refer to [Command lines](https://helpx.adobe.com/campaign/standard/installation/using/command-lines.html).
+   >The instance can be created from the command line. For more on this, refer to [Command lines](../../installation/using/command-lines.md).
 

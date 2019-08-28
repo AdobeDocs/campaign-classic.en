@@ -22,11 +22,11 @@ snippet: y
 
 ### Selecting data {#selecting-data}
 
-A **[!UICONTROL Query]** activity lets you select basic data to build the target population. For more on this, refer to [Creating a query](https://helpx.adobe.com/campaign/standard/workflow/using/query.html#creating-a-query).
+A **[!UICONTROL Query]** activity lets you select basic data to build the target population. For more on this, refer to [Creating a query](../../workflow/using/query.md#creating-a-query).
 
-You can also use the following activities to query and refine data from the database: [Incremental query](https://helpx.adobe.com/campaign/standard/workflow/using/incremental-query.html), [Read list](https://helpx.adobe.com/campaign/standard/workflow/using/read-list.html).
+You can also use the following activities to query and refine data from the database: [Incremental query](../../workflow/using/incremental-query.md), [Read list](../../workflow/using/read-list.md).
 
-It is possible to collect additional data to be forwarded and processed throughout the workflow's life cycle. For more on this, refer to [Adding data](https://helpx.adobe.com/campaign/standard/workflow/using/query.html#adding-data) and [Editing additional data](https://helpx.adobe.com/campaign/standard/workflow/using/targeting-data.html#editing-additional-data).
+It is possible to collect additional data to be forwarded and processed throughout the workflow's life cycle. For more on this, refer to [Adding data](../../workflow/using/query.md#adding-data) and [Editing additional data](../../workflow/using/targeting-data.md#editing-additional-data).
 
 ### Editing additional data {#editing-additional-data}
 
@@ -78,7 +78,7 @@ The **[!UICONTROL Split]** activity lets you create subsets on criteria defined 
 
 You can split a target into several subsets using only additional data as filtering conditions, or in addition to target data. You can also use external data if you have purchased the **Federated Data Access** option.
 
-For more on this, refer to [Creating subsets using the Split activity](https://helpx.adobe.com/campaign/standard/workflow/using/targeting-data.html#creating-subsets-using-the-split-activity).
+For more on this, refer to [Creating subsets using the Split activity](../../workflow/using/targeting-data.md#creating-subsets-using-the-split-activity).
 
 ## Segmenting data {#segmenting-data}
 
@@ -128,7 +128,7 @@ The intersection lets you recover only the lines shared by the populations of in
 
 Furthermore, it is possible to keep only a selection of columns, or only the columns shared by the inbound population.
 
-The intersection activity is detailed in the [Intersection](https://helpx.adobe.com/campaign/standard/workflow/using/intersection.html) section.
+The intersection activity is detailed in the [Intersection](../../workflow/using/intersection.md) section.
 
 ### Excluding a population (Exclusion) {#excluding-a-population--exclusion-}
 
@@ -136,7 +136,7 @@ The exclusion activity lets you exclude the elements of a target from a differen
 
 When necessary, it is possible to manipulate inbound tables. Indeed, to exclude a target from another dimension, this target has to be returned to the same targeting dimension as the main target. To do this click the **[!UICONTROL Add]** button and specify the dimension change conditions.
 
-Data reconciliation is carried out either via an identifier, changing axis, or a join. An example is available in [Using data from a list: Read list](https://helpx.adobe.com/campaign/standard/workflow/using/importing-data.html#using-data-from-a-list--read-list).
+Data reconciliation is carried out either via an identifier, changing axis, or a join. An example is available in [Using data from a list: Read list](../../workflow/using/importing-data.md#using-data-from-a-list--read-list).
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
@@ -160,7 +160,7 @@ To configure it, you first need to select criteria:
 
    ![](assets/split-subset-config-all-data.png)
 
-   An example showing how to use filtering conditions in the **[!UICONTROL Split]** activity to segment the target into different populations is described in [this section](https://helpx.adobe.com/campaign/classic/workflow/using/cross-channel-delivery-workflow.html).
+   An example showing how to use filtering conditions in the **[!UICONTROL Split]** activity to segment the target into different populations is described in [this section](../../workflow/using/cross-channel-delivery-workflow.md).
 
    The **[!UICONTROL Label]** field lets you give the newly created subset a name, which will match the outbound transition.
 
@@ -178,7 +178,7 @@ To configure it, you first need to select criteria:
 
    ![](assets/split-subset-config-add_external_data.png)
 
-   For more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/platform/using/accessing-an-external-database.html).
+   For more on this, refer to this [section](../../platform/using/accessing-an-external-database.md).
 
 Then, we need to add new subsets:
 
@@ -196,7 +196,7 @@ Then, we need to add new subsets:
 
    >[!NOTE]
    >
-   >If you have acquired the **Federated Data Access** option, you can create subsets based on the information in an external base. To do this, select the schema of the external table in the **[!UICONTROL Targeting dimension]** field. For more on this, refer to [Accessing an external database (FDA)](https://helpx.adobe.com/campaign/standard/workflow/using/accessing-an-external-database--fda-.html).
+   >If you have acquired the **Federated Data Access** option, you can create subsets based on the information in an external base. To do this, select the schema of the external table in the **[!UICONTROL Targeting dimension]** field. For more on this, refer to [Accessing an external database (FDA)](../../workflow/using/accessing-an-external-database--fda-.md).
 
 Once subsets have been created, by default the split activity shows as many output transitions as there are subsets:
 
@@ -210,7 +210,7 @@ For example, you can place a single delivery activity and personalize the delive
 
 ![](assets/wf_split_single_output.png)
 
-Subsets can also be created using the **[!UICONTROL Cells]** activity. For more on this, refer to the [Cells](https://helpx.adobe.com/campaign/standard/workflow/using/cells.html) section.
+Subsets can also be created using the **[!UICONTROL Cells]** activity. For more on this, refer to the [Cells](../../workflow/using/cells.md) section.
 
 ### Using targeted data {#using-targeted-data}
 
@@ -218,15 +218,15 @@ Once the data has been identified and prepared, it can be used in the following 
 
 * You can update the data in the database following data manipulation in the various workflow stages.
 
-  For more on this, [Update data](https://helpx.adobe.com/campaign/standard/workflow/using/update-data.html).
+  For more on this, [Update data](../../workflow/using/update-data.md).
 
 * You can also refresh the content of existing lists.
 
-  For more on this, refer to [List update](https://helpx.adobe.com/campaign/standard/workflow/using/list-update.html).
+  For more on this, refer to [List update](../../workflow/using/list-update.md).
 
 * You can prepare or start deliveries in the workflow directly.
 
-  For more on this, refer to [Delivery](https://helpx.adobe.com/campaign/standard/workflow/using/delivery.html), [Delivery control](https://helpx.adobe.com/campaign/standard/workflow/using/delivery-control.html) and [Continuous delivery](https://helpx.adobe.com/campaign/standard/workflow/using/continuous-delivery.html).
+  For more on this, refer to [Delivery](../../workflow/using/delivery.md), [Delivery control](../../workflow/using/delivery-control.md) and [Continuous delivery](../../workflow/using/continuous-delivery.md).
 
 ## Data Management {#data-management}
 
@@ -238,9 +238,9 @@ In Adobe Campaign, the Data Management combines a set of activities for solving 
 
 In order to implement these operations, Adobe Campaign offers:
 
-* Data collection activities: [File transfer](https://helpx.adobe.com/campaign/standard/workflow/using/file-transfer.html), [Data loading (file)](https://helpx.adobe.com/campaign/standard/workflow/using/data-loading--file-.html), [Data loading (RDBMS)](https://helpx.adobe.com/campaign/standard/workflow/using/data-loading--rdbms-.html), [Update data](https://helpx.adobe.com/campaign/standard/workflow/using/update-data.html). This first step of collecting data prepares the data to allow it to be processed in other activities. Several parameters need to be monitored in order to ensure that the workflow executes correctly and gives the expected results. For example, when you import data, the primary key (Pkey) for this data must be unique for each record.
-* Targeting activities having been enriched with Data Management options: [Query](https://helpx.adobe.com/campaign/standard/workflow/using/query.html), [Union](https://helpx.adobe.com/campaign/standard/workflow/using/union.html), [Intersection](https://helpx.adobe.com/campaign/standard/workflow/using/intersection.html), [Split](https://helpx.adobe.com/campaign/standard/workflow/using/split.html). This lets you configure a union or an intersection between data from several different targeting dimensions, as long as data reconciliation is possible.
-* Data transformation activities: [Enrichment](https://helpx.adobe.com/campaign/standard/workflow/using/enrichment.html), [Change dimension](https://helpx.adobe.com/campaign/standard/workflow/using/change-dimension.html).
+* Data collection activities: [File transfer](../../workflow/using/file-transfer.md), [Data loading (file)](../../workflow/using/data-loading--file-.md), [Data loading (RDBMS)](../../workflow/using/data-loading--rdbms-.md), [Update data](../../workflow/using/update-data.md). This first step of collecting data prepares the data to allow it to be processed in other activities. Several parameters need to be monitored in order to ensure that the workflow executes correctly and gives the expected results. For example, when you import data, the primary key (Pkey) for this data must be unique for each record.
+* Targeting activities having been enriched with Data Management options: [Query](../../workflow/using/query.md), [Union](../../workflow/using/union.md), [Intersection](../../workflow/using/intersection.md), [Split](../../workflow/using/split.md). This lets you configure a union or an intersection between data from several different targeting dimensions, as long as data reconciliation is possible.
+* Data transformation activities: [Enrichment](../../workflow/using/enrichment.md), [Change dimension](../../workflow/using/change-dimension.md).
 
 >[!CAUTION]
 >
@@ -249,11 +249,11 @@ In order to implement these operations, Adobe Campaign offers:
 
 ### Enriching and modifying data {#enriching-and-modifying-data}
 
-In addition to the targeting dimension, the filtering dimension lets you specify the nature of the collected data. Refer to [Targeting and filtering dimensions](https://helpx.adobe.com/campaign/standard/workflow/using/building-a-workflow.html#targeting-and-filtering-dimensions).
+In addition to the targeting dimension, the filtering dimension lets you specify the nature of the collected data. Refer to [Targeting and filtering dimensions](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions).
 
-The identified and collected data can be enriched, aggregated and manipulated to optimize target construction. To do this, in addition to the data manipulation activities detailed in the [Segmenting data](https://helpx.adobe.com/campaign/standard/workflow/using/targeting-data.html#segmenting-data) section, use the following:
+The identified and collected data can be enriched, aggregated and manipulated to optimize target construction. To do this, in addition to the data manipulation activities detailed in the [Segmenting data](../../workflow/using/targeting-data.md#segmenting-data) section, use the following:
 
-* The **[!UICONTROL Enrichment]** activity lets you momentarily add columns to a schema, as well as add information to certain elements. It is detailed in the [Enrichment](https://helpx.adobe.com/campaign/standard/workflow/using/enrichment.html) section of the repository of activities.
-* The **[!UICONTROL Edit schema]** activity lets you modify the structure of a schema. It is detailed in the [Edit schema](https://helpx.adobe.com/campaign/standard/workflow/using/edit-schema.html) section of the repository of activities.
-* The **[!UICONTROL Change dimension]** activity lets you change the targeting dimension during the target construction cycle. It is detailed in the [Change dimension](https://helpx.adobe.com/campaign/standard/workflow/using/change-dimension.html) section.
+* The **[!UICONTROL Enrichment]** activity lets you momentarily add columns to a schema, as well as add information to certain elements. It is detailed in the [Enrichment](../../workflow/using/enrichment.md) section of the repository of activities.
+* The **[!UICONTROL Edit schema]** activity lets you modify the structure of a schema. It is detailed in the [Edit schema](../../workflow/using/edit-schema.md) section of the repository of activities.
+* The **[!UICONTROL Change dimension]** activity lets you change the targeting dimension during the target construction cycle. It is detailed in the [Change dimension](../../workflow/using/change-dimension.md) section.
 

@@ -42,7 +42,7 @@ Adobe Campaign is based on a service-oriented architecture (SOA) and comprises s
 
 >[!CAUTION]
 >
->If not explicitly stated otherwise, installation, updates and maintenance on all components of an Adobe Campaign platform are the responsibility of the machine administrator(s) hosting them. This includes implementing the prerequisites for Adobe Campaign applications as well as complying with the [Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) between components.
+>If not explicitly stated otherwise, installation, updates and maintenance on all components of an Adobe Campaign platform are the responsibility of the machine administrator(s) hosting them. This includes implementing the prerequisites for Adobe Campaign applications as well as complying with the [Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md) between components.
 
 ## Presentation layer {#presentation-layer}
 
@@ -120,7 +120,7 @@ This process maintains statistics on the number of connections, the messages sen
 
 >[!NOTE]
 >
->The complete list of Adobe Campaign modules is available in [this document](https://helpx.adobe.com/campaign/classic/production/using/operating-principle.html).
+>The complete list of Adobe Campaign modules is available in [this document](../../production/using/operating-principle.md).
 
 ## Persistence layer {#persistence-layer}
 

@@ -62,7 +62,7 @@ Higher hardware and administration costs.
     * the first exposed to the public for tracking and pointing to the load balancer on a virtual IP address (VIP) and which is then distributed to the two frontal servers,
     * the second exposed to the internal users for access via the console and pointing to a load balancer on a virtual IP address (VIP) and which is then distributed to the two application servers.
 
-* Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to section [Database access](https://helpx.adobe.com/campaign/standard/installation/using/network-configuration.html#database-access)
+* Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to section [Database access](../../installation/using/network-configuration.md#database-access)
 
 >[!CAUTION]
 >
@@ -83,7 +83,7 @@ The steps for installing the first server are:
 
 1. Follow the installation procedure for the Adobe Campaign server: **nlserver** package on Linux or **setup.exe** on Windows.
 
-   For more on this, refer to [Prerequisites of Campaign installation in Linux](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-linux.html) (Linux) and [Prerequisites of Campaign installation in Windows](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-windows.html) (Windows).
+   For more on this, refer to [Prerequisites of Campaign installation in Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) and [Prerequisites of Campaign installation in Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
 
 1. Once the Adobe Campaign server is installed, start the application server (web) using the command **nlserver web -tomcat** (the Web module enables you to start Tomcat in standalone Web server mode listening on port 8080) and to make sure Tomcat starts correctly:
 
@@ -96,14 +96,14 @@ The steps for installing the first server are:
 
    >[!NOTE]
    >
-   >The first time the Web module is executed it creates the **config-default.xml** and **serverConf.xml** files in the **conf** directory under the installation folder. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+   >The first time the Web module is executed it creates the **config-default.xml** and **serverConf.xml** files in the **conf** directory under the installation folder. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
    Press **Ctrl+C** to stop the server.
 
    For more on this, refer to the following sections:
 
-    * For Linux: [First start-up of the server](https://helpx.adobe.com/campaign/standard/installation/using/installing-packages-with-linux.html#first-start-up-of-the-server),
-    * For Windows: [First start-up of the server](https://helpx.adobe.com/campaign/standard/installation/using/installing-the-server.html#first-start-up-of-the-server).
+    * For Linux: [First start-up of the server](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server),
+    * For Windows: [First start-up of the server](../../installation/using/installing-the-server.md#first-start-up-of-the-server).
 
 1. Change the **internal** password using the command:
 
@@ -111,7 +111,7 @@ The steps for installing the first server are:
    nlserver config -internalpassword
    ```
 
-   For more on this, refer to [Internal identifier](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html#internal-identifier).
+   For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
 1. Create the **demo** instance with the DNS masks for tracking (in this case, **tracking.campaign.net**) and access to client consoles (in this case, **console.campaign.net**). There are two ways of doing this:
 
@@ -119,7 +119,7 @@ The steps for installing the first server are:
     
       ![](assets/install_create_new_connexion.png)
 
-      For more on this, refer to [Creating an instance and logging on](https://helpx.adobe.com/campaign/standard/installation/using/creating-an-instance-and-logging-on.html).
+      For more on this, refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
 
       or
     
@@ -129,7 +129,7 @@ The steps for installing the first server are:
       nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
       ```    
     
-      For more on this, refer to [Creating an instance](https://helpx.adobe.com/campaign/standard/installation/using/command-lines.html#creating-an-instance).
+      For more on this, refer to [Creating an instance](../../installation/using/command-lines.md#creating-an-instance).
 
 1. Edit the **config-demo.xml** file (created via the previous command and located next to the **config-default.xml** file), check that the **mta** (delivery), **wfserver** (workflow), **inMail** (rebound mails) and **stat** (statistics) processes are enabled, then configure the address of the **app** statistics server:
 
@@ -149,7 +149,7 @@ The steps for installing the first server are:
    </serverconf>
    ```
 
-   For more on this, refer to [Enabling processes](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html#enabling-processes).
+   For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
 
 1. Edit the **serverConf.xml** file and specify the delivery domain, then specify the IP (or host) addresses of the DNS servers used by the MTA module to answer MX type DNS queries.
 
@@ -161,14 +161,14 @@ The steps for installing the first server are:
    >
    >The **nameServers** parameters is only used in Windows.
 
-   For more on this, refer to [Campaign server configuration](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html).
+   For more on this, refer to [Campaign server configuration](../../installation/using/campaign-server-configuration.md).
 
 1. Copy the client console setup program (**setup-client-7.**XX**, **YYYY** .exe** for v7 or **setup-client-6.**XX**, **YYYY** .exe** for v6.1) to the **/datakit/nl/eng/jsp** folder.
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Windows](https://helpx.adobe.com/campaign/standard/installation/using/client-console-availability-for-windows.html),
-    * For Windows: [Client console availability for Windows](https://helpx.adobe.com/campaign/standard/installation/using/client-console-availability-for-windows.html).
+    * For Linux: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md),
+    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md).
 
 1. Start the Adobe Campaign server (**net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux) and run the command **nlserver pdump** once more to check for presence of all enabled modules.
 
@@ -196,8 +196,8 @@ The steps for installing the first server are:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Linux](https://helpx.adobe.com/campaign/standard/installation/using/client-console-availability-for-linux.html),
-    * For Windows: [Client console availability for Windows](https://helpx.adobe.com/campaign/standard/installation/using/client-console-availability-for-windows.html).
+    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md),
+    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md).
 
 ### Installing and configuring the application server 2 {#installing-and-configuring-the-application-server-2}
 
@@ -233,7 +233,7 @@ Apply the following steps:
    </serverconf>
    ```
 
-   For more on this, refer to [Enabling processes](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html#enabling-processes).
+   For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
 
 1. Edit the **serverConf.xml** file and populate the DNS configuration of the MTA module:
 
@@ -245,14 +245,14 @@ Apply the following steps:
    >
    >The **nameServers** parameter is only used in Windows.
 
-   For more on this, refer to [Campaign server configuration](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html).
+   For more on this, refer to [Campaign server configuration](../../installation/using/campaign-server-configuration.md).
 
 1. Start the Adobe Campaign servers.
 
    For more on this, refer to the following sections:
 
-    * For Linux: [First start-up of the server](https://helpx.adobe.com/campaign/standard/installation/using/installing-packages-with-linux.html#first-start-up-of-the-server),
-    * For Windows: [First start-up of the server](https://helpx.adobe.com/campaign/standard/installation/using/installing-the-server.html#first-start-up-of-the-server).
+    * For Linux: [First start-up of the server](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server),
+    * For Windows: [First start-up of the server](../../installation/using/installing-the-server.md#first-start-up-of-the-server).
 
 ### Installing and configuring the frontal servers {#installing-and-configuring-the-frontal-servers}
 
@@ -263,8 +263,8 @@ The steps are as follows:
 1. Install the Adobe Campaign server,
 1. Comply with the Web server integration procedure (IIS, Apache) described in the following sections:
 
-    * For Linux: [Integration into a Web server for Linux](https://helpx.adobe.com/campaign/standard/installation/using/integration-into-a-web-server-for-linux.html),
-    * For Windows: [Integration into a Web server for Windows](https://helpx.adobe.com/campaign/standard/installation/using/integration-into-a-web-server-for-windows.html).
+    * For Linux: [Integration into a Web server for Linux](../../installation/using/integration-into-a-web-server-for-linux.md),
+    * For Windows: [Integration into a Web server for Windows](../../installation/using/integration-into-a-web-server-for-windows.md).
 
 1. Copy the **config-demo.xml** and **serverConf.xml** files created during installation. In the **config-demo.xml** file, activate the **trackinglogd** process and deactivate the **mta**, **inmail**, **wfserver** and **stat** processes.
 1. Edit the **serverConf.xml** file and populate the redundant tracking servers in the parameters of the redirection:
@@ -290,8 +290,8 @@ The steps are as follows:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Launching the Web server and testing the configuration](https://helpx.adobe.com/campaign/standard/installation/using/integration-into-a-web-server-for-linux.html#launching-the-web-server-and-testing-the-configuration),
-    * For Windows: [Launching the Web server and testing the configuration](https://helpx.adobe.com/campaign/standard/installation/using/integration-into-a-web-server-for-windows.html#launching-the-web-server-and-testing-the-configuration).
+    * For Linux: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration),
+    * For Windows: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration).
 
 1. Start the Adobe Campaign server.
 

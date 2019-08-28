@@ -22,7 +22,7 @@ snippet: y
 
 The built-in reports provided by Adobe Campaign can be found in the table below.
 
-For more on the content of these reports, refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/reports-on-deliveries.html#delivery-reports).
+For more on the content of these reports, refer to [this section](../../reporting/using/reports-on-deliveries.md#delivery-reports).
 
 <table> 
  <tbody> 
@@ -125,7 +125,7 @@ Reports on campaigns concern the data in the **nms:operation** table.
 
 The built-in reports provided by Adobe Campaign can be found in the table below.
 
-For more on the content of these reports, refer to [this section](https://helpx.adobe.com/campaign/classic/campaign/using/designing-marketing-campaigns.html).
+For more on the content of these reports, refer to [this section](../../campaign/using/designing-marketing-campaigns.md).
 
 <table> 
  <tbody> 
@@ -221,7 +221,7 @@ For more on the content of these reports, refer to the related guides.
 
 The built-in reports provided by Adobe Campaign can be found in the table below.
 
-For more on the content of these reports, refer to [this section](https://helpx.adobe.com/campaign/classic/campaign/using/designing-marketing-campaigns.html).
+For more on the content of these reports, refer to [this section](../../campaign/using/designing-marketing-campaigns.md).
 
 <table> 
  <tbody> 
@@ -316,7 +316,7 @@ Reports on Web applications concern the data in the **nms:WebApp** table.
 
 The built-in reports provided by Adobe Campaign can be found in the table below.
 
-For more on the content of these reports, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-applications.html).
+For more on the content of these reports, refer to [this section](../../web/using/about-web-applications.md).
 
 <table> 
  <tbody> 

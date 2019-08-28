@@ -26,9 +26,9 @@ Adobe Campaign employs Data Schemas to:
 
 ## Extending or creating schemas {#extending-or-creating-schemas}
 
-To add a field or index or other element to one of the core data schemas in Campaign, such as the recipient table (nms:recipient), you have to extend that schema. For more on this, refer to the [Extending a schema](https://helpx.adobe.com/campaign/standard/configuration/using/extending-a-schema.html) section.
+To add a field or index or other element to one of the core data schemas in Campaign, such as the recipient table (nms:recipient), you have to extend that schema. For more on this, refer to the [Extending a schema](../../configuration/using/extending-a-schema.md) section.
 
-To add an entirely new type of data that does not exist out-of-the-box in Adobe Campaign (a table of contracts for example) you can create a custom schema directly. For more on this, refer to the [Data schemas](https://helpx.adobe.com/campaign/standard/configuration/using/data-schemas.html) section.
+To add an entirely new type of data that does not exist out-of-the-box in Adobe Campaign (a table of contracts for example) you can create a custom schema directly. For more on this, refer to the [Data schemas](../../configuration/using/data-schemas.md) section.
 
 ![](assets/schemaextension_getting_started_1.png)
 
@@ -59,7 +59,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >You can also employ user-managed enumerations (usually under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) to specify the values for a given field. These are effectively global enumerations, and a better choice if your enumeration may be used outside of the specific schema you are working in.
 
-To find out more about enumerations, refer to the [Enumerations](https://helpx.adobe.com/campaign/standard/configuration/using/schema-structure.html#enumerations) and [ `<enumeration>  element </enumeration>`](https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#enumeration--element) sections.
+To find out more about enumerations, refer to the [Enumerations](../../configuration/using/schema-structure.md#enumerations) and [ `<enumeration>  element </enumeration>`](../../configuration/using/elements-and-attributes.md#enumeration--element) sections.
 
 ## Index {#index}
 
@@ -88,7 +88,7 @@ The **xpath** attribute points to the field in your schema that you wish to inde
 >
 >It is important to remember that the SQL query read performance gains provided by indexes also come with a performance hit on writing records. The indexes should therefore be used with precaution.
 
-For more on indexes, refer to the [Indexed fields](https://helpx.adobe.com/campaign/standard/configuration/using/database-mapping.html#indexed-fields) section.
+For more on indexes, refer to the [Indexed fields](../../configuration/using/database-mapping.md#indexed-fields) section.
 
 ## Keys {#keys}
 
@@ -110,15 +110,15 @@ In this example, instead of letting the **@autopk** attribute create a default p
 >
 >When creating a new schema or during a schema extension, you need to keep the same primary key sequence value (@pkSequence) for the whole schema.
 
-To find out more about keys, refer to the [Management of keys](https://helpx.adobe.com/campaign/standard/configuration/using/database-mapping.html#management-of-keys) section.
+To find out more about keys, refer to the [Management of keys](../../configuration/using/database-mapping.md#management-of-keys) section.
 
 ## Attributes (Fields) {#attributes--fields-}
 
-Attributes allow you to define the fields which make up your data object. You can use the **[!UICONTROL Insert]** button in the schema edition toolbar to drop empty attribute templates into your XML where your cursor is. For more on this, refer to the [Data schemas](https://helpx.adobe.com/campaign/standard/configuration/using/data-schemas.html) section.
+Attributes allow you to define the fields which make up your data object. You can use the **[!UICONTROL Insert]** button in the schema edition toolbar to drop empty attribute templates into your XML where your cursor is. For more on this, refer to the [Data schemas](../../configuration/using/data-schemas.md) section.
 
 ![](assets/schemaextension_getting_started_2.png)
 
-The full list of attributes is available in the [ `<attribute>  element </attribute>`](https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#attribute--element) section. Here are some of the more commonly used attributes:
+The full list of attributes is available in the [ `<attribute>  element </attribute>`](../../configuration/using/elements-and-attributes.md#attribute--element) section. Here are some of the more commonly used attributes:
 
 * **@advanced**
 * **@dataPolicy**
@@ -135,9 +135,9 @@ The full list of attributes is available in the [ `<attribute>  element </attrib
 * **@xml**
 * **@type**
 
-  To view a table listing the mappings for the data types generated by Adobe Campaign for the different database management systems, refer to the [Mapping the types of Adobe Campaign/DBMS data](https://helpx.adobe.com/campaign/standard/configuration/using/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data) section.
+  To view a table listing the mappings for the data types generated by Adobe Campaign for the different database management systems, refer to the [Mapping the types of Adobe Campaign/DBMS data](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) section.
 
-For more information on each attribute, refer to the [Attribute description](https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#attribute-description) section.
+For more information on each attribute, refer to the [Attribute description](../../configuration/using/elements-and-attributes.md#attribute-description) section.
 
 ### Examples {#examples}
 
@@ -219,9 +219,9 @@ Once your changes are completed and saved, any changes that may impact the SQL s
 
 ![](assets/schemaextension_getting_started_3.png)
 
-For more on this, refer to the [Updating the database structure](https://helpx.adobe.com/campaign/standard/configuration/using/updating-the-database-structure.html) section.
+For more on this, refer to the [Updating the database structure](../../configuration/using/updating-the-database-structure.md) section.
 
 >[!NOTE]
 >
->When modifications do not impact the database structure, you just need to regenerate schemas. To do this, select the schema(s) to update, right click and choose **[!UICONTROL Actions > Regenerate selected schemas...]** . For more on this, refer to the [Regenerating schemas](https://helpx.adobe.com/campaign/standard/configuration/using/regenerating-schemas.html) section.
+>When modifications do not impact the database structure, you just need to regenerate schemas. To do this, select the schema(s) to update, right click and choose **[!UICONTROL Actions > Regenerate selected schemas...]** . For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.
 

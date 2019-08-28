@@ -24,7 +24,7 @@ Adobe Campaign lets you express dates as a function of their time zone: this ena
 
 In order to enable the use of the Adobe Campaign platform on an international scale, all dates used by the systems must be linkable to a time zone. A date whose time zone is known can thus be imported into any other time zone, or regardless of time zone.
 
-Adobe Campaign lets you store dates/times in UTC (Coordinated Universal Time) format. When data is exposed, it is converted into the local date/time of the operator. Conversion is carried out automatically when the database is configured in UTC (refer to [Configuration](https://helpx.adobe.com/campaign/standard/installation/using/time-zone-management.html#configuration)). If the database is not configured in UTC, information on the time zone of the dates in the platform is stored in an option.
+Adobe Campaign lets you store dates/times in UTC (Coordinated Universal Time) format. When data is exposed, it is converted into the local date/time of the operator. Conversion is carried out automatically when the database is configured in UTC (refer to [Configuration](../../installation/using/time-zone-management.md#configuration)). If the database is not configured in UTC, information on the time zone of the dates in the platform is stored in an option.
 
 The main platform functionalities regarding time zone management are: import/export data and operator and Workflow management. The **inheritance concept** is available for imports/exports or Workflows. By default, they are configured for the database server time zone, however you can redefine new time zones for a workflow and even for a single activity.
 
@@ -34,7 +34,7 @@ The main platform functionalities regarding time zone management are: import/exp
 >
 >If the database does not manage multiple time zones, for all data filtering manipulations, SQL queries must be executed in the time zone of the database server.
 
-Each Adobe Campaign operator is linked to a time zone: this information is configured in their profile. For more on this, refer to [this document](https://helpx.adobe.com/campaign/classic/platform/using/access-management.html).
+Each Adobe Campaign operator is linked to a time zone: this information is configured in their profile. For more on this, refer to [this document](../../platform/using/access-management.md).
 
 When the Adobe Campaign platform does not require time zone management, you can keep a storage mode in local format with a specific linked time zone.
 
@@ -48,7 +48,7 @@ However, if you use the **SET TIME ZONE 0200;** command, the time-lag will alway
 
 ## Configuration {#configuration}
 
-The storage mode for dates and times is selected during database creation (refer to [Creating a new instance](https://helpx.adobe.com/campaign/standard/installation/using/time-zone-management.html#creating-a-new-instance)). In case of a migration, the hours linked to dates are converted into local dates and hours (refer to [Migration](https://helpx.adobe.com/campaign/standard/installation/using/time-zone-management.html#migration)).
+The storage mode for dates and times is selected during database creation (refer to [Creating a new instance](../../installation/using/time-zone-management.md#creating-a-new-instance)). In case of a migration, the hours linked to dates are converted into local dates and hours (refer to [Migration](../../installation/using/time-zone-management.md#migration)).
 
 From a technical point of view, there are two ways of storing **Date+time** type information in the database:
 

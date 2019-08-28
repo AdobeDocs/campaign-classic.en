@@ -23,7 +23,7 @@ Adobe Campaign lets you perform mass personalized deliveries of SMS messages. Th
 >[!NOTE]
 >
 >Adobe Campaign also lets you submit notifications on mobile terminals, via its **Adobe Campaign Mobile App Channel (NMAC)** option.  
->For more on this, refer to the [About mobile app channel](https://helpx.adobe.com/campaign/standard/delivery/using/about-mobile-app-channel.html) section.
+>For more on this, refer to the [About mobile app channel](../../delivery/using/about-mobile-app-channel.md) section.
 
 ## Setting up SMS channel {#setting-up-sms-channel}
 
@@ -45,7 +45,7 @@ The list of external accounts can be found in the **[!UICONTROL Platform]** > **
   ![](assets/s_user_external_account_01.png)
 
 * Check that the **[!UICONTROL Mobile]** option is selected for the **[!UICONTROL Channel]** field.
-* In the **[!UICONTROL Mobile]** tab, select a connector from the drop-down list: NetSize, Generic SMPP, Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2, or Extended generic SMPP. For more information on the Extended generic SMPP connector, refer to the [Creating an SMPP external account](https://helpx.adobe.com/campaign/standard/delivery/using/sms-channel.html#creating-an-smpp-external-account) section.
+* In the **[!UICONTROL Mobile]** tab, select a connector from the drop-down list: NetSize, Generic SMPP, Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2, or Extended generic SMPP. For more information on the Extended generic SMPP connector, refer to the [Creating an SMPP external account](../../delivery/using/sms-channel.md#creating-an-smpp-external-account) section.
 
   ![](assets/s_user_external_account_connect_01.png)
 
@@ -63,7 +63,7 @@ The list of external accounts can be found in the **[!UICONTROL Platform]** > **
 
 If you want to use the SMPP protocol, you can also create a new external account.
 
-For more information on SMS protocol and settings, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+For more information on SMS protocol and settings, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.md).
 
 To do this, follow the steps below:
 
@@ -98,7 +98,7 @@ To do this, follow the steps below:
 
    ![](assets/extended_smpp_transliteration.png)
 
-   For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/sms-channel.html#about-character-transliteration).
+   For more on this, refer to [this section](../../delivery/using/sms-channel.md#about-character-transliteration).
 
 1. In the **[!UICONTROL Throughput and delays]** tab, you can specify the maximum throughput of outbound messages ("MT", Mobile Terminated) in MT per second. If you enter "0" in the corresponding field, the throughput will be unlimited.
 
@@ -106,17 +106,17 @@ To do this, follow the steps below:
 
 1. In the **[!UICONTROL Mapping of encodings]** tab, you can define encodings.
 
-   For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/sms-channel.html#about-text-encodings).
+   For more on this, refer to [this section](../../delivery/using/sms-channel.md#about-text-encodings).
 
 1. In the **[!UICONTROL SMSC specificities]** tab, the **[!UICONTROL Send full phone number]** option is disabled by default. Do not enable it if you want to respect the SMPP protocol and transfer only digits to the server of the SMS provider (SMSC).
 
    However, given that certain providers require the use of the '+' prefix, it is advised that you check with your provider and they will suggest that you enable this option if necessary.
 
-   The **[!UICONTROL Enable TLS over SMPP]** checkbox allows you to encrypt SMPP traffic. For more on this, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+   The **[!UICONTROL Enable TLS over SMPP]** checkbox allows you to encrypt SMPP traffic. For more on this, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.md).
 
 1. If you are configuring an **[!UICONTROL Extended generic SMPP]** connector, you can set up automatic replies.
 
-   For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/sms-channel.html#automatic-reply).
+   For more on this, refer to [this section](../../delivery/using/sms-channel.md#automatic-reply).
 
 ### About character transliteration {#about-character-transliteration}
 
@@ -368,7 +368,7 @@ To carry out an action without sending a response, leave the **[!UICONTROL Respo
 
 ### Changing the delivery template {#changing-the-delivery-template}
 
-Adobe Campaign provides you with a template for delivering to mobiles. This template is available in the **[!UICONTROL Resources > Templates > Delivery templates]** node. For more on this, refer to the [About templates](https://helpx.adobe.com/campaign/standard/delivery/using/about-templates.html) section.
+Adobe Campaign provides you with a template for delivering to mobiles. This template is available in the **[!UICONTROL Resources > Templates > Delivery templates]** node. For more on this, refer to the [About templates](../../delivery/using/about-templates.md) section.
 
 To deliver via SMS channel, you must create a template in which the channel connector is referenced.
 
@@ -404,14 +404,14 @@ To create a new SMS delivery, follow the steps below:
 
 >[!NOTE]
 >
->Global concepts on delivery creation are presented in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html).
+>Global concepts on delivery creation are presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md).
 
 1. Create a new delivery, for example from the Delivery dashboard. 
-1. Select the delivery template **[!UICONTROL Send to mobiles (NetSize)]** that you created earlier. For more on this, refer to the [Changing the delivery template](https://helpx.adobe.com/campaign/standard/delivery/using/sms-channel.html#changing-the-delivery-template) section.
+1. Select the delivery template **[!UICONTROL Send to mobiles (NetSize)]** that you created earlier. For more on this, refer to the [Changing the delivery template](../../delivery/using/sms-channel.md#changing-the-delivery-template) section.
 
    ![](assets/s_user_mobile_wizard.png)
 
-1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#identifying-the-delivery).
+1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#identifying-the-delivery).
 1. Click **[!UICONTROL Continue]** to confirm this information and display the message configuration window.
 
 ## Defining the SMS content {#defining-the-sms-content}
@@ -422,7 +422,7 @@ To create the content of the SMS, follow the steps below:
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 
-   The use of personalization fields is presented in the [About personalization](https://helpx.adobe.com/campaign/standard/delivery/using/about-personalization.html) section.
+   The use of personalization fields is presented in the [About personalization](../../delivery/using/about-personalization.md) section.
 
 1. Click **[!UICONTROL Preview]** at the bottom of the page to view the rendering of the message with its personalization. To launch the preview, select a recipient using the **[!UICONTROL Test personalization]** button in the toolbar. You can select a recipient from the defined targets or choose another recipient.
 
@@ -438,19 +438,19 @@ To create the content of the SMS, follow the steps below:
 
    >[!NOTE]
    >
-   >SMS messages are limited to a length of 160 characters if the Latin-1 (ISO-8859-1) code page is used. If the message is written in Unicode, it must not exceed 70 characters. Certain special characters can affect message length. For more information on message length, refer to the [About character transliteration](https://helpx.adobe.com/campaign/standard/delivery/using/sms-channel.html#about-character-transliteration) section.  
+   >SMS messages are limited to a length of 160 characters if the Latin-1 (ISO-8859-1) code page is used. If the message is written in Unicode, it must not exceed 70 characters. Certain special characters can affect message length. For more information on message length, refer to the [About character transliteration](../../delivery/using/sms-channel.md#about-character-transliteration) section.  
    >When personalization fields or conditional content fields are present, the size of the message varies from one recipient to the other. The length of the message must be evaluated when personalization has been carried out.  
    >When you launch the analysis, the length of messages is checked and a warning is displayed in the event of overflow.
 
-1. If you use the NetSize connector or an SMPP connector, you can personalize the name of the delivery sender. For more on this, refer to the [Advanced parameters](https://helpx.adobe.com/campaign/standard/delivery/using/sms-channel.html#advanced-parameters) section.
+1. If you use the NetSize connector or an SMPP connector, you can personalize the name of the delivery sender. For more on this, refer to the [Advanced parameters](../../delivery/using/sms-channel.md#advanced-parameters) section.
 
 ## Selecting the target population {#selecting-the-target-population}
 
-The detailed process when selecting the target population of a delivery is presented in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#defining-the-target-population).
+The detailed process when selecting the target population of a delivery is presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-the-target-population).
 
-For more on the use of personalization fields, refer to [About personalization](https://helpx.adobe.com/campaign/standard/delivery/using/about-personalization.html).
+For more on the use of personalization fields, refer to [About personalization](../../delivery/using/about-personalization.md).
 
-For more on the inclusion of a seed list, refer to [About seed addresses](https://helpx.adobe.com/campaign/standard/delivery/using/about-seed-addresses.html).
+For more on the inclusion of a seed list, refer to [About seed addresses](../../delivery/using/about-seed-addresses.md).
 
 ## Sending SMS messages {#sending-sms-messages}
 
@@ -458,8 +458,8 @@ To approve your message and send it to the recipients of the delivery being crea
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validating the delivery](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#validating-the-delivery)
-* [Sending the delivery](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#sending-the-delivery)
+* [Validating the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#validating-the-delivery)
+* [Sending the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-the-delivery)
 
 ### Advanced parameters {#advanced-parameters}
 
@@ -497,9 +497,9 @@ The following options are available:
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Monitoring a delivery](https://helpx.adobe.com/campaign/standard/delivery/using/monitoring-a-delivery.html)
-* [Understanding delivery failures](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-delivery-failures.html)
-* [About message tracking](https://helpx.adobe.com/campaign/standard/delivery/using/about-message-tracking.html)
+* [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md)
+* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
+* [About message tracking](../../delivery/using/about-message-tracking.md)
 
 ## Processing inbound messages {#processing-inbound-messages}
 
@@ -521,7 +521,7 @@ The **nlserver sms** module queries the SMS router at regular intervals. This al
 
 * **Unsubscription**: recipients who wish to stop receiving SMS deliveries can return a message containing the word STOP. If your provider allows it under the terms of the contract, you can retrieve messages via the **Inbound SMS** workflow activity and then create a query to enable the **No longer contact this recipient** option for the recipients concerned.
 
-  Refer to the [Workflows](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html#architecture) guide.
+  Refer to the [Workflows](../../workflow/using/executing-a-workflow.md#architecture) guide.
 
 ## InSMS schema {#insms-schema}
 
@@ -558,7 +558,7 @@ The sender name for this type of message is a short code usually used to send de
 
 >[!CAUTION]
 >
->The following detailed procedure is only valid for SMPP connectors, except for the extended generic SMPP connector. For more on this, refer to the [Creating an SMPP external account](https://helpx.adobe.com/campaign/standard/delivery/using/sms-channel.html#creating-an-smpp-external-account) section.   
+>The following detailed procedure is only valid for SMPP connectors, except for the extended generic SMPP connector. For more on this, refer to the [Creating an SMPP external account](../../delivery/using/sms-channel.md#creating-an-smpp-external-account) section.   
 >It makes up part of the certification process carried out by American operators for marketing campaigns in the US. These replies to subscriber SMS messages containing the keyword must be sent back to the subscriber immediately after receiving a message from them.
 
 1. Create this type of XML file:
@@ -620,6 +620,6 @@ The sender name for this type of message is a short code usually used to send de
 
 >[!CAUTION]
 >
->These kinds of automatic messages do not keep a history. Therefore they do not appear in the [delivery dashboard](https://helpx.adobe.com/campaign/classic/delivery/using/monitoring-a-delivery.html#delivery-dashboard).   
->These messages are not considered part of the [commercial pressure rules](https://helpx.adobe.com/campaign/classic/campaign/using/pressure-rules.html).
+>These kinds of automatic messages do not keep a history. Therefore they do not appear in the [delivery dashboard](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).   
+>These messages are not considered part of the [commercial pressure rules](../../campaign/using/pressure-rules.md).
 

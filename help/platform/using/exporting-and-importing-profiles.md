@@ -26,5 +26,5 @@ To configure and execute data imports and exports, go to the **[!UICONTROL Profi
 
 >[!NOTE]
 >
->Data importing and exporting are presented in [Generic imports and exports](https://helpx.adobe.com/campaign/standard/platform/using/generic-imports-and-exports.html) and in [this video](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html).
+>Data importing and exporting are presented in [Generic imports and exports](../../platform/using/generic-imports-and-exports.md) and in [this video](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.md).
 

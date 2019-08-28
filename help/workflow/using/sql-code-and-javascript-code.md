@@ -26,9 +26,9 @@ An **SQL code** activity executes an SQL script. The script is a JST template.
 
 * **[!UICONTROL Processing errors]**
 
-  Refer to [Processing errors](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#processing-errors).
+  Refer to [Processing errors](../../workflow/using/executing-a-workflow.md#processing-errors).
 
-**JavaScript code** type activities execute a JavaScript script in the context of a workflow. For more on scripting, refer to the [JavaScript scripts and templates](https://helpx.adobe.com/campaign/standard/workflow/using/javascript-scripts-and-templates.html) section.
+**JavaScript code** type activities execute a JavaScript script in the context of a workflow. For more on scripting, refer to the [JavaScript scripts and templates](../../workflow/using/javascript-scripts-and-templates.md) section.
 
 * **[!UICONTROL Script]**
 
@@ -36,9 +36,9 @@ An **SQL code** activity executes an SQL script. The script is a JST template.
 
 * **[!UICONTROL Processing errors]**
 
-  Refer to [Processing errors](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#processing-errors).
+  Refer to [Processing errors](../../workflow/using/executing-a-workflow.md#processing-errors).
 
-An **Advanced JavaScript code** activity executes a JavaScript script in the context of a workflow. For more on scripting, refer to [JavaScript scripts and templates](https://helpx.adobe.com/campaign/standard/workflow/using/javascript-scripts-and-templates.html).
+An **Advanced JavaScript code** activity executes a JavaScript script in the context of a workflow. For more on scripting, refer to [JavaScript scripts and templates](../../workflow/using/javascript-scripts-and-templates.md).
 
 * **[!UICONTROL First call]**
 

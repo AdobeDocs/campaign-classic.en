@@ -20,7 +20,7 @@ snippet: y
 
 This section details the installation and configuration of a mid-sourcing server, as well as the deployment of an instance which enables third parties to send messages in **mid-sourcing** mode.
 
-The "mid-sourcing" architecture is presented in [Mid-sourcing deployment](https://helpx.adobe.com/campaign/standard/installation/using/mid-sourcing-deployment.html).
+The "mid-sourcing" architecture is presented in [Mid-sourcing deployment](../../installation/using/mid-sourcing-deployment.md).
 
 Installing a mid-sourcing server follows the same process as installing a server in the normal way (refer to the standard configuration). It is an independent instance with its own database which can be used to run deliveries. Simply put, it contains an extra configuration to allow remote instances execute deliveries through it in mid-sourcing mode.
 
@@ -36,7 +36,7 @@ The following procedure details a configuration using a single mid-sourcing serv
 
 ### Installing and configuring the application server for mid-sourcing deployment {#installing-and-configuring-the-application-server-for-mid-sourcing-deployment}
 
-The installation procedure is identical to that of standalone instance. Refer to [Installing and configuring (single machine)](https://helpx.adobe.com/campaign/standard/installation/using/standalone-deployment.html#installing-and-configuring--single-machine-).
+The installation procedure is identical to that of standalone instance. Refer to [Installing and configuring (single machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
 However, you must apply the following:
 
@@ -58,7 +58,7 @@ However, you must apply the following:
   </serverconf>
   ```
 
-  For more on this, refer to [Enabling processes](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html#enabling-processes).
+  For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
 
 * Steps **6**, **9** and **10** aren't necessary.
 * During steps **12** and **13**, you need to indicate the 8080 port in the connection URL (since the console communicates with Tomcat directly, not via the Web server). The URL becomes [http://console.campaign.net:8080](http://console.campaign.net). During step **13**, select the **[!UICONTROL Issue towards Mid-sourcing]** package as well as those to install.

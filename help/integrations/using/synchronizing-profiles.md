@@ -20,11 +20,11 @@ snippet: y
 
 ACS Connector replicates data from Campaign v7 to Campaign Standard. The data received from Campaign v7 can be used in Campaign Standard to create deliveries. You can see how profiles are synchronized by performing the operations listed below.
 
-* **Add new recipients**: Create a new recipient in Campaign v7 and confirm that a corresponding profile has been replicated to Campaign Standard. See [Creating a new recipient](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-profiles.html#creating-a-new-recipient).
-* **Update recipients**: Edit a new recipient in Campaign v7 and view the corresponding profile in Campaign Standard to confirm that the update has been replicated. See [Editing a recipient](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-profiles.html#editing-a-recipient).
-* **Build a workflow in Campaign Standard**: Create a workflow in Campaign Standard that includes a query with an audience or profiles replicated from Campaign v7. See [Creating a workflow](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-profiles.html#creating-a-workflow).
-* **Create a delivery in Campaign Standard**: Follow the workflow to completion to send a delivery. See [Creating a delivery](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-profiles.html#creating-a-delivery).
-* **Verify the unsubscription link**: Use a Campaign v7 web application to make certain that the recipient's choice to unsubscribe to a service is sent to the Campaign v7 database. The option to stop receiving the service is replicated to Campaign Standard. See [Changing the unsubscription link](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-profiles.html#changing-the-unsubscription-link).
+* **Add new recipients**: Create a new recipient in Campaign v7 and confirm that a corresponding profile has been replicated to Campaign Standard. See [Creating a new recipient](../../integrations/using/synchronizing-profiles.md#creating-a-new-recipient).
+* **Update recipients**: Edit a new recipient in Campaign v7 and view the corresponding profile in Campaign Standard to confirm that the update has been replicated. See [Editing a recipient](../../integrations/using/synchronizing-profiles.md#editing-a-recipient).
+* **Build a workflow in Campaign Standard**: Create a workflow in Campaign Standard that includes a query with an audience or profiles replicated from Campaign v7. See [Creating a workflow](../../integrations/using/synchronizing-profiles.md#creating-a-workflow).
+* **Create a delivery in Campaign Standard**: Follow the workflow to completion to send a delivery. See [Creating a delivery](../../integrations/using/synchronizing-profiles.md#creating-a-delivery).
+* **Verify the unsubscription link**: Use a Campaign v7 web application to make certain that the recipient's choice to unsubscribe to a service is sent to the Campaign v7 database. The option to stop receiving the service is replicated to Campaign Standard. See [Changing the unsubscription link](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
 
 ## Prerequisites {#prerequisites}
 
@@ -44,35 +44,35 @@ When a recipient clicks the unsubscription link in an email sent by Campaign Sta
 
 ## Creating a new recipient {#creating-a-new-recipient}
 
-1. Create a new recipient in Campaign v7 for replication to Campaign Standard. Enter as much information as possible, including the recipient's last name, first name, email address, and postal address. However, do not choose a **[!UICONTROL Salutation]** since it will be added in the next section, [Editing a recipient](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-profiles.html#editing-a-recipient). For further information, see [Adding recipients](https://helpx.adobe.com/campaign/classic/platform/using/adding-profiles.html).
+1. Create a new recipient in Campaign v7 for replication to Campaign Standard. Enter as much information as possible, including the recipient's last name, first name, email address, and postal address. However, do not choose a **[!UICONTROL Salutation]** since it will be added in the next section, [Editing a recipient](../../integrations/using/synchronizing-profiles.md#editing-a-recipient). For further information, see [Adding recipients](../../platform/using/adding-profiles.md).
 
    ![](assets/acs_connect_profile_sync_01.png)
 
-1. Confirm that the new recipient has been added to Campaign Standard. When reviewing the profile, make certain that the data you entered in Campaign v7 is also available in Campaign Standard. To learn where to find profiles in Campaign Standard, see [Navigation Basics](https://helpx.adobe.com/campaign/standard/start/using/interface-description.html).
+1. Confirm that the new recipient has been added to Campaign Standard. When reviewing the profile, make certain that the data you entered in Campaign v7 is also available in Campaign Standard. To learn where to find profiles in Campaign Standard, see [Navigation Basics](../../start/using/interface-description.md).
 
    ![](assets/acs_connect_profile_sync_02.png)
 
-   By default, the periodic replication for ACS Connector is once every 15 minutes. For further information, see [Data replication](https://helpx.adobe.com/campaign/standard/integrations/using/acs-connector-principles-and-data-cycle.html#data-replication).
+   By default, the periodic replication for ACS Connector is once every 15 minutes. For further information, see [Data replication](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
 
 ## Editing a recipient {#editing-a-recipient}
 
 The steps below for changing a single point of data offer a simple example of how Campaign v7 becomes the master database for Campaign Standard when using data replication. Modifying or deleting replicated data in Campaign v7 has the same effect on the corresponding data in Campaign Standard.
 
-1. Choose the newly created recipient from [Creating a new recipient](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-profiles.html#creating-a-new-recipient) and edit the recipient’s name. For example, choose a **[!UICONTROL Salutation]** for the recipient (e.g. Mr. or Mrs.). For further information, see [Editing a profile](https://helpx.adobe.com/campaign/classic/platform/using/editing-a-profile.html).
+1. Choose the newly created recipient from [Creating a new recipient](../../integrations/using/synchronizing-profiles.md#creating-a-new-recipient) and edit the recipient’s name. For example, choose a **[!UICONTROL Salutation]** for the recipient (e.g. Mr. or Mrs.). For further information, see [Editing a profile](../../platform/using/editing-a-profile.md).
 
    ![](assets/acs_connect_profile_sync_03.png)
 
-1. Confirm that the recipient’s name has been updated in Campaign Standard. To learn where to find profiles in Campaign Standard, see [Navigation Basics](https://helpx.adobe.com/campaign/standard/start/using/interface-description.html).
+1. Confirm that the recipient’s name has been updated in Campaign Standard. To learn where to find profiles in Campaign Standard, see [Navigation Basics](../../start/using/interface-description.md).
 
    ![](assets/acs_connect_profile_sync_04.png)
 
-   By default, the periodic replication for ACS Connector is once every 15 minutes. For further information, see [Data replication](https://helpx.adobe.com/campaign/standard/integrations/using/acs-connector-principles-and-data-cycle.html#data-replication).
+   By default, the periodic replication for ACS Connector is once every 15 minutes. For further information, see [Data replication](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
 
 ## Creating a workflow {#creating-a-workflow}
 
 Profiles and services replicated from Campaign v7 are available to digital marketers to leverage the rich data in Campaign Standard. The instructions below demonstrate how to add a query to a Campaign Standard workflow and then use it with the replicated database.
 
-For further information and full instructions regarding Campaign Standard workflows, see [Workflows](https://helpx.adobe.com/campaign/standard/automating/using/about-data-and-processes.html).
+For further information and full instructions regarding Campaign Standard workflows, see [Workflows](../../automating/using/about-data-and-processes.md).
 
 1. Go to Campaign Standard and click **[!UICONTROL Marketing Activities]** .
 1. Click **[!UICONTROL Create]** on the upper right.
@@ -92,11 +92,11 @@ For further information and full instructions regarding Campaign Standard workfl
 
 >[!NOTE]
 >
->The instructions for creating the delivery continue the workflow started with [Creating a workflow](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-profiles.html#creating-a-workflow).
+>The instructions for creating the delivery continue the workflow started with [Creating a workflow](../../integrations/using/synchronizing-profiles.md#creating-a-workflow).
 
-Digital marketers can leverage a Campaign v7 web application to make certain that a recipient's choice to unsubscribe to a service is sent to the Campaign v7 database. After the recipient clicks the unsubscription link, the option to stop receiving the service is replicated from Campaign v7 to Campaign Standard. For additional details, see [Changing the unsubscription link](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-profiles.html#changing-the-unsubscription-link).
+Digital marketers can leverage a Campaign v7 web application to make certain that a recipient's choice to unsubscribe to a service is sent to the Campaign v7 database. After the recipient clicks the unsubscription link, the option to stop receiving the service is replicated from Campaign v7 to Campaign Standard. For additional details, see [Changing the unsubscription link](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
 
-Follow the steps below to add an email delivery to an existing workflow with the unsubscription service created in Campaign v7. For further information and full instructions regarding Campaign Standard workflows, see this [document](https://helpx.adobe.com/campaign/standard/automating/using/about-data-and-processes.html).
+Follow the steps below to add an email delivery to an existing workflow with the unsubscription service created in Campaign v7. For further information and full instructions regarding Campaign Standard workflows, see this [document](../../automating/using/about-data-and-processes.md).
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ Follow the steps below to add an email delivery to an existing workflow with the
 
 ## Verifying the unsubscription service {#verifying-the-unsubscription-service}
 
-Follow the instructions in [Creating a workflow](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-profiles.html#creating-a-workflow) and [Creating a delivery](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-profiles.html#creating-a-delivery) before moving to the steps below.
+Follow the instructions in [Creating a workflow](../../integrations/using/synchronizing-profiles.md#creating-a-workflow) and [Creating a delivery](../../integrations/using/synchronizing-profiles.md#creating-a-delivery) before moving to the steps below.
 
 1. The recipient clicks the unsubscription link in the email delivery.
 
@@ -171,11 +171,11 @@ Follow the instructions in [Creating a workflow](https://helpx.adobe.com/campaig
 
    ![](assets/acs_connect_profile_sync_21.png)
 
-1. The recipient data in Campaign v7 is updated to reflect that the user has unsubscribed. Confirm that the box **[!UICONTROL No longer contact (by any channel)]** is checked for the recipient. To learn how to view a recipient in Campaign v7, see [Editing a profile](https://helpx.adobe.com/campaign/classic/platform/using/editing-a-profile.html).
+1. The recipient data in Campaign v7 is updated to reflect that the user has unsubscribed. Confirm that the box **[!UICONTROL No longer contact (by any channel)]** is checked for the recipient. To learn how to view a recipient in Campaign v7, see [Editing a profile](../../platform/using/editing-a-profile.md).
 
    ![](assets/acs_connect_profile_sync_22.png)
 
-1. Go to Campaign Standard and open the profile details for the recipient. Confirm that a checkbox appears next to **[!UICONTROL No longer contact (by any channel)]** . To learn where to find profiles in Campaign Standard, see [Navigation Basics](https://helpx.adobe.com/campaign/standard/start/using/interface-description.html).
+1. Go to Campaign Standard and open the profile details for the recipient. Confirm that a checkbox appears next to **[!UICONTROL No longer contact (by any channel)]** . To learn where to find profiles in Campaign Standard, see [Navigation Basics](../../start/using/interface-description.md).
 
    ![](assets/acs_connect_profile_sync_23.png)
 

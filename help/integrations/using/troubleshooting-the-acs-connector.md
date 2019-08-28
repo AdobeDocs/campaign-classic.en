@@ -79,7 +79,7 @@ Depending on your implementation, you can face several common issues.
 
   Besides, all data attached to recipients and stored in tables related to nms:recipients are not synchronized by default to Campaign Standard.
 
-  To still be able to use related data, you can perform your targeting in Campaign v7 and add additional data as explained in the [Synchronizing audiences](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-audiences.html) section, or you can refer to your consultant to explore customization possibilities.
+  To still be able to use related data, you can perform your targeting in Campaign v7 and add additional data as explained in the [Synchronizing audiences](../../integrations/using/synchronizing-audiences.md) section, or you can refer to your consultant to explore customization possibilities.
 
 * **I am using another profile dimension than the default nms:recipient in Campaign v7, how can I synchronize them with Campaign Standard?**
 

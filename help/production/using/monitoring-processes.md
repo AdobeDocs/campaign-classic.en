@@ -44,7 +44,7 @@ The list of system indicators enables you to display information concerning the 
 
 #### In Windows {#in-windows}
 
-* **[!UICONTROL Pending events queued]** : indicator specific to **Message Center**. Refer to [this section](https://helpx.adobe.com/campaign/classic/message-center/using/monitoring-thresholds.html) for more information.
+* **[!UICONTROL Pending events queued]** : indicator specific to **Message Center**. Refer to [this section](../../message-center/using/monitoring-thresholds.md) for more information.
 * **[!UICONTROL Memory]** : information concerning the physical memory (RAM).
 
   **[!UICONTROL Current value]** : actual memory consumption.
@@ -101,7 +101,7 @@ The list of system indicators enables you to display information concerning the 
 
 ![](assets/production_system_indicators_linux_001.png)
 
-* **[!UICONTROL Pending events queued]** : indicator specific to **Message Center**. Refer to [this section](https://helpx.adobe.com/campaign/classic/message-center/using/monitoring-thresholds.html) for more information.
+* **[!UICONTROL Pending events queued]** : indicator specific to **Message Center**. Refer to [this section](../../message-center/using/monitoring-thresholds.md) for more information.
 * **[!UICONTROL Load average (1/5/15 minutes)]** : information concerning the load, i.e. the use rate of the processer by the processes running on the machine over the last minute, five minutes, or fifteen minutes
 
   **[!UICONTROL Current value]** : actual load of the machine.
@@ -329,7 +329,7 @@ Click on a PublicId identifier to view further detail.
 
 >[!NOTE]
 >
->For further information about SMTP errors and managing them in Adobe Campaign, please consult [this section](https://helpx.adobe.com/campaign/classic/installation/using/email-deliverability.html).
+>For further information about SMTP errors and managing them in Adobe Campaign, please consult [this section](../../installation/using/email-deliverability.md).
 
 ## Billing report {#billing-report}
 
@@ -367,16 +367,16 @@ More precisely, it helps the platform administrators to:
 * Filter workflows by duration to see which workflows may encounter issues
 * Filter activities by duration to see which activities may encounter issues
 * Easily find individual workflows and all related activities (with their duration)
-* Search by workflow type ( [technical workflows](https://helpx.adobe.com/campaign/classic/workflow/using/building-a-workflow.html#technical-workflows) or [campaign workflows](https://helpx.adobe.com/campaign/classic/workflow/using/building-a-workflow.html#campaign-workflows))
+* Search by workflow type ( [technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows) or [campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows))
 * Look for a specific workflow to analyze
 
 >[!NOTE]
 >
->In addition to the **Workflow Heatmap**, you can create a workflow that will let you monitor the status of a set of workflows and send recurring messages to supervisors. For more on this, refer to the [dedicated section](https://helpx.adobe.com/campaign/classic/workflow/using/supervising-workflows.html).
+>In addition to the **Workflow Heatmap**, you can create a workflow that will let you monitor the status of a set of workflows and send recurring messages to supervisors. For more on this, refer to the [dedicated section](../../workflow/using/supervising-workflows.md).
 
-Using the Workflow HeatMap requires to have a good understanding of the following concepts: [Workflows](https://helpx.adobe.com/campaign/classic/workflow/using/about-workflows.html), [Activities](https://helpx.adobe.com/campaign/classic/workflow/using/about-activities.html) and [Workflow Best Practices](https://helpx.adobe.com/campaign/classic/workflow/using/workflow-best-practices.html).
+Using the Workflow HeatMap requires to have a good understanding of the following concepts: [Workflows](../../workflow/using/about-workflows.md), [Activities](../../workflow/using/about-activities.md) and [Workflow Best Practices](../../workflow/using/workflow-best-practices.md).
 
-The Workflow HeatMap is available by default in Adobe Campaign starting 18.10 release. If you have a build between 8700 and 8977 (18.10), you can also benefit from this capability. To request the corresponding package, contact the [Adobe Customer Care](https://support.neolane.net/) and follow the instructions from [this page](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html) to understand how to install it.
+The Workflow HeatMap is available by default in Adobe Campaign starting 18.10 release. If you have a build between 8700 and 8977 (18.10), you can also benefit from this capability. To request the corresponding package, contact the [Adobe Customer Care](https://support.neolane.net/) and follow the instructions from [this page](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.md) to understand how to install it.
 
 When you first access Worfklow HeatMap the following pop-up window will appear. This agreement allows the transfer and storage in the United States allowing Adobe Campaign to:
 
@@ -411,7 +411,7 @@ This choice is not final, you can always change it by clicking the **[!UICONTROL
 
    >[!NOTE]
    >
-   >Only the workflows that have not been deleted by the **[!UICONTROL Database cleanup]** workflow are visible. For more on the Database cleanup workflow, refer to [this section](https://helpx.adobe.com/campaign/classic/production/using/database-cleanup-workflow.html).  
+   >Only the workflows that have not been deleted by the **[!UICONTROL Database cleanup]** workflow are visible. For more on the Database cleanup workflow, refer to [this section](../../production/using/database-cleanup-workflow.md).  
    >By default, the Workflow HeatMap time zone is the one defined for the current administrator user. For example, you may want to change it if you are not in the same area as the marketing users you are working with.
 
 1. Click the **[!UICONTROL Filters]** button.
@@ -432,8 +432,8 @@ This choice is not final, you can always change it by clicking the **[!UICONTROL
 
 1. You can also filter on the **[!UICONTROL Workflow type]** :
 
-    * **[!UICONTROL Technical]** : Only [out-of-the box-technical workflows](https://helpx.adobe.com/campaign/classic/workflow/using/building-a-workflow.html#technical-workflows) and [data management workflows](https://helpx.adobe.com/campaign/classic/workflow/using/targeting-data.html#data-management) are displayed.
-    * **[!UICONTROL Marketing]** : Only workflows linked to a marketing campaign, known as [campaign workflows](https://helpx.adobe.com/campaign/classic/workflow/using/building-a-workflow.html#campaign-workflows), are displayed.
+    * **[!UICONTROL Technical]** : Only [out-of-the box-technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows) and [data management workflows](../../workflow/using/targeting-data.md#data-management) are displayed.
+    * **[!UICONTROL Marketing]** : Only workflows linked to a marketing campaign, known as [campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows), are displayed.
 
 1. To search a specific workflow by name, you can also use the **[!UICONTROL Workflow name filter]** field.
 
@@ -575,7 +575,7 @@ It displays a line like this in XML format:
 #### /nl/jsp/ping.jsp {#nl-jsp-ping-jsp}
 
 This **http(s):// `<application jsp="" nl="" server="" strong="" url="">  page operates in the same way as its network counterpart: it tests a complete query going through apache/tomcat/web module/database and uploading to the client. If everything is working properly, it returns an "OK". We recommend running this test on machines with access to the databases (mtas and surveys, for instance). </application>`**
-** ** **Usage**: a session token associated with an operator login must be passed as an argument in order to log in remotely (see the tip in [Automatic monitoring via Adobe Campaign scripts](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#automatic-monitoring-via-adobe-campaign-scripts)).
+** ** **Usage**: a session token associated with an operator login must be passed as an argument in order to log in remotely (see the tip in [Automatic monitoring via Adobe Campaign scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)).
 
 For example: 
 
@@ -593,7 +593,7 @@ This is a test to check that an operator can access the Adobe Campaign server vi
 
 ![](assets/ncs_monitoring_web.png)
 
-**Usage**: a session token associated with an operator login which lets you connect to the instance needs to be used as an argument (see the tip in [Automatic monitoring via Adobe Campaign scripts](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#automatic-monitoring-via-adobe-campaign-scripts)).
+**Usage**: a session token associated with an operator login which lets you connect to the instance needs to be used as an argument (see the tip in [Automatic monitoring via Adobe Campaign scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)).
 
 The operator and their login needs to be configured previously in the Adobe Campaign client console with the appropriate database rights and restrictions.
 
@@ -605,7 +605,7 @@ This **jsp** represents the point of entry of Adobe Campaign application APIs. I
 
 ### Monitoring based on deployment types {#monitoring-based-on-deployment-types}
 
-Adobe Campaign enables various deployment configurations (for more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/introduction.html)). This section details the various automatic monitoring techniques to be applied depending on your type of installation.
+Adobe Campaign enables various deployment configurations (for more on this, refer to [this section](../../installation/using/introduction.md)). This section details the various automatic monitoring techniques to be applied depending on your type of installation.
 
 <table> 
  <thead> 
@@ -665,7 +665,7 @@ The following pre-installation precautions are required for automatic monitoring
 * You must have the **netreport.tgz **(Linux installation) or **netreport.zip** (Windows installation) files,
 * We strongly advise you not to install monitoring on the machine to be monitored, 
 * it must be installed on a machine with a JRE or a JDK,
-* in Linux, the machine to be monitored must have the **bc** package. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html#distribution-based-on-rpm--packages).
+* in Linux, the machine to be monitored must have the **bc** package. For more on this, refer to [this section](../../installation/using/installing-campaign-standard-packages.md#distribution-based-on-rpm--packages).
 
 ### Installation procedure {#installation-procedure}
 
@@ -681,10 +681,10 @@ The installation procedure is as follows:
 
 The XML configuration file contains the following elements:
 
-* ['Properties' element](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#properties--element)
-* ['Instance' element](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#instance--element)
-* ['Host' element](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#host--element)
-* [Sub-elements](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#sub-elements)
+* ['Properties' element](../../production/using/monitoring-processes.md#properties--element)
+* ['Instance' element](../../production/using/monitoring-processes.md#instance--element)
+* ['Host' element](../../production/using/monitoring-processes.md#host--element)
+* [Sub-elements](../../production/using/monitoring-processes.md#sub-elements)
 
 Here is a configuration example:
 
@@ -741,7 +741,7 @@ This element is used to populate the configuration of emails, i.e.
 
 >[!NOTE]
 >
->The **persistHtmlFile** attribute with the value "true" on the ** `<property>`** element is used to record the latest monitoring status in the file **netreport.html**. This file is saved in the installation directory.
+>The **persistHtmlFile** attribute with the value "true" on the ** `<property>`** element is used to record the latest monitoring status in the file **netreport.md**. This file is saved in the installation directory.
 
 #### 'Instance' element {#instance--element}
 

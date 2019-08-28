@@ -32,21 +32,21 @@ The following steps must be applied to implement budget management using MRM:
 
 1. Defining the budget
 
-   For more on this, refer to [Creating a budget](https://helpx.adobe.com/campaign/standard/campaign/using/controlling-costs.html#creating-a-budget).
+   For more on this, refer to [Creating a budget](../../campaign/using/controlling-costs.md#creating-a-budget).
 
 1. Defining the cost calculation method
 
-   Cost structures are defined for the service providers. See [Creating a service provider and its cost categories](https://helpx.adobe.com/campaign/standard/campaign/using/providers--stocks-and-budgets.html#creating-a-service-provider-and-its-cost-categories).
+   Cost structures are defined for the service providers. See [Creating a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 1. Defining campaign costs (deliveries/tasks)
 
-   The costs incurred by the deliveries and tasks are input individually or globally for the campaign template. See [Calculation of costs and stocks](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#calculation-of-costs-and-stocks).
+   The costs incurred by the deliveries and tasks are input individually or globally for the campaign template. See [Calculation of costs and stocks](../../campaign/using/setting-up-marketing-campaigns.md#calculation-of-costs-and-stocks).
 
 1. Consolidation
 
    According to the progress status of the tasks, deliveries and campaign, the costs will be calculated and passed on to the corresponding budget.
 
-   When the creation of the campaign is sufficiently advanced, the progress status of the campaign budget can be changed to **[!UICONTROL Specified]** . The calculated cost of the program is then entered automatically with the costs calculated on the campaign. See [Cost commitment, calculation and charging](https://helpx.adobe.com/campaign/standard/campaign/using/controlling-costs.html#cost-commitment--calculation-and-charging).
+   When the creation of the campaign is sufficiently advanced, the progress status of the campaign budget can be changed to **[!UICONTROL Specified]** . The calculated cost of the program is then entered automatically with the costs calculated on the campaign. See [Cost commitment, calculation and charging](../../campaign/using/controlling-costs.md#cost-commitment--calculation-and-charging).
 
 ## Creating a budget {#creating-a-budget}
 
@@ -58,7 +58,7 @@ Budgets are created in the map, via the **[!UICONTROL Campaign management > Budg
 
 * Entering the initial amount
 
-  Indicate the allocated amount in the relevant field. The other amounts are entered automatically. See [Calculating amounts](https://helpx.adobe.com/campaign/standard/campaign/using/controlling-costs.html#calculating-amounts).
+  Indicate the allocated amount in the relevant field. The other amounts are entered automatically. See [Calculating amounts](../../campaign/using/controlling-costs.md#calculating-amounts).
 
 * Defining the validity period
 
@@ -66,14 +66,14 @@ Budgets are created in the map, via the **[!UICONTROL Campaign management > Budg
 
 * Expenses
 
-  Create the expense categories to which the costs assigned to this budget for campaigns, tasks etc. can be linked. See [Expense categories](https://helpx.adobe.com/campaign/standard/campaign/using/controlling-costs.html#expense-categories).
+  Create the expense categories to which the costs assigned to this budget for campaigns, tasks etc. can be linked. See [Expense categories](../../campaign/using/controlling-costs.md#expense-categories).
 
   ![](assets/s_ncs_user_budget_create_and_save.png)
 
 >[!NOTE]
 >
 >You can select a related budget.  
->For more on this, refer to [Linking a budget to another](https://helpx.adobe.com/campaign/standard/campaign/using/controlling-costs.html#linking-a-budget-to-another).
+>For more on this, refer to [Linking a budget to another](../../campaign/using/controlling-costs.md#linking-a-budget-to-another).
 
 ### Calculating amounts {#calculating-amounts}
 
@@ -169,7 +169,7 @@ According to the cost categories selected, the corresponding cost structures are
 
 >[!NOTE]
 >
->Cost categories and structures are presented in [Creating a service provider and its cost categories](https://helpx.adobe.com/campaign/standard/campaign/using/providers--stocks-and-budgets.html#creating-a-service-provider-and-its-cost-categories).
+>Cost categories and structures are presented in [Creating a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 ## Cost commitment, calculation and charging {#cost-commitment--calculation-and-charging}
 
@@ -212,7 +212,7 @@ Costs are divided into three categories:
 
 Costs are calculated via cost structures and charged to the budgets selected in the campaigns, deliveries or tasks concerned.
 
-A check can be performed on the amounts committed to campaigns via the budget approval. Additional checkpoint-style tasks can be created in a campaign in order to set up other approvals. See [Types of task](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#types-of-task).
+A check can be performed on the amounts committed to campaigns via the budget approval. Additional checkpoint-style tasks can be created in a campaign in order to set up other approvals. See [Types of task](../../campaign/using/creating-and-managing-tasks.md#types-of-task).
 
 ### Example {#example}
 
@@ -234,7 +234,7 @@ Define a budget of 10,000 Euros in the **[!UICONTROL Allocated]** field of the *
 
 Create a service provider and a service template with its cost structure from the **[!UICONTROL Administration > Campaigns]** node.
 
-For more on this, refer to [Creating a service provider and its cost categories](https://helpx.adobe.com/campaign/standard/campaign/using/providers--stocks-and-budgets.html#creating-a-service-provider-and-its-cost-categories).
+For more on this, refer to [Creating a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 * For direct mail deliveries, create cost categories **[!UICONTROL Envelopes]** (types 114x229 and 162x229), **[!UICONTROL Postage]** and **[!UICONTROL Print]** (types A3 and A4). And then create the following cost structures:
 
@@ -304,7 +304,7 @@ When you edit the calculated cost, you can check the cost breakdown and the stat
 
 #### Step 5 - Creating tasks {#step-5---creating-tasks}
 
-To this campaign, we will add the two tasks for which the cost structures were created earlier (see [Step 2 - Configuring the service provider and defining the cost structures](https://helpx.adobe.com/campaign/standard/campaign/using/controlling-costs.html#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). To do this, in the campaign dashboard, click the **[!UICONTROL Add a task]** button. Name the task and click **[!UICONTROL Save]** .
+To this campaign, we will add the two tasks for which the cost structures were created earlier (see [Step 2 - Configuring the service provider and defining the cost structures](../../campaign/using/controlling-costs.md#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). To do this, in the campaign dashboard, click the **[!UICONTROL Add a task]** button. Name the task and click **[!UICONTROL Save]** .
 
 The task is then added to the task list. You must edit it to configure it.
 

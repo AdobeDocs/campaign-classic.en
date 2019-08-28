@@ -64,4 +64,4 @@ In addition to this, Adobe Campaign recommends the following improvements:
 
 ## Exporting reports {#exporting-reports}
 
-Recommendations specific to exporting reports are detailed in [this section](https://helpx.adobe.com/campaign/classic/reporting/using/actions-on-reports.html#exporting-a-report).
+Recommendations specific to exporting reports are detailed in [this section](../../reporting/using/actions-on-reports.md#exporting-a-report).

@@ -38,7 +38,7 @@ With Marketing Analytics module, Campaign enables you to:
     * reducing the volume of data involved in the various calculations used for reports and queries, thus significantly optimizing indicator calculation times,
     * simplifying access to data, enabling users to manipulate data (whether it is pre-aggregated or not) depending on various dimensions.
 
-   For more on this, refer to [Creating indicators](https://helpx.adobe.com/campaign/standard/reporting/using/creating-indicators.html).
+   For more on this, refer to [Creating indicators](../../reporting/using/creating-indicators.md).
 
 1. Create pivot tables in view of:
 
@@ -47,7 +47,7 @@ With Marketing Analytics module, Campaign enables you to:
     * personalizing the measures and indicators used,
     * offering interactive analysis tools to users with a non-technical background.
 
-   For more on this, refer to [Using cubes to explore data](https://helpx.adobe.com/campaign/standard/reporting/using/using-cubes-to-explore-data.html).
+   For more on this, refer to [Using cubes to explore data](../../reporting/using/using-cubes-to-explore-data.md).
 
 1. Build a query using data calculated and aggregated in a Cube.
 1. Identify populations and reference them in lists.
@@ -110,5 +110,5 @@ The main contexts of use for cubes are as follows:
 
   ![](assets/s_advuser_cube_in_report.png)
 
-  For more on this, refer to [Exploring the data in a report](https://helpx.adobe.com/campaign/standard/reporting/using/using-cubes-to-explore-data.html#exploring-the-data-in-a-report).
+  For more on this, refer to [Exploring the data in a report](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).
 

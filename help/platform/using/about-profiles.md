@@ -30,7 +30,7 @@ Profiles can be identified based on storage space. This means that a profile can
 
 Delivery recipients are stored in the database as profiles containing the information linked to them: last name, first name, address, subscriptions, deliveries, etc. When you create campaigns, you can define the target of the deliveries to a selection of the profiles in the base according to simple or advanced criteria.
 
-You can also create campaigns aimed at recipients whose profiles are stored not in the database, but in files. These are known as "external" deliveries. For more information about this type of delivery, refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#selecting-external-recipients).
+You can also create campaigns aimed at recipients whose profiles are stored not in the database, but in files. These are known as "external" deliveries. For more information about this type of delivery, refer to [this page](../../delivery/using/key-steps-when-creating-a-delivery.md#selecting-external-recipients).
 
 The main methods for creating recipient profiles are as follows:
 
@@ -40,21 +40,21 @@ The main methods for creating recipient profiles are as follows:
 
 >[!NOTE]
 >
->To find out how files and web forms are imported, refer to [Generic imports and exports](https://helpx.adobe.com/campaign/standard/platform/using/generic-imports-and-exports.html).
+>To find out how files and web forms are imported, refer to [Generic imports and exports](../../platform/using/generic-imports-and-exports.md).
 
 ## Profiles and targets {#profiles-and-targets}
 
-The **[!UICONTROL Profiles and targets]** link lets you display recipients stored in Adobe Campaign database. You can create new recipient, edit an existing recipient and access its profile. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/platform/using/editing-a-profile.html).
+The **[!UICONTROL Profiles and targets]** link lets you display recipients stored in Adobe Campaign database. You can create new recipient, edit an existing recipient and access its profile. For more on this, refer to [this page](../../platform/using/editing-a-profile.md).
 
 ![](assets/d_ncs_user_interface_target_link.png)
 
 It also gives you access to:
 
-* lists; see [Creating and managing lists](https://helpx.adobe.com/campaign/standard/platform/using/creating-and-managing-lists.html),
-* subscription services; refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/managing-subscriptions.html),
-* web applications; refer to [this page](https://helpx.adobe.com/campaign/classic/web/using/about-web-applications.html),
-* imports and exports (jobs); refer to [Generic imports and exports](https://helpx.adobe.com/campaign/standard/platform/using/generic-imports-and-exports.html),
-* targeting workflows; refer to [this page](https://helpx.adobe.com/campaign/classic/workflow/using/building-a-workflow.html#implementation-steps-).
+* lists; see [Creating and managing lists](../../platform/using/creating-and-managing-lists.md),
+* subscription services; refer to [this page](../../delivery/using/managing-subscriptions.md),
+* web applications; refer to [this page](../../web/using/about-web-applications.md),
+* imports and exports (jobs); refer to [Generic imports and exports](../../platform/using/generic-imports-and-exports.md),
+* targeting workflows; refer to [this page](../../workflow/using/building-a-workflow.md#implementation-steps-).
 
 The recipients page lets you perform frequent operations on profiles: edits, updates, adds, deletions, sorts.
 
@@ -62,22 +62,22 @@ For more advanced profile manipulations, you need to edit the Adobe Campaign tre
 
 By default, recipients are stored in the **[!UICONTROL Profiles and Targets > Recipients]** node of the tree. You can create recipients from this view, as well as:
 
-* sort and filter the profiles of the database; see [Filtering options](https://helpx.adobe.com/campaign/standard/platform/using/filtering-options.html),
-* move, copy or delete profiles from the database; see [Managing profiles](https://helpx.adobe.com/campaign/standard/platform/using/managing-profiles.html),
-* update profiles; see [Updating data](https://helpx.adobe.com/campaign/standard/platform/using/updating-data.html),
-* export recipients; see [Exporting and importing profiles](https://helpx.adobe.com/campaign/standard/platform/using/exporting-and-importing-profiles.html),
-* create recipient groups; see [Creating and managing lists](https://helpx.adobe.com/campaign/standard/platform/using/creating-and-managing-lists.html).
+* sort and filter the profiles of the database; see [Filtering options](../../platform/using/filtering-options.md),
+* move, copy or delete profiles from the database; see [Managing profiles](../../platform/using/managing-profiles.md),
+* update profiles; see [Updating data](../../platform/using/updating-data.md),
+* export recipients; see [Exporting and importing profiles](../../platform/using/exporting-and-importing-profiles.md),
+* create recipient groups; see [Creating and managing lists](../../platform/using/creating-and-managing-lists.md).
 
 To access advanced functionalities and configurations, you need to click the **[!UICONTROL Explorer]** icon. 
 
 ![](assets/d_ncs_user_interface01.png)
 
-The general layout of the Adobe Campaign explorer is presented in [Using Adobe Campaign explorer](https://helpx.adobe.com/campaign/standard/platform/using/adobe-campaign-workspace.html#using-adobe-campaign-explorer).
+The general layout of the Adobe Campaign explorer is presented in [Using Adobe Campaign explorer](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
 
 >[!NOTE]
 >
->You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [Using Adobe Campaign explorer](https://helpx.adobe.com/campaign/standard/platform/using/adobe-campaign-workspace.html#using-adobe-campaign-explorer).  
->You can also define recipient views. For further information about this functionality, refer to [Folders and views](https://helpx.adobe.com/campaign/standard/platform/using/access-management.html#folders-and-views).
+>You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [Using Adobe Campaign explorer](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).  
+>You can also define recipient views. For further information about this functionality, refer to [Folders and views](../../platform/using/access-management.md#folders-and-views).
 
 ## Active profiles {#active-profiles}
 
@@ -93,6 +93,6 @@ Billing only concerns profiles that are **active**. A profile is considered acti
 
 You can have an overview of the **[!UICONTROL Number of active profiles]** from the **[!UICONTROL Administration > Campaign Management > Customer metrics]** menu.
 
-The actual count is performed by the **[!UICONTROL Number of active billing profiles]** ( **[!UICONTROL billingActiveContactCount]** ) [technical workflow](https://helpx.adobe.com/campaign/classic/workflow/using/delivery.html), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. Each period lasts for 12 months.
+The actual count is performed by the **[!UICONTROL Number of active billing profiles]** ( **[!UICONTROL billingActiveContactCount]** ) [technical workflow](../../workflow/using/delivery.md), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. Each period lasts for 12 months.
 
 The profiles that were excluded during delivery preparation (typology rules, quarantines) are not taken into account. A profile that has been targeted by several deliveries will only be counted once.

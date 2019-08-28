@@ -65,4 +65,4 @@ General communication between servers and processes is carried out according to 
 
 ### Installing and configuring (mid-sourcing deployment) {#installing-and-configuring--mid-sourcing-deployment-}
 
-Refer to [Mid-sourcing server](https://helpx.adobe.com/campaign/standard/installation/using/mid-sourcing-server.html).
+Refer to [Mid-sourcing server](../../installation/using/mid-sourcing-server.md).

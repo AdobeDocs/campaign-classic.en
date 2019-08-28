@@ -35,7 +35,7 @@ To create a Twitter account, go to [http://twitter.com](http://twitter.com).
 
 ## Creating a test account on Twitter {#creating-a-test-account-on-twitter}
 
-We also recommend creating a private Twitter account which can be used for sending tweet proofs (for more on this, refer to [Sending the proof](https://helpx.adobe.com/campaign/standard/social/using/publishing-on-twitter.html#sending-the-proof)):
+We also recommend creating a private Twitter account which can be used for sending tweet proofs (for more on this, refer to [Sending the proof](../../social/using/publishing-on-twitter.md#sending-the-proof)):
 
 * Create a new Twitter account.
 * Click the menu in the top right-hand corner and select **[!UICONTROL Settings]** .
@@ -80,7 +80,7 @@ This step requires simultaneous access to your Adobe Campaign console and an Int
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Synchronize subscriptions]** option is enabled by default. When the box is checked, the Twitter account synchronization workflow (refer to [Synchronizing Twitter accounts](https://helpx.adobe.com/campaign/standard/social/using/configuring-publishing-on-twitter.html#synchronizing-twitter-accounts)) recovers the list of Twitter followers so that you may send them direct messages (refer to [Sending direct messages to subscribers](https://helpx.adobe.com/campaign/standard/social/using/publishing-on-twitter.html#sending-direct-messages-to-subscribers)). If you do not want to recover the list of followers, uncheck this box.
+   >The **[!UICONTROL Synchronize subscriptions]** option is enabled by default. When the box is checked, the Twitter account synchronization workflow (refer to [Synchronizing Twitter accounts](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)) recovers the list of Twitter followers so that you may send them direct messages (refer to [Sending direct messages to subscribers](../../social/using/publishing-on-twitter.md#sending-direct-messages-to-subscribers)). If you do not want to recover the list of followers, uncheck this box.
 
 1. Enter the label and internal name of the service.
 
@@ -96,7 +96,7 @@ This step requires simultaneous access to your Adobe Campaign console and an Int
     
       ![](assets/social_twitter_service_010.png)
 
-1. In the **[!UICONTROL Visitor folder]** field, select the visitor folder which the followers will be created in. For more on this, refer to [Operating principle](https://helpx.adobe.com/campaign/standard/social/using/publishing-on-twitter.html#operating-principle). By default, followers will be created at the root of the **[!UICONTROL Visitors]** folder.
+1. In the **[!UICONTROL Visitor folder]** field, select the visitor folder which the followers will be created in. For more on this, refer to [Operating principle](../../social/using/publishing-on-twitter.md#operating-principle). By default, followers will be created at the root of the **[!UICONTROL Visitors]** folder.
 
    ![](assets/social_twitter_service_010_b.png)
 
@@ -116,18 +116,18 @@ This step requires simultaneous access to your Adobe Campaign console and an Int
 >
 >You must create one **[!UICONTROL Twitter]** type service per Twitter application.
 
-The **[!UICONTROL Twitter account Synchronization]** workflow synchronizes Twitter accounts in Adobe Campaign. For more on this, refer to [Synchronizing Facebook pages](https://helpx.adobe.com/campaign/standard/social/using/publishing-on-facebook-walls.html#synchronizing-facebook-pages).
+The **[!UICONTROL Twitter account Synchronization]** workflow synchronizes Twitter accounts in Adobe Campaign. For more on this, refer to [Synchronizing Facebook pages](../../social/using/publishing-on-facebook-walls.md#synchronizing-facebook-pages).
 
 ## Synchronizing Twitter accounts {#synchronizing-twitter-accounts}
 
 >[!CAUTION]
 >
->In order for the workflow to recover the list of Twitter subscribers, the **[!UICONTROL Twitter account synchronization]** box must be checked in the editing section of the service linked to the account. For more on this, refer to [Delegating write access to Adobe Campaign](https://helpx.adobe.com/campaign/standard/social/using/configuring-publishing-on-twitter.html#delegating-write-access-to-adobe-campaign).
+>In order for the workflow to recover the list of Twitter subscribers, the **[!UICONTROL Twitter account synchronization]** box must be checked in the editing section of the service linked to the account. For more on this, refer to [Delegating write access to Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign).
 
 The **[!UICONTROL Twitter account synchronization]** workflow, which is accessed via the **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** node, lets you synchronize Twitter accounts configured previously with Adobe Campaign. By default, this workflow is triggered every Thursday at 7:30AM.
 
 >[!NOTE]
 >
->It is possible to start the workflow at any time by running anticipated task processing. You can also edit the scheduler to change the workflow triggering frequency. For more on the scheduler, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/scheduler.html).
+>It is possible to start the workflow at any time by running anticipated task processing. You can also edit the scheduler to change the workflow triggering frequency. For more on the scheduler, refer to [this section](../../workflow/using/scheduler.md).
 
-You may now send tweets to your Twitter accounts and direct messages to your followers. For more on this, refer to: [Publishing on Twitter](https://helpx.adobe.com/campaign/standard/social/using/publishing-on-twitter.html).
+You may now send tweets to your Twitter accounts and direct messages to your followers. For more on this, refer to: [Publishing on Twitter](../../social/using/publishing-on-twitter.md).

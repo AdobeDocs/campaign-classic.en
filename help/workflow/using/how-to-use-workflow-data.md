@@ -32,21 +32,21 @@ The data of the Adobe Campaign database and the existing lists can be updated us
 
   ![](assets/s_user_create_list.png)
 
-  Refer to [List update](https://helpx.adobe.com/campaign/standard/workflow/using/list-update.html).
+  Refer to [List update](../../workflow/using/list-update.md).
 
 * The **[!UICONTROL Update data]** activity performs a mass update of the fields in the database.
 
-  For more on this, refer to [Update data](https://helpx.adobe.com/campaign/standard/workflow/using/update-data.html).
+  For more on this, refer to [Update data](../../workflow/using/update-data.md).
 
 ### Subscription/unsubscription management {#subscription-unsubscription-management}
 
-To find out about subscribing and unsubscribing recipients to an information service via a workflow, refer to [Subscription Services](https://helpx.adobe.com/campaign/standard/workflow/using/subscription-services.html).
+To find out about subscribing and unsubscribing recipients to an information service via a workflow, refer to [Subscription Services](../../workflow/using/subscription-services.md).
 
 ## Sending via a workflow {#sending-via-a-workflow}
 
 ### Delivery activity {#delivery-activity}
 
-The delivery activity is detailed in [Delivery](https://helpx.adobe.com/campaign/standard/workflow/using/delivery.html).
+The delivery activity is detailed in [Delivery](../../workflow/using/delivery.md).
 
 ### Enriching and targeting deliveries {#enriching-and-targeting-deliveries}
 
@@ -60,7 +60,7 @@ In addition to the usual personalization fields, you can add personalization fie
 
 ![](assets/s_advuser_using_additional_data.png)
 
-The data contained in the workflow table is identified by its name: it is always made up of the **targetData** link. For more on this, refer to [Target data](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#target-data).
+The data contained in the workflow table is identified by its name: it is always made up of the **targetData** link. For more on this, refer to [Target data](../../workflow/using/executing-a-workflow.md#target-data).
 
 Within the framework of email delivery, personalization fields can also use data from target extension performed in the targeting workflow stages, as shown in the example below: 
 
@@ -90,4 +90,4 @@ function encryptFile(file) {
 }
 ```
 
-When importing a file, you can also unzip or decrypt it. See [Unzipping or decrypting a file before processing](https://helpx.adobe.com/campaign/standard/workflow/using/importing-data.html#unzipping-or-decrypting-a-file-before-processing).
+When importing a file, you can also unzip or decrypt it. See [Unzipping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).

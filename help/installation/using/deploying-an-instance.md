@@ -20,7 +20,7 @@ snippet: y
 
 >[!NOTE]
 >
->Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](https://helpx.adobe.com/campaign/classic/installation/using/hosting-models.html) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md).
 
 ## Deployment wizard {#deployment-wizard}
 
@@ -32,15 +32,15 @@ To start the deployment wizard, select **Tools > Advanced > Deployment wizard**.
 
 The configuration steps are as follows:
 
-1. [General parameters](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#general-parameters)
-1. [Email channel parameters](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#email-channel-parameters)
-1. [Managing bounced emails](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#managing-bounced-emails)
-1. [Tracking configuration](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#tracking-configuration)
-1. [Mobile channel parameters](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#mobile-channel-parameters)
-1. [Regional settings](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#regional-settings)
-1. [Access from the Internet](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#access-from-the-internet)
-1. [Managing public resources](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#managing-public-resources)
-1. [Purging data](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#purging-data)
+1. [General parameters](../../installation/using/deploying-an-instance.md#general-parameters)
+1. [Email channel parameters](../../installation/using/deploying-an-instance.md#email-channel-parameters)
+1. [Managing bounced emails](../../installation/using/deploying-an-instance.md#managing-bounced-emails)
+1. [Tracking configuration](../../installation/using/deploying-an-instance.md#tracking-configuration)
+1. [Mobile channel parameters](../../installation/using/deploying-an-instance.md#mobile-channel-parameters)
+1. [Regional settings](../../installation/using/deploying-an-instance.md#regional-settings)
+1. [Access from the Internet](../../installation/using/deploying-an-instance.md#access-from-the-internet)
+1. [Managing public resources](../../installation/using/deploying-an-instance.md#managing-public-resources)
+1. [Purging data](../../installation/using/deploying-an-instance.md#purging-data)
 
 ## General parameters {#general-parameters}
 
@@ -62,10 +62,10 @@ The lower section of the window enables you to select the options to be activate
 
 The following options are available:
 
-* **[!UICONTROL Email channel]** : to activate e-mail delivery. Refer to [Email channel parameters](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#email-channel-parameters).
-* **[!UICONTROL Tracking]** : To enable tracking of the target population (opens and clicks). Refer to [Tracking configuration](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#tracking-configuration).
-* **[!UICONTROL Managing bounced emails]** : To define the POP account used to pick up incoming e-mail. Refer to [Managing bounced emails](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#managing-bounced-emails).
-* **[!UICONTROL LDAP integration]** : To configure user authentication via an LDAP directory. Refer to [Connecting through LDAP](https://helpx.adobe.com/campaign/standard/installation/using/connecting-through-ldap.html).
+* **[!UICONTROL Email channel]** : to activate e-mail delivery. Refer to [Email channel parameters](../../installation/using/deploying-an-instance.md#email-channel-parameters).
+* **[!UICONTROL Tracking]** : To enable tracking of the target population (opens and clicks). Refer to [Tracking configuration](../../installation/using/deploying-an-instance.md#tracking-configuration).
+* **[!UICONTROL Managing bounced emails]** : To define the POP account used to pick up incoming e-mail. Refer to [Managing bounced emails](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
+* **[!UICONTROL LDAP integration]** : To configure user authentication via an LDAP directory. Refer to [Connecting through LDAP](../../installation/using/connecting-through-ldap.md).
 
 ## Email channel parameters {#email-channel-parameters}
 
@@ -116,7 +116,7 @@ Bounce mail is extremely important to qualify delivery errors. These errors are 
 
 ### Quarantine parameters {#quarantine-parameters}
 
-This step is only available if the **[!UICONTROL Email channel]** and **[!UICONTROL Bounce mail]** management options are selected in the first stage of the deployment wizard. Refer to [General parameters](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#general-parameters).
+This step is only available if the **[!UICONTROL Email channel]** and **[!UICONTROL Bounce mail]** management options are selected in the first stage of the deployment wizard. Refer to [General parameters](../../installation/using/deploying-an-instance.md#general-parameters).
 
 * **[!UICONTROL Duration between two significant errors]** : enter a value ("1d" by default: 1 day) to define the time the application waits before incrementing the error counter in case of failure,
 * **[!UICONTROL Maximum number of errors before quarantine]** : once this value is reached, the email address is quarantined (by default "5": the address will be quarantined on the sixth error). This means that the contact will be automatically excluded from subsequent deliveries.
@@ -176,11 +176,11 @@ When you activate tracking on an instance, the URLs in the deliveries are change
 
   Information on internal URLs is only used by the Adobe Campaign application server to contact the tracking server(s).
 
-  For more on this, refer to [Tracking server](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#tracking-server).
+  For more on this, refer to [Tracking server](../../installation/using/deploying-an-instance.md#tracking-server).
 
 * Once the URLs are configured, you need to enable tracking. To do this, the instance must be registered on the tracking server(s).
 
-  For more on this, refer to [Saving tracking](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#saving-tracking).
+  For more on this, refer to [Saving tracking](../../installation/using/deploying-an-instance.md#saving-tracking).
 
 ### Tracking server {#tracking-server}
 
@@ -198,7 +198,7 @@ With Mid-sourcing architecture, you can externalize tracking management. To do t
 1. Select the option **[!UICONTROL Externalize tracking management]** : this lets you use a mid-sourcing server as a tracking server.
 1. Populate the **[!UICONTROL External account]** and **[!UICONTROL Instance name]** fields to be able to connect to the mid-sourcing server.
 
-   For more information, refer to [Mid-sourcing server](https://helpx.adobe.com/campaign/standard/installation/using/mid-sourcing-server.html).
+   For more information, refer to [Mid-sourcing server](../../installation/using/mid-sourcing-server.md).
 
 1. Click the **[!UICONTROL Enable the tracking instance]** button to approve connection to the server.
 
@@ -337,9 +337,9 @@ To be seen from the outside, the images used in emails and public resources link
 
 Public resources are accessible via the **[!UICONTROL Administration > Resources > Online > Public resources]** node of the Adobe Campaign tree. They are collected in a library and can be included in e-mails but also used in campaigns or tasks, and in content management.
 
-1. The new public resource URL. For more information refer to the [Public resources URL](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#public-resources-url) section.
-1. The image detection mode in a delivery. For more information, refer to the [Delivery image detection](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#delivery-image-detection) section.
-1. Publishing options. For more information, refer to the [Publication modes](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#publication-modes) section.
+1. The new public resource URL. For more information refer to the [Public resources URL](../../installation/using/deploying-an-instance.md#public-resources-url) section.
+1. The image detection mode in a delivery. For more information, refer to the [Delivery image detection](../../installation/using/deploying-an-instance.md#delivery-image-detection) section.
+1. Publishing options. For more information, refer to the [Publication modes](../../installation/using/deploying-an-instance.md#publication-modes) section.
 
 Public resources are accessible via the **Administration > Resources > Online > Public resources** node of the Adobe Campaign tree. They are collected in a library and can be included in e-mails but also used in campaigns or tasks, and in content management.
 
@@ -367,7 +367,7 @@ The lower section of the wizard enables you to select the publication options of
 
 The following publication modes are available:
 
-* For information on using and managing images in emails, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/defining-the-email-content.html#adding-images).
+* For information on using and managing images in emails, refer to [this section](../../delivery/using/defining-the-email-content.md#adding-images).
 * In the delivery wizard, the images called from these URLs will have the status "Ignored".
 
 ### Publication modes {#publication-modes}
@@ -378,7 +378,7 @@ The following publication modes are available:
 
 * Tracking server(s)
 
-  The resources will be automatically copied to the different tracking servers. They are configured in the step [Tracking configuration](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#tracking-configuration).
+  The resources will be automatically copied to the different tracking servers. They are configured in the step [Tracking configuration](../../installation/using/deploying-an-instance.md#tracking-configuration).
 
 * Other Adobe Campaign servers
 
@@ -447,15 +447,15 @@ Indicate the parameters to connect to the account for retrieving incoming emails
 
 Once the POP settings are specified, click **[!UICONTROL Test]** to make sure they are correct.
 
-Bounces are handled automatically by Adobe Campaign, applying the rules listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. For more on this, refer to [Bounce mail management](https://helpx.adobe.com/campaign/classic/delivery/using/understanding-delivery-failures.html#bounce-mail-management).
+Bounces are handled automatically by Adobe Campaign, applying the rules listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. For more on this, refer to [Bounce mail management](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
 
 Unprocessed bounces are not displayed in the Adobe Campaign interface. They are automatically deleted unless they are transferred to a third party mailbox using the following fields:
 
 The next step lets you configure tracking for the instance. The instance must be declared and registered with the tracking server(s).
 
-This step is only offered when the **[!UICONTROL Email channel]** and **[!UICONTROL Tracking]** options are selected in the first page of the deployment wizard. Refer to [General parameters](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#general-parameters).
+This step is only offered when the **[!UICONTROL Email channel]** and **[!UICONTROL Tracking]** options are selected in the first page of the deployment wizard. Refer to [General parameters](../../installation/using/deploying-an-instance.md#general-parameters).
 
-For more detailed information on web tracking (tracking mode, creating and inserting tags...), refer to [this document](https://helpx.adobe.com/campaign/classic/configuration/using/about-web-tracking.html).
+For more detailed information on web tracking (tracking mode, creating and inserting tags...), refer to [this document](../../configuration/using/about-web-tracking.md).
 
 When you activate tracking on an instance, the URLs in the deliveries are changed during sending to enable tracking.
 

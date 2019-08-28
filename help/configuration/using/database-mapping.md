@@ -369,7 +369,7 @@ For join relations using Federated Database Access:
 * ![](assets/join_fda_11.png) : Cardinality 1-1
 * ![](assets/join_fda_1m.png) : Cardinality 1-N
 
-For more information on FDA tables, refer to [Accessing an external database](https://helpx.adobe.com/campaign/classic/platform/using/accessing-an-external-database.html).
+For more information on FDA tables, refer to [Accessing an external database](../../platform/using/accessing-an-external-database.md).
 
 A link must be declared in the schema containing the foreign key of the table linked via the main element:
 

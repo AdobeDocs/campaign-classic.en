@@ -18,7 +18,7 @@ snippet: y
 
 # Microsoft CRM, Salesforce, Oracle CRM On Demand{#microsoft-crm-salesforce-oracle-crm-on-demand}
 
-These three activities are pre-configured CRM connectors. They are similar to the CRM connector presented in the [CRM Connector](https://helpx.adobe.com/campaign/standard/workflow/using/crm-connector.html) section.
+These three activities are pre-configured CRM connectors. They are similar to the CRM connector presented in the [CRM Connector](../../workflow/using/crm-connector.md) section.
 
 Nevertheless, you have more specific options. In particular, you can choose the type of campaign to carry out for the synchronization:
 

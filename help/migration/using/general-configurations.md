@@ -22,8 +22,8 @@ This section details the configuration to be carried out in Adobe Campaign v7 if
 
 In addition:
 
-* If you migrate from v5.11, you must also complete the configuration detailed in the [Specific configurations in v5.11](https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v5-11.html) section.
-* If you migrate from v6.02, you must also complete the configuration detailed in the [Specific configurations in v6.02](https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v6-02.html) section.
+* If you migrate from v5.11, you must also complete the configuration detailed in the [Specific configurations in v5.11](../../migration/using/specific-configurations-in-v5-11.md) section.
+* If you migrate from v6.02, you must also complete the configuration detailed in the [Specific configurations in v6.02](../../migration/using/specific-configurations-in-v6-02.md) section.
 
 ## Time zones {#time-zones}
 
@@ -40,7 +40,7 @@ To use the TIMESTAMP WITH TIMEZONE mode, you also need to add the **-userTimesta
 >[!NOTE]
 >
 >It is possible to alter the timezone after migration via the console ( **[!UICONTROL Administration > Platform > Options > WdbcTimeZone]** node).  
->For more on time zone management, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/time-zone-management.html).
+>For more on time zone management, refer to [this section](../../installation/using/time-zone-management.md).
 
 ### Oracle {#oracle}
 
@@ -92,7 +92,7 @@ Adobe Campaign v7 involves the concept of **security zones**. Each user must be 
 
 **After the postupgrade** (before the server restart), you must configure the security zones.
 
-Security zone configuration is found in [this section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#defining-security-zones).
+Security zone configuration is found in [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 ### User passwords {#user-passwords}
 
@@ -104,7 +104,7 @@ nlserver config -internalpassword
 
 >[!CAUTION]
 >
->The **internal** password must be identical for all the tracking servers. For more information, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#internal-identifier) and [this section](https://helpx.adobe.com/campaign/classic/platform/using/access-management.html#about-permissions).
+>The **internal** password must be identical for all the tracking servers. For more information, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier) and [this section](../../platform/using/access-management.md#about-permissions).
 
 ### New features in v7 {#new-features-in-v7}
 
@@ -171,7 +171,7 @@ New link using the connection page:
 
 ### SQL Functions {#sql-functions}
 
-Unknown SQL function calls are no longer naturally sent to the server. Currently, all SQL functions must be added to the **xtk:funcList** schema (for more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/configuration/using/adding-additional-sql-functions.html)). When migrating, an option is added during the postupgrade that allows you to maintain compatibility with old undeclared SQL functions. If you would like to continue using these functions, check that the **XtkPassUnknownSQLFunctionsToRDBMS** option is indeed defined at the **[!UICONTROL Administration > Platform > Options]** node level.
+Unknown SQL function calls are no longer naturally sent to the server. Currently, all SQL functions must be added to the **xtk:funcList** schema (for more on this, refer to [this section](../../configuration/using/adding-additional-sql-functions.md)). When migrating, an option is added during the postupgrade that allows you to maintain compatibility with old undeclared SQL functions. If you would like to continue using these functions, check that the **XtkPassUnknownSQLFunctionsToRDBMS** option is indeed defined at the **[!UICONTROL Administration > Platform > Options]** node level.
 
 >[!CAUTION]
 >
@@ -279,7 +279,7 @@ Therefore, relaunch the postupgrade with the following command:
 nlserver config -postupgrade -instance:<instance_name> -force
 ```
 
-You must configure the security zones (refer to [Security](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#security)), then reactivate the security by changing the option:
+You must configure the security zones (refer to [Security](../../migration/using/general-configurations.md#security)), then reactivate the security by changing the option:
 
 ```
 allowSQLInjection="false"
@@ -578,7 +578,7 @@ for each( var emailOfferView in res.emailOfferView )
   xtk.session.Write(
     <offer id={emailOfferView.@["offer-id"]} status={OFFER_STATUS_VALIDATED} xtkschema="nms:offer">
       <view>
-        {emailOfferView.htmlSource_jst}
+        {emailOfferView.mdSource_jst}
         {emailOfferView.textSource_jst}
       </view>
     </offer>
@@ -648,11 +648,11 @@ There are two web application families:
 
 ### Identified web applications {#identified-web-applications}
 
-Just as for reports (see [Reports](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#reports)), if you had added JavaScript, you must check and adapt if necessary. If you wish to benefit from the v7 blue banner (containing the universes), you must republish the web application. If your JavaScript code is working, you can select the v6.x rendering engine. If this is not the case, you can use the v6.0 rendering engine while you adapt your code, then use the v6.x rendering engine.
+Just as for reports (see [Reports](../../migration/using/general-configurations.md#reports)), if you had added JavaScript, you must check and adapt if necessary. If you wish to benefit from the v7 blue banner (containing the universes), you must republish the web application. If your JavaScript code is working, you can select the v6.x rendering engine. If this is not the case, you can use the v6.0 rendering engine while you adapt your code, then use the v6.x rendering engine.
 
 >[!NOTE]
 >
->The steps to select the rendering engine are the same as those for selecting reports. See [Personalized reports](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#personalized-reports).
+>The steps to select the rendering engine are the same as those for selecting reports. See [Personalized reports](../../migration/using/general-configurations.md#personalized-reports).
 
 Web application connection methods have changed in v7. If you encounter any connection problems in your identified web applications, you must temporarily activate the **allowUserPassword** and **sessionTokenOnly** options in the **serverConf.xml** file. After the postupgrade, modify these option values:
 
@@ -686,7 +686,7 @@ If you encounter any problems, republish the web application. If the problem per
 
 >[!NOTE]
 >
->The steps to select the rendering engine are the same as those for selecting reports. See [Personalized reports](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#personalized-reports).
+>The steps to select the rendering engine are the same as those for selecting reports. See [Personalized reports](../../migration/using/general-configurations.md#personalized-reports).
 
 ## Red-Hat {#red-hat}
 

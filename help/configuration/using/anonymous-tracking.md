@@ -23,7 +23,7 @@ Adobe Campaign lets you link collected Web tracking information to a recipient w
 >[!CAUTION]
 >
 >Setting up anonymous tracking on a website can trigger the collection of a significant amount of tracking logs, thereby impacting database operation. Configure it with care.   
->Tracking logs are saved in the database until the tracking data is purged. Use the deployment wizard to configure the purge frequency. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/deploying-an-instance.html#purging-data).
+>Tracking logs are saved in the database until the tracking data is purged. Use the deployment wizard to configure the purge frequency. For more on this, refer to [this section](../../installation/using/deploying-an-instance.md#purging-data).
 
 To enable anonymous Web tracking on your instance, the following elements must be configured:
 

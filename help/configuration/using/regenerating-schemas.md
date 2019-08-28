@@ -24,7 +24,7 @@ When you modify a schema and save the modifications, extended schema is automati
 1. Right click and choose **[!UICONTROL Actions > Regenerate selected schemas...]** .
 1. Click **[!UICONTROL OK]** to confirm and launch the process.
 
-You can then check the structure of the generated schema in the Previw and Documentation tabs. For more on this, refer to the [Principles](https://helpx.adobe.com/campaign/standard/configuration/using/data-schemas.html#principles) section.
+You can then check the structure of the generated schema in the Previw and Documentation tabs. For more on this, refer to the [Principles](../../configuration/using/data-schemas.md#principles) section.
 
 >[!NOTE]
 >

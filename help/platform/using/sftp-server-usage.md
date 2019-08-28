@@ -28,8 +28,8 @@ To avoid such problems, Adobe recommends to follow the best practices below.
 
 >[!NOTE]
 >
->If your instance is hosted on AWS, you can monitor your SFTP server storage with the Campaign Classic [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html).  
->To check if your instance is hosted on AWS, follow the steps detailed in [this section](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID) .
+>If your instance is hosted on AWS, you can monitor your SFTP server storage with the Campaign Classic [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.md).  
+>To check if your instance is hosted on AWS, follow the steps detailed in [this section](https://helpx.adobe.com/campaign/kb/control-panel-faq.md#IMSOrgID) .
 
 * The server size capabilities vary according to your license. In any case, keep the minimum data possible, and keep data for only as long as required (15 days is the maximum time limit).
 * Use key based authentication rather than password authentication, in order to avoid password expiration (passwords have a validity period of 90 days). Moreover, key based authentication lets you generate multiple keys, for example when managing multiple entities. On the contrary, password authentication requires that you share the password with all the entities you are managing.
@@ -85,7 +85,7 @@ The section below lists the information to check and provide to the Adobe Suppor
    If the port is not opened, make sure to open outbound connections at your side, then try again. If you still meet connection issues, share the output of the command with Adobe Support team.
 
 1. Check that the public IP from which you are trying to initiate the SFTP connection is the one you provided to the Adobe Support for whitelisting.
-1. If you are using a password based authentication, your password may have expired (passwords have a 90 days validity period). We therefore strongly recommend using a key based authentication (see [SFTP server best practices](https://helpx.adobe.com/campaign/standard/platform/using/sftp-server-usage.html#sftp-server-best-practices)).
+1. If you are using a password based authentication, your password may have expired (passwords have a 90 days validity period). We therefore strongly recommend using a key based authentication (see [SFTP server best practices](../../platform/using/sftp-server-usage.md#sftp-server-best-practices)).
 1. If you are using a key based authentication, check that the key you are using is the same that you provided to Adobe Support team for the instance configuration.
 1. If you are using FileZilla or an equivalent FTP tool, provide the connection logs details in the support ticket.
 

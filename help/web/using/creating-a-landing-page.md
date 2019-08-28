@@ -50,7 +50,7 @@ Use the following scenario:
 
 >[!NOTE]
 >
->For more on creating a Web application, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/creating-a-new-web-application.html).
+>For more on creating a Web application, refer to [this section](../../web/using/creating-a-new-web-application.md).
 
 ## Step 1 - Selecting and loading templates {#step-1---selecting-and-loading-templates}
 

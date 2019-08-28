@@ -18,15 +18,15 @@ snippet: y
 
 # Personalization blocks{#personalization-blocks}
 
-Personalization blocks are dynamic, personalized and contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. See [Inserting personalization blocks](https://helpx.adobe.com/campaign/standard/delivery/using/personalization-blocks.html#inserting-personalization-blocks).
+Personalization blocks are dynamic, personalized and contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. See [Inserting personalization blocks](../../delivery/using/personalization-blocks.md#inserting-personalization-blocks).
 
 >[!NOTE]
 >
->Personalization blocks are also available from the **[!UICONTROL Digital Content Editor (DCE)]** . For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/web/using/editing-content.html#inserting-a-personalization-block).
+>Personalization blocks are also available from the **[!UICONTROL Digital Content Editor (DCE)]** . For more on this, refer to [this page](../../web/using/editing-content.md#inserting-a-personalization-block).
 
-Personalization blocks are accessed via the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** node of the Adobe Campaign explorer. Several blocks are available by default (see [Out-of-the-box personalization blocks](https://helpx.adobe.com/campaign/standard/delivery/using/personalization-blocks.html#out-of-the-box-personalization-blocks)).
+Personalization blocks are accessed via the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** node of the Adobe Campaign explorer. Several blocks are available by default (see [Out-of-the-box personalization blocks](../../delivery/using/personalization-blocks.md#out-of-the-box-personalization-blocks)).
 
-You have the ability to define new blocks that will enable you to optimize your deliveries personalization. For more on this, refer to [Defining custom personalization blocks](https://helpx.adobe.com/campaign/standard/delivery/using/personalization-blocks.html#defining-custom-personalization-blocks).
+You have the ability to define new blocks that will enable you to optimize your deliveries personalization. For more on this, refer to [Defining custom personalization blocks](../../delivery/using/personalization-blocks.md#defining-custom-personalization-blocks).
 
 ## Inserting personalization blocks {#inserting-personalization-blocks}
 
@@ -37,7 +37,7 @@ To insert a personalization block in a message, follow the steps below:
 
    ![](assets/s_ncs_user_personalized_block01.png)
 
-1. The **[!UICONTROL Other...]** menu gives access to all the out-of-the-box and custom personalization blocks (see [Out-of-the-box personalization blocks](https://helpx.adobe.com/campaign/standard/delivery/using/personalization-blocks.html#out-of-the-box-personalization-blocks) and [Defining custom personalization blocks](https://helpx.adobe.com/campaign/standard/delivery/using/personalization-blocks.html#defining-custom-personalization-blocks)).
+1. The **[!UICONTROL Other...]** menu gives access to all the out-of-the-box and custom personalization blocks (see [Out-of-the-box personalization blocks](../../delivery/using/personalization-blocks.md#out-of-the-box-personalization-blocks) and [Defining custom personalization blocks](../../delivery/using/personalization-blocks.md#defining-custom-personalization-blocks)).
 
    ![](assets/s_ncs_user_personalized_block02.png)
 
@@ -69,7 +69,7 @@ To do this, we need to insert the following personalization blocks:
 
 >[!NOTE]
 >
->For more on the mirror page generation, refer to [Generating the mirror page](https://helpx.adobe.com/campaign/standard/delivery/using/sending-messages.html#generating-the-mirror-page).
+>For more on the mirror page generation, refer to [Generating the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 1. Create a new delivery or open an existing email type delivery.
 1. In the delivery wizard, click **[!UICONTROL Subject]** to edit the subject of the message and enter a subject.
@@ -101,7 +101,7 @@ A list of personalization blocks is available by default to help you personalize
 
   >[!NOTE]
   >
-  >For more on the mirror page generation, refer to [Generating the mirror page](https://helpx.adobe.com/campaign/standard/delivery/using/sending-messages.html#generating-the-mirror-page).
+  >For more on the mirror page generation, refer to [Generating the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
 * **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (blacklist). 
@@ -118,7 +118,7 @@ A list of personalization blocks is available by default to help you personalize
 
   ![](assets/s_ncs_user_personalized_block_uppercasefunction.png)
 
-* **[!UICONTROL Registration page URL]** : inserts a subscription URL (see [About services and subscriptions](https://helpx.adobe.com/campaign/standard/delivery/using/about-services-and-subscriptions.html)).
+* **[!UICONTROL Registration page URL]** : inserts a subscription URL (see [About services and subscriptions](../../delivery/using/about-services-and-subscriptions.md)).
 * **[!UICONTROL Registration link]** : inserts a subscription link. that has been defined when configuring the instance.
 * **[!UICONTROL Registration link (with referrer)]** : inserts a subscription link, enabling to identify the visitor and delivery. The link has been defined when configuring the instance.
 
@@ -127,9 +127,9 @@ A list of personalization blocks is available by default to help you personalize
   >This block can be used in deliveries targeting visitors only.
 
 * **[!UICONTROL Registration confirmation]** : inserts a link enabling to confirm subscription.
-* **[!UICONTROL Social network sharing links]** : inserts buttons that enable the recipient to share a link to the mirror page content with the email client, Facebook, Twitter, Google + and LinkedIn (see [Viral marketing: forward to a friend](https://helpx.adobe.com/campaign/standard/delivery/using/viral-and-social-marketing.html#viral-marketing--forward-to-a-friend)).
+* **[!UICONTROL Social network sharing links]** : inserts buttons that enable the recipient to share a link to the mirror page content with the email client, Facebook, Twitter, Google + and LinkedIn (see [Viral marketing: forward to a friend](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
 * **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]** : generate code that format an email with predefined HTML styles. These blocks must be inserted in the source code of the delivery, in the **[!UICONTROL ...]** section, into **[!UICONTROL `<style></span> ... <span class="uicontrol"></style>`]** tags.
-* **[!UICONTROL Offer acceptance URL in unitary mode]** : inserts an URL enabling to set an Interaction offer to **[!UICONTROL Accepted]** (see [this section](https://helpx.adobe.com/campaign/classic/interaction/using/offer-analysis-report.html)).
+* **[!UICONTROL Offer acceptance URL in unitary mode]** : inserts an URL enabling to set an Interaction offer to **[!UICONTROL Accepted]** (see [this section](../../interaction/using/offer-analysis-report.md)).
 
 ## Defining custom personalization blocks {#defining-custom-personalization-blocks}
 

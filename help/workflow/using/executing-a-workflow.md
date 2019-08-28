@@ -20,7 +20,7 @@ snippet: y
 
 ## Starting a workflow {#starting-a-workflow}
 
-A workflow is always started manually. When started, it can however remain inactive depending on the information specified via a scheduler (see [Scheduler](https://helpx.adobe.com/campaign/standard/workflow/using/scheduler.html)) or activity scheduling.
+A workflow is always started manually. When started, it can however remain inactive depending on the information specified via a scheduler (see [Scheduler](../../workflow/using/scheduler.md)) or activity scheduling.
 
 Actions related to targeting workflow execution (launch, stop, pause, etc.) are **asynchronous** processes: the order is recorded and will be effective as soon as the server is available to apply it.
 
@@ -30,7 +30,7 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 
 ### Actions toolbar {#actions-toolbar}
 
-The toolbar buttons are detailed in this [section](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#building-the-main-target-in-a-workflow). The **[!UICONTROL Actions]** button gives you access to additional execution options for acting on selected workflows. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]** .
+The toolbar buttons are detailed in this [section](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow). The **[!UICONTROL Actions]** button gives you access to additional execution options for acting on selected workflows. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]** .
 
 ![](assets/purge_historique.png)
 
@@ -54,11 +54,11 @@ The toolbar buttons are detailed in this [section](https://helpx.adobe.com/campa
 
   This action stops then restarts the workflow. In most cases, it makes it possible to restart faster. It is also useful to automate restarting when stopping takes a certain amount of time: this is because the 'Stop' command is not available when the workflow is being stopped.
 
-  The **[!UICONTROL Start / Pause / Stop / Restart]** actions are also available via the execution icons in the toolbar. For more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#creating-a-targeting-workflow).
+  The **[!UICONTROL Start / Pause / Stop / Restart]** actions are also available via the execution icons in the toolbar. For more on this, refer to this [section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-targeting-workflow).
 
 * **[!UICONTROL Purge history]**
 
-  This action lets you purge the workflow history. For more on this, refer to [Purging the logs](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#purging-the-logs).
+  This action lets you purge the workflow history. For more on this, refer to [Purging the logs](../../workflow/using/executing-a-workflow.md#purging-the-logs).
 
 * **[!UICONTROL Start in simulation mode]**
 
@@ -80,7 +80,7 @@ The toolbar buttons are detailed in this [section](https://helpx.adobe.com/campa
 
   This action creates a new workflow template based on the selected workflow. You need to specify the folder where it will be saved (in the **[!UICONTROL Folder]** field).
 
-  The **[!UICONTROL Mass update of selected lines]** and **[!UICONTROL Merge selected lines]** options are generic platform options available in all **[!UICONTROL Actions]** menus. For more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/platform/using/updating-data.html).
+  The **[!UICONTROL Mass update of selected lines]** and **[!UICONTROL Merge selected lines]** options are generic platform options available in all **[!UICONTROL Actions]** menus. For more on this, refer to this [section](../../platform/using/updating-data.md).
 
 ### Right-click menu {#right-click-menu}
 
@@ -92,7 +92,7 @@ The following options are available in the right-click menu:
 
 **[!UICONTROL Open]** : this option lets you access the activity properties.
 
-**[!UICONTROL Display logs:]** this option lets you view the task execution log for the selected activity. Refer to [Displaying logs](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#displaying-logs).
+**[!UICONTROL Display logs:]** this option lets you view the task execution log for the selected activity. Refer to [Displaying logs](../../workflow/using/executing-a-workflow.md#displaying-logs).
 
 **[!UICONTROL Execute pending task(s) now:]** this action lets you start pending tasks as soon as possible.
 
@@ -102,7 +102,7 @@ The following options are available in the right-click menu:
 
 **[!UICONTROL Copy as bitmap:]** this option lets you take a screenshot of all activities.
 
-**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** these options are also available in the **[!UICONTROL Advanced]** tab of the activity properties. They are detailed in [Execution](https://helpx.adobe.com/campaign/standard/workflow/using/advanced-parameters.html#execution).
+**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** these options are also available in the **[!UICONTROL Advanced]** tab of the activity properties. They are detailed in [Execution](../../workflow/using/advanced-parameters.md#execution).
 
 **[!UICONTROL Save / Cancel:]** lets you save or cancel the changes made to a workflow.
 
@@ -110,7 +110,7 @@ The following options are available in the right-click menu:
 >
 >You can select a group of activities and apply one of these commands to them.
 
-The right-click menu is also detailed in this [section](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#executing-a-workflow).
+The right-click menu is also detailed in this [section](../../campaign/using/setting-up-marketing-campaigns.md#executing-a-workflow).
 
 ## Workflow life cycle {#workflow-life-cycle}
 
@@ -138,7 +138,7 @@ The characters **574 -Ok** displayed above the transition following the **Delive
 
 The workflow is started and is waiting for an operator belonging to the group specified in the **Approval** activity to make a decision. The operators belonging to the group and who have an email address or mobile telephone number are notified.
 
-Operator management is detailed in this [section](https://helpx.adobe.com/campaign/classic/platform/using/access-management.html).
+Operator management is detailed in this [section](../../platform/using/access-management.md).
 
 ## Data life cycle {#data-life-cycle}
 
@@ -158,13 +158,13 @@ To do this, select the relevant menu:
 
   ![](assets/wf-right-click-display.png)
 
-  For more on this, refer to [Worktables and workflow schema](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#worktables-and-workflow-schema).
+  For more on this, refer to [Worktables and workflow schema](../../workflow/using/executing-a-workflow.md#worktables-and-workflow-schema).
 
 * Analyzing the target
 
   This menu lets you access the descriptive analysis wizard which lets you produce statistics and reports on the transition data.
 
-  For more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/reporting/using/using-the-descriptive-analysis-wizard.html).
+  For more on this, refer to this [section](../../reporting/using/using-the-descriptive-analysis-wizard.md).
 
 The target data is purged as the workflow is executed. Only the last work table is accessible. You can configure the workflow so that all work tables remain accessible: check the **[!UICONTROL Keep the result of interim populations between two executions]** option in the workflow properties.
 
@@ -184,7 +184,7 @@ This lets you use data collected via a list or based on answers to a survey in a
 
 **[!UICONTROL Target extension]** (targetData) type personalization elements are not available for targeting workflows. The delivery target has to be built in the workflow and specified in the inbound transition of the delivery.
 
-If you want to create delivery proofs, the proof target needs to be built based on the **[!UICONTROL Address substitution]** mode so that the personalization data can be entered. For more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#using-address-substitution-in-proof).
+If you want to create delivery proofs, the proof target needs to be built based on the **[!UICONTROL Address substitution]** mode so that the personalization data can be entered. For more on this, refer to this [section](../../delivery/using/key-steps-when-creating-a-delivery.md#using-address-substitution-in-proof).
 
 In the following example, we are going to collect a list of information on customers, to be used in a personalized email.
 
@@ -316,7 +316,7 @@ The log shows the chronological list of execution messages related to targeting 
 
 ### Purging the logs {#purging-the-logs}
 
-Workflow history is not purged automatically: all messages are kept by default. History can be purged via the **[!UICONTROL File > Actions]** menu or by clicking the **[!UICONTROL Actions]** button located in the toolbar above the list. Select **[!UICONTROL Purge history]** . The options available in the **[!UICONTROL Actions]** menu is detailed in the [Actions toolbar](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#actions-toolbar) section.
+Workflow history is not purged automatically: all messages are kept by default. History can be purged via the **[!UICONTROL File > Actions]** menu or by clicking the **[!UICONTROL Actions]** button located in the toolbar above the list. Select **[!UICONTROL Purge history]** . The options available in the **[!UICONTROL Actions]** menu is detailed in the [Actions toolbar](../../workflow/using/executing-a-workflow.md#actions-toolbar) section.
 
 ![](assets/purge_historique.png)
 
@@ -326,7 +326,7 @@ The workflow conveys worktables that can be manipulated via certain activities. 
 
 It is also possible to create links between various work dimensions and to define dimension changes. For example, for each contract recorded in the database, address the main holder and use co-holder data in the additional information.
 
-The worktables of the workflow are deleted automatically when the workflow passivates. If you wish to keep a work table, save it in a list via the **[!UICONTROL List update]** activity (refer to [List update](https://helpx.adobe.com/campaign/standard/workflow/using/list-update.html)).
+The worktables of the workflow are deleted automatically when the workflow passivates. If you wish to keep a work table, save it in a list via the **[!UICONTROL List update]** activity (refer to [List update](../../workflow/using/list-update.md)).
 
 ### Managing errors {#managing-errors}
 
@@ -447,22 +447,22 @@ Note that:
   logInfo("Workflow already running, parallel execution not allowed.");
   ```
 
-A use case is presented in this section: [Coordinating data updates](https://helpx.adobe.com/campaign/standard/workflow/using/coordinating-data-updates.html).
+A use case is presented in this section: [Coordinating data updates](../../workflow/using/coordinating-data-updates.md).
 
 ### Database maintenance {#database-maintenance}
 
-Workflows use a lot of work tables that consume space and end up slowing down the entire platform if not maintained. For more about database maintenance, refer to this [section](https://helpx.adobe.com/campaign/classic/production/using/tables-to-maintain.html) .
+Workflows use a lot of work tables that consume space and end up slowing down the entire platform if not maintained. For more about database maintenance, refer to this [section](../../production/using/tables-to-maintain.md) .
 
-The **Database cleanup** workflow accessible via the **Administration > Production > Technical workflows** node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention. Refer to this [section](https://helpx.adobe.com/campaign/classic/production/using/database-cleanup-workflow.html).
+The **Database cleanup** workflow accessible via the **Administration > Production > Technical workflows** node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention. Refer to this [section](../../production/using/database-cleanup-workflow.md).
 
-You can also create specific technical workflows to purge unnecessary data consuming space. Refer to this [section](https://helpx.adobe.com/campaign/classic/production/using/application-objects.html) and this [page](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html#purging-the-logs).
+You can also create specific technical workflows to purge unnecessary data consuming space. Refer to this [section](../../production/using/application-objects.md) and this [page](../../workflow/using/executing-a-workflow.md#purging-the-logs).
 
 ### Handling of paused workflows {#handling-of-paused-workflows}
 
 By default, if a workflow is paused, its working tables are never purged. From build 8880, workflows that have been in a paused state for too long are automatically stopped and their working tables are purged. This behaviour is triggered as follows:
 
 * Workflows that have been paused since more than 7 days appear as a warning in the monitoring dashboard (and monitoring API) and a notification is sent to the supervisor group.
-* The same happens every week, when the **[!UICONTROL cleanupPausedWorkflows]** technical workflow is triggered. For more details on the workflow, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/delivery.html).
+* The same happens every week, when the **[!UICONTROL cleanupPausedWorkflows]** technical workflow is triggered. For more details on the workflow, refer to [this section](../../workflow/using/delivery.md).
 * After 4 notifications (i.e. one month in paused state by default), the workflow is stopped unconditionnally. A log appears in the workflow after it has been stopped. The tables are purged at the next execution **[!UICONTROL cleanup]** workflow
 
 These periods can be configured via the NmsServer_PausedWorkflowPeriod option.
@@ -483,7 +483,7 @@ In operations, all stages that require approval are based on the same principle.
 
 ![](assets/validation-1-in-op.png)
 
-Approval examples can be found in this [section](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#checking-and-approving-deliveries).
+Approval examples can be found in this [section](../../campaign/using/setting-up-marketing-campaigns.md#checking-and-approving-deliveries).
 
 An operator can respond in one of two ways: validating using the Web page linked in the email message, or via the console.
 
@@ -495,7 +495,7 @@ An operator can respond in one of two ways: validating using the Web page linked
 
 It is possible to receive an approval message containing a link to a Web page via which it is possible to respond. For the targeted operator to receive an approval email, the operator email address must be complete. If this is not the case, the operator must use the console to respond
 
-Operator management is detailed in this [section](https://helpx.adobe.com/campaign/classic/platform/using/access-management.html).
+Operator management is detailed in this [section](../../platform/using/access-management.md).
 
 Approval emails are sent continuously. The default delivery template is **[!UICONTROL notifyAssignee]** : It is saved in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** folder. This scenario can be customized and it is also recommended to make a copy and to change templates for each activity.
 
@@ -514,7 +514,7 @@ For technical workflows, the tasks that the user can approve can be accessed fro
 An approval is assigned to a group of operators, a single operator or a set of operators selected via a filtering condition.
 
 1. For the simplest form of approval, the task is finished as soon as an operator responds. Any other operator who tries to respond will be notified that someone has already done it.
-1. For multiple approvals, refer to [Multiple approval](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#multiple-approval).
+1. For multiple approvals, refer to [Multiple approval](../../workflow/using/executing-a-workflow.md#multiple-approval).
 
 The operator groups for approvals should be designated as roles or functions rather than named individuals. For example, a "Campaign budget" group is preferable to "Harry's group". We recommend having at least two persons in a group who can approve a task. In this way, if one is absent, the other can respond.
 
@@ -591,26 +591,26 @@ Technical workflows are available from **[!UICONTROL Administration]** > **[!UIC
 
 Depending on the technical workflow, follow the steps detailed below to ensure that everything is working as expected.
 
-To better understand what each technical workflow is supposed to do, refer to this [section](https://helpx.adobe.com/campaign/classic/workflow/using/about-technical-workflows.html).
+To better understand what each technical workflow is supposed to do, refer to this [section](../../workflow/using/about-technical-workflows.md).
 
 For **[!UICONTROL Database Cleanup workflow (‘cleanup’)]** :
 
-1. Check that the **[!UICONTROL Database Cleanup]** workflow runs and finishes successfully every day. For more on this, refer to this [page](https://helpx.adobe.com/campaign/classic/workflow/using/delivery.html).
+1. Check that the **[!UICONTROL Database Cleanup]** workflow runs and finishes successfully every day. For more on this, refer to this [page](../../workflow/using/delivery.md).
 1. Look at the journal to verify that the elapsed time is relatively constant over time and does not interfere with other workflows.
-1. For more information, check this [page](https://helpx.adobe.com/campaign/classic/production/using/database-cleanup-workflow.html).
+1. For more information, check this [page](../../production/using/database-cleanup-workflow.md).
 
 For **[!UICONTROL Tracking workflow (‘tracking’)]** :
 
-Check that the Tracking workflow runs as scheduled (every hour by default), and that the journal does not highlight recurrent errors. For more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/workflow/using/delivery.html).
+Check that the Tracking workflow runs as scheduled (every hour by default), and that the journal does not highlight recurrent errors. For more on this, refer to this [section](../../workflow/using/delivery.md).
 
 For **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]** :
 
-1. Check that the **[!UICONTROL Deliverability update]** workflow runs and finishes successfully every day. For more on this, refer to this [page](https://helpx.adobe.com/campaign/classic/workflow/using/delivery.html).
+1. Check that the **[!UICONTROL Deliverability update]** workflow runs and finishes successfully every day. For more on this, refer to this [page](../../workflow/using/delivery.md).
 1. Verify in the journal that rules are being updated regularly.
 
 For **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]** :
 
-1. Look at all the workflows located under the **[!UICONTROL Campaign process]** folder. For more on this, refer to this [page](https://helpx.adobe.com/campaign/classic/workflow/using/campaign.html).
+1. Look at all the workflows located under the **[!UICONTROL Campaign process]** folder. For more on this, refer to this [page](../../workflow/using/campaign.md).
 1. Check that the workflows runs as scheduled and that the journal does not highlight recurrent errors.
 
 ### Workflow supervision {#workflow-supervision}

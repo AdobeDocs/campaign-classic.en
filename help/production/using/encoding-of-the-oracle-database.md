@@ -18,4 +18,4 @@ snippet: y
 
 # Encoding of the Oracle database{#encoding-of-the-oracle-database}
 
-Adobe Campaign uses the default Oracle encodings. If you use different ones, an incompatibility can occur. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/database.html#oracle).
+Adobe Campaign uses the default Oracle encodings. If you use different ones, an incompatibility can occur. For more on this, refer to [this section](../../installation/using/database.md#oracle).

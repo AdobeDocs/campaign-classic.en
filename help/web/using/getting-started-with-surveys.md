@@ -24,13 +24,13 @@ Here is a quick overview of the main steps to create a simple survey, using the 
 
 These steps are:
 
-1. [Step 1 - Creating a survey](https://helpx.adobe.com/campaign/standard/web/using/getting-started-with-surveys.html#step-1---creating-a-survey),
-1. [Step 2 - Selecting the template](https://helpx.adobe.com/campaign/standard/web/using/getting-started-with-surveys.html#step-2---selecting-the-template),
-1. [Step 3 - Building the survey](https://helpx.adobe.com/campaign/standard/web/using/getting-started-with-surveys.html#step-3---building-the-survey),
-1. [Step 4 - Creating the page content](https://helpx.adobe.com/campaign/standard/web/using/getting-started-with-surveys.html#step-4---creating-the-page-content),
-1. [Step 5 - Storing the survey data](https://helpx.adobe.com/campaign/standard/web/using/getting-started-with-surveys.html#step-5---storing-the-survey-data-),
-1. [Step 6 - Publishing the pages](https://helpx.adobe.com/campaign/standard/web/using/getting-started-with-surveys.html#step-6---publishing-the-pages),
-1. [Step 7 - Sharing your online survey](https://helpx.adobe.com/campaign/standard/web/using/getting-started-with-surveys.html#step-7---sharing-your-online-survey).
+1. [Step 1 - Creating a survey](../../web/using/getting-started-with-surveys.md#step-1---creating-a-survey),
+1. [Step 2 - Selecting the template](../../web/using/getting-started-with-surveys.md#step-2---selecting-the-template),
+1. [Step 3 - Building the survey](../../web/using/getting-started-with-surveys.md#step-3---building-the-survey),
+1. [Step 4 - Creating the page content](../../web/using/getting-started-with-surveys.md#step-4---creating-the-page-content),
+1. [Step 5 - Storing the survey data](../../web/using/getting-started-with-surveys.md#step-5---storing-the-survey-data-),
+1. [Step 6 - Publishing the pages](../../web/using/getting-started-with-surveys.md#step-6---publishing-the-pages),
+1. [Step 7 - Sharing your online survey](../../web/using/getting-started-with-surveys.md#step-7---sharing-your-online-survey).
 
 ## Step 1 - Creating a survey {#step-1---creating-a-survey}
 
@@ -107,7 +107,7 @@ In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]*
 
   >[!NOTE]
   >
-  >For each field or question, you can adapt the page layout to suit your needs, thanks to the options in the **[!UICONTROL Advanced]** tab. The layout of survey screens is detailed in the [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html).
+  >For each field or question, you can adapt the page layout to suit your needs, thanks to the options in the **[!UICONTROL Advanced]** tab. The layout of survey screens is detailed in the [this section](../../web/using/about-web-forms.md).
 
   In the detail screen, click the **[!UICONTROL Preview]** tab to view the rendering of the survey you have just created.
 
@@ -146,7 +146,7 @@ Once it is in production, the survey is accessible on the server and you can del
 
 To deliver the survey, you can send a message containing an access link to the target population, or place the survey access URL on a web page, for example.
 
-You can then monitor user responses via reports and logs. See [Response tracking](https://helpx.adobe.com/campaign/standard/web/using/publish--track-and-use-collected-data.html#response-tracking).
+You can then monitor user responses via reports and logs. See [Response tracking](../../web/using/publish--track-and-use-collected-data.md#response-tracking).
 
 >[!CAUTION]
 >

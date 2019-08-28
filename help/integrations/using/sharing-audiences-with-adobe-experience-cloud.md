@@ -20,7 +20,7 @@ snippet: y
 
 >[!NOTE]
 >
->Using this integration requires having IMS implemented. Consult the section about [IMS](https://helpx.adobe.com/campaign/classic/integrations/using/about-adobe-id.html).
+>Using this integration requires having IMS implemented. Consult the section about [IMS](../../integrations/using/about-adobe-id.md).
 
 Adobe Campaign allows you to exchange and share audiences/segments with Adobe Experience Cloud solutions and core services. To do this, you need to integrate **Adobe Campaign** with **People core service** (also known as **Profiles & Audiences core service**) or Adobe Audience Manager. You will then be able to:
 

@@ -18,11 +18,11 @@ snippet: y
 
 # Managing reports{#managing-reports}
 
-Reports based on a schema that is specific to the default Adobe Campaign recipients (nm:recipient or schema linked) must be re-developed in order to take into account the data from the custom table and its tables linked via the target mapping (see the [Target mapping](https://helpx.adobe.com/campaign/standard/configuration/using/target-mapping.html) section).
+Reports based on a schema that is specific to the default Adobe Campaign recipients (nm:recipient or schema linked) must be re-developed in order to take into account the data from the custom table and its tables linked via the target mapping (see the [Target mapping](../../configuration/using/target-mapping.md) section).
 
-To create new reports, refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-reports-creation-in-campaign.html).
+To create new reports, refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md).
 
-In some cases, you must also put new cubes that are specific to these tables into place. Cubes are detailed in [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-cubes.html).
+In some cases, you must also put new cubes that are specific to these tables into place. Cubes are detailed in [this section](../../reporting/using/about-cubes.md).
 
 The following reports are concerned:
 

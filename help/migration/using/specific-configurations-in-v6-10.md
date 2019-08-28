@@ -26,4 +26,4 @@ If you are migrating from a 6.10 platform and your client console is older than 
 >
 >If you reject the update, you will not be able to connect.
 
-If you are migrating from a v6.10 platform that is older than the 8104 build, you must also consult the [New features in v7](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#new-features-in-v7) section.
+If you are migrating from a v6.10 platform that is older than the 8104 build, you must also consult the [New features in v7](../../migration/using/general-configurations.md#new-features-in-v7) section.

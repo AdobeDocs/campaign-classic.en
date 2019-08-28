@@ -28,7 +28,7 @@ Example elements to check:
 * The **tablespace** attribute takes back its values by default, in other words those defined in the deployment wizard.
 * If you have added a reference view to the NmsRecipient table, you must delete it before migrating.
 
-This warning also concerns Oracle users: if you have added the **usetimestamptz:1** option during a postupgrade (see [Time zones](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#time-zones)), all tables containing at least one **date+time** field are rebuilt.
+This warning also concerns Oracle users: if you have added the **usetimestamptz:1** option during a postupgrade (see [Time zones](../../migration/using/general-configurations.md#time-zones)), all tables containing at least one **date+time** field are rebuilt.
 
 ## Before the migration {#before-the-migration}
 
@@ -38,35 +38,35 @@ When migrating to Adobe Campaign v7, the following elements must be configured. 
 
   During a migration from a v5.11 platform, you must specify the timezone to use during the postupgrade.
 
-  If you wish to use the "multi timezone" mode, refer to the [Time zones](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#time-zones) section.
+  If you wish to use the "multi timezone" mode, refer to the [Time zones](../../migration/using/general-configurations.md#time-zones) section.
 
-  If you use Oracle as a database, check that the Oracle timezone files have properly been synched between the application server and the database server. For more on this, refer to the [Oracle](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#oracle) section.
+  If you use Oracle as a database, check that the Oracle timezone files have properly been synched between the application server and the database server. For more on this, refer to the [Oracle](../../migration/using/general-configurations.md#oracle) section.
 
-  In addition, during a migration from a v.5.11 platform, in MySQL, you must perform additional configurations. For more information, refer to the [MySQL](https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v5_11.html#mysql-) section.
+  In addition, during a migration from a v.5.11 platform, in MySQL, you must perform additional configurations. For more information, refer to the [MySQL](../../migration/using/specific-configurations-in-v5_11.md#mysql-) section.
 
 * Security zones
 
   For security reasons, the Adobe Campaign platform is no longer accessible by default: you must configure the security zones, which requires collecting the user IP addresses before the migration.
 
-  For more information, refer to the [Security](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#security) section.
+  For more information, refer to the [Security](../../migration/using/general-configurations.md#security) section.
 
 * Syntax
 
-  Certain syntaxes in JavaScript may be accepted in versions 5.11 and 6.02 and no longer accepted in the v7 version, due to the use of a new interpreter. For more information, refer to the [JavaScript](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#javascript) section.
+  Certain syntaxes in JavaScript may be accepted in versions 5.11 and 6.02 and no longer accepted in the v7 version, due to the use of a new interpreter. For more information, refer to the [JavaScript](../../migration/using/general-configurations.md#javascript) section.
 
-  Similarly, a new syntax is introduced in Adobe Campaign v7 to replace the SQLData based syntax. If you use code elements with this syntax, you must adapt them. For more information, refer to the [SQLData](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#sqldata) section.
+  Similarly, a new syntax is introduced in Adobe Campaign v7 to replace the SQLData based syntax. If you use code elements with this syntax, you must adapt them. For more information, refer to the [SQLData](../../migration/using/general-configurations.md#sqldata) section.
 
 * Passwords
 
-  You must configure the **Admin** and **Internal** passwords. For more information, refer to the [User passwords](https://helpx.adobe.com/campaign/standard/migration/using/before-starting-migration.html#user-passwords) section.
+  You must configure the **Admin** and **Internal** passwords. For more information, refer to the [User passwords](../../migration/using/before-starting-migration.md#user-passwords) section.
 
 * Tree structure
 
-  If migrating from a v5.11 platform, you must reorganize the tree structure folders according to Adobe Campaign v6 norms. For more information, refer to the [Adobe Campaign v7 tree structure](https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v5_11.html#adobe-campaign-v7-tree-structure) section.
+  If migrating from a v5.11 platform, you must reorganize the tree structure folders according to Adobe Campaign v6 norms. For more information, refer to the [Adobe Campaign v7 tree structure](../../migration/using/specific-configurations-in-v5_11.md#adobe-campaign-v7-tree-structure) section.
 
 * Interaction
 
-  If you use **Interaction**, you must delete all 6.02 schema references that no longer exist in v7. For more information, refer to the [Interaction](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#interaction) section.
+  If you use **Interaction**, you must delete all 6.02 schema references that no longer exist in v7. For more information, refer to the [Interaction](../../migration/using/general-configurations.md#interaction) section.
 
 ## After the migration {#after-the-migration}
 
@@ -82,55 +82,55 @@ After running **postupgrade**, the following elements must be taken into account
 
 * Syntax
 
-  If you encounter any errors related to the syntax, during the postupgrade, you must temporarily activate the **allowSQLInjection** option in the **serverConf.xml** file, as this gives you time to rewrite the code. Once the code is adapted, be sure to reactivate the security. For more on this, refer to the [SQLData](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#sqldata) section.
+  If you encounter any errors related to the syntax, during the postupgrade, you must temporarily activate the **allowSQLInjection** option in the **serverConf.xml** file, as this gives you time to rewrite the code. Once the code is adapted, be sure to reactivate the security. For more on this, refer to the [SQLData](../../migration/using/general-configurations.md#sqldata) section.
 
 * Conflicts
 
   The migration is performed through a postupgrade and conflicts may appear in reports, forms or web applications. These conflicts can be resolved from the console.
 
-  See the [Conflicts](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#conflicts) section.
+  See the [Conflicts](../../migration/using/general-configurations.md#conflicts) section.
 
 * Tomcat
 
-  If you customized the installation folder, make sure to check it is correctly updated after the migration. For further details, refer to the [Tomcat](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#tomcat) section.
+  If you customized the installation folder, make sure to check it is correctly updated after the migration. For further details, refer to the [Tomcat](../../migration/using/general-configurations.md#tomcat) section.
 
 * Reports
 
   All out-of-the-box reports currently use the v6.x rendering engine. If you had added JavaScript code into the reports, some elements may be altered.
 
-  Consult the [Reports](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#reports) section.
+  Consult the [Reports](../../migration/using/general-configurations.md#reports) section.
 
 * Web Applications
 
-  After the postupgrade, if you have any problems connecting to your identified Web applications, you must activate the **allowUserPassword** and **sessionTokenOnly** options in the **serverConf.xml** file. Remember to then deactivate these two options. For more information, refer to the [Identified web applications](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#identified-web-applications) section.
+  After the postupgrade, if you have any problems connecting to your identified Web applications, you must activate the **allowUserPassword** and **sessionTokenOnly** options in the **serverConf.xml** file. Remember to then deactivate these two options. For more information, refer to the [Identified web applications](../../migration/using/general-configurations.md#identified-web-applications) section.
 
   Depending on the type of Web applications and their configuration, you must perform additional manipulations to ensure they work correctly.
 
-  See the [Web applications](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#web-applications) section.
+  See the [Web applications](../../migration/using/general-configurations.md#web-applications) section.
 
-  If migrating from a v5.11 platform, additional configurations must be carried out: for more information, refer to the [Web applications](https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v5_11.html#web-applications) section.
+  If migrating from a v5.11 platform, additional configurations must be carried out: for more information, refer to the [Web applications](../../migration/using/specific-configurations-in-v5_11.md#web-applications) section.
 
 * Security zones.
 
-  Before starting the server, you must configure the security zones. For more information, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#defining-security-zones) and the [Security](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#security) section.
+  Before starting the server, you must configure the security zones. For more information, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones) and the [Security](../../migration/using/general-configurations.md#security) section.
 
 * Schemas
 
-  In Red Hat, you may encounter errors when editing certain schemas. For more on this, refer to the [Red-Hat](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#red-hat) section.
+  In Red Hat, you may encounter errors when editing certain schemas. For more on this, refer to the [Red-Hat](../../migration/using/general-configurations.md#red-hat) section.
 
 * Workflows
 
-  If migrating from a v5.11 platform, you must control the workflows runtime directory. For more on this, refer to the [Workflows](https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v5_11.html#workflows) section.
+  If migrating from a v5.11 platform, you must control the workflows runtime directory. For more on this, refer to the [Workflows](../../migration/using/specific-configurations-in-v5_11.md#workflows) section.
 
 * Tracking
 
-  If migrating from a v5.11 platform, you must configure the tracking mode. For more on this, refer to the [Tracking](https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v5_11.html#tracking) section.
+  If migrating from a v5.11 platform, you must configure the tracking mode. For more on this, refer to the [Tracking](../../migration/using/specific-configurations-in-v5_11.md#tracking) section.
 
 * Home page
 
-  If migrating from a v6.02 platform, you may define additional parameters to keep your old home page from v6.02. For more on this, refer to the [User friendliness: Home page and navigation](https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v6_02.html#user-friendliness--home-page-and-navigation) section.
+  If migrating from a v6.02 platform, you may define additional parameters to keep your old home page from v6.02. For more on this, refer to the [User friendliness: Home page and navigation](../../migration/using/specific-configurations-in-v6_02.md#user-friendliness--home-page-and-navigation) section.
 
 * Interaction
 
-  If you use **Interaction**, you must adjust any parameters after the migration. For more on this, refer to the [Interaction](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#interaction) section.
+  If you use **Interaction**, you must adjust any parameters after the migration. For more on this, refer to the [Interaction](../../migration/using/general-configurations.md#interaction) section.
 

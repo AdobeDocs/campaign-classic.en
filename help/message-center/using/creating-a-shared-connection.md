@@ -20,7 +20,7 @@ snippet: y
 
 >[!CAUTION]
 >
->* Schema extensions made on the schemas used by [Message Center technical workflows](https://helpx.adobe.com/campaign/classic/message-center/using/technical-workflows.html) on either control or execution instances need to be duplicated on the other instances used by Adobe Campaign transactional messaging module.
+>* Schema extensions made on the schemas used by [Message Center technical workflows](../../message-center/using/technical-workflows.md) on either control or execution instances need to be duplicated on the other instances used by Adobe Campaign transactional messaging module.
 >* Execution instance and control instance must not be installed on different machines. They cannot share the same Campaign instance.
 >
 
@@ -30,7 +30,7 @@ If you have a broken-down architecture, you need to specify the execution instan
 
 >[!NOTE]
 >
->When execution instances are used by several control instances, data can be divided by folder and by operator. For more on this, refer to [Using several control instances](https://helpx.adobe.com/campaign/standard/message-center/using/creating-a-shared-connection.html#using-several-control-instances).
+>When execution instances are used by several control instances, data can be divided by folder and by operator. For more on this, refer to [Using several control instances](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
 
 To create an execution instance type external account, apply the following steps:
 
@@ -59,7 +59,7 @@ To create an execution instance type external account, apply the following steps
 
    >[!NOTE]
    >
-   >To avoid entering a password each time you log on to the instance, you can specify the IP address of the control instance in the execution instance. For more on this, refer to [Execution instance](https://helpx.adobe.com/campaign/standard/message-center/using/creating-a-shared-connection.html#execution-instance).
+   >To avoid entering a password each time you log on to the instance, you can specify the IP address of the control instance in the execution instance. For more on this, refer to [Execution instance](../../message-center/using/creating-a-shared-connection.md#execution-instance).
 
 1. Specify the recovery method to be used by the execution instance.
 
@@ -73,23 +73,23 @@ To create an execution instance type external account, apply the following steps
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   For more information on Federated Data Access (FDA), refer to [Accessing an external database](https://helpx.adobe.com/campaign/classic/platform/using/accessing-an-external-database.html).
+   For more information on Federated Data Access (FDA), refer to [Accessing an external database](../../platform/using/accessing-an-external-database.md).
 
 1. Click **[!UICONTROL Test the connection]** to make sure the control instance and the execution instance are linked up.
 
    ![](assets/messagecenter_create_extaccount_006.png)
 
-1. Each execution instance must be associated with an identifier. This identifier can be attributed on each execution instance either manually, by using the deployment wizard (refer to [Identifying execution instances](https://helpx.adobe.com/campaign/standard/message-center/using/identifying-execution-instances.html)), or automatically, by clicking the **Initialize connection** button from the control instance.
+1. Each execution instance must be associated with an identifier. This identifier can be attributed on each execution instance either manually, by using the deployment wizard (refer to [Identifying execution instances](../../message-center/using/identifying-execution-instances.md)), or automatically, by clicking the **Initialize connection** button from the control instance.
 
    ![](assets/messagecenter_create_extaccount_006bis.png)
 
 ## Execution instance {#execution-instance}
 
-In order for the control instance to be able to connect to the execution instance without having to giving a password, simply enter the IP address of the control instance in the **Message Center** access rights section. However, empty passwords are forbidden by default. To use an empty password, go to the execution instances and define a security zone limited to the IP address of the information system that delivers the events. This security zone must allow empty passwords and accept `<identifier> / <password>   type connections. For more on this, refer to   <a href="https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#defining-security-zones">this section</a>. </password></identifier>`
+In order for the control instance to be able to connect to the execution instance without having to giving a password, simply enter the IP address of the control instance in the **Message Center** access rights section. However, empty passwords are forbidden by default. To use an empty password, go to the execution instances and define a security zone limited to the IP address of the information system that delivers the events. This security zone must allow empty passwords and accept `<identifier> / <password>   type connections. For more on this, refer to   <a href="../../installation/using/configuring-campaign-server.md#defining-security-zones">this section</a>. </password></identifier>`
 
 >[!NOTE]
 >
->When execution instances are used by several control instances, data can be divided by folder and by operator. For more on this, refer to [Using several control instances](https://helpx.adobe.com/campaign/standard/message-center/using/creating-a-shared-connection.html#using-several-control-instances).
+>When execution instances are used by several control instances, data can be divided by folder and by operator. For more on this, refer to [Using several control instances](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
 
 1. Go to the operator folder in the execution instance ( **[!UICONTROL Administration > Access management > Operators]** ).
 1. Select the **Message Center** agent.
@@ -112,33 +112,33 @@ For example if your company manages two brands, each with its own control instan
 
 ### Configuring control instances {#configuring-control-instances}
 
-1. In the **Control 1** control instance, create one external account per execution instance, and enter the **mc1** operator in each external account. The **mc1** operator will thereafter be created on all the execution instances (refer to [Configuring execution instances](https://helpx.adobe.com/campaign/standard/message-center/using/creating-a-shared-connection.html#configuring-execution-instances)).
+1. In the **Control 1** control instance, create one external account per execution instance, and enter the **mc1** operator in each external account. The **mc1** operator will thereafter be created on all the execution instances (refer to [Configuring execution instances](../../message-center/using/creating-a-shared-connection.md#configuring-execution-instances)).
 
    ![](assets/messagecenter_multi_control_1.png)
 
-1. In the **Control 2** control instance, create one external account per execution instance, and enter the **mc2** operator in each external account. The **mc2** operator will thereafter be created on all the execution instances (refer to [Configuring execution instances](https://helpx.adobe.com/campaign/standard/message-center/using/creating-a-shared-connection.html#configuring-execution-instances)).
+1. In the **Control 2** control instance, create one external account per execution instance, and enter the **mc2** operator in each external account. The **mc2** operator will thereafter be created on all the execution instances (refer to [Configuring execution instances](../../message-center/using/creating-a-shared-connection.md#configuring-execution-instances)).
 
    ![](assets/messagecenter_multi_control_2.png)
 
    >[!NOTE]
    >
-   >For more on configuring a control instance, refer to [Control instance](https://helpx.adobe.com/campaign/standard/message-center/using/creating-a-shared-connection.html#control-instance).
+   >For more on configuring a control instance, refer to [Control instance](../../message-center/using/creating-a-shared-connection.md#control-instance).
 
 ### Configuring execution instances {#configuring-execution-instances}
 
 In order to use several control instances, this configuration has to be performed on ALL execution instances.
 
-1. Create one folder per operator in the **[!UICONTROL Administration > Production > Message Center]** node: **Folder 1** and **Folder 2**. For more on creating folders and views, refer to [Platform](https://helpx.adobe.com/campaign/classic/platform/using/access-management.html#folders-and-views).
+1. Create one folder per operator in the **[!UICONTROL Administration > Production > Message Center]** node: **Folder 1** and **Folder 2**. For more on creating folders and views, refer to [Platform](../../platform/using/access-management.md#folders-and-views).
 
    ![](assets/messagecenter_multi_control_3.png)
 
-1. Create the **mc1** and **mc2** operators by duplicating the Message Center operator provided by default (**mc**). For more on creating operators, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/access-management.html#operators).
+1. Create the **mc1** and **mc2** operators by duplicating the Message Center operator provided by default (**mc**). For more on creating operators, refer to [this section](../../platform/using/access-management.md#operators).
 
    ![](assets/messagecenter_multi_control_4.png)
 
    >[!NOTE]
    >
-   >**mc1** and **mc2** operators must have **[!UICONTROL Message Center execution]** rights and they cannot have access to the Adobe Campaign client console. An operator must always be linked with a security zone. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#defining-security-zones).
+   >**mc1** and **mc2** operators must have **[!UICONTROL Message Center execution]** rights and they cannot have access to the Adobe Campaign client console. An operator must always be linked with a security zone. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 1. For each operator, check the **[!UICONTROL Restrict to information found in sub-folders of]** box, and select the relevant folder (**Folder 1** for the **mc1** operator and **Folder 2** for the **mc2** operator).
 

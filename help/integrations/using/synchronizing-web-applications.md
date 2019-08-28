@@ -26,13 +26,13 @@ If you have many services and web applications in Campaign v7, you might choose 
 
 To achieve this, you need:
 
-* Recipients stored in Campaign v7 database and synchronized with Campaign Standard. Refer to the [Synchronizing profiles](https://helpx.adobe.com/campaign/standard/integrations/using/synchronizing-profiles.html) section.
+* Recipients stored in Campaign v7 database and synchronized with Campaign Standard. Refer to the [Synchronizing profiles](../../integrations/using/synchronizing-profiles.md) section.
 * a service and a web application created and published in Campaign v7.
 * the web application must contain a **[!UICONTROL Pre-loading]** activity using the **[!UICONTROL Adobe Campaign encryption]** identification method.
 
 ## Creating the web application and service {#creating-the-web-application-and-service}
 
-In Campaign v7, you can create web applications that allow recipients to subscribe to a service. The web application and service are designed and stored in Campaign v7 and you can update this service via a Campaign Standard communication. To learn more on web applications in Campaign v7, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/adding-fields-to-a-web-form.html#subscription-checkboxes).
+In Campaign v7, you can create web applications that allow recipients to subscribe to a service. The web application and service are designed and stored in Campaign v7 and you can update this service via a Campaign Standard communication. To learn more on web applications in Campaign v7, refer to [this section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes).
 
 In Campaign v7, the following objects have been created:
 
@@ -43,7 +43,7 @@ In Campaign v7, the following objects have been created:
 
    ![](assets/acs_connect_lp_2.png)
 
-1. Edit the **[!UICONTROL Preloading]** activity. The **[!UICONTROL Auto-load data referenced in the form]** box is checked and the **[!UICONTROL Adobe Campaign encryption]** identification method is selected. This will allow the web application to preload the form's fields with the data stored in the Adobe Campaign database. See [this document](https://helpx.adobe.com/campaign/classic/web/using/publishing-a-web-form.html#pre-loading-the-form-data).
+1. Edit the **[!UICONTROL Preloading]** activity. The **[!UICONTROL Auto-load data referenced in the form]** box is checked and the **[!UICONTROL Adobe Campaign encryption]** identification method is selected. This will allow the web application to preload the form's fields with the data stored in the Adobe Campaign database. See [this document](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
 
    ![](assets/acs_connect_lp_4.png)
 
@@ -61,7 +61,7 @@ In Campaign v7, the following objects have been created:
 
 ## Replicating the data {#replicating-the-data}
 
-In order to replicate the needed data between Campaign v7 and Campaign Standard, several replication workflow templates are available. The **[!UICONTROL Profiles replication]** workflow automatically replicates all the Campaign v7 recipients to Campaign Standard. See [Technical and replication workflows](https://helpx.adobe.com/campaign/standard/integrations/using/acs-connector-principles-and-data-cycle.html#technical-and-replication-workflows). The **[!UICONTROL Landing pages replication]** workflow enables the replication of the web applications we want to use in Campaign Standard.
+In order to replicate the needed data between Campaign v7 and Campaign Standard, several replication workflow templates are available. The **[!UICONTROL Profiles replication]** workflow automatically replicates all the Campaign v7 recipients to Campaign Standard. See [Technical and replication workflows](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). The **[!UICONTROL Landing pages replication]** workflow enables the replication of the web applications we want to use in Campaign Standard.
 
 ![](assets/acs_connect_lp_1.png)
 
@@ -87,7 +87,7 @@ To check that the data has been replicated correctly, follow these steps in Camp
 
 In this part, we'll see how to include a link, in a Campaign Standard email, to the landing page replicated from a Campaign v7 web application.
 
-The steps to create, design and send the email are the same as for a classic email. See the [Adobe Campaign Standard](https://helpx.adobe.com/support/campaign/standard.html) documentation.
+The steps to create, design and send the email are the same as for a classic email. See the [Adobe Campaign Standard](https://helpx.adobe.com/support/campaign/standard.md) documentation.
 
 1. Create a new email and choose one or more replicated profiles as the audience.
 1. Edit your content and insert a **[!UICONTROL Link to a landing page]** . 

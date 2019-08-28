@@ -84,7 +84,7 @@ To configure it, edit the activity and enter the delivery options.
     * **[!UICONTROL Send a proof]** : this option lets you send a proof of the delivery. This action is the equivalent of clicking the **[!UICONTROL Send a proof]** button in the toolbar of a delivery with **Delivery** 
     * **[!UICONTROL Prepare and start]** : this option launches the full analysis process (target calculation and content preparation) and sends the delivery. This action is the equivalent of clicking **[!UICONTROL Deliver as soon as possible]** , **[!UICONTROL Analyze]** , and **[!UICONTROL Confirm delivery]** option when sending a delivery to the main target with **Delivery**.
 
-   The **[!UICONTROL Act on a delivery]** activity used further on in the workflow lets you launch all remaining steps required for starting the delivery (target calculation, content preparation, delivery). For more on this, refer to [Delivery control](https://helpx.adobe.com/campaign/standard/workflow/using/delivery-control.html).
+   The **[!UICONTROL Act on a delivery]** activity used further on in the workflow lets you launch all remaining steps required for starting the delivery (target calculation, content preparation, delivery). For more on this, refer to [Delivery control](../../workflow/using/delivery-control.md).
 
    The following options are also available:
 
@@ -98,7 +98,7 @@ To configure it, edit the activity and enter the delivery options.
     
     * **[!UICONTROL Processing errors]**
 
-      Refer to [Delivery control](https://helpx.adobe.com/campaign/standard/workflow/using/delivery-control.html).
+      Refer to [Delivery control](../../workflow/using/delivery-control.md).
 
    The **Script** tab lets you modify the delivery parameters.
 
@@ -129,11 +129,11 @@ Open the **Approval** activity and define the properties as follows:
    Do you wish to approve delivery (<%= vars.recCount %> recipient(s))?
    ```
 
-   This is a message that includes an expression written in JavaScript: **[!UICONTROL vars.recCount]** represents the number of recipients targeted by the delivery of the preceding task. For further information on JavaScript expressions, refer to [JavaScript scripts and templates](https://helpx.adobe.com/campaign/standard/workflow/using/javascript-scripts-and-templates.html).
+   This is a message that includes an expression written in JavaScript: **[!UICONTROL vars.recCount]** represents the number of recipients targeted by the delivery of the preceding task. For further information on JavaScript expressions, refer to [JavaScript scripts and templates](../../workflow/using/javascript-scripts-and-templates.md).
 
    ![](assets/new-workflow-param-validation.png)
 
-   The Approval task is detailed in [Approval](https://helpx.adobe.com/campaign/standard/workflow/using/approval.html).
+   The Approval task is detailed in [Approval](../../workflow/using/approval.md).
 
 ## Input parameters {#input-parameters}
 

@@ -24,7 +24,7 @@ If you select at least one additional language via the **[!UICONTROL Localizatio
 
 This option lets you indicate if the block content has to be translated or not.
 
-Strings to be translated are collected the same way as the other strings of the Web application, via the **[!UICONTROL Translations]** tab of the application. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/web/using/translating-a-web-form.html).
+Strings to be translated are collected the same way as the other strings of the Web application, via the **[!UICONTROL Translations]** tab of the application. For more on this, refer to [this page](../../web/using/translating-a-web-form.md).
 
 To flag the strings to be translated:
 

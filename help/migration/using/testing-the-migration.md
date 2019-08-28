@@ -41,7 +41,7 @@ You should have a test/development environment to carry out migration tests. Dev
 1. Make sure your backups are correct by trying to restore them. Make sure you can access your database, your tables, your data, etc.
 1. Test the migration procedure in the development environment.
 
-   The full procedures are detailed in the [Prerequisites for migration to Adobe Campaign 7](https://helpx.adobe.com/campaign/standard/migration/using/prerequisites-for-migration-to-adobe-campaign-7.html) section.
+   The full procedures are detailed in the [Prerequisites for migration to Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) section.
 
 1. If the migration of the development environment is successful, you can migrate the production environment.
 
@@ -125,7 +125,7 @@ The following expressions are searched for (case sensitive):
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
    <td> Warning<br /> </td> 
-   <td> This type of syntax is no longer supported in delivery personalization. Refer to <a href="https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#javascript" target="_blank">JavaScript</a>. Otherwise, check that the value type is correct.<br /> </td> 
+   <td> This type of syntax is no longer supported in delivery personalization. Refer to <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. Otherwise, check that the value type is correct.<br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 
@@ -137,7 +137,7 @@ The following expressions are searched for (case sensitive):
    <td> logon(<br /> </td> 
    <td> PU-0003<br /> </td> 
    <td> Warning<br /> </td> 
-   <td> This connection method must be no longer be used. Refer to <a href="https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#identified-web-applications" target="_blank">Identified web applications</a>.<br /> </td> 
+   <td> This connection method must be no longer be used. Refer to <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">Identified web applications</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> new SoapMethodCall(<br /> </td> 
@@ -149,13 +149,13 @@ The following expressions are searched for (case sensitive):
    <td> sql=<br /> </td> 
    <td> PU-0005<br /> </td> 
    <td> Error<br /> </td> 
-   <td> This type of error leads to a migration failure. Refer to <a href="https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#sqldata" target="_blank">SQLData</a>.<br /> </td> 
+   <td> This type of error leads to a migration failure. Refer to <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> Error<br /> </td> 
-   <td> This type of error leads to a migration failure. Refer to <a href="https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#sqldata" target="_blank">SQLData</a>. If you get overview-type web application error logs (migration from v6.02), refer to <a href="https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v6_02.html#web-applications" target="_blank">Web applications</a>.<br /> </td> 
+   <td> This type of error leads to a migration failure. Refer to <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. If you get overview-type web application error logs (migration from v6.02), refer to <a href="../../migration/using/specific-configurations-in-v6_02.md#web-applications" target="_blank">Web applications</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

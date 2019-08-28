@@ -20,13 +20,13 @@ snippet: y
 
 Adobe Campaign lets you manage time-lags between various countries concerned by the same instance. The applied configuration is configured during instance creation.
 
-For more on configuring time zones in Adobe Campaign, refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/time-zone-management.html).
+For more on configuring time zones in Adobe Campaign, refer to this [section](../../installation/using/time-zone-management.md).
 
 In a workflow, you can adapt activity execution schedules and link a specific time zone to an activity or to the entire workflow. This configuration can be useful when importing the file, or within the framework of delivery scheduling.
 
 ## Execution scheduling {#execution-scheduling}
 
-You can schedule the execution of tasks using the scheduler (refer to [Scheduler](https://helpx.adobe.com/campaign/standard/workflow/using/scheduler.html)). You can also use the scheduling options available in the activities which offer this functionality. These activities offer a **[!UICONTROL Schedule]** tab: **[!UICONTROL File collector]** , **[!UICONTROL File transfer]** , **[!UICONTROL Web download]** , **[!UICONTROL Email reception]** & **[!UICONTROL SMS]** , etc.
+You can schedule the execution of tasks using the scheduler (refer to [Scheduler](../../workflow/using/scheduler.md)). You can also use the scheduling options available in the activities which offer this functionality. These activities offer a **[!UICONTROL Schedule]** tab: **[!UICONTROL File collector]** , **[!UICONTROL File transfer]** , **[!UICONTROL Web download]** , **[!UICONTROL Email reception]** & **[!UICONTROL SMS]** , etc.
 
 For all scheduled tasks, i.e. all activities with scheduling options, you can select the time zone to apply. The time zone is selected via the **[!UICONTROL Advanced]** tab of the concerned activity:
 

@@ -24,9 +24,9 @@ Binning enables you to simplify data display by grouping values according to cri
 
 Overall, three types of binning are available:
 
-1. Using manually defined value ranges. For instance, age, average shopping cart, number of deliveries opened, etc.). For more on this, refer to [Defining each bin](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#defining-each-bin).
-1. Dynamically, depending on the values of an enumeration: only display the values contained in the enumeration, all other values are grouped in 'Others'. For more on this, refer to [Dynamically managing bins](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#dynamically-managing-bins).
-1. Using value ranges, all others being grouped together. For instance, 18 to 25 year-olds, 26 to 59 year-olds, and the others. For more on this, refer to [Creating value ranges](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#creating-value-ranges).
+1. Using manually defined value ranges. For instance, age, average shopping cart, number of deliveries opened, etc.). For more on this, refer to [Defining each bin](../../reporting/using/concepts-and-methodology.md#defining-each-bin).
+1. Dynamically, depending on the values of an enumeration: only display the values contained in the enumeration, all other values are grouped in 'Others'. For more on this, refer to [Dynamically managing bins](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
+1. Using value ranges, all others being grouped together. For instance, 18 to 25 year-olds, 26 to 59 year-olds, and the others. For more on this, refer to [Creating value ranges](../../reporting/using/concepts-and-methodology.md#creating-value-ranges).
 
 To enable binning, check the appropriate box when creating the dimension.
 
@@ -152,7 +152,7 @@ To create a new aggregate, apply the following steps:
 
    ![](assets/s_advuser_cube_agregate_04.png)
 
-    * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. The scheduler is detailed in [this section](https://helpx.adobe.com/campaign/classic/workflow/using/scheduler.html).
+    * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. The scheduler is detailed in [this section](../../workflow/using/scheduler.md).
     * The **[!UICONTROL Aggregate update]** activity lets you select the update mode which you want to apply: full or partial.
 
       By default, a full update is carried out during each calculation. To enable a partial update, select the relevant option and define the update conditions.
@@ -163,7 +163,7 @@ To create a new aggregate, apply the following steps:
 
 The types of measures are defined in the **[!UICONTROL Measures]** tab of the cube. You can calculate sums, averages, deviations, etc.
 
-You can create as many measures as necessary: then select the measure that you want to show or hide in the table. For more on this, refer to [Displaying measures](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#displaying-measures).
+You can create as many measures as necessary: then select the measure that you want to show or hide in the table. For more on this, refer to [Displaying measures](../../reporting/using/concepts-and-methodology.md#displaying-measures).
 
 To define a new measure, apply the following steps:
 
@@ -173,7 +173,7 @@ To define a new measure, apply the following steps:
 
 1. If necessary, and depending on the operator, choose the expression which the operation concerns.
 
-   The **[!UICONTROL Advanced selection]** button lets you create complex calculation formulas. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/about-queries-in-campaign.html).
+   The **[!UICONTROL Advanced selection]** button lets you create complex calculation formulas. For more on this, refer to [this section](../../platform/using/about-queries-in-campaign.md).
 
    ![](assets/s_advuser_cube_create_a_measure_01.png)
 
@@ -187,9 +187,9 @@ To define a new measure, apply the following steps:
 
 You can configure the display of measures in the table depending on your needs:
 
-* the display sequence of measures (refer to [Display sequence](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#display-sequence)),
-* the information to show/hide in the report (refer to [Configuring the display](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#configuring-the-display)) 
-* which measures to display: percentage, total, number of decimals, etc. (refer to [Changing the type of measure displayed](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#changing-the-type-of-measure-displayed)).
+* the display sequence of measures (refer to [Display sequence](../../reporting/using/concepts-and-methodology.md#display-sequence)),
+* the information to show/hide in the report (refer to [Configuring the display](../../reporting/using/concepts-and-methodology.md#configuring-the-display)) 
+* which measures to display: percentage, total, number of decimals, etc. (refer to [Changing the type of measure displayed](../../reporting/using/concepts-and-methodology.md#changing-the-type-of-measure-displayed)).
 
 ### Display sequence {#display-sequence}
 
@@ -227,7 +227,7 @@ To do this, click the **[!UICONTROL Show the report properties]** icon and enabl
 
 ![](assets/cube_share_option.png)
 
-Specify the category which the report belongs to as well as its relevance. For more on this, refer in [this page](https://helpx.adobe.com/campaign/classic/reporting/using/configuring-access-to-the-report.html#report-display-context) to the **Display sequence**and **Defining the filtering options** sections.
+Specify the category which the report belongs to as well as its relevance. For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence**and **Defining the filtering options** sections.
 
 To confirm these changes, you need to save the report.
 

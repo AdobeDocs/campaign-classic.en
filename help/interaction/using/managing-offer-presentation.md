@@ -33,7 +33,7 @@ Interaction lets you control the flow of offer propositions using presentation r
 
    ![](assets/offer_typology_002.png)
 
-1. Configure the rule's application criteria. For more on this, refer to [Presentation rule settings](https://helpx.adobe.com/campaign/standard/interaction/using/managing-offer-presentation.html#presentation-rule-settings).
+1. Configure the rule's application criteria. For more on this, refer to [Presentation rule settings](../../interaction/using/managing-offer-presentation.md#presentation-rule-settings).
 1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Campaign execution]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typologies]** node and create a typology that will group all **[!UICONTROL Offer presentation]** type rules.
 
    ![](assets/offer_typology_003.png)
@@ -72,7 +72,7 @@ The **[!UICONTROL Targeting dimension]** coincides with the table of recipients 
 
 >[!NOTE]
 >
->You can also use non-standard tables. If you want to use a specific targeting dimension, you will need to create tables as well as a dedicated environment using the target mapping. For more on this, refer to [Creating an offer environment](https://helpx.adobe.com/campaign/standard/interaction/using/live-design-environments.html#creating-an-offer-environment).
+>You can also use non-standard tables. If you want to use a specific targeting dimension, you will need to create tables as well as a dedicated environment using the target mapping. For more on this, refer to [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
 ### Period {#period}
 
@@ -105,7 +105,7 @@ You can select filtering criteria to exclude propositions based on the channel, 
 
 ![](assets/offer_typology_014.png)
 
-These criteria represent the most frequent applications of presentation rules. To use other criteria, you can create a query using the **[!UICONTROL Limit propositions...]** link. For more on this, refer to the [Creating a query on propositions](https://helpx.adobe.com/campaign/standard/interaction/using/managing-offer-presentation.html#creating-a-query-on-propositions) section.
+These criteria represent the most frequent applications of presentation rules. To use other criteria, you can create a query using the **[!UICONTROL Limit propositions...]** link. For more on this, refer to the [Creating a query on propositions](../../interaction/using/managing-offer-presentation.md#creating-a-query-on-propositions) section.
 
 * **Filter on the channel**
 

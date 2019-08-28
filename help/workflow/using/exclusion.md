@@ -26,7 +26,7 @@ To configure this activity, enter its label and select the main recipient set: t
 
 >[!NOTE]
 >
->For more on configuring and using the exclusion activity, refer to [Excluding a population (Exclusion)](https://helpx.adobe.com/campaign/standard/workflow/using/targeting-data.html#excluding-a-population--exclusion-).
+>For more on configuring and using the exclusion activity, refer to [Excluding a population (Exclusion)](../../workflow/using/targeting-data.md#excluding-a-population--exclusion-).
 
 Check the **[!UICONTROL Generate complement]** option if you wish to exploit the remaining population. The complement will contain the main incoming population minus the outgoing population. An additional output transition will then be added to the activity, as follows:
 
@@ -44,7 +44,7 @@ The following example seeks to compile a list of recipients aged between 18 and 
 
    ![](assets/exclusion_example.png)
 
-The blacklist importation example uses an **Exclusion**-type activity which can be found in [Read list](https://helpx.adobe.com/campaign/standard/workflow/using/read-list.html).
+The blacklist importation example uses an **Exclusion**-type activity which can be found in [Read list](../../workflow/using/read-list.md).
 
 ## Input parameters {#input-parameters}
 

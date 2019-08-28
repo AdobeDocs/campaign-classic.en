@@ -34,9 +34,9 @@ XML documents are stored in MEMO type fields of the database.
 
 You must be familiar with the Adobe Campaign data model to be able to address the fields of the database in your scripts.
 
-For a presentation of the data model, refer to the [Adobe Campaign Data model description](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html).
+For a presentation of the data model, refer to the [Adobe Campaign Data model description](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.md).
 
-In order to generate its structure, refer to this article: [How to generate a Data Model or Data Dictionary](https://helpx.adobe.com/campaign/kb/generate-data-model.html).
+In order to generate its structure, refer to this article: [How to generate a Data Model or Data Dictionary](https://helpx.adobe.com/campaign/kb/generate-data-model.md).
 
 ## Query and Writer {#query-and-writer}
 
@@ -50,9 +50,9 @@ For columns and conditions, you can use Queries.
 
 This lets you isolate the underlying SQL. The query language does not depend on the underlying engine: some functions will be re-mapped, which may generate several SELECT SQL orders.
 
-For more on this, refer to [Example on the 'ExecuteQuery' method of schema 'xtk:queryDef'](https://helpx.adobe.com/campaign/standard/configuration/using/web-service-calls.html#example-on-the--executequery--method-of-schema--xtk-querydef-).
+For more on this, refer to [Example on the 'ExecuteQuery' method of schema 'xtk:queryDef'](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-).
 
-The **ExecuteQuery** method is presented in [ExecuteQuery (xtk:queryDef)](https://helpx.adobe.com/campaign/standard/configuration/using/data-oriented-apis.html#executequery--xtk-querydef-).
+The **ExecuteQuery** method is presented in [ExecuteQuery (xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-).
 
 ### Write {#write}
 
@@ -62,7 +62,7 @@ Transactional APIs let you manage reconciliations via the **updateOrInsert** com
 
 The XML structure offers a logical view of the data and lets you sidestep the physical structure of the SQL table.
 
-The Write method is presented in [Write / WriteCollection (xtk:session)](https://helpx.adobe.com/campaign/standard/configuration/using/data-oriented-apis.html#write---writecollection--xtk-session-).
+The Write method is presented in [Write / WriteCollection (xtk:session)](../../configuration/using/data-oriented-apis.md#write---writecollection--xtk-session-).
 
 ## ExecuteQuery (xtk:queryDef) {#executequery--xtk-querydef-}
 
@@ -145,7 +145,7 @@ The type of operation desired is entered in the **operation** attribute and cont
 * **select**: creates a cursor to return several records and returns an empty document if there is no data,
 * **count**: returns a data count.
 
-The **XPath** syntax is used to locate data based on the input schema. For further information about XPaths, refer to [Data schemas](https://helpx.adobe.com/campaign/standard/configuration/using/data-schemas.html).
+The **XPath** syntax is used to locate data based on the input schema. For further information about XPaths, refer to [Data schemas](../../configuration/using/data-schemas.md).
 
 #### Example with the 'get' operation {#example-with-the--get--operation}
 

@@ -18,7 +18,7 @@ snippet: y
 
 # Creating message content{#creating-message-content}
 
-The definition of the transactional message content is the same as for regular deliveries in Adobe Campaign. For instance, for an email delivery, you can create content in HTML or text format, add attachments or personalize the delivery object. For more on this, refer to the chapter on [Email delivery](https://helpx.adobe.com/campaign/classic/delivery/using/about-email-channel.html).
+The definition of the transactional message content is the same as for regular deliveries in Adobe Campaign. For instance, for an email delivery, you can create content in HTML or text format, add attachments or personalize the delivery object. For more on this, refer to the chapter on [Email delivery](../../delivery/using/about-email-channel.md).
 
 >[!CAUTION]
 >

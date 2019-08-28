@@ -55,11 +55,11 @@ This type of configuration can handle a large number of recipients (500,000 to 1
     * the first exposed to the public for tracking and pointing to the load balancer on a virtual IP address (VIP) and which is then distributed to the two frontal servers,
     * the second exposed to the internal users for access via the console and pointing to the same application server.
 
-* Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to section [Database access](https://helpx.adobe.com/campaign/standard/installation/using/network-configuration.html#database-access).
+* Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to section [Database access](../../installation/using/network-configuration.md#database-access).
 
 ### Installing the application server {#installing-the-application-server}
 
-Follow the steps to install a standalone instance from the Adobe Campaign application server to the creation of the database (step 12). Refer to [Installing and configuring (single machine)](https://helpx.adobe.com/campaign/standard/installation/using/standalone-deployment.html#installing-and-configuring--single-machine-).
+Follow the steps to install a standalone instance from the Adobe Campaign application server to the creation of the database (step 12). Refer to [Installing and configuring (single machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
 Since the computer is not a tracking server, do not take the integration with the Web server into account.
 
@@ -78,12 +78,12 @@ The steps are as follows:
 
 1. Install the Adobe Campaign server.
 
-   For more on this, refer to [Prerequisites of Campaign installation in Linux](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-linux.html) (Linux) and [Prerequisites of Campaign installation in Windows](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-windows.html) (Windows).
+   For more on this, refer to [Prerequisites of Campaign installation in Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) and [Prerequisites of Campaign installation in Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
 
 1. Follow the Web server integration procedure (IIS, Apache) described in the following sections:
 
-    * For Linux: [Integration into a Web server for Linux](https://helpx.adobe.com/campaign/standard/installation/using/integration-into-a-web-server-for-linux.html),
-    * For Windows: [Integration into a Web server for Windows](https://helpx.adobe.com/campaign/standard/installation/using/integration-into-a-web-server-for-windows.html).
+    * For Linux: [Integration into a Web server for Linux](../../installation/using/integration-into-a-web-server-for-linux.md),
+    * For Windows: [Integration into a Web server for Windows](../../installation/using/integration-into-a-web-server-for-windows.md).
 
 1. Create the **demo** instance. There are two ways of doing this:
 
@@ -91,7 +91,7 @@ The steps are as follows:
     
       ![](assets/install_create_new_connexion.png)
 
-      For more on this, refer to [Creating an instance and logging on](https://helpx.adobe.com/campaign/standard/installation/using/creating-an-instance-and-logging-on.html).
+      For more on this, refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
 
       or
     
@@ -101,7 +101,7 @@ The steps are as follows:
       nlserver config -addinstance:demo/tracking.campaign.net*
       ```    
     
-      For more on this, refer to [Creating an instance](https://helpx.adobe.com/campaign/standard/installation/using/command-lines.html#creating-an-instance).
+      For more on this, refer to [Creating an instance](../../installation/using/command-lines.md#creating-an-instance).
 
    The name of the instance is the same as that of the application server.
 
@@ -109,7 +109,7 @@ The steps are as follows:
 
 1. Change the **internal** to the same as the application server.
 
-   For more on this, refer to [Internal identifier](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html#internal-identifier).
+   For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
 1. Link the database to the instance:
 
@@ -119,7 +119,7 @@ The steps are as follows:
 
 1. In the **config-default.xml** and **config-demo.xml** files, enable the **web**, **trackinglogd** and **mta** modules.
 
-   For more on this, refer to [Enabling processes](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html#enabling-processes).
+   For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
 
 1. Edit the **serverConf.xml** file and populate:
 
@@ -133,7 +133,7 @@ The steps are as follows:
       >
       >The **nameServers** parameter is only used in Windows.
 
-      For more on this, refer to [Delivery settings](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html#delivery-settings).
+      For more on this, refer to [Delivery settings](../../installation/using/campaign-server-configuration.md#delivery-settings).
     
     * the redundant tracking servers in the redirection parameters:
 
@@ -142,7 +142,7 @@ The steps are as follows:
       <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
       ```    
     
-      For more on this, refer to [Redundant tracking](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#redundant-tracking).
+      For more on this, refer to [Redundant tracking](../../installation/using/configuring-campaign-server.md#redundant-tracking).
 
 1. Start the website and test the redirection from the URL: [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 
@@ -160,19 +160,19 @@ The steps are as follows:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Launching the Web server and testing the configuration](https://helpx.adobe.com/campaign/standard/installation/using/integration-into-a-web-server-for-linux.html#launching-the-web-server-and-testing-the-configuration),
-    * For Windows: [Launching the Web server and testing the configuration](https://helpx.adobe.com/campaign/standard/installation/using/integration-into-a-web-server-for-windows.html#launching-the-web-server-and-testing-the-configuration).
+    * For Linux: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration),
+    * For Windows: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration).
 
 1. Start the Adobe Campaign server.
 1. In the Adobe Campaign console, connect using the **admin** login without a password and launch the deployment wizard.
 
-   For more on this, refer to [Deploying an instance](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html).
+   For more on this, refer to [Deploying an instance](../../installation/using/deploying-an-instance.md).
 
    Configuration is identical to a standalone instance apart from the configuration of the tracking module.
 
 1. Populate the external URL (that of the load balancer) used for redirection and the internal URLs of the two frontal servers.
 
-   For more on this, refer to [Tracking configuration](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#tracking-configuration).
+   For more on this, refer to [Tracking configuration](../../installation/using/deploying-an-instance.md#tracking-configuration).
 
    ![](assets/d_ncs_install_tracking2.png)
 

@@ -32,7 +32,7 @@ To configure it, edit the activity and enter its label, then select the action t
 1. Click **[!UICONTROL Subscription]** or **[!UICONTROL Unsubscription]** if you wish to subscribe or unsubscribe the specified population to or from the selected information service.
 1. Select **[!UICONTROL Send a confirmation message]** to notify recipients that they are subscribed to or unsubscribed from a service.
 
-   The content of this message is specified in a delivery template related to the information service. For more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/delivery/using/managing-subscriptions.html).
+   The content of this message is specified in a delivery template related to the information service. For more on this, refer to this [section](../../delivery/using/managing-subscriptions.md).
 
 ## Example: Subscribe a list of recipients to a newsletter {#example--subscribe-a-list-of-recipients-to-a-newsletter}
 

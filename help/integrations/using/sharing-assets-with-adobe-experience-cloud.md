@@ -27,9 +27,9 @@ Asset services include:
 
 When editing an email delivery or a landing page in Adobe Campaign, you can place assets from your Adobe Experience Cloud libraries. Depending on the solutions you are using, these assets can be stored in Assets core service or Adobe Experience Manager Assets.
 
-The different available libraries are detailed in [this document](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html).
+The different available libraries are detailed in [this document](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.md).
 
-Consult the [Configuring access to Assets](https://helpx.adobe.com/campaign/standard/integrations/using/configuring-access-to-assets.html) section to find out more about the specifics linked to each library.
+Consult the [Configuring access to Assets](../../integrations/using/configuring-access-to-assets.md) section to find out more about the specifics linked to each library.
 
 >[!NOTE]
 >

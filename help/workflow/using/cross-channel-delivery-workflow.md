@@ -18,7 +18,7 @@ snippet: y
 
 # Cross-channel delivery workflow{#cross-channel-delivery-workflow}
 
-This use case presents an example involving a cross-channel delivery workflow. The general concept of cross-channel deliveries is presented in [this section](https://helpx.adobe.com/campaign/classic/workflow/using/cross-channel-deliveries.html).
+This use case presents an example involving a cross-channel delivery workflow. The general concept of cross-channel deliveries is presented in [this section](../../workflow/using/cross-channel-deliveries.md).
 
 The objective is to segment an audience from the recipients of your database into different groups with the aim of sending an email to a group and an SMS message to another group.
 
@@ -38,8 +38,8 @@ The main implementation steps for this use case are as follows:
 
 To define your target, create a query to identify the recipients.
 
-1. Create a campaign. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#creating-a-campaign).
-1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, add a **Query** activity to your workflow. For more on using this activity, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/query.html).
+1. Create a campaign. For more on this, refer to [this section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
+1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, add a **Query** activity to your workflow. For more on using this activity, refer to [this section](../../workflow/using/query.md).
 1. Define the recipients who will receive your deliveries. For example, select 'Gold' members as the target dimension.
 1. Add filtering conditions to your query. In this example, select recipients who have an email address and a mobile number.
 
@@ -49,12 +49,12 @@ To define your target, create a query to identify the recipients.
 
 ## Step 2: Creating an email including an offer {#step-2--creating-an-email-including-an-offer}
 
-1. Create an **[!UICONTROL Email delivery]** activity and double-click it in your workflow to edit it. For more on creating an email, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/about-email-channel.html).
+1. Create an **[!UICONTROL Email delivery]** activity and double-click it in your workflow to edit it. For more on creating an email, refer to [this section](../../delivery/using/about-email-channel.md).
 1. Design the message and insert a link including an offer into the content.
 
    ![](assets/wkf_cross-channel_1.png)
 
-   For more on integrating an offer into the body of a message, refer to [this section](https://helpx.adobe.com/campaign/classic/interaction/using/integrating-an-offer-via-the-wizard.html#delivering-with-a-call-to-the-offer-engine).
+   For more on integrating an offer into the body of a message, refer to [this section](../../interaction/using/integrating-an-offer-via-the-wizard.md#delivering-with-a-call-to-the-offer-engine).
 
 1. Save your changes.
 1. Right-click the **[!UICONTROL Email delivery]** activity to open it.
@@ -72,7 +72,7 @@ To define your target, create a query to identify the recipients.
 
 Once your target is identified and your first delivery created, you need to segment the target into different populations using filtering conditions.
 
-1. Add a **Split** activity to the workflow and open it. For more on using this activity, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/split.html).
+1. Add a **Split** activity to the workflow and open it. For more on using this activity, refer to [this section](../../workflow/using/split.md).
 1. Create three segments from the population computed upstream in the query.
 
    ![](assets/wkf_cross-channel_6.png)
@@ -112,10 +112,10 @@ Once your target is identified and your first delivery created, you need to segm
     * Add a **[!UICONTROL Mobile delivery]** activity to send an SMS message to the second subset.
     * Add a **[!UICONTROL List update]** activity to add the corresponding recipients to the database.
 
-1. Double-click the delivery activities in your workflow to edit them. For more on creating an email and an SMS, refer to [Email channel](https://helpx.adobe.com/campaign/classic/delivery/using/about-email-channel.html) and [SMS channel](https://helpx.adobe.com/campaign/classic/delivery/using/sms-channel.html).
+1. Double-click the delivery activities in your workflow to edit them. For more on creating an email and an SMS, refer to [Email channel](../../delivery/using/about-email-channel.md) and [SMS channel](../../delivery/using/sms-channel.md).
 1. Double-click the **[!UICONTROL List update]** activity and select the **[!UICONTROL Generate an outbound transition]** option.
 
-   You can then export the resulting recipients from Adobe Campaign to the Adobe Experience Cloud. For example, you can use the audience in Adobe Target by adding an **[!UICONTROL Update shared audience]** activity to the workflow. For more on this, refer to [Exporting an audience](https://helpx.adobe.com/campaign/classic/integrations/using/importing-and-exporting-audiences.html#exporting-an-audience).
+   You can then export the resulting recipients from Adobe Campaign to the Adobe Experience Cloud. For example, you can use the audience in Adobe Target by adding an **[!UICONTROL Update shared audience]** activity to the workflow. For more on this, refer to [Exporting an audience](../../integrations/using/importing-and-exporting-audiences.md#exporting-an-audience).
 
 1. Click the **Start** button in the action bar to execute the workflow.
 

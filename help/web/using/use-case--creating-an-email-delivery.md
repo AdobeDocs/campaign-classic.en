@@ -30,11 +30,11 @@ Our final goal is to create a delivery with a personalized template which contai
 >[!NOTE]
 >
 >Before you start, you must have at least one **HTML template** configured to host the content of your future deliveries.  
->In the delivery **[!UICONTROL Properties]** , make sure that the **[!UICONTROL Content editing mode]** ( **[!UICONTROL Advanced]** tab) is set to **[!UICONTROL DCE]** . To ensure the editor's optimal operation, refer to the [Content editing best practices](https://helpx.adobe.com/campaign/standard/web/using/content-editing-best-practices.html).
+>In the delivery **[!UICONTROL Properties]** , make sure that the **[!UICONTROL Content editing mode]** ( **[!UICONTROL Advanced]** tab) is set to **[!UICONTROL DCE]** . To ensure the editor's optimal operation, refer to the [Content editing best practices](../../web/using/content-editing-best-practices.md).
 
 ## Step 1 - Creating a delivery {#step-1---creating-a-delivery}
 
-To create a new delivery, place your cursor in the **Campaigns** universe and click **Deliveries**. Next click the **Create** button above the list of existing deliveries. For more on creating deliveries, refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/about-email-channel.html).
+To create a new delivery, place your cursor in the **Campaigns** universe and click **Deliveries**. Next click the **Create** button above the list of existing deliveries. For more on creating deliveries, refer to [this page](../../delivery/using/about-email-channel.md).
 
 ![](assets/delivery_step_1.png)
 
@@ -56,7 +56,7 @@ You can also import an HTML content created outside of Adobe Campaign by selecti
 
 ![](assets/dce_select_from_file_template.png)
 
-You can save this content as a template for future use. Once a personalized content template is created, you can preview it from the list of templates. For more on this, refer to [Template management](https://helpx.adobe.com/campaign/standard/web/using/template-management.html).
+You can save this content as a template for future use. Once a personalized content template is created, you can preview it from the list of templates. For more on this, refer to [Template management](../../web/using/template-management.md).
 
 >[!CAUTION]
 >
@@ -72,7 +72,7 @@ You can save this content as a template for future use. Once a personalized cont
 
 * Insert a link into an image
 
-  To take delivery recipients to an external address via an image, click on the relevant image to display the pop-up toolbar, place the cursor on the first icon then click **[!UICONTROL Link to an external URL]** . For more on this, refer to [Adding a link](https://helpx.adobe.com/campaign/standard/web/using/editing-content.html#adding-a-link).
+  To take delivery recipients to an external address via an image, click on the relevant image to display the pop-up toolbar, place the cursor on the first icon then click **[!UICONTROL Link to an external URL]** . For more on this, refer to [Adding a link](../../web/using/editing-content.md#adding-a-link).
 
   ![](assets/dce_externalpage.png)
 
@@ -82,7 +82,7 @@ You can save this content as a template for future use. Once a personalized cont
 
 * Insert a link into text
 
-  To integrate an external link into the text in your delivery, select some text or a block of text then click on the first icon in the pop-up toolbar. Click **[!UICONTROL Link to an external URL]** , enter the link address into the **[!UICONTROL URL]** field. For more on this, refer to [Adding a link](https://helpx.adobe.com/campaign/standard/web/using/editing-content.html#adding-a-link).
+  To integrate an external link into the text in your delivery, select some text or a block of text then click on the first icon in the pop-up toolbar. Click **[!UICONTROL Link to an external URL]** , enter the link address into the **[!UICONTROL URL]** field. For more on this, refer to [Adding a link](../../web/using/editing-content.md#adding-a-link).
 
   The link can be changed at any time using the section to the right of the window.
 
@@ -104,7 +104,7 @@ You can save this content as a template for future use. Once a personalized cont
 
 * Integrate a link to a Web application
 
-  The Digital Content Editor lets you integrate links to Web applications from your Adobe Campaign console, such as a landing page or a form page. For more on this, refer to [Link to a Web application](https://helpx.adobe.com/campaign/standard/web/using/editing-content.html#link-to-a-web-application).
+  The Digital Content Editor lets you integrate links to Web applications from your Adobe Campaign console, such as a landing page or a form page. For more on this, refer to [Link to a Web application](../../web/using/editing-content.md#link-to-a-web-application).
 
   Select a text field for your link to a Web application, then click the first icon. Choose **[!UICONTROL Link to a Web application]** , then select the desired application by clicking the icon at the end of the **Web Application** field.
 

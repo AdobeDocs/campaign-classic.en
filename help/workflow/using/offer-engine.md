@@ -24,7 +24,7 @@ This activity works on the same principle as the enrichment activity with an eng
 
 ![](assets/int_offerengine_activity2.png)
 
-After configuring your query (refer to this [section](https://helpx.adobe.com/campaign/classic/workflow/using/query.html)):
+After configuring your query (refer to this [section](../../workflow/using/query.md)):
 
 1. Add and open an **[!UICONTROL Offer engine]** activity.
 1. Complete the various available fields to specify the call to offer engine parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters.
@@ -35,5 +35,5 @@ After configuring your query (refer to this [section](https://helpx.adobe.com/ca
 
    ![](assets/int_offerengine_activity1.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](https://helpx.adobe.com/campaign/standard/workflow/using/cross-channel-deliveries.html).
+1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](../../workflow/using/cross-channel-deliveries.md).
 

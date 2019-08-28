@@ -22,11 +22,11 @@ Several server side technical settings can be added or modified to match your ne
 
 >[!NOTE]
 >
->Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](https://helpx.adobe.com/campaign/classic/installation/using/hosting-models.html) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html). The installation and configuration steps for hosted and hybrid models are presented in this [section](https://helpx.adobe.com/campaign/classic/installation/using/hosted-model.html).
+>Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md). The installation and configuration steps for hosted and hybrid models are presented in this [section](../../installation/using/hosted-model.md).
 
 The configuration files are stored in the **conf** folder of the Adobe Campaign installation folder. The configuration is spread over two files:
 
-* **serverConf.xml**: general configuration for all instances. This file combines the technical parameters of the Adobe Campaign server: these are shared by all instances. The description of some of these parameters is detailed below. The different nodes and parameters and listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+* **serverConf.xml**: general configuration for all instances. This file combines the technical parameters of the Adobe Campaign server: these are shared by all instances. The description of some of these parameters is detailed below. The different nodes and parameters and listed in this [section](../../installation/using/the-server-configuration-file.md).
 * **config- `<instance>  .xml </instance>`** (where **instance** is the name of the instance): specific configuration of the instance. If you share your server among several instances, please enter the parameters specific to each instance in their relevant file.
 
 ## Defining security zones {#defining-security-zones}
@@ -35,7 +35,7 @@ The configuration files are stored in the **conf** folder of the Adobe Campaign 
 
 Each operator needs to be linked to a zone to log on to an instance and the operator IP must be included in the addresses or address sets defined in the security zone. Security zone configuration is carried out in the configuration file of the Adobe Campaign server.
 
-Operators are linked to a security zone from its profile in the console ( **[!UICONTROL Administration > Access management > Operators]** node). Learn how to link zones to Campaign operators in [this section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#linking-a-security-zone-to-an-operator).
+Operators are linked to a security zone from its profile in the console ( **[!UICONTROL Administration > Access management > Operators]** node). Learn how to link zones to Campaign operators in [this section](../../installation/using/configuring-campaign-server.md#linking-a-security-zone-to-an-operator).
 
 ### Creating security zones {#creating-security-zones}
 
@@ -46,7 +46,7 @@ A zone is defined by:
 
 Security zones are interlocked, which means that defining a new zone within another zone reduces the number of operators who can log on to it while increasing the rights assigned to each operator.
 
-Zones must be defined during server configuration, in the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+Zones must be defined during server configuration, in the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 Each zone defines rights, such as:
 
@@ -104,7 +104,7 @@ All of the rights defining a zone are as follows:
 >
 >In a zone definition, each attribute with the **true** value reduces security.
 
-When using Message Center, if there are several execution instances, you need to create an additional security zone with the **sessionTokenOnly** attribute defined as **true**, wherein only the necessary IP addresses are to be added. For more on configuring instances, refer to [this document](https://helpx.adobe.com/campaign/classic/message-center/using/creating-a-shared-connection.html).
+When using Message Center, if there are several execution instances, you need to create an additional security zone with the **sessionTokenOnly** attribute defined as **true**, wherein only the necessary IP addresses are to be added. For more on configuring instances, refer to [this document](../../message-center/using/creating-a-shared-connection.md).
 
 ### Best practices for security zones {#best-practices-for-security-zones}
 
@@ -232,7 +232,7 @@ Once the zones are defined and the **[!UICONTROL Security zone]** enumeration is
 
 When the 8080 listening port of the Tomcat server is already busy with another application required for your configuration, you need to replace the 8080 port with a free one (8090 for instance). To change it, edit the **server.xml** file saved in the **/tomcat-7/conf** directory of the Adobe Campaign installation folder.
 
-Then modify the port of the JSP relay pages. To do this, change the **serverConf.xml** file saved in the **/conf** directory of the Adobe Campaign installation directory. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+Then modify the port of the JSP relay pages. To do this, change the **serverConf.xml** file saved in the **/conf** directory of the Adobe Campaign installation directory. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 ```
 <serverConf>
@@ -257,9 +257,9 @@ If necessary, this operation can be reproduced on the server-side.
 
 ## Personalizing delivery parameters {#personalizing-delivery-parameters}
 
-The delivery parameters are defined in the **serverConf.xml** configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+The delivery parameters are defined in the **serverConf.xml** configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
-General server configuration and commands are detailed in [Campaign server configuration](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html).
+General server configuration and commands are detailed in [Campaign server configuration](../../installation/using/campaign-server-configuration.md).
 
 You can also carry out the following configurations depending on your needs and settings.
 
@@ -287,7 +287,7 @@ It is possible to control the population of child processes (maxSpareServers by 
 <master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
 ```
 
-Also refer to [Email sending optimization](https://helpx.adobe.com/campaign/standard/installation/using/email-deliverability.html#email-sending-optimization).
+Also refer to [Email sending optimization](../../installation/using/email-deliverability.md#email-sending-optimization).
 
 ### Managing outbound SMTP traffic with affinities {#managing-outbound-smtp-traffic-with-affinities}
 
@@ -314,7 +314,7 @@ To do this, apply the following steps:
 
    >[!NOTE]
    >
-   >Enumerations are detailed in [this document](https://helpx.adobe.com/campaign/classic/platform/using/managing-enumerations.html).
+   >Enumerations are detailed in [this document](../../platform/using/managing-enumerations.md).
 
    You can then select the affinity to be used, as shown below for typologies:
 
@@ -322,11 +322,11 @@ To do this, apply the following steps:
 
    >[!NOTE]
    >
-   >You can also refer to [Delivery server configuration](https://helpx.adobe.com/campaign/standard/installation/using/email-deliverability.html#delivery-server-configuration).
+   >You can also refer to [Delivery server configuration](../../installation/using/email-deliverability.md#delivery-server-configuration).
 
 ## Outgoing connection protection {#outgoing-connection-protection}
 
-The default list of URLs that can be called by JavaScript codes (workflows, etc.) is limited. To allow a new URL, the administrator needs to reference a new **urlPermission** in the** serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+The default list of URLs that can be called by JavaScript codes (workflows, etc.) is limited. To allow a new URL, the administrator needs to reference a new **urlPermission** in the** serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 Three connection protection modes exist:
 
@@ -350,7 +350,7 @@ Three connection protection modes exist:
 
 ## Dynamic page security and relays {#dynamic-page-security-and-relays}
 
-By default, all dynamic pages are automatically related to the **local** Tomcat server of the machine whose Web module has started. This configuration is entered in the ** `<url>`** section of the query relay configuration for the **ServerConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+By default, all dynamic pages are automatically related to the **local** Tomcat server of the machine whose Web module has started. This configuration is entered in the ** `<url>`** section of the query relay configuration for the **ServerConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 To relay execution of the dynamic page on a **remote** server; if the Web module is not activated on the computer. To do this, you must replace the **localhost** with the name of the remote computer for JSP and JSSP, Web applications, reports and strings.
 
@@ -430,7 +430,7 @@ sh
 
 In the **exec** node of the server configuration file, you need to reference the previously created file in the **blacklistFile** attribute.
 
-**For Linux only**: in the server configuration file, you need to specify a user dedicated to executing external commands to enhance your security configuration. This user is set in the **exec** node of the configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+**For Linux only**: in the server configuration file, you need to specify a user dedicated to executing external commands to enhance your security configuration. This user is set in the **exec** node of the configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 For example:
 
@@ -446,7 +446,7 @@ This user needs to be added to the sudoer list of the 'neolane' Adobe Campaign o
 
 By default, all HTTP headers are not relayed. You can add specific headers in the replies sent by relay. To do this:
 
-1. Go to the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+1. Go to the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 1. In the ** `<relay>`** node, go to the list of relayed HTTP headers.
 1. Add a ** `<responseheader>`** element with the following attributes:
 
@@ -467,7 +467,7 @@ When multiple servers are used for redirection, they must be able to communicate
 >
 >When using the standard or enterprise architecture, the main application server must be authorized to upload tracking information on each computer.
 
-The URLs of the redundant servers must be specified in the redirection configuration, via the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+The URLs of the redundant servers must be specified in the redirection configuration, via the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 **Example:** `<spareserver enabledIf="$(hostname)!='front_srv1'" id="1" url="http://front_srv1:8080" />` `<spareserver enabledIf="$(hostname)!='front_srv2'" id="2" url="http://front_srv2:8080" />`
 
@@ -477,7 +477,7 @@ To obtain the hostname of the computer, run the following command: **hostname -s
 
 ## Managing public resources {#managing-public-resources}
 
-Public resources are presented in [Managing public resources](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#managing-public-resources).
+Public resources are presented in [Managing public resources](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
 They are stored in the **/var/res/**instance**** directory of the Adobe Campaign installation directory.
 
@@ -545,7 +545,7 @@ By default, the different Adobe Campaign processes restart automatically at 6am 
 
 However, you can change this configuration.
 
-To do this, go to the **serverConf.xml** file, located in the **conf** repository of your installation. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+To do this, go to the **serverConf.xml** file, located in the **conf** repository of your installation. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 Each process configured in this file has a **processRestartTime** attribute. You can modify the value of this attribute to adapt the restart time of each process according to your needs.
 
@@ -557,7 +557,7 @@ Each process configured in this file has a **processRestartTime** attribute. You
 
 A new attribute **uploadWhiteList** lets you restrict the file types available for upload on the Adobe Campaign server.
 
-This attribute is available within the **dataStore** element of the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+This attribute is available within the **dataStore** element of the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 The default value of this attribute is **.+** and it lets you upload any file type.
 
@@ -571,7 +571,7 @@ For example: **uploadWhiteList=".&#42;.png,.&#42;.jpg"** will let you upload PNG
 
 ## Proxy connection configuration {#proxy-connection-configuration}
 
-If you need to connect the Campaign server to the outside through a proxy (using a file transfer workflow activity for example), you need to configure the proxyConfig section of the serverConf via a command. The following proxy connections are possible: HTTP, HTTPS, FTP, SFTP. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+If you need to connect the Campaign server to the outside through a proxy (using a file transfer workflow activity for example), you need to configure the proxyConfig section of the serverConf via a command. The following proxy connections are possible: HTTP, HTTPS, FTP, SFTP. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 >[!NOTE]
 >

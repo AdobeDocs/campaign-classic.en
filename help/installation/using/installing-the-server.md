@@ -63,7 +63,7 @@ The installation steps for the Adobe Campaign server are the following:
    >
    >Once the server installation is complete a reboot of the server is required to avoid possible network issue.
 
-   Once the installation is complete, start Adobe Campaign to create the configuration files. Refer to [First start-up of the server](https://helpx.adobe.com/campaign/standard/installation/using/installing-the-server.html#first-start-up-of-the-server).
+   Once the installation is complete, start Adobe Campaign to create the configuration files. Refer to [First start-up of the server](../../installation/using/installing-the-server.md#first-start-up-of-the-server).
 
 ## Summary installation testing {#summary-installation-testing}
 
@@ -140,7 +140,7 @@ The following information is displayed:
 
 The Adobe Campaign server defines a technical login called **internal** that has all rights on all instances. Just after installation the login does not have a password. It is mandatory to define one.
 
-See section [Internal identifier](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html#internal-identifier).
+See section [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
 ## Starting Adobe Campaign services {#starting-adobe-campaign-services}
 

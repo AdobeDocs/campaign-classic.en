@@ -26,4 +26,4 @@ In this case, to add seed addresses to the delivery, enter the adequate fields d
 
 ![](assets/s_ncs_user_seedlist_add_new_tab.png)
 
-The **nms:seedMember** schema extension is [this section](https://helpx.adobe.com/campaign/classic/configuration/using/seed-addresses.html).
+The **nms:seedMember** schema extension is [this section](../../configuration/using/seed-addresses.md).

@@ -63,7 +63,7 @@ The Interaction package must be installed on all instances (control and executio
 
 >[!NOTE]
 >
->When installing the package, the **long** type fields of the **nms:proposition** table such as the proposition ID, become **int64** type fields. This type of data is detailed in the [this section](https://helpx.adobe.com/campaign/classic/configuration/using/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data).
+>When installing the package, the **long** type fields of the **nms:proposition** table such as the proposition ID, become **int64** type fields. This type of data is detailed in the [this section](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
 
 The data retention duration must be configured on each instance (via the **[!UICONTROL Data purge]** window in the deployment wizard). On execution instances, this period must correspond to the historical depth necessary for typology rules (sliding period) and eligibility rules to be calculated.
 

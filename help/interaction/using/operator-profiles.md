@@ -23,7 +23,7 @@ There are two types of operators who use Interaction: offer managers and deliver
 * **[!UICONTROL Offer manager]** : creates and maintains offers
 * **[!UICONTROL Delivery manager]** : approves and uses offers
 
-The steps for creating operators specific to Interaction are identical to those used to create all other operators on the platform. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/access-management.html#creating-an-operator). The rights are configured during operator creation.
+The steps for creating operators specific to Interaction are identical to those used to create all other operators on the platform. For more on this, refer to [this section](../../platform/using/access-management.md#creating-an-operator). The rights are configured during operator creation.
 
 ## Offer manager {#offer-manager}
 

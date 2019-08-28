@@ -32,7 +32,7 @@ The delivery outline activity, available in the campaign workflows, lets you pre
 1. In a workflow, add a delivery outline activity before adding a delivery activity.
 1. In the delivery outline activity, specify the outline you would like to use.
 
-   For more information on specifying delivery outlines, refer to the [Campaign - MRM](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#associating-and-structuring-resources-linked-via-a-delivery-outline) guide.
+   For more information on specifying delivery outlines, refer to the [Campaign - MRM](../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline) guide.
 
 1. Complete the available fields according to your delivery.
 1. There are two possible cases:
@@ -55,7 +55,7 @@ The enrichment activity lets you add offers or links to offers for delivery reci
 
 >[!NOTE]
 >
->For more information on the enrichment activity, refer to the dedicated documentation in the [Workflows guide](https://helpx.adobe.com/campaign/classic/workflow/using/enrichment.html).
+>For more information on the enrichment activity, refer to the dedicated documentation in the [Workflows guide](../../workflow/using/enrichment.md).
 
 For example, you can enrich the data for a recipient query before a delivery.
 
@@ -68,7 +68,7 @@ There are two methods for specifying offer propositions.
 
 ### Specifying an offer or a call to the offer engine {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
-After configuring your query (refer to the [Workflows guide](https://helpx.adobe.com/campaign/classic/workflow/using/query.html)):
+After configuring your query (refer to the [Workflows guide](../../workflow/using/query.md)):
 
 1. Add and open an enrichment activity.
 1. In the **[!UICONTROL Enrichment]** tab, select **[!UICONTROL Add data]** .
@@ -87,7 +87,7 @@ After configuring your query (refer to the [Workflows guide](https://helpx.adobe
     
       ![](assets/int_enrichment_offer4.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](https://helpx.adobe.com/campaign/standard/interaction/using/integrating-an-offer-via-the-wizard.html#inserting-an-offer-proposition-into-a-delivery) section.
+1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) section.
 
    >[!NOTE]
    >
@@ -109,7 +109,7 @@ To do this, use the following process:
 
    ![](assets/int_enrichment_link2.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](https://helpx.adobe.com/campaign/standard/interaction/using/integrating-an-offer-via-the-wizard.html#inserting-an-offer-proposition-into-a-delivery) section.
+1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) section.
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ By default, when an **enrichment** activity is used to deliver offers, their ran
 
 However, you can store this information as follows:
 
-1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. Refer to the [Specifying an offer or a call to the offer engine](https://helpx.adobe.com/campaign/standard/interaction/using/integrating-an-offer-via-a-workflow.html#specifying-an-offer-or-a-call-to-the-offer-engine) section.
+1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. Refer to the [Specifying an offer or a call to the offer engine](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine) section.
 1. In the activity's main window, select **[!UICONTROL Edit additional data...]** .
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -146,7 +146,7 @@ This activity works on the same principle as the enrichment activity with an eng
 
 ![](assets/int_offerengine_activity2.png)
 
-After configuring your query (refer to the [Workflows guide](https://helpx.adobe.com/campaign/classic/workflow/using/query.html)):
+After configuring your query (refer to the [Workflows guide](../../workflow/using/query.md)):
 
 1. Add and open an **[!UICONTROL Offer engine]** activity.
 1. Complete the various available fields to specify the call to offer engine parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters.
@@ -157,7 +157,7 @@ After configuring your query (refer to the [Workflows guide](https://helpx.adobe
 
    ![](assets/int_offerengine_activity1.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](https://helpx.adobe.com/campaign/standard/interaction/using/integrating-an-offer-via-the-wizard.html#inserting-an-offer-proposition-into-a-delivery) section.
+1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) section.
 
 ## Offers by cell {#offers-by-cell}
 
@@ -174,5 +174,5 @@ To do this, use the following process:
     
       ![](assets/int_offer_per_cell1.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](https://helpx.adobe.com/campaign/standard/interaction/using/integrating-an-offer-via-the-wizard.html#inserting-an-offer-proposition-into-a-delivery) section.
+1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) section.
 

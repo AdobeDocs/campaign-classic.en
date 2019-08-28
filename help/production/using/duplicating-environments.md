@@ -102,7 +102,7 @@ Check that the number of exported options/accounts is equal to the number of lin
 >[!NOTE]
 >
 >The number of lines to export in a package export is 1000 lines. If the number of options or external accounts is more than 1000, you must carry out several exports.  
->For more information, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/working-with-data-packages.html#exporting-packages).
+>For more information, refer to [this section](../../platform/using/working-with-data-packages.md#exporting-packages).
 
 ### Step 3 - Stop the target environment (dev) {#step-3---stop-the-target-environment--dev-}
 

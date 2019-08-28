@@ -50,21 +50,21 @@ Open the descriptive analysis wizard by selecting items and right-clicking. Only
 
   To select all the recipients in the folder or the current filter, use the CTRL+A shortcut. This means that even recipients not shown will be selected.
 
-  For an example of the descriptive analysis of recipients, refer to: [Qualitative data analysis](https://helpx.adobe.com/campaign/standard/reporting/using/use-cases.html#qualitative-data-analysis).
+  For an example of the descriptive analysis of recipients, refer to: [Qualitative data analysis](../../reporting/using/use-cases.md#qualitative-data-analysis).
 
-* In the context of a **workflow**, place the cursor on a transition that points towards the recipients table, right-click and select **[!UICONTROL Analyze target]** . For more on this, refer to the example in [Analyzing a transition target in a workflow](https://helpx.adobe.com/campaign/standard/reporting/using/use-cases.html#analyzing-a-transition-target-in-a-workflow).
+* In the context of a **workflow**, place the cursor on a transition that points towards the recipients table, right-click and select **[!UICONTROL Analyze target]** . For more on this, refer to the example in [Analyzing a transition target in a workflow](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow).
 * For **lists**, select one or more lists and apply the same process as for recipients.
 * In the context of a **delivery**, select the deliveries whose target you want to analyze, right-click and select **[!UICONTROL Actions > Explore the target]** , as shown below:
 
   ![](assets/reporting_descriptive_from_deliveries.png)
 
-  Examples of descriptive analyses for deliveries are provided here: [Analyzing a population](https://helpx.adobe.com/campaign/standard/reporting/using/use-cases.html#analyzing-a-population) and here: [Analyzing recipient tracking logs](https://helpx.adobe.com/campaign/standard/reporting/using/use-cases.html#analyzing-recipient-tracking-logs).
+  Examples of descriptive analyses for deliveries are provided here: [Analyzing a population](../../reporting/using/use-cases.md#analyzing-a-population) and here: [Analyzing recipient tracking logs](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
 
 ## Configuring the qualitative distribution template {#configuring-the-qualitative-distribution-template}
 
 The **[!UICONTROL Qualitative distribution]** template lets you create statistics on all types of data (e.g. company name, email domain).
 
-Configuration options available for a report created via the **[!UICONTROL Qualitative distribution]** template are detailed in [Displaying data in the table](https://helpx.adobe.com/campaign/standard/reporting/using/using-the-descriptive-analysis-wizard.html#displaying-data-in-the-table). A full example is detailed in [Analyzing a population](https://helpx.adobe.com/campaign/standard/reporting/using/use-cases.html#analyzing-a-population).
+Configuration options available for a report created via the **[!UICONTROL Qualitative distribution]** template are detailed in [Displaying data in the table](../../reporting/using/using-the-descriptive-analysis-wizard.md#displaying-data-in-the-table). A full example is detailed in [Analyzing a population](../../reporting/using/use-cases.md#analyzing-a-population).
 
 When you use the descriptive analysis wizard to analyze your data, the available options depend on the chosen settings. These are detailed below.
 
@@ -117,7 +117,7 @@ Use the toolbar to personalize the display of variables in the table: delete a c
 
 The upper section of the window lets you select the display settings.
 
-You can display or hide the name of the statistics and the sub-totals and choose the orientation of the statistics. For more on this, refer to [Analysis report display settings](https://helpx.adobe.com/campaign/standard/reporting/using/processing-a-report.html#analysis-report-display-settings).
+You can display or hide the name of the statistics and the sub-totals and choose the orientation of the statistics. For more on this, refer to [Analysis report display settings](../../reporting/using/processing-a-report.md#analysis-report-display-settings).
 
 ### Displaying data in the chart {#displaying-data-in-the-chart}
 
@@ -137,7 +137,7 @@ Click the **[!UICONTROL Variants]** link to modify the chart properties.
 
 ![](assets/reporting_descriptive_graphe_options.png)
 
-The options offered depend on the type of chart selected. For more information, refer to [this page](https://helpx.adobe.com/campaign/classic/reporting/using/creating-a-chart.html#chart-types-and-variants).
+The options offered depend on the type of chart selected. For more information, refer to [this page](../../reporting/using/creating-a-chart.md#chart-types-and-variants).
 
 ### Statistics calculation {#statistics-calculation}
 
@@ -205,7 +205,7 @@ To generate a descriptive analysis yourself, select the **New descriptive analys
 
 The **[!UICONTROL Quantitative distribution]** template that lets you generate statistics on data which can be measured or counted (e.g. invoice amount, age of recipients).
 
-The configuration mode of an analysis report created via the **[!UICONTROL Quantitative distribution]** template is detailed in an implementation example [Quantitative data analysis](https://helpx.adobe.com/campaign/standard/reporting/using/use-cases.html#quantitative-data-analysis).
+The configuration mode of an analysis report created via the **[!UICONTROL Quantitative distribution]** template is detailed in an implementation example [Quantitative data analysis](../../reporting/using/use-cases.md#quantitative-data-analysis).
 
 The options available when using the descriptive analysis wizard to create a quantitative report are detailed below.
 
@@ -235,5 +235,5 @@ The following operations are possible:
 
   ![](assets/reporting_descriptive_view_report.png)
 
-  To make changes to the report, refer to [Processing a report](https://helpx.adobe.com/campaign/standard/reporting/using/processing-a-report.html).
+  To make changes to the report, refer to [Processing a report](../../reporting/using/processing-a-report.md).
 

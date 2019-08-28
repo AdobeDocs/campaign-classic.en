@@ -18,7 +18,7 @@ snippet: y
 
 # Interaction{#interaction}
 
-The workflow detailed below is installed with the **Offer engine (Interaction)** module by default. For more on this module, refer to this [section](https://helpx.adobe.com/campaign/classic/interaction/using/interaction-and-offer-management.html).
+The workflow detailed below is installed with the **Offer engine (Interaction)** module by default. For more on this module, refer to this [section](../../interaction/using/interaction-and-offer-management.md).
 
 <table> 
  <tbody> 
@@ -30,7 +30,7 @@ The workflow detailed below is installed with the **Offer engine (Interaction)**
   <tr> 
    <td> <span class="uicontrol">Full aggregate calculation (propositionrcp cube)</span> <br /> </td> 
    <td> <span class="uicontrol">agg_nmspropositionrcp_full</span> <br /> </td> 
-   <td> This workflow updates the <strong>Full</strong> aggregate for the <strong>Offer proposition</strong> cube. It is triggered every day at 6am by default. This aggregate captures the following dimensions: Channel, Delivery, Marketing Offer and Date.<br /> The <strong>Offer proposition</strong> cube is then used to generate reports based on offers. You can learn more about cubes in <a href="https://helpx.adobe.com/campaign/classic/reporting/using/about-cubes.html">this section</a>.<br /> </td> 
+   <td> This workflow updates the <strong>Full</strong> aggregate for the <strong>Offer proposition</strong> cube. It is triggered every day at 6am by default. This aggregate captures the following dimensions: Channel, Delivery, Marketing Offer and Date.<br /> The <strong>Offer proposition</strong> cube is then used to generate reports based on offers. You can learn more about cubes in <a href="../../reporting/using/about-cubes.md">this section</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

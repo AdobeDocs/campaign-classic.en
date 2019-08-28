@@ -44,7 +44,7 @@ The preview automatically generates the extended schema:
 >
 >When the source schema is saved, generation of the extended schema is automatically launched.
 
-If you need to check the complete structure of a schema, you can use the preview tab. If the schema has been extended, you will then be able to visualize all its extensions. As a complement, the Documentation tab displays all the schema attributes and elements, and their properties (SQL Field, type/length, label, description). The Documentation tab only applies to generated schemas. For more on this, refer to the [Regenerating schemas](https://helpx.adobe.com/campaign/standard/configuration/using/regenerating-schemas.html) section.
+If you need to check the complete structure of a schema, you can use the preview tab. If the schema has been extended, you will then be able to visualize all its extensions. As a complement, the Documentation tab displays all the schema attributes and elements, and their properties (SQL Field, type/length, label, description). The Documentation tab only applies to generated schemas. For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.
 
 ## Example: creating a contract table {#example--creating-a-contract-table}
 
@@ -63,7 +63,7 @@ To do this, you need to create the schema of the table and update the database s
 
    >[!NOTE]
    >
-   >By default, schemas created by users are stored in the 'cus' namespace. For more on this, refer to [Identification of a schema](https://helpx.adobe.com/campaign/standard/configuration/using/about-schema-reference.html#identification-of-a-schema).
+   >By default, schemas created by users are stored in the 'cus' namespace. For more on this, refer to [Identification of a schema](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 
 1. Create the content of the table. We recommend using the entry wizard to make sure no settings are missing. To do this, click the **[!UICONTROL Insert]** button and choose the type of setting to be added.
 
@@ -121,5 +121,5 @@ To do this, you need to create the schema of the table and update the database s
 
    ![](assets/s_ncs_configuration_structure.png)
 
-1. Update the database structure to create the table which the schema will be linked to. For more on this, refer to [Updating the database structure](https://helpx.adobe.com/campaign/standard/configuration/using/updating-the-database-structure.html).
+1. Update the database structure to create the table which the schema will be linked to. For more on this, refer to [Updating the database structure](../../configuration/using/updating-the-database-structure.md).
 

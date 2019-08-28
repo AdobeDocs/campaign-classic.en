@@ -32,14 +32,14 @@ SpamAssassin leverages a variety of spam-detection techniques, including:
 
 >[!NOTE]
 >
->SpamAssassin must be installed and configured on the Adobe Campaign application server. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-spamassassin.html).  
+>SpamAssassin must be installed and configured on the Adobe Campaign application server. For more on this, refer to [this section](../../installation/using/configuring-spamassassin.md).  
 >The rules that govern whether an element is spam or not are managed via SpamAssassin and can be edited by an administrator with privileges.
 
 ## Using SpamAssassin {#using-spamassassin}
 
 Once you have created your email delivery and defined its content, follow the steps below to evaluate the risks.
 
-For more on creating and designing a delivery, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/about-email-channel.html).
+For more on creating and designing a delivery, refer to [this section](../../delivery/using/about-email-channel.md).
 
 1. Go to the **[!UICONTROL Preview]** tab.
 1. Select a recipient to preview your delivery.

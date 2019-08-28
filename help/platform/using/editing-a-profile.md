@@ -31,7 +31,7 @@ Tabs and their content depend on your configuration and installed packages.
 >[!CAUTION]
 >
 >The XML schema and the form that concerns the fields in the profiles table are accessed via the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign tree. Only expert users may make changes to these schemas.  
->For further information, refer to [this page](https://helpx.adobe.com/campaign/classic/configuration/using/about-schema-edition.html).
+>For further information, refer to [this page](../../configuration/using/about-schema-edition.md).
 
 ## General tab {#general-tab}
 
@@ -41,7 +41,7 @@ This screen contains all general data about the selected profile. In particular,
 
 >[!NOTE]
 >
->When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is blacklisted, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). They will no longer be targeted by deliveries on any channel (email, direct mail, etc.). For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/understanding-quarantine-management.html).
+>When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is blacklisted, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). They will no longer be targeted by deliveries on any channel (email, direct mail, etc.). For more on this, refer to [this page](../../delivery/using/understanding-quarantine-management.md).
 
 ## Contact information tab {#contact-information-tab}
 
@@ -59,7 +59,7 @@ This screen contains user-defined fields that can be personalized based on requi
 
 >[!NOTE]
 >
->For more on field properties and on adding fields, refer to [this page](https://helpx.adobe.com/campaign/classic/configuration/using/new-field-wizard.html).
+>For more on field properties and on adding fields, refer to [this page](../../configuration/using/new-field-wizard.md).
 
 ## Lists tab {#lists-tab}
 
@@ -67,7 +67,7 @@ This screen displays the group(s) to which the selected profile belongs. Click *
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
-For more on this, refer to [Creating and managing lists](https://helpx.adobe.com/campaign/standard/platform/using/creating-and-managing-lists.html).
+For more on this, refer to [Creating and managing lists](../../platform/using/creating-and-managing-lists.md).
 
 ## Subscriptions tab {#subscriptions-tab}
 
@@ -77,7 +77,7 @@ This screen contains the information services to which the profile has subscribe
 
 The **[!UICONTROL Detail]** button displays the properties of the selected subscription. The **[!UICONTROL Add]** button is used to add a new subscription manually.
 
-For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/managing-subscriptions.html).
+For more on this, refer to [this page](../../delivery/using/managing-subscriptions.md).
 
 ## Deliveries tab {#deliveries-tab}
 
@@ -97,5 +97,5 @@ The list is configurable, and usually contains: the URL clicked, date and time o
 
 >[!NOTE]
 >
->For more on tracking functionality, please refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/monitoring-a-delivery.html).
+>For more on tracking functionality, please refer to [this page](../../delivery/using/monitoring-a-delivery.md).
 

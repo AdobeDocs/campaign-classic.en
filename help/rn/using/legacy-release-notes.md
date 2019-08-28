@@ -18,4 +18,4 @@ snippet: y
 
 # Legacy Release Notes{#legacy-release-notes}
 
-Click [here](https://docs.campaign.adobe.com/doc/AC/en/RN_legacy.html) to access the Campaign Classic v6/v7 fixes and updates prior to 2018. 
+Click [here](https://docs.campaign.adobe.com/doc/AC/en/RN_legacy.md) to access the Campaign Classic v6/v7 fixes and updates prior to 2018. 

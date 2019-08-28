@@ -36,15 +36,15 @@ snippet: y
     <ul> 
      <li> <p>Right to Access: allows the Data Subject to receive a copy of his/her personal data captured by Data Controllers, potentially including data stored in Adobe Campaign.</p> </li> 
      <li> <p>Right to Delete: entitles the Data Subject to have his/her personal data captured by Data Controllers erased, potentially including data stored in Adobe Campaign.</p> </li> 
-    </ul> For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html">detailed documentation</a>.<br /> </td> 
+    </ul> For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Active profiles<br /> </td> 
-   <td> Adobe Campaign now provides the list of active profiles, updated monthly through a dedicated workflow.<br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/classic/platform/using/about-profiles.html#active-profiles">detailed documentation</a>.<br /> </td> 
+   <td> Adobe Campaign now provides the list of active profiles, updated monthly through a dedicated workflow.<br /> For more information, refer to the <a href="../../platform/using/about-profiles.md#active-profiles">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Android Push Connector enhancement<br /> </td> 
-   <td> The Android connector has been enhanced to support higher throughput. <br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/classic/delivery/using/setting-up-mobile-app-channel.html#android-connectors">detailed documentation</a>.<br /> </td> 
+   <td> The Android connector has been enhanced to support higher throughput. <br /> For more information, refer to the <a href="../../delivery/using/setting-up-mobile-app-channel.md#android-connectors">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ snippet: y
 ## Improvements {#improvements}
 
 * **LINE channel - architecture enhancement**: As with all other channels in Adobe Campaign, the LINE channel is now supported across all deployment types: hosted, hybrid, and on-premise. 
-* **Sequence auto-generation**: The ID generation mechanism has been enhanced to increase the lifespan of Campaign instances with large volumes of objects. For more information, refer to this [technote](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html).
+* **Sequence auto-generation**: The ID generation mechanism has been enhanced to increase the lifespan of Campaign instances with large volumes of objects. For more information, refer to this [technote](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.md).
 
 ## Other changes {#other-changes}
 
@@ -71,10 +71,10 @@ snippet: y
 * Enforced access restrictions on the deployment wizard SOAP call (xtk:serverOptions#SaveOptions).
 * The weka.jar obsolete library has been removed and the OpenSSL library has been updated for security optimization.
 * Improved the billing technical workflow to secure instances performances.
-* The ability for administrators to set or reset the password of any operator has been restored. To do this, right-click on an operator, select **[!UICONTROL Actions]** > **[!UICONTROL Reset password]** and set the operator's new password. We recommend that operators change their password when they first reconnect. For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/classic/production/using/lost-password.html).
-* To support the new multitenancy feature in Adobe Target, a new “at_property” parameter can now be added to URLs when configuring options and external accounts for the integration with Target. The value to use for this parameter can be found in Adobe Target and will be used by Campaign when performing calls to Target. For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/classic/integrations/using/inserting-a-dynamic-image.html).
-* You can now specify a default landing page to open when clicking on an image served by Adobe Target. Previously, clicking that image was leading to the default image set when creating the email instead. For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/classic/integrations/using/inserting-a-dynamic-image.html).
-* Added **Enable SMPP traces** checkbox in the external account to force traces output. For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/classic/delivery/using/sms-channel.html#creating-an-smpp-external-account).
+* The ability for administrators to set or reset the password of any operator has been restored. To do this, right-click on an operator, select **[!UICONTROL Actions]** > **[!UICONTROL Reset password]** and set the operator's new password. We recommend that operators change their password when they first reconnect. For more information, refer to the [detailed documentation](../../production/using/lost-password.md).
+* To support the new multitenancy feature in Adobe Target, a new “at_property” parameter can now be added to URLs when configuring options and external accounts for the integration with Target. The value to use for this parameter can be found in Adobe Target and will be used by Campaign when performing calls to Target. For more information, refer to the [detailed documentation](../../integrations/using/inserting-a-dynamic-image.md).
+* You can now specify a default landing page to open when clicking on an image served by Adobe Target. Previously, clicking that image was leading to the default image set when creating the email instead. For more information, refer to the [detailed documentation](../../integrations/using/inserting-a-dynamic-image.md).
+* Added **Enable SMPP traces** checkbox in the external account to force traces output. For more information, refer to the [detailed documentation](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
 
 ## Technical evolutions {#technical-evolutions}
 

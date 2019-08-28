@@ -18,7 +18,7 @@ snippet: y
 
 # Workflow execution{#workflow-execution}
 
-Workflow execution cycle and best practices are presented in [this section](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html).
+Workflow execution cycle and best practices are presented in [this section](../../workflow/using/executing-a-workflow.md).
 
 ## Start in progress {#start-in-progress}
 
@@ -51,7 +51,7 @@ To check this and to start the module if necessary, apply the following steps:
 
 If a workflow fails, take the following steps:
 
-1. Check the workflow journal. For more on this, refer to the [Monitoring workflow execution](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html#monitoring-workflow-execution) and [Display logs](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html#displaying-logs) sections.
-1. Monitor technical workflows. For more on this refer to the [this section](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html#monitoring-technical-workflows). 
+1. Check the workflow journal. For more on this, refer to the [Monitoring workflow execution](../../workflow/using/executing-a-workflow.md#monitoring-workflow-execution) and [Display logs](../../workflow/using/executing-a-workflow.md#displaying-logs) sections.
+1. Monitor technical workflows. For more on this refer to the [this section](../../workflow/using/executing-a-workflow.md#monitoring-technical-workflows). 
 1. Look for failures on the individual workflow activities.
 

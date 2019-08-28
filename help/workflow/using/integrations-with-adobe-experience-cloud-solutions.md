@@ -18,7 +18,7 @@ snippet: y
 
 # Integrations with Adobe Experience Cloud solutions{#integrations-with-adobe-experience-cloud-solutions}
 
-The workflows detailed below are installed with the **Integration with the Adobe Experience Cloud** module by default. For more on this module, refer to this [section](https://helpx.adobe.com/campaign/classic/integrations/using/configuring-ims.html#installing-the-package).
+The workflows detailed below are installed with the **Integration with the Adobe Experience Cloud** module by default. For more on this module, refer to this [section](../../integrations/using/configuring-ims.md#installing-the-package).
 
 <table> 
  <tbody> 

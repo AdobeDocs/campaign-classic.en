@@ -22,12 +22,12 @@ snippet: y
 
 The Adobe Campaign application server was designed for openness and easy integration with increasingly diverse and complex company information systems.
 
-Adobe Campaign APIs are used in JavaScript within the application and in SOAP outside of it. They make up a library of generic functions that can be enriched. For further information, refer to [Implementing SOAP methods](https://helpx.adobe.com/campaign/standard/configuration/using/implementing-soap-methods.html).
+Adobe Campaign APIs are used in JavaScript within the application and in SOAP outside of it. They make up a library of generic functions that can be enriched. For further information, refer to [Implementing SOAP methods](../../configuration/using/implementing-soap-methods.md).
 
 >[!CAUTION]
 >
->The number of authorized Engine Calls per day varies upon your license contract. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).   
->A list of all the APIs including their full description is available in [this dedicated documentation](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html).
+>The number of authorized Engine Calls per day varies upon your license contract. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.md).   
+>A list of all the APIs including their full description is available in [this dedicated documentation](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.md).
 
 ## Prerequisites {#prerequisites}
 
@@ -41,10 +41,10 @@ Before using the Adobe Campaign APIs, you need to be familliar with the followin
 
 Adobe Campaign uses two types of APIs:
 
-* Generic data acces APIs for querying the datamodel data. Refer to [Data oriented APIs](https://helpx.adobe.com/campaign/standard/configuration/using/data-oriented-apis.html).
-* Business specific APIs that let you act on each object: deliveries, workflows, subscriptions, etc. Refer to [Business oriented APIs](https://helpx.adobe.com/campaign/standard/configuration/using/business-oriented-apis.html).
+* Generic data acces APIs for querying the datamodel data. Refer to [Data oriented APIs](../../configuration/using/data-oriented-apis.md).
+* Business specific APIs that let you act on each object: deliveries, workflows, subscriptions, etc. Refer to [Business oriented APIs](../../configuration/using/business-oriented-apis.md).
 
-In order to develop APIs and interact with Adobe Campaign, you need to be familiar with your datamodel. Adobe Campaign lets you generate a complete description of the base. Refer to [Description of the model](https://helpx.adobe.com/campaign/standard/configuration/using/data-oriented-apis.html#description-of-the-model).
+In order to develop APIs and interact with Adobe Campaign, you need to be familiar with your datamodel. Adobe Campaign lets you generate a complete description of the base. Refer to [Description of the model](../../configuration/using/data-oriented-apis.md#description-of-the-model).
 
 ## SOAP calls {#soap-calls}
 
@@ -69,11 +69,11 @@ The following schema shows the various resources involved in the use of Adobe Ca
 
 In this example, a SOAP query invokes the "ExecuteQuery" method, which takes a character string as a parameter for authentication (session token) and an XML content for the description of the query to be executed.
 
-For further information, refer to [ExecuteQuery (xtk:queryDef)](https://helpx.adobe.com/campaign/standard/configuration/using/data-oriented-apis.html#executequery--xtk-querydef-).
+For further information, refer to [ExecuteQuery (xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-).
 
 >[!NOTE]
 >
->The WSDL description of this service is completed in the example shown here: [Web service description: WSDL](https://helpx.adobe.com/campaign/standard/configuration/using/web-service-calls.html#web-service-description--wsdl).
+>The WSDL description of this service is completed in the example shown here: [Web service description: WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
 
 ### SOAP query {#soap-query}
 

@@ -24,11 +24,11 @@ To use these two solutions together, you must configure them to connect to one a
 
 Follow the steps below to start the configuration in Adobe Campaign:
 
-1. [Install the AEM integration package in Adobe Campaign](https://helpx.adobe.com/campaign/standard/integrations/using/configuring-the-integration.html#install-the-aem-integration-package-in-adobe-campaign)
-1. [Configure the external account](https://helpx.adobe.com/campaign/standard/integrations/using/configuring-the-integration.html#configure-the-external-account)
-1. [Configure AEM resources filtering](https://helpx.adobe.com/campaign/standard/integrations/using/configuring-the-integration.html#configure-aem-resources-filtering)
+1. [Install the AEM integration package in Adobe Campaign](../../integrations/using/configuring-the-integration.md#install-the-aem-integration-package-in-adobe-campaign)
+1. [Configure the external account](../../integrations/using/configuring-the-integration.md#configure-the-external-account)
+1. [Configure AEM resources filtering](../../integrations/using/configuring-the-integration.md#configure-aem-resources-filtering)
 
-For advanced configurations such as managing personalization fields and blocks. Refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html).
+For advanced configurations such as managing personalization fields and blocks. Refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.md).
 
 ### Install the AEM integration package in Adobe Campaign {#install-the-aem-integration-package-in-adobe-campaign}
 
@@ -54,7 +54,7 @@ You need to configure a security zone for this operator to connect to Adobe Camp
 
 >[!CAUTION]
 >
->We strongly recommend creating a security zone dedicated to AEM to avoid any security problems. For more on this, refer to the Installation [guide](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#defining-security-zones).
+>We strongly recommend creating a security zone dedicated to AEM to avoid any security problems. For more on this, refer to the Installation [guide](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 If your Campaign instance is hosted by Adobe, contact Adobe Support team. If you are using Campaign on-premise, follow the steps below:
 
@@ -119,17 +119,17 @@ Follow the steps below to start the configuration in Adobe Experience Manager:
 
 1. Configure the **replication** to replicate from the AEM authoring instance to the AEM publishing instance.
 
-   To learn how to configure replication, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/replication.html).
+   To learn how to configure replication, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/replication.md).
 
 1. Install the integration **FeaturePack** on your authoring instance then replicate the installation on your publishing instance. (For AEM versions 5.6.1 and 6.0 only).
 
-   To learn how to install FeaturePack, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/aem-previous-versions.html).
+   To learn how to install FeaturePack, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/aem-previous-versions.md).
 
 1. Connect Adobe Experience Manager to Adobe Campaign by configuring a dedicated **Cloud Service**.
 
-   To learn how to connect both solutions via Cloud Services, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) .
+   To learn how to connect both solutions via Cloud Services, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.md#ConfiguringAdobeExperienceManager) .
 
 1. Configure the **Externalizer service**.
 
-   To learn how to configure it, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/externalizer.html).
+   To learn how to configure it, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/externalizer.md).
 

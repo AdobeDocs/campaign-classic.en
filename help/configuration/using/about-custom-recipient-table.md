@@ -47,7 +47,7 @@ Using an external recipient table has the following limitations:
 
 * You cannot use the standard **Services and Subscriptions** offered in the product.
 
-  This means the overall operation detailed in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/managing-subscriptions.html) is not applicable.
+  This means the overall operation detailed in [this section](../../delivery/using/managing-subscriptions.md) is not applicable.
 
 * The link with the **visitor** table does not work.
 
@@ -57,18 +57,18 @@ Using an external recipient table has the following limitations:
 
 * You cannot manually add profiles in a list.
 
-  Therefore, the procedure detailed in [this section](https://helpx.adobe.com/campaign/classic/platform/using/creating-and-managing-lists.html) is not applicable without an additional configuration.
+  Therefore, the procedure detailed in [this section](../../platform/using/creating-and-managing-lists.md) is not applicable without an additional configuration.
 
   >[!NOTE]
   >
-  >You can still create recipient lists using workflows. For more on this, refer to [Creating a profile list with a workflow](https://helpx.adobe.com/campaign/standard/configuration/using/creating-a-profile-list-with-a-workflow.html).
+  >You can still create recipient lists using workflows. For more on this, refer to [Creating a profile list with a workflow](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
 
 We also recommend checking the default values used in the different out-of-the-box configurations: depending on the functionalities used, several adaptations must be carried out.
 
 For example:
 
-* Certain standard reports, particularly those offered by **Interaction** and the **Mobile Applications** must be redeveloped. Refer to the [Managing reports](https://helpx.adobe.com/campaign/standard/configuration/using/managing-reports.html) section.
-* The default configurations for certain workflow activities reference the standard recipients table (**nms:recipient**): these configurations must be changed when used for an external recipients table. Refer to the [Managing workflows](https://helpx.adobe.com/campaign/standard/configuration/using/managing-workflows.html) section.
+* Certain standard reports, particularly those offered by **Interaction** and the **Mobile Applications** must be redeveloped. Refer to the [Managing reports](../../configuration/using/managing-reports.md) section.
+* The default configurations for certain workflow activities reference the standard recipients table (**nms:recipient**): these configurations must be changed when used for an external recipients table. Refer to the [Managing workflows](../../configuration/using/managing-workflows.md) section.
 * The standard **Unsubscription link** personalization block must be adapted.
 * The target mapping of the standard delivery templates must be modified.
 * V4 forms are not compatible for use with an external recipients table: you must use Web applications.

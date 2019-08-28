@@ -28,7 +28,7 @@ The client console connection window lets you select or configure existing datab
 
 ## Connecting to Adobe Campaign {#connecting-to-adobe-campaign}
 
-You can connect to Adobe Campaign using your Adobe ID. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/integrations/using/about-adobe-id.html).
+You can connect to Adobe Campaign using your Adobe ID. For more on this, refer to [this page](../../integrations/using/about-adobe-id.md).
 
 You can also connect with a dedicated login/password:
 
@@ -38,11 +38,11 @@ You can also connect with a dedicated login/password:
 
 1. Enter your password in the **[!UICONTROL Password]** field.
 
-   The first time you access the database, your password is the one given to you by the administrator. Once you are connected, you can change your password via the **[!UICONTROL Tools > Change password...]** menu. Details on operators and connections are available in [Access management](https://helpx.adobe.com/campaign/standard/platform/using/access-management.html).
+   The first time you access the database, your password is the one given to you by the administrator. Once you are connected, you can change your password via the **[!UICONTROL Tools > Change password...]** menu. Details on operators and connections are available in [Access management](../../platform/using/access-management.md).
 
 1. Click **[!UICONTROL Log in]** to confirm.
 
-You can now access [Adobe Campaign workspace](https://helpx.adobe.com/campaign/classic/platform/using/adobe-campaign-workspace.html).
+You can now access [Adobe Campaign workspace](../../platform/using/adobe-campaign-workspace.md).
 
 ## Setting up connections {#setting-up-connections}
 
@@ -58,7 +58,7 @@ You must then define the connection settings. To do this:
 
 * Enter a **[!UICONTROL Label]** to assign a name to your database connection.
 * Add the address of the application server in the **[!UICONTROL URL]** field. If you do not know the connection URL, contact the administrator.
-* Check **[!UICONTROL Connect with an Adobe ID]** for the operators to connect to the console using their Adobe ID. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/integrations/using/about-adobe-id.html).
+* Check **[!UICONTROL Connect with an Adobe ID]** for the operators to connect to the console using their Adobe ID. For more on this, refer to [this page](../../integrations/using/about-adobe-id.md).
 * Click **[!UICONTROL OK]** to validate.
 
 >[!NOTE]
@@ -69,7 +69,7 @@ You must then define the connection settings. To do this:
 
 The identifiers and passwords of operators with access to the software and their respective permissions are defined by your Adobe Campaign system administrator in the **[!UICONTROL Administration > Access management > Operators]** node of the Adobe Campaign tree.
 
-This functionality is detailed in the [Access management](https://helpx.adobe.com/campaign/standard/platform/using/access-management.html) section.
+This functionality is detailed in the [Access management](../../platform/using/access-management.md) section.
 
 ## Disconnecting from Adobe Campaign {#disconnecting-from-adobe-campaign}
 

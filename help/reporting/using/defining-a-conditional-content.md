@@ -20,9 +20,9 @@ snippet: y
 
 You can condition the display of specific report items or pages.
 
-To make specific items conditional, adapt their visibility settings. For more on this, refer to [Conditioning item display](https://helpx.adobe.com/campaign/standard/reporting/using/defining-a-conditional-content.html#conditioning-item-display).
+To make specific items conditional, adapt their visibility settings. For more on this, refer to [Conditioning item display](../../reporting/using/defining-a-conditional-content.md#conditioning-item-display).
 
-To make the display of one or more pages conditional, use a **[!UICONTROL Test]** type activity. For more on this, refer to [Conditioning page display](https://helpx.adobe.com/campaign/standard/reporting/using/defining-a-conditional-content.html#conditioning-page-display).
+To make the display of one or more pages conditional, use a **[!UICONTROL Test]** type activity. For more on this, refer to [Conditioning page display](../../reporting/using/defining-a-conditional-content.md#conditioning-page-display).
 
 ## Conditioning item display {#conditioning-item-display}
 
@@ -30,7 +30,7 @@ To make the display of part of a report conditional, you need to define its visi
 
 Visibility conditions may depend on the operator status, on the items selected or entered in the report page.
 
-Examples showing the conditional display of items on a page are provided in [this section](https://helpx.adobe.com/campaign/classic/web/using/form-rendering.html#defining-fields-conditional-display).
+Examples showing the conditional display of items on a page are provided in [this section](../../web/using/form-rendering.md#defining-fields-conditional-display).
 
 In the following example, the display condition depends on the language:
 
@@ -53,6 +53,6 @@ This activity is based on the following operating principle:
 
 1. Select the **[!UICONTROL Enable default transition]** to add a transition, in case one of the configured conditions isn't met.
 
-   For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/defining-web-forms-page-sequencing.html#conditional-page-display).
+   For more on this, refer to [this section](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
 
 A **[!UICONTROL Test]** activity can be placed at the start of the chart to condition the display depending on context or operator profile for instance.

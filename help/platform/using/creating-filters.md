@@ -44,7 +44,7 @@ The following filter types are available in Adobe Campaign:
   >
   >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an e-mail address in the domain "yahoo.com".
 -->
-  You can change the default filter of a list. For more on this, refer to [Altering the default filter](https://helpx.adobe.com/campaign/standard/platform/using/creating-filters.html#altering-the-default-filter).
+  You can change the default filter of a list. For more on this, refer to [Altering the default filter](../../platform/using/creating-filters.md#altering-the-default-filter).
 
 * Simple filters
 
@@ -54,25 +54,25 @@ The following filter types are available in Adobe Campaign:
 
   ![](assets/filters_recipient_simple_filter.png)
 
-  Simple filters are detailed in [Creating a simple filter](https://helpx.adobe.com/campaign/standard/platform/using/creating-filters.html#creating-a-simple-filter).
+  Simple filters are detailed in [Creating a simple filter](../../platform/using/creating-filters.md#creating-a-simple-filter).
 
 * Advanced filters
 
   **Advanced filters** are created using a query or a combination of queries on the data.
 
-  For more on creating an advanced filter, refer to [Creating an advanced filter](https://helpx.adobe.com/campaign/standard/platform/using/creating-filters.html#creating-an-advanced-filter).
+  For more on creating an advanced filter, refer to [Creating an advanced filter](../../platform/using/creating-filters.md#creating-an-advanced-filter).
 
-  You can use functions to define the content of the filter. For more on this, refer to [Creating an advanced filter with functions](https://helpx.adobe.com/campaign/standard/platform/using/creating-filters.html#creating-an-advanced-filter-with-functions).
+  You can use functions to define the content of the filter. For more on this, refer to [Creating an advanced filter with functions](../../platform/using/creating-filters.md#creating-an-advanced-filter-with-functions).
 
   >[!NOTE]
   >
-  >For more on building queries in Adobe Campaign, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/about-queries-in-campaign.html).
+  >For more on building queries in Adobe Campaign, refer to [this section](../../platform/using/about-queries-in-campaign.md).
 
 * User filters
 
   An **application filter** is an advanced filter that has been saved, to use and share its configuration with the other operators.
 
-  The **[!UICONTROL Filters]** button located above the lists offers a set of application filters that can be combined to refine the filtering. The method for creating these filters is presented in [Saving a filter](https://helpx.adobe.com/campaign/standard/platform/using/creating-filters.html#saving-a-filter).
+  The **[!UICONTROL Filters]** button located above the lists offers a set of application filters that can be combined to refine the filtering. The method for creating these filters is presented in [Saving a filter](../../platform/using/creating-filters.md#saving-a-filter).
 
 ## Altering the default filter {#altering-the-default-filter}
 
@@ -95,7 +95,7 @@ Apply the following steps:
 
    >[!NOTE]
    >
-   >The filter definition window is detailed in [Creating an advanced filter](https://helpx.adobe.com/campaign/standard/platform/using/creating-filters.html#creating-an-advanced-filter) and [Saving a filter](https://helpx.adobe.com/campaign/standard/platform/using/creating-filters.html#saving-a-filter).
+   >The filter definition window is detailed in [Creating an advanced filter](../../platform/using/creating-filters.md#creating-an-advanced-filter) and [Saving a filter](../../platform/using/creating-filters.md#saving-a-filter).
 
 ## Creating a simple filter {#creating-a-simple-filter}
 
@@ -166,7 +166,7 @@ To cancel this filter, click the **[!UICONTROL Remove this filter]** icon to the
 
 ![](assets/s_ncs_user_filter_adv_remove.png)
 
-You can save an advanced filter to keep it for future use. For further information about this type of filter, see [Saving a filter](https://helpx.adobe.com/campaign/standard/platform/using/creating-filters.html#saving-a-filter).
+You can save an advanced filter to keep it for future use. For further information about this type of filter, see [Saving a filter](../../platform/using/creating-filters.md#saving-a-filter).
 
 ### Creating an advanced filter with functions {#creating-an-advanced-filter-with-functions}
 
@@ -181,18 +181,18 @@ Advanced filters can use functions; **filters with functions** are created via a
 
     * **[!UICONTROL Field only]** to select a field. This is the default mode. 
     * **[!UICONTROL Aggregate]** to select the aggregate formula to be used (counts, sum, average, maximum, minimum).
-    * **[!UICONTROL User filter]** to select one of the existing user filters. User filters are detailed in [Saving a filter](https://helpx.adobe.com/campaign/standard/platform/using/creating-filters.html#saving-a-filter).
+    * **[!UICONTROL User filter]** to select one of the existing user filters. User filters are detailed in [Saving a filter](../../platform/using/creating-filters.md#saving-a-filter).
     * **[!UICONTROL Expression]** to access the expressions editor.
 
       The expression editor lets you define an advanced filter. It looks like this:
     
       ![](assets/s_ncs_user_create_exp_exple01.png)
 
-      It lets you select fields in the database tables and attach advanced functions to them: Select the function to use in the **[!UICONTROL List of functions]** . The functions available are detailed in [List of functions](https://helpx.adobe.com/campaign/standard/platform/using/defining-filter-conditions.html#list-of-functions). Next, select the field or fields concerned by the functions and click **[!UICONTROL OK]** to approve the expression.
+      It lets you select fields in the database tables and attach advanced functions to them: Select the function to use in the **[!UICONTROL List of functions]** . The functions available are detailed in [List of functions](../../platform/using/defining-filter-conditions.md#list-of-functions). Next, select the field or fields concerned by the functions and click **[!UICONTROL OK]** to approve the expression.
 
       >[!NOTE]
       >
-      >For an example of filter creation based on an expression, refer to [Identifying recipients whose birthday it is](https://helpx.adobe.com/campaign/classic/workflow/using/sending-a-birthday-email.html#identifying-recipients-whose-birthday-it-is).
+      >For an example of filter creation based on an expression, refer to [Identifying recipients whose birthday it is](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
 
 ## Saving a filter {#saving-a-filter}
 
@@ -200,7 +200,7 @@ Filters are specific to each operator and are re-initialized each time the opera
 
 You can create an **application filter** by saving an advanced filter: it can be re-used by right-clicking in any list or via the **[!UICONTROL Filters]** button located above the lists.
 
-These filters can also be accessed directly via the delivery wizard, in the target selection stage (refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/creating-an-email-delivery.html) for more on creating deliveries). To create the application filter, you can:
+These filters can also be accessed directly via the delivery wizard, in the target selection stage (refer to [this section](../../delivery/using/creating-an-email-delivery.md) for more on creating deliveries). To create the application filter, you can:
 
 * Convert an advanced filter to an application filter. To do this, click **[!UICONTROL Save]** before closing the advanced filter editor.
 
@@ -219,7 +219,7 @@ These filters can also be accessed directly via the delivery wizard, in the targ
 
 ## Filtering recipients {#filtering-recipients}
 
-Predefined filters (see [Saving a filter](https://helpx.adobe.com/campaign/standard/platform/using/creating-filters.html#saving-a-filter)) enable you to filter the profiles of recipients contained in the database. You can edit filters from the **[!UICONTROL Profiles and Targets > Predefined filters]** node of the tree. The filters are listed in the upper section of the workspace, via the **[!UICONTROL Filters]** button.
+Predefined filters (see [Saving a filter](../../platform/using/creating-filters.md#saving-a-filter)) enable you to filter the profiles of recipients contained in the database. You can edit filters from the **[!UICONTROL Profiles and Targets > Predefined filters]** node of the tree. The filters are listed in the upper section of the workspace, via the **[!UICONTROL Filters]** button.
 
 Select a filter to display its definition and to access a preview of the filtered data.
 
@@ -227,7 +227,7 @@ Select a filter to display its definition and to access a preview of the filtere
 
 >[!NOTE]
 >
->For a detailed example of predefined filter creation, refer to [Use case](https://helpx.adobe.com/campaign/standard/platform/using/use-case.html).
+>For a detailed example of predefined filter creation, refer to [Use case](../../platform/using/use-case.md).
 
 The predefined filters are:
 

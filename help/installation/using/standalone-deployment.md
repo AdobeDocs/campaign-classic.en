@@ -71,7 +71,7 @@ As the volume grows, a variant of this architecture moves the database server to
     * the first exposed to the public for tracking and pointing to the computer on its public IP;
     * the second alias exposed to internal users for console access and pointing to the same computer.
 
-* Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to [Network configuration](https://helpx.adobe.com/campaign/standard/installation/using/network-configuration.html).
+* Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to [Network configuration](../../installation/using/network-configuration.md).
 
 In the following examples, the parameters of the instance are:
 
@@ -85,7 +85,7 @@ Apply the following steps:
 
 1. Follow the installation procedure for the Adobe Campaign server: **nlserver** package on Linux or **setup.exe** on Windows.
 
-   For more on this, refer to [Prerequisites of Campaign installation in Linux](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-linux.html) (Linux) and [Prerequisites of Campaign installation in Windows](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-windows.html) (Windows).
+   For more on this, refer to [Prerequisites of Campaign installation in Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) and [Prerequisites of Campaign installation in Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
 
 1. Once the Adobe Campaign server is installed, start the application server (web) using the command **nlserver web -tomcat** (the Web module enables you to start Tomcat in standalone Web server mode listening on port 8080) and to make sure Tomcat starts correctly:
 
@@ -98,14 +98,14 @@ Apply the following steps:
 
    >[!NOTE]
    >
-   >The first time the Web module is executed it creates the **config-default.xml** and **serverConf.xml** files in the **conf** directory under the installation folder. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+   >The first time the Web module is executed it creates the **config-default.xml** and **serverConf.xml** files in the **conf** directory under the installation folder. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
    Press **Ctrl+C** to stop the server.
 
    For more on this, refer to the following sections:
 
-    * For Linux: [First start-up of the server](https://helpx.adobe.com/campaign/standard/installation/using/installing-packages-with-linux.html#first-start-up-of-the-server),
-    * For Windows: [First start-up of the server](https://helpx.adobe.com/campaign/standard/installation/using/installing-the-server.html#first-start-up-of-the-server).
+    * For Linux: [First start-up of the server](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server),
+    * For Windows: [First start-up of the server](../../installation/using/installing-the-server.md#first-start-up-of-the-server).
 
 1. Change the **internal** password using the command:
 
@@ -113,7 +113,7 @@ Apply the following steps:
    nlserver config -internalpassword
    ```
 
-   For more on this, refer to [Internal identifier](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html#internal-identifier).
+   For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
 1. Create the **demo** instance with the DNS masks for tracking (in this case, **tracking.campaign.net**) and access to client consoles (in this case, **console.campaign.net**). There are two ways of doing this:
 
@@ -121,7 +121,7 @@ Apply the following steps:
     
       ![](assets/install_create_new_connexion.png)
 
-      For more on this, refer to [Creating an instance and logging on](https://helpx.adobe.com/campaign/standard/installation/using/creating-an-instance-and-logging-on.html).
+      For more on this, refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
 
       or
     
@@ -131,7 +131,7 @@ Apply the following steps:
       nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
       ```    
     
-      For more on this, refer to [Creating an instance](https://helpx.adobe.com/campaign/standard/installation/using/command-lines.html#creating-an-instance).
+      For more on this, refer to [Creating an instance](../../installation/using/command-lines.md#creating-an-instance).
 
 1. Edit the **config-demo.xml** file (created in the previous step next to **config-default.xml**) and make sure the **mta** (delivery), **wfserver** (workflow), **inMail** (bounce mails) and **stat** (statistics) processes are enabled. Then configure the address of the statistics server:
 
@@ -151,7 +151,7 @@ Apply the following steps:
    </serverconf>
    ```
 
-   For more on this, refer to [Enabling processes](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html#enabling-processes).
+   For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
 
 1. Edit the **serverConf.xml** file and specify the delivery domain, then specify the IP (or host) addresses of the DNS servers used by the MTA module to answer MX type DNS queries.
 
@@ -163,19 +163,19 @@ Apply the following steps:
    >
    >The **nameServers** parameter is only used in Windows.
 
-   For more on this, refer to [Campaign server configuration](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html).
+   For more on this, refer to [Campaign server configuration](../../installation/using/campaign-server-configuration.md).
 
 1. Copy the client console setup program (**setup-client-7.**XX**, **YYYY** .exe** for v7 or **setup-client-6.**XX**, **YYYY** .exe** for v6.1) to the **/datakit/nl/eng/jsp** folder.
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Windows](https://helpx.adobe.com/campaign/standard/installation/using/client-console-availability-for-windows.html),
-    * For Windows: [Client console availability for Windows](https://helpx.adobe.com/campaign/standard/installation/using/client-console-availability-for-windows.html).
+    * For Linux: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md),
+    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md).
 
 1. Follow the Web server integration procedure (IIS, Apache) described in the following sections:
 
-    * For Linux: [Integration into a Web server for Linux](https://helpx.adobe.com/campaign/standard/installation/using/integration-into-a-web-server-for-linux.html),
-    * For Windows: [Integration into a Web server for Windows](https://helpx.adobe.com/campaign/standard/installation/using/integration-into-a-web-server-for-windows.html).
+    * For Linux: [Integration into a Web server for Linux](../../installation/using/integration-into-a-web-server-for-linux.md),
+    * For Windows: [Integration into a Web server for Windows](../../installation/using/integration-into-a-web-server-for-windows.md).
 
 1. Start the website and test redirection using the URL: [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 
@@ -187,8 +187,8 @@ Apply the following steps:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Launching the Web server and testing the configuration](https://helpx.adobe.com/campaign/standard/installation/using/integration-into-a-web-server-for-linux.html#launching-the-web-server-and-testing-the-configuration),
-    * For Windows: [Launching the Web server and testing the configuration](https://helpx.adobe.com/campaign/standard/installation/using/integration-into-a-web-server-for-windows.html#launching-the-web-server-and-testing-the-configuration).
+    * For Linux: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration),
+    * For Windows: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration).
 
 1. Start the Adobe Campaign server (**net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux) and run the command **nlserver pdump** once more to check for presence of all enabled modules.
 
@@ -216,12 +216,12 @@ Apply the following steps:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Linux](https://helpx.adobe.com/campaign/standard/installation/using/client-console-availability-for-linux.html),
-    * For Windows: [Client console availability for Windows](https://helpx.adobe.com/campaign/standard/installation/using/client-console-availability-for-windows.html).
+    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md),
+    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md).
 
 1. Start the Adobe Campaign client console (from the previous download page or launched directly on the server for a Windows installation), set the server connection URL to [https://console.campaign.net](https://console.campaign.net) and connect using the **internal** login.
 
-   Refer to [Creating an instance and logging on](https://helpx.adobe.com/campaign/standard/installation/using/creating-an-instance-and-logging-on.html) and [Internal identifier](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html#internal-identifier).
+   Refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md) and [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
    The database creation wizard appears when you log in for the first time:
 
@@ -229,20 +229,20 @@ Apply the following steps:
 
    Follow the steps in the wizard and create the database associated with the connection instance.
 
-   For more on this, refer to [Creating and configuring the database](https://helpx.adobe.com/campaign/standard/installation/using/creating-and-configuring-the-database.html).
+   For more on this, refer to [Creating and configuring the database](../../installation/using/creating-and-configuring-the-database.md).
 
    Once the database is created, log off.
 
 1. Log back on to the client console using the **admin** login without a password and start the deployment wizard ( **[!UICONTROL Tools > Advanced]** menu) to finish configuring the instance.
 
-   For more on this, refer to [Deploying an instance](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html).
+   For more on this, refer to [Deploying an instance](../../installation/using/deploying-an-instance.md).
 
    The main parameters to set are the following:
 
     * Email delivery: sender and reply addresses and the error mailbox for bounce mail. 
     * Tracking: Populate the external URL used for redirection and the internal URL, click **Registration on the tracking server(s)** and then validate it on the **demo** instance of the tracking server.
 
-      For more on this, refer to [Tracking configuration](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#tracking-configuration).
+      For more on this, refer to [Tracking configuration](../../installation/using/deploying-an-instance.md#tracking-configuration).
     
       ![](assets/s_ncs_install_deployment_wiz_09.png)
 

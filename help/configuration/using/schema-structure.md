@@ -134,7 +134,7 @@ The following rules must be adhered to:
 
 The data type is entered via the **type** attribute in the ** `<attribute>`** and ** `<element>`** elements.
 
-A detailed list is available in the description of the [ `<attribute>  element </attribute>`](https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#attribute--element) and the [ `<element>  element </element>`](https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#element--element).
+A detailed list is available in the description of the [ `<attribute>  element </attribute>`](../../configuration/using/elements-and-attributes.md#attribute--element) and the [ `<element>  element </element>`](../../configuration/using/elements-and-attributes.md#element--element).
 
 When this attribute is not populated, **string** is the default data type unless the element contains child elements. If it does, it is used only to structure the elements hierarchically (** `<location>`** element in our example).
 
@@ -344,7 +344,7 @@ The ** `<elements>`** and ** `<attributes>`** elemtns of the data schema can be 
 
 The **default** property lets you define an expression returning a default value on content creation.
 
-The value must be an expression compliant with XPath language. For more on this, refer to [Referencing with XPath](https://helpx.adobe.com/campaign/standard/configuration/using/schema-structure.html#referencing-with-xpath).
+The value must be an expression compliant with XPath language. For more on this, refer to [Referencing with XPath](../../configuration/using/schema-structure.md#referencing-with-xpath).
 
 **Example**:
 

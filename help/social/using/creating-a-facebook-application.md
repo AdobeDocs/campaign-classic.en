@@ -18,21 +18,21 @@ snippet: y
 
 # Creating a Facebook application{#creating-a-facebook-application}
 
-Thanks to web applications, Social Marketing lets you display personalized content in your Facebook applications, making it easier to acquire prospects via this social network. For more examples of Facebook type web applications, refer to [Examples of Facebook apps](https://helpx.adobe.com/campaign/standard/social/using/examples-of-facebook-apps.html).
+Thanks to web applications, Social Marketing lets you display personalized content in your Facebook applications, making it easier to acquire prospects via this social network. For more examples of Facebook type web applications, refer to [Examples of Facebook apps](../../social/using/examples-of-facebook-apps.md).
 
 >[!NOTE]
 >
->It is also possible to integrate Adobe Campaign with a Facebook application developed by a partner. In this case, there is no need to use the Adobe Campaign web application to acquire Facebook profiles. For more on this, refer to [Configuring external accounts](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#configuring-external-accounts).
+>It is also possible to integrate Adobe Campaign with a Facebook application developed by a partner. In this case, there is no need to use the Adobe Campaign web application to acquire Facebook profiles. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
 ![](assets/social_webapp_fb_000.png)
 
 Apply the following configuration steps:
 
-1. Create one or more Facebook applications. For more on this, refer to: [Creating a Facebook application](https://helpx.adobe.com/campaign/standard/social/using/publishing-on-facebook-walls.html#creating-a-facebook-application).
-1. Enter the **[!UICONTROL terms of service]** and **[!UICONTROL Privacy policy]** links to be displayed on the Facebook permission request screen. For more on this, refer to: [Entering the Terms of service and Privacy policy links](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#entering-the-terms-of-service-and-privacy-policy-links). 
-1. For each Facebook application, create a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to: [Configuring external accounts](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#configuring-external-accounts).
-1. For each Facebook application, create a Facebook type web application in Adobe Campaign. For more on this, refer to: [Creating a Facebook type web application](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#creating-a-facebook-type-web-application).
-1. Configure your Facebook applications so that they are displayed as tabs on your Facebook page. For more on this, refer to: [Configuring Facebook tabs](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#configuring-facebook-tabs).
+1. Create one or more Facebook applications. For more on this, refer to: [Creating a Facebook application](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
+1. Enter the **[!UICONTROL terms of service]** and **[!UICONTROL Privacy policy]** links to be displayed on the Facebook permission request screen. For more on this, refer to: [Entering the Terms of service and Privacy policy links](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links). 
+1. For each Facebook application, create a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to: [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+1. For each Facebook application, create a Facebook type web application in Adobe Campaign. For more on this, refer to: [Creating a Facebook type web application](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application).
+1. Configure your Facebook applications so that they are displayed as tabs on your Facebook page. For more on this, refer to: [Configuring Facebook tabs](../../social/using/creating-a-facebook-application.md#configuring-facebook-tabs).
 
 ## Configuring external accounts {#configuring-external-accounts}
 
@@ -74,7 +74,7 @@ This step requires access to both your Adobe Campaign console and an Internet br
 
    **Application hosted by this instance**
 
-   If you want to host the application on this instance (if you don't have a third-party application), you need to use the Adobe Campaign web applications to acquire Facebook profiles. For more on this, refer to [Examples of Facebook apps](https://helpx.adobe.com/campaign/standard/social/using/examples-of-facebook-apps.html).
+   If you want to host the application on this instance (if you don't have a third-party application), you need to use the Adobe Campaign web applications to acquire Facebook profiles. For more on this, refer to [Examples of Facebook apps](../../social/using/examples-of-facebook-apps.md).
 
    In the Adobe Campaign console, copy the address contained in the **[!UICONTROL Secure Canvas URL]** field and paste it into the **[!UICONTROL Facebook Web games (https)]** field on Facebook (in the **[!UICONTROL Facebook Web Games]** section). 
 
@@ -89,7 +89,7 @@ This step requires access to both your Adobe Campaign console and an Internet br
    ![](assets/social_facebook_external_account_008.png)
 
 1. On Facebook, click the **[!UICONTROL Save Changes]** button at the bottom of the page.
-1. In the Adobe Campaign console, click the **[!UICONTROL Subscribe]** button to enable Adobe Campaign to recover the data in real time each time a fan checks in via this application. For more on this, refer to: [Examples of Facebook apps](https://helpx.adobe.com/campaign/standard/social/using/examples-of-facebook-apps.html).
+1. In the Adobe Campaign console, click the **[!UICONTROL Subscribe]** button to enable Adobe Campaign to recover the data in real time each time a fan checks in via this application. For more on this, refer to: [Examples of Facebook apps](../../social/using/examples-of-facebook-apps.md).
 
    ![](assets/social_webapp_fb_013.png)
 
@@ -132,11 +132,11 @@ The Adobe Campaign Facebook application lets you display personalized content in
    >    
    >
 
-1. In the **[!UICONTROL Application]** field, enter the external account linked to the Facebook application. For more on this, refer to: [Configuring external accounts](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#configuring-external-accounts).
+1. In the **[!UICONTROL Application]** field, enter the external account linked to the Facebook application. For more on this, refer to: [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
    ![](assets/social_webapp_005.png)
 
-1. Select the **[!UICONTROL Edit]** tab, then edit the web application. For more on this, refer to: [Examples of Facebook apps](https://helpx.adobe.com/campaign/standard/social/using/examples-of-facebook-apps.html).
+1. Select the **[!UICONTROL Edit]** tab, then edit the web application. For more on this, refer to: [Examples of Facebook apps](../../social/using/examples-of-facebook-apps.md).
 
    ![](assets/social_webapp_003.png)
 
@@ -160,7 +160,7 @@ You can configure your Facebook applications to be displayed as tabs on your Fac
 
    ![](assets/social_webapp_fb_001.png)
 
-1. In the **[!UICONTROL Secure Page Tab URL]** field, enter the public URL of the web application, which is accessible via the **[!UICONTROL Dashboard]** tab of the web application. For more on creating Facebook type web applications, refer to [Creating a Facebook type web application](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#creating-a-facebook-type-web-application).
+1. In the **[!UICONTROL Secure Page Tab URL]** field, enter the public URL of the web application, which is accessible via the **[!UICONTROL Dashboard]** tab of the web application. For more on creating Facebook type web applications, refer to [Creating a Facebook type web application](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application).
 
    ![](assets/social_webapp_fb_002.png)
 

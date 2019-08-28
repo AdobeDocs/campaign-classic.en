@@ -55,12 +55,12 @@ The workflows detailed below are installed by default.
   <tr> 
    <td> <span class="uicontrol">Database cleanup</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
-   <td> This workflow is the database maintenance workflow: it makes different calculations from the statistics and processes, and deletes obsolete data from the database according to the defined configuration in the deployment assistant. It is triggered every day at 4am by default.<br /> For more information, refer to this <a href="https://helpx.adobe.com/campaign/classic/production/using/database-cleanup-workflow.html">page</a>.<br /> </td> 
+   <td> This workflow is the database maintenance workflow: it makes different calculations from the statistics and processes, and deletes obsolete data from the database according to the defined configuration in the deployment assistant. It is triggered every day at 4am by default.<br /> For more information, refer to this <a href="../../production/using/database-cleanup-workflow.md">page</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Paused workflows cleanup</span> <br /> </td> 
    <td> <span class="uicontrol">cleanupPausedWorkflows</span> <br /> </td> 
-   <td> This workflow analyzes paused workflows that have severity set to normal and triggers warnings and notifications when they have been paused for too long. After a month, paused technical workflows are stopped unconditionally. By default, it is triggered every Monday at 5 am.<br /> For more information, refer to <a href="https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#handling-of-paused-workflows" target="_blank">Handling of paused workflows</a>. </td> 
+   <td> This workflow analyzes paused workflows that have severity set to normal and triggers warnings and notifications when they have been paused for too long. After a month, paused technical workflows are stopped unconditionally. By default, it is triggered every Monday at 5 am.<br /> For more information, refer to <a href="../../workflow/using/executing-a-workflow.md#handling-of-paused-workflows" target="_blank">Handling of paused workflows</a>. </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Offer notification</span> <br /> </td> 

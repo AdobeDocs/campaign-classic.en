@@ -18,7 +18,7 @@ snippet: y
 
 # Other channels{#other-channels}
 
-Adobe Campaign offers Agency or Telephone delivery templates, which are used to create external deliveries. Using these channels implies you set up dedicated methodologies to process output files. Configuration steps are the same as for [Direct mail channel](https://helpx.adobe.com/campaign/classic/delivery/using/about-direct-mail-channel.html).
+Adobe Campaign offers Agency or Telephone delivery templates, which are used to create external deliveries. Using these channels implies you set up dedicated methodologies to process output files. Configuration steps are the same as for [Direct mail channel](../../delivery/using/about-direct-mail-channel.md).
 
 In addition, 'Other' type deliveries use a specific technical template which does not execute a process: this lets them manage marketing actions executed outside of the Adobe Campaign platform.
 

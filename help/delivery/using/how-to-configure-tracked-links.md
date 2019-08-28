@@ -23,7 +23,7 @@ For each delivery, you can track the reception of messages and the activation of
 >[!NOTE]
 >
 >Tracking applies to messages, but webtracking lets you monitor how recipients browse a website (pages visited, purchases).   
->The configuration of webtracking is presented in [this section](https://helpx.adobe.com/campaign/classic/configuration/using/about-web-tracking.html).
+>The configuration of webtracking is presented in [this section](../../configuration/using/about-web-tracking.md).
 
 Message tracking is enabled by default. To personalize how URLs are tracked, follow the steps below:
 
@@ -61,5 +61,5 @@ Message tracking is enabled by default. To personalize how URLs are tracked, fol
     * **[!UICONTROL Opt-out]** : considers this URL as an opt-out or unsubscription URL.
     * **[!UICONTROL Mirror page]** : considers this URL is a mirror page URL.
 
-1. In addition, you can select a category for each tracked URL in the drop-down list of the **[!UICONTROL Category]** column. These categories can be displayed reports, as for example in **[!UICONTROL URLs and click streams]** (see [this section](https://helpx.adobe.com/campaign/classic/reporting/using/reports-on-deliveries.html#urls-and-click-streams)). Categories are defined in a specific enumeration: **[!UICONTROL urlCategory]** (see [Managing enumerations](https://helpx.adobe.com/campaign/classic/platform/using/managing-enumerations.html)).
+1. In addition, you can select a category for each tracked URL in the drop-down list of the **[!UICONTROL Category]** column. These categories can be displayed reports, as for example in **[!UICONTROL URLs and click streams]** (see [this section](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). Categories are defined in a specific enumeration: **[!UICONTROL urlCategory]** (see [Managing enumerations](../../platform/using/managing-enumerations.md)).
 

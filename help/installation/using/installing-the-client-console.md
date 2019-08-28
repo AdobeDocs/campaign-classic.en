@@ -20,7 +20,7 @@ snippet: y
 
 The Adobe Campaign console installation procedure is detailed below.
 
-Before you install the Adobe Campaign console, check the prerequisites listed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+Before you install the Adobe Campaign console, check the prerequisites listed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
 
 To install the Adobe Campaign console, apply the following steps:
 
@@ -42,5 +42,5 @@ To install the Adobe Campaign console, apply the following steps:
 >[!NOTE]
 >
 >On Windows, you can launch the **nlclient.exe** file directly from the **[INSTALL]/bin** directory on a Windows server, where **[INSTALL]** is the access path for the Adobe Campaign installation folder.  
->To create a new connection, refer to [Creating an instance and logging on](https://helpx.adobe.com/campaign/standard/installation/using/creating-an-instance-and-logging-on.html).
+>To create a new connection, refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
 

@@ -28,5 +28,5 @@ To do this, log on to an existing database and apply the following steps:
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 
-   Specify the parameters of the new instance. For more on this, refer to [Creating an instance and logging on](https://helpx.adobe.com/campaign/standard/installation/using/creating-an-instance-and-logging-on.html).
+   Specify the parameters of the new instance. For more on this, refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
 

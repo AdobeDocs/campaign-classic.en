@@ -36,5 +36,5 @@ These mappings are as follows:
 
 >[!NOTE]
 >
->You can also create new target mappings. This operation is reserved for expert users. For more information, refer to the [Configuration guide](https://helpx.adobe.com/campaign/classic/configuration/using/target-mapping.html).
+>You can also create new target mappings. This operation is reserved for expert users. For more information, refer to the [Configuration guide](../../configuration/using/target-mapping.md).
 

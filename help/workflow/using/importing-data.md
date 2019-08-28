@@ -24,15 +24,15 @@ snippet: y
 
 The data sent in a workflow can come from lists whereby the data has been prepared and structured beforehand.
 
-This list may have been directly created in Adobe Campaign or imported by the **[!UICONTROL Import a list]** option. For more on this option, refer to this [page](https://helpx.adobe.com/campaign/classic/platform/using/generic-imports-and-exports.html).
+This list may have been directly created in Adobe Campaign or imported by the **[!UICONTROL Import a list]** option. For more on this option, refer to this [page](../../platform/using/generic-imports-and-exports.md).
 
-For more on using the read list activity in a workflow, refer to [Read list](https://helpx.adobe.com/campaign/standard/workflow/using/read-list.html).
+For more on using the read list activity in a workflow, refer to [Read list](../../workflow/using/read-list.md).
 
 ### Loading data from a file {#loading-data-from-a-file}
 
 The data processed in a workflow can be extracted from a structured file so that it can be imported into Adobe Campaign.
 
-A description of the loading data activity can be found in the [Data loading (file)](https://helpx.adobe.com/campaign/standard/workflow/using/data-loading--file-.html) section.
+A description of the loading data activity can be found in the [Data loading (file)](../../workflow/using/data-loading--file-.md) section.
 
 Example of structured file to import:
 
@@ -65,7 +65,7 @@ To be able to do so:
 1. Add other activities to manage data coming from the file.
 1. Save and execute your workflow.
 
-When exporting a file, you can also zip or encrypt it. See [Zipping or encrypting a file](https://helpx.adobe.com/campaign/standard/workflow/using/how-to-use-workflow-data.html#zipping-or-encrypting-a-file).
+When exporting a file, you can also zip or encrypt it. See [Zipping or encrypting a file](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
 ## Best practices when importing data {#best-practices-when-importing-data}
 
@@ -75,13 +75,13 @@ Being cautious and following the few simple rules detailed below will help a lot
 
 Most import workflows should contain the following activities: **[!UICONTROL Data loading (file)]** , **[!UICONTROL Enrichment]** , **[!UICONTROL Split]** , **[!UICONTROL Deduplication]** , **[!UICONTROL Update data]** .
 
-Using import templates makes it very convenient to prepare similar imports and ensure data consistency within the database. Learn how to build workflow templates in the [Workflow templates](https://helpx.adobe.com/campaign/standard/workflow/using/building-a-workflow.html#workflow-templates) section.
+Using import templates makes it very convenient to prepare similar imports and ensure data consistency within the database. Learn how to build workflow templates in the [Workflow templates](../../workflow/using/building-a-workflow.md#workflow-templates) section.
 
 In many projects, imports are built without **[!UICONTROL Deduplication]** activity because the files used in the project do not have duplicates. Duplicates sometimes appear from importing different files. De-duplication is then difficult. Therefore a deduplication step is a good precaution in all import workflows.
 
 Do not rest on assumption that the incoming data is consistent and correct, or that the IT department or Adobe Campaign supervisor will take care of it. During the project, keep the data cleansing in mind. Deduplicate, reconcile, and maintain consistency when you import data.
 
-An import template example is available in the [Setting up a recurring import](https://helpx.adobe.com/campaign/standard/workflow/using/importing-data.html#setting-up-a-recurring-import) section.
+An import template example is available in the [Setting up a recurring import](../../workflow/using/importing-data.md#setting-up-a-recurring-import) section.
 
 ### Using flat file formats {#using-flat-file-formats}
 
@@ -149,7 +149,7 @@ To maintain data consistency in the Adobe Campaign database, follow the principl
 
 Using an import template is a best practice if you need to regularly import files with the same structure.
 
-This example shows how to pre-set a workflow that can be reused for importing profiles coming from a CRM in the Adobe Campaign database. For more information about all possible settings for each activity, refer to this [section](https://helpx.adobe.com/campaign/classic/workflow/using/about-activities.html).
+This example shows how to pre-set a workflow that can be reused for importing profiles coming from a CRM in the Adobe Campaign database. For more information about all possible settings for each activity, refer to this [section](../../workflow/using/about-activities.md).
 
 1. Create a new workflow template from **[!UICONTROL Resources > Templates > Workflow templates]** .
 1. Add the following activities:

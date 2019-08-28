@@ -32,15 +32,15 @@ Click the links in the navigation bar to access the various universes. Campaign 
 
 The navigation block of the **[!UICONTROL Campaigns]** universe offers various entries, depending on modules installed on the instance. As an example, you can access:
 
-* **Campaign calendar**: calendar of plans, marketing programs, deliveries and campaigns. Refer to [Campaign calendar](https://helpx.adobe.com/campaign/standard/campaign/using/accessing-marketing-campaigns.html#campaign-calendar).
+* **Campaign calendar**: calendar of plans, marketing programs, deliveries and campaigns. Refer to [Campaign calendar](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
 * **Campaigns**: access to the campaigns contained in all marketing programs.
 * **Deliveries**: access to the deliveries linked to the campaigns.
 * **Web Applications**: access to Web applications (forms, surveys, etc.).
 
 >[!NOTE]
 >
->For more on the overall Adobe Campaign ergonomics, permissions and on profile management functionalities, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/adobe-campaign-workspace.html).  
->All functionalities related to channels and deliveries are detailed in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/communication-channels.html).
+>For more on the overall Adobe Campaign ergonomics, permissions and on profile management functionalities, refer to [this section](../../platform/using/adobe-campaign-workspace.md).  
+>All functionalities related to channels and deliveries are detailed in [this section](../../delivery/using/communication-channels.md).
 
 ### Campaign calendar {#campaign-calendar}
 
@@ -113,7 +113,7 @@ With Adobe Campaign you can set up collaborative processes for the creation and 
 
 >[!NOTE]
 >
->The configuration of campaign templates is presented in [Campaign templates](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#campaign-templates).
+>The configuration of campaign templates is presented in [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
 
 #### Schedule {#schedule}
 
@@ -125,7 +125,7 @@ A campaign centralizes a set of deliveries. For each campaign, the schedule offe
 
 For each campaign, operators can exchange messages via a dedicated forum.
 
-For more on this, refer to [Discussion forums](https://helpx.adobe.com/campaign/standard/campaign/using/discussion-forums.html).
+For more on this, refer to [Discussion forums](../../campaign/using/discussion-forums.md).
 
 #### Reports {#reports}
 
@@ -135,17 +135,17 @@ The **[!UICONTROL Reports]** link lets you access the campaign reports.
 
 >[!NOTE]
 >
->Reports are detailed in [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-adobe-campaign-reporting-tools.html).
+>Reports are detailed in [this section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
 
 #### Configuration {#configuration}
 
 Campaigns are created via campaign templates. You can configure reusable templates for which some options are selected and other settings are already saved. For each campaign, the following functionality is offered:
 
-* Referencing of documents and resources: you can associate documents with the campaign (brief, report, images, etc.). All document formats are supported. See [Managing associated documents](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#managing-associated-documents). 
-* Defining costs: for each campaign, Adobe Campaign lets you define cost entries and cost calculation structures which can be used when creating the marketing campaign. For example: printing costs, use of an external agency, room rental, etc. See [Defining cost categories](https://helpx.adobe.com/campaign/standard/campaign/using/providers--stocks-and-budgets.html#defining-cost-categories).
+* Referencing of documents and resources: you can associate documents with the campaign (brief, report, images, etc.). All document formats are supported. See [Managing associated documents](../../campaign/using/setting-up-marketing-campaigns.md#managing-associated-documents). 
+* Defining costs: for each campaign, Adobe Campaign lets you define cost entries and cost calculation structures which can be used when creating the marketing campaign. For example: printing costs, use of an external agency, room rental, etc. See [Defining cost categories](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories).
 * Defining objectives: you can define quantifiable objectives for a campaign, e.g. number of subscribers, business volume, etc. This information is later used in campaign reports.
-* Managing seed addresses (for more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/about-seed-addresses.html)) and control groups (refer to [Defining a control group](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#defining-a-control-group)).
-* Managing approvals: you can select the treatments to be approved and, if necessary, select the reviewing operators or groups of operators. See [Checking and approving deliveries](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#checking-and-approving-deliveries).
+* Managing seed addresses (for more on this, refer to [this section](../../delivery/using/about-seed-addresses.md)) and control groups (refer to [Defining a control group](../../campaign/using/setting-up-marketing-campaigns.md#defining-a-control-group)).
+* Managing approvals: you can select the treatments to be approved and, if necessary, select the reviewing operators or groups of operators. See [Checking and approving deliveries](../../campaign/using/setting-up-marketing-campaigns.md#checking-and-approving-deliveries).
 
 >[!NOTE]
 >
@@ -164,4 +164,4 @@ Approvals (of a target or a delivery content, for instance) can be carried out v
 
 ![](assets/campaign_web_interface_validation.png)
 
-You can also use the link contained in the notification messages. For more on this, refer to [Checking and approving deliveries](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#checking-and-approving-deliveries).
+You can also use the link contained in the notification messages. For more on this, refer to [Checking and approving deliveries](../../campaign/using/setting-up-marketing-campaigns.md#checking-and-approving-deliveries).

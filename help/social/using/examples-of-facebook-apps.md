@@ -22,23 +22,23 @@ When a user clicks the tab of a Facebook application, it is displayed in a space
 
 >[!NOTE]
 >
->It is also possible to integrate Adobe Campaign with a Facebook application developed by a partner. In this case, there is no need to use the Adobe Campaign web application to acquire Facebook profiles. For more on this, refer to [Configuring external accounts](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#configuring-external-accounts).
+>It is also possible to integrate Adobe Campaign with a Facebook application developed by a partner. In this case, there is no need to use the Adobe Campaign web application to acquire Facebook profiles. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
 ![](assets/social_webapp_fb_000.png)
 
 >[!CAUTION]
 >
->Please comply with the configuration steps described in [Creating a Facebook application](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html).
+>Please comply with the configuration steps described in [Creating a Facebook application](../../social/using/creating-a-facebook-application.md).
 
 >[!NOTE]
 >
->This section details the elements linked to Facebook type web applications. All elements shared with standard web applications are detailed in [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-applications.html).
+>This section details the elements linked to Facebook type web applications. All elements shared with standard web applications are detailed in [this section](../../web/using/about-web-applications.md).
 
 The examples of Facebook type web applications detailed here are:
 
-* How to create a Facebook application in 7 steps. Refer to [Quick start: creating a Facebook application in 7 steps](https://helpx.adobe.com/campaign/standard/social/using/examples-of-facebook-apps.html#quick-start--creating-a-facebook-application-in-7-steps).
-* How to forward settings to a Facebook application. Refer to [How to forward settings to a Facebook application?](https://helpx.adobe.com/campaign/standard/social/using/examples-of-facebook-apps.html#how-to-forward-settings-to-a-facebook-application-).
-* How to acquire fan data. Refer to [How to acquire fan data?](https://helpx.adobe.com/campaign/standard/social/using/examples-of-facebook-apps.html#how-to-acquire-fan-data-).
+* How to create a Facebook application in 7 steps. Refer to [Quick start: creating a Facebook application in 7 steps](../../social/using/examples-of-facebook-apps.md#quick-start--creating-a-facebook-application-in-7-steps).
+* How to forward settings to a Facebook application. Refer to [How to forward settings to a Facebook application?](../../social/using/examples-of-facebook-apps.md#how-to-forward-settings-to-a-facebook-application-).
+* How to acquire fan data. Refer to [How to acquire fan data?](../../social/using/examples-of-facebook-apps.md#how-to-acquire-fan-data-).
 
 >[!CAUTION]
 >
@@ -57,19 +57,19 @@ This example provides a step by step process of how to display an Adobe Campaign
 
 To create this application, apply the following steps:
 
-1. Create an application on Facebook ( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)). For more on this, refer to: [Creating a Facebook application](https://helpx.adobe.com/campaign/standard/social/using/publishing-on-facebook-walls.html#creating-a-facebook-application).
+1. Create an application on Facebook ( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)). For more on this, refer to: [Creating a Facebook application](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
 
    ![](assets/social_create_facebook_app_002.png)
 
-1. Create a **[!UICONTROL Facebook Connect]** type external account and enter the parameters of the Facebook application. For more on this, refer to: [Configuring external accounts](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#configuring-external-accounts).
+1. Create a **[!UICONTROL Facebook Connect]** type external account and enter the parameters of the Facebook application. For more on this, refer to: [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
    ![](assets/social_quick_start_2.png)
 
-1. Enter the **[!UICONTROL Terms of service]** and **[!UICONTROL Privacy policy]** links to be displayed on the Facebook permission request screen. For more on this, refer to: [Entering the Terms of service and Privacy policy links](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#entering-the-terms-of-service-and-privacy-policy-links). 
+1. Enter the **[!UICONTROL Terms of service]** and **[!UICONTROL Privacy policy]** links to be displayed on the Facebook permission request screen. For more on this, refer to: [Entering the Terms of service and Privacy policy links](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links). 
 
    ![](assets/social_quick_start_1.png)
 
-1. Create a Facebook type web application in Adobe Campaign. For more on this, refer to: [Creating a Facebook type web application](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#creating-a-facebook-type-web-application).
+1. Create a Facebook type web application in Adobe Campaign. For more on this, refer to: [Creating a Facebook type web application](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application).
 
    ![](assets/social_webapp_005.png)
 
@@ -81,7 +81,7 @@ To create this application, apply the following steps:
 
    ![](assets/social_webapp_004.png)
 
-1. Configure your Facebook application so that it shows up as a tab on your Facebook page. For more on this, refer to: [Configuring Facebook tabs](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#configuring-facebook-tabs).
+1. Configure your Facebook application so that it shows up as a tab on your Facebook page. For more on this, refer to: [Configuring Facebook tabs](../../social/using/creating-a-facebook-application.md#configuring-facebook-tabs).
 
    ![](assets/social_quick_start_5.png)
 
@@ -95,7 +95,7 @@ Check that the tab of the **App01** application shows up on your Facebook page. 
 
 >[!CAUTION]
 >
->Comply with the configuration steps detailed in [Creating a Facebook application](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html).
+>Comply with the configuration steps detailed in [Creating a Facebook application](../../social/using/creating-a-facebook-application.md).
 
 In example 1, we personalized the display of the Facebook page according to the value in the **[!UICONTROL Fan of the page]** field. It is also possible to process the **[!UICONTROL Application settings]** field. This field lets you recover data contained in a link generated by Adobe Campaign, via Facebook.
 
@@ -127,7 +127,7 @@ To recreate this use case, we have created a web application made up of the foll
 
 >[!CAUTION]
 >
->Comply with the configuration steps detailed in [Creating a Facebook application](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html).
+>Comply with the configuration steps detailed in [Creating a Facebook application](../../social/using/creating-a-facebook-application.md).
 
 This example shows you how to get in touch with Facebook users and offer for them to share their profile information. Let's take the example of a company which wants to acquire prospects and organizes a competition on their Facebook page to attract them.
 
@@ -163,7 +163,7 @@ The **[!UICONTROL Test]** activity is based on the **[!UICONTROL ID]** and **[!U
 It is made up of three branches:
 
 * **[!UICONTROL identifier (UID) is empty]** : the identifier is only forwarded by Facebook if the user has already agreed to share their information. The first branch of the **[!UICONTROL Test]** activity lets you make the competition available only to users who have never entered, i.e. those with an empty ID.
-* **[!UICONTROL application parameter equals 'thanks']** : to sidestep a display error linked to Facebook, the web application end page points towards the URL of the Facebook application which the **[!UICONTROL app_data]** parameter is added to using the **[!UICONTROL thanks]** value (for more on this, refer to: [End activity](https://helpx.adobe.com/campaign/standard/social/using/examples-of-facebook-apps.html#end-activity)). The second branch lets you find out whether the user comes from the **[!UICONTROL End]** activity of the first branch (and has just entered the competition) to display a thank you message. For more on using additional URL parameters, refer to: [How to forward settings to a Facebook application?](https://helpx.adobe.com/campaign/standard/social/using/examples-of-facebook-apps.html#how-to-forward-settings-to-a-facebook-application-).
+* **[!UICONTROL application parameter equals 'thanks']** : to sidestep a display error linked to Facebook, the web application end page points towards the URL of the Facebook application which the **[!UICONTROL app_data]** parameter is added to using the **[!UICONTROL thanks]** value (for more on this, refer to: [End activity](../../social/using/examples-of-facebook-apps.md#end-activity)). The second branch lets you find out whether the user comes from the **[!UICONTROL End]** activity of the first branch (and has just entered the competition) to display a thank you message. For more on using additional URL parameters, refer to: [How to forward settings to a Facebook application?](../../social/using/examples-of-facebook-apps.md#how-to-forward-settings-to-a-facebook-application-).
 * **[!UICONTROL Default branch]** : if the user has already entered the competition (ID already entered) at a previous date (application parameter different from **[!UICONTROL thanks]** ), we will display a page saying that they have already entered.
 
 ### Competition page {#competition-page}
@@ -174,9 +174,9 @@ To sidestep the display error linked to Facebook, you also need to select **[!UI
 
 ### Access control activity {#access-control-activity}
 
-The **[!UICONTROL Access control]** activity lets you display the Facebook permission request page when the user enters the competition. If they agree to share their information, it is recovered during pre-loading. For more on this, refer to: [Pre-loading activity](https://helpx.adobe.com/campaign/standard/social/using/examples-of-facebook-apps.html#pre-loading-activity).
+The **[!UICONTROL Access control]** activity lets you display the Facebook permission request page when the user enters the competition. If they agree to share their information, it is recovered during pre-loading. For more on this, refer to: [Pre-loading activity](../../social/using/examples-of-facebook-apps.md#pre-loading-activity).
 
-If you previously entered the external account when creating the web application (refer to [Creating a Facebook type web application](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#creating-a-facebook-type-web-application)) you don't need to edit the activity. If not, go to the **[!UICONTROL Application]** field and select the external account linked to the Facebook application. 
+If you previously entered the external account when creating the web application (refer to [Creating a Facebook type web application](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application)) you don't need to edit the activity. If not, go to the **[!UICONTROL Application]** field and select the external account linked to the Facebook application. 
 
 ![](assets/social_webapp_024.png)
 
@@ -197,7 +197,7 @@ This option lets you recover the data of a profile which exists in the visitors 
 
 >[!NOTE]
 >
->For more on pre-loading data via the Adobe Campaign database, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/publishing-a-web-form.html#pre-loading-the-form-data).
+>For more on pre-loading data via the Adobe Campaign database, refer to [this section](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
 
 **Facebook**
 
@@ -252,7 +252,7 @@ If the profile doesn't exist in the database and the Facebook user's email addre
 
 ### End activity {#end-activity}
 
-To sidestep the display error linked to Facebook, you need to check the **[!UICONTROL Use an external URL]** box and enter the URL of the Facebook application, followed by the **[!UICONTROL app_data]** parameter and a value. This value will be used in the **[!UICONTROL Test]** activity to detect whether or not the user has just entered the competition, and to display a thank you message if applicable. For more on this, refer to: [Test activity](https://helpx.adobe.com/campaign/standard/social/using/examples-of-facebook-apps.html#test-activity).
+To sidestep the display error linked to Facebook, you need to check the **[!UICONTROL Use an external URL]** box and enter the URL of the Facebook application, followed by the **[!UICONTROL app_data]** parameter and a value. This value will be used in the **[!UICONTROL Test]** activity to detect whether or not the user has just entered the competition, and to display a thank you message if applicable. For more on this, refer to: [Test activity](../../social/using/examples-of-facebook-apps.md#test-activity).
 
 In our example, the value used is **thanks**.
 
@@ -260,9 +260,9 @@ In our example, the value used is **thanks**.
 
 ### Details screen of a visitor {#details-screen-of-a-visitor}
 
-Just like for Twitter followers (refer to: [Operating principle](https://helpx.adobe.com/campaign/standard/social/using/publishing-on-twitter.html#operating-principle)), recovered Facebook profiles are stored in the visitors' table. To display the list of visitors, go to the **[!UICONTROL Profiles and Targets > Visitors]** node.
+Just like for Twitter followers (refer to: [Operating principle](../../social/using/publishing-on-twitter.md#operating-principle)), recovered Facebook profiles are stored in the visitors' table. To display the list of visitors, go to the **[!UICONTROL Profiles and Targets > Visitors]** node.
 
-Each Facebook prospect who agrees to share their profile information is added to the list of visitors. If the **[!UICONTROL Friends]** box is checked in the **[!UICONTROL Pre-load]** activity (refer to: [Pre-loading activity](https://helpx.adobe.com/campaign/standard/social/using/examples-of-facebook-apps.html#pre-loading-activity)), friends are also added.
+Each Facebook prospect who agrees to share their profile information is added to the list of visitors. If the **[!UICONTROL Friends]** box is checked in the **[!UICONTROL Pre-load]** activity (refer to: [Pre-loading activity](../../social/using/examples-of-facebook-apps.md#pre-loading-activity)), friends are also added.
 
 ![](assets/social_webapp_037.png)
 
@@ -296,15 +296,15 @@ The **[!UICONTROL Activities]** screen of a visitor's details page contains the 
 
   >[!NOTE]
   >
-  >In order for Adobe Campaign to collect a fan's check-ins, you need to click the **[!UICONTROL Subscribe]** button on the service configuration screen. For more on this, refer to [Configuring external accounts](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#configuring-external-accounts).
+  >In order for Adobe Campaign to collect a fan's check-ins, you need to click the **[!UICONTROL Subscribe]** button on the service configuration screen. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
 ## How to pre-load the fields of a form using Facebook profile data {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
 
-The **[!UICONTROL Social Marketing]** application also enables you to add a button to a form, for pre-loading fields using Facebook profile information. This option, which is available in all web application templates ( **[!UICONTROL Page]** type activities) is detailed in [this section](https://helpx.adobe.com/campaign/classic/web/using/static-elements-in-a-web-form.html#inserting-html-content).
+The **[!UICONTROL Social Marketing]** application also enables you to add a button to a form, for pre-loading fields using Facebook profile information. This option, which is available in all web application templates ( **[!UICONTROL Page]** type activities) is detailed in [this section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
 ![](assets/social_webapp_035.png)
 
 >[!NOTE]
 >
->Before you start using this function, you need to create a Facebook application and a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to [Configuring external accounts](https://helpx.adobe.com/campaign/standard/social/using/creating-a-facebook-application.html#configuring-external-accounts).
+>Before you start using this function, you need to create a Facebook application and a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 

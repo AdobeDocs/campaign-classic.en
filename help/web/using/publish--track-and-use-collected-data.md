@@ -22,11 +22,11 @@ Once the form has been created, configured and published, you can share the link
 
 >[!NOTE]
 >
->The life cycle of a survey in Adobe Campaign as well as its publishing and delivery modes are similar to those of Web forms: these are detailed in [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html).
+>The life cycle of a survey in Adobe Campaign as well as its publishing and delivery modes are similar to those of Web forms: these are detailed in [this section](../../web/using/about-web-forms.md).
 
 ## Survey dashboard {#survey-dashboard}
 
-Each survey has its own dashboard which lets you view its status, description, public URL and availability schedule. It also lets you view the available reports. For more on this, refer to [Reports on surveys](https://helpx.adobe.com/campaign/standard/web/using/publish--track-and-use-collected-data.html#reports-on-surveys).
+Each survey has its own dashboard which lets you view its status, description, public URL and availability schedule. It also lets you view the available reports. For more on this, refer to [Reports on surveys](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys).
 
 The survey's public URL is shown on the dashboard:
 
@@ -42,7 +42,7 @@ For each survey delivered, you can track the responses in the **[!UICONTROL Logs
 
 ![](assets/s_ncs_admin_survey_logs.png)
 
-Double-click a line to display the survey form as filled in by the respondent. You can browse the survey in full and access the answers in full. These can be exported in an external file. For more on this, refer to [Exporting answers](https://helpx.adobe.com/campaign/standard/web/using/publish--track-and-use-collected-data.html#exporting-answers).
+Double-click a line to display the survey form as filled in by the respondent. You can browse the survey in full and access the answers in full. These can be exported in an external file. For more on this, refer to [Exporting answers](../../web/using/publish--track-and-use-collected-data.md#exporting-answers).
 
 The origin is indicated in the survey URL by adding the following characters:
 
@@ -52,7 +52,7 @@ The origin is indicated in the survey URL by adding the following characters:
 
 while the survey is being edited, its URL contains the parameter **[!UICONTROL __uuid]** , which indicates that it is in a test phase and not yet online. When you access the survey via this URL, the records created are not taken into account in the tracking (reports). The origin is forced to the value **[!UICONTROL Adobe Campaign]** .
 
-For more on URL parameters, refer to [this page](https://helpx.adobe.com/campaign/classic/web/using/defining-web-forms-properties.html#form-url-parameters).
+For more on URL parameters, refer to [this page](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
 ### Reports on surveys {#reports-on-surveys}
 
@@ -86,7 +86,7 @@ Answers to a survey can be exported in an external file to be processed later. T
 
    To export report data, click the **[!UICONTROL Export]** button and choose the export format.
 
-   For more on exporting report data, refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-reports-creation-in-campaign.html).
+   For more on exporting report data, refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md).
 
 1. Exporting answers
 
@@ -112,7 +112,7 @@ Answers to a survey can be exported in an external file to be processed later. T
 
    >[!NOTE]
    >
-   >Data exports and the stages of their configuration are detailed in [this section](https://helpx.adobe.com/campaign/classic/platform/using/generic-imports-and-exports.html).
+   >Data exports and the stages of their configuration are detailed in [this section](../../platform/using/generic-imports-and-exports.md).
 
 ## Using the collected data {#using-the-collected-data}
 
@@ -166,4 +166,4 @@ Edit the split box to configure it:
 
 It's possible to set up standardization processes in Adobe Campaign for data collected using aliases. This lets you standardize the data stored in the database: to do this, define aliases in the itemized lists which contain the relevant information.
 
-For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/platform/using/managing-enumerations.html#about-enumerations).
+For more on this, refer to [this page](../../platform/using/managing-enumerations.md#about-enumerations).

@@ -42,7 +42,7 @@ In the following example, the list update activity follows a query which targets
 
 1. Add a **[!UICONTROL list update activity]** directly after a query then open it up to edit it.
 
-   For more on creating a query in a workflow, refer to [Query](https://helpx.adobe.com/campaign/standard/workflow/using/query.html).
+   For more on creating a query in a workflow, refer to [Query](../../workflow/using/query.md).
 
 1. You may select a label for the activity.
 1. Select the **[!UICONTROL Create the list if necessary (Calculated name)]** option to show that the list will be created once the first workflow has been executed, then updated with the following executions.
@@ -57,7 +57,7 @@ In the following example, the list update activity follows a query which targets
 
    The list of matching recipients is then created or updated.
 
-For more on this, refer to the [Creating a list of recipients](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
+For more on this, refer to the [Creating a list of recipients](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.md) video.
 
 ## Input parameters {#input-parameters}
 

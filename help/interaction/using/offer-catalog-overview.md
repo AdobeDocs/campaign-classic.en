@@ -24,7 +24,7 @@ An offer catalog is part of a single environment, to be specified beforehand. Of
 
 Offer management is carried out via a tree of folders in the Adobe Campaign.
 
-Before creating your offers, you must first specify an environment (see [Environments overview](https://helpx.adobe.com/campaign/standard/interaction/using/environments-overview.html)). It will contain all the characteristics (eligibility, constraints on the target, presentation rules) of a set of offers, sorted into categories, as well as the list of their spaces.
+Before creating your offers, you must first specify an environment (see [Environments overview](../../interaction/using/environments-overview.md)). It will contain all the characteristics (eligibility, constraints on the target, presentation rules) of a set of offers, sorted into categories, as well as the list of their spaces.
 
 >[!CAUTION]
 >

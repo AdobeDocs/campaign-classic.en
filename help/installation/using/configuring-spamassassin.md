@@ -20,7 +20,7 @@ snippet: y
 
 >[!NOTE]
 >
->Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](https://helpx.adobe.com/campaign/classic/installation/using/hosting-models.html) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md).
 
 ## Overview {#overview}
 
@@ -98,7 +98,7 @@ To install and configure SpamAssassin on Windows to enable integration with Adob
 
 ### Integrating SpamAssassin into Adobe Campaign {#integrating-spamassassin-into-adobe-campaign}
 
-1. Edit the **[INSTALL]/conf/serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+1. Edit the **[INSTALL]/conf/serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 1. Change the value of the **spamCheck** elements' **command** attribute in the **Web** node. To do this, run the following command:
 
    ```

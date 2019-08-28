@@ -39,7 +39,7 @@ https://<your Adobe Campaign server>:>port number>/nl/jsp/logon.jsp
 
 This page requires a login and password defined in the application.
 
-To download and install the console, refer to [Installing the client console](https://helpx.adobe.com/campaign/standard/installation/using/installing-the-client-console.html).
+To download and install the console, refer to [Installing the client console](../../installation/using/installing-the-client-console.md).
 
 Whenever a new version of the client console is available, you are invited to download it.
 

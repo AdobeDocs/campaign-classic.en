@@ -51,7 +51,7 @@ The overall principle is as follows:
 * The **[!UICONTROL Access control]** option enables Adobe Campaign operators to access it once they are logged on.
 * The **[!UICONTROL Specific account]** option lets you execute the report with the rights of the operator selected in the **[!UICONTROL Operator]** field.
 
-Web form properties are detailed in [this page](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html).
+Web form properties are detailed in [this page](../../web/using/about-web-forms.md).
 
 ## Managing report localization {#managing-report-localization}
 
@@ -65,7 +65,7 @@ The editing language is the language which you write in. When you add a language
 
 >[!NOTE]
 >
->For more on this, refer to the appropriate section of [this section](https://helpx.adobe.com/campaign/classic/web/using/translating-a-web-form.html).
+>For more on this, refer to the appropriate section of [this section](../../web/using/translating-a-web-form.md).
 
 ## Personalizing HTML rendering {#personalizing-html-rendering}
 
@@ -76,7 +76,7 @@ In the **[!UICONTROL Rendering]** tab, you can personalize the data display mode
 * The default position of labels for report elements. This position can be overloaded for each element.
 * The template or theme used for generating report pages.
 
-Web form properties are detailed in [this page](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html).
+Web form properties are detailed in [this page](../../web/using/about-web-forms.md).
 
 ![](assets/s_ncs_advuser_report_properties_08.png)
 
@@ -84,7 +84,7 @@ Web form properties are detailed in [this page](https://helpx.adobe.com/campaign
 
 The **[!UICONTROL Settings]** tab lets you create additional settings for the report: these settings will be passed into the URL during the call up.
 
-Web form properties are detailed in [this page](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html).
+Web form properties are detailed in [this page](../../web/using/about-web-forms.md).
 
 >[!CAUTION]
 >
@@ -121,13 +121,13 @@ To view the definition of a variable, select it and click the **[!UICONTROL Deta
 
 The **[!UICONTROL Scripts]** tab lets you reference JavaScript codes that will be executed on the client and/or server side when the report page is called up.
 
-For normal execution on the client side, the referenced scripts must be written in JavaScript and need to be compatible with most browsers. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/web-forms-answers.html).
+For normal execution on the client side, the referenced scripts must be written in JavaScript and need to be compatible with most browsers. For more on this, refer to [this section](../../web/using/web-forms-answers.md).
 
 ## Personalizing the error page {#personalizing-the-error-page}
 
 The **[!UICONTROL Error page]** tab lets you configure the message that will come up in case of an error in the report display.
 
-You can define texts and link them to specific identifiers to manage report localization. For more on this, refer to [Adding a header and a footer](https://helpx.adobe.com/campaign/standard/reporting/using/element-layout.html#adding-a-header-and-a-footer).
+You can define texts and link them to specific identifiers to manage report localization. For more on this, refer to [Adding a header and a footer](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
 ![](assets/s_ncs_advuser_report_properties_11.png)
 

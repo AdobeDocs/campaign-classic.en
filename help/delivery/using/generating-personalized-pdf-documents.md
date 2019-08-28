@@ -26,7 +26,7 @@ The following extensions are supported: ".docx", ".doc", and ".odt".
 
 To personalize your documents, the same JavaScript functionalities as for email personalization are available.
 
-You need to activate the **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** option. This option is accessible when you attach the file to the delivery email. For more on attaching a calculated file, refer to the [Attaching files](https://helpx.adobe.com/campaign/standard/delivery/using/attaching-files.html) section.
+You need to activate the **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** option. This option is accessible when you attach the file to the delivery email. For more on attaching a calculated file, refer to the [Attaching files](../../delivery/using/attaching-files.md) section.
 
 Example of an invoice header personalization:
 

@@ -18,7 +18,7 @@ snippet: y
 
 # Identifying execution instances{#identifying-execution-instances}
 
-A unique identifier must be assigned to each instance to differentiate the history of each execution instance when you view them in the control instance. This step is mandatory even if your control and execution instances are installed on the same machine. This identifier can be manually attributed on each execution instance, via the deployment wizard, or automatically by clicking the **Initialize connection** button from the control instance (see [Control instance](https://helpx.adobe.com/campaign/standard/message-center/using/creating-a-shared-connection.html#control-instance)).
+A unique identifier must be assigned to each instance to differentiate the history of each execution instance when you view them in the control instance. This step is mandatory even if your control and execution instances are installed on the same machine. This identifier can be manually attributed on each execution instance, via the deployment wizard, or automatically by clicking the **Initialize connection** button from the control instance (see [Control instance](../../message-center/using/creating-a-shared-connection.md#control-instance)).
 
 To manually attribute an identifier, open the deployment wizard on each execution instance, go to the **[!UICONTROL Message Center]** window and assign your chosen identifier to the instance.
 

@@ -66,7 +66,7 @@ Click the **[!UICONTROL Advanced parameters...]** link to select the delivery te
 
 This template can be modified to personalize message layout, but it is preferable to make a copy. The targeting mechanism (external file, target mapping) must not be modified because it is required for notifications to operate correctly.
 
-An approval example is shown in [Defining approvals](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#defining-approvals).
+An approval example is shown in [Defining approvals](../../workflow/using/executing-a-workflow.md#defining-approvals).
 
 ## Output parameters {#output-parameters}
 

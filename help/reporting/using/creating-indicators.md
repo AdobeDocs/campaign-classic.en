@@ -22,10 +22,10 @@ To make a cube functional, you need to identify the relevant dimensions and meas
 
 To create a Cube, apply the following steps:
 
-1. Select the work table. Refer to [Selecting the work table](https://helpx.adobe.com/campaign/standard/reporting/using/creating-indicators.html#selecting-the-work-table).
-1. Define dimensions. Refer to [Defining dimensions](https://helpx.adobe.com/campaign/standard/reporting/using/creating-indicators.html#defining-dimensions).
-1. Define measures. Refer to [Building indicators](https://helpx.adobe.com/campaign/standard/reporting/using/creating-indicators.html#building-indicators).
-1. Create aggregates (optional). Refer to [Calculating and using aggregates](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#calculating-and-using-aggregates).
+1. Select the work table. Refer to [Selecting the work table](../../reporting/using/creating-indicators.md#selecting-the-work-table).
+1. Define dimensions. Refer to [Defining dimensions](../../reporting/using/creating-indicators.md#defining-dimensions).
+1. Define measures. Refer to [Building indicators](../../reporting/using/creating-indicators.md#building-indicators).
+1. Create aggregates (optional). Refer to [Calculating and using aggregates](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
 
 This example shows you how to quickly create a simple cube in a report to export its measures.
 
@@ -59,7 +59,7 @@ Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[
 
 * Start by selecting the recipient **Age**. For this field, you can define binning to group ages and make information reading easier. We recommend using binning when there is a likelihood of several separate values.
 
-  To do this, check the **[!UICONTROL Enable binning]** option. Binning modes are detailed in [Data binning](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#data-binning).
+  To do this, check the **[!UICONTROL Enable binning]** option. Binning modes are detailed in [Data binning](../../reporting/using/concepts-and-methodology.md#data-binning).
 
   ![](assets/s_advuser_cube_wz_05.png)
 
@@ -91,7 +91,7 @@ Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[
 
   Only the values in the enumeration will be displayed. The others will be grouped under the label defined in the **[!UICONTROL Label of the other values]** field.
 
-  For more on this, refer to [Dynamically managing bins](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#dynamically-managing-bins).
+  For more on this, refer to [Dynamically managing bins](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 
 ## Building indicators {#building-indicators}
 
@@ -106,7 +106,7 @@ To do this, apply the following steps:
 
    ![](assets/s_advuser_cube_wz_11.png)
 
-   The **[!UICONTROL Filter the measure data...]** link lets you select only women. For more on defining measures and the available options, refer to [Defining measures](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#defining-measures).
+   The **[!UICONTROL Filter the measure data...]** link lets you select only women. For more on defining measures and the available options, refer to [Defining measures](../../reporting/using/concepts-and-methodology.md#defining-measures).
 
    ![](assets/s_advuser_cube_wz_12.png)
 
@@ -132,7 +132,7 @@ To do this:
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. You can switch the axes of the dimension, delete them, add new measures, etc. Possible operations are detailed here: [Using cubes to explore data](https://helpx.adobe.com/campaign/standard/reporting/using/using-cubes-to-explore-data.html).
+1. You can switch the axes of the dimension, delete them, add new measures, etc. Possible operations are detailed here: [Using cubes to explore data](../../reporting/using/using-cubes-to-explore-data.md).
 
    To do this, use the appropriate icons.
 

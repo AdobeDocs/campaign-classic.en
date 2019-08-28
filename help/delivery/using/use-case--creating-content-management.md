@@ -20,12 +20,12 @@ snippet: y
 
 To create content management in Adobe Campaign, the following steps are necessary:
 
-* [Step 1 - Analyzing the content to be produced](https://helpx.adobe.com/campaign/standard/delivery/using/use-case--creating-content-management.html#step-1---analyzing-the-content-to-be-produced),
-* [Step 2 - Creating the data schema](https://helpx.adobe.com/campaign/standard/delivery/using/use-case--creating-content-management.html#step-2---creating-the-data-schema),
-* [Step 3 - Creating the input form](https://helpx.adobe.com/campaign/standard/delivery/using/use-case--creating-content-management.html#step-3---creating-the-input-form),
-* [Step 4 - Creating the construction template](https://helpx.adobe.com/campaign/standard/delivery/using/use-case--creating-content-management.html#step-4---creating-the-construction-template),
-* [Step 5 - Creating the publication template](https://helpx.adobe.com/campaign/standard/delivery/using/use-case--creating-content-management.html#step-5---creating-the-publication-template),
-* [Step 6 - Creating contents](https://helpx.adobe.com/campaign/standard/delivery/using/use-case--creating-content-management.html#step-6---creating-contents).
+* [Step 1 - Analyzing the content to be produced](../../delivery/using/use-case--creating-content-management.md#step-1---analyzing-the-content-to-be-produced),
+* [Step 2 - Creating the data schema](../../delivery/using/use-case--creating-content-management.md#step-2---creating-the-data-schema),
+* [Step 3 - Creating the input form](../../delivery/using/use-case--creating-content-management.md#step-3---creating-the-input-form),
+* [Step 4 - Creating the construction template](../../delivery/using/use-case--creating-content-management.md#step-4---creating-the-construction-template),
+* [Step 5 - Creating the publication template](../../delivery/using/use-case--creating-content-management.md#step-5---creating-the-publication-template),
+* [Step 6 - Creating contents](../../delivery/using/use-case--creating-content-management.md#step-6---creating-contents).
 
 ## Step 1 - Analyzing the content to be produced {#step-1---analyzing-the-content-to-be-produced}
 
@@ -59,8 +59,8 @@ A data schema is an XML document associated with content. It describes the XML s
 
 >[!NOTE]
 >
->For more on creating and configuring data schemas in Adobe Campaign, please refer to [this section](https://helpx.adobe.com/campaign/classic/configuration/using/about-schema-edition.html).  
->Configuration elements specific to content management are detailed in [Data schemas](https://helpx.adobe.com/campaign/standard/delivery/using/data-schemas.html).
+>For more on creating and configuring data schemas in Adobe Campaign, please refer to [this section](../../configuration/using/about-schema-edition.md).  
+>Configuration elements specific to content management are detailed in [Data schemas](../../delivery/using/data-schemas.md).
 
 To create a data schema, apply the following steps:
 
@@ -84,7 +84,7 @@ To create a data schema, apply the following steps:
 
    ![](assets/s_ncs_content_param_schema_step2.png)
 
-   For more on this, refer to [Editing schemas](https://helpx.adobe.com/campaign/standard/delivery/using/data-schemas.html#editing-schemas).
+   For more on this, refer to [Editing schemas](../../delivery/using/data-schemas.md#editing-schemas).
 
    For each element referenced in the content, you need to select a matching type.
 
@@ -170,8 +170,8 @@ The description of a form is a structured XML document that observes the grammar
 
 >[!NOTE]
 >
->For more on creating and configuring forms in Adobe Campaign, refer to [this section](https://helpx.adobe.com/campaign/classic/configuration/using/identifying-a-form.html).  
->Configuration elements specific to content management are detailed in [Input forms](https://helpx.adobe.com/campaign/standard/delivery/using/input-forms.html).
+>For more on creating and configuring forms in Adobe Campaign, refer to [this section](../../configuration/using/identifying-a-form.md).  
+>Configuration elements specific to content management are detailed in [Input forms](../../delivery/using/input-forms.md).
 
 To create an input form for content management, apply the following steps:
 
@@ -221,7 +221,7 @@ In this example, we want to use a JavaScript template to define the data constru
 
 >[!NOTE]
 >
->Constraints linked to document building (JavaScript or XSL template) are detailed in [Formatting](https://helpx.adobe.com/campaign/standard/delivery/using/formatting.html),
+>Constraints linked to document building (JavaScript or XSL template) are detailed in [Formatting](../../delivery/using/formatting.md),
 
 To use a JavaScript template in Adobe Campaign, apply the following steps:
 
@@ -232,7 +232,7 @@ To use a JavaScript template in Adobe Campaign, apply the following steps:
 1. Enter a template name and select the schema which you have created for content management.
 1. Import the set content which you want to display in the message.
 
-   Add the variable elements while respecting the syntax detailed in [JavaScript templates](https://helpx.adobe.com/campaign/standard/delivery/using/formatting.html#javascript-templates).
+   Add the variable elements while respecting the syntax detailed in [JavaScript templates](../../delivery/using/formatting.md#javascript-templates).
 
    To display the content shown in our example, the JavaScript template must contain the following elements:
 
@@ -325,7 +325,7 @@ To use a JavaScript template in Adobe Campaign, apply the following steps:
    </html>
    ```
 
-   Calling up a function at the start of a template lets you set up a call to personalization data taken from the Adobe Campaign database (in this case: recipient.firstName and recipient.lastName), so that it can be interpreted when used in a delivery. For more on this, refer to [Including a JavaScript template](https://helpx.adobe.com/campaign/standard/delivery/using/formatting.html#including-a-javascript-template).
+   Calling up a function at the start of a template lets you set up a call to personalization data taken from the Adobe Campaign database (in this case: recipient.firstName and recipient.lastName), so that it can be interpreted when used in a delivery. For more on this, refer to [Including a JavaScript template](../../delivery/using/formatting.md#including-a-javascript-template).
 
    In this example, the function will contain the following code:
 
@@ -354,7 +354,7 @@ The next step involves creating a content publication template to link up the sc
 
 >[!NOTE]
 >
->For more on content publication templates, refer to [Publication templates](https://helpx.adobe.com/campaign/standard/delivery/using/publication-templates.html).
+>For more on content publication templates, refer to [Publication templates](../../delivery/using/publication-templates.md).
 
 In this example, the steps are as follows:
 
@@ -379,7 +379,7 @@ You may now create content based on this publication template.
 
 >[!NOTE]
 >
->For more on creating contents, refer to [Using a content template](https://helpx.adobe.com/campaign/standard/delivery/using/using-a-content-template.html).
+>For more on creating contents, refer to [Using a content template](../../delivery/using/using-a-content-template.md).
 
 ### Creating content in the delivery wizard {#creating-content-in-the-delivery-wizard}
 

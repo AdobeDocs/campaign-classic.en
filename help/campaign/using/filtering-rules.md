@@ -20,7 +20,7 @@ snippet: y
 
 Filtering rules let you define the messages to exclude based on criteria defined in a query. These rules are linked to a targeting dimension.
 
-Filtering rules can be linked to other types of rules (control, pressure, etc.) in typologies, or grouped in a dedicated **Filtering** typology. For more on this, refer to [Creating and using a filtering typology](https://helpx.adobe.com/campaign/standard/campaign/using/filtering-rules.html#creating-and-using-a-filtering-typology).
+Filtering rules can be linked to other types of rules (control, pressure, etc.) in typologies, or grouped in a dedicated **Filtering** typology. For more on this, refer to [Creating and using a filtering typology](../../campaign/using/filtering-rules.md#creating-and-using-a-filtering-typology).
 
 ## Creating a filtering rule {#creating-a-filtering-rule}
 
@@ -60,7 +60,7 @@ In this case, even if the rule is linked to all deliveries, it will only be appl
 
 >[!NOTE]
 >
->Typologies and filtering rules can be used in a workflow, in the **[!UICONTROL Delivery outline]** activity. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/delivery-outline.html).
+>Typologies and filtering rules can be used in a workflow, in the **[!UICONTROL Delivery outline]** activity. For more on this, refer to [this section](../../workflow/using/delivery-outline.md).
 
 ## Creating and using a filtering typology {#creating-and-using-a-filtering-typology}
 

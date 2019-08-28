@@ -18,7 +18,7 @@ snippet: y
 
 # Prerequisites for migration to Adobe Campaign 7{#prerequisites-for-migration-to-adobe-campaign}
 
-Before running any migration, consult the [Before starting migration](https://helpx.adobe.com/campaign/standard/migration/using/before-starting-migration.html) and [Configuring your platform](https://helpx.adobe.com/campaign/standard/migration/using/configuring-your-platform.html) sections.
+Before running any migration, consult the [Before starting migration](../../migration/using/before-starting-migration.md) and [Configuring your platform](../../migration/using/configuring-your-platform.md) sections.
 
 When migrating from v6.02 to Adobe Campaign v7, some files delivered beforehand are not delivered.
 

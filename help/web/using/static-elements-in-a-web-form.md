@@ -25,13 +25,13 @@ You can include elements with which the user has no interaction in the pages of 
 The following types of field are available:
 
 * Value based on previously provided answers (in the context of the form) or on the database.
-* Hypertext link, HTML, horizontal bar. See [Inserting HTML content](https://helpx.adobe.com/campaign/standard/web/using/static-elements-in-a-web-form.html#inserting-html-content).
-* Image saved in the resource library or on a server accessible by users. See [Inserting images](https://helpx.adobe.com/campaign/standard/web/using/static-elements-in-a-web-form.html#inserting-images).
+* Hypertext link, HTML, horizontal bar. See [Inserting HTML content](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
+* Image saved in the resource library or on a server accessible by users. See [Inserting images](../../web/using/static-elements-in-a-web-form.md#inserting-images).
 * Script executed on client side and/or server side. It must be written in JavaScript and be compatible with most browsers to ensure correct execution on the client side.
 
   >[!NOTE]
   >
-  >On the server side, the script can use the functions defined in [Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html).
+  >On the server side, the script can use the functions defined in [Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.md).
 
 ## Inserting HTML content {#inserting-html-content}
 
@@ -49,7 +49,7 @@ To insert a database field, use the personalization button.
 
 >[!NOTE]
 >
->The strings entered in the HTML editor are only translated if they are defined in the **[!UICONTROL Texts]** sub-tab. Otherwise they will not be collected. For more on this, refer to [Translating a web form](https://helpx.adobe.com/campaign/standard/web/using/translating-a-web-form.html).
+>The strings entered in the HTML editor are only translated if they are defined in the **[!UICONTROL Texts]** sub-tab. Otherwise they will not be collected. For more on this, refer to [Translating a web form](../../web/using/translating-a-web-form.md).
 
 ### Inserting a link {#inserting-a-link}
 
@@ -88,7 +88,7 @@ You can define other actions for the link, so that the user can click the link t
 
   ![](assets/s_ncs_admin_survey_link_next.png)
 
-  You can hide the **[!UICONTROL Next]** and/or **[!UICONTROL Back]** buttons if they are to be replaced by a link. Refer to this [page](https://helpx.adobe.com/campaign/classic/web/using/defining-web-forms-page-sequencing.html).
+  You can hide the **[!UICONTROL Next]** and/or **[!UICONTROL Back]** buttons if they are to be replaced by a link. Refer to this [page](../../web/using/defining-web-forms-page-sequencing.md).
 
   The link will replace the **[!UICONTROL Next]** button used by default.
 
@@ -110,13 +110,13 @@ You can define other actions for the link, so that the user can click the link t
 
   >[!NOTE]
   >
-  >For more on page sequencing in a Web form, refer to [Defining web forms page sequencing](https://helpx.adobe.com/campaign/standard/web/using/defining-web-forms-page-sequencing.html).
+  >For more on page sequencing in a Web form, refer to [Defining web forms page sequencing](../../web/using/defining-web-forms-page-sequencing.md).
 
 * Preload the fields of the form with data taken from the Facebook profile
 
   >[!CAUTION]
   >
-  >This function is only available if you have installed the **[!UICONTROL Social Marketing]** application. To use this option, you need to create a Facebook application along with a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/social/using/creating-a-facebook-application.html#configuring-external-accounts).
+  >This function is only available if you have installed the **[!UICONTROL Social Marketing]** application. To use this option, you need to create a Facebook application along with a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to [this page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
   The **[!UICONTROL Preload with Facebook]** option lets you insert a button into a form to preload fields using Facebook profile information. 
 
@@ -161,7 +161,7 @@ To add a preload button, apply the following steps:
 
    ![](assets/social_webapp_035.png)
 
-1. Go to the **[!UICONTROL Application]** field and select the **[!UICONTROL Facebook Connect]** type external account created previously. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/social/using/creating-a-facebook-application.html#configuring-external-accounts).
+1. Go to the **[!UICONTROL Application]** field and select the **[!UICONTROL Facebook Connect]** type external account created previously. For more on this, refer to [this page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
    ![](assets/social_webapp_036.png)
 
@@ -171,7 +171,7 @@ You can personalize the HTML content of a form page with data recorded in a prev
 
 ![](assets/s_ncs_admin_survey_tag_ctx_1.png)
 
-Use personalization fields to re-inject the user name and selected brand into the next page. The syntax to use depends on the information storage mode. For more on this, refer to [Using collected information](https://helpx.adobe.com/campaign/standard/web/using/web-forms-answers.html#using-collected-information).
+Use personalization fields to re-inject the user name and selected brand into the next page. The syntax to use depends on the information storage mode. For more on this, refer to [Using collected information](../../web/using/web-forms-answers.md#using-collected-information).
 
 >[!NOTE]
 >
@@ -194,7 +194,7 @@ This produces the following result:
 
 The **[!UICONTROL Text]** tab lets you create variable fields which can be used in the HTML between the <%= and %> characters with the following syntax: **$(IDENTIFIER)**.
 
-Use this method to easily have your strings localized. See [Translating a web form](https://helpx.adobe.com/campaign/standard/web/using/translating-a-web-form.html)
+Use this method to easily have your strings localized. See [Translating a web form](../../web/using/translating-a-web-form.md)
 
 For example, you can create a **Contact** field that will enable you to display the "Date of last contact:" string to the HTML content. To do this, follow the steps below:
 
@@ -217,7 +217,7 @@ For example, you can create a **Contact** field that will enable you to display 
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-This operating mode lets you factorize the text of Web forms and manage translations using the integrated translation tool. For more on this, refer to [Translating a web form](https://helpx.adobe.com/campaign/standard/web/using/translating-a-web-form.html).
+This operating mode lets you factorize the text of Web forms and manage translations using the integrated translation tool. For more on this, refer to [Translating a web form](../../web/using/translating-a-web-form.md).
 
 ## Inserting images {#inserting-images}
 

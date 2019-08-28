@@ -20,10 +20,10 @@ snippet: y
 
 Messages delivered by Adobe Campaign can be personalized in several different ways, concerning the content or the appearance of messages. These ways can be combined according to criteria taken particularly from the recipient profiles. For email deliveries, you can define the elements and personalization conditions of a delivery directly in JavaScript from the **[!UICONTROL Source]** tab of the message. In general, Adobe Campaign allows you to:
 
-* Personalize the message format. See [Message content](https://helpx.adobe.com/campaign/standard/delivery/using/defining-the-email-content.html#message-content).
-* Insert dynamic personalization fields. See [Personalization fields](https://helpx.adobe.com/campaign/standard/delivery/using/personalization-fields.html).
-* Insert predefined personalization blocks. See [Personalization blocks](https://helpx.adobe.com/campaign/standard/delivery/using/personalization-blocks.html).
-* Create conditional content. Refer to the [Conditional content](https://helpx.adobe.com/campaign/standard/delivery/using/conditional-content.html) section.
+* Personalize the message format. See [Message content](../../delivery/using/defining-the-email-content.md#message-content).
+* Insert dynamic personalization fields. See [Personalization fields](../../delivery/using/personalization-fields.md).
+* Insert predefined personalization blocks. See [Personalization blocks](../../delivery/using/personalization-blocks.md).
+* Create conditional content. Refer to the [Conditional content](../../delivery/using/conditional-content.md) section.
 
 >[!CAUTION]
 >

@@ -18,7 +18,7 @@ snippet: y
 
 # Specific configurations in v5.11{#specific-configurations-in-v}
 
-This section details the additional configuration required when migrating from v5.11. You should also configure the settings detailed in the [General configurations](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html) section.
+This section details the additional configuration required when migrating from v5.11. You should also configure the settings detailed in the [General configurations](../../migration/using/general-configurations.md) section.
 
 ## Web applications {#web-applications}
 

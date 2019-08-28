@@ -30,7 +30,7 @@ In the **[!UICONTROL General]** tab of the properties window, you can modify the
 
 ![](assets/s_ncs_admin_survey_properties_general_tab.png)
 
-The form template is chosen during form creation. It cannot be changed later. For more on creating and managing form templates, refer to [Using a web form template](https://helpx.adobe.com/campaign/standard/web/using/using-a-web-form-template.html).
+The form template is chosen during form creation. It cannot be changed later. For more on creating and managing form templates, refer to [Using a web form template](../../web/using/using-a-web-form-template.md).
 
 ## Form data storage {#form-data-storage}
 
@@ -56,7 +56,7 @@ The content of the strings displayed is defined in the **[!UICONTROL Error page]
 
 The **[!UICONTROL Localization]** tab lets you select the design and display languages for the Web form.
 
-See [Translating a web form](https://helpx.adobe.com/campaign/standard/web/using/translating-a-web-form.html).
+See [Translating a web form](../../web/using/translating-a-web-form.md).
 
 ## Form browsing and rendering {#form-browsing-and-rendering}
 
@@ -80,7 +80,7 @@ These elements are displayed at the bottom of each page. Their positions can be 
 
 The **[!UICONTROL Template]** field of the **[!UICONTROL Rendering]** tab lets you select a theme from those available.
 
-Themes are saved in the **[!UICONTROL Administration>Configuration>Form rendering]** node of the tree. See [Selecting the form rendering template](https://helpx.adobe.com/campaign/standard/web/using/form-rendering.html#selecting-the-form-rendering-template)
+Themes are saved in the **[!UICONTROL Administration>Configuration>Form rendering]** node of the tree. See [Selecting the form rendering template](../../web/using/form-rendering.md#selecting-the-form-rendering-template)
 
 A sample rendering is displayed in the lower part of the properties window. The **[!UICONTROL Edit link]** icon lets you view the configuration for the selected theme.
 
@@ -88,13 +88,13 @@ A sample rendering is displayed in the lower part of the properties window. The 
 
 ## Texts in the form {#texts-in-the-form}
 
-The **[!UICONTROL Page]** tab lets you define the content of the form header and footer. See [Defining headers and footers](https://helpx.adobe.com/campaign/standard/web/using/form-rendering.html#defining-headers-and-footers).
+The **[!UICONTROL Page]** tab lets you define the content of the form header and footer. See [Defining headers and footers](../../web/using/form-rendering.md#defining-headers-and-footers).
 
-It also lets you manage translations. See [Translating a web form](https://helpx.adobe.com/campaign/standard/web/using/translating-a-web-form.html).
+It also lets you manage translations. See [Translating a web form](../../web/using/translating-a-web-form.md).
 
 ## Accessibility of the form {#accessibility-of-the-form}
 
-A Web form is accessible to users if it is **[!UICONTROL Online]** and if the current date is within its validity period. The status of the form is modified during the publication stage (see [Publishing a form](https://helpx.adobe.com/campaign/standard/web/using/publishing-a-web-form.html#publishing-a-form)). The status is displayed in the **Project** section of the **[!UICONTROL General]** tab of the properties window.
+A Web form is accessible to users if it is **[!UICONTROL Online]** and if the current date is within its validity period. The status of the form is modified during the publication stage (see [Publishing a form](../../web/using/publishing-a-web-form.md#publishing-a-form)). The status is displayed in the **Project** section of the **[!UICONTROL General]** tab of the properties window.
 
 The validity period runs from the **[!UICONTROL Start]** date to the **[!UICONTROL End date]** . If no dates are specified in these fields, the form has permanent validity.
 
@@ -116,7 +116,7 @@ When the page is accessed, the following authentication form will come up:
 
 ![](assets/s_ncs_admin_survey_access_login.png)
 
-Login and password are those used by Adobe Campaign operators. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/access-management.html).
+Login and password are those used by Adobe Campaign operators. For more on this, refer to [this section](../../platform/using/access-management.md).
 
 The **[!UICONTROL Use a specific account]** option lets you limit the read or write permission of the operator who accesses the form. Use the drop-down box to select an operator or group of operators who will be in charge of granting these permissions. 
 
@@ -153,7 +153,7 @@ Parameters can be added via the **[!UICONTROL Parameters...]** tab in the Proper
 
 ![](assets/s_ncs_admin_survey_properties_param.png)
 
-You must specify a storage location from which the value of the parameter will be retrieved. To do this, select one of the storage options and then click the **[!UICONTROL Storage]** tab to select the field or the variable concerned. The storage options are detailed in [Response storage fields](https://helpx.adobe.com/campaign/standard/web/using/web-forms-answers.html#response-storage-fields).
+You must specify a storage location from which the value of the parameter will be retrieved. To do this, select one of the storage options and then click the **[!UICONTROL Storage]** tab to select the field or the variable concerned. The storage options are detailed in [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
 
 The respondent status (0, 1 or any other value) may then be added to the URL for accessing the form. This information can be re-used in the pages of the form or in a test box. The pages displayed can be conditioned based on the value of the context, as shown below:
 

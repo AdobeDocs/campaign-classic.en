@@ -22,14 +22,14 @@ To approve your message and send it to the recipients of the delivery being crea
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validating the delivery](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#validating-the-delivery)
-* [Sending the delivery](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#sending-the-delivery)
+* [Validating the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#validating-the-delivery)
+* [Sending the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-the-delivery)
 
 ## Archiving emails {#archiving-emails}
 
 Adobe Campaign enables you to store emails on an external system through BCC by simply adding a BCC email address to your message target. Once the option activated, an exact copy of all sent messages will be kept for this delivery.
 
-For more information on configuring Email BCC, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/email-archiving.html).
+For more information on configuring Email BCC, refer to [this section](../../installation/using/email-archiving.md).
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ To do this, follow the steps below:
 
 The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email.
 
-By default, the mirror page is generated if the link is inserted in the content of the mail. For more on personalization blocks insertion, refer to [Personalization blocks](https://helpx.adobe.com/campaign/standard/delivery/using/personalization-blocks.html).
+By default, the mirror page is generated if the link is inserted in the content of the mail. For more on personalization blocks insertion, refer to [Personalization blocks](../../delivery/using/personalization-blocks.md).
 
 In the delivery properties, the **[!UICONTROL Mode]** field of the **[!UICONTROL Validity]** tab lets you modify the generation mode for this page.
 

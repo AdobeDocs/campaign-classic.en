@@ -44,7 +44,7 @@ Creating a new form will enable you to view and edit the data of the external re
 
    >[!NOTE]
    >
-   >To find out more about **form** type files, refer to [this page](https://helpx.adobe.com/campaign/classic/configuration/using/identifying-a-form.html).
+   >To find out more about **form** type files, refer to [this page](../../configuration/using/identifying-a-form.md).
 
    In our current example, the **form** file must be based on the **cus:individual** schema and therefore have the following layout:
 
@@ -73,7 +73,7 @@ Creating a new form will enable you to view and edit the data of the external re
 
    >[!NOTE]
    >
-   >For more on **navtree** type files, refer to [this page](https://helpx.adobe.com/campaign/classic/configuration/using/about-navigation-hierarchy.html).
+   >For more on **navtree** type files, refer to [this page](../../configuration/using/about-navigation-hierarchy.md).
 
    In the current example, the **navtree** file must be based on the **cus:individual** schema and therefore have the following form:
 

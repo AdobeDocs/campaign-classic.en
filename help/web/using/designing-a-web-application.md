@@ -18,7 +18,7 @@ snippet: y
 
 # Designing a web application{#designing-a-web-application}
 
-Web applications are created and managed according to the same principle as [online surveys](https://helpx.adobe.com/campaign/classic/web/using/about-surveys.html).
+Web applications are created and managed according to the same principle as [online surveys](../../web/using/about-surveys.md).
 
 However, the functional differences are as follows:
 

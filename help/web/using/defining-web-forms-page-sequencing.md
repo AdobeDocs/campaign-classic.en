@@ -26,7 +26,7 @@ For each page, you can delete the **[!UICONTROL Next]** or **[!UICONTROL Previou
 
 ![](assets/s_ncs_admin_survey_no_next_page.png)
 
-You can replace these buttons with links. See [Inserting HTML content](https://helpx.adobe.com/campaign/standard/web/using/static-elements-in-a-web-form.html#inserting-html-content).
+You can replace these buttons with links. See [Inserting HTML content](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
 ## Inserting a jump {#inserting-a-jump}
 
@@ -58,7 +58,7 @@ In the following example, we want to configure a Web form which, when approved, 
 
    ![](assets/s_ncs_admin_survey_jump_sample1.png)
 
-1. In the form properties, add a parameter (**next**) stored in a local variable (**next**). Local variables are detailed in [Storing data in a local variable](https://helpx.adobe.com/campaign/standard/web/using/web-forms-answers.html#storing-data-in-a-local-variable).
+1. In the form properties, add a parameter (**next**) stored in a local variable (**next**). Local variables are detailed in [Storing data in a local variable](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable).
 
    ![](assets/s_ncs_admin_survey_jump_sample2.png)
 
@@ -76,7 +76,7 @@ In the following example, we want to configure a Web form which, when approved, 
 
 ## Inserting a link to another page of the form {#inserting-a-link-to-another-page-of-the-form}
 
-You can insert links to other pages of the form. To do this, add a **[!UICONTROL Link]** type static element to the page. For more on this, refer to [Inserting a link](https://helpx.adobe.com/campaign/standard/web/using/static-elements-in-a-web-form.html#inserting-a-link).
+You can insert links to other pages of the form. To do this, add a **[!UICONTROL Link]** type static element to the page. For more on this, refer to [Inserting a link](../../web/using/static-elements-in-a-web-form.md#inserting-a-link).
 
 ## Conditional page display {#conditional-page-display}
 
@@ -92,7 +92,7 @@ You can either store this information in a field of the database or use a local 
 
 >[!NOTE]
 >
->The storage modes are detailed in [Response storage fields](https://helpx.adobe.com/campaign/standard/web/using/web-forms-answers.html#response-storage-fields).
+>The storage modes are detailed in [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
 
 In our example, we want to use a variable:
 
@@ -110,7 +110,7 @@ Next, define the page sequencing when one or other of the conditions is true, fo
 
 ### Display based on parameters {#display-based-on-parameters}
 
-You can also personalize the page sequencing according to the initialization parameters of the Web form or according to the values stored in the database. See [Form URL parameters](https://helpx.adobe.com/campaign/standard/web/using/defining-web-forms-properties.html#form-url-parameters).
+You can also personalize the page sequencing according to the initialization parameters of the Web form or according to the values stored in the database. See [Form URL parameters](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
 ## Adding scripts {#adding-scripts}
 

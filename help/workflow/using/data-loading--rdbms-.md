@@ -20,7 +20,7 @@ snippet: y
 
 The **[!UICONTROL Data loading (RDBMS)]** activity lets you access this external database directly and to collect only the data required for targeting.
 
-To improve performance, we recommend using the query activity (where the data of an external database can be used). For more on this, refer to [Accessing an external database (FDA)](https://helpx.adobe.com/campaign/standard/workflow/using/accessing-an-external-database--fda-.html).
+To improve performance, we recommend using the query activity (where the data of an external database can be used). For more on this, refer to [Accessing an external database (FDA)](../../workflow/using/accessing-an-external-database--fda-.md).
 
 Operation is as follows:
 

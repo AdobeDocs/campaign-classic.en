@@ -22,11 +22,11 @@ A **Split**-type activity lets you split a target into several subsets. The targ
 
 This activity does not trigger a union of inbound populations. If several transitions land in one split activity, we recommend inserting a **[!UICONTROL Union]** activity in front of it.
 
-For an example of the split activity being used, refer to [Creating subsets using the Split activity](https://helpx.adobe.com/campaign/standard/workflow/using/targeting-data.html#creating-subsets-using-the-split-activity).
+For an example of the split activity being used, refer to [Creating subsets using the Split activity](../../workflow/using/targeting-data.md#creating-subsets-using-the-split-activity).
 
-An example illustrating how to use the Split activity to segment the target into different populations using filtering conditions is described in [this section](https://helpx.adobe.com/campaign/classic/workflow/using/cross-channel-delivery-workflow.html).
+An example illustrating how to use the Split activity to segment the target into different populations using filtering conditions is described in [this section](../../workflow/using/cross-channel-delivery-workflow.md).
 
-An example showing how to use an instance variable in a Split activity is available in [Campaign Knowlegde Base](https://helpx.adobe.com/campaign/kb/instance-variable-in-workflow.html).
+An example showing how to use an instance variable in a Split activity is available in [Campaign Knowlegde Base](https://helpx.adobe.com/campaign/kb/instance-variable-in-workflow.md).
 
 To configure this activity, define the subset content and label in the **[!UICONTROL Subsets]** tab, then choose the target dimension in the **[!UICONTROL General]** tab.
 
@@ -47,7 +47,7 @@ To create a subset:
 
 1. You can specify the maximum number of records to be extracted from the target to create the subset. To do this, check the **[!UICONTROL Limit the selected records]** option and click the **[!UICONTROL Edit...]** link.
 
-   A wizard lets you choose the selection mode for records of this subset. The steps can be found in [Limiting the number of subset records](https://helpx.adobe.com/campaign/standard/workflow/using/split.html#limiting-the-number-of-subset-records).
+   A wizard lets you choose the selection mode for records of this subset. The steps can be found in [Limiting the number of subset records](../../workflow/using/split.md#limiting-the-number-of-subset-records).
 
    ![](assets/s_user_segmentation_partage4.png)
 
@@ -98,9 +98,9 @@ If you do not wish to use the entire population contained in a subset, you can l
     
     * **[!UICONTROL Size (as a % of the segment)]** : a percentage of records relating only to the subsets and not to the initial population.
     * **[!UICONTROL Maximum size]** : a maximum number of records.
-    * **[!UICONTROL By data grouping]** : you can set a limit on the number of records depending on the values in a specified field of the inbound population. For more on this subject, refer to [Limiting the number of subset records by data grouping](https://helpx.adobe.com/campaign/standard/workflow/using/split.html#limiting-the-number-of-subset-records-by-data-grouping).
-    * **[!UICONTROL By data grouping (in %)]** : you can set a limit on the number of records depending on the values in a specified field of the inbound population using a percentage. For more on this subject, refer to [Limiting the number of subset records by data grouping](https://helpx.adobe.com/campaign/standard/workflow/using/split.html#limiting-the-number-of-subset-records-by-data-grouping).
-    * **[!UICONTROL By data distribution]** : If your grouping fields have too many values or if you want to avoid entering the values again for each new split activity, Adobe Campaign lets you configure a **[!UICONTROL By data distribution]** limitation (optional Distributed Marketing module). For more on this, refer to [Limiting the number of subset records per data distribution](https://helpx.adobe.com/campaign/standard/workflow/using/split.html#limiting-the-number-of-subset-records-per-data-distribution).
+    * **[!UICONTROL By data grouping]** : you can set a limit on the number of records depending on the values in a specified field of the inbound population. For more on this subject, refer to [Limiting the number of subset records by data grouping](../../workflow/using/split.md#limiting-the-number-of-subset-records-by-data-grouping).
+    * **[!UICONTROL By data grouping (in %)]** : you can set a limit on the number of records depending on the values in a specified field of the inbound population using a percentage. For more on this subject, refer to [Limiting the number of subset records by data grouping](../../workflow/using/split.md#limiting-the-number-of-subset-records-by-data-grouping).
+    * **[!UICONTROL By data distribution]** : If your grouping fields have too many values or if you want to avoid entering the values again for each new split activity, Adobe Campaign lets you configure a **[!UICONTROL By data distribution]** limitation (optional Distributed Marketing module). For more on this, refer to [Limiting the number of subset records per data distribution](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 1. Click **[!UICONTROL Finish]** to approve the record selection criteria. The defined configuration is then displayed in the middle window of the editor.
 
@@ -126,9 +126,9 @@ For instance, if you select the **[!UICONTROL Language]** field as a group field
 
 ## Limiting the number of subset records per data distribution {#limiting-the-number-of-subset-records-per-data-distribution}
 
-If your grouping fields contain too large a number of values or if you want to avoid resetting values for every new split activity, Adobe Campaign lets you create a limitation per data distribution. When selecting data limitation values (for more on this subject see the [Creating subsets](https://helpx.adobe.com/campaign/standard/workflow/using/split.html#creating-subsets) section), select the **[!UICONTROL By data distribution]** option and select a template from the drop-down menu. Creating a data distribution template is demonstrated below.
+If your grouping fields contain too large a number of values or if you want to avoid resetting values for every new split activity, Adobe Campaign lets you create a limitation per data distribution. When selecting data limitation values (for more on this subject see the [Creating subsets](../../workflow/using/split.md#creating-subsets) section), select the **[!UICONTROL By data distribution]** option and select a template from the drop-down menu. Creating a data distribution template is demonstrated below.
 
-For an example of the **[!UICONTROL Local approval]** activity with a distribution template, refer to [Using the local approval activity](https://helpx.adobe.com/campaign/standard/workflow/using/using-the-local-approval-activity.html).
+For an example of the **[!UICONTROL Local approval]** activity with a distribution template, refer to [Using the local approval activity](../../workflow/using/using-the-local-approval-activity.md).
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 
@@ -152,12 +152,12 @@ The data distribution template lets you limit the number of records using a list
     * **[!UICONTROL Targeting dimension]** : enter the targeting dimension to which the data distribution will be applied, **[!UICONTROL Recipient]** for instance. This schema must always be compatible with the data used in the targeting workflow.
     * **[!UICONTROL Distribution field]** : select a field via the targeting dimension. For instance, if you select the **[!UICONTROL Email domain]** field, the list of recipients will be broken down by domain.
     * **[!UICONTROL Distribution type]** : select the way the limitation value of the target will be broken down in the **[!UICONTROL Distribution]** tab: **[!UICONTROL Percentage]** or **[!UICONTROL Set]** .
-    * **[!UICONTROL Assignment type]** : select the data distribution assignment type. You can choose between assignment by group or operator or assignment by local entity. Assignment by local entity is used in **Distributed Marketing**. For more information, refer to this [section](https://helpx.adobe.com/campaign/classic/campaign/using/about-distributed-marketing.html).
-    * **[!UICONTROL Approval storage]** : if you use a **[!UICONTROL Local approval]** activity in your targeting workflow (refer to [Local approval](https://helpx.adobe.com/campaign/standard/workflow/using/local-approval.html)), enter the schema in which the approval results will be stored. You must specify one storage schema per targeting schema. If you use the **[!UICONTROL Recipients]** targeting schema, enter the default **[!UICONTROL Local approval of recipients]** storage schema.
+    * **[!UICONTROL Assignment type]** : select the data distribution assignment type. You can choose between assignment by group or operator or assignment by local entity. Assignment by local entity is used in **Distributed Marketing**. For more information, refer to this [section](../../campaign/using/about-distributed-marketing.md).
+    * **[!UICONTROL Approval storage]** : if you use a **[!UICONTROL Local approval]** activity in your targeting workflow (refer to [Local approval](../../workflow/using/local-approval.md)), enter the schema in which the approval results will be stored. You must specify one storage schema per targeting schema. If you use the **[!UICONTROL Recipients]** targeting schema, enter the default **[!UICONTROL Local approval of recipients]** storage schema.
 
       In case of a simple limitation by data grouping without local approval, you do not need to enter the **[!UICONTROL Approvals storage]** field.
 
-1. If you are using a **[!UICONTROL Local approval]** activity (refer to [Local approval](https://helpx.adobe.com/campaign/standard/workflow/using/local-approval.html)), enter the **[!UICONTROL Advanced settings]** for the distribution template:
+1. If you are using a **[!UICONTROL Local approval]** activity (refer to [Local approval](../../workflow/using/local-approval.md)), enter the **[!UICONTROL Advanced settings]** for the distribution template:
 
    ![](assets/local_validation_data_distribution_3.png)
 
@@ -193,7 +193,7 @@ The data distribution template lets you limit the number of records using a list
       This column is defined by the **[!UICONTROL Distribution type]** field within the **[!UICONTROL General]** tab.
     
     * **[!UICONTROL Label]** : enter the label linked to each value.
-    * **[!UICONTROL Group or operator]** : if you are using a **[!UICONTROL Local approval]** activity (refer to [Local approval](https://helpx.adobe.com/campaign/standard/workflow/using/local-approval.html)), select the operator or group of operators assigned to each distribution value.
+    * **[!UICONTROL Group or operator]** : if you are using a **[!UICONTROL Local approval]** activity (refer to [Local approval](../../workflow/using/local-approval.md)), select the operator or group of operators assigned to each distribution value.
 
       In case of a simple limitation by data grouping without local approval, you do not need to enter the **[!UICONTROL Group or operator]** field.
 
@@ -201,7 +201,7 @@ The data distribution template lets you limit the number of records using a list
       >
       >Make sure the operators have been assigned the appropriate rights.
 
-    * **[!UICONTROL Local entity]** : select the local entity assigned to each distribution value. Local entities are used in **Distributed Marketing**. For more information, refer to this [section](https://helpx.adobe.com/campaign/classic/campaign/using/about-distributed-marketing.html).
+    * **[!UICONTROL Local entity]** : select the local entity assigned to each distribution value. Local entities are used in **Distributed Marketing**. For more information, refer to this [section](../../campaign/using/about-distributed-marketing.md).
 
 ## Filtering parameters {#filtering-parameters}
 

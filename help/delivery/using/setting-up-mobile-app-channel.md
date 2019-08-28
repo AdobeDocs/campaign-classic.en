@@ -28,7 +28,7 @@ You can create several versions of your mobile application (iOS, Android): the M
 
 To use the functionalities of the Adobe Campaign Mobile App Channel, you need to change/adapt your mobile application to integrate it into the Adobe Campaign platform.
 
-Two Campaign Classic SDKs are available, one for Android and one for iOS, for an easy integration of your mobile application with Adobe Campaign. A deep technical knowledge of Java and Objective-C is required. A detailed description of Campaign SDK is found in [Integrating Campaign SDK into the mobile application](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#integrating-campaign-sdk-into-the-mobile-application).
+Two Campaign Classic SDKs are available, one for Android and one for iOS, for an easy integration of your mobile application with Adobe Campaign. A deep technical knowledge of Java and Objective-C is required. A detailed description of Campaign SDK is found in [Integrating Campaign SDK into the mobile application](../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application).
 
 >[!NOTE]
 >
@@ -82,26 +82,26 @@ To choose which connector you want to use, follow these steps:
 
 ### Creating the application {#creating-the-application}
 
-If you don't have a mobile application (app), the application developer needs to create it and integrate the SDK. If the mobile application exists, the developer needs to adapt it by integrating the Adobe Campaign SDK and adding the settings specific to the service. For a description of the SDK, refer to [Integrating Campaign SDK into the mobile application](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#integrating-campaign-sdk-into-the-mobile-application).
+If you don't have a mobile application (app), the application developer needs to create it and integrate the SDK. If the mobile application exists, the developer needs to adapt it by integrating the Adobe Campaign SDK and adding the settings specific to the service. For a description of the SDK, refer to [Integrating Campaign SDK into the mobile application](../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application).
 
 >[!CAUTION]
 >
 >The application must have been configured for Push actions BEFORE any integration to Adobe Campaign SDK.   
->If this is not the case, please refer to: [https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/Introduction.html](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/Introduction.html).
+>If this is not the case, please refer to: [https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/Introduction.md](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/Introduction.md).
 
 ### Collecting information {#collecting-information-}
 
 To configure the application, you have to collect the technical specifications which define the set of parameters that enable Adobe Campaign and the mobile application to communicate. These parameters are:
 
-* **the integration key**: each application has a unique key. This key lets you link the Adobe Campaign service and the mobile application. Refer to [General information](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#general-information).
-* **the variables**: define the behavior of the application when you activate the notification. Refer to [General information](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#general-information).
-* **the subscription settings**: by default, Adobe Campaign recovers the **@userKey** field that enables you to reconcile mobile devices with the recipients in the database. If you want to collect additional data (such as a complex reconciliation key), you can define subscription settings. Refer to [Subscription settings](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#subscription-settings).
-* **the sounds** (iOS only): if the selected sound isn't a system sound, the sound file must be embedded into the mobile application. Refer to [Application sounds](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#application-sounds).
-* **the URL of the marketing server and the tracking server**: the Adobe Campaign administrator must provide the application developer with the URLs of the marketing server and the URLs of the tracking server. For more on this, refer to: [Integrating Campaign SDK into the mobile application](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#integrating-campaign-sdk-into-the-mobile-application).
+* **the integration key**: each application has a unique key. This key lets you link the Adobe Campaign service and the mobile application. Refer to [General information](../../delivery/using/setting-up-mobile-app-channel.md#general-information).
+* **the variables**: define the behavior of the application when you activate the notification. Refer to [General information](../../delivery/using/setting-up-mobile-app-channel.md#general-information).
+* **the subscription settings**: by default, Adobe Campaign recovers the **@userKey** field that enables you to reconcile mobile devices with the recipients in the database. If you want to collect additional data (such as a complex reconciliation key), you can define subscription settings. Refer to [Subscription settings](../../delivery/using/setting-up-mobile-app-channel.md#subscription-settings).
+* **the sounds** (iOS only): if the selected sound isn't a system sound, the sound file must be embedded into the mobile application. Refer to [Application sounds](../../delivery/using/setting-up-mobile-app-channel.md#application-sounds).
+* **the URL of the marketing server and the tracking server**: the Adobe Campaign administrator must provide the application developer with the URLs of the marketing server and the URLs of the tracking server. For more on this, refer to: [Integrating Campaign SDK into the mobile application](../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application).
 
 ### Creating the service {#creating-the-service}
 
-The Adobe Campaign administrator needs to create and configure a service linked to the mobile application. For more on this, refer to [Configuring the mobile application in Adobe Campaign](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#configuring-the-mobile-application-in-adobe-campaign).
+The Adobe Campaign administrator needs to create and configure a service linked to the mobile application. For more on this, refer to [Configuring the mobile application in Adobe Campaign](../../delivery/using/setting-up-mobile-app-channel.md#configuring-the-mobile-application-in-adobe-campaign).
 
 ### Testing the application {#testing-the-application}
 
@@ -169,7 +169,7 @@ Campaign SDKs for iOS and Android are one of the components of the Mobile App Ch
 
 The goal of the SDK is to facilitate the integration of a mobile application into the Adobe Campaign platform.
 
-To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#MobileSDK) .
+To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md#MobileSDK) .
 
 ### Loading Campaign SDK {#loading-campaign-sdk}
 
@@ -209,7 +209,7 @@ To integrate Campaign SDK into the mobile application, the functional administra
 
   >[!NOTE]
   >
-  >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application. Refer to [General information](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#general-information).
+  >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application. Refer to [General information](../../delivery/using/setting-up-mobile-app-channel.md#general-information).
 
 * **A tracking URL**: that matches the address of the Adobe Campaign tracking server.
 * **A marketing URL**: to enable the collection of subscriptions.
@@ -693,7 +693,7 @@ To implement **registerDeviceStatus** delegate, follow these steps:
 
 ### Variables {#variables}
 
-The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [General information](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#general-information)). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
+The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [General information](../../delivery/using/setting-up-mobile-app-channel.md#general-information)). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
 
 * **In Android**:
 
@@ -744,7 +744,7 @@ The variables let you define mobile application behavior after receiving a notif
 
 You can find below a configuration sample based on a company which sells online holiday packages. His mobile application (Neotrips) is available to its customers in two versions: Neotrips for Android and Neotrips for iOS. To configure the mobile application in Adobe Campaign, you need to:
 
-1. Create a **[!UICONTROL Mobile application]** type [information service](https://helpx.adobe.com/campaign/classic/delivery/using/setting-up-mobile-app-channel.html#creating-the-service-and-collecting-subscriptions) for the Neotrips mobile application.
+1. Create a **[!UICONTROL Mobile application]** type [information service](../../delivery/using/setting-up-mobile-app-channel.md#creating-the-service-and-collecting-subscriptions) for the Neotrips mobile application.
 1. Add the iOS and Android versions of the application to this service.
 
 ![](assets/nmac_service_diagram.png)
@@ -764,7 +764,7 @@ You can find below a configuration sample based on a company which sells online 
 
    >[!NOTE]
    >
-   >The default **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the **[!UICONTROL Target mapping]** field of the service. For more on creating target mapping, refer to the [Configuration guide](https://helpx.adobe.com/campaign/classic/configuration/using/about-custom-recipient-table.html).
+   >The default **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the **[!UICONTROL Target mapping]** field of the service. For more on creating target mapping, refer to the [Configuration guide](../../configuration/using/about-custom-recipient-table.md).
 
 1. Then click the **[!UICONTROL Add]** button to define the various versions of your mobile application (iOS, Android). 
 
@@ -781,8 +781,8 @@ See below for a detailed presentation of the configuration steps for each versio
 ![](assets/nmac_service_3.png)
 
 1. Start by entering the **[!UICONTROL Label]** .
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code (via the SDK). For more on this, refer to: [Integrating Campaign SDK into the mobile application](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#integrating-campaign-sdk-into-the-mobile-application). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform. 
-1. If your application handles an application icon (top left corner of the notification), you can add it here so that the preview is more faithful to the actual style of the delivery. To add an image in the content (rich notification), refer to the [Rich notifications](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#rich-notifications) section.
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code (via the SDK). For more on this, refer to: [Integrating Campaign SDK into the mobile application](../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform. 
+1. If your application handles an application icon (top left corner of the notification), you can add it here so that the preview is more faithful to the actual style of the delivery. To add an image in the content (rich notification), refer to the [Rich notifications](../../delivery/using/setting-up-mobile-app-channel.md#rich-notifications) section.
 
    >[!CAUTION]
    >
@@ -795,7 +795,7 @@ See below for a detailed presentation of the configuration steps for each versio
 
    Variables let you define the application behavior following the receipt of a notification: for instance, you can configure an application specific screen to come up when the user activates the notification. These variables must be defined in the code of your mobile application. Click the **[!UICONTROL Add]** button to add them to Adobe Campaign.
 
-   The delivery wizard lets you define the values of these variables. Refer to [Creating notifications](https://helpx.adobe.com/campaign/standard/delivery/using/creating-notifications.html).
+   The delivery wizard lets you define the values of these variables. Refer to [Creating notifications](../../delivery/using/creating-notifications.md).
 
 ### Subscription settings {#subscription-settings}
 
@@ -812,7 +812,7 @@ By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (
 
    >[!CAUTION]
    >
-   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to the [Integrating Campaign SDK into the mobile application](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#integrating-campaign-sdk-into-the-mobile-application) section.
+   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to the [Integrating Campaign SDK into the mobile application](../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application) section.
 
 ### Application sounds {#application-sounds}
 
@@ -822,7 +822,7 @@ By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (
 
 ![](assets/nmac_service_6.png)
 
-If your iOS application has embedded sounds, use this tab to add them. You will then be able to use the delivery wizard to select one of the sounds to be played when the notification is received. For more on this, refer to [Sending notifications on iOS](https://helpx.adobe.com/campaign/standard/delivery/using/creating-notifications.html#sending-notifications-on-ios).
+If your iOS application has embedded sounds, use this tab to add them. You will then be able to use the delivery wizard to select one of the sounds to be played when the notification is received. For more on this, refer to [Sending notifications on iOS](../../delivery/using/creating-notifications.md#sending-notifications-on-ios).
 
 >[!NOTE]
 >
@@ -852,7 +852,7 @@ A rich notification allows you to include other types of media into your notific
 
 ### Android {#android}
 
-Adobe Campaign allows you to define application variables in addition to content (see [Sending notifications on Android](https://helpx.adobe.com/campaign/standard/delivery/using/creating-notifications.html#sending-notifications-on-android)). These variables can be used to provide information such as the image URL to the mobile application. The mobile application can then generate a custom notification.
+Adobe Campaign allows you to define application variables in addition to content (see [Sending notifications on Android](../../delivery/using/creating-notifications.md#sending-notifications-on-android)). These variables can be used to provide information such as the image URL to the mobile application. The mobile application can then generate a custom notification.
 
 You first need to create a mobile application in Adobe Campaign and define the application variables for that application.
 
@@ -914,7 +914,7 @@ With iOS 10 or higher, it is possible to generate rich notifications. Adobe Camp
 
 >[!NOTE]
 >
->If you want to use rich notifications, you need to use the iOS HTTP/2 connector. Refer to the [Connectors](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#connectors) section.
+>If you want to use rich notifications, you need to use the iOS HTTP/2 connector. Refer to the [Connectors](../../delivery/using/setting-up-mobile-app-channel.md#connectors) section.
 
 In Adobe Campaign, the following parameters have to be sent to the mobile application:
 

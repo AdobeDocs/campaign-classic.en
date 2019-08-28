@@ -367,7 +367,7 @@ This example involves the following steps:
 
 1. You may then use this content template in your deliveries.
 
-   For more on this, refer to [Using a content template](https://helpx.adobe.com/campaign/standard/delivery/using/using-a-content-template.html).
+   For more on this, refer to [Using a content template](../../delivery/using/using-a-content-template.md).
 
 ## XSL Stylesheets {#xsl-stylesheets}
 
@@ -563,7 +563,7 @@ In the form, the field for selecting the image will be added via the following s
 
 >[!NOTE]
 >
->For more on **[!UICONTROL Public resources]** and how to configure and use them, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/deploying-an-instance.html#managing-public-resources).
+>For more on **[!UICONTROL Public resources]** and how to configure and use them, refer to [this section](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
 ## Date display {#date-display}
 

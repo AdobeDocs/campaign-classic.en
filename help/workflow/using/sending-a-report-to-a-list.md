@@ -24,9 +24,9 @@ This use case details how to generate a monthly out-of-the-box **[!UICONTROL Tra
 
 The main implementation steps for this use case are:
 
-* Creating a list of recipients who will receive the delivery (refer to: [Step 1: Creating the recipient list](https://helpx.adobe.com/campaign/standard/workflow/using/sending-a-report-to-a-list.html#step-1--creating-the-recipient-list)). 
-* Creating a delivery template that will let you generate a new delivery each time the workflow is executed (refer to: [Step 2: Creating the delivery template](https://helpx.adobe.com/campaign/standard/workflow/using/sending-a-report-to-a-list.html#step-2--creating-the-delivery-template)).
-* Creating a workflow that will let you generate the report in PDF format and send it to the list of recipients (refer to: [Step 3: Creating the workflow](https://helpx.adobe.com/campaign/standard/workflow/using/sending-a-report-to-a-list.html#step-3--creating-the-workflow)).
+* Creating a list of recipients who will receive the delivery (refer to: [Step 1: Creating the recipient list](../../workflow/using/sending-a-report-to-a-list.md#step-1--creating-the-recipient-list)). 
+* Creating a delivery template that will let you generate a new delivery each time the workflow is executed (refer to: [Step 2: Creating the delivery template](../../workflow/using/sending-a-report-to-a-list.md#step-2--creating-the-delivery-template)).
+* Creating a workflow that will let you generate the report in PDF format and send it to the list of recipients (refer to: [Step 3: Creating the workflow](../../workflow/using/sending-a-report-to-a-list.md#step-3--creating-the-workflow)).
 
 ## Step 1: Creating the recipient list {#step-1--creating-the-recipient-list}
 
@@ -34,7 +34,7 @@ Go to the **[!UICONTROL Profiles and targets]** universe, click the **[!UICONTRO
 
 ![](assets/use_case_report_1.png)
 
-For more on creating lists, refer to this [section](https://helpx.adobe.com/campaign/classic/platform/using/creating-and-managing-lists.html).
+For more on creating lists, refer to this [section](../../platform/using/creating-and-managing-lists.md).
 
 ## Step 2: Creating the delivery template {#step-2--creating-the-delivery-template}
 
@@ -42,15 +42,15 @@ For more on creating lists, refer to this [section](https://helpx.adobe.com/camp
 
    ![](assets/use_case_report_2.png)
 
-   For more on creating a delivery template, refer to this [section](https://helpx.adobe.com/campaign/classic/delivery/using/about-templates.html).
+   For more on creating a delivery template, refer to this [section](../../delivery/using/about-templates.md).
 
 1. Enter the various template parameters: label, target (the list of previously created recipients), subject and content.
 
    ![](assets/use_case_report_3.png)
 
-1. Each time the workflow is executed, the **[!UICONTROL Tracking indicators]** report is updated (refer to [Step 3: Creating the workflow](https://helpx.adobe.com/campaign/standard/workflow/using/sending-a-report-to-a-list.html#step-3--creating-the-workflow)). To include the latest version of the report in the delivery, you need to add a **[!UICONTROL Calculated attachment]** :
+1. Each time the workflow is executed, the **[!UICONTROL Tracking indicators]** report is updated (refer to [Step 3: Creating the workflow](../../workflow/using/sending-a-report-to-a-list.md#step-3--creating-the-workflow)). To include the latest version of the report in the delivery, you need to add a **[!UICONTROL Calculated attachment]** :
 
-   For more on creating a calculated attachment, refer to this [section](https://helpx.adobe.com/campaign/classic/delivery/using/attaching-files.html#creating-a-calculated-attachment).
+   For more on creating a calculated attachment, refer to this [section](../../delivery/using/attaching-files.md#creating-a-calculated-attachment).
 
     * Click the **[!UICONTROL Attachments]** link and click **[!UICONTROL Add]** , then select **[!UICONTROL Calculated attachment]** .
     
@@ -68,7 +68,7 @@ For more on creating lists, refer to this [section](https://helpx.adobe.com/camp
 
       >[!CAUTION]
       >
-      >The file must be present on the server. Its path and name must be identical to those entered in the **[!UICONTROL JavaScript code]** type activity of the workflow (refer to: [Step 3: Creating the workflow](https://helpx.adobe.com/campaign/standard/workflow/using/sending-a-report-to-a-list.html#step-3--creating-the-workflow)).
+      >The file must be present on the server. Its path and name must be identical to those entered in the **[!UICONTROL JavaScript code]** type activity of the workflow (refer to: [Step 3: Creating the workflow](../../workflow/using/sending-a-report-to-a-list.md#step-3--creating-the-workflow)).
 
     * Select the **[!UICONTROL Advanced]** tab and check **[!UICONTROL Script the name of the file name displayed in the mails sent]** . Go to the edit zone and enter the name you want to give the attachment in the final delivery.
     
@@ -92,7 +92,7 @@ The following workflow was created for this use case. It has three activities:
 
    ![](assets/use_case_report_9.png)
 
-   For more on configuring the scheduler, refer to [Scheduler](https://helpx.adobe.com/campaign/standard/workflow/using/scheduler.html).
+   For more on configuring the scheduler, refer to [Scheduler](../../workflow/using/scheduler.md).
 
 1. Then add a **[!UICONTROL JavaScript code]** type activity.
 
@@ -118,7 +118,7 @@ The following workflow was created for this use case. It has three activities:
 
       >[!CAUTION]
       >
-      >The file must be saved on the server. You must enter the same path and the same name in the **[!UICONTROL General]** tab of the edit window for the calculated attachment (refer to: [Step 2: Creating the delivery template](https://helpx.adobe.com/campaign/standard/workflow/using/sending-a-report-to-a-list.html#step-2--creating-the-delivery-template)).
+      >The file must be saved on the server. You must enter the same path and the same name in the **[!UICONTROL General]** tab of the edit window for the calculated attachment (refer to: [Step 2: Creating the delivery template](../../workflow/using/sending-a-report-to-a-list.md#step-2--creating-the-delivery-template)).
 
     * **var exportFormat**: enter the export format of the file ("PDF").
     * **var _ctx** (context): in this case, we are using the **[!UICONTROL Tracking indicators]** report in its global context.

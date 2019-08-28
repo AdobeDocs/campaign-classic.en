@@ -32,7 +32,7 @@ snippet: y
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> To increase efficiency in your work as an Admin user, manage settings of your SFTP servers by monitoring storage, whitelisting IP addresses, and installing SSH keys for each instance. Please note Control Panel is only available for customers hosted on AWS as of today ( <a href="https://experiencecloud.adobe.com/campaign/controlpanel/">login through the Experience Cloud today</a>).<br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.html">how-to video</a>. <br /> </td> 
+   <td> To increase efficiency in your work as an Admin user, manage settings of your SFTP servers by monitoring storage, whitelisting IP addresses, and installing SSH keys for each instance. Please note Control Panel is only available for customers hosted on AWS as of today ( <a href="https://experiencecloud.adobe.com/campaign/controlpanel/">login through the Experience Cloud today</a>).<br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.md">how-to video</a>. <br /> </td> 
   </tr> 
   <tr> 
    <td> Guardrail, Robustness &amp; Scalability<br /> </td> 
@@ -40,7 +40,7 @@ snippet: y
   </tr> 
   <tr> 
    <td> Secure SMS Messaging (TLS)<br /> </td> 
-   <td> Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.<br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html">detailed documentation</a>. <br /> </td> 
+   <td> Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.<br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.md">detailed documentation</a>. <br /> </td> 
   </tr> 
   <tr> 
    <td> Global Workflow Monitoring<br /> </td> 
@@ -50,11 +50,11 @@ snippet: y
      <li> <p>visualize data on multiple instances at the same time</p> </li> 
      <li> <p>extend data storage limits</p> </li> 
      <li> <p>analyze and detect potential anomalies</p> </li> 
-    </ul> For more information, refer to the <a href="https://helpx.adobe.com/campaign/classic/production/using/monitoring-processes.html#about-the-workflow-heatmap">detailed documentation</a>. <br /> </td> 
+    </ul> For more information, refer to the <a href="../../production/using/monitoring-processes.md#about-the-workflow-heatmap">detailed documentation</a>. <br /> </td> 
   </tr> 
   <tr> 
    <td> Compatibility Matrix Update<br /> </td> 
-   <td> With this new version, Adobe Campaign now supports the following database systems. Refer to the <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Compatibility Matrix</a>.<br /> 
+   <td> With this new version, Adobe Campaign now supports the following database systems. Refer to the <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.md">Compatibility Matrix</a>.<br /> 
     <ul> 
      <li> <p>Oracle 18c</p> </li> 
      <li> <p>MySQL 5.7 (FDA)</p> </li> 
@@ -68,7 +68,7 @@ snippet: y
 
 ## Security enhancements {#security-enhancements}
 
-* For security reasons, you can no longer insert arbitrary commands when using the **[!UICONTROL Pre-process the file]** option in a **[!UICONTROL Data loading (file)]** workflow activity. A drop-down list is now available allowing you to select from 3 options: **[!UICONTROL None]** , **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg). The XtkSecurity_Disable_Preproc security flag has been added. For new customers, this option will be set to 0. For existing customers, this option will be set to 1 by the postupgrade in order to keep the previous behavior. Refer to this [section](https://helpx.adobe.com/campaign/classic/workflow/using/data-loading--file-.html).
+* For security reasons, you can no longer insert arbitrary commands when using the **[!UICONTROL Pre-process the file]** option in a **[!UICONTROL Data loading (file)]** workflow activity. A drop-down list is now available allowing you to select from 3 options: **[!UICONTROL None]** , **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg). The XtkSecurity_Disable_Preproc security flag has been added. For new customers, this option will be set to 0. For existing customers, this option will be set to 1 by the postupgrade in order to keep the previous behavior. Refer to this [section](../../workflow/using/data-loading--file-.md).
 * Fixed a password visibility issue that occurred when testing the connection of an FDA external account with no time zone set.
 * The PDFBox library has been removed.
 * Tomcat has been updated to version 7.0.93.
@@ -83,16 +83,16 @@ snippet: y
 
 ## Guardrail, robustness &amp; scalability improvements {#guardrail--robustness-e-scalability-improvements}
 
-* Lifespan - XtkNewId sequence usage optimization: the most consuming tables have been moved from the xtkNewId sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence ) 
+* Lifespan - XtkNewId sequence usage optimization: the most consuming tables have been moved from the xtkNewId sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.md#Switchtoadedicatedsequence ) 
 * FDA over HTTP v2: the FDA over HTTP protocol is widely used on Hybrid deployments, especially for broadLog retrieval and delivery preparation. Robustness has been enhanced to avoid network issues and possible errors as retrieving or pushing data. This requires that builds at both ends of the connection are up-to-date, otherwise the old protocol will still be used.
 * Tracking workflow: the tracking workflow robustness has been enhanced. Several issues related to tracking log inserts/updates and URL tracking customization have been fixed.
 * Cleanup workflow: the cleanup workflow has been improved to avoid potential errors and stops. This optimizes database size and performance.
 * Embedded images in transactional messages: we have added the full support of embedded images in transactional messages, to avoid possible crashes or missing images.
 * Database size - XtkJobLog: a purge mechanism has been added to this table. This has a positive impact on the database size.
-* BCC archiving: the default parameters for BCC archiving have been changed to increase archiving velocity. [Read more](https://helpx.adobe.com/campaign/classic/installation/using/email-archiving.html#parameters)
+* BCC archiving: the default parameters for BCC archiving have been changed to increase archiving velocity. [Read more](../../installation/using/email-archiving.md#parameters)
 * Database structure update: SQL requests generated by the Database Structure Update Wizard have been improved for faster execution.
 * Guardrails for operator actions: several guardrails have been implemented to prevent operators from performing actions which could impact the platform's integrity. Built-in schemas can no longer be deleted through the interface. Also, the workflow source XML can no longer be edited by non-admin users.
-* Two new options have been made available: **XtkSecurity_Restrict_EditXML** (allows you to disable the edition of deliveries’ XML code) and **NmsOperation_OperationMgtDebug** (allows you to monitor the operationMgt technical workflow execution). [Read more](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-options.html)
+* Two new options have been made available: **XtkSecurity_Restrict_EditXML** (allows you to disable the edition of deliveries’ XML code) and **NmsOperation_OperationMgtDebug** (allows you to monitor the operationMgt technical workflow execution). [Read more](../../installation/using/configuring-campaign-options.md)
 
 ## Other changes {#other-changes}
 
@@ -104,7 +104,7 @@ snippet: y
 * In the Analytics integration, the retrieval of AAM segment data with % character is now allowed. (NEO-12025)
 * Removed the 10,000 record limit in Workflow Heatmap to fix a missing data issue. (NEO-12329)
 * Open Office is not supported and is now fully removed from the application. If you were still using it, move to Libre Office as it will not work anymore starting 19.1.
-* You can now limit Write access to Update data activity in Workflow using sysfilter attributes. [Read more](https://helpx.adobe.com/campaign/classic/configuration/using/filtering-schemas.html)
+* You can now limit Write access to Update data activity in Workflow using sysfilter attributes. [Read more](../../configuration/using/filtering-schemas.md)
 
 ## Patches {#patches}
 

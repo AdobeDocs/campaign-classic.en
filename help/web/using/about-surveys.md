@@ -24,9 +24,9 @@ The optional **Survey** module lets you create a new type of Web application to 
 
 This chapter details the method for creating and managing **Surveys**, field and page management, storage modes and records.
 
-The steps for creating a standard Web form are detailed in [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html).
+The steps for creating a standard Web form are detailed in [this section](../../web/using/about-web-forms.md).
 
-Web application management is detailed in [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-applications.html). Please refer to this chapter for more information.
+Web application management is detailed in [this section](../../web/using/about-web-applications.md). Please refer to this chapter for more information.
 
 >[!CAUTION]
 >
@@ -49,15 +49,15 @@ In Adobe Campaign, Web applications in general let you access the following func
 
 >[!NOTE]
 >
->All configurations linked to Web forms are detailed in [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html). Refer to this document for details on concepts and on Web form functionalities using Adobe Campaign.
+>All configurations linked to Web forms are detailed in [this section](../../web/using/about-web-forms.md). Refer to this document for details on concepts and on Web form functionalities using Adobe Campaign.
 
 The optional survey creation module (**Survey**) offers the following additional functionalities:
 
-* Dynamic extension of the database: creation of answers which aren't part of the initial data model. For more on this, refer to [Storing collected answers](https://helpx.adobe.com/campaign/standard/web/using/managing-answers.html#storing-collected-answers).
-* Score management. For more on this, refer to [Score management](https://helpx.adobe.com/campaign/standard/web/using/managing-answers.html#score-management).
-* Random displaying of questions. For more on this, refer to [Adding questions](https://helpx.adobe.com/campaign/standard/web/using/building-a-survey.html#adding-questions).
-* Real time tracking of answers. For more on this, refer to [Response tracking](https://helpx.adobe.com/campaign/standard/web/using/publish--track-and-use-collected-data.html#response-tracking).
-* Generating dedicated reports. For more on this, refer to [Reports on surveys](https://helpx.adobe.com/campaign/standard/web/using/publish--track-and-use-collected-data.html#reports-on-surveys).
+* Dynamic extension of the database: creation of answers which aren't part of the initial data model. For more on this, refer to [Storing collected answers](../../web/using/managing-answers.md#storing-collected-answers).
+* Score management. For more on this, refer to [Score management](../../web/using/managing-answers.md#score-management).
+* Random displaying of questions. For more on this, refer to [Adding questions](../../web/using/building-a-survey.md#adding-questions).
+* Real time tracking of answers. For more on this, refer to [Response tracking](../../web/using/publish--track-and-use-collected-data.md#response-tracking).
+* Generating dedicated reports. For more on this, refer to [Reports on surveys](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys).
 
 Compared to Web applications, surveys have a simplified graphical interface with a reduced number of editing controls.
 
@@ -73,7 +73,7 @@ Apply the following steps to create and deliver a survey and process its results
 1. Publish, then deliver the survey to recipients (e.g. in a delivery action or via an internet site).
 1. Monitor responses and view reports.
 
-For more information on configuring and sequencing these steps, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html). Only configurations specific to surveys are detailed below.
+For more information on configuring and sequencing these steps, refer to [this section](../../web/using/about-web-forms.md). Only configurations specific to surveys are detailed below.
 
 ## Surveys configuration {#surveys-configuration}
 
@@ -84,5 +84,5 @@ Surveys are stored in the **[!UICONTROL Resources > Online > Web Applications]**
 
 >[!NOTE]
 >
->Configuration information is available in [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html).
+>Configuration information is available in [this section](../../web/using/about-web-forms.md).
 

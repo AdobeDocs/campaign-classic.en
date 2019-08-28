@@ -58,11 +58,11 @@ Outside of these dates, the offer won't be selected by the Interaction engine. I
 
 You can apply filters to the offer target.
 
-To do this, click the **[!UICONTROL Edit query]** link and select the filter you want to apply. (Refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/steps-to-create-a-query.html#step-4---filter-data)). 
+To do this, click the **[!UICONTROL Edit query]** link and select the filter you want to apply. (Refer to [this section](../../platform/using/steps-to-create-a-query.md#step-4---filter-data)). 
 
 ![](assets/offer_eligibility_create_003.png)
 
-If predefined filters have been created already, you can select them from the list of user filters. For more on this, refer to [Creating predefined filters](https://helpx.adobe.com/campaign/standard/interaction/using/creating-predefined-filters.html).
+If predefined filters have been created already, you can select them from the list of user filters. For more on this, refer to [Creating predefined filters](../../interaction/using/creating-predefined-filters.md).
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -76,7 +76,7 @@ For example, an offer can have a weight of A for contacts aged 18 to 25 and a we
 
 >[!NOTE]
 >
->The assigned weight can be temporarily modified according to the parameters of the category the offer belongs to. For more on this, refer to [Creating offer categories](https://helpx.adobe.com/campaign/standard/interaction/using/creating-offer-categories.html).
+>The assigned weight can be temporarily modified according to the parameters of the category the offer belongs to. For more on this, refer to [Creating offer categories](../../interaction/using/creating-offer-categories.md).
 
 To create a weight in an offer, apply the following steps:
 
@@ -153,11 +153,11 @@ To view it, click the **[!UICONTROL Schedule and eligibility rules]** link.
       </div>
       ```
 
-   Defining the acceptance URL is presented in the [Configuring the status when the proposition is accepted](https://helpx.adobe.com/campaign/standard/interaction/using/creating-offer-spaces.html#configuring-the-status-when-the-proposition-is-accepted) section.
+   Defining the acceptance URL is presented in the [Configuring the status when the proposition is accepted](../../interaction/using/creating-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted) section.
 
    ![](assets/offer_content_create_002.png)
 
-   To find the required fields as they were defined during offer space configuration, click the **[!UICONTROL Content definitions]** link to display the list. For more on this, refer to [Creating offer spaces](https://helpx.adobe.com/campaign/standard/interaction/using/creating-offer-spaces.html).
+   To find the required fields as they were defined during offer space configuration, click the **[!UICONTROL Content definitions]** link to display the list. For more on this, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
 
    ![](assets/offer_content_create_003.png)
 
@@ -189,7 +189,7 @@ You can create hypotheses on your offer propositions. This lets you determine th
 
 Hypotheses carried out on an offer proposition are referenced in their **[!UICONTROL Measure]** tab.
 
-Creating hypotheses is detailed in [this page](https://helpx.adobe.com/campaign/classic/campaign/using/about-response-manager.html).
+Creating hypotheses is detailed in [this page](../../campaign/using/about-response-manager.md).
 
 ![](assets/offer_hypothesis_001.png)
 

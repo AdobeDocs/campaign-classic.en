@@ -24,9 +24,9 @@ There are three types of delivery objects in Campaign:
 
 A **delivery** is a standalone delivery object that is executed once. It can be duplicated, prepared again, but as long as it is in its final state (canceled, stopped, finished), it cannot be reused.
 
-Deliveries can be created either from the list of deliveries, or within a workflow via a [Delivery](https://helpx.adobe.com/campaign/classic/workflow/using/delivery.html) activity.
+Deliveries can be created either from the list of deliveries, or within a workflow via a [Delivery](../../workflow/using/delivery.md) activity.
 
-Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activites, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/cross-channel-deliveries.html).
+Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activites, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
 
 ## Recurring delivery {#recurring-delivery}
 
@@ -34,7 +34,7 @@ A **recurring delivery** lets you create a new delivery each time the activity i
 
 As an example, if you run this type of activity once a month, you will end up with 12 deliveries after a year.
 
-Recurring deliveries are created within workflows via the Recurring delivery activity. An example of this activity being used is presented in this section: [Creating a recurring delivery in a targeting workflow](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#creating-a-recurring-delivery-in-a-targeting-workflow).
+Recurring deliveries are created within workflows via the Recurring delivery activity. An example of this activity being used is presented in this section: [Creating a recurring delivery in a targeting workflow](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 ## Continuous delivery {#continuous-delivery}
 

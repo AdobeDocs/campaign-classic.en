@@ -22,6 +22,6 @@ Event types destined to be processed by Adobe Campaign must be created in the co
 
 ![](assets/messagecenter_eventtype_enum_001.png)
 
-For more on itemized lists, refer to [Enumeration management](https://helpx.adobe.com/campaign/classic/platform/using/managing-enumerations.html).
+For more on itemized lists, refer to [Enumeration management](../../platform/using/managing-enumerations.md).
 
 Once the itemized list values have been created, log off and back on to your instance for the creation to be effective.

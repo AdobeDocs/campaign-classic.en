@@ -32,5 +32,5 @@ In the case of an inbound contact (call center or web site), the most relevant o
 
   ![](assets/s_ncs_configuration_offer_context.png)
 
-* When configuring SOAP calls, insert the **context** XML element to reference context information added in the interaction schema. For further information, refer to [Integration via SOAP (server side)](https://helpx.adobe.com/campaign/standard/interaction/using/integration-via-soap--server-side-.html).
+* When configuring SOAP calls, insert the **context** XML element to reference context information added in the interaction schema. For further information, refer to [Integration via SOAP (server side)](../../interaction/using/integration-via-soap--server-side-.md).
 

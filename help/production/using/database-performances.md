@@ -31,7 +31,7 @@ Check that the initial Adobe Campaign platform configuration is still valid and 
 
 >[!NOTE]
 >
->You can refer to [Adobe Campaign Harware Sizing guide](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.html) for insights.
+>You can refer to [Adobe Campaign Harware Sizing guide](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.md) for insights.
 
 ## Platform configuration {#platform-configuration}
 
@@ -41,7 +41,7 @@ Inappropriate configuration may affect platform performance. We recommend that y
 
 **Database cleanup task**
 
-Please make sure the database cleanup task is operational. To do this, view the log files to see if they contain any errors. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/production/using/database-cleanup-workflow.html).
+Please make sure the database cleanup task is operational. To do this, view the log files to see if they contain any errors. For more on this, refer to [this section](../../production/using/database-cleanup-workflow.md).
 
 **Maintenance plans**
 
@@ -51,7 +51,7 @@ Make sure database maintenance is correctly scheduled and executed. To do this, 
 * previously executed maintenance plans,
 * view the script logs.
 
-For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/production/using/recommendations.html).
+For more on this, refer to [this section](../../production/using/recommendations.md).
 
 >[!CAUTION]
 >
@@ -67,14 +67,14 @@ Please check the number and size of work tables. When they exceed a certain size
 
 >[!CAUTION]
 >
->If the operation takes a long time and frees up a lot of space, this means that in-depth maintenance is necessary (index rebuilding, etc.). For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/production/using/recommendations.html).
+>If the operation takes a long time and frees up a lot of space, this means that in-depth maintenance is necessary (index rebuilding, etc.). For more on this, refer to [this section](../../production/using/recommendations.md).
 
 **Adobe Campaign process monitoring**
 
 Depending on Adobe Campaign installation settings, two tools can be used for platform monitoring:
 
-* the instance production page. For more on this, refer to [Manual monitoring](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#manual-monitoring). 
-* the netreport script. For more on this, refer to [Automatic monitoring via Adobe Campaign scripts](https://helpx.adobe.com/campaign/standard/production/using/monitoring-processes.html#automatic-monitoring-via-adobe-campaign-scripts).
+* the instance production page. For more on this, refer to [Manual monitoring](../../production/using/monitoring-processes.md#manual-monitoring). 
+* the netreport script. For more on this, refer to [Automatic monitoring via Adobe Campaign scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
 
 ## Specifics {#specifics}
 

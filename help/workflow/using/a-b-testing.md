@@ -30,19 +30,19 @@ Moreover, the test detailed in this use case concerns only two deliveries, but y
 
 To create the A/B test, apply the following steps:
 
-* [Step 1: Creating a targeting workflow](https://helpx.adobe.com/campaign/standard/workflow/using/a-b-testing.html#step-1--creating-a-targeting-workflow)
-* [Step 2: Configuring population samples](https://helpx.adobe.com/campaign/standard/workflow/using/a-b-testing.html#step-2--configuring-population-samples)
-* [Step 3: Creating two delivery templates](https://helpx.adobe.com/campaign/standard/workflow/using/a-b-testing.html#step-3--creating-two-delivery-templates)
-* [Step 4: Configuring the deliveries in the workflow](https://helpx.adobe.com/campaign/standard/workflow/using/a-b-testing.html#step-4--configuring-the-deliveries-in-the-workflow)
-* [Step 5: Creating the script](https://helpx.adobe.com/campaign/standard/workflow/using/a-b-testing.html#step-5--creating-the-script)
-* [Step 7: Starting the workflow](https://helpx.adobe.com/campaign/standard/workflow/using/a-b-testing.html#step-7--starting-the-workflow)
-* [Step 8: Analyzing the result](https://helpx.adobe.com/campaign/standard/workflow/using/a-b-testing.html#step-8--analyzing-the-result).
+* [Step 1: Creating a targeting workflow](../../workflow/using/a-b-testing.md#step-1--creating-a-targeting-workflow)
+* [Step 2: Configuring population samples](../../workflow/using/a-b-testing.md#step-2--configuring-population-samples)
+* [Step 3: Creating two delivery templates](../../workflow/using/a-b-testing.md#step-3--creating-two-delivery-templates)
+* [Step 4: Configuring the deliveries in the workflow](../../workflow/using/a-b-testing.md#step-4--configuring-the-deliveries-in-the-workflow)
+* [Step 5: Creating the script](../../workflow/using/a-b-testing.md#step-5--creating-the-script)
+* [Step 7: Starting the workflow](../../workflow/using/a-b-testing.md#step-7--starting-the-workflow)
+* [Step 8: Analyzing the result](../../workflow/using/a-b-testing.md#step-8--analyzing-the-result).
 
 ## Step 1: Creating a targeting workflow {#step-1--creating-a-targeting-workflow}
 
 You need to create your workflow in the **[!UICONTROL Targeting and Workflows]** tab of a campaign. It is made up of a **[!UICONTROL Query]** activity, a **[!UICONTROL Split]** activity linked to two **[!UICONTROL Email delivery]** activities, a **[!UICONTROL Wait]** activity, a **[!UICONTROL JavaScript code]** activity, and a **[!UICONTROL Delivery]** activity.
 
-1. If you haven't already done so, create a campaign (for more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#creating-a-campaign)).
+1. If you haven't already done so, create a campaign (for more on this, refer to this [section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).
 
    ![](assets/use_case_abtesting_targetwkfl_001.png)
 
@@ -50,7 +50,7 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. Change the label of the existing workflow or click **[!UICONTROL Add]** to create a new one (for more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#selecting-the-target-population)).
+1. Change the label of the existing workflow or click **[!UICONTROL Add]** to create a new one (for more on this, refer to this [section](../../campaign/using/setting-up-marketing-campaigns.md#selecting-the-target-population)).
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
@@ -126,7 +126,7 @@ This activity lets you create several populations: the one that receives deliver
 
 ## Step 3: Creating two delivery templates {#step-3--creating-two-delivery-templates}
 
-We now want to create two delivery templates. Each template will be referenced in an **[!UICONTROL Email delivery]** activity linked to the **[!UICONTROL Split]** activity. For more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/delivery/using/about-templates.html).
+We now want to create two delivery templates. Each template will be referenced in an **[!UICONTROL Email delivery]** activity linked to the **[!UICONTROL Split]** activity. For more on this, refer to this [section](../../delivery/using/about-templates.md).
 
 1. Go to the **[!UICONTROL Resources > Delivery template]** folder.
 1. Duplicate the **[!UICONTROL Email]** delivery template.
@@ -143,7 +143,7 @@ We now want to create two delivery templates. Each template will be referenced i
 
 ## Step 4: Configuring the deliveries in the workflow {#step-4--configuring-the-deliveries-in-the-workflow}
 
-The next step is to configure the deliveries. They are destined for the three populations created during the previous stage: [Step 2: Configuring population samples](https://helpx.adobe.com/campaign/standard/workflow/using/a-b-testing.html#step-2--configuring-population-samples). The first two deliveries enable you to send different contents to population A and B. The third delivery is destined for the population that received neither A nor B. Its content will be calculated by a script and will be identical to either A or B, depending on which one scored the highest open rate. We need to configure a wait period for the third delivery, to find out the outcome of deliveries A and B. This is why the third delivery includes a **[!UICONTROL Wait]** activity.
+The next step is to configure the deliveries. They are destined for the three populations created during the previous stage: [Step 2: Configuring population samples](../../workflow/using/a-b-testing.md#step-2--configuring-population-samples). The first two deliveries enable you to send different contents to population A and B. The third delivery is destined for the population that received neither A nor B. Its content will be calculated by a script and will be identical to either A or B, depending on which one scored the highest open rate. We need to configure a wait period for the third delivery, to find out the outcome of deliveries A and B. This is why the third delivery includes a **[!UICONTROL Wait]** activity.
 
 1. Go to the **[!UICONTROL Split]** activity and link the transition destined for population A to one of the email deliveries already in the workflow.
 
@@ -184,7 +184,7 @@ The choice of the delivery content destined for the remaining population is calc
 
 ### Example of a script {#example-of-a-script}
 
-The following script can be used as is in the targeting workflow. For more on this, refer to [Implementation](https://helpx.adobe.com/campaign/standard/workflow/using/a-b-testing.html#implementation).
+The following script can be used as is in the targeting workflow. For more on this, refer to [Implementation](../../workflow/using/a-b-testing.md#implementation).
 
 ```
  // query the database to find the winner (best open rate)
@@ -231,12 +231,12 @@ The following script can be used as is in the targeting workflow. For more on th
 
 ```
 
-For a detailed explanation of the script, refer to [Details of the script](https://helpx.adobe.com/campaign/standard/workflow/using/a-b-testing.html#details-of-the-script).
+For a detailed explanation of the script, refer to [Details of the script](../../workflow/using/a-b-testing.md#details-of-the-script).
 
 ### Implementation {#implementation}
 
 1. Open your **[!UICONTROL JavaScript code]** activity.
-1. Copy the script offered in [Example of a script](https://helpx.adobe.com/campaign/standard/workflow/using/a-b-testing.html#example-of-a-script) into the **[!UICONTROL JavaScript code]** window.
+1. Copy the script offered in [Example of a script](../../workflow/using/a-b-testing.md#example-of-a-script) into the **[!UICONTROL JavaScript code]** window.
 
    ![](assets/use_case_abtesting_configscript_002.png)
 

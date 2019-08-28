@@ -23,7 +23,7 @@ Adding coupons to your deliveries can give your recipients enhanced value for pr
 >[!NOTE]
 >
 >Coupon management is a package that must be installed. To confirm that you have Coupon management, check **[!UICONTROL Administration > Configuration > Package management > Installed packages.]** 
->Coupon data can be imported and exported using CSV and XML formats. For details regarding importing and exporting, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/generic-imports-and-exports.html).
+>Coupon data can be imported and exported using CSV and XML formats. For details regarding importing and exporting, refer to [this section](../../platform/using/generic-imports-and-exports.md).
 
 ## Creating a coupon {#creating-a-coupon}
 
@@ -54,11 +54,11 @@ Before following the steps below, make sure that you know the type of coupon you
     1. Enter a unique code for the individual coupon when prompted by the pop-up window.
     1. Click **[!UICONTROL Save]** to generate the coupon.
 
-   For more details about the Coupons tab, see [Configuring individual coupons](https://helpx.adobe.com/campaign/standard/delivery/using/personalized-coupons.html#configuring-individual-coupons).
+   For more details about the Coupons tab, see [Configuring individual coupons](../../delivery/using/personalized-coupons.md#configuring-individual-coupons).
 
    >[!NOTE]
    >
-   >Individual coupons can be imported in bulk. For details regarding importing and exporting, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/generic-imports-and-exports.html).
+   >Individual coupons can be imported in bulk. For details regarding importing and exporting, refer to [this section](../../platform/using/generic-imports-and-exports.md).
 
 ### Configuring individual coupons {#configuring-individual-coupons}
 
@@ -75,7 +75,7 @@ Values for **[!UICONTROL status]** , **[!UICONTROL channel]** , and **[!UICONTRO
 
 ## Inserting a coupon into an email delivery {#inserting-a-coupon-into-an-email-delivery}
 
-In the example below, the delivery is created from the Home page. For detailed instructions on how to create a delivery, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/about-email-channel.html). You can also add a coupon to a delivery in a workflow.
+In the example below, the delivery is created from the Home page. For detailed instructions on how to create a delivery, refer to [this section](../../delivery/using/about-email-channel.md). You can also add a coupon to a delivery in a workflow.
 
 1. Go to **[!UICONTROL Campaigns]** and choose **[!UICONTROL Deliveries]** .
 1. Click **[!UICONTROL Create]** .
@@ -137,7 +137,7 @@ In the example below, the delivery is created from the Home page. For detailed i
 
 >[!NOTE]
 >
->For instructions on how to manage insufficient coupons for a delivery, see [Managing insufficient coupons](https://helpx.adobe.com/campaign/standard/delivery/using/personalized-coupons.html#managing-insufficient-coupons)
+>For instructions on how to manage insufficient coupons for a delivery, see [Managing insufficient coupons](../../delivery/using/personalized-coupons.md#managing-insufficient-coupons)
 
 To confirm that the delivery was successful:
 
@@ -150,7 +150,7 @@ To confirm that the delivery was successful:
 
 >[!NOTE]
 >
->By default, the coupon management module uses an **nms:recipient **table. For instructions on how to use other tables, see [Editing schemas](https://helpx.adobe.com/campaign/classic/configuration/using/data-schemas.html).
+>By default, the coupon management module uses an **nms:recipient **table. For instructions on how to use other tables, see [Editing schemas](../../configuration/using/data-schemas.md).
 
 ## Managing insufficient coupons {#managing-insufficient-coupons}
 

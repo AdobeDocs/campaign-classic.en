@@ -28,18 +28,18 @@ When using the buttons in the toolbar, select the type of field you want to add.
 
 The following types of field are available:
 
-* Text/number input. See [Adding input fields](https://helpx.adobe.com/campaign/standard/web/using/adding-fields-to-a-web-form.html#adding-input-fields).
-* Selection from a drop-down list. See [Adding drop-down lists](https://helpx.adobe.com/campaign/standard/web/using/adding-fields-to-a-web-form.html#adding-drop-down-lists).
-* Multiple choice via checkboxes. See [Adding checkboxes](https://helpx.adobe.com/campaign/standard/web/using/adding-fields-to-a-web-form.html#adding-checkboxes).
-* Exclusive selection via radio buttons. See [Adding radio buttons](https://helpx.adobe.com/campaign/standard/web/using/adding-fields-to-a-web-form.html#adding-radio-buttons).
-* Vote in an option grid. See [Adding grids](https://helpx.adobe.com/campaign/standard/web/using/adding-fields-to-a-web-form.html#adding-grids). 
-* Entering numbers and dates. See [Adding dates and numbers](https://helpx.adobe.com/campaign/standard/web/using/adding-fields-to-a-web-form.html#adding-dates-and-numbers).
-* Subscribing to and unsubscribing from an information service. See [Subscription checkboxes](https://helpx.adobe.com/campaign/standard/web/using/adding-fields-to-a-web-form.html#subscription-checkboxes).
-* Check before approval via a captcha. See [Inserting a captcha](https://helpx.adobe.com/campaign/standard/web/using/adding-fields-to-a-web-form.html#inserting-a-captcha).
-* Adding a download button. [Uploading a file](https://helpx.adobe.com/campaign/standard/web/using/adding-fields-to-a-web-form.html#uploading-a-file).
-* Constant approval. See [Inserting a hidden constant](https://helpx.adobe.com/campaign/standard/web/using/adding-fields-to-a-web-form.html#inserting-a-hidden-constant).
+* Text/number input. See [Adding input fields](../../web/using/adding-fields-to-a-web-form.md#adding-input-fields).
+* Selection from a drop-down list. See [Adding drop-down lists](../../web/using/adding-fields-to-a-web-form.md#adding-drop-down-lists).
+* Multiple choice via checkboxes. See [Adding checkboxes](../../web/using/adding-fields-to-a-web-form.md#adding-checkboxes).
+* Exclusive selection via radio buttons. See [Adding radio buttons](../../web/using/adding-fields-to-a-web-form.md#adding-radio-buttons).
+* Vote in an option grid. See [Adding grids](../../web/using/adding-fields-to-a-web-form.md#adding-grids). 
+* Entering numbers and dates. See [Adding dates and numbers](../../web/using/adding-fields-to-a-web-form.md#adding-dates-and-numbers).
+* Subscribing to and unsubscribing from an information service. See [Subscription checkboxes](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes).
+* Check before approval via a captcha. See [Inserting a captcha](../../web/using/adding-fields-to-a-web-form.md#inserting-a-captcha).
+* Adding a download button. [Uploading a file](../../web/using/adding-fields-to-a-web-form.md#uploading-a-file).
+* Constant approval. See [Inserting a hidden constant](../../web/using/adding-fields-to-a-web-form.md#inserting-a-hidden-constant).
 
-Please specify the answer registration mode: update a field in the database (stores only the last value saved) or store in a variable (the answer is not stored). For more on this, refer to [Response storage fields](https://helpx.adobe.com/campaign/standard/web/using/web-forms-answers.html#response-storage-fields).
+Please specify the answer registration mode: update a field in the database (stores only the last value saved) or store in a variable (the answer is not stored). For more on this, refer to [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
 
 >[!NOTE]
 >
@@ -75,9 +75,9 @@ Five different types of text fields can be inserted into a form page:
 
   ![](assets/s_ncs_admin_survey_txt_ex.png)
 
-* **Number**: lets the user enter a number on one line. for more on this, refer to [Adding numbers](https://helpx.adobe.com/campaign/standard/web/using/adding-fields-to-a-web-form.html#adding-numbers).
+* **Number**: lets the user enter a number on one line. for more on this, refer to [Adding numbers](../../web/using/adding-fields-to-a-web-form.md#adding-numbers).
 
-  When the page is approved, field content is checked to make sure the value entered is compatible with the field. For more on this, refer to [Defining control settings](https://helpx.adobe.com/campaign/standard/web/using/form-rendering.html#defining-control-settings).
+  When the page is approved, field content is checked to make sure the value entered is compatible with the field. For more on this, refer to [Defining control settings](../../web/using/form-rendering.md#defining-control-settings).
 
 * **Password**: lets the user enter text on a single line. During text entry, the characters are replaced by periods:
 
@@ -93,8 +93,8 @@ Five different types of text fields can be inserted into a form page:
 
   >[!CAUTION]
   >
-  >Multi-line text fields are specific fields that can contain carriage returns. Their storage space must be associated with a field mapped on an XML element, not an XML attribute. For more on the types of data in schemas, refer to the "Schema reference" chapter in [this section](https://helpx.adobe.com/campaign/classic/configuration/using/about-schema-reference.html).   
-  >If you are using the **Survey** module, you can store this type of field in an archived field which will automatically adapt to the format. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/about-surveys.html).
+  >Multi-line text fields are specific fields that can contain carriage returns. Their storage space must be associated with a field mapped on an XML element, not an XML attribute. For more on the types of data in schemas, refer to the "Schema reference" chapter in [this section](../../configuration/using/about-schema-reference.md).   
+  >If you are using the **Survey** module, you can store this type of field in an archived field which will automatically adapt to the format. For more on this, refer to [this section](../../web/using/about-surveys.md).
 
 * **Enriched multi-line text**: lets the user enter text with a layout which will be stored in HTML format.
 
@@ -120,9 +120,9 @@ The answer storage mode can be altered via the **[!UICONTROL Edit storage...]** 
 
 >[!NOTE]
 >
->Storage modes are detailed in [Response storage fields](https://helpx.adobe.com/campaign/standard/web/using/web-forms-answers.html#response-storage-fields)
+>Storage modes are detailed in [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields)
 
-The **[!UICONTROL Advanced]** tab lets you define display parameters for the field (position of labels, alignment, etc.). See [Defining web forms layout](https://helpx.adobe.com/campaign/standard/web/using/defining-web-forms-layout.html).
+The **[!UICONTROL Advanced]** tab lets you define display parameters for the field (position of labels, alignment, etc.). See [Defining web forms layout](../../web/using/defining-web-forms-layout.md).
 
 ## Adding drop-down lists {#adding-drop-down-lists}
 
@@ -208,7 +208,7 @@ To add a radio button to a form page, go to the **[!UICONTROL Selection controls
 
 ![](assets/s_ncs_admin_survey_radio_button_sample.png)
 
-Radio buttons are configured in a similar way to checkboxes (see [Adding checkboxes](https://helpx.adobe.com/campaign/standard/web/using/adding-fields-to-a-web-form.html#adding-checkboxes)). However, no value is assigned if the option is not selected. In order for several buttons to be interdependent, i.e. selecting one automatically deselects the others, they must be stored in the same field. If they are not stored in the database, the same local variable must be used for temporary storage. See [Response storage fields](https://helpx.adobe.com/campaign/standard/web/using/web-forms-answers.html#response-storage-fields).
+Radio buttons are configured in a similar way to checkboxes (see [Adding checkboxes](../../web/using/adding-fields-to-a-web-form.md#adding-checkboxes)). However, no value is assigned if the option is not selected. In order for several buttons to be interdependent, i.e. selecting one automatically deselects the others, they must be stored in the same field. If they are not stored in the database, the same local variable must be used for temporary storage. See [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
 
 ### Add a list of buttons {#add-a-list-of-buttons}
 
@@ -220,7 +220,7 @@ Add as many radio buttons as there are labels. The advantage of this feature is 
 
 >[!NOTE]
 >
->Web forms don't authorize the selection of several values. Multiple selection may only be activated for **Survey** type forms. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/about-surveys.html).  
+>Web forms don't authorize the selection of several values. Multiple selection may only be activated for **Survey** type forms. For more on this, refer to [this section](../../web/using/about-surveys.md).  
 >It is possible, however, to insert a **[!UICONTROL Multiple choice]** type field into a Web application; but without authorizing the selection of several values: the options offered can be selected using radio buttons.
 
 ## Adding grids {#adding-grids}
@@ -241,7 +241,7 @@ Only one option can be selected per grid line.
 
 >[!NOTE]
 >
->In our example, the label of the grid is hidden. To do this, go to the **[!UICONTROL Advanced]** tab, the **[!UICONTROL Label position]** display is defined as **[!UICONTROL Hidden]** . See [Defining the position of labels](https://helpx.adobe.com/campaign/standard/web/using/defining-web-forms-layout.html#defining-the-position-of-labels).
+>In our example, the label of the grid is hidden. To do this, go to the **[!UICONTROL Advanced]** tab, the **[!UICONTROL Label position]** display is defined as **[!UICONTROL Hidden]** . See [Defining the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels).
 
 ## Adding dates and numbers {#adding-dates-and-numbers}
 
@@ -267,7 +267,7 @@ Dates can be selected via a calendar or drop-down boxes. You can also enter them
 
 >[!NOTE]
 >
->By default, dates used in forms are entered via a calendar. For multilingual forms, please check that calendars are available in all the languages used. See [Translating a web form](https://helpx.adobe.com/campaign/standard/web/using/translating-a-web-form.html).
+>By default, dates used in forms are entered via a calendar. For multilingual forms, please check that calendars are available in all the languages used. See [Translating a web form](../../web/using/translating-a-web-form.md).
 
 However in some cases, (for entering dates of birth, for instance) it may be easier to use drop-down lists. 
 
@@ -315,7 +315,7 @@ Indicate the label for the checkbox and select the information service concerned
 
 >[!NOTE]
 >
->Information services are detailed in [this page](https://helpx.adobe.com/campaign/classic/delivery/using/managing-subscriptions.html).
+>Information services are detailed in [this page](../../delivery/using/managing-subscriptions.md).
 
 The user subscribes to the service by checking the relevant option.
 
@@ -325,7 +325,7 @@ The user subscribes to the service by checking the relevant option.
 >
 >If the user is already subscribed to an information service and the box linked to this service isn't checked when they approve the form, they will be unsubscribed.
 
-Examples of subscriptions and referrals are available in [this section](https://helpx.adobe.com/campaign/classic/web/using/about-surveys.html).
+Examples of subscriptions and referrals are available in [this section](../../web/using/about-surveys.md).
 
 ## Inserting a captcha {#inserting-a-captcha}
 
@@ -371,7 +371,7 @@ You can add an upload field to a page. This functionality can be useful for intr
 
 To insert an upload field to a form page, select the **[!UICONTROL Advanced controls > File...]** menu in the toolbar of the page editor.
 
-By default, the uploaded files are stored in resource files accessible via the **[!UICONTROL Resources > Online > Public resources]** menu. You can use a script to change this behavior. This script can use the functions defined in [Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html), including those that concern file manipulation.
+By default, the uploaded files are stored in resource files accessible via the **[!UICONTROL Resources > Online > Public resources]** menu. You can use a script to change this behavior. This script can use the functions defined in [Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.md), including those that concern file manipulation.
 
 You can store the link to these files in a local variable or in a database field. For example, you can extend the recipient schema to add a link to file-based resources.
 

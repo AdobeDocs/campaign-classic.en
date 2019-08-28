@@ -89,7 +89,7 @@ To configure and create the referral block, apply the following steps:
 
    >[!NOTE]
    >
-   >Refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/about-templates.html) for more information on delivery templates.
+   >Refer to [this page](../../delivery/using/about-templates.md) for more information on delivery templates.
 
 1. Create the second script for delivering the subscription messages.
 

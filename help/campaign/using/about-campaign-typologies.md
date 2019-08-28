@@ -28,16 +28,16 @@ Campaign Optimization is the Adobe Campaign module which lets you to control, fi
 
 With Adobe Campaign you can design and apply four types of typology rules:
 
-1. **Filtering** rules which let you exclude part of the target based on criteria. For more on this, refer to [Filtering rules](https://helpx.adobe.com/campaign/standard/campaign/using/filtering-rules.html).
-1. **Pressure** rules which let you control marketing fatigue. For more on this, refer to [Pressure rules](https://helpx.adobe.com/campaign/standard/campaign/using/pressure-rules.html).
-1. **Capacity** rules which let you limit loads to guarantee optimal processing conditions. For more on this, refer to [Controlling capacity](https://helpx.adobe.com/campaign/standard/campaign/using/consistency-rules.html#controlling-capacity).
-1. **Control** rules which let you check the validity of messages before they are sent. For more on this, refer to [Control rules](https://helpx.adobe.com/campaign/standard/campaign/using/control-rules.html).
+1. **Filtering** rules which let you exclude part of the target based on criteria. For more on this, refer to [Filtering rules](../../campaign/using/filtering-rules.md).
+1. **Pressure** rules which let you control marketing fatigue. For more on this, refer to [Pressure rules](../../campaign/using/pressure-rules.md).
+1. **Capacity** rules which let you limit loads to guarantee optimal processing conditions. For more on this, refer to [Controlling capacity](../../campaign/using/consistency-rules.md#controlling-capacity).
+1. **Control** rules which let you check the validity of messages before they are sent. For more on this, refer to [Control rules](../../campaign/using/control-rules.md).
 
-Once they have been created, typology rules are grouped in campaign typologies which are referenced in deliveries. See [Applying typologies](https://helpx.adobe.com/campaign/classic/campaign/using/about-campaign-typologies.html#applying-typologies).
+Once they have been created, typology rules are grouped in campaign typologies which are referenced in deliveries. See [Applying typologies](../../campaign/using/about-campaign-typologies.md#applying-typologies).
 
 ## Typologies {#typologies}
 
-A campaign typology can contain several [typology rules](https://helpx.adobe.com/campaign/classic/campaign/using/about-campaign-typologies.html#typology-rules), but a delivery can only reference one typology.
+A campaign typology can contain several [typology rules](../../campaign/using/about-campaign-typologies.md#typology-rules), but a delivery can only reference one typology.
 
 The **[!UICONTROL Rules]** tab lets you add, delete or view the typology rules to apply.
 
@@ -51,13 +51,13 @@ Steps to create and apply a typology to your deliveries are listed below:
 
    Typology rules are found in the **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** node.
 
-   Different rules available in Campaign are described in the following sections: [sales pressure rules](https://helpx.adobe.com/campaign/classic/campaign/using/pressure-rules.html), [capacity rules](https://helpx.adobe.com/campaign/classic/campaign/using/consistency-rules.html#controlling-capacity), [control rules](https://helpx.adobe.com/campaign/classic/campaign/using/control-rules.html) and [filtering rules](https://helpx.adobe.com/campaign/classic/campaign/using/filtering-rules.html).
+   Different rules available in Campaign are described in the following sections: [sales pressure rules](../../campaign/using/pressure-rules.md), [capacity rules](../../campaign/using/consistency-rules.md#controlling-capacity), [control rules](../../campaign/using/control-rules.md) and [filtering rules](../../campaign/using/filtering-rules.md).
 
 1. Create a typology and reference the rules you created into it.
 
    Typologies are accessed via the **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** node. 
 
-1. Configure your delivery to use the typology you created. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/campaign/using/applying-rules.html#applying-a-typology-to-a-delivery).
-1. Test and control the behavior through campaign simulations. For more on campaign simulations, refer to [this section](https://helpx.adobe.com/campaign/classic/campaign/using/campaign-simulations.html).
+1. Configure your delivery to use the typology you created. For more on this, refer to [this section](../../campaign/using/applying-rules.md#applying-a-typology-to-a-delivery).
+1. Test and control the behavior through campaign simulations. For more on campaign simulations, refer to [this section](../../campaign/using/campaign-simulations.md).
 
-During delivery preparation, recipients are excluded when criterion is met. You can check logs to monitor exclusions. Sample use cases on pressure typology rules are available in [this page](https://helpx.adobe.com/campaign/classic/campaign/using/pressure-rules.html#use-cases-on-pressure-rules).
+During delivery preparation, recipients are excluded when criterion is met. You can check logs to monitor exclusions. Sample use cases on pressure typology rules are available in [this page](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules).

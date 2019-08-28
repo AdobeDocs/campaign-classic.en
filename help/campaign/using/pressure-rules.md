@@ -26,8 +26,8 @@ Implementing sales pressure management enables you to avoid over-soliciting the 
 
 Campaigns are selected based on defined thresholds and message weight.
 
-* A threshold is the highest number of deliveries authorized for a given recipient within a given period. It can be either set or variable. It is set or calculated in the typology rule settings. Refer to [Maximum number of messages](https://helpx.adobe.com/campaign/standard/campaign/using/pressure-rules.html#maximum-number-of-messages).
-* Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority. Refer to [Message weight](https://helpx.adobe.com/campaign/standard/campaign/using/pressure-rules.html#message-weight).
+* A threshold is the highest number of deliveries authorized for a given recipient within a given period. It can be either set or variable. It is set or calculated in the typology rule settings. Refer to [Maximum number of messages](../../campaign/using/pressure-rules.md#maximum-number-of-messages).
+* Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority. Refer to [Message weight](../../campaign/using/pressure-rules.md#message-weight).
 
 Arbitration consists in making sure scheduled campaigns whose weight is greater than the campaign in progress won't lead to excessive profile solicitation: if this is the case, the profile is excluded from the delivery.
 
@@ -38,7 +38,7 @@ Arbitration criteria (message weight and/or threshold) can vary based on two typ
 
 The arbitration rule for defining eligible messages is applied during the analysis stage. For each recipient and for the concerned period, the message will be sent if the following formula is true: **(number of messages sent) + (number of messages with a greater weight) < threshold**.
 
-Otherwise, the recipient will be **[!UICONTROL Excluded by arbitration]** . For more on this, refer to [Exclusion after arbitration](https://helpx.adobe.com/campaign/standard/campaign/using/pressure-rules.html#exclusion-after-arbitration).
+Otherwise, the recipient will be **[!UICONTROL Excluded by arbitration]** . For more on this, refer to [Exclusion after arbitration](../../campaign/using/pressure-rules.md#exclusion-after-arbitration).
 
 ## Creating a pressure rule {#creating-a-pressure-rule}
 
@@ -54,8 +54,8 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
    ![](assets/campaign_opt_create_a_rule_02.png)
 
-1. Change the execution order if needed. When multiple typology rules are applied as a **[!UICONTROL Typology]** set, the lower ordered rules are applied first. For more on this, refer to [Execution order](https://helpx.adobe.com/campaign/standard/campaign/using/applying-rules.html#execution-order).
-1. In the **[!UICONTROL Calculation parameters]** section, define a frequency if you want to save targeting beyond the next daily re-arbitration execution. For more on this, refer to [Adjusting calculation frequency](https://helpx.adobe.com/campaign/standard/campaign/using/applying-rules.html#adjusting-calculation-frequency).
+1. Change the execution order if needed. When multiple typology rules are applied as a **[!UICONTROL Typology]** set, the lower ordered rules are applied first. For more on this, refer to [Execution order](../../campaign/using/applying-rules.md#execution-order).
+1. In the **[!UICONTROL Calculation parameters]** section, define a frequency if you want to save targeting beyond the next daily re-arbitration execution. For more on this, refer to [Adjusting calculation frequency](../../campaign/using/applying-rules.md#adjusting-calculation-frequency).
 1. Click the **[!UICONTROL Pressure]** tab and choose the calendar period during which the typology rule applies.
 
    ![](assets/campaign_opt_create_a_rule_03.png)
@@ -64,7 +64,7 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
    >[!NOTE]
    >
-   >Scheduled deliveries are only taken into account if the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option is selected. For more on this, refer to [Setting the period](https://helpx.adobe.com/campaign/standard/campaign/using/pressure-rules.html#setting-the-period).
+   >Scheduled deliveries are only taken into account if the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option is selected. For more on this, refer to [Setting the period](../../campaign/using/pressure-rules.md#setting-the-period).
 
 1. Define the method for calculating the highest number of messages.
 
@@ -78,11 +78,11 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
    ![](assets/campaign_opt_create_a_rule_04.png)
 
-   For more on this, refer to [Maximum number of messages](https://helpx.adobe.com/campaign/standard/campaign/using/pressure-rules.html#maximum-number-of-messages).
+   For more on this, refer to [Maximum number of messages](../../campaign/using/pressure-rules.md#maximum-number-of-messages).
 
 1. Specify the method for calculating delivery weight.
 
-   Each delivery has a weight, i.e. a value which represents its priority level: this enables arbitration between campaigns. Weights are calculated using the formula defined in the typology rule and/or in its properties. For more on this, refer to [Message weight](https://helpx.adobe.com/campaign/standard/campaign/using/pressure-rules.html#message-weight).
+   Each delivery has a weight, i.e. a value which represents its priority level: this enables arbitration between campaigns. Weights are calculated using the formula defined in the typology rule and/or in its properties. For more on this, refer to [Message weight](../../campaign/using/pressure-rules.md#message-weight).
 
 1. By default, all messages are taken into account for threshold calculation. The **[!UICONTROL Restriction]** tab lets you filter the messages concerned by the typology rule:
 
@@ -93,7 +93,7 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
    ![](assets/campaign_opt_create_a_rule_05.png)
 
-1. The **[!UICONTROL Typologies]** tab lets you view the campaign typologies which apply this rule or link the rule to one or more existing typologies. For more on this, refer to [Applying typologies](https://helpx.adobe.com/campaign/classic/campaign/using/about-campaign-typologies.html#applying-typologies).
+1. The **[!UICONTROL Typologies]** tab lets you view the campaign typologies which apply this rule or link the rule to one or more existing typologies. For more on this, refer to [Applying typologies](../../campaign/using/about-campaign-typologies.md#applying-typologies).
 
 ## Defining thresholds and weights {#defining-thresholds-and-weights}
 
@@ -115,7 +115,7 @@ You can index the number of authorized messages according to the segment to whic
 
 ![](assets/campaign_opt_pressure_sample.png)
 
-To define the threshold, you can use a dimension linked to the targeting dimension: for example, to include messages delivered to the recipient profiles stored in the visitors table (for more on the visitors table, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/use-case--creating-a-refer-a-friend-form.html)) or to avoid sending more than one message per week to the same household, (which may refer to several email addresses) identified in a dimension linked to that of the recipients.
+To define the threshold, you can use a dimension linked to the targeting dimension: for example, to include messages delivered to the recipient profiles stored in the visitors table (for more on the visitors table, refer to [this section](../../web/using/use-case--creating-a-refer-a-friend-form.md)) or to avoid sending more than one message per week to the same household, (which may refer to several email addresses) identified in a dimension linked to that of the recipients.
 
 To do so, select the **[!UICONTROL Count messages on a linked dimension]** option, then select the visitor or the contact table.
 
@@ -197,7 +197,7 @@ Finally, if no grouping is selected, only **newsletter no.4** will not be sent, 
 
 >[!NOTE]
 >
->When you change the definition of a typology rule, you can create a **Simulation** to control its impact on the deliveries it is applied to and monitor the impact which the deliveries have on each other. For more on this, refer to [Campaign simulations](https://helpx.adobe.com/campaign/standard/campaign/using/campaign-simulations.html).
+>When you change the definition of a typology rule, you can create a **Simulation** to control its impact on the deliveries it is applied to and monitor the impact which the deliveries have on each other. For more on this, refer to [Campaign simulations](../../campaign/using/campaign-simulations.md).
 
 ## Exclusion after arbitration {#exclusion-after-arbitration}
 
@@ -321,28 +321,28 @@ To do this, you need to schedule several deliveries with different weights for t
 
 First, configure the pressure rule.
 
-1. Create a pressure rule. For more on this, refer to [Creating a pressure rule](https://helpx.adobe.com/campaign/standard/campaign/using/pressure-rules.html#creating-a-pressure-rule).
+1. Create a pressure rule. For more on this, refer to [Creating a pressure rule](../../campaign/using/pressure-rules.md#creating-a-pressure-rule).
 1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Re-apply the rule at the start of personalization]** option.
 
    ![](assets/campaign_opt_pressure_example_5.png)
 
-   This option overrules the value defined in the **[!UICONTROL Frequency]** field and automatically applies the rule during the personalization phase. For more on this, refer to [Adjusting calculation frequency](https://helpx.adobe.com/campaign/standard/campaign/using/applying-rules.html#adjusting-calculation-frequency).
+   This option overrules the value defined in the **[!UICONTROL Frequency]** field and automatically applies the rule during the personalization phase. For more on this, refer to [Adjusting calculation frequency](../../campaign/using/applying-rules.md#adjusting-calculation-frequency).
 
 1. In the **[!UICONTROL Pressure]** tab, select **[!UICONTROL 7d]** as the **[!UICONTROL Period considered]** and **[!UICONTROL Grouping per day]** as the **[!UICONTROL Period type]** .
 1. Select the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option to include the scheduled deliveries.
 
    ![](assets/campaign_opt_pressure_example_1.png)
 
-   Deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date will be taken into account in the calculation. For more on this, refer to [Setting the period](https://helpx.adobe.com/campaign/standard/campaign/using/pressure-rules.html#setting-the-period).
+   Deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date will be taken into account in the calculation. For more on this, refer to [Setting the period](../../campaign/using/pressure-rules.md#setting-the-period).
 
 1. In the **[!UICONTROL Typologies]** tab, link the rule to a campaign typology.
 1. Save your changes.
 
 Now create and configure a workflow for each delivery you want the pressure rule to be applied on.
 
-1. Create a campaign. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#creating-a-campaign).
-1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, add a **Query** activity to your workflow. For more on using this activity, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/query.html).
-1. Add an **[!UICONTROL Email delivery]** activity to the workflow and open it. For more on using this activity, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/delivery.html).
+1. Create a campaign. For more on this, refer to [this section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
+1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, add a **Query** activity to your workflow. For more on using this activity, refer to [this section](../../workflow/using/query.md).
+1. Add an **[!UICONTROL Email delivery]** activity to the workflow and open it. For more on using this activity, refer to [this section](../../workflow/using/delivery.md).
 1. Go to the **[!UICONTROL Approvals]** tab of the **[!UICONTROL Delivery properties]** and disable all approvals.
 
    ![](assets/campaign_opt_pressure_example_2.png)
@@ -357,13 +357,13 @@ Now create and configure a workflow for each delivery you want the pressure rule
 
    ![](assets/campaign_opt_pressure_example_4.png)
 
-   For the pressure rule exclusions to be implemented successfully, make sure you set the extraction date and time before the contact date and time, as well as before the nightly arbitration is re-applied. For more on this, refer to [Exclusion after arbitration](https://helpx.adobe.com/campaign/standard/campaign/using/pressure-rules.html#exclusion-after-arbitration).
+   For the pressure rule exclusions to be implemented successfully, make sure you set the extraction date and time before the contact date and time, as well as before the nightly arbitration is re-applied. For more on this, refer to [Exclusion after arbitration](../../campaign/using/pressure-rules.md#exclusion-after-arbitration).
 
 1. Unselect the **[!UICONTROL Confirm the delivery before sending]** option and save your changes.
 1. Proceed similarly for each delivery you want to send. Make sure you set the desired weight for each delivery.
 1. Run the relevant workflows to prepare and send the deliveries.
 
-When the nightly arbitration is applied, the deliveries with the lower weights for the same recipient will be excluded. Only the deliveries with the highest weight will be considered for send. For more on this, refer to [Message weight](https://helpx.adobe.com/campaign/standard/campaign/using/pressure-rules.html#message-weight).
+When the nightly arbitration is applied, the deliveries with the lower weights for the same recipient will be excluded. Only the deliveries with the highest weight will be considered for send. For more on this, refer to [Message weight](../../campaign/using/pressure-rules.md#message-weight).
 
 Considering that an email has already been sent to the concerned recipients earlier during the week, the table below shows an example of the configurations that can be applied for two more deliveries.
 

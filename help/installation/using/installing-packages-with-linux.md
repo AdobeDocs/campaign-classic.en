@@ -64,7 +64,7 @@ To install Adobe Campaign onto an RPM (RHEL, CentOS and SUSE) operating system, 
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
-The 'bc' command, necessary for executing the netreport (refer to [this section](https://helpx.adobe.com/campaign/classic/production/using/monitoring-processes.html#automatic-monitoring-via-adobe-campaign-scripts) for more information), is not available by default on all Linux distributions. To check whether the command is available, run the 'which bc' command. If not, you have to install it.
+The 'bc' command, necessary for executing the netreport (refer to [this section](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts) for more information), is not available by default on all Linux distributions. To check whether the command is available, run the 'which bc' command. If not, you have to install it.
 
 With CentOS, you must install the bc.x86_64 package: connect as **root** and run the following command:
 
@@ -80,13 +80,13 @@ yum install bc.x86_64
   zypper remove libboost_regex1_36_0
   ```
 
-* Install Oracle Java or OpenJDK (for more on this, refer to [Java Development Kit - JDK](https://helpx.adobe.com/campaign/standard/installation/using/application-server.html#java-development-kit---jdk)):
+* Install Oracle Java or OpenJDK (for more on this, refer to [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk)):
 
   ```
   ./jdk-6uxx-linux-x64-rpm.bin
   ```
 
-* Install OpenSSL 1.0 (for more on this, refer to [Libraries](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-linux.html#libraries)):
+* Install OpenSSL 1.0 (for more on this, refer to [Libraries](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries)):
 
   ```
   yast -i libopenssl1_0_0-1.0.0c-18.42.1.x86_64.rpm
@@ -100,7 +100,7 @@ yum install bc.x86_64
   ln -s /lib64/libcrypto.so.1.0.0 /lib64/libcrypto.so.10
   ```
 
-* Install libicu 4.2 (for more on this, refer to [Libraries](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-linux.html#libraries)):
+* Install libicu 4.2 (for more on this, refer to [Libraries](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries)):
 
   ```
   yast -i libicu-4.2-7.3.1.x86_64.rpm
@@ -313,7 +313,7 @@ When using Oracle with Adobe Campaign, you need to configure the Oracle client l
 
 * Environment variables
 
-  Refer to [Environment variables](https://helpx.adobe.com/campaign/standard/installation/using/installing-packages-with-linux.html#environment-variables).
+  Refer to [Environment variables](../../installation/using/installing-packages-with-linux.md#environment-variables).
 
 * Configuration for Adobe Campaign
 
@@ -363,7 +363,7 @@ The following information is then displayed:
 17:11:08 >   Web server stop(pid=17546, tid=-151316352)...
 ```
 
-These commands let you create **config-default.xml** and **serverConf.xml** configuration files. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+These commands let you create **config-default.xml** and **serverConf.xml** configuration files. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 Press **Ctrl+C** to stop the process, then enter the following command:
 
@@ -402,4 +402,4 @@ The following information is then displayed:
 
 The Adobe Campaign server defines a technical login called **internal** that has all rights on all instances. Just after installation the login does not have a password. It is mandatory to define one.
 
-See section [Internal identifier](https://helpx.adobe.com/campaign/standard/installation/using/campaign-server-configuration.html#internal-identifier).
+See section [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).

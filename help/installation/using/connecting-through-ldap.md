@@ -24,7 +24,7 @@ snippet: y
 >
 >The LDAP configuration is only possible for on-premise or hybrid installations.
 
-The LDAP configuration is carried out in the deployment wizard. The **[!UICONTROL LDAP integration]** option must be selected during the first configuration step. Refer to [Deployment wizard](https://helpx.adobe.com/campaign/standard/installation/using/deploying-an-instance.html#deployment-wizard).
+The LDAP configuration is carried out in the deployment wizard. The **[!UICONTROL LDAP integration]** option must be selected during the first configuration step. Refer to [Deployment wizard](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
 The window lets you configure the identification of Adobe Campaign users via the specified LDAP directory.
 
@@ -57,7 +57,7 @@ The window lets you configure the identification of Adobe Campaign users via the
 
       No encryption (for use in test phases only).
 
-* Select the user authentication mode: **[!UICONTROL Automatically compute the unique user identifier]** (see step [Distinguished Name calculation](https://helpx.adobe.com/campaign/standard/installation/using/connecting-through-ldap.html#distinguished-name-calculation)) or **[!UICONTROL Search the unique user identifier in the directory]** (see step [Searching for identifiers](https://helpx.adobe.com/campaign/standard/installation/using/connecting-through-ldap.html#searching-for-identifiers)).
+* Select the user authentication mode: **[!UICONTROL Automatically compute the unique user identifier]** (see step [Distinguished Name calculation](../../installation/using/connecting-through-ldap.md#distinguished-name-calculation)) or **[!UICONTROL Search the unique user identifier in the directory]** (see step [Searching for identifiers](../../installation/using/connecting-through-ldap.md#searching-for-identifiers)).
 
 ## Compatibility {#compatibility}
 
@@ -142,7 +142,7 @@ If you choose to search for an identifier, the deployment wizard lets you config
 
 ## Configuring LDAP authorizations {#configuring-ldap-authorizations}
 
-This window is displayed when you select the **[!UICONTROL Enable synchronization of user rights from authorizations and groups in the directory]** option (refer to [](https://helpx.adobe.com/campaign/standard/installation/using/connecting-through-ldap.html)).
+This window is displayed when you select the **[!UICONTROL Enable synchronization of user rights from authorizations and groups in the directory]** option (refer to [](../../installation/using/connecting-through-ldap.md)).
 
 ![](assets/s_ncs_install_deployment_wiz_ldap_04.png)
 

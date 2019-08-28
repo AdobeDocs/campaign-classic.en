@@ -20,6 +20,6 @@ snippet: y
 
 If you have a hosted or hybrid hosting model, you don't need to read this document in its entirety. Main installation and configuration steps are performed by Adobe. In this section, we regrouped the information you need to know if you have a hosted or hybrid hosting model.
 
-The different hosting models are introduced in this [section](https://helpx.adobe.com/campaign/classic/installation/using/hosting-models.html).
+The different hosting models are introduced in this [section](../../installation/using/hosting-models.md).
 
-To learn more about the main differences between deployment modes, refer to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+To learn more about the main differences between deployment modes, refer to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md).

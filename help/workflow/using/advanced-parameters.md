@@ -36,7 +36,7 @@ This field contains the internal name of the activity.
 
 ## Image {#image}
 
-This field lets you change the image linked to an activity. For more on this, refer to: [Managing activity images](https://helpx.adobe.com/campaign/standard/workflow/using/managing-activity-images.html).
+This field lets you change the image linked to an activity. For more on this, refer to: [Managing activity images](../../workflow/using/managing-activity-images.md).
 
 ## Execution {#execution}
 
@@ -50,7 +50,7 @@ These options are generally selected in the cart by right-clicking the activity.
 
 ## Affinity {#affinity}
 
-This field lets you force the execution of an activity on a specific machine. For more on this, refer to: [Managing propensity](https://helpx.adobe.com/campaign/standard/workflow/using/managing-propensity.html).
+This field lets you force the execution of an activity on a specific machine. For more on this, refer to: [Managing propensity](../../workflow/using/managing-propensity.md).
 
 ## Max. execution period {#max--execution-period}
 
@@ -65,7 +65,7 @@ This field lets you define the behavior to be applied for using asynchronous tas
 
 ## Time zone {#time-zone}
 
-This field lets you select the time zone of the activity. For more on this: [Managing time zones](https://helpx.adobe.com/campaign/standard/workflow/using/managing-time-zones.html).
+This field lets you select the time zone of the activity. For more on this: [Managing time zones](../../workflow/using/managing-time-zones.md).
 
 ## In case of errors {#in-case-of-errors}
 
@@ -76,7 +76,7 @@ This field lets you define the action to be carried out when the activity has er
 
 ## Initialization script {#initialization-script}
 
-This field lets you initialize variables or modify activity properties. For more on this, refer to: [JavaScript scripts and templates](https://helpx.adobe.com/campaign/standard/workflow/using/javascript-scripts-and-templates.html).
+This field lets you initialize variables or modify activity properties. For more on this, refer to: [JavaScript scripts and templates](../../workflow/using/javascript-scripts-and-templates.md).
 
 ## Comment {#comment}
 

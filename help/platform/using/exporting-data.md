@@ -79,7 +79,7 @@ Select the fields to export. To do this:
 
    ![](assets/s_ncs_user_export_wizard04.png)
 
-1. Click the **[!UICONTROL Add]** button to call on functions. For more on this, refer to [List of functions](https://helpx.adobe.com/campaign/standard/platform/using/defining-filter-conditions.html#list-of-functions).
+1. Click the **[!UICONTROL Add]** button to call on functions. For more on this, refer to [List of functions](../../platform/using/defining-filter-conditions.md#list-of-functions).
 
 ### Step 5 - Sorting columns {#step-5---sorting-columns}
 
@@ -89,7 +89,7 @@ Select the sorting order of the columns.
 
 ### Step 6 - Filter conditions {#step-6---filter-conditions-}
 
-You can add filter conditions to avoid exporting all the data. The configuration of this filtering is the same as recipient targeting in the delivery wizard. Refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/identifying-target-populations.html).
+You can add filter conditions to avoid exporting all the data. The configuration of this filtering is the same as recipient targeting in the delivery wizard. Refer to [this page](../../delivery/using/identifying-target-populations.md).
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
@@ -107,7 +107,7 @@ You can modify the order and label of the fields for the output file and apply t
 
   ![](assets/s_ncs_user_export_wizard06.png)
 
-* Click **[!UICONTROL Add a calculated field]** if you want to create a new calculated field (for example, a column containing last name + first name). For more on this, refer to [Calculated fields](https://helpx.adobe.com/campaign/standard/platform/using/importing-data.html#calculated-fields).
+* Click **[!UICONTROL Add a calculated field]** if you want to create a new calculated field (for example, a column containing last name + first name). For more on this, refer to [Calculated fields](../../platform/using/importing-data.md#calculated-fields).
 
 If you are exporting a collection of elements (e.g. recipients' subscriptions, the lists to which they belong, etc.), you must specify the number of elements in the collection you want to export. 
 
@@ -131,4 +131,4 @@ Click **[!UICONTROL Start]** to launch data export.
 
 Workflows can be a useful way to automate some of your export processes or to export precise sets of data after using some of the available data management activities available to transform your data.
 
-To learn more about exporting data from a workflow, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/how-to-use-workflow-data.html).
+To learn more about exporting data from a workflow, refer to [this section](../../workflow/using/how-to-use-workflow-data.md).

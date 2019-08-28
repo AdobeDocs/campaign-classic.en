@@ -39,7 +39,7 @@ There are three service subscription/unsubscription modes:
 
 >[!NOTE]
 >
->A sample to create a subscription form with double opt-in is detailed in [this section](https://helpx.adobe.com/campaign/classic/web/using/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in).
+>A sample to create a subscription form with double opt-in is detailed in [this section](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in).
 
 ## Creating an information service {#creating-an-information-service}
 
@@ -57,13 +57,13 @@ To edit an existing service, click its name. To create a service, click the **[!
 
   >[!NOTE]
   >
-  >Facebook and Twitter subscriptions are detailed in [this section](https://helpx.adobe.com/campaign/classic/social/using/about-social-marketing.html). Mobile application subscriptions are detailed in [About mobile app channel](https://helpx.adobe.com/campaign/standard/delivery/using/about-mobile-app-channel.html).
+  >Facebook and Twitter subscriptions are detailed in [this section](../../social/using/about-social-marketing.md). Mobile application subscriptions are detailed in [About mobile app channel](../../delivery/using/about-mobile-app-channel.md).
 
 * For an Email type service, select the **Delivery mode**. The possible modes are: **[!UICONTROL Newsletter]** or **[!UICONTROL Viral]** .
-* You can send **confirmation messages** for a subscription or unsubscription. To do this, select the delivery templates to be used to create the corresponding deliveries from the **[!UICONTROL Subscription]** and **[!UICONTROL Unsubscription]** fields. These templates must be configured with a **[!UICONTROL Subscription]** type target mapping, without a defined target. See section [About email channel](https://helpx.adobe.com/campaign/standard/delivery/using/about-email-channel.html).
+* You can send **confirmation messages** for a subscription or unsubscription. To do this, select the delivery templates to be used to create the corresponding deliveries from the **[!UICONTROL Subscription]** and **[!UICONTROL Unsubscription]** fields. These templates must be configured with a **[!UICONTROL Subscription]** type target mapping, without a defined target. See section [About email channel](../../delivery/using/about-email-channel.md).
 * By default, subscriptions are unlimited. You can deselect the **[!UICONTROL Unlimited]** option to define a validity duration for the service. The duration can be specified in days ( **[!UICONTROL d]** ) or months ( **[!UICONTROL m]** ).
 
-Once the service has been saved, it is added to the Services and Subscriptions list: Click its name to edit it. Several tabs are available. The **[!UICONTROL Subscriptions]** tab lets you look at the list of subscribers to the information service ( **[!UICONTROL Active subscriptions]** tab) or the subscription/unsubscription history ( **[!UICONTROL History]** tab). You can also add and delete subscribers from this tab. See [Adding and deleting subscribers](https://helpx.adobe.com/campaign/standard/delivery/using/managing-subscriptions.html#adding-and-deleting-subscribers). 
+Once the service has been saved, it is added to the Services and Subscriptions list: Click its name to edit it. Several tabs are available. The **[!UICONTROL Subscriptions]** tab lets you look at the list of subscribers to the information service ( **[!UICONTROL Active subscriptions]** tab) or the subscription/unsubscription history ( **[!UICONTROL History]** tab). You can also add and delete subscribers from this tab. See [Adding and deleting subscribers](../../delivery/using/managing-subscriptions.md#adding-and-deleting-subscribers). 
 
 ![](assets/s_ncs_user_services_subscriptions.png)
 
@@ -81,11 +81,11 @@ From the **[!UICONTROL Subscriptions]** tab of an information service click **[!
 
 To delete subscribers, select them and click **[!UICONTROL Delete]** . You can also right-click the subscriber list and select **[!UICONTROL Delete]** .
 
-In both cases, you can send a confirmation message to the users concerned if a delivery template for unsubscriptions has been attached to the service (see [Creating an information service](https://helpx.adobe.com/campaign/standard/delivery/using/managing-subscriptions.html#creating-an-information-service)). A warning lets you validate or not validate this delivery:
+In both cases, you can send a confirmation message to the users concerned if a delivery template for unsubscriptions has been attached to the service (see [Creating an information service](../../delivery/using/managing-subscriptions.md#creating-an-information-service)). A warning lets you validate or not validate this delivery:
 
 ![](assets/s_ncs_user_services_update.png)
 
-See [Subscription and unsubscription mechanisms](https://helpx.adobe.com/campaign/standard/delivery/using/managing-subscriptions.html#subscription-and-unsubscription-mechanisms).
+See [Subscription and unsubscription mechanisms](../../delivery/using/managing-subscriptions.md#subscription-and-unsubscription-mechanisms).
 
 ## Delivering to the subscribers of a service {#delivering-to-the-subscribers-of-a-service}
 
@@ -125,22 +125,22 @@ To register recipients for an information service, you can:
 
 * Manually add the service: to do this, from the **[!UICONTROL Subscriptions]** tab of their profile, click **[!UICONTROL Add]** and select the information service concerned.
 
-  For more on this, refer to the section on profile editing in [this section](https://helpx.adobe.com/campaign/classic/platform/using/editing-a-profile.html).
+  For more on this, refer to the section on profile editing in [this section](../../platform/using/editing-a-profile.md).
 
 * Automatically subscribe a set of recipients to this service. The list of recipients can come from a filtering operation, a group, a folder, an import, or a direct selection using the mouse. To subscribe these recipients, select the profiles and right-click. Select **[!UICONTROL Actions > Subscribe selection to a service...]** , select the service concerned, and launch the operation.
 * Import recipients and subscribe them automatically to an information service. To do this, select the service concerned in the last step of the import wizard.
 
-  For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/importing-data.html#import-wizard).
+  For more on this, refer to [this section](../../platform/using/importing-data.md#import-wizard).
 
 * Use a web form so that recipients can subscribe to a service.
 
-  For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-applications.html).
+  For more on this, refer to [this section](../../web/using/about-web-applications.md).
 
 * Creating a targeting workflow and using a **[!UICONTROL Subscription service]** box.
 
   ![](assets/s_ncs_user_subscribe_from_wf.png)
 
-  Workflows and how to use them is detailed in [this section](https://helpx.adobe.com/campaign/classic/workflow/using/about-workflows.html).
+  Workflows and how to use them is detailed in [this section](../../workflow/using/about-workflows.md).
 
 ### Unsubscribing a recipient from a service {#unsubscribing-a-recipient-from-a-service}
 
@@ -148,9 +148,9 @@ To register recipients for an information service, you can:
 
 email deliveries must contain an unsubscription link, by law. Recipients can click this link to update their profile and be excluded from the targets of future deliveries.
 
-The default unsubscription link is inserted via the last button in the toolbar of the content editor provided in the delivery wizard (see [About personalization](https://helpx.adobe.com/campaign/standard/delivery/using/about-personalization.html)). When the recipient clicks this link, the profile is blacklisted (opt-out), meaning that this recipient will no longer be targeted by any delivery action.
+The default unsubscription link is inserted via the last button in the toolbar of the content editor provided in the delivery wizard (see [About personalization](../../delivery/using/about-personalization.md)). When the recipient clicks this link, the profile is blacklisted (opt-out), meaning that this recipient will no longer be targeted by any delivery action.
 
-Recipients can, however, choose to unsubscribe from a service without unsubscribing from all services. To allow this, you can use a web form (refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/adding-fields-to-a-web-form.html#subscription-checkboxes)) or insert a personalized unsubscription link (see [Personalization blocks](https://helpx.adobe.com/campaign/standard/delivery/using/personalization-blocks.html)).
+Recipients can, however, choose to unsubscribe from a service without unsubscribing from all services. To allow this, you can use a web form (refer to [this section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)) or insert a personalized unsubscription link (see [Personalization blocks](../../delivery/using/personalization-blocks.md)).
 
 You can also unsubscribe a recipient manually from the recipient profile. To do this, click the **[!UICONTROL Subscriptions]** tab of the recipient concerned, select the information service(s) concerned, and click **[!UICONTROL Delete]** .
 
@@ -162,7 +162,7 @@ An information service can have a limited duration. Recipients will be unsubscri
 
 ![](assets/s_ncs_user_services_delay.png)
 
-You can also set up an unsubscription workflow for a population. To do this, follow the same procedure as for a subscription workflow, but select the **[!UICONTROL Unsubscription]** option. See [Subscribing a recipient to a service](https://helpx.adobe.com/campaign/standard/delivery/using/managing-subscriptions.html#subscribing-a-recipient-to-a-service).
+You can also set up an unsubscription workflow for a population. To do this, follow the same procedure as for a subscription workflow, but select the **[!UICONTROL Unsubscription]** option. See [Subscribing a recipient to a service](../../delivery/using/managing-subscriptions.md#subscribing-a-recipient-to-a-service).
 
 ### Subscriber tracking {#subscriber-tracking}
 

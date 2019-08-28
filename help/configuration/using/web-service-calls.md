@@ -56,7 +56,7 @@ The presence of the "static" attribute (with the value "true") describes this me
 
 A "const" method implicitly has an XML document in the format of its associated schema as its input.
 
-A full description of the `<method>  element of an Adobe Campaign schema is available in the "Schema references" chapter under  <a href="https://helpx.adobe.com/campaign/standard/configuration/using/elements-and-attributes.html#method--element" target="_blank">   <method>    element   </method></a>. </method>`
+A full description of the `<method>  element of an Adobe Campaign schema is available in the "Schema references" chapter under  <a href="../../configuration/using/elements-and-attributes.md#method--element" target="_blank">   <method>    element   </method></a>. </method>`
 
 Example of the "const"-type "ExecuteQuery" method from the "xtk:queryDef" schema:
 
@@ -196,7 +196,7 @@ The `<service>  part describes the "XtkQueryDef" service with its URI on the URL
 
 ## Connectivity {#connectivity}
 
-Adobe Campaign has increased security for authentication mechanisms by introducing security zones (refer to the **Defining security zones** chapter in [this section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#defining-security-zones)) as well as session management settings.
+Adobe Campaign has increased security for authentication mechanisms by introducing security zones (refer to the **Defining security zones** chapter in [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones)) as well as session management settings.
 
 There are two authentication modes available:
 

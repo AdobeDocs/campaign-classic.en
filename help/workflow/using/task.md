@@ -22,7 +22,7 @@ In a campaign workflow, the **[!UICONTROL Task]** activity lets you specify two 
 
 ![](assets/mrm_task_in_workflow.png)
 
-How to configure and operate a task is detailed in this [section](https://helpx.adobe.com/campaign/classic/campaign/using/creating-and-managing-tasks.html).
+How to configure and operate a task is detailed in this [section](../../campaign/using/creating-and-managing-tasks.md).
 
 ![](assets/wkf_task_activity.png)
 

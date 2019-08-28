@@ -98,11 +98,11 @@ For each form, the answers provided can be used in fields or labels. Use the fol
 
 >[!NOTE]
 >
->For other types of fields, the syntax is detailed in [this section](https://helpx.adobe.com/campaign/classic/platform/using/about-queries-in-campaign.html).
+>For other types of fields, the syntax is detailed in [this section](../../platform/using/about-queries-in-campaign.md).
 
 ### Storage settings {#storage-settings}
 
-It is possible to archive answers to surveys in XML format. This lets you save a raw copy of the answers collected, which can be useful in case of excessive standardization of the data in an itemized list (for more on this, refer to [Standardizing data](https://helpx.adobe.com/campaign/standard/web/using/publish--track-and-use-collected-data.html#standardizing-data)).
+It is possible to archive answers to surveys in XML format. This lets you save a raw copy of the answers collected, which can be useful in case of excessive standardization of the data in an itemized list (for more on this, refer to [Standardizing data](../../web/using/publish--track-and-use-collected-data.md#standardizing-data)).
 
 >[!CAUTION]
 >

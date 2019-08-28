@@ -91,7 +91,7 @@ Check parameters before confirming this operation.
 
 ![](assets/s_ncs_user_itemized_list_alias_create_3.png)
 
-Thus, when a user enters the value **NEILSEN** in a "company" field (in the Adobe Campaign console or in a form), it will automatically be replaced by the value **NIELSEN Ltd**. Value replacement is performed by the **Alias cleansing** workflow. Refer to [Running data cleansing](https://helpx.adobe.com/campaign/standard/platform/using/managing-enumerations.html#running-data-cleansing).
+Thus, when a user enters the value **NEILSEN** in a "company" field (in the Adobe Campaign console or in a form), it will automatically be replaced by the value **NIELSEN Ltd**. Value replacement is performed by the **Alias cleansing** workflow. Refer to [Running data cleansing](../../platform/using/managing-enumerations.md#running-data-cleansing).
 
 ![](assets/s_ncs_user_itemized_list_alias_use.png)
 
@@ -117,13 +117,13 @@ Once execution is complete, the alias is added to the list of aliases.
 
 The values entered by the users can be converted into aliases. In effect, when the user enters a value that is not included in the itemized list, the value is stored in the **[!UICONTROL Alias]** tab.
 
-The **Alias cleansing** technical workflow recovers these values every night to update itemized list. Refer to [Running data cleansing](https://helpx.adobe.com/campaign/standard/platform/using/managing-enumerations.html#running-data-cleansing)
+The **Alias cleansing** technical workflow recovers these values every night to update itemized list. Refer to [Running data cleansing](../../platform/using/managing-enumerations.md#running-data-cleansing)
 
-If necessary, the **[!UICONTROL Hits]** column can display the number of times this value was entered. Calculating this value can be both time and memory consuming. For more on this, refer to [Calculating entry occurrences](https://helpx.adobe.com/campaign/standard/platform/using/managing-enumerations.html#calculating-entry-occurrences).
+If necessary, the **[!UICONTROL Hits]** column can display the number of times this value was entered. Calculating this value can be both time and memory consuming. For more on this, refer to [Calculating entry occurrences](../../platform/using/managing-enumerations.md#calculating-entry-occurrences).
 
 ### Running data cleansing {#running-data-cleansing}
 
-Data cleansing is performed by the **[!UICONTROL Alias cleansing]** technical workflow. The configurations defined for enumerations are applied during execution. Refer to [Alias cleansing workflow](https://helpx.adobe.com/campaign/standard/platform/using/managing-enumerations.html#alias-cleansing-workflow).
+Data cleansing is performed by the **[!UICONTROL Alias cleansing]** technical workflow. The configurations defined for enumerations are applied during execution. Refer to [Alias cleansing workflow](../../platform/using/managing-enumerations.md#alias-cleansing-workflow).
 
 Cleansing can be triggered via the **[!UICONTROL Cleanse values...]** link.
 

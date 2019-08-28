@@ -26,4 +26,4 @@ When the report is opened, the information displayed by default coincides with t
 
 You can view the data specific to each event type, per time period. The **[!UICONTROL Events]** column corresponds to the number of events received per control instance. The number of events transformed into personalized transactional messages is detailed in the **[!UICONTROL Sent]** column.
 
-The **[!UICONTROL History of Message Center events]** report is a pivot table type report. For more on this, refer to the [Analyzing populations](https://helpx.adobe.com/campaign/classic/reporting/using/about-descriptive-analysis.html) section.
+The **[!UICONTROL History of Message Center events]** report is a pivot table type report. For more on this, refer to the [Analyzing populations](../../reporting/using/about-descriptive-analysis.md) section.

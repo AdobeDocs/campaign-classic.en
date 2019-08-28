@@ -22,7 +22,7 @@ Adobe Campaign offers tools to track the deliverability performance of your plat
 
 >[!NOTE]
 >
->Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices linked to deliverability.
+>Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) that presents the concepts and best practices linked to deliverability.
 
 When this module is configured for your Adobe Campaign platform, you have access to the following information:
 
@@ -88,7 +88,7 @@ Proper bounce management is an important email deliverability best practice. Rep
 
 Hard bounces should be identified and automatically excluded from subsequent email campaigns. Soft bounces, on the other hand, can safely be retried up to five times; if these attempts aren't successful, the addresses should then be removed from the list. Because soft bounces may also be caused by temporary ISP blocking, it's also important to regularly investigate their cause in order to diagnose and correct any issues with authentication, volume, or reputation.
 
-For more on thisn, refer to [Understanding delivery failures](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-delivery-failures.html).
+For more on thisn, refer to [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md).
 
 ### Data Hygiene {#data-hygiene}
 
@@ -204,7 +204,7 @@ Throughout the campaign and after each delivery, it is important to monitor the 
 
 As a general best practice, we recommend the use of seed lists: a list of email addresses spanning the major ISPs that is used to monitor email delivery. Seed lists often power the inbox rendering capabilities described above. They should also be incorporated into the main email monitoring reports, so you can see how your main target list is performing against the seed list.
 
-For more on this, refer to [Monitoring a delivery](https://helpx.adobe.com/campaign/standard/delivery/using/monitoring-a-delivery.html).
+For more on this, refer to [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md).
 
 ### Technical Monitoring Reports {#technical-monitoring-reports}
 
@@ -212,6 +212,6 @@ In addition, technical teams need reports that help them to quickly identify the
 
 ### Complaint Handling {#complaint-handling}
 
-Even if your practices are professional, you are not immune to mistakes, and the handling of complaints from recipients needs to be considered. To do this, you can set up a feedback loop that informs you of any complaints received by your ISP following the sending of your campaigns. For more on this, refer to [Feedback loop](https://helpx.adobe.com/campaign/standard/delivery/using/technical-recommendations.html#feedback-loop).
+Even if your practices are professional, you are not immune to mistakes, and the handling of complaints from recipients needs to be considered. To do this, you can set up a feedback loop that informs you of any complaints received by your ISP following the sending of your campaigns. For more on this, refer to [Feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop).
 
 Once the request has been accepted by your ISP, your system should automatically quarantine these e-mail addresses, preventing future communication. With the same aim in mind, be sure to process messages received in mailboxes such as postmaster@company.com and abuse@company.com. The goal is to ensure your complaint rate does not exceed .3% per ISP at any point, as this key metric determines whether your messages are delivered or not.

@@ -57,7 +57,7 @@ Here is a list of modules impacted by frequent issues:
   <tr> 
    <td> syslogd </td> 
    <td> Log writing<br /> </td> 
-   <td> If some logs are missing in the log files, check to make sure that the module is using port 6666. Refer to <a href="https://helpx.adobe.com/campaign/standard/production/using/general-architecture.html#list-of-open-ports" target="_blank">List of open ports</a>.<br /> </td> 
+   <td> If some logs are missing in the log files, check to make sure that the module is using port 6666. Refer to <a href="../../production/using/general-architecture.md#list-of-open-ports" target="_blank">List of open ports</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> tracking </td> 
@@ -67,7 +67,7 @@ Here is a list of modules impacted by frequent issues:
   <tr> 
    <td> trackinglogd </td> 
    <td> Tracking log writing and purging server<br /> </td> 
-   <td> Check this module if tracking logs aren't forwarded anymore and there are no traces of logs in the files on the server. Refer to <a href="https://helpx.adobe.com/campaign/standard/production/using/tracking-logs-issues.html" target="_blank">Tracking logs issues</a>.<br /> </td> 
+   <td> Check this module if tracking logs aren't forwarded anymore and there are no traces of logs in the files on the server. Refer to <a href="../../production/using/tracking-logs-issues.md" target="_blank">Tracking logs issues</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> watchdog </td> 
@@ -82,7 +82,7 @@ Here is a list of modules impacted by frequent issues:
   <tr> 
    <td> wfserver </td> 
    <td> Controls workflow instance execution.<br /> </td> 
-   <td> If you encounter any problems, restart this module. If necessary, apply the procedure to increase precision of logs detailed in the <a href="https://helpx.adobe.com/campaign/standard/production/using/log-precision.html" target="_blank">Log precision</a> section.<br /> </td> 
+   <td> If you encounter any problems, restart this module. If necessary, apply the procedure to increase precision of logs detailed in the <a href="../../production/using/log-precision.md" target="_blank">Log precision</a> section.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

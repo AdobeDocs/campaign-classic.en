@@ -27,11 +27,11 @@ To do this, .eml files corresponding to the sent emails are transferred to a rem
 ## Recommendations and limitations {#recommendations-and-limitations}
 
 * The email archiving feature is optional. Please check your license agreement.
-* For hosted and hybrid architectures, contact your account executive to activate it. For on-premise installations, follow the guidelines below - see the [Activating email archiving (on premise)](https://helpx.adobe.com/campaign/standard/installation/using/email-archiving.html#activating-email-archiving--on-premise-) and [Configuring the BCC email address (on premise)](https://helpx.adobe.com/campaign/standard/installation/using/email-archiving.html#configuring-the-bcc-email-address--on-premise-) sections.
-* Once email BCC is configured, make sure the feature is enabled in the delivery template or in the delivery through the **[!UICONTROL Archive emails]** option. For more on this, see [this section](https://helpx.adobe.com/campaign/classic/delivery/using/sending-messages.html#archiving-emails).
+* For hosted and hybrid architectures, contact your account executive to activate it. For on-premise installations, follow the guidelines below - see the [Activating email archiving (on premise)](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-) and [Configuring the BCC email address (on premise)](../../installation/using/email-archiving.md#configuring-the-bcc-email-address--on-premise-) sections.
+* Once email BCC is configured, make sure the feature is enabled in the delivery template or in the delivery through the **[!UICONTROL Archive emails]** option. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
 * You can only use one BCC email address.
 * Only successfully sent emails are taken in account, bounces are not.
-* The email archiving system changed with Adobe Campaign 17.2 (build 8795). If you were already using email archiving, you must upgrade manually to the new email archiving system (BCC). For more on this, see the [Updated email archiving system (BCC)](https://helpx.adobe.com/campaign/standard/installation/using/email-archiving.html#updated-email-archiving-system--bcc-) section.
+* The email archiving system changed with Adobe Campaign 17.2 (build 8795). If you were already using email archiving, you must upgrade manually to the new email archiving system (BCC). For more on this, see the [Updated email archiving system (BCC)](../../installation/using/email-archiving.md#updated-email-archiving-system--bcc-) section.
 
 ## Activating email archiving (on premise) {#activating-email-archiving--on-premise-}
 
@@ -135,7 +135,7 @@ To do this, make the following changes to the **config- `<instance name="">  .xm
 1. Set the **compressionFormat** parameter to **1** if needed.
 1. Set the **archivingType** parameter to **1**.
 
-Once email BCC is configured, make sure you select the **[!UICONTROL Archive emails]** option in the delivery template or the delivery. For more on this, see [this section](https://helpx.adobe.com/campaign/classic/delivery/using/sending-messages.html#archiving-emails).
+Once email BCC is configured, make sure you select the **[!UICONTROL Archive emails]** option in the delivery template or the delivery. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
 
 ## Best practices {#best-practices}
 

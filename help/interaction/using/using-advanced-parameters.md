@@ -24,9 +24,9 @@ This chapter details the various possible advanced parameters in Interaction.
 >
 >The following chapter is intended for **technical administrators**.
 
-* You can use additional contextual data. Refer to the [Additional data](https://helpx.adobe.com/campaign/standard/interaction/using/additional-data.html) section.
-* You can enrich the application contexts of the suggested offers via an incoming channel. To do this, the **nms:interaction** interaction schema must be extended. Refer to the [Extension example](https://helpx.adobe.com/campaign/standard/interaction/using/extension-example.html) section for the full procedure.
-* Creating a test environment is detailed in the [Creating a test environment](https://helpx.adobe.com/campaign/standard/interaction/using/creating-a-test-environment.html) section.
-* You can modify standard engine behavior using hooks. For more on this, refer to the [Hooks](https://helpx.adobe.com/campaign/standard/interaction/using/hooks.html) section 
-* Finally, using Interaction with a distributed architecture is detailed in the [Distributed architectures](https://helpx.adobe.com/campaign/standard/interaction/using/distributed-architectures.html) section.
+* You can use additional contextual data. Refer to the [Additional data](../../interaction/using/additional-data.md) section.
+* You can enrich the application contexts of the suggested offers via an incoming channel. To do this, the **nms:interaction** interaction schema must be extended. Refer to the [Extension example](../../interaction/using/extension-example.md) section for the full procedure.
+* Creating a test environment is detailed in the [Creating a test environment](../../interaction/using/creating-a-test-environment.md) section.
+* You can modify standard engine behavior using hooks. For more on this, refer to the [Hooks](../../interaction/using/hooks.md) section 
+* Finally, using Interaction with a distributed architecture is detailed in the [Distributed architectures](../../interaction/using/distributed-architectures.md) section.
 

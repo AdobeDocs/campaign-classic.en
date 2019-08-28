@@ -33,7 +33,7 @@ Creating a method library involves two stages:
 
 ### Declaration {#declaration}
 
-Start by declaring the methods in the schemas (for more on how to create and edit schemas, refer to [this section](https://helpx.adobe.com/campaign/classic/configuration/using/about-schema-edition.html)).
+Start by declaring the methods in the schemas (for more on how to create and edit schemas, refer to [this section](../../configuration/using/about-schema-edition.md)).
 
 Their declaration is similar to that of native methods, except that you need to add the 'library' attribute specifying the name of the method library where the definition is located.
 

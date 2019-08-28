@@ -22,7 +22,7 @@ Business API are specific to each type of object. They have an effect on:
 
 * Deliveries:
 
-    * Creating a delivery action, refer to [SubmitDelivery (nms:delivery)](https://helpx.adobe.com/campaign/standard/configuration/using/business-oriented-apis.html#submitdelivery--nms-delivery-),
+    * Creating a delivery action, refer to [SubmitDelivery (nms:delivery)](../../configuration/using/business-oriented-apis.md#submitdelivery--nms-delivery-),
     * sending a campaign (start, pause, stop, send proof),
     * recovering delivery logs.
 
@@ -31,17 +31,17 @@ Business API are specific to each type of object. They have an effect on:
     * starting a workflow, 
     * verifying processes, etc.
 
-      Refer to [SOAP methods in JavaScript](https://helpx.adobe.com/campaign/standard/configuration/using/soap-methods-in-javascript.html).
+      Refer to [SOAP methods in JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Content management
-* Subscription management, refer to [Subscribe (nms:subscription)](https://helpx.adobe.com/campaign/standard/configuration/using/business-oriented-apis.html#subscribe--nms-subscription-) and [Unsubscribe (nms:subscription)](https://helpx.adobe.com/campaign/standard/configuration/using/business-oriented-apis.html#unsubscribe--nms-subscription-).
+* Subscription management, refer to [Subscribe (nms:subscription)](../../configuration/using/business-oriented-apis.md#subscribe--nms-subscription-) and [Unsubscribe (nms:subscription)](../../configuration/using/business-oriented-apis.md#unsubscribe--nms-subscription-).
 * Data processes: imports, exports.
 
 This section details the use of the "Subscribe", "Unsubscribe" and "SubmitDelivery" services.
 
 >[!CAUTION]
 >
->[Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html) contains additional information on SOAP calls and using Javascript in Adobe Campaign, as well as a full reference to all methods and functions used in the application.
+>[Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.md) contains additional information on SOAP calls and using Javascript in Adobe Campaign, as well as a full reference to all methods and functions used in the application.
 
 ## Subscribe (nms:subscription) {#subscribe--nms-subscription-}
 

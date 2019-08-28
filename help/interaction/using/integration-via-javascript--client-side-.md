@@ -103,7 +103,7 @@ The following use cases detail the possible options for integrating offers via J
 
 ### Presenting an identified offer {#presenting-an-identified-offer}
 
-To present an offer to an identified contact, the process is similar as the one detailed here: [Presenting an anonymous offer](https://helpx.adobe.com/campaign/standard/interaction/using/integration-via-javascript--client-side-.html#presenting-an-anonymous-offer). In the content of the web page, you need to add the following script that will identify the contact during the call to the engine:
+To present an offer to an identified contact, the process is similar as the one detailed here: [Presenting an anonymous offer](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-anonymous-offer). In the content of the web page, you need to add the following script that will identify the contact during the call to the engine:
 
 ```
 <script type="text/javascript">
@@ -180,9 +180,9 @@ The following use case details the configurations to carry out in Adobe Campaign
 
 1. **Creating an environment and an offer space**
 
-   For more on creating an environment, refer to [Live/Design environments](https://helpx.adobe.com/campaign/standard/interaction/using/live-design-environments.html).
+   For more on creating an environment, refer to [Live/Design environments](../../interaction/using/live-design-environments.md).
 
-   For more on creating an offer space, refer to [Creating offer spaces](https://helpx.adobe.com/campaign/standard/interaction/using/creating-offer-spaces.html). 
+   For more on creating an offer space, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md). 
 
 1. **Extending the offer schema to add new fields**
 
@@ -216,7 +216,7 @@ The following use case details the configurations to carry out in Adobe Campaign
    >[!CAUTION]
    >
    >Each element needs to be defined twice. CDATA ("_jst") type elements can contain personalization fields.   
-   >Don't forget to update the database structure. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/configuration/using/updating-the-database-structure.html).
+   >Don't forget to update the database structure. For more on this, refer to [this section](../../configuration/using/updating-the-database-structure.md).
 
    >[!NOTE]
    >
@@ -274,7 +274,7 @@ The following use case details the configurations to carry out in Adobe Campaign
 
 1. **Creating an offer**
 
-   For more on creating offers, refer to [Creating an offer](https://helpx.adobe.com/campaign/standard/interaction/using/creating-an-offer.html).
+   For more on creating offers, refer to [Creating an offer](../../interaction/using/creating-an-offer.md).
 
    In the following use case, the offer is entered as follows:
 

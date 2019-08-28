@@ -28,16 +28,16 @@ Adobe Campaign lets you define and manage the rights assigned to the various ope
 
 The permissions apply to operator profiles or operator groups.
 
-They are completed by safety parameters linked to the operator's connection mode to Adobe Campaign. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#defining-security-zones).
+They are completed by safety parameters linked to the operator's connection mode to Adobe Campaign. For more on this, refer to [this page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 There are two types of permissions you can grant to a user:
 
-* You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. Group creation and management are presented in [Operator groups](https://helpx.adobe.com/campaign/standard/platform/using/access-management.html#operator-groups).
-* You can attribute named rights directly to users, in some cases to overload the rights allocated via groups. These rights are presented in [Named rights](https://helpx.adobe.com/campaign/standard/platform/using/access-management.html#named-rights).
+* You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. Group creation and management are presented in [Operator groups](../../platform/using/access-management.md#operator-groups).
+* You can attribute named rights directly to users, in some cases to overload the rights allocated via groups. These rights are presented in [Named rights](../../platform/using/access-management.md#named-rights).
 
 >[!NOTE]
 >
->Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html).
+>Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.md).
 
 ## Operators {#operators}
 
@@ -51,15 +51,15 @@ By default, operators are stored in the **[!UICONTROL Administration > Access ma
 
 Operators can be created manually or mapped on an existing LDAP directory.
 
-Complete procedure to create an operator is described in [this page](https://helpx.adobe.com/campaign/classic/platform/using/access-management.html#creating-an-operator).
+Complete procedure to create an operator is described in [this page](../../platform/using/access-management.md#creating-an-operator).
 
-For more on Adobe Campaign and LDAP integration, refer to [this page](https://helpx.adobe.com/campaign/classic/installation/using/connecting-through-ldap.html).
+For more on Adobe Campaign and LDAP integration, refer to [this page](../../installation/using/connecting-through-ldap.md).
 
 >[!CAUTION]
 >
->Operators need to be linked to a security zone to log on to an instance. For more on security zones in Adobe Campaign, refer to [this page](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#defining-security-zones).
+>Operators need to be linked to a security zone to log on to an instance. For more on security zones in Adobe Campaign, refer to [this page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
-Users can also directly connect to Adobe Campaign using their Adobe ID. For more on this, refer to this [page](https://helpx.adobe.com/campaign/classic/integrations/using/about-adobe-id.html).
+Users can also directly connect to Adobe Campaign using their Adobe ID. For more on this, refer to this [page](../../integrations/using/about-adobe-id.md).
 
 ### Creating an operator {#creating-an-operator}
 
@@ -71,7 +71,7 @@ To create a new operator and grant permissions, follow the steps below:
 
 1. Specify the **[!UICONTROL Identification parameters]** of the user: its login, password and name. The login and password will be used by the operator to log on to Adobe Campaign. Once the user is logged on, they can change their password via the **[!UICONTROL Tools > Change password]** menu. The email of the operator is essential as it enables the operator to receive notifications, for instance when processing approvals.
 
-   This section also enables you to link an operator to an organizational entity. For more on this, refer to the [this page](https://helpx.adobe.com/campaign/classic/campaign/using/about-distributed-marketing.html).
+   This section also enables you to link an operator to an organizational entity. For more on this, refer to the [this page](../../campaign/using/about-distributed-marketing.md).
 
 1. Select the permissions granted to the operator in the **[!UICONTROL Operator access rights]** section.
 
@@ -79,7 +79,7 @@ To create a new operator and grant permissions, follow the steps below:
 
    ![](assets/s_ncs_user_permissions_operators.png)
 
-   You can also select one or more named rights (refer to [Named rights](https://helpx.adobe.com/campaign/standard/platform/using/access-management.html#named-rights)). To do this, click the arrow to the right of the **[!UICONTROL Folder]** field, and select **[!UICONTROL Named rights]** :
+   You can also select one or more named rights (refer to [Named rights](../../platform/using/access-management.md#named-rights)). To do this, click the arrow to the right of the **[!UICONTROL Folder]** field, and select **[!UICONTROL Named rights]** :
 
    ![](assets/s_ncs_user_rights_operators.png)
 
@@ -99,13 +99,13 @@ Once the operator's profile has been created, you can add to or update their inf
 
 >[!NOTE]
 >
->The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. For more on this, refer to [About Federated Data Access](https://helpx.adobe.com/campaign/standard/platform/using/accessing-an-external-database.html#about-federated-data-access).
+>The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. For more on this, refer to [About Federated Data Access](../../platform/using/accessing-an-external-database.md#about-federated-data-access).
 
 ### Time zone of the operator {#time-zone-of-the-operator}
 
 In the **[!UICONTROL General]** tab, you can select the time zone of the operator. By default, operators work in the server time zone. However, it is possible to select another time zone using the drop-down list.
 
-The configuration of time zones is described in [this page](https://helpx.adobe.com/campaign/classic/installation/using/time-zone-management.html).
+The configuration of time zones is described in [this page](../../installation/using/time-zone-management.md).
 
 >[!NOTE]
 >
@@ -123,8 +123,8 @@ Use the **[!UICONTROL Access rights]** tab to update the groups and named rights
 The **[!UICONTROL Edit the access parameters...]** link lets you access the following options:
 
 * The **[!UICONTROL Disable account]** option lets you disable the operator's account: he will no longer access Adobe Campaign.
-* The **[!UICONTROL Forbid access from the rich client]** option lets you restrict the use of Adobe Campaign to [Web access](https://helpx.adobe.com/campaign/classic/platform/using/adobe-campaign-workspace.html#console-and-web-access) or through APIs: access to the Adobe Campaign client console is no longer available.
-* It's possible to link a safety zone to the operator. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#defining-security-zones).
+* The **[!UICONTROL Forbid access from the rich client]** option lets you restrict the use of Adobe Campaign to [Web access](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) or through APIs: access to the Adobe Campaign client console is no longer available.
+* It's possible to link a safety zone to the operator. For more on this, refer to [this page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 * You can also define a trusted IP mask using the appropriate link.
 
   The operator will be able to connect to Adobe Campaign without entering their password if their IP address is in this list.
@@ -157,7 +157,7 @@ You can access:
 
   >[!NOTE]
   >
-  >For more on this, refer to [Folder access management](https://helpx.adobe.com/campaign/standard/platform/using/access-management.html#folder-access-management).
+  >For more on this, refer to [Folder access management](../../platform/using/access-management.md#folder-access-management).
 
 * The operator approvals log.
 
@@ -182,7 +182,7 @@ By default, the 'webapp' technical operator has the named ADMINISTRATION right, 
 
    ![](assets/s_ncs_default_operators_webapp_right.png)
 
-   Named rights are detailed in the [Named rights](https://helpx.adobe.com/campaign/standard/platform/using/access-management.html#named-rights) section.
+   Named rights are detailed in the [Named rights](../../platform/using/access-management.md#named-rights) section.
 
 1. From the **[!UICONTROL Administration > Access management > Operators]** node, select the Web applications agent operator ('webapp').
 
@@ -198,11 +198,11 @@ By default, the 'webapp' technical operator has the named ADMINISTRATION right, 
 
    ![](assets/s_ncs_default_operators_webapp_folder_access.png)
 
-   Modifying rights on tree folders is detailed in the [Folder access management](https://helpx.adobe.com/campaign/standard/platform/using/access-management.html#folder-access-management) section.
+   Modifying rights on tree folders is detailed in the [Folder access management](../../platform/using/access-management.md#folder-access-management) section.
 
 >[!NOTE]
 >
->For more information on Security guidelines, refer to [Adobe Campaign Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html).
+>For more information on Security guidelines, refer to [Adobe Campaign Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.md).
 
 ## Operator groups {#operator-groups}
 
@@ -300,7 +300,7 @@ These rights are as follows:
 * DELETE FOLDER: Right to delete folders.
 * WORKFLOW: Right to use workflows.
 * WEBAPP: Right to use web applications.
-* USE SQL DATA MANAGEMENT ACTIVITY: Right to write your own SQL scripts using the SQL Data Management activity, in order to create and populate work tables (see [this section](https://helpx.adobe.com/campaign/classic/workflow/using/sql-data-management.html)).
+* USE SQL DATA MANAGEMENT ACTIVITY: Right to write your own SQL scripts using the SQL Data Management activity, in order to create and populate work tables (see [this section](../../workflow/using/sql-data-management.md)).
 
 >[!NOTE]
 >
@@ -310,7 +310,7 @@ These rights are as follows:
 
 Default groups and named rights allow operators to access certain folders in the navigation hierarchy, and grant read, write, and delete permissions.
 
-Adobe Campaign access rights matrix is available [here](https://docs.campaign.adobe.com/doc/AC6.1/en/technicalResources/accessRights.html).
+Adobe Campaign access rights matrix is available [here](https://docs.campaign.adobe.com/doc/AC6.1/en/technicalResources/accessRights.md).
 
 ## Folder access management {#folder-access-management}
 
@@ -366,7 +366,7 @@ Folders are nodes in Adobe Campaign tree. These nodes are created by right-click
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-You can grant permissions to these folders as on all the other folders of the tree. See [Folder access management](https://helpx.adobe.com/campaign/standard/platform/using/access-management.html#folder-access-management).
+You can grant permissions to these folders as on all the other folders of the tree. See [Folder access management](../../platform/using/access-management.md#folder-access-management).
 
 In addition, you can create views in order to restrain access to data and organize the content of the tree to suit your requirements. You can then assign rights to the views.
 
@@ -396,7 +396,7 @@ In the example below, we will create new folders to display specific data:
 
    >[!NOTE]
    >
-   >The query editor is presented in [this section](https://helpx.adobe.com/campaign/classic/platform/using/about-queries-in-campaign.html).
+   >The query editor is presented in [this section](../../platform/using/about-queries-in-campaign.md).
 
    With the following filter conditions:
 

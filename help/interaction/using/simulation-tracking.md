@@ -24,13 +24,13 @@ The simulation results contain a breakdown of propositions per rank and per reci
 
 You can save these results and export them if necessary by creating a descriptive analysis of results. To do this, click the appropriate link in the result window.
 
-Refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-descriptive-analysis.html) for more information on the descriptive analysis wizard. 
+Refer to [this section](../../reporting/using/about-descriptive-analysis.md) for more information on the descriptive analysis wizard. 
 
 ![](assets/offer_simulation_012.png)
 
 A pivot table provides a quick view of offer breakdowns per ranking. Like all reports in Adobe Campaign, you can export, print, archive or display it in a web browser.
 
-For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/actions-on-reports.html).
+For more on this, refer to [this section](../../reporting/using/actions-on-reports.md).
 
 ![](assets/offer_simulation_013.png)
 

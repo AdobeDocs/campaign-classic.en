@@ -28,12 +28,12 @@ Combining the XML document and the XSL or JavaScript Template stylesheets automa
 
 The following resources are required for content configuration:
 
-* Data schemas: description of the XML content structure. For more on this, refer to [Data schemas](https://helpx.adobe.com/campaign/standard/delivery/using/data-schemas.html).
-* Data entry forms: construction of data entry screens. For more on this, refer to [Input forms](https://helpx.adobe.com/campaign/standard/delivery/using/input-forms.html).
-* Images: images used in data entry forms. For more on this, refer to [Image management](https://helpx.adobe.com/campaign/standard/delivery/using/formatting.html#image-management).
-* Stylesheets: formatting of output documents using XSLT language. For more on this, refer to [Formatting](https://helpx.adobe.com/campaign/standard/delivery/using/formatting.html).
-* JavaScript templates: formatting of output documents using JavaScript language. For more on this, refer to [Publication templates](https://helpx.adobe.com/campaign/standard/delivery/using/publication-templates.html).
-* JavaScript codes: JavaScript codes for data aggregation. For more on this, refer to [Aggregator](https://helpx.adobe.com/campaign/standard/delivery/using/publication-templates.html#aggregator).
-* Publication templates: definition of publication templates. For more on this, refer to [Publication templates](https://helpx.adobe.com/campaign/standard/delivery/using/publication-templates.html).
-* Content: content instances to be created and published. For more on this, refer to [Using a content template](https://helpx.adobe.com/campaign/standard/delivery/using/using-a-content-template.html).
+* Data schemas: description of the XML content structure. For more on this, refer to [Data schemas](../../delivery/using/data-schemas.md).
+* Data entry forms: construction of data entry screens. For more on this, refer to [Input forms](../../delivery/using/input-forms.md).
+* Images: images used in data entry forms. For more on this, refer to [Image management](../../delivery/using/formatting.md#image-management).
+* Stylesheets: formatting of output documents using XSLT language. For more on this, refer to [Formatting](../../delivery/using/formatting.md).
+* JavaScript templates: formatting of output documents using JavaScript language. For more on this, refer to [Publication templates](../../delivery/using/publication-templates.md).
+* JavaScript codes: JavaScript codes for data aggregation. For more on this, refer to [Aggregator](../../delivery/using/publication-templates.md#aggregator).
+* Publication templates: definition of publication templates. For more on this, refer to [Publication templates](../../delivery/using/publication-templates.md).
+* Content: content instances to be created and published. For more on this, refer to [Using a content template](../../delivery/using/using-a-content-template.md).
 

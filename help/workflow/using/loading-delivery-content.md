@@ -48,7 +48,7 @@ To do this:
 1. In the **[!UICONTROL Script]** tab of the **[!UICONTROL Delivery]** activity, add the following command to load the content of the imported file in the delivery:
 
    ```
-   delivery.content.html.source=loadFile(vars.filename)
+   delivery.content.md.source=loadFile(vars.filename)
    ```
 
    ![](assets/delivery_loadcontent_script.png)
@@ -57,5 +57,5 @@ To do this:
 
 >[!NOTE]
 >
->Best practices and troubleshooting on SFTP server usage are detailed [in this page](https://helpx.adobe.com/campaign/classic/platform/using/sftp-server-usage.html).
+>Best practices and troubleshooting on SFTP server usage are detailed [in this page](../../platform/using/sftp-server-usage.md).
 

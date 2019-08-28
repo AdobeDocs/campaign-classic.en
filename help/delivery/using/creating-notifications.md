@@ -18,7 +18,7 @@ snippet: y
 
 # Creating notifications{#creating-notifications}
 
-This section details the elements specific to the delivery of iOS and Android notifications. Global concepts on delivery creation are presented in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html).
+This section details the elements specific to the delivery of iOS and Android notifications. Global concepts on delivery creation are presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md).
 
 Start by creating a new delivery.
 
@@ -36,9 +36,9 @@ Start by creating a new delivery.
 
    >[!NOTE]
    >
-   >The detailed process when selecting the target population of a delivery is presented in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#defining-the-target-population).  
-   >For more on the use of personalization fields, refer to [About personalization](https://helpx.adobe.com/campaign/standard/delivery/using/about-personalization.html).  
-   >For more on the inclusion of a seed list, refer to [About seed addresses](https://helpx.adobe.com/campaign/standard/delivery/using/about-seed-addresses.html).
+   >The detailed process when selecting the target population of a delivery is presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-the-target-population).  
+   >For more on the use of personalization fields, refer to [About personalization](../../delivery/using/about-personalization.md).  
+   >For more on the inclusion of a seed list, refer to [About seed addresses](../../delivery/using/about-seed-addresses.md).
 
 1. Select **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]** , select the service relevant to your mobile application (Neotrips, in this case), then select the iOS version of the application.
 
@@ -53,7 +53,7 @@ Start by creating a new delivery.
    >The **Silent Push** mode is available from iOS 7. This allows a "silent" notification to be sent to a mobile application. The user is not made aware of the notification's arrival. It is transferred directly to the application.
 
 1. In the **[!UICONTROL Title]** field, enter the label of the title that you want to appear on the notification. It will only appear in the list of notifications available from the notification center. This field allows you to define the value of the **title** parameter of the iOS notification payload.
-1. If you use the HTTP/2 connector, you can add a subtitle (value of the **subtitle** parameter of the iOS notification payload). Refer to the [Connectors](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#connectors) section.
+1. If you use the HTTP/2 connector, you can add a subtitle (value of the **subtitle** parameter of the iOS notification payload). Refer to the [Connectors](../../delivery/using/setting-up-mobile-app-channel.md#connectors) section.
 1. Then enter the **[!UICONTROL Message]** and the **[!UICONTROL Value of the badge]** based on the chosen notification type. 
 
    ![](assets/nmac_delivery_ios_5.png)
@@ -66,18 +66,18 @@ Start by creating a new delivery.
    >
    >**[!UICONTROL Badge]** and **[!UICONTROL Alert and badge]** type notifications enable you to modify the value of the badge (the number above the mobile application logo). To refresh the badge, you just have to enter 0 as the value. If the field is empty, the badge value will not change.
 
-1. The **[!UICONTROL Action button]** allows you to define a label for the action button appearing on the alert notifications (**action_loc_key** field of the payload). If your iOS application manages localizable strings (**Localizable.strings**), enter the corresponding key into this field. If your application does not manage localizable text, enter the label that you want to see appear on the action button. For more information on localizable strings, consult the [Apple documentation](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1) .
+1. The **[!UICONTROL Action button]** allows you to define a label for the action button appearing on the alert notifications (**action_loc_key** field of the payload). If your iOS application manages localizable strings (**Localizable.strings**), enter the corresponding key into this field. If your application does not manage localizable text, enter the label that you want to see appear on the action button. For more information on localizable strings, consult the [Apple documentation](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.md#//apple_ref/doc/uid/TP40008194-CH10-SW1) .
 1. In the **[!UICONTROL Play a sound]** field, select the sound to be played by the mobile terminal when the notification is received.
 
    >[!NOTE]
    >
-   >Sounds must be included in the application and defined when the service is created. Refer to [Application sounds](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#application-sounds).
+   >Sounds must be included in the application and defined when the service is created. Refer to [Application sounds](../../delivery/using/setting-up-mobile-app-channel.md#application-sounds).
 
 1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. Application variables let you define notification behavior: for instance, you can configure a specific application screen to be displayed when the user activates the notification.
 
    >[!NOTE]
    >
-   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [General information](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#general-information).
+   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [General information](../../delivery/using/setting-up-mobile-app-channel.md#general-information).
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
 
@@ -92,9 +92,9 @@ To send a proof and to send the final delivery, use the same process as email de
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Push notification quarantines](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-quarantine-management.html#push-notification-quarantines)
-* [Monitoring a delivery](https://helpx.adobe.com/campaign/standard/delivery/using/monitoring-a-delivery.html)
-* [Understanding delivery failures](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-delivery-failures.html)
+* [Push notification quarantines](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
+* [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md)
+* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 
 ## Sending notifications on Android {#sending-notifications-on-android}
 
@@ -122,7 +122,7 @@ After sending messages, you can monitor and track your deliveries. For more on t
 
    >[!NOTE]
    >
-   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [General information](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#general-information).
+   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [General information](../../delivery/using/setting-up-mobile-app-channel.md#general-information).
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
 
@@ -132,12 +132,12 @@ To send a proof and to send the final delivery, use the same process as email de
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validating the delivery](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#validating-the-delivery)
-* [Sending the delivery](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#sending-the-delivery)
+* [Validating the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#validating-the-delivery)
+* [Sending the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-the-delivery)
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Push notification quarantines](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-quarantine-management.html#push-notification-quarantines)
-* [Monitoring a delivery](https://helpx.adobe.com/campaign/standard/delivery/using/monitoring-a-delivery.html)
-* [Understanding delivery failures](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-delivery-failures.html)
+* [Push notification quarantines](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
+* [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md)
+* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 

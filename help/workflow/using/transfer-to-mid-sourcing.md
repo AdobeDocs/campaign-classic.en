@@ -18,7 +18,7 @@ snippet: y
 
 # Transfer to Mid-sourcing{#transfer-to-mid-sourcing}
 
-The workflows detailed below are installed with the **Transfer to Mid-Sourcing** module by default. For more on this module, refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/mid-sourcing-deployment.html).
+The workflows detailed below are installed with the **Transfer to Mid-Sourcing** module by default. For more on this module, refer to this [section](../../installation/using/mid-sourcing-deployment.md).
 
 <table> 
  <tbody> 

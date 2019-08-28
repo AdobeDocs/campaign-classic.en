@@ -24,7 +24,7 @@ The **By form** type Web interface involves using a **Web application**. Dependi
 
 >[!NOTE]
 >
->APIs are detailed in a dedicated document, access to which is dependent on your contract. Refer to [API](https://helpx.adobe.com/campaign/classic/configuration/using/about-web-services.html).
+>APIs are detailed in a dedicated document, access to which is dependent on your contract. Refer to [API](../../configuration/using/about-web-services.md).
 
 >[!NOTE]
 >
@@ -235,11 +235,11 @@ The steps are as follows:
 
    ![](assets/mkg_dist_use_case_form_1.png)
 
-1. In the campaign's **[!UICONTROL Edit]** tab, click the **[!UICONTROL Advanced campaign settings...]** link to configure it as a local campaign. Refer to [Creating a local campaign (by form)](https://helpx.adobe.com/campaign/standard/campaign/using/examples.html#creating-a-local-campaign--by-form-).
+1. In the campaign's **[!UICONTROL Edit]** tab, click the **[!UICONTROL Advanced campaign settings...]** link to configure it as a local campaign. Refer to [Creating a local campaign (by form)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
    ![](assets/mkg_dist_use_case_form_2.png)
 
-1. Configure the campaign workflow and the web form. Refer to [Creating a local campaign (by form)](https://helpx.adobe.com/campaign/standard/campaign/using/examples.html#creating-a-local-campaign--by-form-).
+1. Configure the campaign workflow and the web form. Refer to [Creating a local campaign (by form)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 1. Create your campaign package by specifying the execution schedule and the local entities involved.
 
    ![](assets/mkg_dist_use_case_form_3.png)

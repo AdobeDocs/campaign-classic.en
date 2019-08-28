@@ -99,7 +99,7 @@ If necessary, you can also unlock it manually from the dashboard.
 
 For each resource, the **[!UICONTROL Forum]** tab lets participants exchange information.
 
-[Discussion forums](https://helpx.adobe.com/campaign/standard/campaign/using/discussion-forums.html) explains how discussion forums operate in Adobe Campaign.
+[Discussion forums](../../campaign/using/discussion-forums.md) explains how discussion forums operate in Adobe Campaign.
 
 ## Life cycle of a marketing resource {#life-cycle-of-a-marketing-resource}
 
@@ -150,7 +150,7 @@ In order for Adobe Campaign to publish, you need to create an adequate workflow 
 The workflow will be executed:
 
 * When the reviewer clicks the **[!UICONTROL Publish resource]** link (or, if no reviewer was defined, the person in charge of the resource).
-* If the resource is managed via a marketing resource creation task, it will be executed when the task is set to **[!UICONTROL Finished]** , as long as the **[!UICONTROL Publish the marketing resource]** box is checked in the task (Refer to [Marketing resource creation task](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#marketing-resource-creation-task))
+* If the resource is managed via a marketing resource creation task, it will be executed when the task is set to **[!UICONTROL Finished]** , as long as the **[!UICONTROL Publish the marketing resource]** box is checked in the task (Refer to [Marketing resource creation task](../../campaign/using/creating-and-managing-tasks.md#marketing-resource-creation-task))
 
 If a workflow isn't started immediately (if the workflow is stopped for instance), the status of the resource changes to **[!UICONTROL Pending publication]** . Once the workflow is started, the status of the resource changes to **[!UICONTROL Published]** . This status does not take into account possible errors in the publishing process. Check the status of your workflow to make sure it has executed properly.
 
@@ -162,7 +162,7 @@ Marketing resources can be associated with campaigns, provided that this feature
 
 >[!NOTE]
 >
->For details on how to create and configure campaign templates, refer to [Campaign templates](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#campaign-templates).
+>For details on how to create and configure campaign templates, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
 
 Click the **[!UICONTROL Documents > Resources]** tab in the campaign dashboard, then click **[!UICONTROL Add]** to select the resource concerned.
 
@@ -186,7 +186,7 @@ Marketing resources can be associated with deliveries via delivery outlines.
 
 >[!NOTE]
 >
->For more information on delivery outlines, refer to [Associating and structuring resources linked via a delivery outline](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#associating-and-structuring-resources-linked-via-a-delivery-outline).
+>For more information on delivery outlines, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 ## Stock management {#stock-management}
 
@@ -194,7 +194,7 @@ You can associate a marketing resource with one or more stocks in order to manag
 
 >[!NOTE]
 >
->For more information on stock management in Adobe Campaign, refer to [Stock management](https://helpx.adobe.com/campaign/standard/campaign/using/providers--stocks-and-budgets.html#stock-management).
+>For more information on stock management in Adobe Campaign, refer to [Stock management](../../campaign/using/providers--stocks-and-budgets.md#stock-management).
 
 To associate a marketing resource with a stock, edit the stock map and edit or create a stock. Add a stock line and select the corresponding marketing resource.
 

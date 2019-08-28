@@ -18,7 +18,7 @@ snippet: y
 
 # Campaign{#campaign}
 
-The workflows detailed below are installed with the **Campaign** module by default. For more on this module, refer to this [section](https://helpx.adobe.com/campaign/classic/campaign/using/designing-marketing-campaigns.html).
+The workflows detailed below are installed with the **Campaign** module by default. For more on this module, refer to this [section](../../campaign/using/designing-marketing-campaigns.md).
 
 <table> 
  <tbody> 

@@ -33,7 +33,7 @@ To use the dynamic condition, you must have:
 
 ## Step 1 - Creating a delivery {#step-1---creating-a-delivery}
 
-The steps for creating a delivery are detailed in the [Creating an email delivery](https://helpx.adobe.com/campaign/standard/delivery/using/creating-an-email-delivery.html) section.
+The steps for creating a delivery are detailed in the [Creating an email delivery](../../delivery/using/creating-an-email-delivery.md) section.
 
 In this example, the delivery manager has created the newsletter and selected the recipients.
 
@@ -45,7 +45,7 @@ To create a common value like the one in our example (Purchasing department), yo
 
 ### Extending the data schema {#extending-the-data-schema}
 
-For further details on schema extensions, refer to the [Configuration guide](https://helpx.adobe.com/campaign/classic/configuration/using/data-schemas.html).
+For further details on schema extensions, refer to the [Configuration guide](../../configuration/using/data-schemas.md).
 
 1. In the **[!UICONTROL Administration > Configuration > Data schemas]** node, click the **[!UICONTROL New]** icon.
 1. In the **[!UICONTROL Creation of a data schema]** window, select the **[!UICONTROL Extension of a schema]** option and click **[!UICONTROL Next]** .
@@ -96,7 +96,7 @@ For further details on schema extensions, refer to the [Configuration guide](htt
 
    Once the update has finished, you can close the wizard.
 
-1. Disconnect then reconnect to Adobe Campaign. The changes made in the seed address data schema are now effective. In order for them to be visible from the seed address screen, you must update the associated **[!UICONTROL Input form]** . Refer to the [Updating the input form](https://helpx.adobe.com/campaign/standard/delivery/using/use-case--selecting-seed-addresses-on-criteria.html#updating-the-input-form) section.
+1. Disconnect then reconnect to Adobe Campaign. The changes made in the seed address data schema are now effective. In order for them to be visible from the seed address screen, you must update the associated **[!UICONTROL Input form]** . Refer to the [Updating the input form](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) section.
 
 #### Extending the data schema from a linked table {#extending-the-data-schema-from-a-linked-table}
 
@@ -131,7 +131,7 @@ They indicate:
 
 The user can then follow from **step 5** of the section, and update the **[!UICONTROL Input form]** of the seed addresses.
 
-Refer to the [Updating the input form](https://helpx.adobe.com/campaign/standard/delivery/using/use-case--selecting-seed-addresses-on-criteria.html#updating-the-input-form) section.
+Refer to the [Updating the input form](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) section.
 
 #### Updating the input form {#updating-the-input-form}
 

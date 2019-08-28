@@ -25,9 +25,9 @@ The DCE editing window is broken down into three different sections. They let yo
 
 ![](assets/dce_decoupe_window_nb.png)
 
-1. The **top** section is a display area for messages to the user. These messages indicate the status of the Web application status or the delivery being created as well as warnings and error messages related to the content. For more on this, refer to [HTML content statuses](https://helpx.adobe.com/campaign/standard/web/using/content-editing-best-practices.html#html-content-statuses).
-1. The section to the **left** of the window is the area for editing content. From this area, the user can directly interact with the content using the pop-up toolbar: insert a link into an image, change the font, delete a field, etc. For more on this refer to [Editing forms](https://helpx.adobe.com/campaign/standard/web/using/editing-content.html#editing-forms).
-1. The section to the **right** of the window is the control panel area. This area groups the different options for the editor, particularly those related to configuring the page heading and general options for a block: add a border, link a database field with an input zone, access Web page properties, etc. For more on this, refer to the [Global options](https://helpx.adobe.com/campaign/standard/web/using/content-editor-interface.html#global-options) and [Editing content](https://helpx.adobe.com/campaign/standard/web/using/editing-content.html) sections.
+1. The **top** section is a display area for messages to the user. These messages indicate the status of the Web application status or the delivery being created as well as warnings and error messages related to the content. For more on this, refer to [HTML content statuses](../../web/using/content-editing-best-practices.md#html-content-statuses).
+1. The section to the **left** of the window is the area for editing content. From this area, the user can directly interact with the content using the pop-up toolbar: insert a link into an image, change the font, delete a field, etc. For more on this refer to [Editing forms](../../web/using/editing-content.md#editing-forms).
+1. The section to the **right** of the window is the control panel area. This area groups the different options for the editor, particularly those related to configuring the page heading and general options for a block: add a border, link a database field with an input zone, access Web page properties, etc. For more on this, refer to the [Global options](../../web/using/content-editor-interface.md#global-options) and [Editing content](../../web/using/editing-content.md) sections.
 
 ## Global options {#global-options}
 
@@ -76,12 +76,12 @@ The section to the right of the editor groups the main options which allow you t
 
 You can:
 
-* Determine the display for one or several blocks, refer to [Defining a visibility condition](https://helpx.adobe.com/campaign/standard/web/using/editing-content.html#defining-a-visibility-condition),
-* Define the borders and frames, refer to [Adding a border and background](https://helpx.adobe.com/campaign/standard/web/using/editing-content.html#adding-a-border-and-background),
-* Define image attributes (size, caption), refer to [Editing image properties](https://helpx.adobe.com/campaign/standard/web/using/editing-content.html#editing-image-properties),
-* Link the database to a form element (input zone, checkbox), refer to [Changing the data properties for a form](https://helpx.adobe.com/campaign/standard/web/using/editing-content.html#changing-the-data-properties-for-a-form),
-* Make a part of a form mandatory, refer to [Changing the data properties for a form](https://helpx.adobe.com/campaign/standard/web/using/editing-content.html#changing-the-data-properties-for-a-form),
-* Define an action for a button, refer to [Adding an action to a button](https://helpx.adobe.com/campaign/standard/web/using/editing-content.html#adding-an-action-to-a-button).
+* Determine the display for one or several blocks, refer to [Defining a visibility condition](../../web/using/editing-content.md#defining-a-visibility-condition),
+* Define the borders and frames, refer to [Adding a border and background](../../web/using/editing-content.md#adding-a-border-and-background),
+* Define image attributes (size, caption), refer to [Editing image properties](../../web/using/editing-content.md#editing-image-properties),
+* Link the database to a form element (input zone, checkbox), refer to [Changing the data properties for a form](../../web/using/editing-content.md#changing-the-data-properties-for-a-form),
+* Make a part of a form mandatory, refer to [Changing the data properties for a form](../../web/using/editing-content.md#changing-the-data-properties-for-a-form),
+* Define an action for a button, refer to [Adding an action to a button](../../web/using/editing-content.md#adding-an-action-to-a-button).
 
 ## Content toolbar {#content-toolbar}
 

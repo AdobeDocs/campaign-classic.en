@@ -26,7 +26,7 @@ The files must be on the server on which the wfserver module in charge of this w
 
 ## Properties {#properties}
 
-The first tab of the **[!UICONTROL File collector]** activity lets you select the source directory and, if necessary, filter the collected files. The other tabs are detailed in [Inbound Emails](https://helpx.adobe.com/campaign/standard/workflow/using/inbound-emails.html) ( **[!UICONTROL Schedule]** and **[!UICONTROL Expiry]** tabs).
+The first tab of the **[!UICONTROL File collector]** activity lets you select the source directory and, if necessary, filter the collected files. The other tabs are detailed in [Inbound Emails](../../workflow/using/inbound-emails.md) ( **[!UICONTROL Schedule]** and **[!UICONTROL Expiry]** tabs).
 
 ![](assets/file_collect_edit.png)
 
@@ -70,7 +70,7 @@ The first tab of the **[!UICONTROL File collector]** activity lets you select th
 
 1. **Historization**
 
-   Refer to the **[!UICONTROL File historization]** step here: [Web download](https://helpx.adobe.com/campaign/standard/workflow/using/web-download.html).
+   Refer to the **[!UICONTROL File historization]** step here: [Web download](../../workflow/using/web-download.md).
 
 The file processing order cannot be determined. To process a set of files sequentially, use the **[!UICONTROL Stop as soon as a file has been processed]** option and create a loop. In this case, the files will be processed in alphabetical order. The **[!UICONTROL Process file nonexistence]** option lets you finish the iteration.
 

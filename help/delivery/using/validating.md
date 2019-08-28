@@ -24,11 +24,11 @@ To launch a delivery, edit it and click the **[!UICONTROL Send]** button. Select
 
 Click **[!UICONTROL Next]** and then **[!UICONTROL Analyze]** to launch the delivery analysis.
 
-The output file is then generated. Its content depends on the selected output columns (refer to [Extraction file](https://helpx.adobe.com/campaign/standard/delivery/using/defining-the-direct-mail-content.html#extraction-file)).
+The output file is then generated. Its content depends on the selected output columns (refer to [Extraction file](../../delivery/using/defining-the-direct-mail-content.md#extraction-file)).
 
 >[!NOTE]
 >
->The analysis phase is detailed in [Analyzing the delivery](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#analyzing-the-delivery).
+>The analysis phase is detailed in [Analyzing the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#analyzing-the-delivery).
 
 You can stop this job at any time by clicking **[!UICONTROL Stop]** .
 

@@ -20,13 +20,13 @@ snippet: y
 
 Here are the installation and configuration steps that apply to hybrid hosting models:
 
-* Configuring transactional messages: refer to this [section](https://helpx.adobe.com/campaign/classic/message-center/using/transactional-messaging-architecture.html).
-* Configuring tracking and mirror page URLs per brand. For transactional messages, refer to this [section](https://helpx.adobe.com/campaign/classic/message-center/using/configuring-multibranding.html).
-* Installing the client console: refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/installing-the-client-console.html).
-* Installing packages: refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html).
-* Deliverability: configuring [MX rules](https://helpx.adobe.com/campaign/classic/installation/using/email-deliverability.html#mx-configuration) and [email formats](https://helpx.adobe.com/campaign/classic/installation/using/email-deliverability.html#managing-email-formats). Learn more on the deliverability tools and best practices by reading the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and [detailed documentation](https://helpx.adobe.com/campaign/classic/delivery/using/about-deliverability.html).
-* Configuring Campaign options: refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-options.html).
-* Configuring an external database (FDA): refer to this [section](https://helpx.adobe.com/campaign/classic/platform/using/accessing-an-external-database.html).
-* Configuring CRM connectors: refer to this [section](https://helpx.adobe.com/campaign/classic/platform/using/crm-connectors.html).
-* To learn more on mid-sourcing deployment principles, refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/mid-sourcing-deployment.html).
+* Configuring transactional messages: refer to this [section](../../message-center/using/transactional-messaging-architecture.md).
+* Configuring tracking and mirror page URLs per brand. For transactional messages, refer to this [section](../../message-center/using/configuring-multibranding.md).
+* Installing the client console: refer to this [section](../../installation/using/installing-the-client-console.md).
+* Installing packages: refer to this [section](../../installation/using/installing-campaign-standard-packages.md).
+* Deliverability: configuring [MX rules](../../installation/using/email-deliverability.md#mx-configuration) and [email formats](../../installation/using/email-deliverability.md#managing-email-formats). Learn more on the deliverability tools and best practices by reading the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) and [detailed documentation](../../delivery/using/about-deliverability.md).
+* Configuring Campaign options: refer to this [section](../../installation/using/configuring-campaign-options.md).
+* Configuring an external database (FDA): refer to this [section](../../platform/using/accessing-an-external-database.md).
+* Configuring CRM connectors: refer to this [section](../../platform/using/crm-connectors.md).
+* To learn more on mid-sourcing deployment principles, refer to this [section](../../installation/using/mid-sourcing-deployment.md).
 

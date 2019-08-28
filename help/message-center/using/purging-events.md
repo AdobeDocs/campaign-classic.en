@@ -32,4 +32,4 @@ Event purge settings on an execution instance:
 
 ![](assets/messagecenter_delete_events_002.png)
 
-For more on the database cleanup workflow, refer to [this section](https://helpx.adobe.com/campaign/classic/production/using/database-cleanup-workflow.html).
+For more on the database cleanup workflow, refer to [this section](../../production/using/database-cleanup-workflow.md).

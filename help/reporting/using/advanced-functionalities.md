@@ -26,7 +26,7 @@ This activity enables you to process data and easily create complex queries that
 
 Simply enter your query in the script window.
 
-The **[!UICONTROL Texts]** tab enables you to define text strings. They may then be used with the following syntax: **$(Identifier)**. For more on using texts, refer to [Adding a header and a footer](https://helpx.adobe.com/campaign/standard/reporting/using/element-layout.html#adding-a-header-and-a-footer).
+The **[!UICONTROL Texts]** tab enables you to define text strings. They may then be used with the following syntax: **$(Identifier)**. For more on using texts, refer to [Adding a header and a footer](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
 >[!CAUTION]
 >

@@ -22,8 +22,8 @@ To approve your message and send it to the recipients of the delivery being crea
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validating the delivery](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#validating-the-delivery)
-* [Sending the delivery](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#sending-the-delivery)
+* [Validating the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#validating-the-delivery)
+* [Sending the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-the-delivery)
 
 ## Analyzing the delivery {#analyzing-the-delivery}
 
@@ -35,7 +35,7 @@ The **[!UICONTROL Analyze]** button lets you launch the analysis manually. The p
 
 ![](assets/s_ncs_user_postal_del_analyze.png)
 
-The lower section of the window displays the analysis result. Special icons display warnings. The approval rules are presented in [Validation process with typologies](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#validation-process-with-typologies).
+The lower section of the window displays the analysis result. Special icons display warnings. The approval rules are presented in [Validation process with typologies](../../delivery/using/key-steps-when-creating-a-delivery.md#validation-process-with-typologies).
 
 >[!CAUTION]
 >
@@ -57,7 +57,7 @@ The proof lets you test the delivery on a control group before sending it to the
 
 >[!NOTE]
 >
->The proof target is defined in [Defining a specific proof target](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#defining-a-specific-proof-target).
+>The proof target is defined in [Defining a specific proof target](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target).
 
 To send a proof, click the **[!UICONTROL Send a proof]** button.
 
@@ -67,6 +67,6 @@ Click **[!UICONTROL Analyze]** to launch the analysis, then send the proof by cl
 
 ![](assets/s_ncs_user_postal_bat_analyze.png)
 
-The delivery proof is added to the list of deliveries with the appropriate status. Delivery statuses are presented in [Accessing the list of deliveries](https://helpx.adobe.com/campaign/standard/delivery/using/accessing-deliveries-information.html#accessing-the-list-of-deliveries).
+The delivery proof is added to the list of deliveries with the appropriate status. Delivery statuses are presented in [Accessing the list of deliveries](../../delivery/using/accessing-deliveries-information.md#accessing-the-list-of-deliveries).
 
 Select this delivery and use its detail tabs to view its content.

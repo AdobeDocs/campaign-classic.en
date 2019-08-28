@@ -23,11 +23,11 @@ snippet: y
 To use the integration with the IMS:
 
 * You must have an Adobe Marketing Cloud organization and IMS IDs (provided when you first connect to the Adobe Marketing Cloud).
-* You have to add users in the Marketing Cloud. For more on this, refer to this page: [https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+* You have to add users in the Marketing Cloud. For more on this, refer to this page: [https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.md](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.md).
 
 >[!NOTE]
 >
->Make sure that your users are linked to the Adobe Marketing Cloud groups that will be synced with Adobe Campaign. Refer to [Configuring the external account](https://helpx.adobe.com/campaign/standard/integrations/using/configuring-ims.html#configuring-the-external-account).
+>Make sure that your users are linked to the Adobe Marketing Cloud groups that will be synced with Adobe Campaign. Refer to [Configuring the external account](../../integrations/using/configuring-ims.md#configuring-the-external-account).
 
 ## Updating the console {#updating-the-console}
 
@@ -35,7 +35,7 @@ To use this functionality, it is imperative that you install the latest version 
 
 ## Installing the package {#installing-the-package}
 
-You must install the **[!UICONTROL Integration with the Adobe Experience Cloud]** package. Installing an integration package is the same as installing a standard package, which is detailed in [this page](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html). 
+You must install the **[!UICONTROL Integration with the Adobe Experience Cloud]** package. Installing an integration package is the same as installing a standard package, which is detailed in [this page](../../installation/using/installing-campaign-standard-packages.md). 
 
 ![](assets/ims_6.png)
 
@@ -51,7 +51,7 @@ Configure the **Adobe Experience Cloud** external account in **[!UICONTROL Admin
 
 Enter the following information:
 
-* Connection information for the IMS server used (ID and secret). This information is provided by Adobe support. For more information, refer to the [FAQ for Adobe Experience Cloud Administrators](https://marketing.adobe.com/resources/help/en_US/mcloud/faq.html).
+* Connection information for the IMS server used (ID and secret). This information is provided by Adobe support. For more information, refer to the [FAQ for Adobe Experience Cloud Administrators](https://marketing.adobe.com/resources/help/en_US/mcloud/faq.md).
 
   The **[!UICONTROL Callback server]** address must be specified in **https**. This field corresponds to the access URL of your Adobe Campaign instance.
 

@@ -36,7 +36,7 @@ To create a chart in a report, apply the following steps:
 
 1. Click the **[!UICONTROL Data]** tab to define the data source and the series to be calculated.
 
-   The statistics to be displayed in the chart can be calculated based on a query or on the context data, i.e. the data provided by the inbound transition of the current page (for more on this, refer to [Using context data](https://helpx.adobe.com/campaign/standard/reporting/using/using-the-context.html#using-context-data)).
+   The statistics to be displayed in the chart can be calculated based on a query or on the context data, i.e. the data provided by the inbound transition of the current page (for more on this, refer to [Using context data](../../reporting/using/using-the-context.md#using-context-data)).
 
     * Click the **[!UICONTROL Filter data...]** link to define filtering criteria for the data in the database.
     
@@ -150,7 +150,7 @@ The **[!UICONTROL Width]** field lets you edit the chart size.
 
 You can define an action when the user clicks the chart. Open the **[!UICONTROL Interaction events]** window and select the action you want to perform.
 
-Possible interaction types and their configurations are detailed in [this section](https://helpx.adobe.com/campaign/classic/web/using/static-elements-in-a-web-form.html#inserting-html-content).
+Possible interaction types and their configurations are detailed in [this section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 
@@ -164,4 +164,4 @@ To create a new statistic, click the **[!UICONTROL Add]** icon and configure the
 
 ![](assets/reporting_add_statistics.png)
 
-For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/using-the-descriptive-analysis-wizard.html#statistics-calculation).
+For more on this, refer to [this section](../../reporting/using/using-the-descriptive-analysis-wizard.md#statistics-calculation).

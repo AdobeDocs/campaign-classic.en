@@ -20,11 +20,11 @@ snippet: y
 
 In the following example, we will create overview-type Web applications to display all the Web applications in your database. Configure the following elements:
 
-* a filter on the folder (refer to [Adding a filter on a folder](https://helpx.adobe.com/campaign/standard/web/using/use-cases--creating-overviews.html#adding-a-filter-on-a-folder)),
-* a button for creating a new Web application (refer to [Adding a button to configure a new Web application](https://helpx.adobe.com/campaign/standard/web/using/use-cases--creating-overviews.html#adding-a-button-to-configure-a-new-web-application)),
-* detail display for each entry in the list (refer to [Adding detail to a list](https://helpx.adobe.com/campaign/standard/web/using/use-cases--creating-overviews.html#adding-detail-to-a-list)),
-* one filter per link editing tool (refer to [Creating a filter using a link editor](https://helpx.adobe.com/campaign/standard/web/using/use-cases--creating-overviews.html#creating-a-filter-using-a-link-editor)), 
-* a refresh link (refer to [Creating a refresh link](https://helpx.adobe.com/campaign/standard/web/using/use-cases--creating-overviews.html#creating-a-refresh-link)).
+* a filter on the folder (refer to [Adding a filter on a folder](../../web/using/use-cases--creating-overviews.md#adding-a-filter-on-a-folder)),
+* a button for creating a new Web application (refer to [Adding a button to configure a new Web application](../../web/using/use-cases--creating-overviews.md#adding-a-button-to-configure-a-new-web-application)),
+* detail display for each entry in the list (refer to [Adding detail to a list](../../web/using/use-cases--creating-overviews.md#adding-detail-to-a-list)),
+* one filter per link editing tool (refer to [Creating a filter using a link editor](../../web/using/use-cases--creating-overviews.md#creating-a-filter-using-a-link-editor)), 
+* a refresh link (refer to [Creating a refresh link](../../web/using/use-cases--creating-overviews.md#creating-a-refresh-link)).
 
 ![](assets/s_ncs_configuration_webapp_overview.png)
 
@@ -171,7 +171,7 @@ These two elements will be grouped in the same container in order to be graphica
 
    ![](assets/s_ncs_configuration_webapp_container.png)
 
-   For information on element layout, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html).
+   For information on element layout, refer to [this section](../../web/using/about-web-forms.md).
 
 1. Apply **dottedFilter**.
 

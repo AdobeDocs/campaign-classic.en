@@ -40,7 +40,7 @@ This method also highlights users who create too many objects.
 
 ## Deliveries {#deliveries}
 
-There should be less than 1000 deliveries on the instance at any time. Having a lot of deliveries consumes database space and creates issues. An instance that creates more than 10 deliveries per day has to be checked against business requirements. Consider using continuous deliveries to create less deliveries. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/continuous-delivery.html).
+There should be less than 1000 deliveries on the instance at any time. Having a lot of deliveries consumes database space and creates issues. An instance that creates more than 10 deliveries per day has to be checked against business requirements. Consider using continuous deliveries to create less deliveries. For more on this, refer to [this section](../../workflow/using/continuous-delivery.md).
 
 Deliveries older than two years should be purged from the instance.
 
@@ -48,14 +48,14 @@ Deliveries older than two years should be purged from the instance.
 
 The number of files on the application server disk should not increase indefinitely.
 
-Import workflows create files and therefore cause disk expansion. This can be prevented by using the standard [File collector](https://helpx.adobe.com/campaign/classic/workflow/using/file-collector.html) activity. The file collector moves files to a temporary folder and automatically purges them.
+Import workflows create files and therefore cause disk expansion. This can be prevented by using the standard [File collector](../../workflow/using/file-collector.md) activity. The file collector moves files to a temporary folder and automatically purges them.
 
 If a workflow imports files and doesn't make use of the standard features, it needs to be purged in order to keep disk space to a minimum.
 
 ## Transactional data and logs {#transactional-data-and-logs}
 
-Every [workflow](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html#work-table) that imports data into Adobe Campaign causes the size of the database to grow.
+Every [workflow](../../workflow/using/executing-a-workflow.md#work-table) that imports data into Adobe Campaign causes the size of the database to grow.
 
-Check that cleanup or purge workflows are running and effectively purging records. All transactional data and logs must be purged. The cleanup task purges the standard tables only: tracking and broad logs. Specific tables must be purged by specific workflows. Refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html#purging-the-logs).
+Check that cleanup or purge workflows are running and effectively purging records. All transactional data and logs must be purged. The cleanup task purges the standard tables only: tracking and broad logs. Specific tables must be purged by specific workflows. Refer to [this section](../../workflow/using/executing-a-workflow.md#purging-the-logs).
 
 Watch for aging transactional data by checking the oldest creation date of the records.

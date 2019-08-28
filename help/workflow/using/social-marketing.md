@@ -18,7 +18,7 @@ snippet: y
 
 # Social Marketing{#social-marketing}
 
-The workflows detailed below are installed with the **Social Marketing** module by default. For more on this module, refer to this [section](https://helpx.adobe.com/campaign/classic/social/using/starting-workflows.html).
+The workflows detailed below are installed with the **Social Marketing** module by default. For more on this module, refer to this [section](../../social/using/starting-workflows.md).
 
 <table> 
  <tbody> 

@@ -23,8 +23,8 @@ Adobe Campaign lets you import data to the database from one or more files in te
 >[!NOTE]
 >
 >You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function.  
->The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/workflow/using/read-list.html).  
->For more on this, watch the [Importing profiles](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
+>The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../workflow/using/read-list.md).  
+>For more on this, watch the [Importing profiles](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.md) video.
 
 ## Structure of the data to import {#structure-of-the-data-to-import}
 
@@ -37,7 +37,7 @@ The import wizard lets you configure the import, define its options (such as dat
 >[!NOTE]
 >
 >If you use an IIS Web server, a configuration may be necessary to authorize uploading large files (>28 MB).  
->For more information, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/integration-into-a-web-server.html#changing-the-upload-file-size-limit).
+>For more information, refer to [this section](../../installation/using/integration-into-a-web-server.md#changing-the-upload-file-size-limit).
 
 ### Step 1 - Choosing the import template {#step-1---choosing-the-import-template}
 
@@ -63,7 +63,7 @@ When launching the import wizard, you first have to select a template. As an exa
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
-   Each time a file is added, the screen of the **[!UICONTROL File to import]** wizard is displayed. See section [Step 2 - Source file selection](https://helpx.adobe.com/campaign/standard/platform/using/importing-data.html#step-2---source-file-selection) and follow the steps in the wizard to define the import options as for a simple import.
+   Each time a file is added, the screen of the **[!UICONTROL File to import]** wizard is displayed. See section [Step 2 - Source file selection](../../platform/using/importing-data.md#step-2---source-file-selection) and follow the steps in the wizard to define the import options as for a simple import.
 
    >[!NOTE]
    >
@@ -89,7 +89,7 @@ The **[!UICONTROL Advanced parameters]** link lets you access the following opti
     
     * **[!UICONTROL Do not update enumerations]**
 
-      Select this option to avoid enriching the list of enumerated values in the database. See [Managing enumerations](https://helpx.adobe.com/campaign/standard/platform/using/managing-enumerations.html).
+      Select this option to avoid enriching the list of enumerated values in the database. See [Managing enumerations](../../platform/using/managing-enumerations.md).
 
 * **[!UICONTROL Variables]** tab
 
@@ -292,7 +292,7 @@ The next step of the import wizard lets you select or create the folder in which
 
        >[!NOTE]
        >
-       >The default folder for an operator is the first folder for which the operator has write access. See [Folder access management](https://helpx.adobe.com/campaign/standard/platform/using/access-management.html#folder-access-management).
+       >The default folder for an operator is the first folder for which the operator has write access. See [Folder access management](../../platform/using/access-management.md#folder-access-management).
 
        To select the import folder, click the arrow to the right of the **[!UICONTROL Folder]** field and select the folder concerned. You can also use the **[!UICONTROL Select link]** icon to display the tree in a new window or create a new folder. 
     
@@ -312,7 +312,7 @@ The next step of the import wizard lets you select or create the folder in which
     
        ![](assets/s_ncs_user_import_wizard05_5.png)
 
-       You can create a new list for these recipients by clicking **[!UICONTROL Select link]** , then **[!UICONTROL Create]** . The creation and management of lists are presented in [Creating and managing lists](https://helpx.adobe.com/campaign/standard/platform/using/creating-and-managing-lists.html).
+       You can create a new list for these recipients by clicking **[!UICONTROL Select link]** , then **[!UICONTROL Create]** . The creation and management of lists are presented in [Creating and managing lists](../../platform/using/creating-and-managing-lists.md).
     
        ![](assets/s_ncs_user_import_wizard05_6.png)
 
@@ -324,7 +324,7 @@ The next step of the import wizard lets you select or create the folder in which
     
        ![](assets/s_ncs_user_import_wizard05_7.png)
 
-       You can create a new service for these recipients by clicking **[!UICONTROL Select link]** and then the **[!UICONTROL Create]** icon. The management of information services is presented in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/managing-subscriptions.html).
+       You can create a new service for these recipients by clicking **[!UICONTROL Select link]** and then the **[!UICONTROL Create]** icon. The management of information services is presented in [this section](../../delivery/using/managing-subscriptions.md).
 
 * Use the **[!UICONTROL Origin]** field to add information about the origin of recipients to their profiles. This information is particularly useful within the framework of a multiple import.
 
@@ -605,4 +605,4 @@ In this example, you will see that certain fields in your text file have an empt
 
 Workflows can be a useful way to automate some of your import processes. Whether you import data from a local file or from a SFTP, you can use workflows to standardize your data management procedures.
 
-To learn more about importing data from a workflow, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/importing-data.html).
+To learn more about importing data from a workflow, refer to [this section](../../workflow/using/importing-data.md).

@@ -55,7 +55,7 @@ Then use the query editor to define filtering conditions. In the following examp
 
 >[!NOTE]
 >
->For filtering rules, you can select the application condition of filtering criteria: they can depend on the delivery or the delivery outline. For more on this, refer to [Conditioning a filtering rule](https://helpx.adobe.com/campaign/standard/campaign/using/filtering-rules.html#conditioning-a-filtering-rule).
+>For filtering rules, you can select the application condition of filtering criteria: they can depend on the delivery or the delivery outline. For more on this, refer to [Conditioning a filtering rule](../../campaign/using/filtering-rules.md#conditioning-a-filtering-rule).
 
 ## Adjusting calculation frequency {#adjusting-calculation-frequency}
 
@@ -135,7 +135,7 @@ As an option, you can use the **[!UICONTROL Managing affinities with IP addresse
 >[!NOTE]
 >
 >Affinity management does not apply for **[!UICONTROL Filtering]** typologies.  
->Affinities are defined in the instance configuration file, on the Adobe Campaign server. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/about-initial-configuration.html).
+>Affinities are defined in the instance configuration file, on the Adobe Campaign server. For more on this, refer to [this section](../../installation/using/about-initial-configuration.md).
 
 ### Campaign Optimization and Distributed Marketing {#campaign-optimization-and-distributed-marketing}
 
@@ -146,5 +146,5 @@ The **[!UICONTROL Distributed Marketing]** tab lets you define the re-mapping of
 >[!NOTE]
 >
 >In typologies and typology rules, the **[!UICONTROL Distributed Marketing]** tab is added if your license includes this option: please check you license agreement.  
->For more information on Distributed Marketing, refer to [About distributed marketing](https://helpx.adobe.com/campaign/standard/campaign/using/about-distributed-marketing.html).
+>For more information on Distributed Marketing, refer to [About distributed marketing](../../campaign/using/about-distributed-marketing.md).
 

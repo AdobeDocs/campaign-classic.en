@@ -87,7 +87,7 @@ The following example lets you collect a file on the server every day, load its 
 
    The **[!UICONTROL Directory]** tab contains information on the file(s) to be recovered. In our example, all files in text format whose names contain the word 'customers' and which are stored in the tmp/Adobe/Data/files directory of the server will be recovered.
 
-   Using the **[!UICONTROL File collector]** is detailed in the [File collector](https://helpx.adobe.com/campaign/standard/workflow/using/file-collector.html) section.
+   Using the **[!UICONTROL File collector]** is detailed in the [File collector](../../workflow/using/file-collector.md) section.
 
    ![](assets/s_advuser_load_file_sample_1.png)
 
@@ -99,7 +99,7 @@ The following example lets you collect a file on the server every day, load its 
 
    To do this, click the **[!UICONTROL Change...]** button located in the lower right-hand section of the editing tool and configure the schedule.
 
-   For more on this, refer to [Scheduler](https://helpx.adobe.com/campaign/standard/workflow/using/scheduler.html).
+   For more on this, refer to [Scheduler](../../workflow/using/scheduler.md).
 
 1. Then configure the data loading (file) activity to indicate how the collected file(s) should be read. To do this, select a sample file with the same structure as the files to be loaded.
 
@@ -110,7 +110,7 @@ The following example lets you collect a file on the server every day, load its 
     * the first column contains a code that coincides with the event: purchase (more or less than 3,000 euro), no purchase or refund on one or more purchases.
     * the four following columns contain the client's first name, last name, email and account number.
 
-   The format configuration of the file to be loaded coincides with that defined during a data import in Adobe Campaign. For more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/platform/using/importing-data.html#step-2---source-file-selection).
+   The format configuration of the file to be loaded coincides with that defined during a data import in Adobe Campaign. For more on this, refer to this [section](../../platform/using/importing-data.md#step-2---source-file-selection).
 
 1. In the split activity, specify the subsets to create, according to the **Event** column value.
 
@@ -128,5 +128,5 @@ The following example lets you collect a file on the server every day, load its 
 
 1. Then specify the processes to be carried out for each type of population. In our example, we are going to **[!UICONTROL Update the data]** in the database. To do this, place an **[!UICONTROL Update data]** activity at the end of each outbound transition from the split activity.
 
-   The **[!UICONTROL Update data]** activity is detailed in the [Update data](https://helpx.adobe.com/campaign/standard/workflow/using/update-data.html) section.
+   The **[!UICONTROL Update data]** activity is detailed in the [Update data](../../workflow/using/update-data.md) section.
 

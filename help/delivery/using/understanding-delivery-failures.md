@@ -20,7 +20,7 @@ snippet: y
 
 ## About delivery failures {#about-delivery-failures}
 
-When a message (email, SMS, push notification) cannot be sent to a profile, the remote server automatically sends an error message, which is picked up by the Adobe Campaign platform and qualified to determine whether or not the email address or phone number should be quarantined. See [Bounce mail management](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-delivery-failures.html#bounce-mail-management).
+When a message (email, SMS, push notification) cannot be sent to a profile, the remote server automatically sends an error message, which is picked up by the Adobe Campaign platform and qualified to determine whether or not the email address or phone number should be quarantined. See [Bounce mail management](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ Messages can also be excluded during the delivery preparation if an address is q
 
 **Related topics:**
 
-* [Delivery logs and history](https://helpx.adobe.com/campaign/standard/delivery/using/monitoring-a-delivery.html#delivery-logs-and-history)
-* [Failed status](https://helpx.adobe.com/campaign/standard/delivery/using/monitoring-a-delivery.html#failed-status)
-* [Delivery failure types and reasons](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
+* [Delivery logs and history](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)
+* [Failed status](../../delivery/using/monitoring-a-delivery.md#failed-status)
+* [Delivery failure types and reasons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)
 
 ## Delivery failure types and reasons {#delivery-failure-types-and-reasons}
 
-There are three types of error when a message fails. Each error type determines if an address is sent to quarantines. For more on this, refer to [Conditions for sending an address to quarantine](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-quarantine-management.html#conditions-for-sending-an-address-to-quarantine)
+There are three types of error when a message fails. Each error type determines if an address is sent to quarantines. For more on this, refer to [Conditions for sending an address to quarantine](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
 
 * **Hard**: A "hard" error indicates an invalid address. This involves an error message that explicitly states that the address is invalid, such as: "Unknown user".
 * **Soft**: This might be a temporary error, or one that could not be categorized, such as: "Invalid domain" or "Mailbox full".
@@ -183,28 +183,28 @@ If a message fails due to a **Soft** or **Ignored** error that is temporary, ret
 
 >[!NOTE]
 >
->Temporarily undelivered messages can only be related to a **Soft** or **Ignored** error, but not a **Hard** error (see [Delivery failure types and reasons](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-delivery-failures.html#delivery-failure-types-and-reasons)).
+>Temporarily undelivered messages can only be related to a **Soft** or **Ignored** error, but not a **Hard** error (see [Delivery failure types and reasons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
 
-To modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. The advanced delivery properties are presented in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#defining-validity-period).
+To modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. The advanced delivery properties are presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-validity-period).
 
-The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#configuring-retries)).
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#configuring-retries)).
 
 ## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 
 A message can fail immediately (synchronous error), or later on, after it has been sent (asynchronous error).
 
-* Synchronous error: the remote mail server contacted by the Adobe Campaign delivery server immediately returned an error message, the delivery is not allowed to be sent to the profile's server. Adobe Campaign qualifies each error in order to determine whether or not the email addresses concerned should be quarantined. See [Bounce mail qualification](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-delivery-failures.html#bounce-mail-qualification). 
+* Synchronous error: the remote mail server contacted by the Adobe Campaign delivery server immediately returned an error message, the delivery is not allowed to be sent to the profile's server. Adobe Campaign qualifies each error in order to determine whether or not the email addresses concerned should be quarantined. See [Bounce mail qualification](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification). 
 * Asynchronous error: a bounce mail or a SR was resent later by the receiving server. This mail is loaded into a technical mailbox the application uses to label messages with an error. Asynchronous errors can occur up until one week after a delivery has been sent.
 
   >[!NOTE]
   >
-  >Configuration of the bounce mailbox is detailed in [this section](https://helpx.adobe.com/campaign/classic/installation/using/deploying-an-instance.html#managing-bounced-emails).
+  >Configuration of the bounce mailbox is detailed in [this section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
   The feedback loop operates like bounce emails. When a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. Messages sent to users who have qualified an email as spam are automatically redirected towards an email box specifically created for this purpose. The addresses of these users are blacklisted even though they didn't click the unsubscription link. Addresses are blacklisted in the (**NmsAddress**) quarantine table and not the (**NmsRecipient**) recipient table.
 
   >[!NOTE]
   >
-  >Complaint management is detailed in the [Deliverability management](https://helpx.adobe.com/campaign/classic/delivery/using/about-deliverability.html) section.
+  >Complaint management is detailed in the [Deliverability management](../../delivery/using/about-deliverability.md) section.
 
 ## Bounce mail management {#bounce-mail-management}
 
@@ -244,7 +244,7 @@ These rules contain the list of character strings which can be returned by remot
 
 >[!NOTE]
 >
->The default parameters of the platform are configured in the deployment wizard. For further information, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/deploying-an-instance.html).
+>The default parameters of the platform are configured in the deployment wizard. For further information, refer to [this section](../../installation/using/deploying-an-instance.md).
 
 The default rules are as follows:
 
@@ -277,7 +277,7 @@ The default rules are as follows:
 
 * **MX Management**
 
-  For more on MX management, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/email-deliverability.html#mx-configuration).
+  For more on MX management, refer to [this section](../../installation/using/email-deliverability.md#mx-configuration).
 
 >[!CAUTION]
 >

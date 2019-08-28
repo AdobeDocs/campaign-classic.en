@@ -20,7 +20,7 @@ snippet: y
 
 ## Targeting and storing an environment for anonymous interactions {#targeting-and-storing-an-environment-for-anonymous-interactions}
 
-By default, Interaction comes with a pre-configured environment to target the recipient table (identified offers). If you wish to target another table (visitor table for anonymous offers or a specific recipient table), you need to use the target mapping wizard to create the environment. For more on this, see [Creating an offer environment](https://helpx.adobe.com/campaign/standard/interaction/using/live-design-environments.html#creating-an-offer-environment).
+By default, Interaction comes with a pre-configured environment to target the recipient table (identified offers). If you wish to target another table (visitor table for anonymous offers or a specific recipient table), you need to use the target mapping wizard to create the environment. For more on this, see [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
 When you create an anonymous environment via the mapping creation wizard, the **[!UICONTROL Environment dedicated to incoming anonymous interactions]** box is automatically checked in the environment's **[!UICONTROL General]** tab.
 
@@ -38,7 +38,7 @@ The **[!UICONTROL Visitor folder]** field appears. It is automatically completed
 
 Just like outbound interactions, inbound interactions are organized in an offer catalog which is made up of categories and offers.
 
-To create categories and spaces, apply the same process as for identified visitors (refer to [Creating offer categories](https://helpx.adobe.com/campaign/standard/interaction/using/creating-offer-categories.html) and [Creating an offer environment](https://helpx.adobe.com/campaign/standard/interaction/using/live-design-environments.html#creating-an-offer-environment)).
+To create categories and spaces, apply the same process as for identified visitors (refer to [Creating offer categories](../../interaction/using/creating-offer-categories.md) and [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment)).
 
 ## Anonymous visitors {#anonymous-visitors}
 

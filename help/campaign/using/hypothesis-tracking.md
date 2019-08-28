@@ -68,7 +68,7 @@ You can view recipients' reactions to the hypotheses via the **[!UICONTROL React
 
 ## Reports {#reports}
 
-The **[!UICONTROL Hypothesis report]** lets you view the results of the hypotheses performed on campaigns and deliveries. This report contains the indicators calculated by the hypothesis (for more on this, refer to [Indicators](https://helpx.adobe.com/campaign/standard/campaign/using/hypothesis-tracking.html#indicators)).
+The **[!UICONTROL Hypothesis report]** lets you view the results of the hypotheses performed on campaigns and deliveries. This report contains the indicators calculated by the hypothesis (for more on this, refer to [Indicators](../../campaign/using/hypothesis-tracking.md#indicators)).
 
 * **At campaign level**: click the **[!UICONTROL Reports]** link of the relevant campaign and select the **[!UICONTROL Hypothesis report]** . This report contains the list of campaign deliveries and the hypotheses calculated for each delivery. 
 

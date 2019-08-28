@@ -20,14 +20,14 @@ snippet: y
 
 The **CRM connector** lets you configure the data synchronization between Adobe Campaign and a CRM.
 
-For more information on CRM connectors in Adobe Campaign, refer to this [section](https://helpx.adobe.com/campaign/classic/platform/using/crm-connectors.html).
+For more information on CRM connectors in Adobe Campaign, refer to this [section](../../platform/using/crm-connectors.md).
 
 This means you can:
 
-* Import from the CRM (refer to [Importing from the CRM](https://helpx.adobe.com/campaign/standard/workflow/using/crm-connector.html#importing-from-the-crm)),
-* Export to CRM (refer to [Exporting to the CRM](https://helpx.adobe.com/campaign/standard/workflow/using/crm-connector.html#exporting-to-the-crm)),
-* Import objects deleted in the CRM (refer to [Importing objects deleted in the CRM](https://helpx.adobe.com/campaign/standard/workflow/using/crm-connector.html#importing-objects-deleted-in-the-crm)),
-* Delete objects in the CRM (refer to [Deleting objects in the CRM](https://helpx.adobe.com/campaign/standard/workflow/using/crm-connector.html#deleting-objects-in-the-crm)).
+* Import from the CRM (refer to [Importing from the CRM](../../workflow/using/crm-connector.md#importing-from-the-crm)),
+* Export to CRM (refer to [Exporting to the CRM](../../workflow/using/crm-connector.md#exporting-to-the-crm)),
+* Import objects deleted in the CRM (refer to [Importing objects deleted in the CRM](../../workflow/using/crm-connector.md#importing-objects-deleted-in-the-crm)),
+* Delete objects in the CRM (refer to [Deleting objects in the CRM](../../workflow/using/crm-connector.md#deleting-objects-in-the-crm)).
 
 ![](assets/crm_task_select_op.png)
 
@@ -53,7 +53,7 @@ For an import activity, the **CRM Connector** activity configuration steps are:
 
    ![](assets/crm_task_import_add_field.png)
 
-   If necessary, alter the data format via the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in this [page](https://helpx.adobe.com/campaign/classic/platform/using/crm-connectors.html#data-format).
+   If necessary, alter the data format via the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in this [page](../../platform/using/crm-connectors.md#data-format).
 
    >[!CAUTION]
    >
@@ -66,11 +66,11 @@ For an import activity, the **CRM Connector** activity configuration steps are:
 
    ![](assets/crm_task_import_filter.png)
 
-   The limitations linked to data filtering modes are detailed in [Filter on data](https://helpx.adobe.com/campaign/standard/workflow/using/crm-connector.html#filter-on-data) section.
+   The limitations linked to data filtering modes are detailed in [Filter on data](../../workflow/using/crm-connector.md#filter-on-data) section.
 
 1. The **[!UICONTROL Use automatic index]** option enables you to automatically manage incremental object synchronization between the CRM and Adobe Campaign, depending on the date and their last modification.
 
-   For more on this, refer to [Variable management](https://helpx.adobe.com/campaign/standard/workflow/using/crm-connector.html#variable-management).
+   For more on this, refer to [Variable management](../../workflow/using/crm-connector.md#variable-management).
 
 ## Variable management {#variable-management}
 
@@ -163,7 +163,7 @@ For an export, apply the following configuration to the **CRM Connector** activi
 
    For a given field, if no match is defined on the CRM side, the values cannot be updated: they are inserted directly into the CRM.
 
-   If necessary, alter the data format via the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in this [section](https://helpx.adobe.com/campaign/classic/platform/using/crm-connectors.html#data-format).
+   If necessary, alter the data format via the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in this [section](../../platform/using/crm-connectors.md#data-format).
 
    The list of records to be exported and the result of the export are saved in a temporary file that remains accessible until the workflow is finished or re-started. This enables you to start the process again in case of errors without running the risk of exporting the same record several times or losing data.
 
@@ -226,7 +226,7 @@ To delete objects on the CRM side, you need to specify the primary key of the re
 
 ![](assets/crm_delete_in_crm.png)
 
-The **[!UICONTROL Behavior]** tab lets you enable the processing of rejects. This option generates a second output transition for the **[!UICONTROL CRM connector]** activity. For more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/platform/using/crm-connectors.html#error-processing).
+The **[!UICONTROL Behavior]** tab lets you enable the processing of rejects. This option generates a second output transition for the **[!UICONTROL CRM connector]** activity. For more on this, refer to this [section](../../platform/using/crm-connectors.md#error-processing).
 
 Even when the **[!UICONTROL Process rejects]** option is disabled, a warning is generated for each rejected column.
 

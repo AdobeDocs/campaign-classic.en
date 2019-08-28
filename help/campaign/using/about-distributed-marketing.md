@@ -65,7 +65,7 @@ A local campaign is an instance created from a template referenced in the list o
 
 The local entity's degree of autonomy depends on the implementation used.
 
-Refer to [Creating a local campaign](https://helpx.adobe.com/campaign/standard/campaign/using/creating-a-local-campaign.html).
+Refer to [Creating a local campaign](../../campaign/using/creating-a-local-campaign.md).
 
 ### Collaborative campaign {#collaborative-campaign}
 
@@ -76,7 +76,7 @@ A collaborative campaign is a campaign whose **execution schedule is defined** b
 * **[!UICONTROL Collaborative campaign (by target approval)]** : recommended for campaigns aimed at several thousand local entities. Local entity receives a contact list that has been predefined by the central entity. The local entity decides whether or not to keep certain contacts based on the campaign content, via a Web form. Local entities are deduced from the list of selected contacts. To participate in the campaign, the local entity just needs Web access.
 * **[!UICONTROL Collaborative campaign (simple)]** : this mode ensures compatibility with the specific execution processes of previous versions.
 
-Refer to [Creating a collaborative campaign](https://helpx.adobe.com/campaign/standard/campaign/using/creating-a-collaborative-campaign.html).
+Refer to [Creating a collaborative campaign](../../campaign/using/creating-a-collaborative-campaign.md).
 
 ### Ordering campaign packages {#ordering-campaign-packages}
 
@@ -122,7 +122,7 @@ Each organizational entity contains identification information (label, internal 
 
 >[!NOTE]
 >
->The approval process is presented in the [Approval process](https://helpx.adobe.com/campaign/standard/campaign/using/creating-a-local-campaign.html#approval-process) section.
+>The approval process is presented in the [Approval process](../../campaign/using/creating-a-local-campaign.md#approval-process) section.
 
 ## Implementation {#implementation}
 

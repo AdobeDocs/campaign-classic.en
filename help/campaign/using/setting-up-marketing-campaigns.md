@@ -26,25 +26,25 @@ The steps to create a marketing campaign are as follows:
 
 1. Creating a campaign: description of the campaign and its characteristics: label, type, start and end dates, budget, associated resources, manager(s) and participants.
 
-   See [Creating a campaign](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#creating-a-campaign).
+   See [Creating a campaign](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
 
 1. Defining target population(s): creating a workflow with targeting queries.
 
-   See [Selecting the target population](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#selecting-the-target-population).
+   See [Selecting the target population](../../campaign/using/setting-up-marketing-campaigns.md#selecting-the-target-population).
 
 1. Creating deliveries: choice of channel(s) and defining the content to be sent.
 
-   See [Creating deliveries](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#creating-deliveries).
+   See [Creating deliveries](../../campaign/using/setting-up-marketing-campaigns.md#creating-deliveries).
 
 1. Checking and approving deliveries.
 
-   Refer to [Approval process](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#approval-process).
+   Refer to [Approval process](../../campaign/using/setting-up-marketing-campaigns.md#approval-process).
 
 1. Planning campaigns and associated costs.
 
-   See [Creating service providers and their cost structures](https://helpx.adobe.com/campaign/standard/campaign/using/providers--stocks-and-budgets.html#creating-service-providers-and-their-cost-structures).
+   See [Creating service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
-When these steps have been completed, you can start the deliveries (see [Starting a delivery](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#starting-a-delivery)), check the data, processes and information relating to the deliveries and, if necessary, manage the associated documents (see [Managing associated documents](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#managing-associated-documents)). You can also track the execution of the processing phases of campaigns and deliveries (see [Tracking](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#tracking)).
+When these steps have been completed, you can start the deliveries (see [Starting a delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-a-delivery)), check the data, processes and information relating to the deliveries and, if necessary, manage the associated documents (see [Managing associated documents](../../campaign/using/setting-up-marketing-campaigns.md#managing-associated-documents)). You can also track the execution of the processing phases of campaigns and deliveries (see [Tracking](../../campaign/using/setting-up-marketing-campaigns.md#tracking)).
 
 ## Creating plan and program hierarchy {#creating-plan-and-program-hierarchy}
 
@@ -82,9 +82,9 @@ In a default configuration, the campaign templates are centralized in the **[!UI
 
 An empty template is supplied out of the box in order to create a campaign for which no specific configuration has been defined. You can create and configure your campaign templates and then create campaigns from these templates.
 
-The creation and configuration of campaign templates are presented in [Campaign templates](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#campaign-templates).
+The creation and configuration of campaign templates are presented in [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
 
-For more on campaign creation, refer to the [Creating a campaign and an email](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
+For more on campaign creation, refer to the [Creating a campaign and an email](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.md) video.
 
 ### Adding a campaign {#adding-a-campaign}
 
@@ -132,13 +132,13 @@ To create a delivery linked to a campaign, click the **[!UICONTROL Add a deliver
 
 ![](assets/campaign_op_add_delivery.png)
 
-The suggested configurations are suited to the different types of delivery (direct mail, email, mobile channels, fax, or telephone). For more on creating and configuring deliveries, refer to the [Sending Messages](https://helpx.adobe.com/campaign/classic/delivery/using/communication-channels.html) section.
+The suggested configurations are suited to the different types of delivery (direct mail, email, mobile channels, fax, or telephone). For more on creating and configuring deliveries, refer to the [Sending Messages](../../delivery/using/communication-channels.md) section.
 
 ### Creating a recurring delivery in a targeting workflow {#creating-a-recurring-delivery-in-a-targeting-workflow}
 
 In the following workflow, we are going to create a recurring delivery so that every day an email is sent to all recipients whose birthday it is.
 
-To do this, create a campaign and click the **[!UICONTROL Targeting and workflows]** tab. For more on this, refer to the [Building the main target in a workflow](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#building-the-main-target-in-a-workflow) section.
+To do this, create a campaign and click the **[!UICONTROL Targeting and workflows]** tab. For more on this, refer to the [Building the main target in a workflow](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow) section.
 
 Then follow these steps:
 
@@ -155,30 +155,30 @@ Then follow these steps:
 
    ![](assets/recur_delivery3.png)
 
-For more information, a detailed example of this workflow is presented in [this section](https://helpx.adobe.com/campaign/classic/workflow/using/sending-a-birthday-email.html).
+For more information, a detailed example of this workflow is presented in [this section](../../workflow/using/sending-a-birthday-email.md).
 
 >[!CAUTION]
 >
->For the workflows to execute, the technical workflows relating to the campaign process must be started. For more on this, refer to the [List of campaign process workflows](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#list-of-campaign-process-workflows) section.   
->If the approval steps are enabled for the campaign, the deliveries will only be sent once these steps have been confirmed. For more on this, refer to the [Choosing the processes to be approved](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#choosing-the-processes-to-be-approved) section.
+>For the workflows to execute, the technical workflows relating to the campaign process must be started. For more on this, refer to the [List of campaign process workflows](../../campaign/using/setting-up-marketing-campaigns.md#list-of-campaign-process-workflows) section.   
+>If the approval steps are enabled for the campaign, the deliveries will only be sent once these steps have been confirmed. For more on this, refer to the [Choosing the processes to be approved](../../campaign/using/setting-up-marketing-campaigns.md#choosing-the-processes-to-be-approved) section.
 
 ## Selecting the target population {#selecting-the-target-population}
 
 For each delivery, the campaign manager will define:
 
-* The main target. For more on this, refer to [Building the main target in a workflow](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#building-the-main-target-in-a-workflow) and [Selecting the target population](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#selecting-the-target-population).
-* The control group. For more on this, refer to [Defining a control group](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#defining-a-control-group).
-* The seed addresses. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/about-seed-addresses.html).
+* The main target. For more on this, refer to [Building the main target in a workflow](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow) and [Selecting the target population](../../campaign/using/setting-up-marketing-campaigns.md#selecting-the-target-population).
+* The control group. For more on this, refer to [Defining a control group](../../campaign/using/setting-up-marketing-campaigns.md#defining-a-control-group).
+* The seed addresses. For more on this, refer to [this section](../../delivery/using/about-seed-addresses.md).
 
 Some of this information is inherited from the template.
 
 >[!NOTE]
 >
->Campaign templates are presented in [Campaign templates](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#campaign-templates).
+>Campaign templates are presented in [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
 
 ### Selecting the target population {#selecting-the-target-population-1}
 
-To build the delivery target, you can define filtering criteria for the recipients in the database. This recipient selection mode is presented in the [Sending Messages](https://helpx.adobe.com/campaign/classic/delivery/using/identifying-target-populations.html) section.
+To build the delivery target, you can define filtering criteria for the recipients in the database. This recipient selection mode is presented in the [Sending Messages](../../delivery/using/identifying-target-populations.md) section.
 
 #### Example: delivering to a group of recipients {#example--delivering-to-a-group-of-recipients}
 
@@ -198,7 +198,7 @@ Choose **[!UICONTROL A list of recipients]** and click **[!UICONTROL Next]** to 
 
 The main target of a delivery can also be defined in the targeting workflow: this graphical environment lets you build a target using queries, tests and operators: union, deduplication, sharing, etc.
 
-The [Automating with workflows](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html#architecture) guide includes a detailed description of how the workflow module operates.
+The [Automating with workflows](../../workflow/using/executing-a-workflow.md#architecture) guide includes a detailed description of how the workflow module operates.
 
 >[!CAUTION]
 >
@@ -210,7 +210,7 @@ Targeting can be created via a combination of filtering conditions in a graphica
 
 ![](assets/s_ncs_user_edit_op_wf_link.png)
 
-The target population is extracted from the Adobe Campaign database via one or more queries placed in a workflow. To learn how to build a query, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/designing-queries.html).
+The target population is extracted from the Adobe Campaign database via one or more queries placed in a workflow. To learn how to build a query, refer to [this section](../../workflow/using/designing-queries.md).
 
 You can launch queries and share populations via boxes such as Union, Intersection, Sharing, Exclusion, etc.
 
@@ -222,7 +222,7 @@ In the diagram, link up the targeting and scheduling queries required for target
 
 >[!NOTE]
 >
->Exemples and procedure for defining queries are presented in [this section](https://helpx.adobe.com/campaign/classic/workflow/using/designing-queries.html).
+>Exemples and procedure for defining queries are presented in [this section](../../workflow/using/designing-queries.md).
 
 The left-hand section of the editor contains a library of graphical objects representing activities. The first tab contains the targeting activities, and the second tab contains the flow-control activities, which are used occasionally to coordinate targeting activities.
 
@@ -232,7 +232,7 @@ The targeting workflow execution and formatting functions are accessible via the
 
 >[!NOTE]
 >
->The activities available to build the diagram as well as all display and layout features are detailed in the [Automating with workflows](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html#architecture) guide.
+>The activities available to build the diagram as well as all display and layout features are detailed in the [Automating with workflows](../../workflow/using/executing-a-workflow.md#architecture) guide.
 
 You can create several targeting workflows for a single campaign. To add a workflow:
 
@@ -345,7 +345,7 @@ You can define a control group at campaign level, in which case the control grou
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-The configuration procedure is presented in [Extracting the control group from the main target](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#extracting-the-control-group-from-the-main-target) and [Adding a population](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](../../campaign/using/setting-up-marketing-campaigns.md#extracting-the-control-group-from-the-main-target) and [Adding a population](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-population).
 
 #### Activating the control group for a delivery {#activating-the-control-group-for-a-delivery}
 
@@ -364,7 +364,7 @@ By default, the control group configuration defined at the campaign level applie
 1. Click the **[!UICONTROL Control group]** tab and then select **[!UICONTROL Enable and edit control group configuration]** .
 1. Click **[!UICONTROL Edit...]** to configure the control group
 
-The configuration procedure is presented in [Extracting the control group from the main target](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#extracting-the-control-group-from-the-main-target) and [Adding a population](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](../../campaign/using/setting-up-marketing-campaigns.md#extracting-the-control-group-from-the-main-target) and [Adding a population](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-population).
 
 #### Extracting the control group from the main target {#extracting-the-control-group-from-the-main-target}
 
@@ -381,7 +381,7 @@ Click **[!UICONTROL Next]** to define the sorting order (if necessary) and selec
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-This configuration is equivalent to a sharing activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. Refer to the [this section](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html#architecture) for more information.
+This configuration is equivalent to a sharing activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. Refer to the [this section](../../workflow/using/executing-a-workflow.md#architecture) for more information.
 
 #### Adding a population {#adding-a-population}
 
@@ -391,21 +391,21 @@ You can define a new population to be used as a control group. This population c
 
 >[!NOTE]
 >
->Adobe Campaign query editor is presented in [this section](https://helpx.adobe.com/campaign/classic/workflow/using/designing-queries.html).
+>Adobe Campaign query editor is presented in [this section](../../workflow/using/designing-queries.md).
 
 ## Checking and approving deliveries {#checking-and-approving-deliveries}
 
 Campaign lets you set up approval processes for the main stages of the marketing campaign, in collaborative mode.
 
-For direct mail deliveries, Adobe Campaign operators can view the extraction file before it is sent to the router, and if necessary they can change the format and re-launch extraction. See [Approving an extraction file](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#approving-an-extraction-file).
+For direct mail deliveries, Adobe Campaign operators can view the extraction file before it is sent to the router, and if necessary they can change the format and re-launch extraction. See [Approving an extraction file](../../campaign/using/setting-up-marketing-campaigns.md#approving-an-extraction-file).
 
-For each campaign you can approve the delivery target, contents (for more on this, refer to [Approving content](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#approving-content)), and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a Web connection. See [Approving processes](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#approving-processes).
+For each campaign you can approve the delivery target, contents (for more on this, refer to [Approving content](../../campaign/using/setting-up-marketing-campaigns.md#approving-content)), and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a Web connection. See [Approving processes](../../campaign/using/setting-up-marketing-campaigns.md#approving-processes).
 
-When these validation phases are complete, the delivery can be launched. See [Starting a delivery](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#starting-a-delivery).
+When these validation phases are complete, the delivery can be launched. See [Starting a delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-a-delivery).
 
 >[!NOTE]
 >
->For further information about approval modes and tracking, see [Approval process](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#approval-process).
+>For further information about approval modes and tracking, see [Approval process](../../campaign/using/setting-up-marketing-campaigns.md#approval-process).
 
 ### Approving processes {#approving-processes}
 
@@ -417,8 +417,8 @@ At this point, the status of the campaign is **[!UICONTROL To validate]** .
 
 >[!NOTE]
 >
->* To select the processes that will be subject to approval, modify the campaign template. For more on this, refer to [Campaign templates](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#campaign-templates).
->* Also refer to the section on the [Approval process](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#approval-process).
+>* To select the processes that will be subject to approval, modify the campaign template. For more on this, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
+>* Also refer to the section on the [Approval process](../../campaign/using/setting-up-marketing-campaigns.md#approval-process).
 >
 
 ![](assets/s_ncs_user_edit_del_to_validate.png)
@@ -465,7 +465,7 @@ For each delivery in the campaign, you can approve the following processes:
 
 #### Choosing the processes to be approved {#choosing-the-processes-to-be-approved}
 
-The approval phases are defined for the template associated with the campaign. You must select the elements to be approved from the template and specify the Adobe Campaign operators who will be responsible for these approvals. For more on this, refer to [Campaign templates](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#campaign-templates).
+The approval phases are defined for the template associated with the campaign. You must select the elements to be approved from the template and specify the Adobe Campaign operators who will be responsible for these approvals. For more on this, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
 
 >[!NOTE]
 >
@@ -500,7 +500,7 @@ For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL
 
 >[!CAUTION]
 >
->To approve a content, a Proof cycle is mandatory. Proofs let you approve the display of information, personalization data and check that links are working. For more on creating a proof and its lifecycle, refer to the [Sending Messages](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#sending-a-proof) section.   
+>To approve a content, a Proof cycle is mandatory. Proofs let you approve the display of information, personalization data and check that links are working. For more on creating a proof and its lifecycle, refer to the [Sending Messages](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof) section.   
 >The content approval functionalities detailed below are designed to be added to the proof delivery.
 
 It's possible to configure a content approval cycle. To do this, select the **[!UICONTROL Enable content approval]** option in the approval settings window. The main steps of the content approval cycle are:
@@ -604,11 +604,11 @@ On the extraction request date, the extraction file is created and the delivery 
 
 You can view the content of the extracted file (by clicking its name), approve it or, if necessary, change the format and re-launch the extraction using the links on the dashboard.
 
-Once the file has been approved, you can send the notification e-mail to the router. For more on this, refer to [Starting an offline delivery](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#starting-an-offline-delivery)
+Once the file has been approved, you can send the notification e-mail to the router. For more on this, refer to [Starting an offline delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-an-offline-delivery)
 
 ## Starting a delivery {#starting-a-delivery}
 
-Once all approvals have been granted, the delivery is ready to be started. The delivery procedure then depends on the type of delivery. For e-mail or mobile channel deliveries, see [Starting an online delivery](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#starting-an-offline-delivery).
+Once all approvals have been granted, the delivery is ready to be started. The delivery procedure then depends on the type of delivery. For e-mail or mobile channel deliveries, see [Starting an online delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-an-offline-delivery).
 
 ### Starting an online delivery {#starting-an-online-delivery}
 
@@ -633,13 +633,13 @@ Once all approvals have been granted, the delivery status changes to **[!UICONTR
 
 >[!NOTE]
 >
->The technical workflows concerning campaign processes are presented in [List of campaign process workflows](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#list-of-campaign-process-workflows).
+>The technical workflows concerning campaign processes are presented in [List of campaign process workflows](../../campaign/using/setting-up-marketing-campaigns.md#list-of-campaign-process-workflows).
 
 **Step 1 - File approval**
 
 Once the extraction workflow has been successfully executed, the extraction file must be approved (provided that extraction file approval was selected in the delivery settings).
 
-For more on this, refer to [Approving an extraction file](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#approving-an-extraction-file).
+For more on this, refer to [Approving an extraction file](../../campaign/using/setting-up-marketing-campaigns.md#approving-an-extraction-file).
 
 **Step 2 - Approval of the message to the service provider**
 
@@ -685,13 +685,13 @@ The file extraction launches two operations: budget calculation and stock calcul
 
 >[!NOTE]
 >
->For further information about cost calculations and stock management, see [Providers, stocks and budgets](https://helpx.adobe.com/campaign/standard/campaign/using/providers--stocks-and-budgets.html).
+>For further information about cost calculations and stock management, see [Providers, stocks and budgets](../../campaign/using/providers--stocks-and-budgets.md).
 
 ### Execution tracking {#execution-tracking}
 
-You can look up the status of deliveries by clicking the **[!UICONTROL Deliveries]** , which is accessible via the Adobe Campaign home page. See [Delivery tracking](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#delivery-tracking).
+You can look up the status of deliveries by clicking the **[!UICONTROL Deliveries]** , which is accessible via the Adobe Campaign home page. See [Delivery tracking](../../campaign/using/setting-up-marketing-campaigns.md#delivery-tracking).
 
-Information concerning the processes executed in a campaign are collected in the **[!UICONTROL Edit > Audit]** tab of the campaign. There, you can view the list of deliveries in the campaign. See [Tracking a campaign](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#tracking-a-campaign).
+Information concerning the processes executed in a campaign are collected in the **[!UICONTROL Edit > Audit]** tab of the campaign. There, you can view the list of deliveries in the campaign. See [Tracking a campaign](../../campaign/using/setting-up-marketing-campaigns.md#tracking-a-campaign).
 
 ### List of campaign process workflows {#list-of-campaign-process-workflows}
 
@@ -735,17 +735,17 @@ By default, the following workflows are available in the **Campaign process** fo
 
 ## Managing associated documents {#managing-associated-documents}
 
-You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). To link documents with a campaign, see [Adding documents](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#adding-documents).
+You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). To link documents with a campaign, see [Adding documents](../../campaign/using/setting-up-marketing-campaigns.md#adding-documents).
 
 >[!CAUTION]
 >
 >This mode is reserved for small documents.
 
-In a campaign you can also refer to other items, such as promotional coupons, special offers relating to a specific branch or store, etc. When these elements are included in an outline, they can be associated with a direct mail delivery. See [Associating and structuring resources linked via a delivery outline](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#associating-and-structuring-resources-linked-via-a-delivery-outline).
+In a campaign you can also refer to other items, such as promotional coupons, special offers relating to a specific branch or store, etc. When these elements are included in an outline, they can be associated with a direct mail delivery. See [Associating and structuring resources linked via a delivery outline](../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 >[!NOTE]
 >
->If you are using MRM, you can also manage a library of marketing resources that are available for several participants for collaborative work. See [Managing marketing resources](https://helpx.adobe.com/campaign/standard/campaign/using/managing-marketing-resources.html).
+>If you are using MRM, you can also manage a library of marketing resources that are available for several participants for collaborative work. See [Managing marketing resources](../../campaign/using/managing-marketing-resources.md).
 
 ### Adding documents {#adding-documents}
 
@@ -793,7 +793,7 @@ To create an outline, click the **[!UICONTROL Delivery outlines]** sub-tab in th
 >[!NOTE]
 >
 >If this tab is not present, then this feature is not available for this campaign. Refer to the campaign template configuration.   
->For more on this, refer to [Campaign templates](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#campaign-templates).
+>For more on this, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
 
 ![](assets/s_ncs_user_op_composition_link.png)
 
@@ -821,7 +821,7 @@ An outline can contain items and personalization fields, resources and offers:
 
   >[!NOTE]
   >
-  >For more on marketing resources, refer to [Managing marketing resources](https://helpx.adobe.com/campaign/standard/campaign/using/managing-marketing-resources.html).
+  >For more on marketing resources, refer to [Managing marketing resources](../../campaign/using/managing-marketing-resources.md).
 
 #### Selecting an outline {#selecting-an-outline}
 
@@ -845,11 +845,11 @@ In the following example, the label, estimated cost, and description of the outl
 
 ![](assets/s_ncs_user_op_composition_in_export_template.png)
 
-The export model must be associated with the service provider selected for the delivery concerned. See [Creating service providers and their cost structures](https://helpx.adobe.com/campaign/standard/campaign/using/providers--stocks-and-budgets.html#creating-service-providers-and-their-cost-structures).
+The export model must be associated with the service provider selected for the delivery concerned. See [Creating service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
 >[!NOTE]
 >
->For more on exports, refer to the [Getting Started](https://helpx.adobe.com/campaign/classic/platform/using/generic-imports-and-exports.html) section.
+>For more on exports, refer to the [Getting Started](../../platform/using/generic-imports-and-exports.md) section.
 
 ## Approval process {#approval-process}
 
@@ -861,12 +861,12 @@ Each step of a delivery can be subject to approval in order to ensure full monit
 
 Notification e-mails are sent to the Adobe Campaign operators who are designated reviewers to inform them of an approval request.
 
-The approval procedure is presented in [Checking and approving deliveries](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#checking-and-approving-deliveries).
+The approval procedure is presented in [Checking and approving deliveries](../../campaign/using/setting-up-marketing-campaigns.md#checking-and-approving-deliveries).
 
 >[!NOTE]
 >
 >Only the delivery owner can start a delivery. In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field.  
->Also refer to [Selecting reviewers](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#selecting-reviewers).
+>Also refer to [Selecting reviewers](../../campaign/using/setting-up-marketing-campaigns.md#selecting-reviewers).
 
 ### Operating principle {#operating-principle-}
 
@@ -890,7 +890,7 @@ These notifications are sent to the operators affected to each process for which
 
 Approvals can be enabled for the campaign template, for each campaign individually, or for a delivery.
 
-All jobs requiring approval are selected in the campaign template ( **[!UICONTROL Properties]** > **[!UICONTROL Advanced campaign settings...]** > **[!UICONTROL Approvals]** tab), as are the operators in charge of approval (they will receive notifications, unless this option is not enabled). For more on this, refer to [Approving processes](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#approving-processes).
+All jobs requiring approval are selected in the campaign template ( **[!UICONTROL Properties]** > **[!UICONTROL Advanced campaign settings...]** > **[!UICONTROL Approvals]** tab), as are the operators in charge of approval (they will receive notifications, unless this option is not enabled). For more on this, refer to [Approving processes](../../campaign/using/setting-up-marketing-campaigns.md#approving-processes).
 
 These settings can be overridden for each campaign created using this template, and individually for each campaign delivery: click the **[!UICONTROL Properties]** button, then the **[!UICONTROL Approvals]** tab.
 
@@ -929,7 +929,7 @@ Check the information to be approved, choose whether to accept or reject approva
 
 #### Approval via notification messages {#approval-via-notification-messages}
 
-Click the link available in the notification message (see [Notifications](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#notifications)). You will be asked to identify yourself, as shown below:
+Click the link available in the notification message (see [Notifications](../../campaign/using/setting-up-marketing-campaigns.md#notifications)). You will be asked to identify yourself, as shown below:
 
 ![](assets/s_user_validation__log_in.png)
 
@@ -991,7 +991,7 @@ This method of enabling approvals lets you work on targeting without sending spu
 
 Notifications are specific email messages sent to reviewers to inform them that a process is pending approval. When the operator clicks the link in the message, an authentication page appears and, after logging in, the operator can view the information and approve or reject the job. A comment can also be entered in the approval window.
 
-The content of notification emails can be personalized. See [Notification content](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#notification-content).
+The content of notification emails can be personalized. See [Notification content](../../campaign/using/setting-up-marketing-campaigns.md#notification-content).
 
 #### Enabling/Disabling Notification {#enabling-disabling-notification}
 
@@ -1019,7 +1019,7 @@ For each campaign, the **[!UICONTROL Tracking]** tab lets you view all jobs and 
 
   ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* The **[!UICONTROL Tasks]** sub-tab groups all tasks linked to the campaign. This view lets you edit them or delete them. Tasks are available with the MRM application. They are detailed in [Creating and managing tasks](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html).
+* The **[!UICONTROL Tasks]** sub-tab groups all tasks linked to the campaign. This view lets you edit them or delete them. Tasks are available with the MRM application. They are detailed in [Creating and managing tasks](../../campaign/using/creating-and-managing-tasks.md).
 
   ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
@@ -1039,7 +1039,7 @@ To check the status of a delivery, edit it and view its dashboard and tabs.
 
 >[!NOTE]
 >
->Information concerning delivery details is available in the [Sending Messages](https://helpx.adobe.com/campaign/classic/delivery/using/about-message-tracking.html) section.
+>Information concerning delivery details is available in the [Sending Messages](../../delivery/using/about-message-tracking.md) section.
 
 ## Campaign templates {#campaign-templates}
 
@@ -1075,7 +1075,7 @@ To create a new template, carry out the following steps:
 
 You can also duplicate the default template to re-use and adapt its configuration.
 
-The various tabs and sub-tabs of the campaign template allow you to access its settings, described in [General configuration](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#general-configuration).
+The various tabs and sub-tabs of the campaign template allow you to access its settings, described in [General configuration](../../campaign/using/setting-up-marketing-campaigns.md#general-configuration).
 
 ![](assets/s_ncs_user_new_op_template_duplicate.png)
 
@@ -1178,9 +1178,9 @@ When you create a campaign template, you need to enter the following information
 
   >[!NOTE]
   >
-  >For more information on enumerations, refer to the [Getting Started](https://helpx.adobe.com/campaign/classic/platform/using/managing-enumerations.html) section.
+  >For more information on enumerations, refer to the [Getting Started](../../platform/using/managing-enumerations.md) section.
 
-* Select the **type of campaign**: unique, recurring, or periodic. By default, campaign templates apply to unique campaigns. Recurring and periodic campaigns are detailed here: [Recurring and periodic campaigns](https://helpx.adobe.com/campaign/standard/campaign/using/setting-up-marketing-campaigns.html#recurring-and-periodic-campaigns).
+* Select the **type of campaign**: unique, recurring, or periodic. By default, campaign templates apply to unique campaigns. Recurring and periodic campaigns are detailed here: [Recurring and periodic campaigns](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
 * Specify the duration of the campaign, i.e. the number of days over which the campaign will take place. When creating a campaign based on this template, the campaign start and end dates will be populated automatically.
 
   If the campaign is recurrent, you must specify the campaign start and end dates directly in the template. 
@@ -1235,7 +1235,7 @@ Recurring campaigns are created from a specific template defining the workflow t
 
   ![](assets/s_ncs_user_op_template_recur_planning_wz.png)
 
-  The configuration mode of the execution schedule coincides with the **[!UICONTROL Scheduler]** object of the Workflow. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html#architecture).
+  The configuration mode of the execution schedule coincides with the **[!UICONTROL Scheduler]** object of the Workflow. For more on this, refer to [this section](../../workflow/using/executing-a-workflow.md#architecture).
 
   >[!CAUTION]
   >

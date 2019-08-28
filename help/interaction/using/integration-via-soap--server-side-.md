@@ -46,7 +46,7 @@ In response to the query, the SOAP service will return the following parameters:
 
 Add the **nms:interaction#UpdateStatus** command to the URL, followed by these parameters:
 
-* **proposition**: string of characters, it contains the proposition ID given as an output during an offer proposition. Refer to [Offer proposition](https://helpx.adobe.com/campaign/standard/interaction/using/integration-via-soap--server-side-.html#offer-proposition).
+* **proposition**: string of characters, it contains the proposition ID given as an output during an offer proposition. Refer to [Offer proposition](../../interaction/using/integration-via-soap--server-side-.md#offer-proposition).
 * **status**: string type, it specifies the new status of the offer. The possible values are listed in the **propositionStatus** enumeration, in the **nms:common** schema. For example, out-of-the-box, the number 3 corresponds to the **Accepted** status.
 * **context**: XML element, lets you add context information in the space schema. If the schema used is **nms:interaction**, ** `<empty>`** should be added.
 
@@ -105,7 +105,7 @@ Here is an example of code for a SOAP call:
       var result = session.Propose(target, count, category, theme, <empty/>)
       var props = result[1]
   %><table><tr><%
-      for each( var propHtml in props.proposition.*.htmlSource )
+      for each( var propHtml in props.proposition.*.mdSource )
       {
         %><td><%=propHtml%></td><%
       }

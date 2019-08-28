@@ -83,7 +83,7 @@ Apply the following stages:
    >[!NOTE]
    >
    >This configuration can be adapted. To do this, you need to modify the **Recipient subscription** Web application stored in the **[!UICONTROL Resources > Online > Web applications]** node.   
-   >For more information on Web applications, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-applications.html).
+   >For more information on Web applications, refer to [this section](../../web/using/about-web-applications.md).
 
    Once they validate, a confirmation message is sent to them: they will only be registered for good once they activate the link in the confirmation message. This message is created based on the **[!UICONTROL Registration confirmation]** template, which is stored in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** node.
 

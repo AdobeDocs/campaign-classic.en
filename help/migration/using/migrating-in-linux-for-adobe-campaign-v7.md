@@ -22,11 +22,11 @@ snippet: y
 
 Migration steps in Linux are as follows:
 
-1. Stop services: see [Service stop](https://helpx.adobe.com/campaign/standard/migration/using/migrating-in-linux-for-adobe-campaign-v7.html#service-stop),
-1. Save the database: see [Back up the database and the existing installation](https://helpx.adobe.com/campaign/standard/migration/using/migrating-in-linux-for-adobe-campaign-v7.html#back-up-the-database-and-the-existing-installation),
-1. Uninstall previous Adobe Campaign version packages: see [Uninstalling Adobe Campaign previous version packages](https://helpx.adobe.com/campaign/standard/migration/using/migrating-in-linux-for-adobe-campaign-v7.html#uninstalling-adobe-campaign-previous-version-packages),
-1. Migrate the platform: refer to [Deploying Adobe Campaign v7](https://helpx.adobe.com/campaign/standard/migration/using/migrating-in-linux-for-adobe-campaign-v7.html#deploying-adobe-campaign-v7),
-1. Re-start service: refer to [Re-starting services](https://helpx.adobe.com/campaign/standard/migration/using/migrating-in-linux-for-adobe-campaign-v7.html#re-starting-services).
+1. Stop services: see [Service stop](../../migration/using/migrating-in-linux-for-adobe-campaign-v7.md#service-stop),
+1. Save the database: see [Back up the database and the existing installation](../../migration/using/migrating-in-linux-for-adobe-campaign-v7.md#back-up-the-database-and-the-existing-installation),
+1. Uninstall previous Adobe Campaign version packages: see [Uninstalling Adobe Campaign previous version packages](../../migration/using/migrating-in-linux-for-adobe-campaign-v7.md#uninstalling-adobe-campaign-previous-version-packages),
+1. Migrate the platform: refer to [Deploying Adobe Campaign v7](../../migration/using/migrating-in-linux-for-adobe-campaign-v7.md#deploying-adobe-campaign-v7),
+1. Re-start service: refer to [Re-starting services](../../migration/using/migrating-in-linux-for-adobe-campaign-v7.md#re-starting-services).
 
 ## Service stop {#service-stop}
 
@@ -302,7 +302,7 @@ To deploy Adobe Campaign, apply the following steps:
 
    >[!NOTE]
    >
-   >For more on how to install Adobe Campaign in Linux, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html).
+   >For more on how to install Adobe Campaign in Linux, refer to [this section](../../installation/using/installing-campaign-standard-packages.md).
 
 1. Modify the **.bashrd** file which matches the **neolane** user. Log on as **neolane** and run the following command:
 
@@ -388,7 +388,7 @@ To deploy Adobe Campaign, apply the following steps:
 
    >[!NOTE]
    >
-   >We strongly recommend upgrading your base to "multi timezone". For further information about timezone options, refer to the [Time zones](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#time-zones) section.
+   >We strongly recommend upgrading your base to "multi timezone". For further information about timezone options, refer to the [Time zones](../../migration/using/general-configurations.md#time-zones) section.
 
 >[!CAUTION]
 >
@@ -435,7 +435,7 @@ To deploy Adobe Campaign, apply the following steps:
 
    >[!NOTE]
    >
-   >For more on how to install Adobe Campaign in Linux, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html).
+   >For more on how to install Adobe Campaign in Linux, refer to [this section](../../installation/using/installing-campaign-standard-packages.md).
 
 1. Since migration is not a generic installation, you need to force the re-starting of the **trackinglogd** service. To do this, open the **nl6/conf/config-default.xml** file and make sure the **trackinglogd** service is activated (only on the tracking/redirection server(s)):
 
@@ -475,7 +475,7 @@ To deploy Adobe Campaign, apply the following steps:
 
    >[!NOTE]
    >
-   >The "multi timezone" mode was only available in v6.02 for PostgreSQL database engines. It is now available no matter what version of database engine is being used. We strongly recommend upgrading your base to "multi timezone". For further information about timezone options, refer to the [Time zones](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#time-zones) section.
+   >The "multi timezone" mode was only available in v6.02 for PostgreSQL database engines. It is now available no matter what version of database engine is being used. We strongly recommend upgrading your base to "multi timezone". For further information about timezone options, refer to the [Time zones](../../migration/using/general-configurations.md#time-zones) section.
 
 ### Migrating from Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6_1-1}
 
@@ -518,7 +518,7 @@ To deploy Adobe Campaign, apply the following steps:
 
    >[!NOTE]
    >
-   >For more on how to install Adobe Campaign in Linux, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-standard-packages.html).
+   >For more on how to install Adobe Campaign in Linux, refer to [this section](../../installation/using/installing-campaign-standard-packages.md).
 
 1. Go to the **nl6.back** backup folder and copy (overwrite) the configuration files and sub-folders of each instance. Log in as **neolane** and run the following command:
 
@@ -552,7 +552,7 @@ To deploy Adobe Campaign, apply the following steps:
 >
 >This section only applies when migrating from Adobe Campaign v5.11.
 
-At this stage, Apache needs to be stopped. Refer to: [Service stop](https://helpx.adobe.com/campaign/standard/migration/using/migrating-in-linux-for-adobe-campaign-v7.html#service-stop).
+At this stage, Apache needs to be stopped. Refer to: [Service stop](../../migration/using/migrating-in-linux-for-adobe-campaign-v7.md#service-stop).
 
 1. Log in as **root**.
 1. Change the Apache environment variables to make them link to the **nl6** directory.
@@ -619,7 +619,7 @@ At this stage, Apache needs to be stopped. Refer to: [Service stop](https://help
 
 ## Security zones {#security-zones}
 
-If you are migrating from v6.02 or earlier, you must configure your security zones before starting services. For more information, refer to [Security](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#security).
+If you are migrating from v6.02 or earlier, you must configure your security zones before starting services. For more information, refer to [Security](../../migration/using/general-configurations.md#security).
 
 ## Re-starting services {#re-starting-services}
 
@@ -654,7 +654,7 @@ Start Apache and Adobe Campaign services on each of the following servers:
 1. Mid-sourcing server.
 1. Marketing server.
 
-Before going on to the next step, run a full test of the new installation, make sure there are no regressions and that everything works by following all the recommendations in the [General configurations](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html) section.
+Before going on to the next step, run a full test of the new installation, make sure there are no regressions and that everything works by following all the recommendations in the [General configurations](../../migration/using/general-configurations.md) section.
 
 ### Migrating from Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6_02-2}
 
@@ -685,7 +685,7 @@ Start Apache and Adobe Campaign services on each of the following servers:
 1. Mid-sourcing server.
 1. Marketing server.
 
-Fully test the new installation, check that it does not regress and make sure that everything is working correctly by following all the recommendations in the [General configurations](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html) section.
+Fully test the new installation, check that it does not regress and make sure that everything is working correctly by following all the recommendations in the [General configurations](../../migration/using/general-configurations.md) section.
 
 ### Migrating from Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6_1-2}
 
@@ -695,7 +695,7 @@ Start Apache and Adobe Campaign services on each of the following servers:
 1. Mid-sourcing server.
 1. Marketing server.
 
-Fully test the new installation, check that it does not regress and make sure that everything is working correctly by following all the recommendations in the [General configurations](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html) section.
+Fully test the new installation, check that it does not regress and make sure that everything is working correctly by following all the recommendations in the [General configurations](../../migration/using/general-configurations.md) section.
 
 ## Deleting and cleansing Adobe Campaign v5 {#deleting-and-cleansing-adobe-campaign-v5}
 

@@ -23,5 +23,5 @@ Adobe Campaign lets you mass deliver personalized electronic messages.
 Before starting sending email:
 
 * Make sure recipient profiles contain at least an email address.
-* Learn more about Adobe Campaign delivery best practices. Refer to Adobe Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html), [Deliverability getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and this [section](https://helpx.adobe.com/campaign/classic/delivery/using/about-deliverability.html).
+* Learn more about Adobe Campaign delivery best practices. Refer to Adobe Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.md), [Deliverability getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) and this [section](../../delivery/using/about-deliverability.md).
 

@@ -18,7 +18,7 @@ snippet: y
 
 # Specific configurations in v6.02{#specific-configurations-in-v}
 
-The following section details the additional configuration required when migrating from v6.02. You should also configure the settings detailed in the [General configurations](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html) section.
+The following section details the additional configuration required when migrating from v6.02. You should also configure the settings detailed in the [General configurations](../../migration/using/general-configurations.md) section.
 
 ## Web applications {#web-applications}
 
@@ -40,13 +40,13 @@ Nlserver javascript -instance:[instance_name] -file [installation_path]/datakit/
 
 ```
 
-If you have modified these web applications and would like to continue using them in v7, you must activate the **allowSQLInjection** option in your different security zones and re-start the postupgrade. Refer to the [SQLData](https://helpx.adobe.com/campaign/standard/migration/using/general-configurations.html#sqldata) section for more on this.
+If you have modified these web applications and would like to continue using them in v7, you must activate the **allowSQLInjection** option in your different security zones and re-start the postupgrade. Refer to the [SQLData](../../migration/using/general-configurations.md#sqldata) section for more on this.
 
 ## User friendliness: Home page and navigation {#user-friendliness--home-page-and-navigation}
 
 >[!CAUTION]
 >
->If you would like to continue using v6.02 overview-type web applications, you must activate the **allowSQLInjection** option in your different security zones before the postupgrade. Refer to [Web applications](https://helpx.adobe.com/campaign/standard/migration/using/specific-configurations-in-v6-02.html#web-applications).
+>If you would like to continue using v6.02 overview-type web applications, you must activate the **allowSQLInjection** option in your different security zones before the postupgrade. Refer to [Web applications](../../migration/using/specific-configurations-in-v6-02.md#web-applications).
 
 After a migration from version 6.02, the Adobe Campaign v6.02 homepage is no longer displayed but is still accessible and compatible with Adobe Campaign v7.
 

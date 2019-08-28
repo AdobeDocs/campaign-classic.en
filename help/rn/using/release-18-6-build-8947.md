@@ -36,7 +36,7 @@ snippet: y
   </tr> 
   <tr> 
    <td> Support of Windows Server 2016<br /> </td> 
-   <td> Adobe Campaign is now compatible with Windows Server 2016. Refer to <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Campaign Classic Compatibility matrix</a>.<br /> </td> 
+   <td> Adobe Campaign is now compatible with Windows Server 2016. Refer to <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.md">Campaign Classic Compatibility matrix</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,7 +45,7 @@ snippet: y
 
 **decryptString**
 
-The **decryptString** function is deprecated. Refer to the [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) article.
+The **decryptString** function is deprecated. Refer to the [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.md) article.
 
 For new customers, this function is now only used to decrypt the recipient's crypted ID in landing pages. To decrypt passwords stored in an external account, use the new **decryptPassword** function.
 
@@ -53,7 +53,7 @@ For existing customers, the behavior of this function is not changed but we reco
 
 **decryptPassword**
 
-The **decryptPassword** function has been added. It allows you to decrypt a password stored in an external account. Refer to the [JSAPI](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) documentation for more information.
+The **decryptPassword** function has been added. It allows you to decrypt a password stored in an external account. Refer to the [JSAPI](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md) documentation for more information.
 
 **File APIs**
 

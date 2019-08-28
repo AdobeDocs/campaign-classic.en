@@ -20,13 +20,13 @@ snippet: y
 
 Marketing Analytics makes it easier to create reports and to identify and select data from the database via cubes. This enables you to:
 
-* Create reports based on cubes. The process is detailed here: [Exploring the data in a report](https://helpx.adobe.com/campaign/standard/reporting/using/using-cubes-to-explore-data.html#exploring-the-data-in-a-report).
-* Collect the data in the database and group it into lists, for instance to identify and build targets and deliveries. For more on this, refer to [Building a target population](https://helpx.adobe.com/campaign/standard/reporting/using/using-cubes-to-explore-data.html#building-a-target-population).
-* Insert a pivot table into a report, reference an existing cube in it. For more on this, refer to [Inserting a pivot table into a report](https://helpx.adobe.com/campaign/standard/reporting/using/using-cubes-to-explore-data.html#inserting-a-pivot-table-into-a-report).
+* Create reports based on cubes. The process is detailed here: [Exploring the data in a report](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).
+* Collect the data in the database and group it into lists, for instance to identify and build targets and deliveries. For more on this, refer to [Building a target population](../../reporting/using/using-cubes-to-explore-data.md#building-a-target-population).
+* Insert a pivot table into a report, reference an existing cube in it. For more on this, refer to [Inserting a pivot table into a report](../../reporting/using/using-cubes-to-explore-data.md#inserting-a-pivot-table-into-a-report).
 
 >[!NOTE]
 >
->Marketing Analytics is necessary to create or modify cubes. For more on this, refer to [About cubes](https://helpx.adobe.com/campaign/standard/reporting/using/about-cubes.html).
+>Marketing Analytics is necessary to create or modify cubes. For more on this, refer to [About cubes](../../reporting/using/about-cubes.md).
 
 ## Exploring the data in a report {#exploring-the-data-in-a-report}
 
@@ -34,7 +34,7 @@ Marketing Analytics makes it easier to create reports and to identify and select
 
 To create a report based on a cube, click the **[!UICONTROL Create]** button in the **[!UICONTROL Reports]** universe and select the cube you want to use.
 
-The process is detailed here: [Creating a report based on a cube](https://helpx.adobe.com/campaign/standard/reporting/using/creating-indicators.html#creating-a-report-based-on-a-cube).
+The process is detailed here: [Creating a report based on a cube](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
 
 ### Step 2 - Selecting lines and columns {#step-2---selecting-lines-and-columns}
 
@@ -55,7 +55,7 @@ The **[!UICONTROL Add]** buttons on each axis enable you to add dimensions.
 
    The parameters depend on the data type of the selected dimension.
 
-   For instance, for dates, several levels can be available. For more on this, refer to [Displaying measures](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#displaying-measures).
+   For instance, for dates, several levels can be available. For more on this, refer to [Displaying measures](../../reporting/using/concepts-and-methodology.md#displaying-measures).
 
    The following options are offered in this case:
 
@@ -97,7 +97,7 @@ By default, only one measure is displayed. To add or configure measures:
 
    ![](assets/s_advuser_cube_in_report_config_02.png)
 
-   You can then choose whether or not to display measure labels. For more on this, refer to [Configuring the display](https://helpx.adobe.com/campaign/standard/reporting/using/concepts-and-methodology.html#configuring-the-display).
+   You can then choose whether or not to display measure labels. For more on this, refer to [Configuring the display](../../reporting/using/concepts-and-methodology.md#configuring-the-display).
 
 1. It's possible to build new measures using existing ones. To do this, click **[!UICONTROL Create a measure]** and configure it.
 
@@ -161,7 +161,7 @@ To group a population into a list, apply the following steps:
 
 To create a table and explore the data in a cube, apply the following steps:
 
-1. Create a new report with a single page and insert a pivot table into it. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/reporting/using/creating-a-table.html#creating-a-breakdown-or-pivot-table).
+1. Create a new report with a single page and insert a pivot table into it. For more on this, refer to [this page](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table).
 
    ![](assets/s_advuser_cube_in_report_01.png)
 
@@ -169,5 +169,5 @@ To create a table and explore the data in a cube, apply the following steps:
 
    ![](assets/s_advuser_cube_in_report_02.png)
 
-   This lets you build the report to be displayed. For more on this, refer to [Step 2 - Selecting lines and columns](https://helpx.adobe.com/campaign/standard/reporting/using/using-cubes-to-explore-data.html#step-2---selecting-lines-and-columns).
+   This lets you build the report to be displayed. For more on this, refer to [Step 2 - Selecting lines and columns](../../reporting/using/using-cubes-to-explore-data.md#step-2---selecting-lines-and-columns).
 

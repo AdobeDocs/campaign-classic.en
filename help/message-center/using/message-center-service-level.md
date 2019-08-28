@@ -33,5 +33,5 @@ In this report, you can choose to display the overall statistics or those relati
 
 >[!NOTE]
 >
->The warning (orange) and alert (red) indicator thresholds can be configured in the deployment wizard. Refer to [Monitoring thresholds](https://helpx.adobe.com/campaign/standard/message-center/using/monitoring-thresholds.html).
+>The warning (orange) and alert (red) indicator thresholds can be configured in the deployment wizard. Refer to [Monitoring thresholds](../../message-center/using/monitoring-thresholds.md).
 

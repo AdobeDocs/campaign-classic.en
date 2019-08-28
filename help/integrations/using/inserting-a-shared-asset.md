@@ -22,31 +22,31 @@ Assets shared from Adobe Experience Cloud can be used in your emails and landing
 
 1. Create a new email or a new landing page.
 
-   If you use assets from Adobe Experience Manager assets library, use a delivery template created when [configuring the integration](https://helpx.adobe.com/campaign/classic/integrations/using/configuring-access-to-assets.html#integrating-with-aem-assets).
+   If you use assets from Adobe Experience Manager assets library, use a delivery template created when [configuring the integration](../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets).
 
    If you do not have this specific template, make sure that in the delivery **Properties**, the **[!UICONTROL Content editing mode]** ( **[!UICONTROL Advanced]** tab) is set to **DCE** and that the AEM external account that you want to use for accessing your AEM Assets resource library is provided.
 
 1. In the editing window, select the option to add an image:
 
-    * If you are using the [standard editing mode](https://helpx.adobe.com/campaign/classic/delivery/using/defining-the-email-content.html#adding-images), select **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]** .
+    * If you are using the [standard editing mode](../../delivery/using/defining-the-email-content.md#adding-images), select **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]** .
     
       ![](assets/dam_insert_image_standard.png)
 
-    * If you are using the [advanced editing mode](https://helpx.adobe.com/campaign/classic/web/using/about-campaign-html-editor.html) (DCE), go to an image block, then via the contextual menu, select **[!UICONTROL Select a shared asset]** .
+    * If you are using the [advanced editing mode](../../web/using/about-campaign-html-editor.md) (DCE), go to an image block, then via the contextual menu, select **[!UICONTROL Select a shared asset]** .
     
       ![](assets/dam_insert_image_dce.png)
 
       >[!NOTE]
       >
-      >You cannot insert shared images from Adobe Campaign in [web access](https://helpx.adobe.com/campaign/classic/platform/using/adobe-campaign-workspace.html#console-and-web-access) when using the DCE.
+      >You cannot insert shared images from Adobe Campaign in [web access](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) when using the DCE.
 
 1. In the selection window that opens, select an image, then confirm.
 
-   The available images either come from your Adobe Experience Cloud library, or your AEM Assets library, depending on how your Adobe Campaign instance is configured. Refer to the [Configuring access to Assets](https://helpx.adobe.com/campaign/standard/integrations/using/configuring-access-to-assets.html) section.
+   The available images either come from your Adobe Experience Cloud library, or your AEM Assets library, depending on how your Adobe Campaign instance is configured. Refer to the [Configuring access to Assets](../../integrations/using/configuring-access-to-assets.md) section.
 
    ![](assets/dam_shared_image_selection.png)
 
 >[!NOTE]
 >
->If you use the integration with Adobe Target, you can use a shared image as a default image. Refer to [this page](https://helpx.adobe.com/campaign/classic/integrations/using/integrating-with-adobe-target.html).
+>If you use the integration with Adobe Target, you can use a shared image as a default image. Refer to [this page](../../integrations/using/integrating-with-adobe-target.md).
 

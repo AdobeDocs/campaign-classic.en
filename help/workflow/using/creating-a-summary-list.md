@@ -63,7 +63,7 @@ This data is contained in a "Purchases.txt" text file.
 
    The **Data loading(file)** activity lets you enrich the work table of the workflow with the collected data.
 
-   For more on this activity, refer to [Loading data from a file](https://helpx.adobe.com/campaign/standard/workflow/using/importing-data.html#loading-data-from-a-file).
+   For more on this activity, refer to [Loading data from a file](../../workflow/using/importing-data.md#loading-data-from-a-file).
 
 1. Configure the **File collector** activity to collect text (&#42;.txt) type files from the selected directory.
 
@@ -96,7 +96,7 @@ Add the Enrichment activity and configure it as follows:
 
    ![](assets/uc2_enrich_enrich3.png)
 
-For more on the various types of links, refer to [Enriching and modifying data](https://helpx.adobe.com/campaign/standard/workflow/using/targeting-data.html#enriching-and-modifying-data).
+For more on the various types of links, refer to [Enriching and modifying data](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
 
 In the following window, you need to create a join condition by selecting the source field (in the main set) and the target field (belonging to the "Stores" schema) to configure data reconciliation.
 

@@ -20,7 +20,7 @@ snippet: y
 
 The delivery outline lets you use an outline in a campaign workflow. The outline must have been created in the campaign beforehand.
 
-For more information on delivery outlines in Adobe Campaign, refer to this [section](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#associating-and-structuring-resources-linked-via-a-delivery-outline).
+For more information on delivery outlines in Adobe Campaign, refer to this [section](../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 To configure the activity, you simply have to select the outline you like as well as the planned contact date. You can add filtering rules by adding typologies or typology rules.
 
@@ -35,7 +35,7 @@ The delivery outline activity, available in the campaign workflows, lets you pre
 1. In a workflow, add a delivery outline activity before adding a delivery activity.
 1. In the delivery outline activity, specify the outline you would like to use.
 
-   For more information on specifying delivery outlines, refer to this [section](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#associating-and-structuring-resources-linked-via-a-delivery-outline).
+   For more information on specifying delivery outlines, refer to this [section](../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 1. Complete the available fields according to your delivery.
 1. There are two possible cases:

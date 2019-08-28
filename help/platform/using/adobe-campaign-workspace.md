@@ -26,7 +26,7 @@ From the central section of the home page, you can use links to access Campaign 
 
 ![](assets/d_ncs_user_interface_home.png)
 
-The screenshot above is an example of the home page for an Adobe Campaign user. For more on this, watch the [Adobe Campaign Interface overview video](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html).
+The screenshot above is an example of the home page for an Adobe Campaign user. For more on this, watch the [Adobe Campaign Interface overview video](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.md).
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ The **[!UICONTROL Explorer]** workspace is divided into three zones:
 
 ![](assets/s_ncs_user_navigation.png)
 
-**1 - Tree**: you can personalize the content of the tree (add, move, or delete nodes). This procedure is intended for expert users only. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/configuration/using/about-navigation-hierarchy.html).
+**1 - Tree**: you can personalize the content of the tree (add, move, or delete nodes). This procedure is intended for expert users only. For more on this, refer to [this page](../../configuration/using/about-navigation-hierarchy.md).
 
 **2 - List**: you can filter this list, run searches, add information, or sort data.
 
@@ -117,8 +117,8 @@ To browse a list, you can use **the scroll bars** (horizontal and vertical) to s
 
 >[!NOTE]
 >
->Configuration and personalization of list content are presented in [Configuring lists](https://helpx.adobe.com/campaign/standard/platform/using/adobe-campaign-workspace.html#configuring-lists).  
->You can also sort and filter data. See [Filtering options](https://helpx.adobe.com/campaign/standard/platform/using/filtering-options.html).
+>Configuration and personalization of list content are presented in [Configuring lists](../../platform/using/adobe-campaign-workspace.md#configuring-lists).  
+>You can also sort and filter data. See [Filtering options](../../platform/using/filtering-options.md).
 
 ### Counting records {#counting-records}
 
@@ -242,7 +242,7 @@ Click **[!UICONTROL Save]** in the folder properties window. The list display is
 
 To export data from a list, you must use an export wizard. To access it, select the elements to be exported from the list, right-click and select **[!UICONTROL Export...]** .
 
-The use of the import and export functions is explained in [Generic imports and exports](https://helpx.adobe.com/campaign/standard/platform/using/generic-imports-and-exports.html).
+The use of the import and export functions is explained in [Generic imports and exports](../../platform/using/generic-imports-and-exports.md).
 
 >[!CAUTION]
 >
@@ -279,7 +279,7 @@ You can run a search of the available fields in an editor using the **[!UICONTRO
 
 >[!NOTE]
 >
->You can create filters to display only some of the data in a list. See [Creating filters](https://helpx.adobe.com/campaign/standard/platform/using/creating-filters.html).
+>You can create filters to display only some of the data in a list. See [Creating filters](../../platform/using/creating-filters.md).
 
 ## Formats and units {#formats-and-units}
 
@@ -287,7 +287,7 @@ You can run a search of the available fields in an editor using the **[!UICONTRO
 
 The language of your Adobe Campaign Classic instance impacts date and time formats.
 
-Language is selected when installing Campaign, and cannot be changed afterwards. You can select: English (US), English (EN), French, German or Japanese. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/installation/using/creating-an-instance-and-logging-on.html).
+Language is selected when installing Campaign, and cannot be changed afterwards. You can select: English (US), English (EN), French, German or Japanese. For more on this, refer to [this page](../../installation/using/creating-an-instance-and-logging-on.md).
 
 Main differences between US English and UK English are: 
 
@@ -326,7 +326,7 @@ If you click **[!UICONTROL Yes]** , this value will be available in the combo bo
 
 >[!NOTE]
 >
->Enumerations (also known as 'itemized lists') are managed by the administrator via the **[!UICONTROL Administration > Platform > Enumerations]** section. For more on this, refer to [Managing enumerations](https://helpx.adobe.com/campaign/standard/platform/using/managing-enumerations.html).
+>Enumerations (also known as 'itemized lists') are managed by the administrator via the **[!UICONTROL Administration > Platform > Enumerations]** section. For more on this, refer to [Managing enumerations](../../platform/using/managing-enumerations.md).
 
 ### Default units {#default-units}
 

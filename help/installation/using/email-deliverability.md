@@ -25,8 +25,8 @@ The following section provides an overview of the configuration required for con
 >[!NOTE]
 >
 >All technical recommendations concerning the efficient sending and receiving of messages by an Adobe Campaign platform are available in the **Deliverability** Technical Note.   
->Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](https://helpx.adobe.com/campaign/classic/installation/using/hosting-models.html) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).  
->Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices related to deliverability.
+>Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md).  
+>Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) that presents the concepts and best practices related to deliverability.
 
 ## Operating principle {#operating-principle}
 
@@ -74,7 +74,7 @@ The statistics server can combine several instances or several machines with the
 
 Delivery statistics are kept for each target MX and for each source IP. For example, if the targeted domain has 5 MX and the platform can use 3 different IP addresses, the server can manage up to 15 series of indicators for this domain.
 
-The source IP address matches the public IP address, i.e. the address as it is seen by the remote email server. This IP address can be different from the address of the machine which hosts the **mta**, if an NAT router is provided. This is why the statistics server uses an identifier which matches the public IP (**publicId**). The association between the local address and this identifier is declared in the **serverConf.xml** configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+The source IP address matches the public IP address, i.e. the address as it is seen by the remote email server. This IP address can be different from the address of the machine which hosts the **mta**, if an NAT router is provided. This is why the statistics server uses an identifier which matches the public IP (**publicId**). The association between the local address and this identifier is declared in the **serverConf.xml** configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 ## Delivery output controlling {#delivery-output-controlling}
 
@@ -92,7 +92,7 @@ When a message is sent, there are 3 possible results:
 
 1. **Success**: the message was sent successfully. The message is updated.
 1. **Message Failed**: the contacted server rejected the message for the chosen recipient. This result matches return codes 550 to 599, but exceptions can be defined.
-1. **Session Failed** (for 5.11 upward): if the **mta** receives an answer for this message, the message is abandoned (refer to [Message abandonment](https://helpx.adobe.com/campaign/standard/installation/using/email-deliverability.html#message-abandonment)). The message is sent to another path or set to pending if no other paths are available (refer to [Message pending](https://helpx.adobe.com/campaign/standard/installation/using/email-deliverability.html#message-pending)).
+1. **Session Failed** (for 5.11 upward): if the **mta** receives an answer for this message, the message is abandoned (refer to [Message abandonment](../../installation/using/email-deliverability.md#message-abandonment)). The message is sent to another path or set to pending if no other paths are available (refer to [Message pending](../../installation/using/email-deliverability.md#message-pending)).
 
    >[!NOTE]
    >
@@ -122,7 +122,7 @@ By default, the **stat** module is started for each instance. When the instances
 
 ### Definition of the server port {#definition-of-the-server-port}
 
-By default, the statistics server listens on port 7777. This port can be modified in the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+By default, the statistics server listens on port 7777. This port can be modified in the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 ```
 <stat port="1234"/>
@@ -210,7 +210,7 @@ You can define the format of sent messages, so that the content displayed automa
 
 To do this, go to the **[!UICONTROL Management of email formats]** document, which is located in **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]** .
 
-This document contains a list of all of the predefined domains that correspond to the Japanese formats managed by Adobe Campaign. For more information, refer to [this document](https://helpx.adobe.com/campaign/classic/delivery/using/defining-the-email-content.html#sending-emails-on-japanese-mobiles).
+This document contains a list of all of the predefined domains that correspond to the Japanese formats managed by Adobe Campaign. For more information, refer to [this document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
 ![](assets/mail_rule_sets.png)
 
@@ -225,7 +225,7 @@ The **MIME structure** (Multipurpose Internet Mail Extensions) parameter allows 
 
 If the **[!UICONTROL Image inclusion]** option is enabled, these are displayed directly in the body of the email. The images will then be uploaded and the URL links will be replaced by their content.
 
-This option is particularly used by the Japanese market for **Deco-mail**, **Decore Mail** or **Decoration Mail**. For more information, consult [this document](https://helpx.adobe.com/campaign/classic/delivery/using/defining-the-email-content.html#sending-emails-on-japanese-mobiles).
+This option is particularly used by the Japanese market for **Deco-mail**, **Decore Mail** or **Decoration Mail**. For more information, consult [this document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
 >[!CAUTION]
 >

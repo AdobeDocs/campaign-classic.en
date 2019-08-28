@@ -22,13 +22,13 @@ There can be multiple reasons for tracking logs not being forwarded. We recommen
 
 * Does the **Tracking** workflow have errors?
 
-  Refer to [Monitoring technical workflows](https://helpx.adobe.com/campaign/classic/workflow/using/executing-a-workflow.html#monitoring-technical-workflows).
+  Refer to [Monitoring technical workflows](../../workflow/using/executing-a-workflow.md#monitoring-technical-workflows).
 
   ![](assets/tracking_scheduled_task.png)
 
 * Is the module **trackinglogd** running on the server?
 
-  Refer to [Log files](https://helpx.adobe.com/campaign/classic/production/using/log-files.html).
+  Refer to [Log files](../../production/using/log-files.md).
 
 * Have changes been made? They can trigger a loss of connection to the servers using the tracking alias.
 

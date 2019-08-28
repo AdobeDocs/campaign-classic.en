@@ -22,14 +22,14 @@ This section describes all of the available activities. According to the node or
 
 Workflow activities are grouped by category. There are four tabs available at the same time.
 
-In the campaign workflows, the **[!UICONTROL Events]** tab is replaced by the **[!UICONTROL Deliveries]** tab. The activities in this tab are detailed in the [Action activities](https://helpx.adobe.com/campaign/standard/workflow/using/.html#action-activities) section.
+In the campaign workflows, the **[!UICONTROL Events]** tab is replaced by the **[!UICONTROL Deliveries]** tab. The activities in this tab are detailed in the [Action activities](../../workflow/using/.md#action-activities) section.
 
 ![](assets/wf-activity-tabs.png)
 
 Read more:
 
-* [](https://helpx.adobe.com/campaign/standard/workflow/using/about-targeting-activities.html)
-* [Importing data](https://helpx.adobe.com/campaign/standard/workflow/using/importing-data.html)
-* [Executing a workflow](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html)
-* [Workflow best practices](https://helpx.adobe.com/campaign/standard/workflow/using/workflow-best-practices.html)
+* [](../../workflow/using/about-targeting-activities.md)
+* [Importing data](../../workflow/using/importing-data.md)
+* [Executing a workflow](../../workflow/using/executing-a-workflow.md)
+* [Workflow best practices](../../workflow/using/workflow-best-practices.md)
 

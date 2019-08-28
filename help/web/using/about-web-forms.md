@@ -60,22 +60,22 @@ To define the configuration and content of the Web form, apply the following ste
 
 * Define page sequencing and condition the display.
 
-  This step is detailed in [Defining web forms page sequencing](https://helpx.adobe.com/campaign/standard/web/using/defining-web-forms-page-sequencing.html).
+  This step is detailed in [Defining web forms page sequencing](../../web/using/defining-web-forms-page-sequencing.md).
 
 * Translate the content if necessary.
 
-  This step is detailed in [Translating a web form](https://helpx.adobe.com/campaign/standard/web/using/translating-a-web-form.html).
+  This step is detailed in [Translating a web form](../../web/using/translating-a-web-form.md).
 
 ## About web forms designing {#about-web-forms-designing}
 
-The pages of the form are created via a specific editor which lets you define and configure input zones (text), selection fields (lists, checkboxes, etc.) and static elements (images, HTLM contents, etc.). They can be grouped into containers and their layout altered to suit your needs (for more on this, refer to [Creating containers](https://helpx.adobe.com/campaign/standard/web/using/defining-web-forms-layout.html#creating-containers)).
+The pages of the form are created via a specific editor which lets you define and configure input zones (text), selection fields (lists, checkboxes, etc.) and static elements (images, HTLM contents, etc.). They can be grouped into containers and their layout altered to suit your needs (for more on this, refer to [Creating containers](../../web/using/defining-web-forms-layout.md#creating-containers)).
 
 The following sections detail how to define content and layout for form screens:
 
-* [Adding fields to a web form](https://helpx.adobe.com/campaign/standard/web/using/adding-fields-to-a-web-form.html),
-* [Inserting HTML content](https://helpx.adobe.com/campaign/standard/web/using/static-elements-in-a-web-form.html#inserting-html-content),
-* [Static elements in a web form](https://helpx.adobe.com/campaign/standard/web/using/static-elements-in-a-web-form.html),
-* [Defining web forms layout](https://helpx.adobe.com/campaign/standard/web/using/defining-web-forms-layout.html).
+* [Adding fields to a web form](../../web/using/adding-fields-to-a-web-form.md),
+* [Inserting HTML content](../../web/using/static-elements-in-a-web-form.md#inserting-html-content),
+* [Static elements in a web form](../../web/using/static-elements-in-a-web-form.md),
+* [Defining web forms layout](../../web/using/defining-web-forms-layout.md).
 
 >[!NOTE]
 >

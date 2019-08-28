@@ -22,7 +22,7 @@ If the recipient table is a custom table, additional configurations are required
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-For more on using seed addresses, refer [this section](https://helpx.adobe.com/campaign/classic/delivery/using/about-seed-addresses.html).
+For more on using seed addresses, refer [this section](../../delivery/using/about-seed-addresses.md).
 
 ## Implementation {#implementation}
 
@@ -47,7 +47,7 @@ Definition of the recipients table extended schema:
 
 Apply the following steps:
 
-1. Create an extension of the **nms:seedMember** schema. For more on this, refer to [Extending a schema](https://helpx.adobe.com/campaign/standard/configuration/using/extending-a-schema.html).
+1. Create an extension of the **nms:seedMember** schema. For more on this, refer to [Extending a schema](../../configuration/using/extending-a-schema.md).
 1. In this new extension, add a new element at the root of **[!UICONTROL seedMember]** with the following parameters:
 
    ```
@@ -88,7 +88,7 @@ Apply the following steps:
    >    
    >
 
-1. Modify the **[!UICONTROL seedMember]** form accordingly to define a new "Internal recipient" tab in the **[!UICONTROL Seed addresses]** window. For more on this, refer to [Form structure](https://helpx.adobe.com/campaign/standard/configuration/using/form-structure.html).
+1. Modify the **[!UICONTROL seedMember]** form accordingly to define a new "Internal recipient" tab in the **[!UICONTROL Seed addresses]** window. For more on this, refer to [Form structure](../../configuration/using/form-structure.md).
 
    ```
    

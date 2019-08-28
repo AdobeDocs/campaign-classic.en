@@ -20,7 +20,7 @@ snippet: y
 
 ## Execution and performance {#execution-and-performance}
 
-General guidelines about optimizing Campaign performance, including best practices to apply to your workflows, are listed in [this document](https://helpx.adobe.com/campaign/kb/best-practices-for-performance-improvement.html). Additional recommendations are listed below.
+General guidelines about optimizing Campaign performance, including best practices to apply to your workflows, are listed in [this document](https://helpx.adobe.com/campaign/kb/best-practices-for-performance-improvement.md). Additional recommendations are listed below.
 
 ### Logs {#logs}
 
@@ -108,11 +108,11 @@ All your scheduled workflows running on production environments should be monito
 
 In the workflow properties, select a Supervisor group, either the default **[!UICONTROL Workflow supervisors]** or a custom group. Make sure that at least one operator belongs to this group, with an email set up.
 
-Before you start building a workflow, remember to define workflow supervisors. They will be notified by email in case of errors. For more on this, refer to [Managing errors](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#managing-errors).
+Before you start building a workflow, remember to define workflow supervisors. They will be notified by email in case of errors. For more on this, refer to [Managing errors](../../workflow/using/executing-a-workflow.md#managing-errors).
 
-Regularly check the **[!UICONTROL Monitoring]** universe to view the overall status of the active workflows. For more on this, refer to [Instance supervision](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#instance-supervision).
+Regularly check the **[!UICONTROL Monitoring]** universe to view the overall status of the active workflows. For more on this, refer to [Instance supervision](../../workflow/using/executing-a-workflow.md#instance-supervision).
 
-The Workflow HeatMap enables the Adobe Campaign platform administrators to monitor the load on the instance and plan workflows accordingly. For more on this, refer to [Workflow monitoring](https://helpx.adobe.com/campaign/classic/production/using/monitoring-processes.html#workflow-monitoring).
+The Workflow HeatMap enables the Adobe Campaign platform administrators to monitor the load on the instance and plan workflows accordingly. For more on this, refer to [Workflow monitoring](../../production/using/monitoring-processes.md#workflow-monitoring).
 
 ## Using activities {#using-activities}
 
@@ -129,7 +129,7 @@ The activity name can be found in the **[!UICONTROL Advanced]** tab. Don’t lea
 
   ![](assets/wf-scheduler.png)
 
-* Use **[!UICONTROL End]** activities for every workflow. This lets Adobe Campaign free up temporary space used for calculations within workflows. For more on this, refer to: [Start and end](https://helpx.adobe.com/campaign/standard/workflow/using/start-and-end.html).
+* Use **[!UICONTROL End]** activities for every workflow. This lets Adobe Campaign free up temporary space used for calculations within workflows. For more on this, refer to: [Start and end](../../workflow/using/start-and-end.md).
 
 ### Javascript within an activity {#javascript-within-an-activity}
 

@@ -26,12 +26,12 @@ To define the name and address of the sender which will appear in the header of 
 
 This window lets you enter all the information required to create the email message headers. This information can be personalized. To do this, use the buttons to the right of the input fields to insert personalization fields.
 
-To find out how to insert and use personalization fields, refer to [About personalization](https://helpx.adobe.com/campaign/standard/delivery/using/about-personalization.html) section.
+To find out how to insert and use personalization fields, refer to [About personalization](../../delivery/using/about-personalization.md) section.
 
 >[!NOTE]
 >
 >* The sender's address will be used for replies by default.
->* The header parameters must not be empty. By default, they contain the values input when configuring the deployment wizard. For further information, refer to the [Installation Guide](https://helpx.adobe.com/campaign/classic/installation/using/deploying-an-instance.html).
+>* The header parameters must not be empty. By default, they contain the values input when configuring the deployment wizard. For further information, refer to the [Installation Guide](../../installation/using/deploying-an-instance.md).
 >* The sender's address is mandatory to allow an email to be sent (RFC standard). 
 >* Adobe Campaign checks the syntax of email addresses entered.
 >
@@ -56,7 +56,7 @@ For example, in the message above, the subject of the message is personalized fo
 
 >[!NOTE]
 >
->The use of personalization fields is presented in [About personalization](https://helpx.adobe.com/campaign/standard/delivery/using/about-personalization.html).
+>The use of personalization fields is presented in [About personalization](../../delivery/using/about-personalization.md).
 
 ## Message content {#message-content}
 
@@ -66,11 +66,11 @@ For example, in the message above, the subject of the message is personalized fo
 
 The content of the message is defined in the lower section of the delivery configuration window.
 
-Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Selecting message formats](https://helpx.adobe.com/campaign/standard/delivery/using/defining-the-email-content.html#selecting-message-formats).
+Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Selecting message formats](../../delivery/using/defining-the-email-content.md#selecting-message-formats).
 
 * To import an HTML content, use the **[!UICONTROL Open]** button. You can also paste the source code directly into the **[!UICONTROL Source]** sub-tab.
 
-  If you are using the [Digital Content Editor](https://helpx.adobe.com/campaign/classic/web/using/about-campaign-html-editor.html) (DCE), refer to [Selecting a content template](https://helpx.adobe.com/campaign/classic/web/using/use-case--creating-an-email-delivery.html#step-3---selecting-a-content).
+  If you are using the [Digital Content Editor](../../web/using/about-campaign-html-editor.md) (DCE), refer to [Selecting a content template](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
 
   >[!CAUTION]
   >
@@ -86,13 +86,13 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   ![](assets/s_ncs_user_wizard_email01_18.png)
 
-  Library images can be accessed via the **[!UICONTROL Resources>Online>Public resources]** folder in the folder tree. Also refer to [Adding images](https://helpx.adobe.com/campaign/standard/delivery/using/defining-the-email-content.html#adding-images).
+  Library images can be accessed via the **[!UICONTROL Resources>Online>Public resources]** folder in the folder tree. Also refer to [Adding images](../../delivery/using/defining-the-email-content.md#adding-images).
 
   The last button in the toolbar lets you insert personalization fields.
 
   >[!NOTE]
   >
-  >The use of personalization fields is presented in [About personalization](https://helpx.adobe.com/campaign/standard/delivery/using/about-personalization.html).
+  >The use of personalization fields is presented in [About personalization](../../delivery/using/about-personalization.md).
 
   The tabs at the bottom of the page let you display the HTML code of the page being created and view the rendering of the message with its personalization. To launch this display, click **[!UICONTROL Preview]** and select a recipient using the **[!UICONTROL Test personalization]** button in the toolbar. You can select a recipient from the defined target(s) or choose another recipient.
 
@@ -146,7 +146,7 @@ An additional tab lets you enter content that will automatically be integrated a
 
 >[!NOTE]
 >
->For further information about content management in Adobe Campaign, refer to the [Configuration guide](https://helpx.adobe.com/campaign/classic/configuration/using/about-schema-reference.html).
+>For further information about content management in Adobe Campaign, refer to the [Configuration guide](../../configuration/using/about-schema-reference.md).
 
 ## Adding attachments {#adding-attachments}
 
@@ -154,7 +154,7 @@ You can attach one or more files to an email delivery. Attachments can be in any
 
 >[!NOTE]
 >
->The name of the attachment can be computed for each message as it is sent, and can depend on the recipient. It can also be personalized and converted to PDF at the time of sending. In these cases, it must be a calculated attachment. See [Attaching files](https://helpx.adobe.com/campaign/standard/delivery/using/attaching-files.html).
+>The name of the attachment can be computed for each message as it is sent, and can depend on the recipient. It can also be personalized and converted to PDF at the time of sending. In these cases, it must be a calculated attachment. See [Attaching files](../../delivery/using/attaching-files.md).
 
 To attach a file:
 
@@ -190,11 +190,11 @@ Images can be:
 
   Public resources are accessible via the **[!UICONTROL Resources > Online]** node of the Adobe Campaign hierarchy. They are grouped in a library and can be included in email messages, but can also be used for campaigns or tasks, or for content management.
 
-* An asset shared with Adobe Experience Cloud. Refer to [this section](https://helpx.adobe.com/campaign/classic/integrations/using/sharing-assets-with-adobe-experience-cloud.html).
+* An asset shared with Adobe Experience Cloud. Refer to [this section](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
 
 >[!CAUTION]
 >
->To include images in the email messages using the delivery wizard, the Adobe Campaign instance must be configured to enable public resource management. This procedure can be performed from the deployment wizard. Refer to the [this section](https://helpx.adobe.com/campaign/classic/installation/using/deploying-an-instance.html) for further information on configuration.
+>To include images in the email messages using the delivery wizard, the Adobe Campaign instance must be configured to enable public resource management. This procedure can be performed from the deployment wizard. Refer to the [this section](../../installation/using/deploying-an-instance.md) for further information on configuration.
 
 The delivery wizard lets you add local images, or images stored in the library, to the content of messages. To do this, click the **[!UICONTROL Image]** button in the HTML content toolbar.
 
@@ -269,7 +269,7 @@ If you select **[!UICONTROL Include the images in the email]** , you can choose 
 
 ### Email formats for Japanese mobiles {#email-formats-for-japanese-mobiles}
 
-Adobe Campaign manages three specific Japanese formats for email on mobiles: **Deco-mail** (DoCoMo mobiles), **Decore Mail** (Softbank mobiles) and **Decoration Mail** (KDDI AU mobiles). These formats impose particular coding, structure, and size constraints. Learn more about limitations and recommendations in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/defining-the-email-content.html#limitations-and-recommendations).
+Adobe Campaign manages three specific Japanese formats for email on mobiles: **Deco-mail** (DoCoMo mobiles), **Decore Mail** (Softbank mobiles) and **Decoration Mail** (KDDI AU mobiles). These formats impose particular coding, structure, and size constraints. Learn more about limitations and recommendations in [this section](../../delivery/using/defining-the-email-content.md#limitations-and-recommendations).
 
 In order for the recipient to correctly receive messages in one of these formats, we recommend selecting **[!UICONTROL Deco-mail (DoCoMo)]** , **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** in the corresponding profile:
 
@@ -277,7 +277,7 @@ In order for the recipient to correctly receive messages in one of these formats
 
 However, if you leave the **[!UICONTROL Email format]** option as **[!UICONTROL Unknown]** , **[!UICONTROL HTML]** or **[!UICONTROL Text]** , Adobe Campaign will automatically detect (when sending the email) the Japanese format to use so that the message is correctly displayed.
 
-This automatic detection system is based on the list of predefined domains defined in the **[!UICONTROL Management of Email Formats]** mail rule set. For more on managing email formats, refer to [this page](https://helpx.adobe.com/campaign/classic/installation/using/email-deliverability.html#managing-email-formats).
+This automatic detection system is based on the list of predefined domains defined in the **[!UICONTROL Management of Email Formats]** mail rule set. For more on managing email formats, refer to [this page](../../installation/using/email-deliverability.md#managing-email-formats).
 
 ### Limitations and recommendations {#limitations-and-recommendations}
 
@@ -296,9 +296,9 @@ Therefore, you must:
 >Limitations specific to each operator are to be taken into account when creating your message. Refer to:  
 
 >
->* For DoCoMo, refer to [this page](https://www.nttdocomo.co.jp/service/developer/make/content/deco_mail/index.html)
->* For KDDI AU, refer to [this page](https://www.au.com/ezfactory/tec/spec/decorations/template.html)
->* For Softbank, refer to [this page](https://creation.mb.softbank.jp/mc/tech/tech_mail/mail_decore.html)
+>* For DoCoMo, refer to [this page](https://www.nttdocomo.co.jp/service/developer/make/content/deco_mail/index.md)
+>* For KDDI AU, refer to [this page](https://www.au.com/ezfactory/tec/spec/decorations/template.md)
+>* For Softbank, refer to [this page](https://creation.mb.softbank.jp/mc/tech/tech_mail/mail_decore.md)
 >
 
 ### Testing the email content {#testing-the-email-content}
@@ -325,7 +325,7 @@ In addition to the previewing diagnosis, a second check is carried out when send
 >
 >This typology rule is only executed if at least one of the recipients is configured to receive emails in **[!UICONTROL Deco-mail (DoCoMo)]** , **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** format.
 
-This typology rule allows you to make sure that the delivery respects the [format constraints](https://helpx.adobe.com/campaign/classic/delivery/using/defining-the-email-content.html#limitations-and-recommendations) defined by the Japanese operators, particularly in relation to the total size of the email, the size of the HTML and text sections, the number of images in the messages, and the tags in the HTML content.
+This typology rule allows you to make sure that the delivery respects the [format constraints](../../delivery/using/defining-the-email-content.md#limitations-and-recommendations) defined by the Japanese operators, particularly in relation to the total size of the email, the size of the HTML and text sections, the number of images in the messages, and the tags in the HTML content.
 
 #### Sending proofs {#sending-proofs}
 
@@ -339,8 +339,8 @@ For example, you can replace a profile's address by test@softbank.ne.jp if the e
 
 To send an email to recipients with Japanese email formats with Campaign, two options are possible:
 
-* Create two deliveries: one only for Japanese recipients and another for other recipients - refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/defining-the-email-content.html#designing-a-specific-delivery-for-japanese-formats).
-* Create a single delivery and Adobe Campaign will automatically detect the format to use - refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/defining-the-email-content.html#designing-a-delivery-for-all-formats).
+* Create two deliveries: one only for Japanese recipients and another for other recipients - refer to [this section](../../delivery/using/defining-the-email-content.md#designing-a-specific-delivery-for-japanese-formats).
+* Create a single delivery and Adobe Campaign will automatically detect the format to use - refer to [this section](../../delivery/using/defining-the-email-content.md#designing-a-delivery-for-all-formats).
 
 #### Designing a specific delivery for Japanese formats {#designing-a-specific-delivery-for-japanese-formats}
 
@@ -360,5 +360,5 @@ The message contact will display correctly for the users on Japanese mobiles, ju
 
 >[!CAUTION]
 >
->Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/defining-the-email-content.html#limitations-and-recommendations).
+>Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [this section](../../delivery/using/defining-the-email-content.md#limitations-and-recommendations).
 

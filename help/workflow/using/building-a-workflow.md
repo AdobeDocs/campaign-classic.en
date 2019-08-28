@@ -20,13 +20,13 @@ snippet: y
 
 This section details the key principles and best practices to build a workflow in Campaign.
 
-* Create a workflow, see [Creating a new workflow](https://helpx.adobe.com/campaign/classic/workflow/using/building-a-workflow.html#creating-a-new-workflow)
-* Design the workflow diagram, see [Adding and linking activities](https://helpx.adobe.com/campaign/classic/workflow/using/building-a-workflow.html#adding-and-linking-activities)
-* Access parameters and properties of activities, see [Configuring activities](https://helpx.adobe.com/campaign/classic/workflow/using/building-a-workflow.html#configuring-activities)
-* Design targeting workflows, see [Targeting workflows](https://helpx.adobe.com/campaign/classic/workflow/using/building-a-workflow.html#targeting-workflows)
-* Use workflow to execute a campaign, see [Campaign workflows](https://helpx.adobe.com/campaign/classic/workflow/using/building-a-workflow.html#campaign-workflows)
-* Access and create technical workflows, see [Technical workflows](https://helpx.adobe.com/campaign/classic/workflow/using/building-a-workflow.html#technical-workflows)
-* Use templates to create workflows, see [Workflow templates](https://helpx.adobe.com/campaign/classic/workflow/using/building-a-workflow.html#workflow-templates)
+* Create a workflow, see [Creating a new workflow](../../workflow/using/building-a-workflow.md#creating-a-new-workflow)
+* Design the workflow diagram, see [Adding and linking activities](../../workflow/using/building-a-workflow.md#adding-and-linking-activities)
+* Access parameters and properties of activities, see [Configuring activities](../../workflow/using/building-a-workflow.md#configuring-activities)
+* Design targeting workflows, see [Targeting workflows](../../workflow/using/building-a-workflow.md#targeting-workflows)
+* Use workflow to execute a campaign, see [Campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows)
+* Access and create technical workflows, see [Technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows)
+* Use templates to create workflows, see [Workflow templates](../../workflow/using/building-a-workflow.md#workflow-templates)
 
 ## Creating a new workflow {#creating-a-new-workflow}
 
@@ -58,10 +58,10 @@ You must now define the various activities and link them together in the diagram
 
 Activities are grouped by category inside the different tabs of the palette. Available tabs and activities can vary depending on the workflow type (technical, targeting or campaign workflow).
 
-* The first tab contains targeting and data manipulation activities. These activities are detailed in [Targeting activities](https://helpx.adobe.com/campaign/standard/workflow/using/.html#targeting-activities).
-* The second tab contains the scheduling activities, which are mainly used for coordinating other activities. These activities are detailed in [Flow control activities](https://helpx.adobe.com/campaign/standard/workflow/using/.html#flow-control-activities).
-* The third tab contains tools and actions that can be used in the workflow. These activities are detailed in [Action activities](https://helpx.adobe.com/campaign/standard/workflow/using/.html#action-activities).
-* The fourth tab contains activities that depend on a given event, such as the receipt of an email or the arrival of a file on a server. These activities are detailed in [Event activities](https://helpx.adobe.com/campaign/standard/workflow/using/.html#event-activities).
+* The first tab contains targeting and data manipulation activities. These activities are detailed in [Targeting activities](../../workflow/using/.md#targeting-activities).
+* The second tab contains the scheduling activities, which are mainly used for coordinating other activities. These activities are detailed in [Flow control activities](../../workflow/using/.md#flow-control-activities).
+* The third tab contains tools and actions that can be used in the workflow. These activities are detailed in [Action activities](../../workflow/using/.md#action-activities).
+* The fourth tab contains activities that depend on a given event, such as the receipt of an email or the arrival of a file on a server. These activities are detailed in [Event activities](../../workflow/using/.md#event-activities).
 
 To create the diagram
 
@@ -95,7 +95,7 @@ You can change the display and layout of the chart using the following elements:
 
   ![](assets/s_user_segmentation_toolbar.png)
 
-  Icons related to tracking and launching an advanced targeting workflow are detailed in this [section](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#creating-a-targeting-workflow).
+  Icons related to tracking and launching an advanced targeting workflow are detailed in this [section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-targeting-workflow).
 
 * **Object alignment**
 
@@ -105,7 +105,7 @@ You can change the display and layout of the chart using the following elements:
 
 * **Image management**
 
-  You can customize the background image of the diagram as well as those related to the various activities. Refer to [Managing activity images](https://helpx.adobe.com/campaign/standard/workflow/using/managing-activity-images.html).
+  You can customize the background image of the diagram as well as those related to the various activities. Refer to [Managing activity images](../../workflow/using/managing-activity-images.md).
 
 ## Configuring activities {#configuring-activities}
 
@@ -113,7 +113,7 @@ Double-click an activity to configure it or right-click and select **[!UICONTROL
 
 >[!NOTE]
 >
->Campaign workflow activities are detailed in [this section](https://helpx.adobe.com/campaign/classic/workflow/using/about-activities.html).
+>Campaign workflow activities are detailed in [this section](../../workflow/using/about-activities.md).
 
 The first tab contains the basic configuration. The **[!UICONTROL Advanced]** tab contains the additional parameters, which are used particularly for defining behavior when an error is encountered, specifying the execution duration for an activity, and for entering an initialization script.
 
@@ -125,13 +125,13 @@ For a better understanding of the activities and to improve workflow legibility,
 
 Targeting workflows enable you to build several delivery targets. You can create queries, define unions or exclusions based on specific criteria, add scheduling, thanks to workflow activities. The result of this targeting can be transferred automatically to a list which can serve as the target of delivery actions
 
-In addition to these activities, Data Management options let you manipulate data and access advanced functions to satisfy complex targeting issues. For more on this, refer to [Data Management](https://helpx.adobe.com/campaign/standard/workflow/using/targeting-data.html#data-management).
+In addition to these activities, Data Management options let you manipulate data and access advanced functions to satisfy complex targeting issues. For more on this, refer to [Data Management](../../workflow/using/targeting-data.md#data-management).
 
 All these activities can be found in the first workflow tab.
 
 >[!NOTE]
 >
->Targeting activities are detailed in [this section](https://helpx.adobe.com/campaign/classic/workflow/using/about-activities.html).
+>Targeting activities are detailed in [this section](../../workflow/using/about-activities.md).
 
 Targeting workflows can be created and edited via the **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** node of the Adobe Campaign tree or via the **[!UICONTROL Profiles and Targets > Targeting workflows]** menu of the home page.
 
@@ -143,11 +143,11 @@ Targeting workflows within the framework of a campaign are stored with all campa
 
 Targeting data building stages are as follows:
 
-1. For identifying data in the database, refer to [Creating queries](https://helpx.adobe.com/campaign/standard/workflow/using/targeting-data.html#creating-queries).
-1. For preparing data to meet delivery needs, refer to [Enriching and modifying data](https://helpx.adobe.com/campaign/standard/workflow/using/targeting-data.html#enriching-and-modifying-data).
-1. For using data to perform updates or within a delivery, refer to [Updating the database](https://helpx.adobe.com/campaign/standard/workflow/using/how-to-use-workflow-data.html#updating-the-database).
+1. For identifying data in the database, refer to [Creating queries](../../workflow/using/targeting-data.md#creating-queries).
+1. For preparing data to meet delivery needs, refer to [Enriching and modifying data](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
+1. For using data to perform updates or within a delivery, refer to [Updating the database](../../workflow/using/how-to-use-workflow-data.md#updating-the-database).
 
-The results of all enrichments and all handlings carried out during targeting are stored and accessible in personalization fields, in particular for use when creating personalized messages. For more on this, refer to [Target data](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#target-data)
+The results of all enrichments and all handlings carried out during targeting are stored and accessible in personalization fields, in particular for use when creating personalized messages. For more on this, refer to [Target data](../../workflow/using/executing-a-workflow.md#target-data)
 
 ### Targeting and filtering dimensions {#targeting-and-filtering-dimensions}
 
@@ -173,7 +173,7 @@ For each campaign, you can create workflows to be executed from the **[!UICONTRO
 
 ![](assets/wf-in-op-edit-delivery-tab.png)
 
-This tab contains the same activities as for all workflows. They are presented in the [Implementation steps](https://helpx.adobe.com/campaign/standard/workflow/using/building-a-workflow.html#implementation-steps-) section.
+This tab contains the same activities as for all workflows. They are presented in the [Implementation steps](../../workflow/using/building-a-workflow.md#implementation-steps-) section.
 
 In addition to targeting campaigns, campaign workflows enable you to create and configure deliveries entirely for all available channels. Once created in the workflow, these deliveries are available from the dashboard of the campaign.
 
@@ -181,7 +181,7 @@ All campaign workflows are centralized under the **[!UICONTROL Administration > 
 
 ![](assets/campaigns_wf.png)
 
-Campaign workflows and implementation examples are detailed in this [page](https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#building-the-main-target-in-a-workflow).
+Campaign workflows and implementation examples are detailed in this [page](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow).
 
 ## Technical workflows {#technical-workflows}
 
@@ -195,11 +195,11 @@ The **[!UICONTROL Campaign process]** subfolder centralizes the workflows requir
 
 >[!NOTE]
 >
->The list of technical workflows installed with each module is available in a [dedicated section](https://helpx.adobe.com/campaign/classic/workflow/using/about-technical-workflows.html).
+>The list of technical workflows installed with each module is available in a [dedicated section](../../workflow/using/about-technical-workflows.md).
 
 You can create other technical workflows in the **[!UICONTROL Administration > Production > Technical workflows]** node of the tree structure. However, this process is reserved for expert users.
 
-The activities offered are the same as for targeting workflows. For more on this, refer to [Implementation steps](https://helpx.adobe.com/campaign/standard/workflow/using/building-a-workflow.html#implementation-steps-).
+The activities offered are the same as for targeting workflows. For more on this, refer to [Implementation steps](../../workflow/using/building-a-workflow.md#implementation-steps-).
 
 ## Workflow templates {#workflow-templates}
 

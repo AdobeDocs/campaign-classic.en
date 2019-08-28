@@ -24,7 +24,7 @@ The **[!UICONTROL Scheduler]** activity should be considered as a scheduled star
 
 It is a best practice not to schedule a workflow to run more than every 15 minutes because it may impede overall system performance and create blocks in the database.
 
-When building your workflow, never use more than one **[!UICONTROL Scheduler]** activity per branch. For more on this, refer to: [Using activities](https://helpx.adobe.com/campaign/standard/workflow/using/workflow-best-practices.html#using-activities).
+When building your workflow, never use more than one **[!UICONTROL Scheduler]** activity per branch. For more on this, refer to: [Using activities](../../workflow/using/workflow-best-practices.md#using-activities).
 
 The scheduler defines the activation schedule of the transition. To configure it, double-click the graphical object, then click **[!UICONTROL Change...]** 
 

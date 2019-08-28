@@ -20,11 +20,11 @@ snippet: y
 
 The following sections details mandatory server configurations which will guarantee the efficient operating of Adobe Campaign for most set-ups.
 
-Additional configurations are offered in [Configuring Campaign server](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html).
+Additional configurations are offered in [Configuring Campaign server](../../installation/using/configuring-campaign-server.md).
 
 >[!NOTE]
 >
->Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](https://helpx.adobe.com/campaign/classic/installation/using/hosting-models.html) section or to this [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to this [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md).
 
 ## Internal identifier {#internal-identifier}
 
@@ -55,7 +55,7 @@ Confirmation: XXXX
 The configuration files are stored in the **conf** folder of the Adobe Campaign installation folder. The configuration is spread over two files:
 
 * ** config-** `<instance>`**.xml** (where **instance** is the name of the instance): specific configuration of the instance. If you share your server among several instances, please enter the parameters specific to each instance in their relevant file.
-* **serverConf.xml**: general configuration for all instances. This file combines the technical parameters of the Adobe Campaign server: these are shared by all instances. The description of some of these parameters is detailed below. Refer to the file itself to view all available parameters. The different nodes and parameters and listed in this [section](https://helpx.adobe.com/campaign/classic/installation/using/the-server-configuration-file.html).
+* **serverConf.xml**: general configuration for all instances. This file combines the technical parameters of the Adobe Campaign server: these are shared by all instances. The description of some of these parameters is detailed below. Refer to the file itself to view all available parameters. The different nodes and parameters and listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 You can configure the storage directory (**var** directory) of Adobe Campaign data (logs, downloads, redirections, etc.). To do this, use the **XTK_VAR_DIR** system variable:
 
@@ -67,7 +67,7 @@ You can configure the storage directory (**var** directory) of Adobe Campaign da
 
 * In Linux, go to the **customer.sh** file and indicate: **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
 
-  For more on this, refer to [Personalizing parameters](https://helpx.adobe.com/campaign/standard/installation/using/installing-packages-with-linux.html#personalizing-parameters).
+  For more on this, refer to [Personalizing parameters](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
 
 ## Enabling processes {#enabling-processes}
 
@@ -123,6 +123,6 @@ The delivery parameters must be configured in the **serverConf.xml** folder.
   <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
   ```
 
-The other delivery parameters available in this file are presented in [Personalizing delivery parameters](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#personalizing-delivery-parameters).
+The other delivery parameters available in this file are presented in [Personalizing delivery parameters](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-Also refer to [Email deliverability](https://helpx.adobe.com/campaign/standard/installation/using/email-deliverability.html).
+Also refer to [Email deliverability](../../installation/using/email-deliverability.md).

@@ -612,6 +612,7 @@ index: n
        + [About schema reference](configuration/using/about-schema-reference.md)
        + [Schema structure](configuration/using/schema-structure.md)
        + [Database mapping](configuration/using/database-mapping.md)
+       + [Elements and attributes](configuration/using/elements-and-attributes.md)
   + Editing schemas {#editing-schemas}
        + [About schema edition](configuration/using/about-schema-edition.md)
        + [Data schemas](configuration/using/data-schemas.md)

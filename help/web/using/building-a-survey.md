@@ -28,11 +28,11 @@ Select the survey template ( **[!UICONTROL newSurvey]** by default).
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-The pages of the form are created using a special editor that lets you define and configure (text) input fields, selection fields (lists, checkboxes, etc.) and static elements (images, HTML content, etc.). They can be collected in "containers" and laid out according to requirements (see [Adding questions](https://helpx.adobe.com/campaign/standard/web/using/building-a-survey.html#adding-questions)).
+The pages of the form are created using a special editor that lets you define and configure (text) input fields, selection fields (lists, checkboxes, etc.) and static elements (images, HTML content, etc.). They can be collected in "containers" and laid out according to requirements (see [Adding questions](../../web/using/building-a-survey.md#adding-questions)).
 
 >[!NOTE]
 >
->For more on how to define content and create screen layouts for a Web form, refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html).
+>For more on how to define content and create screen layouts for a Web form, refer to [this section](../../web/using/about-web-forms.md).
 
 ## Adding fields {#adding-fields}
 
@@ -48,20 +48,20 @@ The fields in a form enable users to enter information and select options. For e
 
 When you add a field to a survey you need to select its type. The following options are available:
 
-1. **[!UICONTROL Answer a question]** : this option lets you declare a new field (known as 'archived field') to store answers. In this case, all values collected are saved, even when a participant fills in the form more than once. This storage mode is only available in **Surveys**. Refer to [Storing collected answers](https://helpx.adobe.com/campaign/standard/web/using/managing-answers.html#storing-collected-answers).
+1. **[!UICONTROL Answer a question]** : this option lets you declare a new field (known as 'archived field') to store answers. In this case, all values collected are saved, even when a participant fills in the form more than once. This storage mode is only available in **Surveys**. Refer to [Storing collected answers](../../web/using/managing-answers.md#storing-collected-answers).
 1. **[!UICONTROL Edit a recipient]** : this option lets you select a field in the database. In this case, user answers will be stored in this field. For each participant, only the last value saved is kept, and added to the profile data.
 1. **[!UICONTROL Add a variable]** : this option lets you create a setup so that information is not stored in the database. Local variables can be declared upstream. You can also add them directly when creating the field.
 1. **[!UICONTROL Import an existing question]** : this option lets you import existing questions created in other surveys.
 
    >[!NOTE]
    >
-   >Standard storage modes and field imports are detailed in [Storing collected answers](https://helpx.adobe.com/campaign/standard/web/using/managing-answers.html#storing-collected-answers).
+   >Standard storage modes and field imports are detailed in [Storing collected answers](../../web/using/managing-answers.md#storing-collected-answers).
 
 The nature of the field to add (drop-down list, text field, checkboxes, etc.) adapts to the storage mode selected. You can change it using the **[!UICONTROL Type]** field of the **[!UICONTROL General]** tab, but make sure to remain consistent with the data type.
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
-The various types of available fields are detailed in [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html).
+The various types of available fields are detailed in [this section](../../web/using/about-web-forms.md).
 
 ## Survey-specific elements {#survey-specific-elements}
 
@@ -92,12 +92,12 @@ In addition, the storage location for this input field must be a **[!UICONTROL M
 >[!CAUTION]
 >
 >* This functionality is only available for **Survey** type forms. 
->* This option isn't compatible with random question display. For more on this, refer to [Adding questions](https://helpx.adobe.com/campaign/standard/web/using/building-a-survey.html#adding-questions).
+>* This option isn't compatible with random question display. For more on this, refer to [Adding questions](../../web/using/building-a-survey.md#adding-questions).
 >
 
 ### Adding questions {#adding-questions}
 
-There are two types of containers: standard and question. Standard containers are used to configure page layout and conditional display in a page. They are detailed in [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html).
+There are two types of containers: standard and question. Standard containers are used to configure page layout and conditional display in a page. They are detailed in [this section](../../web/using/about-web-forms.md).
 
 Use a **Question** container to add a question to the page and to insert the possible answers below in the hierarchy. User responses to questions placed in this type of container can be analyzed in reports.
 
@@ -111,7 +111,7 @@ The label of the question is entered in the label field. In this case, the style
 
 >[!NOTE]
 >
->Refer to [this section](https://helpx.adobe.com/campaign/classic/web/using/about-web-forms.html) for more on using the HTML editor.
+>Refer to [this section](../../web/using/about-web-forms.md) for more on using the HTML editor.
 
 For example:
 

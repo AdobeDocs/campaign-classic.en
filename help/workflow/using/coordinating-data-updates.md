@@ -56,6 +56,6 @@ To build the workflow, follow the steps below:
 
 **Related topics:**
 
-* [Preventing simultaneous multiple executions](https://helpx.adobe.com/campaign/standard/workflow/using/executing-a-workflow.html#preventing-simultaneous-multiple-executions)
-* [Update Data activity](https://helpx.adobe.com/campaign/classic/workflow/using/update-data.html)
+* [Preventing simultaneous multiple executions](../../workflow/using/executing-a-workflow.md#preventing-simultaneous-multiple-executions)
+* [Update Data activity](../../workflow/using/update-data.md)
 

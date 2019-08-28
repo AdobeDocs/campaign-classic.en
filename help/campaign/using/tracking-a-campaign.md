@@ -22,10 +22,10 @@ Central entity operators can track campaign orders in the list of campaign packa
 
 This lets them:
 
-* [Filter packages](https://helpx.adobe.com/campaign/standard/campaign/using/tracking-a-campaign.html#filter-packages),
-* [Edit packages](https://helpx.adobe.com/campaign/standard/campaign/using/tracking-a-campaign.html#edit-packages),
-* [Cancel a package](https://helpx.adobe.com/campaign/standard/campaign/using/tracking-a-campaign.html#cancel-a-package),
-* [Reinitializing a package](https://helpx.adobe.com/campaign/standard/campaign/using/tracking-a-campaign.html#reinitializing-a-package).
+* [Filter packages](../../campaign/using/tracking-a-campaign.md#filter-packages),
+* [Edit packages](../../campaign/using/tracking-a-campaign.md#edit-packages),
+* [Cancel a package](../../campaign/using/tracking-a-campaign.md#cancel-a-package),
+* [Reinitializing a package](../../campaign/using/tracking-a-campaign.md#reinitializing-a-package).
 
 ## Filter packages {#filter-packages}
 

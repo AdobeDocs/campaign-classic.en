@@ -103,7 +103,7 @@ Updating data and merging collections lets you update the data contained in a re
 
 1. Select the collections to move to the primary record and the fields to update.
 
-   Enter the rules that apply to these once one or multiple secondary records are identified. To do this, you can use the Expression builder. For more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/platform/using/defining-filter-conditions.html#building-expressions). For example, by specifying that it is the most recently updated value out of all the different records that must be kept.
+   Enter the rules that apply to these once one or multiple secondary records are identified. To do this, you can use the Expression builder. For more on this, refer to this [section](../../platform/using/defining-filter-conditions.md#building-expressions). For example, by specifying that it is the most recently updated value out of all the different records that must be kept.
 
    Then enter the conditions to take into account for the rule.
 
@@ -119,7 +119,7 @@ Data for secondary records is associated with the main record if the defined rul
 
 ## Example: Update data following an enrichment {#example--update-data-following-an-enrichment}
 
-The [Step 2: Writing enriched data to the 'Purchases' table](https://helpx.adobe.com/campaign/standard/workflow/using/creating-a-summary-list.html#step-2--writing-enriched-data-to-the--purchases--table) section of the use case that details creating a recap list offers an example of a data update after an enrichment activity.
+The [Step 2: Writing enriched data to the 'Purchases' table](../../workflow/using/creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) section of the use case that details creating a recap list offers an example of a data update after an enrichment activity.
 
 ## Input parameters {#input-parameters}
 

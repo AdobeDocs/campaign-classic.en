@@ -57,7 +57,7 @@ Select the account(s) which you want to send tweets to.
 
 ### Selecting the target of the proof {#selecting-the-target-of-the-proof}
 
-The **[!UICONTROL Target of the proofs]** tab lets you define the Twitter account to use for test deliveries before the final delivery. We therefore recommend that you create a private Twitter account dedicated to sending proofs. For more on how to create a private Twitter account, refer to [Creating a test account on Twitter](https://helpx.adobe.com/campaign/standard/social/using/configuring-publishing-on-twitter.html#creating-a-test-account-on-twitter). The steps for selecting the proof target are the same as for selecting the main target. Refer to [Creating a test account on Twitter](https://helpx.adobe.com/campaign/standard/social/using/configuring-publishing-on-twitter.html#creating-a-test-account-on-twitter).
+The **[!UICONTROL Target of the proofs]** tab lets you define the Twitter account to use for test deliveries before the final delivery. We therefore recommend that you create a private Twitter account dedicated to sending proofs. For more on how to create a private Twitter account, refer to [Creating a test account on Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). The steps for selecting the proof target are the same as for selecting the main target. Refer to [Creating a test account on Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter).
 
 ![](assets/social_twitter_delivery_004.png)
 
@@ -84,13 +84,13 @@ The **[!UICONTROL Preview]** tab lets you view a rendering of the tweet.
 
 >[!NOTE]
 >
->The preview may differ slightly from the final tweet. We highly recommend sending a proof before final delivery to view an exact rendering of the tweet. Refer to [Sending the proof](https://helpx.adobe.com/campaign/standard/social/using/publishing-on-twitter.html#sending-the-proof).
+>The preview may differ slightly from the final tweet. We highly recommend sending a proof before final delivery to view an exact rendering of the tweet. Refer to [Sending the proof](../../social/using/publishing-on-twitter.md#sending-the-proof).
 
 ### Configuring tracking {#configuring-tracking}
 
 Tracking can be viewed in the delivery reports and in the **[!UICONTROL Edit > Tracking]** tab of the delivery and the service.
 
-Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/monitoring-a-delivery.html).
+Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](../../delivery/using/monitoring-a-delivery.md).
 
 >[!NOTE]
 >
@@ -102,9 +102,9 @@ Tracking configuration is the same as for an email delivery. For more on this, r
 
 ### Sending the proof {#sending-the-proof}
 
-We highly recommend sending a proof of your publication before the final delivery to get an exact rendering of the publication on a private Twitter test page. For more on creating a private Twitter account, refer to [Creating a test account on Twitter](https://helpx.adobe.com/campaign/standard/social/using/configuring-publishing-on-twitter.html#creating-a-test-account-on-twitter). The steps for selecting the proof target are detailed in [Selecting the target of the proof](https://helpx.adobe.com/campaign/standard/social/using/publishing-on-twitter.html#selecting-the-target-of-the-proof).
+We highly recommend sending a proof of your publication before the final delivery to get an exact rendering of the publication on a private Twitter test page. For more on creating a private Twitter account, refer to [Creating a test account on Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). The steps for selecting the proof target are detailed in [Selecting the target of the proof](../../social/using/publishing-on-twitter.md#selecting-the-target-of-the-proof).
 
-Proof delivery is identical to email deliveries. Refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#sending-a-proof).
+Proof delivery is identical to email deliveries. Refer to [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof).
 
 ### Sending the message {#sending-the-message}
 
@@ -126,13 +126,13 @@ Proof delivery is identical to email deliveries. Refer to [this section](https:/
 
 ### Operating principle {#operating-principle}
 
-The **[!UICONTROL Synchronize Twitter accounts]** workflow (refer to [Synchronizing Twitter accounts](https://helpx.adobe.com/campaign/standard/social/using/configuring-publishing-on-twitter.html#synchronizing-twitter-accounts)) recovers the list of Twitter subscribers so that you can send them direct messages. The recovered followers are stored in a specific table: the visitors table. To display the list of Twitter followers, go to the **[!UICONTROL Profiles and Targets > Visitors]** node.
+The **[!UICONTROL Synchronize Twitter accounts]** workflow (refer to [Synchronizing Twitter accounts](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)) recovers the list of Twitter subscribers so that you can send them direct messages. The recovered followers are stored in a specific table: the visitors table. To display the list of Twitter followers, go to the **[!UICONTROL Profiles and Targets > Visitors]** node.
 
 ![](assets/social_twitter_visitors_001.png)
 
 >[!CAUTION]
 >
->In order for the workflow to recover the list of Twitter followers, the **[!UICONTROL Synchronize Twitter accounts]** box must be checked in the Edit screen of the service linked to the account. For more on this, refer to: [Delegating write access to Adobe Campaign](https://helpx.adobe.com/campaign/standard/social/using/configuring-publishing-on-twitter.html#delegating-write-access-to-adobe-campaign)
+>In order for the workflow to recover the list of Twitter followers, the **[!UICONTROL Synchronize Twitter accounts]** box must be checked in the Edit screen of the service linked to the account. For more on this, refer to: [Delegating write access to Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign)
 
 For each follower, Adobe Campaign recovers the following information:
 
@@ -151,7 +151,7 @@ The following limitations are constraints which are inherent to Twitter.
 
 * The message may not exceed 140 characters.
 * HTML is not supported.
-* You cannot send more than 250 direct messages per day. To avoid exceeding this threshold, you can deliver in several waves. Deliveries in waves are configured like email deliveries. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#sending-using-multiple-waves).
+* You cannot send more than 250 direct messages per day. To avoid exceeding this threshold, you can deliver in several waves. Deliveries in waves are configured like email deliveries. For more on this, refer to [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-using-multiple-waves).
 
 ### Creating the delivery {#creating-the-delivery-}
 
@@ -179,15 +179,15 @@ Select the followers whom you want to send your direct message to.
 
       >[!CAUTION]
       >
-      >You cannot send more than 250 messages per day. If your Twitter account has more than 250 followers, we highly recommend delivering in waves. This involves the same process as email deliveries. Refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#sending-using-multiple-waves).
+      >You cannot send more than 250 messages per day. If your Twitter account has more than 250 followers, we highly recommend delivering in waves. This involves the same process as email deliveries. Refer to [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-using-multiple-waves).
 
-    * Select **[!UICONTROL Filter conditions]** to define a query and view its result. This option is the same as for email deliveries. Refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/defining-filter-conditions.html) for more information. 
+    * Select **[!UICONTROL Filter conditions]** to define a query and view its result. This option is the same as for email deliveries. Refer to [this section](../../platform/using/defining-filter-conditions.md) for more information. 
     
       ![](assets/social_twitter_delivery_018.png)
 
 ### Selecting the target of the proof {#selecting-the-target-of-the-proof-1}
 
-The **[!UICONTROL Target of the proofs]** tab lets you select the follower who will receive the proof of your direct message. The selection process is the same as for the main target. Refer to [Selecting the main target](https://helpx.adobe.com/campaign/standard/social/using/publishing-on-twitter.html#selecting-the-main-target).
+The **[!UICONTROL Target of the proofs]** tab lets you select the follower who will receive the proof of your direct message. The selection process is the same as for the main target. Refer to [Selecting the main target](../../social/using/publishing-on-twitter.md#selecting-the-main-target).
 
 ![](assets/social_twitter_delivery_020.png)
 
@@ -201,8 +201,8 @@ Enter the content of the tweet in the **[!UICONTROL Content]** tab.
 
 ![](assets/social_twitter_delivery_015.png)
 
-Personalization fields can be used the same way as for email deliveries, for instance to add the follower's name in the body of the message. Content personalization is detailed in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/about-personalization.html).
+Personalization fields can be used the same way as for email deliveries, for instance to add the follower's name in the body of the message. Content personalization is detailed in [this section](../../delivery/using/about-personalization.md).
 
 ![](assets/social_twitter_delivery_021.png)
 
-The following steps are the same as for sending a tweet to a Twitter account. Refer to [Publishing on your Twitter accounts](https://helpx.adobe.com/campaign/standard/social/using/publishing-on-twitter.html#publishing-on-your-twitter-accounts).
+The following steps are the same as for sending a tweet to a Twitter account. Refer to [Publishing on your Twitter accounts](../../social/using/publishing-on-twitter.md#publishing-on-your-twitter-accounts).

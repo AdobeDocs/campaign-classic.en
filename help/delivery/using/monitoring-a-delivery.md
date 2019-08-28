@@ -22,10 +22,10 @@ The **delivery dashboard** is key to monitor your deliveries and eventual issues
 
 **Related topics**
 
-* [Understanding delivery failures](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-delivery-failures.html)
-* [Understanding quarantine management](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-quarantine-management.html)
-* [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html)
-* [Getting started: Managing deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html)
+* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
+* [Understanding quarantine management](../../delivery/using/understanding-quarantine-management.md)
+* [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.md)
+* [Getting started: Managing deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md)
 
 ## Delivery dashboard {#delivery-dashboard}
 
@@ -37,9 +37,9 @@ Tab contents may no longer be changed once the delivery has been sent.
 
 ### Delivery summary {#delivery-summary}
 
-The **[!UICONTROL Summary]** tab contains the characteristics of the delivery: delivery status, channel used, information about the sender, subject, information concerning execution. For more on this, refer to [Number of messages sent](https://helpx.adobe.com/campaign/standard/delivery/using/monitoring-a-delivery.html#number-of-messages-sent).
+The **[!UICONTROL Summary]** tab contains the characteristics of the delivery: delivery status, channel used, information about the sender, subject, information concerning execution. For more on this, refer to [Number of messages sent](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent).
 
-The **[!UICONTROL reports]** link lets you look at a set of reports concerning the delivery action: general delivery report, detailed report, delivery report, distribution of failed messages, opening rate, clicks and transactions, etc. The contents of this tab can be configured according to your requirements. For more information, refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/reports-on-deliveries.html#delivery-reports).
+The **[!UICONTROL reports]** link lets you look at a set of reports concerning the delivery action: general delivery report, detailed report, delivery report, distribution of failed messages, opening rate, clicks and transactions, etc. The contents of this tab can be configured according to your requirements. For more information, refer to [this section](../../reporting/using/reports-on-deliveries.md#delivery-reports).
 
 ### Delivery logs and history {#delivery-logs-and-history}
 
@@ -49,11 +49,11 @@ For a delivery, you can display (for example) only recipients with a failed deli
 
 ![](assets/s_ncs_user_delivery_delivery_tab.png)
 
-Various statuses are listed on [this page](https://helpx.adobe.com/campaign/classic/delivery/using/monitoring-a-delivery.html#delivery-statuses).
+Various statuses are listed on [this page](../../delivery/using/monitoring-a-delivery.md#delivery-statuses).
 
 >[!NOTE]
 >
->The **[!UICONTROL Display the mirror page for this message...]** link lets you view the mirror page for the contents of the delivery selected from the list in a new window. The mirror page is available only for deliveries for which HTML content has been defined. For more on this, refer to [Generating the mirror page](https://helpx.adobe.com/campaign/standard/delivery/using/sending-messages.html#generating-the-mirror-page).
+>The **[!UICONTROL Display the mirror page for this message...]** link lets you view the mirror page for the contents of the delivery selected from the list in a new window. The mirror page is available only for deliveries for which HTML content has been defined. For more on this, refer to [Generating the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 ### Tracking logs {#tracking-logs}
 
@@ -63,9 +63,9 @@ The **[!UICONTROL Tracking]** tab lists the tracking history for this delivery. 
 >
 >If tracking isn't enabled for a delivery, this tab isn't displayed.
 
-Tracking configuration is performed at the appropriate stage in the delivery wizard. See [How to configure tracked links](https://helpx.adobe.com/campaign/standard/delivery/using/how-to-configure-tracked-links.html).
+Tracking configuration is performed at the appropriate stage in the delivery wizard. See [How to configure tracked links](../../delivery/using/how-to-configure-tracked-links.md).
 
-**[!UICONTROL Tracking]** data is interpreted in the delivery reports. See [this section](https://helpx.adobe.com/campaign/classic/reporting/using/reports-on-deliveries.html#delivery-reports).
+**[!UICONTROL Tracking]** data is interpreted in the delivery reports. See [this section](../../reporting/using/reports-on-deliveries.md#delivery-reports).
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 
@@ -73,13 +73,13 @@ Tracking configuration is performed at the appropriate stage in the delivery wiz
 
 The **[!UICONTROL Audit]** tab contains the delivery log and all the messages concerning the proofs. The **[!UICONTROL Refresh]** button lets you update the data. Use the **[!UICONTROL Filters]** button to define a filter on the data.
 
-Special icons enable you to identify errors or warnings. See [Analyzing the delivery](https://helpx.adobe.com/campaign/standard/delivery/using/key-steps-when-creating-a-delivery.html#analyzing-the-delivery).
+Special icons enable you to identify errors or warnings. See [Analyzing the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#analyzing-the-delivery).
 
 The **[!UICONTROL Proofs]** sub-tab lets you view the list of proofs that have been sent.
 
 ![](assets/s_ncs_user_delivery_log_tab.png)
 
-You can modify the information displayed in this window (and that of the **[!UICONTROL Delivery]** and **[!UICONTROL Tracking]** tabs) by selecting the columns to be displayed. To do this, click the **[!UICONTROL Configure list]** icon located in the lower right-hand corner. For more on configuring list display, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/adobe-campaign-workspace.html#configuring-lists).
+You can modify the information displayed in this window (and that of the **[!UICONTROL Delivery]** and **[!UICONTROL Tracking]** tabs) by selecting the columns to be displayed. To do this, click the **[!UICONTROL Configure list]** icon located in the lower right-hand corner. For more on configuring list display, refer to [this section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
 ### Delivery dashboard synchronization {#delivery-dashboard-synchronization}
 
@@ -88,11 +88,11 @@ From your delivery dashboard, you want to check the processed messages and deliv
 Some indicators or status can be incorrect or not up-to-date, this may be resolved with the following solutions:
 
 * If your delivery status is incorrect, check that all necessary approvals have been done for this delivery or that the **[!UICONTROL operationMgt]** and **[!UICONTROL deliveryMgt]** workflows are running without errors. This can also be due to the delivery using an affinity not configured on the sending instance.
-* If your delivery indicators are still at zero and if you are on a mid-sourcing configuration, check the **[!UICONTROL Mid-sourcing (delivery counters)]** technical workflow. Start it if its status is not **[!UICONTROL Started]** . You can then try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** . For more information on tracking indicators, refer to this [section](https://helpx.adobe.com/campaign/classic/reporting/using/reports-on-deliveries.html#tracking-indicators).
-* If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** to resynchronize. For more information on tracking indicators, refer to this [section](https://helpx.adobe.com/campaign/classic/reporting/using/reports-on-deliveries.html#tracking-indicators).
-* If your delivery counter is not up-to-date for mid-sourcing deployments, check that the **[!UICONTROL Mid-Sourcing (Delivery counters)]** technical workflow is running. For more on this, refer to this [page](https://helpx.adobe.com/campaign/classic/installation/using/mid-sourcing-deployment.html).
+* If your delivery indicators are still at zero and if you are on a mid-sourcing configuration, check the **[!UICONTROL Mid-sourcing (delivery counters)]** technical workflow. Start it if its status is not **[!UICONTROL Started]** . You can then try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** . For more information on tracking indicators, refer to this [section](../../reporting/using/reports-on-deliveries.md#tracking-indicators).
+* If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** to resynchronize. For more information on tracking indicators, refer to this [section](../../reporting/using/reports-on-deliveries.md#tracking-indicators).
+* If your delivery counter is not up-to-date for mid-sourcing deployments, check that the **[!UICONTROL Mid-Sourcing (Delivery counters)]** technical workflow is running. For more on this, refer to this [page](../../installation/using/mid-sourcing-deployment.md).
 
-You can also track your deliveries with different reports via the delivery dashboard. For more on this, refer to this [section](https://helpx.adobe.com/campaign/classic/reporting/using/reports-on-deliveries.html#accessing-existing-reports).
+You can also track your deliveries with different reports via the delivery dashboard. For more on this, refer to this [section](../../reporting/using/reports-on-deliveries.md#accessing-existing-reports).
 
 ## Performance issues {#performance-issues}
 
@@ -102,19 +102,19 @@ If delivery performances are bad, you can check:
 
 * **The size of the delivery**: Large deliveries can take longer to complete. MTA children are configured to handle a default batch size, which works for most instances, but need to be checked when deliveries are constantly slow.
 * **The target of the delivery**: Delivery performances ban be affected by soft bounce errors, which are handled according to the retry configuration. The greater the number of errors, the more retries needed. 
-* **The overall platform load**: When several large deliveries are being sent, the overall platform can be affected. You can also check IP reputation and deliverability issues. For more on this, refer to Adobe Campaign [Deliverability best practices guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/about-deliverability.html).
+* **The overall platform load**: When several large deliveries are being sent, the overall platform can be affected. You can also check IP reputation and deliverability issues. For more on this, refer to Adobe Campaign [Deliverability best practices guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) and to [this page](../../delivery/using/about-deliverability.md).
 
-Platform and database maintenance can also affect delivery sending performances. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/production/using/database-performances.html).
+Platform and database maintenance can also affect delivery sending performances. For more on this, refer to [this page](../../production/using/database-performances.md).
 
 ### Slow deliveries {#slow-deliveries}
 
 After clicking the **[!UICONTROL Send]** button, your delivery seems to take longer than usual. This may be caused by different elements:
 
-* Some email providers might have blacklisted your IP addresses. In this case, check your broadlogs and consult [this getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) .
-* Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) to learn about content guidelines.
+* Some email providers might have blacklisted your IP addresses. In this case, check your broadlogs and consult [this getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) .
+* Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.md) to learn about content guidelines.
 * Throttling might have occurred within the Adobe Campaign MTA. This is caused by:
 
-    * Messages pended ( **[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. For more information about this message, refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/technical-recommendations.html#quota-met). To learn more about MX rules, refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/technical-recommendations.html#mx-rules).
+    * Messages pended ( **[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. For more information about this message, refer to [this page](../../delivery/using/technical-recommendations.md#quota-met). To learn more about MX rules, refer to [this page](../../delivery/using/technical-recommendations.md#mx-rules).
     * Messages pended ( **[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential blacklisting.
 
 * A system issue can prevent servers from interacting together: this can slow down the whole sending process. Check the servers to ensure that there is no memory or resource issues which can impact Campaign in the process of getting the personalization data for example.
@@ -145,7 +145,7 @@ While sending a delivery, you may face the following status on your delivery das
   </tr> 
   <tr> 
    <td> Failed<br /> </td> 
-   <td> The delivery could not reach the recipient because of an invalid address or a full inbox for example. It can also be linked to an issue with personalization blocks since they can generate errors when the schemas do not match the delivery mapping. See <a href="https://helpx.adobe.com/campaign/standard/delivery/using/monitoring-a-delivery.html#failed-status" target="_blank">Failed status</a><br /> </td> 
+   <td> The delivery could not reach the recipient because of an invalid address or a full inbox for example. It can also be linked to an issue with personalization blocks since they can generate errors when the schemas do not match the delivery mapping. See <a href="../../delivery/using/monitoring-a-delivery.md#failed-status" target="_blank">Failed status</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Taken into account by the service provider<br /> </td> 
@@ -157,7 +157,7 @@ While sending a delivery, you may face the following status on your delivery das
   </tr> 
   <tr> 
    <td> Pending<br /> </td> 
-   <td> The delivery is ready to be sent and is going to be processed by the delivery server (MTA). See <a href="https://helpx.adobe.com/campaign/standard/delivery/using/monitoring-a-delivery.html#pending-status" target="_blank">Pending status</a>.<br /> </td> 
+   <td> The delivery is ready to be sent and is going to be processed by the delivery server (MTA). See <a href="../../delivery/using/monitoring-a-delivery.md#pending-status" target="_blank">Pending status</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Delivery canceled<br /> </td> 
@@ -174,13 +174,13 @@ While sending a delivery, you may face the following status on your delivery das
  </tbody> 
 </table>
 
-To learn how to optimize the deliverability of your Adobe Campaign emails, refer to Adobe Campaign [Deliverability best practices guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/about-deliverability.html).
+To learn how to optimize the deliverability of your Adobe Campaign emails, refer to Adobe Campaign [Deliverability best practices guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) and to [this page](../../delivery/using/about-deliverability.md).
 
 ### Pending status {#pending-status}
 
 After confirming your delivery, you can see that the status of your delivery is **[!UICONTROL Pending]** . This status means that the execution process is waiting on the availability of some resources.
 
-The **[!UICONTROL Pending]** status can first mean that your delivery has been scheduled and is pending until the given date. For more on this, refer to the [Delivery scheduling](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#scheduling-the-delivery-sending) section.
+The **[!UICONTROL Pending]** status can first mean that your delivery has been scheduled and is pending until the given date. For more on this, refer to the [Delivery scheduling](../../delivery/using/key-steps-when-creating-a-delivery.md#scheduling-the-delivery-sending) section.
 
 If your delivery is not being sent and its status remains **[!UICONTROL Pending]** , it can be the result of:
 
@@ -190,7 +190,7 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
 
 * 
 * 
-* The delivery may be using an affinity not configured on the sending tenant. In this case, check the configuration of the traffic management (IP affinity) and use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#personalizing-delivery-parameters).
+* The delivery may be using an affinity not configured on the sending tenant. In this case, check the configuration of the traffic management (IP affinity) and use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 * When the delivery preparation is pending, there can be too many campaigns running, which blocked the status update of the delivery. To solve this, go to **[!UICONTROL Options]** and increase the value of **[!UICONTROL NmsOperation_LimitConcurrency]** (default is 10). Do not run more campaigns than the value assigned to this specific option.
 
 ### Failed status {#failed-status}
@@ -207,23 +207,23 @@ Delivery logs are key to learn why a delivery failed. Here are possible errors t
 
   The cause is linked to performance issues. It means that the marketing instance spend too much time building data before sending it to the mid-sourcing server.
 
-  To solve this, we recommend performing a vacuum and reindex on the database. For more information on database maintenance, refer to [this section](https://helpx.adobe.com/campaign/classic/production/using/recommendations.html).
+  To solve this, we recommend performing a vacuum and reindex on the database. For more information on database maintenance, refer to [this section](../../production/using/recommendations.md).
 
-  You should also restart all workflows with a scheduled activity, and all workflows in failed status. Refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/scheduler.html).
+  You should also restart all workflows with a scheduled activity, and all workflows in failed status. Refer to [this section](../../workflow/using/scheduler.md).
 
 * When a delivery fails, the following error can appear in the delivery logs: **DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.**
 
   Usually, this error means that there is a personalization field or block within the email that has more than one values for the recipient. A personalization block is being used and it is fetching more than one record for a particular recipient.
 
-  To solve this, check the personalization data used, and then check the target for recipients that have more than one entry for any of those fields. You can also use a **[!UICONTROL Deduplication]** activity in the targeting workflow prior to the delivery activity to check there is only one personalization field at a time. For more information on deduplication, refer to [this page](https://helpx.adobe.com/campaign/classic/workflow/using/deduplication.html).
+  To solve this, check the personalization data used, and then check the target for recipients that have more than one entry for any of those fields. You can also use a **[!UICONTROL Deduplication]** activity in the targeting workflow prior to the delivery activity to check there is only one personalization field at a time. For more information on deduplication, refer to [this page](../../workflow/using/deduplication.md).
 
 * Some delivery can fail with an "Unreachable" error stating: "Inbound email bounce (rule 'Auto_replies' has matched this bounce). This means that the delivery succeeded but Adobe Campaign received an auto-reply from the recipient (e.g. an "Out of office" reply) that matched the 'Auto_replies' inbound email rules. The auto-reply email is ignored by Adobe Campaign, and the recipient's address will not be sent to quarantines.
 
 **Related topics:**
 
-* [Delivery logs and history](https://helpx.adobe.com/campaign/standard/delivery/using/monitoring-a-delivery.html#delivery-logs-and-history)
-* [Understanding delivery failures](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-delivery-failures.html)
-* [Delivery failure types and reasons](https://helpx.adobe.com/campaign/standard/delivery/using/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
+* [Delivery logs and history](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)
+* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
+* [Delivery failure types and reasons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)
 
 ## Number of messages sent {#number-of-messages-sent}
 

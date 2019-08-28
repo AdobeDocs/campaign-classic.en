@@ -39,7 +39,7 @@ Adobe Campaign is based on several processes executed on the server side which y
 
 >[!NOTE]
 >
->For more on the various Adobe Campaign processes, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/general-architecture.html#logical-application-layer).  
+>For more on the various Adobe Campaign processes, refer to [this section](../../installation/using/general-architecture.md#logical-application-layer).  
 >When using the Power Booster or Power Cluster type architecture, you must apply this process to all Power Booster/Cluster servers.
 
 If the new version involves an alteration of the database structure, we recommend restarting the servers in the following order:

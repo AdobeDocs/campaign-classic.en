@@ -22,16 +22,16 @@ snippet: y
 
 This section details the preliminary configurations steps required before installing Adobe Campaign.
 
-The technical and software configuration required for installing Adobe Campaign is detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+The technical and software configuration required for installing Adobe Campaign is detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
 
 As a reminder, the following components need to be installed and correctly configured:
 
-* Apache, refer to [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html),
-* Java JDK and OpenJDK, refer to [Java Development Kit - JDK](https://helpx.adobe.com/campaign/standard/installation/using/application-server.html#java-development-kit---jdk),
-* Libraries, refer to [Libraries](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-linux.html#libraries),
-* Database access layers, refer to [Database access layers](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-linux.html#database-access-layers),
-* LibreOffice, refer to [Installing LibreOffice for Debian](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-linux.html#installing-libreoffice-for-debian) and [Installing LibreOffice for CentOS](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-linux.html#installing-libreoffice-for-centos),
-* Fonts, refer to [Fonts for MTA statistics](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-linux.html#fonts-for-mta-statistics) and [Fonts for Japanese instances](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-linux.html#fonts-for-japanese-instances).
+* Apache, refer to [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md),
+* Java JDK and OpenJDK, refer to [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
+* Libraries, refer to [Libraries](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries),
+* Database access layers, refer to [Database access layers](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers),
+* LibreOffice, refer to [Installing LibreOffice for Debian](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#installing-libreoffice-for-debian) and [Installing LibreOffice for CentOS](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#installing-libreoffice-for-centos),
+* Fonts, refer to [Fonts for MTA statistics](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics) and [Fonts for Japanese instances](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-japanese-instances).
 
 >[!NOTE]
 >
@@ -166,9 +166,9 @@ The following configurations are necessary with CentOS:
 
 The access layers for the database engine you are using must be installed on your server and be accessible via the Adobe Campaign account. Versions and installation modes may vary depending on the database engine used.
 
-The supported pilot version are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+The supported pilot version are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
 
-Also check the general [Database](https://helpx.adobe.com/campaign/standard/installation/using/database.html) section.
+Also check the general [Database](../../installation/using/database.md) section.
 
 ### PostgreSQL {#postgresql}
 
@@ -184,7 +184,7 @@ You can obtain a Linux RPM package from the Oracle Technology Network.
 
 >[!NOTE]
 >
->If you have already installed the Oracle client but the global environment (for instance: /etc/profile) isn't properly configured, you can add missing information to the **nl6/customer.sh** script For more on this, refer to [Environment variables](https://helpx.adobe.com/campaign/standard/installation/using/installing-packages-with-linux.html#environment-variables).
+>If you have already installed the Oracle client but the global environment (for instance: /etc/profile) isn't properly configured, you can add missing information to the **nl6/customer.sh** script For more on this, refer to [Environment variables](../../installation/using/installing-packages-with-linux.md#environment-variables).
 
 **Troubleshooting and best practices**
 
@@ -214,7 +214,7 @@ Adobe Campaign installations for Linux must be carried out in the following sequ
 
 The installation process is described in this chapter. The installation steps are as follows:
 
-* Step 1: Installing the application server, refer to [Installing packages with Linux](https://helpx.adobe.com/campaign/standard/installation/using/installing-packages-with-linux.html).
+* Step 1: Installing the application server, refer to [Installing packages with Linux](../../installation/using/installing-packages-with-linux.md).
 * Step 2: Integrating with a Web server (optional, depending on the components deployed).
 
-Once the installation steps are complete, you need to configure the instances, the database and the server. For more on this, refer to [About initial configuration](https://helpx.adobe.com/campaign/standard/installation/using/about-initial-configuration.html).
+Once the installation steps are complete, you need to configure the instances, the database and the server. For more on this, refer to [About initial configuration](../../installation/using/about-initial-configuration.md).

@@ -22,7 +22,7 @@ LINE is an application for free instant messaging, voice and video calls, availa
 
 LINE is only available for on-premise or managed services installations.
 
-LINE can also be combined with the transactional message module to send real time messages on the LINE app installed in consumer mobile devices. For more on this, refer to this [page](https://helpx.adobe.com/campaign/classic/message-center/using/transactional-messaging-architecture.html#transactional-messaging-and-line).
+LINE can also be combined with the transactional message module to send real time messages on the LINE app installed in consumer mobile devices. For more on this, refer to this [page](../../message-center/using/transactional-messaging-architecture.md#transactional-messaging-and-line).
 
 ![](assets/line_message.png)
 
@@ -40,13 +40,13 @@ The steps for using the LINE channel are:
 
 >[!NOTE]
 >
->Before creating a LINE account and external account, you first need to install the LINE package on your instance. For more information on this, consult the [LINE](https://helpx.adobe.com/campaign/classic/installation/using/installing-campaign-packages.html#line-package) section in the Installation guide.
+>Before creating a LINE account and external account, you first need to install the LINE package on your instance. For more information on this, consult the [LINE](../../installation/using/installing-campaign-packages.md#line-package) section in the Installation guide.
 
 You must first create a LINE account, so that you can then link it to Adobe Campaign. Then, you can send LINE messages to the users that have added your LINE account in their mobile application. External accounts and LINE account can only be managed by the functional administrator of the platform.
 
 To create and configure a LINE account, see [https://developers.line.me/](https://developers.line.me/).
 
-To create and configure a LINE service, see [Managing subscriptions](https://helpx.adobe.com/campaign/standard/delivery/using/managing-subscriptions.html).
+To create and configure a LINE service, see [Managing subscriptions](../../delivery/using/managing-subscriptions.md).
 
 ![](assets/line_service.png)
 
@@ -81,14 +81,14 @@ To create a **LINE** delivery you have to follow these steps:
 
 >[!NOTE]
 >
->Global concepts on delivery creation are presented in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html).
+>Global concepts on delivery creation are presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md).
 
 1. From the **[!UICONTROL Campaigns]** tab, select **[!UICONTROL Deliveries]** then click the **[!UICONTROL Create]** button. 
 1. In the window that appears, select **[!UICONTROL LINE V2 delivery]** delivery template.
 
    ![](assets/line_message_01.png)
 
-1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#identifying-the-delivery).
+1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#identifying-the-delivery).
 1. Click **[!UICONTROL Continue]** to create your delivery.
 
 ## Defining the content {#defining-the-content}
@@ -106,7 +106,7 @@ A **Text message** LINE delivery is a message sent to recipients in text form.
 
 ![](assets/line_message_02.png)
 
-The configuration for this type of message is similar to the configuration of the **text** in an email. For more information, refer to this [page](https://helpx.adobe.com/campaign/classic/delivery/using/defining-the-email-content.html#message-content).
+The configuration for this type of message is similar to the configuration of the **text** in an email. For more information, refer to this [page](../../delivery/using/defining-the-email-content.md#message-content).
 
 ### Configuring an Image and link delivery {#configuring-an-image-and-link-delivery}
 
@@ -158,7 +158,7 @@ You can use:
 
 ## Selecting the target population {#selecting-the-target-population}
 
-Selecting recipients of a LINE delivery is similar to defining email delivery recipients. For more information, refer to [Identifying target populations](https://helpx.adobe.com/campaign/standard/delivery/using/identifying-target-populations.html).
+Selecting recipients of a LINE delivery is similar to defining email delivery recipients. For more information, refer to [Identifying target populations](../../delivery/using/identifying-target-populations.md).
 
 Targeting is carried out on **visitors**.
 
@@ -166,7 +166,7 @@ Targeting is carried out on **visitors**.
 
 When your delivery is created and configured correctly, you can send it to the target defined earlier.
 
-Sending LINE deliveries is similar to sending an email delivery. For more information on sending a delivery, refer to [Sending messages](https://helpx.adobe.com/campaign/standard/delivery/using/sending-messages.html).
+Sending LINE deliveries is similar to sending an email delivery. For more information on sending a delivery, refer to [Sending messages](../../delivery/using/sending-messages.md).
 
 ## Accessing reports {#accessing-reports}
 

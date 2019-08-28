@@ -30,7 +30,7 @@ You can import audiences/segments from Audience manager or People core service i
 1. In the window that opens, click **[!UICONTROL Select a shared audience]** to go to the list of shared audiences/segments available from the other Adobe Experience Cloud solutions.
 1. Select an audience and confirm. The audience's information is automatically completed.
 
-   Please note that to be able to import shared audience, you should be assigned the **[!UICONTROL Audience library]** product in the admin console and be an administrator in Audience Manager. For more on this, refer to the [Admin console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+   Please note that to be able to import shared audience, you should be assigned the **[!UICONTROL Audience library]** product in the admin console and be an administrator in Audience Manager. For more on this, refer to the [Admin console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.md).
 
    ![](assets/aam_import_audience_3.png)
 
@@ -47,13 +47,13 @@ The import process takes 24-36 hours to synchronize, when segments are imported 
 >[!NOTE]
 >
 >If you are importing audiences from Adobe Analytics to Adobe Campaign, these audiences need to be first shared in People Core Service or Audience Manager. This process takes 12-24 hours, which must be added to the 24-36 hours synchronization with Campaign.   
->In that specific case, audience sharing timeframe can be up to 60 hours. For more information on Adobe Analytics audience sharing in People Core service and Audience manager, refer to this [documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html).
+>In that specific case, audience sharing timeframe can be up to 60 hours. For more information on Adobe Analytics audience sharing in People Core service and Audience manager, refer to this [documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.md).
 
 The audience data is completely replaced every time it is synchronized. Only segments can be imported. Granular data including key-value pairs, traits and rules are not supported.
 
 ## Exporting an audience {#exporting-an-audience}
 
-You can export an audience from Adobe Campaign to Audience manager or People core service using a workflow. The processes for creating and using a workflow are detailed in [this document](https://helpx.adobe.com/campaign/classic/workflow/using/building-a-workflow.html). The exported audiences are saved as segments in People core service:
+You can export an audience from Adobe Campaign to Audience manager or People core service using a workflow. The processes for creating and using a workflow are detailed in [this document](../../workflow/using/building-a-workflow.md). The exported audiences are saved as segments in People core service:
 
 1. Create a new targeting workflow.
 1. Using the different activities available, target a set of recipients.
@@ -77,7 +77,7 @@ You can export an audience from Adobe Campaign to Audience manager or People cor
 
 The audience is then exported. The save audience activity has two outbound transitions. The main transition contains the recipients that were successfully exported. The additional transition contains the recipients that could not have been mapped with a visitor ID or declared ID.
 
-Synchronization between Adobe Campaign and People core service takes 24-36 hours. After this period, you will be able to find your new audience in People core service and reuse it in other Adobe Experience Cloud solutions. For more information on using an Adobe Campaign shared audience in Adobe People core service, refer to this [documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/t_audience_create.html).
+Synchronization between Adobe Campaign and People core service takes 24-36 hours. After this period, you will be able to find your new audience in People core service and reuse it in other Adobe Experience Cloud solutions. For more information on using an Adobe Campaign shared audience in Adobe People core service, refer to this [documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/t_audience_create.md).
 
 >[!NOTE]
 >

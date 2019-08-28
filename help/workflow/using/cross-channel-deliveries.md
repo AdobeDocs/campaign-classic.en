@@ -24,13 +24,13 @@ They let you create a delivery that is specific to a particular channel. You can
 
 The various channels available are:
 
-* [Email](https://helpx.adobe.com/campaign/classic/delivery/using/about-email-channel.html)
-* [Direct Mail](https://helpx.adobe.com/campaign/classic/delivery/using/about-direct-mail-channel.html)
-* [Mobile](https://helpx.adobe.com/campaign/classic/delivery/using/sms-channel.html)
-* [Twitter](https://helpx.adobe.com/campaign/classic/social/using/publishing-on-twitter.html)
-* [Facebook](https://helpx.adobe.com/campaign/classic/social/using/publishing-on-facebook.html)
-* [iOS](https://helpx.adobe.com/campaign/classic/delivery/using/creating-notifications.html#sending-notifications-on-ios)
-* [Android](https://helpx.adobe.com/campaign/classic/delivery/using/creating-notifications.html#sending-notifications-on-android)
+* [Email](../../delivery/using/about-email-channel.md)
+* [Direct Mail](../../delivery/using/about-direct-mail-channel.md)
+* [Mobile](../../delivery/using/sms-channel.md)
+* [Twitter](../../social/using/publishing-on-twitter.md)
+* [Facebook](../../social/using/publishing-on-facebook.md)
+* [iOS](../../delivery/using/creating-notifications.md#sending-notifications-on-ios)
+* [Android](../../delivery/using/creating-notifications.md#sending-notifications-on-android)
 
 You can specify a target for your delivery upstream of the workflow using the different targeting activities.
 
@@ -53,14 +53,14 @@ For example, here we will create a workflow to send an email or an SMS for push 
 1. Add a **[!UICONTROL Split]** activity to your workflow to divide recipients who have a mobile number and those who have an email address.
 1. In the **[!UICONTROL Delivery]** tab, select a delivery for each of your targets.
 
-   Create your delivery in the same way as with a classic delivery wizard by double-clicking the delivery activity in your workflow. For more on this, refer to this [page](https://helpx.adobe.com/campaign/classic/delivery/using/about-email-channel.html).
+   Create your delivery in the same way as with a classic delivery wizard by double-clicking the delivery activity in your workflow. For more on this, refer to this [page](../../delivery/using/about-email-channel.md).
 
    ![](assets/cross_channel_delivery_3.png)
 
 1. Add and configure a **[!UICONTROL Wait]** activity in order for the recipients not to receive too many deliveries at once.
 1. Add a **[!UICONTROL Split]** activity to divide subscribers of an iOS or Android mobile applications.
 
-   Select a service for each of the operating systems. For more on service creation, refer to this [page](https://helpx.adobe.com/campaign/classic/delivery/using/setting-up-mobile-app-channel.html#creating-the-service-and-collecting-subscriptions).
+   Select a service for each of the operating systems. For more on service creation, refer to this [page](../../delivery/using/setting-up-mobile-app-channel.md#creating-the-service-and-collecting-subscriptions).
 
    ![](assets/cross_channel_delivery_4.png)
 

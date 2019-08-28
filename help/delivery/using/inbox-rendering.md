@@ -34,7 +34,7 @@ The mobile, messaging and webmail clients available for **Inbox rendering** in A
 
 >[!NOTE]
 >
->Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#sending-a-proof).
+>Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof).
 
 ## About Litmus tokens {#about-litmus-tokens}
 
@@ -56,7 +56,7 @@ Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, ea
 >* For the same delivery, if you generate the Inbox rendering again, the number of available tokens is again decreased by the number of generated renderings.
 >
 
-The number of remaining available tokens is displayed in the **[!UICONTROL General summary]** of the [Inbox rendering report](https://helpx.adobe.com/campaign/standard/delivery/using/inbox-rendering.html#inbox-rendering-report).
+The number of remaining available tokens is displayed in the **[!UICONTROL General summary]** of the [Inbox rendering report](../../delivery/using/inbox-rendering.md#inbox-rendering-report).
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -71,14 +71,14 @@ Typically, the Inbox rendering feature is used to test the HTML framework of a n
 
 Once you have created your email delivery and defined its content as well as the targeted population, follow the steps below.
 
-For more on creating, designing and targeting a delivery, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/about-email-channel.html).
+For more on creating, designing and targeting a delivery, refer to [this section](../../delivery/using/about-email-channel.md).
 
 1. On the top bar of the delivery, click the **[!UICONTROL Inbox rendering]** button.
 1. Select **[!UICONTROL Analyze]** to start the capture process.
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/key-steps-when-creating-a-delivery.html#sending-a-proof).
+   A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof).
 
 1. After being sent, the proof appears in the delivery list. Double-click it.
 

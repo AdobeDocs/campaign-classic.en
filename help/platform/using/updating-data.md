@@ -22,7 +22,7 @@ The data linked to a recipient's profile can be updated manually or automaticall
 
 ## Setting up an automatic update {#setting-up-an-automatic-update}
 
-An automatic update can be configured via a workflow. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/update-data.html).
+An automatic update can be configured via a workflow. For more on this, refer to [this section](../../workflow/using/update-data.md).
 
 ## Performing a mass update {#performing-a-mass-update}
 
@@ -93,11 +93,11 @@ The content of a list can be exported. To configure and run the export:
 
    ![](assets/s_ncs_user_export_list_start.png)
 
-   For more on how to configure the export wizard, refer to [Export wizard](https://helpx.adobe.com/campaign/standard/platform/using/exporting-data.html#export-wizard).
+   For more on how to configure the export wizard, refer to [Export wizard](../../platform/using/exporting-data.md#export-wizard).
 
 ## Subscribing to a service {#subscribing-to-a-service}
 
-In most cases, recipients subscribe to a newsletter through a dedicated landing page, as explained in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/managing-subscriptions.html). However, the profiles of filtered recipients can be subscribed to a service (Newsletter or Viral service) manually. To do this:
+In most cases, recipients subscribe to a newsletter through a dedicated landing page, as explained in [this section](../../delivery/using/managing-subscriptions.md). However, the profiles of filtered recipients can be subscribed to a service (Newsletter or Viral service) manually. To do this:
 
 1. Select the recipients you want to subscribe and right-click. 
 1. Select **[!UICONTROL Actions > Subscribe selection to a service]** .
@@ -127,5 +127,5 @@ To check on the process, go to the **[!UICONTROL Subscriptions]** tab on the pro
 
 >[!NOTE]
 >
->For more on creating and configuring information services, refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/managing-subscriptions.html).
+>For more on creating and configuring information services, refer to [this page](../../delivery/using/managing-subscriptions.md).
 

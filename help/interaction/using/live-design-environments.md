@@ -33,11 +33,11 @@ By default, Interaction comes with a **[!UICONTROL Design]** environment and a *
 
 >[!NOTE]
 >
->To target another table (visitor table for anonymous offers or a specific recipient table), you need to use the target mapping wizard to create the environments. For more on this, refer to [Creating an offer environment](https://helpx.adobe.com/campaign/standard/interaction/using/live-design-environments.html#creating-an-offer-environment).
+>To target another table (visitor table for anonymous offers or a specific recipient table), you need to use the target mapping wizard to create the environments. For more on this, refer to [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
 ![](assets/offer_environments_overview_002.png)
 
-Offer managers and the delivery managers have access to different views of the environment. Delivery managers can only view the **[!UICONTROL Live]** offer environment and use offers to deliver them. Offer managers can view and alter the **[!UICONTROL Design]** environment and view the **[!UICONTROL Live]** environment. For more on this, refer to [Operator profiles](https://helpx.adobe.com/campaign/standard/interaction/using/operator-profiles.html).
+Offer managers and the delivery managers have access to different views of the environment. Delivery managers can only view the **[!UICONTROL Live]** offer environment and use offers to deliver them. Offer managers can view and alter the **[!UICONTROL Design]** environment and view the **[!UICONTROL Live]** environment. For more on this, refer to [Operator profiles](../../interaction/using/operator-profiles.md).
 
 ## Creating an offer environment {#creating-an-offer-environment}
 
@@ -61,11 +61,11 @@ By default, Interaction comes with a pre-configured environment to target the re
 
    This option lets you activate anonymous interaction specific functions, particularly when configuring environment offer spaces. You can also configure options that allow you to switch from an "identified" environment to an "anonymous" environment.
 
-   For example, you can link a recipient environment offer space (identified contact) with an offer space that matches a visitor environment (unidentified contact). In this way, different offers will be made available to the contact depending on whether s/he is identified or not. For more on this, refer to [Creating offer spaces](https://helpx.adobe.com/campaign/standard/interaction/using/creating-offer-spaces.html).
+   For example, you can link a recipient environment offer space (identified contact) with an offer space that matches a visitor environment (unidentified contact). In this way, different offers will be made available to the contact depending on whether s/he is identified or not. For more on this, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
 
    ![](assets/offer_env_anonymous_003.png)
 
 >[!NOTE]
 >
->For more information on anonymous interactions on an inbound channel, refer to [Anonymous interactions](https://helpx.adobe.com/campaign/standard/interaction/using/anonymous-interactions.html).
+>For more information on anonymous interactions on an inbound channel, refer to [Anonymous interactions](../../interaction/using/anonymous-interactions.md).
 

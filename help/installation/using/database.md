@@ -22,7 +22,7 @@ The database server can run on any given operating system regardless of the oper
 
 The operating system of the database server is not important so long as connectivity with the different components of Adobe Campaign is available.
 
-Also check the [Database access layers](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-linux.html#database-access-layers) section.
+Also check the [Database access layers](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) section.
 
 ## Microsoft SQL Server {#microsoft-sql-server}
 
@@ -79,7 +79,7 @@ sqlplus
 [login] [password]
 ```
 
-You can also refer to [Oracle Client in Linux](https://helpx.adobe.com/campaign/standard/installation/using/installing-packages-with-linux.html#oracle-client-in-linux).
+You can also refer to [Oracle Client in Linux](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux).
 
 ## PostgresSQL {#postgressql}
 

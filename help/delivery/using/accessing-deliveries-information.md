@@ -22,11 +22,11 @@ snippet: y
 
 To access the list of deliveries, go to the **[!UICONTROL Campaigns]** universe and click the **[!UICONTROL Deliveries]** link.
 
-If you use [the Explorer view](https://helpx.adobe.com/campaign/classic/platform/using/adobe-campaign-workspace.html#about-adobe-campaign-explorer), you can access all deliveries via the **[!UICONTROL Campaign management > Deliveries]** node in the tree.
+If you use [the Explorer view](../../platform/using/adobe-campaign-workspace.md#about-adobe-campaign-explorer), you can access all deliveries via the **[!UICONTROL Campaign management > Deliveries]** node in the tree.
 
 >[!NOTE]
 >
->Adobe Campaign workspace is presented in [this section](https://helpx.adobe.com/campaign/classic/platform/using/adobe-campaign-workspace.html).
+>Adobe Campaign workspace is presented in [this section](../../platform/using/adobe-campaign-workspace.md).
 
 This page lets you access an overall view of your deliveries: it displays all the deliveries in your database. You can view their status, success rate, and modification dates.
 
@@ -34,7 +34,7 @@ This page lets you access an overall view of your deliveries: it displays all th
 
 >[!NOTE]
 >
->Information filtering is presented in [this section](https://helpx.adobe.com/campaign/classic/platform/using/filtering-options.html).
+>Information filtering is presented in [this section](../../platform/using/filtering-options.md).
 
 The delivery wizard lets you configure your deliveries, launch the approval process, and send. The content of the wizard depends on the communication channel (email, mobile, push, direct mail) and the operator rights.
 

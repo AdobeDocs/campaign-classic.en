@@ -32,7 +32,7 @@ The **[!UICONTROL Back]** link at the top of the screen takes you back to the li
 
 ![](assets/reporting_back_button.png)
 
-Other possible actions on a report being edited are detailed in [this page](https://helpx.adobe.com/campaign/classic/reporting/using/actions-on-reports.html).
+Other possible actions on a report being edited are detailed in [this page](../../reporting/using/actions-on-reports.md).
 
 Reports that are specific to a campaign or a delivery are accessible via their respective dashboards.
 

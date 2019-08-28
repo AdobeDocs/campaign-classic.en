@@ -18,7 +18,7 @@ snippet: y
 
 # Designing queries{#designing-queries}
 
-The sections below present use case targeting recipients through the **[!UICONTROL Query]** activity. For more on how to use this activity, refer to the [dedicated section](https://helpx.adobe.com/campaign/classic/workflow/using/query.html).
+The sections below present use case targeting recipients through the **[!UICONTROL Query]** activity. For more on how to use this activity, refer to the [dedicated section](../../workflow/using/query.md).
 
 ## Querying the recipient table {#querying-the-recipient-table}
 
@@ -386,7 +386,7 @@ To create this example, apply the following steps:
 
 1. In the **[!UICONTROL Data to extract]** window, select the **[!UICONTROL Email domain]** and **[!UICONTROL Primary key]** fields. Run a count on the **[!UICONTROL Primary key]** field.
 
-   For more on primary key counts, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/defining-filter-conditions.html#building-expressions).
+   For more on primary key counts, refer to [this section](../../platform/using/defining-filter-conditions.md#building-expressions).
 
 1. Check the **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** box.
 
@@ -564,7 +564,7 @@ The filters available in Adobe Campaign are defined via filtering conditions whi
 
 >[!NOTE]
 >
->For more on creating filters, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/filtering-options.html).
+>For more on creating filters, refer to [this section](../../platform/using/filtering-options.md).
 
 The **[!UICONTROL Administration > Configuration > Predefined filters]** node contains all the filters used in the lists and overviews.
 

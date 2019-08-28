@@ -51,13 +51,13 @@ There are four types of links:
 
   This option is configured in the **[!UICONTROL Reconciliation and deduplication]** tab that can be accessed via the **[!UICONTROL Edit additional data]** link of the **[!UICONTROL Enrichment]** activity.
 
-The [Enriching data](https://helpx.adobe.com/campaign/standard/workflow/using/enriching-data.html) and [Creating a summary list](https://helpx.adobe.com/campaign/standard/workflow/using/creating-a-summary-list.html) use cases detail the operating of Enrichment activities in their context.
+The [Enriching data](../../workflow/using/enriching-data.md) and [Creating a summary list](../../workflow/using/creating-a-summary-list.md) use cases detail the operating of Enrichment activities in their context.
 
 ## Adding information {#adding-information}
 
 Use the **[!UICONTROL Enrichment]** activity to add columns to a work table: this activity can be used as a complement to a query activity.
 
-The configuration of additional columns is detailed in [Adding data](https://helpx.adobe.com/campaign/standard/workflow/using/query.html#adding-data).
+The configuration of additional columns is detailed in [Adding data](../../workflow/using/query.md#adding-data).
 
 The **[!UICONTROL Primary set]** field lets you select the inbound transition: the data of this activity's worktable will be enriched.
 
@@ -150,13 +150,13 @@ If several join conditions are specified, they must ALL be verified so that the 
 
 The enrichment activity lets you add offers or links to offers for delivery recipients.
 
-For more information on the enrichment activity, refer to this [section](https://helpx.adobe.com/campaign/classic/workflow/using/enrichment.html).
+For more information on the enrichment activity, refer to this [section](../../workflow/using/enrichment.md).
 
 For example, you can enrich the data for a recipient query before a delivery.
 
 ![](assets/int_enrichment_offer1.png)
 
-After configuring your query (refer to this [section](https://helpx.adobe.com/campaign/classic/workflow/using/query.html)):
+After configuring your query (refer to this [section](../../workflow/using/query.md)):
 
 1. Add and open an enrichment activity.
 1. In the **[!UICONTROL Enrichment]** tab, select **[!UICONTROL Add data]** .
@@ -175,11 +175,11 @@ After configuring your query (refer to this [section](https://helpx.adobe.com/ca
     
       ![](assets/int_enrichment_offer4.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](https://helpx.adobe.com/campaign/standard/workflow/using/cross-channel-deliveries.html).
+1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](../../workflow/using/cross-channel-deliveries.md).
 
    The number of propositions available for the preview depends on the configuration carried out in the enrichment activity rather than any possible configuration carried out directly in the delivery.
 
-To specify offer propositions, you can also choose to reference a link to an offer. For more on this, refer to the following section [Referencing a link to an offer](https://helpx.adobe.com/campaign/standard/workflow/using/enrichment.html#referencing-a-link-to-an-offer).
+To specify offer propositions, you can also choose to reference a link to an offer. For more on this, refer to the following section [Referencing a link to an offer](../../workflow/using/enrichment.md#referencing-a-link-to-an-offer).
 
 ## Referencing a link to an offer {#referencing-a-link-to-an-offer}
 
@@ -197,7 +197,7 @@ To do this:
 
    ![](assets/int_enrichment_link2.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](https://helpx.adobe.com/campaign/standard/workflow/using/cross-channel-deliveries.html).
+1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](../../workflow/using/cross-channel-deliveries.md).
 
    >[!NOTE]
    >
@@ -211,7 +211,7 @@ The **[!UICONTROL Offer engine]** activity does store this information by defaul
 
 However, you can store this information as follows:
 
-1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. Refer to this [section](https://helpx.adobe.com/campaign/classic/interaction/using/integrating-an-offer-via-a-workflow.html#specifying-an-offer-or-a-call-to-the-offer-engine).
+1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. Refer to this [section](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
 1. In the activity's main window, select **[!UICONTROL Edit additional data...]** .
 
    ![](assets/ita_enrichment_rankweight_1.png)

@@ -32,11 +32,11 @@ Two types of lists are available in Adobe Campaign:
 
 * **[!UICONTROL Group]** type: The **[!UICONTROL Group]** type lists belong to a **static** list of people selected according to specific criteria. The list is like a snapshot of a set of profiles. Please note that it is not updated automatically in the event of profiles being added to the database.
 
-  For more information on how to create a **[!UICONTROL Group]** type list, refer to this [page](https://helpx.adobe.com/campaign/classic/platform/using/creating-and-managing-lists.html#creating-a-profile-list-from-a-group).
+  For more information on how to create a **[!UICONTROL Group]** type list, refer to this [page](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group).
 
 * **[!UICONTROL List]** type: The **[!UICONTROL List]** type lists allows you to use workflows to create and manage lists. These will be specific lists resulting from data imports, that can be updated via the dedicated **[!UICONTROL List update]** workflow activity.
 
-  Unlike the **[!UICONTROL Group]** type list, this type list can be automatically updated with a **[!UICONTROL Scheduler]** activity. Note that For an example on how to create **[!UICONTROL List]** type lists, refer to [this page](https://helpx.adobe.com/campaign/classic/workflow/using/list-update.html).
+  Unlike the **[!UICONTROL Group]** type list, this type list can be automatically updated with a **[!UICONTROL Scheduler]** activity. Note that For an example on how to create **[!UICONTROL List]** type lists, refer to [this page](../../workflow/using/list-update.md).
 
 ## Creating a profile list from a group {#creating-a-profile-list-from-a-group}
 
@@ -44,7 +44,7 @@ Two types of lists are available in Adobe Campaign:
 
 >[!NOTE]
 >
->To create lists containing other types of data, you must run a workflow. For example, by using a query on the visitor table then updating the list, you can create a visitor list. For more information on workflows, refer to [this section](https://helpx.adobe.com/campaign/classic/workflow/using/about-workflows.html).
+>To create lists containing other types of data, you must run a workflow. For example, by using a query on the visitor table then updating the list, you can create a visitor list. For more information on workflows, refer to [this section](../../workflow/using/about-workflows.md).
 
 To create a new **[!UICONTROL Group]** type list, apply the following steps:
 
@@ -70,7 +70,7 @@ You can create new profiles directly from the 'add profiles' window by clicking 
 
 ![](assets/s_ncs_user_new_recipient_from_group.png)
 
-The profile list can be configured just like other lists. See [Configuring lists](https://helpx.adobe.com/campaign/standard/platform/using/adobe-campaign-workspace.html#configuring-lists).
+The profile list can be configured just like other lists. See [Configuring lists](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
 ## Linking data to a list {#linking-data-to-a-list}
 

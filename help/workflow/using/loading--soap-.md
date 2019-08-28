@@ -44,7 +44,7 @@ Operation is as follows:
 
    If you wish to update the example, select **[!UICONTROL Re-analyze the example]** .
 
-   You can also personalize the format of column data via the **[!UICONTROL Advanced parameters]** link. For more on formatting imported data, refer to this [section](https://helpx.adobe.com/campaign/classic/platform/using/importing-data.html#import-wizard).
+   You can also personalize the format of column data via the **[!UICONTROL Advanced parameters]** link. For more on formatting imported data, refer to this [section](../../platform/using/importing-data.md#import-wizard).
 
 1. You can use the line number as an identifier and/or specify that the SOAP call returns several elements.
 1. Enter the following tab scripts according to their function:

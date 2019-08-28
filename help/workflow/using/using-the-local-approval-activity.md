@@ -54,7 +54,7 @@ The main steps of the local approval process are:
 
 The data distribution template lets you limit the population resulting from targeting based on data grouping while enabling you to assign each value to a local supervisor. In this example, we have defined the **[!UICONTROL Email address domain]** field as a distribution field and assigned a domain to each local supervisor
 
-For more on creating a data distribution template, refer to [Limiting the number of subset records per data distribution](https://helpx.adobe.com/campaign/standard/workflow/using/split.html#limiting-the-number-of-subset-records-per-data-distribution).
+For more on creating a data distribution template, refer to [Limiting the number of subset records per data distribution](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 1. To create the data distribution template, go to the **[!UICONTROL Resources > Campaign management > Data distribution]** node and click **[!UICONTROL New]** .
 
@@ -109,7 +109,7 @@ The following activities were added:
 
 Upstream targeting is made up of two queries, one intersection and one split. The population resulting from targeting can be limited using a **[!UICONTROL Split]** activity using a data distribution template.
 
-For more on configuring a split activity, refer to [Split](https://helpx.adobe.com/campaign/standard/workflow/using/split.html). The creation of a data distribution template is detailed in [Limiting the number of subset records per data distribution](https://helpx.adobe.com/campaign/standard/workflow/using/split.html#limiting-the-number-of-subset-records-per-data-distribution).
+For more on configuring a split activity, refer to [Split](../../workflow/using/split.md). The creation of a data distribution template is detailed in [Limiting the number of subset records per data distribution](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 If you do not want to limit the population from the query, you do not have to use the **[!UICONTROL Query]** , **[!UICONTROL Intersection]** , and **[!UICONTROL Split]** activities. In this case, complete the data distribution template in the first **[!UICONTROL Local approval]** activity.
 
@@ -125,7 +125,7 @@ If you do not want to limit the population from the query, you do not have to us
 
    ![](assets/local_validation_split_2.png)
 
-1. Select the **[!UICONTROL By data distribution]** option, select the distribution template created previously (refer to [Step 1: Creating the data distribution template](https://helpx.adobe.com/campaign/standard/workflow/using/using-the-local-approval-activity.html#step-1--creating-the-data-distribution-template-)) and click **[!UICONTROL Finish]** .
+1. Select the **[!UICONTROL By data distribution]** option, select the distribution template created previously (refer to [Step 1: Creating the data distribution template](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-)) and click **[!UICONTROL Finish]** .
 
    ![](assets/local_validation_split_3.png)
 
@@ -137,7 +137,7 @@ In the distribution template, we have chosen to limit the population to 10% per 
 
 The **[!UICONTROL Local approval]** activity lets you send a notification to each local supervisor.
 
-For more on configuring the **[!UICONTROL Local approval]** activity, refer to [Local approval](https://helpx.adobe.com/campaign/standard/workflow/using/local-approval.html).
+For more on configuring the **[!UICONTROL Local approval]** activity, refer to [Local approval](../../workflow/using/local-approval.md).
 
 ![](assets/local_validation_workflow_2.png)
 

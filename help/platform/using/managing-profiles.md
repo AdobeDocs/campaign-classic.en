@@ -28,7 +28,7 @@ Each node coincides with a folder. The data from each folder must be considered 
 
 >[!NOTE]
 >
->To display the list of all recipients in the database, you must create a view. Refer to [Folders and views](https://helpx.adobe.com/campaign/standard/platform/using/access-management.html#folders-and-views).
+>To display the list of all recipients in the database, you must create a view. Refer to [Folders and views](../../platform/using/access-management.md#folders-and-views).
 
 ## Moving recipients {#moving-recipients}
 

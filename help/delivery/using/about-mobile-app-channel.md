@@ -20,7 +20,7 @@ snippet: y
 
 >[!CAUTION]
 >
->This document details the process for integrating your mobile application with the Adobe Campaign platform. It does not provide information on how to create the mobile application or how to configure it for managing notifications. If you would like further information on this, refer to the official Apple ( [https://developer.apple.com/](https://developer.apple.com/)) and Android ( [https://developer.android.com/index.html](https://developer.android.com/index.html)) documentation.
+>This document details the process for integrating your mobile application with the Adobe Campaign platform. It does not provide information on how to create the mobile application or how to configure it for managing notifications. If you would like further information on this, refer to the official Apple ( [https://developer.apple.com/](https://developer.apple.com/)) and Android ( [https://developer.android.com/index.md](https://developer.android.com/index.md)) documentation.
 
 The **Mobile App Channel** lets you use the Adobe Campaign platform to send personalized notifications to iOS and Android terminals via apps. Two delivery channels are available:
 
@@ -51,6 +51,6 @@ You can define the application behavior for when the user activates the notifica
 >* Warning: in some countries, the law requires that you inform users of your collected data type mobile applications and the purpose of their processing. You must check the legislation.
 >
 
-The **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) workflow updates notification unsubscriptions on mobile devices. For more information on this workflow, refer to the [Workflows guide](https://helpx.adobe.com/campaign/classic/workflow/using/mobile-app-channel.html).
+The **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) workflow updates notification unsubscriptions on mobile devices. For more information on this workflow, refer to the [Workflows guide](../../workflow/using/mobile-app-channel.md).
 
-Adobe Campaign is compatible with both binary and HTTP/2 APNS. For more details on the configuration steps, refer to the [Connectors](https://helpx.adobe.com/campaign/standard/delivery/using/setting-up-mobile-app-channel.html#connectors) section.
+Adobe Campaign is compatible with both binary and HTTP/2 APNS. For more details on the configuration steps, refer to the [Connectors](../../delivery/using/setting-up-mobile-app-channel.md#connectors) section.

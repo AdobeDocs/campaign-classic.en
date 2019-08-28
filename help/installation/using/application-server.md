@@ -28,7 +28,7 @@ You must first install a JDK on the computers on which you wish to run the Adobe
 
 The application has been approved for the Java Development Kit (JDK) developed by Oracle as well as for **OpenJDK**.
 
-The supported versions are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+The supported versions are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ The supported versions are detailed in the [Compatibility matrix](https://helpx.
 >When installing, you are not required to perform the integration with the Web browsers.  
 >On a machine which only executes delivery agents (**nlserver mta** process) or the workflow server (**nlserver wfserver** process), installing a JDK isn't necessary.
 
-To download Java JDK, connect to: [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://java.sun.com/). **Warning: you must download a JDK, not a JRE.**
+To download Java JDK, connect to: [https://www.oracle.com/technetwork/java/javase/downloads/index.md](https://java.sun.com/). **Warning: you must download a JDK, not a JRE.**
 
 >[!CAUTION]
 >
@@ -82,7 +82,7 @@ Adobe Campaign lets you export platform reports in Microsoft Excel and Adobe PDF
 
 >[!NOTE]
 >
->For Linux, you will need to add fonts. For more on this, refer to [Fonts for MTA statistics](https://helpx.adobe.com/campaign/standard/installation/using/prerequisites-of-campaign-installation-in-linux.html#fonts-for-mta-statistics).
+>For Linux, you will need to add fonts. For more on this, refer to [Fonts for MTA statistics](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics).
 
 ## SpamAssassin {#spamassassin}
 
@@ -94,4 +94,4 @@ The minimum supported versions are: **3.2.5** and **3.3.2**.
 
 SpamAssassin requires a HTTP internet access (tcp/80).
 
-Installation and configuration stages for SpamAssassin are presented in [Configuring SpamAssassin](https://helpx.adobe.com/campaign/standard/installation/using/configuring-spamassassin.html).
+Installation and configuration stages for SpamAssassin are presented in [Configuring SpamAssassin](../../installation/using/configuring-spamassassin.md).

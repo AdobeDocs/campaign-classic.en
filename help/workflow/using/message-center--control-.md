@@ -18,9 +18,9 @@ snippet: y
 
 # Message Center (Control){#message-center-control}
 
-The workflow detailed below is scheduled to run every hour. It is installed with the **Message Center - Control** module by default. For more on this module, refer to this [section](https://helpx.adobe.com/campaign/classic/message-center/using/about-transactional-messaging.html).
+The workflow detailed below is scheduled to run every hour. It is installed with the **Message Center - Control** module by default. For more on this module, refer to this [section](../../message-center/using/about-transactional-messaging.md).
 
-To know more about how to configure technical workflows related to the Message Center module, refer to [this page](https://helpx.adobe.com/campaign/classic/message-center/using/technical-workflows.html). 
+To know more about how to configure technical workflows related to the Message Center module, refer to [this page](../../message-center/using/technical-workflows.md). 
 
 <table> 
  <tbody> 

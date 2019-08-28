@@ -38,25 +38,25 @@ In the context of Adobe Campaign, the following concepts must be defined:
 
   A task corresponds to an action to be carried out in the context of a campaign. A task is assigned to a group or person. A child task can be dependent on a parent task, meaning that the parent task will not be performed until all child tasks are complete. Examples of tasks include: referencing a website, a budget review, a brief, etc.
 
-  For more on this, refer to [Creating and managing tasks](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html).
+  For more on this, refer to [Creating and managing tasks](../../campaign/using/creating-and-managing-tasks.md).
 
 * Marketing resources
 
   Adobe Campaign lets you track the progress of collaborative marketing projects such as communication media, action plans, newsletters, etc. The creation and approval cycle of these marketing resources can be tracked from the resource dashboard until their publication.
 
-  For more on this, refer to [Managing marketing resources](https://helpx.adobe.com/campaign/standard/campaign/using/managing-marketing-resources.html).
+  For more on this, refer to [Managing marketing resources](../../campaign/using/managing-marketing-resources.md).
 
 ## User-friendliness {#user-friendliness}
 
 >[!NOTE]
 >
->For more on the overall Adobe Campaign workspace, refer to [this section](https://helpx.adobe.com/campaign/classic/platform/using/adobe-campaign-workspace.html).  
->All functionalities linked to deliveries and profile management are detailed in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/communication-channels.html).  
->All campaign related functionalities are detailed in [Accessing marketing campaigns](https://helpx.adobe.com/campaign/standard/campaign/using/accessing-marketing-campaigns.html).
+>For more on the overall Adobe Campaign workspace, refer to [this section](../../platform/using/adobe-campaign-workspace.md).  
+>All functionalities linked to deliveries and profile management are detailed in [this section](../../delivery/using/communication-channels.md).  
+>All campaign related functionalities are detailed in [Accessing marketing campaigns](../../campaign/using/accessing-marketing-campaigns.md).
 
 Additionally, plans and programs in Adobe Campaign offer extra functionalities:
 
-* Budget management. For more on this, refer to [Controlling costs](https://helpx.adobe.com/campaign/standard/campaign/using/controlling-costs.html),
-* Task management. For more on this, refer to [Creating and managing tasks](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html),
-* Marketing resource management. For more on this, refer to [Managing marketing resources](https://helpx.adobe.com/campaign/standard/campaign/using/managing-marketing-resources.html).
+* Budget management. For more on this, refer to [Controlling costs](../../campaign/using/controlling-costs.md),
+* Task management. For more on this, refer to [Creating and managing tasks](../../campaign/using/creating-and-managing-tasks.md),
+* Marketing resource management. For more on this, refer to [Managing marketing resources](../../campaign/using/managing-marketing-resources.md).
 

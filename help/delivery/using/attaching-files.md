@@ -27,7 +27,7 @@ You can attach one or more files to an email delivery. There are two possible ca
 
 >[!NOTE]
 >
->This type of configuration is generally carried out in the delivery templates. For more on this, refer to [About templates](https://helpx.adobe.com/campaign/standard/delivery/using/about-templates.html).
+>This type of configuration is generally carried out in the delivery templates. For more on this, refer to [About templates](../../delivery/using/about-templates.md).
 
 ## Attaching a local file {#attaching-a-local-file}
 
@@ -45,7 +45,7 @@ Once the document is selected, it is immediately uploaded onto the server to be 
 
 >[!NOTE]
 >
->For more on this, refer to [Adding attachments](https://helpx.adobe.com/campaign/standard/delivery/using/defining-the-email-content.html#adding-attachments).
+>For more on this, refer to [Adding attachments](../../delivery/using/defining-the-email-content.md#adding-attachments).
 
 ## Creating a calculated attachment {#creating-a-calculated-attachment}
 
@@ -93,7 +93,7 @@ For this type of attachment, apply the following configuration steps:
 
    >[!NOTE]
    >
-   >The source file must be created in LibreOffice. The instance must be configured in keeping with the prerequisites detailed in [this section](https://helpx.adobe.com/campaign/classic/installation/using/before-starting.html).
+   >The source file must be created in LibreOffice. The instance must be configured in keeping with the prerequisites detailed in [this section](../../installation/using/before-starting.md).
 
 1. Specify the label if necessary. 
 1. Select **[!UICONTROL Upload file on the server]** , and then click **[!UICONTROL Update on server]** to start the transfer.

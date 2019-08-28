@@ -26,7 +26,7 @@ Tasks can be created, viewed, and monitored from the list of tasks or the campai
 
 Tasks are attached to campaign and can have dependencies, i.e. associated tasks. Each task has a status, priority, estimated load, and related costs.
 
-All the tasks are grouped in a list accessible via the **Campaigns** universe. For more on this, refer to [Accessing tasks](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#accessing-tasks).
+All the tasks are grouped in a list accessible via the **Campaigns** universe. For more on this, refer to [Accessing tasks](../../campaign/using/creating-and-managing-tasks.md#accessing-tasks).
 
 They can be displayed in the schedule of the program to which they belong.
 
@@ -42,7 +42,7 @@ The tasks are displayed in the task list accessible via the **[!UICONTROL Campai
 
 You can view all tasks of the connected operator there.
 
-For more on this, refer to [Execution status of a task](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#execution-status-of-a-task) and [Progress status of a task](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#progress-status-of-a-task).
+For more on this, refer to [Execution status of a task](../../campaign/using/creating-and-managing-tasks.md#execution-status-of-a-task) and [Progress status of a task](../../campaign/using/creating-and-managing-tasks.md#progress-status-of-a-task).
 
 ### Filtering tasks {#filtering-tasks}
 
@@ -78,13 +78,13 @@ After a task is created, it is added to the campaign schedule and the list of ta
 
 To configure it, you must indicate:
 
-* The manager and participants: refer to [Manager and participants](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#manager-and-participants).
-* The creation schedule: refer to [Execution schedule](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#execution-schedule).
-* The costs committed: refer to [Expenses and revenues](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#expenses-and-revenues).
+* The manager and participants: refer to [Manager and participants](../../campaign/using/creating-and-managing-tasks.md#manager-and-participants).
+* The creation schedule: refer to [Execution schedule](../../campaign/using/creating-and-managing-tasks.md#execution-schedule).
+* The costs committed: refer to [Expenses and revenues](../../campaign/using/creating-and-managing-tasks.md#expenses-and-revenues).
 
-It is also possible to ad reviewers (refer to [Reviewers](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#reviewers)) and referenced documents (refer to [Documents referenced](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#documents-referenced)).
+It is also possible to ad reviewers (refer to [Reviewers](../../campaign/using/creating-and-managing-tasks.md#reviewers)) and referenced documents (refer to [Documents referenced](../../campaign/using/creating-and-managing-tasks.md#documents-referenced)).
 
-Task life cycle is presented in [Life cycle](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#life-cycle).
+Task life cycle is presented in [Life cycle](../../campaign/using/creating-and-managing-tasks.md#life-cycle).
 
 ### Manager and participants {#manager-and-participants}
 
@@ -96,7 +96,7 @@ By default, when an Adobe Campaign operator creates a task, it is assigned to th
 
 >[!NOTE]
 >
->Operator management is presented in [this section](https://helpx.adobe.com/campaign/classic/platform/using/access-management.html).
+>Operator management is presented in [this section](../../platform/using/access-management.md).
 
 You may specify the operators involved in carrying out the task. These operators aren't authorized to close the task. They may only approve the task assigned to them.
 
@@ -138,7 +138,7 @@ The person in charge of the task can assign themselves the task of approving it,
 
 ### Documents referenced {#documents-referenced}
 
-It's possible to add documents and marketing resources to a task (for more on this, refer to [Managing marketing resources](https://helpx.adobe.com/campaign/standard/campaign/using/managing-marketing-resources.html)). To do so, open the task and click the **[!UICONTROL Documents]** icon in the task toolbar.
+It's possible to add documents and marketing resources to a task (for more on this, refer to [Managing marketing resources](../../campaign/using/managing-marketing-resources.md)). To do so, open the task and click the **[!UICONTROL Documents]** icon in the task toolbar.
 
 Click **[!UICONTROL Add]** and select the document to be added to your task. Apply the same process for marketing resources. 
 
@@ -154,7 +154,7 @@ The validity period of a task is indicated in the **[!UICONTROL Start]** and **[
 
 >[!NOTE]
 >
->The life cycle of a task is presented in [Life cycle](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#life-cycle).
+>The life cycle of a task is presented in [Life cycle](../../campaign/using/creating-and-managing-tasks.md#life-cycle).
 
 The **[!UICONTROL Workload performed]** field also expressed in days and hours, lets you manually update the progress of the task with respect to the scheduled workload.
 
@@ -172,7 +172,7 @@ It is also visible in the campaign tab.
 
 If the task execution schedule end date has been reached but the task is not completed, the task will be **[!UICONTROL Late]** . A warning message will also be displayed to alert operators.
 
-For more on this, refer to [Progress status of a task](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#progress-status-of-a-task).
+For more on this, refer to [Progress status of a task](../../campaign/using/creating-and-managing-tasks.md#progress-status-of-a-task).
 
 ### Expenses and revenues {#expenses-and-revenues}
 
@@ -186,7 +186,7 @@ By default, the budget charged is the budget of the campaign to which the task i
 
 >[!NOTE]
 >
->For further information about expenses and budgets, see [Cost commitment, calculation and charging](https://helpx.adobe.com/campaign/standard/campaign/using/controlling-costs.html#cost-commitment--calculation-and-charging).
+>For further information about expenses and budgets, see [Cost commitment, calculation and charging](../../campaign/using/controlling-costs.md#cost-commitment--calculation-and-charging).
 
 In this window, you can also define the objectives to be reached. Objectives are expressed in terms of forecast revenue for the task.
 
@@ -196,7 +196,7 @@ An external service provider can be involved in the management of a task.
 
 To do this, edit the task properties and select the service provider concerned. The cost categories associated with the service provider are automatically listed in the central section of the window.
 
-For more on this, refer to [Creating a service provider and its cost categories](https://helpx.adobe.com/campaign/standard/campaign/using/providers--stocks-and-budgets.html#creating-a-service-provider-and-its-cost-categories).
+For more on this, refer to [Creating a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 Select the cost categories related to the execution of the task. To do this, select the type of cost and, if necessary, add an amount to surcharge.
 
@@ -204,7 +204,7 @@ Select the cost categories related to the execution of the task. To do this, sel
 
 >[!NOTE]
 >
->The method for managing budgets and costs is presented in [Controlling costs](https://helpx.adobe.com/campaign/standard/campaign/using/controlling-costs.html).
+>The method for managing budgets and costs is presented in [Controlling costs](../../campaign/using/controlling-costs.md).
 
 When a service provider is selected, it is displayed in the task dashboard:
 
@@ -270,15 +270,15 @@ When you create tasks via a campaign, you can create specific tasks. The type of
 
 The following tasks can be scheduled:
 
-* **[!UICONTROL Control task]** , refer to [Control tasks](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#control-tasks),
-* **[!UICONTROL Marketing resource creation task]** , refer to [Grouping task](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#grouping-task),
-* **[!UICONTROL Grouping task]** , refer to [Grouping task](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#grouping-task),
-* **[!UICONTROL Notification task]** , refer to [Notification task](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#notification-task).
+* **[!UICONTROL Control task]** , refer to [Control tasks](../../campaign/using/creating-and-managing-tasks.md#control-tasks),
+* **[!UICONTROL Marketing resource creation task]** , refer to [Grouping task](../../campaign/using/creating-and-managing-tasks.md#grouping-task),
+* **[!UICONTROL Grouping task]** , refer to [Grouping task](../../campaign/using/creating-and-managing-tasks.md#grouping-task),
+* **[!UICONTROL Notification task]** , refer to [Notification task](../../campaign/using/creating-and-managing-tasks.md#notification-task).
 
 >[!NOTE]
 >
 >**[!UICONTROL Control task]** and **[!UICONTROL Grouping]** tasks can be created **only** via the campaign dashboard.  
->They are displayed in the task map of the operator to whom they are assigned. See [Accessing tasks](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#accessing-tasks).
+>They are displayed in the task map of the operator to whom they are assigned. See [Accessing tasks](../../campaign/using/creating-and-managing-tasks.md#accessing-tasks).
 
 ### Control tasks {#control-tasks}
 
@@ -385,11 +385,11 @@ You can add an attachment to the task and to the notification email. To do this,
 
 ### Links between tasks {#links-between-tasks}
 
-The **[!UICONTROL Properties]** button in each task enables you to define the links between tasks in a campaign. You can split tasks into subtasks using a grouping task (see [Linked tasks](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#linked-tasks)), or define dependencies between the tasks (see [Grouping tasks](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#grouping-tasks)).
+The **[!UICONTROL Properties]** button in each task enables you to define the links between tasks in a campaign. You can split tasks into subtasks using a grouping task (see [Linked tasks](../../campaign/using/creating-and-managing-tasks.md#linked-tasks)), or define dependencies between the tasks (see [Grouping tasks](../../campaign/using/creating-and-managing-tasks.md#grouping-tasks)).
 
 #### Linked tasks {#linked-tasks}
 
-Use the **[!UICONTROL Linked task]** field to associate tasks with a grouping task. See [Types of task](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#types-of-task).
+Use the **[!UICONTROL Linked task]** field to associate tasks with a grouping task. See [Types of task](../../campaign/using/creating-and-managing-tasks.md#types-of-task).
 
 In the following example, the approval of targeting is broken down into four sub-tasks. 
 
@@ -431,7 +431,7 @@ A task can be: **[!UICONTROL Scheduled]** , **[!UICONTROL In progress]** , **[!U
 * Once it has been started, the task is **[!UICONTROL In progress]** . When the person in charge of the task closes it, it changes to **[!UICONTROL Finished]** .
 * If a reviewer has been defined, the task will be **[!UICONTROL Pending approval]** once the person in charge of it closes it and until the reviewer approves it. If the reviewer rejects it, the task will be **[!UICONTROL Rejected]** .
 * A task can be canceled by the person responsible for it via the dashboard or the **[!UICONTROL Task map]** by clicking the **[!UICONTROL Cancel]** button.
-* To schedule a task, input a start date in the future. You can then send a first notification to the Adobe Campaign operators involved in performing the task. See [Complete task life cycle](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#complete-task-life-cycle).
+* To schedule a task, input a start date in the future. You can then send a first notification to the Adobe Campaign operators involved in performing the task. See [Complete task life cycle](../../campaign/using/creating-and-managing-tasks.md#complete-task-life-cycle).
 
 >[!NOTE]
 >
@@ -445,13 +445,13 @@ In addition to its execution status, a task can be associated with a progress st
 
 You can filter the list of tasks by process or progress status.
 
-For more on this, refer to [Accessing tasks](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#accessing-tasks).
+For more on this, refer to [Accessing tasks](../../campaign/using/creating-and-managing-tasks.md#accessing-tasks).
 
 ### Complete task life cycle {#complete-task-life-cycle}
 
 Below are the stages of a complete task life cycle for which the person in charge has defined participants and reviewers.
 
-1. The person in charge creates the task and enters the various fields. For more on this, refer to [Creating a new task](https://helpx.adobe.com/campaign/standard/campaign/using/creating-and-managing-tasks.html#creating-a-new-task).
+1. The person in charge creates the task and enters the various fields. For more on this, refer to [Creating a new task](../../campaign/using/creating-and-managing-tasks.md#creating-a-new-task).
 
    When creating and editing a task **scheduled in the future** (as long as the task start date isn't reached), it's possible to send a notification to participants and managers to let them know that a new task has been scheduled. 
 

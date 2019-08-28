@@ -18,7 +18,7 @@ snippet: y
 
 # Collecting data to analyze{#collecting-data-to-analyze}
 
-The data to be used for building the report can be selected directly in the report page (for more on this, refer to [Using the context](https://helpx.adobe.com/campaign/standard/reporting/using/using-the-context.html)) or collected via one or more queries.
+The data to be used for building the report can be selected directly in the report page (for more on this, refer to [Using the context](../../reporting/using/using-the-context.md)) or collected via one or more queries.
 
 This activity offers three different methods:
 
@@ -26,13 +26,13 @@ This activity offers three different methods:
 1. Processing the data contained in a list.
 1. Using data contained in an existing cube.
 
-The choice of method depends on the type of calculation, the data volume and their durability, etc. All these parameters must be examined carefully to avoid overloading the Adobe Campaign database and to optimize the generation and manipulation of the created reports. For more on this, refer to [this page](https://helpx.adobe.com/campaign/classic/reporting/using/optimizing-report-creation.html).
+The choice of method depends on the type of calculation, the data volume and their durability, etc. All these parameters must be examined carefully to avoid overloading the Adobe Campaign database and to optimize the generation and manipulation of the created reports. For more on this, refer to [this page](../../reporting/using/optimizing-report-creation.md).
 
 In all cases, data is collected via a **[!UICONTROL Query]** type activity.
 
 ![](assets/reporting_query_edit.png)
 
-This data selection mode is relevant when the data in the report needs to be collected or built using data in the database. In some cases, you can also select the data straight from the elements used in the report. For instance when inserting a chart, you can select the source data directly. For more on this, refer to [Using the context](https://helpx.adobe.com/campaign/standard/reporting/using/using-the-context.html).
+This data selection mode is relevant when the data in the report needs to be collected or built using data in the database. In some cases, you can also select the data straight from the elements used in the report. For instance when inserting a chart, you can select the source data directly. For more on this, refer to [Using the context](../../reporting/using/using-the-context.md).
 
 ## Using the data from a schema {#using-the-data-from-a-schema}
 
@@ -58,7 +58,7 @@ It's possible to select a Cube for defining the query.
 
 ![](assets/reporting_query_from_cube.png)
 
-Cubes enable you to extend the database's exploration and analysis capacities while making for easier configuration of reports and tables for end users: simply select an existing, fully configured Cube and use its calculations, measures and statistics. For more on creating cubes, refer to [this section](https://helpx.adobe.com/campaign/classic/reporting/using/about-cubes.html).
+Cubes enable you to extend the database's exploration and analysis capacities while making for easier configuration of reports and tables for end users: simply select an existing, fully configured Cube and use its calculations, measures and statistics. For more on creating cubes, refer to [this section](../../reporting/using/about-cubes.md).
 
 Click the **[!UICONTROL Edit query...]** link and select the indicators that you want to display or use in your report.
 

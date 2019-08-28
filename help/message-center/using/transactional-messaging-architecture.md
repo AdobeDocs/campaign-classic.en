@@ -39,7 +39,7 @@ It is possible to share an execution cluster among several control instances. Fo
 
 >[!NOTE]
 >
->For more on the necessary configuration, refer to [Using several control instances](https://helpx.adobe.com/campaign/standard/message-center/using/creating-a-shared-connection.html#using-several-control-instances).
+>For more on the necessary configuration, refer to [Using several control instances](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
 
 ## Installing instances {#installing-instances}
 
@@ -49,7 +49,7 @@ There are several precautions to take when installing the Transactional message 
 >
 >The control instance and the execution instance(s) must be installed on different machines. They cannot share the same Campaign instance.
 
-If you need to use several channels, you must install and configure related packages before installing Transactional message packages. Refer to [Adding a delivery channel](https://helpx.adobe.com/campaign/standard/message-center/using/transactional-messaging-architecture.html#adding-a-delivery-channel).
+If you need to use several channels, you must install and configure related packages before installing Transactional message packages. Refer to [Adding a delivery channel](../../message-center/using/transactional-messaging-architecture.md#adding-a-delivery-channel).
 
 * To install the control instance on your machine, select the **[!UICONTROL Transactional message control]** module.
 
@@ -75,7 +75,7 @@ When combined with the Inbound Interaction module, transactional messaging enabl
 
 >[!NOTE]
 >
->The Interaction module is detailed in [Interaction](https://helpx.adobe.com/campaign/classic/interaction/using/interaction-and-offer-management.html).
+>The Interaction module is detailed in [Interaction](../../interaction/using/interaction-and-offer-management.md).
 
 To use transactional messaging with Interaction, you need to apply the following configurations:
 
@@ -102,7 +102,7 @@ Create your delivery templates the way you would for an email campaign:
 * Add the offer to your transactional message template.
 * Check the preview, send a proof and publish the template.
 
-You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](https://helpx.adobe.com/campaign/classic/interaction/using/creating-offer-spaces.html).
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).
 
 ## Transactional messaging and push notifications {#transactional-messaging-and-push-notifications}
 
@@ -110,7 +110,7 @@ When combined with Mobile App channel module, transactional messaging enables yo
 
 >[!NOTE]
 >
->The Mobile App channel is detailed in [this section](https://helpx.adobe.com/campaign/classic/delivery/using/about-mobile-app-channel.html).
+>The Mobile App channel is detailed in [this section](../../delivery/using/about-mobile-app-channel.md).
 
 To use transactional message modules with Mobile App Channel, you need to apply the following configurations:
 
@@ -159,7 +159,7 @@ To use transactional message module with LINE, the following elements are needed
 
 * Install the **[!UICONTROL LINE Connect]** package on both instances.
 * Install the **[!UICONTROL Transactional message control]** package on your marketing instance, and the **[!UICONTROL Transactional message execution]** package on the execution instance.
-* Create a LINE **external account** and **service** on both instances with identical naming for them to be synchronized. For more information on how to create a LINE external account and service, refer to this [page](https://helpx.adobe.com/campaign/classic/delivery/using/line-channel.html#creating-a-line-account-and-an-external-account-).
+* Create a LINE **external account** and **service** on both instances with identical naming for them to be synchronized. For more information on how to create a LINE external account and service, refer to this [page](../../delivery/using/line-channel.md#creating-a-line-account-and-an-external-account-).
 
 Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UICONTROL External account]** , you need to configure different external accounts on both instances:
 
@@ -222,5 +222,5 @@ Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UI
     * Click the **[!UICONTROL Create the archiving workflow]** button.
     * Click the **[!UICONTROL Create data synchronization workflow]** button to create the LINE data sync workflow.
 
-1. You can now start creating transactional messages. For more on this, refer to this [page](https://helpx.adobe.com/campaign/classic/message-center/using/introduction.html).
+1. You can now start creating transactional messages. For more on this, refer to this [page](../../message-center/using/introduction.md).
 

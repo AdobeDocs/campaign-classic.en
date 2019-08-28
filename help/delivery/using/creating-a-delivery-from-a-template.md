@@ -46,5 +46,5 @@ This action generates a delivery in the folder attached to the template. The nam
 
 >[!NOTE]
 >
->For further information about configuring a delivery, see [Defining the email content](https://helpx.adobe.com/campaign/standard/delivery/using/defining-the-email-content.html).
+>For further information about configuring a delivery, see [Defining the email content](../../delivery/using/defining-the-email-content.md).
 

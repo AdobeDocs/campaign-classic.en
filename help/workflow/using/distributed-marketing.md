@@ -18,7 +18,7 @@ snippet: y
 
 # Distributed Marketing{#distributed-marketing}
 
-The workflow detailed below is installed with the **Distributed Marketing** module by default. For more on this module, refer to this [section](https://helpx.adobe.com/campaign/classic/campaign/using/about-distributed-marketing.html).
+The workflow detailed below is installed with the **Distributed Marketing** module by default. For more on this module, refer to this [section](../../campaign/using/about-distributed-marketing.md).
 
 <table> 
  <tbody> 

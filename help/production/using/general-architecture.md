@@ -46,7 +46,7 @@ The distribution of modules over several machines provides great flexibility of 
 
 >[!NOTE]
 >
->For more on the various architectures, refer to [this section](https://helpx.adobe.com/campaign/classic/installation/using/general-architecture.html).
+>For more on the various architectures, refer to [this section](../../installation/using/general-architecture.md).
 
 ## List of open ports {#list-of-open-ports}
 

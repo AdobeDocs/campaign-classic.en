@@ -34,7 +34,7 @@ To do this, select the concerned deliveries, then right-click and select **[!UIC
 
 ### Selecting a type of analysis {#selecting-a-type-of-analysis}
 
-In the first step of the assistant, you can select the descriptive analysis template to use. By default, Adobe Campaign offers two templates: **[!UICONTROL Qualitative distribution]** and **[!UICONTROL Quantitative distribution]** . For more on this refer to the [Configuring the qualitative distribution template](https://helpx.adobe.com/campaign/standard/reporting/using/using-the-descriptive-analysis-wizard.html#configuring-the-qualitative-distribution-template) section. The various renderings are presented in the [About descriptive analysis](https://helpx.adobe.com/campaign/standard/reporting/using/about-descriptive-analysis.html) section.
+In the first step of the assistant, you can select the descriptive analysis template to use. By default, Adobe Campaign offers two templates: **[!UICONTROL Qualitative distribution]** and **[!UICONTROL Quantitative distribution]** . For more on this refer to the [Configuring the qualitative distribution template](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-qualitative-distribution-template) section. The various renderings are presented in the [About descriptive analysis](../../reporting/using/about-descriptive-analysis.md) section.
 
 For this example, select the **[!UICONTROL Qualitative distribution]** template and choose a display with a chart and table (array). Give the report a name ("Descriptive analysis") and click **[!UICONTROL Next]** .
 
@@ -68,7 +68,7 @@ In this case, choose the histogram.
 
 ![](assets/reporting_descriptive_quickstart_step_3.png)
 
-Possible configurations of the different graphics are detailed in the [Analysis report chart options](https://helpx.adobe.com/campaign/standard/reporting/using/processing-a-report.html#analysis-report-chart-options) section.
+Possible configurations of the different graphics are detailed in the [Analysis report chart options](../../reporting/using/processing-a-report.md#analysis-report-chart-options) section.
 
 ### Configuring the statistic to calculate {#configuring-the-statistic-to-calculate}
 
@@ -78,13 +78,13 @@ This window lets you define the list of statistics to be calculated.
 
 ![](assets/reporting_descriptive_quickstart_step_4.png)
 
-To create a new statistic, click the **[!UICONTROL Add]** button. For more on this, refer to [Statistics calculation](https://helpx.adobe.com/campaign/standard/reporting/using/using-the-descriptive-analysis-wizard.html#statistics-calculation).
+To create a new statistic, click the **[!UICONTROL Add]** button. For more on this, refer to [Statistics calculation](../../reporting/using/using-the-descriptive-analysis-wizard.md#statistics-calculation).
 
 ### Viewing and using the report {#viewing-and-using-the-report}
 
 The last step of the wizard displays the table and the chart.
 
-You can store, export or print data using the tool bar above the table. For more on this, refer to [Processing a report](https://helpx.adobe.com/campaign/standard/reporting/using/processing-a-report.html).
+You can store, export or print data using the tool bar above the table. For more on this, refer to [Processing a report](../../reporting/using/processing-a-report.md).
 
 ![](assets/reporting_descriptive_quickstart_step_5.png)
 
@@ -185,7 +185,7 @@ You can store, export or print data using the tool bar above the table. For more
 
    ![](assets/s_ncs_user_report_wizard_from_transision.png)
 
-1. At this point you can either select the **[!UICONTROL Existing analyses and reports]** option and use reports created previously (refer to [Re-using existing reports and analyses](https://helpx.adobe.com/campaign/standard/reporting/using/processing-a-report.html#re-using-existing-reports-and-analyses)), or create a new descriptive analysis. To do this, leave the **[!UICONTROL New descriptive analysis from a template]** option selected by default.
+1. At this point you can either select the **[!UICONTROL Existing analyses and reports]** option and use reports created previously (refer to [Re-using existing reports and analyses](../../reporting/using/processing-a-report.md#re-using-existing-reports-and-analyses)), or create a new descriptive analysis. To do this, leave the **[!UICONTROL New descriptive analysis from a template]** option selected by default.
 
    The rest of the configuration is the same as for all descriptive analyses.
 

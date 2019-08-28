@@ -37,15 +37,15 @@ snippet: y
      <li> <p>Track silent notifications in iOS </p> </li> 
      <li> <p>Implement feedback on registration calls in iOS</p> </li> 
      <li> <p>Improve iOS delivery preparation speed</p> </li> 
-    </ul> As a part of GCM depreciation by Google, Android V2 connector now allows connections only to the FCM server.<br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/classic/delivery/using/setting-up-mobile-app-channel.html#integrating-campaign-sdk-into-the-mobile-application">detailed documentation</a>. The manual ugrade to FCM is detailed in this <a href="https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html">article</a>. <br /> </td> 
+    </ul> As a part of GCM depreciation by Google, Android V2 connector now allows connections only to the FCM server.<br /> For more information, refer to the <a href="../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application">detailed documentation</a>. The manual ugrade to FCM is detailed in this <a href="https://helpx.adobe.com/campaign/kb/migrate-to-fcm.md">article</a>. <br /> </td> 
   </tr> 
   <tr> 
    <td> SQL Data Management activity<br /> </td> 
-   <td> A new data management workflow activity has been added. The <strong>SQL Data Management</strong> activity lets you write or copy-paste your own SQL scripts to create and populate work tables (FDA only). <br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/classic/workflow/using/sql-data-management.html">detailed documentation</a>.<br /> </td> 
+   <td> A new data management workflow activity has been added. The <strong>SQL Data Management</strong> activity lets you write or copy-paste your own SQL scripts to create and populate work tables (FDA only). <br /> For more information, refer to the <a href="../../workflow/using/sql-data-management.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Workflow monitoring<br /> </td> 
-   <td> With the new Adobe Campaign Workflow HeatMap, the platform administrators have a quick graphical representation of all the concurrent workflows, which allows them to monitor the load on the instance and plan workflows accordingly.<br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/classic/production/using/monitoring-processes.html#workflow-monitoring">detailed documentation</a>.<br /> The Workflow HeatMap package is also available on demand for builds prior to 8977 (starting build 8700). For more on requesting and installing it, refer to <a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html">this page</a>.<br /> </td> 
+   <td> With the new Adobe Campaign Workflow HeatMap, the platform administrators have a quick graphical representation of all the concurrent workflows, which allows them to monitor the load on the instance and plan workflows accordingly.<br /> For more information, refer to the <a href="../../production/using/monitoring-processes.md#workflow-monitoring">detailed documentation</a>.<br /> The Workflow HeatMap package is also available on demand for builds prior to 8977 (starting build 8700). For more on requesting and installing it, refer to <a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.md">this page</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,9 +60,9 @@ snippet: y
 
 ## Improvements {#improvements}
 
-* Campaign Classic APIs are now available in a [dedicated page](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html). If you were using the jsapi.chm file, you should now refer to the new online version.
-* PostgreSQL 10, Debian 9 and Teradata 16.20 are now supported. Refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
-* When creating an SFTP connection, you can now use proxy authentication. For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#proxy-connection-configuration) (NEO-9868)
+* Campaign Classic APIs are now available in a [dedicated page](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.md). If you were using the jsapi.chm file, you should now refer to the new online version.
+* PostgreSQL 10, Debian 9 and Teradata 16.20 are now supported. Refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
+* When creating an SFTP connection, you can now use proxy authentication. For more information, refer to the [detailed documentation](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration) (NEO-9868)
 * The **Date calculation formula** option is now available in the delivery properties when creating a single delivery using the direct mail delivery template. (NEO-9792)
 * The domain name management has been improved for cookie tracking and web applications. See the 'Technical evolutions' section below for more information. 
 * The import of Adobe Marketing Cloud shared assets in a delivery or landing page has been improved in terms of security and performance.

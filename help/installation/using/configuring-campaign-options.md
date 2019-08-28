@@ -214,7 +214,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td> 
-   <td> Allows a maximum period (expressed in hours) to be specified as to limit the number of broadlogs recovered every time the synchronization workflow is executed. See <a href="https://helpx.adobe.com/campaign/classic/platform/using/accessing-an-external-database.html#cloud-messaging---fda-synchronization">this section</a>.<br /> </td> 
+   <td> Allows a maximum period (expressed in hours) to be specified as to limit the number of broadlogs recovered every time the synchronization workflow is executed. See <a href="../../platform/using/accessing-an-external-database.md#cloud-messaging---fda-synchronization">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
@@ -222,7 +222,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td> Lets you allow the operator in charge of the delivery to confirm the send, if a specific operator or group of operators is designated for starting a delivery in the delivery's properties.<br /> To do this, activate the option by entering "1" as the value. To deactivate this option, enter "0".<br /> The send confirmation process will then function as default: only the operator or group of operators designated for the send in the delivery properties (or an administrator) will be able to confirm and carry out the send. See <a href="https://helpx.adobe.com/campaign/classic/campaign/using/setting-up-marketing-campaigns.html#starting-an-online-delivery">this section</a>.<br /> </td> 
+   <td> Lets you allow the operator in charge of the delivery to confirm the send, if a specific operator or group of operators is designated for starting a delivery in the delivery's properties.<br /> To do this, activate the option by entering "1" as the value. To deactivate this option, enter "0".<br /> The send confirmation process will then function as default: only the operator or group of operators designated for the send in the delivery properties (or an administrator) will be able to confirm and carry out the send. See <a href="../../campaign/using/setting-up-marketing-campaigns.md#starting-an-online-delivery">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
@@ -263,11 +263,11 @@ Some of them are built-in when installing Campaign, and others can be added manu
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NcmRessourcesDir</span> <br /> </td> 
-   <td> Location of resources for publication in the Adobe Campaign client console. See <a href="https://helpx.adobe.com/campaign/classic/delivery/using/formatting.html#image-referencing">this section</a>.<br /> </td> 
+   <td> Location of resources for publication in the Adobe Campaign client console. See <a href="../../delivery/using/formatting.md#image-referencing">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmRessourcesDirPreview</span> <br /> </td> 
-   <td> Location of resources for previewing in the Adobe Campaign client console. See <a href="https://helpx.adobe.com/campaign/classic/delivery/using/formatting.html#image-referencing">this section</a>.<br /> </td> 
+   <td> Location of resources for previewing in the Adobe Campaign client console. See <a href="../../delivery/using/formatting.md#image-referencing">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_DefaultIgnoredImage</span> <br /> </td> 
@@ -287,7 +287,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmPublishingDir</span> <br /> </td> 
-   <td> Root folder for publications.<br /> For more on HTML and Text contents generation, refer to <a href="https://helpx.adobe.com/campaign/classic/delivery/using/using-a-content-template.html">this section</a>.<br /> </td> 
+   <td> Root folder for publications.<br /> For more on HTML and Text contents generation, refer to <a href="../../delivery/using/using-a-content-template.md">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkImageUrl</span> <br /> </td> 
@@ -340,7 +340,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> Allows you to monitor the <a href="https://helpx.adobe.com/campaign/classic/workflow/using/campaign.html">operationMgt</a> technical workflow execution. When activated (value "1"), the execution information are logged in the workflow audit logs.<br /> </td> 
+   <td> Allows you to monitor the <a href="../../workflow/using/campaign.md">operationMgt</a> technical workflow execution. When activated (value "1"), the execution information are logged in the workflow audit logs.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 
@@ -615,7 +615,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
-   <td> Time zone of the Adobe Campaign's instance. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/time-zone-management.html#configuration" target="_blank">Configuration</a>.<br /> </td> 
+   <td> Time zone of the Adobe Campaign's instance. See <a href="../../installation/using/time-zone-management.md#configuration" target="_blank">Configuration</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcUseNChar</span> <br /> </td> 
@@ -653,7 +653,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
     <ul> 
      <li> <p> <span class="uicontrol">Data type:</span> Integer</p> </li> 
      <li> <p> <span class="uicontrol">Value (text)</span> : 1 </p> </li> 
-    </ul> This option should only be used if the out-of-the-box navigation tree has undergone too many changes.<br /> For more on this, refer to <a href="https://helpx.adobe.com/campaign/classic/migration/using/specific-configurations-in-v5-11.html#adobe-campaign-v7-tree-structure">this section</a>.<br /> </td> 
+    </ul> This option should only be used if the out-of-the-box navigation tree has undergone too many changes.<br /> For more on this, refer to <a href="../../migration/using/specific-configurations-in-v5-11.md#adobe-campaign-v7-tree-structure">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span> <br /> </td> 
@@ -686,7 +686,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Lets you configure Experience Cloud Triggers. Data type is "long text" and must be in JSON format. See <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">How to use Experience Cloud Triggers with Adobe Campaign Classic</a> .<br /> </td> 
+   <td> Lets you configure Experience Cloud Triggers. Data type is "long text" and must be in JSON format. See <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.md#PipelineoptionNmsPipelineConfig" target="_blank">How to use Experience Cloud Triggers with Adobe Campaign Classic</a> .<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
@@ -698,11 +698,11 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_EdgeServer</span> <br /> </td> 
-   <td> Adobe Target server used for the integration. This option is already selected by default. This value corresponds to the Adobe Target Domain Server, followed by the value /m2. For example: tt.omtrdc.net/m2.<br /> See <a href="https://helpx.adobe.com/campaign/classic/integrations/using/configuring-the-integration-with-adobe-target.html">this section</a>.<br /> </td> 
+   <td> Adobe Target server used for the integration. This option is already selected by default. This value corresponds to the Adobe Target Domain Server, followed by the value /m2. For example: tt.omtrdc.net/m2.<br /> See <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_TenantName</span> <br /> </td> 
-   <td> Adobe Target Organization name. This value corresponds to the name of the Adobe Target Client.<br /> See <a href="https://helpx.adobe.com/campaign/classic/integrations/using/configuring-the-integration-with-adobe-target.html">this section</a>.<br /> </td> 
+   <td> Adobe Target Organization name. This value corresponds to the name of the Adobe Target Client.<br /> See <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DataSourceId</span> <br /> </td> 

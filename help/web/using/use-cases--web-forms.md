@@ -29,7 +29,7 @@ This example is based on the following scenario:
 
 ### Step 1 - Creating information services {#step-1---creating-information-services}
 
-1. Create the newsletter subscription service to be offered to your recipients. For more information on how to create a newsletter, refer to [this section](https://helpx.adobe.com/campaign/classic/delivery/using/about-services-and-subscriptions.html).
+1. Create the newsletter subscription service to be offered to your recipients. For more information on how to create a newsletter, refer to [this section](../../delivery/using/about-services-and-subscriptions.md).
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 

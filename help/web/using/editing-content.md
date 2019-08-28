@@ -28,7 +28,7 @@ To add a visibility condition, select a block and enter the condition in the **[
 
 >[!NOTE]
 >
->Advanced expression editing is presented on [this page](https://helpx.adobe.com/campaign/classic/platform/using/defining-filter-conditions.html#list-of-functions).
+>Advanced expression editing is presented on [this page](../../platform/using/defining-filter-conditions.md#list-of-functions).
 
 ![](assets/dce_popup_visibilitycondition.png)
 
@@ -166,7 +166,7 @@ The **Link that defines an action** option lets you configure an action when cli
 
 >[!NOTE]
 >
->Available actions are detailed in the [Adding an action to a button](https://helpx.adobe.com/campaign/standard/web/using/editing-content.html#adding-an-action-to-a-button) section.
+>Available actions are detailed in the [Adding an action to a button](../../web/using/editing-content.md#adding-an-action-to-a-button) section.
 
 ### Delete a link {#delete-a-link}
 
@@ -264,7 +264,7 @@ By default, the fields offered are from the **[!UICONTROL Recipient]** table. Wh
 
 The field name appears in the editor, highlighted in yellow. It will be replaced by the profile of the targeted recipient when the personalization is generated (for example, when previewing a landing page).
 
-An example is presented in the [Inserting a personalization field](https://helpx.adobe.com/campaign/standard/web/using/creating-a-landing-page.html#inserting-a-personalization-field) section.
+An example is presented in the [Inserting a personalization field](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field) section.
 
 ### Inserting a personalization block {#inserting-a-personalization-block}
 
@@ -274,4 +274,4 @@ The **Personalization block** option lets you insert dynamic and personalized bl
 
 Once inserted, the personalization block name appears in the editor, highlighted in yellow. It is automatically adapted to the recipient profile when personalization is generated.
 
-For more on out-of-the- box personalization blocks and how to define custom personalization blocks, refer to [this page](https://helpx.adobe.com/campaign/classic/delivery/using/personalization-blocks.html).
+For more on out-of-the- box personalization blocks and how to define custom personalization blocks, refer to [this page](../../delivery/using/personalization-blocks.md).

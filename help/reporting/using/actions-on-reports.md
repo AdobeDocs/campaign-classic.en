@@ -57,7 +57,7 @@ For **[!UICONTROL List with group]** type reports destined to be exported into E
 * The reports do not have to use specific formatting defined at the cell level. It is preferable to use **[!UICONTROL Form rendering]** to define the format of the cells in the table. The **[!UICONTROL Form rendering]** can be accessed via **[!UICONTROL Administration > Configuration > Form rendering]** .
 * We do not recommend inserting HTML content.
 * If a report contains several table, chart, etc. type elements, they will be exported one under the other.
-* You can force the carriage return in cells: this configuration will be kept in Excel. For more on this, refer to this [Defining cell format](https://helpx.adobe.com/campaign/standard/reporting/using/creating-a-table.html#defining-cell-format).
+* You can force the carriage return in cells: this configuration will be kept in Excel. For more on this, refer to this [Defining cell format](../../reporting/using/creating-a-table.md#defining-cell-format).
 
 ### Postpone the export {#postpone-the-export}
 
@@ -81,9 +81,9 @@ In certain instances, the default value **maxMB** (**SKMS** for hosted instances
 
 To apply changes made to the configuration, the **nlserver** service needs to be restarted.
 
-To find out more about the **serverConf.xml** file, refer to [this section](https://helpx.adobe.com/campaign/classic/production/using/configuration-principle.html).
+To find out more about the **serverConf.xml** file, refer to [this section](../../production/using/configuration-principle.md).
 
-To find out more about the **nlserver** service, refer to [this section](https://helpx.adobe.com/campaign/classic/production/using/administration.html).
+To find out more about the **nlserver** service, refer to [this section](../../production/using/administration.md).
 
 ## Printing a report {#printing-a-report}
 

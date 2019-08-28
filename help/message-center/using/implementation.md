@@ -22,9 +22,9 @@ Here is a diagram with the different steps involved in this scenario.
 
 ![](assets/message-center-uc1.png)
 
-First, start by designing your attachment. See this [article](https://helpx.adobe.com/campaign/classic/delivery/using/attaching-files.html#attach-a-personalized-file). This allows you to have the files attached to an email, even if they are not hosted on the execution instance.
+First, start by designing your attachment. See this [article](../../delivery/using/attaching-files.md#attach-a-personalized-file). This allows you to have the files attached to an email, even if they are not hosted on the execution instance.
 
-You can send emails via a SOAP message trigger. For more information on SOAP requests, see [Event description](https://helpx.adobe.com/campaign/standard/message-center/using/event-description.html). In the SOAP call, there is a URL parameter (attachmentURL).
+You can send emails via a SOAP message trigger. For more information on SOAP requests, see [Event description](../../message-center/using/event-description.md). In the SOAP call, there is a URL parameter (attachmentURL).
 
 When designing your email, click on **[!UICONTROL Attachment]** . In the **[!UICONTROL Attachment definition]** screen, enter the SOAP attachment parameter:
 

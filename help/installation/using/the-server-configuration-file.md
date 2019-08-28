@@ -22,44 +22,44 @@ The overall configuration of Adobe Campaign is defined in the **serverConf.xml**
 
 >[!NOTE]
 >
->Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](https://helpx.adobe.com/campaign/classic/installation/using/hosting-models.html) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html). The installation and configuration steps for hosted and hybrid models are presented in this [section](https://helpx.adobe.com/campaign/classic/installation/using/hosted-model.html).
+>Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md). The installation and configuration steps for hosted and hybrid models are presented in this [section](../../installation/using/hosted-model.md).
 
 The first parameters are inside the **shared** node. These are related to the instance. They are potentially used by all the nlserver commands (nlserver web, nlserver wfserver, etc.). The other sections are related to a specific nlserver sub-command.
 
 **Shared parameters**
 
-* [authentication](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#authentication)
-* [dataStore](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#datastore)
-* [dnsConfig](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#dnsconfig)
-* [exec](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#exec)
-* [htmlToPdf](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#htmltopdf)
-* [javaScript](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#javascript)
-* [mailExchanger](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#mailexchanger)
-* [module](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#module)
-* [monitoring](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#monitoring)
-* [ooconv](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#ooconv)
-* [proxyConfig](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#proxyconfig)
-* [threadPool](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#threadpool)
-* [urlPermission](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#urlpermission)
-* [xtkJobs](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#xtkjobs)
+* [authentication](../../installation/using/the-server-configuration-file.md#authentication)
+* [dataStore](../../installation/using/the-server-configuration-file.md#datastore)
+* [dnsConfig](../../installation/using/the-server-configuration-file.md#dnsconfig)
+* [exec](../../installation/using/the-server-configuration-file.md#exec)
+* [htmlToPdf](../../installation/using/the-server-configuration-file.md#htmltopdf)
+* [javaScript](../../installation/using/the-server-configuration-file.md#javascript)
+* [mailExchanger](../../installation/using/the-server-configuration-file.md#mailexchanger)
+* [module](../../installation/using/the-server-configuration-file.md#module)
+* [monitoring](../../installation/using/the-server-configuration-file.md#monitoring)
+* [ooconv](../../installation/using/the-server-configuration-file.md#ooconv)
+* [proxyConfig](../../installation/using/the-server-configuration-file.md#proxyconfig)
+* [threadPool](../../installation/using/the-server-configuration-file.md#threadpool)
+* [urlPermission](../../installation/using/the-server-configuration-file.md#urlpermission)
+* [xtkJobs](../../installation/using/the-server-configuration-file.md#xtkjobs)
 
 **Other parameters**
 
-* [archiving](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#archiving)
-* [inMail](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#inmail)
-* [interactiond](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#interactiond)
-* [mta](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#mta)
-* [nmac](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#nmac)
-* [pipelined](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#pipelined)
-* [repair](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#repair)
-* [securityZone](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#securityzone)
-* [sms](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#sms)
-* [stat](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#stat)
-* [syslogd](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#syslogd)
-* [tracking](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#tracking)
-* [trackinglogd](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#trackinglogd)
-* [web](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#web)
-* [wfserver](https://helpx.adobe.com/campaign/standard/installation/using/the-server-configuration-file.html#wfserver)
+* [archiving](../../installation/using/the-server-configuration-file.md#archiving)
+* [inMail](../../installation/using/the-server-configuration-file.md#inmail)
+* [interactiond](../../installation/using/the-server-configuration-file.md#interactiond)
+* [mta](../../installation/using/the-server-configuration-file.md#mta)
+* [nmac](../../installation/using/the-server-configuration-file.md#nmac)
+* [pipelined](../../installation/using/the-server-configuration-file.md#pipelined)
+* [repair](../../installation/using/the-server-configuration-file.md#repair)
+* [securityZone](../../installation/using/the-server-configuration-file.md#securityzone)
+* [sms](../../installation/using/the-server-configuration-file.md#sms)
+* [stat](../../installation/using/the-server-configuration-file.md#stat)
+* [syslogd](../../installation/using/the-server-configuration-file.md#syslogd)
+* [tracking](../../installation/using/the-server-configuration-file.md#tracking)
+* [trackinglogd](../../installation/using/the-server-configuration-file.md#trackinglogd)
+* [web](../../installation/using/the-server-configuration-file.md#web)
+* [wfserver](../../installation/using/the-server-configuration-file.md#wfserver)
 
 ## authentication {#authentication}
 
@@ -201,7 +201,7 @@ Here are the different parameters of the **dataStore** node. This is where the s
   </tr> 
   <tr> 
    <td> uploadWhitelist<br /> </td> 
-   <td> Authorized files to be downloaded separated by ','. The string must be a valid, regular java expression. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#limiting-uploadable-files" target="_blank">Limiting uploadable files</a>.<br /> </td> 
+   <td> Authorized files to be downloaded separated by ','. The string must be a valid, regular java expression. See <a href="../../installation/using/configuring-campaign-server.md#limiting-uploadable-files" target="_blank">Limiting uploadable files</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '.+' <br /> </td> 
   </tr> 
@@ -349,7 +349,7 @@ In the **dataStore > dataSource > dbcnx** node, configure the connection setting
   </tr> 
   <tr> 
    <td> timezone<br /> </td> 
-   <td> Time zone: see <a href="https://helpx.adobe.com/campaign/standard/installation/using/time-zone-management.html" target="_blank">Time zone management</a>.<br /> </td> 
+   <td> Time zone: see <a href="../../installation/using/time-zone-management.md" target="_blank">Time zone management</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> </td> 
   </tr> 
@@ -361,7 +361,7 @@ In the **dataStore > dataSource > dbcnx** node, configure the connection setting
   </tr> 
   <tr> 
    <td> useTimestampTZ<br /> </td> 
-   <td> Date fields with time zone: see <a href="https://helpx.adobe.com/campaign/standard/installation/using/time-zone-management.html" target="_blank">Time zone management</a>.<br /> </td> 
+   <td> Date fields with time zone: see <a href="../../installation/using/time-zone-management.md" target="_blank">Time zone management</a>.<br /> </td> 
    <td> Boolean<br /> </td> 
    <td> </td> 
   </tr> 
@@ -410,7 +410,7 @@ In the **dataStore > dataSource > pool** node, configure the parameters of assoc
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
-   <td> Maximum number of allowed connections before refusing a new connection. See this <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">technote</a>.<br /> </td> 
+   <td> Maximum number of allowed connections before refusing a new connection. See this <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.md">technote</a>.<br /> </td> 
    <td> Short<br /> </td> 
   </tr> 
   <tr> 
@@ -425,7 +425,7 @@ In the **dataStore > dataSource > pool** node, configure the parameters of assoc
 
 Here are the different parameters of the **dataStore > virtualDir** node. This is the configuration of the virtual directory to real directory mapping.
 
-For additional information, refer to [Managing public resources](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#managing-public-resources).
+For additional information, refer to [Managing public resources](../../installation/using/configuring-campaign-server.md#managing-public-resources).
 
 <table> 
  <thead> 
@@ -499,7 +499,7 @@ Here is the default configuration:
 
 Here are the different parameters of the **dnsConfig** (DNS configuration) node.
 
-For additional information, refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#delivery-settings).
+For additional information, refer to this [section](../../installation/using/configuring-campaign-server.md#delivery-settings).
 
 <table> 
  <thead> 
@@ -548,7 +548,7 @@ Note on **nameSevers**: by default, uses the network parameters of the first net
 
 Here are the different parameters of the **exec** (command execution) node.
 
-For additional information, refer to [Restricting authorized external commands](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#restricting-authorized-external-commands).
+For additional information, refer to [Restricting authorized external commands](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands).
 
 <table> 
  <thead> 
@@ -635,7 +635,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 Here are the different parameters of the **javaScript** node. This is the configuration of the JavaScript interpreter.
 
-For additional information, refer to the [Reporting documentation](https://helpx.adobe.com/campaign/classic/reporting/using/actions-on-reports.html#memory-allocation) and this [technote](https://helpx.adobe.com/campaign/kb/out-of-memory-error-in-js-code-activity-in-workflows.html).
+For additional information, refer to the [Reporting documentation](../../reporting/using/actions-on-reports.md#memory-allocation) and this [technote](https://helpx.adobe.com/campaign/kb/out-of-memory-error-in-js-code-activity-in-workflows.md).
 
 <table> 
  <thead> 
@@ -794,7 +794,7 @@ Here are the different parameters of the **ooconv** node. This is the configurat
 
 Here are the different parameters of the **proxyConfig** node. This is the configuration of proxy parameters.
 
-For additional information, refer to [Proxy connection configuration](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#proxy-connection-configuration).
+For additional information, refer to [Proxy connection configuration](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
 
 <table> 
  <thead> 
@@ -831,7 +831,7 @@ For additional information, refer to [Proxy connection configuration](https://he
 
 In the **proxyConfig > HTTP Proxy / Secure proxy ** node, configure the following parameters.
 
-For additional information, refer to [Proxy connection configuration](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#proxy-connection-configuration).
+For additional information, refer to [Proxy connection configuration](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
 
 <table> 
  <thead> 
@@ -896,7 +896,7 @@ List of domains and regular expressions specifying whether a URL encountered in 
 
 If the URL cannot be found, the default action is carried out, according to the default mode specified.
 
-For additional information, refer to [Outgoing connection protection](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#outgoing-connection-protection).
+For additional information, refer to [Outgoing connection protection](../../installation/using/configuring-campaign-server.md#outgoing-connection-protection).
 
 <table> 
  <thead> 
@@ -927,7 +927,7 @@ For additional information, refer to [Outgoing connection protection](https://he
 
 For each URL, add a **url** node with the following parameters:
 
-For additional information, refer to [Outgoing connection protection](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#outgoing-connection-protection).
+For additional information, refer to [Outgoing connection protection](../../installation/using/configuring-campaign-server.md#outgoing-connection-protection).
 
 <table> 
  <thead> 
@@ -1007,7 +1007,7 @@ Here are the different parameters of the **xtkJobs** node. This is the configura
 
 Here are the different parameters of the **archiving** node. This is the configuration of the executed archiving operations in the background.
 
-For additional information, refer to [Activating email archiving (on premise)](https://helpx.adobe.com/campaign/standard/installation/using/email-archiving.html#activating-email-archiving--on-premise-).
+For additional information, refer to [Activating email archiving (on premise)](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-).
 
 <table> 
  <thead> 
@@ -1087,7 +1087,7 @@ For additional information, refer to [Activating email archiving (on premise)](h
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Time of the day when the process is automatically restarted. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
+   <td> Time of the day when the process is automatically restarted. See <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1248,7 +1248,7 @@ Here are the different parameters of the **inMail** node. This is the configurat
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Time of the day when the process is automatically restarted. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
+   <td> Time of the day when the process is automatically restarted. See <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1300,7 +1300,7 @@ In the **inMail > msgDump** node, configure the following parameters. This is th
 
 Here are the different parameters of the **interactiond** node. This is the configuration of the write daemon for inbound Interaction events.
 
-For additional information, refer to [Interaction - Data buffer](https://helpx.adobe.com/campaign/standard/installation/using/interaction---data-buffer.html).
+For additional information, refer to [Interaction - Data buffer](../../installation/using/interaction---data-buffer.md).
 
 <table> 
  <thead> 
@@ -1362,7 +1362,7 @@ For additional information, refer to [Interaction - Data buffer](https://helpx.a
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Time of the day when the process is automatically restarted. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
+   <td> Time of the day when the process is automatically restarted. See <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1499,7 +1499,7 @@ Here are the different parameters of the **mta** node. This is the configuration
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Time of the day when the process is automatically restarted. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
+   <td> Time of the day when the process is automatically restarted. See <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1528,7 +1528,7 @@ Here are the different parameters of the **mta** node. This is the configuration
       [: 
      &lt;port>
        ]. See 
-      <a href="https://helpx.adobe.com/campaign/standard/installation/using/email-deliverability.html#coordinates-of-the-statistics-server" target="_blank">Coordinates of the statistics server</a>. 
+      <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordinates of the statistics server</a>. 
       <br /> 
      &lt;/port> 
     &lt;/dns></td> 
@@ -1607,7 +1607,7 @@ In the **cache** node, configure the following parameters. This is the local fil
 
 In the **mta > relay** node, configure the following parameters. This is the configuration of the mail server for the message delivery.
 
-For additional information, refer to [SMTP relay](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#smtp-relay).
+For additional information, refer to [SMTP relay](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
 <table> 
  <thead> 
@@ -1638,7 +1638,7 @@ For additional information, refer to [SMTP relay](https://helpx.adobe.com/campai
 
 In the **mta > master** node, configure the following parameters. This is the configuration of the main server.
 
-For additional information, refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#mta-child-processes).
+For additional information, refer to this [section](../../installation/using/configuring-campaign-server.md#mta-child-processes).
 
 <table> 
  <thead> 
@@ -1670,7 +1670,7 @@ For additional information, refer to this [section](https://helpx.adobe.com/camp
   </tr> 
   <tr> 
    <td> maxSpareServers<br /> </td> 
-   <td> Maximum number of child servers. Represents the maximum number of servers running. It is recommended to limit this number at an optimum compatible with the server memory resources. This can be checked during a delivery. The used memory should not exceed a third of a the physical memory available otherwise the swap will be used. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#mta-child-processes" target="_blank">MTA child processes</a>.<br /> </td> 
+   <td> Maximum number of child servers. Represents the maximum number of servers running. It is recommended to limit this number at an optimum compatible with the server memory resources. This can be checked during a delivery. The used memory should not exceed a third of a the physical memory available otherwise the swap will be used. See <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">MTA child processes</a>.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
@@ -1693,7 +1693,7 @@ For additional information, refer to this [section](https://helpx.adobe.com/camp
 
 In the **mta > child** node, configure the following parameters. This is the configuration of child servers.
 
-For additional information, refer to [Email sending optimization](https://helpx.adobe.com/campaign/standard/installation/using/email-deliverability.html#email-sending-optimization).
+For additional information, refer to [Email sending optimization](../../installation/using/email-deliverability.md#email-sending-optimization).
 
 <table> 
  <thead> 
@@ -1809,7 +1809,7 @@ In the **mta > child > smtp** node, configure the following parameters. This is 
 
 In the **mta > child > smtp > IPAffinity** node, configure the following parameters. This is the configuration of the management of affinities with IP addresses for optimized outgoing SMTP traffic.
 
-For additional information, refer to [List of IP addresses to use](https://helpx.adobe.com/campaign/standard/installation/using/email-deliverability.html#list-of-ip-addresses-to-use) and [Managing outbound SMTP traffic with affinities](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#managing-outbound-smtp-traffic-with-affinities).
+For additional information, refer to [List of IP addresses to use](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use) and [Managing outbound SMTP traffic with affinities](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities).
 
 <table> 
  <thead> 
@@ -1835,7 +1835,7 @@ For additional information, refer to [List of IP addresses to use](https://helpx
 
 In the **mta > child > smtp > IP** node, configure the following parameters.
 
-For additional information, refer to [List of IP addresses to use](https://helpx.adobe.com/campaign/standard/installation/using/email-deliverability.html#list-of-ip-addresses-to-use).
+For additional information, refer to [List of IP addresses to use](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
 
 <table> 
  <thead> 
@@ -1853,7 +1853,7 @@ For additional information, refer to [List of IP addresses to use](https://helpx
   </tr> 
   <tr> 
    <td> publicId<br /> </td> 
-   <td> Associated public address ID. Used as a key for the statistics server. Must be numeric. See this <a href="https://helpx.adobe.com/campaign/classic/installation/using/email-deliverability.html#managing-ip-addresses">section</a>.<br /> </td> 
+   <td> Associated public address ID. Used as a key for the statistics server. Must be numeric. See this <a href="../../installation/using/email-deliverability.md#managing-ip-addresses">section</a>.<br /> </td> 
    <td> Long<br /> </td> 
   </tr> 
   <tr> 
@@ -2043,7 +2043,7 @@ Here are the different parameters of the **pipelined** node. This is the configu
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Time of the day when the process is automatically restarted. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
+   <td> Time of the day when the process is automatically restarted. See <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2107,7 +2107,7 @@ Here are the different parameters of the **repair** node. This is the configurat
 
 Here are the different parameters of the **securityZone** node.
 
-For additional information, refer to [Defining security zones](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#defining-security-zones).
+For additional information, refer to [Defining security zones](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 <table> 
  <thead> 
@@ -2205,7 +2205,7 @@ Here is the default configuration:
 
 Here are the different parameters of the **securityZone > subNetwork** node.
 
-For additional information, refer to [Defining security zones](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#defining-security-zones).
+For additional information, refer to [Defining security zones](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 <table> 
  <thead> 
@@ -2314,7 +2314,7 @@ Here are the different parameters of the **sms** node. This is the configuration
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Time of the day when the process is automatically restarted. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
+   <td> Time of the day when the process is automatically restarted. See <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2414,13 +2414,13 @@ Here are the different parameters of the **stat** node. This is the configuratio
   </tr> 
   <tr> 
    <td> port<br /> </td> 
-   <td> Server listening port. See this <a href="https://helpx.adobe.com/campaign/classic/installation/using/email-deliverability.html#definition-of-the-server-port">section</a>.<br /> </td> 
+   <td> Server listening port. See this <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">section</a>.<br /> </td> 
    <td> Short<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Time of the day when the process is automatically restarted. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
+   <td> Time of the day when the process is automatically restarted. See <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2485,7 +2485,7 @@ Here are the different parameters of the **syslogd** node. This is the configura
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Time of the day when the process is automatically restarted. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
+   <td> Time of the day when the process is automatically restarted. See <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2580,7 +2580,7 @@ Here are the different parameters of the **tracking** node. This is the configur
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Time of the day when the process is automatically restarted. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
+   <td> Time of the day when the process is automatically restarted. See <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2675,7 +2675,7 @@ Here are the different parameters of the **trackinglogd** node. This is the conf
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Time of the day when the process is automatically restarted. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
+   <td> Time of the day when the process is automatically restarted. See <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2704,7 +2704,7 @@ Here are the different parameters of the **trackinglogd** node. This is the conf
 
 Here are the different parameters of the **web** node. This is the configuration of the Web Module.
 
-For additional information, refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/configuring-campaign-server.html#default-port-for-tomcat).
+For additional information, refer to this [section](../../installation/using/configuring-campaign-server.md#default-port-for-tomcat).
 
 <table> 
  <thead> 
@@ -2748,13 +2748,13 @@ For additional information, refer to this [section](https://helpx.adobe.com/camp
   </tr> 
   <tr> 
    <td> controlPort<br /> </td> 
-   <td> Tomcat listening control port: refer to <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#configuring-tomcat" target="_blank">Configuring Tomcat</a>.<br /> </td> 
+   <td> Tomcat listening control port: refer to <a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>.<br /> </td> 
    <td> Short<br /> </td> 
    <td> 8005<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
-   <td> Tomcat HTTP listening port: refer to <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#configuring-tomcat" target="_blank">Configuring Tomcat</a>.<br /> </td> 
+   <td> Tomcat HTTP listening port: refer to <a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>.<br /> </td> 
    <td> Short<br /> </td> 
    <td> 8080<br /> </td> 
   </tr> 
@@ -2790,7 +2790,7 @@ For additional information, refer to this [section](https://helpx.adobe.com/camp
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Time of the day when the process is automatically restarted. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
+   <td> Time of the day when the process is automatically restarted. See <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2924,7 +2924,7 @@ The **web > jsp > classpath** node contains the list of all class paths to use w
 
 Here are the different parameters of the **web > relay** node. This is the configuration of the relay for HTTP requests between two zones.
 
-For additional information, refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/deploying-an-instance.html#synchronizing-public-resources).
+For additional information, refer to this [section](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
 <table> 
  <thead> 
@@ -2958,7 +2958,7 @@ For additional information, refer to this [section](https://helpx.adobe.com/camp
    <td> modDir<br /> </td> 
    <td> Value of the 'mod_dir' module option: list of files to be used during a query on a folder.<br /> </td> 
    <td> String<br /> </td> 
-   <td> 'index.html' <br /> </td> 
+   <td> 'index.md' <br /> </td> 
   </tr> 
   <tr> 
    <td> startRelay<br /> </td> 
@@ -2983,7 +2983,7 @@ For additional information, refer to this [section](https://helpx.adobe.com/camp
 
 Add a **web > relay > url** node for each URL to relay (insert order defines priority) with the following parameters.
 
-For additional information, refer to [Dynamic page security and relays](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#dynamic-page-security-and-relays) and [section](https://helpx.adobe.com/campaign/classic/installation/using/deploying-an-instance.html#synchronizing-public-resources).
+For additional information, refer to [Dynamic page security and relays](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) and [section](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
 <table> 
  <thead> 
@@ -3039,7 +3039,7 @@ For additional information, refer to [Dynamic page security and relays](https://
   </tr> 
   <tr> 
    <td> targetUrl<br /> </td> 
-   <td> URL of the target page: refer to <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#configuring-tomcat" target="_blank">Configuring Tomcat</a>.<br /> </td> 
+   <td> URL of the target page: refer to <a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3116,7 +3116,7 @@ Here is the default configuration:
 <url IPMask="" deny="" hostMask="" relayHost="false" relayPath="false" targetUrl=""
      timeout="" status="spare" httpAllowed="true" urlPath="/favicon.*"/>
 <url IPMask="" deny="" hostMask="" relayHost="false" relayPath="false" targetUrl=""
-     timeout="" status="spare" httpAllowed="true" urlPath="/*.html"/>
+     timeout="" status="spare" httpAllowed="true" urlPath="/*.md"/>
 <url IPMask="" deny="" hostMask="" relayHost="false" relayPath="false" targetUrl=""
      timeout="" status="spare" httpAllowed="true" urlPath="/*.png"/>
 <url IPMask="" deny="" hostMask="" relayHost="false" relayPath="false" targetUrl=""
@@ -3125,7 +3125,7 @@ Here is the default configuration:
 
 Add a **web > relay > responseHeader** node for each HTTP header to add to replies forwarded to the relay.
 
-For additional information, refer to [Managing HTTP headers](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#managing-http-headers).
+For additional information, refer to [Managing HTTP headers](../../installation/using/configuring-campaign-server.md#managing-http-headers).
 
 <table> 
  <thead> 
@@ -3159,7 +3159,7 @@ Here is the default configuration:
 
 Here are the different parameters of the **web > redirection** node. This is the configuration of the redirection module.
 
-For additional information, refer to this [section](https://helpx.adobe.com/campaign/classic/installation/using/deploying-an-instance.html#synchronizing-public-resources).
+For additional information, refer to this [section](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
 <table> 
  <thead> 
@@ -3242,7 +3242,7 @@ For additional information, refer to this [section](https://helpx.adobe.com/camp
 
 Here are the different parameters of the **web > redirection > spareServer** node.
 
-For additional information, refer to [Redundant tracking](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#redundant-tracking). 
+For additional information, refer to [Redundant tracking](../../installation/using/configuring-campaign-server.md#redundant-tracking). 
 
 <table> 
  <thead> 
@@ -3279,7 +3279,7 @@ For additional information, refer to [Redundant tracking](https://helpx.adobe.co
 
 Here are the different parameters of the **web > spamCheck** node. This is the configuration the Email anti-spam scoring evaluation parameters.
 
-For additional information, refer to [Configuring SpamAssassin](https://helpx.adobe.com/campaign/standard/installation/using/configuring-spamassassin.html).
+For additional information, refer to [Configuring SpamAssassin](../../installation/using/configuring-spamassassin.md).
 
 <table> 
  <thead> 
@@ -3302,7 +3302,7 @@ For additional information, refer to [Configuring SpamAssassin](https://helpx.ad
 
 Here are the different parameters of the **wfserver** node. This is the workflow process configuration.
 
-For additional information, refer to [High availability workflows and affinities](https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#high-availability-workflows-and-affinities).
+For additional information, refer to [High availability workflows and affinities](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
 
 <table> 
  <thead> 
@@ -3364,7 +3364,7 @@ For additional information, refer to [High availability workflows and affinities
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Time of the day when the process is automatically restarted. See <a href="https://helpx.adobe.com/campaign/standard/installation/using/configuring-campaign-server.html#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
+   <td> Time of the day when the process is automatically restarted. See <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Automatic process restart</a>.<br /> </td> 
    <td> String<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 

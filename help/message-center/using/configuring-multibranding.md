@@ -34,7 +34,7 @@ To configure multibranding, you need to configure both execution instances and c
 
    >[!NOTE]
    >
-   >Creating an execution instance type external account is presented in the [Control instance](https://helpx.adobe.com/campaign/standard/message-center/using/creating-a-shared-connection.html#control-instance) section.
+   >Creating an execution instance type external account is presented in the [Control instance](../../message-center/using/creating-a-shared-connection.md#control-instance) section.
 
 1. Extend the nms:extAccount schema to add the tracking URL:
 
@@ -47,7 +47,7 @@ To configure multibranding, you need to configure both execution instances and c
 
    >[!NOTE]
    >
-   >Extending an existing schema is presented in the [Extending a schema](https://helpx.adobe.com/campaign/classic/configuration/using/extending-a-schema.html) section.
+   >Extending an existing schema is presented in the [Extending a schema](../../configuration/using/extending-a-schema.md) section.
 
 1. Modify the nms:extAccount form:
 
