@@ -17,7 +17,7 @@ snippet: y
 ---
 
 # Elements and attributes{#elements-and-attributes}
-
+<!--
 When editing a schema, an approval system based on the source schema (xtk:srcSchema) is available. Some errors can also be spotted when updating the database using the "Database structure update..." wizard.
 
 By default, in Adobe Campaign schemas, all boolean type attributes are "false". To activate them, you need to specify the attribute in the schema and set its value to "true".
@@ -48,7 +48,7 @@ _operation (string), advanced (boolean), applicableIf (string), autoIncrement (b
 
 `<attribute>  elements must be declared in an  <element>   element.  </element> </attribute>`
 
-The sequence in which `<attribute>  elements are defined in an  <srcschema>   does not affect the field creation sequence in the database. The creation sequence will be alphabetical.  </srcschema> </attribute>`
+The sequence in which `<attribute>`  elements are defined in an  `<srcschema> `  does not affect the field creation sequence in the database. The creation sequence will be alphabetical. 
 
 ### Attribute description {#attribute-description}
 
@@ -1249,3 +1249,4 @@ This element lets you define the values stored in an enumeration.
     </enumeration>
 ```
 
+-->
