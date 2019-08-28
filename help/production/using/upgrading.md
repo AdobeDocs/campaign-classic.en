@@ -38,7 +38,7 @@ To update Adobe Campaign in a new version when delivering a new build, the follo
 * [Synchronize resources](../../production/using/upgrading.md#synchronize-resources),
 * [Restart services](../../production/using/upgrading.md#restart-services).
 
-To find out how to update the client console, refer to [this section](../../installation/using/client-console-availability.md).
+To find out how to update the client console, refer to [this section](../../installation/using/client-console-availability-for-windows.md).
 
 ### Shut down services {#shut-down-services}
 
@@ -118,7 +118,7 @@ To update Adobe Campaign in a new version when a new build is delivered, the pro
 * [Perform an update](../../production/using/upgrading.md#perform-an-update),
 * [Reboot the web server](../../production/using/upgrading.md#reboot-the-web-server).
 
-To find out how to update the client console, refer to [this section](../../installation/using/client-console-availability.md).
+To find out how to update the client console, refer to [this section](../../installation/using/client-console-availability-for-linux.md).
 
 >[!NOTE]
 >

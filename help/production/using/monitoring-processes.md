@@ -605,7 +605,7 @@ This **jsp** represents the point of entry of Adobe Campaign application APIs. I
 
 ### Monitoring based on deployment types {#monitoring-based-on-deployment-types}
 
-Adobe Campaign enables various deployment configurations (for more on this, refer to [this section](../../installation/using/introduction.md)). This section details the various automatic monitoring techniques to be applied depending on your type of installation.
+Adobe Campaign enables various deployment configurations (for more on this, refer to [this section](../../installation/using/hosting-models.md)). This section details the various automatic monitoring techniques to be applied depending on your type of installation.
 
 <table> 
  <thead> 
