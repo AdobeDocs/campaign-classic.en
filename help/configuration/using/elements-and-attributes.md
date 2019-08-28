@@ -17,6 +17,9 @@ snippet: y
 ---
 
 # Elements and attributes{#elements-and-attributes}
+
+To Be Corrected
+
 <!--
 When editing a schema, an approval system based on the source schema (xtk:srcSchema) is available. Some errors can also be spotted when updating the database using the "Database structure update..." wizard.
 
