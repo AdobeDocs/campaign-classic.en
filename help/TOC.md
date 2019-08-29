@@ -7,7 +7,7 @@ index: n
 
 # Adobe Campaign Classic Help {#using}
 
-
++ [Product documentation](campaign-classic-home.md)
 + Release Notes {#release-notes}
   + Latest Release notes {#latest-release-notes}
        + [Release 19.1.2 - Build 9029](rn/using/release-19-1-2-build-9029.md)
@@ -217,7 +217,7 @@ index: n
        + [Using cubes to explore data](reporting/using/using-cubes-to-explore-data.md)
        + [Concepts and methodology](reporting/using/concepts-and-methodology.md)
        + [Use case: displaying report on answers to an online survey](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
-+ Designing Content {#designing-content}
++ Designing web content {#designing-content}
   + Web applications {#web-applications}
        + [About web applications](web/using/about-web-applications.md)
        + [Creating a new web application](web/using/creating-a-new-web-application.md)
@@ -491,7 +491,7 @@ index: n
        + [Purpose](message-center/using/purpose.md)
        + [Important notes](message-center/using/important-notes.md)
        + [Implementation](message-center/using/implementation.md)
-+ Integrating with Social medias {#integrating-with-social-medias}
++ Integrating with Social media {#integrating-with-social-medias}
   + Introduction {#introduction}
        + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}
