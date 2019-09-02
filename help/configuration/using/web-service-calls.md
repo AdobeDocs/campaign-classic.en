@@ -164,6 +164,7 @@ The `<porttype>` associates the messages on the "ExecuteQuery" operation trigger
 #### Binding {#binding}
 
 The `<binding>` part specifies the SOAP communication protocol ( `<soap:binding>` ), data transport in HTTP (value of the "transport" attribute) and the data format for the "ExecuteQuery" operation. The body of the SOAP envelope contains the message segments directly without transformation. 
+
 ```
 <binding name="queryDefMethodsSoap" type="tns:queryDefMethodsSoap">
   <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
