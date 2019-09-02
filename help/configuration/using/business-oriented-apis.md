@@ -67,7 +67,7 @@ Description of the "subscribe" method in the "nms:subscription" schema:
 
 ```
 
-The definition of the reconciliation key must be entered via the _**key** attribute on the `<recipient>  element of the XML document. The content of this attribute is a comma-separated XPath list. </recipient>`
+The definition of the reconciliation key must be entered via the _**key** attribute on the `<recipient>` element of the XML document. The content of this attribute is a comma-separated XPath list.
 
 This call does not return any data, except errors.
 
@@ -141,7 +141,7 @@ Description of the "Unsubscribe" method in the "nms:subscription" schema:
 
 ```
 
-The definition of the reconciliation key must be entered via the **_key** attribute on the `<recipient a="" attribute="" comma-separated="" content="" document.="" element="" is="" of="" p="" the="" this="" xml="" xpath=""> </recipient>`
+The definition of the reconciliation key must be entered via the _key attribute on the `<recipient>` element of the XML document. The content of this attribute is a comma-separated XPath list.
 
 If the recipient is not present in the database or is not subscribed to the concerned information service, the service performs no action and does not generate an error.
 
@@ -215,7 +215,7 @@ This call does not return any data, except errors.
 
 ### XML document example {#xml-document-example}
 
-This example is based on a custom delivery template from an external data source (a file in this case). The configuration is fully described in the delivery template, so all that remains to be sent when the call occurs is the content of the file from the `<externalsource>  element. </externalsource>`
+This example is based on a custom delivery template from an external data source (a file in this case). The configuration is fully described in the delivery template, so all that remains to be sent when the call occurs is the content of the file from the `<externalsource>` element.
 
 ```
 <delivery>

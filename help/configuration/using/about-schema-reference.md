@@ -45,9 +45,9 @@ The following illustration shows the location of schemas in the Adobe Campaign d
 
 ## Syntax of schemas {#syntax-of-schemas}
 
-The root element of the schema is ** `<srcschema>`**. It contains the ** `<element>`** and ** `<attribute>`** sub-elements.
+The root element of the schema is **`<srcschema>`**. It contains the ** **`<element>`** and **`<attribute>`** sub-elements.
 
-The first ** `<element>`** sub-element coincides with the root of the entity.
+The first **`<element>`** sub-element coincides with the root of the entity.
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -67,7 +67,7 @@ The first ** `<element>`** sub-element coincides with the root of the entity.
 
 ![](assets/s_ncs_configuration_schema_and_entity.png)
 
-The ** `<element>`** tags define the names of entity elements. ** `<attribute>`** tags of the schema define the names of the attributes in the ** `<element>`** tags which they have been linked to.
+The **`<element>`** tags define the names of entity elements. **`<attribute>`** tags of the schema define the names of the attributes in the **`<element>`** tags which they have been linked to.
 
 ## Identification of a schema {#identification-of-a-schema}
 
@@ -77,7 +77,8 @@ A namespace lets you group a set of schemas by area of interest. For example, th
 
 >[!CAUTION]
 >
->As a standard, the name of the namespace must be concise and must contain only authorized characters in accordance with XML naming rules.   
+>As a standard, the name of the namespace must be concise and must contain only authorized characters in accordance with XML naming rules.
+>
 >Identifiers must not begin with numeric characters.
 
 Certain namespaces are reserved for descriptions of the system entities required for the operation of the Adobe Campaign application:

@@ -34,9 +34,9 @@ XML documents are stored in MEMO type fields of the database.
 
 You must be familiar with the Adobe Campaign data model to be able to address the fields of the database in your scripts.
 
-For a presentation of the data model, refer to the [Adobe Campaign Data model description](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.md).
+For a presentation of the data model, refer to the [Adobe Campaign Data model description](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html).
 
-In order to generate its structure, refer to this article: [How to generate a Data Model or Data Dictionary](https://helpx.adobe.com/campaign/kb/generate-data-model.md).
+In order to generate its structure, refer to this article: [How to generate a Data Model or Data Dictionary](https://helpx.adobe.com/campaign/kb/generate-data-model.html).
 
 ## Query and Writer {#query-and-writer}
 
@@ -117,7 +117,7 @@ The structure of the XML document of the query is described in the "xtk:queryDef
 </queryDef>
 ```
 
-A sub-query ( `<subquery>  ) can be defined in a  <condition>   element. The syntax for a   <subquery>    element is based on the syntax of a    <querydef>     .    </querydef>   </subquery>  </condition> </subquery>`
+A sub-query ( `<subquery>`  ) can be defined in a  `<condition> `  element. The syntax for a   `<subquery> `   element is based on the syntax of a    `<querydef>`. 
 
 Example of a `<subquery>  : </subquery>`
 
@@ -194,7 +194,7 @@ Returns the list of recipients filtered on a folder and the e-mail domain with a
 
 Expressions can be simple fields or complex expressions such as arithmetic operations or the concatenation of strings.
 
-To limit the number of records to be returned, add the **lineCount** attribute to the `<querydef p=""> </querydef>`
+To limit the number of records to be returned, add the **lineCount** attribute to the `<querydef>` element.
 
 To limit the number of records returned by the query to 100:
 
@@ -225,7 +225,7 @@ To count the number of records on a query:
 
 >[!NOTE]
 >
->Again we use the condition from the previous example. The `<select> and clauses are not used. </select>`
+>Again we use the condition from the previous example. The `<select>` and clauses are not used. </select>`
 
 #### Data grouping {#data-grouping}
 
@@ -263,7 +263,7 @@ The query can be simplified by adding the **groupBy** attribute directly to the 
 
 >[!NOTE]
 >
->It is no longer necessary to populate the `<groupby>  element.  <br /> </groupby>`
+>It is no longer necessary to populate the `<groupby>` element.
 
 #### Bracketing in conditions {#bracketing-in-conditions}
 
@@ -278,7 +278,7 @@ Here are two examples of bracketing on the same condition.
   
   ```
 
-* The structured version with `<condition>  elements: </condition>`
+* The structured version with `<condition>` elements:
 
   ```
   <where>
@@ -345,7 +345,7 @@ This syntax simplifies the query when more than two data are used in the conditi
   
   ```
 
-  Direct retrieval of the fields of a collection link from the `<select> clause is not recommended because the query returns a cardinal product. It is used only when the linked table contains only one record (example </select>`
+  Direct retrieval of the fields of a collection link from the `<select>` clause is not recommended because the query returns a cardinal product. It is used only when the linked table contains only one record (example `<node expr="">`).
 
   Example on the "subscription" collection link:
 
@@ -355,9 +355,9 @@ This syntax simplifies the query when more than two data are used in the conditi
   </select>
   ```
 
-  It is possible to retrieve a sub-list containing the elements of a collection link in the `<select> clause. The XPaths of the referenced fields are contextual from the collection element. </select>`
+  It is possible to retrieve a sub-list containing the elements of a collection link in the `<select>` clause. The XPaths of the referenced fields are contextual from the collection element.
 
-  The filtering ( `<orderby>  ) and restriction (  <where>   ) elements can be added to the collection element.  </where> </orderby>`
+  The filtering ( `<orderby>`  ) and restriction (  `<where>`  ) elements can be added to the collection element.
 
   In this example, for each recipient the query returns the e-mail and list of information services to which the recipient subscribes:
 
@@ -615,7 +615,7 @@ Associating the folder with a recipient based on its internal name (@name).
 
 The "_key" and "_operation" attributes can be entered on a linked element. The behavior on this element is the same as on the main element of the input schema.
 
-The definition of the key of the main entity ("nms:recipient") consists of a field from a linked table (element `<folder>  schema "xtk:folder") and the e-mail. </folder>`
+The definition of the key of the main entity ("nms:recipient") consists of a field from a linked table (element `<folder>`  schema "xtk:folder") and the e-mail.
 
 >[!NOTE]
 >
@@ -645,7 +645,7 @@ Adding a recipient to a group with the group relation table ("nms:rcpGrpRel"):
 
 >[!NOTE]
 >
->The definition of the key is not entered in the `<rcpgroup>  element because an implicit key based on the group name is defined in the "nms:group" schema.  <br /> </rcpgroup>`
+>The definition of the key is not entered in the `<rcpgroup>` element because an implicit key based on the group name is defined in the "nms:group" schema.
 
 ### XML collection elements {#xml-collection-elements}
 

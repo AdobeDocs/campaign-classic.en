@@ -41,7 +41,7 @@ The SQL mapping of our example schema gives the following XML document:
 
 ## Description {#description}
 
-The root element of the schema is no longer ** `<srcschema>`**, but ** `<schema>`**.
+The root element of the schema is no longer **`<srcschema>`**, but **`<schema>`**.
 
 This takes us to another type of document, which is generated automatically from the source schema, simply referred to as the schema. This schema will be used by the Adobe Campaign application.
 
@@ -59,7 +59,7 @@ The SQL naming rules are as follows:
 
 * field: name of the element preceded by a prefix defined according to type ('i' for integer, 'd' for double, 's' for string, 'ts' for dates, etc.)
 
-  The field name is entered via the **sqlname** attribute for each typed ** `<attribute>`** and ** `<element>`**:
+  The field name is entered via the **sqlname** attribute for each typed **`<attribute>`** and **`<element>`**:
 
   ```
   <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
@@ -86,7 +86,7 @@ The SQL field constraints are as follows:
 
 ## XML fields {#xml-fields}
 
-By default, any typed ** `<attribute>`** and ** `<element>`** element is mapped onto an SQL field of the data schema table. You can, however, reference this field in XML instead of SQL, which means that the data is stored in a memo field ("mData") of the table containing the values of all XML fields. The storage of these data is an XML document that observes the schema structure.
+By default, any typed **`<attribute>`** and **`<element>`** element is mapped onto an SQL field of the data schema table. You can, however, reference this field in XML instead of SQL, which means that the data is stored in a memo field ("mData") of the table containing the values of all XML fields. The storage of these data is an XML document that observes the schema structure.
 
 To populate a field in XML, you must add the **xml** attribute with the value "true" to the element concerned.
 
@@ -383,7 +383,7 @@ A link must be declared in the schema containing the foreign key of the table li
 
 Links obey the following rules:
 
-* The definition of a link is entered on a **link**-type ** `<element>`** with the following attributes:
+* The definition of a link is entered on a **link**-type **`<element>`** with the following attributes:
 
     * **name**: name of link from the source table,
     * **target**: name of target schema,
@@ -402,7 +402,7 @@ Links obey the following rules:
     * **externalJoin** (optional): forces the outer join
     * **revExternalJoin** (optional): forces the outer join on the reverse link
 
-* A link references one or more fields from the source table to the destination table. The fields making up the join ( `<join>  element) need not be populated because they are automatically deduced by default using the internal key of the target schema. </join>`
+* A link references one or more fields from the source table to the destination table. The fields making up the join ( `<join>`  element) need not be populated because they are automatically deduced by default using the internal key of the target schema.
 * An index is automatically added to the foreign key of the link in the extended schema.
 * A link consists of two half-links, where the first is declared from the source schema and the second is created automatically in the extended schema of the target schema.
 * A join can be an outer join if the **externalJoin** attribute is added, with the value "true" (supported in PostgreSQL).

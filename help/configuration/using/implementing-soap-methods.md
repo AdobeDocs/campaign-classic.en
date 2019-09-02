@@ -85,7 +85,6 @@ function nms_recipient_testLog(message)
  {
    logInfo("*** " + message)
  }
-
 ```
 
 **2. Signature**
@@ -109,7 +108,6 @@ function nms_recipient_setLastName(self, name)
    self.@lastName = name
    return self
  }
-
 ```
 
 When several values are to be returned, they must be displayed in a table.

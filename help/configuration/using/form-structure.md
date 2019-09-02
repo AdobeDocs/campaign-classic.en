@@ -20,8 +20,7 @@ snippet: y
 
 The description of a form is a structured XML document that observes the grammar of the form schema **xtk:form**.
 
-The XML document of the input form must contain the ****
-`<form>  root element with the  <strong>name</strong> and  <strong>namespace</strong> attributes to populate the form name and namespace.  <p></p> </form>` 
+The XML document of the input form must contain the `<form>` root element with the  **name** and  **namespace** attributes to populate the form name and namespace.
 
 ```
 <form name="form_name" namespace="name_space">
@@ -29,8 +28,7 @@ The XML document of the input form must contain the ****
 </form>
 ```
 
-By default, a form is associated with the data schema with the same name and namespace. To associate a form with a different name, set the **entity-schema** attribute of the 
-`<form>  element to the name of the schema key.  <p></p> </form>` To illustrate the structure of an input form, let us describe an interface using the "cus:recipient" example schema:
+By default, a form is associated with the data schema with the same name and namespace. To associate a form with a different name, set the **entity-schema** attribute of the `<form>` element to the name of the schema key. To illustrate the structure of an input form, let us describe an interface using the "cus:recipient" example schema:
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -60,8 +58,7 @@ The input form based on the example schema:
 </form>
 ```
 
-The description of the edit controls starts from the 
-`<form>  root element.  <p></p> </form>` An edit control is entered in an **`<input>`** element with the **xpath** attribute containing the path of the field in its schema.
+The description of the edit controls starts from the `<form>` root element. An edit control is entered in an **`<input>`** element with the **xpath** attribute containing the path of the field in its schema.
 
 The edit control automatically adapts to the corresponding data type and uses the label defined in the schema.
 
@@ -90,7 +87,7 @@ To display the controls of the above example in two columns:
 </form>
 ```
 
-The ** `<container>`** element with the **colcount** attribute lets you force the display of child controls onto two columns.
+The **`<container>`** element with the **colcount** attribute lets you force the display of child controls onto two columns.
 
 The **colspan** attribute on a control extends the control by the number of columns entered in its value:
 
@@ -136,13 +133,13 @@ A **`<static>`** element can be used to format the input form:
 
 The **`<static>`** tag with the **separator** type lets you add a separator bar with a label contained in the **label** attribute.
 
-A help text was added using the `<static a="" tag="" with="">  help type. The content of the text is entered in the  <strong>label</strong> attribute. </static>`
+A help text was added using the `<static>` tag with help type. The content of the text is entered in the **label** attribute.
 
 ## Containers {#containers}
 
-Containers let you group a set of controls. They are represented by the ** `<container>`** element. They were used above to format controls over several columns.
+Containers let you group a set of controls. They are represented by the **`<container>`** element. They were used above to format controls over several columns.
 
-The **xpath** attribute on a `<container>  lets you simplify the referencing of child controls. The referencing of controls is then relative to the parent  <container>   parent.  </container> </container>`
+The **xpath** attribute on a `<container>` lets you simplify the referencing of child controls. The referencing of controls is then relative to the parent `<container>` parent.
 
 Example of a container without "xpath":
 
@@ -189,7 +186,8 @@ The main container is defined by the **type="notebook"** attribute. Tabs are dec
 
 >[!NOTE]
 >
->A **style="down|up**(by default)**"** feature forces the vertical positioning of tab labels below or above the control. This feature is optional.  
+>A **style="down|up**(by default)**"** feature forces the vertical positioning of tab labels below or above the control. This feature is optional. 
+>![](assets/d_ncs_integration_form_exemple7.png) 
 >`<container style="down" type="notebook">  ... </container>`
 
 #### Icon list {#icon-list}
@@ -281,7 +279,7 @@ The **[!UICONTROL Modify the link]** (folder) icon launches a selection form wit
 
 The **[!UICONTROL Edit link]** (magnifier) icon launches the edit form of the linked element. The form used is deduced by default on the key of the targeted schema. The **form** attribute lets you force the name of the edit form (e.g. "cus:company2").
 
-You can restrict the choice of target elements by adding the ** `<sysfilter>`** element from the link definition in the input form:
+You can restrict the choice of target elements by adding the **`<sysfilter>`** element from the link definition in the input form:
 
 ```
 <input xpath="company">
@@ -291,7 +289,7 @@ You can restrict the choice of target elements by adding the ** `<sysfilter>`** 
 </input>
 ```
 
-You can also sort the list with the ** `<orderby>`** element:
+You can also sort the list with the **`<orderby>`** element:
 
 ```
 <input xpath="company">
@@ -466,8 +464,7 @@ Insertion and editing of the data in a list can be entered in a separate edit fo
 </input>
 ```
 
-The edit form is completed from the ****
-`<form>  element under list definition. Its structure is identical to that of an input form.  <p></p> </form>` The **[!UICONTROL Detail]** button is added automatically when the **zoom="true"** attribute is completed on the **`<input>`** tag of the list. This attribute lets you launch the edit form of the selected line.
+The edit form is completed from the `<form>`  element under list definition. Its structure is identical to that of an input form. The **[!UICONTROL Detail]** button is added automatically when the **zoom="true"** attribute is completed on the **`<input>`** tag of the list. This attribute lets you launch the edit form of the selected line.
 
 >[!NOTE]
 >
@@ -486,7 +483,7 @@ The edit form is completed from the ****
 
 ## Non-editable fields {#non-editable-fields}
 
-To display a field and prevent it from being edited, use the ** `<value>`** tag or complete the **readOnly="true"** attribute on the **`<input>`** tag.
+To display a field and prevent it from being edited, use the **`<value>`** tag or complete the **readOnly="true"** attribute on the **`<input>`** tag.
 
 Example on the "Gender" field:
 
@@ -527,7 +524,7 @@ A checkbox reflects a Boolean state (selected or not). By default, this control 
 
 This control builds a tree on a set of fields to be edited.
 
-The controls to be edited are grouped in a ** `<container>`** entered under the **`<input>`** tag of the tree control:
+The controls to be edited are grouped in a **`<container>`** entered under the **`<input>`** tag of the tree control:
 
 ```
 <input nolabel="true" type="treeEdit">
@@ -585,13 +582,13 @@ The context of the form can be updated when initializing and closing the form vi
 
 >[!NOTE]
 >
->The `<enter>`  and  `<leave>`   tags can be used on the  `<container>`    of pages ("notebook" and "iconbox" types).    
+>The `<enter>`  and  `<leave>`   tags can be used on the `<container>` of pages ("notebook" and "iconbox" types).    
 
 ### Expression language {#expression-language-}
 
 A macro-language can be used in form definition in order to perform conditional tests.
 
-The ** `<if expr="<expression>" />`** tag executes the instructions specified under the tag if the expression is verified:
+The **`<if expr="<expression>" />`** tag executes the instructions specified under the tag if the expression is verified:
 
 ```
 <if expr="([/tmp/@test] == 'Test' or @lastName != 'Doe') and @boolean2 == true">
@@ -599,7 +596,7 @@ The ** `<if expr="<expression>" />`** tag executes the instructions specified un
 </if>
 ```
 
-The ** `<check expr="<condition>" />`** tag combined with the ** `<error>`** tag prevents validation of the form and displays an error message if the condition is not satisfied:
+The **`<check expr="<condition>" />`** tag combined with the **`<error>`** tag prevents validation of the form and displays an error message if the condition is not satisfied:
 
 ```
 <leave>
@@ -631,15 +628,13 @@ A wizard has the following structure:
 
 ![](assets/d_ncs_integration_form_exemple19.png)
 
-The presence of the **type="wizard"** attribute on the ****
-`<form>  element lets you define the wizard mode in the construction of the form.  <p></p> </form>` The pages are completed from `<container are="" children="" of="" the="" which="" />`
-`<form>  element. The  <container a="" element="" is="" of="" page="" populated="" the="" with="">   title attributes for the title and   <strong>desc</strong> to display the description under the page title.   <p></p>  </container> </form>` The **[!UICONTROL Previous]** and **[!UICONTROL Next]** buttons are automatically added to allow browsing between pages.
+The presence of the **type="wizard"** attribute on the `<form>` element lets you define the wizard mode in the construction of the form. The pages are completed from `<container>` elements, which are children of the `<form>` element. The `<container>` element of a page is populated with the title attributes for the title and desc to display the description under the page title. The **[!UICONTROL Previous]** and **[!UICONTROL Next]** buttons are automatically added to allow browsing between pages.
 
 The **[!UICONTROL Finish]** button saves the data entered and closes the form.
 
 ### SOAP methods {#soap-methods}
 
-SOAP method execution can be launched from a populated ** `<leave>`** tag at the end of a page.
+SOAP method execution can be launched from a populated **`<leave>`** tag at the end of a page.
 
 The **`<soapcall>`** tag contains the call for the method with the following input parameters:
 
@@ -650,9 +645,9 @@ The **`<soapcall>`** tag contains the call for the method with the following inp
 </soapCall>
 ```
 
-The name of the service and its implementation schema are entered via the **name** and **service** attributes of the ** `<soapcall>`** tag.
+The name of the service and its implementation schema are entered via the **name** and **service** attributes of the **`<soapcall>`** tag.
 
-The input parameters are described on the **`<param>`** elements under the ** `<soapcall>`** tag.
+The input parameters are described on the **`<param>`** elements under the **`<soapcall>`** tag.
 
 The parameter type must be specified via the **type** attribute. The possible types are as follows:
 

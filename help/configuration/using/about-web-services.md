@@ -94,13 +94,13 @@ For further information, refer to [ExecuteQuery (xtk:queryDef)](../../configurat
 
 ```
 
-The `<soap-env:envelope>  element is the first element of the message representing the SOAP envelope. </soap-env:envelope>`
+The `<soap-env:envelope>` element is the first element of the message representing the SOAP envelope.
 
-The `<soap-env:body>  element is the first child element of the envelope. It contains the description of the message, i.e. the content of the query or the response. </soap-env:body>`
+The `<soap-env:body>` element is the first child element of the envelope. It contains the description of the message, i.e. the content of the query or the response.
 
-The method to be invoked is entered in the `<executequery>  element from the body of the SOAP message. </executequery>`
+The method to be invoked is entered in the `<executequery>` element from the body of the SOAP message.
 
-In SOAP, the parameters are recognized by order of appearance. The first parameter, <__sessiontoken>, takes the authentication chain, the second parameter is the XML description of the query from the `<querydef>  element. </querydef>`
+In SOAP, the parameters are recognized by order of appearance. The first parameter, `<__sessiontoken>`, takes the authentication chain, the second parameter is the XML description of the query from the `<querydef>` element.
 
 ### SOAP response {#soap-response}
 
@@ -118,7 +118,7 @@ In SOAP, the parameters are recognized by order of appearance. The first paramet
 
 ```
 
-The result of the query is entered from the `<pdomoutput>  element. </pdomoutput>`
+The result of the query is entered from the `<pdomoutput>` element.
 
 ## Error management {#error-management}
 
@@ -139,19 +139,19 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 
 ```
 
-The `<soap-env:fault>  element in the body of the SOAP message is used to convey the error signals arising during the processing of the Web service. This is composed of the following sub-elements: </soap-env:fault>`
+The `<soap-env:fault>` element in the body of the SOAP message is used to convey the error signals arising during the processing of the Web service. This is composed of the following sub-elements:
 
-* `<faultcode>  : indicates the type of error. The error types are: </faultcode>`
+* `<faultcode>` : indicates the type of error. The error types are:
 
     * "VersionMismatch" in the event of incompatibility with the SOAP version used,
     * "MustUnderstand" in the event of a problem in the message header,
     * "Client" in the event that the client is missing some information,
     * "Server" in the event that the server has a problem executing the processing.
 
-* `<faultstring>  : message describing the error </faultstring>`
-* `<detail>  : long error message </detail>`
+* `<faultstring>` : message describing the error
+* `<detail>` : long error message
 
-The success or failure of the service invocation is identified when the `<faultcode>  element is verified. </faultcode>`
+The success or failure of the service invocation is identified when the `<faultcode>` element is verified.
 
 >[!CAUTION]
 >
@@ -180,6 +180,6 @@ To submit the Web service, the Adobe Campaign server that implements the corresp
 
 The server URL is as follows:
 
-[https:// `<server>  /nl/jsp/soaprouter.jsp </server>`](https://XXXX//nl/jsp/soaprouter.jsp)
+[https://`<server>`/nl/jsp/soaprouter.jsp`](https://XXXX//nl/jsp/soaprouter.jsp)
 
-With ** `<server>`** the Adobe Campaign application server (**nlserver web**).
+With **`<server>`** the Adobe Campaign application server (**nlserver web**).

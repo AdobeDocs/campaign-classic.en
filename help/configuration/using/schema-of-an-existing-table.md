@@ -45,8 +45,7 @@ To create the corresponding schema, apply the following stages:
 
    ![](assets/s_ncs_configuration_view_create_schema.png)
 
-   >[!CAUTION]
-   >
+   The schema must be populated with the view="true" attribute on the `<srcSchema>` root element in order not to generate a table creation SQL script.
 
 **Example** :
 

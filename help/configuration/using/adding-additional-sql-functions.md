@@ -78,7 +78,7 @@ The function(s) to be added can be found in the **"package" file** in XML format
   This means that if another list of functions with the same namespace/name pair (here "cus::myList") is imported, the previously imported functions will be deleted. Conversely, if you change this namespace/name pair, the new series of imported functions will be added to the previous one.
 
 * The **group** element lets you specify the function group in which the imported function(s) will appear in the function editor. The @name attribute can either be a name that already exists (in which case the functions will be added to the considered group) or a new name (in which case it will appear in a new group).
-* Reminder: possible values for the @name attribute in the `<group>  element are: </group>`
+* Reminder: possible values for the @name attribute in the `<group>` element are:
 
   ```
 
@@ -116,7 +116,7 @@ Below is an example of a "relative maturity" function which, using an age, indic
 
 ```
 
-The **@name** field refers the name of the function, and "args" is the list of parameters that will be displayed in the description. In this case, the function will appear as "relativeMaturity ( `<age>  )" in the function selection window. </age>`
+The **@name** field refers the name of the function, and "args" is the list of parameters that will be displayed in the description. In this case, the function will appear as "relativeMaturity ( `<age>` )" in the function selection window.
 
 * **help** is the field displayed at the bottom of the expression editor window.
 * **@display** is an informative message.
@@ -142,7 +142,7 @@ The **@name** field refers the name of the function, and "args" is the list of p
 
 ## 'Pass-through' function descriptor {#pass-through--function-descriptor}
 
-A special function descriptor is the ** "pass-through"** block, with an unspecified "provider" database system. In this case, "body" implementation can only contain a single function call with a syntax that is not dependent on the database used. Meanwhile, the "ProviderPart" block is unique.
+A special function descriptor is the **"pass-through"** block, with an unspecified "provider" database system. In this case, "body" implementation can only contain a single function call with a syntax that is not dependent on the database used. Meanwhile, the "ProviderPart" block is unique.
 
 ```
 

@@ -32,14 +32,14 @@ Web services let you create many applications from a third-party system:
 
 The definition of the Web services implemented on the Adobe Campaign application server is available from the data schemas.
 
-A Web service is described in the grammar of the data schemas and is available from the ** `<methods>`** element.
+A Web service is described in the grammar of the data schemas and is available from the **`<methods>`** element.
 
 ```
 <methods>
   <method name="GenerateForm" static="true">
     <help>Generates the form in Mail or Web mode</help>
     <parameters>
-      <param name="formName" type="string" desc="Name of form"/>   
+      <param name="formName" type="string" desc="Name of form"/>
       <param name="mailMode" type="boolean" desc="Generate a form of type Mail"/>
       <param name="result" type="string" inout="out" desc="Result "/>
     </parameters>
@@ -50,13 +50,13 @@ A Web service is described in the grammar of the data schemas and is available f
 
 Here we have an example of the definition of the method called **GenerateForm**.
 
-The description of the service starts with the `<method>  element. The list of parameters of the method is completed from the  <parameters>   element. Each parameter is specified by a name, a type (Boolean, string, DOMElement, etc.) and a description. The "inout" attribute with the "out" value lets you specify that the "result" parameter is at the SOAP call output.  </parameters> </method>`
+The description of the service starts with the `<method>` element. The list of parameters of the method is completed from the  `<parameters>` element. Each parameter is specified by a name, a type (Boolean, string, DOMElement, etc.) and a description. The "inout" attribute with the "out" value lets you specify that the "result" parameter is at the SOAP call output.
 
 The presence of the "static" attribute (with the value "true") describes this method as static, which means that all parameters of the method must be declared.
 
 A "const" method implicitly has an XML document in the format of its associated schema as its input.
 
-A full description of the `<method>  element of an Adobe Campaign schema is available in the "Schema references" chapter under  <a href="../../configuration/using/elements-and-attributes.md#method--element" target="_blank">   <method>    element   </method></a>. </method>`
+A full description of the `<method>` element of an Adobe Campaign schema is available in the "Schema references" chapter under  <a href="../../configuration/using/elements-and-attributes.md#method--element" target="_blank">  `<method>`    element.
 
 Example of the "const"-type "ExecuteQuery" method from the "xtk:queryDef" schema:
 
@@ -80,12 +80,12 @@ A WSDL (Web Service Description Library) file is available for each service. Thi
 
 To generate a WSDL file, you must enter the following URL from a Web browser:
 
-[https:// `<server>  /nl/jsp/schemawsdl.jsp?schema=  <schema /> </server>`](https://XXXX/nl/jsp/schemawsdl.jsp?schema=YYYY)
+[https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 
 With:
 
-* ** `<server>`**: the Adobe Campaign application server (nlserver web)
-* ** `<schema>`**: schema identification key (namespace:schema_name)
+* **`<server>`**: the Adobe Campaign application server (nlserver web)
+* **`<schema>`**: schema identification key (namespace:schema_name)
 
 ### Example on the 'ExecuteQuery' method of schema 'xtk:queryDef' {#example-on-the--executequery--method-of-schema--xtk-querydef-}
 
@@ -97,7 +97,7 @@ A WSDL description starts by defining the types used to form messages, associate
 
 #### Types {#types}
 
-Type definitions are based on XML schemas. In our example, the "ExecuteQuery" method takes an "s:string" string and an XML document ( `<s:complextype>  ) as parameters. The return value of the method ("ExecuteQueryResponse") is an XML document (  <s:complextype>   ).  </s:complextype> </s:complextype>`
+Type definitions are based on XML schemas. In our example, the "ExecuteQuery" method takes an "s:string" string and an XML document (`<s:complextype>`) as parameters. The return value of the method ("ExecuteQueryResponse") is an XML document (  `<s:complextype>`).
 
 ```
 <types>
@@ -134,7 +134,7 @@ Type definitions are based on XML schemas. In our example, the "ExecuteQuery" me
 
 #### Messages {#messages}
 
-The `<message>  describes the names and types of a set of fields to be sent. The method uses two messages to pass as a parameter ("ExecuteQueryIn") and the return value ("ExecuteQueryOut"). </message>`
+The `<message>` describes the names and types of a set of fields to be sent. The method uses two messages to pass as a parameter ("ExecuteQueryIn") and the return value ("ExecuteQueryOut").
 
 ```
 <message name="ExecuteQueryIn">
@@ -149,7 +149,7 @@ The `<message>  describes the names and types of a set of fields to be sent. The
 
 #### PortType {#porttype}
 
-The `<porttype>  associates the messages on the "ExecuteQuery" operation triggered by the query ("input") generating a response ("output"). </porttype>`
+The `<porttype>` associates the messages on the "ExecuteQuery" operation triggered by the query ("input") generating a response ("output").
 
 ```
 <portType name="queryDefMethodsSoap">
@@ -163,8 +163,7 @@ The `<porttype>  associates the messages on the "ExecuteQuery" operation trigger
 
 #### Binding {#binding}
 
-The `<binding>  part specifies the SOAP communication protocol (  <soap:binding>   ), data transport in HTTP (value of the "transport" attribute) and the data format for the "ExecuteQuery" operation. The body of the SOAP envelope contains the message segments directly without transformation.  </soap:binding> </binding>`
-
+The `<binding>` part specifies the SOAP communication protocol ( `<soap:binding>` ), data transport in HTTP (value of the "transport" attribute) and the data format for the "ExecuteQuery" operation. The body of the SOAP envelope contains the message segments directly without transformation. 
 ```
 <binding name="queryDefMethodsSoap" type="tns:queryDefMethodsSoap">
   <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
@@ -183,7 +182,7 @@ The `<binding>  part specifies the SOAP communication protocol (  <soap:binding>
 
 #### Service {#service}
 
-The `<service>  part describes the "XtkQueryDef" service with its URI on the URL of the Adobe Campaign application server. </service>`
+The `<service>` part describes the "XtkQueryDef" service with its URI on the URL of the Adobe Campaign application server.
 
 ```
 <service name="XtkQueryDef">
