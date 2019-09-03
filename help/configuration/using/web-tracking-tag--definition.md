@@ -30,21 +30,77 @@ The format of a web-tracking URL is as follows: **https://`<name_of_redirection_
 
 The following table gives a list of special parameters supported by the redirection server.
 
-Name Type Description ID  
-Session cookie  
-Delivery identifier and recipient identifier.  
-uuid230  
-Permanent cookie  
-Recipient identifier (useful if session cookie is absent).  
-tagid  
-URL parameter  
-Identifier of tracked web page: this is the only mandatory parameter.  
-jobid  
-URL parameter  
-Delivery identifier to be used if there is no session cookie. This value is to be expressed in hexadecimal.  
-rcpid  
-URL parameter  
-Parameter used to identify the internet user. The format of this parameter is "name=value", where the name is a field of the recipient schema. This parameter takes priority over the identifier contained in the session cookie.
+<table>
+                     <thead>
+                        <tr>
+                           <th>Name</th>
+                           <th>Type</th>
+                           <th>Description</th> 
+                        </tr> 
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <p>ID</p> 
+                           </td>
+                           <td>
+                              <p>Session cookie</p> 
+                           </td>
+                           <td>
+                              <p>Delivery identifier and recipient identifier.</p> 
+                           </td> 
+                        </tr>
+                        <tr>
+                           <td>
+                              <p>uuid230</p> 
+                           </td>
+                           <td>
+                              <p>Permanent cookie</p> 
+                           </td>
+                           <td>
+                              <p>Recipient identifier (useful if session cookie is absent).</p> 
+                           </td> 
+                        </tr>
+                        <tr>
+                           <td>
+                              <p>tagid</p> 
+                           </td>
+                           <td>
+                              <p>URL parameter</p> 
+                           </td>
+                           <td>
+                              <p>Identifier of tracked web page: this is the only mandatory parameter.</p> 
+                           </td> 
+                        </tr>
+                        <tr>
+                           <td>
+                              <p>jobid</p> 
+                           </td>
+                           <td>
+                              <p>URL parameter</p> 
+                           </td>
+                           <td>
+                              <p>Delivery identifier to be used if there is no session cookie. This value is to be
+                                 expressed in hexadecimal.
+                              </p> 
+                           </td> 
+                        </tr>
+                        <tr>
+                           <td>
+                              <p>rcpid</p> 
+                           </td>
+                           <td>
+                              <p>URL parameter</p> 
+                           </td>
+                           <td>
+                              <p>Parameter used to identify the internet user. The format of this parameter is "name=value",
+                                 where the name is a field of the recipient schema. This parameter takes priority over
+                                 the identifier contained in the session cookie.
+                              </p> 
+                           </td> 
+                        </tr> 
+                     </tbody>  
+                  </table>
 
 **A few web tracking URLs**
 
