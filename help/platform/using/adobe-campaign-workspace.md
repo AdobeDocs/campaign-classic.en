@@ -185,7 +185,7 @@ Another way to add columns, for example if you want to display data which is not
    >
    >The labels are displayed by table and then in alphabetical order.
    >
-   >Use the **Search** field to run a search in the available fields. For further information, see [Sorting a list](/../../platform/using/adobe-campaign-workspace.md#sorting-a-list).
+   >Use the **Search** field to run a search in the available fields. For further information, see [Sorting a list](../../platform/using/adobe-campaign-workspace.md#sorting-a-list).
    >
    >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields.
     [Configuring lists](../../platform/using/adobe-campaign-workspace.md#configuring-lists).  
