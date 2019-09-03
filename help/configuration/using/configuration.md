@@ -42,11 +42,11 @@ The XML document is structured as follows:
 </navtree>
 ```
 
-The XML document contains the ** `<navtree>`** root element with the **name** and **namespace** attributes to specify the document name and namespace. The name and namespace make up the document identification key.
+The XML document contains the **`<navtree>`** root element with the **name** and **namespace** attributes to specify the document name and namespace. The name and namespace make up the document identification key.
 
-The global commands of the application are declared in the document from the ** `<commands>`** element.
+The global commands of the application are declared in the document from the **`<commands>`** element.
 
-The declaration of file types is structured in the document with the following elements: ** `<model>`** and ** `<nodemodel>`**.
+The declaration of file types is structured in the document with the following elements: **`<model>`** and **`<nodemodel>`**.
 
 ## Global commands {#global-commands}
 
@@ -92,9 +92,9 @@ The commands are displayed in the same order as they are declared in the XML doc
 
 A command separator lets you display a separation bar between commands. It is identified by the **'-'** value contained in the command label.
 
-The optional presence of the ** `<soapcall>`** tag with its input parameters defines the call of a SOAP method to be executed. For further information on the SOAP API, refer to [Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.md).
+The optional presence of the **`<soapcall>`** tag with its input parameters defines the call of a SOAP method to be executed. For further information on the SOAP API, refer to [Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html).
 
-The form context can be updated on initialization from the ** `<enter>`** tag. For further information on this tag, refer to the documentation on input forms.
+The form context can be updated on initialization from the **`<enter>`** tag. For further information on this tag, refer to the documentation on input forms.
 
 **Example**:
 
@@ -154,22 +154,22 @@ The folder type configuration structure is as follows:
 </model>
 ```
 
-The folder type declaration must be entered under a ** `<model>`** element. This element lets you define a hierarchical organization visible from the **[!UICONTROL Add new folder]** menu. A ** `<model>`** element must contain ** `<nodemodel>`** elements and other ** `<model>`** elements.
+The folder type declaration must be entered under a **`<model>`** element. This element lets you define a hierarchical organization visible from the **[!UICONTROL Add new folder]** menu. A **`<model>`** element must contain **`<nodemodel>`** elements and other **`<model>`** elements.
 
 The **name** and **label** attributes populate the internal name of the element and the label displayed in the **[!UICONTROL Add new folder]** menu.
 
-The ** `<nodemodel>`** element contains the description of the folder type with the following properties:
+The **`<nodemodel>`** element contains the description of the folder type with the following properties:
 
 * **name**: internal name
 * **label**: label used in the **[!UICONTROL Add new folder]** menu and as a default label when inserting a folder.
 * **img**: default image on folder insertion.
 * **hiddenCommands**: list of commands (separated by a comma) to be masked. Possible values: "insert", "delete", "update" and "duplicate".
-* **newFolderShortCuts**: list of shortcuts on models (** `<nodemodel>`** separated by a comma) in folder creation. 
+* **newFolderShortCuts**: list of shortcuts on models (**`<nodemodel>`** separated by a comma) in folder creation. 
 * **insertRight**, **editRight**, **deleteRight**: rights for inserting, editing and deleting folders.
 
-The ** `<view>`** element under the ** `<nodemodel>`** element contains the configuration of the list associated with the view. The schema of the list is entered in the **schema** attribute of the ** `<view>`** element.
+The **`<view>`** element under the **`<nodemodel>`** element contains the configuration of the list associated with the view. The schema of the list is entered in the **schema** attribute of the **`<view>`** element.
 
-To edit the records of the list, the input form with the same name as the list schema is implicitly used. The **type** attribute on the ** `<view>`** element affects the display of the form. Possible values are:
+To edit the records of the list, the input form with the same name as the list schema is implicitly used. The **type** attribute on the **`<view>`** element affects the display of the form. Possible values are:
 
 * **listdet**: displays the form at the bottom of the list.
 * **list**: displays the list alone. The form is launched by double-clicking or via the "Open" in the menu on selecting the list.
@@ -178,9 +178,9 @@ To edit the records of the list, the input form with the same name as the list s
 
 >[!NOTE]
 >
->The name of the input form can be overloaded by entering the **form** attribute in the ** `<view>`** element.
+>The name of the input form can be overloaded by entering the **form** attribute in the **`<view>`** element.
 
-The default configuration of the list columns is entered via the ** `<columns>`** element. A column is declared on a ** `<node>`** element containing the **xpath** attribute with the field to be referenced in its schema as its value.
+The default configuration of the list columns is entered via the **`<columns>`** element. A column is declared on a **`<node>`** element containing the **xpath** attribute with the field to be referenced in its schema as its value.
 
 **Example**: declaration of a folder type on the "nms:recipient" schema.
 
@@ -265,9 +265,9 @@ The commands are displayed in the same order as they are declared in the XML doc
 
 A command separator lets you display a separation bar between commands. It is identified by the **'-'** value contained in the command label.
 
-The optional presence of the ** `<soapcall>`** tag with its input parameters defines the call of a SOAP method to be executed. For further information about SOAP APIs, refer to [Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.md).
+The optional presence of the **`<soapcall>`** tag with its input parameters defines the call of a SOAP method to be executed. For further information about SOAP APIs, refer to [Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html).
 
-The form context can be updated on initialization via the ** `<enter>`** tag. For further information about this tag, refer to the input form documentation.
+The form context can be updated on initialization via the **`<enter>`** tag. For further information about this tag, refer to the input form documentation.
 
 **Example**:
 
@@ -294,7 +294,7 @@ There are two types of folder management operations:
 1. The folder is a view: the list displays all records associated with the schema, with the possibility of system filtering entered in the folder properties.
 1. The folder is linked: the records in the list are implicitly filtered on the folder link.
 
-For a linked folder, the **folderLink** attribute on the ** `<nodemodel>`** element must be populated. This attribute contains the name of the link on the folder configured in the data schema.
+For a linked folder, the **folderLink** attribute on the **`<nodemodel>`** element must be populated. This attribute contains the name of the link on the folder configured in the data schema.
 
 Example of declaration of a linked folder in the data schema:
 
@@ -302,7 +302,7 @@ Example of declaration of a linked folder in the data schema:
 <element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
-The configuration of the ** `<nodemodel>`** on the link of the folder named "folder" is as follows:
+The configuration of the **`<nodemodel>`** on the link of the folder named "folder" is as follows:
 
 ```
 <nodeModel deleteRight="folderDelete" editRight="folderEdit" folderLink="folder"

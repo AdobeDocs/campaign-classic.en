@@ -20,7 +20,7 @@ snippet: y
 
 Adobe Campaign lets you select a web tracking mode which defines the way in which tracking logs are processed in the application.
 
-There are three available Web tracking modes: ** "Session tracking"**,** "Permanent tracking"** and **"Anonymous tracking"**. 
+There are three available Web tracking modes: **"Session tracking"**,**"Permanent tracking"** and **"Anonymous tracking"**. 
 
 ![](assets/s_ncs_install_deployment_wiz_tracking_mode.png)
 
@@ -28,7 +28,8 @@ Each mode has specific characteristics. The "permanent" Web tracking mode includ
 
 >[!CAUTION]
 >
->The "anonymous" Web tracking mode is enabled by default if the "Leads" package is enabled. In all other cases, the "session" Web tracking mode is enabled by default.   
+>The "anonymous" Web tracking mode is enabled by default if the "Leads" package is enabled. In all other cases, the "session" Web tracking mode is enabled by default.
+>
 >At any time, the default mode can be changed in the instance deployment wizard.
 
 Note that if you are using the **permanent web** or **anonymous** tracking mode, you must add an index to the "sourceID" column (uuid230) in the tracking tables (trackingLogXXX):
@@ -87,6 +88,6 @@ The following schema sums up the functionalities of all three Web tracking modes
 
 ![](assets/s_ncs_install_deployment_wiz_tracking_schema_mode.png)
 
-**Example of Permanent web tracking based on the last delivery: **
+**Example of Permanent web tracking based on the last delivery:**
 
 Florence receives a delivery, opens the email, clicks the link, browses on the retail site but doesn't make any purchases. The next day, Florence returns to the retail site, browses and makes a purchase. Since permanent web tracking (last delivery) is enabled, all the logs for her second visit will be linked to the delivery that was sent to her the previous day.

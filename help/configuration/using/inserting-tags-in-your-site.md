@@ -20,9 +20,7 @@ snippet: y
 
 ## Simple method {#simple-method}
 
-This method consists of sending an HTTP call to the redirection server by inserting an ** ![]()
-
-** HTML tag in the HTML source code of the web page you wish to track.
+This method consists of sending an HTTP call to the redirection server by inserting an **`<img>`** HTML tag in the HTML source code of the web page you wish to track.
 
 >[!CAUTION]
 >

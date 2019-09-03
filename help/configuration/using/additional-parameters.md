@@ -55,7 +55,7 @@ In the server configuration, you can define the maximum number of characters to 
 >
 >Increasing the maximum number of characters to be taken into account can impact the web tracking performance of your platform.
 
-To do this, modify the **webTrackingParamSize** attribute of the ** `<trackinglogd>`** element in the **serverConf.xml** file. This file is saved in the **conf** subdirectory of the Adobe Campaign installation directory.
+To do this, modify the **webTrackingParamSize** attribute of the **`<trackinglogd>`** element in the **serverConf.xml** file. This file is saved in the **conf** subdirectory of the Adobe Campaign installation directory.
 
 **Example**:
 

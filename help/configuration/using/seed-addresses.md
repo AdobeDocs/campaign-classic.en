@@ -84,7 +84,7 @@ Apply the following steps:
    >    
    >    * During the extension, you must specify an **SQL name (@sqlname)** for the 'email' field. The SQL name must differ from the 'sEmail' that is reserved for the recipient schema.
    >    * You must update the database structure with the schema created when extending **nms:seedMember**.
-   >    * In the **nms:seedMember** extension, the field containing the email address must have **name="email"** as an attribute. The SQL name must be different from 'sEmail' which is already used for the recipient schema. This attribute must be immediately declared under the ** `<element name="custom_cus_person" />`** element.
+   >    * In the **nms:seedMember** extension, the field containing the email address must have **name="email"** as an attribute. The SQL name must be different from 'sEmail' which is already used for the recipient schema. This attribute must be immediately declared under the **`<element name="custom_cus_person" />`** element.
    >    
    >
 

@@ -22,7 +22,7 @@ A web tracking tag is simply a URL constructed with the appropriate parameters, 
 
 ## Format of the data to be sent {#format-of-the-data-to-be-sent}
 
-The format of a web-tracking URL is as follows: **https://**
+The format of a web-tracking URL is as follows: **https://`<name_of_redirection_server>`:`<port>`/r/`<random_number>`?`<parameters>`**
 
 >[!NOTE]
 >
@@ -76,8 +76,6 @@ Parameter used to identify the internet user. The format of this parameter is "n
 
 The following methods are possible:
 
-* Inserting the URL in the **"src"** attribute of an HTML ** ![]()
-
-  ** tag incorporated in the web page you wish to track.
+* Inserting the URL in the **"src"** attribute of an HTML **`<img>`** tag incorporated in the web page you wish to track.
 * Direct call to the redirection server when the web page you wish to track is generated.
 
