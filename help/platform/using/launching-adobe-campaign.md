@@ -20,7 +20,7 @@ snippet: y
 
 ## Starting Adobe Campaign {#starting-adobe-campaign}
 
-You can start Adobe Campaign by selecting **[!UICONTROL Start / All Programs / Adobe Campaign v.X / Adobe Campaign client console]** .
+You can start Adobe Campaign by selecting **[!UICONTROL Start / All Programs / Adobe Campaign v.X / Adobe Campaign client console]**.
 
 The client console connection window lets you select or configure existing databases and connect to them using a user name and password:
 
@@ -50,7 +50,7 @@ You can access the server connection settings via the link above the input zone.
 
 ![](assets/s_ncs_user_connections_management.png)
 
-In the **[!UICONTROL Connections]** window, click **[!UICONTROL Add > Connection]** .
+In the **[!UICONTROL Connections]** window, click **[!UICONTROL Add > Connection]**.
 
 ![](assets/s_ncs_user_add_connexion.png)
 

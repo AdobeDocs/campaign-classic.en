@@ -44,8 +44,8 @@ Adobe Campaign comes with a set of pre-defined external accounts. In order to se
 
 External accounts are used by technical processes such as technical workflows or campaign workflows. When setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account.
 
-1. From the **[!UICONTROL Explorer]** , unfold the **[!UICONTROL Administration]** menu.
-1. Unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]** .
+1. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+1. Unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
 
    ![](assets/ext_account_1.png)
 
@@ -53,14 +53,14 @@ External accounts are used by technical processes such as technical workflows or
 
    ![](assets/ext_account_2.png)
 
-1. Enter a **[!UICONTROL Label]** and **[!UICONTROL Internal Name]** . Both will be used when selecting external accounts in workflows.
+1. Enter a **[!UICONTROL Label]** and **[!UICONTROL Internal Name]**. Both will be used when selecting external accounts in workflows.
 1. Check **[!UICONTROL Enabled]** if you want your connection to be enabled. 
 1. Select your external account **[!UICONTROL Type]** which one you want to create.
 1. Configure the access to the account by specifying credentials depending on the chosen external account type.
 
    The necessary information is usually provided by the provider of the server you are connecting to.
 
-1. Click **[!UICONTROL Save]** .
+1. Click **[!UICONTROL Save]**.
 
 The external account is created and added to the external accounts list. It is now available for your data/file transfers or routing configurations in workflow activities and delivery properties.
 
@@ -92,7 +92,7 @@ To configure the **[!UICONTROL Bounce mails (defaultPopAccount)]** external acco
 
 * **[!UICONTROL Encryption]**
 
-  Type of chosen encryption between **[!UICONTROL By default]** , **[!UICONTROL POP3 + STARTTLS]** , **[!UICONTROL POP3]** or **[!UICONTROL POP3S]** .
+  Type of chosen encryption between **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** or **[!UICONTROL POP3S]**.
 
 ## Routing external account {#routing-external-account}
 
@@ -138,7 +138,7 @@ To do so, specify in this external account the address and credentials used to e
 
 * **[!UICONTROL Encryption]**
 
-  Type of chosen encryption between **[!UICONTROL None]** or **[!UICONTROL SSL]** .
+  Type of chosen encryption between **[!UICONTROL None]** or **[!UICONTROL SSL]**.
 
 To know where to locate these credentials, refer to this [page](https://help.dreamhost.com/hc/en-us/articles/115000675027-FTP-overview-and-credentials).
 
@@ -212,7 +212,7 @@ The **[!UICONTROL Default]** field lets you enter a default query band that will
 
 The **[!UICONTROL Users]** field allows you to specify a query band for each user. You can add as many key/value pairs as you need e.g. priority=1;workload=high. If the user has no query band assigned, the **[!UICONTROL Default]** field will be applied.
 
-For more information on **[!UICONTROL Query banding]** , refer to the [Teradata documentation](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw).
+For more information on **[!UICONTROL Query banding]**, refer to the [Teradata documentation](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw).
 
 ## Web Analytics external account {#web-analytics-external-account}
 
@@ -232,7 +232,7 @@ For each Facebook application, you need to create a **[!UICONTROL Facebook Conne
 
 * **[!UICONTROL Hosting mode]**
 
-  Hosting mode of the application between **[!UICONTROL hosted by a partner]** or **[!UICONTROL hosted by this instance]** .
+  Hosting mode of the application between **[!UICONTROL hosted by a partner]** or **[!UICONTROL hosted by this instance]**.
 
 * **[!UICONTROL Application ID]**
 
@@ -392,7 +392,7 @@ The **[!UICONTROL Azure]** external account enables a connection to a shared ext
 
 * **[!UICONTROL Encryption]**
 
-  Type of chosen encryption between **[!UICONTROL None]** or **[!UICONTROL SSL]** .
+  Type of chosen encryption between **[!UICONTROL None]** or **[!UICONTROL SSL]**.
 
 * **[!UICONTROL Access key]**
 
@@ -446,7 +446,7 @@ To configure the Microsoft Dynamics connector to work with Adobe Campaign, you n
 
 * **[!UICONTROL CRM version]** for On-premise and Web API deployments
 
-  Version of the CRM between **[!UICONTROL Dynamics CRM 2007]** , **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]** .
+  Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
 
 For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md#example-for-microsoft-dynamics).
 
@@ -498,7 +498,7 @@ To configure the Salesforce CRM external account to work with Adobe Campaign, yo
 
 * **[!UICONTROL API version]**
 
-  Version of the API between **[!UICONTROL Version 37]** , **[!UICONTROL Version 21]** or **[!UICONTROL Version 15]** .
+  Version of the API between **[!UICONTROL Version 37]**, **[!UICONTROL Version 21]** or **[!UICONTROL Version 15]**.
 
 For this external account, you need to configure you Salesforce CRM with the configuration wizard.
 

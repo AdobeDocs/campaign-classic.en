@@ -59,19 +59,19 @@ The following steps detail the configuration of Data connector using a wizard.
 
    ![](assets/adobe_genesis_install_001.png)
 
-1. From the list of Experience Cloud solutions, select **[!UICONTROL Analytics]** .
+1. From the list of Experience Cloud solutions, select **[!UICONTROL Analytics]**.
 
    ![](assets/adobe_genesis_install_013.png)
 
-1. From the **[!UICONTROL Admin]** tab, select **[!UICONTROL Data Connectors]** .
+1. From the **[!UICONTROL Admin]** tab, select **[!UICONTROL Data Connectors]**.
 
    ![](assets/adobe_genesis_install_002.png)
 
-1. From the list of partners, select **[!UICONTROL Neolane - Enterprise Marketing Platform]** .
-1. In the **[!UICONTROL Add integration]** dialog, click **[!UICONTROL Activate]** .
+1. From the list of partners, select **[!UICONTROL Neolane - Enterprise Marketing Platform]**.
+1. In the **[!UICONTROL Add integration]** dialog, click **[!UICONTROL Activate]**.
 1. Check **[!UICONTROL I accept these terms and conditions]** and select the **[!UICONTROL Report suite]** linked to this integration and enter the connector label.
 
-   When done, click **[!UICONTROL Create and configure this integration]** .
+   When done, click **[!UICONTROL Create and configure this integration]**.
 
    ![](assets/adobe_genesis_install_015.png)
 
@@ -87,7 +87,7 @@ The following steps detail the configuration of Data connector using a wizard.
 
    ![](assets/adobe_genesis_install_007.png)
 
-1. In **[!UICONTROL Data collection]** , select a method for recovering data, in this case the **[!UICONTROL cid]** and **[!UICONTROL bid]** identifiers specified in step 6.
+1. In **[!UICONTROL Data collection]**, select a method for recovering data, in this case the **[!UICONTROL cid]** and **[!UICONTROL bid]** identifiers specified in step 6.
 
    ![](assets/adobe_genesis_install_009.png)
 
@@ -136,8 +136,8 @@ The integration of Adobe Campaign into the Analytics platforms is carried out us
 
 1. The **[!UICONTROL Advanced]** tab lets you configure or modify more technical settings.
 
-    * **[!UICONTROL Lifespan]** : lets you specify the delay (in days_ after which the web events recovered in Adobe Campaign by technical workflows. Default: 180 days.
-    * **[!UICONTROL Persistence]** : lets you the period during which all web events (a purchase for example) can be attributed to a re-marketing campaign, Default: 7 days.
+    * **[!UICONTROL Lifespan]**: lets you specify the delay (in days_ after which the web events recovered in Adobe Campaign by technical workflows. Default: 180 days.
+    * **[!UICONTROL Persistence]**: lets you the period during which all web events (a purchase for example) can be attributed to a re-marketing campaign, Default: 7 days.
 
 >[!NOTE]
 >
@@ -245,7 +245,7 @@ Re-marketing campaigns are started automatically once Adobe Campaign has finishe
 
 Adobe Campaign provides personalized delivery templates which you can use or database yourselves on to prepare campaigns.
 
-1. From the **[!UICONTROL Explorer]** , go to the **[!UICONTROL Resources > Templates > Delivery templates]** folder of the Adobe Campaign tree.
+1. From the **[!UICONTROL Explorer]**, go to the **[!UICONTROL Resources > Templates > Delivery templates]** folder of the Adobe Campaign tree.
 1. Duplicate the **[!UICONTROL Email delivery (re-marketing)]** template or the re-marketing template examples offered by Adobe Campaign.
 1. Personalize the template to suit your needs and save it.
 

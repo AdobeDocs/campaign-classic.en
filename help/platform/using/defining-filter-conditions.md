@@ -130,14 +130,14 @@ Click **[!UICONTROL And]** (offered by default) and choose from the drop-down li
 
 ![](assets/query_condition_modif_01.png)
 
-* **[!UICONTROL And]** : adds a condition and enables overfiltering.
-* **[!UICONTROL Or]** : adds a condition and enables overfiltering.
+* **[!UICONTROL And]**: adds a condition and enables overfiltering.
+* **[!UICONTROL Or]**: adds a condition and enables overfiltering.
 
   The following example lets you find recipients whose email domain contains "orange.co.uk" OR whose post code starts with "NW".
 
   ![](assets/query_condition_modif_02.png)
 
-* **[!UICONTROL Except]** : if you have two filters and the first one does not return a value, this type of link creates an exception.
+* **[!UICONTROL Except]**: if you have two filters and the first one does not return a value, this type of link creates an exception.
 
   In the following example, we want to return recipients whose email domain contains "orange.co.uk" EXCEPT if the recipient's last name is "Smith".
 
@@ -158,19 +158,19 @@ This section explains how to prioritize conditions thanks to the blue arrows in 
 
 * The vertical arrows let you move a condition, thereby changing their execution sequence.
 
-This example shows you how to use the arrow to delete a parenthesis level. Start from the following filtering condition: **[!UICONTROL City equal to London OR gender equal to male and mobile not indicated OR account # starts with "95" and company name starts with "A"]** .
+This example shows you how to use the arrow to delete a parenthesis level. Start from the following filtering condition: **[!UICONTROL City equal to London OR gender equal to male and mobile not indicated OR account # starts with "95" and company name starts with "A"]**.
 
 Place your cursor on the **[!UICONTROL Gender (@gender) equal to Male]** filtering condition and click the **[!UICONTROL Remove a parenthesis level]** arrow.
 
 ![](assets/query_editor_nveau_32.png)
 
-The **[!UICONTROL Gender (@gender) equal to Male]** condition has been taken out of its parenthesis. It has moved to the same level as the "City equal to London" condition. These conditions are linked together ( **[!UICONTROL And]** ).
+The **[!UICONTROL Gender (@gender) equal to Male]** condition has been taken out of its parenthesis. It has moved to the same level as the "City equal to London" condition. These conditions are linked together (**[!UICONTROL And]**).
 
 ## Selecting data to extract {#selecting-data-to-extract}
 
-The available fields vary from one table to another. All fields are stored in a main node known as the **[!UICONTROL Main element]** . In the following example, the available fields are in the recipient table. Fields are always displayed alphabetically.
+The available fields vary from one table to another. All fields are stored in a main node known as the **[!UICONTROL Main element]**. In the following example, the available fields are in the recipient table. Fields are always displayed alphabetically.
 
-The detail the selected field is visible at the bottom of the window. For example, the **[!UICONTROL Email domain]** field is a **[!UICONTROL Calculated SQL field]** and its extension is **[!UICONTROL (@domain)]** .
+The detail the selected field is visible at the bottom of the window. For example, the **[!UICONTROL Email domain]** field is a **[!UICONTROL Calculated SQL field]** and its extension is **[!UICONTROL (@domain)]**.
 
 ![](assets/query_editor_nveau_59.png)
 
@@ -184,7 +184,7 @@ Double-click an available field to add it to the output columns. At the end of t
 
 Advanced fields are not displayed by default. Click **[!UICONTROL Display advanced fields]** in the bottom right-hand corner of the available fields to display everything. Click again to return to the former view.
 
-For example, in the recipient table, the advanced fields are **Boolean 1**, **[!UICONTROL Boolean 2]** , **[!UICONTROL Boolean 3]** , **[!UICONTROL Foreign key of "Folder" link]** , etc.
+For example, in the recipient table, the advanced fields are **Boolean 1**, **[!UICONTROL Boolean 2]**, **[!UICONTROL Boolean 3]**, **[!UICONTROL Foreign key of "Folder" link]**, etc.
 
 The following example shows the advanced fields of the recipient table.
 
@@ -268,29 +268,31 @@ Link to a table and collection element:
 
 ## Creating calculated fields {#creating-calculated-fields}
 
-If necessary, add a column during data formatting. A calculated field adds a column to the data preview section. Click **[!UICONTROL Add a calculated field]** .
+If necessary, add a column during data formatting. A calculated field adds a column to the data preview section. Click **[!UICONTROL Add a calculated field]**.
 
 ![](assets/query_editor_nveau_43.png)
 
 There are four types of calculated fields:
 
-* **[!UICONTROL Fixed string]** : lets you add a string of characters.
+* **[!UICONTROL Fixed string]**: lets you add a string of characters.
 
   ![](assets/query_editor_nveau_60.png)
 
-* **[!UICONTROL String with JavaScript tags]** : the value of the calculated field combines a string of characters and JavaScript directives.
+* **[!UICONTROL String with JavaScript tags]**: the value of the calculated field combines a string of characters and JavaScript directives.
 
   ![](assets/query_editor_nveau_61.png)
 
-* **[!UICONTROL JavaScript expression]** : the value of the calculated field is the result of a JavaScript function evaluation. The returned value can be typed (number, date, etc.).
+* **[!UICONTROL JavaScript expression]**: the value of the calculated field is the result of a JavaScript function evaluation. The returned value can be typed (number, date, etc.).
 
   ![](assets/query_editor_nveau_62.png)
 
-* **[!UICONTROL Enumerations]** : This type of field lets you use/modify the content of one of the output columns in a new column.
+* **[!UICONTROL Enumerations]**: This type of field lets you use/modify the content of one of the output columns in a new column.
 
   It's possible to use the source value of a column and give it a destination value. This destination value will be displayed in the new output column.
 
   An example of adding calculated field type **[!UICONTROL Enumerations]** is available, refer to [this section](../../workflow/using/designing-queries.md#adding-an-enumeration-type-calculated-field).
+
+  ![](assets/query_editor_nveau_63.png)
 
   The **[!UICONTROL Enumerations]** type calculated field can include 4 conditions:
 
@@ -299,10 +301,11 @@ There are four types of calculated fields:
     * **[!UICONTROL Generate a warning and continue]** warns the user that the source value cannot be changed.
     * **[!UICONTROL Generate an error and reject the line]** prevents the line from being calculated and imported.
 
->[!NOTE]
->
->Click the **[!UICONTROL Detail of calculated field]** to view the detail of the inserted field.  
->To remove this calculated field, click the **[!UICONTROL Remove the calculated field]** cross.
+Click the **[!UICONTROL Detail of calculated field]** to view the detail of the inserted field.  
+
+To remove this calculated field, click the **[!UICONTROL Remove the calculated field]** cross.
+
+![](assets/query_editor_nveau_58.png)
 
 ## Building expressions {#building-expressions}
 
@@ -314,9 +317,9 @@ Apply the following steps:
 
 1. Click **[!UICONTROL Add]** in the **[!UICONTROL Data to extract]** window. In the **[!UICONTROL Formula type]** window, select a type of formula to enter the expression.
 
-   There are several types of formulas available: **[!UICONTROL Field only]** , **[!UICONTROL Aggregate]** , **[!UICONTROL Expression]** .
+   There are several types of formulas available: **[!UICONTROL Field only]**, **[!UICONTROL Aggregate]**, **[!UICONTROL Expression]**.
 
-   Select **[!UICONTROL Process on an aggregate function]** , and **[!UICONTROL Count]** . Click **[!UICONTROL Next]** .
+   Select **[!UICONTROL Process on an aggregate function]**, and **[!UICONTROL Count]**. Click **[!UICONTROL Next]**.
 
    ![](assets/query_editor_nveau_54.png)
 
@@ -329,13 +332,13 @@ Here is a detailed view of the choices available in the **[!UICONTROL Formula ty
 ![](assets/query_editor_nveau_05.png)
 
 1. **[!UICONTROL Field only]** lets you return to the **[!UICONTROL Field to select]** window.
-1. **[!UICONTROL Aggregate (Process on an aggregate function)]** . Here are some examples of aggregate use:
+1. **[!UICONTROL Aggregate (Process on an aggregate function)]**. Here are some examples of aggregate use:
 
     * **[!UICONTROL Count]** lets you run a primary key count.
     * **[!UICONTROL Sum]** lets you add up all purchases made by a customer over one year.
     * **[!UICONTROL Maximum value]** lets you find the customers having purchased the most "n" products.
     * **[!UICONTROL Minimum value]** lets you sort through customers and find those having subscribed to an offer most recently.
-    * **[!UICONTROL Average]** . This function lets you calculate the average age of your recipients.
+    * **[!UICONTROL Average]**. This function lets you calculate the average age of your recipients.
 
       The **[!UICONTROL Distinct]** box lets you recover unique and non-zero values of a column. For example, you can recover all of a recipient's tracking logs and these tracking logs are changed to the value 1 since they all concern the same recipient.
 
@@ -347,7 +350,7 @@ Here is a detailed view of the choices available in the **[!UICONTROL Formula ty
 
 ## List of functions {#list-of-functions}
 
-If an **[!UICONTROL Expression]** type formula is chosen, you will be taken to the "edit the expression" window. Various categories of functions can be associated to the available fields: **[!UICONTROL Aggregates]** , **[!UICONTROL String]** , **[!UICONTROL Date]** , **[!UICONTROL Numerical]** , **[!UICONTROL Currency]** , **[!UICONTROL Geomarketing]** , **[!UICONTROL Windowing function]** and **[!UICONTROL Others]** .
+If an **[!UICONTROL Expression]** type formula is chosen, you will be taken to the "edit the expression" window. Various categories of functions can be associated to the available fields: **[!UICONTROL Aggregates]**, **[!UICONTROL String]**, **[!UICONTROL Date]**, **[!UICONTROL Numerical]**, **[!UICONTROL Currency]**, **[!UICONTROL Geomarketing]**, **[!UICONTROL Windowing function]** and **[!UICONTROL Others]**.
 
 The expression editor looks like this:
 

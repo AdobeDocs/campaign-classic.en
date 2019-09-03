@@ -94,6 +94,6 @@ Billing only concerns profiles that are **active**. A profile is considered acti
 
 You can have an overview of the **[!UICONTROL Number of active profiles]** from the **[!UICONTROL Administration > Campaign Management > Customer metrics]** menu.
 
-The actual count is performed by the **[!UICONTROL Number of active billing profiles]** ( **[!UICONTROL billingActiveContactCount]** ) [technical workflow](../../workflow/using/delivery.md), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. Each period lasts for 12 months.
+The actual count is performed by the **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [technical workflow](../../workflow/using/delivery.md), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. Each period lasts for 12 months.
 
 The profiles that were excluded during delivery preparation (typology rules, quarantines) are not taken into account. A profile that has been targeted by several deliveries will only be counted once.

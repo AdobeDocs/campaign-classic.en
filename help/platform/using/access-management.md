@@ -79,7 +79,7 @@ To create a new operator and grant permissions, follow the steps below:
 
    ![](assets/s_ncs_user_permissions_operators.png)
 
-   You can also select one or more named rights (refer to [Named rights](../../platform/using/access-management.md#named-rights)). To do this, click the arrow to the right of the **[!UICONTROL Folder]** field, and select **[!UICONTROL Named rights]** :
+   You can also select one or more named rights (refer to [Named rights](../../platform/using/access-management.md#named-rights)). To do this, click the arrow to the right of the **[!UICONTROL Folder]** field, and select **[!UICONTROL Named rights]**:
 
    ![](assets/s_ncs_user_rights_operators.png)
 
@@ -91,7 +91,7 @@ To create a new operator and grant permissions, follow the steps below:
 
 >[!NOTE]
 >
->You can organize the operators according to your requirements by creating new operator folders. To do this, right-click the operator folder and select **[!UICONTROL Add an 'Operators' folder]** .
+>You can organize the operators according to your requirements by creating new operator folders. To do this, right-click the operator folder and select **[!UICONTROL Add an 'Operators' folder]**.
 
 Once the operator's profile has been created, you can add to or update their information. To do this, click the **[!UICONTROL Edit]** tab. 
 
@@ -212,7 +212,7 @@ Operator groups are created via the **[!UICONTROL Administration > Access manage
 
 To create a new operator group, apply the following steps:
 
-1. Click the **[!UICONTROL New]** button to the right of the list of groups or right-click the list and choose **[!UICONTROL New]** .
+1. Click the **[!UICONTROL New]** button to the right of the list of groups or right-click the list and choose **[!UICONTROL New]**.
 1. In the section lower window, from the **[!UICONTROL General]** tab, enter the name and a description for this group in the corresponding fields.
 
    ![](assets/s_ncs_user_create_operator_gp.png)
@@ -320,7 +320,7 @@ Each folder of the tree has read, write, and delete access rights attached to it
 
 To edit permissions on a specific folder of the tree, follow the steps below:
 
-1. Right-click on the folder and select **[!UICONTROL Properties...]** .
+1. Right-click on the folder and select **[!UICONTROL Properties...]**.
 
    ![](assets/s_ncs_user_folder_properties.png)
 
@@ -384,11 +384,11 @@ When you convert a folder to a view, all the data corresponding to the folder ty
 In the example below, we will create new folders to display specific data:
 
 1. Create a new **[!UICONTROL Deliveries]** type folder, and name it **Deliveries France**.
-1. Right-click this folder and select **[!UICONTROL Properties...]** .
+1. Right-click this folder and select **[!UICONTROL Properties...]**.
 
    ![](assets/s_ncs_user_add_folder_exple.png)
 
-1. In the **[!UICONTROL Restriction]** tab, select **[!UICONTROL This folder is a view]** . All the deliveries in the database will then be displayed.
+1. In the **[!UICONTROL Restriction]** tab, select **[!UICONTROL This folder is a view]**. All the deliveries in the database will then be displayed.
 
    ![](assets/s_ncs_user_add_folder_exple01.png)
 

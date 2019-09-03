@@ -72,7 +72,7 @@ All of these open the [import](../../platform/using/importing-data.md) or [expor
 
 * Imports and exports can also be launched from the Adobe Campaign explorer.
 
-  To export/import data, click the **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** node, then the **[!UICONTROL New]** icon, and select **[!UICONTROL Export]** or **[!UICONTROL Import]** . This opens the appropriate wizard.
+  To export/import data, click the **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** node, then the **[!UICONTROL New]** icon, and select **[!UICONTROL Export]** or **[!UICONTROL Import]**. This opens the appropriate wizard.
 
   ![](assets/s_ncs_user_export_wizard_launch_from_menu.png)
 

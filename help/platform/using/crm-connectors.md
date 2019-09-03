@@ -186,7 +186,7 @@ To configure the Microsoft Dynamics connector to work with Adobe Campaign, apply
 
    ![](assets/crm_connectors_msdynamics_01_4.png)
 
-1. Select the **Deployment type**: **[!UICONTROL On-premise]** , **[!UICONTROL Office 365]** or **[!UICONTROL Web API]** , depending on the connector you want to configure.
+1. Select the **Deployment type**: **[!UICONTROL On-premise]**, **[!UICONTROL Office 365]** or **[!UICONTROL Web API]**, depending on the connector you want to configure.
 
    Adobe Campaign Classic supports the Dynamics 365 REST interface with OAuth protocol for authentication.
 
@@ -303,7 +303,7 @@ The date of the last synchronization is stored in an option specified in the con
 >[!NOTE]
 >
 >This note only applies to the generic **[!UICONTROL CRM Connector]** activity. For other CRM activities, the process is automatic.  
->This option has to be manually created and populated under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** . It must be a text option and its value needs to match the following format: **yyyy/MM/dd hh:mm:ss**.  
+>This option has to be manually created and populated under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. It must be a text option and its value needs to match the following format: **yyyy/MM/dd hh:mm:ss**.  
 >You need to manually update this option for any further import.
 
 You can specify the remote CRM field to be taken into account to identify the most recent changes.
@@ -409,9 +409,9 @@ The **[!UICONTROL Default]** mode applies automatic data conversion, which in mo
 
 Other possible conversions are:
 
-* **[!UICONTROL Date only]** : this mode deletes Date + Time type fields.
-* **[!UICONTROL Without time offset]** : this mode cancels the time zone management applied in the default mode.
-* **[!UICONTROL Copy/Paste]** : this mode uses raw data such as strings (no conversion).
+* **[!UICONTROL Date only]**: this mode deletes Date + Time type fields.
+* **[!UICONTROL Without time offset]**: this mode cancels the time zone management applied in the default mode.
+* **[!UICONTROL Copy/Paste]**: this mode uses raw data such as strings (no conversion).
 
 #### Error processing {#error-processing}
 
