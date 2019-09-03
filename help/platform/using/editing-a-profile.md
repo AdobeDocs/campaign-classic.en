@@ -54,7 +54,7 @@ This screen shows the quality index of the address, as well as how many errors t
 
 ## Other tab {#other-tab}
 
-This screen contains user-defined fields that can be personalized based on requirements. You can also change the names of the fields and define their format, via **[!UICONTROL Field properties...]** , as shown below:
+This screen contains user-defined fields that can be personalized based on requirements. You can also change the names of the fields and define their format, via **[!UICONTROL Field properties...]**, as shown below:
 
 ![](assets/s_ncs_user_profile_others_tab.png)
 

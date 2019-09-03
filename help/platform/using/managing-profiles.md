@@ -36,7 +36,7 @@ You can select one or more recipients, drag them from the recipient list, and dr
 
 ## Copying a recipient {#copying-a-recipient}
 
-You can copy a recipient in the same folder by right-clicking the desired recipient and selecting **[!UICONTROL Copy]** .
+You can copy a recipient in the same folder by right-clicking the desired recipient and selecting **[!UICONTROL Copy]**.
 
 ## Deleting recipients {#deleting-recipients}
 

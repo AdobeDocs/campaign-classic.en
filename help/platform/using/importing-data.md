@@ -53,7 +53,7 @@ When launching the import wizard, you first have to select a template. As an exa
 
 1. Click the arrow to the right of the **[!UICONTROL Import template]** field to select your template, or click **[!UICONTROL Select link]** to browse the tree.
 
-   The native template is **[!UICONTROL New text import]** . This template must not be modified, but you can duplicate it to configure a new template depending on your requirements. By default, import templates are saved in the **[!UICONTROL Profiles and targets > Templates > Job templates]** node.
+   The native template is **[!UICONTROL New text import]**. This template must not be modified, but you can duplicate it to configure a new template depending on your requirements. By default, import templates are saved in the **[!UICONTROL Profiles and targets > Templates > Job templates]** node.
 
 1. Enter a name for this import in the **[!UICONTROL Label]** field. You can add a description.
 1. Select the import type in the appropriate field. There are two possible types of import: **[!UICONTROL Simple import]** to import only one file, and **[!UICONTROL Multiple import]** to import several files in a single execution.
@@ -62,7 +62,7 @@ When launching the import wizard, you first have to select a template. As an exa
 
    ![](assets/s_ncs_user_import_wizard01_2.png)
 
-1. Specify the fields you want to import by clicking **[!UICONTROL Add]** .
+1. Specify the fields you want to import by clicking **[!UICONTROL Add]**.
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
@@ -110,7 +110,7 @@ By default, **[!UICONTROL Upload file on the server]** is selected. Click the fo
 
 ![](assets/s_ncs_user_import_wizard02_1.png)
 
-When the file has been specified, you can view its data in the lower section of the window by clicking **[!UICONTROL Auto-detect format]** . This preview displays the first 200 lines of the source file. 
+When the file has been specified, you can view its data in the lower section of the window by clicking **[!UICONTROL Auto-detect format]**. This preview displays the first 200 lines of the source file. 
 
 ![](assets/s_ncs_user_import_wizard02_2.png)
 
@@ -167,10 +167,10 @@ Calculated fields are new columns added to the source file and calculated from o
 
 There are four types of calculated fields:
 
-* **[!UICONTROL Fixed string]** : the value of the calculated field is the same for all the lines of the source file. Lets you set the value of a field of the records inserted or updated. For example, you can set a marker to "yes" for all imported records.
-* **[!UICONTROL String with JavaScript tags]** : the value of the calculated field is a character string containing JavaScript commands.
-* **[!UICONTROL JavaScript expression]** : the value of the calculated field is the result of the evaluation of a JavaScript function. The value returned can be a number, a date, etc.
-* **[!UICONTROL Enumeration]** : the value of the field is attributed according to a value contained in the source file. The editor lets you specify the source column and enter the list of enumeration values, as in the following example:
+* **[!UICONTROL Fixed string]**: the value of the calculated field is the same for all the lines of the source file. Lets you set the value of a field of the records inserted or updated. For example, you can set a marker to "yes" for all imported records.
+* **[!UICONTROL String with JavaScript tags]**: the value of the calculated field is a character string containing JavaScript commands.
+* **[!UICONTROL JavaScript expression]**: the value of the calculated field is the result of the evaluation of a JavaScript function. The value returned can be a number, a date, etc.
+* **[!UICONTROL Enumeration]**: the value of the field is attributed according to a value contained in the source file. The editor lets you specify the source column and enter the list of enumeration values, as in the following example:
 
   ![](assets/s_ncs_user_import_wizard03_3.png)
 
@@ -194,17 +194,17 @@ Special options are available for each node (table or field). When you click the
 
 For each table concerned by the import, you must define the type of operation. The following operations are available for the main element of the database:
 
-* **[!UICONTROL Update or insertion]** : updates the record if it exists in the database, and creates it if not.
-* **[!UICONTROL Insertion]** : inserts records into the database.
-* **[!UICONTROL Update]** : updates existing records only (ignores other records).
-* **[!UICONTROL Reconciliation only]** : looks for the record in the database, but does not perform an update. For example, lets you associate the folder of recipients to import according to a column of the file without updating the data in the folders.
-* **[!UICONTROL Deletion]** : lets you destroy records in the database.
+* **[!UICONTROL Update or insertion]**: updates the record if it exists in the database, and creates it if not.
+* **[!UICONTROL Insertion]**: inserts records into the database.
+* **[!UICONTROL Update]**: updates existing records only (ignores other records).
+* **[!UICONTROL Reconciliation only]**: looks for the record in the database, but does not perform an update. For example, lets you associate the folder of recipients to import according to a column of the file without updating the data in the folders.
+* **[!UICONTROL Deletion]**: lets you destroy records in the database.
 
 The following options are available for each field in the table concerned by the import:
 
-* **[!UICONTROL Update (empty) if source value is empty]** : in the event of an update, the value in the field will remove the database value if the field is empty in the source file. Otherwise, the database field is kept.
-* **[!UICONTROL Update only if destination is empty]** : the value from the source file does not overwrite the value in the database field unless the database field is empty. In that case, it takes the value of the source file. 
-* **[!UICONTROL Update the field only when the record is inserted]** : during an update or insertion operation, only source file records that are new will be imported.
+* **[!UICONTROL Update (empty) if source value is empty]**: in the event of an update, the value in the field will remove the database value if the field is empty in the source file. Otherwise, the database field is kept.
+* **[!UICONTROL Update only if destination is empty]**: the value from the source file does not overwrite the value in the database field unless the database field is empty. In that case, it takes the value of the source file. 
+* **[!UICONTROL Update the field only when the record is inserted]**: during an update or insertion operation, only source file records that are new will be imported.
 
 >[!NOTE]
 >
@@ -247,7 +247,7 @@ The **[!UICONTROL Management of doubles]** field lets you configure the deduplic
 >
 >Deduplication is performed in memory only. The size of an import with deduplication is therefore limited. The limit depends on several parameters (capacity of the application server, activity, number of fields in the key, etc.). The maximum size for a deduplication is of the order of 1,000,000 lines.
 
-Deduplication concerns a record that is present both in the source file and the database. It concerns operations with update only (i.e. **[!UICONTROL Update and insertion]** or **[!UICONTROL Update]** ). The **[!UICONTROL Duplicate management]** option lets you update or ignore the record if it is in both the source file and the database. The **[!UICONTROL Update or insert based on origin]** option belongs to the optional module and cannot be used in a standard context.
+Deduplication concerns a record that is present both in the source file and the database. It concerns operations with update only (i.e. **[!UICONTROL Update and insertion]** or **[!UICONTROL Update]**). The **[!UICONTROL Duplicate management]** option lets you update or ignore the record if it is in both the source file and the database. The **[!UICONTROL Update or insert based on origin]** option belongs to the optional module and cannot be used in a standard context.
 
 The options **[!UICONTROL Reject]** and **[!UICONTROL Ignore]** operate as presented above.
 
@@ -268,9 +268,9 @@ There are two types of rejects (the type is displayed in the **[!UICONTROL Conne
 
 In the data reconciliation page, you can define the desired error management type field by field and table by table.
 
-* **[!UICONTROL Ignore and log a warning]** : all of the fields are imported into the database except the one that generated an error.
-* **[!UICONTROL Reject parent element]** : the entire line of the record is rejected, not only the field that caused an error.
-* **[!UICONTROL Reject all elements]** : the import stops and all elements of the record are rejected.
+* **[!UICONTROL Ignore and log a warning]**: all of the fields are imported into the database except the one that generated an error.
+* **[!UICONTROL Reject parent element]**: the entire line of the record is rejected, not only the field that caused an error.
+* **[!UICONTROL Reject all elements]**: the import stops and all elements of the record are rejected.
 
   ![](assets/s_ncs_user_import_wizard04_4.png)
 
@@ -304,11 +304,11 @@ The next step of the import wizard lets you select or create the folder in which
     
        ![](assets/s_ncs_user_import_wizard05_2.png)
 
-       To create a new folder, select the node from which you want to add a folder, and right-click. Select **[!UICONTROL Create a new 'Recipients' folder]** .
+       To create a new folder, select the node from which you want to add a folder, and right-click. Select **[!UICONTROL Create a new 'Recipients' folder]**.
     
        ![](assets/s_ncs_user_import_wizard05_3.png)
 
-       The folder is added below the current node. Enter the name of the new folder, hit Enter to confirm, and then click **[!UICONTROL OK]** .
+       The folder is added below the current node. Enter the name of the new folder, hit Enter to confirm, and then click **[!UICONTROL OK]**.
     
        ![](assets/s_ncs_user_import_wizard05_4.png)
 
@@ -318,7 +318,7 @@ The next step of the import wizard lets you select or create the folder in which
     
        ![](assets/s_ncs_user_import_wizard05_5.png)
 
-       You can create a new list for these recipients by clicking **[!UICONTROL Select link]** , then **[!UICONTROL Create]** . The creation and management of lists are presented in [Creating and managing lists](../../platform/using/creating-and-managing-lists.md).
+       You can create a new list for these recipients by clicking **[!UICONTROL Select link]**, then **[!UICONTROL Create]**. The creation and management of lists are presented in [Creating and managing lists](../../platform/using/creating-and-managing-lists.md).
     
        ![](assets/s_ncs_user_import_wizard05_6.png)
 
@@ -366,11 +366,11 @@ Job status indicates the current status of a job. Each status is represented by 
 
 * **Pause in progress**
 
-  Click **[!UICONTROL Pause]** : the job is being suspended.
+  Click **[!UICONTROL Pause]**: the job is being suspended.
 
 * **Paused**
 
-  Click **[!UICONTROL Pause]** : the job is suspended. It can be restarted by clicking **[!UICONTROL Start]** .
+  Click **[!UICONTROL Pause]**: the job is suspended. It can be restarted by clicking **[!UICONTROL Start]**.
 
 * **Finished**
 
@@ -419,10 +419,10 @@ To import new recipient profiles stored in a text file into the Adobe Campaign d
 
 1. Choosing a template
 
-    * From the Adobe Campaign home page, click the **[!UICONTROL Profiles and targets]** link, then **[!UICONTROL Jobs]** . Above the list of jobs, click **[!UICONTROL New import]** .
+    * From the Adobe Campaign home page, click the **[!UICONTROL Profiles and targets]** link, then **[!UICONTROL Jobs]**. Above the list of jobs, click **[!UICONTROL New import]**.
     * Keep the **[!UICONTROL New text import]** template selected by default.
     * Change the label and the description.
-    * Select **[!UICONTROL Simple import]** .
+    * Select **[!UICONTROL Simple import]**.
     * Keep the default job folder.
     * Click **[!UICONTROL Advanced parameters]** and select the **[!UICONTROL Tracking mode]** option to view the details of your import during execution.
 
@@ -434,7 +434,7 @@ To import new recipient profiles stored in a text file into the Adobe Campaign d
 
 1. Associating fields
 
-   Click the **[!UICONTROL Guess the destination fields]** icon to map the source and destination schemas automatically. Check the information in this window before clicking **[!UICONTROL Next]** .
+   Click the **[!UICONTROL Guess the destination fields]** icon to map the source and destination schemas automatically. Check the information in this window before clicking **[!UICONTROL Next]**.
 
    ![](assets/s_ncs_user_import_example03_01.png)
 
@@ -453,13 +453,13 @@ To import new recipient profiles stored in a text file into the Adobe Campaign d
 
 1. Launching the import
 
-    * Click **[!UICONTROL Start]** .
+    * Click **[!UICONTROL Start]**.
 
       In the central area of the editor, you can check that the import operation has succeeded and view the number of records processed.
     
       ![](assets/s_ncs_user_import_example06_01.png)
 
-      The **[!UICONTROL Tracking]** mode lets you track the details of the import for each record in the source file. To do this, from the home page click **[!UICONTROL Profiles and Targets]** then **[!UICONTROL Processes]** , select the relevant import, and look up the **[!UICONTROL General]** , **[!UICONTROL Journal]** and **[!UICONTROL Rejects]** tabs.
+      The **[!UICONTROL Tracking]** mode lets you track the details of the import for each record in the source file. To do this, from the home page click **[!UICONTROL Profiles and Targets]** then **[!UICONTROL Processes]**, select the relevant import, and look up the **[!UICONTROL General]**, **[!UICONTROL Journal]** and **[!UICONTROL Rejects]** tabs.
 
         * Checking import progress
         
@@ -493,13 +493,13 @@ We want to update existing records in the database and create new ones from a te
 
     * Keep **[!UICONTROL Update or insert]** selected by default.
     * Keep the option **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** mode so that existing records in the database will be modified with data from the text file.
-    * Select the fields **[!UICONTROL Birth date]** , **[!UICONTROL Name]** and **[!UICONTROL Company]** and assign a reconciliation key to them. 
+    * Select the fields **[!UICONTROL Birth date]**, **[!UICONTROL Name]** and **[!UICONTROL Company]** and assign a reconciliation key to them. 
     
       ![](assets/s_ncs_user_import_example04_02.png)
 
 1. Launching the import
 
-    * Click **[!UICONTROL Start]** .
+    * Click **[!UICONTROL Start]**.
 
       In the tracking window, you can check that the import has succeeded and view the number of records processed.
     
@@ -546,13 +546,13 @@ Apply the following steps:
     * Keep the option **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** mode so that existing records in the database will be modified with data from the text file.
     * Place the cursor on the **[!UICONTROL Last name (@lastName)]** node and select the **[!UICONTROL Update only if destination is empty]** option.
     * Repeat this operation for the **[!UICONTROL Company (@company)]** node.
-    * Assign a reconciliation key to the fields **[!UICONTROL Birth date]** , **[!UICONTROL E-mail]** and **[!UICONTROL First name]** .
+    * Assign a reconciliation key to the fields **[!UICONTROL Birth date]**, **[!UICONTROL E-mail]** and **[!UICONTROL First name]**.
     
       ![](assets/s_ncs_user_import_example04_03.png)
 
 1. Launching the import
 
-   Click **[!UICONTROL Start]** .
+   Click **[!UICONTROL Start]**.
 
    Look in the recipient table to check that the records have been modified by the import.
 
@@ -590,17 +590,17 @@ In this example, you will see that certain fields in your text file have an empt
 
 1. Reconciliation
 
-    * Go to the table and select **[!UICONTROL Update]** .
+    * Go to the table and select **[!UICONTROL Update]**.
     * Select the option **[!UICONTROL Reject entity]** for the **[!UICONTROL Management of doubles]** field.
     * Leave the option **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** mode for existing records in the database to be modified with data from the text file.
-    * Place the cursor on the **[!UICONTROL Account number (@account)]** node and select the option **[!UICONTROL Take empty values into account]** .
-    * Select the fields **[!UICONTROL Birth date]** , **[!UICONTROL E-mail]** and **[!UICONTROL First name]** and assign a reconciliation key to them. 
+    * Place the cursor on the **[!UICONTROL Account number (@account)]** node and select the option **[!UICONTROL Take empty values into account]**.
+    * Select the fields **[!UICONTROL Birth date]**, **[!UICONTROL E-mail]** and **[!UICONTROL First name]** and assign a reconciliation key to them. 
     
       ![](assets/s_ncs_user_import_example04_04.png)
 
 1. Launching the import
 
-    * Click **[!UICONTROL Start]** . 
+    * Click **[!UICONTROL Start]**. 
     * Look in the recipient table to check that the records have been modified by the operation.
     
       ![](assets/s_ncs_user_import_example06_06.png)

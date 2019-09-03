@@ -37,7 +37,7 @@ The values for this type of field are defined and overall administration of thes
 
   ![](assets/s_ncs_user_itemized_list_values.png)
 
-  To create a new enumeration value, click **[!UICONTROL Add]** .
+  To create a new enumeration value, click **[!UICONTROL Add]**.
 
   ![](assets/s_ncs_user_itemized_list.png)
 
@@ -75,11 +75,11 @@ The option **[!UICONTROL Alias cleansing]** makes it possible to use aliases for
 
 #### Creating an alias {#creating-an-alias}
 
-To create an alias, click **[!UICONTROL Add]** .
+To create an alias, click **[!UICONTROL Add]**.
 
 ![](assets/s_ncs_user_itemized_list_alias_create.png)
 
-Enter the alias you want to convert and the value to be applied and click **[!UICONTROL Ok]** .
+Enter the alias you want to convert and the value to be applied and click **[!UICONTROL Ok]**.
 
 ![](assets/s_ncs_user_itemized_list_alias_create_2.png)
 
@@ -97,11 +97,11 @@ Thus, when a user enters the value **NEILSEN** in a "company" field (in the Adob
 
 #### Converting values into aliases {#converting-values-into-aliases}
 
-To convert an enumeration value into an alias, right-click in the list of values and choose **[!UICONTROL Convert values into aliases...]** . 
+To convert an enumeration value into an alias, right-click in the list of values and choose **[!UICONTROL Convert values into aliases...]**. 
 
 ![](assets/s_ncs_user_itemized_list_alias_detail.png)
 
-Choose the values you want to convert and click **[!UICONTROL Next]** .
+Choose the values you want to convert and click **[!UICONTROL Next]**.
 
 ![](assets/s_ncs_user_itemized_list_alias_transform.png)
 
@@ -147,8 +147,8 @@ You can run hit calculation manually via the **[!UICONTROL Cleanse values...]** 
 
 ![](assets/s_ncs_user_itemized_list_alias_hits.png)
 
-* **[!UICONTROL Update the number of alias hits]** : this lets you update hits which have already been calculated, based on the entered date.
-* **[!UICONTROL Recalculate the number of alias hits from the start]** : lets you run calculation on the entire Adobe Campaign platform.
+* **[!UICONTROL Update the number of alias hits]**: this lets you update hits which have already been calculated, based on the entered date.
+* **[!UICONTROL Recalculate the number of alias hits from the start]**: lets you run calculation on the entire Adobe Campaign platform.
 
 You can also create a dedicated workflow in order for the calculation to run automatically for a given period, once a week for example.
 

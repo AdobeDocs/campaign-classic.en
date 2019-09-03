@@ -91,7 +91,7 @@ A data package can be constructed manually from any text editor. Simply ensure t
 Packages can be exported in three different ways:
 
 * The **[!UICONTROL Package Export Wizard]** enables you to export a set of objects in a single package. For more on this refer to [Exporting a set of objects in a package](../../platform/using/working-with-data-packages.md#exporting-a-set-of-objects-in-a-package)
-* A **single object** can be exported in a package directly by right-clicking on it and selecting **[!UICONTROL Actions > Export in a package]** .
+* A **single object** can be exported in a package directly by right-clicking on it and selecting **[!UICONTROL Actions > Export in a package]**.
 * **Package definitions** let you create a package structure in which you add objects that will be exported later on in a package. For more on this, refer to [Managing package definitions](../../platform/using/working-with-data-packages.md#managing-package-definitions)
 
 Once a package exported, you will be able to import it and all the added entities into another Campaign instance.
@@ -110,7 +110,7 @@ For the three types of packages, the wizard offers the following steps:
 
    >[!CAUTION]
    >
-   >If you export an **[!UICONTROL Offer category]** , **[!UICONTROL Offer environment]** , **[!UICONTROL Program]** or **[!UICONTROL Plan]** type folder, don't ever select the **xtk:folder** as you may lose some data. Select the entity that corresponds with the folder: **nms:offerCategory** for offer categories, **nms:offerEnv** for offer environments, **nms:program** for programs, and **nms:plan** for plans.
+   >If you export an **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** or **[!UICONTROL Plan]** type folder, don't ever select the **xtk:folder** as you may lose some data. Select the entity that corresponds with the folder: **nms:offerCategory** for offer categories, **nms:offerEnv** for offer environments, **nms:program** for programs, and **nms:plan** for plans.
 
    List management lets you add or delete entities for export from the configuration. Click **[!UICONTROL Add]** to select a new entity.
 
@@ -262,11 +262,11 @@ In the **[!UICONTROL Content]** tab, click the **[!UICONTROL Add]** button to se
 
 Entities can be added to a package definition directly from their location in the instance. To do this, follow the steps below:
 
-1. Right-click the desired entity, then select **[!UICONTROL Actions > Export in a package]** .
+1. Right-click the desired entity, then select **[!UICONTROL Actions > Export in a package]**.
 
    ![](assets/packagedefinition_singleentity.png)
 
-1. Select **[!UICONTROL Add to a package definition]** , then select the package definition to which you want to add the entity.
+1. Select **[!UICONTROL Add to a package definition]**, then select the package definition to which you want to add the entity.
 
    ![](assets/packagedefinition_packageselection.png)
 
@@ -280,9 +280,9 @@ Package generation can be configured from the package definition **[!UICONTROL C
 
 ![](assets/packagedefinition_generationparameters.png)
 
-* **[!UICONTROL Include the definition]** : includes the definition currently used in the package definition.
-* **[!UICONTROL Include an installation script]** : lets you add a javascript script to execute at the package import. When selected, a **[!UICONTROL Script]** tab is added in the package definition screen.
-* **[!UICONTROL Include default values]** : adds to the package the values of all the entities' attributes.
+* **[!UICONTROL Include the definition]**: includes the definition currently used in the package definition.
+* **[!UICONTROL Include an installation script]**: lets you add a javascript script to execute at the package import. When selected, a **[!UICONTROL Script]** tab is added in the package definition screen.
+* **[!UICONTROL Include default values]**: adds to the package the values of all the entities' attributes.
 
   This option is not selected by default, in order to avoid lengthy exports. This means that entities' attributes with default values ('empty string', '0', and 'false' if not defined otherwise in the schema) will not be added to the package and will therefore not be exported.
 
@@ -296,7 +296,7 @@ Package generation can be configured from the package definition **[!UICONTROL C
 
 To export a package from a package definition, follow the steps below:
 
-1. Select the package definition to export, then click the **[!UICONTROL Actions]** button and select **[!UICONTROL Export the package]** .
+1. Select the package definition to export, then click the **[!UICONTROL Actions]** button and select **[!UICONTROL Export the package]**.
 1. An XML file corresponding to the exported package is selected by default. It is named according to the package definition namespace and name.
 1. Once the package name and location defined, click the **[!UICONTROL Start]** button to launch the export.
 
@@ -314,7 +314,7 @@ You can import a package from an export performed earlier, e.g. from another Ado
 
 ### Installing a package from a file {#installing-a-package-from-a-file}
 
-To import an existing data package, select the XML file and click **[!UICONTROL Open]** .
+To import an existing data package, select the XML file and click **[!UICONTROL Open]**.
 
 ![](assets/ncs_datapackage_import_1.png)
 

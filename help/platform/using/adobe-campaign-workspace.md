@@ -134,11 +134,11 @@ If a "**?**" appears instead of the number on the right, click the counter to la
 
 ### Loading more records {#loading-more-records}
 
-To load (and therefore display) additional records (200 lines by default) click **[!UICONTROL Continue loading]** .
+To load (and therefore display) additional records (200 lines by default) click **[!UICONTROL Continue loading]**.
 
 ![](assets/s_ncs_user_load_list.png)
 
-To load all the records, right-click the list and select **[!UICONTROL Load all]** .
+To load all the records, right-click the list and select **[!UICONTROL Load all]**.
 
 >[!CAUTION]
 >
@@ -163,7 +163,7 @@ There are two ways to add a column in a list.
 You can quickly add a column to a list from the detail of a record. To do this:
 
 1. From a detail screen, right-click the field you want to display in a column.
-1. Select **[!UICONTROL Add in the list]** .
+1. Select **[!UICONTROL Add in the list]**.
 
    The column is added to the right of the existing columns.
 
@@ -175,7 +175,7 @@ Another way to add columns, for example if you want to display data which is not
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. In the list configuration window, double-click the field to be added in the **[!UICONTROL Available fields]** list in order to add it to the **[!UICONTROL Output columns]** . 
+1. In the list configuration window, double-click the field to be added in the **[!UICONTROL Available fields]** list in order to add it to the **[!UICONTROL Output columns]**. 
 
    ![](assets/s_ncs_user_configurelist.png)
 
@@ -252,12 +252,12 @@ For example, for a delivery folder, it is possible to configure the following di
 To save this list configuration so that it can be reused, follow the steps below:
 
 1. Right click the folder containing the displayed data.
-1. Select **[!UICONTROL Properties]** .
+1. Select **[!UICONTROL Properties]**.
 1. Click **[!UICONTROL Advanced settings]** and then specify a name in the **[!UICONTROL Configuration]** field. 
 
    ![](assets/s_ncs_user_folder_save_config_2.png)
 
-1. Click **[!UICONTROL OK]** and then click **[!UICONTROL Save]** .
+1. Click **[!UICONTROL OK]** and then click **[!UICONTROL Save]**.
 
 You can then apply this configuration to another **Delivery** folder:
 
@@ -269,7 +269,7 @@ Click **[!UICONTROL Save]** in the folder properties window. The list display is
 
 ### Exporting a list {#exporting-a-list}
 
-To export data from a list, you must use an export wizard. To access it, select the elements to be exported from the list, right-click and select **[!UICONTROL Export...]** .
+To export data from a list, you must use an export wizard. To access it, select the elements to be exported from the list, right-click and select **[!UICONTROL Export...]**.
 
 The use of the import and export functions is explained in [Generic imports and exports](../../platform/using/generic-imports-and-exports.md).
 
@@ -353,7 +353,7 @@ Using the input fields with a drop-down list, you can enter an enumeration value
 
 ![](assets/s_ncs_user_wizard_email_bat_substitute_email.png)
 
-If you click **[!UICONTROL Yes]** , this value will be available in the combo box of the relevant field (in this case: **[!UICONTROL London]** ).
+If you click **[!UICONTROL Yes]**, this value will be available in the combo box of the relevant field (in this case: **[!UICONTROL London]**).
 
 >[!NOTE]
 >

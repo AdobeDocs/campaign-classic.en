@@ -42,11 +42,11 @@ Select the table containing the data you want to query in the **[!UICONTROL Docu
 
 In the **[!UICONTROL Data to extract]** window, select the data to display: these fields will make up the output columns.
 
-For example, select **[!UICONTROL Age]** , **[!UICONTROL Primary key]** , **[!UICONTROL Email domain]** and **[!UICONTROL City]** . The results will be organized based on this selection. Use the blue arrows to the right of the window to change the column order.
+For example, select **[!UICONTROL Age]**, **[!UICONTROL Primary key]**, **[!UICONTROL Email domain]** and **[!UICONTROL City]**. The results will be organized based on this selection. Use the blue arrows to the right of the window to change the column order.
 
 ![](assets/query_editor_nveau_01.png)
 
-You can edit an expression by inserting a formula into it or running a process on an aggregate function. To do this, click the **[!UICONTROL Expression]** column field, then select **[!UICONTROL Edit expression]** .
+You can edit an expression by inserting a formula into it or running a process on an aggregate function. To do this, click the **[!UICONTROL Expression]** column field, then select **[!UICONTROL Edit expression]**.
 
 ![](assets/query_editor_nveau_97.png)
 
@@ -122,9 +122,9 @@ Unchecked columns will not be shown in the data preview window.
 
 The **[!UICONTROL Transformation]** column lets you change a column label to upper or lower case. Select the column and click in the **[!UICONTROL Transformation]** column. You can choose:
 
-* **[!UICONTROL Switch to lower case]** ,
-* **[!UICONTROL Switch to upper case]** , 
-* **[!UICONTROL First letter in upper case]** .
+* **[!UICONTROL Switch to lower case]**,
+* **[!UICONTROL Switch to upper case]**, 
+* **[!UICONTROL First letter in upper case]**.
 
 ![](assets/query_editor_nveau_42.png)
 
@@ -138,5 +138,5 @@ In this example, data is sorted in ascending order based on recipient age.
 
 >[!NOTE]
 >
->By default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]** .
+>By default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**.
 

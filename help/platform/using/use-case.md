@@ -33,7 +33,7 @@ Apply the following steps:
 
    ![](assets/s_ncs_user_filter_choose_schema.png)
 
-1. Select the subscription schema (nms:subscription) and click **[!UICONTROL OK]** .
+1. Select the subscription schema (nms:subscription) and click **[!UICONTROL OK]**.
 
    ![](assets/s_ncs_user_filter_select_schema.png)
 

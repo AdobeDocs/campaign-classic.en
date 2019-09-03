@@ -485,11 +485,11 @@ You can also connect via FDA by using Windows authentication. To do this:
 
 * Make sure that the Adobe Campaign service is executed by a Windows account that is different from the local system account.
 * Make sure that the Adobe Campaign operator disposes of sufficient rights for the Adobe Campaign application server and the external database.
-* Create the corresponding external account without specifying the **[!UICONTROL Account]** and the **[!UICONTROL Password]** . Only specify the name of the database.
+* Create the corresponding external account without specifying the **[!UICONTROL Account]** and the **[!UICONTROL Password]**. Only specify the name of the database.
 
 ### Creating a temporary connection {#creating-a-temporary-connection}
 
-You can directly define a connection to an external database from workflow activities. In this case, it will be on a local external database, reserved to be used within a current workflow: it will not be saved on the external accounts. This type of punctual connection can be created on different activities of the workflow, particularly the **[!UICONTROL Query]** , the **[!UICONTROL Data loading (RDBMS)]** , the **[!UICONTROL Enrichment]** activity or the **[!UICONTROL Split]** activity.
+You can directly define a connection to an external database from workflow activities. In this case, it will be on a local external database, reserved to be used within a current workflow: it will not be saved on the external accounts. This type of punctual connection can be created on different activities of the workflow, particularly the **[!UICONTROL Query]**, the **[!UICONTROL Data loading (RDBMS)]**, the **[!UICONTROL Enrichment]** activity or the **[!UICONTROL Split]** activity.
 
 >[!CAUTION]
 >
@@ -521,7 +521,7 @@ For example, in the query activity, the steps for creating a periodic connection
    ![](assets/wf_add_data_local_external_data_join.png)
 
 1. If necessary, specify a filtering condition and the data sorting mode.
-1. Select the additional data to be collected in the external database. To do this, double click on the fields(s) that you want to add to display them in the **[!UICONTROL Output columns]** . 
+1. Select the additional data to be collected in the external database. To do this, double click on the fields(s) that you want to add to display them in the **[!UICONTROL Output columns]**. 
 
    ![](assets/wf_add_data_local_external_data_select.png)
 
@@ -545,7 +545,7 @@ If necessary, you can create the schema for processing data in an external datab
 
 ## Creating the data schema {#creating-the-data-schema}
 
-To create a schema on an external database, click the **[!UICONTROL New]** button above the list of data schemas and choose **[!UICONTROL Access external data]** .
+To create a schema on an external database, click the **[!UICONTROL New]** button above the list of data schemas and choose **[!UICONTROL Access external data]**.
 
 ![](assets/wf_new_schema_fda.png)
 
@@ -626,7 +626,7 @@ To do this, you must configure the external accounts of the two instances so tha
   >
   >We recommend that you use an HTTPS connection.
 
-* Remote instance: in the FDA external account of the database accessed via the HTTP relay, check the Target of an **[!UICONTROL 'HTTP relay to a remote database' account option]** .
+* Remote instance: in the FDA external account of the database accessed via the HTTP relay, check the Target of an **[!UICONTROL 'HTTP relay to a remote database' account option]**.
 
   ![](assets/fda_over_http_2.png)
 

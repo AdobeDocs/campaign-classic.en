@@ -48,7 +48,7 @@ Two types of lists are available in Adobe Campaign:
 
 To create a new **[!UICONTROL Group]** type list, apply the following steps:
 
-1. Click the **[!UICONTROL Create]** button and select **[!UICONTROL New list]** .
+1. Click the **[!UICONTROL Create]** button and select **[!UICONTROL New list]**.
 
    ![](assets/s_ncs_user_new_group.png)
 
@@ -66,7 +66,7 @@ To create a new **[!UICONTROL Group]** type list, apply the following steps:
 
 1. Click **[!UICONTROL Save]** to save the list. It is then added to the overview of lists.
 
-You can create new profiles directly from the 'add profiles' window by clicking **[!UICONTROL Create]** . The profile will be added to the database.
+You can create new profiles directly from the 'add profiles' window by clicking **[!UICONTROL Create]**. The profile will be added to the database.
 
 ![](assets/s_ncs_user_new_recipient_from_group.png)
 
@@ -81,11 +81,11 @@ The profile list can be configured just like other lists. See [Configuring lists
 The profiles of a set of profiles can be filtered and linked to a list. Delivery actions may then be sent to this list, to target profiles. To group profiles:
 
 1. Select profiles and right-click. 
-1. Select **[!UICONTROL Actions > Associate selection with a list...]** .
+1. Select **[!UICONTROL Actions > Associate selection with a list...]**.
 
    ![](assets/s_ncs_user_add_selection_to_group.png)
 
-1. Select the desired list or create a new list using the **[!UICONTROL Create]** button, then click **[!UICONTROL Next]** .
+1. Select the desired list or create a new list using the **[!UICONTROL Create]** button, then click **[!UICONTROL Next]**.
 
    ![](assets/s_ncs_user_add_selection_to_group_2.png)
 
@@ -121,7 +121,7 @@ To remove a profile from a list, you can:
 
 ## Deleting a list of profiles {#deleting-a-list-of-profiles}
 
-You can delete one or more lists from the group list in the Adobe Campaign tree. To do this, edit the tree via the **[!UICONTROL Advanced > Explorer]** link in the Adobe Campaign home page. Select the group(s) concerned and right-click. Select **[!UICONTROL Delete]** . A warning message asks you to confirm the deletion.
+You can delete one or more lists from the group list in the Adobe Campaign tree. To do this, edit the tree via the **[!UICONTROL Advanced > Explorer]** link in the Adobe Campaign home page. Select the group(s) concerned and right-click. Select **[!UICONTROL Delete]**. A warning message asks you to confirm the deletion.
 
 >[!NOTE]
 >

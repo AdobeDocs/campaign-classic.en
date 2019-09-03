@@ -33,7 +33,7 @@ When launching the export wizard, you first have to select a template. As an exa
 
 1. Click the arrow to the right of the **[!UICONTROL Export template]** field to select your template, or click **[!UICONTROL Select link]** to browse the tree.
 
-   The native template is **[!UICONTROL New text export]** . This template must not be modified, but you can duplicate it to configure a new template. By default, export templates are saved in the **[!UICONTROL Resources > Templates > Job templates]** node.
+   The native template is **[!UICONTROL New text export]**. This template must not be modified, but you can duplicate it to configure a new template. By default, export templates are saved in the **[!UICONTROL Resources > Templates > Job templates]** node.
 
 1. Enter a name for export in the **[!UICONTROL Label]** field. You can add a description.
 1. Select the export type. There are two possible types of export: **[!UICONTROL Simple export]** to export only one file, and **[!UICONTROL Multiple export]** to export several files in a single execution, from one or more types of source document.
@@ -54,7 +54,7 @@ By default, when the export is launched from the **[!UICONTROL Jobs]** node the 
   >
   >To export only some of the data, click **[!UICONTROL Advanced parameters]** and enter the number of lines to be exported in the appropriate field.
 
-* You can create a differential export to export only records that have been modified since the last execution. To do this, click the **[!UICONTROL Advanced parameters]** link, then click the **[!UICONTROL Differential export]** tab, then select **[!UICONTROL Activate differential export]** .
+* You can create a differential export to export only records that have been modified since the last execution. To do this, click the **[!UICONTROL Advanced parameters]** link, then click the **[!UICONTROL Differential export]** tab, then select **[!UICONTROL Activate differential export]**.
 
   ![](assets/s_ncs_user_export_wizard02_b.png)
 
@@ -67,9 +67,9 @@ Select an output format for the export file. The following formats can be used: 
 ![](assets/s_ncs_user_export_wizard03.png)
 
 * For **[!UICONTROL Text]** format, select the delimiters to separate the columns (tabs, commas, semi-colons, or custom) and the strings (single or double quotes, or none).
-* For **[!UICONTROL text]** and **[!UICONTROL CSV]** , you can select the option **[!UICONTROL Use first lines as column titles]** .
+* For **[!UICONTROL text]** and **[!UICONTROL CSV]**, you can select the option **[!UICONTROL Use first lines as column titles]**.
 * Indicate the date format and number format. To do this, click the **[!UICONTROL Edit]** button for the field concerned and use the editor.
-* For fields containing enumerated values, you can select **[!UICONTROL Export labels instead of internal values of enumerations]** . For example, the title can be stored in the form **1=Mr.**, **2=Miss**,** 3=Mrs.**. If this option is selected, **Mr.**, **Miss** and **Mrs.** will be exported.
+* For fields containing enumerated values, you can select **[!UICONTROL Export labels instead of internal values of enumerations]**. For example, the title can be stored in the form **1=Mr.**, **2=Miss**,** 3=Mrs.**. If this option is selected, **Mr.**, **Miss** and **Mrs.** will be exported.
 
 ### Step 4 - Data selection {#step-4---data-selection}
 

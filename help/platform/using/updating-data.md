@@ -34,7 +34,7 @@ There are two types of updates: mass update for a set of recipients, and data me
 
 ### Mass update {#mass-update}
 
-For mass updating, use **[!UICONTROL Action > Mass update of selected lines...]** . The wizard helps you configure and run the update.
+For mass updating, use **[!UICONTROL Action > Mass update of selected lines...]**. The wizard helps you configure and run the update.
 
 The first step of the wizard is to specify the field(s) to be updated.
 
@@ -58,7 +58,7 @@ You can define filters to display the distribution of values in this window or m
 
 ![](assets/s_ncs_user_update_wizard01_3.png)
 
-Close this window and click **[!UICONTROL Next]** to display the second update wizard step. In this step, you can launch the update by clicking **[!UICONTROL Start]** .
+Close this window and click **[!UICONTROL Next]** to display the second update wizard step. In this step, you can launch the update by clicking **[!UICONTROL Start]**.
 
 ![](assets/s_ncs_user_update_wizard01_4.png)
 
@@ -85,7 +85,7 @@ Check the **[!UICONTROL Result]** columns of both sections of the window, and cl
 The content of a list can be exported. To configure and run the export:
 
 1. Select records to export.
-1. Right-click and select **[!UICONTROL Export...]** .
+1. Right-click and select **[!UICONTROL Export...]**.
 
    ![](assets/s_ncs_user_export_list.png)
 
@@ -100,11 +100,11 @@ The content of a list can be exported. To configure and run the export:
 In most cases, recipients subscribe to a newsletter through a dedicated landing page, as explained in [this section](../../delivery/using/managing-subscriptions.md). However, the profiles of filtered recipients can be subscribed to a service (Newsletter or Viral service) manually. To do this:
 
 1. Select the recipients you want to subscribe and right-click. 
-1. Select **[!UICONTROL Actions > Subscribe selection to a service]** .
+1. Select **[!UICONTROL Actions > Subscribe selection to a service]**.
 
    ![](assets/s_ncs_user_selection_subscribe_service.png)
 
-1. Select the desired service and click **[!UICONTROL Next]** :
+1. Select the desired service and click **[!UICONTROL Next]**:
 
    ![](assets/s_ncs_user_selection_subscribe_service_2.png)
 
