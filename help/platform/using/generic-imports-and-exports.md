@@ -50,7 +50,8 @@ The procedure for creating a process template is presented in [Export wizard](..
 
 >[!NOTE]
 >
->The native template **[!UICONTROL Import blacklist]** is already configured to import a list of blacklisted e-mail addresses.  
+>The native template **[!UICONTROL Import blacklist]** is already configured to import a list of blacklisted e-mail addresses. 
+> 
 >The **[!UICONTROL New text import]** and **[!UICONTROL New text export]** templates let you configure an import or export from scratch.
 
 ## Creating a new import/export {#creating-a-new-import-export}

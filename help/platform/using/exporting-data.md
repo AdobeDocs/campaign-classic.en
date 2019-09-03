@@ -51,6 +51,7 @@ By default, when the export is launched from the **[!UICONTROL Jobs]** node the 
   >[!NOTE]
   >
   >Automatic import and export jobs are always performed on the server.  
+  >
   >To export only some of the data, click **[!UICONTROL Advanced parameters]** and enter the number of lines to be exported in the appropriate field.
 
 * You can create a differential export to export only records that have been modified since the last execution. To do this, click the **[!UICONTROL Advanced parameters]** link, then click the **[!UICONTROL Differential export]** tab, then select **[!UICONTROL Activate differential export]** .
