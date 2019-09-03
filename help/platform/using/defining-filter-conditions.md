@@ -965,7 +965,7 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
    <td> Returns value 2 if string 1 is empty, otherwise returns value 3<br /> </td> 
-   <td> IsEmptyString(&lt;<var>value 1</var>&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
+   <td> IsEmptyString(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
