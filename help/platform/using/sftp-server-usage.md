@@ -29,6 +29,7 @@ To avoid such problems, Adobe recommends to follow the best practices below.
 >[!NOTE]
 >
 >If your instance is hosted on AWS, you can monitor your SFTP server storage with the Campaign Classic [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.md).  
+>
 >To check if your instance is hosted on AWS, follow the steps detailed in [this section](https://helpx.adobe.com/campaign/kb/control-panel-faq.md#IMSOrgID) .
 
 * The server size capabilities vary according to your license. In any case, keep the minimum data possible, and keep data for only as long as required (15 days is the maximum time limit).
@@ -80,7 +81,7 @@ The section below lists the information to check and provide to the Adobe Suppor
 
    >[!NOTE]
    >
-   >The Netcat tool lets you easily manage network connections on various operating systems (see https://eternallybored.org/misc/netcat/).
+   >The Netcat tool lets you easily manage network connections on various operating systems (see [https://eternallybored.org/misc/netcat/](https://eternallybored.org/misc/netcat/)).
 
    If the port is not opened, make sure to open outbound connections at your side, then try again. If you still meet connection issues, share the output of the command with Adobe Support team.
 

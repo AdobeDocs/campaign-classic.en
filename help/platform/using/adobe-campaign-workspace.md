@@ -31,6 +31,7 @@ The screenshot above is an example of the home page for an Adobe Campaign user. 
 >[!NOTE]
 >
 >Adobe Campaign capabilities available on your instance depend on modules and add-ons installed. Some of them may also not be available, depending on your permissions and specific configurations.  
+>
 >Before installing any module or add-on, you need to check your license agreement or contact your Adobe account executive.
 
 ### Console and web access {#console-and-web-access}
@@ -118,6 +119,7 @@ To browse a list, you can use **the scroll bars** (horizontal and vertical) to s
 >[!NOTE]
 >
 >Configuration and personalization of list content are presented in [Configuring lists](../../platform/using/adobe-campaign-workspace.md#configuring-lists).  
+>
 >You can also sort and filter data. See [Filtering options](../../platform/using/filtering-options.md).
 
 ### Counting records {#counting-records}
@@ -165,14 +167,41 @@ You can quickly add a column to a list from the detail of a record. To do this:
 
    The column is added to the right of the existing columns.
 
+![](assets/s_ncs_user_add_in_list.png)
+
 Another way to add columns, for example if you want to display data which is not displayed on the detail screen, is to use the list configuration window. To do this:
 
-* Click **[!UICONTROL Configure list]** below and to the right of the list.
-* In the list configuration window, double-click the field to be added in the **[!UICONTROL Available fields]** list in order to add it to the **[!UICONTROL Output columns]** . 
-* Repeat for each column to be displayed.
-* Use the arrows to modify the **display order**. The highest column will be on the left in the list of records.
-* If you need, you can click **[!UICONTROL Distribution of values]** to view the repartition of values for the selected field in the current folder.
-* Click **[!UICONTROL OK]** to confirm the configuration and display the result.
+1. Click **[!UICONTROL Configure list]** below and to the right of the list.
+
+   ![](assets/s_ncs_user_configure_list.png)
+
+1. In the list configuration window, double-click the field to be added in the **[!UICONTROL Available fields]** list in order to add it to the **[!UICONTROL Output columns]** . 
+
+   ![](assets/s_ncs_user_configurelist.png)
+
+   >[!NOTE]
+   >
+   >By default, advanced fields are not displayed. To display them, click **Display advanced fields** below and to the right of the list of available fields.
+   >
+   >The labels are displayed by table and then in alphabetical order.
+   >
+   >Use the **Search** field to run a search in the available fields. For further information, see [Sorting a list](/./../platform/using/adobe-campaign-workspace.md#sorting-a-list).
+   >
+   >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields.
+    [Configuring lists](../../platform/using/adobe-campaign-workspace.md#configuring-lists).  
+   >
+   >You can also sort and filter data. See [Filtering options](../../platform/using/filtering-options.md).
+
+1. Repeat for each column to be displayed.
+1. Use the arrows to modify the **display order**. The highest column will be on the left in the list of records.
+
+   ![](assets/s_ncs_user_columns_order_down.png)
+
+1. If you need, you can click **[!UICONTROL Distribution of values]** to view the repartition of values for the selected field in the current folder.
+
+   ![](assets/s_ncs_user_configurelist_values.png)
+
+1. Click **[!UICONTROL OK]** to confirm the configuration and display the result.
 
 #### Create a new column {#create-a-new-column}
 
@@ -292,12 +321,14 @@ Language is selected when installing Campaign, and cannot be changed afterwards.
 Main differences between US English and UK English are: 
 
 <table> 
- <tbody> 
+ <thead> 
   <tr> 
-   <td> <span class="uicontrol">Formats</span> <br /> </td> 
-   <td> <span class="uicontrol">English (US)</span> <br /> </td> 
-   <td> <span class="uicontrol">English (EN)</span> <br /> </td> 
+   <th> Formats<br /> </th> 
+   <th> English (US)<br /> </th> 
+   <th> English (EN)<br /> </th> 
   </tr> 
+ </thead> 
+ <tbody> 
   <tr> 
    <td> Date<br /> </td> 
    <td> Week starts on Sunday<br /> </td> 
@@ -305,13 +336,13 @@ Main differences between US English and UK English are:
   </tr> 
   <tr> 
    <td> Short date<br /> </td> 
-   <td> %2M/%2D/%4Y<br /> <strong>ex: 09/25/2018</strong><br /> </td> 
-   <td> %2D/%2M/%4Y<br /> <strong>ex: 25/09/2018</strong><br /> </td> 
+   <td> <p>%2M/%2D/%4Y</p><p><strong>ex: 09/25/2018</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y</p><p><strong>ex: 25/09/2018</strong></p> </td> 
   </tr> 
   <tr> 
    <td> Short date with time<br /> </td> 
-   <td> %2M/%2D/%4Y %I:%2N:%2S %P<br /> <strong>ex: 09/25/2018 10:47:25 PM</strong><br /> </td> 
-   <td> %2D/%2M/%4Y %2H:%2N:%2S<br /> <strong>ex: 25/09/2018 22:47:25</strong><br /> </td> 
+   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>ex: 09/25/2018 10:47:25 PM</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex: 25/09/2018 22:47:25</strong></p> </td> 
   </tr> 
  </tbody> 
 </table>

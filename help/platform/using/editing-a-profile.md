@@ -31,6 +31,7 @@ Tabs and their content depend on your configuration and installed packages.
 >[!CAUTION]
 >
 >The XML schema and the form that concerns the fields in the profiles table are accessed via the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign tree. Only expert users may make changes to these schemas.  
+>
 >For further information, refer to [this page](../../configuration/using/about-schema-edition.md).
 
 ## General tab {#general-tab}

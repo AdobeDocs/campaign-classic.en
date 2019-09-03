@@ -22,8 +22,10 @@ Adobe Campaign lets you import data to the database from one or more files in te
 
 >[!NOTE]
 >
->You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function.  
+>You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function. 
+> 
 >The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../workflow/using/read-list.md).  
+>
 >For more on this, watch the [Importing profiles](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.md) video.
 
 ## Structure of the data to import {#structure-of-the-data-to-import}
@@ -37,6 +39,7 @@ The import wizard lets you configure the import, define its options (such as dat
 >[!NOTE]
 >
 >If you use an IIS Web server, a configuration may be necessary to authorize uploading large files (>28 MB).  
+>
 >For more information, refer to [this section](../../installation/using/integration-into-a-web-server-for-windows.md#changing-the-upload-file-size-limit).
 
 ### Step 1 - Choosing the import template {#step-1---choosing-the-import-template}
@@ -221,13 +224,16 @@ Avoid choosing a field which might be modified during import; if this occurs, th
 
 >[!NOTE]
 >
->For a recipient import, the identifier of the selected folder is implicitly added to the key. Reconciliation is therefore performed on this folder only (unless no folder is selected).
+>For a recipient import, the identifier of the selected folder is implicitly added to the key. 
+>
+>Reconciliation is therefore performed on this folder only (unless no folder is selected).
 
 #### Deduplication {#deduplication}
 
 >[!NOTE]
 >
 >A 'double' is an item that exists two or more times in the file to be imported.  
+>
 >A 'duplicate' is an item that exists both in the file to be imported and in the database.
 
 The **[!UICONTROL Management of doubles]** field lets you configure the deduplication of data. Deduplication concerns records that appear several times **in the source file** (or source files in the event of a multiple-file import), i.e. lines for which the fields of the reconciliation key are identical.
@@ -270,9 +276,9 @@ In the data reconciliation page, you can define the desired error management typ
 
 The tree in the rejection screen of an import instance indicates which fields were rejected and where the errors occurred.
 
->[!NOTE]
->
->You can generate a file containing these records via the **[!UICONTROL Export rejects]** icon:
+You can generate a file containing these records via the **[!UICONTROL Export rejects]** icon:
+
+![](assets/s_ncs_user_import_errors_export.png)
 
 ### Step 5 - Additional step when importing recipients {#step-5---additional-step-when-importing-recipients}
 
