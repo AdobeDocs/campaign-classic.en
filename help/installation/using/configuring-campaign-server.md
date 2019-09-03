@@ -27,7 +27,7 @@ Several server side technical settings can be added or modified to match your ne
 The configuration files are stored in the **conf** folder of the Adobe Campaign installation folder. The configuration is spread over two files:
 
 * **serverConf.xml**: general configuration for all instances. This file combines the technical parameters of the Adobe Campaign server: these are shared by all instances. The description of some of these parameters is detailed below. The different nodes and parameters and listed in this [section](../../installation/using/the-server-configuration-file.md).
-* **config- `<instance>  .xml </instance>`** (where **instance** is the name of the instance): specific configuration of the instance. If you share your server among several instances, please enter the parameters specific to each instance in their relevant file.
+* **config-`<instance>`.xml** (where **instance** is the name of the instance): specific configuration of the instance. If you share your server among several instances, please enter the parameters specific to each instance in their relevant file.
 
 ## Defining security zones {#defining-security-zones}
 
@@ -149,8 +149,10 @@ When a proxy is referenced and a connection enters via this proxy (visible via t
 
 >[!CAUTION]
 >
->If a proxy is configured and it is possible to override it (or it if does not exist), the IP address that will be tested will be able to be falsified.   
->In addition, relays are now generated like proxies. You can therefore add the IP address 127.0.0.1 to the list of proxies in your security zone configuration.   
+>If a proxy is configured and it is possible to override it (or it if does not exist), the IP address that will be tested will be able to be falsified.
+>
+>In addition, relays are now generated like proxies. You can therefore add the IP address 127.0.0.1 to the list of proxies in your security zone configuration.
+>
 >For example: " `<subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />`".
 
 Various cases can occur:
@@ -167,7 +169,7 @@ Various cases can occur:
 
   ![](assets/8101_proxy3.png)
 
-The IP addresses of proxies that are likely to access the Adobe Campaign server must be entered in both the ** `<subnetwork>`** concerned and the first level subnetwork ** `<subnetwork name="all" />`**. For example, here for a proxy whose IP address is 10.131.146.102:
+The IP addresses of proxies that are likely to access the Adobe Campaign server must be entered in both the **`<subnetwork>`** concerned and the first level subnetwork **`<subnetwork name="all" />`**. For example, here for a proxy whose IP address is 10.131.146.102:
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" label="Public Network" 
@@ -244,13 +246,12 @@ Then modify the port of the JSP relay pages. To do this, change the **serverConf
 
 ### Mapping a folder in Tomcat {#mapping-a-folder-in-tomcat}
 
-To define customer specific settings, you can create a ** user_contexts.xml** file in the **/tomcat-7/conf** folder, which also contains the **contexts.xml** file.
+To define customer specific settings, you can create a **user_contexts.xml** file in the **/tomcat-7/conf** folder, which also contains the **contexts.xml** file.
 
 This file will contain the following type of information:
 
 ```
  <Context path='/foo' docBase='../customers/foo'   crossContext='true' debug='0' reloadable='true' trusted='false'/>
-
 ```
 
 If necessary, this operation can be reproduced on the server-side.
@@ -269,7 +270,7 @@ The MTA module acts as a native mail transfer agent for SMTP broadcast (port 25)
 
 It is, however, possible to replace it by a relay server if your security policy requires it. In that case, the global throughput will be the relay one (provided that the relay server throughput is inferior to the Adobe Campaign one).
 
-In this case, these parameters are set by configuring the SMTP server in the ** `<relay>`** section. You must specify the IP address (or host) of the SMTP server used to transfer mail and its associated port (25 by default).
+In this case, these parameters are set by configuring the SMTP server in the **`<relay>`** section. You must specify the IP address (or host) of the SMTP server used to transfer mail and its associated port (25 by default).
 
 ```
 <relay address="192.0.0.3" port="25"/>
@@ -281,7 +282,7 @@ In this case, these parameters are set by configuring the SMTP server in the ** 
 
 ### MTA child processes {#mta-child-processes}
 
-It is possible to control the population of child processes (maxSpareServers by default 2) in order to optimize broadcast performance according to the CPU power of the servers and the available network resources. This configuration is to be made in the ** `<master>`** section of MTA configuration on each individual computer.
+It is possible to control the population of child processes (maxSpareServers by default 2) in order to optimize broadcast performance according to the CPU power of the servers and the available network resources. This configuration is to be made in the **`<master>`** section of MTA configuration on each individual computer.
 
 ```
 <master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
@@ -295,7 +296,7 @@ You can improve outbound SMTP traffic through affinities with IP addresses.
 
 To do this, apply the following steps:
 
-1. Enter the affinities in the ** `<ipaffinity>`**section of the **serverConf.xml** file.
+1. Enter the affinities in the **`<ipaffinity>`**section of the **serverConf.xml** file.
 
    One affinity can have several different names: to separate them, use the **;** character.
 
@@ -326,7 +327,7 @@ To do this, apply the following steps:
 
 ## Outgoing connection protection {#outgoing-connection-protection}
 
-The default list of URLs that can be called by JavaScript codes (workflows, etc.) is limited. To allow a new URL, the administrator needs to reference a new **urlPermission** in the** serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
+The default list of URLs that can be called by JavaScript codes (workflows, etc.) is limited. To allow a new URL, the administrator needs to reference a new **urlPermission** in the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 Three connection protection modes exist:
 
@@ -345,12 +346,12 @@ Three connection protection modes exist:
 
 >[!CAUTION]
 >
->By default, new customers' client use the **blocking mode**. If they need to allow a new URL, they should contact their administrator to whitelist it.   
+>By default, new customers' client use the **blocking mode**. If they need to allow a new URL, they should contact their administrator to whitelist it.
 >Existing customers coming from a migration can use the **warning mode** for a while. Meanwhile they need to analyze the outbound traffic before authorizing the URLs. Once the list of authorized URLs defined, they should contact their administrator to whitelist the URLs and activate the **blocking mode**.
 
 ## Dynamic page security and relays {#dynamic-page-security-and-relays}
 
-By default, all dynamic pages are automatically related to the **local** Tomcat server of the machine whose Web module has started. This configuration is entered in the ** `<url>`** section of the query relay configuration for the **ServerConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
+By default, all dynamic pages are automatically related to the **local** Tomcat server of the machine whose Web module has started. This configuration is entered in the **`<url>`** section of the query relay configuration for the **ServerConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 To relay execution of the dynamic page on a **remote** server; if the Web module is not activated on the computer. To do this, you must replace the **localhost** with the name of the remote computer for JSP and JSSP, Web applications, reports and strings.
 
@@ -367,7 +368,7 @@ Adobe Campaign uses the following JSP pages:
 * /nl/jsp/**soaprouter.jsp**: client console and Web services connections (SOAP APIs),
 * /nl/jsp/**m.jsp**: mirror pages,
 * /nl/jsp/**logon.jsp**: Web-based access to reports and to deployment of the client console,
-* /nl/jsp/**s.jsp ** : Using viral marketing (sponsoring and social networks).
+* /nl/jsp/**s.jsp** : Using viral marketing (sponsoring and social networks).
 
 The JSSPs used for the Mobile App Channel are as follows:
 
@@ -392,10 +393,9 @@ The parameters are as follows:
 <url IPMask=""               deny=""     hostMask="" relayHost="true"  relayPath="true"  targetUrl="http://localhost:8080" timeout="" urlPath="/interaction/pub*"/>
 <url IPMask=""               deny="true" hostMask="" relayHost="false" relayPath="false" targetUrl="http://localhost:8080" timeout="" urlPath="*.jsp"/>
 <url IPMask=""               deny="true" hostMask="" relayHost="false" relayPath="false" targetUrl="http://localhost:8080" timeout="" urlPath="*.jssp"/>
-
 ```
 
-In this example, the ** `<ip_addresses>`** value coincides with the list of IP addresses (separated by comas) authorized to use the relay module for this mask.
+In this example, the **`<ip_addresses>`** value coincides with the list of IP addresses (separated by comas) authorized to use the relay module for this mask.
 
 >[!NOTE]
 >
@@ -447,8 +447,8 @@ This user needs to be added to the sudoer list of the 'neolane' Adobe Campaign o
 By default, all HTTP headers are not relayed. You can add specific headers in the replies sent by relay. To do this:
 
 1. Go to the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
-1. In the ** `<relay>`** node, go to the list of relayed HTTP headers.
-1. Add a ** `<responseheader>`** element with the following attributes:
+1. In the **`<relay>`** node, go to the list of relayed HTTP headers.
+1. Add a **`<responseheader>`** element with the following attributes:
 
     * **name**: header name
     * **value**: value name.
@@ -469,7 +469,12 @@ When multiple servers are used for redirection, they must be able to communicate
 
 The URLs of the redundant servers must be specified in the redirection configuration, via the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
-**Example:** `<spareserver enabledIf="$(hostname)!='front_srv1'" id="1" url="http://front_srv1:8080" />` `<spareserver enabledIf="$(hostname)!='front_srv2'" id="2" url="http://front_srv2:8080" />`
+**Example:**
+
+```
+<spareserver enabledIf="$(hostname)!='front_srv1'" id="1" url="http://front_srv1:8080" />
+<spareserver enabledIf="$(hostname)!='front_srv2'" id="2" url="http://front_srv2:8080" />
+```
 
 The **enableIf** property is optional (empty by default) and allows you to enable the connection only if the result is true; This lets you obtain an identical configuration on all redirection servers.
 
@@ -479,11 +484,11 @@ To obtain the hostname of the computer, run the following command: **hostname -s
 
 Public resources are presented in [Managing public resources](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
-They are stored in the **/var/res/**instance**** directory of the Adobe Campaign installation directory.
+They are stored in the **/var/res/**instance************************ directory of the Adobe Campaign installation directory.
 
 The matching URL is: **http://**server**/res/**instance**** where **instance** is the name of the tracking instance.
 
-You can specify another directory by adding a node to the **conf-** `<instance>`**.xml** file to configure storage on the server. This means adding the following lines:
+You can specify another directory by adding a node to the **conf-**`<instance>`**.xml** file to configure storage on the server. This means adding the following lines:
 
 ```
 <serverconf>
