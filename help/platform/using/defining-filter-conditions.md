@@ -264,7 +264,6 @@ Link to a table and collection element:
 >* Delete an output column by clicking the red 'x' (**Delete**).
 >* Change the order of the output columns using the arrows.
 >* The **[!UICONTROL Distribution of values]** serves as a way to view the distributon of the values of the field selected (for example, the distributions linked to recipient towns, recipient languages, etc.).
->
 
 ## Creating calculated fields {#creating-calculated-fields}
 
@@ -358,8 +357,8 @@ The expression editor looks like this:
 
 It lets you select fields in the database tables and add advanced functions to them. The following functions are available:
 
-1. Aggregates
-<!--
+**Aggregates**
+
 <table> 
  <tbody> 
   <tr> 
@@ -370,20 +369,12 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>Avg</strong><br /> </td> 
    <td> Returns the average of a number type column<br /> </td> 
-   <td> Avg(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Avg(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Count</strong><br /> </td> 
    <td> Counts the non-null values of a column<br /> </td> 
-   <td> Count(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Count(&lt;value&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>CountAll</strong><br /> </td> 
@@ -393,52 +384,32 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>Countdistinct</strong><br /> </td> 
    <td> Counts the distinct non-null values of a column<br /> </td> 
-   <td> Countdistinct(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Countdistinct(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Max</strong><br /> </td> 
    <td> Returns the maximum value of a number, string, or date type column<br /> </td> 
-   <td> Max(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Max(&lt;value&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Min</strong><br /> </td> 
    <td> Returns the minimum value of a number, string or date type column<br /> </td> 
-   <td> Min(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Min(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>StdDev</strong><br /> </td> 
    <td> Returns the standard deviation of a number, string or date column<br /> </td> 
-   <td> StdDev(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> StdDev(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
    <td> Returns the sum of the values of a number, string, or date type column<br /> </td> 
-   <td> Sum(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Sum(&lt;value&gt;)<br /></td> 
   </tr> 
  </tbody> 
 </table>
 
-1. String
+**String**
 
 <table> 
  <tbody> 
@@ -450,316 +421,142 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
    <td> Indicates if all parameters are non-null and not empty<br /> </td> 
-   <td> AllNonNull2(
-    <string>
-     , 
-     <string>
-      )
-      <br /> 
-     </string>
-    </string></td> 
+   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> Indicates if all parameters are non-null and not empty<br /> </td> 
-   <td> AllNonNull3(
-    <string>
-     , 
-     <string>
-      , 
-      <string>
-       )
-       <br /> 
-      </string>
-     </string>
-    </string></td> 
+   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ascii</strong><br /> </td> 
    <td> Returns the ASCII value of the first character in the string.<br /> </td> 
-   <td> Ascii(
-    <string>
-     )
-     <br /> 
-    </string></td> 
+   <td> Ascii(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> Returns the character corresponding to the 'n' ASCII code<br /> </td> 
-   <td> Char(
-    <number>
-     )
-     <br /> 
-    </number></td> 
+   <td> Char(&lt;number&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
    <td> Returns the position of string 2 in string 1.<br /> </td> 
-   <td> Charindex(
-    <string>
-     , 
-     <string>
-      )
-      <br /> 
-     </string>
-    </string></td> 
+   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> Returns the nth (from 1 to n) line of the string<br /> </td> 
-   <td> GetLine(
-    <string>
-     )
-     <br /> 
-    </string></td> 
+   <td> GetLine(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
    <td> Returns the third parameter if the first two parameters are equal. If not, returns the last parameter<br /> </td> 
-   <td> IfEquals(
-    <string>
-     , 
-     <string>
-      , 
-      <string>
-       , 
-       <string>
-        )
-        <br /> 
-       </string>
-      </string>
-     </string>
-    </string></td> 
+   <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
    <td> Indicates if the memo passed as a parameter is null<br /> </td> 
-   <td> IsMemoNull(
-    <memo>
-     )
-     <br /> 
-    </memo></td> 
+   <td> IsMemoNull(&lt;memo&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
    <td> Concatenates the strings passed as parameters. Adds spaces between the strings if necessary.<br /> </td> 
-   <td> JuxtWords(
-    <string>
-     , 
-     <string>
-      )
-      <br /> 
-     </string>
-    </string></td> 
+   <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> Concatenates the strings passed as parameters. Adds spaces between the strings if necessary<br /> </td> 
-   <td> JuxtWords3(
-    <string>
-     , 
-     <string>
-      , 
-      <string>
-       )
-       <br /> 
-      </string>
-     </string>
-    </string></td> 
+   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Returns the completed string on the left<br /> </td> 
-   <td> LPad(
-    <string>
-     , 
-     <number>
-      , 
-      <caractère>
-       )
-       <br /> 
-      </caractère>
-     </number>
-    </string></td> 
+   <td> LPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Returns the first n characters of the string<br /> </td> 
-   <td> Left(
-    <string>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </string></td> 
+   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
    <td> Returns the length of the string<br /> </td> 
-   <td> Length(
-    <string>
-     )
-     <br /> 
-    </string></td> 
+   <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(
-    <string>
-     )
-     <br /> 
-    </string></td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> Removes spaces to the left of the string<br /> </td> 
-   <td> Ltrim(
-    <string>
-     )
-     <br /> 
-    </string></td> 
+   <td> Ltrim(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> Returns an hexadecimal representation of the MD5 key of a string<br /> </td> 
-   <td> Md5Digest(
-    <string>
-     )
-     <br /> 
-    </string></td> 
+   <td> Md5Digest(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> Specifies whether the memo contains the string passed as a parameter<br /> </td> 
-   <td> MemoContains(
-    <memo>
-     , 
-     <string>
-      )
-      <br /> 
-     </string>
-    </memo></td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> Returns the completed string on the right<br /> </td> 
-   <td> RPad(
-    <string>
-     , 
-     <number>
-      , 
-      <character>
-       )
-       <br /> 
-      </character>
-     </number>
-    </string></td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
    <td> Returns the last n characters of the string<br /> </td> 
-   <td> Right(
-    <string>
-     )
-     <br /> 
-    </string></td> 
+   <td> Right(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> Removes spaces to the right of the string<br /> </td> 
-   <td> Rtrim(
-    <string>
-     )
-     <br /> 
-    </string></td> 
+   <td> Rtrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
    <td> Returns the string with the first letter of each word in capitals<br /> </td> 
-   <td> Smart(
-    <string>
-     )
-     <br /> 
-    </string></td> 
+   <td> Smart(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
    <td> Extracts the substring starting at character n1 of the string and of length n2<br /> </td> 
-   <td> Substring(
-    <string>
-     , 
-     <offset>
-      , 
-      <length>
-       )
-       <br /> 
-      </length>
-     </offset>
-    </string></td> 
+   <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
    <td> Converts the number to a string<br /> </td> 
-   <td> ToString(
-    <number>
-     )
-     <br /> 
-    </number></td> 
+   <td> ToString(&lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
    <td> Returns the string in capitals<br /> </td> 
-   <td> Upper(
-    <string>
-     )
-     <br /> 
-    </string></td> 
+   <td> Upper(&lt;string&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>VirtualLink</strong><br /> </td> 
    <td> Returns the foreign key of a link passed as a parameter if the other two parameters are equal<br /> </td> 
-   <td> VirtualLink(
-    <number>
-     , 
-     <number>
-      , 
-      <number>
-       )
-       <br /> 
-      </number>
-     </number>
-    </number></td> 
+   <td> VirtualLink(&lt;number&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>VirtualLinkStr</strong><br /> </td> 
    <td> Returns the foreign (text) key of a link passed as a parameter if the other two parameters are equal<br /> </td> 
-   <td> VirtualLinkStr(
-    <string>
-     , 
-     <number>
-      , 
-      <number>
-       )
-       <br /> 
-      </number>
-     </number>
-    </string></td> 
+   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
    <td> Returns the string size<br /> </td> 
-   <td> dataLength(
-    <string>
-     )
-     <br /> 
-    </string></td> 
+   <td> dataLength(&lt;string&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
 
-1. Date
+**Date**
 
 <table> 
  <tbody> 
@@ -771,140 +568,67 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>AddDays</strong><br /> </td> 
    <td> Adds a number of days to a date<br /> </td> 
-   <td> AddDays(
-    <date>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </date></td> 
+   <td> AddDays(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddHours</strong><br /> </td> 
    <td> Adds a number of hours to a date<br /> </td> 
-   <td> AddHours(
-    <date>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </date></td> 
+   <td> AddHours(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddMinutes</strong><br /> </td> 
    <td> Adds a number of minutes to a date<br /> </td> 
-   <td> AddMinutes(
-    <date>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </date></td> 
+   <td> AddMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddMonths</strong><br /> </td> 
    <td> Adds a number of months to a date<br /> </td> 
-   <td> AddMonths(
-    <date>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </date></td> 
+   <td> AddMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddSeconds</strong><br /> </td> 
    <td> Adds a number of seconds to a date<br /> </td> 
-   <td> AddSeconds(
-    <date>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </date></td> 
+   <td> AddSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddYears</strong><br /> </td> 
    <td> Adds a number of years to a date<br /> </td> 
-   <td> AddYears(
-    <date>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </date></td> 
+   <td> AddYears(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> Returns the date only (with time at 00:00)*<br /> </td> 
-   <td> DateOnly(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> DateOnly(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Day</strong><br /> </td> 
    <td> Returns the number representing the day of the date<br /> </td> 
-   <td> Day(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> Day(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DayOfYear</strong><br /> </td> 
    <td> Returns the number of the day in the year of the date<br /> </td> 
-   <td> DayOfYear(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> DayOfYear(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysAgo</strong><br /> </td> 
    <td> Returns the date corresponding to the current date minus n days<br /> </td> 
-   <td> DaysAgo(
-    <number>
-     )
-     <br /> 
-    </number></td> 
+   <td> DaysAgo(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysAgoInt</strong><br /> </td> 
    <td> Returns the date (integer yyyymmdd) corresponding to the current date minus n days<br /> </td> 
-   <td> DaysAgoInt(
-    <number>
-     )
-     <br /> 
-    </number></td> 
+   <td> DaysAgoInt(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysDiff</strong><br /> </td> 
    <td> Number of days between two dates<br /> </td> 
-   <td> DaysDiff(
-    <end date="">
-     , 
-     <start date="">
-      )
-      <br /> 
-     </start>
-    </end></td> 
+   <td> DaysDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysOld</strong><br /> </td> 
    <td> Returns the age in days of a date<br /> </td> 
-   <td> DaysOld(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> DaysOld(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetDate</strong><br /> </td> 
@@ -914,309 +638,156 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>Hour</strong><br /> </td> 
    <td> Returns the hour of the date<br /> </td> 
-   <td> Hour(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> Hour(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>HoursDiff</strong><br /> </td> 
    <td> Returns the number of hours between two dates<br /> </td> 
-   <td> HoursDiff(
-    <end date="">
-     , 
-     <start date="">
-      )
-      <br /> 
-     </start>
-    </end></td> 
+   <td> HoursDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Minute</strong><br /> </td> 
    <td> Returns the minutes of the date<br /> </td> 
-   <td> Minute(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> Minute(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>MinutesDiff</strong><br /> </td> 
    <td> Returns the number of minutes between two dates<br /> </td> 
-   <td> MinutesDiff(
-    <end date="">
-     , 
-     <start date="">
-      )
-      <br /> 
-     </start>
-    </end></td> 
+   <td> MinutesDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Month</strong><br /> </td> 
    <td> Returns the number representing the month of the date<br /> </td> 
-   <td> Month(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> Month(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>MonthsAgo</strong><br /> </td> 
    <td> Returns the date corresponding to the current date minus n months<br /> </td> 
-   <td> MonthsAgo(
-    <number>
-     )
-     <br /> 
-    </number></td> 
+   <td> MonthsAgo(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>MonthsDiff</strong><br /> </td> 
    <td> Returns the number of months between two dates<br /> </td> 
-   <td> MonthsDiff(
-    <end date="">
-     , 
-     <start date="">
-      )
-      <br /> 
-     </start>
-    </end></td> 
+   <td> MonthsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>MonthsOld</strong><br /> </td> 
    <td> Returns the age in months of a date<br /> </td> 
-   <td> MonthsOld(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> MonthsOld(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
    <td> Returns the seconds of the date<br /> </td> 
-   <td> Second(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> Second(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SecondsDiff</strong><br /> </td> 
    <td> Returns the number of seconds between two dates<br /> </td> 
-   <td> SecondsDiff(
-    <end date="">
-     , 
-     <start date="">
-      )
-      <br /> 
-     </start>
-    </end></td> 
+   <td> SecondsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubDays</strong><br /> </td> 
    <td> Subtracts a number of days from a date<br /> </td> 
-   <td> SubDays(
-    <date>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </date></td> 
+   <td> SubDays(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubHours</strong><br /> </td> 
    <td> Subtracts a number of hours from a date<br /> </td> 
-   <td> SubHours(
-    <date>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </date></td> 
+   <td> SubHours(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubMinutes</strong><br /> </td> 
    <td> Subtracts a number of minutes from a date<br /> </td> 
-   <td> SubMinutes(
-    <date>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </date></td> 
+   <td> SubMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubMonths</strong><br /> </td> 
    <td> Subtracts a number of months from a date<br /> </td> 
-   <td> SubMonths(
-    <date>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </date></td> 
+   <td> SubMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubSeconds</strong><br /> </td> 
    <td> Subtracts a number of seconds from a date<br /> </td> 
-   <td> SubSeconds(
-    <date>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </date></td> 
+   <td> SubSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubYears</strong><br /> </td> 
    <td> Subtracts a number of years from a date<br /> </td> 
-   <td> SubYears(
-    <date>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </date></td> 
+   <td> SubYears(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToDate</strong><br /> </td> 
    <td> Converts a date + time as a date<br /> </td> 
-   <td> ToDate(
-    <date time="">
-     )
-     <br /> 
-    </date></td> 
+   <td> ToDate(&lt;date + time&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> Converts a string to a date + time<br /> </td> 
-   <td> ToDateTime(
-    <string>
-     )
-     <br /> 
-    </string></td> 
+   <td> ToDateTime(&lt;string&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
    <td> Rounds a date+time to the nearest second<br /> </td> 
-   <td> TruncDate(@lastModified, 
-    <number of="" seconds="">
-     )
-     <br /> 
-    </number></td> 
+   <td> TruncDate(@lastModified, &lt;number of seconds&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>TruncDateTZ</strong><br /> </td> 
    <td> Rounds a date + time to a given precision expressed in seconds<br /> </td> 
-   <td> TruncDateTZ(
-    <date>
-     , 
-     <number of="" seconds="">
-      , 
-      <time zone="">)<br /> </time>
-     </number>
-    </date></td> 
+   <td> TruncDateTZ(&lt;date&gt;, &lt;number of seconds&gt;, &lt;time zone&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>TruncQuarter</strong><br /> </td> 
    <td> Rounds a date off to the quarter<br /> </td> 
-   <td> TruncQuarter(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> TruncQuarter(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncTime</strong><br /> </td> 
    <td> Rounds the time part up to the nearest second<br /> </td> 
-   <td> TruncTime(
-    <date>
-     , 
-     <number of="" seconds="">
-      )
-      <br /> 
-     </number>
-    </date></td> 
+   <td> TruncTim(e&lt;date&gt;, &lt;number of seconds&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
    <td> Rounds a date off to the week<br /> </td> 
-   <td> TruncWeek(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> TruncWeek(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncYear</strong><br /> </td> 
    <td> Rounds a date + time to January 1st of the year<br /> </td> 
-   <td> TruncYear(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> TruncYear(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
    <td> Returns the number representing the day in the week of the date<br /> </td> 
-   <td> WeekDay(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> WeekDay(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Year</strong><br /> </td> 
    <td> Returns the number representing the year of the date<br /> </td> 
-   <td> Year(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> Year(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearAnd Month</strong><br /> </td> 
    <td> Returns the number representing the year and month of the date<br /> </td> 
-   <td> YearAndMonth(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> YearAndMonth(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
    <td> Returns the number of years between the two dates<br /> </td> 
-   <td> YearsDiff(
-    <end date="">
-     , 
-     <start date="">
-      )
-      <br /> 
-     </start>
-    </end></td> 
+   <td> YearsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsOld</strong><br /> </td> 
    <td> Returns the age in years of a date<br /> </td> 
-   <td> YearsOld(
-    <date>
-     )
-     <br /> 
-    </date></td> 
+   <td> YearsOld(&lt;date&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
 
-   &#42;Note that the **Dateonly** function takes into account the server's timezone, not the operator's.
+>[!NOTE]
+>
+>Note that the **Dateonly** function takes into account the server's timezone, not the operator's.
 
-1. Numerical
+**Numerical**
 
 <table> 
  <tbody> 
@@ -1228,77 +799,37 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>Abs</strong><br /> </td> 
    <td> Returns the absolute value of a number<br /> </td> 
-   <td> Abs(
-    <number>
-     )
-     <br /> 
-    </number></td> 
+   <td> Abs(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Ceil</strong><br /> </td> 
    <td> Returns the lowest integer greater than or equal to a number<br /> </td> 
-   <td> Ceil(
-    <number>
-     )
-     <br /> 
-    </number></td> 
+   <td> Ceil(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
    <td> Returns the greatest integer greater than or equal to a number<br /> </td> 
-   <td> Floor(
-    <number>
-     )
-     <br /> 
-    </number></td> 
+   <td> Floor(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Greatest</strong><br /> </td> 
    <td> Returns the greater of two numbers<br /> </td> 
-   <td> Greatest(
-    <number>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </number></td> 
+   <td> Greatest(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Least</strong><br /> </td> 
    <td> Returns the smaller of two numbers<br /> </td> 
-   <td> Least(
-    <number>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </number></td> 
+   <td> Least(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
    <td> Returns the remainder of the integer division of n1 by n2<br /> </td> 
-   <td> Mod(
-    <nombre>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </nombre></td> 
+   <td> Mod(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Percent</strong><br /> </td> 
    <td> Returns the ratio of two numbers expressed as a percentage<br /> </td> 
-   <td> Percent(
-    <number>
-     , 
-     <number>
-      )
-      <br /> 
-     </number>
-    </number></td> 
+   <td> Percent(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Random</strong><br /> </td> 
@@ -1308,62 +839,32 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>Round</strong><br /> </td> 
    <td> Rounds off a number to n decimals<br /> </td> 
-   <td> Round(
-    <number>
-     , 
-     <number decimals="" of="">
-      )
-      <br /> 
-     </number>
-    </number></td> 
+   <td> Round(&lt;number&gt;, &lt;number of decimals&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Sign</strong><br /> </td> 
    <td> Returns the sign of the number<br /> </td> 
-   <td> Sign(
-    <number>
-     )
-     <br /> 
-    </number></td> 
+   <td> Sign(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToDouble</strong><br /> </td> 
    <td> Converts an integer to a float<br /> </td> 
-   <td> ToDouble(
-    <number>
-     )
-     <br /> 
-    </number></td> 
+   <td> ToDouble(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToInt64</strong><br /> </td> 
    <td> Converts a float to a 64 bit integer<br /> </td> 
-   <td> ToInt64(
-    <number>
-     )
-     <br /> 
-    </number></td> 
+   <td> ToInt64(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToInteger</strong><br /> </td> 
    <td> Converts a float to an integer<br /> </td> 
-   <td> ToInteger(
-    <number>
-     )
-     <br /> 
-    </number></td> 
+   <td> ToInteger(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Trunc</strong><br /> </td> 
    <td> Truncates n1 to n2 decimals<br /> </td> 
-   <td> Trunc(
-    <n1>
-     , 
-     <n2>
-      )
-      <br /> 
-     </n2>
-    </n1></td> 
+   <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
@@ -1380,35 +881,17 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>ConvertCurrency</strong><br /> </td> 
    <td> Converts an amount in a source currency to an amount in a target currency<br /> </td> 
-   <td> ConvertCurrency(
-    <amount>
-     , 
-     <source currency="" />, 
-     <target currency="">
-      , 
-      <conversion date="">
-       )
-       <br /> 
-      </conversion>
-     </target>
-    </amount></td> 
+   <td> ConvertCurrency(&lt;amount&gt;, &lt;source currency&gt;, &lt;target currency&gt;, &lt;conversion date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>FormatCurrency</strong><br /> </td> 
    <td> Formats the amount displayed based on the selected currency settings<br /> </td> 
-   <td> FormatCurrency(
-    <amount>
-     , 
-     <currency>
-      )
-      <br /> 
-     </currency>
-    </amount></td> 
+   <td> FormatCurrency(&lt;amount&gt;, &lt;currency&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
 
-1. Geomarketing
+**Geomarketing**
 
 <table> 
  <tbody> 
@@ -1420,25 +903,12 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
    <td> Returns the distance between two points defined by their longitude and latitude, expressed in degrees.<br /> </td> 
-   <td> Distance(
-    <longitude a="">
-     , 
-     <latitude a="">
-      , 
-      <longitude b="">
-       , 
-       <latitude b="">
-        )
-        <br /> 
-       </latitude>
-      </longitude>
-     </latitude>
-    </longitude></td> 
+   <td> Distance(&lt;Longitude A&gt;, &lt;Latitude A&gt;, &lt;Longitude B&gt;, &lt;Latitude B&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
 
-1. Others
+**Others**
 
 <table> 
  <tbody> 
@@ -1450,137 +920,57 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
-   <td> Case(When(
-    <condition>
-     , 
-     <value>
-      ), Else(
-      <value>
-       ))
-       <br /> 
-      </value>
-     </value>
-    </condition></td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
    <td> Deletes the Flag in the value<br /> </td> 
-   <td> ClearBit(
-    <identifier>
-     , 
-     <flag>
-      )
-      <br /> 
-     </flag>
-    </identifier></td> 
+   <td> ClearBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Coalesce</strong><br /> </td> 
    <td> Returns value 2 if value 1 is zero or null, otherwise returns value 1<br /> </td> 
-   <td> Coalesce(
-    <value>
-     , 
-     <value>
-      )
-      <br /> 
-     </value>
-    </value></td> 
+   <td> Coalesce(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
-   <td> Decode(
-    <value>
-     , 
-     <value>
-      , 
-      <value>
-       , 
-       <value>
-        )
-        <br /> 
-       </value>
-      </value>
-     </value>
-    </value></td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Returns value 1 (may only be used as a parameter of the case function)<br /> </td> 
-   <td> Else(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Else(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
    <td> Extracts the domain from an e-mail address<br /> </td> 
-   <td> GetEmailDomain(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> GetEmailDomain(&lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetMirrorURL</strong><br /> </td> 
    <td> Retrieves the URL of the mirror page server<br /> </td> 
-   <td> GetMirrorURL(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> GetMirrorURL(&lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
    <td> Returns value 1 if the expression is true. If not, returns value 2<br /> </td> 
-   <td> Iif(
-    <condition>
-     , 
-     <value>
-      , 
-      <value>
-       )
-       <br /> 
-      </value>
-     </value>
-    </condition></td> 
+   <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsBitSet</strong><br /> </td> 
    <td> Indicates whether the Flag is in the value<br /> </td> 
-   <td> IsBitSet(
-    <identifier>
-     , 
-     <flag>
-      )
-      <br /> 
-     </flag>
-    </identifier></td> 
+   <td> IsBitSet(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
    <td> Returns value 2 if string 1 is empty, otherwise returns value 3<br /> </td> 
-   <td> IsEmptyString(
-    <value>
-     , 
-     <value>
-      , 
-      <value>
-       )
-       <br /> 
-      </value>
-     </value>
-    </value></td> 
+   <td> IsEmptyString(&lt;<var>value 1</var>&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> NoNull(&lt;value&gt;)<br /> </td>   
   </tr> 
   <tr> 
    <td> <strong>RowId</strong><br /> </td> 
@@ -1590,40 +980,22 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>SetBit</strong><br /> </td> 
    <td> Forces the Flag in the value<br /> </td> 
-   <td> SetBit(
-    <identifier>
-     , 
-     <flag>
-      )
-      <br /> 
-     </flag>
-    </identifier></td> 
+   <td> SetBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToBoolean</strong><br /> </td> 
    <td> Converts a number into a Boolean<br /> </td> 
-   <td> ToBoolean(
-    <number>
-     )
-     <br /> 
-    </number></td> 
+   <td> ToBoolean(&lt;number&gt;)<br /> </td>   
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
    <td> Returns value 1 if the expression is true. If not, it returns value 2 (may only be used as a parameter of the case function)<br /> </td> 
-   <td> When(
-    <condition>
-     , 
-     <value>
-      )
-      <br /> 
-     </value>
-    </condition></td> 
+   <td> When(&lt;condition&gt;, &lt;value 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
 
-1. Windowing functions
+**Windowing functions**
 
 <table> 
  <tbody> 
@@ -1635,43 +1007,22 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
    <td> Applies a descending sort<br /> </td> 
-   <td> Desc(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> Desc(&lt;value 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>OrderBy</strong><br /> </td> 
    <td> Sorts the result within the partition<br /> </td> 
-   <td> OrderBy(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> OrderBy(&lt;value 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>PartitionBy</strong><br /> </td> 
    <td> Partitions the result of a query on a table<br /> </td> 
-   <td> PartitionBy(
-    <value>
-     )
-     <br /> 
-    </value></td> 
+   <td> PartitionBy(&lt;value 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
    <td> Generates a line number based on the table partition and on a sorting sequence.<br /> </td> 
-   <td> RowNum(PartitionBy(
-    <value>
-     ), OrderBy(
-     <value>
-      ))
-      <br /> 
-     </value>
-    </value></td> 
+   <td> RowNum(PartitionBy(&lt;value 1&gt;), OrderBy(&lt;value 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
 </table>
-
--->

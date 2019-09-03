@@ -37,7 +37,7 @@ There are two types of permissions you can grant to a user:
 
 >[!NOTE]
 >
->Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.md).
+>Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html).
 
 ## Operators {#operators}
 
@@ -110,6 +110,7 @@ The configuration of time zones is described in [this page](../../installation/u
 >[!NOTE]
 >
 >Collaborations within various time zones require the storage of dates in UTC. Dates are converted in the appropriate time zone in the following contexts: when a date is displayed in the user time zone, when files are imported and exported, when an email delivery is scheduled, when activities are scheduled in a workflow (scheduler, wait, time constraint, etc.)  
+>
 >Constraints and recommendations linked to these contexts are presented in related sections of the Adobe Campaign documentation.
 
 In addition, the **[!UICONTROL Regional settings]** drop-down list lets you select the format to display dates and numbers.
@@ -174,6 +175,7 @@ Adobe Campaign uses technical operators with profiles configured by default: Adm
 >[!CAUTION]
 >
 >These technical operators are notified by default when information messages are returned by the platform. We strongly recommend providing a contact email for them.  
+>
 >To make sure Web applications operate correctly, we also recommend not defining specific regional settings for the 'webapp' operator.
 
 By default, the 'webapp' technical operator has the named ADMINISTRATION right, which can lead to security risks. To fix this problem, we recommend removing this right. To do this:
@@ -202,7 +204,7 @@ By default, the 'webapp' technical operator has the named ADMINISTRATION right, 
 
 >[!NOTE]
 >
->For more information on Security guidelines, refer to [Adobe Campaign Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.md).
+>For more information on Security guidelines, refer to [Adobe Campaign Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html).
 
 ## Operator groups {#operator-groups}
 
@@ -310,7 +312,7 @@ These rights are as follows:
 
 Default groups and named rights allow operators to access certain folders in the navigation hierarchy, and grant read, write, and delete permissions.
 
-Adobe Campaign access rights matrix is available [here](https://docs.campaign.adobe.com/doc/AC6.1/en/technicalResources/accessRights.md).
+Adobe Campaign access rights matrix is available [here](https://docs.campaign.adobe.com/doc/AC6.1/en/technicalResources/accessRights.html).
 
 ## Folder access management {#folder-access-management}
 
@@ -377,6 +379,7 @@ When you convert a folder to a view, all the data corresponding to the folder ty
 >[!CAUTION]
 >
 >The views contain data and provide access to it, but the data is not physically stored in the view folder. The operator must have the appropriate rights for the desired action in the data source folders (read access at least).  
+>
 >To give access to a view without giving access to its source folder, simply do not give read access on the parent node of the source folder.
 
 ### Adding folders and creating views {#adding-folders-and-creating-views}

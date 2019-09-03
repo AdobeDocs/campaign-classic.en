@@ -24,7 +24,8 @@ Adobe Campaign provides the **Federated Data Access** (FDA) option in order to p
 
 >[!CAUTION]
 >
->The **Federated Data Access** (FDA) module is optional. Please check your Adobe Campaign license agreement.   
+>The **Federated Data Access** (FDA) module is optional. Please check your Adobe Campaign license agreement. 
+>  
 >Moreover, accessing an external database via FDA is only possible for on-premise or hybrid installations.
 
 ### Operating principle {#operating-principle}
@@ -33,7 +34,7 @@ The FDA option allows you to collect data from the SQL sources and automatically
 
 In order to use this functionality, you have to:
 
-1. Have an external database that is compatible with the Adobe Campaign FDA module. The list of database systems and compatible versions is detailed in the [compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md). Users must also have the [necessary permissions](../../platform/using/accessing-an-external-database.md#remote-database-access-rights) in Adobe Campaign and on the external database.
+1. Have an external database that is compatible with the Adobe Campaign FDA module. The list of database systems and compatible versions is detailed in the [compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html). Users must also have the [necessary permissions](../../platform/using/accessing-an-external-database.md#remote-database-access-rights) in Adobe Campaign and on the external database.
 1. [Install the drivers](../../platform/using/accessing-an-external-database.md#specific-configurations-by-database-type) that correspond to your database on the Adobe Campaign server.
 1. [Create and configure an external account](../../platform/using/accessing-an-external-database.md#connecting-to-the-database) that allows you to establish the connection between Adobe Campaign and the external database.
 1. [Create the read schema](../../platform/using/accessing-an-external-database.md#creating-the-data-schema) of the external database in Adobe Campaign. This allows you to recognize the data structure of the external database.
@@ -68,7 +69,7 @@ As a general rule, you need to install the corresponding client layer on the ext
 
 >[!NOTE]
 >
->Compatible versions are listed in [Campaign Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md#FederatedDataAccessFDA) .
+>Compatible versions are listed in [Campaign Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#FederatedDataAccessFDA) .
 
 ### Configure access to Hadoop {#configure-access-to-hadoop}
 
@@ -180,7 +181,7 @@ Connecting to an Hadoop external database in FDA requires the following configur
 
 ### Configure access to MySQL {#configure-access-to-mysql}
 
-aFor more information on how to configure your MySQL database, refer to this [article](https://helpx.adobe.com/campaign/kb/campaign_fda_mysql.md).
+aFor more information on how to configure your MySQL database, refer to this [article](https://helpx.adobe.com/campaign/kb/campaign_fda_mysql.html).
 
 ### Configure access to Netezza {#configure-access-to-netezza}
 
@@ -234,6 +235,7 @@ Connecting to a Netezza external database in FDA requires additional configurati
 >[!NOTE]
 >
 >Operations on schemas containing automatically generated primary keys are not taken into account.  
+>
 >The table will be using the **Organize on** clause on the first index defined in the schema. As this clause is limited to 1 to 4 columns with Netezza, this index cannot contain more than 4 columns.
 
 ### Configure access to Oracle {#configure-access-to-oracle}
@@ -294,7 +296,7 @@ Connecting to a Sybase IQ external database in FDA requires additional configura
 1. Install **iq_client_common**. A Java error can occur at the end of the installation. This error can be ignored.
 1. Configure the ODBC driver. The configuration can be carried out in the standard files: /etc/odbc.ini for general parameters and /etc/odbcinst.ini for declaring drivers:
 
-    * **/etc/odbc.ini** (replace values like " `<server_alias>  " characters by your own): </server_alias>`
+    * **/etc/odbc.ini** (replace values like `<server_alias>` characters by your own):
 
       ```    
       [ODBC Data Sources]
@@ -307,7 +309,6 @@ Connecting to a Sybase IQ external database in FDA requires additional configura
       Password=<password>
       ServerName=<server_name>
       CommLinks=tcpip(host=<host>)
-      
       ```
 
     * **/etc/odbcinst.ini**
@@ -326,7 +327,7 @@ Connecting to a Sybase IQ external database in FDA requires additional configura
     * If you are using a customer.sh file to declare your path: add the path /opt/sybase/IQ-16_0/lib64 for the LD_LIBRARY_PATH variable.
     * Otherwise, use a Unix command.
 
-1. Create a new FDA external account, as described in the [Creating a shared connection](../../platform/using/accessing-an-external-database.md#creating-a-shared-connection) section. For Sybase IQ, the server name corresponds to the ODBC connection ( `<server_alias>  ) defined in step 5. It is not necessarily the name of the server itself. </server_alias>`
+1. Create a new FDA external account, as described in the [Creating a shared connection](../../platform/using/accessing-an-external-database.md#creating-a-shared-connection) section. For Sybase IQ, the server name corresponds to the ODBC connection (`<server_alias>`) defined in step 5. It is not necessarily the name of the server itself.
 
 >[!NOTE]
 >
@@ -334,7 +335,7 @@ Connecting to a Sybase IQ external database in FDA requires additional configura
 
 ### Configure access to Teradata {#configure-access-to-teradata}
 
-Connecting to a Teradata external database in FDA requires certain additional configurations on the Adobe Campaign server. For more information on how to configure your Teradata database, refer to this [article](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.md).
+Connecting to a Teradata external database in FDA requires certain additional configurations on the Adobe Campaign server. For more information on how to configure your Teradata database, refer to this [article](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html).
 
 1. Install the [ODBC driver for Teradata](http://downloads.teradata.com/download/connectivity/odbc-driver/linux).
 
@@ -447,7 +448,7 @@ Generally speaking, the following rights are necessary:
 
 >[!NOTE]
 >
->The database administrator needs to make these rights match with the rights specific to each database engine. For more information, refer to [RDBMS specific rights](https://docs.campaign.adobe.com/doc/AC6.1/en/technicalResources/technicalResources.md).
+>The database administrator needs to make these rights match with the rights specific to each database engine. For more information, refer to [RDBMS specific rights](https://docs.campaign.adobe.com/doc/AC6.1/en/technicalResources/technicalResources.html).
 
 ## Connecting to the database {#connecting-to-the-database}
 
@@ -456,6 +457,7 @@ To enable a connection to the external database, you must indicate the connectio
 >[!CAUTION]
 >
 >The Adobe Campaign user needs specific rights for the external database and the Adobe Campaign application server to process data from an external database. For more on this, refer to the [Remote database access rights](../../platform/using/accessing-an-external-database.md#remote-database-access-rights) section.   
+>
 >To avoid any malfunction, operators who access remote shared data must be working from separate spaces.
 
 ### Creating a shared connection {#creating-a-shared-connection}
@@ -610,6 +612,7 @@ This simplifies transferring and synchronizing data between two instances. It al
 >[!CAUTION]
 >
 >This option is only for facilitating data replication flows (ETL).   
+>
 >For example, it allows a cloud-hosted instance to have direct access to the data in an "on-premise" hosted database. However, it is not intended to allow targeting to be carried on an "on-premise" hosted database directly from the cloud.
 
 To do this, you must configure the external accounts of the two instances so that the local instance can communicate with the remote instance using the HTTP protocol:
@@ -618,7 +621,7 @@ To do this, you must configure the external accounts of the two instances so tha
 
   In case of bulk load data transfer, also specify the buffer size. Select the compression option if you want to reduce the size of the transferred data.
 
-  The **[!UICONTROL Data source]** must be defined with the following syntax: "nms:extAccount : `<internal_name_of_the_external_account>  " </internal_name_of_the_external_account>`
+  The **[!UICONTROL Data source]** must be defined with the following syntax: "nms:extAccount : `<internal_name_of_the_external_account>`"
 
   ![](assets/fda_over_http_1.png)
 
