@@ -26,7 +26,7 @@ For each page of the form, containers are created via the **[!UICONTROL Containe
 
 ![](assets/s_ncs_admin_survey_containers_add.png)
 
-Use a container to group elements of the page without adding a label to the final rendering. Elements are grouped into the container sub-tree. Standard containers let you manage the layout of checks.
+Use a container to group elements of the page without adding a label to the final rendering. Elements are grouped into the container sub-tree. Standard containers let you manage the layout.
 
 For example:
 

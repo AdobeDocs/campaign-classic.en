@@ -42,13 +42,13 @@ In the following example, we will create overview-type Web applications to displ
 
    ![](assets/s_ncs_configuration_webapp_rendering.png)
 
-1. Open the **[!UICONTROL Page]** activity of your Web application and open a list ( **[!UICONTROL Static element > List]** ).
+1. Open the **[!UICONTROL Page]** activity of your Web application and open a list (**[!UICONTROL Static element > List]**).
 1. In the **[!UICONTROL Data]** tab of your list, select the type of **[!UICONTROL Web applications]** document and the **[!UICONTROL Label]** , **[!UICONTROL Creation date]** and **[!UICONTROL Type of application]** output columns.
 1. In the **[!UICONTROL Filter]** sub-tab, create the following filter as shown below in order to display Web applications only and exclude templates from your view.
 
    ![](assets/s_ncs_configuration_webapp_filter.png)
 
-1. Close the configuration window of your page and click **[!UICONTROL Preview]** .
+1. Close the configuration window of your page and click **[!UICONTROL Preview]**.
 
    The list of Web applications available in your database is displayed.
 
@@ -58,7 +58,7 @@ In the following example, we will create overview-type Web applications to displ
 
 In an overview, you can choose to access data depending on its location in the Adobe Campaign tree. This is a filter on a folder. Apply the following process to add it to your overview.
 
-1. Place your cursor on the **[!UICONTROL Page]** node of your Web application and add a **[!UICONTROL Select folder]** element ( **[!UICONTROL Advanced controls > Select folder]** ).
+1. Place your cursor on the **[!UICONTROL Page]** node of your Web application and add a **[!UICONTROL Select folder]** element (**[!UICONTROL Advanced controls > Select folder]**).
 1. In the **[!UICONTROL Storage]** window which comes up, click the **[!UICONTROL Edit variables]** link.
 1. Change the variable label to suit your needs.
 1. Change the variable name with the **folder** value.
@@ -85,7 +85,7 @@ In an overview, you can choose to access data depending on its location in the A
 
 ## Adding a button to configure a new Web application {#adding-a-button-to-configure-a-new-web-application}
 
-1. Place your cursor on the **[!UICONTROL Page]** element and add a link ( **[!UICONTROL Static elements > Link]** ).
+1. Place your cursor on the **[!UICONTROL Page]** element and add a link (**[!UICONTROL Static elements > Link]**).
 1. Modify the link label since it will appear on the button in the overview.
 
    In our example, the label is **New**.
@@ -166,7 +166,7 @@ In this section, you will create a filter for displaying the overview of Web app
 
 These two elements will be grouped in the same container in order to be graphically grouped in the overview.
 
-1. Place your cursor on the **[!UICONTROL Page]** element and select **[!UICONTROL Container > Standard]** .
+1. Place your cursor on the **[!UICONTROL Page]** element and select **[!UICONTROL Container > Standard]**.
 1. Set the number of columns to **2**, so that the link editor and the link are next to each other.
 
    ![](assets/s_ncs_configuration_webapp_container.png)
@@ -211,7 +211,7 @@ These two elements will be grouped in the same container in order to be graphica
 
 1. Place the cursor on the container and insert a **[!UICONTROL Link]** via the **[!UICONTROL Static elements]** menu.
 1. Modify the label.
-1. Select **[!UICONTROL Refresh data in a list]** .
+1. Select **[!UICONTROL Refresh data in a list]**.
 1. Add the previously created list.
 
    ![](assets/s_ncs_configuration_webapp_refreshlink.png)

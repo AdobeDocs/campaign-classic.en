@@ -108,7 +108,7 @@ For each form, the answers provided can be re-used in the fields or the labels. 
 
   >[!NOTE]
   >
-  >Unlike the other fields for which <%= characters are replaced with escape characters, the HTML content is saved as is by using the <%== syntax.
+  >Unlike the other fields for which `<%=` characters are replaced with escape characters, the HTML content is saved as is by using the `<%==` syntax.
 
 ## Saving Web forms answers {#saving-web-forms-answers}
 
@@ -140,7 +140,7 @@ You can select a search folder for reconciliation and the creation folder for ne
 
 >[!NOTE]
 >
->Possible operations are: **[!UICONTROL Simple reconciliation]** , **[!UICONTROL Update or insertion]** , **[!UICONTROL Insertion]** , **[!UICONTROL Update]** , **[!UICONTROL Deletion]** .  
+>Possible operations are: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.  
 >The default folder of the operator is the first folder for which the operator has write-permission.   
 >Refer to [this section](../../platform/using/access-management.md).
 

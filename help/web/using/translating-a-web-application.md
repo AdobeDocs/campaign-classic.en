@@ -53,7 +53,7 @@ To flag the strings to be translated:
       ![](assets/dce_translation_2.png)
 
 1. Once you have finished flagging the strings, go back to the Web application and select the **[!UICONTROL Translations]** tab.
-1. Select **[!UICONTROL Collect the strings to translate]** . The strings flagged in DCE are added to the Web application's strings.
+1. Select **[!UICONTROL Collect the strings to translate]**. The strings flagged in DCE are added to the Web application's strings.
 
    >[!NOTE]
    >

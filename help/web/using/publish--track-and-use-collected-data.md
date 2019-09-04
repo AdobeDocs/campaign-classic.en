@@ -50,7 +50,7 @@ The origin is indicated in the survey URL by adding the following characters:
 ?origin=xxx
 ```
 
-while the survey is being edited, its URL contains the parameter **[!UICONTROL __uuid]** , which indicates that it is in a test phase and not yet online. When you access the survey via this URL, the records created are not taken into account in the tracking (reports). The origin is forced to the value **[!UICONTROL Adobe Campaign]** .
+while the survey is being edited, its URL contains the parameter **[!UICONTROL __uuid]**, which indicates that it is in a test phase and not yet online. When you access the survey via this URL, the records created are not taken into account in the tracking (reports). The origin is forced to the value **[!UICONTROL Adobe Campaign]**.
 
 For more on URL parameters, refer to [this page](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
@@ -62,7 +62,7 @@ The dashboard tab lets you access survey reports. Click a report name to view it
 
 The structure of the survey is visible in the **[!UICONTROL Documentation]** report.
 
-Two other reports on Web surveys are available in the **[!UICONTROL Reports]** tab of the surveys: **[!UICONTROL General]** and **[!UICONTROL Breakdown of responses]** .
+Two other reports on Web surveys are available in the **[!UICONTROL Reports]** tab of the surveys: **[!UICONTROL General]** and **[!UICONTROL Breakdown of responses]**.
 
 * General
 
@@ -90,7 +90,7 @@ Answers to a survey can be exported in an external file to be processed later. T
 
 1. Exporting answers
 
-   To export answers, click the **[!UICONTROL Responses]** tab of the survey and right-click. Select **[!UICONTROL Export...]** .
+   To export answers, click the **[!UICONTROL Responses]** tab of the survey and right-click. Select **[!UICONTROL Export...]**.
 
    ![](assets/s_ncs_admin_survey_logs_export_menu.png)
 

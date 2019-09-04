@@ -89,7 +89,7 @@ The available client-side APIs to customize the banner are:
 
 If you have to write a JSSP, Server-Side APIs are available:
 
-* **NL.ServerWebTracking.generateOptOutBanner(escapeJs)**:Generates the markup for the opt-out banner to insert in the JSSP page
+* **NL.ServerWebTracking.generateOptOutBanner(escapeJs)**: Generates the markup for the opt-out banner to insert in the JSSP page
 
   **escapeJs {Boolean}**: true when the generated markup needs to be escaped to be used inside JavaScript.
 

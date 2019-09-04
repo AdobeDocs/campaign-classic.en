@@ -30,7 +30,7 @@ You can replace these buttons with links. See [Inserting HTML content](../../web
 
 ## Inserting a jump {#inserting-a-jump}
 
-The **[!UICONTROL Jump]** object gives access to another page or another form when the user clicks **[!UICONTROL Next]** .
+The **[!UICONTROL Jump]** object gives access to another page or another form when the user clicks **[!UICONTROL Next]**.
 
 The destination can be:
 

@@ -22,9 +22,9 @@ snippet: y
 
 This chapter details the designing of a **Survey** type form using Adobe Campaign, as well as the available options and configurations. Adobe Campaign lets you make this survey available to users and collect and archive answers in the database.
 
-Web forms are accessed via the **[!UICONTROL Resources > Online > Web applications]** node of the tree. To create a survey, click the **[!UICONTROL New]** button above the list of applications, or right-click the list and choose **[!UICONTROL New]** .
+Web forms are accessed via the **[!UICONTROL Resources > Online > Web applications]** node of the tree. To create a survey, click the **[!UICONTROL New]** button above the list of applications, or right-click the list and choose **[!UICONTROL New]**.
 
-Select the survey template ( **[!UICONTROL newSurvey]** by default).
+Select the survey template (**[!UICONTROL newSurvey]** by default).
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
@@ -48,14 +48,14 @@ The fields in a form enable users to enter information and select options. For e
 
 When you add a field to a survey you need to select its type. The following options are available:
 
-1. **[!UICONTROL Answer a question]** : this option lets you declare a new field (known as 'archived field') to store answers. In this case, all values collected are saved, even when a participant fills in the form more than once. This storage mode is only available in **Surveys**. Refer to [Storing collected answers](../../web/using/managing-answers.md#storing-collected-answers).
-1. **[!UICONTROL Edit a recipient]** : this option lets you select a field in the database. In this case, user answers will be stored in this field. For each participant, only the last value saved is kept, and added to the profile data.
-1. **[!UICONTROL Add a variable]** : this option lets you create a setup so that information is not stored in the database. Local variables can be declared upstream. You can also add them directly when creating the field.
-1. **[!UICONTROL Import an existing question]** : this option lets you import existing questions created in other surveys.
+1. **[!UICONTROL Answer a question]**: this option lets you declare a new field (known as 'archived field') to store answers. In this case, all values collected are saved, even when a participant fills in the form more than once. This storage mode is only available in **Surveys**. Refer to [Storing collected answers](../../web/using/managing-answers.md#storing-collected-answers).
+1. **[!UICONTROL Edit a recipient]**: this option lets you select a field in the database. In this case, user answers will be stored in this field. For each participant, only the last value saved is kept, and added to the profile data.
+1. **[!UICONTROL Add a variable]**: this option lets you create a setup so that information is not stored in the database. Local variables can be declared upstream. You can also add them directly when creating the field.
+1. **[!UICONTROL Import an existing question]**: this option lets you import existing questions created in other surveys.
 
    >[!NOTE]
    >
-   >Standard storage modes and field imports are detailed in [Storing collected answers](../../web/using/managing-answers.md#storing-collected-answers).
+   >Storage modes and field imports are detailed in [Storing collected answers](../../web/using/managing-answers.md#storing-collected-answers).
 
 The nature of the field to add (drop-down list, text field, checkboxes, etc.) adapts to the storage mode selected. You can change it using the **[!UICONTROL Type]** field of the **[!UICONTROL General]** tab, but make sure to remain consistent with the data type.
 
@@ -93,7 +93,6 @@ In addition, the storage location for this input field must be a **[!UICONTROL M
 >
 >* This functionality is only available for **Survey** type forms. 
 >* This option isn't compatible with random question display. For more on this, refer to [Adding questions](../../web/using/building-a-survey.md#adding-questions).
->
 
 ### Adding questions {#adding-questions}
 
@@ -137,5 +136,5 @@ When the page is refreshed, the questions displayed are not the same.
 
 >[!CAUTION]
 >
->When you display a question randomly ( **[!UICONTROL Display randomly]** option checked on the page), be careful not to use multiple choice questions for which one or more selections are mandatory.
+>When you display a question randomly (**[!UICONTROL Display randomly]** option checked on the page), be careful not to use multiple choice questions for which one or more selections are mandatory.
 

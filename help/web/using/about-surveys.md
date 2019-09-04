@@ -70,17 +70,17 @@ Apply the following steps to create and deliver a survey and process its results
 
    A data pre-loading step can be inserted in order to pre-load the form with data already in the database. You can also add a test box.
 
-1. Publish, then deliver the survey to recipients (e.g. in a delivery action or via an internet site).
+1. Publish, then deliver the survey to recipients (e.g. include link in a delivery or in a website).
 1. Monitor responses and view reports.
 
-For more information on configuring and sequencing these steps, refer to [this section](../../web/using/about-web-forms.md). Only configurations specific to surveys are detailed below.
+For more information on configuring and sequencing these steps, refer to [this section](../../web/using/about-web-forms.md). Only configurations specific to surveys are detailed in this chapter.
 
 ## Surveys configuration {#surveys-configuration}
 
 Surveys are stored in the **[!UICONTROL Resources > Online > Web Applications]** node of the Adobe Campaign tree. Configurations are found in the following folders:
 
-* **[!UICONTROL Administration > Configuration > Form rendering]** : contains the rendering templates for Web form presentation (applications and surveys). 
-* **[!UICONTROL Resources > Templates > Web application templates]** : contains the form templates. To create a form, you need to start with a template.
+* **[!UICONTROL Administration > Configuration > Form rendering]**: contains the rendering templates for Web form presentation (applications and surveys). 
+* **[!UICONTROL Resources > Templates > Web application templates]**: contains the form templates. To create a form, you need to start with a template.
 
 >[!NOTE]
 >

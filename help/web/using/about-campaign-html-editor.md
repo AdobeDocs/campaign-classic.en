@@ -24,7 +24,8 @@ The Digital Content Editor allows you to insert and format page elements and ass
 
 >[!NOTE]
 >
->The DCE only allows you to carry out the operations detailed in this section.  
+>The DCE only allows you to carry out the operations detailed in this section.
+>
 >If you would like to add server-side JavaScript code, it is better to add it in personalization blocks. For more information on creating and modifying personalization blocks, refer to [this page](../../delivery/using/personalization-blocks.md).
 
 >[!CAUTION]
@@ -39,12 +40,12 @@ The general operation is as follows:
 
 ![](assets/dce_schema.png)
 
-To create a Web application, the steps are as follows:
+To create a simple Web application, the steps are as follows:
 
-* Creating a 'Landing page' type Web application, for more on this, refer to [Creating a landing page](../../web/using/creating-a-landing-page.md),
-* Selecting existing content or creating content from a standard template, for more on this, refer to [Template management](../../web/using/template-management.md),
-* Editing and configuring online content, for more on this, refer to [Editing content](../../web/using/editing-content.md),
-* Publishing the Web application, for more on this, refer to [Step 3 - Publishing content](../../web/using/creating-a-landing-page.md#step-3---publishing-content) and [this page](../../web/using/publishing-a-web-form.md#managing-web-forms-delivery-and-tracking).
+* Create a Web application, for more on this, refer to [Creating a landing page](../../web/using/creating-a-landing-page.md),
+* Select existing content or creating content from a standard template, for more on this, refer to [Template management](../../web/using/template-management.md),
+* Edit and configure content, for more on this, refer to [Editing content](../../web/using/editing-content.md),
+* Publish the Web application, for more on this, refer to [Publishing content](../../web/using/creating-a-landing-page.md#step-3---publishing-content) and [this page](../../web/using/publishing-a-web-form.md#managing-web-forms-delivery-and-tracking).
 
 >[!NOTE]
 >
@@ -52,12 +53,12 @@ To create a Web application, the steps are as follows:
 
 To create an email delivery, the steps are as follows:
 
-* Creating a delivery from an email type template in which the DCE is active,
-* Selecting existing content or creating content from a standard template,
-* Editing and configuring online content,
-* Sending the delivery, for more on this refer to the [this section](../../delivery/using/communication-channels.md).
+* Create a delivery from an email type template in which the DCE is active,
+* Select existing content or creating content from a standard template,
+* Edit and configure online content,
+* Send the delivery, for more on this refer to [this section](../../delivery/using/communication-channels.md).
 
 >[!NOTE]
 >
->For a complete example detailing the implementation of the DCE within the framework of an email delivery, refer to [Use case: creating an email delivery](../../web/using/use-case--creating-an-email-delivery.md).
+>For a complete example detailing the implementation of the DCE within the framework of an email delivery, refer to [this use case](../../web/using/use-case--creating-an-email-delivery.md).
 

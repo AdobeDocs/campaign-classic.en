@@ -24,7 +24,7 @@ From here you can either create new templates or convert an existing form into a
 
 ## Convert an existing form into a template {#convert-an-existing-form-into-a-template}
 
-A form can be changed into a template and its configuration re-used. To do this, select the form, right-click and select **[!UICONTROL Actions > Save as template...]** .
+A form can be changed into a template and its configuration re-used. To do this, select the form, right-click and select **[!UICONTROL Actions > Save as template...]**.
 
 ![](assets/s_ncs_admin_survey_saveastemplate.png)
 
@@ -32,7 +32,7 @@ This action opens the window for creating Web applications. You can enter the na
 
 ## Create a new form template {#create-a-new-form-template}
 
-To create a Web form template, right-click the list of Web application templates and select **[!UICONTROL New]** . You can also use the **[!UICONTROL New]** button above the list of templates.
+To create a Web form template, right-click the list of Web application templates and select **[!UICONTROL New]**. You can also use the **[!UICONTROL New]** button above the list of templates.
 
 ![](assets/s_ncs_admin_survey_createtemplate.png)
 

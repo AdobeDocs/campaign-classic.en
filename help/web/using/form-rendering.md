@@ -72,14 +72,14 @@ To do this, use the **[!UICONTROL Advanced]** tab.
 
 It enables you to define the following properties:
 
-* **[!UICONTROL Label position]** : see [Defining the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels),
-* **[!UICONTROL Label format]** : Word wrap or No word wrap,
+* **[!UICONTROL Label position]**: see [Defining the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels),
+* **[!UICONTROL Label format]**: Word wrap or No word wrap,
 * **[!UICONTROL Number of cells]** : see [Positioning the fields on the page](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page),
 * **[!UICONTROL Horizontal alignment]** (Left, Right, Centered) and **[!UICONTROL Vertical alignment]** (High, Low, Middle),
 * **[!UICONTROL Width]** of the zone: this can be expressed as a percentage or in ems, points, or pixels (default value),
-* Maximum **[!UICONTROL Length]** : Maximum number of characters allowed (for Text, Number and Password type controls),
-* **[!UICONTROL Lines]** : number of lines for a **[!UICONTROL Multi-line text]** type zone,
-* **[!UICONTROL Style inline]** : enables you to overload the CSS style sheet with additional settings. These are separated using **;** characters as shown in the example below:
+* Maximum **[!UICONTROL Length]**: Maximum number of characters allowed (for Text, Number and Password type controls),
+* **[!UICONTROL Lines]**: number of lines for a **[!UICONTROL Multi-line text]** type zone,
+* **[!UICONTROL Style inline]**: enables you to overload the CSS style sheet with additional settings. These are separated using **;** characters as shown in the example below:
 
   ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
