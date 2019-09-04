@@ -260,7 +260,6 @@ When no `<compute-string>` is defined, a `<compute-string>` element is entered b
 Result of the string calculated on a recipient: "John Doe (john.doe@aol.com)":
 
 ```
-
 <element name="recipient">
 <compute-string expr="@lastName + ' ' + @firstName +' (' + @email + ')'
 "/>
@@ -401,6 +400,7 @@ Creation of a composite index on the "@mail" and "@phoneNumber" fields:
 ```
 CREATE INDEX DocNewSchemaUser_myIndex ON DocNewSchemaUser(sEmail, sPhone);
 ```
+
 <!--
 ## <element> element </element> {#element--element}
 
