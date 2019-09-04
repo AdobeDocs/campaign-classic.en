@@ -18,9 +18,6 @@ snippet: y
 
 # Elements and attributes{#elements-and-attributes}
 
-To Be Corrected
-
-<!--
 When editing a schema, an approval system based on the source schema (xtk:srcSchema) is available. Some errors can also be spotted when updating the database using the "Database structure update..." wizard.
 
 By default, in Adobe Campaign schemas, all boolean type attributes are "false". To activate them, you need to specify the attribute in the schema and set its value to "true".
@@ -45,13 +42,13 @@ _operation (string), advanced (boolean), applicableIf (string), autoIncrement (b
 
 ### Description {#description}
 
-`<attribute>  elements let you define a field in the database. </attribute>`
+`<attribute>` elements let you define a field in the database.
 
 ### Use and context of use {#use-and-context-of-use}
 
-`<attribute>  elements must be declared in an  <element>   element.  </element> </attribute>`
+`<attribute>` elements must be declared in an `<element>` element.
 
-The sequence in which `<attribute>`  elements are defined in an  `<srcschema> `  does not affect the field creation sequence in the database. The creation sequence will be alphabetical. 
+The sequence in which `<attribute>` elements are defined in an `<srcschema> ` does not affect the field creation sequence in the database. The creation sequence will be alphabetical.
 
 ### Attribute description {#attribute-description}
 
@@ -68,21 +65,21 @@ The sequence in which `<attribute>`  elements are defined in an  `<srcschema> ` 
     * "delete": deletion. This means that Adobe Campaign will recover and delete elements.
 
 * **advanced (boolean)**: when this option is activated (@advanced="true"), it lets you hide the attribute on the list of available fields accessible for configuring a list in a form.
-* **applicableIf (string)**: this attribute lets you make fields optional. The `<attribute>  element will be taken into account when updating the database when the constraint is complied with. "applicableIf" receives an XTK expression. </attribute>`
+* **applicableIf (string)**: this attribute lets you make fields optional. The `<attribute>` element will be taken into account when updating the database when the constraint is complied with. "applicableIf" receives an XTK expression.
 * **autoIncrement (boolean)**: if this option is activated, the field becomes a counter. This enables you to increment a value (mostly IDs). (external use)
-* **belongsTo (string)**: takes the name and namespace of the table that shares the field, and populates the schema where the attribute is declared. (used only in a `<schema>  ). </schema>`
+* **belongsTo (string)**: takes the name and namespace of the table that shares the field, and populates the schema where the attribute is declared. (used only in a `<schema>`).
 * **dataPolicy (string)**: enables you to specify approval constraints on values allowed in the SQL or XML field. The values for this attribute are:
 
     * "none": no value
     * "smartCase": first letters upper case
-    * "lowerCase": all lower case 
+    * "lowerCase": all lower case
     * "upperCase": all upper case
     * "email": email adress
     * "phone": telephone number
     * "identifier": identifier name
     * "resIdentifier": file name
 
-* **dbEnum (string)**: receives the internal name of a "closed" enumeration. The enumeration values must be defined in the `<srcschema>  . </srcschema>`
+* **dbEnum (string)**: receives the internal name of a "closed" enumeration. The enumeration values must be defined in the `<srcschema>`.
 * **defOnDuplicate (boolean)**: if this attribute is activated, when a record is duplicated the default value (defined in @default) is automatically reapplied to the record.
 * **default (string)**: lets you define the value of the default field (call to a function, default value). This attribute receives an XTK expression. 
 * **desc (string)**: lets you insert a description of the attribute. This description is displayed in the status bar of the interface.
@@ -104,7 +101,7 @@ The sequence in which `<attribute>`  elements are defined in an  `<srcschema> ` 
   When a characteristic is defined in a schema, this schema must have a main key based on a single field (composite keys are not authorized).
 
 * **featureDate (boolean)**: attribute linked to the "@feature" characteristics field. If its value is "true", it lets you find out when the value was last updated.
-* **img (string)**: lets you define a path for an image linked to a field (namespace + image name)(example: img="cus:mypicture.jpg"). Physically, the image must be imported to the application server. 
+* **img (string)**: lets you define a path for an image linked to a field (namespace + image name)(example: img="cus:mypicture.jpg"). Physically, the image must be imported to the application server.
 * **label (string)**: label linked to the field, mostly destined to the user in the interface. It lets you avoid naming constraints.
 * **length (string)**: max. number of characters for a value of the "string" type SQL field. If the "@length" attribute isn't specified, Adobe Campaign automatically creates a field for 255 characters.
 * **localizable (boolean)**: if it is activated, this attribute tells the collection tool to recover the value of the "@label" attribute for translation (internal use).
@@ -126,12 +123,12 @@ The sequence in which `<attribute>`  elements are defined in an  `<srcschema> ` 
     * "never": never present
     * "default (or nothing)": the value is exported except if it's the default value or if it isn't an internal field which would not be compatible with other instances.
 
-* **ref (string)**: this attribute defines a reference to an `<attribute>  element shared by several schemas (definition factoring). The definition isn't copied into the current schema. </attribute>`
+* **ref (string)**: this attribute defines a reference to an `<attribute>` element shared by several schemas (definition factoring). The definition isn't copied into the current schema.
 * **required (boolean)**: if this attribute is activated (@required="true"), the field is highlighted in the interface. The label of the field will be red in forms.
 * **sql (boolean)**: if this attribute is activated (@sql="true"), it forces storage of the SQL attribute, even when the element which contains the attribute has the xml="true" property.
 * **sqlDefault (string)**: this attribute enables you to define the default value taken into account for updating the database if the @notNull attribute is activated.
 * **sqlname (string)**: of the field during table creation. If @sqlname isn't specified, the value of the "@name" attribute is used by default. When the schema is written in the database, prefixes are added automatically depending on the type of field.
-* **template (string)**: this attribute defines a reference to an `<attribute>  element shared by several schemas. The definition is automatically copied into the current schema. </attribute>`
+* **template (string)**: this attribute defines a reference to an `<attribute>` element shared by several schemas. The definition is automatically copied into the current schema.
 * **translatedDefault (string)**: if a "@default" attribute is found, the "@translatedDefault" will enable you to redefine an expression to match the one defined in @default, to be collected by the translation tool (internal use).
 * **translatedExpr (string)**: if an "@expr" attribute is present, the "@translatedExpr" attibute enables you to redefine an expression to match the one defined in @expr, to be collected by the translation tool (internal use).
 * **type (MNTOKEN)**: field type.
@@ -185,7 +182,6 @@ The sequence in which `<attribute>`  elements are defined in an  `<srcschema> ` 
 Example of enumeration values whose values are stored in the database:
 
 ```
-
     <enumeration name="myEnum">
        <value name="One" value="1"/>
        <value name="Two" value="2"/>
@@ -193,14 +189,12 @@ Example of enumeration values whose values are stored in the database:
 
     <element label="Sample" name="Sample">
        <attribute dbEnum="myEnum" length="100" name="Number" required="true" type="string"/>
-    </element>
-          
+    </element>     
 ```
 
 Declaration of an XML field with "@datapolicy":
 
 ```
-
 <attribute dataPolicy="phone" desc="Mobile number" label="Mobile"
      length="32" name="mobilePhone" sqlname="sMobilePhone" type="string"/>
 ```
@@ -208,9 +202,7 @@ Declaration of an XML field with "@datapolicy":
 Example with an "@applicableIf": the "contains" attribute will only be created if the number of countries is greater than 20.
 
 ```
-
 <attribute length="100" name="Continent" type="string" applicableIf="@country > 20"/>
-           
 ```
 
 Example with "@feature" of "shared" type:
@@ -226,6 +218,7 @@ Example with "@feature" of "dedicated" type:
 <attribute name="field1" label="Field 1" type="long" feature="dedicated"/>
 <attribute name="field1" label="Field 1" type="long" feature="dedicated" sqlname="sField1" sqltable="Ft_recipient_field1"/>
 ```
+
 
 ## <compute-string> element </compute-string> {#compute-string--element}
 
@@ -247,11 +240,11 @@ None
 
 ### Description {#description-1}
 
-The `<compute-string>  element enables you to generate a string based on an XTK expression to display a "built" label in the interface based on several values. </compute-string>`
+The `<compute-string>` element enables you to generate a string based on an XTK expression to display a "built" label in the interface based on several values.
 
 ### Use and context of use {#use-and-context-of-use-1}
 
-When no `<compute-string>  is defined, a  <compute-string>   element is entered by default with the values of the primary key in the schema.  </compute-string> </compute-string>`
+When no `<compute-string>` is defined, a `<compute-string>` element is entered by default with the values of the primary key in the schema.
 
 ### Attribute description {#attribute-description-1}
 
@@ -259,7 +252,10 @@ When no `<compute-string>  is defined, a  <compute-string>   element is entered 
 
 ### Examples {#examples-1}
 
-`<compute-string expr="@label + Iif(@code='','', ' (' + [folder/@label] + ')')">  <compute-string expr="ToString([@centralCatalog-id]) + ',' + ToString([@localOrgUnit-id])" /> </compute-string>`
+```
+<compute-string expr="@label + Iif(@code='','', ' (' + [folder/@label] + ')')"/>  
+<compute-string expr="ToString([@centralCatalog-id]) + ',' + ToString([@localOrgUnit-id])" />
+```
 
 Result of the string calculated on a recipient: "John Doe (john.doe@aol.com)":
 
@@ -298,17 +294,21 @@ This element lets you define a filtering condition.
 
 ### Use and context of use {#use-and-context-of-use-2}
 
-One `<sysfiler>  element can contain several filtering conditions. </sysfiler>`
+One `<sysfiler>`  element can contain several filtering conditions.
 
 ### Attribute description {#attribute-description-2}
 
-* **boolOperator (string)**: if several `<conditions>  are defined within the same  <sysfilter>   element, this attribute lets you combine them. By default, the logical link is between   <condition>    elements is "AND". The "@boolOperator" attribute lets you combine "OR" and "AND" type links.   </condition>  </sysfilter> </conditions>`
+* **boolOperator (string)**: if several `<conditions>` are defined within the same  `<sysfilter>` element, this attribute lets you combine them. By default, the logical link is between `<condition>` elements is "AND". The "@boolOperator" attribute lets you combine "OR" and "AND" type links.
 * **enabledIf (string)**: condition activation test.
 * **expr (string)**: an XTK expression.
 
 ### Examples {#examples-2}
 
-`<sysfilter>  <condition enabledIf="hasNamedRight('admin')=false" expr="@city=[currentOperator/location/@city]" /> </sysfilter>`
+```
+<sysfilter>
+  <condition enabledIf="hasNamedRight('admin')=false" expr="@city=[currentOperator/location/@city]" />
+</sysfilter>
+```
 
 ## <dbindex> element </dbindex> {#dbindex--element}
 
@@ -340,7 +340,7 @@ This element lets you define an index linked to a table.
 
 It's possible to define several indexes. One index can reference one or more fields of the table. Index declaration usually follows the definition of the main schema element.
 
-The order of the `<keyfield>  elements defined in a  <dbindex>   is very important. The first   <keyfield>    must be the indexation criterion which the queries are mainly based on.   </keyfield>  </dbindex> </keyfield>`
+The order of the `<keyfield>` elements defined in a `<dbindex>` is very important. The first `<keyfield>` must be the indexation criterion which the queries are mainly based on.
 
 The name of the index in the database is calculated by concatenating the name of the table and the name of the index. For example: Table name "Sample", Namespace "Cus", index name "MyIndex"-> name of the index field during index creation querying: "CusSample_myIndex".
 
@@ -365,25 +365,28 @@ The name of the index in the database is calculated by concatenating the name of
 
 ### Examples {#examples-3}
 
-Creation of an index on the "id" field. (the "@unique" attribute on the `<dbindex>  element triggers adding of the "UNIQUE" SQL key word when the index is created in the database (query)). </dbindex>`
+Creation of an index on the "id" field. (the "@unique" attribute on the `<dbindex>` element triggers adding of the "UNIQUE" SQL key word when the index is created in the database (query)).
 
 ```
-
 <element label="Sample" name="Sample">
   <dbindex name="myIndex" label="My index on the ID field" unique="true" applicableIf="HasPackage('nms:social')">
       <keyfield xpath="@id"/>
   </dbindex>
     <attribute name="id" type="long"/>
-</element>
-            
+</element>          
 ```
 
-ALTER TABLE CusSample ADD iSampleId INTEGER; UPDATE CusSample SET iSampleId = 0; ALTER TABLE CusSample ALTER COLUMN iSampleId SET Default 0; ALTER TABLE CusSample ALTER COLUMN iSampleId SET NOT NULL; CREATE UNIQUE INDEX CusSample_myIndex ON CusSample(iSampleId);
+```
+ALTER TABLE CusSample ADD iSampleId INTEGER;
+UPDATE CusSample SET iSampleId = 0;
+ALTER TABLE CusSample ALTER COLUMN iSampleId SET Default 0;
+ALTER TABLE CusSample ALTER COLUMN iSampleId SET NOT NULL; 
+CREATE UNIQUE INDEX CusSample_myIndex ON CusSample(iSampleId);
+```
 
 Creation of a composite index on the "@mail" and "@phoneNumber" fields:
 
-```
-        
+```    
 <element label="NewSchemaUser" name="NewSchemaUser">
   <dbindex name="myIndex" label="My composite index">
          <keyfield xpath="@email"/>
@@ -392,16 +395,13 @@ Creation of a composite index on the "@mail" and "@phoneNumber" fields:
   
   <attribute name="email" type="string"/>
   <attribute name="phone" type="string"/>
-</element>
-                
+</element>      
 ```
 
 ```
-
 CREATE INDEX DocNewSchemaUser_myIndex ON DocNewSchemaUser(sEmail, sPhone);
-                
 ```
-
+<!--
 ## <element> element </element> {#element--element}
 
 ### Content model {#content-model-4}
