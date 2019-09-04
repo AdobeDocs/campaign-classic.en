@@ -20,13 +20,13 @@ snippet: y
 
 ## Top 10 questions {#top-10-questions}
 
-Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also [watch introducing videos](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.md) and read out Campaign [Getting started guides](../../platform/using/tutorials.md#step-by-step-guides) to learn key concepts. Cannot find the answer? [Ask the Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/campaign).
+Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also [watch introducing videos](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) and read out Campaign [Getting started guides](../../platform/using/tutorials.md#step-by-step-guides) to learn key concepts. Cannot find the answer? [Ask the Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/campaign).
 
 ### 1. How can I upgrade Campaign to the latest version? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
 As an administrator, you can perform a build upgrade to a new version, or request it to Adobe - depending if your instance is hosted or not.
 
-[Click here to learn how to update your environment](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.md) and read common questions on this specific subject.
+[Click here to learn how to update your environment](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) and read common questions on this specific subject.
 
 ### 2. What is the database cleanup workflow? {#what-is-the-database-cleanup-workflow-}
 
@@ -38,7 +38,7 @@ The database cleanup workflow deletes obsolete data to avoid exponential growth 
 
 The Security Zones self-service interface can be used to manage entries in the VPN Security Zone configuration of an Adobe Campaign Classic deployment. Read out [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones) to learn about security zones in Campaign.
 
-[Click here to learn more](https://helpx.adobe.com/campaign/kb/configuring-security-zones-self-service.md) about Security Zone self-service UI.
+[Click here to learn more](https://helpx.adobe.com/campaign/kb/configuring-security-zones-self-service.html) about Security Zone self-service UI.
 
 ### 4. How can I make sure my delivery is sent without errors? {#how-can-i-make-sure-my-delivery-is-sent-without-errors-}
 
@@ -58,21 +58,21 @@ To connect to Adobe Campaign Classic, you need to launch Adobe Campaign client c
 
 ### 7. Which systems and components Campaign Classic is compatible with? {#which-systems-and-components-campaign-classic-is-compatible-with-}
 
-You can get the list of all systems and components supported for the latest build of Campaign in [Adobe Campaign Classic Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
+You can get the list of all systems and components supported for the latest build of Campaign in [Adobe Campaign Classic Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
 ### 8. Where are Campaign Classic release notes? {#where-are-campaign-classic-release-notes-}
 
-You can access latest Campaign Classic release notes [in this page](https://docs.campaign.adobe.com/doc/AC/en/RN.md).
+You can access latest Campaign Classic release notes [in this page](https://docs.campaign.adobe.com/doc/AC/en/RN.html).
 
 ### 9. What is the procedure for domain delegation? {#what-is-the-procedure-for-domain-delegation-}
 
 Within the framework of its Adobe Campaign Cloud Marketing offer, Adobe takes account of the Domain Name System (DNS) for email delivery, which allows the client to keep their brand image by using a DNS alias with its domain names, and Adobe to autonomously implement all the technical best practices that allow it to optimize deliverability during emailing.
 
-[Click here to learn more](https://helpx.adobe.com/campaign/kb/domain-name-delegation.md).
+[Click here to learn more](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
 ### 10. How to get emails in the recipient's inbox? {#how-to-get-emails-in-the-recipient-s-inbox-}
 
-Read out [Set up email deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) getting started to learn the concepts and best practices related to deliverability as well as the tools to optimize sending your emails.
+Read out [Set up email deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) getting started to learn the concepts and best practices related to deliverability as well as the tools to optimize sending your emails.
 
 ## Key concepts {#key-concepts}
 
@@ -97,7 +97,7 @@ Check your [version and build number](../../platform/using/launching-adobe-campa
 
 Adobe Campaign Classic comes with a set of modules and options. The availability of these modules and their configuration can depend on the [type of deployment](../../installation/using/hosting-models.md) of your installation: hosted (Managed Services) or on-premise.
 
-[Click here to learn more](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md).
+[Click here to learn more](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ### How can I set up user permissions? {#how-can-i-set-up-user-permissions-}
 
@@ -117,7 +117,7 @@ GDPR is the European Union’s (EU) new privacy law that harmonizes and moderniz
 
 In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and rights management), we are taking this opportunity in our role as Data Processor to include additional capabilities, to help facilitate your readiness as Data Controller for certain GDPR requests.
 
-Refer to [this document](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.md) to understand the tools and functionalities that Adobe Campaign provides, as well as best practices, to help you with your GDPR compliance when using our service.
+Refer to [this document](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html) to understand the tools and functionalities that Adobe Campaign provides, as well as best practices, to help you with your GDPR compliance when using our service.
 
 ### What are Campaign user interface concepts I should know? {#what-are-campaign-user-interface-concepts-i-should-know-}
 
@@ -167,11 +167,11 @@ You can track deliveries sent with Campaign Classic through dedicated [delivery 
 
 ### What are security best practices (on-premise)? {#what-are-security-best-practices--on-premise--}
 
-Read out the [Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.md) to discover key elements to check regarding security configuration and hardening for on-premise deployments.
+Read out the [Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html) to discover key elements to check regarding security configuration and hardening for on-premise deployments.
 
 ### How to translate an error message? {#how-to-translate-an-error-message-}
 
-An error message is displayed in a foreign language? All error messages and their translation are listed in [this page](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.md).
+An error message is displayed in a foreign language? All error messages and their translation are listed in [this page](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html).
 
 ### Can I create a webform and collect answers in Campaign? {#can-i-create-a-webform-and-collect-answers-in-campaign-}
 
@@ -181,13 +181,13 @@ An error message is displayed in a foreign language? All error messages and thei
 
 Adobe constantly evaluates capabilities in the product and over time plans to replace capabilities with more powerful versions, or decides to re-implement selected parts to be better prepared for future expectations or extensions. As Campaign works with 3rd party tools, compatibility is updated on a regular basis, in order to implement supported versions only.
 
-[Click here to learn more](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.md).
+[Click here to learn more](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html).
 
 ### Are there new documentation updates and help materials released? {#are-there-new-documentation-updates-and-help-materials-released-}
 
-Latest Campaign Classic documentation updates are listed [in this page](https://helpx.adobe.com/campaign/kb/v7-doc-updates.md).
+Latest Campaign Classic documentation updates are listed [in this page](https://helpx.adobe.com/campaign/kb/v7-doc-updates.html).
 
-You can also refer to the latest technical notes listed [in this page](https://helpx.adobe.com/campaign/kb/article-list.md).
+You can also refer to the latest technical notes listed [in this page](https://helpx.adobe.com/campaign/kb/article-list.html).
 
 ## Design messages {#design-messages}
 
@@ -197,7 +197,7 @@ Discover key steps to design omni-channel messages with Adobe Campaign.
 
 Before starting designing emails, learn the concepts and best practices related to delivery design and sending with Adobe Campaign.
 
-[Click here to learn more](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.md).
+[Click here to learn more](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
 
 ### What is a delivery template? {#what-is-a-delivery-template-}
 
@@ -517,7 +517,7 @@ As an expert user, you can configure tracking capabilities on your Campaign inst
 
 ### How to configure email deliverability? {#how-to-configure-email-deliverability-}
 
-In addition to the [Deliverability getting started guide](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md), read out the section about email deliverability configuration to understand how to configure your instance to maximize Campaign delivering capabilities.
+In addition to the [Deliverability getting started guide](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html), read out the section about email deliverability configuration to understand how to configure your instance to maximize Campaign delivering capabilities.
 
 [Click here to learn more](../../installation/using/email-deliverability.md).
 
@@ -535,7 +535,7 @@ Adobe Campaign provides the Federated Data Access (FDA) option in order to proce
 
 ### Which external databases can I connect Campaign to? {#which-external-databases-can-i-connect-campaign-to-}
 
-External database compatible with Campaign through Federated Data Access (FDA) are listed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
+External database compatible with Campaign through Federated Data Access (FDA) are listed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
 ### Can Adobe Campaign integrate with LDAP? {#can-adobe-campaign-integrate-with-ldap-}
 
@@ -549,4 +549,4 @@ Adobe Campaign provides various CRM connectors for linking your Adobe Campaign p
 
 These connectors enable quick and easy data integration: Adobe Campaign provides a dedicated wizard for collecting and selecting from the tables available in the CRM. This guarantees two-directional synchronization to make sure data is up-to-date at all times throughout the systems.
 
-Read out [Configure CRM connectors](../../platform/using/crm-connectors.md) to learn how to synchronize your CRM tool with Adobe Campaign. Watch this use case video on [Adobe Campaign and Microsoft Dynamics 365 integration](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.md).
+Read out [Configure CRM connectors](../../platform/using/crm-connectors.md) to learn how to synchronize your CRM tool with Adobe Campaign. Watch this use case video on [Adobe Campaign and Microsoft Dynamics 365 integration](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).

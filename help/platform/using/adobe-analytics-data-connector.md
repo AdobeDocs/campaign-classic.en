@@ -28,7 +28,7 @@ Data Connector (previously known as Adobe Genesis) allows Adobe Campaign and Ado
 
 Using Data connector, Adobe Campaign has a way of measuring internet audience (Web Analytics). Thanks to these integrations, Adobe Campaign can recover data on visitor behavior for one or more sites following a marketing campaign, and (after analysis) run re-marketing campaigns with a view to converting them into buyers. Conversely, the Web analytics tools enable Adobe Campaign to forward indicators and campaign attributes to their platforms.
 
-For more information on the implementation of the integration Adobe Analytics with Adobe Campaign, refer to this [documentation](https://helpx.adobe.com/marketing-cloud/how-to/analytics-ac.md).
+For more information on the implementation of the integration Adobe Analytics with Adobe Campaign, refer to this [documentation](https://helpx.adobe.com/marketing-cloud/how-to/analytics-ac.html).
 
 The action fields for each tool are as follows:
 
@@ -68,6 +68,9 @@ The following steps detail the configuration of Data connector using a wizard.
    ![](assets/adobe_genesis_install_002.png)
 
 1. From the list of partners, select **[!UICONTROL Neolane - Enterprise Marketing Platform]**.
+
+   ![](assets/adobe_genesis_install_014.png)
+
 1. In the **[!UICONTROL Add integration]** dialog, click **[!UICONTROL Activate]**.
 1. Check **[!UICONTROL I accept these terms and conditions]** and select the **[!UICONTROL Report suite]** linked to this integration and enter the connector label.
 

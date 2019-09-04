@@ -34,5 +34,5 @@ You can also integrate Campaign with multiple other systems, such as:
 
 >[!NOTE]
 >
->The availability of these modules and their use can depend on the type of deployment of your installation. Refer to [Campaign on-prem/hosted capabilities matrix](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md).
+>The availability of these modules and their use can depend on the type of deployment of your installation. Refer to [Campaign on-prem/hosted capabilities matrix](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 

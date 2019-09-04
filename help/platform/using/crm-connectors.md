@@ -34,7 +34,7 @@ Connecting to the CRM is carried out via dedicated workflow activities. These ac
 
 CRMs listed below can be integrated into Adobe Campaign.
 
-Supported versions are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
+Supported versions are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
 * **Salesforce.com**
 
@@ -73,7 +73,7 @@ Supported versions are detailed in the [Compatibility matrix](https://helpx.adob
 
   Refer to [this section](../../platform/using/crm-connectors.md#example-for-microsoft-dynamics) to learn how to set up the connection with Microsoft Dynamics.
 
-  Learn about Adobe Campaign and Microsoft Dynamics integration use cases in [this video](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.md).
+  Learn about Adobe Campaign and Microsoft Dynamics integration use cases in [this video](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
 
   >[!CAUTION]
   >
@@ -200,7 +200,7 @@ To configure the Microsoft Dynamics connector to work with Adobe Campaign, apply
 
    ![](assets/crm_connectors_msdynamics_01_3.png)
 
-   For more information on CRM version compatibility, refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
+   For more information on CRM version compatibility, refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
 1. Open the configuration wizard. Adobe Campaign automatically detects the tables from the Microsoft Dynamics data template.
 
@@ -276,6 +276,7 @@ For an import activity, the **CRM Connector** activity configuration steps are:
    >[!CAUTION]
    >
    >The identifier of the record in the CRM is mandatory for linking objects in CRM and in Adobe Campaign. It is added automatically when the box is approved.  
+   >
    >The last modification date on the CRM side is also mandatory for incremental data imports.
 
 1. You can also filter the data to be imported based on your needs. To do this, click the **[!UICONTROL Edit the filter...]** link.
@@ -303,7 +304,9 @@ The date of the last synchronization is stored in an option specified in the con
 >[!NOTE]
 >
 >This note only applies to the generic **[!UICONTROL CRM Connector]** activity. For other CRM activities, the process is automatic.  
->This option has to be manually created and populated under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. It must be a text option and its value needs to match the following format: **yyyy/MM/dd hh:mm:ss**.  
+>
+>This option has to be manually created and populated under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. It must be a text option and its value needs to match the following format: **yyyy/MM/dd hh:mm:ss**. 
+> 
 >You need to manually update this option for any further import.
 
 You can specify the remote CRM field to be taken into account to identify the most recent changes.

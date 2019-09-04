@@ -166,7 +166,7 @@ The following connection types can be configured:
 
 ### Teradata external account {#teradata-external-account}
 
-The **Teradata** external account allows you to connect your Campaign instance to your Teradata external database. For more information on how to configure Campaign Classic with Teradata, refer to this [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.md).
+The **Teradata** external account allows you to connect your Campaign instance to your Teradata external database. For more information on how to configure Campaign Classic with Teradata, refer to this [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html).
 
 ![](assets/ext_account_19.png)
 
@@ -294,7 +294,7 @@ To connect to the Adobe Campaign console using an Adobe ID, you must configure t
 
 * **[!UICONTROL IMS organization ID]**
 
-  ID of your IMS organization. To find your organization ID, refer to this [page](https://marketing.adobe.com/resources/help/en_US/mcloud/faq.md) (**Where can I find my IMS organization ID?**).
+  ID of your IMS organization. To find your organization ID, refer to this [page](https://marketing.adobe.com/resources/help/en_US/mcloud/faq.html) (**Where can I find my IMS organization ID?**).
 
 * **[!UICONTROL Association mask]**
 
@@ -370,7 +370,7 @@ As you are setting up this new external account, you need to provide the followi
 
 * **[!UICONTROL AWS access key ID]**
 
-  To know where to find your AWS access key ID, refer to this [page](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.md#access-keys-and-secret-access-keys) .
+  To know where to find your AWS access key ID, refer to this [page](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
 
 * **[!UICONTROL Secret access key to AWS]**
 
@@ -378,7 +378,7 @@ As you are setting up this new external account, you need to provide the followi
 
 * The **[!UICONTROL Use server side encryption]** checkbox allows you to store your file in S3 encrypted mode.
 
-To learn where to find the access key ID and secret access key, refer to Amazon Web services [documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.md#access-keys-and-secret-access-keys) .
+To learn where to find the access key ID and secret access key, refer to Amazon Web services [documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
 
 ## Azure external account {#azure-external-account}
 

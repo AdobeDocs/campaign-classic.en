@@ -80,7 +80,7 @@ In our example, the joins on the "folder" and "company" links have been replaced
 </recipient>
 ```
 
-The ** _operation** attribute with the value "none" defines a reconciliation link.
+The **`operation`** attribute with the value "none" defines a reconciliation link.
 
 A data package can be constructed manually from any text editor. Simply ensure that the structure of the XML document complies with the "xtk:navtree" data schema. The Adobe Campaign console has a data package export and import module.
 
@@ -205,7 +205,6 @@ label="" name="" namespace="" vendor="">
   </operation>
  </entities>
 </package>   
-  
 ```
 
 Affiliation to a type of package is defined in a schema with the **@pkgAdmin and @pkgPlatform** attribute. Both these attributes receive an XTK expression that defines the conditions of affiliation to the package.
@@ -289,7 +288,9 @@ Package generation can be configured from the package definition **[!UICONTROL C
   >[!CAUTION]
   >
   >Unselecting this option can result in a merge of local and imported versions.   
+  >
   >If the instance where the package is imported contains entities that are identical to those of the package (for example with the same external ID), their attributes will not be updated. This can occur if the attributes from the former instance have default values, as they are not included in the package.   
+  >
   >In that case, selecting the **[!UICONTROL Include default values]** option would prevent versions merging, as all attributes from the former instance would be exported with the package.
 
 ### Exporting packages from a package definition {#exporting-packages-from-a-package-definition}
