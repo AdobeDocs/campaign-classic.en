@@ -22,7 +22,7 @@ When editing a schema, an approval system based on the source schema (xtk:srcSch
 
 By default, in Adobe Campaign schemas, all boolean type attributes are "false". To activate them, you need to specify the attribute in the schema and set its value to "true".
 
-## <attribute> element </attribute> {#attribute--element}
+## <attribute> element {#attribute--element}
 
 ### Content model {#content-model}
 
@@ -220,7 +220,7 @@ Example with "@feature" of "dedicated" type:
 ```
 
 
-## <compute-string> element </compute-string> {#compute-string--element}
+## <compute-string> element {#compute-string--element}
 
 ### Content model {#content-model-1}
 
@@ -267,7 +267,7 @@ Result of the string calculated on a recipient: "John Doe (john.doe@aol.com)":
 </element>
 ```
 
-## <condition> element </condition> {#condition--element}
+## <condition> element {#condition--element}
 
 ### Content model {#content-model-2}
 
@@ -309,7 +309,7 @@ One `<sysfiler>`  element can contain several filtering conditions.
 </sysfilter>
 ```
 
-## <dbindex> element </dbindex> {#dbindex--element}
+## <dbindex> element {#dbindex--element}
 
 ### Content model {#content-model-3}
 
@@ -401,8 +401,8 @@ Creation of a composite index on the "@mail" and "@phoneNumber" fields:
 CREATE INDEX DocNewSchemaUser_myIndex ON DocNewSchemaUser(sEmail, sPhone);
 ```
 
-<!--
-## <element> element </element> {#element--element}
+
+## <element> element {#element--element}
 
 ### Content model {#content-model-4}
 
@@ -433,12 +433,12 @@ _operation (string), advanced (boolean), aggregate (string), applicableIf (strin
 
 ### Description {#description-4}
 
-There are four types of `<element>  elements in Adobe Campaign: </element>`
+There are four types of `<element>`  elements in Adobe Campaign:
 
-* Root `<element>  : defines the name of the SQL table that matches the schema. </element>`
-* Structure `<element>  : defines a group of  <element>   or   <attribute>    elements.   </attribute>  </element> </element>`
-* Link `<element>  : defines a link. This elements must include the "@type=link" attribute. </element>`
-* XML `<element>  : defines a Text type "mData" field. This element must include the "@type=xml" attribute. </element>`
+* Root `<element>`  : defines the name of the SQL table that matches the schema.
+* Structure `<element>`  : defines a group of  `<element>`   or   `<attribute>`    elements.
+* Link `<element>`  : defines a link. This elements must include the "@type=link" attribute.
+* XML `<element>`  : defines a Text type "mData" field. This element must include the "@type=xml" attribute.
 
 ### Attribute description {#attribute-description-4}
 
@@ -455,7 +455,7 @@ There are four types of `<element>  elements in Adobe Campaign: </element>`
     * "delete": deletion. This means that Adobe Campaign will recover and delete elements.
 
 * **advanced (boolean)**: when this option is activated (@advanced="true"), it lets you hide the attribute on the list of available fields accessible for configuring a list in a form.
-* **aggregate (string)**: lets you copy the definition of an `<element>  via another schema. This attribute receives a schema declaration in the form of a "namespace:name". </element>`
+* **aggregate (string)**: lets you copy the definition of an `<element>`  via another schema. This attribute receives a schema declaration in the form of a "namespace:name".
 * **applicableIf (string)**: condition for applying the index. This attribute receives an XTK expression.
 * **autopk (boolean)**: if this option is activated (autopk="true"), a unique key will be automatically defined. This option may only be used on the main element of the schema. Warning, Adobe Campaign only guarantees that the key generated is unique. It is not guaranteed that the key values are consecutive and incremental.
 * **dataPolicy (string)**: enables you to specify approval constraints on values allowed in the SQL field. The values for this attribute are:
@@ -469,11 +469,11 @@ There are four types of `<element>  elements in Adobe Campaign: </element>`
     * "identifier": identifier name
     * "resIdentifier": file name
 
-* **dbEnum (string)**: receives the internal name of a "closed" enumeration. The enumeration values must be defined in the `<srcschema>  . </srcschema>`
+* **dbEnum (string)**: receives the internal name of a "closed" enumeration. The enumeration values must be defined in the `<srcschema>`.
 * **defOnDuplicate (boolean)**: if this attribute is activated, when a record is duplicated the default value (defined in @default) is automatically reapplied to the record.
 * **default (string)**: lets you define element behavior (call to a function, default value). This attribute receives an XTK expression.
 * **desc (string)**: lets you insert a description of the element. This description is displayed in the status bar of the interface.
-* **displayAsField (boolean)**: if this attribute is activated, a "link" type `<element>  will be displayed as a field in the tree view of the schemas ("Structure" tab). This way, it's possible to display a link as a local field and change it behavior during a query. When the element is found in the SELECT of a query, the value of the link target will be used. When the element is found in the WHERE of a query, the underlying key of the link will be used. </element>`
+* **displayAsField (boolean)**: if this attribute is activated, a "link" type `<element>`  will be displayed as a field in the tree view of the schemas ("Structure" tab). This way, it's possible to display a link as a local field and change it behavior during a query. When the element is found in the SELECT of a query, the value of the link target will be used. When the element is found in the WHERE of a query, the underlying key of the link will be used. 
 * **edit (string)**: this attribute specifies the type of input that will be used in the form linked to the schema.
 * **enum (string)**: receives the name of the enumeration linked to the field. The enumeration can be inserted into the same schema or into a remote schema. 
 * **expr (string)**: this attribute defines a calculated field for which no definition is stored in the table. It receives an Xpath or an XTK (string) expression.
@@ -536,7 +536,7 @@ There are four types of `<element>  elements in Adobe Campaign: </element>`
 * **ref (string)**: this attribute defines a reference to an >element> element shared by several schemas (definition factoring). The definition isn't copied into the current schema.
 * **required (boolean)**: if this attribute is activated (@required="true"), the field is highlighted in the interface. The label of the field will be red in forms. 
 * **revAdvanced (boolean)**: when activated, this attribute specifies that the opposite link is an "advanced" link. 
-* **revCardinality (string)**: this attribute defines the cardinality of a link between two tables. It is used in a "link" type `<element>  . </element>`
+* **revCardinality (string)**: this attribute defines the cardinality of a link between two tables. It is used in a "link" type `<element>`.
 
   Possible values are:
 
@@ -554,10 +554,10 @@ There are four types of `<element>  elements in Adobe Campaign: </element>`
 * **sql (boolean)**: if this attribute is activated (@sql="true"), it forces storage of the SQL element, even if the element has the xml="true" property.
 * **sqlname (string)**: name of the field during table creation. If "@sqlname" isn't specified, the value of the "@name" attribute is used by default. When writing the schema to the table, prefixes are added automatically depending on the type of field. 
 * **sqltable (string)**: for the main element of the schema, this attribute overloads the name of the SQL table generated by default. If "@sqltable" isn't specified, the default name will be structured like this: namespace (first letter upper case) followed by the value of the SrcSchema "@name".
-* **tableSpace (string)**: this attribute lets you specify a new data storing tablespace for a table (valid on the root `<element>  ). </element>`
-* **tableSpaceIndex (string)**: this attribute lets you specify a new index storage tablespace for a table (valid on the root `<element>  ). </element>`
+* **tableSpace (string)**: this attribute lets you specify a new data storing tablespace for a table (valid on the root `<element>`).
+* **tableSpaceIndex (string)**: this attribute lets you specify a new index storage tablespace for a table (valid on the root `<element>`).
 * **target (MNTOKEN)**: receives the name of the target schema when creating a link between tables. This attribute is only active for "link" type elements. 
-* **template (string)**: this attribute defines a reference to an `<element automatically="" by="" copied="" current="" definition="" element="" into="" is="" p="" schema.="" schemas.="" several="" shared="" the=""> </element>`
+* **template (string)**: this attribute defines a reference to an `<element>` element shared by several schemas. The definition is automatically copied into the current schema.
 * **translatedDefault (string)**: if a "@default" attribute is found, the "@translatedDefault" will enable you to redefine an expression to match the one defined in @default, to be collected by the translation tool (internal use).
 * **translatedExpr (string)**: if a "@expr" attribute is found, the "@translatedExpr" attribute lets you redefine an expression matching the one defined in "@expr", and which will be collected by the translation tool (internal use). 
 * **type (MNTOKEN)**: defines the type of data stored in the element.
@@ -596,7 +596,7 @@ There are four types of `<element>  elements in Adobe Campaign: </element>`
 * **xml (boolean)**: if this option is activated, all values defined in the element are stored in XML in a TEXT type "mData" field. This means that there will be no filtering or sorting on these fields. 
 * **xmlChildren (boolean)**: forces storage for each child ( `<element>  or  <attribute>   ) of the   <element>    element in an XML document.   </element>  </attribute> </element>`
 
-## <enumeration> element </enumeration> {#enumeration--element}
+## <enumeration> element {#enumeration--element}
 
 ### Content model {#content-model-5}
 
@@ -667,14 +667,13 @@ Enumerations are defined at the start of a schema (before the main element is de
 * **desc (string)**: enumeration description. 
 * **label (string)**: enumeration label.
 * **name (string)**: internal name of the enumeration. 
-* **template (string)**: this attribute defines a reference to an `<enumeration>  element shared by several schemas. The definition is automatically copied into the current schema. </enumeration>`
+* **template (string)**: this attribute defines a reference to an `<enumeration>` element shared by several schemas. The definition is automatically copied into the current schema.
 
 ### Examples {#examples-4}
 
 Example of enumeration values whose values are stored in the database:
 
 ```
-
     <enumeration name="myEnum">
        <value name="One" value="1"/>
        <value name="Two" value="2"/>
@@ -683,13 +682,11 @@ Example of enumeration values whose values are stored in the database:
     <element label="Sample" name="Sample">
        <attribute dbEnum="myEnum" length="100" name="Number" required="true" type="string"/>
     </element>
-          
 ```
 
 Definition of an enumeration with a default value:
 
 ```
-
  <enumeration basetype="byte" default="email" name="canal">
     <value label="Email" name="email" value="0"/> 
     <value label="Téléphone" name="phone" value="1"/>
@@ -697,7 +694,7 @@ Definition of an enumeration with a default value:
  </enumeration>
 ```
 
-## <help> element </help> {#help--element}
+## <help> element {#help--element}
 
 ### Content model {#content-model-6}
 
@@ -709,7 +706,7 @@ None
 
 ### Parents {#parents-6}
 
-`<srcschema>  ,  <element>   ,   <attribute>    ,    <enumeration>     ,     <value>      ,      <param />,      <method />     </value>    </enumeration>   </attribute>  </element> </srcschema>`
+`<srcschema>`  ,  `<element>`   ,   `<attribute>`    ,    `<enumeration>`     ,     `<value>`      ,     `<param />`,      `<method />` 
 
 ### Children {#children-6}
 
@@ -717,7 +714,7 @@ None
 
 ### Description {#description-6}
 
-This element lets you describe an `<element>  or  <attribute>   element. It may only contain text, and is stored in XML in the database.  </attribute> </element>`
+This element lets you describe an `<element>`  or  `<attribute>`   element. It may only contain text, and is stored in XML in the database.
 
 ### Attribute description {#attribute-description-6}
 
@@ -725,9 +722,15 @@ This element has no attributes.
 
 ### Examples {#examples-5}
 
-`<method name="CheckOperation" static="true">  <helpchecks a="" help="" method="" of="" p="" the="" validity="">  </helpchecks> </method>`
+```
+<method name="CheckOperation" static="true"
+      <helpchecks the validity of a campaign</help
+...
+</method> 
+```
 
-## <join> element </join> {#join--element}
+
+## <join> element {#join--element}
 
 ### Content model {#content-model-7}
 
@@ -753,13 +756,13 @@ Lets you define the fields that create a join between SQL tables.
 
 ### Use and context of use {#use-and-context-of-use-5}
 
-A `<join>  element can only be used if the parent  <element>   element is of 'link' type. This means that the parent element must have the "@type=link" attribute declared.  </element> </join>`
+A `<join>`  element can only be used if the parent  `<element>`  element is of 'link' type. This means that the parent element must have the "@type=link" attribute declared.
 
-It is not necessary to specify the name and namespace of the remote table in the `<join>  element. They need to be specified in the parent  <element>   .  </element> </join>`
+It is not necessary to specify the name and namespace of the remote table in the `<join>`  element. They need to be specified in the parent  `<element>`.
 
 By convention, links are defined at the end of the schema.
 
-If the `<join>  element isn't specified when the link type element is defined, the link will automatically be placed on the primary keys of both tables. </join>`
+If the `<join>` element isn't specified when the link type element is defined, the link will automatically be placed on the primary keys of both tables.
 
 ### Attribute description {#attribute-description-7}
 
@@ -777,9 +780,14 @@ Link between the 'email' field of the current table and the "@compagny-id" field
 
 Filtered link towards the "cus:Country" table based on the content of the "@country" field which must contain the 'EN' value:
 
-`<element label="MyLink" name="StockEN" target="cus:Stock" type="link">  <join dstFilterExpr="@country = 'EN'" xpath-dst="@country" xpath-src="@code" /> </element>`
+```
+<element name="StockEN" type="link" label="MyLink" target="cus:Stock">
+   <join xpath-dst="@country" xpath-src="@code" dstFilterExpr="@country = 'EN'"/>
+ </element>
+ ```
 
-## <key> element </key> {#key--element}
+
+## <key> element {#key--element}
 
 ### Content model {#content-model-8}
 
@@ -812,7 +820,7 @@ A table must have at least one key.
 
 As a rule, keys are declared after the main element of the schema and the indexes.
 
-A key is known as composite if it includes several fields (i.e. several `<keyfield>  children). Do not use a composite key to define a primary key. </keyfield>`
+A key is known as composite if it includes several fields (i.e. several `<keyfield>` children). Do not use a composite key to define a primary key.
 
 If the main element of the schema contains the "@autopk=true" attribute, the primary key is unique. We can only have one primary key per schema.
 
@@ -839,7 +847,7 @@ Declaration of a composite key which authorizes either the "@expr" or the "alias
  </key>
 ```
 
-Declaration of a primary key on the "Name" field of STRING type in an `<srcschema>  and the matching SQL query: </srcschema>`
+Declaration of a primary key on the "Name" field of STRING type in an `<srcschema>`  and the matching SQL query:
 
 ```
  
@@ -850,7 +858,7 @@ Declaration of a primary key on the "Name" field of STRING type in an `<srcschem
 CREATE UNIQUE INDEX Schema_PrimaryKey ON Schema(sName);
 ```
 
-## <keyfield> element </keyfield> {#keyfield--element}
+## <keyfield> element {#keyfield--element}
 
 ### Content model {#content-model-9}
 
@@ -863,7 +871,7 @@ keyfield:==EMPTY
 
 ### Parents {#parents-9}
 
-`<key>  ,  <dbindex /> </key>`
+`<key>`  ,  `<dbindex />`
 
 ### Children {#children-9}
 
@@ -876,7 +884,7 @@ This element defines the fields to be integrated into an index or a key.
 ### Attribute description {#attribute-description-9}
 
 * **xlink (MNTOKEN)**: lets you automatically reference foreign keys defined in the join for a relation table (N-N link).
-* **xpath (MNTOKEN)**: definition of an index or a key on an `<attribute>  element. This attribute receives an Xpath which defines the path to the schema attribute that defines the key or the index. </attribute>`
+* **xpath (MNTOKEN)**: definition of an index or a key on an `<attribute>`  element. This attribute receives an Xpath which defines the path to the schema attribute that defines the key or the index.
 
 ### Examples {#examples-}
 
@@ -886,7 +894,7 @@ Selection of the "sName" field in an index with an Xpath on "@name":
 <keyfield xpath="@name"/>
 ```
 
-## <method> element </method> {#method--element}
+## <method> element {#method--element}
 
 ### Content model {#content-model-10}
 
@@ -906,7 +914,7 @@ method:==( help | parameters)
 
 ### Parents {#parents-10}
 
-`<methods>  ,  <interface /> </methods>`
+`<methods>`  ,  `<interface />`
 
 ### Children {#children-10}
 
@@ -951,7 +959,8 @@ Definition of the "Subscribe" out of the box method:
 
 ```
 
-## <methods> element </methods> {#methods--element}
+
+## <methods> element {#methods--element}
 
 ### Content model {#content-model-11}
 
@@ -971,7 +980,7 @@ method
 
 ### Description {#description-11}
 
-This element lets you define a `<method>  element. It is mandatory for declaring a method. </method>`
+This element lets you define a `<method>`  element. It is mandatory for declaring a method.
 
 ### Attribute description {#attribute-description-11}
 
@@ -979,7 +988,12 @@ This element has no attributes.
 
 ### Examples {#examples-8}
 
-`<methods async="true" definition="" methods="" more="" of="" one="" or="" p=""> </methods>`
+```
+<methods async="true"
+...// definition of one or more <method
+</methods>
+```
+
 
 ## <param> element {#param--element}
 
@@ -1060,7 +1074,8 @@ Definition of the "serviceName" inbound setting of character string type:
                name="serviceName" type="string" inout="in"/>
 ```
 
-## <parameters> element </parameters> {#parameters--element}
+
+## <parameters> element {#parameters--element}
 
 ### Content model {#content-model-13}
 
@@ -1080,11 +1095,11 @@ None
 
 ### Description {#description-13}
 
-This element defines a group of `<parameter>  elements. </parameter>`
+This element defines a group of `<parameter>`  elements.
 
 ### Use and context of use {#use-and-context-of-use-8}
 
-This element is mandatory, even for a single `<param>` child element of the `<method>  element. </method>`
+This element is mandatory, even for a single `<param>` child element of the `<method>`  element.
 
 ### Attribute description {#attribute-description-13}
 
@@ -1092,9 +1107,14 @@ None
 
 ### Examples {#examples-10}
 
-`<parameters definition="" more="" of="" one="" or="" p="" parameters=""> </parameters>`
+```
+<parameters
+... //definition of one or more <param
+</parameters>
+```
 
-## <srcschema> element </srcschema> {#srcschema--element}
+
+## <srcschema> element {#srcschema--element}
 
 ### Content model {#content-model-14}
 
@@ -1112,8 +1132,7 @@ None
 
 * `<attribute>`
 * `<createdby>`
-* 
-
+* `<data>`
 * `<element>`
 * `<enumeration>`
 * `<help>`
@@ -1123,7 +1142,7 @@ None
 
 ### Description {#description-14}
 
-The `<srcschema>  is the root element of a schema. It is the input point for the definition of the schema. </srcschema>`
+The `<srcschema>` is the root element of a schema. It is the input point for the definition of the schema.
 
 ### Use and context of use {#use-and-context-of-use-9}
 
@@ -1157,7 +1176,7 @@ Schema presentation is available in [About schema reference](../../configuration
 
 ### Examples {#examples-11}
 
-`<srcschema>  element of the "nms:delivery" out of the box schema </srcschema>`
+`<srcschema>` element of the "nms:delivery" out of the box schema
 
 ```
 
@@ -1167,7 +1186,7 @@ Schema presentation is available in [About schema reference](../../configuration
            name="delivery" namespace="nms" useRecycleBin="true" xtkschema="xtk:srcSchema">
 ```
 
-## <sysfilter> element </sysfilter> {#sysfilter--element}
+## <sysfilter> element {#sysfilter--element}
 
 ### Content model {#content-model-15}
 
@@ -1204,7 +1223,7 @@ Definition of a filter with a condition on the @name attribute:
   <sysFilter>
 ```
 
-## <value> element </value> {#value--element}
+## <value> element {#value--element}
 
 ### Content model {#content-model-16}
 
@@ -1245,11 +1264,9 @@ This element lets you define the values stored in an enumeration.
 ### Examples {#examples-13}
 
 ```
- 
 <enumeration name="myEnum">
        <value name="One" value="1"/>
        <value name="Two" value="2"/>
     </enumeration>
 ```
 
--->
