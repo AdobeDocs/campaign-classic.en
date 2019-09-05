@@ -36,7 +36,8 @@ To configure and create the referral block, apply the following steps:
 
    >[!NOTE]
    >
-   >As long as the recipient hasn't given their consent, you cannot store them with the recipients in the database. They will be stored temporarily in the **visitor** table (**nms:visitor**) designed for viral marketing campaigns. This table is purged on a regular basis thanks to **cleansing** operations.   
+   >As long as the recipient hasn't given their consent, you cannot store them with the recipients in the database. They will be stored temporarily in the **visitor** table (**nms:visitor**) designed for viral marketing campaigns. This table is purged on a regular basis thanks to **cleansing** operations.
+   >
    >In this example, we want to target recipients to suggest they take part in the competition recommended by their referrer. However in this message we also want to offer them a subscription to one of our information services. If they subscribe, they can be stored in the database.
 
    ![](assets/s_ncs_admin_survey_viral_sample_5.png)

@@ -94,7 +94,8 @@ In an overview, you can choose to access data depending on its location in the A
 
    >[!NOTE]
    >
-   >**nms:webApp** coincides with the Web application schema.  
+   >**nms:webApp** coincides with the Web application schema.
+   >
    >**nms:newWebApp** coincides with the new Web application creation wizard.
 
 1. Choose to display the URL in the same window.

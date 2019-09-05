@@ -442,7 +442,7 @@ You can add **?lang=es** or **?lang=de** to display it in Spanish or German.
 
 ### Translating the system strings {#translating-the-system-strings}
 
-System strings are out-of-the-box character strings used by all Web applications. For example: **[!UICONTROL Next]** , **[!UICONTROL Previous]** , **[!UICONTROL Approve]** buttons, **[!UICONTROL Loading]** messages, etc. By default, some languages contain a dictionary with translations for these strings. The list of languages is detailed in [Changing forms display language](../../web/using/translating-a-web-form.md#changing-forms-display-language).
+System strings are out-of-the-box character strings used by all Web applications. For example: **[!UICONTROL Next]** , **[!UICONTROL Previous]**, **[!UICONTROL Approve]** buttons, **[!UICONTROL Loading]** messages, etc. By default, some languages contain a dictionary with translations for these strings. The list of languages is detailed in [Changing forms display language](../../web/using/translating-a-web-form.md#changing-forms-display-language).
 
 If you translate your Web application into a language for which the system dictionary isn't translated, a warning message will appear to let you know that some translations are missing.
 
@@ -475,7 +475,7 @@ To translate Web applications into languages other than the default ones (refer 
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 
-1. Click the **[!UICONTROL Add]** button, then enter the **[!UICONTROL Internal name]** , **[!UICONTROL Label]** and identifier of the image (flag). To add a new image, please contact your administrator.
+1. Click the **[!UICONTROL Add]** button, then enter the **[!UICONTROL Internal name]**, **[!UICONTROL Label]** and identifier of the image (flag). To add a new image, please contact your administrator.
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)
 

@@ -128,7 +128,7 @@ Personalization blocks and fields can only be inserted into Text type blocks.
 
 >[!NOTE]
 >
->For each type of link, you can configure the opening mode: select the target window in the **Target** drop-down list. This value corresponds to the ** `<target>`** HTML tag.  
+>For each type of link, you can configure the opening mode: select the target window in the **Target** drop-down list. This value corresponds to the **`<target>`** HTML tag.  
 >
 >The list of available **targets** is as follows:  
 
@@ -147,7 +147,7 @@ The **Link to an external URL** option lets you open any URL from the source con
 
 ![](assets/dce_toolbar_imgblock_externallink.png)
 
-Enter the link address in question into the **URL** field. The URL field should be entered as: **[!UICONTROL https://www.myURL.com]** .
+Enter the link address in question into the **URL** field. The URL field should be entered as: **https://www.myURL.com**.
 
 ### Link to a Web application {#link-to-a-web-application}
 
@@ -202,8 +202,8 @@ The available options are as follows:
 >[!NOTE]
 >
 >* **Delete** icon: deletes the block and all its content.
->* **Duplicate** icon: duplicates the block as well as all the styles related to the block.
 >
+>* **Duplicate** icon: duplicates the block as well as all the styles related to the block.
 
 ## Managing images and animations {#managing-images-and-animations}
 

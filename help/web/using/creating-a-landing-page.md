@@ -24,27 +24,27 @@ This use case shows the use of the Digital Editor to create a Landing Page from 
 
 Before you start configuring the Landing Page in Adobe Campaign, make sure you have **one or more templates** to represent the HTML page(s).
 
-The **main aim** of this use case is to make the Landing Page form fields correspond with the internal fields in Adobe Campaign using the functions in the DCE.
+The main aim of this use case is to make the Landing Page form fields correspond with the internal fields in Adobe Campaign using the functions in the DCE.
 
 ## Creating the landing page {#creating-the-landing-page}
 
 To create a new Landing Page type Web application, use the following steps:
 
-1. Go to the **[!UICONTROL Campaigns]** universe and click the **[!UICONTROL Web application]** link, then click the **[!UICONTROL Create]** button.
+1. Go to the **[!UICONTROL Campaigns]** tab and click the **[!UICONTROL Web application]** link, then click the **[!UICONTROL Create]** button.
 1. Select the **[!UICONTROL New landing page]** template and enter a label, then click **[!UICONTROL Save]**.
 
    ![](assets/dce_uc1_newlandingpage.png)
 
 1. Click the **[!UICONTROL Edit]** tab.
 1. Delete the **End** activity.
-1. Add a **[!UICONTROL Page]** activity after the **[!UICONTROL Record]** activity.
+1. Add a **[!UICONTROL Page]** activity after the **[!UICONTROL Storage]** activity.
 1. Edit the **Page 2** activity then uncheck the **[!UICONTROL Activate outbound transitions]** option in the **[!UICONTROL Properties]** tab.
 
    ![](assets/dce_uc1_transition.png)
 
 1. Save changes.
 
-Use the following scenario:
+You will then get the following sequencing:
 
 ![](assets/dce_uc1_edition_activity.png)
 
@@ -158,7 +158,7 @@ The personalization field has a yellow background in the editor.
 
 ## Step 3 - Publishing content {#step-3---publishing-content}
 
-Content is published from the Web application dashboard. Click the **[!UICONTROL Publication]** button to run it.
+Content is published from the Web application dashboard. Click the **[!UICONTROL Publish]** button to run it.
 
 ![](assets/dce_uc1_pub_dashboard.png)
 

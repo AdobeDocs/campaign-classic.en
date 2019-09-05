@@ -63,7 +63,8 @@ It has four icons:
 
   >[!NOTE]
   >
-  >This information corresponds to the **`<title>`** and **`<meta>`** HTML tags on the page.  
+  >This information corresponds to the **`<title>`** and **`<meta>`** HTML tags on the page.
+  >
   >The key words must be separated by commas. 
 
 ## Block options {#block-options}

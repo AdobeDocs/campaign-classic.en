@@ -29,18 +29,19 @@ Our final goal is to create a delivery with a personalized template which contai
 
 >[!NOTE]
 >
->Before you start, you must have at least one **HTML template** configured to host the content of your future deliveries.  
+>Before you start, you must have at least one **HTML template** configured to host the content of your future deliveries.
+>
 >In the delivery **[!UICONTROL Properties]** , make sure that the **[!UICONTROL Content editing mode]** (in the **[!UICONTROL Advanced]** tab) is set to **[!UICONTROL DCE]**. To ensure the editor's optimal operation, refer to the [Content editing best practices](../../web/using/content-editing-best-practices.md).
 
 ## Step 1 - Creating a delivery {#step-1---creating-a-delivery}
 
-To create a new delivery, place your cursor in the **Campaigns** universe and click **Deliveries**. Next click the **Create** button above the list of existing deliveries. For more on creating deliveries, refer to [this page](../../delivery/using/about-email-channel.md).
+To create a new delivery, place your cursor in the **Campaigns** tab and click **Deliveries**. Next click the **Create** button above the list of existing deliveries. For more on creating deliveries, refer to [this page](../../delivery/using/about-email-channel.md).
 
 ![](assets/delivery_step_1.png)
 
 ## Step 2 - Selecting a template {#step-2---selecting-a-template}
 
-Select a delivery template, then name your delivery. This name will only be visible to users of the Adobe Campaign console and not by your recipients, however this heading will be displayed in your list of deliveries. Click **[!UICONTROL Save]**.
+Select a delivery template, then name your delivery. This name will only be visible to users of the Adobe Campaign console and not by your recipients, however this heading will be displayed in your list of deliveries. Click **[!UICONTROL Continue]**.
 
 ![](assets/dce_delivery_model.png)
 
@@ -66,7 +67,7 @@ You can save this content as a template for future use. Once a personalized cont
 
 * Display the first and second names of your recipients
 
-  To insert the first and second names of your recipients into a text field in your delivery, click your chosen text field, then place your cursor where you want to display them. Click the first icon in the pop-up toolbar, then click **[!UICONTROL Personalization block]** . Select **[!UICONTROL Greetings]** , then click **[!UICONTROL Ok]**.
+  To insert the first and second names of your recipients into a text field in your delivery, click your chosen text field, then place your cursor where you want to display them. Click the first icon in the pop-up toolbar, then click **[!UICONTROL Personalization block]**. Select **[!UICONTROL Greetings]**, then click **[!UICONTROL OK]**.
 
   ![](assets/dce_personalizationblock_greetings.png)
 
@@ -94,7 +95,7 @@ You can save this content as a template for future use. Once a personalized cont
 
   To allow your recipients to view your delivery content in a Web browser, you can integrate a link to a mirror page into your delivery.
 
-  Click the text field in which you wish to see the link posted. Click the first icon in the pop-up toolbar, select **[!UICONTROL Personalization block]** , then **[!UICONTROL Link to Mirror Page (MirrorPage)]**. Click **[!UICONTROL Save]** to confirm.
+  Click the text field in which you wish to see the link posted. Click the first icon in the pop-up toolbar, select **[!UICONTROL Personalization block]**, then **[!UICONTROL Link to Mirror Page (MirrorPage)]**. Click **[!UICONTROL Save]** to confirm.
 
   ![](assets/dce_mirrorpage.png)
 

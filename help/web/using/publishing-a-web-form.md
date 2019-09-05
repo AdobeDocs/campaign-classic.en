@@ -60,7 +60,8 @@ The following identification methods are possible:
 
   >[!CAUTION]
   >
-  >If several fields are specified in the list, the data of **ALL FIELDS** must match the data stored in the database in order for the profile to be updated. Otherwise, a new profile is created.   
+  >If several fields are specified in the list, the data of **ALL FIELDS** must match the data stored in the database in order for the profile to be updated. Otherwise, a new profile is created.
+  > 
   >This function is particularly useful for Web applications but not recommended for public forms. The selected access control option must be "Enable access control".
 
 The **[!UICONTROL Skip preloading if identification is empty]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.
