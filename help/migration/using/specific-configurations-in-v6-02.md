@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Specific configurations in v6.02{#specific-configurations-in-vsix.two}
+# Specific configurations in v6.02{#specific-configurations-in-v6-02}
 
 The following section details the additional configuration required when migrating from v6.02. You should also configure the settings detailed in the [General configurations](../../migration/using/general-configurations.md) section.
 

@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Specific configurations in v5.11{#specific-configurations-in-vfive.eleven}
+# Specific configurations in v5.11{#specific-configurations-in-v5-11}
 
 This section details the additional configuration required when migrating from v5.11. You should also configure the settings detailed in the [General configurations](../../migration/using/general-configurations.md) section.
 
@@ -132,6 +132,7 @@ The following folders need to be added after the migration:
 | nmsModels | Templates | - |
 | nmsOnlineRes | Online | - |
 | nmsProduction | Production | - |
+| nmsProfilProcess | Processes | - |
 | xtkDashboard | Dashboards | - |
 | xtkPlatformAdmin | Platform | - |
 | nmsLocalOrgUnit | Organizational units | - |
