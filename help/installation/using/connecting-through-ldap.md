@@ -126,15 +126,15 @@ If you choose to search for an identifier, the deployment wizard lets you config
 
   ![](assets/s_ncs_install_deployment_wiz_ldap_03.png)
 
-    1. **[!UICONTROL Recursive (default mode)]** .
+    1. **[!UICONTROL Recursive (default mode)]**.
 
        The LDAP directory is searched in full, starting from a given level.
     
-    1. **[!UICONTROL Limited to the base]** .
+    1. **[!UICONTROL Limited to the base]**.
 
        All attributes are included in the search.
     
-    1. **[!UICONTROL Limited to the first sub-level of the base]** .
+    1. **[!UICONTROL Limited to the first sub-level of the base]**.
 
        The search is performed on all attributes of the directory and starting from the first level of the attribute.
 

@@ -24,16 +24,17 @@ For each of these versions, Adobe Campaign comes with one package: **nlserver**.
 
 The installation commands enables you to:
 
-* Copy the files to **/usr/local/neolane**,
-* Create an Adobe Campaign Linux account (and the associated group), which is created with **/usr/local/neolane** as its home directory,
-* Create an automatic script **/etc/init.d/nlserver6** for use at startup.
+* Copy the files to **/usr/local/neolane**
+* Create an Adobe Campaign Linux account (and the associated group), which is created with **/usr/local/neolane** as its home directory
+* Create an automatic script **/etc/init.d/nlserver6** for use at startup
 
 This package is compiled using GCC 4, which implies dependencies with specific versions of the libraries that are not always available on the installation platform.
 
 >[!NOTE]
 >
->The **neolane** system user must not have been created before the command was run. The **neolane** user is created automatically during installation.  
->The **home** directory linked to the **neolane** user is also created automatically in **[!UICONTROL /usr/local/neolane]** . Please make sure there is sufficient space on the **[!UICONTROL /usr/local]** disk (several GB).
+>The **neolane** system user must not have been created before the command was run. The **neolane** user is created automatically during installation.
+>
+>The **home** directory linked to the **neolane** user is also created automatically in **[!UICONTROL /usr/local/neolane]**. Please make sure there is sufficient space on the **[!UICONTROL /usr/local]** disk (several GB).
 
 You can run the **ping `hostname`** command to make sure the server can reach itself.
 
@@ -45,8 +46,8 @@ To install Adobe Campaign onto an RPM (RHEL, CentOS and SUSE) operating system, 
 
    The file is named as below, where **XXXX** is the Adobe Campaign build number:
 
-    * **nlserver6-v7-**XXXX**-0.x86_64.rpm** for v7.
-    * **nlserver6-**XXXX**-0.x86_64.rpm** for v6.1.
+    * **nlserver6-v7-XXXX-0.x86_64.rpm** for v7.
+    * **nlserver6-XXXX-0.x86_64.rpm** for v6.1.
 
    >[!CAUTION]
    >
@@ -95,7 +96,6 @@ yum install bc.x86_64
   You need to create aliases that point towards the files of the OpenSSL library:
 
   ```
-  
   ln -s /lib64/libssl.so.1.0.0 /lib64/libssl.so.10
   ln -s /lib64/libcrypto.so.1.0.0 /lib64/libcrypto.so.10
   ```
@@ -120,8 +120,8 @@ To install Adobe Campaign 32 bit on a Debian 32 bit operating system, apply the 
 
 1. You must first obtain the two Adobe Campaign packages.
 
-    * **nlserver6-v7-**XXXX**-linux-2.6-intel.deb** for v7.
-    * **nlserver6-**XXXX**-linux-2.6-intel.deb** for v6.1.
+    * **nlserver6-v7-XXXX-linux-2.6-intel.deb** for v7.
+    * **nlserver6-XXXX-linux-2.6-intel.deb** for v6.1.
 
    **XXXX** is the Adobe Campaign build number.
 
@@ -141,12 +141,14 @@ To install Adobe Campaign 64 bit on a Debian 64 bit operating system, apply the 
 
 1. You must first obtain the Adobe Campaign package.
 
-    * **nlserver6-v7-**XXXX**-linux-2.6-amd64.deb** for v7.
-    * **nlserver6-**XXXX**-linux-2.6-amd64.deb** for v6.1.
+    * **nlserver6-v7-XXXX-linux-2.6-amd64.deb** for v7.
+    * **nlserver6-XXXX-linux-2.6-amd64.deb** for v6.1.
 
    **XXXX** is the Adobe Campaign build number.
 
-   Make sure you use the correct file name for your version of Adobe Campaign in the command samples of this section.
+   >[!CAUTION]
+   >
+   >Make sure you use the correct file name for your version of Adobe Campaign in the command samples of this section.
 
 1. To install it, connect as **root** and execute the following command (where **XXXX** is the Adobe Campaign build number):
 
@@ -193,7 +195,9 @@ chmod +x /usr/local/neolane/nl6/customer.sh
 
 By default, the server is started in an iso8859-15 enviornment. Nevertheless, the server can be started in an UTF-8 environment.
 
-Warning: This change impacts the interactions with the file system (files loaded via a workflow or a JavaScript script) and on the file encoding. We therefore recommend using the default environment.
+   >[!CAUTION]
+   >
+   >This change impacts the interactions with the file system (files loaded via a workflow or a JavaScript script) and on the file encoding. We therefore recommend using the default environment.
 
 Nevertheless, for creating a **Japanese instance**, you must use a UTF-8 environment.
 
@@ -227,7 +231,7 @@ To ensure that system messages are correctly read, the consoles must be in a cod
 
 The following environment variables must be defined correctly.
 
-Certain combinations require changes to the environment used for executing Adobe Campaign. A specific file (/usr/local/neolane/nl6/**customer.sh**) can be created and edited to add modifications specific to the Adobe Campaign environment.
+Certain combinations require changes to the environment used for executing Adobe Campaign. A specific file (`/usr/local/neolane/nl6/customer.sh`) can be created and edited to add modifications specific to the Adobe Campaign environment.
 
 If necessary, edit the **customer.sh** file using the **vi customer.sh** command and adapt the configuration or add missing lines:
 
@@ -236,8 +240,7 @@ If necessary, edit the **customer.sh** file using the **vi customer.sh** command
   ```
   export ORACLE_HOME=/usr/local/instantclient_10_2
   export TNS_ADMIN=/etc/oracle
-  export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH
-  
+  export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
   ```
 
   The content of the ORACLE_HOME environment variable matches the Oracle installation directory.
@@ -270,7 +273,7 @@ If necessary, edit the **customer.sh** file using the **vi customer.sh** command
 
 * For Java Development Kit (JDK):
 
-  By default, the configuration script of the Adobe Campaign environment (~/nl6/**env.sh**) searches for the JDK installation directory. Since this behavior is not 100% reliable, you need to specify which JDK needs to be used. To do this, you can force the **JDK_HOME** environment variable using the following command:
+  By default, the configuration script of the Adobe Campaign environment (`~/nl6/env.sh`) searches for the JDK installation directory. Since this behavior is not 100% reliable, you need to specify which JDK needs to be used. To do this, you can force the **JDK_HOME** environment variable using the following command:
 
   ```
   export JDK_HOME=/usr/java/jdk1.6.0_07

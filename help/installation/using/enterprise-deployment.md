@@ -62,12 +62,14 @@ Higher hardware and administration costs.
     * the first exposed to the public for tracking and pointing to the load balancer on a virtual IP address (VIP) and which is then distributed to the two frontal servers,
     * the second exposed to the internal users for access via the console and pointing to a load balancer on a virtual IP address (VIP) and which is then distributed to the two application servers.
 
-* Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to section [Database access](../../installation/using/network-configuration.md#database-access)
+* Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to section [Database access](../../installation/using/network-configuration.md#database-access).
 
 >[!CAUTION]
 >
->If your application servers point to a single database instance, after importing a standard package on one instance, the schema contained in the package is not loaded on the other instance.   
->If your application servers point to a single database instance, after changing schema on one instance, the schema is not loaded on the other instance.   
+>If your application servers point to a single database instance, after importing a standard package on one instance, the schema contained in the package is not loaded on the other instance. 
+>  
+>If your application servers point to a single database instance, after changing schema on one instance, the schema is not loaded on the other instance.
+>
 >To recover these issues, you need to reboot ‘web@default‘ process on the second instance where error occurred.
 
 ### Installing and configuring the application server 1 {#installing-and-configuring-the-application-server-1}
@@ -94,6 +96,7 @@ The steps for installing the first server are:
    12:08:18 >   Server started
    ```
 
+
    >[!NOTE]
    >
    >The first time the Web module is executed it creates the **config-default.xml** and **serverConf.xml** files in the **conf** directory under the installation folder. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
@@ -102,8 +105,8 @@ The steps for installing the first server are:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [First start-up of the server](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server),
-    * For Windows: [First start-up of the server](../../installation/using/installing-the-server.md#first-start-up-of-the-server).
+    * For Linux: [First start-up of the server](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
+    * For Windows: [First start-up of the server](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
 
 1. Change the **internal** password using the command:
 
@@ -163,11 +166,11 @@ The steps for installing the first server are:
 
    For more on this, refer to [Campaign server configuration](../../installation/using/campaign-server-configuration.md).
 
-1. Copy the client console setup program (**setup-client-7.**XX**, **YYYY** .exe** for v7 or **setup-client-6.**XX**, **YYYY** .exe** for v6.1) to the **/datakit/nl/eng/jsp** folder.
+1. Copy the client console setup program (**setup-client-7.XX**, **YYYY.exe** for v7 or **setup-client-6.XX**, **YYYY.exe** for v6.1) to the **/datakit/nl/eng/jsp** folder.
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md),
+    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
     * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md).
 
 1. Start the Adobe Campaign server (**net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux) and run the command **nlserver pdump** once more to check for presence of all enabled modules.
@@ -196,8 +199,8 @@ The steps for installing the first server are:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md),
-    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md).
+    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
+    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md)
 
 ### Installing and configuring the application server 2 {#installing-and-configuring-the-application-server-2}
 
@@ -251,8 +254,8 @@ Apply the following steps:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [First start-up of the server](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server),
-    * For Windows: [First start-up of the server](../../installation/using/installing-the-server.md#first-start-up-of-the-server).
+    * For Linux: [First start-up of the server](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
+    * For Windows: [First start-up of the server](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
 
 ### Installing and configuring the frontal servers {#installing-and-configuring-the-frontal-servers}
 

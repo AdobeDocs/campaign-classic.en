@@ -61,15 +61,15 @@ SELECT * FROM nls_database_parameters ;
 * For a Unicode installation, the encodings supported are:
 
   ```
-  
   NLS_NCHAR_CHARACTERSET         AL16UTF16
   NLS_CHARACTERSET         AL32UTF8
-  
   ```
 
 * For an ANSI installation (non-unicode), only the following encoding is supported:
 
+```
   NLS_CHARACTERSET WE8MSWIN1252
+```
 
 To log on to **sqlplus**, use the Oracle user profile:
 

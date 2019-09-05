@@ -24,7 +24,7 @@ Additional configurations are offered in [Configuring Campaign server](../../ins
 
 >[!NOTE]
 >
->Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to this [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md).
+>Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to this [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ## Internal identifier {#internal-identifier}
 
@@ -54,7 +54,7 @@ Confirmation: XXXX
 
 The configuration files are stored in the **conf** folder of the Adobe Campaign installation folder. The configuration is spread over two files:
 
-* ** config-** `<instance>`**.xml** (where **instance** is the name of the instance): specific configuration of the instance. If you share your server among several instances, please enter the parameters specific to each instance in their relevant file.
+* **config-**`<instance>`**.xml** (where **instance** is the name of the instance): specific configuration of the instance. If you share your server among several instances, please enter the parameters specific to each instance in their relevant file.
 * **serverConf.xml**: general configuration for all instances. This file combines the technical parameters of the Adobe Campaign server: these are shared by all instances. The description of some of these parameters is detailed below. Refer to the file itself to view all available parameters. The different nodes and parameters and listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 You can configure the storage directory (**var** directory) of Adobe Campaign data (logs, downloads, redirections, etc.). To do this, use the **XTK_VAR_DIR** system variable:
@@ -62,7 +62,7 @@ You can configure the storage directory (**var** directory) of Adobe Campaign da
 * In Windows, indicate the following value value in the **XTK_VAR_DIR** system variable
 
   ```
-  D:logAdobeCampaign
+  D:\log\AdobeCampaign
   ```
 
 * In Linux, go to the **customer.sh** file and indicate: **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
@@ -71,7 +71,7 @@ You can configure the storage directory (**var** directory) of Adobe Campaign da
 
 ## Enabling processes {#enabling-processes}
 
-Adobe Campaign processes on the server are enabled (and disabled) via the **config-default.xml** and **config- `<instance>  .xml </instance>`** files.
+Adobe Campaign processes on the server are enabled (and disabled) via the **config-default.xml** and **config- `<instance>.xml`** files.
 
 To apply the changes to these files, if the Adobe Campaign service is started, you must run the **nlserver config -reload** command.
 
@@ -113,7 +113,7 @@ There are two types of processes: multi-instance and single instance.
 
 The delivery parameters must be configured in the **serverConf.xml** folder.
 
-* **DNS configuration**: specify the delivery domain and the IP addresses (or host) of the DNS servers used to respond to MX-type DNS queries made by the MTA module from the ** `<dnsconfig>`** onwards.
+* **DNS configuration**: specify the delivery domain and the IP addresses (or host) of the DNS servers used to respond to MX-type DNS queries made by the MTA module from the **`<dnsconfig>`** onwards.
 
   >[!NOTE]
   >

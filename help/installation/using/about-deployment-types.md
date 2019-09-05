@@ -24,5 +24,9 @@ In case of a configuration on multiple computers, you don't have to use the same
 
 >[!NOTE]
 >
->Main installation configuration steps can only be performed by Adobe for deployments hosted by Adobe. For example, to configure the server and instance configuration files. To learn more about the main differences between deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to the [Feature differences for hosted and on-premise deployments](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md) article.
+>Main installation configuration steps can only be performed by
+>Adobe for deployments hosted by Adobe. For example, to
+>configure the server and instance configuration files.
+>
+>To learn more about the main differences between deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to the [Feature differences for hosted and on-premise deployments](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html) article.
 

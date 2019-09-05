@@ -20,7 +20,7 @@ snippet: y
 
 >[!NOTE]
 >
->Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md).
+>Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ## Deployment wizard {#deployment-wizard}
 
@@ -44,7 +44,7 @@ The configuration steps are as follows:
 
 ## General parameters {#general-parameters}
 
-The first step of the deployment wizard lets you enter general information on the instance. 
+The first step of the deployment wizard lets you enter general information on the instance.
 
 ![](assets/s_ncs_install_deployment_wiz_02.png)
 
@@ -85,13 +85,15 @@ Indicate the following parameters:
 * **[!UICONTROL Reply address]** : The email address to use when the recipient clicks the **[!UICONTROL Reply]** button in their e-mail client software,
 * **[!UICONTROL Error address]** : Email address of messages with errors. This is the technical address used to handle bounce mail, including emails received by the Adobe Campaign server due to non-existent target addresses.
 
-The **[!UICONTROL Advanced parameters...]** link enables you to access delivery options, parameters linked to retry and quarantines.
+In addition to this, you can specify the **masks** authorized for the sender address and the error address. If necessary, these masks can be separated using commas. This configuration is optional. When fields are entered, Adobe Campaign checks at the time of delivery (during analysis, if the address does not include any variables) that the addresses are valid. This operating mode ensure that no addresses are used that could trigger delivery issues. Delivery addresses must be configured on the delivery server.
 
 ### Characters authorized in addresses {#characters-authorized-in-addresses}
 
-This window enables you to define, for all email campaigns, the delivery and address-quality management options.
+<!--This window enables you to define, for all email campaigns, the delivery and address-quality management options.-->
 
-The following options are available:
+In the Adobe Campaign database, all email addresses must be created as follows: `x@y.z`. The **x**, **y** and **z** characters must not be empty and must not include non-authorized characters.
+
+You can define here the characters authorized ('data policy') in the email field of the database. Characters not included in the list will be forbidden and therefore refused when entering information in the database via the interface, via a Web form and also importing data.
 
 Two lists are available: **European only** or **US only**. Other characters can be added if necessary.
 
@@ -112,11 +114,11 @@ The following options are available:
 
 ### Retry parameters {#retry-parameters}
 
-Bounce mail is extremely important to qualify delivery errors. These errors are categorized in the NP@I once the rules have determined their cause.
+The information on recoveries is provided in the **Recovery periods** and **Number of recoveries** fields: when a recipient is unreachable, for instance if their inbox is full, by default the program will try contacting them 5 times, with a one-hour interval between each attempt (during the maximum delivery time). These values can be changed to suit your needs.
 
 ### Quarantine parameters {#quarantine-parameters}
 
-This step is only available if the **[!UICONTROL Email channel]** and **[!UICONTROL Bounce mail]** management options are selected in the first stage of the deployment wizard. Refer to [General parameters](../../installation/using/deploying-an-instance.md#general-parameters).
+Configuration options for quarantines are as follows:
 
 * **[!UICONTROL Duration between two significant errors]** : enter a value ("1d" by default: 1 day) to define the time the application waits before incrementing the error counter in case of failure,
 * **[!UICONTROL Maximum number of errors before quarantine]** : once this value is reached, the email address is quarantined (by default "5": the address will be quarantined on the sixth error). This means that the contact will be automatically excluded from subsequent deliveries.
@@ -186,7 +188,8 @@ When you activate tracking on an instance, the URLs in the deliveries are change
 
 ![](assets/s_ncs_install_deployment_wiz_08.png)
 
-With Mid-sourcing architecture, you can externalize tracking management. To do this:
+To guarantee the efficiency of tracking on this instance, the following information must be displayed:
+<!--With Mid-sourcing architecture, you can externalize tracking management. To do this:-->
 
 * **[!UICONTROL External URL]** and/or **[!UICONTROL Secure external URL]** : Enter the redirection URL to be used in the email to be sent.
 * **[!UICONTROL Internal URL(s)]** : URLs used only by the Adobe Campaign server to contact the tracking server(s) to collect logs and upload the URLs. It is not necessary to associate it with the instance.
@@ -240,7 +243,7 @@ There are three possible types of architecture for implementing tracking:
    >
    >If multiple tracking servers are configured, they must all use the same password.
 
-   Specify the name of the instance, the password and any associated DNS masks, such as **[!UICONTROL Campaign*]** .
+   Specify the name of the instance, the password and any associated DNS masks, such as **[!UICONTROL Campaign*]**.
 
 1. **Validate a tracking instance already pre-configured for you**
 
@@ -252,7 +255,7 @@ There are three possible types of architecture for implementing tracking:
 
 Click **Approve** to start the recording process with the tracking server.
 
-Enter the following information:
+Back in the previous window, a message confirms the registration at the tracking server level:
 
 ![](assets/s_ncs_install_deployment_wiz_tracking_ok.png)
 
@@ -270,7 +273,7 @@ The next step lets you define default settings for deliveries to mobiles (SMS an
 
 ### Default account for SMS delivery {#default-account-for-sms-delivery}
 
-The **[!UICONTROL Advanced parameters...]** link enables you to access the retry and quarantine options.
+Enter the following information:
 
 * **[!UICONTROL Label]** : Enter a name for this SMS/Wap Push account. For example, you may wish to use the name of your router.
 * For the **[!UICONTROL Server]** , **[!UICONTROL Port]** , **[!UICONTROL Account]** , **[!UICONTROL Password]** , **[!UICONTROL Connector]** , **[!UICONTROL Send Endpoint]** , **[!UICONTROL Reception Endpoint]** , **[!UICONTROL Notification Endpoint]** fields: Contact your service provider for the required settings.
@@ -285,7 +288,7 @@ The **Advanced parameters...** link enables you to access the retry and quaranti
 
 ![](assets/s_ncs_install_deployment_wiz_13.png)
 
-This stage lets you include data policy preferences.
+Information on retries is available in the **Period of retries** and **Number of retries** fields: When a mobile is unreachable , by default, the program will try again 5 times at intervals of at least 15 minutes (for the maximum delivery period). These values can be adapted to suit your needs.
 
 Configuration options for quarantines are as follows:
 
@@ -294,7 +297,7 @@ Configuration options for quarantines are as follows:
 
 ## Regional settings {#regional-settings}
 
-This step lets you define access URLs for Adobe Campaign pages exposed on the internet.
+This stage lets you include data policy preferences.
 
 ![](assets/s_ncs_install_deployment_wiz_14.png)
 
@@ -335,7 +338,7 @@ To be seen from the outside, the images used in emails and public resources link
 
 ![](assets/s_ncs_install_deployment_wiz_img_uploading.png)
 
-Public resources are accessible via the **[!UICONTROL Administration > Resources > Online > Public resources]** node of the Adobe Campaign tree. They are collected in a library and can be included in e-mails but also used in campaigns or tasks, and in content management.
+For this step, you need to enter:
 
 1. The new public resource URL. For more information refer to the [Public resources URL](../../installation/using/deploying-an-instance.md#public-resources-url) section.
 1. The image detection mode in a delivery. For more information, refer to the [Delivery image detection](../../installation/using/deploying-an-instance.md#delivery-image-detection) section.
@@ -361,11 +364,11 @@ In a delivery, you can use images stored in the public resource library or any o
 
 In a delivery, you can use images stored in the public resource library or any other local image or image stored on a server.
 
-The lower section of the wizard enables you to select the publication options of public resources and images. These options are also available for Web forms and surveys. 
+The field **URL masks** lets you specify the list of URL masks to be skipped when uploading images automatically. For example, if you use images that are stored on a site accessible from the outside, in particular on an internet site, you can enter the site URL in this field. 
 
 ![](assets/s_ncs_install_deployment_wiz_img_mask.png)
 
-The following publication modes are available:
+You can specify multiple URL masks by using a comma to separate each of them.
 
 * For information on using and managing images in emails, refer to [this section](../../delivery/using/defining-the-email-content.md#adding-images).
 * In the delivery wizard, the images called from these URLs will have the status "Ignored".
@@ -405,96 +408,90 @@ The following publication modes are available:
     * You must create this script: Its contents depend on your configuration.
     * The script will be called by the following command:
 
-      The script will be called by the following command:
+      ```
+      [INSTALL]/copyToFrontal.vbs "$(XTK_INSTALL_DIR)\var\<instance>\upload\" "img1,img2,img3"
+      ```
 
-  Manual publication script (for public resources only)
+      where `[INSTALL]` is the access path to the Adobe Campaign installation folder. 
 
-  You can publish the images using a script:
+    * In Unix, make sure that the script is executable. 
 
-A graphical wizard, available in the Adobe Campaign client console, enables you to define the parameters of the instance to which you are going to connect.
+For images, it must copy them from the "images" folder specified via the **NmsDelivery_ImageSubDirectory** option to one or more frontal servers. These servers will store the images to make them accessible via the new configured URL.
 
-To start the deployment wizard, select **[!UICONTROL Tools > Advanced > Deployment wizard]** .
+In the event of publication on an Adobe Campaign server without a manual publication script, by default, the images of a delivery are stored in the `$(XTK_INSTALL_DIR)/var/res/img/ directory`. The corresponding URL is the following: **`https://server/res/img`**.
 
-The configuration steps are as follows:
+`XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)`. The corresponding URL is as follows: **`https://server/res/instance`** where instance is the name of the tracking instance.
 
-The first step of the deployment wizard lets you enter general information on the instance.
+>[!NOTE]
+>
+>It's possible to change the public resource storage directory. For more on this, refer to [Managing public resources](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
-The upper section lets you enter the following information:
+### Synchronizing public resources {#synchronizing-public-resources}
 
-The following options are available:
+This functionality allows you to **synchronize public resources** on multiple spare-servers.
 
-The following step lets you define the information to be displayed in message headers.
+If a public resource is not present on the tracking server or if the resource returns a 404 error, the tracking server will try to find the resource on one of the spare-servers.
 
-These parameters can be overloaded in delivery templates, and individually for each delivery (if the users have the required rights).
+Declaring and configuring spare-servers must be done in the Marketing server's **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
-Indicate the following parameters:
+**Declaration**
 
-In addition to this, you can specify the **[!UICONTROL masks]** authorized for the sender address and the error address. If necessary, these masks can be separated using commas. This configuration is optional. When fields are entered, Adobe Campaign checks at the time of delivery (during analysis, if the address does not include any variables) that the addresses are valid. This operating mode ensure that no addresses are used that could trigger delivery issues. Delivery addresses must be configured on the delivery server.
+```
+<redirection>
+<spareServer enabledIf="" id="" url=""/>
+</redirection>
+```
 
-In the Adobe Campaign database, all email addresses must be created as follows: **x@y.z**. The **x**, **y** and **z** characters must not be empty and must not include non-authorized characters.
+**Configuration**
 
-You can define here the characters authorized ('data policy') in the email field of the database. Characters not included in the list will be forbidden and therefore refused when entering information in the database via the interface, via a Web form and also importing data.
+For each public resource that has to be synchronized, you have to add a status attribute to the `<url>` element in the `<relay>` part:
 
-Two lists are available: **[!UICONTROL European only]** or **[!UICONTROL US only]** . Other characters can be added if necessary.
+The status attribute can be one of three values:
 
-The information on recoveries is provided in the **[!UICONTROL Recovery periods]** and **[!UICONTROL Number of recoveries]** fields: when a recipient is unreachable, for instance if their inbox is full, by default the program will try contacting them 5 times, with a one-hour interval between each attempt (during the maximum delivery time). These values can be changed to suit your needs.
+* spare: The public resource is synchronized
 
-Configuration options for quarantines are as follows:
+* normal: Existing behavior (without synchronization)
 
-This stage lets you define settings for managing bounce mails.
+* blacklist: The URL is blacklisted if it returns a 404 error. The duration (in seconds) of the blacklisting is defined by a **timeout** attribute whose default value is 60s.
 
-Indicate the parameters to connect to the account for retrieving incoming emails.
+The out-of-the-box configuration of the synchronization is:
 
-Once the POP settings are specified, click **[!UICONTROL Test]** to make sure they are correct.
+``` 
+(extracted from the serverConf.xml file)
 
-Bounces are handled automatically by Adobe Campaign, applying the rules listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. For more on this, refer to [Bounce mail management](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+<redirection P3PCompactPolicy="CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV"
+databaseId="" defLogCount="30" expirationURL="" maxJobsInCache="100"
+startRedirection="true" startRedirectionInModule="true" trackWebVisitors="false" trackingPassword="">
+<spareServer enabledIf="" id="1" url=""/>
+</redirection>
 
-Unprocessed bounces are not displayed in the Adobe Campaign interface. They are automatically deleted unless they are transferred to a third party mailbox using the following fields:
+....
 
-The next step lets you configure tracking for the instance. The instance must be declared and registered with the tracking server(s).
 
-This step is only offered when the **[!UICONTROL Email channel]** and **[!UICONTROL Tracking]** options are selected in the first page of the deployment wizard. Refer to [General parameters](../../installation/using/deploying-an-instance.md#general-parameters).
+<relay debugRelay="false" forbiddenCharsInAuthority="?#.@/:" forbiddenCharsInPath="?#/"
+           modDir="index.html" startRelay="false" startRelayInModule="true" timeout="60">
+   <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="normal" targetUrl="https://localhost:8080" timeout="" urlPath="/view/*"/>
+      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blacklist" targetUrl="https://localhost:8080" timeout="" urlPath="*.jsp"/>
+      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blacklist" targetUrl="https://localhost:8080" timeout="" urlPath="*.jssp"/>
+      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blacklist" targetUrl="https://localhost:8080" timeout="" urlPath="/webApp/*"/>
+      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blacklist" targetUrl="https://localhost:8080" timeout="" urlPath="/report/*"/>
+      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blacklist" targetUrl="https://localhost:8080" timeout="" urlPath="/jssp/*"/>
+      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="normal" targetUrl="https://localhost:8080" timeout="" urlPath="/strings/*"/>
+      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="normal" targetUrl="https://localhost:8080" timeout="" urlPath="/interaction/*"/>
+      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="normal" targetUrl="https://localhost:8080" timeout="" urlPath="/barcode/*"/>
 
-For more detailed information on web tracking (tracking mode, creating and inserting tags...), refer to [this document](../../configuration/using/about-web-tracking.md).
+      <url IPMask="" deny="" hostMask="" relayHost="false" relayPath="false" status="spare" targetUrl="" timeout="" urlPath="/favicon.*"/>
+      <url IPMask="" deny="" hostMask="" relayHost="false" relayPath="false" status="spare" targetUrl="" timeout="" urlPath="/*.html"/>
+      <url IPMask="" deny="" hostMask="" relayHost="false" relayPath="false" status="spare" targetUrl="" timeout="" urlPath="/*.png"/>
+      <url IPMask="" deny="" hostMask="" relayHost="false" relayPath="false" status="spare" targetUrl="" timeout="" urlPath="/*.jpg"/>
 
-When you activate tracking on an instance, the URLs in the deliveries are changed during sending to enable tracking.
+ </relay>
+ ```
 
-To guarantee the efficiency of tracking on this instance, the following information must be displayed:
+## Purging data {#purging-data}
 
-Once the URLs are populated, you must register the tracking server.
+The last stage of the deployment wizard lets you configure the automatic purging of obsolete data. The values are expressed in days.
 
-Click the link **[!UICONTROL Registration on the tracking server(s)]** and then select one of the available options.
+![](assets/s_ncs_install_deployment_wiz_16.png)
 
-There are three possible types of architecture for implementing tracking:
-
-Click **[!UICONTROL Approve]** to start the recording process with the tracking server.
-
-Back in the previous window, a message confirms the registration at the tracking server level:
-
-The parameters linked to URL searches **must not be modified** for a standard installation. For all other parameters, please contact Adobe.
-
-The next step lets you define default settings for deliveries to mobiles (SMS and WAP Push).
-
-In the **[!UICONTROL Priority]** drop-down list: Select "Normal", "High" or "Urgent" to apply it to the messages to be sent.
-
-Information on retries is available in the **[!UICONTROL Period of retries]** and **[!UICONTROL Number of retries]** fields: When a mobile is unreachable , by default, the program will try again 5 times at intervals of at least 15 minutes (for the maximum delivery period). These values can be adapted to suit your needs.
-
-Configuration options for quarantines are as follows:
-
-You must also indicate here the publication options linked to Web forms.
-
-Use this page to populate the server URLs to:
-
-Adobe Campaign lets you differentiate these three URLs to spread the load over multiple platforms.
-
-To be seen from the outside, the images used in emails and public resources linked to campaigns must be present on an externally accessible server. They can then be available to external recipients or operators.
-
-For this step, you need to enter:
-
-The first field enables you to specify the start of the URL used for the resources once uploaded. When uploaded, the resources are accessible via this new URL.
-
-In a default mode, use:
-
-The field **[!UICONTROL URL masks]** lets you specify the list of URL masks to be skipped when uploading images automatically. For example, if you use images that are stored on a site accessible from the outside, in particular on an internet site, you can enter the site URL in this field.
-
-You can specify multiple URL masks by using a comma to separate each of them. 
+Data is deleted automatically via the Database cleanup workflow. For more on how to configure and operate this workflow and details on the deleted items, refer to this [document](../../production/using/database-cleanup-workflow.md).

@@ -22,4 +22,4 @@ If you have a hosted or hybrid hosting model, you don't need to read this docume
 
 The different hosting models are introduced in this [section](../../installation/using/hosting-models.md).
 
-To learn more about the main differences between deployment modes, refer to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md).
+To learn more about the main differences between deployment modes, refer to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).

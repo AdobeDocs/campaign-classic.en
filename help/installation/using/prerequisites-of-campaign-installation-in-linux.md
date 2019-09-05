@@ -22,11 +22,11 @@ snippet: y
 
 This section details the preliminary configurations steps required before installing Adobe Campaign.
 
-The technical and software configuration required for installing Adobe Campaign is detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
+The technical and software configuration required for installing Adobe Campaign is detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
 As a reminder, the following components need to be installed and correctly configured:
 
-* Apache, refer to [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md),
+* Apache, refer to [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html),
 * Java JDK and OpenJDK, refer to [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
 * Libraries, refer to [Libraries](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries),
 * Database access layers, refer to [Database access layers](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers),
@@ -88,11 +88,11 @@ In addition to this, in the **/etc/sysconfig/httpd** file, the following line wa
 
 In RHEL and CentOS, compatibility issues with the client layers of databases were noted when SELinux is enabled. To be sure Adobe Campaign is able to operate correctly, we recommend disabling SELinux.
 
-Apply the following process:
+**Apply the following process:**
 
-Edit the file **/etc/selinux/config**
+* Edit the file **/etc/selinux/config**
 
-Modify the SELINUX line as follows:
+* Modify the SELINUX line as follows:
 
 ```
 SELINUX=disabled
@@ -166,7 +166,7 @@ The following configurations are necessary with CentOS:
 
 The access layers for the database engine you are using must be installed on your server and be accessible via the Adobe Campaign account. Versions and installation modes may vary depending on the database engine used.
 
-The supported pilot version are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
+The supported pilot version are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
 Also check the general [Database](../../installation/using/database.md) section.
 
@@ -192,7 +192,7 @@ Problems can appear after an Oracle client or a server update, change of version
 
 If you notice on the client console that there are unexpected time lags (one or more hours) in logs, workflow last processing, next processing, and so on, there might be a problem between the library of the Oracle client and the Oracle Server. To avoid such problems
 
-1. Make sure to use the **full client**
+1. Make sure to use the **full client**.
 
    Various problems have been identified when using the Oracle Instant Client version. In addition, it is impossible to change the Timezone file on instant client.
 

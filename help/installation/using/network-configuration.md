@@ -134,7 +134,7 @@ For the Adobe Campaign rich client (**nlclient**), the following ports must be o
    <td> Comments<br /> </td> 
   </tr> 
   <tr> 
-   <td> 80/tcp (http)<br /> 443/tcp (https)<br /> </td> 
+   <td><p> 80/tcp (http)</p><p>443/tcp (https)</p><br /> </td> 
    <td> Application server<br /> </td> 
    <td> SOAP traffic (HTTP).<br /> </td> 
   </tr> 
@@ -157,7 +157,7 @@ The default ports are the following:
   <tr> 
    <td> <strong>Oracle</strong><br /> </td> 
    <td> 1521/tcp<br /> </td> 
-   <td> 5 Database server.<br /> </td> 
+   <td> Database server<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>PostgreSQL</strong><br /> </td> 
@@ -187,7 +187,7 @@ In addition, certain components must be accessible from the public internet so t
    <td> Location<br /> </td> 
   </tr> 
   <tr> 
-   <td> 80/tcp (http)<br /> 443/tcp (https)<br /> </td> 
+   <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
    <td> Anywhere. Each click on a tracked link generates a HTTP request on the server.<br /> </td> 
   </tr> 
  </tbody> 
@@ -204,7 +204,7 @@ This server hosts Web forms, mirror pages, etc. The following ports need to be o
    <td> Location<br /> </td> 
   </tr> 
   <tr> 
-   <td> 80/tcp (http)<br /> 443/tcp (https)<br /> </td> 
+   <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
    <td> Anywhere. Necessary when Web forms are managed directly from the Adobe Campaign platform or when mirror pages are used.<br /> </td> 
   </tr> 
  </tbody> 
@@ -219,7 +219,7 @@ This server hosts Web forms, mirror pages, etc. The following ports need to be o
    <td> Location<br /> </td> 
   </tr> 
   <tr> 
-   <td> 80/tcp (http)<br /> 443/tcp (https)<br /> </td> 
+   <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
    <td> All computers executing the thin client or rich client.<br /> </td> 
   </tr> 
  </tbody> 
@@ -240,7 +240,7 @@ Integration between Adobe Campaign and Adobe Experience Manager requires opening
    <td> AEM connection to Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
-   <td> 4502<br /> 4503<br /> </td> 
+   <td><p> 4502</p><p> 4503</p><br /> </td> 
    <td> Adobe Campaign connection to AEM's "authoring" and "publishing" instances. The ports to open may be different from the default ports, depending on your AEM configuration.<br /> </td> 
   </tr> 
  </tbody> 

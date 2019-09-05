@@ -26,7 +26,7 @@ To do this, you must:
 
 1. Recover the package that contains the console installation program.
 
-   This file is called **setup-client-7.**X**.**XXXX**.exe** for v7 or **setup-client-6.**X**.**XXXX**.exe** for v6.1, where 'X' is the sub-version of Adobe Campaign and **XXXX** is the build number.
+   This file is called `setup-client-7.X.XXXX.exe` for v7 or `setup-client-6.X.XXXX.exe` for v6.1, where `X` is the sub-version of Adobe Campaign and `XXXX` is the build number.
 
 1. Copy and paste this package into the Adobe Campaign installation folder, under **/datakit/nl/eng/jsp**.
 1. Start the Adobe Campaign server.
@@ -54,7 +54,7 @@ To reset this prompt, follow the steps below (only system administrators comfort
 1. Search for the node and expand it.
 
    ```
-   \HKEY_CURRENT_USERSoftwareNeolaneNL_6nlclient
+   \HKEY_CURRENT_USER\Software\Neolane\NL_6\nlclient
    ```
 
 1. Delete the **confAdvisedUpgrade** entry and close Registry Editor.

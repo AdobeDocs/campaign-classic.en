@@ -24,9 +24,10 @@ The following section provides an overview of the configuration required for con
 
 >[!NOTE]
 >
->All technical recommendations concerning the efficient sending and receiving of messages by an Adobe Campaign platform are available in the **Deliverability** Technical Note.   
->Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md).  
->Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) that presents the concepts and best practices related to deliverability.
+>All technical recommendations concerning the efficient sending and receiving of messages by an Adobe Campaign platform are available in the **Deliverability** Technical Note.
+>
+>Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).  
+>Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices related to deliverability.
 
 ## Operating principle {#operating-principle}
 
@@ -208,7 +209,7 @@ The following parameters are available for each rule:
 
 You can define the format of sent messages, so that the content displayed automatically adapts according to the domain of each recipient's address.
 
-To do this, go to the **[!UICONTROL Management of email formats]** document, which is located in **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]** .
+To do this, go to the **[!UICONTROL Management of email formats]** document, which is located in **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]**.
 
 This document contains a list of all of the predefined domains that correspond to the Japanese formats managed by Adobe Campaign. For more information, refer to [this document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
@@ -220,7 +221,7 @@ The **MIME structure** (Multipurpose Internet Mail Extensions) parameter allows 
 
   By default, the multipart structure is **multipart/alternative**, but it automatically becomes **multipart/related** when an image is added to the message. Certain providers expect the **multipart/related** format by default, the **[!UICONTROL Force multipart/related]** option imposes this format even if no image is attached.
 
-* **HTML **: An HTML only message is sent. If the HTML format is not accepted, the message will not be displayed.
+* **HTML**: An HTML only message is sent. If the HTML format is not accepted, the message will not be displayed.
 * **Text**: A message in text only format is sent. The advantage of text format messages is their very small size.
 
 If the **[!UICONTROL Image inclusion]** option is enabled, these are displayed directly in the body of the email. The images will then be uploaded and the URL links will be replaced by their content.
@@ -247,14 +248,12 @@ The **statServerAddress** property of the **mta** element of the configuration l
 <mta statServerAddress="emailStatServer:7777">
    [...]
  </mta>
-
 ```
 
 To use the statistics server on the same machine, you must enter at least the name of the machine with the **localhost** value:
 
 ```
  <mta statServerAddress="localhost">
-
 ```
 
 >[!CAUTION]
@@ -275,7 +274,6 @@ Example:
   <IP address="192.168.0.12" heloHost="revdns1.campaign.com" publicId="2" weight="5"/>
   <IP address="192.168.0.13" publicId="3" weight="1"/>
 </IPAffinity>
-
 ```
 
 The parameters are as follows:

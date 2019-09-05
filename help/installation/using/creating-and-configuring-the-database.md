@@ -27,7 +27,8 @@ The configuration steps are detailed hereafter.
 
 >[!CAUTION]
 >
->Names of databases, users and schemas must not start with a number or include special characters.   
+>Names of databases, users and schemas must not start with a number or include special characters.
+>
 >Only the **internal** identifier can carry out these operations. For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
 ## Case 1: Creating/recycling a database {#case-1--creating-recycling-a-database}
@@ -49,9 +50,9 @@ Select the database engine among those in the drop-down list.
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-Supported databases are presented in the section [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
+Supported databases are presented in the section [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
-Identify the server and choose the type of operation to perform. In this case, **[!UICONTROL Create or recycle a database]** .
+Identify the server and choose the type of operation to perform. In this case, **[!UICONTROL Create or recycle a database]**.
 
 ![](assets/s_ncs_install_db_oracle_creation01.png)
 
@@ -61,8 +62,8 @@ Depending on the selected database engine, the server identification information
 * For a **PostgreSQL** or **DB2** engine, you must specify the DNS name (or IP address) defined on the application server to access the database server.
 * For a **Microsoft SQL Server** engine, you must define:
 
-    1. the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS `<instance>`** (instance mode),
-    1. the authentication method used to access Microsoft SQL Server: **[!UICONTROL SQL Server authentication]** or **[!UICONTROL Windows NT authentication]** .
+    1. the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS\ `<instance>`** (instance mode),
+    1. the authentication method used to access Microsoft SQL Server: **[!UICONTROL SQL Server authentication]** or **[!UICONTROL Windows NT authentication]**.
     
        ![](assets/s_ncs_install_db_mssql_creation01.png)
 
@@ -100,7 +101,8 @@ You need to define the following settings:
 
   >[!NOTE]
   >
-  >With an Oracle database, the **[!UICONTROL Unicode storage]** option lets you use **NCLOB** and **NVARCHAR** type fields.  
+  >With an Oracle database, the **[!UICONTROL Unicode storage]** option lets you use **NCLOB** and **NVARCHAR** type fields. 
+  > 
   >If you do not select this option, the character set (charset) of the Oracle database must enable data storage in all languages (AL32UTF8 is recommended).
 
 * Choose a time zone for the database and specify whether you want it to be in UTC (if available).
@@ -145,7 +147,7 @@ Once the database is created, you can re-connect to finalize instance configurat
 
 You must now start the deployment wizard to finish configuring the instance. Refer to [Deployment wizard](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
-The connection settings for the database linked to the instance are stored in the file **/conf/config-** `<instance>`**.xml** found in the Adobe Campaign installation directory.
+The connection settings for the database linked to the instance are stored in the file **/conf/config-**`<instance>`**.xml** found in the Adobe Campaign installation directory.
 
 Example of a Microsoft SQL Server configuration on the base61 database linked to the 'campaign' account with its encrypted password:
 
@@ -173,7 +175,7 @@ Choose the database engine from the drop-down list.
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-Identify the server and choose the type of operation you want to carry out. In this case, **[!UICONTROL Use an existing database]** .
+Identify the server and choose the type of operation you want to carry out. In this case, **[!UICONTROL Use an existing database]**.
 
 ![](assets/s_ncs_install_db_oracle_exists_01.png)
 
@@ -184,7 +186,7 @@ Depending on the selected database engine, the server identification information
 * For a **Microsoft SQL Server** engine, you must define:
 
     1. the DNS name (or IP address) defined on the application server to access the database server,
-    1. the security method used to access Microsoft SQL Server: **[!UICONTROL SQL Server authentication]** or **[!UICONTROL Windows NT authentication]** .
+    1. the security method used to access Microsoft SQL Server: **[!UICONTROL SQL Server authentication]** or **[!UICONTROL Windows NT authentication]**.
     
        ![](assets/s_ncs_install_db_mssql_exists_01.png)
 
@@ -235,7 +237,7 @@ Once database creation is complete, you can reconnect to finalize instance confi
 
 You must now start the deployment wizard to finish configuring the instance. Refer to [Deployment wizard](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
-The connection settings for the database linked to the instance are stored in the file **/conf/config-** `<instance>`**.xml** found in the Adobe Campaign installation directory.
+The connection settings for the database linked to the instance are stored in the file **/conf/config-**`<instance>`**.xml** found in the Adobe Campaign installation directory.
 
 Example of a Microsoft SQL Server configuration on the base61 database linked to the 'campaign' account with its encrypted password:
 
