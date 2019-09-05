@@ -24,7 +24,8 @@ All servers configured for POP3 access can be used to receive return mail if the
 
 >[!CAUTION]
 >
->This mail server may have to handle heavy loads: In initial phases, typical lists can produce up to 10% bounce rates (if you send 100,000 messages, expect to receive 10,000 bounces).   
->That's why we recommend against using your company messaging server for this task as it can be strongly impacted.  
+>This mail server may have to handle heavy loads: In initial phases, typical lists can produce up to 10% bounce rates (if you send 100,000 messages, expect to receive 10,000 bounces).
+>
+>That's why we recommend against using your company messaging server for this task as it can be strongly impacted.
+>
 >It is advisable to configure a specific sub-domain of your DNS and a dedicated server for bounce mail.
-

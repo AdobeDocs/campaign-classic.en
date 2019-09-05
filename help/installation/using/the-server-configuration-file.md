@@ -264,7 +264,7 @@ Here are the different parameters of the **dataStore > proxyAdjust** node. URLs 
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
-   <td> Regular expression to match URLs. Ex: http://server.lan.net.*<br /> </td> 
+   <td> Regular expression to match URLs. Ex: http://server\.lan\.net.*<br /> </td> 
    <td> String<br /> </td> 
   </tr> 
  </tbody> 
@@ -538,7 +538,15 @@ For additional information, refer to this [section](../../installation/using/con
  </tbody> 
 </table>
 
-Note on **nameSevers**: by default, uses the network parameters of the first network interface declared in Windows; not defined in UNIX. Defines the domain name servers (DNS) used by the MTA to get the Mail Exchanger declared for a domain. If this value is not defined, the MTA seeks this information in the host network configuration. If several DNS are possible, the different DNS addresses must be separated by a comma (example: 212.155.207.1,212.155.207.2). If your delivery server has several network interfaces, the DNS list used by the MTA is the first one. In this case, we recommend specifying the **nameServer** parameter to avoid any ambiguity.
+>[!NOTE]
+>
+>Note on **nameSevers**: by default, uses the network
+>parameters of the first network interface declared in Windows
+>not defined in UNIX. Defines the domain name servers (DNS)
+>used by the MTA to get the Mail Exchanger declared for
+>a domain.
+>
+>If this value is not defined, the MTA seeks this information in the host network configuration. If several DNS are possible, the different DNS addresses must be separated by a comma (example: 212.155.207.1,212.155.207.2). If your delivery server has several network interfaces, the DNS list used by the MTA is the first one. In this case, we recommend specifying the **nameServer** parameter to avoid any ambiguity.
 
 >[!CAUTION]
 >
@@ -635,7 +643,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 Here are the different parameters of the **javaScript** node. This is the configuration of the JavaScript interpreter.
 
-For additional information, refer to the [Reporting documentation](../../reporting/using/actions-on-reports.md#memory-allocation) and this [technote](https://helpx.adobe.com/campaign/kb/out-of-memory-error-in-js-code-activity-in-workflows.md).
+For additional information, refer to the [Reporting documentation](../../reporting/using/actions-on-reports.md#memory-allocation) and this [technote](https://helpx.adobe.com/campaign/kb/out-of-memory-error-in-js-code-activity-in-workflows.html).
 
 <table> 
  <thead> 
@@ -1524,20 +1532,19 @@ Here are the different parameters of the **mta** node. This is the configuration
   <tr> 
    <td> statServerAddress<br /> </td> 
    <td> Address of the delivery statistics server, given as 
-    &lt;dns ip="" or="">
+    &lt;dns or ip&gt; 
       [: 
-     &lt;port>
+     &lt;port&gt; 
        ]. See 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordinates of the statistics server</a>. 
       <br /> 
-     &lt;/port> 
-    &lt;/dns></td> 
+     </td> 
    <td> String<br /> </td> 
    <td> If not defined, the default port is 7777.<br /> </td> 
   </tr> 
   <tr> 
    <td> statServerTLSSupport<br /> </td> 
-   <td> Enable TLS by domain: enables the TLS configurable by MX (requires an up-to-date statistics server) .<br /> </td> 
+   <td> Enable TLS by domain: enables the TLS configurable by MX (requires an up-to-date statistics server).<br /> </td> 
    <td> Boolean<br /> </td> 
    <td> true <br /> </td> 
   </tr> 

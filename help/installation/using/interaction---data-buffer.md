@@ -20,7 +20,7 @@ snippet: y
 
 >[!NOTE]
 >
->Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md).
+>Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 
 In Adobe Campaign, a **data buffer zone** has been introduced in the Interaction module. This allows you to **increase performance** of inbound Interaction by desynchronizing stock and offer calculations.
 

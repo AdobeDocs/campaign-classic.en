@@ -222,7 +222,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td> Lets you allow the operator in charge of the delivery to confirm the send, if a specific operator or group of operators is designated for starting a delivery in the delivery's properties.<br /> To do this, activate the option by entering "1" as the value. To deactivate this option, enter "0".<br /> The send confirmation process will then function as default: only the operator or group of operators designated for the send in the delivery properties (or an administrator) will be able to confirm and carry out the send. See <a href="../../campaign/using/setting-up-marketing-campaigns.md#starting-an-online-delivery">this section</a>.<br /> </td> 
+   <td><p> Lets you allow the operator in charge of the delivery to confirm the send, if a specific operator or group of operators is designated for starting a delivery in the delivery's properties.</p><p> To do this, activate the option by entering "1" as the value. To deactivate this option, enter "0".</p><p> The send confirmation process will then function as default: only the operator or group of operators designated for the send in the delivery properties (or an administrator) will be able to confirm and carry out the send. See <a href="../../campaign/using/setting-up-marketing-campaigns.md#starting-an-online-delivery">this section</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
@@ -547,51 +547,52 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_BroadLogPurgeDelay</span> <br /> </td> 
-   <td> Lets you define the delay after which broadlog are erased from the database.<br /> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.<br /> </td> 
+   <td> <p>Lets you define the delay after which broadlog are erased from the database.</p><p>This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_EventHistoPurgeDelay</span> <br /> </td> 
-   <td> Lets you define the delay after which the event history is erased from the database.<br /> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.<br /> </td> 
+   <td><p> Lets you define the delay after which the event history is erased from the database.</p><p>
+   This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_EventPurgeDelay</span> <br /> </td> 
-   <td> Lets you define the delay after which events are erased from the database.<br /> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.<br /> </td> 
+   <td><p> Lets you define the delay after which events are erased from the database.</p><p>This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_EventStatPurgeDelay</span> <br /> </td> 
-   <td> Lets you define the delay after which the event statistics are erased from the database.<br /> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.<br /> </td> 
+   <td><p> Lets you define the delay after which the event statistics are erased from the database.</p><p>This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_PropositionPurgeDelay</span> <br /> </td> 
-   <td> Lets you define the delay after which propositions are erased from the database.<br /> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.<br /> </td> 
+   <td><p> Lets you define the delay after which propositions are erased from the database.</p><p> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_QuarantineMailboxFull</span> <br /> </td> 
-   <td> Lets you define the delay after which the quarantines are erased from the database.<br /> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.<br /> </td> 
+   <td> <p>Lets you define the delay after which the quarantines are erased from the database.</p><p> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_RecycledDeliveryPurgeDelay</span> <br /> </td> 
-   <td> Lets you define the delay after which recycled deliveries are erased from the database.<br /> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.<br /> </td> 
+   <td> <p>Lets you define the delay after which recycled deliveries are erased from the database.</p><p> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_RejectsPurgeDelay</span> <br /> </td> 
-   <td> Lets you define the delay after which rejects are erased from the database.<br /> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.<br /> </td> 
+   <td> <p>Lets you define the delay after which rejects are erased from the database.</p><p>This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_TrackingLogPurgeDelay</span> <br /> </td> 
-   <td> Lets you define the delay after which tracking logs are erased from the database.<br /> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.<br /> </td> 
+   <td> <p>Lets you define the delay after which tracking logs are erased from the database.</p><p>This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_TrackingStatPurgeDelay</span> <br /> </td> 
-   <td> Lets you define the delay after which tracking statistics is erased from the database.<br /> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.<br /> </td> 
+   <td><p> Lets you define the delay after which tracking statistics is erased from the database.</p><p> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_VisitorPurgeDelay</span> <br /> </td> 
-   <td> Lets you define the delay after which visitors are erased from the database.<br /> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.<br /> </td> 
+   <td> <p>Lets you define the delay after which visitors are erased from the database.</p><p> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_WorkflowResultPurgeDelay</span> <br /> </td> 
-   <td> Lets you define the delay after which workflow results is erased from the database.<br /> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.<br /> </td> 
+   <td> <p>Lets you define the delay after which workflow results is erased from the database.</p><p> This option is automatically created once the delay is modified within the interface. If you modify the value from the options list, it should be expressed in seconds.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_AzureDw</span> <br /> </td> 
@@ -643,9 +644,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
     &lt;schemanamespace> 
      &lt;schemaname>
        _seq. 
-      <br /> 
-     &lt;/schemaname> 
-    &lt;/schemanamespace></td> 
+   </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NlMigration_KeepFolderStructure</span> <br /> </td> 
@@ -686,7 +685,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Lets you configure Experience Cloud Triggers. Data type is "long text" and must be in JSON format. See <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.md#PipelineoptionNmsPipelineConfig" target="_blank">How to use Experience Cloud Triggers with Adobe Campaign Classic</a> .<br /> </td> 
+   <td> Lets you configure Experience Cloud Triggers. Data type is "long text" and must be in JSON format. See <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">How to use Experience Cloud Triggers with Adobe Campaign Classic</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 

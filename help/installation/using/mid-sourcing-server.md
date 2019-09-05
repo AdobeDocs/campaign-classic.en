@@ -108,7 +108,7 @@ It is possible for a mid-sourcing instance to be shared by multiple submitting i
 
    ![](assets/mid_recette_user_create.png)
 
-1. In the **[!UICONTROL Access rights]** tab, give this operator the rights of the **Mid-sourcing submissions** group. This access right is available in **[!UICONTROL Mid-sourcing > Access Management > Operator groups]** .
+1. In the **[!UICONTROL Access rights]** tab, give this operator the rights of the **Mid-sourcing submissions** group. This access right is available in **[!UICONTROL Mid-sourcing > Access Management > Operator groups]**.
 
    ![](assets/mid_recette_user_rights.png)
 
@@ -130,9 +130,9 @@ The '@name' attribute must respect the following rules:
 
 'marketing_account_operator_name' relates to the internal name of the mid-sourcing account declared in the mid-sourcing instance.
 
-'affinity_name' relates to the arbitrary name given to the affinity. This name must be unique. Authorized characters are [a-z][A-Z][0-9]. The aim is to declare a group of public IP addresses.
+'affinity_name' relates to the arbitrary name given to the affinity. This name must be unique. Authorized characters are `[a-z]``[A-Z]``[0-9]`. The aim is to declare a group of public IP addresses.
 
-'affinity_group' relates the Sub-affinity declared in the target mapping used in each of the deliveries. The last part including the '.' is ignored if there is no Sub-affinity. Authorized characters are [a-z][A-Z][0-9].
+'affinity_group' relates the Sub-affinity declared in the target mapping used in each of the deliveries. The last part including the '.' is ignored if there is no Sub-affinity. Authorized characters are `[a-z]``[A-Z]``[0-9]`.
 
 You must stop and then restart the server in order for the modification to be taken into account.
 
@@ -140,14 +140,14 @@ You must stop and then restart the server in order for the modification to be ta
 
 **Configuring the mid-sourcing server**
 
-1. Go to 'operators' and select the operator **[!UICONTROL mid]** .
+1. Go to 'operators' and select the operator **[!UICONTROL mid]**.
 1. In the **[!UICONTROL Frontal servers]** tab, enter the tracking server connection parameters.
 
    To create a tracking instance, enter the URL of the tracking server, the tracking server internal account password and the name of the instance, its password, and the DNS masks associated with it. 
 
    ![](assets/s_ncs_install_midsourcing_tracking02.png)
 
-1. When you have entered the connection parameters, click **[!UICONTROL Confirm the configuration]** .
+1. When you have entered the connection parameters, click **[!UICONTROL Confirm the configuration]**.
 1. If necessary, specify the location where images contained in deliveries are to be stored. To do this, select one of the publication modes from the drop-down list. 
 
    ![](assets/s_ncs_install_midsourcing_tracking03.png)
@@ -161,7 +161,7 @@ You must stop and then restart the server in order for the modification to be ta
 
    ![](assets/s_ncs_install_midsourcing_tracking06.png)
 
-1. Confirm your configuration by clicking **[!UICONTROL Test the connection]** .
+1. Confirm your configuration by clicking **[!UICONTROL Test the connection]**.
 1. Declare the tracking instance referenced on the mid-sourcing server:
 
    Click the link **[!UICONTROL Use this platform as a platform to access the tracking servers]** ,

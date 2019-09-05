@@ -165,17 +165,17 @@ Apply the following steps:
 
    For more on this, refer to [Campaign server configuration](../../installation/using/campaign-server-configuration.md).
 
-1. Copy the client console setup program (**setup-client-7.**XX**, **YYYY** .exe** for v7 or **setup-client-6.**XX**, **YYYY** .exe** for v6.1) to the **/datakit/nl/eng/jsp** folder.
+1. Copy the client console setup program (**setup-client-7.XX**, **YYYY.exe** for v7 or **setup-client-6.XX**, **YYYY.exe** for v6.1) to the **/datakit/nl/eng/jsp** folder.
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md),
-    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md).
+    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
+    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md)
 
 1. Follow the Web server integration procedure (IIS, Apache) described in the following sections:
 
-    * For Linux: [Integration into a Web server for Linux](../../installation/using/integration-into-a-web-server-for-linux.md),
-    * For Windows: [Integration into a Web server for Windows](../../installation/using/integration-into-a-web-server-for-windows.md).
+    * For Linux: [Integration into a Web server for Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
+    * For Windows: [Integration into a Web server for Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
 
 1. Start the website and test redirection using the URL: [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 
@@ -187,8 +187,8 @@ Apply the following steps:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration),
-    * For Windows: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration).
+    * For Linux: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
+    * For Windows: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Start the Adobe Campaign server (**net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux) and run the command **nlserver pdump** once more to check for presence of all enabled modules.
 
@@ -216,8 +216,8 @@ Apply the following steps:
 
    For more on this, refer to the following sections:
 
-    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md),
-    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md).
+    * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
+    * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md)
 
 1. Start the Adobe Campaign client console (from the previous download page or launched directly on the server for a Windows installation), set the server connection URL to [https://console.campaign.net](https://console.campaign.net) and connect using the **internal** login.
 

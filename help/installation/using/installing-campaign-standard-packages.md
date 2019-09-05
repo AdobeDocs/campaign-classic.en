@@ -24,17 +24,18 @@ Packages are a set of features that can be installed according to your needs. Th
 
 >[!CAUTION]
 >
->You may only install packages corresponding the options mentioned in your license contract.   
+>You may only install packages corresponding the options mentioned in your license contract.
+>
 >Once a package is installed, you cannot uninstall it. Be cautious while installing a new package as it can impact your platform.
 
 To install a standard package:
 
 1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Package import...]** in the Adobe Campaign client console.
-1. Select **[!UICONTROL Install a standard package]** .
+1. Select **[!UICONTROL Install a standard package]**.
 1. In the list that appears, check the packages you want to install. Packages that cannot be checked are already installed on your instance.
 1. Click **[!UICONTROL Next]** , then **[!UICONTROL Start]** to start the package installation.
 
-   Once the packages are installed, the progress bar shows **100%** and you can see the following message in the installation logs: **[!UICONTROL Installation of packages successful]** .
+   Once the packages are installed, the progress bar shows **100%** and you can see the following message in the installation logs: **[!UICONTROL Installation of packages successful]**.
 
 1. **[!UICONTROL Close]** the installation window.
 
@@ -92,7 +93,7 @@ The packages are now installed.
    <td> Lead Management (Leads) (deprecated)<br /> </td> 
    <td> Simplifies the process of building and maintaining the entire leads management life cycle. <br /> </td> 
    <td> Yes<br /> </td> 
-   <td> <a href="https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.md">Learn More</a> </td> 
+   <td> <a href="https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html">Learn More</a> </td> 
   </tr> 
   <tr> 
    <td> Social networks (Social Marketing) <br /> </td> 
@@ -188,7 +189,7 @@ The packages are now installed.
    <td> Deliverability monitoring (Email Deliverability)<br /> </td> 
    <td> Measures the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.<br /> </td> 
    <td> Yes </td> 
-   <td> <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md">Learn More</a> </td> 
+   <td> <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html">Learn More</a> </td> 
   </tr> 
   <tr> 
    <td> Coupon Management<br /> </td> 
@@ -242,7 +243,7 @@ The packages are now installed.
    <td> General Data Protection Regulation (GDPR)<br /> </td> 
    <td> Contains additional functionality to help projects become GDPR compliant in Campaign Classic.<br /> </td> 
    <td> </td> 
-   <td> <a href="https://helpx.adobe.com/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.md">Learn More</a> </td> 
+   <td> <a href="https://helpx.adobe.com/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html">Learn More</a> </td> 
   </tr> 
   <tr> 
    <td> Transfer to Mid-Sourcing <br /> </td> 
@@ -273,7 +274,7 @@ To add a delivery channel (Mobile channel, Mobile App channel, etc.), this must 
 1. Import the file ( **[!UICONTROL Tools > Advanced > Import package > File]** ), and select:
 
    ```
-   \datakitnms[Your language]packagemessageCenter.xml
+   \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
 1. In the **[!UICONTROL XML data content to import]** , keep only the Message Center delivery template corresponding to the attached channel. For example, if you have added the **Mobile channel**, keep only the **entities** element corresponding to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage) template. If you have added the **Mobile App Channel**, keep only the **iOS transactional message** templates (iosTriggerMessage) and **Android transactional message** (androidTriggerMessage).

@@ -20,7 +20,7 @@ snippet: y
 
 >[!NOTE]
 >
->Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md).
+>Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ## Overview {#overview}
 
@@ -30,7 +30,11 @@ The deployment and integration of SpamAssassin as described in this chapter are 
 
 >[!CAUTION]
 >
->The qualification of emails as undesirable by SpamAssassin is based entirely on filtering and scoring rules. These rules therefore have to be updated at least once a day in order for your SpamAssassin installation and its integration into Adobe Campaign to be fully functional and to guarantee the relevance of scores assigned to your deliveries before sending. This update is the responsibility of the server administrator hosting SpamAssassin.
+>The qualification of emails as undesirable by SpamAssassin is based entirely on filtering and scoring rules.
+>
+>These rules therefore have to be updated at least once a day in order for your SpamAssassin installation and its integration into Adobe Campaign to be fully functional and to guarantee the relevance of scores assigned to your deliveries before sending.
+>
+>This update is the responsibility of the server administrator hosting SpamAssassin.
 
 Using SpamAssassin in Adobe Campaign provides an indication on the possible behavior of mail servers which use SpamAssassin when they receive email sent by Adobe Campaign. However, it is possible that the mail servers of internet providers or online mail servers still consider the messages sent by Adobe Campaign as undesirable.
 
@@ -52,7 +56,7 @@ To install and configure SpamAssassin on Windows to enable integration with Adob
 
    >[!NOTE]
    >
-   >You can choose to unzip the file wherever you want provided that the path is made up of any of the following regular expression characters: **-_A-Za-zxA0-xFF0-9.%@=+,/\:.**. The installation path must not include any whitespace characters.
+   >You can choose to unzip the file wherever you want provided that the path is made up of any of the following regular expression characters: **`-_A-Za-z\xA0-\xFF0-9\.\%\@\=\+\,\/\\\:.`**. The installation path must not include any whitespace characters.
 
 1. Go to the file in which you have unzipped the file then double click on the **run_me.bat** file to launch the installation script.
 
@@ -70,7 +74,7 @@ To install and configure SpamAssassin on Windows to enable integration with Adob
 
 1. To check that the SpamAssassin installation was successful, use the GTUBE test (Generic Test for Unsolicited Bulk Email) using the following procedure:
 
-    1. Create a text file and save it under **C:TestSpamMail.txt**.
+    1. Create a text file and save it under **C:\TestSpamMail.txt**.
     1. Insert the following content into the file:
 
        ```    
@@ -85,24 +89,23 @@ To install and configure SpamAssassin on Windows to enable integration with Adob
        Content-Transfer-Encoding: 7bit
        
        XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
-       
        ```
 
-    1. Double-click on the **portableShell.bat** file to display a Windows Shell then launch the following command (or " `<root>  " designates the created folder when unzipping the  <strong>spamassassin.zip</strong> file): </root>`
+    1. Double-click on the **portableShell.bat** file to display a Windows Shell then launch the following command (or "`<root>`" designates the created folder when unzipping the  **spamassassin.zip** file):`
 
        ```    
-        "<root>perlsitebinspamassassin" "C:TestSpamMail.txt"
+        "<root>\perl\site\bin\spamassassin" "C:\TestSpamMail.txt"
        ```    
     
        The content of this test email triggers a 1,000 point score by SpamAssassin. This means it has been detected as undesirable and that the installation was successful and is fully functional.
 
 ### Integrating SpamAssassin into Adobe Campaign {#integrating-spamassassin-into-adobe-campaign}
 
-1. Edit the **[INSTALL]/conf/serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
+1. Edit the **`[INSTALL]/conf/serverConf.xml`** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 1. Change the value of the **spamCheck** elements' **command** attribute in the **Web** node. To do this, run the following command:
 
    ```
-   <spamCheck command='"<absolute path to the folder where you unzipped the zip file>call_perl_with_args.bat" "<absolute path to nlserver>/spamcheck.pl"'/>
+   <spamCheck command='"<absolute path to the folder where you unzipped the zip file>\call_perl_with_args.bat" "<absolute path to nlserver>/spamcheck.pl"'/>
    ```
 
    >[!NOTE]
@@ -116,7 +119,7 @@ To install and configure SpamAssassin on Windows to enable integration with Adob
    Double-click on the **portableshell.bat** file. This triggers the display of a Windows Shell. Then run the following command:
 
    ```
-   perl "[INSTALL]binspamcheck.pl" "C:TestSpamMail.txt"
+   perl "[INSTALL]\bin\spamcheck.pl" "C:\TestSpamMail.txt"
    ```
 
    The content of this test email triggers 1,000 points assigned by SpamAssassin. This means it has been detected as undesirable and that integration in Adobe Campaign was successful and is fully functional.
@@ -145,10 +148,11 @@ To install and configure SpamAssassin on Windows to enable integration with Adob
   apt-get install spamassassin libxml-writer-perl
   ```
 
-* In the **serverConf.xml** file (available in /usr/local/[INSTALL]/nl6/conf/), change the **spamCheck** line as follows:
+* In the **serverConf.xml** file (available in /usr/local/`[INSTALL]`/nl6/conf/), change the **spamCheck** line as follows:
 
   ```
-  <spamCheck command="perl /usr/local/[NSTALL]/nl6/bin/spamcheck.pl"/>
+  <spamCheck command="perl
+  /usr/local/[NSTALL]/nl6/bin/spamcheck.pl"/>
   ```
 
 ### Installation steps in RHEL/CentOS {#installation-steps-in-rhel-centos}
@@ -187,7 +191,7 @@ crontab-e
 
 ### Performance optimization {#performance-optimization}
 
-To improve performances in Linux, edit the ** /etc/spamassassin/local.cf** file and add the following line at the end of the file:
+To improve performances in Linux, edit the **/etc/spamassassin/local.cf** file and add the following line at the end of the file:
 
 ```
 dns_available no

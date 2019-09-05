@@ -22,7 +22,7 @@ Adobe Campaign offers a choice of three hosting models, providing flexibility an
 
 >[!NOTE]
 >
->Main installation and configuration steps can only be performed by Adobe for deployments hosted by Adobe. For example, to configure the server and instance configuration files. To learn more about the main differences between deployment modes, refer to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md). If you have a hosted or hybrid model, please refer to this [section](../../installation/using/hosting-models.md).
+>Main installation and configuration steps can only be performed by Adobe for deployments hosted by Adobe. For example, to configure the server and instance configuration files. To learn more about the main differences between deployment modes, refer to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html). If you have a hosted or hybrid model, please refer to this [section](../../installation/using/about-hybrid-and-hosted-models.md).
 
 * **Managed Services (Hosted)**
 

@@ -22,7 +22,7 @@ snippet: y
 
 Adobe Campaign provides you with two sets of pre-packaged architectural options for dimensioning your deployment:
 
-* ** Power Booster**
+* **Power Booster**
 
   This option provides support for a single additional execution instance decoupled from the primary Adobe Campaign application instance. Dedicated execution instances can be hosted remotely or by a third party. When implemented, email execution, tracking, mirror pages, and bounce messages are handled independently of the central application functions.
 

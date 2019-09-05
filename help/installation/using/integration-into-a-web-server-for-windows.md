@@ -25,7 +25,7 @@ You can use this integrated Tomcat server to serve HTTP requests.
 In this case:
 
 * the default listening port is 8080. To change it, refer to [Configuring Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
-* The client consoles then connect using a URL such as [https:// `<computer>  :8080 </computer>`](https://machine:8080).
+* The client consoles then connect using a URL such as [https:// `<computer>`:8080](https://machine:8080).
 
 However, for security and administration reasons, we recommend using a dedicated Web server as the main entry point for HTTP traffic when the computer that is running Adobe Campaign is exposed on the Internet and you wish to open access to the console outside of your network.
 
@@ -57,12 +57,12 @@ Apply the following configuration steps:
    You must at least specify the name of the site and the access path to the virtual directory. Since the path for accessing the Website directory is not used, you can use the following directory.
 
    ```
-   C:inetpubwwwroot
+   C:\inetpub\wwwroot
    ```
 
    ![](assets/s_ncs_install_iis7_parameters_step1.png)
 
-1. A **VBS** script enables you to automatically configure the resources used by the Adobe Campaign server on the virtual directory we have just created. To launch it, double click the **iis_neolane_setup.vbs** file located in the **[INSTALL]tomcat-7conf** folder, where **[INSTALL]** is the path for accessing the Adobe Campaign installation folder.
+1. A **VBS** script enables you to automatically configure the resources used by the Adobe Campaign server on the virtual directory we have just created. To launch it, double click the **iis_neolane_setup.vbs** file located in the `[INSTALL]\tomcat-7\conf` folder, where `[INSTALL]` is the path for accessing the Adobe Campaign installation folder.
 
    ![](assets/s_ncs_install_iis7_parameters_step2.png)
 
@@ -70,9 +70,9 @@ Apply the following configuration steps:
    >
    >In case of a Windows server 2008/IIS7 installation, you must be logged in as an administrator to run the VBS script or execute the script as administrator.
 
-   Click **[!UICONTROL OK]** if the Web server is used as a tracking redirection server, otherwise click **[!UICONTROL Cancel]** .
+   Click **[!UICONTROL OK]** if the Web server is used as a tracking redirection server, otherwise click **[!UICONTROL Cancel]**.
 
-   When multiple sites are already configured on the Web server, an intermediate page is displayed to specify to which Web site the installation applies: enter the number linked to the site and click **[!UICONTROL OK]** .
+   When multiple sites are already configured on the Web server, an intermediate page is displayed to specify to which Web site the installation applies: enter the number linked to the site and click **[!UICONTROL OK]**.
 
    ![](assets/s_ncs_install_iis7_parameters_step3.png)
 

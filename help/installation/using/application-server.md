@@ -28,15 +28,19 @@ You must first install a JDK on the computers on which you wish to run the Adobe
 
 The application has been approved for the Java Development Kit (JDK) developed by Oracle as well as for **OpenJDK**.
 
-The supported versions are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
+The supported versions are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
 >[!NOTE]
 >
->It can be installed using the appropriate JDK version already used by other applications on the machine.  
+>It can be installed using the appropriate JDK version already used by other applications on the machine.
+>  
 >When installing, you are not required to perform the integration with the Web browsers.  
+>
 >On a machine which only executes delivery agents (**nlserver mta** process) or the workflow server (**nlserver wfserver** process), installing a JDK isn't necessary.
 
-To download Java JDK, connect to: [https://www.oracle.com/technetwork/java/javase/downloads/index.md](https://java.sun.com/). **Warning: you must download a JDK, not a JRE.**
+To download Java JDK, connect to: [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html). 
+
+**Warning: you must download a JDK, not a JRE.**
 
 >[!CAUTION]
 >
@@ -47,25 +51,19 @@ To install the JDSL in a Linux environment, it is preferable to use a package ma
 In Debian 7 and 8, use the following command:
 
 ```
-
 aptitude install openjdk-7-jdk
-
 ```
 
 For RHEL 6, use the following command:
 
 ```
-
 yum install java-1.8.0-openjdk
-
 ```
 
 For RHEL 7, use the following command:
 
 ```
-
 yum install java-1.8.0-openjdk
-
 ```
 
 ## OpenSSL {#openssl}

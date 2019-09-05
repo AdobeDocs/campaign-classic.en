@@ -22,7 +22,7 @@ Several server side technical settings can be added or modified to match your ne
 
 >[!NOTE]
 >
->Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md). The installation and configuration steps for hosted and hybrid models are presented in this [section](../../installation/using/hosted-model.md).
+>Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html). The installation and configuration steps for hosted and hybrid models are presented in this [section](../../installation/using/hosted-model.md).
 
 The configuration files are stored in the **conf** folder of the Adobe Campaign installation folder. The configuration is spread over two files:
 
@@ -96,7 +96,7 @@ All of the rights defining a zone are as follows:
 * **allowDebug**: enables a webApp to be executed in "debug" mode
 * **allowEmptyPassword**: authorizes a connection to an instance without a password
 * **allowHTTP**: a session can be created without using the HTTPS protocol
-* **allowUserPassword**: the session token can have the following form " `<login>  /  <password>   "  </password> </login>`
+* **allowUserPassword**: the session token can have the following form "`<login>/<password>`"
 * **sessionTokenOnly**: the security token is not required in the connection URL
 * **showErrors**: errors on the server side are forwarded and displayed
 
@@ -130,10 +130,9 @@ In the definition of the **lan** security zone, it's possible to add an IP addre
 
 We recommend defining IP address ranges directly in the configuration file dedicated to the instance for operators who access only a specific instance.
 
-In the **config- `<instance>  .xml </instance>`** file:
+In the **`config-<instance>.xml`** file:
 
 ```
-
   <securityZone name="public">
    ...
     <securityZone name="vpn">
@@ -169,7 +168,7 @@ Various cases can occur:
 
   ![](assets/8101_proxy3.png)
 
-The IP addresses of proxies that are likely to access the Adobe Campaign server must be entered in both the **`<subnetwork>`** concerned and the first level subnetwork **`<subnetwork name="all" />`**. For example, here for a proxy whose IP address is 10.131.146.102:
+The IP addresses of proxies that are likely to access the Adobe Campaign server must be entered in both the **`<subnetwork>`** concerned and the first level subnetwork **`<subnetwork name="all"/>`**. For example, here for a proxy whose IP address is 10.131.146.102:
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" label="Public Network" 
@@ -208,7 +207,7 @@ This configuration is done in the Campaign explorer:
    ![](assets/enum_securityzone.png)
 
 1. For each security zone defined in the configuration file of the server, click the **[!UICONTROL Add]** button. 
-1. In the **[!UICONTROL Internal name]** field, enter the name of the zone defined in the **serverConf.xml** file. It corresponds to the **@name** attribute of the `<securityzone>  element. Enter the label linked to the internal name in the  <span class="uicontrol">Label</span> field. </securityzone>`
+1. In the **[!UICONTROL Internal name]** field, enter the name of the zone defined in the **serverConf.xml** file. It corresponds to the **@name** attribute of the `<securityzone>`  element. Enter the label linked to the internal name in the  **Label**field.
 
    ![](assets/enum_addsecurityvalue.png)
 
@@ -296,7 +295,7 @@ You can improve outbound SMTP traffic through affinities with IP addresses.
 
 To do this, apply the following steps:
 
-1. Enter the affinities in the **`<ipaffinity>`**section of the **serverConf.xml** file.
+1. Enter the affinities in the **`<ipaffinity>`** section of the **serverConf.xml** file.
 
    One affinity can have several different names: to separate them, use the **;** character.
 
@@ -336,7 +335,6 @@ Three connection protection modes exist:
 * **Warning**: all non-white URLs are allowed, but the JS interpreter emits a warning, so that the administrator can collect them. This mode adds JST-310027 warning messages.
 
 ```
-
 <urlPermission action="warn" debugTrace="true">
   <url dnsSuffix="abc.company1.com" urlRegEx=".*" />
   <url dnsSuffix="def.partnerA_company1.com" urlRegEx=".*" />
@@ -347,6 +345,7 @@ Three connection protection modes exist:
 >[!CAUTION]
 >
 >By default, new customers' client use the **blocking mode**. If they need to allow a new URL, they should contact their administrator to whitelist it.
+>
 >Existing customers coming from a migration can use the **warning mode** for a while. Meanwhile they need to analyze the outbound traffic before authorizing the URLs. Once the list of authorized URLs defined, they should contact their administrator to whitelist the URLs and activate the **blocking mode**.
 
 ## Dynamic page security and relays {#dynamic-page-security-and-relays}
@@ -395,7 +394,7 @@ The parameters are as follows:
 <url IPMask=""               deny="true" hostMask="" relayHost="false" relayPath="false" targetUrl="http://localhost:8080" timeout="" urlPath="*.jssp"/>
 ```
 
-In this example, the **`<ip_addresses>`** value coincides with the list of IP addresses (separated by comas) authorized to use the relay module for this mask.
+In this example, the **`<IP_addresses>`** value coincides with the list of IP addresses (separated by comas) authorized to use the relay module for this mask.
 
 >[!NOTE]
 >
@@ -484,11 +483,11 @@ To obtain the hostname of the computer, run the following command: **hostname -s
 
 Public resources are presented in [Managing public resources](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
-They are stored in the **/var/res/**instance************************ directory of the Adobe Campaign installation directory.
+They are stored in the **/var/res/instance** directory of the Adobe Campaign installation directory.
 
-The matching URL is: **http://**server**/res/**instance**** where **instance** is the name of the tracking instance.
+The matching URL is: **http://server/res/instance** where **instance** is the name of the tracking instance.
 
-You can specify another directory by adding a node to the **conf-**`<instance>`**.xml** file to configure storage on the server. This means adding the following lines:
+You can specify another directory by adding a node to the **conf-`<instance>`.xml** file to configure storage on the server. This means adding the following lines:
 
 ```
 <serverconf>
@@ -523,7 +522,7 @@ You can choose to force the execution of a workflow or a workflow activity on a 
 
    The drop-down list contains formerly used affinities. It is completed over time with the different entered values.
 
-1. Open the **nl6/conf/config- `<instance>  .xml </instance>`** file.
+1. Open the **nl6/conf/config-`<instance>.xml`** file.
 1. Modify the line which matches the **[!UICONTROL wfserver]** module as follows:
 
    ```

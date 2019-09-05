@@ -99,3 +99,175 @@ Apply the following steps:
 
 1. Then add Adobe Campaign users to the Apache user group and vice versa using the following type of command:
 
+    ```
+    usermod neolane -G www-data
+    usermod www-data -G neolane
+    ```
+
+1. Restart Apache:
+
+    ```
+    invoke-rc.d apache2 restart
+    ```
+
+## Configuring Apache web server in RHEL {configuring-apache-web-server-in-rhel}
+
+This procedure applies if you have installed and secured Apache under a RPM (RHEL, CentOS and Suse) based package.
+
+Apply the following steps:
+
+1. In the `httpd.conf` file, activate the following Apache modules:
+
+    ```
+    alias
+    authz_host
+    mime
+    ```
+
+1. Deactivate the following modules:
+
+    ```
+    auth_basic
+    authn_file
+    authz_default
+    authz_user
+    autoindex
+    cgi
+    dir
+    env
+    negotiation
+    userdir
+    ```
+
+Comment the functions linked to deactivated modules:
+
+    ```
+    DirectoryIndex
+    IndexOptions    
+    AddIconByEncoding    
+    AddIconByType    
+    AddIcon    
+    DefaultIcon    
+    ReadmeName    
+    HeaderName    
+    IndexIgnore    
+    LanguagePriority    
+    ForceLanguagePriority
+    ```
+
+1. Create an Adobe Campaign specific configuration file in the `/etc/httpd/conf.d/` folder.
+
+ For example `CampaignApache.conf`.
+
+1. For **RHEL6**, add the following instructions in the file:
+
+    ```
+    LoadModule requesthandler22_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
+    Include /usr/local/neolane/nl6/tomcat-7/conf/apache_neolane.conf
+    ```
+ 
+For **RHEL7**, add the following instructions in the file:
+
+LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
+Include /usr/local/neolane/nl6/tomcat-7/conf/apache_neolane.conf
+
+1. For **RHEL6**:
+
+Add the following instructions in the `/etc/sysconfig/httpd` file:
+
+    ```
+    #Neolane/Adobe Campaign Configuration
+    if [ "$LD_LIBRARY_PATH" != "" ]; then export LD_LIBRARY_PATH="/usr/local/neolane/nl6/lib:$LD_LIBRARY_PATH"; else export LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib; fi
+    export USERPATH=/usr/local/neolane
+    ```
+
+For **RHEL7**:
+
+Add the `/etc/systemd/system/httpd.service` file with the following content:
+
+    ```
+    .include /usr/lib/systemd/system/httpd.service
+    
+    [Service]
+    Environment=USERPATH=/usr/local/neolane LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib
+    ````
+
+Update the module used by systemd:
+
+    ```
+    systemctl daemon-reload
+    ```
+
+1. Then add Adobe Campaign operators into the Apache operators group and vice-versa, by running the command:
+
+    ```
+    usermod -a -G neolane apache
+    usermod -a -G apache neolane
+    ```
+The group names to use depend on the way Apache is configured.
+
+1. Run Apache and the Adobe Campaign server.
+
+For RHEL6:
+
+    ```
+    /etc/init.d/httpd start
+    /etc/init.d/nlserver start
+    ```
+
+For RHEL7:
+
+    ```
+    systemctl start httpd
+    systemctl start nlserver
+    ```
+
+## Launching the Web server and testing the configuration{launching-the-web-server-and-testing-the-configuration}
+
+You can now test the configuration by starting Apache. The Adobe Campaign module should now display its banner on the console (two banners on certain operating systems):
+
+```
+ /etc/init.d/apache start
+```
+
+The following information is displayed:
+
+```
+12:26:28 >   Application server for Adobe Campaign Version 7.X (build XXXX) of DD/MM/YYYY
+12:26:28 >   Web server start (pid=29698, tid=-1212463424)...
+12:26:28 >   Server started
+12:26:28 >   Application server for Adobe Campaign Version 6.X (build XXXX) of DD/MM/YYYY
+12:26:28 >   Web server start (pid=29698, tid=-1212463424)...
+12:26:28 >   Server started
+```
+
+Next check that it responds by submitting a test URL.
+
+You can test this from the command line by executing:
+
+```
+ telnet localhost 80  
+```
+
+You should obtain:
+
+```
+Trying 127.0.0.1...
+Connected to localhost.localdomain.
+Escape character is '^]'.
+````
+
+Then enter:
+
+```
+GET /r/test
+````
+
+The following information is displayed:
+
+```
+<redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='' localHost='XXXX'/>
+Connection closed by foreign host.
+````
+
+You can also request the URL [http://`<computer>`](machine/r/test) from a Web browser.
