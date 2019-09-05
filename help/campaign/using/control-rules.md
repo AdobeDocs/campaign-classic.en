@@ -55,7 +55,6 @@ Apply the following steps:
 
    ```
    if( delivery.FCP == false && delivery.properties.toDeliver > 100 ) { logWarning("Significant number of SMS to deliver (" + delivery.properties.toDeliver + "). Please make sure the target is correct.") return false; } return true
-   
    ```
 
 1. Link this rule to a campaign typology and reference the typology in the concerned SMS delivery.

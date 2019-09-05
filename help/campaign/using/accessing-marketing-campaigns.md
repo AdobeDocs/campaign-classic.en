@@ -39,14 +39,15 @@ The navigation block of the **[!UICONTROL Campaigns]** universe offers various e
 
 >[!NOTE]
 >
->For more on the overall Adobe Campaign ergonomics, permissions and on profile management functionalities, refer to [this section](../../platform/using/adobe-campaign-workspace.md).  
+>For more on the overall Adobe Campaign ergonomics, permissions and on profile management functionalities, refer to [this section](../../platform/using/adobe-campaign-workspace.md).
+>
 >All functionalities related to channels and deliveries are detailed in [this section](../../delivery/using/communication-channels.md).
 
 ### Campaign calendar {#campaign-calendar}
 
 Each campaign belongs to a program which in turn belongs to a plan. Plans, programs and campaigns are accessed via the **[!UICONTROL Campaign calendar]** menu in the **Campaigns** universe.
 
-To edit a plan, program, campaign or delivery, click its name in the calendar and then click **[!UICONTROL Open...]** . It is then displayed in a new tab, as shown below:
+To edit a plan, program, campaign or delivery, click its name in the calendar and then click **[!UICONTROL Open...]**. It is then displayed in a new tab, as shown below:
 
 ![](assets/d_ncs_user_interface_hierar.png)
 
@@ -155,7 +156,7 @@ Campaigns are created via campaign templates. You can configure reusable templat
 
 You can access the Adobe Campaign console screens via an internet browser to view all campaigns and deliveries as well as reports and information on the profiles in your database. This access does not enable record creation. Depending on operator rights, you may view and/or act on the data in the database. For example, you can approve campaign contents and targeting, re-start or stop a delivery, etc.
 
-1. Log on as usual via https://`<your instance=""> : <port>  /view/home </port></your>`.
+1. Log on as usual via https://`<your instance>:<port>/view/home`.
 1. Use the menus to access the overviews.
 
    ![](assets/s_ncs_user_interface_web_campaign_01.png)

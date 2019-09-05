@@ -123,22 +123,22 @@ Once the checks have been approved, the campaign can start automatically.
 
 #### Creating a data distribution activity {#creating-a-data-distribution-activity}
 
-1. To set up a collaborative campaign (by target approval) you must first create a **[!UICONTROL Data distribution activity]** . Click the **[!UICONTROL New]** icon in the **[!UICONTROL Resources > Campaign management > Data distribution]** node.
+1. To set up a collaborative campaign (by target approval) you must first create a **[!UICONTROL Data distribution activity]**. Click the **[!UICONTROL New]** icon in the **[!UICONTROL Resources > Campaign management > Data distribution]** node.
 
    ![](assets/mkg_dist_use_case_target_valid3.png)
 
 1. In the **[!UICONTROL General]** tab, you must specify:
 
-    * the **[!UICONTROL Targeting dimension]** . Here the **Data distribution** is carried out on the **Recipients**.
-    * the **[!UICONTROL Distribution type]** . You can choose a **Fixed size** or a **Size as a percentage**.
-    * the **[!UICONTROL Assignment type]** . Select the **Local entity** option.
-    * the **[!UICONTROL Distribution type]** . Here, it is the **[!UICONTROL Origin (@origin)]** field present in the Recipient table that lets you identify the relationship between the contact and the local entity.
+    * the **[!UICONTROL Targeting dimension]**. Here the **Data distribution** is carried out on the **Recipients**.
+    * the **[!UICONTROL Distribution type]**. You can choose a **Fixed size** or a **Size as a percentage**.
+    * the **[!UICONTROL Assignment type]**. Select the **Local entity** option.
+    * the **[!UICONTROL Distribution type]**. Here, it is the **[!UICONTROL Origin (@origin)]** field present in the Recipient table that lets you identify the relationship between the contact and the local entity.
     * The **[!UICONTROL Approval storage]** field. Select the **Local approval of recipient** option.
 
 1. In the **[!UICONTROL Breakdown]** tab, specify:
 
-    * the **[!UICONTROL Distribution field value]** , which corresponds to the local entities involved in the upcoming campaign.
-    * the local entity **[!UICONTROL label]** .
+    * the **[!UICONTROL Distribution field value]**, which corresponds to the local entities involved in the upcoming campaign.
+    * the local entity **[!UICONTROL label]**.
     * the **[!UICONTROL Size]** (fixed or as a percentage). The **0 default value** involves selecting all the recipients linked to the local entity.
 
    ![](assets/mkg_dist_use_case_target_valid4.png)
@@ -147,7 +147,7 @@ Once the checks have been approved, the campaign can start automatically.
 
 #### Creating a collaborative campaign {#creating-a-collaborative-campaign}
 
-1. From the **[!UICONTROL Campaign management > Campaign]** node, create a new **[!UICONTROL collaborative campaign (by target approval)]** .
+1. From the **[!UICONTROL Campaign management > Campaign]** node, create a new **[!UICONTROL collaborative campaign (by target approval)]**.
 1. In the **[!UICONTROL Targeting and workflows]** tab, create a workflow for your campaign. This must contain a **Split** activity in which the **[!UICONTROL Record count limitation]** is defined by the **[!UICONTROL Data distribution]** activity.
 
    ![](assets/mkg_dist_use_case_target_valid5.png)
@@ -166,7 +166,7 @@ Once the checks have been approved, the campaign can start automatically.
 
 You can now add a **campaign package** from the **Campaigns** universe.
 
-1. Choose your **[!UICONTROL Reference campaign]** . In the **[!UICONTROL Edit]** tab of your package, you can select the **[!UICONTROL Approval mode]** to use for your campaign:
+1. Choose your **[!UICONTROL Reference campaign]**. In the **[!UICONTROL Edit]** tab of your package, you can select the **[!UICONTROL Approval mode]** to use for your campaign:
 
     * in **Manual** mode, the local entities participate in the campaign if they accept the invitation from the central entity. They can delete pre-selected contacts if they want to and approval from the manager is necessary to confirm their participation in the campaign.
     * in **Automatic** mode, the local entities must participate in the campaign, unless they unregister themselves from it. They can delete contacts without needing approval.

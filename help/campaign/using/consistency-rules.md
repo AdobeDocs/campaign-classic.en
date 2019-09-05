@@ -34,7 +34,7 @@ In the following example, we create a typology rule for a phone loyalty campaign
 
 To design a new capacity rule, follow the steps below:
 
-1. Under the **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** node, click **[!UICONTROL New]** .
+1. Under the **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** node, click **[!UICONTROL New]**.
 1. Select a **[!UICONTROL Capacity]** rule type.
 
    ![](assets/campaign_opt_create_capacity_01.png)
@@ -62,7 +62,7 @@ To define the maximum load, you need to define availability lines. To do this, t
 
 ### Adding availability lines one by one {#adding-availability-lines-one-by-one}
 
-To create an availability line, click the **[!UICONTROL Add]** button and select **[!UICONTROL Add an availability line]** . Enter the availability period and the available load.
+To create an availability line, click the **[!UICONTROL Add]** button and select **[!UICONTROL Add an availability line]**. Enter the availability period and the available load.
 
 ![](assets/campaign_opt_create_capacity_02.png)
 
@@ -110,7 +110,9 @@ The number of messages to be processed is broken down evenly over the defined av
 
 >[!NOTE]
 >
->In case of an overload, the saved messages are selected according to the formula defined in the delivery properties:
+>In case of an overload, the saved messages are selected according to the formula defined in the delivery properties.
+
+![](assets/campaign_opt_create_capacity_06.png)
 
 ## Monitoring consumption {#monitoring-consumption}
 

@@ -62,12 +62,12 @@ In this example, we will integrate a table of purchases in our response manageme
 
 The table of response logs on a **[!UICONTROL nms:remaMatchRcp]** recipient is extended to add a link to the purchase table schema. In the following example, the purchase table is called **demo:purchase**.
 
-1. Via the Adobe Campaign explorer, select the **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]** .
-1. Right-click **Recipient** then select **[!UICONTROL Actions]** and **[!UICONTROL Modify the options of the targeting dimensions]** .
+1. Via the Adobe Campaign explorer, select the **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**.
+1. Right-click **Recipient** then select **[!UICONTROL Actions]** and **[!UICONTROL Modify the options of the targeting dimensions]**.
 
    ![](assets/delivery_mapping1.png)
 
-1. You can personalize the **[!UICONTROL Extension namespace]** in the next window, then click **[!UICONTROL Next]** .
+1. You can personalize the **[!UICONTROL Extension namespace]** in the next window, then click **[!UICONTROL Next]**.
 
    ![](assets/delivery_mapping2.png)
 
@@ -126,7 +126,6 @@ In this example, we will integrate a purchase table in our response management m
       <element label="Delivery log" name="broadLog" target="demo:broadLogPers" type="link"/>
     </element>
   </srcSchema>
-  
   ```
 
 * Modifying the hypothesis form in the **[!UICONTROL nms:remaHypothesis]** schema.
@@ -144,7 +143,6 @@ In this example, we will integrate a purchase table in our response management m
             <input xpath="@controlGroup"/>
           </input>
      </container> 
-   
   ```
 
 ## Managing indicators {#managing-indicators}

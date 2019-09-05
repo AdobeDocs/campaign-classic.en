@@ -34,7 +34,7 @@ To create a hypothesis on an existing delivery, apply the following process:
 >
 >This operation is only possible for pending deliveries.
 
-1. In the Adobe Campaign tree, go to **[!UICONTROL Campaign management > Measurement hypotheses]** .
+1. In the Adobe Campaign tree, go to **[!UICONTROL Campaign management > Measurement hypotheses]**.
 1. Click the **[!UICONTROL New]** button or right-click on the list of hypotheses and select **[!UICONTROL New]** in the drop-down list.
 
    ![](assets/response_hypothesis_instance_creation_002.png)
@@ -55,16 +55,18 @@ To create a hypothesis on an existing delivery, apply the following process:
 
    ![](assets/response_hypothesis_instance_creation_005.png)
 
-1. You can personalize your hypothesis by editing the **[!UICONTROL General]** , **[!UICONTROL Transactions]** and **[!UICONTROL Scope]** tabs. For more on this, refer to [Creating a hypothesis model](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model).
-1. Start the hypothesis by clicking **[!UICONTROL Start]** .
+1. You can personalize your hypothesis by editing the **[!UICONTROL General]**, **[!UICONTROL Transactions]** and **[!UICONTROL Scope]** tabs. For more on this, refer to [Creating a hypothesis model](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model).
+1. Start the hypothesis by clicking **[!UICONTROL Start]**.
 
    A workflow is automatically created to perform the measurement. The name is automatically defined depending on the hypothesis configuration.
 
    >[!CAUTION]
    >
    >You can access this if you have checked the **[!UICONTROL Keep execution workflow]** box.  
-   >This option must be activated for debugging purposes only, in case of error while running the hypothesis. Workflows generated automatically are saved in the **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Objects created automatically]** > **[!UICONTROL Campaign workflows]** folder in the Adobe Campaign explorer.  
-   >In addition, workflows generated automatically must not be modified. Any eventual modification would not be taken into account elsewhere for later calculations.  
+   >This option must be activated for debugging purposes only, in case of error while running the hypothesis. Workflows generated automatically are saved in the **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Objects created automatically]** > **[!UICONTROL Campaign workflows]** folder in the Adobe Campaign explorer. 
+   > 
+   >In addition, workflows generated automatically must not be modified. Any eventual modification would not be taken into account elsewhere for later calculations. 
+   >
    >If you have checked this option, delete the workflow after it has executed.
 
    ![](assets/response_hypothesis_instance_creation_006.png)
@@ -153,7 +155,7 @@ In this example, we want to create a hypothesis linked to a delivery. This hypot
    >
    >For more information, refer to [Defining a control group](../../campaign/using/setting-up-marketing-campaigns.md#defining-a-control-group).
 
-1. Open the **[!UICONTROL Direct mail delivery]** and click the **[!UICONTROL Delivery measurement]** icon, then click **[!UICONTROL Add]** .
+1. Open the **[!UICONTROL Direct mail delivery]** and click the **[!UICONTROL Delivery measurement]** icon, then click **[!UICONTROL Add]**.
 
    ![](assets/response_hypothesis_delivery_example_002.png)
 

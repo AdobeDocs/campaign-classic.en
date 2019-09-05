@@ -29,7 +29,7 @@ This lets them:
 
 ## Filter packages {#filter-packages}
 
-From the **[!UICONTROL Campaigns universe]** , you can display the list of **[!UICONTROL Campaign packages]** which regroups all existing Distributed Marketing campaigns. You can filter this list so that it displays only campaigns that are either published, late, pending approval, etc. To do this, click the links in the upper section of this view, or use the **[!UICONTROL Filter list]** link and select the campaign package status to display.
+From the **[!UICONTROL Campaigns universe]**, you can display the list of **[!UICONTROL Campaign packages]** which regroups all existing Distributed Marketing campaigns. You can filter this list so that it displays only campaigns that are either published, late, pending approval, etc. To do this, click the links in the upper section of this view, or use the **[!UICONTROL Filter list]** link and select the campaign package status to display.
 
 ![](assets/mkg_dist_catalog_filter.png)
 
@@ -63,7 +63,7 @@ The central operator can edit the order. There are two ways of doing this:
 
 The central entity can cancel a campaign package at any time.
 
-Click **[!UICONTROL Cancel]** in the campaign package **[!UICONTROL Dashboard]** .
+Click **[!UICONTROL Cancel]** in the campaign package **[!UICONTROL Dashboard]**.
 
 ![](assets/mkg_dist_cancel_op_from_dashboard.png)
 
@@ -92,7 +92,7 @@ Canceled packages can still be accessed and reinitialized by the central entity 
 Campaign packages which have already been published can be reinitialized, modified and made available to local entities.
 
 1. Select the package concerned.
-1. Click the **[!UICONTROL Reinitialize the package to reuse it]** link and click **[!UICONTROL OK]** .
+1. Click the **[!UICONTROL Reinitialize the package to reuse it]** link and click **[!UICONTROL OK]**.
 
    ![](assets/mkg_dist_mutual_op_reinit.png)
 
@@ -100,7 +100,7 @@ Campaign packages which have already been published can be reinitialized, modifi
 
    ![](assets/mkg_dist_mutual_op_reinit2.png)
 
-1. The package status changes to **[!UICONTROL Being edited]** . Modify, approve and publish it again to restore it to the list of campaign package.
+1. The package status changes to **[!UICONTROL Being edited]**. Modify, approve and publish it again to restore it to the list of campaign package.
 
 >[!NOTE]
 >

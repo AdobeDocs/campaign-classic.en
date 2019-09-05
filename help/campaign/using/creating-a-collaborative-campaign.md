@@ -26,7 +26,7 @@ To configure a collaborative campaign, click the **[!UICONTROL Campaign manageme
 
 >[!NOTE]
 >
->Apart from **[!UICONTROL collaborative campaigns (by campaign)]** , these campaigns can be configured and executed via a web interface.
+>Apart from **[!UICONTROL collaborative campaigns (by campaign)]**, these campaigns can be configured and executed via a web interface.
 
 The configuration process for a collaborative campaign database is similar to that of a local campaign template. The specifications of the different types of collaborative campaigns are detailed below.
 
@@ -82,11 +82,11 @@ The campaign workflow must integrate **Local approval** type activity. The activ
 * **[!UICONTROL Distribution context]** : Explicit.
 * **[!UICONTROL Data distribution]** : Local entity distribution.
 
-**Local entity distribution** type data distribution must be created. The data distribution template lets you limit the number of records from a list of grouping values. In **[!UICONTROL Resources > Campaign management > Data distribution]** , click the **[!UICONTROL New]** icon to create a new **[!UICONTROL Data distribution]** . For more information on data distribution, refer to the [Workflows](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-) guide.
+**Local entity distribution** type data distribution must be created. The data distribution template lets you limit the number of records from a list of grouping values. In **[!UICONTROL Resources > Campaign management > Data distribution]**, click the **[!UICONTROL New]** icon to create a new **[!UICONTROL Data distribution]**. For more information on data distribution, refer to the [Workflows](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-) guide.
 
 ![](assets/mkg_dist_data_distribution.png)
 
-Select the **Targeting dimension** and the **[!UICONTROL Distribution field]** . For the **[!UICONTROL Assignment type]** , select **Local entity**.
+Select the **Targeting dimension** and the **[!UICONTROL Distribution field]**. For the **[!UICONTROL Assignment type]**, select **Local entity**.
 
 In the **[!UICONTROL Distribution]** tab, add a field for each local entity and specify the value.
 

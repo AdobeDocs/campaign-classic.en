@@ -50,8 +50,10 @@ In the context of Adobe Campaign, the following concepts must be defined:
 
 >[!NOTE]
 >
->For more on the overall Adobe Campaign workspace, refer to [this section](../../platform/using/adobe-campaign-workspace.md).  
+>For more on the overall Adobe Campaign workspace, refer to [this section](../../platform/using/adobe-campaign-workspace.md).
+>  
 >All functionalities linked to deliveries and profile management are detailed in [this section](../../delivery/using/communication-channels.md).  
+>
 >All campaign related functionalities are detailed in [Accessing marketing campaigns](../../campaign/using/accessing-marketing-campaigns.md).
 
 Additionally, plans and programs in Adobe Campaign offer extra functionalities:
