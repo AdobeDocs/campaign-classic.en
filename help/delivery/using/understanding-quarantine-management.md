@@ -20,7 +20,11 @@ snippet: y
 
 ## About quarantines {#about-quarantines}
 
-Adobe Campaign manages a list of quarantined addresses. Recipients whose address is quarantined are excluded by default during delivery analysis, and will not be targeted. An email address can be quarantined, for example, when the mailbox is full or if the address does not exist. In any case, the quarantine procedure complies with specific rules described below. This section applies to online channels: email, SMS, push notification.
+Adobe Campaign manages a list of quarantined addresses. Recipients whose address is quarantined are excluded by default during delivery analysis, and will not be targeted. An email address can be quarantined, for example, when the mailbox is full or if the address does not exist. In any case, the quarantine procedure complies with specific rules described below.
+
+>[!NOTE]
+>
+>This section applies to online channels: email, SMS, push notification.
 
 ### Optimizing your delivery through quarantines {#optimizing-your-delivery-through-quarantines}
 
@@ -28,7 +32,7 @@ The profiles whose email addresses or phone number are in quarantine are automat
 
 Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid blacklisting by these providers.
 
-Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries. For more on best practices to secure and optimize your deliveries, refer to [this page](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.md).
+Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries. For more on best practices to secure and optimize your deliveries, refer to [this page](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
 
 ### Quarantine vs blacklisting {#quarantine-vs-blacklisting}
 
@@ -52,15 +56,22 @@ Quarantined addresses for a specific delivery are listed during the delivery pre
 
 ### Identifying quarantined addresses for the entire platform {#identifying-quarantined-addresses-for-the-entire-platform}
 
-Administrators can list the addresses in quarantine for the entire platform from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node. This menu lists quarantined elements for **email**, **SMS** and **Push notification** channels.  
+Administrators can list the addresses in quarantine for the entire platform from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node.
+
+>[!NOTE]
+>
+>This menu lists quarantined elements for **email**, **SMS** and **Push notification** channels.  
+
 The following information is available for each address:
 
 ![](assets/tech_quarant_npai.png)
 
 >[!NOTE]
 >
->The increase in number of quarantines is a normal effect, related to the "wear" of the database. For example, if the lifetime of an email address is considered to be three years and the recipients table increases by 50% each year, the increase in quarantines can be calculated as follows:  
->End of Year 1: (1&#42;0.33)/(1+0.5)=22%.  
+>The increase in number of quarantines is a normal effect, related to the "wear" of the database. For example, if the lifetime of an email address is considered to be three years and the recipients table increases by 50% each year, the increase in quarantines can be calculated as follows:
+>
+>End of Year 1: (1&#42;0.33)/(1+0.5)=22%.
+>
 >End of Year 2: ((1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%.
 
 ### Identifying quarantined addresses in delivery reports {#identifying-quarantined-addresses-in-delivery-reports}
@@ -85,11 +96,11 @@ You can look up the status of the email address of any recipient. To do this, se
 
 ### Removing a quarantined address {#removing-a-quarantined-address}
 
-If you need to remove an address from quarantine, change its status manually to **[!UICONTROL Valid]** . 
+If you need to remove an address from quarantine, change its status manually to **[!UICONTROL Valid]**. 
 
 ![](assets/tech_quarant_error_status.png)
 
-If you change the status to **[!UICONTROL Whitelisted]** , the address will be targeted systematically each time even if an error is encountered.
+If you change the status to **[!UICONTROL Whitelisted]**, the address will be targeted systematically each time even if an error is encountered.
 
 >[!CAUTION]
 >
@@ -125,10 +136,10 @@ The items put in quarantine are device tokens.
 
 For each notification, Adobe Campaign receives the synchronous and asynchronous errors from the APNS server. For the following synchronous errors, Adobe Campaign generates soft errors:
 
-* Payload length issues: no retry, the failure reason is **[!UICONTROL Unreachable]** .
-* Certificate expiration issues: no retry, the failure reason is **[!UICONTROL Unreachable]** .
-* Connection lost during the delivery: retry performed, the failure reason is **[!UICONTROL Unreachable]** .
-* Service configuration issue (invalid certificate, invalid certificate password, no certificate): no retry, the failure reason is **[!UICONTROL Unreachable]** .
+* Payload length issues: no retry, the failure reason is **[!UICONTROL Unreachable]**.
+* Certificate expiration issues: no retry, the failure reason is **[!UICONTROL Unreachable]**.
+* Connection lost during the delivery: retry performed, the failure reason is **[!UICONTROL Unreachable]**.
+* Service configuration issue (invalid certificate, invalid certificate password, no certificate): no retry, the failure reason is **[!UICONTROL Unreachable]**.
 
 The APNS server asynchronously notifies Adobe Campaign that a device token has been unregistered (when the mobile application has been uninstalled by the user). The **[!UICONTROL mobileAppOptOutMgt]** workflow runs every 6 hours to contact the APNS feedback services to update the **AppSubscriptionRcp** table. For all the deactivated tokens, the field **Disabled** is set to **True** and the subscription linked to that device token will be automatically excluded from future deliveries.
 
@@ -229,9 +240,9 @@ Synchronously, if the APNS returns an "unregistered" status for a message, the t
 
 For each notification, Adobe Campaign receives the synchronous errors directly from the FCM server. Adobe campaign handles them on the fly and generates hard or soft errors according to the severity of the error and retries can be performed:
 
-* Payload length exceeded, connection issue, service availability issue: retry performed, soft error, failure reason is **[!UICONTROL Refused]** .
-* Device quota exceeded: no retry, soft error, failure reason is **[!UICONTROL Refused]** .
-* Invalid or unregistered token, unexpected error, sender account issue: no retry, hard error, failure reason is **[!UICONTROL Refused]** .
+* Payload length exceeded, connection issue, service availability issue: retry performed, soft error, failure reason is **[!UICONTROL Refused]**.
+* Device quota exceeded: no retry, soft error, failure reason is **[!UICONTROL Refused]**.
+* Invalid or unregistered token, unexpected error, sender account issue: no retry, hard error, failure reason is **[!UICONTROL Refused]**.
 
 The **[!UICONTROL mobileAppOptOutMgt]** workflow runs every 6 hours to update the **AppSubscriptionRcp** table. For the tokens declared unregistered or no longer valid, the field **Disabled** is set to **True** and the subscription linked to that device token will be automatically excluded from future deliveries.
 
@@ -240,13 +251,12 @@ During the delivery analysis, all the devices that are excluded from the target 
 >[!NOTE]
 >
 >For customers using the Baidu connector, here are the different types of errors:  
-
 >
->* Connection issue at the beginning of the delivery: failure type **[!UICONTROL Undefined]** , failure reason **[!UICONTROL Unreachable]** , retry is performed.
->* Connection lost during a delivery: soft error, failure reason **[!UICONTROL Refused]** , retry is performed.
->* Synchronous error returned by Baidu during the sending: hard error, failure reason **[!UICONTROL Refused]** , no retry is performed.
+>* Connection issue at the beginning of the delivery: failure type **[!UICONTROL Undefined]**, failure reason **[!UICONTROL Unreachable]**, retry is performed.
+>* Connection lost during a delivery: soft error, failure reason **[!UICONTROL Refused]**, retry is performed.
+>* Synchronous error returned by Baidu during the sending: hard error, failure reason **[!UICONTROL Refused]**, no retry is performed.
 >
->Adobe Campaign contacts the Baidu server every 10 minutes to retrieve the sent message's status, and updates the broadlogs. If a message is declared as sent, the status of the message in the broadlogs is set to **[!UICONTROL Received]** . If Baidu declares an error, the status is set to **[!UICONTROL Failed]** .
+>Adobe Campaign contacts the Baidu server every 10 minutes to retrieve the sent message's status, and updates the broadlogs. If a message is declared as sent, the status of the message in the broadlogs is set to **[!UICONTROL Received]**. If Baidu declares an error, the status is set to **[!UICONTROL Failed]**.
 
 **For Android V2**
 
@@ -396,7 +406,8 @@ Before a new type of error is qualified, the failure reason is always set to **R
 
 >[!NOTE]
 >
->The failure types and reasons for failure are the same as for emails. See [Delivery failure types and reasons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).  
+>The failure types and reasons for failure are the same as for emails. See [Delivery failure types and reasons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>
 >Ask your provider for a list of status and error codes in order to set proper failure types and reasons for failure in the Delivery log qualification table.
 
 Example of a generated message:

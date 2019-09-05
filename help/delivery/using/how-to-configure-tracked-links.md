@@ -22,7 +22,8 @@ For each delivery, you can track the reception of messages and the activation of
 
 >[!NOTE]
 >
->Tracking applies to messages, but webtracking lets you monitor how recipients browse a website (pages visited, purchases).   
+>Tracking applies to messages, but webtracking lets you monitor how recipients browse a website (pages visited, purchases).
+>
 >The configuration of webtracking is presented in [this section](../../configuration/using/about-web-tracking.md).
 
 Message tracking is enabled by default. To personalize how URLs are tracked, follow the steps below:
@@ -39,7 +40,8 @@ Message tracking is enabled by default. To personalize how URLs are tracked, fol
 
    >[!CAUTION]
    >
-   >When the URL of the link is used as a label, it is recommended to desactivate tracking to avoid risks of rejection due to phishing.   
+   >When the URL of the link is used as a label, it is recommended to desactivate tracking to avoid risks of rejection due to phishing.
+   >
    >For example, if the www.adobe.com URL is inserted into the message and tracking activated on it, the content of the hypertext link will be modified to https://nlt.adobe.net/r/?id=xxxxxx. This means that it could be considered as fraudulent by recipient message clients.
 
 1. If needed, change the tracking label, double-click the label and enter a new one.
@@ -62,4 +64,3 @@ Message tracking is enabled by default. To personalize how URLs are tracked, fol
     * **[!UICONTROL Mirror page]** : considers this URL is a mirror page URL.
 
 1. In addition, you can select a category for each tracked URL in the drop-down list of the **[!UICONTROL Category]** column. These categories can be displayed reports, as for example in **[!UICONTROL URLs and click streams]** (see [this section](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). Categories are defined in a specific enumeration: **[!UICONTROL urlCategory]** (see [Managing enumerations](../../platform/using/managing-enumerations.md)).
-

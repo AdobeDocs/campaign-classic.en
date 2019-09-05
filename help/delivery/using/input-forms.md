@@ -24,8 +24,7 @@ Forms are detailed in [this section](../../configuration/using/identifying-a-for
 
 ## Form structure {#form-structure}
 
-The XML document of an input form must contain the ****
-`<form>  root element with the  <strong>name</strong> and  <strong>namespace</strong> attributes to populate the form name and its namespace, respectively.  <p></p> </form>` 
+The XML document of an input form must contain the **`<form>`** root element with the **name** and **namespace** attributes to populate the form name and its namespace, respectively.
 
 ```
 <form name="form_name" namespace="name_space">
@@ -33,8 +32,9 @@ The XML document of an input form must contain the ****
 </form>
 ```
 
-By default, a form is associated with the data schema that has the same name and namespace. To associate a form with a different name, enter the schema key in the **entity-schema** attribute of the ****
-`<form>  element.  <p></p> </form>` To illustrate the structure of an input form, we describe an interface based on our example schema "cus:book":
+By default, a form is associated with the data schema that has the same name and namespace. To associate a form with a different name, enter the schema key in the **entity-schema** attribute of the **`<form>`** element.
+
+To illustrate the structure of an input form, we describe an interface based on our example schema "cus:book":
 
 ![](assets/d_ncs_content_form1.png)
 
@@ -48,8 +48,9 @@ This is the corresponding input form:
 </form>
 ```
 
-The description of the edit elements begins with the ****
-`<form>  root element.  <p></p> </form>` An edit control is entered in an **`<input>`** element with the **xpath** attribute containing the path of the field in its schema.
+The description of the edit elements begins with the **`<form>`** root element.
+
+An edit control is entered in an **`<input>`** element with the **xpath** attribute containing the path of the field in its schema.
 
 **Reminder concerning XPath syntax:**
 
@@ -62,7 +63,7 @@ Elements are designated by their name, and attributes are designated by the name
 Examples:
 
 * **@date**: selects the attribute with the name "date"
-* **chapter/@title**: selects the "title" attribute under the `<chapter>  element </chapter>`
+* **chapter/@title**: selects the "title" attribute under the `<chapter>` element
 * **../@date**: selects the date from the parent element of the current element
 
 The edit control automatically adapts to the corresponding data type and uses the label defined in the schema.
@@ -71,7 +72,7 @@ By default, each field is displayed on one line and occupies all of the availabl
 
 >[!CAUTION]
 >
->The input form must reference a **type="contentForm"** attribute on the **** `<form>  <strong></strong> element to automatically add the frame required for content to be input.  <br /> </form>`
+>The input form must reference a **type="contentForm"** attribute on the **`<form>`** element to automatically add the frame required for content to be input.
 
 ## Formatting {#formatting}
 
@@ -146,8 +147,9 @@ Edit forms within lists are used in the following cases:
 </input>
 ```
 
-The definition of the edit form is specified via the ****
-`<form>  element under the list element. Its structure is identical to the structure of an input form.  <p></p> </form>` A **[!UICONTROL Detail]** button is automatically added when the **zoom="true"** attribute is entered in the list definition. This lets you open the edit form on the selected line.
+The definition of the edit form is specified via the **`<form>`** element under the list element. Its structure is identical to the structure of an input form.
+
+A **[!UICONTROL Detail]** button is automatically added when the **zoom="true"** attribute is entered in the list definition. This lets you open the edit form on the selected line.
 
 >[!NOTE]
 >
@@ -173,7 +175,7 @@ The list control must be filled in with the **type="notebooklist"** attribute, a
 
 The title of the tab contains the value of the data entered via the **xpath-label** attribute.
 
-The edit controls must be declared under a ** `<container>`** element that is a child of the list control.
+The edit controls must be declared under a **`<container>`** element that is a child of the list control.
 
 Use the toolbar buttons to add or delete list elements.
 
@@ -183,7 +185,7 @@ Use the toolbar buttons to add or delete list elements.
 
 ## Containers {#containers}
 
-Containers let you group a set of controls. They exist via the ** `<container>`** element. They have already been used to format controls in several columns and for the control of the tab list.
+Containers let you group a set of controls. They exist via the **`<container>`** element. They have already been used to format controls in several columns and for the control of the tab list.
 
 For more on containers and how to use them in input forms, refer to [this section](../../configuration/using/form-structure.md#containers).
 
@@ -196,4 +198,3 @@ The editing zone lets you enter the XML content of the input form:
 The **[!UICONTROL Preview]** tab lets you view the input form:
 
 ![](assets/d_ncs_content_form13.png)
-

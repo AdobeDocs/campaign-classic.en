@@ -220,11 +220,15 @@ This list is available via the **[!UICONTROL Administration > Campaign Managemen
 
 * The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Delivery log qualification]** table. If this column is not displayed, click the **[!UICONTROL Configure list]** button at the right bottom of the list to select it.
 
-  Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **#**xxx**#**, except addresses that are replaced with **&#42;**.
+![](assets/tech_quarant_rules_qualif_text.png)
+
+  Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
 
   This process allows to bring together all failures of the same type and avoid multiple entries for similar errors in the Delivery log qualification table.
-
-* The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
+  
+  >[!NOTE]
+  >
+  >The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
 
 Bounce mails can have the following qualification status:
 
@@ -283,5 +287,3 @@ The default rules are as follows:
 >
 >* The delivery server (MTA) must be restarted if the parameters have been changed.
 >* The modification or creation of management rules is for expert users only.
->
-

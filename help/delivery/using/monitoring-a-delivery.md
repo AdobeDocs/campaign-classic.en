@@ -24,8 +24,8 @@ The **delivery dashboard** is key to monitor your deliveries and eventual issues
 
 * [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 * [Understanding quarantine management](../../delivery/using/understanding-quarantine-management.md)
-* [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.md)
-* [Getting started: Managing deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md)
+* [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html)
+* [Getting started: Managing deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html)
 
 ## Delivery dashboard {#delivery-dashboard}
 
@@ -45,7 +45,7 @@ The **[!UICONTROL reports]** link lets you look at a set of reports concerning t
 
 The **[!UICONTROL Delivery]** tab gives a history of the occurrences in this delivery. It contains the delivery logs, i.e. the list of messages sent and their status and the associated messages.
 
-For a delivery, you can display (for example) only recipients with a failed delivery or an address in quarantine. To do this, click the **[!UICONTROL Filters]** button and select **[!UICONTROL By state]** . Then select the state in the drop-down list.
+For a delivery, you can display (for example) only recipients with a failed delivery or an address in quarantine. To do this, click the **[!UICONTROL Filters]** button and select **[!UICONTROL By state]**. Then select the state in the drop-down list.
 
 ![](assets/s_ncs_user_delivery_delivery_tab.png)
 
@@ -88,7 +88,7 @@ From your delivery dashboard, you want to check the processed messages and deliv
 Some indicators or status can be incorrect or not up-to-date, this may be resolved with the following solutions:
 
 * If your delivery status is incorrect, check that all necessary approvals have been done for this delivery or that the **[!UICONTROL operationMgt]** and **[!UICONTROL deliveryMgt]** workflows are running without errors. This can also be due to the delivery using an affinity not configured on the sending instance.
-* If your delivery indicators are still at zero and if you are on a mid-sourcing configuration, check the **[!UICONTROL Mid-sourcing (delivery counters)]** technical workflow. Start it if its status is not **[!UICONTROL Started]** . You can then try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** . For more information on tracking indicators, refer to this [section](../../reporting/using/reports-on-deliveries.md#tracking-indicators).
+* If your delivery indicators are still at zero and if you are on a mid-sourcing configuration, check the **[!UICONTROL Mid-sourcing (delivery counters)]** technical workflow. Start it if its status is not **[!UICONTROL Started]**. You can then try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**. For more information on tracking indicators, refer to this [section](../../reporting/using/reports-on-deliveries.md#tracking-indicators).
 * If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** to resynchronize. For more information on tracking indicators, refer to this [section](../../reporting/using/reports-on-deliveries.md#tracking-indicators).
 * If your delivery counter is not up-to-date for mid-sourcing deployments, check that the **[!UICONTROL Mid-Sourcing (Delivery counters)]** technical workflow is running. For more on this, refer to this [page](../../installation/using/mid-sourcing-deployment.md).
 
@@ -102,7 +102,7 @@ If delivery performances are bad, you can check:
 
 * **The size of the delivery**: Large deliveries can take longer to complete. MTA children are configured to handle a default batch size, which works for most instances, but need to be checked when deliveries are constantly slow.
 * **The target of the delivery**: Delivery performances ban be affected by soft bounce errors, which are handled according to the retry configuration. The greater the number of errors, the more retries needed. 
-* **The overall platform load**: When several large deliveries are being sent, the overall platform can be affected. You can also check IP reputation and deliverability issues. For more on this, refer to Adobe Campaign [Deliverability best practices guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) and to [this page](../../delivery/using/about-deliverability.md).
+* **The overall platform load**: When several large deliveries are being sent, the overall platform can be affected. You can also check IP reputation and deliverability issues. For more on this, refer to Adobe Campaign [Deliverability best practices guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and to [this page](../../delivery/using/about-deliverability.md).
 
 Platform and database maintenance can also affect delivery sending performances. For more on this, refer to [this page](../../production/using/database-performances.md).
 
@@ -111,11 +111,11 @@ Platform and database maintenance can also affect delivery sending performances.
 After clicking the **[!UICONTROL Send]** button, your delivery seems to take longer than usual. This may be caused by different elements:
 
 * Some email providers might have blacklisted your IP addresses. In this case, check your broadlogs and consult [this getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) .
-* Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.md) to learn about content guidelines.
+* Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) to learn about content guidelines.
 * Throttling might have occurred within the Adobe Campaign MTA. This is caused by:
 
-    * Messages pended ( **[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. For more information about this message, refer to [this page](../../delivery/using/technical-recommendations.md#quota-met). To learn more about MX rules, refer to [this page](../../delivery/using/technical-recommendations.md#mx-rules).
-    * Messages pended ( **[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential blacklisting.
+    * Messages pended (**[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. For more information about this message, refer to [this page](../../delivery/using/technical-recommendations.md#quota-met). To learn more about MX rules, refer to [this page](../../delivery/using/technical-recommendations.md#mx-rules).
+    * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential blacklisting.
 
 * A system issue can prevent servers from interacting together: this can slow down the whole sending process. Check the servers to ensure that there is no memory or resource issues which can impact Campaign in the process of getting the personalization data for example.
 
@@ -174,32 +174,48 @@ While sending a delivery, you may face the following status on your delivery das
  </tbody> 
 </table>
 
-To learn how to optimize the deliverability of your Adobe Campaign emails, refer to Adobe Campaign [Deliverability best practices guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) and to [this page](../../delivery/using/about-deliverability.md).
+To learn how to optimize the deliverability of your Adobe Campaign emails, refer to Adobe Campaign [Deliverability best practices guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and to [this page](../../delivery/using/about-deliverability.md).
 
 ### Pending status {#pending-status}
 
-After confirming your delivery, you can see that the status of your delivery is **[!UICONTROL Pending]** . This status means that the execution process is waiting on the availability of some resources.
+After confirming your delivery, you can see that the status of your delivery is **[!UICONTROL Pending]**. This status means that the execution process is waiting on the availability of some resources.
 
 The **[!UICONTROL Pending]** status can first mean that your delivery has been scheduled and is pending until the given date. For more on this, refer to the [Delivery scheduling](../../delivery/using/key-steps-when-creating-a-delivery.md#scheduling-the-delivery-sending) section.
 
-If your delivery is not being sent and its status remains **[!UICONTROL Pending]** , it can be the result of:
+If your delivery is not being sent and its status remains **[!UICONTROL Pending]**, it can be the result of:
 
-* The MTA (Message Transfert Agent), that runs modules and processes on the delivery server and that manages email sending, may have not been started, or need to be restarted.
+* The MTA (Message Transfert Agent), that runs modules and processes on the delivery server and that manages email sending, may have not been started, or need to be restarted. To check this and to start the module if necessary, apply the following steps:
 
-  To check this and to start the module if necessary, apply the following steps:
+    * Check that your `mta@<instance>` modules are launched on your MTA servers.
 
-* 
-* 
+    ```
+    nlserver pdump
+    HH:MM:SS > Application server for Adobe Campaign Version X.Y (build XXXX) of DD/MM/YYYY
+    [...]
+    mta@<INSTANCENAME> (9268) - 23.0 Mb
+    [...]
+    ```
+
+    * If the MTA is not listed, start it with the following command:
+
+    ```
+    nlserver start mta@<INSTANCENAME>
+    ```
+
+    >[!NOTE]
+    >
+    >Replace `<INSTANCENAME>` with the name of your instance (production, development, etc.). The instance name is identified via the configuration files: `[path of application]nl6/conf/config-<INSTANCENAME>.xml`
+
 * The delivery may be using an affinity not configured on the sending tenant. In this case, check the configuration of the traffic management (IP affinity) and use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 * When the delivery preparation is pending, there can be too many campaigns running, which blocked the status update of the delivery. To solve this, go to **[!UICONTROL Options]** and increase the value of **[!UICONTROL NmsOperation_LimitConcurrency]** (default is 10). Do not run more campaigns than the value assigned to this specific option.
 
 ### Failed status {#failed-status}
 
-If an email delivery's status is **[!UICONTROL Failed]** , it can be linked to an issue with personalization blocks. Personalization blocks in a delivery can generate errors when the schemas do not match the delivery mapping, for example.
+If an email delivery's status is **[!UICONTROL Failed]**, it can be linked to an issue with personalization blocks. Personalization blocks in a delivery can generate errors when the schemas do not match the delivery mapping, for example.
 
 Delivery logs are key to learn why a delivery failed. Here are possible errors that you can detect from delivery logs:
 
-* If recipient messages are failing with an "Unreachable" error stating: **Error while compiling script 'content htmlContent' line X: [table] is not defined. JavaScript: error while evaluating script 'content htmlContent**, the cause of this issue is almost always a personalization within the HTML attempting to call upon a table or field that has not been defined or mapped in the upstream targeting or in the delivery's target mapping.
+* If recipient messages are failing with an "Unreachable" error stating: **Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent**, the cause of this issue is almost always a personalization within the HTML attempting to call upon a table or field that has not been defined or mapped in the upstream targeting or in the delivery's target mapping.
 
   To correct this, the workflow and delivery content need to be reviewed to determine specifically what personalization is attempting to call the table in question and whether or not the table can be mapped. From there, either removing the call to this table in the HTML or fixing the mapping to the delivery would be the path to resolution.
 
@@ -245,4 +261,4 @@ The delivery dashboard lets you track the number of messages sent.
 
 If deliveries do not execute at exact scheduled date, it can be related to a difference between servers time zone. The mid-sourcing instance and the production instance can be in different time zones.
 
-As an example, if the mid-sourcing instance is in Brisbane time zone and production instance is in Darwin time zone, both time zones are half an hour apart from each other, then in the audit log you would clearly see that if the delivery is scheduled for production at 11:56, the same delivery scheduled for mid would be at 12:26 which has a difference of half an hour. 
+As an example, if the mid-sourcing instance is in Brisbane time zone and production instance is in Darwin time zone, both time zones are half an hour apart from each other, then in the audit log you would clearly see that if the delivery is scheduled for production at 11:56, the same delivery scheduled for mid would be at 12:26 which has a difference of half an hour.

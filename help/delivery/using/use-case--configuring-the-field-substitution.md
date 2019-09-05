@@ -94,4 +94,3 @@ For this data schema modification to be viewable in the seed addresses **Input f
    Field personalization is effective.
 
    ![](assets/dlv_seeds_usecase_08.png)
-

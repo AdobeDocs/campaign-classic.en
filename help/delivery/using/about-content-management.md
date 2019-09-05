@@ -44,4 +44,3 @@ This mode of content creation does however involve a few constraints; including 
 
 * Restricted freedom concerning the final document design,
 * The analysis of requirements must be rigorous so that end users will not be inconvenienced by a missing function.
-

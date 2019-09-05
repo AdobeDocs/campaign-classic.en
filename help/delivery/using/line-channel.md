@@ -65,8 +65,8 @@ Finally, to create an external account on Adobe Campaign:
    ![](assets/line_config_2.png)
 
     * **Channel Alias**: is provided via your LINE account in the **[!UICONTROL Channels]** > **[!UICONTROL Technical configuration]** tab.
-    * **Channel ID**: is provided via your LINE account in the **Channels **> **Basic Information panel** tab.
-    * **Channel secret key**: is provided via your LINE account in the **Channels **> **Basic Information panel** tab.
+    * **Channel ID**: is provided via your LINE account in the **Channels** > **Basic Information panel** tab.
+    * **Channel secret key**: is provided via your LINE account in the **Channels** > **Basic Information panel** tab.
     * **Access token**: is provided via your LINE account in the developer portal or by clicking the **[!UICONTROL Get access token]** button.
     * **Access token expiration date**: allows you to specify the expiration date of the Access token.
     * **LINE subscription service**: allows you to specify the services to which the users will be subscribed.
@@ -130,11 +130,11 @@ You can use:
 
   Images can be defined according to the screen size:
 
-    * 1040px
-    * 700px
-    * 460px
-    * 300px
-    * 240px
+  * 1040px
+  * 700px
+  * 460px
+  * 300px
+  * 240px
 
   >[!NOTE]
   >
@@ -142,7 +142,7 @@ You can use:
 
   You then have to add alternative text that will pop up on the recipient's mobile device.
 
-* and **[!UICONTROL Links]** .
+* and **[!UICONTROL Links]**.
 
   ![](assets/line_message_05.png)
 
@@ -194,13 +194,13 @@ In this example, we are going to create and configure a text message and an imag
 
    ![](assets/line_usecase_02.png)
 
-1. Click **[!UICONTROL Add]** to create your message and select the **[!UICONTROL Message type]** .
+1. Click **[!UICONTROL Add]** to create your message and select the **[!UICONTROL Message type]**.
 
    Here, we first want to create a text message.
 
    ![](assets/line_usecase_03.png)
 
-1. Place your cursor in the place where you want to insert the personalized text and click the drop-down icon then select **[!UICONTROL Visitor > First name]** .
+1. Place your cursor in the place where you want to insert the personalized text and click the drop-down icon then select **[!UICONTROL Visitor > First name]**.
 
    ![](assets/line_usecase_05.png)
 
@@ -220,4 +220,3 @@ In this example, we are going to create and configure a text message and an imag
    The delivery is sent to the target.
 
    ![](assets/line_usecase_06.png)
-

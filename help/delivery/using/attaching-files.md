@@ -31,7 +31,7 @@ You can attach one or more files to an email delivery. There are two possible ca
 
 ## Attaching a local file {#attaching-a-local-file}
 
-To attach a local file to a delivery, click the **[!UICONTROL Attachments]** link and select the file you want to attach to the message. 
+To attach a local file to a delivery, click the **[!UICONTROL Attachments]** link and select the file you want to attach to the message.
 
 ![](assets/s_ncs_user_wizard_add_file.png)
 
@@ -39,7 +39,7 @@ You can also use the matching icon in the toolbar.
 
 ![](assets/s_ncs_user_wizard_add_file_ico.png)
 
-Once the document is selected, it is immediately uploaded onto the server to be available at the time of delivery. 
+Once the document is selected, it is immediately uploaded onto the server to be available at the time of delivery.
 
 ![](assets/s_ncs_user_wizard_add_file_load.png)
 
@@ -53,7 +53,7 @@ When you create a calculated attachment, the name of the attachment can be compu
 
 ![](assets/s_ncs_user_wizard_attachment.png)
 
-To create a personalized attachment, click the **[!UICONTROL Attachments]** link and then the **[!UICONTROL Add]** button, and select **[!UICONTROL Calculated attachment]** .
+To create a personalized attachment, click the **[!UICONTROL Attachments]** link and then the **[!UICONTROL Add]** button, and select **[!UICONTROL Calculated attachment]**.
 
 Select the type of calculation from the **[!UICONTROL Type]** drop-down list:
 
@@ -68,14 +68,14 @@ The following options are available:
 
 ### Attach a local file {#attach-a-local-file}
 
-When the attachment is a local file, select the option: **[!UICONTROL File name is specified when creating the delivery template]** . The file is selected locally and uploaded onto the server. Follow the steps below:
+When the attachment is a local file, select the option: **[!UICONTROL File name is specified when creating the delivery template]**. The file is selected locally and uploaded onto the server. Follow the steps below:
 
 1. Select the file to upload in the **[!UICONTROL Local file]** field.
 1. Specify the label if necessary. The label replaces the filename when viewed in messaging systems. If nothing is specified, the filename is used by default.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
 
-1. If necessary, select **[!UICONTROL Upload file on the server]** , and then click **[!UICONTROL Update on server]** to start the transfer.
+1. If necessary, select **[!UICONTROL Upload file on the server]**, and then click **[!UICONTROL Update on server]** to start the transfer.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
@@ -95,8 +95,8 @@ For this type of attachment, apply the following configuration steps:
    >
    >The source file must be created in LibreOffice. The instance must be configured in keeping with the prerequisites detailed in [this section](../../installation/using/before-starting.md).
 
-1. Specify the label if necessary. 
-1. Select **[!UICONTROL Upload file on the server]** , and then click **[!UICONTROL Update on server]** to start the transfer.
+1. Specify the label if necessary.
+1. Select **[!UICONTROL Upload file on the server]**, and then click **[!UICONTROL Update on server]** to start the transfer.
 1. You can display a preview. To do this, select a recipient.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
@@ -109,7 +109,7 @@ For this type of attachment, apply the following configuration steps:
 
 ### Attach a calculated file {#attach-a-calculated-file}
 
-You can calculate the attachment name during the delivery preparation. To do this, select the option **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]** .
+You can calculate the attachment name during the delivery preparation. To do this, select the option **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]**.
 
 >[!NOTE]
 >
@@ -132,7 +132,7 @@ You can calculate the attachment name during the delivery preparation. To do thi
 
 ### Attach a personalized file {#attach-a-personalized-file}
 
-When selecting the attachment, you can choose the option **[!UICONTROL The file name is calculated during delivery for each recipient (it can depend on the recipient)]** . You can then map recipient personalization data with the name of the file to send.
+When selecting the attachment, you can choose the option **[!UICONTROL The file name is calculated during delivery for each recipient (it can depend on the recipient)]**. You can then map recipient personalization data with the name of the file to send.
 
 >[!NOTE]
 >
@@ -175,4 +175,3 @@ The **[!UICONTROL Advanced]** tab lets you define advanced options on attached f
   Enter your text in the window and use the personalization fields available in the drop-down list. In the following example, the filename is personalized to contain today's date and the name of the recipient.
 
   ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)
-

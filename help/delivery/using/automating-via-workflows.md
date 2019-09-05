@@ -104,9 +104,7 @@ The content is filled in automatically by an XML feed coming from the URL entere
 </book>
 ```
 
-The data format does not match the data schema entered in the publication template (**cus:book** in our example); the ****
-
-element must be replaced with the ** `<chapter>`** element. We need to apply the "cus:book-workflow.xsl" stylesheet to make the necessary changes.
+The data format does not match the data schema entered in the publication template (**cus:book** in our example); the **`<section>`** element must be replaced with the **`<chapter>`** element. We need to apply the "cus:book-workflow.xsl" stylesheet to make the necessary changes.
 
 Source code of the XSLT stylesheet used:
 
@@ -156,8 +154,7 @@ The delivery action is configured via the **Delivery** activity:
 
 A new delivery action is created based on a template.
 
->[!CAUTION]
->
+The delivery template of the activity is used to select the transformation templates of the publication template. Content generation will take into account all HTML and Text templates without delivery templates or those which are referenced with the same template as the activity.
 
 The target to be delivered is entered via the incoming event.
 
@@ -253,7 +250,7 @@ Control declaration in the form is as follows:
 </input>
 ```
 
-The **GetAndTransform** method must be declared under the ** `<enter>`** element of the **`<input>`** tag. This tag takes as parameters the URL of recovery of XML data from an expression constructed dynamically. The second parameter of the function is optional, and references a stylesheet used for an intermediate transformation when the incoming XML data is not in the same format as the content.
+The **GetAndTransform** method must be declared under the **`<enter>`** element of the **`<input>`** tag. This tag takes as parameters the URL of recovery of XML data from an expression constructed dynamically. The second parameter of the function is optional, and references a stylesheet used for an intermediate transformation when the incoming XML data is not in the same format as the content.
 
 The output updates the content based on the path entered in the last parameter.
 

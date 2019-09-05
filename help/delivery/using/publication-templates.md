@@ -64,7 +64,7 @@ The **[!UICONTROL Rendering]** tab, choose:
 
 ### Publication {#publication}
 
-Publication involves generating the output document in the form of a file, if the type selected is **[!UICONTROL File]** .
+Publication involves generating the output document in the form of a file, if the type selected is **[!UICONTROL File]**.
 
 ![](assets/d_ncs_content_model2.png)
 
@@ -74,7 +74,7 @@ The following publication options are available:
 * The **[!UICONTROL Multi-file generation]** option activates a special document publication mode. This option consists of populating a partitioning tag at the beginning of each page of the output document. Generating the content will produce a file for each populated partitioning tag. This mode is used to generate mini-sites from a content block. for more on this, refer to [Multi-file generation](../../delivery/using/publication-templates.md#multi-file-generation).
 * The **[!UICONTROL Location]** field contains the name of the output file. The name can be made up of variables in order to generate an automatic filename.
 
-  A variable is populated with the following format: **$( `<xpath>  ) </xpath>`**, where `<xpath>  is the path of a field of the publication template data schema. </xpath>`
+  A variable is populated with the following format: **`$(<xpath>)`, where `<xpath>` is the path of a field of the publication template data schema.
 
   The name of a file can consist of a date-type field. To format this field correctly, use the **$date-format** function, using the path of the field and the output format as parameters.
 
@@ -104,15 +104,13 @@ This tab lets you select a scenario in order to launch a delivery directly on th
 
 Aggregating the data from a script or query list lets you enrich the XML document with the content data. The aim is to supplement certain information referenced by links or to add elements from the database.
 
-s
-
 ### Multi-file generation {#multi-file-generation}
 
 To activate multiple file generation, select the **[!UICONTROL Multi-file generation]** option in the publication model. This option lets you specify partitioning tags in the stylesheet for the beginning of each page of the output document. The generation of the content will produce a file for each partitioning tag encountered.
 
 The partitioning tag to be integrated in the stylesheet is as follows:
 
-** `<xsl:comment>  #nl:output_replace(  <name_of_file>   )  </name_of_file> </xsl:comment>`** where ** `<name_of_file>`** is the filename of the page to be generated.
+**`<xsl:comment> #nl:output_replace(<name_of_file>) </xsl:comment>`** where **`<name_of_file>`** is the filename of the page to be generated.
 
 **Example:**Multiple file generation using the "cus:book" schema.
 
@@ -176,7 +174,7 @@ The partitioning tag is populated at the beginning of the page to be included in
 <xsl:comment> #nl:output_replace($(path)/<xsl:value-of select="@id"/>.htm)</xsl:comment>
 ```
 
-The filename is constructed with the **$(path)** variable containing the publication path and ** `<xsl:value-of select="@id" />`**, which matches the identifier of the chapter in the input document.
+The filename is constructed with the **$(path)** variable containing the publication path and **`<xsl:value-of select="@id" />`**, which matches the identifier of the chapter in the input document.
 
 The publication model must be populated with the two stylesheets "cus:book.xsl" and "cus:chapter.xsl".
 

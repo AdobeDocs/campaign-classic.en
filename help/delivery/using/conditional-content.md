@@ -27,14 +27,14 @@ In the example below, you will learn how to create a message, dynamically person
 * Display showing "Mr." or "Ms." according to the value of the **[!UICONTROL Gender]** field (M or F) in the data source,
 * Personalized assembly of a newsletter or promotional offers according to the interests indicated or detected:
 
-    * Interest 1 -- > Block 1
-    * Interest 2 -- > Block 2
-    * Interest 3 -- > Block 3
-    * Interest 4 -- > Block 4
+  * Interest 1 -- > Block 1
+  * Interest 2 -- > Block 2
+  * Interest 3 -- > Block 3
+  * Interest 4 -- > Block 4
 
 To create conditional content according to the value of a field, apply the following steps:
 
-1. Click the personalization icon and select **[!UICONTROL Conditional content > If]** .
+1. Click the personalization icon and select **[!UICONTROL Conditional content > If]**.
 
    ![](assets/s_ncs_user_conditional_content02.png)
 
@@ -44,26 +44,26 @@ To create conditional content according to the value of a field, apply the follo
 
    To do this:
 
-    * Select the first element of the expression, ** `<field>`**, (by default, this element is highlighted during insertion of the **if** expression) and click the personalization icon to replace it with the test field.
-    
+    * Select the first element of the expression, **`<field>`**, (by default, this element is highlighted during insertion of the **if** expression) and click the personalization icon to replace it with the test field.
+
       ![](assets/s_ncs_user_conditional_content03.png)
 
-    * Replace ** `<value>`** with the value of the field for which the condition will be satisfied. This value must be in quotation marks.
+    * Replace **`<value>`** with the value of the field for which the condition will be satisfied. This value must be in quotation marks.
     * Specify the content to be inserted when the condition is satisfied. This could consist of text, an image, a form, a hypertext link, etc.
-    
+
       ![](assets/s_ncs_user_conditional_content04.png)
 
 1. Click the **[!UICONTROL Preview]** tab to view the content of the message according to the delivery recipient:
 
     * Selecting a recipient for which the condition is true:
-    
+
       ![](assets/s_ncs_user_conditional_content05.png)
 
     * Selecting a recipient for which the condition is not true:
-    
+
       ![](assets/s_ncs_user_conditional_content06.png)
 
-You can add other cases and define different content according to the values of one or more fields. To do this, use **[!UICONTROL Conditional content > Else]** and **[!UICONTROL Conditional content > Else if]** . These expressions are configured in the same way as the **if** expression.
+You can add other cases and define different content according to the values of one or more fields. To do this, use **[!UICONTROL Conditional content > Else]** and **[!UICONTROL Conditional content > Else if]**. These expressions are configured in the same way as the **if** expression.
 
 ![](assets/s_ncs_user_conditional_content07.png)
 
@@ -83,23 +83,22 @@ In the example below, you will learn how to create a multilingual email. Content
 1. In the email HTML content, click the **[!UICONTROL Source]** tab and paste the following code:
 
    ```
-   
-   <% if (language == "EN" ) { %> 
+   <% if (language == "EN" ) { %>
    <DIV id=en-version>Hello <%= recipient.firstName %>,</DIV>
    <DIV>Discover your new offers!</DIV>
    <DIV><a href="https://www.adobe.com/products/en">www.adobe.com/products/en</A></FONT></DIV><%
-    } %> 
-   <% if (language == "FR" ) { %> 
+    } %>
+   <% if (language == "FR" ) { %>
    <DIV id=fr-version>Bonjour <%= recipient.firstName %>,</DIV>
    <DIV>Découvrez nos nouvelles offres !</DIV>
    <DIV><a href="https://www.adobe.com/products/fr">www.adobe.com/products/fr</A></DIV><%
-    } %> 
-    <% if (language == "ES" ) { %> 
+    } %>
+    <% if (language == "ES" ) { %>
    <DIV id=es-version><FONT face=Arial>
    <DIV>Olà <%= recipient.firstName %>,</DIV>
    <DIV>Descubra nuestros nuevas ofertas !</DIV>
    <DIV><a href="https://www.adobe.com/products/es">www.adobe.com/products/es</A></DIV>
-   <% } %> 
+   <% } %>
    ```
 
 1. Test email content in the **[!UICONTROL Preview]** tab by selecting recipients with different preferred languages.
@@ -107,4 +106,3 @@ In the example below, you will learn how to create a multilingual email. Content
    >[!NOTE]
    >
    >As no alternative version has been defined in the email content, make sure to filter target population before sending the email.
-

@@ -32,7 +32,8 @@ SpamAssassin leverages a variety of spam-detection techniques, including:
 
 >[!NOTE]
 >
->SpamAssassin must be installed and configured on the Adobe Campaign application server. For more on this, refer to [this section](../../installation/using/configuring-spamassassin.md).  
+>SpamAssassin must be installed and configured on the Adobe Campaign application server. For more on this, refer to [this section](../../installation/using/configuring-spamassassin.md).
+>
 >The rules that govern whether an element is spam or not are managed via SpamAssassin and can be edited by an administrator with privileges.
 
 ## Using SpamAssassin {#using-spamassassin}
@@ -62,5 +63,4 @@ For more on creating and designing a delivery, refer to [this section](../../del
 
 >[!NOTE]
 >
->Each time you click the **[!UICONTROL Anti-spam checking]** , the SpamAssassin service is called and the message is analyzed again for anti-spam detection. Make sure you changed your content before running the anti-spam analysis again.
-
+>Each time you click the **[!UICONTROL Anti-spam checking]**, the SpamAssassin service is called and the message is analyzed again for anti-spam detection. Make sure you changed your content before running the anti-spam analysis again.
