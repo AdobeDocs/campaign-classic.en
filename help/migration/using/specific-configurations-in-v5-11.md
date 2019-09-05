@@ -132,6 +132,7 @@ The following folders need to be added after the migration:
 | nmsModels | Templates | - |
 | nmsOnlineRes | Online | - |
 | nmsProduction | Production | - |
+| nmsProfilProcess | Processes | - |
 | xtkDashboard | Dashboards | - |
 | xtkPlatformAdmin | Platform | - |
 | nmsLocalOrgUnit | Organizational units | - |
