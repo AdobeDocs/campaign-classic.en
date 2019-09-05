@@ -23,7 +23,9 @@ The definition of the transactional message content is the same as for regular d
 >[!CAUTION]
 >
 >Images included in the message must be publicly accessible. Adobe Campaign does not provide any image upload mechanism for transactional messages.  
->Unlike in JSSP or webApp, `<%=` doesn’t have any default escaping. In this case, you have to escape each data coming from the event properly. This escaping depends on how this field is used. For example, within a URL, please use encodeURIComponent. To be displayed in the HTML, you can use escapeXMLString.
+>Unlike in JSSP or webApp, `<%=` doesn’t have any default escaping.
+>
+>In this case, you have to escape each data coming from the event properly. This escaping depends on how this field is used. For example, within a URL, please use encodeURIComponent. To be displayed in the HTML, you can use escapeXMLString.
 
 Once you have defined your message content, you can integrate event information into the message body and personalize it. Event information is inserted into the body of the text thanks to personalization tags.
 
