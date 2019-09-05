@@ -29,17 +29,17 @@ When using the buttons in the toolbar, select the type of field you want to add.
 The following types of field are available:
 
 * Text/number input. See [Adding input fields](../../web/using/adding-fields-to-a-web-form.md#adding-input-fields).
-* Selection from a drop-down list. See [Adding drop-down lists](../../web/using/adding-fields-to-a-web-form.md#adding-drop-down-lists).
+* Drop-down list selection. See [Adding drop-down lists](../../web/using/adding-fields-to-a-web-form.md#adding-drop-down-lists).
 * Multiple choice via checkboxes. See [Adding checkboxes](../../web/using/adding-fields-to-a-web-form.md#adding-checkboxes).
 * Exclusive selection via radio buttons. See [Adding radio buttons](../../web/using/adding-fields-to-a-web-form.md#adding-radio-buttons).
 * Vote in an option grid. See [Adding grids](../../web/using/adding-fields-to-a-web-form.md#adding-grids). 
-* Entering numbers and dates. See [Adding dates and numbers](../../web/using/adding-fields-to-a-web-form.md#adding-dates-and-numbers).
-* Subscribing to and unsubscribing from an information service. See [Subscription checkboxes](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes).
-* Check before approval via a captcha. See [Inserting a captcha](../../web/using/adding-fields-to-a-web-form.md#inserting-a-captcha).
-* Adding a download button. [Uploading a file](../../web/using/adding-fields-to-a-web-form.md#uploading-a-file).
-* Constant approval. See [Inserting a hidden constant](../../web/using/adding-fields-to-a-web-form.md#inserting-a-hidden-constant).
+* Numbers and dates. See [Adding dates and numbers](../../web/using/adding-fields-to-a-web-form.md#adding-dates-and-numbers).
+* Subscription/unsubscription to an information service. See [Subscription checkboxes](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes).
+* Captcha validation. See [Inserting a captcha](../../web/using/adding-fields-to-a-web-form.md#inserting-a-captcha).
+* Download button. [Uploading a file](../../web/using/adding-fields-to-a-web-form.md#uploading-a-file).
+* Hidden constant. See [Inserting a hidden constant](../../web/using/adding-fields-to-a-web-form.md#inserting-a-hidden-constant).
 
-Please specify the answer registration mode: update a field in the database (stores only the last value saved) or store in a variable (the answer is not stored). For more on this, refer to [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
+Please specify the response storage mode: update a field in the database (stores only the last value saved) or store in a variable (the answer is not stored). For more on this, refer to [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
 
 >[!NOTE]
 >
@@ -93,7 +93,8 @@ Five different types of text fields can be inserted into a form page:
 
   >[!CAUTION]
   >
-  >Multi-line text fields are specific fields that can contain carriage returns. Their storage space must be associated with a field mapped on an XML element, not an XML attribute. For more on the types of data in schemas, refer to the "Schema reference" chapter in [this section](../../configuration/using/about-schema-reference.md).   
+  >Multi-line text fields are specific fields that can contain carriage returns. Their storage space must be associated with a field mapped on an XML element, not an XML attribute. For more on the types of data in schemas, refer to the "Schema reference" chapter in [this section](../../configuration/using/about-schema-reference.md).
+  >   
   >If you are using the **Survey** module, you can store this type of field in an archived field which will automatically adapt to the format. For more on this, refer to [this section](../../web/using/about-surveys.md).
 
 * **Enriched multi-line text**: lets the user enter text with a layout which will be stored in HTML format.
@@ -273,7 +274,7 @@ However in some cases, (for entering dates of birth, for instance) it may be eas
 
 ![](assets/s_ncs_admin_survey_date_list_select.png)
 
-To do this, click the **[!UICONTROL Advanced]** tab and choose the input mode using **[!UICONTROL Drop-down lists]** . 
+To do this, click the **[!UICONTROL Advanced]** tab and choose the input mode using **[!UICONTROL Drop-down lists]**. 
 
 ![](assets/s_ncs_admin_survey_date_selection.png)
 
@@ -307,7 +308,7 @@ In the form, the rendering will be as follows:
 
 You can add controls to allow users to subscribe to or unsubscribe from one or more information services (newsletters, warnings, real-time notifications, etc.). To subscribe, the user checks the corresponding service.
 
-To create a subscription checkbox, click **[!UICONTROL Advanced controls>Subscription]** .
+To create a subscription checkbox, click **[!UICONTROL Advanced controls>Subscription]**.
 
 ![](assets/s_ncs_admin_survey_subscription_edit.png)
 
@@ -335,7 +336,7 @@ The purpose of **captcha** tests is to prevent fraudulent use of your Web forms.
 >
 >If your form contains several pages, the Captcha must always be placed on the last page, just before the storage box, to prevent any circumvention of the security measures.
 
-To insert a Captcha into a form, click the first button on the toolbar and Select **[!UICONTROL Advanced controls>Captcha]** .
+To insert a Captcha into a form, click the first button on the toolbar and Select **[!UICONTROL Advanced controls>Captcha]**.
 
 ![](assets/s_ncs_admin_survey_add_captcha.png)
 
@@ -371,7 +372,7 @@ You can add an upload field to a page. This functionality can be useful for intr
 
 To insert an upload field to a form page, select the **[!UICONTROL Advanced controls > File...]** menu in the toolbar of the page editor.
 
-By default, the uploaded files are stored in resource files accessible via the **[!UICONTROL Resources > Online > Public resources]** menu. You can use a script to change this behavior. This script can use the functions defined in [Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.md), including those that concern file manipulation.
+By default, the uploaded files are stored in resource files accessible via the **[!UICONTROL Resources > Online > Public resources]** menu. You can use a script to change this behavior. This script can use the functions defined in [Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html), including those that concern file manipulation.
 
 You can store the link to these files in a local variable or in a database field. For example, you can extend the recipient schema to add a link to file-based resources.
 
@@ -379,7 +380,7 @@ You can store the link to these files in a local variable or in a database field
 >
 >* This type of file must be reserved for forms with secure access (using credentials).
 >* Adobe Campaign does not control the size or the type of resource uploaded: we therefore highly recommend using upload fields for secure type intranet sites only.
->* If several servers are linked to the instance ('load balancing'), you need to make sure calls to the Web form arrive on the same server.
+>* If several servers are linked to the instance (load balancing architecture), you need to make sure calls to the Web form arrive on the same server.
 >* These implementations require the assistance of the Adobe Campaign Consulting team.
 >
 

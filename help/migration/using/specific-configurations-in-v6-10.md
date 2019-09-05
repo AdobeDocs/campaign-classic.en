@@ -16,11 +16,11 @@ internal: n
 snippet: y
 ---
 
-# Specific configurations in v6.10{#specific-configurations-in-v}
+# Specific configurations in v6.10{#specific-configurations-in-vsix.ten}
 
 Certain improvements have been carried out in Adobe Campaign v7 in order to optimize security.
 
-If you are migrating from a 6.10 platform and your client console is older than the 8104 build, you must update it. If this is not done before migrating, you will be prompted to update your client console when reconnecting. Click **[!UICONTROL Yes]** .
+If you are migrating from a 6.10 platform and your client console is older than the 8104 build, you must update it. If this is not done before migrating, you will be prompted to update your client console when reconnecting. Click **[!UICONTROL Yes]**.
 
 >[!CAUTION]
 >

@@ -55,7 +55,7 @@ To insert a database field, use the personalization button.
 
 Fill in the fields in the editing window as shown in the following example:
 
-To add a hypertext link, go to **[!UICONTROL Static elements>Link]** .
+To add a hypertext link, go to **[!UICONTROL Static elements>Link]**.
 
 ![](assets/s_ncs_admin_survey_add_link.png)
 
@@ -157,7 +157,7 @@ To add a preload button, apply the following steps:
 
    ![](assets/social_webapp_034.png)
 
-1. Go to the **[!UICONTROL Action]** field and select **[!UICONTROL Preload with Facebook]** .
+1. Go to the **[!UICONTROL Action]** field and select **[!UICONTROL Preload with Facebook]**.
 
    ![](assets/social_webapp_035.png)
 
@@ -175,7 +175,7 @@ Use personalization fields to re-inject the user name and selected brand into th
 
 >[!NOTE]
 >
->For security reasons, the value entered in the **<%=** formula is replaced with escape characters. To avoid this, and only when necessary, use the following syntax: **<%=**.
+>For security reasons, the value entered in the **`<%=`** formula is replaced with escape characters. To avoid this, and only when necessary, use the following syntax: **`<%=`**.
 
 In our example, the first and last name of the recipient are stored in a field of the database, while the brand of their car is stored in a variable. The syntax of the message personalized on page 2 will be as follows:
 

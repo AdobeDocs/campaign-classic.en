@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Specific configurations in v6.02{#specific-configurations-in-v}
+# Specific configurations in v6.02{#specific-configurations-in-vsix.two}
 
 The following section details the additional configuration required when migrating from v6.02. You should also configure the settings detailed in the [General configurations](../../migration/using/general-configurations.md) section.
 
@@ -28,7 +28,6 @@ If you are migrating from v6.02, error logs regarding overview-type web applicat
 [PU-0006] Entity of type : 'xtk:entityBackupNew' and Id 'nms:webApp|taskOverview', expression '[SQLDATA[' was found : '...)) or (@id IN ([SQLDATA[select 
 [PU-0006] Entity of type : 'xtk:formDictionary' and Id 'nms:webApp|lastTasks', expression '[SQLDATA[' was found : '...)) or (@id IN ([SQLDATA[select 
 [PU-0006] Entity of type : 'nms:webApp' and Id 'taskOverview', expression '[SQLDATA[' was found : '...@owner-id] IN ([SQLDATA[select iGroupid...'. (iRc=-1)
-
 ```
 
 These web applications used SQLData and are not compatible with v7, due to heightened security. These errors will lead to a migration failure.
@@ -37,7 +36,6 @@ If you didn't use these web applications, run the following cleanup script and r
 
 ```
 Nlserver javascript -instance:[instance_name] -file [installation_path]/datakit/xtk/fra/js/removeOldWebApp.js
-
 ```
 
 If you have modified these web applications and would like to continue using them in v7, you must activate the **allowSQLInjection** option in your different security zones and re-start the postupgrade. Refer to the [SQLData](../../migration/using/general-configurations.md#sqldata) section for more on this.
@@ -54,7 +52,7 @@ To continue using the v6.02 homepage, you must install a "compatibility" package
 
 To do this, import the compatibility package:
 
-Click **[!UICONTROL Tools > Advanced > Import package]** and choose the **campaignMigration.xml** package in the **nldatakitnms[Your language]packageoptional**.
+Click **[!UICONTROL Tools > Advanced > Import package]** and choose the **campaignMigration.xml** package in the **\nl\datakit\nms\`[Your language]`\package\optional**.
 
 To allow access to the v6.02 Web Application type interfaces, the **sessionTokenOnly** server configuration option must be activated in the **serverConf.xml** file:
 
@@ -68,11 +66,11 @@ Once the package is installed, the Adobe Campaign v7 home page is replaced by yo
 
 ![](assets/dashboards.png)
 
-All the links on this homepage link to v7 screens except for the lists ( **[!UICONTROL operation list]** , **[!UICONTROL delivery tracking in operations]** , etc.) which link to the v6.02 overview (web applications). 
+All the links on this homepage link to v7 screens except for the lists (**[!UICONTROL operation list]**, **[!UICONTROL delivery tracking in operations]**, etc.) which link to the v6.02 overview (web applications). 
 
 ![](assets/dashboards2.png)
 
-If you want to add another overview configured in v6.02, you need to add this to the home page from the dashboard. ( **[!UICONTROL Administration > Access management > Dashboard]** ).
+If you want to add another overview configured in v6.02, you need to add this to the home page from the dashboard. (**[!UICONTROL Administration > Access management > Dashboard]**).
 
 >[!NOTE]
 >

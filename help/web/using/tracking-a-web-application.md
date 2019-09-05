@@ -35,9 +35,9 @@ The main improvements featured in this version are as follows:
 
   The main indicators are as follows:
 
-    * **Conversion rate:** number of persons who displayed all steps of a navigation path.
-    * **Bounce rate:** number of persons who displayed the first step only 
-    * **Conversion tunnel:** loss rate between each step.
+    * **Conversion rate**: number of persons who displayed all steps of a navigation path.
+    * **Bounce rate**: number of persons who displayed the first step only 
+    * **Conversion tunnel**: loss rate between each step.
 
   In addition, a **Sector** type chart shows the population according to its source.
 
@@ -59,7 +59,7 @@ In order to identify the traffic source in a Web application, Adobe Campaign suc
 >[!NOTE]
 >
 >Remember that anonymous tracking is only possible if the corresponding option has been activated in the deployment wizard.  
->For more on this, refer to the **Installation Guide**.
+>For more on this, refer to the [Installation guide](../../installation/using/deploying-an-instance.md).
 
 ## Web applications designed with Digital Content Editor (DCE) {#web-applications-designed-with-digital-content-editor--dce-}
 

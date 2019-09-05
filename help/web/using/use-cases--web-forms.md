@@ -41,7 +41,7 @@ This example is based on the following scenario:
 
 Confirmation messages are sent via a dedicated delivery template referenced at the temporary service level.
 
-1. In the **[!UICONTROL Explorer]** , select **[!UICONTROL Resources > Templates > Delivery templates]** .
+1. In the **[!UICONTROL Explorer]** , select **[!UICONTROL Resources > Templates > Delivery templates]**.
 1. Create a delivery template for sending the subscription confirmation messages. 
 1. Click the **[!UICONTROL To]** button in the **[!UICONTROL Email parameters]** to associate the delivery template with the Subscriptions target mapping instead of Recipients.
 
@@ -81,7 +81,7 @@ The Web form workflow will include the following activities:
 
 To do this, follow the steps below:
 
-1. Create a Web form and choose the template **[!UICONTROL Newsletter subscription (subNewsletter)]** .
+1. Create a Web form and choose the template **[!UICONTROL Newsletter subscription (subNewsletter)]**.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5a.png)
 

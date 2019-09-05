@@ -35,11 +35,11 @@ To use the TIMESTAMP WITH TIMEZONE mode, you also need to add the **-userTimesta
 
 >[!CAUTION]
 >
->Warning: if the **-usetimestamptz:1** parameter is used with an incompatible database engine, your database will be corrupted and you will have to restore a backup of your database and re-execute the command above.
+>If the **-usetimestamptz:1** parameter is used with an incompatible database engine, your database will be corrupted and you will have to restore a backup of your database and re-execute the command above.
 
 >[!NOTE]
 >
->It is possible to alter the timezone after migration via the console ( **[!UICONTROL Administration > Platform > Options > WdbcTimeZone]** node).  
+>It is possible to alter the timezone after migration via the console (**[!UICONTROL Administration > Platform > Options > WdbcTimeZone]** node).  
 >For more on time zone management, refer to [this section](../../installation/using/time-zone-management.md).
 
 ### Oracle {#oracle}
@@ -86,7 +86,7 @@ To check if both sides are on the same time zones:
 >
 >For security reasons, the Adobe Campaign platform is no longer accessible by default: you must configure the security zones, and therefore collect operator IP addresses.
 
-Adobe Campaign v7 involves the concept of **security zones**. Each user must be associated with a zone in order to log on to an instance and the user's IP address must be included in the addresses or address ranges defined in the security zone. Configuring the security zones can be done in the Adobe Campaign server configuration file. The security zone to which a user is associated must be defined in the console ( **[!UICONTROL Administration > Access management > Operators]** ).
+Adobe Campaign v7 involves the concept of **security zones**. Each user must be associated with a zone in order to log on to an instance and the user's IP address must be included in the addresses or address ranges defined in the security zone. Configuring the security zones can be done in the Adobe Campaign server configuration file. The security zone to which a user is associated must be defined in the console (**[!UICONTROL Administration > Access management > Operators]**).
 
 **Before the migration**, ask your network administrator to help you define the security zones to be activated after the migration.
 
@@ -181,7 +181,7 @@ Unknown SQL function calls are no longer naturally sent to the server. Currently
 
 If you would like to authorize access to certain pages via the HTTP protocol (not HTTPS), in your Web apps for example, regardless of the configuration carried out in the security zones, you must specify the **httpAllowed="true"** parameter in the corresponding relay rule.
 
-If you use anonymous JSSPs, you must add the **httpAllowed="true"** parameter in a relay rule for your JSSP ( **[!UICONTROL serverConf.xml]** file):
+If you use anonymous JSSPs, you must add the **httpAllowed="true"** parameter in a relay rule for your JSSP (**[!UICONTROL serverConf.xml]** file):
 
 For example:
 
@@ -198,20 +198,18 @@ Adobe Campaign v7 integrates a more recent JavaScript interpreter. However, this
 
 The **[!UICONTROL myObject.@attribute]** syntax is now only valid for XML objects. This syntax may be used for personalizing deliveries and content management. If you used this type of syntax on a non XML object, the personalization features will no longer work.
 
-For all other object types, the syntax is now **[!UICONTROL myObject["attribute"]]** . For instance, a non-XML object which used the following syntax: **[!UICONTROL employee.@sn]** , must now use the following syntax: **[!UICONTROL employee["sn"]]** .
+For all other object types, the syntax is now **[!UICONTROL myObject`["attribute"]`]**. For instance, a non-XML object which used the following syntax: **[!UICONTROL employee.@sn]**, must now use the following syntax: **[!UICONTROL employee`["sn"]`]**.
 
 * Former syntax:
 
   ```
   employee.@sn
-  
   ```
 
 * New syntax:
 
   ```
   employee["sn"]
-  
   ```
 
 To change a value in an XML object, you now need to start by updating the value before you add the XML node:
@@ -222,7 +220,6 @@ To change a value in an XML object, you now need to start by updating the value 
   var cellStyle = node.style.copy();
   this.styles.appendChild(cellStyle);
   cellStyle.@width = column.@width;
-  
   ```
 
 * New JavaScript code:
@@ -246,22 +243,21 @@ You can no longer use an XML attribute as a table key.
 
   ```
   if(serverForm.activities[String(ctx.activityHistory.activity[0].@name)].type !="end"
-  
   ```
 
 ### SQLData {#sqldata}
 
 In order to strengthen the instance security, a new syntax has been introduced in Adobe Campaign v7 to replace the syntax based on SQLData. If you use these code elements with this syntax, you have to modify them. The main elements concerned are:
 
-* Filtering by sub-query: the new syntax is based on the `<subquery>  element to define a sub-query </subquery>`
+* Filtering by sub-query: the new syntax is based on the `<subQuery>`  element to define a sub-query
 * Aggregates: the new syntax is "aggregate function(collection)"
-* Filtering by join: the new syntax is [schemaName:alias:xPath]
+* Filtering by join: the new syntax is `[schemaName:alias:xPath]`
 
 The queryDef (xtk:queryDef) schema has been modified:
 
-* a new `<subquery>  element is available to replace the SELECT included in SQLData </subquery>`
+* a new `<subQuery>`  element is available to replace the SELECT included in SQLData
 * two new values, "IN" and "NOT IN" are introduced for the @setOperator attribute
-* a new `<where>  element, which is a child of the  <node>   element: this enables you to make "sub-selections" in SELECT  </node> </where>`
+* a new `<where>`  element, which is a child of the `<node>` element: this enables you to make "sub-selections" in SELECT
 
 When an "@expr" attribute is used, the SQLData may be present. A search for the following terms can be performed: "SQLData", "aliasSqlTable", "sql".
 
@@ -293,7 +289,6 @@ Below you will find comparative examples between the old and new syntax.
 
   ```
   <condition expr="@id NOT IN ([SQLDATA[SELECT iOperatorId FROM XtkOperatorGroup WHERE iGroupId = $(../@owner-id)]])" enabledIf="$(/ignored/@ownerType)=1"/>
-  
   ```
 
 * New syntax:
@@ -309,7 +304,6 @@ Below you will find comparative examples between the old and new syntax.
        </where>
      </subQuery>
   </condition>
-  
   ```
 
 * Former syntax:
@@ -321,7 +315,6 @@ Below you will find comparative examples between the old and new syntax.
       </where>
       <folder _operation="none" name="nmsSegment"/>
     </queryFilter>
-  
   ```
 
 * New syntax:
@@ -340,7 +333,6 @@ Below you will find comparative examples between the old and new syntax.
       </where>
       <folder _operation="none" name="nmsSegment"/>
     </queryFilter>
-  
   ```
 
 **The aggregate**
@@ -351,14 +343,12 @@ Aggregate function(collection)
 
   ```
   <node sql="(select count(*) from NmsNewsgroup WHERE O0.iOperationId=iOperationId)" alias="@nbMessages"/>
-  
   ```
 
 * New syntax:
 
   ```
   <node expr="count([newsgroup/@id])" alias="../@nbMessages"/>
-  
   ```
 
   >[!NOTE]
@@ -381,7 +371,7 @@ Aggregate function(collection)
 
 **Filters by joins**
 
-[schemaName:alias:xPath]
+`[schemaName:alias:xPath]`
 
 The alias is optional
 
@@ -390,19 +380,17 @@ The alias is optional
   ```
   <condition expr={"[" + joinPart.destination.nodePath + "] = [SQLDATA[W." + joinPart.source.SQLName + "]]"}
                                            aliasSqlTable={nodeSchemaRoot.SQLTable + " W"}/>
-  
   ```
 
 * New syntax:
 
   ```
   <condition expr={"[" + joinPart.destination.nodePath + "] = [" + nodeSchema.id + ":" + joinPart.source.nodePath + "]]"}/>
-  
   ```
 
 **Tips and tricks**
 
-In a `<subquery>  element, to reference a "field" field of the main  <querydef>   element, use the following syntax: [../@field]  </querydef> </subquery>`
+In a `<subQuery>` element, to reference a "field" field of the main `<queryDef>`   element, use the following syntax: `[../@field]`
 
 Example:
 
@@ -437,7 +425,7 @@ After the resource synchronization, the **postupgrade** command lets you detect 
 
 The synchronization result can be viewed in two ways:
 
-* In the command-line interface, errors are materialized by a triple chevron **>>** and synchronization is stopped automatically. Warnings are materialized by a double chevron **>>** and must be resolved once synchronization is complete. At the end of the postupgrade, a summary is displayed in the command prompt. For example:
+* In the command-line interface, errors are materialized by a triple chevron **>>>** and synchronization is stopped automatically. Warnings are materialized by a double chevron **>>** and must be resolved once synchronization is complete. At the end of the postupgrade, a summary is displayed in the command prompt. For example:
 
   ```
   2013-04-09 07:48:39.749Z        00002E7A          1     info    log     =========Summary of the update==========
@@ -446,12 +434,11 @@ The synchronization result can be viewed in two ways:
   2013-04-09 07:48:39.749Z        00002E7A          1     warning log     The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
   2013-04-09 07:48:39.750Z        00002E7A          1     warning log     The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
   2013-04-09 07:48:39.750Z        00002E7A          1     warning log     Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
-  
   ```
 
   If the warning concerns a conflict of resources, operator attention is required to resolve it.
 
-* The **postupgrade_ `<server number="" version="">  _time of postupgrade>.log </server>`** file contains the synchronization result. It is available by default in the following directory: **installation directory/var/ `<instance>  postupgrade </instance>`**. Errors and warnings are indicated by the **error** and **warning** attributes.
+* The **postupgrade_`<server version number>`_time of postupgrade`>`.log** file contains the synchronization result. It is available by default in the following directory: **installation directory/var/`<instance>`postupgrade**. Errors and warnings are indicated by the **error** and **warning** attributes.
 
 ### Resolve a conflict {#resolve-a-conflict}
 
@@ -459,14 +446,14 @@ Resolving conflicts must only be performed by advanced operators and those that 
 
 To resolve a conflict, apply the following process:
 
-1. In the Adobe Campaign tree structure, place your cursor over **[!UICONTROL Administration > Configuration > Package management > Edit conflicts]** .
+1. In the Adobe Campaign tree structure, place your cursor over **[!UICONTROL Administration > Configuration > Package management > Edit conflicts]**.
 1. Select the conflict that you want to resolve in the list.
 
 There are three possible ways to resolve a conflict:
 
-* **[!UICONTROL Declared as resolved]** : requires operator intervention beforehand.
-* **[!UICONTROL Accept the new version]** : recommended if the resources provided with Adobe Campaign have not been changed by the user.
-* **[!UICONTROL Keep the current version]** : means that the update is rejected.
+* **[!UICONTROL Declared as resolved]**: requires operator intervention beforehand.
+* **[!UICONTROL Accept the new version]**: recommended if the resources provided with Adobe Campaign have not been changed by the user.
+* **[!UICONTROL Keep the current version]**: means that the update is rejected.
 
   >[!CAUTION]
   >
@@ -474,15 +461,15 @@ There are three possible ways to resolve a conflict:
 
 If you choose to manually resolve the conflict, proceed as follows:
 
-1. In the lower section of the window, search for the **_conflict_ string** to locate the entities with conflicts. The entity installed with the new version contains the **new** argument, the entity that matches the previous version contains the **cus** argument. 
+1. In the lower section of the window, search for the **`_conflict_ string`** to locate the entities with conflicts. The entity installed with the new version contains the **new** argument, the entity that matches the previous version contains the **cus** argument.
 
    ![](assets/s_ncs_production_conflict002.png)
 
-1. Delete the version you do not want to keep. Delete the **_conflict_argument_ string** of the entity you are keeping.
+1. Delete the version you do not want to keep. Delete the **`_conflict_argument_ string`** of the entity you are keeping.
 
    ![](assets/s_ncs_production_conflict003.png)
 
-1. Go to the conflict you would have resolved. Click the **[!UICONTROL Actions]** icon and select **[!UICONTROL Declare as resolved]** . 
+1. Go to the conflict you would have resolved. Click the **[!UICONTROL Actions]** icon and select **[!UICONTROL Declare as resolved]**. 
 1. Save your changes: the conflict is now resolved.
 
 ## Tomcat {#tomcat}
@@ -519,7 +506,7 @@ In v7, the offer content has been moved. In v6.02 the content was in each repres
 >
 >If some deliveries using configured offers were to be sent after the migration, you must delete and recreate all these deliveries in v7. If you cannot do that, a "compatibility mode" is offered. This mode is not recommended because you will not benefit from all the new features in Interaction v7. This is a transitional mode which allows you to complete ongoing campaigns before the actual 6.1 migration. For more information regarding this mode, please contact us.
 
-An example of a movement script (**interactionTo610_full_XX.js**) is available in the **Migration** folder within the Adobe Campaign v7 folder. This file shows an example of a script for a client using a single email representation per offer (the **[!UICONTROL htmlSource]** and **[!UICONTROL textSource]** fields ). The content that was in the **NmsEmailOfferView** table has been moved to the offer table.
+An example of a movement script (**interactionTo610_full_XX.js**) is available in the **Migration** folder within the Adobe Campaign v7 folder. This file shows an example of a script for a client using a single email representation per offer (the **[!UICONTROL htmlSource]** and **[!UICONTROL textSource]** fields). The content that was in the **NmsEmailOfferView** table has been moved to the offer table.
 
 >[!NOTE]
 >
@@ -597,11 +584,11 @@ logInfo("Done");
 
 Here is the procedure to follow after having moved the offer content if you only have one environment. In this case let's take "ENV" as an example.
 
-1. In all "ENV" environment offer spaces, update the list of fields used. For example, for an offer space that only uses the **[!UICONTROL htmlSource]** , you must add the **[!UICONTROL view/htmlSource]** . 
+1. In all "ENV" environment offer spaces, update the list of fields used. For example, for an offer space that only uses the **[!UICONTROL htmlSource]**, you must add the **[!UICONTROL view/htmlSource]**. 
 
    ![](assets/migration_interaction_2.png)
 
-1. In the **[!UICONTROL Type of Environment]** field within the **[!UICONTROL General]** tab, select **[!UICONTROL Live]** .
+1. In the **[!UICONTROL Type of Environment]** field within the **[!UICONTROL General]** tab, select **[!UICONTROL Live]**.
 
    ![](assets/migration_interaction_3.png)
 
@@ -609,7 +596,7 @@ Here is the procedure to follow after having moved the offer content if you only
 
    ![](assets/migration_interaction_4.png)
 
-1. Deploy all "ENV" environment offer spaces (right click > **[!UICONTROL Actions > Deploy]** ) and select the "ENV_DESIGN" environment.
+1. Deploy all "ENV" environment offer spaces (right click > **[!UICONTROL Actions > Deploy]**) and select the "ENV_DESIGN" environment.
 
    ![](assets/migration_interaction_5.png)
 
@@ -633,7 +620,7 @@ All standard reports currently use rendering engine v6.x. If you had added JavaS
 
 ### Personalized reports {#personalized-reports}
 
-If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine. 
+If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
 
 ![](assets/migration_reports_1.png)
 
@@ -695,6 +682,4 @@ If out-of-the-box schemas have been deleted in v6.02 or v5.11, you may no longer
 ```
 su - neolane
 nlserver config -postupgrade -instance:<instance name> -force
-
 ```
-

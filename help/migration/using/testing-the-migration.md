@@ -71,7 +71,7 @@ Various options let you measure the impact from a migration and identify the pot
 
 >[!NOTE]
 >
->You must use the **-instance: `<instancename>`** option. We do not recommend using the **-allinstances** option.
+>You must use the **-instance:`<instanceame>`** option. We do not recommend using the **-allinstances** option.
 
 ### -showCustomEntities and -showDeletedEntities options {#showcustomentities-and--showdeletedentities-options}
 
@@ -172,7 +172,7 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 
 >[!NOTE]
 >
->We strongly recommend using absolute folder paths and keeping the folder tree structure. For example: backupFoldernmssrcSchemabilling.xml.
+>We strongly recommend using absolute folder paths and keeping the folder tree structure. For example: backupFolder\nms\srcSchema\billing.xml.
 
 ### Resuming migration {#resuming-migration}
 

@@ -68,8 +68,8 @@ You can choose to navigate via links or buttons.
 
 Buttons are the navigation elements by default. They let you perform the following actions:
 
-* Approve the current page and display the next page by clicking **[!UICONTROL Next]** . This button is displayed on all pages except the last.
-* Display the previous page by clicking **[!UICONTROL Previous]** . This button is displayed on all pages except the first.
+* Approve the current page and display the next page by clicking **[!UICONTROL Next]**. This button is displayed on all pages except the last.
+* Display the previous page by clicking **[!UICONTROL Previous]**. This button is displayed on all pages except the first.
 * Save the form responses by clicking the **[!UICONTROL Approve]** button. This button is only shown on the last page.
 
 These elements are displayed at the bottom of each page. Their positions can be changed. To do this, you must modify the style sheet.
@@ -96,13 +96,13 @@ It also lets you manage translations. See [Translating a web form](../../web/usi
 
 A Web form is accessible to users if it is **[!UICONTROL Online]** and if the current date is within its validity period. The status of the form is modified during the publication stage (see [Publishing a form](../../web/using/publishing-a-web-form.md#publishing-a-form)). The status is displayed in the **Project** section of the **[!UICONTROL General]** tab of the properties window.
 
-The validity period runs from the **[!UICONTROL Start]** date to the **[!UICONTROL End date]** . If no dates are specified in these fields, the form has permanent validity.
+The validity period runs from the **[!UICONTROL Start]** date to the **[!UICONTROL End date]**. If no dates are specified in these fields, the form has permanent validity.
 
 ![](assets/s_ncs_admin_survey_properties_date.png)
 
 >[!NOTE]
 >
->If the form is closed, and therefore its validity period has not been reached or has expired, or if it was closed by the Adobe Campaign operator, a message is displayed when the user attempts to access it. You can personalize this message by clicking **[!UICONTROL Personalize the message displayed if the form is closed...]** .
+>If the form is closed, and therefore its validity period has not been reached or has expired, or if it was closed by the Adobe Campaign operator, a message is displayed when the user attempts to access it. You can personalize this message by clicking **[!UICONTROL Personalize the message displayed if the form is closed...]**.
 
 ## Form access control {#form-access-control}
 

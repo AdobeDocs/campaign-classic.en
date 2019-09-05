@@ -84,14 +84,13 @@ The procedure depends on your Adobe Campaign previous version.
    ```
    su - neolane
    mv nl5 nl5.back
-   
    ```
 
    >[!CAUTION]
    >
    >As a precaution, we recommend that you zip the **nl5.back** folder and save it to a secure location other than the server.
 
-1. Edit the **config- `<instance name="">  .xml </instance>`** (in the **nl5.back** folder), to prevent the **mta**, **wfserver**, **stat** etc. services from starting automatically. For instance, replace **autoStart** with **_autoStart** (still as **neolane**).
+1. Edit the **config-`<instance name>`.xml** (in the **nl5.back** folder), to prevent the **mta**, **wfserver**, **stat** etc. services from starting automatically. For instance, replace **autoStart** with **_autoStart** (still as **neolane**).
 
    ```
    <?xml version='1.0'?>
@@ -110,7 +109,6 @@ The procedure depends on your Adobe Campaign previous version.
      <inMail _autoStart="true"/>
      <sms _autoStart="false"/>
    </serverconf>
-   
    ```
 
 ### Migrating from Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6-02}
@@ -121,14 +119,13 @@ The procedure depends on your Adobe Campaign previous version.
    ```
    su - neolane
    mv nl6 nl6.back
-   
    ```
 
    >[!CAUTION]
    >
    >As a precaution, we recommend that you zip the **nl6.back** folder and save it to a secure location other than the server.
 
-1. Edit the **config- `<instance name="">  .xml </instance>`** (in the **nl6.back** folder) to prevent the **mta**, **wfserver**, **stat**, etc. services from starting automatically. For instance, replace **autoStart** with **_autoStart** (still as **Adobe Campaign**).
+1. Edit the **config-`<instance name>`.xml** (in the **nl6.back** folder) to prevent the **mta**, **wfserver**, **stat**, etc. services from starting automatically. For instance, replace **autoStart** with **_autoStart** (still as **Adobe Campaign**).
 
    ```
    <?xml version='1.0'?>
@@ -147,7 +144,6 @@ The procedure depends on your Adobe Campaign previous version.
      <inMail _autoStart="true"/>
      <sms _autoStart="false"/>
    </serverconf>
-   
    ```
 
 ### Migrating from Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6-1}
@@ -158,7 +154,6 @@ The procedure depends on your Adobe Campaign previous version.
    ```
    su - neolane
    mv nl6 nl6.back
-   
    ```
 
    >[!CAUTION]
@@ -178,7 +173,6 @@ The procedure depends on your Adobe Campaign previous version.
 
       ```    
       dpkg -l | grep nl
-      
       ```    
     
       The list of installed packages is displayed:
@@ -186,14 +180,12 @@ The procedure depends on your Adobe Campaign previous version.
       ```    
       ii  nlserver5                       5762                     nlserver5-5762
       ii  nlthirdparty5                   5660                     nlthirdparty5-5660
-      
       ```
 
     * In **Red Hat**:
 
       ```    
       rpm -qa | grep nl
-      
       ```
 
 1. Uninstall Adobe Campaign v5 packages.
@@ -202,14 +194,12 @@ The procedure depends on your Adobe Campaign previous version.
 
       ```    
       dpkg --purge nlserver5 nlthirdparty5
-      
       ```
 
     * In **Red Hat**:
 
       ```    
       rprm -ev nlserver5 nlthirdparty5
-      
       ```
 
 ### Uninstalling Adobe Campaign v6 packages {#uninstalling-adobe-campaign-v6-packages}
@@ -223,7 +213,6 @@ This section shows how to uninstall Adobe Campaign v6.02 or v6.1 packages.
 
       ```    
       dpkg -l | grep nl
-      
       ```    
     
       The list of installed packages is displayed:
@@ -231,14 +220,12 @@ This section shows how to uninstall Adobe Campaign v6.02 or v6.1 packages.
       ```    
       ii  nlserver6                       XXXX                     nlserver6-XXXX
       ii  nlthirdparty6                   XXXX                     nlthirdparty6-XXXX
-      
       ```
 
     * In **Red Hat**:
 
       ```    
       rpm -qa | grep nl
-      
       ```
 
 1. Uninstall Adobe Campaign v6 packages.
@@ -253,7 +240,6 @@ This section shows how to uninstall Adobe Campaign v6.02 or v6.1 packages.
 
       ```    
       rprm -ev nlserver6 nlthirdparty6
-      
       ```
 
 ## Deploying Adobe Campaign v7 {#deploying-adobe-campaign-v7}
@@ -275,14 +261,12 @@ To deploy Adobe Campaign, apply the following steps:
 
       ```    
       dpkg -i nlserver6-v7-XXXX-linux-2.6-intel.deb
-      
       ```
 
     * In **Red Hat**:
 
       ```    
       rpm -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
-      
       ```
 
    >[!CAUTION]
@@ -309,7 +293,6 @@ To deploy Adobe Campaign, apply the following steps:
    ```
    su - neolane
    vim ~/.bashrc
-   
    ```
 
    >[!NOTE]
@@ -323,13 +306,11 @@ To deploy Adobe Campaign, apply the following steps:
    ```
    /etc/init.d/nlserver6-v7 start   
    Starting nlserver6-v7: [  OK  ]
-   
    ```
 
    ```
    /etc/init.d/nlserver6-v7 stop
    Stopping nlserver6-v7: [  OK  ]
-   
    ```
 
    >[!NOTE]
@@ -349,7 +330,6 @@ To deploy Adobe Campaign, apply the following steps:
    cp nl5.back/customer.sh nl6/
    cp -r nl5.back/customers/* nl6/customers/
    cp -r nl5.back/var/* nl6/var/
-   
    ```
 
 1. In the Adobe Campaign v7 **serverConf.xml** and **config-default.xml** files, apply the specific configurations that you had for Adobe Campaign v5. For the **serverConf.xml** file, use the **nl5/conf/serverConf.xml.diff** file.
@@ -379,7 +359,6 @@ To deploy Adobe Campaign, apply the following steps:
    ```
    su - neolane
    nlserver config -timezone:<time zone> -postupgrade -instance:<instance name>
-   
    ```
 
    >[!CAUTION]
@@ -409,14 +388,12 @@ To deploy Adobe Campaign, apply the following steps:
 
       ```    
       dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
-      
       ```
 
     * In **Red Hat**:
 
       ```    
       rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
-      
       ```
 
    >[!CAUTION]
@@ -456,7 +433,6 @@ To deploy Adobe Campaign, apply the following steps:
    cp nl6.back/customer.sh nl6/
    cp -r nl6.back/customers/* nl6/customers/
    cp -r nl6.back/var/* nl6/var/
-   
    ```
 
 1. Reload the Adobe Campaign v7 configuration using the following command:
@@ -470,7 +446,6 @@ To deploy Adobe Campaign, apply the following steps:
    ```
    su - neolane
    nlserver config -postupgrade -instance:<instance name>
-   
    ```
 
    >[!NOTE]
@@ -492,14 +467,12 @@ To deploy Adobe Campaign, apply the following steps:
 
       ```    
       dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
-      
       ```
 
     * In **Red Hat**:
 
       ```    
       rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
-      
       ```
 
    >[!CAUTION]
@@ -529,7 +502,6 @@ To deploy Adobe Campaign, apply the following steps:
    cp nl6.back/customer.sh nl6/
    cp -r nl6.back/customers/* nl6/customers/
    cp -r nl6.back/var/* nl6/var/
-   
    ```
 
 1. Reload the Adobe Campaign v7 configuration using the following command:
@@ -543,7 +515,6 @@ To deploy Adobe Campaign, apply the following steps:
    ```
    su - neolane
    nlserver config -postupgrade -instance:<instance name>
-   
    ```
 
 ## Migrating the redirection server (Apache) {#migrating-the-redirection-server--apache-}
@@ -561,14 +532,12 @@ At this stage, Apache needs to be stopped. Refer to: [Service stop](../../migrat
 
       ```    
       vi /etc/apache2/envvars
-      
       ```
 
     * In **Red Hat**:
 
       ```    
       vi /usr/local/apache2/bin/envvars
-      
       ```
 
 1. Then run the following commands:
@@ -579,7 +548,6 @@ At this stage, Apache needs to be stopped. Refer to: [Service stop](../../migrat
 
       ```    
       vi /etc/apache2/mods-available/nlsrv.load
-      
       ```    
     
       Delete the link of the **nlsrv.conf** file and create a new one.
@@ -599,7 +567,6 @@ At this stage, Apache needs to be stopped. Refer to: [Service stop](../../migrat
       ```    
       LoadModule requesthandler22_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
       Include /usr/local/neolane/nl6/tomcat-6/conf/apache_neolane.conf
-      
       ```    
     
       In **RHEL 7/Debian 8**:
@@ -607,14 +574,12 @@ At this stage, Apache needs to be stopped. Refer to: [Service stop](../../migrat
       ```    
       LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
       Include /usr/local/neolane/nl6/tomcat-6/conf/apache_neolane.conf
-      
       ```
 
 1. Go to the **alias.conf** file and replace all **nl5** with **nl6**. To do this in Debian, run the following command:
 
    ```
    vi /etc/apache2/mods-available/alias.conf
-   
    ```
 
 ## Security zones {#security-zones}
@@ -627,7 +592,7 @@ The procedure depends on your Adobe Campaign previous version.
 
 ### Migrating from Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5_11-2}
 
-In the **config- `<instance name="">  .xml </instance>`** files, reactivate the automatic startup of the **mta**, **wfserver**, **stat**, etc. services.
+In the **config-`<instance name>`.xml** files, reactivate the automatic startup of the **mta**, **wfserver**, **stat**, etc. services.
 
 ```
 <?xml version='1.0'?>
@@ -658,7 +623,7 @@ Before going on to the next step, run a full test of the new installation, make 
 
 ### Migrating from Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6_02-2}
 
-In the **config- `<instance name="">  .xml </instance>`** files, reactivate the automatic startup of the **mta**, **wfserver**, **stat**, etc. services.
+In the **config-`<instance name>`.xml** files, reactivate the automatic startup of the **mta**, **wfserver**, **stat**, etc. services.
 
 ```
 <?xml version='1.0'?>

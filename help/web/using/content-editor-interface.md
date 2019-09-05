@@ -39,9 +39,7 @@ It has four icons:
 
 ![](assets/dce_icons_sidebar.png)
 
-* The **Display/Hide blocks** icon lets you display blue frames around the content blocks (corresponding to the ****
-
-  HTML tag).
+* The **Display/Hide blocks** icon lets you display blue frames around the content blocks (corresponding to the `<div>` HTML tag).
 
 * The **Choose another content** icon lets the user load new content from a template (existing template or out-of-the-box template).
 

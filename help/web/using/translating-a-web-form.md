@@ -60,14 +60,15 @@ Adobe Campaign collects labels of fields and strings defined in the **[!UICONTRO
 
 >[!CAUTION]
 >
->This process can take several minutes depending on the volume of data to be processed.   
+>This process can take several minutes depending on the volume of data to be processed.
+> 
 >If a warning appears to say that some translations are missing in the system dictionary, refer to [Translating the system strings](../../web/using/translating-a-web-form.md#translating-the-system-strings).
 
 Each time a string is translated, its translation is added to the translation dictionary.
 
-When the collection process detects that a translation already exists, this translation is displayed in the **[!UICONTROL Text]** column of the string. The status of the string is turned to **[!UICONTROL Translated]** .
+When the collection process detects that a translation already exists, this translation is displayed in the **[!UICONTROL Text]** column of the string. The status of the string is turned to **[!UICONTROL Translated]**.
 
-For characters strings which have never been translated, the **[!UICONTROL Text]** field is empty and the status is **[!UICONTROL To translate]** .
+For characters strings which have never been translated, the **[!UICONTROL Text]** field is empty and the status is **[!UICONTROL To translate]**.
 
 ### Filtering strings {#filtering-strings}
 
@@ -93,7 +94,7 @@ To display only untranslated strings, select **[!UICONTROL To translate]** in th
    >
    >Translation approval is optional and will not block the process.
 
-   Non-approved translations are displayed as **[!UICONTROL Translated]** . Approved translations are displayed as **[!UICONTROL Approved]** .
+   Non-approved translations are displayed as **[!UICONTROL Translated]**. Approved translations are displayed as **[!UICONTROL Approved]**.
 
 ## Externalizing translation {#externalizing-translation}
 
@@ -105,28 +106,28 @@ It's possible to export and import character strings to translate them using a t
 
 ### Exporting files {#exporting-files}
 
-1. Select the Web application(s) whose strings you want to import, right-click, then select **[!UICONTROL Actions]** > **[!UICONTROL Export strings for translation...]** 
+1. Select the Web application(s) whose strings you want to import, right-click, then select **[!UICONTROL Actions > Export strings for translation...]** 
 
    ![](assets/s_ncs_admin_survey_trad_export.png)
 
 1. Select an **[!UICONTROL Export strategy]** :
 
-    * **[!UICONTROL One file per language]** : the export will generate one file per translation language. Each file will be common to all selected Web applications.
-    * **[!UICONTROL One file per Web application]** : the export will generate one file per selected Web application. Each file will contain all translation languages.
+    * **[!UICONTROL One file per language]**: the export will generate one file per translation language. Each file will be common to all selected Web applications.
+    * **[!UICONTROL One file per Web application]**: the export will generate one file per selected Web application. Each file will contain all translation languages.
 
       >[!NOTE]
       >
       >This type of export is not available for XLIFF exports.
 
-    * **[!UICONTROL One file per language and per Web application]** : the export will generate several files. Each file will contain one translation language per Web application.
-    * **[!UICONTROL One file for all]** : the export will generate a single multi-lingual file for all Web applications. It will contain all translation languages for all selected Web applications.
+    * **[!UICONTROL One file per language and per Web application]**: the export will generate several files. Each file will contain one translation language per Web application.
+    * **[!UICONTROL One file for all]**: the export will generate a single multi-lingual file for all Web applications. It will contain all translation languages for all selected Web applications.
 
       >[!NOTE]
       >
       >This type of export is not available for XLIFF exports.
 
 1. Then chose the **[!UICONTROL Target folder]** where files will be recorded.
-1. Select the file format ( **[!UICONTROL CSV]** or **[!UICONTROL XLIFF]** ) and click **[!UICONTROL Start]** .
+1. Select the file format ( **[!UICONTROL CSV]** or **[!UICONTROL XLIFF]** ) and click **[!UICONTROL Start]**.
 
 ![](assets/s_ncs_admin_survey_trad_export_start.png)
 
@@ -140,15 +141,15 @@ When you export files in **CSV format**, each language is linked to a status and
 
 Once external translation is completed, you can import the translated files.
 
-1. Go to the list of Web applications, right-click, then select **[!UICONTROL Actions]** **[!UICONTROL Import translated strings...]**
+1. Go to the list of Web applications, right-click, then select **[!UICONTROL Actions > Import translated strings...]**
 
    >[!NOTE]
    >
-   >There's no need to select the Web applications concerned by the translation. Place the cursor anywhere on the list of Web applications.
+   >There is no need to select the Web applications concerned by the translation. Place the cursor anywhere on the list of Web applications.
 
    ![](assets/s_ncs_admin_survey_trad_import.png)
 
-1. Select the file to import, then click **[!UICONTROL Upload]** .
+1. Select the file to import, then click **[!UICONTROL Upload]**.
 
    ![](assets/s_ncs_admin_survey_trad_import_start.png)
 
@@ -160,15 +161,11 @@ Once external translation is completed, you can import the translated files.
 
 Web forms are displayed in the default language specified in the **[!UICONTROL Localization]** tab of the Web application properties. To change languages, you must add the following characters to the end of the URL (where **xx** is the symbol of the language):
 
-* 
-
   ```
   ?lang=xx
   ```
 
   if the language is the first or only parameter of the URL. For example: **https://myserver/webApp/APP34?lang=en**
-
-* 
 
   ```
   &lang=xx

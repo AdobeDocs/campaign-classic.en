@@ -47,7 +47,7 @@ Web applications in Adobe Campaign give access to the following capabilities:
 * Use of images, videos, hypertext links, captcha, etc.
 * Monitoring of responses in real time.
 
-The optional survey creation module (**Survey**) offers the following additional functionalities:
+The optional **Survey** creation module offers the following additional functionalities:
 
 * Dynamic extension of the database: creation of responses not included in the initial data template,
 * Generating dedicated reports.
@@ -56,7 +56,8 @@ Compared to Web applications, surveys have a simplified graphical interface with
 
 >[!NOTE]
 >
->Surveys are detailed in [this section](../../web/using/about-surveys.md).  
+>Surveys are detailed in [this section](../../web/using/about-surveys.md).
+>
 >The overall functionalities of Web forms in Adobe Campaign are detailed in [this section](../../web/using/about-web-forms.md).
 
 ## Web application implementation {#web-application-implementation}
@@ -76,8 +77,8 @@ Web application are created via the **[!UICONTROL Web Applications]** link in th
 
 Web applications are stored in the **[!UICONTROL Resources > Online > Web Applications]** node of the Adobe Campaign tree. Configurations are broken down in the following folders:
 
-* **[!UICONTROL Administration > Configuration > Form renderings]** : contains the rendering templates for the Web form presentation (applications and surveys). The template enables you to generate the form. It also uses a CSS style sheet. This style sheet can be overloaded at the template level. For more on this, refer to [this page](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
-* **[!UICONTROL Resources > Templates > Web application templates]** : contains form templates. To create a form or a Web application, you must start from a template.
+* **[!UICONTROL Administration > Configuration > Form renderings]**: contains the rendering templates for the Web form presentation (applications and surveys). The template enables you to generate the form. It also uses a CSS style sheet. This style sheet can be overloaded at the template level. For more on this, refer to [this page](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
+* **[!UICONTROL Resources > Templates > Web application templates]**: contains form templates. To create a form or a Web application, you must start from a template.
 
 ## Web application templates {#web-application-templates}
 
@@ -85,7 +86,7 @@ By default, Adobe Campaign provides one template per available Web application.
 
 >[!NOTE]
 >
->You can convert an existing Web application into a template. To do this, select the form and right-click. Select **[!UICONTROL Actions > Save as template...]** .
+>You can convert an existing Web application into a template. To do this, select the form and right-click. Select **[!UICONTROL Actions > Save as template...]**.
 
 You can create new templates via the **[!UICONTROL Resources > Templates > Web Application templates]** node of the Adobe Campaign tree.
 

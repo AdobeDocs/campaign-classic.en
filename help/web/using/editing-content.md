@@ -129,6 +129,7 @@ Personalization blocks and fields can only be inserted into Text type blocks.
 >[!NOTE]
 >
 >For each type of link, you can configure the opening mode: select the target window in the **Target** drop-down list. This value corresponds to the ** `<target>`** HTML tag.  
+>
 >The list of available **targets** is as follows:  
 
 >
@@ -170,7 +171,7 @@ The **Link that defines an action** option lets you configure an action when cli
 
 ### Delete a link {#delete-a-link}
 
-When a link has been inserted, the tool bar offers two new icons: **Edit link ** and **Break the link** that let you interact with the link created.
+When a link has been inserted, the tool bar offers two new icons: **Edit link** and **Break the link** that let you interact with the link created.
 
 * **[!UICONTROL Edit link]** lets you display a window featuring all the parameters of the link.
 * **[!UICONTROL Break the link]** lets you delete, after confirmation, the link and all related parameters.
@@ -187,16 +188,16 @@ When you select a text element, you can modify font attributes (style, format).
 
 The available options are as follows:
 
-* **Enlarge font** icon: increases the size of the selected text (add )
-* **Reduce font** icon: reduces the size of the selected text (add ).
-* **Bold** icon: makes selected text bold (wrap text with the **** tag).
-* **Italic** icon: makes selected text italic (wrap text with the ** tag).
-* **Underline** icon: makes selected text underlined (wrap text with the  tag).
-* **Align left** icon: aligns text to the left of the selected block (add style="text-align: left;").
-* **Center** icon: centers the text for the selected block (add style="text-align: center;").
-* **Align right** icon: aligns text to the right of the selected block (add style="text-align: right;").
-* **Change the background color** icon: lets you change the background color for the selected block (add style="background-color: rgba(170, 86, 255, 0.87)).
-* **Change text color** icon: lets you change the text color of the selected block or just the selected text ().
+* **Enlarge font** icon: increases the size of the selected text (add `<span style="font size:">`)
+* **Reduce font** icon: reduces the size of the selected text (add `<span style="font size:">`)
+* **Bold** icon: makes selected text bold (wrap text with the `<strong> </strong>` tag)
+* **Italic** icon: makes selected text italic (wrap text with the  `<em> </em>` tag)
+* **Underline** icon: makes selected text underlined (wrap text with the `<span style="text-decoration: underline;">` tag)
+* **Align left** icon: aligns text to the left of the selected block (add style="text-align: left;")
+* **Center** icon: centers the text for the selected block (add style="text-align: center;")
+* **Align right** icon: aligns text to the right of the selected block (add style="text-align: right;")
+* **Change the background color** icon: lets you change the background color for the selected block (add style="background-color: rgba(170, 86, 255, 0.87))
+* **Change text color** icon: lets you change the text color of the selected block or just the selected text (`<span style="color: #CODE">`)
 
 >[!NOTE]
 >
@@ -223,7 +224,7 @@ To be compatible with the DCE, **"Flash" type animations** must be inserted into
 
 >[!CAUTION]
 >
->You must not call up **external files in a `<script> tag</strong> of the HTML page. These files will not be imported onto the Adobe Campaign server.<br/> </script>`**
+>You must not call up external files in a **script** tag of the HTML page. These files will not be imported onto the Adobe Campaign server.
 
 ### Adding / Deleting / Duplicating an image {#adding---deleting---duplicating-an-image}
 
@@ -274,4 +275,4 @@ The **Personalization block** option lets you insert dynamic and personalized bl
 
 Once inserted, the personalization block name appears in the editor, highlighted in yellow. It is automatically adapted to the recipient profile when personalization is generated.
 
-For more on out-of-the- box personalization blocks and how to define custom personalization blocks, refer to [this page](../../delivery/using/personalization-blocks.md).
+For more on built-in personalization blocks and how to define custom personalization blocks, refer to [this page](../../delivery/using/personalization-blocks.md).

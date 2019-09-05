@@ -44,7 +44,6 @@ First, stop all processes with access to the database on all machines concerned.
    ```
    nlserver stop mta@<instance name>
    nlserver stop mtachild@<instance name>
-   
    ```
 
 1. Stop Adobe Campaign services on all servers. Log in with administrator rights and run the following command:
@@ -71,7 +70,6 @@ First, stop all processes with access to the database on all machines concerned.
    Image Name                     PID Session Name        Session#    Mem Usage
    ========================= ======== ================ =========== ============
    nlserver.exe                  3192 Console                    1     13,108 K
-   
    ```
 
 1. If one or more Adobe Campaign processes are still active or blocked after a few minutes, kill them. Log in with administrator rights and run the following command:
@@ -109,7 +107,7 @@ The procedure depends on your Adobe Campaign previous version.
    sc config nlserver5 start= disabled
    ```
 
-1. Edit the **config- `<instance name="">  .xml </instance>`** (in the **Neolane v5. back** folder) to prevent the **mta**, **wfserver**, **stat**, etc. services from starting automatically. For instance, replace **autoStart** with **_autoStart**.
+1. Edit the **config-`<instance name>`.xml** (in the **Neolane v5. back** folder) to prevent the **mta**, **wfserver**, **stat**, etc. services from starting automatically. For instance, replace **autoStart** with **_autoStart**.
 
    ```
    <?xml version='1.0'?>
@@ -128,7 +126,6 @@ The procedure depends on your Adobe Campaign previous version.
      <inMail _autoStart="true"/>
      <sms _autoStart="false"/>
    </serverconf>
-   
    ```
 
 ### Migrating from Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6-02}
@@ -150,7 +147,7 @@ The procedure depends on your Adobe Campaign previous version.
    sc config nlserver6 start= disabled
    ```
 
-1. Edit the **config- `<instance name="">  .xml </instance>`** (in the **Neolane v6. back** folder) to prevent the **mta**, **wfserver**, **stat**, etc. services from starting automatically. For instance, replace **autoStart** with **_autoStart**.
+1. Edit the **config-`<instance name>`.xml** (in the **Neolane v6. back** folder) to prevent the **mta**, **wfserver**, **stat**, etc. services from starting automatically. For instance, replace **autoStart** with **_autoStart**.
 
    ```
    <?xml version='1.0'?>
@@ -169,7 +166,6 @@ The procedure depends on your Adobe Campaign previous version.
      <inMail _autoStart="true"/>
      <sms _autoStart="false"/>
    </serverconf>
-   
    ```
 
 ### Migrating from Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6-1}
@@ -206,9 +202,9 @@ To deploy Adobe Campaign, apply the following steps:
 
    >[!NOTE]
    >
-   >Adobe Campaign v7 is installed by default in the **C:Program FilesAdobeAdobe Campaign v7** directory.
+   >Adobe Campaign v7 is installed by default in the **C:\Program Files\Adobe\Adobe Campaign v7** directory.
 
-1. To make the client console installation program available, copy the **setup-client-7.0.XXXX.exe** file into the Adobe Campaign installation directory: **C:Program FilesAdobeAdobe Campaign v7datakitnlengjsp**.
+1. To make the client console installation program available, copy the **setup-client-7.0.XXXX.exe** file into the Adobe Campaign installation directory: **C:\Program Files\Adobe\Adobe Campaign v7\datakit\nl\eng\jsp**.
 
    >[!NOTE]
    >
@@ -219,7 +215,6 @@ To deploy Adobe Campaign, apply the following steps:
    ```
    net start nlserver6-v7
    net stop nlserver6-v7
-   
    ```
 
    >[!NOTE]
@@ -280,8 +275,8 @@ At this stage, the IIS server must be stopped. Refer to [Service stop](../../mig
 1. Open the **Internet Information Services (IIS) Manager** console.
 1. Change the bindings (listen ports) of the site used for Adobe Campaign previous version:
 
-    * Right-click the site used for Adobe Campaign previous version and select **[!UICONTROL Edit bindings]** .
-    * For each type of listen port ( **[!UICONTROL http]** and/or **[!UICONTROL https]** ), select the appropriate line and click **[!UICONTROL Edit]** .
+    * Right-click the site used for Adobe Campaign previous version and select **[!UICONTROL Edit bindings]**.
+    * For each type of listen port (**[!UICONTROL http]** and/or **[!UICONTROL https]**), select the appropriate line and click **[!UICONTROL Edit]**.
     * Enter a different port. By default, the listen port is 80 for http and 443 for https. Check that the new port is available.
     
       ![](assets/_migration_iis_3_611.png)
@@ -292,12 +287,12 @@ At this stage, the IIS server must be stopped. Refer to [Service stop](../../mig
 
 1. Create a new website for Adobe Campaign v7:
 
-    * Right-click the **[!UICONTROL Sites]** folder and select **[!UICONTROL Add Web Site...]** .
+    * Right-click the **[!UICONTROL Sites]** folder and select **[!UICONTROL Add Web Site...]**.
     
       ![](assets/_migration_iis_4.png)
 
     * Enter the name of the site, **Adobe Campaign v7** for instance. 
-    * The access path to the website's basic directory is not used, but the **[!UICONTROL Physical access path]** field must be entered. Enter the default IIS access path: **C:inetpubwwwroot**.
+    * The access path to the website's basic directory is not used, but the **[!UICONTROL Physical access path]** field must be entered. Enter the default IIS access path: **C:\inetpub\wwwroot**.
     * Click the **[!UICONTROL Connect as...]** as button and make sure the **[!UICONTROL Application user]** option is selected.
     * You can leave the default values in the **[!UICONTROL IP address]** and **[!UICONTROL Port]** fields. If you want to use other values, make sure the IP address and/or port are available.
     * Check the **[!UICONTROL Start Web site immediately]** box. 
@@ -306,10 +301,10 @@ At this stage, the IIS server must be stopped. Refer to [Service stop](../../mig
 
 1. Execute the **iis_neolane_setup.vbs** script to automatically configure the resources used by the Adobe Campaign server on the virtual directory previously created.
 
-    * This file is found in the **[Adobe Campaign v7]tomcat-7conf file**, where **[Adobe Campaign v7]** is the access path to the Adobe Campaign installation directory. The command for executing the script is as follows (for administrators):
+    * This file is found in the **`[Adobe Campaign v7]`\tomcat-7\conf file**, where **`[Adobe Campaign v7]`** is the access path to the Adobe Campaign installation directory. The command for executing the script is as follows (for administrators):
 
       ```    
-      cd C:Program Files (x86)Adobe CampaignAdobe Campaign v7tomcat-7conf
+      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\tomcat-7\conf
       cscript iis_neolane_setup.vbs
       ```
 
@@ -317,7 +312,7 @@ At this stage, the IIS server must be stopped. Refer to [Service stop](../../mig
     
       ![](assets/s_ncs_install_iis7_parameters_step2_7.png)
 
-    * Enter the number of the website previously created for Adobe Campaign v7 and click **[!UICONTROL OK]** .
+    * Enter the number of the website previously created for Adobe Campaign v7 and click **[!UICONTROL OK]**.
     
       ![](assets/s_ncs_install_iis7_parameters_step3_7.png)
 

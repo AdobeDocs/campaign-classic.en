@@ -34,7 +34,7 @@ These steps are:
 
 ## Step 1 - Creating a survey {#step-1---creating-a-survey}
 
-To create a new survey, go to the **[!UICONTROL Campaigns]** or **[!UICONTROL Profiles and targets]** universe and click the **[!UICONTROL Web Applications]** menu. Click the **[!UICONTROL Create]** button above the list of forms.
+To create a new survey, go to the **[!UICONTROL Campaigns]** or **[!UICONTROL Profiles and targets]** tab and click the **[!UICONTROL Web Applications]** menu. Click the **[!UICONTROL Create]** button above the list of forms.
 
 ![](assets/s_ncs_admin_survey_create.png)
 
@@ -69,7 +69,7 @@ In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]*
 
 * Adding input fields
 
-  To create the content of the page, you must edit it: to do this, double-click the **[!UICONTROL Page]** object. Click the first icon in the toolbar to open the field creation wizard. To create an entry field for the user name to be stored in the matching field of the recipient's profile, select **[!UICONTROL Edit a recipient]** .
+  To create the content of the page, you must edit it: to do this, double-click the **[!UICONTROL Page]** object. Click the first icon in the toolbar to open the field creation wizard. To create an entry field for the user name to be stored in the matching field of the recipient's profile, select **[!UICONTROL Edit a recipient]**.
 
   ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
@@ -87,7 +87,7 @@ In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]*
 
   Apply the same procedure to add a field for the user to enter an email address.
 
-* To create a question, right-click the last element in the tree, and select **[!UICONTROL Containers > Question]** , or click the **[!UICONTROL Containers]** icon and select **[!UICONTROL Question]** .
+* To create a question, right-click the last element in the tree, and select **[!UICONTROL Containers > Question]** , or click the **[!UICONTROL Containers]** icon and select **[!UICONTROL Question]**.
 
   ![](assets/s_ncs_admin_survey_add_qu.png)
 
@@ -150,6 +150,7 @@ You can then monitor user responses via reports and logs. See [Response tracking
 
 >[!CAUTION]
 >
->The public URL includes the internal name of the survey. When the internal name is modified, the URL is updated automatically: all links to the survey must also be updated.  
+>The public URL includes the internal name of the survey. When the internal name is modified, the URL is updated automatically: all links to the survey must also be updated.
+>
 >If deliveries containing the link to the form have already been sent, this link will no longer work.
 

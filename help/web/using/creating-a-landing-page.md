@@ -31,7 +31,7 @@ The **main aim** of this use case is to make the Landing Page form fields corres
 To create a new Landing Page type Web application, use the following steps:
 
 1. Go to the **[!UICONTROL Campaigns]** universe and click the **[!UICONTROL Web application]** link, then click the **[!UICONTROL Create]** button.
-1. Select the **[!UICONTROL New landing page]** template and enter a label, then click **[!UICONTROL Save]** .
+1. Select the **[!UICONTROL New landing page]** template and enter a label, then click **[!UICONTROL Save]**.
 
    ![](assets/dce_uc1_newlandingpage.png)
 
@@ -65,7 +65,7 @@ A template must contain:
 To load the template on the first page, apply the following steps:
 
 1. Open the first **[!UICONTROL Page]** activity of the Web application.
-1. Select **[!UICONTROL From a file]** to fetch your content template
+1. Select **[!UICONTROL From a file]** to fetch your content template.
 
    ![](assets/dce_uc1_selectmodel.png)
 
@@ -133,7 +133,7 @@ You can make a field mandatory: for example, click the **[!UICONTROL Email]** fi
 
 ### Creating a link to the next page {#creating-a-link-to-the-next-page}
 
-This step is mandatory because it will allow the Web application to determine the sequence of the next steps: Saving the collected data in the database then displaying the next page ( **[!UICONTROL Thank you]** ).
+This step is mandatory because it will allow the Web application to determine the sequence of the next steps: Saving the collected data in the database then displaying the next page (**Thank you** page).
 
 1. Select the **[!UICONTROL Send it!]** button of the **[!UICONTROL Collection]** page.
 1. Click the **[!UICONTROL Action]** drop-down menu.

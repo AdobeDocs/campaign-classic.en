@@ -19,7 +19,7 @@ snippet: y
 # Migration warnings{#migration-warnings}
 
 * The migration process is reserved for expert users. You must be assisted by at least a database expert, a system administrator and an application developer from Adobe Campaign.
-* Before starting migration, check that the systems and system components that you use are in fact compatible with v7. Consult the [compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md).
+* Before starting migration, check that the systems and system components that you use are in fact compatible with v7. Consult the [compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 * If you use Adobe Campaign Cloud Messaging (previously mid-sourcing), contact Adobe Campaign before beginning the entire migration procedure.
 * Before starting a migration process, you **must** back up your data.
 * The migration process may take several days to be completed.

@@ -23,12 +23,13 @@ Web applications are created and managed according to the same principle as [onl
 However, the functional differences are as follows:
 
 * Web applications use no archived fields. Data can therefore be stored in database fields or local variables only.
-* There are no factory reports on Web applications.
-* Additional fields are offered, mainly for creating tables and charts:
+* There are no built-in reports on Web applications.
+* Additional fields are offered, mainly for creating tables and charts.
 
 >[!CAUTION]
 >
 >It is highly recommended that the configurations applied be continually checked in order to detect any errors early in the Web application construction process. To check the rendering of a modification, save the application, then click the **[!UICONTROL Preview]** sub-tab.   
+>
 >Until the Web application is published, the changes cannot be seen by the end user.
 
 ## Inserting charts in a Web application {#inserting-charts-in-a-web-application}
