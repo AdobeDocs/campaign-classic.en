@@ -61,7 +61,7 @@ To configure your folder hierarchy for marketing plans and programs, follow thes
 
    ![](assets/create_plan_2.png)
 
-1. In the **General** tab, modify the** Internal name** to avoid duplicates during package exports.
+1. In the **General** tab, modify the **Internal name** to avoid duplicates during package exports.
 1. Click **Save**.
 1. Right-click the newly created plan and select **Create a new 'Program' folder**. 
 1. Repeat the above steps to rename your new program folder and its internal name.
@@ -84,7 +84,7 @@ An empty template is supplied out of the box in order to create a campaign for w
 
 The creation and configuration of campaign templates are presented in [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
 
-For more on campaign creation, refer to the [Creating a campaign and an email](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.md) video.
+For more on campaign creation, refer to the [Creating a campaign and an email](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
 
 ### Adding a campaign {#adding-a-campaign}
 
@@ -132,7 +132,11 @@ To create a delivery linked to a campaign, click the **[!UICONTROL Add a deliver
 
 ![](assets/campaign_op_add_delivery.png)
 
-The suggested configurations are suited to the different types of delivery (direct mail, email, mobile channels, fax, or telephone). For more on creating and configuring deliveries, refer to the [Sending Messages](../../delivery/using/communication-channels.md) section.
+The suggested configurations are suited to the different types of delivery (direct mail, email, mobile channels, fax, or telephone). 
+
+>[!NOTE]
+>
+>For more on creating and configuring deliveries, refer to the [Sending Messages](../../delivery/using/communication-channels.md) section.
 
 ### Creating a recurring delivery in a targeting workflow {#creating-a-recurring-delivery-in-a-targeting-workflow}
 
@@ -159,7 +163,8 @@ For more information, a detailed example of this workflow is presented in [this 
 
 >[!CAUTION]
 >
->For the workflows to execute, the technical workflows relating to the campaign process must be started. For more on this, refer to the [List of campaign process workflows](../../campaign/using/setting-up-marketing-campaigns.md#list-of-campaign-process-workflows) section.   
+>For the workflows to execute, the technical workflows relating to the campaign process must be started. For more on this, refer to the [List of campaign process workflows](../../campaign/using/setting-up-marketing-campaigns.md#list-of-campaign-process-workflows) section.
+>   
 >If the approval steps are enabled for the campaign, the deliveries will only be sent once these steps have been confirmed. For more on this, refer to the [Choosing the processes to be approved](../../campaign/using/setting-up-marketing-campaigns.md#choosing-the-processes-to-be-approved) section.
 
 ## Selecting the target population {#selecting-the-target-population}
@@ -427,6 +432,8 @@ At this point, the status of the campaign is **[!UICONTROL To validate]** .
 >
 >In a targeting workflow, if an error linked to a configuration issue occurs during message preparation, the **[!UICONTROL Restart message preparation]** link is shown on the dashboard. Correct the error and click this link to restart message preparation while bypassing the targeting stage.
 
+![](assets/s_user_validation_relaunch_message_preparation.png)
+
 For each delivery in the campaign, you can approve the following processes:
 
 * Targeting, content and budget
@@ -488,6 +495,8 @@ To select a list of operators, click the **[!UICONTROL Edit...]** link to the ri
 >* You can add reminders from this section.
 >
 
+![](assets/s_ncs_user_edit_op_valid_calendar.png)
+
 For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL Approvals]** tab to view and edit approval dates and automatic reminders.
 
 ![](assets/s_ncs_user_edit_del_valid.png)
@@ -500,7 +509,8 @@ For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL
 
 >[!CAUTION]
 >
->To approve a content, a Proof cycle is mandatory. Proofs let you approve the display of information, personalization data and check that links are working. For more on creating a proof and its lifecycle, refer to the [Sending Messages](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof) section.   
+>To approve a content, a Proof cycle is mandatory. Proofs let you approve the display of information, personalization data and check that links are working. For more on creating a proof and its lifecycle, refer to the [Sending Messages](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof) section.
+>
 >The content approval functionalities detailed below are designed to be added to the proof delivery.
 
 It's possible to configure a content approval cycle. To do this, select the **[!UICONTROL Enable content approval]** option in the approval settings window. The main steps of the content approval cycle are:
@@ -530,12 +540,16 @@ It's possible to configure a content approval cycle. To do this, select the **[!
       >[!NOTE]
       >
       >This campaign dashboard lets you view the list of proofs that have been sent, by clicking the **[!UICONTROL Inbox rendering...]** link. To view their content, click the **[!UICONTROL Detail]** icon to the right of the list.
+      
+      ![](assets/s_ncs_user_validation_content_BAT_details.png)
 
 1. A notification email is sent to the person responsible for the campaign telling them whether or not the content has been approved.
 
    >[!NOTE]
    >
-   >The person responsible for the campaign can re-start the content approval cycle at any time. To do this, click the link on the **[!UICONTROL Content status]** line of the campaign dashboard (at delivery level), then click **[!UICONTROL Reset content approval to submit it again]** .
+   >The person responsible for the campaign can re-start the content approval cycle at any time. To do this, click the link on the **[!UICONTROL Content status]** line of the campaign dashboard (at delivery level), then click **[!UICONTROL Reset content approval to submit it again]**.
+
+   ![](assets/s_user_validation_relaunch_content_validation.png)
 
 #### Assign content editing {#assign-content-editing}
 
@@ -598,13 +612,13 @@ When the content, targeting and budget have been approved, the delivery changes 
 
 ![](assets/s_ncs_user_waiting_file_extraction.png)
 
-On the extraction request date, the extraction file is created and the delivery status changes to **[!UICONTROL File to approve]** . 
+On the extraction request date, the extraction file is created and the delivery status changes to **[!UICONTROL File to approve]**. 
 
 ![](assets/s_ncs_user_file_extract_to_valid.png)
 
 You can view the content of the extracted file (by clicking its name), approve it or, if necessary, change the format and re-launch the extraction using the links on the dashboard.
 
-Once the file has been approved, you can send the notification e-mail to the router. For more on this, refer to [Starting an offline delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-an-offline-delivery)
+Once the file has been approved, you can send the notification e-mail to the router. For more on this, refer to [Starting an offline delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-an-offline-delivery).
 
 ## Starting a delivery {#starting-a-delivery}
 
@@ -616,7 +630,8 @@ Once all approval requests have been granted, the delivery status changes to **[
 
 >[!NOTE]
 >
->If a specific operator or group of operators is designated for starting a delivery in the delivery's properties, you can also allow the operator in charge of the delivery to confirm the send. To do this, activate the **NMS_ActivateOwnerConfirmation** option by entering **1** as the value. The options are managed from the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** node in the Adobe Campaign explorer.  
+>If a specific operator or group of operators is designated for starting a delivery in the delivery's properties, you can also allow the operator in charge of the delivery to confirm the send. To do this, activate the **NMS_ActivateOwnerConfirmation** option by entering **1** as the value. The options are managed from the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** node in the Adobe Campaign explorer.
+>  
 >To deactivate this option, enter **0** as the value. The send confirmation process will then function as default: only the operator or group of operators designated for the send in the delivery properties (or an administrator) will be able to confirm and carry out the send.
 
 ![](assets/s_ncs_user_edit_del_to_start_from_del.png)
@@ -649,6 +664,9 @@ For more on this, refer to [Approving an extraction file](../../campaign/using/s
   >
   >This step is only available if the sending and approval of proofs was enabled in the approvals window.
 
+![](assets/s_ncs_user_file_valid_select_BAT.png)
+  
+
 * Click the **[!UICONTROL Send a proof]** button to create the proofs.
 
   The proof target must be defined beforehand.
@@ -679,7 +697,7 @@ The file extraction launches two operations: budget calculation and stock calcul
 
   The real cost will eventually be calculated from information supplied by the router. Only messages actually sent are invoiced.
 
-* Stocks are defined in the **[!UICONTROL Administration > Campaign management > Stocks]** node of the tree, and cost structures in the **[!UICONTROL Administration>Campaign management>Service providers]** node.
+* Stocks are defined in the **[!UICONTROL Administration > Campaign management > Stocks]** node of the tree, and cost structures in the **[!UICONTROL Administration > Campaign management > Service providers]** node.
 
   Stock lines are visible in the stock section. To define the initial stock, open a stock line. The stock is decremented each time a delivery takes place. You can define an alert level and notifications.
 
@@ -792,7 +810,8 @@ To create an outline, click the **[!UICONTROL Delivery outlines]** sub-tab in th
 
 >[!NOTE]
 >
->If this tab is not present, then this feature is not available for this campaign. Refer to the campaign template configuration.   
+>If this tab is not present, then this feature is not available for this campaign. Refer to the campaign template configuration.
+>   
 >For more on this, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
 
 ![](assets/s_ncs_user_op_composition_link.png)
