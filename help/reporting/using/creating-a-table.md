@@ -36,7 +36,7 @@ It may happen that you need to analyze several data categories at once. A list w
 
 In the following example, the group shows all the campaigns in the database, the deliveries, and the number of messages sent per delivery and per campaign.
 
-It lets you list the campaigns ( **[!UICONTROL Label (Campaign)]** , the list of deliveries ( **[!UICONTROL Label]** ) linked to the campaign, and lets you count the number of messages sent per delivery ( **[!UICONTROL Processed)]** , before adding them up for each campaign ( **[!UICONTROL Sum(@processed)]** ). 
+It lets you list the campaigns (**[!UICONTROL Label (Campaign)]**, the list of deliveries (**[!UICONTROL Label]** ) linked to the campaign, and lets you count the number of messages sent per delivery (**[!UICONTROL Processed)]**, before adding them up for each campaign (**[!UICONTROL Sum(@processed)]** ). 
 
 ![](assets/s_advuser_ergo_listgroup_005.png)
 
@@ -85,7 +85,7 @@ The group can be placed on any line of the table and includes its own header, de
 
 ![](assets/s_advuser_ergo_listgroup_006.png)
 
-The nature of the line you add depends on the location of the cursor. For example, to add a header line, place your cursors on a header, then click **[!UICONTROL Add > A line above/below]** .
+The nature of the line you add depends on the location of the cursor. For example, to add a header line, place your cursors on a header, then click **[!UICONTROL Add > A line above/below]**.
 
 ![](assets/s_advuser_ergo_listgroup_006a.png)
 
@@ -140,7 +140,7 @@ The **[!UICONTROL Value]** tab lets you change the font and the various value at
 
 ![](assets/s_advuser_ergo_listgroup_009.png)
 
-The format changes data display: for example, the **[!UICONTROL Number]** , **[!UICONTROL Monetary]** and **[!UICONTROL Percentage]** formats allow you to align the figures on the right and display decimal points.
+The format changes data display: for example, the **[!UICONTROL Number]**, **[!UICONTROL Monetary]** and **[!UICONTROL Percentage]** formats allow you to align the figures on the right and display decimal points.
 
 Example of how to configure a currency format: you can specify the currency which the values are expressed in, choose whether or not to separate thousands, and show negative values in red. The position of the currency symbol depends on the language of the operator defined in their profile.
 
@@ -154,7 +154,7 @@ The **Borders** tab lets you add borders to the lines and columns in the table. 
 
 ![](assets/s_advuser_ergo_listgroup_014.png)
 
-If necessary, you can define borders in the table template ( **[!UICONTROL Administration > Configuration > Form rendering]** ).
+If necessary, you can define borders in the table template (**[!UICONTROL Administration > Configuration > Form rendering]** ).
 
 In this case, you'll have the following syntax:
 
@@ -206,7 +206,7 @@ In this example, we are going to create a two-page report: the first page will c
 
 ### Step 1 - Create a report {#step-1---create-a-report}
 
-Create a new report that concerns the campaign schema, **[!UICONTROL Campaigns (nms)]** .
+Create a new report that concerns the campaign schema, **[!UICONTROL Campaigns (nms)]**.
 
 ![](assets/s_advuser_report_listgroup_001.png)
 
@@ -271,7 +271,7 @@ In this step, we are going to configure the first page of the report. To configu
 
    ![](assets/s_advuser_report_listgroup_004.png)
 
-1. Click the **[!UICONTROL Table data XPath...]** link and select the delivery link, i.e. [query/delivery]
+1. Click the **[!UICONTROL Table data XPath...]** link and select the delivery link, i.e. `[query/delivery]`.
 
    ![](assets/s_advuser_report_listgroup_005.png)
 
@@ -293,7 +293,7 @@ In this step, we are going to configure the first page of the report. To configu
 
    ![](assets/s_advuser_report_listgroup_009.png)
 
-1. Edit the second cell of the details line and select the deliveries **[!UICONTROL Label]** .
+1. Edit the second cell of the details line and select the deliveries **[!UICONTROL Label]**.
 
    ![](assets/s_advuser_report_listgroup_011.png)
 
@@ -305,13 +305,7 @@ In this step, we are going to configure the first page of the report. To configu
 
    ![](assets/s_advuser_report_listgroup_0112.png)
 
-1. In the lower section of the window, click **[!UICONTROL Add]** and specify the
-
-   ```
-   /vars/selectedDelivery
-   ```
-
-   path and the **[!UICONTROL @deliveryId]** expression that matches the alias of the primary key of the delivery, as defined in the query created previously. This formula lets you access the selected delivery.
+1. In the lower section of the window, click **[!UICONTROL Add]** and specify the **`/vars/selectedDelivery`** path and the **[!UICONTROL @deliveryId]** expression that matches the alias of the primary key of the delivery, as defined in the query created previously. This formula lets you access the selected delivery.
 
    ![](assets/s_advuser_report_listgroup_010.png)
 
@@ -353,7 +347,7 @@ In this step, we are going to configure the first page of the report. To configu
 
    ![](assets/s_advuser_report_listgroup_024.png)
 
-1. Click the 1st cell of the group header line, the one that displays the campaign name, and select **[!UICONTROL Edit > Merge to right]** .
+1. Click the 1st cell of the group header line, the one that displays the campaign name, and select **[!UICONTROL Edit > Merge to right]**.
 
    ![](assets/s_advuser_report_listgroup_026.png)
 
@@ -394,7 +388,7 @@ We want to add a second query and a second page to display the detail of a deliv
 
    Add a filtering condition to collect only the information linked to the selected delivery.
 
-   The syntax is as follows: Foreign key of the 'Delivery' link equals the value of the setting below:$([vars/selectedDelivery])
+   The syntax is as follows: Foreign key of the 'Delivery' link equals the value of the setting `$([vars/selectedDelivery])`
 
    ![](assets/s_advuser_report_listgroup_017.png)
 
@@ -415,7 +409,7 @@ We want to add a second query and a second page to display the detail of a deliv
 1. In the **[!UICONTROL Data]** tab, adapt the table as follows:
 
     * Add two columns on the right hand side.
-    * In the first cell of the detail line, add the **[!UICONTROL rowNum()-1]** expression to count the number of lines. Then alter the format of the cell: in the **[!UICONTROL Extra]** tab, select **[!UICONTROL Color tab]** and click **[!UICONTROL Ok]** .
+    * In the first cell of the detail line, add the **[!UICONTROL rowNum()-1]** expression to count the number of lines. Then alter the format of the cell: in the **[!UICONTROL Extra]** tab, select **[!UICONTROL Color tab]** and click **[!UICONTROL Ok]**.
     
       ![](assets/s_advuser_report_listgroup_018.png)
 

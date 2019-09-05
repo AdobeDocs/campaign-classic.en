@@ -54,7 +54,7 @@ For **[!UICONTROL List with group]** type reports destined to be exported into E
 
   ![](assets/export_limitations_hide_label.png)
 
-* The reports do not have to use specific formatting defined at the cell level. It is preferable to use **[!UICONTROL Form rendering]** to define the format of the cells in the table. The **[!UICONTROL Form rendering]** can be accessed via **[!UICONTROL Administration > Configuration > Form rendering]** .
+* The reports do not have to use specific formatting defined at the cell level. It is preferable to use **[!UICONTROL Form rendering]** to define the format of the cells in the table. The **[!UICONTROL Form rendering]** can be accessed via **[!UICONTROL Administration > Configuration > Form rendering]**.
 * We do not recommend inserting HTML content.
 * If a report contains several table, chart, etc. type elements, they will be exported one under the other.
 * You can force the carriage return in cells: this configuration will be kept in Excel. For more on this, refer to this [Defining cell format](../../reporting/using/creating-a-table.md#defining-cell-format).
@@ -89,7 +89,7 @@ To find out more about the **nlserver** service, refer to [this section](../../p
 
 You can print your report: to do this, click the printer icon: this opens the dialog box.
 
-For a better result, edit the Internet Explorer printing options and select **[!UICONTROL Print background colors and images]** .
+For a better result, edit the Internet Explorer printing options and select **[!UICONTROL Print background colors and images]**.
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 
@@ -109,7 +109,7 @@ The archive dates are displayed under the show/hide icon. Click the archive to v
 
 ![](assets/s_ncs_advuser_report_history_04.png)
 
-It's possible to delete a report archive. To do this, go to the Adobe Campaign node where your reports are stored. Click the **[!UICONTROL Archives]** tab, select the one you want to delete and click **[!UICONTROL Delete]** .
+It's possible to delete a report archive. To do this, go to the Adobe Campaign node where your reports are stored. Click the **[!UICONTROL Archives]** tab, select the one you want to delete and click **[!UICONTROL Delete]**.
 
 ![](assets/s_ncs_advuser_report_history_01.png)
 

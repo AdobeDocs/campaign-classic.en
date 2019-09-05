@@ -134,7 +134,7 @@ To find out how to save descriptive analyses, refer to [Saving an analysis repor
 
 To create descriptive analysis reports, the descriptive analysis wizard must be executed via a workflow transition or via the **[!UICONTROL Tools > Descriptive analysis]** menu.
 
-1. Select **[!UICONTROL Existing analyses and reports]** and click **[!UICONTROL Next]** .
+1. Select **[!UICONTROL Existing analyses and reports]** and click **[!UICONTROL Next]**.
 1. This lets you access the list of available reports. Select the report you wish to generate.
 
    ![](assets/s_ncs_user_report_wizard_01.png)

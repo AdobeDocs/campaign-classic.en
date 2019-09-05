@@ -109,7 +109,7 @@ It is built using following template:
 
 ![](assets/nmx_enum_domain.png)
 
-To create a report using this enumeration, create a Cube using the **[!UICONTROL Email domain]** dimension. Choose the **[!UICONTROL Enable binning]** option then **[!UICONTROL Dynamically link the values to an enumeration]** . Then select the **Domains** enumeration as shown above. All values that have no specified alias will be regrouped under the **Others** label.
+To create a report using this enumeration, create a Cube using the **[!UICONTROL Email domain]** dimension. Choose the **[!UICONTROL Enable binning]** option then **[!UICONTROL Dynamically link the values to an enumeration]**. Then select the **Domains** enumeration as shown above. All values that have no specified alias will be regrouped under the **Others** label.
 
 ![](assets/nmx_add_dimension.png)
 

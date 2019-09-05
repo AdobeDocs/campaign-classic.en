@@ -44,7 +44,7 @@ Otherwise current data will be displayed.
 
 It's possible to use an external script that will be executed on the server and/or client side. To do this:
 
-1. Edit the report properties and click the **[!UICONTROL Scripts]** .
+1. Edit the report properties and click the **[!UICONTROL Scripts]**.
 1. Click **[!UICONTROL Add]** and select the script to be referenced.
 1. Then select the execution mode.
 

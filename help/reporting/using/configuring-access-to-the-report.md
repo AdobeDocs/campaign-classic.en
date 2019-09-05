@@ -116,7 +116,7 @@ Before publishing your report, make sure it is displayed correctly in the **[!UI
 
 To display the preview of the report, select the **[!UICONTROL Global]** or the **[!UICONTROL Selection]** option.
 
-These two options are selected based on the display settings of the report. If the display setting is **[!UICONTROL Global]** , you need to select the **[!UICONTROL Global]** preview option. If the display settings are **[!UICONTROL Single selection]** or **[!UICONTROL Multiple selection]** , the **[!UICONTROL Selection]** preview option must be selected.
+These two options are selected based on the display settings of the report. If the display setting is **[!UICONTROL Global]**, you need to select the **[!UICONTROL Global]** preview option. If the display settings are **[!UICONTROL Single selection]** or **[!UICONTROL Multiple selection]**, the **[!UICONTROL Selection]** preview option must be selected.
 
 For more on this, refer to [Report display context](../../reporting/using/configuring-access-to-the-report.md#report-display-context).
 

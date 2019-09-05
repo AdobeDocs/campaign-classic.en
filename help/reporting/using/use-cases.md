@@ -28,15 +28,15 @@ Implementation steps are detailed below, while an exhaustive list of options and
 
 In this example, we want to explore the target population of the deliveries included in the **Newsletters** folder.
 
-To do this, select the concerned deliveries, then right-click and select **[!UICONTROL Action > Explore the target...]** .
+To do this, select the concerned deliveries, then right-click and select **[!UICONTROL Action > Explore the target...]**.
 
 ![](assets/reporting_quick_start_1.png)
 
 ### Selecting a type of analysis {#selecting-a-type-of-analysis}
 
-In the first step of the assistant, you can select the descriptive analysis template to use. By default, Adobe Campaign offers two templates: **[!UICONTROL Qualitative distribution]** and **[!UICONTROL Quantitative distribution]** . For more on this refer to the [Configuring the qualitative distribution template](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-qualitative-distribution-template) section. The various renderings are presented in the [About descriptive analysis](../../reporting/using/about-descriptive-analysis.md) section.
+In the first step of the assistant, you can select the descriptive analysis template to use. By default, Adobe Campaign offers two templates: **[!UICONTROL Qualitative distribution]** and **[!UICONTROL Quantitative distribution]**. For more on this refer to the [Configuring the qualitative distribution template](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-qualitative-distribution-template) section. The various renderings are presented in the [About descriptive analysis](../../reporting/using/about-descriptive-analysis.md) section.
 
-For this example, select the **[!UICONTROL Qualitative distribution]** template and choose a display with a chart and table (array). Give the report a name ("Descriptive analysis") and click **[!UICONTROL Next]** .
+For this example, select the **[!UICONTROL Qualitative distribution]** template and choose a display with a chart and table (array). Give the report a name ("Descriptive analysis") and click **[!UICONTROL Next]**.
 
 ![](assets/reporting_descriptive_quickstart_step_1.png)
 
@@ -163,11 +163,11 @@ You can store, export or print data using the tool bar above the table. For more
 
    Click the **[!UICONTROL Next]** button to approve this step.
 
-1. Select the **[!UICONTROL Age]** variable and enter its label. Specify whether or not it's an integer, then click **[!UICONTROL Next]** .
+1. Select the **[!UICONTROL Age]** variable and enter its label. Specify whether or not it's an integer, then click **[!UICONTROL Next]**.
 
    ![](assets/s_ncs_user_report_wizard_011.png)
 
-1. Delete the **[!UICONTROL Deciles]** , **[!UICONTROL Distribution]** and **[!UICONTROL Sum]** statistics: they're not needed here.
+1. Delete the **[!UICONTROL Deciles]**, **[!UICONTROL Distribution]** and **[!UICONTROL Sum]** statistics: they're not needed here.
 
    ![](assets/s_ncs_user_report_wizard_012.png)
 
@@ -222,7 +222,7 @@ To do this, apply the following steps:
 
    ![](assets/reporting_descriptive_sample_tracking_1.png)
 
-   Select a table display and click **[!UICONTROL Next]** .
+   Select a table display and click **[!UICONTROL Next]**.
 
 1. In the next window, specify that the analysis concerns deliveries.
 

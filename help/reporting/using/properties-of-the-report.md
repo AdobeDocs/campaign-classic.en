@@ -97,7 +97,7 @@ To create a new setting:
    ![](assets/s_ncs_advuser_report_properties_09a.png)
 
 1. If necessary, specify whether or not the setting will be mandatory.
-1. Select the type of setting you want to create: **[!UICONTROL Filter]** or **[!UICONTROL Variable]** .
+1. Select the type of setting you want to create: **[!UICONTROL Filter]** or **[!UICONTROL Variable]**.
 
    The **[!UICONTROL Filter entities]** option lets you use a field of the database as a parameter.
 
