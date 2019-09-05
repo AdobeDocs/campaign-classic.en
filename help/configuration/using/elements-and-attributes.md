@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Elements and attributes{#elements-and-attributes}
+# Elements and attributes {#elements-and-attributes}
 
 When editing a schema, an approval system based on the source schema (xtk:srcSchema) is available. Some errors can also be spotted when updating the database using the "Database structure update..." wizard.
 
@@ -48,7 +48,7 @@ _operation (string), advanced (boolean), applicableIf (string), autoIncrement (b
 
 `<attribute>` elements must be declared in an `<element>` element.
 
-The sequence in which `<attribute>` elements are defined in an `<srcschema> ` does not affect the field creation sequence in the database. The creation sequence will be alphabetical.
+The sequence in which `<attribute>` elements are defined in an `<srcschema>` does not affect the field creation sequence in the database. The creation sequence will be alphabetical.
 
 ### Attribute description {#attribute-description}
 
@@ -959,7 +959,6 @@ Definition of the "Subscribe" out of the box method:
 
 ```
 
-
 ## <methods> element {#methods--element}
 
 ### Content model {#content-model-11}
@@ -993,7 +992,6 @@ This element has no attributes.
 ...// definition of one or more <method
 </methods>
 ```
-
 
 ## <param> element {#param--element}
 
