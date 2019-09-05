@@ -85,7 +85,9 @@ To create an execution instance type external account, apply the following steps
 
 ## Execution instance {#execution-instance}
 
-In order for the control instance to be able to connect to the execution instance without having to giving a password, simply enter the IP address of the control instance in the **Message Center** access rights section. However, empty passwords are forbidden by default. To use an empty password, go to the execution instances and define a security zone limited to the IP address of the information system that delivers the events. This security zone must allow empty passwords and accept `<identifier> / <password>   type connections. For more on this, refer to   <a href="../../installation/using/configuring-campaign-server.md#defining-security-zones">this section</a>. </password></identifier>`
+In order for the control instance to be able to connect to the execution instance without having to giving a password, simply enter the IP address of the control instance in the **Message Center** access rights section. However, empty passwords are forbidden by default.
+
+To use an empty password, go to the execution instances and define a security zone limited to the IP address of the information system that delivers the events. This security zone must allow empty passwords and accept `<identifier> / <password>` type connections. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 >[!NOTE]
 >
@@ -108,7 +110,9 @@ In order for the control instance to be able to connect to the execution instanc
 
 You can share an execution cluster with various control instances. This type of architecture requires the following configuration.
 
-For example if your company manages two brands, each with its own control instance: **Control 1 ** and **Control 2**. Two execution instances are also used. You need to enter a different Message Center operator for each control instance: an **mc1** operator for the **Control 1** instance and an **mc2** operator for the **Control 2** instance. In the tree of all the execution instances, create one folder per operator (**Folder 1** and **Folder 2**), and restrict each operator's data access to their folder.
+For example if your company manages two brands, each with its own control instance: **Control 1** and **Control 2**. Two execution instances are also used. You need to enter a different Message Center operator for each control instance: an **mc1** operator for the **Control 1** instance and an **mc2** operator for the **Control 2** instance.
+
+In the tree of all the execution instances, create one folder per operator (**Folder 1** and **Folder 2**), and restrict each operator's data access to their folder.
 
 ### Configuring control instances {#configuring-control-instances}
 
