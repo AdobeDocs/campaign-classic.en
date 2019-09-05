@@ -37,7 +37,7 @@ In Campaign v7, you can create web applications that allow recipients to subscri
 In Campaign v7, the following objects have been created:
 
 * a newsletter service
-* a web application containing a **[!UICONTROL Pre-loading]** , a **[!UICONTROL Page]** and a **[!UICONTROL Storage]** activity.
+* a web application containing a **[!UICONTROL Pre-loading]**, a **[!UICONTROL Page]** and a **[!UICONTROL Storage]** activity.
 
 1. Go to **[!UICONTROL Resources > Online > Web applications]** and select an existing web application.
 
@@ -47,7 +47,7 @@ In Campaign v7, the following objects have been created:
 
    ![](assets/acs_connect_lp_4.png)
 
-1. Edit the **[!UICONTROL Page]** . Three fields (Name, Email and Phone) have been included, as well as a check box to invite the recipient to subscribe to a newsletter ( **[!UICONTROL Newsletter]** service). 
+1. Edit the **[!UICONTROL Page]**. Three fields (Name, Email and Phone) have been included, as well as a check box to invite the recipient to subscribe to a newsletter (**[!UICONTROL Newsletter]** service). 
 
    ![](assets/acs_connect_lp_3.png)
 
@@ -67,7 +67,7 @@ In order to replicate the needed data between Campaign v7 and Campaign Standard,
 
 To check that the data has been replicated correctly, follow these steps in Campaign Standard:
 
-1. From the home screen, click on **[!UICONTROL Customer profiles]** .
+1. From the home screen, click on **[!UICONTROL Customer profiles]**.
 
    ![](assets/acs_connect_lp_7.png)
 
@@ -75,7 +75,7 @@ To check that the data has been replicated correctly, follow these steps in Camp
 
    ![](assets/acs_connect_lp_8.png)
 
-1. From the top bar, click on **[!UICONTROL Marketing activities]** , and search for the Campaign v7 web application. It appears as a landing page in Campaign Standard.
+1. From the top bar, click on **[!UICONTROL Marketing activities]**, and search for the Campaign v7 web application. It appears as a landing page in Campaign Standard.
 
    ![](assets/acs_connect_lp_9.png)
 
@@ -87,10 +87,10 @@ To check that the data has been replicated correctly, follow these steps in Camp
 
 In this part, we'll see how to include a link, in a Campaign Standard email, to the landing page replicated from a Campaign v7 web application.
 
-The steps to create, design and send the email are the same as for a classic email. See the [Adobe Campaign Standard](https://helpx.adobe.com/support/campaign/standard.md) documentation.
+The steps to create, design and send the email are the same as for a classic email. See the [Adobe Campaign Standard](https://helpx.adobe.com/support/campaign/standard.html) documentation.
 
 1. Create a new email and choose one or more replicated profiles as the audience.
-1. Edit your content and insert a **[!UICONTROL Link to a landing page]** . 
+1. Edit your content and insert a **[!UICONTROL Link to a landing page]**. 
 
    ![](assets/acs_connect_lp_12.png)
 

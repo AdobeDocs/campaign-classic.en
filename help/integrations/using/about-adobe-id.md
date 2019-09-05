@@ -25,7 +25,7 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID. T
 * Securer password management policy.
 * Use of Federated ID accounts (external ID provider).
 
-For more information on the different types of Adobe IDs, please consult: [https://helpx.adobe.com/en/enterprise/help/identity.md](https://helpx.adobe.com/en/enterprise/help/identity.md)
+For more information on the different types of Adobe IDs, please consult: [https://helpx.adobe.com/en/enterprise/help/identity.html](https://helpx.adobe.com/en/enterprise/help/identity.html)
 
 >[!CAUTION]
 >

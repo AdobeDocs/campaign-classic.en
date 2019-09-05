@@ -46,7 +46,11 @@ In the Campaign **Adobe Marketing Cloud** external account, check that the **[!U
 * Check that the user trying to login is part of an operator group in the Enterprise Dashboard.
 * Check that the **[!UICONTROL Association Mask]** is a prefix of the user's operator group name in the Enterprise Dashboard.
 * Make sure there are no white spaces and spelling mistakes. 
-* Check that the names of the operator groups in Campaign have not been changed and respect the following syntax: .
+* Check that the names of the operator groups in Campaign have not been changed and respect the following syntax:
+
+```
+<Association Mask> + <Operator Group Name in Campaign> = Complete name of the operator group in Enterprise Dashboard
+```
 
 **Scope**
 
@@ -70,7 +74,7 @@ Restart the server if any changes are made to the above settings in the Campaign
 
 * User is redirected to adobe.com page:
 
-  There is a problem with the **[!UICONTROL Callback URL]** . Refer to the previous steps to check the **[!UICONTROL Callback URL]** configuration.
+  There is a problem with the **[!UICONTROL Callback URL]**. Refer to the previous steps to check the **[!UICONTROL Callback URL]** configuration.
 
 * Message "Login does not have any right matching the expression":
 

@@ -75,7 +75,7 @@ Depending on your implementation, you can face several common issues.
 
   By default, 20 fields from the nms:recipient table are synchronized with Campaign Standard. Refer to the detailed list of synchronized fields. Any additional field you need to retrieve in Campaign Standard must be mapped and configured by your consultant.
 
-  To make sure the field you want to use is available, you can check the profile resource definition from **[!UICONTROL Administration > Development > Diagnosis > Data schemas]** .
+  To make sure the field you want to use is available, you can check the profile resource definition from **[!UICONTROL Administration > Development > Diagnosis > Data schemas]**.
 
   Besides, all data attached to recipients and stored in tables related to nms:recipients are not synchronized by default to Campaign Standard.
 
@@ -91,7 +91,7 @@ Depending on your implementation, you can face several common issues.
 
   Audiences can be found in the **[!UICONTROL Audiences]** menu in Campaign Standard. They have the label specified in the **[!UICONTROL List update]** activity in your Campaign v7 workflow. They are subject to the folder mapping defined during the implementation.
 
-  The first thing to check is whether the workflow has finished without error. If you notice an error on the **[!UICONTROL List update]** activity, it means that the synchronization with Campaign Standard may have failed. To be able to see more details about what went wrong, go to **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]** . This folder contains synchronization workflows triggered by the **[!UICONTROL List update]** activity execution.
+  The first thing to check is whether the workflow has finished without error. If you notice an error on the **[!UICONTROL List update]** activity, it means that the synchronization with Campaign Standard may have failed. To be able to see more details about what went wrong, go to **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]**. This folder contains synchronization workflows triggered by the **[!UICONTROL List update]** activity execution.
 
   Also, make sure that the **[!UICONTROL Share with ACS]** option is checked in the **[!UICONTROL List update]** activity and that the workflow was correctly executed.
 
@@ -108,7 +108,7 @@ Depending on your implementation, you can face several common issues.
 
 * **I have no security group available when mapping folders between Campaign v7 and Campaign Standard.**
 
-  You need to first synchronize your security groups from **[!UICONTROL Administration > ACS Connector > Rights management > Security groups]** . This action checks the security groups available in Campaign Standard. Once synchronized, you can find the security groups when configuring the folder mapping.
+  You need to first synchronize your security groups from **[!UICONTROL Administration > ACS Connector > Rights management > Security groups]**. This action checks the security groups available in Campaign Standard. Once synchronized, you can find the security groups when configuring the folder mapping.
 
 * **I cannot edit a profile, an audience or a landing page in Campaign Standard. What does it mean?**
 

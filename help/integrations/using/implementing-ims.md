@@ -30,7 +30,7 @@ snippet: y
 
 ## Disabling the IMS connection {#disabling-the-ims-connection}
 
-To disable connecting via the Adobe ID, disconnect, click **[!UICONTROL File > Connections]** and uncheck **[!UICONTROL Connect with an Adobe ID]** . 
+To disable connecting via the Adobe ID, disconnect, click **[!UICONTROL File > Connections]** and uncheck **[!UICONTROL Connect with an Adobe ID]**. 
 
 ![](assets/ims_4.png)
 
