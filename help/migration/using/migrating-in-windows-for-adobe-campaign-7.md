@@ -326,7 +326,8 @@ At this stage, the IIS server must be stopped. Refer to [Service stop](../../mig
 
       >[!NOTE]
       >
-      >If the tree structure is not displayed, re-start the IIS.  
+      >If the tree structure is not displayed, re-start the IIS.
+      >
       >The following IIS configuration steps are detailed in [this section](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
 
 ## Security zones {#security-zones}

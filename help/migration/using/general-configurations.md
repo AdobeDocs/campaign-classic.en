@@ -39,7 +39,8 @@ To use the TIMESTAMP WITH TIMEZONE mode, you also need to add the **-userTimesta
 
 >[!NOTE]
 >
->It is possible to alter the timezone after migration via the console (**[!UICONTROL Administration > Platform > Options > WdbcTimeZone]** node).  
+>It is possible to alter the timezone after migration via the console (**[!UICONTROL Administration > Platform > Options > WdbcTimeZone]** node).
+>
 >For more on time zone management, refer to [this section](../../installation/using/time-zone-management.md).
 
 ### Oracle {#oracle}
@@ -353,7 +354,8 @@ Aggregate function(collection)
 
   >[!NOTE]
   >
-  >Joints are automatically carried out for the aggregate functions. It is no longer necessary to specify the condition WHERE O0.iOperationId=iOperationId.  
+  >Joints are automatically carried out for the aggregate functions. It is no longer necessary to specify the condition WHERE O0.iOperationId=iOperationId.
+  >
   >It is no longer possible to use the "count(&#42;)" function. You must use "countall()".
 
 * Former syntax:
