@@ -53,7 +53,7 @@ The Adobe Campaign v5.11 home page is no longer available.
 
 Although not recommended, there are certain solutions if you wish to keep specific interfaces from Adobe Campaign v5.11. For more information, please contact us.
 
-##MySQL {#mysql}
+## MySQL {#mysql}
 
 >[!CAUTION]
 >
@@ -89,7 +89,7 @@ In this example, a **NmcTrackingLogMessages** view had been created and this has
 
 To make sure the postupgrade works, you must delete the view before the migration and re-create it after the migration while adapting it to the TIMESTAMP WITH TIMEZONE mode.
 
-##Tracking {#tracking}
+## Tracking {#tracking}
 
 The tracking formula has been modified. When migrating, the old formula (v5) is replaced by the new one (v7). If you use a personalized formula in Adobe Campaign v5, this configuration has to be adapted in Adobe Campaign v7 (**NmsTracking_ClickFormula** and **NmsTracking_OpenFormula** options).
 
@@ -107,7 +107,7 @@ Three modes are available:
 >
 >For more information on these three modes, refer to [this section](../../configuration/using/about-web-tracking.md).
 
-##Adobe Campaign v7 tree structure {#campaign-vseven-tree-structure}
+## Adobe Campaign v7 tree structure {#campaign-vseven-tree-structure}
 
 During migration, the tree structure is automatically reorganized based on the v7 standards. The new folders are added, the obsolete folders are deleted, and their content is placed in the "To move" folder. All items in this folder must be checked after the migration, and the consultant has to decide to either keep it or delete each one. Items to be kept then have to be moved to the right place.
 
