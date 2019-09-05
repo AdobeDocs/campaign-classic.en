@@ -78,7 +78,7 @@ After running **postupgrade**, the following elements must be taken into account
 
   If you used the v5 personalization block in your messages, the mirror page display will fail. Adobe highly recommends to use the new personalization block when inserting mirror page in your messages.
 
-  However, as a temporary solution (and as the mirror pages are still live), you can turn back to the old personalization block to avoid this problem by changing the option **[!UICONTROL XtkAcceptOldPasswords]** and set it to **[!UICONTROL 1]** . This will not affect the usage of the new v6.x personalization block.
+  However, as a temporary solution (and as the mirror pages are still live), you can turn back to the old personalization block to avoid this problem by changing the option **[!UICONTROL XtkAcceptOldPasswords]** and set it to **[!UICONTROL 1]**. This will not affect the usage of the new v6.x personalization block.
 
 * Syntax
 

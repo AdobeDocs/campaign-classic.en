@@ -30,5 +30,5 @@ The migration must be tested on the development environment beforehand to make s
 
 >[!NOTE]
 >
->New features and evolutions for Adobe Campaign v7 are detailed in [this page](https://docs.campaign.adobe.com/doc/AC/en/RN.md).
+>New features and evolutions for Adobe Campaign v7 are detailed in [this page](https://docs.campaign.adobe.com/doc/AC/en/RN.html).
 
