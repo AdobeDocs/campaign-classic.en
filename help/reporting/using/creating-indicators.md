@@ -53,7 +53,7 @@ Dimensions coincide with analysis axes defined for each Cube based on their rela
 
 These analysis axes are defined in the **[!UICONTROL Dimension]** tab of the Cube.
 
-Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[!UICONTROL Expression field]** , click the **[!UICONTROL Edit expression]** icon to select the field that contains the concerned data.
+Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[!UICONTROL Expression field]**, click the **[!UICONTROL Edit expression]** icon to select the field that contains the concerned data.
 
 ![](assets/s_advuser_cube_wz_04.png)
 

@@ -22,7 +22,7 @@ To create a report, apply the following steps:
 
 1. Open the Adobe Campaign Explorer and from the **[!UICONTROL Administration > Configuration]** node, then select the **[!UICONTROL Reports]** folder.
 1. Click the **[!UICONTROL New]** button above the list of reports. 
-1. Select **[!UICONTROL Create a new report from a template]** and click **[!UICONTROL Next]** .
+1. Select **[!UICONTROL Create a new report from a template]** and click **[!UICONTROL Next]**.
 
    ![](assets/s_ncs_advuser_report_wizard_new_01.png)
 
@@ -114,12 +114,12 @@ You can also right-click the node where you want to add the component and select
 
 A **[!UICONTROL Page]** can include the following elements:
 
-* Bar, pie, curve type **[!UICONTROL charts]** , etc. 
-* Pivot; List with group, or Breakdown **[!UICONTROL tables]** . 
-* Text or number type **[!UICONTROL Input controls]** . 
-* Drop-down list, checkbox, radio button, multiple choice, date, or Matrix type **[!UICONTROL Selection controls]** . 
-* Link editor, Constant, Folder selection type **[!UICONTROL Advanced controls]** .
-* Value, Link, HTML, Image, etc. **[!UICONTROL Static elements]** . 
+* Bar, pie, curve type **[!UICONTROL charts]**, etc. 
+* Pivot; List with group, or Breakdown **[!UICONTROL tables]**. 
+* Text or number type **[!UICONTROL Input controls]**. 
+* Drop-down list, checkbox, radio button, multiple choice, date, or Matrix type **[!UICONTROL Selection controls]**. 
+* Link editor, Constant, Folder selection type **[!UICONTROL Advanced controls]**.
+* Value, Link, HTML, Image, etc. **[!UICONTROL Static elements]**. 
 * **[!UICONTROL Containers]** that enable you to control component layout.
 
 The configuration mode of a page and its components is detailed in [this section](../../web/using/about-web-forms.md).

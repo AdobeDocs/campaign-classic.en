@@ -46,15 +46,15 @@ Open the descriptive analysis wizard by selecting items and right-clicking. Only
 
 ![](assets/reporting_descriptive_from_recipients.png)
 
-* For a set of **recipients**, select the recipients to be analyzed, then right-click and select **[!UICONTROL Actions > Explore...]** , as shown above. If a filter is applied to the list of recipients, only its content will be analyzed.
+* For a set of **recipients**, select the recipients to be analyzed, then right-click and select **[!UICONTROL Actions > Explore...]**, as shown above. If a filter is applied to the list of recipients, only its content will be analyzed.
 
   To select all the recipients in the folder or the current filter, use the CTRL+A shortcut. This means that even recipients not shown will be selected.
 
   For an example of the descriptive analysis of recipients, refer to: [Qualitative data analysis](../../reporting/using/use-cases.md#qualitative-data-analysis).
 
-* In the context of a **workflow**, place the cursor on a transition that points towards the recipients table, right-click and select **[!UICONTROL Analyze target]** . For more on this, refer to the example in [Analyzing a transition target in a workflow](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow).
+* In the context of a **workflow**, place the cursor on a transition that points towards the recipients table, right-click and select **[!UICONTROL Analyze target]**. For more on this, refer to the example in [Analyzing a transition target in a workflow](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow).
 * For **lists**, select one or more lists and apply the same process as for recipients.
-* In the context of a **delivery**, select the deliveries whose target you want to analyze, right-click and select **[!UICONTROL Actions > Explore the target]** , as shown below:
+* In the context of a **delivery**, select the deliveries whose target you want to analyze, right-click and select **[!UICONTROL Actions > Explore the target]**, as shown below:
 
   ![](assets/reporting_descriptive_from_deliveries.png)
 

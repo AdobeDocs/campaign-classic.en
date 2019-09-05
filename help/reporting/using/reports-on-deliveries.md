@@ -168,7 +168,7 @@ This report shows the breakdown of internet browsers used by delivery recipients
 >
 >The values shown in this report are estimates: only recipients who have clicked in a delivery will be taken into account.
 
-**Global statistics **
+**Global statistics**
 
 The global statistics on browser use are presented in the form of a table of values and a chart. 
 
@@ -256,7 +256,7 @@ This report shows the breakdown of operating systems used by delivery recipients
 >
 >The values shown in this report are estimates: only recipients who have clicked in a delivery will be taken into account.
 
-**Global statistics **
+**Global statistics**
 
 The global usage statistics of operating systems are presented in the form of a table of values and a chart. 
 
@@ -663,7 +663,7 @@ The second part of the report details the breakdown of failed messages by intern
 
 This report is based on the **[!UICONTROL Internet Browser Statistics]** table (nms:userAgentsStats).
 
-**Global statistics **
+**Global statistics**
 
 <table> 
  <thead> 
@@ -905,7 +905,7 @@ This report is based on the **[!UICONTROL Delivery]** (nms:delivery), **[!UICONT
 
 This report is based on the **[!UICONTROL Internet Browser Statistics]** table (nms:userAgentsStats).
 
-**Global statistics **
+**Global statistics**
 
 <table> 
  <thead> 
@@ -1444,7 +1444,7 @@ The **Sent** indicator (@sent), accessed via the **Deliveries (nms:delivery) > I
 
 ### Indicator synchronization {#indicator-synchronization}
 
-If you experience desynchronization or inconsistency for certain indicators, select the concerned delivery in the Adobe Campaign explorer, right-click and choose **[!UICONTROL Action>Recompute delivery and tracking indicators]** . Click **[!UICONTROL Next]** , then click **[!UICONTROL Finish]** .
+If you experience desynchronization or inconsistency for certain indicators, select the concerned delivery in the Adobe Campaign explorer, right-click and choose **[!UICONTROL Action>Recompute delivery and tracking indicators]**. Click **[!UICONTROL Next]**, then click **[!UICONTROL Finish]**.
 
 ![](assets/s_ncs_user_recalculate_indicators.png)
 
@@ -1538,7 +1538,7 @@ Florian's actions (one open and 9 clicks) appear in the following logs:
 
 **Recipients**: the open and the clicks are assigned to the same recipient (Florian). Since this recipient is different from the previous one (Marie), Adobe Campaign adds a new recipient to the count.
 
-People: Since this recipient's browser accepts cookies, we can see that the same identifier (UUID) is assigned to all click logs: **fe37a503 [...]**. Adobe Campaign correctly identifies these clicks as belonging to the same person. A new person is added to the count.
+People: Since this recipient's browser accepts cookies, we can see that the same identifier (UUID) is assigned to all click logs: **`fe37a503 [...]`**. Adobe Campaign correctly identifies these clicks as belonging to the same person. A new person is added to the count.
 
 **Intermediate calculation:**
 
@@ -1557,7 +1557,7 @@ The following logs coincide with the open and two clicks carried out by the pers
 
 ![](assets/s_ncs_user_indicators_example_12.png)
 
-**People**: concerning clicks, we can see that the same identifier (UUID) is assigned to all logs: **9ab648f9 [...]**. This identifier hasn't been counted yet. A new person is therefore added to the count. 
+**People**: concerning clicks, we can see that the same identifier (UUID) is assigned to all logs: **`9ab648f9 [...]`**. This identifier hasn't been counted yet. A new person is therefore added to the count. 
 
 ![](assets/s_ncs_user_indicators_example_13.png)
 
@@ -1616,10 +1616,7 @@ Raw reactivity and estimation of forwards are calculated as follows:
 >[!NOTE]
 >
 >In the following formulas:  
-
 >
 >* A represents the **[!UICONTROL Clicks]** indicator (recipients who clicked).
 >* B represents the **[!UICONTROL Distinct clicks for the population reached]** indicator (people who clicked).
 >* C represents the **[!UICONTROL Distinct opens for the population reached]** indicator (recipients who opened).
->
-

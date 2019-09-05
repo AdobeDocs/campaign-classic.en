@@ -18,7 +18,7 @@ snippet: y
 
 # Using the context{#using-the-context}
 
-When you want to represent data in the form of **[!UICONTROL tables]** or **[!UICONTROL charts]** , it can be taken from two sources: a new query (refer to [Defining a direct filter on data](../../reporting/using/using-the-context.md#defining-a-direct-filter-on-data)) or the report context (refer to [Using context data](../../reporting/using/using-the-context.md#using-context-data)).
+When you want to represent data in the form of **[!UICONTROL tables]** or **[!UICONTROL charts]**, it can be taken from two sources: a new query (refer to [Defining a direct filter on data](../../reporting/using/using-the-context.md#defining-a-direct-filter-on-data)) or the report context (refer to [Using context data](../../reporting/using/using-the-context.md#using-context-data)).
 
 ## Defining a direct filter on data {#defining-a-direct-filter-on-data}
 
@@ -67,7 +67,7 @@ Only recipients that meet the filtering criteria will appear in the report.
 
 ## Using context data {#using-context-data}
 
-To represent data in the form of a **[!UICONTROL table]** or a **[!UICONTROL chart]** , the data can come from the report context.
+To represent data in the form of a **[!UICONTROL table]** or a **[!UICONTROL chart]**, the data can come from the report context.
 
 In the page that contains the table or the chart, the **[!UICONTROL Data]** tab lets you select the data source. 
 
@@ -80,7 +80,7 @@ For instance, in a query box, build the following query for the recipients:
 
 ![](assets/s_ncs_advuser_report_datasource_2.png)
 
-Then indicate the source of the data in your report, in this case: **[!UICONTROL Data from the context]** .
+Then indicate the source of the data in your report, in this case: **[!UICONTROL Data from the context]**.
 
 The data location is inferred automatically. If necessary, you can force the data path.
 
