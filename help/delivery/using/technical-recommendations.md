@@ -512,7 +512,7 @@ There are five speeds available: Slow, Normal, Fast, Very fast, Boost.
 
 >[!NOTE]
 >
->For more information on MX rules, refer to [this section](../../installation/using/mail-deliverability.md).
+>For more information on MX rules, refer to [this section](../../installation/using/email-deliverability.md).
 
 MX rules are reloaded automatically every morning at 6AM (server time).
 

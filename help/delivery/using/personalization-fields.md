@@ -49,7 +49,7 @@ We create an email in which we will first insert the name of the recipient and t
 1. In the delivery wizard, click **[!UICONTROL Subject]** to edit the subject of the message and enter a subject.
 1. Enter " **[!UICONTROL Special offer for]** " and use the button in the toolbar to insert a personalization field. Select **[!UICONTROL Recipients>Title]**.
 
-    ![](assets/s_ncs_user_insert_custom_field_.png)
+    ![](assets/s_ncs_user_insert_custom_field.png)
 
 1. Repeat the operation to insert the name of the recipient. Insert spaces between all the personalization fields.
 1. Click **[!UICONTROL OK]** to validate.
