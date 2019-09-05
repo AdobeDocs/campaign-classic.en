@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Specific configurations in v6.10{#specific-configurations-in-vsix.ten}
+# Specific configurations in v6.10{#specific-configurations-in-v6-10}
 
 Certain improvements have been carried out in Adobe Campaign v7 in order to optimize security.
 
