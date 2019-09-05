@@ -57,18 +57,19 @@ In order for Adobe Campaign to be able to publish on the walls of your pages, yo
 
    >[!CAUTION]
    >
-   >Depending on the type of account you have, one or more authorizations may be necessary.  
+   >Depending on the type of account you have, one or more authorizations may be necessary.
+   >
    >To create a Facebook application, you will need a **verified** Facebook account.
 
 1. Click the **[!UICONTROL Add a New App]** button in the top right-hand corner of the page. Enter an app name and a contact email, then pass the security check.
 
    ![](assets/social_create_facebook_app_002.png)
 
-1. Under **[!UICONTROL Settings > Basic]** , click on **[!UICONTROL Add a platform]** and select the **[!UICONTROL Facebook Web Games]** type.
+1. Under **[!UICONTROL Settings > Basic]**, click on **[!UICONTROL Add a platform]** and select the **[!UICONTROL Facebook Web Games]** type.
 
    ![](assets/social_create_facebook_app_003.png)
 
-1. In the **[!UICONTROL Products]** section, in the left menu, check that you see the **[!UICONTROL Facebook Login]** product. If not, add a new product and select **[!UICONTROL Facebook Login]** .
+1. In the **[!UICONTROL Products]** section, in the left menu, check that you see the **[!UICONTROL Facebook Login]** product. If not, add a new product and select **[!UICONTROL Facebook Login]**.
 
    ![](assets/social_create_facebook_app_003bis.png)
 
@@ -92,7 +93,7 @@ This step requires access to both your Adobe Campaign console and an Internet br
 
   >[!NOTE]
   >
-  >If the **[!UICONTROL Facebook Web Games]** section does not appear, click the **[!UICONTROL Add Platform]** button, at the bottom of the page, and select **[!UICONTROL Facebook Web Games]** .
+  >If the **[!UICONTROL Facebook Web Games]** section does not appear, click the **[!UICONTROL Add Platform]** button, at the bottom of the page, and select **[!UICONTROL Facebook Web Games]**.
 
 * **Adobe Campaign**: go to the **[!UICONTROL Administration > Platform > External Accounts]** node of the tree, select the **[!UICONTROL Facebook routing]** external account and click the **[!UICONTROL Connector]** tab.
 
@@ -106,7 +107,7 @@ This step requires access to both your Adobe Campaign console and an Internet br
    >
    >You must not use the unsecure URL under any circumstances.
 
-   Copy and paste this URL also under **[!UICONTROL Products]** > **[!UICONTROL Facebook Login]** > **[!UICONTROL Settings]** > **[!UICONTROL Valid OAuth Redirect URIs]** . To check the validity of the URL, save the application, copy and paste the URL in the **[!UICONTROL Redirect URI to Check]** field and click on **[!UICONTROL Check URI]** .
+   Copy and paste this URL also under **[!UICONTROL Products]** > **[!UICONTROL Facebook Login]** > **[!UICONTROL Settings]** > **[!UICONTROL Valid OAuth Redirect URIs]**. To check the validity of the URL, save the application, copy and paste the URL in the **[!UICONTROL Redirect URI to Check]** field and click on **[!UICONTROL Check URI]**.
 
    ![](assets/social_facebook_external_account_007bis.png)
 

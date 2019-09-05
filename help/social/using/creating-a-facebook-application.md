@@ -46,9 +46,9 @@ This step requires access to both your Adobe Campaign console and an Internet br
 
   >[!NOTE]
   >
-  >If the **[!UICONTROL Facebook Web Games]** section does not appear, click the **[!UICONTROL Add Platform]** button, at the bottom of the page, and select **[!UICONTROL Facebook Web Games]** .
+  >If the **[!UICONTROL Facebook Web Games]** section does not appear, click the **[!UICONTROL Add Platform]** button, at the bottom of the page, and select **[!UICONTROL Facebook Web Games]**.
 
-* **Adobe Campaign**: go to the **[!UICONTROL Administration > Platform > External accounts]** node of the tree and click **[!UICONTROL New]** .
+* **Adobe Campaign**: go to the **[!UICONTROL Administration > Platform > External accounts]** node of the tree and click **[!UICONTROL New]**.
 
   ![](assets/social_webapp_fb_005.png)
 
@@ -56,7 +56,7 @@ This step requires access to both your Adobe Campaign console and an Internet br
 
    ![](assets/social_webapp_fb_006.png)
 
-1. Select a hosting mode for the application: **[!UICONTROL hosted by a partner]** or **[!UICONTROL hosted by this instance]** .
+1. Select a hosting mode for the application: **[!UICONTROL hosted by a partner]** or **[!UICONTROL hosted by this instance]**.
 
    ![](assets/social_webapp_fb_012.png)
 
@@ -66,7 +66,7 @@ This step requires access to both your Adobe Campaign console and an Internet br
 
    >[!NOTE]
    >
-   >The parameters of the web service are detailed in the WSDL file available here: **https://`<instance name=""> /nl/jsp/schemawsdl.jsp?schema=nms:visitor</instance>`**
+   >The parameters of the web service are detailed in the WSDL file available here: **`https://<Instance name>/nl/jsp/schemawsdl.jsp?schema=nms:visitor`**
 
    To integrate the third-party application into Adobe Campaign, you need to copy the content of the **[!UICONTROL App ID]** and **[!UICONTROL App Secret]** Facebook fields and paste it into the **[!UICONTROL Application ID]** and **[!UICONTROL Application secret]** fields of the console.
 
@@ -120,17 +120,12 @@ The Adobe Campaign Facebook application lets you display personalized content in
 
    >[!NOTE]
    >
-   >There are four Facebook web application templates offered by default:   
-
+   >There are four Facebook web application templates offered by default:
    >
-   >    
-   >    
-   >    * **[!UICONTROL New Facebook application]** : select this template if you want to start from a blank application. 
-   >    * **[!UICONTROL Pre-entered form]** : Facebook application with a form and a "Facebook login" button which allows users to autofill the form's fields using the data from their profile. This allows the users to complete the form more quickly and for brands to obtain better quality information.
-   >    * **[!UICONTROL "Canvas page" competition]** : Facebook application that is displayed across the screen for a better visual experience for the users.
-   >    * **[!UICONTROL "Page Tab" competition]** : Facebook application fully integrated into the brand page tabs.
-   >    
-   >
+   >* **[!UICONTROL New Facebook application]**: select this template if you want to start from a blank application.
+   >* **[!UICONTROL Pre-entered form]**: Facebook application with a form and a "Facebook login" button which allows users to autofill the form's fields using the data from their profile. This allows the users to complete the form more quickly and for brands to obtain better quality information.
+   >* **[!UICONTROL "Canvas page" competition]**: Facebook application that is displayed across the screen for a better visual experience for the users.
+   >* **[!UICONTROL "Page Tab" competition]**: Facebook application fully integrated into the brand page tabs.
 
 1. In the **[!UICONTROL Application]** field, enter the external account linked to the Facebook application. For more on this, refer to: [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
@@ -148,11 +143,11 @@ The Adobe Campaign Facebook application lets you display personalized content in
 
 You can configure your Facebook applications to be displayed as tabs on your Facebook page. To do this, apply the following steps:
 
-1. Select the Facebook application ( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)), and select the **[!UICONTROL Settings > Basic]** tab.
+1. Select the Facebook application ([https://developers.facebook.com/apps](https://developers.facebook.com/apps)), and select the **[!UICONTROL Settings > Basic]** tab.
 
    ![](assets/social_webapp_fb_008.png)
 
-1. At the bottom of the page, click the **[!UICONTROL Add Platform]** button, and select **[!UICONTROL Page Tab]** .
+1. At the bottom of the page, click the **[!UICONTROL Add Platform]** button, and select **[!UICONTROL Page Tab]**.
 
    ![](assets/social_webapp_fb_008bis.png)
 
@@ -168,7 +163,7 @@ You can configure your Facebook applications to be displayed as tabs on your Fac
 
    ![](assets/social_webapp_fb_0010.png)
 
-1. Select the Facebook page you want to add the tab to and click **[!UICONTROL Add Page Tab]** .
+1. Select the Facebook page you want to add the tab to and click **[!UICONTROL Add Page Tab]**.
 
    ![](assets/social_webapp_fb_0011.png)
 

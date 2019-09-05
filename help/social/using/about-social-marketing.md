@@ -33,6 +33,6 @@ The **Managing social networks** (Social Marketing) application designed for man
 
 >[!CAUTION]
 >
->Facebook and Twitter make regular changes to their screens and processes. This document will be updated accordingly.  
+>Facebook and Twitter make regular changes to their screens and processes. This document will be updated accordingly.
+>
 >Adobe Campaign requests that you comply with the Facebook and Twitter terms of service.
-
