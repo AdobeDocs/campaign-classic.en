@@ -120,7 +120,9 @@ If you do not wish to display a document upload field, enter **[!UICONTROL 0]** 
 
 >[!NOTE]
 >
->The **[!UICONTROL Advanced parameters for campaign entry]** can be deactivated by checking **[!UICONTROL Do not display the page used to enter the campaign parameters]** .
+>The **[!UICONTROL Advanced parameters for campaign entry]** can be deactivated by checking **[!UICONTROL Do not display the page used to enter the campaign parameters]**.
+
+![](assets/s_advuser_mkg_dist_disable_op_parameters.png)
 
 ### Workflow {#workflow}
 
@@ -128,7 +130,7 @@ In the **[!UICONTROL Targeting and workflows]** tab, create the campaign workflo
 
 ![](assets/mkg_dist_local_op_creation4b.png)
 
-Double click the **[!UICONTROL Query]** activity to configure it according to the specified **[!UICONTROL Default values]** .
+Double click the **[!UICONTROL Query]** activity to configure it according to the specified **[!UICONTROL Default values]**.
 
 ![](assets/mkt_dist_local_campaign_localize_query.png)
 
@@ -146,7 +148,7 @@ If necessary, configure the maximum size of the delivery:
 
 ![](assets/mkg_dist_local_op_creation4e.png)
 
-Locate your delivery's HTML. For example, in **[!UICONTROL Delivery > Current order > Additional fields]** , use the **[!UICONTROL Age segment]** field to locate the delivery according to the age of the target.
+Locate your delivery's HTML. For example, in **[!UICONTROL Delivery > Current order > Additional fields]**, use the **[!UICONTROL Age segment]** field to locate the delivery according to the age of the target.
 
 ![](assets/mkt_dist_local_campaign_localize_html.png)
 
@@ -191,7 +193,7 @@ This information is found in the notification message sent to local agencies, as
 
 ### Audience {#audience}
 
-For a local campaign, the central entity can specify the local entities involved by checking the **[!UICONTROL Limit the package to a set of local entities]** .
+For a local campaign, the central entity can specify the local entities involved by checking the **[!UICONTROL Limit the package to a set of local entities]**.
 
 ![](assets/s_advuser_mkg_dist_create_mutual_entry3.png)
 
@@ -209,8 +211,11 @@ From the **[!UICONTROL General]** tab, the central entity can:
 
 >[!NOTE]
 >
->By default, each entity can order a **local campaign** only once.   
+>By default, each entity can order a **local campaign** only once.
+>   
 >Check the **[!UICONTROL Enable multiple creation]** option to allow several local campaigns to be created from the campaign package.
+
+![](assets/mkg_dist_local_op_multi_crea.png)
 
 ### Notifications {#notifications}
 
@@ -238,7 +243,7 @@ To order a campaign:
    >
    >Web applications are detailed in the [Web functionalities](../../web/using/about-web-applications.md) guide.
 
-1. Enter the necessary information in the first page (order label and comment) and click **[!UICONTROL Next]** .
+1. Enter the necessary information in the first page (order label and comment) and click **[!UICONTROL Next]**.
 
    ![](assets/mkg_dist_subscribe_step1.png)
 
@@ -298,7 +303,7 @@ When a campaign is ordered by a local entity, its reviewers are notified by emai
 
 #### Approving via the Adobe Campaign console {#approving-via-the-adobe-campaign-console}
 
-The order may also be approved via the console, in the campaign order overview. To approve an order, select it and click **[!UICONTROL Approve the order]** .
+The order may also be approved via the console, in the campaign order overview. To approve an order, select it and click **[!UICONTROL Approve the order]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 

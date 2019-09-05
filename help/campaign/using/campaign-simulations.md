@@ -30,6 +30,8 @@ Simulation lets you monitor and compare the impact of deliveries.
 >This means that pressure and capacity rules are only applied to deliveries in **[!UICONTROL Target estimation and message personalization]** mode. Deliveries in **[!UICONTROL Estimation and approval of the provisional target]** and in **[!UICONTROL Target evaluation]** mode are not taken into account.  
 >The delivery mode is chosen in the **[!UICONTROL Typology]** sub-tab of the delivery properties.
 
+![](assets/simu_campaign_select_delivery_mode.png)
+
 ## Setting up a simulation {#setting-up-a-simulation}
 
 ### Creating a simulation {#creating-a-simulation}
@@ -56,8 +58,11 @@ To create a simulation, apply the following steps:
 
    >[!NOTE]
    >
-   >If you select deliveries via a plan, program or campaign, Adobe Campaign can automatically refresh the list of deliveries to take into account whenever a simulation is started. To do this, check the **[!UICONTROL Refresh the selection of deliveries each time the simulation is started]** option.  
+   >If you select deliveries via a plan, program or campaign, Adobe Campaign can automatically refresh the list of deliveries to take into account whenever a simulation is started. To do this, check the **[!UICONTROL Refresh the selection of deliveries each time the simulation is started]** option.
+   >  
    >If you don't do this, any deliveries that are not available in the plan, program, or campaign when the simulation is created will not be taken into account: deliveries added later will be ignored.
+
+    ![](assets/simu_campaign_opti_edit_scope_update.png)
 
 1. Select the elements to include in the simulation scope. If necessary, select multiple elements using the SHIFT and CTRL keys.
 
@@ -91,7 +96,7 @@ The **[!UICONTROL General]** tab of the simulation lets you enter execution sett
 
 * The **[!UICONTROL Schedule execution for down-time]** option defers the simulation launch to a less busy time period, based on the chosen level of priority. Simulations use significant database resources, that's why non-urgent simulations should be scheduled to run at night, for example.
 * The **[!UICONTROL Priority]** is the level applied to the simulation to delay its triggering.
-* **[!UICONTROL Save SQL queries in the log]** . SQL logs let you diagnose a simulation if it ends with errors. They can also help you find out why a simulation is too slow. These messages will be visible after the simulation in the **[!UICONTROL SQL logs]** sub-tab of the **[!UICONTROL Audit]** tab.
+* **[!UICONTROL Save SQL queries in the log]**. SQL logs let you diagnose a simulation if it ends with errors. They can also help you find out why a simulation is too slow. These messages will be visible after the simulation in the **[!UICONTROL SQL logs]** sub-tab of the **[!UICONTROL Audit]** tab.
 
 ## Executing a simulation {#executing-a-simulation}
 
@@ -99,7 +104,7 @@ The **[!UICONTROL General]** tab of the simulation lets you enter execution sett
 
 Once the simulation scope is defined, you can execute it.
 
-To do this, open the simulation dashboard and click **[!UICONTROL Start simulation]** .
+To do this, open the simulation dashboard and click **[!UICONTROL Start simulation]**.
 
 ![](assets/simu_campaign_opti_start.png)
 

@@ -18,7 +18,7 @@ snippet: y
 
 # Publishing the campaign package{#publishing-the-campaign-package}
 
-Central entity operators publish campaigns they wish to offer to local entities in the **[!UICONTROL list of campaign packages]** .
+Central entity operators publish campaigns they wish to offer to local entities in the **[!UICONTROL list of campaign packages]**.
 
 Before they can be published in the campaign package list, the campaign packages have to be approved by the central entity. To do this, you can specify a reviewer or group of reviewers via the **[!UICONTROL Approval parameters]** link in the campaign package.
 
@@ -28,7 +28,7 @@ To select the reviewer, click the **[!UICONTROL Approval parameters]** link from
 
 ![](assets/s_advuser_mkg_dist_define_valid.png)
 
-You may then begin the approval process by clicking **[!UICONTROL Submit for approval]** . 
+You may then begin the approval process by clicking **[!UICONTROL Submit for approval]**. 
 
 ![](assets/s_advuser_mkg_dist_valid_process.png)
 

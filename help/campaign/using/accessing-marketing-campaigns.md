@@ -47,7 +47,7 @@ The navigation block of the **[!UICONTROL Campaigns]** universe offers various e
 
 Each campaign belongs to a program which in turn belongs to a plan. Plans, programs and campaigns are accessed via the **[!UICONTROL Campaign calendar]** menu in the **Campaigns** universe.
 
-To edit a plan, program, campaign or delivery, click its name in the calendar and then click **[!UICONTROL Open...]** . It is then displayed in a new tab, as shown below:
+To edit a plan, program, campaign or delivery, click its name in the calendar and then click **[!UICONTROL Open...]**. It is then displayed in a new tab, as shown below:
 
 ![](assets/d_ncs_user_interface_hierar.png)
 

@@ -61,7 +61,7 @@ In the **[!UICONTROL Discussion forum]** box:
 1. If necessary:
 
     * If you want someone to take part in the discussion who isn't subscribed to the forum, use the **[!UICONTROL Operator to notify]** field. The operator will receive a notification email for this specific message (they will not be subscribed to the forum). To notify several operators, select a group of operators.
-    * To add an attachment to the message, click **[!UICONTROL Browse]** . The attachment will also be included in the notification email. Attachments may only be sent individually: to send several files, you need to zip them.
+    * To add an attachment to the message, click **[!UICONTROL Browse]**. The attachment will also be included in the notification email. Attachments may only be sent individually: to send several files, you need to zip them.
 
 1. Click **[!UICONTROL Create the message]** to post it to the forum.
 
@@ -110,8 +110,8 @@ If operators subscribed to a forum aren't receiving notifications as expected:
 * Go to the **[!UICONTROL Administration > Production > Technical workflows > Campaign processes]** node and check that the **[!UICONTROL Jobs in discussion forums]** workflow is started and free of errors.
 * View the delivery logs:
 
-    * On the Adobe Campaign home page, go to **[!UICONTROL Campaigns > Navigation > Deliveries]** , then open the **[!UICONTROL Discussion forum notification]** delivery.
-    * In the explorer, go to **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]** , then click **[!UICONTROL Discussion forum notifications]** .
+    * On the Adobe Campaign home page, go to **[!UICONTROL Campaigns > Navigation > Deliveries]**, then open the **[!UICONTROL Discussion forum notification]** delivery.
+    * In the explorer, go to **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**, then click **[!UICONTROL Discussion forum notifications]**.
 
   In the **[!UICONTROL Discussion forum notifications]** box, the delivery logs are found in the **[!UICONTROL Edit > Delivery]** tab. You can also view the **[!UICONTROL Tracking > Log]** and the **[!UICONTROL Exclusion causes]** tabs.
 

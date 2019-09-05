@@ -111,7 +111,7 @@ The **[!UICONTROL History]** tab displays file transfers carried out for this re
 
 ### Approval process {#approval-process}
 
-The expected availability date is displayed in the resource details, if it was specified in the **[!UICONTROL Tracking]** tab. Once this date is reached, you can execute the approval process using the **[!UICONTROL Submit for approval]** button in the resource dashboard. The resource status then changes to **[!UICONTROL Approval in progress]** .
+The expected availability date is displayed in the resource details, if it was specified in the **[!UICONTROL Tracking]** tab. Once this date is reached, you can execute the approval process using the **[!UICONTROL Submit for approval]** button in the resource dashboard. The resource status then changes to **[!UICONTROL Approval in progress]**.
 
 A resource can be approved via the **[!UICONTROL Approve resource]** button on its dashboard.
 
@@ -150,9 +150,9 @@ In order for Adobe Campaign to publish, you need to create an adequate workflow 
 The workflow will be executed:
 
 * When the reviewer clicks the **[!UICONTROL Publish resource]** link (or, if no reviewer was defined, the person in charge of the resource).
-* If the resource is managed via a marketing resource creation task, it will be executed when the task is set to **[!UICONTROL Finished]** , as long as the **[!UICONTROL Publish the marketing resource]** box is checked in the task (Refer to [Marketing resource creation task](../../campaign/using/creating-and-managing-tasks.md#marketing-resource-creation-task))
+* If the resource is managed via a marketing resource creation task, it will be executed when the task is set to **[!UICONTROL Finished]**, as long as the **[!UICONTROL Publish the marketing resource]** box is checked in the task (Refer to [Marketing resource creation task](../../campaign/using/creating-and-managing-tasks.md#marketing-resource-creation-task))
 
-If a workflow isn't started immediately (if the workflow is stopped for instance), the status of the resource changes to **[!UICONTROL Pending publication]** . Once the workflow is started, the status of the resource changes to **[!UICONTROL Published]** . This status does not take into account possible errors in the publishing process. Check the status of your workflow to make sure it has executed properly.
+If a workflow isn't started immediately (if the workflow is stopped for instance), the status of the resource changes to **[!UICONTROL Pending publication]**. Once the workflow is started, the status of the resource changes to **[!UICONTROL Published]**. This status does not take into account possible errors in the publishing process. Check the status of your workflow to make sure it has executed properly.
 
 ## Linking a resource to a campaign {#linking-a-resource-to-a-campaign}
 

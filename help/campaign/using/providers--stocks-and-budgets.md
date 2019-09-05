@@ -50,7 +50,7 @@ The jobs carried out during deliveries are performed by service providers, parti
 
 You can create as many service providers as necessary for your deliveries. The procedure for adding a service provider is as follows:
 
-1. Right-click the list of service providers and select **[!UICONTROL New]** , or click the **[!UICONTROL New]** button above the list of service providers.
+1. Right-click the list of service providers and select **[!UICONTROL New]**, or click the **[!UICONTROL New]** button above the list of service providers.
 1. In the lower section of the window, specify the name and contact details of the service provider.
 
    ![](assets/s_ncs_user_supplier_node_01.png)
@@ -77,14 +77,14 @@ To create a service template and define its content, apply the following steps:
 
    ![](assets/s_ncs_user_supplier_node_03.png)
 
-    * Enter a label for this cost category and select the type of process concerned: Delivery by **[!UICONTROL Direct mail]** , **[!UICONTROL E-mail]** , **[!UICONTROL Mobile]** , **[!UICONTROL Telephone]** , **[!UICONTROL Fax]** or **[!UICONTROL Task]** . 
+    * Enter a label for this cost category and select the type of process concerned: Delivery by **[!UICONTROL Direct mail]**, **[!UICONTROL E-mail]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]**, **[!UICONTROL Fax]** or **[!UICONTROL Task]**. 
     * Click the **[!UICONTROL Add]** button to define the types of cost associated with this category.
     * If necessary, associated a stock line with each type of cost so that the quantities used will be related automatically to the existing stocks.
 
       >[!NOTE]
       >
       >The stock lines are defined in the **[!UICONTROL Stock management]** node.   
-      >For more on this, refer to [Stock and order management](../../campaign/using/providers--stocks-and-budgets.md#stock-and-order-management)
+      >For more on this, refer to [Stock and order management](../../campaign/using/providers--stocks-and-budgets.md#stock-and-order-management).
 
 1. You can pre-select a value for this cost category, which will be offered by default in the service provider cost categories (instead of a blank). To do this, select the option in the **[!UICONTROL Selected]** column for the type of category concerned:
 
@@ -112,7 +112,7 @@ Click the **[!UICONTROL Cost structure]** tab to configure the cost calculation 
 
   This formula can be fixed (for any number of messages) or calculated according to the number of messages.
 
-  When it depends on the number of messages, the cost calculation structure can be **[!UICONTROL Linear]** , **[!UICONTROL Linear by threshold]** , or **[!UICONTROL Constant by threshold]** .
+  When it depends on the number of messages, the cost calculation structure can be **[!UICONTROL Linear]**, **[!UICONTROL Linear by threshold]**, or **[!UICONTROL Constant by threshold]**.
 
 #### Linear structure {#linear-structure}
 
@@ -179,7 +179,7 @@ When a service is selected, the cost categories corresponding to the type of del
 
 The **[!UICONTROL Amount to surcharge]** column lets you add a cost for this category in the context of the delivery or task concerned.
 
-You can impose mandatory selection of a cost type during the definition of cost categories for a delivery. To do this, select **[!UICONTROL A cost type must be selected]** .
+You can impose mandatory selection of a cost type during the definition of cost categories for a delivery. To do this, select **[!UICONTROL A cost type must be selected]**.
 
 ![](assets/s_ncs_user_supplier_cost_structure_select.png)
 

@@ -46,7 +46,7 @@ For more on this, refer to [Execution status of a task](../../campaign/using/cre
 
 ### Filtering tasks {#filtering-tasks}
 
-When you display this view, it is automatically filtered in order to display only **[!UICONTROL operator tasks]** . You can also filter the tasks using the fields in the upper section of the window.
+When you display this view, it is automatically filtered in order to display only **[!UICONTROL operator tasks]**. You can also filter the tasks using the fields in the upper section of the window.
 
 ![](assets/s_ncs_user_task_filter_from_view.png)
 
@@ -58,7 +58,7 @@ Click on a task to edit it.
 
 ## Creating a new task {#creating-a-new-task}
 
-To create a task, click the **[!UICONTROL Tasks]** link in the Campaigns universe and select **[!UICONTROL Create]** .
+To create a task, click the **[!UICONTROL Tasks]** link in the Campaigns universe and select **[!UICONTROL Create]**.
 
 ![](assets/s_ncs_user_task_create_new.png)
 
@@ -170,7 +170,7 @@ It is also visible in the campaign tab.
 
 ![](assets/s_ncs_user_task_percentage_done_from_op.png)
 
-If the task execution schedule end date has been reached but the task is not completed, the task will be **[!UICONTROL Late]** . A warning message will also be displayed to alert operators.
+If the task execution schedule end date has been reached but the task is not completed, the task will be **[!UICONTROL Late]**. A warning message will also be displayed to alert operators.
 
 For more on this, refer to [Progress status of a task](../../campaign/using/creating-and-managing-tasks.md#progress-status-of-a-task).
 
@@ -212,7 +212,7 @@ When a service provider is selected, it is displayed in the task dashboard:
 
 ### Late tasks {#late-tasks}
 
-A task is late if it has reached its end date without its status changing to **[!UICONTROL Finished]** . By default, no operator is warned when a task is late. You can configure the delivery of a notification email: all operators can be notified even if they are not involved in the task.
+A task is late if it has reached its end date without its status changing to **[!UICONTROL Finished]**. By default, no operator is warned when a task is late. You can configure the delivery of a notification email: all operators can be notified even if they are not involved in the task.
 
 Go to the **[!UICONTROL Resources]** box and add the operator to the **[!UICONTROL Assignation]** field. To notify several people, select a group of operators.
 
@@ -241,10 +241,10 @@ You can create tasks directly in a program to manage actions pertaining to their
 
 To create a task linked directly to a program:
 
-1. Open the program schedule: on the home page, go to **[!UICONTROL Campaigns > Browse > Other choices > Programs]** . The overall program schedule opens in the right-hand section of the window.
+1. Open the program schedule: on the home page, go to **[!UICONTROL Campaigns > Browse > Other choices > Programs]**. The overall program schedule opens in the right-hand section of the window.
 1. In the schedule, click the desired program: a window comes up with the program in it.
-1. In this window, click **[!UICONTROL Open]** . The program schedule opens.
-1. Click the **[!UICONTROL Add]** button above the schedule on the right, then click **[!UICONTROL Add a task]** .
+1. In this window, click **[!UICONTROL Open]**. The program schedule opens.
+1. Click the **[!UICONTROL Add]** button above the schedule on the right, then click **[!UICONTROL Add a task]**.
 
 ![](assets/mrm_task_create_from_prg.png)
 
@@ -270,10 +270,10 @@ When you create tasks via a campaign, you can create specific tasks. The type of
 
 The following tasks can be scheduled:
 
-* **[!UICONTROL Control task]** , refer to [Control tasks](../../campaign/using/creating-and-managing-tasks.md#control-tasks),
-* **[!UICONTROL Marketing resource creation task]** , refer to [Grouping task](../../campaign/using/creating-and-managing-tasks.md#grouping-task),
-* **[!UICONTROL Grouping task]** , refer to [Grouping task](../../campaign/using/creating-and-managing-tasks.md#grouping-task),
-* **[!UICONTROL Notification task]** , refer to [Notification task](../../campaign/using/creating-and-managing-tasks.md#notification-task).
+* **[!UICONTROL Control task]**, refer to [Control tasks](../../campaign/using/creating-and-managing-tasks.md#control-tasks),
+* **[!UICONTROL Marketing resource creation task]**, refer to [Grouping task](../../campaign/using/creating-and-managing-tasks.md#grouping-task),
+* **[!UICONTROL Grouping task]**, refer to [Grouping task](../../campaign/using/creating-and-managing-tasks.md#grouping-task),
+* **[!UICONTROL Notification task]**, refer to [Notification task](../../campaign/using/creating-and-managing-tasks.md#notification-task).
 
 >[!NOTE]
 >
@@ -323,10 +323,10 @@ The person who reviews the task isn't necessary the same person who reviews the 
 
 In the **[!UICONTROL Marketing resource]** field, define the resource you want to manage via this task. You can:
 
-* Select an existing resource: the drop-down list offers all resources with the status **[!UICONTROL Being edited]** .
+* Select an existing resource: the drop-down list offers all resources with the status **[!UICONTROL Being edited]**.
 * Creating a resource: click the **[!UICONTROL Select the link]** icon, then click the **[!UICONTROL Create]** icon.
 
-The **[!UICONTROL Publish the marketing resource]** option lets you automate resource publishing: once the task is **[!UICONTROL Finished]** , the status of the resource automatically switches to **[!UICONTROL Published]** , even if it was neither submitted for approval or approved, including if the reviewer who completes the task isn't the content reviewer defined in the resource.
+The **[!UICONTROL Publish the marketing resource]** option lets you automate resource publishing: once the task is **[!UICONTROL Finished]**, the status of the resource automatically switches to **[!UICONTROL Published]**, even if it was neither submitted for approval or approved, including if the reviewer who completes the task isn't the content reviewer defined in the resource.
 
 The **[!UICONTROL Publish the resource]** button is made available and the resource publishing reviewer receives a notification email to let him know that it is ready to be published. In the **[!UICONTROL Edit > Tracking]** tab, reviewing and publishing by the task reviewer become visible. If a resource post-processing workflow has been defined, it is executed now.
 
@@ -342,7 +342,7 @@ All the tasks grouped to a grouping task can be seen on its own dashboard. This 
 
 Grouping tasks have a link that lets you easily create a grouped task.
 
-To create a grouped task based on a grouping task, go to the campaign dashboard and click the name of the grouping task to display its description, then click **[!UICONTROL Add a task]** .
+To create a grouped task based on a grouping task, go to the campaign dashboard and click the name of the grouping task to display its description, then click **[!UICONTROL Add a task]**.
 
 ![](assets/mrm_task_grouped_create.png)
 
@@ -374,7 +374,7 @@ During creation, the following elements must be entered in the task:
 
 * **[!UICONTROL Assigned to]** : the operator or the group of operators who will receive the email. If you re-assign the task once the email has been sent, the email will not be sent to the new operator (for this to happen, you need to re-initialize the task and change its start date).
 * **Task start date**: date which the notification email will be sent on. This date must take place in the future at the time of recording of the task.
-* **Task end date**: date on which the task status changes to **[!UICONTROL Finished]** . By default, the end date is identical to the start date. However, assigning a duration to the task lets you symbolize the amount of time which the operator has to act in the schedule, if necessary.
+* **Task end date**: date on which the task status changes to **[!UICONTROL Finished]**. By default, the end date is identical to the start date. However, assigning a duration to the task lets you symbolize the amount of time which the operator has to act in the schedule, if necessary.
 * **[!UICONTROL Description]** : the text entered here will appear in the body of the notification email.
 
   ![](assets/mrm_task_notif_dashboard_msg.png)
@@ -425,11 +425,11 @@ Let's postpone the parent task: it now ends on October 11 at 1PM. Only task A is
 
 Task statuses can be view in the task map. The execution status of a task is updated automatically according to operator actions.
 
-A task can be: **[!UICONTROL Scheduled]** , **[!UICONTROL In progress]** , **[!UICONTROL Finished]** , **[!UICONTROL Canceled]** , **[!UICONTROL Pending approval]** or **[!UICONTROL Rejected]** .
+A task can be: **[!UICONTROL Scheduled]**, **[!UICONTROL In progress]**, **[!UICONTROL Finished]**, **[!UICONTROL Canceled]**, **[!UICONTROL Pending approval]** or **[!UICONTROL Rejected]**.
 
 * When a task is created, it is **[!UICONTROL Scheduled]** if its start date is in the future. It keeps this status until its start date is reached.
-* Once it has been started, the task is **[!UICONTROL In progress]** . When the person in charge of the task closes it, it changes to **[!UICONTROL Finished]** .
-* If a reviewer has been defined, the task will be **[!UICONTROL Pending approval]** once the person in charge of it closes it and until the reviewer approves it. If the reviewer rejects it, the task will be **[!UICONTROL Rejected]** .
+* Once it has been started, the task is **[!UICONTROL In progress]**. When the person in charge of the task closes it, it changes to **[!UICONTROL Finished]**.
+* If a reviewer has been defined, the task will be **[!UICONTROL Pending approval]** once the person in charge of it closes it and until the reviewer approves it. If the reviewer rejects it, the task will be **[!UICONTROL Rejected]**.
 * A task can be canceled by the person responsible for it via the dashboard or the **[!UICONTROL Task map]** by clicking the **[!UICONTROL Cancel]** button.
 * To schedule a task, input a start date in the future. You can then send a first notification to the Adobe Campaign operators involved in performing the task. See [Complete task life cycle](../../campaign/using/creating-and-managing-tasks.md#complete-task-life-cycle).
 
@@ -441,7 +441,7 @@ A task can be: **[!UICONTROL Scheduled]** , **[!UICONTROL In progress]** , **[!U
 
 ### Progress status of a task {#progress-status-of-a-task}
 
-In addition to its execution status, a task can be associated with a progress status: **[!UICONTROL Late]** , **[!UICONTROL To approve]** , **[!UICONTROL To do today]** or **[!UICONTROL To do this week]** . This information is entered automatically according to the task schedule.
+In addition to its execution status, a task can be associated with a progress status: **[!UICONTROL Late]**, **[!UICONTROL To approve]**, **[!UICONTROL To do today]** or **[!UICONTROL To do this week]**. This information is entered automatically according to the task schedule.
 
 You can filter the list of tasks by process or progress status.
 
@@ -457,11 +457,11 @@ Below are the stages of a complete task life cycle for which the person in charg
 
    ![](assets/s_ncs_user_task_planed_send_message.png)
 
-   To send this first notification, click **[!UICONTROL Yes]** . This notification tells them about the next task and includes details on content and the number of days remaining until its deadline.
+   To send this first notification, click **[!UICONTROL Yes]**. This notification tells them about the next task and includes details on content and the number of days remaining until its deadline.
 
-   When a task is created and scheduled for the future, its status is **[!UICONTROL Scheduled]** .
+   When a task is created and scheduled for the future, its status is **[!UICONTROL Scheduled]**.
 
-1. On the task start date, the person responsible and the participants receive a notification telling them that the task is started. Its status changes to **[!UICONTROL In progress]** .
+1. On the task start date, the person responsible and the participants receive a notification telling them that the task is started. Its status changes to **[!UICONTROL In progress]**.
 1. After completing the section assigned to them, participants can approve the task, either:
 
     * via the notification email.
@@ -487,7 +487,7 @@ Below are the stages of a complete task life cycle for which the person in charg
    >
    >The person in charge of a task can close it at any time, even if approvals are missing. The progress status changes to 100% automatically.
 
-1. The task status changes to **[!UICONTROL To approve]** , and a notification is sent to the reviewer.
+1. The task status changes to **[!UICONTROL To approve]**, and a notification is sent to the reviewer.
 
    They approve the task via the notification email, the console or the web interface.
 
@@ -502,9 +502,9 @@ Below are the stages of a complete task life cycle for which the person in charg
    >[!NOTE]
    >
    >The task status will only change to **[!UICONTROL To approve]** if you have enabled the **[!UICONTROL Enable task validation]** option in the **[!UICONTROL Resources]** window of the task.  
-   >If the reviewer rejects the task, its status changes to **[!UICONTROL Rejected]** , and the task life cycle starts again automatically.
+   >If the reviewer rejects the task, its status changes to **[!UICONTROL Rejected]**, and the task life cycle starts again automatically.
 
-1. The task status changes to **[!UICONTROL Finished]** . A notification is sent to everyone involved.
+1. The task status changes to **[!UICONTROL Finished]**. A notification is sent to everyone involved.
 
    >[!NOTE]
    >

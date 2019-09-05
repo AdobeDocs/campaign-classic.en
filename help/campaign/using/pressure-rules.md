@@ -38,7 +38,7 @@ Arbitration criteria (message weight and/or threshold) can vary based on two typ
 
 The arbitration rule for defining eligible messages is applied during the analysis stage. For each recipient and for the concerned period, the message will be sent if the following formula is true: **(number of messages sent) + (number of messages with a greater weight) < threshold**.
 
-Otherwise, the recipient will be **[!UICONTROL Excluded by arbitration]** . For more on this, refer to [Exclusion after arbitration](../../campaign/using/pressure-rules.md#exclusion-after-arbitration).
+Otherwise, the recipient will be **[!UICONTROL Excluded by arbitration]**. For more on this, refer to [Exclusion after arbitration](../../campaign/using/pressure-rules.md#exclusion-after-arbitration).
 
 ## Creating a pressure rule {#creating-a-pressure-rule}
 
@@ -155,13 +155,13 @@ For example, a pressure rule which defines a threshold of 2 messages per week, w
 >
 >By default, only deliveries already sent are taken into account when calculating the threshold. Check the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option if you also want to consider the deliveries scheduled for the concerned period. In this case, the considered period is doubled to enable the integration of future deliveries as well as previous ones.  
 >To restrict the deliveries taken into account to a 2-week period, you can either:  
-
 >
 >* Enter **15d** in the **[!UICONTROL Concerned period]** field: deliveries sent up to two weeks before the date of the delivery which the rule is applied to will be taken into account in the calculation,
 >
 >  or
 >
->* Enter **7d** in the **[!UICONTROL Period considered]** field AND check the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option: deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date on which the rule is applied will be taken into account in the calculation.
+>* Enter **7d** in the **[!UICONTROL Period considered]** field AND check the **[!UICONTROL Take the deliveries into account in the provisional calendar]**  
+>option: deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date on which the rule is applied will be taken into account in the calculation.
 >
 >The period start date depends on how the database is configured.
 
@@ -170,7 +170,8 @@ For instance, if you apply a 15-day pressure rule without grouping to a delivery
 >[!CAUTION]
 >
 >**Frequent cases** 
->To make sure that deliveries for the current calendar week are not taken into account, as well as not to risk also taking into account those from the previous week for the calculation threshold, specify the **[!UICONTROL Period considered]** at '0' and select 'Grouping per calendar week' as the **[!UICONTROL Period type]** .  
+>To make sure that deliveries for the current calendar week are not taken into account, as well as not to risk also taking into account those from the previous week for the calculation threshold, specify the **[!UICONTROL Period considered]** at '0' and select 'Grouping per calendar week' as the **[!UICONTROL Period type]**. 
+> 
 >When a period is higher than 0 (1 for example), the calculation threshold may take the previous day's deliveries into account. Therefore, if the previous day corresponds to the previous calendar week and the period type selected is 'Grouping per calendar week', all of the previous week will then be taken into account for the calculation threshold.
 
 **Example:**
@@ -232,7 +233,7 @@ To create the rule, apply the following steps:
 
    ![](assets/campaign_opt_pressure_sample_1_1.png)
 
-1. Select the **[!UICONTROL Edit the formula using an expression]** option and click **[!UICONTROL Next]** .
+1. Select the **[!UICONTROL Edit the formula using an expression]** option and click **[!UICONTROL Next]**.
 
    ![](assets/campaign_opt_pressure_sample_1_2.png)
 
@@ -328,7 +329,7 @@ First, configure the pressure rule.
 
    This option overrules the value defined in the **[!UICONTROL Frequency]** field and automatically applies the rule during the personalization phase. For more on this, refer to [Adjusting calculation frequency](../../campaign/using/applying-rules.md#adjusting-calculation-frequency).
 
-1. In the **[!UICONTROL Pressure]** tab, select **[!UICONTROL 7d]** as the **[!UICONTROL Period considered]** and **[!UICONTROL Grouping per day]** as the **[!UICONTROL Period type]** .
+1. In the **[!UICONTROL Pressure]** tab, select **[!UICONTROL 7d]** as the **[!UICONTROL Period considered]** and **[!UICONTROL Grouping per day]** as the **[!UICONTROL Period type]**.
 1. Select the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option to include the scheduled deliveries.
 
    ![](assets/campaign_opt_pressure_example_1.png)
@@ -347,11 +348,11 @@ Now create and configure a workflow for each delivery you want the pressure rule
 
    ![](assets/campaign_opt_pressure_example_2.png)
 
-1. In the **[!UICONTROL Typology]** tab of the **[!UICONTROL Delivery properties]** , reference the campaign typology to apply the rule on. Define a weight for the delivery.
+1. In the **[!UICONTROL Typology]** tab of the **[!UICONTROL Delivery properties]**, reference the campaign typology to apply the rule on. Define a weight for the delivery.
 
    ![](assets/campaign_opt_pressure_example_3.png)
 
-1. In the delivery, click **[!UICONTROL Scheduling]** and select **[!UICONTROL Schedule delivery (automatic execution when the scheduled date is reached)]** . In this example, select the **[!UICONTROL Use a calculation formula]** option.
+1. In the delivery, click **[!UICONTROL Scheduling]** and select **[!UICONTROL Schedule delivery (automatic execution when the scheduled date is reached)]**. In this example, select the **[!UICONTROL Use a calculation formula]** option.
 1. Set the extraction date to 10 minutes (current date + 10 minutes).
 1. Set the contact date to the next day (current date + 1 day).
 

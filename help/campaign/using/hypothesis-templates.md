@@ -24,13 +24,13 @@ Configuring the hypothesis template lets you define the context for measuring re
 
 To create a hypothesis template, apply the following steps:
 
-1. In the Adobe Campaign explorer, click **[!UICONTROL Resources>Templates>Hypothesis templates]** .
+1. In the Adobe Campaign explorer, click **[!UICONTROL Resources>Templates>Hypothesis templates]**.
 
    ![](assets/response_hypothesis_model_creation_001.png)
 
 1. Click **[!UICONTROL New]** or right-click in the list of templates and choose **[!UICONTROL New]** in the drop-down list.
 1. Enter the hypothesis label.
-1. Specify whether the template is destined for hypotheses on offers or deliveries via the **[!UICONTROL Hypothesis type]** .
+1. Specify whether the template is destined for hypotheses on offers or deliveries via the **[!UICONTROL Hypothesis type]**.
 1. For **[!UICONTROL Delivery]** type templates, specify whether measurements should be carried out with or without a control group (for more on this, refer to [Properties of a hypothesis template](../../campaign/using/hypothesis-templates.md#properties-of-a-hypothesis-template)).
 1. For **[!UICONTROL Delivery]** type templates, you can choose a specific channel or decide to apply the template to all available channels in Adobe Campaign using the **[!UICONTROL Channel]** drop-down list (for more on this, refer to [Properties of a hypothesis template](../../campaign/using/hypothesis-templates.md#properties-of-a-hypothesis-template)).
 1. Select the **[!UICONTROL Execution folder]** in which you wish to create and automatically execute the hypotheses that will be created from this template.
@@ -160,7 +160,7 @@ Once you have defined the transaction table and the fields which the hypothesis 
 
 * **Filter on recipients**: in the **[!UICONTROL Scope]** tab, you can limit your hypothesis to any information linked to a message (delivery, recipient, email address, service, etc.):
 
-    1. Click the **[!UICONTROL Add a filter]** link, then **[!UICONTROL Edit query]** .
+    1. Click the **[!UICONTROL Add a filter]** link, then **[!UICONTROL Edit query]**.
     
        ![](assets/response_scope_filtering_004.png)
 

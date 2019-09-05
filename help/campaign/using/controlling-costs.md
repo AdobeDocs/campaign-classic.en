@@ -46,7 +46,7 @@ The following steps must be applied to implement budget management using MRM:
 
    According to the progress status of the tasks, deliveries and campaign, the costs will be calculated and passed on to the corresponding budget.
 
-   When the creation of the campaign is sufficiently advanced, the progress status of the campaign budget can be changed to **[!UICONTROL Specified]** . The calculated cost of the program is then entered automatically with the costs calculated on the campaign. See [Cost commitment, calculation and charging](../../campaign/using/controlling-costs.md#cost-commitment--calculation-and-charging).
+   When the creation of the campaign is sufficiently advanced, the progress status of the campaign budget can be changed to **[!UICONTROL Specified]**. The calculated cost of the program is then entered automatically with the costs calculated on the campaign. See [Cost commitment, calculation and charging](../../campaign/using/controlling-costs.md#cost-commitment--calculation-and-charging).
 
 ## Creating a budget {#creating-a-budget}
 
@@ -72,7 +72,8 @@ Budgets are created in the map, via the **[!UICONTROL Campaign management > Budg
 
 >[!NOTE]
 >
->You can select a related budget.  
+>You can select a related budget. 
+> 
 >For more on this, refer to [Linking a budget to another](../../campaign/using/controlling-costs.md#linking-a-budget-to-another).
 
 ### Calculating amounts {#calculating-amounts}
@@ -89,18 +90,19 @@ For campaigns, according to the level of commitment, a cost can be planned, comm
 
 >[!CAUTION]
 >
->When a campaign is created, the progress status in **[!UICONTROL Budget]** must be set to **[!UICONTROL Defined]** for the costs to be taken into account on execution. If the status is **[!UICONTROL Being edited]** , the costs will not be consolidated.   
+>When a campaign is created, the progress status in **[!UICONTROL Budget]** must be set to **[!UICONTROL Defined]** for the costs to be taken into account on execution. If the status is **[!UICONTROL Being edited]**, the costs will not be consolidated.
+>   
 >The option **[!UICONTROL Commitment level]** represents a projection of costs into the future before they are charged to the budget. According to the progress of a campaign, task, or delivery, you can decide to assign a higher or lower commitment level (1. Planned, 2. Reserved, 3. Committed) using the combo box.
 
 For example, the estimated planned cost of a Web campaign is 45,000 Euro.
 
 ![](assets/s_user_edit_budget_node_impact_0.png)
 
-For the campaign, when the budget creation status is set to **[!UICONTROL Defined]** , the real cost of the campaign (or, if none, the computed cost) will be carried over into the budget totals.
+For the campaign, when the budget creation status is set to **[!UICONTROL Defined]**, the real cost of the campaign (or, if none, the computed cost) will be carried over into the budget totals.
 
 ![](assets/s_user_budget_in_op_a.png)
 
-According to the level of commitment of the campaign budget, the amount will be entered in the **[!UICONTROL Planned]** , **[!UICONTROL Reserved]** or **[!UICONTROL Committed]** field.
+According to the level of commitment of the campaign budget, the amount will be entered in the **[!UICONTROL Planned]**, **[!UICONTROL Reserved]** or **[!UICONTROL Committed]** field.
 
 The level of commitment can be modified:
 
@@ -109,7 +111,7 @@ The level of commitment can be modified:
 
 ![](assets/s_user_op_engagement_level_costs.png)
 
-When the budget is **[!UICONTROL Reserved]** , the update is performed automatically for the charged budget.
+When the budget is **[!UICONTROL Reserved]**, the update is performed automatically for the charged budget.
 
 ![](assets/s_user_edit_budget_node_impact_2.png)
 
@@ -304,7 +306,7 @@ When you edit the calculated cost, you can check the cost breakdown and the stat
 
 #### Step 5 - Creating tasks {#step-5---creating-tasks}
 
-To this campaign, we will add the two tasks for which the cost structures were created earlier (see [Step 2 - Configuring the service provider and defining the cost structures](../../campaign/using/controlling-costs.md#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). To do this, in the campaign dashboard, click the **[!UICONTROL Add a task]** button. Name the task and click **[!UICONTROL Save]** .
+To this campaign, we will add the two tasks for which the cost structures were created earlier (see [Step 2 - Configuring the service provider and defining the cost structures](../../campaign/using/controlling-costs.md#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). To do this, in the campaign dashboard, click the **[!UICONTROL Add a task]** button. Name the task and click **[!UICONTROL Save]**.
 
 The task is then added to the task list. You must edit it to configure it.
 
@@ -330,7 +332,7 @@ When the task is finished, the calculated cost is specified with the value from 
 
 #### Step 6 - Update the campaign budget status {#step-6---update-the-campaign-budget-status}
 
-When the campaign is configured, its status can be updated by setting it to **[!UICONTROL Specified]** . The calculated cost of the campaign will then indicate the sum of the calculated costs of the delivery and the tasks of the campaign:
+When the campaign is configured, its status can be updated by setting it to **[!UICONTROL Specified]**. The calculated cost of the campaign will then indicate the sum of the calculated costs of the delivery and the tasks of the campaign:
 
 ![](assets/s_user_cost_mgmt_sample_18.png)
 
