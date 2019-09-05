@@ -28,18 +28,18 @@ Follow the steps below to start the configuration in Adobe Campaign:
 1. [Configure the external account](../../integrations/using/configuring-the-integration.md#configure-the-external-account)
 1. [Configure AEM resources filtering](../../integrations/using/configuring-the-integration.md#configure-aem-resources-filtering)
 
-For advanced configurations such as managing personalization fields and blocks. Refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.md).
+For advanced configurations such as managing personalization fields and blocks. Refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html).
 
 ### Install the AEM integration package in Adobe Campaign {#install-the-aem-integration-package-in-adobe-campaign}
 
 You first need to install the **[!UICONTROL AEM integration]** package.
 
 1. From your Adobe Campaign instance, select **[!UICONTROL Tools]** from the upper toolbar.
-1. Select **[!UICONTROL Tools > Advanced > Import package...]** .
+1. Select **[!UICONTROL Tools > Advanced > Import package...]**.
 
    ![](assets/aem_config_1.png)
 
-1. Select **[!UICONTROL Install a standard package]** .
+1. Select **[!UICONTROL Install a standard package]**.
 1. Check **[!UICONTROL AEM integration]** then click the **[!UICONTROL Next]** button.
 
    ![](assets/aem_config_2.png)
@@ -73,8 +73,8 @@ To confugure the AEM external account, follow the steps below:
 
    ![](assets/aem_config_3.png)
 
-1. Select **[!UICONTROL Administration > Platform > External accounts]** .
-1. From the **[!UICONTROL External account]** list, select **[!UICONTROL AEM instance]** .
+1. Select **[!UICONTROL Administration > Platform > External accounts]**.
+1. From the **[!UICONTROL External account]** list, select **[!UICONTROL AEM instance]**.
 1. Enter the parameters for your AEM authoring instance:
 
     * **[!UICONTROL Server]** 
@@ -97,8 +97,8 @@ The **AEMResourceTypeFilter **option is used to filter types of Experience Manag
 To check if the **[!UICONTROL AEMResourceTypeFilter]** option is configured:
 
 1. Click the **[!UICONTROL Explorer]** button.
-1. Select **[!UICONTROL Administration > Platform > Options]** .
-1. From the **[!UICONTROL Options]** list, select **[!UICONTROL AEMResourceTypeFilter]** .
+1. Select **[!UICONTROL Administration > Platform > Options]**.
+1. From the **[!UICONTROL Options]** list, select **[!UICONTROL AEMResourceTypeFilter]**.
 1. In the **[!UICONTROL Value (text)]** field, the path should be as follows:
 
    ```
@@ -119,11 +119,11 @@ Follow the steps below to start the configuration in Adobe Experience Manager:
 
 1. Configure the **replication** to replicate from the AEM authoring instance to the AEM publishing instance.
 
-   To learn how to configure replication, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/replication.md).
+   To learn how to configure replication, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/replication.html).
 
 1. Install the integration **FeaturePack** on your authoring instance then replicate the installation on your publishing instance. (For AEM versions 5.6.1 and 6.0 only).
 
-   To learn how to install FeaturePack, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/aem-previous-versions.md).
+   To learn how to install FeaturePack, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/aem-previous-versions.html).
 
 1. Connect Adobe Experience Manager to Adobe Campaign by configuring a dedicated **Cloud Service**.
 

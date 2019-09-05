@@ -24,15 +24,15 @@ Assets shared from Adobe Experience Cloud can be used in your emails and landing
 
    If you use assets from Adobe Experience Manager assets library, use a delivery template created when [configuring the integration](../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets).
 
-   If you do not have this specific template, make sure that in the delivery **Properties**, the **[!UICONTROL Content editing mode]** ( **[!UICONTROL Advanced]** tab) is set to **DCE** and that the AEM external account that you want to use for accessing your AEM Assets resource library is provided.
+   If you do not have this specific template, make sure that in the delivery **Properties**, the **[!UICONTROL Content editing mode]** (**[!UICONTROL Advanced]** tab) is set to **DCE** and that the AEM external account that you want to use for accessing your AEM Assets resource library is provided.
 
 1. In the editing window, select the option to add an image:
 
-    * If you are using the [standard editing mode](../../delivery/using/defining-the-email-content.md#adding-images), select **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]** .
+    * If you are using the [standard editing mode](../../delivery/using/defining-the-email-content.md#adding-images), select **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**.
     
       ![](assets/dam_insert_image_standard.png)
 
-    * If you are using the [advanced editing mode](../../web/using/about-campaign-html-editor.md) (DCE), go to an image block, then via the contextual menu, select **[!UICONTROL Select a shared asset]** .
+    * If you are using the [advanced editing mode](../../web/using/about-campaign-html-editor.md) (DCE), go to an image block, then via the contextual menu, select **[!UICONTROL Select a shared asset]**.
     
       ![](assets/dam_insert_image_dce.png)
 

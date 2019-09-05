@@ -30,7 +30,7 @@ Once you have submitted this request, Adobe will proceed to the provisioning of 
 First, we need to configure or check the external accounts in Adobe Campaign as follows:
 
 1. Click the **[!UICONTROL Explorer]** icon.
-1. Go to **[!UICONTROL Administration > Platform > External accounts]** . The mentioned SFTP accounts should have been configured by Adobe and the necessary information should have been communicated to you.
+1. Go to **[!UICONTROL Administration > Platform > External accounts]**. The mentioned SFTP accounts should have been configured by Adobe and the necessary information should have been communicated to you.
 
     * **[!UICONTROL importSharedAudience]** : SFTP account dedicated to importing audiences.
     * **[!UICONTROL exportSharedAudience]** : SFTP account dedicated to exporting audiences.
@@ -57,8 +57,8 @@ The **Recipient - Visitor ID** is created inside Audience Manager. This is an ou
 
 To configure the **[!UICONTROL Recipient - Visitor ID]** data source:
 
-1. From the **[!UICONTROL Explorer]** node, select **[!UICONTROL Administration > Platform > AMC Data sources]** .
-1. Select **[!UICONTROL Recipient - Visitor ID]** .
+1. From the **[!UICONTROL Explorer]** node, select **[!UICONTROL Administration > Platform > AMC Data sources]**.
+1. Select **[!UICONTROL Recipient - Visitor ID]**.
 1. Enter the **[!UICONTROL Data Source ID]** and **[!UICONTROL AAM Destination ID]** provided by Adobe.
 
    ![](assets/aam_config_3.png)
@@ -71,6 +71,6 @@ You need to make sure the Campaign Tracking Server is registered on the domain (
 
 ## Step 4: Configure the Visitor ID Service {#step-4--configure-the-visitor-id-service}
 
-In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.md) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.md#step-two) .
+In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.md#step-two) .
 
 Your configuration and provisioning are finalized, the integration can now be used to import and export audiences or segments.

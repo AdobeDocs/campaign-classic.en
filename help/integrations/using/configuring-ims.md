@@ -23,7 +23,7 @@ snippet: y
 To use the integration with the IMS:
 
 * You must have an Adobe Marketing Cloud organization and IMS IDs (provided when you first connect to the Adobe Marketing Cloud).
-* You have to add users in the Marketing Cloud. For more on this, refer to this page: [https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.md](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.md).
+* You have to add users in the Marketing Cloud. For more on this, refer to this page: [https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ You must install the **[!UICONTROL Integration with the Adobe Experience Cloud]*
 
 ## Configuring the external account {#configuring-the-external-account}
 
-Configure the **Adobe Experience Cloud** external account in **[!UICONTROL Administration > Platform > External accounts]** .
+Configure the **Adobe Experience Cloud** external account in **[!UICONTROL Administration > Platform > External accounts]**.
 
 >[!CAUTION]
 >

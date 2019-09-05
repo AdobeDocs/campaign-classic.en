@@ -51,7 +51,7 @@ Once the target and its additional data are defined, it is possible to save it a
 
 To get the final audience and its additional data:
 
-1. Create a new workflow from **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** .
+1. Create a new workflow from **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
 1. Add a **[!UICONTROL Query]** activity and select the recipients that you want to send final email to. For example, all recipients between 18 and 30 years old and living in France.
 
    ![](assets/acs_connect_query1.png)
@@ -60,32 +60,32 @@ To get the final audience and its additional data:
 
    This example shows how to add an aggregate to count how many deliveries a recipient received in a year.
 
-   In the **[!UICONTROL Query]** , select **[!UICONTROL Add data...]** .
+   In the **[!UICONTROL Query]**, select **[!UICONTROL Add data...]**.
 
    ![](assets/acs_connect_query2.png)
 
-1. Select **[!UICONTROL Data linked to the filtering dimension]** and click **[!UICONTROL Next]** .
+1. Select **[!UICONTROL Data linked to the filtering dimension]** and click **[!UICONTROL Next]**.
 
    ![](assets/acs_connect_query3.png)
 
-1. Choose **[!UICONTROL Data linked to the filtering dimension]** and then select the **[!UICONTROL Recipient delivery logs]** node and click **[!UICONTROL Next]** .
+1. Choose **[!UICONTROL Data linked to the filtering dimension]** and then select the **[!UICONTROL Recipient delivery logs]** node and click **[!UICONTROL Next]**.
 
    ![](assets/acs_connect_query4.png)
 
-1. Select **[!UICONTROL Aggregates]** in the **[!UICONTROL Data collected]** field and click **[!UICONTROL Next]** .
+1. Select **[!UICONTROL Aggregates]** in the **[!UICONTROL Data collected]** field and click **[!UICONTROL Next]**.
 
    ![](assets/acs_connect_query5.png)
 
-1. Add a filtering condition to only take into account logs that were created during the last 365 days and click **[!UICONTROL Next]** .
+1. Add a filtering condition to only take into account logs that were created during the last 365 days and click **[!UICONTROL Next]**.
 
    ![](assets/acs_connect_query6.png)
 
 1. Define the output columns. Here, the only needed column is the one counting the number of deliveries. To do that:
 
     * Select **[!UICONTROL Add]** on the right of the window.
-    * From the **[!UICONTROL Select field]** window, click **[!UICONTROL Advanced selection]** .
-    * Select **[!UICONTROL Aggregate]** , then **[!UICONTROL Count]** . Check the **[!UICONTROL Distinct]** option, and click **[!UICONTROL Next]** .
-    * In the list of fields, select the field used for the **Count** function. Choose a field that will always be populated, for example the **[!UICONTROL Primary key]** field, and click **[!UICONTROL Finish]** .
+    * From the **[!UICONTROL Select field]** window, click **[!UICONTROL Advanced selection]**.
+    * Select **[!UICONTROL Aggregate]**, then **[!UICONTROL Count]**. Check the **[!UICONTROL Distinct]** option, and click **[!UICONTROL Next]**.
+    * In the list of fields, select the field used for the **Count** function. Choose a field that will always be populated, for example the **[!UICONTROL Primary key]** field, and click **[!UICONTROL Finish]**.
     * Change the expression in the **[!UICONTROL Alias]** column. This alias will allow you to easily retrieve the added column in the final delivery. For example **NBdeliveries**.
     * Click **[!UICONTROL Finish]** and save the **[!UICONTROL Query]** activity configuration.
 
@@ -109,7 +109,7 @@ Once the target population is defined, you can share it with ACS through a **[!U
 
    The target and its additional data are saved in a list in Campaign v7 and shared immediately as a list audience in Campaign Standard. Only the profiles that have been replicated are shared with ACS.
 
-If an error occurs on the **[!UICONTROL List update]** activity, it means that the synchronization with Campaign Standard may have failed. To be able to see more details about what went wrong, go to **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]** . This folder contains synchronization workflows triggered by the **[!UICONTROL List update]** activity execution. Refer to the [Troubleshooting the ACS Connector](../../integrations/using/troubleshooting-the-acs-connector.md) section.
+If an error occurs on the **[!UICONTROL List update]** activity, it means that the synchronization with Campaign Standard may have failed. To be able to see more details about what went wrong, go to **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]**. This folder contains synchronization workflows triggered by the **[!UICONTROL List update]** activity execution. Refer to the [Troubleshooting the ACS Connector](../../integrations/using/troubleshooting-the-acs-connector.md) section.
 
 ## Retrieve the data in Campaign Standard and use it in a delivery {#retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery}
 

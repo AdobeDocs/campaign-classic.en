@@ -74,11 +74,11 @@ Profiles and services replicated from Campaign v7 are available to digital marke
 
 For further information and full instructions regarding Campaign Standard workflows, see [Workflows](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/about-workflows-and-data-management/workflow-data-and-processes.html).
 
-1. Go to Campaign Standard and click **[!UICONTROL Marketing Activities]** .
+1. Go to Campaign Standard and click **[!UICONTROL Marketing Activities]**.
 1. Click **[!UICONTROL Create]** on the upper right.
-1. Click **[!UICONTROL Workflow]** .
-1. Click **[!UICONTROL New workflow]** and **[!UICONTROL Next]** .
-1. Enter a name for the workflow in the **[!UICONTROL Label]** field and additional information if needed. Click **[!UICONTROL Next]** .
+1. Click **[!UICONTROL Workflow]**.
+1. Click **[!UICONTROL New workflow]** and **[!UICONTROL Next]**.
+1. Enter a name for the workflow in the **[!UICONTROL Label]** field and additional information if needed. Click **[!UICONTROL Next]**.
 1. From **[!UICONTROL Targeting]** on the left, drag a **[!UICONTROL Query]** target to the workspace.
 
    ![](assets/acs_connect_profile_sync_05.png)
@@ -107,12 +107,12 @@ Follow the steps below to add an email delivery to an existing workflow with the
 
    ![](assets/acs_connect_profile_sync_07.png)
 
-1. Double click the **[!UICONTROL Email delivery]** activity and choose **[!UICONTROL Single send email]** or **[!UICONTROL Recurring email]** . Select your options and click **[!UICONTROL Next]** .
-1. Click **[!UICONTROL Send via email]** and click **[!UICONTROL Next]** .
+1. Double click the **[!UICONTROL Email delivery]** activity and choose **[!UICONTROL Single send email]** or **[!UICONTROL Recurring email]**. Select your options and click **[!UICONTROL Next]**.
+1. Click **[!UICONTROL Send via email]** and click **[!UICONTROL Next]**.
 
    ![](assets/acs_connect_profile_sync_08.png)
 
-1. Enter a name for the delivery in the **[!UICONTROL Label]** field and additional information if needed. Click **[!UICONTROL Next]** .
+1. Enter a name for the delivery in the **[!UICONTROL Label]** field and additional information if needed. Click **[!UICONTROL Next]**.
 
    ![](assets/acs_connect_profile_sync_09.png)
 
@@ -121,7 +121,7 @@ Follow the steps below to add an email delivery to an existing workflow with the
 
    ![](assets/acs_connect_profile_sync_10.png)
 
-1. Choose content that includes the link to unsubscribe to the service. Click **[!UICONTROL Confirm]** .
+1. Choose content that includes the link to unsubscribe to the service. Click **[!UICONTROL Confirm]**.
 
    ![](assets/acs_connect_profile_sync_11.png)
 
@@ -134,7 +134,7 @@ Follow the steps below to add an email delivery to an existing workflow with the
    ![](assets/acs_connect_profile_sync_13.png)
 
 1. Highlight the text with your cursor and click the chain icon.
-1. Click **[!UICONTROL Link to a landing page]** .
+1. Click **[!UICONTROL Link to a landing page]**.
 
    ![](assets/acs_connect_profile_sync_14.png)
 
@@ -142,11 +142,11 @@ Follow the steps below to add an email delivery to an existing workflow with the
 
    ![](assets/acs_connect_profile_sync_15.png)
 
-1. Choose the web application created by the consultant and click **[!UICONTROL Confirm]** .
+1. Choose the web application created by the consultant and click **[!UICONTROL Confirm]**.
 
    ![](assets/acs_connect_profile_sync_16.png)
 
-1. Click **[!UICONTROL Create]** .
+1. Click **[!UICONTROL Create]**.
 1. Return to the workflow by clicking the delivery name.
 
    ![](assets/acs_connect_profile_sync_17.png)
@@ -175,7 +175,7 @@ Follow the instructions in [Creating a workflow](../../integrations/using/synchr
 
    ![](assets/acs_connect_profile_sync_22.png)
 
-1. Go to Campaign Standard and open the profile details for the recipient. Confirm that a checkbox appears next to **[!UICONTROL No longer contact (by any channel)]** . To learn where to find profiles in Campaign Standard, see [Navigation Basics](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
+1. Go to Campaign Standard and open the profile details for the recipient. Confirm that a checkbox appears next to **[!UICONTROL No longer contact (by any channel)]**. To learn where to find profiles in Campaign Standard, see [Navigation Basics](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
 
    ![](assets/acs_connect_profile_sync_23.png)
 
