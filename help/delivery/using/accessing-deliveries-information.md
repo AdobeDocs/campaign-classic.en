@@ -38,7 +38,7 @@ This page lets you access an overall view of your deliveries: it displays all th
 
 The delivery wizard lets you configure your deliveries, launch the approval process, and send. The content of the wizard depends on the communication channel (email, mobile, push, direct mail) and the operator rights.
 
-To manipulate the deliveries in the list, click a delivery. It opens in a new window and you can confirm its delivery or to pause it, for example. 
+To manipulate the deliveries in the list, click a delivery. It opens in a new window and you can confirm its delivery or to pause it, for example.
 
 ![](assets/s_ncs_user_interface_delivery02.png)
 
@@ -46,7 +46,7 @@ Depending on the stage of the delivery cycle, the main possible statuses are:
 
 * Cancelled
 * Failed
-* Pending 
+* Pending
 * Finished
 * Paused
 * Retry pending
@@ -56,7 +56,7 @@ Depending on the stage of the delivery cycle, the main possible statuses are:
 * Target calculation
 * Being edited
 
-Each status has its own color and label. 
+Each status has its own color and label.
 
 ![](assets/s_ncs_user_status_campaigns_120.png)
 
@@ -70,7 +70,7 @@ To access the delivery calendar, go to the **[!UICONTROL Campaign]** universe an
 
 ![](assets/s_ncs_user_interface_delivery04.png)
 
-Click the name of a delivery to display the main information about it. You can also open the campaign if necessary by clicking **[!UICONTROL Open]** .
+Click the name of a delivery to display the main information about it. You can also open the campaign if necessary by clicking **[!UICONTROL Open]**.
 
 ![](assets/s_ncs_user_interface_delivery05.png)
 
@@ -78,7 +78,6 @@ Click the name of a delivery to display the main information about it. You can a
 
 The information on the **[!UICONTROL Delivery throughput]** page concerns all the deliveries of the platform. To measure the speed at which the messages are delivered, the criteria are the number of messages sent per hour and the size of the messages (in bits per second). In the example below, the first graph shows the successful deliveries in blue, and the number of erroneous deliveries in orange.
 
-You can choose the time slot for which the throughput is calculated. To do this, select the value from the drop-down list, and then click **[!UICONTROL Refresh]** .
+You can choose the time slot for which the throughput is calculated. To do this, select the value from the drop-down list, and then click **[!UICONTROL Refresh]**.
 
 ![](assets/s_ncs_user_interface_delivery06.png)
-

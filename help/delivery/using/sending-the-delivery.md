@@ -18,7 +18,7 @@ snippet: y
 
 # Sending the delivery{#sending-the-delivery}
 
-To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]** .
+To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
@@ -27,7 +27,7 @@ The detailed process when validating and sending a delivery is presented in the 
 
 ## Analyzing the delivery {#analyzing-the-delivery}
 
-To launch the delivery analysis, click **[!UICONTROL Send]** and select **[!UICONTROL Deliver as soon as possible]** or **[!UICONTROL Estimate target population]** .
+To launch the delivery analysis, click **[!UICONTROL Send]** and select **[!UICONTROL Deliver as soon as possible]** or **[!UICONTROL Estimate target population]**.
 
 ![](assets/s_ncs_user_postal_del_send.png)
 
@@ -45,7 +45,7 @@ The last log message displays any error messages and the number of errors. A spe
 
 Use the scroll bar to go up to the error message(s). Make the necessary changes, and then restart the analysis.
 
-Check the result of the analysis before clicking **[!UICONTROL Confirm delivery]** . A confirmation message lets you launch the delivery.
+Check the result of the analysis before clicking **[!UICONTROL Confirm delivery]**. A confirmation message lets you launch the delivery.
 
 ![](assets/s_ncs_user_postal_del_send_confirm.png)
 
@@ -63,7 +63,7 @@ To send a proof, click the **[!UICONTROL Send a proof]** button.
 
 ![](assets/s_ncs_user_postal_bat_send.png)
 
-Click **[!UICONTROL Analyze]** to launch the analysis, then send the proof by clicking **[!UICONTROL Confirm delivery]** .
+Click **[!UICONTROL Analyze]** to launch the analysis, then send the proof by clicking **[!UICONTROL Confirm delivery]**.
 
 ![](assets/s_ncs_user_postal_bat_analyze.png)
 

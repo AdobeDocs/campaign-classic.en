@@ -38,7 +38,7 @@ To enable delivery recipients to share the content of messages with members of t
 
 >[!NOTE]
 >
->By default, this link is not offered in the list of blocks. You can access it by clicking **[!UICONTROL Other...]** , and selecting the **[!UICONTROL Social network sharing links]** block.
+>By default, this link is not offered in the list of blocks. You can access it by clicking **[!UICONTROL Other...]**, and selecting the **[!UICONTROL Social network sharing links]** block.
 
 ![](assets/s_ncs_user_viral_add_link_via_others.png)
 
@@ -73,7 +73,8 @@ Apply the following stages:
 
    >[!NOTE]
    >
-   >The content of this message can be personalized to meet your needs. It is created based on the **[!UICONTROL Transfer of original message]** template, which is stored in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** node.  
+   >The content of this message can be personalized to meet your needs. It is created based on the **[!UICONTROL Transfer of original message]** template, which is stored in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** node.
+   >
    >It is also possible to change the message forward form made available to the referrer To do this, you need to change the **Viral form** Web application stored in the **[!UICONTROL Resources > Online > Web applications]** node.
 
 1. In the forwarded message, a link lets the referee save their profile in the database. An entry form is provided for this purpose. 
@@ -82,7 +83,8 @@ Apply the following stages:
 
    >[!NOTE]
    >
-   >This configuration can be adapted. To do this, you need to modify the **Recipient subscription** Web application stored in the **[!UICONTROL Resources > Online > Web applications]** node.   
+   >This configuration can be adapted. To do this, you need to modify the **Recipient subscription** Web application stored in the **[!UICONTROL Resources > Online > Web applications]** node.
+   >
    >For more information on Web applications, refer to [this section](../../web/using/about-web-applications.md).
 
    Once they validate, a confirmation message is sent to them: they will only be registered for good once they activate the link in the confirmation message. This message is created based on the **[!UICONTROL Registration confirmation]** template, which is stored in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** node.

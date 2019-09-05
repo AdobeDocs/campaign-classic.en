@@ -49,4 +49,3 @@ The **[!UICONTROL Advanced]** tab lets you personalize the calculation formulas 
 >[!CAUTION]
 >
 >Settings in this tab can only be modified by expert users.
-

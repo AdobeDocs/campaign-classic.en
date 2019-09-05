@@ -64,7 +64,8 @@ Typically, the Inbox rendering feature is used to test the HTML framework of a n
 
 >[!NOTE]
 >
->If you are a Litmus client, you can use your own Litmus account to provision and use Inbox rendering in Adobe Campaign. For more on this, contact your Adobe account executive.  
+>If you are a Litmus client, you can use your own Litmus account to provision and use Inbox rendering in Adobe Campaign. For more on this, contact your Adobe account executive.
+>
 >Note that changing your Litmus credentials can cause authentication issues within Adobe Campaign.
 
 ## Accessing the inbox rendering report {#accessing-the-inbox-rendering-report}
@@ -100,11 +101,10 @@ The **[!UICONTROL General summary]** presents the number of messages received, u
 
 Hover over the chart to display the details for each color.
 
-The body of the report is divided into three parts: **[!UICONTROL Mobile]** , **[!UICONTROL Messaging clients]** , and **[!UICONTROL Webmails]** . Scroll down the report to display all the renderings grouped into these three categories.
+The body of the report is divided into three parts: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, and **[!UICONTROL Webmails]**. Scroll down the report to display all the renderings grouped into these three categories.
 
 ![](assets/s_tn_inbox_rendering_report.png)
 
 To get the details for each report, click the corresponding card. The rendering is displayed for the reception method selected.
 
 ![](assets/s_tn_inbox_rendering_example.png)
-

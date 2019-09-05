@@ -25,4 +25,3 @@ You can also enable your delivery recipients to share them with members of their
 >[!NOTE]
 >
 >This functionality comes as standard with Adobe Campaign. The optional application, Social Marketing, lets you contact your customers and prospects via Facebook and Twitter.
-

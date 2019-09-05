@@ -18,9 +18,9 @@ snippet: y
 
 # Creating seed addresses{#creating-seed-addresses}
 
-Seed addresses are not managed via standard profiles and targets, but in a dedicated node of the Adobe Campaign hierarchy **[!UICONTROL Resources > Campaign management > Seed addresses]** .
+Seed addresses are not managed via standard profiles and targets, but in a dedicated node of the Adobe Campaign hierarchy **[!UICONTROL Resources > Campaign management > Seed addresses]**.
 
-You can create sub-folders in order to organize the seed addresses. To do this, right-click the **[!UICONTROL Seed addresses]** node and select **[!UICONTROL Create a new 'Seed addresses' folder]** . Name the sub-folder and then press **[!UICONTROL Enter]** to validate. You can now create or copy seed addresses to this sub-folder. For more on this, refer to [Defining addresses](../../delivery/using/creating-seed-addresses.md#defining-addresses).
+You can create sub-folders in order to organize the seed addresses. To do this, right-click the **[!UICONTROL Seed addresses]** node and select **[!UICONTROL Create a new 'Seed addresses' folder]**. Name the sub-folder and then press **[!UICONTROL Enter]** to validate. You can now create or copy seed addresses to this sub-folder. For more on this, refer to [Defining addresses](../../delivery/using/creating-seed-addresses.md#defining-addresses).
 
 Adobe Campaign also lets you create seed address templates which are imported into deliveries or campaigns and adapted based on the specific needs of the concerned deliveries and campaigns. Refer to [Creating seed address templates](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates).
 
@@ -33,7 +33,8 @@ To create seed addresses, follow the steps below:
 
    >[!NOTE]
    >
-   >The label of the address is automatically filled in with the last name and first name you defined.  
+   >The label of the address is automatically filled in with the last name and first name you defined.
+   >
    >It is not necessary to enter all fields of each tab when creating a seed address. Any missing personalization elements are entered randomly during delivery.
 
    ![](assets/s_ncs_user_seedlist_new_address.png)
@@ -47,7 +48,7 @@ To create address templates which will be imported and may be modified for each 
 
 To define a template folder, apply the following process:
 
-1. Create a new **[!UICONTROL Seed addresses]** type folder, right-click the folder then select **[!UICONTROL Properties...]** .
+1. Create a new **[!UICONTROL Seed addresses]** type folder, right-click the folder then select **[!UICONTROL Properties...]**.
 
    ![](assets/s_ncs_user_seedlist_template_folder.png)
 
@@ -56,4 +57,3 @@ To define a template folder, apply the following process:
    ![](assets/s_ncs_user_seedlist_folder_is_model.png)
 
    Addresses stored in this folder may now be used as address templates. You can import them into deliveries or campaigns and adapt them based on the specific needs of the concerned deliveries and campaigns (see [Adding seed addresses](../../delivery/using/adding-seed-addresses.md)).
-

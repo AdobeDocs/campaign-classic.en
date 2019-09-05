@@ -58,7 +58,7 @@ To do this, you need to configure a personalization block, then include a call t
 
 **Step 1: create the attachment:**
 
-* Insert the call to the personalization block: **<%@ include view="blockname" %>**. 
+* Insert the call to the personalization block: **<%@ include view="blockname" %>**.
 * Insert your content (personalized or not) into the body of the file.
 
 ![](assets/s_ncs_open_office_blocdeperso.png)
@@ -73,38 +73,25 @@ To do this, you need to configure a personalization block, then include a call t
 
   You need to differentiate two types of declarations within the personalization block:
 
-    * The Adobe Campaign code of the personalization fields for which the "open" and "closed" chevrons must be replaced with escape characters (respectively &lt; and &gt;).
-    * The entire OpenOffice XML code will be copied into the OpenOffice document.
+  * The Adobe Campaign code of the personalization fields for which the "open" and "closed" chevrons must be replaced with escape characters (respectively `&lt;` and `&gt;`).
+  * The entire OpenOffice XML code will be copied into the OpenOffice document.
 
 In the example, the personalization block looks like this:
 
 ```
-
 <% if (recipient.country.label == "Germany") { %>
-
 <draw:frame svg:width="4cm" svg:height="3cm">
-
 <draw:image xlink:href=https://..../logo_germany.png />
-
 </draw:frame>
-
-<% } else 
-
-if (recipient.country.label == "USA") 
-
+<% } else
+if (recipient.country.label == "USA")
 { %>
-
 <draw:frame svg:width="4cm" svg:height="3cm">
-
 <draw:image xlink:href=https://..../logo_USA.png />
-
 </draw:frame>
-
 <% } %>
-
 ```
 
 Depending on the recipient's country, personalization is visible in the document linked to the delivery:
 
 ![](assets/s_ncs_pdf_result.png)
-

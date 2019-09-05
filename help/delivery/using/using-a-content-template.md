@@ -42,7 +42,7 @@ You can create contents directly in the Adobe Campaign tree to be used in workfl
 
 Apply the following steps:
 
-1. Select the **[!UICONTROL Resources > Contents]** node of the tree, right-click and choose **[!UICONTROL Properties]** .
+1. Select the **[!UICONTROL Resources > Contents]** node of the tree, right-click and choose **[!UICONTROL Properties]**.
 
    ![](assets/s_ncs_content_folder_properties.png)
 

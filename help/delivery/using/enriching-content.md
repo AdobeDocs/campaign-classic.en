@@ -38,7 +38,7 @@ Example of return from a query on the recipient schema (**nms:recipient**):
 </book>
 ```
 
-The ** `<collection-recipient>`** element represents the input element of the document resulting from a query. The data retrieved is returned under this element; in our example, a recipient list.
+The **`<collection-recipient>`** element represents the input element of the document resulting from a query. The data retrieved is returned under this element; in our example, a recipient list.
 
 ### Adding a query {#adding-a-query}
 
@@ -81,9 +81,9 @@ A content link is declared in the data schema as follows:
 <element expandSchemaTarget="cus:chapter" label="Main chapter" name="mainChapter" type="string"/>
 ```
 
-The definition of the link is populated on a **string**-type ** `<element>`**, and the **expandSchemaTarget** attribute references the target schema ("cus:chapter" in our example). The referenced schema must be a content schema.
+The definition of the link is populated on a **string**-type **`<element>`**, and the **expandSchemaTarget** attribute references the target schema ("cus:chapter" in our example). The referenced schema must be a content schema.
 
-The content of the targeted element enriches the link element, i.e. the ** `<chapter>`** element in our example schema:
+The content of the targeted element enriches the link element, i.e. the **`<chapter>`** element in our example schema:
 
 ```
 <mainChapter computeString="Introduction" id="7011" title="Introduction" xtkschema="cus:chapter">    
@@ -139,11 +139,11 @@ A link to an external table is declared in the data schema as follows:
 <element label="Main contact" name="mainContact" target="nms:recipient" type="link"/>
 ```
 
-The definition of the link is populated on a **link**-type ** `<element>`**, and the **target** attribute references the target schema ("nms:recipient" in our example).
+The definition of the link is populated on a **link**-type **`<element>`**, and the **target** attribute references the target schema ("nms:recipient" in our example).
 
 By convention, links must be declared from the main element of the data schema.
 
-The **Compute string** and the key of the targeted element enrich the ** `<name>  -id </name>`** and ** `<name>  -cs </name>`** attributes on the main element.
+The **Compute string** and the key of the targeted element enrich the **`<name>-id`** and **`<name>-cs`** attributes on the main element.
 
 In our example, the link is populated in the "cus:book" schema, the content of the link data is contained in the "mainContact-id" and "mainContact-cs" attributes:
 
@@ -160,7 +160,7 @@ Link edit control is declared as follows:
 
 ![](assets/d_ncs_content_link3.png)
 
-You can restrict the choice of target elements by adding the ** `<sysfilter>`** element via the link definition in the input form:
+You can restrict the choice of target elements by adding the **`<sysfilter>`** element via the link definition in the input form:
 
 ```
 <input xpath="mainContact">

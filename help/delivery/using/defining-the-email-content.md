@@ -20,7 +20,7 @@ snippet: y
 
 ## Sender {#sender}
 
-To define the name and address of the sender which will appear in the header of messages sent, click the **[!UICONTROL From]** link. 
+To define the name and address of the sender which will appear in the header of messages sent, click the **[!UICONTROL From]** link.
 
 ![](assets/s_ncs_user_wizard_email02.png)
 
@@ -32,9 +32,8 @@ To find out how to insert and use personalization fields, refer to [About person
 >
 >* The sender's address will be used for replies by default.
 >* The header parameters must not be empty. By default, they contain the values input when configuring the deployment wizard. For further information, refer to the [Installation Guide](../../installation/using/deploying-an-instance.md).
->* The sender's address is mandatory to allow an email to be sent (RFC standard). 
+>* The sender's address is mandatory to allow an email to be sent (RFC standard).
 >* Adobe Campaign checks the syntax of email addresses entered.
->
 
 >[!CAUTION]
 >
@@ -163,11 +162,11 @@ To attach a file:
   ![](assets/s_ncs_user_wizard_email_attachement_h.png)
 
 * Or click the **[!UICONTROL Attach]** icon in the delivery wizard toolbar, and then select the file to be attached to the delivery.
-* Or click the **[!UICONTROL Attachments]** link and then the **[!UICONTROL Add]** button, and select **[!UICONTROL File...]** to select the file to be attached to the delivery. 
+* Or click the **[!UICONTROL Attachments]** link and then the **[!UICONTROL Add]** button, and select **[!UICONTROL File...]** to select the file to be attached to the delivery.
 
   ![](assets/s_ncs_user_wizard_email_attachement.png)
 
-  Select the file to attach to the delivery and click **[!UICONTROL Open]** .
+  Select the file to attach to the delivery and click **[!UICONTROL Open]**.
 
   ![](assets/s_ncs_user_wizard_email_attachement_b.png)
 
@@ -235,13 +234,13 @@ Click the **[!UICONTROL Tracking & Images]** icon and then the **[!UICONTROL Ima
 
 For each image detected, you can view its status:
 
-* If an image is stored locally or located on another server, even if this server is visible from the outside (on an internet site, for example), it will be detected as **[!UICONTROL Not yet online]** . 
+* If an image is stored locally or located on another server, even if this server is visible from the outside (on an internet site, for example), it will be detected as **[!UICONTROL Not yet online]**.
 * The images are detected as **[!UICONTROL Already online]** if they were uploaded earlier while creating another delivery.
-* In the deployment wizard, you can define URLs for which image detection is not enabled: uploading these images will be **[!UICONTROL Skipped]** .
+* In the deployment wizard, you can define URLs for which image detection is not enabled: uploading these images will be **[!UICONTROL Skipped]**.
 
 >[!NOTE]
 >
->Images are identified by their content and not by their access paths. This means that an image uploaded previously under a different name or in a different directory will be detected as **[!UICONTROL Already online]** .
+>Images are identified by their content and not by their access paths. This means that an image uploaded previously under a different name or in a different directory will be detected as **[!UICONTROL Already online]**.
 
 During the analysis phase, the images are automatically uploaded to the server so that they are accessible from the exterior, except for the local images which must be uploaded beforehand.
 
@@ -257,7 +256,7 @@ Once the images are online, you can view changes to their names and paths from t
 
 ![](assets/s_ncs_user_images_in_delivery_wiz_4.png)
 
-If you select **[!UICONTROL Include the images in the email]** , you can choose which images to include in the corresponding column.
+If you select **[!UICONTROL Include the images in the email]**, you can choose which images to include in the corresponding column.
 
 ![](assets/s_ncs_user_images_in_delivery_wiz_5.png)
 
@@ -271,11 +270,11 @@ If you select **[!UICONTROL Include the images in the email]** , you can choose 
 
 Adobe Campaign manages three specific Japanese formats for email on mobiles: **Deco-mail** (DoCoMo mobiles), **Decore Mail** (Softbank mobiles) and **Decoration Mail** (KDDI AU mobiles). These formats impose particular coding, structure, and size constraints. Learn more about limitations and recommendations in [this section](../../delivery/using/defining-the-email-content.md#limitations-and-recommendations).
 
-In order for the recipient to correctly receive messages in one of these formats, we recommend selecting **[!UICONTROL Deco-mail (DoCoMo)]** , **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** in the corresponding profile:
+In order for the recipient to correctly receive messages in one of these formats, we recommend selecting **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** in the corresponding profile:
 
 ![](assets/deco-mail_03.png)
 
-However, if you leave the **[!UICONTROL Email format]** option as **[!UICONTROL Unknown]** , **[!UICONTROL HTML]** or **[!UICONTROL Text]** , Adobe Campaign will automatically detect (when sending the email) the Japanese format to use so that the message is correctly displayed.
+However, if you leave the **[!UICONTROL Email format]** option as **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** or **[!UICONTROL Text]**, Adobe Campaign will automatically detect (when sending the email) the Japanese format to use so that the message is correctly displayed.
 
 This automatic detection system is based on the list of predefined domains defined in the **[!UICONTROL Management of Email Formats]** mail rule set. For more on managing email formats, refer to [this page](../../installation/using/email-deliverability.md#managing-email-formats).
 
@@ -294,12 +293,10 @@ Therefore, you must:
 >[!NOTE]
 >
 >Limitations specific to each operator are to be taken into account when creating your message. Refer to:  
-
 >
->* For DoCoMo, refer to [this page](https://www.nttdocomo.co.jp/service/developer/make/content/deco_mail/index.md)
->* For KDDI AU, refer to [this page](https://www.au.com/ezfactory/tec/spec/decorations/template.md)
->* For Softbank, refer to [this page](https://creation.mb.softbank.jp/mc/tech/tech_mail/mail_decore.md)
->
+>* For DoCoMo, refer to [this page](https://www.nttdocomo.co.jp/service/developer/make/content/deco_mail/index.html)
+>* For KDDI AU, refer to [this page](https://www.au.com/ezfactory/tec/spec/decorations/template.html)
+>* For Softbank, refer to [this page](https://creation.mb.softbank.jp/mc/tech/tech_mail/mail_decore.html)
 
 ### Testing the email content {#testing-the-email-content}
 
@@ -319,11 +316,11 @@ In the **[!UICONTROL Preview]** tab of the content editing window, clicking **[!
 
 #### Running typology rule {#running-typology-rule}
 
-In addition to the previewing diagnosis, a second check is carried out when sending a proof or a delivery: a specific typology rule, **[!UICONTROL Deco-mail check]** , is started during the analysis.
+In addition to the previewing diagnosis, a second check is carried out when sending a proof or a delivery: a specific typology rule, **[!UICONTROL Deco-mail check]**, is started during the analysis.
 
 >[!CAUTION]
 >
->This typology rule is only executed if at least one of the recipients is configured to receive emails in **[!UICONTROL Deco-mail (DoCoMo)]** , **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** format.
+>This typology rule is only executed if at least one of the recipients is configured to receive emails in **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** format.
 
 This typology rule allows you to make sure that the delivery respects the [format constraints](../../delivery/using/defining-the-email-content.md#limitations-and-recommendations) defined by the Japanese operators, particularly in relation to the total size of the email, the size of the HTML and text sections, the number of images in the messages, and the tags in the HTML content.
 
@@ -331,7 +328,7 @@ This typology rule allows you to make sure that the delivery respects the [forma
 
 You can send proofs to test your delivery. When you send the proof, if you are using substitution addresses, please enter addresses that correspond to the email format of the profile used.
 
-For example, you can replace a profile's address by test@softbank.ne.jp if the email format for this profile was defined beforehand on **[!UICONTROL Decore Mail (Softbank)]** .
+For example, you can replace a profile's address by test@softbank.ne.jp if the email format for this profile was defined beforehand on **[!UICONTROL Decore Mail (Softbank)]**.
 
 ![](assets/deco-mail_05.png)
 
@@ -354,11 +351,10 @@ To do this, use the **[!UICONTROL Split]** activity in your workflow and define 
 
 #### Designing a delivery for all formats {#designing-a-delivery-for-all-formats}
 
-When Adobe Campaign dynamically manages the formats according to the domain (profiles with email formats defined as **[!UICONTROL Unknown]** , **[!UICONTROL HTML]** or **[!UICONTROL Text]** ), you can send the same delivery to all of your recipients.
+When Adobe Campaign dynamically manages the formats according to the domain (profiles with email formats defined as **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** or **[!UICONTROL Text]** ), you can send the same delivery to all of your recipients.
 
 The message contact will display correctly for the users on Japanese mobiles, just as for the standard recipients.
 
 >[!CAUTION]
 >
 >Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [this section](../../delivery/using/defining-the-email-content.md#limitations-and-recommendations).
-

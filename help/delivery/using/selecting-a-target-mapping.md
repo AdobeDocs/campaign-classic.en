@@ -18,7 +18,7 @@ snippet: y
 
 # Selecting a target mapping{#selecting-a-target-mapping}
 
-By default, delivery templates target **[!UICONTROL Recipients]** . Their target mapping therefore uses the fields of the **nms:recipient** table. Adobe Campaign offers other target mappings for your deliveries, to be used based on your needs. 
+By default, delivery templates target **[!UICONTROL Recipients]**. Their target mapping therefore uses the fields of the **nms:recipient** table. Adobe Campaign offers other target mappings for your deliveries, to be used based on your needs. 
 
 ![](assets/delivery_select_mapping.png)
 
@@ -37,4 +37,3 @@ These mappings are as follows:
 >[!NOTE]
 >
 >You can also create new target mappings. This operation is reserved for expert users. For more information, refer to the [Configuration guide](../../configuration/using/target-mapping.md).
-

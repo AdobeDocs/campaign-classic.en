@@ -28,4 +28,3 @@ Messages delivered by Adobe Campaign can be personalized in several different wa
 >[!CAUTION]
 >
 >The following variables are internal variables that can be used for personalization but must not be modified: **delivery**, **message**, **dataSource**, **targetData**, **provider**, **coupon**, **couponValue**, **proposition**.
-

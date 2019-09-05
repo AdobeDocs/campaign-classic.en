@@ -36,4 +36,3 @@ The following resources are required for content configuration:
 * JavaScript codes: JavaScript codes for data aggregation. For more on this, refer to [Aggregator](../../delivery/using/publication-templates.md#aggregator).
 * Publication templates: definition of publication templates. For more on this, refer to [Publication templates](../../delivery/using/publication-templates.md).
 * Content: content instances to be created and published. For more on this, refer to [Using a content template](../../delivery/using/using-a-content-template.md).
-

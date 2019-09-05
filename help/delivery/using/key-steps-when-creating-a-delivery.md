@@ -121,7 +121,7 @@ To select the recipients of the delivery being created, follow the steps below:
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. Select the target mapping in the **[!UICONTROL Target mapping]** drop-down list. Adobe Campaign default target mapping is **[!UICONTROL Recipients]** .
+1. Select the target mapping in the **[!UICONTROL Target mapping]** drop-down list. Adobe Campaign default target mapping is **[!UICONTROL Recipients]**.
 
    Other target mappings are available, and some can be related to your specific configuration. For more on target mappings, refer to [Selecting a target mapping](../../delivery/using/selecting-a-target-mapping.md).
 
@@ -131,25 +131,25 @@ To select the recipients of the delivery being created, follow the steps below:
 
    ![](assets/s_ncs_user_wizard_email02b.png)
 
-   You can select recipients using the types of targeting defined in the database. To use a target type, select it and click **[!UICONTROL Next]** . For each target, you can display the recipients concerned by clicking the **[!UICONTROL Preview]** tab. For certain types of target, the **[!UICONTROL Refine target]** button lets you combine several targeting criteria.
+   You can select recipients using the types of targeting defined in the database. To use a target type, select it and click **[!UICONTROL Next]**. For each target, you can display the recipients concerned by clicking the **[!UICONTROL Preview]** tab. For certain types of target, the **[!UICONTROL Refine target]** button lets you combine several targeting criteria.
 
    The following target types are offered by default:
 
     * **[!UICONTROL Filtering conditions]** : this option lets you define a query and display the result. The method for defining queries is presented in [this section](../../platform/using/creating-filters.md#creating-an-advanced-filter).
     * **[!UICONTROL Subscribers of an information service]** : this option lets you select a newsletter to which the recipients must be subscribed to be targeted by the delivery being created.
-    
+
       ![](assets/s_ncs_user_wizard_email02c.png)
 
     * **[!UICONTROL Recipients of a delivery]** : this option lets you define the recipients of an existing delivery as a targeting criterion. You must then select the delivery in the list:
-    
+
       ![](assets/s_ncs_user_wizard_email02d.png)
 
-    * **[!UICONTROL Delivery recipients belonging to a folder]** : this option lets you select a delivery folder and target the recipients of the deliveries in that folder. 
-    
+    * **[!UICONTROL Delivery recipients belonging to a folder]** : this option lets you select a delivery folder and target the recipients of the deliveries in that folder.
+
       ![](assets/s_ncs_user_wizard_email02e.png)
 
       You can filter the behavior of recipients by selecting from the drop-down list:
-    
+
       ![](assets/s_ncs_user_wizard_email02f.png)
 
       >[!NOTE]
@@ -161,7 +161,7 @@ To select the recipients of the delivery being created, follow the steps below:
     * **[!UICONTROL A list of recipients]** : this option lets you target a list of recipients. Lists are presented in the [this section](../../platform/using/creating-and-managing-lists.md).
     * **[!UICONTROL User filters]** : this option lets you access the preconfigured filters to use them as filtering criteria for profiles in the database. Preconfigured filters are presented in [this section](../../platform/using/creating-filters.md#saving-a-filter).
     * The option **[!UICONTROL Exclude recipients corresponding to this segment]** lets you target on recipients who do not satisfy the defined target criteria. To use this option, select the appropriate box and then apply targeting, as defined earlier, to exclude the resulting profiles.
-    
+
       ![](assets/s_ncs_user_wizard_email02g.png)
 
 1. Enter a name for this targeting in the **[!UICONTROL Label]** field. By default, the label will be the label of the first targeting criterion. For a combination, it is better to use an explicit name.
@@ -193,21 +193,21 @@ Click the **[!UICONTROL Edit...]** link to modify the default configuration.
 
 The following options are available:
 
-* **[!UICONTROL Exclude duplicate addresses during delivery]** . This option is active by default: it lets you eliminate duplicate email addresses during delivery. The strategy applied can vary according to how Adobe Campaign is used and the type of data in the database.
+* **[!UICONTROL Exclude duplicate addresses during delivery]**. This option is active by default: it lets you eliminate duplicate email addresses during delivery. The strategy applied can vary according to how Adobe Campaign is used and the type of data in the database.
 
   The default value of the option can be configured for each delivery template.
 
   For example:
 
-    * Delivery of a newsletter or electronic document delivery. No exclusion of duplicates in some cases if the data has no native duplicates. A couple subscribing with the same email address can expect to receive two specific personalized email messages: one addressed to each individual by name. In this case, this option can be unselected.
-    * Delivery of a marketing campaign: duplicate exclusion is essential to avoid sending too many messages to the same recipient. In this case, this option can be selected.
+  * Delivery of a newsletter or electronic document delivery. No exclusion of duplicates in some cases if the data has no native duplicates. A couple subscribing with the same email address can expect to receive two specific personalized email messages: one addressed to each individual by name. In this case, this option can be unselected.
+  * Delivery of a marketing campaign: duplicate exclusion is essential to avoid sending too many messages to the same recipient. In this case, this option can be selected.
 
-      If you unselect this option, you can access an additional option: **[!UICONTROL Keep duplicate records (same identifier)]** . It lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
-    
-      ![](assets/s_ncs_user_wizard_email02j.png)
+      If you unselect this option, you can access an additional option: **[!UICONTROL Keep duplicate records (same identifier)]**. It lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
+
+    ![](assets/s_ncs_user_wizard_email02j.png)
 
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]** , i.e. recipients whose email addresses are on a blacklist ('opt out'). This option must remain selected in order to observe the professional ethics of e-marketing and the laws governing e-commerce.
-* **[!UICONTROL Exclude quarantined recipients]** . This option lets you exclude from the target any profiles with an address that does not respond. We strongly recommend keeping this option selected.
+* **[!UICONTROL Exclude quarantined recipients]**. This option lets you exclude from the target any profiles with an address that does not respond. We strongly recommend keeping this option selected.
 
   >[!NOTE]
   >
@@ -223,7 +223,7 @@ To select the target of the proofs, follow the steps below:
 
 1. Click the **[!UICONTROL To]** link.
 1. Click the **[!UICONTROL Target of the proofs]** tab.
-1. Click the **[!UICONTROL Targeting mode]** field to choose the method to apply: **[!UICONTROL Definition of a specific proof target]** , **[!UICONTROL Substitution of the address]** , **[!UICONTROL Seed addresses]** or **[!UICONTROL Specific target and seed addresses]** .
+1. Click the **[!UICONTROL Targeting mode]** field to choose the method to apply: **[!UICONTROL Definition of a specific proof target]** , **[!UICONTROL Substitution of the address]** , **[!UICONTROL Seed addresses]** or **[!UICONTROL Specific target and seed addresses]**.
 
 >[!NOTE]
 >
@@ -284,9 +284,9 @@ To do this:
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. By default, recipients are imported in the database. You must select the **[!UICONTROL Target mapping]** . For more on target mappings, refer to [Selecting a target mapping](../../delivery/using/selecting-a-target-mapping.md)
+1. By default, recipients are imported in the database. You must select the **[!UICONTROL Target mapping]**. For more on target mappings, refer to [Selecting a target mapping](../../delivery/using/selecting-a-target-mapping.md)
 
-   You can also choose **[!UICONTROL Do not import the recipients into the database]** .
+   You can also choose **[!UICONTROL Do not import the recipients into the database]**.
 
 1. When importing the recipients, click the **[!UICONTROL File format definition...]** link to select and configure the external file.
 
@@ -322,7 +322,7 @@ To do this:
 
 ### Analyzing the delivery {#analyzing-the-delivery}
 
-The analysis is the stage during which the target population is calculated and the delivery content prepared. Once it is complete, the delivery is ready to send. To launch the delivery analysis, click **[!UICONTROL Send]** and then select **[!UICONTROL Deliver as soon as possible]** . 
+The analysis is the stage during which the target population is calculated and the delivery content prepared. Once it is complete, the delivery is ready to send. To launch the delivery analysis, click **[!UICONTROL Send]** and then select **[!UICONTROL Deliver as soon as possible]**.
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -334,7 +334,7 @@ The **[!UICONTROL Analyze]** button lets you launch the analysis manually. The p
 >
 >The validation rules are described in [Validation process with typologies](../../delivery/using/key-steps-when-creating-a-delivery.md#validation-process-with-typologies).
 
-You can stop this job at any time by clicking **[!UICONTROL Stop]** .
+You can stop this job at any time by clicking **[!UICONTROL Stop]**.
 
 ![](assets/s_ncs_user_wizard_email01_16.png)
 
@@ -358,7 +358,7 @@ Check the result of the analysis before clicking **[!UICONTROL Confirm delivery]
 >
 >Click the **[!UICONTROL Change the main delivery target]** link if the number of messages to send does not match your configuration. This lets you change the definition of the target population and re-start the analysis.
 
-The delivery parameters **[!UICONTROL Analysis]** tab lets you define a set of information concerning the preparation of messages during the analysis phase. 
+The delivery parameters **[!UICONTROL Analysis]** tab lets you define a set of information concerning the preparation of messages during the analysis phase.
 
 ![](assets/s_ncs_user_email_del_analyze_adv_param.png)
 
@@ -369,7 +369,7 @@ This tab gives access to the following options:
 * **[!UICONTROL Prepare the personalization data with a workflow]** : this option allows to prepare the personalization data contained in your delivery in an automatic workflow. It allows to highly improve the delivery analysis performance when a lot of data are being processed, especially if the personalization data come from an external table through FDA. Refer to the [Accessing an external database (FDA)](../../platform/using/accessing-an-external-database.md#optimizing-email-personalization-with-external-data) section.
 * **[!UICONTROL Start job in a detached process]** : This option lets you start the delivery analysis in a separate process. The analysis function uses the Adobe Campaign application server process (web nlserver) by default. By selecting this option, you ensure that the analysis will be completed even in the event of application server failure.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : this option adds the SQL query logs to the delivery journal during the analysis phase.
-* **[!UICONTROL Ignore personalization scripts during sending]** : this option lets you bypass the interpretation of JavaScript directives found in HTML content. They will be displayed as is in the delivered contents. These directives are introduced with the **<%=** tag)
+* **[!UICONTROL Ignore personalization scripts during sending]** : this option lets you bypass the interpretation of JavaScript directives found in HTML content. They will be displayed as is in the delivered contents. These directives are introduced with the **<%=** tag).
 
 ### Sending a proof {#sending-a-proof}
 
@@ -403,13 +403,13 @@ To send a proof, follow the steps below:
 
 You might wish to modify the content of the delivery as a result of any comments made by the validation group receiving the proof. After making your changes, you must relaunch the analysis and then send another proof. Each new proof is numbered and logged in the delivery journal.
 
-Once the delivery has been analyzed, you can view the various proofs sent via the **[!UICONTROL Proofs]** sub-tab of the log ( **[!UICONTROL Audit]** tab).
+Once the delivery has been analyzed, you can view the various proofs sent via the **[!UICONTROL Proofs]** sub-tab of the log (**[!UICONTROL Audit]** tab).
 
 ![](assets/s_ncs_user_delivery_validation_cycle_03.png)
 
 You must send as many proofs as necessary until the content of the delivery is finalized. After that, you can send the delivery to the main target and close the validation cycle.
 
-The **[!UICONTROL Advanced]** tab of delivery properties lets you define the properties of the proof. When needed, you can override the recipient exclusion rules. 
+The **[!UICONTROL Advanced]** tab of delivery properties lets you define the properties of the proof. When needed, you can override the recipient exclusion rules.
 
 ![](assets/s_ncs_user_wizard_email01_145.png)
 
@@ -442,7 +442,7 @@ To edit the current typology, click the **[!UICONTROL Edit link]** icon to the r
 
 ![](assets/s_ncs_user_email_del_typo_tab.png)
 
-The **[!UICONTROL Rule]** tab gives a list of the typology rules to apply. Select a rule and click the **[!UICONTROL Detail...]** icon to view its configuration: 
+The **[!UICONTROL Rule]** tab gives a list of the typology rules to apply. Select a rule and click the **[!UICONTROL Detail...]** icon to view its configuration:
 
 ![](assets/s_ncs_user_email_del_typo_rules_edit.png)
 
@@ -454,7 +454,7 @@ The **[!UICONTROL Rule]** tab gives a list of the typology rules to apply. Selec
 
 The **[!UICONTROL Analysis]** tab for delivery properties lets you select the validation mode. If warnings are generated during the analysis (e.g., if certain characters are accentuated in the subject of the delivery, etc.), you can configure the delivery to define whether or not it should still be executed. By default, the user must confirm the sending of messages at the end of the analysis phase: this is **manual** validation.
 
-Select another approval mode from the drop-down list in the appropriate field. 
+Select another approval mode from the drop-down list in the appropriate field.
 
 ![](assets/s_ncs_user_email_del_validation_mode.png)
 
@@ -476,7 +476,8 @@ The following approval modes are available:
 
 >[!NOTE]
 >
->Only the delivery owner can start a delivery. In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field.  
+>Only the delivery owner can start a delivery. In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field.
+>
 >Refer to [this section](../../campaign/using/setting-up-marketing-campaigns.md#selecting-reviewers) for further information.
 
 Before sending the delivery, you can define the sending parameters in the delivery properties, via the **[!UICONTROL Delivery]** tab.
@@ -491,7 +492,7 @@ Before sending the delivery, you can define the sending parameters in the delive
 
   This option allows you to define the number of messages grouped within the same XML delivery package.
 
-  If the parameter is set for 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size="">  /1024, with a minimum of 8 and a maximum of 256 messages by package. </delivery>`
+  If the parameter is set for 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
 
   >[!CAUTION]
   >
@@ -507,7 +508,8 @@ Before sending the delivery, you can define the sending parameters in the delive
 
   >[!NOTE]
   >
-  >Using this option is not advised when installing using mid-sourcing as to not call mta.  
+  >Using this option is not advised when installing using mid-sourcing as to not call mta.
+  >
   >For more information on configuring an SMTP server, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
 * **[!UICONTROL Archive emails]**
@@ -538,7 +540,7 @@ Specify a start date in the **[!UICONTROL Contact date]** field.
 
 ![](assets/dlv_email_del_plan.png)
 
-You can then start the analysis ( **[!UICONTROL Analyze]** button) and then delivery ( **[!UICONTROL Confirm delivery]** button), but it will not start until the date given in the **[!UICONTROL Contact date]** field.
+You can then start the analysis (**[!UICONTROL Analyze]** button) and then delivery (**[!UICONTROL Confirm delivery]** button), but it will not start until the date given in the **[!UICONTROL Contact date]** field.
 
 ![](assets/s_ncs_user_email_del_start_delayed.png)
 
@@ -546,7 +548,7 @@ It will appear with **[!UICONTROL Pending]** status in the delivery list.
 
 ![](assets/s_ncs_user_email_del_waiting.png)
 
-Scheduling can be configured upstream via the **[!UICONTROL Scheduling]** button of the delivery. 
+Scheduling can be configured upstream via the **[!UICONTROL Scheduling]** button of the delivery.
 
 ![](assets/s_ncs_user_email_del_save_in_calendar_ico.png)
 
@@ -566,7 +568,7 @@ It lets you defer the delivery to a later date or save the delivery in the provi
 
 Dates and times are expressed in the time zone of the current operator. The **[!UICONTROL Time zone]** drop-down list located below the contact date input field lets you automatically convert the entered date and time into the selected time zone.
 
-For instance, if you schedule a delivery to be executed automatically at 8 o'clock London time, the time is automatically converted into the selected time zone: 
+For instance, if you schedule a delivery to be executed automatically at 8 o'clock London time, the time is automatically converted into the selected time zone:
 
 ![](assets/s_ncs_user_email_del_plan_calendar_timezone.png)
 
@@ -587,8 +589,8 @@ To balance the load, you can divide deliveries into several batches. Configure t
 
     * Define the size for each wave. For example, if you enter **[!UICONTROL 30%]** in the corresponding field, each wave will represent 30% of the messages included in the delivery, except the last one, which will represent 10% of the messages.
 
-      In the **[!UICONTROL Period]** field, specify the delay between the start of two consecutive waves. For example, if you enter **[!UICONTROL 2d]** , the first wave will start immediately, the second wave will start in two days, the third wave in four days, and so on.
-    
+      In the **[!UICONTROL Period]** field, specify the delay between the start of two consecutive waves. For example, if you enter **[!UICONTROL 2d]**, the first wave will start immediately, the second wave will start in two days, the third wave in four days, and so on.
+
       ![](assets/s_ncs_user_wizard_waves_create_size.png)
 
     * Define a calendar for sending each wave.
@@ -596,19 +598,20 @@ To balance the load, you can divide deliveries into several batches. Configure t
       In the **[!UICONTROL Start]** column, specify the delay between the start of two consecutive waves. In the **[!UICONTROL Size]** column, enter a fixed number or a percentage.
 
       In the example below, the first wave represents 25% of the total number of messages included in the delivery and will start immediately. The next two waves complete the delivery and are set to begin at six-hour intervals.
-    
+
       ![](assets/s_ncs_user_wizard_waves_create.png)
 
-   A specific typology rule, **[!UICONTROL Wave scheduling check]** , ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [Validation process with typologies](../../delivery/using/key-steps-when-creating-a-delivery.md#validation-process-with-typologies).
+   A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [Validation process with typologies](../../delivery/using/key-steps-when-creating-a-delivery.md#validation-process-with-typologies).
 
    >[!CAUTION]
    >
-   >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent.   
+   >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent.  
+   >
    >You must also allow enough time for retries when configuring the last waves. See [Additional delivery configurations](../../delivery/using/key-steps-when-creating-a-delivery.md#additional-delivery-configurations).
 
 1. To monitor your sends, go to the delivery logs. See [this page](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).
 
-   You can see the deliveries that were already sent in the processed waves ( **[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves ( **[!UICONTROL Pending]** status).
+   You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
 
 The two examples below are the most common use cases for using multiple waves.
 
@@ -658,7 +661,7 @@ When the delivery has been launched, the messages (and any retries) can be sent 
 
 * The **[!UICONTROL Delivery duration]** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
 
-  You can also choose to specify dates. To do this, select **[!UICONTROL Explicitly set validity dates]** . In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
+  You can also choose to specify dates. To do this, select **[!UICONTROL Explicitly set validity dates]**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
 
 * **Validity limit of resources**
 
@@ -672,7 +675,7 @@ When the delivery is part of a campaign, the **[!UICONTROL Advanced]** tab offer
 
 Before sending, each delivery is analyzed. The analysis duration depends on the delivery extraction file. The more significant the size of the file, the longer the analysis takes, making the following deliveries wait.
 
-The options for the **[!UICONTROL Message preparation by the scheduler]** let you prioritize the delivery analysis in a campaign workflow. 
+The options for the **[!UICONTROL Message preparation by the scheduler]** let you prioritize the delivery analysis in a campaign workflow.
 
 ![](assets/delivery_analysis_priority.png)
 
@@ -680,5 +683,4 @@ If a delivery is too large, it is better to assign a low priority to it in order
 
 >[!NOTE]
 >
->To ensure that the larger delivery analyses do not slow down the progress of your workflows, you can schedule their executions by ticking the **[!UICONTROL Schedule execution for a time of low activity]** .
-
+>To ensure that the larger delivery analyses do not slow down the progress of your workflows, you can schedule their executions by ticking the **[!UICONTROL Schedule execution for a time of low activity]**.
