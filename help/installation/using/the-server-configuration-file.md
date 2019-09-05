@@ -22,7 +22,7 @@ The overall configuration of Adobe Campaign is defined in the **serverConf.xml**
 
 >[!NOTE]
 >
->Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.md). The installation and configuration steps for hosted and hybrid models are presented in this [section](../../installation/using/hosted-model.md).
+>Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html). The installation and configuration steps for hosted and hybrid models are presented in this [section](../../installation/using/hosted-model.md).
 
 The first parameters are inside the **shared** node. These are related to the instance. They are potentially used by all the nlserver commands (nlserver web, nlserver wfserver, etc.). The other sections are related to a specific nlserver sub-command.
 
@@ -410,7 +410,7 @@ In the **dataStore > dataSource > pool** node, configure the parameters of assoc
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
-   <td> Maximum number of allowed connections before refusing a new connection. See this <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.md">technote</a>.<br /> </td> 
+   <td> Maximum number of allowed connections before refusing a new connection. See this <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">technote</a>.<br /> </td> 
    <td> Short<br /> </td> 
   </tr> 
   <tr> 
@@ -499,7 +499,7 @@ Here is the default configuration:
 
 Here are the different parameters of the **dnsConfig** (DNS configuration) node.
 
-For additional information, refer to this [section](../../installation/using/configuring-campaign-server.md#delivery-settings).
+For additional information, refer to this [section](../../installation/using/configuring-campaign-server.md).
 
 <table> 
  <thead> 

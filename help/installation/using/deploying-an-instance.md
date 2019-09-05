@@ -494,4 +494,4 @@ The last stage of the deployment wizard lets you configure the automatic purging
 
 ![](assets/s_ncs_install_deployment_wiz_16.png)
 
-Data is deleted automatically via the Database cleanup workflow. For more on how to configure and operate this workflow and details on the deleted items, refer to this [document](../../production/using/database_cleanup_workflow.md).
+Data is deleted automatically via the Database cleanup workflow. For more on how to configure and operate this workflow and details on the deleted items, refer to this [document](../../production/using/database-cleanup-workflow.md).
