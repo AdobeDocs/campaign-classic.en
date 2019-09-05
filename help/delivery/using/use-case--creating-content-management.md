@@ -59,7 +59,8 @@ A data schema is an XML document associated with content. It describes the XML s
 
 >[!NOTE]
 >
->For more on creating and configuring data schemas in Adobe Campaign, please refer to [this section](../../configuration/using/about-schema-edition.md).  
+>For more on creating and configuring data schemas in Adobe Campaign, please refer to [this section](../../configuration/using/about-schema-edition.md).
+>
 >Configuration elements specific to content management are detailed in [Data schemas](../../delivery/using/data-schemas.md).
 
 To create a data schema, apply the following steps:
@@ -68,7 +69,7 @@ To create a data schema, apply the following steps:
 
    Click the **[!UICONTROL New]** icon located above the list of data schemas.
 
-1. Select the **[!UICONTROL Create a schema]** option for content management, then click **[!UICONTROL Next]** .
+1. Select the **[!UICONTROL Create a schema]** option for content management, then click **[!UICONTROL Next]**.
 
    ![](assets/s_ncs_content_create_schema.png)
 
@@ -90,7 +91,7 @@ To create a data schema, apply the following steps:
 
    In this example the identified contents, their format and their type are:
 
-<table> 
+  <table> 
  <thead> 
   <tr> 
    <th> <strong>Content</strong> <br /> </th> 
@@ -170,7 +171,8 @@ The description of a form is a structured XML document that observes the grammar
 
 >[!NOTE]
 >
->For more on creating and configuring forms in Adobe Campaign, refer to [this section](../../configuration/using/identifying-a-form.md).  
+>For more on creating and configuring forms in Adobe Campaign, refer to [this section](../../configuration/using/identifying-a-form.md). 
+>
 >Configuration elements specific to content management are detailed in [Input forms](../../delivery/using/input-forms.md).
 
 To create an input form for content management, apply the following steps:
@@ -221,7 +223,7 @@ In this example, we want to use a JavaScript template to define the data constru
 
 >[!NOTE]
 >
->Constraints linked to document building (JavaScript or XSL template) are detailed in [Formatting](../../delivery/using/formatting.md),
+>Constraints linked to document building (JavaScript or XSL template) are detailed in [Formatting](../../delivery/using/formatting.md).
 
 To use a JavaScript template in Adobe Campaign, apply the following steps:
 
@@ -367,6 +369,7 @@ In this example, the steps are as follows:
    >[!NOTE]
    >
    >The **[!UICONTROL DOM interface]** option is checked by default and this means that this document will not be accessible if you use the E4X syntax. The DOM interface must be used when this option is checked and is the recommended syntax.  
+   >
    >You can still use the E4X syntax. If so, make sure to uncheck this option.
 
    Use the **[!UICONTROL Add]** button to create other transformation templates.
@@ -398,4 +401,3 @@ To create content directly in the deliveries, apply the following steps:
 1. Click the **[!UICONTROL HTML preview]** tab to view the rendering. You need to select a recipient to test personalization.
 
    ![](assets/s_ncs_content_use_in_delivery_preview.png)
-

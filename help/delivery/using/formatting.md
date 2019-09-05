@@ -46,7 +46,7 @@ Example of a JavaScript HTML formatting template based on the "cus:book" schema:
 
 The various JavaScript directives appear in the following form:
 
-* Merge fields: displays the content of the data with the **<%= `<source>` %>** syntax where `<source be="" data="" displayed.="" field="" is="" of="" p="" source="" the="" to="" />` 
+* Merge fields: displays the content of the data with the **`<%= <source> %>`** syntax where `<source>`is the source field of the data to be displayed.
 * Instruction blocks: executes a series of JavaScript instructions included between the <% and %> tags.
 
 The **content** object represents the main element of the input XML document.
@@ -57,7 +57,7 @@ In our example, the following line displays the content of the name book name:
 <h1><%= content.@name %></h1>
 ```
 
-The following code iterates on the `<chapter>  collection element: </chapter>`
+The following code iterates on the `<chapter>` collection element:
 
 ```
 <% for each(var chapter in content.chapter) { %>
@@ -70,15 +70,17 @@ The attributes and elements of the content are represented as JavaScript objects
 **Example**:
 
 * **content.@name**: retrieves the value of the "name" attribute of the main element
-* **content.@['name']**: identical to the **content.@name** syntax
-* **content.chapter.length**: returns the number of elements on the `<chapter>  collection element </chapter>`
-* **content.chapter[0].@name**: retrieves the name of the first `<chapter>  element </chapter>`
-* **chapter.name()**: returns the name of the `<chapter>  element </chapter>`
+* **content.@`['name']`**: identical to the **content.@name** syntax
+* **content.chapter.length**: returns the number of elements on the `<chapter` collection element
+* **content.chapter`[0]`.@name**: retrieves the name of the first `<chapter>` element
+* **chapter.name()**: returns the name of the `<chapter>` element
 * **chapter.parent().name()**: returns the name of the parent element of `<chapter>`
 
 >[!CAUTION]
 >
->Because the '-' character is reserved in the JavaScript language, the recovery of the value of any attribute or element containing this character must be carried out via the [' `<field>  '] syntax. For example: content.@['offer-id'].  <br /> </field>`
+>Because the '-' character is reserved in the JavaScript language, the recovery of the value of any attribute or element containing this character must be carried out via the `['<field>']` syntax.
+>
+>For example: `content.@['offer-id']`.
 
 All the power of a programming language (variables, loops, conditional tests, functions, etc. ) is available to construct the output document. SOAP APIs are accessible to enrich the output document.
 
@@ -197,17 +199,17 @@ This example involves the following steps:
 
    ```
    <srcSchema _cs="Invitation (neo)"   entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Invitation" mappingType="sql" name="news" namespace="neo" xtkschema="xtk:srcSchema">
-   
+
      <enumeration basetype="string" default="en" name="language">
        <value label="Français" name="fr" value="fr"/>
        <value label="English" name="gb" value="gb"/>
      </enumeration>
-   
+
      <enumeration basetype="string" name="css">
        <value label="Blue" name="bl" value="blue"/>
        <value label="Orange" name="or" value="orange"/>
      </enumeration>
-   
+
      <element label="Intervenants" name="attendee">
        <key internal="true" name="id">
          <keyfield xpath="@id"/>
@@ -217,9 +219,9 @@ This example involves the following steps:
        <attribute label="Description" name="description" type="string"/>
        <attribute default="Gid()" label="Id" name="id" type="long"/>
      </element>
-   
+
      <element label="Invitation" name="news" template="ncm:content" xmlChildren="true">
-   
+
        <compute-string expr="@name"/>
        <attribute enum="language" label="Language" name="language" type="string"/>
        <attribute enum="css" label="Stylesheet" name="css" type="string"/>
@@ -227,7 +229,7 @@ This example involves the following steps:
        <element label="Presentation" name="presentation" type="html"/>
        <attribute label="Date" name="date" type="date"/>
        <element label="Attendees list" name="attendeesList" ordered="true" ref="attendee" unbound="true"/>
-   
+
      </element>
    </srcSchema>
    ```
@@ -236,7 +238,7 @@ This example involves the following steps:
 
    ```
    <form _cs="News (neo)" entitySchema="xtk:form"  img="xtk:form.png" label="News"  name="news" namespace="neo" type="contentForm" xtkschema="xtk:form">
-   
+
      <container type="iconbox">
        <container label="Invitation">
          <input xpath="@langue"/>
@@ -245,7 +247,7 @@ This example involves the following steps:
          <input xpath="@date"/>
          <input xpath="presentation"/>
        </container>
-   
+
        <container label="Intervenants">
          <container toolbarCaption="Liste des intervenants" type="notebooklist" xpath="attendeesList" xpath-label="@nom">
            <container>
@@ -260,7 +262,7 @@ This example involves the following steps:
          </container>
        </container>
      </container>
-   
+
    </form>
    ```
 
@@ -414,13 +416,13 @@ A stylesheet is an XML document that obeys the following rules:
 * replace the '<' or '&' characters with the **'&lt;'** or **'&'** entities,
 * each XSL element must use the **xsl** namespace.
 
-A stylesheet must start with the XSL root element marker ** `<xsl:stylesheet>`** and end with the ** ** marker. The XSL namespace must be defined in the opening marker as follows:
+A stylesheet must start with the XSL root element marker **`<xsl:stylesheet>`** and end with the **`</xsl:stylesheet>`** marker. The XSL namespace must be defined in the opening marker as follows:
 
 ```
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 ```
 
-The ** `<xsl:output>`** element specifies the format of the document generated. Specify the desired set of characters and the output format.
+The **`<xsl:output>`** element specifies the format of the document generated. Specify the desired set of characters and the output format.
 
 ```
 <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -455,9 +457,9 @@ In our example, an HTML page is generated from the "cus:book" schema by displayi
 
 ### Displaying HTML/XML {#displaying-html-xml}
 
-To display an **html** field, use the ** disable-output-escaping="yes"** option from the ** `<xsl:value-of>`** directive. This lets you avoid replacing characters with their XML entity (for example < with &lt;).
+To display an **html** field, use the **disable-output-escaping="yes"** option from the **`<xsl:value-of>`** directive. This lets you avoid replacing characters with their XML entity (for example < with &lt;).
 
-The ** `<xsl:text>`** directive with the ** disable-output-escaping="yes"** option lets you insert JavaScript tags for personalization fields or conditional tests.
+The **`<xsl:text>`** directive with the **disable-output-escaping="yes"** option lets you insert JavaScript tags for personalization fields or conditional tests.
 
 Examples:
 
@@ -483,7 +485,7 @@ Examples:
 
 It is possible to build up a library of templates or variables to be shared among several stylesheets. The "longMonth" **template**, presented above, is a typical example of the advantage of locating a template remotely in a stylesheet so that it can be reused later.
 
-The** `<xsl:include>`** directive indicates the name of the stylesheet to be included in the document.
+The **`<xsl:include>`** directive indicates the name of the stylesheet to be included in the document.
 
 **Example**: including the "common.xsl" style sheet.
 
@@ -573,7 +575,7 @@ Adobe Campaign provides date formatting functions for the JavaScript templates a
 
 ### JavaScript date formatting {#javascript-date-formatting}
 
-To display a date in the desired format, Adobe Campaign provides the **formatDate** function that takes as input the content of the date and a string specifying the output format with the following syntax: **%4Y/%2M/%2D %2H%2N%2S **
+To display a date in the desired format, Adobe Campaign provides the **formatDate** function that takes as input the content of the date and a string specifying the output format with the following syntax: **%4Y/%2M/%2D %2H%2N%2S**
 
 Examples:
 
@@ -604,7 +606,7 @@ Examples:
 
 ### XSL date formatting {#xsl-date-formatting}
 
-There is no standard date management function in XSLT syntax. To display a date in the desired format, Adobe Campaign provides the external function **date-format**. This function takes as its input the content of the date and a string specifying the output format with the following syntax: **%4Y/%2M/%2D %2H%2N%2S **
+There is no standard date management function in XSLT syntax. To display a date in the desired format, Adobe Campaign provides the external function **date-format**. This function takes as its input the content of the date and a string specifying the output format with the following syntax: **%4Y/%2M/%2D %2H%2N%2S**
 
 Examples:
 
@@ -646,4 +648,3 @@ Examples:
    <xsl:value-of select="external:date-format(@date, '%4y')"/>
   
   ```
-

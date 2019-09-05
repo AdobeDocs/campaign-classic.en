@@ -18,7 +18,7 @@ snippet: y
 
 # Sending messages{#sending-messages}
 
-To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]** .
+To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
@@ -39,7 +39,7 @@ When creating a new delivery or delivery template, Email BCC is not enabled by d
 
 To do this, follow the steps below:
 
-1. Go to **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** or **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** .
+1. Go to **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** or **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Select the delivery of your choice or duplicate the out-of-the-box **Email delivery** template, then select the duplicated template.
 1. Click the **Properties** button.
 1. Select the **[!UICONTROL Delivery]** tab.
@@ -93,6 +93,6 @@ Values are encoded automatically if necessary.
 
 >[!CAUTION]
 >
->Adding a script for inserting additional SMTP headers is reserved for advanced users.   
+>Adding a script for inserting additional SMTP headers is reserved for advanced users.
+>
 >The syntax of this script must comply with the requirements of this content type: no unused space, no empty line, etc.
-

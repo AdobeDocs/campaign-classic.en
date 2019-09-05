@@ -31,4 +31,3 @@ To create a new email delivery, follow the steps below:
 
 1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#identifying-the-delivery).
 1. Click **Continue** to confirm this information and display the message configuration window.
-

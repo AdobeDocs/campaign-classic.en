@@ -22,7 +22,8 @@ Adobe Campaign lets you perform mass personalized deliveries of SMS messages. Th
 
 >[!NOTE]
 >
->Adobe Campaign also lets you submit notifications on mobile terminals, via its **Adobe Campaign Mobile App Channel (NMAC)** option.  
+>Adobe Campaign also lets you submit notifications on mobile terminals, via its **Adobe Campaign Mobile App Channel (NMAC)** option. 
+> 
 >For more on this, refer to the [About mobile app channel](../../delivery/using/about-mobile-app-channel.md) section.
 
 ## Setting up SMS channel {#setting-up-sms-channel}
@@ -39,7 +40,7 @@ To send to a mobile phone, you need:
 
 The list of external accounts can be found in the **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** node of the Adobe Campaign explorer tree.
 
-* For example, go to the default account called **[!UICONTROL NetSize mobile delivery]** .
+* For example, go to the default account called **[!UICONTROL NetSize mobile delivery]**.
 * In the **[!UICONTROL General]** tab, check the **[!UICONTROL Enabled]** box.
 
   ![](assets/s_user_external_account_01.png)
@@ -63,7 +64,7 @@ The list of external accounts can be found in the **[!UICONTROL Platform]** > **
 
 If you want to use the SMPP protocol, you can also create a new external account.
 
-For more information on SMS protocol and settings, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.md).
+For more information on SMS protocol and settings, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 To do this, follow the steps below:
 
@@ -92,6 +93,7 @@ To do this, follow the steps below:
    >[!NOTE]
    >
    >Certain characters count as two (braces, square brackets, the euro symbol, etc.).  
+   >
    >The list of available GSM characters is presented below.
 
    If you like, you can authorize character transliteration by checking the corresponding box.
@@ -112,7 +114,7 @@ To do this, follow the steps below:
 
    However, given that certain providers require the use of the '+' prefix, it is advised that you check with your provider and they will suggest that you enable this option if necessary.
 
-   The **[!UICONTROL Enable TLS over SMPP]** checkbox allows you to encrypt SMPP traffic. For more on this, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.md).
+   The **[!UICONTROL Enable TLS over SMPP]** checkbox allows you to encrypt SMPP traffic. For more on this, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 1. If you are configuring an **[!UICONTROL Extended generic SMPP]** connector, you can set up automatic replies.
 
@@ -124,8 +126,8 @@ Character transliteration can be set up in a SMPP mobile delivery external accou
 
 Transliteration consists of replacing one character of an SMS by another when that character is not taken into account by the GSM standard.
 
-* If transliteration is **[!UICONTROL authorized]** , each character that is not taken into account is replaced by a GSM character when the message is sent. For example, the letter "ë" is replaced by "e". The message is therefore slightly altered, but the character limit will remain the same.
-* When transliteration is **[!UICONTROL not authorized]** , each message that contains characters that are not taken into account is sent in binary format (Unicode): all of the characters are therefore sent as they are. However, the SMS messages using Unicode are limited to 70 characters (or 67 characters per SMS for messages sent in multiple parts). If the maximum number of characters is exceeded, several messages will then be sent, which may create additional costs.
+* If transliteration is **[!UICONTROL authorized]**, each character that is not taken into account is replaced by a GSM character when the message is sent. For example, the letter "ë" is replaced by "e". The message is therefore slightly altered, but the character limit will remain the same.
+* When transliteration is **[!UICONTROL not authorized]**, each message that contains characters that are not taken into account is sent in binary format (Unicode): all of the characters are therefore sent as they are. However, the SMS messages using Unicode are limited to 70 characters (or 67 characters per SMS for messages sent in multiple parts). If the maximum number of characters is exceeded, several messages will then be sent, which may create additional costs.
 
 >[!CAUTION]
 >
@@ -142,164 +144,164 @@ The following table presents the characters taken into account by the GSM standa
 <table> 
  <tbody> 
   <tr> 
-   <td> @<br /> </td> 
+   <td> @ </td> 
    <td> <img height="21px" src="assets/delta.png" /> </td> 
-   <td> SP<br /> </td> 
-   <td> 0<br /> </td> 
-   <td> ¡<br /> </td> 
-   <td> P<br /> </td> 
-   <td> ¿<br /> </td> 
-   <td> p<br /> </td> 
+   <td> SP </td> 
+   <td> 0 </td> 
+   <td> ¡ </td> 
+   <td> P </td> 
+   <td> ¿ </td> 
+   <td> p </td> 
   </tr> 
   <tr> 
-   <td> £<br /> </td> 
-   <td> _<br /> </td> 
-   <td> !<br /> </td> 
-   <td> 1<br /> </td> 
-   <td> A<br /> </td> 
-   <td> Q<br /> </td> 
-   <td> a<br /> </td> 
-   <td> q<br /> </td> 
+   <td> £ </td> 
+   <td> _ </td> 
+   <td> ! </td> 
+   <td> 1 </td> 
+   <td> A </td> 
+   <td> Q </td> 
+   <td> a </td> 
+   <td> q </td> 
   </tr> 
   <tr> 
-   <td> $<br /> </td> 
+   <td> $ </td> 
    <td> <img height="21px" src="assets/phi.png" /> </td> 
-   <td> "<br /> </td> 
-   <td> 2<br /> </td> 
-   <td> B<br /> </td> 
-   <td> R<br /> </td> 
-   <td> b<br /> </td> 
-   <td> r<br /> </td> 
+   <td> " </td> 
+   <td> 2 </td> 
+   <td> B </td> 
+   <td> R </td> 
+   <td> b </td> 
+   <td> r </td> 
   </tr> 
   <tr> 
-   <td> ¥<br /> </td> 
+   <td> ¥ </td> 
    <td> <img height="21px" src="assets/gamma.png" /> </td> 
-   <td> #<br /> </td> 
-   <td> 3<br /> </td> 
-   <td> C<br /> </td> 
-   <td> S<br /> </td> 
-   <td> c<br /> </td> 
-   <td> s<br /> </td> 
+   <td> # </td> 
+   <td> 3 </td> 
+   <td> C </td> 
+   <td> S </td> 
+   <td> c </td> 
+   <td> s </td> 
   </tr> 
   <tr> 
-   <td> è<br /> </td> 
+   <td> è </td> 
    <td> <img height="21px" src="assets/delta.png" /> </td> 
-   <td> ¤<br /> </td> 
-   <td> 4<br /> </td> 
-   <td> D<br /> </td> 
-   <td> T<br /> </td> 
-   <td> d<br /> </td> 
-   <td> t<br /> </td> 
+   <td> ¤ </td> 
+   <td> 4 </td> 
+   <td> D </td> 
+   <td> T </td> 
+   <td> d </td> 
+   <td> t </td> 
   </tr> 
   <tr> 
-   <td> é<br /> </td> 
+   <td> é </td> 
    <td> <img height="21px" src="assets/omega.png" /> </td> 
-   <td> %<br /> </td> 
-   <td> 5<br /> </td> 
-   <td> E<br /> </td> 
-   <td> U<br /> </td> 
-   <td> e<br /> </td> 
-   <td> u<br /> </td> 
+   <td> % </td> 
+   <td> 5 </td> 
+   <td> E </td> 
+   <td> U </td> 
+   <td> e </td> 
+   <td> u </td> 
   </tr> 
   <tr> 
-   <td> ù<br /> </td> 
+   <td> ù </td> 
    <td> <img height="21px" src="assets/pi.png" /> </td> 
-   <td> &amp;<br /> </td> 
-   <td> 6<br /> </td> 
-   <td> F<br /> </td> 
-   <td> V<br /> </td> 
-   <td> f<br /> </td> 
-   <td> v<br /> </td> 
+   <td> &amp; </td> 
+   <td> 6 </td> 
+   <td> F </td> 
+   <td> V </td> 
+   <td> f </td> 
+   <td> v </td> 
   </tr> 
   <tr> 
-   <td> ì<br /> </td> 
+   <td> ì </td> 
    <td> <img height="21px" src="assets/psi.png" /> </td> 
-   <td> '<br /> </td> 
-   <td> 7<br /> </td> 
-   <td> G<br /> </td> 
-   <td> W<br /> </td> 
-   <td> g<br /> </td> 
-   <td> w<br /> </td> 
+   <td> ' </td> 
+   <td> 7 </td> 
+   <td> G </td> 
+   <td> W </td> 
+   <td> g </td> 
+   <td> w </td> 
   </tr> 
   <tr> 
-   <td> ò<br /> </td> 
+   <td> ò </td> 
    <td> <img height="21px" src="assets/sigma.png" /> </td> 
-   <td> (<br /> </td> 
-   <td> 8<br /> </td> 
-   <td> H<br /> </td> 
-   <td> X<br /> </td> 
-   <td> h<br /> </td> 
-   <td> x<br /> </td> 
+   <td> ( </td> 
+   <td> 8 </td> 
+   <td> H </td> 
+   <td> X </td> 
+   <td> h </td> 
+   <td> x </td> 
   </tr> 
   <tr> 
-   <td> Ç<br /> </td> 
+   <td> Ç </td> 
    <td> <img height="21px" src="assets/theta.png" /> </td> 
-   <td> )<br /> </td> 
+   <td> ) </td> 
    <td> 9 </td> 
-   <td> I<br /> </td> 
-   <td> Y<br /> </td> 
-   <td> i<br /> </td> 
-   <td> y<br /> </td> 
+   <td> I </td> 
+   <td> Y </td> 
+   <td> i </td> 
+   <td> y </td> 
   </tr> 
   <tr> 
-   <td> LF<br /> </td> 
+   <td> LF </td> 
    <td> <img height="21px" src="assets/xi.png" /> </td> 
-   <td> *<br /> </td> 
-   <td> :<br /> </td> 
-   <td> J<br /> </td> 
-   <td> Z<br /> </td> 
-   <td> j<br /> </td> 
-   <td> z<br /> </td> 
+   <td> * </td> 
+   <td> : </td> 
+   <td> J </td> 
+   <td> Z </td> 
+   <td> j </td> 
+   <td> z </td> 
   </tr> 
   <tr> 
-   <td> Ø<br /> </td> 
-   <td> ESC<br /> </td> 
-   <td> +<br /> </td> 
-   <td> ;<br /> </td> 
-   <td> K<br /> </td> 
-   <td> Ä<br /> </td> 
-   <td> k<br /> </td> 
-   <td> ä<br /> </td> 
+   <td> Ø </td> 
+   <td> ESC </td> 
+   <td> + </td> 
+   <td> ; </td> 
+   <td> K </td> 
+   <td> Ä </td> 
+   <td> k </td> 
+   <td> ä </td> 
   </tr> 
   <tr> 
-   <td> ø<br /> </td> 
-   <td> Æ<br /> </td> 
-   <td> ,<br /> </td> 
-   <td> &lt;<br /> </td> 
-   <td> L<br /> </td> 
-   <td> Ö<br /> </td> 
-   <td> l<br /> </td> 
-   <td> ö<br /> </td> 
+   <td> ø </td> 
+   <td> Æ </td> 
+   <td> , </td> 
+   <td> &lt; </td> 
+   <td> L </td> 
+   <td> Ö </td> 
+   <td> l </td> 
+   <td> ö </td> 
   </tr> 
   <tr> 
-   <td> CR<br /> </td> 
-   <td> æ<br /> </td> 
-   <td> -<br /> </td> 
+   <td> CR </td> 
+   <td> æ </td> 
+   <td> - </td> 
    <td> = </td> 
-   <td> M<br /> </td> 
-   <td> Ñ<br /> </td> 
-   <td> m<br /> </td> 
-   <td> ñ<br /> </td> 
+   <td> M </td> 
+   <td> Ñ </td> 
+   <td> m </td> 
+   <td> ñ </td> 
   </tr> 
   <tr> 
-   <td> Å<br /> </td> 
-   <td> ß<br /> </td> 
-   <td> .<br /> </td> 
-   <td> &gt;<br /> </td> 
-   <td> N<br /> </td> 
-   <td> Ü<br /> </td> 
-   <td> n<br /> </td> 
-   <td> ü<br /> </td> 
+   <td> Å </td> 
+   <td> ß </td> 
+   <td> . </td> 
+   <td> &gt; </td> 
+   <td> N </td> 
+   <td> Ü </td> 
+   <td> n </td> 
+   <td> ü </td> 
   </tr> 
   <tr> 
-   <td> å<br /> </td> 
-   <td> É<br /> </td> 
-   <td> /<br /> </td> 
-   <td> ?<br /> </td> 
-   <td> O<br /> </td> 
-   <td> §<br /> </td> 
-   <td> o<br /> </td> 
-   <td> à<br /> </td> 
+   <td> å </td> 
+   <td> É </td> 
+   <td> / </td> 
+   <td> ? </td> 
+   <td> O </td> 
+   <td> § </td> 
+   <td> o </td> 
+   <td> à </td> 
   </tr> 
  </tbody> 
 </table>
@@ -314,7 +316,7 @@ CR: Carriage Return
 
 **Advanced characters (counted twice)**
 
-^ { } [ ~ ] | €
+^ { } `[ ~ ]` | €
 
 ### About text encodings {#about-text-encodings}
 
@@ -337,7 +339,8 @@ You can declare **data_codings** and force the encoding if necessary: to do this
 
 >[!CAUTION]
 >
->The order of declaration is important: it is recommended that you put the list in ascending order **of cost** in order to favor the encodings allowing you to fit as many characters as possible in each SMS message.   
+>The order of declaration is important: it is recommended that you put the list in ascending order **of cost** in order to favor the encodings allowing you to fit as many characters as possible in each SMS message.
+>
 >Only declare the encodings that you would like to use. If some of the encodings provided by the SMSC should not correspond to your purpose of use, do not declare them in the list.
 
 ### Automatic reply {#automatic-reply}
@@ -352,7 +355,7 @@ When a subscriber replies to an SMS message which was sent to them via Adobe Cam
 
 For each keyword, specify a short code, which is a number that is usually used to send deliveries and will serve as a sender name, then enter the message that will be sent to the subscriber.
 
-You can also link an action to your automatic response: **[!UICONTROL Send to quarantine]** or **[!UICONTROL Remove from quarantine]** . For example, if a recipient sends the keyword "STOP", they will automatically receive an unsubscription confirmation and are sent to quarantine.
+You can also link an action to your automatic response: **[!UICONTROL Send to quarantine]** or **[!UICONTROL Remove from quarantine]**. For example, if a recipient sends the keyword "STOP", they will automatically receive an unsubscription confirmation and are sent to quarantine.
 
 ![](assets/extended_smpp_reply.png)
 
@@ -377,7 +380,7 @@ In order to keep the native delivery template, we recommend that you duplicate i
 In the example below, we create a template to deliver messages via the NetSize account enabled earlier. To do this:
 
 1. Go to the **[!UICONTROL Delivery templates]** node.
-1. Right-click the **[!UICONTROL Send to mobiles]** template, and select **[!UICONTROL Duplicate]** .
+1. Right-click the **[!UICONTROL Send to mobiles]** template, and select **[!UICONTROL Duplicate]**.
 
    ![](assets/s_user_mobile_template_change_01.png)
 
@@ -385,8 +388,8 @@ In the example below, we create a template to deliver messages via the NetSize a
 
    ![](assets/s_user_mobile_template_change_02.png)
 
-1. Click **[!UICONTROL Properties]** .
-1. In the **[!UICONTROL General]** tab, select a routing mode that corresponds to an external account that you configured, for example **[!UICONTROL NetSize mobile delivery]** .
+1. Click **[!UICONTROL Properties]**.
+1. In the **[!UICONTROL General]** tab, select a routing mode that corresponds to an external account that you configured, for example **[!UICONTROL NetSize mobile delivery]**.
 
    ![](assets/s_user_mobile_template_change_03.png)
 
@@ -438,8 +441,10 @@ To create the content of the SMS, follow the steps below:
 
    >[!NOTE]
    >
-   >SMS messages are limited to a length of 160 characters if the Latin-1 (ISO-8859-1) code page is used. If the message is written in Unicode, it must not exceed 70 characters. Certain special characters can affect message length. For more information on message length, refer to the [About character transliteration](../../delivery/using/sms-channel.md#about-character-transliteration) section.  
-   >When personalization fields or conditional content fields are present, the size of the message varies from one recipient to the other. The length of the message must be evaluated when personalization has been carried out.  
+   >SMS messages are limited to a length of 160 characters if the Latin-1 (ISO-8859-1) code page is used. If the message is written in Unicode, it must not exceed 70 characters. Certain special characters can affect message length. For more information on message length, refer to the [About character transliteration](../../delivery/using/sms-channel.md#about-character-transliteration) section.
+   >
+   >When personalization fields or conditional content fields are present, the size of the message varies from one recipient to the other. The length of the message must be evaluated when personalization has been carried out.
+   >
    >When you launch the analysis, the length of messages is checked and a warning is displayed in the event of overflow.
 
 1. If you use the NetSize connector or an SMPP connector, you can personalize the name of the delivery sender. For more on this, refer to the [Advanced parameters](../../delivery/using/sms-channel.md#advanced-parameters) section.
@@ -454,7 +459,7 @@ For more on the inclusion of a seed list, refer to [About seed addresses](../../
 
 ## Sending SMS messages {#sending-sms-messages}
 
-To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]** .
+To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
@@ -510,14 +515,9 @@ The **nlserver sms** module queries the SMS router at regular intervals. This al
   >[!NOTE]
   >
   >Every SMS sent is linked to an external account its primary key. In this way:  
-
   >
-  >    
-  >    
-  >    * Status reports from a deleted external SMS account are not correctly processed.
-  >    * An SMS account can only be linked to a single external account to ensure that status reports are attributed to the correct account.
-  >    
-  >
+  > * Status reports from a deleted external SMS account are not correctly processed.
+  > * An SMS account can only be linked to a single external account to ensure that status reports are attributed to the correct account
 
 * **Unsubscription**: recipients who wish to stop receiving SMS deliveries can return a message containing the word STOP. If your provider allows it under the terms of the contract, you can retrieve messages via the **Inbound SMS** workflow activity and then create a query to enable the **No longer contact this recipient** option for the recipients concerned.
 
@@ -535,7 +535,8 @@ The InSMS schema contains information relevant to incoming SMS. A description of
 
   >[!CAUTION]
   >
-  >The following fields are specific to NetSize.   
+  >The following fields are specific to NetSize.
+  >
   >If the operator in use is not NetSize, these fields are considered empty.
 
 * **alias**: alias of incoming message.
@@ -558,44 +559,31 @@ The sender name for this type of message is a short code usually used to send de
 
 >[!CAUTION]
 >
->The following detailed procedure is only valid for SMPP connectors, except for the extended generic SMPP connector. For more on this, refer to the [Creating an SMPP external account](../../delivery/using/sms-channel.md#creating-an-smpp-external-account) section.   
+>The following detailed procedure is only valid for SMPP connectors, except for the extended generic SMPP connector. For more on this, refer to the [Creating an SMPP external account](../../delivery/using/sms-channel.md#creating-an-smpp-external-account) section.
+>
 >It makes up part of the certification process carried out by American operators for marketing campaigns in the US. These replies to subscriber SMS messages containing the keyword must be sent back to the subscriber immediately after receiving a message from them.
 
 1. Create this type of XML file:
 
    ```
-   
    <autoreply>
-   
      <shortcode name="12345">
-   
        <reply keyword="STOP" text="You will not receive SMS anymore" />
-   
        <reply keyword="HELP" text="Powered by Adobe Campaign" />
-   
      </shortcode>
-   
      <shortcode name="43115">
-   
        <reply keyword="STOP" text="Vous ne recevrez plus de SMS" />
-   
        <reply keyword="HELP" text="Service rendu par Adobe Campaign" />
-   
      </shortcode>
-   
      <shortcode name="*">
-   
        <reply keyword="ADOBE" text="This text is replied when you send ADOBE to any short code" />
-   
      </shortcode>
-   
    </autoreply>
-
    ```
 
-1. For the **name** attribute of the ** `<shortcode>`** tag, specify the short code that will be displayed in the place of the message sender name.
+1. For the **name** attribute of the **`<shortcode>`** tag, specify the short code that will be displayed in the place of the message sender name.
 
-   In each ** `<reply>`** tag, enter the **keyword** attribute with a keyword and the **text** attribute with the message that you would like to send for this keyword.
+   In each **`<reply>`** tag, enter the **keyword** attribute with a keyword and the **text** attribute with the message that you would like to send for this keyword.
 
    >[!NOTE]
    >
@@ -606,10 +594,8 @@ The sender name for this type of message is a short code usually used to send de
    For example:
 
    ```
-   
    <reply keyword="STOP" text="You will not receive SMS anymore" />
    <reply keyword="QUIT" text="You will not receive SMS anymore" />
-
    ```
 
 1. Once completed, save this file under the name **smsAutoReply.xml**.
@@ -620,6 +606,6 @@ The sender name for this type of message is a short code usually used to send de
 
 >[!CAUTION]
 >
->These kinds of automatic messages do not keep a history. Therefore they do not appear in the [delivery dashboard](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).   
+>These kinds of automatic messages do not keep a history. Therefore they do not appear in the [delivery dashboard](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
+>
 >These messages are not considered part of the [commercial pressure rules](../../campaign/using/pressure-rules.md).
-

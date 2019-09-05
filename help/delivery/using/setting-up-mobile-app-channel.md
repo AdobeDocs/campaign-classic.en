@@ -45,13 +45,13 @@ For iOS, two connectors are available:
 
 To choose which connector you want to use, follow these steps:
 
-1. Go to **[!UICONTROL Administration > Platform > External accounts]** .
+1. Go to **[!UICONTROL Administration > Platform > External accounts]**.
 1. Select the iOS routing external account.
 1. In the **[!UICONTROL Connector]** tab, fill in the **[!UICONTROL Access URL of the connector]** field:
 
    For iOS binary: https://localhost:8080/nms/jsp/ios.jsp
 
-   For iOS HTTP2: http://localhost:8080/nms/jsp/iosHTTP2.jsp 
+   For iOS HTTP2: http://localhost:8080/nms/jsp/iosHTTP2.jsp
 
    ![](assets/nmac_connectors.png)
 
@@ -64,7 +64,7 @@ For Android, two connectors are available:
 
 To choose which connector you want to use, follow these steps:
 
-1. Go to **[!UICONTROL Administration > Platform > External accounts]** .
+1. Go to **[!UICONTROL Administration > Platform > External accounts]**.
 1. Select the **[!UICONTROL Android routing]** external account.
 1. In the **[!UICONTROL Connector]** tab, fill in the **[!UICONTROL JavaScript used in the connector]** field:
 
@@ -86,8 +86,9 @@ If you don't have a mobile application (app), the application developer needs to
 
 >[!CAUTION]
 >
->The application must have been configured for Push actions BEFORE any integration to Adobe Campaign SDK.   
->If this is not the case, please refer to: [https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/Introduction.md](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/Introduction.md).
+>The application must have been configured for Push actions BEFORE any integration to Adobe Campaign SDK.
+>
+>If this is not the case, please refer to [this page](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/).
 
 ### Collecting information {#collecting-information-}
 
@@ -180,15 +181,13 @@ To learn more on the different Android and iOS versions supported, refer to the 
   ```
   Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
   Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
-  Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
-  
+  Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/");
   ```
 
   The following permission allows you to recover a telephone's unique ID:
 
   ```
   <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
-  
   ```
 
   From version 1.0.24 of the SDK, this permission is only used for versions older than Android 6.0.
@@ -220,7 +219,6 @@ To integrate Campaign SDK into the mobile application, the functional administra
   Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
   Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
-  
   ```
 
 * **In iOS**:
@@ -230,7 +228,6 @@ To integrate Campaign SDK into the mobile application, the functional administra
   [nl setMarketingHost:strMktHost];
   [nl setTrackingHost:strTckHost];
   [nl setIntegrationKey:strIntegrationKey];
-  
   ```
 
 ### Registration function {#registration-function}
@@ -253,7 +250,6 @@ The registration function enables you to:
     //...
    }
   }
-
   ```
 
   If you use FCM (Firebase Cloud Messaging), we advise you use the **registerDevice** function when calling the **onTokenRefresh** function to notify Adobe Campaign of the change in the user's mobile device token.
@@ -276,7 +272,6 @@ The registration function enables you to:
       ...
     }
   }
-
   ```
 
 * **In iOS**:
@@ -289,7 +284,6 @@ The registration function enables you to:
       Neolane_SDK *nl = [Neolane_SDK getInstance];
       [nl registerDevice:tokenString:self.userKey:dic];
   }
-  
   ```
 
 ### Tracking function {#tracking-function}
@@ -298,26 +292,26 @@ The registration function enables you to:
 
   Tracking functions allow you to track notification activations (opens) and notification displays (screenshot).
 
-  To track the notification display (done by calling the **notifyReceive** function of the SDK), follow the implementation below. Note that if you use FCM (Firebase Cloud Messaging), we advise you to use the **notifyReceive** function when the **onMessageReceived** function is called by the Android system..
+  To track the notification display (done by calling the **notifyReceive** function of the SDK), follow the implementation below. Note that if you use FCM (Firebase Cloud Messaging), we advise you to use the **notifyReceive** function when the **onMessageReceived** function is called by the Android system.
 
   ```
   package com.android.YourApplication;
-   
+
   import android.content.Context;
   import android.content.SharedPreferences;
   import android.os.Bundle;
   import android.util.Log;
-   
+
   import com.google.firebase.messaging.FirebaseMessagingService;
   import com.google.firebase.messaging.RemoteMessage;
-   
+
   import java.util.Iterator;
   import java.util.Map;
   import java.util.Map.Entry;
 
   public class YourApplicationFirebaseMessagingService extends FirebaseMessagingService {
     private static final String TAG = "MyFirebaseMsgService";
-   
+
     @Override
     public void onMessageReceived(RemoteMessage message) {
       Log.d(TAG, "Receive message from: " + message.getFrom());
@@ -329,7 +323,7 @@ The registration function enables you to:
         final Entry<String, String>  entry =iter.next();
         extras.putString(entry.getKey(), entry.getValue());
       }
-   
+
       SharedPreferences settings = this.getSharedPreferences(YourApplicationActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
       String mesg = payloadData.get("_msg");
       String title = payloadData.get("title");
@@ -347,7 +341,7 @@ The registration function enables you to:
       if( title == null )   title = "No title";
       if( url == null )     url = "https://www.tripadvisor.fr";
       int iconId = R.drawable.notif_neotrip;
-   
+
       // notify Neolane that a notification just arrived
       NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
       nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
@@ -365,7 +359,7 @@ The registration function enables you to:
         // notification creation :
         NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         Notification notification;
-   
+
         // Activity to start :
         Intent notifIntent = new Intent(context.getApplicationContext(), NotificationActivity.class);
         notifIntent.putExtra("notificationText", message);
@@ -374,14 +368,14 @@ The registration function enables you to:
         notifIntent.putExtra("_mId", messageId);
         notifIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         PendingIntent contentIntent = PendingIntent.getActivity(context, 1, notifIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-   
+
         notification = new Notification.Builder(context)
                 .setContentTitle(title)
                 .setContentText(message)
                 .setSmallIcon(iconId)
                 .setContentIntent(contentIntent)
                 .build();
-   
+
         // launch the notification :
         notification.flags |= Notification.FLAG_AUTO_CANCEL;
         notificationManager.notify(Integer.valueOf(messageId), notification);
@@ -394,21 +388,14 @@ The registration function enables you to:
   ```
   public class NotificationActivity extends Activity {
    public static final String NOTIFICATION_URL_KEYNAME = "NotificationUrl";
-   
    .....
-   
    public void onCreate(Bundle savedBundle) {
     super.onCreate(savedBundle);
-    setContentView(R.layout.notification_viewer);
-    
-    .....
-    
-    Bundle extra = getIntent().getExtras();
-    
-    .....
-    
-    //get the messageId and the deliveryId to do the tracking
-    
+    setContentView(R.layout.notification_viewer);  
+    .....  
+    Bundle extra = getIntent().getExtras();  
+    .....  
+    //get the messageId and the deliveryId to do the tracking  
     String deliveryId = extra.getString("_dId");
     String messageId = extra.getString("_mId");
     if (deliveryId != null && messageId != null) {
@@ -432,13 +419,10 @@ The registration function enables you to:
   fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
   {
   if( launchOptions ) { // Retrieve notification parameters here ... // Track application opening Neolane_SDK
-  *nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; }
-  
-  ...
-  
+  *nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; } 
+  ...  
   completionHandler(UIBackgroundFetchResultNoData);
   }
-
   ```
 
   >[!NOTE]
@@ -452,7 +436,6 @@ iOS lets you send silent notifications, a notification or data which will be dir
 To track your silent notification, follow the example below:
 
 ```
-
 // AppDelegate.m
 ...
 ...
@@ -460,29 +443,28 @@ To track your silent notification, follow the example below:
 #import "Neolane_SDK.h"
 ...
 ...
-
 // Callback called when the application is already launched (whether the application is running foreground or background)
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
-{    
+{
  NSLog(@"IN didReceiveRemoteNotification:fetchCompletionHandler");
  if (launchOptions) NSLog(@"IN launchOptions: %@", [launchOptions description]);
- NSLog(@"Application state: %ld", (long)application.applicationState);    
+ NSLog(@"Application state: %ld", (long)application.applicationState);
 
  // Silent Notification (specific case, can use NL_TRACK_RECEIVE as the user doesn't have click/open the notification)
- if ([launchOptions[@"aps"][@"content-available"] intValue] == 1 )   
-       {       
-  NSLog(@"Silent Push Notification");       
+ if ([launchOptions[@"aps"][@"content-available"] intValue] == 1 )
+       {
+  NSLog(@"Silent Push Notification");
   ...  
-  ...    
-  //Call receive tracking       
-        Neolane_SDK *nl = [Neolane_SDK getInstance];        
-  [nl track:launchOptions:NL_TRACK_RECEIVE];         
-               
-  completionHandler(UIBackgroundFetchResultNoData); //Do not show notification       
-  return;    
+  ...
+  //Call receive tracking
+        Neolane_SDK *nl = [Neolane_SDK getInstance];
+  [nl track:launchOptions:NL_TRACK_RECEIVE];
+
+  completionHandler(UIBackgroundFetchResultNoData); //Do not show notification
+  return;
  }  
- ...    
- ...      
+ ...
+ ...
         completionHandler(UIBackgroundFetchResultNoData);
 }
 ```
@@ -506,77 +488,76 @@ The **registerDeviceStatus** prototype is:
 **ErrorReason** provides you with more information on the errors that occurred. For more information on available errors and their descriptions, refer to the table below.
 
 <table> 
- <thead> 
+ <thead>
+  <tr>
+   <th> Status<br /> </th>
+   <th> Description<br /> </th>
+   <th> ErrorReason<br /> </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td> ACCRegisterDeviceStatusSuccess <br /> </td>
+   <td> Registration Succeeded<br /> </td>
+   <td> EMPTY<br /> </td>
+  </tr>
   <tr> 
-   <th> Status<br /> </th> 
-   <th> Description<br /> </th> 
-   <th> ErrorReason<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
+   <td> ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td>
+   <td> The ACC marketing server hostname is empty or not set.<br /> </td>
+   <td> EMPTY<br /> </td>
+  </tr>
   <tr> 
-   <td> ACCRegisterDeviceStatusSuccess <br /> </td> 
-   <td> Registration Succeeded<br /> </td> 
-   <td> EMPTY<br /> </td> 
-  </tr> 
+   <td> ACCRegisterDeviceStatusFailureIntegrationKeyEmpty <br /> </td>
+   <td> The integration key is empty or not set.<br /> </td>
+   <td> EMPTY<br /> </td>
+  </tr>
   <tr> 
-   <td> ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td> 
-   <td> The ACC marketing server hostname is empty or not set.<br /> </td> 
-   <td> EMPTY<br /> </td> 
-  </tr> 
+   <td> ACCRegisterDeviceStatusFailureConnectionIssue<br /> </td>
+   <td> Connection issue with ACC<br /> </td>
+   <td> More information (in OS current language)<br /> </td>
+  </tr>
   <tr> 
-   <td> ACCRegisterDeviceStatusFailureIntegrationKeyEmpty <br /> </td> 
-   <td> The integration key is empty or not set.<br /> </td> 
-   <td> EMPTY<br /> </td> 
-  </tr> 
+   <td> ACCRegisterDeviceStatusFailureUnknownUUID<br /> </td>
+   <td> The provided UUID (integration key) is unknown.<br /> </td>
+   <td> EMPTY<br /> </td>
+  </tr>
   <tr> 
-   <td> ACCRegisterDeviceStatusFailureConnectionIssue<br /> </td> 
-   <td> Connection issue with ACC<br /> </td> 
-   <td> More information (in OS current language)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> ACCRegisterDeviceStatusFailureUnknownUUID<br /> </td> 
-   <td> The provided UUID (integration key) is unknown.<br /> </td> 
-   <td> EMPTY<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> ACCRegisterDeviceStatusFailureUnexpectedError<br /> </td> 
-   <td> Unexpected error returned to ACC server.<br /> </td> 
-   <td> The error message returned to ACC.<br /> </td> 
-  </tr> 
- </tbody> 
+   <td> ACCRegisterDeviceStatusFailureUnexpectedError<br /> </td>
+   <td> Unexpected error returned to ACC server.<br /> </td>
+   <td> The error message returned to ACC.<br /> </td>
+  </tr>
+ </tbody>
 </table>
 
 **Neolane_SDKDelegate** protocol and **registerDeviceStatus** delegate definition is as follows:
 
 ```
-
 //  Neolane_SDK.h
 //  Neolane SDK
 ..
 .. 
 // Register Device Status Enum
-typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {    
- ACCRegisterDeviceStatusSuccess,                               // Resistration Succeed    
- ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty,   // The ACC marketing server hostname is Empty or not set    
- ACCRegisterDeviceStatusFailureIntegrationKeyEmpty,            // The integration key is empty or not set    
- ACCRegisterDeviceStatusFailureConnectionIssue,                // Connection issue with ACC, more information in errorReason    
- ACCRegisterDeviceStatusFailureUnknownUUID,                    // The provided UUID (integration key) is unknown    
+typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
+ ACCRegisterDeviceStatusSuccess,                               // Resistration Succeed
+ ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty,   // The ACC marketing server hostname is Empty or not set
+ ACCRegisterDeviceStatusFailureIntegrationKeyEmpty,            // The integration key is empty or not set
+ ACCRegisterDeviceStatusFailureConnectionIssue,                // Connection issue with ACC, more information in errorReason
+ ACCRegisterDeviceStatusFailureUnknownUUID,                    // The provided UUID (integration key) is unknown
  ACCRegisterDeviceStatusFailureUnexpectedError                 // Unexpected error returned by ACC server, more information in errorReason
-}; 
+};
 // define the protocol for the registerDeviceStatus delegate
 @protocol Neolane_SDKDelegate <NSObject>
 @optional
 - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason;
-@end 
+@end
 @interface Neolane_SDK: NSObject {
 } 
 ...
-... 
-// registerDeviceStatus delegate
-@property (nonatomic, weak) id <Neolane_SDKDelegate> delegate; 
 ...
-... 
+// registerDeviceStatus delegate
+@property (nonatomic, weak) id <Neolane_SDKDelegate> delegate;
+...
+...
 @end
 ```
 
@@ -585,23 +566,22 @@ To implement **registerDeviceStatus** delegate, follow these steps:
 1. Implement the **setDelegate** during the SDK initialization.
 
    ```
-   
-   // AppDelegate.m 
+   // AppDelegate.m
    ...
    ... 
    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
    {
    ...
-   ...         
-    // Get the stored settings 
-      
+   ...
+    // Get the stored settings
+
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *strMktHost = [defaults objectForKey:@"mktHost"];
     NSString *strTckHost = [defaults objectForKey:@"tckHost"];
     NSString *strIntegrationKey = [defaults objectForKey:@"integrationKey"];
-    userKey = [defaults objectForKey:@"userKey"]; 
-           
-    // Configure Neolane SDK on first launch    
+    userKey = [defaults objectForKey:@"userKey"];
+
+    // Configure Neolane SDK on first launch
     Neolane_SDK *nl = [Neolane_SDK getInstance];
     [nl setMarketingHost:strMktHost];
     [nl setTrackingHost:strTckHost];
@@ -615,17 +595,16 @@ To implement **registerDeviceStatus** delegate, follow these steps:
 1. Add the protocol in the **@interface** of your class.
 
    ```
-   
    //  AppDelegate.h
 
    #import <UIKit/UIKit.h>
    #import <CoreLocation/CoreLocation.h>
    #import "Neolane_SDK.h"
-    
+
    @class LandingPageViewController;
-    
+
    @interface AppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate, Neolane_SDKDelegate> {
-       CLLocationManager *locationManager;   
+       CLLocationManager *locationManager;
        NSString *userKey;
        NSString *mktServerUrl;
        NSString *tckServerUrl;
@@ -639,30 +618,27 @@ To implement **registerDeviceStatus** delegate, follow these steps:
 
    ```
    //  AppDelegate.m
-    
+
    #import "AppDelegate.h"
    #import "Neolane_SDK.h"
    #import "LandingPageViewController.h"
    #import "RootViewController.h"
-    
    ...
    ...
-    
    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason
    {
        NSLog(@"registerStatus: %lu",status);
-        
+
        if ( errorReason != nil )
            NSLog(@"errorReason: %@",errorReason);
-        
+
        if( status == ACCRegisterDeviceStatusSuccess )
        {
            // Registration successful
            ...
-           ...  
-    
+           ...
        }
-       else { // An error occurred 
+       else { // An error occurred
            NSString *message;
            switch ( status ){
                case ACCRegisterDeviceStatusFailureUnknownUUID:
@@ -684,10 +660,8 @@ To implement **registerDeviceStatus** delegate, follow these steps:
            }
     ...
     ...
-                
        }
    }
-    
    @end
    ```
 
@@ -710,7 +684,6 @@ The variables let you define mobile application behavior after receiving a notif
   ```
   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
   {
-   
       ....
       if( launchOptions )
       {
@@ -724,7 +697,7 @@ The variables let you define mobile application behavior after receiving a notif
           }
      }
   }
-   
+
   // Callback called when the application is already launched (whether the application is running foreground or background)
   - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
   {
@@ -732,7 +705,7 @@ The variables let you define mobile application behavior after receiving a notif
       {
        ...
           [launchOptions objectForKey:@"VAR"];
-      }   
+      }
   }
   ```
 
@@ -755,12 +728,12 @@ You can find below a configuration sample based on a company which sells online 
 
 ### Creating the service and collecting subscriptions {#creating-the-service-and-collecting-subscriptions}
 
-1. Go to the **[!UICONTROL Profiles and Targets > Services and subscriptions]** node and click **[!UICONTROL New]** . 
+1. Go to the **[!UICONTROL Profiles and Targets > Services and subscriptions]** node and click **[!UICONTROL New]**. 
 
    ![](assets/nmac_service_1.png)
 
-1. Define a **[!UICONTROL Label]** and an **[!UICONTROL Internal name]** .
-1. Go to the **[!UICONTROL Type]** field and select **[!UICONTROL Mobile application]** .
+1. Define a **[!UICONTROL Label]** and an **[!UICONTROL Internal name]**.
+1. Go to the **[!UICONTROL Type]** field and select **[!UICONTROL Mobile application]**.
 
    >[!NOTE]
    >
@@ -780,8 +753,8 @@ See below for a detailed presentation of the configuration steps for each versio
 
 ![](assets/nmac_service_3.png)
 
-1. Start by entering the **[!UICONTROL Label]** .
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code (via the SDK). For more on this, refer to: [Integrating Campaign SDK into the mobile application](../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform. 
+1. Start by entering the **[!UICONTROL Label]**.
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code (via the SDK). For more on this, refer to: [Integrating Campaign SDK into the mobile application](../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
 1. If your application handles an application icon (top left corner of the notification), you can add it here so that the preview is more faithful to the actual style of the delivery. To add an image in the content (rich notification), refer to the [Rich notifications](../../delivery/using/setting-up-mobile-app-channel.md#rich-notifications) section.
 
    >[!CAUTION]
@@ -856,11 +829,11 @@ Adobe Campaign allows you to define application variables in addition to content
 
 You first need to create a mobile application in Adobe Campaign and define the application variables for that application.
 
-1. Go to **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Services and Subscriptions]** .
+1. Go to **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Services and Subscriptions]**.
 1. Click **[!UICONTROL New]** to create a service.
-1. In the **[!UICONTROL Edit]** tab, select **[!UICONTROL Mobile application]** as the **[!UICONTROL Type]** and **[!UICONTROL Subscriber application]** (nms:appSubscriptionRcp) as the **[!UICONTROL Target mapping]** .
-1. In the **[!UICONTROL List of mobile applications that use the service]** , add a new application and select **[!UICONTROL Create an Android application]** .
-1. Click **[!UICONTROL Next]** .
+1. In the **[!UICONTROL Edit]** tab, select **[!UICONTROL Mobile application]** as the **[!UICONTROL Type]** and **[!UICONTROL Subscriber application]** (nms:appSubscriptionRcp) as the **[!UICONTROL Target mapping]**.
+1. In the **[!UICONTROL List of mobile applications that use the service]**, add a new application and select **[!UICONTROL Create an Android application]**.
+1. Click **[!UICONTROL Next]**.
 1. In the **[!UICONTROL Information]** tab of the creation wizard, enter a label.
 1. In the **[!UICONTROL Application variables]** field, add the parameters that you want to use for sending a rich push:
 
@@ -876,30 +849,30 @@ You first need to create a mobile application in Adobe Campaign and define the a
 
 Then you need to create a new delivery template and link it to the mobile application that you created.
 
-1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** .
+1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Duplicate the **[!UICONTROL Deliver on Android]** template.
-1. Change the label and click **[!UICONTROL Continue]** .
+1. Change the label and click **[!UICONTROL Continue]**.
 1. Click the **[!UICONTROL To]** link to target the application's subscribers.
-1. Change the **[!UICONTROL Target mapping]** to **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** .
+1. Change the **[!UICONTROL Target mapping]** to **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]**.
 
    ![](assets/nmac_rich_android_target_mapping.png)
 
-1. Click **[!UICONTROL Add]** , select **[!UICONTROL Subscribers of an Android mobile application]** and click **[!UICONTROL Next]** .
+1. Click **[!UICONTROL Add]**, select **[!UICONTROL Subscribers of an Android mobile application]** and click **[!UICONTROL Next]**.
 1. Enter a label, select the service that you created and the mobile application that you created within this service.
 
    ![](assets/nmac_rich_android_mobile_app.png)
 
-1. Click **[!UICONTROL Finish]** .
+1. Click **[!UICONTROL Finish]**.
 
-The parameters that you created within your mobile application are displayed in the **Application variables **field.
+The parameters that you created within your mobile application are displayed in the **Application variables** field.
 
 ![](assets/nmac_rich_android_template.png)
 
 Finally, create a new Android delivery and add the values that you want for the parameters that you defined in the mobile application.
 
-1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** .
-1. Click **[!UICONTROL New]** .
-1. Select the delivery template that you just created and click **[!UICONTROL Continue]** .
+1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
+1. Click **[!UICONTROL New]**.
+1. Select the delivery template that you just created and click **[!UICONTROL Continue]**.
 1. In the **[!UICONTROL Application variables]** field, add the values of your choice for the different parameters.
 
    ![](assets/nmac_rich_android_delivery.png)
@@ -935,23 +908,23 @@ The media has to be downloaded at the notification service extension level.
 
 ```
 #import "NotificationService.h"
- 
+
 @interface NotificationService ()
- 
+
 @property (nonatomic, strong) void (^contentHandler)(UNNotificationContent *contentToDeliver);
 @property (nonatomic, strong) UNMutableNotificationContent *bestAttemptContent;
- 
+
 @end
- 
+
 @implementation NotificationService
- 
+
 - (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent * _Nonnull))contentHandler {
     NSDictionary *userInfo = nil;
     NSString *url = nil;
-     
+
     self.contentHandler = contentHandler;
     self.bestAttemptContent = [request.content mutableCopy];
-     
+
     userInfo = request.content.userInfo;
     if ( userInfo != nil )
     {
@@ -959,7 +932,6 @@ The media has to be downloaded at the notification service extension level.
     }
     ...
     // Perform the download to local storage
-     
 ```
 
 **Notification Content Extension**
@@ -982,7 +954,7 @@ At this level, you need to:
   #import "NotificationViewController.h"
   #import <UserNotifications/UserNotifications.h>
   #import <UserNotificationsUI/UserNotificationsUI.h>
-   
+
   @interface NotificationViewController () <UNNotificationContentExtension>
   
   @property (strong, nonatomic) IBOutlet UIImageView *imageView;
@@ -990,19 +962,19 @@ At this level, you need to:
   @property (strong, nonatomic) IBOutlet UILabel *label;
   
   @end
-   
+
   @implementation NotificationViewController
-   
+
   - (void)viewDidLoad {
       [super viewDidLoad];
       // Do any required interface initialization here.
   }
-   
+
   - (void)didReceiveNotification:(UNNotification *)notification {
       self.label.text = notification.request.content.title;
       self.notifContent.text = notification.request.content.body;
       UNNotificationAttachment *attachment = [notification.request.content.attachments objectAtIndex:0];
-      if ( [attachment.URL startAccessingSecurityScopedResource])
+      if ([attachment.URL startAccessingSecurityScopedResource])
       {
         NSData * imageData = [[NSData alloc] initWithContentsOfURL:attachment.URL];
         self.imageView.image =[UIImage imageWithData: imageData];
@@ -1011,4 +983,3 @@ At this level, you need to:
   }
   @end
   ```
-

@@ -47,15 +47,18 @@ We create an email in which we will first insert the name of the recipient and t
 
 1. Create a new delivery or open an existing email type delivery.
 1. In the delivery wizard, click **[!UICONTROL Subject]** to edit the subject of the message and enter a subject.
-1. Enter " **[!UICONTROL Special offer for]** " and use the button in the toolbar to insert a personalization field. Select **[!UICONTROL Recipients>Title]** .
+1. Enter " **[!UICONTROL Special offer for]** " and use the button in the toolbar to insert a personalization field. Select **[!UICONTROL Recipients>Title]**.
+
+    ![](assets/s_ncs_user_insert_custom_field_.png)
+
 1. Repeat the operation to insert the name of the recipient. Insert spaces between all the personalization fields.
 1. Click **[!UICONTROL OK]** to validate.
 1. Insert the personalization in the message body. To do this, click in the message content and click the field insertion button.
-1. Select **[!UICONTROL Recipient>Other...]** .
+1. Select **[!UICONTROL Recipient>Other...]**.
 
    ![](assets/s_ncs_user_insert_custom_field_b.png)
 
-1. Select the field with the information to display and click **[!UICONTROL OK]** .
+1. Select the field with the information to display and click **[!UICONTROL OK]**.
 
    ![](assets/s_ncs_user_insert_custom_field_c.png)
 
@@ -69,7 +72,7 @@ We create an email in which we will first insert the name of the recipient and t
 
 ## Optimizing personalization {#optimizing-personalization}
 
-You can optimize personalization using a dedicated option: **[!UICONTROL Prepare the personalization data with a workflow]** , available in the **[!UICONTROL Analysis]** tab of the delivery properties.
+You can optimize personalization using a dedicated option: **[!UICONTROL Prepare the personalization data with a workflow]**, available in the **[!UICONTROL Analysis]** tab of the delivery properties.
 
 During the delivery analysis, this option automatically creates and executes a workflow that stores all of the data linked to the target in a temporary table, including data from tables linked in FDA.
 
@@ -95,4 +98,3 @@ This workflow is not visible in the Adobe Campaign interface. It is only meant t
 Once the analysis is complete, go to the workflow **[!UICONTROL Properties]** and select the **[!UICONTROL Variables]** tab. There you can see the name of the temporary table that you may use to make an SQL call in order to display the IDs that it contains.
 
 ![](assets/perso_optimization_temp_table.png)
-

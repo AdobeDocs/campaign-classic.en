@@ -59,11 +59,11 @@ To edit an existing service, click its name. To create a service, click the **[!
   >
   >Facebook and Twitter subscriptions are detailed in [this section](../../social/using/about-social-marketing.md). Mobile application subscriptions are detailed in [About mobile app channel](../../delivery/using/about-mobile-app-channel.md).
 
-* For an Email type service, select the **Delivery mode**. The possible modes are: **[!UICONTROL Newsletter]** or **[!UICONTROL Viral]** .
+* For an Email type service, select the **Delivery mode**. The possible modes are: **[!UICONTROL Newsletter]** or **[!UICONTROL Viral]**.
 * You can send **confirmation messages** for a subscription or unsubscription. To do this, select the delivery templates to be used to create the corresponding deliveries from the **[!UICONTROL Subscription]** and **[!UICONTROL Unsubscription]** fields. These templates must be configured with a **[!UICONTROL Subscription]** type target mapping, without a defined target. See section [About email channel](../../delivery/using/about-email-channel.md).
-* By default, subscriptions are unlimited. You can deselect the **[!UICONTROL Unlimited]** option to define a validity duration for the service. The duration can be specified in days ( **[!UICONTROL d]** ) or months ( **[!UICONTROL m]** ).
+* By default, subscriptions are unlimited. You can deselect the **[!UICONTROL Unlimited]** option to define a validity duration for the service. The duration can be specified in days (**[!UICONTROL d]** ) or months (**[!UICONTROL m]** ).
 
-Once the service has been saved, it is added to the Services and Subscriptions list: Click its name to edit it. Several tabs are available. The **[!UICONTROL Subscriptions]** tab lets you look at the list of subscribers to the information service ( **[!UICONTROL Active subscriptions]** tab) or the subscription/unsubscription history ( **[!UICONTROL History]** tab). You can also add and delete subscribers from this tab. See [Adding and deleting subscribers](../../delivery/using/managing-subscriptions.md#adding-and-deleting-subscribers). 
+Once the service has been saved, it is added to the Services and Subscriptions list: Click its name to edit it. Several tabs are available. The **[!UICONTROL Subscriptions]** tab lets you look at the list of subscribers to the information service (**[!UICONTROL Active subscriptions]** tab) or the subscription/unsubscription history (**[!UICONTROL History]** tab). You can also add and delete subscribers from this tab. See [Adding and deleting subscribers](../../delivery/using/managing-subscriptions.md#adding-and-deleting-subscribers). 
 
 ![](assets/s_ncs_user_services_subscriptions.png)
 
@@ -77,9 +77,9 @@ On the dashboard, click the **[!UICONTROL Reports]** tab to track subscriptions:
 
 ## Adding and deleting subscribers {#adding-and-deleting-subscribers}
 
-From the **[!UICONTROL Subscriptions]** tab of an information service click **[!UICONTROL Add]** to add subscribers. You can also right-click the list of subscribers and select **[!UICONTROL Add]** . Select the folder in which the profiles to be subscribed are stored, and then select the profiles to subscribe and click **[!UICONTROL OK]** to validate.
+From the **[!UICONTROL Subscriptions]** tab of an information service click **[!UICONTROL Add]** to add subscribers. You can also right-click the list of subscribers and select **[!UICONTROL Add]**. Select the folder in which the profiles to be subscribed are stored, and then select the profiles to subscribe and click **[!UICONTROL OK]** to validate.
 
-To delete subscribers, select them and click **[!UICONTROL Delete]** . You can also right-click the subscriber list and select **[!UICONTROL Delete]** .
+To delete subscribers, select them and click **[!UICONTROL Delete]**. You can also right-click the subscriber list and select **[!UICONTROL Delete]**.
 
 In both cases, you can send a confirmation message to the users concerned if a delivery template for unsubscriptions has been attached to the service (see [Creating an information service](../../delivery/using/managing-subscriptions.md#creating-an-information-service)). A warning lets you validate or not validate this delivery:
 
@@ -95,13 +95,13 @@ To deliver to the subscribers of an information service, you can target the subs
 
 >[!CAUTION]
 >
->The target mapping must be **[!UICONTROL Subscriptions]** .
+>The target mapping must be **[!UICONTROL Subscriptions]**.
 
-Select **[!UICONTROL Subscribers of an information service]** and click **[!UICONTROL Next]** .
+Select **[!UICONTROL Subscribers of an information service]** and click **[!UICONTROL Next]**.
 
 ![](assets/s_ncs_user_wizard_target_is_a_service02.png)
 
-Select the targeted information service and click **[!UICONTROL Finish]** .
+Select the targeted information service and click **[!UICONTROL Finish]**.
 
 ![](assets/s_ncs_user_wizard_target_is_a_service03.png)
 
@@ -114,8 +114,9 @@ You can set up subscription and unsubscription mechanisms to automate the proces
 >[!NOTE]
 >
 >You can send a confirmation message to new subscribers.   
->The content of this message is defined in the information service configuration via the **[!UICONTROL Subscription]** or **[!UICONTROL Unsubscription]** fields.   
->The confirmation messages are created via the delivery templates specified in these fields. These target mappings must be **[!UICONTROL Subscriptions]** .
+>The content of this message is defined in the information service configuration via the **[!UICONTROL Subscription]** or **[!UICONTROL Unsubscription]** fields.
+>
+>The confirmation messages are created via the delivery templates specified in these fields. These target mappings must be **[!UICONTROL Subscriptions]**.
 
 ![](assets/s_ncs_user_subscribe_confirmation.png)
 
@@ -127,7 +128,7 @@ To register recipients for an information service, you can:
 
   For more on this, refer to the section on profile editing in [this section](../../platform/using/editing-a-profile.md).
 
-* Automatically subscribe a set of recipients to this service. The list of recipients can come from a filtering operation, a group, a folder, an import, or a direct selection using the mouse. To subscribe these recipients, select the profiles and right-click. Select **[!UICONTROL Actions > Subscribe selection to a service...]** , select the service concerned, and launch the operation.
+* Automatically subscribe a set of recipients to this service. The list of recipients can come from a filtering operation, a group, a folder, an import, or a direct selection using the mouse. To subscribe these recipients, select the profiles and right-click. Select **[!UICONTROL Actions > Subscribe selection to a service...]**, select the service concerned, and launch the operation.
 * Import recipients and subscribe them automatically to an information service. To do this, select the service concerned in the last step of the import wizard.
 
   For more on this, refer to [this section](../../platform/using/importing-data.md#import-wizard).
@@ -152,9 +153,9 @@ The default unsubscription link is inserted via the last button in the toolbar o
 
 Recipients can, however, choose to unsubscribe from a service without unsubscribing from all services. To allow this, you can use a web form (refer to [this section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)) or insert a personalized unsubscription link (see [Personalization blocks](../../delivery/using/personalization-blocks.md)).
 
-You can also unsubscribe a recipient manually from the recipient profile. To do this, click the **[!UICONTROL Subscriptions]** tab of the recipient concerned, select the information service(s) concerned, and click **[!UICONTROL Delete]** .
+You can also unsubscribe a recipient manually from the recipient profile. To do this, click the **[!UICONTROL Subscriptions]** tab of the recipient concerned, select the information service(s) concerned, and click **[!UICONTROL Delete]**.
 
-You can finally unsubscribe one or more recipients via the information service concerned. To do this, click the **[!UICONTROL Subscriptions]** tab of the service, select the recipients concerned and click **[!UICONTROL Delete]** .
+You can finally unsubscribe one or more recipients via the information service concerned. To do this, click the **[!UICONTROL Subscriptions]** tab of the service, select the recipients concerned and click **[!UICONTROL Delete]**.
 
 #### Automatic unsubscription {#automatic-unsubscription}
 
@@ -169,4 +170,3 @@ You can also set up an unsubscription workflow for a population. To do this, fol
 You can track the changes in subscriptions to the information services using the **[!UICONTROL Reports]** link on the dashboard.
 
 ![](assets/s_ncs_user_services_report.png)
-

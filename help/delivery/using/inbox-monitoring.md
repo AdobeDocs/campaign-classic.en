@@ -23,4 +23,3 @@ This report is available from the **Supervision** universe, in the **[!UICONTROL
 It gives an overview of the quality of emails sent over a given period of time. A benchmark comparison is also made with the other platforms that have subscribed to the deliverability service.
 
 ![](assets/s_tn_del_inbox_monitoring.png)
-

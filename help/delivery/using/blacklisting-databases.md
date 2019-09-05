@@ -59,4 +59,3 @@ The following is a list of the most widely used RBLs. For a more comprehensive l
   Refer to [https://www.surbl.org/](https://www.surbl.org/)
 
   SURBL identifies the websites that regularly appear in spam. If your domain appears on this list, it can significantly affect your deliverability. You should inform the deliverability services and Adobe Campaign support immediately.
-

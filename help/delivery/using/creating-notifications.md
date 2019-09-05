@@ -30,21 +30,23 @@ Start by creating a new delivery.
 
    ![](assets/nmac_delivery_ios_1.png)
 
-1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]** .
+1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]**.
 
    ![](assets/nmac_delivery_ios_2.png)
 
    >[!NOTE]
    >
-   >The detailed process when selecting the target population of a delivery is presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-the-target-population).  
-   >For more on the use of personalization fields, refer to [About personalization](../../delivery/using/about-personalization.md).  
+   >The detailed process when selecting the target population of a delivery is presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-the-target-population).
+   >
+   >For more on the use of personalization fields, refer to [About personalization](../../delivery/using/about-personalization.md).
+   >
    >For more on the inclusion of a seed list, refer to [About seed addresses](../../delivery/using/about-seed-addresses.md).
 
-1. Select **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]** , select the service relevant to your mobile application (Neotrips, in this case), then select the iOS version of the application.
+1. Select **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**, select the service relevant to your mobile application (Neotrips, in this case), then select the iOS version of the application.
 
    ![](assets/nmac_delivery_ios_3.png)
 
-1. Select the notification type: **[!UICONTROL Alert]** , **[!UICONTROL Badge]** , or **[!UICONTROL Alert and badge]** or **[!UICONTROL Silent Push]** .
+1. Select the notification type: **[!UICONTROL Alert]**, **[!UICONTROL Badge]**, or **[!UICONTROL Alert and badge]** or **[!UICONTROL Silent Push]**.
 
    ![](assets/nmac_delivery_ios_4.png)
 
@@ -60,7 +62,7 @@ Start by creating a new delivery.
 
    >[!NOTE]
    >
-   >You can add emojis into the content of your notification. To do so, go to an emoji listing website ( [example](https://www.utf8-chartable.de/unicode-utf8-table.pl?start=9728)), copy an emoji and paste it directly into the content editor. On Windows 7, some emojis may not be displayed correctly in the editor (square symbol), but they should be sent correctly in the final notification. The ability to display emojis depends the OS used on the device. We recommend that you send proofs to verify that the delivery is correctly displayed before sending it.
+   >You can add emojis into the content of your notification. To do so, go to an emoji listing website ([example](https://www.utf8-chartable.de/unicode-utf8-table.pl?start=9728)), copy an emoji and paste it directly into the content editor. On Windows 7, some emojis may not be displayed correctly in the editor (square symbol), but they should be sent correctly in the final notification. The ability to display emojis depends the OS used on the device. We recommend that you send proofs to verify that the delivery is correctly displayed before sending it.
 
    >[!NOTE]
    >
@@ -85,7 +87,8 @@ Start by creating a new delivery.
 
    >[!NOTE]
    >
-   >The notification style (banner or alert) is not defined in Adobe Campaign. It depends on the configuration selected by the user in their iOS settings. However, Adobe Campaign allows you to preview each type of notification style. Click the arrow in the bottom right to switch from one style to another.  
+   >The notification style (banner or alert) is not defined in Adobe Campaign. It depends on the configuration selected by the user in their iOS settings. However, Adobe Campaign allows you to preview each type of notification style. Click the arrow in the bottom right to switch from one style to another.
+   >
    >The preview uses the iOS 10 look and feel.
 
 To send a proof and to send the final delivery, use the same process as email deliveries.
@@ -102,11 +105,11 @@ After sending messages, you can monitor and track your deliveries. For more on t
 
    ![](assets/nmac_delivery_android_1.png)
 
-1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]** .
+1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]**.
 
    ![](assets/nmac_delivery_android_2.png)
 
-1. Select **[!UICONTROL Subscribers of an Android mobile application]** , choose the service relevant to your mobile application (Neotrips, in this case), then select the Android version of the application.
+1. Select **[!UICONTROL Subscribers of an Android mobile application]**, choose the service relevant to your mobile application (Neotrips, in this case), then select the Android version of the application.
 
    ![](assets/nmac_delivery_android_3.png)
 
@@ -116,7 +119,7 @@ After sending messages, you can monitor and track your deliveries. For more on t
 
    >[!NOTE]
    >
-   >You can add emojis into the content of your notification. To do so, go to an emoji listing website ( [example](https://www.utf8-chartable.de/unicode-utf8-table.pl?start=9728)), copy an emoji and paste it directly into the content editor. On Windows 7, some emojis may not be displayed correctly in the editor (square symbol), but they should be sent correctly in the final email. The ability to display emojis depends the OS used on the device. We recommend that you send proofs to verify that the delivery is correctly displayed before sending it.
+   >You can add emojis into the content of your notification. To do so, go to an emoji listing website ([example](https://www.utf8-chartable.de/unicode-utf8-table.pl?start=9728)), copy an emoji and paste it directly into the content editor. On Windows 7, some emojis may not be displayed correctly in the editor (square symbol), but they should be sent correctly in the final email. The ability to display emojis depends the OS used on the device. We recommend that you send proofs to verify that the delivery is correctly displayed before sending it.
 
 1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. Application variables let you define notification behavior: for instance, you can configure a specific application screen to be displayed when the user activates the notification.
 
@@ -140,4 +143,3 @@ After sending messages, you can monitor and track your deliveries. For more on t
 * [Push notification quarantines](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
 * [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md)
 * [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
-

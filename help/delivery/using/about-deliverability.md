@@ -22,7 +22,7 @@ Adobe Campaign offers tools to track the deliverability performance of your plat
 
 >[!NOTE]
 >
->Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) that presents the concepts and best practices linked to deliverability.
+>Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices linked to deliverability.
 
 When this module is configured for your Adobe Campaign platform, you have access to the following information:
 

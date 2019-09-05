@@ -24,7 +24,7 @@ For more on creating and configuring data schemas in Adobe Campaign, refer to [t
 
 ## Schema structure {#schema-structure}
 
-The XML document of a data schema must contain the ** `<srcschema>`** root element with the **name** and **namespace** attributes to populate the schema name and its namespace.
+The XML document of a data schema must contain the **`<srcschema>`** root element with the **name** and **namespace** attributes to populate the schema name and its namespace.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -74,7 +74,7 @@ Here is an example of a content management schema with the types filled in:
 
 ## Properties {#properties}
 
-Various properties can be used to enrich the ** `<element>`** and ** `<attribute>`** elements of the data schema.
+Various properties can be used to enrich the **`<element>`** and **`<attribute>`** elements of the data schema.
 
 The main properties used in content management are as follows:
 
@@ -111,7 +111,7 @@ Here is our example schema with the properties filled in:
 
 A collection is a list of elements with the same name and the same hierarchical level.
 
-In our example, the ** `<chapter>`** and ** `<page>`** elements are collection elements. The **unbound** attribute must therefore be added to the definition of these elements:
+In our example, the **`<chapter>`** and **`<page>`** elements are collection elements. The **unbound** attribute must therefore be added to the definition of these elements:
 
 ```
 <element name="chapter" label="Chapter" unbound="true" ordered="true">
@@ -127,11 +127,11 @@ In our example, the ** `<chapter>`** and ** `<page>`** elements are collection e
 
 ## Element referencing {#element-referencing}
 
-Element referencing is used a great deal in content schemas. It enables you to factorize the definition of an ** `<element>`** element so that it can be referenced on other elements with the same structure.
+Element referencing is used a great deal in content schemas. It enables you to factorize the definition of an **`<element>`** element so that it can be referenced on other elements with the same structure.
 
 The **ref** attribute on the element to be referenced must be completed with the path (XPath) of the reference element.
 
-**Example**: adding of an **Appendix** section with the same structure as the ** `<chapter>`** element of our example schema.
+**Example**: adding of an **Appendix** section with the same structure as the **`<chapter>`** element of our example schema.
 
 ```
 <srcSchema name="book" namespace="cus">
@@ -179,4 +179,3 @@ When the source schema is saved, extended schema generation is launched automati
 >[!NOTE]
 >
 >The **Name** edit control lets you enter the key of the schema, consisting of the name and namespace. The **name** and **namespace** attributes of the schema root element are automatically updated in the XML edit field of the schema.
-

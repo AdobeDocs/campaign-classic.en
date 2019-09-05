@@ -48,15 +48,15 @@ To create a common value like the one in our example (Purchasing department), yo
 For further details on schema extensions, refer to the [Configuration guide](../../configuration/using/data-schemas.md).
 
 1. In the **[!UICONTROL Administration > Configuration > Data schemas]** node, click the **[!UICONTROL New]** icon.
-1. In the **[!UICONTROL Creation of a data schema]** window, select the **[!UICONTROL Extension of a schema]** option and click **[!UICONTROL Next]** .
+1. In the **[!UICONTROL Creation of a data schema]** window, select the **[!UICONTROL Extension of a schema]** option and click **[!UICONTROL Next]**.
 
    ![](assets/dlv_seeds_usecase_09.png)
 
-1. Select the **[!UICONTROL Seed addresses]** source schema, enter **doc** as the **[!UICONTROL Namespace]** and click **[!UICONTROL Ok]** .
+1. Select the **[!UICONTROL Seed addresses]** source schema, enter **doc** as the **[!UICONTROL Namespace]** and click **[!UICONTROL Ok]**.
 
    ![](assets/dlv_seeds_usecase_10.png)
 
-1. Click **[!UICONTROL Save]** .
+1. Click **[!UICONTROL Save]**.
 1. In the schema editing window, copy the lines below and paste them in the area indicated in the screenshot.
 
    ```
@@ -81,7 +81,7 @@ For further details on schema extensions, refer to the [Configuration guide](../
 
    In this case, you are specifying that a new enumeration named **[!UICONTROL Department]** has been created in the seed address table, and it is based on the standard **[!UICONTROL @company]** enumeration template (labeled under the name **Company** in the seed address form).
 
-1. Click **[!UICONTROL Save]** .
+1. Click **[!UICONTROL Save]**.
 1. In the **[!UICONTROL Tools > Advanced]** menu, select the **[!UICONTROL Update database structure]** option.
 
    ![](assets/dlv_seeds_usecase_12.png)
@@ -96,7 +96,7 @@ For further details on schema extensions, refer to the [Configuration guide](../
 
    Once the update has finished, you can close the wizard.
 
-1. Disconnect then reconnect to Adobe Campaign. The changes made in the seed address data schema are now effective. In order for them to be visible from the seed address screen, you must update the associated **[!UICONTROL Input form]** . Refer to the [Updating the input form](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) section.
+1. Disconnect then reconnect to Adobe Campaign. The changes made in the seed address data schema are now effective. In order for them to be visible from the seed address screen, you must update the associated **[!UICONTROL Input form]**. Refer to the [Updating the input form](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) section.
 
 #### Extending the data schema from a linked table {#extending-the-data-schema-from-a-linked-table}
 
@@ -119,12 +119,13 @@ They therefore must extend the seed addresses data schema as detailed in the sec
 
 They indicate:
 
-* that the user wants to create a new element named **[!UICONTROL Internet Extension]** ,
+* that the user wants to create a new element named **[!UICONTROL Internet Extension]**,
 * that this element comes from the **[!UICONTROL Country]** table.
 
 >[!CAUTION]
 >
->In the linked table name, you must specify the **xpath-dst** of said linked table.   
+>In the linked table name, you must specify the **xpath-dst** of said linked table.
+>
 >This can be found in the **[!UICONTROL Country]** element in the recipients table.
 
 ![](assets/dlv_seeds_usecase_07.png)
@@ -178,7 +179,7 @@ You can now specify the dynamic condition of the seed addresses for the delivery
    >
    >The schema extension created earlier comes from the **recipient** schema. The values displayed on the screen above come from an enumeration of the **recipient** schema.
 
-1. Click **[!UICONTROL Ok]** .
+1. Click **[!UICONTROL Ok]**.
 
    The query is displayed in the **[!UICONTROL Select target]** window.
 
@@ -196,4 +197,3 @@ You can now specify the dynamic condition of the seed addresses for the delivery
    The members of the purchasing department make up part of your seed addresses that will receive the delivery in their email inbox.
 
    ![](assets/dlv_seeds_usecase_18.png)
-

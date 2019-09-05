@@ -44,7 +44,8 @@ There are three possible insertion modes:
 
 >[!NOTE]
 >
->This option is used when the recipient table used is not the default **nms:recipient** table and you are using the Inbox Rendering functionality provided with Adobe Campaign's **[!UICONTROL Deliverability]** module.   
+>This option is used when the recipient table used is not the default **nms:recipient** table and you are using the Inbox Rendering functionality provided with Adobe Campaign's **[!UICONTROL Deliverability]** module.
+>
 >For more on this, refer to [Using an external recipient table](../../delivery/using/using-an-external-recipient-table.md) and the documentation on [Inbox rendering](../../delivery/using/inbox-rendering.md).
 
 For deliveries, you can also customize the way addresses are inserted into the extraction file. By default, they are inserted in the sorting order of the output file, but you can choose to insert them at the end or the beginning of the file, or randomly among the recipients of the main target.
