@@ -90,9 +90,9 @@ In RHEL and CentOS, compatibility issues with the client layers of databases wer
 
 **Apply the following process:**
 
-- Edit the file **/etc/selinux/config**
+* Edit the file **/etc/selinux/config**
 
-- Modify the SELINUX line as follows:
+* Modify the SELINUX line as follows:
 
 ```
 SELINUX=disabled

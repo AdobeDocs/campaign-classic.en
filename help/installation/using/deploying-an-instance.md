@@ -426,7 +426,7 @@ In the event of publication on an Adobe Campaign server without a manual publica
 >
 >It's possible to change the public resource storage directory. For more on this, refer to [Managing public resources](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
-### Synchronizing public resources {synchronizing-public-resources}
+### Synchronizing public resources {#synchronizing-public-resources}
 
 This functionality allows you to **synchronize public resources** on multiple spare-servers.
 
@@ -438,8 +438,8 @@ Declaring and configuring spare-servers must be done in the Marketing server's *
 
 ```
 <redirection>
-					<spareServer enabledIf="" id="" url=""/>
-			</redirection>
+<spareServer enabledIf="" id="" url=""/>
+</redirection>
 ```
 
 **Configuration**
@@ -459,13 +459,11 @@ The out-of-the-box configuration of the synchronization is:
 ``` 
 (extracted from the serverConf.xml file)
 
- <redirection P3PCompactPolicy="CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV"
-     databaseId="" defLogCount="30" expirationURL="" maxJobsInCache="100"
-     startRedirection="true" startRedirectionInModule="true" trackWebVisitors="false" trackingPassword="">
-
-      <spareServer enabledIf="" id="1" url=""/>
-
- </redirection>
+<redirection P3PCompactPolicy="CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV"
+databaseId="" defLogCount="30" expirationURL="" maxJobsInCache="100"
+startRedirection="true" startRedirectionInModule="true" trackWebVisitors="false" trackingPassword="">
+<spareServer enabledIf="" id="1" url=""/>
+</redirection>
 
 ....
 
@@ -490,9 +488,9 @@ The out-of-the-box configuration of the synchronization is:
  </relay>
  ```
 
- ## Purging data 
+## Purging data {#purging-data}
 
- The last stage of the deployment wizard lets you configure the automatic purging of obsolete data. The values are expressed in days.
+The last stage of the deployment wizard lets you configure the automatic purging of obsolete data. The values are expressed in days.
 
 ![](assets/s_ncs_install_deployment_wiz_16.png)
 

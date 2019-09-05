@@ -110,7 +110,7 @@ Apply the following steps:
     invoke-rc.d apache2 restart
     ```
 
-## Configuring Apache web server in RHEL {configuring-apache-web-server-in-rhel}
+## Configuring Apache web server in RHEL {#configuring-apache-web-server-in-rhel}
 
 This procedure applies if you have installed and secured Apache under a RPM (RHEL, CentOS and Suse) based package.
 
@@ -222,7 +222,7 @@ For RHEL7:
     systemctl start nlserver
     ```
 
-## Launching the Web server and testing the configuration{launching-the-web-server-and-testing-the-configuration}
+## Launching the Web server and testing the configuration{#launching-the-web-server-and-testing-the-configuration}
 
 You can now test the configuration by starting Apache. The Adobe Campaign module should now display its banner on the console (two banners on certain operating systems):
 
