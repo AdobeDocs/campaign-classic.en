@@ -103,16 +103,16 @@ Let's take the example of a company which decides to send an email campaign. In 
 
 Once it is personalized, the URL looks like this:
 
-* **http://**`<path application="" facebook="" of="" the="" />`**&app_data=big** (for a significant customer)
-* **http://**`<path application="" facebook="" of="" the="" />`**&app_data=small** (for a less significant customer)
+* **`http://<path of the Facebook application>&app_data=big`** (for a significant customer)
+* **`http://<path of the Facebook application>&app_data=small`** (for a less significant customer)
 
 Among the anonymous data forwarded to Adobe Campaign by Facebook, the value of the **[!UICONTROL Application parameters]** field is collected, thus enabling Adobe Campaign to personalize application display based on this parameter.
 
-If the user is a significant customer (the value of the **[!UICONTROL app_data]** parameter is **[!UICONTROL big]** ), the following image is displayed:
+If the user is a significant customer (the value of the **[!UICONTROL app_data]** parameter is **[!UICONTROL big]**), the following image is displayed:
 
 ![](assets/social_webapp_017.png)
 
-If the user is a less significant customer (the value of the **[!UICONTROL app_data]** parameter is **[!UICONTROL small]** ), the following image is displayed:
+If the user is a less significant customer (the value of the **[!UICONTROL app_data]** parameter is **[!UICONTROL small]**), the following image is displayed:
 
 ![](assets/social_webapp_016.png)
 
@@ -149,8 +149,8 @@ To build this use case, we have created a web application which includes the fol
 * three pages
 * an **[!UICONTROL Access control]** activity
 * a **[!UICONTROL Pre-loading]** activity
-* A **[!UICONTROL Save]** activity
-* An **[!UICONTROL End]** activity
+* a **[!UICONTROL Save]** activity
+* an **[!UICONTROL End]** activity
 
 ![](assets/social_webapp_019.png)
 
@@ -164,7 +164,7 @@ It is made up of three branches:
 
 * **[!UICONTROL identifier (UID) is empty]** : the identifier is only forwarded by Facebook if the user has already agreed to share their information. The first branch of the **[!UICONTROL Test]** activity lets you make the competition available only to users who have never entered, i.e. those with an empty ID.
 * **[!UICONTROL application parameter equals 'thanks']** : to sidestep a display error linked to Facebook, the web application end page points towards the URL of the Facebook application which the **[!UICONTROL app_data]** parameter is added to using the **[!UICONTROL thanks]** value (for more on this, refer to: [End activity](../../social/using/examples-of-facebook-apps.md#end-activity)). The second branch lets you find out whether the user comes from the **[!UICONTROL End]** activity of the first branch (and has just entered the competition) to display a thank you message. For more on using additional URL parameters, refer to: [How to forward settings to a Facebook application?](../../social/using/examples-of-facebook-apps.md#how-to-forward-settings-to-a-facebook-application-).
-* **[!UICONTROL Default branch]** : if the user has already entered the competition (ID already entered) at a previous date (application parameter different from **[!UICONTROL thanks]** ), we will display a page saying that they have already entered.
+* **[!UICONTROL Default branch]** : if the user has already entered the competition (ID already entered) at a previous date (application parameter different from **[!UICONTROL thanks]**), we will display a page saying that they have already entered.
 
 ### Competition page {#competition-page}
 
@@ -207,22 +207,24 @@ This option lets you define the Facebook profile information to collect, among t
 
 The **[!UICONTROL Database information]** option lets you collect the following data:
 
-* **[!UICONTROL External ID]** : user ID
-* **[!UICONTROL Gender]** : user's gender 
+* **[!UICONTROL External ID]**: user ID
+* **[!UICONTROL Gender]**: user's gender 
 * **[!UICONTROL Verified]** : this field specifies whether or not the user has a verified Facebook account.
-* **[!UICONTROL Full name]** : user's full name
-* **[!UICONTROL First name]** : user's first name
-* **[!UICONTROL Last name]** : user's last name
-* **[!UICONTROL Language]** : user's language
+* **[!UICONTROL Full name]**: user's full name
+* **[!UICONTROL First name]**: user's first name
+* **[!UICONTROL Last name]**: user's last name
+* **[!UICONTROL Language]**: user's language
 
 You can also decide to collect the profile photo, the list of friends, email address, date of birth, interests and location by checking the appropriate boxes.
 
-Before you click **[!UICONTROL Ok]** , check the **[!UICONTROL I agree to comply with Facebook conditions of use]** box.
+Before you click **[!UICONTROL Ok]**, check the **[!UICONTROL I agree to comply with Facebook conditions of use]** box.
 
 >[!NOTE]
 >
->If you check one or more boxes in the **[!UICONTROL Private information]** section, the Facebook permission request screen will automatically display the access request for this data.   
->In order for you to collect the selected information, the user must agree to share it.  
+>If you check one or more boxes in the **[!UICONTROL Private information]** section, the Facebook permission request screen will automatically display the access request for this data.
+>
+>In order for you to collect the selected information, the user must agree to share it.
+>
 >If you want both types of pre-loading (via Adobe Campaign and via Facebook) add two pre-loading boxes one after the other.
 
 ### Save activity {#save-activity}
@@ -235,7 +237,7 @@ If the profile doesn't exist in the database and the Facebook user's email addre
 
 ![](assets/social_webapp_026.png)
 
-1. In the **[!UICONTROL Visitor creation folder]** field, select the folder which the profile will be created in. In case of a Facebook type web application, the default creation folder is **[!UICONTROL Visitors]** .
+1. In the **[!UICONTROL Visitor creation folder]** field, select the folder which the profile will be created in. In case of a Facebook type web application, the default creation folder is **[!UICONTROL Visitors]**.
 1. In the **[!UICONTROL Reconciliation mode]** field, select the reconciliation mode you want to use:
 
     * **[!UICONTROL Automatic]** : Reconciliation is carried out based on email, last name, first name and date of birth.
@@ -300,7 +302,7 @@ The **[!UICONTROL Activities]** screen of a visitor's details page contains the 
 
 ## How to pre-load the fields of a form using Facebook profile data {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
 
-The **[!UICONTROL Social Marketing]** application also enables you to add a button to a form, for pre-loading fields using Facebook profile information. This option, which is available in all web application templates ( **[!UICONTROL Page]** type activities) is detailed in [this section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
+The **[!UICONTROL Social Marketing]** application also enables you to add a button to a form, for pre-loading fields using Facebook profile information. This option, which is available in all web application templates (**[!UICONTROL Page]** type activities) is detailed in [this section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
 ![](assets/social_webapp_035.png)
 

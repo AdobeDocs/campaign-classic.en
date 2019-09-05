@@ -38,7 +38,7 @@ To create a Twitter account, go to [http://twitter.com](http://twitter.com).
 We also recommend creating a private Twitter account which can be used for sending tweet proofs (for more on this, refer to [Sending the proof](../../social/using/publishing-on-twitter.md#sending-the-proof)):
 
 * Create a new Twitter account.
-* Click the menu in the top right-hand corner and select **[!UICONTROL Settings]** .
+* Click the menu in the top right-hand corner and select **[!UICONTROL Settings]**.
 * Select the **[!UICONTROL Security and privacy]** tab, and check the **[!UICONTROL Protect my Tweets]** box. 
 * Click the **[!UICONTROL Save Changes]** button at the bottom of the page.
 
@@ -66,7 +66,7 @@ For each Twitter application, you need to create a different **[!UICONTROL Twitt
 
 This step requires simultaneous access to your Adobe Campaign console and an Internet browser logged on to your Twitter account:
 
-* **Twitter**: select the application created previously ( [https://dev.twitter.com/apps](https://dev.twitter.com/apps)), and click the **[!UICONTROL Keys and Access Tokens]** tab.
+* **Twitter**: select the application created previously ([https://dev.twitter.com/apps](https://dev.twitter.com/apps)), and click the **[!UICONTROL Keys and Access Tokens]** tab.
 
   ![](assets/social_twitter_service_002.png)
 
@@ -108,7 +108,7 @@ This step requires simultaneous access to your Adobe Campaign console and an Int
 
    ![](assets/social_twitter_service_013.png)
 
-1. In the Adobe Campaign console, click **[!UICONTROL Save]** . Delegation of write access to Adobe Campaign is now complete.
+1. In the Adobe Campaign console, click **[!UICONTROL Save]**. Delegation of write access to Adobe Campaign is now complete.
 
    ![](assets/social_twitter_service_014.png)
 

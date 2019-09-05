@@ -45,7 +45,7 @@ You need to select the page(s) which you want to post your publication on.
 
    ![](assets/social_facebook_delivery_011.png)
 
-1. Select **[!UICONTROL A Facebook page]** .
+1. Select **[!UICONTROL A Facebook page]**.
 
    ![](assets/social_facebook_delivery_012.png)
 
@@ -76,7 +76,8 @@ However it is also possible to use the audience filters used by Facebook. The **
 
 >[!CAUTION]
 >
->Use this function with care. In delivery reports, the **[!UICONTROL Number of fans]** indicator will not take these Facebook filters into account.  
+>Use this function with care. In delivery reports, the **[!UICONTROL Number of fans]** indicator will not take these Facebook filters into account.
+>
 >Facebook may change the list of audience filters as well as their values.
 
 ## Defining message content {#defining-message-content}
@@ -121,6 +122,12 @@ Enter the various fields:
    >[!NOTE]
    >
    >If you want to add the **[!UICONTROL Link]** field to the URL of a Facebook application to promote it, we recommend that you adapt it to smartphone display criteria:
+   >
+   >1. Select the Facebook application (https://developers.facebook.com/apps), and select the **[!UICONTROL Settings > Basic]** tab.
+   >1. Enter the **[!UICONTROL Namespace]** field.
+   >1. Enter the **[!UICONTROL Mobile Site URL]** field: when a user clicks the publication link on their smartphone, they will automatically be redirected by Facebook to the URL defined in this field.
+   >1. Create your web application so that the Facebook display is personalized as a function of the device used (smartphone or PC).
+   >1. Go to the **[!UICONTROL Link]** field of the publication via the Adobe Campaign console, enter the URL of the **[!UICONTROL Canvas page]** field.
 
 1. In the **[!UICONTROL Image]** field, enter the URL of the image which will be displayed to the left of the publication.
 
@@ -161,9 +168,9 @@ This type of content enables you to publish a photo album. You can add a name an
 
 Enter the various fields:
 
-1. Start by entering the **[!UICONTROL Album name]** 
+1. Start by entering the **[!UICONTROL Album name]**.
 1. Then enter the **[!UICONTROL Description]** to be displayed above the photos.
-1. To add a photo, click the **[!UICONTROL Add]** button, select the photo and click **[!UICONTROL Open]** .
+1. To add a photo, click the **[!UICONTROL Add]** button, select the photo and click **[!UICONTROL Open]**.
 1. A caption can be added to each photo.
 
 ![](assets/social_facebook_delivery_photos.png)
@@ -173,7 +180,7 @@ Enter the various fields:
 The **[!UICONTROL Preview]** tab lets you view the rendering of the publication.
 
 1. Click the **[!UICONTROL Preview]** tab.
-1. Click the **[!UICONTROL Test personalization]** drop-down menu and select **[!UICONTROL Service]** .
+1. Click the **[!UICONTROL Test personalization]** drop-down menu and select **[!UICONTROL Service]**.
 1. In the **[!UICONTROL Folder]** field, select the service folder which contains your Facebook pages. By default, pages are stored at the root of the **[!UICONTROL Facebook]** service folder.
 1. Select the Facebook page which you want to test the preview on.
 
@@ -213,7 +220,7 @@ Proof delivery is identical to email deliveries. Refer to [this section](../../d
    ![](assets/social_facebook_delivery_009.png)
 
 1. Once the analysis is complete, check the result.
-1. Click **[!UICONTROL Confirm delivery]** , then click **[!UICONTROL Yes]** .
+1. Click **[!UICONTROL Confirm delivery]**, then click **[!UICONTROL Yes]**.
 
    ![](assets/social_facebook_delivery_016.png)
 

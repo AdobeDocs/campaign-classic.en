@@ -47,7 +47,7 @@ Select the account(s) which you want to send tweets to.
 
    ![](assets/social_twitter_delivery_006.png)
 
-1. Select **[!UICONTROL A Twitter account]** .
+1. Select **[!UICONTROL A Twitter account]**.
 
    ![](assets/social_twitter_delivery_007.png)
 
@@ -76,7 +76,7 @@ Type the content of your tweet in the **[!UICONTROL Content]** tab.
 The **[!UICONTROL Preview]** tab lets you view a rendering of the tweet.
 
 1. Click the **[!UICONTROL Preview]** tab.
-1. Click the **[!UICONTROL Test personalization]** drop-down menu and select **[!UICONTROL Service]** .
+1. Click the **[!UICONTROL Test personalization]** drop-down menu and select **[!UICONTROL Service]**.
 1. In the **[!UICONTROL Folder]** field, select the service folder which contains your Twitter account. 
 1. Choose the Twitter account which you want to test the preview with.
 
@@ -118,7 +118,7 @@ Proof delivery is identical to email deliveries. Refer to [this section](../../d
    ![](assets/social_twitter_delivery_012.png)
 
 1. Once the analysis is finished, check the result. 
-1. Click **[!UICONTROL Confirm delivery]** , then click **[!UICONTROL Yes]** .
+1. Click **[!UICONTROL Confirm delivery]**, then click **[!UICONTROL Yes]**.
 
 ![](assets/social_facebook_delivery_016.png)
 
@@ -132,18 +132,18 @@ The **[!UICONTROL Synchronize Twitter accounts]** workflow (refer to [Synchroniz
 
 >[!CAUTION]
 >
->In order for the workflow to recover the list of Twitter followers, the **[!UICONTROL Synchronize Twitter accounts]** box must be checked in the Edit screen of the service linked to the account. For more on this, refer to: [Delegating write access to Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign)
+>In order for the workflow to recover the list of Twitter followers, the **[!UICONTROL Synchronize Twitter accounts]** box must be checked in the Edit screen of the service linked to the account. For more on this, refer to: [Delegating write access to Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign).
 
 For each follower, Adobe Campaign recovers the following information:
 
-* **[!UICONTROL Origin]** : name of the social network (**Twitter** in this case)
-* **[!UICONTROL External ID]** : user identifier
-* **[!UICONTROL User name]** : account name of the user
-* **[!UICONTROL Full name]** : Name of the user
-* **[!UICONTROL Language]** : user language
-* **[!UICONTROL Number of friends]** : number of followers
-* **[!UICONTROL Time zone]** : user time zone
-* **[!UICONTROL Verified]** : this field indicates whether the user has a verified Twitter account
+* **[!UICONTROL Origin]**: name of the social network (**Twitter** in this case)
+* **[!UICONTROL External ID]**: user identifier
+* **[!UICONTROL User name]**: account name of the user
+* **[!UICONTROL Full name]**: name of the user
+* **[!UICONTROL Language]**: user language
+* **[!UICONTROL Number of friends]**: number of followers
+* **[!UICONTROL Time zone]**: user time zone
+* **[!UICONTROL Verified]**: this field indicates whether the user has a verified Twitter account
 
 ### Limitations {#limitations-1}
 

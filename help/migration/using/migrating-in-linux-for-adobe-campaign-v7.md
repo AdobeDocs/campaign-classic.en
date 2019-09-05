@@ -275,7 +275,8 @@ To deploy Adobe Campaign, apply the following steps:
 
    >[!NOTE]
    >
-   >When migrating from v5.11, Adobe Campaign is installed in the **/usr/local/neolane/nl6/** directory by default.  
+   >When migrating from v5.11, Adobe Campaign is installed in the **/usr/local/neolane/nl6/** directory by default.
+   >
    >Once the packages are installed, the following message is displayed: **'WdbcTimeZone' option is missing**. This is normal.
 
 1. To make the client console installation program available, copy it into the Adobe Campaign installation directory:
