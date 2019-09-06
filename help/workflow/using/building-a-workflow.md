@@ -30,17 +30,17 @@ This section details the key principles and best practices to build a workflow i
 
 ## Creating a new workflow {#creating-a-new-workflow}
 
-From the **[!UICONTROL Explorer]** , access a workflow folder. By default, you can use **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** .
+From the **[!UICONTROL Explorer]**, access a workflow folder. By default, you can use **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
 
 Click the **[!UICONTROL New]** button located above the list of workflows. 
 
 ![](assets/create_a_wf_icon.png)
 
-Or, you can also use the **[!UICONTROL Create]** button in the workflow overview ( **[!UICONTROL Monitoring]** > **[!UICONTROL Workflow]** link).
+Or, you can also use the **[!UICONTROL Create]** button in the workflow overview (**[!UICONTROL Monitoring]** > **[!UICONTROL Workflow]** link).
 
 ![](assets/create_a_wf.png)
 
-Enter a label and click **[!UICONTROL Save]** .
+Enter a label and click **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ You can change the display and layout of the chart using the following elements:
 
 ## Configuring activities {#configuring-activities}
 
-Double-click an activity to configure it or right-click and select **[!UICONTROL Open...]** .
+Double-click an activity to configure it or right-click and select **[!UICONTROL Open...]**.
 
 >[!NOTE]
 >

@@ -45,7 +45,7 @@ You can call multiple sub-workflows in a single workflow. Sub-workflows are exec
    ![](assets/subworkflow_selection.png)
 
 1. You can also add a configuration script to alter the referenced workflow.
-1. Click **[!UICONTROL Ok]** . It will automatically create an outbound transition with the label of the **[!UICONTROL Jump (start point)]** activity from the selected workflow.
+1. Click **[!UICONTROL Ok]**. It will automatically create an outbound transition with the label of the **[!UICONTROL Jump (start point)]** activity from the selected workflow.
 
    ![](assets/subworkflow_outbound.png)
 
@@ -76,4 +76,4 @@ This set of three values identifies the population targeted by the query. **[!UI
 
 * targetSchema
 
-This value is the schema of the work table. This parameter is valid for all transitions with **[!UICONTROL tableName]** and **[!UICONTROL schema]** .
+This value is the schema of the work table. This parameter is valid for all transitions with **[!UICONTROL tableName]** and **[!UICONTROL schema]**.

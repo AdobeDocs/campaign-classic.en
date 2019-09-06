@@ -26,7 +26,7 @@ In a workflow, you can adapt activity execution schedules and link a specific ti
 
 ## Execution scheduling {#execution-scheduling}
 
-You can schedule the execution of tasks using the scheduler (refer to [Scheduler](../../workflow/using/scheduler.md)). You can also use the scheduling options available in the activities which offer this functionality. These activities offer a **[!UICONTROL Schedule]** tab: **[!UICONTROL File collector]** , **[!UICONTROL File transfer]** , **[!UICONTROL Web download]** , **[!UICONTROL Email reception]** & **[!UICONTROL SMS]** , etc.
+You can schedule the execution of tasks using the scheduler (refer to [Scheduler](../../workflow/using/scheduler.md)). You can also use the scheduling options available in the activities which offer this functionality. These activities offer a **[!UICONTROL Schedule]** tab: **[!UICONTROL File collector]**, **[!UICONTROL File transfer]**, **[!UICONTROL Web download]**, **[!UICONTROL Email reception]** & **[!UICONTROL SMS]**, etc.
 
 For all scheduled tasks, i.e. all activities with scheduling options, you can select the time zone to apply. The time zone is selected via the **[!UICONTROL Advanced]** tab of the concerned activity:
 

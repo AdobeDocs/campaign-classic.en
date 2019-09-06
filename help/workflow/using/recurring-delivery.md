@@ -37,5 +37,5 @@ For an example of this activity being used, refer to this [section](../../campai
 >[!NOTE]
 >
 >It is not possible to send a proof from a **[!UICONTROL Recurring delivery]** type activity.   
->To directly create a delivery via a campaign workflow, use the channel specific activities that are preconfigured (e.g. **[!UICONTROL Email delivery]** ).
+>To directly create a delivery via a campaign workflow, use the channel specific activities that are preconfigured (e.g. **[!UICONTROL Email delivery]**).
 

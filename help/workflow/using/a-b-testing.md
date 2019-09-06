@@ -54,7 +54,7 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
-1. Use the mouse to drag and drop activities into the workflow diagram, including a **[!UICONTROL Query]** ( **[!UICONTROL Target]** tab), a **[!UICONTROL Split]** ( **[!UICONTROL Target]** tab), two **[!UICONTROL Email deliveries]** ( **[!UICONTROL Deliveries]** tab), a **[!UICONTROL Wait]** activity ( **[!UICONTROL Flow Control]** tab), a **[!UICONTROL JavaScript code]** activity ( **[!UICONTROL Actions]** tab), and a **[!UICONTROL Delivery]** activity ( **[!UICONTROL Actions]** tab).
+1. Use the mouse to drag and drop activities into the workflow diagram, including a **[!UICONTROL Query]** (**[!UICONTROL Target]** tab), a **[!UICONTROL Split]** (**[!UICONTROL Target]** tab), two **[!UICONTROL Email deliveries]** (**[!UICONTROL Deliveries]** tab), a **[!UICONTROL Wait]** activity (**[!UICONTROL Flow Control]** tab), a **[!UICONTROL JavaScript code]** activity (**[!UICONTROL Actions]** tab), and a **[!UICONTROL Delivery]** activity (**[!UICONTROL Actions]** tab).
 
 ![](assets/use_case_abtesting_targetwkfl_004.png)
 
@@ -92,11 +92,11 @@ This activity lets you create several populations: the one that receives deliver
     
       ![](assets/use_case_abtesting_createrecipients_006.png)
 
-    * Click the **[!UICONTROL Edit]** link, select **[!UICONTROL Activate random sampling]** , and click **[!UICONTROL Next]** .
+    * Click the **[!UICONTROL Edit]** link, select **[!UICONTROL Activate random sampling]**, and click **[!UICONTROL Next]**.
     
       ![](assets/use_case_abtesting_createrecipients_007.png)
 
-    * Set the threshold to 10%, then click **[!UICONTROL Finish]** .
+    * Set the threshold to 10%, then click **[!UICONTROL Finish]**.
     
       ![](assets/use_case_abtesting_createrecipients_008.png)
 
@@ -116,7 +116,7 @@ This activity lets you create several populations: the one that receives deliver
     
       ![](assets/use_case_abtesting_createrecipients_011.png)
 
-    * Select **[!UICONTROL Generate complement]** .
+    * Select **[!UICONTROL Generate complement]**.
     
       ![](assets/use_case_abtesting_createrecipients_012.png)
 
@@ -228,7 +228,6 @@ The following script can be used as is in the targeting workflow. For more on th
  
    // store the new delivery Id in event variables
    vars.deliveryId = delivery.id
-
 ```
 
 For a detailed explanation of the script, refer to [Details of the script](../../workflow/using/a-b-testing.md#details-of-the-script).
@@ -301,8 +300,6 @@ This section details the various parts of the script and their operating mode.
   delivery.workflow_id = winner.@["workflow-id"]
   ```
 
-* 
-
   ```
   // adjust some delivery parameters to make it compatible with the 
   // "Prepare and start" option selected in the Delivery tab of this activity
@@ -328,13 +325,13 @@ This section details the various parts of the script and their operating mode.
 
 The example above lets you select the content of a delivery based on the rate of opens of emails. You can adapt it to base yourself on other delivery-specific indicators:
 
-* Best click throughput: [indicators/@recipientClickRatio],
-* Highest reactivity rate (email open and clicks in the message): [indicators/@reactivity],
-* Lowest complaint rate: [indicators/@refusedRatio] (use the false value for the sortDesc attribute),
-* Highest conversion rate: [indicators/@transactionRatio],
-* Number of pages visited following the reception of a message: [indicators/@totalWebPage],
-* Lowest unsubscription rate: [indicators/@optOutRatio],
-* Transaction amount: [indicators/@amount].
+* Best click throughput: `[indicators/@recipientClickRatio]`,
+* Highest reactivity rate (email open and clicks in the message): `[indicators/@reactivity]`,
+* Lowest complaint rate: `[indicators/@refusedRatio]` (use the false value for the sortDesc attribute),
+* Highest conversion rate: `[indicators/@transactionRatio]`,
+* Number of pages visited following the reception of a message: `[indicators/@totalWebPage]`,
+* Lowest unsubscription rate: `[indicators/@optOutRatio]`,
+* Transaction amount: `[indicators/@amount]`.
 
 ## Step 6: Defining the final delivery {#step-6--defining-the-final-delivery}
 

@@ -30,7 +30,7 @@ The **Web download** activity launches the downloading of a file on an explicit 
     
       ![](assets/download_web_edit.png)
 
-    * To use an **[!UICONTROL External account]** , select the account from the drop-down list, and specify the file to be downloaded.
+    * To use an **[!UICONTROL External account]**, select the account from the drop-down list, and specify the file to be downloaded.
 
       External accounts are configured from the **[!UICONTROL Administration > Platform > External accounts]** node of the Adobe Campaign tree. The account parameters can be edited via the **[!UICONTROL Edit link]** icon.
     
@@ -48,9 +48,9 @@ The **Web download** activity launches the downloading of a file on an explicit 
 
    The following options are available:
 
-    * **[!UICONTROL Use a default storage directory]** : the file is always moved before being processed. If this option is checked, the file is moved into the default storage directory (the **vars** directory of the Adobe Campaign installation folder). To specify a storage directory, uncheck the box and enter its path in the **[!UICONTROL Storage directory]** field 
-    * **[!UICONTROL Number of files]** : enter the maximum number of files to be kept in the storage directory.
-    * **[!UICONTROL Maximum size (in Mb)]** : enter the maximum capacity of the storage directory (in megabytes).
+    * **[!UICONTROL Use a default storage directory]**: the file is always moved before being processed. If this option is checked, the file is moved into the default storage directory (the **vars** directory of the Adobe Campaign installation folder). To specify a storage directory, uncheck the box and enter its path in the **[!UICONTROL Storage directory]** field 
+    * **[!UICONTROL Number of files]**: enter the maximum number of files to be kept in the storage directory.
+    * **[!UICONTROL Maximum size (in Mb)]**: enter the maximum capacity of the storage directory (in megabytes).
 
    Each file is kept for 24 hours before being subjected to the defined purging rules. The purge takes place just before the start of the activity and therefore does not take into account the workflow file in progress.
 

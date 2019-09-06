@@ -46,7 +46,7 @@ The configuration depends on the action selected.
 
    ![](assets/file_transfert_edit_send.png)
 
-   This may also concern one or more other files. To select them, uncheck the option and then click **[!UICONTROL Insert]** . Specify the access path of the file to be sent. To add another file, click **[!UICONTROL Insert]** again. The files now each have their own tab. 
+   This may also concern one or more other files. To select them, uncheck the option and then click **[!UICONTROL Insert]**. Specify the access path of the file to be sent. To add another file, click **[!UICONTROL Insert]** again. The files now each have their own tab. 
 
    ![](assets/file_transfert_source.png)
 
@@ -64,7 +64,7 @@ The configuration depends on the action selected.
 
    To list the files, select the **[!UICONTROL File listing]** option from the **[!UICONTROL Action]** field. Configuration of the remote server is the same as for receiving files. For more information, refer to this [section](../../workflow/using/file-transfer.md#properties).
 
-   The **[!UICONTROL List all files]** option, available when selecting the **[!UICONTROL File listing]** action, allows you to store all files present on the server in the event variable **vars.filenames** wherein the file names are separated by **n** characters.
+   The **[!UICONTROL List all files]** option, available when selecting the **[!UICONTROL File listing]** action, allows you to store all files present on the server in the event variable **vars.filenames** wherein the file names are separated by `\n` characters.
 
 There are two possible options for all file transfer options:
 
@@ -91,7 +91,7 @@ The **[!UICONTROL Advanced parameters...]** link lets you access the following o
 
   Allows you to specify the connection port to be used for data transfer.
 
-The **[!UICONTROL File historization settings...]** link gives access to the options detailed in [Web download](../../workflow/using/web-download.md) ( **[!UICONTROL File historization]** step).
+The **[!UICONTROL File historization settings...]** link gives access to the options detailed in [Web download](../../workflow/using/web-download.md) (**[!UICONTROL File historization]** step).
 
 ## Input parameters {#input-parameters}
 

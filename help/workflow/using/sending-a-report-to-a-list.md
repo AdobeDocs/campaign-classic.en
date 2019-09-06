@@ -48,15 +48,15 @@ For more on creating lists, refer to this [section](../../platform/using/creatin
 
    ![](assets/use_case_report_3.png)
 
-1. Each time the workflow is executed, the **[!UICONTROL Tracking indicators]** report is updated (refer to [Step 3: Creating the workflow](../../workflow/using/sending-a-report-to-a-list.md#step-3--creating-the-workflow)). To include the latest version of the report in the delivery, you need to add a **[!UICONTROL Calculated attachment]** :
+1. Each time the workflow is executed, the **[!UICONTROL Tracking indicators]** report is updated (refer to [Step 3: Creating the workflow](../../workflow/using/sending-a-report-to-a-list.md#step-3--creating-the-workflow)). To include the latest version of the report in the delivery, you need to add a **[!UICONTROL Calculated attachment]**:
 
    For more on creating a calculated attachment, refer to this [section](../../delivery/using/attaching-files.md#creating-a-calculated-attachment).
 
-    * Click the **[!UICONTROL Attachments]** link and click **[!UICONTROL Add]** , then select **[!UICONTROL Calculated attachment]** .
+    * Click the **[!UICONTROL Attachments]** link and click **[!UICONTROL Add]**, then select **[!UICONTROL Calculated attachment]**.
     
       ![](assets/use_case_report_4.png)
 
-    * Go to the **[!UICONTROL Type]** field and select the fourth option: **[!UICONTROL File name is computed during delivery of each message (it may then depend on the recipient profile)]** . 
+    * Go to the **[!UICONTROL Type]** field and select the fourth option: **[!UICONTROL File name is computed during delivery of each message (it may then depend on the recipient profile)]**. 
     
       ![](assets/use_case_report_5.png)
 
@@ -70,7 +70,7 @@ For more on creating lists, refer to this [section](../../platform/using/creatin
       >
       >The file must be present on the server. Its path and name must be identical to those entered in the **[!UICONTROL JavaScript code]** type activity of the workflow (refer to: [Step 3: Creating the workflow](../../workflow/using/sending-a-report-to-a-list.md#step-3--creating-the-workflow)).
 
-    * Select the **[!UICONTROL Advanced]** tab and check **[!UICONTROL Script the name of the file name displayed in the mails sent]** . Go to the edit zone and enter the name you want to give the attachment in the final delivery.
+    * Select the **[!UICONTROL Advanced]** tab and check **[!UICONTROL Script the name of the file name displayed in the mails sent]**. Go to the edit zone and enter the name you want to give the attachment in the final delivery.
     
       ![](assets/use_case_report_6bis.png)
 
@@ -125,10 +125,10 @@ The following workflow was created for this use case. It has three activities:
 
 1. Finish by adding a **[!UICONTROL Delivery]** type activity with the following options:
 
-    * **[!UICONTROL Delivery]** : select **[!UICONTROL New, created from a template]** , and select the delivery template created previously.
-    * For the **[!UICONTROL Recipients]** and **[!UICONTROL Content]** fields, select **[!UICONTROL Specified in the delivery]** .
-    * **[!UICONTROL Action to execute]** : select **[!UICONTROL Prepare and start]** . 
-    * Un-check **[!UICONTROL Generate an outbound transition]** and **[!UICONTROL Process errors]** .
+    * **[!UICONTROL Delivery]**: select **[!UICONTROL New, created from a template]**, and select the delivery template created previously.
+    * For the **[!UICONTROL Recipients]** and **[!UICONTROL Content]** fields, select **[!UICONTROL Specified in the delivery]**.
+    * **[!UICONTROL Action to execute]**: select **[!UICONTROL Prepare and start]**. 
+    * Un-check **[!UICONTROL Generate an outbound transition]** and **[!UICONTROL Process errors]**.
 
    ![](assets/use_case_report_11.png)
 

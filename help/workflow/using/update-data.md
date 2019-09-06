@@ -24,11 +24,11 @@ An **Update data**-type activity performs a mass update of the fields in the dat
 
 The **[!UICONTROL Operation type]** field lets you choose the process to be carried out on the data in the database:
 
-* **[!UICONTROL Insert or update]** : add data or update it if it has already been added.
-* **[!UICONTROL Insert]** : only add data.
-* **[!UICONTROL Update]** : only update data.
-* **[!UICONTROL Update and merge collections]** : update data and choose a "master" record, then link elements linked to the duplicates in this master record. Duplicates can then be deleted without creating orphan attached elements.
-* **[!UICONTROL Delete]** : delete data.
+* **[!UICONTROL Insert or update]**: add data or update it if it has already been added.
+* **[!UICONTROL Insert]**: only add data.
+* **[!UICONTROL Update]**: only update data.
+* **[!UICONTROL Update and merge collections]**: update data and choose a "master" record, then link elements linked to the duplicates in this master record. Duplicates can then be deleted without creating orphan attached elements.
+* **[!UICONTROL Delete]**: delete data.
 
 ![](assets/s_advuser_update_data_1.png)
 
@@ -64,16 +64,16 @@ Within an **[!UICONTROL Insert or update]** operation, you can select the campai
 
 ![](assets/s_advuser_update_data_5.png)
 
-The **[!UICONTROL modifiedDate]** , **[!UICONTROL modifiedBy]** , **[!UICONTROL createdDate]** and **[!UICONTROL createdBy]** fields are updated automatically during data updates, unless their management mode is configured specifically in the field update table.
+The **[!UICONTROL modifiedDate]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL createdDate]** and **[!UICONTROL createdBy]** fields are updated automatically during data updates, unless their management mode is configured specifically in the field update table.
 
 Record updating is only performed for records containing at least one difference. If the values are the same, no update is performed.
 
 The **[!UICONTROL Advanced parameters]** link lets you specify additional options to deal with updating data as well as managing duplicates. You may also:
 
-* **[!UICONTROL Disable automatic key management]** .
-* **[!UICONTROL Disable audit]** .
-* **[!UICONTROL Empty the destination value if the source value is empty (NULL)]** . This option is automatically checked by default.
-* **[!UICONTROL Update all columns with matching names]** .
+* **[!UICONTROL Disable automatic key management]**.
+* **[!UICONTROL Disable audit]**.
+* **[!UICONTROL Empty the destination value if the source value is empty (NULL)]**. This option is automatically checked by default.
+* **[!UICONTROL Update all columns with matching names]**.
 * Specify conditions that consider source elements using an expression in the **[!UICONTROL Enabled if]** field.
 * Specify conditions that consider duplicates using an expression. If you check the **[!UICONTROL Ignore records which concern the same target]** option, only the first in the list of expressions will be considered.
 
@@ -111,7 +111,7 @@ Updating data and merging collections lets you update the data contained in a re
 
    You can, for example, configure the merging of collections containing heterogeneous data such as the list of subscriptions for a recipient. Using rules, you can also create new subscription histories from secondary record subscriptions, or even move the list of subscriptions from a secondary record to a primary record.
 
-1. Specify the order in which you would like the secondary records to be processed, by selecting **[!UICONTROL Advanced parameters]** > **[!UICONTROL Duplicates]** .
+1. Specify the order in which you would like the secondary records to be processed, by selecting **[!UICONTROL Advanced parameters]** > **[!UICONTROL Duplicates]**.
 
    ![](assets/update_and_merge_collections3.png)
 

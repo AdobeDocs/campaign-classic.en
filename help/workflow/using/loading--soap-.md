@@ -42,17 +42,17 @@ Operation is as follows:
 
    ![](assets/soap_load_001.png)
 
-   If you wish to update the example, select **[!UICONTROL Re-analyze the example]** .
+   If you wish to update the example, select **[!UICONTROL Re-analyze the example]**.
 
    You can also personalize the format of column data via the **[!UICONTROL Advanced parameters]** link. For more on formatting imported data, refer to this [section](../../platform/using/importing-data.md#import-wizard).
 
 1. You can use the line number as an identifier and/or specify that the SOAP call returns several elements.
 1. Enter the following tab scripts according to their function:
 
-    * **[!UICONTROL Initialization]** : establishes an SOAP connection.
-    * **[!UICONTROL Iteration]** : performs the call to SOAP service. The return for this function must be an XML object that is compatible with the description of the example or the WSDL.
+    * **[!UICONTROL Initialization]**: establishes an SOAP connection.
+    * **[!UICONTROL Iteration]**: performs the call to SOAP service. The return for this function must be an XML object that is compatible with the description of the example or the WSDL.
 
       The code of this tab will be called in a loop by Adobe Campaign until a null XML object is returned.
     
-    * **[!UICONTROL Finalization]** : closes connection and/or frees other resources created during processing.
+    * **[!UICONTROL Finalization]**: closes connection and/or frees other resources created during processing.
 

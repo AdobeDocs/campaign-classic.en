@@ -52,7 +52,7 @@ To configure the change dimension activity, apply the following steps:
 
    For example, you can recover the county based on the zip code by using a **Substring** type function. To do this:
 
-    * Click the **[!UICONTROL Add data...]** link and select **[!UICONTROL Data linked to the filtering dimension]** .
+    * Click the **[!UICONTROL Add data...]** link and select **[!UICONTROL Data linked to the filtering dimension]**.
     
       ![](assets/wf_change-dimension_sample_01.png)
 
@@ -60,11 +60,11 @@ To configure the change dimension activity, apply the following steps:
       >
       >For information on creating and managing additional columns, refer to [Adding data](../../workflow/using/query.md#adding-data).
 
-    * Select the previous targeting dimension (before axis switch) and select the **[!UICONTROL Zip Code]** in the recipient's **[!UICONTROL Location]** sub-tree, then click **[!UICONTROL Edit expression]** .
+    * Select the previous targeting dimension (before axis switch) and select the **[!UICONTROL Zip Code]** in the recipient's **[!UICONTROL Location]** sub-tree, then click **[!UICONTROL Edit expression]**.
     
       ![](assets/wf_change-dimension_sample_02.png)
 
-    * Click **[!UICONTROL Advanced selection]** and choose **[!UICONTROL Edit the formula using an expression]** .
+    * Click **[!UICONTROL Advanced selection]** and choose **[!UICONTROL Edit the formula using an expression]**.
     
       ![](assets/wf_change-dimension_sample_03.png)
 

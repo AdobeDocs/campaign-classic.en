@@ -18,7 +18,7 @@ snippet: y
 
 # General Data Protection Regulation (GDPR){#general-data-protection-regulation-gdpr}
 
-The workflows detailed below are installed with the **General Data Protection Regulation (GDPR)** module by default. For more on this module, refer to this [section](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.md).
+The workflows detailed below are installed with the **General Data Protection Regulation (GDPR)** module by default. For more on this module, refer to this [section](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html).
 
 <table> 
  <tbody> 

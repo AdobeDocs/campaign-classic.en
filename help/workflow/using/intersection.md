@@ -61,4 +61,4 @@ Each inbound event must specify a target defined by these parameters.
 * schema
 * recCount
 
-This set of three values identifies the target resulting from the intersection. **[!UICONTROL tableName]** is the name of the table that records the target identifiers, **[!UICONTROL schema]** is the schema of the population (usually **[!UICONTROL nms:recipient]** ) and **[!UICONTROL recCount]** is the number of elements in the table.
+This set of three values identifies the target resulting from the intersection. **[!UICONTROL tableName]** is the name of the table that records the target identifiers, **[!UICONTROL schema]** is the schema of the population (usually **[!UICONTROL nms:recipient]**) and **[!UICONTROL recCount]** is the number of elements in the table.

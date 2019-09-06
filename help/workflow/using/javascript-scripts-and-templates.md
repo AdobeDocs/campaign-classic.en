@@ -57,7 +57,8 @@ The properties available for these objects are can be viewed in a drop-down list
 
 >[!CAUTION]
 >
->The properties of these objects are read-only except for the sub-properties of the vars property.   
+>The properties of these objects are read-only except for the sub-properties of the vars property. 
+>  
 >Most of these properties are only updated after executing an elementary task or when the instance is passivated. The values that are read do not necessarily match the current status but the previous status.
 
 **Example**
@@ -71,7 +72,6 @@ Double-click the **JavaScript code** activity and insert the following script:
 ```
 logInfo("Label: " + instance.label)
 logInfo("Start date: " + task.creationDate)
-
 ```
 
 The **[!UICONTROL logInfo(message)]** function inserts a message into the log.
@@ -80,21 +80,21 @@ Click **[!UICONTROL OK]** to close the creation wizard, then start the workflow 
 
 ## Variables {#variables}
 
-The variables are the free properties of the **[!UICONTROL instance]** , **[!UICONTROL task]** and **[!UICONTROL event]** objects. The JavaScript types authorized for these variables are **[!UICONTROL string]** , **[!UICONTROL number]** and **[!UICONTROL Date]** .
+The variables are the free properties of the **[!UICONTROL instance]**, **[!UICONTROL task]** and **[!UICONTROL event]** objects. The JavaScript types authorized for these variables are **[!UICONTROL string]**, **[!UICONTROL number]** and **[!UICONTROL Date]**.
 
-You can find an example about how to use an instance variable in a Split activity in this [section](https://helpx.adobe.com/campaign/kb/instance-variable-in-workflow.md).
+You can find an example about how to use an instance variable in a Split activity in this [section](https://helpx.adobe.com/campaign/kb/instance-variable-in-workflow.html).
 
 ### Instance variables {#instance-variables}
 
-The instance variables ( **[!UICONTROL instance.vars.xxx]** ) are comparable to global variables: They are shared by all activities.
+The instance variables (**[!UICONTROL instance.vars.xxx]**) are comparable to global variables: They are shared by all activities.
 
 ### Task variables {#task-variables}
 
-The task variables ( **[!UICONTROL task.vars.xxx]** ) are comparable to local variables: They are only used by the current task. These variables are used by persistent activities to keep data and are sometimes used to exchange data between the different scripts of a same activity.
+The task variables (**[!UICONTROL task.vars.xxx]**) are comparable to local variables: They are only used by the current task. These variables are used by persistent activities to keep data and are sometimes used to exchange data between the different scripts of a same activity.
 
 ### Event variables {#event-variables}
 
-The event variables ( **[!UICONTROL vars.xxx]** ) enable the exchange of data between the elementary tasks of a workflow process. These variables are passed by the task that activated the task in progress. It is possible to modify them and to define new ones. They are then passed to the following activities.
+The event variables (**[!UICONTROL vars.xxx]**) enable the exchange of data between the elementary tasks of a workflow process. These variables are passed by the task that activated the task in progress. It is possible to modify them and to define new ones. They are then passed to the following activities.
 
 In the case of **AND-join** type activities, the variables are merged but if a same variable is defined twice, there is a conflict and the value remains undetermined.
 
@@ -128,7 +128,6 @@ task.vars.foo = undefined
 vars.foo = bar2
 instance.vars.foo = bar1
 Starting workflow (operator 'admin')
-
 ```
 
 This example shows that the activity following ** JavaScript Code** accesses the instance variables and event variables, but the task variables are not accessible from the outside ('undefined').
@@ -141,7 +140,7 @@ Thus, to call a variable **instance.vars.xxx = "yyy"** in a filter, enter **$(in
 
 For example:
 
-1. Create an instance variable that defines a delivery's internal name via the **[!UICONTROL JavaScript code]** : **instance.vars.deliveryIN = "DM42"**.
+1. Create an instance variable that defines a delivery's internal name via the **[!UICONTROL JavaScript code]**: **instance.vars.deliveryIN = "DM42"**.
 
    ![](assets/wkf_js_activity_1.png)
 

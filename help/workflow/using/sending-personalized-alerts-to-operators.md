@@ -56,11 +56,11 @@ Make sure that the Javascript code corresponds to your workflow information:
 
 To retrieve these information, follow the steps below:
 
-1. Right-click the outbound transition from the **[!UICONTROL Query]** ativity, then select **[!UICONTROL Display the target]** .
+1. Right-click the outbound transition from the **[!UICONTROL Query]** ativity, then select **[!UICONTROL Display the target]**.
 
    ![](assets/uc_operator_4.png)
 
-1. Right-click the list, then select **[!UICONTROL Configure list]** .
+1. Right-click the list, then select **[!UICONTROL Configure list]**.
 
    ![](assets/uc_operator_5.png)
 

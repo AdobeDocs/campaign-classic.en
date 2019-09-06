@@ -57,16 +57,16 @@ Click the **[!UICONTROL Edit configuration...]** link to define the deduplicatio
 
    The following methods are available:
 
-    * **[!UICONTROL Choose for me]** : randomly selects the record to be kept out of the duplicates.
-    * **[!UICONTROL Following a list of values]** : lets you define a value priority for one or more fields. To define the values, select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the **[!UICONTROL Add]** button located above the list of values.
+    * **[!UICONTROL Choose for me]**: randomly selects the record to be kept out of the duplicates.
+    * **[!UICONTROL Following a list of values]**: lets you define a value priority for one or more fields. To define the values, select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the **[!UICONTROL Add]** button located above the list of values.
     
       ![](assets/s_user_segmentation_dedup_param5.png)
 
-    * **[!UICONTROL Non-empty value]** : this lets you keep records for which the value of the selected expression is not empty as a priority.
+    * **[!UICONTROL Non-empty value]**: this lets you keep records for which the value of the selected expression is not empty as a priority.
     
       ![](assets/s_user_segmentation_dedup_param6.png)
 
-    * **[!UICONTROL Using an expression]** : lets you keep records with the lowest (or highest) value of the given expression. 
+    * **[!UICONTROL Using an expression]**: lets you keep records with the lowest (or highest) value of the given expression. 
     
       ![](assets/s_user_segmentation_dedup_param7.png)
 
@@ -97,14 +97,14 @@ The identified duplicates will also be integrated into a dedicated duplicates li
    The union activity is used here to "unify" the three queries into one single transition. Thus, deduplication will not work for each query individually but for the whole of the query. For more on this subject, refer to [Best practices](../../workflow/using/deduplication.md#best-practices).
 
 1. Open the deduplication activity then click the **[!UICONTROL Edit configuration...]** link to define the deduplication mode.
-1. In the new window, select **[!UICONTROL Database schema]** .
+1. In the new window, select **[!UICONTROL Database schema]**.
 1. Select **Recipients** as targeting and filtering dimensions.
-1. Select the ID field for the **[!UICONTROL Email]** duplicates, to send the delivery only once to every email address, then click **[!UICONTROL Next]** .
+1. Select the ID field for the **[!UICONTROL Email]** duplicates, to send the delivery only once to every email address, then click **[!UICONTROL Next]**.
 
    If you wish to base the duplicate IDs on a specific field, select **[!UICONTROL Other]** to access the list of available fields.
 
 1. Choose to keep only one entry when the same email address is identified for multiple recipients.
-1. Select the **[!UICONTROL Choose for me]** deduplication mode so that the records saved in case of identified duplicates are randomly chosen, then click **[!UICONTROL Finish]** .
+1. Select the **[!UICONTROL Choose for me]** deduplication mode so that the records saved in case of identified duplicates are randomly chosen, then click **[!UICONTROL Finish]**.
 
 When running the workflow, all recipients identified as duplicates are excluded from the result (and therefore the delivery) and added to the duplicates list. This list may be used again rather than having to re-identify the duplicates.
 

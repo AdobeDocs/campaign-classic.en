@@ -55,12 +55,12 @@ To do this, you must also exclude recipients that have already subscribed.
 1. Add an intersection activity to cross reference the different results.
 1. If you like, insert a list update to keep the list of latest subscribers up-to-date.
 1. Insert a subscription services activity, then double click this to configure it.
-1. Enter the activity label and select **[!UICONTROL Subscription]** .
+1. Enter the activity label and select **[!UICONTROL Subscription]**.
 
    If you like, you can inform recipients of their newsletter subscription by checking the **[!UICONTROL Send a confirmation message]** box.
 
 1. Select the folder the newsletter is in then select the newsletter from the list that appears.
-1. Leave the **[!UICONTROL Generate outbound transition]** unchecked so that this activity will mark the end of the workflow, then click **[!UICONTROL Ok]** .
+1. Leave the **[!UICONTROL Generate outbound transition]** unchecked so that this activity will mark the end of the workflow, then click **[!UICONTROL Ok]**.
 
 During workflow execution, the recipients that correspond to all three queries are added to the list and subscribed to the newsletter.
 

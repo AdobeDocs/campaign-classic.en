@@ -66,22 +66,22 @@ This section is only displayed in campaign workflows.
 
   This field lets you define the actions to be taken if a workflow task has errors. There are two possible options:
 
-    * **[!UICONTROL Stop the process]** : the workflow is automatically paused. the workflow status changes to **[!UICONTROL Failed]** . Once the issue is solved, restart the workflow using the **[!UICONTROL Start]** or **[!UICONTROL Restart]** buttons.
-    * **[!UICONTROL Ignore]** : the status of the task that triggered the error changes to **[!UICONTROL Failed]** , but the workflow keeps the **[!UICONTROL Started]** status. This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.
+    * **[!UICONTROL Stop the process]**: the workflow is automatically paused. the workflow status changes to **[!UICONTROL Failed]**. Once the issue is solved, restart the workflow using the **[!UICONTROL Start]** or **[!UICONTROL Restart]** buttons.
+    * **[!UICONTROL Ignore]**: the status of the task that triggered the error changes to **[!UICONTROL Failed]**, but the workflow keeps the **[!UICONTROL Started]** status. This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.
 
 * **[!UICONTROL Consecutive errors]**
 
-  This field becomes available when the **[!UICONTROL Ignore]** value is selected in the **[!UICONTROL In case of errors]** field. You can specify the number of errors that can be ignored before the process is stopped. Once this number is reached, the workflow status changes to **[!UICONTROL Failed]** . If the value of this field is 0, the workflow will never be stopped regardless of the number of errors.
+  This field becomes available when the **[!UICONTROL Ignore]** value is selected in the **[!UICONTROL In case of errors]** field. You can specify the number of errors that can be ignored before the process is stopped. Once this number is reached, the workflow status changes to **[!UICONTROL Failed]**. If the value of this field is 0, the workflow will never be stopped regardless of the number of errors.
 
 * **[!UICONTROL Template]**
 
-  This field lets you select the notification template to be sent to the workflow supervisors when its status changes to **[!UICONTROL Failed]** .
+  This field lets you select the notification template to be sent to the workflow supervisors when its status changes to **[!UICONTROL Failed]**.
 
-  The concerned operators will be notified by email, if there is an email address in their profile. To define workflow supervisors, go to the **[!UICONTROL Supervisor(s)]** field of the properties ( **[!UICONTROL General]** tab).
+  The concerned operators will be notified by email, if there is an email address in their profile. To define workflow supervisors, go to the **[!UICONTROL Supervisor(s)]** field of the properties (**[!UICONTROL General]** tab).
 
   ![](assets/wf-properties_select-supervisors.png)
 
   The **[!UICONTROL Notification to a workflow supervisor]** default template includes a link for accessing the Adobe Campaign console via the Web so that the recipient can work on the issue once they are logged on.
 
-  To create a personalized template, go to **[!UICONTROL Administration>Campaign management>Technical deliveries and templates]** .
+  To create a personalized template, go to **[!UICONTROL Administration>Campaign management>Technical deliveries and templates]**.
 

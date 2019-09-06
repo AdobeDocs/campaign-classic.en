@@ -52,7 +52,6 @@ Computer;2000;London 5
 Comptuer;2000;London 8
 Tablet;600;Cambridge
 Phone;500;London 5
-
 ```
 
 This data is contained in a "Purchases.txt" text file.
@@ -87,7 +86,7 @@ Add the Enrichment activity and configure it as follows:
 
    ![](assets/uc2_enrich_enrich1.png)
 
-1. Click **[!UICONTROL Add data]** , then select the **[!UICONTROL A link]** option.
+1. Click **[!UICONTROL Add data]**, then select the **[!UICONTROL A link]** option.
 
    ![](assets/uc2_enrich_enrich2.png)
 
@@ -105,8 +104,8 @@ In the following window, you need to create a join condition by selecting the so
 Now the link is created, we're going to add a column to the work table of the workflow from the "Stores" schema: the "ZipCode Reference" field.
 
 1. Open the enrichment activity.
-1. Click **[!UICONTROL Edit additional data]** .
-1. Add the "ZipCode Reference" field to the **[!UICONTROL Output columns]** .
+1. Click **[!UICONTROL Edit additional data]**.
+1. Add the "ZipCode Reference" field to the **[!UICONTROL Output columns]**.
 
 ![](assets/uc2_enrich_enrich5.png)
 
@@ -132,7 +131,7 @@ In the **Update data** activity, the following configuration is needed:
 
 1. Select the **[!UICONTROL Insert or update]** option in the **[!UICONTROL Operation type]** field to avoid creating new records each time the file is collected.
 1. Select the **[!UICONTROL By directly using the targeting dimension]** value for the **[!UICONTROL Record identification]** option.
-1. Select the "Purchases" schema as a **[!UICONTROL Document type]** .
+1. Select the "Purchases" schema as a **[!UICONTROL Document type]**.
 1. Specify the list of fields to be updated. The **[!UICONTROL Destination]** column lets you define the fields of the "Purchases" schema. The **[!UICONTROL Expression]** column lets you select the fields in the work table to carry out a mapping.
 1. Click the **[!UICONTROL Generate an outbound transition]** option.
 
@@ -146,10 +145,10 @@ The purpose of this second enrichment is to create an aggregate on the purchase 
 
 1. Add a **query** type activity that lets you recover all **Contacts** stored.
 1. Add an **Enrichment** activity then select the main set resulting from the previous query.
-1. Click add **[!UICONTROL Data]** .
+1. Click add **[!UICONTROL Data]**.
 1. Click the **[!UICONTROL Data linked to the targeting dimension]** option.
 1. Click the **[!UICONTROL Data linked to the filtering dimension]** option in the **[!UICONTROL Select fields to add]** window.
-1. Select the **[!UICONTROL Purchases]** node then click **[!UICONTROL Next]** .
+1. Select the **[!UICONTROL Purchases]** node then click **[!UICONTROL Next]**.
 
    ![](assets/uc2_enrich_enrich9.png)
 
@@ -157,7 +156,7 @@ The purpose of this second enrichment is to create an aggregate on the purchase 
 
    ![](assets/uc2_enrich_enrich10.png)
 
-1. Click **[!UICONTROL Next]** .
+1. Click **[!UICONTROL Next]**.
 1. Add the following expression to calculate the purchase total for each contact: "Sum(@prodprice)".
 
    ![](assets/uc2_enrich_enrich6.png)

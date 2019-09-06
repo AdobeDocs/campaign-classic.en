@@ -77,15 +77,15 @@ Once your target is identified and your first delivery created, you need to segm
 
    ![](assets/wkf_cross-channel_6.png)
 
-1. For the first subset, select the **[!UICONTROL Add a filtering condition on the inbound population]** option and click **[!UICONTROL Edit]** .
+1. For the first subset, select the **[!UICONTROL Add a filtering condition on the inbound population]** option and click **[!UICONTROL Edit]**.
 
    ![](assets/wkf_cross-channel_8.png)
 
-1. Select **[!UICONTROL Recipients of a delivery]** as the restriction filter and click **[!UICONTROL Next]** .
+1. Select **[!UICONTROL Recipients of a delivery]** as the restriction filter and click **[!UICONTROL Next]**.
 
    ![](assets/wkf_cross-channel_9.png)
 
-1. In the filter settings, select **[!UICONTROL Recipients who have not opened or clicked (email)]** from the **[!UICONTROL Behavior]** drop-down list and select the email including the offer you want to send from the delivery list. Click **[!UICONTROL Finish]** .
+1. In the filter settings, select **[!UICONTROL Recipients who have not opened or clicked (email)]** from the **[!UICONTROL Behavior]** drop-down list and select the email including the offer you want to send from the delivery list. Click **[!UICONTROL Finish]**.
 
    ![](assets/wkf_cross-channel_10.png)
 
@@ -93,8 +93,8 @@ Once your target is identified and your first delivery created, you need to segm
 
    ![](assets/wkf_cross-channel_11.png)
 
-1. For the third subset, after selecting the **[!UICONTROL Add a filtering condition on the inbound population]** and clicking **[!UICONTROL Edit]** , select the **[!UICONTROL Use a specific filtering dimension]** option.
-1. Select **[!UICONTROL Recipient tracking log]** from the **[!UICONTROL Filtering dimension]** drop-down list, highlight **[!UICONTROL Filtering conditions]** from the **[!UICONTROL List of restriction filters]** and click **[!UICONTROL Next]** .
+1. For the third subset, after selecting the **[!UICONTROL Add a filtering condition on the inbound population]** and clicking **[!UICONTROL Edit]**, select the **[!UICONTROL Use a specific filtering dimension]** option.
+1. Select **[!UICONTROL Recipient tracking log]** from the **[!UICONTROL Filtering dimension]** drop-down list, highlight **[!UICONTROL Filtering conditions]** from the **[!UICONTROL List of restriction filters]** and click **[!UICONTROL Next]**.
 
    ![](assets/wkf_cross-channel_12.png)
 

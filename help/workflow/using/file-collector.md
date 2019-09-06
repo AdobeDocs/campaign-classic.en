@@ -26,7 +26,7 @@ The files must be on the server on which the wfserver module in charge of this w
 
 ## Properties {#properties}
 
-The first tab of the **[!UICONTROL File collector]** activity lets you select the source directory and, if necessary, filter the collected files. The other tabs are detailed in [Inbound Emails](../../workflow/using/inbound-emails.md) ( **[!UICONTROL Schedule]** and **[!UICONTROL Expiry]** tabs).
+The first tab of the **[!UICONTROL File collector]** activity lets you select the source directory and, if necessary, filter the collected files. The other tabs are detailed in [Inbound Emails](../../workflow/using/inbound-emails.md) (**[!UICONTROL Schedule]** and **[!UICONTROL Expiry]** tabs).
 
 ![](assets/file_collect_edit.png)
 

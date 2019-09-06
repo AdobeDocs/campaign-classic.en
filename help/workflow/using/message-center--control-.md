@@ -30,10 +30,8 @@ To know more about how to configure technical workflows related to the Message C
    <td> <strong>Description</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Message Center 
-     &lt;external_account_name /></strong><br /> </td> 
-   <td> <strong>mcSynch_
-     &lt;external_account_name /></strong>&gt;<br /> </td> 
+   <td> Message Center &lt;external_account_name&gt;<br /> </td> 
+   <td> mcSynch_&lt;external_account_name&gt;<br /> </td> 
    <td> This workflow:<br /> 
     <ul> 
      <li> <p>recovers the list of events processed by the operation(s).</p> </li> 

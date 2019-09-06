@@ -57,7 +57,8 @@ For an import activity, the **CRM Connector** activity configuration steps are:
 
    >[!CAUTION]
    >
-   >The identifier of the record in the CRM is mandatory for linking objects in CRM and in Adobe Campaign. It is automatically added when the activity is approved.  
+   >The identifier of the record in the CRM is mandatory for linking objects in CRM and in Adobe Campaign. It is automatically added when the activity is approved. 
+   > 
    >The last modification date on the CRM side is also mandatory for incremental data imports.
 
 1. You can also filter the data to be imported based on your needs. To do this, click the **[!UICONTROL Edit the filter...]** link.
@@ -179,9 +180,9 @@ The **[!UICONTROL Default]** mode applies automatic data conversion, which in mo
 
 Other possible conversions are:
 
-* **[!UICONTROL Date only]** : this mode deletes Date + Time type fields.
-* **[!UICONTROL Without time offset]** : this mode cancels the time zone management applied in the default mode.
-* **[!UICONTROL Copy/Paste]** : this mode uses raw data such as strings (no conversion).
+* **[!UICONTROL Date only]**: this mode deletes Date + Time type fields.
+* **[!UICONTROL Without time offset]**: this mode cancels the time zone management applied in the default mode.
+* **[!UICONTROL Copy/Paste]**: this mode uses raw data such as strings (no conversion).
 
 ![](assets/crm_export_options.png)
 

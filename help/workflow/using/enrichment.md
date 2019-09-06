@@ -41,13 +41,13 @@ The **[!UICONTROL A link]** option lets you create a join on any table of the da
 
 There are four types of links:
 
-* **[!UICONTROL Define a collection]** : lets you define a link with a 1-N cardinality between the tables.
-* **[!UICONTROL Define a link whose target is still available]** : lets you define a link with a 1-1 cardinality between tables. The join conditions must be defined by a single record in the target table.
-* **[!UICONTROL Define a link whose target does not necessarily exist in the base]** : lets you define a link with a 0-1 cardinality between tables. The join condition must be defined by 0 or 1 (max.) record in the target table.
+* **[!UICONTROL Define a collection]**: lets you define a link with a 1-N cardinality between the tables.
+* **[!UICONTROL Define a link whose target is still available]**: lets you define a link with a 1-1 cardinality between tables. The join conditions must be defined by a single record in the target table.
+* **[!UICONTROL Define a link whose target does not necessarily exist in the base]**: lets you define a link with a 0-1 cardinality between tables. The join condition must be defined by 0 or 1 (max.) record in the target table.
 
   This option is configured in the **[!UICONTROL Simple Join]** tab that can be accessed via the **[!UICONTROL Edit additional data]** link of the **[!UICONTROL Enrichment]** activity.
 
-* **[!UICONTROL Define a link by searching for a reference among several options]** : this type of link defines a reconciliation towards a unique record. Adobe Campaign creates a link to a target table by adding a foreign key in the target table for storing a reference to the unique record.
+* **[!UICONTROL Define a link by searching for a reference among several options]**: this type of link defines a reconciliation towards a unique record. Adobe Campaign creates a link to a target table by adding a foreign key in the target table for storing a reference to the unique record.
 
   This option is configured in the **[!UICONTROL Reconciliation and deduplication]** tab that can be accessed via the **[!UICONTROL Edit additional data]** link of the **[!UICONTROL Enrichment]** activity.
 
@@ -138,7 +138,7 @@ At the output of this enrichment activity, the temporary schema will contain the
 
 The enrichment activity can be used to configure data reconciliation, including once data has been loaded into the database. In this case, the **[!UICONTROL Reconciliation]** tab lets you define the link between the data in the Adobe Campaign database and the data in the work table.
 
-Select the **[!UICONTROL Identify the targeting document based on work data]** option, specify the schema you want to create a link to and define the joining conditions: to do this, select the fields to be reconciled in the work data ( **[!UICONTROL Source expression]** ) and in the targeting dimension ( **[!UICONTROL Destination expression]** ).
+Select the **[!UICONTROL Identify the targeting document based on work data]** option, specify the schema you want to create a link to and define the joining conditions: to do this, select the fields to be reconciled in the work data (**[!UICONTROL Source expression]**) and in the targeting dimension (**[!UICONTROL Destination expression]**).
 
 You can use one or more reconciliation criteria.
 
@@ -159,7 +159,7 @@ For example, you can enrich the data for a recipient query before a delivery.
 After configuring your query (refer to this [section](../../workflow/using/query.md)):
 
 1. Add and open an enrichment activity.
-1. In the **[!UICONTROL Enrichment]** tab, select **[!UICONTROL Add data]** .
+1. In the **[!UICONTROL Enrichment]** tab, select **[!UICONTROL Add data]**.
 1. Select **[!UICONTROL An offer proposition]** in the types of data to add.
 
    ![](assets/int_enrichment_offer2.png)
@@ -167,11 +167,11 @@ After configuring your query (refer to this [section](../../workflow/using/query
 1. Specify an identifier as well as a label for the proposition that will be added.
 1. Specify the offer selection. There are two possible options for this:
 
-    * **[!UICONTROL Search for the best offer in a category]** : check this option and specify the offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters. We recommend completing either the **[!UICONTROL Category]** or the **[!UICONTROL Theme]** field, rather than both at the same time.
+    * **[!UICONTROL Search for the best offer in a category]**: check this option and specify the offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters. We recommend completing either the **[!UICONTROL Category]** or the **[!UICONTROL Theme]** field, rather than both at the same time.
     
       ![](assets/int_enrichment_offer3.png)
 
-    * **[!UICONTROL A predefined offer]** : check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the offer engine.
+    * **[!UICONTROL A predefined offer]**: check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the offer engine.
     
       ![](assets/int_enrichment_offer4.png)
 
@@ -188,7 +188,7 @@ You can also reference a link to an offer in an enrichment activity.
 To do this:
 
 1. Select **[!UICONTROL Add data]** in the activity's **[!UICONTROL Enrichment]** tab.
-1. In the window where you choose the type of data to add, select **[!UICONTROL A link]** .
+1. In the window where you choose the type of data to add, select **[!UICONTROL A link]**.
 1. Select the type of link you want to establish as well as its target. In this case, the target is the offer schema.
 
    ![](assets/int_enrichment_link1.png)
@@ -212,7 +212,7 @@ The **[!UICONTROL Offer engine]** activity does store this information by defaul
 However, you can store this information as follows:
 
 1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. Refer to this [section](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
-1. In the activity's main window, select **[!UICONTROL Edit additional data...]** .
+1. In the activity's main window, select **[!UICONTROL Edit additional data...]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
 

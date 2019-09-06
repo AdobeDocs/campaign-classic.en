@@ -32,7 +32,7 @@ The upper section of the configuration window for this activity lets you define 
 
 ![](assets/s_advuser_wf_etl_file.png)
 
-You can define a pre-process to be executed during file import, for example so as not to have to unzip the file on the server (and therefore save space for the unzipped file) but to include unzipping in file processing. Select the **[!UICONTROL Pre-process the file]** option and choose from one of 3 options: **[!UICONTROL None]** , **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg).
+You can define a pre-process to be executed during file import, for example so as not to have to unzip the file on the server (and therefore save space for the unzipped file) but to include unzipping in file processing. Select the **[!UICONTROL Pre-process the file]** option and choose from one of 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg).
 
 ## Defining the file format {#defining-the-file-format}
 
@@ -48,34 +48,34 @@ The general file formatting allows you to define the way in which the columns wi
 
 The column formatting allows you to define the value processing of each column:
 
-* **[!UICONTROL Ignore column]** : does not process this column during data loading.
-* **[!UICONTROL Data type]** : specifies the type of data expected for each column.
-* **[!UICONTROL Allow NULLs]** : specifies how to manage empty values.
+* **[!UICONTROL Ignore column]**: does not process this column during data loading.
+* **[!UICONTROL Data type]**: specifies the type of data expected for each column.
+* **[!UICONTROL Allow NULLs]**: specifies how to manage empty values.
 
-    * **[!UICONTROL Adobe Campaign default]** : generates an error for the numerical fields only, otherwise inserts a NULL value.
-    * **[!UICONTROL Empty value allowed]** : authorizes empty values. The value NULL is therefore inserted.
-    * **[!UICONTROL Always populated]** : generates an error if a value is empty.
+    * **[!UICONTROL Adobe Campaign default]**: generates an error for the numerical fields only, otherwise inserts a NULL value.
+    * **[!UICONTROL Empty value allowed]**: authorizes empty values. The value NULL is therefore inserted.
+    * **[!UICONTROL Always populated]**: generates an error if a value is empty.
 
-* **[!UICONTROL Length]** : specifies the maximum number of characters for the **string** data type.
-* **[!UICONTROL Format]** : defines the time and date format.
-* **[!UICONTROL Data transformation]** : defines whether a character case process needs to be applied on a **string**.
+* **[!UICONTROL Length]**: specifies the maximum number of characters for the **string** data type.
+* **[!UICONTROL Format]**: defines the time and date format.
+* **[!UICONTROL Data transformation]**: defines whether a character case process needs to be applied on a **string**.
 
-    * **[!UICONTROL None]** : the imported string is not modified.
-    * **[!UICONTROL First letter in upper case]** : the first letter of each word of the string starts with an upper case.
-    * **[!UICONTROL Upper case]** : all characters in the string are in upper case.
-    * **[!UICONTROL Lower case]** : all characters in the string are in lower case.
+    * **[!UICONTROL None]**: the imported string is not modified.
+    * **[!UICONTROL First letter in upper case]**: the first letter of each word of the string starts with an upper case.
+    * **[!UICONTROL Upper case]**: all characters in the string are in upper case.
+    * **[!UICONTROL Lower case]**: all characters in the string are in lower case.
 
-* **[!UICONTROL White space management]** : specifies whether certain spaces need to be ignored in a string. The **[!UICONTROL Ignore spaces]** value only allows spaces at the beginning and at the end of a string to be ignored.
-* **[!UICONTROL Error processings]** : defines the behavior if an error is encountered.
+* **[!UICONTROL White space management]**: specifies whether certain spaces need to be ignored in a string. The **[!UICONTROL Ignore spaces]** value only allows spaces at the beginning and at the end of a string to be ignored.
+* **[!UICONTROL Error processings]**: defines the behavior if an error is encountered.
 
-    * **[!UICONTROL Ignore the value]** : the value is ignored. A warning is generated in the workflow execution log.
-    * **[!UICONTROL Reject line]** : the entire line is not processed.
-    * **[!UICONTROL Use a default value in case of error]** : replaces the value causing the error with a default value, defined in the **[!UICONTROL Default value]** field.
-    * **[!UICONTROL Reject the line when there is no remapping value]** : the whole line is not processed unless a mapping had been defined for the erroneous value (see the **[!UICONTROL Mapping]** option below).
-    * **[!UICONTROL Use a default value in case the value is not remapped]** : replaces the value causing the error with a default value, defined in the **[!UICONTROL Default value]** field, unless a mapping had been defined for the erroneous value (see the **[!UICONTROL Mapping]** option below).
+    * **[!UICONTROL Ignore the value]**: the value is ignored. A warning is generated in the workflow execution log.
+    * **[!UICONTROL Reject line]**: the entire line is not processed.
+    * **[!UICONTROL Use a default value in case of error]**: replaces the value causing the error with a default value, defined in the **[!UICONTROL Default value]** field.
+    * **[!UICONTROL Reject the line when there is no remapping value]**: the whole line is not processed unless a mapping had been defined for the erroneous value (see the **[!UICONTROL Mapping]** option below).
+    * **[!UICONTROL Use a default value in case the value is not remapped]**: replaces the value causing the error with a default value, defined in the **[!UICONTROL Default value]** field, unless a mapping had been defined for the erroneous value (see the **[!UICONTROL Mapping]** option below).
 
-* **[!UICONTROL Default value]** : specifies the default value according to the error processing chosen.
-* **[!UICONTROL Mapping]** : this field is only available in the column detail configuration (accessed via a double-click or via the options on the right of the column list). This transforms certain values when they are imported. For example, you can transform "three" into "3".
+* **[!UICONTROL Default value]**: specifies the default value according to the error processing chosen.
+* **[!UICONTROL Mapping]**: this field is only available in the column detail configuration (accessed via a double-click or via the options on the right of the column list). This transforms certain values when they are imported. For example, you can transform "three" into "3".
 
 ## Example: Collecting data and loading it in the database {#example--collecting-data-and-loading-it-in-the-database}
 

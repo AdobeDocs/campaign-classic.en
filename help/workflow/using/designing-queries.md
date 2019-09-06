@@ -42,16 +42,16 @@ In this example, we want to recover the names and emails of recipients whose ema
 
 To create this example, apply the following steps:
 
-1. Click **[!UICONTROL Tools > Generic query editor...]** and choose the **Recipients** (**nms:recipient**) table. Then click **[!UICONTROL Next]** .
-1. Choose: **[!UICONTROL Last name]** , **[!UICONTROL First name]** , **[!UICONTROL Email]** , **[!UICONTROL City]** and **[!UICONTROL Account number]** . These fields are added to **[!UICONTROL Output columns]** . Then click **[!UICONTROL Next]** .
+1. Click **[!UICONTROL Tools > Generic query editor...]** and choose the **Recipients** (**nms:recipient**) table. Then click **[!UICONTROL Next]**.
+1. Choose: **[!UICONTROL Last name]**, **[!UICONTROL First name]**, **[!UICONTROL Email]**, **[!UICONTROL City]** and **[!UICONTROL Account number]**. These fields are added to **[!UICONTROL Output columns]**. Then click **[!UICONTROL Next]**.
 
    ![](assets/query_editor_03.png)
 
-1. Sort the columns to display them in the right order. Here we want to sort account numbers in descending order and names in alphabetical order. Then click **[!UICONTROL Next]** .
+1. Sort the columns to display them in the right order. Here we want to sort account numbers in descending order and names in alphabetical order. Then click **[!UICONTROL Next]**.
 
    ![](assets/query_editor_04.png)
 
-1. In the **[!UICONTROL Data filtering]** window, refine your search: choose **[!UICONTROL Filtering conditions]** and click **[!UICONTROL Next]** .
+1. In the **[!UICONTROL Data filtering]** window, refine your search: choose **[!UICONTROL Filtering conditions]** and click **[!UICONTROL Next]**.
 1. The **[!UICONTROL Target element]** window lets you enter the filter settings.
 
    Define the following filter condition: recipients with an email domain equal to "orange.co.uk". To do this, choose **Email domain (@email)** in the **[!UICONTROL Expression]** column, choose **equal to** in the **[!UICONTROL Operator]** column and enter "orange.co.uk" in the **[!UICONTROL Value]** column.
@@ -78,7 +78,7 @@ To create this example, apply the following steps:
 
    ![](assets/query_editor_nveau_15.png)
 
-1. In the **[!UICONTROL Data preview]** window, click **[!UICONTROL Start the preview of the data]** . This function calculates the result of the query.
+1. In the **[!UICONTROL Data preview]** window, click **[!UICONTROL Start the preview of the data]**. This function calculates the result of the query.
 
    The **[!UICONTROL Column results]** tab shows the query result in columns.
 
@@ -102,7 +102,7 @@ In this example, we are looking to recover the number of clicks for a specific d
 
 * Which table needs to be selected?
 
-  The recipient log tracking table ( **[!UICONTROL nms:trackingLogRcp]** )
+  The recipient log tracking table (**[!UICONTROL nms:trackingLogRcp]**)
 
 * Fields to be selected for output columns?
 
@@ -118,27 +118,27 @@ To carry out this example, apply the following steps:
 
    ![](assets/query_editor_tracklog_05.png)
 
-1. In the **[!UICONTROL Data to extract]** window, we want to create an aggregate to collect information. To do this, add the primary key (located above the main **[!UICONTROL Recipient tracking logs]** element): Tracking log count is carried out on this **[!UICONTROL Primary key]** field. The edited expression will be **[!UICONTROL x=count(primary key)]** . It links the sum of various tracking logs to a single email address.
+1. In the **[!UICONTROL Data to extract]** window, we want to create an aggregate to collect information. To do this, add the primary key (located above the main **[!UICONTROL Recipient tracking logs]** element): Tracking log count is carried out on this **[!UICONTROL Primary key]** field. The edited expression will be **[!UICONTROL x=count(primary key)]**. It links the sum of various tracking logs to a single email address.
 
    To do this:
 
-    * Click the **[!UICONTROL Add]** icon to the right of the **[!UICONTROL Output columns]** field. In the **[!UICONTROL Formula type]** window, select the **[!UICONTROL Edit the formula using an expression]** option and click **[!UICONTROL Next]** . In the **[!UICONTROL Field to select]** window, click **[!UICONTROL Advanced selection]** .
+    * Click the **[!UICONTROL Add]** icon to the right of the **[!UICONTROL Output columns]** field. In the **[!UICONTROL Formula type]** window, select the **[!UICONTROL Edit the formula using an expression]** option and click **[!UICONTROL Next]**. In the **[!UICONTROL Field to select]** window, click **[!UICONTROL Advanced selection]**.
     
       ![](assets/query_editor_tracklog_06.png)
 
     * In the **[!UICONTROL Formula type]** window, run a process on the aggregate function. This process will be a primary key count.
 
-      Select **[!UICONTROL Process on an aggregate function]** in the **[!UICONTROL Aggregate]** section and click **[!UICONTROL Count]** .
+      Select **[!UICONTROL Process on an aggregate function]** in the **[!UICONTROL Aggregate]** section and click **[!UICONTROL Count]**.
     
       ![](assets/query_editor_nveau_18.png)
 
-      Click **[!UICONTROL Next]** .
+      Click **[!UICONTROL Next]**.
     
     * Select the **[!UICONTROL Primary key (@id)]** field. The **[!UICONTROL count (primary key)]** output column is configured.
     
       ![](assets/query_editor_nveau_19.png)
 
-1. Select the other field to be displayed in the output column. In the **[!UICONTROL Available fields]** column, open the **[!UICONTROL Recipient]** node and choose **[!UICONTROL Email]** . Check the **[!UICONTROL Group]** box to **[!UICONTROL Yes]** to group the tracking logs by email address: this group links each log to its recipient.
+1. Select the other field to be displayed in the output column. In the **[!UICONTROL Available fields]** column, open the **[!UICONTROL Recipient]** node and choose **[!UICONTROL Email]**. Check the **[!UICONTROL Group]** box to **[!UICONTROL Yes]** to group the tracking logs by email address: this group links each log to its recipient.
 
    ![](assets/query_editor_nveau_20.png)
 
@@ -150,35 +150,35 @@ To carry out this example, apply the following steps:
 
    To do this:
 
-    * Configure data filtering. To do this, select **[!UICONTROL Filter conditions]** then click **[!UICONTROL Next]** .
+    * Configure data filtering. To do this, select **[!UICONTROL Filter conditions]** then click **[!UICONTROL Next]**.
     
       ![](assets/query_editor_nveau_22.png)
 
     * Recover tracking logs over a given period for a specific delivery. Three filtering conditions are necessary: two date conditions to set the search period between 2 weeks before the current date and the day before the current date; and another condition to restrict the search to a specific delivery.
 
-      In the **[!UICONTROL Target element]** window, configure the date starting from which tracking logs will be taken into account. Click **[!UICONTROL Add]** . A condition line is displayed. Edit the **[!UICONTROL Expression]** column by clicking the **[!UICONTROL Edit expression]** function. In the **[!UICONTROL Field to select]** window, choose **[!UICONTROL Date (@logDate)]** .
+      In the **[!UICONTROL Target element]** window, configure the date starting from which tracking logs will be taken into account. Click **[!UICONTROL Add]**. A condition line is displayed. Edit the **[!UICONTROL Expression]** column by clicking the **[!UICONTROL Edit expression]** function. In the **[!UICONTROL Field to select]** window, choose **[!UICONTROL Date (@logDate)]**.
     
       ![](assets/query_editor_nveau_23.png)
 
-      Select the **[!UICONTROL greater than]** operator. In the **[!UICONTROL Value]** column, click **[!UICONTROL Edit expression]** , and in the **[!UICONTROL Formula type]** window, select **[!UICONTROL Process on dates]** . Finally, in **[!UICONTROL Current date minus n days]** , enter "15".
+      Select the **[!UICONTROL greater than]** operator. In the **[!UICONTROL Value]** column, click **[!UICONTROL Edit expression]**, and in the **[!UICONTROL Formula type]** window, select **[!UICONTROL Process on dates]**. Finally, in **[!UICONTROL Current date minus n days]**, enter "15".
 
-      Click **[!UICONTROL Finish]** .
+      Click **[!UICONTROL Finish]**.
     
       ![](assets/query_editor_nveau_24.png)
 
-    * To select the tracking log search end date, create a second condition by clicking **[!UICONTROL Add]** . In the **[!UICONTROL Expression]** column, choose **[!UICONTROL Date (@logDate)]** again.
+    * To select the tracking log search end date, create a second condition by clicking **[!UICONTROL Add]**. In the **[!UICONTROL Expression]** column, choose **[!UICONTROL Date (@logDate)]** again.
 
-      Select the **[!UICONTROL less than]** operator. In the **[!UICONTROL Value]** column, click **[!UICONTROL Edit expression]** . For date processing, go to the **[!UICONTROL Formula type]** window, enter "1" in **[!UICONTROL Current date minus n days]** .
+      Select the **[!UICONTROL less than]** operator. In the **[!UICONTROL Value]** column, click **[!UICONTROL Edit expression]**. For date processing, go to the **[!UICONTROL Formula type]** window, enter "1" in **[!UICONTROL Current date minus n days]**.
 
-      Click **[!UICONTROL Finish]** .
+      Click **[!UICONTROL Finish]**.
     
       ![](assets/query_editor_nveau_65.png)
 
       Now we want to configure the third filter condition, i.e. the delivery label which our query concerns.
     
-    * Click the **[!UICONTROL Add]** function to create another filtering condition. In the **[!UICONTROL Expression]** column, click **[!UICONTROL Edit expression]** . In the **[!UICONTROL Field to select]** window, choose **[!UICONTROL Label]** in the **[!UICONTROL Delivery]** node.
+    * Click the **[!UICONTROL Add]** function to create another filtering condition. In the **[!UICONTROL Expression]** column, click **[!UICONTROL Edit expression]**. In the **[!UICONTROL Field to select]** window, choose **[!UICONTROL Label]** in the **[!UICONTROL Delivery]** node.
 
-      Click **[!UICONTROL Finish]** .
+      Click **[!UICONTROL Finish]**.
     
       ![](assets/query_editor_nveau_66.png)
 
@@ -202,22 +202,22 @@ In this example, we want to filter recipients who didn't open an email in the la
 To create this example, apply the following steps:
 
 1. Drag and drop a **[!UICONTROL Query]** activity in a workflow and open the activity.
-1. Click **[!UICONTROL Edit query]** and set the target and filtering dimensions to **[!UICONTROL Recipients]** .
+1. Click **[!UICONTROL Edit query]** and set the target and filtering dimensions to **[!UICONTROL Recipients]**.
 
    ![](assets/query_recipients_1.png)
 
-1. Select **[!UICONTROL Filtering conditions]** then click **[!UICONTROL Next]** .
-1. Click the **[!UICONTROL Add]** button and select **[!UICONTROL Tracking logs]** .
-1. Set the **[!UICONTROL Operator]** of the **[!UICONTROL Tracking logs]** expression to **[!UICONTROL Do not exist such as]** .
+1. Select **[!UICONTROL Filtering conditions]** then click **[!UICONTROL Next]**.
+1. Click the **[!UICONTROL Add]** button and select **[!UICONTROL Tracking logs]**.
+1. Set the **[!UICONTROL Operator]** of the **[!UICONTROL Tracking logs]** expression to **[!UICONTROL Do not exist such as]**.
 
    ![](assets/query_open_1.png)
 
 1. Add another expression. Select **[!UICONTROL Type]** in the **[!UICONTROL URL]** category.
-1. Then, set its **[!UICONTROL Operator]** to **[!UICONTROL equal to]** and its **[!UICONTROL Value]** to **[!UICONTROL Open]** .
+1. Then, set its **[!UICONTROL Operator]** to **[!UICONTROL equal to]** and its **[!UICONTROL Value]** to **[!UICONTROL Open]**.
 
    ![](assets/query_open_2.png)
 
-1. Add another expression and select **[!UICONTROL Date]** . **[!UICONTROL Operator]** should be set to **[!UICONTROL on or after]** .
+1. Add another expression and select **[!UICONTROL Date]**. **[!UICONTROL Operator]** should be set to **[!UICONTROL on or after]**.
 
    ![](assets/query_open_3.png)
 
@@ -228,7 +228,7 @@ To create this example, apply the following steps:
 
 Your outbound transition will contain recipients who didn't open an email in the last 7 days.
 
-If, on the opposite, you want to filter recipients who opened at least one email your query should be as follows. Please note that, in this case, the **[!UICONTROL Filtering dimension]** shoud be set to **[!UICONTROL Tracking logs (Recipients)]** .
+If, on the opposite, you want to filter recipients who opened at least one email your query should be as follows. Please note that, in this case, the **[!UICONTROL Filtering dimension]** shoud be set to **[!UICONTROL Tracking logs (Recipients)]**.
 
 ![](assets/query_open_5.png)
 
@@ -283,12 +283,12 @@ The following steps show you how to configure the **[!UICONTROL Split]** box by 
    ![](assets/query_editor_ex_04.png)
 
 1. In the **[!UICONTROL Subsets]** tab, define the first split branch. For example, enter the **Clicked** label for this branch.
-1. Select the **[!UICONTROL Add a filtering condition on the incoming population]** option. Click **[!UICONTROL Edit]** .
+1. Select the **[!UICONTROL Add a filtering condition on the incoming population]** option. Click **[!UICONTROL Edit]**.
 1. In the **[!UICONTROL Targeting and filtering dimension]** window, double-click the **[!UICONTROL Recipients of a delivery]** filter.
 
    ![](assets/query_editor_ex_05.png)
 
-1. In the **[!UICONTROL Target element]** window, select the behavior you want to apply to this branch: **[!UICONTROL Recipients having clicked (email)]** .
+1. In the **[!UICONTROL Target element]** window, select the behavior you want to apply to this branch: **[!UICONTROL Recipients having clicked (email)]**.
 
    Below, select the **[!UICONTROL Delivery specified by the transition]** option. This functionality will automatically recover the people targeted during the first delivery.
 
@@ -301,7 +301,7 @@ The following steps show you how to configure the **[!UICONTROL Split]** box by 
    ![](assets/query_editor_ex_06.png)
 
 1. Another sub-tab is displayed. Name it "**Did not click**".
-1. Click **[!UICONTROL Add a filtering condition for the incoming population]** . Then click **[!UICONTROL Edit...]** .
+1. Click **[!UICONTROL Add a filtering condition for the incoming population]**. Then click **[!UICONTROL Edit...]**.
 
    ![](assets/query_editor_ex_07.png)
 
@@ -342,11 +342,11 @@ In this example, we want to count the number of recipients living in London, acc
 
 To create this example, apply the following steps:
 
-1. In **[!UICONTROL Data to extract]** , define a count for the primary key (as shown in the previous example). Add the **[!UICONTROL Gender]** field in the output column. Check the **[!UICONTROL Group]** option in the **[!UICONTROL Gender]** column. This way recipients will be grouped by gender.
+1. In **[!UICONTROL Data to extract]**, define a count for the primary key (as shown in the previous example). Add the **[!UICONTROL Gender]** field in the output column. Check the **[!UICONTROL Group]** option in the **[!UICONTROL Gender]** column. This way recipients will be grouped by gender.
 
    ![](assets/query_editor_nveau_27.png)
 
-1. In the **[!UICONTROL Sorting]** window, click **[!UICONTROL Next]** : no sorting is necessary here.
+1. In the **[!UICONTROL Sorting]** window, click **[!UICONTROL Next]**: no sorting is necessary here.
 1. Configure data filtering. Here, you want to restrict the selection to contacts who live in London.
 
    ![](assets/query_editor_22.png)
@@ -355,8 +355,8 @@ To create this example, apply the following steps:
    >
    >Values are case-sensitive. If the 'London' value is entered in the condition without a capital letter and the list of recipients contains the word "London" with a capital letter, the query will fail.
 
-1. In the **[!UICONTROL Data formatting]** window, click **[!UICONTROL Next]** : no formatting is required for this example.
-1. In the preview window, click **[!UICONTROL Launch data preview]** .
+1. In the **[!UICONTROL Data formatting]** window, click **[!UICONTROL Next]**: no formatting is required for this example.
+1. In the preview window, click **[!UICONTROL Launch data preview]**.
 
    There are three separate values for each sort by gender: **2** for female, **1** for male and **0** when the gender is unknown. In this example, the list contains 10 women, 16 men and 2 people whose gender is not known.
 
@@ -392,14 +392,14 @@ To create this example, apply the following steps:
 
    ![](assets/query_editor_nveau_29.png)
 
-1. In the **[!UICONTROL Sorting]** window, sort email domains in descending order. To do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Descending sort]** column. Click **[!UICONTROL Next]** .
+1. In the **[!UICONTROL Sorting]** window, sort email domains in descending order. To do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Descending sort]** column. Click **[!UICONTROL Next]**.
 
    ![](assets/query_editor_nveau_70.png)
 
-1. In **[!UICONTROL Data filtering]** , select **[!UICONTROL Filtering conditions]** . Go to the **[!UICONTROL Target elements]** window and click **[!UICONTROL Next]** .
-1. In the **[!UICONTROL Data grouping]** window, select the **[!UICONTROL Email domain]** by clicking **[!UICONTROL Add]** .
+1. In **[!UICONTROL Data filtering]**, select **[!UICONTROL Filtering conditions]**. Go to the **[!UICONTROL Target elements]** window and click **[!UICONTROL Next]**.
+1. In the **[!UICONTROL Data grouping]** window, select the **[!UICONTROL Email domain]** by clicking **[!UICONTROL Add]**.
 
-   This data grouping window is only displayed if the **[!UICONTROL Handle groupings (GROUP BY + HAVING]** ) box was checked.
+   This data grouping window is only displayed if the **[!UICONTROL Handle groupings (GROUP BY + HAVING]**) box was checked.
 
    ![](assets/query_editor_blacklist_04.png)
 
@@ -409,8 +409,8 @@ To create this example, apply the following steps:
 
    ![](assets/query_editor_blacklist_05.png)
 
-1. In the **[!UICONTROL Data formatting]** window, click **[!UICONTROL Next]** : no formatting is necessary here.
-1. In the data preview window, click **[!UICONTROL Launch data preview]** : here, three different email domains targeted over 30 times are returned.
+1. In the **[!UICONTROL Data formatting]** window, click **[!UICONTROL Next]**: no formatting is necessary here.
+1. In the data preview window, click **[!UICONTROL Launch data preview]**: here, three different email domains targeted over 30 times are returned.
 
    ![](assets/query_editor_blacklist_06.png)
 
@@ -434,8 +434,8 @@ This example also shows how to configure a filter related to the choice of a col
 
 Apply the following steps:
 
-1. Open the Generic query editor and select the Recipient table **[!UICONTROL (nms:recipient)]** .
-1. In the **[!UICONTROL Data to extract]** window, select **[!UICONTROL Primary key]** , **[!UICONTROL First name]** , **[!UICONTROL Last name]** and **[!UICONTROL Email]** .
+1. Open the Generic query editor and select the Recipient table **[!UICONTROL (nms:recipient)]**.
+1. In the **[!UICONTROL Data to extract]** window, select **[!UICONTROL Primary key]**, **[!UICONTROL First name]**, **[!UICONTROL Last name]** and **[!UICONTROL Email]**.
 
    ![](assets/query_editor_nveau_33.png)
 
@@ -443,7 +443,7 @@ Apply the following steps:
 
    ![](assets/query_editor_nveau_34.png)
 
-1. In the **[!UICONTROL Data filtering]** window, select **[!UICONTROL Filtering conditions]** .
+1. In the **[!UICONTROL Data filtering]** window, select **[!UICONTROL Filtering conditions]**.
 1. In the **[!UICONTROL Target element]** window, the filtering condition for extracting profiles with no tracking log for the last 7 days involves two steps. The element you need to select is a many-to-many link.
 
     * Start by selecting the **[!UICONTROL Recipient delivery logs (broadlog)]** collection element (orange node) for the first **[!UICONTROL Value]** column.
@@ -456,7 +456,7 @@ Apply the following steps:
     
       ![](assets/query_editor_nveau_36.png)
 
-      Select **[!UICONTROL Event date]** with the **[!UICONTROL greater than or equal to]** operator. Select the **[!UICONTROL DaysAgo (7)]** value. To do this, click **[!UICONTROL Edit expression]** in the **[!UICONTROL Value]** field. In the **[!UICONTROL Formula type]** window, select **[!UICONTROL Process on dates]** and **[!UICONTROL Current date minus n days]** , giving "7" as a value.
+      Select **[!UICONTROL Event date]** with the **[!UICONTROL greater than or equal to]** operator. Select the **[!UICONTROL DaysAgo (7)]** value. To do this, click **[!UICONTROL Edit expression]** in the **[!UICONTROL Value]** field. In the **[!UICONTROL Formula type]** window, select **[!UICONTROL Process on dates]** and **[!UICONTROL Current date minus n days]**, giving "7" as a value.
     
       ![](assets/query_editor_nveau_37.png)
 
@@ -479,7 +479,7 @@ Apply the following steps:
 
    ![](assets/query_editor_nveau_40.png)
 
-   Click **[!UICONTROL OK]** . The **[!UICONTROL Data formatting]** window is configured.
+   Click **[!UICONTROL OK]**. The **[!UICONTROL Data formatting]** window is configured.
 
    For more on adding calculated fields, refer to this section.
 
@@ -505,22 +505,22 @@ Here we want to create a query with an **[!UICONTROL Enumerations]** type calcul
 
 Apply the following steps:
 
-1. Open the Generic query editor and select the Recipient table ( **[!UICONTROL nms:recipient]** ).
-1. In the **[!UICONTROL Data to extract]** window, select **[!UICONTROL Last name]** , **[!UICONTROL First name]** and **[!UICONTROL Gender]** .
+1. Open the Generic query editor and select the Recipient table (**[!UICONTROL nms:recipient]**).
+1. In the **[!UICONTROL Data to extract]** window, select **[!UICONTROL Last name]**, **[!UICONTROL First name]** and **[!UICONTROL Gender]**.
 
    ![](assets/query_editor_nveau_73.png)
 
-1. In the **[!UICONTROL Sorting]** window, click **[!UICONTROL Next]** : no sort is necessary for this example.
-1. In **[!UICONTROL Data filtering]** , select **[!UICONTROL Filtering conditions]** .
+1. In the **[!UICONTROL Sorting]** window, click **[!UICONTROL Next]**: no sort is necessary for this example.
+1. In **[!UICONTROL Data filtering]**, select **[!UICONTROL Filtering conditions]**.
 1. In the **[!UICONTROL Target element]** window, set a filter condition to collect recipients who speak English.
 
    ![](assets/query_editor_nveau_74.png)
 
-1. In the **[!UICONTROL Data formatting]** window, click **[!UICONTROL Add a calculated field]** .
+1. In the **[!UICONTROL Data formatting]** window, click **[!UICONTROL Add a calculated field]**.
 
    ![](assets/query_editor_nveau_75.png)
 
-1. Go to the **[!UICONTROL Type]** window of the **[!UICONTROL Export calculated field definition]** window and select **[!UICONTROL Enumerations]** .
+1. Go to the **[!UICONTROL Type]** window of the **[!UICONTROL Export calculated field definition]** window and select **[!UICONTROL Enumerations]**.
 
    Define the column which the new calculated field must refer to. To do this, select the **[!UICONTROL Gender]** column in the drop-down menu of the **[!UICONTROL Source column]** field: the destination values will coincide with the **[!UICONTROL Gender]** column.
 
@@ -528,7 +528,7 @@ Apply the following steps:
 
    Define the **Source** and **Destination** values: the destination value makes the query result easier to read. This query should return recipient gender and the result will either be 0, 1, or 2.
 
-   For each "source-destination" line to be entered, click **[!UICONTROL Add]** in the **[!UICONTROL List of enumeration values]** :
+   For each "source-destination" line to be entered, click **[!UICONTROL Add]** in the **[!UICONTROL List of enumeration values]**:
 
     * In the **[!UICONTROL Source]** column, enter the source value for each gender (0,1,2) in a new line.
     * In the **[!UICONTROL Destination]** column, enter the values: "Not indicated" for line "0", "Male" for line "1", and "Female" for line "2".
@@ -539,8 +539,8 @@ Apply the following steps:
 
    ![](assets/query_editor_nveau_77.png)
 
-1. In the **[!UICONTROL Data formatting]** window, click **[!UICONTROL Next]** .
-1. In the preview window, **[!UICONTROL start the preview of the data]** .
+1. In the **[!UICONTROL Data formatting]** window, click **[!UICONTROL Next]**.
+1. In the preview window, **[!UICONTROL start the preview of the data]**.
 
    The additional column defines the gender of 0, 1 and 2:
 
@@ -550,7 +550,7 @@ Apply the following steps:
 
    ![](assets/query_editor_nveau_78.png)
 
-   For example, if you don't enter gender "2" in the **[!UICONTROL List of enumeration values]** , and the **[!UICONTROL Generate a warning and continue]** function of the **[!UICONTROL In other cases]** field is selected, you will get a warning log. This log indicates that gender "2" (Female) has not been entered. It is displayed in the **[!UICONTROL Logs generated during export]** field of the data preview window.
+   For example, if you don't enter gender "2" in the **[!UICONTROL List of enumeration values]**, and the **[!UICONTROL Generate a warning and continue]** function of the **[!UICONTROL In other cases]** field is selected, you will get a warning log. This log indicates that gender "2" (Female) has not been entered. It is displayed in the **[!UICONTROL Logs generated during export]** field of the data preview window.
 
    ![](assets/query_editor_nveau_79.png)
 
@@ -568,7 +568,7 @@ The filters available in Adobe Campaign are defined via filtering conditions whi
 
 The **[!UICONTROL Administration > Configuration > Predefined filters]** node contains all the filters used in the lists and overviews.
 
-For example, the list of operators can be filtered by **[!UICONTROL Active accounts]** :
+For example, the list of operators can be filtered by **[!UICONTROL Active accounts]**:
 
 ![](assets/query_editor_filter_sample_1.png)
 
@@ -609,7 +609,7 @@ In this example, we want to filter recipients who appear twice or more in a deli
 To create this example, apply the following steps:
 
 1. Drag and drop a **[!UICONTROL Query]** activity in a workflow and open the activity.
-1. Click **[!UICONTROL Edit query]** and set the target and filtering dimensions to **[!UICONTROL Recipients]** .
+1. Click **[!UICONTROL Edit query]** and set the target and filtering dimensions to **[!UICONTROL Recipients]**.
 
    ![](assets/query_recipients_1.png)
 

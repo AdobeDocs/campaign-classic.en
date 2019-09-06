@@ -56,7 +56,7 @@ The data distribution template lets you limit the population resulting from targ
 
 For more on creating a data distribution template, refer to [Limiting the number of subset records per data distribution](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
-1. To create the data distribution template, go to the **[!UICONTROL Resources > Campaign management > Data distribution]** node and click **[!UICONTROL New]** .
+1. To create the data distribution template, go to the **[!UICONTROL Resources > Campaign management > Data distribution]** node and click **[!UICONTROL New]**.
 
    ![](assets/local_validation_data_distribution_1.png)
 
@@ -64,9 +64,9 @@ For more on creating a data distribution template, refer to [Limiting the number
 
    ![](assets/local_validation_data_distribution_2.png)
 
-1. Enter the **[!UICONTROL Label]** and the **[!UICONTROL Distribution context]** . In this example, we have selected the **[!UICONTROL Recipient]** targeting schema and the **[!UICONTROL Email domain]** field as a distribution field. The list of recipients will be broken down by domain.
-1. In the **[!UICONTROL Distribution type]** field, select how the target limitation value will be expressed in the **[!UICONTROL Distribution]** tab. Here, we have chosen **[!UICONTROL Percentage]** .
-1. In the **[!UICONTROL Approval storage]** field, enter the storage schema of the approvals that match the targeting schema in use. Here we are going to use the default storage schema: **[!UICONTROL Local approval of recipients]** .
+1. Enter the **[!UICONTROL Label]** and the **[!UICONTROL Distribution context]**. In this example, we have selected the **[!UICONTROL Recipient]** targeting schema and the **[!UICONTROL Email domain]** field as a distribution field. The list of recipients will be broken down by domain.
+1. In the **[!UICONTROL Distribution type]** field, select how the target limitation value will be expressed in the **[!UICONTROL Distribution]** tab. Here, we have chosen **[!UICONTROL Percentage]**.
+1. In the **[!UICONTROL Approval storage]** field, enter the storage schema of the approvals that match the targeting schema in use. Here we are going to use the default storage schema: **[!UICONTROL Local approval of recipients]**.
 1. Then click the **[!UICONTROL Advanced parameters]** link.
 
    ![](assets/local_validation_data_distribution_3.png)
@@ -74,15 +74,15 @@ For more on creating a data distribution template, refer to [Limiting the number
 1. Keep the **[!UICONTROL Approve the targeted messages]** option checked so that all recipients are pre-selected from the list of recipients to approve.
 1. In the **[!UICONTROL Delivery label]** field, we've left the default expression (compute string of the delivery). The standard label of the delivery will be used in the feedback notification.
 1. In the **[!UICONTROL Grouping field]** section, we have selected the **[!UICONTROL Gender]** field as a grouping field for displaying recipients in the approval and feedback notifications.
-1. In the **[!UICONTROL Edit targeted messages]** section, we've selected the **[!UICONTROL Edit recipients]** web application and the **[!UICONTROL recipientId]** parameter. In the approval and feedback notifications, recipients will be clickable and will point towards the URL of the web application. The additional URL parameter will be **[!UICONTROL recipientId]** .
+1. In the **[!UICONTROL Edit targeted messages]** section, we've selected the **[!UICONTROL Edit recipients]** web application and the **[!UICONTROL recipientId]** parameter. In the approval and feedback notifications, recipients will be clickable and will point towards the URL of the web application. The additional URL parameter will be **[!UICONTROL recipientId]**.
 1. Then click the **[!UICONTROL Distribution]** tab. For each domain, enter the following fields:
 
    ![](assets/local_validation_data_distribution_4.png)
 
-    * **[!UICONTROL Value]** : enter the value of the domain name. 
-    * **[!UICONTROL Percentage / Fixed]** : for each domain, enter the max. number of recipients you want to send the delivery to. In this example, we want to limit the delivery to 10% per domain.
-    * **[!UICONTROL Label]** : enter the label of the domain to be displayed in the approval and feedback notifications.
-    * **[!UICONTROL Group or operator]** : select the operator or group of operators assigned to the domain.
+    * **[!UICONTROL Value]**: enter the value of the domain name. 
+    * **[!UICONTROL Percentage / Fixed]**: for each domain, enter the max. number of recipients you want to send the delivery to. In this example, we want to limit the delivery to 10% per domain.
+    * **[!UICONTROL Label]**: enter the label of the domain to be displayed in the approval and feedback notifications.
+    * **[!UICONTROL Group or operator]**: select the operator or group of operators assigned to the domain.
 
       >[!CAUTION]
       >
@@ -111,21 +111,21 @@ Upstream targeting is made up of two queries, one intersection and one split. Th
 
 For more on configuring a split activity, refer to [Split](../../workflow/using/split.md). The creation of a data distribution template is detailed in [Limiting the number of subset records per data distribution](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
-If you do not want to limit the population from the query, you do not have to use the **[!UICONTROL Query]** , **[!UICONTROL Intersection]** , and **[!UICONTROL Split]** activities. In this case, complete the data distribution template in the first **[!UICONTROL Local approval]** activity.
+If you do not want to limit the population from the query, you do not have to use the **[!UICONTROL Query]**, **[!UICONTROL Intersection]**, and **[!UICONTROL Split]** activities. In this case, complete the data distribution template in the first **[!UICONTROL Local approval]** activity.
 
 1. In the **[!UICONTROL Record count limitation]** section, select the **[!UICONTROL Limit the selected records]** option and click the **[!UICONTROL Edit]** link.
 
    ![](assets/local_validation_split_1.png)
 
-1. Select the **[!UICONTROL Keep only the first records after sorting]** option and click **[!UICONTROL Next]** .
+1. Select the **[!UICONTROL Keep only the first records after sorting]** option and click **[!UICONTROL Next]**.
 
    ![](assets/local_validation_split_1bis.png)
 
-1. In the **[!UICONTROL Sort columns]** section, add the field which the sort is applied to. Here, we have chosen the **[!UICONTROL Email]** field. Click **[!UICONTROL Next]** .
+1. In the **[!UICONTROL Sort columns]** section, add the field which the sort is applied to. Here, we have chosen the **[!UICONTROL Email]** field. Click **[!UICONTROL Next]**.
 
    ![](assets/local_validation_split_2.png)
 
-1. Select the **[!UICONTROL By data distribution]** option, select the distribution template created previously (refer to [Step 1: Creating the data distribution template](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-)) and click **[!UICONTROL Finish]** .
+1. Select the **[!UICONTROL By data distribution]** option, select the distribution template created previously (refer to [Step 1: Creating the data distribution template](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-)) and click **[!UICONTROL Finish]**.
 
    ![](assets/local_validation_split_3.png)
 
@@ -148,7 +148,7 @@ The following fields need to be entered:
 
    If you don't want to limit the targeted population, select the **[!UICONTROL Explicit]** option here and enter the distribution template created previously in the **[!UICONTROL Data distribution]** field. 
 
-1. In the **[!UICONTROL Notification]** section, select the delivery template and the subject to be used for the notification email. Here, we have chosen the default template: **[!UICONTROL Local approval notification]** .
+1. In the **[!UICONTROL Notification]** section, select the delivery template and the subject to be used for the notification email. Here, we have chosen the default template: **[!UICONTROL Local approval notification]**.
 1. In the **[!UICONTROL Approval schedule]** section, we've kept the default approval deadline (3 days) and added a reminder. The delivery will leave 3 days after the start of approval. Once the approval deadline has been reached, recipients who haven't been approved aren't taken into account by targeting.
 
 The notification email sent by the **[!UICONTROL Local approval]** activity to local supervisors is as follows: 
@@ -169,8 +169,8 @@ The second **[!UICONTROL Local approval]** activity lets you send a delivery fee
 
 The following fields need to be entered.
 
-1. In the **[!UICONTROL Action to execute]** section, choose **[!UICONTROL Delivery feedback report]** .
-1. In the **[!UICONTROL Delivery]** section, choose **[!UICONTROL Specified in the transition]** . 
+1. In the **[!UICONTROL Action to execute]** section, choose **[!UICONTROL Delivery feedback report]**.
+1. In the **[!UICONTROL Delivery]** section, choose **[!UICONTROL Specified in the transition]**. 
 1. In the **[!UICONTROL Notification]** section, select the delivery template and the subject to be used for the notification email.
 
 Once the deadline configured in the wait activity is reached, the second **[!UICONTROL Local approval]** type activity sends the following notification email to each local supervisor:
@@ -212,7 +212,7 @@ Select an approval log and click the **[!UICONTROL Detail]** button to display m
 This tab shows the following information:
 
 * the linked approval task
-* the approval status ( **[!UICONTROL Approved]** or **[!UICONTROL Pending]** )
+* the approval status (**[!UICONTROL Approved]** or **[!UICONTROL Pending]**)
 * the distribution template used
 * the local supervisor who approved and the approval date
 * the number of messages targeted and approved

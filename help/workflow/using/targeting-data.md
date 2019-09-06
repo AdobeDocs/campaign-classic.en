@@ -36,7 +36,7 @@ The **[!UICONTROL Edit additional data...]** link lets you view the added data a
 
 ![](assets/wf_add_data_edit_link.png)
 
-To add data to the previously defined output columns, select it in the list of available fields. To create a new output column, click the **[!UICONTROL Add]** icon, then select the field and click **[!UICONTROL Edit expression]** .
+To add data to the previously defined output columns, select it in the list of available fields. To create a new output column, click the **[!UICONTROL Add]** icon, then select the field and click **[!UICONTROL Edit expression]**.
 
 ![](assets/query_add_an_output_column.png)
 
@@ -68,7 +68,7 @@ In **[!UICONTROL Union]** or **[!UICONTROL Intersection]** type activities, you 
 
 ### Reconciliation with additional data {#reconciliation-with-additional-data}
 
-During the data reconciliation phases ( **[!UICONTROL Union]** , **[!UICONTROL Intersection]** , etc. activities), you can select the columns to be used for data reconciliation from the additional columns. To do this, configure a reconciliation on a selection of columns and specify the main set. Then select the columns in the lower column of the window, as shown in the following example:
+During the data reconciliation phases (**[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc. activities), you can select the columns to be used for data reconciliation from the additional columns. To do this, configure a reconciliation on a selection of columns and specify the main set. Then select the columns in the lower column of the window, as shown in the following example:
 
 ![](assets/select-column-and-join.png)
 
@@ -149,7 +149,7 @@ The additional data conveyed by the inbound transition can be used in the filter
 To configure it, you first need to select criteria:
 
 1. In your workflow, drag and drop a **[!UICONTROL Split]** activity.
-1. In the **[!UICONTROL General]** tab, select the desired option: **[!UICONTROL Use data from the target and additional data]** , **[!UICONTROL Use the additional data only]** or **[!UICONTROL Use external data]** .
+1. In the **[!UICONTROL General]** tab, select the desired option: **[!UICONTROL Use data from the target and additional data]**, **[!UICONTROL Use the additional data only]** or **[!UICONTROL Use external data]**.
 1. If the **[!UICONTROL Use data from the target and additional data]** option is selected, the targeting dimension lets you use all the data conveyed by the inbound transition.
 
    ![](assets/split-general-tab-options.png)
@@ -244,7 +244,8 @@ In order to implement these operations, Adobe Campaign offers:
 
 >[!CAUTION]
 >
->When two workflows are linked, deleting a source table element does not mean that all the data linked to it is deleted.  
+>When two workflows are linked, deleting a source table element does not mean that all the data linked to it is deleted.
+>  
 >For example, deleting a recipient via a workflow will not result in all of the recipient's delivery history being deleted. However, deleting a recipient directly in the 'Recipients' folder will indeed result in all data linked with this recipient being deleted.
 
 ### Enriching and modifying data {#enriching-and-modifying-data}

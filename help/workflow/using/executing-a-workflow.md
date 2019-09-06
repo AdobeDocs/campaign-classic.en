@@ -30,7 +30,7 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 
 ### Actions toolbar {#actions-toolbar}
 
-The toolbar buttons are detailed in this [section](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow). The **[!UICONTROL Actions]** button gives you access to additional execution options for acting on selected workflows. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]** .
+The toolbar buttons are detailed in this [section](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow). The **[!UICONTROL Actions]** button gives you access to additional execution options for acting on selected workflows. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]**.
 
 ![](assets/purge_historique.png)
 
@@ -62,15 +62,15 @@ The toolbar buttons are detailed in this [section](../../campaign/using/setting-
 
 * **[!UICONTROL Start in simulation mode]**
 
-  This option lets you start the workflow in simulation mode as opposed to real mode. This means that when you enable this mode, only activities that do not impact the database or the file system are executed (e.g. **[!UICONTROL Query]** , **[!UICONTROL Union]** , **[!UICONTROL Intersection]** , etc.). Activities that do have an impact (e.g. **[!UICONTROL Export]** , **[!UICONTROL Import]** , etc.) as well as those after them (in the same branch) are not executed.
+  This option lets you start the workflow in simulation mode as opposed to real mode. This means that when you enable this mode, only activities that do not impact the database or the file system are executed (e.g. **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Activities that do have an impact (e.g. **[!UICONTROL Export]**, **[!UICONTROL Import]**, etc.) as well as those after them (in the same branch) are not executed.
 
 * **[!UICONTROL Execute pending tasks now]**
 
-  This action lets you start all pending tasks as soon as possible. To start a specific task, right-click its activity and select **[!UICONTROL Execute pending task(s) now]** .
+  This action lets you start all pending tasks as soon as possible. To start a specific task, right-click its activity and select **[!UICONTROL Execute pending task(s) now]**.
 
 * **[!UICONTROL Unconditional stop]**
 
-  This option changes the workflow status to **[!UICONTROL Finished]** . This action should only be used as a last resort if the normal stop process fails after several minutes. Only use the unconditional stop if you are sure there are no actual workflow jobs in progress.
+  This option changes the workflow status to **[!UICONTROL Finished]**. This action should only be used as a last resort if the normal stop process fails after several minutes. Only use the unconditional stop if you are sure there are no actual workflow jobs in progress.
 
   >[!CAUTION]
   >
@@ -90,7 +90,7 @@ When one or more workflow activities are selected, you can right-click to act on
 
 The following options are available in the right-click menu:
 
-**[!UICONTROL Open]** : this option lets you access the activity properties.
+**[!UICONTROL Open]**: this option lets you access the activity properties.
 
 **[!UICONTROL Display logs:]** this option lets you view the task execution log for the selected activity. Refer to [Displaying logs](../../workflow/using/executing-a-workflow.md#displaying-logs).
 
@@ -154,7 +154,7 @@ To do this, select the relevant menu:
 
 * Displaying the target
 
-  This menu displays the available data on the target population as well as the structure of the work table ( **[!UICONTROL Schema]** tab).
+  This menu displays the available data on the target population as well as the structure of the work table (**[!UICONTROL Schema]** tab).
 
   ![](assets/wf-right-click-display.png)
 
@@ -216,7 +216,7 @@ Apply the following steps:
 
    ![](assets/wf-targetdata-sample-3.png)
 
-1. Then configure the **[!UICONTROL Delivery]** : it is created based on a template, and the recipients are specified by the inbound transition. 
+1. Then configure the **[!UICONTROL Delivery]**: it is created based on a template, and the recipients are specified by the inbound transition. 
 
    ![](assets/wf-targetdata-sample-4.png)
 
@@ -308,7 +308,7 @@ The log shows the chronological list of execution messages related to targeting 
     
        ![](assets/s_user_segmentation_logs.png)
 
-    1. Right-click the targeted activity and select **[!UICONTROL Display logs]** .
+    1. Right-click the targeted activity and select **[!UICONTROL Display logs]**.
     
        ![](assets/s_user_segmentation_logs_menu.png)
 
@@ -316,7 +316,7 @@ The log shows the chronological list of execution messages related to targeting 
 
 ### Purging the logs {#purging-the-logs}
 
-Workflow history is not purged automatically: all messages are kept by default. History can be purged via the **[!UICONTROL File > Actions]** menu or by clicking the **[!UICONTROL Actions]** button located in the toolbar above the list. Select **[!UICONTROL Purge history]** . The options available in the **[!UICONTROL Actions]** menu is detailed in the [Actions toolbar](../../workflow/using/executing-a-workflow.md#actions-toolbar) section.
+Workflow history is not purged automatically: all messages are kept by default. History can be purged via the **[!UICONTROL File > Actions]** menu or by clicking the **[!UICONTROL Actions]** button located in the toolbar above the list. Select **[!UICONTROL Purge history]**. The options available in the **[!UICONTROL Actions]** menu is detailed in the [Actions toolbar](../../workflow/using/executing-a-workflow.md#actions-toolbar) section.
 
 ![](assets/purge_historique.png)
 
@@ -330,7 +330,7 @@ The worktables of the workflow are deleted automatically when the workflow passi
 
 ### Managing errors {#managing-errors}
 
-When an error occurs, the workflow is paused and the activity being executed when the error occurred flashes red. In the workflow overview ( **[!UICONTROL Monitoring]** universe > **[!UICONTROL Workflows]** link) you can display workflows with errors only, as shown below.
+When an error occurs, the workflow is paused and the activity being executed when the error occurred flashes red. In the workflow overview (**[!UICONTROL Monitoring]** universe > **[!UICONTROL Workflows]** link) you can display workflows with errors only, as shown below.
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
@@ -497,7 +497,7 @@ It is possible to receive an approval message containing a link to a Web page vi
 
 Operator management is detailed in this [section](../../platform/using/access-management.md).
 
-Approval emails are sent continuously. The default delivery template is **[!UICONTROL notifyAssignee]** : It is saved in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** folder. This scenario can be customized and it is also recommended to make a copy and to change templates for each activity.
+Approval emails are sent continuously. The default delivery template is **[!UICONTROL notifyAssignee]**: It is saved in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** folder. This scenario can be customized and it is also recommended to make a copy and to change templates for each activity.
 
 Deliveries created via this template are stored in the **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]** folder.
 
@@ -526,7 +526,7 @@ The second tab in the activity approval properties lets you define one or more e
 
 ![](assets/expiration.png)
 
-To add a new expiration, click **[!UICONTROL Add]** . A transition is added to each of the expirations created. You can:
+To add a new expiration, click **[!UICONTROL Add]**. A transition is added to each of the expirations created. You can:
 
 * modify the typical parameters directly by clicking on a cell in the list (or by pressing F2),
 * or edit the expression by clicking the **[!UICONTROL Detail...]** button.
@@ -587,28 +587,28 @@ Under System Indicators and core files, check that no indicators are highlighted
 
 ### Technical workflows {#technical-workflows}
 
-Technical workflows are available from **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** .
+Technical workflows are available from **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
 Depending on the technical workflow, follow the steps detailed below to ensure that everything is working as expected.
 
 To better understand what each technical workflow is supposed to do, refer to this [section](../../workflow/using/about-technical-workflows.md).
 
-For **[!UICONTROL Database Cleanup workflow (‘cleanup’)]** :
+For **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
 1. Check that the **[!UICONTROL Database Cleanup]** workflow runs and finishes successfully every day. For more on this, refer to this [page](../../workflow/using/delivery.md).
 1. Look at the journal to verify that the elapsed time is relatively constant over time and does not interfere with other workflows.
 1. For more information, check this [page](../../production/using/database-cleanup-workflow.md).
 
-For **[!UICONTROL Tracking workflow (‘tracking’)]** :
+For **[!UICONTROL Tracking workflow (‘tracking’)]**:
 
 Check that the Tracking workflow runs as scheduled (every hour by default), and that the journal does not highlight recurrent errors. For more on this, refer to this [section](../../workflow/using/delivery.md).
 
-For **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]** :
+For **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
 
 1. Check that the **[!UICONTROL Deliverability update]** workflow runs and finishes successfully every day. For more on this, refer to this [page](../../workflow/using/delivery.md).
 1. Verify in the journal that rules are being updated regularly.
 
-For **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]** :
+For **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
 
 1. Look at all the workflows located under the **[!UICONTROL Campaign process]** folder. For more on this, refer to this [page](../../workflow/using/campaign.md).
 1. Check that the workflows runs as scheduled and that the journal does not highlight recurrent errors.

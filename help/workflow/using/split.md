@@ -26,7 +26,7 @@ For an example of the split activity being used, refer to [Creating subsets usin
 
 An example illustrating how to use the Split activity to segment the target into different populations using filtering conditions is described in [this section](../../workflow/using/cross-channel-delivery-workflow.md).
 
-An example showing how to use an instance variable in a Split activity is available in [Campaign Knowlegde Base](https://helpx.adobe.com/campaign/kb/instance-variable-in-workflow.md).
+An example showing how to use an instance variable in a Split activity is available in [Campaign Knowlegde Base](https://helpx.adobe.com/campaign/kb/instance-variable-in-workflow.html).
 
 To configure this activity, define the subset content and label in the **[!UICONTROL Subsets]** tab, then choose the target dimension in the **[!UICONTROL General]** tab.
 
@@ -74,9 +74,9 @@ If you do not wish to use the entire population contained in a subset, you can l
 1. In the subset edit window, check the **[!UICONTROL Limit the selected records]** option and click the **[!UICONTROL Edit...]** link.
 1. Select the limit type for your choice:
 
-    * **[!UICONTROL Activate random sampling]** : this option takes a random sample of the records. The type of random sampling applied depends on the database engine.
-    * **[!UICONTROL Keep only the first records after sorting]** : this option lets you define a limitation based on one or more sorting orders. If you select the **[!UICONTROL Age]** field as a sorting criterion and 100 as the limit, only the youngest 100 recipients will be kept.
-    * **[!UICONTROL Keep the first ones after sorting (criteria, random)]** : This option combines the two previous options. It lets you define a limitation based on one or more sorting orders then apply a random selection on the first records if some of the records have the same values as the defined criteria.
+    * **[!UICONTROL Activate random sampling]**: this option takes a random sample of the records. The type of random sampling applied depends on the database engine.
+    * **[!UICONTROL Keep only the first records after sorting]**: this option lets you define a limitation based on one or more sorting orders. If you select the **[!UICONTROL Age]** field as a sorting criterion and 100 as the limit, only the youngest 100 recipients will be kept.
+    * **[!UICONTROL Keep the first ones after sorting (criteria, random)]**: This option combines the two previous options. It lets you define a limitation based on one or more sorting orders then apply a random selection on the first records if some of the records have the same values as the defined criteria.
 
       For example, if you select the **[!UICONTROL Age]** field as a sorting criteria, and you then define a limit of 100, but the 2000 youngest recipients in the database are all 18, then 100 recipients will be randomly selected out of those 2000.
 
@@ -92,15 +92,15 @@ If you do not wish to use the entire population contained in a subset, you can l
 
    There are several ways of doing this:
 
-    * **[!UICONTROL Size (in %)]** : a percentage of records. For example, the configuration below extracts 10% of the total population.
+    * **[!UICONTROL Size (in %)]**: a percentage of records. For example, the configuration below extracts 10% of the total population.
 
       The percentage applies to the initial population, not the result of the activity.
     
-    * **[!UICONTROL Size (as a % of the segment)]** : a percentage of records relating only to the subsets and not to the initial population.
-    * **[!UICONTROL Maximum size]** : a maximum number of records.
-    * **[!UICONTROL By data grouping]** : you can set a limit on the number of records depending on the values in a specified field of the inbound population. For more on this subject, refer to [Limiting the number of subset records by data grouping](../../workflow/using/split.md#limiting-the-number-of-subset-records-by-data-grouping).
-    * **[!UICONTROL By data grouping (in %)]** : you can set a limit on the number of records depending on the values in a specified field of the inbound population using a percentage. For more on this subject, refer to [Limiting the number of subset records by data grouping](../../workflow/using/split.md#limiting-the-number-of-subset-records-by-data-grouping).
-    * **[!UICONTROL By data distribution]** : If your grouping fields have too many values or if you want to avoid entering the values again for each new split activity, Adobe Campaign lets you configure a **[!UICONTROL By data distribution]** limitation (optional Distributed Marketing module). For more on this, refer to [Limiting the number of subset records per data distribution](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
+    * **[!UICONTROL Size (as a % of the segment)]**: a percentage of records relating only to the subsets and not to the initial population.
+    * **[!UICONTROL Maximum size]**: a maximum number of records.
+    * **[!UICONTROL By data grouping]**: you can set a limit on the number of records depending on the values in a specified field of the inbound population. For more on this subject, refer to [Limiting the number of subset records by data grouping](../../workflow/using/split.md#limiting-the-number-of-subset-records-by-data-grouping).
+    * **[!UICONTROL By data grouping (in %)]**: you can set a limit on the number of records depending on the values in a specified field of the inbound population using a percentage. For more on this subject, refer to [Limiting the number of subset records by data grouping](../../workflow/using/split.md#limiting-the-number-of-subset-records-by-data-grouping).
+    * **[!UICONTROL By data distribution]**: If your grouping fields have too many values or if you want to avoid entering the values again for each new split activity, Adobe Campaign lets you configure a **[!UICONTROL By data distribution]** limitation (optional Distributed Marketing module). For more on this, refer to [Limiting the number of subset records per data distribution](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 1. Click **[!UICONTROL Finish]** to approve the record selection criteria. The defined configuration is then displayed in the middle window of the editor.
 
@@ -110,11 +110,11 @@ You can limit the number of records by data grouping. This limit can be carried 
 
 For instance, if you select the **[!UICONTROL Language]** field as a group field, you can define a list of records for each language.
 
-1. After selecting the data limitation values, select **[!UICONTROL By data grouping]** or **[!UICONTROL By data grouping (as a %)]** and click **[!UICONTROL Next]** . 
+1. After selecting the data limitation values, select **[!UICONTROL By data grouping]** or **[!UICONTROL By data grouping (as a %)]** and click **[!UICONTROL Next]**. 
 
    ![](assets/s_user_segmentation_partage_wz3.png)
 
-1. Then select the grouping field(s) (the **[!UICONTROL Language]** field for instance) and click **[!UICONTROL Next]** .
+1. Then select the grouping field(s) (the **[!UICONTROL Language]** field for instance) and click **[!UICONTROL Next]**.
 
    ![](assets/s_user_segmentation_partage_wz4.png)
 
@@ -138,7 +138,7 @@ For an example of the **[!UICONTROL Local approval]** activity with a distributi
 
 The data distribution template lets you limit the number of records using a list of grouping values. To create a data distribution template, apply the following steps:
 
-1. To create the data distribution template, go to the **[!UICONTROL Resources > Campaign management > Data distribution]** node and click **[!UICONTROL New]** .
+1. To create the data distribution template, go to the **[!UICONTROL Resources > Campaign management > Data distribution]** node and click **[!UICONTROL New]**.
 
    ![](assets/local_validation_data_distribution_1.png)
 
@@ -148,12 +148,12 @@ The data distribution template lets you limit the number of records using a list
 
    The following fields need to be entered:
 
-    * **[!UICONTROL Label]** : label for the distribution template.
-    * **[!UICONTROL Targeting dimension]** : enter the targeting dimension to which the data distribution will be applied, **[!UICONTROL Recipient]** for instance. This schema must always be compatible with the data used in the targeting workflow.
-    * **[!UICONTROL Distribution field]** : select a field via the targeting dimension. For instance, if you select the **[!UICONTROL Email domain]** field, the list of recipients will be broken down by domain.
-    * **[!UICONTROL Distribution type]** : select the way the limitation value of the target will be broken down in the **[!UICONTROL Distribution]** tab: **[!UICONTROL Percentage]** or **[!UICONTROL Set]** .
-    * **[!UICONTROL Assignment type]** : select the data distribution assignment type. You can choose between assignment by group or operator or assignment by local entity. Assignment by local entity is used in **Distributed Marketing**. For more information, refer to this [section](../../campaign/using/about-distributed-marketing.md).
-    * **[!UICONTROL Approval storage]** : if you use a **[!UICONTROL Local approval]** activity in your targeting workflow (refer to [Local approval](../../workflow/using/local-approval.md)), enter the schema in which the approval results will be stored. You must specify one storage schema per targeting schema. If you use the **[!UICONTROL Recipients]** targeting schema, enter the default **[!UICONTROL Local approval of recipients]** storage schema.
+    * **[!UICONTROL Label]**: label for the distribution template.
+    * **[!UICONTROL Targeting dimension]**: enter the targeting dimension to which the data distribution will be applied, **[!UICONTROL Recipient]** for instance. This schema must always be compatible with the data used in the targeting workflow.
+    * **[!UICONTROL Distribution field]**: select a field via the targeting dimension. For instance, if you select the **[!UICONTROL Email domain]** field, the list of recipients will be broken down by domain.
+    * **[!UICONTROL Distribution type]**: select the way the limitation value of the target will be broken down in the **[!UICONTROL Distribution]** tab: **[!UICONTROL Percentage]** or **[!UICONTROL Set]**.
+    * **[!UICONTROL Assignment type]**: select the data distribution assignment type. You can choose between assignment by group or operator or assignment by local entity. Assignment by local entity is used in **Distributed Marketing**. For more information, refer to this [section](../../campaign/using/about-distributed-marketing.md).
+    * **[!UICONTROL Approval storage]**: if you use a **[!UICONTROL Local approval]** activity in your targeting workflow (refer to [Local approval](../../workflow/using/local-approval.md)), enter the schema in which the approval results will be stored. You must specify one storage schema per targeting schema. If you use the **[!UICONTROL Recipients]** targeting schema, enter the default **[!UICONTROL Local approval of recipients]** storage schema.
 
       In case of a simple limitation by data grouping without local approval, you do not need to enter the **[!UICONTROL Approvals storage]** field.
 
@@ -163,7 +163,7 @@ The data distribution template lets you limit the number of records using a list
 
    The following fields need to be entered:
 
-    * **[!UICONTROL Approve targeted messages]** : check this option if you want all recipients to be pre-selected from the list of recipients to approve. If this option is unchecked, no recipient will be pre-selected.
+    * **[!UICONTROL Approve targeted messages]**: check this option if you want all recipients to be pre-selected from the list of recipients to approve. If this option is unchecked, no recipient will be pre-selected.
 
       >[!NOTE]
       >
@@ -171,15 +171,15 @@ The data distribution template lets you limit the number of records using a list
 
       ![](assets/local_validation_notification.png)
 
-    * **[!UICONTROL Delivery label]** : lets you define an expression to display the delivery label in the return notification. The default expression provides information on the standard label of the delivery (compute string). You can modify this expression. 
+    * **[!UICONTROL Delivery label]**: lets you define an expression to display the delivery label in the return notification. The default expression provides information on the standard label of the delivery (compute string). You can modify this expression. 
     
       ![](assets/local_validation_notification_3.png)
 
-    * **[!UICONTROL Grouping field]** : this field lets you define the grouping used to display recipients in approval and return notifications.
+    * **[!UICONTROL Grouping field]**: this field lets you define the grouping used to display recipients in approval and return notifications.
     
       ![](assets/local_validation_notification_4.png)
 
-    * **[!UICONTROL Web Interface]** : lets you link a web application to the recipient list. In the approval and return notification, each recipient will be clickable and will link to the selected web application. The **[!UICONTROL Parameters]** field (for example **[!UICONTROL recipientId]** ) lets you configure the additional parameter to be used in the URL and the web application.
+    * **[!UICONTROL Web Interface]**: lets you link a web application to the recipient list. In the approval and return notification, each recipient will be clickable and will link to the selected web application. The **[!UICONTROL Parameters]** field (for example **[!UICONTROL recipientId]**) lets you configure the additional parameter to be used in the URL and the web application.
     
       ![](assets/local_validation_notification_5.png)
 
@@ -187,13 +187,13 @@ The data distribution template lets you limit the number of records using a list
 
    ![](assets/local_validation_data_distribution_4.png)
 
-    * **[!UICONTROL Value]** : enter the distribution values. 
-    * **[!UICONTROL Percentage / Set]** : enter the record limit (fixed or percentage) linked to each value.
+    * **[!UICONTROL Value]**: enter the distribution values. 
+    * **[!UICONTROL Percentage / Set]**: enter the record limit (fixed or percentage) linked to each value.
 
       This column is defined by the **[!UICONTROL Distribution type]** field within the **[!UICONTROL General]** tab.
     
-    * **[!UICONTROL Label]** : enter the label linked to each value.
-    * **[!UICONTROL Group or operator]** : if you are using a **[!UICONTROL Local approval]** activity (refer to [Local approval](../../workflow/using/local-approval.md)), select the operator or group of operators assigned to each distribution value.
+    * **[!UICONTROL Label]**: enter the label linked to each value.
+    * **[!UICONTROL Group or operator]**: if you are using a **[!UICONTROL Local approval]** activity (refer to [Local approval](../../workflow/using/local-approval.md)), select the operator or group of operators assigned to each distribution value.
 
       In case of a simple limitation by data grouping without local approval, you do not need to enter the **[!UICONTROL Group or operator]** field.
 
@@ -201,7 +201,7 @@ The data distribution template lets you limit the number of records using a list
       >
       >Make sure the operators have been assigned the appropriate rights.
 
-    * **[!UICONTROL Local entity]** : select the local entity assigned to each distribution value. Local entities are used in **Distributed Marketing**. For more information, refer to this [section](../../campaign/using/about-distributed-marketing.md).
+    * **[!UICONTROL Local entity]**: select the local entity assigned to each distribution value. Local entities are used in **Distributed Marketing**. For more information, refer to this [section](../../campaign/using/about-distributed-marketing.md).
 
 ## Filtering parameters {#filtering-parameters}
 

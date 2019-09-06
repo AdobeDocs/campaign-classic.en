@@ -46,6 +46,7 @@ The images used in the diagrams of the various workflows can be changed. However
 
 >[!NOTE]
 >
->The images saved in the **[!UICONTROL Administration > Configuration > Images]** node of the tree are available for selection.   
+>The images saved in the **[!UICONTROL Administration > Configuration > Images]** node of the tree are available for selection. 
+>  
 >Images must be in PNG format, with 48x48 pixels, 16 million colors, and a transparent background.
 

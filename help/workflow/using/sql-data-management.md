@@ -30,7 +30,7 @@ Before configuring the activity, make sure the following prerequisites are fulfi
 
 ## Configuring the SQL Data Management activity {#configuring-the-sql-data-management-activity}
 
-1. Specify the activity **[!UICONTROL Label]** .
+1. Specify the activity **[!UICONTROL Label]**.
 1. Select the **[!UICONTROL External account]** to use, then select the **[!UICONTROL Outbound schema]** linked to this external account.
 
    >[!CAUTION]
@@ -65,7 +65,8 @@ The activity is now configured. It is ready to be executed in the workflow.
 
 >[!CAUTION]
 >
->Once the activity executed, the outbound transition records count is indicative only. It may vary according to the level of complexity of the SQL script.   
+>Once the activity executed, the outbound transition records count is indicative only. It may vary according to the level of complexity of the SQL script. 
+>  
 >If the activity is restarted, the whole script is executed from its beginning, regardless of it execution status.
 
 ## SQL script samples {#sql-script-samples}

@@ -28,7 +28,7 @@ To set up this use case, we created the following targeting workflow:
 
 This (daily run) workflow selects all recipients that have their birthday on the current date.
 
-This use case can also be found in the form of a video. For more on this, refer to the [Creating a workflow](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.md) video.
+This use case can also be found in the form of a video. For more on this, refer to the [Creating a workflow](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
 
 ## Identifying recipients whose birthday it is {#identifying-recipients-whose-birthday-it-is}
 
@@ -37,7 +37,7 @@ After configuring the **[!UICONTROL Scheduler]** activity so that the workflow s
 To do this, apply the following steps:
 
 1. Drag and drop a **[!UICONTROL Query]** activity into the workflow and double-click it.
-1. Click the **Edit query** link and select **[!UICONTROL Filtering conditions]** .
+1. Click the **Edit query** link and select **[!UICONTROL Filtering conditions]**.
 
    ![](assets/s_ncs_user_create_exp_exple00.png)
 
@@ -50,11 +50,11 @@ To do this, apply the following steps:
    ![](assets/s_ncs_user_create_exp_exple_a.png)
 
 1. Select **[!UICONTROL Edit the formula using an expression]** and click **[!UICONTROL Next]** to display the expression editor.
-1. In the list of functions, double-click **[!UICONTROL Day]** , which is accessible via the **[!UICONTROL Date]** node. This function returns the number representing the day corresponding to the date passed as a parameter.
+1. In the list of functions, double-click **[!UICONTROL Day]**, which is accessible via the **[!UICONTROL Date]** node. This function returns the number representing the day corresponding to the date passed as a parameter.
 
    ![](assets/s_ncs_user_create_exp_exple01.png)
 
-1. In the list of available fields, double-click **[!UICONTROL Birth date]** . The upper section of the editor then displays the following formula:
+1. In the list of available fields, double-click **[!UICONTROL Birth date]**. The upper section of the editor then displays the following formula:
 
    ```
    Day(@birthDate)
@@ -62,12 +62,12 @@ To do this, apply the following steps:
 
    Click **[!UICONTROL Finish]** to confirm.
 
-1. In the query editor, in the first cell of the **[!UICONTROL Operator]** column, select **[!UICONTROL equal to]** .
+1. In the query editor, in the first cell of the **[!UICONTROL Operator]** column, select **[!UICONTROL equal to]**.
 
    ![](assets/s_ncs_user_create_exp_exple02.png)
 
-1. Next, click the first cell of the second column ( **[!UICONTROL Value]** ), and click **[!UICONTROL Edit expression]** to open the expression editor.
-1. In the list of functions, double-click **[!UICONTROL Day]** , which is accessible via the **[!UICONTROL Date]** node.
+1. Next, click the first cell of the second column (**[!UICONTROL Value]**), and click **[!UICONTROL Edit expression]** to open the expression editor.
+1. In the list of functions, double-click **[!UICONTROL Day]**, which is accessible via the **[!UICONTROL Date]** node.
 1. Double-click the **[!UICONTROL GetDate]** function to retrieve the current date.
 
    ![](assets/s_ncs_user_create_exp_exple04.png)
@@ -80,7 +80,7 @@ To do this, apply the following steps:
 
    Click **[!UICONTROL Finish]** to confirm.
 
-1. Repeat this procedure to retrieve the month of birth corresponding to the current month. To do this, click the **[!UICONTROL Add]** button and repeat steps 3 to 10, replacing **[!UICONTROL Day]** with **[!UICONTROL Month]** .
+1. Repeat this procedure to retrieve the month of birth corresponding to the current month. To do this, click the **[!UICONTROL Add]** button and repeat steps 3 to 10, replacing **[!UICONTROL Day]** with **[!UICONTROL Month]**.
 
    The complete query is as follows:
 
@@ -127,7 +127,6 @@ If the test is verified (the year is not a leap year - there is no February 29th
 Copy and paste the code below into the **[!UICONTROL Initialization script]** section of the **[!UICONTROL Advanced]** tab.
 
 ```
-
 function isLeapYear(iYear)
 {
     if(iYear/4 == Math.floor(iYear/4))
@@ -167,7 +166,6 @@ if(month == 3 && day == 1) {
   // today is 1st of march
 vars.firstOfMarch = 1;
 }
-
 ```
 
 ![](assets/birthday-workflow_usecase_3.png)
@@ -175,7 +173,6 @@ vars.firstOfMarch = 1;
 Add the following condition in the **[!UICONTROL Conditional forks]** section:
 
 ```
-
 vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 ```
 

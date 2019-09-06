@@ -32,7 +32,7 @@ To create this example, apply the following steps:
    ![](assets/uc_enrichment_1.png)
 
 1. Add a **[!UICONTROL Split]** activity to differentiate recipients who will celebrate their birthdays this month from other recipients.
-1. To split your list, in the **[!UICONTROL Filtering of selected records]** category, select **[!UICONTROL Add a filtering condition on the inbound population]** . Then, click **[!UICONTROL Edit]** .
+1. To split your list, in the **[!UICONTROL Filtering of selected records]** category, select **[!UICONTROL Add a filtering condition on the inbound population]**. Then, click **[!UICONTROL Edit]**.
 
    ![](assets/uc_enrichment_2.png)
 
@@ -41,14 +41,14 @@ To create this example, apply the following steps:
    ![](assets/uc_enrichment_3.png)
 
 1. Click **[!UICONTROL Advanced Selection]** then **[!UICONTROL Edit the formula using an expression]** and add the following expression: Month(@birthDate).
-1. In the **[!UICONTROL Operator]** column, select the **[!UICONTROL equal to]** .
+1. In the **[!UICONTROL Operator]** column, select the **[!UICONTROL equal to]**.
 1. Further filter your condition, by adding the **[!UICONTROL Value]** month of the current date: Month(GetDate()).
 
    This will query recipients whose birthday's month corresponds to the current month.
 
    ![](assets/uc_enrichment_4.png)
 
-1. Click **[!UICONTROL Finish]** . Then, in the **[!UICONTROL General]** tab of your **[!UICONTROL Split]** activity, click the **[!UICONTROL Generate complement]** in the **[!UICONTROL Results]** category.
+1. Click **[!UICONTROL Finish]**. Then, in the **[!UICONTROL General]** tab of your **[!UICONTROL Split]** activity, click the **[!UICONTROL Generate complement]** in the **[!UICONTROL Results]** category.
 
    With the **[!UICONTROL Complement]** result, you can add a delivery activity or update a list. Here, we just added an **[!UICONTROL End]** activity.
 
@@ -60,30 +60,30 @@ You now need to configure your **[!UICONTROL Enrichment]** activity:
 
    ![](assets/uc_enrichment_7.png)
 
-1. Open your **[!UICONTROL Enrichment]** activity. In the **[!UICONTROL Complementary information]** category, click **[!UICONTROL Add data]** .
+1. Open your **[!UICONTROL Enrichment]** activity. In the **[!UICONTROL Complementary information]** category, click **[!UICONTROL Add data]**.
 
    ![](assets/uc_enrichment_8.png)
 
-1. Select **[!UICONTROL Data linked to the filtering dimension]** then **[!UICONTROL Data of the filtering dimension]** .
+1. Select **[!UICONTROL Data linked to the filtering dimension]** then **[!UICONTROL Data of the filtering dimension]**.
 1. Click the **[!UICONTROL Add]** button. 
 
    ![](assets/uc_enrichment_9.png)
 
-1. Add a **[!UICONTROL Label]** . Then, in the **[!UICONTROL Expression]** column, click **[!UICONTROL Edit expression]** .
+1. Add a **[!UICONTROL Label]**. Then, in the **[!UICONTROL Expression]** column, click **[!UICONTROL Edit expression]**.
 
    ![](assets/uc_enrichment_10.png)
 
-1. First, we need to target the week before the birthdate as the **Validity start date** with the following **[!UICONTROL Expression]** : SubDays([target/@birthDate], 7).
+1. First, we need to target the week before the birthdate as the **Validity start date** with the following **[!UICONTROL Expression]**: `SubDays([target/@birthDate], 7)`.
 
    ![](assets/uc_enrichment_11.png)
 
-1. Then, to create the custom date field **Validity end date** which will target the week after the birthdate, you need to add the **[!UICONTROL Expression]** : AddDays([target/@birthDate], 7).
+1. Then, to create the custom date field **Validity end date** which will target the week after the birthdate, you need to add the **[!UICONTROL Expression]**: `AddDays([target/@birthDate], 7)`.
 
    You can add a label to your expression.
 
    ![](assets/uc_enrichment_12.png)
 
-1. Click **[!UICONTROL Ok]** . Your enrichment is now ready.
+1. Click **[!UICONTROL Ok]**. Your enrichment is now ready.
 
 After your **[!UICONTROL Enrichment]** activity, you can add a delivery. In this case, we added an email delivery to send recipients a special offer with validity dates to customers celebrating their birthdays this month.
 
@@ -92,7 +92,7 @@ After your **[!UICONTROL Enrichment]** activity, you can add a delivery. In this
    ![](assets/uc_enrichment_15.png)
 
 1. Double-click your **[!UICONTROL Email delivery]** activity to start personalizing your delivery.
-1. Add a **[!UICONTROL Label]** to your delivery and click **[!UICONTROL Continue]** .
+1. Add a **[!UICONTROL Label]** to your delivery and click **[!UICONTROL Continue]**.
 1. Click **[!UICONTROL Save]** to create your email delivery.
 1. Check in the **[!UICONTROL Approval]** tab of the email delivery **[!UICONTROL Properties]** that the **[!UICONTROL Confirm delivery before sending option]** is checked.
 

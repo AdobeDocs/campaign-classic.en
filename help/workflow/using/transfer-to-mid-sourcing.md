@@ -30,7 +30,7 @@ The workflows detailed below are installed with the **Transfer to Mid-Sourcing**
   <tr> 
    <td> <span class="uicontrol">Mid-sourcing (delivery counters)</span> <br /> </td> 
    <td> <span class="uicontrol">defaultMidSourcingDlv</span> <br /> </td> 
-   <td> This workflow collects count information for deliveries on the mid-sourcing server. Count information includes general delivery indicators such as number of deliveries sent, etc.<br /> Tracking information such as opens are not included.<br /> It is triggered every ten minutes by default.<br /> </td> 
+   <td> <p>This workflow collects count information for deliveries on the mid-sourcing server. Count information includes general delivery indicators such as number of deliveries sent, etc.</p> <p>Tracking information such as opens are not included.</p> <p>It is triggered every ten minutes by default.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Mid-sourcing (delivery logs)</span> <br /> </td> 

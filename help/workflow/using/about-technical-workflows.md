@@ -18,7 +18,7 @@ snippet: y
 
 # About technical workflows{#about-technical-workflows}
 
-The workflows detailed in this section are installed with the different Adobe Campaign built-in packages. These packages, and related technical workflows, depend on your licence agreement. By default, they are available in a sub-folder of the following node: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** .
+The workflows detailed in this section are installed with the different Adobe Campaign built-in packages. These packages, and related technical workflows, depend on your licence agreement. By default, they are available in a sub-folder of the following node: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
 >[!NOTE]
 >

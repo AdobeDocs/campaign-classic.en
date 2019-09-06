@@ -32,7 +32,7 @@ The scheduler defines the activation schedule of the transition. To configure it
 
 A wizard lets you define the frequency and validity period of the activity. The configuration steps are as follows:
 
-1. Select the activation frequency and click **[!UICONTROL Next]** .
+1. Select the activation frequency and click **[!UICONTROL Next]**.
 
    ![](assets/s_user_segmentation_scheduler2.png)
 

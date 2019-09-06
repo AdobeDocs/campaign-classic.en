@@ -100,7 +100,7 @@ Identifier of the content to be used if the **[!UICONTROL Specified in the trans
 
 * filename
 
-  Full name of the generated file if the selected action is **[!UICONTROL Generate]** .
+  Full name of the generated file if the selected action is **[!UICONTROL Generate]**.
 
 ## Examples {#examples}
 

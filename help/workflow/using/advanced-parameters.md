@@ -44,9 +44,9 @@ This field lets you define the action to be carried out when the task is trigger
 
 These options are generally selected in the cart by right-clicking the activity.
 
-* **[!UICONTROL Normal]** : the activity is executed as usual.
-* **[!UICONTROL Do not activate]** : this task and all the following tasks (in the same branch) are not executed. 
-* **[!UICONTROL Activate but do not execute]** : this task and all the following tasks (in the same branch) are automatically stopped. This can be useful if you want to be there when the task is started. To execute the task manually, right-click the activity and select **[!UICONTROL Normal execution]** .
+* **[!UICONTROL Normal]**: the activity is executed as usual.
+* **[!UICONTROL Do not activate]**: this task and all the following tasks (in the same branch) are not executed. 
+* **[!UICONTROL Activate but do not execute]**: this task and all the following tasks (in the same branch) are automatically stopped. This can be useful if you want to be there when the task is started. To execute the task manually, right-click the activity and select **[!UICONTROL Normal execution]**.
 
 ## Affinity {#affinity}
 
@@ -60,8 +60,8 @@ This field lets you set a warning for when the task takes too long. It won't imp
 
 This field lets you define the behavior to be applied for using asynchronous tasks. There are two possible options:
 
-* **[!UICONTROL Several tasks authorized]** : several tasks can be executed at once, even if the first one isn't finished. 
-* **[!UICONTROL The current task has priority]** : tasks in progress take priority. As long as a task is in progress, no other task will be executed.
+* **[!UICONTROL Several tasks authorized]**: several tasks can be executed at once, even if the first one isn't finished. 
+* **[!UICONTROL The current task has priority]**: tasks in progress take priority. As long as a task is in progress, no other task will be executed.
 
 ## Time zone {#time-zone}
 
@@ -71,8 +71,8 @@ This field lets you select the time zone of the activity. For more on this: [Man
 
 This field lets you define the action to be carried out when the activity has errors. There are two possible options:
 
-* **[!UICONTROL Stop the process]** : the workflow is stopped automatically. Its status changes to **[!UICONTROL Failed]** . Once the problem is solved, re-start the workflow.
-* **[!UICONTROL Ignore]** : this task and all the following tasks (in the same branch) aren't executed. This can be useful for recurring tasks. If the branch has a scheduler placed upstream, it will start as usual on the next execution date.
+* **[!UICONTROL Stop the process]**: the workflow is stopped automatically. Its status changes to **[!UICONTROL Failed]**. Once the problem is solved, re-start the workflow.
+* **[!UICONTROL Ignore]**: this task and all the following tasks (in the same branch) aren't executed. This can be useful for recurring tasks. If the branch has a scheduler placed upstream, it will start as usual on the next execution date.
 
 ## Initialization script {#initialization-script}
 

@@ -73,7 +73,7 @@ Being cautious and following the few simple rules detailed below will help a lot
 
 ### Using import templates {#using-import-templates}
 
-Most import workflows should contain the following activities: **[!UICONTROL Data loading (file)]** , **[!UICONTROL Enrichment]** , **[!UICONTROL Split]** , **[!UICONTROL Deduplication]** , **[!UICONTROL Update data]** .
+Most import workflows should contain the following activities: **[!UICONTROL Data loading (file)]**, **[!UICONTROL Enrichment]**, **[!UICONTROL Split]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
 
 Using import templates makes it very convenient to prepare similar imports and ensure data consistency within the database. Learn how to build workflow templates in the [Workflow templates](../../workflow/using/building-a-workflow.md#workflow-templates) section.
 
@@ -151,14 +151,14 @@ Using an import template is a best practice if you need to regularly import file
 
 This example shows how to pre-set a workflow that can be reused for importing profiles coming from a CRM in the Adobe Campaign database. For more information about all possible settings for each activity, refer to this [section](../../workflow/using/about-activities.md).
 
-1. Create a new workflow template from **[!UICONTROL Resources > Templates > Workflow templates]** .
+1. Create a new workflow template from **[!UICONTROL Resources > Templates > Workflow templates]**.
 1. Add the following activities:
 
-    * **[!UICONTROL Data loading (file)]** : Define the expected structure of the file containing the data to import.
-    * **[!UICONTROL Enrichment]** : Reconcile the imported data with database data.
-    * **[!UICONTROL Split]** : Create filters to process records differently depending on whether they could be reconciled or not.
-    * **[!UICONTROL Deduplication]** : Deduplicate the data from the incoming file before it is inserted in the database.
-    * **[!UICONTROL Update data]** : Update the database with the imported profiles.
+    * **[!UICONTROL Data loading (file)]**: Define the expected structure of the file containing the data to import.
+    * **[!UICONTROL Enrichment]**: Reconcile the imported data with database data.
+    * **[!UICONTROL Split]**: Create filters to process records differently depending on whether they could be reconciled or not.
+    * **[!UICONTROL Deduplication]**: Deduplicate the data from the incoming file before it is inserted in the database.
+    * **[!UICONTROL Update data]**: Update the database with the imported profiles.
 
    ![](assets/import_template_example0.png)
 
@@ -173,7 +173,7 @@ This example shows how to pre-set a workflow that can be reused for importing pr
 
     * In the **[!UICONTROL Name of the file to load]** section, select **[!UICONTROL Upload a file from the local machine]** and leave the field blank. Each time a new workflow is created from this template, you can specify here the file you want, as long at it corresponds to the defined structure.
 
-      You can use any of the options but you have to modify the template accordingly. For example, if you select **[!UICONTROL Specified in the transition]** , you can add a **[!UICONTROL File Transfer]** activity before to retrieve the file to import from a FTP/SFTP server.
+      You can use any of the options but you have to modify the template accordingly. For example, if you select **[!UICONTROL Specified in the transition]**, you can add a **[!UICONTROL File Transfer]** activity before to retrieve the file to import from a FTP/SFTP server.
     
       ![](assets/import_template_example1.png)
 
@@ -190,7 +190,7 @@ This example shows how to pre-set a workflow that can be reused for importing pr
 
    Recipients that cannot be reconciled and do not have enough data are selected in a complement outbound transition and can be exported in a separate file or simply ignored.
 
-    * In the **[!UICONTROL General]** tab of the activity, select **[!UICONTROL Use the additional data only]** as filtering setting and make sure that the **[!UICONTROL Targeting dimension]** is automatically set to **[!UICONTROL Enrichment]** .
+    * In the **[!UICONTROL General]** tab of the activity, select **[!UICONTROL Use the additional data only]** as filtering setting and make sure that the **[!UICONTROL Targeting dimension]** is automatically set to **[!UICONTROL Enrichment]**.
 
       Check the **[!UICONTROL Generate complement]** option to be able to see if any record cannot be inserted in the database. If you need, you can then apply further processing to the complementary data: file export, list update, etc.
     
@@ -204,12 +204,12 @@ This example shows how to pre-set a workflow that can be reused for importing pr
     
       ![](assets/import_template_example3_2.png)
 
-    * All records that are not selected in the first two subsets are selected in the **[!UICONTROL Complement]** .
+    * All records that are not selected in the first two subsets are selected in the **[!UICONTROL Complement]**.
 
 1. Configure the **[!UICONTROL Update data]** activity located after the first outbound transition of the **[!UICONTROL Split]** activity configured previously.
 
     * Select **[!UICONTROL Update]** as **[!UICONTROL Operation type]** since the inbound transition only contains recipients already present in the database.
-    * In the **[!UICONTROL Record identification]** section, select **[!UICONTROL Using reconciliation keys]** and define a key between the targeting dimension and the link created in the **[!UICONTROL Enrichment]** . In this example, the **CRM ID** custom field is used.
+    * In the **[!UICONTROL Record identification]** section, select **[!UICONTROL Using reconciliation keys]** and define a key between the targeting dimension and the link created in the **[!UICONTROL Enrichment]**. In this example, the **CRM ID** custom field is used.
     * In the **[!UICONTROL Fields to update]** section, indicate the fields from the recipients dimension to update with the value of the corresponding column from the file. If the names of the file columns are identical or almost identical to the names of the recipients dimension fields, you can use the magic wand button to automatically match the different fields.
     
       ![](assets/import_template_example6.png)

@@ -28,7 +28,7 @@ Operation is as follows:
 
    ![](assets/s_advuser_wf_sgbd_sample_1.png)
 
-   The name of the table entered in the corresponding field is used as a template for collecting data in the external database. The name of the table processed by the workflow can be computed or conveyed by the inbound transition of the data loading activity. To select the table to be used, click the **[!UICONTROL Advanced..]** . link and select the **[!UICONTROL Specified in the transition]** or **[!UICONTROL Explicit]** option.
+   The name of the table entered in the corresponding field is used as a template for collecting data in the external database. The name of the table processed by the workflow can be computed or conveyed by the inbound transition of the data loading activity. To select the table to be used, click the **[!UICONTROL Advanced..]**. link and select the **[!UICONTROL Specified in the transition]** or **[!UICONTROL Explicit]** option.
 
    ![](assets/s_advuser_wf_sgbd_sample_5.png)
 

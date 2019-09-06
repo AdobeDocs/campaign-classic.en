@@ -44,7 +44,7 @@ To build the workflow, follow the steps below:
 
 1. Add an **End** activity to the **No** fork. This way, nothing will be executed if the workflow is already executing.
 1. Add the desired activities to the **Yes** fork. In our case, **Query** and **Update Data** activities.
-1. Open the first activity, then add the **** command in the **[!UICONTROL Advanced]** tab. This way, the instance variable is set as running.
+1. Open the first activity, then add the **instance.vars.isRunning = true** command in the **[!UICONTROL Advanced]** tab. This way, the instance variable is set as running.
 
    ![](assets/uc_dataupdate_query.png)
 

@@ -22,7 +22,7 @@ snippet: y
 
 This use case details possible uses of the **[!UICONTROL Enrichment]** activity in a targeting workflow. For more on using the **[!UICONTROL Enrichment]** activity, refer to: [Enrichment](../../workflow/using/enrichment.md).
 
-The contacts in the marketing database are sent an invitation to take part in a competition via a web application. The results of the competition are recovered in the **[!UICONTROL Competition results]** table. This table is linked to the contact table ( **[!UICONTROL Recipients]** ). The **[!UICONTROL Competition results]** table contains the following fields:
+The contacts in the marketing database are sent an invitation to take part in a competition via a web application. The results of the competition are recovered in the **[!UICONTROL Competition results]** table. This table is linked to the contact table (**[!UICONTROL Recipients]**). The **[!UICONTROL Competition results]** table contains the following fields:
 
 * Competition name (@game)
 * Trial number (@trial)
@@ -63,31 +63,31 @@ An **[!UICONTROL Intersection]** type activity is then added to target the recip
 
 In this example, we want to personalize deliveries according to the **[!UICONTROL Score]** field stored in the **[!UICONTROL Competition results]** table. This table has a 1-n type relationship with the recipients table. The **[!UICONTROL Enrichment]** activity enables us to add data from a table linked to the filtering dimension to the work table of the workflow.
 
-1. In the editing screen of the enrichment activity, select **[!UICONTROL Add data]** , then **[!UICONTROL Data linked to the filtering dimension]** and click **[!UICONTROL Next]** .
+1. In the editing screen of the enrichment activity, select **[!UICONTROL Add data]**, then **[!UICONTROL Data linked to the filtering dimension]** and click **[!UICONTROL Next]**.
 
    ![](assets/uc1_enrich_6.png)
 
-1. Then select the **[!UICONTROL Data linked to the filtering dimension]** option, select the **[!UICONTROL Competition results]** table and click **[!UICONTROL Next]** .
+1. Then select the **[!UICONTROL Data linked to the filtering dimension]** option, select the **[!UICONTROL Competition results]** table and click **[!UICONTROL Next]**.
 
    ![](assets/uc1_enrich_7.png)
 
-1. Enter an ID and a label, and select the **[!UICONTROL Limit the line count]** option in the **[!UICONTROL Data collected]** field. In the **[!UICONTROL Lines to retrieve]** field, select '1' as a value. For each recipient, the enrichment activity will add a single line from the **[!UICONTROL Competition results]** table to the work table of the workflow. Click **[!UICONTROL Next]** .
+1. Enter an ID and a label, and select the **[!UICONTROL Limit the line count]** option in the **[!UICONTROL Data collected]** field. In the **[!UICONTROL Lines to retrieve]** field, select '1' as a value. For each recipient, the enrichment activity will add a single line from the **[!UICONTROL Competition results]** table to the work table of the workflow. Click **[!UICONTROL Next]**.
 
    ![](assets/uc1_enrich_8.png)
 
-1. In this example, we want to recover the recipient's highest score, but only for the last competition. To do this, add a filter to the **[!UICONTROL Competition name]** field to exclude all lines related to previous competitions. Click **[!UICONTROL Next]** .
+1. In this example, we want to recover the recipient's highest score, but only for the last competition. To do this, add a filter to the **[!UICONTROL Competition name]** field to exclude all lines related to previous competitions. Click **[!UICONTROL Next]**.
 
    ![](assets/uc1_enrich_9.png)
 
-1. Go to the **[!UICONTROL Sort]** screen and click the **[!UICONTROL Add]** button, select the **[!UICONTROL Score]** field and check the box in the **[!UICONTROL descending]** column to sort items of the **[!UICONTROL Score]** fields in descending order. For each recipient, the enrichment activity adds a line that matches the highest score for the last game. Click **[!UICONTROL Next]** .
+1. Go to the **[!UICONTROL Sort]** screen and click the **[!UICONTROL Add]** button, select the **[!UICONTROL Score]** field and check the box in the **[!UICONTROL descending]** column to sort items of the **[!UICONTROL Score]** fields in descending order. For each recipient, the enrichment activity adds a line that matches the highest score for the last game. Click **[!UICONTROL Next]**.
 
    ![](assets/uc1_enrich_10.png)
 
-1. In the **[!UICONTROL Data to add]** window, double-click the **[!UICONTROL Score]** field. For each recipient, the enrichment activity will add only the **[!UICONTROL Score]** field. Click **[!UICONTROL Finish]** .
+1. In the **[!UICONTROL Data to add]** window, double-click the **[!UICONTROL Score]** field. For each recipient, the enrichment activity will add only the **[!UICONTROL Score]** field. Click **[!UICONTROL Finish]**.
 
    ![](assets/uc1_enrich_11.png)
 
-Right-click the inbound transition of the enrichment activity and select **[!UICONTROL Display the target]** . The work table contains the following data:
+Right-click the inbound transition of the enrichment activity and select **[!UICONTROL Display the target]**. The work table contains the following data:
 
 ![](assets/uc1_enrich_13.png)
 

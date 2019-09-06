@@ -71,9 +71,9 @@ As these campaigns are launched at the beginning of every season in order to off
 
    Then click the **[!UICONTROL Change...]** button.
 
-1. To ensure the list is updated before the start of each season, select **[!UICONTROL Monthly]** .
+1. To ensure the list is updated before the start of each season, select **[!UICONTROL Monthly]**.
 1. On the next screen, select March, June, September and December. Choose the 20th of the month and choose what time you would like to launch the workflow.
-1. Next select the validity period for the query. For example, if you want this activity to be permanently active, select **[!UICONTROL Permanent validity]** .
+1. Next select the validity period for the query. For example, if you want this activity to be permanently active, select **[!UICONTROL Permanent validity]**.
 
    ![](assets/incremental_query_example_2.png)
 

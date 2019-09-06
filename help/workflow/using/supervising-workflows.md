@@ -61,13 +61,10 @@ The first part of the JavaScript code coincides with a **query (queryDef)** that
 The **internal name** of the workflow folder to monitor is given in the following condition:
 
 ```
-
 <condition boolOperator="AND" expr="[folder/@name] = 'Folder20'" internalId="1"/>
- 
 ```
 
 ```
-
 var strError = "";
 var strPaused = "";
 var strStop = "";
@@ -91,7 +88,6 @@ var queryWkfError = xtk.queryDef.create(
   </queryDef>
 );
 var ndWkfError = queryWkfError.ExecuteQuery(); 
- 
 ```
 
 The second part of the JavaScript code lets you **display a message for each workflow** based on the status recovered during the query.
@@ -101,7 +97,6 @@ The second part of the JavaScript code lets you **display a message for each wor
 >The strings created must be loaded in the workflow's event variables.
 
 ```
-
 for each ( var wkf in ndWkfError.workflow ) 
 {
   if ( wkf.@state == 13 )  // Status 13 = paused
@@ -119,7 +114,6 @@ for each ( var wkf in ndWkfError.workflow )
 vars.strWorkflowError = strError;
 vars.strWorkflowPaused = strPaused;
 vars.strWorkflowStop = strStop;
-
 ```
 
 ## Step 3: Creating the 'Test' activity {#step-3--creating-the--test--activity}
@@ -178,11 +172,9 @@ Double-click the **Delivery** activity and select the following options:
   The three variables declared are:
 
   ```
-  
   delivery.variables._var[0].stringValue = vars.strWorkflowError;
   delivery.variables._var[1].stringValue = vars.strWorkflowPaused;
   delivery.variables._var[2].stringValue = vars.strWorkflowStop; 
-   
   ```
 
 Once this monitoring workflow is launched, it sends the following summary to the recipient:

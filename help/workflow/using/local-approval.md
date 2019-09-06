@@ -50,13 +50,13 @@ The fields to be entered in case of a notification for target approval are:
 
 ![](assets/local_validation_3.png)
 
-* **[!UICONTROL Distribution context]** : select the **[!UICONTROL Specified in the transition]** option if you are using a **[!UICONTROL Split]** type activity to limit the targeted population. In this case, the distribution template is entered in the split activity. If you are not limiting the targeted population, select the **[!UICONTROL Explicit]** option here and enter the distribution template in the **[!UICONTROL Data distribution]** field.
+* **[!UICONTROL Distribution context]**: select the **[!UICONTROL Specified in the transition]** option if you are using a **[!UICONTROL Split]** type activity to limit the targeted population. In this case, the distribution template is entered in the split activity. If you are not limiting the targeted population, select the **[!UICONTROL Explicit]** option here and enter the distribution template in the **[!UICONTROL Data distribution]** field.
 
   For more on creating a data distribution template, refer to [Limiting the number of subset records per data distribution](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 * **[!UICONTROL Approval management]**
 
-    * Select the delivery template and the subject that will be used for the email notification. A default template is available: **[!UICONTROL Local approval notification]** . You can also add a description that will appear above the recipient lists in the approval and feedback notifications.
+    * Select the delivery template and the subject that will be used for the email notification. A default template is available: **[!UICONTROL Local approval notification]**. You can also add a description that will appear above the recipient lists in the approval and feedback notifications.
     * Specify the **[!UICONTROL Approval type]** that corresponds to the approval deadline (date or deadline from the start of the approval). On this date, the workflow starts again and the recipients who have not been approved are not taken into account in the targeting. Once the notifications have been sent, the activity is queued so that the local supervisors can approve their contacts.
 
       >[!NOTE]
@@ -65,7 +65,7 @@ The fields to be entered in case of a notification for target approval are:
 
       You can also add one or more reminders to inform local supervisors that the deadline is approaching. To do this, click the **[!UICONTROL Add a reminder]** link.
 
-* **[!UICONTROL Complementary set]** : the **[!UICONTROL Generate complement]** option lets you generate a second set that includes all non-approved targets.
+* **[!UICONTROL Complementary set]**: the **[!UICONTROL Generate complement]** option lets you generate a second set that includes all non-approved targets.
 
   >[!NOTE]
   >
@@ -82,7 +82,7 @@ In case of a delivery feedback report, the following fields must be entered:
 ![](assets/local_validation_workflow_4.png)
 
 * Select the **[!UICONTROL Specified in the transition]** option if the delivery was entered during a previous activity. Select **[!UICONTROL Explicit]** to specify the delivery in the local approval activity.
-* Select the delivery template and the object of the notification email. There is a default template: **[!UICONTROL Local approval notification]** .
+* Select the delivery template and the object of the notification email. There is a default template: **[!UICONTROL Local approval notification]**.
 
 ## Example: Approving a workflow delivery {#example--approving-a-workflow-delivery}
 
@@ -108,7 +108,7 @@ An operator can approve a delivery in one of two ways: using the Web page linked
 
 ![](assets/new-workflow-7.png)
 
-Select **Yes**, then click **[!UICONTROL Approve]** . A message will inform you that the response has been recorded.
+Select **Yes**, then click **[!UICONTROL Approve]**. A message will inform you that the response has been recorded.
 
 Go back to the workflow screen: After ten seconds or so, the diagram is displayed as follows:
 

@@ -57,7 +57,7 @@ In the following example, the list update activity follows a query which targets
 
    The list of matching recipients is then created or updated.
 
-For more on this, refer to the [Creating a list of recipients](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.md) video.
+For more on this, refer to the [Creating a list of recipients](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
 
 ## Input parameters {#input-parameters}
 

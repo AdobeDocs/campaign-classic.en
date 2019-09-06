@@ -78,11 +78,11 @@ To configure it, edit the activity and enter the delivery options.
 
    Select the type of action to be carried out:
 
-    * **[!UICONTROL Save]** : this option lets you create the delivery and save it. It will not analyze or deliver it.
-    * **[!UICONTROL Estimate the target]** : this option lets you calculate the delivery target to assess its potential (first analysis phase). This action is the equivalent of selecting the **[!UICONTROL Estimate the population to be targeted]** option and clicking **[!UICONTROL Analyze]** when sending a delivery to the main target via **Delivery**.
-    * **[!UICONTROL Prepare]** : this option lets you run the full analysis process (target calculation and content preparation). The delivery isn't sent. This action is the equivalent of selecting the **[!UICONTROL Deliver as soon as possible]** option and clicking **[!UICONTROL Analyze]** when sending a delivery to the main target with **Delivery**.
-    * **[!UICONTROL Send a proof]** : this option lets you send a proof of the delivery. This action is the equivalent of clicking the **[!UICONTROL Send a proof]** button in the toolbar of a delivery with **Delivery** 
-    * **[!UICONTROL Prepare and start]** : this option launches the full analysis process (target calculation and content preparation) and sends the delivery. This action is the equivalent of clicking **[!UICONTROL Deliver as soon as possible]** , **[!UICONTROL Analyze]** , and **[!UICONTROL Confirm delivery]** option when sending a delivery to the main target with **Delivery**.
+    * **[!UICONTROL Save]**: this option lets you create the delivery and save it. It will not analyze or deliver it.
+    * **[!UICONTROL Estimate the target]**: this option lets you calculate the delivery target to assess its potential (first analysis phase). This action is the equivalent of selecting the **[!UICONTROL Estimate the population to be targeted]** option and clicking **[!UICONTROL Analyze]** when sending a delivery to the main target via **Delivery**.
+    * **[!UICONTROL Prepare]**: this option lets you run the full analysis process (target calculation and content preparation). The delivery isn't sent. This action is the equivalent of selecting the **[!UICONTROL Deliver as soon as possible]** option and clicking **[!UICONTROL Analyze]** when sending a delivery to the main target with **Delivery**.
+    * **[!UICONTROL Send a proof]**: this option lets you send a proof of the delivery. This action is the equivalent of clicking the **[!UICONTROL Send a proof]** button in the toolbar of a delivery with **Delivery** 
+    * **[!UICONTROL Prepare and start]**: this option launches the full analysis process (target calculation and content preparation) and sends the delivery. This action is the equivalent of clicking **[!UICONTROL Deliver as soon as possible]**, **[!UICONTROL Analyze]**, and **[!UICONTROL Confirm delivery]** option when sending a delivery to the main target with **Delivery**.
 
    The **[!UICONTROL Act on a delivery]** activity used further on in the workflow lets you launch all remaining steps required for starting the delivery (target calculation, content preparation, delivery). For more on this, refer to [Delivery control](../../workflow/using/delivery-control.md).
 
@@ -113,7 +113,7 @@ Create a new workflow and add activities as shown in the graphic below:
 Open the **Delivery** activity and define the properties as follows:
 
 * In the **[!UICONTROL Delivery]** section, select **[!UICONTROL New, created from a template]** and select a delivery template. 
-* In the **[!UICONTROL Recipients]** section, select **[!UICONTROL Specified in the delivery]** . 
+* In the **[!UICONTROL Recipients]** section, select **[!UICONTROL Specified in the delivery]**. 
 * In the **[!UICONTROL Action to execute]** section, keep the **[!UICONTROL Prepare]** option.
 
 ![](assets/new-workflow-param-delivery.png)

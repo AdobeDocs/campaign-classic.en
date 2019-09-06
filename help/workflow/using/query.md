@@ -100,7 +100,7 @@ To add data from the Adobe Campaign database:
 To add a collection of information linked to a targeted population:
 
 1. At the first step of the wizard, select the **[!UICONTROL Data linked to the filtering dimension]** option:
-1. Select the table which contains the information you want to collect and click **[!UICONTROL Next]** .
+1. Select the table which contains the information you want to collect and click **[!UICONTROL Next]**.
 
    ![](assets/wf_add_data_linked_table.png)
 
@@ -111,9 +111,10 @@ To add a collection of information linked to a targeted population:
       >[!CAUTION]
       >
       >This mode optimizes the SQL query generated thanks to a direct juncture on the collection elements.  
+      >
       >If the initial condition is not respected, the result may be flawed (missing or overlapping lines).
 
-    * If you choose to recover several lines ( **[!UICONTROL Limit the line count]** ) you can specify the number of lines to collect. 
+    * If you choose to recover several lines (**[!UICONTROL Limit the line count]**) you can specify the number of lines to collect. 
     * If the collected columns contain aggregates, for example the number of failures declared, average expenditure on a site, etc. you can use the **[!UICONTROL Aggregates]** value.
 
    ![](assets/query_add_collection_param.png)
@@ -151,8 +152,8 @@ In the following example, the query seeks to identify men aged between 18 and 30
 
    ![](assets/query_example_preview.png)
 
-1. Save your filters so that you can use them again at a later date by clicking **[!UICONTROL Finish]** > **[!UICONTROL OK]** .
-1. Continue editing your workflow by adding other activities to it. Once it has been launched and the previous query step finished, the number of recipients found will be displayed. You can display further details using the mouse pop-up menu (right click the transition > **[!UICONTROL Display the target...]** ).
+1. Save your filters so that you can use them again at a later date by clicking **[!UICONTROL Finish]** > **[!UICONTROL OK]**.
+1. Continue editing your workflow by adding other activities to it. Once it has been launched and the previous query step finished, the number of recipients found will be displayed. You can display further details using the mouse pop-up menu (right click the transition > **[!UICONTROL Display the target...]**).
 
    ![](assets/query_example_result.png)
 
@@ -164,4 +165,4 @@ In the following example, the query seeks to identify men aged between 18 and 30
 
 This set of three values identifies the population targeted by the query. **[!UICONTROL tableName]** is the name of the table that records the target identifiers, **[!UICONTROL schema]** is the schema of the population (usually nms:recipient) and **[!UICONTROL recCount]** is the number of elements in the table.
 
-This value is the schema of the work table. This parameter is valid for all transitions with **[!UICONTROL tableName]** and **[!UICONTROL schema]** .
+This value is the schema of the work table. This parameter is valid for all transitions with **[!UICONTROL tableName]** and **[!UICONTROL schema]**.
