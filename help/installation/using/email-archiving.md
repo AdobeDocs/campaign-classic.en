@@ -57,7 +57,7 @@ The full path is as follows: **`<datalogpath>  YYYY-MM-DDHHh`**. The date and ti
 C:\emails\2018-12-02\13h
 ```
 
-The archive file name is **`<deliveryid>-<broadlogid>.eml`** when the status of the emails is not **[!UICONTROL Sent]**. Once the status has changed to **[!UICONTROL Sent]** , the file name becomes ** `<deliveryid>-<broadlogid>-sent.eml`**. For example:
+The archive file name is **`<deliveryid>-<broadlogid>.eml`** when the status of the emails is not **[!UICONTROL Sent]**. Once the status has changed to **[!UICONTROL Sent]**, the file name becomes ** `<deliveryid>-<broadlogid>-sent.eml`**. For example:
 
 ```
 C:\emails\2018-12-02\13h\4012-8040-sent.eml
@@ -67,7 +67,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 >
 >In a mid-sourcing instance, the directory for the archived emails is located on the mid-sourcing server.  
 >
->The deliveryID and the broadlogID come from the mid-sourcing server when the status of the emails is not sent. Once the status has changed to **[!UICONTROL Sent]** , these IDs come from the marketing server.
+>The deliveryID and the broadlogID come from the mid-sourcing server when the status of the emails is not sent. Once the status has changed to **[!UICONTROL Sent]**, these IDs come from the marketing server.
 
 ### Parameters {#parameters}
 

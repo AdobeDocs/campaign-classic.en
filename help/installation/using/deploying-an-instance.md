@@ -276,7 +276,7 @@ The next step lets you define default settings for deliveries to mobiles (SMS an
 Enter the following information:
 
 * **[!UICONTROL Label]** : Enter a name for this SMS/Wap Push account. For example, you may wish to use the name of your router.
-* For the **[!UICONTROL Server]** , **[!UICONTROL Port]** , **[!UICONTROL Account]** , **[!UICONTROL Password]** , **[!UICONTROL Connector]** , **[!UICONTROL Send Endpoint]** , **[!UICONTROL Reception Endpoint]** , **[!UICONTROL Notification Endpoint]** fields: Contact your service provider for the required settings.
+* For the **[!UICONTROL Server]**, **[!UICONTROL Port]**, **[!UICONTROL Account]**, **[!UICONTROL Password]**, **[!UICONTROL Connector]**, **[!UICONTROL Send Endpoint]**, **[!UICONTROL Reception Endpoint]**, **[!UICONTROL Notification Endpoint]** fields: Contact your service provider for the required settings.
 
 ### Parameters of SMS sent {#parameters-of-sms-sent}
 
@@ -288,7 +288,7 @@ The **Advanced parameters...** link enables you to access the retry and quaranti
 
 ![](assets/s_ncs_install_deployment_wiz_13.png)
 
-Information on retries is available in the **Period of retries** and **Number of retries** fields: When a mobile is unreachable , by default, the program will try again 5 times at intervals of at least 15 minutes (for the maximum delivery period). These values can be adapted to suit your needs.
+Information on retries is available in the **Period of retries** and **Number of retries** fields: When a mobile is unreachable, by default, the program will try again 5 times at intervals of at least 15 minutes (for the maximum delivery period). These values can be adapted to suit your needs.
 
 Configuration options for quarantines are as follows:
 
@@ -395,7 +395,7 @@ The following publication modes are available:
 
   Then enter the password.
 
-  The parameters of the dedicated server(s) are given in the **[!UICONTROL Media URL(s)]** , **[!UICONTROL Password]** and **[!UICONTROL Instance name]** fields.
+  The parameters of the dedicated server(s) are given in the **[!UICONTROL Media URL(s)]**, **[!UICONTROL Password]** and **[!UICONTROL Instance name]** fields.
 
   ![](assets/s_ncs_install_images_upload_b.png)
 

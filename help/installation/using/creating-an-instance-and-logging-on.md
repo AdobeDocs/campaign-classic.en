@@ -42,7 +42,7 @@ To create a new instance, follow the steps below:
 
 1. Specify a connection to your Adobe Campaign application server via a URL. Use either a DNS or an alias of the machine, or your IP address.
 
-   For example, you can use the [https://`<machine>`.`<domain>`.com](https://machine) type URL.
+   For example, you can use the [`https://<machine>.<domain>.com`](https://machine) type URL.
 
    >[!CAUTION]
    >
@@ -70,7 +70,7 @@ To create a new instance, follow the steps below:
 
    In addition, the server must be able to connect to itself by this name, and if possible by a loopback address - 127.0.0.1 -, particularly to allow reports to be exported in PDF format. 
 
-1. In the **[!UICONTROL Language]** drop-down list, select the **instance language**: English (US), English (UK) , French, or Japanese.
+1. In the **[!UICONTROL Language]** drop-down list, select the **instance language**: English (US), English (UK), French, or Japanese.
 
    Differences between US English and UK English are described in [this section](../../platform/using/adobe-campaign-workspace.md#date-and-time).
 
