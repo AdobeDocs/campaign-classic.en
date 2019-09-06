@@ -49,7 +49,7 @@ General communication between servers and processes is carried out according to 
 ### Recommended equipment {#recommended-equipment}
 
 * Application server: 2 Ghz quad-core CPU, 4 GB RAM, software RAID 1 80 GB SATA hard drive.
-* Database server: 3 GHz bi-quad core CPUs , minimum 4 GB RAM, hardware RAID 10 15000RPM SAS hard drive, the number depending on the size and expected performance of the database.
+* Database server: 3 GHz bi-quad core CPUs, minimum 4 GB RAM, hardware RAID 10 15000RPM SAS hard drive, the number depending on the size and expected performance of the database.
 
 >[!NOTE]
 >

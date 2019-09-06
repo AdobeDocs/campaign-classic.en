@@ -26,7 +26,7 @@ To install the Adobe Campaign console, apply the following steps:
 
 1. Open a Web browser and download the console from the following address:
 
-   [https://`<your adobe campaign server>`:`<port number>`/nl/jsp/logon.jsp`](https://machine/nl/jsp/logon.jsp).
+   [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://machine/nl/jsp/logon.jsp).
 
 1. In the identification window, enter your login and password. 
 

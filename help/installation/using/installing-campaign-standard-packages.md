@@ -33,7 +33,7 @@ To install a standard package:
 1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Package import...]** in the Adobe Campaign client console.
 1. Select **[!UICONTROL Install a standard package]**.
 1. In the list that appears, check the packages you want to install. Packages that cannot be checked are already installed on your instance.
-1. Click **[!UICONTROL Next]** , then **[!UICONTROL Start]** to start the package installation.
+1. Click **[!UICONTROL Next]**, then **[!UICONTROL Start]** to start the package installation.
 
    Once the packages are installed, the progress bar shows **100%** and you can see the following message in the installation logs: **[!UICONTROL Installation of packages successful]**.
 
@@ -270,14 +270,14 @@ The packages are now installed.
 
 To add a delivery channel (Mobile channel, Mobile App channel, etc.), this must be carried out before installing the Message Center package. If you have started a Message Center project on the email channel, then, in the middle of the project, you decide to add a new channel, you must follow these steps:
 
-1. Install the channel you wish, for example the **Mobile channel**, using the package import wizard ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]** ).
-1. Import the file ( **[!UICONTROL Tools > Advanced > Import package > File]** ), and select:
+1. Install the channel you wish, for example the **Mobile channel**, using the package import wizard ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
+1. Import the file ( **[!UICONTROL Tools > Advanced > Import package > File]**), and select:
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. In the **[!UICONTROL XML data content to import]** , keep only the Message Center delivery template corresponding to the attached channel. For example, if you have added the **Mobile channel**, keep only the **entities** element corresponding to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage) template. If you have added the **Mobile App Channel**, keep only the **iOS transactional message** templates (iosTriggerMessage) and **Android transactional message** (androidTriggerMessage).
+1. In the **[!UICONTROL XML data content to import]**, keep only the Message Center delivery template corresponding to the attached channel. For example, if you have added the **Mobile channel**, keep only the **entities** element corresponding to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage) template. If you have added the **Mobile App Channel**, keep only the **iOS transactional message** templates (iosTriggerMessage) and **Android transactional message** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 
