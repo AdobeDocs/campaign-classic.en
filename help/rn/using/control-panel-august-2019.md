@@ -27,4 +27,3 @@ We’ve added new capabilities for Admin users to receive notifications before S
 Additionally, Admin users can now delete SSH keys that were added to access SFTP servers.
 
 Please note that Control Panel is available for customers hosted on AWS only. No upgrades are required to access Control Panel.
-	
