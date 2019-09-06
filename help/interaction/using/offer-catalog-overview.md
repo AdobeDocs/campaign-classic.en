@@ -28,5 +28,5 @@ Before creating your offers, you must first specify an environment (see [Environ
 
 >[!CAUTION]
 >
->Creating the offer catalog, i.e. the categories and the offers, is the responsibility of the **[!UICONTROL Offer manager]** .
+>Creating the offer catalog, i.e. the categories and the offers, is the responsibility of the **[!UICONTROL Offer manager]**.
 

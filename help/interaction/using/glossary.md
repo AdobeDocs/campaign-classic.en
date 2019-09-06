@@ -22,14 +22,15 @@ Below is the definition of the main Interaction elements.
 
 * **Environment**: set which includes an offer catalog and hooks (offer spaces). You need to create one environment by targeting dimension. There are two types of environments:
 
-    * **Design environment**: environment in which offers are created and/or typology rules are defined (rules that will determine the offers to present or not present to a targeted person). The table of individuals that will be targeted by the offers and the table for storing all offer propositions are also defined in this. The **[!UICONTROL Design environment]** node contains offer space sub-folders, pre-defined filters and offer categories. For every **[!UICONTROL Design environment]** there is one corresponding read-only **[!UICONTROL Live environment]** , generated from this same **[!UICONTROL Design environment]** .
-    * **Live environment**: environment linked to a **[!UICONTROL Design environment]** . It contains read-only offers whose content and eligibility have been approved via the **[!UICONTROL Design environment]** . They are to be selected to be presented on a Web site or inserted into a message.
+    * **Design environment**: environment in which offers are created and/or typology rules are defined (rules that will determine the offers to present or not present to a targeted person). The table of individuals that will be targeted by the offers and the table for storing all offer propositions are also defined in this. The **[!UICONTROL Design environment]** node contains offer space sub-folders, pre-defined filters and offer categories. For every **[!UICONTROL Design environment]** there is one corresponding read-only **[!UICONTROL Live environment]**, generated from this same **[!UICONTROL Design environment]**.
+    * **Live environment**: environment linked to a **[!UICONTROL Design environment]**. It contains read-only offers whose content and eligibility have been approved via the **[!UICONTROL Design environment]**. They are to be selected to be presented on a Web site or inserted into a message.
 
 * **Offer space**: folder defining the location where the offer is exposed. Defining a space lets you specify the channel used, specify whether or not it can be used in unitary mode (by default: only in batch mode), build the content of the offer using rendering functions, and specify the offer of the offers presented. A space is an interface between the channel and the offer engine.
 
   >[!CAUTION]
   >
-  >An offer space is not a communication channel, it coincides with a specific exposition location on the channel. For example, offers exposed on a website can occupy two spaces on the same page. In this case, we will then have two spaces for the same channel.  
+  >An offer space is not a communication channel, it coincides with a specific exposition location on the channel. For example, offers exposed on a website can occupy two spaces on the same page. In this case, we will then have two spaces for the same channel.
+  >
   >Spaces must be defined in the specifications and must not be modified during the project.
 
 * **Offer catalog**: set of offers defined in Adobe Campaign that can be selected during an interaction. The catalog is organized hierarchically with each node corresponding to a category.

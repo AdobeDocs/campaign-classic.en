@@ -71,7 +71,7 @@ There are two methods for specifying offer propositions.
 After configuring your query (refer to the [Workflows guide](../../workflow/using/query.md)):
 
 1. Add and open an enrichment activity.
-1. In the **[!UICONTROL Enrichment]** tab, select **[!UICONTROL Add data]** .
+1. In the **[!UICONTROL Enrichment]** tab, select **[!UICONTROL Add data]**.
 1. Select **[!UICONTROL An offer proposition]** in the types of data to add.
 
    ![](assets/int_enrichment_offer2.png)
@@ -100,7 +100,7 @@ You can also reference a link to an offer in an enrichment activity.
 To do this, use the following process:
 
 1. Select **[!UICONTROL Add data]** in the activity's **[!UICONTROL Enrichment]** tab.
-1. In the window where you choose the type of data to add, select **[!UICONTROL A link]** .
+1. In the window where you choose the type of data to add, select **[!UICONTROL A link]**.
 1. Select the type of link you want to establish as well as its target. In this case, the target is the offer schema.
 
    ![](assets/int_enrichment_link1.png)
@@ -126,7 +126,7 @@ By default, when an **enrichment** activity is used to deliver offers, their ran
 However, you can store this information as follows:
 
 1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. Refer to the [Specifying an offer or a call to the offer engine](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine) section.
-1. In the activity's main window, select **[!UICONTROL Edit additional data...]** .
+1. In the activity's main window, select **[!UICONTROL Edit additional data...]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
 

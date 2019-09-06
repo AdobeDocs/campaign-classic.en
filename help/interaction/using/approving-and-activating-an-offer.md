@@ -42,7 +42,7 @@ To approve the offer content, apply the following steps:
 
    ![](assets/offer_validate_002.png)
 
-1. Using the drop-down list, select the representations you want to keep editing or those you want to publish to the live environment, then click **[!UICONTROL Content approval]** .
+1. Using the drop-down list, select the representations you want to keep editing or those you want to publish to the live environment, then click **[!UICONTROL Content approval]**.
 
    ![](assets/offer_validate_003.png)
 
@@ -62,11 +62,11 @@ Approving offer eligibility means accepting or rejecting offer weights and the e
 >
 >Once the content and eligibility of an offer are approved, the publication workflow (Offer notification) runs automatically and the offer is made live and available on all activated spaces.
 
-* The full list of rules can be viewed by clicking **[!UICONTROL Schedule and eligibility rules]** .
+* The full list of rules can be viewed by clicking **[!UICONTROL Schedule and eligibility rules]**.
 
   ![](assets/offer_validate_005.png)
 
-* To change the eligibility rules, click **[!UICONTROL Reject]** , then click **[!UICONTROL Eligibility approval]** .
+* To change the eligibility rules, click **[!UICONTROL Reject]**, then click **[!UICONTROL Eligibility approval]**.
 
   ![](assets/offer_validate_007.png)
 
@@ -74,11 +74,11 @@ Approving offer eligibility means accepting or rejecting offer weights and the e
 
   ![](assets/offer_validate_006.png)
 
-* To accept the offer eligibility, click **[!UICONTROL Approve eligibility]** .
+* To accept the offer eligibility, click **[!UICONTROL Approve eligibility]**.
 
   ![](assets/offer_validate_008.png)
 
-  Approve eligibility, add a comment if necessary, then click **[!UICONTROL Eligibility approval]** .
+  Approve eligibility, add a comment if necessary, then click **[!UICONTROL Eligibility approval]**.
 
   ![](assets/offer_validate_009.png)
 
@@ -90,6 +90,8 @@ Approving offer eligibility means accepting or rejecting offer weights and the e
 
 Approval tracking is available on the offer dashboard. Click **[!UICONTROL Hide/display logs]** to access it.
 
+![](assets/offer_validate_012.png)
+
 >[!NOTE]
 >
 >Tracking is also available in the **[!UICONTROL Audit]** tab of the offer, with details of reviewers' comments.
@@ -99,8 +101,8 @@ Approval tracking is available on the offer dashboard. Click **[!UICONTROL Hide/
 Once the approval has been launched, it can be re-launched. To do this, follow these instructions:
 
 1. Click **[!UICONTROL Content approved]** on the offer dashboard.
-1. In the **[!UICONTROL Edit]** window that appears, select the approval to restart, then click **[!UICONTROL Re-initialize approval to submit it again]** .
-1. Confirm by clicking **[!UICONTROL Ok]** .
+1. In the **[!UICONTROL Edit]** window that appears, select the approval to restart, then click **[!UICONTROL Re-initialize approval to submit it again]**.
+1. Confirm by clicking **[!UICONTROL Ok]**.
 
 ![](assets/offer_validate_013.png)
 
@@ -120,7 +122,7 @@ To display the offer that is available in the live environment, click the offer 
 
 Once the offer is approved, you can disable it.
 
-To do this, go to the dashboard for an online offer or an offer waiting to go online, then click **[!UICONTROL Disable offer]** .
+To do this, go to the dashboard for an online offer or an offer waiting to go online, then click **[!UICONTROL Disable offer]**.
 
 You can also directly disable a category by going to the **[!UICONTROL Eligibility]** tab and checking the **[!UICONTROL Enabled]** box.
 

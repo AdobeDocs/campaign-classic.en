@@ -56,7 +56,7 @@ After analysis, if an anonymous visitor is not identified, you can store their d
 
 If there is no element that allows you to identify a contact, or if you do not want to suggest an identified offer to a contact that can be implicitly identified, you can choose to carry out a fallback on an anonymous environment.
 
-To do this, check the **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]** , then specify the environment dedicated to these unidentified visitors in the **[!UICONTROL Linked anonymous space]** when specifying an offer space.
+To do this, check the **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]**, then specify the environment dedicated to these unidentified visitors in the **[!UICONTROL Linked anonymous space]** when specifying an offer space.
 
 ![](assets/anonymous_to_anonymous_environment.png)
 

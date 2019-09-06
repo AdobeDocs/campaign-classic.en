@@ -28,6 +28,7 @@ Before being able to present offers on an inbound channel, you must configure th
 
 >[!NOTE]
 >
->For inbound interactions, you must specifically configure the offer engine to present and update one or several offers.  
+>For inbound interactions, you must specifically configure the offer engine to present and update one or several offers.
+>
 >You also have to enable unitary mode on your offer spaces. For more on this, refer to the [Creating offer spaces](../../interaction/using/creating-offer-spaces.md) section.
 

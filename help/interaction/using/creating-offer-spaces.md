@@ -20,7 +20,7 @@ snippet: y
 
 Offer space creation may only be carried out by a **technical administrator** with access to the offer space sub-folder. Offer spaces can only be created in the design environment, and are automatically duplicated into the live environment during offer approval.
 
-The content of the catalog offers is configured in the offer spaces. By default, the content can include the following fields: **[!UICONTROL Title]** , **[!UICONTROL Destination URL]** , **[!UICONTROL Image URL]** , **[!UICONTROL HTML content]** and **[!UICONTROL Text content]** . The field sequence is configured in the offer space.
+The content of the catalog offers is configured in the offer spaces. By default, the content can include the following fields: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** and **[!UICONTROL Text content]**. The field sequence is configured in the offer space.
 
 Advanced parameters let you specify a contact identification key (which can be made of up of various elements, the name and email field at the same time for example). For more on this, refer to the [Presenting an identified offer](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) section.
 
@@ -30,7 +30,7 @@ The HTML or XML rendering is created via a rendering function. The sequence of t
 
 To create a new offer space, apply the following process:
 
-1. Go to the list of offer spaces and click **[!UICONTROL New]** .
+1. Go to the list of offer spaces and click **[!UICONTROL New]**.
 
    ![](assets/offer_space_create_001.png)
 
@@ -43,11 +43,11 @@ To create a new offer space, apply the following process:
     * You are using Interaction with Message Center
     * You are using Interaction's unitary mode (inbound interactions)
 
-1. Go to the **[!UICONTROL Content field]** window and click **[!UICONTROL Add]** .
+1. Go to the **[!UICONTROL Content field]** window and click **[!UICONTROL Add]**.
 
    ![](assets/offer_space_create_003.png)
 
-1. Go to the **[!UICONTROL Content]** node and select the fields in the following order: **[!UICONTROL Title]** , then **[!UICONTROL Image URL]** , then **[!UICONTROL HTML content]** , then **[!UICONTROL Destination URL]** .
+1. Go to the **[!UICONTROL Content]** node and select the fields in the following order: **[!UICONTROL Title]**, then **[!UICONTROL Image URL]**, then **[!UICONTROL HTML content]**, then **[!UICONTROL Destination URL]**.
 
    ![](assets/offer_space_create_004.png)
 
@@ -65,7 +65,7 @@ To create a new offer space, apply the following process:
 
    ![](assets/offer_space_create_006.png)
 
-1. Go to the **[!UICONTROL HTML rendering]** tab and select **[!UICONTROL Overload the HTML rendering function]** .
+1. Go to the **[!UICONTROL HTML rendering]** tab and select **[!UICONTROL Overload the HTML rendering function]**.
 1. Insert your rendering function.
 
    ![](assets/offer_space_create_007.png)
@@ -84,12 +84,12 @@ An offer proposition can have various statuses depending on the interactions wit
 
 Interaction comes with the following values that can be used to qualify the status of an offer proposition:
 
-* **[!UICONTROL Accepted]** .
-* **[!UICONTROL Scheduled]** .
-* **[!UICONTROL Generated]** .
-* **[!UICONTROL Interested]** .
-* **[!UICONTROL Presented]** .
-* **[!UICONTROL Rejected]** .
+* **[!UICONTROL Accepted]**.
+* **[!UICONTROL Scheduled]**.
+* **[!UICONTROL Generated]**.
+* **[!UICONTROL Interested]**.
+* **[!UICONTROL Presented]**.
+* **[!UICONTROL Rejected]**.
 
 These values aren't applied by default: they have to be configured.
 
@@ -132,14 +132,15 @@ The **[!UICONTROL Storage]** tab lets you define statuses for **proposed** and *
 For instance, the proposition (identifier **40004**) that matches the **Home insurance** offer displayed on the **Neobank** site contains the following URL:
 
 ```
-<BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.md">
+<BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
 ```
 
 As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL Accepted]** status (value **3**) is applied to the proposition and the visitor is redirected to a new page of the **Neobank** site to take out the insurance contract.
 
 >[!NOTE]
 >
->If you want to specify another status in the url (for example if an offer proposition is rejected), use the value corresponding to the desired status. Example: **[!UICONTROL Rejected]** = "5", **[!UICONTROL Presented]** = "1" and so on.  
+>If you want to specify another status in the url (for example if an offer proposition is rejected), use the value corresponding to the desired status. Example: **[!UICONTROL Rejected]** = "5", **[!UICONTROL Presented]** = "1" and so on.
+>
 >Statuses and their values can be retrieved in the **[!UICONTROL Offer propositions (nms)]** data schema. For more on this, refer to [this page](../../configuration/using/data-schemas.md).
 
 **Outbound interaction**

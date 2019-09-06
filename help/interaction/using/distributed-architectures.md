@@ -74,11 +74,11 @@ On the control instances:
    ![](assets/interaction_powerbooster1.png)
 
     * Complete the label and add a short and explicit internal name.
-    * Select the **[!UICONTROL Execution instance]** .
+    * Select the **[!UICONTROL Execution instance]**.
     * Check the **[!UICONTROL Enabled]** option.
     * Complete the connection parameters for the execution instance.
     * Every execution instance must be linked to an ID. This ID is assigned when you click on the **[!UICONTROL Initialize connection]** button.
-    * Check the type of application used: **[!UICONTROL Message Center]** , **[!UICONTROL Interaction]** , or both.
+    * Check the type of application used: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**, or both.
     * Enter the FDA account used. An operator must be created on the execution instances and must have the following read and write rights on the database of the instance in question:
 
       ```    
@@ -101,7 +101,7 @@ On the control instances:
       >
       >If you encounter an error, you can consult the synchronization workflows and offer notifications. These can be found in the technical workflows of the application.
 
-If, for optimization reasons, only part of the marketing database is duplicated on the execution instances, you can specify a restricted schema linked to the environment to allow the users to only use data that is available on the execution instances. You can create an offer using data that is not available on execution instances. To do this, you must deactivate the rule on the other channels by limiting this rule on the outbound channel ( **[!UICONTROL Taken into account if]** field).
+If, for optimization reasons, only part of the marketing database is duplicated on the execution instances, you can specify a restricted schema linked to the environment to allow the users to only use data that is available on the execution instances. You can create an offer using data that is not available on execution instances. To do this, you must deactivate the rule on the other channels by limiting this rule on the outbound channel (**[!UICONTROL Taken into account if]** field).
 
 ![](assets/ita_filtering.png)
 
@@ -113,9 +113,9 @@ Here is a list of maintenance options available on the control instance:
 >
 >These options must only be used for specific maintenance cases.
 
-* **NmsInteraction_LastOfferEnvSynch_ `<offerenvid>  _  <executioninstanceid /> </offerenvid>`**: last date that an environment was synced on a given instance.
-* **NmsInteraction_LastPropositionSynch_ `<propositionschema>  _  <executioninstanceidsource>   _   <executioninstanceidtarget />  </executioninstanceidsource> </propositionschema>`**: last date that propositions from a given schema were synced from one instance to another.
-* **NmsInteraction_MapWorkflowId**: an option containing the list of all synchronization workflows generated.
+* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**: last date that an environment was synced on a given instance.
+* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**: last date that propositions from a given schema were synced from one instance to another.
+* **`NmsInteraction_MapWorkflowId`**: an option containing the list of all synchronization workflows generated.
 
 The following option is available on execution instances:
 

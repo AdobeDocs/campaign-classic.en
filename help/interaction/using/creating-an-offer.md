@@ -80,7 +80,7 @@ For example, an offer can have a weight of A for contacts aged 18 to 25 and a we
 
 To create a weight in an offer, apply the following steps:
 
-1. Click **[!UICONTROL Add]** .
+1. Click **[!UICONTROL Add]**.
 
    ![](assets/offer_weight_create_001.png)
 
@@ -131,14 +131,9 @@ To view it, click the **[!UICONTROL Schedule and eligibility rules]** link.
     * **[!UICONTROL Title]** : Specify the title that you would like to make appear in your offer. Warning: this is not referring to the offer's label, which is defined in the **[!UICONTROL General]** tab.
     * **[!UICONTROL Destination URL]** : specify your offer's URL. To be processed correctly, it must start with "http://" or "https://".
     * **[!UICONTROL Image URL]** : specify a URL or an access path to the image of your offer.
-    * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** : enter the body of your offer in the tab you would like.
+    * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** : enter the body of your offer in the tab you would like. To generate tracking, the **[!UICONTROL HTML content]** must be composed of HTML elements that can be enclosed in a `<div>` type element. For example, the result of a `<table>` element in the HTML page will be as followed:
 
-      To generate tracking, the **[!UICONTROL HTML content]** must be composed of HTML elements that can be enclosed in a 
-    
-      type element. For example, the result of a
-
-      ```    
-      
+   ```
       <div> 
        <table>
         <tr>
@@ -151,7 +146,7 @@ To view it, click the **[!UICONTROL Schedule and eligibility rules]** link.
         </tr> 
        </table> 
       </div>
-      ```
+   ```
 
    Defining the acceptance URL is presented in the [Configuring the status when the proposition is accepted](../../interaction/using/creating-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted) section.
 

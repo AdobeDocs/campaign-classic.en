@@ -94,12 +94,12 @@ For more information on delivery outlines, refer to the [Campaign - MRM](../../c
 
 1. Create a new campaign or access an existing campaign.
 1. Access the delivery outlines via the campaign's **[!UICONTROL Edit]** > **[!UICONTROL Documents]** tab.
-1. Add an outline then insert as many offers as you like into it by right-clicking on the outline and selecting **[!UICONTROL New]** > **[!UICONTROL Offer]** , then save the campaign.
+1. Add an outline then insert as many offers as you like into it by right-clicking on the outline and selecting **[!UICONTROL New]** > **[!UICONTROL Offer]**, then save the campaign.
 
    ![](assets/int_compo_offre1.png)
 
 1. Create a delivery whose delivery outlines you have access to (for example, a direct mail delivery).
-1. When editing the delivery, click **[!UICONTROL Select a delivery outline]** .
+1. When editing the delivery, click **[!UICONTROL Select a delivery outline]**.
 
    >[!NOTE]
    >

@@ -26,7 +26,7 @@ For an offer proposition via SOAP, add the **nms:proposition#Propose** command f
 
 * **targetId**: primary key of the recipient (can be a composite key). 
 * **maxCount**: specifies the number of offer propositions for the contact.
-* **context**: lets you add context information in the space schema. If the schema used is **nms:interaction**, ** `<empty>`** should be added.
+* **context**: lets you add context information in the space schema. If the schema used is **nms:interaction**, **`<empty>`** should be added.
 * **categories**: specifies the category/ies that the offers must belong to.
 * **themes**: specifies the theme(s) that the offer(s) must belong to.
 * **uuid**: value of the Adobe Campaign permanent cookie ("uuid230").
@@ -48,7 +48,7 @@ Add the **nms:interaction#UpdateStatus** command to the URL, followed by these p
 
 * **proposition**: string of characters, it contains the proposition ID given as an output during an offer proposition. Refer to [Offer proposition](../../interaction/using/integration-via-soap--server-side-.md#offer-proposition).
 * **status**: string type, it specifies the new status of the offer. The possible values are listed in the **propositionStatus** enumeration, in the **nms:common** schema. For example, out-of-the-box, the number 3 corresponds to the **Accepted** status.
-* **context**: XML element, lets you add context information in the space schema. If the schema used is **nms:interaction**, ** `<empty>`** should be added.
+* **context**: XML element, lets you add context information in the space schema. If the schema used is **nms:interaction**, **`<empty>`** should be added.
 
 ## Example using a SOAP call {#example-using-a-soap-call}
 
@@ -56,7 +56,6 @@ Here is an example of code for a SOAP call:
 
 ```
 <%
-
   var space = request.parameters.sp
   var cnx = new HttpSoapConnection(
     "https://" + request.serverName + ":" + request.serverPort + "/interaction/" + env + "/" + space,
@@ -116,7 +115,5 @@ Here is an example of code for a SOAP call:
   catch( e )
   {
   }
-
   %>
 ```
-

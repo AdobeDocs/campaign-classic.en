@@ -22,11 +22,11 @@ snippet: y
 
 To create a filter, apply the following process:
 
-1. Go to the **[!UICONTROL Administration]** folder and select **[!UICONTROL Pre-defined offer filters]** .
+1. Go to the **[!UICONTROL Administration]** folder and select **[!UICONTROL Pre-defined offer filters]**.
 
    ![](assets/offer_filter_create_005.png)
 
-1. Click **[!UICONTROL New]** .
+1. Click **[!UICONTROL New]**.
 
    ![](assets/offer_filter_create_001.png)
 
