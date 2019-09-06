@@ -10,8 +10,17 @@ index: n
 + [Product documentation](campaign-classic-home.md)
 + Release Notes {#release-notes}
   + Latest Release notes {#latest-release-notes}
+       + [About Release Notes](rn/using/about-release-notes.md)
+       + [Control Panel - August 2019](rn/using/control-panel-august-2019.md)
+       + [Release 19.1.5 - Build 9033](rn/using/release-19-1-5-build-9033.md)
+       + [Release 19.1.4 - Build 9032](rn/using/release-19-1-4-build-9032.md)
+       + [Release 19.1.3 - Build 9031](rn/using/release-19-1-3-build-9031.md)
+       + [Control Panel - July 2019](rn/using/control-panel-july-2019.md)
        + [Release 19.1.2 - Build 9029](rn/using/release-19-1-2-build-9029.md)
        + [Release 19.1 - Build 9026](rn/using/release-19-1-build-9026.md)
+  + Release notes 2018 {#release-notes-2018}       
+       + [About Release Notes 2018](rn/using/about-release-notes-2018.md)
+       + [Release 18.10.6 - Build 8985](rn/using/release-18-10-6-build-8985.md)
        + [Release 18.10.5 - Build 8984](rn/using/release-18-10-5-build-8984.md)
        + [Release 18.10.4 - Build 8983](rn/using/release-18-10-4-build-8983.md)
        + [Release 18.10.3 - Build 8981](rn/using/release-18-10-3-build-8981.md)

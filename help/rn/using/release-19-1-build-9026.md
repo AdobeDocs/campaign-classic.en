@@ -20,6 +20,10 @@ snippet: y
 
 30 May 2019
 
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+
 ## What's new? {#what-s-new-}
 
 <table> 
@@ -32,7 +36,11 @@ snippet: y
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> To increase efficiency in your work as an Admin user, manage settings of your SFTP servers by monitoring storage, whitelisting IP addresses, and installing SSH keys for each instance. Please note Control Panel is only available for customers hosted on AWS as of today ( <a href="https://experiencecloud.adobe.com/campaign/controlpanel/">login through the Experience Cloud today</a>).<br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.md">how-to video</a>. <br /> </td> 
+   <td> <p>To increase efficiency in your work as an Admin user, manage settings of your SFTP servers by monitoring storage, whitelisting IP addresses, and installing SSH keys for each instance. Please note Control Panel is only available for customers hosted on AWS as of today (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">login through the Experience Cloud today</a>).</p> <p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.md">how-to video</a>. </p><p>Note: upgrading to the latest Campaign build is not required to access the Control Panel.</p> </td> 
+  </tr> 
+    <tr> 
+   <td> Audit trail<br /> </td> 
+   <td> <p>As admin, increase productivity by monitoring and managing changes made within the Adobe Campaign Classic instance. The Audit Trail will log actions made on Source Schemas, Workflows and Options. You can quickly see if an element has been created, modified or deleted.</p> <p>For more information, refer to the <a href="../../production/using/audit-trail.md"</a> and <a href="hhttps://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/monitoring/audit-trail.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Guardrail, Robustness &amp; Scalability<br /> </td> 
@@ -40,17 +48,7 @@ snippet: y
   </tr> 
   <tr> 
    <td> Secure SMS Messaging (TLS)<br /> </td> 
-   <td> Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.<br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.md">detailed documentation</a>. <br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Global Workflow Monitoring<br /> </td> 
-   <td> With this feature, you can now collect workflow runtime information across all instances. This data allows you to:<br /> 
-    <ul> 
-     <li> <p>monitor actively your instances as well as investigate performance issues</p> </li> 
-     <li> <p>visualize data on multiple instances at the same time</p> </li> 
-     <li> <p>extend data storage limits</p> </li> 
-     <li> <p>analyze and detect potential anomalies</p> </li> 
-    </ul> For more information, refer to the <a href="../../production/using/monitoring-processes.md#about-the-workflow-heatmap">detailed documentation</a>. <br /> </td> 
+   <td> <p>Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.</p> <p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.md">detailed documentation</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> Compatibility Matrix Update<br /> </td> 
@@ -68,7 +66,7 @@ snippet: y
 
 ## Security enhancements {#security-enhancements}
 
-* For security reasons, you can no longer insert arbitrary commands when using the **[!UICONTROL Pre-process the file]** option in a **[!UICONTROL Data loading (file)]** workflow activity. A drop-down list is now available allowing you to select from 3 options: **[!UICONTROL None]** , **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg). The XtkSecurity_Disable_Preproc security flag has been added. For new customers, this option will be set to 0. For existing customers, this option will be set to 1 by the postupgrade in order to keep the previous behavior. Refer to this [section](../../workflow/using/data-loading--file-.md).
+* For security reasons, you can no longer insert arbitrary commands when using the **[!UICONTROL Pre-process the file]** option in a **[!UICONTROL Data loading (file)]** workflow activity. A drop-down list is now available allowing you to select from 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg). The XtkSecurity_Disable_Preproc security flag has been added. For new customers, this option will be set to 0. For existing customers, this option will be set to 1 by the postupgrade in order to keep the previous behavior. Refer to this [section](../../workflow/using/data-loading--file-.md).
 * Fixed a password visibility issue that occurred when testing the connection of an FDA external account with no time zone set.
 * The PDFBox library has been removed.
 * Tomcat has been updated to version 7.0.93.
@@ -80,6 +78,7 @@ snippet: y
 * The same generic error is now displayed for failed login attempts with a valid or invalid username.
 * The naming of uploaded files has been enhanced. 
 * A new XtkSecurity_Disable_GetSetEnv option has been added to block the use of setEnv and getEnv functions.
+* Sensitive information is now hidden in the application stack trace.
 
 ## Guardrail, robustness &amp; scalability improvements {#guardrail--robustness-e-scalability-improvements}
 

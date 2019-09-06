@@ -32,19 +32,19 @@ snippet: y
  <tbody> 
   <tr> 
    <td> EU General Data Protection Regulation (GDPR)<br /> </td> 
-   <td> GDPR is the European Union’s (EU) new privacy law that harmonizes and modernizes data protection requirements going into effect on May 25, 2018. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.<br /> In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity in our role as Data Processor to include additional capabilities, to help facilitate your readiness as Data Controller for certain GDPR requests:<br /> 
+   <td> <p>GDPR is the European Union’s (EU) new privacy law that harmonizes and modernizes data protection requirements going into effect on May 25, 2018. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.</p> <p>In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity in our role as Data Processor to include additional capabilities, to help facilitate your readiness as Data Controller for certain GDPR requests:</p> 
     <ul> 
      <li> <p>Right to Access: allows the Data Subject to receive a copy of his/her personal data captured by Data Controllers, potentially including data stored in Adobe Campaign.</p> </li> 
      <li> <p>Right to Delete: entitles the Data Subject to have his/her personal data captured by Data Controllers erased, potentially including data stored in Adobe Campaign.</p> </li> 
-    </ul> For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.md">detailed documentation</a>.<br /> </td> 
+    </ul> For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Active profiles<br /> </td> 
-   <td> Adobe Campaign now provides the list of active profiles, updated monthly through a dedicated workflow.<br /> For more information, refer to the <a href="../../platform/using/about-profiles.md#active-profiles">detailed documentation</a>.<br /> </td> 
+   <td> <p>Adobe Campaign now provides the list of active profiles, updated monthly through a dedicated workflow.</p> <p>For more information, refer to the <a href="../../platform/using/about-profiles.md#active-profiles">detailed documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Android Push Connector enhancement<br /> </td> 
-   <td> The Android connector has been enhanced to support higher throughput. <br /> For more information, refer to the <a href="../../delivery/using/setting-up-mobile-app-channel.md#android-connectors">detailed documentation</a>.<br /> </td> 
+   <td> <p>The Android connector has been enhanced to support higher throughput. </p> <p>For more information, refer to the <a href="../../delivery/using/setting-up-mobile-app-channel.md#android-connectors">detailed documentation</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ snippet: y
 ## Improvements {#improvements}
 
 * **LINE channel - architecture enhancement**: As with all other channels in Adobe Campaign, the LINE channel is now supported across all deployment types: hosted, hybrid, and on-premise. 
-* **Sequence auto-generation**: The ID generation mechanism has been enhanced to increase the lifespan of Campaign instances with large volumes of objects. For more information, refer to this [technote](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.md).
+* **Sequence auto-generation**: The ID generation mechanism has been enhanced to increase the lifespan of Campaign instances with large volumes of objects. For more information, refer to this [technote](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html).
 
 ## Other changes {#other-changes}
 

@@ -20,6 +20,10 @@ snippet: y
 
 6 December 2018
 
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+
 ## Improvements {#improvements}
 
 * Fixed various issues when running workflows using MySQL on FDA. (NEO-11652)

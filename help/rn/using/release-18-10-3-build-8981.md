@@ -20,6 +20,10 @@ snippet: y
 
 29 January 2019
 
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+
 ## Improvements {#improvements}
 
 * Fixed an issue with the s3 File Transfer workflow activity. (NEO-12473) 

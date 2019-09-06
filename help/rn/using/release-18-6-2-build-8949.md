@@ -20,6 +20,10 @@ snippet: y
 
 22 August 2018
 
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+
 ## What's new? {#what-s-new-}
 
 <table> 
@@ -32,7 +36,7 @@ snippet: y
  <tbody> 
   <tr> 
    <td> Query banding<br /> </td> 
-   <td> When multiple Campaign users connect to the same FDA Teradata external account, you can now pass a query band (key/value pairs) specific to each user. Each time a Campaign user performs a query on the Teradata database, Adobe Campaign is now able to send meta data associated to the user. These data, which consist in a list of keys and values can then be used by Teradata administrators for audit purposes or to manage access rights, for example. <br /> The configuration steps are detailed below.<br /> </td> 
+   <td> <p>When multiple Campaign users connect to the same FDA Teradata external account, you can now pass a query band (key/value pairs) specific to each user. Each time a Campaign user performs a query on the Teradata database, Adobe Campaign is now able to send meta data associated to the user. These data, which consist in a list of keys and values can then be used by Teradata administrators for audit purposes or to manage access rights, for example.</p><p>The configuration steps are detailed below.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,9 +63,9 @@ A specific key (PROXYUSER or PROXYROLE) is used to associate a Teradata user or 
 
 A new tab has been added in the Teradata external accounts. The **[!UICONTROL Query banding]** tab includes the following options:
 
-* **[!UICONTROL Active]** : check this box to activate the feature.
-* **[!UICONTROL Default]** : enter a default query banding that will be used if a user has no associated query banding. If there is no default query banding defined, the users who have no associated query banding will not be able to use Teradata.
-* **[!UICONTROL Users]** : for each user, specify a query banding. You can add as many key/value pairs as you need. For example: ‘priority=1;workload=high;’
+* **[!UICONTROL Active]**: check this box to activate the feature.
+* **[!UICONTROL Default]**: enter a default query banding that will be used if a user has no associated query banding. If there is no default query banding defined, the users who have no associated query banding will not be able to use Teradata.
+* **[!UICONTROL Users]**: for each user, specify a query banding. You can add as many key/value pairs as you need. For example: ‘priority=1;workload=high;’
 
 For more information on query banding, refer to these articles:
 
