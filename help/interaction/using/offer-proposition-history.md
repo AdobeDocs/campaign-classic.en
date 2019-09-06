@@ -24,7 +24,7 @@ Once your offer propositions have been made, you can view the presentation histo
 >
 >This functionality is only visible online and only to the delivery manager.
 
-* At the offer level, in the **[!UICONTROL Edit]** tab, click **[!UICONTROL Propositions]** .
+* At the offer level, in the **[!UICONTROL Edit]** tab, click **[!UICONTROL Propositions]**.
 
   ![](assets/offer_followup_006.png)
 

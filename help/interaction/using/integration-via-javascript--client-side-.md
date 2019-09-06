@@ -69,7 +69,7 @@ The following use cases detail the possible options for integrating offers via J
 
    >[!CAUTION]
    >
-   >The `<script> tag must not be self-closing.<br/> </script>`
+   >The `<script>` tag must not be self-closing.
 
    This static call will automatically generate a dynamic call containing all the parameters needed by the Interaction engine.
 
@@ -109,7 +109,6 @@ To present an offer to an identified contact, the process is similar as the one 
 <script type="text/javascript">
   interactionTarget = <contact_identifier>;
 </script>
-
 ```
 
 1. Go to the offer space that will be called up by the web page, click **[!UICONTROL Advanced parameters]** and add one or more identification keys.
@@ -126,7 +125,6 @@ To present an offer to an identified contact, the process is similar as the one 
    <script type="text/javascript">
      interactionTarget = myEmail|myName;
    </script>
-   
    ```
 
 ### Using an HTML rendering function {#using-an-html-rendering-function}
@@ -134,7 +132,7 @@ To present an offer to an identified contact, the process is similar as the one 
 To generate the HTML offer representation automatically, you can use a rendering function.
 
 1. Go to the offer space and click the **[!UICONTROL Edit functions]** link.
-1. Select **[!UICONTROL Overload the HTML rendering function]** .
+1. Select **[!UICONTROL Overload the HTML rendering function]**.
 1. Go to the **[!UICONTROL HTML rendering]** tab and insert the variables that match the fields defined for the offer content in the offer space.
 
    ![](assets/interaction_htmlmode_002.png)
@@ -215,7 +213,8 @@ The following use case details the configurations to carry out in Adobe Campaign
 
    >[!CAUTION]
    >
-   >Each element needs to be defined twice. CDATA ("_jst") type elements can contain personalization fields.   
+   >Each element needs to be defined twice. CDATA ("_jst") type elements can contain personalization fields.
+   >
    >Don't forget to update the database structure. For more on this, refer to [this section](../../configuration/using/updating-the-database-structure.md).
 
    >[!NOTE]
@@ -316,7 +315,7 @@ The following use case details the configurations to carry out in Adobe Campaign
 It's possible to use an XML rendering function to create an offer presentation. This function will modify the XML node that is returned to the HTML page during the call to the engine.
 
 1. Go to the offer space and click the **[!UICONTROL Edit functions]** link.
-1. Select **[!UICONTROL Overload the XML rendering function]** . 
+1. Select **[!UICONTROL Overload the XML rendering function]**. 
 1. Go to the **[!UICONTROL XML rendering]** tab and insert the desired function.
 
    The function can look like this:
@@ -325,8 +324,7 @@ It's possible to use an XML rendering function to create an offer presentation. 
    function (proposition) {
      delete proposition.@id;
      proposition.@newAttribute = "newValue";
-   }
-   
+   } 
    ```
 
 ![](assets/interaction_xmlmode_001.png)

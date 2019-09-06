@@ -24,7 +24,7 @@ To always include a category in the recommendations, apply the following steps:
 
 1. Open the explorer and click an offer catalog from your tree structure.
 1. Click the **[!UICONTROL Eligibility]** tab and tick the **[!UICONTROL Always include this category in the recommendations]** box.
-1. Finish and approve by clicking **[!UICONTROL Save]** .
+1. Finish and approve by clicking **[!UICONTROL Save]**.
 
    ![](assets/offer_cat_default_001.png)
 

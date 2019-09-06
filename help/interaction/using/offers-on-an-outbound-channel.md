@@ -77,7 +77,7 @@ In our database, there is a category of travel offers to Africa. The eligibility
 
    ![](assets/offer_simulation_example_003.png)
 
-1. Click the **[!UICONTROL Edit]** tab, then **[!UICONTROL Scope]** .
+1. Click the **[!UICONTROL Edit]** tab, then **[!UICONTROL Scope]**.
 
    ![](assets/offer_simulation_example_004.png)
 
@@ -120,7 +120,7 @@ In our database, there is a category of travel offers to Africa. The eligibility
 
    ![](assets/offer_simulation_example_012.png)
 
-1. If necessary, you can change the scope settings and run the simulation again by clicking **[!UICONTROL Start simulation]** .
+1. If necessary, you can change the scope settings and run the simulation again by clicking **[!UICONTROL Start simulation]**.
 
    ![](assets/offer_simulation_example_010.png)
 

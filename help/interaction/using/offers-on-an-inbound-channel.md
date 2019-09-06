@@ -26,8 +26,8 @@ To set up this interaction, we're going to:
 
 1. [Create an anonymous environement](../../interaction/using/offers-on-an-inbound-channel.md#creating-an-anonymous-environment).
 1. [Create anonymous offer spaces](../../interaction/using/offers-on-an-inbound-channel.md#creating-anonymous-offer-spaces).
-1. Create an offer category and a theme.
-1. Create anonymous offers.
+1. [Create an offer category and a theme.](../../interaction/using/offers-on-an-inbound-channel.md#creating-an-offer-category-and-a-theme).
+1. [Create anonymous offers.](../../interaction/using/offers-on-an-inbound-channel.md#creating-anonymous-offers).
 1. [Configure the web offer spaces on the website](../../interaction/using/offers-on-an-inbound-channel.md#configure-the-web-offer-space-on-the-website).
 
 ### Creating an anonymous environment {#creating-an-anonymous-environment}
@@ -66,15 +66,13 @@ You will get a tree structure containing your new environment:
 
 1. Edit the HTML rendering function, for example as follows:
 
-   ```
-   
+   ``` 
    function (imageUrl, targetUrl, shortContent, htmlSource){
          var html = "<p><b>" + shortContent + "</b></p>";
          html += "<p>" + htmlSource + "</p>";
          html += "<a _urlType='11' href='" + targetUrl + "'><img src='" + encodeURI(imageUrl) + "'/></a>";
          return html;
        }   
-       
    ```
 
    >[!CAUTION]
@@ -88,7 +86,7 @@ You will get a tree structure containing your new environment:
 ### Creating an offer category and a theme {#creating-an-offer-category-and-a-theme}
 
 1. Go to the **[!UICONTROL Offer catalog]** node within the environment you have just created.
-1. Right-click the **[!UICONTROL Offer catalog]** node and select **[!UICONTROL Create a new 'Offer category' folder]** .
+1. Right-click the **[!UICONTROL Offer catalog]** node and select **[!UICONTROL Create a new 'Offer category' folder]**.
 
    Name the new category, **Financial products** for example.
 
@@ -99,7 +97,7 @@ You will get a tree structure containing your new environment:
 ### Creating anonymous offers {#creating-anonymous-offers}
 
 1. Go to the category you've just created.
-1. Click **[!UICONTROL New]** .
+1. Click **[!UICONTROL New]**.
 
    ![](assets/offer_inbound_anonymous_example_013.png)
 
@@ -144,7 +142,7 @@ To make the offers you have just configured visible on the website, insert a Jav
 
    ![](assets/offer_inbound_anonymous_example_020.png)
 
-   The blue URL boxes above correspond to the instance name, the internal name of the environment (refer to [Creating an anonymous environment](../../interaction/using/offers-on-an-inbound-channel.md#creating-an-anonymous-environment)) and the theme linked to the category ( [Creating an offer category and a theme](../../interaction/using/offers-on-an-inbound-channel.md#creating-an-offer-category-and-a-theme)). The latter is optional.
+   The blue URL boxes above correspond to the instance name, the internal name of the environment (refer to [Creating an anonymous environment](../../interaction/using/offers-on-an-inbound-channel.md#creating-an-anonymous-environment)) and the theme linked to the category ([Creating an offer category and a theme](../../interaction/using/offers-on-an-inbound-channel.md#creating-an-offer-category-and-a-theme)). The latter is optional.
 
 When a visitor accesses the website's home page, the offers with the **financing** theme are displayed as configured on the HTML page. 
 
@@ -305,15 +303,15 @@ To create the two offer spaces, apply the same procedure as for anonymous offer 
 In this example, contact identification takes place thanks to the email address in the Adobe Campaign database. To add the recipient email to the space, apply the following process:
 
 1. In the identified environment, go to the offer space folder.
-1. Select the **Best Offer** offer space and click **[!UICONTROL Advanced parameters]** .
+1. Select the **Best Offer** offer space and click **[!UICONTROL Advanced parameters]**.
 
    ![](assets/offer_inbound_fallback_example_044.png)
 
-1. In the **[!UICONTROL Target identification]** tab, click **[!UICONTROL Add]** .
+1. In the **[!UICONTROL Target identification]** tab, click **[!UICONTROL Add]**.
 
    ![](assets/offer_inbound_fallback_example_046.png)
 
-1. Click **[!UICONTROL Edit expression]** , go to the recipients table and select the **[!UICONTROL Email]** field.
+1. Click **[!UICONTROL Edit expression]**, go to the recipients table and select the **[!UICONTROL Email]** field.
 
    ![](assets/offer_inbound_fallback_example_047.png)
 

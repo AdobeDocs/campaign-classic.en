@@ -34,7 +34,6 @@ For the inbound channel, you must add the call data fields into the **Interactio
 <element label="Interactions" labelSingular="Interaction" name="interaction">
   <attribute label="Navigation language" name="navigationLanguage" type="string"/>
 </element>
-
 ```
 
 >[!NOTE]
@@ -49,7 +48,6 @@ For the outbound channel, you must add a **targetData** element containing the a
     <attribute label="Date of last transaction" name="lastTransactionDate" type="datetime"/>
   </element>
 </element>
-
 ```
 
 >[!NOTE]
@@ -63,7 +61,6 @@ If you would like to store this data in the proposition table, you must also ext
   <attribute label="Last transaction date" name="lastTransactionDate" type="datetime"/>
   <attribute label="Navigation language" name="navigationLanguage" type="string"/>
 </element>
-
 ```
 
 ## Additional data implementation {#additional-data-implementation}
@@ -74,7 +71,6 @@ To transfer additional data when calling the engine, you have to add the **inter
 
 ```
 interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
-
 ```
 
 ### Output channel {#output-channel}
@@ -93,7 +89,7 @@ For example, you can choose to have the offer presented only to people viewing t
 
 >[!NOTE]
 >
->You must limit the rule on the channels for which the data is defined. In our example, we are limiting the rule on the inbound web channel ( **[!UICONTROL Taken into account if]** field).
+>You must limit the rule on the channels for which the data is defined. In our example, we are limiting the rule on the inbound web channel (**[!UICONTROL Taken into account if]** field).
 
 ### Personalization {#personalization}
 

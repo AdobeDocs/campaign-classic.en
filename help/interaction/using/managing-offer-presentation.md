@@ -115,8 +115,9 @@ These criteria represent the most frequent applications of presentation rules. T
 
   >[!NOTE]
   >
-  >We are talking about the channel and not the space. If the rule must exclude an offer on the web channel, the offer destined to be presented on a website in two spaces (in a banner and in the body of the page, for instance), will not be displayed on the site if it has already been presented before.  
-  >For a workflow involving offer presentation, the rules are only correctly taken into account if they are configured on **[!UICONTROL All channels]** .
+  >We are talking about the channel and not the space. If the rule must exclude an offer on the web channel, the offer destined to be presented on a website in two spaces (in a banner and in the body of the page, for instance), will not be displayed on the site if it has already been presented before.
+  >
+  >For a workflow involving offer presentation, the rules are only correctly taken into account if they are configured on **[!UICONTROL All channels]**.
 
 * **Filter on the offer**
 
