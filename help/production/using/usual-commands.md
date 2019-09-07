@@ -22,14 +22,14 @@ This section lists the usual commands in Adobe Campaign.
 
 The command **nlserver** is the input command for the whole Adobe Campaign application.
 
-This command has the following syntax: **nlserver **`<command>`** ** `<arguments>`****
+This command has the following syntax: **nlserver **`<command>`** **`<arguments>`****
 
 The parameter **`<command>`** corresponds to the module.
 
 >[!NOTE]
 >
 >* In any case, you can add the **-noconsole** argument to delete comments displayed once the modules are started.
->* Conversely, you can add the argument ** -verbose** to display more information.
+>* Conversely, you can add the argument **-verbose** to display more information.
 >
 
 ## Monitoring commands {#monitoring-commands-}
@@ -90,7 +90,7 @@ nlserver stop <module>@<INSTANCE>
 
 >[!NOTE]
 >
->** `<instance>`** corresponds to the name of the instance as entered in the configuration files, or **default** for mono-instance modules.
+>**`<instance>`** corresponds to the name of the instance as entered in the configuration files, or **default** for mono-instance modules.
 
 ## Shut down services {#shut-down-services}
 

@@ -105,7 +105,7 @@ vacuum full nmsdelivery;
 PostgreSQL does not provide an easy way of performing an online table rebuild since **vacuum full** locks the table, thus preventing regular production. This means that maintenance has to be performed when the table is not used. You can either:
 
 * perform maintenance when the Adobe Campaign platform is stopped,
-* stop the various Adobe Campaign sub-services likely to write in the table being rebuilt (**nlserver stop wfserver****instance_name** to stop the workflow process).
+* stop the various Adobe Campaign sub-services likely to write in the table being rebuilt (**nlserver stop wfserver instance_name** to stop the workflow process).
 
 Here is an example of table defragmentation using specific functions to generate the necessary DDL. The following SQL lets you create two new functions: **GenRebuildTablePart1** and **GenRebuildTablePart2**, which can be used to generate the necessary DDL to recreate a table.
 
@@ -366,7 +366,7 @@ Please contact your database administrator to find out about the procedures best
 
 >[!NOTE]
 >
->For Microsoft SQL Server, you can use the maintenance plan detailed [in this page](http://ola.hallengren.com/sql-server-index-and-statistics-maintenance.md).
+>For Microsoft SQL Server, you can use the maintenance plan detailed [in this page](http://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
 
 The example below concerns Microsoft SQL Server 2005. If you are using another version, contact your database administrator to find out about maintenance procedures.
 

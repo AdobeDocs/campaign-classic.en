@@ -561,7 +561,7 @@ wfserver@prod
 
 #### /r/test {#r-test}
 
-The **http(s):// `<application server="" url="">  /r/test </application>`** page is used to test the redirection server. We recommend using this same method to test the frontal servers used for tracking. This page can also be used to test a load dispatcher.
+The **http(s)://`<application>`/r/test** page is used to test the redirection server. We recommend using this same method to test the frontal servers used for tracking. This page can also be used to test a load dispatcher.
 
 It displays a line like this in XML format:
 
@@ -574,8 +574,9 @@ It displays a line like this in XML format:
 
 #### /nl/jsp/ping.jsp {#nl-jsp-ping-jsp}
 
-This **http(s):// `<application jsp="" nl="" server="" strong="" url="">  page operates in the same way as its network counterpart: it tests a complete query going through apache/tomcat/web module/database and uploading to the client. If everything is working properly, it returns an "OK". We recommend running this test on machines with access to the databases (mtas and surveys, for instance). </application>`**
-** ** **Usage**: a session token associated with an operator login must be passed as an argument in order to log in remotely (see the tip in [Automatic monitoring via Adobe Campaign scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)).
+This **http(s)://`<Application server url>`/nl/jsp/ping.jsp**  page operates in the same way as its network counterpart: it tests a complete query going through apache/tomcat/web module/database and uploading to the client. If everything is working properly, it returns an "OK". We recommend running this test on machines with access to the databases (mtas and surveys, for instance).
+
+**Usage**: a session token associated with an operator login must be passed as an argument in order to log in remotely (see the tip in [Automatic monitoring via Adobe Campaign scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)).
 
 For example: 
 
@@ -737,11 +738,11 @@ This element is used to populate the configuration of emails, i.e.
   <buildRange minimum="0000" maximum="9999"/>
   ```
 
-* You can add an ** `<sla>`** (optional) sub-element in the **properties** element. A log file will be generated every time the netreport is executed. The name of the file contains the configuration name and the date and time, for example **dev_06_12_13_16_47_05.tmp**. The file contains the following information: instance name, machine name, severity level, (0 to 3, from least critical to most critical), date (timestamp format), time elapsed (in milliseconds) between the query and the response, service used (http, ncs, ncsex, redir). This information is separated by tabulation marks and line breaks at the end of each service.
+* You can add an **`<sla>`** (optional) sub-element in the **properties** element. A log file will be generated every time the netreport is executed. The name of the file contains the configuration name and the date and time, for example **dev_06_12_13_16_47_05.tmp**. The file contains the following information: instance name, machine name, severity level, (0 to 3, from least critical to most critical), date (timestamp format), time elapsed (in milliseconds) between the query and the response, service used (http, ncs, ncsex, redir). This information is separated by tabulation marks and line breaks at the end of each service.
 
 >[!NOTE]
 >
->The **persistHtmlFile** attribute with the value "true" on the ** `<property>`** element is used to record the latest monitoring status in the file **netreport.md**. This file is saved in the installation directory.
+>The **persistHtmlFile** attribute with the value "true" on the **`<property>`** element is used to record the latest monitoring status in the file **netreport.md**. This file is saved in the installation directory.
 
 #### 'Instance' element {#instance--element}
 

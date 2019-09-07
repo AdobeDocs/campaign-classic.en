@@ -25,14 +25,14 @@ There are many Adobe Campaign modules. Some operate continuously, while others a
 There are three types of Adobe Campaign modules:
 
 * Multi-instance modules: a single process is run for all instances. This applies to the following modules: **web**, **syslogd**, **trackinglogd** and **watchdog** (activities from the **config-default.xml** file).
-* Mono-instance modules: one process is run per instance. This applies to the following modules: **mta**, **wfserver**, **inMail**, **sms** and **stat** (activities from the **config- `<instance>  .xml </instance>`** file).
+* Mono-instance modules: one process is run per instance. This applies to the following modules: **mta**, **wfserver**, **inMail**, **sms** and **stat** (activities from the **config-`<instance>`.xml** file).
 * Utility modules: these are modules that are run occasionally to perform occasional or recurrent operations (**cleanup**, **config**, downloading tracking logs, etc.).
 
 Module administration is performed using the command line tool **nlserver** installed in the **bin** directory of the installation folder.
 
 The general syntax of the **nlserver** tool is as follows:
 
-** nlserver `<command>` `<command arguments="" />`**
+**nlserver `<command>` `<command arguments>`**
 
 For the list of available modules, use the **nlserver** command.
 
@@ -79,7 +79,7 @@ The available modules are detailed in the following table:
 >
 >There is one last module: the tracking and relay module linked to the application server which, for the sake of performance, is integrated via native mechanisms into an Apache or IIS web server via a dynamic library. There is no Adobe Campaign command enabling you to start or administer this module. You must therefore use the commands of the Web server itself.
 
-Module usage and the syntax of its parameters are displayed using the following command: **nlserver [module] -?**
+Module usage and the syntax of its parameters are displayed using the following command: **nlserver `[module]` -?**
 
 Example:
 

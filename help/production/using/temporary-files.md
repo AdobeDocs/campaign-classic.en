@@ -24,7 +24,7 @@ If error messages such as the following appear (particularly in delivery logs) w
 
 The cause is as follows:
 
-Adobe Campaign generates temporary files under **/tmp**, and then renames them to move them to **/usr/local/neolane/nl6/var**. This error occurs when both folders (**/tmp** and **/usr/local/neolane/nl6/var**, which is in fact a symbolic link to ** /var/nl6**) correspond to different devices. The **df** command is used for verification.
+Adobe Campaign generates temporary files under **/tmp**, and then renames them to move them to **/usr/local/neolane/nl6/var**. This error occurs when both folders (**/tmp** and **/usr/local/neolane/nl6/var**, which is in fact a symbolic link to **/var/nl6**) correspond to different devices. The **df** command is used for verification.
 
 To correct this problem, the temporary files must be generated in the same device as the destination. For example, by executing:
 

@@ -20,11 +20,11 @@ snippet: y
 
 >[!NOTE]
 >
->First of all, you should check that you have the latest build installed. This ensures that you have the latest features and bug fixes. Refer to the [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.md) for more information on the content of each release.
+>First of all, you should check that you have the latest build installed. This ensures that you have the latest features and bug fixes. Refer to the [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) for more information on the content of each release.
 
 ## Hardware and infrastructure {#hardware-and-infrastructure}
 
-General guidelines for hardware requirements for on-premise Campaign Classic are detailed in this [article](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.md ).
+General guidelines for hardware requirements for on-premise Campaign Classic are detailed in this [article](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.html).
 
 The consulting team can provide hosted customers with a tool that allows you to easily view how much space is used by various types of tables in the database as well as the space used on the SFTP site. It additionally provides tools to allow you to clean up unnecessary data. Contact the Consulting or Support teams if you need this tool implemented. Here are a few important things to check using this tool:
 
@@ -68,5 +68,5 @@ Here are is a list of best practices and articles related to deliverability:
 
 >[!NOTE]
 >
->Don't forget to consult the [Deliverability getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) guide.
+>Don't forget to consult the [Deliverability getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) guide.
 

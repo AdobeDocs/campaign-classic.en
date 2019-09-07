@@ -57,7 +57,7 @@ The full path is as follows: **`<datalogpath>  YYYY-MM-DDHHh`**. The date and ti
 C:\emails\2018-12-02\13h
 ```
 
-The archive file name is **`<deliveryid>-<broadlogid>.eml`** when the status of the emails is not **[!UICONTROL Sent]**. Once the status has changed to **[!UICONTROL Sent]**, the file name becomes ** `<deliveryid>-<broadlogid>-sent.eml`**. For example:
+The archive file name is **`<deliveryid>-<broadlogid>.eml`** when the status of the emails is not **[!UICONTROL Sent]**. Once the status has changed to **[!UICONTROL Sent]**, the file name becomes **`<deliveryid>-<broadlogid>-sent.eml`**. For example:
 
 ```
 C:\emails\2018-12-02\13h\4012-8040-sent.eml
@@ -88,7 +88,7 @@ Once the local folder path is defined, add and edit the following elements as de
 * **compressBatchSize**: number of .eml files added to an archive (.zip file).
 * **archivingType**: archiving strategy to be used. The possible values are:
 
-  **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the ** `<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
+  **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
 
   **1**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder and they are sent to the BCC email address over SMTP. Once the email copies are sent to the BCC address, the archive file name becomes **`<deliveryid>-<broadlogid>-sent-archived.eml`** and the file is moved to the **dataLogPath/archives** folder. The sent and BCC archived email file path is then **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
 

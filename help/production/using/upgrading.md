@@ -18,7 +18,7 @@ snippet: y
 
 # Upgrading{#upgrading}
 
-Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.md).
+Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html).
 
 >[!CAUTION]
 >
@@ -27,7 +27,7 @@ Before starting the upgrading process, detemine and confirm which version of Ado
 
 >[!NOTE]
 >
->Also refer to the [installation guide](../../installation/using/general-architecture.md) and the [build upgrade](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.md) getting started.
+>Also refer to the [installation guide](../../installation/using/general-architecture.md) and the [build upgrade](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) getting started.
 
 ## In Windows {#in-windows}
 
@@ -205,7 +205,7 @@ There are two ways of viewing the synchronization result:
 
   If the warning concerns a conflict of resources, user attention is required to resolve it.
 
-* The **postupgrade_ `<server number="" version="">  _  <time of="" postupgrade="">.log</time> </server>`** log file contains the synchronization result. It is available by default in the following directory: **`<installation directory="" var="">  <instance strong="">   . Errors and warnings are indicated by the   <strong>error</strong> and   <strong>warning</strong> attributes.  </instance> </installation>`**
+* The **postupgrade_`<server version number>_<time of postupgrade>`.log** log file contains the synchronization result. It is available by default in the following directory: **`<installation directory>/var/<instance/postupgrade`**. Errors and warnings are indicated by the error and warning attributes.
 
 ### Resolving conflicts {#resolving-conflicts}
 
@@ -265,7 +265,7 @@ On the machine where the Adobe Campaign application server (**nlserver web**) is
 
 **setup-client-6.**XXXX**.exe**
 
-and copy it, saving as ** /usr/local/neolane/nl6/datakit/nl/eng/jsp**:
+and copy it, saving as **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
 
 ```
  cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp

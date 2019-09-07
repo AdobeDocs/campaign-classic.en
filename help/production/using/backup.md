@@ -43,16 +43,15 @@ Files are divided into several categories:
 
   These can be used to trace problems.
 
-
 The directories to be backed up are therefore:
 
- * nl6/conf
+* nl6/conf
 
- * nl6/var/`<instanceName>`/redir (for each instance)
+* nl6/var/`<instanceName>`/redir (for each instance)
 
- * nl6/var/`<instanceName>`/log (optional)
+* nl6/var/`<instanceName>`/log (optional)
 
- * nl6/var/`<instanceName>`/relay (optional)  
+* nl6/var/`<instanceName>`/relay (optional)  
 
 >[!CAUTION]
 >

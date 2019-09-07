@@ -36,7 +36,7 @@ The WSDL path for accessing both methods is:
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** to access the real-time type schema.
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** to access the batch type schema.
 
-Both methods contain an ** `<urn:sessiontoken>`** element for logging on to the transactional messaging module. We recommend using an identification method via trusted IP addresses. To retrieve the session token, perform a logon SOAP call, then a get token followed by a logoff. Use the same token for several RT calls. The examples included in this section are using the session token method which is the recommended one.
+Both methods contain an **`<urn:sessiontoken>`** element for logging on to the transactional messaging module. We recommend using an identification method via trusted IP addresses. To retrieve the session token, perform a logon SOAP call, then a get token followed by a logoff. Use the same token for several RT calls. The examples included in this section are using the session token method which is the recommended one.
 
 In case you're using a loadbalanced server, you can use the User/Password authentication (at the level of the RT message). Example:
 
@@ -52,9 +52,9 @@ In case you're using a loadbalanced server, you can use the User/Password authen
 </PushEvent>
 ```
 
-The **PushEvent** method is made up of a ** `<urn:domevent>`** parameter which contains the event.
+The **PushEvent** method is made up of a **`<urn:domevent>`** parameter which contains the event.
 
-The **PushEvents** method is made up of a ** `<urn:domeventcollection>`** parameter which contains events.
+The **PushEvents** method is made up of a **`<urn:domeventcollection>`** parameter which contains events.
 
 Example using PushEvent:
 
@@ -80,7 +80,7 @@ Example using PushEvent:
 
 >[!NOTE]
 >
->In case of a call to the **PushEvents** method, we need to add a parent XML element to comply with standard XML. This XML element will frame the various ** `<rtevent>`** elements contained in the event.
+>In case of a call to the **PushEvents** method, we need to add a parent XML element to comply with standard XML. This XML element will frame the various **`<rtevent>`** elements contained in the event.
 
 Example using PushEvents:
 
@@ -108,13 +108,13 @@ Example using PushEvents:
 
 ```
 
-The ** `<rtevent>`** and ** `<batchevent>`** elements have a set of attributes as well as a mandatory child element: ** `<ctx>`** for integrating message data.
+The **`<rtevent>`** and **`<batchevent>`** elements have a set of attributes as well as a mandatory child element: **`<ctx>`** for integrating message data.
 
 >[!NOTE]
 >
->The ** `<batchevent>`** element lets you add the event to the "batch" queue. The ** `<rtevent>`** adds the event to the "real time" queue.
+>The **`<batchevent>`** element lets you add the event to the "batch" queue. The **`<rtevent>`** adds the event to the "real time" queue.
 
-The mandatory attributes of the ** `<rtevent>`** and ** `<batchevent>`** elements are @type and @email. The value of @type must be the same as the itemized list value defined when configuring the execution instance. This value lets you define the template to be linked to the content of the event during the delivery.
+The mandatory attributes of the **`<rtevent>`** and **`<batchevent>`** elements are @type and @email. The value of @type must be the same as the itemized list value defined when configuring the execution instance. This value lets you define the template to be linked to the content of the event during the delivery.
 
 `<rtevent>  configuration example: </rtevent>`
 
@@ -132,7 +132,7 @@ We recommend filling in the @wishedChannel and @emailFormat attributes with nume
 >
 >A detailed description of all authorized attributes as well as their values is available in the description of the **nms:rtEvent** and **nms:BatchEvent** dataschema.
 
-The ** `<ctx>`** element contains the message data. Its XML content is open, which means it can be configured depending on the content to be delivered.
+The **`<ctx>`** element contains the message data. Its XML content is open, which means it can be configured depending on the content to be delivered.
 
 >[!NOTE]
 >

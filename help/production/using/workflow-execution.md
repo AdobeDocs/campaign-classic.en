@@ -26,7 +26,7 @@ If workflows aren't executing and their status is **Start in progress**, this mi
 
 To check this and to start the module if necessary, apply the following steps:
 
-1. Check that your **wfserver@ `<instance>`** modules are launched on your main application server.
+1. Check that your **wfserver@`<instance>`** modules are launched on your main application server.
 
    ```
    nlserver pdump
@@ -44,8 +44,8 @@ To check this and to start the module if necessary, apply the following steps:
 
    >[!NOTE]
    >
-   >Replace ** `<instancename>`** with the name of your instance (production, development, etc.). The instance name is identified via the configuration files:   
-   >[path of application]nl6/conf/config- `<instancename>  .xml </instancename>`
+   >Replace **`<instancename>`** with the name of your instance (production, development, etc.). The instance name is identified via the configuration files:   
+   >`[path of application]nl6/conf/config-<instancename>.xml`
 
 ## Failed workflow {#failed-workflow}
 
