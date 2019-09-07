@@ -84,7 +84,7 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 
 >[!NOTE]
 >
->The **Tracefile** mode lets you save the logs. In the examples above, the logs are saved in the **var/ `<instance-name>  /mta_debug.log </instance-name>`** and **var/default/web_debug.log** files.
+>The **Tracefile** mode lets you save the logs. In the examples above, the logs are saved in the **var/`<instance-name>`/mta_debug.log** and **var/default/web_debug.log** files.
 
 >[!CAUTION]
 >

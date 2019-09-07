@@ -41,6 +41,6 @@ An instance configuration is loaded as follows:
 * The module loads the **serverConf.xml** file to obtain the parameters shared by all instances.
 * It then loads the **config-**`<instance>`**.xml** file. The values found in this file have priority over values contained in **serverConf.xml**.
 
-  These two files have the same format. Any value in **serverConf.xml** can be overloaded for a given instance in the **config-`<instance> .xml</instance>`** file.
+  These two files have the same format. Any value in **serverConf.xml** can be overloaded for a given instance in the **config-`<instance>`.xml** file.
 
 This operating mode provides great flexibility for configurations.

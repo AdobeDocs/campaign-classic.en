@@ -22,13 +22,13 @@ The log files are organized as follows:
 
 ![](assets/d_ncs_directory.png)
 
-Each **nlserver** module generates a log file saved in the following directory: **** `<installation directory="" />`**/var/** `<instance>`**/log/** `<module>`**.log**.
+Each **nlserver** module generates a log file saved in the following directory: **`<installation directory>`/var/`<instance>`/log/`<module>`.log**.
 
 The **nlserver syslogd** module saves the logs to the disk. This module is similar to the Unix **syslog daemon**, but has been adapted for compatibility between Unix and Windows. The other Adobe Campaign modules do not save their logs to the disk; they delegate this task to the **syslogd** module by sending it UDP packets.
 
 By default, the Adobe Campaign platform has the **syslogd** module installed on it, but it is possible to use another **syslog daemon**. This module creates the log files in the **log** directory.
 
-The logs of multi-instance modules are stored in the following directory: **** `<installation directory="" />`**/var/default/log/**. The same log file is shared by all instances (e.g. **web.log**).
+The logs of multi-instance modules are stored in the following directory: **`<installation directory>`/var/default/log/**. The same log file is shared by all instances (e.g. **web.log**).
 
 The logs of the other modules are stored in a subfolder named after the instance. Each instance has its own log files.
 
@@ -62,4 +62,4 @@ You can, however, keep larger files. To enable this, change the value of the **m
 
 If you wish to maintain further levels of detail in the logs, you can start the Adobe Campaign modules with the **-verbose** parameter:
 
-**nlserver start `<module>  @  <instance>   -verbose  </instance> </module>`** 
+**nlserver start `<MODULE>`@`<INSTANCE>` -verbose**

@@ -42,24 +42,20 @@ Here is a list of the usual administration commands accessible in Linux (as **Ad
   >
   >Adding the **-who** parameter to the **pdump** command lets you collect information on current connections (users and processes).  
   >The **/etc/init.d/nlserver6 status** command (without the "-who" parameter) will return:  
-
   >
-  >    
-  >    
   >    * 0 if all of the processes are being executed.
   >    * 1 if a process is missing.
   >    * 2 if no process is being executed.
-  >    * another value if there is an error.
-  >    
+  >    * another value if there is an error.  
   >
 
 * Start/stop a multi-instance or mono-instance module (**web**, **trackinglogd**, **syslogd**, **mta**, **wfserver**, **inmail**):
 
-  **nlserver start `<module>  [@  <instance>   ]  </instance> </module>`**
+  **nlserver start `<module>[@<instance>]`**
 
-  **nlserver stop `<module>  [@  <instance>   ][-immediate] [-noconsole]  </instance> </module>`**
+  **nlserver stop `<module>[@<instance>][-immediate][-noconsole]`**
 
-  You can also use the **nlserver restart `<module>  [@  <instance>   ]  </instance> </module>`** command to restart a module.
+  You can also use the **nlserver restart `<module>[@<instance>]`** command to restart a module.
 
   Example:
 

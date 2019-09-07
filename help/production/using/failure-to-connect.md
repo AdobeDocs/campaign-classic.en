@@ -46,7 +46,7 @@ Check the following information:
     
     * Has Adobe Campaign been correctly integrated?
 
-      Log on to the: **http(s):// `<urlserver>  /r/test </urlserver>`** URL. The server should return the following type of message
+      Log on to the: **http(s):// `<urlserver>`/r/test** URL. The server should return the following type of message
 
       ```    
       <redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='<hostname>' localHost='<server>'/>
@@ -58,13 +58,13 @@ Check the following information:
 
     * Has the Adobe Campaign Web module been launched?
 
-      Connect to the following URL: **http(s):// `<urlserver jsp="" logon.jsp="" nl="" strong="" />`**
+      Connect to the following URL: **http(s)://`<URLSERVER>`/nl/jsp/logon.jsp**
 
         * If you obtain a Tomcat Java error:
 
           Is the JAVA integration correctly performed? Adobe Campaign requires a SUN JDK.
 
-          It is integrated in the file **[path of application]/nl6/customer.sh**
+          It is integrated in the file **`[path of application]`/nl6/customer.sh**
         
         * If you obtain a blank page:
 

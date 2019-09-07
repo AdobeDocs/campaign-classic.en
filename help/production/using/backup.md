@@ -35,13 +35,24 @@ Files are divided into several categories:
 
   These enable you to reconfigure Adobe Campaign very quickly. 
 
-* Redirection files ** nl6/var/`<instancename> /redir</instancename>`**
+* Redirection files ** nl6/var/`<instancename>`/redir**
 
   These are on the tracking (often called 'frontal') servers, and include all previous campaign redirections. They are still used by previous campaigns.
 
-* Log files: **nl6/var/`<instancename> /log</instancename>`**
+* Log files: **nl6/var/`<instancename>`/log**
 
   These can be used to trace problems.
+
+
+The directories to be backed up are therefore:
+
+ * nl6/conf
+
+ * nl6/var/`<instanceName>`/redir (for each instance)
+
+ * nl6/var/`<instanceName>`/log (optional)
+
+ * nl6/var/`<instanceName>`/relay (optional)  
 
 >[!CAUTION]
 >

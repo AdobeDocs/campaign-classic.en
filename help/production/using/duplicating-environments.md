@@ -101,7 +101,8 @@ Check that the number of exported options/accounts is equal to the number of lin
 
 >[!NOTE]
 >
->The number of lines to export in a package export is 1000 lines. If the number of options or external accounts is more than 1000, you must carry out several exports.  
+>The number of lines to export in a package export is 1000 lines. If the number of options or external accounts is more than 1000, you must carry out several exports.
+> 
 >For more information, refer to [this section](../../platform/using/working-with-data-packages.md#exporting-packages).
 
 ### Step 3 - Stop the target environment (dev) {#step-3---stop-the-target-environment--dev-}
@@ -186,7 +187,8 @@ On the target environment, re-start the Adobe Campaign processes for all servers
 
 >[!NOTE]
 >
->Before re-starting Adobe Campaign on the **dev** environment, you can apply an additional safety procedure: start the **web** module only.  
+>Before re-starting Adobe Campaign on the **dev** environment, you can apply an additional safety procedure: start the **web** module only.
+>  
 >To do this, edit your instance's configuration file (**config-dev.xml**), then add the "_" character before the autoStart="true" options for each module (mta, stat, etc.).
 
 Run the following command to start the Web process:
@@ -207,7 +209,7 @@ Check that access to the client console functions.
 
 >[!CAUTION]
 >
->Warning: only the web process should be started at this step. If this is not the case, stop other running processes before continuing
+>Only the web process should be started at this step. If this is not the case, stop other running processes before continuing
 
 Above all, check the values of several lines of the files before importing (for example: 'NmsTracking_Pointer' for the options table and the delivery or mid-sourcing accounts for the external account table)
 
