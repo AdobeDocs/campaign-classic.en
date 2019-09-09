@@ -500,7 +500,7 @@ index: n
        + [Purpose](message-center/using/purpose.md)
        + [Important notes](message-center/using/important-notes.md)
        + [Implementation](message-center/using/implementation.md)
-+ Integrating with Social media {#integrating-with-social-medias}
++ Integrating with Social media {#integrating-with-social-media}
   + Introduction {#introduction}
        + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}
