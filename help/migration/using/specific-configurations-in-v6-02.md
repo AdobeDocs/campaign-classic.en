@@ -52,7 +52,7 @@ To continue using the v6.02 homepage, you must install a "compatibility" package
 
 To do this, import the compatibility package:
 
-Click **[!UICONTROL Tools > Advanced > Import package]** and choose the **campaignMigration.xml** package in the **\nl\datakit\nms\`[Your language]`\package\optional**.
+Click **[!UICONTROL Tools > Advanced > Import package]** and choose the **campaignMigration.xml** package in the **`\nl\datakit\nms\[Your language]\package\optional`**.
 
 To allow access to the v6.02 Web Application type interfaces, the **sessionTokenOnly** server configuration option must be activated in the **serverConf.xml** file:
 

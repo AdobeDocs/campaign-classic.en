@@ -199,7 +199,7 @@ Adobe Campaign v7 integrates a more recent JavaScript interpreter. However, this
 
 The **[!UICONTROL myObject.@attribute]** syntax is now only valid for XML objects. This syntax may be used for personalizing deliveries and content management. If you used this type of syntax on a non XML object, the personalization features will no longer work.
 
-For all other object types, the syntax is now **[!UICONTROL myObject`["attribute"]`]**. For instance, a non-XML object which used the following syntax: **[!UICONTROL employee.@sn]**, must now use the following syntax: **[!UICONTROL employee`["sn"]`]**.
+For all other object types, the syntax is now **[!UICONTROL myObject`[`"attribute"`]`]**. For instance, a non-XML object which used the following syntax: **[!UICONTROL employee.@sn]**, must now use the following syntax: **[!UICONTROL employee`[`"sn"`]`]**.
 
 * Former syntax:
 
