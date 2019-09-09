@@ -123,7 +123,7 @@ Enter the various fields:
    >
    >If you want to add the **[!UICONTROL Link]** field to the URL of a Facebook application to promote it, we recommend that you adapt it to smartphone display criteria:
    >
-   >1. Select the Facebook application (https://developers.facebook.com/apps), and select the **[!UICONTROL Settings > Basic]** tab.
+   >1. Select the Facebook application [https://developers.facebook.com/apps](https://developers.facebook.com/apps), and select the **[!UICONTROL Settings > Basic]** tab.
    >1. Enter the **[!UICONTROL Namespace]** field.
    >1. Enter the **[!UICONTROL Mobile Site URL]** field: when a user clicks the publication link on their smartphone, they will automatically be redirected by Facebook to the URL defined in this field.
    >1. Create your web application so that the Facebook display is personalized as a function of the device used (smartphone or PC).
