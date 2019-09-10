@@ -23,8 +23,6 @@ snippet: y
 >[!CAUTION]
 >
 >This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
->  
->For example, deleting a recipient via a workflow will not result in all of the recipient's delivery history being deleted. However, deleting a recipient directly in the 'Recipients' folder will indeed result in all data linked with this recipient being deleted.
 
 ## Security enhancements {#security-enhancements}
 
