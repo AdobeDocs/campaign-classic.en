@@ -13,21 +13,23 @@ index: n
   + Control Panel Releases {#control-panel-releases}
        + [Control Panel - July 2019](rn/using/control-panel-july-2019.md)
        + [Control Panel - August 2019](rn/using/control-panel-august-2019.md)
-  + [Release 19.1](rn/using/release-19-1.md)      
+  + [Release 19.1] {#release-19-1}     
        + [Release 19.1.5 - Build 9033](rn/using/release-19-1-5-build-9033.md)
        + [Release 19.1.4 - Build 9032](rn/using/release-19-1-4-build-9032.md)
        + [Release 19.1.3 - Build 9031](rn/using/release-19-1-3-build-9031.md)
        + [Release 19.1.2 - Build 9029](rn/using/release-19-1-2-build-9029.md)
        + [Release 19.1 - Build 9026](rn/using/release-19-1-build-9026.md)
-  + [Release 19.18.10](rn/using/about-release-notes.md)      
+  + [Release 18.10] {#release-18-10}        
        + [Release 18.10.6 - Build 8985](rn/using/release-18-10-6-build-8985.md)
        + [Release 18.10.5 - Build 8984](rn/using/release-18-10-5-build-8984.md)
        + [Release 18.10.4 - Build 8983](rn/using/release-18-10-4-build-8983.md)
        + [Release 18.10.3 - Build 8981](rn/using/release-18-10-3-build-8981.md)
        + [Release 18.10.2 - Build 8978](rn/using/release-18-10-2-build-8978.md)
        + [Release 18.10 - Build 8977](rn/using/release-18-10-build-8977.md)
+  + [Release 18.6] {#release-18-6}               
        + [Release 18.6.2 - Build 8949](rn/using/release-18-6-2-build-8949.md)
        + [Release 18.6 - Build 8947](rn/using/release-18-6-build-8947.md)
+  + [Release 18.4] {#release-18-4}             
        + [Release 18.4.5 - Build 8937](rn/using/release-18-4-5-build-8937.md)
        + [Release 18.4.4 - Build 8936](rn/using/release-18-4-4-build-8936.md)
        + [Release 18.4.3 - Build 8935](rn/using/release-18-4-3-build-8935.md)
