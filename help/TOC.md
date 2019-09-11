@@ -12,9 +12,9 @@ index: n
   + [About Release Notes](rn/using/about-release-notes.md)
   + [Control Panel Releases](rn/using/control-panel.md)
   + [Release 19.1](rn/using/latest-release.md)
-  + [Release 18.10](rn/using/release-18-10.md)
-  + [Release 18.6](rn/using/release-18-6.md)
-  + [Release 18.4](rn/using/release-18-4.md)
+  + [Release 18.10](rn/using/release--18-10.md)
+  + [Release 18.6](rn/using/release--18-6.md)
+  + [Release 18.4](rn/using/release--18-4.md)
   + [Legacy Release Notes](rn/using/legacy-release-notes.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
