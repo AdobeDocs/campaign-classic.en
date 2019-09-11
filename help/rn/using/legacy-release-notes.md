@@ -18,8 +18,13 @@ snippet: y
 
 # Legacy Release Notes{#legacy-release-notes}
 
-Click [here](https://docs.campaign.adobe.com/doc/AC/en/RN_legacy.html) to access the Campaign Classic v6/v7 fixes and updates prior to 2018.
+Looking for a previous release of Adobe Campaign Classic?
 
-Each release comes with new features and patches. Consult the [Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)to learn about the systems and components supported for the latest build.
+All releases prior to 2018 are listed on this [page](https://docs.campaign.adobe.com/doc/AC/en/RN_legacy.html) with their new features and patches.
+ 
+Additional resources:
 
-View the latest [Documentation Updates](https://helpx.adobe.com/campaign/kb/v7-doc-updates.html) for Adobe Campaign Classic. If you're looking for a newer release, consult this [page](../../rn/using/about-release-notes.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html).
+* [Latest Release](../../rn/using/latest-release.md)
+* [Documentation Updates](https://helpx.adobe.com/campaign/kb/v7-doc-updates.html)
+* [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+* [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
