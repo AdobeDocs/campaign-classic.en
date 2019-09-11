@@ -1,26 +1,97 @@
 ---
-title: Release 18.4 - Build 8931
-seo-title: Release 18.4 - Build 8931
-description: Release 18.4 - Build 8931
+title: Release 18.4
+seo-title: Release 18.4
+description: Release 18.4
 seo-description: 
 page-status-flag: never-activated
-uuid: e3b30fab-14fd-4c01-bb3c-e877eab19004
+uuid: d132570e-20e6-4550-95bd-176701f43b19
 contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 3560d40c-c9c9-4e52-9f1b-c4cebdef7dba
+discoiquuid: 4dc87ff3-eb6a-40ac-97ee-00b64cd7718d
 index: y
 internal: n
 snippet: y
 ---
 
-# Release 18.4 - Build 8931{#release-build}
+# Release 18.4{#release-18-4}
+
+## Release 18.4.5 - Build 8937{#8937}
+
+21 November 2018
+
+**Improvements**
+
+* Fixed various issues when running workflows using MySQL on FDA. (NEO-11652)
+* Fixed an issue which caused a portion of the delivery population to remain in pending state, in specific cases. (NEO-11336) 
+* Fixed an intermittent issue with the SMS auto response. (NEO-11811) 
+* Fixed an ID exhaustion issue when using seed addresses in a delivery. (NEO-11842)
+* Fixed a syntax error when performing a sort in an enrichment workflow activity. (NEO-11394) 
+* Fixed an issue which could cause a web server crash when restarting IIS. (NEO-10862) 
+* Fixed an issue which could cause the tracking workflow to fail after a build upgrade (FDA - SQL). (NEO-11635) 
+* Fixed an issue which could cause workflow list data to be lost. (NEO-11696) 
+* Fixed a performance issue when sending push notifications. (NEO-11787)
+* Fixed an issue which prevented web tracking from working for "com.au" domains (NEO-4385). 
+* Fixed a client freeze issue which could occur when using complex workflows. (NEO-11847)
+* Fixed an Oracle error when saving a new delivery after selecting an element of a specific schema (NEO-11682). 
+* Fixed an issue when querying a field containing characters with accents (FDA/Teradata). The external account now allows you to change the encoding used to communicate with the Teradata driver. (NEO-11818). 
+* Fixed a tracking issue when passing URLs in additional variables in a push notification which could lead to mis-formatted or incorrect data received by the mobile application. (NEO-11468, NEO-11960) 
+* Fixed an issue which caused a display issue when using a distribution of values with a 1:N link. (NEO-11820)
+* Fixed an issue which prevented bulk load from working on Teradata 16. 
+* Increased the buffer size for timestamp on Teradata to avoid binding issues with 15.10 driver. 
+* Improved the management of long name indexes which could cause postupgrade issues. 
+* Improved shared memory available time during children dead processing (MTA).
+* Fixed a potential deadlock in Apache (tracking).
+
+## Release 18.4.4 - Build 8936{#8936}
+
+1 August 2018
+
+**Improvements**
+
+* Email archiving logs have been enhanced, which makes it easier and clearer to check which emails have been successfully delivered or have failed through BCC archiving. (NEO-10675)
+* Fixed an issue which led to the display of load balancer IPs instead of customer IPs in the tracking broadlogs. (NEO-11295)
+* Fixed an error with LATIN1 encoding when using an FDA Connection to a PostgreSQL database. (NEO-11299)
+* Fixed an issue that occured when using the **[!UICONTROL Prepare the personalization data with a workflow]** delivery option. (NEO-11047, NEO-11301)
+* Fixed a random issue causing the properties of a delivery to be wrongly overwritten. (NEO-11015)
+* Fixed an issue when using calculated fields in a **[!UICONTROL Survey answers]** workflow activity. (NEO-11382)
+* Fixed an issue when using data stored in XML in a **[!UICONTROL Survey answers]** workflow activity. (NEO-10816)
+* Fixed an issue when performing the server upgrade with build 8935.
+* Fixed an issue which displayed useless errors in the postupgrade log when a **[!UICONTROL Survey answers]** workflow activity was not fully configured.
+* FDA Teradata: fixed an issue with auto-incremented fields and indexes in SQL tables.
+
+## Release 18.4.3 - Build 8935{#8935}
+
+22 June 2018
+
+**Improvements**
+
+* Fixed a tracking encoding issue with Microsoft Edge and Internet Explorer. (NEO-11257)
+* Fixed an issue with image link personalization in LINE deliveries. (NEO-11077)
+* Fixed an issue that prevented the ID sequence generation mechanism from working correctly. (NEO-11115)
+* Fixed an issue which prevented privacy (GDPR) requests from working when using a custom namespace with an integer type reconciliation key. (NEO-11123)
+* Fixed an error which could occur when using the **[!UICONTROL Distribution of values]** option in **[!UICONTROL Query]** workflow activities. (NEO-10958)
+* Fixed an issue when syncing offer spaces from the marketing instance to the interaction instance. (NEO-11162)
+* Improved the management of long name indexes during postupgrade
+
+## Release 18.4.2 - Build 8932{#8932}
+
+22 May 2018
+
+**Improvements**
+
+* Fixed an issue which prevented the Windows Server update from working correctly.
+* Fixed an issue in the **[!UICONTROL Survey Result]** activity when using data stored in XML. The report was displayed incorrectly. (NEO-10816)
+* Fixed a performance issue which could occur with the inMail process when using a bounce mail server. (NEO-10641)
+* Fixed a database upgrade issue which could occur when upgrading more than 1000 schemas.
+
+## Release 18.4 - Build 8931{#8931}
 
 24 Apr 2018
 
-## What's new? {#what-s-new-}
+**What's new?**
 
 <table> 
  <thead> 
@@ -49,19 +120,19 @@ snippet: y
  </tbody> 
 </table>
 
-## Security enhancements {#security-enhancements}
+**Security enhancements**
 
 * Expansion of external entities is now disabled to prevent potential attacks from unauthenticated users. (NEO-10173)
 * Hardened permissions to prevent standard users from changing the instance configuration parameters such as application access URLs, LDAP settings, etc. (NEO-10171)
 * Fixed an issue which could reveal sensitive information via stack traces. Error details are now logged in the back end to a location unaccessible from the external network. (NEO-10176)
 * Hardened permissions to prevent standard users from viewing an administrator's uploaded documents and/or exported packages. (NEO-10170)
 
-## Improvements {#improvements}
+**Improvements**
 
 * **LINE channel - architecture enhancement**: As with all other channels in Adobe Campaign, the LINE channel is now supported across all deployment types: hosted, hybrid, and on-premise. 
 * **Sequence auto-generation**: The ID generation mechanism has been enhanced to increase the lifespan of Campaign instances with large volumes of objects. For more information, refer to this [technote](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html).
 
-## Other changes {#other-changes}
+**Other changes**
 
 * A new mode is available for package import using command line, allowing circular dependencies (not recommended for large packages). See the 'Technical evolutions' section for more information. (NEO-8979) 
 * Improved performance for large amount of data loading in Teradata and fixed an issue which prevented from displaying the right value of data processed in the log. (NEO-10429)
@@ -76,9 +147,9 @@ snippet: y
 * You can now specify a default landing page to open when clicking on an image served by Adobe Target. Previously, clicking that image was leading to the default image set when creating the email instead. For more information, refer to the [detailed documentation](../../integrations/using/inserting-a-dynamic-image.md).
 * Added **Enable SMPP traces** checkbox in the external account to force traces output. For more information, refer to the [detailed documentation](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
 
-## Technical evolutions {#technical-evolutions}
+**Technical evolutions**
 
-**queryDef**
+queryDef
 
 queryDef has been modified regarding the "orderBy" clause. Before the change, the primary key of the queried table would implicitly be added to the "orderBy" clauses. On some database engines (postgresql at least), it prevents the use of indexes (all fields of the orderBy clause must be covered by the same index). If you were dependent of this behavior, you will have to explicitly add the primary key in your "orderBy" clause.
 
@@ -109,11 +180,11 @@ It would implicitly be handed as (before the 18.4 changes):
 </queryDef>
 ```
 
-**urlEncode function**
+urlEncode function
 
 The 'urlEncode' JavaScript function was not working properly for non ASCII characters. It has been corrected and it should now work with all Unicode characters (including Japanese characters). If you were relying on the 'urlEncode' behavior for non ASCII character, you will have to adapt your code.
 
-**Package import new mode**
+Package import new mode
 
 A new mode is available for package import using command line, allowing circular dependencies (not recommended for large packages). The existing functionality is kept. For such packages with circular dependencies, a new flag **-usejs** has been added to the command line package import. When executed, it will use the JSEngine like when the package import is performed from the interface.
 
@@ -121,7 +192,7 @@ A new mode is available for package import using command line, allowing circular
 nlserver package -instance:fresh -import:sup-packInstallTest.xml -verbose -usejs
 ```
 
-## Patches {#patches}
+**Patches**
 
 * Fixed a synchronization issue when replicating delivery and tracking logs from Adobe Campaign Standard to Adobe Campaign Classic. (NEO-10023)
 * Fixed an issue with the handling of Error and Log tables in Teradata when an ETL workflow was resuming after a failure on a fast load operation. The Error and Log tables are now deleted properly each time the workflow resumes. (NEO-10672)
@@ -159,4 +230,3 @@ nlserver package -instance:fresh -import:sup-packInstallTest.xml -verbose -usejs
 * Fixed an issue that could lead to SMS being sent even when the connection with the provider failed resulting in SMS losses.
 * Fixed an error that let an SMTP connection get stuck indefinitely. 
 * Fixed an issue with pressure typology rules during message preparation when using a LINE mapping or when filtering and targeting schemas differ.
-

@@ -1,13 +1,13 @@
 ---
-title: Release 19.1 - Build 9026
-seo-title: Release 19.1 - Build 9026
-description: Release 19.1 - Build 9026
+title: Release 19.1
+seo-title: Release 19.1
+description: Release 19.1
 seo-description: 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
-audience: rn
+audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
@@ -16,7 +16,61 @@ internal: n
 snippet: y
 ---
 
-# Release 19.1 - Build 9026{#release-build}
+# Release 19.1{#release-19-1}
+
+## Release 19.1.5 - Build 9033{#9033}
+
+13 August 2019
+
+**Improvements**
+
+* Fixed an issue with the SQL statement 'SELECT COUNT' which was executed on the default database rather than the FDA database during Data extraction in Data Management activity.(NEO-14551)
+* To improve customer infrastructure capabilities, an SFTP proxy declaration is now available in the server configuration file.(NEO-12546)
+* Fixed a Client console crash when "adding a linked table" in the Data Loading (RDBMS) workflow activity with no table name.(NEO-12213)
+* Fixed an issue with the midEmetter package installation through command line. (NEO-12728)
+* A new authentication option has been added to support OAuth credentials within the AC connector with Microsoft Dynamics.(NEO-11982)
+* Fixing issue with UUID (Unique Universal Identifier) cause enrichment activity to fail withHive FDA.(NEO-12273)
+
+## Release 19.1.4 - Build 9032{#9032}
+
+13 August 2019
+
+**Improvements**
+
+* Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
+
+## Release 19.1.3 - Build 9031{#9031}
+
+26 July 2019
+
+**Improvements**
+
+* Fixed a regression caused by the NEO-12727 which could lead to workflows being stopped when a Test activity was executed twice. (NEO-16835) 
+* Fixed an issue which led to an erroneous HTTP code being returned (HTTP 200 OK instead of HTTP 403 Forbidden) when an invalid or expired session token was used in API calls. (NEO-16826) 
+* Fixed an issue with the DKIM key which was not embedded into emails anymore, thus causing deliverability issues. (NEO-16804) 
+* Fixed various issues with workflow scheduling. Workflows were scheduled to be executed once a day without taking into account the scheduler configuration. (NEO-16619, NEO-16426)
+
+## Release 19.1.2 - Build 9029{#9029}
+
+21 June 2019
+
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+
+**Security enhancements**
+
+* To optimize security, the Java library (Netty) has been updated to the latest version (4.1.34). (NEO-12788)
+
+**Improvements**
+
+* Fixed a regression linked to sdomain column management which prevented emails from being sent on certain configurations. 
+* To improve performance, a _operation="none" attribute has been added to rtEvent SOAP calls to avoid "SELECT FOR UPDATE" requests.
+* Fixed a workflow display issue with outbound transitions after a Test activity. (NEO-12727)
+* We now allow the deletion of dummy records created in Microsoft Dynamics during import workflow.
+* Improved permissions to execute the security zone package when using internal account.
+
+## Release 19.1 - Build 9026{#9026}
 
 30 May 2019
 
@@ -24,7 +78,7 @@ snippet: y
 >
 >This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
 
-## What's new? {#what-s-new-}
+**What's new?**
 
 <table> 
  <thead> 
@@ -64,7 +118,7 @@ snippet: y
  </tbody> 
 </table>
 
-## Security enhancements {#security-enhancements}
+**Security enhancements**
 
 * For security reasons, you can no longer insert arbitrary commands when using the **[!UICONTROL Pre-process the file]** option in a **[!UICONTROL Data loading (file)]** workflow activity. A drop-down list is now available allowing you to select from 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg). The XtkSecurity_Disable_Preproc security flag has been added. For new customers, this option will be set to 0. For existing customers, this option will be set to 1 by the postupgrade in order to keep the previous behavior. Refer to this [section](../../workflow/using/data-loading--file-.md).
 * Fixed a password visibility issue that occurred when testing the connection of an FDA external account with no time zone set.
@@ -80,7 +134,7 @@ snippet: y
 * A new XtkSecurity_Disable_GetSetEnv option has been added to block the use of setEnv and getEnv functions.
 * Sensitive information is now hidden in the application stack trace.
 
-## Guardrail, robustness &amp; scalability improvements {#guardrail--robustness-e-scalability-improvements}
+**Guardrail, robustness &amp; scalability improvements**
 
 * Lifespan - XtkNewId sequence usage optimization: the most consuming tables have been moved from the xtkNewId sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.md#Switchtoadedicatedsequence ) 
 * FDA over HTTP v2: the FDA over HTTP protocol is widely used on Hybrid deployments, especially for broadLog retrieval and delivery preparation. Robustness has been enhanced to avoid network issues and possible errors as retrieving or pushing data. This requires that builds at both ends of the connection are up-to-date, otherwise the old protocol will still be used.
@@ -93,7 +147,7 @@ snippet: y
 * Guardrails for operator actions: several guardrails have been implemented to prevent operators from performing actions which could impact the platform's integrity. Built-in schemas can no longer be deleted through the interface. Also, the workflow source XML can no longer be edited by non-admin users.
 * Two new options have been made available: **XtkSecurity_Restrict_EditXML** (allows you to disable the edition of deliveries’ XML code) and **NmsOperation_OperationMgtDebug** (allows you to monitor the operationMgt technical workflow execution). [Read more](../../installation/using/configuring-campaign-options.md)
 
-## Other changes {#other-changes}
+**Other changes**
 
 * Push notifications: we now support the Thread ID option for iOS push.
 * Improved the management of long name indexes which could cause postupgrade issues.
@@ -105,7 +159,7 @@ snippet: y
 * Open Office is not supported and is now fully removed from the application. If you were still using it, move to Libre Office as it will not work anymore starting 19.1.
 * You can now limit Write access to Update data activity in Workflow using sysfilter attributes. [Read more](../../configuration/using/filtering-schemas.md)
 
-## Patches {#patches}
+**Patches**
 
 * Fixed an issue which prevented the certificate from being uploaded for iOS mobile push notifications.
 * Fixed potential recurrent server crashes for transactional push notifications. Other crash issues have been fixed.

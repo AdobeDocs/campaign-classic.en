@@ -1,22 +1,105 @@
 ---
-title: Release 18.10 - Build 8977
-seo-title: Release 18.10 - Build 8977
-description: Release 18.10 - Build 8977
+title: Release 18.10
+seo-title: Release 18.10
+description: Release 18.10
 seo-description: 
 page-status-flag: never-activated
-uuid: 0c4370e5-cb1c-4a4b-aa97-f6bb5e159c45
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
-audience: rn
+audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: a91fc521-2d21-4d06-9f9f-ee8e3f0e00d1
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
 ---
 
-# Release 18.10 - Build 8977{#release-build}
+# Release 18.10{#release-18-10}
+
+## Release 18.10.6 - Build 8985{#8985}
+
+12 July 2019
+
+**Improvements**
+
+* We now allow the deletion of dummy records created in Microsoft Dynamics during import workflow.
+* Fixed an issue with the File Collector workflow activity which could log errors in loop when the access to a file was denied. (NEO-12085)
+* Fixed an issue which caused reporting discrepancies between user activities and tracking reports for the open delivery indicator. (NEO-11742)
+* Improved permissions to execute the security zone package when using internal account.
+* Fixed an issue which could cause errors in the mtachild logs. (NEO-8978)
+
+## Release 18.10.5 - Build 8984{#8984}
+
+23 April 2019
+
+**Improvements**
+
+* Fixed an issue with SQL deadlock which caused delivery analysis to fail in case of simultaneous analysis/sending (when two deliveries were analyzed at the same time). (NEO-13026)
+* Removed the 10,000 record limit in Workflow Heatmap to fix a missing data issue. (NEO-12329)
+* Fixed an issue when using the "Keep all additional data from the main set" option in an enrichment workflow activity. (NEO-13291)
+
+## Release 18.10.4 - Build 8983{#8983}
+
+15 April 2019
+
+**Improvements**
+
+* Fixed an issue with the computing process of tracking indicators for transactionnal messages. (NEO-12529, NEO-12581)
+* Fixed an issue with the HTTPRequest API which did not wait for all callbacks to finish. (NEO-12628)
+* Indexes were added in the coupon temporary tables to optimize delivery sending. (NEO-12437)
+* Fixed an issue when analyzing a message which targeted recipients for Japanese (.JP) domains. (NEO-12246)
+* In the Analytics integration, the retrieval of AAM segment data with % character is now allowed. (NEO-12025)
+* Fixed a Tomcat crash issue when sending push notifications using HTTP2. (NEO-12701)
+
+## Release 18.10.3 - Build 8981{#8981}
+
+29 January 2019
+
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+
+**Improvements**
+
+* Fixed an issue with the s3 File Transfer workflow activity. (NEO-12473) 
+* Fixed an issue with the Tracking workflow which could fail. (NEO-12520) 
+* Fixed an issue with the IMS login. 
+* Fixed an issue with the preview and content approval in Transactional messaging when using a large offer ID. 
+* Fixed an issue with the Mid-sourcing (delivery counters) workflow. 
+* Fixed an issue with the database structure update which dropped new indexes on NmsRecipient. 
+* Fixed a console crash that could occur when using the Defined in an external file option for the main target of a delivery. (NEO-12349) 
+* Fixed several InMail crashes. 
+* Fixed an issue when using an Update data workflow activity to delete records stored in an FDA Teradata database. 
+* Fixed inconsistency issues in secret key management. 
+* Fixed an issue with the Enrichment activity when typing a field as: xml=true and calculated=true
+* Fixed a character escaping issue when sending push notifications on a mobile application. 
+* Fixed an issue which prevented from switching from FDA to SOAP synchronization method in a Mid-Sourcing external account.
+
+# Release 18.10.2 - Build 8978{#8978}
+
+6 December 2018
+
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+
+**Improvements**
+
+* Fixed various issues when running workflows using MySQL on FDA. (NEO-11652)
+* Fixed a performance issue when sending push notifications. (NEO-11787)
+* Fixed an ID exhaustion issue when using seed addresses in a delivery. (NEO-11842)
+* Fixed a client freeze issue which could occur when using complex workflows. (NEO-11847)
+* Fixed a display issue when using a distribution of values with a 1:N link. (NEO-11820)
+* Fixed an Oracle error in Worflow Heatmap.
+* Fixed a right issue when adding an offer proposition in an enrichment activity.
+* Fixed an SQL data management connection issue.
+* Fixed an issue with the generation of temporary workflow table names in case of negative IDs.
+* Fixed an issue with the calculation of workflow durations in Workflow HeatMap.
+
+
+## Release 18.10 - Build 8977{#8977}
 
 5 Nov 2018
 
@@ -24,7 +107,7 @@ snippet: y
 >
 >This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
 
-## What's new? {#what-s-new-}
+**What's new?**
 
 <table> 
  <thead> 
@@ -54,7 +137,7 @@ snippet: y
  </tbody> 
 </table>
 
-## Security enhancements {#security-enhancements}
+**Security enhancements**
 
 * Fixed a security issue that could result in vulnerabilities to Server Side Request Forgery (SSRF) attacks and denial of service (DoS) attacks. (NEO-11453)
 * Content (tracking redirection, mirror pages, surveys, etc.) will now be served by Campaign with the X-Robots-Tag: nocache header. This prevents the indexation of this content by Internet search engines. (NEO-11101)
@@ -62,7 +145,7 @@ snippet: y
 * Fixed an XTK injection issue in the unsubscription web application.
 * Removed passwords that were insecurely displayed in some SMS logs.
 
-## Improvements {#improvements}
+**Improvements**
 
 * Campaign Classic APIs are now available in a [dedicated page](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html). If you were using the jsapi.chm file, you should now refer to the new online version.
 * PostgreSQL 10, Debian 9 and Teradata 16.20 are now supported. Refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
@@ -76,13 +159,13 @@ snippet: y
 * Campaign SDK no longer stores the User ID to comply with our PII regulations. Data is now stored as a hash.
 * When importing a package export XML file, Campaign now supports the presence of BOM in the file, even if the encoding is explicitly declared in it.
 
-## Technical evolutions {#technical-evolutions}
+**Technical evolutions**
 
-**Client and server upgrade**
+Client and server upgrade
 
 If you have a server that has been updated to 18.10, you will have to use a 18.10 client in order to access your server. The 18.10 client will be able to connect to an older server version.
 
-**Domain name management**
+Domain name management
 
 The domain name management has been improved for cookie tracking and web applications.
 
@@ -92,7 +175,7 @@ Now, all two-letter second-level domain names are supported by default (for exam
 <redirection cookiedomain="http://toureiffel.paris">
 ```
 
-**Index enhancements**
+Index enhancements
 
 Indexes on NmsRecipient have been reworked. This should improve performance on queries that use this table. If you had done an extension of NmsRecipient, you may want to verify that you don't have indexes that duplicate the new indexes (to minimize space usage on the database server). (NEO-8228)
 
@@ -111,7 +194,7 @@ New indexes have been added to NmsRtEvent and NmsEventHisto (on the "Scheduled" 
 
 These index changes may lead to an increase of the time required to perform the post-upgrade.
 
-## Patches {#patches}
+**Patches**
 
 * Fixed an error that prevented files from the **Web download** workflow activity from being downloaded. (NEO-11105)
 * Fixed an error that occasionally left the **Sending of indicators and campaign attributes** workflow in a Failed state (NEO-10820).
