@@ -22,6 +22,10 @@ Here you’ll find information about the latest Control Panel releases.
 ​
 For more on the Control Panel itself, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/control-panel.html).
 
+>[!NOTE]
+>
+>Please note that Control Panel is available for customers hosted on AWS only. No upgrades are required to access Control Panel. Please make sure you are an Admin user to access it.
+
 ## September 2019{#september-2019}
 
 16 September 2019
@@ -31,8 +35,9 @@ Additionally, Admin users can now view the list of instances and eligibility for
 
 For more information, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html).
 
-These updates will be available on September 16th. Please note that Control Panel is available for customers hosted on AWS only. No upgrades are required. Please make sure you are an Admin user to access it.
-
+>[!NOTE]
+>
+>These updates will be available on September 16th.
 
 ## August 2019{#august-2019}
 
@@ -44,8 +49,6 @@ We’ve added new capabilities for Admin users to receive notifications before S
 
 Additionally, Admin users can now delete SSH keys that were added to access SFTP servers.
 
-Please note that Control Panel is available for customers hosted on AWS only. No upgrades are required to access Control Panel.
-
 ## July 2019{#july-2019}
 
 15 July 2019
@@ -55,5 +58,3 @@ Please note that Control Panel is available for customers hosted on AWS only. No
 We've added new features to empower Admin users to take greater control of instance settings. New Control Panel capabilities include the ability to add URLs that Adobe Campaign connect to for data/file transfers.
 
 For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html).
-
-Please note that Control Panel is available for customers hosted on AWS only. No upgrades are required to access Control Panel.
