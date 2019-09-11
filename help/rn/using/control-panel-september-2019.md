@@ -20,10 +20,9 @@ snippet: y
 
 16 September 2019
 
-We’ve added new capabilities for Admin users to whitelist IP addresses to allow connection to Campaign Classic instances.
+We’ve added new capabilities for Admin users to whitelist IP addresses to connect to Campaign Classic instances.
+Additionally, Admin users can now view the list of instances and eligibility for build upgrades.
 
-Additionally, Admin users can now view the flat architecture of their instance and know whether or not the instance build is current.
+For more information, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html).
 
-For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html).
-
-These updates will be available on September 16th. Please note that Control Panel is available for customers hosted on AWS only. No upgrades are required to access it.
+These updates will be available on September 16th. Please note that Control Panel is available for customers hosted on AWS only. No upgrades are required. Please make sure you are an Admin user to access it.
