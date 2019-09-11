@@ -18,7 +18,7 @@ snippet: y
 
 # Release 18.6{#release-18-6}
 
-## Release 18.6.2 - Build 8949{#8949}
+## Release 18.6.2 - Build 8949{#release-18-6-3-build-8949}
 
 22 August 2018
 
@@ -74,7 +74,7 @@ For more information on query banding, refer to these articles:
 * [https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw](https://docs.teradata.com/reader/cY5B%7EoeEUFWjgN2kBnH3Vw/a5G1iz%7Eve68yTMa24kVjVw) 
 * [https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ)
 
-## Release 18.6 - Build 8947{#8947}
+## Release 18.6 - Build 8947{#release-18-6-build-8947}
 
 25 June 2018
 

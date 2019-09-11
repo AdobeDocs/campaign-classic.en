@@ -18,7 +18,7 @@ snippet: y
 
 # Release 19.1{#release-19-1}
 
-## Release 19.1.5 - Build 9033{#9033}
+## Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
 13 August 2019
 
@@ -31,7 +31,7 @@ snippet: y
 * A new authentication option has been added to support OAuth credentials within the AC connector with Microsoft Dynamics.(NEO-11982)
 * Fixing issue with UUID (Unique Universal Identifier) cause enrichment activity to fail withHive FDA.(NEO-12273)
 
-## Release 19.1.4 - Build 9032{#9032}
+## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
 13 August 2019
 
@@ -39,7 +39,7 @@ snippet: y
 
 * Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
 
-## Release 19.1.3 - Build 9031{#9031}
+## Release 19.1.3 - Build 9031{#release-19-1-3-build-9031}
 
 26 July 2019
 
@@ -50,7 +50,7 @@ snippet: y
 * Fixed an issue with the DKIM key which was not embedded into emails anymore, thus causing deliverability issues. (NEO-16804) 
 * Fixed various issues with workflow scheduling. Workflows were scheduled to be executed once a day without taking into account the scheduler configuration. (NEO-16619, NEO-16426)
 
-## Release 19.1.2 - Build 9029{#9029}
+## Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}
 
 21 June 2019
 
@@ -70,7 +70,7 @@ snippet: y
 * We now allow the deletion of dummy records created in Microsoft Dynamics during import workflow.
 * Improved permissions to execute the security zone package when using internal account.
 
-## Release 19.1 - Build 9026{#9026}
+## Release 19.1 - Build 9026{#release-19-1-build-9026}
 
 30 May 2019
 

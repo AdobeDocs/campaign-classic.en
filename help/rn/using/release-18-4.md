@@ -18,7 +18,7 @@ snippet: y
 
 # Release 18.4{#release-18-4}
 
-## Release 18.4.5 - Build 8937{#8937}
+## Release 18.4.5 - Build 8937{#release-18-4-5-build-8937}
 
 21 November 2018
 
@@ -45,7 +45,7 @@ snippet: y
 * Improved shared memory available time during children dead processing (MTA).
 * Fixed a potential deadlock in Apache (tracking).
 
-## Release 18.4.4 - Build 8936{#8936}
+## Release 18.4.4 - Build 8936{#release-18-4-4-build-8936}
 
 1 August 2018
 
@@ -62,7 +62,7 @@ snippet: y
 * Fixed an issue which displayed useless errors in the postupgrade log when a **[!UICONTROL Survey answers]** workflow activity was not fully configured.
 * FDA Teradata: fixed an issue with auto-incremented fields and indexes in SQL tables.
 
-## Release 18.4.3 - Build 8935{#8935}
+## Release 18.4.3 - Build 8935{#release-18-4-3-build-8935}
 
 22 June 2018
 
@@ -76,7 +76,7 @@ snippet: y
 * Fixed an issue when syncing offer spaces from the marketing instance to the interaction instance. (NEO-11162)
 * Improved the management of long name indexes during postupgrade
 
-## Release 18.4.2 - Build 8932{#8932}
+## Release 18.4.2 - Build 8932{#release-18-4-2-build-8932}
 
 22 May 2018
 
@@ -87,7 +87,7 @@ snippet: y
 * Fixed a performance issue which could occur with the inMail process when using a bounce mail server. (NEO-10641)
 * Fixed a database upgrade issue which could occur when upgrading more than 1000 schemas.
 
-## Release 18.4 - Build 8931{#8931}
+## Release 18.4 - Build 8931{#release-18-4-build-8931}
 
 24 Apr 2018
 

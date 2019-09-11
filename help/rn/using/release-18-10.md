@@ -18,7 +18,7 @@ snippet: y
 
 # Release 18.10{#release-18-10}
 
-## Release 18.10.6 - Build 8985{#8985}
+## Release 18.10.6 - Build 8985{#release-18-10-6-build-8985}
 
 12 July 2019
 
@@ -30,7 +30,7 @@ snippet: y
 * Improved permissions to execute the security zone package when using internal account.
 * Fixed an issue which could cause errors in the mtachild logs. (NEO-8978)
 
-## Release 18.10.5 - Build 8984{#8984}
+## Release 18.10.5 - Build 8984{#release-18-10-5-build-8984}
 
 23 April 2019
 
@@ -40,7 +40,7 @@ snippet: y
 * Removed the 10,000 record limit in Workflow Heatmap to fix a missing data issue. (NEO-12329)
 * Fixed an issue when using the "Keep all additional data from the main set" option in an enrichment workflow activity. (NEO-13291)
 
-## Release 18.10.4 - Build 8983{#8983}
+## Release 18.10.4 - Build 8983{#release-18-10-4-build-8983}
 
 15 April 2019
 
@@ -53,7 +53,7 @@ snippet: y
 * In the Analytics integration, the retrieval of AAM segment data with % character is now allowed. (NEO-12025)
 * Fixed a Tomcat crash issue when sending push notifications using HTTP2. (NEO-12701)
 
-## Release 18.10.3 - Build 8981{#8981}
+## Release 18.10.3 - Build 8981{#release-18-10-3-build-8981}
 
 29 January 2019
 
@@ -77,7 +77,7 @@ snippet: y
 * Fixed a character escaping issue when sending push notifications on a mobile application. 
 * Fixed an issue which prevented from switching from FDA to SOAP synchronization method in a Mid-Sourcing external account.
 
-# Release 18.10.2 - Build 8978{#8978}
+# Release 18.10.2 - Build 8978{#release-18-10-2-build-8978}
 
 6 December 2018
 
@@ -99,7 +99,7 @@ snippet: y
 * Fixed an issue with the calculation of workflow durations in Workflow HeatMap.
 
 
-## Release 18.10 - Build 8977{#8977}
+## Release 18.10 - Build 8977{#release-18-10-build-8977}
 
 5 Nov 2018
 
