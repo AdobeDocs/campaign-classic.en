@@ -77,7 +77,7 @@ snippet: y
 * Fixed a character escaping issue when sending push notifications on a mobile application. 
 * Fixed an issue which prevented from switching from FDA to SOAP synchronization method in a Mid-Sourcing external account.
 
-# Release 18.10.2 - Build 8978{#release-18-10-2-build-8978}
+## Release 18.10.2 - Build 8978{#release-18-10-2-build-8978}
 
 6 December 2018
 
