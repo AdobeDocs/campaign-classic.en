@@ -150,7 +150,7 @@ Campaigns are created via campaign templates. You can configure reusable templat
 
 >[!NOTE]
 >
->To access the campaign configurations and make changes to them, click the **[!UICONTROL Advanced campaign parameters...]** link in the **[!UICONTROL Edit]** tab.
+>To access the campaign configurations and make changes to them, click the **[!UICONTROL Advanced campaign parameters...]** link in the **[!UICONTROL Edit]** tab. For more information on setting parameters at the campaign level so deliveries inherit values automatically, see [our Technote](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
 
 ## Using the web interface {#using-the-web-interface-}
 

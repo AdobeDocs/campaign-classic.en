@@ -84,3 +84,7 @@ You can also refer to [Oracle Client in Linux](../../installation/using/installi
 ## PostgresSQL {#postgressql}
 
 We recommend that you install the UTF-8 support when installing the database engine. This way you will be able to create Unicode databases.
+
+**Related topic**
+
+* [Unlogged option in Adobe Campaign Classic tables](https://helpx.adobe.com/campaign/kb/unlogged-tables-classic.html)
