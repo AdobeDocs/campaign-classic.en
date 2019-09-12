@@ -195,7 +195,11 @@ Some of them are built-in when installing Campaign, and others can be added manu
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine7</span> <br /> </td> 
    <td> Line 7 of the sender's address.<br /> </td> 
-  </tr> 
+  </tr>
+    <tr> 
+   <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
+   <td>Number of days above which a delivery will be considered as expired if no change has been performed on it. Once a delivery expired, it is not considered anymore as running by the <span class="uicontrol"> NmsOperation_LimitConcurrency</span> option. <br /> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
    <td> Parameters of sent SMS messages: information transmitted to the SMS gateway to indicate the message priority.<br /> </td> 
