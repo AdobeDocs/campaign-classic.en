@@ -133,6 +133,38 @@ Select the format of the email in the lower section of the window:
 
   The message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks on the message.
 
+## New AMP email format {#}
+
+### About AMP for Email
+
+Adobe Campaign now supports **AMP for Email**, a new format which allows to include AMP components inside messages to enhance the email experience with rich and actionable content. Making modern app functionality directly available within emails, it enables recipients to interact dynamically with content in the message itself.
+Emails written with AMP can contain interactive elements such as image carousels, content stays up-to-date in the message, and recipients can take action like responding to a form without leaving their inbox.
+AMP for Email is compatible with existing emails. The AMP version of the message is embedded into the email as a new MIME part, in addition to the HTML and plaintext, ensuring compatibility across all mail clients.
+
+See [Create your first AMP Email](https://amp.dev/documentation/guides-and-tutorials/start/create_email/?format=email) from the AMP developer documentation.
+
+For more on AMP for Email specifications, see [AMP for Email Format](https://amp.dev/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/#the-amphtml-email-format).
+
+### AMP for Email delivery requirements
+
+For your AMP email to be delivered to any account, the email must meet the following conditions:
+
+* The [AMP for Email security requirements](https://developers.google.com/gmail/ampemail/security-requirements) must be met.
+* The email must contain a fallback HTML version (text/html) or plain text version (text/plain) in addition to the AMP MIME part (text/x-amp-html). This fallback version is displayed in situations where the AMP MIME part cannot be displayed, such as when the mail client is offline or 30+ days after the email was received by Gmail.
+* The AMP MIME part must contain a valid AMP document.
+* The email should include the AMP MIME part before the HTML MIME part.
+* The AMP MIME part must be smaller than 100KB.
+
+Also consult the [Tips and know limitations](https://developers.google.com/gmail/ampemail/tips) and the [AMP for Email best practices](https://amp.dev/documentation/guides-and-tutorials/develop/amp_email_best_practices/?format=email).
+
+### Testing AMP emails
+
+Before you send a AMP-powered dynamic email, you can test it to verify its contents and behavior.
+1. Edit your content in the [AMP Playground](https://playground.amp.dev).
+1. Copy-paste your content into Adobe Campaign.
+1. Insert your personalization fields.
+1. Copy-paste again your content into [AMP Playground](https://playground.amp.dev).
+
 ## Using content management {#using-content-management}
 
 You can define the content of the delivery using the content management forms, directly in the delivery wizard. To do this, you must reference the publication template of the content management to be used, in the **[!UICONTROL Advanced]** tab of the delivery properties.
