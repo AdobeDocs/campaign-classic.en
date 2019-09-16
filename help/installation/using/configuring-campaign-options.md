@@ -169,10 +169,6 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> On channel "mobile" : Minimal period to spent since the previous referenced SOFT error, before taking into account a new SOFT error.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkEmail_Characters</span> <br /> </td> 
-   <td> Valid characters for an email address.<br /> </td> 
-  </tr> 
-  <tr> 
    <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
    <td> URL of the mirror page server (by default, should be identical to NmsTracking_ServerUrl).<br /> It is the default value of email deliveries when the URL is not specified in the routing definition.<br /> </td> 
   </tr> 
