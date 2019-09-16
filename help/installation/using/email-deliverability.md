@@ -267,7 +267,7 @@ The following parameters available for each rule are:
 
   A Public ID is an internal identifier of a Public IP used by one or several MTAs. These IDs are defined in the MTA servers in the **config-instance.xml** file.
   
-  ![](assets/s_ncs_install_MTA_IPs.png)
+  ![](assets/s_ncs_install_mta_ips.png)
 
 * **[!UICONTROL Shared]**: defines the scope of the properties for this MX rule. When checked, all of the parameters are shared on all IPs available on the instance. When unchecked, the MX rules are defined for each IP. The maximum number of messages is multiplied by the number of available IPs.
 * **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to to the sender's domain.

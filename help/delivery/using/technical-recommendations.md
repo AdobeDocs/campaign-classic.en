@@ -28,13 +28,11 @@ The domain choice for a reverse DNS has an impact when dealing with certain ISPs
 
 ## SPF {#spf}
 
-Refer to [https://www.openspf.org/](https://www.openspf.org/). A wizard is available to create SPF records.
-
-A tool to verify an SPF record: [https://www.kitterman.com/spf/validate.html](https://www.kitterman.com/spf/validate.html)
+A tool is available to verify an SPF record: [https://www.kitterman.com/spf/validate.html](https://www.kitterman.com/spf/validate.html)
 
 The SPF (Sender Policy Framework) is a technique that, to a certain extent, enables you to make sure that the domain name used in an email is not forged. When a message is a received from a domain, the DNS server of the domain is queried. The response is a short record (the SPF record) that details which servers are authorized to send emails from this domain. If we assume that only the owner of the domain has the means to change this record, we can consider that this technique does not allow the sender address to be forged, at least not the part from the right of the "@".
 
-In the final RFC 4408 specification ([https://openspf.org/svn/project/specs/rfc4408.txt](https://www.openspf.org/svn/project/specs/rfc4408.txt)), two elements of the message are used to determine the domain considered as the sender: The domain specified by the SMTP "HELO" (or "EHLO") command and the domain specified by the address of the "Return-Path" (or "MAIL FROM") header, which is also the bounce address. Different considerations make it possible to take into account one of these values only; we recommend making sure that both sources specify the same domain.
+In the final [RFC 4408 specification](https://www.rfc-editor.org/info/rfc4408), two elements of the message are used to determine the domain considered as the sender: The domain specified by the SMTP "HELO" (or "EHLO") command and the domain specified by the address of the "Return-Path" (or "MAIL FROM") header, which is also the bounce address. Different considerations make it possible to take into account one of these values only; we recommend making sure that both sources specify the same domain.
 
 Checking the SPF provides an evaluation of the validity of the sender's domain:
 
@@ -81,7 +79,7 @@ Recommendations for defining an SPF record:
 
 A feedback loop works by declaring at the ISP level a given email address for a range of IP addresses used for sending messages. The ISP will send to this mailbox, in a similar way as what is done for bounce messages, those messages that are reported by recipients as spam. The platform should be configured to block future deliveries to users who have complained. It is important to no longer contact them even if they did not use the proper opt-out link. It is on the basis of these complaints that an ISP will blacklist an IP address. Depending on the ISP, a complaint rate of around 1% will result in the blacklisting of an IP address.
 
-A standard is currently being drawn up to define the format of feedback loop messages: the **Abuse Feedback Reporting Format (ARF)**. See [https://www.mipassoc.org/arf/](https://www.mipassoc.org/arf/) for further details.
+A standard is currently being drawn up to define the format of feedback loop messages: the [Abuse Feedback Reporting Format (ARF)](https://tools.ietf.org/html/rfc6650).
 
 Implementing a feedback loop for an instance requires:
 
