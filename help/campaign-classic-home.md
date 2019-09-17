@@ -13,12 +13,12 @@ Learn the basics and refine your skills with Adobe Campaign Classic product docu
 ## What's New
 
 * **[Audit trail](production/using/audit-trail.md)**<br/>
-Learn how access the complete history of changes in your Campaign instance
+Learn how to access the complete history of changes in your Campaign instance
 
 * **[Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)**<br/>
 Learn how to manage settings and track usage of your Campaign instances
 
-[Click here for more updates](https://helpx.adobe.com/campaign/kb/v7-doc-updates.html)
+[Click here for more updates](/rn/using/documentation-updates.md)
 
 ## Top pages
 
@@ -69,7 +69,7 @@ Learn how to manage settings and track usage of your Campaign instances
 
 ## Additional Resources
 
-* [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/PTF_Starting_with_Adobe_Campaign_About_Adobe_Campaign_Classic.html)
+* [Release Notes](/rn/using/about-release-notes.md)
 
 * [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
