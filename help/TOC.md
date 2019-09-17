@@ -16,6 +16,7 @@ index: n
   + [Release 18.6](rn/using/release--18-6.md)
   + [Release 18.4](rn/using/release--18-4.md)
   + [Legacy Release Notes](rn/using/legacy-release-notes.md)
+  + [Documentation Updates](rn/using/documentation-updates.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
