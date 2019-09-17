@@ -83,7 +83,7 @@ To create the diagram
 
 >[!NOTE]
 >
->You can copy and paste activities in workflows. However we do not recommend you to copy and paste workflows. Copied workflows retain campaign configurations and cache information such as diffusions and queries which can lead to crashes. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](../../using/workflow/building-a-workflow.md#).
+>You can copy and paste activities in workflows. However we do not recommend you to copy and paste workflows. Copied workflows retain campaign configurations and cache information such as diffusions and queries which can lead to crashes. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](../../using/workflow/building-a-workflow.md#duplicating-workflows).
 
 ### Additional layout options {#additional-layout-options}
 
