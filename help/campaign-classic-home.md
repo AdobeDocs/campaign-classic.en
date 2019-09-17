@@ -18,7 +18,7 @@ Learn how to access the complete history of changes in your Campaign instance
 * **[Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)**<br/>
 Learn how to manage settings and track usage of your Campaign instances
 
-[Click here for more updates](/rn/using/documentation-updates.md)
+[Click here for more updates](/help/rn/using/documentation-updates.md)
 
 ## Top pages
 
@@ -69,7 +69,7 @@ Learn how to manage settings and track usage of your Campaign instances
 
 ## Additional Resources
 
-* [Release Notes](/rn/using/about-release-notes.md)
+* [Release Notes](/help/rn/using/about-release-notes.md)
 
 * [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
