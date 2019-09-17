@@ -18,13 +18,18 @@ snippet: y
 
 # Configuring Campaign server{#configuring-campaign-server}
 
-Several server side technical settings can be added or modified to match your needs and your environment specificities.
+The section below details server-side configurations that can be performed to match your needs and your environment specificities.
 
->[!NOTE]
->
->Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html). The installation and configuration steps for hosted and hybrid models are presented in this [section](../../installation/using/hosted-model.md).
+These configurations must be performed by administrators and for **On-premise** hosting models only. For **Hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within the Control Panel (for example, IP whitelisting or URL permissions).
 
-The configuration files are stored in the **conf** folder of the Adobe Campaign installation folder. The configuration is spread over two files:
+For more information, refer to these sections:
+
+* [Control Panel documentation](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Hosting models](../../installation/using/hosting-models.md)
+* [Campaign Classic On-premise & Hosted capability matrix](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)
+* [Hybrid and hosted models configuration steps](https://docs.campaign.adobe.com/doc/AC/en/INS_Hybrid_and_Hosted_models_About_hybrid_and_hosted_models.html)
+
+Campaign Classic configuration files are stored in the **conf** folder of the Adobe Campaign installation folder. The configuration is spread over two files:
 
 * **serverConf.xml**: general configuration for all instances. This file combines the technical parameters of the Adobe Campaign server: these are shared by all instances. The description of some of these parameters is detailed below. The different nodes and parameters and listed in this [section](../../installation/using/the-server-configuration-file.md).
 * **config-`<instance>`.xml** (where **instance** is the name of the instance): specific configuration of the instance. If you share your server among several instances, please enter the parameters specific to each instance in their relevant file.
@@ -324,9 +329,20 @@ To do this, apply the following steps:
    >
    >You can also refer to [Delivery server configuration](../../installation/using/email-deliverability.md#delivery-server-configuration).
 
-## Outgoing connection protection {#outgoing-connection-protection}
+## URL permissions {#url-permissions}
 
-The default list of URLs that can be called by JavaScript codes (workflows, etc.) is limited. To allow a new URL, the administrator needs to reference a new **urlPermission** in the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
+The default list of URLs that can be called by JavaScript codes (workflows, etc.) by your Campaign Classic instances is limited. These are URLs that allow your instances to function properly.
+
+By default, instances are not allowed to connect to outside URLs. However, it is possible to add some outside URLs to the list of authorized URLs, so that your instance can connect to them. This allows you to connect your Campaign instances to outside systems like, for example, SFTP servers or websites in order to enable file and/or data transfer.
+
+Once a URL is added, it is referenced in the configuration file of the instance (serverConf.xml).
+
+They way you can manage URL permissions depends on your hosting model:
+
+* **Hybrid** or **On-premise**: add the URLs to allow into the **serverConf.xml file**. Detailed information is available in the section below.
+* **Hosted**: add the URLs to allow via the **Control Panel**. For more information, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html#URLpermissions).
+
+With **Hybrid** and **On-premise** hosting models, the administrator needs to reference a new **urlPermission** in the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 Three connection protection modes exist:
 

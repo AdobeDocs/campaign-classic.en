@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Building a workflow{#building-a-workflow}
+# Building a workflow {#building-a-workflow}
 
 This section details the key principles and best practices to build a workflow in Campaign.
 
@@ -80,6 +80,10 @@ To create the diagram
 1. Add the activities you need and link them together as shown in the diagram below.
 
    ![](assets/new-workflow-5.png)
+
+>[!NOTE]
+>
+>You can copy and paste activities in workflows. However we do not recommend you to copy and paste workflows. Copied workflows retain campaign configurations and cache information such as diffusions and queries which can lead to crashes. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](../../workflow/using/building-a-workflow.md#duplicating-workflows).
 
 ### Additional layout options {#additional-layout-options}
 
@@ -211,7 +215,53 @@ Workflow templates are stored in the **[!UICONTROL Resources > Templates > Workf
 
 ![](assets/s_advuser_wf_template_tree.png)
 
-In addition to the usual workflow properties, the template properties allow you to specify the execution file for workflows created based on this template. 
+In addition to the usual workflow properties, the template properties allow you to specify the execution file for workflows created based on this template.
 
 ![](assets/s_advuser_wf_template_properties.png)
 
+## Duplicating workflows {#duplicating-workflows}
+
+You can duplicate different types of workflows. Once duplicated, modifications of the workflow are not carried over to the copy of the workflow.
+
+>[!NOTE]
+>
+>Copy-paste is available in workflows but we recommend you to use **Duplicate**. Once an activity copied, its whole configuration is kept. For delivery activities (Email, SMS, Push Notification...), the delivery object attached to the activity is also copied which can lead to crash.
+
+1. Right-click on a workflow.
+1. Click **Duplicate**.
+
+     ![](assets/duplicate-workflows.png)
+
+1. In the workflow window, change the workflow label.
+1. Click **Save**.
+
+The duplicate feature is not directly available in the view of a campaign.
+
+Yet, you can create a view to display all the workflows on your instance. In this view, you can duplicate workflows to any campaign using **Duplicate to**.
+
+**First, let's create a view:**
+
+1. In **Explorer**, go to the folder you need to create your view in.
+1. Right-click and go to **Add a new folder** > **Process**, select **Workflows**.
+
+    ![](assets/add-new-folder-workflows.png)
+
+The new folder **Workflows** is created.
+
+1. Right-click and select **Properties**.
+1. In **Restriction**, check **Folder is a view** and click **Save**.
+
+    ![](assets/folder-is-a-view.png)
+
+The folder is now populated with all the workflows of your instance.
+
+**Duplicating a campaign workflow**
+
+1. Select a campaign workflow in the workflow view.
+1. Right-click **Duplicate to**.
+    ![](assets/duplicate-to-right-click.png)
+1. Select the campaign where you need to duplicate the workflow.
+1. Change its label and campaign label.
+1. Click **Save**.
+
+You can see your duplicated workflow in the campaign as well as in the workflow view.
