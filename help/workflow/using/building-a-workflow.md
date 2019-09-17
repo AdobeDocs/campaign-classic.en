@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Building a workflow{#building-a-workflow}
+# Building a workflow {#building-a-workflow}
 
 This section details the key principles and best practices to build a workflow in Campaign.
 
@@ -83,7 +83,7 @@ To create the diagram
 
 >[!NOTE]
 >
->You can copy and paste activities in workflows. However we do not recommend you to copy and paste workflows. Copied workflows retain campaign configurations and cache information such as diffusions and queries which can lead to crashes. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](../../using/workflow/building-a-workflow.md#)
+>You can copy and paste activities in workflows. However we do not recommend you to copy and paste workflows. Copied workflows retain campaign configurations and cache information such as diffusions and queries which can lead to crashes. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](../../using/workflow/building-a-workflow.md#).
 
 ### Additional layout options {#additional-layout-options}
 
@@ -215,7 +215,7 @@ Workflow templates are stored in the **[!UICONTROL Resources > Templates > Workf
 
 ![](assets/s_advuser_wf_template_tree.png)
 
-In addition to the usual workflow properties, the template properties allow you to specify the execution file for workflows created based on this template. 
+In addition to the usual workflow properties, the template properties allow you to specify the execution file for workflows created based on this template.
 
 ![](assets/s_advuser_wf_template_properties.png)
 
