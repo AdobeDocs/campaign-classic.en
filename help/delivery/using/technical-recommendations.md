@@ -416,7 +416,6 @@ Using DKIM requires some prerequisites:
 
 >[!NOTE]
 >
->* This functionality is available from build 1937 onwards.
 >* If you have configured DomainKeys for your Adobe Campaign instance, you just need to select **dkim** in the domain handling rules. If not, follow the same configuration steps (private/public key) as for DomainKeys.
 >* It is not necessary to enable both DomainKeys and DKIM for the same domain as DKIM is an improved version of DomainKeys.
 >* The following domains currently validate DKIM: AOL, Gmail.

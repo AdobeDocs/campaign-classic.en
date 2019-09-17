@@ -61,3 +61,7 @@ Steps to create and apply a typology to your deliveries are listed below:
 1. Test and control the behavior through campaign simulations. For more on campaign simulations, refer to [this section](../../campaign/using/campaign-simulations.md).
 
 During delivery preparation, recipients are excluded when criterion is met. You can check logs to monitor exclusions. Sample use cases on pressure typology rules are available in [this page](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules).
+
+**Related topic**
+
+* [Apply automatic business rules to deliveries on any channel](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
