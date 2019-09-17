@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Documentation Updates {#documentation-updates}
+# Documentation Updates{#documentation-updates}
 
 Learn about all the latest updates for Adobe Campaign Classic documentation.
 
@@ -24,7 +24,7 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
-## Release 19.1 - 30/05/2019
+## 19.1 - 30/05/2019{#release-19-1}
 
 **New capabilities included in the release**
 
@@ -105,7 +105,7 @@ The Campaign Hardware Sizing Guide has been updated. [Read more](https://helpx.a
 
 Information was added on Query Banding for the Teradata external account. [Read more](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#External_database_external_account)
 
-## 16/01/2019
+## 16/01/2019{#release-doc-16-01-2019}
 
 **Documentation updates**
 
@@ -121,7 +121,7 @@ Key steps when creating and sending a delivery have been regrouped into a new se
 
 The [Email archiving](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html) section has been moved, reorganized and improved with clarified information:
 
-* Best practices have been added regarding emails per connection and BCC sending IPs parameters. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Best_practices" t)
+* Best practices have been added regarding emails per connection and BCC sending IPs parameters. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Best_practices)
 
 * We've updated the steps to upgrade to the new email archiving system (BCC) if you were already using email archiving with an older build (prior to Adobe Campaign 17.2 – build 8795). [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Updated_email_archiving_system__BCC_)
 
@@ -143,7 +143,7 @@ Feature videos have been moved [here](https://helpx.adobe.com/campaign/kt/acc/in
 
 Two technotes have been added on [Teradata](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) and [MySQL 5.7](https://helpx.adobe.com/campaign/kb/campaign_fda_mysql.html).
 
-## 18.10 - 05/11/2018
+## 18.10 - 05/11/2018{#release-18-10}
 
 **New capabilities included in the release**
 
@@ -229,7 +229,7 @@ Sending email on Japanese mobiles is now documented in a new section. [Read more
 
 The "Optimizing personalization" section has been updated with further information. [Read more](https://docs.campaign.adobe.com/doc/AC/en/DLV_Personalizing_deliveries_Personalization_fields.html#Optimizing_personalization)
 
-## 18.6 - 09/07/2018
+## 18.6 - 09/07/2018{#release-18-6}
 
 **New capabilities included in the release**
 
@@ -285,7 +285,7 @@ A/B testing sample has been updated. [Read more](https://docs.campaign.adobe.com
 
 Campaign Classic Common question/FAQ  page has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/PTF_Starting_with_Adobe_Campaign_Common_questions.html)
 
-## 18.4 - 24/04/2018
+## 18.4 - 24/04/2018{#release-18-4}
 
 **New capabilities included in the release**
 
@@ -342,7 +342,7 @@ Updated information on the Message Center (Control) technical workflow. [Read mo
 
 Added information on throughput limitations when setting up an SMTP relay. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Personalizing_delivery_parameters)
 
-## 17.12 - 14/12/2017
+## 17.12 - 14/12/2017{#release-doc-14-12-2017}
 
 **Documentation updates**
 
@@ -370,7 +370,7 @@ Added details about how to configure integration with Audience Manager or People
 
 Updated the installation documentation to mention that pgcrypto is now required for Campaign installation if using PostreSQL. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Installing_Campaign_in_Linux__Prerequisites.html#Database_access_layers)
 
-## 17.9 - 25/09/2017
+## 17.9 - 25/09/2017{#release-17-9}
 
 **New capabilities included in the release**
 
@@ -398,7 +398,7 @@ Clarify Scheduler usage in a workflow. [Read more](http://docs.campaign.adobe.co
 
 Add Paused workflow best practice. [Read more](http://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Executing_a_workflow.html)
 
-New procedure about pre-processing file when importing and post-processing when exporting data in a workflow. Read []here](http://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html).
+New procedure about pre-processing file when importing and post-processing when exporting data in a workflow. Read [here](http://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html).
 
 The quarantine mechanism for SMS messages documentation has been updated to reflect the specificities of the error management for the Extended generic SMPP connector. [Read more](https://docs.campaign.adobe.com/doc/AC/en/DLV_Monitoring_deliveries_Understanding_quarantine_management.html#SMS_quarantines).
 
@@ -416,7 +416,7 @@ A new technote on IP warming has been added. [Read more](https://docs.campaign.a
 
 A new getting started on build upgrade has been added. [Read more](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html).
 
-## 30/05/2017
+## 30/05/2017{#release-doc-30-05-2017}
 
 **Documentation updates**
 
@@ -432,7 +432,7 @@ Learn how to send a delivery to recipients loaded from an external file without 
 
 The double opt-in example has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WEB_Web_forms_Use_cases-_web_forms.html)
 
-## 31/03/2017
+## 31/03/2017{#release-doc-31-03-2017}
 
 **Documentation updates**
 
@@ -455,7 +455,7 @@ The Compatibility matrix has been updated. [Read more](https://helpx.adobe.com/c
 
 Recipients get added value when you include coupons in your email deliveries. [Read more](https://docs.campaign.adobe.com/doc/AC/en/DLV_Personalizing_deliveries_Personalized_coupons.html)
 
-## Adobe Campaign v7 - 16/03/2017
+## Adobe Campaign v7 - 16/03/2017{#release-17-2}
 
 **New capabilities included in the release**
 

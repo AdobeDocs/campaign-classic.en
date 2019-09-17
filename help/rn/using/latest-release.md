@@ -18,18 +18,6 @@ snippet: y
 
 # Release 19.1{#release-19-1}
 
-## Release 19.1.6 - Build 9035{#release-19-1-6-build-9035}
-
-??
-
-**Improvements**
-
-* Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
-* Fixed an index issue which could cause performance issues when sending transactional messages.
-* Fixed a performance isssue when sending messages. (NEO-17558)
-* Fixed an issue which could lead to certain messages not being processed by the Mid-Sourcing server. (NEO-12395)
-* Fixed an issue which prevented the full use of the SQL Data Management activity (the "SQL Data Management" named right was missing).
-
 ## Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
 13 August 2019
@@ -50,11 +38,6 @@ snippet: y
 **Improvements**
 
 * Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
-
-This build has been deprecated due to a regression. On September 18th, 2019, a new build has been released for hosted customers with the following fixes:
-
-* Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
-* Fixed an index issue which could cause performance issues when sending transactional messages.
 
 ## Release 19.1.3 - Build 9031{#release-19-1-3-build-9031}
 
