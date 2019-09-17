@@ -28,13 +28,11 @@ The domain choice for a reverse DNS has an impact when dealing with certain ISPs
 
 ## SPF {#spf}
 
-Refer to [https://www.openspf.org/](https://www.openspf.org/). A wizard is available to create SPF records.
-
-A tool to verify an SPF record: [https://www.kitterman.com/spf/validate.html](https://www.kitterman.com/spf/validate.html)
+A tool is available to verify an SPF record: [https://www.kitterman.com/spf/validate.html](https://www.kitterman.com/spf/validate.html)
 
 The SPF (Sender Policy Framework) is a technique that, to a certain extent, enables you to make sure that the domain name used in an email is not forged. When a message is a received from a domain, the DNS server of the domain is queried. The response is a short record (the SPF record) that details which servers are authorized to send emails from this domain. If we assume that only the owner of the domain has the means to change this record, we can consider that this technique does not allow the sender address to be forged, at least not the part from the right of the "@".
 
-In the final RFC 4408 specification ([https://openspf.org/svn/project/specs/rfc4408.txt](https://www.openspf.org/svn/project/specs/rfc4408.txt)), two elements of the message are used to determine the domain considered as the sender: The domain specified by the SMTP "HELO" (or "EHLO") command and the domain specified by the address of the "Return-Path" (or "MAIL FROM") header, which is also the bounce address. Different considerations make it possible to take into account one of these values only; we recommend making sure that both sources specify the same domain.
+In the final [RFC 4408 specification](https://www.rfc-editor.org/info/rfc4408), two elements of the message are used to determine the domain considered as the sender: The domain specified by the SMTP "HELO" (or "EHLO") command and the domain specified by the address of the "Return-Path" (or "MAIL FROM") header, which is also the bounce address. Different considerations make it possible to take into account one of these values only; we recommend making sure that both sources specify the same domain.
 
 Checking the SPF provides an evaluation of the validity of the sender's domain:
 
@@ -81,7 +79,7 @@ Recommendations for defining an SPF record:
 
 A feedback loop works by declaring at the ISP level a given email address for a range of IP addresses used for sending messages. The ISP will send to this mailbox, in a similar way as what is done for bounce messages, those messages that are reported by recipients as spam. The platform should be configured to block future deliveries to users who have complained. It is important to no longer contact them even if they did not use the proper opt-out link. It is on the basis of these complaints that an ISP will blacklist an IP address. Depending on the ISP, a complaint rate of around 1% will result in the blacklisting of an IP address.
 
-A standard is currently being drawn up to define the format of feedback loop messages: the **Abuse Feedback Reporting Format (ARF)**. See [https://www.mipassoc.org/arf/](https://www.mipassoc.org/arf/) for further details.
+A standard is currently being drawn up to define the format of feedback loop messages: the [Abuse Feedback Reporting Format (ARF)](https://tools.ietf.org/html/rfc6650).
 
 Implementing a feedback loop for an instance requires:
 
@@ -427,122 +425,7 @@ Using DKIM requires some prerequisites:
 
 MX rules (Mail eXchanger) are the rules that manage communication between a sending server and a receiving server.
 
-Depending on the material capacities and the internal policy, an ISP will accept a predefined number of connections and messages per hour. These variables may be automatically modified by the ISP system depending on the reputation of the IP and sending domain. Via its deliverability platform, Adobe Campaign manages more than 150 specific rules by the ISP, and, in addition, one generic rule for other domains.
-
-These rules are updated via a daily workflow in order to regularly supply the client instance.
-
-### About MX rules {#about-mx-rules}
-
-The maximum number of connections does not depend exclusively on the number of public IP addresses used by the MTA.
-
-For instance, if you have allowed 5 connections in the MX rules and you have configured 2 public IPs you might think that you cannot have more than 10 connections simultaneously opened to this domain. This is not true, in fact the maximum number of connections refers to a path and a path that is a combination of one of our MTA public IPs and a public IP of the client's MTA.
-
-In the example below, the user has two public IP addresses configured and the domain is yahoo.com.
-
-```
-user:~ user$ host -t mx yahoo.com
-                yahoo.com mail is handled by 1 mta5.am0.yahoodns.net.
-                yahoo.com mail is handled by 1 mta6.am0.yahoodns.net.
-                yahoo.com mail is handled by 1 mta7.am0.yahoodns.net.
-```
-
-MX records for yahoo.com tell us that yahoo.com has 3 Mail Exchangers. To connect the Peer Mail Exchanger, the MTA is going to request it's IP address from the DNS.
-
-```
-user:~ user$ host -t a mta5.am0.yahoodns.net
-                mta5.am0.yahoodns.net has address 98.136.216.26
-                mta5.am0.yahoodns.net has address 98.136.217.202
-                mta5.am0.yahoodns.net has address 98.138.112.38
-                mta5.am0.yahoodns.net has address 66.196.118.37
-                mta5.am0.yahoodns.net has address 63.250.192.46
-                mta5.am0.yahoodns.net has address 66.196.118.240
-                mta5.am0.yahoodns.net has address 98.136.217.203
-                mta5.am0.yahoodns.net has address 98.138.112.35
-```
-
-For this record, the user can contact 8 peer IP addresses. As he has 2 public IP address this gives him 8 * 2 = 16 combinations to reach the yahoo.com mail servers. Each of those combinations is called a path.
-
-The second MX record appears as:
-
-```
-user:~ user$ host -t a mta6.am0.yahoodns.net
-                mta6.am0.yahoodns.net has address 98.138.112.38
-                mta6.am0.yahoodns.net has address 98.136.216.26
-                mta6.am0.yahoodns.net has address 63.250.192.46
-                mta6.am0.yahoodns.net has address 66.196.118.35
-                mta6.am0.yahoodns.net has address 98.136.217.203
-                mta6.am0.yahoodns.net has address 98.138.112.32
-                mta6.am0.yahoodns.net has address 98.138.112.37
-                mta6.am0.yahoodns.net has address 66.196.118.33
-```
-
-4 of these 8 IP addresses are already used in mta5 (98.136.216.26, 98.138.112.38, 63.250.192.46 and 98.136.217.203). This record lets the user use 4 new IP addresses. The third MX record will do the same.
-
-In total, we have 16 remote IP addresses. In combination with our 2 local public IPs we have 32 paths to reach yahoo.com mail servers.
-
->[!NOTE]
->
->If 2 MX records are referencing the same IP address, this one will count as one path and not two.
-
-### Configuring MX management {#configuring-mx-management}
-
-From the **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Mail rule sets]** > **[!UICONTROL MX management node]**, you can access the list of domains that are linked to an MX rule. You will find:
-
-* MX mask: domain on which the rule is applied.
-
-  For example, for the email address foobar@gmail.com, the domain is gmail.com and the MX record is:
-
-  ```
-  gmail.com mail exchanger = 20 alt2.gmail-smtp-in.l.google.com.
-  gmail.com mail exchanger = 10 alt1.gmail-smtp-in.l.google.com.
-  gmail.com mail exchanger = 40 alt4.gmail-smtp-in.l.google.com.
-  gmail.com mail exchanger = 5  gmail-smtp-in.l.google.com.
-  gmail.com mail exchanger = 30 alt3.gmail-smtp-in.l.google.com.
-  ```
-
-In this case the MX rule `*.google.com` will be used. As you can see, the MX rule mask does not necessarily match the domain in the mail. The MX rules applied for gmail.com email addresses will be the ones with the mask `*.google.com`.
-
-* **Shared**: Defines the scope of the properties for this MX rule. When checked, all of the parameters are shared on all IPs available on the instance. When unchecked, the MX rules are defined for each IP. The maximum number of messages is multiplied by the number of available IPs.
-* **Maximum number of connections**: maximum number of simultaneous connections to the sender's domain.
-* **Maximum number of messages**: maximum number of messages sent by a connection.
-* **Messages per hour**: maximum number of messages sent per hour to the sender's domain.
-* **Messages per hour (speed)**: maximum number of messages sent per hour to the sender's domain for the speed selected.
-
-There are five speeds available: Slow, Normal, Fast, Very fast, Boost.
-
->[!NOTE]
->
->For more information on MX rules, refer to [this section](../../installation/using/email-deliverability.md).
-
-MX rules are reloaded automatically every morning at 6AM (server time).
-
-You can also reload them manually running the following command line on the server: `$ nlserver stat -reload`.
-
->[!NOTE]
->
->This command line is preferred to **nlserver restart**. It prevents statistics collected before the restart being lost and avoids peaks in use which can go against quotas defined in the MX rules.
-
-### Public ID {#public-id}
-
-A Public ID is an internal identifier of a Public IP used by one or several MTAs.
-
-These IDs are defined in the MTA servers in the **config-instance.xml** file.
-
-   ![](assets/s_ncs_install_MTA_IPs.png)
-
-### Example {#example}
-
-Below are some examples of using MX rules.
-
-   ![](assets/s_ncs_examples_mx_rules.png)
-
-In the example below, the user has a limit of 10,000 messages per hour for a particular domain, but the MTA throughput capacity is higher than this limit.
-
-In this case, the traffic is divided into 12 periods of 5 minutes for each hour, and the real limit is 833 messages per period.
-
-These messages will be delivered as quickly as possible.
-
-   ![](assets/s_ncs_traffic_shaping.png)
+For more on MX management, refer to the [dedicated section](../../installation/using/email-deliverability.md#mx-configuration).
 
 ### Checking SMTP and bounce error messages {#checking-smtp-and-bounce-error-messages}
 
