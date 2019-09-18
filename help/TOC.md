@@ -2,7 +2,7 @@
 product: Adobe Campaign Classic
 audience: end-user
 user-guide-title: Adobe Campaign Classic Help
-index: n
+index: y
 ---
 
 # Adobe Campaign Classic Help {#using}
