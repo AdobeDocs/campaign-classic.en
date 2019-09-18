@@ -135,6 +135,10 @@ Select the format of the email in the lower section of the window:
 
 ## New AMP email format {#}
 
+This option is available through a dedicated package.
+
+For hybrid clients, ask the Adobe support to install the package on the mid instance as well.
+
 ### About AMP for Email
 
 Adobe Campaign now supports **AMP for Email**, a new format which allows to include AMP components inside messages to enhance the email experience with rich and actionable content. Making modern app functionality directly available within emails, it enables recipients to interact dynamically with content in the message itself.
@@ -157,13 +161,23 @@ For your AMP email to be delivered to any account, the email must meet the follo
 
 Also consult the [Tips and know limitations](https://developers.google.com/gmail/ampemail/tips) and the [AMP for Email best practices](https://amp.dev/documentation/guides-and-tutorials/develop/amp_email_best_practices/?format=email).
 
+### Using the AMP Email format in Adobe Campaign
+
+Use the dedicated tab in the email editor.
+
+You cannot preview your content directly in Adobe Campaign. Use the [AMP Playground](https://playground.amp.dev).
+
+Select the compatible template.
+
 ### Testing AMP emails
 
 Before you send a AMP-powered dynamic email, you can test it to verify its contents and behavior.
-1. Edit your content in the [AMP Playground](https://playground.amp.dev).
+1. Edit your content in the [AMP Playground](https://playground.amp.dev). Make sure you select AMP Email format from the drop-down list on top left of the screen.
 1. Copy-paste your content into Adobe Campaign.
 1. Insert your personalization fields.
 1. Copy-paste again your content into [AMP Playground](https://playground.amp.dev).
+
+### Best practices and troubleshooting
 
 ## Using content management {#using-content-management}
 
