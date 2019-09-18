@@ -126,3 +126,6 @@ There are two ways of using the new schema as the target of a delivery:
 
 ![](assets/mapping_selection_ciblage.png)
 
+**Related topic**
+
+* [Quickly respond to customer requests to access their data](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)
