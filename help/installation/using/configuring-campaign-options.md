@@ -194,7 +194,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr>
     <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>This option is used in the <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> technical workflow when counting the number of running deliveries.</p>It allows you to define the number of days above which deliveries in certain states will be excluded from the count of running deliveries, if no change has been performed on them (“@lastModified” field).</p><p>The option is expressed in days. By default, its value is set to “7", meaning that deliveries with the “@lastModified” field over 7 will be excluded from the count of running deliveries.</p></td> 
+   <td><p>This option is used by the <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> technical workflow when counting the number of running deliveries.</p>It allows you to define the number of days above which deliveries with inconsistent status will be excluded from the count of running deliveries.</p><p>By default, the value is set to “7", meaning that inconsistent deliveries older than 7 days will be excluded.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 

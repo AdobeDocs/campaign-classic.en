@@ -48,7 +48,7 @@ Two additional solutions are available to help:
 * Schedule data load overnight to reduce resource contention.
 * Long workflows can potentially have an impact on the server and database resources. Split the longest workflows to reduce processing time.
 * To reduce overall run times, replace time-consuming activities with simplified and faster activities.
-* Avoid running more than 20 workflows simultaneously. When too many workflows are executed at the same time, the system can run out of resources and become unstable. For more information on why your workflow may not be starting, refer to this [articule](https://helpx.adobe.com/ie/campaign/kb/workflows-not-starting-in-a-campaign-technical-workflows.html).
+* Avoid running more than 20 workflows simultaneously. When too many workflows are executed at the same time, the system can run out of resources and become unstable. For more information on why your workflow may not be starting, refer to this [article](https://helpx.adobe.com/ie/campaign/kb/workflows-not-starting-in-a-campaign-technical-workflows.html).
 
 ### Workflow execution {#workflow-execution}
 
