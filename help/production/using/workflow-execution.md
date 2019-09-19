@@ -24,22 +24,18 @@ Workflow execution cycle and best practices are presented in [this section](../.
 
 In some cases, workflows executed from a campaign do not start when clicking the **[!UICONTROL Start]** button. Instead of starting, it goes to a "Start as soon as Possible" state.
 
-This issue is caused when the background process responsible for running them are not working. Manual intervention is usually required to put them back in service.
+There can be several causes for this issue, follow the steps below to solve it:
 
-There can be several causes for this issue:
+1. Check the **[!UICONTROL operationMgt]** technical workflow status. This workflow manages jobs or workflows inside a campaign. If it fails, this will result in workflows to not start / stop.
 
-* The **[!UICONTROL operationMgt]** technical workflow is in a failure state. This workflow manages jobs or workflows inside a campaign. If it fails, this will result in workflows to not start / stop.
+    You can retrieve its status in the **[!UICONTROL Administration]** / **[!UICONTROL Production]** / **[!UICONTROL Technical workflows]** / **[!UICONTROL Campaign process]** node. If the workflow has failed, restart it to resume the running of campaign workflows.
 
-* The server module wfserver is not runnning. This process is responsible for running all workflows and if it is not running, none of the workflows run.
+    >[NOTE]
+    >
+    >Once the workflow restarted, make sure you execute the pending tasks (right-click the **[!UICONTROL Scheduler]** activity / **[!UICONTROL Execute pending task(s) now]**) in order to check if it fails again on any of the activities.
 
-* The number of campaign processes running on the instance are more than the threshold. There is a limit defined by the NmsOperation_LimitConcurrency option on how many campaign processes can run on the instance in parallel. When this limit is reached, the workflow stays in the "start as soon as possible" state as long as the number of workflows running is above the concurrency limit. This limit is defined by option .
-
-1. Check the operationMgt technical workflow status. It can found in the Campaign Process folder under  Administration>Production>Technical workflows node. You can restart this workflow if it is failed to resume running of the campaign workflows.
-
-    note: once restarted, we make sure we "execute the pending tasks" on the scheduler to check if it fails again on any of the activities.
-
-    If the workflow fails again, check the audit log for specific error, troubleshoot accordingly, then restart the workflow again.
-    Example: You may get a failure like:
+    If the workflow still fails, check the audit log for specific error, troubleshoot accordingly, then restart the workflow again.
+    For example, you may get a failure like:
 
     ```
     Campaign jobs workflow (operationmgt) was failed with error:
@@ -48,16 +44,17 @@ There can be several causes for this issue:
     25/08/2016 17:34:25 scheduler Starting targeting workflow 'xyz_wkf_engage_4' for campaign '01 - Engage campaign (xyz_engage_campaign)'
     ```
 
-    This means it's trying to start the workflow xyz_wkf_engage_4 but is not able to. In most cases, this workflow is pointing to would be in a finished state and cannot be started. For this, we can do an unconditional stop for the workflow xyz_wkf_engage_4 and then Restart Campaign jobs (operation mgt).
+    This means **[!UICONTROL operationMgt]** is trying to start the workflow "xyz_wkf_engage_4" but is not able to. In most cases, the workflow it is pointing to is in a finished state and cannot be started. In this case, perform an unconditional stop for the workflow "xyz_wkf_engage_4", then restart **[!UICONTROL operationMgt]**.
 
-1. Check wether the sever module wfserver is running. This process is responsible for running all workflows and if it is not running, none of the workflows run. If the process is not running contact customer care. In on-premise installation, restart the service.
+1. Check the **[!UICONTROL wfserver]** module state in the **[!UICONTROL Monitoring]** tab,accessible from Campaign Classic homepage. This process is responsible for running all workflows. If it is not running, contact Adobe Customer Care. If you have an on-premise installation, restart the service.
 
-1. Check if the concurrency limit is reached. TThis can be confirmed by checking the number of workflows running inside a campaign and check the value of NmsOperation_LimitConcurrency under Platform>Options.
+1. Check if the **number of campaign processes running** on the instance is more than the threshold. There is a limit defined by the **[!UICONTROL NmsOperation_LimitConcurrency]** option on how many campaign processes can run on the instance in parallel. When this limit is reached, the workflow stays in the "Start as soon as possible" state as long as the number of workflows running is above the limit.
 
-    If the threshold is reached, stop unwanted workflows and delete failed deliveries to bring within threshold.
+    To solve this issue, stop unwanted workflows and delete failed deliveries. If the threshold was reached, this will allow the running of new processes.
 
-    Increase the concurrency limit if it's a business need or we can explain that the workflow starts as soon as the concurrency threshold is restored.
-    + warning: increase not recommended, may lead to performance issues, reach out to your Adobe consultant before proceeding
+    >[CAUTION]
+    >
+    >Increasing the **[!UICONTROL NmsOperation_LimitConcurrency]** option threshold may lead to performance issues on your instance. In any case, do not perform this on your own and reach out to your Adobe Campaign consultant.
 
 ## Start in progress {#start-in-progress}
 
