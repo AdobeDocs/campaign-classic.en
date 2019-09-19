@@ -30,7 +30,7 @@ Learn how to manage settings and track usage of your Campaign instances
     </a>
     <div>
       <a href="platform/using/common-questions.md">
-    <strong>Fequently Asked Questions</strong>
+    <strong>Frequently Asked Questions</strong>
     </a>
     </div>
     <p>
