@@ -81,9 +81,9 @@ To create the diagram
 
    ![](assets/new-workflow-5.png)
 
->[!NOTE]
+>[!CAUTION]
 >
->You can copy and paste activities in workflows. However we do not recommend you to copy and paste workflows. Copied workflows retain campaign configurations and cache information such as diffusions and queries which can lead to crashes. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](../../workflow/using/building-a-workflow.md#duplicating-workflows).
+>You can copy and paste activities within a same workflow. However, we do not recommend to copy paste activities across different workflows. Some settings attached to activities like Deliveries and Scheduler could lead to conflicts and errors while executing the destination workflow. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](../../workflow/using/building-a-workflow.md#duplicating-workflows).
 
 ### Additional layout options {#additional-layout-options}
 
@@ -223,7 +223,7 @@ In addition to the usual workflow properties, the template properties allow you 
 
 You can duplicate different types of workflows. Once duplicated, modifications of the workflow are not carried over to the copy of the workflow.
 
->[!NOTE]
+>[!CAUTION]
 >
 >Copy-paste is available in workflows but we recommend you to use **Duplicate**. Once an activity copied, its whole configuration is kept. For delivery activities (Email, SMS, Push Notification...), the delivery object attached to the activity is also copied which can lead to crash.
 
@@ -237,7 +237,7 @@ You can duplicate different types of workflows. Once duplicated, modifications o
 
 The duplicate feature is not directly available in the view of a campaign.
 
-Yet, you can create a view to display all the workflows on your instance. In this view, you can duplicate workflows to any campaign using **Duplicate to**.
+Yet, you can create a view to display all the workflows on your instance. In this view, you can duplicate workflows using **Duplicate to**.
 
 **First, let's create a view:**
 
@@ -260,8 +260,7 @@ The folder is now populated with all the workflows of your instance.
 1. Select a campaign workflow in the workflow view.
 1. Right-click **Duplicate to**.
     ![](assets/duplicate-to-right-click.png)
-1. Select the campaign where you need to duplicate the workflow.
-1. Change its label and campaign label.
+1. Change its label.
 1. Click **Save**.
 
-You can see your duplicated workflow in the campaign as well as in the workflow view.
+You can see your duplicated workflow in the workflow view.
