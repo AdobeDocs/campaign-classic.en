@@ -24,20 +24,25 @@ snippet: y
 
 **Improvements**
 
-* Fixed an issue with the SQL statement 'SELECT COUNT' which was executed on the default database rather than the FDA database during Data extraction in Data Management activity.(NEO-14551)
-* To improve customer infrastructure capabilities, an SFTP proxy declaration is now available in the server configuration file.(NEO-12546)
+* Fixed an issue with the SQL statement 'SELECT COUNT' which was executed on the default database rather than the FDA database during Data extraction in Data Management activity.
+* To improve customer infrastructure capabilities, an SFTP proxy declaration is now available in the server configuration file.
 * Fixed a Client console crash when "adding a linked table" in the Data Loading (RDBMS) workflow activity with no table name.(NEO-12213)
-* Fixed an issue with the midEmetter package installation through command line. (NEO-12728)
-* A new authentication option has been added to support OAuth credentials within the AC connector with Microsoft Dynamics.(NEO-11982)
-* Fixing issue with UUID (Unique Universal Identifier) cause enrichment activity to fail withHive FDA.(NEO-12273)
+* Fixed an issue with the midEmetter package installation through command line.
+* A new authentication option has been added to support OAuth credentials within the AC connector with Microsoft Dynamics. (NEO-11982)
+* Fixing issue with UUID (Unique Universal Identifier) cause enrichment activity to fail withHive FDA.
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
 13 August 2019
 
 **Improvements**
-
+  
 * Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
+
+September 19th 2019: this build has been deprecated due to a regression. A new build has been released for hosted customers with the following fixes:
+
+* Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
+* Fixed an index issue which could cause performance issues when sending transactional messages.
 
 ## Release 19.1.3 - Build 9031{#release-19-1-3-build-9031}
 
