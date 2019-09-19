@@ -18,6 +18,8 @@ snippet: y
 
 # Executing a workflow{#executing-a-workflow}
 
+Troubleshooting guidelines related to workflows execution are available in [this section](../../production/using/workflow-execution.md).
+
 ## Starting a workflow {#starting-a-workflow}
 
 A workflow is always started manually. When started, it can however remain inactive depending on the information specified via a scheduler (see [Scheduler](../../workflow/using/scheduler.md)) or activity scheduling.
