@@ -904,7 +904,7 @@ List of domains and regular expressions specifying whether a URL encountered in 
 
 If the URL cannot be found, the default action is carried out, according to the default mode specified.
 
-For additional information, refer to [Outgoing connection protection](../../installation/using/configuring-campaign-server.md#outgoing-connection-protection).
+For additional information, refer to [Outgoing connection protection](../../installation/using/configuring-campaign-server.md#url-permissions).
 
 <table> 
  <thead> 
@@ -935,7 +935,7 @@ For additional information, refer to [Outgoing connection protection](../../inst
 
 For each URL, add a **url** node with the following parameters:
 
-For additional information, refer to [Outgoing connection protection](../../installation/using/configuring-campaign-server.md#outgoing-connection-protection).
+For additional information, refer to [Outgoing connection protection](../../installation/using/configuring-campaign-server.md#url-permissions).
 
 <table> 
  <thead> 
