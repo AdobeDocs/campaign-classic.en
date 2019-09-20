@@ -58,7 +58,7 @@ The toolbar buttons are detailed in this [section](../../campaign/using/setting-
 
 * **[!UICONTROL Purge history]**
 
-  This action lets you purge the workflow history. For more on this, refer to [Purging the logs](../../workflow/using/executing-a-workflow.md#purging-the-logs).
+  This action lets you purge the workflow history. For more on this, refer to [Purging the logs](../../workflow/using/monitoring-workflows.md#purging-the-logs).
 
 * **[!UICONTROL Start in simulation mode]**
 
@@ -92,7 +92,7 @@ The following options are available in the right-click menu:
 
 **[!UICONTROL Open]**: this option lets you access the activity properties.
 
-**[!UICONTROL Display logs:]** this option lets you view the task execution log for the selected activity. Refer to [Displaying logs](../../workflow/using/executing-a-workflow.md#displaying-logs).
+**[!UICONTROL Display logs:]** this option lets you view the task execution log for the selected activity. Refer to [Displaying logs](../../workflow/using/monitoring-workflows#displaying-logs).
 
 **[!UICONTROL Execute pending task(s) now:]** this action lets you start pending tasks as soon as possible.
 
@@ -158,7 +158,7 @@ To do this, select the relevant menu:
 
   ![](assets/wf-right-click-display.png)
 
-  For more on this, refer to [Worktables and workflow schema](../../workflow/using/executing-a-workflow.md#worktables-and-workflow-schema).
+  For more on this, refer to [Worktables and workflow schema](../../workflow/using/monitoring-workflows.md#worktables-and-workflow-schema).
 
 * Analyzing the target
 

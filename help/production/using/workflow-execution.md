@@ -51,7 +51,7 @@ To check this and to start the module if necessary, apply the following steps:
 
 If a workflow fails, take the following steps:
 
-1. Check the workflow journal. For more on this, refer to the [Monitoring workflow execution](../../workflow/using/executing-a-workflow.md#monitoring-workflow-execution) and [Display logs](../../workflow/using/executing-a-workflow.md#displaying-logs) sections.
+1. Check the workflow journal. For more on this, refer to the [Monitoring workflow execution](../../workflow/using/monitoring-workflows.md#monitoring-workflow-execution) and [Display logs](../../workflow/using/monitoring-workflows.md#displaying-logs) sections.
 1. Monitor technical workflows. For more on this refer to the [this section](../../workflow/using/executing-a-workflow.md#monitoring-technical-workflows). 
 1. Look for failures on the individual workflow activities.
 
