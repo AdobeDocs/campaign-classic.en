@@ -22,6 +22,10 @@ snippet: y
 
 13 August 2019
 
+>[!CAUTION]
+>
+>This build has been recalled. A new build will be available soon.
+
 **Improvements**
 
 * Fixed an issue with the SQL statement 'SELECT COUNT' which was executed on the default database rather than the FDA database during Data extraction in Data Management activity.
@@ -39,7 +43,7 @@ snippet: y
   
 * Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
 
-September 19th 2019: this build has been deprecated due to a regression. A new build has been released for hosted customers with the following fixes:
+**September 19th 2019**: this build has been recalled and replaced with 9032-cee805c93 which includes the following fixes:
 
 * Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
 * Fixed an index issue which could cause performance issues when sending transactional messages.
