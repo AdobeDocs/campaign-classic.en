@@ -258,6 +258,12 @@ The packages are now installed.
    <td> <a href="../../installation/using/mid-sourcing-server.md">Learn More</a> </td> 
   </tr> 
   <tr> 
+   <td> AMP support (Beta)<br /> </td> 
+   <td> Allows you to use the AMP for Email format inside messages to enhance the email experience with rich and actionable content.<br /> </td> 
+   <td> Yes </td> 
+   <td> <a href="../../delivery/using/defining-the-email-content.md#amp-for-email-format">Learn More</a> </td> 
+  </tr> 
+  <tr> 
    <td> ACS Connector<br /> </td> 
    <td> Bridges Adobe Campaign v7 and Adobe Campaign Standard. It is an integrated feature in Campaign v7 that automatically replicates data to Campaign Standard, uniting the best of both applications. <br /> </td> 
    <td> Yes </td> 
