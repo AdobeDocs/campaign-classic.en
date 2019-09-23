@@ -16,6 +16,8 @@ internal: n
 snippet: y
 ---
 
+# Monitoring marketing campaigns {#monitoring-marketing-campaigns}
+ 
 ## Tracking {#tracking}
 
 ### Tracking a campaign {#tracking-a-campaign}

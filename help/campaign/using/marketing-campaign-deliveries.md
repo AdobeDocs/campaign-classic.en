@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Marketing campaign deliveries {marketing-campaign-deliveries}
+# Marketing campaign deliveries {#marketing-campaign-deliveries}
 
 ## Creating deliveries {#creating-deliveries}
 

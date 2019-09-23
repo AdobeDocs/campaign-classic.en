@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-### Calculation of costs and stocks {#calculation-of-costs-and-stocks}
+# Calculation of costs and stocks {#calculation-of-costs-and-stocks}
 
 The file extraction launches two operations: budget calculation and stock calculation. The budget entries are updated.
 

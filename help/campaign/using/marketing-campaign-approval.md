@@ -15,6 +15,7 @@ index: y
 internal: n
 snippet: y
 ---
+# Approving Marketing Campaigns {approving-marketing-campaigns}
 
 ## Approval process {#approval-process}
 
