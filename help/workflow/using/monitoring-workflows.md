@@ -20,6 +20,12 @@ snippet: y
 
 ## Monitoring workflow execution {#monitoring-workflow-execution}
 
+This section presents information on how to monitor your workflows' execution.
+
+A use case on how to create a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors" is also available in [this section](../../workflow/using/supervising-workflows.md#supervising-workflows).
+
+Additionnally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. For more on this, refer to the [dedicated section](../../production/using/audit-trail.md).
+
 ### Displaying progress {#displaying-progress}
 
 You can monitor execution by displaying progress using the appropriate icon on the toolbar.
@@ -138,6 +144,8 @@ In this case, the error task is aborted. This mode is particularly suited to wor
 >
 >You can apply this configuration individually for each activity. To do this, edit activity properties and select the error management mode in the **[!UICONTROL Advanced]** tab.
 
+For more on workflows' execution troubleshooting, refer to the [dedicated section](../../production/using/workflow-execution.md).
+
 ### Processing errors {#processing-errors}
 
 Concerning activities, the **[!UICONTROL Process errors]** option displays a specific transition which will be enabled if an error is generated. In this case, the workflow does not go into error mode and execution continues.
@@ -244,6 +252,88 @@ By default, if a workflow is paused, its working tables are never purged. From b
 These periods can be configured via the NmsServer_PausedWorkflowPeriod option.
 
 Workflow supervisors are notified. The creator and last user who modified the workflow are notified as well. Administrators don't receive the notifications.
+
+## Monitoring technical workflows {#monitoring-technical-workflows}
+
+Technical workflows need to be monitored, and actions need to be taken when they fail.
+
+### Instance monitoring dashboard {#instance-monitoring-dashboard}
+
+The instance monitoring dashboard can be accessed via the **[!UICONTROL Monitoring]** universe.
+
+![](assets/monitoring_technical_workflows1.png)
+
+Under System Indicators and core files, check that no indicators are highlighted in red. If this is the case and some are, you should:
+
+* Check that the necessary processes are always running,
+* Check that none of the process are too old,
+* Check that the different processes' log files do not contain alarming and recurring errors.
+
+### Technical workflows {#technical-workflows}
+
+Technical workflows are available from **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
+
+Depending on the technical workflow, follow the steps detailed below to ensure that everything is working as expected.
+
+To better understand what each technical workflow is supposed to do, refer to this [section](../../workflow/using/about-technical-workflows.md).
+
+For **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
+
+1. Check that the **[!UICONTROL Database Cleanup]** workflow runs and finishes successfully every day. For more on this, refer to this [page](../../workflow/using/delivery.md).
+1. Look at the journal to verify that the elapsed time is relatively constant over time and does not interfere with other workflows.
+1. For more information, check this [page](../../production/using/database-cleanup-workflow.md).
+
+For **[!UICONTROL Tracking workflow (‘tracking’)]**:
+
+Check that the Tracking workflow runs as scheduled (every hour by default), and that the journal does not highlight recurrent errors. For more on this, refer to this [section](../../workflow/using/delivery.md).
+
+For **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
+
+1. Check that the **[!UICONTROL Deliverability update]** workflow runs and finishes successfully every day. For more on this, refer to this [page](../../workflow/using/delivery.md).
+1. Verify in the journal that rules are being updated regularly.
+
+For **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
+
+1. Look at all the workflows located under the **[!UICONTROL Campaign process]** folder. For more on this, refer to this [page](../../workflow/using/campaign.md).
+1. Check that the workflows runs as scheduled and that the journal does not highlight recurrent errors.
+
+### Workflow supervision {#workflow-supervision}
+
+The **[!UICONTROL Workflow supervisors]** group should contain operators that need to be kept informed of failures and who can take action in time.
+
+![](assets/monitoring_technical_workflows3.png)
+
+An alert should be generated and sent to the correct group in case of problem.
+
+Make sure that each operator has a valid email address.
+
+Any workflow that should be running in order to keep the platform working, such as daily data imports, should be declared as “Production” (checkbox) and appear in bold.
+
+### Workflow maintenance list {#workflow-maintenance-list}
+
+All custom technical workflows should be documented in a worksheet that contains:
+
+* Workflow's name and location.
+* Purpose.
+* Scheduling and dependencies.
+* Operator in charge of monitoring.
+* Instructions about what to do in case of error.
+
+![](assets/monitoring_technical_workflows4.png)
+
+### Planning and automation of monitoring {#planning-and-automation-of-monitoring}
+
+Planning workflow monitoring improves its efficiency. Some tasks need to happen daily while other tasks can be done weekly or monthly.
+
+Setting workflows in folders named by recurrence and sorted by execution schedule improves efficiency of monitoring.
+
+Automation of monitoring reduces resources overhead and ensures that tasks are scheduled at the appropriate frequency.
+
+You can build a monitoring workflow to send an e-mail whenever certain tasks fail or when a critical table becomes too large.
+
+You can create a view so that all workflows across a functional area or system wide can be monitored.
+
+You can also use the Adobe Campaign job or report functionality to build documentation on demand, which is always up to date.
 
 ## Workflow HeatMap {#workflow-heatmap}
 
