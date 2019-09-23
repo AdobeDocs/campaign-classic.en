@@ -24,6 +24,8 @@ The workflows detailed in this section are installed with the different Adobe Ca
 >
 >Technical workflows related to the Message Center module are available by default in the **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** node.
 
+For more on how to monitor technical workflows, refer to the [dedicated section](../../workflow/using/monitoring-workflows.md#monitoring-technical-workflows).
+
 This section includes information concerning technical workflows that involve the following packages:
 
 * [Deliveries](../../workflow/using/deliveries.md)
@@ -43,4 +45,3 @@ This section includes information concerning technical workflows that involve th
 * [General Data Protection Regulation (GDPR)](../../workflow/using/general-data-protection-regulation--gdpr-.md)
 * [Transfer to Mid-sourcing](../../workflow/using/transfer-to-mid-sourcing.md)
 * [Mid-sourcing platform](../../workflow/using/mid-sourcing-platform.md)
-

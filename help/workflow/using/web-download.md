@@ -64,7 +64,7 @@ The **Web download** activity launches the downloading of a file on an explicit 
 
    ![](assets/download_web_edit_advanced.png)
 
-   The **[!UICONTROL Process errors]** option is detailed in [Processing errors](../../workflow/using/executing-a-workflow.md#processing-errors).
+   The **[!UICONTROL Process errors]** option is detailed in [Processing errors](../../workflow/using/monitoring-workflows.md#processing-errors).
 
 ## Output parameters {#output-parameters}
 

@@ -20,6 +20,8 @@ snippet: y
 
 Workflow execution cycle and best practices are presented in [this section](../../workflow/using/executing-a-workflow.md).
 
+For more on how to monitor you workflows, refer to [this section](../../workflow/using/monitoring-workflows.md).
+
 ## Start in progress {#start-in-progress}
 
 If workflows aren't executing and their status is **Start in progress**, this might mean that the workflow module isn't launched.
@@ -51,7 +53,7 @@ To check this and to start the module if necessary, apply the following steps:
 
 If a workflow fails, take the following steps:
 
-1. Check the workflow journal. For more on this, refer to the [Monitoring workflow execution](../../workflow/using/executing-a-workflow.md#monitoring-workflow-execution) and [Display logs](../../workflow/using/executing-a-workflow.md#displaying-logs) sections.
-1. Monitor technical workflows. For more on this refer to the [this section](../../workflow/using/executing-a-workflow.md#monitoring-technical-workflows). 
+1. Check the workflow journal. For more on this, refer to the [Monitoring workflow execution](../../workflow/using/monitoring-workflows.md#monitoring-workflow-execution) and [Display logs](../../workflow/using/monitoring-workflows.md#displaying-logs) sections.
+1. Monitor technical workflows. For more on this refer to the [this section](../../workflow/using/monitoring-workflows.md#monitoring-technical-workflows). 
 1. Look for failures on the individual workflow activities.
 
