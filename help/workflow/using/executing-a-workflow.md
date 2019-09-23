@@ -92,7 +92,7 @@ The following options are available in the right-click menu:
 
 **[!UICONTROL Open]**: this option lets you access the activity properties.
 
-**[!UICONTROL Display logs:]** this option lets you view the task execution log for the selected activity. Refer to [Displaying logs](../../workflow/using/monitoring-workflows#displaying-logs).
+**[!UICONTROL Display logs:]** this option lets you view the task execution log for the selected activity. Refer to [Displaying logs](../../workflow/using/monitoring-workflows.md#displaying-logs).
 
 **[!UICONTROL Execute pending task(s) now:]** this action lets you start pending tasks as soon as possible.
 
