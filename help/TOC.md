@@ -370,7 +370,7 @@ index: y
   + Monitoring workflows {#monitoring-workflows}
        + [Monitoring workflow execution](workflow/using/monitoring-workflow-execution.md)
        + [Monitoring technical workflows](workflow/using/monitoring-technical-workflows.md)
-       + [Workflow HeatMap](workflow/using/workflow-heatmap.md)
+       + [Workflow HeatMap](workflow/using/heatmap.md)
   + Advanced management {#advanced-management}
        + [Workflow properties](workflow/using/workflow-properties.md)
        + [Advanced parameters](workflow/using/advanced-parameters.md)

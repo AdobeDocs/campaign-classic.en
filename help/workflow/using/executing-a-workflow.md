@@ -140,7 +140,7 @@ The workflow is started and is waiting for an operator belonging to the group sp
 
 Operator management is detailed in this [section](../../platform/using/access-management.md).
 
-For more on how to monitor you workflows, refer to [this section](../../workflow/using/monitoring-workflows.md).
+For more on how to monitor you workflows, refer to [this section](../../workflow/using/monitoring-workflow-execution.md).
 
 ## Data life cycle {#data-life-cycle}
 
