@@ -54,9 +54,9 @@ To check the status of a delivery, edit it and view its dashboard and tabs.
 
 ### Execution tracking {#execution-tracking}
 
-You can look up the status of deliveries by clicking the **[!UICONTROL Deliveries]**, which is accessible via the Adobe Campaign home page. See [Delivery tracking](../../campaign/using/setting-up-marketing-campaigns.md#delivery-tracking).
+You can look up the status of deliveries by clicking the **[!UICONTROL Deliveries]**, which is accessible via the Adobe Campaign home page. See [Delivery tracking](../../campaign/using/marketing-campaign-monitoring.md#delivery-tracking).
 
-Information concerning the processes executed in a campaign are collected in the **[!UICONTROL Edit > Audit]** tab of the campaign. There, you can view the list of deliveries in the campaign. See [Tracking a campaign](../../campaign/using/setting-up-marketing-campaigns.md#tracking-a-campaign).
+Information concerning the processes executed in a campaign are collected in the **[!UICONTROL Edit > Audit]** tab of the campaign. There, you can view the list of deliveries in the campaign. See [Tracking a campaign](../../campaign/using/marketing-campaign-monitoring.md#tracking-a-campaign).
 
 ### List of campaign process workflows {#list-of-campaign-process-workflows}
 

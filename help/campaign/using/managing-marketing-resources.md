@@ -186,7 +186,7 @@ Marketing resources can be associated with deliveries via delivery outlines.
 
 >[!NOTE]
 >
->For more information on delivery outlines, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+>For more information on delivery outlines, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 ## Stock management {#stock-management}
 

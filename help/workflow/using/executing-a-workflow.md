@@ -30,7 +30,7 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 
 ### Actions toolbar {#actions-toolbar}
 
-The toolbar buttons are detailed in this [section](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow). The **[!UICONTROL Actions]** button gives you access to additional execution options for acting on selected workflows. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]**.
+The toolbar buttons are detailed in this [section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow). The **[!UICONTROL Actions]** button gives you access to additional execution options for acting on selected workflows. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]**.
 
 ![](assets/purge_historique.png)
 
@@ -54,7 +54,7 @@ The toolbar buttons are detailed in this [section](../../campaign/using/setting-
 
   This action stops then restarts the workflow. In most cases, it makes it possible to restart faster. It is also useful to automate restarting when stopping takes a certain amount of time: this is because the 'Stop' command is not available when the workflow is being stopped.
 
-  The **[!UICONTROL Start / Pause / Stop / Restart]** actions are also available via the execution icons in the toolbar. For more on this, refer to this [section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-targeting-workflow).
+  The **[!UICONTROL Start / Pause / Stop / Restart]** actions are also available via the execution icons in the toolbar. For more on this, refer to this [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
 
 * **[!UICONTROL Purge history]**
 
@@ -110,7 +110,7 @@ The following options are available in the right-click menu:
 >
 >You can select a group of activities and apply one of these commands to them.
 
-The right-click menu is also detailed in this [section](../../campaign/using/setting-up-marketing-campaigns.md#executing-a-workflow).
+The right-click menu is also detailed in this [section](../../campaign/using/marketing-campaign-deliveries.md#executing-a-workflow).
 
 ## Workflow life cycle {#workflow-life-cycle}
 
@@ -483,7 +483,7 @@ In operations, all stages that require approval are based on the same principle.
 
 ![](assets/validation-1-in-op.png)
 
-Approval examples can be found in this [section](../../campaign/using/setting-up-marketing-campaigns.md#checking-and-approving-deliveries).
+Approval examples can be found in this [section](../../campaign/using/marketing-campaign-deliveries.md#checking-and-approving-deliveries).
 
 An operator can respond in one of two ways: validating using the Web page linked in the email message, or via the console.
 

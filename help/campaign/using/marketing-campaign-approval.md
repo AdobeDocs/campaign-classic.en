@@ -26,12 +26,12 @@ Each step of a delivery can be subject to approval in order to ensure full monit
 
 Notification e-mails are sent to the Adobe Campaign operators who are designated reviewers to inform them of an approval request.
 
-The approval procedure is presented in [Checking and approving deliveries](../../campaign/using/setting-up-marketing-campaigns.md#checking-and-approving-deliveries).
+The approval procedure is presented in [Checking and approving deliveries](../../campaign/using/marketing-campaign-deliveries.md#checking-and-approving-deliveries).
 
 >[!NOTE]
 >
 >Only the delivery owner can start a delivery. In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field.  
->Also refer to [Selecting reviewers](../../campaign/using/setting-up-marketing-campaigns.md#selecting-reviewers).
+>Also refer to [Selecting reviewers](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
 ### Operating principle {#operating-principle-}
 
@@ -55,7 +55,7 @@ These notifications are sent to the operators affected to each process for which
 
 Approvals can be enabled for the campaign template, for each campaign individually, or for a delivery.
 
-All jobs requiring approval are selected in the campaign template ( **[!UICONTROL Properties]** > **[!UICONTROL Advanced campaign settings...]** > **[!UICONTROL Approvals]** tab), as are the operators in charge of approval (they will receive notifications, unless this option is not enabled). For more on this, refer to [Approving processes](../../campaign/using/setting-up-marketing-campaigns.md#approving-processes).
+All jobs requiring approval are selected in the campaign template ( **[!UICONTROL Properties]** > **[!UICONTROL Advanced campaign settings...]** > **[!UICONTROL Approvals]** tab), as are the operators in charge of approval (they will receive notifications, unless this option is not enabled). For more on this, refer to [Approving processes](../../campaign/using/marketing-campaign-approval.md#approving-processes).
 
 These settings can be overridden for each campaign created using this template, and individually for each campaign delivery: click the **[!UICONTROL Properties]** button, then the **[!UICONTROL Approvals]** tab.
 
@@ -94,7 +94,7 @@ Check the information to be approved, choose whether to accept or reject approva
 
 #### Approval via notification messages {#approval-via-notification-messages}
 
-Click the link available in the notification message (see [Notifications](../../campaign/using/setting-up-marketing-campaigns.md#notifications)). You will be asked to identify yourself, as shown below:
+Click the link available in the notification message (see [Notifications](../../campaign/using/marketing-campaign-approval.md#notifications)). You will be asked to identify yourself, as shown below:
 
 ![](assets/s_user_validation__log_in.png)
 
@@ -156,7 +156,7 @@ This method of enabling approvals lets you work on targeting without sending spu
 
 Notifications are specific email messages sent to reviewers to inform them that a process is pending approval. When the operator clicks the link in the message, an authentication page appears and, after logging in, the operator can view the information and approve or reject the job. A comment can also be entered in the approval window.
 
-The content of notification emails can be personalized. See [Notification content](../../campaign/using/setting-up-marketing-campaigns.md#notification-content).
+The content of notification emails can be personalized. See [Notification content](../../campaign/using/marketing-campaign-approval.md#notification-content).
 
 #### Enabling/Disabling Notification {#enabling-disabling-notification}
 
@@ -174,15 +174,15 @@ Notification content is defined in a specific template: **[!UICONTROL Notificati
 
 Campaign lets you set up approval processes for the main stages of the marketing campaign, in collaborative mode.
 
-For direct mail deliveries, Adobe Campaign operators can view the extraction file before it is sent to the router, and if necessary they can change the format and re-launch extraction. See [Approving an extraction file](../../campaign/using/setting-up-marketing-campaigns.md#approving-an-extraction-file).
+For direct mail deliveries, Adobe Campaign operators can view the extraction file before it is sent to the router, and if necessary they can change the format and re-launch extraction. See [Approving an extraction file](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
 
-For each campaign you can approve the delivery target, contents (for more on this, refer to [Approving content](../../campaign/using/setting-up-marketing-campaigns.md#approving-content)), and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a Web connection. See [Approving processes](../../campaign/using/setting-up-marketing-campaigns.md#approving-processes).
+For each campaign you can approve the delivery target, contents (for more on this, refer to [Approving content](../../campaign/using/marketing-campaign-approval.md#approving-content)), and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a Web connection. See [Approving processes](../../campaign/using/marketing-campaign-approval.md#approving-processes).
 
-When these validation phases are complete, the delivery can be launched. See [Starting a delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-a-delivery).
+When these validation phases are complete, the delivery can be launched. See [Starting a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery).
 
 >[!NOTE]
 >
->For further information about approval modes and tracking, see [Approval process](../../campaign/using/setting-up-marketing-campaigns.md#approval-process).
+>For further information about approval modes and tracking, see [Approval process](../../campaign/using/marketing-campaign-approval.md#approval-process).
 
 ### Approving processes {#approving-processes}
 
@@ -195,7 +195,7 @@ At this point, the status of the campaign is **[!UICONTROL To validate]**.
 >[!NOTE]
 >
 >* To select the processes that will be subject to approval, modify the campaign template. For more on this, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
->* Also refer to the section on the [Approval process](../../campaign/using/setting-up-marketing-campaigns.md#approval-process).
+>* Also refer to the section on the [Approval process](../../campaign/using/marketing-campaign-approval.md#approval-process).
 >
 
 ![](assets/s_ncs_user_edit_del_to_validate.png)
@@ -390,4 +390,4 @@ On the extraction request date, the extraction file is created and the delivery 
 
 You can view the content of the extracted file (by clicking its name), approve it or, if necessary, change the format and re-launch the extraction using the links on the dashboard.
 
-Once the file has been approved, you can send the notification e-mail to the router. For more on this, refer to [Starting an offline delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-an-offline-delivery).
+Once the file has been approved, you can send the notification e-mail to the router. For more on this, refer to [Starting an offline delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery).

@@ -32,7 +32,7 @@ The delivery outline activity, available in the campaign workflows, lets you pre
 1. In a workflow, add a delivery outline activity before adding a delivery activity.
 1. In the delivery outline activity, specify the outline you would like to use.
 
-   For more information on specifying delivery outlines, refer to the [Campaign - MRM](../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline) guide.
+   For more information on specifying delivery outlines, refer to the [Campaign - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline) guide.
 
 1. Complete the available fields according to your delivery.
 1. There are two possible cases:

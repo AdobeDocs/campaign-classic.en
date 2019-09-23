@@ -16,6 +16,8 @@ internal: n
 snippet: y
 ---
 
+# Marketing campaign deliveries {marketing-campaign-deliveries}
+
 ## Creating deliveries {#creating-deliveries}
 
 Deliveries can be created via the campaign dashboard, a campaign workflow or directly via the overview of deliveries.
@@ -34,8 +36,8 @@ The suggested configurations are suited to the different types of delivery (dire
 
 For each delivery, the campaign manager will define:
 
-* The main target. For more on this, refer to [Building the main target in a workflow](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow) and [Selecting the target population](../../campaign/using/setting-up-marketing-campaigns.md#selecting-the-target-population).
-* The control group. For more on this, refer to [Defining a control group](../../campaign/using/setting-up-marketing-campaigns.md#defining-a-control-group).
+* The main target. For more on this, refer to [Building the main target in a workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) and [Selecting the target population](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
+* The control group. For more on this, refer to [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 * The seed addresses. For more on this, refer to [this section](../../delivery/using/about-seed-addresses.md).
 
 Some of this information is inherited from the template.
@@ -213,7 +215,7 @@ You can define a control group at campaign level, in which case the control grou
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-The configuration procedure is presented in [Extracting the control group from the main target](../../campaign/using/setting-up-marketing-campaigns.md#extracting-the-control-group-from-the-main-target) and [Adding a population](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](../../campaign/using/marketing-campaign-deliveries.md#extracting-the-control-group-from-the-main-target) and [Adding a population](../../campaign/using/marketing-campaign-deliveries.md#adding-a-population).
 
 #### Activating the control group for a delivery {#activating-the-control-group-for-a-delivery}
 
@@ -232,7 +234,7 @@ By default, the control group configuration defined at the campaign level applie
 1. Click the **[!UICONTROL Control group]** tab and then select **[!UICONTROL Enable and edit control group configuration]**.
 1. Click **[!UICONTROL Edit...]** to configure the control group
 
-The configuration procedure is presented in [Extracting the control group from the main target](../../campaign/using/setting-up-marketing-campaigns.md#extracting-the-control-group-from-the-main-target) and [Adding a population](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](../../campaign/using/marketing-campaign-deliveries.md#extracting-the-control-group-from-the-main-target) and [Adding a population](../../campaign/using/marketing-campaign-deliveries.md#adding-a-population).
 
 #### Extracting the control group from the main target {#extracting-the-control-group-from-the-main-target}
 
@@ -263,7 +265,7 @@ You can define a new population to be used as a control group. This population c
 
 ## Starting a delivery {#starting-a-delivery}
 
-Once all approvals have been granted, the delivery is ready to be started. The delivery procedure then depends on the type of delivery. For e-mail or mobile channel deliveries, see [Starting an online delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-an-offline-delivery).
+Once all approvals have been granted, the delivery is ready to be started. The delivery procedure then depends on the type of delivery. For e-mail or mobile channel deliveries, see [Starting an online delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery).
 
 ### Starting an online delivery {#starting-an-online-delivery}
 
@@ -289,13 +291,13 @@ Once all approvals have been granted, the delivery status changes to **[!UICONTR
 
 >[!NOTE]
 >
->The technical workflows concerning campaign processes are presented in [List of campaign process workflows](../../campaign/using/setting-up-marketing-campaigns.md#list-of-campaign-process-workflows).
+>The technical workflows concerning campaign processes are presented in [List of campaign process workflows](../../workflow/using/campaign.md).
 
 **Step 1 - File approval**
 
 Once the extraction workflow has been successfully executed, the extraction file must be approved (provided that extraction file approval was selected in the delivery settings).
 
-For more on this, refer to [Approving an extraction file](../../campaign/using/setting-up-marketing-campaigns.md#approving-an-extraction-file).
+For more on this, refer to [Approving an extraction file](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
 
 **Step 2 - Approval of the message to the service provider**
 
@@ -332,13 +334,13 @@ For more on this, refer to [Approving an extraction file](../../campaign/using/s
 
 ## Managing associated documents {#managing-associated-documents}
 
-You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). To link documents with a campaign, see [Adding documents](../../campaign/using/setting-up-marketing-campaigns.md#adding-documents).
+You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). To link documents with a campaign, see [Adding documents](../../campaign/using/marketing-campaign-deliveries.md#adding-documents).
 
 >[!CAUTION]
 >
 >This mode is reserved for small documents.
 
-In a campaign you can also refer to other items, such as promotional coupons, special offers relating to a specific branch or store, etc. When these elements are included in an outline, they can be associated with a direct mail delivery. See [Associating and structuring resources linked via a delivery outline](../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+In a campaign you can also refer to other items, such as promotional coupons, special offers relating to a specific branch or store, etc. When these elements are included in an outline, they can be associated with a direct mail delivery. See [Associating and structuring resources linked via a delivery outline](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 >[!NOTE]
 >
@@ -453,7 +455,7 @@ The export model must be associated with the service provider selected for the d
 
 In the following workflow, we are going to create a recurring delivery so that every day an email is sent to all recipients whose birthday it is.
 
-To do this, create a campaign and click the **[!UICONTROL Targeting and workflows]** tab. For more on this, refer to the [Building the main target in a workflow](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow) section.
+To do this, create a campaign and click the **[!UICONTROL Targeting and workflows]** tab. For more on this, refer to the [Building the main target in a workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) section.
 
 Then follow these steps:
 
@@ -474,6 +476,6 @@ For more information, a detailed example of this workflow is presented in [this 
 
 >[!CAUTION]
 >
->For the workflows to execute, the technical workflows relating to the campaign process must be started. For more on this, refer to the [List of campaign process workflows](../../campaign/using/setting-up-marketing-campaigns.md#list-of-campaign-process-workflows) section.
+>For the workflows to execute, the technical workflows relating to the campaign process must be started. For more on this, refer to the [List of campaign process workflows](../../workflow/using/campaign.md) section.
 >   
->If the approval steps are enabled for the campaign, the deliveries will only be sent once these steps have been confirmed. For more on this, refer to the [Choosing the processes to be approved](../../campaign/using/setting-up-marketing-campaigns.md#choosing-the-processes-to-be-approved) section.
+>If the approval steps are enabled for the campaign, the deliveries will only be sent once these steps have been confirmed. For more on this, refer to the [Choosing the processes to be approved](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) section.

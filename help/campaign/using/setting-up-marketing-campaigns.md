@@ -30,21 +30,21 @@ The steps to create a marketing campaign are as follows:
 
 1. Defining target population(s): creating a workflow with targeting queries.
 
-   See [Selecting the target population](../../campaign/using/setting-up-marketing-campaigns.md#selecting-the-target-population).
+   See [Selecting the target population](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
 
 1. Creating deliveries: choice of channel(s) and defining the content to be sent.
 
-   See [Creating deliveries](../../campaign/using/setting-up-marketing-campaigns.md#creating-deliveries).
+   See [Creating deliveries](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries).
 
 1. Checking and approving deliveries.
 
-   Refer to [Approval process](../../campaign/using/setting-up-marketing-campaigns.md#approval-process).
+   Refer to [Approval process](../../campaign/using/marketing-campaign-approval.md#approval-process).
 
 1. Planning campaigns and associated costs.
 
    See [Creating service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
-When these steps have been completed, you can start the deliveries (see [Starting a delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-a-delivery)), check the data, processes and information relating to the deliveries and, if necessary, manage the associated documents (see [Managing associated documents](../../campaign/using/setting-up-marketing-campaigns.md#managing-associated-documents)). You can also track the execution of the processing phases of campaigns and deliveries (see [Tracking](../../campaign/using/setting-up-marketing-campaigns.md#tracking)).
+When these steps have been completed, you can start the deliveries (see [Starting a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), check the data, processes and information relating to the deliveries and, if necessary, manage the associated documents (see [Managing associated documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). You can also track the execution of the processing phases of campaigns and deliveries (see [Tracking](../../campaign/using/marketing-campaign-monitoring.md#tracking)).
 
 ## Creating plan and program hierarchy {#creating-plan-and-program-hierarchy}
 
