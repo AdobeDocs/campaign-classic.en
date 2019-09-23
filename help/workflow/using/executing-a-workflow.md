@@ -58,7 +58,7 @@ The toolbar buttons are detailed in this [section](../../campaign/using/setting-
 
 * **[!UICONTROL Purge history]**
 
-  This action lets you purge the workflow history. For more on this, refer to [Purging the logs](../../workflow/using/monitoring-workflows.md#purging-the-logs).
+  This action lets you purge the workflow history. For more on this, refer to [Purging the logs](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
 
 * **[!UICONTROL Start in simulation mode]**
 
@@ -92,7 +92,7 @@ The following options are available in the right-click menu:
 
 **[!UICONTROL Open]**: this option lets you access the activity properties.
 
-**[!UICONTROL Display logs:]** this option lets you view the task execution log for the selected activity. Refer to [Displaying logs](../../workflow/using/monitoring-workflows.md#displaying-logs).
+**[!UICONTROL Display logs:]** this option lets you view the task execution log for the selected activity. Refer to [Displaying logs](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
 
 **[!UICONTROL Execute pending task(s) now:]** this action lets you start pending tasks as soon as possible.
 
@@ -140,7 +140,7 @@ The workflow is started and is waiting for an operator belonging to the group sp
 
 Operator management is detailed in this [section](../../platform/using/access-management.md).
 
-For more on how to monitor you workflows, refer to [this section](../../workflow/using/monitoring-workflows.md).
+For more on how to monitor you workflows, refer to [this section](../../workflow/using/monitoring-workflow-execution.md).
 
 ## Data life cycle {#data-life-cycle}
 
@@ -160,7 +160,7 @@ To do this, select the relevant menu:
 
   ![](assets/wf-right-click-display.png)
 
-  For more on this, refer to [Worktables and workflow schema](../../workflow/using/monitoring-workflows.md#worktables-and-workflow-schema).
+  For more on this, refer to [Worktables and workflow schema](../../workflow/using/monitoring-workflow-execution.md#worktables-and-workflow-schema).
 
 * Analyzing the target
 

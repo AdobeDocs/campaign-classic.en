@@ -60,7 +60,7 @@ The workflows detailed below are installed by default.
   <tr> 
    <td> <span class="uicontrol">Paused workflows cleanup</span> <br /> </td> 
    <td> <span class="uicontrol">cleanupPausedWorkflows</span> <br /> </td> 
-   <td> <p>This workflow analyzes paused workflows that have severity set to normal and triggers warnings and notifications when they have been paused for too long. After a month, paused technical workflows are stopped unconditionally. By default, it is triggered every Monday at 5 am.</p> <p>For more information, refer to <a href="../../workflow/using/monitoring-workflows.md#handling-of-paused-workflows" target="_blank">Handling of paused workflows</a>.</p></td> 
+   <td> <p>This workflow analyzes paused workflows that have severity set to normal and triggers warnings and notifications when they have been paused for too long. After a month, paused technical workflows are stopped unconditionally. By default, it is triggered every Monday at 5 am.</p> <p>For more information, refer to <a href="../../workflow/using/monitoring-workflow-execution.md#handling-of-paused-workflows" target="_blank">Handling of paused workflows</a>.</p></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Offer notification</span> <br /> </td> 

@@ -26,7 +26,7 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 ## September 2019{#doc-updates-september-2019}
 
-Information related to workflows monitoring has been centralized into a new dedicated section. [Read more](../../workflow/using/monitoring-workflows.md).
+Information related to workflows monitoring has been centralized into a new dedicated section. [Read more](../../workflow/using/monitoring-workflow-execution.md).
 
 ## 19.1 - 30/05/2019{#release-19-1}
 

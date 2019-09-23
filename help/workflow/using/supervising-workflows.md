@@ -34,9 +34,9 @@ To monitor the status of a set of workflows, you need to follow these steps:
 
 >[!NOTE]
 >
->In addition to the workflow, Campaign **Workflow Heatmap** allows you to analyse in details the workflows that are currently running. For more on this, refer to the [dedicated section](../../workflow/using/monitoring-workflows.md#workflow-heatmap).
+>In addition to the workflow, Campaign **Workflow Heatmap** allows you to analyse in details the workflows that are currently running. For more on this, refer to the [dedicated section](../../workflow/using/heatmap.md).
 >
->For more on how to **monitor your workflows' execution**, refer to [this section](../../workflow/using/monitoring-workflows.md#monitoring-workflow-execution).
+>For more on how to **monitor your workflows' execution**, refer to [this section](../../workflow/using/monitoring-workflow-execution.md).
 
 ## Step 1: Creating the monitoring workflow {#step-1--creating-the-monitoring-workflow}
 
