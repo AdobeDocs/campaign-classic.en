@@ -34,7 +34,7 @@ The following options are available:
 
 * **[!UICONTROL Processing errors]**
 
-  Refer to [Processing errors](../../workflow/using/monitoring-workflows.md#processing-errors).
+  Refer to [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
 ## Input parameters {#input-parameters}
 

@@ -24,7 +24,7 @@ The workflows detailed in this section are installed with the different Adobe Ca
 >
 >Technical workflows related to the Message Center module are available by default in the **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** node.
 
-For more on how to monitor technical workflows, refer to the [dedicated section](../../workflow/using/monitoring-workflows.md#monitoring-technical-workflows).
+For more on how to monitor technical workflows, refer to the [dedicated section](../../workflow/using/monitoring-technical-workflows.md).
 
 This section includes information concerning technical workflows that involve the following packages:
 

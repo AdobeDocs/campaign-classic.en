@@ -367,6 +367,10 @@ index: y
        + [Designing queries](workflow/using/designing-queries.md)
        + [Sending personalized alerts to operators](workflow/using/sending-personalized-alerts-to-operators.md)
        + [Email enrichment with custom date fields](workflow/using/email-enrichment-with-custom-date-fields.md)
+  + Monitoring workflows {#monitoring-workflows}
+       + [Monitoring workflow execution](workflow/using/monitoring-workflow-execution.md)
+       + [Monitoring technical workflows](workflow/using/monitoring-technical-workflows.md)
+       + [Workflow HeatMap](workflow/using/workflow-heatmap.md)
   + Advanced management {#advanced-management}
        + [Workflow properties](workflow/using/workflow-properties.md)
        + [Advanced parameters](workflow/using/advanced-parameters.md)
