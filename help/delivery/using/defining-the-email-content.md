@@ -139,15 +139,14 @@ Select the format of the email in the lower section of the window:
 
 Messages can also be sent in a new format: AMP for Email.
 
-This option is available through a dedicated package.
-
 >[!NOTE]
 >
 >This feature is currently a beta capability.
 >
->This feature is optional. Please check your license agreement.?? // To use this feature, you need to install the appropriate package.
-
-For hosted and hybrid architectures, the corresponding package needs to be installed on the on the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) as well. Contact your account executive. For on-premise installations, ???
+>This option is available through a dedicated package. Please check your license agreement.
+>To use this feature, you need to install the appropriate package. For on-premise installations, contact your account executive.
+>
+>For hybrid architectures, the corresponding package needs to be also installed on the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) as well. Contact your account executive.
 
 ### About AMP for Email
 
@@ -173,24 +172,48 @@ Also consult the [Tips and know limitations](https://developers.google.com/gmail
 
 ### Using the AMP Email format in Adobe Campaign
 
-1. Make sure the AMP support option is enable.
-1. Click the AMP content tab.
-1. Select a compatible template?
+1. Click the AMP content tab. (Make sure the AMP support option is enabled.)
 1. Write your AMP content.
-1. Personalize your content.
-1. Copy-paste again your content into [AMP Playground](https://playground.amp.dev) to check if everything is correct.
 
-You cannot preview your content directly in Adobe Campaign. Use the [AMP Playground](https://playground.amp.dev).
+    >[!NOTE]
+    >
+    >For more on building your first AMP email, see the [AMP developer documentation](https://amp.dev/documentation/guides-and-tutorials/start/create_email/?format=email).
+
+1. Personalize your content.
+1. Copy-paste your content into [https://validator.ampproject.org](https://validator.ampproject.org) to check everything is correct. Make sure you select **AMP4 EMAIL** from the drop-down list on top of the screen.
+
+    ![](assets/amp_validator.png)
+
+    >[!NOTE]
+    >
+    >The Adobe Campaign AMP editor is not designed for content validation. Use websites such as [https://validator.ampproject.org](https://validator.ampproject.org) to validate your content.
+
+1. Copy-paste your content into [AMP Playground](https://playground.amp.dev) to preview your content. Make sure you select **AMP for Email** from the drop-down list on top of the screen.
+
+    ![](assets/amp_playground.png)
+
+    >[!NOTE]
+    >
+    >You cannot preview your content directly in Adobe Campaign. Use the [AMP Playground](https://playground.amp.dev) website.
+
+1. Switch to the **[!UICONTROL HTML content]** or **[!UICONTROL Text content]** tab and define content for at least one of those two formats.
+
+    >[!CAUTION]
+    >
+    >When creating content in AMP format, it is mandatory to also define content in another format (HTML or text). Adobe recommends creating content in both formats to ensure that messages can be correctly displayed in any mail system.
 
 For more on building your first AMP email, see the [AMP developer documentation](https://amp.dev/documentation/guides-and-tutorials/start/create_email/?format=email).
 
 ### Testing AMP emails
 
 Before you send a AMP-powered dynamic email, you can test it to verify its contents and behavior.
-1. Edit your content in the [AMP Playground](https://playground.amp.dev). Make sure you select AMP Email format from the drop-down list on top left of the screen.
-1. Copy-paste your content into Adobe Campaign.
-1. Insert your personalization fields.
-1. Copy-paste again your content into [AMP Playground](https://playground.amp.dev).
+1. Send a proof as you would usually do.
+
+    >[!CAUTION]
+    >
+    >The AMP for Email format is a beta capability which is not available for all email clients.
+
+1. To test delivery with AMP format on Gmail accounts, see the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail/testing-dynamic-email).
 
 ### Best practices and troubleshooting
 
