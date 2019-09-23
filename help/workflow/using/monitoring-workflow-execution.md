@@ -250,3 +250,20 @@ By default, if a workflow is paused, its working tables are never purged. From b
 These periods can be configured via the NmsServer_PausedWorkflowPeriod option.
 
 Workflow supervisors are notified. The creator and last user who modified the workflow are notified as well. Administrators don't receive the notifications.
+
+## Filtering workflows according to their status {filtering-workflows-status}
+
+Campaign Classic interface allows you to monitor your workflows' execution statuses by filtering them using predefined **views**.
+
+To access them, open the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]** node.
+
+The following views are available:
+
+* **[!UICONTROL Start Pending]**: list all workflows that are waiting to be started by the **[!UICONTROL operationMgt]** process. This view is available with the **[!UICONTROL Campaign]** package only <!-- lien vers page sur packages -->.
+* **[!UICONTROL Running]**: list all workflows that are running.
+* **[!UICONTROL Paused]**: list all paused workflows.
+* **[!UICONTROL Failed]**: list all workflows with a failed status.
+
+By default, these views are accessible in the Audit folder. However, you can recreate them in any other folder of your choice. To do this, right-click on a folder then select **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, then select the view that you want to add.
+
+Once the view added, <!-- properties: cocher une option pour que ce soit une view, sinon ne cherchera que dans le dossier-->
