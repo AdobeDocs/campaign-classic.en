@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Monitoring workflows {monitoring-workflows}
+# Monitoring workflows {#monitoring-workflows}
 
 ## Monitoring workflow execution {#monitoring-workflow-execution}
 
