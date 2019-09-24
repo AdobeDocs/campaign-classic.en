@@ -170,7 +170,7 @@ Campaign SDKs for iOS and Android are one of the components of the Mobile App Ch
 
 The goal of the SDK is to facilitate the integration of a mobile application into the Adobe Campaign platform.
 
-To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.md#MobileSDK) .
+To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#MobileSDK) .
 
 ### Loading Campaign SDK {#loading-campaign-sdk}
 
