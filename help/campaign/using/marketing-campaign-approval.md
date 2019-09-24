@@ -27,7 +27,7 @@ Each step of a delivery can be subject to approval in order to ensure full monit
 
 Notification e-mails are sent to the Adobe Campaign operators who are designated reviewers to inform them of an approval request.
 
-The approval procedure is presented in [Checking and approving deliveries](../../campaign/using/marketing-campaign-deliveries.md#checking-and-approving-deliveries).
+The approval procedure is presented in [Checking and approving deliveries](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]
 >

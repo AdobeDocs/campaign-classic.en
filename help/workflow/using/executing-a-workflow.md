@@ -483,7 +483,7 @@ In operations, all stages that require approval are based on the same principle.
 
 ![](assets/validation-1-in-op.png)
 
-Approval examples can be found in this [section](../../campaign/using/marketing-campaign-deliveries.md#checking-and-approving-deliveries).
+Approval examples can be found in this [section](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 An operator can respond in one of two ways: validating using the Web page linked in the email message, or via the console.
 

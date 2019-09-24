@@ -34,7 +34,7 @@ A **recurring delivery** lets you create a new delivery each time the activity i
 
 As an example, if you run this type of activity once a month, you will end up with 12 deliveries after a year.
 
-Recurring deliveries are created within workflows via the Recurring delivery activity. An example of this activity being used is presented in this section: [Creating a recurring delivery in a targeting workflow](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+Recurring deliveries are created within workflows via the Recurring delivery activity. An example of this activity being used is presented in this section: [Creating a recurring delivery in a targeting workflow](../../campaign/using/marketing-campaign-deliveries.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 ## Continuous delivery {#continuous-delivery}
 
