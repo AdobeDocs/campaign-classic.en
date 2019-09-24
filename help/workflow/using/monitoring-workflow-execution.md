@@ -251,19 +251,28 @@ These periods can be configured via the NmsServer_PausedWorkflowPeriod option.
 
 Workflow supervisors are notified. The creator and last user who modified the workflow are notified as well. Administrators don't receive the notifications.
 
-## Filtering workflows according to their status {filtering-workflows-status}
+## Filtering workflows according to their status {#filtering-workflows-status}
 
-Campaign Classic interface allows you to monitor your workflows' execution statuses by filtering them using predefined **views**.
+Campaign Classic interface allows you to monitor the execution status of all workflows on your instance using predefined **views**. To access these views, open the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]** node.
 
-To access them, open the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]** node.
+The following views are available:
 
-The following views are available:
+* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the **[!UICONTROL operationMgt]** process.
 
-* **[!UICONTROL Start Pending]**: list all workflows that are waiting to be started by the **[!UICONTROL operationMgt]** process. This view is available with the **[!UICONTROL Campaign]** package only <!-- lien vers page sur packages -->.
-* **[!UICONTROL Running]**: list all workflows that are running.
-* **[!UICONTROL Paused]**: list all paused workflows.
-* **[!UICONTROL Failed]**: list all workflows with a failed status.
+>[NOTE]
+>
+>This view is available with the **[!UICONTROL Marketing campaigns]** package only. See [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md).
 
-By default, these views are accessible in the Audit folder. However, you can recreate them in any other folder of your choice. To do this, right-click on a folder then select **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, then select the view that you want to add.
+* **[!UICONTROL Running]**: lists all workflows that are running/
+* **[!UICONTROL Paused]**: lists all paused workflows.
+* **[!UICONTROL Failed]**: lists all workflows with a failed status.
 
-Once the view added, <!-- properties: cocher une option pour que ce soit une view, sinon ne cherchera que dans le dossier-->
+By default, these views are accessible in the Audit folder. However, you can recreate them at the location of your choice in the folders tree. To do this, right-click on the desired folder, then select **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**. Select the view that you want to add it to the folder.
+
+Once the folder is added to the tree, make sure you configure it as a view, so that it displays all workflows in the database, whatever their origin folder is. For more on how to configure views, refer to [this section](../../platform/using/access-management.md#adding-folders-and-creating-views).
+
+>[NOTE]
+>
+>Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the **[!UICONTROL operationMgt]** process only.
+>
+>This filter is available with the **[!UICONTROL Marketing campaigns]** package only. See [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md).
