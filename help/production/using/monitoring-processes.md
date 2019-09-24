@@ -401,7 +401,7 @@ This choice is not final, you can always change it by clicking the **[!UICONTROL
 >
 >Only users with administration rights can access the Campaign Workflow HeatMap.
 
-1. Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Workflows]** link to display the **[!UICONTROL Campaign Workflow HeatMap]** page.
+1. Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Workflow HeatMap]** link to display the **[!UICONTROL Campaign Workflow HeatMap]** page.
 
    ![](assets/wkf_monitoring_path.png)
 
