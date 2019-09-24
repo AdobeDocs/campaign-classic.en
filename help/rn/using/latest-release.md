@@ -30,7 +30,7 @@ snippet: y
 
 * Fixed an issue with the SQL statement 'SELECT COUNT' which was executed on the default database rather than the FDA database during Data extraction in Data Management activity.
 * To improve customer infrastructure capabilities, an SFTP proxy declaration is now available in the server configuration file.
-* Fixed a Client console crash when "adding a linked table" in the Data Loading (RDBMS) workflow activity with no table name.(NEO-12213)
+* Fixed a Client console crash when "adding a linked table" in the Data Loading (RDBMS) workflow activity with no table name. (NEO-12213)
 * Fixed an issue with the midEmetter package installation through command line.
 * A new authentication option has been added to support OAuth credentials within the AC connector with Microsoft Dynamics. (NEO-11982)
 * Fixing issue with UUID (Unique Universal Identifier) cause enrichment activity to fail withHive FDA.
@@ -75,7 +75,7 @@ snippet: y
 
 * Fixed a regression linked to sdomain column management which prevented emails from being sent on certain configurations. 
 * To improve performance, a _operation="none" attribute has been added to rtEvent SOAP calls to avoid "SELECT FOR UPDATE" requests.
-* Fixed a workflow display issue with outbound transitions after a Test activity. (NEO-12727)
+* Fixed a workflow display issue with outbound transitions after the Test activity. (NEO-12727)
 * We now allow the deletion of dummy records created in Microsoft Dynamics during import workflow.
 * Improved permissions to execute the security zone package when using internal account.
 
