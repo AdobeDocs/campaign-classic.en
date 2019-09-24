@@ -28,6 +28,8 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 Information related to workflows monitoring has been centralized into a new dedicated section. [Read more](../../workflow/using/monitoring-workflow-execution.md).
 
+A new page about general guidelines for tracking in Adobe Campaign Classic has been added. [Read more](https://helpx.adobe.com/campaign/kb/acc-tracking.html).
+
 ## 19.1 - 30/05/2019{#release-19-1}
 
 **New capabilities included in the release**
