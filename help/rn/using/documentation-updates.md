@@ -24,6 +24,10 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## September 2019 {#september-2019}
+
+A new page has been added to provide general guidelines for maintaining Campaign Classic. [Read more](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)
+
 ## 19.1 - 30/05/2019{#release-19-1}
 
 **New capabilities included in the release**
