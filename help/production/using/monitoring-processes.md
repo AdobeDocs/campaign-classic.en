@@ -371,7 +371,7 @@ This command can also be run with the **-missing** parameter, which lists the pr
 
 ```
 nlserver monitor -missing
-HH:MM:SS > Application server for Adobe Campaign Version X.Y.Z (build XXXX) of DD/MM/YYYY
+HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 mta@prod
 stat@prod
 wfserver@prod

@@ -72,7 +72,7 @@ Check the following information:
 
           ```        
           nlserver pdump
-          HH:MM:SS > Application server for Adobe Campaign Version X.Y (build XXXX) dated DD/MM/YYYY
+          HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
           [...]
           web@default (27515) - 55.2 Mb
           [...]
@@ -88,7 +88,7 @@ Check the following information:
           >
           >If you obtain a response of the following type when you list the Adobe Campaign modules:   
           >**nlserver pdump** 
-          >HH:MM:SS > Application server for Adobe Campaign Version X.Y (build XXXX) dated DD/MM/YYYY No tasks You must restart the entire Adobe Campaign application. To do this, use the following commands:   
+          >HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY No tasks You must restart the entire Adobe Campaign application. To do this, use the following commands:   
 
           >
           >    

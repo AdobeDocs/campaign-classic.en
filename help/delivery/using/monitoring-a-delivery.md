@@ -190,7 +190,7 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
 
     ```
     nlserver pdump
-    HH:MM:SS > Application server for Adobe Campaign Version X.Y (build XXXX) of DD/MM/YYYY
+    HH:MM:SS > Application server for Adobe Campaign Classic (X.Y.Z YY.R build nnnn@SHA1) of DD/MM/YYYY
     [...]
     mta@<INSTANCENAME> (9268) - 23.0 Mb
     [...]
