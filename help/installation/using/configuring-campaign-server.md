@@ -445,7 +445,11 @@ sh
 
 In the **exec** node of the server configuration file, you need to reference the previously created file in the **blacklistFile** attribute.
 
-**For Linux only**: in the server configuration file, you need to specify a user dedicated to executing external commands to enhance your security configuration. This user is set in the **exec** node of the configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
+**For Linux only**: in the server configuration file, we recommand that you specify a user dedicated to executing external commands to enhance your security configuration. This user is set in the **exec** node of the configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
+
+>[!NOTE]
+>
+>If no user is specified, all commands are executed in the user context of the Adobe Campaign instance. The user must be different than the user running Adobe Campaign.
 
 For example:
 
@@ -456,6 +460,10 @@ For example:
 ```
 
 This user needs to be added to the sudoer list of the 'neolane' Adobe Campaign operator.
+
+>
+>
+>You should not use a custom sudo. A standard sudo needs to be installed on the system.
 
 ## Managing HTTP headers {#managing-http-headers}
 
