@@ -127,9 +127,9 @@ Follow the steps below to start the configuration in Adobe Experience Manager:
 
 1. Connect Adobe Experience Manager to Adobe Campaign by configuring a dedicated **Cloud Service**.
 
-   To learn how to connect both solutions via Cloud Services, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.md#ConfiguringAdobeExperienceManager) .
+   To learn how to connect both solutions via Cloud Services, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) .
 
 1. Configure the **Externalizer service**.
 
-   To learn how to configure it, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/externalizer.md).
+   To learn how to configure it, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/externalizer.html).
 

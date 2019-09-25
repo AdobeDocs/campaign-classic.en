@@ -109,11 +109,11 @@ All your scheduled workflows running on production environments should be monito
 
 In the workflow properties, select a Supervisor group, either the default **[!UICONTROL Workflow supervisors]** or a custom group. Make sure that at least one operator belongs to this group, with an email set up.
 
-Before you start building a workflow, remember to define workflow supervisors. They will be notified by email in case of errors. For more on this, refer to [Managing errors](../../workflow/using/executing-a-workflow.md#managing-errors).
+Before you start building a workflow, remember to define workflow supervisors. They will be notified by email in case of errors. For more on this, refer to [Managing errors](../../workflow/using/monitoring-workflow-execution.md#managing-errors).
 
-Regularly check the **[!UICONTROL Monitoring]** universe to view the overall status of the active workflows. For more on this, refer to [Instance supervision](../../workflow/using/executing-a-workflow.md#instance-supervision).
+Regularly check the **[!UICONTROL Monitoring]** universe to view the overall status of the active workflows. For more on this, refer to [Instance supervision](../../workflow/using/monitoring-workflow-execution.md#instance-supervision).
 
-The Workflow HeatMap enables the Adobe Campaign platform administrators to monitor the load on the instance and plan workflows accordingly. For more on this, refer to [Workflow monitoring](../../production/using/monitoring-processes.md#workflow-monitoring).
+The Workflow HeatMap enables the Adobe Campaign platform administrators to monitor the load on the instance and plan workflows accordingly. For more on this, refer to [Workflow monitoring](../../workflow/using/heatmap.md).
 
 ## Using activities {#using-activities}
 
