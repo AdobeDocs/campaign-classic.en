@@ -49,7 +49,7 @@ To install Adobe Campaign in Linux, please make sure you have the required libra
 
 * You must have **version 0.9.8** or **1.0** of OpenSSL.
 
-  For RHEL and CentOS 6 distributions, version 1.0 of OpenSSL is required.
+  For RHEL 7 and CentOS 6 distributions, version 1.0 of OpenSSL is required.
 
 * To use Adobe Campaign, you need to have the **libicu** library installed.
 
