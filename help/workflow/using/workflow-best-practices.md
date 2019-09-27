@@ -50,7 +50,7 @@ Two additional solutions are available to help:
 * Schedule data load overnight to reduce resource contention.
 * Long workflows can potentially have an impact on the server and database resources. Split the longest workflows to reduce processing time.
 * To reduce overall run times, replace time-consuming activities with simplified and faster activities.
-* Avoid running more than 20 workflows simultaneously. When too many workflows are executed at the same time, the system can run out of resources and become unstable. For more information on why your workflow may not be starting, refer to this [articule](https://helpx.adobe.com/ie/campaign/kb/workflows-not-starting-in-a-campaign-technical-workflows.html).
+* Avoid running more than 20 workflows simultaneously. When too many workflows are executed at the same time, the system can run out of resources and become unstable. For more information on why your workflow may not be starting, refer to this [article](https://helpx.adobe.com/ie/campaign/kb/workflows-not-starting-in-a-campaign-technical-workflows.html).
 
 ### Workflow execution {#workflow-execution}
 
@@ -111,13 +111,17 @@ All your scheduled workflows running on production environments should be monito
 
 In the workflow properties, select a Supervisor group, either the default **[!UICONTROL Workflow supervisors]** or a custom group. Make sure that at least one operator belongs to this group, with an email set up.
 
-Before you start building a workflow, remember to define workflow supervisors. They will be notified by email in case of errors. For more on this, refer to [Managing errors](../../workflow/using/executing-a-workflow.md#managing-errors).
+Before you start building a workflow, remember to define workflow supervisors. They will be notified by email in case of errors. For more on this, refer to [Managing errors](../../workflow/using/monitoring-workflow-execution.md#managing-errors).
 
-Regularly check the **[!UICONTROL Monitoring]** universe to view the overall status of the active workflows. For more on this, refer to [Instance supervision](../../workflow/using/executing-a-workflow.md#instance-supervision).
+Regularly check the **[!UICONTROL Monitoring]** universe to view the overall status of the active workflows. For more on this, refer to [Instance supervision](../../workflow/using/monitoring-workflow-execution.md#instance-supervision).
 
-The Workflow HeatMap enables the Adobe Campaign platform administrators to monitor the load on the instance and plan workflows accordingly. For more on this, refer to [Workflow monitoring](../../production/using/monitoring-processes.md#workflow-monitoring).
+The Workflow HeatMap enables the Adobe Campaign platform administrators to monitor the load on the instance and plan workflows accordingly. For more on this, refer to [Workflow monitoring](../../workflow/using/heatmap.md).
 
 ## Using activities {#using-activities}
+
+>[!CAUTION]
+>
+>You can copy and paste activities within a same workflow. However, we do not recommend to copy paste activities across different workflows. Some settings attached to activities like Deliveries and Scheduler could lead to conflicts and errors while executing the destination workflow. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](../../workflow/using/building-a-workflow.md#duplicating-workflows).
 
 ### Name of the activity {#name-of-the-activity}
 
@@ -151,3 +155,4 @@ Most of the time, you will not know where the signal is called from. In order to
 A production workflow should not be updated directly. Unless the process consists of creating a campaign with template workflows, processes should first be tested on a development environment. After this validation, the workflow can be deployed and started on production.
 
 Archived workflows may be kept on development or test platforms, in an Archived folder, but production environment should stay as clean as possible. Old workflows should be removed from production environment if they are inactive.
+

@@ -24,6 +24,14 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## September 2019 {#september-2019}
+
+A new page has been added to provide general guidelines for maintaining Campaign Classic. [Read more](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)
+
+Information related to workflows monitoring has been centralized into a new dedicated section. [Read more](../../workflow/using/monitoring-workflow-execution.md).
+
+A new page about general guidelines for tracking in Adobe Campaign Classic has been added. [Read more](https://helpx.adobe.com/campaign/kb/acc-tracking.html).
+
 ## 19.1 - 30/05/2019{#release-19-1}
 
 **New capabilities included in the release**
@@ -105,9 +113,7 @@ The Campaign Hardware Sizing Guide has been updated. [Read more](https://helpx.a
 
 Information was added on Query Banding for the Teradata external account. [Read more](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#External_database_external_account)
 
-## 16/01/2019{#release-doc-16-01-2019}
-
-**Documentation updates**
+## January 2019{#release-doc-16-01-2019}
 
 The Marketing Cloud Triggers technote has been updated. [Read more](https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html)
 
@@ -344,8 +350,6 @@ Added information on throughput limitations when setting up an SMTP relay. [Read
 
 ## 17.12 - 14/12/2017{#release-doc-14-12-2017}
 
-**Documentation updates**
-
 The [Adobe Campaign Classic documentation](https://helpx.adobe.com/support/campaign/classic.html) set has been reorganized for an improved usability.
 
 A new Tutorials section has been added to facilitate access to core Campaign capabilities help materials, how-tos, samples and videos. [Read more](https://docs.campaign.adobe.com/doc/AC/en/PTF_Starting_with_Adobe_Campaign_Tutorials.html)
@@ -416,9 +420,7 @@ A new technote on IP warming has been added. [Read more](https://docs.campaign.a
 
 A new getting started on build upgrade has been added. [Read more](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html).
 
-## 30/05/2017{#release-doc-30-05-2017}
-
-**Documentation updates**
+## May 2017{#release-doc-30-05-2017}
 
 A new getting started guide is available: it presents some of the best practices that can be used to deliver with Adobe Campaign, from creating and targeting to sending and monitoring. [Read more](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html)
 
@@ -432,9 +434,7 @@ Learn how to send a delivery to recipients loaded from an external file without 
 
 The double opt-in example has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WEB_Web_forms_Use_cases-_web_forms.html)
 
-## 31/03/2017{#release-doc-31-03-2017}
-
-**Documentation updates**
+## March 2017{#release-doc-31-03-2017}
 
 Deliverability: the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) has been updated. The deliverability documentation now includes a more detailed [overview](https://docs.campaign.adobe.com/doc/AC/en/DLV_Deliverability_management_About_deliverability.html) and a description of the [implementation process and main steps](https://docs.campaign.adobe.com/doc/AC/en/DLV_Deliverability_management_Implementation.html).
 
