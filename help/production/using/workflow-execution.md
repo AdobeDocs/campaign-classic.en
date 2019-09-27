@@ -36,16 +36,6 @@ There can be several causes for this issue, follow the steps below to solve it:
     >Once the workflow restarted, make sure you execute the pending tasks (right-click the **[!UICONTROL Scheduler]** activity / **[!UICONTROL Execute pending task(s) now]**) in order to check if it fails again on any of the activities.
 
     If the workflow still fails, check the audit log for specific error, troubleshoot accordingly, then restart the workflow again.
-    For example, you may get a failure like:
-
-    ```
-    Campaign jobs workflow (operationmgt) was failed with error:
-    25/08/2016 17:34:25 scheduler JavaScript: error while evaluating script 'operationMgt/scheduler'.
-    25/08/2016 17:34:25 scheduler No access token found to perform user update.
-    25/08/2016 17:34:25 scheduler Starting targeting workflow 'xyz_wkf_engage_4' for campaign '01 - Engage campaign (xyz_engage_campaign)'
-    ```
-
-    This means **[!UICONTROL operationMgt]** is trying to start the workflow "xyz_wkf_engage_4" but is not able to. In most cases, the workflow it is pointing to is in a finished state and cannot be started. In this case, perform an unconditional stop for the workflow "xyz_wkf_engage_4", then restart **[!UICONTROL operationMgt]**.
 
 1. Check the **[!UICONTROL wfserver]** module state in the **[!UICONTROL Monitoring]** tab,accessible from Campaign Classic homepage (see [Monitoring processes](../../production/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html)). This process is responsible for running all workflows. If it is not running, contact Adobe Customer Care. If you have an on-premise installation, restart the service (detailed procedure is described [here](../../production/using/workflow-execution.md#start-in-progress)).
 
