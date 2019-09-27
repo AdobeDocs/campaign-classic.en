@@ -135,31 +135,39 @@ Select the format of the email in the lower section of the window:
 
   The message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks on the message.
 
-## AMP for Email format {#amp-for-email-format}
+## AMP for Email format (beta) {#amp-for-email-format}
 
-Messages can also be sent using the new interactive [AMP for Email](https://amp.dev/about/email/) format.
+Adobe Campaign enables you to test the new interactive [AMP for Email](https://amp.dev/about/email/) format, under certain conditions.
 
->[!NOTE]
+>[!CAUTION]
 >
->This feature is currently a beta capability in Adobe Campaign.
+>This feature is a beta capability inside but also outside Adobe Campaign. Currently one email provider supports this format (Google Gmail).
+>
+>You can only test delivering AMP emails to specific email addresses appropriately configured. For more on this, see [AMP for Email delivery requirements for Gmail](../../delivery/using/defining-the-email-content.md#amp-for-email-delivery-requirements-gmail).
 
-<!--This option is available through a dedicated package. Please check your license agreement.-->
-
-To use this feature, the appropriate package must be installed. For hybrid and hosted architectures, the package needs to be also installed on the [mid-sourcing server](../../installation/using/mid-sourcing-server.md). Contact your account executive.
+This feature is available through a dedicated package. To use it, this package must be installed. For hybrid and hosted architectures, the package needs to be also installed on the [mid-sourcing server](../../installation/using/mid-sourcing-server.md). Contact your account executive.
 
 ### About AMP for Email
 
-Adobe Campaign now supports **AMP for Email**, a new format which allows to include AMP components inside messages to enhance the email experience with rich and actionable content. Making modern app functionality directly available within emails, it enables recipients to interact dynamically with content in the message itself.
+Adobe Campaign now allows testing **AMP for Email**, a new format which allows to include AMP components inside messages to enhance the email experience with rich and actionable content. Making modern app functionality directly available within emails, it enables recipients to interact dynamically with content in the message itself.
 
 For example, emails written with AMP can contain interactive elements such as image carousels, content stays up-to-date in the message, and recipients can take action like responding to a form without leaving their inbox.
+
+>[CAUTION]
+>
+>AMP for Email is a new email format which is available as beta capability. Currently only one email provider supports testing this format (Google Gmail). If you want to test AMP for Email in Adobe Campaign, make sure you send your message to a Gmail address and follow all the email delivery requirements for Gmail.
 
 AMP for Email is compatible with existing emails. The AMP version of the message is embedded into the email as a new MIME part, in addition to the HTML and/or plain text, ensuring compatibility across all email clients.
 
 For more on the AMP for Email format and specifications, see the [AMP developer documentation](https://amp.dev/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/#the-amphtml-email-format).
 
-### AMP for Email delivery requirements {#amp-for-email-delivery-requirements}
+### AMP for Email delivery requirements for Gmail{#amp-for-email-delivery-requirements-gmail}
 
-Supported email provider today : gmail.com (beta)
+To test delivery with AMP format on Gmail accounts, make sure that:
+* You target Gmail email addresses only.
+* You define the email address you are using to send your delivery in the Gmail account of the user that will receive your email.
+
+For more on this, see the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail/testing-dynamic-email).
 
 When building your AMP content in Adobe Campaign, keep in mind the following conditions for an AMP email to be delivered:
 
@@ -170,43 +178,71 @@ When building your AMP content in Adobe Campaign, keep in mind the following con
 
 You can also consult the [AMP for Email best practices](https://amp.dev/documentation/guides-and-tutorials/develop/amp_email_best_practices/?format=email) and the [Tips and know limitations for Gmail](https://developers.google.com/gmail/ampemail/tips).
 
-### Using the AMP Email format in Adobe Campaign
+To test delivery with AMP format on Gmail accounts, see the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail/testing-dynamic-email).
 
-To build an email using the AMP format, follow the steps below.
+### Testing the AMP Email format with Adobe Campaign
 
->[!NOTE]
+Adobe Campaign enables you to test delivering a AMP-powered dynamic email to verify its contents and behavior.
+
+>[CAUTION]
+>
+>The AMP for Email format is a beta capability which is not available for all email clients.
+>
+>You can only test delivering AMP emails to specific email addresses appropriately configured. For more on this, see [AMP for Email delivery requirements for Gmail](../../delivery/using/defining-the-email-content.md#amp-for-email-delivery-requirements-gmail).
+
+To build and send an email using the AMP format, follow the steps below.
+
+1. When creating your email delivery, you can select a specific AMP template. It contains an example of the main capacities you can use: product listing, carousel, double opt-in, survey and advanced server request.
+
+    ![](assets/amp_template.png)
+
+1. Click the **[!UICONTROL AMP content]** tab.
+
+    ![](assets/amp_tab.png)
+
+1. Edit the AMP content to suit your needs. 
+
+    >[!NOTE]
     >
     >For more on building your first AMP email, see the [AMP developer documentation](https://amp.dev/documentation/guides-and-tutorials/start/create_email/?format=email).
 
-1. Click the AMP content tab.
+    For example, you can use the product list component. You can maintain a list of products inside Adobe Campaign. Whenever you adjust a price or another element, it will be automatically reflected when the recipient opens again the email from their mailbox. For more on this, see [Example using AMP for Email](../../delivery/using/defining-the-email-content.md#example-amp).
 
-    ![](assets/amp_tab.png)
+1. Personalize your AMP content as needed, as you would usually do.
 
-1. Write your AMP content. See [AMP for Email delivery requirements](../../delivery/using/defining-the-email-content.md#amp-for-email-delivery-requirements).
+    ![](assets/amp_tab_perso.png)
 
-1. Personalize your AMP content.
+1. Once done with editing, select your whole AMP content and copy-paste it into the [AMP web-based validator](https://validator.ampproject.org) or a similar website.
 
-    ![](assets/amp_tab.png)
-
-1. Once done with editing, select your whole AMP content and copy-paste it into the [AMP web-based validator](https://validator.ampproject.org) or a similar website. Make sure you select **AMP4 EMAIL** from the drop-down list on top of the screen.
+    >[!NOTE]
+    >
+    >Make sure you select **AMP4 EMAIL** from the drop-down list on top of the screen.
 
     ![](assets/amp_validator.png)
 
     Any errors will be flagged inline.
 
-    ![](assets/amp_validator_error.png)
+    >[!NOTE]
+    >
+    >The Adobe Campaign AMP editor is not designed for content validation. Use an external website such as the [AMP web-based validator](https://validator.ampproject.org) to check your content is correct.
+
+1. Make amendments as needed until the AMP content passes validation.
+
+    ![](assets/amp_validator_pass.png)
+
+1. Copy-paste your validated content into [AMP Playground](https://playground.amp.dev) or a similar website to preview your content.
 
     >[!NOTE]
     >
-    >The Adobe Campaign AMP editor is not designed for content validation. Use websites such as the [AMP web-based validator](https://validator.ampproject.org) to check your content is correct.
-
-1. Copy-paste your content into [AMP Playground](https://playground.amp.dev) or a similar website to preview your content. Make sure you select **AMP for Email** from the drop-down list on top of the screen.
+    >Make sure you select **AMP for Email** from the drop-down list on top of the screen.
 
     ![](assets/amp_playground.png)
 
     >[!NOTE]
     >
-    >You cannot preview your AMP content directly in Adobe Campaign. You must use an external website.
+    >You cannot preview your AMP content directly in Adobe Campaign. Use an external website such as [AMP Playground](https://playground.amp.dev).
+
+1. Go back to Adobe Campaign and copy-paste your validated content into the **[!UICONTROL AMP content]** tab.
 
 1. Switch to the **[!UICONTROL HTML content]** or **[!UICONTROL Text content]** tab and define content for at least one of these two formats.
 
@@ -214,20 +250,15 @@ To build an email using the AMP format, follow the steps below.
     >
     >When creating AMP content, your email must also contain a fallback HTML version or plain text version in addition to the AMP content.
 
-### Testing AMP emails
+1. Send your email.
 
-Before you send a AMP-powered dynamic email, you can test it to verify its contents and behavior.
-1. Send a proof as you would usually do.
+Check the mailbox of the account you sent the AMP email to. You can see the product list is displayed. If you edit the prices in the JSSP file you are maintaining in Adobe Campaign, the prices will be automatically adjusted each time you open the email again in the recipient's mailbox.
 
-    >[!CAUTION]
-    >
-    >The AMP for Email format is a beta capability which is not available for all email clients.
+![](assets/amp_gmail_mailbox.png)
 
-1. To test delivery with AMP format on Gmail accounts, see the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail/testing-dynamic-email).
+### Example using AMP for Email {#example-amp}
 
-### Best practices and troubleshooting
-
-### 
+Below is an example of setting up a survey in an AMP email. Create a table to with your survey questions and use JSSP to populate your table. Link to technote + video made by PMs.
 
 ## Using content management {#using-content-management}
 
