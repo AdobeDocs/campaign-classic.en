@@ -27,9 +27,9 @@ In some cases, workflows executed from a campaign do not start when clicking the
 
 There can be several causes for this issue, follow the steps below to solve it:
 
-1. Check the [**[!UICONTROL operationMgt]**](../../workflow/using/campaign.md) technical workflow status. This workflow manages jobs or workflows inside a campaign. If it fails, this will result in workflows to not start / stop.
+1. Check the [**[!UICONTROL operationMgt]**](../../workflow/using/campaign.md) technical workflow status. This workflow manages jobs or workflows inside a campaign. If it fails, this will result in workflows to not start / stop. Restart it to resume the running of campaign workflows.
 
-    You can retrieve its status in the **[!UICONTROL Administration]** / **[!UICONTROL Production]** / **[!UICONTROL Technical workflows]** / **[!UICONTROL Campaign process]** node. If the workflow has failed, restart it to resume the running of campaign workflows.
+    For more on technical workflows monitoring, refer to [this page](../../workflow/using/monitoring-technical-workflows.md).
 
     >[NOTE]
     >
@@ -37,15 +37,19 @@ There can be several causes for this issue, follow the steps below to solve it:
 
     If the workflow still fails, check the audit log for specific error, troubleshoot accordingly, then restart the workflow again.
 
-1. Check the **[!UICONTROL wfserver]** module state in the **[!UICONTROL Monitoring]** tab,accessible from Campaign Classic homepage (see [Monitoring processes](../../production/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html)). This process is responsible for running all workflows. If it is not running, contact Adobe Customer Care. If you have an on-premise installation, restart the service (detailed procedure is described [here](../../production/using/workflow-execution.md#start-in-progress)).
+1. Check the **[!UICONTROL wfserver]** module state in the **[!UICONTROL Monitoring]** tab,accessible from Campaign Classic homepage (see [Monitoring processes](../../production/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html)).
 
-1. Check if the **number of campaign processes running** on the instance is more than the threshold. There is a limit defined by the [**[!UICONTROL NmsOperation_LimitConcurrency]**](../../installation/using/configuring-campaign-options.md##campaign-e-workflow-management) option on how many campaign processes can run on the instance in parallel. When this limit is reached, the workflow stays in the "Start as soon as possible" state as long as the number of workflows running is above the limit.
+    This process is responsible for running all workflows. If it is not running, contact Adobe Customer Care. If you have an on-premise installation, restart the service (detailed procedure is described [here](../../production/using/workflow-execution.md#start-in-progress)).
+
+1. Check if the **number of campaign processes running** on the instance is more than the threshold. There is a limit defined by the [**[!UICONTROL NmsOperation_LimitConcurrency]**](../../installation/using/configuring-campaign-options.md#campaign-e-workflow-management) option on how many campaign processes can run on the instance in parallel. When this limit is reached, the workflow stays in the "Start as soon as possible" state as long as the number of workflows running is above the limit.
 
     To solve this issue, stop unwanted workflows and delete failed deliveries. If the threshold was reached, this will allow the running of new processes.
 
+    To check the number of workflows running of your instance, we recommend using the predefined views, accessible by default in the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** folder. For more information, refer to [this page](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-according-to-their-status).
+
     >[CAUTION]
     >
-    >Increasing the **[!UICONTROL NmsOperation_LimitConcurrency]** option threshold may lead to performance issues on your instance. In any case, do not perform this on your own and reach out to your Adobe Campaign consultant.
+    >Increasing the **[!UICONTROL NmsOperation_LimitConcurrency]** option threshold may lead to performance issues on your instance. In any case, do not perform this on your own and reach out to your Adobe Campaign contact.
 
 For more on how to monitor you workflows, refer to [this section](../../workflow/using/monitoring-workflow-execution.md).
 
@@ -83,4 +87,3 @@ If a workflow fails, take the following steps:
 1. Check the workflow journal. For more on this, refer to the [Monitoring workflow execution](../../workflow/using/monitoring-workflow-execution.md) and [Display logs](../../workflow/using/monitoring-workflow-execution.md#displaying-logs) sections.
 1. Monitor technical workflows. For more on this refer to the [this section](../../workflow/using/monitoring-technical-workflows.md).p
 1. Look for failures on the individual workflow activities.
-
