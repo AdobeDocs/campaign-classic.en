@@ -20,27 +20,31 @@ snippet: y
 
 ## Overview {#overview}
 
-Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are grouped together in a program, and programs are included in a campaign plan.
+Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 
-The steps to create a marketing campaign are as follows:
+To create a marketing campaign:
 
-1. Creating a campaign: description of the campaign and its characteristics: label, type, start and end dates, budget, associated resources, manager(s) and participants.
+1. Create a campaign: discover campaigns and their characteristics: label, type, start and end dates, budget, associated resources, manager(s) and participants.
 
    See [Creating a campaign](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
 
-1. Defining target population(s): creating a workflow with targeting queries.
+1. Define target population(s): create a workflow with targeting queries.
 
    See [Selecting the target population](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
 
-1. Creating deliveries: choice of channel(s) and defining the content to be sent.
+1. Create deliveries: select channel(s) and define the content to be sent.
 
    See [Creating deliveries](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries).
 
-1. Checking and approving deliveries.
+1. Approve deliveries.
 
    Refer to [Approval process](../../campaign/using/marketing-campaign-approval.md#approval-process).
 
-1. Planning campaigns and associated costs.
+1. Monitor deliveries.
+
+ Refer to [Monitoring](../../campaign/using/marketing-campaign-monitoring.md).
+
+1. Plan campaigns and associated costs.
 
    See [Creating service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
@@ -70,7 +74,7 @@ To configure your folder hierarchy for marketing plans and programs, follow thes
 
 ### Configuring a campaign template {#configuring-a-campaign-template}
 
-Campaigns are based on models that group together a set of predefined parameters.
+Campaigns are based on models that share a set of predefined parameters.
 
 In a default configuration, the campaign templates are centralized in the **[!UICONTROL Resources > Templates > Campaign templates]** node of the Adobe Campaign tree.
 
@@ -80,7 +84,7 @@ In a default configuration, the campaign templates are centralized in the **[!UI
 >
 >The tree is displayed when you click the **[!UICONTROL Explorer]** icon on the home page.
 
-An empty template is supplied out of the box in order to create a campaign for which no specific configuration has been defined. You can create and configure your campaign templates and then create campaigns from these templates.
+An out-of-the-box template is supplied in order to create a campaign for which no specific configuration has been defined. You can create and configure your campaign templates and then create campaigns from these templates.
 
 The creation and configuration of campaign templates are presented in [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
 
