@@ -60,7 +60,7 @@ In order to replace all files with the new version, you need to shut down all in
 
    ```
    C:<installation path>Adobe Campaign v7bin>nlserver pdump
-   HH:MM:SS > Application Server for Adobe Campaign Version X.Y (build XXX) dated XX/XX/XXXX
+   HH:MM:SS > Application Server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    No tasks
    ```
 

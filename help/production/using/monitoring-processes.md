@@ -373,7 +373,7 @@ This command can also be run with the **-missing** parameter, which lists the pr
 
 ```
 nlserver monitor -missing
-HH:MM:SS > Application server for Adobe Campaign Version X.Y.Z (build XXXX) of DD/MM/YYYY
+HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 mta@prod
 stat@prod
 wfserver@prod
@@ -488,7 +488,7 @@ The following pre-installation precautions are required for automatic monitoring
 * You must have the **netreport.tgz **(Linux installation) or **netreport.zip** (Windows installation) files,
 * We strongly advise you not to install monitoring on the machine to be monitored, 
 * it must be installed on a machine with a JRE or a JDK,
-* in Linux, the machine to be monitored must have the **bc** package. For more on this, refer to [this section](../../installation/using/installing-campaign-standard-packages.md#distribution-based-on-rpm--packages).
+* in Linux, the machine to be monitored must have the **bc** package. For more on this, refer to [this section](../../installation/using/installing-packages-with-linux.md#distribution-based-on-rpm--packages).
 
 ### Installation procedure {#installation-procedure}
 

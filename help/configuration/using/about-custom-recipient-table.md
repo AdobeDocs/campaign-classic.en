@@ -49,6 +49,7 @@ Using an external recipient table has the following limitations:
  
   The graphic below details the required relational structure for each custom recipient schema:
   ![](assets/custom_recipient_limitation.png)
+
   We recommend:
 
   * Dedicating the **[!UICONTROL nms:BroadLogRcp]** and **[!UICONTROL nms:TrackingLogRcp]** schemas to the out-of-the-box **[!UICONTROL nms:Recipientschema]**. Those two log tables should not be linked to any additional custom recipient table.
