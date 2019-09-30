@@ -41,6 +41,8 @@ Adobe Campaign uses two types of cookies:
 1. A session cookie (nlid): it contains the identifier of the email sent to the contact (broadlogId) and the identifier of the message template (deliveryId). It is added when the contact clicks a URL included in an email sent by Adobe Campaign and enables you to track their behavior on the web. This session cookie is erased automatically when the browser is closed. The contact can configure their browser to refuse cookies.
 1. A permanent cookie (uuid230): it enables you to identify the users who interact with Adobe Campaign when they visit a website. It is used by Adobe Campaign to count the number of clicks and estimate of the transfer rate during a marketing campaign. It is placed when the contact clicks in an email, fills in a form in Adobe Campaign or during the call to the inbound interaction engine. The user can configure their browser to delete it or refuse it.
 
+For more information on tracking, refer to this [page](https://helpx.adobe.com/campaign/kb/acc-tracking.html).
+
 ## Database integrity {#database-integrity}
 
 Adobe Campaign has an abundance of features. It therefore uses a complex database structure. The database contains many tables, fields, links, and indexes. Certain intermediate tables are not displayed in the interface. The software automatically creates, deletes or modifies certain links, fields and indexes. Only Adobe Campaign interfaces (graphical interface, import program, server module, web module, delivery servers, add field, database extension, etc.) can modify the contents of the database while preserving its integrity.
