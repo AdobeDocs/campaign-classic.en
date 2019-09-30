@@ -38,7 +38,7 @@ Supported versions are detailed in the [Compatibility matrix](https://helpx.adob
 
 * **Salesforce.com**
 
-  Refer to [this section](../../platform/using/crm-connectors.md#example-for-salesforce_com) to learn how to set up the connection with Salesforce.com.
+  Refer to [this section](../../platform/using/crm-connectors.md#example-for-salesforce-com) to learn how to set up the connection with Salesforce.com.
 
   >[!CAUTION]
   >

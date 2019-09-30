@@ -153,7 +153,7 @@ The following connection types can be configured:
 * Oracle. For more information, refer to this [page](../../platform/using/accessing-an-external-database.md#configure-access-to-oracle).
 * MySQL. To configure access to MYSQL, refer to this [page](../../platform/using/accessing-an-external-database.md#configure-access-to-mysql).
 * Netezza. For more information, refer to this [page](../../platform/using/accessing-an-external-database.md#configure-access-to-netezza).
-* SAP HANA. For more information, refer to this [page](../../platform/using/accessing-an-external-database.md##configure-access-to-sap-hanaa).
+* SAP HANA. For more information, refer to this [page](../../platform/using/accessing-an-external-database.md#configure-access-to-sap-hanaa).
 * InfiniDB
 * Microsoft SQL server
 * AsterData
@@ -400,7 +400,7 @@ The **[!UICONTROL Azure]** external account enables a connection to a shared ext
 
 ## Hadoop external account {#hadoop-external-account}
 
-The **[!UICONTROL Hadoop]** external account enables a connection to a shared external database, as long as this connection is active, the database can be accessed via Adobe Campaign. For more information on how to configure access to Hadoop, refer to this [section](../../platform/using/accessing-an-external-database.md##configure-access-to-hadoop).
+The **[!UICONTROL Hadoop]** external account enables a connection to a shared external database, as long as this connection is active, the database can be accessed via Adobe Campaign. For more information on how to configure access to Hadoop, refer to this [section](../../platform/using/accessing-an-external-database.md#configure-access-to-hadoop).
 
 ![](assets/ext_account_16.png)
 
@@ -502,4 +502,4 @@ To configure the Salesforce CRM external account to work with Adobe Campaign, yo
 
 For this external account, you need to configure you Salesforce CRM with the configuration wizard.
 
-For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md#example-for-salesforce_com).
+For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md#example-for-salesforce-com).
