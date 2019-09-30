@@ -597,7 +597,14 @@ Some of them are built-in when installing Campaign, and others can be added manu
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_AzureDw</span> <br /> </td> 
    <td> Azure SQL Datawarehouse connector options.<br /> </td> 
-  </tr> 
+  </tr>
+   <tr> 
+   <td> <span class="uicontrol">WdbcKillSessionPolicy</span> <br /> </td> 
+   <td>Lets you affect Unconditional Stop behavior on all the workflows and PostgreSQL database queries according to the following potential values:<ul>
+    <li><p>0 – default: stops workflow process, no impact on the database<p></li>
+    <li><p>1 -  pg_cancel_backend: stops workflow process and cancels query in the database<p></li>
+    <li><p>2 – pg_terminate_backend: stops workflow process and terminates query in the database<p></li><ul></td> 
+  </tr>  
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
    <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign standard tables.<br /> </td> 
