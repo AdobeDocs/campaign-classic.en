@@ -32,6 +32,8 @@ The page displayed lets you view the state of the connected instance, i.e.:
 * the list of missing processes and execution information (start date, PID, etc.), 
 * a view of workflows and deliveries.
 
+Additional ways of monitoring the different Campaign processes are presented in [this page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+
 ### Log journal {#log-journal}
 
 It is possible to display the log journal related to a process. To do this, click on the process, **mta** for example, then click **[!UICONTROL Open the log journal]** .
