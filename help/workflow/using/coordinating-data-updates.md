@@ -56,6 +56,6 @@ To build the workflow, follow the steps below:
 
 **Related topics:**
 
-* [Preventing simultaneous multiple executions](../../workflow/using/executing-a-workflow.md#preventing-simultaneous-multiple-executions)
+* [Preventing simultaneous multiple executions](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
 * [Update Data activity](../../workflow/using/update-data.md)
 

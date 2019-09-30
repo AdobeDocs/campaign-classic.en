@@ -26,7 +26,7 @@ An **SQL code** activity executes an SQL script. The script is a JST template.
 
 * **[!UICONTROL Processing errors]**
 
-  Refer to [Processing errors](../../workflow/using/executing-a-workflow.md#processing-errors).
+  Refer to [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
 **JavaScript code** type activities execute a JavaScript script in the context of a workflow. For more on scripting, refer to the [JavaScript scripts and templates](../../workflow/using/javascript-scripts-and-templates.md) section.
 
@@ -36,7 +36,7 @@ An **SQL code** activity executes an SQL script. The script is a JST template.
 
 * **[!UICONTROL Processing errors]**
 
-  Refer to [Processing errors](../../workflow/using/executing-a-workflow.md#processing-errors).
+  Refer to [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
 An **Advanced JavaScript code** activity executes a JavaScript script in the context of a workflow. For more on scripting, refer to [JavaScript scripts and templates](../../workflow/using/javascript-scripts-and-templates.md).
 

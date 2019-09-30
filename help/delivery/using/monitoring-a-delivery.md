@@ -110,7 +110,7 @@ Platform and database maintenance can also affect delivery sending performances.
 
 After clicking the **[!UICONTROL Send]** button, your delivery seems to take longer than usual. This may be caused by different elements:
 
-* Some email providers might have blacklisted your IP addresses. In this case, check your broadlogs and consult [this getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) .
+* Some email providers might have blacklisted your IP addresses. In this case, check your broadlogs and consult [this getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) .
 * Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) to learn about content guidelines.
 * Throttling might have occurred within the Adobe Campaign MTA. This is caused by:
 

@@ -367,6 +367,10 @@ index: y
        + [Designing queries](workflow/using/designing-queries.md)
        + [Sending personalized alerts to operators](workflow/using/sending-personalized-alerts-to-operators.md)
        + [Email enrichment with custom date fields](workflow/using/email-enrichment-with-custom-date-fields.md)
+  + Monitoring workflows {#monitoring-workflows}
+       + [Monitoring workflow execution](workflow/using/monitoring-workflow-execution.md)
+       + [Monitoring technical workflows](workflow/using/monitoring-technical-workflows.md)
+       + [Workflow HeatMap](workflow/using/heatmap.md)
   + Advanced management {#advanced-management}
        + [Workflow properties](workflow/using/workflow-properties.md)
        + [Advanced parameters](workflow/using/advanced-parameters.md)
@@ -537,7 +541,7 @@ index: y
        + [Creating and configuring the database](installation/using/creating-and-configuring-the-database.md)
        + [Campaign server configuration](installation/using/campaign-server-configuration.md)
        + [Deploying an instance](installation/using/deploying-an-instance.md)
-       + [Installing Campaign Standard packages](installation/using/installing-campaign-standard-packages.md)
+       + [Installing Campaign Classic standard packages](installation/using/installing-campaign-standard-packages.md)
   + Additional configurations {#additional-configurations}
        + [Configuring Campaign server](installation/using/configuring-campaign-server.md)
        + [Connecting through LDAP](installation/using/connecting-through-ldap.md)

@@ -42,7 +42,7 @@ Organization management and linking Adobe Experience Cloud accounts are detailed
 >
 >A unique visitor ID will then be assigned to recipients generating tracking logs. This ID will be saved in the **[!UICONTROL Requester UUID (@sourceID)]** field of the **[!UICONTROL nms:trackingLogRcp]** table. The tracking data of recipients who existed before the visitor ID service was implemented will therefore no longer be usable.
 >
->The ID will then be recognized by the other Adobe Experience Cloud solutions with the same [CNAME](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cname.md).
+>The ID will then be recognized by the other Adobe Experience Cloud solutions with the same [CNAME](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cname.html).
 
 ## Experience Cloud integrations {#experience-cloud-integrations}
 
