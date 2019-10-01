@@ -119,7 +119,7 @@ After clicking the **[!UICONTROL Send]** button, your delivery seems to take lon
 
 * A system issue can prevent servers from interacting together: this can slow down the whole sending process. Check the servers to ensure that there is no memory or resource issues which can impact Campaign in the process of getting the personalization data for example.
 
-### Best practices for performance
+### Best practices for performance {#best-practices-performance}
 
 * Do not keep deliveries in failed state on the instance, as this maintains temporary tables and impacts the performance.
 
