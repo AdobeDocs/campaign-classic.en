@@ -74,7 +74,7 @@ The fields of the **[!UICONTROL Purge of data]** window coincide with the follow
   >
   >The **[!UICONTROL Events]** and **[!UICONTROL Archived events]** fields are only available if the **Message Center** module is installed.
 
-* Audit trail: **XtkCleanup_AuditTrailPurgeDelay ** (refer to [Cleanup of Audit trail](../../production/using/database-cleanup-workflow.md#cleanup-of-audit-trail))
+* Audit trail: **XtkCleanup_AuditTrailPurgeDelay** (refer to [Cleanup of Audit trail](../../production/using/database-cleanup-workflow.md#cleanup-of-audit-trail))
 
 All tasks executed by the **[!UICONTROL Database cleanup]** workflow are described in the following section.
 

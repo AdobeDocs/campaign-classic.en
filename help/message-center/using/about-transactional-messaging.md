@@ -24,7 +24,10 @@ Adobe Campaign Message Center module is integrated into an information system wh
 
 In this specific architecture, execution cell is separated from the control instance, which ensures higher availability and better load management.
 
+>[CAUTION]
+>
+>Transactional messaging requires a specific licence. Please check your licence agreement.
+
 >[!NOTE]
 >
 >To create new users for Message Center execution instances hosted on Adobe Cloud, you need to contact Adobe Customer Care. Message Center users are specific operators that require dedicated permissions to access 'Real time events' (nmsRtEvent) folders.
-

@@ -90,7 +90,7 @@ Apply the following steps:
 1. Once the Adobe Campaign server is installed, start the application server (web) using the command **nlserver web -tomcat** (the Web module enables you to start Tomcat in standalone Web server mode listening on port 8080) and to make sure Tomcat starts correctly:
 
    ```
-   12:08:18 >   Application server for Adobe Campaign Version 7.X (build XXXX) of DD/MM/YYYY
+   12:08:18 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    12:08:18 >   Starting Web server module (pid=28505, tid=-1225184768)...
    12:08:18 >   Tomcat started
    12:08:18 >   Server started
@@ -193,7 +193,7 @@ Apply the following steps:
 1. Start the Adobe Campaign server (**net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux) and run the command **nlserver pdump** once more to check for presence of all enabled modules.
 
    ```
-   12:09:54 >   Application server for Adobe Campaign Version 7.X (build XXXX) of DD/MM/YYYY
+   12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    syslogd@default (7611) - 9.2 MB
    stat@demo (5988) - 1.5 MB
    inMail@demo (7830) - 11.9 MB

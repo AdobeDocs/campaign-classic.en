@@ -69,7 +69,7 @@ The configuration depends on the action selected.
 There are two possible options for all file transfer options:
 
 * The **[!UICONTROL Process file nonexistence]** option adds a transition which is activated if no file is found in the specified directory.
-* The **[!UICONTROL Process errors]** option is detailed in [Processing errors](../../workflow/using/executing-a-workflow.md#processing-errors).
+* The **[!UICONTROL Process errors]** option is detailed in [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
 The **[!UICONTROL Advanced parameters...]** link lets you access the following options:
 

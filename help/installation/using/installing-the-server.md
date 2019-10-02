@@ -94,7 +94,7 @@ The files in the installation directory are used to configure the Adobe Campaign
 The following information is displayed:
 
 ```
-15:30:12 >   Application server for Adobe Campaign Version 7.X (build XXXX) dated DD/MM/YYYY
+15:30:12 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 15:30:12 >   Web server start (pid=664, tid=4188)...
 15:30:12 >   Creation of server configuration file '[INSTALL]bin..confserverConf.xml' server via '[INSTALL]bin..conffraserverConf.xml.sample
 15:30:12 >   Creation of server configuration file '[INSTALL]bin..confconfig-default.xml' server via '[INSTALL]bin..confmodelsconfig-default.xml
@@ -112,9 +112,9 @@ nlserver start web
 The following information is displayed:
 
 ```
-12:17:21 >   Application server for Adobe Campaign Version 7.X (build XXXX) dated DD/MM/YYYY
+12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:17:21 >   Start of the 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair') task in a new process 
-12:17:21 >   Application server for Adobe Campaign Version 7 (build 8789) dated 02/03/2017
+12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:17:21 >   Web server start (pid=29188, tid=-1224824320)...
 12:17:21 >   Generation of configuration changes '[INSTALL]bin..confserverConf.xml.diff' between '[INSTALL]bin..confserverConf.xml' and '[INSTALL]bin..conffraserverConf.xml.sample'
 12:17:22 >   Tomcat started
@@ -130,7 +130,7 @@ nlserver stop web
 The following information is displayed:
 
 ```
-12:18:31 >   Application server for Adobe Campaign Version 7.X (build XXX) of DD/MM/YYYY
+12:18:31 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:18:31 >   Stop requested for 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair', pid=29188, tid=-1224824320)...
 12:18:31 >   Stop requested (pid=29188)
 12:18:31 >   Web server stopped (pid=29188, tid=-1224824320)...
