@@ -19,11 +19,11 @@ snippet: y
 
 ## Approval process {#approval-process}
 
+Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes of the campaign: targeting, content, budget, extraction, and sending a proof.
+
 >[!NOTE]
 >
->You need to check that the reviewers have the correct rights for approving. Also check that their security zone is correctly defined.
-
-Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes of the campaign: targeting, content, budget, extraction, and sending a proof.
+>You need to check that the reviewers have the appropriate rights for approving. Also check that their security zone is correctly defined.
 
 Notification e-mails are sent to the Adobe Campaign operators who are designated reviewers to inform them of an approval request.
 
@@ -77,7 +77,7 @@ If no reviewer is specified, the campaign manager will be responsible for approv
 >[!NOTE]
 >
 >All other Adobe Campaign operators with **[!UICONTROL Administrator]** rights can also approve jobs, but they will not receive notifications.  
->By default, the campaign manager cannot carry out the approval or start the deliveries if approval operators have been defined. You can modify this behavior and authorize the campaign manager to approve/start deliveries by creating the**NmsCampaign_Activate_OwnerConfirmation** option with **1** as a value.
+>By default, the campaign manager cannot carry out the approval or start the deliveries if approval operators have been defined. You can modify this behavior and authorize the campaign manager to approve/start deliveries by creating the **NmsCampaign_Activate_OwnerConfirmation** option with **1** as a value.
 
 ### Approval modes {#approval-modes}
 
@@ -147,7 +147,7 @@ To choose the approval mode (manual or automatic), click the **[!UICONTROL Edit 
 
 When a targeting workflow is being built, manual approval lets you avoid creating approval links or sending notifications automatically. The campaign dashboard then offers a **[!UICONTROL Submit targeting for approval]** link to launch the approval process manually.
 
-A confirmation messages lets you authorize approvals on the jobs selected for this delivery.
+A confirmation message lets you authorize approvals on the jobs selected for this delivery.
 
 The approval buttons are then displayed on the campaign dashboard (for this delivery), on the delivery dashboard and in delivery tracking. If notifications are enabled, they will be sent in parallel.
 
@@ -169,15 +169,15 @@ To do this, edit the approval window of the campaign or campaign template ( **[!
 
 #### Notification content {#notification-content}
 
-Notification content is defined in a specific template: **[!UICONTROL Notification of validations for the marketing campaign]**. This template is saved in the **[!UICONTROL Administration>Campaign management>Technical delivery templates]** folder of the Adobe Campaign tree.
+Notification content is defined in a specific template: **[!UICONTROL Notification of validations for the marketing campaign]**. This template is saved in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** folder of the Adobe Campaign tree.
 
 ## Checking and approving deliveries {#checking-and-approving-deliveries}
 
-Campaign lets you set up approval processes for the main stages of the marketing campaign, in collaborative mode.
+Adobe Campaign lets you set up approval processes for the main stages of the marketing campaign in collaborative mode.
 
 For direct mail deliveries, Adobe Campaign operators can view the extraction file before it is sent to the router, and if necessary they can change the format and re-launch extraction. See [Approving an extraction file](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
 
-For each campaign you can approve the delivery target, contents (for more on this, refer to [Approving content](../../campaign/using/marketing-campaign-approval.md#approving-content)), and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a Web connection. See [Approving processes](../../campaign/using/marketing-campaign-approval.md#approving-processes).
+For each campaign you can approve the delivery target, content (see [Approving content](../../campaign/using/marketing-campaign-approval.md#approving-content)), and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a Web connection. See [Approving processes](../../campaign/using/marketing-campaign-approval.md#approving-processes).
 
 When these validation phases are complete, the delivery can be launched. See [Starting a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery).
 
@@ -187,17 +187,16 @@ When these validation phases are complete, the delivery can be launched. See [St
 
 ### Approving processes {#approving-processes}
 
-#### Overview {#overview-1}
-
-The stages which require approval appear on the campaign dashboard (via the console of the web interface). They also appear in the delivery tracking table and on the delivery dashboard.
+The stages requiring approval appear on the campaign dashboard (via the console of the web interface). They also appear in the delivery tracking table and on the delivery dashboard.
 
 At this point, the status of the campaign is **[!UICONTROL To validate]**.
 
 >[!NOTE]
 >
 >* To select the processes that will be subject to approval, modify the campaign template. For more on this, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
->* Also refer to the section on the [Approval process](../../campaign/using/marketing-campaign-approval.md#approval-process).
 >
+>* Also refer to the section on the [Approval process](../../campaign/using/marketing-campaign-approval.md#approval-process).
+
 
 ![](assets/s_ncs_user_edit_del_to_validate.png)
 
@@ -243,9 +242,9 @@ For each delivery in the campaign, you can approve the following processes:
 
   ![](assets/s_ncs_user_task_valid_associate.png)
 
-#### Choosing the processes to be approved {#choosing-the-processes-to-be-approved}
+#### Selecting processes to be approved {#choosing-the-processes-to-be-approved}
 
-The approval phases are defined for the template associated with the campaign. You must select the elements to be approved from the template and specify the Adobe Campaign operators who will be responsible for these approvals. For more on this, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
+The approval phases are defined with the template associated with the campaign. You must select the elements to be approved from the template and specify the Adobe Campaign operators who will be responsible for these approvals. For more on this, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
 
 >[!NOTE]
 >
@@ -286,7 +285,7 @@ For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL
 >
 >The content approval functionalities detailed below are designed to be added to the proof delivery.
 
-It's possible to configure a content approval cycle. To do this, select the **[!UICONTROL Enable content approval]** option in the approval settings window. The main steps of the content approval cycle are:
+It is possible to configure a content approval cycle. To do this, select the **[!UICONTROL Enable content approval]** option in the approval settings window. The main steps of the content approval cycle are:
 
 1. After creating a new delivery, the campaign manager clicks the **[!UICONTROL Submit content]** link on the campaign dashboard to start the content approval cycle. 
 
@@ -316,7 +315,7 @@ It's possible to configure a content approval cycle. To do this, select the **[!
       
       ![](assets/s_ncs_user_validation_content_BAT_details.png)
 
-1. A notification email is sent to the person responsible for the campaign telling them whether or not the content has been approved.
+1. A notification email is sent to the person responsible for the campaign informing them of whether or not the content has been approved.
 
    >[!NOTE]
    >
