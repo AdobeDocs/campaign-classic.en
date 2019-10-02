@@ -193,7 +193,7 @@ At this point, the status of the campaign is **[!UICONTROL To validate]**.
 
 >[!NOTE]
 >
->* To select the processes that will be subject to approval, modify the campaign template. For more on this, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
+>* To select the processes that will be subject to approval, modify the campaign template. For more on this, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 >
 >* Also refer to the section on the [Approval process](../../campaign/using/marketing-campaign-approval.md#approval-process).
 
@@ -244,7 +244,7 @@ For each delivery in the campaign, you can approve the following processes:
 
 #### Selecting processes to be approved {#choosing-the-processes-to-be-approved}
 
-The approval phases are defined with the template associated with the campaign. You must select the elements to be approved from the template and specify the Adobe Campaign operators who will be responsible for these approvals. For more on this, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
+The approval phases are defined with the template associated with the campaign. You must select the elements to be approved from the template and specify the Adobe Campaign operators who will be responsible for these approvals. For more on this, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 >[!NOTE]
 >

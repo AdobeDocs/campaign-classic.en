@@ -162,7 +162,7 @@ Marketing resources can be associated with campaigns, provided that this feature
 
 >[!NOTE]
 >
->For details on how to create and configure campaign templates, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
+>For details on how to create and configure campaign templates, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 Click the **[!UICONTROL Documents > Resources]** tab in the campaign dashboard, then click **[!UICONTROL Add]** to select the resource concerned.
 

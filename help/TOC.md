@@ -146,6 +146,7 @@ index: y
        + [Accessing marketing campaigns](campaign/using/accessing-marketing-campaigns.md)
   + Orchestrate campaigns {#orchestrate-campaigns}
        + [Setting up marketing campaigns](campaign/using/setting-up-marketing-campaigns.md)
+       + [Marketing Campaigns Templates](campaign/using/marketing-campaign-templates.md)
        + [Marketing Campaigns Deliveries](campaign/using/marketing-campaign-deliveries.md)
        + [Marketing Campaigns Approval](campaign/using/marketing-campaign-approval.md)
        + [Marketing Campaigns Monitoring](campaign/using/marketing-campaign-monitoring.md)

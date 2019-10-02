@@ -44,7 +44,7 @@ Some of this information is inherited from the template.
 
 >[!NOTE]
 >
->Campaign templates are presented in [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
+>Campaign templates are presented in [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 To build the delivery target, you can define filtering criteria for the recipients in the database. This recipient selection mode is presented in the [Sending Messages](../../delivery/using/identifying-target-populations.md) section.
 
@@ -391,7 +391,7 @@ To create an outline, click the **[!UICONTROL Delivery outlines]** sub-tab in th
 >
 >If this tab is not present, then this feature is not available for this campaign. Refer to the campaign template configuration.
 >   
->For more on this, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
+>For more on this, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 ![](assets/s_ncs_user_op_composition_link.png)
 

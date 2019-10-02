@@ -114,7 +114,7 @@ With Adobe Campaign you can set up collaborative processes for the creation and 
 
 >[!NOTE]
 >
->The configuration of campaign templates is presented in [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
+>The configuration of campaign templates is presented in [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 #### Schedule {#schedule}
 
