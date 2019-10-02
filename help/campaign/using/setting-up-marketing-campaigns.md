@@ -42,7 +42,7 @@ To create a marketing campaign:
 
 1. Monitor deliveries.
 
- Refer to [Monitoring](../../campaign/using/marketing-campaign-monitoring.md).
+   Refer to [Monitoring](../../campaign/using/marketing-campaign-monitoring.md).
 
 1. Plan campaigns and associated costs.
 
@@ -52,7 +52,7 @@ When these steps have been completed, you can start the deliveries (see [Startin
 
 ## Creating plan and program hierarchy {#creating-plan-and-program-hierarchy}
 
-To configure your folder hierarchy for marketing plans and programs, follow these steps:
+To configure your folder hierarchy for marketing plans and programs:
 
 1. Click the **Explorer** icon on the home page.
 1. Right-click the folder in which you want to create your plan.
@@ -72,24 +72,6 @@ To configure your folder hierarchy for marketing plans and programs, follow thes
 
 ## Creating a campaign {#creating-a-campaign}
 
-### Configuring a campaign template {#configuring-a-campaign-template}
-
-Campaigns are based on models that share a set of predefined parameters.
-
-In a default configuration, the campaign templates are centralized in the **[!UICONTROL Resources > Templates > Campaign templates]** node of the Adobe Campaign tree.
-
-![](assets/s_ncs_user_campaign_op_template_node.png)
-
->[!NOTE]
->
->The tree is displayed when you click the **[!UICONTROL Explorer]** icon on the home page.
-
-An out-of-the-box template is supplied in order to create a campaign for which no specific configuration has been defined. You can create and configure your campaign templates and then create campaigns from these templates.
-
-The creation and configuration of campaign templates are presented in [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
-
-For more on campaign creation, refer to the [Creating a campaign and an email](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
-
 ### Adding a campaign {#adding-a-campaign}
 
 You can create a campaign via the list of campaigns. To display this view, select the **[!UICONTROL Campaigns]** menu in the **[!UICONTROL Campaigns]** dashboard.
@@ -106,7 +88,7 @@ Campaigns can also be created via a program. To do this, click the **[!UICONTROL
 
 When you create a campaign via the **[!UICONTROL Schedule]** tab of a program, the campaign is automatically linked to the concerned program. The **[!UICONTROL Program]** field is hidden in this case.
 
-The campaign creation window lets you choose the campaign template and name and describe the campaign. You can also specify the campaign start and end dates.
+In the campaign creation window, select the campaign template and add a name and a description of the campaign. You can also specify the campaign start and end dates.
 
 Click **[!UICONTROL OK]** to create the campaign. It is added to the program schedule.
 
@@ -127,7 +109,6 @@ To open and configure a campaign, select it from the schedule and click **[!UICO
 ![](assets/s_ncs_user_new_op_edit.png)
 
 This takes you to the campaign dashboard.
-
 
 ## Campaign templates {#campaign-templates}
 
@@ -167,9 +148,27 @@ The various tabs and sub-tabs of the campaign template allow you to access its s
 
 ![](assets/s_ncs_user_new_op_template_duplicate.png)
 
-### Configuration of the available modules {#configuration-of-the-available-modules}
+### Configuring a campaign template {#configuring-a-campaign-template}
 
-#### Module selection {#module-selection}
+Campaigns are based on models that share a set of predefined parameters.
+
+In a default configuration, the campaign templates are centralized in the **[!UICONTROL Resources > Templates > Campaign templates]** node of the Adobe Campaign tree.
+
+![](assets/s_ncs_user_campaign_op_template_node.png)
+
+>[!NOTE]
+>
+>The tree is displayed when you click the **[!UICONTROL Explorer]** icon on the home page.
+
+An out-of-the-box template is supplied in order to create a campaign for which no specific configuration has been defined. You can create and configure your campaign templates and then create campaigns from these templates.
+
+The creation and configuration of campaign templates are presented in [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
+
+For more on campaign creation, refer to the [Creating a campaign and an email](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
+
+## Configuration of the available modules {#configuration-of-the-available-modules}
+
+### Module selection {#module-selection}
 
 The **[!UICONTROL Advanced campaign settings...]** link lets you enable and disable jobs for the campaigns based on this template. Select the functions you want to enable in the campaigns created based on this template.
 
@@ -199,7 +198,7 @@ The following links and tabs will be displayed:
 
 ![](assets/s_ncs_user_op_template_tab2.3ex.png)
 
-#### Typology of enabled modules {#typology-of-enabled-modules}
+### Typology of enabled modules {#typology-of-enabled-modules}
 
 * **Control group**
 
@@ -247,7 +246,7 @@ The following links and tabs will be displayed:
 
   ![](assets/s_ncs_user_op_template_activate_7.png)
 
-#### Approval of jobs {#approval-of-jobs}
+### Approval of jobs {#approval-of-jobs}
 
 You may choose whether or not to enable process approval via the **[!UICONTROL Approvals]** tab of the templates advanced settings section. The jobs for which approval is selected must be approved for message delivery to be authorized.
 
@@ -301,9 +300,9 @@ A periodic campaign is a campaign created automatically according to the executi
 
 Recurring campaigns are created from a specific template defining the workflow template to be executed and the execution schedule.
 
-#### Creating the campaign template {#creating-the-campaign-template}
+#### Creating a template for reccuring campaigns {#creating-the-campaign-template}
 
-* Create a **[!UICONTROL Recurring]** campaign template.
+1. Create a **[!UICONTROL Recurring]** campaign template.
 
   >[!NOTE]
   >
@@ -311,11 +310,11 @@ Recurring campaigns are created from a specific template defining the workflow t
 
    ![](assets/s_ncs_user_op_template_recur_tab.png) 
 
-* Enter the name of the template and the duration of the campaign.
+1. Enter the name of the template and the duration of the campaign.
 
   ![](assets/s_ncs_user_op_template_recur_duplicate.png)
 
-* For this type of campaign, a **[!UICONTROL Schedule]** tab is added in order to create the template execution schedule.
+1. For this type of campaign, a **[!UICONTROL Schedule]** tab is added in order to create the template execution schedule.
 
   In this tab, specify the planned execution dates of the campaigns based on this template.
 
@@ -331,8 +330,8 @@ Recurring campaigns are created from a specific template defining the workflow t
   >
   >Execution schedule configuration must be performed carefully to avoid overloading the database. Recurring campaigns duplicate the workflow(s) of their template depending on the specified schedule. The implementation of excessively frequent workflow creation can hinder the operation of the database.
 
-* Specify a value in the **[!UICONTROL Create in advance for]** field in order to create the corresponding workflows for the period indicated.
-* Create the workflow template to be used in campaigns based on this template, with the targeting parameters and one or more generic deliveries.
+1. Specify a value in the **[!UICONTROL Create in advance for]** field in order to create the corresponding workflows for the period indicated.
+1. Create the workflow template to be used in campaigns based on this template, with the targeting parameters and one or more generic deliveries.
 
   >[!CAUTION]
   >
@@ -385,17 +384,17 @@ A periodic campaign is a campaign based on a specific template that lets you cre
 
 #### Creating the campaign template {#creating-the-campaign-template-1}
 
-* Create a **[!UICONTROL Periodic]** campaign template, preferably by duplicating an existing campaign template.
+1. Create a **[!UICONTROL Periodic]** campaign template, preferably by duplicating an existing campaign template.
 
   ![](assets/s_ncs_user_op_template_period_create.png)
 
-* Enter the properties of the template.
+1. Enter the properties of the template.
 
   >[!CAUTION]
   >
   >The operator whom the template is assigned to needs to have the appropriate rights to create campaigns in the selected program.
 
-* Create the workflow associated with this template. It will be duplicated in every periodic campaign created by the template.
+1. Create the workflow associated with this template. It will be duplicated in every periodic campaign created by the template.
 
   ![](assets/s_ncs_user_op_template_period_wf.png)
 
@@ -403,7 +402,7 @@ A periodic campaign is a campaign based on a specific template that lets you cre
   >
   >This workflow is a workflow template. It cannot be executed from the campaign template.
 
-* Complete its execution schedule as for a recurring campaign template: click the **[!UICONTROL Add]** button and define the start and end dates, or fill in the execution schedule via the link.
+1. Complete its execution schedule as for a recurring campaign template: click the **[!UICONTROL Add]** button and define the start and end dates, or fill in the execution schedule via the link.
 
   ![](assets/s_ncs_user_op_template_period_planning_add.png)
 
@@ -411,11 +410,10 @@ A periodic campaign is a campaign based on a specific template that lets you cre
   >
   >Periodic campaign templates create new campaigns according to the schedule defined above. It must therefore be completed carefully, to avoid overloading the Adobe Campaign database.
 
-* Once the execution start date is reached, the matching campaign is created automatically. It takes on all the characteristics of its template.
+1. Once the execution start date is reached, the matching campaign is created automatically. It takes on all the characteristics of its template.
 
   Each campaign can be edited via the template schedule.
 
   ![](assets/s_ncs_user_op_template_period_planning.png)
 
   Each periodic campaign contains the same elements. Once created, it is managed as a standard campaign.
-

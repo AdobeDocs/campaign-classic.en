@@ -18,9 +18,9 @@ snippet: y
 
 # Marketing campaign deliveries {#marketing-campaign-deliveries}
 
-## Creating deliveries {#creating-deliveries}
-
 Deliveries can be created via the campaign dashboard, a campaign workflow or directly via the overview of deliveries.
+
+## Creating deliveries {#creating-deliveries}
 
 To create a delivery linked to a campaign, click the **[!UICONTROL Add a delivery]** link in the campaign dashboard.
 
@@ -46,21 +46,19 @@ Some of this information is inherited from the template.
 >
 >Campaign templates are presented in [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
 
-### Selecting the target population {#selecting-the-target-population-1}
-
 To build the delivery target, you can define filtering criteria for the recipients in the database. This recipient selection mode is presented in the [Sending Messages](../../delivery/using/identifying-target-populations.md) section.
 
-#### Example: delivering to a group of recipients {#example--delivering-to-a-group-of-recipients}
+### Example: delivering to a group of recipients {#example--delivering-to-a-group-of-recipients}
 
 You can import a population into a list, then target this list in deliveries.
 
-To do this, edit the concerned delivery and click the **[!UICONTROL To]** link to change the targeted population.
+1. To do this, edit the concerned delivery and click the **[!UICONTROL To]** link to change the targeted population.
 
-In the **[!UICONTROL Main target]** tab, select the **[!UICONTROL Defined via the database]** option and click **[!UICONTROL Add]** to select recipients.
+1. In the **[!UICONTROL Main target]** tab, select the **[!UICONTROL Defined via the database]** option and click **[!UICONTROL Add]** to select recipients.
 
 ![](assets/s_user_target_group_add.png)
 
-Choose **[!UICONTROL A list of recipients]** and click **[!UICONTROL Next]** to select it.
+1. Choose **[!UICONTROL A list of recipients]** and click **[!UICONTROL Next]** to select it.
 
 ![](assets/s_user_target_group_next.png)
 
@@ -92,7 +90,7 @@ In the diagram, link up the targeting and scheduling queries required for target
 
 >[!NOTE]
 >
->Exemples and procedure for defining queries are presented in [this section](../../workflow/using/designing-queries.md).
+>Examples and procedure for defining queries are presented in [this section](../../workflow/using/designing-queries.md).
 
 The left-hand section of the editor contains a library of graphical objects representing activities. The first tab contains the targeting activities, and the second tab contains the flow-control activities, which are used occasionally to coordinate targeting activities.
 
@@ -253,7 +251,7 @@ Click **[!UICONTROL Next]** to define the sorting order (if necessary) and selec
 
 This configuration is equivalent to a sharing activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. Refer to the [this section](../../workflow/using/executing-a-workflow.md#architecture) for more information.
 
-#### Adding a population {#adding-a-population}
+### Adding a population {#adding-a-population}
 
 You can define a new population to be used as a control group. This population can come from a group of recipients or you can create it via a specific query.
 
