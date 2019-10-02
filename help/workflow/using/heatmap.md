@@ -18,7 +18,9 @@ snippet: y
 
 # Workflow HeatMap {#workflow-heatmap}
 
-The Adobe Campaign Workflow HeatMap consists in a color-coded graphical representation of all the workflows that are currently running.
+The Adobe Campaign Workflow HeatMap consists in a color-coded graphical representation of all the workflows that are currently running. It is available to the instance Administrators only.
+
+Additional ways of monitoring the different Campaign processes are presented in [this page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
 
 ## About the Workflow HeatMap {#about-the-workflow-heatmap}
 
@@ -64,7 +66,7 @@ This choice is not final, you can always change it by clicking the **[!UICONTROL
 >
 >Only users with administration rights can access the Campaign Workflow HeatMap.
 
-1. Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Workflows]** link to display the **[!UICONTROL Campaign Workflow HeatMap]** page.
+1. Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Workflow HeatMap** link to display the **[!UICONTROL Campaign Workflow HeatMap]** page.
 
    ![](assets/wkf_monitoring_path.png)
 

@@ -128,7 +128,7 @@ nlserver pdump
 It must return the following information:
 
 ```
-12:00:33 >   Application server for Adobe Campaign Version 7.X (build XXXX) of DD/MM/YYYY
+12:00:33 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 webmdl@default (1644) - 18.2 Mo
 ```
 
