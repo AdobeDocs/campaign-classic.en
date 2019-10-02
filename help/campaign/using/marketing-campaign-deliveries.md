@@ -330,6 +330,22 @@ For more on this, refer to [Approving an extraction file](../../campaign/using/m
 
 * The extraction file is sent to the router and the delivery is finished.
 
+### Calculation of costs and stocks {#calculation-of-costs-and-stocks}
+
+The file extraction launches two operations: budget calculation and stock calculation. The budget entries are updated.
+
+* The **[!UICONTROL Budget]** tab lets you manage the budgets for the campaign. The total of the cost entries is shown in the **[!UICONTROL Calculates cost]** field of the campaign's main tab and the program it belongs to. The amounts are also reflected in the campaign budget.
+
+  The real cost will eventually be calculated from information supplied by the router. Only messages actually sent are invoiced.
+
+* Stocks are defined in the **[!UICONTROL Administration > Campaign management > Stocks]** node of the tree, and cost structures in the **[!UICONTROL Administration > Campaign management > Service providers]** node.
+
+  Stock lines are visible in the stock section. To define the initial stock, open a stock line. The stock is decremented each time a delivery takes place. You can define an alert level and notifications.
+
+>[!NOTE]
+>
+>For further information about cost calculations and stock management, see [Providers, stocks and budgets](../../campaign/using/providers--stocks-and-budgets.md).
+
 ## Managing associated documents {#managing-associated-documents}
 
 You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). To link documents with a campaign, see [Adding documents](../../campaign/using/marketing-campaign-deliveries.md#adding-documents).
