@@ -31,7 +31,7 @@ Check that the initial Adobe Campaign platform configuration is still valid and 
 
 >[!NOTE]
 >
->You can refer to [Adobe Campaign Harware Sizing guide](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.md) for insights.
+>You can refer to [Adobe Campaign Harware Sizing guide](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.html) for insights.
 
 ## Platform configuration {#platform-configuration}
 

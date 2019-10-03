@@ -46,3 +46,6 @@ To create a filter, apply the following process:
 
    ![](assets/offer_filter_create_006.png)
 
+**Related topic**
+
+* [Save frequently used queries as editable predefined filters](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Savefrequentlyusedqueriesaseditablepredefinedfilters)

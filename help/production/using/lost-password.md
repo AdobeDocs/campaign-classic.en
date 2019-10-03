@@ -54,7 +54,7 @@ There are two possible scenarios:
 
        ```    
        nlserver config -internalpassword
-       HH:MM:SS > Application server for Adobe Campaign Version X.Y (build XXXX) of dd/mm/yyyy
+       HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
        Enter current password.
        Password: (empty)
        Enter the new password.

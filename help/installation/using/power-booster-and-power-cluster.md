@@ -59,9 +59,9 @@ The Power Booster and Power Cluster options can be used by the following applica
   </tr> 
   <tr> 
    <td> Transactional messages<br /> </td> 
-   <td> Up to several thousand per day<br /> </td> 
-   <td> Up to 50,000 per day<br /> </td> 
-   <td> Over 50,000 per day<br /> </td> 
+   <td> 50,000 per hour per execution server<br /> </td> 
+   <td> 50,000 per hour per execution server<br /> </td> 
+   <td> 50,000 per hour per execution server<br /> </td> 
   </tr> 
   <tr> 
    <td> Availability<br /> </td> 

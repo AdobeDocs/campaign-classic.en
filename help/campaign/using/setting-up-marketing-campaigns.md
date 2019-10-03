@@ -796,7 +796,7 @@ They can also be edited and modified from this view.
 
 >[!NOTE]
 >
->Delivery outlines are essentially used in the context of direct mail campaigns.
+>Delivery outlines are used exclusively in the context of direct mail campaigns.
 
 A delivery outline denotes a structured set of elements (documents, branches/stores, promotional coupons, etc.) created in the company and for a particular campaign.
 
