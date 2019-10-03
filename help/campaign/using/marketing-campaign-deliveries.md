@@ -464,32 +464,3 @@ The export model must be associated with the service provider selected for the d
 >[!NOTE]
 >
 >For more on exports, refer to the [Getting Started](../../platform/using/generic-imports-and-exports.md) section.
-
-### Creating a recurring delivery in a targeting workflow {#creating-a-recurring-delivery-in-a-targeting-workflow}
-
-In the following workflow, we are going to create a recurring delivery so that every day an email is sent to all recipients whose birthday it is.
-
-To do this, create a campaign and click the **[!UICONTROL Targeting and workflows]** tab. For more on this, refer to the [Building the main target in a workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) section.
-
-Then follow these steps:
-
-1. Drag and drop a **Query** activity and configure it so that it collects the recipients whose birthday is the current date.
-1. Add a **Recurring delivery** activity based on the birthday email template that you want to send.
-
-   ![](assets/recur_delivery1.png)
-
-1. Finally, add a **Scheduler** to trigger sending the delivery every day. In the example below, the delivery is created every day at 6am.
-
-   ![](assets/recur_delivery2.png)
-
-   You can then start the workflow.
-
-   ![](assets/recur_delivery3.png)
-
-For more information, a detailed example of this workflow is presented in [this section](../../workflow/using/sending-a-birthday-email.md).
-
->[!CAUTION]
->
->For the workflows to execute, the technical workflows relating to the campaign process must be started. For more on this, refer to the [List of campaign process workflows](../../workflow/using/campaign.md) section.
->   
->If the approval steps are enabled for the campaign, the deliveries will only be sent once these steps have been confirmed. For more on this, refer to the [Choosing the processes to be approved](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) section.

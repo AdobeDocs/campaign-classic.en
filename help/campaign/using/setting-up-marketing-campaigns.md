@@ -118,7 +118,7 @@ A periodic campaign is a campaign created automatically according to the executi
 
 Recurring campaigns are created from a specific template defining the workflow template to be executed and the execution schedule.
 
-#### Creating a template for reccuring campaigns {#creating-the-campaign-template}
+#### Creating a template for recurring campaigns {#creating-the-campaign-template}
 
 1. Create a **[!UICONTROL Recurring]** campaign template.
 
