@@ -99,7 +99,7 @@ You can change the display and layout of the chart using the following elements:
 
   ![](assets/s_user_segmentation_toolbar.png)
 
-  Icons related to tracking and launching an advanced targeting workflow are detailed in this [section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-targeting-workflow).
+  Icons related to tracking and launching an advanced targeting workflow are detailed in this [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
 
 * **Object alignment**
 
@@ -185,7 +185,7 @@ All campaign workflows are centralized under the **[!UICONTROL Administration > 
 
 ![](assets/campaigns_wf.png)
 
-Campaign workflows and implementation examples are detailed in this [page](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow).
+Campaign workflows and implementation examples are detailed in this [page](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
 ## Technical workflows {#technical-workflows}
 
