@@ -35,7 +35,7 @@ To do this, create a campaign and click the **[!UICONTROL Targeting and workflow
 
 Then follow these steps:
 
-## Scheduling the sending {configuring-the-scheduler}
+## Scheduling the sending {#configuring-the-scheduler}
 
 1. First, add a **Scheduler** to trigger sending the delivery every day. In the example below, the delivery is created every day at 6am.
 
@@ -208,8 +208,6 @@ Link the results of the two **[!UICONTROL Test]** activity branches to an **[!UI
 ## Creating a recurring delivery {#creating-a-recurring-delivery-in-a-targeting-workflow}
 
 1. Add a **Recurring delivery** activity based on the birthday email template that you want to send.
-
-   ![](assets/recur_delivery1.png)
 
 >[!CAUTION]
 >
