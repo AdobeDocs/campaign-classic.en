@@ -416,9 +416,8 @@ The **[!UICONTROL Hadoop]** external account enables a connection to a shared ex
 
 The **[!UICONTROL Microsoft Dynamics CRM]** external account allows you to import and export Microsoft Dynamics data into Adobe Campaign.
 
-![](assets/ext_account_14.png)
-
-To configure the Microsoft Dynamics connector to work with Adobe Campaign, you need to provide the following details:
+Configuration for Microsoft Dynamics connector to work with Adobe Campaign depends on your deployment type.
+With **[!UICONTROL On-premise]** and **[!UICONTROL Office 365]** deployment types, you need to provide the following details:
 
 * **[!UICONTROL Account]**
 
@@ -436,15 +435,54 @@ To configure the Microsoft Dynamics connector to work with Adobe Campaign, you n
 
   Company name which can be found in the Developers resource dashboard, **[!UICONTROL Unique Name]** field.
 
-* **[!UICONTROL Client identifier]** for Web API deployment
-
-  Client ID which can be found from Microsoft Azure management portal in the **[!UICONTROL Update your code]** category, **[!UICONTROL Client ID]** field.
-
 * **[!UICONTROL Organization name]** for On-premise deployment
 
   Name of your organization.
 
-* **[!UICONTROL CRM version]** for On-premise and Web API deployments
+* **[!UICONTROL CRM version]** for On-premise
+
+  Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
+
+![](assets/ext_account_14.png)
+
+With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credentials]** authentication, you need to provide the following details:
+
+* **[!UICONTROL Account]**
+
+  Account used to sign in to Microsoft CRM.
+
+* **[!UICONTROL Server]**
+
+  URL of your Microsoft CRM server.
+
+* **[!UICONTROL Client identifier]**
+
+  Client ID which can be found from Microsoft Azure management portal in the **[!UICONTROL Update your code]** category, **[!UICONTROL Client ID]** field.
+
+* **[!UICONTROL CRM version]**
+
+  Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
+
+With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** authentication, you need to provide the following details:
+
+* **[!UICONTROL Server]**
+
+  URL of your Microsoft CRM server.
+
+* **[!UICONTROL Private Key (Base64 encoded)]**
+
+
+* **[!UICONTROL Custom Key identifier]**
+
+
+* **[!UICONTROL Key ID]**
+
+
+* **[!UICONTROL Client identifier]**
+
+  Client ID which can be found from Microsoft Azure management portal in the **[!UICONTROL Update your code]** category, **[!UICONTROL Client ID]** field.
+
+* **[!UICONTROL CRM version]**
 
   Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
 
