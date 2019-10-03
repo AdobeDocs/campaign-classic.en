@@ -46,9 +46,9 @@ To create a marketing campaign:
 
    See [Creating service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
-When these steps have been completed, you can start the deliveries (see [Starting a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), check the data, processes and information relating to the deliveries and, if necessary, manage the associated documents (see [Managing associated documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). You can also track the execution of the processing phases of campaigns and deliveries (see [Tracking](../../campaign/using/marketing-campaign-monitoring.md).
+When these steps have been completed, you can start the deliveries (see [Starting a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), check the data, processes and information relating to the deliveries and, if necessary, manage the associated documents (see [Managing associated documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). You can also track the execution of the processing phases of campaigns and deliveries (see [Tracking](../../campaign/using/marketing-campaign-monitoring.md)).
 
-## Creating plan and program hierarchy {#creating-plan-and-program-hierarchy}
+## Creating a plan and program hierarchy {#creating-plan-and-program-hierarchy}
 
 To configure your folder hierarchy for marketing plans and programs:
 
@@ -204,34 +204,34 @@ A periodic campaign is a campaign based on a specific template that lets you cre
 
 1. Create a **[!UICONTROL Periodic]** campaign template, preferably by duplicating an existing campaign template.
 
-  ![](assets/s_ncs_user_op_template_period_create.png)
+    ![](assets/s_ncs_user_op_template_period_create.png)
 
 1. Enter the properties of the template.
 
-  >[!CAUTION]
-  >
-  >The operator whom the template is assigned to needs to have the appropriate rights to create campaigns in the selected program.
+    >[!CAUTION]
+    >
+    >The operator whom the template is assigned to needs to have the appropriate rights to create campaigns in the selected program.
 
 1. Create the workflow associated with this template. It will be duplicated in every periodic campaign created by the template.
 
-  ![](assets/s_ncs_user_op_template_period_wf.png)
+    ![](assets/s_ncs_user_op_template_period_wf.png)
 
-  >[!NOTE]
-  >
-  >This workflow is a workflow template. It cannot be executed from the campaign template.
+    >[!NOTE]
+    >
+    >This workflow is a workflow template. It cannot be executed from the campaign template.
 
 1. Complete its execution schedule as for a recurring campaign template: click the **[!UICONTROL Add]** button and define the start and end dates, or fill in the execution schedule via the link.
 
-  ![](assets/s_ncs_user_op_template_period_planning_add.png)
+    ![](assets/s_ncs_user_op_template_period_planning_add.png)
 
-  >[!CAUTION]
-  >
-  >Periodic campaign templates create new campaigns according to the schedule defined above. It must therefore be completed carefully, to avoid overloading the Adobe Campaign database.
+    >[!CAUTION]
+    >
+    >Periodic campaign templates create new campaigns according to the schedule defined above. It must therefore be completed carefully, to avoid overloading the Adobe Campaign database.
 
 1. Once the execution start date is reached, the matching campaign is created automatically. It takes on all the characteristics of its template.
 
   Each campaign can be edited via the template schedule.
 
-  ![](assets/s_ncs_user_op_template_period_planning.png)
+    ![](assets/s_ncs_user_op_template_period_planning.png)
 
   Each periodic campaign contains the same elements. Once created, it is managed as a standard campaign.

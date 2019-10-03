@@ -56,7 +56,7 @@ You can import a population into a list, then target this list in deliveries.
 
 1. In the **[!UICONTROL Main target]** tab, select the **[!UICONTROL Defined via the database]** option and click **[!UICONTROL Add]** to select recipients.
 
-![](assets/s_user_target_group_add.png)
+    ![](assets/s_user_target_group_add.png)
 
 1. Choose **[!UICONTROL A list of recipients]** and click **[!UICONTROL Next]** to select it.
 

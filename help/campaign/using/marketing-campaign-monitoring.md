@@ -18,6 +18,8 @@ snippet: y
 
 # Monitoring marketing campaigns {#monitoring-marketing-campaigns}
 
+Campaigns can be monitored using tracking at campaign, delivery and execution levels. 
+
 ## Tracking a campaign {#tracking-a-campaign}
 
 For each campaign, the **[!UICONTROL Tracking]** tab lets you view all jobs and their statuses. The following information is accessible via this sub-tab:
