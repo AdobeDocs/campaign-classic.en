@@ -20,7 +20,7 @@ snippet: y
 
 Transactional messaging (Message Center) is a Campaign module designed for managing trigger messages. These messages are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement or website account creation for instance.
 
->[CAUTION]
+>[!CAUTION]
 >
 >Transactional messaging requires a specific licence. Please check your licence agreement.
 
@@ -31,4 +31,3 @@ In this specific architecture, execution cell is separated from the control inst
 >[!NOTE]
 >
 >To create new users for Message Center execution instances hosted on Adobe Cloud, you need to contact Adobe Customer Care. Message Center users are specific operators that require dedicated permissions to access 'Real time events' (nmsRtEvent) folders.
-

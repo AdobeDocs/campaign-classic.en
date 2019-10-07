@@ -32,6 +32,8 @@ Information related to workflows monitoring has been centralized into a new dedi
 
 A new page about general guidelines for tracking in Adobe Campaign Classic has been added. [Read more](https://helpx.adobe.com/campaign/kb/acc-tracking.html).
 
+The best practices for performance improvements of workflows and deliveries have been updated. [Read more on workflows](../../workflow/using/workflow-best-practices.md) and [more on deliveries](../../delivery/using/monitoring-a-delivery.md#best-practices-performance).
+
 ## 19.1 - 30/05/2019{#release-19-1}
 
 **New capabilities included in the release**
