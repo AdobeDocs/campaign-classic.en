@@ -38,7 +38,7 @@ snippet: y
  <tbody> 
   <tr> 
    <td> Query banding<br /> </td> 
-   <td> <p>When multiple Campaign users connect to the same FDA Teradata external account, you can now pass a query band (key/value pairs) specific to each user. Each time a Campaign user performs a query on the Teradata database, Adobe Campaign is now able to send meta data associated to the user. These data, which consist in a list of keys and values can then be used by Teradata administrators for audit purposes or to manage access rights, for example.</p><p>The configuration steps are detailed below.</p> </td> 
+   <td> <p>When multiple Campaign users connect to the same FDA Teradata external account, you can now pass a query band (key/value pairs) specific to each user. Each time a Campaign user performs a query on the Teradata database, Adobe Campaign is now able to send meta data associated to the user. These data, which consist in a list of keys and values can then be used by Teradata administrators for audit purposes or to manage access rights, for example.</p><p>For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#Teradata_external_account">detailed documentation</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>

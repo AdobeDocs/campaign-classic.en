@@ -1,7 +1,7 @@
 ---
-title: Installing Campaign Standard packages
-seo-title: Installing Campaign Standard packages
-description: Installing Campaign Standard packages
+title: Installing Campaign Classic standard packages
+seo-title: Installing Campaign Classic standard packages
+description: Installing Campaign Classic standard packages
 seo-description: 
 page-status-flag: never-activated
 uuid: 1cba9487-52fc-442f-ae99-f8a2c157f25e
@@ -16,9 +16,9 @@ internal: n
 snippet: y
 ---
 
-# Installing Campaign Standard packages{#installing-campaign-standard-packages}
+# Installing Campaign Classic standard packages{#installing-campaign-standard-packages}
 
-## Campaign Standard Packages {#campaign-standard-packages}
+## About standard Packages {#campaign-standard-packages}
 
 Packages are a set of features that can be installed according to your needs. They will allow you to add more options in your tenant.
 
@@ -41,7 +41,7 @@ To install a standard package:
 
 The packages are now installed.
 
-### List of Standard Packages {#list-of-standard-packages}
+### List of standard Packages {#list-of-standard-packages}
 
 <table> 
  <thead> 

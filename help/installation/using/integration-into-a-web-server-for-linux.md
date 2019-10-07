@@ -233,10 +233,10 @@ You can now test the configuration by starting Apache. The Adobe Campaign module
 The following information is displayed:
 
 ```
-12:26:28 >   Application server for Adobe Campaign Version 7.X (build XXXX) of DD/MM/YYYY
+12:26:28 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:26:28 >   Web server start (pid=29698, tid=-1212463424)...
 12:26:28 >   Server started
-12:26:28 >   Application server for Adobe Campaign Version 6.X (build XXXX) of DD/MM/YYYY
+12:26:28 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:26:28 >   Web server start (pid=29698, tid=-1212463424)...
 12:26:28 >   Server started
 ```

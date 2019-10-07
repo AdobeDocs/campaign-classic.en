@@ -35,23 +35,29 @@ This functionality allows Adobe Campaign to process data from an external databa
 * The standard recipient table is useless if you do not need most of the table fields or if the database template is not centered on the recipients.
 * In order to be efficient, a table with few fields is needed if you have a significant number of profiles. The standard recipient table has too many fields for this specific case.
 
->[!NOTE]
->
->We recommend using an external recipient table if the size of the data set is more than ten million profiles or if you use a lot of specific fields.
-
 This section describes the key points that let you map existing tables in Adobe Campaign and the configuration to apply to execute deliveries based on any table. Finally, it describes how to provide users with querying interfaces as practical as those available with the standard recipient table. To understand the material presented in this section, good knowledge of the principles of screen and schema design is required.
 
 ## Recommendations and limitations {#recommendations-and-limitations}
 
 Using an external recipient table has the following limitations:
 
-* You cannot use the standard **Services and Subscriptions** offered in the product.
+* Adobe Campaign does not support multiple recipient schemas, know as targeting schemas, linked to the same broadlog and/or trackinglog schemas. This can otherwise lead to anomalies in data reconciliation afterwards.
+ 
+  The graphic below details the required relational structure for each custom recipient schema:
+  ![](assets/custom_recipient_limitation.png)
+
+  We recommend:
+
+  * Dedicating the **[!UICONTROL nms:BroadLogRcp]** and **[!UICONTROL nms:TrackingLogRcp]** schemas to the out-of-the-box **[!UICONTROL nms:Recipientschema]**. Those two log tables should not be linked to any additional custom recipient table.
+  * Defining dedicated custom broadlog and trackinglog schemas for each new custom recipient schema. This can be automatically done when setting up the target mapping, see [Target mapping](../../configuration/using/target-mapping.md).
+
+* You cannot use the standard **[!UICONTROL Services and Subscriptions]** offered in the product.
 
   This means the overall operation detailed in [this section](../../delivery/using/managing-subscriptions.md) is not applicable.
 
-* The link with the **visitor** table does not work.
+* The link with the **[!UICONTROL visitor]** table does not work.
 
-  Thus, to use the **Social Marketing** module you must configure the storage step to reference the correct table.
+  Thus, to use the **[!UICONTROLSocial Marketing]** module you must configure the storage step to reference the correct table.
 
   Similarly, when using referral functions, the standard initial message transfer template must be adapted.
 
@@ -68,8 +74,8 @@ We also recommend checking the default values used in the different out-of-the-b
 For example:
 
 * Certain standard reports, particularly those offered by **Interaction** and the **Mobile Applications** must be redeveloped. Refer to the [Managing reports](../../configuration/using/managing-reports.md) section.
-* The default configurations for certain workflow activities reference the standard recipients table (**nms:recipient**): these configurations must be changed when used for an external recipients table. Refer to the [Managing workflows](../../configuration/using/managing-workflows.md) section.
-* The standard **Unsubscription link** personalization block must be adapted.
+* The default configurations for certain workflow activities reference the standard recipients table (**[!UICONTROL nms:recipient]**): these configurations must be changed when used for an external recipients table. Refer to the [Managing workflows](../../configuration/using/managing-workflows.md) section.
+* The standard **[!UICONTROL Unsubscription link]** personalization block must be adapted.
 * The target mapping of the standard delivery templates must be modified.
 * V4 forms are not compatible for use with an external recipients table: you must use Web applications.
 
