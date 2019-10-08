@@ -257,20 +257,19 @@ Campaign Classic interface allows you to monitor the execution status 
 
 The following views are available:
 
-<!-- will be part of another feature:
 * **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the **[!UICONTROL operationMgt]** process.
 
 >[NOTE]
 >
 >This view is available with the **[!UICONTROL Marketing campaigns]** package only. See [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md).
--->
+
 * **[!UICONTROL Running]**: lists all running workflows.
 * **[!UICONTROL Paused]**: lists all paused workflows.
 * **[!UICONTROL Failed]**: lists all failed workflows.
 
 ![](assets/workflow-monitoring-views.png)
 
-By default, these views are accessible in the **Audit** folder. However, you can recreate them at the location of your choice in the folders tree.
+By default, these views are accessible in the **Audit** folder. However, you can recreate them at the location of your choice in the folders tree. This way, they will be available to standard users with no administration right.
 
 To do this:
 
