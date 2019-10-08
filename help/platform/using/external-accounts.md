@@ -419,6 +419,8 @@ The **[!UICONTROL Microsoft Dynamics CRM]** external account allows you to impor
 Configuration for Microsoft Dynamics connector to work with Adobe Campaign depends on your deployment type.
 With **[!UICONTROL On-premise]** and **[!UICONTROL Office 365]** deployment types, you need to provide the following details:
 
+![](assets/ext_account_21.png)
+
 * **[!UICONTROL Account]**
 
   Account used to sign in to Microsoft CRM.
@@ -433,19 +435,20 @@ With **[!UICONTROL On-premise]** and **[!UICONTROL Office 365]** deployment type
 
 * **[!UICONTROL Company name]** for On-premise and Office 365 deployment
 
-  Company name which can be found in the Developers resource dashboard, **[!UICONTROL Unique Name]** field.
+   Name of your Company.
 
 * **[!UICONTROL Organization name]** for On-premise deployment
 
   Name of your organization.
+  Organization name which can be found in the Developers resources dashboard in Microsoft Dynamics, **[!UICONTROL Unique Name]** field.
 
 * **[!UICONTROL CRM version]** for On-premise
 
   Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
 
-![](assets/ext_account_14.png)
-
 With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credentials]** authentication, you need to provide the following details:
+
+![](assets/ext_account_14.png)
 
 * **[!UICONTROL Account]**
 
@@ -465,18 +468,20 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credent
 
 With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** authentication, you need to provide the following details:
 
+![](assets/ext_account_22.png)
+
 * **[!UICONTROL Server]**
 
   URL of your Microsoft CRM server.
 
 * **[!UICONTROL Private Key (Base64 encoded)]**
 
+  Private key encoded to Base64
 
 * **[!UICONTROL Custom Key identifier]**
 
 
 * **[!UICONTROL Key ID]**
-
 
 * **[!UICONTROL Client identifier]**
 
