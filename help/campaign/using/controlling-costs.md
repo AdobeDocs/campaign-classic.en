@@ -40,7 +40,7 @@ The following steps must be applied to implement budget management using MRM:
 
 1. Defining campaign costs (deliveries/tasks)
 
-   The costs incurred by the deliveries and tasks are input individually or globally for the campaign template. See [Calculation of costs and stocks](../../campaign/using/setting-up-marketing-campaigns.md#calculation-of-costs-and-stocks).
+   The costs incurred by the deliveries and tasks are input individually or globally for the campaign template. See [Calculation of costs and stocks](../../campaign/using/marketing-campaign-deliveries.md#calculation-of-costs-and-stocks).
 
 1. Consolidation
 

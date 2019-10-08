@@ -104,7 +104,7 @@ For each delivery, you can define several types of target:
 * Recipients of the delivery, see [Selecting the main target](../../delivery/using/key-steps-when-creating-a-delivery.md#selecting-the-main-target).
 * Recipient of proof messages, in order to set up a validation cycle, see [Defining a specific proof target](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target).
 * Seed addresses, see [About seed addresses](../../delivery/using/about-seed-addresses.md).
-* Control group - when the delivery is included in a marketing campaign, see [this section](../../campaign/using/setting-up-marketing-campaigns.md#defining-a-control-group).
+* Control group - when the delivery is included in a marketing campaign, see [this section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
 Once the population defined, you can define filtering criteria on the targeted recipients (see [Selecting the main target](../../delivery/using/key-steps-when-creating-a-delivery.md#selecting-the-main-target)) and on the proof recipients (see [Defining a specific proof target](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target)).
 
@@ -478,7 +478,7 @@ The following approval modes are available:
 >
 >Only the delivery owner can start a delivery. In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field.
 >
->Refer to [this section](../../campaign/using/setting-up-marketing-campaigns.md#selecting-reviewers) for further information.
+>Refer to [this section](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers) for further information.
 
 Before sending the delivery, you can define the sending parameters in the delivery properties, via the **[!UICONTROL Delivery]** tab.
 

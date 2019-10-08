@@ -158,7 +158,7 @@ Save your campaign template. You can now use it from the **Campaign packages** v
 
 >[!NOTE]
 >
->Campaign templates and their general configuration are detailed in [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
+>Campaign templates and their general configuration are detailed in [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 ## Creating the campaign package {#creating-the-campaign-package}
 

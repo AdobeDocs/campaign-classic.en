@@ -145,7 +145,11 @@ index: y
        + [Designing marketing campaigns](campaign/using/designing-marketing-campaigns.md)
        + [Accessing marketing campaigns](campaign/using/accessing-marketing-campaigns.md)
   + Orchestrate campaigns {#orchestrate-campaigns}
-       + [Setting up marketing campaigns](campaign/using/setting-up-marketing-campaigns.md)
+       + [Setting up Marketing Campaigns](campaign/using/setting-up-marketing-campaigns.md)
+       + [Marketing Campaigns Templates](campaign/using/marketing-campaign-templates.md)
+       + [Marketing Campaigns Deliveries](campaign/using/marketing-campaign-deliveries.md)
+       + [Marketing Campaigns Approval](campaign/using/marketing-campaign-approval.md)
+       + [Marketing Campaigns Monitoring](campaign/using/marketing-campaign-monitoring.md)
        + [Providers, stocks and budgets](campaign/using/providers--stocks-and-budgets.md)
   + Tasks, resources and budgets {#tasks--resources-and-budgets}
        + [About marketing resource management](campaign/using/about-marketing-resource-management.md)
