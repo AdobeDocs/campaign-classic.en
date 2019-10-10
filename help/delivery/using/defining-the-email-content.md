@@ -137,7 +137,7 @@ Select the format of the email in the lower section of the window:
 
 ## AMP for Email format (Beta) {#amp-for-email-format}
 
-Adobe Campaign enables you to test the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
+Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
 
 >[!CAUTION]
 >
