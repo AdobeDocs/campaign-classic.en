@@ -449,7 +449,7 @@ The selected outline is then displayed in the lower section of the window. It ca
 
 The **[!UICONTROL Summary]** tab of the delivery also displays this information:
 
-![](assets/s_ncs_user_op_select_composition_c.png)-->
+![](assets/s_ncs_user_op_select_composition_c.png)
 
 #### Extraction result {#extraction-result}
 
