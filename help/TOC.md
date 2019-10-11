@@ -11,6 +11,7 @@ index: y
 + Release Notes {#release-notes}
   + [About Release Notes](rn/using/about-release-notes.md)
   + [Control Panel Releases](rn/using/control-panel.md)
+  + [Campaign Mobile SDK](rn/using/mobile-sdk.md)
   + [Release 19.1](rn/using/latest-release.md)
   + [Release 18.10](rn/using/release--18-10.md)
   + [Release 18.6](rn/using/release--18-6.md)
