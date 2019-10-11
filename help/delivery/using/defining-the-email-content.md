@@ -279,7 +279,7 @@ You can also consult the [Tips and known limitations for Gmail](https://develope
 AMP for Email being available as a beta capability, currently you can experiment sending an AMP email in two steps:
 
 1. Adobe Campaign enables you to test delivering an AMP-powered dynamic email to selected email addresses appropriately configured, in order to verify its contents and behavior. See [Testing AMP email delivery for selected addresses](../../delivery/using/defining-the-email-content.md#testing-amp-delivery-for-selected-addresses).
-1. Once tested, you can send a delivery or a campaign as part of the AMP for Email beta program by registering with the relevant email provider(s) to have your sender domain whitelisted. See [Delivering AMP emails by registering with an email provider](../../delivery/using/defining-the-email-content.md##delivering-amp-emails-by-registering).
+1. Once tested, you can send a delivery or a campaign as part of the AMP for Email beta program by registering with the relevant email provider(s) to have your sender domain whitelisted. See [Delivering AMP emails by registering with an email provider](../../delivery/using/defining-the-email-content.md#delivering-amp-emails-by-registering).
 
 #### Testing AMP email delivery for selected addresses {#testing-amp-delivery-for-selected-addresses}
 
