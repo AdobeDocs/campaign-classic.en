@@ -19,12 +19,17 @@ snippet: y
 # Campaign Mobile SDK{#mobile-sdk}
 
 Here you’ll find information about the Campaign Mobile SDK releases. 
-​If you’re running applications on a previous version of the SDK, you need to recompile your applications with the new SDK. 
-To get the SDK, please contact Adobe Customer Care.
+
+
+
 For more information on how to configure and use push notifications, refer to the [dedicated documentation](../../delivery/using/about-mobile-app-channel.md).
 
 ## Build 1.0.26{#build-1-0-26}
 
-11 October 2019
+10 October 2019
 
 The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve added the support of iOS 13. This new version now supports notification priority and the new registration token management process for iOS 13 Push notifications.
+
+If you’re running applications on a previous version of the SDK, you need to recompile your applications with the new SDK. 
+
+To get the SDK, please contact Adobe Customer Care.
