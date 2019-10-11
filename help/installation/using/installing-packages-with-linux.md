@@ -357,7 +357,7 @@ nlserver web
 The following information is then displayed:
 
 ```
-17:11:03 >   Application server for Adobe Campaign Version 7.X (build XXX) of DD/MM/YYYY
+17:11:03 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 17:11:03 >   Web server start (pid=17546, tid=-151316352)...
 17:11:03 >   Creating server configuration file '/usr/local/[INSTALL]/nl6/conf/serverConf.xml' via '/usr/local/[INSTALL]/nl6/conf/fra/serverConf.xml.sample'
 17:11:03 >   Creating server configuration file '/usr/local/[INSTALL]/nl6/conf/config-default.xml' via '/usr/local/[INSTALL]/nl6/conf/models/config-default.xml'
@@ -377,9 +377,9 @@ nlserver start web
 The following information is then displayed:
 
 ```
-12:17:21 >   Application server for Adobe Campaign Version 7.X (build XXX) of DD/MM/YYYY
+12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:17:21 >   Running task 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair') in a new process
-12:17:21 >   Application server for Adobe Campaign Version 7.X (build XXX) of DD/MM/YYYY
+12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:17:21 >   Web server start (pid=29188, tid=-1224824320)...
 12:17:21 >   Creating server configuration file '/usr/local/[INSTALL]/nl6/conf/serverConf.xml' via '/usr/local/[INSTALL]/nl6/conf/fra/serverConf.xml.sample'
 12:17:22 >   Tomcat started
@@ -395,7 +395,7 @@ nlserver stop web
 The following information is then displayed:
 
 ```
-12:18:31 >   Application server for Adobe Campaign Version 7.X (build XXX) of DD/MM/YYYY
+12:18:31 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:18:31 >   Stop requested for 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair', pid=29188, tid=-1224824320)...
 12:18:31 >   Stop requested (pid=29188)
 12:18:31 >   Web server stopped (pid=29188, tid=-1224824320)...
