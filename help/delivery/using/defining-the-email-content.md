@@ -146,11 +146,11 @@ Adobe Campaign enables you to try the new interactive [AMP for Email](https://am
 >
 >Consequently, you can only:
 >* Test delivering AMP emails to specific Gmail addresses appropriately configured.
->* Deliver AMP emails to Gmail adresses after registering with Google.
+>* Deliver AMP emails to any Gmail adress after registering with Google.
 >
->See [AMP for Email delivery requirements for Gmail](../../delivery/using/defining-the-email-content.md#amp-for-email-delivery-requirements-gmail).
+>See [Targeting an AMP email](../../delivery/using/defining-the-email-content.md#targeting-amp-email).
 
-This feature is available through a dedicated package. To use it, this package must be installed. For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the RT server. Contact your account executive.
+This feature is available through a dedicated package. To use it, this package must be installed. For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md). Contact your account executive.
 
 ### About AMP for Email {#about-amp-for-email}
 
@@ -182,7 +182,7 @@ To successfully test sending an AMP email with Adobe Campaign, follow the steps 
 
     >[!NOTE]
     >
-    >Currently you can only test delivering AMP emails to specific email addresses appropriately configured or after registration with the participating email providers.
+    >Currently you can only test delivering AMP emails to specific email addresses appropriately configured or after registration with the email providers participating in the AMP beta program.
 
     See [Targeting an AMP email](../../delivery/using/defining-the-email-content.md#targeting-amp-email).
 
@@ -214,7 +214,7 @@ To build an email using the AMP format, follow the steps below.
     >
     >For more on building your first AMP email, see the [AMP developer documentation](https://amp.dev/documentation/guides-and-tutorials/start/create_email/?format=email).
 
-    For example,  you can use the product list component from the AMP template and maintain a list of products from a third-party system or even inside Adobe Campaign. Whenever you adjust a price or another element, it will be automatically reflected when the recipient opens again the email from their mailbox.
+    For example,  you can use the product list component from the AMP template and maintain a list of products from a third-party system, or even inside Adobe Campaign. Whenever you adjust a price or another element, it will be automatically reflected when the recipient opens again the email from their mailbox.
     <!--(open time personalization)-->
     <!--For more on this, see this [example](../../delivery/using/defining-the-email-content.md#example-amp).-->
 
@@ -262,9 +262,9 @@ To build an email using the AMP format, follow the steps below.
 
 ### AMP for Email delivery requirements for Gmail {#amp-for-email-delivery-requirements-gmail}
 
-When building your AMP content in Adobe Campaign, you must comply with the conditions for an AMP email to be delivered, which are specific to your recipients' email providers.
+When building your AMP content in Adobe Campaign, you must comply with the conditions for a dynamic email to be delivered, which are specific to your recipients' email providers.
 
-All the steps and specifications required to test delivery with AMP format on Gmail accounts are detailed in the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail/testing-dynamic-email).
+Currently only one email provider supports testing this format: Gmail. All the steps and specifications required to test delivery with AMP format on Gmail accounts are detailed in the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail/testing-dynamic-email).
 
 In particular, the following requirements must be met:
 * Follow the [Gmail delivery requirements](https://developers.google.com/gmail/ampemail/testing-dynamic-email) including the [AMP for Email security requirements](https://developers.google.com/gmail/ampemail/security-requirements).
@@ -274,36 +274,38 @@ In particular, the following requirements must be met:
 You can also consult the [Tips and known limitations for Gmail](https://developers.google.com/gmail/ampemail/tips).
 
 
-### Targeting the AMP email {#targeting-amp-email}
+### Targeting an AMP email {#targeting-amp-email}
 
 AMP for Email being available as a beta capability, currently you can experiment sending an AMP email in two ways:
 
-* Unitary test: Adobe Campaign enables you to test delivering an AMP-powered dynamic email to selected email addresses appropriately configured, in order to verify its contents and behavior. See [Testing AMP email delivery for selected addresses](../../delivery/using/defining-the-email-content.md#testing-amp-delivery-for-selected-addresses).
-* Batch test: you can send a delivery or a campaign as part of the AMP for Email beta program by registering with the relevant email provider(s) to have your sender domain whitelisted. See [Testing AMP email delivery by registering with an email provider](../../delivery/using/defining-the-email-content.md#testing-amp-delivery-by-registering).
+* Adobe Campaign enables you to test delivering an AMP-powered dynamic email to selected email addresses appropriately configured, in order to verify its contents and behavior. See [Testing AMP email delivery for selected addresses](../../delivery/using/defining-the-email-content.md#testing-amp-delivery-for-selected-addresses).
+* You can send a delivery or a campaign as part of the AMP for Email beta program by registering with the relevant email provider(s) to have your sender domain whitelisted. See [Testing AMP email delivery by registering with an email provider](../../delivery/using/defining-the-email-content.md#testing-amp-delivery-by-registering).
 
 #### Testing AMP email delivery for selected addresses {#testing-amp-delivery-for-selected-addresses}
 
+You can test sending dynamic messages from Adobe Campaign to selected email addresses.
+
 >[!NOTE]
 >
->Currently only Gmail supports testing this format.
+>Currently only Gmail supports testing the AMP format.
 
-To test sending AMP emails from Adobe Campaign to selected Gmail addresses, you need to:
-* Make sure you target Gmail addresses only.
-* For the corresponding Gmail accounts, whitelist the sender address you are using to deliver from Adobe Campaign. To do this, copy the sender address displayed in the delivery's **[!UICONTROL From]** field. Paste it into the Gmail account settings' appropriate section. See the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail/testing-dynamic-email).
+Before doing so, you must whitelist the sender address you are using to deliver from Adobe Campaign for the relevant Gmail accounts.
+
+To do this, copy the sender address displayed in the delivery's **[!UICONTROL From]** field and paste it into the Gmail account settings' appropriate section. See the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail/testing-dynamic-email).
 
 ![](assets/amp_from_field.png)
 
 #### Testing AMP email delivery by registering with an email provider {#testing-amp-delivery-by-registering}
 
-You can experiment delivering AMP emails by registering with the email providers that take part to the AMP for Email beta program in order to have your sender domain whitelisted.
+You can experiment delivering dynamic emails by registering with the email providers that take part to the AMP beta program in order to have your sender domain whitelisted.
 
 >[!NOTE]
 >
->Currently only Gmail supports this format.
+>Currently only Gmail supports the AMP format.
 
 To send AMP emails to any Gmail address, you must register with Google and await their answer. Follow the steps presented in the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail/register). Make sure you follow the [Registration guidelines](https://developers.google.com/gmail/ampemail/register#registration_guidelines).
 
-### Sending the AMP email {#sending-amp-email}
+### Sending an AMP email {#sending-amp-email}
 
 Once your AMP content and fallback are ready, and once you defined a compatible target, you can send the email as you would normally do.
 
