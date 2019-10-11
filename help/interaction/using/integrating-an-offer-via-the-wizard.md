@@ -90,7 +90,7 @@ The delivery can be personalized using the offer's fields or, in the case of an 
 
 You can also present offers in a delivery using delivery outlines.
 
-For more information on delivery outlines, refer to the [Campaign - MRM](../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline) guide.
+For more information on delivery outlines, refer to the [Campaign - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline) guide.
 
 1. Create a new campaign or access an existing campaign.
 1. Access the delivery outlines via the campaign's **[!UICONTROL Edit]** > **[!UICONTROL Documents]** tab.

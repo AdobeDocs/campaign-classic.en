@@ -32,7 +32,7 @@ To do this:
 
 The configuration process for this activity is similar to that of creating a delivery template in terms of the options available. For more on this, refer to this [section](../../delivery/using/about-templates.md).
 
-For an example of this activity being used, refer to this [section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+For an example of this activity being used, refer to this [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 >[!NOTE]
 >
