@@ -218,7 +218,7 @@ To build an email using the AMP format, follow the steps below.
     <!--(open time personalization)-->
     <!--For more on this, see this [example](../../delivery/using/defining-the-email-content.md#example-amp).-->
 
-1. Personalize your AMP content as needed, as you would usually do with HTML format in Adobe Campaign, with personalization fields and content blocks.
+1. Personalize your AMP content as needed, as you would usually do with HTML format in Adobe Campaign, with personalization fields and personalization blocks.
 
     ![](assets/amp_tab_perso.png)
 
@@ -264,10 +264,10 @@ To build an email using the AMP format, follow the steps below.
 
 When building your AMP content in Adobe Campaign, you must comply with the conditions for a dynamic email to be delivered, which are specific to your recipients' email providers.
 
-Currently only one email provider supports testing this format: Gmail. All the steps and specifications required to test delivery with AMP format on Gmail accounts are detailed in the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail/testing-dynamic-email).
+Currently only one email provider supports testing this format: Gmail. All the steps and specifications required to test delivery with AMP format on Gmail accounts are detailed in the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail?).
 
 In particular, the following requirements must be met:
-* Follow the [Gmail delivery requirements](https://developers.google.com/gmail/ampemail/testing-dynamic-email) including the [AMP for Email security requirements](https://developers.google.com/gmail/ampemail/security-requirements).
+* Follow the [Gmail delivery requirements](https://developers.google.com/gmail/ampemail/testing-dynamic-email?#delivery_requirements) including the [AMP for Email security requirements](https://developers.google.com/gmail/ampemail/security-requirements).
 * The AMP MIME part must contain a [valid AMP document](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email).
 * The AMP MIME part must be smaller than 100KB.
 
@@ -279,7 +279,7 @@ You can also consult the [Tips and known limitations for Gmail](https://develope
 AMP for Email being available as a beta capability, currently you can experiment sending an AMP email in two ways:
 
 * Adobe Campaign enables you to test delivering an AMP-powered dynamic email to selected email addresses appropriately configured, in order to verify its contents and behavior. See [Testing AMP email delivery for selected addresses](../../delivery/using/defining-the-email-content.md#testing-amp-delivery-for-selected-addresses).
-* You can send a delivery or a campaign as part of the AMP for Email beta program by registering with the relevant email provider(s) to have your sender domain whitelisted. See [Testing AMP email delivery by registering with an email provider](../../delivery/using/defining-the-email-content.md#testing-amp-delivery-by-registering).
+* You can send a delivery or a campaign as part of the AMP for Email beta program by registering with the relevant email provider(s) to have your sender domain whitelisted. See [Delivering AMP emails by registering with an email provider](../../delivery/using/defining-the-email-content.md##delivering-amp-emails-by-registering).
 
 #### Testing AMP email delivery for selected addresses {#testing-amp-delivery-for-selected-addresses}
 
@@ -295,7 +295,7 @@ To do this, copy the sender address displayed in the delivery's **[!UICONTROL Fr
 
 ![](assets/amp_from_field.png)
 
-#### Testing AMP email delivery by registering with an email provider {#testing-amp-delivery-by-registering}
+#### Delivering AMP emails by registering with an email provider {#delivering-amp-emails-by-registering}
 
 You can experiment delivering dynamic emails by registering with the email providers that take part to the AMP beta program in order to have your sender domain whitelisted.
 
