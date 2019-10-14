@@ -64,7 +64,7 @@ If you need to use several channels, you must install and configure related pack
 Adding a delivery channel (mobile channel, Mobile App channel, etc.) must be performed before installing the Transactional message package. If you have started a transactional messaging project on the email channel, then decide during the project to add a new channel, you must follow these steps:
 
 1. Install the channel you need, for example the **Mobile channel**, using the package import wizard ( **[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]** ).
-1. Perform a file import ( **[!UICONTROL Tools > Advanced > Import package... > File]** ), and select the **datakitnms**[Your language]**packagemessageCenter.xml** file.
+1. Perform a file import ( **[!UICONTROL Tools > Advanced > Import package... > File]** ), and select the **datakitnms**`[Your language]`**packagemessageCenter.xml** file.
 1. In the **[!UICONTROL XML content of the data to import]** , keep only the delivery template that corresponds to the added channel. For example, if you have added the **Mobile channel**, keep only the **entities** element that corresponds to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). If you have added the **Mobile App Channel**, keep only the **iOS transactional message** (iosTriggerMessage) and the **Android transactional message** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)

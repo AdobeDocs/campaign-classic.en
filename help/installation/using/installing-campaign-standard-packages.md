@@ -26,7 +26,7 @@ Packages are a set of features that can be installed according to your needs. Th
 >
 >You may only install packages corresponding the options mentioned in your license contract.
 >
->Once a package is installed, you cannot uninstall it. Be cautious while installing a new package as it can impact your platform.
+>Once a package is installed, you cannot uninstall it. Installing a new package can impact all your platform: it must be tested and validated before final deployment.
 
 To install a standard package:
 
