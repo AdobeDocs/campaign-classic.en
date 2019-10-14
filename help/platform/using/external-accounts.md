@@ -376,6 +376,10 @@ As you are setting up this new external account, you need to provide the followi
 
   To know where to find your secret access key to AWS, refer to this [page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
+* **[!UICONTROL AWS Region]**
+
+  To learn more on AWS region, refer to this [page](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
+
 * The **[!UICONTROL Use server side encryption]** checkbox allows you to store your file in S3 encrypted mode.
 
 To learn where to find the access key ID and secret access key, refer to Amazon Web services [documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
