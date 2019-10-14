@@ -43,7 +43,9 @@ First, we need to configure or check the external accounts in Adobe Campaign as 
 
    >[!NOTE]
    >
-   >You can change the external account's **[!UICONTROL Type]** from SFTP to S3 if needed.
+   >If you are using S3, enter your **[!UICONTROL AWS S3 Account Server]** following this syntax:   
+     `<S3bucket name>.s3.amazonaws.com/<s3object path>`     
+     For more information on how to configure your S3 account, refer to this [page](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account).
 
    ![](assets/aam_config_2.png)
 
