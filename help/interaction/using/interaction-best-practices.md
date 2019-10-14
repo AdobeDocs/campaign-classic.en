@@ -30,7 +30,7 @@ Below are listed important elements that should be kept in mind when implementin
 
 * For batch engine (typically used in outbound communications like email), throughput is the main concern, as multiple contacts can be handled at the same time. The typical bottleneck is database performance.
 * The main constraint for unitary engine (typically used in inbound communications like a banner on a web site) is latency, as someone is expecting an answer. The typical bottleneck is CPU performance.
-* The offer catalogue design has a huge impact on Adobe Campaign Classic performance.
+* The offer catalog design has a huge impact on Adobe Campaign Classic performance.
 
 ## Eligibility rules {#eligibility-rules}
 

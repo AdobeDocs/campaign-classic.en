@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Building a workflow{#building-a-workflow}
+# Building a workflow {#building-a-workflow}
 
 This section details the key principles and best practices to build a workflow in Campaign.
 
@@ -58,10 +58,10 @@ You must now define the various activities and link them together in the diagram
 
 Activities are grouped by category inside the different tabs of the palette. Available tabs and activities can vary depending on the workflow type (technical, targeting or campaign workflow).
 
-* The first tab contains targeting and data manipulation activities. These activities are detailed in [Targeting activities](../../workflow/using/about-action-activities.md#targeting-activities).
-* The second tab contains the scheduling activities, which are mainly used for coordinating other activities. These activities are detailed in [Flow control activities](../../workflow/using/about-action-activities.md#flow-control-activities).
-* The third tab contains tools and actions that can be used in the workflow. These activities are detailed in [Action activities](../../workflow/using/about-action-activities.md#action-activities).
-* The fourth tab contains activities that depend on a given event, such as the receipt of an email or the arrival of a file on a server. These activities are detailed in [Event activities](../../workflow/using/about-action-activities.md#event-activities).
+* The first tab contains targeting and data manipulation activities. These activities are detailed in [Targeting activities](../../workflow/using/about-targeting-activities.md).
+* The second tab contains the scheduling activities, which are mainly used for coordinating other activities. These activities are detailed in [Flow control activities](../../workflow/using/about-flow-control-activities.md).
+* The third tab contains tools and actions that can be used in the workflow. These activities are detailed in [Action activities](../../workflow/using/about-action-activities.md).
+* The fourth tab contains activities that depend on a given event, such as the receipt of an email or the arrival of a file on a server. These activities are detailed in [Event activities](../../workflow/using/about-event-activities.md).
 
 To create the diagram
 
@@ -81,6 +81,10 @@ To create the diagram
 
    ![](assets/new-workflow-5.png)
 
+>[!CAUTION]
+>
+>You can copy and paste activities within a same workflow. However, we do not recommend to copy paste activities across different workflows. Some settings attached to activities like Deliveries and Scheduler could lead to conflicts and errors while executing the destination workflow. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](../../workflow/using/building-a-workflow.md#duplicating-workflows).
+
 ### Additional layout options {#additional-layout-options}
 
 You can change the display and layout of the chart using the following elements:
@@ -95,7 +99,7 @@ You can change the display and layout of the chart using the following elements:
 
   ![](assets/s_user_segmentation_toolbar.png)
 
-  Icons related to tracking and launching an advanced targeting workflow are detailed in this [section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-targeting-workflow).
+  Icons related to tracking and launching an advanced targeting workflow are detailed in this [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
 
 * **Object alignment**
 
@@ -181,7 +185,7 @@ All campaign workflows are centralized under the **[!UICONTROL Administration > 
 
 ![](assets/campaigns_wf.png)
 
-Campaign workflows and implementation examples are detailed in this [page](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow).
+Campaign workflows and implementation examples are detailed in this [page](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
 ## Technical workflows {#technical-workflows}
 
@@ -211,7 +215,52 @@ Workflow templates are stored in the **[!UICONTROL Resources > Templates > Workf
 
 ![](assets/s_advuser_wf_template_tree.png)
 
-In addition to the usual workflow properties, the template properties allow you to specify the execution file for workflows created based on this template. 
+In addition to the usual workflow properties, the template properties allow you to specify the execution file for workflows created based on this template.
 
 ![](assets/s_advuser_wf_template_properties.png)
 
+## Duplicating workflows {#duplicating-workflows}
+
+You can duplicate different types of workflows. Once duplicated, modifications of the workflow are not carried over to the copy of the workflow.
+
+>[!CAUTION]
+>
+>Copy-paste is available in workflows but we recommend you to use **Duplicate**. Once an activity copied, its whole configuration is kept. For delivery activities (Email, SMS, Push Notification...), the delivery object attached to the activity is also copied which can lead to crash.
+
+1. Right-click on a workflow.
+1. Click **Duplicate**.
+
+     ![](assets/duplicate-workflows.png)
+
+1. In the workflow window, change the workflow label.
+1. Click **Save**.
+
+The duplicate feature is not directly available in the view of a campaign.
+
+Yet, you can create a view to display all the workflows on your instance. In this view, you can duplicate workflows using **Duplicate to**.
+
+**First, let's create a view:**
+
+1. In **Explorer**, go to the folder you need to create your view in.
+1. Right-click and go to **Add a new folder** > **Process**, select **Workflows**.
+
+    ![](assets/add-new-folder-workflows.png)
+
+The new folder **Workflows** is created.
+
+1. Right-click and select **Properties**.
+1. In **Restriction**, check **Folder is a view** and click **Save**.
+
+    ![](assets/folder-is-a-view.png)
+
+The folder is now populated with all the workflows of your instance.
+
+**Duplicating a campaign workflow**
+
+1. Select a campaign workflow in the workflow view.
+1. Right-click **Duplicate to**.
+    ![](assets/duplicate-to-right-click.png)
+1. Change its label.
+1. Click **Save**.
+
+You can see your duplicated workflow in the workflow view.

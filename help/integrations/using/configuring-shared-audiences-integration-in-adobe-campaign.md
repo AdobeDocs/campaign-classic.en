@@ -67,10 +67,10 @@ To configure the **[!UICONTROL Recipient - Visitor ID]** data source:
 
 For the configuration of the integration with People Core service or Audience manager, we also need to configure Campaign Tracking server.
 
-You need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name delegation in [this article](https://helpx.adobe.com/campaign/kb/domain-name-delegation.md).
+You need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name delegation in [this article](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
 ## Step 4: Configure the Visitor ID Service {#step-4--configure-the-visitor-id-service}
 
-In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.md#step-two) .
+In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) .
 
 Your configuration and provisioning are finalized, the integration can now be used to import and export audiences or segments.

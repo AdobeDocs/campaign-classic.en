@@ -112,3 +112,6 @@ We want to send a first offer proposition belonging to the Canada category. If t
 
    ![](assets/offer_typology_example_019.png)
 
+**Related topic**
+
+* [Manage offers and control redundancy across channels](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Manageoffersandcontrolredundancyacrosschannels)

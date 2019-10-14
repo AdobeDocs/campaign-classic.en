@@ -2,7 +2,7 @@
 product: Adobe Campaign Classic
 audience: end-user
 user-guide-title: Adobe Campaign Classic Help
-index: n
+index: y
 ---
 
 # Adobe Campaign Classic Help {#using}
@@ -11,11 +11,13 @@ index: n
 + Release Notes {#release-notes}
   + [About Release Notes](rn/using/about-release-notes.md)
   + [Control Panel Releases](rn/using/control-panel.md)
+  + [Campaign Mobile SDK](rn/using/mobile-sdk.md)
   + [Release 19.1](rn/using/latest-release.md)
   + [Release 18.10](rn/using/release--18-10.md)
   + [Release 18.6](rn/using/release--18-6.md)
   + [Release 18.4](rn/using/release--18-4.md)
   + [Legacy Release Notes](rn/using/legacy-release-notes.md)
+  + [Documentation Updates](rn/using/documentation-updates.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -144,7 +146,11 @@ index: n
        + [Designing marketing campaigns](campaign/using/designing-marketing-campaigns.md)
        + [Accessing marketing campaigns](campaign/using/accessing-marketing-campaigns.md)
   + Orchestrate campaigns {#orchestrate-campaigns}
-       + [Setting up marketing campaigns](campaign/using/setting-up-marketing-campaigns.md)
+       + [Setting up Marketing Campaigns](campaign/using/setting-up-marketing-campaigns.md)
+       + [Marketing Campaigns Templates](campaign/using/marketing-campaign-templates.md)
+       + [Marketing Campaigns Deliveries](campaign/using/marketing-campaign-deliveries.md)
+       + [Marketing Campaigns Approval](campaign/using/marketing-campaign-approval.md)
+       + [Marketing Campaigns Monitoring](campaign/using/marketing-campaign-monitoring.md)
        + [Providers, stocks and budgets](campaign/using/providers--stocks-and-budgets.md)
   + Tasks, resources and budgets {#tasks--resources-and-budgets}
        + [About marketing resource management](campaign/using/about-marketing-resource-management.md)
@@ -366,6 +372,10 @@ index: n
        + [Designing queries](workflow/using/designing-queries.md)
        + [Sending personalized alerts to operators](workflow/using/sending-personalized-alerts-to-operators.md)
        + [Email enrichment with custom date fields](workflow/using/email-enrichment-with-custom-date-fields.md)
+  + Monitoring workflows {#monitoring-workflows}
+       + [Monitoring workflow execution](workflow/using/monitoring-workflow-execution.md)
+       + [Monitoring technical workflows](workflow/using/monitoring-technical-workflows.md)
+       + [Workflow HeatMap](workflow/using/heatmap.md)
   + Advanced management {#advanced-management}
        + [Workflow properties](workflow/using/workflow-properties.md)
        + [Advanced parameters](workflow/using/advanced-parameters.md)
@@ -536,7 +546,7 @@ index: n
        + [Creating and configuring the database](installation/using/creating-and-configuring-the-database.md)
        + [Campaign server configuration](installation/using/campaign-server-configuration.md)
        + [Deploying an instance](installation/using/deploying-an-instance.md)
-       + [Installing Campaign Standard packages](installation/using/installing-campaign-standard-packages.md)
+       + [Installing Campaign Classic standard packages](installation/using/installing-campaign-standard-packages.md)
   + Additional configurations {#additional-configurations}
        + [Configuring Campaign server](installation/using/configuring-campaign-server.md)
        + [Connecting through LDAP](installation/using/connecting-through-ldap.md)

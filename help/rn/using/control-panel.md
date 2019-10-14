@@ -35,10 +35,6 @@ Additionally, Admin users can now view the list of instances and eligibility for
 
 For more information, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html).
 
->[!NOTE]
->
->These updates will be available on September 16th.
-
 ## August 2019{#august-2019}
 
 26 August 2019

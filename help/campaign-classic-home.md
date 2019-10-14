@@ -3,10 +3,82 @@ keywords: Campaign Classic;home;popular topics
 seo-title: Adobe Campaign Classic product documentation
 solution: Campaign Classic
 title: Adobe Campaign Classic product documentation
-products: SG_CAMPAIGN/CLASSIC
 topic: Premium
 ---
 
 # Help Center {#campaign-classic-documentation}
 
 Learn the basics and refine your skills with Adobe Campaign Classic product documentation.
+
+## What's New
+
+* **[Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>
+Understand tracking capabilities in Campaign
+
+* **[Maintenance guide](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>
+Learn how to monitor your Campaign instance and processes
+
+* **[Audit trail](production/using/audit-trail.md)**<br/>
+Learn how to access the complete history of changes in your Campaign instance
+
+* **[Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)**<br/>
+Learn how to manage settings and track usage of your Campaign instance
+
+[Click here for more updates](/help/rn/using/documentation-updates.md)
+
+## Top pages
+
+<table>
+<tr>
+  <td>
+    <a href="platform/using/common-questions.md">
+      <img alt="FAQ" src="platform/using/assets/FAQ.png"/>
+    </a>
+    <div>
+      <a href="platform/using/common-questions.md">
+    <strong>Frequently Asked Questions</strong>
+    </a>
+    </div>
+    <p>
+    <em>Find answers to common questions when using Campaign Classic</em>
+    <p>
+  </td>
+   <td>
+    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+      <img alt="Build Upgrade" src="platform/using/assets/upgrade.png" />
+    </a>
+    <div>
+      <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+    <strong>Upgrade to the latest build</strong>
+    </a>
+    </div>
+    <p>
+    <em>Learn key steps and best practices to perform a build upgrade</em>
+    <p>
+  </td>
+  <td>
+    <a href="delivery/using/creating-notifications.md">
+       <img alt="Push notifications" src="platform/using/assets/push.png" />
+    </a>
+    <div>
+       <a href="delivery/using/creating-notifications.md">
+    <strong>Send push notifications</strong>
+    </a>
+    </div>
+    <p>
+    <em>Design and send personalized push notifications on mobiles</em>
+    <p>
+  </td>
+</tr>
+</table>
+
+
+## Additional Resources
+
+* [Release notes](/help/rn/using/about-release-notes.md)
+
+* [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+
+* [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+
+* [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html)

@@ -256,7 +256,7 @@ Discover easy use cases to [import profiles](../../platform/using/importing-data
 
 ### How can I define the target population of a marketing campaign? {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
-You can [use workflows to create target population](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow) of a marketing campaign. Learn how to create a targeting workflow in a campaign through [this video](https://docs.campaign.adobe.com/doc/AC/en/Videos/workflow_campaign.mp4).
+You can [use workflows to create target population](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) of a marketing campaign. Learn how to create a targeting workflow in a campaign through [this video](https://docs.campaign.adobe.com/doc/AC/en/Videos/workflow_campaign.mp4).
 
 ### How can I create a list of profiles? {#how-can-i-create-a-list-of-profiles-}
 
@@ -525,7 +525,7 @@ In addition to the [Deliverability getting started guide](http://docs.campaign.a
 
 Campaign lets you set up approval processes for the main steps of the marketing campaign, in collaborative mode. For each campaign you can approve the delivery target, contents and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a Web connection.
 
-[Click here to learn more](../../campaign/using/setting-up-marketing-campaigns.md#checking-and-approving-deliveries) and discover steps to implement your delivery content approval in Campaign.
+[Click here to learn more](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries) and discover steps to implement your delivery content approval in Campaign.
 
 ### How can I access data stored in an external database? {#how-can-i-access-data-stored-in-an-external-database-}
 

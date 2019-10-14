@@ -18,26 +18,47 @@ snippet: y
 
 # Release 19.1{#release-19-1}
 
+## Release 19.1.6 - Build 9035{#release-19-1-6-build-9035}
+
+3 October 2019
+
+**Improvements**
+
+* Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
+* Fixed an index issue which could cause performance issues when sending transactional messages.
+* Fixed a performance isssue when sending messages. (NEO-17558)
+* Fixed an issue which could lead to certain messages not being processed by the Mid-Sourcing server. (NEO-12395)
+* Fixed an issue which prevented the full use of the SQL Data Management activity (the "SQL Data Management" named right was missing).
+
 ## Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
 13 August 2019
 
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+
 **Improvements**
 
-* Fixed an issue with the SQL statement 'SELECT COUNT' which was executed on the default database rather than the FDA database during Data extraction in Data Management activity.(NEO-14551)
-* To improve customer infrastructure capabilities, an SFTP proxy declaration is now available in the server configuration file.(NEO-12546)
-* Fixed a Client console crash when "adding a linked table" in the Data Loading (RDBMS) workflow activity with no table name.(NEO-12213)
-* Fixed an issue with the midEmetter package installation through command line. (NEO-12728)
-* A new authentication option has been added to support OAuth credentials within the AC connector with Microsoft Dynamics.(NEO-11982)
-* Fixing issue with UUID (Unique Universal Identifier) cause enrichment activity to fail withHive FDA.(NEO-12273)
+* Fixed an issue with the SQL statement 'SELECT COUNT' which was executed on the default database rather than the FDA database during Data extraction in Data Management activity.
+* To improve customer infrastructure capabilities, an SFTP proxy declaration is now available in the server configuration file.
+* Fixed a Client console crash when "adding a linked table" in the Data Loading (RDBMS) workflow activity with no table name. (NEO-12213)
+* Fixed an issue with the midEmetter package installation through command line.
+* A new authentication option has been added to support OAuth credentials within the AC connector with Microsoft Dynamics. (NEO-11982)
+* Fixing issue with UUID (Unique Universal Identifier) cause enrichment activity to fail withHive FDA.
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
 13 August 2019
 
 **Improvements**
-
+  
 * Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
+
+**September 19th 2019**: this build has been recalled and replaced with 9032-cee805c93 which includes the following fixes:
+
+* Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
+* Fixed an index issue which could cause performance issues when sending transactional messages.
 
 ## Release 19.1.3 - Build 9031{#release-19-1-3-build-9031}
 
@@ -66,7 +87,7 @@ snippet: y
 
 * Fixed a regression linked to sdomain column management which prevented emails from being sent on certain configurations. 
 * To improve performance, a _operation="none" attribute has been added to rtEvent SOAP calls to avoid "SELECT FOR UPDATE" requests.
-* Fixed a workflow display issue with outbound transitions after a Test activity. (NEO-12727)
+* Fixed a workflow display issue with outbound transitions after the Test activity. (NEO-12727)
 * We now allow the deletion of dummy records created in Microsoft Dynamics during import workflow.
 * Improved permissions to execute the security zone package when using internal account.
 
@@ -90,7 +111,7 @@ snippet: y
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> <p>To increase efficiency in your work as an Admin user, manage settings of your SFTP servers by monitoring storage, whitelisting IP addresses, and installing SSH keys for each instance. Please note Control Panel is only available for customers hosted on AWS as of today (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">login through the Experience Cloud today</a>).</p> <p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.md">how-to video</a>. </p><p>Note: upgrading to the latest Campaign build is not required to access the Control Panel.</p> </td> 
+   <td> <p>To increase efficiency in your work as an Admin user, manage settings of your SFTP servers by monitoring storage, whitelisting IP addresses, and installing SSH keys for each instance. Please note Control Panel is only available for customers hosted on AWS as of today (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">login through the Experience Cloud today</a>).</p> <p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.html">how-to video</a>. </p><p>Note: upgrading to the latest Campaign build is not required to access the Control Panel.</p> </td> 
   </tr> 
     <tr> 
    <td> Audit trail<br /> </td> 
@@ -102,11 +123,11 @@ snippet: y
   </tr> 
   <tr> 
    <td> Secure SMS Messaging (TLS)<br /> </td> 
-   <td> <p>Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.</p> <p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.md">detailed documentation</a>. </p> </td> 
+   <td> <p>Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.</p> <p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html">detailed documentation</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> Compatibility Matrix Update<br /> </td> 
-   <td> With this new version, Adobe Campaign now supports the following database systems. Refer to the <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.md">Compatibility Matrix</a>.<br /> 
+   <td> With this new version, Adobe Campaign now supports the following database systems. Refer to the <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Compatibility Matrix</a>.<br /> 
     <ul> 
      <li> <p>Oracle 18c</p> </li> 
      <li> <p>MySQL 5.7 (FDA)</p> </li> 
@@ -136,7 +157,7 @@ snippet: y
 
 **Guardrail, robustness &amp; scalability improvements**
 
-* Lifespan - XtkNewId sequence usage optimization: the most consuming tables have been moved from the xtkNewId sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.md#Switchtoadedicatedsequence ) 
+* Lifespan - XtkNewId sequence usage optimization: the most consuming tables have been moved from the xtkNewId sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence ) 
 * FDA over HTTP v2: the FDA over HTTP protocol is widely used on Hybrid deployments, especially for broadLog retrieval and delivery preparation. Robustness has been enhanced to avoid network issues and possible errors as retrieving or pushing data. This requires that builds at both ends of the connection are up-to-date, otherwise the old protocol will still be used.
 * Tracking workflow: the tracking workflow robustness has been enhanced. Several issues related to tracking log inserts/updates and URL tracking customization have been fixed.
 * Cleanup workflow: the cleanup workflow has been improved to avoid potential errors and stops. This optimizes database size and performance.
