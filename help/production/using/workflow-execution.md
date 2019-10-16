@@ -42,7 +42,7 @@ There can be several causes for this issue, follow the steps below to solve it:
 
     If the workflow still fails, check the audit log for specific error, troubleshoot accordingly, then restart the workflow again.
 
-1. Check the **[!UICONTROL wfserver]** module state in the **[!UICONTROL Monitoring]** tab, accessible from Campaign Classic homepage (see [Monitoring processes](../../production/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html)). This process is responsible for running all workflows. 
+1. Check the **[!UICONTROL wfserver]** module state in the **[!UICONTROL Monitoring]** tab, accessible from Campaign Classic homepage (see [Monitoring processes](../../production/using/monitoring-processes.md)). This process is responsible for running all workflows.
 
     An admin user can also check that the **wfserver@`<instance>`** module is launched on your main application server using the command below.
 
