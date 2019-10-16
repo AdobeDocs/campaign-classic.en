@@ -85,7 +85,7 @@ If workflows aren't executing and their status is **Start in progress**, this mi
 
 To check this and to start the module if necessary, apply the following steps:
 
-1. Check the **[!UICONTROL wfserver]** module state in the **[!UICONTROL Monitoring]** tab, accessible from Campaign Classic homepage (see [Monitoring processes](../../production/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html)).
+1. Check the **[!UICONTROL wfserver]** module state in the **[!UICONTROL Monitoring]** tab, accessible from Campaign Classic homepage (see [Monitoring processes](../../production/using/monitoring-processes.md)).
     
     An admin user can also check that the **wfserver@`<instance>`** module is launched on your main application server using the command below.
 
