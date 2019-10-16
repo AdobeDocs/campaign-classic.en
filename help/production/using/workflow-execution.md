@@ -18,8 +18,13 @@ snippet: y
 
 # Workflow execution{#workflow-execution}
 
-Workflow execution cycle is presented in [this section](../../workflow/using/executing-a-workflow.md).
-For more on best practices when using workflows, refer to [this section](../../workflow/using/workflow-best-practices.md)
+The section below presents information on common issues related to workflows execution and how to troubleshoot them.
+
+For more information on workflows, refer to these sections:
+
+* [About workflows](../../workflow/using/about-workflows.md)
+* [Executing a workflow](../../workflow/using/executing-a-workflow.md)
+* [Best practices when using workflows](../../workflow/using/workflow-best-practices.md)
 
 ## Start as soon as possible in campaigns {#start-as-soon-as-possible-in-campaigns}
 
@@ -37,9 +42,30 @@ There can be several causes for this issue, follow the steps below to solve it:
 
     If the workflow still fails, check the audit log for specific error, troubleshoot accordingly, then restart the workflow again.
 
-1. Check the **[!UICONTROL wfserver]** module state in the **[!UICONTROL Monitoring]** tab,accessible from Campaign Classic homepage (see [Monitoring processes](../../production/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html)).
+1. Check the **[!UICONTROL wfserver]** module state in the **[!UICONTROL Monitoring]** tab, accessible from Campaign Classic homepage (see [Monitoring processes](../../production/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html)). This process is responsible for running all workflows. 
 
-    This process is responsible for running all workflows. If it is not running, contact Adobe Customer Care. If you have an on-premise installation, restart the service (detailed procedure is described [here](../../production/using/workflow-execution.md#start-in-progress)).
+    An admin user can also check that the **wfserver@`<instance>`** module is launched on your main application server using the command below.
+
+   ```
+   nlserver pdump
+   HH:MM:SS > Application server for Adobe Campaign Version X.Y (build XXXX) of DD/MM/YYYY
+   [...]
+   wfserver@<INSTANCENAME> (9340) - 11.3 Mb
+   [...]
+   ```
+
+    If the module is not running, contact Adobe Customer Care. If you have an on-premise installation, an admin user must restart the service using the command below.
+
+   ```
+   nlserver start wfserver@<INSTANCENAME>
+   ```
+
+   >[!NOTE]
+   >
+   >Replace **`<instancename>`** with the name of your instance (production, development, etc.). The instance name is identified via the configuration files:
+   >`[path of application]nl6/conf/config-<instancename>.xml`
+
+    For more on how to restart modules, refer to [this section](../../production/using/usual-commands.md#module-launch-commands).
 
 1. Check if the **number of campaign processes running** on the instance is more than the threshold. There is a limit defined by the [**[!UICONTROL NmsOperation_LimitConcurrency]**](../../installation/using/configuring-campaign-options.md#campaign-e-workflow-management) option on how many campaign processes can run on the instance in parallel. When this limit is reached, the workflow stays in the "Start as soon as possible" state as long as the number of workflows running is above the limit.
 
@@ -59,7 +85,9 @@ If workflows aren't executing and their status is **Start in progress**, this mi
 
 To check this and to start the module if necessary, apply the following steps:
 
-1. Check that your **wfserver@`<instance>`** modules are launched on your main application server.
+1. Check the **[!UICONTROL wfserver]** module state in the **[!UICONTROL Monitoring]** tab, accessible from Campaign Classic homepage (see [Monitoring processes](../../production/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html)).
+    
+    An admin user can also check that the **wfserver@`<instance>`** module is launched on your main application server using the command below.
 
    ```
    nlserver pdump
@@ -69,7 +97,9 @@ To check this and to start the module if necessary, apply the following steps:
    [...]
    ```
 
-1. If the workflow server is not listed, start it using the following command:
+    For more on how to monitor modules, refer to [this section](../../production/using/usual-commands.md#monitoring-commands-).
+
+1. If the module is not running, contact Adobe Customer Care. If you have an on-premise installation, an admin must restart it using the command below.
 
    ```
    nlserver start wfserver@<INSTANCENAME>
@@ -77,13 +107,15 @@ To check this and to start the module if necessary, apply the following steps:
 
    >[!NOTE]
    >
-   >Replace **`<instancename>`** with the name of your instance (production, development, etc.). The instance name is identified via the configuration files:   
+   >Replace **`<instancename>`** with the name of your instance (production, development, etc.). The instance name is identified via the configuration files:
    >`[path of application]nl6/conf/config-<instancename>.xml`
+
+    For more on how to restart modules, refer to [this section](../../production/using/usual-commands.md#module-launch-commands).
 
 ## Failed workflow {#failed-workflow}
 
 If a workflow fails, take the following steps:
 
 1. Check the workflow journal. For more on this, refer to the [Monitoring workflow execution](../../workflow/using/monitoring-workflow-execution.md) and [Display logs](../../workflow/using/monitoring-workflow-execution.md#displaying-logs) sections.
-1. Monitor technical workflows. For more on this refer to the [this section](../../workflow/using/monitoring-technical-workflows.md).p
+1. Monitor technical workflows. For more on this refer to the [this section](../../workflow/using/monitoring-technical-workflows.md).
 1. Look for failures on the individual workflow activities.
