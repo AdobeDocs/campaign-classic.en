@@ -186,7 +186,7 @@ To successfully test and send an AMP email with Adobe Campaign, follow the steps
 
     See [Targeting an AMP email](../../delivery/using/defining-the-email-content.md#targeting-amp-email).
 
-1. Send your email a you would usually do. See [Sending an AMP email](../../delivery/using/defining-the-email-content.md#sending-amp-email).
+1. Send your email as you would usually do. See [Sending an AMP email](../../delivery/using/defining-the-email-content.md#sending-amp-email).
 
 ### Building AMP email content in Adobe Campaign {#build-amp-email-content}
 
