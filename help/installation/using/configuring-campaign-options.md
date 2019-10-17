@@ -20,6 +20,10 @@ snippet: y
 
 The **[!UICONTROL Administration / Platform / Options]** node allows you to configure Adobe Campaign options.
 
+>[!NOTE]
+>
+>Modifying or updating Adobe Campaign options can be performed by experts users only.
+
 Some of them are built-in when installing Campaign, and others can be added manually when needed. Available options vary according to the packages installed with your instance.
 
 ## Delivery {#delivery}
