@@ -56,7 +56,7 @@ You can import a population into a list, then target this list in deliveries.
 
 1. In the **[!UICONTROL Main target]** tab, select the **[!UICONTROL Defined via the database]** option and click **[!UICONTROL Add]** to select recipients.
 
-    ![](assets/s_user_target_group_add.png)
+![](assets/s_user_target_group_add.png)
 
 1. Choose **[!UICONTROL A list of recipients]** and click **[!UICONTROL Next]** to select it.
 
@@ -449,7 +449,7 @@ The selected outline is then displayed in the lower section of the window. It ca
 
 The **[!UICONTROL Summary]** tab of the delivery also displays this information:
 
-![](assets/s_ncs_user_op_select_composition_c.png)
+![](assets/s_ncs_user_op_select_composition_c.png)-->
 
 #### Extraction result {#extraction-result}
 
