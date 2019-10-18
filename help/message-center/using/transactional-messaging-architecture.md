@@ -226,10 +226,10 @@ Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UI
 
 ## Limitations {#transactional-messaging-limitations}
 
-* Customers and partners are not allowed to connect directly to any execution instances. Marketing users do not have direct access to any execution instance.
+* Marketing users do not have direct access to any execution instance.
 * Adobe does not allow any customization of the execution instance(s).
 * Quarantines are not synchronized between execution instances (when more than one).
 It is not possible to rollback a deployment or remove published elements from the control instance. This has to be done by Adobe on the execution instance directly.
 * Checking the status of an event from an external system is only possible from the control instance, which is updated on an hourly basis.
-* Sending through a different channel in case of failure is only possible from the control instance with a workflow checking failed events.
+* Sending through a different channel in case of failure is only possible from the control instance with a workflow checking failed events. See [Event recycling](../../message-center/using/event-recycling.md).
 * Execution instances are separate databases from the control instance. Consequently, to personalize a transactional delivery, the external system will need to provide all the personalization details as part of the final payload.
