@@ -36,7 +36,7 @@ Once IMS is enabled, you can request provisioning of the People core service/Aud
   </tr> 
   <tr> 
    <td> <strong>IMS Org ID</strong><br /> </td> 
-   <td> Your IMS Org ID. <br> You can find your IMS Org ID on the Experience Cloud, in the **[!UICONTROL Administration]** menu. It is also provided when you first connect to the Adobe Experience Cloud. </td> 
+   <td> Your IMS Org ID* </td> 
   </tr> 
   <tr> 
    <td> <strong>Environment:</strong><br /> </td> 
@@ -47,7 +47,7 @@ Once IMS is enabled, you can request provisioning of the People core service/Aud
    <td> Example: Adobe Audience Manager </td> 
   </tr> 
   <tr> 
-   <td> <strong>Declared ID* or Visitor ID</strong><br /> </td> 
+   <td> <strong>Declared ID or Visitor ID</strong><br /> </td> 
    <td> Example: Declared ID </td> 
   </tr> 
   <tr> 
@@ -66,3 +66,5 @@ Once IMS is enabled, you can request provisioning of the People core service/Aud
 If you are using Adobe Audience Manager instead of People Core Service, **[!UICONTROL Declared ID]** will work in all scenarios.
 
 Please raise request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
+=======
+&#42; You can find your IMS Org ID on the Experience Cloud, in the **Administration** menu. It is also provided when you first connect to the Adobe Experience Cloud.
