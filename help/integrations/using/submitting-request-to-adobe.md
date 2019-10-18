@@ -57,7 +57,7 @@ Once IMS is enabled, you can request provisioning of the People core service/Aud
  </tbody> 
 </table>
 
-&#42; **[!UICONTROL Declared ID]** works for every shared audiences integration. Note that if you are using People core Service, the use of **[!UICONTROL Declared ID]** can change depending on the solution:
+**[!UICONTROL Declared ID]** works for every shared audiences integration. Note that if you are using People core Service, the use of **[!UICONTROL Declared ID]** can change depending on the solution:
 
 * If audiences are shared from Adobe Campaign to Adobe Target via People core service, **[!UICONTROL Declared ID]** can be provisioned.
 * If audiences are shared from Adobe Campaign to Ad Cloud via People core Service, you will not be able to use **[!UICONTROL Declared ID]** provisioning for historical backfill of audiences. Some latency is also to be expected when building audiences.
