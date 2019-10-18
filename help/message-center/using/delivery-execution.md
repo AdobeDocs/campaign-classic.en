@@ -32,3 +32,6 @@ This sort can be changed in the message template properties as shown below.
 
 ![](assets/messagecenter_deliveries_properties_001.png)
 
+>[!NOTE]
+>
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, all transactional messages may be sent with Momentum for improved deliverability, throughput, and bounce handling. All impacts are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html) document.
