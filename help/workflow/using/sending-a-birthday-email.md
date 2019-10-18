@@ -30,6 +30,21 @@ This (daily run) workflow selects all recipients that have their birthday on the
 
 This use case can also be found in the form of a video. For more on this, refer to the [Creating a workflow](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
 
+
+To do this, create a campaign and click the **[!UICONTROL Targeting and workflows]** tab. For more on this, refer to the [Building the main target in a workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) section.
+
+Then follow these steps:
+
+## Scheduling the sending {#configuring-the-scheduler}
+
+1. First, add a **Scheduler** to trigger sending the delivery every day. In the example below, the delivery is created every day at 6am.
+
+   ![](assets/recur_delivery2.png)
+
+   You can then start the workflow.
+
+   ![](assets/recur_delivery3.png)
+
 ## Identifying recipients whose birthday it is {#identifying-recipients-whose-birthday-it-is}
 
 After configuring the **[!UICONTROL Scheduler]** activity so that the workflow starts every day, identify all of the recipients whose date of birth equals the current date.
@@ -189,3 +204,13 @@ In this query, select all of the recipients whose date of birth is February 29th
 Combine the results with a **[!UICONTROL Union]** activity.
 
 Link the results of the two **[!UICONTROL Test]** activity branches to an **[!UICONTROL Email delivery]** activity to send an email to the list of all of your recipients on their birthday, even to those born on February 29th during a non-leap year.
+
+## Creating a recurring delivery {#creating-a-recurring-delivery-in-a-targeting-workflow}
+
+1. Add a **Recurring delivery** activity based on the birthday email template that you want to send.
+
+>[!CAUTION]
+>
+>For the workflows to execute, the technical workflows relating to the campaign process must be started. For more on this, refer to the [List of campaign process workflows](../../workflow/using/campaign.md) section.
+>   
+>If the approval steps are enabled for the campaign, the deliveries will only be sent once these steps have been confirmed. For more on this, refer to the [Choosing the processes to be approved](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) section.
