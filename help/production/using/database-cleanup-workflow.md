@@ -573,7 +573,7 @@ This task cleanses orphan simulation tables (that are no longer linked to an off
    DROP TABLE wkSimu_456831_aggr
    ```
 
-### Statistics update {#statistics-update}
+### Statistics update and storage optimization {#statistics-update}
 
 The **XtkCleanup_NoStats** option allows you to control the behavior of the storage optimization step of the cleanup workflow.
 
