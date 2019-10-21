@@ -63,7 +63,7 @@ snippet: y
 * The **XtkCleanup_NoStats** option has been enhanced for PostgreSQL to better control the behavior of the storage optimization step of the cleanup workflow. [Read more](../../production/using/database-cleanup-workflow.md#statistics-update)
 * A specific guardrail has been added to check disk space before allowing to upload public resources on the server.
 * A new **WdbcKillSessionPolicy** configuration option is available allowing you to affect Unconditional Stop behavior on all the workflows and PostgreSQL database queries.
-* A specific guardrail has been added to prevent installation of packages which are not compatible with the Campaign instance
+* A specific guardrail has been added to prevent installation of packages which are not compatible with the Campaign instance. [Read more](../../installation/using/installing-campaign-standard-packages.md)
 * A new Campaign option has been added: **NmsOperation_DeliveryPreparationWindow**. It allows you to define the number of days above which deliveries with inconsistent status will be excluded from the count of running deliveries.
 * An account lockout mechanism has been added to the **logon()** API. It prevents any further login attempts after a certain number of consecutive failed login attempts within a specified time frame.
 * A new option in the delivery properties allows to define a time-out period for the personalization run time, in order to avoid the personalization phase to run for too long.
