@@ -31,7 +31,7 @@ snippet: y
 * **Extraction (file)**: lets you extract data from a table in a file. Refer to the [Extraction (file)](../../workflow/using/extraction--file-.md) section.
 * **SQL code and JavaScript code**: executes the SQL script or JavaScript specified in the activity. Refer to [SQL code and JavaScript code](../../workflow/using/sql-code-and-javascript-code.md).
 * **SQL Data Management**: lets you write your own SQL queries to create and populate work tables. Refer to [SQL Data Management](../../workflow/using/sql-data-management.md).
-* **nlserver module**: starts an nlserver module with its arguments. Refer to [Nlserver module](../../workflow/using/nlserver-module.md).
+* **nlserver module**: starts an nlserver module with its arguments.
 * **Import and Export (v4 compatible)**: imports or exports data using the specified template. Refer to the [Generic imports and exports](../../platform/using/generic-imports-and-exports.md) section.
 * **Microsoft CRM, Salesforce, Oracle CRM On Demand**: lets you connect Adobe Campaign specifically to one of the pre-configured CRM connectors. These three activities are similar to the CRM connector presented in the [CRM Connector](../../workflow/using/crm-connector.md) section, with additional options, that allow you to choose the type of campaign to carry out for the synchronization ("Insert or update", "Insert",  "Update").
 * **Update aggregate**: lets you select the aggregate update mode (full or partial). Refer to [Update aggregate](../../workflow/using/update-aggregate.md).
