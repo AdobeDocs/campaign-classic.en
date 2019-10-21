@@ -67,7 +67,7 @@ snippet: y
 * A new Campaign option has been added: **NmsOperation_DeliveryPreparationWindow**. It allows you to define the number of days above which deliveries with inconsistent status will be excluded from the count of running deliveries.
 * An account lockout mechanism has been added to the **logon()** API. It prevents any further login attempts after a certain number of consecutive failed login attempts within a specified time frame.
 * A new option in the delivery properties allows to define a time-out period for the personalization run time, in order to avoid the personalization phase to run for too long.
-* The "ftp" protocol option has been added to allow you to use a proxy configuration for SFTP connections.
+* The "ftp" protocol option has been added to allow you to use a proxy configuration for SFTP connections. [Read more](../../installation/using/{#configuring-campaign-server.md#proxy-connection-configuration)
 
 **Other changes**
 
