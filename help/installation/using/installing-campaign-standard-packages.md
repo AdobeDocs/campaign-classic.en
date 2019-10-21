@@ -33,6 +33,9 @@ To install a standard package:
 1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Package import...]** in the Adobe Campaign client console.
 1. Select **[!UICONTROL Install a standard package]**.
 1. In the list that appears, check the packages you want to install. Packages that cannot be checked are already installed on your instance.
+>[!NOTE]
+>
+>If a package is greyed out, you cannot install it. It means that is already installed or it is not compatible with your instance. For example, you cannot install the Mid-sourcing platform on a marketing instance.
 1. Click **[!UICONTROL Next]**, then **[!UICONTROL Start]** to start the package installation.
 
    Once the packages are installed, the progress bar shows **100%** and you can see the following message in the installation logs: **[!UICONTROL Installation of packages successful]**.
@@ -292,4 +295,3 @@ Installing the LINE package is a standard installation detailed in the [Importin
 >[!CAUTION]
 >
 >The Message Center delivery templates for LINE will not be available if the Message Center packages are installed before LINE.
-
