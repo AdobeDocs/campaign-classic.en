@@ -575,7 +575,13 @@ This task cleanses orphan simulation tables (that are no longer linked to an off
 
 ### Statistics update {#statistics-update}
 
-If the **XtkCleanup_NoStats** option does not exist or if its value is 0 (i.e. the option is disabled), this task is executed to update the statistics in the database. If the value of the option is 1 (i.e. the option is activated), statistics updating isn't executed. This task calls up a database procedure.
+The **XtkCleanup_NoStats** option allows you to control the behavior of the storage optimization step of the cleanup workflow.
+
+If the **XtkCleanup_NoStats** option does not exist or if its value is 0, this will execute the storage optimization in verbose mode (VACUUM VERBOSE ANALYZE) on PostgreSQL and update statistics on all other databases. To make sure that this command is executed, check the PostgreSQL logs. VACUUM will output lines in the format: `INFO: vacuuming "public.nmsactivecontact"` and ANALYZE will output lines in the format: `INFO: analyzing "public.nmsactivecontact"`.
+
+If the value of the option is 1, statistics updating isn't executed on any database. The following log line will appear in the workflow logs: `Option 'XtkCleanup_NoStats' is set to '1'`.
+
+If the value of the option is 2, this will execute the storage analysis in verbose mode (ANALYZE VERBOSE) on PostgreSQL and update statistics on all other databases. To make sure that this command is executed, check the PostgreSQL logs. ANALYZE will output lines in the format: `INFO: analyzing "public.nmsactivecontact"`.
 
 ### Subscription cleanup (NMAC) {#subscription-cleanup--nmac-}
 
