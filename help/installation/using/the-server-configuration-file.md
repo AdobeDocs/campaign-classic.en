@@ -2479,6 +2479,12 @@ Here are the different parameters of the **syslogd** node. This is the configura
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
+   <td> maxNumberOfLoginsFiles<br /> </td> 
+   <td> Maximum number of logins.log files to keep. <br /> </td> 
+   <td> Long<br /> </td> 
+   <td> 365<br /> </td> 
+  </tr> 
+  <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Memory consumption alert: alert concerning the amount of RAM consumed (in Mb) by a given process.<br /> </td> 
    <td> Long<br /> </td> 
