@@ -61,8 +61,16 @@ index: y
   + About deliveries and channels {#about-deliveries-and-channels}
        + [Communication channels](delivery/using/communication-channels.md)
        + [Accessing deliveries information](delivery/using/accessing-deliveries-information.md)
-       + [Key steps when creating a delivery](delivery/using/key-steps-when-creating-a-delivery.md)
        + [Types of deliveries](delivery/using/types-of-deliveries.md)
+  + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}
+       + [Selecting the delivery template](delivery/using/communication-channels.md)
+       + [Identifying the delivery](delivery/using/communication-channels.md)
+       + [Defining the delivery content](delivery/using/communication-channels.md)
+       + [Defining the target population](delivery/using/communication-channels.md)
+       + [Validating the delivery](delivery/using/communication-channels.md)
+       + [Sending the delivery](delivery/using/communication-channels.md)
+       + [Additional delivery configurations](delivery/using/communication-channels.md)
+       + [Analysis priority](delivery/using/communication-channels.md)
   + Sending emails {#sending-emails}
        + [About email channel](delivery/using/about-email-channel.md)
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)

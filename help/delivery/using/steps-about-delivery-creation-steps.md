@@ -1,0 +1,48 @@
+---
+title: Key steps when creating a delivery
+seo-title: Key steps when creating a delivery
+description: Key steps when creating a delivery
+seo-description: 
+page-status-flag: never-activated
+uuid: 8bf70ea4-5f28-4d85-b5ce-0bd3ed3eea55
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: delivery
+content-type: reference
+topic-tags: about-deliveries-and-channels
+discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
+index: y
+internal: n
+snippet: y
+---
+
+# Key steps when creating a delivery{#key-steps-when-creating-a-delivery}
+
+The key steps when creating a delivery are as follows:
+
+1. Create and identify the delivery. [Read more](../../delivery/using/steps-create-and-identify-the-delivery.md)
+
+1. Define the delivery content.
+
+    The delivery content definition is specific to each channel. For more on this, refer to the dedicated section:
+
+    * [Defining the email content](../../delivery/using/defining-the-email-content.md)
+    * [Defining the SMS content](../../delivery/using/sms-channel.md#defining-the-sms-content)
+    * [Defining the direct mail content](../../delivery/using/defining-the-direct-mail-content.md)
+    * [Push notifications](../../delivery/using/about-mobile-app-channel.md)
+
+1. Defining the target population. [Read more](../../delivery/using/steps-create-and-identify-the-delivery.md)
+
+   For more on this, refer to [Identifying target populations](../../delivery/using/identifying-target-populations.md)
+
+1. Sending the delivery. [Read more](../../delivery/using/steps-create-and-identify-the-delivery.md)
+
+   For more on this, refer to [Sending messages](../../delivery/using/sending-messages.md)
+
+1. Monitoring the delivery (tracking, quarantine, reports, etc.). [Read more](../../delivery/using/steps-create-and-identify-the-delivery.md)
+
+   For more on this, refer to the [Monitoring deliveries](../../delivery/using/monitoring-a-delivery.md) and [Tracking deliveries](../../delivery/using/about-message-tracking.md) sections.
+
+>[!NOTE]
+>
+>The steps described below assume that all target recipients and their profiles are stored in the database, except in the case of external delivery (see [Selecting external recipients](../../delivery/using/key-steps-when-creating-a-delivery.md#selecting-external-recipients)).
