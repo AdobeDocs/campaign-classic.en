@@ -63,11 +63,12 @@ index: y
        + [Accessing deliveries information](delivery/using/accessing-deliveries-information.md)
        + [Types of deliveries](delivery/using/types-of-deliveries.md)
   + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}
-       + [Creating and identifying the delivery](delivery/using/communication-channels.md)
-       + [Defining the target population](delivery/using/communication-channels.md)
-       + [Validating the delivery](delivery/using/communication-channels.md)
-       + [Sending the delivery](delivery/using/communication-channels.md)
-       + [Analysis priority](delivery/using/communication-channels.md)
+       + [About delivery creation](delivery/using/steps-about-delivery-creation-steps.md)
+       + [Creating and identifying the delivery](delivery/using/steps-create-and-identify-the-delivery.md)
+       + [Defining the target population](delivery/using/steps-defining-the-target-population.md)
+       + [Validating the delivery](delivery/using/steps-validating-the-delivery.md)
+       + [Sending the delivery](delivery/using/steps-sending-the-delivery.md)
+       + [Analysis priority](delivery/using/steps-analysis-priority.md)
   + Sending emails {#sending-emails}
        + [About email channel](delivery/using/about-email-channel.md)
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)

@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Key steps when creating a delivery{#key-steps-when-creating-a-delivery}
+# About delivery creation {#about-delivery-creation}
 
 The key steps when creating a delivery are as follows:
 
