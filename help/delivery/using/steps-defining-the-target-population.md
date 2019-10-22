@@ -95,7 +95,7 @@ To select the recipients of the delivery being created, follow these steps:
 
    ![](assets/s_ncs_user_wizard_email02h.png)
 
-### Reducing the size of the target population {#reducing-the-size-of-the-target-population}
+## Reducing the size of the target population {#reducing-the-size-of-the-target-population}
 
 You can reduce the size of the target population. To do this, specify the number of recipients to be exported in the **[!UICONTROL Requested quantity]** field.
 
@@ -216,7 +216,7 @@ Configuration is performed as follows:
 
    You can define as many substitution addresses as necessary.
 
-##1 Using seed addresses as proof {#using-seed-addresses-as-proof}
+## Using seed addresses as proof {#using-seed-addresses-as-proof}
 
 You can use **[!UICONTROL Seed addresses]** as target of the proofs: this option lets you use or import a list of existing seed addresses.
 
