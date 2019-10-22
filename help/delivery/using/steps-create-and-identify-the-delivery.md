@@ -49,11 +49,10 @@ You need to complete parameters to identify the delivery. To do this:
 
 1. Click **[!UICONTROL Continue]** to confirm this information and display the message configuration window.
 
-The delivery content is ready to be configured. For more on this, refer to [Defining the delivery content](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-the-delivery-content).
+The delivery content is ready to be configured. Delivery content definition is specific to each channel. For more on this, refer to the dedicated section:
 
-For more details on selecting the delivery template for a specific channel, refer to the dedicated section:
+* [Defining the email content](../../delivery/using/defining-the-email-content.md)
+* [Defining the SMS content](../../delivery/using/sms-channel.md#defining-the-sms-content)
+* [Defining the direct mail content](../../delivery/using/defining-the-direct-mail-content.md)
+* [Push notifications](../../delivery/using/about-mobile-app-channel.md)
 
-* [About email channel](../../delivery/using/about-email-channel.md)
-* [About direct mail channel](../../delivery/using/about-direct-mail-channel.md)
-* [SMS channel](../../delivery/using/sms-channel.md)
-* [Mobile app channel](../../delivery/using/about-mobile-app-channel.md)
