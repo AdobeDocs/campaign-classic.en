@@ -36,7 +36,7 @@ Before sending the delivery, you can define the sending parameters in the delive
 
   This option allows you to define the number of messages grouped within the same XML delivery package.
 
-  If the parameter is set for 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
+  If the parameter is set to 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
 
   >[!CAUTION]
   >
@@ -44,7 +44,7 @@ Before sending the delivery, you can define the sending parameters in the delive
 
 * **[!UICONTROL Send using multiple waves]**
 
-  For more on this, refer to the [Sending using multiple waves](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-using-multiple-waves) section.
+  For more on this, refer to the [Sending using multiple waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves) section.
 
 * **[!UICONTROL Test SMTP delivery]**
 
@@ -60,7 +60,7 @@ Before sending the delivery, you can define the sending parameters in the delive
 
   This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [Archiving emails](../../delivery/using/sending-messages.md#archiving-emails).
 
-Once your delivery is ready to be sent, you must first run the delivery analysis. This analysis checks the validity of the message content and corrects any errors before sending messages to the main target. for more on this, refer to [Analyzing the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#analyzing-the-delivery).
+Once your delivery is ready to be sent, you must first run the delivery analysis. This analysis checks the validity of the message content and corrects any errors before sending messages to the main target. for more on this, refer to [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 Once the analysis is complete, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages.
 
@@ -145,13 +145,13 @@ To balance the load, you can divide deliveries into several batches. Configure t
 
       ![](assets/s_ncs_user_wizard_waves_create.png)
 
-   A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [Validation process with typologies](../../delivery/using/key-steps-when-creating-a-delivery.md#validation-process-with-typologies).
+   A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [Validation process with typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
    >[!CAUTION]
    >
    >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent.  
    >
-   >You must also allow enough time for retries when configuring the last waves. See [Additional delivery configurations](../../delivery/using/key-steps-when-creating-a-delivery.md#additional-delivery-configurations).
+   >You must also allow enough time for retries when configuring the last waves. See [this section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
 1. To monitor your sends, go to the delivery logs. See [this page](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).
 
@@ -178,3 +178,29 @@ The two examples below are the most common use cases for using multiple waves.
   To do this, select the **[!UICONTROL Schedule multiple waves of the same size]** option. Enter **[!UICONTROL 20]** as the wave's size and **[!UICONTROL 1d]** in the **[!UICONTROL Period]** field.
 
   ![](assets/s_ncs_user_wizard_waves_call_center.png)
+
+## Configuring retries {#configuring-retries}
+
+Temporarily undelivered messages due to a **Soft** or **Ignored** error are subject to an automatic retry. The delivery failure types and reasons are presented in this [section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+
+The central section of the **[!UICONTROL Delivery]** tab for delivery parameters indicates how many retries should be performed the day after the delivery and the minimum delay between retries.
+
+![](assets/s_ncs_user_wizard_retry_param.png)
+
+By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)).
+
+## Defining validity period {#defining-validity-period}
+
+When the delivery has been launched, the messages (and any retries) can be sent until the delivery deadline. This is indicated in the delivery properties, via the **[!UICONTROL Validity]** tab.
+
+![](assets/s_ncs_user_email_del_valid_period.png)
+
+* The **[!UICONTROL Delivery duration]** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
+
+  You can also choose to specify dates. To do this, select **[!UICONTROL Explicitly set validity dates]**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
+
+* **Validity limit of resources**
+
+  The **[!UICONTROL Validity limit]** field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
+
+  The values in this field can be expressed in the units listed in [this section](../../platform/using/adobe-campaign-workspace.md#default-units).

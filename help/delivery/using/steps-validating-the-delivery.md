@@ -22,11 +22,11 @@ When a delivery has been created and configured, you must validate it before sen
 
 To do this:
 
-1. Analyze the delivery: this step lets you prepare the messages to deliver. Refer to [Analyzing the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#analyzing-the-delivery).
+1. Analyze the delivery: this step lets you prepare the messages to deliver. Refer to [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
-   Available validation modes are detailed in [Changing the approval mode](../../delivery/using/key-steps-when-creating-a-delivery.md#changing-the-approval-mode).
+   Available validation modes are detailed in [Changing the approval mode](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
 
-1. Send proofs: this step lets you approve content, URLs, personalization fields, etc. Refer to [Sending a proof](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof) and [Defining a specific proof target](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target).
+1. Send proofs: this step lets you approve content, URLs, personalization fields, etc. Refer to [Sending a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) and [Defining a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
 >[!CAUTION]
 >
@@ -44,7 +44,7 @@ The **[!UICONTROL Analyze]** button lets you launch the analysis manually. The p
 
 >[!NOTE]
 >
->The validation rules are described in [Validation process with typologies](../../delivery/using/key-steps-when-creating-a-delivery.md#validation-process-with-typologies).
+>The validation rules are described in [Validation process with typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
 You can stop this job at any time by clicking **[!UICONTROL Stop]**.
 
@@ -77,7 +77,7 @@ The delivery parameters **[!UICONTROL Analysis]** tab lets you define a set of i
 This tab gives access to the following options:
 
 * **[!UICONTROL Label and code of the delivery]** : the options concerning this section of the screen are used to calculate the values of these fields during the delivery analysis phase. The **[!UICONTROL Calculate the execution folder during the delivery analysis]** field computes the name of the folder that will contain this delivery action during the analysis phase.
-* **[!UICONTROL Approval mode]** : this field lets you select the type of delivery approval. The approval modes are presented in [Validation process with typologies](../../delivery/using/key-steps-when-creating-a-delivery.md#validation-process-with-typologies).
+* **[!UICONTROL Approval mode]** : this field lets you select the type of delivery approval. The approval modes are presented in [Validation process with typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 * **[!UICONTROL Prepare the personalization data with a workflow]** : this option allows to prepare the personalization data contained in your delivery in an automatic workflow. It allows to highly improve the delivery analysis performance when a lot of data are being processed, especially if the personalization data come from an external table through FDA. Refer to the [Accessing an external database (FDA)](../../platform/using/accessing-an-external-database.md#optimizing-email-personalization-with-external-data) section.
 * **[!UICONTROL Start job in a detached process]** : This option lets you start the delivery analysis in a separate process. The analysis function uses the Adobe Campaign application server process (web nlserver) by default. By selecting this option, you ensure that the analysis will be completed even in the event of application server failure.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : this option adds the SQL query logs to the delivery journal during the analysis phase.
@@ -89,18 +89,18 @@ To detect possible errors in message configuration, Adobe highly recommend setti
 
 >[!NOTE]
 >
->* Available validation modes are detailed in [Changing the approval mode](../../delivery/using/key-steps-when-creating-a-delivery.md#changing-the-approval-mode).
->* Configuration of the proof target is explained in [Defining a specific proof target](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target).
+>* Available validation modes are detailed in [Changing the approval mode](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
+>* Configuration of the proof target is explained in [Defining a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 >
 
 To send a proof, follow the steps below:
 
-1. Make sure the proof target has been configured as described in [Defining a specific proof target](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target).
+1. Make sure the proof target has been configured as described in [Defining a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 1. Click **[!UICONTROL Send a proof]** on the top bar of the delivery wizard.
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
 
-1. Start message analysis. See [Analyzing the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#analyzing-the-delivery).
+1. Start message analysis. See [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 1. Send the message.
 
    After being sent, the proof appears in the delivery list, it is automatically created and numbered. It can be edited if you wish to access its content and properties. Refer to this [page](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
@@ -128,7 +128,7 @@ The **[!UICONTROL Advanced]** tab of delivery properties lets you define the pro
 The following options are available:
 
 * The first option lets you keep the proof doubles.
-* Both of the following options let you keep blacklisted recipients and addresses in quarantine. See the description of these options for the main target in [Customizing exclusion settings](../../delivery/using/key-steps-when-creating-a-delivery.md#customizing-exclusion-settings). Unlike the target of a delivery, where these addresses are excluded by default, they are kept by default for the target of a proof.
+* Both of the following options let you keep blacklisted recipients and addresses in quarantine. See the description of these options for the main target in [Customizing exclusion settings](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). Unlike the target of a delivery, where these addresses are excluded by default, they are kept by default for the target of a proof.
 * The **[!UICONTROL Keep the delivery code for the proof]** option lets you give the proof the same delivery code as the one defined for the delivery to which it relates. This code is specified in the first step of the delivery wizard.
 * By default, the subject of the proof is prefixed by 'Proof #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.
 

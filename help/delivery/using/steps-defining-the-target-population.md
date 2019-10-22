@@ -22,23 +22,23 @@ snippet: y
 
 For each delivery, you can define several types of target populations. The section below provides more information on how to select:
 
-* The **main recipients** of the delivery. [Read more](../../delivery/using/key-steps-when-creating-a-delivery.md#selecting-the-main-target).
-* The recipients of **proof messages**, in order to set up a validation cycle. [Read more](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target).
+* The **main recipients** of the delivery. [Read more](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
+* The recipients of **proof messages**, in order to set up a validation cycle. [Read more](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
 Additionnally, you can can also define **seed addresses** and Control groups (when the delivery is included in a marketing campaign). For more on this, refer to these pages:
 
 * [About seed addresses](../../delivery/using/about-seed-addresses.md)).
 * [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
 
-Once the population defined, you can define filtering criteria on the targeted recipients (see [Selecting the main target](../../delivery/using/key-steps-when-creating-a-delivery.md#selecting-the-main-target)) and on the proof recipients (see [Defining a specific proof target](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target)).
+Once the population is defined, you can specify filtering criteria on the targeted recipients (see [Selecting the main target](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)) and on the proof recipients (see [Defining a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)).
 
 ## Selecting the recipients of the delivery {#selecting-the-main-target}
 
 In most cases, the main target is extracted from the Campaign database (default mode).
 
-Recipients can also be stored in an external file. The configuration of this type of delivery is presented in [Selecting external recipients](../../delivery/using/key-steps-when-creating-a-delivery.md#selecting-external-recipients).
+Recipients can also be stored in an external file. The configuration of this type of delivery is presented in [Selecting external recipients](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
 
-To select the recipients of the delivery being created, follow the steps below:
+To select the recipients of the delivery being created, follow these steps:
 
 1. Click the **[!UICONTROL To]** link.
 1. If the recipients are stored in the database, select the first option.
@@ -97,7 +97,7 @@ To select the recipients of the delivery being created, follow the steps below:
 
 ### Reducing the size of the target population {#reducing-the-size-of-the-target-population}
 
-You can reduce the size of the target population. To do this, specify the number of recipients to be exported in the **[!UICONTROL Quantity requested]** field.
+You can reduce the size of the target population. To do this, specify the number of recipients to be exported in the **[!UICONTROL Requested quantity]** field.
 
 ![](assets/s_ncs_user_edit_del_exe_tab.png)
 
@@ -184,15 +184,15 @@ To select the target of the proofs, follow the steps below:
 >
 >Usually, the target for the proof can be added to the main target. To do this, select the appropriate option in the lower section of the **[!UICONTROL Main target]** tab.
 
-### Defining a specific proof target {#defining-a-specific-proof-target}
+## Defining a specific proof target {#defining-a-specific-proof-target}
 
 When selecting the proof target, the **[!UICONTROL Definition of a specific proof target]** option lets you select the proof recipients from the profiles in the database.
 
-Select this option to choose recipients using the **[!UICONTROL Add]** button, as in the case of defining the main target. See [Selecting the main target](../../delivery/using/key-steps-when-creating-a-delivery.md#selecting-the-main-target).
+Select this option to choose recipients using the **[!UICONTROL Add]** button, as in the case of defining the main target. See [Selecting the main target](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
 
 ![](assets/s_ncs_user_wizard_email01_143.png)
 
-### Using address substitution in proof {#using-address-substitution-in-proof}
+## Using address substitution in proof {#using-address-substitution-in-proof}
 
 Instead of selecting dedicated recipients in the database, you can use the **[!UICONTROL Substitution of the address]** option.
 
@@ -218,7 +218,7 @@ Configuration is performed as follows:
 
 ##1 Using seed addresses as proof {#using-seed-addresses-as-proof}
 
-You can use **[!UICONTROL Seed addresses]** as target of the proofs: this option lets you use or import a list of existing seed addresses. 
+You can use **[!UICONTROL Seed addresses]** as target of the proofs: this option lets you use or import a list of existing seed addresses.
 
 ![](assets/s_ncs_user_wizard_email_bat_control_address.png)
 

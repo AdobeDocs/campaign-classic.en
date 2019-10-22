@@ -206,7 +206,7 @@ Tracking configuration is the same as for an email delivery. For more on this, r
 
 We highly recommend sending a proof of your publication before the final delivery to view the exact rendering of the publication on a private Facebook test page. For more on creating a private Facebook test page, refer to [Creating a test Facebook page](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). The steps for selecting the target proof are detailed in [Selecting the proof target](../../social/using/publishing-on-facebook.md#selecting-the-proof-target).
 
-Proof delivery is identical to email deliveries. Refer to [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof).
+Proof delivery is identical to email deliveries. Refer to [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 ## Sending the message {#sending-the-message}
 

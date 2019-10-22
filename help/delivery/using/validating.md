@@ -28,7 +28,7 @@ The output file is then generated. Its content depends on the selected output co
 
 >[!NOTE]
 >
->The analysis phase is detailed in [Analyzing the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#analyzing-the-delivery).
+>The analysis phase is detailed in [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 You can stop this job at any time by clicking **[!UICONTROL Stop]**.
 

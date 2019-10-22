@@ -281,7 +281,7 @@ For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL
 
 >[!CAUTION]
 >
->To approve a content, a Proof cycle is mandatory. Proofs let you approve the display of information, personalization data and check that links are working. For more on creating a proof and its lifecycle, refer to the [Sending Messages](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof) section.
+>To approve a content, a Proof cycle is mandatory. Proofs let you approve the display of information, personalization data and check that links are working. For more on creating a proof and its lifecycle, refer to the [Sending Messages](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) section.
 >
 >The content approval functionalities detailed below are designed to be added to the proof delivery.
 
