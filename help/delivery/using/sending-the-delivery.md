@@ -22,8 +22,8 @@ To approve your message and send it to the recipients of the delivery being crea
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validating the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#validating-the-delivery)
-* [Sending the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-the-delivery)
+* [Validating the delivery](../../delivery/using/steps-validating-the-delivery.md)
+* [Sending the delivery](../../delivery/using/sending-the-delivery.md)
 
 ## Analyzing the delivery {#analyzing-the-delivery}
 
@@ -35,7 +35,7 @@ The **[!UICONTROL Analyze]** button lets you launch the analysis manually. The p
 
 ![](assets/s_ncs_user_postal_del_analyze.png)
 
-The lower section of the window displays the analysis result. Special icons display warnings. The approval rules are presented in [Validation process with typologies](../../delivery/using/key-steps-when-creating-a-delivery.md#validation-process-with-typologies).
+The lower section of the window displays the analysis result. Special icons display warnings. The approval rules are presented in [Validation process with typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
 >[!CAUTION]
 >
@@ -57,7 +57,7 @@ The proof lets you test the delivery on a control group before sending it to the
 
 >[!NOTE]
 >
->The proof target is defined in [Defining a specific proof target](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-a-specific-proof-target).
+>The proof target is defined in [Defining a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
 To send a proof, click the **[!UICONTROL Send a proof]** button.
 
