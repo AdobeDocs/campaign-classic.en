@@ -33,7 +33,7 @@ The delivery dashboard is also key to monitor your deliveries and eventual issue
 
 ## Tracking Troubleshooting{#tracking-troubleshooting}
 
-The following troubleshooting tips will help you solve the most common problems happening when using tracking.
+The following troubleshooting tips will help you solve the most common problems happening when using tracking. For a more advanced troubleshooting, refer to the following [page](https://helpx.adobe.com/campaign/kb/classic-tracking-troubleshooting.html).
 
 If tracking is not working and you are not able to see the opens/clicks in the Tracking tab, you should check the following procedures:
 
