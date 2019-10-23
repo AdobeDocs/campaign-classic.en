@@ -345,7 +345,7 @@ With Campaign Classic, you can add personalized attachments to your emails.
 
 ## Track your messages and measure their impact {#track-your-messages-and-measure-their-impact}
 
-Once your messages are sent, learn how to track and measure their impact with Adobe Campaign.
+Once your messages are sent, learn how to track and measure their impact with Adobe Campaign. For more information on tracking, refer to this [page](https://helpx.adobe.com/campaign/kb/acc-tracking.html).
 
 ### How can I configure tracked links in an email delivery? {#how-can-i-configure-tracked-links-in-an-email-delivery-}
 
