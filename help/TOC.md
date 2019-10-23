@@ -346,9 +346,6 @@ index: y
        + [Extraction (file)](workflow/using/extraction--file-.md)
        + [SQL code and JavaScript code](workflow/using/sql-code-and-javascript-code.md)
        + [SQL Data Management](workflow/using/sql-data-management.md)
-       + [Nlserver module](workflow/using/nlserver-module.md)
-       + [Import and Export (v4 compatibility)](workflow/using/import-and-export--v4-compatibility-.md)
-       + [Microsoft CRM, Salesforce, Oracle CRM On Demand](workflow/using/microsoft-crm--salesforce--oracle-crm-on-demand.md)
        + [Update aggregate](workflow/using/update-aggregate.md)
   + Event activities {#event-activities}
        + [About event activities](workflow/using/about-event-activities.md)
