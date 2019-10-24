@@ -73,7 +73,7 @@ Tracking configuration is performed at the appropriate stage in the delivery wiz
 
 The **[!UICONTROL Audit]** tab contains the delivery log and all the messages concerning the proofs. The **[!UICONTROL Refresh]** button lets you update the data. Use the **[!UICONTROL Filters]** button to define a filter on the data.
 
-Special icons enable you to identify errors or warnings. See [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+Special icons enable you to identify errors or warnings. See [Analyzing the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#analyzing-the-delivery).
 
 The **[!UICONTROL Proofs]** sub-tab lets you view the list of proofs that have been sent.
 
@@ -202,7 +202,7 @@ To learn how to optimize the deliverability of your Adobe Campaign emails, refer
 
 After confirming your delivery, you can see that the status of your delivery is **[!UICONTROL Pending]**. This status means that the execution process is waiting on the availability of some resources.
 
-The **[!UICONTROL Pending]** status can first mean that your delivery has been scheduled and is pending until the given date. For more on this, refer to the [Delivery scheduling](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending) section.
+The **[!UICONTROL Pending]** status can first mean that your delivery has been scheduled and is pending until the given date. For more on this, refer to the [Delivery scheduling](../../delivery/using/key-steps-when-creating-a-delivery.md#scheduling-the-delivery-sending) section.
 
 If your delivery is not being sent and its status remains **[!UICONTROL Pending]**, it can be the result of:
 

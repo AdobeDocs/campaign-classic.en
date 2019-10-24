@@ -24,5 +24,3 @@ Before starting sending email:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about Adobe Campaign delivery best practices. Refer to Adobe Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html), [Deliverability getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and this [section](../../delivery/using/about-deliverability.md).
-
-The sections below provide information that is specific to the email channel. For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
