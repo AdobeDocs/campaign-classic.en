@@ -61,13 +61,18 @@ index: y
   + About deliveries and channels {#about-deliveries-and-channels}
        + [Communication channels](delivery/using/communication-channels.md)
        + [Accessing deliveries information](delivery/using/accessing-deliveries-information.md)
-       + [Key steps when creating a delivery](delivery/using/key-steps-when-creating-a-delivery.md)
        + [Types of deliveries](delivery/using/types-of-deliveries.md)
+  + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}
+       + [About delivery creation](delivery/using/steps-about-delivery-creation-steps.md)
+       + [Creating and identifying the delivery](delivery/using/steps-create-and-identify-the-delivery.md)
+       + [Defining the target population](delivery/using/steps-defining-the-target-population.md)
+       + [Validating the delivery](delivery/using/steps-validating-the-delivery.md)
+       + [Sending the delivery](delivery/using/steps-sending-the-delivery.md)
+       + [Analysis priority](delivery/using/steps-analysis-priority.md)
   + Sending emails {#sending-emails}
        + [About email channel](delivery/using/about-email-channel.md)
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Defining the email content](delivery/using/defining-the-email-content.md)
-       + [Identifying target populations](delivery/using/identifying-target-populations.md)
        + [Sending messages](delivery/using/sending-messages.md)
        + [Attaching files](delivery/using/attaching-files.md)
        + [Inserting a barcode in an email](delivery/using/inserting-a-barcode-in-an-email.md)
@@ -83,7 +88,6 @@ index: y
        + [About direct mail channel](delivery/using/about-direct-mail-channel.md)
        + [Creating a direct mail delivery](delivery/using/creating-a-direct-mail-delivery.md)
        + [Defining the direct mail content](delivery/using/defining-the-direct-mail-content.md)
-       + [Defining the target population](delivery/using/defining-the-target-population.md)
        + [Sending the delivery](delivery/using/sending-the-delivery.md)
        + [Validating](delivery/using/validating.md)
        + [Other channels](delivery/using/other-channels.md)

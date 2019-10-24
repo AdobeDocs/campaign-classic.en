@@ -185,9 +185,9 @@ If a message fails due to a **Soft** or **Ignored** error that is temporary, ret
 >
 >Temporarily undelivered messages can only be related to a **Soft** or **Ignored** error, but not a **Hard** error (see [Delivery failure types and reasons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
 
-To modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. The advanced delivery properties are presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-validity-period).
+To modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. The advanced delivery properties are presented in [this section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
 
-The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#configuring-retries)).
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
 
 ## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 
