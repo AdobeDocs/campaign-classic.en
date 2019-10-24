@@ -63,7 +63,7 @@ index: y
        + [Accessing deliveries information](delivery/using/accessing-deliveries-information.md)
        + [Types of deliveries](delivery/using/types-of-deliveries.md)
   + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}
-       + [About delivery creation](delivery/using/steps-about-delivery-creation-steps.md)
+       + [About delivery creation ](delivery/using/steps-about-delivery-creation-steps.md)
        + [Creating and identifying the delivery](delivery/using/steps-create-and-identify-the-delivery.md)
        + [Defining the target population](delivery/using/steps-defining-the-target-population.md)
        + [Validating the delivery](delivery/using/steps-validating-the-delivery.md)
