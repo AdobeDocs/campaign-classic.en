@@ -44,7 +44,7 @@ Before sending the delivery, you can define the sending parameters in the delive
 
 * **[!UICONTROL Send using multiple waves]**
 
-  For more on this, refer to the [Sending using multiple waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves) section.
+  For more on this, refer to the [Sending using multiple waves](#sending-using-multiple-waves) section.
 
 * **[!UICONTROL Test SMTP delivery]**
 
