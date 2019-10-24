@@ -61,7 +61,7 @@ index: y
   + About deliveries and channels {#about-deliveries-and-channels}
        + [Communication channels](delivery/using/communication-channels.md)
        + [Accessing deliveries information](delivery/using/accessing-deliveries-information.md)
-       + [Key steps when creating a delivery](delivery/using/key-steps-when-creating-a-delivery.md)
+       + [Key steps when creating a delivery ](delivery/using/key-steps-when-creating-a-delivery.md)
        + [Types of deliveries](delivery/using/types-of-deliveries.md)
   + Sending emails {#sending-emails}
        + [About email channel](delivery/using/about-email-channel.md)
