@@ -31,10 +31,7 @@ The redirection server collects the following data in this way:
 * identifier of the internet user who clicked, via the session cookie,
 * additional information such as the business volume generated.
 
-To track opens, a 0x0 tracking pixel/image, embedded at the bottom of the email, contains a link to the Adobe Campaign redirect server along with a unique code that is generated based on message ID, delivery ID, and trackingURL ID.
-
-For more information on tracking, refer to the [Campaign Classic tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) page.
-
 The following diagram shows the stages of the dialog between the client and the various servers.
 
 ![](assets/d_ncs_integration_webtracking_structure1.png)
+

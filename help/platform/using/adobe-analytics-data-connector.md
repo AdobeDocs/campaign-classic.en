@@ -24,7 +24,7 @@ snippet: y
 >
 >Adobe Analytics Data Connector is not compatible with Transactional messaging (Message Center).
 
-Data Connector (previously known as Adobe Genesis) allows Adobe Campaign and Adobe Analytics interact through the **[!UICONTROL Web Analytics connectors]** package. It forwards data to Adobe Campaign in the form of segments concerning user behavior following an email campaign. Conversely, it sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics - Data connector.
+Data Connector (previously known as Adobe Genesis) allows Adobe Campaign and Adobe Analytics interact through the **Web Analytics connectors** package. It forwards data to Adobe Campaign in the form of segments concerning user behavior following an email campaign. Conversely, it sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics - Data connector.
 
 Using Data connector, Adobe Campaign has a way of measuring internet audience (Web Analytics). Thanks to these integrations, Adobe Campaign can recover data on visitor behavior for one or more sites following a marketing campaign, and (after analysis) run re-marketing campaigns with a view to converting them into buyers. Conversely, the Web analytics tools enable Adobe Campaign to forward indicators and campaign attributes to their platforms.
 
@@ -112,8 +112,8 @@ The following steps detail the configuration of Data connector using a wizard.
 
 The integration of Adobe Campaign into the Analytics platforms is carried out using a connector. To synchronize the applications, apply the following process:
 
-1. Install the **[!UICONTROL Web Analytics connectors]** package in Adobe Campaign.
-1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** folder of the Adobe Campaign tree.
+1. Install the **Web Analytics connectors** package in Adobe Campaign.
+1. Go to the **[!UICONTROL Administration > Platform > External accounts]** folder of the Adobe Campaign tree.
 1. Right-click the list of external accounts and select **[!UICONTROL New]** in the drop-down menu (or click the **[!UICONTROL New]** button above the list of external accounts).
 1. Use the drop-down list to select the **[!UICONTROL Web Analytics]** type.
 1. Select the provider for the connector, i.e. **[!UICONTROL Adobe Analytics - Data Connector]** in this case.
@@ -129,18 +129,18 @@ The integration of Adobe Campaign into the Analytics platforms is carried out us
 
    ![](assets/webanalytics_tracking_002.png)
 
-1. If necessary, you can overload the calculation formula. To do this, check the box and edit the formula directly in the window.
+1. If necessary, you must overload the calculation formula. To do this, check the box and edit the formula directly in the window.
 
    ![](assets/webanalytics_tracking_003.png)
 
    >[!CAUTION]
    >
    >This configuration mode is reserved for expert users: any error in this formula may result in email deliveries being stopped.
-1. Click on the **[!UICONTROL Approve Connection]** option, which will give an Account ID integration name that must be propagated and shared with Analytics.
+
 1. The **[!UICONTROL Advanced]** tab lets you configure or modify more technical settings.
 
-    * **[!UICONTROL Lifespan]**: lets you specify the delay in days_ after which the web events recovered in Adobe Campaign by technical workflows. Default: 180 days.
-    * **[!UICONTROL Persistence]**: lets you the period during which all web events, a purchase for example, can be attributed to a re-marketing campaign, Default: 7 days.
+    * **[!UICONTROL Lifespan]**: lets you specify the delay (in days_ after which the web events recovered in Adobe Campaign by technical workflows. Default: 180 days.
+    * **[!UICONTROL Persistence]**: lets you the period during which all web events (a purchase for example) can be attributed to a re-marketing campaign, Default: 7 days.
 
 >[!NOTE]
 >
@@ -185,13 +185,13 @@ If additional segments have been configured in the Data Connector wizard, you ca
 
 Data exchange between Adobe Campaign and Adobe Analytics - Data connector is handled by four technical workflows which run as a background task.
 
-They are available in the Adobe Campaign tree, under the **[!UICONTROL Administration]**  > **[!UICONTROL Production]**  > **[!UICONTROL Technical workflows]**  > **[!UICONTROL Web analytics process]** folder.
+They are available in the Adobe Campaign tree, under the **[!UICONTROL Administration > Production > Technical workflows > Web analytics process]** folder.
 
 ![](assets/webanalytics_workflows.png)
 
-* **[!UICONTROL Recovering of web events]**: once an hour, this workflow downloads segments about the behavior of users on a given site, includes them in the Adobe Campaign database and starts the re-marketing workflow.
-* **[!UICONTROL Event purge]**: this workflow enables you to delete all events from the database depending on the period configured in the **[!UICONTROL Lifespan]** field. For more on this, refer to [Step 2: Create the external account in Campaign](../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign).
-* **[!UICONTROL Identification of converted contacts]**: directory of the visitors who made a purchase following a re-marketing campaign. The data collected by this workflow is accessible in the **[!UICONTROL Re-marketing efficiency]** report, refer to this [page](../../platform/using/adobe-analytics-data-connector.md#creating-a-re-marketing-campaign).* **[!UICONTROL Sending of indicators and campaign attributes]**: lets you send email campaign indicators via Adobe Campaign to the Adobe Experience Cloud using Adobe Analytics - Data connector. This workflow is triggered at 4am every day and it can take 24 hours for the data to be sent to Analytics.
+* **Recovering web events**: once an hour, this workflow downloads segments about the behavior of users on a given site, includes them in the Adobe Campaign database and starts the re-marketing workflow. 
+* **Event purging**: this workflow enables you to delete all events from the database depending on the period configured in the **[!UICONTROL Lifespan]** field (for more on this, refer to [Step 2: Create the external account in Campaign](../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign)).
+* **Sending campaign indicators and attributes**: lets you send email campaign indicators via Adobe Campaign to the Adobe Experience Cloud using Adobe Analytics - Data connector. This workflow is triggered at 4am every day and it can take 24 hours for the data to be sent to Analytics.
 
   Please note that this workflow should not be restarted or else it will resend all the prior data which can skew Analytics results.
 
@@ -223,6 +223,8 @@ They are available in the Adobe Campaign tree, under the **[!UICONTROL Administr
     * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
     * **[!UICONTROL Contact date]** (scheduling/@contactDate)
 
+* **Identification of converted contacts**: directory of the visitors who made a purchase following a re-marketing campaign. The data collected by this workflow is accessible in the **[!UICONTROL Re-marketing efficiency]** report (refer to this [page](../../platform/using/adobe-analytics-data-connector.md#creating-a-re-marketing-campaign)).
+
 ## Tracking deliveries in Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
 
 In order for the Adobe Experience Cloud to be able to track activity on the sites once the delivery is sent by Adobe Campaign, you need to reference the matching connector in the delivery properties. To do this, apply the following steps:
@@ -232,7 +234,7 @@ In order for the Adobe Experience Cloud to be able to track activity on the site
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. Open the delivery properties.
-1. Go to the **[!UICONTROL Web Analytics]** tab and select the previously created external account. Refer to [Step 2: Create the external account in Campaign](../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign)).
+1. Go to the **[!UICONTROL Web Analytics]** tab and select the previously created external account (refer to [Step 2: Create the external account in Campaign](../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign)).
 
    ![](assets/webanalytics_delivery_properties_002.png)
 
@@ -275,24 +277,3 @@ The **[!UICONTROL Re-marketing efficiency]** report is accessed via the global r
 
 ![](assets/webanalytics_reporting.png)
 
-## Best practices {#best-practices-data-connector}
-
-### Gotchas configuration {#gotchas-configuration}
-
-* Make sure Adobe Campaign and Adobe Analytics are sharing the same **[!UICONTROL Internal Name]**.
-* If you delete an external account, you will end up with errors or invalid XML in the Adobe Campaign configuration. If so, access the folders **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** > **[!UICONTROL Adobe  Analytics - Data connector]** >  **[!UICONTROL NmsWebSegments_LastStates]**. You should then check that the XML for duplicate entries for the same account, missing day attributes, missing segments, etc.
-
-    >[!NOTE]
-    >
-    >The **[!UICONTROL Recovery of Web Events]** workflow uses file, in the **[!UICONTROL Recovering Segment]** activity.
-
-* When an Adobe Campaign environment is configured with Message Center, this might mean that more than one instance needs to be connected to Adobe Analytics, the Marketing instance and the Message Center instance(s). For this to work, you need to ensure that delivery **[!UICONTROL Internal names]** are unique across all instances connected to the report suite. Otherwise, if deliveries from two different instances have the same internal name, both deliveries' data will be mixed up in Adobe Analytics.
-
-### Gotchas execution {#gotchas-execution}
-
-* Do not edit the out of the box workflows. You can make a copy, enhance, activate, and deactivate the originals.
-* **[!UICONTROL Recovery of Web Events]**, **[!UICONTROL Sending of Indicators]** and **[!UICONTROL Campaign Attributes]** can sometimes fail since the **[!UICONTROL Advanced Javascript]** activity does not reliably run according to an embedded schedule. To fix this, you can re-implement each workflow, and convert the initial Advanced JavaScript activity into a three-step **[!UICONTROL Scheduler]** > **[!UICONTROL JavaScript code]** > **[!UICONTROL End]** workflow.
-* Never restart the **[!UICONTROL Sending of Indicators]** and **[!UICONTROL Campaign Attributes]** workflows.
-You should always resume these workflows and never restart them. Otherwise, you will resend all your prior data, which could cause discrepancy in your Adobe Analytics results.
-* Adobe Analytics data is written in the **[!UICONTROL nms:webEvent]** schema but it can take 24 hours for this data to propagate to Analytics, even if **[!UICONTROL Recovery of Web Events]** workflow runs hourly. A custom integration, starting with new segment definitions in Adobe Analytics, can speed up the process and reduce the latency to just a few minutes.
-* The Sending of Indicators and Campaign Attributes workflows can be enhanced to provide additional data. For this to work, you will need to make schema changes in the output temp table, to enhance the corresponding part of Adobe Analytics that uploads the data and to re-code the workflow to be able to restart it.
