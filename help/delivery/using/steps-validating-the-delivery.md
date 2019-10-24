@@ -22,7 +22,7 @@ When a delivery has been created and configured, you must validate it before sen
 
 To do this:
 
-1. Analyze the delivery: this step lets you prepare the messages to deliver. Refer to [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+1. Analyze the delivery: this step lets you prepare the messages to deliver. Refer to [Analyzing the delivery](#analyzing-the-delivery).
 
    Available validation modes are detailed in [Changing the approval mode](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
 
