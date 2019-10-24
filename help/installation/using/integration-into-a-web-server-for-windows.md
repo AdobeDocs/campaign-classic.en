@@ -33,6 +33,10 @@ A Web server also lets you guarantee data confidentiality with the HTTPs protoco
 
 Likewise, you must use a Web server when you wish to use the tracking functionality, which is only available as a Web server extension module.
 
+>[!NOTE]
+>
+>If you do not use the tracking functionality, you can perform a standard installation of Apache or IIS with a redirection to Campaign. The tracking Web server extension module is not required.
+
 ## Configuring the IIS Web server {#configuring-the-iis-web-server}
 
 The configuration procedure for an IIS Web server is mostly graphical. It involves using a Web site (already created or pending creation) to access the resources of the Adobe Campaign server: Java (.jsp) files, stylesheets (.css, .xsl), images (.png), the ISAPI DLL for redirection, etc.
