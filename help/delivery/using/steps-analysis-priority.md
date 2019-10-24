@@ -18,7 +18,9 @@ snippet: y
 
 # Analysis priority {#analysis-priority-}
 
+
 When the delivery is part of a campaign, the **[!UICONTROL Advanced]** tab offers an additional option. This lets you organize the processing order for deliveries in the same campaign. 
+
 
 Before sending, each delivery is analyzed. The analysis duration depends on the delivery extraction file. The more significant the size of the file, the longer the analysis takes, making the following deliveries wait.
 
