@@ -22,7 +22,7 @@ Seed addresses are used to target recipients who do not match the defined target
 
 Once of the main reason for using them is **your mailing list protection**. Inserting seed addresses into your mailing list lets you be noticed if it is being used by a third-party, as the seed addresses it contains will receive the deliveries sent to your mailing list.
 
-Moreover, seed addresses let you **preview and test the deliveries personalization and rendering** before their sending, by sending them proofs (see [Using seed addresses as proof](../../delivery/using/steps-validating-the-delivery.md#using-seed-addresses-as-proof)).
+Moreover, seed addresses let you **preview and test the deliveries personalization and rendering** before their sending, by sending them proofs (see [Using seed addresses as proof](../../delivery/using/key-steps-when-creating-a-delivery.md#using-seed-addresses-as-proof)).
 
 The seed addresses feature has the following benefits:
 
