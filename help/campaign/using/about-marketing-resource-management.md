@@ -20,7 +20,7 @@ snippet: y
 
 ## Introduction {#introduction}
 
-The Marketing Resource Management (MRM) module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved.
+The Marketing Resource Management (MRM) module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved. 
 
 Adobe Campaign operators can coordinate their actions and approve their progress at all stages via complete validation processes and appropriate tracking tools: reporting, tracking of approvals, notifications, discussion forums, etc. They are alerted in the event or error or delay, and at each new stage of the validation cycle.
 
