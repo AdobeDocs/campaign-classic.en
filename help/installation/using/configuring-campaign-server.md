@@ -296,6 +296,10 @@ Also refer to [Email sending optimization](../../installation/using/email-delive
 
 ### Managing outbound SMTP traffic with affinities {#managing-outbound-smtp-traffic-with-affinities}
 
+>[!CAUTION]
+>
+>The affinity configuration needs to be coherent from one server to another. We recommend that you contact Adobe for affinity configuration, as configuration changes should be replicated on all application servers running the MTA.
+
 You can improve outbound SMTP traffic through affinities with IP addresses.
 
 To do this, apply the following steps:
