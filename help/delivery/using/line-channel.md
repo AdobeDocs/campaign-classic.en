@@ -26,8 +26,6 @@ LINE can also be combined with the transactional message module to send real tim
 
 ![](assets/line_message.png)
 
-The sections below provide information that is specific to the LINE channel. For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
-
 The steps for using the LINE channel are:
 
 1. Creating a delivery
@@ -83,14 +81,14 @@ To create a **LINE** delivery you have to follow these steps:
 
 >[!NOTE]
 >
->Global concepts on delivery creation are presented in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+>Global concepts on delivery creation are presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md).
 
 1. From the **[!UICONTROL Campaigns]** tab, select **[!UICONTROL Deliveries]** then click the **[!UICONTROL Create]** button. 
 1. In the window that appears, select **[!UICONTROL LINE V2 delivery]** delivery template.
 
    ![](assets/line_message_01.png)
 
-1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery).
+1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#identifying-the-delivery).
 1. Click **[!UICONTROL Continue]** to create your delivery.
 
 ## Defining the content {#defining-the-content}
@@ -160,7 +158,7 @@ You can use:
 
 ## Selecting the target population {#selecting-the-target-population}
 
-Selecting recipients of a LINE delivery is similar to defining email delivery recipients. For more information, refer to [Identifying target populations](../../delivery/using/steps-defining-the-target-population.md).
+Selecting recipients of a LINE delivery is similar to defining email delivery recipients. For more information, refer to [Identifying target populations](../../delivery/using/identifying-target-populations.md).
 
 Targeting is carried out on **visitors**.
 
