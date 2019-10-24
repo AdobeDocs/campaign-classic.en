@@ -8,7 +8,7 @@ topic: Premium
 
 # Help Center {#campaign-classic-documentation}
 
-![](platform/using/assets/banner_acc_doc.jpg) 
+Learn the basics and refine your skills with Adobe Campaign Classic product documentation.
 
 ## What's New
 

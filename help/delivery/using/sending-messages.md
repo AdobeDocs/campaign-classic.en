@@ -22,8 +22,8 @@ To approve your message and send it to the recipients of the delivery being crea
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validating the delivery](../../delivery/using/steps-validating-the-delivery.md)
-* [Sending the delivery](../../delivery/using/sending-the-delivery.md)
+* [Validating the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#validating-the-delivery)
+* [Sending the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-the-delivery)
 
 ## Archiving emails {#archiving-emails}
 
