@@ -22,7 +22,8 @@ snippet: y
 
 You can create a delivery via the overview or via the **[!UICONTROL Create > Delivery]** menu.
 
-To create a delivery, click **[!UICONTROL Create]** above the list of deliveries. When you create a new delivery, you must indicate the delivery channel used. To do this, select the appropriate delivery template from the drop-down list in the **[!UICONTROL Delivery template]** field.
+
+To create a delivery, click **[!UICONTROL Create]** above the list of deliveries. When you create a new delivery, you must indicate the delivery channel used. To do this, select the appropriate delivery template from the drop-down list in the **[!UICONTROL Delivery template]** field. 
 
 ![](assets/s_ncs_user_wizard_email01_1.png)
 

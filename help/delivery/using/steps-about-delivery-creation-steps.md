@@ -40,3 +40,4 @@ The key steps when creating a delivery are as follows:
 >[!NOTE]
 >
 >The steps described in this chapter assume that all target recipients and their profiles are stored in the database, except in the case of external delivery (see [Selecting external recipients](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients)).
+

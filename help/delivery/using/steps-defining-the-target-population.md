@@ -30,7 +30,8 @@ Additionnally, you can can also define **seed addresses** and Control groups (wh
 * [About seed addresses](../../delivery/using/about-seed-addresses.md)).
 * [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
 
-Once the population is defined, you can specify filtering criteria on the targeted recipients (see [Selecting the main target](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)) and on the proof recipients (see [Defining a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)).
+
+Once the population is defined, you can specify filtering criteria on the targeted recipients (see [Selecting the main target](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)) and on the proof recipients (see [Defining a specific proof target](#defining-a-specific-proof-target)).
 
 ## Selecting the recipients of the delivery {#selecting-the-main-target}
 
