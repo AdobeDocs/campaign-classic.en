@@ -186,7 +186,7 @@ This lets you use data collected via a list or based on answers to a survey in a
 
 **[!UICONTROL Target extension]** (targetData) type personalization elements are not available for targeting workflows. The delivery target has to be built in the workflow and specified in the inbound transition of the delivery.
 
-If you want to create delivery proofs, the proof target needs to be built based on the **[!UICONTROL Address substitution]** mode so that the personalization data can be entered. For more on this, refer to this [section](../../delivery/using/key-steps-when-creating-a-delivery.md#using-address-substitution-in-proof).
+If you want to create delivery proofs, the proof target needs to be built based on the **[!UICONTROL Address substitution]** mode so that the personalization data can be entered. For more on this, refer to this [section](../../delivery/using/steps-defining-the-target-population.md#using-address-substitution-in-proof).
 
 In the following example, we are going to collect a list of information on customers, to be used in a personalized email.
 
