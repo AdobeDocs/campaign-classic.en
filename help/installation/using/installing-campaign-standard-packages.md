@@ -44,7 +44,7 @@ To install a standard package:
 
 The packages are now installed.
 
-### List of standard Packages {#list-of-standard-packages}
+### List of out-of-the-box Packages {#list-of-standard-packages}
 
 The following table lists all standard packages with their description, the instance type they can be installed on (Marketing, Mid, etc.) and additional information.
 
@@ -245,7 +245,7 @@ The following table lists all standard packages with their description, the inst
    <td> Optional, <a href="../../integrations/using/configuring-ims.md#installing-the-package">Learn More</a> </td> 
   </tr> 
   <tr> 
-   <td> General Data Protection Regulation (GDPR)<br /> </td> 
+   <td> Privacy Data Protection Regulation<br /> </td> 
    <td> Contains additional functionality to help projects become GDPR compliant in Campaign Classic.<br /> </td> 
    <td> All</td> 
    <td> <a href="https://helpx.adobe.com/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html">Learn More</a> </td> 
