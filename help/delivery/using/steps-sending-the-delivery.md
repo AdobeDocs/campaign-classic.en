@@ -24,7 +24,7 @@ snippet: y
 >
 >Refer to [this section](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers) for further information.
 
-# Delivery additional parameters {#delivery-additiona-parameters}
+## Delivery additional parameters {#delivery-additiona-parameters}
 
 Before sending the delivery, you can define the sending parameters in the delivery properties, via the **[!UICONTROL Delivery]** tab.
 
