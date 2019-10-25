@@ -33,7 +33,7 @@ To use the random field substitution you must have:
 * a delivery with one or several personalization fields,
 * seed addresses whose **data schema** is modified according to the personalization fields used in the delivery.
 
-## Step 1 - Creating a delivery {#step-1---creating-a-delivery}
+## Creating a delivery {#step-1---creating-a-delivery}
 
 The steps for creating a delivery are detailed in the [Creating an email delivery](../../delivery/using/creating-an-email-delivery.md) section.
 
