@@ -103,7 +103,7 @@ The structure of the XML document of the query is described in the "xtk:queryDef
     <node expr="expression1">
     <node expr="expression2">
     ...
-  </ordery>
+  </orderBy>
   <groupBy>
     <node expr="expression1">
     <node expr="expression2">

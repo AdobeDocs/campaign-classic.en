@@ -55,6 +55,10 @@ From a technical point of view, there are two ways of storing **Date+time** type
 1. TIMESTAMP WITH TIMEZONE format: the database engine stores dates in UTC. Each session opened will have a time zone, and the dates will be converted according to it.
 1. Local format + local time zone: all dates are stored in the local format (no time-lag management) and a single time zone is assigned to them. The time zone is stored in the **WdbcTimeZone** option of the Adobe Campaign instance and can be changed via the **[!UICONTROL Administration > Platform > Options]** menu of the tree.
 
+>[!CAUTION]
+>
+>Please be aware that this modification can result into data consistency and synchronization issues. 
+
 ### Creating a new instance {#creating-a-new-instance}
 
 In order for several international users to work on the same instance, you need to configure time zones when creating the instance to manage time-lags between countries. During instance creation, select the date and time management mode in the **[!UICONTROL Time zone]** section of the database configuration stage.

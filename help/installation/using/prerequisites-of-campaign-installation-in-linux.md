@@ -49,13 +49,13 @@ To install Adobe Campaign in Linux, please make sure you have the required libra
 
 * You must have **version 0.9.8** or **1.0** of OpenSSL.
 
-  For RHEL and CentOS 6 distributions, version 1.0 of OpenSSL is required.
+  For RHEL 7 and CentOS 6 distributions, version 1.0 of OpenSSL is required.
 
 * To use Adobe Campaign, you need to have the **libicu** library installed.
 
   >[!NOTE]
   >
-  >RHEL 7 distribution is provided with the **libicu5.0** library
+  >For RHEL, only libicu 4.2 is supported. RHEL 7 distribution is provided with the **libicu5.0** library. You need to add libicu4.2 manually to the **lib** folder of Campaign.
 
   The following versions of **libicu** are supported (32bit or 64bit):
 
