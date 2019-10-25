@@ -64,12 +64,12 @@ To create a personalized attachment, follow these steps:
 
   ![](assets/s_ncs_user_wizard_email01_136.png)
 
-  The following options are available:
+The following options are available:
 
-  * **File name is specified when creating the delivery template**
-  * **The content of the file is personalized and converted to PDF during the delivery of each message**
-  * **The file name is computed during delivery analysis (it cannot depend on the recipient profile)**
-  * **File name is computed at the time of delivery for each recipient (it can depend on the recipient)**
+* **File name is specified when creating the delivery template**
+* **The content of the file is personalized and converted to PDF during the delivery of each message**
+* **The file name is computed during delivery analysis (it cannot depend on the recipient profile)**
+* **File name is computed at the time of delivery for each recipient (it can depend on the recipient)**
 
 ### Attaching a local file {#attach-a-local-file}
 
