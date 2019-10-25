@@ -136,7 +136,7 @@ To send a proof and to send the final delivery, use the same process as email de
 The detailed process when validating and sending a delivery is presented in the sections below:
 
 * [Validating the delivery](../../delivery/using/steps-validating-the-delivery.md)
-* [Sending the delivery](../../delivery/using/steps.steps-sending-the-delivery.md)
+* [Sending the delivery](../../delivery/using/steps-sending-the-delivery.md)
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
