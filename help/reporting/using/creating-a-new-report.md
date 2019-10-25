@@ -68,7 +68,7 @@ To build a report, depending on its nature and context, you need to identify the
 
 1. Place one or more 'Page' activities to define the graphical representation of the collected data. You can insert tables, charts, input fields, and condition the display of one or more pages, or elements of the page. The displayed content is fully configurable.
 
-   For more on this, refer to [Static elements](../../reporting/using/#static-elements).
+   For more on this, refer to [Static elements](#static-elements).
 
 1. Use a 'Test' activity to define the conditions for displaying or accessing data.
 
@@ -92,7 +92,7 @@ However, you can place several branches. Only one of them will be executed:
 
 ## Creating a page {#creating-a-page}
 
-Content is configured via the activities placed in the chart. For more on this, refer to [Modelizing the chart](../../reporting/using/#modelizing-the-chart).
+Content is configured via the activities placed in the chart. For more on this, refer to [Modelizing the chart](#modelizing-the-chart).
 
 To configure an activity, double-click its icon.
 

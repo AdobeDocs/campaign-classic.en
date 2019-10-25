@@ -20,9 +20,9 @@ snippet: y
 
 You can condition the display of specific report items or pages.
 
-To make specific items conditional, adapt their visibility settings. For more on this, refer to [Conditioning item display](../../reporting/using/defining-a-conditional-content.md#conditioning-item-display).
+To make specific items conditional, adapt their visibility settings. For more on this, refer to [Conditioning item display](#conditioning-item-display).
 
-To make the display of one or more pages conditional, use a **[!UICONTROL Test]** type activity. For more on this, refer to [Conditioning page display](../../reporting/using/defining-a-conditional-content.md#conditioning-page-display).
+To make the display of one or more pages conditional, use a **[!UICONTROL Test]** type activity. For more on this, refer to [Conditioning page display](#conditioning-page-display).
 
 ## Conditioning item display {#conditioning-item-display}
 

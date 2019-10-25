@@ -56,7 +56,7 @@ Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, ea
 >* For the same delivery, if you generate the Inbox rendering again, the number of available tokens is again decreased by the number of generated renderings.
 >
 
-The number of remaining available tokens is displayed in the **[!UICONTROL General summary]** of the [Inbox rendering report](../../delivery/using/inbox-rendering.md#inbox-rendering-report).
+The number of remaining available tokens is displayed in the **[!UICONTROL General summary]** of the [Inbox rendering report](#inbox-rendering-report).
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 

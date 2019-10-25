@@ -142,7 +142,7 @@ If you choose to search for an identifier, the deployment wizard lets you config
 
 ## Configuring LDAP authorizations {#configuring-ldap-authorizations}
 
-This window is displayed when you select the **[!UICONTROL Enable synchronization of user rights from authorizations and groups in the directory]** option (refer to []()).
+This window is displayed when you select the **[!UICONTROL Enable synchronization of user rights from authorizations and groups in the directory]** option.
 
 ![](assets/s_ncs_install_deployment_wiz_ldap_04.png)
 

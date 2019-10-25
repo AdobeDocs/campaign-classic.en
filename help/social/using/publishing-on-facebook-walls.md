@@ -154,4 +154,4 @@ Once synchronization is complete, the collected pages appear in the service fold
 
 ![](assets/social_facebook_service_002.png)
 
-You may now publish on the walls of your Facebook pages directly via Adobe Campaign. For more on this, refer to [Publishing on Facebook](). 
+You may now publish on the walls of your Facebook pages directly via Adobe Campaign. For more on this, refer to [Publishing on Facebook](#publishing-on-facebook-walls). 
