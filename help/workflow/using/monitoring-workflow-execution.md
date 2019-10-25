@@ -239,7 +239,7 @@ Workflows use a lot of work tables that consume space and end up slowing down th
 
 The **Database cleanup** workflow accessible via the **Administration > Production > Technical workflows** node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention. Refer to this [section](../../production/using/database-cleanup-workflow.md).
 
-You can also create specific technical workflows to purge unnecessary data consuming space. Refer to this [section](../../production/using/application-objects.md) and this [page](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
+You can also create specific technical workflows to purge unnecessary data consuming space. Refer to this [section](../../production/using/application-objects.md) and this [page](#purging-the-logs).
 
 ## Handling of paused workflows {#handling-of-paused-workflows}
 

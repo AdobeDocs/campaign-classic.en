@@ -20,11 +20,11 @@ snippet: y
 
 ACS Connector replicates data from Campaign v7 to Campaign Standard. The data received from Campaign v7 can be used in Campaign Standard to create deliveries. You can see how profiles are synchronized by performing the operations listed below.
 
-* **Add new recipients**: Create a new recipient in Campaign v7 and confirm that a corresponding profile has been replicated to Campaign Standard. See [Creating a new recipient](../../integrations/using/synchronizing-profiles.md#creating-a-new-recipient).
-* **Update recipients**: Edit a new recipient in Campaign v7 and view the corresponding profile in Campaign Standard to confirm that the update has been replicated. See [Editing a recipient](../../integrations/using/synchronizing-profiles.md#editing-a-recipient).
-* **Build a workflow in Campaign Standard**: Create a workflow in Campaign Standard that includes a query with an audience or profiles replicated from Campaign v7. See [Creating a workflow](../../integrations/using/synchronizing-profiles.md#creating-a-workflow).
-* **Create a delivery in Campaign Standard**: Follow the workflow to completion to send a delivery. See [Creating a delivery](../../integrations/using/synchronizing-profiles.md#creating-a-delivery).
-* **Verify the unsubscription link**: Use a Campaign v7 web application to make certain that the recipient's choice to unsubscribe to a service is sent to the Campaign v7 database. The option to stop receiving the service is replicated to Campaign Standard. See [Changing the unsubscription link](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
+* **Add new recipients**: Create a new recipient in Campaign v7 and confirm that a corresponding profile has been replicated to Campaign Standard. See [Creating a new recipient](#creating-a-new-recipient).
+* **Update recipients**: Edit a new recipient in Campaign v7 and view the corresponding profile in Campaign Standard to confirm that the update has been replicated. See [Editing a recipient](#editing-a-recipient).
+* **Build a workflow in Campaign Standard**: Create a workflow in Campaign Standard that includes a query with an audience or profiles replicated from Campaign v7. See [Creating a workflow](#creating-a-workflow).
+* **Create a delivery in Campaign Standard**: Follow the workflow to completion to send a delivery. See [Creating a delivery](#creating-a-delivery).
+* **Verify the unsubscription link**: Use a Campaign v7 web application to make certain that the recipient's choice to unsubscribe to a service is sent to the Campaign v7 database. The option to stop receiving the service is replicated to Campaign Standard. See [Changing the unsubscription link](#changing-the-unsubscription-link).
 
 ## Prerequisites {#prerequisites}
 
@@ -44,7 +44,7 @@ When a recipient clicks the unsubscription link in an email sent by Campaign Sta
 
 ## Creating a new recipient {#creating-a-new-recipient}
 
-1. Create a new recipient in Campaign v7 for replication to Campaign Standard. Enter as much information as possible, including the recipient's last name, first name, email address, and postal address. However, do not choose a **[!UICONTROL Salutation]** since it will be added in the next section, [Editing a recipient](../../integrations/using/synchronizing-profiles.md#editing-a-recipient). For further information, see [Adding recipients](../../platform/using/adding-profiles.md).
+1. Create a new recipient in Campaign v7 for replication to Campaign Standard. Enter as much information as possible, including the recipient's last name, first name, email address, and postal address. However, do not choose a **[!UICONTROL Salutation]** since it will be added in the next section, [Editing a recipient](#editing-a-recipient). For further information, see [Adding recipients](../../platform/using/adding-profiles.md).
 
    ![](assets/acs_connect_profile_sync_01.png)
 
@@ -58,7 +58,7 @@ When a recipient clicks the unsubscription link in an email sent by Campaign Sta
 
 The steps below for changing a single point of data offer a simple example of how Campaign v7 becomes the master database for Campaign Standard when using data replication. Modifying or deleting replicated data in Campaign v7 has the same effect on the corresponding data in Campaign Standard.
 
-1. Choose the newly created recipient from [Creating a new recipient](../../integrations/using/synchronizing-profiles.md#creating-a-new-recipient) and edit the recipient’s name. For example, choose a **[!UICONTROL Salutation]** for the recipient (e.g. Mr. or Mrs.). For further information, see [Editing a profile](../../platform/using/editing-a-profile.md).
+1. Choose the newly created recipient from [Creating a new recipient](#creating-a-new-recipient) and edit the recipient’s name. For example, choose a **[!UICONTROL Salutation]** for the recipient (e.g. Mr. or Mrs.). For further information, see [Editing a profile](../../platform/using/editing-a-profile.md).
 
    ![](assets/acs_connect_profile_sync_03.png)
 
@@ -92,9 +92,9 @@ For further information and full instructions regarding Campaign Standard workfl
 
 >[!NOTE]
 >
->The instructions for creating the delivery continue the workflow started with [Creating a workflow](../../integrations/using/synchronizing-profiles.md#creating-a-workflow).
+>The instructions for creating the delivery continue the workflow started with [Creating a workflow](#creating-a-workflow).
 
-Digital marketers can leverage a Campaign v7 web application to make certain that a recipient's choice to unsubscribe to a service is sent to the Campaign v7 database. After the recipient clicks the unsubscription link, the option to stop receiving the service is replicated from Campaign v7 to Campaign Standard. For additional details, see [Changing the unsubscription link](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
+Digital marketers can leverage a Campaign v7 web application to make certain that a recipient's choice to unsubscribe to a service is sent to the Campaign v7 database. After the recipient clicks the unsubscription link, the option to stop receiving the service is replicated from Campaign v7 to Campaign Standard. For additional details, see [Changing the unsubscription link](#changing-the-unsubscription-link).
 
 Follow the steps below to add an email delivery to an existing workflow with the unsubscription service created in Campaign v7. For further information and full instructions regarding Campaign Standard workflows, see this [document](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/about-workflows-and-data-management/workflow-data-and-processes.html).
 
@@ -161,7 +161,7 @@ Follow the steps below to add an email delivery to an existing workflow with the
 
 ## Verifying the unsubscription service {#verifying-the-unsubscription-service}
 
-Follow the instructions in [Creating a workflow](../../integrations/using/synchronizing-profiles.md#creating-a-workflow) and [Creating a delivery](../../integrations/using/synchronizing-profiles.md#creating-a-delivery) before moving to the steps below.
+Follow the instructions in [Creating a workflow](#creating-a-workflow) and [Creating a delivery](#creating-a-delivery) before moving to the steps below.
 
 1. The recipient clicks the unsubscription link in the email delivery.
 

@@ -40,7 +40,7 @@ Campaign Classic configuration files are stored in the **conf** folder of the Ad
 
 Each operator needs to be linked to a zone to log on to an instance and the operator IP must be included in the addresses or address sets defined in the security zone. Security zone configuration is carried out in the configuration file of the Adobe Campaign server.
 
-Operators are linked to a security zone from its profile in the console ( **[!UICONTROL Administration > Access management > Operators]** node). Learn how to link zones to Campaign operators in [this section](../../installation/using/configuring-campaign-server.md#linking-a-security-zone-to-an-operator).
+Operators are linked to a security zone from its profile in the console ( **[!UICONTROL Administration > Access management > Operators]** node). Learn how to link zones to Campaign operators in [this section](#linking-a-security-zone-to-an-operator).
 
 ### Creating security zones {#creating-security-zones}
 

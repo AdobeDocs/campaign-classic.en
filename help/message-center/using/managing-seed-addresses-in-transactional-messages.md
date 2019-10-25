@@ -48,7 +48,7 @@ A seed address lets you display a preview of your message, send a proof, and tes
 
    ![](assets/messagecenter_create_seedaddr_004.png)
 
-1. Follow the configuration steps for a seed address detailed in the [Creating a seed address](../../message-center/using/managing-seed-addresses-in-transactional-messages.md#creating-a-seed-address) section.
+1. Follow the configuration steps for a seed address detailed in the [Creating a seed address](#creating-a-seed-address) section.
 1. Repeat the process to create as many addresses as you need.
 
    ![](assets/messagecenter_create_seedaddr_008.png)

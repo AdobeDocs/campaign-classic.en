@@ -24,9 +24,9 @@ Binning enables you to simplify data display by grouping values according to cri
 
 Overall, three types of binning are available:
 
-1. Using manually defined value ranges. For instance, age, average shopping cart, number of deliveries opened, etc.). For more on this, refer to [Defining each bin](../../reporting/using/concepts-and-methodology.md#defining-each-bin).
-1. Dynamically, depending on the values of an enumeration: only display the values contained in the enumeration, all other values are grouped in 'Others'. For more on this, refer to [Dynamically managing bins](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
-1. Using value ranges, all others being grouped together. For instance, 18 to 25 year-olds, 26 to 59 year-olds, and the others. For more on this, refer to [Creating value ranges](../../reporting/using/concepts-and-methodology.md#creating-value-ranges).
+1. Using manually defined value ranges. For instance, age, average shopping cart, number of deliveries opened, etc.). For more on this, refer to [Defining each bin](#defining-each-bin).
+1. Dynamically, depending on the values of an enumeration: only display the values contained in the enumeration, all other values are grouped in 'Others'. For more on this, refer to [Dynamically managing bins](#dynamically-managing-bins).
+1. Using value ranges, all others being grouped together. For instance, 18 to 25 year-olds, 26 to 59 year-olds, and the others. For more on this, refer to [Creating value ranges](#creating-value-ranges).
 
 To enable binning, check the appropriate box when creating the dimension.
 
@@ -163,7 +163,7 @@ To create a new aggregate, apply the following steps:
 
 The types of measures are defined in the **[!UICONTROL Measures]** tab of the cube. You can calculate sums, averages, deviations, etc.
 
-You can create as many measures as necessary: then select the measure that you want to show or hide in the table. For more on this, refer to [Displaying measures](../../reporting/using/concepts-and-methodology.md#displaying-measures).
+You can create as many measures as necessary: then select the measure that you want to show or hide in the table. For more on this, refer to [Displaying measures](#displaying-measures).
 
 To define a new measure, apply the following steps:
 
@@ -187,9 +187,9 @@ To define a new measure, apply the following steps:
 
 You can configure the display of measures in the table depending on your needs:
 
-* the display sequence of measures (refer to [Display sequence](../../reporting/using/concepts-and-methodology.md#display-sequence)),
-* the information to show/hide in the report (refer to [Configuring the display](../../reporting/using/concepts-and-methodology.md#configuring-the-display)) 
-* which measures to display: percentage, total, number of decimals, etc. (refer to [Changing the type of measure displayed](../../reporting/using/concepts-and-methodology.md#changing-the-type-of-measure-displayed)).
+* the display sequence of measures (refer to [Display sequence](#display-sequence)),
+* the information to show/hide in the report (refer to [Configuring the display](#configuring-the-display)) 
+* which measures to display: percentage, total, number of decimals, etc. (refer to [Changing the type of measure displayed](#changing-the-type-of-measure-displayed)).
 
 ### Display sequence {#display-sequence}
 

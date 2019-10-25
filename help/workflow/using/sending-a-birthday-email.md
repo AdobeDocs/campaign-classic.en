@@ -131,7 +131,7 @@ After configuring the **[!UICONTROL Scheduler]** activity so that the workflow s
 
 ![](assets/birthday-workflow_usecase_2.png)
 
-Selecting recipients whose birthday corresponds to the current date is presented in the [Identifying recipients whose birthday it is](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is) section.
+Selecting recipients whose birthday corresponds to the current date is presented in the [Identifying recipients whose birthday it is](#identifying-recipients-whose-birthday-it-is) section.
 
 ### Step 2: Select whether or not it is a leap year {#step-2--select-whether-or-not-it-is-a-leap-year}
 

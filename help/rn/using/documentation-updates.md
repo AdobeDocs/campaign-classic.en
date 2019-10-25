@@ -20,9 +20,15 @@ snippet: y
 
 Learn about all the latest updates for Adobe Campaign Classic documentation.
 
-This page lists all the new features and documentation updates for each release of Adobe Campaign Classic.
+This page lists all the new features and documentation updates for each release of Adobe Campaign Classic. 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
+
+## October 2019 {#october-2019}
+
+A new troubleshooting page has been added for tracking in Campaign Classic. [Read more](https://helpx.adobe.com/campaign/kb/classic-tracking-troubleshooting.html).
+
+A new page of best practices for Adobe Analytics Data Connector has been added. [Read more on Adobe Analytics Data Connector](../../platform/using/adobe-analytics-data-connector.md)
 
 ## September 2019 {#september-2019}
 

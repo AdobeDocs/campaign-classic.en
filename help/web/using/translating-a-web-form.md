@@ -20,9 +20,9 @@ snippet: y
 
 It's possible to localize a Web application into several languages.
 
-You can carry out translations directly in the Adobe Campaign console (refer to [Managing translations in the editor](../../web/using/translating-a-web-form.md#managing-translations-in-the-editor)), or export and import strings to externalize translation (refer to [Externalizing translation](../../web/using/translating-a-web-form.md#externalizing-translation)).
+You can carry out translations directly in the Adobe Campaign console (refer to [Managing translations in the editor](#managing-translations-in-the-editor)), or export and import strings to externalize translation (refer to [Externalizing translation](#externalizing-translation)).
 
-The list of translation languages available by default is detailed in [Changing forms display language](../../web/using/translating-a-web-form.md#changing-forms-display-language).
+The list of translation languages available by default is detailed in [Changing forms display language](#changing-forms-display-language).
 
 The Web application is designed in an editing language: this is the reference language used to enter labels and other content to be translated.
 
@@ -62,7 +62,7 @@ Adobe Campaign collects labels of fields and strings defined in the **[!UICONTRO
 >
 >This process can take several minutes depending on the volume of data to be processed.
 > 
->If a warning appears to say that some translations are missing in the system dictionary, refer to [Translating the system strings](../../web/using/translating-a-web-form.md#translating-the-system-strings).
+>If a warning appears to say that some translations are missing in the system dictionary, refer to [Translating the system strings](#translating-the-system-strings).
 
 Each time a string is translated, its translation is added to the translation dictionary.
 
@@ -135,7 +135,7 @@ It's possible to export and import character strings to translate them using a t
 >
 >The names of export files are generated automatically. If you carry out the same export several times, you will replace existing files by the new ones. If you need to keep the previous files, change the **[!UICONTROL Target folder]** , then click **[!UICONTROL Start]** again to run the export.
 
-When you export files in **CSV format**, each language is linked to a status and approval status. The **Approve?** column lets you approve a translation. This column may contain the values **Yes** or **No**. As for the integrated editor (refer to [Managing translations in the editor](../../web/using/translating-a-web-form.md#managing-translations-in-the-editor)), approving translations is optional and does not block the process.
+When you export files in **CSV format**, each language is linked to a status and approval status. The **Approve?** column lets you approve a translation. This column may contain the values **Yes** or **No**. As for the integrated editor (refer to [Managing translations in the editor](#managing-translations-in-the-editor)), approving translations is optional and does not block the process.
 
 ### Importing files {#importing-files}
 
@@ -175,7 +175,7 @@ Web forms are displayed in the default language specified in the **[!UICONTROL L
 
 The translation languages and dictionaries available by default are listed below.
 
-**Default system dictionary**: some languages include a default dictionary which contains the translation of the system strings. For more on this, refer to [Translating the system strings](../../web/using/translating-a-web-form.md#translating-the-system-strings).
+**Default system dictionary**: some languages include a default dictionary which contains the translation of the system strings. For more on this, refer to [Translating the system strings](#translating-the-system-strings).
 
 **Calendar management**: the pages of a Web application can include a calendar for entering dates. By default, this calendar is available in several languages (translation of days, date format).
 
@@ -411,7 +411,7 @@ The translation languages and dictionaries available by default are listed below
 
 >[!NOTE]
 >
->To add other languages than those offered by default, refer to [Adding a translation language](../../web/using/translating-a-web-form.md#adding-a-translation-language)
+>To add other languages than those offered by default, refer to [Adding a translation language](#adding-a-translation-language)
 
 ## Example: displaying a Web application in several languages {#example--displaying-a-web-application-in-several-languages}
 
@@ -423,7 +423,7 @@ Add **?lang=fr** to the end of the URL to display it in French:
 
 >[!NOTE]
 >
->The list of symbols for each language is detailed in [Changing forms display language](../../web/using/translating-a-web-form.md#changing-forms-display-language).
+>The list of symbols for each language is detailed in [Changing forms display language](#changing-forms-display-language).
 
 ![](assets/s_ncs_admin_survey_trad_sample_en.png)
 
@@ -442,7 +442,7 @@ You can add **?lang=es** or **?lang=de** to display it in Spanish or German.
 
 ### Translating the system strings {#translating-the-system-strings}
 
-System strings are out-of-the-box character strings used by all Web applications. For example: **[!UICONTROL Next]** , **[!UICONTROL Previous]**, **[!UICONTROL Approve]** buttons, **[!UICONTROL Loading]** messages, etc. By default, some languages contain a dictionary with translations for these strings. The list of languages is detailed in [Changing forms display language](../../web/using/translating-a-web-form.md#changing-forms-display-language).
+System strings are out-of-the-box character strings used by all Web applications. For example: **[!UICONTROL Next]** , **[!UICONTROL Previous]**, **[!UICONTROL Approve]** buttons, **[!UICONTROL Loading]** messages, etc. By default, some languages contain a dictionary with translations for these strings. The list of languages is detailed in [Changing forms display language](#changing-forms-display-language).
 
 If you translate your Web application into a language for which the system dictionary isn't translated, a warning message will appear to let you know that some translations are missing.
 
@@ -469,7 +469,7 @@ To add a language, apply the following steps:
 
 ### Adding a translation language {#adding-a-translation-language}
 
-To translate Web applications into languages other than the default ones (refer to [Changing forms display language](../../web/using/translating-a-web-form.md#changing-forms-display-language)), you will need to add a new translation language.
+To translate Web applications into languages other than the default ones (refer to [Changing forms display language](#changing-forms-display-language)), you will need to add a new translation language.
 
 1. Click the **[!UICONTROL Administration > Platform > Itemized lists]** node of the Adobe Campaign tree and select **[!UICONTROL Languages available for translation]** from the list. The list of available translations is displayed in the lower section of the window. 
 

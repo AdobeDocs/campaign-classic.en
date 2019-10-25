@@ -115,5 +115,5 @@ You can still modify the system filters of the out-of-the-box schemas which are 
 
 1. Create an extension for the concerned schema or open an existing extension.
 1. Add a child element **`<sysfilter name="<filter name>" _operation="delete"/>`** in the main element to delete application of the filter under the same in the origin schema.
-1. If you like, you can add a new filter, as detailed in [System filters](../../configuration/using/filtering-schemas.md#system-filters).
+1. If you like, you can add a new filter, as detailed in [System filters](#system-filters).
 
