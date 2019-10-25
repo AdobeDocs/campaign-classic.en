@@ -67,7 +67,7 @@ index: y
        + [Creating and identifying the delivery](delivery/using/steps-create-and-identify-the-delivery.md)
        + [Defining the target population](delivery/using/steps-defining-the-target-population.md)
        + [Validating the delivery](delivery/using/steps-validating-the-delivery.md)
-       + [Sending the delivery](delivery/using/steps-steps-sending-the-delivery.md)
+       + [Sending the delivery](delivery/using/steps-sending-the-delivery.md)
   + Sending emails {#sending-emails}
        + [About email channel](delivery/using/about-email-channel.md)
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)
