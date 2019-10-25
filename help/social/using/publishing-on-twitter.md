@@ -84,7 +84,7 @@ The **[!UICONTROL Preview]** tab lets you view a rendering of the tweet.
 
 >[!NOTE]
 >
->The preview may differ slightly from the final tweet. We highly recommend sending a proof before final delivery to view an exact rendering of the tweet. Refer to [Sending the proof](../../social/using/publishing-on-twitter.md#sending-the-proof).
+>The preview may differ slightly from the final tweet. We highly recommend sending a proof before final delivery to view an exact rendering of the tweet. Refer to [Sending the proof](#sending-the-proof).
 
 ### Configuring tracking {#configuring-tracking}
 
@@ -102,7 +102,7 @@ Tracking configuration is the same as for an email delivery. For more on this, r
 
 ### Sending the proof {#sending-the-proof}
 
-We highly recommend sending a proof of your publication before the final delivery to get an exact rendering of the publication on a private Twitter test page. For more on creating a private Twitter account, refer to [Creating a test account on Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). The steps for selecting the proof target are detailed in [Selecting the target of the proof](../../social/using/publishing-on-twitter.md#selecting-the-target-of-the-proof).
+We highly recommend sending a proof of your publication before the final delivery to get an exact rendering of the publication on a private Twitter test page. For more on creating a private Twitter account, refer to [Creating a test account on Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). The steps for selecting the proof target are detailed in [Selecting the target of the proof](#selecting-the-target-of-the-proof).
 
 Proof delivery is identical to email deliveries. Refer to [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof).
 
@@ -187,7 +187,7 @@ Select the followers whom you want to send your direct message to.
 
 ### Selecting the target of the proof {#selecting-the-target-of-the-proof-1}
 
-The **[!UICONTROL Target of the proofs]** tab lets you select the follower who will receive the proof of your direct message. The selection process is the same as for the main target. Refer to [Selecting the main target](../../social/using/publishing-on-twitter.md#selecting-the-main-target).
+The **[!UICONTROL Target of the proofs]** tab lets you select the follower who will receive the proof of your direct message. The selection process is the same as for the main target. Refer to [Selecting the main target](#selecting-the-main-target).
 
 ![](assets/social_twitter_delivery_020.png)
 
@@ -205,4 +205,4 @@ Personalization fields can be used the same way as for email deliveries, for ins
 
 ![](assets/social_twitter_delivery_021.png)
 
-The following steps are the same as for sending a tweet to a Twitter account. Refer to [Publishing on your Twitter accounts](../../social/using/publishing-on-twitter.md#publishing-on-your-twitter-accounts).
+The following steps are the same as for sending a tweet to a Twitter account. Refer to [Publishing on your Twitter accounts](#publishing-on-your-twitter-accounts).

@@ -276,7 +276,7 @@ Therefore, relaunch the postupgrade with the following command:
 nlserver config -postupgrade -instance:<instance_name> -force
 ```
 
-You must configure the security zones (refer to [Security](../../migration/using/general-configurations.md#security)), then reactivate the security by changing the option:
+You must configure the security zones (refer to [Security](#security)), then reactivate the security by changing the option:
 
 ```
 allowSQLInjection="false"
@@ -637,11 +637,11 @@ There are two web application families:
 
 ### Identified web applications {#identified-web-applications}
 
-Just as for reports (see [Reports](../../migration/using/general-configurations.md#reports)), if you had added JavaScript, you must check and adapt if necessary. If you wish to benefit from the v7 blue banner (containing the universes), you must republish the web application. If your JavaScript code is working, you can select the v6.x rendering engine. If this is not the case, you can use the v6.0 rendering engine while you adapt your code, then use the v6.x rendering engine.
+Just as for reports (see [Reports](#reports)), if you had added JavaScript, you must check and adapt if necessary. If you wish to benefit from the v7 blue banner (containing the universes), you must republish the web application. If your JavaScript code is working, you can select the v6.x rendering engine. If this is not the case, you can use the v6.0 rendering engine while you adapt your code, then use the v6.x rendering engine.
 
 >[!NOTE]
 >
->The steps to select the rendering engine are the same as those for selecting reports. See [Personalized reports](../../migration/using/general-configurations.md#personalized-reports).
+>The steps to select the rendering engine are the same as those for selecting reports. See [Personalized reports](#personalized-reports).
 
 Web application connection methods have changed in v7. If you encounter any connection problems in your identified web applications, you must temporarily activate the **allowUserPassword** and **sessionTokenOnly** options in the **serverConf.xml** file. After the postupgrade, modify these option values:
 
@@ -675,7 +675,7 @@ If you encounter any problems, republish the web application. If the problem per
 
 >[!NOTE]
 >
->The steps to select the rendering engine are the same as those for selecting reports. See [Personalized reports](../../migration/using/general-configurations.md#personalized-reports).
+>The steps to select the rendering engine are the same as those for selecting reports. See [Personalized reports](#personalized-reports).
 
 ## Red-Hat {#red-hat}
 

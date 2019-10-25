@@ -103,7 +103,7 @@ The following use cases detail the possible options for integrating offers via J
 
 ### Presenting an identified offer {#presenting-an-identified-offer}
 
-To present an offer to an identified contact, the process is similar as the one detailed here: [Presenting an anonymous offer](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-anonymous-offer). In the content of the web page, you need to add the following script that will identify the contact during the call to the engine:
+To present an offer to an identified contact, the process is similar as the one detailed here: [Presenting an anonymous offer](#presenting-an-anonymous-offer). In the content of the web page, you need to add the following script that will identify the contact during the call to the engine:
 
 ```
 <script type="text/javascript">

@@ -20,13 +20,13 @@ snippet: y
 
 This section details the key principles and best practices to build a workflow in Campaign.
 
-* Create a workflow, see [Creating a new workflow](../../workflow/using/building-a-workflow.md#creating-a-new-workflow)
-* Design the workflow diagram, see [Adding and linking activities](../../workflow/using/building-a-workflow.md#adding-and-linking-activities)
-* Access parameters and properties of activities, see [Configuring activities](../../workflow/using/building-a-workflow.md#configuring-activities)
-* Design targeting workflows, see [Targeting workflows](../../workflow/using/building-a-workflow.md#targeting-workflows)
-* Use workflow to execute a campaign, see [Campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows)
-* Access and create technical workflows, see [Technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows)
-* Use templates to create workflows, see [Workflow templates](../../workflow/using/building-a-workflow.md#workflow-templates)
+* Create a workflow, see [Creating a new workflow](#creating-a-new-workflow)
+* Design the workflow diagram, see [Adding and linking activities](#adding-and-linking-activities)
+* Access parameters and properties of activities, see [Configuring activities](#configuring-activities)
+* Design targeting workflows, see [Targeting workflows](#targeting-workflows)
+* Use workflow to execute a campaign, see [Campaign workflows](#campaign-workflows)
+* Access and create technical workflows, see [Technical workflows](#technical-workflows)
+* Use templates to create workflows, see [Workflow templates](#workflow-templates)
 
 ## Creating a new workflow {#creating-a-new-workflow}
 
@@ -83,7 +83,7 @@ To create the diagram
 
 >[!CAUTION]
 >
->You can copy and paste activities within a same workflow. However, we do not recommend to copy paste activities across different workflows. Some settings attached to activities like Deliveries and Scheduler could lead to conflicts and errors while executing the destination workflow. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](../../workflow/using/building-a-workflow.md#duplicating-workflows).
+>You can copy and paste activities within a same workflow. However, we do not recommend to copy paste activities across different workflows. Some settings attached to activities like Deliveries and Scheduler could lead to conflicts and errors while executing the destination workflow. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](#duplicating-workflows).
 
 ### Additional layout options {#additional-layout-options}
 
@@ -177,7 +177,7 @@ For each campaign, you can create workflows to be executed from the **[!UICONTRO
 
 ![](assets/wf-in-op-edit-delivery-tab.png)
 
-This tab contains the same activities as for all workflows. They are presented in the [Implementation steps](../../workflow/using/building-a-workflow.md#implementation-steps-) section.
+This tab contains the same activities as for all workflows. They are presented in the [Implementation steps](#implementation-steps-) section.
 
 In addition to targeting campaigns, campaign workflows enable you to create and configure deliveries entirely for all available channels. Once created in the workflow, these deliveries are available from the dashboard of the campaign.
 
@@ -203,7 +203,7 @@ The **[!UICONTROL Campaign process]** subfolder centralizes the workflows requir
 
 You can create other technical workflows in the **[!UICONTROL Administration > Production > Technical workflows]** node of the tree structure. However, this process is reserved for expert users.
 
-The activities offered are the same as for targeting workflows. For more on this, refer to [Implementation steps](../../workflow/using/building-a-workflow.md#implementation-steps-).
+The activities offered are the same as for targeting workflows. For more on this, refer to [Implementation steps](#implementation-steps-).
 
 ## Workflow templates {#workflow-templates}
 
