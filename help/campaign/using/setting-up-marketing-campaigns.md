@@ -24,7 +24,7 @@ To create a marketing campaign:
 
 1. Create a campaign: discover campaigns and their characteristics: label, type, start and end dates, budget, associated resources, manager(s) and participants.
 
-   See [Creating a campaign](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
+   See [Creating a campaign](#creating-a-campaign).
 
 1. Define target population(s): create a workflow with targeting queries.
 

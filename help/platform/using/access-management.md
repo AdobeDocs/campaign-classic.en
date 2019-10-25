@@ -32,8 +32,8 @@ They are completed by safety parameters linked to the operator's connection mode
 
 There are two types of permissions you can grant to a user:
 
-* You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. Group creation and management are presented in [Operator groups](../../platform/using/access-management.md#operator-groups).
-* You can attribute named rights directly to users, in some cases to overload the rights allocated via groups. These rights are presented in [Named rights](../../platform/using/access-management.md#named-rights).
+* You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. Group creation and management are presented in [Operator groups](#operator-groups).
+* You can attribute named rights directly to users, in some cases to overload the rights allocated via groups. These rights are presented in [Named rights](#named-rights).
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ By default, operators are stored in the **[!UICONTROL Administration > Access ma
 
 Operators can be created manually or mapped on an existing LDAP directory.
 
-Complete procedure to create an operator is described in [this page](../../platform/using/access-management.md#creating-an-operator).
+Complete procedure to create an operator is described in [this page](#creating-an-operator).
 
 For more on Adobe Campaign and LDAP integration, refer to [this page](../../installation/using/connecting-through-ldap.md).
 
@@ -79,7 +79,7 @@ To create a new operator and grant permissions, follow the steps below:
 
    ![](assets/s_ncs_user_permissions_operators.png)
 
-   You can also select one or more named rights (refer to [Named rights](../../platform/using/access-management.md#named-rights)). To do this, click the arrow to the right of the **[!UICONTROL Folder]** field, and select **[!UICONTROL Named rights]**:
+   You can also select one or more named rights (refer to [Named rights](#named-rights)). To do this, click the arrow to the right of the **[!UICONTROL Folder]** field, and select **[!UICONTROL Named rights]**:
 
    ![](assets/s_ncs_user_rights_operators.png)
 
@@ -158,7 +158,7 @@ You can access:
 
   >[!NOTE]
   >
-  >For more on this, refer to [Folder access management](../../platform/using/access-management.md#folder-access-management).
+  >For more on this, refer to [Folder access management](#folder-access-management).
 
 * The operator approvals log.
 
@@ -184,7 +184,7 @@ By default, the 'webapp' technical operator has the named ADMINISTRATION right, 
 
    ![](assets/s_ncs_default_operators_webapp_right.png)
 
-   Named rights are detailed in the [Named rights](../../platform/using/access-management.md#named-rights) section.
+   Named rights are detailed in the [Named rights](#named-rights) section.
 
 1. From the **[!UICONTROL Administration > Access management > Operators]** node, select the Web applications agent operator ('webapp').
 
@@ -200,7 +200,7 @@ By default, the 'webapp' technical operator has the named ADMINISTRATION right, 
 
    ![](assets/s_ncs_default_operators_webapp_folder_access.png)
 
-   Modifying rights on tree folders is detailed in the [Folder access management](../../platform/using/access-management.md#folder-access-management) section.
+   Modifying rights on tree folders is detailed in the [Folder access management](#folder-access-management) section.
 
 >[!NOTE]
 >
@@ -368,7 +368,7 @@ Folders are nodes in Adobe Campaign tree. These nodes are created by right-click
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-You can grant permissions to these folders as on all the other folders of the tree. See [Folder access management](../../platform/using/access-management.md#folder-access-management).
+You can grant permissions to these folders as on all the other folders of the tree. See [Folder access management](#folder-access-management).
 
 In addition, you can create views in order to restrain access to data and organize the content of the tree to suit your requirements. You can then assign rights to the views.
 

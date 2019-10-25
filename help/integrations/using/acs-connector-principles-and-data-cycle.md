@@ -36,8 +36,8 @@ With ACS Connector, Campaign Standard continues to be used by digital marketers 
 
 This document presents the ACS Connector capabilities. The sections below provide information on how the feature replicates data and instructions on how to work with replicated profiles.
 
-* [Process](../../integrations/using/acs-connector-principles-and-data-cycle.md#process): Overview of ACS Connector and how data replication is managed.
-* [Implementation](../../integrations/using/acs-connector-principles-and-data-cycle.md#implementation): Overview of how to get started with ACS Connector as well as instructions on how to replicate basic and advanced data.
+* [Process](#process): Overview of ACS Connector and how data replication is managed.
+* [Implementation](#implementation): Overview of how to get started with ACS Connector as well as instructions on how to replicate basic and advanced data.
 * [Synchronizing profiles](../../integrations/using/synchronizing-profiles.md): Instructions on how to replicate profiles and how to create deliveries with them.
 * [Synchronizing audiences](../../integrations/using/synchronizing-audiences.md): Instructions on how to target a list of recipients in Campaign v7 and then replicate the list to Campaign Standard as an audience.
 * [Synchronizing web applications](../../integrations/using/synchronizing-web-applications.md): Instructions on how to link Campaign v7 web applications to Campaign Standard.
@@ -121,7 +121,7 @@ Two types of implementation exist for ACS Connector. Both of them are always per
 
 The **basic implementation** allows you to replicate recipients (out-of-the-box fields), services and subscriptions, web applications and audiences. This is a one-way replication from Campaign v7 to Campaign Standard.
 
-The **advanced implementation** will allow you to perform more complex use cases, for example if you have additional recipient fields or custom recipient tables (transaction table for example). See [Advanced implementation](../../integrations/using/acs-connector-principles-and-data-cycle.md#advanced-implementation).
+The **advanced implementation** will allow you to perform more complex use cases, for example if you have additional recipient fields or custom recipient tables (transaction table for example). See [Advanced implementation](#advanced-implementation).
 
 ### Installing the package {#installing-the-package}
 
@@ -140,23 +140,23 @@ After the installation of the package, two technical workflows are available und
 ![](assets/acs_connect_implementation_3.png)
 
 * **[!UICONTROL `[ACS] Quarantine synchronization`]** (quarantineSync): this workflow synchronizes all quarantine information. All new quarantines in Campaign v7 are replicated into Campaign Standard. All new quarantines from Campaign Standard are replicated into Campaign v7. This guarantees that all exclusion rules are synchronized between Campaign v7 and Campaign Standard.
-* **[!UICONTROL `[ACS] Security group synchronization`]** (securityGroupSync): this workflow is used for rights conversion. See [Rights conversion](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion).
+* **[!UICONTROL `[ACS] Security group synchronization`]** (securityGroupSync): this workflow is used for rights conversion. See [Rights conversion](#rights-conversion).
 
 The following replication workflows are available as "ready to be used" templates. They need to be implemented by your Adobe Campaign consultant.
 
 ![](assets/acs_connect_implementation_2.png)
 
-* **[!UICONTROL `[ACS] Profile replication`]** (newProfileReplication): this incremental workflow replicates recipients to Campaign Standard. By default, it replicates all the out-of-the-box recipient fields. See [Default recipient fields](../../integrations/using/acs-connector-principles-and-data-cycle.md#default-recipient-fields).
+* **[!UICONTROL `[ACS] Profile replication`]** (newProfileReplication): this incremental workflow replicates recipients to Campaign Standard. By default, it replicates all the out-of-the-box recipient fields. See [Default recipient fields](#default-recipient-fields).
 * **[!UICONTROL `[ACS] Service replication`]** (newServiceReplication): this incremental workflow replicates the chosen services to Campaign Standard. See the use case [Synchronizing web applications](../../integrations/using/synchronizing-web-applications.md).
 * **[!UICONTROL `[ACS] Landing pages replication`]** (newLandingPageReplication): this incremental workflow replicates the chosen web applications to Campaign Standard. The Campaign v7 web applications will appear as landing pages in Campaign Standard. See the use case [Synchronizing web applications](../../integrations/using/synchronizing-web-applications.md).
-* **[!UICONTROL `[ACS] New replication`]** (newReplication): this incremental workflow is an example that can be used to replicate a custom table. See [Advanced implementation](../../integrations/using/acs-connector-principles-and-data-cycle.md#advanced-implementation).
+* **[!UICONTROL `[ACS] New replication`]** (newReplication): this incremental workflow is an example that can be used to replicate a custom table. See [Advanced implementation](#advanced-implementation).
 * **[!UICONTROL `[ACS] Delivery-mesage replication`]** (newDlvMsgQualification): this incremental workflow replicates delivery messages from Campaign Standard to Campaign v7.
 * **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication): this incremental workflow replicates delivery IDs, email broad logs and email tracking logs from Campaign Standard to Campaign v7. It only takes into account deliveries sent from Campaign Standard to profiles that are part of the nms:recipients table of Campaign v7.
 * **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication): this incremental workflow replicates delivery IDs, email broad logs and email tracking logs from Campaign Standard to Campaign v7. It only takes into account deliveries sent from Campaign Standard to profiles that are part of a specific table (to define, other than nms:recipients) of Campaign v7.
 
 ### Default recipient fields {#default-recipient-fields}
 
-If you have any additional fields or custom tables (transaction table, for example), they will not be replicated by default. Advanced configuration needs to be performed. See [Advanced implementation](../../integrations/using/acs-connector-principles-and-data-cycle.md#advanced-implementation).
+If you have any additional fields or custom tables (transaction table, for example), they will not be replicated by default. Advanced configuration needs to be performed. See [Advanced implementation](#advanced-implementation).
 
 You will find below the list of recipient fields that are replicated with the basic implementation. These are the out-of-the-box fields:
 
@@ -308,7 +308,7 @@ With the basic implementation, the out-of-the-box recipient fields are replicate
 
    ![](assets/acs_connect_implementation_7.png)
 
-1. Open the dedicated profile replication workflow (not the template, but the workflow instance itself). Modify the **[!UICONTROL Query]** and **[!UICONTROL Update data]** activities to include these fields. See [Technical and replication workflows](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows).
+1. Open the dedicated profile replication workflow (not the template, but the workflow instance itself). Modify the **[!UICONTROL Query]** and **[!UICONTROL Update data]** activities to include these fields. See [Technical and replication workflows](#technical-and-replication-workflows).
 
    ![](assets/acs_connect_implementation_8.png)
 
@@ -326,6 +326,6 @@ With the basic implementation, the out-of-the-box recipient table is replicated.
 
    ![](assets/acs_connect_implementation_10.png)
 
-1. If your rights management is folder-based, go to **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]**, and define a security group for the folders linked to your custom tables. See [Rights conversion](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion).
-1. Use the **[!UICONTROL New replication]** workflow (not the template, but the workflow instance itself) to include the custom table and the fields to replicate. See [Technical and replication workflows](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows).
+1. If your rights management is folder-based, go to **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]**, and define a security group for the folders linked to your custom tables. See [Rights conversion](#rights-conversion).
+1. Use the **[!UICONTROL New replication]** workflow (not the template, but the workflow instance itself) to include the custom table and the fields to replicate. See [Technical and replication workflows](#technical-and-replication-workflows).
 

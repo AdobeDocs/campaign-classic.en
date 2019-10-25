@@ -96,7 +96,7 @@ For further details on schema extensions, refer to the [Configuration guide](../
 
    Once the update has finished, you can close the wizard.
 
-1. Disconnect then reconnect to Adobe Campaign. The changes made in the seed address data schema are now effective. In order for them to be visible from the seed address screen, you must update the associated **[!UICONTROL Input form]**. Refer to the [Updating the input form](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) section.
+1. Disconnect then reconnect to Adobe Campaign. The changes made in the seed address data schema are now effective. In order for them to be visible from the seed address screen, you must update the associated **[!UICONTROL Input form]**. Refer to the [Updating the input form](#updating-the-input-form) section.
 
 #### Extending the data schema from a linked table {#extending-the-data-schema-from-a-linked-table}
 
@@ -132,7 +132,7 @@ They indicate:
 
 The user can then follow from **step 5** of the section, and update the **[!UICONTROL Input form]** of the seed addresses.
 
-Refer to the [Updating the input form](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) section.
+Refer to the [Updating the input form](#updating-the-input-form) section.
 
 #### Updating the input form {#updating-the-input-form}
 

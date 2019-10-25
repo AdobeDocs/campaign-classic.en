@@ -20,8 +20,8 @@ snippet: y
 
 When you create a database, Adobe Campaign provides two different options:
 
-1. Creating or recycling a database: choose this options if you want to create a new database or re-use an existing one. Refer to [Case 1: Creating/recycling a database](../../installation/using/creating-and-configuring-the-database.md#case-1--creating-recycling-a-database).
-1. Using an existing database: choose this option if an empty database has already been created by your administrator and you want to use it; or to extend the structure of an existing database. Refer to [Case 2: Using an existing database](../../installation/using/creating-and-configuring-the-database.md#case-2--using-an-existing-database).
+1. Creating or recycling a database: choose this options if you want to create a new database or re-use an existing one. Refer to [Case 1: Creating/recycling a database](#case-1--creating-recycling-a-database).
+1. Using an existing database: choose this option if an empty database has already been created by your administrator and you want to use it; or to extend the structure of an existing database. Refer to [Case 2: Using an existing database](#case-2--using-an-existing-database).
 
 The configuration steps are detailed hereafter.
 
@@ -37,12 +37,12 @@ The steps for creating a database or recycling an existing base are presented be
 
 The following steps are involved:
 
-* [Step 1 - Selecting the database engine](../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine),
-* [Step 2 - Connecting to the server](../../installation/using/creating-and-configuring-the-database.md#step-2---connecting-to-the-server),
-* [Step 3 - Connection and characteristics of the database](../../installation/using/creating-and-configuring-the-database.md#step-3---connection-and-characteristics-of-the-database),
-* [Step 4 - Packages to install](../../installation/using/creating-and-configuring-the-database.md#step-4---packages-to-install),
-* [Step 5 - Creation steps](../../installation/using/creating-and-configuring-the-database.md#step-5---creation-steps),
-* [Step 6 - Creating the database](../../installation/using/creating-and-configuring-the-database.md#step-6---creating-the-database).
+* [Step 1 - Selecting the database engine](#step-1---selecting-the-database-engine),
+* [Step 2 - Connecting to the server](#step-2---connecting-to-the-server),
+* [Step 3 - Connection and characteristics of the database](#step-3---connection-and-characteristics-of-the-database),
+* [Step 4 - Packages to install](#step-4---packages-to-install),
+* [Step 5 - Creation steps](#step-5---creation-steps),
+* [Step 6 - Creating the database](#step-6---creating-the-database).
 
 ### Step 1 - Selecting the database engine {#step-1---selecting-the-database-engine}
 
@@ -163,11 +163,11 @@ For instance, for an Oracle database, the minimum required rights are: GRANT CON
 
 To use an existing database, the configuration steps are as follows:
 
-* [Step 1 - Choosing the database engine](../../installation/using/creating-and-configuring-the-database.md#step-1---choosing-the-database-engine),
-* [Step 2 - Database connection settings](../../installation/using/creating-and-configuring-the-database.md#step-2---database-connection-settings),
-* [Step 3 - Packages to install](../../installation/using/creating-and-configuring-the-database.md#step-3---packages-to-install),
-* [Step 4 - Creation steps](../../installation/using/creating-and-configuring-the-database.md#step-4---creation-steps),
-* [Step 5 - Creating the database](../../installation/using/creating-and-configuring-the-database.md#step-5---creating-the-database).
+* [Step 1 - Choosing the database engine](#step-1---choosing-the-database-engine),
+* [Step 2 - Database connection settings](#step-2---database-connection-settings),
+* [Step 3 - Packages to install](#step-3---packages-to-install),
+* [Step 4 - Creation steps](#step-4---creation-steps),
+* [Step 5 - Creating the database](#step-5---creating-the-database).
 
 ### Step 1 - Choosing the database engine {#step-1---choosing-the-database-engine}
 

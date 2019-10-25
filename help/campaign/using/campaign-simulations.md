@@ -128,7 +128,7 @@ Once execution is complete, open the simulation and click the **[!UICONTROL Resu
 1. The **[!UICONTROL Alerts]** sub-tab groups all alert messages generated during the simulation. Alert messages can be sent in case of capacity overload (if the number of recipients targeted exceeds the set capacity, for instance).
 1. The **[!UICONTROL Exploration of the exclusions]** sub-tab lets you create a result analysis table. The user needs to indicate variables in the abscissa/ordinates axes.
 
-   For an example of analysis table creation, refer to the end of [Exploring results](../../campaign/using/campaign-simulations.md#exploring-results).
+   For an example of analysis table creation, refer to the end of [Exploring results](#exploring-results).
 
 ### Viewing results {#viewing-results}
 
@@ -191,7 +191,7 @@ To compare results, you need to use reports. Indeed, Adobe Campaign lets you sav
 
 ### Reporting axes {#reporting-axes}
 
-The **[!UICONTROL Calculations]** tab lets you define reporting axes on the target. Theses axes will be used during result analysis (refer to [Exploring results](../../campaign/using/campaign-simulations.md#exploring-results)).
+The **[!UICONTROL Calculations]** tab lets you define reporting axes on the target. Theses axes will be used during result analysis (refer to [Exploring results](#exploring-results)).
 
 >[!NOTE]
 >
@@ -231,4 +231,4 @@ Delivery target overlaps indicate the targeted recipients in at least two delive
 >
 >This sub-tab is only displayed if the **[!UICONTROL Generate target recovery statistics]** option has been enabled.
 
-The information on reporting axes can be processed in exclusion analysis reports created in the **[!UICONTROL Exploring exclusions]** sub-tab. For more on this, refer to [Exploring results](../../campaign/using/campaign-simulations.md#exploring-results).
+The information on reporting axes can be processed in exclusion analysis reports created in the **[!UICONTROL Exploring exclusions]** sub-tab. For more on this, refer to [Exploring results](#exploring-results).

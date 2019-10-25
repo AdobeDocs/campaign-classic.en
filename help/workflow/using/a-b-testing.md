@@ -30,13 +30,13 @@ Moreover, the test detailed in this use case concerns only two deliveries, but y
 
 To create the A/B test, apply the following steps:
 
-* [Step 1: Creating a targeting workflow](../../workflow/using/a-b-testing.md#step-1--creating-a-targeting-workflow)
-* [Step 2: Configuring population samples](../../workflow/using/a-b-testing.md#step-2--configuring-population-samples)
-* [Step 3: Creating two delivery templates](../../workflow/using/a-b-testing.md#step-3--creating-two-delivery-templates)
-* [Step 4: Configuring the deliveries in the workflow](../../workflow/using/a-b-testing.md#step-4--configuring-the-deliveries-in-the-workflow)
-* [Step 5: Creating the script](../../workflow/using/a-b-testing.md#step-5--creating-the-script)
-* [Step 7: Starting the workflow](../../workflow/using/a-b-testing.md#step-7--starting-the-workflow)
-* [Step 8: Analyzing the result](../../workflow/using/a-b-testing.md#step-8--analyzing-the-result).
+* [Step 1: Creating a targeting workflow](#step-1--creating-a-targeting-workflow)
+* [Step 2: Configuring population samples](#step-2--configuring-population-samples)
+* [Step 3: Creating two delivery templates](#step-3--creating-two-delivery-templates)
+* [Step 4: Configuring the deliveries in the workflow](#step-4--configuring-the-deliveries-in-the-workflow)
+* [Step 5: Creating the script](#step-5--creating-the-script)
+* [Step 7: Starting the workflow](#step-7--starting-the-workflow)
+* [Step 8: Analyzing the result](#step-8--analyzing-the-result).
 
 ## Step 1: Creating a targeting workflow {#step-1--creating-a-targeting-workflow}
 
@@ -143,7 +143,7 @@ We now want to create two delivery templates. Each template will be referenced i
 
 ## Step 4: Configuring the deliveries in the workflow {#step-4--configuring-the-deliveries-in-the-workflow}
 
-The next step is to configure the deliveries. They are destined for the three populations created during the previous stage: [Step 2: Configuring population samples](../../workflow/using/a-b-testing.md#step-2--configuring-population-samples). The first two deliveries enable you to send different contents to population A and B. The third delivery is destined for the population that received neither A nor B. Its content will be calculated by a script and will be identical to either A or B, depending on which one scored the highest open rate. We need to configure a wait period for the third delivery, to find out the outcome of deliveries A and B. This is why the third delivery includes a **[!UICONTROL Wait]** activity.
+The next step is to configure the deliveries. They are destined for the three populations created during the previous stage: [Step 2: Configuring population samples](#step-2--configuring-population-samples). The first two deliveries enable you to send different contents to population A and B. The third delivery is destined for the population that received neither A nor B. Its content will be calculated by a script and will be identical to either A or B, depending on which one scored the highest open rate. We need to configure a wait period for the third delivery, to find out the outcome of deliveries A and B. This is why the third delivery includes a **[!UICONTROL Wait]** activity.
 
 1. Go to the **[!UICONTROL Split]** activity and link the transition destined for population A to one of the email deliveries already in the workflow.
 
@@ -184,7 +184,7 @@ The choice of the delivery content destined for the remaining population is calc
 
 ### Example of a script {#example-of-a-script}
 
-The following script can be used as is in the targeting workflow. For more on this, refer to [Implementation](../../workflow/using/a-b-testing.md#implementation).
+The following script can be used as is in the targeting workflow. For more on this, refer to [Implementation](#implementation).
 
 ```
  // query the database to find the winner (best open rate)
@@ -230,12 +230,12 @@ The following script can be used as is in the targeting workflow. For more on th
    vars.deliveryId = delivery.id
 ```
 
-For a detailed explanation of the script, refer to [Details of the script](../../workflow/using/a-b-testing.md#details-of-the-script).
+For a detailed explanation of the script, refer to [Details of the script](#details-of-the-script).
 
 ### Implementation {#implementation}
 
 1. Open your **[!UICONTROL JavaScript code]** activity.
-1. Copy the script offered in [Example of a script](../../workflow/using/a-b-testing.md#example-of-a-script) into the **[!UICONTROL JavaScript code]** window.
+1. Copy the script offered in [Example of a script](#example-of-a-script) into the **[!UICONTROL JavaScript code]** window.
 
    ![](assets/use_case_abtesting_configscript_002.png)
 

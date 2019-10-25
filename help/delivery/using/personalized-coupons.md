@@ -55,7 +55,7 @@ Before following the steps below, make sure that you know the type of coupon you
     1. Enter a unique code for the individual coupon when prompted by the pop-up window.
     1. Click **[!UICONTROL Save]** to generate the coupon.
 
-   For more details about the Coupons tab, see [Configuring individual coupons](../../delivery/using/personalized-coupons.md#configuring-individual-coupons).
+   For more details about the Coupons tab, see [Configuring individual coupons](#configuring-individual-coupons).
 
    >[!NOTE]
    >
@@ -138,7 +138,7 @@ In the example below, the delivery is created from the Home page. For detailed i
 
 >[!NOTE]
 >
->For instructions on how to manage insufficient coupons for a delivery, see [Managing insufficient coupons](../../delivery/using/personalized-coupons.md#managing-insufficient-coupons)
+>For instructions on how to manage insufficient coupons for a delivery, see [Managing insufficient coupons](#managing-insufficient-coupons)
 
 To confirm that the delivery was successful:
 

@@ -47,9 +47,9 @@ The action fields for each tool are as follows:
 
 To set up the Data connector, you must connect to your Adobe Campaign instance and perform the following operations:
 
-* [Step 1: Configure integration in Analytics](../../platform/using/adobe-analytics-data-connector.md#step-1--configure-integration-in-analytics)
-* [Step 2: Create the external account in Campaign](../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign)
-* [Step 3: Synchronize Adobe Campaign and Adobe Analytics](../../platform/using/adobe-analytics-data-connector.md#step-3--synchronize-adobe-campaign-and-adobe-analytics)
+* [Step 1: Configure integration in Analytics](#step-1--configure-integration-in-analytics)
+* [Step 2: Create the external account in Campaign](#step-2--create-the-external-account-in-campaign)
+* [Step 3: Synchronize Adobe Campaign and Adobe Analytics](#step-3--synchronize-adobe-campaign-and-adobe-analytics)
 
 ### Step 1: Configure integration in Analytics {#step-1--configure-integration-in-analytics}
 
@@ -78,7 +78,7 @@ The following steps detail the configuration of Data connector using a wizard.
 
    ![](assets/adobe_genesis_install_015.png)
 
-1. Enter the email address that will receive the notifications on behalf of the connector, then copy the **[!UICONTROL Account ID]** as it appears in the external Adobe Campaign account (for more on this, refer to the [Step 2: Create the external account in Campaign](../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign)).
+1. Enter the email address that will receive the notifications on behalf of the connector, then copy the **[!UICONTROL Account ID]** as it appears in the external Adobe Campaign account (for more on this, refer to the [Step 2: Create the external account in Campaign](#step-2--create-the-external-account-in-campaign)).
 
    ![](assets/adobe_genesis_install_005.png)
 
@@ -190,8 +190,8 @@ They are available in the Adobe Campaign tree, under the **[!UICONTROL Administr
 ![](assets/webanalytics_workflows.png)
 
 * **[!UICONTROL Recovering of web events]**: once an hour, this workflow downloads segments about the behavior of users on a given site, includes them in the Adobe Campaign database and starts the re-marketing workflow.
-* **[!UICONTROL Event purge]**: this workflow enables you to delete all events from the database depending on the period configured in the **[!UICONTROL Lifespan]** field. For more on this, refer to [Step 2: Create the external account in Campaign](../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign).
-* **[!UICONTROL Identification of converted contacts]**: directory of the visitors who made a purchase following a re-marketing campaign. The data collected by this workflow is accessible in the **[!UICONTROL Re-marketing efficiency]** report, refer to this [page](../../platform/using/adobe-analytics-data-connector.md#creating-a-re-marketing-campaign).* **[!UICONTROL Sending of indicators and campaign attributes]**: lets you send email campaign indicators via Adobe Campaign to the Adobe Experience Cloud using Adobe Analytics - Data connector. This workflow is triggered at 4am every day and it can take 24 hours for the data to be sent to Analytics.
+* **[!UICONTROL Event purge]**: this workflow enables you to delete all events from the database depending on the period configured in the **[!UICONTROL Lifespan]** field. For more on this, refer to [Step 2: Create the external account in Campaign](#step-2--create-the-external-account-in-campaign).
+* **[!UICONTROL Identification of converted contacts]**: directory of the visitors who made a purchase following a re-marketing campaign. The data collected by this workflow is accessible in the **[!UICONTROL Re-marketing efficiency]** report, refer to this [page](#creating-a-re-marketing-campaign).* **[!UICONTROL Sending of indicators and campaign attributes]**: lets you send email campaign indicators via Adobe Campaign to the Adobe Experience Cloud using Adobe Analytics - Data connector. This workflow is triggered at 4am every day and it can take 24 hours for the data to be sent to Analytics.
 
   Please note that this workflow should not be restarted or else it will resend all the prior data which can skew Analytics results.
 
@@ -232,7 +232,7 @@ In order for the Adobe Experience Cloud to be able to track activity on the site
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. Open the delivery properties.
-1. Go to the **[!UICONTROL Web Analytics]** tab and select the previously created external account. Refer to [Step 2: Create the external account in Campaign](../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign)).
+1. Go to the **[!UICONTROL Web Analytics]** tab and select the previously created external account. Refer to [Step 2: Create the external account in Campaign](#step-2--create-the-external-account-in-campaign)).
 
    ![](assets/webanalytics_delivery_properties_002.png)
 

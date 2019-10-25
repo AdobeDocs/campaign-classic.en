@@ -33,10 +33,10 @@ Before starting the upgrading process, detemine and confirm which version of Ado
 
 To update Adobe Campaign in a new version when delivering a new build, the following procedure should be applied in Windows:
 
-* [Shut down services](../../production/using/upgrading.md#shut-down-services),
-* [Upgrade the Adobe Campaign server application](../../production/using/upgrading.md#upgrade-the-adobe-campaign-server-application),
-* [Synchronize resources](../../production/using/upgrading.md#synchronize-resources),
-* [Restart services](../../production/using/upgrading.md#restart-services).
+* [Shut down services](#shut-down-services),
+* [Upgrade the Adobe Campaign server application](#upgrade-the-adobe-campaign-server-application),
+* [Synchronize resources](#synchronize-resources),
+* [Restart services](#restart-services).
 
 To find out how to update the client console, refer to [this section](../../installation/using/client-console-availability-for-windows.md).
 
@@ -98,7 +98,7 @@ This will enable you to carry out the following operations:
 >
 >This operation should be performed only once, and only on an (**nlserver web**) application server.
 
-Then check whether the synchronization has generated errors or warnings. For more on this, refer to [Resolving upgrade conflicts](../../production/using/upgrading.md#resolving-upgrade-conflicts).
+Then check whether the synchronization has generated errors or warnings. For more on this, refer to [Resolving upgrade conflicts](#resolving-upgrade-conflicts).
 
 ### Restart services {#restart-services}
 
@@ -114,9 +114,9 @@ The services to be restarted are:
 
 To update Adobe Campaign in a new version when a new build is delivered, the procedure for Linux is as follows:
 
-* [Obtain updated packages](../../production/using/upgrading.md#obtain-updated-packages),
-* [Perform an update](../../production/using/upgrading.md#perform-an-update),
-* [Reboot the web server](../../production/using/upgrading.md#reboot-the-web-server).
+* [Obtain updated packages](#obtain-updated-packages),
+* [Perform an update](#perform-an-update),
+* [Reboot the web server](#reboot-the-web-server).
 
 To find out how to update the client console, refer to [this section](../../installation/using/client-console-availability-for-linux.md).
 
@@ -158,7 +158,7 @@ The file is **nlserver6-v7-XXX.rpm**
 
 >[!NOTE]
 >
->Full installation procedures are detailed in [this section](../../installation/using/installing-campaign-standard-packages.md). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolving upgrade conflicts](../../production/using/upgrading.md#resolving-upgrade-conflicts).
+>Full installation procedures are detailed in [this section](../../installation/using/installing-campaign-standard-packages.md). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolving upgrade conflicts](#resolving-upgrade-conflicts).
 
 ### Reboot the web server {#reboot-the-web-server}
 

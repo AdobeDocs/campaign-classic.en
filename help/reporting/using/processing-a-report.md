@@ -24,7 +24,7 @@ If you have the appropriate rights, you can save an analysis report created from
 
 To save your report, click **[!UICONTROL Save]** and give your report a label.
 
-Select **[!UICONTROL Also save data]** if you wish to create a history of your report and see the values of the report at the time of saving. For more on this, refer to [Archiving analysis reports](../../reporting/using/processing-a-report.md#archiving-analysis-reports).
+Select **[!UICONTROL Also save data]** if you wish to create a history of your report and see the values of the report at the time of saving. For more on this, refer to [Archiving analysis reports](#archiving-analysis-reports).
 
 The **[!UICONTROL Share this report]** option allows other operators to access the report.
 
@@ -34,7 +34,7 @@ Once it has been saved, this report can be re-used to generate other analysis re
 
 ![](assets/s_ncs_user_report_wizard_08a.png)
 
-To make changes to this report, edit the **[!UICONTROL Administration > Configuration > Adobe Campaign tree reports]** node of the Adobe Campaign tree (or the first 'Reports' type folder for which the operator has editing rights). For more on this, refer to [Configuring the layout of a descriptive analysis report](../../reporting/using/processing-a-report.md#configuring-the-layout-of-a-descriptive-analysis-report).
+To make changes to this report, edit the **[!UICONTROL Administration > Configuration > Adobe Campaign tree reports]** node of the Adobe Campaign tree (or the first 'Reports' type folder for which the operator has editing rights). For more on this, refer to [Configuring the layout of a descriptive analysis report](#configuring-the-layout-of-a-descriptive-analysis-report).
 
 ## Analysis report additional settings {#analysis-report-additional-settings}
 
@@ -130,7 +130,7 @@ For more on this, refer to [this page](../../reporting/using/actions-on-reports.
 
 You can create descriptive analysis reports on data using existing reports already stored in Adobe Campaign. This mode is possible when analyses have been saved or when reports have been created and configured to be accessed via the descriptive analysis wizard.
 
-To find out how to save descriptive analyses, refer to [Saving an analysis report](../../reporting/using/processing-a-report.md#saving-an-analysis-report).
+To find out how to save descriptive analyses, refer to [Saving an analysis report](#saving-an-analysis-report).
 
 To create descriptive analysis reports, the descriptive analysis wizard must be executed via a workflow transition or via the **[!UICONTROL Tools > Descriptive analysis]** menu.
 

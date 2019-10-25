@@ -20,7 +20,7 @@ snippet: y
 
 ## About delivery failures {#about-delivery-failures}
 
-When a message (email, SMS, push notification) cannot be sent to a profile, the remote server automatically sends an error message, which is picked up by the Adobe Campaign platform and qualified to determine whether or not the email address or phone number should be quarantined. See [Bounce mail management](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+When a message (email, SMS, push notification) cannot be sent to a profile, the remote server automatically sends an error message, which is picked up by the Adobe Campaign platform and qualified to determine whether or not the email address or phone number should be quarantined. See [Bounce mail management](#bounce-mail-management).
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Messages can also be excluded during the delivery preparation if an address is q
 
 * [Delivery logs and history](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)
 * [Failed status](../../delivery/using/monitoring-a-delivery.md#failed-status)
-* [Delivery failure types and reasons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)
+* [Delivery failure types and reasons](#delivery-failure-types-and-reasons)
 
 ## Delivery failure types and reasons {#delivery-failure-types-and-reasons}
 
@@ -183,7 +183,7 @@ If a message fails due to a **Soft** or **Ignored** error that is temporary, ret
 
 >[!NOTE]
 >
->Temporarily undelivered messages can only be related to a **Soft** or **Ignored** error, but not a **Hard** error (see [Delivery failure types and reasons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
+>Temporarily undelivered messages can only be related to a **Soft** or **Ignored** error, but not a **Hard** error (see [Delivery failure types and reasons](#delivery-failure-types-and-reasons)).
 
 To modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. The advanced delivery properties are presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-validity-period).
 
@@ -193,7 +193,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 A message can fail immediately (synchronous error), or later on, after it has been sent (asynchronous error).
 
-* Synchronous error: the remote mail server contacted by the Adobe Campaign delivery server immediately returned an error message, the delivery is not allowed to be sent to the profile's server. Adobe Campaign qualifies each error in order to determine whether or not the email addresses concerned should be quarantined. See [Bounce mail qualification](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification). 
+* Synchronous error: the remote mail server contacted by the Adobe Campaign delivery server immediately returned an error message, the delivery is not allowed to be sent to the profile's server. Adobe Campaign qualifies each error in order to determine whether or not the email addresses concerned should be quarantined. See [Bounce mail qualification](#bounce-mail-qualification). 
 * Asynchronous error: a bounce mail or a SR was resent later by the receiving server. This mail is loaded into a technical mailbox the application uses to label messages with an error. Asynchronous errors can occur up until one week after a delivery has been sent.
 
   >[!NOTE]

@@ -81,7 +81,7 @@ In many projects, imports are built without **[!UICONTROL Deduplication]** activ
 
 Do not rest on assumption that the incoming data is consistent and correct, or that the IT department or Adobe Campaign supervisor will take care of it. During the project, keep the data cleansing in mind. Deduplicate, reconcile, and maintain consistency when you import data.
 
-An import template example is available in the [Setting up a recurring import](../../workflow/using/importing-data.md#setting-up-a-recurring-import) section.
+An import template example is available in the [Setting up a recurring import](#setting-up-a-recurring-import) section.
 
 ### Using flat file formats {#using-flat-file-formats}
 
