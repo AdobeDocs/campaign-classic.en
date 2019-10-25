@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Sending the delivery {#sending-the-delivery}
+# Configuring and sending the delivery {#configuring-and-sending-the-delivery}
 
 >[!NOTE]
 >
@@ -24,31 +24,23 @@ snippet: y
 >
 >Refer to [this section](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers) for further information.
 
+# Delivery additional parameters {#delivery-additiona-parameters}
+
 Before sending the delivery, you can define the sending parameters in the delivery properties, via the **[!UICONTROL Delivery]** tab.
 
 ![](assets/s_ncs_user_wizard_delivery.png)
 
-* **[!UICONTROL Delivery priority]**
+* **[!UICONTROL Delivery priority]**: This option allows you to influence the sending order for your deliveries by stating their priority level (normal, high or low). This lets you prioritize the order for certain, more urgent deliveries over others.
 
-  This option allows you to influence the sending order for your deliveries by stating their priority level (normal, high or low). This lets you prioritize the order for certain, more urgent deliveries over others.
-
-* **[!UICONTROL Message batch quantity]**
-
-  This option allows you to define the number of messages grouped within the same XML delivery package.
-
-  If the parameter is set to 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
+* **[!UICONTROL Message batch quantity]**: This option allows you to define the number of messages grouped within the same XML delivery package. If the parameter is set to 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
 
   >[!CAUTION]
   >
   >When the delivery is duplicated, the parameter is reset.
 
-* **[!UICONTROL Send using multiple waves]**
+* **[!UICONTROL Send using multiple waves]**: For more on thisn refer to [Sending using multiple waves](#sending-using-multiple-waves).
 
-  For more on this, refer to the [Sending using multiple waves](#sending-using-multiple-waves) section.
-
-* **[!UICONTROL Test SMTP delivery]**
-
-  This option allows you to test sending a delivery via SMTP. The delivery is processed up to connection to the SMTP server but is not sent.
+* **[!UICONTROL Test SMTP delivery]**: This option allows you to test sending a delivery via SMTP. The delivery is processed up to connection to the SMTP server but is not sent.
 
   >[!NOTE]
   >
@@ -56,13 +48,9 @@ Before sending the delivery, you can define the sending parameters in the delive
   >
   >For more information on configuring an SMTP server, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* **[!UICONTROL Archive emails]**
+* **[!UICONTROL Archive emails]**: This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [Archiving emails](../../delivery/using/sending-messages.md#archiving-emails).
 
-  This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [Archiving emails](../../delivery/using/sending-messages.md#archiving-emails).
-
-Once your delivery is ready to be sent, you must first run the delivery analysis. This analysis checks the validity of the message content and corrects any errors before sending messages to the main target. for more on this, refer to [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
-
-Once the analysis is complete, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages.
+Once the delivery is configured and ready to be sent, make sure you have run the [Delivery analysis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery). Once done, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages.
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -78,21 +66,25 @@ After sending messages, you can monitor and track your deliveries. For more on t
 
 You can defer the delivery of messages in order to schedule the delivery or to manage sales pressure and avoid over-soliciting a population.
 
-To do this, click the **[!UICONTROL Send]** button and select the **[!UICONTROL Postpone delivery]** option.
+1. Click the **[!UICONTROL Send]** button and select the **[!UICONTROL Postpone delivery]** option.
 
-Specify a start date in the **[!UICONTROL Contact date]** field.
+1. Specify a start date in the **[!UICONTROL Contact date]** field.
 
 ![](assets/dlv_email_del_plan.png)
 
-You can then start the analysis (**[!UICONTROL Analyze]** button) and then delivery (**[!UICONTROL Confirm delivery]** button), but it will not start until the date given in the **[!UICONTROL Contact date]** field.
+1. You can then start the delivery analysis, then confirm the delivery sending. However, the delivery sending will not start until the date given in the **[!UICONTROL Contact date]** field.
+
+>[!CAUTION]
+>
+>Once you have started the analysis, the contact date that you defined is fixed. If you modify this date, you will have to restart the analysis so that your modifications are taken into account.
 
 ![](assets/s_ncs_user_email_del_start_delayed.png)
 
-It will appear with **[!UICONTROL Pending]** status in the delivery list.
+In the delivery list, the delivery will appear with **[!UICONTROL Pending]** status.
 
 ![](assets/s_ncs_user_email_del_waiting.png)
 
-Scheduling can be configured upstream via the **[!UICONTROL Scheduling]** button of the delivery.
+Scheduling can also be configured upstream via the **[!UICONTROL Scheduling]** button of the delivery.
 
 ![](assets/s_ncs_user_email_del_save_in_calendar_ico.png)
 
@@ -105,10 +97,6 @@ It lets you defer the delivery to a later date or save the delivery in the provi
 * The **[!UICONTROL Schedule delivery (automatic execution on planned date)]** option lets you specify the delivery date.
 
   Click **[!UICONTROL Send]** and select **[!UICONTROL Postpone delivery]** then launch the analysis and confirm delivery. When the analysis is complete, the delivery target is ready and messages will automatically be sent on the specified date.
-
->[!CAUTION]
->
->Once you have started the analysis, the contact date that you defined is fixed. If you modify this date, you will have to restart the analysis so that your modifications are taken into account.
 
 Dates and times are expressed in the time zone of the current operator. The **[!UICONTROL Time zone]** drop-down list located below the contact date input field lets you automatically convert the entered date and time into the selected time zone.
 
@@ -151,7 +139,7 @@ To balance the load, you can divide deliveries into several batches. Configure t
    >
    >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent.  
    >
-   >You must also allow enough time for retries when configuring the last waves. See [this section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
+   >You must also allow enough time for retries when configuring the last waves. See [this section](../../delivery/using/steps-steps-sending-the-delivery.md#configuring-retries).
 
 1. To monitor your sends, go to the delivery logs. See [this page](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).
 
@@ -187,7 +175,7 @@ The central section of the **[!UICONTROL Delivery]** tab for delivery parameters
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)).
+By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](../../delivery/using/steps-steps-sending-the-delivery.md#defining-validity-period)).
 
 ## Defining validity period {#defining-validity-period}
 
@@ -199,8 +187,6 @@ When the delivery has been launched, the messages (and any retries) can be sent 
 
   You can also choose to specify dates. To do this, select **[!UICONTROL Explicitly set validity dates]**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
 
-* **Validity limit of resources**
-
-  The **[!UICONTROL Validity limit]** field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
+* **Validity limit of resources**: The **[!UICONTROL Validity limit]** field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
   The values in this field can be expressed in the units listed in [this section](../../platform/using/adobe-campaign-workspace.md#default-units).

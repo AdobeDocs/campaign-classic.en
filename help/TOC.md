@@ -67,15 +67,13 @@ index: y
        + [Creating and identifying the delivery](delivery/using/steps-create-and-identify-the-delivery.md)
        + [Defining the target population](delivery/using/steps-defining-the-target-population.md)
        + [Validating the delivery](delivery/using/steps-validating-the-delivery.md)
-       + [Sending the delivery](delivery/using/steps-sending-the-delivery.md)
-       + [Analysis priority](delivery/using/steps-analysis-priority.md)
+       + [Sending the delivery](delivery/using/steps-steps-sending-the-delivery.md)
   + Sending emails {#sending-emails}
        + [About email channel](delivery/using/about-email-channel.md)
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Defining the email content](delivery/using/defining-the-email-content.md)
        + [Sending messages](delivery/using/sending-messages.md)
        + [Attaching files](delivery/using/attaching-files.md)
-       + [Inserting a barcode in an email](delivery/using/inserting-a-barcode-in-an-email.md)
   + Sending messages on mobiles {#sending-messages-on-mobiles}
        + [SMS channel](delivery/using/sms-channel.md)
        + [LINE channel](delivery/using/line-channel.md)
@@ -88,7 +86,6 @@ index: y
        + [About direct mail channel](delivery/using/about-direct-mail-channel.md)
        + [Creating a direct mail delivery](delivery/using/creating-a-direct-mail-delivery.md)
        + [Defining the direct mail content](delivery/using/defining-the-direct-mail-content.md)
-       + [Sending the delivery](delivery/using/sending-the-delivery.md)
        + [Validating](delivery/using/validating.md)
        + [Other channels](delivery/using/other-channels.md)
   + Using delivery templates {#using-delivery-templates}

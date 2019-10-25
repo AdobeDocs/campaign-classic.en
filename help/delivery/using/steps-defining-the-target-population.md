@@ -22,18 +22,12 @@ snippet: y
 
 For each delivery, you can define several types of target populations. The section below provides more information on how to select:
 
-* The **main recipients** of the delivery. [Read more](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
-* The recipients of **proof messages**, in order to set up a validation cycle. [Read more](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+* **The main recipients of the delivery**. [Read more](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
+* **The recipients of proof messages**, in order to set up a validation cycle. [Read more](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
-Additionnally, you can can also define **seed addresses** and Control groups (when the delivery is included in a marketing campaign). For more on this, refer to these pages:
+Additionnally, you can can also define [seed addresses](../../delivery/using/about-seed-addresses.md), and [control groups](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group). if the delivery is included in a marketing campaign.
 
-* [About seed addresses](../../delivery/using/about-seed-addresses.md)).
-* [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
-
-
-Once the population is defined, you can specify filtering criteria on the targeted recipients (see [Selecting the main target](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)) and on the proof recipients (see [Defining a specific proof target](#defining-a-specific-proof-target)).
-
-## Selecting the recipients of the delivery {#selecting-the-main-target}
+## Selecting the main recipients of the delivery {#selecting-the-main-target}
 
 In most cases, the main target is extracted from the Campaign database (default mode).
 
@@ -96,13 +90,7 @@ To select the recipients of the delivery being created, follow these steps:
 
    ![](assets/s_ncs_user_wizard_email02h.png)
 
-## Reducing the size of the target population {#reducing-the-size-of-the-target-population}
-
-You can reduce the size of the target population. To do this, specify the number of recipients to be exported in the **[!UICONTROL Requested quantity]** field.
-
-![](assets/s_ncs_user_edit_del_exe_tab.png)
-
-## Selecting external recipients {#selecting-external-recipients}
+### Selecting external recipients {#selecting-external-recipients}
 
 You can launch a delivery on recipients who are not saved in the database, but stored in an external file. For example, we will send here a delivery to recipients imported from a text file.
 
@@ -127,7 +115,7 @@ To do this:
 >
 >When defining the content of the message for email delivery, do not include the link to the mirror page; it cannot be generated in this delivery mode.
 
-## Setting up exclusion settings {#customizing-exclusion-settings}
+### Setting up exclusion settings {#customizing-exclusion-settings}
 
 Address errors and quality ratings are supplied by the service provider (IAP). This information is automatically updated in the recipient profile following delivery actions and with files returned by service providers. It can be viewed in the profile on a read-only basis.
 
@@ -171,6 +159,12 @@ The following options are available:
 
 * **[!UICONTROL Limit delivery]** to a given number of messages. This option lets you enter the maximum number of messages to be sent. If the content of the target exceeds the number of messages indicated, a random selection is applied to the target.
 
+### Reducing the size of the target population {#reducing-the-size-of-the-target-population}
+
+You can reduce the size of the target population. To do this, specify the number of recipients to be exported in the **[!UICONTROL Requested quantity]** field.
+
+![](assets/s_ncs_user_edit_del_exe_tab.png)
+
 ## Selecting the recipients of proof messages {#selecting-the-proof-target}
 
 The proof is a special message that lets you test a delivery before sending it to the main target. Proof recipients are responsible for approving both the form and content of the message.
@@ -193,7 +187,9 @@ Select this option to choose recipients using the **[!UICONTROL Add]** button, a
 
 ![](assets/s_ncs_user_wizard_email01_143.png)
 
-## Using address substitution in proof {#using-address-substitution-in-proof}
+For more on proof sending, refer to [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+
+### Using address substitution in proof {#using-address-substitution-in-proof}
 
 Instead of selecting dedicated recipients in the database, you can use the **[!UICONTROL Substitution of the address]** option.
 
