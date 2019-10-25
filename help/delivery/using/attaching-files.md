@@ -135,7 +135,7 @@ You can calculate the attachment name during the delivery preparation. To do thi
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 
-### Attach a personalized file {#attach-a-personalized-file}
+### Attaching a personalized file {#attach-a-personalized-file}
 
 When selecting the attachment, you can choose the option **[!UICONTROL The file name is calculated during delivery for each recipient (it can depend on the recipient)]**. You can then map recipient personalization data with the name of the file to send.
 
