@@ -31,7 +31,7 @@ The key steps when creating a delivery are as follows:
 
 1. **Define the target population**. [Read more](../../delivery/using/steps-defining-the-target-population.md)
 
-1. **Send the delivery**. [Read more](../../delivery/using/steps-steps-sending-the-delivery.md)
+1. **Send the delivery**. [Read more](../../delivery/using/steps-sending-the-delivery.md)
 
 1. **Monitor the delivery** (tracking, quarantine, reports, etc.). For more on this, refer to the [Monitoring deliveries](../../delivery/using/monitoring-a-delivery.md) and [Tracking deliveries](../../delivery/using/about-message-tracking.md) sections.
 

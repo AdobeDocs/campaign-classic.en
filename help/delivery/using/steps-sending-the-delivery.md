@@ -139,7 +139,7 @@ To balance the load, you can divide deliveries into several batches. Configure t
    >
    >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent.  
    >
-   >You must also allow enough time for retries when configuring the last waves. See [this section](../../delivery/using/steps-steps-sending-the-delivery.md#configuring-retries).
+   >You must also allow enough time for retries when configuring the last waves. See [this section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
 1. To monitor your sends, go to the delivery logs. See [this page](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).
 
@@ -175,7 +175,7 @@ The central section of the **[!UICONTROL Delivery]** tab for delivery parameters
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](../../delivery/using/steps-steps-sending-the-delivery.md#defining-validity-period)).
+By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)).
 
 ## Defining validity period {#defining-validity-period}
 

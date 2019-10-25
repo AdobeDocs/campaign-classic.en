@@ -117,7 +117,7 @@ To send a proof, follow the steps below:
    ![](assets/s_ncs_user_email_del_send_proof.png)
 
 1. Start message analysis. See [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
-1. You can now send the delivery (see [Sending the delivery](../../delivery/using/steps-steps-sending-the-delivery.md)).
+1. You can now send the delivery (see [Sending the delivery](../../delivery/using/steps-sending-the-delivery.md)).
 
    Once the delivery is sent, the proof will appear in the delivery list, and is automatically created and numbered. It can be edited if you wish to access its content and properties. For more on this, refer to this [page](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
 
