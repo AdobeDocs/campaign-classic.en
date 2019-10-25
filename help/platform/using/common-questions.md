@@ -323,7 +323,7 @@ Learn how to send messages in various channels with Adobe Campaign.
 
 ### How can I send emails in waves? {#how-can-i-send-emails-in-waves-}
 
-Before sending a delivery to a large population, you can [configure waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves) to divide messages into several batches and balance the load.
+Before sending a delivery to a large population, you can [configure waves](../../delivery/using/steps-steps-sending-the-delivery.md#sending-using-multiple-waves) to divide messages into several batches and balance the load.
 
 ### Which are the key steps to create an email in Campaign? {#which-are-the-key-steps-to-create-an-email-in-campaign-}
 
@@ -335,7 +335,7 @@ Once the email delivery is created and validated, you can send it. You can decid
 
 You can defer the delivery of messages in order to schedule the delivery or to manage sales pressure and avoid over-soliciting a population.
 
-[Click here to learn more](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending).
+[Click here to learn more](../../delivery/using/steps-steps-sending-the-delivery.md#scheduling-the-delivery-sending).
 
 ### Can I add an attachment to emails? {#can-i-add-an-attachment-to-emails-}
 

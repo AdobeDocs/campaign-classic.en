@@ -22,12 +22,11 @@ When a delivery has been created and configured, you must validate it before sen
 
 To do this:
 
-
-1. Analyze the delivery: this step lets you prepare the messages to deliver. Refer to [Analyzing the delivery](#analyzing-the-delivery).
+1. **Analyze the delivery**: this step lets you prepare the messages to deliver. Refer to [Analyzing the delivery](#analyzing-the-delivery).
 
    Available validation modes are detailed in [Changing the approval mode](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
 
-1. Send proofs: this step lets you approve content, URLs, personalization fields, etc. Refer to [Sending a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) and [Defining a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+1. **Send proofs**: this step lets you approve content, URLs, personalization fields, etc. Refer to [Sending a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) and [Defining a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
 >[!CAUTION]
 >
@@ -35,7 +34,7 @@ To do this:
 
 ## Analyzing the delivery {#analyzing-the-delivery}
 
-The analysis is the stage during which the target population is calculated and the delivery content prepared. Once it is complete, the delivery is ready to send. To launch the delivery analysis, click **[!UICONTROL Send]** and then select **[!UICONTROL Deliver as soon as possible]**.
+The analysis is the stage during which the target population is calculated and the delivery content prepared. Once it is complete, the delivery is ready to be sent. To launch the delivery analysis, click **[!UICONTROL Send]**, then select **[!UICONTROL Deliver as soon as possible]**.
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -84,6 +83,22 @@ This tab gives access to the following options:
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : this option adds the SQL query logs to the delivery journal during the analysis phase.
 * **[!UICONTROL Ignore personalization scripts during sending]** : this option lets you bypass the interpretation of JavaScript directives found in HTML content. They will be displayed as is in the delivered contents. These directives are introduced with the **<%=** tag).
 
+### Configuring the analysis priority {#analysis-priority-}
+
+When the delivery is part of a campaign, the **[!UICONTROL Advanced]** tab offers an additional option. This lets you organize the processing order for deliveries in the same campaign. 
+
+Before sending, each delivery is analyzed. The analysis duration depends on the delivery extraction file. The more significant the size of the file, the longer the analysis takes, making the following deliveries wait.
+
+The options for the **[!UICONTROL Message preparation by the scheduler]** let you prioritize the delivery analysis in a campaign workflow.
+
+![](assets/delivery_analysis_priority.png)
+
+If a delivery is too large, it is better to assign a low priority to it in order to avoid slowing down the analysis of other workflow deliveries.
+
+>[!NOTE]
+>
+>To ensure that the larger delivery analyses do not slow down the progress of your workflows, you can schedule their executions by ticking the **[!UICONTROL Schedule execution for a time of low activity]**.
+
 ## Sending a proof {#sending-a-proof}
 
 To detect possible errors in message configuration, Adobe highly recommend setting up a delivery validation cycle. Make sure content is approved as often as necessary by sending proofs to test recipients. A proof should be sent each time a change is made, to approve content.
@@ -102,9 +117,9 @@ To send a proof, follow the steps below:
    ![](assets/s_ncs_user_email_del_send_proof.png)
 
 1. Start message analysis. See [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
-1. Send the message.
+1. You can now send the delivery (see [Sending the delivery](../../delivery/using/steps-steps-sending-the-delivery.md)).
 
-   After being sent, the proof appears in the delivery list, it is automatically created and numbered. It can be edited if you wish to access its content and properties. Refer to this [page](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
+   Once the delivery is sent, the proof will appear in the delivery list, and is automatically created and numbered. It can be edited if you wish to access its content and properties. For more on this, refer to this [page](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
 
    ![](assets/s_ncs_user_delivery_validation_cycle_03a.png)
 
@@ -173,14 +188,6 @@ Select another approval mode from the drop-down list in the appropriate field.
 
 The following approval modes are available:
 
-1. **[!UICONTROL Manual]**
-
-   At the end of the analysis phase, the user must confirm delivery to start sending. To do this, click the **[!UICONTROL Start]** button to launch the delivery.
-
-1. **[!UICONTROL Semi-automatic]**
-
-   Sending begins automatically if the analysis phase generates no warning messages.
-
-1. **[!UICONTROL Automatic]**
-
-   Sending begins automatically at the end of the analysis phase irrespective of its result.
+* **[!UICONTROL Manual]**: At the end of the analysis phase, the user must confirm delivery to start sending. To do this, click the **[!UICONTROL Start]** button to launch the delivery.
+* **[!UICONTROL Semi-automatic]**: Sending begins automatically if the analysis phase generates no warning messages.
+* **[!UICONTROL Automatic]**: Sending begins automatically at the end of the analysis phase irrespective of its result.
