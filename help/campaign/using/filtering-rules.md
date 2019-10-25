@@ -20,7 +20,7 @@ snippet: y
 
 Filtering rules let you define the messages to exclude based on criteria defined in a query. These rules are linked to a targeting dimension.
 
-Filtering rules can be linked to other types of rules (control, pressure, etc.) in typologies, or grouped in a dedicated **Filtering** typology. For more on this, refer to [Creating and using a filtering typology](../../campaign/using/filtering-rules.md#creating-and-using-a-filtering-typology).
+Filtering rules can be linked to other types of rules (control, pressure, etc.) in typologies, or grouped in a dedicated **Filtering** typology. For more on this, refer to [Creating and using a filtering typology](#creating-and-using-a-filtering-typology).
 
 ## Creating a filtering rule {#creating-a-filtering-rule}
 

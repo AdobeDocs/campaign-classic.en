@@ -36,8 +36,8 @@ The suggested configurations are suited to the different types of delivery (dire
 
 For each delivery, the campaign manager will define:
 
-* The main target. For more on this, refer to [Building the main target in a workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) and [Selecting the target population](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
-* The control group. For more on this, refer to [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+* The main target. For more on this, refer to [Building the main target in a workflow](#building-the-main-target-in-a-workflow) and [Selecting the target population](#selecting-the-target-population).
+* The control group. For more on this, refer to [Defining a control group](#defining-a-control-group).
 * The seed addresses. For more on this, refer to [this section](../../delivery/using/about-seed-addresses.md).
 
 Some of this information is inherited from the template.
@@ -213,7 +213,7 @@ You can define a control group at campaign level, in which case the control grou
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-The configuration procedure is presented in [Extracting the control group from the main target](../../campaign/using/marketing-campaign-deliveries.md#extracting-the-control-group-from-the-main-target) and [Adding a population](../../campaign/using/marketing-campaign-deliveries.md#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a population](#adding-a-population).
 
 #### Activating the control group for a delivery {#activating-the-control-group-for-a-delivery}
 
@@ -232,7 +232,7 @@ By default, the control group configuration defined at the campaign level applie
 1. Click the **[!UICONTROL Control group]** tab and then select **[!UICONTROL Enable and edit control group configuration]**.
 1. Click **[!UICONTROL Edit...]** to configure the control group
 
-The configuration procedure is presented in [Extracting the control group from the main target](../../campaign/using/marketing-campaign-deliveries.md#extracting-the-control-group-from-the-main-target) and [Adding a population](../../campaign/using/marketing-campaign-deliveries.md#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a population](#adding-a-population).
 
 #### Extracting the control group from the main target {#extracting-the-control-group-from-the-main-target}
 
@@ -263,7 +263,7 @@ You can define a new population to be used as a control group. This population c
 
 ## Starting a delivery {#starting-a-delivery}
 
-Once all approvals have been granted, the delivery is ready to be started. The delivery procedure then depends on the type of delivery. For e-mail or mobile channel deliveries, see [Starting an online delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery).
+Once all approvals have been granted, the delivery is ready to be started. The delivery procedure then depends on the type of delivery. For e-mail or mobile channel deliveries, see [Starting an online delivery](#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](#starting-an-offline-delivery).
 
 ### Starting an online delivery {#starting-an-online-delivery}
 
@@ -348,13 +348,13 @@ The file extraction launches two operations: budget calculation and stock calcul
 
 ## Managing associated documents {#managing-associated-documents}
 
-You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). To link documents with a campaign, see [Adding documents](../../campaign/using/marketing-campaign-deliveries.md#adding-documents).
+You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). To link documents with a campaign, see [Adding documents](#adding-documents).
 
 >[!CAUTION]
 >
 >This mode is reserved for small documents.
 
-In a campaign you can also refer to other items, such as promotional coupons, special offers relating to a specific branch or store, etc. When these elements are included in an outline, they can be associated with a direct mail delivery. See [Associating and structuring resources linked via a delivery outline](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+In a campaign you can also refer to other items, such as promotional coupons, special offers relating to a specific branch or store, etc. When these elements are included in an outline, they can be associated with a direct mail delivery. See [Associating and structuring resources linked via a delivery outline](#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 >[!NOTE]
 >

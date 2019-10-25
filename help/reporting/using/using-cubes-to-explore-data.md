@@ -20,9 +20,9 @@ snippet: y
 
 Marketing Analytics makes it easier to create reports and to identify and select data from the database via cubes. This enables you to:
 
-* Create reports based on cubes. The process is detailed here: [Exploring the data in a report](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).
-* Collect the data in the database and group it into lists, for instance to identify and build targets and deliveries. For more on this, refer to [Building a target population](../../reporting/using/using-cubes-to-explore-data.md#building-a-target-population).
-* Insert a pivot table into a report, reference an existing cube in it. For more on this, refer to [Inserting a pivot table into a report](../../reporting/using/using-cubes-to-explore-data.md#inserting-a-pivot-table-into-a-report).
+* Create reports based on cubes. The process is detailed here: [Exploring the data in a report](#exploring-the-data-in-a-report).
+* Collect the data in the database and group it into lists, for instance to identify and build targets and deliveries. For more on this, refer to [Building a target population](#building-a-target-population).
+* Insert a pivot table into a report, reference an existing cube in it. For more on this, refer to [Inserting a pivot table into a report](#inserting-a-pivot-table-into-a-report).
 
 >[!NOTE]
 >
@@ -169,5 +169,5 @@ To create a table and explore the data in a cube, apply the following steps:
 
    ![](assets/s_advuser_cube_in_report_02.png)
 
-   This lets you build the report to be displayed. For more on this, refer to [Step 2 - Selecting lines and columns](../../reporting/using/using-cubes-to-explore-data.md#step-2---selecting-lines-and-columns).
+   This lets you build the report to be displayed. For more on this, refer to [Step 2 - Selecting lines and columns](#step-2---selecting-lines-and-columns).
 

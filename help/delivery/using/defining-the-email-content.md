@@ -65,7 +65,7 @@ For example, in the message above, the subject of the message is personalized fo
 
 The content of the message is defined in the lower section of the delivery configuration window.
 
-Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Selecting message formats](../../delivery/using/defining-the-email-content.md#selecting-message-formats).
+Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Selecting message formats](#selecting-message-formats).
 
 * To import an HTML content, use the **[!UICONTROL Open]** button. You can also paste the source code directly into the **[!UICONTROL Source]** sub-tab.
 
@@ -85,7 +85,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   ![](assets/s_ncs_user_wizard_email01_18.png)
 
-  Library images can be accessed via the **[!UICONTROL Resources>Online>Public resources]** folder in the folder tree. Also refer to [Adding images](../../delivery/using/defining-the-email-content.md#adding-images).
+  Library images can be accessed via the **[!UICONTROL Resources>Online>Public resources]** folder in the folder tree. Also refer to [Adding images](#adding-images).
 
   The last button in the toolbar lets you insert personalization fields.
 
@@ -304,7 +304,7 @@ Once these elements have been configured, you can finalize your email and send i
 
 ### Email formats for Japanese mobiles {#email-formats-for-japanese-mobiles}
 
-Adobe Campaign manages three specific Japanese formats for email on mobiles: **Deco-mail** (DoCoMo mobiles), **Decore Mail** (Softbank mobiles) and **Decoration Mail** (KDDI AU mobiles). These formats impose particular coding, structure, and size constraints. Learn more about limitations and recommendations in [this section](../../delivery/using/defining-the-email-content.md#limitations-and-recommendations).
+Adobe Campaign manages three specific Japanese formats for email on mobiles: **Deco-mail** (DoCoMo mobiles), **Decore Mail** (Softbank mobiles) and **Decoration Mail** (KDDI AU mobiles). These formats impose particular coding, structure, and size constraints. Learn more about limitations and recommendations in [this section](#limitations-and-recommendations).
 
 In order for the recipient to correctly receive messages in one of these formats, we recommend selecting **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** in the corresponding profile:
 
@@ -358,7 +358,7 @@ In addition to the previewing diagnosis, a second check is carried out when send
 >
 >This typology rule is only executed if at least one of the recipients is configured to receive emails in **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** format.
 
-This typology rule allows you to make sure that the delivery respects the [format constraints](../../delivery/using/defining-the-email-content.md#limitations-and-recommendations) defined by the Japanese operators, particularly in relation to the total size of the email, the size of the HTML and text sections, the number of images in the messages, and the tags in the HTML content.
+This typology rule allows you to make sure that the delivery respects the [format constraints](#limitations-and-recommendations) defined by the Japanese operators, particularly in relation to the total size of the email, the size of the HTML and text sections, the number of images in the messages, and the tags in the HTML content.
 
 #### Sending proofs {#sending-proofs}
 
@@ -372,8 +372,8 @@ For example, you can replace a profile's address by test@softbank.ne.jp if the e
 
 To send an email to recipients with Japanese email formats with Campaign, two options are possible:
 
-* Create two deliveries: one only for Japanese recipients and another for other recipients - refer to [this section](../../delivery/using/defining-the-email-content.md#designing-a-specific-delivery-for-japanese-formats).
-* Create a single delivery and Adobe Campaign will automatically detect the format to use - refer to [this section](../../delivery/using/defining-the-email-content.md#designing-a-delivery-for-all-formats).
+* Create two deliveries: one only for Japanese recipients and another for other recipients - refer to [this section](#designing-a-specific-delivery-for-japanese-formats).
+* Create a single delivery and Adobe Campaign will automatically detect the format to use - refer to [this section](#designing-a-delivery-for-all-formats).
 
 #### Designing a specific delivery for Japanese formats {#designing-a-specific-delivery-for-japanese-formats}
 
@@ -393,4 +393,4 @@ The message contact will display correctly for the users on Japanese mobiles, ju
 
 >[!CAUTION]
 >
->Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [this section](../../delivery/using/defining-the-email-content.md#limitations-and-recommendations).
+>Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [this section](#limitations-and-recommendations).
