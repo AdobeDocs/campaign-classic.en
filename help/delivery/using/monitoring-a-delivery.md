@@ -228,7 +228,7 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
     >
     >Replace `<INSTANCENAME>` with the name of your instance (production, development, etc.). The instance name is identified via the configuration files: `[path of application]nl6/conf/config-<INSTANCENAME>.xml`
 
-* The delivery may be using an affinity not configured on the sending tenant. In this case, check the configuration of the traffic management (IP affinity) and use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+* The delivery may be using an affinity not configured on the sending server. In this case, check the configuration of the traffic management (IP affinity) and use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 * When the delivery preparation is pending, there can be too many campaigns running, which blocked the status update of the delivery. To solve this, go to **[!UICONTROL Options]** and increase the value of **[!UICONTROL NmsOperation_LimitConcurrency]** (default is 10). Do not run more campaigns than the value assigned to this specific option.
 
 ### Failed status {#failed-status}
