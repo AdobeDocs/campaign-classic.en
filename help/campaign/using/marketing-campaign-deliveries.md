@@ -46,7 +46,7 @@ Some of this information is inherited from the template.
 >
 >Campaign templates are presented in [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
-To build the delivery target, you can define filtering criteria for the recipients in the database. This recipient selection mode is presented in the [Sending Messages](../../delivery/using/identifying-target-populations.md) section.
+To build the delivery target, you can define filtering criteria for the recipients in the database. This recipient selection mode is presented in the [Sending Messages](../../delivery/using/steps-defining-the-target-population.md) section.
 
 ### Example: delivering to a group of recipients {#example--delivering-to-a-group-of-recipients}
 

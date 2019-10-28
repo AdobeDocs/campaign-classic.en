@@ -36,7 +36,7 @@ Once IMS is enabled, you can request provisioning of the People core service/Aud
   </tr> 
   <tr> 
    <td> <strong>IMS Org ID</strong><br /> </td> 
-   <td> Your IMS Org ID. <br> You can find your IMS Org ID on the Experience Cloud, in the Administration menu. It is also provided when you first connect to the Adobe Experience Cloud. </td> 
+   <td> Your IMS Org ID. <br> You can find your IMS Org ID on the Experience Cloud, in the **[!UICONTROL Administration]** menu. It is also provided when you first connect to the Adobe Experience Cloud. </td> 
   </tr> 
   <tr> 
    <td> <strong>Environment:</strong><br /> </td> 

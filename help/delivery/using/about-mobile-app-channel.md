@@ -22,6 +22,8 @@ snippet: y
 >
 >This document details the process for integrating your mobile application with the Adobe Campaign platform. It does not provide information on how to create the mobile application or how to configure it for managing notifications. If you would like further information on this, refer to the official Apple ([https://developer.apple.com/](https://developer.apple.com/)) and Android ([https://developer.android.com/index.html](https://developer.android.com/index.html)) documentation.
 
+The sections below provide information that is specific to the mobile app channel. For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+
 The **Mobile App Channel** lets you use the Adobe Campaign platform to send personalized notifications to iOS and Android terminals via apps. Two delivery channels are available:
 
 * An iOS channel that enables you to send notifications to Apple mobile devices.
