@@ -34,6 +34,8 @@ A new troubleshooting page has been added for tracking in Campaign Classic. [Rea
 
 A new page of best practices for Adobe Analytics Data Connector has been added. [Read more on Adobe Analytics Data Connector](../../platform/using/adobe-analytics-data-connector.md)
 
+The Audience Manager integration page has been updated to reflect **Declared ID** changes. [Read more](../../integrations/using/submitting-request-to-adobe.md)
+
 ## September 2019 {#september-2019}
 
 A new page has been added to provide general guidelines for maintaining Campaign Classic. [Read more](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)
