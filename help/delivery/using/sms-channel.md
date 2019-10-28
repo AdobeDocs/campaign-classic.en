@@ -365,11 +365,18 @@ If you link the **[!UICONTROL Remove from quarantine]** action to an automatic r
 
 Recipients are listed in the **[!UICONTROL Non deliverables and addresses]** table available through the **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** menu.
 
-To send the same reply no matter what the short code, leave the **[!UICONTROL Short code]** column empty.
+* To send the same reply no matter what the short code, leave the **[!UICONTROL Short code]** column empty.
+* To send the same reply no matter what the keyword, leave the **[!UICONTROL Keyword]** column empty.
+* To carry out an action without sending a response, leave the **[!UICONTROL Response]** column empty. For example, this allows you to remove from quarantine a user who replies with a message other than "STOP".
 
-To send the same reply no matter what the keyword, leave the **[!UICONTROL Keyword]** column empty.
+If you have multiple external accounts using the Extended generic SMPP connector with the same provider account, the following issue may happen: when sending a reply to a short code, it may be received on any of your external account connections. Consequently, the automatic reply that is sent could not be the expected message.
+To avoid this, apply one of the following solutions, depending on the provider you are using:
+* Create one provider account for each external account.
+* Use the **[!UICONTROL System type]** field from the **[!UICONTROL Mobile]** > **[!UICONTROL Connection settings]** tab to distinguish each short code. Ask your provider a different value for each account.
 
-To carry out an action without sending a response, leave the **[!UICONTROL Response]** column empty. For example, this allows you to remove from quarantine a user who replies with a message other than "STOP".
+   ![](assets/extended_smpp_system-type.png)
+
+The steps for setting up an external account using the Extended generic SMPP connector are detailed in the [Creating an SMPP external account](../../delivery/using/sms-channel.md#creating-an-smpp-external-account) section.
 
 ### Changing the delivery template {#changing-the-delivery-template}
 
