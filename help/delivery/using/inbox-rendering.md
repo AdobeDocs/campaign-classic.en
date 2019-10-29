@@ -38,8 +38,8 @@ For hosted and hybrid clients, Inbox rendering is configured on your instance by
 
 For on-premise installations, follow the steps below to configure Inbox rendering.
 
-1. Install the **[!UICONTROL Inbox rendering (IR)]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menu.
-1. Configure an external account of the HTTP type via the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** node.
+1. Install the **[!UICONTROL Inbox rendering (IR)]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menu. For more on this, see [Installing Campaign Classic standard packages](../../installation/using/installing-campaign-standard-packages.md).
+1. Configure an external account of the HTTP type via the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** node. For more on this, see [Creating an external account](../../platform/using/external-accounts.md#creating-an-external-account).
 1. Set the external account parameters as follows:
     * **[!UICONTROL Label]**: Deliverability server info
     * **[!UICONTROL Internal name]**: deliverabilityInstance
@@ -51,7 +51,7 @@ For on-premise installations, follow the steps below to configure Inbox
     ![](assets/s_tn_inbox_rendering_external-account.png)
  
 1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** node. Search for the **[!UICONTROL DmRendering_cuid]** option and contact support to get your delivery reports identifier that needs to be copied to the **[!UICONTROL Value (text)]** field.
-1. Edit the the **serverConf.xml** file to allow a call to the Litmus server. Add the following line to the `<urlPermission>` section:
+1. Edit the **serverConf.xml** file to allow a call to the Litmus server. Add the following line to the `<urlPermission>` section:
     ```
     <url dnsSuffix="deliverability-app.neolane.net" urlRegEx="https://.*"/>
     ```
@@ -59,6 +59,10 @@ For on-premise installations, follow the steps below to configure Inbox
    ```
    nlserver config -reload
    ```
+
+>[!NOTE]
+>
+>You may have to log out from the console and log back in to be able to use Inbox rendering.
 
 ## About Litmus tokens {#about-litmus-tokens}
 
