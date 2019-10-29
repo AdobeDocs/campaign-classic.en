@@ -22,9 +22,9 @@ To make a cube functional, you need to identify the relevant dimensions and meas
 
 To create a Cube, apply the following steps:
 
-1. Select the work table. Refer to [Selecting the work table](../../reporting/using/creating-indicators.md#selecting-the-work-table).
-1. Define dimensions. Refer to [Defining dimensions](../../reporting/using/creating-indicators.md#defining-dimensions).
-1. Define measures. Refer to [Building indicators](../../reporting/using/creating-indicators.md#building-indicators).
+1. Select the work table. Refer to [Selecting the work table](#selecting-the-work-table).
+1. Define dimensions. Refer to [Defining dimensions](#defining-dimensions).
+1. Define measures. Refer to [Building indicators](#building-indicators).
 1. Create aggregates (optional). Refer to [Calculating and using aggregates](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
 
 This example shows you how to quickly create a simple cube in a report to export its measures.

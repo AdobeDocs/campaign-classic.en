@@ -49,7 +49,7 @@ There are several precautions to take when installing the Transactional message 
 >
 >The control instance and the execution instance(s) must be installed on different machines. They cannot share the same Campaign instance.
 
-If you need to use several channels, you must install and configure related packages before installing Transactional message packages. Refer to [Adding a delivery channel](../../message-center/using/transactional-messaging-architecture.md#adding-a-delivery-channel).
+If you need to use several channels, you must install and configure related packages before installing Transactional message packages. Refer to [Adding a delivery channel](#adding-a-delivery-channel).
 
 * To install the control instance on your machine, select the **[!UICONTROL Transactional message control]** module.
 

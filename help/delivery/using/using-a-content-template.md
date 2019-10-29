@@ -20,9 +20,9 @@ snippet: y
 
 ## About content templates {#about-content-templates}
 
-Content templates can be referenced and used in deliveries directly. Refer to [Creating a delivery via content management](../../delivery/using/using-a-content-template.md#creating-a-delivery-via-content-management)
+Content templates can be referenced and used in deliveries directly. Refer to [Creating a delivery via content management](#creating-a-delivery-via-content-management)
 
-They can also be used to create content instances. Once they have been created, these instances are ready to be delivered (refer to [Delivering a content instance](../../delivery/using/using-a-content-template.md#delivering-a-content-instance)) or exported (refer to [Creating a content instance](../../delivery/using/using-a-content-template.md#creating-a-content-instance)).
+They can also be used to create content instances. Once they have been created, these instances are ready to be delivered (refer to [Delivering a content instance](#delivering-a-content-instance)) or exported (refer to [Creating a content instance](#creating-a-content-instance)).
 
 ## Creating a delivery via content management {#creating-a-delivery-via-content-management}
 

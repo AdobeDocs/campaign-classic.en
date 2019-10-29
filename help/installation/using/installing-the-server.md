@@ -63,7 +63,7 @@ The installation steps for the Adobe Campaign server are the following:
    >
    >Once the server installation is complete a reboot of the server is required to avoid possible network issue.
 
-   Once the installation is complete, start Adobe Campaign to create the configuration files. Refer to [First start-up of the server](../../installation/using/installing-the-server.md#first-start-up-of-the-server).
+   Once the installation is complete, start Adobe Campaign to create the configuration files. Refer to [First start-up of the server](#first-start-up-of-the-server).
 
 ## Summary installation testing {#summary-installation-testing}
 

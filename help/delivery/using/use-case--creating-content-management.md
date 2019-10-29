@@ -20,12 +20,12 @@ snippet: y
 
 To create content management in Adobe Campaign, the following steps are necessary:
 
-* [Step 1 - Analyzing the content to be produced](../../delivery/using/use-case--creating-content-management.md#step-1---analyzing-the-content-to-be-produced),
-* [Step 2 - Creating the data schema](../../delivery/using/use-case--creating-content-management.md#step-2---creating-the-data-schema),
-* [Step 3 - Creating the input form](../../delivery/using/use-case--creating-content-management.md#step-3---creating-the-input-form),
-* [Step 4 - Creating the construction template](../../delivery/using/use-case--creating-content-management.md#step-4---creating-the-construction-template),
-* [Step 5 - Creating the publication template](../../delivery/using/use-case--creating-content-management.md#step-5---creating-the-publication-template),
-* [Step 6 - Creating contents](../../delivery/using/use-case--creating-content-management.md#step-6---creating-contents).
+* [Step 1 - Analyzing the content to be produced](#step-1---analyzing-the-content-to-be-produced),
+* [Step 2 - Creating the data schema](#step-2---creating-the-data-schema),
+* [Step 3 - Creating the input form](#step-3---creating-the-input-form),
+* [Step 4 - Creating the construction template](#step-4---creating-the-construction-template),
+* [Step 5 - Creating the publication template](#step-5---creating-the-publication-template),
+* [Step 6 - Creating contents](#step-6---creating-contents).
 
 ## Step 1 - Analyzing the content to be produced {#step-1---analyzing-the-content-to-be-produced}
 

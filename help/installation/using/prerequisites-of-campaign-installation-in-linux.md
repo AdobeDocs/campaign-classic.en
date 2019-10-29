@@ -28,10 +28,10 @@ As a reminder, the following components need to be installed and correctly confi
 
 * Apache, refer to [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html),
 * Java JDK and OpenJDK, refer to [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
-* Libraries, refer to [Libraries](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries),
-* Database access layers, refer to [Database access layers](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers),
-* LibreOffice, refer to [Installing LibreOffice for Debian](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#installing-libreoffice-for-debian) and [Installing LibreOffice for CentOS](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#installing-libreoffice-for-centos),
-* Fonts, refer to [Fonts for MTA statistics](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics) and [Fonts for Japanese instances](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-japanese-instances).
+* Libraries, refer to [Libraries](#libraries),
+* Database access layers, refer to [Database access layers](#database-access-layers),
+* LibreOffice, refer to [Installing LibreOffice for Debian](#installing-libreoffice-for-debian) and [Installing LibreOffice for CentOS](#installing-libreoffice-for-centos),
+* Fonts, refer to [Fonts for MTA statistics](#fonts-for-mta-statistics) and [Fonts for Japanese instances](#fonts-for-japanese-instances).
 
 >[!NOTE]
 >
@@ -49,13 +49,13 @@ To install Adobe Campaign in Linux, please make sure you have the required libra
 
 * You must have **version 0.9.8** or **1.0** of OpenSSL.
 
-  For RHEL and CentOS 6 distributions, version 1.0 of OpenSSL is required.
+  For RHEL 7 and CentOS 6 distributions, version 1.0 of OpenSSL is required.
 
 * To use Adobe Campaign, you need to have the **libicu** library installed.
 
   >[!NOTE]
   >
-  >RHEL 7 distribution is provided with the **libicu5.0** library
+  >For RHEL, only libicu 4.2 is supported. RHEL 7 distribution is provided with the **libicu5.0** library. You need to add libicu4.2 manually to the **lib** folder of Campaign.
 
   The following versions of **libicu** are supported (32bit or 64bit):
 

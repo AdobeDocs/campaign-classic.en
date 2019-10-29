@@ -118,7 +118,7 @@ To browse a list, you can use **the scroll bars** (horizontal and vertical) to s
 
 >[!NOTE]
 >
->Configuration and personalization of list content are presented in [Configuring lists](../../platform/using/adobe-campaign-workspace.md#configuring-lists).  
+>Configuration and personalization of list content are presented in [Configuring lists](#configuring-lists).  
 >
 >You can also sort and filter data. See [Filtering options](../../platform/using/filtering-options.md).
 
@@ -185,10 +185,10 @@ Another way to add columns, for example if you want to display data which is not
    >
    >The labels are displayed by table and then in alphabetical order.
    >
-   >Use the **Search** field to run a search in the available fields. For further information, see [Sorting a list](../../platform/using/adobe-campaign-workspace.md#sorting-a-list).
+   >Use the **Search** field to run a search in the available fields. For further information, see [Sorting a list](#sorting-a-list).
    >
    >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields.
-    [Configuring lists](../../platform/using/adobe-campaign-workspace.md#configuring-lists).  
+    [Configuring lists](#configuring-lists).  
    >
    >You can also sort and filter data. See [Filtering options](../../platform/using/filtering-options.md).
 

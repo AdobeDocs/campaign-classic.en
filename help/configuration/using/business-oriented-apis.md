@@ -22,19 +22,19 @@ Business API are specific to each type of object. They have an effect on:
 
 * Deliveries:
 
-    * Creating a delivery action, refer to [SubmitDelivery (nms:delivery)](../../configuration/using/business-oriented-apis.md#submitdelivery--nms-delivery-),
+    * Creating a delivery action, refer to [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
     * sending a campaign (start, pause, stop, send proof),
     * recovering delivery logs.
 
 * Workflows:
 
-    * starting a workflow, 
+    * starting a workflow,
     * verifying processes, etc.
 
       Refer to [SOAP methods in JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Content management
-* Subscription management, refer to [Subscribe (nms:subscription)](../../configuration/using/business-oriented-apis.md#subscribe--nms-subscription-) and [Unsubscribe (nms:subscription)](../../configuration/using/business-oriented-apis.md#unsubscribe--nms-subscription-).
+* Subscription management, refer to [Subscribe (nms:subscription)](#subscribe--nms-subscription-) and [Unsubscribe (nms:subscription)](#unsubscribe--nms-subscription-).
 * Data processes: imports, exports.
 
 This section details the use of the "Subscribe", "Unsubscribe" and "SubmitDelivery" services.
