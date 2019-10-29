@@ -24,10 +24,6 @@ Before hitting the **Send** button, make sure that your message will be displaye
 
 To allow this, Adobe Campaign leverages the [Litmus](https://litmus.com/email-testing) web-based email testing solution to capture the renderings and make them available in a dedicated report. This enables you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications.
 
->[!NOTE]
->
->Inbox rendering is configured on your instance by Adobe technical support and consultants. For more information, contact your Adobe Account executive.
-
 Litmus is a feature-rich email validation and previewing application. It allows email content creators to preview their message content in over 70 email renderers, such as the Gmail inbox or the Apple Mail client.
 
 The mobile, messaging and webmail clients available for **Inbox rendering** in Adobe Campaign are listed on the [Litmus website](https://litmus.com/email-testing) (click **View all email clients**).
@@ -35,6 +31,41 @@ The mobile, messaging and webmail clients available for **Inbox rendering** in A
 >[!NOTE]
 >
 >Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+
+## Activating Inbox rendering (on premise) {activating-inbox-rendering-on-prem}
+
+For hosted and hybrid clients, Inbox rendering is configured on your instance by Adobe technical support and consultants. For more information, contact your Adobe Account executive.
+
+For on-premise installations, follow the steps below to configure Inbox rendering.
+
+1. Install the **[!UICONTROL Inbox rendering (IR)]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menu. For more on this, see [Installing Campaign Classic standard packages](../../installation/using/installing-campaign-standard-packages.md).
+1. Configure an external account of the HTTP type via the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** node. For more on this, see [Creating an external account](../../platform/using/external-accounts.md#creating-an-external-account).
+1. Set the external account parameters as follows:
+    * **[!UICONTROL Label]**: Deliverability server info
+    * **[!UICONTROL Internal name]**: deliverabilityInstance
+    * **[!UICONTROL Type]**: HTTP
+    * **[!UICONTROL Server]**: https://deliverability-app.neolane.net/deliverability
+    * **[!UICONTROL Encryption]**: None
+    * Check the **[!UICONTROL Enabled]** option.
+    
+    ![](assets/s_tn_inbox_rendering_external-account.png)
+ 
+1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** node. Search for the **[!UICONTROL DmRendering_cuid]** option and contact support to get your delivery reports identifier that needs to be copied to the **[!UICONTROL Value (text)]** field.
+1. Edit the **serverConf.xml** file to allow a call to the Litmus server. Add the following line to the `<urlPermission>` section:
+
+    ```
+    <url dnsSuffix="deliverability-app.neolane.net" urlRegEx="https://.*"/>
+    ```
+
+1. Reload the configuration using the following command:
+
+   ```
+   nlserver config -reload
+   ```
+
+>[!NOTE]
+>
+>You may have to log out from the console and log back in to be able to use Inbox rendering.
 
 ## About Litmus tokens {#about-litmus-tokens}
 
