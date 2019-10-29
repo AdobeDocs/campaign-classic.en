@@ -42,6 +42,8 @@ A recommendation has been added to the SMS channel documentation to avoid issues
 
 Information was added in the Scheduler activity documentation on how to prevent simultaneous executions of a workflow. [Read more](../../workflow/using/scheduler.md)
 
+The steps to configure Inbox rendering for on-premise installations have been added to documentation. [Read more](../../delivery/using/inbox-rendering.md#activating-inbox-rendering-on-prem)
+
 ## September 2019 {#september-2019}
 
 A new page has been added to provide general guidelines for maintaining Campaign Classic. [Read more](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)
