@@ -1,7 +1,7 @@
 ---
-title: Key steps when creating a delivery
-seo-title: Key steps when creating a delivery
-description: Key steps when creating a delivery
+title: Validating the delivery
+seo-title: Validating the delivery
+description: Validating the delivery
 seo-description: 
 page-status-flag: never-activated
 uuid: 8bf70ea4-5f28-4d85-b5ce-0bd3ed3eea55
