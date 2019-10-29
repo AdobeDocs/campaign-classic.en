@@ -52,10 +52,13 @@ For on-premise installations, follow the steps below to configure Inbox
  
 1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** node. Search for the **[!UICONTROL DmRendering_cuid]** option and contact support to get your delivery reports identifier that needs to be copied to the **[!UICONTROL Value (text)]** field.
 1. Edit the **serverConf.xml** file to allow a call to the Litmus server. Add the following line to the `<urlPermission>` section:
+
     ```
     <url dnsSuffix="deliverability-app.neolane.net" urlRegEx="https://.*"/>
     ```
+
 1. Reload the configuration using the following command:
+
    ```
    nlserver config -reload
    ```
