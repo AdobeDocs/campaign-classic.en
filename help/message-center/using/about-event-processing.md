@@ -52,7 +52,7 @@ The **Event history**, under **[!UICONTROL Message Center]** > **[!UICONTROL Eve
 There is an error message when trying to trigger a request from an event sent to Adobe Campaign.
 
 * The IP of the external system contacting Adobe Campaign may not be whitelisted. See [Execution instance](../../message-center/using/creating-a-shared-connection.md#execution-instance).
-* The operator account used to contact Adobe Campaign may be incorrectly configured. See [Configuring execution instances](../../message-center/using/creating-a-shared-connection.md#configuring-execution-instances).
+* When triggering the event, the operator account needs to use a valid token or a correct password to contact Adobe Campaign. Review the *web.log* file. See [Log files](../../production/using/log-files.md).
 * The call to Adobe Campaign may not be properly formatted.
 * Review the *web.log* file to find details on the error. See [Log files](../../production/using/log-files.md).
 * Before running a test from the external system, test the connection and payload using an API testing tool such as SoapUI.
@@ -64,4 +64,4 @@ There is no error message, but the event is not displayed in the Adobe Campaign 
 
 The event is displayed in the Adobe Campaign **Event history** but was not processed successfully.
 
-* Check the status of the event. See [Event statuses](../../message-center/using/about-event-processing.md#event-statuses).
+* Check the status of the event and the delivery logs of the corresponding event. See [Event statuses](../../message-center/using/about-event-processing.md#event-statuses).
