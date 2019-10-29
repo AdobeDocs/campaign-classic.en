@@ -40,6 +40,8 @@ The Delivery Best Practices getting started guide has been moved and updated. [R
 
 A recommendation has been added to the SMS channel documentation to avoid issues when using multiple external accounts leveraging the Extended generic SMPP connector with the same provider account. [Read more](../../delivery/using/sms-channel.md#automatic-reply)
 
+Information was added in the Scheduler activity documentation on how to prevent simultaneous executions of a workflow. [Read more](../../workflow/using/scheduler.md)
+
 ## September 2019 {#september-2019}
 
 A new page has been added to provide general guidelines for maintaining Campaign Classic. [Read more](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)
