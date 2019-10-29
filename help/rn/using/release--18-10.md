@@ -163,7 +163,9 @@ snippet: y
 
 Client and server upgrade
 
-If you have a server that has been updated to 18.10, you will have to use a 18.10 client in order to access your server. The 18.10 client will be able to connect to an older server version.
+>[!CAUTION]
+>
+>If you have a server that has been updated to 18.10, you will have to use a 18.10 client in order to access your server. The 18.10 client will be able to connect to an older server version.
 
 Domain name management
 

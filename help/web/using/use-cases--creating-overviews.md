@@ -20,11 +20,11 @@ snippet: y
 
 In the following example, we will create overview-type Web applications to display all the Web applications in your database. Configure the following elements:
 
-* a filter on the folder (refer to [Adding a filter on a folder](../../web/using/use-cases--creating-overviews.md#adding-a-filter-on-a-folder)),
-* a button for creating a new Web application (refer to [Adding a button to configure a new Web application](../../web/using/use-cases--creating-overviews.md#adding-a-button-to-configure-a-new-web-application)),
-* detail display for each entry in the list (refer to [Adding detail to a list](../../web/using/use-cases--creating-overviews.md#adding-detail-to-a-list)),
-* one filter per link editing tool (refer to [Creating a filter using a link editor](../../web/using/use-cases--creating-overviews.md#creating-a-filter-using-a-link-editor)), 
-* a refresh link (refer to [Creating a refresh link](../../web/using/use-cases--creating-overviews.md#creating-a-refresh-link)).
+* a filter on the folder (refer to [Adding a filter on a folder](#adding-a-filter-on-a-folder)),
+* a button for creating a new Web application (refer to [Adding a button to configure a new Web application](#adding-a-button-to-configure-a-new-web-application)),
+* detail display for each entry in the list (refer to [Adding detail to a list](#adding-detail-to-a-list)),
+* one filter per link editing tool (refer to [Creating a filter using a link editor](#creating-a-filter-using-a-link-editor)), 
+* a refresh link (refer to [Creating a refresh link](#creating-a-refresh-link)).
 
 ![](assets/s_ncs_configuration_webapp_overview.png)
 

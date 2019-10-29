@@ -30,7 +30,7 @@ The mobile, messaging and webmail clients available for **Inbox rendering** in A
 
 >[!NOTE]
 >
->Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof).
+>Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 ## Activating Inbox rendering (on premise) {activating-inbox-rendering-on-prem}
 
@@ -80,7 +80,7 @@ Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, ea
 >* For the same delivery, if you generate the Inbox rendering again, the number of available tokens is again decreased by the number of generated renderings.
 >
 
-The number of remaining available tokens is displayed in the **[!UICONTROL General summary]** of the [Inbox rendering report](../../delivery/using/inbox-rendering.md#inbox-rendering-report).
+The number of remaining available tokens is displayed in the **[!UICONTROL General summary]** of the [Inbox rendering report](#inbox-rendering-report).
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -103,7 +103,7 @@ For more on creating, designing and targeting a delivery, refer to [this section
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof).
+   A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 1. After being sent, the proof appears in the delivery list. Double-click it.
 

@@ -90,9 +90,9 @@ A data package can be constructed manually from any text editor. Simply ensure t
 
 Packages can be exported in three different ways:
 
-* The **[!UICONTROL Package Export Wizard]** enables you to export a set of objects in a single package. For more on this refer to [Exporting a set of objects in a package](../../platform/using/working-with-data-packages.md#exporting-a-set-of-objects-in-a-package)
+* The **[!UICONTROL Package Export Wizard]** enables you to export a set of objects in a single package. For more on this refer to [Exporting a set of objects in a package](#exporting-a-set-of-objects-in-a-package)
 * A **single object** can be exported in a package directly by right-clicking on it and selecting **[!UICONTROL Actions > Export in a package]**.
-* **Package definitions** let you create a package structure in which you add objects that will be exported later on in a package. For more on this, refer to [Managing package definitions](../../platform/using/working-with-data-packages.md#managing-package-definitions)
+* **Package definitions** let you create a package structure in which you add objects that will be exported later on in a package. For more on this, refer to [Managing package definitions](#managing-package-definitions)
 
 Once a package exported, you will be able to import it and all the added entities into another Campaign instance.
 
@@ -118,7 +118,7 @@ For the three types of packages, the wizard offers the following steps:
 
    >[!NOTE]
    >
-   >The dependency mechanism controls the entity export sequence. For more on this, refer to [Managing dependencies](../../platform/using/working-with-data-packages.md#managing-dependencies).
+   >The dependency mechanism controls the entity export sequence. For more on this, refer to [Managing dependencies](#managing-dependencies).
 
 1. The entity configuration screen defines the filter query on the type of document to be extracted.
 
@@ -232,10 +232,10 @@ Package definitions let you create a package structure in which you add entities
 
 **Related topics:**
 
-* [Creating a package definition](../../platform/using/working-with-data-packages.md#creating-a-package-definition)
-* [Adding entities to a package definition](../../platform/using/working-with-data-packages.md#adding-entities-to-a-package-definition)
-* [Configuring package definitions generation](../../platform/using/working-with-data-packages.md#configuring-package-definitions-generation)
-* [Exporting packages from a package definition](../../platform/using/working-with-data-packages.md#exporting-packages-from-a-package-definition)
+* [Creating a package definition](#creating-a-package-definition)
+* [Adding entities to a package definition](#adding-entities-to-a-package-definition)
+* [Configuring package definitions generation](#configuring-package-definitions-generation)
+* [Exporting packages from a package definition](#exporting-packages-from-a-package-definition)
 
 ### Creating a package definition {#creating-a-package-definition}
 
@@ -249,13 +249,13 @@ You can then add entities to the package definition, and export it to an XML fil
 
 **Related topics:**
 
-* [Adding entities to a package definition](../../platform/using/working-with-data-packages.md#adding-entities-to-a-package-definition)
-* [Configuring package definitions generation](../../platform/using/working-with-data-packages.md#configuring-package-definitions-generation)
-* [Exporting packages from a package definition](../../platform/using/working-with-data-packages.md#exporting-packages-from-a-package-definition)
+* [Adding entities to a package definition](#adding-entities-to-a-package-definition)
+* [Configuring package definitions generation](#configuring-package-definitions-generation)
+* [Exporting packages from a package definition](#exporting-packages-from-a-package-definition)
 
 ### Adding entities to a package definition {#adding-entities-to-a-package-definition}
 
-In the **[!UICONTROL Content]** tab, click the **[!UICONTROL Add]** button to select the entities to export with the package. Best practices when selecting entities are presented in the [Exporting a set of objects in a package](../../platform/using/working-with-data-packages.md#exporting-a-set-of-objects-in-a-package) section.
+In the **[!UICONTROL Content]** tab, click the **[!UICONTROL Add]** button to select the entities to export with the package. Best practices when selecting entities are presented in the [Exporting a set of objects in a package](#exporting-a-set-of-objects-in-a-package) section.
 
 ![](assets/packagedefinition_addentities.png)
 
@@ -269,7 +269,7 @@ Entities can be added to a package definition directly from their location in th
 
    ![](assets/packagedefinition_packageselection.png)
 
-1. The entity is added to the package definition, it will be exported with the package (see [Exporting packages from a package definition](../../platform/using/working-with-data-packages.md#exporting-packages-from-a-package-definition)).
+1. The entity is added to the package definition, it will be exported with the package (see [Exporting packages from a package definition](#exporting-packages-from-a-package-definition)).
 
    ![](assets/packagedefinition_entityadded.png)
 

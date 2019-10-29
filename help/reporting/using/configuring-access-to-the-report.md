@@ -118,7 +118,7 @@ To display the preview of the report, select the **[!UICONTROL Global]** or the 
 
 These two options are selected based on the display settings of the report. If the display setting is **[!UICONTROL Global]**, you need to select the **[!UICONTROL Global]** preview option. If the display settings are **[!UICONTROL Single selection]** or **[!UICONTROL Multiple selection]**, the **[!UICONTROL Selection]** preview option must be selected.
 
-For more on this, refer to [Report display context](../../reporting/using/configuring-access-to-the-report.md#report-display-context).
+For more on this, refer to [Report display context](#report-display-context).
 
 Specific settings enable you to control errors. The **_uuid** setting is found in the URL of the report. You can add the **&_preview** or the **&_debug** settings to it.
 
@@ -126,7 +126,7 @@ To learn more about these settings, refer to the **Defning web form properties**
 
 ## Publishing the report {#publishing-the-report}
 
-Publishing the report is mandatory in order to share them with other operators and display them in the list of available reports (also refer to [Report display context](../../reporting/using/configuring-access-to-the-report.md#report-display-context)). This operation must be carried out again each time the report is changed.
+Publishing the report is mandatory in order to share them with other operators and display them in the list of available reports (also refer to [Report display context](#report-display-context)). This operation must be carried out again each time the report is changed.
 
 1. Open the publishing wizard by clicking **[!UICONTROL Publish]** in the toolbar.
 

@@ -33,7 +33,7 @@ Interaction lets you control the flow of offer propositions using presentation r
 
    ![](assets/offer_typology_002.png)
 
-1. Configure the rule's application criteria. For more on this, refer to [Presentation rule settings](../../interaction/using/managing-offer-presentation.md#presentation-rule-settings).
+1. Configure the rule's application criteria. For more on this, refer to [Presentation rule settings](#presentation-rule-settings).
 1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Campaign execution]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typologies]** node and create a typology that will group all **[!UICONTROL Offer presentation]** type rules.
 
    ![](assets/offer_typology_003.png)
@@ -105,7 +105,7 @@ You can select filtering criteria to exclude propositions based on the channel, 
 
 ![](assets/offer_typology_014.png)
 
-These criteria represent the most frequent applications of presentation rules. To use other criteria, you can create a query using the **[!UICONTROL Limit propositions...]** link. For more on this, refer to the [Creating a query on propositions](../../interaction/using/managing-offer-presentation.md#creating-a-query-on-propositions) section.
+These criteria represent the most frequent applications of presentation rules. To use other criteria, you can create a query using the **[!UICONTROL Limit propositions...]** link. For more on this, refer to the [Creating a query on propositions](#creating-a-query-on-propositions) section.
 
 * **Filter on the channel**
 

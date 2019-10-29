@@ -28,7 +28,7 @@ Adobe Campaign manages a list of quarantined addresses. Recipients whose address
 
 ### Optimizing your delivery through quarantines {#optimizing-your-delivery-through-quarantines}
 
-The profiles whose email addresses or phone number are in quarantine are automatically excluded during message preparation (see [Identifying quarantined addresses for a delivery](../../delivery/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-a-delivery)). This will speed up deliveries, as the error rate has a significant effect on delivery speed.
+The profiles whose email addresses or phone number are in quarantine are automatically excluded during message preparation (see [Identifying quarantined addresses for a delivery](#identifying-quarantined-addresses-for-a-delivery)). This will speed up deliveries, as the error rate has a significant effect on delivery speed.
 
 Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid blacklisting by these providers.
 
@@ -126,7 +126,7 @@ In the list of quarantined addresses, the **[!UICONTROL Error reason]** field in
 
 ## Push notification quarantines {#push-notification-quarantines}
 
-The quarantine mechanism for push notifications is globally the same as the general process. See [About quarantines](../../delivery/using/understanding-quarantine-management.md#about-quarantines). However certain errors are managed differently for push notifications. For example, for certain soft errors, no retries are performed within the same delivery. The specificities for push notification are listed below. The retry mechanism (number of retries, frequency) is the same as for emails.
+The quarantine mechanism for push notifications is globally the same as the general process. See [About quarantines](#about-quarantines). However certain errors are managed differently for push notifications. For example, for certain soft errors, no retries are performed within the same delivery. The specificities for push notification are listed below. The retry mechanism (number of retries, frequency) is the same as for emails.
 
 The items put in quarantine are device tokens.
 
@@ -260,7 +260,7 @@ During the delivery analysis, all the devices that are excluded from the target 
 
 **For Android V2**
 
-Android V2 quarantine mecanism uses the same process as Android V1, the same applies for the subscriptions and exclusions update. For more on this refer to the [Android V1](../../delivery/using/understanding-quarantine-management.md#android-quarantine) section.
+Android V2 quarantine mecanism uses the same process as Android V1, the same applies for the subscriptions and exclusions update. For more on this refer to the [Android V1](#android-quarantine) section.
 
 <table> 
  <tbody> 
@@ -343,7 +343,7 @@ Android V2 quarantine mecanism uses the same process as Android V1, the same app
 
 **For standard connectors**
 
-The quarantine mechanism for SMS messages is globally the same as the general process. See [About quarantines](../../delivery/using/understanding-quarantine-management.md#about-quarantines). The specificities for SMS are listed below.
+The quarantine mechanism for SMS messages is globally the same as the general process. See [About quarantines](#about-quarantines). The specificities for SMS are listed below.
 
 >[!NOTE]
 >

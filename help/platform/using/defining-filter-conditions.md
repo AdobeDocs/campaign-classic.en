@@ -260,7 +260,7 @@ Link to a table and collection element:
 
 >[!NOTE]
 >
->* Use the **[!UICONTROL Add]** button (above the side icon bar) to add an output column in which we wish to edit the expression. For more on editing an expression, refer to [Building expressions](../../platform/using/defining-filter-conditions.md#building-expressions).
+>* Use the **[!UICONTROL Add]** button (above the side icon bar) to add an output column in which we wish to edit the expression. For more on editing an expression, refer to [Building expressions](#building-expressions).
 >* Delete an output column by clicking the red 'x' (**Delete**).
 >* Change the order of the output columns using the arrows.
 >* The **[!UICONTROL Distribution of values]** serves as a way to view the distributon of the values of the field selected (for example, the distributions linked to recipient towns, recipient languages, etc.).
@@ -345,7 +345,7 @@ Here is a detailed view of the choices available in the **[!UICONTROL Formula ty
 
    ![](assets/query_editor_nveau_71.png)
 
-   For a list of all available functions, refer to [List of functions](../../platform/using/defining-filter-conditions.md#list-of-functions).
+   For a list of all available functions, refer to [List of functions](#list-of-functions).
 
 ## List of functions {#list-of-functions}
 

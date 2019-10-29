@@ -24,11 +24,11 @@ The Neobank site wants to display an offer on their website aimed at unidentifie
 
 To set up this interaction, we're going to:
 
-1. [Create an anonymous environement](../../interaction/using/offers-on-an-inbound-channel.md#creating-an-anonymous-environment).
-1. [Create anonymous offer spaces](../../interaction/using/offers-on-an-inbound-channel.md#creating-anonymous-offer-spaces).
-1. [Create an offer category and a theme.](../../interaction/using/offers-on-an-inbound-channel.md#creating-an-offer-category-and-a-theme).
-1. [Create anonymous offers.](../../interaction/using/offers-on-an-inbound-channel.md#creating-anonymous-offers).
-1. [Configure the web offer spaces on the website](../../interaction/using/offers-on-an-inbound-channel.md#configure-the-web-offer-space-on-the-website).
+1. [Create an anonymous environement](#creating-an-anonymous-environment).
+1. [Create anonymous offer spaces](#creating-anonymous-offer-spaces).
+1. [Create an offer category and a theme.](#creating-an-offer-category-and-a-theme).
+1. [Create anonymous offers.](#creating-anonymous-offers).
+1. [Configure the web offer spaces on the website](#configure-the-web-offer-space-on-the-website).
 
 ### Creating an anonymous environment {#creating-an-anonymous-environment}
 
@@ -134,7 +134,7 @@ You will get a tree structure containing your new environment:
 
 To make the offers you have just configured visible on the website, insert a JavaScript code into the HTML page of your site to call up the Interaction engine (for more on this, refer to [About inbound channels](../../interaction/using/about-inbound-channels.md)).
 
-1. Go to the HTML page and insert an @id attribute with a value matching the internal name of the anonymous offer space created previously (refer to [Creating anonymous offer spaces](../../interaction/using/offers-on-an-inbound-channel.md#creating-anonymous-offer-spaces)), preceded by **i_**.
+1. Go to the HTML page and insert an @id attribute with a value matching the internal name of the anonymous offer space created previously (refer to [Creating anonymous offer spaces](#creating-anonymous-offer-spaces)), preceded by **i_**.
 
    ![](assets/offer_inbound_anonymous_example_019.png)
 
@@ -142,7 +142,7 @@ To make the offers you have just configured visible on the website, insert a Jav
 
    ![](assets/offer_inbound_anonymous_example_020.png)
 
-   The blue URL boxes above correspond to the instance name, the internal name of the environment (refer to [Creating an anonymous environment](../../interaction/using/offers-on-an-inbound-channel.md#creating-an-anonymous-environment)) and the theme linked to the category ([Creating an offer category and a theme](../../interaction/using/offers-on-an-inbound-channel.md#creating-an-offer-category-and-a-theme)). The latter is optional.
+   The blue URL boxes above correspond to the instance name, the internal name of the environment (refer to [Creating an anonymous environment](#creating-an-anonymous-environment)) and the theme linked to the category ([Creating an offer category and a theme](#creating-an-offer-category-and-a-theme)). The latter is optional.
 
 When a visitor accesses the website's home page, the offers with the **financing** theme are displayed as configured on the HTML page. 
 
@@ -178,21 +178,21 @@ Apply the following steps:
 
 * Create a catalog of offers specific to anonymous inbound interactions using the following steps:
 
-    1. [Creating an environment for anonymous contacts](../../interaction/using/offers-on-an-inbound-channel.md#creating-an-environment-for-anonymous-contacts)
-    1. [Configuring offer spaces for the anonymous environment](../../interaction/using/offers-on-an-inbound-channel.md#configuring-offer-spaces-for-the-anonymous-environment)
-    1. [Creating offer categories in an anonymous environment](../../interaction/using/offers-on-an-inbound-channel.md#creating-offer-categories-in-an-anonymous-environment)
-    1. [Creating offers for anonymous visitors](../../interaction/using/offers-on-an-inbound-channel.md#creating-offers-for-anonymous-visitors)
+    1. [Creating an environment for anonymous contacts](#creating-an-environment-for-anonymous-contacts)
+    1. [Configuring offer spaces for the anonymous environment](#configuring-offer-spaces-for-the-anonymous-environment)
+    1. [Creating offer categories in an anonymous environment](#creating-offer-categories-in-an-anonymous-environment)
+    1. [Creating offers for anonymous visitors](#creating-offers-for-anonymous-visitors)
 
 * Create a catalog of offers specific to identified inbound interactions using the following steps:
 
-    1. [Configure the offer spaces in the identified environment](../../interaction/using/offers-on-an-inbound-channel.md#configure-the-offer-spaces-in-the-identified-environment)
-    1. [Creating offer categories in an identified environment](../../interaction/using/offers-on-an-inbound-channel.md#creating-offer-categories-in-an-identified-environment)
-    1. [Creating personalized offers](../../interaction/using/offers-on-an-inbound-channel.md#creating-personalized-offers)
+    1. [Configure the offer spaces in the identified environment](#configure-the-offer-spaces-in-the-identified-environment)
+    1. [Creating offer categories in an identified environment](#creating-offer-categories-in-an-identified-environment)
+    1. [Creating personalized offers](#creating-personalized-offers)
 
 * Configure the call to the offer engine:
 
-    1. [Configuring offer spaces on the web page](../../interaction/using/offers-on-an-inbound-channel.md#configuring-offer-spaces-on-the-web-page)
-    1. [Specifying the advanced settings of the identified offer spaces](../../interaction/using/offers-on-an-inbound-channel.md#specifying-the-advanced-settings-of-the-identified-offer-spaces)
+    1. [Configuring offer spaces on the web page](#configuring-offer-spaces-on-the-web-page)
+    1. [Specifying the advanced settings of the identified offer spaces](#specifying-the-advanced-settings-of-the-identified-offer-spaces)
 
 ### Creating an environment for anonymous contacts {#creating-an-environment-for-anonymous-contacts}
 
@@ -283,10 +283,10 @@ We are now going to create two offers in each of the categories created above.
 
 The offers which you are going to present on the website are taken from two different categories: **Best Offer** and **Partner**. In this example, we want to create a specific space for each category.
 
-To create the two offer spaces, apply the same procedure as for anonymous offer spaces. Refer to [Configuring offer spaces for the anonymous environment](../../interaction/using/offers-on-an-inbound-channel.md#configuring-offer-spaces-for-the-anonymous-environment).
+To create the two offer spaces, apply the same procedure as for anonymous offer spaces. Refer to [Configuring offer spaces for the anonymous environment](#configuring-offer-spaces-for-the-anonymous-environment).
 
 1. In the Adobe Campaign tree, go to the environment you have just created and add **Best Offer** and **Partner** offer spaces.
-1. Apply the process detailed in [Configuring offer spaces for the anonymous environment](../../interaction/using/offers-on-an-inbound-channel.md#configuring-offer-spaces-for-the-anonymous-environment).
+1. Apply the process detailed in [Configuring offer spaces for the anonymous environment](#configuring-offer-spaces-for-the-anonymous-environment).
 
    ![](assets/offer_inbound_fallback_example_005.png)
 
@@ -294,7 +294,7 @@ To create the two offer spaces, apply the same procedure as for anonymous offer 
 
    ![](assets/offer_inbound_fallback_example_006.png)
 
-1. Using the drop-down list, select the anonymous web offer space created previously (refer to [Configuring offer spaces for the anonymous environment](../../interaction/using/offers-on-an-inbound-channel.md#configuring-offer-spaces-for-the-anonymous-environment)).
+1. Using the drop-down list, select the anonymous web offer space created previously (refer to [Configuring offer spaces for the anonymous environment](#configuring-offer-spaces-for-the-anonymous-environment)).
 
    ![](assets/offer_inbound_fallback_example_007.png)
 
@@ -394,7 +394,7 @@ To configure these offer spaces on the HTML page of the website, apply the follo
 
    ![](assets/offer_inbound_fallback_example_043.png)
 
-   The person's identification can be based on a browser cookie, a reading parameter in the URL, email, or identifier of the person. If a field of the recipient table other than the primary key is used, it needs to be defined in the advanced parameters of the space (refer to [Specifying the advanced settings of the identified offer spaces](../../interaction/using/offers-on-an-inbound-channel.md#specifying-the-advanced-settings-of-the-identified-offer-spaces)).
+   The person's identification can be based on a browser cookie, a reading parameter in the URL, email, or identifier of the person. If a field of the recipient table other than the primary key is used, it needs to be defined in the advanced parameters of the space (refer to [Specifying the advanced settings of the identified offer spaces](#specifying-the-advanced-settings-of-the-identified-offer-spaces)).
 
 1. Insert the call URL.
 

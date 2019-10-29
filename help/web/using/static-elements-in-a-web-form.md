@@ -18,15 +18,15 @@ snippet: y
 
 # Static elements in a web form{#static-elements-in-a-web-form}
 
-You can include elements with which the user has no interaction in the pages of the form; these are static elements such as images, HTML content, a horizontal bar, or a hypertext link. These elements are created via the first button in the toolbar, by clicking the **[!UICONTROL Add static element]** menu. 
+You can include elements with which the user has no interaction in the pages of the form; these are static elements such as images, HTML content, a horizontal bar, or a hypertext link. These elements are created via the first button in the toolbar, by clicking the **[!UICONTROL Add static element]** menu.
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)
 
 The following types of field are available:
 
 * Value based on previously provided answers (in the context of the form) or on the database.
-* Hypertext link, HTML, horizontal bar. See [Inserting HTML content](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
-* Image saved in the resource library or on a server accessible by users. See [Inserting images](../../web/using/static-elements-in-a-web-form.md#inserting-images).
+* Hypertext link, HTML, horizontal bar. See [Inserting HTML content](#inserting-html-content).
+* Image saved in the resource library or on a server accessible by users. See [Inserting images](#inserting-images).
 * Script executed on client side and/or server side. It must be written in JavaScript and be compatible with most browsers to ensure correct execution on the client side.
 
   >[!NOTE]

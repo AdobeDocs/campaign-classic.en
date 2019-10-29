@@ -38,7 +38,7 @@ Supported versions are detailed in the [Compatibility matrix](https://helpx.adob
 
 * **Salesforce.com**
 
-  Refer to [this section](../../platform/using/crm-connectors.md#example-for-salesforce-com) to learn how to set up the connection with Salesforce.com.
+  Refer to [this section](#example-for-salesforce-com) to learn how to set up the connection with Salesforce.com.
 
   >[!CAUTION]
   >
@@ -54,7 +54,7 @@ Supported versions are detailed in the [Compatibility matrix](https://helpx.adob
 
 * **Oracle On Demand**
 
-  Refer to [this section](../../platform/using/crm-connectors.md#example-for-oracle-on-demand) to learn how to set up the connection with Oracle On Demand.
+  Refer to [this section](#example-for-oracle-on-demand) to learn how to set up the connection with Oracle On Demand.
 
   >[!CAUTION]
   >
@@ -71,7 +71,7 @@ Supported versions are detailed in the [Compatibility matrix](https://helpx.adob
 
 * **MS Dynamics CRM** and **MS Dynamics Online**
 
-  Refer to [this section](../../platform/using/crm-connectors.md#example-for-microsoft-dynamics) to learn how to set up the connection with Microsoft Dynamics.
+  Refer to [this section](#example-for-microsoft-dynamics) to learn how to set up the connection with Microsoft Dynamics.
 
   Learn about Adobe Campaign and Microsoft Dynamics integration use cases in [this video](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
 
@@ -242,10 +242,10 @@ Synchronization between Adobe Campaign and the CRM is carried out via a dedicate
 
 This activity enables you to:
 
-* Import from the CRM (refer to [Importing from the CRM](../../platform/using/crm-connectors.md#importing-from-the-crm)),
-* Export to CRM (refer to [Exporting to the CRM](../../platform/using/crm-connectors.md#exporting-to-the-crm)),
-* Import objects deleted in the CRM (refer to [Importing objects deleted in the CRM](../../platform/using/crm-connectors.md#importing-objects-deleted-in-the-crm)),
-* Delete objects in the CRM (refer to [Deleting objects in the CRM](../../platform/using/crm-connectors.md#deleting-objects-in-the-crm)).
+* Import from the CRM (refer to [Importing from the CRM](#importing-from-the-crm)),
+* Export to CRM (refer to [Exporting to the CRM](#exporting-to-the-crm)),
+* Import objects deleted in the CRM (refer to [Importing objects deleted in the CRM](#importing-objects-deleted-in-the-crm)),
+* Delete objects in the CRM (refer to [Deleting objects in the CRM](#deleting-objects-in-the-crm)).
 
 ![](assets/crm_task_select_op.png)
 
@@ -271,7 +271,7 @@ For an import activity, the **CRM Connector** activity configuration steps are:
 
    ![](assets/crm_task_import_add_field.png)
 
-   If necessary, alter the data format via the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in [Data format](../../platform/using/crm-connectors.md#data-format).
+   If necessary, alter the data format via the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in [Data format](#data-format).
 
    >[!CAUTION]
    >
@@ -287,11 +287,11 @@ For an import activity, the **CRM Connector** activity configuration steps are:
 
    >[!CAUTION]
    >
-   >The limitations linked to data filtering modes are detailed in [Filtering data](../../platform/using/crm-connectors.md#filtering-data).
+   >The limitations linked to data filtering modes are detailed in [Filtering data](#filtering-data).
 
 1. The **[!UICONTROL Use automatic index...]** option enables you to automatically manage incremental object synchronization between the CRM and Adobe Campaign, depending on the date and their last modification.
 
-   For more on this, refer to [Variable management](../../platform/using/crm-connectors.md#variable-management).
+   For more on this, refer to [Variable management](#variable-management).
 
 #### Variable management {#variable-management}
 
@@ -392,7 +392,7 @@ For an export, apply the following configuration to the **CRM Connector** activi
    >
    >For a given field, if no match is defined on the CRM side, the values cannot be updated: they are inserted directly into the CRM.
 
-   If necessary, alter the data format via the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in [Data format](../../platform/using/crm-connectors.md#data-format).
+   If necessary, alter the data format via the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in [Data format](#data-format).
 
    >[!NOTE]
    >
@@ -463,7 +463,7 @@ To delete objects on the CRM side, you need to specify the primary key of the re
 
 ![](assets/crm_delete_in_crm.png)
 
-The **[!UICONTROL Behavior]** tab lets you enable the processing of rejects. This option generates a second output transition for the **[!UICONTROL CRM connector]** activity. For more on this, refer to [Error processing](../../platform/using/crm-connectors.md#error-processing).
+The **[!UICONTROL Behavior]** tab lets you enable the processing of rejects. This option generates a second output transition for the **[!UICONTROL CRM connector]** activity. For more on this, refer to [Error processing](#error-processing).
 
 >[!NOTE]
 >

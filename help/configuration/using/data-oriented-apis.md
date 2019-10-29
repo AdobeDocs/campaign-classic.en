@@ -52,7 +52,7 @@ This lets you isolate the underlying SQL. The query language does not depend on 
 
 For more on this, refer to [Example on the 'ExecuteQuery' method of schema 'xtk:queryDef'](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-).
 
-The **ExecuteQuery** method is presented in [ExecuteQuery (xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-).
+The **ExecuteQuery** method is presented in [ExecuteQuery (xtk:queryDef)](#executequery--xtk-querydef-).
 
 ### Write {#write}
 
@@ -62,7 +62,7 @@ Transactional APIs let you manage reconciliations via the **updateOrInsert** com
 
 The XML structure offers a logical view of the data and lets you sidestep the physical structure of the SQL table.
 
-The Write method is presented in [Write / WriteCollection (xtk:session)](../../configuration/using/data-oriented-apis.md#write---writecollection--xtk-session-).
+The Write method is presented in [Write / WriteCollection (xtk:session)](#write---writecollection--xtk-session-).
 
 ## ExecuteQuery (xtk:queryDef) {#executequery--xtk-querydef-}
 
@@ -103,7 +103,7 @@ The structure of the XML document of the query is described in the "xtk:queryDef
     <node expr="expression1">
     <node expr="expression2">
     ...
-  </ordery>
+  </orderBy>
   <groupBy>
     <node expr="expression1">
     <node expr="expression2">

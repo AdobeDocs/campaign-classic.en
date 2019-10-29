@@ -90,7 +90,7 @@ Select the sorting order of the columns.
 
 ### Step 6 - Filter conditions {#step-6---filter-conditions-}
 
-You can add filter conditions to avoid exporting all the data. The configuration of this filtering is the same as recipient targeting in the delivery wizard. Refer to [this page](../../delivery/using/identifying-target-populations.md).
+You can add filter conditions to avoid exporting all the data. The configuration of this filtering is the same as recipient targeting in the delivery wizard. Refer to [this page](../../delivery/using/steps-defining-the-target-population.md).
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
