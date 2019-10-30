@@ -1,7 +1,7 @@
 ---
-title: Key steps when creating a delivery
-seo-title: Key steps when creating a delivery
-description: Key steps when creating a delivery
+title: About deliveries creation steps
+seo-title: About deliveries creation steps
+description: About deliveries creation steps
 seo-description: 
 page-status-flag: never-activated
 uuid: 8bf70ea4-5f28-4d85-b5ce-0bd3ed3eea55
@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# About delivery creation {#about-delivery-creation}
+# About deliveries creation steps {#about-delivery-creation}
 
 The key steps when creating a delivery are as follows:
 
