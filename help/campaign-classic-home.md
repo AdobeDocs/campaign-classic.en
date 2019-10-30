@@ -85,3 +85,5 @@ Learn how to manage settings and track usage of your Campaign instance
 * [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 * [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html)
+
+* [Technical notes](https://helpx.adobe.com/campaign/kb/article-list.html)

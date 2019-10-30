@@ -483,7 +483,6 @@ index: y
        + [Event collection](message-center/using/event-collection.md)
        + [Routing towards a template](message-center/using/routing-towards-a-template.md)
        + [Delivery execution](message-center/using/delivery-execution.md)
-       + [Event recycling](message-center/using/event-recycling.md)
   + Reports {#reports}
        + [About transactional messaging reports](message-center/using/about-transactional-messaging-reports.md)
        + [History of Message Center events](message-center/using/history-of-message-center-events.md)

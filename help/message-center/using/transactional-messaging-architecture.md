@@ -223,4 +223,3 @@ Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UI
     * Click the **[!UICONTROL Create data synchronization workflow]** button to create the LINE data sync workflow.
 
 1. You can now start creating transactional messages. For more on this, refer to this [page](../../message-center/using/introduction.md).
-
