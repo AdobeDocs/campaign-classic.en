@@ -46,22 +46,3 @@ The **Event history**, under **[!UICONTROL Message Center]** > **[!UICONTROL Eve
 * **Sent**, **Ignored** and **Delivery error**: these delivery statuses are recovered via the **updateEventsStatus** workflow. For more information, you can open the relevant delivery.
 * **Event not covered**: the Message Center routing phase failed. For example, Adobe Campaign did not find the email which acts as a template for the event.
 * **Event expired**: the maximum number of send tries was reached. The event is considered null.
-
-## Troubleshooting {#troubleshooting}
-
-There is an error message when trying to trigger a request from an event sent to Adobe Campaign.
-
-* The IP of the external system contacting Adobe Campaign may not be whitelisted. See [Execution instance](../../message-center/using/creating-a-shared-connection.md#execution-instance).
-* When triggering the event, the operator account needs to use a valid token or a correct password to contact Adobe Campaign. Review the *web.log* file. See [Log files](../../production/using/log-files.md).
-* The call to Adobe Campaign may not be properly formatted.
-* Review the *web.log* file to find details on the error. See [Log files](../../production/using/log-files.md).
-* Before running a test from the external system, test the connection and payload using an API testing tool such as SoapUI.
-
-There is no error message, but the event is not displayed in the Adobe Campaign **Event history** (under **[!UICONTROL Message Center]** > **[!UICONTROL Event history]**).
-
-* Review the *web.log* file. See [Log files](../../production/using/log-files.md).
-* Make sure you are checking the right folder and execution instance.
-
-The event is displayed in the Adobe Campaign **Event history** but was not processed successfully.
-
-* Check the status of the event and the delivery logs of the corresponding event. See [Event statuses](../../message-center/using/about-event-processing.md#event-statuses).
