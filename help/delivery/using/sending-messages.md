@@ -83,6 +83,20 @@ By default, bounced emails are received in the default error box of the platform
 
 You can also define a specific address from this screen in order to investigate the reasons for bounce mails when these could not be automatically qualified by the application. For each of these fields, the 'add personalized fields' icon lets you add personalization parameters.
 
+## Character encoding {#character-encoding}
+
+In the **[!UICONTROL SMTP]** tab of the delivery parameters, you can also set a specific encoding.
+
+The default encoding is UTF-8.
+
+If some of your recipients do not support the UTF-8 standard encoding, you may want a specific encoding for the special characters to be properly displayed to your emails' recipients.
+
+For example, if you want to send an email including Japanese characters, to make sure that all characters will be correctly displayed to your Japanese recipients, you can select this option and choose an encoding that will support the Japanese characters rather than the standard UTF-8.
+
+To do this, select the **[!UICONTROL Force the encoding used for messages]** option in the **[!UICONTROL Character encoding]** section and choose an encoding from the drop-down list that is displayed.
+
+![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
+
 ## Adding SMTP headers {#adding-smtp-headers}
 
 It is possible to add SMTP headers to your deliveries. To do this, use the relevant section of the **[!UICONTROL SMTP]** tab in the delivery.
