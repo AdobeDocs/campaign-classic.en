@@ -1,8 +1,6 @@
 ---
-title: Sending messages
-seo-title: Sending messages
-description: Sending messages
-seo-description: 
+title: Sending an email with Adobe Campaign Classic
+description: Learn about the parameters that are specific to delivering emails in Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 791f7a54-3225-46ca-ad6f-6c32e9c62d75
 contentOwner: sauviat
@@ -16,14 +14,16 @@ internal: n
 snippet: y
 ---
 
-# Sending messages{#sending-messages}
+# Sending an email{#sending-an-email}
 
-To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
+To approve your email and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
 * [Validating the delivery](../../delivery/using/steps-validating-the-delivery.md)
 * [Sending the delivery](../../delivery/using/steps-sending-the-delivery.md)
+
+The sections below detail the parameters that are specific to delivering emails.
 
 ## Archiving emails {#archiving-emails}
 
@@ -85,13 +85,11 @@ You can also define a specific address from this screen in order to investigate 
 
 ## Character encoding {#character-encoding}
 
-In the **[!UICONTROL SMTP]** tab of the delivery parameters, you can also set a specific encoding.
+In the **[!UICONTROL SMTP]** tab of the delivery parameters, the **[!UICONTROL Character encoding]** section allows you to set a specific encoding.
 
-The default encoding is UTF-8.
+The default encoding is UTF-8. If some of your recipients' email providers do not support the UTF-8 standard encoding, you may want to set a specific encoding to properly display the special characters to your emails' recipients.
 
-If some of your recipients do not support the UTF-8 standard encoding, you may want a specific encoding for the special characters to be properly displayed to your emails' recipients.
-
-For example, if you want to send an email including Japanese characters, to make sure that all characters will be correctly displayed to your Japanese recipients, you can select this option and choose an encoding that will support the Japanese characters rather than the standard UTF-8.
+For example, you want to send an email containing Japanese characters. To make sure that all characters will be correctly displayed to your recipients in Japan, you may want to use an encoding that will support the Japanese characters rather than the standard UTF-8.
 
 To do this, select the **[!UICONTROL Force the encoding used for messages]** option in the **[!UICONTROL Character encoding]** section and choose an encoding from the drop-down list that is displayed.
 
