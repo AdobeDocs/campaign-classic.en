@@ -152,7 +152,7 @@ Adobe Campaign enables you to try the new interactive [AMP for Email](https://am
 
 This feature is available through a dedicated package. To use it, this package must be installed. Once done, restart the server for the package to be taken into account.
 
-For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md). Contact your account executive.
+For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/creating-a-shared-connection.md#execution-instance). Contact your account executive.
 
 ### About AMP for Email {#about-amp-for-email}
 
