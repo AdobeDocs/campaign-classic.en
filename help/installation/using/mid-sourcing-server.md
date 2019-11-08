@@ -96,8 +96,8 @@ From the client console, locate the **Email routing using mid-sourcing** mid-sou
 ## Multiplexing the mid-sourcing server {#multiplexing-the-mid-sourcing-server}
 
 >[!CAUTION]
-   >
-   >Multiplexing is not supported by Adobe for fully hosted and hybrid clients.
+>
+>Multiplexing is not supported by Adobe for fully hosted and hybrid clients.
 
 It is possible for a mid-sourcing instance to be shared by multiple submitting instances. Each of these instances needs to be associated with an operator in the mid-sourcing database. To create a second account on the mid-sourcing server:
 
