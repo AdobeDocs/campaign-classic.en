@@ -26,7 +26,7 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 A warning has been added to the [Multiplexing the mid-sourcing server](../../installation/using/mid-sourcing-server.md#multiplexing-the-mid-sourcing-server) and [Supporting several control instances](../../message-center/using/transactional-messaging-architecture.md#supporting-several-control-instances) sections mentioning that these deployments are not supported for fully hosted and hybrid clients.
 
-A new section has been added to describe how to force the character encoding used when sending an email. [Read more](../…/delivery/using/sending-messages.md#character-encoding)
+A new section has been added to describe how to force the character encoding used when sending an email. [Read more](../../delivery/using/sending-messages.md#character-encoding)
 
 ## October 2019 {#october-2019}
 
