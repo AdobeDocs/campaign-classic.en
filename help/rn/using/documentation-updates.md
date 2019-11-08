@@ -1,8 +1,6 @@
 ---
-title: Documentation Updates
-seo-title: Documentation Updates
-description: Documentation Updates
-seo-description:
+title: Adobe Campaign Classic Documentation Updates
+description: This page lists all the new features and documentation updates for each release of Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -23,6 +21,12 @@ Learn about all the latest updates for Adobe Campaign Classic documentation.
 This page lists all the new features and documentation updates for each release of Adobe Campaign Classic.
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
+
+## November 2019 {#november-2019}
+
+A warning has been added to the [Multiplexing the mid-sourcing server](../../installation/using/mid-sourcing-server.md#multiplexing-the-mid-sourcing-server) and [Supporting several control instances](../../message-center/using/transactional-messaging-architecture.md#supporting-several-control-instances) sections mentioning that these deployments are not supported for fully hosted and hybrid clients.
+
+A new section has been added to describe how to force the character encoding used when sending an email. [Read more](../../delivery/using/sending-messages.md#character-encoding)
 
 ## October 2019 {#october-2019}
 
