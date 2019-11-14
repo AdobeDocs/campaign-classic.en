@@ -843,6 +843,10 @@ You first need to create a mobile application in Adobe Campaign and define the a
     * imageURL
     * webpageURL
 
+    >[!NOTE]
+    >
+    >Applications variables detailed here also have to be added in the SDK code source.
+
 1. Click **[!UICONTROL Finish]** and save the service.
 
    ![](assets/nmac_rich_android_config.png)
