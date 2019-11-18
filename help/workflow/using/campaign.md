@@ -20,6 +20,10 @@ snippet: y
 
 The workflows detailed below are installed with the **Campaign** module by default. For more on this module, refer to this [section](../../campaign/using/designing-marketing-campaigns.md).
 
+>[!CAUTION]
+>
+>These workflows MUST be started in order for the campaign processes to be executed at a campaign level.
+
 <table> 
  <tbody> 
   <tr> 
@@ -35,12 +39,12 @@ The workflows detailed below are installed with the **Campaign** module by defau
   <tr> 
    <td> <span class="uicontrol">Stock: Orders and alerts</span> <br /> </td> 
    <td> <span class="uicontrol">stockMgt</span> <br /> </td> 
-   <td> This workflow starts calculating stocks for control lines and alert thresholds.<br /> </td> 
+   <td> This workflow launches stock calculation on the order lines and manages warning alerts thresholds.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Jobs on deliveries in campaigns</span> <br /> </td> 
    <td> <span class="uicontrol">deliveryMgt</span> <br /> </td> 
-   <td> This workflow triggers the approved deliveries and starts post-processing the service provider for an external delivery.<br /> </td> 
+   <td> This workflow triggers the approved deliveries and starts post-processing the service provider for an external delivery. It also sends approval notifications and reminders.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Campaign jobs</span> <br /> </td> 

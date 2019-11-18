@@ -34,11 +34,11 @@ The FDA option allows you to collect data from the SQL sources and automatically
 
 In order to use this functionality, you have to:
 
-1. Have an external database that is compatible with the Adobe Campaign FDA module. The list of database systems and compatible versions is detailed in the [compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html). Users must also have the [necessary permissions](../../platform/using/accessing-an-external-database.md#remote-database-access-rights) in Adobe Campaign and on the external database.
-1. [Install the drivers](../../platform/using/accessing-an-external-database.md#specific-configurations-by-database-type) that correspond to your database on the Adobe Campaign server.
-1. [Create and configure an external account](../../platform/using/accessing-an-external-database.md#connecting-to-the-database) that allows you to establish the connection between Adobe Campaign and the external database. For more information on available external accounts, refer to this [page](../../platform/using/external-accounts.md).
-1. [Create the read schema](../../platform/using/accessing-an-external-database.md#creating-the-data-schema) of the external database in Adobe Campaign. This allows you to recognize the data structure of the external database.
-1. Eventually, [Create a new target mapping](../../platform/using/accessing-an-external-database.md#defining-data-mapping) from the previously created schema, in the case where the recipients of your deliveries come from the external database. This presents certain limitations, particularly in regard to personalizing the deliveries.
+1. Have an external database that is compatible with the Adobe Campaign FDA module. The list of database systems and compatible versions is detailed in the [compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html). Users must also have the [necessary permissions](#remote-database-access-rights) in Adobe Campaign and on the external database.
+1. [Install the drivers](#specific-configurations-by-database-type) that correspond to your database on the Adobe Campaign server.
+1. [Create and configure an external account](#connecting-to-the-database) that allows you to establish the connection between Adobe Campaign and the external database. For more information on available external accounts, refer to this [page](../../platform/using/external-accounts.md).
+1. [Create the read schema](#creating-the-data-schema) of the external database in Adobe Campaign. This allows you to recognize the data structure of the external database.
+1. Eventually, [Create a new target mapping](#defining-data-mapping) from the previously created schema, in the case where the recipients of your deliveries come from the external database. This presents certain limitations, particularly in regard to personalizing the deliveries.
 
 Once the data read schema is created, data can be processed in Adobe Campaign workflows. For more on this, refer to [this section](../../workflow/using/executing-a-workflow.md#architecture).
 
@@ -89,7 +89,7 @@ Connecting to an Hadoop external database in FDA requires the following configur
    User/Password: admin/<your password here>
    ```
 
-1. Create the Hadoop external account, as detailed in the [Creating a shared connection](../../platform/using/accessing-an-external-database.md#creating-a-shared-connection) section.
+1. Create the Hadoop external account, as detailed in the [Creating a shared connection](#creating-a-shared-connection) section.
 
 #### For Linux {#for-linux}
 
@@ -177,7 +177,7 @@ Connecting to an Hadoop external database in FDA requires the following configur
    isql vorac -v
    ```
 
-1. Create the Hadoop external account, as detailed in the [Creating a shared connection](../../platform/using/accessing-an-external-database.md#creating-a-shared-connection) section.
+1. Create the Hadoop external account, as detailed in the [Creating a shared connection](#creating-a-shared-connection) section.
 
 ### Configure access to MySQL {#configure-access-to-mysql}
 
@@ -230,7 +230,7 @@ Connecting to a Netezza external database in FDA requires additional configurati
     * **ODBCINI**: location of the odbc.ini file (for example /etc/odbc.ini).
     * **NZ_ODBC_INI_PATH**: location of the odbc.ini file. Netezza also requires this second variable for using the odbc.ini file.
 
-1. Create the Netezza external account, as detailed in the [Creating a shared connection](../../platform/using/accessing-an-external-database.md#creating-a-shared-connection) section.
+1. Create the Netezza external account, as detailed in the [Creating a shared connection](#creating-a-shared-connection) section.
 
 >[!NOTE]
 >
@@ -327,7 +327,7 @@ Connecting to a Sybase IQ external database in FDA requires additional configura
     * If you are using a customer.sh file to declare your path: add the path /opt/sybase/IQ-16_0/lib64 for the LD_LIBRARY_PATH variable.
     * Otherwise, use a Unix command.
 
-1. Create a new FDA external account, as described in the [Creating a shared connection](../../platform/using/accessing-an-external-database.md#creating-a-shared-connection) section. For Sybase IQ, the server name corresponds to the ODBC connection (`<server_alias>`) defined in step 5. It is not necessarily the name of the server itself.
+1. Create a new FDA external account, as described in the [Creating a shared connection](#creating-a-shared-connection) section. For Sybase IQ, the server name corresponds to the ODBC connection (`<server_alias>`) defined in step 5. It is not necessarily the name of the server itself.
 
 >[!NOTE]
 >
@@ -414,7 +414,7 @@ Connecting to an SAP HANA external database in FDA requires certain additional c
     * **LD_LIBRARY_PATH**: It should include the link to your SAP Hana client (/usr/sap/hdbclient/ [libodbcHDB.so](http://libodbchdb.so/) by default).
     * **ODBCINI**: location of the odbc.ini file (for example /etc/odbc.ini).
 
-1. Create the SAP Hana external account, as detailed in the [Creating a shared connection](../../platform/using/accessing-an-external-database.md#creating-a-shared-connection) section.
+1. Create the SAP Hana external account, as detailed in the [Creating a shared connection](#creating-a-shared-connection) section.
 
 ## Remote database access rights {#remote-database-access-rights}
 
@@ -456,7 +456,7 @@ To enable a connection to the external database, you must indicate the connectio
 
 >[!CAUTION]
 >
->The Adobe Campaign user needs specific rights for the external database and the Adobe Campaign application server to process data from an external database. For more on this, refer to the [Remote database access rights](../../platform/using/accessing-an-external-database.md#remote-database-access-rights) section.   
+>The Adobe Campaign user needs specific rights for the external database and the Adobe Campaign application server to process data from an external database. For more on this, refer to the [Remote database access rights](#remote-database-access-rights) section.   
 >
 >To avoid any malfunction, operators who access remote shared data must be working from separate spaces.
 
@@ -468,7 +468,7 @@ To enable a connection to a shared external database, as long as this connection
 1. Click the **[!UICONTROL New]** button and select the **[!UICONTROL External database]** type.
 1. Define the **[!UICONTROL Connection]** parameters of the external database.
 
-   For connections to an **ODBC** type database the **[!UICONTROL Server]** field must contain the name of the ODBC data source and not the server name. Moreover, certain additional configurations may be necessary depending on the databases used. Refer to the [Specific configurations by database type](../../platform/using/accessing-an-external-database.md#specific-configurations-by-database-type) section.
+   For connections to an **ODBC** type database the **[!UICONTROL Server]** field must contain the name of the ODBC data source and not the server name. Moreover, certain additional configurations may be necessary depending on the databases used. Refer to the [Specific configurations by database type](#specific-configurations-by-database-type) section.
 
 1. Once the parameters are entered, click the **[!UICONTROL Test the connection]** button to approve them.
 
@@ -495,7 +495,7 @@ You can directly define a connection to an external database from workflow activ
 
 >[!CAUTION]
 >
->This type of configuration is not recommended but may be used periodically to collect data. Nevertheless, you should create an external account, as presented in the [Creating a shared connection](../../platform/using/accessing-an-external-database.md#creating-a-shared-connection) section.
+>This type of configuration is not recommended but may be used periodically to collect data. Nevertheless, you should create an external account, as presented in the [Creating a shared connection](#creating-a-shared-connection) section.
 
 For example, in the query activity, the steps for creating a periodic connection to an external database are as follows:
 

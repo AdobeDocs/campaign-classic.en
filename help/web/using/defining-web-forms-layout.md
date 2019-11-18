@@ -32,7 +32,7 @@ For example:
 
 ![](assets/s_ncs_admin_survey_containers_std_arbo.png)
 
-The position of labels is applied to elements placed below the container in the hierarchy. It can be overloaded for each element if necessary. Add or remove columns to change the layout. See [Positioning the fields on the page](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page).
+The position of labels is applied to elements placed below the container in the hierarchy. It can be overloaded for each element if necessary. Add or remove columns to change the layout. See [Positioning the fields on the page](#positioning-the-fields-on-the-page).
 
 In the above example, the rendering will be as follows:
 

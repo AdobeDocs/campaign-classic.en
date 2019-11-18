@@ -162,7 +162,7 @@ Marketing resources can be associated with campaigns, provided that this feature
 
 >[!NOTE]
 >
->For details on how to create and configure campaign templates, refer to [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
+>For details on how to create and configure campaign templates, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 Click the **[!UICONTROL Documents > Resources]** tab in the campaign dashboard, then click **[!UICONTROL Add]** to select the resource concerned.
 
@@ -186,7 +186,7 @@ Marketing resources can be associated with deliveries via delivery outlines.
 
 >[!NOTE]
 >
->For more information on delivery outlines, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+>For more information on delivery outlines, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 ## Stock management {#stock-management}
 

@@ -1,8 +1,6 @@
 ---
-title: Mid-sourcing server
-seo-title: Mid-sourcing server
-description: Mid-sourcing server
-seo-description: 
+title: Installing a mid-sourcing server in Adobe Campaign Classic
+description: This section details the installation and configuration of a mid-sourcing server in Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 9b891a64-d75e-44d2-8de2-17334e1b8dca
 contentOwner: sauviat
@@ -96,6 +94,10 @@ From the client console, locate the **Email routing using mid-sourcing** mid-sou
    The **Mid-sourcing platform** option creates the default folders for storing the deliveries submitted and the default operator performing the submissions.
 
 ## Multiplexing the mid-sourcing server {#multiplexing-the-mid-sourcing-server}
+
+>[!CAUTION]
+>
+>Multiplexing is not supported by Adobe for fully hosted and hybrid clients.
 
 It is possible for a mid-sourcing instance to be shared by multiple submitting instances. Each of these instances needs to be associated with an operator in the mid-sourcing database. To create a second account on the mid-sourcing server:
 

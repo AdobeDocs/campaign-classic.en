@@ -33,7 +33,7 @@ To use the random field substitution you must have:
 * a delivery with one or several personalization fields,
 * seed addresses whose **data schema** is modified according to the personalization fields used in the delivery.
 
-## Step 1 - Creating a delivery {#step-1---creating-a-delivery}
+## Creating a delivery {#step-1---creating-a-delivery}
 
 The steps for creating a delivery are detailed in the [Creating an email delivery](../../delivery/using/creating-an-email-delivery.md) section.
 
@@ -64,7 +64,7 @@ For this data schema modification to be viewable in the seed addresses **Input f
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Configure your delivery list and your seed addresses. Refer to [Identifying target populations](../../delivery/using/identifying-target-populations.md).
+1. Configure your delivery list and your seed addresses. Refer to [Identifying target populations](../../delivery/using/steps-defining-the-target-population.md).
 
    In this example, the user selects users whose **favorite literary genre** is Sci-Fi as the main target population.
 

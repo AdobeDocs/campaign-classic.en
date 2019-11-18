@@ -33,7 +33,7 @@ By default, Interaction comes with a **[!UICONTROL Design]** environment and a *
 
 >[!NOTE]
 >
->To target another table (visitor table for anonymous offers or a specific recipient table), you need to use the target mapping wizard to create the environments. For more on this, refer to [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+>To target another table (visitor table for anonymous offers or a specific recipient table), you need to use the target mapping wizard to create the environments. For more on this, refer to [Creating an offer environment](#creating-an-offer-environment).
 
 ![](assets/offer_environments_overview_002.png)
 

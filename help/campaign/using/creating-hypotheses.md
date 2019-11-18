@@ -109,7 +109,7 @@ You can directly reference a hypothesis at campaign level. In this case, the hyp
 
 The hypothesis results can be viewed in the **[!UICONTROL General]** and **[!UICONTROL Reactions]** tabs of the hypothesis (refer to [Hypothesis tracking](../../campaign/using/hypothesis-tracking.md))
 
-For more information, you can also refer to [Example: creating a hypothesis linked to a delivery](../../campaign/using/creating-hypotheses.md#example--creating-a-hypothesis-linked-to-a-delivery).
+For more information, you can also refer to [Example: creating a hypothesis linked to a delivery](#example--creating-a-hypothesis-linked-to-a-delivery).
 
 ## Creating a hypothesis on an offer {#creating-a-hypothesis-on-an-offer}
 
@@ -153,7 +153,7 @@ In this example, we want to create a hypothesis linked to a delivery. This hypot
 
    >[!NOTE]
    >
-   >For more information, refer to [Defining a control group](../../campaign/using/setting-up-marketing-campaigns.md#defining-a-control-group).
+   >For more information, refer to [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
 1. Open the **[!UICONTROL Direct mail delivery]** and click the **[!UICONTROL Delivery measurement]** icon, then click **[!UICONTROL Add]**.
 
@@ -175,7 +175,7 @@ In this example, we want to create a hypothesis linked to a delivery. This hypot
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. Launch your targeting workflow and run the necessary checks until the campaign is finished (for more on this, refer to [Starting a delivery](../../campaign/using/setting-up-marketing-campaigns.md#starting-a-delivery)).
+1. Launch your targeting workflow and run the necessary checks until the campaign is finished (for more on this, refer to [Starting a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)).
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

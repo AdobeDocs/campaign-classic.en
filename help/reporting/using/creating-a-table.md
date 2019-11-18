@@ -42,7 +42,7 @@ It lets you list the campaigns (**[!UICONTROL Label (Campaign)]**, the list of d
 
 ### Implementation steps {#implementation-steps}
 
-A full implementation example is provided here: [Use case: Create a report with a group list](../../reporting/using/creating-a-table.md#use-case--create-a-report-with-a-group-list).
+A full implementation example is provided here: [Use case: Create a report with a group list](#use-case--create-a-report-with-a-group-list).
 
 Please note the following steps to create a 'List with group' type table:
 
@@ -194,7 +194,7 @@ In the example below, clicking the value in the cell lets you display the second
 
 ![](assets/s_advuser_ergo_listgroup_015.png)
 
-The **Extra** tab lets you link a visual to your data, such as a colored mark or a value bar. The colored mark is used when the table is shown as a legend in a chart. For more on this, refer to the implementation example: [Step 5 - Create the second page](../../reporting/using/creating-a-table.md#step-5---create-the-second-page)
+The **Extra** tab lets you link a visual to your data, such as a colored mark or a value bar. The colored mark is used when the table is shown as a legend in a chart. For more on this, refer to the implementation example: [Step 5 - Create the second page](#step-5---create-the-second-page)
 
 ![](assets/s_advuser_ergo_listgroup_016.png)
 

@@ -18,13 +18,25 @@ snippet: y
 
 # Release 19.1{#release-19-1}
 
+## Release 19.1.6 - Build 9035{#release-19-1-6-build-9035}
+
+3 October 2019
+
+**Improvements**
+
+* Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
+* Fixed an index issue which could cause performance issues when sending transactional messages.
+* Fixed a performance isssue when sending messages. (NEO-17558)
+* Fixed an issue which could lead to certain messages not being processed by the Mid-Sourcing server. (NEO-12395)
+* Fixed an issue which prevented the full use of the SQL Data Management activity (the "SQL Data Management" named right was missing).
+
 ## Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
 13 August 2019
 
 >[!CAUTION]
 >
->This build has been recalled. A new build will be available soon.
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
 
 **Improvements**
 

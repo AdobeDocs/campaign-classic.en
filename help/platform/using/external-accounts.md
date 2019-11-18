@@ -22,21 +22,21 @@ An external account is a configuration that allows you to configure and test the
 
 You can set up the following types of external accounts:
 
-* [Routing external account](../../platform/using/external-accounts.md#routing-external-account)
-* [FTP external account](../../platform/using/external-accounts.md#ftp-external-account)
-* [External database external account](../../platform/using/external-accounts.md#external-database-external-account)
-* [Web Analytics external account](../../platform/using/external-accounts.md#web-analytics-external-account)
-* [Facebook connect external account](../../platform/using/external-accounts.md#facebook-connect-external-account)
-* [Execution instance external account](../../platform/using/external-accounts.md#execution-instance-external-account)
-* [Adobe Experience Cloud external account](../../platform/using/external-accounts.md#adobe-experience-cloud-external-account)
-* [SFTP external account](../../platform/using/external-accounts.md#sftp-external-account)
-* [Adobe Experience Manager external account](../../platform/using/external-accounts.md#adobe-experience-manager-external-account)
-* [Amazon Simple Storage Service (S3) external account](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account)
-* [Azure external account](../../platform/using/external-accounts.md#azure-external-account)
-* [Hadoop external account](../../platform/using/external-accounts.md#hadoop-external-account)
-* [Microsoft Dynamics CRM external account](../../platform/using/external-accounts.md#microsoft-dynamics-crm-external-account)
-* [Oracle on demand external account](../../platform/using/external-accounts.md#oracle-on-demand-external-account)
-* [Salesforce CRM external account](../../platform/using/external-accounts.md#salesforce-crm-external-account)
+* [Routing external account](#routing-external-account)
+* [FTP external account](#ftp-external-account)
+* [External database external account](#external-database-external-account)
+* [Web Analytics external account](#web-analytics-external-account)
+* [Facebook connect external account](#facebook-connect-external-account)
+* [Execution instance external account](#execution-instance-external-account)
+* [Adobe Experience Cloud external account](#adobe-experience-cloud-external-account)
+* [SFTP external account](#sftp-external-account)
+* [Adobe Experience Manager external account](#adobe-experience-manager-external-account)
+* [Amazon Simple Storage Service (S3) external account](#amazon-simple-storage-service--s3--external-account)
+* [Azure external account](#azure-external-account)
+* [Hadoop external account](#hadoop-external-account)
+* [Microsoft Dynamics CRM external account](#microsoft-dynamics-crm-external-account)
+* [Oracle on demand external account](#oracle-on-demand-external-account)
+* [Salesforce CRM external account](#salesforce-crm-external-account)
 
 ## Creating an external account {#creating-an-external-account}
 
