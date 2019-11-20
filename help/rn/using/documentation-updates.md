@@ -28,6 +28,8 @@ A warning has been added to the [Multiplexing the mid-sourcing server](../../ins
 
 A new section has been added to describe how to force the character encoding used when sending an email. [Read more](../../delivery/using/sending-messages.md#character-encoding)
 
+The Access management section has been updated with the **Privacy Data right**. [Read more](../../platform/using/access-management.md#named-rights)
+
 ## October 2019 {#october-2019}
 
 The list of error messages for Campaign Standard and Campaign Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)

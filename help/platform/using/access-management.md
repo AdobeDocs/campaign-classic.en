@@ -296,7 +296,7 @@ These rights are as follows:
 * LOCAL: Right for local management (Distributed Marketing).
 * MERGE: Right to merge records.
 * PREPARE DELIVERIES: Right to create, edit and start the delivery analysis.
-* PRIVACY DATA RIGHT: Right to collect and delete privacy date. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
+* PRIVACY DATA RIGHT: Right to collect and delete privacy data. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
 * PROGRAM EXECUTION: Right to execute external programs.
 * RECIPIENT IMPORT: Right to import recipients.
 * SQL SCRIPT EXECUTION: Right to execute SQL scripts on the database.
