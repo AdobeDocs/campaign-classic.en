@@ -284,25 +284,26 @@ By default, Adobe Campaign proposes a set of named rights that let you define th
 
 These rights are as follows:
 
-* FILES ACCESS: Right to read and write access for files via a script.
 * ADMINISTRATION: Generic administration right applied to all folders on the console.
 * APPROVAL ADMINISTRATION: Right to assign reviewers.
 * CENTRAL: Right for central management (Distributed Marketing).
-* START DELIVERIES: Right to approve previously analyzed deliveries.
+* DELETE FOLDER: Right to delete folders.
 * EDIT FOLDERS: Right to alter folder properties: name, label, associated image, etc.
-* PROGRAM EXECUTION: Right to execute external programs.
-* SQL SCRIPT EXECUTION: Right to execute SQL scripts on the database.
 * EXPORT: Right to export data.
-* MERGE: Right to merge records.
-* RECIPIENT IMPORT: Right to import recipients.
+* FILES ACCESS: Right to read and write access for files via a script.
 * IMPORT: Right for generic data import.
 * INSERT FOLDERS: Right to insert folders.
 * LOCAL: Right for local management (Distributed Marketing).
+* MERGE: Right to merge records.
 * PREPARE DELIVERIES: Right to create, edit and start the delivery analysis.
-* DELETE FOLDER: Right to delete folders.
+* PRIVACY DATA RIGHT: Right to collect and delete privacy date. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
+* PROGRAM EXECUTION: Right to execute external programs.
+* RECIPIENT IMPORT: Right to import recipients.
+* SQL SCRIPT EXECUTION: Right to execute SQL scripts on the database.
+* START DELIVERIES: Right to approve previously analyzed deliveries.
+* USE SQL DATA MANAGEMENT ACTIVITY: Right to write your own SQL scripts using the SQL Data Management activity, in order to create and populate work tables (see [this section](../../workflow/using/sql-data-management.md)).
 * WORKFLOW: Right to use workflows.
 * WEBAPP: Right to use web applications.
-* USE SQL DATA MANAGEMENT ACTIVITY: Right to write your own SQL scripts using the SQL Data Management activity, in order to create and populate work tables (see [this section](../../workflow/using/sql-data-management.md)).
 
 >[!NOTE]
 >
