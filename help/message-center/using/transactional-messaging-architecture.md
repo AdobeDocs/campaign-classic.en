@@ -1,8 +1,6 @@
 ---
-title: Transactional messaging architecture
-seo-title: Transactional messaging architecture
-description: Transactional messaging architecture
-seo-description: 
+title: Adobe Campaign Classic transactional messaging architecture
+description: This section describes the Adobe Campaign Classic transactional messaging architecture.
 page-status-flag: never-activated
 uuid: a8fe7a37-6df7-49f4-838f-97a72e4a38f3
 contentOwner: sauviat
@@ -32,6 +30,10 @@ Execution instances receive events, link them to transactional message templates
 ![](assets/messagecenter_diagram.png)
 
 ## Supporting several control instances {#supporting-several-control-instances}
+
+>[!CAUTION]
+>
+>Sharing an execution cluster with several control instances is only supported for on-premise environments.
 
 It is possible to share an execution cluster among several control instances. For example, if you manage several specialized stores, you can configure one control instance per brand and link them all to the same execution cluster.
 
@@ -223,4 +225,3 @@ Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UI
     * Click the **[!UICONTROL Create data synchronization workflow]** button to create the LINE data sync workflow.
 
 1. You can now start creating transactional messages. For more on this, refer to this [page](../../message-center/using/introduction.md).
-
