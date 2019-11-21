@@ -141,7 +141,6 @@ To install Adobe Campaign 32 bit on a Debian 32 bit operating system, apply the 
    apt-get install -f
    ```
 
-
 ### In Debian 64 bits {#in-debian-64-bits}
 
 To install Adobe Campaign 64 bit on a Debian 64 bit operating system, apply the following steps:
@@ -190,7 +189,7 @@ When installing Adobe Campaign on a Debian 7 operating system, consider the foll
 
   ```
   aptitude install openjdk-7-jdk (Debian 9)
-  ``
+  ```
 
 ## Personalizing parameters {#personalizing-parameters}
 
