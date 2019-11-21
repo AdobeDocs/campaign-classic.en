@@ -49,16 +49,20 @@ snippet: y
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-13 August 2019
+**November 20th 2019**: new build (9032-3468c7bb5) which includes the following fixes:
 
-**Improvements**
-  
-* Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
+* Fixed a login issue via IMS authentication. (NEO-17312)
+* Fixed an issue when displaying cumulative reports on multiple deliveries. (NEO-18165)
+* Fixed an issue that could block or make the web server crash.
 
-**September 19th 2019**: this build has been recalled and replaced with 9032-cee805c93 which includes the following fixes:
+**September 19th 2019**: new build (9032-cee805c93) which includes the following fixes:
 
 * Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
 * Fixed an index issue which could cause performance issues when sending transactional messages.
+
+**August 13th 2019**: initial 19.1.4 build which includes the following fix:
+  
+* Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
 
 ## Release 19.1.3 - Build 9031{#release-19-1-3-build-9031}
 
