@@ -26,7 +26,7 @@ In a targeting workflow (outbound channel), you can use the target data during a
 
 ## Additional data configuration {#additional-data-configuration}
 
-You must extend the **nms:interaction** schema linked to the environment and declare the list of additional fields that will be used during a call to the Interaction engine. When creating the eligibility rule or personalizing an offer, these fields will become accessible from the **Interaction** node (refer to [Using additional data](../../interaction/using/additional-data.md#using-additional-data)).
+You must extend the **nms:interaction** schema linked to the environment and declare the list of additional fields that will be used during a call to the Interaction engine. When creating the eligibility rule or personalizing an offer, these fields will become accessible from the **Interaction** node (refer to [Using additional data](#using-additional-data)).
 
 For the inbound channel, you must add the call data fields into the **Interaction** node.
 
@@ -67,7 +67,7 @@ If you would like to store this data in the proposition table, you must also ext
 
 ### Input channel (Web page) {#input-channel--web-page-}
 
-To transfer additional data when calling the engine, you have to add the **interactionGlobalCtx** variable into the web page's JavaScript code. Insert the **Interaction** node containing the call data into this variable. You must respect the same xml structure that is in the **nms:interaction** schema. Refer to: [Additional data configuration](../../interaction/using/additional-data.md#additional-data-configuration).
+To transfer additional data when calling the engine, you have to add the **interactionGlobalCtx** variable into the web page's JavaScript code. Insert the **Interaction** node containing the call data into this variable. You must respect the same xml structure that is in the **nms:interaction** schema. Refer to: [Additional data configuration](#additional-data-configuration).
 
 ```
 interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
@@ -75,7 +75,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 ### Output channel {#output-channel}
 
-You must create a targeting workflow loading additional data in the work table by respecting the same xml structure and same internal names as in the **nms:interaction** schema. Refer to: [Additional data configuration](../../interaction/using/additional-data.md#additional-data-configuration).
+You must create a targeting workflow loading additional data in the work table by respecting the same xml structure and same internal names as in the **nms:interaction** schema. Refer to: [Additional data configuration](#additional-data-configuration).
 
 ## Using additional data {#using-additional-data}
 
@@ -101,7 +101,7 @@ You can also use this additional data when personalizing an offer. For example, 
 >
 >You must limit the personalization on the channels for which the data is defined. In our example, we are limiting the rule on the inbound web channel.
 
-If you have personalized an offer using additional data, this data will not appear in the preview by default because it is not available in the database. In the environment's **[!UICONTROL Example of call data]** tab, you must add value samples to use in the preview. Please respect the same xml structure that is in the **nms:interaction** schema extension. For more on this, refer to [Additional data configuration](../../interaction/using/additional-data.md#additional-data-configuration).
+If you have personalized an offer using additional data, this data will not appear in the preview by default because it is not available in the database. In the environment's **[!UICONTROL Example of call data]** tab, you must add value samples to use in the preview. Please respect the same xml structure that is in the **nms:interaction** schema extension. For more on this, refer to [Additional data configuration](#additional-data-configuration).
 
 ![](assets/ita_calldata_preview.png)
 
@@ -115,7 +115,7 @@ During a call to the engine, you can store additional data in the proposition ta
 
 >[!NOTE]
 >
->You must have extended the **nms:propositionRcp** schema and declared the fields that will contain the data to be stored. For more on this: [Additional data configuration](../../interaction/using/additional-data.md#additional-data-configuration).
+>You must have extended the **nms:propositionRcp** schema and declared the fields that will contain the data to be stored. For more on this: [Additional data configuration](#additional-data-configuration).
 
 In the offer space, go to the **[!UICONTROL Storage]** tab and click the **[!UICONTROL Add]** button.
 

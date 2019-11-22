@@ -20,7 +20,7 @@ snippet: y
 
 ## About standard Packages {#campaign-standard-packages}
 
-Packages are a set of features that can be installed according to your needs. They will allow you to add more options in your tenant.
+Packages are a set of features that can be installed according to your needs. They will allow you to add more options to your instance.
 
 >[!CAUTION]
 >
@@ -256,12 +256,6 @@ The packages are now installed.
    <td> This configuration is an optimal intermediate solution between a hosted (ASP) configuration and internalization. The outward-facing execution components are carried out on a "mid-sourcing" server hosted at Adobe Campaign.<br /> </td> 
    <td> Yes </td> 
    <td> <a href="../../installation/using/mid-sourcing-server.md">Learn More</a> </td> 
-  </tr> 
-  <tr> 
-   <td> AMP support (Beta)<br /> </td> 
-   <td> Allows you to use the AMP for Email format inside messages to enhance the email experience with rich and actionable content.<br /> </td> 
-   <td> Yes </td> 
-   <td> <a href="../../delivery/using/defining-the-email-content.md#amp-for-email-format">Learn More</a> </td> 
   </tr> 
   <tr> 
    <td> ACS Connector<br /> </td> 

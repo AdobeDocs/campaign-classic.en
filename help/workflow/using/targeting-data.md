@@ -26,7 +26,7 @@ A **[!UICONTROL Query]** activity lets you select basic data to build the target
 
 You can also use the following activities to query and refine data from the database: [Incremental query](../../workflow/using/incremental-query.md), [Read list](../../workflow/using/read-list.md).
 
-It is possible to collect additional data to be forwarded and processed throughout the workflow's life cycle. For more on this, refer to [Adding data](../../workflow/using/query.md#adding-data) and [Editing additional data](../../workflow/using/targeting-data.md#editing-additional-data).
+It is possible to collect additional data to be forwarded and processed throughout the workflow's life cycle. For more on this, refer to [Adding data](../../workflow/using/query.md#adding-data) and [Editing additional data](#editing-additional-data).
 
 ### Editing additional data {#editing-additional-data}
 
@@ -78,7 +78,7 @@ The **[!UICONTROL Split]** activity lets you create subsets on criteria defined 
 
 You can split a target into several subsets using only additional data as filtering conditions, or in addition to target data. You can also use external data if you have purchased the **Federated Data Access** option.
 
-For more on this, refer to [Creating subsets using the Split activity](../../workflow/using/targeting-data.md#creating-subsets-using-the-split-activity).
+For more on this, refer to [Creating subsets using the Split activity](#creating-subsets-using-the-split-activity).
 
 ## Segmenting data {#segmenting-data}
 
@@ -252,7 +252,7 @@ In order to implement these operations, Adobe Campaign offers:
 
 In addition to the targeting dimension, the filtering dimension lets you specify the nature of the collected data. Refer to [Targeting and filtering dimensions](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions).
 
-The identified and collected data can be enriched, aggregated and manipulated to optimize target construction. To do this, in addition to the data manipulation activities detailed in the [Segmenting data](../../workflow/using/targeting-data.md#segmenting-data) section, use the following:
+The identified and collected data can be enriched, aggregated and manipulated to optimize target construction. To do this, in addition to the data manipulation activities detailed in the [Segmenting data](#segmenting-data) section, use the following:
 
 * The **[!UICONTROL Enrichment]** activity lets you momentarily add columns to a schema, as well as add information to certain elements. It is detailed in the [Enrichment](../../workflow/using/enrichment.md) section of the repository of activities.
 * The **[!UICONTROL Edit schema]** activity lets you modify the structure of a schema. It is detailed in the [Edit schema](../../workflow/using/edit-schema.md) section of the repository of activities.

@@ -34,6 +34,10 @@ snippet: y
 
    Event types need to be created beforehand in the console. For more on this, refer to [Creating event types](../../message-center/using/creating-event-types.md).
 
+   >[!NOTE]
+   >
+   >An event type should never be linked to more than one template.
+
 1. Enter a nature and a description, then click **[!UICONTROL Continue]** to create the message body (refer to [Creating message content](../../message-center/using/creating-message-content.md)).
 
    ![](assets/messagecenter_create_model_004.png)

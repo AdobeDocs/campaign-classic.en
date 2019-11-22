@@ -48,7 +48,7 @@ To configure the publication template, populate the name of the template (i.e. t
 >
 >The label will appear whenever content is created based on this publication template.
 
-The **Check status to validate content generation** option forces a check on the "Validated" status of the content instances to authorize file generation. For more on this, refer to [Publication](../../delivery/using/publication-templates.md#publication).
+The **Check status to validate content generation** option forces a check on the "Validated" status of the content instances to authorize file generation. For more on this, refer to [Publication](#publication).
 
 A transformation template must be added for each output document. You can create as many transformation templates as necessary.
 
@@ -71,7 +71,7 @@ Publication involves generating the output document in the form of a file, if th
 The following publication options are available:
 
 * The output file encoding character set can be forced via the **[!UICONTROL Encoding]** field. The Latin 1 (1252) character set is used by default.
-* The **[!UICONTROL Multi-file generation]** option activates a special document publication mode. This option consists of populating a partitioning tag at the beginning of each page of the output document. Generating the content will produce a file for each populated partitioning tag. This mode is used to generate mini-sites from a content block. for more on this, refer to [Multi-file generation](../../delivery/using/publication-templates.md#multi-file-generation).
+* The **[!UICONTROL Multi-file generation]** option activates a special document publication mode. This option consists of populating a partitioning tag at the beginning of each page of the output document. Generating the content will produce a file for each populated partitioning tag. This mode is used to generate mini-sites from a content block. for more on this, refer to [Multi-file generation](#multi-file-generation).
 * The **[!UICONTROL Location]** field contains the name of the output file. The name can be made up of variables in order to generate an automatic filename.
 
   A variable is populated with the following format: **`$(<xpath>)`, where `<xpath>` is the path of a field of the publication template data schema.

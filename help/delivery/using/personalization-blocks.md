@@ -18,15 +18,15 @@ snippet: y
 
 # Personalization blocks{#personalization-blocks}
 
-Personalization blocks are dynamic, personalized and contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. See [Inserting personalization blocks](../../delivery/using/personalization-blocks.md#inserting-personalization-blocks).
+Personalization blocks are dynamic, personalized and contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. See [Inserting personalization blocks](#inserting-personalization-blocks).
 
 >[!NOTE]
 >
 >Personalization blocks are also available from the **[!UICONTROL Digital Content Editor (DCE)]** . For more on this, refer to [this page](../../web/using/editing-content.md#inserting-a-personalization-block).
 
-Personalization blocks are accessed via the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** node of the Adobe Campaign explorer. Several blocks are available by default (see [Out-of-the-box personalization blocks](../../delivery/using/personalization-blocks.md#out-of-the-box-personalization-blocks)).
+Personalization blocks are accessed via the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** node of the Adobe Campaign explorer. Several blocks are available by default (see [Out-of-the-box personalization blocks](#out-of-the-box-personalization-blocks)).
 
-You have the ability to define new blocks that will enable you to optimize your deliveries personalization. For more on this, refer to [Defining custom personalization blocks](../../delivery/using/personalization-blocks.md#defining-custom-personalization-blocks).
+You have the ability to define new blocks that will enable you to optimize your deliveries personalization. For more on this, refer to [Defining custom personalization blocks](#defining-custom-personalization-blocks).
 
 ## Inserting personalization blocks {#inserting-personalization-blocks}
 
@@ -37,7 +37,7 @@ To insert a personalization block in a message, follow the steps below:
 
    ![](assets/s_ncs_user_personalized_block01.png)
 
-1. The **[!UICONTROL Other...]** menu gives access to all the out-of-the-box and custom personalization blocks (see [Out-of-the-box personalization blocks](../../delivery/using/personalization-blocks.md#out-of-the-box-personalization-blocks) and [Defining custom personalization blocks](../../delivery/using/personalization-blocks.md#defining-custom-personalization-blocks)).
+1. The **[!UICONTROL Other...]** menu gives access to all the out-of-the-box and custom personalization blocks (see [Out-of-the-box personalization blocks](#out-of-the-box-personalization-blocks) and [Defining custom personalization blocks](#defining-custom-personalization-blocks)).
 
    ![](assets/s_ncs_user_personalized_block02.png)
 

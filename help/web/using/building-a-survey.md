@@ -28,7 +28,7 @@ Select the survey template (**[!UICONTROL newSurvey]** by default).
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-The pages of the form are created using a special editor that lets you define and configure (text) input fields, selection fields (lists, checkboxes, etc.) and static elements (images, HTML content, etc.). They can be collected in "containers" and laid out according to requirements (see [Adding questions](../../web/using/building-a-survey.md#adding-questions)).
+The pages of the form are created using a special editor that lets you define and configure (text) input fields, selection fields (lists, checkboxes, etc.) and static elements (images, HTML content, etc.). They can be collected in "containers" and laid out according to requirements (see [Adding questions](#adding-questions)).
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ In addition, the storage location for this input field must be a **[!UICONTROL M
 >[!CAUTION]
 >
 >* This functionality is only available for **Survey** type forms. 
->* This option isn't compatible with random question display. For more on this, refer to [Adding questions](../../web/using/building-a-survey.md#adding-questions).
+>* This option isn't compatible with random question display. For more on this, refer to [Adding questions](#adding-questions).
 
 ### Adding questions {#adding-questions}
 
