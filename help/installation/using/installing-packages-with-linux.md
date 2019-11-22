@@ -135,7 +135,7 @@ To install Adobe Campaign 32 bit on a Debian 32 bit operating system, apply the 
    dpkg -i nlserver6-v7-XXXX-linux-2.6-intel.deb
    ```
 
-   If there are missing dependenciess, run the following command:
+   If there are missing dependenciess, run the following command: 
 
    ```
    apt-get install -f
