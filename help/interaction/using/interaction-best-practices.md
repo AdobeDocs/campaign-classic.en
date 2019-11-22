@@ -1,8 +1,6 @@
 ---
-title: Interaction best practices
-seo-title: Interaction best practices
-description: Interaction best practices
-seo-description: 
+title: Adobe Campaign Classic Interaction best practices
+description: This section presents the best practice approach to manage the Interaction module in Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 88bcc1d5-be8f-4a63-9b4a-3843b5751abe
 contentOwner: sauviat
@@ -20,7 +18,7 @@ snippet: y
 
 ## General recommendations {#general-recommendations}
 
-This chapter presents the best practice approach to manage the Interaction module in Adobe Campaign Classic, including eligibility rules, pre-defined filters, workflow activities and database options.
+This section presents the best practice approach to manage the Interaction module in Adobe Campaign Classic, including eligibility rules, pre-defined filters, workflow activities and database options.
 
 Interaction in Adobe Campaign requires careful management to operate efficiently. You must find a balance between the number of contacts and the number of offer categories and offers. If those factors are not dealt carefully, your Adobe Campaign instance may encounter issues.
 
@@ -33,6 +31,7 @@ Below are listed important elements that should be kept in mind when implementin
 * For batch engine (typically used in outbound communications like email), throughput is the main concern, as multiple contacts can be handled at the same time. The typical bottleneck is database performance.
 * The main constraint for unitary engine (typically used in inbound communications like a banner on a web site) is latency, as someone is expecting an answer. The typical bottleneck is CPU performance.
 * The offer catalog design has a huge impact on Adobe Campaign Classic performance.
+* When there are many offers, split them into several offer catalogs.
 
 ## Eligibility rules {#eligibility-rules}
 
