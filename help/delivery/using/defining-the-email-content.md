@@ -1,8 +1,6 @@
 ---
-title: Defining the email content
-seo-title: Defining the email content
-description: Defining the email content
-seo-description: 
+title: Defining the email content in Adobe Campaign Classic
+description: Learn how to define the email content when using Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: ddcc2e3b-e251-4a7a-a22a-28701522839f
 contentOwner: sauviat
@@ -133,22 +131,22 @@ Select the format of the email in the lower section of the window:
 
   The message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks on the message.
 
-## AMP for Email format (Beta) {#amp-for-email-format}
+## Sending interactive content with AMP {#amp-for-email-format}
 
 Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
 
 >[!CAUTION]
 >
 >* This feature is a beta capability in Adobe Campaign.
->* The AMP for Email format is still under development. Currently it is supported by one email provider (Gmail).
+>* AMP for Email is a new open source format that enables developers to create dynamic and interactive emails. Currently it is supported by two email providers: Gmail and Outlook.
 >
 >Consequently, you can only:
->* Test delivering AMP emails to specific Gmail addresses appropriately configured.
->* Deliver AMP emails to any Gmail adress after registering with Google.
+>* Test delivering AMP emails to specific Gmail or Outlook addresses appropriately configured.
+>* Deliver AMP emails to any Gmail adress after registering with Google and to any Outlook address after registering with Microsoft.
 >
 >See [Targeting an AMP email](../../delivery/using/defining-the-email-content.md#targeting-amp-email).
 
-This feature is available through a dedicated package. To use it, this package must be installed. Once done, restart the server for the package to be taken into account.
+This feature is available through a dedicated package in Adobe Campaign. To use it, this package must be installed. Once done, restart the server for the package to be taken into account.
 
 For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/creating-a-shared-connection.md#execution-instance). Contact your account executive.
 
@@ -174,9 +172,9 @@ To successfully test and send an AMP email with Adobe Campaign, follow the steps
 
     >[!NOTE]
     >
-    >AMP for Email is available as a beta capability for testing purpose. Currently only one email provider supports testing this format (Gmail).
+    >AMP for Email is available as a beta capability for testing purpose. Currently only two email providers support testing this format (Gmail and Outlook).
 
-    See [AMP for Email delivery requirements for Gmail](../../delivery/using/defining-the-email-content.md#amp-for-email-delivery-requirements-gmail).
+    See [AMP for Email delivery requirements](../../delivery/using/defining-the-email-content.md#amp-for-email-delivery-requirements).
 
 1. When defining your target, make sure you select recipients that will be able to display the AMP format.
 
@@ -260,19 +258,20 @@ To build an email using the AMP format, follow the steps below.
     >
     >If your email does not contain an HTML or plain text version in addition to the AMP content, it cannot be sent.
 
-### AMP for Email delivery requirements for Gmail {#amp-for-email-delivery-requirements-gmail}
+### AMP for Email delivery requirements {#amp-for-email-delivery-requirements}
 
 When building your AMP content in Adobe Campaign, you must comply with the conditions for a dynamic email to be delivered, which are specific to your recipients' email providers.
 
-Currently only one email provider supports testing this format: Gmail. All the steps and specifications required to test delivery with AMP format on Gmail accounts are detailed in the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail?).
+Currently two email providers support testing this format: Gmail and Outlook.
+
+All the steps and specifications required to test delivery with AMP format on Gmail accounts are detailed in the corresponding [Gmail developer documentation](https://developers.google.com/gmail/ampemail?) and [Outlook developer documentation](https://docs.microsoft.com/en-gb/outlook/amphtml/).
 
 In particular, the following requirements must be met:
-* Follow the [Gmail delivery requirements](https://developers.google.com/gmail/ampemail/testing-dynamic-email?#delivery_requirements) including the [AMP for Email security requirements](https://developers.google.com/gmail/ampemail/security-requirements).
+* Follow the AMP security requirements specific to [Gmail](https://developers.google.com/gmail/ampemail/security-requirements) and [Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/security-requirements).
 * The AMP MIME part must contain a [valid AMP document](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email).
 * The AMP MIME part must be smaller than 100KB.
 
-You can also consult the [Tips and known limitations for Gmail](https://developers.google.com/gmail/ampemail/tips).
-
+You can also consult the [Tips and known limitations for Gmail](https://developers.google.com/gmail/ampemail/tips) and the [AMP best practices for Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/best-practices).
 
 ### Targeting an AMP email {#targeting-amp-email}
 
@@ -287,11 +286,16 @@ You can test sending dynamic messages from Adobe Campaign to selected email addr
 
 >[!NOTE]
 >
->Currently only Gmail supports testing the AMP format.
+>Currently only Gmail and Outlook support testing the AMP format.
 
-Before doing so, you must whitelist the sender address you are using to deliver from Adobe Campaign for the relevant Gmail accounts.
+Before doing so, you must whitelist the sender address(es) you are using to deliver from Adobe Campaign for the Gmail and Outlook accounts you are targeting.
 
-To do this, copy the sender address displayed in the delivery's **[!UICONTROL From]** field and paste it into the Gmail account settings' appropriate section. See the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail/testing-dynamic-email).
+To do this:
+1. Make sure the option enabling dynamic email is checked for the relevant email provider(s).
+1. Copy the sender address displayed in the delivery's **[!UICONTROL From]** field and paste it into your email provider account settings' appropriate section.
+
+For further details, consult the [Gmail developer documentation](https://developers.google.com/gmail/ampemail/testing-dynamic-email) and [Outlook developer documentation](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#individual-mailbox-registration).
+
 
 ![](assets/amp_from_field.png)
 
@@ -301,26 +305,27 @@ To do this, copy the sender address displayed in the delivery's **[!UICONTROL Fr
 
 >[!NOTE]
 >
->Currently only Gmail supports the AMP format.
+>Currently only Gmail and Outlook support the AMP format.
 
-Once tested with a few addresses, you can send AMP emails to any Gmail address. To do this, you must register with Google and await their answer. Follow the steps presented in the [Gmail developer AMP for Email documentation](https://developers.google.com/gmail/ampemail/register). Make sure you follow the [Registration guidelines](https://developers.google.com/gmail/ampemail/register#registration_guidelines).
+Once tested with a few addresses, you can send AMP emails to any Gmail or Outlook address. To do this, you must respectfully register with Google or Microsoft, and await their answer.
+
+Follow the steps presented in the [Gmail developer documentation](https://developers.google.com/gmail/ampemail/register) and [Outlook developer documentation](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#global-registration). After successful registration, you become an authorized sender.
 
 ### Sending an AMP email {#sending-amp-email}
 
 Once your AMP content and fallback are ready, and once you defined a compatible target, you can send the email as you would normally do.
 
-Currently only Gmail supports the AMP format, under certain conditions. You can target addresses from other email providers, but they will receive the HTML or plain text version of your email.
+Currently only Gmail and Outlook support the AMP format, under certain conditions. You can target addresses from other email providers, but they will receive the HTML or plain text version of your email.
 
 >[!NOTE]
 >
->Consequently, if your email does not contain an HTML or plain text version in addition to the AMP content, it cannot be sent.
+>If your email does not contain an HTML or plain text version in addition to the AMP content, it cannot be sent.
 
 The matching recipients will have the AMP version of the email displayed in their mailbox.
 
 For example, if you included a product list in your email, when editing the prices in a third-party system, the prices will be automatically adjusted each time your recipients open the email again in their mailbox.
-<!--For more on this, see this [example](../../delivery/using/defining-the-email-content.md#example-amp) below.-->
-
-![](assets/amp_gmail_mailbox.png)
+<!--For more on this, see this [example](../../delivery/using/defining-the-email-content.md#example-amp) below.
+![](assets/amp_gmail_mailbox.png)-->
 
 >[!NOTE]
 >
@@ -346,11 +351,7 @@ An additional tab lets you enter content that will automatically be integrated a
 
 >[!NOTE]
 >
->For further information about content management in Adobe Campaign, refer to the [Configuration guide](../../configuration/using/about-schema-reference.md).
-
-## Adding attachments {#adding-attachments}
-
-You can attach one or more files to an email delivery. For more on this, refer to [this section](../../delivery/using/attaching-files.md).
+>For further information about content management in Adobe Campaign, refer to [this section](../../delivery/using/about-content-management.md).
 
 ## Adding images {#adding-images}
 
