@@ -48,8 +48,6 @@ A wizard lets you define the frequency and validity period of the activity. The 
 
    ![](assets/s_user_segmentation_scheduler5.png)
 
-It is important to configure the frequency of the scheduler and certain parameters of the following activities, because the scheduler can generate cascading tasks. For example, the scheduler followed by an external command can re-execute the command even if it has not finished. To avoid this, modify the **[!UICONTROL Behavior]** field of the activities that have to be finished before a new execution by selecting the **[!UICONTROL The current task has priority]** option.
-
-![](assets/current_task_priority.png)
+Using a scheduler activity may lead to have several executions of a workflow running at the same time. For instance, you can have a scheduler triggering the workflow execution every hour, but sometimes the execution of the whole workflow takes more than an hour. You may want to skip the execution if the workflow is already running. For more on how to prevent simultaneous executions of a workflow, refer to [this page](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-execution).
 
 Note also that the transition can be activated several hours later if the workflow was executing a long-term task, such as an import, or if the wfserver module was stopped for a time. In this case, it may be necessary to restrict the execution of the task activated by the scheduler to a certain time range. 

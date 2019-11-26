@@ -158,7 +158,7 @@ Save your campaign template. You can now use it from the **Campaign packages** v
 
 >[!NOTE]
 >
->Campaign templates and their general configuration are detailed in [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
+>Campaign templates and their general configuration are detailed in [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 ## Creating the campaign package {#creating-the-campaign-package}
 
@@ -171,7 +171,7 @@ Apply the following steps:
 
    ![](assets/mkg_dist_add_an_entry.png)
 
-1. The section above the window lets you select the [previously](../../campaign/using/creating-a-local-campaign.md#creating-a-local-campaign-template) specified campaign package template.
+1. The section above the window lets you select the [previously](#creating-a-local-campaign-template) specified campaign package template.
 
    By default, the **[!UICONTROL New local campaign package (localEmpty)]** template is used for local campaigns.
 
@@ -269,7 +269,7 @@ To order a campaign:
 
    ![](assets/mkg_dist_local_op_catalog_detail_3.png)
 
-   For more on this, refer to the [Approval process](../../campaign/using/creating-a-local-campaign.md#approval-process) section.
+   For more on this, refer to the [Approval process](#approval-process) section.
 
 1. The local operator is then notified that the campaign is available: campaign availability can be found in the list of campaign packages within the **Campaigns** universe. The campaign can then be used. For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
 
@@ -297,7 +297,7 @@ When a campaign is ordered by a local entity, its reviewers are notified by emai
 
 >[!NOTE]
 >
->Selecting reviewers is presented in the [Reviewers](../../campaign/using/creating-a-local-campaign.md#reviewers) section. They can accept or reject the order.
+>Selecting reviewers is presented in the [Reviewers](#reviewers) section. They can accept or reject the order.
 
 ![](assets/mkg_dist_command_valid_web.png)
 

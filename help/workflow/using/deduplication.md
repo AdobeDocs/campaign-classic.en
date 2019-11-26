@@ -94,7 +94,7 @@ The identified duplicates will also be integrated into a dedicated duplicates li
 
 1. Add and link the various activities required for the workflow to operate as shown above.
 
-   The union activity is used here to "unify" the three queries into one single transition. Thus, deduplication will not work for each query individually but for the whole of the query. For more on this subject, refer to [Best practices](../../workflow/using/deduplication.md#best-practices).
+   The union activity is used here to "unify" the three queries into one single transition. Thus, deduplication will not work for each query individually but for the whole of the query. For more on this subject, refer to [Best practices](#best-practices).
 
 1. Open the deduplication activity then click the **[!UICONTROL Edit configuration...]** link to define the deduplication mode.
 1. In the new window, select **[!UICONTROL Database schema]**.

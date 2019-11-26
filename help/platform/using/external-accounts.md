@@ -22,21 +22,21 @@ An external account is a configuration that allows you to configure and test the
 
 You can set up the following types of external accounts:
 
-* [Routing external account](../../platform/using/external-accounts.md#routing-external-account)
-* [FTP external account](../../platform/using/external-accounts.md#ftp-external-account)
-* [External database external account](../../platform/using/external-accounts.md#external-database-external-account)
-* [Web Analytics external account](../../platform/using/external-accounts.md#web-analytics-external-account)
-* [Facebook connect external account](../../platform/using/external-accounts.md#facebook-connect-external-account)
-* [Execution instance external account](../../platform/using/external-accounts.md#execution-instance-external-account)
-* [Adobe Experience Cloud external account](../../platform/using/external-accounts.md#adobe-experience-cloud-external-account)
-* [SFTP external account](../../platform/using/external-accounts.md#sftp-external-account)
-* [Adobe Experience Manager external account](../../platform/using/external-accounts.md#adobe-experience-manager-external-account)
-* [Amazon Simple Storage Service (S3) external account](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account)
-* [Azure external account](../../platform/using/external-accounts.md#azure-external-account)
-* [Hadoop external account](../../platform/using/external-accounts.md#hadoop-external-account)
-* [Microsoft Dynamics CRM external account](../../platform/using/external-accounts.md#microsoft-dynamics-crm-external-account)
-* [Oracle on demand external account](../../platform/using/external-accounts.md#oracle-on-demand-external-account)
-* [Salesforce CRM external account](../../platform/using/external-accounts.md#salesforce-crm-external-account)
+* [Routing external account](#routing-external-account)
+* [FTP external account](#ftp-external-account)
+* [External database external account](#external-database-external-account)
+* [Web Analytics external account](#web-analytics-external-account)
+* [Facebook connect external account](#facebook-connect-external-account)
+* [Execution instance external account](#execution-instance-external-account)
+* [Adobe Experience Cloud external account](#adobe-experience-cloud-external-account)
+* [SFTP external account](#sftp-external-account)
+* [Adobe Experience Manager external account](#adobe-experience-manager-external-account)
+* [Amazon Simple Storage Service (S3) external account](#amazon-simple-storage-service--s3--external-account)
+* [Azure external account](#azure-external-account)
+* [Hadoop external account](#hadoop-external-account)
+* [Microsoft Dynamics CRM external account](#microsoft-dynamics-crm-external-account)
+* [Oracle on demand external account](#oracle-on-demand-external-account)
+* [Salesforce CRM external account](#salesforce-crm-external-account)
 
 ## Creating an external account {#creating-an-external-account}
 
@@ -150,23 +150,23 @@ Adobe Campaign provides several connectors that allow you to communicate with ex
 
 The following connection types can be configured:
 
-* Oracle
+* Oracle. For more information, refer to this [page](../../platform/using/accessing-an-external-database.md#configure-access-to-oracle).
+* MySQL. To configure access to MYSQL, refer to this [page](../../platform/using/accessing-an-external-database.md#configure-access-to-mysql).
+* Netezza. For more information, refer to this [page](../../platform/using/accessing-an-external-database.md#configure-access-to-netezza).
+* SAP HANA. For more information, refer to this [page](../../platform/using/accessing-an-external-database.md#configure-access-to-sap-hanaa).
+* InfiniDB
 * Microsoft SQL server
+* AsterData
 * PostgreSQL
 * Teradata
 * DB2
-* MySQL
-* InfiniDB
-* Netezza
-* AsterData
-* SAP HANA
 * Amazon Redshift
 * ODBC (Sybase ASE, Sybase IQ)
 * HTTP relay to remote database
 
 ### Teradata external account {#teradata-external-account}
 
-The **Teradata** external account allows you to connect your Campaign instance to your Teradata external database. For more information on how to configure Campaign Classic with Teradata, refer to this [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html).
+The **Teradata** external account allows you to connect your Campaign instance to your Teradata external database. For more information on how to configure Campaign Classic with Teradata, refer to this [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) or this [section](../../platform/using/accessing-an-external-database.md#configure-access-to-teradata).
 
 ![](assets/ext_account_19.png)
 
@@ -400,7 +400,7 @@ The **[!UICONTROL Azure]** external account enables a connection to a shared ext
 
 ## Hadoop external account {#hadoop-external-account}
 
-The **[!UICONTROL Hadoop]** external account enables a connection to a shared external database, as long as this connection is active, the database can be accessed via Adobe Campaign.
+The **[!UICONTROL Hadoop]** external account enables a connection to a shared external database, as long as this connection is active, the database can be accessed via Adobe Campaign. For more information on how to configure access to Hadoop, refer to this [section](../../platform/using/accessing-an-external-database.md#configure-access-to-hadoop).
 
 ![](assets/ext_account_16.png)
 
@@ -502,4 +502,4 @@ To configure the Salesforce CRM external account to work with Adobe Campaign, yo
 
 For this external account, you need to configure you Salesforce CRM with the configuration wizard.
 
-For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md#example-for-salesforce_com).
+For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md#example-for-salesforce-com).

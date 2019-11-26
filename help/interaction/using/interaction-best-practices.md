@@ -24,6 +24,8 @@ This chapter presents the best practice approach to manage the Interaction modul
 
 Interaction in Adobe Campaign requires careful management to operate efficiently. You must find a balance between the number of contacts and the number of offer categories and offers. If those factors are not dealt carefully, your Adobe Campaign instance may encounter issues.
 
+You can find more detailed best practices, tips and tricks on managing offers and using the Interaction module on this [page](https://helpx.adobe.com/campaign/kb/offer-best-practices.html).
+
 ## Implementation {#implementation}
 
 Below are listed important elements that should be kept in mind when implementing and configuring interactions.
@@ -55,4 +57,3 @@ Below are listed a few best practices regarding the proposition table.
 * Perform intensive database maintenance on the proposition table, such as rebuild indexes or recreate table.
 * Limit the number of propositions asked per target. Do not set more than what you are actually going to use.
 * Avoid joins as much as possible in the rule criteria.
-

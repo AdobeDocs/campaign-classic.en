@@ -57,7 +57,7 @@ The window lets you configure the identification of Adobe Campaign users via the
 
       No encryption (for use in test phases only).
 
-* Select the user authentication mode: **[!UICONTROL Automatically compute the unique user identifier]** (see step [Distinguished Name calculation](../../installation/using/connecting-through-ldap.md#distinguished-name-calculation)) or **[!UICONTROL Search the unique user identifier in the directory]** (see step [Searching for identifiers](../../installation/using/connecting-through-ldap.md#searching-for-identifiers)).
+* Select the user authentication mode: **[!UICONTROL Automatically compute the unique user identifier]** (see step [Distinguished Name calculation](#distinguished-name-calculation)) or **[!UICONTROL Search the unique user identifier in the directory]** (see step [Searching for identifiers](#searching-for-identifiers)).
 
 ## Compatibility {#compatibility}
 
@@ -142,7 +142,7 @@ If you choose to search for an identifier, the deployment wizard lets you config
 
 ## Configuring LDAP authorizations {#configuring-ldap-authorizations}
 
-This window is displayed when you select the **[!UICONTROL Enable synchronization of user rights from authorizations and groups in the directory]** option (refer to [](../../installation/using/connecting-through-ldap.md)).
+This window is displayed when you select the **[!UICONTROL Enable synchronization of user rights from authorizations and groups in the directory]** option.
 
 ![](assets/s_ncs_install_deployment_wiz_ldap_04.png)
 

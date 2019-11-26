@@ -284,54 +284,55 @@ From an SOAP call:
 
 * Using **HttpServletRequest**:
 
+>[!NOTE]
+>
+>The URLs used in the following **HttpServletRequest** calls need to be whitelisted in the url permissions section of the **serverConf.xml** file. This is also true for the URL of the server itself.
+
   Logon execution():
 
   ```
 
-   var req = new HttpClientRequest("https://domain.org/nl/jsp/soaprouter.jsp");
-  req.header["Content-Type"] = "text/xml; charset=utf-8";
-  req.header["SOAPAction"] =   "xtk:session#Logon";
-  req.method = "POST";
-  
-  req.body = '<soapenv:Envelope xmlns:soapenv="https://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">' +
-               '<soapenv:Header/><soapenv:Body><urn:Logon>' +
-                 '<urn:sessiontoken/>
-                 <urn:strLogin>admin</urn:strLogin>
-                 <urn:strPassword>pwd</urn:strPassword>
-                 <urn:elemParameters/>' +
-             '</urn:Logon></soapenv:Body></soapenv:Envelope>';
-  req.execute();
-  
-  var resp = req.response;
-  var xmlRes = new XML(String(resp.body).replace("<?xml version='1.0'?>",""));
-  var sessionToken = String(xmlRes..*::pstrSessionToken);;
-  var securityToken = String(xmlRes..*::pstrSecurityToken);
+var req = new HttpClientRequest("https://serverURL/nl/jsp/soaprouter.jsp");
+req.header["Content-Type"] = "text/xml; charset=utf-8";
+req.header["SOAPAction"] =   "xtk:session#Logon";
+req.method = "POST";
+req.body = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">' +
+    '<soapenv:Header/>' +
+    '<soapenv:Body>' +
+        '<urn:Logon>' +
+            '<urn:sessiontoken></urn:sessiontoken>' +
+            '<urn:strLogin>LOGIN_HERE</urn:strLogin>' +
+            '<urn:strPassword>PASSWORD_HERE</urn:strPassword>' +
+            '<urn:elemParameters></urn:elemParameters>' +
+        '</urn:Logon>' +
+    '</soapenv:Body>' +
+'</soapenv:Envelope>';
+req.execute();
+           
+var resp = req.response;
+var xmlRes = new XML(String(resp.body).replace("<?xml version='1.0'?>",""));
+var sessionToken = String(xmlRes..*::pstrSessionToken);;
+var securityToken = String(xmlRes..*::pstrSecurityToken);
 
   ```
 
   Query execution:
 
   ```
-  
-  var req2 = new HttpClientRequest("http://serverURL/nl/jsp/soaprouter.jsp");
-  req2.header["Content-Type"] = "text/xml; charset=utf-8";
-  req2.header["SOAPAction"] =   "xtk:queryDef#ExecuteQuery";
-  
-  req2.header["X-Security-Token"] = securityToken;
-  req2.header["cookie"]           = "__sessiontoken="+sessionToken;
-  req2.method = "POST";
-  
-  req2.body = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:queryDef">' +
-               '<soapenv:Header/><soapenv:Body><urn:ExecuteQuery><urn:sessiontoken/><urn:entity>' +
-                  '<queryDef operation="select" schema="nms:recipient">' +
-                    '<select><node expr="@email"/><node expr="@lastName"/><node expr="@firstName"/></select>' +
-                    '<where><condition expr="@email = 'john.doe@aol.com'"/></where>' +
-                  '</queryDef>' +
-             '</urn:entity></urn:ExecuteQuery></soapenv:Body></soapenv:Envelope>';
-
-  req2.execute();
-  var resp2 = req2.response;
-  logInfo(resp2.body)
-
+var req2 = new HttpClientRequest("https://serverURL/nl/jsp/soaprouter.jsp");
+req2.header["Content-Type"] = "text/xml; charset=utf-8";
+req2.header["SOAPAction"] =   "xtk:queryDef#ExecuteQuery";req2.header["X-Security-Token"] = securityToken;
+req2.header["cookie"]           = "__sessiontoken="+sessionToken;
+req2.method = "POST";
+req2.body = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:queryDef">' +
+             '<soapenv:Header/><soapenv:Body><urn:ExecuteQuery><urn:sessiontoken/><urn:entity>' +
+                '<queryDef operation="select" schema="nms:recipient">' +
+                  '<select><node expr="@email"/><node expr="@lastName"/><node expr="@firstName"/></select>' +
+                  '<where><condition expr="@email = \'john.doe@aol.com\'"/></where>' +
+                '</queryDef>' +
+           '</urn:entity></urn:ExecuteQuery></soapenv:Body></soapenv:Envelope>';
+req2.execute();
+var resp2 = req2.response;
+logInfo(resp2.body)
   ```
 

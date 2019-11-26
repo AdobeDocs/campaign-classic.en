@@ -24,7 +24,7 @@ Adobe Campaign lets you express dates as a function of their time zone: this ena
 
 In order to enable the use of the Adobe Campaign platform on an international scale, all dates used by the systems must be linkable to a time zone. A date whose time zone is known can thus be imported into any other time zone, or regardless of time zone.
 
-Adobe Campaign lets you store dates/times in UTC (Coordinated Universal Time) format. When data is exposed, it is converted into the local date/time of the operator. Conversion is carried out automatically when the database is configured in UTC (refer to [Configuration](../../installation/using/time-zone-management.md#configuration)). If the database is not configured in UTC, information on the time zone of the dates in the platform is stored in an option.
+Adobe Campaign lets you store dates/times in UTC (Coordinated Universal Time) format. When data is exposed, it is converted into the local date/time of the operator. Conversion is carried out automatically when the database is configured in UTC (refer to [Configuration](#configuration)). If the database is not configured in UTC, information on the time zone of the dates in the platform is stored in an option.
 
 The main platform functionalities regarding time zone management are: import/export data and operator and Workflow management. The **inheritance concept** is available for imports/exports or Workflows. By default, they are configured for the database server time zone, however you can redefine new time zones for a workflow and even for a single activity.
 
@@ -48,12 +48,16 @@ However, if you use the **SET TIME ZONE 0200;** command, the time-lag will alway
 
 ## Configuration {#configuration}
 
-The storage mode for dates and times is selected during database creation (refer to [Creating a new instance](../../installation/using/time-zone-management.md#creating-a-new-instance)). In case of a migration, the hours linked to dates are converted into local dates and hours (refer to [Migration](../../installation/using/time-zone-management.md#migration)).
+The storage mode for dates and times is selected during database creation (refer to [Creating a new instance](#creating-a-new-instance)). In case of a migration, the hours linked to dates are converted into local dates and hours (refer to [Migration](#migration)).
 
 From a technical point of view, there are two ways of storing **Date+time** type information in the database:
 
 1. TIMESTAMP WITH TIMEZONE format: the database engine stores dates in UTC. Each session opened will have a time zone, and the dates will be converted according to it.
 1. Local format + local time zone: all dates are stored in the local format (no time-lag management) and a single time zone is assigned to them. The time zone is stored in the **WdbcTimeZone** option of the Adobe Campaign instance and can be changed via the **[!UICONTROL Administration > Platform > Options]** menu of the tree.
+
+>[!CAUTION]
+>
+>Please be aware that this modification can result into data consistency and synchronization issues. 
 
 ### Creating a new instance {#creating-a-new-instance}
 

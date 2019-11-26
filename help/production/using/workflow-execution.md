@@ -91,7 +91,7 @@ To check this and to start the module if necessary, apply the following steps:
 
    ```
    nlserver pdump
-   HH:MM:SS > Application server for Adobe Campaign Version X.Y (build XXXX) of DD/MM/YYYY
+   HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    [...]
    wfserver@<INSTANCENAME> (9340) - 11.3 Mb
    [...]

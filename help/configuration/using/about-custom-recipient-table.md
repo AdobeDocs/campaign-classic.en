@@ -35,10 +35,6 @@ This functionality allows Adobe Campaign to process data from an external databa
 * The standard recipient table is useless if you do not need most of the table fields or if the database template is not centered on the recipients.
 * In order to be efficient, a table with few fields is needed if you have a significant number of profiles. The standard recipient table has too many fields for this specific case.
 
->[!NOTE]
->
->We recommend using an external recipient table if the size of the data set is more than ten million profiles or if you use a lot of specific fields.
-
 This section describes the key points that let you map existing tables in Adobe Campaign and the configuration to apply to execute deliveries based on any table. Finally, it describes how to provide users with querying interfaces as practical as those available with the standard recipient table. To understand the material presented in this section, good knowledge of the principles of screen and schema design is required.
 
 ## Recommendations and limitations {#recommendations-and-limitations}
@@ -49,6 +45,7 @@ Using an external recipient table has the following limitations:
  
   The graphic below details the required relational structure for each custom recipient schema:
   ![](assets/custom_recipient_limitation.png)
+
   We recommend:
 
   * Dedicating the **[!UICONTROL nms:BroadLogRcp]** and **[!UICONTROL nms:TrackingLogRcp]** schemas to the out-of-the-box **[!UICONTROL nms:Recipientschema]**. Those two log tables should not be linked to any additional custom recipient table.

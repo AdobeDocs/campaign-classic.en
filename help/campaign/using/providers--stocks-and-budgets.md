@@ -30,19 +30,19 @@ The jobs carried out during deliveries are performed by service providers, parti
 
 1. Creation of a service provider in Adobe Campaign
 
-   See [Adding a service provider](../../campaign/using/providers--stocks-and-budgets.md#adding-a-service-provider).
+   See [Adding a service provider](#adding-a-service-provider).
 
 1. Defining cost categories and structures of associated service templates
 
-   See [Defining cost categories](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories) and [Defining the cost structure](../../campaign/using/providers--stocks-and-budgets.md#defining-the-cost-structure).
+   See [Defining cost categories](#defining-cost-categories) and [Defining the cost structure](#defining-the-cost-structure).
 
 1. Configuration of processes
 
-   See [Configuring processes associated with a service](../../campaign/using/providers--stocks-and-budgets.md#configuring-processes-associated-with-a-service).
+   See [Configuring processes associated with a service](#configuring-processes-associated-with-a-service).
 
 1. Referencing the service provider at the campaign level
 
-   See [Associating a service with a campaign](../../campaign/using/providers--stocks-and-budgets.md#associating-a-service-with-a-campaign).
+   See [Associating a service with a campaign](#associating-a-service-with-a-campaign).
 
 ### Creating a service provider and its cost categories {#creating-a-service-provider-and-its-cost-categories}
 
@@ -63,7 +63,7 @@ You must associate service templates with each service provider. In these templa
 
 >[!NOTE]
 >
->For more on this, refer to [Defining the cost structure](../../campaign/using/providers--stocks-and-budgets.md#defining-the-cost-structure).
+>For more on this, refer to [Defining the cost structure](#defining-the-cost-structure).
 
 A cost category is an entity containing a set of costs eligible for a type of delivery (email, direct mail, etc.) or for a task. Cost categories are grouped in the templates of services associated with the service providers. Each service provider can reference one or more service templates.
 
@@ -84,7 +84,7 @@ To create a service template and define its content, apply the following steps:
       >[!NOTE]
       >
       >The stock lines are defined in the **[!UICONTROL Stock management]** node.   
-      >For more on this, refer to [Stock and order management](../../campaign/using/providers--stocks-and-budgets.md#stock-and-order-management).
+      >For more on this, refer to [Stock and order management](#stock-and-order-management).
 
 1. You can pre-select a value for this cost category, which will be offered by default in the service provider cost categories (instead of a blank). To do this, select the option in the **[!UICONTROL Selected]** column for the type of category concerned:
 
@@ -191,19 +191,19 @@ The procedure for setting up stock and order management in Adobe Campaign, and a
 
 1. Stock creation and referencing of associated service providers
 
-   See [Creating a stock](../../campaign/using/providers--stocks-and-budgets.md#creating-a-stock).
+   See [Creating a stock](#creating-a-stock).
 
 1. Adding stock lines
 
-   See [Adding stock lines](../../campaign/using/providers--stocks-and-budgets.md#adding-stock-lines).
+   See [Adding stock lines](#adding-stock-lines).
 
 1. Notifying operators in the event of an alert
 
-   See [Alerting operators](../../campaign/using/providers--stocks-and-budgets.md#alerting-operators).
+   See [Alerting operators](#alerting-operators).
 
 1. Orders and supply.
 
-   Refer to [Orders](../../campaign/using/providers--stocks-and-budgets.md#orders).
+   Refer to [Orders](#orders).
 
 ### Stock management {#stock-management}
 
@@ -222,7 +222,7 @@ Apply the following steps to create a new stock:
 
    >[!NOTE]
    >
-   >For more on this, refer to [Creating service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+   >For more on this, refer to [Creating service providers and their cost structures](#creating-service-providers-and-their-cost-structures).
 
 #### Adding stock lines {#adding-stock-lines}
 

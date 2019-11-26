@@ -63,7 +63,7 @@ To edit an existing service, click its name. To create a service, click the **[!
 * You can send **confirmation messages** for a subscription or unsubscription. To do this, select the delivery templates to be used to create the corresponding deliveries from the **[!UICONTROL Subscription]** and **[!UICONTROL Unsubscription]** fields. These templates must be configured with a **[!UICONTROL Subscription]** type target mapping, without a defined target. See section [About email channel](../../delivery/using/about-email-channel.md).
 * By default, subscriptions are unlimited. You can deselect the **[!UICONTROL Unlimited]** option to define a validity duration for the service. The duration can be specified in days (**[!UICONTROL d]** ) or months (**[!UICONTROL m]** ).
 
-Once the service has been saved, it is added to the Services and Subscriptions list: Click its name to edit it. Several tabs are available. The **[!UICONTROL Subscriptions]** tab lets you look at the list of subscribers to the information service (**[!UICONTROL Active subscriptions]** tab) or the subscription/unsubscription history (**[!UICONTROL History]** tab). You can also add and delete subscribers from this tab. See [Adding and deleting subscribers](../../delivery/using/managing-subscriptions.md#adding-and-deleting-subscribers). 
+Once the service has been saved, it is added to the Services and Subscriptions list: Click its name to edit it. Several tabs are available. The **[!UICONTROL Subscriptions]** tab lets you look at the list of subscribers to the information service (**[!UICONTROL Active subscriptions]** tab) or the subscription/unsubscription history (**[!UICONTROL History]** tab). You can also add and delete subscribers from this tab. See [Adding and deleting subscribers](#adding-and-deleting-subscribers). 
 
 ![](assets/s_ncs_user_services_subscriptions.png)
 
@@ -81,11 +81,11 @@ From the **[!UICONTROL Subscriptions]** tab of an information service click **[!
 
 To delete subscribers, select them and click **[!UICONTROL Delete]**. You can also right-click the subscriber list and select **[!UICONTROL Delete]**.
 
-In both cases, you can send a confirmation message to the users concerned if a delivery template for unsubscriptions has been attached to the service (see [Creating an information service](../../delivery/using/managing-subscriptions.md#creating-an-information-service)). A warning lets you validate or not validate this delivery:
+In both cases, you can send a confirmation message to the users concerned if a delivery template for unsubscriptions has been attached to the service (see [Creating an information service](#creating-an-information-service)). A warning lets you validate or not validate this delivery:
 
 ![](assets/s_ncs_user_services_update.png)
 
-See [Subscription and unsubscription mechanisms](../../delivery/using/managing-subscriptions.md#subscription-and-unsubscription-mechanisms).
+See [Subscription and unsubscription mechanisms](#subscription-and-unsubscription-mechanisms).
 
 ## Delivering to the subscribers of a service {#delivering-to-the-subscribers-of-a-service}
 
@@ -163,7 +163,7 @@ An information service can have a limited duration. Recipients will be unsubscri
 
 ![](assets/s_ncs_user_services_delay.png)
 
-You can also set up an unsubscription workflow for a population. To do this, follow the same procedure as for a subscription workflow, but select the **[!UICONTROL Unsubscription]** option. See [Subscribing a recipient to a service](../../delivery/using/managing-subscriptions.md#subscribing-a-recipient-to-a-service).
+You can also set up an unsubscription workflow for a population. To do this, follow the same procedure as for a subscription workflow, but select the **[!UICONTROL Unsubscription]** option. See [Subscribing a recipient to a service](#subscribing-a-recipient-to-a-service).
 
 ### Subscriber tracking {#subscriber-tracking}
 

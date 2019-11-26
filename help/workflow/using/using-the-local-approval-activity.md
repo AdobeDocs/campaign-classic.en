@@ -125,7 +125,7 @@ If you do not want to limit the population from the query, you do not have to us
 
    ![](assets/local_validation_split_2.png)
 
-1. Select the **[!UICONTROL By data distribution]** option, select the distribution template created previously (refer to [Step 1: Creating the data distribution template](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-)) and click **[!UICONTROL Finish]**.
+1. Select the **[!UICONTROL By data distribution]** option, select the distribution template created previously (refer to [Step 1: Creating the data distribution template](#step-1--creating-the-data-distribution-template-)) and click **[!UICONTROL Finish]**.
 
    ![](assets/local_validation_split_3.png)
 

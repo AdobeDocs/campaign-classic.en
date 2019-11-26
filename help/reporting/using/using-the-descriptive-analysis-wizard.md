@@ -64,7 +64,7 @@ Open the descriptive analysis wizard by selecting items and right-clicking. Only
 
 The **[!UICONTROL Qualitative distribution]** template lets you create statistics on all types of data (e.g. company name, email domain).
 
-Configuration options available for a report created via the **[!UICONTROL Qualitative distribution]** template are detailed in [Displaying data in the table](../../reporting/using/using-the-descriptive-analysis-wizard.md#displaying-data-in-the-table). A full example is detailed in [Analyzing a population](../../reporting/using/use-cases.md#analyzing-a-population).
+Configuration options available for a report created via the **[!UICONTROL Qualitative distribution]** template are detailed in [Displaying data in the table](#displaying-data-in-the-table). A full example is detailed in [Analyzing a population](../../reporting/using/use-cases.md#analyzing-a-population).
 
 When you use the descriptive analysis wizard to analyze your data, the available options depend on the chosen settings. These are detailed below.
 
