@@ -34,6 +34,8 @@ Information was added to specify that personalization fields content cannot exce
 
 The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
+The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
 ## October 2019 {#october-2019}
 
 The list of error messages for Campaign Standard and Campaign Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
