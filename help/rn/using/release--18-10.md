@@ -132,7 +132,7 @@ snippet: y
   </tr> 
   <tr> 
    <td> Workflow monitoring<br /> </td> 
-   <td> <p>With the new Adobe Campaign Workflow HeatMap, the platform administrators have a quick graphical representation of all the concurrent workflows, which allows them to monitor the load on the instance and plan workflows accordingly.</p> <p>For more information, refer to the <a href="../../production/using/monitoring-processes.md#workflow-monitoring">detailed documentation</a>.</p> <p>The Workflow HeatMap package is also available on demand for builds prior to 8977 (starting build 8700). For more on requesting and installing it, refer to <a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html">this page</a>.</p> </td> 
+   <td> <p>With the new Adobe Campaign Workflow HeatMap, the platform administrators have a quick graphical representation of all the concurrent workflows, which allows them to monitor the load on the instance and plan workflows accordingly.</p> <p>For more information, refer to the <a href="../../workflow/using/heatmap.md">detailed documentation</a>.</p> <p>The Workflow HeatMap package is also available on demand for builds prior to 8977 (starting build 8700). For more on requesting and installing it, refer to <a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html">this page</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -163,7 +163,9 @@ snippet: y
 
 Client and server upgrade
 
-If you have a server that has been updated to 18.10, you will have to use a 18.10 client in order to access your server. The 18.10 client will be able to connect to an older server version.
+>[!CAUTION]
+>
+>If you have a server that has been updated to 18.10, you will have to use a 18.10 client in order to access your server. The 18.10 client will be able to connect to an older server version.
 
 Domain name management
 

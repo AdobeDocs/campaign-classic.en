@@ -32,7 +32,7 @@ Click the links in the navigation bar to access the various universes. Campaign 
 
 The navigation block of the **[!UICONTROL Campaigns]** universe offers various entries, depending on modules installed on the instance. As an example, you can access:
 
-* **Campaign calendar**: calendar of plans, marketing programs, deliveries and campaigns. Refer to [Campaign calendar](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
+* **Campaign calendar**: calendar of plans, marketing programs, deliveries and campaigns. Refer to [Campaign calendar](#campaign-calendar).
 * **Campaigns**: access to the campaigns contained in all marketing programs.
 * **Deliveries**: access to the deliveries linked to the campaigns.
 * **Web Applications**: access to Web applications (forms, surveys, etc.).
@@ -114,7 +114,7 @@ With Adobe Campaign you can set up collaborative processes for the creation and 
 
 >[!NOTE]
 >
->The configuration of campaign templates is presented in [Campaign templates](../../campaign/using/setting-up-marketing-campaigns.md#campaign-templates).
+>The configuration of campaign templates is presented in [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 #### Schedule {#schedule}
 
@@ -142,15 +142,15 @@ The **[!UICONTROL Reports]** link lets you access the campaign reports.
 
 Campaigns are created via campaign templates. You can configure reusable templates for which some options are selected and other settings are already saved. For each campaign, the following functionality is offered:
 
-* Referencing of documents and resources: you can associate documents with the campaign (brief, report, images, etc.). All document formats are supported. See [Managing associated documents](../../campaign/using/setting-up-marketing-campaigns.md#managing-associated-documents). 
+* Referencing of documents and resources: you can associate documents with the campaign (brief, report, images, etc.). All document formats are supported. See [Managing associated documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents). 
 * Defining costs: for each campaign, Adobe Campaign lets you define cost entries and cost calculation structures which can be used when creating the marketing campaign. For example: printing costs, use of an external agency, room rental, etc. See [Defining cost categories](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories).
 * Defining objectives: you can define quantifiable objectives for a campaign, e.g. number of subscribers, business volume, etc. This information is later used in campaign reports.
-* Managing seed addresses (for more on this, refer to [this section](../../delivery/using/about-seed-addresses.md)) and control groups (refer to [Defining a control group](../../campaign/using/setting-up-marketing-campaigns.md#defining-a-control-group)).
-* Managing approvals: you can select the treatments to be approved and, if necessary, select the reviewing operators or groups of operators. See [Checking and approving deliveries](../../campaign/using/setting-up-marketing-campaigns.md#checking-and-approving-deliveries).
+* Managing seed addresses (for more on this, refer to [this section](../../delivery/using/about-seed-addresses.md)) and control groups (refer to [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
+* Managing approvals: you can select the treatments to be approved and, if necessary, select the reviewing operators or groups of operators. See [Checking and approving deliveries](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]
 >
->To access the campaign configurations and make changes to them, click the **[!UICONTROL Advanced campaign parameters...]** link in the **[!UICONTROL Edit]** tab.
+>To access the campaign configurations and make changes to them, click the **[!UICONTROL Advanced campaign parameters...]** link in the **[!UICONTROL Edit]** tab. For more information on setting parameters at the campaign level so deliveries inherit values automatically, see [our Technote](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
 
 ## Using the web interface {#using-the-web-interface-}
 
@@ -165,4 +165,4 @@ Approvals (of a target or a delivery content, for instance) can be carried out v
 
 ![](assets/campaign_web_interface_validation.png)
 
-You can also use the link contained in the notification messages. For more on this, refer to [Checking and approving deliveries](../../campaign/using/setting-up-marketing-campaigns.md#checking-and-approving-deliveries).
+You can also use the link contained in the notification messages. For more on this, refer to [Checking and approving deliveries](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).

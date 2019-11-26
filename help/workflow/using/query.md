@@ -28,7 +28,7 @@ A query lets you select a target according to criteria. You can associate a segm
 
 ![](assets/s_user_segmentation_wizard_9.png)
 
-For more on using and managing additional data, refer to [Adding data](../../workflow/using/query.md#adding-data).
+For more on using and managing additional data, refer to [Adding data](#adding-data).
 
 The **[!UICONTROL Edit query...]** link lets you define the targeting type, the restrictions, and the selection criteria for the population in the following way:
 

@@ -27,7 +27,7 @@ To use the integration with the IMS:
 
 >[!NOTE]
 >
->Make sure that your users are linked to the Adobe Marketing Cloud groups that will be synced with Adobe Campaign. Refer to [Configuring the external account](../../integrations/using/configuring-ims.md#configuring-the-external-account).
+>Make sure that your users are linked to the Adobe Marketing Cloud groups that will be synced with Adobe Campaign. Refer to [Configuring the external account](#configuring-the-external-account).
 
 ## Updating the console {#updating-the-console}
 
@@ -51,7 +51,7 @@ Configure the **Adobe Experience Cloud** external account in **[!UICONTROL Admin
 
 Enter the following information:
 
-* Connection information for the IMS server used (ID and secret). This information is provided by Adobe support. For more information, refer to the [FAQ for Adobe Experience Cloud Administrators](https://marketing.adobe.com/resources/help/en_US/mcloud/faq.md).
+* Connection information for the IMS server used (ID and secret). This information is provided by Adobe support. For more information, refer to the [FAQ for Adobe Experience Cloud Administrators](https://marketing.adobe.com/resources/help/en_US/mcloud/faq.html).
 
   The **[!UICONTROL Callback server]** address must be specified in **https**. This field corresponds to the access URL of your Adobe Campaign instance.
 

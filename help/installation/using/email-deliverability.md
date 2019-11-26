@@ -93,7 +93,7 @@ When a message is sent, there are 3 possible results:
 
 1. **Success**: the message was sent successfully. The message is updated.
 1. **Message Failed**: the contacted server rejected the message for the chosen recipient. This result matches return codes 550 to 599, but exceptions can be defined.
-1. **Session Failed** (for 5.11 upward): if the **mta** receives an answer for this message, the message is abandoned (refer to [Message abandonment](../../installation/using/email-deliverability.md#message-abandonment)). The message is sent to another path or set to pending if no other paths are available (refer to [Message pending](../../installation/using/email-deliverability.md#message-pending)).
+1. **Session Failed** (for 5.11 upward): if the **mta** receives an answer for this message, the message is abandoned (refer to [Message abandonment](#message-abandonment)). The message is sent to another path or set to pending if no other paths are available (refer to [Message pending](#message-pending)).
 
    >[!NOTE]
    >
@@ -131,21 +131,82 @@ By default, the statistics server listens on port 7777. This port can be modifie
 
 ### MX configuration {#mx-configuration}
 
-MX configuration is carried out in the database via the Adobe Campaign console.
+### About MX rules {#about-mx-rules}
 
-The rules to be complied with for MX are defined in the **[!UICONTROL MX management]** document of the **[!UICONTROL Campaign execution > Administration > Non deliverables Management > Mail rule sets]** document of the tree.
+MX rules (Mail eXchanger) are the rules that manage communication between a sending server and a receiving server.
 
-In order for changes to be taken into account, you need to restart the statistics server.
+These rules are reloaded automatically every morning at 6AM (server time) in order to regularly supply the client instance.
 
-To reload the configuration without restarting the statistics server, use the following command on the machine which hosts the server:
+Depending on the material capacities and the internal policy, an ISP will accept a predefined number of connections and messages per hour. These variables may be automatically modified by the ISP system depending on the reputation of the IP and sending domain. Via its deliverability platform, Adobe Campaign manages more than 150 specific rules by the ISP, and, in addition, one generic rule for other domains.
+
+The maximum number of connections does not depend exclusively on the number of public IP addresses used by the MTA.
+
+For instance, if you have allowed 5 connections in the MX rules and you have configured 2 public IPs you might think that you cannot have more than 10 connections simultaneously opened to this domain. This is not true, in fact the maximum number of connections refers to a path and a path that is a combination of one of our MTA public IPs and a public IP of the client's MTA.
+
+In the example below, the user has two public IP addresses configured and the domain is yahoo.com.
 
 ```
-nlserver stat -reload
+user:~ user$ host -t mx yahoo.com
+                yahoo.com mail is handled by 1 mta5.am0.yahoodns.net.
+                yahoo.com mail is handled by 1 mta6.am0.yahoodns.net.
+                yahoo.com mail is handled by 1 mta7.am0.yahoodns.net.
 ```
 
-If this document does not exist, you can create it manually.
+MX records for yahoo.com tell us that yahoo.com has 3 Mail Exchangers. To connect the Peer Mail Exchanger, the MTA is going to request it's IP address from the DNS.
 
-To do this:
+```
+user:~ user$ host -t a mta5.am0.yahoodns.net
+                mta5.am0.yahoodns.net has address 98.136.216.26
+                mta5.am0.yahoodns.net has address 98.136.217.202
+                mta5.am0.yahoodns.net has address 98.138.112.38
+                mta5.am0.yahoodns.net has address 66.196.118.37
+                mta5.am0.yahoodns.net has address 63.250.192.46
+                mta5.am0.yahoodns.net has address 66.196.118.240
+                mta5.am0.yahoodns.net has address 98.136.217.203
+                mta5.am0.yahoodns.net has address 98.138.112.35
+```
+
+For this record, the user can contact 8 peer IP addresses. As he has 2 public IP address this gives him 8 * 2 = 16 combinations to reach the yahoo.com mail servers. Each of those combinations is called a path.
+
+The second MX record appears as:
+
+```
+user:~ user$ host -t a mta6.am0.yahoodns.net
+                mta6.am0.yahoodns.net has address 98.138.112.38
+                mta6.am0.yahoodns.net has address 98.136.216.26
+                mta6.am0.yahoodns.net has address 63.250.192.46
+                mta6.am0.yahoodns.net has address 66.196.118.35
+                mta6.am0.yahoodns.net has address 98.136.217.203
+                mta6.am0.yahoodns.net has address 98.138.112.32
+                mta6.am0.yahoodns.net has address 98.138.112.37
+                mta6.am0.yahoodns.net has address 66.196.118.33
+```
+
+4 of these 8 IP addresses are already used in mta5 (98.136.216.26, 98.138.112.38, 63.250.192.46 and 98.136.217.203). This record lets the user use 4 new IP addresses. The third MX record will do the same.
+
+In total, we have 16 remote IP addresses. In combination with our 2 local public IPs we have 32 paths to reach yahoo.com mail servers.
+
+>[!NOTE]
+>
+>If 2 MX records are referencing the same IP address, this one will count as one path and not two.
+
+Below are some examples of using MX rules:
+
+   ![](assets/s_ncs_examples_mx_rules.png)
+
+In the example below, the user has a limit of 10,000 messages per hour for a particular domain, but the MTA throughput capacity is higher than this limit.
+
+In this case, the traffic is divided into 12 periods of 5 minutes for each hour, and the real limit is 833 messages per period.
+
+These messages will be delivered as quickly as possible.
+
+   ![](assets/s_ncs_traffic_shaping.png)
+
+### Configuring MX management {#configuring-mx-management}
+
+The rules to be complied with for MX are defined in the **[!UICONTROL MX management]** document of the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** node of the tree.
+
+If the **[!UICONTROL MX management]** document does not exist in the node, you can create it manually. To do this:
 
 1. Create a new set of mail rules.
 1. Choose the **[!UICONTROL MX management]** mode.
@@ -154,56 +215,86 @@ To do this:
 
 1. Enter **defaultMXRules** in the **[!UICONTROL Internal name]** field.
 
-Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
+In order for changes to be taken into account, you need to restart the statistics server.
 
-For example, the following addresses:
+To reload the configuration without restarting the statistics server, use the following command on the machine which hosts the server: `nlserver stat -reload`
 
-* a.mx.yahoo.com 
-* b.mx.yahoo.com 
-* c.mx.yahoo.com
+>[!NOTE]
+>
+>This command line is preferred to **nlserver restart**. It prevents statistics collected before the restart being lost and avoids peaks in use which can go against quotas defined in the MX rules.
 
-are compatible with the following masks:
+### Configuring MX rules {#configuring-mx-rules}
 
-* &#42;.yahoo.com
-* ?.mx.yahoo.com
-
-Configuration example:
-
-![](assets/s_ncs_install_mx_mgt_rule_details.png)
+The **[!UICONTROL MX management]** document lists all domains that are linked to an MX rule.
 
 These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
 
-The following parameters are available for each rule:
+The following parameters available for each rule are:
 
-* **[!UICONTROL Range of identifiers]** : this option lets you indicate the ranges of identifiers (publicID) for which the rule applies. You can specify:
+* **[!UICONTROL MX mask]**: domain on which the rule is applied. Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
 
-    * A number: the rule will only apply to this publicId, 
-    * A range of numbers (**number1-number2**): the rule will apply to all publicIds between these two numbers.
+  For example, the following addresses:
 
-  If the field is empty, the rule applies to all identifiers.
+  * a.mx.yahoo.com 
+  * b.mx.yahoo.com 
+  * c.mx.yahoo.com
 
-* **[!UICONTROL Shared]** : this option indicates that the highest number of messages per hour and the number of connections apply to all MXs linked to this rule. 
-* **[!UICONTROL Maximum number of connections]** : maximum number of simultaneous connections to an MX from a given address. 
-* **[!UICONTROL Maximum number of messages]** : maximum number of messages that can be sent on a connection. When the messages exceed this number, the connection is closed and a new one is opened. 
-* **[!UICONTROL Messages per hour]** : maximum number of messages that can be sent in one hour for an MX via a given address. 
-* **[!UICONTROL Connection time out]** : time threshold for connecting to an MX.
+  are compatible with the following masks:
+
+  * &#42;.yahoo.com
+  * ?.mx.yahoo.com
+
+  For example, for the email address foobar@gmail.com, the domain is gmail.com and the MX record is:
+
+  ```
+  gmail.com mail exchanger = 20 alt2.gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 10 alt1.gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 40 alt4.gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 5  gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 30 alt3.gmail-smtp-in.l.google.com.
+  ```
+
+  In this case the MX rule `*.google.com` will be used. As you can see, the MX rule mask does not necessarily match the domain in the mail. The MX rules applied for gmail.com email addresses will be the ones with the mask `*.google.com`.
+
+* **[!UICONTROL Range of identifiers]**: this option lets you indicate the ranges of identifiers (publicID) for which the rule applies. You can specify:
+
+  * A number: the rule will only apply to this publicId,
+  * A range of numbers (**number1-number2**): the rule will apply to all publicIds between these two numbers.
+
+  >[!NOTE]
+  >
+  >If the field is empty, the rule applies to all identifiers.
+
+  A Public ID is an internal identifier of a Public IP used by one or several MTAs. These IDs are defined in the MTA servers in the **config-instance.xml** file.
+  
+  ![](assets/s_ncs_install_mta_ips.png)
+
+* **[!UICONTROL Shared]**: defines the scope of the properties for this MX rule. When checked, all of the parameters are shared on all IPs available on the instance. When unchecked, the MX rules are defined for each IP. The maximum number of messages is multiplied by the number of available IPs.
+* **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to to the sender's domain.
+* **[!UICONTROL Maximum number of messages]**: maximum number of messages that can be sent on a connection. When the messages exceed this number, the connection is closed and a new one is opened.
+* **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour to the sender's domain.
+* **[!UICONTROL Connection time out]**: time threshold for connecting to a domain.
 
   >[!NOTE]
   >
   >Windows can issue a **timeout** before this threshold, which depends on your version of Windows.
 
-* **[!UICONTROL Timeout Data]** : maximum wait time after sending message content (DATA section of the SMTP protocol). 
-* **[!UICONTROL Timeout]** : maximum wait time for other exchanges with the SMTP server. 
-* **[!UICONTROL TLS]** : The TLS protocol, which allows you to encrypt email deliveries, can be enabled selectively. For each MX mask, the following options are available:
+* **[!UICONTROL Timeout Data]**: maximum wait time after sending message content (DATA section of the SMTP protocol). 
+* **[!UICONTROL Timeout]**: maximum wait time for other exchanges with the SMTP server. 
+* **[!UICONTROL TLS]**: The TLS protocol, which allows you to encrypt email deliveries, can be enabled selectively. For each MX mask, the following options are available:
 
-    * **[!UICONTROL Default configuration]** : This is the general configuration specified in the serverConf.xml configuration file which is applied.
+  * **[!UICONTROL Default configuration]**: This is the general configuration specified in the serverConf.xml configuration file which is applied.
 
-      >[!CAUTION]
-      >
-      >It is not recommended to modify the default configuration.
+    >[!CAUTION]
+    >
+    >It is not recommended to modify the default configuration.
 
-    * **[!UICONTROL Disabled]** : The messages are systematically sent without encryption.
-    * **[!UICONTROL Opportunistic]** : Message delivery is encrypted if the receiving server (SMTP) can generate the TLS protocol.
+  * **[!UICONTROL Disabled]** : The messages are systematically sent without encryption.
+  * **[!UICONTROL Opportunistic]** : Message delivery is encrypted if the receiving server (SMTP) can generate the TLS protocol.
+
+Configuration example:
+
+![](assets/s_ncs_install_mx_mgt_rule_details.png)
 
 ### Managing email formats {#managing-email-formats}
 

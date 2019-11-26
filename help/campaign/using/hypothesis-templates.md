@@ -31,20 +31,20 @@ To create a hypothesis template, apply the following steps:
 1. Click **[!UICONTROL New]** or right-click in the list of templates and choose **[!UICONTROL New]** in the drop-down list.
 1. Enter the hypothesis label.
 1. Specify whether the template is destined for hypotheses on offers or deliveries via the **[!UICONTROL Hypothesis type]**.
-1. For **[!UICONTROL Delivery]** type templates, specify whether measurements should be carried out with or without a control group (for more on this, refer to [Properties of a hypothesis template](../../campaign/using/hypothesis-templates.md#properties-of-a-hypothesis-template)).
-1. For **[!UICONTROL Delivery]** type templates, you can choose a specific channel or decide to apply the template to all available channels in Adobe Campaign using the **[!UICONTROL Channel]** drop-down list (for more on this, refer to [Properties of a hypothesis template](../../campaign/using/hypothesis-templates.md#properties-of-a-hypothesis-template)).
+1. For **[!UICONTROL Delivery]** type templates, specify whether measurements should be carried out with or without a control group (for more on this, refer to [Properties of a hypothesis template](#properties-of-a-hypothesis-template)).
+1. For **[!UICONTROL Delivery]** type templates, you can choose a specific channel or decide to apply the template to all available channels in Adobe Campaign using the **[!UICONTROL Channel]** drop-down list (for more on this, refer to [Properties of a hypothesis template](#properties-of-a-hypothesis-template)).
 1. Select the **[!UICONTROL Execution folder]** in which you wish to create and automatically execute the hypotheses that will be created from this template.
-1. Choose the execution settings (for more on this, refer to [Hypothesis template execution settings](../../campaign/using/hypothesis-templates.md#hypothesis-template-execution-settings)).
-1. Specify the hypothesis calculation period (for more on this, refer to [Hypothesis template execution settings](../../campaign/using/hypothesis-templates.md#hypothesis-template-execution-settings)).
+1. Choose the execution settings (for more on this, refer to [Hypothesis template execution settings](#hypothesis-template-execution-settings)).
+1. Specify the hypothesis calculation period (for more on this, refer to [Hypothesis template execution settings](#hypothesis-template-execution-settings)).
 
    >[!CAUTION]
    >
    >This period is determined from the contact date.
 
-1. In the **[!UICONTROL Transactions]** tab, specify the tables and fields required for the hypothesis calculation (for more on this, refer to [Transactions](../../campaign/using/hypothesis-templates.md#transactions)).
+1. In the **[!UICONTROL Transactions]** tab, specify the tables and fields required for the hypothesis calculation (for more on this, refer to [Transactions](#transactions)).
 1. If your template is configured for **[!UICONTROL Offer]** type hypotheses, you can enable the **[!UICONTROL Update offer proposition status]** option: in this case, select the status of the offer proposition you want to change.
-1. Specify the scope of the hypothesis application (for more on this, refer to [Hypothesis perimeter](../../campaign/using/hypothesis-templates.md#hypothesis-perimeter)).
-1. If necessary, use a script to complete filtering (for more on this, refer to [Hypothesis perimeter](../../campaign/using/hypothesis-templates.md#hypothesis-perimeter)).
+1. Specify the scope of the hypothesis application (for more on this, refer to [Hypothesis perimeter](#hypothesis-perimeter)).
+1. If necessary, use a script to complete filtering (for more on this, refer to [Hypothesis perimeter](#hypothesis-perimeter)).
 
 ### Properties of a hypothesis template {#properties-of-a-hypothesis-template}
 
@@ -64,7 +64,7 @@ The template's **[!UICONTROL General]** tab lets you specify the general templat
   >
   >If the template is configured to take a control group into account, but no group is defined in the delivery which the hypotheses concern, the results will be based on targeted recipients only.
 
-  For more on defining and configuring a control group, refer to [Defining a control group](../../campaign/using/setting-up-marketing-campaigns.md#defining-a-control-group).
+  For more on defining and configuring a control group, refer to [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
 * **[!UICONTROL Channel]** : you can choose a specific channel or make the hypothesis template available to all channels in the Adobe Campaign console by selecting **[!UICONTROL All channels]** in the drop-down list. If you configure the template for a specific channel, this lets you automatically filter deliveries per channel when creating the hypothesis (refer to [Creating hypotheses](../../campaign/using/creating-hypotheses.md)). 
 

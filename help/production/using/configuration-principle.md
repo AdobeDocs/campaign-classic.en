@@ -26,7 +26,7 @@ For a given server, there are two elements that are common to all Adobe Campaign
 
   >[!CAUTION]
   >
-  >To log on with the **Internal** identifier, you need to have defined a password beforehand. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).
+  >To log on with the **Internal** identifier, you need to have defined a password beforehand. For more on this, refer to [this section](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
 * Multiple technical server configurations: these configurations can all be overloaded in the specific configuration of an instance.
 

@@ -37,7 +37,7 @@ Tab contents may no longer be changed once the delivery has been sent.
 
 ### Delivery summary {#delivery-summary}
 
-The **[!UICONTROL Summary]** tab contains the characteristics of the delivery: delivery status, channel used, information about the sender, subject, information concerning execution. For more on this, refer to [Number of messages sent](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent).
+The **[!UICONTROL Summary]** tab contains the characteristics of the delivery: delivery status, channel used, information about the sender, subject, information concerning execution. For more on this, refer to [Number of messages sent](#number-of-messages-sent).
 
 The **[!UICONTROL reports]** link lets you look at a set of reports concerning the delivery action: general delivery report, detailed report, delivery report, distribution of failed messages, opening rate, clicks and transactions, etc. The contents of this tab can be configured according to your requirements. For more information, refer to [this section](../../reporting/using/reports-on-deliveries.md#delivery-reports).
 
@@ -49,7 +49,7 @@ For a delivery, you can display (for example) only recipients with a failed deli
 
 ![](assets/s_ncs_user_delivery_delivery_tab.png)
 
-Various statuses are listed on [this page](../../delivery/using/monitoring-a-delivery.md#delivery-statuses).
+Various statuses are listed on [this page](#delivery-statuses).
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Tracking configuration is performed at the appropriate stage in the delivery wiz
 
 The **[!UICONTROL Audit]** tab contains the delivery log and all the messages concerning the proofs. The **[!UICONTROL Refresh]** button lets you update the data. Use the **[!UICONTROL Filters]** button to define a filter on the data.
 
-Special icons enable you to identify errors or warnings. See [Analyzing the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#analyzing-the-delivery).
+Special icons enable you to identify errors or warnings. See [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 The **[!UICONTROL Proofs]** sub-tab lets you view the list of proofs that have been sent.
 
@@ -110,7 +110,7 @@ Platform and database maintenance can also affect delivery sending performances.
 
 After clicking the **[!UICONTROL Send]** button, your delivery seems to take longer than usual. This may be caused by different elements:
 
-* Some email providers might have blacklisted your IP addresses. In this case, check your broadlogs and consult [this getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.md) .
+* Some email providers might have blacklisted your IP addresses. In this case, check your broadlogs and consult [this getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) .
 * Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) to learn about content guidelines.
 * Throttling might have occurred within the Adobe Campaign MTA. This is caused by:
 
@@ -118,6 +118,28 @@ After clicking the **[!UICONTROL Send]** button, your delivery seems to take lon
     * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential blacklisting.
 
 * A system issue can prevent servers from interacting together: this can slow down the whole sending process. Check the servers to ensure that there is no memory or resource issues which can impact Campaign in the process of getting the personalization data for example.
+
+### Best practices for performance {#best-practices-performance}
+
+* Do not keep deliveries in failed state on the instance, as this maintains temporary tables and impacts the performance.
+
+* Remove deliveries which are no longer needed.
+
+* Inactive recipients in the last 12 months to be removed from the database to maintain address quality.
+
+* Do no try to schedule large deliveries together. There is a gap of 5-10 minutes to spread the load uniformly over the system. Coordinate the scheduling of deliveries with the other members of your team to ensure the best performance. When the marketing server is handling many different tasks at the same time, it can slow down performance.
+
+* Keep the size of your emails as low as possible. The recommended maximum size of an email is about 35KB. The size of an email delivery generates a certain amount of volume in the sending servers.
+
+* Large deliveries, such as deliveries to over one million recipients, need space in the sending queues. This alone is not an issue for the server, but when combined with dozens of other large deliveries all going out at the same time, it can introduce a sending delay.
+
+* Personalization in emails pulls data out of the database for each recipient. If there are many personalization elements, that increases the amount of data needed to prepare the delivery.
+
+* Index addresses. To optimize the performance of the SQL queries used in the application, an index can be declared from the main element of the data schema.
+
+>[!NOTE]
+>
+>ISPs would deactivate addresses after a period of inactivity. Bounced messages are sent to senders to inform them about this new status.
 
 ## Delivery statuses {#delivery-statuses}
 
@@ -145,7 +167,7 @@ While sending a delivery, you may face the following status on your delivery das
   </tr> 
   <tr> 
    <td> Failed<br /> </td> 
-   <td> The delivery could not reach the recipient because of an invalid address or a full inbox for example. It can also be linked to an issue with personalization blocks since they can generate errors when the schemas do not match the delivery mapping. See <a href="../../delivery/using/monitoring-a-delivery.md#failed-status" target="_blank">Failed status</a><br /> </td> 
+   <td> The delivery could not reach the recipient because of an invalid address or a full inbox for example. It can also be linked to an issue with personalization blocks since they can generate errors when the schemas do not match the delivery mapping. See <a href="#failed-status" target="_blank">Failed status</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Taken into account by the service provider<br /> </td> 
@@ -157,7 +179,7 @@ While sending a delivery, you may face the following status on your delivery das
   </tr> 
   <tr> 
    <td> Pending<br /> </td> 
-   <td> The delivery is ready to be sent and is going to be processed by the delivery server (MTA). See <a href="../../delivery/using/monitoring-a-delivery.md#pending-status" target="_blank">Pending status</a>.<br /> </td> 
+   <td> The delivery is ready to be sent and is going to be processed by the delivery server (MTA). See <a href="#pending-status" target="_blank">Pending status</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Delivery canceled<br /> </td> 
@@ -180,7 +202,7 @@ To learn how to optimize the deliverability of your Adobe Campaign emails, refer
 
 After confirming your delivery, you can see that the status of your delivery is **[!UICONTROL Pending]**. This status means that the execution process is waiting on the availability of some resources.
 
-The **[!UICONTROL Pending]** status can first mean that your delivery has been scheduled and is pending until the given date. For more on this, refer to the [Delivery scheduling](../../delivery/using/key-steps-when-creating-a-delivery.md#scheduling-the-delivery-sending) section.
+The **[!UICONTROL Pending]** status can first mean that your delivery has been scheduled and is pending until the given date. For more on this, refer to the [Delivery scheduling](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending) section.
 
 If your delivery is not being sent and its status remains **[!UICONTROL Pending]**, it can be the result of:
 
@@ -190,7 +212,7 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
 
     ```
     nlserver pdump
-    HH:MM:SS > Application server for Adobe Campaign Version X.Y (build XXXX) of DD/MM/YYYY
+    HH:MM:SS > Application server for Adobe Campaign Classic (X.Y.Z YY.R build nnnn@SHA1) of DD/MM/YYYY
     [...]
     mta@<INSTANCENAME> (9268) - 23.0 Mb
     [...]
@@ -206,7 +228,7 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
     >
     >Replace `<INSTANCENAME>` with the name of your instance (production, development, etc.). The instance name is identified via the configuration files: `[path of application]nl6/conf/config-<INSTANCENAME>.xml`
 
-* The delivery may be using an affinity not configured on the sending tenant. In this case, check the configuration of the traffic management (IP affinity) and use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+* The delivery may be using an affinity not configured on the sending server. In this case, check the configuration of the traffic management (IP affinity) and use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 * When the delivery preparation is pending, there can be too many campaigns running, which blocked the status update of the delivery. To solve this, go to **[!UICONTROL Options]** and increase the value of **[!UICONTROL NmsOperation_LimitConcurrency]** (default is 10). Do not run more campaigns than the value assigned to this specific option.
 
 ### Failed status {#failed-status}
@@ -237,7 +259,7 @@ Delivery logs are key to learn why a delivery failed. Here are possible errors t
 
 **Related topics:**
 
-* [Delivery logs and history](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)
+* [Delivery logs and history](#delivery-logs-and-history)
 * [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 * [Delivery failure types and reasons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)
 

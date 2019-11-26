@@ -42,7 +42,7 @@ When migrating to Adobe Campaign v7, the following elements must be configured. 
 
   If you use Oracle as a database, check that the Oracle timezone files have properly been synched between the application server and the database server. For more on this, refer to the [Oracle](../../migration/using/general-configurations.md#oracle) section.
 
-  In addition, during a migration from a v.5.11 platform, in MySQL, you must perform additional configurations. For more information, refer to the [MySQL](../../migration/using/specific-configurations-in-v5-11.md#mysql-) section.
+  In addition, during a migration from a v.5.11 platform, in MySQL, you must perform additional configurations. For more information, refer to the [MySQL](../../migration/using/specific-configurations-in-v5-11.md#mysql) section.
 
 * Security zones
 
@@ -62,7 +62,7 @@ When migrating to Adobe Campaign v7, the following elements must be configured. 
 
 * Tree structure
 
-  If migrating from a v5.11 platform, you must reorganize the tree structure folders according to Adobe Campaign v6 norms. For more information, refer to the [Adobe Campaign v7 tree structure](../../migration/using/specific-configurations-in-v5-11.md#adobe-campaign-v7-tree-structure) section.
+  If migrating from a v5.11 platform, you must reorganize the tree structure folders according to Adobe Campaign v6 norms. For more information, refer to the [Adobe Campaign v7 tree structure](../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure) section.
 
 * Interaction
 

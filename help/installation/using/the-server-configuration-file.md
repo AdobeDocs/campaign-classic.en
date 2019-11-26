@@ -28,38 +28,38 @@ The first parameters are inside the **shared** node. These are related to the in
 
 **Shared parameters**
 
-* [authentication](../../installation/using/the-server-configuration-file.md#authentication)
-* [dataStore](../../installation/using/the-server-configuration-file.md#datastore)
-* [dnsConfig](../../installation/using/the-server-configuration-file.md#dnsconfig)
-* [exec](../../installation/using/the-server-configuration-file.md#exec)
-* [htmlToPdf](../../installation/using/the-server-configuration-file.md#htmltopdf)
-* [javaScript](../../installation/using/the-server-configuration-file.md#javascript)
-* [mailExchanger](../../installation/using/the-server-configuration-file.md#mailexchanger)
-* [module](../../installation/using/the-server-configuration-file.md#module)
-* [monitoring](../../installation/using/the-server-configuration-file.md#monitoring)
-* [ooconv](../../installation/using/the-server-configuration-file.md#ooconv)
-* [proxyConfig](../../installation/using/the-server-configuration-file.md#proxyconfig)
-* [threadPool](../../installation/using/the-server-configuration-file.md#threadpool)
-* [urlPermission](../../installation/using/the-server-configuration-file.md#urlpermission)
-* [xtkJobs](../../installation/using/the-server-configuration-file.md#xtkjobs)
+* [authentication](#authentication)
+* [dataStore](#datastore)
+* [dnsConfig](#dnsconfig)
+* [exec](#exec)
+* [htmlToPdf](#htmltopdf)
+* [javaScript](#javascript)
+* [mailExchanger](#mailexchanger)
+* [module](#module)
+* [monitoring](#monitoring)
+* [ooconv](#ooconv)
+* [proxyConfig](#proxyconfig)
+* [threadPool](#threadpool)
+* [urlPermission](#urlpermission)
+* [xtkJobs](#xtkjobs)
 
 **Other parameters**
 
-* [archiving](../../installation/using/the-server-configuration-file.md#archiving)
-* [inMail](../../installation/using/the-server-configuration-file.md#inmail)
-* [interactiond](../../installation/using/the-server-configuration-file.md#interactiond)
-* [mta](../../installation/using/the-server-configuration-file.md#mta)
-* [nmac](../../installation/using/the-server-configuration-file.md#nmac)
-* [pipelined](../../installation/using/the-server-configuration-file.md#pipelined)
-* [repair](../../installation/using/the-server-configuration-file.md#repair)
-* [securityZone](../../installation/using/the-server-configuration-file.md#securityzone)
-* [sms](../../installation/using/the-server-configuration-file.md#sms)
-* [stat](../../installation/using/the-server-configuration-file.md#stat)
-* [syslogd](../../installation/using/the-server-configuration-file.md#syslogd)
-* [tracking](../../installation/using/the-server-configuration-file.md#tracking)
-* [trackinglogd](../../installation/using/the-server-configuration-file.md#trackinglogd)
-* [web](../../installation/using/the-server-configuration-file.md#web)
-* [wfserver](../../installation/using/the-server-configuration-file.md#wfserver)
+* [archiving](#archiving)
+* [inMail](#inmail)
+* [interactiond](#interactiond)
+* [mta](#mta)
+* [nmac](#nmac)
+* [pipelined](#pipelined)
+* [repair](#repair)
+* [securityZone](#securityzone)
+* [sms](#sms)
+* [stat](#stat)
+* [syslogd](#syslogd)
+* [tracking](#tracking)
+* [trackinglogd](#trackinglogd)
+* [web](#web)
+* [wfserver](#wfserver)
 
 ## authentication {#authentication}
 
@@ -904,7 +904,7 @@ List of domains and regular expressions specifying whether a URL encountered in 
 
 If the URL cannot be found, the default action is carried out, according to the default mode specified.
 
-For additional information, refer to [Outgoing connection protection](../../installation/using/configuring-campaign-server.md#outgoing-connection-protection).
+For additional information, refer to [Outgoing connection protection](../../installation/using/configuring-campaign-server.md#url-permissions).
 
 <table> 
  <thead> 
@@ -935,7 +935,7 @@ For additional information, refer to [Outgoing connection protection](../../inst
 
 For each URL, add a **url** node with the following parameters:
 
-For additional information, refer to [Outgoing connection protection](../../installation/using/configuring-campaign-server.md#outgoing-connection-protection).
+For additional information, refer to [Outgoing connection protection](../../installation/using/configuring-campaign-server.md#url-permissions).
 
 <table> 
  <thead> 

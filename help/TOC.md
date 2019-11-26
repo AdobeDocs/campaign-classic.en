@@ -2,7 +2,9 @@
 product: Adobe Campaign Classic
 audience: end-user
 user-guide-title: Adobe Campaign Classic Help
-index: n
+index: y
+product: adobe campaign
+sub-product: adobe campaign classic
 ---
 
 # Adobe Campaign Classic Help {#using}
@@ -11,11 +13,13 @@ index: n
 + Release Notes {#release-notes}
   + [About Release Notes](rn/using/about-release-notes.md)
   + [Control Panel Releases](rn/using/control-panel.md)
+  + [Campaign Mobile SDK](rn/using/mobile-sdk.md)
   + [Release 19.1](rn/using/latest-release.md)
   + [Release 18.10](rn/using/release--18-10.md)
   + [Release 18.6](rn/using/release--18-6.md)
   + [Release 18.4](rn/using/release--18-4.md)
   + [Legacy Release Notes](rn/using/legacy-release-notes.md)
+  + [Documentation Updates](rn/using/documentation-updates.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -59,16 +63,19 @@ index: n
   + About deliveries and channels {#about-deliveries-and-channels}
        + [Communication channels](delivery/using/communication-channels.md)
        + [Accessing deliveries information](delivery/using/accessing-deliveries-information.md)
-       + [Key steps when creating a delivery](delivery/using/key-steps-when-creating-a-delivery.md)
        + [Types of deliveries](delivery/using/types-of-deliveries.md)
+  + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}
+       + [About delivery creation ](delivery/using/steps-about-delivery-creation-steps.md)
+       + [Creating and identifying the delivery](delivery/using/steps-create-and-identify-the-delivery.md)
+       + [Defining the target population](delivery/using/steps-defining-the-target-population.md)
+       + [Validating the delivery](delivery/using/steps-validating-the-delivery.md)
+       + [Sending the delivery](delivery/using/steps-sending-the-delivery.md)
   + Sending emails {#sending-emails}
        + [About email channel](delivery/using/about-email-channel.md)
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Defining the email content](delivery/using/defining-the-email-content.md)
-       + [Identifying target populations](delivery/using/identifying-target-populations.md)
        + [Sending messages](delivery/using/sending-messages.md)
        + [Attaching files](delivery/using/attaching-files.md)
-       + [Inserting a barcode in an email](delivery/using/inserting-a-barcode-in-an-email.md)
   + Sending messages on mobiles {#sending-messages-on-mobiles}
        + [SMS channel](delivery/using/sms-channel.md)
        + [LINE channel](delivery/using/line-channel.md)
@@ -81,8 +88,6 @@ index: n
        + [About direct mail channel](delivery/using/about-direct-mail-channel.md)
        + [Creating a direct mail delivery](delivery/using/creating-a-direct-mail-delivery.md)
        + [Defining the direct mail content](delivery/using/defining-the-direct-mail-content.md)
-       + [Defining the target population](delivery/using/defining-the-target-population.md)
-       + [Sending the delivery](delivery/using/sending-the-delivery.md)
        + [Validating](delivery/using/validating.md)
        + [Other channels](delivery/using/other-channels.md)
   + Using delivery templates {#using-delivery-templates}
@@ -144,7 +149,11 @@ index: n
        + [Designing marketing campaigns](campaign/using/designing-marketing-campaigns.md)
        + [Accessing marketing campaigns](campaign/using/accessing-marketing-campaigns.md)
   + Orchestrate campaigns {#orchestrate-campaigns}
-       + [Setting up marketing campaigns](campaign/using/setting-up-marketing-campaigns.md)
+       + [Setting up Marketing Campaigns](campaign/using/setting-up-marketing-campaigns.md)
+       + [Marketing Campaigns Templates](campaign/using/marketing-campaign-templates.md)
+       + [Marketing Campaigns Deliveries](campaign/using/marketing-campaign-deliveries.md)
+       + [Marketing Campaigns Approval](campaign/using/marketing-campaign-approval.md)
+       + [Marketing Campaigns Monitoring](campaign/using/marketing-campaign-monitoring.md)
        + [Providers, stocks and budgets](campaign/using/providers--stocks-and-budgets.md)
   + Tasks, resources and budgets {#tasks--resources-and-budgets}
        + [About marketing resource management](campaign/using/about-marketing-resource-management.md)
@@ -337,7 +346,7 @@ index: n
        + [Loading (SOAP)](workflow/using/loading--soap-.md)
        + [Data loading (file)](workflow/using/data-loading--file-.md)
        + [Content Management](workflow/using/content-management.md)
-       + [Extraction (file)](workflow/using/extraction--file-.md)
+       + [Data extraction (file)](workflow/using/extraction--file-.md)
        + [SQL code and JavaScript code](workflow/using/sql-code-and-javascript-code.md)
        + [SQL Data Management](workflow/using/sql-data-management.md)
        + [Nlserver module](workflow/using/nlserver-module.md)
@@ -366,6 +375,10 @@ index: n
        + [Designing queries](workflow/using/designing-queries.md)
        + [Sending personalized alerts to operators](workflow/using/sending-personalized-alerts-to-operators.md)
        + [Email enrichment with custom date fields](workflow/using/email-enrichment-with-custom-date-fields.md)
+  + Monitoring workflows {#monitoring-workflows}
+       + [Monitoring workflow execution](workflow/using/monitoring-workflow-execution.md)
+       + [Monitoring technical workflows](workflow/using/monitoring-technical-workflows.md)
+       + [Workflow HeatMap](workflow/using/heatmap.md)
   + Advanced management {#advanced-management}
        + [Workflow properties](workflow/using/workflow-properties.md)
        + [Advanced parameters](workflow/using/advanced-parameters.md)
@@ -472,7 +485,6 @@ index: n
        + [Event collection](message-center/using/event-collection.md)
        + [Routing towards a template](message-center/using/routing-towards-a-template.md)
        + [Delivery execution](message-center/using/delivery-execution.md)
-       + [Event recycling](message-center/using/event-recycling.md)
   + Reports {#reports}
        + [About transactional messaging reports](message-center/using/about-transactional-messaging-reports.md)
        + [History of Message Center events](message-center/using/history-of-message-center-events.md)
@@ -536,7 +548,7 @@ index: n
        + [Creating and configuring the database](installation/using/creating-and-configuring-the-database.md)
        + [Campaign server configuration](installation/using/campaign-server-configuration.md)
        + [Deploying an instance](installation/using/deploying-an-instance.md)
-       + [Installing Campaign Standard packages](installation/using/installing-campaign-standard-packages.md)
+       + [Installing Campaign Classic standard packages](installation/using/installing-campaign-standard-packages.md)
   + Additional configurations {#additional-configurations}
        + [Configuring Campaign server](installation/using/configuring-campaign-server.md)
        + [Connecting through LDAP](installation/using/connecting-through-ldap.md)

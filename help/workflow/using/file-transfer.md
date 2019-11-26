@@ -56,20 +56,20 @@ The configuration depends on the action selected.
 
 1. **Test to see if file exists**
 
-   To test for the existence of a file, select the **[!UICONTROL Test to see if file exists]** option in the **[!UICONTROL Action]** field. Configuration of the remote server is the same as for file download. For more information, refer to this [section](../../workflow/using/file-transfer.md#properties).
+   To test for the existence of a file, select the **[!UICONTROL Test to see if file exists]** option in the **[!UICONTROL Action]** field. Configuration of the remote server is the same as for file download. For more information, refer to this [section](#properties).
 
    ![](assets/file_transfert_edit_test.png)
 
 1. **Listing of files**
 
-   To list the files, select the **[!UICONTROL File listing]** option from the **[!UICONTROL Action]** field. Configuration of the remote server is the same as for receiving files. For more information, refer to this [section](../../workflow/using/file-transfer.md#properties).
+   To list the files, select the **[!UICONTROL File listing]** option from the **[!UICONTROL Action]** field. Configuration of the remote server is the same as for receiving files. For more information, refer to this [section](#properties).
 
    The **[!UICONTROL List all files]** option, available when selecting the **[!UICONTROL File listing]** action, allows you to store all files present on the server in the event variable **vars.filenames** wherein the file names are separated by `\n` characters.
 
 There are two possible options for all file transfer options:
 
 * The **[!UICONTROL Process file nonexistence]** option adds a transition which is activated if no file is found in the specified directory.
-* The **[!UICONTROL Process errors]** option is detailed in [Processing errors](../../workflow/using/executing-a-workflow.md#processing-errors).
+* The **[!UICONTROL Process errors]** option is detailed in [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
 The **[!UICONTROL Advanced parameters...]** link lets you access the following options:
 

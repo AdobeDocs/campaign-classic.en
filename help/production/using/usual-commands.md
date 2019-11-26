@@ -42,7 +42,7 @@ You can add the parameter **-who** to list the connections in progress (database
 
 ```
 nlserver pdump -who
-HH:MM:SS > Application server for Adobe Campaign Version X.Y.Z (build XXX) from DD/MM/YYYY
+HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 web@default (9984) - 50.1 Mo
 watchdog (2273) - 6.6 Mo
 syslogd@default (9931) - 7.0 Mo
@@ -67,7 +67,7 @@ You can add the parameter **-missing** to list the absent modules (error in modu
 
 ```
 nlserver monitor -missing
-HH:MM:SS > Application server for Adobe Campaign Version X.Y.Z (build XXX) from DD/MM/YYYY
+HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 inMail@test
 mta@test
 wfserver@test
@@ -147,7 +147,7 @@ To change the **internal** password: **nlserver config -internalpassword**
 
 >[!CAUTION]
 >
->To log on with the **Internal** identifier, you need to have defined a password beforehand. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#internal-identifier).
+>To log on with the **Internal** identifier, you need to have defined a password beforehand. For more on this, refer to [this section](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
 >[!NOTE]
 >

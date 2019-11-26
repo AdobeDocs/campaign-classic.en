@@ -24,9 +24,9 @@ To use these two solutions together, you must configure them to connect to one a
 
 Follow the steps below to start the configuration in Adobe Campaign:
 
-1. [Install the AEM integration package in Adobe Campaign](../../integrations/using/configuring-the-integration.md#install-the-aem-integration-package-in-adobe-campaign)
-1. [Configure the external account](../../integrations/using/configuring-the-integration.md#configure-the-external-account)
-1. [Configure AEM resources filtering](../../integrations/using/configuring-the-integration.md#configure-aem-resources-filtering)
+1. [Install the AEM integration package in Adobe Campaign](#install-the-aem-integration-package-in-adobe-campaign)
+1. [Configure the external account](#configure-the-external-account)
+1. [Configure AEM resources filtering](#configure-aem-resources-filtering)
 
 For advanced configurations such as managing personalization fields and blocks. Refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html).
 
@@ -127,9 +127,9 @@ Follow the steps below to start the configuration in Adobe Experience Manager:
 
 1. Connect Adobe Experience Manager to Adobe Campaign by configuring a dedicated **Cloud Service**.
 
-   To learn how to connect both solutions via Cloud Services, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.md#ConfiguringAdobeExperienceManager) .
+   To learn how to connect both solutions via Cloud Services, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) .
 
 1. Configure the **Externalizer service**.
 
-   To learn how to configure it, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/externalizer.md).
+   To learn how to configure it, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/externalizer.html).
 
