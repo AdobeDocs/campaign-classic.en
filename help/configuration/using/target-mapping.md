@@ -106,6 +106,10 @@ To do this, apply the following steps:
    By default, exclusion management is stored in the same tables as messages. Check the **Generate a storage schema for tracking** box if you want to configure storage for the tracking linked to your target mapping.
 
    ![](assets/mapping_diffusion_wizard_3.png)
+   
+   >[!CAUTION]
+   >
+   >Adobe Campaign does not support multiple recipient schemas, know as targeting schemas, linked to the same broadlog and/or trackinglog schemas. This can otherwise lead to anomalies in data reconciliation afterwards. For more information on this, refer to the [Recommendation and limitations](../../configuration/using/about-custom-recipient-table.md) page.
 
 1. In the **Extensions** window, select the optional schemas that you want to generate (the list of available schemas depends on the modules installed on the Adobe Campaign platform).
 

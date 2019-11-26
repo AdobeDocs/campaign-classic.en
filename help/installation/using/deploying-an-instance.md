@@ -32,15 +32,15 @@ To start the deployment wizard, select **Tools > Advanced > Deployment wizard**.
 
 The configuration steps are as follows:
 
-1. [General parameters](../../installation/using/deploying-an-instance.md#general-parameters)
-1. [Email channel parameters](../../installation/using/deploying-an-instance.md#email-channel-parameters)
-1. [Managing bounced emails](../../installation/using/deploying-an-instance.md#managing-bounced-emails)
-1. [Tracking configuration](../../installation/using/deploying-an-instance.md#tracking-configuration)
-1. [Mobile channel parameters](../../installation/using/deploying-an-instance.md#mobile-channel-parameters)
-1. [Regional settings](../../installation/using/deploying-an-instance.md#regional-settings)
-1. [Access from the Internet](../../installation/using/deploying-an-instance.md#access-from-the-internet)
-1. [Managing public resources](../../installation/using/deploying-an-instance.md#managing-public-resources)
-1. [Purging data](../../installation/using/deploying-an-instance.md#purging-data)
+1. [General parameters](#general-parameters)
+1. [Email channel parameters](#email-channel-parameters)
+1. [Managing bounced emails](#managing-bounced-emails)
+1. [Tracking configuration](#tracking-configuration)
+1. [Mobile channel parameters](#mobile-channel-parameters)
+1. [Regional settings](#regional-settings)
+1. [Access from the Internet](#access-from-the-internet)
+1. [Managing public resources](#managing-public-resources)
+1. [Purging data](#purging-data)
 
 ## General parameters {#general-parameters}
 
@@ -62,9 +62,9 @@ The lower section of the window enables you to select the options to be activate
 
 The following options are available:
 
-* **[!UICONTROL Email channel]** : to activate e-mail delivery. Refer to [Email channel parameters](../../installation/using/deploying-an-instance.md#email-channel-parameters).
-* **[!UICONTROL Tracking]** : To enable tracking of the target population (opens and clicks). Refer to [Tracking configuration](../../installation/using/deploying-an-instance.md#tracking-configuration).
-* **[!UICONTROL Managing bounced emails]** : To define the POP account used to pick up incoming e-mail. Refer to [Managing bounced emails](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
+* **[!UICONTROL Email channel]** : to activate e-mail delivery. Refer to [Email channel parameters](#email-channel-parameters).
+* **[!UICONTROL Tracking]** : To enable tracking of the target population (opens and clicks). Refer to [Tracking configuration](#tracking-configuration).
+* **[!UICONTROL Managing bounced emails]** : To define the POP account used to pick up incoming e-mail. Refer to [Managing bounced emails](#managing-bounced-emails).
 * **[!UICONTROL LDAP integration]** : To configure user authentication via an LDAP directory. Refer to [Connecting through LDAP](../../installation/using/connecting-through-ldap.md).
 
 ## Email channel parameters {#email-channel-parameters}
@@ -127,7 +127,7 @@ Configuration options for quarantines are as follows:
 
 Bounce mail is extremely important to qualify delivery errors. These errors are categorized in the NP@I once the rules have determined their cause.
 
-This step is only available if the **Email channel** and **Bounce mail** management options are selected in the first stage of the deployment wizard. Refer to [General parameters](../../installation/using/deploying-an-instance.md#general-parameters).
+This step is only available if the **Email channel** and **Bounce mail** management options are selected in the first stage of the deployment wizard. Refer to [General parameters](#general-parameters).
 
 This stage lets you define settings for managing bounce mails.
 
@@ -164,7 +164,7 @@ Unprocessed bounces are not displayed in the Adobe Campaign interface. They are 
 
 The next step lets you configure tracking for the instance. The instance must be declared and registered with the tracking server(s).
 
-This step is only offered when the **Email channel** and **Tracking** options are selected in the first page of the deployment wizard. Refer to [General parameters](../../installation/using/deploying-an-instance.md#general-parameters).
+This step is only offered when the **Email channel** and **Tracking** options are selected in the first page of the deployment wizard. Refer to [General parameters](#general-parameters).
 
 For more detailed information on web tracking (tracking mode, creating and inserting tags...), refer to [this document](../../configuration/using/about-web-tracking.md).
 
@@ -178,11 +178,11 @@ When you activate tracking on an instance, the URLs in the deliveries are change
 
   Information on internal URLs is only used by the Adobe Campaign application server to contact the tracking server(s).
 
-  For more on this, refer to [Tracking server](../../installation/using/deploying-an-instance.md#tracking-server).
+  For more on this, refer to [Tracking server](#tracking-server).
 
 * Once the URLs are configured, you need to enable tracking. To do this, the instance must be registered on the tracking server(s).
 
-  For more on this, refer to [Saving tracking](../../installation/using/deploying-an-instance.md#saving-tracking).
+  For more on this, refer to [Saving tracking](#saving-tracking).
 
 ### Tracking server {#tracking-server}
 
@@ -340,9 +340,9 @@ To be seen from the outside, the images used in emails and public resources link
 
 For this step, you need to enter:
 
-1. The new public resource URL. For more information refer to the [Public resources URL](../../installation/using/deploying-an-instance.md#public-resources-url) section.
-1. The image detection mode in a delivery. For more information, refer to the [Delivery image detection](../../installation/using/deploying-an-instance.md#delivery-image-detection) section.
-1. Publishing options. For more information, refer to the [Publication modes](../../installation/using/deploying-an-instance.md#publication-modes) section.
+1. The new public resource URL. For more information refer to the [Public resources URL](#public-resources-url) section.
+1. The image detection mode in a delivery. For more information, refer to the [Delivery image detection](#delivery-image-detection) section.
+1. Publishing options. For more information, refer to the [Publication modes](#publication-modes) section.
 
 Public resources are accessible via the **Administration > Resources > Online > Public resources** node of the Adobe Campaign tree. They are collected in a library and can be included in e-mails but also used in campaigns or tasks, and in content management.
 
@@ -381,7 +381,7 @@ The following publication modes are available:
 
 * Tracking server(s)
 
-  The resources will be automatically copied to the different tracking servers. They are configured in the step [Tracking configuration](../../installation/using/deploying-an-instance.md#tracking-configuration).
+  The resources will be automatically copied to the different tracking servers. They are configured in the step [Tracking configuration](#tracking-configuration).
 
 * Other Adobe Campaign servers
 
@@ -424,7 +424,7 @@ In the event of publication on an Adobe Campaign server without a manual publica
 
 >[!NOTE]
 >
->It's possible to change the public resource storage directory. For more on this, refer to [Managing public resources](../../installation/using/deploying-an-instance.md#managing-public-resources).
+>It's possible to change the public resource storage directory. For more on this, refer to [Managing public resources](#managing-public-resources).
 
 ### Synchronizing public resources {#synchronizing-public-resources}
 

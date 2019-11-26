@@ -18,7 +18,9 @@ snippet: y
 
 # Workflow HeatMap {#workflow-heatmap}
 
-The Adobe Campaign Workflow HeatMap consists in a color-coded graphical representation of all the workflows that are currently running.
+The Adobe Campaign Workflow HeatMap consists in a color-coded graphical representation of all the workflows that are currently running. It is available to the instance Administrators only.
+
+Additional ways of monitoring the different Campaign processes are presented in [this page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
 
 ## About the Workflow HeatMap {#about-the-workflow-heatmap}
 
@@ -39,7 +41,7 @@ More precisely, it helps the platform administrators to:
 
 Using the Workflow HeatMap requires to have a good understanding of the following concepts: [Workflows](../../workflow/using/about-workflows.md), [Activities](../../workflow/using/about-activities.md) and [Workflow Best Practices](../../workflow/using/workflow-best-practices.md).
 
-The Workflow HeatMap is available by default in Adobe Campaign starting 18.10 release. If you have a build between 8700 and 8977 (18.10), you can also benefit from this capability. To request the corresponding package, contact the [Adobe Customer Care](https://support.neolane.net/) and follow the instructions from [this page](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.md) to understand how to install it.
+The Workflow HeatMap is available by default in Adobe Campaign starting 18.10 release. If you have a build between 8700 and 8977 (18.10), you can also benefit from this capability. To request the corresponding package, contact the [Adobe Customer Care](https://support.neolane.net/) and follow the instructions from [this page](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html) to understand how to install it.
 
 When you first access Worfklow HeatMap the following pop-up window will appear. This agreement allows the transfer and storage in the United States allowing Adobe Campaign to:
 
@@ -64,7 +66,7 @@ This choice is not final, you can always change it by clicking the **[!UICONTROL
 >
 >Only users with administration rights can access the Campaign Workflow HeatMap.
 
-1. Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Workflows]** link to display the **[!UICONTROL Campaign Workflow HeatMap]** page.
+1. Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Workflow HeatMap** link to display the **[!UICONTROL Campaign Workflow HeatMap]** page.
 
    ![](assets/wkf_monitoring_path.png)
 

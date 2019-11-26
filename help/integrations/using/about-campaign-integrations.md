@@ -22,7 +22,7 @@ Learn about functional integrations available between the current version of Ado
 
 Adobe Experience Cloud is a comprehensive set of best-in-class, integrated solutions built on a common data platform with a common set of powerful core services.
 
-Discover the full list of Adobe solutions and core services which can be integrated with Adobe Campaign, as well as associated documentation, in [this page](../../integrations/using/about-campaign-integrations.md#experience-cloud-integrations).
+Discover the full list of Adobe solutions and core services which can be integrated with Adobe Campaign, as well as associated documentation, in [this page](#experience-cloud-integrations).
 
 >[!CAUTION]
 >
@@ -42,7 +42,7 @@ Organization management and linking Adobe Experience Cloud accounts are detailed
 >
 >A unique visitor ID will then be assigned to recipients generating tracking logs. This ID will be saved in the **[!UICONTROL Requester UUID (@sourceID)]** field of the **[!UICONTROL nms:trackingLogRcp]** table. The tracking data of recipients who existed before the visitor ID service was implemented will therefore no longer be usable.
 >
->The ID will then be recognized by the other Adobe Experience Cloud solutions with the same [CNAME](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cname.md).
+>The ID will then be recognized by the other Adobe Experience Cloud solutions with the same [CNAME](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cname.html).
 
 ## Experience Cloud integrations {#experience-cloud-integrations}
 

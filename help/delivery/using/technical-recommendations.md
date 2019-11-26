@@ -24,7 +24,7 @@ A tool to verify the configuration of a domain: [https://mxtoolbox.com/SuperTool
 
 An important point in the network configuration is making sure a correct reverse DNS is defined for each of the IP addresses for outgoing messages. This means that for a given IP address, there is a reverse DNS record (PTR record) with a matching DNS (A record) looping back to the initial IP address.
 
-The domain choice for a reverse DNS has an impact when dealing with certain ISPs. AOL, in particular, only accepts feedback loops with an address in the same domain as the reverse DNS (see [Feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop)).
+The domain choice for a reverse DNS has an impact when dealing with certain ISPs. AOL, in particular, only accepts feedback loops with an address in the same domain as the reverse DNS (see [Feedback loop](#feedback-loop)).
 
 ## SPF {#spf}
 
@@ -150,8 +150,8 @@ Gmail, Outlook.com and Microsoft Outlook support this method and an unsubscribe 
 
 You can implement the **List-Unsubscribe** by:
 
-* directly adding the command line in the delivery template - see [this section](../../delivery/using/technical-recommendations.md#adding-a-command-line-in-a-delivery-template),
-* or, creating a typology rule - see [this section](../../delivery/using/technical-recommendations.md#creating-a-typology-rule).
+* directly adding the command line in the delivery template - see [this section](#adding-a-command-line-in-a-delivery-template),
+* or, creating a typology rule - see [this section](#creating-a-typology-rule).
 
 ### Adding a command line in a delivery template {#adding-a-command-line-in-a-delivery-template}
 
@@ -247,7 +247,7 @@ For example, to only include this SMTP header in Gmail, the function is as follo
 
 This technology, mainly sponsored by Yahoo, can be implemented in Adobe Campaign.
 
-However, this authentication method was replaced by **DKIM**. Refer to [this section](../../delivery/using/technical-recommendations.md#domainkeys-identified-mail--dkim-).
+However, this authentication method was replaced by **DKIM**. Refer to [this section](#domainkeys-identified-mail--dkim-).
 
 ### Using keys {#using-keys}
 
@@ -406,7 +406,7 @@ To do this, follow the steps below:
 
 DKIM comes from a combination of the DomainKeys, Yahoo! and Cisco Identified Internet Mail authentication principles and is used to check the authenticity of the sender domain and guarantee the integrity of the message.
 
-DKIM replaced **DomainKeys** authentication. Refer to [this section](../../delivery/using/technical-recommendations.md#domainkeys).
+DKIM replaced **DomainKeys** authentication. Refer to [this section](#domainkeys).
 
 Using DKIM requires some prerequisites:
 

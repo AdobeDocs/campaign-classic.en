@@ -24,6 +24,8 @@ A use case on how to create a workflow that lets you monitor the status of a set
 
 Additionnally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. For more on this, refer to the [dedicated section](../../production/using/audit-trail.md).
 
+Additional ways of monitoring the different Campaign processes are presented in [this page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+
 ## Displaying progress {#displaying-progress}
 
 You can monitor execution by displaying progress using the appropriate icon on the toolbar.
@@ -237,7 +239,7 @@ Workflows use a lot of work tables that consume space and end up slowing down th
 
 The **Database cleanup** workflow accessible via the **Administration > Production > Technical workflows** node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention. Refer to this [section](../../production/using/database-cleanup-workflow.md).
 
-You can also create specific technical workflows to purge unnecessary data consuming space. Refer to this [section](../../production/using/application-objects.md) and this [page](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
+You can also create specific technical workflows to purge unnecessary data consuming space. Refer to this [section](../../production/using/application-objects.md) and this [page](#purging-the-logs).
 
 ## Handling of paused workflows {#handling-of-paused-workflows}
 

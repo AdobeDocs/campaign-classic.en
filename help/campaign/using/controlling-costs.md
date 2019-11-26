@@ -32,7 +32,7 @@ The following steps must be applied to implement budget management using MRM:
 
 1. Defining the budget
 
-   For more on this, refer to [Creating a budget](../../campaign/using/controlling-costs.md#creating-a-budget).
+   For more on this, refer to [Creating a budget](#creating-a-budget).
 
 1. Defining the cost calculation method
 
@@ -40,13 +40,13 @@ The following steps must be applied to implement budget management using MRM:
 
 1. Defining campaign costs (deliveries/tasks)
 
-   The costs incurred by the deliveries and tasks are input individually or globally for the campaign template. See [Calculation of costs and stocks](../../campaign/using/setting-up-marketing-campaigns.md#calculation-of-costs-and-stocks).
+   The costs incurred by the deliveries and tasks are input individually or globally for the campaign template. See [Calculation of costs and stocks](../../campaign/using/marketing-campaign-deliveries.md#calculation-of-costs-and-stocks).
 
 1. Consolidation
 
    According to the progress status of the tasks, deliveries and campaign, the costs will be calculated and passed on to the corresponding budget.
 
-   When the creation of the campaign is sufficiently advanced, the progress status of the campaign budget can be changed to **[!UICONTROL Specified]**. The calculated cost of the program is then entered automatically with the costs calculated on the campaign. See [Cost commitment, calculation and charging](../../campaign/using/controlling-costs.md#cost-commitment--calculation-and-charging).
+   When the creation of the campaign is sufficiently advanced, the progress status of the campaign budget can be changed to **[!UICONTROL Specified]**. The calculated cost of the program is then entered automatically with the costs calculated on the campaign. See [Cost commitment, calculation and charging](#cost-commitment--calculation-and-charging).
 
 ## Creating a budget {#creating-a-budget}
 
@@ -58,7 +58,7 @@ Budgets are created in the map, via the **[!UICONTROL Campaign management > Budg
 
 * Entering the initial amount
 
-  Indicate the allocated amount in the relevant field. The other amounts are entered automatically. See [Calculating amounts](../../campaign/using/controlling-costs.md#calculating-amounts).
+  Indicate the allocated amount in the relevant field. The other amounts are entered automatically. See [Calculating amounts](#calculating-amounts).
 
 * Defining the validity period
 
@@ -66,7 +66,7 @@ Budgets are created in the map, via the **[!UICONTROL Campaign management > Budg
 
 * Expenses
 
-  Create the expense categories to which the costs assigned to this budget for campaigns, tasks etc. can be linked. See [Expense categories](../../campaign/using/controlling-costs.md#expense-categories).
+  Create the expense categories to which the costs assigned to this budget for campaigns, tasks etc. can be linked. See [Expense categories](#expense-categories).
 
   ![](assets/s_ncs_user_budget_create_and_save.png)
 
@@ -74,7 +74,7 @@ Budgets are created in the map, via the **[!UICONTROL Campaign management > Budg
 >
 >You can select a related budget. 
 > 
->For more on this, refer to [Linking a budget to another](../../campaign/using/controlling-costs.md#linking-a-budget-to-another).
+>For more on this, refer to [Linking a budget to another](#linking-a-budget-to-another).
 
 ### Calculating amounts {#calculating-amounts}
 
@@ -306,7 +306,7 @@ When you edit the calculated cost, you can check the cost breakdown and the stat
 
 #### Step 5 - Creating tasks {#step-5---creating-tasks}
 
-To this campaign, we will add the two tasks for which the cost structures were created earlier (see [Step 2 - Configuring the service provider and defining the cost structures](../../campaign/using/controlling-costs.md#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). To do this, in the campaign dashboard, click the **[!UICONTROL Add a task]** button. Name the task and click **[!UICONTROL Save]**.
+To this campaign, we will add the two tasks for which the cost structures were created earlier (see [Step 2 - Configuring the service provider and defining the cost structures](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). To do this, in the campaign dashboard, click the **[!UICONTROL Add a task]** button. Name the task and click **[!UICONTROL Save]**.
 
 The task is then added to the task list. You must edit it to configure it.
 

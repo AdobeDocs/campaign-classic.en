@@ -8,15 +8,24 @@ topic: Premium
 
 # Help Center {#campaign-classic-documentation}
 
-Learn the basics and refine your skills with Adobe Campaign Classic product documentation.
+![](platform/using/assets/banner_acc_doc.jpg) 
 
 ## What's New
+
+* **[Privacy management](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
+Learn how Adobe Campaign can help you with your Privacy compliance.
+
+* **[Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>
+Understand tracking capabilities in Campaign
+
+* **[Maintenance guide](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>
+Learn how to monitor your Campaign instance and processes
 
 * **[Audit trail](production/using/audit-trail.md)**<br/>
 Learn how to access the complete history of changes in your Campaign instance
 
 * **[Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)**<br/>
-Learn how to manage settings and track usage of your Campaign instances
+Learn how to manage settings and track usage of your Campaign instance
 
 [Click here for more updates](/help/rn/using/documentation-updates.md)
 
@@ -69,10 +78,12 @@ Learn how to manage settings and track usage of your Campaign instances
 
 ## Additional Resources
 
-* [Release Notes](/help/rn/using/about-release-notes.md)
+* [Release notes](/help/rn/using/about-release-notes.md)
 
 * [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
-* [Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+* [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
-* [Implementation Guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html)
+* [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html)
+
+* [Technical notes](https://helpx.adobe.com/campaign/kb/article-list.html)

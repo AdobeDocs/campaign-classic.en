@@ -51,7 +51,7 @@ The following concepts need to be known in the context of Campaign:
 
   A campaign workflow contains the same activities as for all workflows but is specific to the campaign. It enables you to create and configure deliveries for all available channels.
 
-  For more on this, refer to [this section](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow).
+  For more on this, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
 * Objectives
 
@@ -61,5 +61,5 @@ The following concepts need to be known in the context of Campaign:
 
   A delivery outline is a structured description of a delivery. Every delivery can refer to a delivery outline which contains, for example, the related offers, documents to be attached, or a link to stores. An offer can be referenced in the delivery according to the delivery outline selected.
 
-  For more on this, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+  For more on this, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 

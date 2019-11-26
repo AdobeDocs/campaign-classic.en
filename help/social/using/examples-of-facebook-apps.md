@@ -36,9 +36,9 @@ When a user clicks the tab of a Facebook application, it is displayed in a space
 
 The examples of Facebook type web applications detailed here are:
 
-* How to create a Facebook application in 7 steps. Refer to [Quick start: creating a Facebook application in 7 steps](../../social/using/examples-of-facebook-apps.md#quick-start--creating-a-facebook-application-in-7-steps).
-* How to forward settings to a Facebook application. Refer to [How to forward settings to a Facebook application?](../../social/using/examples-of-facebook-apps.md#how-to-forward-settings-to-a-facebook-application-).
-* How to acquire fan data. Refer to [How to acquire fan data?](../../social/using/examples-of-facebook-apps.md#how-to-acquire-fan-data-).
+* How to create a Facebook application in 7 steps. Refer to [Quick start: creating a Facebook application in 7 steps](#quick-start--creating-a-facebook-application-in-7-steps).
+* How to forward settings to a Facebook application. Refer to [How to forward settings to a Facebook application?](#how-to-forward-settings-to-a-facebook-application-).
+* How to acquire fan data. Refer to [How to acquire fan data?](#how-to-acquire-fan-data-).
 
 >[!CAUTION]
 >
@@ -163,7 +163,7 @@ The **[!UICONTROL Test]** activity is based on the **[!UICONTROL ID]** and **[!U
 It is made up of three branches:
 
 * **[!UICONTROL identifier (UID) is empty]** : the identifier is only forwarded by Facebook if the user has already agreed to share their information. The first branch of the **[!UICONTROL Test]** activity lets you make the competition available only to users who have never entered, i.e. those with an empty ID.
-* **[!UICONTROL application parameter equals 'thanks']** : to sidestep a display error linked to Facebook, the web application end page points towards the URL of the Facebook application which the **[!UICONTROL app_data]** parameter is added to using the **[!UICONTROL thanks]** value (for more on this, refer to: [End activity](../../social/using/examples-of-facebook-apps.md#end-activity)). The second branch lets you find out whether the user comes from the **[!UICONTROL End]** activity of the first branch (and has just entered the competition) to display a thank you message. For more on using additional URL parameters, refer to: [How to forward settings to a Facebook application?](../../social/using/examples-of-facebook-apps.md#how-to-forward-settings-to-a-facebook-application-).
+* **[!UICONTROL application parameter equals 'thanks']** : to sidestep a display error linked to Facebook, the web application end page points towards the URL of the Facebook application which the **[!UICONTROL app_data]** parameter is added to using the **[!UICONTROL thanks]** value (for more on this, refer to: [End activity](#end-activity)). The second branch lets you find out whether the user comes from the **[!UICONTROL End]** activity of the first branch (and has just entered the competition) to display a thank you message. For more on using additional URL parameters, refer to: [How to forward settings to a Facebook application?](#how-to-forward-settings-to-a-facebook-application-).
 * **[!UICONTROL Default branch]** : if the user has already entered the competition (ID already entered) at a previous date (application parameter different from **[!UICONTROL thanks]**), we will display a page saying that they have already entered.
 
 ### Competition page {#competition-page}
@@ -174,7 +174,7 @@ To sidestep the display error linked to Facebook, you also need to select **[!UI
 
 ### Access control activity {#access-control-activity}
 
-The **[!UICONTROL Access control]** activity lets you display the Facebook permission request page when the user enters the competition. If they agree to share their information, it is recovered during pre-loading. For more on this, refer to: [Pre-loading activity](../../social/using/examples-of-facebook-apps.md#pre-loading-activity).
+The **[!UICONTROL Access control]** activity lets you display the Facebook permission request page when the user enters the competition. If they agree to share their information, it is recovered during pre-loading. For more on this, refer to: [Pre-loading activity](#pre-loading-activity).
 
 If you previously entered the external account when creating the web application (refer to [Creating a Facebook type web application](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application)) you don't need to edit the activity. If not, go to the **[!UICONTROL Application]** field and select the external account linked to the Facebook application. 
 
@@ -254,7 +254,7 @@ If the profile doesn't exist in the database and the Facebook user's email addre
 
 ### End activity {#end-activity}
 
-To sidestep the display error linked to Facebook, you need to check the **[!UICONTROL Use an external URL]** box and enter the URL of the Facebook application, followed by the **[!UICONTROL app_data]** parameter and a value. This value will be used in the **[!UICONTROL Test]** activity to detect whether or not the user has just entered the competition, and to display a thank you message if applicable. For more on this, refer to: [Test activity](../../social/using/examples-of-facebook-apps.md#test-activity).
+To sidestep the display error linked to Facebook, you need to check the **[!UICONTROL Use an external URL]** box and enter the URL of the Facebook application, followed by the **[!UICONTROL app_data]** parameter and a value. This value will be used in the **[!UICONTROL Test]** activity to detect whether or not the user has just entered the competition, and to display a thank you message if applicable. For more on this, refer to: [Test activity](#test-activity).
 
 In our example, the value used is **thanks**.
 
@@ -264,7 +264,7 @@ In our example, the value used is **thanks**.
 
 Just like for Twitter followers (refer to: [Operating principle](../../social/using/publishing-on-twitter.md#operating-principle)), recovered Facebook profiles are stored in the visitors' table. To display the list of visitors, go to the **[!UICONTROL Profiles and Targets > Visitors]** node.
 
-Each Facebook prospect who agrees to share their profile information is added to the list of visitors. If the **[!UICONTROL Friends]** box is checked in the **[!UICONTROL Pre-load]** activity (refer to: [Pre-loading activity](../../social/using/examples-of-facebook-apps.md#pre-loading-activity)), friends are also added.
+Each Facebook prospect who agrees to share their profile information is added to the list of visitors. If the **[!UICONTROL Friends]** box is checked in the **[!UICONTROL Pre-load]** activity (refer to: [Pre-loading activity](#pre-loading-activity)), friends are also added.
 
 ![](assets/social_webapp_037.png)
 

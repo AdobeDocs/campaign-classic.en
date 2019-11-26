@@ -135,6 +135,12 @@ To install Adobe Campaign 32 bit on a Debian 32 bit operating system, apply the 
    dpkg -i nlserver6-v7-XXXX-linux-2.6-intel.deb
    ```
 
+   If there are missing dependenciess, run the following command: 
+
+   ```
+   apt-get install -f
+   ```
+
 ### In Debian 64 bits {#in-debian-64-bits}
 
 To install Adobe Campaign 64 bit on a Debian 64 bit operating system, apply the following steps:
@@ -161,10 +167,10 @@ To install Adobe Campaign 64 bit on a Debian 64 bit operating system, apply the 
 When installing Adobe Campaign on a Debian 7 operating system, consider the following:
 
 * OpenSSL must be installed beforehand.
-* Install libicu48 (Debian 7) or libicu52 (Debian 8), libprotobuf9 (Debian8) and libc-ares2 with the following commands:
+* Install libicu48 (Debian 7), libicu52 (Debian 8) or libicu57 (Debian 9), libprotobuf9 (Debian8) and libc-ares2 with the following commands:
 
   ```
-  aptitude install libicu48 (Debian 7) libicu52 (Debian 8)
+  aptitude install libicu48 (Debian 7) libicu52 (Debian 8) libicu57 (Debian 9)
   ```
 
   ```
@@ -172,13 +178,17 @@ When installing Adobe Campaign on a Debian 7 operating system, consider the foll
   ```
 
   ```
-  aptitude install libprotobuf9
+  aptitude install libprotobuf9 (only Debian 7/8)
   ```
 
 * Install JDK7 with the following command:
 
   ```
-  aptitude install openjdk-7-jdk
+  aptitude install openjdk-7-jdk (Debian 7/8)
+  ```
+
+  ```
+  aptitude install openjdk-7-jdk (Debian 9)
   ```
 
 ## Personalizing parameters {#personalizing-parameters}
@@ -357,7 +367,7 @@ nlserver web
 The following information is then displayed:
 
 ```
-17:11:03 >   Application server for Adobe Campaign Version 7.X (build XXX) of DD/MM/YYYY
+17:11:03 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 17:11:03 >   Web server start (pid=17546, tid=-151316352)...
 17:11:03 >   Creating server configuration file '/usr/local/[INSTALL]/nl6/conf/serverConf.xml' via '/usr/local/[INSTALL]/nl6/conf/fra/serverConf.xml.sample'
 17:11:03 >   Creating server configuration file '/usr/local/[INSTALL]/nl6/conf/config-default.xml' via '/usr/local/[INSTALL]/nl6/conf/models/config-default.xml'
@@ -377,9 +387,9 @@ nlserver start web
 The following information is then displayed:
 
 ```
-12:17:21 >   Application server for Adobe Campaign Version 7.X (build XXX) of DD/MM/YYYY
+12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:17:21 >   Running task 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair') in a new process
-12:17:21 >   Application server for Adobe Campaign Version 7.X (build XXX) of DD/MM/YYYY
+12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:17:21 >   Web server start (pid=29188, tid=-1224824320)...
 12:17:21 >   Creating server configuration file '/usr/local/[INSTALL]/nl6/conf/serverConf.xml' via '/usr/local/[INSTALL]/nl6/conf/fra/serverConf.xml.sample'
 12:17:22 >   Tomcat started
@@ -395,7 +405,7 @@ nlserver stop web
 The following information is then displayed:
 
 ```
-12:18:31 >   Application server for Adobe Campaign Version 7.X (build XXX) of DD/MM/YYYY
+12:18:31 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:18:31 >   Stop requested for 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair', pid=29188, tid=-1224824320)...
 12:18:31 >   Stop requested (pid=29188)
 12:18:31 >   Web server stopped (pid=29188, tid=-1224824320)...
