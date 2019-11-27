@@ -133,7 +133,7 @@ sub-product: adobe campaign classic
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Technical recommendations](delivery/using/technical-recommendations.md)
        + [Blacklisting databases](delivery/using/blacklisting-databases.md)
-  + Content management {#content-management}
+  + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
        + [Use case: creating content management](delivery/using/use-case--creating-content-management.md)
