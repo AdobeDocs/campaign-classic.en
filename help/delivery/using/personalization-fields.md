@@ -22,7 +22,7 @@ Personalization fields are used for first-level personalization of the content o
 
 For example, the personalization field with the **<%= recipient.LastName %>** syntax tells Adobe Campaign to insert the name of the recipient into the database (recipient table).
 
->[CAUTION]
+>[!NOTE]
 >
 >Personalization fields content cannot exceed 1024 characters.
 
