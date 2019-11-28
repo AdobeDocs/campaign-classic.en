@@ -109,6 +109,10 @@ You can start the verification process on its own (without migration) using the 
 nlserver.exe config -postupgrade -check -instance:<instanceName>
 ```
 
+>[!NOTE]
+>
+>Please ignore all warnings and errors which have the JST-310040 code.
+
 The following expressions are searched for (case sensitive):
 
 <table> 

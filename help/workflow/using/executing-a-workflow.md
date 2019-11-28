@@ -289,7 +289,7 @@ For technical workflows, the tasks that the user can approve can be accessed fro
 An approval is assigned to a group of operators, a single operator or a set of operators selected via a filtering condition.
 
 1. For the simplest form of approval, the task is finished as soon as an operator responds. Any other operator who tries to respond will be notified that someone has already done it.
-1. For multiple approvals, refer to [Multiple approval](../../workflow/using/executing-a-workflow.md#multiple-approval).
+1. For multiple approvals, refer to [Multiple approval](#multiple-approval).
 
 The operator groups for approvals should be designated as roles or functions rather than named individuals. For example, a "Campaign budget" group is preferable to "Harry's group". We recommend having at least two persons in a group who can approve a task. In this way, if one is absent, the other can respond.
 

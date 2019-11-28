@@ -26,7 +26,7 @@ Tasks can be created, viewed, and monitored from the list of tasks or the campai
 
 Tasks are attached to campaign and can have dependencies, i.e. associated tasks. Each task has a status, priority, estimated load, and related costs.
 
-All the tasks are grouped in a list accessible via the **Campaigns** universe. For more on this, refer to [Accessing tasks](../../campaign/using/creating-and-managing-tasks.md#accessing-tasks).
+All the tasks are grouped in a list accessible via the **Campaigns** universe. For more on this, refer to [Accessing tasks](#accessing-tasks).
 
 They can be displayed in the schedule of the program to which they belong.
 
@@ -42,7 +42,7 @@ The tasks are displayed in the task list accessible via the **[!UICONTROL Campai
 
 You can view all tasks of the connected operator there.
 
-For more on this, refer to [Execution status of a task](../../campaign/using/creating-and-managing-tasks.md#execution-status-of-a-task) and [Progress status of a task](../../campaign/using/creating-and-managing-tasks.md#progress-status-of-a-task).
+For more on this, refer to [Execution status of a task](#execution-status-of-a-task) and [Progress status of a task](#progress-status-of-a-task).
 
 ### Filtering tasks {#filtering-tasks}
 
@@ -78,13 +78,13 @@ After a task is created, it is added to the campaign schedule and the list of ta
 
 To configure it, you must indicate:
 
-* The manager and participants: refer to [Manager and participants](../../campaign/using/creating-and-managing-tasks.md#manager-and-participants).
-* The creation schedule: refer to [Execution schedule](../../campaign/using/creating-and-managing-tasks.md#execution-schedule).
-* The costs committed: refer to [Expenses and revenues](../../campaign/using/creating-and-managing-tasks.md#expenses-and-revenues).
+* The manager and participants: refer to [Manager and participants](#manager-and-participants).
+* The creation schedule: refer to [Execution schedule](#execution-schedule).
+* The costs committed: refer to [Expenses and revenues](#expenses-and-revenues).
 
-It is also possible to ad reviewers (refer to [Reviewers](../../campaign/using/creating-and-managing-tasks.md#reviewers)) and referenced documents (refer to [Documents referenced](../../campaign/using/creating-and-managing-tasks.md#documents-referenced)).
+It is also possible to ad reviewers (refer to [Reviewers](#reviewers)) and referenced documents (refer to [Documents referenced](#documents-referenced)).
 
-Task life cycle is presented in [Life cycle](../../campaign/using/creating-and-managing-tasks.md#life-cycle).
+Task life cycle is presented in [Life cycle](#life-cycle).
 
 ### Manager and participants {#manager-and-participants}
 
@@ -154,7 +154,7 @@ The validity period of a task is indicated in the **[!UICONTROL Start]** and **[
 
 >[!NOTE]
 >
->The life cycle of a task is presented in [Life cycle](../../campaign/using/creating-and-managing-tasks.md#life-cycle).
+>The life cycle of a task is presented in [Life cycle](#life-cycle).
 
 The **[!UICONTROL Workload performed]** field also expressed in days and hours, lets you manually update the progress of the task with respect to the scheduled workload.
 
@@ -172,7 +172,7 @@ It is also visible in the campaign tab.
 
 If the task execution schedule end date has been reached but the task is not completed, the task will be **[!UICONTROL Late]**. A warning message will also be displayed to alert operators.
 
-For more on this, refer to [Progress status of a task](../../campaign/using/creating-and-managing-tasks.md#progress-status-of-a-task).
+For more on this, refer to [Progress status of a task](#progress-status-of-a-task).
 
 ### Expenses and revenues {#expenses-and-revenues}
 
@@ -270,15 +270,15 @@ When you create tasks via a campaign, you can create specific tasks. The type of
 
 The following tasks can be scheduled:
 
-* **[!UICONTROL Control task]**, refer to [Control tasks](../../campaign/using/creating-and-managing-tasks.md#control-tasks),
-* **[!UICONTROL Marketing resource creation task]**, refer to [Grouping task](../../campaign/using/creating-and-managing-tasks.md#grouping-task),
-* **[!UICONTROL Grouping task]**, refer to [Grouping task](../../campaign/using/creating-and-managing-tasks.md#grouping-task),
-* **[!UICONTROL Notification task]**, refer to [Notification task](../../campaign/using/creating-and-managing-tasks.md#notification-task).
+* **[!UICONTROL Control task]**, refer to [Control tasks](#control-tasks),
+* **[!UICONTROL Marketing resource creation task]**, refer to [Grouping task](#grouping-task),
+* **[!UICONTROL Grouping task]**, refer to [Grouping task](#grouping-task),
+* **[!UICONTROL Notification task]**, refer to [Notification task](#notification-task).
 
 >[!NOTE]
 >
 >**[!UICONTROL Control task]** and **[!UICONTROL Grouping]** tasks can be created **only** via the campaign dashboard.  
->They are displayed in the task map of the operator to whom they are assigned. See [Accessing tasks](../../campaign/using/creating-and-managing-tasks.md#accessing-tasks).
+>They are displayed in the task map of the operator to whom they are assigned. See [Accessing tasks](#accessing-tasks).
 
 ### Control tasks {#control-tasks}
 
@@ -385,11 +385,11 @@ You can add an attachment to the task and to the notification email. To do this,
 
 ### Links between tasks {#links-between-tasks}
 
-The **[!UICONTROL Properties]** button in each task enables you to define the links between tasks in a campaign. You can split tasks into subtasks using a grouping task (see [Linked tasks](../../campaign/using/creating-and-managing-tasks.md#linked-tasks)), or define dependencies between the tasks (see [Grouping tasks](../../campaign/using/creating-and-managing-tasks.md#grouping-tasks)).
+The **[!UICONTROL Properties]** button in each task enables you to define the links between tasks in a campaign. You can split tasks into subtasks using a grouping task (see [Linked tasks](#linked-tasks)), or define dependencies between the tasks (see [Grouping tasks](#grouping-tasks)).
 
 #### Linked tasks {#linked-tasks}
 
-Use the **[!UICONTROL Linked task]** field to associate tasks with a grouping task. See [Types of task](../../campaign/using/creating-and-managing-tasks.md#types-of-task).
+Use the **[!UICONTROL Linked task]** field to associate tasks with a grouping task. See [Types of task](#types-of-task).
 
 In the following example, the approval of targeting is broken down into four sub-tasks. 
 
@@ -431,7 +431,7 @@ A task can be: **[!UICONTROL Scheduled]**, **[!UICONTROL In progress]**, **[!UIC
 * Once it has been started, the task is **[!UICONTROL In progress]**. When the person in charge of the task closes it, it changes to **[!UICONTROL Finished]**.
 * If a reviewer has been defined, the task will be **[!UICONTROL Pending approval]** once the person in charge of it closes it and until the reviewer approves it. If the reviewer rejects it, the task will be **[!UICONTROL Rejected]**.
 * A task can be canceled by the person responsible for it via the dashboard or the **[!UICONTROL Task map]** by clicking the **[!UICONTROL Cancel]** button.
-* To schedule a task, input a start date in the future. You can then send a first notification to the Adobe Campaign operators involved in performing the task. See [Complete task life cycle](../../campaign/using/creating-and-managing-tasks.md#complete-task-life-cycle).
+* To schedule a task, input a start date in the future. You can then send a first notification to the Adobe Campaign operators involved in performing the task. See [Complete task life cycle](#complete-task-life-cycle).
 
 >[!NOTE]
 >
@@ -445,13 +445,13 @@ In addition to its execution status, a task can be associated with a progress st
 
 You can filter the list of tasks by process or progress status.
 
-For more on this, refer to [Accessing tasks](../../campaign/using/creating-and-managing-tasks.md#accessing-tasks).
+For more on this, refer to [Accessing tasks](#accessing-tasks).
 
 ### Complete task life cycle {#complete-task-life-cycle}
 
 Below are the stages of a complete task life cycle for which the person in charge has defined participants and reviewers.
 
-1. The person in charge creates the task and enters the various fields. For more on this, refer to [Creating a new task](../../campaign/using/creating-and-managing-tasks.md#creating-a-new-task).
+1. The person in charge creates the task and enters the various fields. For more on this, refer to [Creating a new task](#creating-a-new-task).
 
    When creating and editing a task **scheduled in the future** (as long as the task start date isn't reached), it's possible to send a notification to participants and managers to let them know that a new task has been scheduled. 
 

@@ -3,6 +3,8 @@ product: Adobe Campaign Classic
 audience: end-user
 user-guide-title: Adobe Campaign Classic Help
 index: y
+product: adobe campaign
+sub-product: adobe campaign classic
 ---
 
 # Adobe Campaign Classic Help {#using}
@@ -344,7 +346,7 @@ index: y
        + [Loading (SOAP)](workflow/using/loading--soap-.md)
        + [Data loading (file)](workflow/using/data-loading--file-.md)
        + [Content Management](workflow/using/content-management.md)
-       + [Extraction (file)](workflow/using/extraction--file-.md)
+       + [Data extraction (file)](workflow/using/extraction--file-.md)
        + [SQL code and JavaScript code](workflow/using/sql-code-and-javascript-code.md)
        + [SQL Data Management](workflow/using/sql-data-management.md)
        + [Nlserver module](workflow/using/nlserver-module.md)
@@ -483,7 +485,6 @@ index: y
        + [Event collection](message-center/using/event-collection.md)
        + [Routing towards a template](message-center/using/routing-towards-a-template.md)
        + [Delivery execution](message-center/using/delivery-execution.md)
-       + [Event recycling](message-center/using/event-recycling.md)
   + Reports {#reports}
        + [About transactional messaging reports](message-center/using/about-transactional-messaging-reports.md)
        + [History of Message Center events](message-center/using/history-of-message-center-events.md)

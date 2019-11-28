@@ -398,7 +398,7 @@ It displays a line like this in XML format:
 
 This **http(s)://`<Application server url>`/nl/jsp/ping.jsp**  page operates in the same way as its network counterpart: it tests a complete query going through apache/tomcat/web module/database and uploading to the client. If everything is working properly, it returns an "OK". We recommend running this test on machines with access to the databases (mtas and surveys, for instance).
 
-**Usage**: a session token associated with an operator login must be passed as an argument in order to log in remotely (see the tip in [Automatic monitoring via Adobe Campaign scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)).
+**Usage**: a session token associated with an operator login must be passed as an argument in order to log in remotely (see the tip in [Automatic monitoring via Adobe Campaign scripts](#automatic-monitoring-via-adobe-campaign-scripts)).
 
 For example: 
 
@@ -416,7 +416,7 @@ This is a test to check that an operator can access the Adobe Campaign server vi
 
 ![](assets/ncs_monitoring_web.png)
 
-**Usage**: a session token associated with an operator login which lets you connect to the instance needs to be used as an argument (see the tip in [Automatic monitoring via Adobe Campaign scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)).
+**Usage**: a session token associated with an operator login which lets you connect to the instance needs to be used as an argument (see the tip in [Automatic monitoring via Adobe Campaign scripts](#automatic-monitoring-via-adobe-campaign-scripts)).
 
 The operator and their login needs to be configured previously in the Adobe Campaign client console with the appropriate database rights and restrictions.
 
@@ -504,10 +504,10 @@ The installation procedure is as follows:
 
 The XML configuration file contains the following elements:
 
-* ['Properties' element](../../production/using/monitoring-processes.md#properties--element)
-* ['Instance' element](../../production/using/monitoring-processes.md#instance--element)
-* ['Host' element](../../production/using/monitoring-processes.md#host--element)
-* [Sub-elements](../../production/using/monitoring-processes.md#sub-elements)
+* ['Properties' element](#properties--element)
+* ['Instance' element](#instance--element)
+* ['Host' element](#host--element)
+* [Sub-elements](#sub-elements)
 
 Here is a configuration example:
 

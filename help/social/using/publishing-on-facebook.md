@@ -55,7 +55,7 @@ You need to select the page(s) which you want to post your publication on.
 
 ## Selecting the proof target {#selecting-the-proof-target}
 
-The **[!UICONTROL Target of the proofs]** tab lets you define the Facebook page which you want to use for testing deliveries before sending them out. We recommend creating a dedicated private Facebook page for this purpose. For more on creating a private Facebook page, refer to [Creating a test Facebook page](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). To select the proof target, apply the same steps as for the main target: [Selecting the main target](../../social/using/publishing-on-facebook.md#selecting-the-main-target).
+The **[!UICONTROL Target of the proofs]** tab lets you define the Facebook page which you want to use for testing deliveries before sending them out. We recommend creating a dedicated private Facebook page for this purpose. For more on creating a private Facebook page, refer to [Creating a test Facebook page](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). To select the proof target, apply the same steps as for the main target: [Selecting the main target](#selecting-the-main-target).
 
 ![](assets/social_facebook_delivery_004.png)
 
@@ -188,7 +188,7 @@ The **[!UICONTROL Preview]** tab lets you view the rendering of the publication.
 
 >[!NOTE]
 >
->The preview may differ slightly from the final Facebook publication. We highly recommend sending a proof before final delivery for an exact rendering of the publication. Refer to [Sending the proof](../../social/using/publishing-on-facebook.md#sending-the-proof).
+>The preview may differ slightly from the final Facebook publication. We highly recommend sending a proof before final delivery for an exact rendering of the publication. Refer to [Sending the proof](#sending-the-proof).
 
 ## Configuring tracking {#configuring-tracking}
 
@@ -204,7 +204,7 @@ Tracking configuration is the same as for an email delivery. For more on this, r
 
 ## Sending the proof {#sending-the-proof}
 
-We highly recommend sending a proof of your publication before the final delivery to view the exact rendering of the publication on a private Facebook test page. For more on creating a private Facebook test page, refer to [Creating a test Facebook page](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). The steps for selecting the target proof are detailed in [Selecting the proof target](../../social/using/publishing-on-facebook.md#selecting-the-proof-target).
+We highly recommend sending a proof of your publication before the final delivery to view the exact rendering of the publication on a private Facebook test page. For more on creating a private Facebook test page, refer to [Creating a test Facebook page](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). The steps for selecting the target proof are detailed in [Selecting the proof target](#selecting-the-proof-target).
 
 Proof delivery is identical to email deliveries. Refer to [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 

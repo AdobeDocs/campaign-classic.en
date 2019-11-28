@@ -37,6 +37,10 @@ A Web server also lets you guarantee data confidentiality with the HTTPs protoco
 
 Likewise, you must use a Web server when you wish to use the tracking functionality, which is only available as an extension module to a Web server.
 
+>[!NOTE]
+>
+>If you do not use the tracking functionality, you can perform a standard installation of Apache or IIS with a redirection to Campaign. The tracking Web server extension module is not required.
+
 ## Configuring the Apache Web server with Debian {#configuring-the-apache-web-server-with-debian}
 
 This process applies if you have installed Apache under a distribution based on APT.
