@@ -1,8 +1,6 @@
 ---
 title: Importing data
-seo-title: Importing data
-description: Importing data
-seo-description: 
+description: Learn how to import data in Adobe Campaign Classic
 page-status-flag: never-activated
 uuid: c8cf2bf1-f7a5-4de4-9e53-a961c9e5beca
 contentOwner: sauviat
