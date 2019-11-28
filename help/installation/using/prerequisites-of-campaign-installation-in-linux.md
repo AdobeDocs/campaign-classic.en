@@ -53,18 +53,21 @@ To install Adobe Campaign in Linux, please make sure you have the required libra
 
 * To use Adobe Campaign, you need to have the **libicu** library installed.
 
-  >[!NOTE]
-  >
-  >For RHEL, only libicu 4.2 is supported. RHEL 7 distribution is provided with the **libicu5.0** library. You need to add libicu4.2 manually to the **lib** folder of Campaign.
-
   The following versions of **libicu** are supported (32bit or 64bit):
 
-    * RHEL, SLES, CentOS : **libicu4.2**. 
-    * Debian 7: **libicu4.8**, Debian 8: **libicu5.2**.
+    * RHEL 6, SLES, CentOS 6: libicu4.2
+    * RHEL 7, CentOS 7: libicu50
+    * Debian 7: libicu48
+    * Debian 8: libicu52
+    * Debian 9: libicu57 
 
-  The **libc-ares2** is provided out-of-the-box with Adobe Campaign for RHEL or CentOS installations.
+  To use Adobe Campaign, you need to have the libc-ares library installed. On RHEL/CentOS, run the following command:
 
-  If installing in Debian, you must run the following command to install the library:
+  ```
+  yum install c-ares
+  ```
+
+  On Debian:
 
   ```
   aptitude install libc-ares2

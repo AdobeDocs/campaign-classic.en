@@ -28,6 +28,14 @@ A warning has been added to the [Multiplexing the mid-sourcing server](../../ins
 
 A new section has been added to describe how to force the character encoding used when sending an email. [Read more](../../delivery/using/sending-messages.md#character-encoding)
 
+The Access management section has been updated with the **Privacy Data right**. [Read more](../../platform/using/access-management.md#named-rights)
+
+Information was added to specify that personalization fields content cannot exceed 1024 characters. [Read more](../../delivery/using/personalization-fields.md)
+
+The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+
+The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
 ## October 2019 {#october-2019}
 
 The list of error messages for Campaign Standard and Campaign Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)

@@ -49,16 +49,20 @@ snippet: y
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-13 August 2019
+**November 20th 2019**: new build (9032-3468c7bb5) which includes the following fixes:
 
-**Improvements**
-  
-* Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
+* Fixed a login issue via IMS authentication. (NEO-17312)
+* Fixed an issue when displaying cumulative reports on multiple deliveries. (NEO-18165)
+* Fixed an issue that could block or make the web server crash.
 
-**September 19th 2019**: this build has been recalled and replaced with 9032-cee805c93 which includes the following fixes:
+**September 19th 2019**: new build (9032-cee805c93) which includes the following fixes:
 
 * Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
 * Fixed an index issue which could cause performance issues when sending transactional messages.
+
+**August 13th 2019**: initial 19.1.4 build which includes the following fix:
+  
+* Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
 
 ## Release 19.1.3 - Build 9031{#release-19-1-3-build-9031}
 
@@ -159,7 +163,7 @@ snippet: y
 
 * Lifespan - XtkNewId sequence usage optimization: the most consuming tables have been moved from the xtkNewId sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence ) 
 * FDA over HTTP v2: the FDA over HTTP protocol is widely used on Hybrid deployments, especially for broadLog retrieval and delivery preparation. Robustness has been enhanced to avoid network issues and possible errors as retrieving or pushing data. This requires that builds at both ends of the connection are up-to-date, otherwise the old protocol will still be used.
-* Tracking workflow: the tracking workflow robustness has been enhanced. Several issues related to tracking log inserts/updates and URL tracking customization have been fixed.
+* Tracking workflow: the tracking workflow robustness has been enhanced. Several issues related to tracking log inserts/updates and URL tracking customization have been fixed. In addition, the tracking workflow now detects tracking log issues that could lead to errors and stop the workflow. These issues are now discarded and not processed.
 * Cleanup workflow: the cleanup workflow has been improved to avoid potential errors and stops. This optimizes database size and performance.
 * Embedded images in transactional messages: we have added the full support of embedded images in transactional messages, to avoid possible crashes or missing images.
 * Database size - XtkJobLog: a purge mechanism has been added to this table. This has a positive impact on the database size.
