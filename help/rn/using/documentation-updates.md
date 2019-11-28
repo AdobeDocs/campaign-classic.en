@@ -36,6 +36,8 @@ The Control Panel documentation has been integrated into the new collaborative d
 
 The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
+The integration between Adobe Campaign and Adobe Real-time Customer Data Platform has been added to the **Integrating with Adobe Experience Cloud** guide. [Read more](../../integrations/using/about-campaign-integrations.md)
+
 ## October 2019 {#october-2019}
 
 The list of error messages for Campaign Standard and Campaign Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
