@@ -18,7 +18,7 @@ snippet: y
 
 # Creating notifications{#creating-notifications}
 
-This section details the elements specific to the delivery of iOS and Android notifications. Global concepts on delivery creation are presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md).
+This section details the elements specific to the delivery of iOS and Android notifications. Global concepts on delivery creation are presented in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 Start by creating a new delivery.
 
@@ -36,7 +36,7 @@ Start by creating a new delivery.
 
    >[!NOTE]
    >
-   >The detailed process when selecting the target population of a delivery is presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-the-target-population).
+   >The detailed process when selecting the target population of a delivery is presented in [this section](../../delivery/using/steps-defining-the-target-population.md).
    >
    >For more on the use of personalization fields, refer to [About personalization](../../delivery/using/about-personalization.md).
    >
@@ -135,8 +135,8 @@ To send a proof and to send the final delivery, use the same process as email de
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validating the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#validating-the-delivery)
-* [Sending the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-the-delivery)
+* [Validating the delivery](../../delivery/using/steps-validating-the-delivery.md)
+* [Sending the delivery](../../delivery/using/steps-sending-the-delivery.md)
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 

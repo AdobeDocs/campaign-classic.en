@@ -179,7 +179,7 @@ After configuring your query (refer to this [section](../../workflow/using/query
 
    The number of propositions available for the preview depends on the configuration carried out in the enrichment activity rather than any possible configuration carried out directly in the delivery.
 
-To specify offer propositions, you can also choose to reference a link to an offer. For more on this, refer to the following section [Referencing a link to an offer](../../workflow/using/enrichment.md#referencing-a-link-to-an-offer).
+To specify offer propositions, you can also choose to reference a link to an offer. For more on this, refer to the following section [Referencing a link to an offer](#referencing-a-link-to-an-offer).
 
 ## Referencing a link to an offer {#referencing-a-link-to-an-offer}
 

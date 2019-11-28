@@ -28,16 +28,16 @@ When using the buttons in the toolbar, select the type of field you want to add.
 
 The following types of field are available:
 
-* Text/number input. See [Adding input fields](../../web/using/adding-fields-to-a-web-form.md#adding-input-fields).
-* Drop-down list selection. See [Adding drop-down lists](../../web/using/adding-fields-to-a-web-form.md#adding-drop-down-lists).
-* Multiple choice via checkboxes. See [Adding checkboxes](../../web/using/adding-fields-to-a-web-form.md#adding-checkboxes).
-* Exclusive selection via radio buttons. See [Adding radio buttons](../../web/using/adding-fields-to-a-web-form.md#adding-radio-buttons).
-* Vote in an option grid. See [Adding grids](../../web/using/adding-fields-to-a-web-form.md#adding-grids). 
-* Numbers and dates. See [Adding dates and numbers](../../web/using/adding-fields-to-a-web-form.md#adding-dates-and-numbers).
-* Subscription/unsubscription to an information service. See [Subscription checkboxes](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes).
-* Captcha validation. See [Inserting a captcha](../../web/using/adding-fields-to-a-web-form.md#inserting-a-captcha).
-* Download button. [Uploading a file](../../web/using/adding-fields-to-a-web-form.md#uploading-a-file).
-* Hidden constant. See [Inserting a hidden constant](../../web/using/adding-fields-to-a-web-form.md#inserting-a-hidden-constant).
+* Text/number input. See [Adding input fields](#adding-input-fields).
+* Drop-down list selection. See [Adding drop-down lists](#adding-drop-down-lists).
+* Multiple choice via checkboxes. See [Adding checkboxes](#adding-checkboxes).
+* Exclusive selection via radio buttons. See [Adding radio buttons](#adding-radio-buttons).
+* Vote in an option grid. See [Adding grids](#adding-grids). 
+* Numbers and dates. See [Adding dates and numbers](#adding-dates-and-numbers).
+* Subscription/unsubscription to an information service. See [Subscription checkboxes](#subscription-checkboxes).
+* Captcha validation. See [Inserting a captcha](#inserting-a-captcha).
+* Download button. [Uploading a file](#uploading-a-file).
+* Hidden constant. See [Inserting a hidden constant](#inserting-a-hidden-constant).
 
 Please specify the response storage mode: update a field in the database (stores only the last value saved) or store in a variable (the answer is not stored). For more on this, refer to [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
 
@@ -75,7 +75,7 @@ Five different types of text fields can be inserted into a form page:
 
   ![](assets/s_ncs_admin_survey_txt_ex.png)
 
-* **Number**: lets the user enter a number on one line. for more on this, refer to [Adding numbers](../../web/using/adding-fields-to-a-web-form.md#adding-numbers).
+* **Number**: lets the user enter a number on one line. for more on this, refer to [Adding numbers](#adding-numbers).
 
   When the page is approved, field content is checked to make sure the value entered is compatible with the field. For more on this, refer to [Defining control settings](../../web/using/form-rendering.md#defining-control-settings).
 
@@ -209,7 +209,7 @@ To add a radio button to a form page, go to the **[!UICONTROL Selection controls
 
 ![](assets/s_ncs_admin_survey_radio_button_sample.png)
 
-Radio buttons are configured in a similar way to checkboxes (see [Adding checkboxes](../../web/using/adding-fields-to-a-web-form.md#adding-checkboxes)). However, no value is assigned if the option is not selected. In order for several buttons to be interdependent, i.e. selecting one automatically deselects the others, they must be stored in the same field. If they are not stored in the database, the same local variable must be used for temporary storage. See [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
+Radio buttons are configured in a similar way to checkboxes (see [Adding checkboxes](#adding-checkboxes)). However, no value is assigned if the option is not selected. In order for several buttons to be interdependent, i.e. selecting one automatically deselects the others, they must be stored in the same field. If they are not stored in the database, the same local variable must be used for temporary storage. See [Response storage fields](../../web/using/web-forms-answers.md#response-storage-fields).
 
 ### Add a list of buttons {#add-a-list-of-buttons}
 

@@ -32,7 +32,7 @@ Two types of lists are available in Adobe Campaign:
 
 * **[!UICONTROL Group]** type: The **[!UICONTROL Group]** type lists belong to a **static** list of people selected according to specific criteria. The list is like a snapshot of a set of profiles. Please note that it is not updated automatically in the event of profiles being added to the database.
 
-  For more information on how to create a **[!UICONTROL Group]** type list, refer to this [page](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group).
+  For more information on how to create a **[!UICONTROL Group]** type list, refer to this [page](#creating-a-profile-list-from-a-group).
 
 * **[!UICONTROL List]** type: The **[!UICONTROL List]** type lists allows you to use workflows to create and manage lists. These will be specific lists resulting from data imports, that can be updated via the dedicated **[!UICONTROL List update]** workflow activity.
 

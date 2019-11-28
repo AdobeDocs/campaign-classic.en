@@ -40,7 +40,7 @@ Campaign Classic configuration files are stored in the **conf** folder of the Ad
 
 Each operator needs to be linked to a zone to log on to an instance and the operator IP must be included in the addresses or address sets defined in the security zone. Security zone configuration is carried out in the configuration file of the Adobe Campaign server.
 
-Operators are linked to a security zone from its profile in the console ( **[!UICONTROL Administration > Access management > Operators]** node). Learn how to link zones to Campaign operators in [this section](../../installation/using/configuring-campaign-server.md#linking-a-security-zone-to-an-operator).
+Operators are linked to a security zone from its profile in the console ( **[!UICONTROL Administration > Access management > Operators]** node). Learn how to link zones to Campaign operators in [this section](#linking-a-security-zone-to-an-operator).
 
 ### Creating security zones {#creating-security-zones}
 
@@ -296,6 +296,10 @@ Also refer to [Email sending optimization](../../installation/using/email-delive
 
 ### Managing outbound SMTP traffic with affinities {#managing-outbound-smtp-traffic-with-affinities}
 
+>[!CAUTION]
+>
+>The affinity configuration needs to be coherent from one server to another. We recommend that you contact Adobe for affinity configuration, as configuration changes should be replicated on all application servers running the MTA.
+
 You can improve outbound SMTP traffic through affinities with IP addresses.
 
 To do this, apply the following steps:
@@ -445,7 +449,11 @@ sh
 
 In the **exec** node of the server configuration file, you need to reference the previously created file in the **blacklistFile** attribute.
 
-**For Linux only**: in the server configuration file, you need to specify a user dedicated to executing external commands to enhance your security configuration. This user is set in the **exec** node of the configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
+**For Linux only**: in the server configuration file, we recommand that you specify a user dedicated to executing external commands to enhance your security configuration. This user is set in the **exec** node of the configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
+
+>[!NOTE]
+>
+>If no user is specified, all commands are executed in the user context of the Adobe Campaign instance. The user must be different than the user running Adobe Campaign.
 
 For example:
 
@@ -456,6 +464,10 @@ For example:
 ```
 
 This user needs to be added to the sudoer list of the 'neolane' Adobe Campaign operator.
+
+>
+>
+>You should not use a custom sudo. A standard sudo needs to be installed on the system.
 
 ## Managing HTTP headers {#managing-http-headers}
 

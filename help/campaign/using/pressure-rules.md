@@ -26,8 +26,8 @@ Implementing sales pressure management enables you to avoid over-soliciting the 
 
 Campaigns are selected based on defined thresholds and message weight.
 
-* A threshold is the highest number of deliveries authorized for a given recipient within a given period. It can be either set or variable. It is set or calculated in the typology rule settings. Refer to [Maximum number of messages](../../campaign/using/pressure-rules.md#maximum-number-of-messages).
-* Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority. Refer to [Message weight](../../campaign/using/pressure-rules.md#message-weight).
+* A threshold is the highest number of deliveries authorized for a given recipient within a given period. It can be either set or variable. It is set or calculated in the typology rule settings. Refer to [Maximum number of messages](#maximum-number-of-messages).
+* Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority. Refer to [Message weight](#message-weight).
 
 Arbitration consists in making sure scheduled campaigns whose weight is greater than the campaign in progress won't lead to excessive profile solicitation: if this is the case, the profile is excluded from the delivery.
 
@@ -38,7 +38,7 @@ Arbitration criteria (message weight and/or threshold) can vary based on two typ
 
 The arbitration rule for defining eligible messages is applied during the analysis stage. For each recipient and for the concerned period, the message will be sent if the following formula is true: **(number of messages sent) + (number of messages with a greater weight) < threshold**.
 
-Otherwise, the recipient will be **[!UICONTROL Excluded by arbitration]**. For more on this, refer to [Exclusion after arbitration](../../campaign/using/pressure-rules.md#exclusion-after-arbitration).
+Otherwise, the recipient will be **[!UICONTROL Excluded by arbitration]**. For more on this, refer to [Exclusion after arbitration](#exclusion-after-arbitration).
 
 ## Creating a pressure rule {#creating-a-pressure-rule}
 
@@ -64,7 +64,7 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
    >[!NOTE]
    >
-   >Scheduled deliveries are only taken into account if the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option is selected. For more on this, refer to [Setting the period](../../campaign/using/pressure-rules.md#setting-the-period).
+   >Scheduled deliveries are only taken into account if the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option is selected. For more on this, refer to [Setting the period](#setting-the-period).
 
 1. Define the method for calculating the highest number of messages.
 
@@ -78,11 +78,11 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
    ![](assets/campaign_opt_create_a_rule_04.png)
 
-   For more on this, refer to [Maximum number of messages](../../campaign/using/pressure-rules.md#maximum-number-of-messages).
+   For more on this, refer to [Maximum number of messages](#maximum-number-of-messages).
 
 1. Specify the method for calculating delivery weight.
 
-   Each delivery has a weight, i.e. a value which represents its priority level: this enables arbitration between campaigns. Weights are calculated using the formula defined in the typology rule and/or in its properties. For more on this, refer to [Message weight](../../campaign/using/pressure-rules.md#message-weight).
+   Each delivery has a weight, i.e. a value which represents its priority level: this enables arbitration between campaigns. Weights are calculated using the formula defined in the typology rule and/or in its properties. For more on this, refer to [Message weight](#message-weight).
 
 1. By default, all messages are taken into account for threshold calculation. The **[!UICONTROL Restriction]** tab lets you filter the messages concerned by the typology rule:
 
@@ -322,7 +322,7 @@ To do this, you need to schedule several deliveries with different weights for t
 
 First, configure the pressure rule.
 
-1. Create a pressure rule. For more on this, refer to [Creating a pressure rule](../../campaign/using/pressure-rules.md#creating-a-pressure-rule).
+1. Create a pressure rule. For more on this, refer to [Creating a pressure rule](#creating-a-pressure-rule).
 1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Re-apply the rule at the start of personalization]** option.
 
    ![](assets/campaign_opt_pressure_example_5.png)
@@ -334,7 +334,7 @@ First, configure the pressure rule.
 
    ![](assets/campaign_opt_pressure_example_1.png)
 
-   Deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date will be taken into account in the calculation. For more on this, refer to [Setting the period](../../campaign/using/pressure-rules.md#setting-the-period).
+   Deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date will be taken into account in the calculation. For more on this, refer to [Setting the period](#setting-the-period).
 
 1. In the **[!UICONTROL Typologies]** tab, link the rule to a campaign typology.
 1. Save your changes.
@@ -358,13 +358,13 @@ Now create and configure a workflow for each delivery you want the pressure rule
 
    ![](assets/campaign_opt_pressure_example_4.png)
 
-   For the pressure rule exclusions to be implemented successfully, make sure you set the extraction date and time before the contact date and time, as well as before the nightly arbitration is re-applied. For more on this, refer to [Exclusion after arbitration](../../campaign/using/pressure-rules.md#exclusion-after-arbitration).
+   For the pressure rule exclusions to be implemented successfully, make sure you set the extraction date and time before the contact date and time, as well as before the nightly arbitration is re-applied. For more on this, refer to [Exclusion after arbitration](#exclusion-after-arbitration).
 
 1. Unselect the **[!UICONTROL Confirm the delivery before sending]** option and save your changes.
 1. Proceed similarly for each delivery you want to send. Make sure you set the desired weight for each delivery.
 1. Run the relevant workflows to prepare and send the deliveries.
 
-When the nightly arbitration is applied, the deliveries with the lower weights for the same recipient will be excluded. Only the deliveries with the highest weight will be considered for send. For more on this, refer to [Message weight](../../campaign/using/pressure-rules.md#message-weight).
+When the nightly arbitration is applied, the deliveries with the lower weights for the same recipient will be excluded. Only the deliveries with the highest weight will be considered for send. For more on this, refer to [Message weight](#message-weight).
 
 Considering that an email has already been sent to the concerned recipients earlier during the week, the table below shows an example of the configurations that can be applied for two more deliveries.
 

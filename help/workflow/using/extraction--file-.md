@@ -1,8 +1,6 @@
 ---
-title: Extraction (file)
-seo-title: Extraction (file)
-description: Extraction (file)
-seo-description: 
+title: Data extraction (file)
+description: Learn more about the Data extraction (file) workflow activity.
 page-status-flag: never-activated
 uuid: c1e3fde3-183c-4602-9cef-760e4648fcf7
 contentOwner: sauviat
@@ -16,9 +14,9 @@ internal: n
 snippet: y
 ---
 
-# Extraction (file){#extraction-file}
+# Data extraction (file){#extraction-file}
 
-You can extract data from a workflow table in an external file using the **[!UICONTROL Extraction (file)]** activity.
+You can extract data from a workflow table in an external file using the **[!UICONTROL Data extraction (file)]** activity.
 
 >[!CAUTION]
 >

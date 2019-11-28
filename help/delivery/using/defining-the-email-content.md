@@ -65,7 +65,7 @@ For example, in the message above, the subject of the message is personalized fo
 
 The content of the message is defined in the lower section of the delivery configuration window.
 
-Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Selecting message formats](../../delivery/using/defining-the-email-content.md#selecting-message-formats).
+Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Selecting message formats](#selecting-message-formats).
 
 * To import an HTML content, use the **[!UICONTROL Open]** button. You can also paste the source code directly into the **[!UICONTROL Source]** sub-tab.
 
@@ -85,7 +85,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   ![](assets/s_ncs_user_wizard_email01_18.png)
 
-  Library images can be accessed via the **[!UICONTROL Resources>Online>Public resources]** folder in the folder tree. Also refer to [Adding images](../../delivery/using/defining-the-email-content.md#adding-images).
+  Library images can be accessed via the **[!UICONTROL Resources>Online>Public resources]** folder in the folder tree. Also refer to [Adding images](#adding-images).
 
   The last button in the toolbar lets you insert personalization fields.
 
@@ -149,34 +149,7 @@ An additional tab lets you enter content that will automatically be integrated a
 
 ## Adding attachments {#adding-attachments}
 
-You can attach one or more files to an email delivery. Attachments can be in any format. You can also attach zipped files. If necessary, the content of the attachment can be personalized for each recipient.
-
->[!NOTE]
->
->The name of the attachment can be computed for each message as it is sent, and can depend on the recipient. It can also be personalized and converted to PDF at the time of sending. In these cases, it must be a calculated attachment. See [Attaching files](../../delivery/using/attaching-files.md).
-
-To attach a file:
-
-* Select the file to be attached. Drag and drop it in the **[!UICONTROL Attachments]** field. After validation, the file is uploaded onto the server.
-
-  ![](assets/s_ncs_user_wizard_email_attachement_h.png)
-
-* Or click the **[!UICONTROL Attach]** icon in the delivery wizard toolbar, and then select the file to be attached to the delivery.
-* Or click the **[!UICONTROL Attachments]** link and then the **[!UICONTROL Add]** button, and select **[!UICONTROL File...]** to select the file to be attached to the delivery.
-
-  ![](assets/s_ncs_user_wizard_email_attachement.png)
-
-  Select the file to attach to the delivery and click **[!UICONTROL Open]**.
-
-  ![](assets/s_ncs_user_wizard_email_attachement_b.png)
-
-  After validation, the file is uploaded onto the server. The progress bar lets you monitor its progress:
-
-  ![](assets/s_ncs_user_wizard_email_attachement_c.png)
-
-You can attach several files to your delivery. They are listed in the **[!UICONTROL Attachments]** field.
-
-![](assets/s_ncs_user_wizard_email_attachement_e.png)
+You can attach one or more files to an email delivery. For more on this, refer to [this section](../../delivery/using/attaching-files.md).
 
 ## Adding images {#adding-images}
 
@@ -220,7 +193,7 @@ When you open HTML content with included images in the delivery wizard, a messag
 >
 >The image access paths are modified during manual uploading or when sending messages.
 
-### Example: sending a message with images {#example--sending-a-message-with-images}
+**Example: sending a message with images {#example--sending-a-message-with-images}**
 
 Here is a sample of a delivery with four images:
 
@@ -264,11 +237,74 @@ If you select **[!UICONTROL Include the images in the email]**, you can choose w
 >
 >If local images are included in the message, you must confirm changes to the message source code.
 
+## Inserting a barcode in an email{#inserting-a-barcode-in-an-email}
+
+The barcode generation module lets you create several types of barcodes that comply with many common standards, including 2D barcodes.
+
+It is possible to dynamically generate a barcode as a bitmap using a value defined using customer criteria. Personalized barcodes can be included in email campaigns. The recipient can print the message and show it to the issuing company for scanning (when checking out for example).
+
+To insert a barcode into an email, place the cursor in the content where you want to display it, then click the personalization button. Select **[!UICONTROL Include > Barcode...]**.
+
+![](assets/barcode_insert_14.png)
+
+Then configure the following elements to suit your needs:
+
+1. Select the type of barcode.
+
+    * For 1D format, the following types are available in Adobe Campaign: Codabar, Code 128, GS1-128 (formerly EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, Interleaved 2 of 5, POSTNET and Royal Mail (RM4SCC).
+
+      Example of a 1D barcode:
+
+      ![](assets/barcode_insert_08.png)
+
+    * The DataMatrix and PDF417 types concern the 2D format.
+
+      Example of a 2D barcode:
+
+      ![](assets/barcode_insert_09.png)
+
+    * To insert a QR code, select this type and enter the error correction rate to apply. This rate defines the quantity of information repeated and the tolerance to deterioration.
+
+      ![](assets/barcode_insert_06.png)
+
+      Example of a QR code:
+
+      ![](assets/barcode_insert_12.png)
+
+1. Enter the size of the barcode that you want to insert into the email: configuring the scale lets you increase or reduce the size of the barcode, from x1 to x10.
+1. The **[!UICONTROL Value]** field enables you to define the value of the barcode. A value can match a special offer and can be the function of a criteria, it can be the value of a database field linked to the customers.
+
+   This example shows an EAN-8 type barcode, to which was added the account number of a recipient. To add this account number, click the personalization button to the right of the **[!UICONTROL Value]** field and select **[!UICONTROL Recipient > Account number]**.
+
+   ![](assets/barcode_insert_15.png)
+
+1. The **[!UICONTROL Height]** field lets you configure the height of the barcode without changing its width, by altering the amount of space between each bar.
+
+   There is no restrictive entry control depending on the type of barcode. If a barcode value is incorrect, it will only be visible in **Preview** mode where the barcode will be crossed out in red.
+
+   >[!NOTE]
+   >
+   >The value assigned to a barcode depends on its type. For example, an EAN-8 type shall have exactly 8 numbers.
+   >
+   >The personalization button to the right of the **[!UICONTROL Value]** field lets you add data in addition to the value itself. This enriches the barcode, provided that the barcode standard accepts it.
+   >
+   >For example, if you are using a GS1-128 type barcode and want to enter the account number of a recipient in addition to the value, click the personalization button and select **[!UICONTROL Recipient > Account number]**. If the account number of the selected recipient is entered correctly, the barcode takes it into account.
+
+Once these elements have been configured, you can finalize your email and send it. To avoid errors, always make sure your content is displayed correctly before performing a delivery by clicking the **[!UICONTROL Preview]** tab.
+
+![](assets/barcode_insert_10.png)
+
+>[!NOTE]
+>
+>If the value of a barcode is incorrect, its bitmap is shown crossed out in red.
+
+![](assets/barcode_insert_11.png)
+
 ## Sending emails on Japanese mobiles {#sending-emails-on-japanese-mobiles}
 
 ### Email formats for Japanese mobiles {#email-formats-for-japanese-mobiles}
 
-Adobe Campaign manages three specific Japanese formats for email on mobiles: **Deco-mail** (DoCoMo mobiles), **Decore Mail** (Softbank mobiles) and **Decoration Mail** (KDDI AU mobiles). These formats impose particular coding, structure, and size constraints. Learn more about limitations and recommendations in [this section](../../delivery/using/defining-the-email-content.md#limitations-and-recommendations).
+Adobe Campaign manages three specific Japanese formats for email on mobiles: **Deco-mail** (DoCoMo mobiles), **Decore Mail** (Softbank mobiles) and **Decoration Mail** (KDDI AU mobiles). These formats impose particular coding, structure, and size constraints. Learn more about limitations and recommendations in [this section](#limitations-and-recommendations).
 
 In order for the recipient to correctly receive messages in one of these formats, we recommend selecting **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** in the corresponding profile:
 
@@ -322,7 +358,7 @@ In addition to the previewing diagnosis, a second check is carried out when send
 >
 >This typology rule is only executed if at least one of the recipients is configured to receive emails in **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** format.
 
-This typology rule allows you to make sure that the delivery respects the [format constraints](../../delivery/using/defining-the-email-content.md#limitations-and-recommendations) defined by the Japanese operators, particularly in relation to the total size of the email, the size of the HTML and text sections, the number of images in the messages, and the tags in the HTML content.
+This typology rule allows you to make sure that the delivery respects the [format constraints](#limitations-and-recommendations) defined by the Japanese operators, particularly in relation to the total size of the email, the size of the HTML and text sections, the number of images in the messages, and the tags in the HTML content.
 
 #### Sending proofs {#sending-proofs}
 
@@ -336,8 +372,8 @@ For example, you can replace a profile's address by test@softbank.ne.jp if the e
 
 To send an email to recipients with Japanese email formats with Campaign, two options are possible:
 
-* Create two deliveries: one only for Japanese recipients and another for other recipients - refer to [this section](../../delivery/using/defining-the-email-content.md#designing-a-specific-delivery-for-japanese-formats).
-* Create a single delivery and Adobe Campaign will automatically detect the format to use - refer to [this section](../../delivery/using/defining-the-email-content.md#designing-a-delivery-for-all-formats).
+* Create two deliveries: one only for Japanese recipients and another for other recipients - refer to [this section](#designing-a-specific-delivery-for-japanese-formats).
+* Create a single delivery and Adobe Campaign will automatically detect the format to use - refer to [this section](#designing-a-delivery-for-all-formats).
 
 #### Designing a specific delivery for Japanese formats {#designing-a-specific-delivery-for-japanese-formats}
 
@@ -357,4 +393,4 @@ The message contact will display correctly for the users on Japanese mobiles, ju
 
 >[!CAUTION]
 >
->Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [this section](../../delivery/using/defining-the-email-content.md#limitations-and-recommendations).
+>Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [this section](#limitations-and-recommendations).

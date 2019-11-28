@@ -46,7 +46,7 @@ In response to the query, the SOAP service will return the following parameters:
 
 Add the **nms:interaction#UpdateStatus** command to the URL, followed by these parameters:
 
-* **proposition**: string of characters, it contains the proposition ID given as an output during an offer proposition. Refer to [Offer proposition](../../interaction/using/integration-via-soap--server-side-.md#offer-proposition).
+* **proposition**: string of characters, it contains the proposition ID given as an output during an offer proposition. Refer to [Offer proposition](#offer-proposition).
 * **status**: string type, it specifies the new status of the offer. The possible values are listed in the **propositionStatus** enumeration, in the **nms:common** schema. For example, out-of-the-box, the number 3 corresponds to the **Accepted** status.
 * **context**: XML element, lets you add context information in the space schema. If the schema used is **nms:interaction**, **`<empty>`** should be added.
 

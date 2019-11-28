@@ -31,6 +31,9 @@ Once you have defined your message content, you can integrate event information 
 
 ![](assets/messagecenter_create_content_001.png)
 
+* All the personalization fields are coming from the payload.
+* It is possible to reference one or several personalization blocks in a transactional message. The block content will be added to the delivery content during the publication to the execution instance.
+
 To insert personalization tags into the body of an email message, apply the following steps:
 
 1. In the message template, click the tab that matches the email format (HTML or text).

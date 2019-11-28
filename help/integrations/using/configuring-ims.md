@@ -27,7 +27,7 @@ To use the integration with the IMS:
 
 >[!NOTE]
 >
->Make sure that your users are linked to the Adobe Marketing Cloud groups that will be synced with Adobe Campaign. Refer to [Configuring the external account](../../integrations/using/configuring-ims.md#configuring-the-external-account).
+>Make sure that your users are linked to the Adobe Marketing Cloud groups that will be synced with Adobe Campaign. Refer to [Configuring the external account](#configuring-the-external-account).
 
 ## Updating the console {#updating-the-console}
 

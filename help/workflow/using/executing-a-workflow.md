@@ -186,7 +186,7 @@ This lets you use data collected via a list or based on answers to a survey in a
 
 **[!UICONTROL Target extension]** (targetData) type personalization elements are not available for targeting workflows. The delivery target has to be built in the workflow and specified in the inbound transition of the delivery.
 
-If you want to create delivery proofs, the proof target needs to be built based on the **[!UICONTROL Address substitution]** mode so that the personalization data can be entered. For more on this, refer to this [section](../../delivery/using/key-steps-when-creating-a-delivery.md#using-address-substitution-in-proof).
+If you want to create delivery proofs, the proof target needs to be built based on the **[!UICONTROL Address substitution]** mode so that the personalization data can be entered. For more on this, refer to this [section](../../delivery/using/steps-defining-the-target-population.md#using-address-substitution-in-proof).
 
 In the following example, we are going to collect a list of information on customers, to be used in a personalized email.
 
@@ -289,7 +289,7 @@ For technical workflows, the tasks that the user can approve can be accessed fro
 An approval is assigned to a group of operators, a single operator or a set of operators selected via a filtering condition.
 
 1. For the simplest form of approval, the task is finished as soon as an operator responds. Any other operator who tries to respond will be notified that someone has already done it.
-1. For multiple approvals, refer to [Multiple approval](../../workflow/using/executing-a-workflow.md#multiple-approval).
+1. For multiple approvals, refer to [Multiple approval](#multiple-approval).
 
 The operator groups for approvals should be designated as roles or functions rather than named individuals. For example, a "Campaign budget" group is preferable to "Harry's group". We recommend having at least two persons in a group who can approve a task. In this way, if one is absent, the other can respond.
 

@@ -74,4 +74,3 @@ snippet: y
 * Apache 2.2 and Centos 6 are now deprecated for Campaign Classic implementations. [Read more](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
 **Patches**
-
