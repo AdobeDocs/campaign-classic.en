@@ -24,10 +24,10 @@ For more information on CRM connectors in Adobe Campaign, refer to this [section
 
 This means you can:
 
-* Import from the CRM (refer to [Importing from the CRM](../../workflow/using/crm-connector.md#importing-from-the-crm)),
-* Export to CRM (refer to [Exporting to the CRM](../../workflow/using/crm-connector.md#exporting-to-the-crm)),
-* Import objects deleted in the CRM (refer to [Importing objects deleted in the CRM](../../workflow/using/crm-connector.md#importing-objects-deleted-in-the-crm)),
-* Delete objects in the CRM (refer to [Deleting objects in the CRM](../../workflow/using/crm-connector.md#deleting-objects-in-the-crm)).
+* Import from the CRM (refer to [Importing from the CRM](#importing-from-the-crm)),
+* Export to CRM (refer to [Exporting to the CRM](#exporting-to-the-crm)),
+* Import objects deleted in the CRM (refer to [Importing objects deleted in the CRM](#importing-objects-deleted-in-the-crm)),
+* Delete objects in the CRM (refer to [Deleting objects in the CRM](#deleting-objects-in-the-crm)).
 
 ![](assets/crm_task_select_op.png)
 
@@ -67,11 +67,11 @@ For an import activity, the **CRM Connector** activity configuration steps are:
 
    ![](assets/crm_task_import_filter.png)
 
-   The limitations linked to data filtering modes are detailed in [Filter on data](../../workflow/using/crm-connector.md#filter-on-data) section.
+   The limitations linked to data filtering modes are detailed in [Filter on data](#filter-on-data) section.
 
 1. The **[!UICONTROL Use automatic index]** option enables you to automatically manage incremental object synchronization between the CRM and Adobe Campaign, depending on the date and their last modification.
 
-   For more on this, refer to [Variable management](../../workflow/using/crm-connector.md#variable-management).
+   For more on this, refer to [Variable management](#variable-management).
 
 ## Variable management {#variable-management}
 

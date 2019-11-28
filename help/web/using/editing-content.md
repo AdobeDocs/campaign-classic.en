@@ -167,7 +167,7 @@ The **Link that defines an action** option lets you configure an action when cli
 
 >[!NOTE]
 >
->Available actions are detailed in the [Adding an action to a button](../../web/using/editing-content.md#adding-an-action-to-a-button) section.
+>Available actions are detailed in the [Adding an action to a button](#adding-an-action-to-a-button) section.
 
 ### Delete a link {#delete-a-link}
 

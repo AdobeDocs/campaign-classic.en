@@ -22,8 +22,8 @@ snippet: y
 
 You can attach one or more files to an email delivery. There are two possible cases:
 
-1. Select a file and attach it to the delivery as it is.
-1. Personalize the content of the attachment for each recipient. In this case, you need to create a calculated attachment: the name of the attachment is computed at the time of delivery for each message depending on the recipient. The content can also be personalized and converted into PDF format at the time of delivery, if you have the **Variable Digital Printing** option.
+* Select a file and attach it to the delivery as it is.
+* Personalize the content of the attachment for each recipient. In this case, you need to create a **calculated attachment**: the name of the attachment is computed at the time of delivery for each message depending on the recipient. The content can also be personalized and converted into PDF format at the time of delivery, if you have the **Variable Digital Printing** option.
 
 >[!NOTE]
 >
@@ -31,21 +31,24 @@ You can attach one or more files to an email delivery. There are two possible ca
 
 ## Attaching a local file {#attaching-a-local-file}
 
-To attach a local file to a delivery, click the **[!UICONTROL Attachments]** link and select the file you want to attach to the message.
-
-![](assets/s_ncs_user_wizard_add_file.png)
-
-You can also use the matching icon in the toolbar.
-
-![](assets/s_ncs_user_wizard_add_file_ico.png)
-
-Once the document is selected, it is immediately uploaded onto the server to be available at the time of delivery.
-
-![](assets/s_ncs_user_wizard_add_file_load.png)
+To attach a local file to a delivery, follow the steps below.
 
 >[!NOTE]
 >
->For more on this, refer to [Adding attachments](../../delivery/using/defining-the-email-content.md#adding-attachments).
+>You can attach several files to a delivery. Attachments can be in any format, included zipped format.
+
+1. Click the **[!UICONTROL Attachments]** link.
+1. Click the **[!UICONTROL Add]** button, then click **[!UICONTROL File...]** to select the file to be attached to the delivery.
+
+  ![](assets/s_ncs_user_wizard_email_attachement.png)
+
+  You can also directly drag and drop the file in the delivery **[!UICONTROL Attachments]** field, or use the **[!UICONTROL Attach]** icon from the delivery wizard toolbar,
+
+  ![](assets/s_ncs_user_wizard_add_file_ico.png)
+
+1. Once the file is selected, it is immediately uploaded onto the server to be available at the time of delivery. It is listed in the **[!UICONTROL Attachments]** field.
+
+  ![](assets/s_ncs_user_wizard_email_attachement_e.png)
 
 ## Creating a calculated attachment {#creating-a-calculated-attachment}
 
@@ -53,11 +56,13 @@ When you create a calculated attachment, the name of the attachment can be compu
 
 ![](assets/s_ncs_user_wizard_attachment.png)
 
-To create a personalized attachment, click the **[!UICONTROL Attachments]** link and then the **[!UICONTROL Add]** button, and select **[!UICONTROL Calculated attachment]**.
+To create a personalized attachment, follow these steps:
 
-Select the type of calculation from the **[!UICONTROL Type]** drop-down list:
+1. Click the **[!UICONTROL Attachments]** link.
+1. Click the **[!UICONTROL Add]** button, then select **[!UICONTROL Calculated attachment]**.
+1. Select the type of calculation from the **[!UICONTROL Type]** drop-down list:
 
-![](assets/s_ncs_user_wizard_email01_136.png)
+  ![](assets/s_ncs_user_wizard_email01_136.png)
 
 The following options are available:
 
@@ -66,9 +71,9 @@ The following options are available:
 * **The file name is computed during delivery analysis (it cannot depend on the recipient profile)**
 * **File name is computed at the time of delivery for each recipient (it can depend on the recipient)**
 
-### Attach a local file {#attach-a-local-file}
+### Attaching a local file {#attach-a-local-file}
 
-When the attachment is a local file, select the option: **[!UICONTROL File name is specified when creating the delivery template]**. The file is selected locally and uploaded onto the server. Follow the steps below:
+If the attachment is a local file, select the option: **[!UICONTROL File name is specified when creating the delivery template]**. The file is selected locally and uploaded onto the server. Follow the steps below:
 
 1. Select the file to upload in the **[!UICONTROL Local file]** field.
 1. Specify the label if necessary. The label replaces the filename when viewed in messaging systems. If nothing is specified, the filename is used by default.
@@ -81,7 +86,7 @@ When the attachment is a local file, select the option: **[!UICONTROL File name 
 
    The file is then available on the server to be attached to the different deliveries created from this template.
 
-### Attach a personalized message {#attach-a-personalized-message}
+### Attaching a personalized message {#attach-a-personalized-message}
 
 The option **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** lets you select a fine with personalization fields, such as the last name and first name of the intended recipient.
 
@@ -107,7 +112,7 @@ For this type of attachment, apply the following configuration steps:
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
-### Attach a calculated file {#attach-a-calculated-file}
+### Attaching a calculated file {#attach-a-calculated-file}
 
 You can calculate the attachment name during the delivery preparation. To do this, select the option **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]**.
 
@@ -130,7 +135,7 @@ You can calculate the attachment name during the delivery preparation. To do thi
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 
-### Attach a personalized file {#attach-a-personalized-file}
+### Attaching a personalized file {#attach-a-personalized-file}
 
 When selecting the attachment, you can choose the option **[!UICONTROL The file name is calculated during delivery for each recipient (it can depend on the recipient)]**. You can then map recipient personalization data with the name of the file to send.
 

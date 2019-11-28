@@ -235,11 +235,11 @@ The steps are as follows:
 
    ![](assets/mkg_dist_use_case_form_1.png)
 
-1. In the campaign's **[!UICONTROL Edit]** tab, click the **[!UICONTROL Advanced campaign settings...]** link to configure it as a local campaign. Refer to [Creating a local campaign (by form)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+1. In the campaign's **[!UICONTROL Edit]** tab, click the **[!UICONTROL Advanced campaign settings...]** link to configure it as a local campaign. Refer to [Creating a local campaign (by form)](#creating-a-local-campaign--by-form-).
 
    ![](assets/mkg_dist_use_case_form_2.png)
 
-1. Configure the campaign workflow and the web form. Refer to [Creating a local campaign (by form)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+1. Configure the campaign workflow and the web form. Refer to [Creating a local campaign (by form)](#creating-a-local-campaign--by-form-).
 1. Create your campaign package by specifying the execution schedule and the local entities involved.
 
    ![](assets/mkg_dist_use_case_form_3.png)

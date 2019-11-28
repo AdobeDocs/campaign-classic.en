@@ -93,7 +93,7 @@ When a message is sent, there are 3 possible results:
 
 1. **Success**: the message was sent successfully. The message is updated.
 1. **Message Failed**: the contacted server rejected the message for the chosen recipient. This result matches return codes 550 to 599, but exceptions can be defined.
-1. **Session Failed** (for 5.11 upward): if the **mta** receives an answer for this message, the message is abandoned (refer to [Message abandonment](../../installation/using/email-deliverability.md#message-abandonment)). The message is sent to another path or set to pending if no other paths are available (refer to [Message pending](../../installation/using/email-deliverability.md#message-pending)).
+1. **Session Failed** (for 5.11 upward): if the **mta** receives an answer for this message, the message is abandoned (refer to [Message abandonment](#message-abandonment)). The message is sent to another path or set to pending if no other paths are available (refer to [Message pending](#message-pending)).
 
    >[!NOTE]
    >

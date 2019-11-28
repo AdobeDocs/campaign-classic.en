@@ -24,13 +24,13 @@ Here is a quick overview of the main steps to create a simple survey, using the 
 
 These steps are:
 
-1. [Step 1 - Creating a survey](../../web/using/getting-started-with-surveys.md#step-1---creating-a-survey),
-1. [Step 2 - Selecting the template](../../web/using/getting-started-with-surveys.md#step-2---selecting-the-template),
-1. [Step 3 - Building the survey](../../web/using/getting-started-with-surveys.md#step-3---building-the-survey),
-1. [Step 4 - Creating the page content](../../web/using/getting-started-with-surveys.md#step-4---creating-the-page-content),
-1. [Step 5 - Storing the survey data](../../web/using/getting-started-with-surveys.md#step-5---storing-the-survey-data-),
-1. [Step 6 - Publishing the pages](../../web/using/getting-started-with-surveys.md#step-6---publishing-the-pages),
-1. [Step 7 - Sharing your online survey](../../web/using/getting-started-with-surveys.md#step-7---sharing-your-online-survey).
+1. [Step 1 - Creating a survey](#step-1---creating-a-survey),
+1. [Step 2 - Selecting the template](#step-2---selecting-the-template),
+1. [Step 3 - Building the survey](#step-3---building-the-survey),
+1. [Step 4 - Creating the page content](#step-4---creating-the-page-content),
+1. [Step 5 - Storing the survey data](#step-5---storing-the-survey-data-),
+1. [Step 6 - Publishing the pages](#step-6---publishing-the-pages),
+1. [Step 7 - Sharing your online survey](#step-7---sharing-your-online-survey).
 
 ## Step 1 - Creating a survey {#step-1---creating-a-survey}
 

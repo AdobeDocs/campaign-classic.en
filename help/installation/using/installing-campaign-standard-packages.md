@@ -20,7 +20,7 @@ snippet: y
 
 ## About standard Packages {#campaign-standard-packages}
 
-Packages are a set of features that can be installed according to your needs. They will allow you to add more options in your tenant.
+Packages are a set of features that can be installed according to your needs. They will allow you to add more options to your instance.
 
 >[!CAUTION]
 >

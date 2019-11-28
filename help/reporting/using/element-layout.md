@@ -32,7 +32,7 @@ The **[!UICONTROL General]** tab lets you change the title of the page, as well 
 
 ![](assets/s_ncs_advuser_report_wizard_022.png)
 
-The **[!UICONTROL Title]** field lets you personalize the label in the header of the report page. The title of the window can be configured via the **[!UICONTROL Properties]** window of the report. For more on this, refer to [Adding a header and a footer](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
+The **[!UICONTROL Title]** field lets you personalize the label in the header of the report page. The title of the window can be configured via the **[!UICONTROL Properties]** window of the report. For more on this, refer to [Adding a header and a footer](#adding-a-header-and-a-footer).
 
 The **[!UICONTROL Display settings]** options enable you to select the position of the control caption within a report page and to define the number of columns on the page. For more on page layout, refer to the **Item layout** section of [this section](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page).
 

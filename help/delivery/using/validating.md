@@ -18,21 +18,13 @@ snippet: y
 
 # Validating{#validating}
 
-The execution of the delivery can be scheduled (in the calendar or a workflow) or launched manually.
+Global concepts when validating a delivery are presented in [this section](../../delivery/using/steps-validating-the-delivery.md).
 
-To launch a delivery, edit it and click the **[!UICONTROL Send]** button. Select **[!UICONTROL Deliver as soon as possible]**.
-
-Click **[!UICONTROL Next]** and then **[!UICONTROL Analyze]** to launch the delivery analysis.
-
-The output file is then generated. Its content depends on the selected output columns (refer to [Extraction file](../../delivery/using/defining-the-direct-mail-content.md#extraction-file)).
+The output file of a direct mail delivery is generated during the delivery analysis. The file's content depends on the selected output columns (refer to [Extraction file](../../delivery/using/defining-the-direct-mail-content.md#extraction-file)).
 
 >[!NOTE]
 >
->The analysis phase is detailed in [Analyzing the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#analyzing-the-delivery).
-
-You can stop this job at any time by clicking **[!UICONTROL Stop]**.
-
-![](assets/s_ncs_user_stop_analyze.png)
+>The analysis phase is detailed in [Analyzing the delivery](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 During the analysis phase, the file is generated but information concerning recipients (i.e. delivery logs) is not updated. You can therefore cancel this job without running any risks.
 

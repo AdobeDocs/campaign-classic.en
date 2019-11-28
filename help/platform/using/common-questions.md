@@ -127,7 +127,7 @@ Read out [this section](../../platform/using/adobe-campaign-workspace.md) to lea
 
 With Adobe Campaign, you can use different strategies to create audiences and select target recipients.
 
-[Click here to learn more](../../delivery/using/identifying-target-populations.md).
+[Click here to learn more](../../delivery/using/steps-defining-the-target-population.md).
 
 ### What is a workflow? {#what-is-a-workflow-}
 
@@ -286,13 +286,13 @@ Learn how to perform testing and validation steps before sending messages within
 
 The delivery analysis is the phase during which the target population is calculated and the delivery content prepared. Once it is complete, the delivery is ready to send. Consult logs to make sure everything is correct.
 
-[Click here to learn more](../../delivery/using/key-steps-when-creating-a-delivery.md#validating-the-delivery).
+[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md).
 
 ### Why should I create proofs? {#why-should-i-create-proofs-}
 
 Adobe highly recommends creating proof messages to test your delivery on an approval group before sending it to the main target. You can then validate message content, personalization and delivery parameters.
 
-[Click here to learn more](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof). You can also watch [this video](https://docs.campaign.adobe.com/doc/AC/en/Videos/seeds_sending_email_611.mp4).
+[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). You can also watch [this video](https://docs.campaign.adobe.com/doc/AC/en/Videos/seeds_sending_email_611.mp4).
 
 ### How to use seed addresses in Adobe Campaign? {#how-to-use-seed-addresses-in-adobe-campaign-}
 
@@ -309,7 +309,7 @@ This has the following benefits:
 
 To detect possible errors in message configuration, Adobe highly recommend setting up a delivery validation cycle. Make sure content is approved as often as necessary by sending proofs to test recipients. A proof should be sent each time a change is made, to approve content.
 
-[Click here to learn more](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof).
+[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 ### What is a typology rule? {#what-is-a-typology-rule-}
 
@@ -323,19 +323,19 @@ Learn how to send messages in various channels with Adobe Campaign.
 
 ### How can I send emails in waves? {#how-can-i-send-emails-in-waves-}
 
-Before sending a delivery to a large population, you can [configure waves](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-using-multiple-waves) to divide messages into several batches and balance the load.
+Before sending a delivery to a large population, you can [configure waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves) to divide messages into several batches and balance the load.
 
 ### Which are the key steps to create an email in Campaign? {#which-are-the-key-steps-to-create-an-email-in-campaign-}
 
 Once the email delivery is created and validated, you can send it. You can decide to send the email to the main target immediately or schedule a delivery for a later date. If needed, before that, you can also estimate the target population.
 
-[Click here to learn more](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-a-proof).
+[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 ### How to schedule a delivery? {#how-to-schedule-a-delivery-}
 
 You can defer the delivery of messages in order to schedule the delivery or to manage sales pressure and avoid over-soliciting a population.
 
-[Click here to learn more](../../delivery/using/key-steps-when-creating-a-delivery.md#scheduling-the-delivery-sending).
+[Click here to learn more](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending).
 
 ### Can I add an attachment to emails? {#can-i-add-an-attachment-to-emails-}
 

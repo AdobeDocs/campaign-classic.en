@@ -22,7 +22,7 @@ Learn about functional integrations available between the current version of Ado
 
 Adobe Experience Cloud is a comprehensive set of best-in-class, integrated solutions built on a common data platform with a common set of powerful core services.
 
-Discover the full list of Adobe solutions and core services which can be integrated with Adobe Campaign, as well as associated documentation, in [this page](../../integrations/using/about-campaign-integrations.md#experience-cloud-integrations).
+Discover the full list of Adobe solutions and core services which can be integrated with Adobe Campaign, as well as associated documentation, in [this page](#experience-cloud-integrations).
 
 >[!CAUTION]
 >
