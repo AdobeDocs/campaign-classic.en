@@ -28,6 +28,8 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 Interactive content with AMP - [Read more](../../delivery/using/defining-the-email-content.md#amp-for-email-format)
 
+The integration between Adobe Campaign and Adobe Real-time Customer Data Platform has been added to the **Integrating with Adobe Experience Cloud** guide. [Read more](../../integrations/using/about-campaign-integrations.md)
+
 **Other documentation updates coming with the release**
 
 The Adobe Campaign Enhanced MTA documentation is now available. [Read more](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
