@@ -32,7 +32,7 @@ Click the links in the navigation bar to access the various universes. Campaign 
 
 The navigation block of the **[!UICONTROL Campaigns]** universe offers various entries, depending on modules installed on the instance. As an example, you can access:
 
-* **Campaign calendar**: calendar of plans, marketing programs, deliveries and campaigns. Refer to [Campaign calendar](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
+* **Campaign calendar**: calendar of plans, marketing programs, deliveries and campaigns. Refer to [Campaign calendar](#campaign-calendar).
 * **Campaigns**: access to the campaigns contained in all marketing programs.
 * **Deliveries**: access to the deliveries linked to the campaigns.
 * **Web Applications**: access to Web applications (forms, surveys, etc.).

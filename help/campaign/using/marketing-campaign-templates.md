@@ -50,7 +50,7 @@ To create a new template, carry out the following steps:
 
 You can also duplicate the default template to re-use and adapt its configuration.
 
-The various tabs and sub-tabs of the campaign template allow you to access its settings, described in [General configuration](../../campaign/using/marketing-campaign-templates.md#general-configuration).
+The various tabs and sub-tabs of the campaign template allow you to access its settings, described in [General configuration](#general-configuration).
 
 ![](assets/s_ncs_user_new_op_template_duplicate.png)
 
@@ -68,7 +68,7 @@ In a default configuration, the campaign templates are centralized in the **[!UI
 
 An out-of-the-box template is supplied in order to create a campaign for which no specific configuration has been defined. You can create and configure your campaign templates and then create campaigns from these templates.
 
-The creation and configuration of campaign templates are presented in [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+The creation and configuration of campaign templates are presented in [Campaign templates](#campaign-templates).
 
 For more on campaign creation, refer to the [Creating a campaign and an email](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
 

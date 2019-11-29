@@ -22,11 +22,11 @@ snippet: y
 
 Migration steps in Linux are as follows:
 
-1. Stop services: see [Service stop](../../migration/using/migrating-in-linux-for-adobe-campaign-v7.md#service-stop),
-1. Save the database: see [Back up the database and the existing installation](../../migration/using/migrating-in-linux-for-adobe-campaign-v7.md#back-up-the-database-and-the-existing-installation),
-1. Uninstall previous Adobe Campaign version packages: see [Uninstalling Adobe Campaign previous version packages](../../migration/using/migrating-in-linux-for-adobe-campaign-v7.md#uninstalling-adobe-campaign-previous-version-packages),
-1. Migrate the platform: refer to [Deploying Adobe Campaign v7](../../migration/using/migrating-in-linux-for-adobe-campaign-v7.md#deploying-adobe-campaign-v7),
-1. Re-start service: refer to [Re-starting services](../../migration/using/migrating-in-linux-for-adobe-campaign-v7.md#re-starting-services).
+1. Stop services: see [Service stop](#service-stop),
+1. Save the database: see [Back up the database and the existing installation](#back-up-the-database-and-the-existing-installation),
+1. Uninstall previous Adobe Campaign version packages: see [Uninstalling Adobe Campaign previous version packages](#uninstalling-adobe-campaign-previous-version-packages),
+1. Migrate the platform: refer to [Deploying Adobe Campaign v7](#deploying-adobe-campaign-v7),
+1. Re-start service: refer to [Re-starting services](#re-starting-services).
 
 ## Service stop {#service-stop}
 
@@ -524,7 +524,7 @@ To deploy Adobe Campaign, apply the following steps:
 >
 >This section only applies when migrating from Adobe Campaign v5.11.
 
-At this stage, Apache needs to be stopped. Refer to: [Service stop](../../migration/using/migrating-in-linux-for-adobe-campaign-v7.md#service-stop).
+At this stage, Apache needs to be stopped. Refer to: [Service stop](#service-stop).
 
 1. Log in as **root**.
 1. Change the Apache environment variables to make them link to the **nl6** directory.

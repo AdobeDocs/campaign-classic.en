@@ -80,7 +80,7 @@ This step requires simultaneous access to your Adobe Campaign console and an Int
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Synchronize subscriptions]** option is enabled by default. When the box is checked, the Twitter account synchronization workflow (refer to [Synchronizing Twitter accounts](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)) recovers the list of Twitter followers so that you may send them direct messages (refer to [Sending direct messages to subscribers](../../social/using/publishing-on-twitter.md#sending-direct-messages-to-subscribers)). If you do not want to recover the list of followers, uncheck this box.
+   >The **[!UICONTROL Synchronize subscriptions]** option is enabled by default. When the box is checked, the Twitter account synchronization workflow (refer to [Synchronizing Twitter accounts](#synchronizing-twitter-accounts)) recovers the list of Twitter followers so that you may send them direct messages (refer to [Sending direct messages to subscribers](../../social/using/publishing-on-twitter.md#sending-direct-messages-to-subscribers)). If you do not want to recover the list of followers, uncheck this box.
 
 1. Enter the label and internal name of the service.
 
@@ -122,7 +122,7 @@ The **[!UICONTROL Twitter account Synchronization]** workflow synchronizes Twitt
 
 >[!CAUTION]
 >
->In order for the workflow to recover the list of Twitter subscribers, the **[!UICONTROL Twitter account synchronization]** box must be checked in the editing section of the service linked to the account. For more on this, refer to [Delegating write access to Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign).
+>In order for the workflow to recover the list of Twitter subscribers, the **[!UICONTROL Twitter account synchronization]** box must be checked in the editing section of the service linked to the account. For more on this, refer to [Delegating write access to Adobe Campaign](#delegating-write-access-to-adobe-campaign).
 
 The **[!UICONTROL Twitter account synchronization]** workflow, which is accessed via the **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** node, lets you synchronize Twitter accounts configured previously with Adobe Campaign. By default, this workflow is triggered every Thursday at 7:30AM.
 

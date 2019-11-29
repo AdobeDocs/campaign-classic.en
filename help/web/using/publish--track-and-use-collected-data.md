@@ -26,7 +26,7 @@ Once the form has been created, configured and published, you can share the link
 
 ## Survey dashboard {#survey-dashboard}
 
-Each survey has its own dashboard which lets you view its status, description, public URL and availability schedule. It also lets you view the available reports. For more on this, refer to [Reports on surveys](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys).
+Each survey has its own dashboard which lets you view its status, description, public URL and availability schedule. It also lets you view the available reports. For more on this, refer to [Reports on surveys](#reports-on-surveys).
 
 The survey's public URL is shown on the dashboard:
 
@@ -42,7 +42,7 @@ For each survey delivered, you can track the responses in the **[!UICONTROL Logs
 
 ![](assets/s_ncs_admin_survey_logs.png)
 
-Double-click a line to display the survey form as filled in by the respondent. You can browse the survey in full and access the answers in full. These can be exported in an external file. For more on this, refer to [Exporting answers](../../web/using/publish--track-and-use-collected-data.md#exporting-answers).
+Double-click a line to display the survey form as filled in by the respondent. You can browse the survey in full and access the answers in full. These can be exported in an external file. For more on this, refer to [Exporting answers](#exporting-answers).
 
 The origin is indicated in the survey URL by adding the following characters:
 

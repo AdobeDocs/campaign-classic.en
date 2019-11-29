@@ -22,12 +22,12 @@ snippet: y
 
 For Windows, the migration steps are as follows:
 
-1. Stop services: refer to [Service stop](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#service-stop),
-1. Back up the database: refer to [Back up the database and the current installation](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#back-up-the-database-and-the-current-installation),
-1. Migrate the platform: refer to [Deploying Adobe Campaign v7](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deploying-adobe-campaign-v7),
-1. Migrate the redirection server (IIS): refer to [Migrating the redirection server (IIS)](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#migrating-the-redirection-server--iis-),
-1. Re-start service: refer to [Re-starting the services](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#re-starting-the-services),
-1. Delete and cleanse previous Adobe Campaign version: refer to [Deleting and cleansing Adobe Campaign previous version](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version).
+1. Stop services: refer to [Service stop](#service-stop),
+1. Back up the database: refer to [Back up the database and the current installation](#back-up-the-database-and-the-current-installation),
+1. Migrate the platform: refer to [Deploying Adobe Campaign v7](#deploying-adobe-campaign-v7),
+1. Migrate the redirection server (IIS): refer to [Migrating the redirection server (IIS)](#migrating-the-redirection-server--iis-),
+1. Re-start service: refer to [Re-starting the services](#re-starting-the-services),
+1. Delete and cleanse previous Adobe Campaign version: refer to [Deleting and cleansing Adobe Campaign previous version](#deleting-and-cleansing-adobe-campaign-previous-version).
 
 ## Service stop {#service-stop}
 
@@ -221,7 +221,7 @@ To deploy Adobe Campaign, apply the following steps:
    >
    >These commands let you create the Adobe Campaign v7 internal file system: **conf** directory (with the **config-default.xml** and **serverConf.xml** files), **var** directory, etc.
 
-1. Copy and paste (overwrite) the configuration files and sub-folders of each instance via the **Neolane v5.back**, **Neolane v6.back** or **Adobe Campaign v6.back** backup file (depending on the version you are migrating from - see [this section](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#back-up-the-database-and-the-current-installation)).
+1. Copy and paste (overwrite) the configuration files and sub-folders of each instance via the **Neolane v5.back**, **Neolane v6.back** or **Adobe Campaign v6.back** backup file (depending on the version you are migrating from - see [this section](#back-up-the-database-and-the-current-installation)).
 1. According to the version you are migrating from, execute the following commands:
 
    ```
@@ -270,7 +270,7 @@ To deploy Adobe Campaign, apply the following steps:
 
 ## Migrating the redirection server (IIS) {#migrating-the-redirection-server--iis-}
 
-At this stage, the IIS server must be stopped. Refer to [Service stop](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#service-stop).
+At this stage, the IIS server must be stopped. Refer to [Service stop](#service-stop).
 
 1. Open the **Internet Information Services (IIS) Manager** console.
 1. Change the bindings (listen ports) of the site used for Adobe Campaign previous version:

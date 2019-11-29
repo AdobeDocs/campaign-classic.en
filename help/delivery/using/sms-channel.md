@@ -26,6 +26,8 @@ Adobe Campaign lets you perform mass personalized deliveries of SMS messages. Th
 > 
 >For more on this, refer to the [About mobile app channel](../../delivery/using/about-mobile-app-channel.md) section.
 
+The sections below provide information that is specific to the SMS channel. For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+
 ## Setting up SMS channel {#setting-up-sms-channel}
 
 To send to a mobile phone, you need:
@@ -46,7 +48,7 @@ The list of external accounts can be found in the **[!UICONTROL Platform]** > **
   ![](assets/s_user_external_account_01.png)
 
 * Check that the **[!UICONTROL Mobile]** option is selected for the **[!UICONTROL Channel]** field.
-* In the **[!UICONTROL Mobile]** tab, select a connector from the drop-down list: NetSize, Generic SMPP, Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2, or Extended generic SMPP. For more information on the Extended generic SMPP connector, refer to the [Creating an SMPP external account](../../delivery/using/sms-channel.md#creating-an-smpp-external-account) section.
+* In the **[!UICONTROL Mobile]** tab, select a connector from the drop-down list: NetSize, Generic SMPP, Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2, or Extended generic SMPP. For more information on the Extended generic SMPP connector, refer to the [Creating an SMPP external account](#creating-an-smpp-external-account) section.
 
   ![](assets/s_user_external_account_connect_01.png)
 
@@ -100,7 +102,7 @@ To do this, follow the steps below:
 
    ![](assets/extended_smpp_transliteration.png)
 
-   For more on this, refer to [this section](../../delivery/using/sms-channel.md#about-character-transliteration).
+   For more on this, refer to [this section](#about-character-transliteration).
 
 1. In the **[!UICONTROL Throughput and delays]** tab, you can specify the maximum throughput of outbound messages ("MT", Mobile Terminated) in MT per second. If you enter "0" in the corresponding field, the throughput will be unlimited.
 
@@ -108,7 +110,7 @@ To do this, follow the steps below:
 
 1. In the **[!UICONTROL Mapping of encodings]** tab, you can define encodings.
 
-   For more on this, refer to [this section](../../delivery/using/sms-channel.md#about-text-encodings).
+   For more on this, refer to [this section](#about-text-encodings).
 
 1. In the **[!UICONTROL SMSC specificities]** tab, the **[!UICONTROL Send full phone number]** option is disabled by default. Do not enable it if you want to respect the SMPP protocol and transfer only digits to the server of the SMS provider (SMSC).
 
@@ -118,7 +120,7 @@ To do this, follow the steps below:
 
 1. If you are configuring an **[!UICONTROL Extended generic SMPP]** connector, you can set up automatic replies.
 
-   For more on this, refer to [this section](../../delivery/using/sms-channel.md#automatic-reply).
+   For more on this, refer to [this section](#automatic-reply).
 
 ### About character transliteration {#about-character-transliteration}
 
@@ -363,11 +365,18 @@ If you link the **[!UICONTROL Remove from quarantine]** action to an automatic r
 
 Recipients are listed in the **[!UICONTROL Non deliverables and addresses]** table available through the **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** menu.
 
-To send the same reply no matter what the short code, leave the **[!UICONTROL Short code]** column empty.
+* To send the same reply no matter what the short code, leave the **[!UICONTROL Short code]** column empty.
+* To send the same reply no matter what the keyword, leave the **[!UICONTROL Keyword]** column empty.
+* To carry out an action without sending a response, leave the **[!UICONTROL Response]** column empty. For example, this allows you to remove from quarantine a user who replies with a message other than "STOP".
 
-To send the same reply no matter what the keyword, leave the **[!UICONTROL Keyword]** column empty.
+If you have multiple external accounts using the Extended generic SMPP connector with the same provider account, the following issue may happen: when sending a reply to a short code, it may be received on any of your external account connections. Consequently, the automatic reply that is sent could not be the expected message.
+To avoid this, apply one of the following solutions, depending on the provider you are using:
+* Create one provider account for each external account.
+* Use the **[!UICONTROL System type]** field from the **[!UICONTROL Mobile]** > **[!UICONTROL Connection settings]** tab to distinguish each short code. Ask your provider a different value for each account.
 
-To carry out an action without sending a response, leave the **[!UICONTROL Response]** column empty. For example, this allows you to remove from quarantine a user who replies with a message other than "STOP".
+   ![](assets/extended_smpp_system-type.png)
+
+The steps for setting up an external account using the Extended generic SMPP connector are detailed in the [Creating an SMPP external account](../../delivery/using/sms-channel.md#creating-an-smpp-external-account) section.
 
 ### Changing the delivery template {#changing-the-delivery-template}
 
@@ -407,14 +416,14 @@ To create a new SMS delivery, follow the steps below:
 
 >[!NOTE]
 >
->Global concepts on delivery creation are presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md).
+>Global concepts on delivery creation are presented in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 1. Create a new delivery, for example from the Delivery dashboard. 
-1. Select the delivery template **[!UICONTROL Send to mobiles (NetSize)]** that you created earlier. For more on this, refer to the [Changing the delivery template](../../delivery/using/sms-channel.md#changing-the-delivery-template) section.
+1. Select the delivery template **[!UICONTROL Send to mobiles (NetSize)]** that you created earlier. For more on this, refer to the [Changing the delivery template](#changing-the-delivery-template) section.
 
    ![](assets/s_user_mobile_wizard.png)
 
-1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#identifying-the-delivery).
+1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 1. Click **[!UICONTROL Continue]** to confirm this information and display the message configuration window.
 
 ## Defining the SMS content {#defining-the-sms-content}
@@ -441,17 +450,17 @@ To create the content of the SMS, follow the steps below:
 
    >[!NOTE]
    >
-   >SMS messages are limited to a length of 160 characters if the Latin-1 (ISO-8859-1) code page is used. If the message is written in Unicode, it must not exceed 70 characters. Certain special characters can affect message length. For more information on message length, refer to the [About character transliteration](../../delivery/using/sms-channel.md#about-character-transliteration) section.
+   >SMS messages are limited to a length of 160 characters if the Latin-1 (ISO-8859-1) code page is used. If the message is written in Unicode, it must not exceed 70 characters. Certain special characters can affect message length. For more information on message length, refer to the [About character transliteration](#about-character-transliteration) section.
    >
    >When personalization fields or conditional content fields are present, the size of the message varies from one recipient to the other. The length of the message must be evaluated when personalization has been carried out.
    >
    >When you launch the analysis, the length of messages is checked and a warning is displayed in the event of overflow.
 
-1. If you use the NetSize connector or an SMPP connector, you can personalize the name of the delivery sender. For more on this, refer to the [Advanced parameters](../../delivery/using/sms-channel.md#advanced-parameters) section.
+1. If you use the NetSize connector or an SMPP connector, you can personalize the name of the delivery sender. For more on this, refer to the [Advanced parameters](#advanced-parameters) section.
 
 ## Selecting the target population {#selecting-the-target-population}
 
-The detailed process when selecting the target population of a delivery is presented in [this section](../../delivery/using/key-steps-when-creating-a-delivery.md#defining-the-target-population).
+The detailed process when selecting the target population of a delivery is presented in [this section](../../delivery/using/steps-defining-the-target-population.md).
 
 For more on the use of personalization fields, refer to [About personalization](../../delivery/using/about-personalization.md).
 
@@ -463,8 +472,8 @@ To approve your message and send it to the recipients of the delivery being crea
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validating the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#validating-the-delivery)
-* [Sending the delivery](../../delivery/using/key-steps-when-creating-a-delivery.md#sending-the-delivery)
+* [Validating the delivery](../../delivery/using/steps-validating-the-delivery.md)
+* [Sending the delivery](../../delivery/using/steps-sending-the-delivery.md)
 
 ### Advanced parameters {#advanced-parameters}
 
@@ -559,7 +568,7 @@ The sender name for this type of message is a short code usually used to send de
 
 >[!CAUTION]
 >
->The following detailed procedure is only valid for SMPP connectors, except for the extended generic SMPP connector. For more on this, refer to the [Creating an SMPP external account](../../delivery/using/sms-channel.md#creating-an-smpp-external-account) section.
+>The following detailed procedure is only valid for SMPP connectors, except for the extended generic SMPP connector. For more on this, refer to the [Creating an SMPP external account](#creating-an-smpp-external-account) section.
 >
 >It makes up part of the certification process carried out by American operators for marketing campaigns in the US. These replies to subscriber SMS messages containing the keyword must be sent back to the subscriber immediately after receiving a message from them.
 

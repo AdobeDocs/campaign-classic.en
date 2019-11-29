@@ -109,7 +109,7 @@ You can directly reference a hypothesis at campaign level. In this case, the hyp
 
 The hypothesis results can be viewed in the **[!UICONTROL General]** and **[!UICONTROL Reactions]** tabs of the hypothesis (refer to [Hypothesis tracking](../../campaign/using/hypothesis-tracking.md))
 
-For more information, you can also refer to [Example: creating a hypothesis linked to a delivery](../../campaign/using/creating-hypotheses.md#example--creating-a-hypothesis-linked-to-a-delivery).
+For more information, you can also refer to [Example: creating a hypothesis linked to a delivery](#example--creating-a-hypothesis-linked-to-a-delivery).
 
 ## Creating a hypothesis on an offer {#creating-a-hypothesis-on-an-offer}
 

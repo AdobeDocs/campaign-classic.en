@@ -66,7 +66,7 @@ When launching the import wizard, you first have to select a template. As an exa
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
-   Each time a file is added, the screen of the **[!UICONTROL File to import]** wizard is displayed. See section [Step 2 - Source file selection](../../platform/using/importing-data.md#step-2---source-file-selection) and follow the steps in the wizard to define the import options as for a simple import.
+   Each time a file is added, the screen of the **[!UICONTROL File to import]** wizard is displayed. See section [Step 2 - Source file selection](#step-2---source-file-selection) and follow the steps in the wizard to define the import options as for a simple import.
 
    >[!NOTE]
    >

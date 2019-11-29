@@ -58,7 +58,7 @@ The **[!UICONTROL Position]** fields let you define the position of elements in 
 >[!NOTE]
 >
 >Rendering templates are stored in the **[!UICONTROL Administration > Configuration > Form rendering]** node.  
->For more on this, refer to [Customizing form rendering](../../web/using/form-rendering.md#customizing-form-rendering)
+>For more on this, refer to [Customizing form rendering](#customizing-form-rendering)
 
 ## Customizing form rendering {#customizing-form-rendering}
 
@@ -101,7 +101,7 @@ This lets you reference an icon that will be displayed in the page's title bar, 
 
 ## Defining control settings {#defining-control-settings}
 
-When the user fills in the form, a check is automatically carried out on certain fields depending on their format or configuration. This lets you make certain fields mandatory (refer to [Defining mandatory fields](../../web/using/form-rendering.md#defining-mandatory-fields)) or check the format of the data entered (refer to [Checking data format](../../web/using/form-rendering.md#checking-data-format)). Checks are carried out during page approval (by clicking a link or button which enables an output transition).
+When the user fills in the form, a check is automatically carried out on certain fields depending on their format or configuration. This lets you make certain fields mandatory (refer to [Defining mandatory fields](#defining-mandatory-fields)) or check the format of the data entered (refer to [Checking data format](#checking-data-format)). Checks are carried out during page approval (by clicking a link or button which enables an output transition).
 
 ### Defining mandatory fields {#defining-mandatory-fields}
 

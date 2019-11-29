@@ -20,12 +20,12 @@ snippet: y
 
 The steps for building a query in Adobe Campaign are as follows:
 
-1. Select the work table. Refer to [Step 1 - Choose a table](../../platform/using/steps-to-create-a-query.md#step-1---choose-a-table).
-1. Select the data to extract. Refer to [Step 2 - Choose data to extract](../../platform/using/steps-to-create-a-query.md#step-2---choose-data-to-extract).
-1. Define the data sorting sequence. Refer to [Step 3 - Sort data](../../platform/using/steps-to-create-a-query.md#step-3---sort-data).
-1. Filter the data. Refer to [Step 4 - Filter data](../../platform/using/steps-to-create-a-query.md#step-4---filter-data).
-1. Format the data. Refer to [Step 5 - Format data](../../platform/using/steps-to-create-a-query.md#step-5---format-data).
-1. Display the result. Refer to [Step 6 - Preview data](../../platform/using/steps-to-create-a-query.md#step-6---preview-data).
+1. Select the work table. Refer to [Step 1 - Choose a table](#step-1---choose-a-table).
+1. Select the data to extract. Refer to [Step 2 - Choose data to extract](#step-2---choose-data-to-extract).
+1. Define the data sorting sequence. Refer to [Step 3 - Sort data](#step-3---sort-data).
+1. Filter the data. Refer to [Step 4 - Filter data](#step-4---filter-data).
+1. Format the data. Refer to [Step 5 - Format data](#step-5---format-data).
+1. Display the result. Refer to [Step 6 - Preview data](#step-6---preview-data).
 
 >[!NOTE]
 >

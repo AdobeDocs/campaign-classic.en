@@ -28,10 +28,10 @@ As a reminder, the following components need to be installed and correctly confi
 
 * Apache, refer to [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html),
 * Java JDK and OpenJDK, refer to [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
-* Libraries, refer to [Libraries](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries),
-* Database access layers, refer to [Database access layers](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers),
-* LibreOffice, refer to [Installing LibreOffice for Debian](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#installing-libreoffice-for-debian) and [Installing LibreOffice for CentOS](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#installing-libreoffice-for-centos),
-* Fonts, refer to [Fonts for MTA statistics](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics) and [Fonts for Japanese instances](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-japanese-instances).
+* Libraries, refer to [Libraries](#libraries),
+* Database access layers, refer to [Database access layers](#database-access-layers),
+* LibreOffice, refer to [Installing LibreOffice for Debian](#installing-libreoffice-for-debian) and [Installing LibreOffice for CentOS](#installing-libreoffice-for-centos),
+* Fonts, refer to [Fonts for MTA statistics](#fonts-for-mta-statistics) and [Fonts for Japanese instances](#fonts-for-japanese-instances).
 
 >[!NOTE]
 >
@@ -49,22 +49,25 @@ To install Adobe Campaign in Linux, please make sure you have the required libra
 
 * You must have **version 0.9.8** or **1.0** of OpenSSL.
 
-  For RHEL and CentOS 6 distributions, version 1.0 of OpenSSL is required.
+  For RHEL 7 and CentOS 6 distributions, version 1.0 of OpenSSL is required.
 
 * To use Adobe Campaign, you need to have the **libicu** library installed.
 
-  >[!NOTE]
-  >
-  >RHEL 7 distribution is provided with the **libicu5.0** library
-
   The following versions of **libicu** are supported (32bit or 64bit):
 
-    * RHEL, SLES, CentOS : **libicu4.2**. 
-    * Debian 7: **libicu4.8**, Debian 8: **libicu5.2**.
+    * RHEL 6, SLES, CentOS 6: libicu4.2
+    * RHEL 7, CentOS 7: libicu50
+    * Debian 7: libicu48
+    * Debian 8: libicu52
+    * Debian 9: libicu57 
 
-  The **libc-ares2** is provided out-of-the-box with Adobe Campaign for RHEL or CentOS installations.
+  To use Adobe Campaign, you need to have the libc-ares library installed. On RHEL/CentOS, run the following command:
 
-  If installing in Debian, you must run the following command to install the library:
+  ```
+  yum install c-ares
+  ```
+
+  On Debian:
 
   ```
   aptitude install libc-ares2
