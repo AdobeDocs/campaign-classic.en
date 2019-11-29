@@ -173,10 +173,6 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> On channel "mobile" : Minimal period to spent since the previous referenced SOFT error, before taking into account a new SOFT error.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkEmail_Characters</span> <br /> </td> 
-   <td> Valid characters for an email address.<br /> </td> 
-  </tr> 
-  <tr> 
    <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
    <td> URL of the mirror page server (by default, should be identical to NmsTracking_ServerUrl).<br /> It is the default value of email deliveries when the URL is not specified in the routing definition.<br /> </td> 
   </tr> 
@@ -199,7 +195,11 @@ Some of them are built-in when installing Campaign, and others can be added manu
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine7</span> <br /> </td> 
    <td> Line 7 of the sender's address.<br /> </td> 
-  </tr> 
+  </tr>
+    <tr> 
+   <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
+   <td><p>This option is used by the <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> technical workflow when counting the number of running deliveries.</p>It allows you to define the number of days above which deliveries with inconsistent status will be excluded from the count of running deliveries.</p><p>By default, the value is set to “7", meaning that inconsistent deliveries older than 7 days will be excluded.</p></td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
    <td> Parameters of sent SMS messages: information transmitted to the SMS gateway to indicate the message priority.<br /> </td> 
@@ -252,8 +252,12 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> <span class="uicontrol">XtkSecurity_Restrict_EditXML</span> </td> 
    <td> Add this option with the "0" value to disable the edition of deliveries' XML code (right-click / <span class="uicontrol">Edit XML source</span> or <span class="uicontrol">CTRL + F4</span> shortcut).<br /> </td> 
   </tr> 
+  <!--<tr> 
+   <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
+   <td> BCC email address for Momentum to send a raw copy of the sent emails. <br /> </td> 
+  </tr> 
  </tbody> 
-</table>
+</table>-->
 
 ## Resources {#resources}
 
@@ -601,7 +605,14 @@ Some of them are built-in when installing Campaign, and others can be added manu
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_AzureDw</span> <br /> </td> 
    <td> Azure SQL Datawarehouse connector options.<br /> </td> 
-  </tr> 
+  </tr>
+   <tr> 
+   <td> <span class="uicontrol">WdbcKillSessionPolicy</span> <br /> </td> 
+   <td>Lets you affect Unconditional Stop behavior on all the workflows and PostgreSQL database queries according to the following potential values:<ul>
+    <li><p>0 – default: stops workflow process, no impact on the database<p></li>
+    <li><p>1 -  pg_cancel_backend: stops workflow process and cancels query in the database<p></li>
+    <li><p>2 – pg_terminate_backend: stops workflow process and terminates query in the database<p></li></ul></td> 
+  </tr>  
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
    <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign standard tables.<br /> </td> 
