@@ -30,7 +30,7 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 
 ### Actions toolbar {#actions-toolbar}
 
-The toolbar buttons are detailed in this [section](../../campaign/using/setting-up-marketing-campaigns.md#building-the-main-target-in-a-workflow). The **[!UICONTROL Actions]** button gives you access to additional execution options for acting on selected workflows. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]**.
+The toolbar buttons are detailed in this [section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow). The **[!UICONTROL Actions]** button gives you access to additional execution options for acting on selected workflows. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]**.
 
 ![](assets/purge_historique.png)
 
@@ -54,7 +54,7 @@ The toolbar buttons are detailed in this [section](../../campaign/using/setting-
 
   This action stops then restarts the workflow. In most cases, it makes it possible to restart faster. It is also useful to automate restarting when stopping takes a certain amount of time: this is because the 'Stop' command is not available when the workflow is being stopped.
 
-  The **[!UICONTROL Start / Pause / Stop / Restart]** actions are also available via the execution icons in the toolbar. For more on this, refer to this [section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-targeting-workflow).
+  The **[!UICONTROL Start / Pause / Stop / Restart]** actions are also available via the execution icons in the toolbar. For more on this, refer to this [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
 
 * **[!UICONTROL Purge history]**
 
@@ -110,7 +110,7 @@ The following options are available in the right-click menu:
 >
 >You can select a group of activities and apply one of these commands to them.
 
-The right-click menu is also detailed in this [section](../../campaign/using/setting-up-marketing-campaigns.md#executing-a-workflow).
+The right-click menu is also detailed in this [section](../../campaign/using/marketing-campaign-deliveries.md#executing-a-workflow).
 
 ## Workflow life cycle {#workflow-life-cycle}
 
@@ -186,7 +186,7 @@ This lets you use data collected via a list or based on answers to a survey in a
 
 **[!UICONTROL Target extension]** (targetData) type personalization elements are not available for targeting workflows. The delivery target has to be built in the workflow and specified in the inbound transition of the delivery.
 
-If you want to create delivery proofs, the proof target needs to be built based on the **[!UICONTROL Address substitution]** mode so that the personalization data can be entered. For more on this, refer to this [section](../../delivery/using/key-steps-when-creating-a-delivery.md#using-address-substitution-in-proof).
+If you want to create delivery proofs, the proof target needs to be built based on the **[!UICONTROL Address substitution]** mode so that the personalization data can be entered. For more on this, refer to this [section](../../delivery/using/steps-defining-the-target-population.md#using-address-substitution-in-proof).
 
 In the following example, we are going to collect a list of information on customers, to be used in a personalized email.
 
@@ -258,7 +258,7 @@ In operations, all stages that require approval are based on the same principle.
 
 ![](assets/validation-1-in-op.png)
 
-Approval examples can be found in this [section](../../campaign/using/setting-up-marketing-campaigns.md#checking-and-approving-deliveries).
+Approval examples can be found in this [section](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 An operator can respond in one of two ways: validating using the Web page linked in the email message, or via the console.
 
@@ -289,7 +289,7 @@ For technical workflows, the tasks that the user can approve can be accessed fro
 An approval is assigned to a group of operators, a single operator or a set of operators selected via a filtering condition.
 
 1. For the simplest form of approval, the task is finished as soon as an operator responds. Any other operator who tries to respond will be notified that someone has already done it.
-1. For multiple approvals, refer to [Multiple approval](../../workflow/using/executing-a-workflow.md#multiple-approval).
+1. For multiple approvals, refer to [Multiple approval](#multiple-approval).
 
 The operator groups for approvals should be designated as roles or functions rather than named individuals. For example, a "Campaign budget" group is preferable to "Harry's group". We recommend having at least two persons in a group who can approve a task. In this way, if one is absent, the other can respond.
 

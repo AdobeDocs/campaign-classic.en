@@ -30,7 +30,7 @@ You can:
 
 * Create an import or export template and configure it (see below).
 * Create an import or export: refer to [Exporting data](../../platform/using/exporting-data.md) or [Importing data](../../platform/using/importing-data.md).
-* Launch the import or export and monitor its execution. refer to [Execution tracking](../../platform/using/generic-imports-and-exports.md#execution-tracking).
+* Launch the import or export and monitor its execution. refer to [Execution tracking](#execution-tracking).
 
 >[!CAUTION]
 >

@@ -32,6 +32,8 @@ The page displayed lets you view the state of the connected instance, i.e.:
 * the list of missing processes and execution information (start date, PID, etc.), 
 * a view of workflows and deliveries.
 
+Additional ways of monitoring the different Campaign processes are presented in [this page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+
 ### Log journal {#log-journal}
 
 It is possible to display the log journal related to a process. To do this, click on the process, **mta** for example, then click **[!UICONTROL Open the log journal]** .
@@ -371,7 +373,7 @@ This command can also be run with the **-missing** parameter, which lists the pr
 
 ```
 nlserver monitor -missing
-HH:MM:SS > Application server for Adobe Campaign Version X.Y.Z (build XXXX) of DD/MM/YYYY
+HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 mta@prod
 stat@prod
 wfserver@prod
@@ -396,7 +398,7 @@ It displays a line like this in XML format:
 
 This **http(s)://`<Application server url>`/nl/jsp/ping.jsp**  page operates in the same way as its network counterpart: it tests a complete query going through apache/tomcat/web module/database and uploading to the client. If everything is working properly, it returns an "OK". We recommend running this test on machines with access to the databases (mtas and surveys, for instance).
 
-**Usage**: a session token associated with an operator login must be passed as an argument in order to log in remotely (see the tip in [Automatic monitoring via Adobe Campaign scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)).
+**Usage**: a session token associated with an operator login must be passed as an argument in order to log in remotely (see the tip in [Automatic monitoring via Adobe Campaign scripts](#automatic-monitoring-via-adobe-campaign-scripts)).
 
 For example: 
 
@@ -414,7 +416,7 @@ This is a test to check that an operator can access the Adobe Campaign server vi
 
 ![](assets/ncs_monitoring_web.png)
 
-**Usage**: a session token associated with an operator login which lets you connect to the instance needs to be used as an argument (see the tip in [Automatic monitoring via Adobe Campaign scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)).
+**Usage**: a session token associated with an operator login which lets you connect to the instance needs to be used as an argument (see the tip in [Automatic monitoring via Adobe Campaign scripts](#automatic-monitoring-via-adobe-campaign-scripts)).
 
 The operator and their login needs to be configured previously in the Adobe Campaign client console with the appropriate database rights and restrictions.
 
@@ -486,7 +488,7 @@ The following pre-installation precautions are required for automatic monitoring
 * You must have the **netreport.tgz **(Linux installation) or **netreport.zip** (Windows installation) files,
 * We strongly advise you not to install monitoring on the machine to be monitored, 
 * it must be installed on a machine with a JRE or a JDK,
-* in Linux, the machine to be monitored must have the **bc** package. For more on this, refer to [this section](../../installation/using/installing-campaign-standard-packages.md#distribution-based-on-rpm--packages).
+* in Linux, the machine to be monitored must have the **bc** package. For more on this, refer to [this section](../../installation/using/installing-packages-with-linux.md#distribution-based-on-rpm--packages).
 
 ### Installation procedure {#installation-procedure}
 
@@ -502,10 +504,10 @@ The installation procedure is as follows:
 
 The XML configuration file contains the following elements:
 
-* ['Properties' element](../../production/using/monitoring-processes.md#properties--element)
-* ['Instance' element](../../production/using/monitoring-processes.md#instance--element)
-* ['Host' element](../../production/using/monitoring-processes.md#host--element)
-* [Sub-elements](../../production/using/monitoring-processes.md#sub-elements)
+* ['Properties' element](#properties--element)
+* ['Instance' element](#instance--element)
+* ['Host' element](#host--element)
+* [Sub-elements](#sub-elements)
 
 Here is a configuration example:
 

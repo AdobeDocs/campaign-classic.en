@@ -8,9 +8,12 @@ topic: Premium
 
 # Help Center {#campaign-classic-documentation}
 
-Learn the basics and refine your skills with Adobe Campaign Classic product documentation.
+![](platform/using/assets/banner_acc_doc.jpg) 
 
 ## What's New
+
+* **[Privacy management](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
+Learn how Adobe Campaign can help you with your Privacy compliance.
 
 * **[Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>
 Understand tracking capabilities in Campaign
@@ -82,3 +85,5 @@ Learn how to manage settings and track usage of your Campaign instance
 * [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 * [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html)
+
+* [Technical notes](https://helpx.adobe.com/campaign/kb/article-list.html)

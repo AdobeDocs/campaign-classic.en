@@ -20,10 +20,10 @@ snippet: y
 
 Once you have submitted this request, Adobe will proceed to the provisioning of the integration for you and contact you to provide details and information that you have to finalize the configuration:
 
-1. [Step 1: Configure or check the external accounts in Adobe Campaign](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
-1. [Step 2: Configure the Data Source](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-2--configure-the-data-source)
-1. [Step 3: Configure Campaign Tracking server](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-3--configure-campaign-tracking-server)
-1. [Step 4: Configure the Visitor ID Service](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-4--configure-the-visitor-id-service)
+1. [Step 1: Configure or check the external accounts in Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
+1. [Step 2: Configure the Data Source](#step-2--configure-the-data-source)
+1. [Step 3: Configure Campaign Tracking server](#step-3--configure-campaign-tracking-server)
+1. [Step 4: Configure the Visitor ID Service](#step-4--configure-the-visitor-id-service)
 
 ## Step 1: Configure or check the external accounts in Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 

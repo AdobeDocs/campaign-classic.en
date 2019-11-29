@@ -53,11 +53,11 @@ To insert offer propositions into a delivery, apply the following steps:
 
    ![](assets/offer_delivery_005.png)
 
-1. Select the **[!UICONTROL Exclude non-eligible recipients]** option if necessary. For more on this, refer to [Parameters for calling offer engine](../../interaction/using/integrating-an-offer-via-the-wizard.md#parameters-for-calling-offer-engine).
+1. Select the **[!UICONTROL Exclude non-eligible recipients]** option if necessary. For more on this, refer to [Parameters for calling offer engine](#parameters-for-calling-offer-engine).
 
    ![](assets/offer_delivery_006.png)
 
-1. If necessary, select the **[!UICONTROL Do not display anything if no offers are selected]** option. For more on this, refer to [Parameters for calling offer engine](../../interaction/using/integrating-an-offer-via-the-wizard.md#parameters-for-calling-offer-engine).
+1. If necessary, select the **[!UICONTROL Do not display anything if no offers are selected]** option. For more on this, refer to [Parameters for calling offer engine](#parameters-for-calling-offer-engine).
 
    ![](assets/offer_delivery_007.png)
 
@@ -90,7 +90,7 @@ The delivery can be personalized using the offer's fields or, in the case of an 
 
 You can also present offers in a delivery using delivery outlines.
 
-For more information on delivery outlines, refer to the [Campaign - MRM](../../campaign/using/setting-up-marketing-campaigns.md#associating-and-structuring-resources-linked-via-a-delivery-outline) guide.
+For more information on delivery outlines, refer to the [Campaign - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline) guide.
 
 1. Create a new campaign or access an existing campaign.
 1. Access the delivery outlines via the campaign's **[!UICONTROL Edit]** > **[!UICONTROL Documents]** tab.
@@ -111,7 +111,7 @@ For more information on delivery outlines, refer to the [Campaign - MRM](../../c
 
    ![](assets/int_compo_offre3.png)
 
-1. Add the propositions into the delivery body using the personalization fields (for more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) section), or in the case of a direct mail delivery, by editing the extraction file format.
+1. Add the propositions into the delivery body using the personalization fields (for more on this, refer to the [Inserting an offer proposition into a delivery](#inserting-an-offer-proposition-into-a-delivery) section), or in the case of a direct mail delivery, by editing the extraction file format.
 
    Propositions will be selected from the offers referenced in the delivery outline.
 

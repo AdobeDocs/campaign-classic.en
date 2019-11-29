@@ -28,10 +28,10 @@ This data can be filtered via the options located in the upper section of the br
 
 There are several ways of filtering the data to be displayed. If necessary, these can be used together:
 
-* Filter on folders, refer to [Filter by folder](../../platform/using/filtering-options.md#filter-by-folder),
-* Filter by status, refer to [Filter by status](../../platform/using/filtering-options.md#filter-by-status), 
-* Data sorting, refer to [Order by](../../platform/using/filtering-options.md#order-by),
-* Search, refer to [Quick search](../../platform/using/filtering-options.md#quick-search).
+* Filter on folders, refer to [Filter by folder](#filter-by-folder),
+* Filter by status, refer to [Filter by status](#filter-by-status),
+* Data sorting, refer to [Order by](#order-by),
+* Search, refer to [Quick search](#quick-search).
 
 ## Filter by folder {#filter-by-folder}
 

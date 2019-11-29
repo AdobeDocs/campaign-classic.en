@@ -59,7 +59,7 @@ This type of configuration can handle a large number of recipients (500,000 to 1
 
 ### Installing the application server {#installing-the-application-server}
 
-Follow the steps to install a standalone instance from the Adobe Campaign application server to the creation of the database (step 12). Refer to [Installing and configuring (single machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
+Follow the steps to install a standalone instance from the Adobe Campaign application server to the creation of the database (step 12). Refer to [Installing and configuring (single machine)](#installing-and-configuring--single-machine-).
 
 Since the computer is not a tracking server, do not take the integration with the Web server into account.
 
