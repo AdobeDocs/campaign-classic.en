@@ -252,8 +252,12 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> <span class="uicontrol">XtkSecurity_Restrict_EditXML</span> </td> 
    <td> Add this option with the "0" value to disable the edition of deliveries' XML code (right-click / <span class="uicontrol">Edit XML source</span> or <span class="uicontrol">CTRL + F4</span> shortcut).<br /> </td> 
   </tr> 
+  <!--<tr> 
+   <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
+   <td> BCC email address for Momentum to send a raw copy of the sent emails. <br /> </td> 
+  </tr> 
  </tbody> 
-</table>
+</table>-->
 
 ## Resources {#resources}
 
