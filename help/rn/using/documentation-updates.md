@@ -38,7 +38,7 @@ The Adobe Campaign Enhanced MTA documentation is now available. [Read more](http
 
 A new section has been added on how to troubleshoot a workflow staying in the "Start as soon as possible" state within a campaign. [Read more](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
-The new "NmsOperation_DeliveryPreparationWindow" option has been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
+The new "NmsOperation_DeliveryPreparationWindow" and "WdbcKillSessionPolicy" options have been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
 
 A new document describing the Adobe Campaign Classic data model basics is now available. [Read more](https://helpx.adobe.com/campaign/kb/acc-datamodel.html)
 
