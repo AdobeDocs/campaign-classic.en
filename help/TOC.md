@@ -10,16 +10,13 @@ sub-product: adobe campaign classic
 # Adobe Campaign Classic Help {#using}
 
 + [Product documentation](campaign-classic-home.md)
++ [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
-  + [About Release Notes](rn/using/about-release-notes.md)
-  + [Control Panel Releases](rn/using/control-panel.md)
-  + [Campaign Mobile SDK](rn/using/mobile-sdk.md)
-  + [Release 19.1](rn/using/latest-release.md)
+  + [Release 19.2](rn/using/latest-release.md)
+  + [Release 19.1](rn/using/release--19-1.md)
   + [Release 18.10](rn/using/release--18-10.md)
   + [Release 18.6](rn/using/release--18-6.md)
   + [Release 18.4](rn/using/release--18-4.md)
-  + [Legacy Release Notes](rn/using/legacy-release-notes.md)
-  + [Documentation Updates](rn/using/documentation-updates.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
