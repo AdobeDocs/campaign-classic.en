@@ -28,7 +28,7 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 Interactive content with AMP - [Read more](../../delivery/using/defining-the-email-content.md#amp-for-email-format)
 
-Workflow live monitoring - [Read more](<../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status")
+Workflow live monitoring - [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
 The integration between Adobe Campaign and Adobe Real-time Customer Data Platform has been added to the **Integrating with Adobe Experience Cloud** guide. [Read more](../../integrations/using/about-campaign-integrations.md)
 
@@ -36,11 +36,13 @@ The integration between Adobe Campaign and Adobe Real-time Customer Data Platfor
 
 The Adobe Campaign Enhanced MTA documentation is now available. [Read more](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
-A new document describing the Adobe Campaign Classic data model basics is now available. [Read more](https://helpx.adobe.com/campaign/kb/acc-datamodel.html)
-
 A new section has been added on how to troubleshoot a workflow staying in the "Start as soon as possible" state within a campaign. [Read more](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
 The new "NmsOperation_DeliveryPreparationWindow" option has been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
+
+A new document describing the Adobe Campaign Classic data model basics is now available. [Read more](https://helpx.adobe.com/campaign/kb/acc-datamodel.html)
+
+The new **Maximum personalization run time** option in the delivery properties is documented in this [section](../../delivery/using/personalization-fields.md#timing-out-personalization).
 
 ## November 2019 {#november-2019}
 
