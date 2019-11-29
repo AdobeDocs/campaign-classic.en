@@ -72,7 +72,7 @@ December 03, 2019
     * The **XtkCleanup_NoStats** option has been enhanced for PostgreSQL to better control the behavior of the storage optimization step of the database cleanup workflow. [Read more](../../production/using/database-cleanup-workflow.md#statistics-update)
 * An account lockout mechanism has been added to the **logon()** API. It prevents any further login attempts after a certain number of consecutive failed login attempts within a specified timeframe.
 * A new **Maximum personalization run time** option in the delivery properties allows to define a time-out period for the personalization run time, in order to avoid the personalization phase to run for too long. [Read more](../../delivery/using/personalization-fields.md#timing-out-personalization)
-* The **ftp protocol** option has been added to allow you to use a proxy configuration for SFTP connections. [Read more](../../installation/using/{#configuring-campaign-server.md#proxy-connection-configuration)
+* The **ftp protocol** option has been added to allow you to use a proxy configuration for SFTP connections. [Read more](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)
 * New support of proxy access to a SFTP external server for on-premise environments
 * A specific guardrail has been added to prevent installation of packages which are not compatible with the Campaign instance. [Read more](../../installation/using/installing-campaign-standard-packages.md)
 
