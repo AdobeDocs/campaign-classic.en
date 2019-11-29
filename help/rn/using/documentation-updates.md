@@ -22,6 +22,28 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## 19.2 - 02/12/2019{#release-19-2}
+
+**New capabilities included in the release**
+
+Interactive content with AMP - [Read more](../../delivery/using/defining-the-email-content.md#amp-for-email-format)
+
+Workflow live monitoring - [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+
+The integration between Adobe Campaign and Adobe Real-time Customer Data Platform has been added to the **Integrating with Adobe Experience Cloud** guide. [Read more](../../integrations/using/about-campaign-integrations.md)
+
+**Other documentation updates coming with the release**
+
+The Adobe Campaign Enhanced MTA documentation is now available. [Read more](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
+A new section has been added on how to troubleshoot a workflow staying in the "Start as soon as possible" state within a campaign. [Read more](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
+
+The new "NmsOperation_DeliveryPreparationWindow" and "WdbcKillSessionPolicy" options have been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
+
+A new document describing the Adobe Campaign Classic data model basics is now available. [Read more](https://helpx.adobe.com/campaign/kb/acc-datamodel.html)
+
+The new **Maximum personalization run time** option in the delivery properties is documented in this [section](../../delivery/using/personalization-fields.md#timing-out-personalization).
+
 ## November 2019 {#november-2019}
 
 A warning has been added to the [Multiplexing the mid-sourcing server](../../installation/using/mid-sourcing-server.md#multiplexing-the-mid-sourcing-server) and [Supporting several control instances](../../message-center/using/transactional-messaging-architecture.md#supporting-several-control-instances) sections mentioning that these deployments are not supported for fully hosted and hybrid clients.

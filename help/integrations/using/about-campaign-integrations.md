@@ -1,8 +1,6 @@
 ---
 title: About Campaign integrations
-seo-title: About Campaign integrations
-description: About Campaign integrations
-seo-description: 
+description: Learn about functional integrations available between the current version of Adobe Campaign and [Adobe Experience Cloud solutions
 page-status-flag: never-activated
 uuid: 087abdf0-b4b2-45e6-be21-b03bf85ddf83
 contentOwner: sauviat
@@ -91,6 +89,10 @@ The following table provides access to available Experience Cloud integration do
   <tr> 
    <td> <strong>Adobe Analytics - Data Connectors</strong><br /> </td> 
    <td> <strong>Data connectors</strong> (previously known as Adobe Genesis) allows Adobe Campaign and Adobe Analytics interact through segments concerning user behavior following an email campaign. Conversely, it sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics - Data connector.<br /> <p><a href="../../platform/using/adobe-analytics-data-connector.md">Learn more</a> about Campaign - Data Connectors integration.</p><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Adobe Real-time Customer Data Platform</strong><br /> </td> 
+   <td> The integration between Adobe Campaign and Adobe Real-time Customer Data Platform allows you to share segments data and import audiences to Adobe Campaign.<br /> <p><a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">Learn more</a> about Campaign - Adobe Real-time Customer Data Platform integration.</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>

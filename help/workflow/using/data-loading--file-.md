@@ -1,8 +1,6 @@
 ---
 title: Data loading (file)
-seo-title: Data loading (file)
-description: Data loading (file)
-seo-description: 
+description: Learn more about the Data loading (file) activity.
 page-status-flag: never-activated
 uuid: c064aa23-412e-49b4-a51d-b0e8ca572f2e
 contentOwner: sauviat

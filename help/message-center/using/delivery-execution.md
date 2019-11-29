@@ -32,3 +32,6 @@ This sort can be changed in the message template properties as shown below.
 
 ![](assets/messagecenter_deliveries_properties_001.png)
 
+>[!NOTE]
+>
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, all transactional messages may also be sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages and they are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) document.

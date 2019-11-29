@@ -22,6 +22,8 @@ snippet: y
 
 Below are listed general guidelines about optimizing Campaign performance, including best practices to apply to your workflows. 
 
+Troubleshooting guidelines related to workflows execution are also available in [this section](../../production/using/workflow-execution.md).
+
 ### Logs {#logs}
 
 The JavaScript method **[!UICONTROL logInfo()]** is a great solution for debugging a workflow. It is useful but it must be used carefully, especially for activities that are frequently run: it can overload the logs and significantly increase the size of the log table. But you might also need more than **[!UICONTROL logInfo()]**.
