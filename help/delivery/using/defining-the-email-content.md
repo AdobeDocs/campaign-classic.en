@@ -131,7 +131,7 @@ Select the format of the email in the lower section of the window:
 
   The message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks on the message.
 
-## Sending interactive content with AMP {#amp-for-email-format}
+## Defining interactive content {#amp-for-email-format}
 
 Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
 
@@ -149,6 +149,8 @@ Adobe Campaign enables you to try the new interactive [AMP for Email](https://am
 This feature is available through a dedicated package in Adobe Campaign. To use it, this package must be installed. Once done, restart the server for the package to be taken into account.
 
 For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/creating-a-shared-connection.md#execution-instance). Contact your account executive.
+
+Watch this [video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html) to see how to activate AMP in Adobe Campaign and learn about the usage.
 
 ### About AMP for Email {#about-amp-for-email}
 
