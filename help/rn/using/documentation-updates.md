@@ -26,6 +26,8 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 **New capabilities included in the release**
 
+California Consumer Privacy Act (CCPA) - [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
+
 Interactive content with AMP - [Read more](../../delivery/using/defining-the-email-content.md#amp-for-email-format)
 
 Workflow live monitoring - [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
