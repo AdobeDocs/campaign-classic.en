@@ -28,11 +28,17 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 Interactive content with AMP - [Read more](../../delivery/using/defining-the-email-content.md#amp-for-email-format)
 
+Workflow live monitoring - [Read more](<../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status")
+
 **Other documentation updates coming with the release**
 
 The Adobe Campaign Enhanced MTA documentation is now available. [Read more](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
 A new document describing the Adobe Campaign Classic data model basics is now available. [Read more](https://helpx.adobe.com/campaign/kb/acc-datamodel.html)
+
+A new section has been added on how to troubleshoot a workflow staying in the "Start as soon as possible" state within a campaign. [Read more](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
+
+The new "NmsOperation_DeliveryPreparationWindow" option has been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
 
 ## November 2019 {#november-2019}
 
