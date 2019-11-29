@@ -240,9 +240,9 @@ Bounce mails can have the following qualification status:
 
 >[!NOTE]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, all messages may be sent with Momentum. In this case, the bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are no longer used. Momentum will determine the bounce type and qualification, and send back that information to Campaign.
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are no longer used. The Enhanced MTA will determine the bounce type and qualification, and send back that information to Campaign.
 >
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html).
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 ### Email management rules {#email-management-rules}
 
@@ -291,9 +291,9 @@ The default rules are as follows:
 
   >[!NOTE]
   >
-  >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** document rules will no longer be used. The Enhanced MTA will use Momentum’s MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+  >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
   >
-  >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html).
+  >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 >[!CAUTION]
 >
