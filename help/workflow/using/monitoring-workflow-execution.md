@@ -252,3 +252,50 @@ By default, if a workflow is paused, its working tables are never purged. From b
 These periods can be configured via the NmsServer_PausedWorkflowPeriod option.
 
 Workflow supervisors are notified. The creator and last user who modified the workflow are notified as well. Administrators don't receive the notifications.
+
+## Filtering workflows according to their status {#filtering-workflows-status}
+
+Campaign Classic interface allows you to monitor the execution status of all workflows on your instance using predefined **views**. To access these views, open the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]** node.
+
+The following views are available:
+
+* **[!UICONTROL Running]**: lists all running workflows.
+* **[!UICONTROL Paused]**: lists all paused workflows.
+* **[!UICONTROL Failed]**: lists all failed workflows.
+<!--* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the **[!UICONTROL operationMgt]** process.-->
+
+![](assets/workflow-monitoring-views.png)
+
+<!-->[NOTE]
+>
+>The **Start Pending** view is available with the **[!UICONTROL Marketing campaigns]** package only. See [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md).-->
+
+By default, these views are accessible in the **Audit** folder. However, you can recreate them at the location of your choice in the folders tree. This way, they will be available to standard users with no administration right.
+
+To do this:
+
+1. Right-click on the folder where you want to add the view.
+1. In **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, select the view that you want to add.
+1. Once the folder is added to the tree, make sure you configure it as a view, so that it displays all workflows, whatever their origin folder is.For more on how to configure views, refer to [this section](../../platform/using/access-management.md#adding-folders-and-creating-views).
+
+Additionally to these views, you can set up filters folders that will allow you to filter the list of workflows according to their execution status. To do this:
+
+1. Access a workflow-type folder, then select the **[!UICONTROL Filters]** / **[!UICONTROL Advanced filter]** menu.
+1. Configure the filter so that the workflows' **[!UICONTROL @status]** field is equal to the state of your choice.
+1. Save and name the filter. It will then be directly available from the filters list.
+
+![](assets/workflow-monitoring-filter.png)
+
+For more information, refer to these sections:
+
+* [Creating advanced filters](../../platform/using/creating-filters.md#creating-an-advanced-filter)
+* [Saving filters](../../platform/using/creating-filters.md#saving-a-filter)
+
+
+<!-- need to check if pending status filter will be implemented or not in january release:
+
+>[!NOTE]
+>
+>Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the **[!UICONTROL operationMgt]** process only.
+>
+>This filter is available with the **[!UICONTROL Marketing campaigns]** package only. See [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md).-->
