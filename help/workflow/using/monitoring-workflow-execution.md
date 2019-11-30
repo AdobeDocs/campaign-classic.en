@@ -255,7 +255,9 @@ Workflow supervisors are notified. The creator and last user who modified the wo
 
 ## Filtering workflows according to their status {#filtering-workflows-status}
 
-Campaign Classic interface allows you to monitor the execution status of all workflows on your instance using predefined **views**. To access these views, open the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]** node.
+Campaign Classic interface allows you to monitor the execution status of all workflows on your instance using predefined **views**.
+
+To access these views, open the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]** node.
 
 The following views are available:
 
