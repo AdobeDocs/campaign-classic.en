@@ -243,7 +243,7 @@ You can also create specific technical workflows to purge unnecessary data consu
 
 ## Handling of paused workflows {#handling-of-paused-workflows}
 
-By default, if a workflow is paused, its working tables are never purged. From build 8880, workflows that have been in a paused state for too long are automatically stopped and their working tables are purged. This behaviour is triggered as follows:
+By default, if a workflow is paused, its working tables are never purged. From **build 8880**, workflows that have been in a paused state for too long are automatically stopped and their working tables are purged. This behaviour is triggered as follows:
 
 * Workflows that have been paused since more than 7 days appear as a warning in the monitoring dashboard (and monitoring API) and a notification is sent to the supervisor group.
 * The same happens every week, when the **[!UICONTROL cleanupPausedWorkflows]** technical workflow is triggered. For more details on the workflow, refer to [this section](../../workflow/using/delivery.md).
