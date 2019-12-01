@@ -1,3 +1,3 @@
 # campaign-classic-docs
 
-Technical documentation for Adobe Campaign Classic
+Technical documentation for Adobe Campaign Classic 
