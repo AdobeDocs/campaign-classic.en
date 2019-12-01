@@ -262,13 +262,12 @@ The following views are available:
 * **[!UICONTROL Running]**: lists all running workflows.
 * **[!UICONTROL Paused]**: lists all paused workflows.
 * **[!UICONTROL Failed]**: lists all failed workflows.
-<!--* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the **[!UICONTROL operationMgt]** process.-->
+
+<!--Start Pending: lists all workflows that are waiting to be started by the operationMgt process.-->
 
 ![](assets/workflow-monitoring-views.png)
 
-<!-->[NOTE]
->
->The **Start Pending** view is available with the **[!UICONTROL Marketing campaigns]** package only. See [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md).-->
+<!--The Start Pending view is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
 
 By default, these views are accessible in the **Audit** folder. However, you can recreate them at the location of your choice in the folders tree. This way, they will be available to standard users with no administration right.
 
@@ -294,8 +293,8 @@ For more information, refer to these sections:
 
 <!-- need to check if pending status filter will be implemented or not in january release:
 
->[!NOTE]
+>note:
 >
->Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the **[!UICONTROL operationMgt]** process only.
+>Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the operationMgt process only.
 >
->This filter is available with the **[!UICONTROL Marketing campaigns]** package only. See [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md).-->
+>This filter is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
