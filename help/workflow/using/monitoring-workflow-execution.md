@@ -243,7 +243,7 @@ You can also create specific technical workflows to purge unnecessary data consu
 
 ## Handling of paused workflows {#handling-of-paused-workflows}
 
-By default, if a workflow is paused, its working tables are never purged. From **build 8880**, workflows that have been in a paused state for too long are automatically stopped and their working tables are purged. This behaviour is triggered as follows:
+By default, if a workflow is paused, its working tables are never purged. From build 8880, workflows that have been in a paused state for too long are automatically stopped and their working tables are purged. This behaviour is triggered as follows:
 
 * Workflows that have been paused since more than 7 days appear as a warning in the monitoring dashboard (and monitoring API) and a notification is sent to the supervisor group.
 * The same happens every week, when the **[!UICONTROL cleanupPausedWorkflows]** technical workflow is triggered. For more details on the workflow, refer to [this section](../../workflow/using/delivery.md).
@@ -255,9 +255,7 @@ Workflow supervisors are notified. The creator and last user who modified the wo
 
 ## Filtering workflows according to their status {#filtering-workflows-status}
 
-Campaign Classic interface allows you to monitor the execution status of all workflows on your instance using predefined **views**.
-
-To access these views, open the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]** node.
+Campaign Classic interface allows you to monitor the execution status of all workflows on your instance using predefined **views**. To access these views, open the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]** node.
 
 The following views are available:
 
@@ -265,13 +263,11 @@ The following views are available:
 * **[!UICONTROL Paused]**: lists all paused workflows.
 * **[!UICONTROL Failed]**: lists all failed workflows.
 
-<!--* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the **[!UICONTROL operationMgt]** process.-->
+<!--Start Pending: lists all workflows that are waiting to be started by the operationMgt process.-->
 
 ![](assets/workflow-monitoring-views.png)
 
-<!-->[NOTE]
->
->The **Start Pending** view is available with the **[!UICONTROL Marketing campaigns]** package only. See [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md).-->
+<!--The Start Pending view is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
 
 By default, these views are accessible in the **Audit** folder. However, you can recreate them at the location of your choice in the folders tree. This way, they will be available to standard users with no administration right.
 
@@ -297,8 +293,8 @@ For more information, refer to these sections:
 
 <!-- need to check if pending status filter will be implemented or not in january release:
 
->[!NOTE]
+>note:
 >
->Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the **[!UICONTROL operationMgt]** process only.
+>Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the operationMgt process only.
 >
->This filter is available with the **[!UICONTROL Marketing campaigns]** package only. See [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md).-->
+>This filter is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
