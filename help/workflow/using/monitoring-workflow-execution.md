@@ -255,13 +255,13 @@ Workflow supervisors are notified. The creator and last user who modified the wo
 
 ## Filtering workflows according to their status {#filtering-workflows-status}
 
-Campaign Classic interface allows you to monitor the execution status of all workflows on your instance using predefined **views**. To access these views, open the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]** node.
+Campaign Classic interface allows you to monitor the execution status of all workflows on your instance using predefined **views**. To access these views, open the **Administration** / **Audit** / **Workflows Status** node.
 
 The following views are available:
 
-* **[!UICONTROL Running]**: lists all running workflows.
-* **[!UICONTROL Paused]**: lists all paused workflows.
-* **[!UICONTROL Failed]**: lists all failed workflows.
+* **Running**: lists all running workflows.
+* **Paused**: lists all paused workflows.
+* **Failed**: lists all failed workflows.
 
 <!--Start Pending: lists all workflows that are waiting to be started by the operationMgt process.-->
 
@@ -274,13 +274,13 @@ By default, these views are accessible in the **Audit** folder. Howeve
 To do this:
 
 1. Right-click on the folder where you want to add the view.
-1. In **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, select the view that you want to add.
+1. In **Add new folder** / **Administration**, select the view that you want to add.
 1. Once the folder is added to the tree, make sure you configure it as a view, so that it displays all workflows, whatever their origin folder is.For more on how to configure views, refer to [this section](../../platform/using/access-management.md#adding-folders-and-creating-views).
 
 Additionally to these views, you can set up filters folders that will allow you to filter the list of workflows according to their execution status. To do this:
 
 1. Access a workflow-type folder, then select the **[!UICONTROL Filters]** / **[!UICONTROL Advanced filter]** menu.
-1. Configure the filter so that the workflows' **[!UICONTROL @status]** field is equal to the state of your choice.
+1. Configure the filter so that the workflow's **[!UICONTROL @status]** field is equal to the state of your choice.
 1. Save and name the filter. It will then be directly available from the filters list.
 
 ![](assets/workflow-monitoring-filter.png)
