@@ -71,7 +71,7 @@ There can be several causes for this issue, follow the steps below to solve it:
 
     To solve this issue, stop unwanted workflows and delete failed deliveries. If the threshold was reached, this will allow the running of new processes.
 
-    To check the number of workflows running of your instance, we recommend using the predefined views, accessible by default in the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** folder. For more information, refer to [this page](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-according-to-their-status).
+    To check the number of workflows running of your instance, we recommend using the predefined views, accessible by default in the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** folder. For more information, refer to [this page](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
 
     >[CAUTION]
     >

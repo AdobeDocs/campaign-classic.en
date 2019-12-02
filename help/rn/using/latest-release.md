@@ -16,7 +16,7 @@ snippet: y
 
 # Release 19.2{#release-19-2}
 
-## Release 19.2 - Build XXX{#release-19-2-build-XXX}
+## Release 19.2 - Build 9079{#release-19-2-build-9079}
 
 December 03, 2019
 
