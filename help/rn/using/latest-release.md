@@ -20,7 +20,7 @@ Click [here](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) to lear
 
 ## Release 19.2 - Build 9080 (Release Candidate){#release-19-2-build-9080}
 
-![](/assets/label_release_candidate.png)
+![](assets/label_release_candidate.png)
 
 December 02, 2019
 
