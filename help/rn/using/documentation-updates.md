@@ -46,6 +46,10 @@ A new document describing the Adobe Campaign Classic data model basics is now av
 
 The new **Maximum personalization run time** option in the delivery properties is documented in this [section](../../delivery/using/personalization-fields.md#timing-out-personalization).
 
+The examples for API calls using an **HttpServletRequest** with logon() and query() have been updated. [Read more](../../configuration/using/web-service-calls.md).
+
+A recommandation for **sqlDefault** attribute in schema definition has been added. [Read more](../../configuration/using/elements-and-attributes.md#attribute-description).
+
 ## November 2019 {#november-2019}
 
 A warning has been added to the [Multiplexing the mid-sourcing server](../../installation/using/mid-sourcing-server.md#multiplexing-the-mid-sourcing-server) and [Supporting several control instances](../../message-center/using/transactional-messaging-architecture.md#supporting-several-control-instances) sections mentioning that these deployments are not supported for fully hosted and hybrid clients.
