@@ -148,7 +148,7 @@ To install and configure SpamAssassin on Windows to enable integration with Adob
   apt-get install spamassassin libxml-writer-perl
   ```
 
-* In the **serverConf.xml** file (available in /usr/local/`[INSTALL]`/nl6/conf/), change the **spamCheck** line as follows:
+* In the **serverConf.xml** file (available in `/usr/local/[INSTALL]/nl6/conf/`), change the **spamCheck** line as follows:
 
   ```
   <spamCheck command="perl
