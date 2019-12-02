@@ -32,8 +32,6 @@ Interactive content with AMP - [Read more](../../delivery/using/defining-the-ema
 
 Workflow live monitoring - [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
-The integration between Adobe Campaign and Adobe Real-time Customer Data Platform has been added to the **Integrating with Adobe Experience Cloud** guide. [Read more](../../integrations/using/about-campaign-integrations.md)
-
 **Other documentation updates coming with the release**
 
 The Adobe Campaign Enhanced MTA documentation is now available. [Read more](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
@@ -45,6 +43,8 @@ The new "NmsOperation_DeliveryPreparationWindow" and "WdbcKillSessionPolicy" opt
 A new document describing the Adobe Campaign Classic data model basics is now available. [Read more](https://helpx.adobe.com/campaign/kb/acc-datamodel.html)
 
 The new **Maximum personalization run time** option in the delivery properties is documented in this [section](../../delivery/using/personalization-fields.md#timing-out-personalization).
+
+The integration between Adobe Campaign and Adobe Real-time Customer Data Platform has been added to the **Integrating with Adobe Experience Cloud** guide. [Read more](../../integrations/using/about-campaign-integrations.md).
 
 ## November 2019 {#november-2019}
 

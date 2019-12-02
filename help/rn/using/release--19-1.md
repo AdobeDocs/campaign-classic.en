@@ -18,7 +18,7 @@ snippet: y
 
 # Release 19.1{#release-19-1}
 
-## Release 19.1.6 - Build 9035{#release-19-1-6-build-9035}
+## Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
 3 October 2019
 

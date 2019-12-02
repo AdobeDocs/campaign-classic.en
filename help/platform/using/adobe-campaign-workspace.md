@@ -26,7 +26,7 @@ From the central section of the home page, you can use links to access Campaign 
 
 ![](assets/d_ncs_user_interface_home.png)
 
-The screenshot above is an example of the home page for an Adobe Campaign user. For more on this, watch the [Adobe Campaign Interface overview video](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html).
+The screenshot above is an example of the home page for an Adobe Campaign user. For more on this, watch the [Adobe Campaign Interface overview video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html).
 
 >[!NOTE]
 >
