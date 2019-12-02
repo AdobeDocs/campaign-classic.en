@@ -837,7 +837,7 @@ For additional information, refer to [Proxy connection configuration](../../inst
 
 ### HTTP Proxy / Secure proxy {#http-proxy---secure-proxy-}
 
-In the **proxyConfig > HTTP Proxy / Secure proxy ** node, configure the following parameters.
+In the **proxyConfig > HTTP Proxy / Secure proxy** node, configure the following parameters.
 
 For additional information, refer to [Proxy connection configuration](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
 
