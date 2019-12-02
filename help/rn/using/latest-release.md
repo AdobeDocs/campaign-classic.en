@@ -18,7 +18,7 @@ snippet: y
 
 ## Release 19.2 - Build 9079{#release-19-2-build-9079}
 
-December 03, 2019
+December 02, 2019
 
 **What's new?**
 
