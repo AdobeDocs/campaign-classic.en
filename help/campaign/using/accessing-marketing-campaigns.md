@@ -28,7 +28,9 @@ Once you connect to Adobe Campaign, you will see the home page.
 
 ![](assets/campaign_global_view.png)
 
-Click the links in the navigation bar to access the various universes. Campaign elements are found in the **[!UICONTROL Campaigns]** universe: here you can see an overview of the marketing programs and campaigns as well as their sub-sets. A marketing program is made up of campaigns, which are made up of deliveries, tasks, linked resources, etc. In the context of marketing campaign management using Campaign, the information concerning deliveries, budgets, reviewers and linked documents are found in the campaigns.
+Click the links in the navigation bar to access the various universes.
+
+Campaign elements are found in the **[!UICONTROL Campaigns]** universe: here you can see an overview of the marketing programs and campaigns as well as their sub-sets. A marketing program is made up of campaigns, which are made up of deliveries, tasks, linked resources, etc. In the context of marketing campaign management using Campaign, the information concerning deliveries, budgets, reviewers and linked documents are found in the campaigns.
 
 The navigation block of the **[!UICONTROL Campaigns]** universe offers various entries, depending on modules installed on the instance. As an example, you can access:
 
@@ -102,7 +104,7 @@ Campaigns can be accessed via the campaign calendar, the **[!UICONTROL Schedule]
 
 #### Dashboard {#dashboard}
 
-For each campaign, jobs, resources and deliveries are centralized in a single screen - the dashboard- which lets you manage marketing actions in collaboration with others.
+For each campaign, jobs, resources and deliveries are centralized in a single screen - the dashboard - which lets you manage marketing actions in collaboration with others.
 
 The dashboard of a campaign is used as a control interface. It accesses the main campaign creation and management stages directly: deliveries, extraction files, notifications, budgets, etc.
 

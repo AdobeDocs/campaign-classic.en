@@ -27,7 +27,7 @@ The key steps when creating a delivery are as follows:
     * [Email channel](../../delivery/using/defining-the-email-content.md)
     * [SMS channel](../../delivery/using/sms-channel.md#defining-the-sms-content)
     * [Direct mail channel](../../delivery/using/defining-the-direct-mail-content.md)
-    * [Mbile application channel](../../delivery/using/about-mobile-app-channel.md)
+    * [Mobile application channel](../../delivery/using/about-mobile-app-channel.md)
 
 1. **Define the target population**. [Read more](../../delivery/using/steps-defining-the-target-population.md)
 
@@ -37,4 +37,4 @@ The key steps when creating a delivery are as follows:
 
 >[!NOTE]
 >
->The steps described in this chapter assume that all target recipients and their profiles are stored in the database, except in the case of external delivery (see [Selecting external recipients](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients)).
+>The steps described in this chapter assume that all target recipients and their profiles are stored in the database, except in the case of external delivery (see [Selecting external recipients](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).

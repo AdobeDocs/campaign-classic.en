@@ -88,7 +88,7 @@ Proper bounce management is an important email deliverability best practice. Rep
 
 Hard bounces should be identified and automatically excluded from subsequent email campaigns. Soft bounces, on the other hand, can safely be retried up to five times; if these attempts aren't successful, the addresses should then be removed from the list. Because soft bounces may also be caused by temporary ISP blocking, it's also important to regularly investigate their cause in order to diagnose and correct any issues with authentication, volume, or reputation.
 
-For more on thisn, refer to [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md).
+For more on this, refer to [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md).
 
 ### Data Hygiene {#data-hygiene}
 

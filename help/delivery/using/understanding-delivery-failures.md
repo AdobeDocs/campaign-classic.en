@@ -238,6 +238,12 @@ Bounce mails can have the following qualification status:
 
 ![](assets/deliverability_qualif_status.png)
 
+>[!NOTE]
+>
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are no longer used. The Enhanced MTA will determine the bounce type and qualification, and send back that information to Campaign.
+>
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
 ### Email management rules {#email-management-rules}
 
 Mail rules are accessed via the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** node. Email management rules are shown in the lower part of the window.
@@ -282,6 +288,12 @@ The default rules are as follows:
 * **MX Management**
 
   For more on MX management, refer to [this section](../../installation/using/email-deliverability.md#mx-configuration).
+
+  >[!NOTE]
+  >
+  >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+  >
+  >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 >[!CAUTION]
 >

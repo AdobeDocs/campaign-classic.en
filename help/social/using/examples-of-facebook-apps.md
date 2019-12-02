@@ -103,8 +103,8 @@ Let's take the example of a company which decides to send an email campaign. In 
 
 Once it is personalized, the URL looks like this:
 
-* http://`<`path of the Facebook application`>`&app_data=big (for a significant customer)
-* http://`<`path of the Facebook application`>`&app_data=small (for a less significant customer)
+* `http://<path of the Facebook application>&app_data=big` (for a significant customer)
+* `http://<path of the Facebook application>&app_data=small` (for a less significant customer)
 
 Among the anonymous data forwarded to Adobe Campaign by Facebook, the value of the **[!UICONTROL Application parameters]** field is collected, thus enabling Adobe Campaign to personalize application display based on this parameter.
 
