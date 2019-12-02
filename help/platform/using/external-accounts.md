@@ -376,6 +376,10 @@ As you are setting up this new external account, you need to provide the followi
 
   To know where to find your secret access key to AWS, refer to this [page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
+* **[!UICONTROL AWS Region]**
+
+  To learn more on AWS region, refer to this [page](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
+
 * The **[!UICONTROL Use server side encryption]** checkbox allows you to store your file in S3 encrypted mode.
 
 To learn where to find the access key ID and secret access key, refer to Amazon Web services [documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
@@ -416,9 +420,10 @@ The **[!UICONTROL Hadoop]** external account enables a connection to a shared ex
 
 The **[!UICONTROL Microsoft Dynamics CRM]** external account allows you to import and export Microsoft Dynamics data into Adobe Campaign.
 
-![](assets/ext_account_14.png)
+Configuration for Microsoft Dynamics connector to work with Adobe Campaign depends on your deployment type.
+With **[!UICONTROL On-premise]** and **[!UICONTROL Office 365]** deployment types, you need to provide the following details:
 
-To configure the Microsoft Dynamics connector to work with Adobe Campaign, you need to provide the following details:
+![](assets/ext_account_21.png)
 
 * **[!UICONTROL Account]**
 
@@ -434,17 +439,59 @@ To configure the Microsoft Dynamics connector to work with Adobe Campaign, you n
 
 * **[!UICONTROL Company name]** for On-premise and Office 365 deployment
 
-  Company name which can be found in the Developers resource dashboard, **[!UICONTROL Unique Name]** field.
-
-* **[!UICONTROL Client identifier]** for Web API deployment
-
-  Client ID which can be found from Microsoft Azure management portal in the **[!UICONTROL Update your code]** category, **[!UICONTROL Client ID]** field.
+   Name of your Company.
 
 * **[!UICONTROL Organization name]** for On-premise deployment
 
   Name of your organization.
+  Organization name which can be found in the Developers resources dashboard in Microsoft Dynamics, **[!UICONTROL Unique Name]** field.
 
-* **[!UICONTROL CRM version]** for On-premise and Web API deployments
+* **[!UICONTROL CRM version]** for On-premise
+
+  Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
+
+With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credentials]** authentication, you need to provide the following details:
+
+![](assets/ext_account_14.png)
+
+* **[!UICONTROL Account]**
+
+  Account used to sign in to Microsoft CRM.
+
+* **[!UICONTROL Server]**
+
+  URL of your Microsoft CRM server.
+
+* **[!UICONTROL Client identifier]**
+
+  Client ID which can be found from Microsoft Azure management portal in the **[!UICONTROL Update your code]** category, **[!UICONTROL Client ID]** field.
+
+* **[!UICONTROL CRM version]**
+
+  Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
+
+With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** authentication, you need to provide the following details:
+
+![](assets/ext_account_22.png)
+
+* **[!UICONTROL Server]**
+
+  URL of your Microsoft CRM server.
+
+* **[!UICONTROL Private Key (Base64 encoded)]**
+
+  Private key encoded to Base64
+
+* **[!UICONTROL Custom Key identifier]**
+
+
+* **[!UICONTROL Key ID]**
+
+* **[!UICONTROL Client identifier]**
+
+  Client ID which can be found from Microsoft Azure management portal in the **[!UICONTROL Update your code]** category, **[!UICONTROL Client ID]** field.
+
+* **[!UICONTROL CRM version]**
 
   Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
 
