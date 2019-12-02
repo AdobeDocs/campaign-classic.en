@@ -91,7 +91,7 @@ To install and configure SpamAssassin on Windows to enable integration with Adob
        XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
        ```
 
-    1. Double-click on the **portableShell.bat** file to display a Windows Shell then launch the following command (or "`<root>`" designates the created folder when unzipping the  **spamassassin.zip** file):`
+    1. Double-click on the **portableShell.bat** file to display a Windows Shell then launch the following command (or "`<root>`" designates the created folder when unzipping the  **spamassassin.zip** file):
 
        ```    
         "<root>\perl\site\bin\spamassassin" "C:\TestSpamMail.txt"
