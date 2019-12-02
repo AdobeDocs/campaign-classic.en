@@ -16,7 +16,11 @@ snippet: y
 
 # Release 19.2{#release-19-2}
 
-## Release 19.2 - Build 9079{#release-19-2-build-9079}
+Click [here](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) to learn more about build status.
+
+## Release 19.2 - Build 9080 (Release Candidate){#release-19-2-build-9080}
+
+![](/assets/label_release_candidate.png)
 
 December 02, 2019
 

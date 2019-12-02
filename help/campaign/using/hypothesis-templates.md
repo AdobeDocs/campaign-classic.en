@@ -50,7 +50,7 @@ To create a hypothesis template, apply the following steps:
 
 The template's **[!UICONTROL General]** tab lets you specify the general template options. The available fields are:
 
-* **[!UICONTROL Hypothesis type]** : lets you determine whether the template should be destined for hypotheses on deliveries or offers.
+* **[!UICONTROL Hypothesis type]**: lets you determine whether the template should be destined for hypotheses on deliveries or offers.
 
   You can also choose to create a hypothesis that will apply to both deliveries and offers.
 
@@ -58,7 +58,7 @@ The template's **[!UICONTROL General]** tab lets you specify the general templat
   >
   >If the template applies to offers, the **[!UICONTROL Update offer proposition status]** option is available in the **[!UICONTROL Transactions]** tab.
 
-* **[!UICONTROL Measurement with control group]** : lets you state whether a control group has been defined for the delivery or the campaign and include it in measurement indicators. The control group, which doesn't receive deliveries, lets you measure the impact of the campaign after the delivery, by comparing it with the target population which did receive the delivery.
+* **[!UICONTROL Measurement with control group]**: lets you state whether a control group has been defined for the delivery or the campaign and include it in measurement indicators. The control group, which doesn't receive deliveries, lets you measure the impact of the campaign after the delivery, by comparing it with the target population which did receive the delivery.
 
   >[!NOTE]
   >
@@ -66,26 +66,26 @@ The template's **[!UICONTROL General]** tab lets you specify the general templat
 
   For more on defining and configuring a control group, refer to [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
-* **[!UICONTROL Channel]** : you can choose a specific channel or make the hypothesis template available to all channels in the Adobe Campaign console by selecting **[!UICONTROL All channels]** in the drop-down list. If you configure the template for a specific channel, this lets you automatically filter deliveries per channel when creating the hypothesis (refer to [Creating hypotheses](../../campaign/using/creating-hypotheses.md)). 
+* **[!UICONTROL Channel]**: you can choose a specific channel or make the hypothesis template available to all channels in the Adobe Campaign console by selecting **[!UICONTROL All channels]** in the drop-down list. If you configure the template for a specific channel, this lets you automatically filter deliveries per channel when creating the hypothesis (refer to [Creating hypotheses](../../campaign/using/creating-hypotheses.md)). 
 
   ![](assets/response_properties_001.png)
 
-* **[!UICONTROL Execution folder]** : lets you specify the execution folder for the hypothesis.
-* **[!UICONTROL Taken into account in campaign ROI calculation]** : takes the hypothesis result into account in the ROI calculation for the related campaign.
+* **[!UICONTROL Execution folder]**: lets you specify the execution folder for the hypothesis.
+* **[!UICONTROL Taken into account in campaign ROI calculation]**: takes the hypothesis result into account in the ROI calculation for the related campaign.
 
 ### Hypothesis template execution settings {#hypothesis-template-execution-settings}
 
 The template's **[!UICONTROL General]** tab also lets you specify the hypothesis execution parameters. The options available are as follows:
 
-* **[!UICONTROL Schedule execution for a time of low activity]** : lets you schedule the hypothesis launch to optimize Adobe Campaign performances. When this option is checked, the processing workflow on campaigns executes hypothesis calculation during downtime.
+* **[!UICONTROL Schedule execution for a time of low activity]**: lets you schedule the hypothesis launch to optimize Adobe Campaign performances. When this option is checked, the processing workflow on campaigns executes hypothesis calculation during downtime.
 
   ![](assets/response_exec_settings_002.png)
 
-* **[!UICONTROL Priority]** : level applied to the hypothesis to space out the hypothesis calculation orders if there are simultaneous executions.
+* **[!UICONTROL Priority]**: level applied to the hypothesis to space out the hypothesis calculation orders if there are simultaneous executions.
 
   ![](assets/response_exec_settings_003.png)
 
-* **[!UICONTROL Automatic execution]** : if necessary, lets you schedule hypothesis recalculation (for example, if you want to update indicators regularly until the end of the delivery). 
+* **[!UICONTROL Automatic execution]**: if necessary, lets you schedule hypothesis recalculation (for example, if you want to update indicators regularly until the end of the delivery). 
 
   ![](assets/response_exec_settings_001.png)
 
@@ -103,8 +103,8 @@ The template's **[!UICONTROL General]** tab also lets you specify the hypothesis
     
        ![](assets/response_frequency_execution_003.png)
 
-* **[!UICONTROL Log SQL queries in journal]** : this function is reserved for expert users. It lets you add a tab to the measuring hypothesis audit to show SQL queries. This enables the detection of possible malfunctions if a simulation finishes with errors.
-* **[!UICONTROL Keep execution workflow]** : lets you keep the workflow that was automatically generated at the start of the hypothesis calculation. In the hypotheses created from a template that has this option checked, the generated workflow is available to follow the process.
+* **[!UICONTROL Log SQL queries in journal]**: this function is reserved for expert users. It lets you add a tab to the measuring hypothesis audit to show SQL queries. This enables the detection of possible malfunctions if a simulation finishes with errors.
+* **[!UICONTROL Keep execution workflow]**: lets you keep the workflow that was automatically generated at the start of the hypothesis calculation. In the hypotheses created from a template that has this option checked, the generated workflow is available to follow the process.
 
   >[!CAUTION]
   >
@@ -116,13 +116,13 @@ The template's **[!UICONTROL General]** tab also lets you specify the hypothesis
 
 This tab contains the various fields and tables which let you save the history of recipient reactions in terms of transactions. Refer to the [Configuration](../../configuration/using/about-schema-reference.md) guide for more information on the tables dedicated to response management.
 
-* **[!UICONTROL Schema (reaction log storage)]** : select the recipient reaction table. The out-of-the-box table in Adobe Campaign is **NmsRemaMatchRcp**.
-* **[!UICONTROL Transaction schema]** : choose the table that the hypotheses will concern, i.e. the transaction or the purchase table.
-* **[!UICONTROL Querying schema]** : choose the criteria for filtering the hypothesis. 
-* **[!UICONTROL Link to individuals]** : choose the link between individuals and the table used as a transaction schema.
-* **[!UICONTROL Link to the household]** : select the link to the household in the transactions schema if you wish to include all members of a household in a hypothesis. This field is optional.
-* **[!UICONTROL Transaction date]** : this field is optional but recommended since it lets you define a scope for hypothesis calculation. 
-* **[!UICONTROL Measurement period]** : lets you configure start and end dates during which hypotheses are executed and purchase lines are recovered.
+* **[!UICONTROL Schema (reaction log storage)]**: select the recipient reaction table. The out-of-the-box table in Adobe Campaign is **NmsRemaMatchRcp**.
+* **[!UICONTROL Transaction schema]**: choose the table that the hypotheses will concern, i.e. the transaction or the purchase table.
+* **[!UICONTROL Querying schema]**: choose the criteria for filtering the hypothesis. 
+* **[!UICONTROL Link to individuals]**: choose the link between individuals and the table used as a transaction schema.
+* **[!UICONTROL Link to the household]**: select the link to the household in the transactions schema if you wish to include all members of a household in a hypothesis. This field is optional.
+* **[!UICONTROL Transaction date]**: this field is optional but recommended since it lets you define a scope for hypothesis calculation. 
+* **[!UICONTROL Measurement period]**: lets you configure start and end dates during which hypotheses are executed and purchase lines are recovered.
 
   When the hypothesis is linked to a delivery, measurement is automatically triggered a few days after the contact date for direct mail deliveries, or after the delivery date for email or SMS deliveries.
 
@@ -130,13 +130,13 @@ This tab contains the various fields and tables which let you save the history o
 
   If the hypothesis is launched on the fly, it can be forced if would like to trigger it immediately. Otherwise, it is triggered automatically based on the configured end of calculation date, which is based on the hypothesis creation date (refer to [Creating a hypothesis on the fly on a delivery](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)).
 
-* **[!UICONTROL Transaction/Margin amount]** : these fields are optional and enable you to calculate turnover indicators automatically (refer to [Indicators](../../campaign/using/hypothesis-tracking.md#indicators)).
-* **[!UICONTROL Unit amount]** : lets you set an amount for calculating revenue (refer to [Indicators](../../campaign/using/hypothesis-tracking.md#indicators)). 
+* **[!UICONTROL Transaction/Margin amount]**: these fields are optional and enable you to calculate turnover indicators automatically (refer to [Indicators](../../campaign/using/hypothesis-tracking.md#indicators)).
+* **[!UICONTROL Unit amount]**: lets you set an amount for calculating revenue (refer to [Indicators](../../campaign/using/hypothesis-tracking.md#indicators)). 
 
   ![](assets/response_transactions_001.png)
 
-* **[!UICONTROL Additional measures and data]** : lets you specify additional reporting measures or axes from fields in the different tables.
-* **[!UICONTROL Update offer proposition status]** : lets you change the status of the offer proposition if an offer recipient is identified by the hypothesis. 
+* **[!UICONTROL Additional measures and data]**: lets you specify additional reporting measures or axes from fields in the different tables.
+* **[!UICONTROL Update offer proposition status]**: lets you change the status of the offer proposition if an offer recipient is identified by the hypothesis. 
 
   ![](assets/response_offer_status_001.png)
 

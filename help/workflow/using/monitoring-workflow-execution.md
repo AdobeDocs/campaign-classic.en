@@ -259,9 +259,9 @@ Campaign Classic interface allows you to monitor the execution status 
 
 The following views are available:
 
-* **Running**: lists all running workflows.
-* **Paused**: lists all paused workflows.
-* **Failed**: lists all failed workflows.
+* **Running**: lists all running workflows.
+* **Paused**: lists all paused workflows.
+* **Failed**: lists all failed workflows.
 
 <!--Start Pending: lists all workflows that are waiting to be started by the operationMgt process.-->
 

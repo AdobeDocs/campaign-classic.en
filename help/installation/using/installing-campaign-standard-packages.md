@@ -62,7 +62,7 @@ The following table lists all standard packages with their description, the inst
    <td> Delivery<br /> </td> 
    <td> Monitors deliveries and eventual issues encountered when messages are sent.<br /> </td> 
    <td> All</td> 
-   <td> Learn More</td> 
+   <td> <a href="../../delivery/using/monitoring-a-delivery.md">Learn more</a></td> 
   </tr> 
   <tr> 
    <td> Marketing campaigns (Campaign)<br /> </td> 
