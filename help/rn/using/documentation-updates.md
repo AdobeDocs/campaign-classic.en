@@ -104,7 +104,7 @@ Secure SMS Messaging (TLS) - [Read more](https://helpx.adobe.com/campaign/kb/sms
 
 A new Build upgrade FAQ has been created. [Read more](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
 
-The [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) has been updated. The list of supported database systems has been updated as well as Android/iOS versions and related SDKs. The [19.0 Compatibility matrix](ttps://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html) has been archived.
+The [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) has been updated. The list of supported database systems has been updated as well as Android/iOS versions and related SDKs. The [19.0 Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html) has been archived.
 
 The 'Deprecated and Removed Features in Campaign Classic' page has been updated. [Read more](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
@@ -134,7 +134,7 @@ The Managing Offers documentation has been updated with a new section listing be
 
 A new Knowledge base article on using the offer catalog in Adobe Campaign Classic has been created. [Read more](https://helpx.adobe.com/campaign/kb/offer-best-practices.html)
 
-The Sub-workflow activity section has been enhanced with an example of usage. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Flow_control_activities.html#Sub-workflow)
+The Sub-workflow activity section has been enhanced with an example of usage. [Read more](../../workflow/using/sub-workflow.md)
 
 The [Campaign Classic On-premise & Hosted capability matrix](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html) Knowledge base article has been updated with information relating to Archiving emails.
 
@@ -456,7 +456,7 @@ How-to videos have been updated. [Read more](https://docs.campaign.adobe.com/doc
 
 Update email archiving section. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html)
 
-Clarify Scheduler usage in a workflow. [Read more](http://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Flow_control_activities.html#Scheduler)
+Clarify Scheduler usage in a workflow. [Read more](../../workflow/using/scheduler.md)
 
 Add Paused workflow best practice. [Read more](http://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Executing_a_workflow.html)
 
@@ -472,7 +472,7 @@ The Setting up web tracking documentation has been enhanced with an updated exam
 
 The SMS Channel documentation has been updated with some clarification added to the Automatic reply section applying to the Extended generic SMPP connector. [Read more](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_messages_on_mobiles_SMS_channel.html#Creating_an_SMPP_external_account).
 
-The Social Marketing documentation has been updated. [Read more](http://docs.campaign.adobe.com/doc/AC/en/SMK_Introduction_About_social_marketing.html).
+The Social Marketing documentation has been updated. [Read more](../../social/using/about-social-marketing.md).
 
 A new technote on IP warming has been added. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_IP_Warming_overview.pdf).
 
@@ -490,7 +490,7 @@ Some videos have been added and updated. [Read more](https://docs.campaign.adobe
 
 Learn how to send a delivery to recipients loaded from an external file without updating the database. [Read more](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_emails_Identifying_target_populations.html#Selecting_external_recipients)
 
-The double opt-in example has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WEB_Web_forms_Use_cases-_web_forms.html)
+The double opt-in example has been updated. [Read more](../../web/using/use-cases--web-forms.md)
 
 ## March 2017{#release-doc-31-03-2017}
 
