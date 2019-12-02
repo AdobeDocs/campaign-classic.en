@@ -78,7 +78,7 @@ Learn how to manage settings and track usage of your Campaign instance
 
 ## Additional Resources
 
-* [Release notes](/help/rn/using/about-release-notes.md)
+* [Release notes](/help/rn/using/latest-release.md)
 
 * [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
