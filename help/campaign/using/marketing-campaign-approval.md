@@ -48,7 +48,7 @@ Once the operator approves their choice, approval or rejection of the job is for
 
 ![](assets/s_user_validation_link_in_op_board.png)
 
-The information is also available in the approval logs of the campaign (Accessed via the **[!UICONTROL Edit >Tracking>Approvals]** tab):
+The information is also available in the approval logs of the campaign (Accessed via the **[!UICONTROL Edit > Tracking > Approvals]** tab):
 
 ![](assets/s_user_validation_log_in_op_edit_tab.png)
 
@@ -177,7 +177,7 @@ Adobe Campaign lets you set up approval processes for the main stages of the mar
 
 For direct mail deliveries, Adobe Campaign operators can view the extraction file before it is sent to the router, and if necessary they can change the format and re-launch extraction. See [Approving an extraction file](#approving-an-extraction-file).
 
-For each campaign you can approve the delivery target, content (see [Approving content](#approving-content)), and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a Web connection. See [Approving processes](#approving-processes).
+For each campaign you can approve the delivery target, content (see [Approving content](#approving-content)) and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a Web connection. See [Approving processes](#approving-processes).
 
 When these validation phases are complete, the delivery can be launched. See [Starting a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery).
 
@@ -208,7 +208,7 @@ At this point, the status of the campaign is **[!UICONTROL To validate]**.
 
 For each delivery in the campaign, you can approve the following processes:
 
-* Targeting, content and budget
+* **Targeting, content and budget**
 
   When the **[!UICONTROL Enable target approval]**, **[!UICONTROL Enable content approval]** or **[!UICONTROL Enable budget approval]** options are selected in the job approval settings window, the relevant links are shown in the campaign dashboard for the concerned deliveries.
 
@@ -220,7 +220,7 @@ For each delivery in the campaign, you can approve the following processes:
 
   Content approval lets you access the proofs sent.
 
-* Extraction approval (direct mail delivery)
+* **Extraction approval (direct mail delivery)**
 
   When **[!UICONTROL Enable extraction approval]** is selected in the approval settings window, the extracted file must be approved before the router can be notified.
 
@@ -236,7 +236,7 @@ For each delivery in the campaign, you can approve the following processes:
   >
   >The extraction file preview concerns a data sample only. The entire output file is not loaded.
 
-* Approving associated deliveries
+* **Approving associated deliveries**
 
   The **[!UICONTROL Enable individual approval of each associated delivery]** option is used for one main delivery associated with secondary deliveries. By default, this option is not selected so that an overall approval of the main delivery can be performed. If this option is selected, each delivery must be approved individually.
 
