@@ -290,11 +290,5 @@ For more information, refer to these sections:
 * [Creating advanced filters](../../platform/using/creating-filters.md#creating-an-advanced-filter)
 * [Saving filters](../../platform/using/creating-filters.md#saving-a-filter)
 
+<!-- need to check if pending status filter will be implemented or not in january release, note, Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the operationMgt process only.This filter is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
 
-<!-- need to check if pending status filter will be implemented or not in january release:
-
->note:
->
->Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the operationMgt process only.
->
->This filter is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->

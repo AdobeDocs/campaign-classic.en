@@ -63,6 +63,8 @@ Once IMS is enabled, you can request provisioning of the People core service/Aud
 * If audiences are shared from Adobe Campaign to Ad Cloud via People core Service, you will not be able to use **[!UICONTROL Declared ID]** provisioning for historical backfill of audiences. Some latency is also to be expected when building audiences.
 * If audiences are being shared from Adobe Analytics to Adobe Campaign via People Core Service, segments will not be populated in Adobe Campaign with **[!UICONTROL Declared ID]**.
 
-If you are using Adobe Audience Manager instead of People Core Service, **[!UICONTROL Declared ID]** will work in all scenarios.
+>[!NOTE]
+>
+>If you are using Adobe Audience Manager instead of People Core Service, **[!UICONTROL Declared ID]** will work in all scenarios.
 
 Please raise request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).

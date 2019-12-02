@@ -18,7 +18,7 @@ snippet: y
 
 ## Release 19.2 - Build 9079{#release-19-2-build-9079}
 
-December 03, 2019
+December 02, 2019
 
 **What's new?**
 
@@ -92,11 +92,11 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 
 **Patches**
 
-* Fixed console crash that could occur when adding an empty linked table in the **Data Loading (RDBMS)** workflow activity; (NEO-12213)
+* Fixed console crash that could occur when adding an empty linked table in the **Data Loading (RDBMS)** workflow activity. (NEO-12213)
 * Fixed an issue which could lead to certain messages not being processed by the Mid-Sourcing server. (NEO-12395)
 * Fixed an issue in the database cleanup workflow when using the query banding option with Teradata. (NEO-12399)
 * Fixed an issue affecting delivery analysis with typology rule including ne.jp domain. (NEO-12609)
-* Fixed an issue related to SMS over TLS updates which were implying to a more restrictive certificate policy. These updates could lead to a connection failure between marketing and mid-sourcing servers in case of an out-of-date certificate (NEO-17698) 
+* Fixed an issue related to SMS over TLS updates which were implying to a more restrictive certificate policy. These updates could lead to a connection failure between marketing and mid-sourcing servers in case of an out-of-date certificate. (NEO-17698) 
 * Fixed an issue when using the **Test connection** button on an external account in a mid-sourcing environment with Vault authentication. (NEO-12722)
 * Fixed an issue on queries using date functions with an FDA Hadoop connection. (NEO-12847)
 * Fixed an issue when replacing an image in the email editor. (NEO-13098)
