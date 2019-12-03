@@ -59,7 +59,6 @@ December 02, 2019
 **Security enhancements**
 
 * Fixed Stored Cross Site Scripting vulnerabilities in Campaign interface – input data validation and output encoding. (NEO-16810)
-* Fixed an issue affecting random sampling in **Split** workflow activity with Hadoop FDA database. (NEO-16636)
 * Fixed a security issue on profile authorization which could allow access to unauthorized data, by reinforcing login restriction policy. (NEO-14445)
 
 **Improvements**
@@ -123,3 +122,5 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 * Fixed an issue which affected the CRM Connector with Salesforce. (NEO-17712)
 * Fixed a timeout issue when importing data from an external SFTP. (NEO-19723)
 * Fixed an issue when accessing to Predictive models. (NEO-19713)
+* Fixed an issue affecting random sampling in **Split** workflow activity with Hadoop FDA database. (NEO-16636)
+
