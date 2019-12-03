@@ -23,42 +23,19 @@ Click [here](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) to lear
 <table cellspacing="0" cellpadding="0">
 <tr>
   <td>
-    <a href="platform/using/common-questions.md">
-      <img alt="FAQ" src="platform/using/assets/FAQ.png"/>
+    <a href="https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html>
+      <img alt="Release Candidate" src="assets/label_release_candidate7.png"/>
     </a>
-    <div>
-      <a href="platform/using/common-questions.md">
-    <strong>Frequently Asked Questions</strong>
-    </a>
-    </div>
-    <p>
-    <em>Find answers to common questions when using Campaign Classic</em>
-    <p>
   </td>
    <td>
     <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
       <img alt="Build Upgrade" src="platform/using/assets/upgrade.png" />
     </a>
     <div>
-      <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
-    <strong>Upgrade to the latest build</strong>
-    </a>
+    <strong>_December 02, 2019_</strong>
     </div>
     <p>
     <em>Learn key steps and best practices to perform a build upgrade</em>
-    <p>
-  </td>
-  <td>
-    <a href="delivery/using/creating-notifications.md">
-       <img alt="Push notifications" src="platform/using/assets/push.png" />
-    </a>
-    <div>
-       <a href="delivery/using/creating-notifications.md">
-    <strong>Send push notifications</strong>
-    </a>
-    </div>
-    <p>
-    <em>Design and send personalized push notifications on mobiles</em>
     <p>
   </td>
 </tr>
