@@ -22,10 +22,16 @@ Click [here](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) to lear
 
 <table cellspacing="0" cellpadding="0">
 <tr>
-  <td>
-    <a href="https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html>
-      <img alt="Release Candidate" src="assets/label_release_candidate7.png"/>
+   <td>
+    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+      <img alt="Build Upgrade" src="assets/label_release_candidate7.png" />
     </a>
+    <div>
+    <strong>_December 02, 2019_</strong>
+    </div>
+    <p>
+    <em>Learn key steps and best practices to perform a build upgrade</em>
+    <p>
   </td>
    <td>
     <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
