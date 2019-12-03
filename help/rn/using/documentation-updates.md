@@ -46,9 +46,9 @@ The new **Maximum personalization run time** option in the delivery properties i
 
 The examples for API calls using an **HttpServletRequest** with logon() and query() have been updated. [Read more](../../configuration/using/web-service-calls.md).
 
-A recommandation for **sqlDefault** attribute in schema definition has been added. [Read more](../../configuration/using/elements-and-attributes.md#attribute-description).
+A recommendation for **sqlDefault** attribute in schema definition has been added. [Read more](../../configuration/using/elements-and-attributes.md#attribute-description).
 
-The integration between Adobe Campaign and Adobe Real-time Customer Data Platform has been added to the **Integrating with Adobe Experience Cloud** guide. [Read more](../../integrations/using/about-campaign-integrations.md).
+The integration between Adobe Campaign and Adobe Real-time Customer Data Platform is now referenced in the **Integrating with Adobe Experience Cloud** guide. [Read more](../../integrations/using/about-campaign-integrations.md).
 
 ## November 2019 {#november-2019}
 

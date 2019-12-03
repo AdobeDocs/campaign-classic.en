@@ -1,5 +1,5 @@
 ---
-title: Release 19.2
+title: Release 19.2 
 description: Campaign Classic 19.2 Release Notes
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -16,13 +16,11 @@ snippet: y
 
 # Release 19.2{#release-19-2}
 
-Click [here](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) to learn more about build statuses.
+## Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
-## Release 19.2 - Build 9080 (Release Candidate){#release-19-2-build-9080}
+[![Release Candidate](assets/label_release_candidate.png "Release Candidate")](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
 
-![](assets/label_release_candidate.png)
-
-December 02, 2019
+_December 02, 2019_
 
 **What's new?**
 
@@ -59,7 +57,6 @@ December 02, 2019
 **Security enhancements**
 
 * Fixed Stored Cross Site Scripting vulnerabilities in Campaign interface – input data validation and output encoding. (NEO-16810)
-* Fixed an issue affecting random sampling in **Split** workflow activity with Hadoop FDA database. (NEO-16636)
 * Fixed a security issue on profile authorization which could allow access to unauthorized data, by reinforcing login restriction policy. (NEO-14445)
 
 **Improvements**
@@ -123,3 +120,5 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 * Fixed an issue which affected the CRM Connector with Salesforce. (NEO-17712)
 * Fixed a timeout issue when importing data from an external SFTP. (NEO-19723)
 * Fixed an issue when accessing to Predictive models. (NEO-19713)
+* Fixed an issue affecting random sampling in **Split** workflow activity with Hadoop FDA database. (NEO-16636)
+
