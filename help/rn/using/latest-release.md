@@ -1,5 +1,5 @@
 ---
-title: Release 19.2
+title: Release 19.2 
 description: Campaign Classic 19.2 Release Notes
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
