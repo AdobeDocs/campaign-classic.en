@@ -16,38 +16,9 @@ snippet: y
 
 # Release 19.2{#release-19-2}
 
-Click [here](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) to learn more about build statuses.
+## Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
-## Release 19.2 - Build 9080 
-
-<table cellspacing="0" cellpadding="0">
-<tr>
-   <td>
-    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
-      <img alt="Build Upgrade" src="assets/label_release_candidate7.png" />
-    </a>
-    <div>
-    <strong>_December 02, 2019_</strong>
-    </div>
-    <p>
-    <em>Learn key steps and best practices to perform a build upgrade</em>
-    <p>
-  </td>
-   <td>
-    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
-      <img alt="Build Upgrade" src="platform/using/assets/upgrade.png" />
-    </a>
-    <div>
-    <strong>_December 02, 2019_</strong>
-    </div>
-    <p>
-    <em>Learn key steps and best practices to perform a build upgrade</em>
-    <p>
-  </td>
-</tr>
-</table>
-
-[![Release Candidate](assets/label_release_candidate7.png "Release Candidate")](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
+[![Release Candidate](assets/label_release_candidate.png "Release Candidate")](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
 
 _December 02, 2019_
 
