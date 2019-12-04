@@ -22,7 +22,7 @@ snippet: y
 
 ## Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
-[![](assets/label_release_candidate.png)]
+![](assets/label_release_candidate.png)
 
 _December 02, 2019_
 
