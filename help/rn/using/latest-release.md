@@ -18,8 +18,6 @@ snippet: y
 
 ## Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
-[![](/help/rn/using/assets/label_release_candidate.png)](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
-
 <table> 
  <tbody> 
   <tr> 
@@ -43,7 +41,7 @@ CCPA is the State of California’s new privacy law that harmonizes and moderniz
 In addition to the privacy capabilities already available (including consent management, data retention settings, and user roles), Adobe Campaign helps facilitate your readiness for CCPA:
 
 * Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess)
-* You can track whether a consumer has opted-out for the sale of Personal Information. For this, you need to extend the Profiles table and add an <strong>Opt-Out for CCPA</strong> field. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa)
+* You can track whether a consumer has opted-out for the sale of Personal Information. For this, you need to extend the Profiles table and add an **Opt-Out for CCPA** field. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa)
 
 **Workflow live monitoring**
 
@@ -57,7 +55,7 @@ Adobe Campaign enables you to try out the new interactive [AMP for Email](https:
 
 This capability is released as a public beta.
 
-For more information, refer to the <a href="../../delivery/using/defining-the-email-content.md#amp-for-email-format">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.
+For more information, refer to the [detailed documentation](../../delivery/using/defining-the-email-content.md#amp-for-email-format) and the [tutorial video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html).
 
 **Secure SMS Messaging (TLS)**
 
@@ -68,7 +66,7 @@ Secured SMS is now supported through the Extended Generic SMPP Connector. This a
 >
 This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.
 
-For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html">detailed documentation</a>.
+For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 ### Security enhancements
 
