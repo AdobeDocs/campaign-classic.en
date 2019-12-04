@@ -18,52 +18,64 @@ snippet: y
 
 ## Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
-[![](assets/label_release_candidate.png)](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
-
-_December 02, 2019_
-
-**What's new?**
+[![](/help/rn/using/assets/label_release_candidate.png)](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
 
 <table> 
- <thead> 
-  <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
-  </tr> 
- </thead> 
  <tbody> 
   <tr> 
-   <td> California Consumer Privacy Act (CCPA)<br /> </td> 
-   <td> <p>CCPA is the State of California’s new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.</p>
-    <p>In addition to the privacy capabilities already available (including consent management, data retention settings, and user roles), Adobe Campaign helps facilitate your readiness for CCPA:</p>
-    <ul>
-      <li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">Read more</a></li>
-      <li>You can track whether a consumer has opted-out for the sale of Personal Information. For this, you need to extend the Profiles table and add an <strong>Opt-Out for CCPA</strong> field. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">Read more</a></li></td> 
-  </tr> 
-    <tr> 
-   <td> Workflow live monitoring<br /> </td> 
-   <td> <p>You can now monitor the execution status of all workflows on your instance using predefined views.</p>
-   <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">detailed documentation</a>.</p></td> 
-  </tr> 
-  <tr> 
-   <td> Interactive content with AMP<br /> </td> 
-   <td> <p>Adobe Campaign enables you to try out the new interactive <a href="https://amp.dev/about/email/">AMP for Email</a> format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.</p>
-   <p>This capability is released as a public beta.</p>
-   <p>For more information, refer to the <a href="../../delivery/using/defining-the-email-content.md#amp-for-email-format">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
-  </tr> 
-   <tr> 
-   <td> Secure SMS Messaging (TLS)<br /> </td> 
-   <td> <p>Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.</p> <p><strong>Warning</strong> This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html">detailed documentation</a>. </p> </td> 
+   <td><a href="https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html">
+      <img alt="Release Candidate" src="assets/label_release_candidate.png"/>
+    </a></td> 
+   <td><p>Build 9080</p></td> 
+   <td><p>December 02, 2019</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-**Security enhancements**
+December 02, 2019
+
+### What's new?
+
+**California Consumer Privacy Act (CCPA)**
+
+CCPA is the State of California’s new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.
+
+In addition to the privacy capabilities already available (including consent management, data retention settings, and user roles), Adobe Campaign helps facilitate your readiness for CCPA:
+
+* Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess)
+* You can track whether a consumer has opted-out for the sale of Personal Information. For this, you need to extend the Profiles table and add an <strong>Opt-Out for CCPA</strong> field. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa)
+
+**Workflow live monitoring**
+
+You can now monitor the execution status of all workflows on your instance using predefined views.
+
+For more information, refer to the [detailed documentation](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+
+**Interactive content with AMP**
+
+Adobe Campaign enables you to try out the new interactive [AMP for Email](https://amp.dev/about/email/) format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.
+
+This capability is released as a public beta.
+
+For more information, refer to the <a href="../../delivery/using/defining-the-email-content.md#amp-for-email-format">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.
+
+**Secure SMS Messaging (TLS)**
+
+Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.
+
+>[!CAUTION]
+>
+>
+This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.
+
+For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html">detailed documentation</a>.
+
+### Security enhancements
 
 * Fixed Stored Cross Site Scripting vulnerabilities in Campaign interface – input data validation and output encoding. (NEO-16810)
 * Fixed a security issue on profile authorization which could allow access to unauthorized data, by reinforcing login restriction policy. (NEO-14445)
 
-**Improvements**
+### Improvements
 
 * Memory consumption optimization for Push Notifications.
 * For performance and storage optimization, the handling of the **logins.log** file has been enhanced. The file is now split into multiple files, one each day with a maximum of 365 files retained. [Read more](../../production/using/log-files.md)
@@ -81,7 +93,7 @@ _December 02, 2019_
 * New support of proxy access to an SFTP external server for on-premise environments.
 * A specific guardrail has been added to prevent installation of packages which are not compatible with the Campaign instance. [Read more](../../installation/using/installing-campaign-standard-packages.md)
 
-**Other changes**
+### Other changes
 
 _Deprecated systems_
 
@@ -95,7 +107,7 @@ _Campaign Mobile SDK_
 
 The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve added the support of iOS 13. This new version now supports notification priority and the new registration token management process for iOS 13 Push notifications. If you’re running applications on a previous version of the SDK, you need to recompile your applications with the new SDK. To get the SDK, please contact Adobe Customer Care.
 
-**Patches**
+### Patches
 
 * Fixed console crash that could occur when adding an empty linked table in the **Data Loading (RDBMS)** workflow activity. (NEO-12213)
 * Fixed an issue which could lead to certain messages not being processed by the Mid-Sourcing server. (NEO-12395)
