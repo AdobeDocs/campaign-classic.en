@@ -18,7 +18,7 @@ snippet: y
 
 ## Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
-[![Release Candidate](assets/label_release_candidate.png "Release Candidate")](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
+[![](assets/label_release_candidate.png)](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
 
 _December 02, 2019_
 
@@ -50,6 +50,10 @@ _December 02, 2019_
    <td> <p>Adobe Campaign enables you to try out the new interactive <a href="https://amp.dev/about/email/">AMP for Email</a> format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.</p>
    <p>This capability is released as a public beta.</p>
    <p>For more information, refer to the <a href="../../delivery/using/defining-the-email-content.md#amp-for-email-format">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
+  </tr> 
+   <tr> 
+   <td> Secure SMS Messaging (TLS)<br /> </td> 
+   <td> <p>Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.</p> <p><strong>Warning</strong> This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html">detailed documentation</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

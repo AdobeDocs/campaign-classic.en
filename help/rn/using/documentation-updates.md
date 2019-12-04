@@ -32,6 +32,8 @@ Interactive content with AMP - [Read more](../../delivery/using/defining-the-ema
 
 Workflow live monitoring - [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
+Secure SMS Messaging (TLS) - [Read more](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
+
 **Other documentation updates coming with the release**
 
 The Adobe Campaign Enhanced MTA documentation is now available. [Read more](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
@@ -101,8 +103,6 @@ The best practices for performance improvements of workflows and deliveries have
 Control Panel - [Adobe Campaign Classic Release Notes](https://helpx.adobe.com/campaign/kb/control-panel.html)
 
 Audit trail - [Read more](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html)
-
-Secure SMS Messaging (TLS) - [Read more](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 **Other documentation updates coming with the release**
 

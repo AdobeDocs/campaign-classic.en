@@ -126,10 +126,6 @@ snippet: y
    <td> A series of improvements has been added to Campaign Classic. Guardrail, robustness and scalability improvements are listed below.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Secure SMS Messaging (TLS)<br /> </td> 
-   <td> <p>Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.</p> <p><strong>Warning</strong> This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html">detailed documentation</a>. </p> </td> 
-  </tr> 
-  <tr> 
    <td> Compatibility Matrix Update<br /> </td> 
    <td> With this new version, Adobe Campaign now supports the following database systems. Refer to the <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Compatibility Matrix</a>.<br /> 
     <ul> 
