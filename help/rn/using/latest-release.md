@@ -32,6 +32,30 @@ snippet: y
 
 ### What's new?
 
+| **California Consumer Privacy Act (CCPA)** |
+|------------|
+| CCPA is the State of California’s new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.<br> 
+In addition to the privacy capabilities already available (including consent management, data retention settings, and user roles), Adobe Campaign helps facilitate your readiness for CCPA:<br>
+<ul><li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess)</li>
+<li>You can track whether a consumer has opted-out for the sale of Personal Information. For this, you need to extend the Profiles table and add an **Opt-Out for CCPA** field. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa)</li></ul> |
+
+| **Workflow live monitoring** |
+|------------|
+| You can now monitor the execution status of all workflows on your instance using predefined views.<br> 
+For more information, refer to the [detailed documentation](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status) |
+
+| **Interactive content with AMP** |
+|------------|
+| Adobe Campaign enables you to try out the new interactive [AMP for Email](https://amp.dev/about/email/) format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.<br> 
+This capability is released as a public beta.<br>
+For more information, refer to the [detailed documentation](../../delivery/using/defining-the-email-content.md#amp-for-email-format) and the [tutorial video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html). |
+
+| **Secure SMS Messaging (TLS)** |
+|------------|
+| Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.<br> 
+This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.<br>
+For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html). |
+
 **California Consumer Privacy Act (CCPA)**
 
 CCPA is the State of California’s new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.
