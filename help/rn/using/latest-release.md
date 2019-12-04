@@ -36,8 +36,8 @@ snippet: y
 |------------|
 | CCPA is the State of California’s new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.<br> 
 In addition to the privacy capabilities already available (including consent management, data retention settings, and user roles), Adobe Campaign helps facilitate your readiness for CCPA:<br>
-<ul><li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess)</li>
-<li>You can track whether a consumer has opted-out for the sale of Personal Information. For this, you need to extend the Profiles table and add an **Opt-Out for CCPA** field. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa)</li></ul> |
+<ul><li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">Read more</a></li>
+<li>You can track whether a consumer has opted-out for the sale of Personal Information. For this, you need to extend the Profiles table and add an <strong>Opt-Out for CCPA</strong> field. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">Read more</a></li></ul> |
 
 | **Workflow live monitoring** |
 |------------|
