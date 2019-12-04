@@ -30,8 +30,6 @@ snippet: y
  </tbody> 
 </table>
 
-December 02, 2019
-
 ### What's new?
 
 **California Consumer Privacy Act (CCPA)**
