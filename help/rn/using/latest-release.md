@@ -38,20 +38,15 @@ snippet: y
 
 | **Workflow live monitoring** |
 |------------|
-| You can now monitor the execution status of all workflows on your instance using predefined views.<br> 
-For more information, refer to the [detailed documentation](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status) |
+| You can now monitor the execution status of all workflows on your instance using predefined views.<br>For more information, refer to the [detailed documentation](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status) |
 
 | **Interactive content with AMP** |
 |------------|
-| Adobe Campaign enables you to try out the new interactive [AMP for Email](https://amp.dev/about/email/) format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.<br> 
-This capability is released as a public beta.<br>
-For more information, refer to the [detailed documentation](../../delivery/using/defining-the-email-content.md#amp-for-email-format) and the [tutorial video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html). |
+| Adobe Campaign enables you to try out the new interactive [AMP for Email](https://amp.dev/about/email/) format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.<br>This capability is released as a public beta.<br>For more information, refer to the [detailed documentation](../../delivery/using/defining-the-email-content.md#amp-for-email-format) and the [tutorial video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html). |
 
 | **Secure SMS Messaging (TLS)** |
 |------------|
-| Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.<br> 
-This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.<br>
-For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html). |
+| Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.<br>This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.<br>For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html). |
 
 **California Consumer Privacy Act (CCPA)**
 
