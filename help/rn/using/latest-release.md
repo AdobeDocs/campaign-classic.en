@@ -22,7 +22,7 @@ snippet: y
 |--- |--- |--- |
 | [Release Candidate](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) | 9080 | December 02, 2019 |
 
-![](assets/whatsnew7.png)
+![](assets/whatsnew9.png)
 
 **California Consumer Privacy Act (CCPA)**
 
