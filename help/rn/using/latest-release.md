@@ -18,6 +18,9 @@ snippet: y
 
 ## Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
+
+| [Release Candidate more](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) | Build 9080 | December 02, 2019 |
+
 <table> 
  <tbody> 
   <tr> 
@@ -33,22 +36,6 @@ snippet: y
 ### What's new?
 
 | **California Consumer Privacy Act (CCPA)** |
-|------------|
-| CCPA is the State of California’s new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.<br>In addition to the privacy capabilities already available (including consent management, data retention settings, and user roles), Adobe Campaign helps facilitate your readiness for CCPA:<br><ul><li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">Read more</a></li><li>You can track whether a consumer has opted-out for the sale of Personal Information. For this, you need to extend the Profiles table and add an <strong>Opt-Out for CCPA</strong> field. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">Read more</a></li></ul> |
-
-| **Workflow live monitoring** |
-|------------|
-| You can now monitor the execution status of all workflows on your instance using predefined views.<br>For more information, refer to the [detailed documentation](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status) |
-
-| **Interactive content with AMP** |
-|------------|
-| Adobe Campaign enables you to try out the new interactive [AMP for Email](https://amp.dev/about/email/) format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.<br>This capability is released as a public beta.<br>For more information, refer to the [detailed documentation](../../delivery/using/defining-the-email-content.md#amp-for-email-format) and the [tutorial video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html). |
-
-| **Secure SMS Messaging (TLS)** |
-|------------|
-| Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.<br>This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.<br>For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html). |
-
-**California Consumer Privacy Act (CCPA)**
 
 CCPA is the State of California’s new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.
 
@@ -57,13 +44,13 @@ In addition to the privacy capabilities already available (including consent man
 * Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess)
 * You can track whether a consumer has opted-out for the sale of Personal Information. For this, you need to extend the Profiles table and add an **Opt-Out for CCPA** field. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa)
 
-**Workflow live monitoring**
+| **Workflow live monitoring** |
 
 You can now monitor the execution status of all workflows on your instance using predefined views.
 
 For more information, refer to the [detailed documentation](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
-**Interactive content with AMP**
+| **Interactive content with AMP** |
 
 Adobe Campaign enables you to try out the new interactive [AMP for Email](https://amp.dev/about/email/) format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.
 
@@ -71,7 +58,7 @@ This capability is released as a public beta.
 
 For more information, refer to the [detailed documentation](../../delivery/using/defining-the-email-content.md#amp-for-email-format) and the [tutorial video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html).
 
-**Secure SMS Messaging (TLS)**
+| **Secure SMS Messaging (TLS)** |
 
 Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.
 
@@ -105,9 +92,7 @@ For more information, refer to the [detailed documentation](https://helpx.adobe.
 * New support of proxy access to an SFTP external server for on-premise environments.
 * A specific guardrail has been added to prevent installation of packages which are not compatible with the Campaign instance. [Read more](../../installation/using/installing-campaign-standard-packages.md)
 
-### Other changes
-
-_Deprecated systems_
+**Deprecated systems**
 
 The following systems are now [deprecated](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) for Campaign Classic implementations:
 * Apache 2.2 
@@ -115,7 +100,7 @@ The following systems are now [deprecated](https://helpx.adobe.com/campaign/kb/d
 
 Please ensure you are on supported versions of any systems listed in the latest Campaign Compatibility matrix. [Read more](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
-_Campaign Mobile SDK_
+**Campaign Mobile SDK**
 
 The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve added the support of iOS 13. This new version now supports notification priority and the new registration token management process for iOS 13 Push notifications. If you’re running applications on a previous version of the SDK, you need to recompile your applications with the new SDK. To get the SDK, please contact Adobe Customer Care.
 
