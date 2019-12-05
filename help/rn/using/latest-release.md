@@ -37,7 +37,7 @@ snippet: y
 ### What's new?
 
 | **California Consumer Privacy Act (CCPA)** |
-|--- |--- |--- |
+|--- |
 
 CCPA is the State of California’s new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.
 
