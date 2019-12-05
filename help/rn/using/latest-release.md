@@ -18,26 +18,15 @@ snippet: y
 
 ## Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
-
-| [Release Candidate more](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) | Build 9080 | December 02, 2019 |
+| Build status | Build number | Date |
 |--- |--- |--- |
+| [Release Candidate](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) | 9080 | December 02, 2019 |
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><a href="https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html">
-      <img alt="Release Candidate" src="assets/label_release_candidate.png"/>
-    </a></td> 
-   <td><p>Build 9080</p></td> 
-   <td><p>December 02, 2019</p></td> 
-  </tr> 
- </tbody> 
-</table>
+![](assets/label_release_candidate.png)
 
 ### What's new?
 
-| **California Consumer Privacy Act (CCPA)** |
-|--- |
+**California Consumer Privacy Act (CCPA)**
 
 CCPA is the State of California’s new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.
 
@@ -46,15 +35,13 @@ In addition to the privacy capabilities already available (including consent man
 * Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess)
 * You can track whether a consumer has opted-out for the sale of Personal Information. For this, you need to extend the Profiles table and add an **Opt-Out for CCPA** field. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa)
 
-| **Workflow live monitoring** |
-|--- |
+**Workflow live monitoring**
 
 You can now monitor the execution status of all workflows on your instance using predefined views.
 
 For more information, refer to the [detailed documentation](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
-| **Interactive content with AMP** |
-|--- |
+**Interactive content with AMP**
 
 Adobe Campaign enables you to try out the new interactive [AMP for Email](https://amp.dev/about/email/) format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.
 
@@ -62,8 +49,7 @@ This capability is released as a public beta.
 
 For more information, refer to the [detailed documentation](../../delivery/using/defining-the-email-content.md#amp-for-email-format) and the [tutorial video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html).
 
-| **Secure SMS Messaging (TLS)** |
-|--- |
+**Secure SMS Messaging (TLS)**
 
 Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.
 
@@ -73,6 +59,8 @@ Secured SMS is now supported through the Extended Generic SMPP Connector. This a
 This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.
 
 For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+
+![](assets/label_release_candidate.png)
 
 ### Security enhancements
 
