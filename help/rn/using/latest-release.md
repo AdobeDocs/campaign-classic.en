@@ -22,9 +22,7 @@ snippet: y
 |--- |--- |--- |
 | [Release Candidate](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) | 9080 | December 02, 2019 |
 
-![](assets/label_release_candidate.png)
-
-### What's new?
+![](assets/whatsnew7.png)
 
 **California Consumer Privacy Act (CCPA)**
 
@@ -55,12 +53,11 @@ Secured SMS is now supported through the Extended Generic SMPP Connector. This a
 
 >[!CAUTION]
 >
->
-This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.
+>This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.
 
 For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
-![](assets/label_release_candidate.png)
+![](assets/whatsnew8.png)
 
 ### Security enhancements
 
