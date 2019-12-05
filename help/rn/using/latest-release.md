@@ -47,14 +47,14 @@ In addition to the privacy capabilities already available (including consent man
 * You can track whether a consumer has opted-out for the sale of Personal Information. For this, you need to extend the Profiles table and add an **Opt-Out for CCPA** field. [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa)
 
 | **Workflow live monitoring** |
-|--- |--- |--- |
+|--- |
 
 You can now monitor the execution status of all workflows on your instance using predefined views.
 
 For more information, refer to the [detailed documentation](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
 | **Interactive content with AMP** |
-|--- |--- |--- |
+|--- |
 
 Adobe Campaign enables you to try out the new interactive [AMP for Email](https://amp.dev/about/email/) format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.
 
@@ -63,7 +63,7 @@ This capability is released as a public beta.
 For more information, refer to the [detailed documentation](../../delivery/using/defining-the-email-content.md#amp-for-email-format) and the [tutorial video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html).
 
 | **Secure SMS Messaging (TLS)** |
-|--- |--- |--- |
+|--- |
 
 Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.
 
