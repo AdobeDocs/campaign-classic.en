@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Configuring Campaign options{#configuring-campaign-options}
+# List of Campaign Classic options{#configuring-campaign-options}
 
 The **[!UICONTROL Administration / Platform / Options]** node allows you to configure Adobe Campaign options.
 
@@ -628,6 +628,10 @@ Some of them are built-in when installing Campaign, and others can be added manu
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWorkIndex</span> <br /> </td> 
    <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign work tables.<br /> </td> 
+  </tr> 
+    <tr> 
+   <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
+   <td> Allows you to configure a separate database for working tables on Microsoft SQL Server. This optimizes backups and replication. <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)">Read more</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 

@@ -559,7 +559,7 @@ sub-product: adobe campaign classic
        + [The server configuration file](installation/using/the-server-configuration-file.md)
        + [Command lines](installation/using/command-lines.md)
        + [Creating new instances](installation/using/creating-new-instances.md)
-       + [Configuring Campaign options](installation/using/configuring-campaign-options.md)
+       + [List of Campaign Classic options](installation/using/configuring-campaign-options.md)
        + [Uninstalling Campaign](installation/using/uninstalling-campaign.md)
 + Monitoring Campaign Classic {#monitoring-campaign-classic}
   + Introduction {#introduction}
