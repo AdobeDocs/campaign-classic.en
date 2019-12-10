@@ -313,7 +313,7 @@ These rights are as follows:
 
 Default groups and named rights allow operators to access certain folders in the navigation hierarchy, and grant read, write, and delete permissions.
 
-Adobe Campaign access rights matrix is available [here](https://docs.campaign.adobe.com/doc/AC6.1/en/technicalResources/accessRights.html).
+Adobe Campaign access rights matrix is available [here](/help/platform/using/assets/accessrights.pdf).
 
 ## Folder access management {#folder-access-management}
 
