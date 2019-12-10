@@ -30,6 +30,8 @@ The FDA matrix page has been moved [here](/help/platform/using/assets/fda_rdbms_
 
 The Access Rights Matrix page has been moved [here](/help/platform/using/assets/accessrights.pdf).
 
+The section describing how to define interactive content with AMP has been moved. [Read more](../../delivery/using/defining-interactive-content.md)
+
 ## 19.2 - 02/12/2019{#release-19-2}
 
 **New capabilities included in the release**
