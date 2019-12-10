@@ -22,6 +22,16 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## December 2019 {#december-2019}
+
+The "WdbcOptions_TempDbName" option has been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
+
+The FDA matrix page has been moved [here](/help/platform/using/assets/fda_rdbms_rights.pdf).
+
+The Access Rights Matrix page has been moved [here](/help/platform/using/assets/accessrights.pdf).
+
+The section describing how to define interactive content with AMP has been moved. [Read more](../../delivery/using/defining-interactive-content.md)
+
 ## 19.2 - 02/12/2019{#release-19-2}
 
 **New capabilities included in the release**

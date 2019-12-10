@@ -71,6 +71,7 @@ sub-product: adobe campaign classic
        + [About email channel](delivery/using/about-email-channel.md)
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Defining the email content](delivery/using/defining-the-email-content.md)
+       + [Defining interactive content](delivery/using/defining-interactive-content.md)
        + [Sending messages](delivery/using/sending-messages.md)
        + [Attaching files](delivery/using/attaching-files.md)
   + Sending messages on mobiles {#sending-messages-on-mobiles}
@@ -130,7 +131,7 @@ sub-product: adobe campaign classic
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Technical recommendations](delivery/using/technical-recommendations.md)
        + [Blacklisting databases](delivery/using/blacklisting-databases.md)
-  + Content management {#content-management}
+  + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
        + [Use case: creating content management](delivery/using/use-case--creating-content-management.md)
@@ -492,8 +493,7 @@ sub-product: adobe campaign classic
        + [Important notes](message-center/using/important-notes.md)
        + [Implementation](message-center/using/implementation.md)
 + Integrating with Social media {#integrating-with-social-media}
-  + Introduction {#introduction}
-       + [About social marketing](social/using/about-social-marketing.md)
+  + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}
        + [Starting workflows](social/using/starting-workflows.md)
        + [Publishing on Facebook walls](social/using/publishing-on-facebook-walls.md)
@@ -559,7 +559,7 @@ sub-product: adobe campaign classic
        + [The server configuration file](installation/using/the-server-configuration-file.md)
        + [Command lines](installation/using/command-lines.md)
        + [Creating new instances](installation/using/creating-new-instances.md)
-       + [Configuring Campaign options](installation/using/configuring-campaign-options.md)
+       + [List of Campaign Classic options](installation/using/configuring-campaign-options.md)
        + [Uninstalling Campaign](installation/using/uninstalling-campaign.md)
 + Monitoring Campaign Classic {#monitoring-campaign-classic}
   + Introduction {#introduction}

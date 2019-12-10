@@ -20,6 +20,10 @@ snippet: y
 
 ## Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
+>[!CAUTION]
+>
+>This build is for on-premise installations only. For hybrid deployments, hosted instances will keep running the 9032 build. Do not upgrade your marketing instance to the 9035 build as it is not compatible with 9032.
+
 3 October 2019
 
 **Improvements**
