@@ -26,7 +26,7 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 The "WdbcOptions_TempDbName" option has been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
 
-The FDA matrix page has been moved [here](/help/platform/using/assets/fda_rdbms_rights.html).
+The FDA matrix page has been moved [here](/help/platform/using/assets/fda_rdbms_rights.pdf).
 
 The Access Rights Matrix page has been moved [here](/help/platform/using/assets/accessrights.pdf).
 
