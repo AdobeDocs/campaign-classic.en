@@ -24,6 +24,8 @@ snippet: y
 
 ![](assets/whatsnew9.png)
 
+### What's new?
+
 **California Consumer Privacy Act (CCPA)**
 
 CCPA is the State of California’s new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.
@@ -53,6 +55,7 @@ Secured SMS is now supported through the Extended Generic SMPP Connector. This a
 
 >[!CAUTION]
 >
+
 >This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.
 
 For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
