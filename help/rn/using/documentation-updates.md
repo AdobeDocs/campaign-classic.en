@@ -22,7 +22,7 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
-## December 2019 {#december-2019}
+## November 2019 {#november-2019}
 
 The FDA matrix page has been moved [here](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/fda_rdbms_rights.html).
 
