@@ -492,8 +492,7 @@ sub-product: adobe campaign classic
        + [Important notes](message-center/using/important-notes.md)
        + [Implementation](message-center/using/implementation.md)
 + Integrating with Social media {#integrating-with-social-media}
-  + Introduction {#introduction}
-       + [About social marketing](social/using/about-social-marketing.md)
+  + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}
        + [Starting workflows](social/using/starting-workflows.md)
        + [Publishing on Facebook walls](social/using/publishing-on-facebook-walls.md)
