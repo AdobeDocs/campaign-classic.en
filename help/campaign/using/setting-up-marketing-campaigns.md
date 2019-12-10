@@ -122,15 +122,15 @@ Recurring campaigns are created from a specific template defining the workflow t
 
 1. Create a **[!UICONTROL Recurring]** campaign template.
 
-  >[!NOTE]
-  >
-  >It is recommended that you duplicate the default template instead of creating an empty template.
+    >[!NOTE]
+    >
+    >It is recommended that you duplicate the default template instead of creating an empty template.
 
-   ![](assets/s_ncs_user_op_template_recur_tab.png) 
+    ![](assets/s_ncs_user_op_template_recur_tab.png) 
 
 1. Enter the name of the template and the duration of the campaign.
 
-  ![](assets/s_ncs_user_op_template_recur_duplicate.png)
+    ![](assets/s_ncs_user_op_template_recur_duplicate.png)
 
 1. For this type of campaign, a **[!UICONTROL Schedule]** tab is added in order to create the template execution schedule.
 
@@ -151,11 +151,11 @@ Recurring campaigns are created from a specific template defining the workflow t
 1. Specify a value in the **[!UICONTROL Create in advance for]** field in order to create the corresponding workflows for the period indicated.
 1. Create the workflow template to be used in campaigns based on this template, with the targeting parameters and one or more generic deliveries.
 
-  >[!CAUTION]
-  >
-  >This workflow must be saved as a recurring workflow template. To do this, edit the workflow properties and select the **[!UICONTROL Recurring workflow template]** option in the **[!UICONTROL Execution]** tab.
+    >[!CAUTION]
+    >
+    >This workflow must be saved as a recurring workflow template. To do this, edit the workflow properties and select the **[!UICONTROL Recurring workflow template]** option in the **[!UICONTROL Execution]** tab.
 
-   ![](assets/s_ncs_user_op_template_recur_wf_option.png)
+    ![](assets/s_ncs_user_op_template_recur_wf_option.png)
 
 #### Create the recurring campaign {#create-the-recurring-campaign}
 
@@ -204,34 +204,34 @@ A periodic campaign is a campaign based on a specific template that lets you cre
 
 1. Create a **[!UICONTROL Periodic]** campaign template, preferably by duplicating an existing campaign template.
 
-  ![](assets/s_ncs_user_op_template_period_create.png)
+    ![](assets/s_ncs_user_op_template_period_create.png)
 
 1. Enter the properties of the template.
 
-  >[!CAUTION]
-  >
-  >The operator whom the template is assigned to needs to have the appropriate rights to create campaigns in the selected program.
+     >[!CAUTION]
+     >
+     >The operator whom the template is assigned to needs to have the appropriate rights to create campaigns in the selected program.
 
 1. Create the workflow associated with this template. It will be duplicated in every periodic campaign created by the template.
 
-  ![](assets/s_ncs_user_op_template_period_wf.png)
+    ![](assets/s_ncs_user_op_template_period_wf.png)
 
-  >[!NOTE]
-  >
-  >This workflow is a workflow template. It cannot be executed from the campaign template.
+      >[!NOTE]
+      >
+      >This workflow is a workflow template. It cannot be executed from the campaign template.
 
 1. Complete its execution schedule as for a recurring campaign template: click the **[!UICONTROL Add]** button and define the start and end dates, or fill in the execution schedule via the link.
 
-  ![](assets/s_ncs_user_op_template_period_planning_add.png)
+    ![](assets/s_ncs_user_op_template_period_planning_add.png)
 
-  >[!CAUTION]
-  >
-  >Periodic campaign templates create new campaigns according to the schedule defined above. It must therefore be completed carefully, to avoid overloading the Adobe Campaign database.
+      >[!CAUTION]
+      >
+      >Periodic campaign templates create new campaigns according to the schedule defined above. It must therefore be completed carefully, to avoid overloading the Adobe Campaign database.
 
 1. Once the execution start date is reached, the matching campaign is created automatically. It takes on all the characteristics of its template.
 
-  Each campaign can be edited via the template schedule.
+      Each campaign can be edited via the template schedule.
 
-  ![](assets/s_ncs_user_op_template_period_planning.png)
+    ![](assets/s_ncs_user_op_template_period_planning.png)
 
   Each periodic campaign contains the same elements. Once created, it is managed as a standard campaign.

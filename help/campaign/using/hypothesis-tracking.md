@@ -77,4 +77,3 @@ The **[!UICONTROL Hypothesis report]** lets you view the results of the hypothes
 * **At delivery level**: to access the report, open the concerned delivery, click the **[!UICONTROL Reports]** in the **[!UICONTROL Summary]** tab and select the **[!UICONTROL Hypothesis report]**. If several hypotheses were calculated for the same delivery, the report will contain all hypotheses.
 
   ![](assets/response_hypothesis_delivery_report_001.png)
-

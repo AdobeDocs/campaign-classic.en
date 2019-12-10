@@ -422,3 +422,16 @@ The example below concerns Microsoft SQL Server 2005. If you are using another v
    >
    >For this object to run, the Microsoft SQL Server agent must be enabled.
 
+**Configuring a separate database for working tables**
+
+>[!NOTE]
+>
+>This configuration is optional.
+
+The **WdbcOptions_TempDbName** option allows you to configure a separate database for working tables on Microsoft SQL Server. This optimizes backups and replication.
+
+This option can be used if you want working tables (for example, the tables created during the execution of a workflow) to be created on another database.
+
+When you set the option to "tempdb.dbo.", working tables will be created on the default temporary database of Microsoft SQL Server. The database administrator needs to allow write access to the tempdb database.
+
+If the option is set, it will be used on all Microsoft SQL Server databases that are configured in Adobe Campaign (main database and external accounts). Note that if two external accounts share the same server, conflicts can happen (as the tempdb will be unique). In the same way, if two Campaign instances use the same MSSQL server, there could be conflicts if they use the same tempdb.

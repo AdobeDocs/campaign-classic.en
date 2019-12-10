@@ -129,7 +129,7 @@ In the **config- `<instance name>.xml`** file, use the following parameters to d
 >
 >The email archiving system (BCC) changed with Adobe Campaign 17.2 (build 8795). If you are upgrading from an older build and were already using email archiving capabilities, you must upgrade manually to the new email archiving system (BCC).
 
-To do this, make the following changes to the **config- `<instance>.xml`** file:
+To do this, make the following changes to the **`config-<instance>.xml`** file:
 
 1. Remove the **zipPath** parameter from the **`<archiving>`** node.
 1. Set the **compressionFormat** parameter to **1** if needed.

@@ -1,8 +1,6 @@
 ---
 title: CRM Connector
-seo-title: CRM Connector
-description: CRM Connector
-seo-description: 
+description: Learn more about the CRM Connector and configure data synchronization with Adobe Campaign.
 page-status-flag: never-activated
 uuid: b3856a82-b1dc-4e36-a2d0-14edc5b66b3b
 contentOwner: sauviat

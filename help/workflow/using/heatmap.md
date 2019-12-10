@@ -32,7 +32,7 @@ More precisely, it helps the platform administrators to:
 * Filter workflows by duration to see which workflows may encounter issues
 * Filter activities by duration to see which activities may encounter issues
 * Easily find individual workflows and all related activities (with their duration)
-* Search by workflow type ( [technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows) or [campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows))
+* Search by workflow type ([technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows) or [campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows))
 * Look for a specific workflow to analyze
 
 >[!NOTE]
@@ -66,7 +66,7 @@ This choice is not final, you can always change it by clicking the **[!UICONTROL
 >
 >Only users with administration rights can access the Campaign Workflow HeatMap.
 
-1. Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Workflow HeatMap** link to display the **[!UICONTROL Campaign Workflow HeatMap]** page.
+1. Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Workflow HeatMap]** link to display the **[!UICONTROL Campaign Workflow HeatMap]** page.
 
    ![](assets/wkf_monitoring_path.png)
 
