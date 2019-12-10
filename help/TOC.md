@@ -71,6 +71,7 @@ sub-product: adobe campaign classic
        + [About email channel](delivery/using/about-email-channel.md)
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Defining the email content](delivery/using/defining-the-email-content.md)
+       + [Defining interactive content](delivery/using/defining-interactive-content.md)
        + [Sending messages](delivery/using/sending-messages.md)
        + [Attaching files](delivery/using/attaching-files.md)
   + Sending messages on mobiles {#sending-messages-on-mobiles}
