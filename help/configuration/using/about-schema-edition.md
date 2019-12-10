@@ -24,6 +24,8 @@ Adobe Campaign employs Data Schemas to:
 * Define links between the different data objects within the Campaign application.
 * Define and describe the individual fields included in each object.
 
+For a better understanding of Campaign built-in tables and their interaction, refer to the [Campaign Classic data model](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
+
 ## Extending or creating schemas {#extending-or-creating-schemas}
 
 To add a field or index or other element to one of the core data schemas in Campaign, such as the recipient table (nms:recipient), you have to extend that schema. For more on this, refer to the [Extending a schema](../../configuration/using/extending-a-schema.md) section.
