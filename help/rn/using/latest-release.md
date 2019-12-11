@@ -53,7 +53,7 @@ _December 02, 2019_
    <td> Interactive content with AMP<br /> </td> 
    <td> <p>Adobe Campaign enables you to try out the new interactive <a href="https://amp.dev/about/email/">AMP for Email</a> format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.</p>
    <p>This capability is released as a public beta.</p>
-   <p>For more information, refer to the <a href="../../delivery/using/defining-the-email-content.md#amp-for-email-format">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
+   <p>For more information, refer to the <a href="../../delivery/using/defining-interactive-content.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
   </tr> 
    <tr> 
    <td> Secure SMS Messaging (TLS)<br /> </td> 
