@@ -38,7 +38,7 @@ The section describing how to define interactive content with AMP has been moved
 
 California Consumer Privacy Act (CCPA) - [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
 
-Interactive content with AMP - [Read more](../../delivery/using/defining-the-email-content.md#amp-for-email-format)
+Interactive content with AMP - [Read more](../../delivery/using/defining-interactive-content.md)
 
 Workflow live monitoring - [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 

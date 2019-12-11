@@ -21,7 +21,7 @@ Understand tracking capabilities in Campaign
 * **[Maintenance guide](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>
 Learn how to monitor your Campaign instance and processes
 
-* **[Interactive content with AMP](delivery/using/defining-the-email-content.md#amp-for-email-format)**<br/>
+* **[Interactive content with AMP](delivery/using/defining-interactive-content.md)**<br/>
 Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/about/email/) format
 
 * **[Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)**<br/>
