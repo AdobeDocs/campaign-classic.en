@@ -53,7 +53,15 @@ snippet: y
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
+**December 11th 2019**: new build (9032-e28b428b7) which includes the following fix:
+
+* Fixed a performance isssue when sending messages with an SQL database. (NEO-17558)
+
 **November 20th 2019**: new build (9032-3468c7bb5) which includes the following fixes:
+
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
 
 * Fixed a login issue via IMS authentication. (NEO-17312)
 * Fixed an issue when displaying cumulative reports on multiple deliveries. (NEO-18165)
@@ -61,16 +69,28 @@ snippet: y
 
 **September 19th 2019**: new build (9032-cee805c93) which includes the following fixes:
 
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+
 * Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
 * Fixed an index issue which could cause performance issues when sending transactional messages.
 
 **August 13th 2019**: initial 19.1.4 build which includes the following fix:
+
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
   
 * Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
 
 ## Release 19.1.3 - Build 9031{#release-19-1-3-build-9031}
 
 26 July 2019
+
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
 
 **Improvements**
 
