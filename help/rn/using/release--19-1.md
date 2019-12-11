@@ -55,7 +55,7 @@ snippet: y
 
 **December 11th 2019**: new build (9032-e28b428b7) which includes the following fix:
 
-* Fixed a performance isssue when sending messages with an SQL database. (NEO-17558)
+* Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
 
 **November 20th 2019**: new build (9032-3468c7bb5) which includes the following fixes:
 
@@ -76,24 +76,13 @@ snippet: y
 * Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
 * Fixed an index issue which could cause performance issues when sending transactional messages.
 
-**August 13th 2019**: initial 19.1.4 build which includes the following fix:
+**August 13th 2019**: initial 19.1.4 build which includes the following fixes:
 
 >[!CAUTION]
 >
 >This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
   
 * Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
-
-## Release 19.1.3 - Build 9031{#release-19-1-3-build-9031}
-
-26 July 2019
-
->[!CAUTION]
->
->This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
-
-**Improvements**
-
 * Fixed a regression caused by the NEO-12727 which could lead to workflows being stopped when a Test activity was executed twice. (NEO-16835) 
 * Fixed an issue which led to an erroneous HTTP code being returned (HTTP 200 OK instead of HTTP 403 Forbidden) when an invalid or expired session token was used in API calls. (NEO-16826) 
 * Fixed an issue with the DKIM key which was not embedded into emails anymore, thus causing deliverability issues. (NEO-16804) 
