@@ -44,7 +44,7 @@ Once IMS is enabled, you can request provisioning of the People core service/Aud
   </tr> 
   <tr> 
    <td> <strong>AAM or People Service</strong><br /> </td> 
-   <td> Example: Adobe Audience Manager. Be sure to mention to the provision team whether or not you own Audience Manager license.</td> 
+   <td> Example: Adobe Audience Manager. Be sure to mention to the provisioning team whether or not you own Audience Manager license.</td> 
   </tr> 
   <tr> 
    <td> <strong>Declared ID or Visitor ID</strong><br /> </td> 
