@@ -254,8 +254,7 @@ sub-product: adobe campaign classic
        + [Configuring surveys](web/using/configuring-surveys.md)
        + [Use case: creating a Refer A Friend form](web/using/use-case--creating-a-refer-a-friend-form.md)
 + Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
-  + Campaign integrations {#campaign-integrations}
-       + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
+  + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
   + Audience sharing {#audience-sharing}
        + [Sharing audiences with Adobe Experience Cloud](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
        + [Submitting request to Adobe](integrations/using/submitting-request-to-adobe.md)
