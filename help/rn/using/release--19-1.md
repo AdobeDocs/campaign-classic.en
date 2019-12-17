@@ -53,7 +53,16 @@ snippet: y
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
+**December 17th 2019**: new build (9032-9d34fb17e) which includes the following fix:
+
+* Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter).
+ (NEO-19595)
+
 **December 11th 2019**: new build (9032-e28b428b7) which includes the following fix:
+
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
 
 * Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
 
