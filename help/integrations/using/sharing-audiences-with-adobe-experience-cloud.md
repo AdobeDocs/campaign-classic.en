@@ -35,4 +35,3 @@ The integration supports two types of Adobe Experience Cloud IDs:
 
 * **Visitor ID**: this type of identifier reconciliates Adobe Experience Cloud visitors with Adobe Campaign recipients.
 * **Declared ID**: this type of identifier reconciliates all types of data with elements from the Adobe Campaign database. It is represented in Adobe Campaign as a predefined reconciliation key.
-For **[!UICONTROL Declared ID]** validity, refer to this [page](../../integrations/using/submitting-request-to-adobe.md).

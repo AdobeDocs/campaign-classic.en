@@ -86,8 +86,6 @@ A new troubleshooting page has been added for tracking in Campaign Classic. [Rea
 
 A new page of best practices for Adobe Analytics Data Connector has been added. [Read more on Adobe Analytics Data Connector](../../platform/using/adobe-analytics-data-connector.md)
 
-The Audience Manager integration page has been updated to reflect **Declared ID** changes. [Read more](../../integrations/using/submitting-request-to-adobe.md)
-
 The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 A recommendation has been added to the SMS channel documentation to avoid issues when using multiple external accounts leveraging the Extended generic SMPP connector with the same provider account. [Read more](../../delivery/using/sms-channel.md#automatic-reply)
