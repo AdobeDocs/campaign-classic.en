@@ -18,18 +18,6 @@ snippet: y
 
 # Reports on deliveries{#reports-on-deliveries}
 
-## Accessing existing reports {#accessing-existing-reports}
-
-Adobe Campaign offers several types of reports, accessible via the customer console or an internet browser.
-
-The following types of report are available:
-
-* Reports on the entire platform, see [Global reports](#global-reports).
-* Delivery reports, see [Delivery reports](#delivery-reports).
-* Cumulated reports, see [Cumulative reports](#cumulative-reports).
-
-You can access reports from the client console home page, the reports dashboard or the delivery list. The display mode of a report depends on its context. The list of main reports is available on the home page and lets you access delivery data quickly. This list can be changed to suit your needs. Refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md) for more information.
-
 ## Using reports {#using-reports}
 
 A search field is available via the report dashboard for quick access to one of the reports on the list.
