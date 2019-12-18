@@ -837,7 +837,7 @@ For additional information, refer to [Proxy connection configuration](../../inst
 
 ### HTTP Proxy / Secure proxy {#http-proxy---secure-proxy-}
 
-In the **proxyConfig > HTTP Proxy / Secure proxy ** node, configure the following parameters.
+In the **proxyConfig > HTTP Proxy / Secure proxy** node, configure the following parameters.
 
 For additional information, refer to [Proxy connection configuration](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
 
@@ -2477,6 +2477,12 @@ Here are the different parameters of the **syslogd** node. This is the configura
    <td> Maximum size in Mb for a log file. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 10<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> maxNumberOfLoginsFiles<br /> </td> 
+   <td> Maximum number of logins.log files to keep. <br /> </td> 
+   <td> Long<br /> </td> 
+   <td> 365<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 

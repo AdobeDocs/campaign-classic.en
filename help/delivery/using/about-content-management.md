@@ -18,11 +18,13 @@ snippet: y
 
 # About content management{#about-content-management}
 
-Adobe Campaign Content Manager module is used to create recurrent newsletters or website.
+Adobe Campaign Content Manager module is a specific Campaign Classic [standard package](../../installation/using/installing-campaign-standard-packages.md) that you can install to create recurrent newsletters or website. It can help you to create, validate, and publish your messages.
 
-It can help you to create, validate, and publish your messages.
+>[!NOTE]
+>
+>This section refers to the Content Management module. For more information on how to design email deliveries content, refer to [this section](../../delivery/using/defining-the-email-content.md).
 
-Content management incorporates working group, workflow and content aggregation functionality. This allows a message to be formatted automatically: email, mail, SMS, web, etc.
+The Content management module incorporates working group, workflow and content aggregation functionality. This allows a message to be formatted automatically: email, mail, SMS, web, etc.
 
 Using content manager in a delivery lets you offer input or selection fields to the operators in charge of content creation. The layout and display of this content as well as any changes made are managed automatically using the stylesheet.
 
@@ -44,3 +46,4 @@ This mode of content creation does however involve a few constraints; including 
 
 * Restricted freedom concerning the final document design,
 * The analysis of requirements must be rigorous so that end users will not be inconvenienced by a missing function.
+

@@ -72,8 +72,8 @@ Budgets are created in the map, via the **[!UICONTROL Campaign management > Budg
 
 >[!NOTE]
 >
->You can select a related budget. 
-> 
+>You can select a related budget.
+>
 >For more on this, refer to [Linking a budget to another](#linking-a-budget-to-another).
 
 ### Calculating amounts {#calculating-amounts}

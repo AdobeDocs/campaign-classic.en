@@ -465,7 +465,7 @@ For example:
 
 This user needs to be added to the sudoer list of the 'neolane' Adobe Campaign operator.
 
->
+>[!CAUTION]
 >
 >You should not use a custom sudo. A standard sudo needs to be installed on the system.
 
@@ -612,18 +612,31 @@ If you need to connect the Campaign server to the outside through a proxy (using
 Use the following command:
 
 ```
-nlserver config -setproxy:[protocol]/[serverIP]:[port]/[login]
+nlserver config -setproxy:[protocol]/[serverIP]:[port]/[login][:‘https’|'http’]
 ```
 
-For example:
+protocol parameters can be ‘http’, ‘https’ or ‘ftp’.
+
+If you are setting FTP on the same port as HTTP/HTTPS traffic, you can use the following:
 
 ```
 nlserver config -setproxy:http/198.51.100.0:8080/user
 ```
 
+The ‘http’ and ‘https’ options are only used when the protocol parameter is ‘ftp’ and indicate if the tunneling on the specified port will be performed over HTTPS or over HTTP.  
+
+If you use a different ports for FTP/SFTP and HTTP/HTTPS traffic over proxy server, you should set the ‘ftp’ protocol parameter.  
+
+
+For example:
+
+```
+nlserver config -setproxy:ftp/198.51.100.0:8080/user:’http’
+```
+
 Then enter the password.
 
-HTTP or FTP connections are defined in the proxyHTTP parameter:
+HTTP connections are defined in the proxyHTTP parameter:
 
 ```
 <proxyConfig enabled=“1” override=“localhost*” useSingleProxy=“0”>
@@ -631,11 +644,19 @@ HTTP or FTP connections are defined in the proxyHTTP parameter:
 </proxyConfig>
 ```
 
-HTTPS or SFTP connections are defined in the proxyHTTPS parameter:
+HTTPS connections are defined in the proxyHTTPS parameter:
 
 ```
 <proxyConfig enabled=“1" override=“localhost*” useSingleProxy=“0">
 <proxyHTTPS address=“198.51.100.0” login=“user” password=“******” port=“8080"/>
+</proxyConfig>
+```
+
+FTP/FTPS connections are defined in the proxyFTP parameter:
+
+```
+<proxyConfig enabled=“1" override=“localhost*” useSingleProxy=“0">
+<proxyFTP address=“198.51.100.0” login=“user” password=“******” port=“5555" https=”true”/>
 </proxyConfig>
 ```
 

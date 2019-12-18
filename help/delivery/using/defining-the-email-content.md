@@ -1,8 +1,6 @@
 ---
-title: Defining the email content
-seo-title: Defining the email content
-description: Defining the email content
-seo-description: 
+title: Defining the email content in Adobe Campaign Classic
+description: Learn how to define the email content when using Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: ddcc2e3b-e251-4a7a-a22a-28701522839f
 contentOwner: sauviat
@@ -133,6 +131,12 @@ Select the format of the email in the lower section of the window:
 
   The message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks on the message.
 
+## Defining interactive content {#amp-for-email-format}
+
+Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
+
+For more on this, see [this section](../../delivery/using/defining-interactive-content.md).
+
 ## Using content management {#using-content-management}
 
 You can define the content of the delivery using the content management forms, directly in the delivery wizard. To do this, you must reference the publication template of the content management to be used, in the **[!UICONTROL Advanced]** tab of the delivery properties.
@@ -145,11 +149,7 @@ An additional tab lets you enter content that will automatically be integrated a
 
 >[!NOTE]
 >
->For further information about content management in Adobe Campaign, refer to the [Configuration guide](../../configuration/using/about-schema-reference.md).
-
-## Adding attachments {#adding-attachments}
-
-You can attach one or more files to an email delivery. For more on this, refer to [this section](../../delivery/using/attaching-files.md).
+>For further information about content management in Adobe Campaign, refer to [this section](../../delivery/using/about-content-management.md).
 
 ## Adding images {#adding-images}
 
@@ -332,7 +332,7 @@ Therefore, you must:
 >
 >* For DoCoMo, refer to [this page](https://www.nttdocomo.co.jp/service/developer/make/content/deco_mail/index.html)
 >* For KDDI AU, refer to [this page](https://www.au.com/ezfactory/tec/spec/decorations/template.html)
->* For Softbank, refer to [this page](https://creation.mb.softbank.jp/mc/tech/tech_mail/mail_decore.html)
+>* For Softbank, refer to [this page](https://www.support.softbankmobile.co.jp/partner/home_tech3/index.cfm)
 
 ### Testing the email content {#testing-the-email-content}
 

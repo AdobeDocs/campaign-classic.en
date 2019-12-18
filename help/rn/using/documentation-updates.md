@@ -22,6 +22,46 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## December 2019 {#december-2019}
+
+The "WdbcOptions_TempDbName" option has been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
+
+The FDA matrix page has been moved [here](/help/rn/using/assets/fda_rdbms_rights.pdf).
+
+The Access Rights Matrix page has been moved [here](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf).
+
+The section describing how to define interactive content with AMP has been moved. [Read more](../../delivery/using/defining-interactive-content.md)
+
+## 19.2 - 02/12/2019{#release-19-2}
+
+**New capabilities included in the release**
+
+California Consumer Privacy Act (CCPA) - [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
+
+Interactive content with AMP - [Read more](../../delivery/using/defining-interactive-content.md)
+
+Workflow live monitoring - [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+
+Secure SMS Messaging (TLS) - [Read more](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
+
+**Other documentation updates coming with the release**
+
+The Adobe Campaign Enhanced MTA documentation is now available. [Read more](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
+A new section has been added on how to troubleshoot a workflow staying in the "Start as soon as possible" state within a campaign. [Read more](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
+
+The new "NmsOperation_DeliveryPreparationWindow" and "WdbcKillSessionPolicy" options have been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
+
+A new document describing the Adobe Campaign Classic data model basics is now available. [Read more](https://helpx.adobe.com/campaign/kb/acc-datamodel.html)
+
+The new **Maximum personalization run time** option in the delivery properties is documented in this [section](../../delivery/using/personalization-fields.md#timing-out-personalization).
+
+The examples for API calls using an **HttpServletRequest** with logon() and query() have been updated. [Read more](../../configuration/using/web-service-calls.md).
+
+A recommendation for **sqlDefault** attribute in schema definition has been added. [Read more](../../configuration/using/elements-and-attributes.md#attribute-description).
+
+The integration between Adobe Campaign and Adobe Real-time Customer Data Platform is now referenced in the **Integrating with Adobe Experience Cloud** guide. [Read more](../../integrations/using/about-campaign-integrations.md).
+
 ## November 2019 {#november-2019}
 
 A warning has been added to the [Multiplexing the mid-sourcing server](../../installation/using/mid-sourcing-server.md#multiplexing-the-mid-sourcing-server) and [Supporting several control instances](../../message-center/using/transactional-messaging-architecture.md#supporting-several-control-instances) sections mentioning that these deployments are not supported for fully hosted and hybrid clients.
@@ -29,6 +69,12 @@ A warning has been added to the [Multiplexing the mid-sourcing server](../../ins
 A new section has been added to describe how to force the character encoding used when sending an email. [Read more](../../delivery/using/sending-messages.md#character-encoding)
 
 The Access management section has been updated with the **Privacy Data right**. [Read more](../../platform/using/access-management.md#named-rights)
+
+Information was added to specify that personalization fields content cannot exceed 1024 characters. [Read more](../../delivery/using/personalization-fields.md)
+
+The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+
+The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## October 2019 {#october-2019}
 
@@ -39,8 +85,6 @@ The GDPR getting started guide has been improved and enriched. It is now a priva
 A new troubleshooting page has been added for tracking in Campaign Classic. [Read more](https://helpx.adobe.com/campaign/kb/classic-tracking-troubleshooting.html).
 
 A new page of best practices for Adobe Analytics Data Connector has been added. [Read more on Adobe Analytics Data Connector](../../platform/using/adobe-analytics-data-connector.md)
-
-The Audience Manager integration page has been updated to reflect **Declared ID** changes. [Read more](../../integrations/using/submitting-request-to-adobe.md)
 
 The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
@@ -68,13 +112,11 @@ Control Panel - [Adobe Campaign Classic Release Notes](https://helpx.adobe.com/c
 
 Audit trail - [Read more](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html)
 
-Secure SMS Messaging (TLS) - [Read more](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
-
 **Other documentation updates coming with the release**
 
 A new Build upgrade FAQ has been created. [Read more](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
 
-The [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) has been updated. The list of supported database systems has been updated as well as Android/iOS versions and related SDKs. The [19.0 Compatibility matrix](ttps://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html) has been archived.
+The [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) has been updated. The list of supported database systems has been updated as well as Android/iOS versions and related SDKs. The [19.0 Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html) has been archived.
 
 The 'Deprecated and Removed Features in Campaign Classic' page has been updated. [Read more](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
@@ -104,7 +146,7 @@ The Managing Offers documentation has been updated with a new section listing be
 
 A new Knowledge base article on using the offer catalog in Adobe Campaign Classic has been created. [Read more](https://helpx.adobe.com/campaign/kb/offer-best-practices.html)
 
-The Sub-workflow activity section has been enhanced with an example of usage. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Flow_control_activities.html#Sub-workflow)
+The Sub-workflow activity section has been enhanced with an example of usage. [Read more](../../workflow/using/sub-workflow.md)
 
 The [Campaign Classic On-premise & Hosted capability matrix](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html) Knowledge base article has been updated with information relating to Archiving emails.
 
@@ -426,7 +468,7 @@ How-to videos have been updated. [Read more](https://docs.campaign.adobe.com/doc
 
 Update email archiving section. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html)
 
-Clarify Scheduler usage in a workflow. [Read more](http://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Flow_control_activities.html#Scheduler)
+Clarify Scheduler usage in a workflow. [Read more](../../workflow/using/scheduler.md)
 
 Add Paused workflow best practice. [Read more](http://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Executing_a_workflow.html)
 
@@ -442,7 +484,7 @@ The Setting up web tracking documentation has been enhanced with an updated exam
 
 The SMS Channel documentation has been updated with some clarification added to the Automatic reply section applying to the Extended generic SMPP connector. [Read more](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_messages_on_mobiles_SMS_channel.html#Creating_an_SMPP_external_account).
 
-The Social Marketing documentation has been updated. [Read more](http://docs.campaign.adobe.com/doc/AC/en/SMK_Introduction_About_social_marketing.html).
+The Social Marketing documentation has been updated. [Read more](../../social/using/about-social-marketing.md).
 
 A new technote on IP warming has been added. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_IP_Warming_overview.pdf).
 
@@ -460,7 +502,7 @@ Some videos have been added and updated. [Read more](https://docs.campaign.adobe
 
 Learn how to send a delivery to recipients loaded from an external file without updating the database. [Read more](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_emails_Identifying_target_populations.html#Selecting_external_recipients)
 
-The double opt-in example has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WEB_Web_forms_Use_cases-_web_forms.html)
+The double opt-in example has been updated. [Read more](../../web/using/use-cases--web-forms.md)
 
 ## March 2017{#release-doc-31-03-2017}
 

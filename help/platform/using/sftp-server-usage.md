@@ -24,7 +24,7 @@ When managing files and data for ETL purposes, these files are stored on a hoste
 
 When not correctly used or monitored, this space can quickly fill the physical space available on the server and lead to files being truncated on subsequent uploads. Once the space saturated, automatic purge may trigger and erase oldest files from the SFTP storage.
 
-To avoid such problems, Adobe recommends to follow the best practices below.
+To avoid such problems, Adobe recommends following the best practices below.
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ The section below lists the information to check and provide to the Adobe Suppor
    If the port is not opened, make sure to open outbound connections at your side, then try again. If you still meet connection issues, share the output of the command with Adobe Support team.
 
 1. Check that the public IP from which you are trying to initiate the SFTP connection is the one you provided to the Adobe Support for whitelisting.
-1. If you are using a password based authentication, your password may have expired (passwords have a 90 days validity period). We therefore strongly recommend using a key based authentication (see [SFTP server best practices](#sftp-server-best-practices)).
+1. If you are using a password-based authentication, your password may have expired (passwords have a 90 days validity period). We therefore strongly recommend using a key based authentication (see [SFTP server best practices](#sftp-server-best-practices)).
 1. If you are using a key based authentication, check that the key you are using is the same that you provided to Adobe Support team for the instance configuration.
 1. If you are using FileZilla or an equivalent FTP tool, provide the connection logs details in the support ticket.
 

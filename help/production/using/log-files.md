@@ -56,6 +56,8 @@ The mono-instance log files are listed in the following table:
 >
 >The **redir** directory only exists on redirection servers. The **url** subdirectory contains the matches of the URLs to be redirected, and the subdirectory **log** contains the tracking logs. To generate tracking logs, the **trackinglogd** module must be running.
 
+For performance and storage optimization, the logins.log file is split into multiple files, one each day (logins.yy-mm-dd.log) with a maximum of 365 files retained. The number of days can be changed in the serverConf.xml, under syslogd (**maxNumberOfLoginsFiles** option). See the documentation on the [server configuration file](../../installation/using/the-server-configuration-file.md#syslogd).
+
 By default, the logs are limited to two 10 MB files per module and per instance. The second file is called: **`<modulename>`_2.log**. The size of the logs is therefore limited to 2&#42;10MB per module and per instance.
 
 You can, however, keep larger files. To enable this, change the value of the **maxFileSizeMb="10"** setting in the **syslogd** node of the **conf/serverConf.xml** file. This value represents the maximum size in MB of a log file.

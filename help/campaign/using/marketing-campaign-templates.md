@@ -92,7 +92,7 @@ The following links are displayed in the campaign dashboard (the **[!UICONTROL A
 
 ![](assets/s_ncs_user_op_template_tab1.3ex.png)
 
-An only the following tabs will be displayed:
+And only the following tabs will be displayed:
 
 ![](assets/s_ncs_user_op_template_tab1.4ex.png)
 
@@ -100,7 +100,7 @@ However, with this type of configuration:
 
 ![](assets/s_ncs_user_op_template_tab2.2ex.png)
 
-The following links and tabs will be displayed: 
+The following links and tabs will be displayed:
 
 ![](assets/s_ncs_user_op_template_tab2.3ex.png)
 

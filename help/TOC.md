@@ -3,21 +3,20 @@ product: Adobe Campaign Classic
 audience: end-user
 user-guide-title: Adobe Campaign Classic Help
 index: y
+product: adobe campaign
+sub-product: adobe campaign classic
 ---
 
 # Adobe Campaign Classic Help {#using}
 
 + [Product documentation](campaign-classic-home.md)
++ [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
-  + [About Release Notes](rn/using/about-release-notes.md)
-  + [Control Panel Releases](rn/using/control-panel.md)
-  + [Campaign Mobile SDK](rn/using/mobile-sdk.md)
-  + [Release 19.1](rn/using/latest-release.md)
+  + [Release 19.2](rn/using/latest-release.md)
+  + [Release 19.1](rn/using/release--19-1.md)
   + [Release 18.10](rn/using/release--18-10.md)
   + [Release 18.6](rn/using/release--18-6.md)
   + [Release 18.4](rn/using/release--18-4.md)
-  + [Legacy Release Notes](rn/using/legacy-release-notes.md)
-  + [Documentation Updates](rn/using/documentation-updates.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -72,6 +71,7 @@ index: y
        + [About email channel](delivery/using/about-email-channel.md)
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Defining the email content](delivery/using/defining-the-email-content.md)
+       + [Defining interactive content](delivery/using/defining-interactive-content.md)
        + [Sending messages](delivery/using/sending-messages.md)
        + [Attaching files](delivery/using/attaching-files.md)
   + Sending messages on mobiles {#sending-messages-on-mobiles}
@@ -131,7 +131,7 @@ index: y
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Technical recommendations](delivery/using/technical-recommendations.md)
        + [Blacklisting databases](delivery/using/blacklisting-databases.md)
-  + Content management {#content-management}
+  + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
        + [Use case: creating content management](delivery/using/use-case--creating-content-management.md)
@@ -148,10 +148,10 @@ index: y
        + [Accessing marketing campaigns](campaign/using/accessing-marketing-campaigns.md)
   + Orchestrate campaigns {#orchestrate-campaigns}
        + [Setting up Marketing Campaigns](campaign/using/setting-up-marketing-campaigns.md)
-       + [Marketing Campaigns Templates](campaign/using/marketing-campaign-templates.md)
-       + [Marketing Campaigns Deliveries](campaign/using/marketing-campaign-deliveries.md)
-       + [Marketing Campaigns Approval](campaign/using/marketing-campaign-approval.md)
-       + [Marketing Campaigns Monitoring](campaign/using/marketing-campaign-monitoring.md)
+       + [Marketing Campaign Templates](campaign/using/marketing-campaign-templates.md)
+       + [Marketing Campaign Deliveries](campaign/using/marketing-campaign-deliveries.md)
+       + [Marketing Campaign Approval](campaign/using/marketing-campaign-approval.md)
+       + [Marketing Campaign Monitoring](campaign/using/marketing-campaign-monitoring.md)
        + [Providers, stocks and budgets](campaign/using/providers--stocks-and-budgets.md)
   + Tasks, resources and budgets {#tasks--resources-and-budgets}
        + [About marketing resource management](campaign/using/about-marketing-resource-management.md)
@@ -254,8 +254,7 @@ index: y
        + [Configuring surveys](web/using/configuring-surveys.md)
        + [Use case: creating a Refer A Friend form](web/using/use-case--creating-a-refer-a-friend-form.md)
 + Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
-  + Campaign integrations {#campaign-integrations}
-       + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
+  + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
   + Audience sharing {#audience-sharing}
        + [Sharing audiences with Adobe Experience Cloud](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
        + [Submitting request to Adobe](integrations/using/submitting-request-to-adobe.md)
@@ -493,8 +492,7 @@ index: y
        + [Important notes](message-center/using/important-notes.md)
        + [Implementation](message-center/using/implementation.md)
 + Integrating with Social media {#integrating-with-social-media}
-  + Introduction {#introduction}
-       + [About social marketing](social/using/about-social-marketing.md)
+  + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}
        + [Starting workflows](social/using/starting-workflows.md)
        + [Publishing on Facebook walls](social/using/publishing-on-facebook-walls.md)
@@ -560,7 +558,7 @@ index: y
        + [The server configuration file](installation/using/the-server-configuration-file.md)
        + [Command lines](installation/using/command-lines.md)
        + [Creating new instances](installation/using/creating-new-instances.md)
-       + [Configuring Campaign options](installation/using/configuring-campaign-options.md)
+       + [List of Campaign Classic options](installation/using/configuring-campaign-options.md)
        + [Uninstalling Campaign](installation/using/uninstalling-campaign.md)
 + Monitoring Campaign Classic {#monitoring-campaign-classic}
   + Introduction {#introduction}
