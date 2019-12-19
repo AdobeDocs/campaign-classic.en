@@ -22,8 +22,6 @@ This section presents the best practice approach to manage the Interaction modul
 
 Interaction in Adobe Campaign requires careful management to operate efficiently. You must find a balance between the number of contacts and the number of offer categories and offers. If those factors are not dealt carefully, your Adobe Campaign instance may encounter issues.
 
-You can find more detailed best practices, tips and tricks on managing offers and using the Interaction module on this [page](https://helpx.adobe.com/campaign/kb/offer-best-practices.html).
-
 ### Implementation {#implementation}
 
 Below are listed important elements that should be kept in mind when implementing and configuring interactions.
@@ -57,9 +55,9 @@ Below are listed a few best practices regarding the proposition table.
 * Limit the number of propositions asked per target. Do not set more than what you are actually going to use.
 * Avoid joins as much as possible in the rule criteria.
 
-## Offer management best practices {#offer-management}
+## Tips and tricks on managing offers {#tips-managing-offers}
 
-This section contains more detailed best practices, tips and tricks on managing offers and using the Interaction module in Adobe Campaign Classic.
+This section contains more detailed advice on managing offers and using the Interaction module in Adobe Campaign Classic.
 
 ### Using multiple offer spaces in an email delivery {multiple-offer-spaces}
 
@@ -77,7 +75,7 @@ In the example below, the HTML rendering function is available in the drop-down 
 
 ![](assets/Interaction-best-practices-HTML-rendering.png)
 
-This function inserts code such as: <%@ include proposition="targetData.proposition" view="rendering/html" %>.
+This function inserts code such as: `<%@ include proposition="targetData.proposition" view="rendering/html" %>`.
 
 When you select the proposition, the value of the **[!UICONTROL view]** attribute is as follows:
 * "rendering/html": html rendering. It uses the HTML rendering function.
@@ -109,7 +107,7 @@ Additional fields can be added, such as a @rank field:
 
 Because there is a field in the proposition table named @rank, the value in the workflow temp table will be copied.
 
-For more on storing additional fields in the proposition table, see the Adobe Campaign Classic documentation.
+For more on storing additional fields in the proposition table, see [Integrating an offer via a workflow](../../interaction/using/integrating-an-offer-via-a-workflow.md#storing-offer-rankings-and-weight).
 
 For outbound offers with Interaction, this is useful when several offers are selected and you want to record in which order they will be presented in an email.
 
@@ -121,4 +119,15 @@ When using Interaction and manually selecting offers, the user can combine both 
 
 ![](assets/Interaction-best-practices-manual-offer-combined.png)
 
-### 
+### Extending the nms:offer schema {extending-nms-offer-schema}
+
+When extending the nms:offer schema, make sure you follow the out-of-the-box structure already set-up:
+* Define any new field for content storage under `<element name="view">`.
+* Each new field needs to be defined twice. Once as a regular XML field, and once as a CDATA XML field with "_jst" appended to the name. For example:
+
+    ```
+    <element label="Price" name="price" type="long" xml="true"/>
+    <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
+    ```
+
+* Any fields that contain URLs to be tracked must be placed under `<element name="trackedUrls">` which is found under `<element name="view" >`.
