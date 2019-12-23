@@ -22,6 +22,10 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## January 2020 {#january-2020}
+
+The use cases related to query designing have been reorganized into separate sections. [Ream more](../../workflow/using/querying-recipient-table.md)
+
 ## December 2019 {#december-2019}
 
 The "WdbcOptions_TempDbName" option has been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
