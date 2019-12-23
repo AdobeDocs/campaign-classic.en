@@ -24,7 +24,7 @@ A query lets you select a target according to criteria. You can associate a segm
 
 >[!NOTE]
 >
->Query samples are presented in [this section](../../workflow/using/designing-queries.md).
+>Query samples are presented in [this section](../../workflow/using/querying-recipient-table.md).
 
 ![](assets/s_user_segmentation_wizard_9.png)
 
@@ -54,7 +54,7 @@ The **[!UICONTROL Edit query...]** link lets you define the targeting type, the 
 
 1. If you have selected **[!UICONTROL Filtering conditions]** at step 1 or using the **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** option, then you will have to manually add filtering criteria later on.
 
-   You can also add data grouping conditions by checking the corresponding box. To do this, the filtering dimension must be different to the query's targeting dimension. For more information on grouping, refer to this [section](../../workflow/using/designing-queries.md#querying-using-grouping-management).
+   You can also add data grouping conditions by checking the corresponding box. To do this, the filtering dimension must be different to the query's targeting dimension. For more information on grouping, refer to this [section](../../workflow/using/querying-using-grouping-management.md).
 
    You can also add more criteria by using the Expression builder and combining it with the logical options AND, OR, and EXCEPT. You can then preview the **[!UICONTROL Corresponding SQL query...]** for your criteria combination. For more on this refer to this [section](../../platform/using/defining-filter-conditions.md#building-expressions).
 
@@ -131,7 +131,7 @@ In the following example, the query seeks to identify men aged between 18 and 30
 
 >[!NOTE]
 >
->Additional query samples are presented in [this section](../../workflow/using/designing-queries.md).
+>Additional query samples are presented in [this section](../../workflow/using/querying-recipient-table.md).
 
 1. Name your query then select the **[!UICONTROL Edit query...]** link.
 1. Select **[!UICONTROL Filtering conditions]** in the list of types of filter available.

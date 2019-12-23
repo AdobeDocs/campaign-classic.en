@@ -369,7 +369,15 @@ sub-product: adobe campaign classic
        + [Sending a birthday email](workflow/using/sending-a-birthday-email.md)
        + [Loading delivery content](workflow/using/loading-delivery-content.md)
        + [Cross-channel delivery workflow](workflow/using/cross-channel-delivery-workflow.md)
-       + [Designing queries](workflow/using/designing-queries.md)
+       + Designing queries {#designing-queries}
+          + [](workflow/using/querying-recipient-table.md)
+          + [](workflow/using/querying-delivery-information.md)
+          + [](workflow/using/performing-aggregate-computing.md)
+          + [](workflow/using/querying-using-grouping-management.md)
+          + [](workflow/using/querying-using-many-to-many-relationship.md)
+          + [](workflow/using/adding-enumeration-type-calculated-field.md)
+          + [](workflow/using/creating-a-filter.md)
+          + [](workflow/using/filtering-duplicated-recipients.md)
        + [Sending personalized alerts to operators](workflow/using/sending-personalized-alerts-to-operators.md)
        + [Email enrichment with custom date fields](workflow/using/email-enrichment-with-custom-date-fields.md)
   + Monitoring workflows {#monitoring-workflows}
