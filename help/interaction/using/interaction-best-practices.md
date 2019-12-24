@@ -59,7 +59,7 @@ Below are listed a few best practices regarding the proposition table.
 
 This section contains more detailed advice on managing offers and using the Interaction module in Adobe Campaign Classic.
 
-### Using multiple offer spaces in an email delivery {multiple-offer-spaces}
+### Using multiple offer spaces in an email delivery {#multiple-offer-spaces}
 
 When including offers in deliveries, the offers are generally selected upstream in the Campaign workflow via an Enrichment activity (or another similar activity).
 
