@@ -107,7 +107,7 @@ Additional fields can be added, such as a @rank field:
 
 Because there is a field in the proposition table named @rank, the value in the workflow temp table will be copied.
 
-For more on storing additional fields in the proposition table, see [Integrating an offer via a workflow](../../interaction/using/integrating-an-offer-via-a-workflow.md#storing-offer-rankings-and-weight).
+For more on storing additional fields in the proposition table, see [Integrating an offer via a workflow](../../interaction/using/integrating-an-offer-via-a-workflow.md#storing-offer-rankings-and-weights).
 
 For outbound offers with Interaction, this is useful when several offers are selected and you want to record in which order they will be presented in an email.
 
