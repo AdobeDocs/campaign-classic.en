@@ -119,7 +119,7 @@ When using Interaction and manually selecting offers, the user can combine both 
 
 ![](assets/Interaction-best-practices-manual-offer-combined.png)
 
-### Extending the nms:offer schema {extending-nms-offer-schema}
+### Extending the nms:offer schema {#extending-nms-offer-schema}
 
 When extending the nms:offer schema, make sure you follow the out-of-the-box structure already set-up:
 * Define any new field for content storage under `<element name="view">`.
