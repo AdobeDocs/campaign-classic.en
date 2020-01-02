@@ -109,7 +109,7 @@ Because there is a field in the proposition table named @rank, the value in the 
 
 For more on storing additional fields in the proposition table, see [Integrating an offer via a workflow](../../interaction/using/integrating-an-offer-via-a-workflow.md#storing-offer-rankings-and-weights).
 
-For outbound offers with Interaction, this is useful when several offers are selected and you want to record in which order they will be presented in an email.
+For outbound offers with Interaction, this is useful when several offers are selected and you want to record in which order they will be displayed in an email.
 
 You can also store additional metadata directly in the proposition table, such as the current spend level, to keep historical records about the spend at the time offers were generated.
 
