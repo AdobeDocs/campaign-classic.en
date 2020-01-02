@@ -36,4 +36,28 @@ The following types of report are available:
 
 You can access reports from the client console home page, the reports dashboard or the delivery list. The display mode of a report depends on its context. The list of main reports is available on the home page and lets you access delivery data quickly. This list can be changed to suit your needs. Refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md) for more information.
 
-![](assets/about_reports.png)
+To access Campaign built-in reports:
+
+1. Select the **[!UICONTROL Reports]** tab of the Adobe Campaign interface.
+
+    ![](assets/reporting_access_from_home.png)
+
+1. Use the search fields to filter the displayed reports.
+
+1. Then click the report you want to display.
+
+    ![](assets/reporting_edit_a_report.png)
+
+1. Click the **[!UICONTROL Back]** link at the top of the screen takes you back to the list of reports.
+
+    ![](assets/reporting_back_button.png)
+
+Other possible actions on a report being edited are detailed in [this page](../../reporting/using/actions-on-reports.md).
+
+Reports that are specific to a campaign or a delivery are accessible via their respective dashboards.
+
+![](assets/reporting_on_a_delivery.png)
+
+The principle is the same for lists, services, offers, etc. as shown below:
+
+![](assets/reporting_on_an_offer.png)
