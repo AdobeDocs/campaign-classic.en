@@ -26,7 +26,6 @@ This tool combines all Adobe Campaign querying possibilities. For instance, it l
 
 Queries are created using fields of the selected table or using a formula.
 
-[Click here](../../workflow/using/designing-queries.md) to discover Campaign query editor through a set of use cases.
+[Click here](../../workflow/using/query.md) to discover Campaign query editor.
 
 ![](assets/query_recipients_4.png)
-
