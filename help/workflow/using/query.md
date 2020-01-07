@@ -189,7 +189,7 @@ The section below provides best practices to optimize the queries running on Ado
 **Related topics:**
 
 * [Data model best practices](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html)
-* [Database mapping](../../onfiguration/using/database-mapping.md) (use of indexes, keys and relations between tables)
+* [Database mapping](../../configuration/using/database-mapping.md) (use of indexes, keys and relations between tables)
 
 ### Functions {#functions}
 
