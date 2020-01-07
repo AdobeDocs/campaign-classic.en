@@ -495,8 +495,8 @@ Elements are designated by their name, and attributes are designated by the name
 >
 >An additional constraint is added when the path crosses a sub-element. In this case, the following expression must be placed between brackets:
 >
->* **location/@city** is not valid; please use **[location/@city]**
->* **[@email]** and **@email** are equivalent
+>* **location/@city** is not valid; please use **`[location/@city]`**
+>* **`[@email]`** and **@email** are equivalent
 >
 
 It is also possible to define complex expressions, such as the following arithmetic operations:
