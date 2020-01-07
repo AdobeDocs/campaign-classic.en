@@ -196,7 +196,7 @@ The section below provides best practices to optimize the queries running on Ado
 * Beware of functions like `Lower(...)`. When the Lower function is used, the Index is not used.
 * Check queries using the "like" instruction or the "upper" or "lower" instructions carefully. Apply "Upper" on the user input, not on the database field.
 
-For more on functions, refer to [this section](../../platform/using/defining-filter-conditions.md#l#list-of-functions).
+For more on functions, refer to [this section](../../platform/using/defining-filter-conditions.md#list-of-functions).
 
 ### Filtering dimensions {#filtering-dimensions}
 
