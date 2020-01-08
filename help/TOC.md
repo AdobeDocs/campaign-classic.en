@@ -190,7 +190,13 @@ sub-product: adobe campaign classic
        + [About Campaign built-in reports](reporting/using/about-campaign-built-in-reports.md)
        + [Accessing reports](reporting/using/accessing-reports.md)
        + [List of reports](reporting/using/list-of-reports.md)
-       + [Reports on deliveries](reporting/using/reports-on-deliveries.md)
+  + [Reports on deliveries]{#reports-on-deliveries}
+       + [About reports on deliveries](reporting/using/#reports-on-deliveries) 
+       + [Global reports](reporting/using/global-reports.md)
+       + [Delivery reports](reporting/using/delivery-reports.md)
+       + [Cumulative reports](reporting/using/cumulative-reports.md)
+       + [Indicator calculation](reporting/using/indicator-calculation.md)
+       + [Person/people and recipients](reporting/using/person-people-and-recipients.md)
   + Analyzing populations {#analyzing-populations}
        + [About descriptive analysis](reporting/using/about-descriptive-analysis.md)
        + [Using the descriptive analysis wizard](reporting/using/using-the-descriptive-analysis-wizard.md)

@@ -163,7 +163,7 @@ You can use Adobe Campaign digital content editor to design a landing page and d
 
 ### How can I track deliveries? {#how-can-i-track-deliveries-}
 
-You can track deliveries sent with Campaign Classic through dedicated [delivery reports](../../reporting/using/reports-on-deliveries.md#delivery-reports) and then monitor your deliveries.
+You can track deliveries sent with Campaign Classic through dedicated [delivery reports](../../reporting/using/delivery-reports.md) and then monitor your deliveries.
 
 ### What are security best practices (on-premise)? {#what-are-security-best-practices--on-premise--}
 
@@ -363,7 +363,7 @@ Learn how to track your deliveries and understand the recipients' behaviour [fro
 
 Adobe Campaign comes with a set of reports to monitor your deliveries and track your messages.
 
-[Click here to learn more on built-in reports](../../reporting/using/reports-on-deliveries.md#delivery-reports).
+[Click here to learn more on built-in reports](../../reporting/using/delivery-reports.md).
 
 ### How does Adobe Campaign qualify and manage quarantine addresses? {#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
 
