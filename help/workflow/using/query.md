@@ -186,27 +186,22 @@ The section below provides best practices to optimize the queries running on Ado
   
   Make sure you know what the execution plan of your query will be. Avoid full table scans, especially for real-time queries or near real-time queries running every minute.
 
-**Related topics:**
-
-* [Data model best practices](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html)
-* [Database mapping](../../configuration/using/database-mapping.md) (use of indexes, keys and relations between tables)
+For more on this, refer to the[Data model best practices](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html) and [Database mapping](../../configuration/using/database-mapping.md) sections.
 
 ### Functions {#functions}
 
 * Beware of functions like `Lower(...)`. When the Lower function is used, the Index is not used.
 * Check queries using the "like" instruction or the "upper" or "lower" instructions carefully. Apply "Upper" on the user input, not on the database field.
 
-For more on functions, refer to [this section](../../platform/using/defining-filter-conditions.md#list-of-functions).
+  For more on functions, refer to [this section](../../platform/using/defining-filter-conditions.md#list-of-functions).
 
 ### Filtering dimensions {#filtering-dimensions}
 
-Use the query's filtering dimension instead of using the `exists such as` operator.
+Use the query's filtering dimension instead of using the "exists such as" operator.
 
 ![](assets/optimize-queries-filtering.png)
 
-In queries, `exists such as` conditions in filters are not efficient.
-
-The `exists such as` condition is the equivalent of a sub-query in SQL:
+In queries, "exists such as" conditions in filters are not efficient. They are the equivalent of a sub-query in SQL:
 
 `select iRecipientId from nmsRecipient where iRecipientId IN (select iRecipientId from nmsBroadLog where (...))`
 
