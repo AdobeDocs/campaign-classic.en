@@ -47,4 +47,3 @@ Adobe Campaign provides several reporting tools:
 >[!CAUTION]
 >
 >For easy display and manipulation, as well as efficient exporting, reports must not contain more than 1,000 lines.
-

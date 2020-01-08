@@ -184,7 +184,7 @@ sub-product: adobe campaign classic
 + Reporting {#reporting}
   + Reporting in Adobe Campaign {#reporting-in-adobe-campaign}
        + [About Adobe Campaign reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
-       + [Analyzing needs](reporting/using/analyzing-needs.md)
+       + [Best practices for reporting](reporting/using/best-practices.md)
        + [Optimizing report creation](reporting/using/optimizing-report-creation.md)
   + Accessing built-in reports {#accessing-built-in-reports}
        + [About Campaign built-in reports](reporting/using/about-campaign-built-in-reports.md)
