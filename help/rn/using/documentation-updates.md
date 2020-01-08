@@ -118,7 +118,7 @@ The best practices for performance improvements of workflows and deliveries have
 
 **New capabilities included in the release**
 
-Control Panel - [Adobe Campaign Classic Release Notes](https://helpx.adobe.com/campaign/kb/control-panel.html)
+Control Panel - [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Audit trail - [Read more](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html)
 

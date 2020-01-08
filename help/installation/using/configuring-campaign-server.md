@@ -24,7 +24,7 @@ These configurations must be performed by administrators and for **On-premise** 
 
 For more information, refer to these sections:
 
-* [Control Panel documentation](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 * [Hosting models](../../installation/using/hosting-models.md)
 * [Campaign Classic On-premise & Hosted capability matrix](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)
 * [Hybrid and hosted models configuration steps](https://docs.campaign.adobe.com/doc/AC/en/INS_Hybrid_and_Hosted_models_About_hybrid_and_hosted_models.html)
@@ -344,7 +344,7 @@ Once a URL is added, it is referenced in the configuration file of the instance 
 They way you can manage URL permissions depends on your hosting model:
 
 * **Hybrid** or **On-premise**: add the URLs to allow into the **serverConf.xml file**. Detailed information is available in the section below.
-* **Hosted**: add the URLs to allow via the **Control Panel**. For more information, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html#URLpermissions).
+* **Hosted**: add the URLs to allow via the **Control Panel**. For more information, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/url-permissions.html).
 
 With **Hybrid** and **On-premise** hosting models, the administrator needs to reference a new **urlPermission** in the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
