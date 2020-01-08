@@ -888,7 +888,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
  </tbody> 
 </table>
 
-## GDPR {#gdpr}
+## Privacy {#privacy}
 
 <table> 
  <thead> 

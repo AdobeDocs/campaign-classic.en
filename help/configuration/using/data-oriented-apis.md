@@ -385,7 +385,7 @@ This syntax simplifies the query when more than two data are used in the conditi
 
 The binding of parameters lets the engine set the values of the parameters used in the query. This is very useful, since the engine is in charge of the escaping of values, and there is the additional benefit of a cache for the parameters to be retrieved.
 
-When a query is constructed, the "bound" values are replaced by a character (? in ODBC, #[index]# in postgres...) in the body of the SQL query.
+When a query is constructed, the "bound" values are replaced by a character (? in ODBC, `#[index]#` in postgres...) in the body of the SQL query.
 
 ```
 <select>

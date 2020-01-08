@@ -260,8 +260,7 @@ sub-product: adobe campaign classic
        + [Configuring surveys](web/using/configuring-surveys.md)
        + [Use case: creating a Refer A Friend form](web/using/use-case--creating-a-refer-a-friend-form.md)
 + Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
-  + Campaign integrations {#campaign-integrations}
-       + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
+  + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
   + Audience sharing {#audience-sharing}
        + [Sharing audiences with Adobe Experience Cloud](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
        + [Submitting request to Adobe](integrations/using/submitting-request-to-adobe.md)
@@ -376,7 +375,15 @@ sub-product: adobe campaign classic
        + [Sending a birthday email](workflow/using/sending-a-birthday-email.md)
        + [Loading delivery content](workflow/using/loading-delivery-content.md)
        + [Cross-channel delivery workflow](workflow/using/cross-channel-delivery-workflow.md)
-       + [Designing queries](workflow/using/designing-queries.md)
+       + Designing queries {#designing-queries}
+          + [Querying the recipient table](workflow/using/querying-recipient-table.md)
+          + [Querying delivery information](workflow/using/querying-delivery-information.md)
+          + [Performing aggregate computing](workflow/using/performing-aggregate-computing.md)
+          + [Querying using grouping management](workflow/using/querying-using-grouping-management.md)
+          + [Querying using a many-to-many-relationship](workflow/using/querying-using-many-to-many-relationship.md)
+          + [Adding an enumeration type calculated field](workflow/using/adding-enumeration-type-calculated-field.md)
+          + [Creating a filter](workflow/using/creating-a-filter.md)
+          + [Filtering duplicated recipients](workflow/using/filtering-duplicated-recipients.md)
        + [Sending personalized alerts to operators](workflow/using/sending-personalized-alerts-to-operators.md)
        + [Email enrichment with custom date fields](workflow/using/email-enrichment-with-custom-date-fields.md)
   + Monitoring workflows {#monitoring-workflows}

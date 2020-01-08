@@ -18,6 +18,8 @@ snippet: y
 
 # Anonymous interactions{#anonymous-interactions}
 
+Watch this [video](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) to get an overview of how offers are delivered to identified and anonymous targets.
+
 ## Targeting and storing an environment for anonymous interactions {#targeting-and-storing-an-environment-for-anonymous-interactions}
 
 By default, Interaction comes with a pre-configured environment to target the recipient table (identified offers). If you wish to target another table (visitor table for anonymous offers or a specific recipient table), you need to use the target mapping wizard to create the environment. For more on this, see [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
