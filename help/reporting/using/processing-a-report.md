@@ -16,11 +16,11 @@ internal: n
 snippet: y
 ---
 
-# Processing a report{#processing-a-report}
-
-If you have the appropriate rights, you can save an analysis report created from a template or export it in Excel, PDF, or OpenOffice format.
+# Using an analysis report{#processing-a-report}
 
 ## Saving an analysis report {#saving-an-analysis-report}
+
+If you have the appropriate rights, you can save an analysis report created from a template or export it in Excel, PDF, or OpenOffice format.
 
 To save your report, click **[!UICONTROL Save]** and give your report a label.
 
