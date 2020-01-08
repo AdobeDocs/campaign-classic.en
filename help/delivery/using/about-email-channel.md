@@ -22,7 +22,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
-* Read about [Deliverability](../../delivery/using/about-deliverability.md) and [Managing deliverability](hhttps://helpx.adobe.com/campaign/kb/acc-deliverability.html).
+* Read about [Deliverability](../../delivery/using/about-deliverability.md) and [Managing deliverability](https://helpx.adobe.com/campaign/kb/acc-deliverability.html).
 
 The key steps to send an email are as follows:
 
