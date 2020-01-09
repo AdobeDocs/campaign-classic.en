@@ -157,8 +157,8 @@ The following table lists all standard packages with their description, the inst
   <tr> 
    <td> Content Manager<br /> </td> 
    <td> Creates recurrent newsletters or website then validate and publish your messages.<br /> </td> 
-   <td> Marketing</td> 
-   <td> <a href="../../delivery/using/content-manager-resources-and-principles.md">Learn More</a> </td> 
+   <td> </td> 
+   <td> <a href="../../delivery/using/about-content-management.md">Learn More</a> </td> 
   </tr> 
   <tr> 
    <td> Online surveys (Survey Manager)<br /> </td> 

@@ -16,6 +16,10 @@ snippet: y
 
 # Release 19.2{#release-19-2}
 
+>[!NOTE]
+>
+>Click [here](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) to learn more about build statuses.
+
 ## Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
 | Build status | Build number | Date |

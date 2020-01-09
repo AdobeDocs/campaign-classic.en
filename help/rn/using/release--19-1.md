@@ -20,6 +20,10 @@ snippet: y
 
 ## Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
+>[!CAUTION]
+>
+>This build is for on-premise installations only. For hybrid deployments, hosted instances will keep running the 9032 build. Do not upgrade your marketing instance to the 9035 build as it is not compatible with 9032.
+
 3 October 2019
 
 **Improvements**
@@ -49,7 +53,24 @@ snippet: y
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
+**December 17th 2019**: new build (9032-9d34fb17e) which includes the following fix:
+
+* Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter).
+ (NEO-19595)
+
+**December 11th 2019**: new build (9032-e28b428b7) which includes the following fix:
+
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+
+* Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
+
 **November 20th 2019**: new build (9032-3468c7bb5) which includes the following fixes:
+
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
 
 * Fixed a login issue via IMS authentication. (NEO-17312)
 * Fixed an issue when displaying cumulative reports on multiple deliveries. (NEO-18165)
@@ -57,19 +78,20 @@ snippet: y
 
 **September 19th 2019**: new build (9032-cee805c93) which includes the following fixes:
 
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+
 * Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
 * Fixed an index issue which could cause performance issues when sending transactional messages.
 
-**August 13th 2019**: initial 19.1.4 build which includes the following fix:
+**August 13th 2019**: initial 19.1.4 build which includes the following fixes:
+
+>[!CAUTION]
+>
+>This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
   
 * Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
-
-## Release 19.1.3 - Build 9031{#release-19-1-3-build-9031}
-
-26 July 2019
-
-**Improvements**
-
 * Fixed a regression caused by the NEO-12727 which could lead to workflows being stopped when a Test activity was executed twice. (NEO-16835) 
 * Fixed an issue which led to an erroneous HTTP code being returned (HTTP 200 OK instead of HTTP 403 Forbidden) when an invalid or expired session token was used in API calls. (NEO-16826) 
 * Fixed an issue with the DKIM key which was not embedded into emails anymore, thus causing deliverability issues. (NEO-16804) 
@@ -115,7 +137,7 @@ snippet: y
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> <p>To increase efficiency in your work as an Admin user, manage settings of your SFTP servers by monitoring storage, whitelisting IP addresses, and installing SSH keys for each instance. Please note Control Panel is only available for customers hosted on AWS as of today (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">login through the Experience Cloud today</a>).</p> <p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.html">how-to video</a>. </p><p>Note: upgrading to the latest Campaign build is not required to access the Control Panel.</p> </td> 
+   <td> <p>To increase efficiency in your work as an Admin user, manage settings of your SFTP servers by monitoring storage, whitelisting IP addresses, and installing SSH keys for each instance. Please note Control Panel is only available for customers hosted on AWS as of today (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">login through the Experience Cloud today</a>).</p> <p>For more information, refer to the <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.html">how-to video</a>. </p><p>Note: upgrading to the latest Campaign build is not required to access the Control Panel.</p> </td> 
   </tr> 
     <tr> 
    <td> Audit trail<br /> </td> 

@@ -24,7 +24,7 @@ A query lets you select a target according to criteria. You can associate a segm
 
 >[!NOTE]
 >
->Query samples are presented in [this section](../../workflow/using/designing-queries.md).
+>Query samples are presented in [this section](../../workflow/using/querying-recipient-table.md).
 
 ![](assets/s_user_segmentation_wizard_9.png)
 
@@ -54,7 +54,7 @@ The **[!UICONTROL Edit query...]** link lets you define the targeting type, the 
 
 1. If you have selected **[!UICONTROL Filtering conditions]** at step 1 or using the **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** option, then you will have to manually add filtering criteria later on.
 
-   You can also add data grouping conditions by checking the corresponding box. To do this, the filtering dimension must be different to the query's targeting dimension. For more information on grouping, refer to this [section](../../workflow/using/designing-queries.md#querying-using-grouping-management).
+   You can also add data grouping conditions by checking the corresponding box. To do this, the filtering dimension must be different to the query's targeting dimension. For more information on grouping, refer to this [section](../../workflow/using/querying-using-grouping-management.md).
 
    You can also add more criteria by using the Expression builder and combining it with the logical options AND, OR, and EXCEPT. You can then preview the **[!UICONTROL Corresponding SQL query...]** for your criteria combination. For more on this refer to this [section](../../platform/using/defining-filter-conditions.md#building-expressions).
 
@@ -131,7 +131,7 @@ In the following example, the query seeks to identify men aged between 18 and 30
 
 >[!NOTE]
 >
->Additional query samples are presented in [this section](../../workflow/using/designing-queries.md).
+>Additional query samples are presented in [this section](../../workflow/using/querying-recipient-table.md).
 
 1. Name your query then select the **[!UICONTROL Edit query...]** link.
 1. Select **[!UICONTROL Filtering conditions]** in the list of types of filter available.
@@ -166,3 +166,70 @@ In the following example, the query seeks to identify men aged between 18 and 30
 This set of three values identifies the population targeted by the query. **[!UICONTROL tableName]** is the name of the table that records the target identifiers, **[!UICONTROL schema]** is the schema of the population (usually nms:recipient) and **[!UICONTROL recCount]** is the number of elements in the table.
 
 This value is the schema of the work table. This parameter is valid for all transitions with **[!UICONTROL tableName]** and **[!UICONTROL schema]**.
+
+## Optimizing your queries {#optimizing-queries}
+
+The section below provides best practices to optimize the queries running on Adobe Campaign to limit the workload on the database and improve user experience.
+
+### Joins and indexes {#joins-and-indexes}
+
+* Efficient queries rely on indexes.
+* Use an index for all joins.
+* Defining links on the schema will determine the join conditions. The linked table should have an unique index on the primary key and the join should be on this field.
+* Perform joins by defining keys on numeric fields instead of string fields.
+* Avoid performing outer joins. Whenever possible, use the Zero ID record to achieve outer join functionality.
+* Use the correct data type for joins.
+
+  Ensure that the `where` clause is the same type as the field.
+
+  A common mistake is: `iBlacklist='3'` where `iBlacklist` is a numeric field, and `3` signifies a text value.
+  
+  Make sure you know what the execution plan of your query will be. Avoid full table scans, especially for real-time queries or near real-time queries running every minute.
+
+For more on this, refer to the[Data model best practices](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html) and [Database mapping](../../configuration/using/database-mapping.md) sections.
+
+### Functions {#functions}
+
+* Beware of functions like `Lower(...)`. When the Lower function is used, the Index is not used.
+* Check queries using the "like" instruction or the "upper" or "lower" instructions carefully. Apply "Upper" on the user input, not on the database field.
+
+  For more on functions, refer to [this section](../../platform/using/defining-filter-conditions.md#list-of-functions).
+
+### Filtering dimensions {#filtering-dimensions}
+
+Use the query's filtering dimension instead of using the "exists such as" operator.
+
+![](assets/optimize-queries-filtering.png)
+
+In queries, "exists such as" conditions in filters are not efficient. They are the equivalent of a sub-query in SQL:
+
+`select iRecipientId from nmsRecipient where iRecipientId IN (select iRecipientId from nmsBroadLog where (...))`
+
+The best practice is to use the query's filtering dimension instead:
+
+![](assets/optimize-queries-filtering2.png)
+
+The equivalent of the filtering dimension in SQL is the inner join:
+
+`select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
+
+For more on filtering dimensions, refer to [this section](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions).
+
+### Architecture {#architecture}
+
+* Build a development platform with similar volumes, parameters, and architecture as the production platform.
+* Use the same values for the development and production environments. As much as possible, use the same:
+
+  * Operating System,
+  * Version,
+  * Data,
+  * Application,
+  * Volumes.
+
+  >[!NOTE]
+  >
+  >A feature that works in a development environment may not work in a production environment where the data may be different. Try to identify the main differences in order to anticipate risks and to prepare solutions.
+
+* Make configurations that match the target volumes. Large volumes require specific configurations. A configuration that worked for 100,000 recipients may not work for 10,000,000 recipients.
+
+  Consider how the system will scale when it goes live. Just because something works on a small scale does not mean that it will be suitable with greater volumes. Testing should be done with similar volumes to the volume in production. You should also evaluate the effect of changes in volumes (number of calls, size of the database) at peak hours, peak days, and across the life of the project.

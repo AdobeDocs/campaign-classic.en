@@ -93,8 +93,8 @@ The sequence in which `<attribute>` elements are defined in an `<srcschema>` doe
 
   SQL characteristics tables are built automatically based on the characteristic type:
 
-    * dedicated: Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]
-    * shared: Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]
+    * dedicated: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
+    * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
   There are two types of characteristics fields: simple oà¹ fields where a single value is authorized on the characteristic, and oà¹ multiple choice fields, where the characteristic is linked to a collection element which may contain several values.
 
@@ -483,8 +483,8 @@ There are four types of `<element>`  elements in Adobe Campaign:
 
   SQL characteristics tables are built automatically based on the characteristic type:
 
-    * dedicated: Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]
-    * shared: Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]
+    * dedicated: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
+    * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
   There are two types of characteristics fields: simple fields where a single value is authorized on the characteristic, and multiple choice fields, where the characteristic is linked to a collection element which may contain several values.
 

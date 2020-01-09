@@ -28,9 +28,9 @@ To avoid such problems, Adobe recommends following the best practices below.
 
 >[!NOTE]
 >
->If your instance is hosted on AWS, you can monitor your SFTP server storage with the Campaign Classic [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html).  
+>If your instance is hosted on AWS, you can monitor your SFTP server storage with the Campaign Classic [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/sftp-storage-management.html).  
 >
->To check if your instance is hosted on AWS, follow the steps detailed in [this section](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID) .
+>To check if your instance is hosted on AWS, follow the steps detailed in [this section](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id) .
 
 * The server size capabilities vary according to your license. In any case, keep the minimum data possible, and keep data for only as long as required (15 days is the maximum time limit).
 * Use key based authentication rather than password authentication, in order to avoid password expiration (passwords have a validity period of 90 days). Moreover, key based authentication lets you generate multiple keys, for example when managing multiple entities. On the contrary, password authentication requires that you share the password with all the entities you are managing.
