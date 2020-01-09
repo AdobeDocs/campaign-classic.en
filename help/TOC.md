@@ -183,13 +183,12 @@ sub-product: adobe campaign classic
        + [Hypothesis tracking](campaign/using/hypothesis-tracking.md)
 + Reporting {#reporting}
   + Reporting in Adobe Campaign {#reporting-in-adobe-campaign}
-       + [About Adobe Campaign reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
+       + [Get started with reporting](reporting/using/about-adobe-campaign-reporting-tools.md)
        + [Best practices for reporting](reporting/using/best-practices.md)
   + Accessing built-in reports {#accessing-built-in-reports}
        + [About Campaign built-in reports](reporting/using/about-campaign-built-in-reports.md)
-       + [Accessing reports](reporting/using/accessing-reports.md)
        + [List of reports](reporting/using/list-of-reports.md)
-  + [Reports on deliveries]{#reports-on-deliveries}
+  + Reports on deliveries{#reports-on-deliveries}
        + [About reports on deliveries](reporting/using/reports-on-deliveries.md) 
        + [Global reports](reporting/using/global-reports.md)
        + [Delivery reports](reporting/using/delivery-reports.md)
