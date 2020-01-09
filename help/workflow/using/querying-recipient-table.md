@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Querying the recipient table {#querying-the-recipient-table}
+# Querying the recipient table {#querying-recipient-table}
 
 In this example, we want to recover the names and emails of recipients whose email domain is "orange.co.uk" and who don't live in London.
 

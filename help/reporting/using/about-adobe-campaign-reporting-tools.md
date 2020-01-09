@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# About Adobe Campaign reporting tools{#about-adobe-campaign-reporting-tools}
+# Get started with reporting {#about-adobe-campaign-reporting-tools}
 
 In addition to [built-in reports](../../reporting/using/about-campaign-built-in-reports.md), Adobe Campaign lets you generate reports in various contexts and to meet different needs. Principles of use and implementation modes are detailed in this document.
 
@@ -26,7 +26,7 @@ To export data from the Adobe Campaign database, you need to create a workflow a
 
 Adobe Campaign provides several reporting tools:
 
-1. **built-in reports**: Adobe Campaign offers a set of reports on deliveries, campaigns, platform activities, optional functionalities, etc. These reports are available via the various functionalities which they relate to. They can be adapted to suit your specific needs.
+1. **Built-in reports**: Adobe Campaign offers a set of reports on deliveries, campaigns, platform activities, optional functionalities, etc. These reports are available via the various functionalities which they relate to. They can be adapted to suit your specific needs.
 
    For more on this, refer to [this section](../../reporting/using/about-campaign-built-in-reports.md).
 
@@ -47,4 +47,3 @@ Adobe Campaign provides several reporting tools:
 >[!CAUTION]
 >
 >For easy display and manipulation, as well as efficient exporting, reports must not contain more than 1,000 lines.
-
