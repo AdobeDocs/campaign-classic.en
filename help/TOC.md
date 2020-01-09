@@ -184,17 +184,22 @@ sub-product: adobe campaign classic
 + Reporting {#reporting}
   + Reporting in Adobe Campaign {#reporting-in-adobe-campaign}
        + [About Adobe Campaign reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
-       + [Analyzing needs](reporting/using/analyzing-needs.md)
-       + [Optimizing report creation](reporting/using/optimizing-report-creation.md)
+       + [Best practices for reporting](reporting/using/best-practices.md)
   + Accessing built-in reports {#accessing-built-in-reports}
        + [About Campaign built-in reports](reporting/using/about-campaign-built-in-reports.md)
        + [Accessing reports](reporting/using/accessing-reports.md)
        + [List of reports](reporting/using/list-of-reports.md)
-       + [Reports on deliveries](reporting/using/reports-on-deliveries.md)
+  + [Reports on deliveries]{#reports-on-deliveries}
+       + [About reports on deliveries](reporting/using/reports-on-deliveries.md) 
+       + [Global reports](reporting/using/global-reports.md)
+       + [Delivery reports](reporting/using/delivery-reports.md)
+       + [Cumulative reports](reporting/using/cumulative-reports.md)
+       + [Indicator calculation](reporting/using/indicator-calculation.md)
+       + [Person/people and recipients](reporting/using/person-people-recipients.md)
   + Analyzing populations {#analyzing-populations}
        + [About descriptive analysis](reporting/using/about-descriptive-analysis.md)
        + [Using the descriptive analysis wizard](reporting/using/using-the-descriptive-analysis-wizard.md)
-       + [Processing a report](reporting/using/processing-a-report.md)
+       + [Using an analysis report](reporting/using/processing-a-report.md)
        + [Use cases](reporting/using/use-cases.md)
   + Creating new reports {#creating-new-reports}
        + [About reports creation in Campaign](reporting/using/about-reports-creation-in-campaign.md)

@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# About Adobe Campaign reporting tools{#about-adobe-campaign-reporting-tools}
+# Get started with Reporting {#about-adobe-campaign-reporting-tools}
 
 In addition to [built-in reports](../../reporting/using/about-campaign-built-in-reports.md), Adobe Campaign lets you generate reports in various contexts and to meet different needs. Principles of use and implementation modes are detailed in this document.
 
@@ -47,4 +47,3 @@ Adobe Campaign provides several reporting tools:
 >[!CAUTION]
 >
 >For easy display and manipulation, as well as efficient exporting, reports must not contain more than 1,000 lines.
-
