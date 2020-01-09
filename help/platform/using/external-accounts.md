@@ -150,10 +150,10 @@ Adobe Campaign provides several connectors that allow you to communicate with ex
 
 The following connection types can be configured:
 
-* Oracle. For more information, refer to this [page](../../platform/using/accessing-an-external-database.md#configure-access-to-oracle).
-* MySQL. To configure access to MYSQL, refer to this [page](../../platform/using/accessing-an-external-database.md#configure-access-to-mysql).
-* Netezza. For more information, refer to this [page](../../platform/using/accessing-an-external-database.md#configure-access-to-netezza).
-* SAP HANA. For more information, refer to this [page](../../platform/using/accessing-an-external-database.md#configure-access-to-sap-hanaa).
+* Oracle. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-oracle).
+* MySQL. To configure access to MYSQL, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-mysql).
+* Netezza. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-netezza).
+* SAP HANA. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hanaa).
 * InfiniDB
 * Microsoft SQL server
 * AsterData
@@ -166,7 +166,7 @@ The following connection types can be configured:
 
 ### Teradata external account {#teradata-external-account}
 
-The **Teradata** external account allows you to connect your Campaign instance to your Teradata external database. For more information on how to configure Campaign Classic with Teradata, refer to this [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) or this [section](../../platform/using/accessing-an-external-database.md#configure-access-to-teradata).
+The **Teradata** external account allows you to connect your Campaign instance to your Teradata external database. For more information on how to configure Campaign Classic with Teradata, refer to this [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) or this [section](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).
 
 ![](assets/ext_account_19.png)
 
@@ -404,7 +404,7 @@ The **[!UICONTROL Azure]** external account enables a connection to a shared ext
 
 ## Hadoop external account {#hadoop-external-account}
 
-The **[!UICONTROL Hadoop]** external account enables a connection to a shared external database, as long as this connection is active, the database can be accessed via Adobe Campaign. For more information on how to configure access to Hadoop, refer to this [section](../../platform/using/accessing-an-external-database.md#configure-access-to-hadoop).
+The **[!UICONTROL Hadoop]** external account enables a connection to a shared external database, as long as this connection is active, the database can be accessed via Adobe Campaign. For more information on how to configure access to Hadoop, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop).
 
 ![](assets/ext_account_16.png)
 
