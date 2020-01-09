@@ -1,8 +1,6 @@
 ---
-title: About deliverability
-seo-title: About deliverability
-description: About deliverability
-seo-description: 
+title: About deliverability in Adobe Campaign Classic
+description: Learn more about managing deliverability in Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
@@ -18,13 +16,14 @@ snippet: y
 
 # About deliverability{#about-deliverability}
 
-Adobe Campaign offers tools to track the deliverability performance of your platform. These functions are part of a dedicated option, the **Deliverability monitoring** module.
+Adobe Campaign offers a certain number of tools to track the deliverability performance of your platform. This section also highlights the main principles you should have in mind when managing and optimizing deliverability.
+<!--These functions are part of a dedicated option, the **Deliverability monitoring** module.-->
 
 >[!NOTE]
 >
 >Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices linked to deliverability.
 
-When this module is configured for your Adobe Campaign platform, you have access to the following information:
+<!--When this module is configured for your Adobe Campaign platform, you have access to the following information:
 
 * Technical tracking report for day to day deliverability performance (technical monitoring)
 * ISP inbox rendering report
@@ -32,7 +31,7 @@ When this module is configured for your Adobe Campaign platform, you have access
 
 >[!CAUTION]
 >
->The **Email Deliverability** module is a Campaign add-on. Please check your license agreement.
+>The **Email Deliverability** module is a Campaign add-on. Please check your license agreement.-->
 
 ## Background {#background}
 
