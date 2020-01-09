@@ -51,9 +51,17 @@ sub-product: adobe campaign classic
        + [Working with data packages](platform/using/working-with-data-packages.md)
        + [Managing enumerations](platform/using/managing-enumerations.md)
        + [External accounts](platform/using/external-accounts.md)
+  + Accessing an external database (FDA){#accessing-external-database}
+       + [About FDA](platform/using/about-fda.md)
+       + [Specific configurations by database type](platform/using/specific-configuration-database.md)
+       + [Remote database access rights](platform/using/remote-database-access-rights.md)
+       + [Connecting to the database](platform/using/connecting-to-database.md)
+       + [Creating the data schema](platform/using/creating-data-schema.md)
+       + [Defining data mapping](platform/using/defining-data-mapping.md)
+       + [Additional options](platform/using/additional-options.md)
+       + [Using data from an external database in a workflow](platform/using/data-external-database-workflow.md)
   + Connectors {#connectors}
        + [About connectors](platform/using/about-connectors.md)
-       + [Accessing an external database](platform/using/accessing-an-external-database.md)
        + [CRM Connectors](platform/using/crm-connectors.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}

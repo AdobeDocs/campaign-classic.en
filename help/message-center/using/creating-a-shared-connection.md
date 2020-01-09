@@ -73,7 +73,7 @@ To create an execution instance type external account, apply the following steps
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   For more information on Federated Data Access (FDA), refer to [Accessing an external database](../../platform/using/accessing-an-external-database.md).
+   For more information on Federated Data Access (FDA), refer to [Accessing an external database](../../platform/using/about-fda.md).
 
 1. Click **[!UICONTROL Test the connection]** to make sure the control instance and the execution instance are linked up.
 
