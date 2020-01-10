@@ -185,7 +185,7 @@ In order to build and maintain a good IP reputation, you must route regularly wi
 
 To track your reputation, refer to the main real-time blacklists (RBLs), such as SpamCop, SpamHaus, etc. RBLs are databases that contain the IP addresses of known spammers, as well as IPs with open mail relays, as spammers can easily use these systems to send out spam. All modern mail transport agents (mail servers) can be configured to automatically reject messages sent from a site listed on an RBL. Consequently, ending up on an RBL is a near-guarantee that your emails won't be delivered. It bears repeating that this can be detrimental not only to your marketing efforts but your business results.
 
-### Non-Commercial White Lists {#non-commercial-white-lists}
+<!--### Non-Commercial White Lists {#non-commercial-white-lists}
 
 Non-commercial white lists are maintained by the primary ISPs and email services such as Yahoo! and AOL. Inclusion on these white lists grants faster delivery, including via lifting of the "throttling" filter.
 
@@ -195,7 +195,19 @@ In order to be accepted to non-commercial white lists, email senders must pass a
 
 Commercial white lists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system. Those commercial white lists operate on a CPM (cost per thousand) or annual basis and are offered by independent commercial organizations such as Return Path. ISPs are free to use those services and the number that do vary depending on each white list.
 
-A sender that has been certified may then be more confident as it executes new campaigns. Some white lists also facilitate opening of images in Webmail interfaces and activation of hyperlinks. Certification on such commercial white lists has undeniable upside for email marketers.
+A sender that has been certified may then be more confident as it executes new campaigns. Some white lists also facilitate opening of images in Webmail interfaces and activation of hyperlinks. Certification on such commercial white lists has undeniable upside for email marketers.-->
+
+### Certification {#certification}
+
+Certification is a whitelisting and sending practices program that helps ensuring that emails are received without being blocked by antispam filters or other email blocking systems.
+
+Certified senders are added to email whitelists which are used by global mailbox providers and email security companies. These commercial whitelists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system.
+
+These paying whitelists (CPT or on an annual basis) are offered by systems such as [Return Path Certification](https://www.validity.com/products/returnpath/certification/).
+
+ISPs are free to use these services and the number of ISPs can vary depending on the whitelist. Certain whitelists also offer to open images and activate links.
+
+However, because more and more ISPs build their antispam filters based on each user behavior rather than analyzing the message content itself, using Return Path Certification or similar whitelisting program cannot be a delivery guarantee.
 
 ### Email Monitoring Reports {#email-monitoring-reports}
 
