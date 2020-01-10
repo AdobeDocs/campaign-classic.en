@@ -16,7 +16,21 @@ snippet: y
 
 # Release 19.2{#release-19-2}
 
-Find more about the latest release, the new features and patches.
+Find more about the latest release, its new features and patches.
+
+Starting Campaign Classic 19.2, a status is associated to each build. You'll find below the list of statuses, what it means and the associated image:
+
+| Image | Status | Description |
+|--- |--- |--- |
+| ![](assets/green.png) | General Availability | Latest stable build available. |
+| ![](assets/blue.png) | Release Candidate | This build has been validated by Adobe.  Waiting for production proofing. |
+| ![](assets/orange.png) | No longer available | No longer available |
+
+General Availability: Latest stable build available.
+Release Candidate: This build has been validated by Adobe.  Waiting for production proofing.
+No longer available:  This build holds no major issue but a newer build is available with additional bug fixes. Update is required.
+Deprecated: This build contains known regressions. Update is mandatory.
+
 
 | Additional resources: |  |
 |--- |--- |
