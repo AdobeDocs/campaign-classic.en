@@ -16,9 +16,7 @@ snippet: y
 
 # Release 19.2{#release-19-2}
 
-Find more about the latest release, its new features and patches.
-
-Starting Campaign Classic 19.2, a status is associated to each build. You'll find below the list of statuses, what it means and the associated image:
+Starting Campaign Classic 19.2, a status is associated to each build. You'll find below the list of statuses, what they means and the associated image:
 
 | Image | Status | Description |
 |--- |--- |--- |
@@ -26,11 +24,13 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
 | ![](assets/blue.png) | Release Candidate | This build has been validated by Adobe.  Waiting for production proofing. |
 | ![](assets/orange.png) | No longer available | This build holds no major issue but a newer build is available with additional bug fixes. Update is required. |
 
-| Additional resources: |  |
-|--- |--- |
-| [Upgrading to the latest build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |
-| [Latest Documentation Updates](../../rn/using/documentation-updates.md) | [Previous Release Notes](../../rn/using/release--19-1.md) |
-| [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) |   |
+_Additional resources:_
+
+* [Upgrading to the latest build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)
+* [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
+* [Latest Documentation Updates](../../rn/using/documentation-updates.md)
+* [Previous Release Notes](../../rn/using/release--19-1.md)
+* [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
 ## ![](assets/green.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
