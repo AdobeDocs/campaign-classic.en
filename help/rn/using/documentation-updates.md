@@ -22,13 +22,33 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## January 2020 {#january-2020}
+
+The use cases related to query designing have been reorganized into separate sections. [Read more](../../workflow/using/querying-recipient-table.md)
+
+The 'Tips and tricks on managing offers and using the Interaction module in Adobe Campaign Classic' documentation has been updated and moved to core documentation. [Read more](../../interaction/using/interaction-best-practices.md#tips-managing-offers)
+
+The Interaction documentation has been enriched with links to several videos that help understand better how to manage offers. [Read more](../../interaction/using/interaction-and-offer-management.md)
+
+The best practices article on how to optimize the queries running on your instance has been integrated into the documentation. [Read more](../../workflow/using/query.md#optimizing-queries)
+
+## December 2019 {#december-2019}
+
+The "WdbcOptions_TempDbName" option has been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
+
+The FDA matrix page has been moved [here](/help/rn/using/assets/fda_rdbms_rights.pdf).
+
+The Access Rights Matrix page has been moved [here](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf).
+
+The section describing how to define interactive content with AMP has been moved. [Read more](../../delivery/using/defining-interactive-content.md)
+
 ## 19.2 - 02/12/2019{#release-19-2}
 
 **New capabilities included in the release**
 
 California Consumer Privacy Act (CCPA) - [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
 
-Interactive content with AMP - [Read more](../../delivery/using/defining-the-email-content.md#amp-for-email-format)
+Interactive content with AMP - [Read more](../../delivery/using/defining-interactive-content.md)
 
 Workflow live monitoring - [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
@@ -76,8 +96,6 @@ A new troubleshooting page has been added for tracking in Campaign Classic. [Rea
 
 A new page of best practices for Adobe Analytics Data Connector has been added. [Read more on Adobe Analytics Data Connector](../../platform/using/adobe-analytics-data-connector.md)
 
-The Audience Manager integration page has been updated to reflect **Declared ID** changes. [Read more](../../integrations/using/submitting-request-to-adobe.md)
-
 The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 A recommendation has been added to the SMS channel documentation to avoid issues when using multiple external accounts leveraging the Extended generic SMPP connector with the same provider account. [Read more](../../delivery/using/sms-channel.md#automatic-reply)
@@ -100,7 +118,7 @@ The best practices for performance improvements of workflows and deliveries have
 
 **New capabilities included in the release**
 
-Control Panel - [Adobe Campaign Classic Release Notes](https://helpx.adobe.com/campaign/kb/control-panel.html)
+Control Panel - [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Audit trail - [Read more](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html)
 

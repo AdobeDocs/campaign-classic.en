@@ -1,8 +1,6 @@
 ---
-title: About mobile app channel
-seo-title: About mobile app channel
-description: About mobile app channel
-seo-description: 
+title: About mobile app channel in Adobe Campaign Classic
+description: This section provides general information specific to the mobile app channel in Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: e8d26b33-dc7c-4abd-956a-92f419a117e1
 contentOwner: sauviat

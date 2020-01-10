@@ -71,6 +71,7 @@ sub-product: adobe campaign classic
        + [About email channel](delivery/using/about-email-channel.md)
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Defining the email content](delivery/using/defining-the-email-content.md)
+       + [Defining interactive content](delivery/using/defining-interactive-content.md)
        + [Sending messages](delivery/using/sending-messages.md)
        + [Attaching files](delivery/using/attaching-files.md)
   + Sending messages on mobiles {#sending-messages-on-mobiles}
@@ -130,7 +131,7 @@ sub-product: adobe campaign classic
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Technical recommendations](delivery/using/technical-recommendations.md)
        + [Blacklisting databases](delivery/using/blacklisting-databases.md)
-  + Content management {#content-management}
+  + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
        + [Use case: creating content management](delivery/using/use-case--creating-content-management.md)
@@ -253,8 +254,7 @@ sub-product: adobe campaign classic
        + [Configuring surveys](web/using/configuring-surveys.md)
        + [Use case: creating a Refer A Friend form](web/using/use-case--creating-a-refer-a-friend-form.md)
 + Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
-  + Campaign integrations {#campaign-integrations}
-       + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
+  + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
   + Audience sharing {#audience-sharing}
        + [Sharing audiences with Adobe Experience Cloud](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
        + [Submitting request to Adobe](integrations/using/submitting-request-to-adobe.md)
@@ -369,7 +369,15 @@ sub-product: adobe campaign classic
        + [Sending a birthday email](workflow/using/sending-a-birthday-email.md)
        + [Loading delivery content](workflow/using/loading-delivery-content.md)
        + [Cross-channel delivery workflow](workflow/using/cross-channel-delivery-workflow.md)
-       + [Designing queries](workflow/using/designing-queries.md)
+       + Designing queries {#designing-queries}
+          + [Querying the recipient table](workflow/using/querying-recipient-table.md)
+          + [Querying delivery information](workflow/using/querying-delivery-information.md)
+          + [Performing aggregate computing](workflow/using/performing-aggregate-computing.md)
+          + [Querying using grouping management](workflow/using/querying-using-grouping-management.md)
+          + [Querying using a many-to-many-relationship](workflow/using/querying-using-many-to-many-relationship.md)
+          + [Adding an enumeration type calculated field](workflow/using/adding-enumeration-type-calculated-field.md)
+          + [Creating a filter](workflow/using/creating-a-filter.md)
+          + [Filtering duplicated recipients](workflow/using/filtering-duplicated-recipients.md)
        + [Sending personalized alerts to operators](workflow/using/sending-personalized-alerts-to-operators.md)
        + [Email enrichment with custom date fields](workflow/using/email-enrichment-with-custom-date-fields.md)
   + Monitoring workflows {#monitoring-workflows}
@@ -492,8 +500,7 @@ sub-product: adobe campaign classic
        + [Important notes](message-center/using/important-notes.md)
        + [Implementation](message-center/using/implementation.md)
 + Integrating with Social media {#integrating-with-social-media}
-  + Introduction {#introduction}
-       + [About social marketing](social/using/about-social-marketing.md)
+  + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}
        + [Starting workflows](social/using/starting-workflows.md)
        + [Publishing on Facebook walls](social/using/publishing-on-facebook-walls.md)
@@ -559,7 +566,7 @@ sub-product: adobe campaign classic
        + [The server configuration file](installation/using/the-server-configuration-file.md)
        + [Command lines](installation/using/command-lines.md)
        + [Creating new instances](installation/using/creating-new-instances.md)
-       + [Configuring Campaign options](installation/using/configuring-campaign-options.md)
+       + [List of Campaign Classic options](installation/using/configuring-campaign-options.md)
        + [Uninstalling Campaign](installation/using/uninstalling-campaign.md)
 + Monitoring Campaign Classic {#monitoring-campaign-classic}
   + Introduction {#introduction}
