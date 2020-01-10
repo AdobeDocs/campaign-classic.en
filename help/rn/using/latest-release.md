@@ -16,7 +16,7 @@ snippet: y
 
 # Release 19.2{#release-19-2}
 
-Starting Campaign Classic 19.2, a status is associated to each build. You'll find below the list of statuses, what they means and the associated image:
+Starting Campaign Classic 19.2, a status is associated to each build. You'll find below the list of statuses, what they mean and the associated image:
 
 | Image | Status | Description |
 |--- |--- |--- |
