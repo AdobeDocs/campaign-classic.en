@@ -32,10 +32,6 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
 | [Latest Documentation Updates](../../rn/using/documentation-updates.md) | [Previous Release Notes](../../rn/using/release--19-1.md) |
 | [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) |   |
 
->[!NOTE]
->
->Click [here](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) to learn more about build statuses.
-
 ## ![](assets/green.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
 _December 02, 2019_
