@@ -12,11 +12,12 @@ sub-product: adobe campaign classic
 + [Product documentation](campaign-classic-home.md)
 + [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
-  + [Release 19.2](rn/using/latest-release.md)
-  + [Release 19.1](rn/using/release--19-1.md)
-  + [Release 18.10](rn/using/release--18-10.md)
-  + [Release 18.6](rn/using/release--18-6.md)
-  + [Release 18.4](rn/using/release--18-4.md)
+  + [Latest Release](rn/using/latest-release.md)
+  + Previous Releases {#previous-releases}
+    + [Release 19.1](rn/using/release--19-1.md)
+    + [Release 18.10](rn/using/release--18-10.md)
+    + [Release 18.6](rn/using/release--18-6.md)
+    + [Release 18.4](rn/using/release--18-4.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -51,17 +52,9 @@ sub-product: adobe campaign classic
        + [Working with data packages](platform/using/working-with-data-packages.md)
        + [Managing enumerations](platform/using/managing-enumerations.md)
        + [External accounts](platform/using/external-accounts.md)
-  + Accessing an external database (FDA){#accessing-external-database}
-       + [About FDA](platform/using/about-fda.md)
-       + [Specific configurations by database type](platform/using/specific-configuration-database.md)
-       + [Remote database access rights](platform/using/remote-database-access-rights.md)
-       + [Connecting to the database](platform/using/connecting-to-database.md)
-       + [Creating the data schema](platform/using/creating-data-schema.md)
-       + [Defining data mapping](platform/using/defining-data-mapping.md)
-       + [Additional options](platform/using/additional-options.md)
-       + [Using data from an external database in a workflow](platform/using/data-external-database-workflow.md)
   + Connectors {#connectors}
        + [About connectors](platform/using/about-connectors.md)
+       + [Accessing an external database](platform/using/accessing-an-external-database.md)
        + [CRM Connectors](platform/using/crm-connectors.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}
@@ -192,22 +185,17 @@ sub-product: adobe campaign classic
 + Reporting {#reporting}
   + Reporting in Adobe Campaign {#reporting-in-adobe-campaign}
        + [About Adobe Campaign reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
-       + [Best practices for reporting](reporting/using/best-practices.md)
+       + [Analyzing needs](reporting/using/analyzing-needs.md)
+       + [Optimizing report creation](reporting/using/optimizing-report-creation.md)
   + Accessing built-in reports {#accessing-built-in-reports}
        + [About Campaign built-in reports](reporting/using/about-campaign-built-in-reports.md)
        + [Accessing reports](reporting/using/accessing-reports.md)
        + [List of reports](reporting/using/list-of-reports.md)
-  + [Reports on deliveries]{#reports-on-deliveries}
-       + [About reports on deliveries](reporting/using/reports-on-deliveries.md) 
-       + [Global reports](reporting/using/global-reports.md)
-       + [Delivery reports](reporting/using/delivery-reports.md)
-       + [Cumulative reports](reporting/using/cumulative-reports.md)
-       + [Indicator calculation](reporting/using/indicator-calculation.md)
-       + [Person/people and recipients](reporting/using/person-people-recipients.md)
+       + [Reports on deliveries](reporting/using/reports-on-deliveries.md)
   + Analyzing populations {#analyzing-populations}
        + [About descriptive analysis](reporting/using/about-descriptive-analysis.md)
        + [Using the descriptive analysis wizard](reporting/using/using-the-descriptive-analysis-wizard.md)
-       + [Using an analysis report](reporting/using/processing-a-report.md)
+       + [Processing a report](reporting/using/processing-a-report.md)
        + [Use cases](reporting/using/use-cases.md)
   + Creating new reports {#creating-new-reports}
        + [About reports creation in Campaign](reporting/using/about-reports-creation-in-campaign.md)
