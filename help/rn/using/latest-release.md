@@ -16,17 +16,23 @@ snippet: y
 
 # Release 19.2{#release-19-2}
 
+Find more about the latest release, the new features and patches.
+
+| Additional resources: |  |
+|--- |--- |
+| [Upgrading to the latest build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |
+| [Latest Documentation Updates](../../rn/using/documentation-updates.md) | [Previous Release Notes](../../rn/using/release--19-1.md) |
+| [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) |   |
+
 >[!NOTE]
 >
 >Click [here](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) to learn more about build statuses.
 
-## Release 19.2 - Build 9080 {#release-19-2-build-9080} 
-
-![](assets/label_release_candidate.png)
+## ![](assets/green.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
 _December 02, 2019_
 
-### What's new?
+**What's new?**
 
 <table> 
  <thead> 
@@ -62,12 +68,12 @@ _December 02, 2019_
  </tbody> 
 </table>
 
-### Security enhancements
+**Security enhancements**
 
 * Fixed Stored Cross Site Scripting vulnerabilities in Campaign interface – input data validation and output encoding. (NEO-16810)
 * Fixed a security issue on profile authorization which could allow access to unauthorized data, by reinforcing login restriction policy. (NEO-14445)
 
-### Improvements
+**Improvements**
 
 * Memory consumption optimization for Push Notifications.
 * For performance and storage optimization, the handling of the **logins.log** file has been enhanced. The file is now split into multiple files, one each day with a maximum of 365 files retained. [Read more](../../production/using/log-files.md)
@@ -85,7 +91,7 @@ _December 02, 2019_
 * New support of proxy access to an SFTP external server for on-premise environments.
 * A specific guardrail has been added to prevent installation of packages which are not compatible with the Campaign instance. [Read more](../../installation/using/installing-campaign-standard-packages.md)
 
-**Deprecated systems**
+_Deprecated systems_
 
 The following systems are now [deprecated](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) for Campaign Classic implementations:
 * Apache 2.2 
@@ -93,11 +99,11 @@ The following systems are now [deprecated](https://helpx.adobe.com/campaign/kb/d
 
 Please ensure you are on supported versions of any systems listed in the latest Campaign Compatibility matrix. [Read more](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
-**Campaign Mobile SDK**
+_Campaign Mobile SDK_
 
 The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve added the support of iOS 13. This new version now supports notification priority and the new registration token management process for iOS 13 Push notifications. If you’re running applications on a previous version of the SDK, you need to recompile your applications with the new SDK. To get the SDK, please contact Adobe Customer Care.
 
-### Patches
+**Patches**
 
 * Fixed console crash that could occur when adding an empty linked table in the **Data Loading (RDBMS)** workflow activity. (NEO-12213)
 * Fixed an issue which could lead to certain messages not being processed by the Mid-Sourcing server. (NEO-12395)
