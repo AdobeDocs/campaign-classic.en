@@ -61,6 +61,53 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
  </tbody> 
 </table>
 
+<table> 
+ <tbody> 
+  <tr> 
+   <td><img src="assets/green.png"/><strong>General Availability</strong></td>
+   <td><img src="assets/blue.png"/><strong>Release Candidate</strong></td> 
+   <td><img src="assets/orange.png"/><strong>No longer available</strong></td> 
+  </tr> 
+   <tr> 
+   <td>Latest stable build available.</td>
+   <td>This build has been validated by Adobe. Waiting for production proofing.</td>
+   <td>This build holds no major issue but a newer build is available with additional bug fixes. Update is required.</td>
+  </tr> 
+ </tbody> 
+</table>
+
+<table>
+<tr>
+  <td>
+    <img alt="FAQ" src="platform/using/assets/FAQ.png"/>
+    <div>
+    <img src="assets/green.png"/><strong>General Availability</strong>
+    </div>
+    <p>
+    <em>Latest stable build available.</em>
+    <p>
+  </td>
+  <td>
+    <img alt="Build Upgrade" src="platform/using/assets/upgrade.png" />
+    <div>
+    <img src="assets/blue.png"/><strong>Release Candidate</strong>
+    </div>
+    <p>
+    <em>This build has been validated by Adobe. Waiting for production proofing.</em>
+    <p>
+  </td>
+   <td>
+    <img alt="Push notifications" src="platform/using/assets/push.png" />
+    <div>
+    <img src="assets/orange.png"/><strong>No longer available</strong>
+    </div>
+    <p>
+    <em>This build holds no major issue but a newer build is available with additional bug fixes. Update is required.</em>
+    <p>
+  </td>
+</tr>
+</table>
+
 | Additional resources: |  |
 |--- |--- |
 | [Upgrading to the latest build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |
