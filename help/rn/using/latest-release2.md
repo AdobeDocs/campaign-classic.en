@@ -44,6 +44,23 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
  </tbody> 
 </table>
 
+<table> 
+ <tbody> 
+  <tr> 
+   <td><img src="assets/green.png"/><strong>General Availability</strong></td>
+   <td>Latest stable build available.</td>
+  </tr> 
+   <tr> 
+   <td><img src="assets/blue.png"/><strong>Release Candidate</strong></td> 
+   <td>This build has been validated by Adobe.  Waiting for production proofing.</td>
+  </tr> 
+  <tr> 
+   <td><img src="assets/orange.png"/><strong>No longer available</strong></td> 
+   <td>This build holds no major issue but a newer build is available with additional bug fixes. Update is required.</td>
+  </tr> 
+ </tbody> 
+</table>
+
 | Additional resources: |  |
 |--- |--- |
 | [Upgrading to the latest build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |
