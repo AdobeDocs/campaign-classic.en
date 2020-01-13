@@ -18,11 +18,22 @@ snippet: y
 
 Starting Campaign Classic 19.2, a status is associated to each build. You'll find below the list of statuses, what they mean and the associated image:
 
-| Image | Status | Description |
-|--- |--- |--- |
-| ![](assets/green.png) | General Availability | Latest stable build available. |
-| ![](assets/blue.png) | Release Candidate | This build has been validated by Adobe.  Waiting for production proofing. |
-| ![](assets/orange.png) | No longer available | This build holds no major issue but a newer build is available with additional bug fixes. Update is required. |
+<table> 
+ <tbody> 
+  <tr> 
+   <td><img src="assets/green3.png"/><strong>General Availability</strong></td>
+   <td><img src="assets/blue3.png"/><strong>Release Candidate</strong></td> 
+   <td><img src="assets/orange3.png"/><strong>No longer available</strong></td> 
+   <td><img src="assets/red3.png"/><strong>Deprecated</strong></td> 
+  </tr> 
+   <tr> 
+   <td>Latest stable build available. Build validated in production.</td>
+   <td>Build validated by Adobe. Waiting for production proofing.</td>
+   <td>Newer build available with bug fixes. Update is required.</td>
+   <td>Contains known regressions. Update is mandatory.</td>
+  </tr> 
+ </tbody> 
+</table>
 
 _Additional resources:_
 
@@ -32,7 +43,7 @@ _Additional resources:_
 * [Previous Release Notes](../../rn/using/release--19-1.md)
 * [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
-## ![](assets/blue.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
+## ![](assets/blue2.png "Release Candidate") Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
 _December 02, 2019_
 
@@ -41,33 +52,60 @@ _December 02, 2019_
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> California Consumer Privacy Act (CCPA)<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> California Consumer Privacy Act (CCPA)<br /> </td> 
    <td> <p>CCPA is the State of California’s new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.</p>
     <p>In addition to the privacy capabilities already available (including consent management, data retention settings, and user roles), Adobe Campaign helps facilitate your readiness for CCPA:</p>
     <ul>
       <li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">Read more</a></li>
       <li>You can track whether a consumer has opted-out for the sale of Personal Information. For this, you need to extend the Profiles table and add an <strong>Opt-Out for CCPA</strong> field. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">Read more</a></li></td> 
   </tr> 
-    <tr> 
-   <td> Workflow live monitoring<br /> </td> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Workflow live monitoring<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
    <td> <p>You can now monitor the execution status of all workflows on your instance using predefined views.</p>
    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">detailed documentation</a>.</p></td> 
   </tr> 
+ </tbody> 
+</table>
+
+
+<table> 
+ <thead> 
   <tr> 
-   <td> Interactive content with AMP<br /> </td> 
-   <td> <p>Adobe Campaign enables you to try out the new interactive <a href="https://amp.dev/about/email/">AMP for Email</a> format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.</p>
+   <th> Interactive content with AMP<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+<td> <p>Adobe Campaign enables you to try out the new interactive <a href="https://amp.dev/about/email/">AMP for Email</a> format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.</p>
    <p>This capability is released as a public beta.</p>
    <p>For more information, refer to the <a href="../../delivery/using/defining-interactive-content.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
   </tr> 
-   <tr> 
-   <td> Secure SMS Messaging (TLS)<br /> </td> 
-   <td> <p>Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.</p> <p><strong>Warning</strong> This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html">detailed documentation</a>. </p> </td> 
+ </tbody> 
+</table>
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Secure SMS Messaging (TLS)<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+<td> <p>Secured SMS is now supported through the Extended Generic SMPP Connector. This allows an encrypted connection to the provider.</p> <p><strong>Warning</strong> This feature requires an up-to-date certificate on all servers. Invalid, revoked or expired certificates will generate errors affecting the overall SMS sending capabilities.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html">detailed documentation</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
