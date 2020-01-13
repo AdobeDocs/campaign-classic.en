@@ -126,7 +126,7 @@ sub-product: adobe campaign classic
        + [Implementation](delivery/using/implementation.md)
        + [Configuration](delivery/using/configuration.md)
        + [Technical monitoring](delivery/using/technical-monitoring.md)
-       + [Inbox monitoring](delivery/using/inbox-monitoring.md)
+       <!--+ [Monitoring deliverability](delivery/using/monitoring.md)-->
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Technical recommendations](delivery/using/technical-recommendations.md)
