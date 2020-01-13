@@ -1,5 +1,5 @@
 ---
-title: Release 19.2 
+title: Latest Release
 description: Campaign Classic 19.2 Release Notes
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -27,10 +27,10 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
    <td><img src="assets/red3.png"/><strong>Deprecated</strong></td> 
   </tr> 
    <tr> 
-   <td>Latest stable build available. Build validated in production.</td>
-   <td>Build validated by Adobe. Waiting for production proofing.</td>
-   <td>Newer build available with bug fixes. Update is required.</td>
-   <td>Contains known regressions. Update is mandatory.</td>
+   <td>Latest stable build available. Build validated in production.<br>&nbsp;</td>
+   <td>Build validated by Adobe. Waiting for production proofing.<br>&nbsp;</td>
+   <td>Newer build available with bug fixes. Update is required.<br>&nbsp;</td>
+   <td>Contains known regressions. Update is mandatory.<br>&nbsp;</td>
   </tr> 
  </tbody> 
 </table>
