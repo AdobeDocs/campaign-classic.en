@@ -13,6 +13,7 @@ sub-product: adobe campaign classic
 + [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/latest-release.md)
+  + [Latest Release 2](rn/using/latest-release2.md)
   + Previous Releases {#previous-releases}
     + [Release 19.1](rn/using/release--19-1.md)
     + [Release 18.10](rn/using/release--18-10.md)
