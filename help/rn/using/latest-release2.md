@@ -19,7 +19,9 @@ snippet: y
 Starting Campaign Classic 19.2, a status is associated to each build. You'll find below the list of statuses, what they mean and the associated image:
 
 ![](assets/green2.png) **General Availability:** latest stable build available.
+
 ![](assets/blue2.png) **Release Candidate:** this build has been validated by Adobe.  Waiting for production proofing.
+
 ![](assets/orange2.png) **No longer available:** this build holds no major issue but a newer build is available with additional bug fixes. Update is required.
 
 | Additional resources: |  |
