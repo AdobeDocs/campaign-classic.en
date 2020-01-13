@@ -24,6 +24,12 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
 
 ![](assets/orange2.png) **No longer available:** newer build available, update required.
 
+![](assets/green3.png) **General Availability:** latest stable build available.
+
+![](assets/blue3.png) **Release Candidate:** validated by Adobe, waiting for production proofing.
+
+![](assets/orange3.png) **No longer available:** newer build available, update required.
+
 <table> 
  <tbody> 
   <tr> 
@@ -44,18 +50,43 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
  </tbody> 
 </table>
 
+
+
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green.png"/><strong>General Availability</strong></td>
+   <td><img src="assets/green3.png"/><strong>General Availability</strong></td>
    <td>Latest stable build available.</td>
   </tr> 
    <tr> 
-   <td><img src="assets/blue.png"/><strong>Release Candidate</strong></td> 
+   <td><img src="assets/blue3.png"/><strong>Release Candidate</strong></td> 
    <td>This build has been validated by Adobe.  Waiting for production proofing.</td>
   </tr> 
   <tr> 
-   <td><img src="assets/orange.png"/><strong>No longer available</strong></td> 
+   <td><img src="assets/orange3.png"/><strong>No longer available</strong></td> 
+   <td>This build holds no major issue but a newer build is available with additional bug fixes. Update is required.</td>
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+    <thead> 
+  <tr> 
+   <th> Status<br /> </th> 
+      <th> Description<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td><img src="assets/green3.png"/><strong>General Availability</strong></td>
+   <td>Latest stable build available.</td>
+  </tr> 
+   <tr> 
+   <td><img src="assets/blue3.png"/><strong>Release Candidate</strong></td> 
+   <td>This build has been validated by Adobe.  Waiting for production proofing.</td>
+  </tr> 
+  <tr> 
+   <td><img src="assets/orange3.png"/><strong>No longer available</strong></td> 
    <td>This build holds no major issue but a newer build is available with additional bug fixes. Update is required.</td>
   </tr> 
  </tbody> 
@@ -64,9 +95,9 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green.png"/><strong>General Availability</strong></td>
-   <td><img src="assets/blue.png"/><strong>Release Candidate</strong></td> 
-   <td><img src="assets/orange.png"/><strong>No longer available</strong></td> 
+   <td><img src="assets/green3.png"/><strong>General Availability</strong></td>
+   <td><img src="assets/blue3.png"/><strong>Release Candidate</strong></td> 
+   <td><img src="assets/orange3.png"/><strong>No longer available</strong></td> 
   </tr> 
    <tr> 
    <td>Latest stable build available.</td>
@@ -76,30 +107,31 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
  </tbody> 
 </table>
 
+
 <table>
 <tr>
   <td>
-    <img alt="FAQ" src="platform/using/assets/FAQ.png"/>
+    <img src="assets/stable.png"/>
     <div>
-    <img src="assets/green.png"/><strong>General Availability</strong>
+    <img src="assets/green3.png"/><strong>General Availability</strong>
     </div>
     <p>
     <em>Latest stable build available.</em>
     <p>
   </td>
   <td>
-    <img alt="Build Upgrade" src="platform/using/assets/upgrade.png" />
+    <img src="assets/available.png" />
     <div>
-    <img src="assets/blue.png"/><strong>Release Candidate</strong>
+    <img src="assets/blue3.png"/><strong>Release Candidate</strong>
     </div>
     <p>
     <em>This build has been validated by Adobe. Waiting for production proofing.</em>
     <p>
   </td>
    <td>
-    <img alt="Push notifications" src="platform/using/assets/push.png" />
+    <img src="assets/update.png" />
     <div>
-    <img src="assets/orange.png"/><strong>No longer available</strong>
+    <img src="assets/orange3.png"/><strong>No longer available</strong>
     </div>
     <p>
     <em>This build holds no major issue but a newer build is available with additional bug fixes. Update is required.</em>
