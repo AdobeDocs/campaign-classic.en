@@ -13,6 +13,7 @@ sub-product: adobe campaign classic
 + [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/latest-release.md)
+  + [Latest Release 2](rn/using/latest-release2.md)
   + Previous Releases {#previous-releases}
     + [Release 19.1](rn/using/release--19-1.md)
     + [Release 18.10](rn/using/release--18-10.md)
@@ -185,8 +186,6 @@ sub-product: adobe campaign classic
 + Reporting {#reporting}
   + Reporting in Adobe Campaign {#reporting-in-adobe-campaign}
        + [About Adobe Campaign reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
-       + [Analyzing needs](reporting/using/analyzing-needs.md)
-       + [Optimizing report creation](reporting/using/optimizing-report-creation.md)
   + Accessing built-in reports {#accessing-built-in-reports}
        + [About Campaign built-in reports](reporting/using/about-campaign-built-in-reports.md)
        + [Accessing reports](reporting/using/accessing-reports.md)

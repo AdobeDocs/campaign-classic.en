@@ -1,5 +1,5 @@
 ---
-title: Release 19.2 
+title: Release 19.2 2
 description: Campaign Classic 19.2 Release Notes
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -18,21 +18,17 @@ snippet: y
 
 Starting Campaign Classic 19.2, a status is associated to each build. You'll find below the list of statuses, what they mean and the associated image:
 
-| Image | Status | Description |
-|--- |--- |--- |
-| ![](assets/green.png) | General Availability | Latest stable build available. |
-| ![](assets/blue.png) | Release Candidate | This build has been validated by Adobe.  Waiting for production proofing. |
-| ![](assets/orange.png) | No longer available | This build holds no major issue but a newer build is available with additional bug fixes. Update is required. |
+![](assets/green2.png) **General Availability:** latest stable build available.
+![](assets/blue2.png) **Release Candidate:** this build has been validated by Adobe.  Waiting for production proofing.
+![](assets/orange2.png) **No longer available:** this build holds no major issue but a newer build is available with additional bug fixes. Update is required.
 
-_Additional resources:_
+| Additional resources: |  |
+|--- |--- |
+| [Upgrading to the latest build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |
+| [Latest Documentation Updates](../../rn/using/documentation-updates.md) | [Previous Release Notes](../../rn/using/release--19-1.md) |
+| [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) |   |
 
-* [Upgrading to the latest build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)
-* [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
-* [Latest Documentation Updates](../../rn/using/documentation-updates.md)
-* [Previous Release Notes](../../rn/using/release--19-1.md)
-* [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
-
-## ![](assets/blue.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
+## ![](assets/blue2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
 _December 02, 2019_
 
