@@ -32,7 +32,7 @@ _Additional resources:_
 * [Previous Release Notes](../../rn/using/release--19-1.md)
 * [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
-## ![](assets/green.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
+## ![](assets/blue.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
 _December 02, 2019_
 
