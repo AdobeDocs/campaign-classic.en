@@ -27,17 +27,17 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
 <table> 
  <tbody> 
   <tr> 
-   <td>![](assets/green.png)</td> 
+   <td><img src="assets/green.png"/></td>
    <td>General Availability</td>
    <td>Latest stable build available.</td>
   </tr> 
    <tr> 
-   <td>![](assets/blue.png)</td> 
+   <td><img src="assets/blue.png"/></td> 
    <td>Release Candidate</td>
    <td>This build has been validated by Adobe.  Waiting for production proofing.</td>
   </tr> 
   <tr> 
-   <td>![](assets/orange.png)</td> 
+   <td><img src="assets/orange.png"/></td> 
    <td>No longer available</td>
    <td>This build holds no major issue but a newer build is available with additional bug fixes. Update is required.</td>
   </tr> 
