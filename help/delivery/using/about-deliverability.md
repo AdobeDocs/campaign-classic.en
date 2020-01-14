@@ -197,17 +197,33 @@ Commercial white lists are based on a system that allows the sender to bypass an
 
 A sender that has been certified may then be more confident as it executes new campaigns. Some white lists also facilitate opening of images in Webmail interfaces and activation of hyperlinks. Certification on such commercial white lists has undeniable upside for email marketers.-->
 
-### Certification {#certification}
+### IP certification {#ip-certification}
 
 Certification is a whitelisting and sending practices program that helps ensuring that emails are received without being blocked by antispam filters or other email blocking systems.
 
+Currently two providers offer IP Certification: Return Path and Certified Senders Alliance.
+
 Certified senders are added to email whitelists which are used by global mailbox providers and email security companies. These commercial whitelists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system.
 
-These paying whitelists (CPT or on an annual basis) are offered by systems such as [Return Path Certification](https://www.validity.com/products/returnpath/certification/).
+The [Return Path Certification](https://www.validity.com/products/returnpath/certification/) program offers a number of benefits, including the following:
 
-ISPs are free to use these services and the number of ISPs can vary depending on the whitelist. Certain whitelists also offer to open images and activate links.
+* A measurable increase in inbox placement at top mailbox providers like Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru, and more
+* Favorable reputation and treatment at critical filters like Cloudmark, SpamAssassin, and Cisco Ironport
+* A compliance team dedicated to 24/7 monitoring, providing you with security alerts and working with you through the resolution of any compromises
+* Mailbox provider data delivering detailed information about your KPIs, placement, and Certification performance
+* Simplified and faster IP warming, including stronger reputation and recognition when you migrate or obtain a new IP address
+* Monitoring that can alert to possible IP configuration issues
 
-However, because more and more ISPs build their antispam filters based on each user behavior rather than analyzing the message content itself, using Return Path Certification or similar whitelisting program cannot be a delivery guarantee.
+The [Certified Senders Alliance](https://certified-senders.org/certification-process/) Certification offers amongst other benefits:
+
+* Certification of senders of commercial emails who can comply with high quality standards
+* Improved delivery and deliverability of commercial emails to increase the inbox placement rate and reduce spam filtering
+* Protection from legal and financial risks by fully complying with legal standards
+* Protecting reputation by means of early warnings from the CSA Complaints Office and daily spam trap reports
+
+ISPs are free to use these services and the number of ISPs can vary depending on the whitelist.
+
+However, because more and more ISPs build their antispam filters based on each user behavior rather than analyzing the message content itself, using IP Certification cannot be a guarantee of Inbox placement or even delivery.
 
 ### Email Monitoring Reports {#email-monitoring-reports}
 
