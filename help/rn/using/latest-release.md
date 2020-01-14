@@ -16,9 +16,7 @@ snippet: y
 
 # Latest Release{#latest-release}
 
-[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Latest Documentation Updates](../../rn/using/documentation-updates.md)
-
-[Previous Release Notes](../../rn/using/release--19-1.md) &#124; [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) &#124; [Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Latest Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
