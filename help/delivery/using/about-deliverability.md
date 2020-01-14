@@ -209,10 +209,9 @@ The [Return Path Certification](https://www.validity.com/products/returnpath/cer
 
 * A measurable increase in inbox placement at top mailbox providers like Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru, and more
 * Favorable reputation and treatment at critical filters like Cloudmark, SpamAssassin, and Cisco Ironport
-* A compliance team dedicated to 24/7 monitoring, providing you with security alerts and working with you through the resolution of any compromises
-* Mailbox provider data delivering detailed information about your KPIs, placement, and Certification performance
-* Simplified and faster IP warming, including stronger reputation and recognition when you migrate or obtain a new IP address
-* Monitoring that can alert to possible IP configuration issues
+* A compliance team dedicated to 24/7 monitoring, providing with security alerts and working with you through the resolution of any compromises
+* Mailbox provider data delivering detailed information about KPIs, placement, and Certification performance
+* Simplified and faster IP warming, including stronger reputation and recognition when migrating or obtaining a new IP address
 
 The [Certified Senders Alliance](https://certified-senders.org/certification-process/) Certification offers amongst other benefits:
 
@@ -223,7 +222,7 @@ The [Certified Senders Alliance](https://certified-senders.org/certification-pro
 
 ISPs are free to use these services and the number of ISPs can vary depending on the whitelist.
 
-However, because more and more ISPs build their antispam filters based on each user behavior rather than analyzing the message content itself, using IP Certification cannot be a guarantee of Inbox placement or even delivery.
+However, because more and more ISPs build their antispam filters based on each user behavior rather than analyzing the message content itself, using IP Certification cannot be a guarantee of inbox placement or even delivery.
 
 ### Email Monitoring Reports {#email-monitoring-reports}
 
