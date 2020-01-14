@@ -16,7 +16,9 @@ snippet: y
 
 # Latest Release{#latest-release}
 
-Starting Campaign Classic 19.2, a status is associated to each build. You'll find below the list of statuses, what they mean and the associated image:
+[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Latest Documentation Updates](../../rn/using/documentation-updates.md)
+
+[Previous Release Notes](../../rn/using/release--19-1.md) &#124; [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) &#124; [Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 <table> 
  <tbody> 
@@ -35,13 +37,7 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
  </tbody> 
 </table>
 
-_Additional resources:_
-
-* [Upgrading to the latest build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)
-* [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
-* [Latest Documentation Updates](../../rn/using/documentation-updates.md)
-* [Previous Release Notes](../../rn/using/release--19-1.md)
-* [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032) to view the **last stable build** (GA).
 
 ## ![](assets/blue2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
