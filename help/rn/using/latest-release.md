@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Release 19.2{#release-19-2}
+# Latest Release{#latest-release}
 
 Starting Campaign Classic 19.2, a status is associated to each build. You'll find below the list of statuses, what they mean and the associated image:
 
@@ -52,7 +52,7 @@ _December 02, 2019_
 <table> 
  <thead> 
   <tr> 
-   <th> California Consumer Privacy Act (CCPA)<br /> </th> 
+   <th> <strong>California Consumer Privacy Act (CCPA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -69,7 +69,7 @@ _December 02, 2019_
 <table> 
  <thead> 
   <tr> 
-   <th> Workflow live monitoring<br /> </th> 
+   <th> <strong>Workflow live monitoring</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -84,7 +84,7 @@ _December 02, 2019_
 <table> 
  <thead> 
   <tr> 
-   <th> Interactive content with AMP<br /> </th> 
+   <th> <strong>Interactive content with AMP</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -100,7 +100,7 @@ _December 02, 2019_
 <table> 
  <thead> 
   <tr> 
-   <th> Secure SMS Messaging (TLS)<br /> </th> 
+   <th> <strong>Secure SMS Messaging (TLS)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
