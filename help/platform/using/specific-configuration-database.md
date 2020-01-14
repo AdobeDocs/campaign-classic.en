@@ -256,8 +256,50 @@ As a general rule, you need to install the corresponding client layer on the ext
 
        Name of your database
 
+## Configure access to Hadoop 3.0 {#configure-access-to-hadoop}
 
-## Configure access to Hadoop {#configure-access-to-hadoop}
+Connecting to an Hadoop external database in FDA requires the following configurations on the Adobe Campaign server. Note that this configuration is available for both Windows and Linux.
+
+1. Download the ODBC drivers for Hadoop depending on your OS version. Drivers can be found on this [page](https://www.cloudera.com/downloads.html).
+
+1. You then need to install the ODBC drivers and create a DSN for your Hive connection. Instruction can be found [here](https://docs.cloudera.com/documentation/other/connectors/hive-odbc/2-6-5/Cloudera-ODBC-Driver-for-Apache-Hive-Install-Guide.pdf)
+
+1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
+
+     ```
+    systemctl stop nlserver.service
+    systemctl start nlserver.service
+     ```
+   
+1. In Campaign Classic, configure your Hadoop external account in Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+
+1. Unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+
+1. Click **[!UICONTROL Create]** and select **[!UICONTROL External database]** as Account type.
+
+1. To configure the **[!UICONTROL  Hadoop]** external account:
+
+    * **[!UICONTROL Type]**
+  
+      ODBC (Sybase ASE, Sybase IQ)
+
+    * **[!UICONTROL Account]**
+
+      Name of the user
+
+    * **[!UICONTROL Password]**
+
+      User account password
+
+    * **[!UICONTROL Database]**
+
+      Name of your database if not specified in DSN. It an be left empty if specified in the DSN
+
+    * **[!UICONTROL Timezone]**
+
+      Server time zone
+
+## Configure access to Hadoop 2.1 {#configure-access-to-hadoop}
 
 Connecting to an Hadoop external database in FDA requires the following configurations on the Adobe Campaign server.
 
