@@ -10,7 +10,7 @@ sub-product: adobe campaign classic
 # Adobe Campaign Classic Help {#using}
 
 + [Product documentation](campaign-classic-home.md)
-+ [Latest Updates](rn/using/documentation-updates.md)
++ [Latest updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/latest-release.md)
   + Previous Releases {#previous-releases}
