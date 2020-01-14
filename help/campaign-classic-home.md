@@ -24,7 +24,7 @@ Learn how to monitor your Campaign instance and processes
 * **[Interactive content with AMP](delivery/using/defining-interactive-content.md)**<br/>
 Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/about/email/) format
 
-* **[Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)**<br/>
+* **[Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)**<br/>
 Learn how to manage settings and track usage of your Campaign instance
 
 [Click here for more updates](/help/rn/using/documentation-updates.md)
