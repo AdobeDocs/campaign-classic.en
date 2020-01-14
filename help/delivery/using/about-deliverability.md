@@ -197,9 +197,9 @@ Commercial white lists are based on a system that allows the sender to bypass an
 
 A sender that has been certified may then be more confident as it executes new campaigns. Some white lists also facilitate opening of images in Webmail interfaces and activation of hyperlinks. Certification on such commercial white lists has undeniable upside for email marketers.-->
 
-### IP certification {#ip-certification}
+### IP Certification {#ip-certification}
 
-Certification is a whitelisting and sending practices program that helps ensuring that emails are received without being blocked by antispam filters or other email blocking systems.
+IP Certification is a whitelisting and sending practices program that helps ensuring that emails are received without being blocked by antispam filters or other email blocking systems.
 
 Currently two providers offer IP Certification: Return Path and Certified Senders Alliance.
 
