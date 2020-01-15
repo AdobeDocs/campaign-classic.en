@@ -26,7 +26,7 @@ This activity offers three different methods:
 1. Processing the data contained in a list.
 1. Using data contained in an existing cube.
 
-The choice of method depends on the type of calculation, the data volume and their durability, etc. All these parameters must be examined carefully to avoid overloading the Adobe Campaign database and to optimize the generation and manipulation of the created reports. For more on this, refer to [this page](../../reporting/using/optimizing-report-creation.md).
+The choice of method depends on the type of calculation, the data volume and their durability, etc. All these parameters must be examined carefully to avoid overloading the Adobe Campaign database and to optimize the generation and manipulation of the created reports. For more on this, refer to [this page](../../reporting/using/best-practices.md#optimizing-report-creation).
 
 In all cases, data is collected via a **[!UICONTROL Query]** type activity.
 

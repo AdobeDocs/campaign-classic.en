@@ -28,6 +28,6 @@ The delivery dashboard is also key to monitor your deliveries and eventual issue
 
 * [How to configure tracked links](../../delivery/using/how-to-configure-tracked-links.md)
 * [Forwarding of tracking logs](../../production/using/tracking-logs-issues.md)
-* [Delivery reports](../../reporting/using/reports-on-deliveries.md#delivery-reports)
+* [Delivery reports](../../reporting/using/delivery-reports.md)
 * [Tracking a web application](../../web/using/tracking-a-web-application.md)
 * [Web application tracking opt-out](../../web/using/web-application-tracking-opt-out.md)

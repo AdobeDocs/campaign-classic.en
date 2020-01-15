@@ -22,7 +22,7 @@ snippet: y
 
 The built-in reports provided by Adobe Campaign can be found in the table below.
 
-For more on the content of these reports, refer to [this section](../../reporting/using/reports-on-deliveries.md#delivery-reports).
+For more on the content of these reports, refer to [this section](../../reporting/using/delivery-reports.md).
 
 <table> 
  <tbody> 
