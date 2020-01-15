@@ -184,7 +184,7 @@ As a general rule, you need to install the corresponding client layer on the ext
 
        Name of your database
 
-### Snowflake on Windows {snowflake-windows}
+### Snowflake on Windows {#snowflake-windows}
 
 1. Download the [ODBC driver for Windows](https://docs.snowflake.net/manuals/user-guide/odbc-download.html). Note that you need administrator-level privileges to install the driver. For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)
 
@@ -214,7 +214,7 @@ As a general rule, you need to install the corresponding client layer on the ext
 
        Name of your database
 
-### Snowflake on Debian {snowflake-debian}
+### Snowflake on Debian {#snowflake-debian}
 
 1. Download the ODBC drivers for Snowflake. Drivers for Snowflake can be found [here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html).
 
