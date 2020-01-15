@@ -32,7 +32,6 @@ snippet: y
 * **SQL code and JavaScript code**: executes the SQL script or JavaScript specified in the activity. Refer to [SQL code and JavaScript code](../../workflow/using/sql-code-and-javascript-code.md).
 * **SQL Data Management**: lets you write your own SQL queries to create and populate work tables. Refer to [SQL Data Management](../../workflow/using/sql-data-management.md).
 * **nlserver module**: starts an nlserver module with its arguments. Refer to [Nlserver module](../../workflow/using/nlserver-module.md).
-* **Import and Export (v4 compatible)**: imports or exports data using the specified template. Refer to the [Import and Export (v4 compatibility)](../../workflow/using/import-and-export--v4-compatibility-.md) section.
-* **Microsoft CRM, Salesforce, Oracle CRM On Demand**: lets you connect Adobe Campaign specifically to one of the pre-configured CRMs. Refer to [Microsoft CRM, Salesforce, Oracle CRM On Demand](../../workflow/using/microsoft-crm--salesforce--oracle-crm-on-demand.md).
+* **Import and Export (v4 compatible)**: Import and export activities (v4 compatibility) let you import and export data using the template (import or export) specified in the activity.
+* **Microsoft CRM, Salesforce, Oracle CRM On Demand**: lets you connect Adobe Campaign specifically to one of the pre-configured CRMs. These activities are similar to the CRM connector presented in [this section](../../workflow/using/crm-connector.md), with more specific options. In particular, you can choose the type of campaign to carry out for the synchronization.
 * **Update aggregate**: lets you select the aggregate update mode (full or partial). Refer to [Update aggregate](../../workflow/using/update-aggregate.md).
-
