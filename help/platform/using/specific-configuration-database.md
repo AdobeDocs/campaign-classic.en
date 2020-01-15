@@ -256,7 +256,7 @@ As a general rule, you need to install the corresponding client layer on the ext
 
        Name of your database
 
-## Configure access to Hadoop 3.0 {#configure-access-to-hadoop}
+## Configure access to Hadoop 3.0 {#configure-access-to-hadoop-3}
 
 Connecting to an Hadoop external database in FDA requires the following configurations on the Adobe Campaign server. Note that this configuration is available for both Windows and Linux.
 
