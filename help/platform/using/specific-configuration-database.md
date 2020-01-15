@@ -24,9 +24,282 @@ As a general rule, you need to install the corresponding client layer on the ext
 
 >[!NOTE]
 >
->Compatible versions are listed in [Campaign Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#FederatedDataAccessFDA) .
+>Compatible versions are listed in [Campaign Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#FederatedDataAccessFDA).
 
-## Configure access to Hadoop {#configure-access-to-hadoop}
+## Configure access to Azure Synapse {#configure-access-to-azure-synapse}
+
+### Azure Synapse on CentOS {#azure-centos}
+
+1. Download mysql57-community-release.noarch.rpm. You can find it in this [page](https://dev.mysql.com/downloads/repo/yum).
+
+1. Install the client library:
+
+    ```
+    $ yum install mysql57-community-release-el7-9.noarch.rpm
+    $ yum install mysql-community-libs
+    ```
+
+1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+
+1. Select the out-of-the box **[!UICONTROL Azure Synapse]** external account.
+
+1. To configure the **[!UICONTROL Azure Synapse]** external account:
+
+    * **[!UICONTROL Server]**
+  
+      URL of the Azure Synapse server.
+
+    * **[!UICONTROL Account]**
+
+      Name of the user.
+
+    * **[!UICONTROL Password]**
+
+      User account password.
+
+    * **[!UICONTROL Database]**
+
+      Name of your database
+
+    >[!NOTE]
+    >
+    >Make sure the **[!UICONTROL Time zone]** and **[!UICONTROL Unicode data]** are set according to your database.
+
+### Azure Synapse on Debian {#azure-debian}
+
+1. Download mysql-apt-config.deb. You can find it in this [page](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en).
+
+1. Install the client library:
+
+    ```
+    $ dpkg -i mysql-apt-config_*_all.deb # choose mysql-5.7 in the configuration menu
+    $ apt update
+    $ apt install libmysqlclient20
+    ```
+
+1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+
+1. Select the out-of-the box **[!UICONTROL Azure Synapse]** external account.
+
+1. To configure the **[!UICONTROL Azure Synapse]** external account:
+
+    * **[!UICONTROL Server]**
+  
+      URL of the Azure Synapse server.
+
+    * **[!UICONTROL Account]**
+
+      Name of the user.
+
+    * **[!UICONTROL Password]**
+
+      User account password.
+
+    * **[!UICONTROL Database]**
+
+      Name of your database
+
+    >[!NOTE]
+    >
+    >Make sure the **[!UICONTROL Time zone]** and **[!UICONTROL Unicode data]** are set according to your database.
+
+### Azure Synapse on Windows {#azure-windows}
+
+1. Download the C connector. You can find it in this [page](https://dev.mysql.com/downloads/connector/c).
+
+1. Make sure the directory that contains libmysqlclient.dll is added to the PATH environment variable that nlserver will use.
+
+1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+
+1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+
+1. Select the out-of-the box **[!UICONTROL Azure Synapse]** external account.
+
+1. To configure the **[!UICONTROL Azure Synapse]** external account:
+
+    * **[!UICONTROL Server]**
+  
+      URL of the Azure Synapse server.
+
+    * **[!UICONTROL Account]**
+
+      Name of the user.
+
+    * **[!UICONTROL Password]**
+
+      User account password.
+
+    * **[!UICONTROL Database]**
+
+      Name of your database
+
+    >[!NOTE]
+    >
+    >Make sure the **[!UICONTROL Time zone]** and **[!UICONTROL Unicode data]** are set according to your database.
+
+## Configure access to Snowflake {#configure-access-to-snowflake}
+
+>[!NOTE]
+>
+>Snowflake connector is available for hosted and on-premise deployments. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+
+### Snowflake on CentOS {#snowflake-centos}
+
+1. Download the ODBC drivers for Snowflake. Drivers for Snowflake can be found [here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm).
+
+1. You then need to install the ODBC drivers on CentOs with the following command:
+
+     ```
+     rpm -Uvh unixodbc
+     rpm -Uvh snowflake-odbc-2.20.2.x86_64.rpm
+     ```
+
+1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
+
+     ```
+    /etc/init.d/nlserver6 stop
+    /etc/init.d/nlserver6 start
+     ```
+1. In Campaign Classic, configure your Snowflake external account in Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+
+1. Unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+
+1. Select the out-of-the box **[!UICONTROL Snowflake]** external account.
+
+1. To configure the **[!UICONTROL Snowflake]** external account:
+
+    * **[!UICONTROL Server]**
+  
+      URL of the Snowflake server.
+
+    * **[!UICONTROL Account]**
+
+      Name of the user.
+
+    * **[!UICONTROL Password]**
+
+       User account password.
+
+    * **[!UICONTROL Database]**
+
+       Name of your database
+
+### Snowflake on Windows {#snowflake-windows}
+
+1. Download the [ODBC driver for Windows](https://docs.snowflake.net/manuals/user-guide/odbc-download.html). Note that you need administrator-level privileges to install the driver. For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)
+
+1. Configure the ODBC driver. For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
+
+1. Once the ODBC driver has been installed and configured, you need to configure your Snowflake external account in Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+
+1. Unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+
+1. Select the out-of-the box **[!UICONTROL Snowflake]** external account.
+
+1. To configure the **[!UICONTROL Snowflake]** external account:
+
+    * **[!UICONTROL Server]**
+  
+      URL of the Snowflake server.
+
+    * **[!UICONTROL Account]**
+
+      Name of the user.
+
+    * **[!UICONTROL Password]**
+
+       User account password.
+
+    * **[!UICONTROL Database]**
+
+       Name of your database
+
+### Snowflake on Debian {#snowflake-debian}
+
+1. Download the ODBC drivers for Snowflake. Drivers for Snowflake can be found [here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html).
+
+1. You then need to install the ODBC drivers on Debian with the following command:
+
+     ```
+    apt-get install unixodbc
+    apt-get install snowflake-odbc-x.xx.x.x86_64.deb
+     ```
+
+1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
+
+     ```
+    systemctl stop nlserver.service
+    systemctl start nlserver.service
+     ```
+     
+1. In Campaign Classic, configure your Snowflake external account in Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+
+1. Unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+
+1. Select the out-of-the box **[!UICONTROL Snowflake]** external account.
+
+1. To configure the **[!UICONTROL Snowflake]** external account:
+
+    * **[!UICONTROL Server]**
+  
+      URL of the Snowflake server.
+
+    * **[!UICONTROL Account]**
+
+      Name of the user.
+
+    * **[!UICONTROL Password]**
+
+       User account password.
+
+    * **[!UICONTROL Database]**
+
+       Name of your database
+
+## Configure access to Hadoop 3.0 {#configure-access-to-hadoop-3}
+
+Connecting to an Hadoop external database in FDA requires the following configurations on the Adobe Campaign server. Note that this configuration is available for both Windows and Linux.
+
+1. Download the ODBC drivers for Hadoop depending on your OS version. Drivers can be found on this [page](https://www.cloudera.com/downloads.html).
+
+1. You then need to install the ODBC drivers and create a DSN for your Hive connection. Instruction can be found [here](https://docs.cloudera.com/documentation/other/connectors/hive-odbc/2-6-5/Cloudera-ODBC-Driver-for-Apache-Hive-Install-Guide.pdf)
+
+1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
+
+     ```
+    systemctl stop nlserver.service
+    systemctl start nlserver.service
+     ```
+   
+1. In Campaign Classic, configure your Hadoop external account in Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+
+1. Unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+
+1. Click **[!UICONTROL Create]** and select **[!UICONTROL External database]** as Account type.
+
+1. To configure the **[!UICONTROL  Hadoop]** external account:
+
+    * **[!UICONTROL Type]**
+  
+      ODBC (Sybase ASE, Sybase IQ)
+
+    * **[!UICONTROL Account]**
+
+      Name of the user
+
+    * **[!UICONTROL Password]**
+
+      User account password
+
+    * **[!UICONTROL Database]**
+
+      Name of your database if not specified in DSN. It an be left empty if specified in the DSN
+
+    * **[!UICONTROL Timezone]**
+
+      Server time zone
+
+## Configure access to Hadoop 2.1 {#configure-access-to-hadoop}
 
 Connecting to an Hadoop external database in FDA requires the following configurations on the Adobe Campaign server.
 

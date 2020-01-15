@@ -153,7 +153,7 @@ The following connection types can be configured:
 * Oracle. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-oracle).
 * MySQL. To configure access to MYSQL, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-mysql).
 * Netezza. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-netezza).
-* SAP HANA. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hanaa).
+* SAP HANA. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hana).
 * InfiniDB
 * Microsoft SQL server
 * AsterData
