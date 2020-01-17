@@ -16,13 +16,13 @@ internal: n
 snippet: y
 ---
 
-# Implementation{#implementation}
+# Improving deliverability through re-engagement{#re-engagement}
 
->[!CAUTION]
+<!-->>[!CAUTION]
 >
 >This section is intended for deliverability experts only, to provide them with a global view of the implementation process and its main steps.
 >
->Do not try, by any means, to perform any of these implementations yourselves. It is strictly reserved to the Adobe Campaign consultants.
+>Do not try, by any means, to perform any of these implementations yourselves. It is strictly reserved to the Adobe Campaign consultants.-->
 
 This section presents the general guidelines and steps that should be followed while implementing deliverability. We will see how to maintain a healthy subscriber base and improve deliverability through re-engagement strategies. Maintaining a healthy subscriber base is one of the major aspects to ensure good and consistent delivery. Many deliverability issues arise from poor data practices and maintenance. One of the most common issues that marketers face today is inactive subscriber activity (also referred to as low or non-engagement) which can adversely affect delivery of email and low ROI.
 
