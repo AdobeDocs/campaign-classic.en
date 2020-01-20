@@ -18,8 +18,12 @@ snippet: y
 
 # Configuration{#configuration}
 
-For hosted and hybrid clients, **Deliverability monitoring** is configured on your instance by Adobe technical support and consultants. For more information, contact your Adobe Account executive.
- 
-For on-premise installations, you must install the **[!UICONTROL Deliverability monitoring (Email Deliverability)]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menu. For more on this, see [Installing Campaign Classic standard packages](../../installation/using/installing-campaign-standard-packages.md).
- 
-**Deliverability monitoring** is managed by the **[!UICONTROL Refresh for deliverability]** workflow. It is installed by default on all instances and lets you initialize the list of bounce mail qualification rules, the list of domains and the list of MXs. Once the **[!UICONTROL Deliverability monitoring (Email Deliverability)]** package is installed, this workflow runs nightly to regularly update the list of rules and enables you to actively manage platform deliverability.
+The functionalities of the **Deliverability** module are managed by two technical workflows. They only work if the HTTPS feed is open for **deliverability.neolane.net**.
+
+* The **Update test network for Inbox Rendering** workflow lets you recover the target addresses used when sending proofs.
+
+  For more on this, refer to [Inbox rendering](../../delivery/using/inbox-rendering.md).
+
+* The **Refresh for deliverability** workflow is installed by default on all instances and lets you initialize the list of bounce mail qualification rules, the list of domains and the list of MXs. Once the **Deliverability** module is installed, the list of rules is updated regularly and you may actively manage platform deliverability.
+
+  For more on this, refer to [Bounce mail qualification](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification).
