@@ -117,7 +117,7 @@ GDPR (General Data Protection Regulation) is the European Union’s (EU) privacy
 
 CCPA (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
 
-In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and rights management), we are taking this opportunity in our role as Data Processor to include additional capabilities, to help facilitate your readiness as Data Controller for certain Privacy requests.
+In addition to consent management, data retention settings, and rights management, we provide, as, in our role as Data Processor, additional capabilities, to help facilitate your readiness as Data Controller for certain Privacy requests.
 
 Refer to this [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html) to understand the tools and functionalities that Adobe Campaign provides, as well as best practices, to help you with your Privacy compliance when using our service.
 
