@@ -615,11 +615,7 @@ To recover the list of broadlog schemas, the following query is used:
 
 The task then recovers the names of the tables linked to the **appSubscription** link and deletes these tables.
 
-This cleanup workflow also deletes recipients who unsubscribed to deliveries if the following conditions are respected:
-
-* Must be of iOS or Android type
-* state = quarantine
-* lastModifiedDate < Now() - ( NmsCleanup_AppSubscriptionRcpPurgeDelay in day + 5 days)
+This cleanup workflow also deletes all entries where idisabled = 1 and which were not updated since the time set in the NmsCleanup_AppSubscriptionRcpPurgeDelay option.
 
 ### Cleansing session information {#cleansing-session-information}
 
