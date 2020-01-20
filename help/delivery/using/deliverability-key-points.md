@@ -18,17 +18,15 @@ snippet: y
 
 Deliverability consists in measuring the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.
 
-(For more information on configuring this feature, contact your Adobe Account executive.)
-
 To optimize the deliverability of your Adobe Campaign emails, we recommend using the best practices listed below. Deliverability problems are generally linked to measures of protection against spam implemented by Internet service providers and mail server administrators.
 
 Email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format.
 
 These characteristics fall into four main categories:
-* data quality
-* message and content
-* sending infrastructure
-* reputation
+* Data quality
+* Message and content
+* Sending infrastructure
+* Reputation
 
 Together, they form the foundation of a successful email deliverability program.
 

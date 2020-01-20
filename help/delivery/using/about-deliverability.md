@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# About deliverability {#about-deliverability}
+# About deliverability{#about-deliverability}
 
 Adobe Campaign offers a certain number of tools to track the deliverability performance of your platform. This section also highlights the main principles you should have in mind when managing and optimizing deliverability.
 
