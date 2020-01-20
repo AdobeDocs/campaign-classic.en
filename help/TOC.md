@@ -124,13 +124,13 @@ sub-product: adobe campaign classic
        + [Testing tracking](delivery/using/testing-tracking.md)
   + Deliverability management {#deliverability-management}
        + [About deliverability](delivery/using/about-deliverability.md)
-       + [Implementation](delivery/using/implementation.md)
-       + [Configuration](delivery/using/configuration.md)
+       + [Key points to check](delivery/using/deliverability-key-points.md)
        + [Technical monitoring](delivery/using/technical-monitoring.md)
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Technical recommendations](delivery/using/technical-recommendations.md)
        + [Blacklisting databases](delivery/using/blacklisting-databases.md)
+       + [Re-engagement best practices](delivery/using/re-engagement-best-practices.md)
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)

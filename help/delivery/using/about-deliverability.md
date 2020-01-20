@@ -44,31 +44,3 @@ What exactly is email deliverability? And how can marketers improve deliverabili
 Email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format. These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program. This overview outlines the four fundamentals of email deliverability success and offers best practices for reaching the inbox and driving greater revenues from email marketing programs.
 
 ![](assets/deliverability_overview_2.png)
-
-
-### IP Certification {#ip-certification}
-
-IP Certification is a whitelisting and sending practices program that helps ensuring that emails are received without being blocked by antispam filters or other email blocking systems.
-
-Currently two providers offer IP Certification: Return Path and Certified Senders Alliance.
-
-Certified senders are added to email whitelists which are used by global mailbox providers and email security companies. These commercial whitelists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system.
-
-The [Return Path Certification](https://www.validity.com/products/returnpath/certification/) program offers a number of benefits, including the following:
-
-* A measurable increase in inbox placement at top mailbox providers like Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru, and more
-* Favorable reputation and treatment at critical filters like Cloudmark, SpamAssassin, and Cisco Ironport
-* A compliance team dedicated to 24/7 monitoring, providing with security alerts and working with you through the resolution of any compromises
-* Mailbox provider data delivering detailed information about KPIs, placement, and Certification performance
-* Simplified and faster IP warming, including stronger reputation and recognition when migrating or obtaining a new IP address
-
-The [Certified Senders Alliance](https://certified-senders.org/certification-process/) Certification offers amongst other benefits:
-
-* Certification of senders of commercial emails who can comply with high quality standards
-* Improved delivery and deliverability of commercial emails to increase the inbox placement rate and reduce spam filtering
-* Protection from legal and financial risks by fully complying with legal standards
-* Protecting reputation by means of early warnings from the CSA Complaints Office and daily spam trap reports
-
-ISPs are free to use these services and the number of ISPs can vary depending on the whitelist.
-
-However, because more and more ISPs build their antispam filters based on each inbox owner's behavior rather than analyzing the message content itself, using IP Certification cannot be a guarantee of inbox placement or even delivery.
