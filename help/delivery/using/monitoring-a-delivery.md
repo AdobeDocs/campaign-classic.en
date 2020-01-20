@@ -39,7 +39,7 @@ Tab contents may no longer be changed once the delivery has been sent.
 
 The **[!UICONTROL Summary]** tab contains the characteristics of the delivery: delivery status, channel used, information about the sender, subject, information concerning execution. For more on this, refer to [Number of messages sent](#number-of-messages-sent).
 
-The **[!UICONTROL reports]** link lets you look at a set of reports concerning the delivery action: general delivery report, detailed report, delivery report, distribution of failed messages, opening rate, clicks and transactions, etc. The contents of this tab can be configured according to your requirements. For more information, refer to [this section](../../reporting/using/reports-on-deliveries.md#delivery-reports).
+The **[!UICONTROL reports]** link lets you look at a set of reports concerning the delivery action: general delivery report, detailed report, delivery report, distribution of failed messages, opening rate, clicks and transactions, etc. The contents of this tab can be configured according to your requirements. For more information, refer to [this section](../../reporting/using/delivery-reports.md).
 
 ### Delivery logs and history {#delivery-logs-and-history}
 
@@ -65,7 +65,7 @@ The **[!UICONTROL Tracking]** tab lists the tracking history for this delivery. 
 
 Tracking configuration is performed at the appropriate stage in the delivery wizard. See [How to configure tracked links](../../delivery/using/how-to-configure-tracked-links.md).
 
-**[!UICONTROL Tracking]** data is interpreted in the delivery reports. See [this section](../../reporting/using/reports-on-deliveries.md#delivery-reports).
+**[!UICONTROL Tracking]** data is interpreted in the delivery reports. See [this section](../../reporting/using/delivery-reports.md).
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 

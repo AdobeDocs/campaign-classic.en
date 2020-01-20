@@ -3,21 +3,21 @@ product: Adobe Campaign Classic
 audience: end-user
 user-guide-title: Adobe Campaign Classic Help
 index: y
+product: adobe campaign
+sub-product: adobe campaign classic
 ---
 
 # Adobe Campaign Classic Help {#using}
 
 + [Product documentation](campaign-classic-home.md)
++ [Latest updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
-  + [About Release Notes](rn/using/about-release-notes.md)
-  + [Control Panel Releases](rn/using/control-panel.md)
-  + [Campaign Mobile SDK](rn/using/mobile-sdk.md)
-  + [Release 19.1](rn/using/latest-release.md)
-  + [Release 18.10](rn/using/release--18-10.md)
-  + [Release 18.6](rn/using/release--18-6.md)
-  + [Release 18.4](rn/using/release--18-4.md)
-  + [Legacy Release Notes](rn/using/legacy-release-notes.md)
-  + [Documentation Updates](rn/using/documentation-updates.md)
+  + [Latest Release](rn/using/latest-release.md)
+  + Previous Releases {#previous-releases}
+    + [Release 19.1](rn/using/release--19-1.md)
+    + [Release 18.10](rn/using/release--18-10.md)
+    + [Release 18.6](rn/using/release--18-6.md)
+    + [Release 18.4](rn/using/release--18-4.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -72,6 +72,7 @@ index: y
        + [About email channel](delivery/using/about-email-channel.md)
        + [Creating an email delivery](delivery/using/creating-an-email-delivery.md)
        + [Defining the email content](delivery/using/defining-the-email-content.md)
+       + [Defining interactive content](delivery/using/defining-interactive-content.md)
        + [Sending messages](delivery/using/sending-messages.md)
        + [Attaching files](delivery/using/attaching-files.md)
   + Sending messages on mobiles {#sending-messages-on-mobiles}
@@ -126,12 +127,11 @@ index: y
        + [Implementation](delivery/using/implementation.md)
        + [Configuration](delivery/using/configuration.md)
        + [Technical monitoring](delivery/using/technical-monitoring.md)
-       + [Inbox monitoring](delivery/using/inbox-monitoring.md)
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Technical recommendations](delivery/using/technical-recommendations.md)
        + [Blacklisting databases](delivery/using/blacklisting-databases.md)
-  + Content management {#content-management}
+  + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
        + [Use case: creating content management](delivery/using/use-case--creating-content-management.md)
@@ -148,10 +148,10 @@ index: y
        + [Accessing marketing campaigns](campaign/using/accessing-marketing-campaigns.md)
   + Orchestrate campaigns {#orchestrate-campaigns}
        + [Setting up Marketing Campaigns](campaign/using/setting-up-marketing-campaigns.md)
-       + [Marketing Campaigns Templates](campaign/using/marketing-campaign-templates.md)
-       + [Marketing Campaigns Deliveries](campaign/using/marketing-campaign-deliveries.md)
-       + [Marketing Campaigns Approval](campaign/using/marketing-campaign-approval.md)
-       + [Marketing Campaigns Monitoring](campaign/using/marketing-campaign-monitoring.md)
+       + [Marketing Campaign Templates](campaign/using/marketing-campaign-templates.md)
+       + [Marketing Campaign Deliveries](campaign/using/marketing-campaign-deliveries.md)
+       + [Marketing Campaign Approval](campaign/using/marketing-campaign-approval.md)
+       + [Marketing Campaign Monitoring](campaign/using/marketing-campaign-monitoring.md)
        + [Providers, stocks and budgets](campaign/using/providers--stocks-and-budgets.md)
   + Tasks, resources and budgets {#tasks--resources-and-budgets}
        + [About marketing resource management](campaign/using/about-marketing-resource-management.md)
@@ -183,18 +183,22 @@ index: y
        + [Hypothesis tracking](campaign/using/hypothesis-tracking.md)
 + Reporting {#reporting}
   + Reporting in Adobe Campaign {#reporting-in-adobe-campaign}
-       + [About Adobe Campaign reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
-       + [Analyzing needs](reporting/using/analyzing-needs.md)
-       + [Optimizing report creation](reporting/using/optimizing-report-creation.md)
+       + [Get started with reporting](reporting/using/about-adobe-campaign-reporting-tools.md)
+       + [Best practices for reporting](reporting/using/best-practices.md)
   + Accessing built-in reports {#accessing-built-in-reports}
        + [About Campaign built-in reports](reporting/using/about-campaign-built-in-reports.md)
-       + [Accessing reports](reporting/using/accessing-reports.md)
        + [List of reports](reporting/using/list-of-reports.md)
-       + [Reports on deliveries](reporting/using/reports-on-deliveries.md)
+  + Reports on deliveries{#reports-on-deliveries}
+       + [About reports on deliveries](reporting/using/reports-on-deliveries.md) 
+       + [Global reports](reporting/using/global-reports.md)
+       + [Delivery reports](reporting/using/delivery-reports.md)
+       + [Cumulative reports](reporting/using/cumulative-reports.md)
+       + [Indicator calculation](reporting/using/indicator-calculation.md)
+       + [Person/people and recipients](reporting/using/person-people-recipients.md)
   + Analyzing populations {#analyzing-populations}
        + [About descriptive analysis](reporting/using/about-descriptive-analysis.md)
        + [Using the descriptive analysis wizard](reporting/using/using-the-descriptive-analysis-wizard.md)
-       + [Processing a report](reporting/using/processing-a-report.md)
+       + [Using an analysis report](reporting/using/processing-a-report.md)
        + [Use cases](reporting/using/use-cases.md)
   + Creating new reports {#creating-new-reports}
        + [About reports creation in Campaign](reporting/using/about-reports-creation-in-campaign.md)
@@ -254,8 +258,7 @@ index: y
        + [Configuring surveys](web/using/configuring-surveys.md)
        + [Use case: creating a Refer A Friend form](web/using/use-case--creating-a-refer-a-friend-form.md)
 + Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
-  + Campaign integrations {#campaign-integrations}
-       + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
+  + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
   + Audience sharing {#audience-sharing}
        + [Sharing audiences with Adobe Experience Cloud](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
        + [Submitting request to Adobe](integrations/using/submitting-request-to-adobe.md)
@@ -344,12 +347,10 @@ index: y
        + [Loading (SOAP)](workflow/using/loading--soap-.md)
        + [Data loading (file)](workflow/using/data-loading--file-.md)
        + [Content Management](workflow/using/content-management.md)
-       + [Extraction (file)](workflow/using/extraction--file-.md)
+       + [Data extraction (file)](workflow/using/extraction--file-.md)
        + [SQL code and JavaScript code](workflow/using/sql-code-and-javascript-code.md)
        + [SQL Data Management](workflow/using/sql-data-management.md)
        + [Nlserver module](workflow/using/nlserver-module.md)
-       + [Import and Export (v4 compatibility)](workflow/using/import-and-export--v4-compatibility-.md)
-       + [Microsoft CRM, Salesforce, Oracle CRM On Demand](workflow/using/microsoft-crm--salesforce--oracle-crm-on-demand.md)
        + [Update aggregate](workflow/using/update-aggregate.md)
   + Event activities {#event-activities}
        + [About event activities](workflow/using/about-event-activities.md)
@@ -370,7 +371,15 @@ index: y
        + [Sending a birthday email](workflow/using/sending-a-birthday-email.md)
        + [Loading delivery content](workflow/using/loading-delivery-content.md)
        + [Cross-channel delivery workflow](workflow/using/cross-channel-delivery-workflow.md)
-       + [Designing queries](workflow/using/designing-queries.md)
+       + Designing queries {#designing-queries}
+          + [Querying the recipient table](workflow/using/querying-recipient-table.md)
+          + [Querying delivery information](workflow/using/querying-delivery-information.md)
+          + [Performing aggregate computing](workflow/using/performing-aggregate-computing.md)
+          + [Querying using grouping management](workflow/using/querying-using-grouping-management.md)
+          + [Querying using a many-to-many-relationship](workflow/using/querying-using-many-to-many-relationship.md)
+          + [Adding an enumeration type calculated field](workflow/using/adding-enumeration-type-calculated-field.md)
+          + [Creating a filter](workflow/using/creating-a-filter.md)
+          + [Filtering duplicated recipients](workflow/using/filtering-duplicated-recipients.md)
        + [Sending personalized alerts to operators](workflow/using/sending-personalized-alerts-to-operators.md)
        + [Email enrichment with custom date fields](workflow/using/email-enrichment-with-custom-date-fields.md)
   + Monitoring workflows {#monitoring-workflows}
@@ -493,8 +502,7 @@ index: y
        + [Important notes](message-center/using/important-notes.md)
        + [Implementation](message-center/using/implementation.md)
 + Integrating with Social media {#integrating-with-social-media}
-  + Introduction {#introduction}
-       + [About social marketing](social/using/about-social-marketing.md)
+  + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}
        + [Starting workflows](social/using/starting-workflows.md)
        + [Publishing on Facebook walls](social/using/publishing-on-facebook-walls.md)
@@ -560,7 +568,7 @@ index: y
        + [The server configuration file](installation/using/the-server-configuration-file.md)
        + [Command lines](installation/using/command-lines.md)
        + [Creating new instances](installation/using/creating-new-instances.md)
-       + [Configuring Campaign options](installation/using/configuring-campaign-options.md)
+       + [List of Campaign Classic options](installation/using/configuring-campaign-options.md)
        + [Uninstalling Campaign](installation/using/uninstalling-campaign.md)
 + Monitoring Campaign Classic {#monitoring-campaign-classic}
   + Introduction {#introduction}

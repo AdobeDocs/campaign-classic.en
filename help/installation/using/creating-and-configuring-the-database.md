@@ -147,7 +147,7 @@ Once the database is created, you can re-connect to finalize instance configurat
 
 You must now start the deployment wizard to finish configuring the instance. Refer to [Deployment wizard](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
-The connection settings for the database linked to the instance are stored in the file **/conf/config-**`<instance>`**.xml** found in the Adobe Campaign installation directory.
+The connection settings for the database linked to the instance are stored in the file **`/conf/config-<instance>.xml`** found in the Adobe Campaign installation directory.
 
 Example of a Microsoft SQL Server configuration on the base61 database linked to the 'campaign' account with its encrypted password:
 
@@ -237,7 +237,7 @@ Once database creation is complete, you can reconnect to finalize instance confi
 
 You must now start the deployment wizard to finish configuring the instance. Refer to [Deployment wizard](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
-The connection settings for the database linked to the instance are stored in the file **/conf/config-**`<instance>`**.xml** found in the Adobe Campaign installation directory.
+The connection settings for the database linked to the instance are stored in the file **`/conf/config-<instance>.xml`** found in the Adobe Campaign installation directory.
 
 Example of a Microsoft SQL Server configuration on the base61 database linked to the 'campaign' account with its encrypted password:
 

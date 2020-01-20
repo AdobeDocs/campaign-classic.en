@@ -78,7 +78,7 @@ Targeting can be created via a combination of filtering conditions in a graphica
 
 ![](assets/s_ncs_user_edit_op_wf_link.png)
 
-The target population is extracted from the Adobe Campaign database via one or more queries placed in a workflow. To learn how to build a query, refer to [this section](../../workflow/using/designing-queries.md).
+The target population is extracted from the Adobe Campaign database via one or more queries placed in a workflow. To learn how to build a query, refer to [this section](../../workflow/using/query.md).
 
 You can launch queries and share populations via boxes such as Union, Intersection, Sharing, Exclusion, etc.
 
@@ -90,7 +90,7 @@ In the diagram, link up the targeting and scheduling queries required for target
 
 >[!NOTE]
 >
->Examples and procedure for defining queries are presented in [this section](../../workflow/using/designing-queries.md).
+>Examples and procedure for defining queries are presented in [this section](../../workflow/using/query.md).
 
 The left-hand section of the editor contains a library of graphical objects representing activities. The first tab contains the targeting activities, and the second tab contains the flow-control activities, which are used occasionally to coordinate targeting activities.
 
@@ -259,7 +259,7 @@ You can define a new population to be used as a control group. This population c
 
 >[!NOTE]
 >
->Adobe Campaign query editor is presented in [this section](../../workflow/using/designing-queries.md).
+>Adobe Campaign query editor is presented in [this section](../../workflow/using/query.md).
 
 ## Starting a delivery {#starting-a-delivery}
 
@@ -449,7 +449,7 @@ The selected outline is then displayed in the lower section of the window. It ca
 
 The **[!UICONTROL Summary]** tab of the delivery also displays this information:
 
-![](assets/s_ncs_user_op_select_composition_c.png)-->
+![](assets/s_ncs_user_op_select_composition_c.png)
 
 #### Extraction result {#extraction-result}
 

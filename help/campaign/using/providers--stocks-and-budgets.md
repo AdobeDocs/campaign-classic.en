@@ -104,7 +104,7 @@ Click the **[!UICONTROL Cost structure]** tab to configure the cost calculation 
 
 * To create the cost structure, select the type of message and the cost category concerned from the drop-down lists, as well as the type of cost to which the calculation rule will apply. The content of these drop-down lists comes from the information entered via the **[!UICONTROL Cost categories]** tab.
 
-  You must assign a label to the cost structure. By default, it has the following delivery outline: **Cost category - Type of cost**
+  You must assign a label to the cost structure. By default, it has the following delivery outline: **Cost category - Type of cost**.
 
   You can, however, rename it: enter the desired value directly in the **[!UICONTROL Label]** field.
 

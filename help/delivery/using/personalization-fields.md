@@ -22,6 +22,10 @@ Personalization fields are used for first-level personalization of the content o
 
 For example, the personalization field with the **<%= recipient.LastName %>** syntax tells Adobe Campaign to insert the name of the recipient into the database (recipient table).
 
+>[!NOTE]
+>
+>Personalization fields content cannot exceed 1024 characters.
+
 ## Data sources {#data-sources}
 
 Personalization fields can come from two types of data source, according to the delivery mode selected:
@@ -98,3 +102,17 @@ This workflow is not visible in the Adobe Campaign interface. It is only meant t
 Once the analysis is complete, go to the workflow **[!UICONTROL Properties]** and select the **[!UICONTROL Variables]** tab. There you can see the name of the temporary table that you may use to make an SQL call in order to display the IDs that it contains.
 
 ![](assets/perso_optimization_temp_table.png)
+
+## Timing out personalization phase {#timing-out-personalization}
+
+To improve delivery protection, you can set a time-out period for the personalization phase.
+
+In the **[!UICONTROL Delivery]** tab of the **[!UICONTROL Delivery properties]**, select a maximum value in seconds for the **[!UICONTROL Maximum personalization run time]** option.
+
+During preview or sending, if the personalization phase exceeds the maximum time that you set in this field, the process will be aborted with an error message and the delivery will fail.
+
+![](assets/perso_time-out.png)
+
+The default value is 5 seconds.
+
+If you set this option to 0, there will be no time limit for the personalization phase.

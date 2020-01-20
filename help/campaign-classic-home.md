@@ -21,10 +21,10 @@ Understand tracking capabilities in Campaign
 * **[Maintenance guide](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>
 Learn how to monitor your Campaign instance and processes
 
-* **[Audit trail](production/using/audit-trail.md)**<br/>
-Learn how to access the complete history of changes in your Campaign instance
+* **[Interactive content with AMP](delivery/using/defining-interactive-content.md)**<br/>
+Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/about/email/) format
 
-* **[Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)**<br/>
+* **[Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)**<br/>
 Learn how to manage settings and track usage of your Campaign instance
 
 [Click here for more updates](/help/rn/using/documentation-updates.md)
@@ -78,7 +78,7 @@ Learn how to manage settings and track usage of your Campaign instance
 
 ## Additional Resources
 
-* [Release notes](/help/rn/using/about-release-notes.md)
+* [Release notes](/help/rn/using/latest-release.md)
 
 * [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 

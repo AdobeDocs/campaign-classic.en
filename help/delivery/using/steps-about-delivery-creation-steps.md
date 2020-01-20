@@ -1,8 +1,6 @@
 ---
-title: About deliveries creation steps
-seo-title: About deliveries creation steps
-description: About deliveries creation steps
-seo-description: 
+title: About deliveries creation steps in Adobe Campaign Classic
+description: Discover the main delivery creation steps in Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 8bf70ea4-5f28-4d85-b5ce-0bd3ed3eea55
 contentOwner: sauviat
@@ -27,7 +25,7 @@ The key steps when creating a delivery are as follows:
     * [Email channel](../../delivery/using/defining-the-email-content.md)
     * [SMS channel](../../delivery/using/sms-channel.md#defining-the-sms-content)
     * [Direct mail channel](../../delivery/using/defining-the-direct-mail-content.md)
-    * [Mbile application channel](../../delivery/using/about-mobile-app-channel.md)
+    * [Mobile application channel](../../delivery/using/about-mobile-app-channel.md)
 
 1. **Define the target population**. [Read more](../../delivery/using/steps-defining-the-target-population.md)
 

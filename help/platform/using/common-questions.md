@@ -121,7 +121,7 @@ Refer to [this document](https://docs.campaign.adobe.com/doc/AC/getting_started/
 
 ### What are Campaign user interface concepts I should know? {#what-are-campaign-user-interface-concepts-i-should-know-}
 
-Read out [this section](../../platform/using/adobe-campaign-workspace.md) to learn more about Adobe Campaign workspace basics. You can also watch [this video](https://docs.campaign.adobe.com/doc/AC/en/Videos/interface_611.mp4).
+Read out [this section](../../platform/using/adobe-campaign-workspace.md) to learn more about Adobe Campaign workspace basics. You can also watch [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html).
 
 ### How can I select the target population of my messages? {#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -141,7 +141,7 @@ A workflow can also involve one or more operators to be notified or who can make
 
 ### How to create and send a first email? {#how-to-create-and-send-a-first-email-}
 
-[Click here to learn more](../../delivery/using/about-email-channel.md) or [watch this video](https://docs.campaign.adobe.com/doc/AC/en/Videos/creating_campaign_email.mp4) to create an email in a campaign.
+[Click here to learn more](../../delivery/using/about-email-channel.md) or [watch this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-campaign-and-an-email.html) to create an email in a campaign.
 
 ### How to send SMS messages? {#how-to-send-sms-messages-}
 
@@ -163,7 +163,7 @@ You can use Adobe Campaign digital content editor to design a landing page and d
 
 ### How can I track deliveries? {#how-can-i-track-deliveries-}
 
-You can track deliveries sent with Campaign Classic through dedicated [delivery reports](../../reporting/using/reports-on-deliveries.md#delivery-reports) and then monitor your deliveries.
+You can track deliveries sent with Campaign Classic through dedicated [delivery reports](../../reporting/using/delivery-reports.md) and then monitor your deliveries.
 
 ### What are security best practices (on-premise)? {#what-are-security-best-practices--on-premise--}
 
@@ -252,17 +252,17 @@ You can import recipients or create them manually using Campaign client console.
 
 ### How to import profiles? {#how-to-import-profiles-}
 
-Discover easy use cases to [import profiles](../../platform/using/importing-data.md#generic-import-samples) in your database. You can also watch [this video](https://docs.campaign.adobe.com/doc/AC/en/Videos/importing_profiles_611.mp4).
+Discover easy use cases to [import profiles](../../platform/using/importing-data.md#generic-import-samples) in your database. You can also watch [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html).
 
 ### How can I define the target population of a marketing campaign? {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
-You can [use workflows to create target population](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) of a marketing campaign. Learn how to create a targeting workflow in a campaign through [this video](https://docs.campaign.adobe.com/doc/AC/en/Videos/workflow_campaign.mp4).
+You can [use workflows to create target population](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) of a marketing campaign. Learn how to create a targeting workflow in a campaign through [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-workflow.html).
 
 ### How can I create a list of profiles? {#how-can-i-create-a-list-of-profiles-}
 
 A list is a static set of recipients that can be targeted in delivery actions, updated during import operations or workflow execution. For example, a population extracted from the database via a query can supply a list.
 
-[Click here to learn more](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group). You can also watch [this video](https://docs.campaign.adobe.com/doc/AC/en/Videos/creating_list_recipients_611.mp4) about how to create a list manually, and [this other video](https://docs.campaign.adobe.com/doc/AC/en/Videos/creating_list_recipients_611.mp4) to create and automatically update a list of recipients in a workflow.
+[Click here to learn more](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group). You can also watch [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html) about how to create a list manually, and [this other video](https://docs.campaign.adobe.com/doc/AC/en/Videos/creating_list_recipients_611.mp4) to create and automatically update a list of recipients in a workflow.
 
 ### How can I deduplicate a population before sending a message? {#how-can-i-deduplicate-a-population-before-sending-a-message-}
 
@@ -292,7 +292,7 @@ The delivery analysis is the phase during which the target population is calcula
 
 Adobe highly recommends creating proof messages to test your delivery on an approval group before sending it to the main target. You can then validate message content, personalization and delivery parameters.
 
-[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). You can also watch [this video](https://docs.campaign.adobe.com/doc/AC/en/Videos/seeds_sending_email_611.mp4).
+[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). You can also watch [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html).
 
 ### How to use seed addresses in Adobe Campaign? {#how-to-use-seed-addresses-in-adobe-campaign-}
 
@@ -363,7 +363,7 @@ Learn how to track your deliveries and understand the recipients' behaviour [fro
 
 Adobe Campaign comes with a set of reports to monitor your deliveries and track your messages.
 
-[Click here to learn more on built-in reports](../../reporting/using/reports-on-deliveries.md#delivery-reports).
+[Click here to learn more on built-in reports](../../reporting/using/delivery-reports.md).
 
 ### How does Adobe Campaign qualify and manage quarantine addresses? {#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
 
@@ -431,7 +431,7 @@ You can query Campaign database using the generic query editor. It is accessed v
 
 Queries are created using fields of the selected table or using a formula. Main principles to create a query on Campaign database are described [in this page](../../platform/using/about-queries-in-campaign.md).
 
-[Click here](../../workflow/using/designing-queries.md) to discover Campaign query editor through a set of use cases.
+[Click here](../../workflow/using/query.md) to discover Campaign query editor.
 
 ### How can I import a data package? {#how-can-i-import-a-data-package-}
 

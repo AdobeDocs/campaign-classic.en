@@ -33,7 +33,7 @@ Execution instances receive events, link them to transactional message templates
 
 >[!CAUTION]
 >
->Sharing an execution cluster with several control instances is not supported by Adobe for fully hosted and hybrid clients.
+>Sharing an execution cluster with several control instances is only supported for on-premise environments.
 
 It is possible to share an execution cluster among several control instances. For example, if you manage several specialized stores, you can configure one control instance per brand and link them all to the same execution cluster.
 

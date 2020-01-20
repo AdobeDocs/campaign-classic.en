@@ -1,8 +1,6 @@
 ---
-title: About deliverability
-seo-title: About deliverability
-description: About deliverability
-seo-description: 
+title: About deliverability in Adobe Campaign Classic
+description: Learn more about managing deliverability in Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
@@ -18,13 +16,14 @@ snippet: y
 
 # About deliverability{#about-deliverability}
 
-Adobe Campaign offers tools to track the deliverability performance of your platform. These functions are part of a dedicated option, the **Deliverability monitoring** module.
+Adobe Campaign offers a certain number of tools to track the deliverability performance of your platform. This section also highlights the main principles you should have in mind when managing and optimizing deliverability.
+<!--These functions are part of a dedicated option, the **Deliverability monitoring** module.-->
 
 >[!NOTE]
 >
 >Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices linked to deliverability.
 
-When this module is configured for your Adobe Campaign platform, you have access to the following information:
+<!--When this module is configured for your Adobe Campaign platform, you have access to the following information:
 
 * Technical tracking report for day to day deliverability performance (technical monitoring)
 * ISP inbox rendering report
@@ -32,7 +31,7 @@ When this module is configured for your Adobe Campaign platform, you have access
 
 >[!CAUTION]
 >
->The **Email Deliverability** module is a Campaign add-on. Please check your license agreement.
+>The **Email Deliverability** module is a Campaign add-on. Please check your license agreement.-->
 
 ## Background {#background}
 
@@ -88,7 +87,7 @@ Proper bounce management is an important email deliverability best practice. Rep
 
 Hard bounces should be identified and automatically excluded from subsequent email campaigns. Soft bounces, on the other hand, can safely be retried up to five times; if these attempts aren't successful, the addresses should then be removed from the list. Because soft bounces may also be caused by temporary ISP blocking, it's also important to regularly investigate their cause in order to diagnose and correct any issues with authentication, volume, or reputation.
 
-For more on thisn, refer to [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md).
+For more on this, refer to [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md).
 
 ### Data Hygiene {#data-hygiene}
 
@@ -186,7 +185,7 @@ In order to build and maintain a good IP reputation, you must route regularly wi
 
 To track your reputation, refer to the main real-time blacklists (RBLs), such as SpamCop, SpamHaus, etc. RBLs are databases that contain the IP addresses of known spammers, as well as IPs with open mail relays, as spammers can easily use these systems to send out spam. All modern mail transport agents (mail servers) can be configured to automatically reject messages sent from a site listed on an RBL. Consequently, ending up on an RBL is a near-guarantee that your emails won't be delivered. It bears repeating that this can be detrimental not only to your marketing efforts but your business results.
 
-### Non-Commercial White Lists {#non-commercial-white-lists}
+<!--### Non-Commercial White Lists {#non-commercial-white-lists}
 
 Non-commercial white lists are maintained by the primary ISPs and email services such as Yahoo! and AOL. Inclusion on these white lists grants faster delivery, including via lifting of the "throttling" filter.
 
@@ -196,7 +195,34 @@ In order to be accepted to non-commercial white lists, email senders must pass a
 
 Commercial white lists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system. Those commercial white lists operate on a CPM (cost per thousand) or annual basis and are offered by independent commercial organizations such as Return Path. ISPs are free to use those services and the number that do vary depending on each white list.
 
-A sender that has been certified may then be more confident as it executes new campaigns. Some white lists also facilitate opening of images in Webmail interfaces and activation of hyperlinks. Certification on such commercial white lists has undeniable upside for email marketers.
+A sender that has been certified may then be more confident as it executes new campaigns. Some white lists also facilitate opening of images in Webmail interfaces and activation of hyperlinks. Certification on such commercial white lists has undeniable upside for email marketers.-->
+
+### IP Certification {#ip-certification}
+
+IP Certification is a whitelisting and sending practices program that helps ensuring that emails are received without being blocked by antispam filters or other email blocking systems.
+
+Currently two providers offer IP Certification: Return Path and Certified Senders Alliance.
+
+Certified senders are added to email whitelists which are used by global mailbox providers and email security companies. These commercial whitelists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system.
+
+The [Return Path Certification](https://www.validity.com/products/returnpath/certification/) program offers a number of benefits, including the following:
+
+* A measurable increase in inbox placement at top mailbox providers like Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru, and more
+* Favorable reputation and treatment at critical filters like Cloudmark, SpamAssassin, and Cisco Ironport
+* A compliance team dedicated to 24/7 monitoring, providing with security alerts and working with you through the resolution of any compromises
+* Mailbox provider data delivering detailed information about KPIs, placement, and Certification performance
+* Simplified and faster IP warming, including stronger reputation and recognition when migrating or obtaining a new IP address
+
+The [Certified Senders Alliance](https://certified-senders.org/certification-process/) Certification offers amongst other benefits:
+
+* Certification of senders of commercial emails who can comply with high quality standards
+* Improved delivery and deliverability of commercial emails to increase the inbox placement rate and reduce spam filtering
+* Protection from legal and financial risks by fully complying with legal standards
+* Protecting reputation by means of early warnings from the CSA Complaints Office and daily spam trap reports
+
+ISPs are free to use these services and the number of ISPs can vary depending on the whitelist.
+
+However, because more and more ISPs build their antispam filters based on each user behavior rather than analyzing the message content itself, using IP Certification cannot be a guarantee of inbox placement or even delivery.
 
 ### Email Monitoring Reports {#email-monitoring-reports}
 

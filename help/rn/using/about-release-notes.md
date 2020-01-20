@@ -20,12 +20,12 @@ snippet: y
 
 Looking for a specific release of Adobe Campaign Classic?
 
-All 2018 and 2019 releases, with their new features and patches, are listed here. Control Panel updates are also included.
+All 2018 and 2019 releases, with their new features and patches, are listed here.
  
 Additional resources:
 
 * [Latest Release](../../rn/using/latest-release.md)
 * [Documentation Updates](https://helpx.adobe.com/campaign/kb/v7-doc-updates.html)
 * [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
-* [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 * [Legacy Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN_legacy.html)
