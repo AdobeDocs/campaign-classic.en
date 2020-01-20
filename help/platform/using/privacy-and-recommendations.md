@@ -24,7 +24,7 @@ Adobe Campaign is a powerful tool for collecting and processing extremely large 
 
 For more on this, refer to [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/marketing-cloud.html).
 
-Adobe Campaign provides the tools and functionalities, as well as best practices, to help you with your GDPR compliance when using our service. Refer to [this document](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html).
+Adobe Campaign provides the tools and functionalities, as well as best practices, to help you with your Privacy compliance when using our service. Refer to this [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
 
 Take the time to go through the [Security and Privacy checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html) to learn the key elements to check regarding security and privacy.
 

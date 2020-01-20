@@ -111,13 +111,15 @@ These are a set of rights and restrictions that authorize or deny to:
 
 [Click here to learn more](../../platform/using/access-management.md) about user permissions.
 
-### How to be GDPR compliant with Campaign? {#how-to-be-gdpr-compliant-with-campaign-}
+### How to manage your Privacy compliance? {#how-to-be-gdpr-compliant-with-campaign-}
 
-GDPR is the European Union’s (EU) new privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
+GDPR (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
-In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and rights management), we are taking this opportunity in our role as Data Processor to include additional capabilities, to help facilitate your readiness as Data Controller for certain GDPR requests.
+CCPA (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
 
-Refer to [this document](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html) to understand the tools and functionalities that Adobe Campaign provides, as well as best practices, to help you with your GDPR compliance when using our service.
+In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and rights management), we are taking this opportunity in our role as Data Processor to include additional capabilities, to help facilitate your readiness as Data Controller for certain Privacy requests.
+
+Refer to this [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html) to understand the tools and functionalities that Adobe Campaign provides, as well as best practices, to help you with your Privacy compliance when using our service.
 
 ### What are Campaign user interface concepts I should know? {#what-are-campaign-user-interface-concepts-i-should-know-}
 
