@@ -20,7 +20,7 @@ snippet: y
 
 ## About privacy and consent {#about-privacy-and-consent}
 
-Adobe Campaign is a powerful tool for collecting and processing extremely large amounts of data, including personal information. We encourage all users of Adobe Campaign to work within legislation (DPA, CAN-SPAM, European Directive on Privacy and Electronic Communications, European GDPR, etc.), make responsible and ethical use of personal information and refrain from sending unsolicited e-mail, push notifications and SMS messages ("spam"). We strongly believe in the principles of permission marketing in fostering customer lifetime value and loyalty, and we therefore strictly forbid the use of Adobe Campaign in sending unsolicited messages.
+Adobe Campaign is a powerful tool for collecting and processing extremely large amounts of data, including personal information. We encourage all users of Adobe Campaign to work within legislation (DPA, CAN-SPAM, European Directive on Privacy and Electronic Communications, European GDPR, CCPA, etc.), make responsible and ethical use of personal information and refrain from sending unsolicited e-mail, push notifications and SMS messages ("spam"). We strongly believe in the principles of permission marketing in fostering customer lifetime value and loyalty, and we therefore strictly forbid the use of Adobe Campaign in sending unsolicited messages.
 
 For more on this, refer to [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/marketing-cloud.html).
 

@@ -246,9 +246,9 @@ The following table lists all standard packages with their description, the inst
   </tr> 
   <tr> 
    <td> Privacy Data Protection Regulation<br /> </td> 
-   <td> Contains additional functionality to help projects become GDPR compliant in Campaign Classic.<br /> </td> 
+   <td> Contains additional functionality to help with your Privacy compliance in Campaign Classic.<br /> </td> 
    <td> All</td> 
-   <td> <a href="https://helpx.adobe.com/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html">Learn More</a> </td> 
+   <td> <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">Learn More</a> </td> 
   </tr> 
   <tr> 
    <td> Transfer to Mid-Sourcing <br /> </td> 
