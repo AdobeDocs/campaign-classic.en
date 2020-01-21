@@ -10,13 +10,14 @@ sub-product: adobe campaign classic
 # Adobe Campaign Classic Help {#using}
 
 + [Product documentation](campaign-classic-home.md)
-+ [Latest Updates](rn/using/documentation-updates.md)
++ [Latest updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
-  + [Release 19.2](rn/using/latest-release.md)
-  + [Release 19.1](rn/using/release--19-1.md)
-  + [Release 18.10](rn/using/release--18-10.md)
-  + [Release 18.6](rn/using/release--18-6.md)
-  + [Release 18.4](rn/using/release--18-4.md)
+  + [Latest Release](rn/using/latest-release.md)
+  + Previous Releases {#previous-releases}
+    + [Release 19.1](rn/using/release--19-1.md)
+    + [Release 18.10](rn/using/release--18-10.md)
+    + [Release 18.6](rn/using/release--18-6.md)
+    + [Release 18.4](rn/using/release--18-4.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -126,7 +127,6 @@ sub-product: adobe campaign classic
        + [Implementation](delivery/using/implementation.md)
        + [Configuration](delivery/using/configuration.md)
        + [Technical monitoring](delivery/using/technical-monitoring.md)
-       + [Inbox monitoring](delivery/using/inbox-monitoring.md)
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Technical recommendations](delivery/using/technical-recommendations.md)
@@ -183,18 +183,22 @@ sub-product: adobe campaign classic
        + [Hypothesis tracking](campaign/using/hypothesis-tracking.md)
 + Reporting {#reporting}
   + Reporting in Adobe Campaign {#reporting-in-adobe-campaign}
-       + [About Adobe Campaign reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
-       + [Analyzing needs](reporting/using/analyzing-needs.md)
-       + [Optimizing report creation](reporting/using/optimizing-report-creation.md)
+       + [Get started with reporting](reporting/using/about-adobe-campaign-reporting-tools.md)
+       + [Best practices for reporting](reporting/using/best-practices.md)
   + Accessing built-in reports {#accessing-built-in-reports}
        + [About Campaign built-in reports](reporting/using/about-campaign-built-in-reports.md)
-       + [Accessing reports](reporting/using/accessing-reports.md)
        + [List of reports](reporting/using/list-of-reports.md)
-       + [Reports on deliveries](reporting/using/reports-on-deliveries.md)
+  + Reports on deliveries{#reports-on-deliveries}
+       + [About reports on deliveries](reporting/using/reports-on-deliveries.md) 
+       + [Global reports](reporting/using/global-reports.md)
+       + [Delivery reports](reporting/using/delivery-reports.md)
+       + [Cumulative reports](reporting/using/cumulative-reports.md)
+       + [Indicator calculation](reporting/using/indicator-calculation.md)
+       + [Person/people and recipients](reporting/using/person-people-recipients.md)
   + Analyzing populations {#analyzing-populations}
        + [About descriptive analysis](reporting/using/about-descriptive-analysis.md)
        + [Using the descriptive analysis wizard](reporting/using/using-the-descriptive-analysis-wizard.md)
-       + [Processing a report](reporting/using/processing-a-report.md)
+       + [Using an analysis report](reporting/using/processing-a-report.md)
        + [Use cases](reporting/using/use-cases.md)
   + Creating new reports {#creating-new-reports}
        + [About reports creation in Campaign](reporting/using/about-reports-creation-in-campaign.md)
@@ -347,8 +351,6 @@ sub-product: adobe campaign classic
        + [SQL code and JavaScript code](workflow/using/sql-code-and-javascript-code.md)
        + [SQL Data Management](workflow/using/sql-data-management.md)
        + [Nlserver module](workflow/using/nlserver-module.md)
-       + [Import and Export (v4 compatibility)](workflow/using/import-and-export--v4-compatibility-.md)
-       + [Microsoft CRM, Salesforce, Oracle CRM On Demand](workflow/using/microsoft-crm--salesforce--oracle-crm-on-demand.md)
        + [Update aggregate](workflow/using/update-aggregate.md)
   + Event activities {#event-activities}
        + [About event activities](workflow/using/about-event-activities.md)
