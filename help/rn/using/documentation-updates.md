@@ -38,6 +38,8 @@ The best practices article on how to optimize the queries running on your instan
 
 Reporting guide has been updated and reorganized. [Read more](../../reporting/using/about-adobe-campaign-reporting-tools.md)
 
+An example of how to use an instance variable in a workflow has been added. [Read more](../../workflow/using/javascript-scripts-and-templates.md)
+
 ## December 2019 {#december-2019}
 
 The "WdbcOptions_TempDbName" option has been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
