@@ -33,7 +33,7 @@ sub-product: adobe campaign classic
           + [Workflows](platform/using/faq-workflows.md)
           + [Configuration](platform/using/faq-campaign-config.md)
           + [Reports](platform/using/faq-reporting.md)
-          + [Development](platform/using/faq-developers.md))
+          + [Development](platform/using/faq-developers.md)
        + [Tutorials](platform/using/tutorials.md)
   + Profile management {#profile-management}
        + [About profiles](platform/using/about-profiles.md)
