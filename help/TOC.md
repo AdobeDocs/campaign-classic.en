@@ -143,7 +143,6 @@ sub-product: adobe campaign classic
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Blacklisting databases](delivery/using/blacklisting-databases.md)
-
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
