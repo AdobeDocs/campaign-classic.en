@@ -124,4 +124,3 @@ Read more common questions on specific topics.
         <div><a href="../../platform/using/faq-developers.md"><strong>Developement</strong></a></div>
         <br/><em>Developers FAQ</em>
     </td>
-
