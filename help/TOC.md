@@ -24,7 +24,7 @@ sub-product: adobe campaign classic
        + [Privacy and recommendations](platform/using/privacy-and-recommendations.md)
        + [Launching Adobe Campaign](platform/using/launching-adobe-campaign.md)
        + [Adobe Campaign workspace](platform/using/adobe-campaign-workspace.md)
-       + [Common questions](platform/using/common-questions.md
+       + [Common questions](platform/using/common-questions.md)
           +[Key concepts](platform/using/faq-key-concepts.md)
           +[Audiences](platform/using/faq-audiences.md)
           +[Design messages](platform/using/faq-designing.md)
