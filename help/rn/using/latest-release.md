@@ -1,6 +1,6 @@
 ---
 title: Latest Release
-description: Campaign Classic 19.2 Release Notes
+description: Latest Release
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -16,7 +16,7 @@ snippet: y
 
 # Latest Release{#latest-release}
 
-[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--19-1.md) &#124; [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--19-2.md) &#124; [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
@@ -52,7 +52,7 @@ _February 17, 2020_
  <tbody> 
   <tr> 
    <td> <p>XXXX</p>
-    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX/a>.</p><
+    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -67,7 +67,7 @@ _February 17, 2020_
  <tbody> 
   <tr> 
    <td> <p>XXXX</p>
-    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX/a>.</p><
+    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ _February 17, 2020_
  <tbody> 
   <tr> 
    <td> <p>XXXX</p>
-    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX/a>.</p><
+    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -97,7 +97,7 @@ _February 17, 2020_
  <tbody> 
   <tr> 
    <td> <p>XXXX</p>
-    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX/a>.</p><
+    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX</a>.</p>
    </td> 
   </tr> 
  </tbody> 
