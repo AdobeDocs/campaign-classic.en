@@ -24,9 +24,13 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 ## January 2020 {#january-2020}
 
+The Deliverability section has been moved, reorganized, and enhanced with updated content. [Read more](../../delivery/using/about-deliverability.md)
+
+A new section describing the Adobe Campaign Classic data model basics and how to access the description of each table is now available. [Read more](../../configuration/using/about-data-model.md)
+
 The use cases related to query designing have been reorganized into separate sections. [Read more](../../workflow/using/querying-recipient-table.md)
 
-The 'Tips and tricks on managing offers and using the Interaction module in Adobe Campaign Classic' documentation has been updated and moved to core documentation. [Read more](../../interaction/using/interaction-best-practices.md#tips-managing-offers)
+A new section about tips and tricks on managing offers and using the Interaction module in Adobe Campaign Classic is now available. [Read more](../../interaction/using/interaction-best-practices.md#tips-managing-offers)
 
 The Interaction documentation has been enriched with links to several videos that help understand better how to manage offers. [Read more](../../interaction/using/interaction-and-offer-management.md)
 
