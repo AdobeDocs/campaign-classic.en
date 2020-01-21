@@ -43,7 +43,7 @@ The deliverability rate depends on numerous factors, particularly:
 
 Here is a list of the key points to check to ensure good deliverability.
 
-## Check network configuration {network-configuration}
+## Check network configuration {#network-configuration}
 
 Spammers try to conceal their real identity and as a consequence make their servers difficult to identify. A legitimate network configuration that does not try to hide the identity of the server is essential to sending emails in large volumes.
 
