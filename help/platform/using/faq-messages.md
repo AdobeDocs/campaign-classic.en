@@ -56,7 +56,6 @@ To avoid conflicts between campaigns, Adobe Campaign can test various combinatio
 
 [Click here to learn more](../../campaign/using/about-campaign-typologies.md).
 
-
 ## Send your messages {#send-your-messages}
 
 Learn how to send messages in various channels with Adobe Campaign.

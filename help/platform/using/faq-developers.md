@@ -19,8 +19,7 @@ snippet: y
 
 As an open solution, Adobe Campaign is ready for customization and advanced applications development.
 
-
-## What is the Campaign data model?
+## What is the Campaign data model? {#what-is-the-campaign-data-model}
 
 The conceptual data model of the Adobe Campaign database consists in a set of built-in tables and their interaction. The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a schema. For more on Adobe Campaign schemas, [refer to this section](../../configuration/using/about-schema-edition.md).
 
@@ -64,6 +63,6 @@ The principle of data packages is to export a data configuration and integrate i
 
 [Click here](../../platform/using/working-with-data-packages.md) to learn how to work with data packages to import and export Campaign configurations.
 
-## Where can I find the list of Campaign Classic APIs?
+## Where can I find the list of Campaign Classic APIs? {#where-can-i-find-the-list-of-campaign-classic-apis}
 
 All Campaign APIs including their full description is available in this [dedicated documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
