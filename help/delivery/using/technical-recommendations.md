@@ -1,8 +1,6 @@
 ---
-title: Technical recommendations
-seo-title: Technical recommendations
-description: Technical recommendations
-seo-description: 
+title: Technical recommendations for improving deliverability with Adobe Campaign Classic
+description: Discover techniques, configurations, and tools that you can use to improve your deliverability rate with Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 71be1087-e5ff-4a7a-85ca-36803839e72f
 contentOwner: sauviat
@@ -18,19 +16,41 @@ snippet: y
 
 # Technical recommendations{#technical-recommendations}
 
-## Reverse DNS {#reverse-dns}
+Several techniques, configurations, and tools that you can use to improve your deliverability rate are listed below.
 
-A tool to verify the configuration of a domain: [https://mxtoolbox.com/SuperTool.aspx](https://mxtoolbox.com/SuperTool.aspx).
+## Configuration {#configuration}
+
+### Reverse DNS {#reverse-dns}
+
+Adobe Campaign checks whether a reverse DNS is given for an IP address and that this correctly points back to the IP.
 
 An important point in the network configuration is making sure a correct reverse DNS is defined for each of the IP addresses for outgoing messages. This means that for a given IP address, there is a reverse DNS record (PTR record) with a matching DNS (A record) looping back to the initial IP address.
 
 The domain choice for a reverse DNS has an impact when dealing with certain ISPs. AOL, in particular, only accepts feedback loops with an address in the same domain as the reverse DNS (see [Feedback loop](#feedback-loop)).
 
-## SPF {#spf}
+A tool is available to verify the configuration of a domain: [https://mxtoolbox.com/SuperTool.aspx](https://mxtoolbox.com/SuperTool.aspx).
+
+### MX rules {#mx-rules}
+
+MX rules (Mail eXchanger) are the rules that manage communication between a sending server and a receiving server.
+
+More precisely, they are used to control the speed at which the Campaign MTA (Message Transfer Agent) sends emails to each individual email domain or ISP (e.g. hotmail.com, comcast.net). These rules are typically based on limits published by the ISPs (e.g. do not include more than 20 messages per each SMTP connection).
+
+For more on MX management, refer to the [dedicated section](../../installation/using/email-deliverability.md#mx-configuration).
+
+### TLS {#tls}
+
+TLS (Transport Layer Security) is an encryption protocol that can be used to secure the connection between two email servers and protect the content of an email from being read by anyone other than the intended recipients.
+
+## Authentication {#authentication}
+
+### SPF {#spf}
+
+SPF (Sender Policy Framework) is an email authentication standard that allows the owner of a domain to specify which email servers are allowed to send email on behalf of that domain. This standard uses the domain in the email's "Return-Path" header (also referred to as the "Envelope From" address).
 
 A tool is available to verify an SPF record: [https://www.kitterman.com/spf/validate.html](https://www.kitterman.com/spf/validate.html)
 
-The SPF (Sender Policy Framework) is a technique that, to a certain extent, enables you to make sure that the domain name used in an email is not forged. When a message is a received from a domain, the DNS server of the domain is queried. The response is a short record (the SPF record) that details which servers are authorized to send emails from this domain. If we assume that only the owner of the domain has the means to change this record, we can consider that this technique does not allow the sender address to be forged, at least not the part from the right of the "@".
+The SPF is a technique that, to a certain extent,enables you to make sure that the domain name used in an email is not forged. When a message is a received from a domain, the DNS server of the domain is queried. The response is a short record (the SPF record) that details which servers are authorized to send emails from this domain. If we assume that only the owner of the domain has the means to change this record, we can consider that this technique does not allow the sender address to be forged, at least not the part from the right of the "@".
 
 In the final [RFC 4408 specification](https://www.rfc-editor.org/info/rfc4408), two elements of the message are used to determine the domain considered as the sender: The domain specified by the SMTP "HELO" (or "EHLO") command and the domain specified by the address of the "Return-Path" (or "MAIL FROM") header, which is also the bounce address. Different considerations make it possible to take into account one of these values only; we recommend making sure that both sources specify the same domain.
 
@@ -46,7 +66,36 @@ Checking the SPF provides an evaluation of the validity of the sender's domain:
 
 It is worth noting that records made at the level of the DNS servers can take up to 48 hours to be taken into account. This delay depends on how often the DNS caches of the receiving servers are refreshed.
 
-### Configuring the application {#configuring-the-application}
+### DKIM {#dkim}
+
+DKIM (DomainKeys Identified Mail) authentication is a successor to SPF and uses public-key cryptography that allows the receiving email server to verify that a message was in fact sent by the person or entity it claims it was sent by, and whether or not the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the "From" or "Sender" header. To insure the security level of the DKIM, 1024b is the Best Practices recommended encryption size. Lower DKIM keys will not be considered as valid by the majority of access providers.
+
+DKIM comes from a combination of the DomainKeys, Yahoo! and Cisco Identified Internet Mail authentication principles and is used to check the authenticity of the sender domain and guarantee the integrity of the message.
+
+DKIM replaced **DomainKeys** authentication.
+
+Using DKIM requires some prerequisites:
+
+* **Security**: encryption is a key element of the DKIM and to insure the security level of the DKIM since the spring 2013, 1024b is the Best Practices recommended encryption size. Lower DKIM keys will not be considered as valid by the majority of access providers.
+* **Reputation**: reputation is based on the IP and/or the domain, but the less transparent DKIM selector is also a key element to be taken into account. Choosing the selector is important: avoid keeping the “default” one which could be used by anyone and therefore has a very weak reputation. You must implement a different selector for **retention vs. acquisition communications** and for authentication.
+* **Adobe Campaign option declaration**: in Adobe campaign the DKIM private key is based on a DKIM selector and a domain. It is not currently possible to create multiple private keys for the same domain/sub-domain with different selectors. It is not possible to define which selector domain/sub-domain must be used for the authentication in neither the platform or the email. The platform will alternatively select one of the private keys, which means the authentication has a high chance of failing.
+
+>[!NOTE]
+>
+>* If you have configured DomainKeys for your Adobe Campaign instance, you just need to select **dkim** in the domain handling rules. If not, follow the same configuration steps (private/public key) as for DomainKeys.
+>* It is not necessary to enable both DomainKeys and DKIM for the same domain as DKIM is an improved version of DomainKeys.
+>* The following domains currently validate DKIM: AOL, Gmail.
+
+### DMARC {#dmarc}
+
+DMARC (Domain-based Message Authentication, Reporting and Conformance) is the most recent form of email authentication, and it relies on both SPF and DKIM authentication to determine whether an email passes or fails. DMARC is unique and powerful in two very important ways:
+
+* Conformance - it allows the sender to instruct the ISPs on what to do with any message that fails to authenticate (e.g. do not accept it).
+* Reporting – it provides the sender with a detailed report showing all messages that failed DMARC authentication, along with the "From" domain and IP address used for each. This allows a company to identify legitimate email that's failing authentication and needs some type of "fix" (e.g. adding IP addresses to their SPF record), as well as the sources and prevalence of phishing attempts on their email domains.
+
+DMARC can leverage the reports generated by [250ok](https://250ok.com/).
+
+<!--#### Configuring the application {#configuring-the-application}
 
 To define the domain used for the HELO command, edit the instance's configuration file (conf/config-instance.xml) and define a "localDomain" attribute as follows:
 
@@ -60,7 +109,7 @@ To define the domain used for the HELO command, edit the instance's configuratio
 
 The MAIL FROM domain is the domain used in technical bounce messages. This address is defined in the deployment wizard or via the NmsEmail_DefaultErrorAddr option.
 
-### DNS configuration {#dns-configuration}
+#### DNS configuration {#dns-configuration}
 
 An SPF record can currently be defined on a DNS server as a TXT type record (code 16) or an SPF type record (code 99). An SPF record takes the form of a character string. For example:
 
@@ -73,7 +122,7 @@ defines the 2 IP addresses 12.34.56.78 and 12.34.56.79 as authorized to send ema
 Recommendations for defining an SPF record:
 
 * Add **~all** (SoftFail) or **-all** (Fail) at the end to reject all servers other than those defined. Without this, servers will be able to forge this domain (with a Neutral evaluation).
-* Do not add **ptr** (openspf.org recommends against this as costly and unreliable).
+* Do not add **ptr** (openspf.org recommends against this as costly and unreliable).-->
 
 ## Feedback loop {#feedback-loop}
 
@@ -112,7 +161,7 @@ If you are forced to use one single feedback loop address for multiple instances
 
 Adobe Campaign's Deliverability service manages your subscription to feedback loop services for the following ISPs: AOL, BlueTie, Comcast, Cox, EarthLink, FastMail, Gmail, Hotmail, HostedEmail, Libero, Mail.ru, MailTrust, OpenSRS, QQ, RoadRunner, Synacor, Telenor, Terra, UnitedOnline, USA, XS4ALL, Yahoo, Yandex, Zoho.
 
-## List-Unsubscribe {#list-unsubscribe-}
+## List-Unsubscribe {#list-unsubscribe}
 
 ### About List-Unsubscribe {#about-list-unsubscribe}
 
@@ -179,352 +228,41 @@ The rule must contain the script that generates the command line and it must be 
 
    ![](assets/s_tn_del_unsubscribe_param.png)
 
-## SMTP header for reattributing inactive addresses by Yahoo! {#smtp-header-for-reattributing-inactive-addresses-by-yahoo-}
+## Email optimization {#email-optimization}
 
-### Introduction {#introduction}
+### SMTP {#smtp}
 
-The new SMTP header is a mandatory tool to control future communication and personal information that will be sent to Yahoo! users using an address which has been reattributed.
-
-### Installation {#installation}
-
-Adobe Campaign lets you add additional headers that use delivery properties such as List-Unsubscribe for example.
-
-If you wish, this type of addition can be used for certain domains only.
-
-This SMTP header is named "Require-Recipient-Valid-Since" and the deliveries containing this tag "ask" Yahoo! for validation of the targeted account.
-
-Specific additional tags:
-
-* Name: Require-Recipient-Valid-Since,
-* Information used in the tag: email address.
-
->[!NOTE]
->
->These elements are necessary for implementing the tag and are called when it is about a marketing instance.
->
->However, real-time instances operate with a feed: you must update this feed with the **Date** information.
-
-### Operating principle {#operating-principle}
-
-If the target email address is kelyslater@yahoo.com and this address has been present in the database since 12th October 2010, the header must be as follows:
-
-```
-Require-Recipent-Valid-Since: kelyslater@yahoo.com; 12 Oct 2010
-```
-
-If this email address has been reattributed to another Yahoo! user, an error message will indicate this reattribution as a quarantined address.
-
-You can then use a workflow to contact the target via Facebook or an sms and update its profile.
-
-## Precedence tag {#precedence-tag}
-
-### About precedence tag {#about-precedence-tag}
-
-Some ISPs ask for mass senders to add a tag to their header which allows them to be identified. A good example is Gmail where this tag is a pre-requisite.
-
-### Installing SMTP headers {#installing-smtp-headers}
-
-Adobe Campaign lets you add additional SMTP headers using the delivery properties, such as the 'List-Unsubscribe' tag. This type of SMTP addition can also be added to certain domains only.
-
-For example, to only include this SMTP header in Gmail, the function is as follows:
-
-```
-<%
-  if (recipient.domain == 'gmail.com')
-    {
-%>
-  Precedence: bulk
-<%
-    }
-%>
-```
-
-![](assets/precedence-tag.png)
-
-## DomainKeys {#domainkeys}
-
-### About DomainKeys {#about-domainkeys}
-
-This technology, mainly sponsored by Yahoo, can be implemented in Adobe Campaign.
-
-However, this authentication method was replaced by **DKIM**. Refer to [this section](#domainkeys-identified-mail--dkim-).
-
-### Using keys {#using-keys}
-
-DomainKeys is a specification using public key technology to digitally sign an email to prove the origin of the message.
-
-#### Private/Public key {#private-public-key}
-
-The domain owner generates a pair of keys (public/private) that will be used to sign the messages sent by the users of this domain. The public key is placed in the DNS of the domain as a TXT type record. The private key is kept on the messaging server that sends emails for this domain.
-
-When an email is sent by the user of the domain, the messaging server uses the private key to sign the message. The signature is added to the message header before it is sent.
-
-When a signed message is received, the messaging server reads the signature and message domain then queries the DNS in order to obtain the public key of the domain. With this public key, the messaging server then checks whether the signature of the message is valid.
-
-#### Selectors {#selectors}
-
-Selectors enable a domain to have multiple public keys in the DNS. The administrator can then choose a given key depending on the type of traffic. If the selector is 'test' and the domain is 'example.com', the public key will be available from the **test._domainkey.example.com** TXT-type DNS record. The name preceding **_domainkey** is the selector.
-
-Adobe Campaign uses **default** as the default selector.
-
-### Enabling DomainKeys {#enabling-domainkeys}
-
-This section describes the required configuration in Adobe Campaign to enable DomainKeys.
-
-You must be able to update the DNS records for your domain to enable DomainKeys.
-
-To do this, follow the steps below:
-
-1. Generate the keys: from a command prompt, use the following syntax: `$ openssl genrsa -out rsa.private 1024`
-
-  The result is an **rsa.private** file such as:
-
-   ```
-   -----BEGIN RSA PRIVATE KEY-----
-   MIICXQIBAAKBgQCUBBPm/6CGCw3Imbgka0GWIp95KTlE645kZVLp3MWLMox4bQUu
-   2Jks9+3eg/qk5ITFmxH//LB6efRgroW005En7u18nZ4FPWj0rKUuGYQTbMLq7+sB
-   KmSZNiVFcuGCl3O8oA7EPPuf0oK9B84FAwp94cBw5qzSdkvd5bMMCwkfVQIDAQAB
-   AoGAWgo8/SmFweTZhq0UGntwk18Oecr8/pL4tNP6Yy8csHeYge132K6ER5muhszs
-   XQByUC7r/Tf/NxIW+fVQeta0lpRki+SBvQOJyzTfXYf1S9XyyIgbPmVz8sQK2nWr
-   KdzUeM1ueSuL82dPJXvkXaXirpm0rSHSYu0D7878/CGzxaUCQQDFUAXsIq3u+iwl
-   27kkMPKqAb96fUxmF14huxmoB6oMbblFwAT94IxfoXOR5lwEoHZvklcnfk0wiIyk
-   vUv+Fj1/AkEAwAp1NARz6wtYChft+ruMAI5cZyfC9BmaCesTkvmLb3411ooql5QP
-   m2vAeuUw3I8GmjI3uzdnJ18gTeTV6S61KwJBALLZEkU0Ogx/3zyBqZPQemT3KKTS
-   pklzrPNOMLdKGy0g1+sNXnjw7MxR//ujnozjFfeT4kP+C+GOJE2+9/7cEekCQGrb
-   ptnZ/HJ2bne3VwmkoEOS86HGwzk2obsRHmQzDT5t2SFW4lpT3ddavtDjhSvFPiRA
-   +zfmnTSQPxZ41fqZrd8CQQDCcnFVQUMtMasfV5hGQjOPLoX8a6ivFNmSk7P0gPVt
-   2iwz49E+Os0q5AhghyOmxsmwLjUOmptLBrWMR/gt2w7Q
-   -----END RSA PRIVATE KEY-----
-   ```
-
-   >[!NOTE]
-   >
-   >Adobe Campaign supports 512, 768, 1024, 1536 and 2048-bit keys. To date, a minimum length key is not a prerequisite, however, it is generally accepted that a 512-bit key can potentially be falsified. The length of the key can have an impact on throughput (if CPU is the only limiting factor):
-   >
-   >* 512 bit: - 19 % compared to sending unsigned
-   >* 768 bit: - 37 %
-   >* 1024 bit: - 60 %
-   >* 1536 bit: - 80 %
-   >* 2048 bit: - 90 %
-
-1. To extract the public key from the private key, use the following command: `$ openssl rsa -in rsa.private -out rsa.public -pubout -outform PEM`
-
-   The result is an **rsa.public** file such as:
-
-   ```
-   -----BEGIN PUBLIC KEY-----
-   MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCUBBPm/6CGCw3Imbgka0GWIp95
-   KTlE645kZVLp3MWLMox4bQUu2Jks9+3eg/qk5ITFmxH//LB6efRgroW005En7u18
-   nZ4FPWj0rKUuGYQTbMLq7+sBKmSZNiVFcuGCl3O8oA7EPPuf0oK9B84FAwp94cBw
-   5qzSdkvd5bMMCwkfVQIDAQAB
-   -----END PUBLIC KEY-----
-   ```
-
-   >[!NOTE]
-   >
-   >In Windows, you must download the OpenSSL library from the following URL: [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
-
-1. Save the public key in the DNS
-
-   Here is the syntax to create a TXT-type DNS record for **selector._domainkey.example.com**:
-
-    * Syntax for BIND
-
-      ```
-      default._domainkey.example.com. IN TXT "k=rsa; t=y; 
-      p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCUBBPm
-      /6CGCw3Imbgka0GWIp95KTlE645kZVLp3MWLMox4bQUu2Jks9+3eg
-      /qk5ITFmxH/
-      /LB6efRgroW005En7u18nZ4FPWj0rKUuGYQTbMLq7
-      +sBKmSZNiVFcuGCl3O8oA7EPPuf0oK9B84FAwp94cBw5qzSdkvd5bMMCwkfVQIDAQAB"
-      ```
-
-    * Syntax for DJBDNS (TINYDNS)
-
-      ```
-      'default._domainkey. example.com:k=rsa;t=y; 
-      p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCUBBPm
-      /6CGCw3Imbgka0GWIp95KTlE645kZVLp3MWLMox4bQUu2Jks9+3eg
-      /qk5ITFmxH/
-      /LB6efRgroW005En7u18nZ4FPWj0rKUuGYQTbMLq7
-      +sBKmSZNiVFcuGCl3O8oA7EPPuf0oK9B84FAwp94cBw5qzSdkvd5bMMCwkfVQIDAQAB;:86400
-      ```
-
-      The parameters of the record are defined with the syntax **parameter=value**.
-
-      The valid parameters are:
-
-        * **g=** defines the applicability of the key in relation to the local name of the sender.
-
-          **g=&#42;** enables all senders in the domain **example.com** to use the key.
-
-          **g=sender;** enables this key to be used for messages sent from **sender@example.com**.
-        * **k =** key type. Only the value **rsa** is supported. This parameter is optional.
-        * **n =** note concerning the key. This note is intended for administrators and is not used by the signature and authentication processes. This parameter is optional.
-        * **p =** public key encoded in Base64. An empty value means that the key has been revoked. This parameter is mandatory.
-        * **t =** flags defining attributes. One single attribute is currently defined by the specification: **t=y** means that the domain is using this key in test phase.
-
-      The public key encoded in Base64 corresponds to the contents of the **rsa.public** file between the lines `----- BEGIN PUBLIC KEY-----` and `-----END PUBLIC KEY-----`
-
-      You must also delete the spaces and the carriage returns.
-
-1. Save the private key in Adobe Campaign
-
-   The private key is saved in the form of an option in the Adobe Campaign database. Connect to Adobe Campaign as the Administrator and then create an option:
-
-   ```
-   Internal name: selector_RSA_PRIVATE_KEY_domain
-   Type:          Long text
-   Value:        The private key encoded in Base64. 
-   ```
-
-   In the internal name of the option, the **selector** part is optional. As the default selector in Adobe Campaign is **default**, the **default_RSA_PRIVATE_KEY_example.com** and **RSA_PRIVATE_KEY_example.com** options are equivalent.
-
-   For the domain value, the period is changed by Adobe Campaign into the underscore character `"_"`.
-
-   The private key populated in the option must be the exact contents of the rsa.private, including `----- BEGIN PRIVATE KEY----- and -----END PRIVATE KEY-----`
-
-1. Enable DomainKeys management
-
-   To enable message signing for a domain, go to the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** folder and then select **[!UICONTROL Domain management]** from the list. If the domain is already in the list, simply select the **[!UICONTROL DomainKeys]** database, else create a new rule for this domain and then select the **[!UICONTROL DomainKeys]** option.
-
-   Enabling **senderId** on the domain forces the technical domain to be used to sign the message.
-   
-   Enabling **senderId** with **DomainKeys** may be useful when managing multiple sender domains.
-
-1. Test the configuration
-
-   The easiest thing to do is to create a test mailbox on **yahoo.com**. If DomainKeys is correctly configured, you should receive a message from Yahoo! using the address of the sender confirming the origin of the message.
-
-   ![](assets/s_tn_del_domainkey01.png)
-
-   Further information is given in the full headers:
-
-   ![](assets/s_tn_del_domainkey02.png)
-
-## DomainKeys Identified Mail (DKIM) {#domainkeys-identified-mail--dkim-}
-
-DKIM comes from a combination of the DomainKeys, Yahoo! and Cisco Identified Internet Mail authentication principles and is used to check the authenticity of the sender domain and guarantee the integrity of the message.
-
-DKIM replaced **DomainKeys** authentication. Refer to [this section](#domainkeys).
-
-Using DKIM requires some prerequisites:
-
-* **Security**: encryption is a key element of the DKIM and to insure the security level of the DKIM since the spring 2013, 1024b is the Best Practices recommended encryption size. Lower DKIM keys will not be considered as valid by the majority of access providers.
-* **Reputation**: reputation is based on the IP and/or the domain, but the less transparent DKIM selector is also a key element to be taken into account. Choosing the selector is important: avoid keeping the “default” one which could be used by anyone and therefore has a very weak reputation. You must implement a different selector for **retention vs. acquisition communications** and for authentication.
-* **Adobe Campaign option declaration**: in Adobe campaign the DKIM private key is based on a DKIM selector and a domain. It is not currently possible to create multiple private keys for the same domain/sub-domain with different selectors. It is not possible to define which selector domain/sub-domain must be used for the authentication in neither the platform or the email. The platform will alternatively select one of the private keys, which means the authentication has a high chance of failing.
-
->[!NOTE]
->
->* If you have configured DomainKeys for your Adobe Campaign instance, you just need to select **dkim** in the domain handling rules. If not, follow the same configuration steps (private/public key) as for DomainKeys.
->* It is not necessary to enable both DomainKeys and DKIM for the same domain as DKIM is an improved version of DomainKeys.
->* The following domains currently validate DKIM: AOL, Gmail.
-
-## MX rules {#mx-rules}
-
-MX rules (Mail eXchanger) are the rules that manage communication between a sending server and a receiving server.
-
-For more on MX management, refer to the [dedicated section](../../installation/using/email-deliverability.md#mx-configuration).
-
-## Checking SMTP and bounce error messages {#checking-smtp-and-bounce-error-messages}
+SMTP (Simple mail transfer protocol) is an Internet standard for email transmission.
 
 The SMTP errors that aren't checked by a rule are listed in the **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Delivery log qualification]** folder. These error messages are by default interpreted as unreachable soft errors. The most common errors must be identified and a corresponding rule added in **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Mail rule sets]** if you wish to correctly qualify the feedback from the SMTP servers. Without this, the platform will perform unnecessary retries (case of unknown users) or wrongly place certain recipients in quarantine after a given number of tests.
 
-As for the SMTP errors, unprocessed bounce mail or bounce mail processed by Ignored type rules must be monitored to determine whether new rules should be added. For this, it is possible to specify an address the platform will forward these messages to.
+### Dedicated IPs {#dedicated-ips}
 
-## Optimizing quarantine management {#optimizing-quarantine-management}
+Adobe provides a dedicated IP strategy for each customer with a ramp-up IP in order to build a reputation and optimize delivery performance.
 
-Upgrading the quarantine management process concerns mid-sourcing/Cloud Messaging and a platform configured with an architecture format with n marketing instances and a mid-sourcing instance.
+## IP Certification {#ip-certification}
 
-This upgrade ensures that the marketing instance at the origin of the bounce can process its own bounce and add it to its quarantine table.
+IP Certification is a whitelisting and sending practices program that helps ensuring that emails are received without being blocked by antispam filters or other email blocking systems.
 
->[!NOTE]
->
->The bounce log has two IDs to identify the marketing instance that must process the bounce and add it to its quarantine table: Message ID and Broadlog ID.
+Currently two providers offer IP Certification: Return Path and Certified Senders Alliance.
 
-For more on quarantine management in Adobe Campaign, refer to [this page](../../delivery/using/understanding-quarantine-management.md).
+Certified senders are added to email whitelists which are used by global mailbox providers and email security companies. These commercial whitelists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system.
 
-## Quota met {#quota-met}
+The [Return Path Certification](https://www.validity.com/products/returnpath/certification/) program offers a number of benefits, including the following:
 
-In Adobe Campaign, there is a configuration regarding the number of emails per hour that can be sent. This configuration must be used with vigilance, as the number defined in the instance concerns the number of connections carried out with the ISP and not the number of emails actually sent.
+* A measurable increase in inbox placement at top mailbox providers like Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru, and more
+* Favorable reputation and treatment at critical filters like Cloudmark, SpamAssassin, and Cisco Ironport
+* A compliance team dedicated to 24/7 monitoring, providing with security alerts and working with you through the resolution of any compromises
+* Mailbox provider data delivering detailed information about KPIs, placement, and Certification performance
+* Simplified and faster IP warming, including stronger reputation and recognition when migrating or obtaining a new IP address
 
-This means a connection can use an MX rule without successfully sending an email. In this case, a configuration with an IP or a domain with a low reputation will have to try several connections before sending an email. For each attempt, a **messages per hour** credit will be used. As a result, the marketing campaign performance will be significantly impacted.
+The [Certified Senders Alliance](https://certified-senders.org/certification-process/) Certification offers amongst other benefits:
 
-So quota met is not only a configuration issue but can also be linked to reputation. It is important to analyze error messages in the SMTP log.
+* Certification of senders of commercial emails who can comply with high quality standards
+* Improved delivery and deliverability of commercial emails to increase the inbox placement rate and reduce spam filtering
+* Protection from legal and financial risks by fully complying with legal standards
+* Protecting reputation by means of early warnings from the CSA Complaints Office and daily spam trap reports
 
-## IP rotation {#ip-rotation}
+ISPs are free to use these services and the number of ISPs can vary depending on the whitelist.
 
-In particular when starting up a new platform, we recommend implementing a system of rotating the IP addresses used at the hardware level. This consists of keeping a certain number of IP address as backup addresses if the IP addresses being used are blacklisted by an ISP. You can start reusing the IP addresses you have let 'lie fallow' once the restriction is raised, in general after a few hours or at worst a few days. You must, however, make sure each IP is used regularly (at least 100 messages over a day per month) so that it does not lose its reputation or get removed from the feedback loops or whitelists. When the reputation of the platform is firmly established, you may consider permanently using all the IPs.
-
-## Email volume per IP {#email-volume-per-ip}
-
-Adobe Campaign stores the IP reputation and volume sent per IP in a log file in order to have a better control over this. This information is available in a dedicated report.
-
->[!CAUTION]
->
->When this option is implemented, it is mandatory to add a column in the database. The update can then take more or less time: it is important to schedule this update during a period of low activity.
-
-## Exchange between stat servers {#exchange-between-stat-servers}
-
-In the context of a migration or certain mid-sourcing/cloud messaging projects, we need to have a marketing instance communicating with a new version of a mid-sourcing/cloud messaging instance.
-
-Most of the time the versioning is different from an update to a minor build, but the configuration may require you to install the most recent version of the software.
-
-During this phase (which is a mix of the old version and the new version, which use the same IPs) it is necessary to keep the integrity of the MX rules. In this case only, the stat server can run the two different versions of the mid-sourcing/cloud messaging.
-
->[!NOTE]
->The most recent version of the software must always be the master version, however you must ensure there is correct communication between the MTAs and stat server.
-
-## External hosting {#external-hosting}
-
-When discussing sending emails, we shall refer to external hosting when the Adobe Campaign platform is:
-
-* **Entirely hosted externally** (database, tracking servers and MTA servers),
-* **In mid-sourcing mode**: the database and application server are located within the local network whereas the MTA portion is externalized.
-
-### Choice of domains {#choice-of-domains}
-
-External hosting, for technical reasons, implies almost systematically that the domain used in the technical sending addresses and the tracked links is different from the main address of the sender. For example:
-
-* The advertiser uses the domain domain.com in all communications.
-* The hoster cannot technically use this domain to receive bounce messages because domain.com is the corporate messaging domain and is not intended for such purposes.
-* The hoster cannot technically use domain.com for tracking because it is used by the Web site of the advertiser.
-
-The hoster must therefore use a different domain that we will refer to as a technical domain, for example dmnl.net. This domain will be used to receive bounce mail and redirect tracked links. With this said, we will make two points:
-
-1. The sender address (From), which is the most commonly displayed address, can always be given as the address of the advertiser domain.com
-1. The tracked links within the message will use the technical domain dmnl.net
-
-To date, this way of operating is permitted, however:
-
-* If we consider Hotmail, using SenderId will display the sender as From: dm-bounces@dmnl.net on behalf of Marketing Domain (marketing@domain.com), which may confuse the recipient as to the origin of the message.
-* If the message is supposed to be sent by an advertiser recognized by the domain domain.com, then an email containing links using the domain dmnl.net could be considered as an attempt at phishing.
-* In extreme cases, certain anti-spam filters may reject the message as suspicious based on the difference between the bounce domain and the sender domain.
-
-It is therefore increasingly important that there is no doubt as to the authenticity of the sender based on the technical sending domain. For this reason, we recommend using a technical sending address that is a sub-domain of the advertiser's domain. In the previous example, we could use nl.domain.com, and in this way a recipient would have no doubt that the technical sender of the message and the tracked links really do come from domain.com. The bounce address as nl.domain.com can be managed directly by the hoster and the tracking links nl.domain.com can point to their redirection servers.
-
-### Domain delegation {#domain-delegation}
-
-If a sub-domain needs to be set up by the hoster it must be initiated by the domain owner (the advertiser). It is technically possible for the owner to perform the DNS configuration (MX, A, SPF...) of the sub-domain, however we advise against this because the hoster depends on it for any modification made to the DNS and this is a potentially dangerous situation (risk of losing bounce mail, or failure of tracking mechanisms) given the constraints of running an email platform. We strongly recommend delegating the sub-domain to the hoster.
-
-To delegate the administration of a sub-domain to a third party, the owner of the main domain must declare NS records for the sub-domain designating the DNS servers of the hoster.
-
-### Sender and bounce mail addresses {#send-and-bounce-mail-addresses}
-
-Because the sender address is the most visible address to the recipient, there should be no doubt as to its identity and should be defined using the domain of the advertiser or at least a sub-domain, for example marketing@domain.com or marketing@nl.domain.com.
-
-If the SPF record of the advertiser's domain authorizes the IP addresses used by the platform, it is not necessary to enable the Sender ID parameter in Adobe Campaign for MSN Hotmail domains and the choice of the address for bounce messages is not restricted.
-
-If the SPF record of the advertiser's domain does not authorize the IP addresses used by the platform, the Sender ID parameter will have to be used for MSN Hotmail. In this case, the bounce address is given to the recipient in the message header. You must choose an address that does not suggest spam, meaning an address that refers to the sender and does not appear to be too technical, for example marketingerr@dmnl.net rather than dm-bounces405@dmnl.net.
-
-### Other aliases {#other-aliases}
-
-Adobe Campaign lets you define different aliases for tracking, mirror pages and web forms and thus define an architecture that is appropriate for the availability and production constraints you have. To maintain consistency between these domains, you can, for example, define extra sub-domains as shown below:
-
-* Tracking: nl.domain.com
-* Mirror pages: m.nl.domain.com
-* Web forms: f.nl.domain.com
-
-## DMARC {#DMARC}
-
-**DMARC** (Domain-based Message Authentication, Reporting and Conformance), is a specific technique created by a group of organizations that want to help reduce the abuse of emails, such as spam and phishing, by offering a solution that deploys and monitors problems linked to email authentication.
+However, because more and more ISPs build their antispam filters based on each inbox owner's behavior rather than analyzing the message content itself, using IP Certification cannot be a guarantee of inbox placement or even delivery.
