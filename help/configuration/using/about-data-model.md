@@ -16,9 +16,15 @@ snippet: y
 
 # About the Campaign Classic data model{#about-data-model}
 
-This section describes the basics of the Adobe Campaign Classic data model, for a better understanding of Campaign built-in tables and their interaction.
+This section describes the basics of the Adobe Campaign Classic data model,for a better understanding of Campaign built-in tables and their interaction.
 
-The conceptual data model of the Adobe Campaign database consists in a set of built-in tables and their interaction. For more on the default Campaign Classic Data model description, refer to this [document](https://final-docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html).
+The conceptual data model of the Adobe Campaign database consists in a set of built-in tables and their interaction.
+
+To access the description of each table, go to **[!UICONTROL Admin > Configuration > Data schemas]**, select a resource from the list and click the **[!UICONTROL Documentation]** tab.
+
+![](assets/data-model_documentation-tab.png)
+
+For more on the default Campaign Classic Data model description, refer to this [document](https://final-docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html).
 
 The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a schema. For more on Adobe Campaign schemas, read out this [section](../../configuration/using/about-schema-reference.md).
 

@@ -27,7 +27,7 @@ The benefits of using the standard Recipient table are as follows:
 
 However, it is possible to extend the Recipient table, but not to reduce the number of fields or links in the table.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >It is recommended not to delete fields (even if they are useless) in the recipient table as this may lead to errors in the built-in modules.
 

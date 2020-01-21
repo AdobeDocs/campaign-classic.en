@@ -24,6 +24,8 @@ Indeed, if your data model does not fit the recipient-centric structure, you can
 >
 >In this case, you will need to create a new [target mapping](../../configuration/using/target-mapping.md).
 
+All the principles and steps needed when using a custom recipient table are detailed in this [section](../../configuration/using/about-custom-recipient-table.md).
+
 The benefits of using a custom Recipient table are as follows:
 
 ## Flexible data model {#flexible-data-model}
@@ -42,8 +44,6 @@ If data resides on an external existing marketing database, it may require too m
 
 No maintenance is needed to check that all extensions are still valid upon upgrade.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Using a custom recipient table is reserved for advanced users and is subject to some limitations. For more on this, see this section.
-
-All the principles and steps needed when using a custom recipient table are detailed in this [section](../../configuration/using/about-custom-recipient-table.md).

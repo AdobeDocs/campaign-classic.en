@@ -27,6 +27,6 @@ If needed, you can extend it with two mechanisms:
 
 For more on configuring extension schemas to extend the conceptual data model, see [About schema edition](../../configuration/using/about-schema-edition.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Extending the data model is reserved for advanced users.
