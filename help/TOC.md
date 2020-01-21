@@ -622,6 +622,12 @@ sub-product: adobe campaign classic
        + [Lost password](production/using/lost-password.md)
        + [JSP behavior](production/using/jsp-behavior.md)
 + Configuring Campaign Classic {#configuring-campaign-classic}
+  + Data model {#data-model}
+       + [About the data model](configuration/using/about-data-model.md)
+       + [Using the default Recipient table](configuration/using/default-recipient-table.md)
+       + [Extending the data model](configuration/using/extending-data-model.md)
+       + [Using a custom recipient table](configuration/using/custom-recipient-table.md)
+       + [Best practices](configuration/using/data-model-best-practices.md)
   + Schema Reference {#schema-reference}
        + [About schema reference](configuration/using/about-schema-reference.md)
        + [Schema structure](configuration/using/schema-structure.md)
