@@ -49,6 +49,6 @@ Learn how to [explore your data](../../reporting/using/using-cubes-to-explore-da
 
 Read out [this use case](../../reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md) to learn how to design a report to display answers to an online survey.
 
-## How can I share access to  my report in Campaign interface?
+## How can I share access to my report in Campaign interface? {#how-can-i-share-access-to-my-report}
 
 You can define in which context your report will be displayed in the Adobe Campaign UI. For more on report access, refer to [this section](../../reporting/using/configuring-access-to-the-report.md).

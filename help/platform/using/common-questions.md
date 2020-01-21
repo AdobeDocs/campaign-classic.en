@@ -105,7 +105,7 @@ Read more common questions on specific topics.
 </tr>
 <tr>
     <td>
-        <a href="../../platform/using/faq-workflow.md"><img alt="conditions" src="assets/icon_process.png"/></a>
+        <a href="../../platform/using/faq-workflows.md"><img alt="conditions" src="assets/icon_process.png"/></a>
         <div><a href="../../platform/using/faq-workflows.md"><strong>Workflows</strong></a></div>
         <em>Process automation FAQ</em>
     </td>
@@ -124,3 +124,4 @@ Read more common questions on specific topics.
         <div><a href="../../platform/using/faq-developers.md"><strong>Developement</strong></a></div>
         <br/><em>Developers FAQ</em>
     </td>
+    </tr></table>
