@@ -33,25 +33,11 @@ Scripts are ubiquitous in a workflow diagram:
 
 JavaScripts executed in the context of a workflow access a series of additional global objects.
 
-instance
-
-Represents the workflow being executed. The schema of this object is **xtk:workflow**.
-
-task
-
-Represents the tasks being executed. The schema of this object is **xtk:workflowTask**.
-
-event
-
-Represents the events that activated the task being executed. The schema of this object is **xtk:workflowEvent**. This object is not initialized for **AND-join** type activities that have been activated from multiple transitions.
-
-events
-
-Represents the list of events which activated the current task. The schema of this object is **xtk:workflowEvent**. This table usually contains one element but may contain several for **AND-join** type activities which have been activated based on several transitions.
-
-activity
-
-Represents the model of the task being executed. The schema of this object depends on the activity type. This object can be modified by the initialization script, in other scripts, modifications with have indeterminable effects.
+* **instance**: Represents the workflow being executed. The schema of this object is **xtk:workflow**.
+* **task**: Represents the tasks being executed. The schema of this object is **xtk:workflowTask**.
+* **event**: Represents the events that activated the task being executed. The schema of this object is **xtk:workflowEvent**. This object is not initialized for **AND-join** type activities that have been activated from multiple transitions.
+* **events**: Represents the list of events which activated the current task. The schema of this object is **xtk:workflowEvent**. This table usually contains one element but may contain several for **AND-join** type activities which have been activated based on several transitions.
+* **activity**: Represents the model of the task being executed. The schema of this object depends on the activity type. This object can be modified by the initialization script, in other scripts, modifications with have indeterminable effects.
 
 The properties available for these objects are can be viewed in a drop-down list by clicking the button at the right of the script toolbar.
 
@@ -82,8 +68,6 @@ Click **[!UICONTROL OK]** to close the creation wizard, then start the workflow 
 
 The variables are the free properties of the **[!UICONTROL instance]**, **[!UICONTROL task]** and **[!UICONTROL event]** objects. The JavaScript types authorized for these variables are **[!UICONTROL string]**, **[!UICONTROL number]** and **[!UICONTROL Date]**.
 
-You can find an example about how to use an instance variable in a Split activity in this [section](https://helpx.adobe.com/campaign/kb/instance-variable-in-workflow.html).
-
 ### Instance variables {#instance-variables}
 
 The instance variables (**[!UICONTROL instance.vars.xxx]**) are comparable to global variables: They are shared by all activities.
@@ -102,35 +86,69 @@ These are the most often used variables, and they should be used in preference t
 
 Certain event variables are modified or read by the various activities. These are all string-type variables. For example, an export sets the **[!UICONTROL vars.filename]** variable with the full name of the file that has just been exported. All these read or modified variables are documented in [About activities](../../workflow/using/about-activities.md), in the sections **Input parameters** and **Output parameters** of the activities.
 
-### Example {#example}
+### Examples {#example}
 
-Take the workflow from the preceding example and replace the script of the **JavaScript Code** activity with the following script:
+**Example 1**
 
-```
-instance.vars.foo = "bar1"
-vars.foo = "bar2"
-task.vars.foo = "bar3"
-```
+In this example, an instance variable is used to compute dynamically the split percentage to apply on a population.
 
-Add the following script to the initialization script of the **End** activity:
+1. Create a workflow and add a Start activity.
 
-```
-logInfo("instance.vars.foo = " + instance.vars.foo)
-logInfo("vars.foo = " + vars.foo)
-logInfo("task.vars.foo = " + task.vars.foo)
-```
+1. Add and configure a JavaScript code activity to define an instance variable.
 
-Start the workflow, and then look at the log.
+    For example: `instance.vars.segmentpercent = 10;`
 
-```
-Workflow finished
-task.vars.foo = undefined
-vars.foo = bar2
-instance.vars.foo = bar1
-Starting workflow (operator 'admin')
-```
+    ![](assets/js_ex1.png)
 
-This example shows that the activity following ** JavaScript Code** accesses the instance variables and event variables, but the task variables are not accessible from the outside ('undefined').
+1. Add a Query activity and target recipients according to your needs.
+
+1. Add a Split activity and configure it to perform a random sampling of the incoming population. The sampling percentage can be anything of your choice. It is set to 50% in this example.
+
+    It is this percentage which is updated dynamically thanks to the instance variable defined previously.
+
+    ![](assets/js_ex2.png)
+
+1. Inside the Initialization script section of the Advanced tab of the Split activity, define a JS condition. The JS condition selects the random sampling percentage of the first transition coming out of the Split activity and updates it to a value set by the instance variable created previously.
+
+    ```activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;```
+
+    ![](assets/js_ex3.png)
+
+1. Make sure that the complement is generated in a separate transition of the Split activity and add End activities after each of the outbound transitions.
+
+1. Save and execute the workflow. The dynamic sampling gets applied according to the instance variable.
+
+    ![](assets/js_ex4.png)
+
+**Example 2**
+
+1. Take the workflow from the preceding example and replace the script of the **JavaScript Code** activity with the following script:
+
+    ```
+    instance.vars.foo = "bar1"
+    vars.foo = "bar2"
+    task.vars.foo = "bar3"
+    ```
+
+1. Add the following script to the initialization script of the **End** activity:
+
+    ```
+    logInfo("instance.vars.foo = " + instance.vars.foo)
+    logInfo("vars.foo = " + vars.foo)
+    logInfo("task.vars.foo = " + task.vars.foo)
+    ```
+
+1. Start the workflow, and then look at the log.
+
+    ```
+    Workflow finished
+    task.vars.foo = undefined
+    vars.foo = bar2
+    instance.vars.foo = bar1
+    Starting workflow (operator 'admin')
+    ```
+
+This example shows that the activity following **JavaScript Code** accesses the instance variables and event variables, but the task variables are not accessible from the outside ('undefined').
 
 ### Calling an instance variable in a query {#calling-an-instance-variable-in-a-query}
 
