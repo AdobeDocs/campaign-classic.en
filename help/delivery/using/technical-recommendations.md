@@ -161,7 +161,7 @@ If you are forced to use one single feedback loop address for multiple instances
 
 Adobe Campaign's Deliverability service manages your subscription to feedback loop services for the following ISPs: AOL, BlueTie, Comcast, Cox, EarthLink, FastMail, Gmail, Hotmail, HostedEmail, Libero, Mail.ru, MailTrust, OpenSRS, QQ, RoadRunner, Synacor, Telenor, Terra, UnitedOnline, USA, XS4ALL, Yahoo, Yandex, Zoho.
 
-## List-Unsubscribe {#list-unsubscribe-}
+## List-Unsubscribe {#list-unsubscribe}
 
 ### About List-Unsubscribe {#about-list-unsubscribe}
 
@@ -228,15 +228,15 @@ The rule must contain the script that generates the command line and it must be 
 
    ![](assets/s_tn_del_unsubscribe_param.png)
 
-## Email optimization {email-optimization}
+## Email optimization {#email-optimization}
 
-### SMTP 
+### SMTP {#smtp}
 
 SMTP (Simple mail transfer protocol) is an Internet standard for email transmission.
 
 The SMTP errors that aren't checked by a rule are listed in the **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Delivery log qualification]** folder. These error messages are by default interpreted as unreachable soft errors. The most common errors must be identified and a corresponding rule added in **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Mail rule sets]** if you wish to correctly qualify the feedback from the SMTP servers. Without this, the platform will perform unnecessary retries (case of unknown users) or wrongly place certain recipients in quarantine after a given number of tests.
 
-### Dedicated IPs 
+### Dedicated IPs {#dedicated-ips}
 
 Adobe provides a dedicated IP strategy for each customer with a ramp-up IP in order to build a reputation and optimize delivery performance.
 
