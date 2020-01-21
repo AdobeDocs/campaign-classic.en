@@ -227,7 +227,7 @@ The "Workflow monitoring" section has been updated with a note for builds betwee
 
 Added a use case on how to send an email with custom data fields using the Enrichment activity in a workflow. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Email_enrichment_with_custom_date_fields.html)
 
-Feature videos have been moved [here](https://helpx.adobe.com/campaign/kt/acc/index/acc-videos.html).
+Feature videos have been moved [here](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html).
 
 Two technotes have been added on [Teradata](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) and [MySQL 5.7](https://helpx.adobe.com/campaign/kb/campaign_fda_mysql.html).
 
