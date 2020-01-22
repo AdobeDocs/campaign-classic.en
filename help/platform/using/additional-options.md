@@ -65,6 +65,7 @@ This operating method avoids that the cleanup workflow of each instance deletes 
 
 Thus, in the previous example, the cleanup workflow of the remote instance will not perform any action on the red FDA database as it is used by the local instance.
 -->
+
 ## Directly creating temporary schemas {#directly-creating-temporary-schemas}
 
 If you want to manage several accesses to an FDA external database, a new option lets you create a working schema directly when configuring an external account.
