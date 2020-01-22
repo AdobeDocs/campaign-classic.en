@@ -32,7 +32,7 @@ The mobile, messaging and webmail clients available for **Inbox rendering** in A
 >
 >Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-## Activating Inbox rendering (on premise) {#activating-inbox-rendering-on-prem}
+## Activating Inbox rendering {#activating-inbox-rendering}
 
 For hosted and hybrid clients, Inbox rendering is configured on your instance by Adobe technical support and consultants. For more information, contact your Adobe Account executive.
 
@@ -79,7 +79,7 @@ In Adobe Campaign, the credit corresponds to the number of available renderings 
 
 Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, each rendering generated decreases your available tokens by one.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Tokens account for each individual rendering and not for the whole Inbox rendering report, meaning that:  
 >
