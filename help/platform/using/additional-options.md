@@ -18,6 +18,7 @@ snippet: y
 
 # Additional options {#additional-options}
 
+<!--
 ## HTTP relay to a remote instance {#http-relay-to-a-remote-instance}
 
 You can access external databases configured in remote instances using the HTTP protocol.
@@ -63,7 +64,7 @@ The following example shows the new possible operating mode:
 This operating method avoids that the cleanup workflow of each instance deletes the work tables of the databases that use the instance as relay.
 
 Thus, in the previous example, the cleanup workflow of the remote instance will not perform any action on the red FDA database as it is used by the local instance.
-
+-->
 ## Directly creating temporary schemas {#directly-creating-temporary-schemas}
 
 If you want to manage several accesses to an FDA external database, a new option lets you create a working schema directly when configuring an external account.
@@ -74,6 +75,8 @@ If you want to manage several accesses to an FDA external database, a new option
 
 ![](assets/fda_work_table.png)
 
+
+
 ## Optimizing email personalization with external data {#optimizing-email-personalization-with-external-data}
 
 From build 8740, the option **[!UICONTROL Prepare the personalization data with a workflow]** is now available in the **[!UICONTROL Analysis]** tab of the delivery properties.
@@ -82,6 +85,7 @@ During the delivery analysis, this option automatically creates and executes a w
 
 By checking this option, you can achieve a significant increase in performance for executing personalization.
 
+<!--
 ## Cloud Messaging - FDA synchronization {#cloud-messaging---fda-synchronization}
 
 When the Cloud Messaging server and the Marketing server have not been synchronized for a long period, the volume of missing broadlogs on the Marketing server can be significant. To optimize broadlog synchronization via the FDA, the **NmsMidSourcing_LogsPeriodHour** option has been added. This allows a maximum period (expressed in hours) to be specified as to limit the number of broadlogs recovered every time the synchronization workflow is executed.
@@ -126,3 +130,4 @@ This user must have read access to the following tables:
 >This modification deletes the "Permission denied for relation xtkfolder" error message.
 
 If the working schema selected in the external FDA account is not the out-of-the-box Neolane account, then this modification to the access rights is not necessary.
+-->
