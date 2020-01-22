@@ -181,7 +181,7 @@ To use List-Unsubscribe, you must enter a command line similar to as follows:
 List-Unsubscribe: mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The example above is based on the recipient table. If database implementation is done from another table, make sure to reword the command line with the correct information.
 
