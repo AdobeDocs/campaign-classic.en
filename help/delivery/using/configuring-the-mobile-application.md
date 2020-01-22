@@ -38,7 +38,7 @@ You can find below a configuration sample based on a company which sells online 
 
 1. Select **[!UICONTROL Install a standard package]**.
 
-1. In the list that appears, check the packages you want to install.
+1. In the list that appears, check **[!UICONTROL Mobile App Channel]**.
 
 1. Click **[!UICONTROL Next]**, then **[!UICONTROL Start]** to start the package installation.
 
@@ -225,7 +225,7 @@ At this level, you need to:
 
 1. Select **[!UICONTROL Install a standard package]**.
 
-1. In the list that appears, check the packages you want to install.
+1. In the list that appears, check **[!UICONTROL Mobile App Channel]**.
 
 1. Click **[!UICONTROL Next]**, then **[!UICONTROL Start]** to start the package installation.
 
