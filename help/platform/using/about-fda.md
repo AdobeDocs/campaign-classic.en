@@ -21,12 +21,13 @@ snippet: y
 Adobe Campaign provides the **Federated Data Access** (FDA) option in order to process information stored in one or more external databases: you can access external data without changing the structure of Adobe Campaign data.
 
 >[!CAUTION]
->>  
+>
 >Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the Snowflake connectors. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ## Operating principle {#operating-principle}
 
 The FDA option allows you to extend your data model in a third party database. It will automatically detect the structure of the targeted tables and use data from the SQL sources.
+
 
 In order to use this functionality, you have to:
 

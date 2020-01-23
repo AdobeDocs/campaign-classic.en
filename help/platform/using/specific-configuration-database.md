@@ -25,6 +25,7 @@ As a general rule, you need to install the corresponding client layer on the ext
 >[!NOTE]
 >
 >Compatible versions are listed in [Campaign Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#FederatedDataAccessFDA).
+
 <!--
 ## Configure access to Azure Synapse {#configure-access-to-azure-synapse}
 

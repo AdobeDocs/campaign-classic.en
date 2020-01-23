@@ -217,7 +217,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> Valid characters for an email address.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
    <td> Allows a maximum period (expressed in hours) to be specified as to limit the number of broadlogs recovered every time the synchronization workflow is executed.</a>.<br /> </td> 
   </tr> 
   <tr> 
