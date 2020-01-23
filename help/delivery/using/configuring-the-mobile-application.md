@@ -78,43 +78,47 @@ To choose which connector you want to use, follow these steps:
    >
    >The default **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the **[!UICONTROL Target mapping]** field of the service. For more on creating target mapping, refer to the [Configuration guide](../../configuration/using/about-custom-recipient-table.md).
 
+   ![](assets/nmac_ios.png)
+
 1. Then click the **[!UICONTROL Add]** button to select the application type.
 
    ![](assets/nmac_service_2.png)
 
-1. Select **[!UICONTROL Create an iOS application]**.
+1. The following window appears. Select **[!UICONTROL Create an iOS application]**.
 
-![](assets/nmac_service_3.png)
+   ![](assets/nmac_ios_2.png)
 
 1. Start by entering the **[!UICONTROL Label]**.
 
 1. Add **[!UICONTROL Application variables]** to your application. Application variables are fully customizable but need to match the ones detailed in the payload. Here for example, we add mediaURl and mediaExt to create rich push notification.
 
-1. Click **[!UICONTROL Next]** to start configuring the development application.
-
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code (via the SDK). For more on this, refer to: [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
-
-1. If your application handles an application icon (top left corner of the notification), you can add it here so that the preview is more faithful to the actual style of the delivery. To add an image in the content (rich notification), refer to the [Creating notifications](../../delivery/using/creating-notifications.md) section.
-
-1. Click **[!UICONTROL Next]** to start configuring the production application and follow the same steps as detailed above.
-
-    ![](assets/nmac_service_5.png)
-
-1. Click **[!UICONTROL Finish]**. Your iOS application is now ready to be used in Campaign Classic.
-
-1. Double-clicking your previously created mobile application allows you to further configure it.
+   ![](assets/nmac_ios_3.png)
 
 1. The **[!UICONTROL Subscription parameters]** tab allows you to define the mapping with an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema.
-
-1. In the **[!UICONTROL Certificate]** tab, click the **[!UICONTROL Enter the certificate...]** link then select the authentication certificate and enter the password that was provided by the mobile application developer.
 
     >[!NOTE]
     >
     >Make sure that you do not use the same certificate for the development version (sandbox) and the production version of the application.
 
 1. The **[!UICONTROL Sounds]** tab allows your to specify a sound to play. Click **[!UICONTROL Add]** and fill **[!UICONTROL Internal name]** field which must contain the name of the file embedded in the application or the name of the system sound.
-   
-### Step 4: Creating an iOS delivery {#creating-ios-delivery}
+
+1. Click **[!UICONTROL Next]** to start configuring the development application.
+
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code (via the SDK). For more on this, refer to: [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
+
+1. If your application handles an application icon, you can add it here so that the preview is more faithful to the actual style of the delivery. To add an image in the content (rich notification), refer to the [Creating notifications](../../delivery/using/creating-notifications.md) section.
+
+1. Click the **[!UICONTROL Enter the certificate...]** link then select the authentication certificate and enter the password that was provided by the mobile application developer. You can click **[!UICONTROL Test the connection]** to be sure it is successful.
+
+   ![](assets/nmac_ios_4.png)
+
+1. Click **[!UICONTROL Next]** to start configuring the production application and follow the same steps as detailed above.
+
+   ![](assets/nmac_ios_5.png)
+
+1. Click **[!UICONTROL Finish]**. Your iOS application is now ready to be used in Campaign Classic.
+
+### Step 4: Creating an iOS rich notification {#creating-ios-delivery}
 
 With iOS 10 or higher, it is possible to generate rich notifications. Adobe Campaign can send notifications using variables that will allow the device to display a rich notification.
 
@@ -262,7 +266,7 @@ To choose which connector you want to use, follow these steps:
 
 ### Step 3: Configuring Android service {#configuring-android-service}
 
-1. Go to the **[!UICONTROL Profiles and Targets > Services and subscriptions]** node and click **[!UICONTROL New]**. 
+1. Go to the **[!UICONTROL Profiles and Targets > Services and subscriptions]** node and click **[!UICONTROL New]**.
 
    ![](assets/nmac_service_1.png)
 
@@ -273,21 +277,27 @@ To choose which connector you want to use, follow these steps:
    >
    >The default **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the **[!UICONTROL Target mapping]** field of the service. For more on creating target mapping, refer to the [Configuration guide](../../configuration/using/about-custom-recipient-table.md).
 
-1. Then click the **[!UICONTROL Add]** button to define the various versions of your mobile application (iOS, Android). 
+   ![](assets/nmac_ios.png)
+
+1. Then click the **[!UICONTROL Add]** button to select the application type.
 
    ![](assets/nmac_service_2.png)
 
 1. Select **[!UICONTROL Create an Android application]**.
 
+   ![](assets/nmac_android.png)
+
 1. Enter a **[!UICONTROL Label]**.
 
 1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code (via the SDK). For more on this, refer to: [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
+
+1. If your application handles an application icon, you can add it here so that the preview is more faithful to the actual style of the delivery. To add an image in the content (rich notification), refer to the [Creating notifications](../../delivery/using/creating-notifications.md) section.
 
 1. Enter the application's connection settings: enter the project key that was provided by the developer of the mobile application.
 
 1. Then enter the **[!UICONTROL Application variables]**.
 
-   ![](assets/nmac_service_4.png)
+   ![](assets/nmac_android_2.png)
 
    Variables let you define the application behavior following the receipt of a notification: for instance, you can configure an application specific screen to come up when the user activates the notification. These variables are fully customizable and must be defined in the code of your mobile application. Click the **[!UICONTROL Add]** button to add them to Adobe Campaign.
    Here we added the following **[!UICONTROL Application variables]**:
@@ -309,7 +319,7 @@ By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (
 
 ### Step 4: Creating an Android delivery {#creating-android-delivery}
 
-Then you need to create a new delivery template and link it to the mobile application that you created.
+You now need to create a new delivery template and link it to the mobile application that you created.
 
 1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Duplicate the **[!UICONTROL Deliver on Android]** template.
@@ -333,9 +343,14 @@ The parameters that you created within your mobile application are displayed in 
 Finally, create a new Android delivery and add the values that you want for the parameters that you defined in the mobile application.
 
 1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
+
 1. Click **[!UICONTROL New]**.
+
+    ![](assets/nmac_android_3.png)
+
 1. Select the delivery template that you just created and click **[!UICONTROL Continue]**.
-1. In the **[!UICONTROL Application variables]** field, add the values of your choice for the different parameters.
+
+1. In the **[!UICONTROL Application variables]** field, specify the values added when configuring the Android service.
 
    ![](assets/nmac_rich_android_delivery.png)
 
