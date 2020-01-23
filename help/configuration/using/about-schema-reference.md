@@ -1,8 +1,6 @@
 ---
-title: About schema reference
-seo-title: About schema reference
-description: About schema reference
-seo-description: 
+title: About schema reference in Adobe Campaign Classic
+description: Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign Classic database.
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat

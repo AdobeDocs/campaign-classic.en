@@ -26,7 +26,7 @@ For an example of the split activity being used, refer to [Creating subsets usin
 
 An example illustrating how to use the Split activity to segment the target into different populations using filtering conditions is described in [this section](../../workflow/using/cross-channel-delivery-workflow.md).
 
-An example showing how to use an instance variable in a Split activity is available in [Campaign Knowlegde Base](https://helpx.adobe.com/campaign/kb/instance-variable-in-workflow.html).
+An example showing how to use an instance variable in a Split activity is available in [this section](../../workflow/using/javascript-scripts-and-templates.md).
 
 To configure this activity, define the subset content and label in the **[!UICONTROL Subsets]** tab, then choose the target dimension in the **[!UICONTROL General]** tab.
 

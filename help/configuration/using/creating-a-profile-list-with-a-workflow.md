@@ -44,5 +44,5 @@ To create a **[!UICONTROL List]** type list based on the new recipient table, yo
 
 >[!NOTE]
 >
->You can also refer to the [Creating a list of recipients](https://helpx.adobe.com/campaign/kt/acc/using/acc-creating-a-list-of-recipients-feature-video-use.html) video.
+>You can also refer to the [Creating a list of recipients](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html) video.
 

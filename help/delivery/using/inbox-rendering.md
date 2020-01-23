@@ -79,7 +79,7 @@ In Adobe Campaign, the credit corresponds to the number of available renderings 
 
 Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, each rendering generated decreases your available tokens by one.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Tokens account for each individual rendering and not for the whole Inbox rendering report, meaning that:  
 >
