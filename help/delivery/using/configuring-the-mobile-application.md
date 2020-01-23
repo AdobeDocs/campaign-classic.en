@@ -140,6 +140,7 @@ To implement rich notifications in the mobile application, you need to add the f
 The media has to be downloaded at the notification service extension level.
 
 ```
+
 #import "NotificationService.h"
 
 @interface NotificationService ()
@@ -165,6 +166,7 @@ The media has to be downloaded at the notification service extension level.
     }
     ...
     // Perform the download to local storage
+
 ```
 
 **Notification Content Extension**
@@ -184,6 +186,7 @@ At this level, you need to:
   You need to add code to feed the media data to the widget. Here is an example of code for an image:
 
   ```
+
   #import "NotificationViewController.h"
   #import <UserNotifications/UserNotifications.h>
   #import <UserNotificationsUI/UserNotificationsUI.h>
@@ -215,8 +218,9 @@ At this level, you need to:
       }
   }
   @end
-  ```
   
+  ```
+
 ## Configuring the mobile application with Android {#configuring-the-mobile-application-in-adobe-campaign}
 
 ### Step 1: Installing the package {#installing-package-android}
