@@ -33,4 +33,4 @@ HTTP/2 connector: you must allow communication to and from the following servers
 
 >[!NOTE]
 >
->For more information on the two connectors, refer to [Configuring the mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application-in-adobe-campaign.md).
+>For more information on the two connectors, refer to [Configuring the mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
