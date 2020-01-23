@@ -81,7 +81,7 @@ sub-product: adobe campaign classic
   + Sending push notifications {#sending-push-notifications}
        + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
        + [Setting up mobile app channel](delivery/using/setting-up-mobile-app-channel.md)
-       + [Configuring the mobile application in Adobe Campaign](configuring-the-mobile-application.md)
+       + [Configuring the mobile application in Adobe Campaign](delivery/using/configuring-the-mobile-application.md)
        + [Creating notifications](delivery/using/creating-notifications.md)
        + [Troubleshooting](delivery/using/troubleshooting.md)
   + Sending direct mail {#sending-direct-mail}
