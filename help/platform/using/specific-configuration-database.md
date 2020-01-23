@@ -26,6 +26,7 @@ As a general rule, you need to install the corresponding client layer on the ext
 >
 >Compatible versions are listed in [Campaign Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#FederatedDataAccessFDA).
 
+<!--
 ## Configure access to Azure Synapse {#configure-access-to-azure-synapse}
 
 ### Azure Synapse on CentOS {#azure-centos}
@@ -136,6 +137,8 @@ As a general rule, you need to install the corresponding client layer on the ext
     >[!NOTE]
     >
     >Make sure the **[!UICONTROL Time zone]** and **[!UICONTROL Unicode data]** are set according to your database.
+
+-->
 
 ## Configure access to Snowflake {#configure-access-to-snowflake}
 

@@ -22,7 +22,7 @@ To enable a connection to the external database, you must indicate the connectio
 
 >[!CAUTION]
 >
->The Adobe Campaign user needs specific rights for the external database and the Adobe Campaign application server to process data from an external database. For more on this, refer to the [Remote database access rights](#remote-database-access-rights) section.   
+>The Adobe Campaign user needs specific rights for the external database and the Adobe Campaign application server to process data from an external database. For more on this, refer to the [Remote database access rights](#remote-database-access-rights) section.
 >
 >To avoid any malfunction, operators who access remote shared data must be working from separate spaces.
 
@@ -46,14 +46,6 @@ To enable a connection to a shared external database, as long as this connection
    ![](assets/wf-external-account-functions.png)
 
 You can define specific work tablespaces for the tables and for the index in the **[!UICONTROL Parameters]** tab.
-
-## Creating a connection with Windows authentication {#creating-a-connection-with-windows-authentication}
-
-You can also connect via FDA by using Windows authentication. To do this:
-
-* Make sure that the Adobe Campaign service is executed by a Windows account that is different from the local system account.
-* Make sure that the Adobe Campaign operator disposes of sufficient rights for the Adobe Campaign application server and the external database.
-* Create the corresponding external account without specifying the **[!UICONTROL Account]** and the **[!UICONTROL Password]**. Only specify the name of the database.
 
 ## Creating a temporary connection {#creating-a-temporary-connection}
 
@@ -96,6 +88,10 @@ For example, in the query activity, the steps for creating a periodic connection
    Click **[!UICONTROL Finish]** to confirm this configuration.
 
 ## Secure connection {#secure-connection}
+
+>[!NOTE]
+>
+>Secure connection is only available for PostgreSQL.
 
 You can secure access to an external database when configuring an external FDA account.
 

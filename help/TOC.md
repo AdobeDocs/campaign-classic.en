@@ -72,7 +72,6 @@ sub-product: adobe campaign classic
        + [Using data from an external database in a workflow](platform/using/data-external-database-workflow.md)
   + Connectors {#connectors}
        + [About connectors](platform/using/about-connectors.md)
-       + [Accessing an external database](platform/using/accessing-an-external-database.md)
        + [CRM Connectors](platform/using/crm-connectors.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}

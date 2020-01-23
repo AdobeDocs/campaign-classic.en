@@ -18,6 +18,9 @@ snippet: y
 
 # Additional options {#additional-options}
 
+
+<!--
+
 ## HTTP relay to a remote instance {#http-relay-to-a-remote-instance}
 
 You can access external databases configured in remote instances using the HTTP protocol.
@@ -64,6 +67,8 @@ This operating method avoids that the cleanup workflow of each instance deletes 
 
 Thus, in the previous example, the cleanup workflow of the remote instance will not perform any action on the red FDA database as it is used by the local instance.
 
+-->
+
 ## Directly creating temporary schemas {#directly-creating-temporary-schemas}
 
 If you want to manage several accesses to an FDA external database, a new option lets you create a working schema directly when configuring an external account.
@@ -81,6 +86,8 @@ From build 8740, the option **[!UICONTROL Prepare the personalization data with 
 During the delivery analysis, this option automatically creates and executes a workflow that stores all of the data linked to the target in a temporary table, including data from tables linked in FDA.
 
 By checking this option, you can achieve a significant increase in performance for executing personalization.
+
+<!--
 
 ## Cloud Messaging - FDA synchronization {#cloud-messaging---fda-synchronization}
 
@@ -126,3 +133,6 @@ This user must have read access to the following tables:
 >This modification deletes the "Permission denied for relation xtkfolder" error message.
 
 If the working schema selected in the external FDA account is not the out-of-the-box Neolane account, then this modification to the access rights is not necessary.
+
+-->
+
