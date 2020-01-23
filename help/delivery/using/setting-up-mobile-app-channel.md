@@ -50,10 +50,10 @@ If you don't have a mobile application (app), the application developer needs to
 
 To configure the application, you have to collect the technical specifications which define the set of parameters that enable Adobe Campaign and the mobile application to communicate. These parameters are:
 
-* **the integration key**: each application has a unique key. This key lets you link the Adobe Campaign service and the mobile application. Refer to [General information](#general-information).
-* **the variables**: define the behavior of the application when you activate the notification. Refer to [General information](#general-information).
-* **the subscription settings**: by default, Adobe Campaign recovers the **@userKey** field that enables you to reconcile mobile devices with the recipients in the database. If you want to collect additional data (such as a complex reconciliation key), you can define subscription settings. Refer to [Subscription settings](#subscription-settings).
-* **the sounds** (iOS only): if the selected sound isn't a system sound, the sound file must be embedded into the mobile application. Refer to [Application sounds](#application-sounds).
+* **the integration key**: each application has a unique key. This key lets you link the Adobe Campaign service and the mobile application. Refer to [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application-in-adobe-campaign.md).
+* **the variables**: define the behavior of the application when you activate the notification. Refer to [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application-in-adobe-campaign.md).
+* **the subscription settings**: by default, Adobe Campaign recovers the **@userKey** field that enables you to reconcile mobile devices with the recipients in the database. If you want to collect additional data (such as a complex reconciliation key), you can define subscription settings. Refer to [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application-in-adobe-campaign.md).
+* **the sounds** (iOS only): if the selected sound isn't a system sound, the sound file must be embedded into the mobile application. Refer to [Configuring iOS external account](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios).
 * **the URL of the marketing server and the tracking server**: the Adobe Campaign administrator must provide the application developer with the URLs of the marketing server and the URLs of the tracking server. For more on this, refer to: [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application).
 
 ### Creating the service {#creating-the-service}
@@ -164,7 +164,7 @@ To integrate Campaign SDK into the mobile application, the functional administra
 
   >[!NOTE]
   >
-  >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application. Refer to [General information](#general-information).
+  >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application. Refer to [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application-in-adobe-campaign.md).
 
 * **A tracking URL**: that matches the address of the Adobe Campaign tracking server.
 * **A marketing URL**: to enable the collection of subscriptions.
@@ -623,7 +623,7 @@ To implement **registerDeviceStatus** delegate, follow these steps:
 
 ### Variables {#variables}
 
-The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [General information](#general-information)). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
+The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application-in-adobe-campaign.md)). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
 
 * **In Android**:
 

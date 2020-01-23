@@ -109,8 +109,8 @@ The following channels can be configured:
 * [Agency](../../delivery/using/other-channels.md)
 * [Facebook](../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign)
 * [Twitter](../../social/using/configuring-publishing-on-twitter.md)
-* [iOS channel](../../delivery/using/setting-up-mobile-app-channel.md#ios-connectors)
-* [Android channel](../../delivery/using/setting-up-mobile-app-channel.md#android-connectors)
+* [iOS channel](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-ios)
+* [Android channel](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-android)
 
 ## FTP external account {#ftp-external-account}
 

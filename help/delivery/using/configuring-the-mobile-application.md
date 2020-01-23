@@ -20,7 +20,7 @@ snippet: y
 
 You can find below a configuration sample based on a company which sells online holiday packages. His mobile application (Neotrips) is available to its customers in two versions: Neotrips for Android and Neotrips for iOS. To configure the mobile application in Adobe Campaign, you need to:
 
-* Create a **[!UICONTROL Mobile application]** type [information service](#creating-the-service-and-collecting-subscriptions) for the Neotrips mobile application.
+* Create a **[!UICONTROL Mobile application]** type information service for the Neotrips mobile application.
 * Add the iOS and Android versions of the application to this service.
 * Create a delivery for both iOS and Android.
 
@@ -94,7 +94,7 @@ To choose which connector you want to use, follow these steps:
 
 1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code (via the SDK). For more on this, refer to: [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
 
-1. If your application handles an application icon (top left corner of the notification), you can add it here so that the preview is more faithful to the actual style of the delivery. To add an image in the content (rich notification), refer to the [Rich notifications](#rich-notifications) section.
+1. If your application handles an application icon (top left corner of the notification), you can add it here so that the preview is more faithful to the actual style of the delivery. To add an image in the content (rich notification), refer to the [Creating notifications](../../delivery/using/creating-notifications.md) section.
 
 1. Click **[!UICONTROL Next]** to start configuring the production application and follow the same steps as detailed above.
 
@@ -120,7 +120,7 @@ With iOS 10 or higher, it is possible to generate rich notifications. Adobe Camp
 
 >[!NOTE]
 >
->If you want to use rich notifications, you need to use the iOS HTTP/2 connector. Refer to the [Connectors](#connectors) section.
+>If you want to use rich notifications, you need to use the iOS HTTP/2 connector.
 
 In Adobe Campaign, the following parameters have to be sent to the mobile application:
 
