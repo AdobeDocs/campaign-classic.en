@@ -221,7 +221,7 @@ At this level, you need to:
   
   ```
 
-## Configuring the mobile application with Android {#configuring-the-mobile-application-in-adobe-campaign}
+## Configuring the mobile application with Android {#configuring-the-mobile-application-android}
 
 ### Step 1: Installing the package {#installing-package-android}
 
