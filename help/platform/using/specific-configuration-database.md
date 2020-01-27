@@ -187,13 +187,25 @@ As a general rule, you need to install the corresponding client layer on the ext
 
        Name of your database
 
-### Snowflake on Windows {#snowflake-windows}
+### Snowflake on Debian {#snowflake-debian}
 
-1. Download the [ODBC driver for Windows](https://docs.snowflake.net/manuals/user-guide/odbc-download.html). Note that you need administrator-level privileges to install the driver. For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)
+1. Download the ODBC drivers for Snowflake. Drivers for Snowflake can be found [here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html).
 
-1. Configure the ODBC driver. For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
+1. You then need to install the ODBC drivers on Debian with the following command:
 
-1. Once the ODBC driver has been installed and configured, you need to configure your Snowflake external account in Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+     ```
+    apt-get install unixodbc
+    apt-get install snowflake-odbc-x.xx.x.x86_64.deb
+     ```
+
+1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
+
+     ```
+    systemctl stop nlserver.service
+    systemctl start nlserver.service
+     ```
+     
+1. In Campaign Classic, configure your Snowflake external account in Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
 
 1. Unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
 
@@ -217,25 +229,13 @@ As a general rule, you need to install the corresponding client layer on the ext
 
        Name of your database
 
-### Snowflake on Debian {#snowflake-debian}
+### Snowflake on Windows {#snowflake-windows}
 
-1. Download the ODBC drivers for Snowflake. Drivers for Snowflake can be found [here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html).
+1. Download the [ODBC driver for Windows](https://docs.snowflake.net/manuals/user-guide/odbc-download.html). Note that you need administrator-level privileges to install the driver. For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)
 
-1. You then need to install the ODBC drivers on Debian with the following command:
+1. Configure the ODBC driver. For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
 
-     ```
-    apt-get install unixodbc
-    apt-get install snowflake-odbc-x.xx.x.x86_64.deb
-     ```
-
-1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
-
-     ```
-    systemctl stop nlserver.service
-    systemctl start nlserver.service
-     ```
-     
-1. In Campaign Classic, configure your Snowflake external account in Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+1. Once the ODBC driver has been installed and configured, you need to configure your Snowflake external account in Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
 
 1. Unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
 
@@ -409,10 +409,6 @@ Connecting to an Hadoop external database in FDA requires the following configur
    ```
 
 1. Create the Hadoop external account, as detailed in the [Creating a shared connection](#creating-a-shared-connection) section.
-
-## Configure access to MySQL {#configure-access-to-mysql}
-
-For more information on how to configure your MySQL database, refer to this [article](https://helpx.adobe.com/campaign/kb/campaign_fda_mysql.html).
 
 ## Configure access to Netezza {#configure-access-to-netezza}
 
