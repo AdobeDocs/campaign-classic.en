@@ -185,7 +185,19 @@ As a general rule, you need to install the corresponding client layer on the ext
 
     * **[!UICONTROL Database]**
 
-       Name of your database
+       Name of your database.
+
+1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy function]** button to create functions.
+
+The connector supports the following options:
+
+| Option   |  Value |  Description |
+|---|---|---|
+|  workschema |   |  Database schema to use for work tables |
+|  warehouse |   |  Name of the default warehouse to use. It will override the user's default. |
+|  TimeZoneName	 |   |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+|  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
+|  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 
 ### Snowflake on Debian {#snowflake-debian}
 
@@ -229,6 +241,18 @@ As a general rule, you need to install the corresponding client layer on the ext
 
        Name of your database
 
+1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy function]** button to create functions.
+
+The connector supports the following options:
+
+| Option   |  Value |  Description |
+|---|---|---|
+|  workschema |   |  Database schema to use for work tables |
+|  warehouse |   |  Name of the default warehouse to use. It will override the user's default. |
+|  TimeZoneName	 |   |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+|  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
+|  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+
 ### Snowflake on Windows {#snowflake-windows}
 
 1. Download the [ODBC driver for Windows](https://docs.snowflake.net/manuals/user-guide/odbc-download.html). Note that you need administrator-level privileges to install the driver. For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)
@@ -258,6 +282,18 @@ As a general rule, you need to install the corresponding client layer on the ext
     * **[!UICONTROL Database]**
 
        Name of your database
+
+1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy function]** button to create functions.
+
+The connector supports the following options:
+
+| Option   |  Value |  Description |
+|---|---|---|
+|  workschema |   |  Database schema to use for work tables |
+|  warehouse |   |  Name of the default warehouse to use. It will override the user's default. |
+|  TimeZoneName	 |   |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+|  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
+|  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 
 ## Configure access to Hadoop 3.0 {#configure-access-to-hadoop-3}
 
@@ -296,7 +332,7 @@ Connecting to an Hadoop external database in FDA requires the following configur
 
     * **[!UICONTROL Database]**
 
-      Name of your database if not specified in DSN. It an be left empty if specified in the DSN
+      Name of your database if not specified in DSN. It can be left empty if specified in the DSN.
 
     * **[!UICONTROL Timezone]**
 
@@ -304,7 +340,7 @@ Connecting to an Hadoop external database in FDA requires the following configur
 
 ## Configure access to Hadoop 2.1 {#configure-access-to-hadoop}
 
-Connecting to an Hadoop external database in FDA requires the following configurations on the Adobe Campaign server.
+For more information on how to configure your Hadoop external database in FDA, refer to this [article](https://helpx.adobe.com/campaign/kb/access-hadoop-2.html).
 
 ### For Windows {#for-windows}
 

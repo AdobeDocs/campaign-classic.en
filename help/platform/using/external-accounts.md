@@ -54,7 +54,7 @@ External accounts are used by technical processes such as technical workflows or
    ![](assets/ext_account_2.png)
 
 1. Enter a **[!UICONTROL Label]** and **[!UICONTROL Internal Name]**. Both will be used when selecting external accounts in workflows.
-1. Check **[!UICONTROL Enabled]** if you want your connection to be enabled. 
+1. Check **[!UICONTROL Enabled]** if you want your connection to be enabled.
 1. Select your external account **[!UICONTROL Type]** which one you want to create.
 1. Configure the access to the account by specifying credentials depending on the chosen external account type.
 
@@ -164,6 +164,28 @@ The following connection types can be configured:
 * ODBC (Sybase ASE, Sybase IQ)
 * HTTP relay to remote database
 
+### Snowflake external account {#snowflake-external-account
+
+The **Snowflake** external account allows you to connect your Campaign instance to your Snowflake external database. For more information on how to configure Campaign Classic with Snowflake, refer to this [page](../../platform/using/specific-configuration-database.md##configure-access-to-snowflake).
+
+To configure this external account to work with Adobe Campaign, you need to provide the following details:
+
+* **[!UICONTROL Server]**
+  
+      URL of the Snowflake server.
+
+* **[!UICONTROL Account]**
+
+      Name of the user.
+
+* **[!UICONTROL Password]**
+
+      User account password.
+
+* **[!UICONTROL Database]**
+
+      Name of your database.
+
 ### Teradata external account {#teradata-external-account}
 
 The **Teradata** external account allows you to connect your Campaign instance to your Teradata external database. For more information on how to configure Campaign Classic with Teradata, refer to this [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) or this [section](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).
@@ -194,11 +216,11 @@ To configure this external account to work with Adobe Campaign, you need to prov
 
 * **[!UICONTROL Options]**
 
-  Options to be passed through Teradata
+  Options to be passed through Teradata.
 
 * **[!UICONTROL Timezone]**
 
-  Timezone set in Teradata
+  Timezone set in Teradata.
 
 ![](assets/ext_account_20.png)
 
@@ -240,7 +262,7 @@ For each Facebook application, you need to create a **[!UICONTROL Facebook Conne
 
 * **[!UICONTROL Application secret]**
 
-  App secret of your Facebook application
+  App secret of your Facebook application.
 
 If you chose the hosted by this instance mode, the Secure Canvas URL needs to be paste into the **Facebook Web games (https)** field on Facebook
 
@@ -258,7 +280,7 @@ If you have a broken-down architecture, you need to specify the execution instan
 
 * **[!UICONTROL Account]**
 
-  Name of the account, it must match the Message Center Agent as defined in the operator folder. 
+  Name of the account, it must match the Message Center Agent as defined in the operator folder.
 
 * **[!UICONTROL Password]**
 
@@ -286,11 +308,11 @@ To connect to the Adobe Campaign console using an Adobe ID, you must configure t
 
 * **[!UICONTROL IMS client secret]**
 
-  Credential of your IMS client secret
+  Credential of your IMS client secret.
 
 * **[!UICONTROL Callback server]**
 
-  Access URL of your Adobe Campaign instance
+  Access URL of your Adobe Campaign instance.
 
 * **[!UICONTROL IMS organization ID]**
 
