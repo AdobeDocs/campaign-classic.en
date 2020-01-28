@@ -186,6 +186,8 @@ To configure this external account to work with Adobe Campaign, you need to prov
 
       Name of your database.
 
+![](assets/snowflake.png)
+
 ### Teradata external account {#teradata-external-account}
 
 The **Teradata** external account allows you to connect your Campaign instance to your Teradata external database. For more information on how to configure Campaign Classic with Teradata, refer to this [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) or this [section](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).

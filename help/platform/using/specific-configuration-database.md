@@ -187,7 +187,11 @@ As a general rule, you need to install the corresponding client layer on the ext
 
        Name of your database.
 
+    ![](assets/snowflake.png)
+
 1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy function]** button to create functions.
+
+    ![](assets/snowflake_2.png)
 
 The connector supports the following options:
 
@@ -241,7 +245,11 @@ The connector supports the following options:
 
        Name of your database
 
+    ![](assets/snowflake.png)
+
 1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy function]** button to create functions.
+
+    ![](assets/snowflake_2.png)
 
 The connector supports the following options:
 
@@ -283,7 +291,11 @@ The connector supports the following options:
 
        Name of your database
 
+    ![](assets/snowflake.png)
+
 1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy function]** button to create functions.
+
+    ![](assets/snowflake_2.png)
 
 The connector supports the following options:
 
@@ -322,13 +334,17 @@ Connecting to an Hadoop external database in FDA requires the following configur
   
       ODBC (Sybase ASE, Sybase IQ)
 
+    * **[!UICONTROL Server]**
+  
+      Name of the DNS.
+
     * **[!UICONTROL Account]**
 
-      Name of the user
+      Name of the user.
 
     * **[!UICONTROL Password]**
 
-      User account password
+      User account password.
 
     * **[!UICONTROL Database]**
 
@@ -337,6 +353,24 @@ Connecting to an Hadoop external database in FDA requires the following configur
     * **[!UICONTROL Timezone]**
 
       Server time zone
+
+    ![](assets/hadoop3.png)
+
+The connector supports the following ODBC options:
+
+| Name |  Value |
+|---|---|
+|  ODBCMgr | iODBC |
+|  warehouse |  1/2/4 |
+
+The connector also supports the following Hive options:
+
+| Name |  Value |  Description |
+|---|---|---|
+|  bulkKey |  Azure blob or DataLake access key |  For wasb:// or wasbs:// bulk loaders (i.e. if the bulk load tool starts with wasb:// or wasbs://). <br>It is the access key for blob or DataLake bucket for bulk load. |
+|  hdfsPort |  port number <br>set by default to 8020 |  For HDFS bulk load (i.e. if the bulk load tool starts with webhdfs:// or webhdfss://). |
+|  bucketsNumber	|  20 |  Number of buckets when creating a clustered table. |
+|  fileFormat |  PARQUET |  Default file format for work tables. |
 
 ## Configure access to Hadoop 2.1 {#configure-access-to-hadoop}
 
