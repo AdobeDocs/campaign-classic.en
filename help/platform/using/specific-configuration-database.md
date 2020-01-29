@@ -199,9 +199,9 @@ The connector supports the following options:
 |---|---|---|
 |  workschema |   |  Database schema to use for work tables |
 |  warehouse |   |  Name of the default warehouse to use. It will override the user's default. |
-|  TimeZoneName |   |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-|  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
-|  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+|  TimeZoneName |   |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <p>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone).</p> |
+|  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <p>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start).</p> |
+|  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <p>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html).</p> |
 
 ### Snowflake on Debian {#snowflake-debian}
 
@@ -257,9 +257,9 @@ The connector supports the following options:
 |---|---|---|
 |  workschema |   |  Database schema to use for work tables |
 |  warehouse |   |  Name of the default warehouse to use. It will override the user's default. |
-|  TimeZoneName |   |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-|  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
-|  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+|  TimeZoneName |   |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <p>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone).</p>|
+|  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <p>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start).</p> |
+|  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <p>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html).</p> |
 
 ### Snowflake on Windows {#snowflake-windows}
 
@@ -303,9 +303,9 @@ The connector supports the following options:
 |---|---|---|
 |  workschema |   |  Database schema to use for work tables |
 |  warehouse |   |  Name of the default warehouse to use. It will override the user's default. |
-|  TimeZoneName |   |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-|  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
-|  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+|  TimeZoneName |   |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <p>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone).</p> |
+|  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <p>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start).</p> |
+|  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <p>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html).</p> |
 
 ## Configure access to Hadoop 3.0 {#configure-access-to-hadoop-3}
 
