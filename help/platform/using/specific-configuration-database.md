@@ -146,6 +146,8 @@ As a general rule, you need to install the corresponding client layer on the ext
 >
 >Snowflake connector is available for hosted and on-premise deployments. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 
+![](assets/snowflake_3.png)
+
 ### Snowflake on CentOS {#snowflake-centos}
 
 1. Download the ODBC drivers for Snowflake. Drivers for Snowflake can be found [here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm).
