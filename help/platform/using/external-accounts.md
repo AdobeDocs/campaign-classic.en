@@ -166,7 +166,7 @@ The following connection types can be configured:
 
 ### Snowflake external account {#snowflake-external-account
 
-The **Snowflake** external account allows you to connect your Campaign instance to your Snowflake external database. For more information on how to configure Campaign Classic with Snowflake, refer to this [page](../../platform/using/specific-configuration-database.md##configure-access-to-snowflake).
+The **Snowflake** external account allows you to connect your Campaign instance to your Snowflake external database. For more information on how to configure Campaign Classic with Snowflake, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
 
 To configure this external account to work with Adobe Campaign, you need to provide the following details:
 
