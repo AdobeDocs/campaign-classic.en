@@ -367,8 +367,8 @@ The connector also supports the following Hive options:
 
 | Name |  Value |  Description |
 |---|---|---|
-|  bulkKey |  Azure blob or DataLake access key |  For wasb:// or wasbs:// bulk loaders (i.e. if the bulk load tool starts with wasb:// or wasbs://). <br>It is the access key for blob or DataLake bucket for bulk load. |
-|  hdfsPort |  port number <br>set by default to 8020 |  For HDFS bulk load (i.e. if the bulk load tool starts with webhdfs:// or webhdfss://). |
+|  bulkKey |  Azure blob or DataLake access key |  For wasb:// or wasbs:// bulk loaders (i.e. if the bulk load tool starts with wasb:// or wasbs://). <p>It is the access key for blob or DataLake bucket for bulk load.</p> |
+|  hdfsPort |  port number <p>set by default to 8020</p> |  For HDFS bulk load (i.e. if the bulk load tool starts with webhdfs:// or webhdfss://). |
 |  bucketsNumber |  20 |  Number of buckets when creating a clustered table. |
 |  fileFormat |  PARQUET |  Default file format for work tables. |
 
