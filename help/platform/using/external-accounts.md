@@ -164,7 +164,7 @@ The following connection types can be configured:
 * ODBC (Sybase ASE, Sybase IQ)
 * HTTP relay to remote database
 
-### Snowflake external account {#snowflake-external-account
+### Snowflake external account {#snowflake-external-account}
 
 The **Snowflake** external account allows you to connect your Campaign instance to your Snowflake external database. For more information on how to configure Campaign Classic with Snowflake, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
 
