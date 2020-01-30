@@ -146,6 +146,8 @@ As a general rule, you need to install the corresponding client layer on the ext
 >
 >Snowflake connector is available for hosted and on-premise deployments. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 
+![](assets/snowflake_3.png)
+
 ### Snowflake on CentOS {#snowflake-centos}
 
 1. Download the ODBC drivers for Snowflake. Drivers for Snowflake can be found [here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm).
@@ -185,37 +187,23 @@ As a general rule, you need to install the corresponding client layer on the ext
 
     * **[!UICONTROL Database]**
 
-       Name of your database
+       Name of your database.
 
-### Snowflake on Windows {#snowflake-windows}
+    ![](assets/snowflake.png)
 
-1. Download the [ODBC driver for Windows](https://docs.snowflake.net/manuals/user-guide/odbc-download.html). Note that you need administrator-level privileges to install the driver. For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)
+1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy function]** button to create functions.
 
-1. Configure the ODBC driver. For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
+    ![](assets/snowflake_2.png)
 
-1. Once the ODBC driver has been installed and configured, you need to configure your Snowflake external account in Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+The connector supports the following options:
 
-1. Unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
-
-1. Select the out-of-the box **[!UICONTROL Snowflake]** external account.
-
-1. To configure the **[!UICONTROL Snowflake]** external account:
-
-    * **[!UICONTROL Server]**
-  
-      URL of the Snowflake server.
-
-    * **[!UICONTROL Account]**
-
-      Name of the user.
-
-    * **[!UICONTROL Password]**
-
-       User account password.
-
-    * **[!UICONTROL Database]**
-
-       Name of your database
+| Option   |  Value |  Description |
+|---|---|---|
+|  workschema |   |  Database schema to use for work tables |
+|  warehouse |   |  Name of the default warehouse to use. It will override the user's default. |
+|  TimeZoneName |   |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+|  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
+|  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 
 ### Snowflake on Debian {#snowflake-debian}
 
@@ -259,6 +247,68 @@ As a general rule, you need to install the corresponding client layer on the ext
 
        Name of your database
 
+    ![](assets/snowflake.png)
+
+1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy function]** button to create functions.
+
+    ![](assets/snowflake_2.png)
+
+The connector supports the following options:
+
+| Option   |  Value |  Description |
+|---|---|---|
+|  workschema | &nbsp; |  Database schema to use for work tables |
+|  warehouse | &nbsp; |  Name of the default warehouse to use. It will override the user's default. |
+|  TimeZoneName | &nbsp; |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone).|
+|  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
+|  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+
+### Snowflake on Windows {#snowflake-windows}
+
+1. Download the [ODBC driver for Windows](https://docs.snowflake.net/manuals/user-guide/odbc-download.html). Note that you need administrator-level privileges to install the driver. For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)
+
+1. Configure the ODBC driver. For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
+
+1. Once the ODBC driver has been installed and configured, you need to configure your Snowflake external account in Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+
+1. Unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+
+1. Select the out-of-the box **[!UICONTROL Snowflake]** external account.
+
+1. To configure the **[!UICONTROL Snowflake]** external account:
+
+    * **[!UICONTROL Server]**
+  
+      URL of the Snowflake server.
+
+    * **[!UICONTROL Account]**
+
+      Name of the user.
+
+    * **[!UICONTROL Password]**
+
+       User account password.
+
+    * **[!UICONTROL Database]**
+
+       Name of your database
+
+    ![](assets/snowflake.png)
+
+1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy function]** button to create functions.
+
+    ![](assets/snowflake_2.png)
+
+The connector supports the following options:
+
+| Option   |  Value |  Description |
+|---|---|---|
+|  workschema |  &nbsp; |  Database schema to use for work tables |
+|  warehouse |  &nbsp; |  Name of the default warehouse to use. It will override the user's default. |
+|  TimeZoneName | &nbsp; |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+|  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
+|  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html).|
+
 ## Configure access to Hadoop 3.0 {#configure-access-to-hadoop-3}
 
 Connecting to an Hadoop external database in FDA requires the following configurations on the Adobe Campaign server. Note that this configuration is available for both Windows and Linux.
@@ -286,25 +336,47 @@ Connecting to an Hadoop external database in FDA requires the following configur
   
       ODBC (Sybase ASE, Sybase IQ)
 
+    * **[!UICONTROL Server]**
+  
+      Name of the DNS.
+
     * **[!UICONTROL Account]**
 
-      Name of the user
+      Name of the user.
 
     * **[!UICONTROL Password]**
 
-      User account password
+      User account password.
 
     * **[!UICONTROL Database]**
 
-      Name of your database if not specified in DSN. It an be left empty if specified in the DSN
+      Name of your database if not specified in DSN. It can be left empty if specified in the DSN.
 
     * **[!UICONTROL Timezone]**
 
       Server time zone
 
+    ![](assets/hadoop3.png)
+
+The connector supports the following ODBC options:
+
+| Name |  Value |
+|---|---|
+|  ODBCMgr | iODBC |
+|  warehouse |  1/2/4 |
+
+The connector also supports the following Hive options:
+
+| Name |  Value |  Description |
+|---|---|---|
+|  bulkKey |  Azure blob or DataLake access key |  For wasb:// or wasbs:// bulk loaders (i.e. if the bulk load tool starts with wasb:// or wasbs://). <br>It is the access key for blob or DataLake bucket for bulk load. |
+|  hdfsPort |  port number <br>set by default to 8020 |  For HDFS bulk load (i.e. if the bulk load tool starts with webhdfs:// or webhdfss://). |
+|  bucketsNumber |  20 |  Number of buckets when creating a clustered table. |
+|  fileFormat |  PARQUET |  Default file format for work tables. |
+
 ## Configure access to Hadoop 2.1 {#configure-access-to-hadoop}
 
-Connecting to an Hadoop external database in FDA requires the following configurations on the Adobe Campaign server.
+For more information on how to configure your Hadoop external database in FDA, refer to this [article](https://helpx.adobe.com/campaign/kb/access-hadoop-2.html).
 
 ### For Windows {#for-windows}
 
@@ -409,10 +481,6 @@ Connecting to an Hadoop external database in FDA requires the following configur
    ```
 
 1. Create the Hadoop external account, as detailed in the [Creating a shared connection](#creating-a-shared-connection) section.
-
-## Configure access to MySQL {#configure-access-to-mysql}
-
-For more information on how to configure your MySQL database, refer to this [article](https://helpx.adobe.com/campaign/kb/campaign_fda_mysql.html).
 
 ## Configure access to Netezza {#configure-access-to-netezza}
 
