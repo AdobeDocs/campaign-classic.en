@@ -259,15 +259,14 @@ Campaign Classic interface allows you to monitor the execution status 
 
 The following views are available:
 
-* **Running**: lists all running workflows.
-* **Paused**: lists all paused workflows.
-* **Failed**: lists all failed workflows.
+* **[!UICONTROL Running]**: lists all running workflows.
+* **[!UICONTROL Paused]**: lists all paused workflows.
+* **[!UICONTROL Failed]**: lists all failed workflows.
+* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the operationMgt process. This view is available with the **Marketing campaigns** package only (see [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md)).
 
-<!--Start Pending: lists all workflows that are waiting to be started by the operationMgt process.-->
+   Additionally to this view, pending worklows can also be displayed using the prefedefined filter available in all workflow-type folders.
 
 ![](assets/workflow-monitoring-views.png)
-
-<!--The Start Pending view is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
 
 By default, these views are accessible in the **Audit** folder. However, you can recreate them at the location of your choice in the folders tree. This way, they will be available to standard users with no administration right.
 
@@ -289,6 +288,4 @@ For more information, refer to these sections:
 
 * [Creating advanced filters](../../platform/using/creating-filters.md#creating-an-advanced-filter)
 * [Saving filters](../../platform/using/creating-filters.md#saving-a-filter)
-
-<!-- need to check if pending status filter will be implemented or not in january release, note, Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the operationMgt process only.This filter is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
 
