@@ -115,7 +115,7 @@ snippet: y
   </tr> 
   <tr> 
    <td> Android Push Connector enhancement<br /> </td> 
-   <td> <p>The Android connector has been enhanced to support higher throughput. </p> <p>For more information, refer to the <a href="../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-in-adobe-campaign">detailed documentation</a>.</p> </td> 
+   <td> <p>The Android connector has been enhanced to support higher throughput. </p> <p>For more information, refer to the <a href="../../delivery/using/configuring-the-mobile-application-in-adobe-campaign.md">detailed documentation</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
