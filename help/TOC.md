@@ -89,7 +89,7 @@ sub-product: adobe campaign classic
        + [LINE channel](delivery/using/line-channel.md)
   + Sending push notifications {#sending-push-notifications}
        + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
-       + [Setting up mobile app channel](delivery/using/setting-up-mobile-app-channel.md)
+       + [Integrating Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
        + [Configuring the mobile application in Adobe Campaign](delivery/using/configuring-the-mobile-application.md)
        + [Creating notifications](delivery/using/creating-notifications.md)
        + [Troubleshooting](delivery/using/troubleshooting.md)

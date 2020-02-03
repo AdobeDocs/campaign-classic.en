@@ -16,107 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Setting up mobile app channel{#setting-up-mobile-app-channel}
-
-## Introduction {#introduction}
-
->[!CAUTION]
->
->Mobile App Channel implementation has to be performed by expert users. If you need to be assisted, contact your Adobe Account executive or Professional services partner.
-
-You can create several versions of your mobile application (iOS, Android): the Mobile App channel option enables you to send notifications to terminals which the application is installed on.
-
-To use the functionalities of the Adobe Campaign Mobile App Channel, you need to change/adapt your mobile application to integrate it into the Adobe Campaign platform.
-
-Two Campaign Classic SDKs are available, one for Android and one for iOS, for an easy integration of your mobile application with Adobe Campaign. A deep technical knowledge of Java and Objective-C is required. A detailed description of Campaign SDK is found in [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application).
-
->[!NOTE]
->
->Libraries provided by Adobe Campaign are designed to be used with Xcode (iOS) and Android Studio (Android).
-
-## Configuration steps {#configuration-steps}
-
-### Creating the application {#creating-the-application}
-
-If you don't have a mobile application (app), the application developer needs to create it and integrate the SDK. If the mobile application exists, the developer needs to adapt it by integrating the Adobe Campaign SDK and adding the settings specific to the service. For a description of the SDK, refer to [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application).
-
->[!CAUTION]
->
->The application must have been configured for Push actions BEFORE any integration to Adobe Campaign SDK.
->
->If this is not the case, please refer to [this page](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/).
-
-### Collecting information {#collecting-information-}
-
-To configure the application, you have to collect the technical specifications which define the set of parameters that enable Adobe Campaign and the mobile application to communicate. These parameters are:
-
-* **the integration key**: each application has a unique key. This key lets you link the Adobe Campaign service and the mobile application. Refer to [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
-* **the variables**: define the behavior of the application when you activate the notification. Refer to [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
-* **the subscription settings**: by default, Adobe Campaign recovers the **@userKey** field that enables you to reconcile mobile devices with the recipients in the database. If you want to collect additional data (such as a complex reconciliation key), you can define subscription settings. Refer to [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
-* **the sounds** (iOS only): if the selected sound isn't a system sound, the sound file must be embedded into the mobile application. Refer to [Configuring iOS external account](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios).
-* **the URL of the marketing server and the tracking server**: the Adobe Campaign administrator must provide the application developer with the URLs of the marketing server and the URLs of the tracking server. For more on this, refer to: [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application).
-
-### Creating the service {#creating-the-service}
-
-The Adobe Campaign administrator needs to create and configure a service linked to the mobile application. For more on this, refer to [Configuring the mobile application in Adobe Campaign](#configuring-the-mobile-application-).
-
-### Testing the application {#testing-the-application}
-
-On iOS, you need to create an application that uses the sandbox mode for tests and approvals. Then, within the same Adobe Campaign service, create a new production type application and enter the relevant certificate. For more on this, refer to the documentation on the Apple notifications service.
-
-On Android, you only need to create one application. Test the full subscription and delivery collection process on your application before making it public.
-
-## Data path {#data-path}
-
-The following schemas detail the steps that enable a mobile application to exchange data with Adobe Campaign. This process involves three entities:
-
-* the mobile application
-* the notification service: APNS (Apple Push Notification Service) for Apple and FCM (Firebase Cloud Messaging) for Android
-* Adobe Campaign
-
-The three main steps of the notification process are: registration of the application in Adobe Campaign (subscription collection), deliveries, and tracking.
-
-### Step 1: Subscription collection {#step-1--subscription-collection}
-
-The mobile application is downloaded by the user from the App Store or from Google Play. This application contains the connection settings (iOS certificate and project key for Android) and the integration key. The first time the application is opened, (depending on configuration), the user can be asked to enter registration information (@userKey: email or account number for instance). At the same time, the application questions the notification service to collect a notification ID (push ID). All this information (connection settings, integration key, notification identifier, userKey) is sent to Adobe Campaign.
-
-![](assets/nmac_register_view.png)
-
-### Step 2: Delivery {#step-2--delivery}
-
-Marketers target application subscribers. The delivery process sends the connection settings to the notification service (iOS certificate and project key for Android), the notification ID (push ID) and the content of the notification. The notification service sends notifications to the targeted terminals.
-
-The following information is available in Adobe Campaign:
-
-* Android only: number of devices that have displayed the notification (impressions)
-* Android and iOS: number of clicks on the notification
-
-![](assets/nmac_delivery_view.png)
-
-The Adobe Campaign server must be able to contact the APNS server on the following ports:
-
-* 2195 (sending) and 2186 (feedback service) for iOS binary connector
-* 443 for iOS HTTP/2 connector
-
-To check that it works correctly, use the following commands:
-
-* For tests:
-
-  ```
-  telnet gateway.sandbox.push.apple.com
-  ```
-
-* In production:
-
-  ```
-  telnet gateway.push.apple.com
-  ```
-
-If an iOS binary connector is used, the MTA and web server must be able to contact the APNS on port 2195 (sending), the workflow server must be able to contact the APNS on port 2196 (feedback service).
-
-If an iOS HTTP/2 connector is used, the MTA, web server and workflow server must be able to contact the APNS on port 443.
-
-## Integrating Campaign SDK into the mobile application {#integrating-campaign-sdk-into-the-mobile-application}
+# Integrating Campaign SDK into the mobile application {#integrating-campaign-sdk-into-the-mobile-application}
 
 Campaign SDKs for iOS and Android are one of the components of the Mobile App Channel module.
 
@@ -128,7 +28,7 @@ The goal of the SDK is to facilitate the integration of a mobile application int
 
 To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#MobileSDK) .
 
-### Loading Campaign SDK {#loading-campaign-sdk}
+## Loading Campaign SDK {#loading-campaign-sdk}
 
 * **In Android**: the **neolane_sdk-release.aar** file must be linked to the project.
 
@@ -156,7 +56,7 @@ To learn more on the different Android and iOS versions supported, refer to the 
   >
   >For version 1.0.25 of the SDK, the four architectures are available in the **Neolane_SDK.h** file.
 
-### Declaring integration settings {#declaring-integration-settings}
+## Declaring integration settings {#declaring-integration-settings}
 
 To integrate Campaign SDK into the mobile application, the functional administrator must provide the following information to the developer:
 
@@ -186,7 +86,7 @@ To integrate Campaign SDK into the mobile application, the functional administra
   [nl setIntegrationKey:strIntegrationKey];
   ```
 
-### Registration function {#registration-function}
+## Registration function {#registration-function}
 
 The registration function enables you to:
 
@@ -242,7 +142,7 @@ The registration function enables you to:
   }
   ```
 
-### Tracking function {#tracking-function}
+## Tracking function {#tracking-function}
 
 * **In Android**:
 
@@ -385,7 +285,7 @@ The registration function enables you to:
   >
   >From version 7.0, once the **application:didReceiveRemoteNotification:fetchCompletionHandler** function is implemented, the operating system only calls this function. The **application:didReceiveRemoteNotification** function is therefore not called.
 
-### Silent notification tracking {#silent-notification-tracking}
+## Silent notification tracking {#silent-notification-tracking}
 
 iOS lets you send silent notifications, a notification or data which will be directly sent to a mobile application without displaying it. Adobe Campaign allows you to track them.
 
@@ -621,7 +521,7 @@ To implement **registerDeviceStatus** delegate, follow these steps:
    @end
    ```
 
-### Variables {#variables}
+## Variables {#variables}
 
 The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md)). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
 
@@ -668,3 +568,93 @@ The variables let you define mobile application behavior after receiving a notif
 >[!CAUTION]
 >
 >Adobe recommends choosing short variable names because notification size is limited to 4kB for iOS and Android.
+
+## Notification Service Extension {#notification-service-extension}
+
+**For iOS**
+
+The media has to be downloaded at the notification service extension level.
+
+```
+
+#import "NotificationService.h"
+
+@interface NotificationService ()
+
+@property (nonatomic, strong) void (^contentHandler)(UNNotificationContent *contentToDeliver);
+@property (nonatomic, strong) UNMutableNotificationContent *bestAttemptContent;
+
+@end
+
+@implementation NotificationService
+
+- (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent * _Nonnull))contentHandler {
+    NSDictionary *userInfo = nil;
+    NSString *url = nil;
+
+    self.contentHandler = contentHandler;
+    self.bestAttemptContent = [request.content mutableCopy];
+
+    userInfo = request.content.userInfo;
+    if ( userInfo != nil )
+    {
+        url = userInfo[@"mediaUrl"];  // Get the url of the media to download (Adobe Campaign additional variable)
+    }
+    ...
+    // Perform the download to local storage
+
+```
+
+## Notification Content Extension {#notification-content-extension}
+
+**For iOS**
+
+At this level, you need to:
+
+* Associate your content extension to the category sent by Adobe Campaign:
+
+  If you want your mobile application to display an image, you can set the category value to "image" in Adobe Campaign and in your mobile application, you create a notification extension with the **UNNotificationExtensionCategory** parameter set to "image". When the push notification is received on the device, the extension is called according to the defined category value.
+
+* Define your notification layout
+
+  You need to define a layout with the relevant widgets. For an image, the widget is named **UIImageView**.
+
+* Display your media
+
+  You need to add code to feed the media data to the widget. Here is an example of code for an image:
+
+  ```
+
+  #import "NotificationViewController.h"
+  #import <UserNotifications/UserNotifications.h>
+  #import <UserNotificationsUI/UserNotificationsUI.h>
+
+  @interface NotificationViewController () <UNNotificationContentExtension>
+  
+  @property (strong, nonatomic) IBOutlet UIImageView *imageView;
+  @property (strong, nonatomic) IBOutlet UILabel *notifContent;
+  @property (strong, nonatomic) IBOutlet UILabel *label;
+  
+  @end
+
+  @implementation NotificationViewController
+
+  - (void)viewDidLoad {
+      [super viewDidLoad];
+      // Do any required interface initialization here.
+  }
+
+  - (void)didReceiveNotification:(UNNotification *)notification {
+      self.label.text = notification.request.content.title;
+      self.notifContent.text = notification.request.content.body;
+      UNNotificationAttachment *attachment = [notification.request.content.attachments objectAtIndex:0];
+      if ([attachment.URL startAccessingSecurityScopedResource])
+      {
+        NSData * imageData = [[NSData alloc] initWithContentsOfURL:attachment.URL];
+        self.imageView.image =[UIImage imageWithData: imageData];
+        [attachment.URL stopAccessingSecurityScopedResource];
+      }
+  }
+  @end
+  
+  ```

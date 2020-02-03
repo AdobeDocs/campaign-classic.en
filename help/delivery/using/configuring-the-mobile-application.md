@@ -32,6 +32,12 @@ You can find below a configuration sample based on a company which sells online 
 
 ## Configuring the mobile application with iOS {#configuring-the-mobile-application-ios}
 
+>[!CAUTION]
+>
+>The application must have been configured for Push actions BEFORE any integration to Adobe Campaign SDK.
+>
+>If this is not the case, please refer to [this page](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/).
+
 ### Step 1: Installing the package {#installing-package-ios}
 
 1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Package import...]** in the Adobe Campaign client console.
@@ -59,11 +65,13 @@ To choose which connector you want to use, follow these steps:
 1. Select the iOS routing external account.
 1. In the **[!UICONTROL Connector]** tab, fill in the **[!UICONTROL Access URL of the connector]** field:
 
-   For iOS binary: https://localhost:8080/nms/jsp/ios.jsp
-
    For iOS HTTP2: http://localhost:8080/nms/jsp/iosHTTP2.jsp
 
    ![](assets/nmac_connectors.png)
+
+   >[!NOTE]
+   >
+   > You can also configure it as follow https://localhost:8080/nms/jsp/ios.jsp but we advise you to use version 2 of the connector.
 
 ### Step 3: Configuring iOS service {#configuring-ios-service}
 
@@ -104,7 +112,11 @@ To choose which connector you want to use, follow these steps:
 
 1. Click **[!UICONTROL Next]** to start configuring the development application.
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code (via the SDK). For more on this, refer to: [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to: [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
+
+    >[!NOTE]
+    >
+    > The **[!UICONTROL Integration key]** is fully customizable with string value but needs to be exactly the same as the one specified in the SDK.
 
 1. If your application handles an application icon, you can add it here so that the preview is more faithful to the actual style of the delivery. To add an image in the content (rich notification), refer to the [Creating notifications](../../delivery/using/creating-notifications.md) section.
 
@@ -130,7 +142,7 @@ In Adobe Campaign, the following parameters have to be sent to the mobile applic
 
 * Check the **[!UICONTROL Mutable content]** box in the edit notification window. This will allow the mobile application to download media content.
 * The **[!UICONTROL Category]** field must be set. The value must match one of the mobile application's content extensions (parameter **UNNotificationExtensionCategory**).
-* In the application variables, add the URL of the media file you want the mobile application to download and display. 
+* In the application variables, add the URL of the media file you want the mobile application to download and display.
 
   ![](assets/nmac_connectors2.png)
 
@@ -138,92 +150,6 @@ To implement rich notifications in the mobile application, you need to add the f
 
 * Notification Service Extension
 * Notification Content Extension (one or more according to your implementation)
-
-**Notification Service Extension**
-
-The media has to be downloaded at the notification service extension level.
-
-```
-
-#import "NotificationService.h"
-
-@interface NotificationService ()
-
-@property (nonatomic, strong) void (^contentHandler)(UNNotificationContent *contentToDeliver);
-@property (nonatomic, strong) UNMutableNotificationContent *bestAttemptContent;
-
-@end
-
-@implementation NotificationService
-
-- (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent * _Nonnull))contentHandler {
-    NSDictionary *userInfo = nil;
-    NSString *url = nil;
-
-    self.contentHandler = contentHandler;
-    self.bestAttemptContent = [request.content mutableCopy];
-
-    userInfo = request.content.userInfo;
-    if ( userInfo != nil )
-    {
-        url = userInfo[@"mediaUrl"];  // Get the url of the media to download (Adobe Campaign additional variable)
-    }
-    ...
-    // Perform the download to local storage
-
-```
-
-**Notification Content Extension**
-
-At this level, you need to:
-
-* Associate your content extension to the category sent by Adobe Campaign:
-
-  If you want your mobile application to display an image, you can set the category value to "image" in Adobe Campaign and in your mobile application, you create a notification extension with the **UNNotificationExtensionCategory** parameter set to "image". When the push notification is received on the device, the extension is called according to the defined category value.
-
-* Define your notification layout
-
-  You need to define a layout with the relevant widgets. For an image, the widget is named **UIImageView**.
-
-* Display your media
-
-  You need to add code to feed the media data to the widget. Here is an example of code for an image:
-
-  ```
-
-  #import "NotificationViewController.h"
-  #import <UserNotifications/UserNotifications.h>
-  #import <UserNotificationsUI/UserNotificationsUI.h>
-
-  @interface NotificationViewController () <UNNotificationContentExtension>
-  
-  @property (strong, nonatomic) IBOutlet UIImageView *imageView;
-  @property (strong, nonatomic) IBOutlet UILabel *notifContent;
-  @property (strong, nonatomic) IBOutlet UILabel *label;
-  
-  @end
-
-  @implementation NotificationViewController
-
-  - (void)viewDidLoad {
-      [super viewDidLoad];
-      // Do any required interface initialization here.
-  }
-
-  - (void)didReceiveNotification:(UNNotification *)notification {
-      self.label.text = notification.request.content.title;
-      self.notifContent.text = notification.request.content.body;
-      UNNotificationAttachment *attachment = [notification.request.content.attachments objectAtIndex:0];
-      if ([attachment.URL startAccessingSecurityScopedResource])
-      {
-        NSData * imageData = [[NSData alloc] initWithContentsOfURL:attachment.URL];
-        self.imageView.image =[UIImage imageWithData: imageData];
-        [attachment.URL stopAccessingSecurityScopedResource];
-      }
-  }
-  @end
-  
-  ```
 
 ## Configuring the mobile application with Android {#configuring-the-mobile-application-android}
 
