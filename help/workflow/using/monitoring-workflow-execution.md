@@ -255,7 +255,7 @@ Workflow supervisors are notified. The creator and last user who modified the wo
 
 ## Filtering workflows according to their status {#filtering-workflows-status}
 
-Campaign Classic interface allows you to monitor the execution status of all workflows on your instance using predefined **views**. To access these views, open the **Administration** / **Audit** / **Workflows Status** node.
+Campaign Classic interface allows you to monitor the execution status of all workflows on your instance using predefined **views**. To access these views, open the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]** node.
 
 The following views are available:
 
@@ -264,16 +264,18 @@ The following views are available:
 * **[!UICONTROL Failed]**: lists all failed workflows.
 * **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the operationMgt process. This view is available with the **Marketing campaigns** package only (see [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md)).
 
-   Additionally to this view, pending worklows can also be displayed using the prefedefined filter available in all workflow-type folders.
+   >[!NOTE]
+   >
+   >Pending worklows can also be displayed using the prefedefined filter available in all workflow-type folders.
 
 ![](assets/workflow-monitoring-views.png)
 
-By default, these views are accessible in the **Audit** folder. However, you can recreate them at the location of your choice in the folders tree. This way, they will be available to standard users with no administration right.
+By default, these views are accessible in the **[!UICONTROL Audit]** folder. However, you can recreate them at the location of your choice in the folders tree. This way, they will be available to standard users with no administration right.
 
 To do this:
 
 1. Right-click on the folder where you want to add the view.
-1. In **Add new folder** / **Administration**, select the view that you want to add.
+1. In **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, select the view that you want to add.
 1. Once the folder is added to the tree, make sure you configure it as a view, so that it displays all workflows, whatever their origin folder is.For more on how to configure views, refer to [this section](../../platform/using/access-management.md#adding-folders-and-creating-views).
 
 Additionally to these views, you can set up filters folders that will allow you to filter the list of workflows according to their execution status. To do this:
