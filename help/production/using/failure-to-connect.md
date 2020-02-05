@@ -48,9 +48,9 @@ Check the following information:
 
       Log on to the: **http(s):// `<urlserver>`/r/test** URL. The server should return the following type of message
 
-      ```    
+      ```
       <redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='<hostname>' localHost='<server>'/>
-      ```    
+      ```
     
       If you do not obtain this result, check in your Web server configuration that integration is taken into account.
 
@@ -70,35 +70,20 @@ Check the following information:
 
           Has the Adobe Campaign Web module started up? You should obtain:
 
-          ```        
+          ```
           nlserver pdump
           HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
           [...]
           web@default (27515) - 55.2 Mb
           [...]
-          ```        
+          ```
         
-          If not, restart it using the following command:
+       *  If not, restart it using the following command:
 
           ```        
           nlserver start web
           ```
-
-          >[!NOTE]
-          >
-          >If you obtain a response of the following type when you list the Adobe Campaign modules:   
-          >**nlserver pdump** 
-          >HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY No tasks You must restart the entire Adobe Campaign application. To do this, use the following commands:   
-
-          >
-          >    
-          >    
-          >    * If you have root or administrator access: 
-          >    * If not, then in the Adobe Campaign account: 
-          >    
-          >    
-          >      **nlserver watchdog -svc -noconsole **
-          >    
-          >    
-          >
-
+>[!NOTE]
+>
+>If you obtain a response of the following type when you list the Adobe Campaign modules: **nlserver pdump** 
+>HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY No tasks You must restart the entire Adobe Campaign application. To do this, use the following command: **nlserver watchdog -svc -noconsole **

@@ -16,7 +16,7 @@ snippet: y
 
 # About the Campaign Classic data model{#about-data-model}
 
-This section describes the basics of the Adobe Campaign Classic data model,for a better understanding of Campaign built-in tables and their interaction.
+This section describes the basics of the Adobe Campaign Classic data model, for a better understanding of Campaign built-in tables and their interaction.
 
 The conceptual data model of the Adobe Campaign database consists in a set of built-in tables and their interaction.
 
