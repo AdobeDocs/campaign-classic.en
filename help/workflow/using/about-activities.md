@@ -28,8 +28,7 @@ In the campaign workflows, the **[!UICONTROL Events]** tab is replaced by the **
 
 Read more:
 
-* [](../../workflow/using/about-targeting-activities.md)
+* [About Targeting activities](../../workflow/using/about-targeting-activities.md)
 * [Importing data](../../workflow/using/importing-data.md)
 * [Executing a workflow](../../workflow/using/executing-a-workflow.md)
 * [Workflow best practices](../../workflow/using/workflow-best-practices.md)
-

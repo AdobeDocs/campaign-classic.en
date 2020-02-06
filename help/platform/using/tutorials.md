@@ -42,7 +42,7 @@ Learn more about Adobe Campaign by checking the following use cases and examples
 
 Discover Adobe Campaign's main features by watching our how-to videos.
 
-* [Creating an audience](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html#how-to-create-an-audience): discover how to create an audience in Adobe Campaign.
+* [Creating an audience](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html): discover how to create an audience in Adobe Campaign.
 * [Creating a campaign and an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-campaign-and-an-email.html): discover how to create an email in a campaign in Adobe Campaign.
 * [Creating a list of recipients](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html): create a list of recipients with a workflow in Adobe Campaign.
 * [Creating a targeting workflow](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-targeting-workflow.html): create a workflow to target recipients' birthdays.
@@ -50,6 +50,6 @@ Discover Adobe Campaign's main features by watching our how-to videos.
 * [Importing profiles](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html): learn how to import profiles from a file in Adobe Campaign.
 * [Interface overview](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html): learn how to navigate in Adobe Campaign interface.
 * [Managing seed and proofs in an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html): learn how to add seeds and proofs to an existing email in Adobe Campaign.
-* [Adobe Campaign and Microsoft Dynamics 365 integration](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html): learn how to link and synchronize Adobe Campaign and Microsoft Dynamics through CRM connectors capabilities.
+* [Adobe Campaign and Microsoft Dynamics 365 integration](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/integrating/dynamics365-integration.html): learn how to link and synchronize Adobe Campaign and Microsoft Dynamics through CRM connectors capabilities.
 
 Besides these short and detailed videos, you can also find [training courses](https://training.adobe.com/training/courses.html) as well as [presentation videos](https://www.adobe.com/training/video.html) on our website.
