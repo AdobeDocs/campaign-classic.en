@@ -129,7 +129,7 @@ By default, the statistics server listens on port 7777. This port can be modifie
 <stat port="1234"/>
 ```
 
-### MX configuration {#mx-configuration}
+## MX configuration {#mx-configuration}
 
 ### About MX rules {#about-mx-rules}
 

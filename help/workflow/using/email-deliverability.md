@@ -16,9 +16,9 @@ internal: n
 snippet: y
 ---
 
-# Email Deliverability{#email-deliverability}
+# Deliverability monitoring (Email Deliverability){#email-deliverability}
 
-The workflow detailed below is installed with the **Email Deliverability** module by default. For more on this module, refer to this [section](../../delivery/using/about-deliverability.md).
+The workflow detailed below is installed by default on all instances and lets you initialize the list of bounce mail qualification rules, the list of domains and the list of MXs. Once the **Deliverability monitoring (Email Deliverability)** package is installed, this workflow runs nightly. For more on Deliverability monitoring, refer to this [section](../../delivery/using/about-deliverability.md).
 
 <table> 
  <tbody> 
@@ -28,9 +28,9 @@ The workflow detailed below is installed with the **Email Deliverability** modul
    <td> <strong>Description</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Test network update for Inbox Rendering</strong><br /> </td> 
-   <td> <span class="uicontrol">updateRenderingSeeds</span> <br /> </td> 
-   <td> This workflow updates email addresses used for the Rendering Inbox and only works if the HTTPS port is open.<br /> </td> 
+   <td> <strong>Refresh for deliverability</strong><br /> </td> 
+   <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
+   <td>  Once the <strong>Deliverability monitoring (Email Deliverability)</strong> package is installed, this workflow runs nightly to regularly update the list of rules and allows to actively manage platform deliverability.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
