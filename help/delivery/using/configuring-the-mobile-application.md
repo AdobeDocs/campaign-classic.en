@@ -146,8 +146,6 @@ With iOS 10 or higher, it is possible to generate rich notifications. Adobe Camp
 
 You now need to create a new delivery and link it to the mobile application that you created.
 
-![](assets/nmac_rich_android_template.png)
-
 1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 
 1. Click **[!UICONTROL New]**.
@@ -158,18 +156,25 @@ You now need to create a new delivery and link it to the mobile application that
 
 1. Click **[!UICONTROL To]** to define the population to target. By default, the **[!UICONTROL Subscriber application]** target mapping is applied. Click **[!UICONTROL Add]** to select our previously created service.
 
-1. In the **[!UICONTROL Target type]** window, select Subscribers of an Android mobile application and click **[!UICONTROL Next]**.
+1. In the **[!UICONTROL Target type]** window, select **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]** and click **[!UICONTROL Next]**.
 
-1. In the **[!UICONTROL Service]** drop-down, select your previously created service and click **[!UICONTROL Finish]**.
+1. In the **[!UICONTROL Service]** drop-down, select your previously created service then the application you want to target and click **[!UICONTROL Finish]**.
     The **[!UICONTROL Application variables]** are automatically added depending on what was added during the configuration steps.
 
+   ![](assets/nmac_ios_6.png)
+
 1. Edit your rich notification.
+
+   ![](assets/nmac_ios_7.png)
 
 1. Check the **[!UICONTROL Mutable content]** box in the edit notification window to allow the mobile application to download media content.
 
 1. Click **[!UICONTROL Save]** and send your delivery.
 
-The image and web page should be displayed in the push notification when received on the subscribers' mobile Android devices.
+The image and web page should be displayed in the push notification when received on the subscribers' mobile iOS devices.
+
+   ![](assets/nmac_ios_8.png)
+
 
 ## Configuring the mobile application with Android {#configuring-the-mobile-application-android}
 
@@ -287,11 +292,17 @@ You now need to create a new delivery and link it to the mobile application that
 
 1. In the **[!UICONTROL Target type]** window, select Subscribers of an Android mobile application and click **[!UICONTROL Next]**.
 
-1. In the **[!UICONTROL Service]** drop-down, select your previously created service and click **[!UICONTROL Finish]**.
+1. In the **[!UICONTROL Service]** drop-down, select your previously created service and application and click **[!UICONTROL Finish]**.
     The **[!UICONTROL Application variables]** are automatically added depending on what was added during the configuration steps.
 
+    ![](assets/nmac_android_6.png)
+
 1. Edit your rich notification.
+
+    ![](assets/nmac_android_5.png)
 
 1. Click **[!UICONTROL Save]** and send your delivery.
 
 The image and web page should be displayed in the push notification when received on the subscribers' mobile Android devices.
+
+![](assets/nmac_android_4.png)
