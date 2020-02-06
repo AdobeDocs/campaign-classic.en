@@ -292,7 +292,7 @@ You now need to create a new delivery and link it to the mobile application that
 
 1. In the **[!UICONTROL Target type]** window, select Subscribers of an Android mobile application and click **[!UICONTROL Next]**.
 
-1. In the **[!UICONTROL Service]** drop-down, select your previously created service and application and click **[!UICONTROL Finish]**.
+1. In the **[!UICONTROL Service]** drop-down, select your previously created service then application and click **[!UICONTROL Finish]**.
     The **[!UICONTROL Application variables]** are automatically added depending on what was added during the configuration steps.
 
     ![](assets/nmac_android_6.png)
