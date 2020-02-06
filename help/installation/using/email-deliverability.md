@@ -24,7 +24,7 @@ The following section provides an overview of the configuration required for con
 
 >[!NOTE]
 >
->All technical recommendations concerning the efficient sending and receiving of messages by an Adobe Campaign platform are available in the **Deliverability** Technical Note.
+>All technical recommendations concerning the efficient sending and receiving of messages by an Adobe Campaign platform are available in the [Deliverability documentation](../../delivery/using/about-deliverability.md).
 >
 >Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).  
 >Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices related to deliverability.
