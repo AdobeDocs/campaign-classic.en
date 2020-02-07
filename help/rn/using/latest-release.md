@@ -46,13 +46,13 @@ _February 17, 2020_
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>XXXX</strong><br /> </th> 
+   <th> <strong>Snowflake FDA connector</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>XXXX</p>
-    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX</a>.</p>
+   <td> <p>Snowflake is a fully managed cloud data warehouse built to scale on both storage and compute level. With this new connector, Adobe Campaign can now leverage the power of Snowflake to perform Big Data Segmentation. In addition to on-premise customers, this connector is also available to hosted customers.</p>
+    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">detailed documentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -61,43 +61,13 @@ _February 17, 2020_
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>XXXX</strong><br /> </th> 
+   <th> <strong>Hadoop FDA Connector Enhancements</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>XXXX</p>
-    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX</a>.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>XXXX</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>XXXX</p>
-    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX</a>.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>XXXX</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>XXXX</p>
-    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX</a>.</p>
+   <td> <p>We've improved the Hadoop FDA connector to support Hadoop 3.0 as well as Cloudera.</p>
+    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">XXXX</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -109,7 +79,25 @@ _February 17, 2020_
 
 **Improvements**
 
-* XXXX
+* Push notification improvements: we have improved the quarantine management and the cleanup of the tables used by the push notification feature (nms:address and nms:appSubscriptionRcp). For iOS (HTTP2 connector only), disabled tokens are now handled in the same way as for Android. The disable flag is now set in the NmsAppSubscriptionRcp table.
+
+* iOS 13 is now supported with the HTTP2 connector.
+
+* A guardrail has been added when using JavaScript code in workflows. Campaign now waits one hour for the activity to execute before stopping the workflow. The limit time can be configured.
+
+* Delivery analysis is now stopped when the affinity is not defined on mid-sourcing side. When no matching affinity is found on mid-sourcing side, the delivery throws an error.
+
+* Postgres: we now support dabase failover for Postgres. When the database server crashes and restarts, Campaign now reconnects to it automatically.
+
+**Other changes**
+
+* Query performance has been improved.
+
+* The "Start Pending" view has been added to the Administration > Audit > Workflows Status node. This allows you to monitor all workflows on your instance that are waiting to be started by the operationMgt process. This view is available with the Marketing campaigns package. [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+
+* The email address validation rules in relation to soft bounces have been enhanced. [Read more](help/delivery/using/understanding-delivery-failures.md)
+
++ NEO-17958, NEO-18647?, NEO-13282? 
 
 **Patches**
 
