@@ -38,7 +38,9 @@ An **[!UICONTROL SQL code*]* activity executes an SQL script. The script is a JS
 
 >[!NOTE]
 >
->By default, the execution of **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** activities is stopped after 1 hour. You can change this option in the **[!UICONTROL Stop execution after]** field available in the activities' properties.
+>By default, the execution phase of **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** activities cannot exceed 1 hour. After this delay, the process will be aborted with an error message and the activity execution will fail.
+>
+>You can change this delay in the **[!UICONTROL Stop execution after]** field available in the activities' properties.
 
 * **[!UICONTROL JavaScript code]**
 
