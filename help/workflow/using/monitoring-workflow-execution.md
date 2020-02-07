@@ -264,10 +264,6 @@ The following views are available:
 * **[!UICONTROL Failed]**: lists all failed workflows.
 * **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the operationMgt process. This view is available with the **Marketing campaigns** package only (see [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md)).
 
-   >[!NOTE]
-   >
-   >Pending worklows can also be displayed using the prefedefined filter available in all workflow-type folders.
-
 ![](assets/workflow-monitoring-views.png)
 
 By default, these views are accessible in the **[!UICONTROL Audit]** folder. However, you can recreate them at the location of your choice in the folders tree. This way, they will be available to standard users with no administration right.
@@ -290,4 +286,3 @@ For more information, refer to these sections:
 
 * [Creating advanced filters](../../platform/using/creating-filters.md#creating-an-advanced-filter)
 * [Saving filters](../../platform/using/creating-filters.md#saving-a-filter)
-
