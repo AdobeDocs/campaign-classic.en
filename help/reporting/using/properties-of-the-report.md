@@ -82,7 +82,7 @@ Web form properties are detailed in [this page](../../web/using/about-web-forms.
 
 ## Defining additional settings {#defining-additional-settings}
 
-The **[!UICONTROL Settings]** tab lets you create additional settings for the report: these settings will be passed into the URL during the call up.
+The **[!UICONTROL Parameters]** tab lets you create additional settings for the report: these settings will be passed into the URL during the call up.
 
 Web form properties are detailed in [this page](../../web/using/about-web-forms.md).
 
@@ -106,6 +106,13 @@ To create a new setting:
    The data is recovered directly at the entity level: **ctx/recipient/@account**.
 
    The **[!UICONTROL Variable]** option lets you create or select a variable which will be passed as a parameter of the URL and can be used in the filters.
+
+The **[!UICONTROL Response HTTP headers]** allows you prevent clickjacking, which can trick users into clicking a webpage element which is invisible or disguised as another element. To avoid clickjacking, you can choose the **[!UICONTROL X-Frame-options header]** behaviour:
+
+* **[!UICONTROL None]**: Set by default for existing reports. The report will have no **[!UICONTROL X-Frame-options header]**.
+* **[!UICONTROL Allow from URL]**: 
+* **[!UICONTROL Same as origin]**:
+* **[!UICONTROL Deny]**:
 
 ## Adding variables {#adding-variables}
 
