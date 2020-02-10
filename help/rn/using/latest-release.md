@@ -46,12 +46,12 @@ _February 17, 2020_
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Snowflake FDA connector</strong><br /> </th> 
+   <th> <strong>Snowflake FDA Connector</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Snowflake is a fully managed cloud data warehouse built to scale on both storage and compute level. With this new connector, Adobe Campaign can now leverage the power of Snowflake to perform Big Data Segmentation. In addition to on-premise customers, this connector is also available to hosted customers.</p>
+   <td> <p>Snowflake is a fully managed cloud data warehouse built to scale on both storage and compute level. With this new connector, Adobe Campaign can now leverage the power of Snowflake to perform Big Data Segmentation. This connector is available to all customers, including hosted by Adobe.</p>
     <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">detailed documentation</a>.</p>
    </td> 
   </tr> 
@@ -66,7 +66,7 @@ _February 17, 2020_
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>We've improved the Hadoop FDA connector to support Hadoop 3.0 as well as Cloudera.</p>
+   <td> <p>The Hadoop FDA Connector has been improved to support Hadoop 3.0 as well as Cloudera.</p>
     <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">XXXX</a>.</p>
    </td> 
   </tr> 
@@ -75,30 +75,30 @@ _February 17, 2020_
 
 **Security enhancements**
 
-* Improved security in report configuration to protect from clickjacking. This applies to new reports. For old reports, you need to republish them to apply the change.
+* Improved security in report configuration to protect from clickjacking. This applies to new reports. For old reports, you need to republish them to apply changes.
 
 **Improvements**
 
 * iOS 13 is now supported with the HTTP2 connector.
 
-* We have improved the quarantine management and the cleanup of the tables used by the push notification feature (nms:address and nms:appSubscriptionRcp). For iOS (HTTP2 connector only), disabled tokens are now handled in the same way as for Android. The disable flag is now set in the NmsAppSubscriptionRcp table.
+* Improved quarantine management and cleanup of the tables used by the push notification feature (nms:address and nms:appSubscriptionRcp). For iOS (HTTP2 connector only), disabled tokens are now handled in the same way as for Android. The disable flag is now set in the NmsAppSubscriptionRcp table.
 
 * A new option has been added in the **JavaScript code** and **Advanced JavaScript code** workflow activities to define a time-out period. This prevents the javascript execution phase from running for too long. If the time-out period elapses, the workflow is stopped. The default time-out is 1 hour.
 
 * The delivery analysis is now stopped when no matching affinity is found on the mid-sourcing server, with the corresponding error message being displayed.
 
-* We now support database failover for Postgres. When the database server crashes and restarts, Campaign now reconnects to it automatically.
+* Database failover for Postgres is now supported: when the database server crashes and restarts, Campaign now reconnects to it automatically.
 
 **Other changes**
 
-* The most consuming custom tables have been moved from the xtkNewId sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence) 
+* The most consuming custom tables have been moved from the **xtkNewId** sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence) 
 
 * Improved query performance which could be affected by unnecessary database connections.
 
-* The "Start Pending" view has been added to the Administration > Audit > Workflows Status node. This allows you to monitor all workflows on your instance that are waiting to be started by the operationMgt process. This view is available with the Marketing campaigns package. [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+* The **Start Pending** view has been added to the Administration > Audit > Workflows Status node. This allows you to monitor all workflows on your instance that are waiting to be started by the **operationMgt** process. This view comes with the Marketing campaigns package. [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
 * The email address validation rules in relation to soft bounces have been enhanced. [Read more](help/delivery/using/understanding-delivery-failures.md)
 
 **Patches**
 
-* XXXX
+* XXX
