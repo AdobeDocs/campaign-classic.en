@@ -91,6 +91,8 @@ _February 17, 2020_
 
 **Other changes**
 
+* Lifespan - XtkNewId sequence usage optimization: the most consuming custom tables have been moved from the xtkNewId sequence to dedicated sequences.
+
 * Improved query performance which could be affected by unnecessary database connections.
 
 * The "Start Pending" view has been added to the Administration > Audit > Workflows Status node. This allows you to monitor all workflows on your instance that are waiting to be started by the operationMgt process. This view is available with the Marketing campaigns package. [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
