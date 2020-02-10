@@ -26,7 +26,7 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 **New capabilities included in the release**
 
-Snowflake FDA connector - [Read more](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)
+Snowflake FDA Connector - [Read more](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)
 
 Hadoop FDA Connector Enhancements - [Read more](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3)
 
