@@ -22,6 +22,18 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## 20.1 - 17/02/2019{#release-20-1}
+
+**New capabilities included in the release**
+
+Snowflake FDA connector - [Read more](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)
+
+Hadoop FDA Connector Enhancements - [Read more](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3)
+
+**Other documentation updates coming with the release**
+
+XX
+
 ## January 2020 {#january-2020}
 
 The Deliverability section has been moved, reorganized, and enhanced with updated content. [Read more](../../delivery/using/about-deliverability.md)
