@@ -79,19 +79,19 @@ _February 17, 2020_
 
 **Improvements**
 
-* Push notification improvements: we have improved the quarantine management and the cleanup of the tables used by the push notification feature (nms:address and nms:appSubscriptionRcp). For iOS (HTTP2 connector only), disabled tokens are now handled in the same way as for Android. The disable flag is now set in the NmsAppSubscriptionRcp table.
-
 * iOS 13 is now supported with the HTTP2 connector.
+
+* We have improved the quarantine management and the cleanup of the tables used by the push notification feature (nms:address and nms:appSubscriptionRcp). For iOS (HTTP2 connector only), disabled tokens are now handled in the same way as for Android. The disable flag is now set in the NmsAppSubscriptionRcp table.
 
 * A new option has been added in the **JavaScript code** and **Advanced JavaScript code** workflow activities to define a time-out period. This prevents the javascript execution phase from running for too long. If the time-out period elapses, the workflow is stopped. The default time-out is 1 hour.
 
 * The delivery analysis is now stopped when no matching affinity is found on the mid-sourcing server, with the corresponding error message being displayed.
 
-* Postgres: we now support database failover for Postgres. When the database server crashes and restarts, Campaign now reconnects to it automatically.
+* We now support database failover for Postgres. When the database server crashes and restarts, Campaign now reconnects to it automatically.
 
 **Other changes**
 
-* Lifespan - XtkNewId sequence usage optimization: the most consuming custom tables have been moved from the xtkNewId sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence) 
+* The most consuming custom tables have been moved from the xtkNewId sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence) 
 
 * Improved query performance which could be affected by unnecessary database connections.
 
