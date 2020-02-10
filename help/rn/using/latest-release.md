@@ -87,7 +87,7 @@ _February 17, 2020_
 
 * The delivery analysis is now stopped when no matching affinity is found on the mid-sourcing server, with the corresponding error message being displayed.
 
-* Postgres: we now support dabase failover for Postgres. When the database server crashes and restarts, Campaign now reconnects to it automatically.
+* Postgres: we now support database failover for Postgres. When the database server crashes and restarts, Campaign now reconnects to it automatically.
 
 **Other changes**
 
