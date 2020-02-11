@@ -32,7 +32,7 @@ An **[!UICONTROL SQL code*]* activity executes an SQL script. The script is a JS
 
   Refer to [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
-## JavaScript code and Advanced JavaScript code {javascript-code}
+## JavaScript code and Advanced JavaScript code {#javascript-code}
 
 **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** activities execute a JavaScript script in the context of a workflow. For more on scripting, refer to the [JavaScript scripts and templates](../../workflow/using/javascript-scripts-and-templates.md) section.
 
@@ -57,4 +57,3 @@ An **[!UICONTROL SQL code*]* activity executes an SQL script. The script is a JS
     * **[!UICONTROL Next calls]**: The second zone of the editor contains the script to execute during the next calls.
     * **[!UICONTROL Transitions]**: You can define several activity output transitions.
     * **[!UICONTROL Schedule]**: The **[!UICONTROL Schedule]** tab lets you schedule when to trigger the activity.
-
