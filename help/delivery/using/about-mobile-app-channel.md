@@ -47,7 +47,7 @@ You can define the application behavior for when the user activates the notifica
 
 >[!CAUTION]
 >
->* You need to make sure the notifications sent to a mobile application are compliant with the prerequisites and conditions specified by Apple (Apple Push Notification Service) and Google (Google Cloud Messaging).
+>* You need to make sure the notifications sent to a mobile application are compliant with the prerequisites and conditions specified by Apple (Apple Push Notification Service) and Google (Firebase Cloud Messaging).
 >* Warning: in some countries, the law requires that you inform users of your collected data type mobile applications and the purpose of their processing. You must check the legislation.
 
 The **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) workflow updates notification unsubscriptions on mobile devices. For more information on this workflow, refer to the [Workflows guide](../../workflow/using/mobile-app-channel.md).
