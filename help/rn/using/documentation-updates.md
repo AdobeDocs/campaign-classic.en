@@ -22,6 +22,16 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## 20.1 - xx/02/2020{#release-20-1}
+
+**New capabilities included in the release**
+
+**Other documentation updates coming with the release**
+
+Information has been added on the new option that allows you to define a time-out period for the **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** workflow activities. [Read more](../../workflow/using/sql-code-and-javascript-code.md)
+
+Information has been added on the new **[!UICONTROL Start Pending]** view available in the **[!UICONTROL Administration]** > **[!UICONTROL Audit]** > **[!UICONTROL Workflows Status]** node. [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+
 ## February 2020 {#february-2020}
 
 AMP for Email being now supported by three email providers (Gmail, Outlook and Mail.ru), the section describing how to define interactive content with AMP has been updated. [Read more](../../delivery/using/defining-interactive-content.md)
