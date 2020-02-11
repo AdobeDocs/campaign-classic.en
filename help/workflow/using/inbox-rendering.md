@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Inbox rendering{#inbox-rendering}
+# Inbox rendering (IR){#inbox-rendering}
 
 The workflow detailed below is installed with the **Inbox rendering (IR)** module by default. For more on Inbox rendering, refer to this [section](../../delivery/using/inbox-rendering.md).
 
@@ -26,7 +26,7 @@ The workflow detailed below is installed with the **Inbox rendering (IR)** modul
    <td> <strong>Description</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Update test network for Inbox Rendering</strong><br /> </td> 
+   <td> <strong>Update seed network for Inbox Rendering</strong><br /> </td> 
    <td> <span class="uicontrol">updateRenderingSeeds</span> <br /> </td> 
    <td> This workflow updates email addresses used for Inbox rendering and only works if the HTTPS port is open for <strong>deliverability.neolane.net</strong>.<br /> </td> 
   </tr> 

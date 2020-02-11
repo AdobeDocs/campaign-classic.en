@@ -74,6 +74,12 @@ DKIM comes from a combination of the DomainKeys, Yahoo! and Cisco Identified Int
 
 DKIM replaced **DomainKeys** authentication.
 
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, DKIM email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the **[!UICONTROL Domain management]** table as part of the Enhanced MTA upgrade.
+>
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
 Using DKIM requires some prerequisites:
 
 * **Security**: encryption is a key element of the DKIM and to insure the security level of the DKIM since the spring 2013, 1024b is the Best Practices recommended encryption size. Lower DKIM keys will not be considered as valid by the majority of access providers.
