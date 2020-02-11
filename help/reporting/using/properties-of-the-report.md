@@ -107,12 +107,12 @@ To create a new setting:
 
    The **[!UICONTROL Variable]** option lets you create or select a variable which will be passed as a parameter of the URL and can be used in the filters.
 
-The **[!UICONTROL Response HTTP headers]** allows you prevent clickjacking, which can trick users into clicking a webpage element which is invisible or disguised as another element. To avoid clickjacking, you can choose the **[!UICONTROL X-Frame-options header]** behaviour:
+The **[!UICONTROL Response HTTP headers]** allows you to prevent clickjacking when using iframe. To avoid this, you can choose the **[!UICONTROL X-Frame-options header]** behaviour:
 
-* **[!UICONTROL None]**: Set by default for existing reports. The report will have no **[!UICONTROL X-Frame-options header]**.
-* **[!UICONTROL Allow from URL]**: 
-* **[!UICONTROL Same as origin]**:
-* **[!UICONTROL Deny]**:
+* **[!UICONTROL None]**: The report will have no **[!UICONTROL X-Frame-options header]**.
+* **[!UICONTROL Allow from URL]**: Allows you to autorize specific URL or URL type.
+* **[!UICONTROL Same as origin]**: Set by default for new reports and republished reports. The hostname will be the same as the report's URL.
+* **[!UICONTROL Deny]**: H
 
 ## Adding variables {#adding-variables}
 
