@@ -255,26 +255,23 @@ Workflow supervisors are notified. The creator and last user who modified the wo
 
 ## Filtering workflows according to their status {#filtering-workflows-status}
 
-Campaign Classic interface allows you to monitor the execution status of all workflows on your instance using predefined **views**. To access these views, open the **Administration** / **Audit** / **Workflows Status** node.
+Campaign Classic interface allows you to monitor the execution status of all workflows on your instance using predefined **views**. To access these views, open the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]** node.
 
 The following views are available:
 
-* **Running**: lists all running workflows.
-* **Paused**: lists all paused workflows.
-* **Failed**: lists all failed workflows.
-
-<!--Start Pending: lists all workflows that are waiting to be started by the operationMgt process.-->
+* **[!UICONTROL Running]**: lists all running workflows.
+* **[!UICONTROL Paused]**: lists all paused workflows.
+* **[!UICONTROL Failed]**: lists all failed workflows.
+* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the operationMgt process. This view is available with the **Marketing campaigns** package only (see [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md)).
 
 ![](assets/workflow-monitoring-views.png)
 
-<!--The Start Pending view is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
-
-By default, these views are accessible in the **Audit** folder. However, you can recreate them at the location of your choice in the folders tree. This way, they will be available to standard users with no administration right.
+By default, these views are accessible in the **[!UICONTROL Audit]** folder. However, you can recreate them at the location of your choice in the folders tree. This way, they will be available to standard users with no administration right.
 
 To do this:
 
 1. Right-click on the folder where you want to add the view.
-1. In **Add new folder** / **Administration**, select the view that you want to add.
+1. In **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, select the view that you want to add.
 1. Once the folder is added to the tree, make sure you configure it as a view, so that it displays all workflows, whatever their origin folder is.For more on how to configure views, refer to [this section](../../platform/using/access-management.md#adding-folders-and-creating-views).
 
 Additionally to these views, you can set up filters folders that will allow you to filter the list of workflows according to their execution status. To do this:
@@ -289,6 +286,3 @@ For more information, refer to these sections:
 
 * [Creating advanced filters](../../platform/using/creating-filters.md#creating-an-advanced-filter)
 * [Saving filters](../../platform/using/creating-filters.md#saving-a-filter)
-
-<!-- need to check if pending status filter will be implemented or not in january release, note, Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the operationMgt process only.This filter is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
-
