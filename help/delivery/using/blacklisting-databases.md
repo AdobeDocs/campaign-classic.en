@@ -28,34 +28,34 @@ These databases are called RBLs (Real-time Blackhole Lists) and they are consult
 
 The following is a list of the most widely used RBLs. For a more comprehensive list, you can refer to [https://www.declude.com/Articles.asp?ID=97](https://www.declude.com/Articles.asp?ID=97) or [https://www.dnsstuff.com/](https://www.dnsstuff.com/) ("IP Tools" section, "Spam Database Lookup" form).
 
-* Spamhaus
+* **Spamhaus**
 
   Refer to [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
   The database is more important. Being classified on this list is generally a serious situation. If this happens, you must act IMMEDIATELY and warn commercial services, deliverability, and Adobe Campaign support. 
 
-* SpamCop
+* **SpamCop**
 
   Refer to [https://www.spamcop.net/](https://www.spamcop.net/)
 
   It is one of the most renowned databases. If one of your IP addresses is placed on this list, this generally means that the SpamCop users have declared your messages as being Spam or that you have sent messages to a SpamCop honeypot.
-
-* SORBS
-
-  [https://www.nl.sorbs.net](https://www.nl.sorbs.net) compiles a list of IP addresses that are reputed to be dynamic IP address (i.e. attributed temporarily to ISP subscribers) or "open relay" addresses. Certain domains check whether the IP address of a sender is not listed on this site before accepting email. Checking the IP addresses on this site can prove useful.
-
-* URIBL
+    
+* **URIBL**
 
   Refer to [https://www.uribl.com/](https://www.uribl.com/)
 
   This list identifies the domains that regularly appear in messages declared as spam. If your domain appears on this list, it can significantly affect your deliverability. You should inform the deliverability services and Adobe Campaign support immediately.
 
-* iX Manitu
-
-  This is a list of IPs and is widely used in Germany. Refer to [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
-
-* SURBL
+* **SURBL**
 
   Refer to [https://www.surbl.org/](https://www.surbl.org/)
 
   SURBL identifies the websites that regularly appear in spam. If your domain appears on this list, it can significantly affect your deliverability. You should inform the deliverability services and Adobe Campaign support immediately.
+
+* **iX Manitu**
+
+  This is a list of IPs and is widely used in Germany. Refer to [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
+
+<!--* SORBS
+
+  [https://www.nl.sorbs.net](https://www.nl.sorbs.net) compiles a list of IP addresses that are reputed to be dynamic IP address (i.e. attributed temporarily to ISP subscribers) or "open relay" addresses. Certain domains check whether the IP address of a sender is not listed on this site before accepting email. Checking the IP addresses on this site can prove useful.-->

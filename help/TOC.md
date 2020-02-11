@@ -10,20 +10,30 @@ sub-product: adobe campaign classic
 # Adobe Campaign Classic Help {#using}
 
 + [Product documentation](campaign-classic-home.md)
-+ [Latest Updates](rn/using/documentation-updates.md)
++ [Latest updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
-  + [Release 19.2](rn/using/latest-release.md)
-  + [Release 19.1](rn/using/release--19-1.md)
-  + [Release 18.10](rn/using/release--18-10.md)
-  + [Release 18.6](rn/using/release--18-6.md)
-  + [Release 18.4](rn/using/release--18-4.md)
+  + [Latest Release](rn/using/latest-release.md)
+  + Previous Releases {#previous-releases}
+    + [Release 19.1](rn/using/release--19-1.md)
+    + [Release 18.10](rn/using/release--18-10.md)
+    + [Release 18.6](rn/using/release--18-6.md)
+    + [Release 18.4](rn/using/release--18-4.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
        + [Privacy and recommendations](platform/using/privacy-and-recommendations.md)
        + [Launching Adobe Campaign](platform/using/launching-adobe-campaign.md)
        + [Adobe Campaign workspace](platform/using/adobe-campaign-workspace.md)
-       + [Common questions](platform/using/common-questions.md)
+       + FAQ {#faq}
+          + [Common questions](platform/using/common-questions.md)
+          + [Key concepts](platform/using/faq-key-concepts.md)
+          + [Audiences](platform/using/faq-audiences.md)
+          + [Design messages](platform/using/faq-designing.md)
+          + [Send messages](platform/using/faq-messages.md)
+          + [Workflows](platform/using/faq-workflows.md)
+          + [Configuration](platform/using/faq-campaign-config.md)
+          + [Reports](platform/using/faq-reporting.md)
+          + [Development](platform/using/faq-developers.md)
        + [Tutorials](platform/using/tutorials.md)
   + Profile management {#profile-management}
        + [About profiles](platform/using/about-profiles.md)
@@ -123,13 +133,15 @@ sub-product: adobe campaign classic
        + [Testing tracking](delivery/using/testing-tracking.md)
   + Deliverability management {#deliverability-management}
        + [About deliverability](delivery/using/about-deliverability.md)
-       + [Implementation](delivery/using/implementation.md)
-       + [Configuration](delivery/using/configuration.md)
+       + [Key points to check](delivery/using/deliverability-key-points.md)
+       + [Starting a new platform](delivery/using/starting-new-platform.md)
+       + [Control message content](delivery/using/control-message-content.md)
+       + [Improve your reputation](delivery/using/improve-reputation.md)
+       + [Re-engagement best practices](delivery/using/re-engagement-best-practices.md)
+       + [Technical recommendations](delivery/using/technical-recommendations.md)
        + [Technical monitoring](delivery/using/technical-monitoring.md)
-       + [Inbox monitoring](delivery/using/inbox-monitoring.md)
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
-       + [Technical recommendations](delivery/using/technical-recommendations.md)
        + [Blacklisting databases](delivery/using/blacklisting-databases.md)
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
@@ -183,18 +195,22 @@ sub-product: adobe campaign classic
        + [Hypothesis tracking](campaign/using/hypothesis-tracking.md)
 + Reporting {#reporting}
   + Reporting in Adobe Campaign {#reporting-in-adobe-campaign}
-       + [About Adobe Campaign reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
-       + [Analyzing needs](reporting/using/analyzing-needs.md)
-       + [Optimizing report creation](reporting/using/optimizing-report-creation.md)
+       + [Get started with reporting](reporting/using/about-adobe-campaign-reporting-tools.md)
+       + [Best practices for reporting](reporting/using/best-practices.md)
   + Accessing built-in reports {#accessing-built-in-reports}
        + [About Campaign built-in reports](reporting/using/about-campaign-built-in-reports.md)
-       + [Accessing reports](reporting/using/accessing-reports.md)
        + [List of reports](reporting/using/list-of-reports.md)
-       + [Reports on deliveries](reporting/using/reports-on-deliveries.md)
+  + Reports on deliveries{#reports-on-deliveries}
+       + [About reports on deliveries](reporting/using/reports-on-deliveries.md) 
+       + [Global reports](reporting/using/global-reports.md)
+       + [Delivery reports](reporting/using/delivery-reports.md)
+       + [Cumulative reports](reporting/using/cumulative-reports.md)
+       + [Indicator calculation](reporting/using/indicator-calculation.md)
+       + [Person/people and recipients](reporting/using/person-people-recipients.md)
   + Analyzing populations {#analyzing-populations}
        + [About descriptive analysis](reporting/using/about-descriptive-analysis.md)
        + [Using the descriptive analysis wizard](reporting/using/using-the-descriptive-analysis-wizard.md)
-       + [Processing a report](reporting/using/processing-a-report.md)
+       + [Using an analysis report](reporting/using/processing-a-report.md)
        + [Use cases](reporting/using/use-cases.md)
   + Creating new reports {#creating-new-reports}
        + [About reports creation in Campaign](reporting/using/about-reports-creation-in-campaign.md)
@@ -347,8 +363,6 @@ sub-product: adobe campaign classic
        + [SQL code and JavaScript code](workflow/using/sql-code-and-javascript-code.md)
        + [SQL Data Management](workflow/using/sql-data-management.md)
        + [Nlserver module](workflow/using/nlserver-module.md)
-       + [Import and Export (v4 compatibility)](workflow/using/import-and-export--v4-compatibility-.md)
-       + [Microsoft CRM, Salesforce, Oracle CRM On Demand](workflow/using/microsoft-crm--salesforce--oracle-crm-on-demand.md)
        + [Update aggregate](workflow/using/update-aggregate.md)
   + Event activities {#event-activities}
        + [About event activities](workflow/using/about-event-activities.md)
@@ -399,7 +413,8 @@ sub-product: adobe campaign classic
        + [Campaign](workflow/using/campaign.md)
        + [Web Analytics](workflow/using/web-analytics.md)
        + [Distributed Marketing](workflow/using/distributed-marketing.md)
-       + [Email Deliverability](workflow/using/email-deliverability.md)
+       + [Deliverability monitoring](workflow/using/email-deliverability.md)
+       + [Inbox rendering](workflow/using/inbox-rendering.md)
        + [Interaction](workflow/using/interaction.md)
        + [Control of offer engine](workflow/using/control-of-offer-engine.md)
        + [Message Center (Control)](workflow/using/message-center--control-.md)
@@ -615,6 +630,12 @@ sub-product: adobe campaign classic
        + [Lost password](production/using/lost-password.md)
        + [JSP behavior](production/using/jsp-behavior.md)
 + Configuring Campaign Classic {#configuring-campaign-classic}
+  + Data model {#data-model}
+       + [About the data model](configuration/using/about-data-model.md)
+       + [Using the default Recipient table](configuration/using/default-recipient-table.md)
+       + [Extending the data model](configuration/using/extending-data-model.md)
+       + [Using a custom recipient table](configuration/using/custom-recipient-table.md)
+       + [Best practices](configuration/using/data-model-best-practices.md)
   + Schema Reference {#schema-reference}
        + [About schema reference](configuration/using/about-schema-reference.md)
        + [Schema structure](configuration/using/schema-structure.md)

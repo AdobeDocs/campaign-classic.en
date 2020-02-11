@@ -22,15 +22,29 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## February 2020 {#february-2020}
+
+AMP for Email being now supported by three email providers (Gmail, Outlook and Mail.ru), the section describing how to define interactive content with AMP has been updated. [Read more](../../delivery/using/defining-interactive-content.md)
+
 ## January 2020 {#january-2020}
+
+The Deliverability section has been moved, reorganized, and enhanced with updated content. [Read more](../../delivery/using/about-deliverability.md)
+
+A new section describing the Adobe Campaign Classic data model basics and how to access the description of each table is now available. [Read more](../../configuration/using/about-data-model.md)
+
+The Adobe Campaign Enhanced MTA article has been updated with more detailed information on installing a specific Typology package on instances that do not add the required Enhanced MTA headers to every message. [Read more](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html#impacts)
 
 The use cases related to query designing have been reorganized into separate sections. [Read more](../../workflow/using/querying-recipient-table.md)
 
-The 'Tips and tricks on managing offers and using the Interaction module in Adobe Campaign Classic' documentation has been updated and moved to core documentation. [Read more](../../interaction/using/interaction-best-practices.md#tips-managing-offers)
+A new section about tips and tricks on managing offers and using the Interaction module in Adobe Campaign Classic is now available. [Read more](../../interaction/using/interaction-best-practices.md#tips-managing-offers)
 
 The Interaction documentation has been enriched with links to several videos that help understand better how to manage offers. [Read more](../../interaction/using/interaction-and-offer-management.md)
 
 The best practices article on how to optimize the queries running on your instance has been integrated into the documentation. [Read more](../../workflow/using/query.md#optimizing-queries)
+
+Reporting guide has been updated and reorganized. [Read more](../../reporting/using/about-adobe-campaign-reporting-tools.md)
+
+An example of how to use an instance variable in a workflow has been added. [Read more](../../workflow/using/javascript-scripts-and-templates.md)
 
 ## December 2019 {#december-2019}
 
@@ -102,7 +116,7 @@ A recommendation has been added to the SMS channel documentation to avoid issues
 
 Information was added in the Scheduler activity documentation on how to prevent simultaneous executions of a workflow. [Read more](../../workflow/using/scheduler.md)
 
-The steps to configure Inbox rendering for on-premise installations have been added to documentation. [Read more](../../delivery/using/inbox-rendering.md#activating-inbox-rendering-on-prem)
+The steps to configure Inbox rendering for on-premise installations have been added to documentation. [Read more](../../delivery/using/inbox-rendering.md#activating-inbox-rendering)
 
 ## September 2019 {#september-2019}
 
@@ -225,7 +239,7 @@ The "Workflow monitoring" section has been updated with a note for builds betwee
 
 Added a use case on how to send an email with custom data fields using the Enrichment activity in a workflow. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Email_enrichment_with_custom_date_fields.html)
 
-Feature videos have been moved [here](https://helpx.adobe.com/campaign/kt/acc/index/acc-videos.html).
+Feature videos have been moved [here](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html).
 
 Two technotes have been added on [Teradata](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) and [MySQL 5.7](https://helpx.adobe.com/campaign/kb/campaign_fda_mysql.html).
 

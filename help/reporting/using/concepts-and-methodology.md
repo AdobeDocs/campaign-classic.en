@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Concepts and methodology{#concepts-and-methodology}
+# Best practices for cubes{#concepts-and-methodology}
 
 ## Data binning {#data-binning}
 
