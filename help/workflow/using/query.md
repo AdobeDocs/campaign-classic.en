@@ -108,7 +108,7 @@ To add a collection of information linked to a targeted population:
 
     * If a single element of the collection coincides with the filtering conditions for this collection, select **[!UICONTROL Single row]** in the **[!UICONTROL Data collected]** field.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >This mode optimizes the SQL query generated thanks to a direct juncture on the collection elements.  
       >
