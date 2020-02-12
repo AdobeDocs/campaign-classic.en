@@ -81,7 +81,7 @@ _February 17, 2020_
 
 * Improved monitor JSP to fix an internal IP disclosure. (NEO-16821)
 
-* Fixed an issue where stack trace information could be displayed to non admin users.
+* Fixed an issue where stack trace information could be displayed to non admin users. (NEO-12388)
 
 * Improved the management of cached data from previous sessions. (NEO-17039)
 
@@ -115,7 +115,7 @@ _February 17, 2020_
 
 * The database record management was enhanced.
 
-* A timeout has been added to the LINE servlet when opening a connection to load a rich image. If the image is taking to much time to load, the servlet stops the connextion to avoid a bottleneck.
+* A timeout has been added to the LINE servlet when opening a connection to load a rich image. If the image is taking too much time to load, the servlet stops the connection to avoid a bottleneck.
 
 * Improved the performance of the database update wizard.
 
@@ -135,7 +135,7 @@ _February 17, 2020_
 
 * Fixed a footer display issue when using the acquisition web form template.
 
-* Fixed an issue when parsing the URLs in the content of continuous deliveries which could cause them to crash.
+* Fixed an issue when parsing the URLs in the content of continuous deliveries which could cause them to crash. (NEO-16910)
 
 * Fixed an issue with the **Start** and **End** fields not being computed when creating a new campaign.
 
@@ -147,15 +147,15 @@ _February 17, 2020_
 
 * The network communication between the client and the server has been improved.
 
-* Fixed an issue when too many workflows are created in the same campaign. Now you can not create more than 28 workflows. A warning is displayed.
+* Fixed an issue when too many workflows are created in the same campaign. Now, you cannot create more than 28 workflows. A warning is displayed.
 
-* Fixed an issue when using the **A selection of columns* reconciliation option in a **Union** worklow activitiy.
+* Fixed an issue when using the **A selection of columns* reconciliation option in a **Union** workflow activity.
 
 * Fixed a console crash issue that could occur when using a corrupted enrichment list in a workflow. (NEO-18096)
 
 * Fixed various console crash issues that could occur in workflows (NEO-18010, NEO-18032)
 
-* Fixed an issue which allowed the execution of an **External signal** workflow activity even when it was disabled. 
+* Fixed an issue which allowed the execution of an **External signal** workflow activity even when it was disabled. (NEO-17524)
 
 * Fixed an issue when creating a new schema.
 
