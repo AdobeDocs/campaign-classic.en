@@ -37,7 +37,7 @@ snippet: y
 
 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032) to view the **last stable build** (GA).
 
-## ![](assets/blue2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
+## ![](assets/blue-2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
 
 _February 07, 2020_
 
@@ -46,7 +46,7 @@ _February 07, 2020_
 * Fixed a regression issue due to the implementation of SSL certification which caused the user connection to fail on Windows server. (NEO-20629)
 * Fixed an issue which displayed an incorrect version tag number in the **About** menu.
 
-## ![](assets/orange2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080}
+## ![](assets/orange-2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080}
 
 _December 02, 2019_
 
