@@ -81,6 +81,8 @@ The following information is available in Adobe Campaign:
 * Android only: number of devices that have displayed the notification (impressions)
 * Android and iOS: number of clicks on the notification
 
+![](assets/nmac_delivery_view.png)
+
 The Adobe Campaign server must be able to contact the APNS server on the following ports:
 
 * 2195 (sending) and 2186 (feedback service) for iOS binary connector
