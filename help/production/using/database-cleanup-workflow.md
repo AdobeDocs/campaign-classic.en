@@ -573,6 +573,26 @@ This task cleanses orphan simulation tables (that are no longer linked to an off
    DROP TABLE wkSimu_456831_aggr
    ```
 
+### Cleanup of Audit trail {#cleanup-of-audit-trail}
+
+The following query is used:
+
+```
+DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
+```
+
+where **$(tsDate)** is the current server date from which the period defined for the **XtkCleanup_AuditTrailPurgeDelay** option is substracted.
+
+### Cleanup of Nmsaddress {#cleanup-of-nmsaddress}
+
+The following query is used:
+
+```
+DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WHERE iStatus=STATUS_QUARANTINE AND tsLastModified < $(NmsCleanup_AppSubscriptionRcpPurgeDelay + 5d) AND iType IN (MESSAGETYPE_IOS, MESSAGETYPE_ANDROID ) LIMIT 5000)
+```
+
+This query deletes all entries related to iOS and Android.
+
 ### Statistics update and storage optimization {#statistics-update}
 
 The **XtkCleanup_NoStats** option allows you to control the behavior of the storage optimization step of the cleanup workflow.
@@ -587,13 +607,15 @@ If the value of the option is 2, this will execute the storage analysis in verbo
 
 This task deletes any subscriptions related to deleted services or mobile applications.
 
-1. To recover the list of broadlog schemas, the following query is used:
+To recover the list of broadlog schemas, the following query is used:
 
    ```
    SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL
    ```
 
-1. The task then recovers the names of the tables linked to the **appSubscription** link and deletes these tables.
+The task then recovers the names of the tables linked to the **appSubscription** link and deletes these tables.
+
+This cleanup workflow also deletes all entries where idisabled = 1 that have not been updated since the time set in the **NmsCleanup_AppSubscriptionRcpPurgeDelay** option.
 
 ### Cleansing session information {#cleansing-session-information}
 
@@ -610,13 +632,3 @@ This task cleanses the events received and stored on the execution instances and
 ### Cleansing reactions {#cleansing-reactions}
 
 This task cleanses the reactions (table **NmsRemaMatchRcp**) in which the hypotheses have themselves been deleted.
-
-### Cleanup of Audit trail {#cleanup-of-audit-trail}
-
-The following query is used:
-
-```
-DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
-```
-
-where **$(tsDate)** is the current server date from which the period defined for the **XtkCleanup_AuditTrailPurgeDelay** option is substracted.
