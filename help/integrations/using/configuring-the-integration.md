@@ -119,7 +119,7 @@ Follow the steps below to start the configuration in Adobe Experience Manager:
 
 1. Configure the **replication** to replicate from the AEM authoring instance to the AEM publishing instance.
 
-   To learn how to configure replication, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/replication.html).
+   To learn how to configure replication, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/replication.html).
 
 1. Install the integration **FeaturePack** on your authoring instance then replicate the installation on your publishing instance. (For AEM versions 5.6.1 and 6.0 only).
 
@@ -127,9 +127,9 @@ Follow the steps below to start the configuration in Adobe Experience Manager:
 
 1. Connect Adobe Experience Manager to Adobe Campaign by configuring a dedicated **Cloud Service**.
 
-   To learn how to connect both solutions via Cloud Services, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) .
+   To learn how to connect both solutions via Cloud Services, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) .
 
 1. Configure the **Externalizer service**.
 
-   To learn how to configure it, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/externalizer.html).
+   To learn how to configure it, refer to Adobe Experience Manager [documentation](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/externalizer.html).
 
