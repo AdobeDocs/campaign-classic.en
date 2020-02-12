@@ -37,7 +37,7 @@ snippet: y
 
 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032) to view the **last stable build** (GA).
 
-## ![](assets/blue2.png) Release 20.1 - Build XXXX {#release-20-1-build-XXXX} 
+## ![](assets/blue-2.png) Release 20.1 - Build XXXX {#release-20-1-build-XXXX} 
 
 _February 17, 2020_
 
@@ -204,5 +204,4 @@ _February 17, 2020_
 * Fixed an issue that occurred when trying to update the routing account from a recurring delivery's properties in a workflow. (NEO-18684)
 
 * Fixed an issue that occurred when connecting to the instance through the redirection module, which prevented the connection from being cleaned properly once closed.
-
 * 
