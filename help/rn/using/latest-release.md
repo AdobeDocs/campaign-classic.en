@@ -75,7 +75,17 @@ _February 17, 2020_
 
 **Security enhancements**
 
-* Improved security in report configuration to protect from clickjacking. This applies to new reports. For old reports, you need to republish them to apply changes.
+* Improved security in report configuration to protect from clickjacking. This applies to new reports. For old reports, you need to republish them to apply changes. (NEO-13282)
+
+* Improved the key encryption in the cryptString to fix a potential heap buffer read overflow. (NEO-20071)
+
+* Improved monitor JSP to fix an internal IP disclosure. (NEO-16821)
+
+* Fixed an issue which could display stack traces in error messages. (NEO-12388)
+
+* Improved the management of cached data from previous sessions. (NEO-17039)
+
+
 
 **Improvements**
 
@@ -101,4 +111,4 @@ _February 17, 2020_
 
 **Patches**
 
-* XXX
+* Fixed an account key encryption issue when using the Hadoop connector. 
