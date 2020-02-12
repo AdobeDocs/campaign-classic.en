@@ -113,6 +113,8 @@ The **[!UICONTROL Response HTTP headers]** allows you to prevent clickjacking wh
 * **[!UICONTROL Same as origin]**: Set by default for new reports and republished reports. The hostname will be the same as the report's URL.
 * **[!UICONTROL Deny]**: The report cannot be included in an HTML page using iframe.
 
+![](assets/s_ncs_advuser_report_properties_09c.png)
+
 ## Adding variables {#adding-variables}
 
 The **[!UICONTROL Variables]** tab contains the list of variables configured in the report. These variables are exposed in the context of the report and can be used in calculations.
