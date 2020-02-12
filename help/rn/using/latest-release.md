@@ -37,9 +37,9 @@ snippet: y
 
 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032) to view the **last stable build** (GA).
 
-## ![](assets/orange2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
+## ![](assets/blue2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
 
-February 07, 2020_
+_February 07, 2020_
 
 **Improvements**
 
