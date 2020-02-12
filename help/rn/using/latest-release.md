@@ -85,6 +85,8 @@ _February 17, 2020_
 
 * Improved the management of cached data from previous sessions. (NEO-17039)
 
+* Fixed an issue that prevented the logins.log file from recording successful login attempts through IMS. (NEO-11004)
+
 **Improvements**
 
 * iOS 13 is now supported with the HTTP2 connector.
@@ -97,27 +99,29 @@ _February 17, 2020_
 
 * Database failover for Postgres is now supported: when the database server crashes and restarts, Campaign now reconnects to it automatically.
 
+* The **Start Pending** view has been added to the Administration > Audit > Workflows Status node. This allows you to monitor all workflows on your instance that are waiting to be started by the **operationMgt** process. This view comes with the Marketing campaigns package. [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+
 **Other changes**
+
+* On linux, the nlserver service startup now uses a systemd unit instead of the /etc/init.d/nlserver6 script. The migration to the new startup scheme is performed automatically when you install the 20.1 package. The /etc/init.d/nlserver6 is still provided but for interacting with the nlserver service (start, restart, stop, etc.), we recommend that you use the systemctl command directly.
 
 * The most consuming custom tables have been moved from the **xtkNewId** sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence) 
 
 * Improved query performance which could be affected by unnecessary database connections.
 
-* The **Start Pending** view has been added to the Administration > Audit > Workflows Status node. This allows you to monitor all workflows on your instance that are waiting to be started by the **operationMgt** process. This view comes with the Marketing campaigns package. [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+* Improved the performance of the database update wizard.
 
-* The email address validation rules in relation to soft bounces have been enhanced. [Read more](help/delivery/using/understanding-delivery-failures.md)
+* The database record management was enhanced.
+
+* The robustness of the connection pool has been improved, which may prevent unexpected connection failures from happening too often.
+
+* The email address validation rules to send an address to quarantine in case of a soft error have been enhanced. [Read more](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
 * For Debian, Campaign now uses system PCRE libraries when they are available.
 
 * Campaign now allows the use of a more recent system ODBC library.
 
-* For Linux, the watchdog process is now started with a new native systemd unit: nlserver.service. The watchdog launches the required nlserver processes and supervises them. The PID file is no longer required, it is handled by systemd. systemd will supervise the watchdog and relaunch it if it crashes. When installing the 20.1 Linux package, the old service (/etc/init.d/nlserver6) is removed, if required, and the new one is created. No manual action is required.
-
-* The database record management was enhanced.
-
 * A timeout has been added to the LINE servlet when opening a connection to load a rich image. If the image is taking too much time to load, the servlet stops the connection to avoid a bottleneck.
-
-* Improved the performance of the database update wizard.
 
 **Patches**
 
@@ -160,3 +164,45 @@ _February 17, 2020_
 * Fixed an issue when creating a new schema.
 
 * Fixed a tracking issue when sending SMS messages. (NEO-19595)
+
+* Fixed an issue that displayed incorrect targeted audience number in delivery indicators. 
+
+* Fixed an issue that displayed incorrect percentages when generating a descriptive report via a workflow activity. (NEO-14314)
+
+* Fixed an issue that made the delivery throughput report show different numbers when time view parameter. (NEO-11783)
+
+* Fixed an issue that prevented the transactional messages tracking indicators from being updated by the Tracking workflow. (NEO-17770)
+
+* Fixed a regression issue that caused the web process to crash and restart when requesting an offer through SOAP. (NEO-19482)
+
+* Fixed an issue that prevented from uploading data to public resources if the upload directory was a remote shared location. (NEO-19361)
+
+* Fixed an issue that caused the **Import audiences from the Adobe Experience Cloud** technical workflow tp constantly fail. (NEO-18463)
+
+* Fixed an issue that prevented deliveries from being sent when using templates imported from Experience Manager. (NEO-17540)
+
+* Fixed an issue that occurred after upgrading to build 9032 and preventing the instance from connecting to the FTP server over SSL protocol. (NEO-20498)
+
+* Fixed an issue that occurred when deleting, inserting or updating a large amount of data with the **Update data** activity in a workflow using an FDA schema as the targeting dimension. (NEO-13280)
+
+* Fixed an issue that prevented emails from being sent when using the 'if' statement outside the `body` tag.
+
+* Fixed an issue that occurred when trying to display the mirror page from the delivery logs of a sent message. (NEO-17976)
+
+* Fixed an issue that prevented the **Link to mirror page** personalization block from being displayed in the **Text content** tab after clicking **Import HTML** in a delivery. (NEO-17568)
+
+* The error message displayed when clicking a link to a mirror page that expired has been clarified. (NEO-17340)
+
+* Fixed an issue that prevented some buttons from being used in the **Data distribution** creation screen.
+
+* Fixed an issue that occurred when scheduling a delivery activity in an instance with Asia/Kolkata as the time zone. (NEO-20001)
+
+* An error is now displayed when a delivery has an affinity configuration issue. 
+
+* Fixed an issue which displayed an incorrect version tag number in the **About** menu.
+
+* Fixed an issue that occurred when trying to update the routing account from a recurring delivery's properties in a workflow. (NEO-18684)
+
+* Fixed an issue that occurred when connecting to the instance through the redirection module, which prevented the connection from being cleaned properly once closed.
+
+* 
