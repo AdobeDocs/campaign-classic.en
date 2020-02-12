@@ -77,15 +77,13 @@ _February 17, 2020_
 
 * Improved security in report configuration to protect from clickjacking. This applies to new reports. For old reports, you need to republish them to apply changes. (NEO-13282)
 
-* Improved the key encryption in the cryptString to fix a potential heap buffer read overflow. (NEO-20071)
+* Fix a small memory issue in cryptString. (NEO-20071)
 
 * Improved monitor JSP to fix an internal IP disclosure. (NEO-16821)
 
-* Fixed an issue which could display stack traces in error messages. (NEO-12388)
+* Fixed an issue where stack trace information could be displayed to non admin users.
 
 * Improved the management of cached data from previous sessions. (NEO-17039)
-
-
 
 **Improvements**
 
@@ -109,6 +107,56 @@ _February 17, 2020_
 
 * The email address validation rules in relation to soft bounces have been enhanced. [Read more](help/delivery/using/understanding-delivery-failures.md)
 
+* For Debian, Campaign now uses system PCRE libraries when they are available.
+
+* Campaign now allows the use of a more recent system ODBC library.
+
+* For Linux, the watchdog process is now started with a new native systemd unit: nlserver.service. The watchdog launches the required nlserver processes and supervises them. The PID file is no longer required, it is handled by systemd. systemd will supervise the watchdog and relaunch it if it crashes. When installing the 20.1 Linux package, the old service (/etc/init.d/nlserver6) is removed, if required, and the new one is created. No manual action is required.
+
+* The database record management was enhanced.
+
+* A timeout has been added to the LINE servlet when opening a connection to load a rich image. If the image is taking to much time to load, the servlet stops the connextion to avoid a bottleneck.
+
+* Improved the performance of the database update wizard.
+
 **Patches**
 
 * Fixed an account key encryption issue when using the Hadoop connector. 
+
+* Fixed a regression issue due to the implementation of SSL certification which caused the user connection to fail on Windows server. (NEO-20629)
+
+* Fixed an issue with the incremental query activity in case of negative workflow IDs. (NEO-19779)
+
+* Fixed an encoding issue when running queries via the Netezza FDA connector. (NEO-19594)
+
+* Fixed an issue which led to an error when using the POST method in the **Web Download** workflow event activity.
+
+* Fixed an issue with offer proposition generation. (NEO-18176)
+
+* Fixed a footer display issue when using the acquisition web form template.
+
+* Fixed an issue when parsing the URLs in the content of continuous deliveries which could cause them to crash.
+
+* Fixed an issue with the **Start** and **End** fields not being computed when creating a new campaign.
+
+* Fixed an issue with the **File Download** workflow activity when using a URL.
+
+* Fixed an issue when previewing an imported list in a query activity of a report. (NEO-13119)
+
+* Fixed an issue which displayed an outdated image when selecting the **Powered by Campaign** personalization block in the email editor. 
+
+* The network communication between the client and the server has been improved.
+
+* Fixed an issue when too many workflows are created in the same campaign. Now you can not create more than 28 workflows. A warning is displayed.
+
+* Fixed an issue when using the **A selection of columns* reconciliation option in a **Union** worklow activitiy.
+
+* Fixed a console crash issue that could occur when using a corrupted enrichment list in a workflow. (NEO-18096)
+
+* Fixed various console crash issues that could occur in workflows (NEO-18010, NEO-18032)
+
+* Fixed an issue which allowed the execution of an **External signal** workflow activity even when it was disabled. 
+
+* Fixed an issue when creating a new schema.
+
+* Fixed a tracking issue when sending SMS messages. (NEO-19595)
