@@ -377,8 +377,13 @@ The parameters are as follows:
 
 * **address**: this is the IP address of the MTA host machine to be used. 
 * **heloHost**: this identifier represents the IP address as it will be seen by the SMTP server. 
+
 * **publicId**: this information is useful when an IP address is shared by several Adobe Campaign **mtas** behind an NAT router. The statistics server uses this identifier to memorize connection and sending statistics between this starting point and the target server. 
 * **weight**: lets you define the relative frequency of use of the address. By default, all addresses have a weight equal to 1.
+
+>[!NOTE]
+>
+>In the serverConf.xml file, you need to verify that that one IP corresponds to a single helohost with a unique identifier (public_id). It cannot be mapped to multiple helohosts, which could result in delivery throttling issues.
 
   In the previous example, with normal conditions, the addresses will be distributed as follows:
 
