@@ -22,6 +22,32 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## 20.1 - 17/02/2019{#release-20-1}
+
+**New capabilities included in the release**
+
+Snowflake FDA Connector - [Read more](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)
+
+Hadoop FDA Connector Enhancements - [Read more](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3)
+
+**Other documentation updates coming with the release**
+
+The [installation](../../installation/using/before-reading.md), [production](../../production/using/foreword.md) and [configuration](../../configuration/using/additional-parameters.md) guides have been updated with the new systemd unit used by the nlserver service startup. You can still use /etc/init.d/nlserver6, but we recommend that you now use the systemctl command for interacting with the nlserver service.
+
+The installation guide has been updated and synchronized with the latest version of the compatibity matrix. New supported systems have been added. Occurences to deprecated and unsupported systems have been removed. [Read more](../../installation/using/before-reading.md)
+
+The Compatibility matrix has been updated with the Hadoop 3.0 and Snowflake FDA connectors. [Read more](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+
+A best practice on IP affinity has been added to the installation guide. [Read more](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
+
+The database cleanup workflow section has been updated. The provided batch figures now reflect the code implementation. [Read more](../../production/using/database-cleanup-workflow.md)
+
+A limitation on FDA over HTTP has been added to the transactional messaging guide. [Read more](../../production/using/database-cleanup-workflow.md)
+
+## February 2020 {#february-2020}
+
+AMP for Email being now supported by three email providers (Gmail, Outlook and Mail.ru), the section describing how to define interactive content with AMP has been updated. [Read more](../../delivery/using/defining-interactive-content.md)
+
 ## January 2020 {#january-2020}
 
 The Deliverability section has been moved, reorganized, and enhanced with updated content. [Read more](../../delivery/using/about-deliverability.md)
