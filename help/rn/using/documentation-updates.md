@@ -22,7 +22,7 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
-## 20.1 - 17/02/2019{#release-20-1}
+## 20.1 - 17/02/2020{#release-20-1}
 
 **New capabilities included in the release**
 
@@ -43,6 +43,24 @@ A best practice on IP affinity has been added to the installation guide. [Read m
 The database cleanup workflow section has been updated. The provided batch figures now reflect the code implementation. [Read more](../../production/using/database-cleanup-workflow.md)
 
 A limitation on FDA over HTTP has been added to the transactional messaging guide. [Read more](../../production/using/database-cleanup-workflow.md)
+
+Information has been added on the new option that allows you to define a time-out period for the **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** workflow activities. [Read more](../../workflow/using/sql-code-and-javascript-code.md)
+
+Information has been added on the new **[!UICONTROL Start Pending]** view available in the **[!UICONTROL Administration]** > **[!UICONTROL Audit]** > **[!UICONTROL Workflows Status]** node. [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+
+The [Sending push notifications](../../delivery/using/about-mobile-app-channel.md) guide has been moved, reorganized and improved with clarified information.
+
+The new parameter for URLs report configuration has been documented [here](../../reporting/using/properties-of-the-report.md#defining-additional-settings).
+
+The **Campaign Classic On-premise & Hosted capability matrix** page has been updated with the new FDA connectors. [Read more](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)
+
+The **Campaign Classic Capability matrix** page has been updated. [Read more](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+
+The new **[!UICONTROL Cleanup of Nmsaddress]** workflow has been documented [here]../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
+
+A limitation has been added when using a query activity in a workflow. [Read more](../../workflow/using/query.md).
+
+A new section has been added to detail the enhanced email address validation rules to send an address to quarantine in case of soft error. [Read more](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
 ## February 2020 {#february-2020}
 

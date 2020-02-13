@@ -62,9 +62,17 @@ sub-product: adobe campaign classic
        + [Working with data packages](platform/using/working-with-data-packages.md)
        + [Managing enumerations](platform/using/managing-enumerations.md)
        + [External accounts](platform/using/external-accounts.md)
+  + Accessing an external database (FDA){#accessing-external-database}
+       + [About FDA](platform/using/about-fda.md)
+       + [Specific configurations by database type](platform/using/specific-configuration-database.md)
+       + [Remote database access rights](platform/using/remote-database-access-rights.md)
+       + [Connecting to the database](platform/using/connecting-to-database.md)
+       + [Creating the data schema](platform/using/creating-data-schema.md)
+       + [Defining data mapping](platform/using/defining-data-mapping.md)
+       + [Additional options](platform/using/additional-options.md)
+       + [Using data from an external database in a workflow](platform/using/data-external-database-workflow.md)
   + Connectors {#connectors}
        + [About connectors](platform/using/about-connectors.md)
-       + [Accessing an external database](platform/using/accessing-an-external-database.md)
        + [CRM Connectors](platform/using/crm-connectors.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}
@@ -90,7 +98,8 @@ sub-product: adobe campaign classic
        + [LINE channel](delivery/using/line-channel.md)
   + Sending push notifications {#sending-push-notifications}
        + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
-       + [Setting up mobile app channel](delivery/using/setting-up-mobile-app-channel.md)
+       + [Integrating Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+       + [Configuring the mobile application in Adobe Campaign](delivery/using/configuring-the-mobile-application.md)
        + [Creating notifications](delivery/using/creating-notifications.md)
        + [Troubleshooting](delivery/using/troubleshooting.md)
   + Sending direct mail {#sending-direct-mail}
@@ -211,7 +220,7 @@ sub-product: adobe campaign classic
   + Analyzing populations {#analyzing-populations}
        + [About descriptive analysis](reporting/using/about-descriptive-analysis.md)
        + [Using the descriptive analysis wizard](reporting/using/using-the-descriptive-analysis-wizard.md)
-       + [Using an analysis report](reporting/using/processing-a-report.md)
+       + [Processing a report](reporting/using/processing-a-report.md)
        + [Use cases](reporting/using/use-cases.md)
   + Creating new reports {#creating-new-reports}
        + [About reports creation in Campaign](reporting/using/about-reports-creation-in-campaign.md)

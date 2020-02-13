@@ -16,151 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Setting up mobile app channel{#setting-up-mobile-app-channel}
-
-## Introduction {#introduction}
-
->[!CAUTION]
->
->Mobile App Channel implementation has to be performed by expert users. If you need to be assisted, contact your Adobe Account executive or Professional services partner.
-
-You can create several versions of your mobile application (iOS, Android): the Mobile App channel option enables you to send notifications to terminals which the application is installed on.
-
-To use the functionalities of the Adobe Campaign Mobile App Channel, you need to change/adapt your mobile application to integrate it into the Adobe Campaign platform.
-
-Two Campaign Classic SDKs are available, one for Android and one for iOS, for an easy integration of your mobile application with Adobe Campaign. A deep technical knowledge of Java and Objective-C is required. A detailed description of Campaign SDK is found in [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application).
-
->[!NOTE]
->
->Libraries provided by Adobe Campaign are designed to be used with Xcode (iOS) and Android Studio (Android).
-
-## Connectors {#connectors}
-
-### iOS connectors {#ios-connectors}
-
-For iOS, two connectors are available:
-
-* The iOS binary connector sends notifications on the legacy binary APNS server.
-* The iOS HTTP/2 connector sends notifications to the HTTP/2 APNS.
-
-To choose which connector you want to use, follow these steps:
-
-1. Go to **[!UICONTROL Administration > Platform > External accounts]**.
-1. Select the iOS routing external account.
-1. In the **[!UICONTROL Connector]** tab, fill in the **[!UICONTROL Access URL of the connector]** field:
-
-   For iOS binary: https://localhost:8080/nms/jsp/ios.jsp
-
-   For iOS HTTP2: http://localhost:8080/nms/jsp/iosHTTP2.jsp
-
-   ![](assets/nmac_connectors.png)
-
-### Android connectors {#android-connectors}
-
-For Android, two connectors are available:
-
-* The V1 connector which allows one connection per MTA child. 
-* The V2 connector which allows simultaneous connections to the FCM server to improve throughput.
-
-To choose which connector you want to use, follow these steps:
-
-1. Go to **[!UICONTROL Administration > Platform > External accounts]**.
-1. Select the **[!UICONTROL Android routing]** external account.
-1. In the **[!UICONTROL Connector]** tab, fill in the **[!UICONTROL JavaScript used in the connector]** field:
-
-   For Android V1: https://localhost:8080/nms/jsp/androidPushConnector.js
-
-   For Android V2: https://localhost:8080/nms/jsp/androidPushConnectorV2.js
-
-   ![](assets/nmac_connectors3.png)
-
-1. For Android V2, one additional parameter is available in the Adobe Server configuration file (serverConf.xml):
-
-    * **maxGCMConnectPerChild**: Maximum limit of parallel HTTP requests to the FCM initiated by each child server (8 by default).
-
-## Configuration steps {#configuration-steps}
-
-### Creating the application {#creating-the-application}
-
-If you don't have a mobile application (app), the application developer needs to create it and integrate the SDK. If the mobile application exists, the developer needs to adapt it by integrating the Adobe Campaign SDK and adding the settings specific to the service. For a description of the SDK, refer to [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application).
-
->[!CAUTION]
->
->The application must have been configured for Push actions BEFORE any integration to Adobe Campaign SDK.
->
->If this is not the case, please refer to [this page](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/).
-
-### Collecting information {#collecting-information-}
-
-To configure the application, you have to collect the technical specifications which define the set of parameters that enable Adobe Campaign and the mobile application to communicate. These parameters are:
-
-* **the integration key**: each application has a unique key. This key lets you link the Adobe Campaign service and the mobile application. Refer to [General information](#general-information).
-* **the variables**: define the behavior of the application when you activate the notification. Refer to [General information](#general-information).
-* **the subscription settings**: by default, Adobe Campaign recovers the **@userKey** field that enables you to reconcile mobile devices with the recipients in the database. If you want to collect additional data (such as a complex reconciliation key), you can define subscription settings. Refer to [Subscription settings](#subscription-settings).
-* **the sounds** (iOS only): if the selected sound isn't a system sound, the sound file must be embedded into the mobile application. Refer to [Application sounds](#application-sounds).
-* **the URL of the marketing server and the tracking server**: the Adobe Campaign administrator must provide the application developer with the URLs of the marketing server and the URLs of the tracking server. For more on this, refer to: [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application).
-
-### Creating the service {#creating-the-service}
-
-The Adobe Campaign administrator needs to create and configure a service linked to the mobile application. For more on this, refer to [Configuring the mobile application in Adobe Campaign](#configuring-the-mobile-application-in-adobe-campaign).
-
-### Testing the application {#testing-the-application}
-
-On iOS, you need to create an application that uses the sandbox mode for tests and approvals. Then, within the same Adobe Campaign service, create a new production type application and enter the relevant certificate. For more on this, refer to the documentation on the Apple notifications service.
-
-On Android, you only need to create one application. Test the full subscription and delivery collection process on your application before making it public.
-
-## Data path {#data-path}
-
-The following schemas detail the steps that enable a mobile application to exchange data with Adobe Campaign. This process involves three entities:
-
-* the mobile application
-* the notification service: APNS (Apple Push Notification Service) for Apple and FCM (Firebase Cloud Messaging) for Android
-* Adobe Campaign
-
-The three main steps of the notification process are: registration of the application in Adobe Campaign (subscription collection), deliveries, and tracking.
-
-### Step 1: Subscription collection {#step-1--subscription-collection}
-
-The mobile application is downloaded by the user from the App Store or from Google Play. This application contains the connection settings (iOS certificate and project key for Android) and the integration key. The first time the application is opened, (depending on configuration), the user can be asked to enter registration information (@userKey: email or account number for instance). At the same time, the application questions the notification service to collect a notification ID (push ID). All this information (connection settings, integration key, notification identifier, userKey) is sent to Adobe Campaign.
-
-![](assets/nmac_register_view.png)
-
-### Step 2: Delivery {#step-2--delivery}
-
-Marketers target application subscribers. The delivery process sends the connection settings to the notification service (iOS certificate and project key for Android), the notification ID (push ID) and the content of the notification. The notification service sends notifications to the targeted terminals.
-
-The following information is available in Adobe Campaign:
-
-* Android only: number of devices that have displayed the notification (impressions)
-* Android and iOS: number of clicks on the notification
-
-![](assets/nmac_delivery_view.png)
-
-The Adobe Campaign server must be able to contact the APNS server on the following ports:
-
-* 2195 (sending) and 2186 (feedback service) for iOS binary connector
-* 443 for iOS HTTP/2 connector
-
-To check that it works correctly, use the following commands:
-
-* For tests:
-
-  ```
-  telnet gateway.sandbox.push.apple.com
-  ```
-
-* In production:
-
-  ```
-  telnet gateway.push.apple.com
-  ```
-
-If an iOS binary connector is used, the MTA and web server must be able to contact the APNS on port 2195 (sending), the workflow server must be able to contact the APNS on port 2196 (feedback service).
-
-If an iOS HTTP/2 connector is used, the MTA, web server and workflow server must be able to contact the APNS on port 443.
-
-## Integrating Campaign SDK into the mobile application {#integrating-campaign-sdk-into-the-mobile-application}
+# Integrating Campaign SDK into the mobile application {#integrating-campaign-sdk-into-the-mobile-application}
 
 Campaign SDKs for iOS and Android are one of the components of the Mobile App Channel module.
 
@@ -172,7 +28,7 @@ The goal of the SDK is to facilitate the integration of a mobile application int
 
 To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#MobileSDK) .
 
-### Loading Campaign SDK {#loading-campaign-sdk}
+## Loading Campaign SDK {#loading-campaign-sdk}
 
 * **In Android**: the **neolane_sdk-release.aar** file must be linked to the project.
 
@@ -200,7 +56,7 @@ To learn more on the different Android and iOS versions supported, refer to the 
   >
   >For version 1.0.25 of the SDK, the four architectures are available in the **Neolane_SDK.h** file.
 
-### Declaring integration settings {#declaring-integration-settings}
+## Declaring integration settings {#declaring-integration-settings}
 
 To integrate Campaign SDK into the mobile application, the functional administrator must provide the following information to the developer:
 
@@ -208,7 +64,7 @@ To integrate Campaign SDK into the mobile application, the functional administra
 
   >[!NOTE]
   >
-  >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application. Refer to [General information](#general-information).
+  >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application. Refer to [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 
 * **A tracking URL**: that matches the address of the Adobe Campaign tracking server.
 * **A marketing URL**: to enable the collection of subscriptions.
@@ -230,7 +86,7 @@ To integrate Campaign SDK into the mobile application, the functional administra
   [nl setIntegrationKey:strIntegrationKey];
   ```
 
-### Registration function {#registration-function}
+## Registration function {#registration-function}
 
 The registration function enables you to:
 
@@ -286,7 +142,7 @@ The registration function enables you to:
   }
   ```
 
-### Tracking function {#tracking-function}
+## Tracking function {#tracking-function}
 
 * **In Android**:
 
@@ -429,7 +285,7 @@ The registration function enables you to:
   >
   >From version 7.0, once the **application:didReceiveRemoteNotification:fetchCompletionHandler** function is implemented, the operating system only calls this function. The **application:didReceiveRemoteNotification** function is therefore not called.
 
-### Silent notification tracking {#silent-notification-tracking}
+## Silent notification tracking {#silent-notification-tracking}
 
 iOS lets you send silent notifications, a notification or data which will be directly sent to a mobile application without displaying it. Adobe Campaign allows you to track them.
 
@@ -665,9 +521,9 @@ To implement **registerDeviceStatus** delegate, follow these steps:
    @end
    ```
 
-### Variables {#variables}
+## Variables {#variables}
 
-The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [General information](#general-information)). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
+The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md)). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
 
 * **In Android**:
 
@@ -713,200 +569,14 @@ The variables let you define mobile application behavior after receiving a notif
 >
 >Adobe recommends choosing short variable names because notification size is limited to 4kB for iOS and Android.
 
-## Configuring the mobile application in Adobe Campaign {#configuring-the-mobile-application-in-adobe-campaign}
+## Notification Service Extension {#notification-service-extension}
 
-You can find below a configuration sample based on a company which sells online holiday packages. His mobile application (Neotrips) is available to its customers in two versions: Neotrips for Android and Neotrips for iOS. To configure the mobile application in Adobe Campaign, you need to:
-
-1. Create a **[!UICONTROL Mobile application]** type [information service](#creating-the-service-and-collecting-subscriptions) for the Neotrips mobile application.
-1. Add the iOS and Android versions of the application to this service.
-
-![](assets/nmac_service_diagram.png)
-
->[!NOTE]
->
->Go to the **[!UICONTROL Subscriptions]** tab of the service to view the list of subscribers to the service, i.e. all people who have installed the application on their mobile and agreed to receive notifications.
-
-### Creating the service and collecting subscriptions {#creating-the-service-and-collecting-subscriptions}
-
-1. Go to the **[!UICONTROL Profiles and Targets > Services and subscriptions]** node and click **[!UICONTROL New]**. 
-
-   ![](assets/nmac_service_1.png)
-
-1. Define a **[!UICONTROL Label]** and an **[!UICONTROL Internal name]**.
-1. Go to the **[!UICONTROL Type]** field and select **[!UICONTROL Mobile application]**.
-
-   >[!NOTE]
-   >
-   >The default **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the **[!UICONTROL Target mapping]** field of the service. For more on creating target mapping, refer to the [Configuration guide](../../configuration/using/about-custom-recipient-table.md).
-
-1. Then click the **[!UICONTROL Add]** button to define the various versions of your mobile application (iOS, Android). 
-
-   ![](assets/nmac_service_2.png)
-
-See below for a detailed presentation of the configuration steps for each version.
-
->[!NOTE]
->
->When you create an iOS application, the wizard invites you to configure the application's development version (sandbox) and the production version. Once created, the two versions of the application are added.
-
-### General information {#general-information}
-
-![](assets/nmac_service_3.png)
-
-1. Start by entering the **[!UICONTROL Label]**.
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code (via the SDK). For more on this, refer to: [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
-1. If your application handles an application icon (top left corner of the notification), you can add it here so that the preview is more faithful to the actual style of the delivery. To add an image in the content (rich notification), refer to the [Rich notifications](#rich-notifications) section.
-
-   >[!CAUTION]
-   >
-   >Expected image resolution is 48x48 pixels for iOS.
-
-1. For Android, enter the application's connection settings: enter the project key that was provided by the developer of the mobile application. 
-1. Then enter the application variables.
-
-   ![](assets/nmac_service_4.png)
-
-   Variables let you define the application behavior following the receipt of a notification: for instance, you can configure an application specific screen to come up when the user activates the notification. These variables must be defined in the code of your mobile application. Click the **[!UICONTROL Add]** button to add them to Adobe Campaign.
-
-   The delivery wizard lets you define the values of these variables. Refer to [Creating notifications](../../delivery/using/creating-notifications.md).
-
-### Subscription settings {#subscription-settings}
-
->[!NOTE]
->
->This tab only needs configuring if you want to collect additional data.
-
-![](assets/nmac_service_5.png)
-
-By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (@userKey) field of the **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** table. This key enables you to link a subscription to a recipient. To collect additional data (such as a complex reconciliation key), you need to apply the following configuration:
-
-1. Create an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema and define the new fields.
-1. Define the mapping in the **[!UICONTROL Subscription parameters]** tab.
-
-   >[!CAUTION]
-   >
-   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to the [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application) section.
-
-### Application sounds {#application-sounds}
-
->[!NOTE]
->
->This tab is only available for iOS versions of the applications.
-
-![](assets/nmac_service_6.png)
-
-If your iOS application has embedded sounds, use this tab to add them. You will then be able to use the delivery wizard to select one of the sounds to be played when the notification is received. For more on this, refer to [Sending notifications on iOS](../../delivery/using/creating-notifications.md#sending-notifications-on-ios).
-
->[!NOTE]
->
->System sounds can also be defined in this screen.
-
-In the **[!UICONTROL Application setting]** screen, the **[!UICONTROL Internal name]** field must contain the name of the file embedded in the application or the name of the system sound. The value entered in the **[!UICONTROL Label]** field will appear in the **[!UICONTROL Play a sound]** drop-down list of the delivery wizard.
-
-### Certificate {#certificate}
-
->[!NOTE]
->
->This tab is only available for iOS versions of the applications.
-
-In this screen, enter the application connection settings. 
-
-![](assets/nmac_service_7.png)
-
-Click the **[!UICONTROL Enter the certificate...]** link then select the authentication certificate and enter the password that was provided by the mobile application developer.
-
->[!NOTE]
->
->Make sure that you do not use the same certificate for the development version (sandbox) and the production version of the application.
-
-## Rich notifications {#rich-notifications}
-
-A rich notification allows you to include other types of media into your notifications such as images, videos, etc.
-
-### Android {#android}
-
-Adobe Campaign allows you to define application variables in addition to content (see [Sending notifications on Android](../../delivery/using/creating-notifications.md#sending-notifications-on-android)). These variables can be used to provide information such as the image URL to the mobile application. The mobile application can then generate a custom notification.
-
-You first need to create a mobile application in Adobe Campaign and define the application variables for that application.
-
-1. Go to **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Services and Subscriptions]**.
-1. Click **[!UICONTROL New]** to create a service.
-1. In the **[!UICONTROL Edit]** tab, select **[!UICONTROL Mobile application]** as the **[!UICONTROL Type]** and **[!UICONTROL Subscriber application]** (nms:appSubscriptionRcp) as the **[!UICONTROL Target mapping]**.
-1. In the **[!UICONTROL List of mobile applications that use the service]**, add a new application and select **[!UICONTROL Create an Android application]**.
-1. Click **[!UICONTROL Next]**.
-1. In the **[!UICONTROL Information]** tab of the creation wizard, enter a label.
-1. In the **[!UICONTROL Application variables]** field, add the parameters that you want to use for sending a rich push:
-
-    * title
-    * sub
-    * validity
-    * imageURL
-    * webpageURL
-
-1. Click **[!UICONTROL Finish]** and save the service.
-
-   ![](assets/nmac_rich_android_config.png)
-
-Then you need to create a new delivery template and link it to the mobile application that you created.
-
-1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
-1. Duplicate the **[!UICONTROL Deliver on Android]** template.
-1. Change the label and click **[!UICONTROL Continue]**.
-1. Click the **[!UICONTROL To]** link to target the application's subscribers.
-1. Change the **[!UICONTROL Target mapping]** to **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]**.
-
-   ![](assets/nmac_rich_android_target_mapping.png)
-
-1. Click **[!UICONTROL Add]**, select **[!UICONTROL Subscribers of an Android mobile application]** and click **[!UICONTROL Next]**.
-1. Enter a label, select the service that you created and the mobile application that you created within this service.
-
-   ![](assets/nmac_rich_android_mobile_app.png)
-
-1. Click **[!UICONTROL Finish]**.
-
-The parameters that you created within your mobile application are displayed in the **Application variables** field.
-
-![](assets/nmac_rich_android_template.png)
-
-Finally, create a new Android delivery and add the values that you want for the parameters that you defined in the mobile application.
-
-1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
-1. Click **[!UICONTROL New]**.
-1. Select the delivery template that you just created and click **[!UICONTROL Continue]**.
-1. In the **[!UICONTROL Application variables]** field, add the values of your choice for the different parameters.
-
-   ![](assets/nmac_rich_android_delivery.png)
-
-1. Click **[!UICONTROL Save]** and send your delivery.
-
-The image and web page should be displayed in the push notification when received on the subscribers' mobile Android devices.
-
-### iOS {#ios}
-
-With iOS 10 or higher, it is possible to generate rich notifications. Adobe Campaign can send notifications using variables that will allow the device to display a rich notification.
-
->[!NOTE]
->
->If you want to use rich notifications, you need to use the iOS HTTP/2 connector. Refer to the [Connectors](#connectors) section.
-
-In Adobe Campaign, the following parameters have to be sent to the mobile application:
-
-* Check the **[!UICONTROL Mutable content]** box in the edit notification window. This will allow the mobile application to download media content.
-* The **[!UICONTROL Category]** field must be set. The value must match one of the mobile application's content extensions (parameter **UNNotificationExtensionCategory**).
-* In the application variables, add the URL of the media file you want the mobile application to download and display. 
-
-  ![](assets/nmac_connectors2.png)
-
-To implement rich notifications in the mobile application, you need to add the following extensions to your project:
-
-* Notification Service Extension
-* Notification Content Extension (one or more according to your implementation)
-
-**Notification Service Extension**
+**For iOS**
 
 The media has to be downloaded at the notification service extension level.
 
 ```
+
 #import "NotificationService.h"
 
 @interface NotificationService ()
@@ -932,9 +602,12 @@ The media has to be downloaded at the notification service extension level.
     }
     ...
     // Perform the download to local storage
+
 ```
 
-**Notification Content Extension**
+## Notification Content Extension {#notification-content-extension}
+
+**For iOS**
 
 At this level, you need to:
 
@@ -951,6 +624,7 @@ At this level, you need to:
   You need to add code to feed the media data to the widget. Here is an example of code for an image:
 
   ```
+
   #import "NotificationViewController.h"
   #import <UserNotifications/UserNotifications.h>
   #import <UserNotificationsUI/UserNotificationsUI.h>
@@ -982,4 +656,5 @@ At this level, you need to:
       }
   }
   @end
+  
   ```

@@ -178,7 +178,7 @@ To configure it, you first need to select criteria:
 
    ![](assets/split-subset-config-add_external_data.png)
 
-   For more on this, refer to this [section](../../platform/using/accessing-an-external-database.md).
+   For more on this, refer to this [section](../../platform/using/about-fda.md).
 
 Then, we need to add new subsets:
 

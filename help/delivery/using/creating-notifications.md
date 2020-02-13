@@ -55,7 +55,7 @@ Start by creating a new delivery.
    >The **Silent Push** mode is available from iOS 7. This allows a "silent" notification to be sent to a mobile application. The user is not made aware of the notification's arrival. It is transferred directly to the application.
 
 1. In the **[!UICONTROL Title]** field, enter the label of the title that you want to appear on the notification. It will only appear in the list of notifications available from the notification center. This field allows you to define the value of the **title** parameter of the iOS notification payload.
-1. If you use the HTTP/2 connector, you can add a subtitle (value of the **subtitle** parameter of the iOS notification payload). Refer to the [Connectors](../../delivery/using/setting-up-mobile-app-channel.md#connectors) section.
+1. If you use the HTTP/2 connector, you can add a subtitle (value of the **subtitle** parameter of the iOS notification payload). Refer to the [Configuring the mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) section.
 1. Then enter the **[!UICONTROL Message]** and the **[!UICONTROL Value of the badge]** based on the chosen notification type. 
 
    ![](assets/nmac_delivery_ios_5.png)
@@ -73,13 +73,13 @@ Start by creating a new delivery.
 
    >[!NOTE]
    >
-   >Sounds must be included in the application and defined when the service is created. Refer to [Application sounds](../../delivery/using/setting-up-mobile-app-channel.md#application-sounds).
+   >Sounds must be included in the application and defined when the service is created. Refer to [Configuring iOS external account](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios).
 
 1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. Application variables let you define notification behavior: for instance, you can configure a specific application screen to be displayed when the user activates the notification.
 
    >[!NOTE]
    >
-   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [General information](../../delivery/using/setting-up-mobile-app-channel.md#general-information).
+   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
 
@@ -125,7 +125,7 @@ After sending messages, you can monitor and track your deliveries. For more on t
 
    >[!NOTE]
    >
-   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [General information](../../delivery/using/setting-up-mobile-app-channel.md#general-information).
+   >Application variables must be defined in the code of the mobile application and entered during service creation. For more on this, refer to: [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
 
