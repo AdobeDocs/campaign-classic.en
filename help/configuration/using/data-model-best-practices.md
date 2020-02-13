@@ -132,7 +132,7 @@ Adobe Campaign automatically adds an index to all primary and internal keys defi
 * Name your link consistently with the resource name: the link name should help understand what the distant table is.
 * Do not name a link with “id” as a suffix. For example, name it “transaction” rather than “transactionId”.
 
-<!--## Operational best practices {#operational-best-practices}
+## Operational best practices {#operational-best-practices}
 
 In order to make sure better performance all the time, below practices could be handy
 * Avoid using operations like “CONTAINS” in queries, if we know what is expected and want to be filtered for, apply the same condition with an “EQUAL TO” or other specific filter operators
@@ -146,4 +146,4 @@ In order to make sure better performance all the time, below practices could be 
     * It's good to have all the essential fields in one table because it makes it easier for users to build queries. Sometimes it's also good for performance to duplicate some fields across tables if it can avoid a join.
     * Certain built-in functionalities will not be able to reference one-to-many relationships, e.g. Of-fer Weighting formula and Deliveries
 * Use one or several reference tables rather than duplicating a field in every row. When using key/value pairs, it is preferred to choose a numerical key
-* A short string remains acceptable. In case references tables are already in place in an external sys-tem, reusing the same will facilitate the data integration with Adobe Campaign.-->
+* A short string remains acceptable. In case references tables are already in place in an external sys-tem, reusing the same will facilitate the data integration with Adobe Campaign.
