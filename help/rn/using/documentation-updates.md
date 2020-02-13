@@ -38,7 +38,7 @@ Information has been added on the new **[!UICONTROL Start Pending]** view availa
 
 The [Sending push notifications](../../delivery/using/about-mobile-app-channel.md) guide has been moved, reorganized and improved with clarified information.
 
-The new parameter for URLs report configuration has been documented [here](../../reporting/using/properties-of-the-reports.md#defining-additional-settings).
+The new parameter for URLs report configuration has been documented [here](../../reporting/using/properties-of-the-report.md#defining-additional-settings).
 
 The **Campaign Classic On-premise & Hosted capability matrix** page has been updated with the new FDA connectors. [Read more](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)
 
