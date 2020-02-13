@@ -48,6 +48,8 @@ The new **[!UICONTROL Cleanup of Nmsaddress]** workflow has been documented [her
 
 A limitation has been added when using a query activity in a workflow. [Read more](../../workflow/using/query.md).
 
+A new section has been added to detail the enhanced email address validation rules to send an address to quarantine in case of soft error. [Read more](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
+
 ## February 2020 {#february-2020}
 
 AMP for Email being now supported by three email providers (Gmail, Outlook and Mail.ru), the section describing how to define interactive content with AMP has been updated. [Read more](../../delivery/using/defining-interactive-content.md)
