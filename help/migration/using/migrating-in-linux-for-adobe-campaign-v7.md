@@ -260,13 +260,13 @@ To deploy Adobe Campaign, apply the following steps:
     * In **Debian**:
 
       ```    
-      dpkg -i nlserver6-v7-XXXX-linux-2.6-intel.deb
+      dpkg -i nlserver6-XXXX-linux-2.6-intel.deb
       ```
 
     * In **Red Hat**:
 
       ```    
-      rpm -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
+      rpm -Uvh nlserver6-XXXX-0.x86_64.rpm
       ```
 
    >[!CAUTION]
@@ -305,13 +305,13 @@ To deploy Adobe Campaign, apply the following steps:
 1. Log in as **root** and prepare the instance using the following commands:
 
    ```
-   /etc/init.d/nlserver6-v7 start   
-   Starting nlserver6-v7: [  OK  ]
+   /etc/init.d/nlserver6 start   
+   Starting nlserver6: [  OK  ]
    ```
 
    ```
-   /etc/init.d/nlserver6-v7 stop
-   Stopping nlserver6-v7: [  OK  ]
+   /etc/init.d/nlserver6 stop
+   Stopping nlserver6: [  OK  ]
    ```
 
    >[!NOTE]
@@ -388,13 +388,13 @@ To deploy Adobe Campaign, apply the following steps:
     * In **Debian**:
 
       ```    
-      dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+      dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
     * In **Red Hat**:
 
       ```    
-      rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
+      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
 
    >[!CAUTION]
@@ -467,13 +467,13 @@ To deploy Adobe Campaign, apply the following steps:
     * In **Debian**:
 
       ```    
-      dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+      dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
     * In **Red Hat**:
 
       ```    
-      rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
+      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
 
    >[!CAUTION]

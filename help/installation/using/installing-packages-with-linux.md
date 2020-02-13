@@ -26,9 +26,7 @@ The installation commands enables you to:
 
 * Copy the files to **/usr/local/neolane**
 * Create an Adobe Campaign Linux account (and the associated group), which is created with **/usr/local/neolane** as its home directory
-* Create an automatic script **/etc/init.d/nlserver6** for use at startup
-
-This package is compiled using GCC 4, which implies dependencies with specific versions of the libraries that are not always available on the installation platform.
+* Create an automatic script **/etc/init.d/nlserver6** for use at startup, or create a systemd unit (starting 20.1).
 
 >[!NOTE]
 >
@@ -306,6 +304,13 @@ The commands are as follows:
 ```
 /etc/init.d/nlserver6 stop
 /etc/init.d/nlserver6 start
+```
+
+Starting 20.1, we recommend using the following commands instead:
+
+```
+systemctl stop nlserver
+systemctl start nlserver
 ```
 
 ### Oracle Client in Linux {#oracle-client-in-linux}

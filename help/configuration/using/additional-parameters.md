@@ -74,15 +74,25 @@ When the configuration has been modified, you must:
 
 * Stop the web server that hosts the redirection module (Apache, IIS, etc.),
 * Stop the Adobe Campaign server: **net stop nlserver6** in Windows, **/etc/init.d/nlserver6 stop** in Linux,
+
+   >[!NOTE]
+   >
+   >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl stop nlserver**
+
 * In Linux, delete the shared memory segments using the **ipcrm** command,
 * Restart the Adobe Campaign server: **net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux,
+
+   >[!NOTE]
+   >
+   >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl start nlserver**
+
 * Restart the web server.
 
 **Example**: taking into account the configuration under Linux.
 
 ```
-adobe@selma:~$ /etc/init.d/nlserver6 stop
-adobe@selma:~$ /etc/init.d/apache stop
+adobe@selma:~$ systemctl stop nlserver
+adobe@selma:~$ systemctl stop apache2
 adobe@selma:~$ ipcs shm
 
 ------ Shared Memory Segments --------
@@ -98,8 +108,8 @@ key        msqid      owner      perms      used-bytes   messages
 
 adobe@selma:~$ ipcrm shm 2097153                             
 1 resource(s) deleted
-adobe@selma:~$ /etc/init.d/nlserver6 start
-adobe@selma:~$ /etc/init.d/apache start
+adobe@selma:~$ systemctl start nlserver
+adobe@selma:~$ systemctl start apache2
 ```
 
 >[!NOTE]

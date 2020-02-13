@@ -32,6 +32,18 @@ Hadoop FDA Connector Enhancements - [Read more](../../platform/using/specific-co
 
 **Other documentation updates coming with the release**
 
+The [installation](../../installation/using/before-reading.md), [production](../../production/using/foreword.md) and [configuration](../../configuration/using/additional-parameters.md) guides have been updated with the new systemd unit used by the nlserver service startup. You can still use /etc/init.d/nlserver6, but we recommend that you now use the systemctl command for interacting with the nlserver service.
+
+The installation guide has been updated and synchronized with the latest version of the compatibity matrix. New supported systems have been added. Occurences to deprecated and unsupported systems have been removed. [Read more](../../installation/using/before-reading.md)
+
+The Compatibility matrix has been updated with the Hadoop 3.0 and Snowflake FDA connectors. [Read more](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+
+A best practice on IP affinity has been added to the installation guide. [Read more](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
+
+The database cleanup workflow section has been updated. The provided batch figures now reflect the code implementation. [Read more](../../production/using/database-cleanup-workflow.md)
+
+A limitation on FDA over HTTP has been added to the transactional messaging guide. [Read more](../../production/using/database-cleanup-workflow.md)
+
 Information has been added on the new option that allows you to define a time-out period for the **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** workflow activities. [Read more](../../workflow/using/sql-code-and-javascript-code.md)
 
 Information has been added on the new **[!UICONTROL Start Pending]** view available in the **[!UICONTROL Administration]** > **[!UICONTROL Audit]** > **[!UICONTROL Workflows Status]** node. [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
