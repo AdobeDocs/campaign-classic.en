@@ -245,4 +245,4 @@ The following information is displayed:
 Connection closed by foreign host.
 ````
 
-You can also request the URL [`http://<computer>`](http://machine/r/test) from a Web browser.
+You can also request the URL [`https://<computer>`](https://machine/r/test) from a Web browser.

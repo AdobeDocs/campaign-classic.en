@@ -206,7 +206,7 @@ The following table lists all standard packages with their description, the inst
    <td> Inbox Rendering (IR)<br /> </td> 
    <td> Enables you to preview the message sent in the different contexts in which it may be received and check the compatibility in major desktops and applications. You need a Litmus account.<br /> </td> 
    <td> Marketing<br /> </td> 
-   <td> Optional, <a href="../../delivery/using/about-deliverability.md#inbox-rendering">Learn More</a> </td> 
+   <td> Optional, <a href="../../delivery/using/inbox-rendering.md">Learn More</a> </td> 
   </tr> 
   <tr> 
    <td> Central/local Marketing (Distributed Marketing)<br /> </td> 
