@@ -190,7 +190,7 @@ A section has been added describing the installation and configuration steps for
 
 A section has been added describing the Campaign server uninstallation steps. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_Uninstalling_Campaign.html)
 
-The [security](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html), [deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and [GDPR](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html) getting started guides have been updated.
+The [security](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html), [deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and [privacy](https://helpx.adobe.com/campaign/kb/acc-privacy.html) getting started guides have been updated.
 
 The description of the pre-process workflow option has been updated to reflect product changes. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Action_activities.html#Data_loading__file_)
 
@@ -305,7 +305,7 @@ In the [release notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) and [l
 
 The [security](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html), [deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and [build upgrade](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) getting started guides have been updated.
 
-The [GDPR](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html) getting started guide has been updated with information on how to invoke the API externally and how to use queryDef to query for the status and download the GDPR file.
+The [Privacy](https://helpx.adobe.com/campaign/kb/acc-privacy.html) getting started guide has been updated with information on how to invoke the API externally and how to use queryDef to query for the status and download the GDPR file.
 
 Added a transactional messaging use case to add email attachments on the fly to outbound dispatches. [Read more](https://docs.campaign.adobe.com/doc/AC/en/MCE_Use_case_Purpose.html)
 
@@ -429,7 +429,7 @@ Campaign Classic Common question/FAQ  page has been updated. [Read more](https:/
 
 **New capabilities included in the release**
 
-EU General Data Protection Regulation (GDPR) - [Read more](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html)
+EU General Data Protection Regulation (GDPR) - [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
 
 Active profiles - [Read more](https://docs.campaign.adobe.com/doc/AC/en/PTF_Profile_management_About_profiles.html#Active_profiles)
 

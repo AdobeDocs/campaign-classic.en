@@ -24,7 +24,8 @@ The following section provides an overview of the configuration required for con
 
 >[!NOTE]
 >
->Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).  
+>Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices related to deliverability.
 
 For more on the concepts and best practices related to deliverability, refer to this [section](../../delivery/using/about-deliverability.md).
 
@@ -378,8 +379,13 @@ The parameters are as follows:
 
 * **address**: this is the IP address of the MTA host machine to be used. 
 * **heloHost**: this identifier represents the IP address as it will be seen by the SMTP server. 
+
 * **publicId**: this information is useful when an IP address is shared by several Adobe Campaign **mtas** behind an NAT router. The statistics server uses this identifier to memorize connection and sending statistics between this starting point and the target server. 
 * **weight**: lets you define the relative frequency of use of the address. By default, all addresses have a weight equal to 1.
+
+>[!NOTE]
+>
+>In the serverConf.xml file, you need to verify that that one IP corresponds to a single helohost with a unique identifier (public_id). It cannot be mapped to multiple helohosts, which could result in delivery throttling issues.
 
   In the previous example, with normal conditions, the addresses will be distributed as follows:
 

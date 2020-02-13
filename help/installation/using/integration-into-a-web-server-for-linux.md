@@ -61,12 +61,6 @@ Apply the following steps:
 
 1. Create the file **nlsrv.load** in **/etc/apache2/mods-available** and insert the following content:
 
-   In Debian 7:
-
-   ```
-   LoadModule requesthandler22_module /usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so
-   ```
-
    In Debian 8:
 
    ```
@@ -143,7 +137,7 @@ Apply the following steps:
     userdir
     ```
 
-Comment the functions linked to deactivated modules:
+   Comment the functions linked to deactivated modules:
 
     ```
     DirectoryIndex
@@ -159,44 +153,27 @@ Comment the functions linked to deactivated modules:
     ForceLanguagePriority
     ```
 
-1. Create an Adobe Campaign specific configuration file in the `/etc/httpd/conf.d/` folder.
+1. Create an Adobe Campaign specific configuration file in the `/etc/httpd/conf.d/` folder. For example `CampaignApache.conf`
 
- For example `CampaignApache.conf`.
-
-1. For **RHEL6**, add the following instructions in the file:
+1. For **RHEL7**, add the following instructions in the file:
 
     ```
-    LoadModule requesthandler22_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
+    LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
     Include /usr/local/neolane/nl6/tomcat-7/conf/apache_neolane.conf
     ```
- 
-For **RHEL7**, add the following instructions in the file:
 
-LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
-Include /usr/local/neolane/nl6/tomcat-7/conf/apache_neolane.conf
+1. For **RHEL7**:
 
-1. For **RHEL6**:
-
-Add the following instructions in the `/etc/sysconfig/httpd` file:
-
-    ```
-    #Neolane/Adobe Campaign Configuration
-    if [ "$LD_LIBRARY_PATH" != "" ]; then export LD_LIBRARY_PATH="/usr/local/neolane/nl6/lib:$LD_LIBRARY_PATH"; else export LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib; fi
-    export USERPATH=/usr/local/neolane
-    ```
-
-For **RHEL7**:
-
-Add the `/etc/systemd/system/httpd.service` file with the following content:
+   Add the `/etc/systemd/system/httpd.service` file with the following content:
 
     ```
     .include /usr/lib/systemd/system/httpd.service
     
     [Service]
     Environment=USERPATH=/usr/local/neolane LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib
-    ````
+    ```
 
-Update the module used by systemd:
+   Update the module used by systemd:
 
     ```
     systemctl daemon-reload
@@ -208,18 +185,12 @@ Update the module used by systemd:
     usermod -a -G neolane apache
     usermod -a -G apache neolane
     ```
-The group names to use depend on the way Apache is configured.
+
+   The group names to use depend on the way Apache is configured.
 
 1. Run Apache and the Adobe Campaign server.
 
-For RHEL6:
-
-    ```
-    /etc/init.d/httpd start
-    /etc/init.d/nlserver start
-    ```
-
-For RHEL7:
+   For RHEL7:
 
     ```
     systemctl start httpd

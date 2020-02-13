@@ -434,7 +434,7 @@ sub-product: adobe campaign classic
        + [Marketing Resources (MRM)](workflow/using/marketing-resources--mrm-.md)
        + [Social Marketing](workflow/using/social-marketing.md)
        + [Integrations with Adobe Experience Cloud solutions](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-       + [General Data Protection Regulation (GDPR)](workflow/using/general-data-protection-regulation--gdpr-.md)
+       + [Privacy Data Protection Regulation](workflow/using/general-data-protection-regulation--gdpr-.md)
        + [Transfer to Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
        + [Mid-sourcing platform](workflow/using/mid-sourcing-platform.md)
 + Managing Offers {#managing-offers}

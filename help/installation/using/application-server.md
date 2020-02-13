@@ -48,10 +48,10 @@ To download Java JDK, connect to: [https://www.oracle.com/technetwork/java/javas
 
 To install the JDSL in a Linux environment, it is preferable to use a package manager.
 
-In Debian 7 and 8, use the following command:
+In Debian 8 and 9, use the following command:
 
 ```
-aptitude install openjdk-7-jdk
+aptitude install openjdk-8-jdk
 ```
 
 For RHEL 6, use the following command:
@@ -88,7 +88,7 @@ SpamAssassin lets you assign a score to emails in order to determine whether a m
 
 The qualification of emails as undesirable by SpamAssassin is based entirely on filtering and scoring rules. These rules therefore have to be updated at least once a day in order for your SpamAssassin installation and its integration into Adobe Campaign to be fully functional and to guarantee the relevance of scores assigned to your deliveries before sending. This update is the responsibility of the server administrator hosting SpamAssassin.
 
-The minimum supported versions are: **3.2.5** and **3.3.2**.
+The minimum supported version is: **3.4**
 
 SpamAssassin requires a HTTP internet access (tcp/80).
 

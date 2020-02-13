@@ -37,7 +37,6 @@ Adobe Campaign provides you with two sets of pre-packaged architectural options 
 The Power Booster and Power Cluster options can be used by the following applications:
 
 * Campaign
-* Leads
 * Delivery
 * Message Center
 
