@@ -149,13 +149,13 @@ This task purges all deliveries to be deleted or recycled.
     
       where **$(l)** is the identifier of the delivery.
     
-    * In the delivery log tables (**NmsBroadlogXxx**), mass-deletions are executed in batches of 10,000 records.
-    * In the offer proposition tables (**NmsPropositionXxx**), mass-deletions are executed in batches of 10,000 records.
-    * In the tracking log tables (**NmsTrackinglogXxx**), mass-deletions are executed in batches of 5,000 records.
-    * In the delivery fragment table (**NmsDeliveryPart**), mass-deletions are executed in batches of 5,000 records. This table contains personalization information on the remaining messages to be delivered. 
-    * In the mirror page data fragment table (**NmsMirrorPageInfo**), mass-deletions are executed in batches of 5,000 records. This table contains personalization information on all messages used for generating mirror pages. 
-    * In the mirror page search table (**NmsMirrorPageSearch**), mass-deletions are executed in batches of 5,000 records. This table is a search index which provides access to personalization information stored in the **NmsMirrorPageInfo** table. 
-    * In the batch process log table (**XtkJobLog**), mass-deletions are executed in batches of 5,000 records. This table contains the log of deliveries to be deleted. 
+    * In the delivery log tables (**NmsBroadlogXxx**), mass-deletions are executed in batches of 20,000 records.
+    * In the offer proposition tables (**NmsPropositionXxx**), mass-deletions are executed in batches of 20,000 records.
+    * In the tracking log tables (**NmsTrackinglogXxx**), mass-deletions are executed in batches of 20,000 records.
+    * In the delivery fragment table (**NmsDeliveryPart**), mass-deletions are executed in batches of 500,000 records. This table contains personalization information on the remaining messages to be delivered. 
+    * In the mirror page data fragment table (**NmsMirrorPageInfo**), mass-deletions are executed in batches of 20,000 records for expired delivery parts and for finished or cancelled ones. This table contains personalization information on all messages used for generating mirror pages. 
+    * In the mirror page search table (**NmsMirrorPageSearch**), mass-deletions are executed in batches of 20,000 records. This table is a search index which provides access to personalization information stored in the **NmsMirrorPageInfo** table. 
+    * In the batch process log table (**XtkJobLog**), mass-deletions are executed in batches of 20,000 records. This table contains the log of deliveries to be deleted. 
     * In the delivery URL tracking table (**NmsTrackingUrl**), the following query is used:
 
       ```    
