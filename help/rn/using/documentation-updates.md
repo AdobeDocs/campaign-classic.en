@@ -34,6 +34,10 @@ Hadoop FDA Connector Enhancements - [Read more](../../platform/using/specific-co
 
 XX
 
+## February 2020 {#february-2020}
+
+AMP for Email being now supported by three email providers (Gmail, Outlook and Mail.ru), the section describing how to define interactive content with AMP has been updated. [Read more](../../delivery/using/defining-interactive-content.md)
+
 ## January 2020 {#january-2020}
 
 The Deliverability section has been moved, reorganized, and enhanced with updated content. [Read more](../../delivery/using/about-deliverability.md)
