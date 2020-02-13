@@ -366,7 +366,7 @@ Please contact your database administrator to find out about the procedures best
 
 >[!NOTE]
 >
->For Microsoft SQL Server, you can use the maintenance plan detailed [in this page](http://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
+>For Microsoft SQL Server, you can use the maintenance plan detailed [in this page](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
 
 The example below concerns Microsoft SQL Server 2005. If you are using another version, contact your database administrator to find out about maintenance procedures.
 
