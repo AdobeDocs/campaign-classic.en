@@ -192,6 +192,10 @@ Apply the following steps:
 
 1. Start the Adobe Campaign server (**net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux) and run the command **nlserver pdump** once more to check for presence of all enabled modules.
 
+   >[!NOTE]
+   >
+   >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl start nlserver**
+
    ```
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    syslogd@default (7611) - 9.2 MB
