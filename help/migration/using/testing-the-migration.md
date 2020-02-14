@@ -45,7 +45,7 @@ You should have a test/development environment to carry out migration tests. Dev
 
 1. If the migration of the development environment is successful, you can migrate the production environment.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Due to changes made to the data structure, importing and exporting data packages is not possible between a v5 platform and a v7 platform.
 

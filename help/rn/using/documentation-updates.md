@@ -56,15 +56,19 @@ The **Campaign Classic On-premise & Hosted capability matrix** page has been upd
 
 The **Campaign Classic Capability matrix** page has been updated. [Read more](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
-The new **[!UICONTROL Cleanup of Nmsaddress]** workflow has been documented [here]../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
+The new **[!UICONTROL Cleanup of Nmsaddress]** workflow has been documented [here](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
 
 A limitation has been added when using a query activity in a workflow. [Read more](../../workflow/using/query.md).
 
 A new section has been added to detail the enhanced email address validation rules to send an address to quarantine in case of soft error. [Read more](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
+The parameter from the configuration file indicating that an instance is using the Enhanced MTA or not is now documented. [Read more](../../installation/using/the-server-configuration-file.md#mta)
+
 ## February 2020 {#february-2020}
 
 AMP for Email being now supported by three email providers (Gmail, Outlook and Mail.ru), the section describing how to define interactive content with AMP has been updated. [Read more](../../delivery/using/defining-interactive-content.md)
+
+The Email archiving section has been clarified. [Read more](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
 ## January 2020 {#january-2020}
 

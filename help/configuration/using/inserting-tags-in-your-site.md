@@ -22,7 +22,7 @@ snippet: y
 
 This method consists of sending an HTTP call to the redirection server by inserting an **`<img>`** HTML tag in the HTML source code of the web page you wish to track.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >This method uses the cookies sent by the web browser to identify the recipient, and is not 100% reliable.
 

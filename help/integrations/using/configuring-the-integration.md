@@ -92,7 +92,7 @@ To confugure the AEM external account, follow the steps below:
 
 ### Configure AEM resources filtering {#configure-aem-resources-filtering}
 
-The **AEMResourceTypeFilter **option is used to filter types of Experience Manager resources that can be used in Adobe Campaign. This allows Adobe Campaign to retrieve Experience Manager contents that are specifically designed to be used in Adobe Campaign only.
+The **AEMResourceTypeFilter** option is used to filter types of Experience Manager resources that can be used in Adobe Campaign. This allows Adobe Campaign to retrieve Experience Manager contents that are specifically designed to be used in Adobe Campaign only.
 
 To check if the **[!UICONTROL AEMResourceTypeFilter]** option is configured:
 

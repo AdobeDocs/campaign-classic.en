@@ -116,7 +116,7 @@ The **`<rtevent>`** and **`<batchevent>`** elements have a set of attributes as 
 
 The mandatory attributes of the **`<rtevent>`** and **`<batchevent>`** elements are @type and @email. The value of @type must be the same as the itemized list value defined when configuring the execution instance. This value lets you define the template to be linked to the content of the event during the delivery.
 
-`<rtevent>  configuration example: </rtevent>`
+`<rtevent> configuration example:`
 
 ```
 <rtEvent type="order_confirmation" email="john.doe@domain.com" origin="eCommerce" wishedChannel="0" externalId="1242" mobilePhone="+33620202020"> 

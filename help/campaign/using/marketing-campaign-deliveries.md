@@ -68,7 +68,7 @@ The main target of a delivery can also be defined in the targeting workflow: thi
 
 The [Automating with workflows](../../workflow/using/executing-a-workflow.md#architecture) guide includes a detailed description of how the workflow module operates.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In the same campaign, you cannot set up more than 28 workflows. Past this limit, additional workflows are not visible in the interface and can generate errors.
 
@@ -230,7 +230,7 @@ By default, the control group configuration defined at the campaign level applie
    ![](assets/s_ncs_user_edit_op_target_del.png)
 
 1. Click the **[!UICONTROL Control group]** tab and then select **[!UICONTROL Enable and edit control group configuration]**.
-1. Click **[!UICONTROL Edit...]** to configure the control group
+1. Click **[!UICONTROL Edit...]** to configure the control group.
 
 The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a population](#adding-a-population).
 
@@ -350,7 +350,7 @@ The file extraction launches two operations: budget calculation and stock calcul
 
 You can associate various documents with a campaign: report, photo, web page, diagram, etc. These documents can be in any format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc). To link documents with a campaign, see [Adding documents](#adding-documents).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >This mode is reserved for small documents.
 

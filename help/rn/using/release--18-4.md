@@ -137,7 +137,7 @@ snippet: y
 * A new mode is available for package import using command line, allowing circular dependencies (not recommended for large packages). See the 'Technical evolutions' section for more information. (NEO-8979) 
 * Improved performance for large amount of data loading in Teradata and fixed an issue which prevented from displaying the right value of data processed in the log. (NEO-10429)
 * Importing audiences from Audience Manager now works with split files. Previously, only the last file of the segment was imported by the importSharedAudience technical workflow. (NEO-10156)
-* On Windows, the Campaign server default installation path has changed. When launching the 64-bit version setup, the default installation path is now: **C:Program FilesAdobeAdobe Campaign Classic v7** instead of **C:Program Files (x86)AdobeAdobe Campaign Classic v7**
+* On Windows, the Campaign server default installation path has changed. When launching the 64-bit version setup, the default installation path is now: **C:\Program Files\Adobe\Adobe Campaign Classic v7** instead of **C:\Program Files (x86)\Adobe\Adobe Campaign Classic v7**
 * The default MX rules have been enhanced to include more domains and optimize throughput.
 * Enforced access restrictions on the deployment wizard SOAP call (xtk:serverOptions#SaveOptions).
 * The weka.jar obsolete library has been removed and the OpenSSL library has been updated for security optimization.

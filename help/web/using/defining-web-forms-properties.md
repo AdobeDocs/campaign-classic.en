@@ -137,7 +137,7 @@ The following parameters are available by default:
 * **origin** to specify the origin of the respondent.
 * **_uuid** enables form viewing before publication and error tracking. This parameter is for internal use (creation and debug): when you access the Web form via this URL, the records created aren't taken into account in the tracking (reports). The origin is forced to the **[!UICONTROL Adobe Campaign]** value.
 
-  It is used with the **_preview** parameters and/or ** _debug**:
+  It is used with the **_preview** parameters and/or **_debug**:
 
   **_preview** to display the last saved version. This parameter must be used in the test phase only.
 

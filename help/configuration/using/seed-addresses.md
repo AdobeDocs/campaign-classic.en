@@ -77,7 +77,7 @@ Apply the following steps:
    >
    >The extension of the **nms:seedMember** schema must comply with the structures of a campaign and a delivery in Adobe Campaign.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >
    >    

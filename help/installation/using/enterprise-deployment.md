@@ -189,7 +189,6 @@ The steps for installing the first server are:
    mta@demo (7831) - 15.6 MB
    wfserver@demo (7832) - 11.5 MB
    web@default (28671) - 40.5 MB
-   
    ```
 
    This command also lets you know the version and build number of the Adobe Campaign server installed on the computer.

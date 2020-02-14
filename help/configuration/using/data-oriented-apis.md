@@ -399,7 +399,7 @@ When a query is constructed, the "bound" values are replaced by a character (? i
 
 To avoid binding a parameter, the "noSqlBind" attribute must be populated with the value 'true'.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If the query includes "order-by" or "group-by" instructions, the database engines will not be able to "bind" values. You must place the @noSqlBind="true" attribute on the "select" and/or "where" instructions of the query.
 

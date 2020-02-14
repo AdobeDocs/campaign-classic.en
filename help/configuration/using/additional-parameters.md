@@ -51,7 +51,7 @@ You can display the values of these parameters by configuring the tracking log l
 
 In the server configuration, you can define the maximum number of characters to be taken into account for your web tracking parameters.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Increasing the maximum number of characters to be taken into account can impact the web tracking performance of your platform.
 

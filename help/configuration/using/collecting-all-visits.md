@@ -24,7 +24,7 @@ You can, however, configure your platform so that it collects all visits to page
 
 A user known to the platform is a recipient who has already been targeted by a delivery and who has clicked in a received message at least once. A permanent cookie is used to identify this recipient.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The Adobe Campaign platform is not intended for use as a website tracking tool beyond the context of visiting the site following a click in a message. When this option is enabled, it can cause very high use of resources on the machines hosting your servers (redirection, application, and database). You are advised to ensure that your hardware architecture can support this load, and to avoid placing web tracking tags in the most frequently visited pages, such as the home page.
 

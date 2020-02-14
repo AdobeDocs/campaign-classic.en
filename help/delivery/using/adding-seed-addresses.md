@@ -34,7 +34,7 @@ There are three possible insertion modes:
 
    To do this, click the **[!UICONTROL Import seed templates...]** link and select the folder which contains the address templates. For more on this, refer to [Creating seed address templates](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates).
 
-   If necessary, once they are added, you can doucle-click them or click the **[!UICONTROL Detail...]** button to adapt the content of each address.
+   If necessary, once they are added, you can double-click them or click the **[!UICONTROL Detail...]** button to adapt the content of each address.
 
 1. Creating a condition to dynamically select the control addresses to be inserted.
 

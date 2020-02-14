@@ -47,7 +47,7 @@ This information is also offered in the **[!UICONTROL Campaign orders]** view wh
 
 The central operator can edit the order. There are two ways of doing this:
 
-1. The operator can click the order name to edit it: this displays the order detail.
+1. The operator can click the order name to edit it: this displays the order details.
 
    ![](assets/mkg_dist_catalog_op_command_edit1.png)
 

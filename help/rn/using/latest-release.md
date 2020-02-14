@@ -37,7 +37,7 @@ snippet: y
 
 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032) to view the **last stable build** (GA).
 
-## ![](assets/blue-2.png) Release 20.1 - Build XXXX {#release-20-1-build-XXXX} 
+## ![](assets/blue-2.png) Release 20.1 - Build 9122 {#release-20-1-build-XXXX} 
 
 _February 17, 2020_
 
@@ -67,7 +67,7 @@ _February 17, 2020_
  <tbody> 
   <tr> 
    <td> <p>The Hadoop FDA Connector has been improved to support Hadoop 3.0 as well as Cloudera.</p>
-    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">XXXX</a>.</p>
+    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">detailed documentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -153,7 +153,7 @@ _February 17, 2020_
 
 * Fixed an issue when too many workflows are created in the same campaign. Now, you cannot create more than 28 workflows. A warning is displayed.
 
-* Fixed an issue when using the **A selection of columns* reconciliation option in a **Union** workflow activity.
+* Fixed an issue when using the **A selection of columns** reconciliation option in a **Union** workflow activity.
 
 * Fixed a console crash issue that could occur when using a corrupted enrichment list in a workflow. (NEO-18096)
 

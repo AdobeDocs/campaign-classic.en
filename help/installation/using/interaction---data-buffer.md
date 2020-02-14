@@ -43,7 +43,6 @@ The definition for a writing daemon (process named: interaction) is as follows:
 <interactiond args="" autoStart="false" callDataSize="0" initScript="" maxProcessMemoryAlertMb="1800"
 maxProcessMemoryWarningMb="1600" maxSharedEntries="25000" nextOffersSize="0"
 processRestartTime="06:00:00" runLevel="10" targetKeySize="16"/>
-
 ```
 
 If you use Inbound Interaction, the @autostart attribute must be "true" to automatically launch the process when the Adobe Campaign server launches.
@@ -51,7 +50,6 @@ If you use Inbound Interaction, the @autostart attribute must be "true" to autom
 Argument details:
 
 ```
-
  args: Start-up parameters 
  autoStart: Automatic start Default: false 
  callDataSize: Max. number of characters stored in the shared memory for call data
@@ -64,6 +62,5 @@ Argument details:
  processRestartTime: Time of the day when the process is automatically restartedDefault: '06:00:00' 
  runLevel: Priority at start Default: 10 
  targetKeySize: Max. number of characters stored in the shared memory for identifying individuals Default: 16 
-
 ```
 

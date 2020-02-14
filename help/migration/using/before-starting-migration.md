@@ -73,7 +73,7 @@ In v7, **internal** and **admin** operator connection must be secured by a passw
 nlserver config -internalpassword
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The **internal** password must be identical for all the tracking servers. For more information, refer to the [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier) and [About permissions](../../platform/using/access-management.md#about-permissions) sections.
 

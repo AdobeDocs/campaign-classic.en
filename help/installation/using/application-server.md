@@ -54,12 +54,6 @@ In Debian 8 and 9, use the following command:
 aptitude install openjdk-8-jdk
 ```
 
-For RHEL 6, use the following command:
-
-```
-yum install java-1.8.0-openjdk
-```
-
 For RHEL 7, use the following command:
 
 ```
@@ -69,10 +63,6 @@ yum install java-1.8.0-openjdk
 ## OpenSSL {#openssl}
 
 In Linux, OpenSSL must be installed. The versions supported by Adobe Campaign are **OpenSSL 1.0.1** and **OpenSSL 0.9.8**. Sub-versions 0.9.8g to 0.9.8o are accepted.
-
->[!NOTE]
->
->For RHEL 6 and CentOS 6, openSSL 1.0 is required.
 
 ## Exporting reports {#exporting-reports}
 
