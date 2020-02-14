@@ -563,13 +563,6 @@ At this stage, Apache needs to be stopped. Refer to: [Service stop](#service-sto
 
       Go to the **/usr/local/apache2/conf** directory, edit the **http.conf** file and replace **nl5** with **nl6** in the following lines.
 
-      In **RHEL 6/Debian 7**:
-
-      ```    
-      LoadModule requesthandler22_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
-      Include /usr/local/neolane/nl6/tomcat-6/conf/apache_neolane.conf
-      ```    
-    
       In **RHEL 7/Debian 8**:
 
       ```    

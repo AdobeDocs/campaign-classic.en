@@ -104,9 +104,9 @@ To stop Adobe Campaign services, use one of the following commands:
       /etc/init.d/nlserver6 stop
       ```
 
-     >[!NOTE]
-     >
-     >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl stop nlserver**
+      >[!NOTE]
+      >
+      >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl stop nlserver**
 
     * In Windows:
 
@@ -128,9 +128,9 @@ Similarly, in order to restart Adobe Campaign you can use one of the following c
 
     * In Linux: /etc/init.d/nlserver6 start
 
-     >[!NOTE]
-     >
-     >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl start nlserver**
+      >[!NOTE]
+      >
+      >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl start nlserver**
 
     * In Windows: net start nlserver6
 

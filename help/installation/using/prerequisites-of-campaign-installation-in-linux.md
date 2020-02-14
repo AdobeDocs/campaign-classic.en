@@ -55,9 +55,7 @@ To install Adobe Campaign in Linux, please make sure you have the required libra
 
   The following versions of **libicu** are supported (32bit or 64bit):
 
-    * RHEL 6, SLES: libicu4.2
     * RHEL 7, CentOS 7: libicu50
-    * Debian 7: libicu48
     * Debian 8: libicu52
     * Debian 9: libicu57 
 

@@ -100,15 +100,15 @@ To install Adobe Campaign 64 bit on a Debian 64 bit operating system, apply the 
    apt-get install -f
    ```
 
-**Debian 7/8 specifics**
+**Debian 8/9 specifics**
 
-When installing Adobe Campaign on a Debian 7 operating system, consider the following:
+When installing Adobe Campaign on a Debian 8/9 operating system, consider the following:
 
 * OpenSSL must be installed beforehand.
-* Install libicu48 (Debian 7), libicu52 (Debian 8) or libicu57 (Debian 9), libprotobuf9 (Debian8) and libc-ares2 with the following commands:
+* Install libicu52 (Debian 8) or libicu57 (Debian 9), libprotobuf9 (Debian8) and libc-ares2 with the following commands:
 
   ```
-  aptitude install libicu48 (Debian 7) libicu52 (Debian 8) libicu57 (Debian 9)
+  aptitude install libicu52 (Debian 8) libicu57 (Debian 9)
   ```
 
   ```
@@ -116,13 +116,13 @@ When installing Adobe Campaign on a Debian 7 operating system, consider the foll
   ```
 
   ```
-  aptitude install libprotobuf9 (only Debian 7/8)
+  aptitude install libprotobuf9 (only Debian 8)
   ```
 
 * Install JDK7 with the following command:
 
   ```
-  aptitude install openjdk-7-jdk (Debian 7/8)
+  aptitude install openjdk-7-jdk (Debian 8)
   ```
 
   ```
