@@ -21,10 +21,11 @@ snippet: y
 ## Creating a query {#creating-a-query}
 
 A query lets you select a target according to criteria. You can associate a segment code to the query result and insert additional data into it.
+For more information on query samples, refer to this [this section](../../workflow/using/querying-recipient-table.md).
 
 >[!NOTE]
 >
->Query samples are presented in [this section](../../workflow/using/querying-recipient-table.md).
+>Query activities are not compatible with CLOB fields when using Oracle.
 
 ![](assets/s_user_segmentation_wizard_9.png)
 
@@ -108,7 +109,7 @@ To add a collection of information linked to a targeted population:
 
     * If a single element of the collection coincides with the filtering conditions for this collection, select **[!UICONTROL Single row]** in the **[!UICONTROL Data collected]** field.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >This mode optimizes the SQL query generated thanks to a direct juncture on the collection elements.  
       >

@@ -53,7 +53,7 @@ Here are is a list of articles related to application configuration best practic
 
 * MTA and MTAChild processes and memory: the **mta** module distributes messages to its **mtachild** child modules. Each **mtachild** prepares messages before requesting an authorization from the statistics server, and sending them. Refer to this [page](../../installation/using/email-deliverability.md) for more information.
 * TLS configuration: enabling TLS globally is not recommended because it can reduce throughput. Instead, per-domain TLS settings, managed by deliverability team, should be tuned depending on the needs. Refer to this [page](../../installation/using/email-deliverability.md#mx-configuration) for more information. 
-* DKIM: to insure the security level of the DKIM, 1024b is the Best Practices recommended encryption size. Lower DKIM keys will not be considered as valid by the majority of access providers. Refer to this [page](../../delivery/using/technical-recommendations.md#domainkeys-identified-mail--dkim-) and this [technote](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+* DKIM: to insure the security level of the DKIM, 1024b is the Best Practices recommended encryption size. Lower DKIM keys will not be considered as valid by the majority of access providers. Refer to this [page](../../delivery/using/technical-recommendations.md#dkim) and this [technote](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
 ## Deliverability issues {#deliverability-issues}
 
@@ -62,7 +62,7 @@ Here are is a list of best practices and articles related to deliverability:
 * IP reputation: if the IP reputation is not good enough, there will be an impact on performance. The **Deliverability Monitoring** module offers various tools to track the deliverability performance of your platform. Refer to this [page](../../delivery/using/technical-monitoring.md). 
 * IP warm-up: the IP warm-up is performed by the deliverability team. This involves gradually increasing the number of emails through new IPs over a period of a few weeks.
 * IP affinity setup: an incorrect IP affinity setup can stop the emails altogether (incorrect operator/affinity name in configuration) or reduce the throughput (small number of IPs in the affinity). Refer to this [page](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
-* Email size: email size plays an important role in throughput. The recommended maximum email size is 60 KB. Refer to this [page](https://helpx.adobe.com/legal/product-descriptions/campaign.html). In the [Delivery throughput](../../reporting/using/reports-on-deliveries.md#delivery-throughput) report, check the number of bytes transferred by hour. 
+* Email size: email size plays an important role in throughput. The recommended maximum email size is 60 KB. Refer to this [page](https://helpx.adobe.com/legal/product-descriptions/campaign.html). In the [Delivery throughput](../../reporting/using/delivery-reports.md#delivery-throughput) report, check the number of bytes transferred by hour. 
 * Large number of invalid recipients: when there is a large number of invalid recipients, it can impact throughput. The MTA keeps retrying sending emails to invalid recipients. Please make sure your database is well maintained.
 * Amount of personalization: if a delivery stays in "Personalisation in progress", check the JavaScript used in personalization blocks.
 

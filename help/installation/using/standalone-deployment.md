@@ -177,7 +177,7 @@ Apply the following steps:
     * For Linux: [Integration into a Web server for Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
     * For Windows: [Integration into a Web server for Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. Start the website and test redirection using the URL: [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
+1. Start the website and test redirection using the URL: https://tracking.campaign.net/r/test.
 
    The browser must display the following message:
 
@@ -191,6 +191,10 @@ Apply the following steps:
     * For Windows: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Start the Adobe Campaign server (**net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux) and run the command **nlserver pdump** once more to check for presence of all enabled modules.
+
+   >[!NOTE]
+   >
+   >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl start nlserver**
 
    ```
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -206,7 +210,7 @@ Apply the following steps:
 
    This command also lets you know the version and build number of the Adobe Campaign server installed on the computer.
 
-1. Test the **nlserver web** module using the URL: [https://console.campaign.net/nl/jsp/logon.jsp](https://tracking.campaign.net/r/test)
+1. Test the **nlserver web** module using the URL: https://console.campaign.net/nl/jsp/logon.jsp
 
    This URL enables you to access the download page for the client setup program.
 
@@ -219,7 +223,7 @@ Apply the following steps:
     * For Linux: [Client console availability for Linux](../../installation/using/client-console-availability-for-linux.md)
     * For Windows: [Client console availability for Windows](../../installation/using/client-console-availability-for-windows.md)
 
-1. Start the Adobe Campaign client console (from the previous download page or launched directly on the server for a Windows installation), set the server connection URL to [https://console.campaign.net](https://console.campaign.net) and connect using the **internal** login.
+1. Start the Adobe Campaign client console (from the previous download page or launched directly on the server for a Windows installation), set the server connection URL to https://console.campaign.net and connect using the **internal** login.
 
    Refer to [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md) and [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
 

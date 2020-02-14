@@ -412,7 +412,7 @@ The operator name and login need to be previously configured in the Adobe Campai
 
 #### /nl/jsp/monitor.jsp {#nl-jsp-monitor-jsp}
 
-This is a test to check that an operator can access the Adobe Campaign server via a web page; the same web page as the one accessed via the client console menus. We recommend including it in your surveillance tools (Tivoli, Nagios, etc.).
+This is a test to check that an operator can access the Adobe Campaign server via a web page; the same web page as the one accessed via the client console menus. You can call this page from your surveillance tools (Tivoli, Nagios, etc.).
 
 ![](assets/ncs_monitoring_web.png)
 

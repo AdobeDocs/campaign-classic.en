@@ -26,7 +26,7 @@ These databases are called RBLs (Real-time Blackhole Lists) and they are consult
 * By sender domain: lists sender domains (full domain of the bounce mail address) sending spam or incorrectly configured.
 * By web domain: lists the domains (high-level domains as registered with the registrars) found in the URLs of the links and images contained in spam content. In Adobe Campaign, the domain to be taken into consideration is generally the address used for tracking.
 
-The following is a list of the most widely used RBLs. For a more comprehensive list, you can refer to [https://www.declude.com/Articles.asp?ID=97](https://www.declude.com/Articles.asp?ID=97) or [https://www.dnsstuff.com/](https://www.dnsstuff.com/) ("IP Tools" section, "Spam Database Lookup" form).
+The following is a list of the most widely used RBLs. For a more comprehensive list, you can refer to [https://www.dnsstuff.com/](https://tools.dnsstuff.com/) ("Spam Blacklist Lookup" form).
 
 * **Spamhaus**
 

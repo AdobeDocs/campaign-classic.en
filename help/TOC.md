@@ -14,6 +14,7 @@ sub-product: adobe campaign classic
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/latest-release.md)
   + Previous Releases {#previous-releases}
+    + [Release 19.2](rn/using/release--19-2.md)
     + [Release 19.1](rn/using/release--19-1.md)
     + [Release 18.10](rn/using/release--18-10.md)
     + [Release 18.6](rn/using/release--18-6.md)
@@ -433,7 +434,7 @@ sub-product: adobe campaign classic
        + [Marketing Resources (MRM)](workflow/using/marketing-resources--mrm-.md)
        + [Social Marketing](workflow/using/social-marketing.md)
        + [Integrations with Adobe Experience Cloud solutions](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-       + [General Data Protection Regulation (GDPR)](workflow/using/general-data-protection-regulation--gdpr-.md)
+       + [Privacy Data Protection Regulation](workflow/using/general-data-protection-regulation--gdpr-.md)
        + [Transfer to Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
        + [Mid-sourcing platform](workflow/using/mid-sourcing-platform.md)
 + Managing Offers {#managing-offers}
