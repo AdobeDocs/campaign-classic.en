@@ -59,7 +59,7 @@ For example, in the message above, the subject of the message is personalized fo
 
 >[!CAUTION]
 >
->For privacy reasons, we recommend to use HTTPS for all external resources.
+>For privacy reasons, we recommend using HTTPS for all external resources.
 
 The content of the message is defined in the lower section of the delivery configuration window.
 
