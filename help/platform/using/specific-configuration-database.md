@@ -710,7 +710,7 @@ Connecting to an SAP HANA external database in FDA requires certain additional c
 
 1. Specify the environment variables of the Adobe Campaign server:
 
-    * **LD_LIBRARY_PATH**: It should include the link to your SAP Hana client (/usr/sap/hdbclient/ [libodbcHDB.so](http://libodbchdb.so/) by default).
+    * **LD_LIBRARY_PATH**: It should include the link to your SAP Hana client (/usr/sap/hdbclient/libodbcHDB.so) by default).
     * **ODBCINI**: location of the odbc.ini file (for example /etc/odbc.ini).
 
 1. Create the SAP Hana external account, as detailed in the [Creating a shared connection](#creating-a-shared-connection) section.
