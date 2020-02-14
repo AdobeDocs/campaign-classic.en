@@ -24,11 +24,10 @@ The migration process must be carried out with caution, its impacts must be full
 
 The migration must be tested on the development environment beforehand to make sure it runs smoothly and without any errors. Migrating the production environment must only take place once the migrated development environment is fully approved.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Before starting the migration, you must read this guide **in its entirety**.
 
 >[!NOTE]
 >
 >New features and evolutions for Adobe Campaign v7 are detailed in [this page](https://docs.campaign.adobe.com/doc/AC/en/RN.html).
-

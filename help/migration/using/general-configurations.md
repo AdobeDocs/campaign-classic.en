@@ -33,7 +33,7 @@ In v6.02, the "multi time zone" mode was only available for PostgreSQL database 
 
 To use the TIMESTAMP WITH TIMEZONE mode, you also need to add the **-userTimestamptz:1** option to the postupgrade command line.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If the **-usetimestamptz:1** parameter is used with an incompatible database engine, your database will be corrupted and you will have to restore a backup of your database and re-execute the command above.
 
@@ -83,7 +83,7 @@ To check if both sides are on the same time zones:
 
 ### Security zones {#security-zones}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >For security reasons, the Adobe Campaign platform is no longer accessible by default: you must configure the security zones, and therefore collect operator IP addresses.
 
@@ -103,7 +103,7 @@ In v7, **internal** and **admin** operator connection must be secured by a passw
 nlserver config -internalpassword
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The **internal** password must be identical for all the tracking servers. For more information, refer to [this section](../../installation/using/campaign-server-configuration.md#internal-identifier) and [this section](../../platform/using/access-management.md#about-permissions).
 
@@ -166,7 +166,7 @@ New link using the connection page:
 /nl/jsp/logon.jsp?login=<trusted login>&action=submit&target=/view/recipientOverview
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If you use an operator linked with a trusted IP mask, check that it has the minimum rights and that it is in a security zone in **sessionTokenOnly** mode.
 
@@ -174,7 +174,7 @@ New link using the connection page:
 
 Unknown SQL function calls are no longer naturally sent to the server. Currently, all SQL functions must be added to the **xtk:funcList** schema (for more on this, refer to [this section](../../configuration/using/adding-additional-sql-functions.md)). When migrating, an option is added during the postupgrade that allows you to maintain compatibility with old undeclared SQL functions. If you would like to continue using these functions, check that the **XtkPassUnknownSQLFunctionsToRDBMS** option is indeed defined at the **[!UICONTROL Administration > Platform > Options]** node level.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >We strongly recommend against using this option due to the security risks it introduces.
 
@@ -457,7 +457,7 @@ There are three possible ways to resolve a conflict:
 * **[!UICONTROL Accept the new version]**: recommended if the resources provided with Adobe Campaign have not been changed by the user.
 * **[!UICONTROL Keep the current version]**: means that the update is rejected.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >If you select this resolution mode, you risk losing patches in the new version. It is therefore strongly recommended that this option is not used or reserved only for expert operators.
 
@@ -504,7 +504,7 @@ $(XTK_INSTALL_DIR)/tomcat-7/lib/el-api.jar
 
 In v7, the offer content has been moved. In v6.02 the content was in each representation schema (**nms:emailOfferView**). In v7, the content is now in the offer schema. After the postupgrade, the content will therefore not be visible in the interface. After the postupgrade, you must recreate the offer content, or develop a script which automatically moves the content from the representation schema to the offer schema.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If some deliveries using configured offers were to be sent after the migration, you must delete and recreate all these deliveries in v7. If you cannot do that, a "compatibility mode" is offered. This mode is not recommended because you will not benefit from all the new features in Interaction v7. This is a transitional mode which allows you to complete ongoing campaigns before the actual 6.1 migration. For more information regarding this mode, please contact us.
 
