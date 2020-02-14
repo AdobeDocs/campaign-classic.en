@@ -62,9 +62,13 @@ A limitation has been added when using a query activity in a workflow. [Read mor
 
 A new section has been added to detail the enhanced email address validation rules to send an address to quarantine in case of soft error. [Read more](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
+The parameter from the configuration file indicating that an instance is using the Enhanced MTA or not is now documented. [Read more](../../installation/using/the-server-configuration-file.md#mta)
+
 ## February 2020 {#february-2020}
 
 AMP for Email being now supported by three email providers (Gmail, Outlook and Mail.ru), the section describing how to define interactive content with AMP has been updated. [Read more](../../delivery/using/defining-interactive-content.md)
+
+The Email archiving section has been clarified. [Read more](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
 ## January 2020 {#january-2020}
 
