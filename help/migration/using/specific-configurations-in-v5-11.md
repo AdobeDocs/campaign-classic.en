@@ -55,7 +55,7 @@ Although not recommended, there are certain solutions if you wish to keep specif
 
 ## MySQL {#mysql}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >MySQL is only supported in v7 as the main database engine when migrating from version 6.02 or 5.11 using this engine.
 
