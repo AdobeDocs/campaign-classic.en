@@ -153,7 +153,7 @@ _February 17, 2020_
 
 * Fixed an issue when too many workflows are created in the same campaign. Now, you cannot create more than 28 workflows. A warning is displayed.
 
-* Fixed an issue when using the **A selection of columns* reconciliation option in a **Union** workflow activity.
+* Fixed an issue when using the **A selection of columns** reconciliation option in a **Union** workflow activity.
 
 * Fixed a console crash issue that could occur when using a corrupted enrichment list in a workflow. (NEO-18096)
 
