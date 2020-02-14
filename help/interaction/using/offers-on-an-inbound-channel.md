@@ -24,11 +24,11 @@ The Neobank site wants to display an offer on their website aimed at unidentifie
 
 To set up this interaction, we're going to:
 
-1. [Create an anonymous environement](#creating-an-anonymous-environment).
-1. [Create anonymous offer spaces](#creating-anonymous-offer-spaces).
-1. [Create an offer category and a theme.](#creating-an-offer-category-and-a-theme).
-1. [Create anonymous offers.](#creating-anonymous-offers).
-1. [Configure the web offer spaces on the website](#configure-the-web-offer-space-on-the-website).
+1. [Create an anonymous environement](#creating-an-anonymous-environment)
+1. [Create anonymous offer spaces](#creating-anonymous-offer-spaces)
+1. [Create an offer category and a theme](#creating-an-offer-category-and-a-theme)
+1. [Create anonymous offers.](#creating-anonymous-offers)
+1. [Configure the web offer spaces on the website](#configure-the-web-offer-space-on-the-website)
 
 ### Creating an anonymous environment {#creating-an-anonymous-environment}
 
@@ -60,7 +60,7 @@ You will get a tree structure containing your new environment:
     * Title
     * HTML content
     * Image URL
-    * Destination URL.
+    * Destination URL
 
    ![](assets/offer_inbound_anonymous_example_030.png)
 

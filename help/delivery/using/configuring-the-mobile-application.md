@@ -117,7 +117,7 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
     >
     >Make sure that you do not use the same certificate for the development version (sandbox) and the production version of the application.
 
-1. The **[!UICONTROL Sounds]** tab allows your to specify a sound to play. Click **[!UICONTROL Add]** and fill **[!UICONTROL Internal name]** field which must contain the name of the file embedded in the application or the name of the system sound.
+1. The **[!UICONTROL Sounds]** tab allows you to specify a sound to play. Click **[!UICONTROL Add]** and fill **[!UICONTROL Internal name]** field which must contain the name of the file embedded in the application or the name of the system sound.
 
 1. Click **[!UICONTROL Next]** to start configuring the development application.
 

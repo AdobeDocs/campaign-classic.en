@@ -26,7 +26,7 @@ A **delivery** is a standalone delivery object that is executed once. It can be 
 
 Deliveries can be created either from the list of deliveries, or within a workflow via a [Delivery](../../workflow/using/delivery.md) activity.
 
-Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activites, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
+Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
 
 ## Recurring delivery {#recurring-delivery}
 
