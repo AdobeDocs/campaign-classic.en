@@ -56,7 +56,7 @@ The **Campaign Classic On-premise & Hosted capability matrix** page has been upd
 
 The **Campaign Classic Capability matrix** page has been updated. [Read more](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
-The new **[!UICONTROL Cleanup of Nmsaddress]** workflow has been documented [here]../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
+The new **[!UICONTROL Cleanup of Nmsaddress]** workflow has been documented [here](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
 
 A limitation has been added when using a query activity in a workflow. [Read more](../../workflow/using/query.md).
 
