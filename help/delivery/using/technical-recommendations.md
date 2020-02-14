@@ -74,7 +74,7 @@ DKIM comes from a combination of the DomainKeys, Yahoo! and Cisco Identified Int
 
 DKIM replaced **DomainKeys** authentication.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, DKIM email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the **[!UICONTROL Domain management]** table as part of the Enhanced MTA upgrade.
 >

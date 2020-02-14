@@ -24,10 +24,11 @@ The following section provides an overview of the configuration required for con
 
 >[!NOTE]
 >
->All technical recommendations concerning the efficient sending and receiving of messages by an Adobe Campaign platform are available in the **Deliverability** Technical Note.
->
->Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).  
->Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices related to deliverability.
+>Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+
+For more on the concepts and best practices related to deliverability, refer to this [section](../../delivery/using/about-deliverability.md).
+
+All technical recommendations concerning the efficient sending and receiving of messages by an Adobe Campaign platform are available in this [section](../../delivery/using/technical-recommendations.md).
 
 ## Operating principle {#operating-principle}
 
@@ -135,7 +136,7 @@ By default, the statistics server listens on port 7777. This port can be modifie
 
 MX rules (Mail eXchanger) are the rules that manage communication between a sending server and a receiving server.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
 >
