@@ -26,7 +26,7 @@ Adobe Campaign provides the **Federated Data Access** (FDA) option in order to p
 
 ## Operating principle {#operating-principle}
 
-The FDA option allows you to extend your data model in a third party database. It will automatically detect the structure of the targeted tables and use data from the SQL sources.
+The FDA option allows you to extend your data model in a third-party database. It will automatically detect the structure of the targeted tables and use data from the SQL sources.
 
 
 In order to use this functionality, you have to:

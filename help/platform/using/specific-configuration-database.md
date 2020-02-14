@@ -201,7 +201,7 @@ The connector supports the following options:
 |---|---|---|
 |  workschema |   |  Database schema to use for work tables |
 |  warehouse |   |  Name of the default warehouse to use. It will override the user's default. |
-|  TimeZoneName |   |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+|  TimeZoneName |   |  By default empty, which means that the system time zone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
 |  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
 |  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 
@@ -259,7 +259,7 @@ The connector supports the following options:
 |---|---|---|
 |  workschema | &nbsp; |  Database schema to use for work tables |
 |  warehouse | &nbsp; |  Name of the default warehouse to use. It will override the user's default. |
-|  TimeZoneName | &nbsp; |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone).|
+|  TimeZoneName | &nbsp; |  By default empty, which means that the system time zone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone).|
 |  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
 |  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 
@@ -305,13 +305,13 @@ The connector supports the following options:
 |---|---|---|
 |  workschema |  &nbsp; |  Database schema to use for work tables |
 |  warehouse |  &nbsp; |  Name of the default warehouse to use. It will override the user's default. |
-|  TimeZoneName | &nbsp; |  By default empty, which means that the system timezone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+|  TimeZoneName | &nbsp; |  By default empty, which means that the system time zone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
 |  WeekStart |  0, 1-7 |  By default set to 0. (WEEK_START session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
 |  UseCachedResult |  TRUE/FALSE |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <br>For more on this, refer to this [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html).|
 
 ## Configure access to Hadoop 3.0 {#configure-access-to-hadoop-3}
 
-Connecting to an Hadoop external database in FDA requires the following configurations on the Adobe Campaign server. Note that this configuration is available for both Windows and Linux.
+Connecting to a Hadoop external database in FDA requires the following configurations on the Adobe Campaign server. Note that this configuration is available for both Windows and Linux.
 
 1. Download the ODBC drivers for Hadoop depending on your OS version. Drivers can be found on this [page](https://www.cloudera.com/downloads.html).
 
@@ -352,7 +352,7 @@ Connecting to an Hadoop external database in FDA requires the following configur
 
       Name of your database if not specified in DSN. It can be left empty if specified in the DSN.
 
-    * **[!UICONTROL Timezone]**
+    * **[!UICONTROL Time zone]**
 
       Server time zone
 
@@ -630,7 +630,7 @@ Connecting to a Sybase IQ external database in FDA requires additional configura
 
 >[!NOTE]
 >
->For Windows, you must install the Sybase IQ client on the Adobe Campaign server and create an ODBC connection. Make sure you create a system datasource when the Adobe Campaign server (nlserver) is running as a service in Windows.
+>For Windows, you must install the Sybase IQ client on the Adobe Campaign server and create an ODBC connection. Make sure you create a system data source when the Adobe Campaign server (nlserver) is running as a service in Windows.
 
 ## Configure access to Teradata {#configure-access-to-teradata}
 
