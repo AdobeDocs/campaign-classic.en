@@ -86,7 +86,7 @@ Examples:
 
 The **xpath** attribute points to the field in your schema that you wish to index.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >It is important to remember that the SQL query read performance gains provided by indexes also come with a performance hit on writing records. The indexes should therefore be used with precaution.
 
@@ -108,7 +108,7 @@ Example:
 
 In this example, instead of letting the **@autopk** attribute create a default primary key named “id” we are specifying our own “householdId” primary key.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >When creating a new schema or during a schema extension, you need to keep the same primary key sequence value (@pkSequence) for the whole schema.
 
@@ -167,7 +167,7 @@ Example of an XML field also stored in an SQL field and which has an **@dataPoli
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Although most attributes are linked according to a 1-1 cardinality to a physical field of the database, this is not the case for the XML fields or the computed fields.   
 >An XML field is stored in a memo field ("mData") of the table.   

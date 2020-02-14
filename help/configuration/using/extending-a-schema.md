@@ -18,7 +18,7 @@ snippet: y
 
 # Extending a schema{#extending-a-schema}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Some built-in schemas must not be extended: mainly those for which the following settings are defined:   
 >**dataSource="file"** and **mappingType="xmlFile"**.   
@@ -34,7 +34,7 @@ There are two methods for extending an existing schema:
 
    An extension schema does not have its own schema: the schema generated from the source schema will be filled in with the fields of the extension schema.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >You are not allowed to modify the built-in schemas of the application, but rather the schema extension mechanism. Otherwise, modified schemas will not be updated at the time of future upgrades of the application. This can lead to malfunctions in the use of Adobe Campaign.
 
@@ -62,7 +62,7 @@ There are two methods for extending an existing schema:
 
    The **belongsTo** attribute on the field fills in the schema where it is declared.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >For the modifications to be taken into account, you need to regenerate schemas. For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.   
 >If the modifications impact the structure of the database, you need to run an update. For more on this, refer to the [Updating the database structure](../../configuration/using/updating-the-database-structure.md) section.

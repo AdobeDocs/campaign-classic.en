@@ -45,7 +45,7 @@ To extend the **nms:recipient** schema recipient table, apply the following proc
 
    In this example, an indexed field (**fidelity**) is added, and the **location** element (which already existed in the **nms:recipient** schema) is supplemented with an enumerated field (**area**).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Remember to add the **extendedSchema** attribute to reference the extension schema.
 
