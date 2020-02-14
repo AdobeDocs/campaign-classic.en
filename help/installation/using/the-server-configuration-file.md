@@ -1555,6 +1555,12 @@ Here are the different parameters of the **mta** node. This is the configuration
    <td> If undefined, the latest version is used. <br /> </td> 
   </tr> 
   <tr> 
+   <td> useMomentum<br /> </td> 
+   <td> If set to "true", your instance is using the <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html" target="_blank">Enhanced MTA</a>.<br /> </td> 
+   <td> String<br /> </td> 
+   <td> <br /> </td>b 
+  </tr>
+  <tr> 
    <td> verifyMode<br /> </td> 
    <td> Verification mode: activates the verify mode (no physical transmission of messages; used for simulation and tests).<br /> </td> 
    <td> Boolean<br /> </td> 
@@ -1571,13 +1577,7 @@ Here are the different parameters of the **mta** node. This is the configuration
    <td> X-Mailer field: value of field 'X-Mailer' in SMTP mail header.<br /> </td> 
    <td> String<br /> </td> 
    <td> 'nlserver, Build $(PRODUCT_VERSION)'<br /> </td> 
-  </tr> 
-   <tr> 
-   <td> useMomentum<br /> </td> 
-   <td> If set to "true", your instance is using the <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html" target="_blank">Enhanced MTA</a>.<br /> </td> 
-   <td> String<br /> </td> 
-   <td> <br /> </td>b 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
