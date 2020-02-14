@@ -20,7 +20,7 @@ snippet: y
 
 Adobe Campaign lets you link collected Web tracking information to a recipient when they browse your site anonymously. When a user browses the tagged pages of your website this browsing information is collected, so that once they click in an email sent by Adobe Campaign, they are identified and the information is automatically linked to them.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Setting up anonymous tracking on a website can trigger the collection of a significant amount of tracking logs, thereby impacting database operation. Configure it with care.   
 >Tracking logs are saved in the database until the tracking data is purged. Use the deployment wizard to configure the purge frequency. For more on this, refer to [this section](../../installation/using/deploying-an-instance.md#purging-data).

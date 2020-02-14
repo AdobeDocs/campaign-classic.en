@@ -101,7 +101,7 @@ By default, built-in schemas are only accessible with WRITE permissions for oper
 * xtk:strings
 * xtk:xslt
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >READ and WRITE permissions for the **xtk:sessionInfo** schema are only accessible by the internal account of an Adobe Campaign instance.
 
