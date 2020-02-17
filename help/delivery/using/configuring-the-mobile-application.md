@@ -252,7 +252,7 @@ To choose which connector you want to use, follow these steps:
 
 1. Enter a **[!UICONTROL Label]**.
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to: [Integrating Campaign SDK into the mobile application]((../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)).
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to: [Integrating Campaign SDK into the mobile application](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md).
 
     >[!NOTE]
     >
