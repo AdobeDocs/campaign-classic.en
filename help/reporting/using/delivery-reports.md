@@ -31,7 +31,7 @@ You can track the execution of deliveries via various reports accessible from th
 
    By default, the following reports are available:
 
-    * **[!UICONTROL Delivery throughput]** : refer to [Delivery throughput](#delivery-throughput).
+    * **[!UICONTROL Delivery throughput]** : refer to [Delivery throughput](../../reporting/using/global-reports.md#delivery-throughput).
     * **[!UICONTROL Sharing to social networks]** : refer to [Sharing to social networks](#sharing-to-social-networks).
     * **[!UICONTROL Statistics on sharing activities]** : refer to [Statistics on sharing activities](#statistics-on-sharing-activities).
     * **[!UICONTROL Hot clicks]** : refer to [Hot clicks](#hot-clicks).
