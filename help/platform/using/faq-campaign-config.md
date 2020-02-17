@@ -41,7 +41,7 @@ As an expert user, you can configure tracking capabilities on your Campaign inst
 
 ## How to configure email deliverability? {#how-to-configure-email-deliverability-}
 
-In addition to the [Deliverability getting started guide](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html), read out the section about email deliverability configuration to understand how to configure your instance to maximize Campaign delivering capabilities.
+In addition to the [Deliverability getting started guide](https://docs.adobe.com/content/help/en/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html), read out the section about email deliverability configuration to understand how to configure your instance to maximize Campaign delivering capabilities.
 
 [Click here to learn more](../../installation/using/email-deliverability.md).
 
