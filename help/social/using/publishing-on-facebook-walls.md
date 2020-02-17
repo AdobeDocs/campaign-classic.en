@@ -38,7 +38,7 @@ Start by creating a Facebook account and several pages: these will be used for s
 
 ## Creating a test Facebook page {#creating-a-test-facebook-page}
 
-We recommend creating a private Facebook page for delivering publication proofs (for more on this, refer to [Sending the proof](#sending-the-proof)).
+We recommend creating a private Facebook page for delivering publication proofs (for more on this, refer to [Sending the proof](../../social/using/publishing-on-facebook.md#sending-the-proof).
 
 1. Log on to the Facebook account which you use to administer your pages.
 1. Create a new Facebook page.
