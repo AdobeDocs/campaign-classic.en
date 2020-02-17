@@ -57,7 +57,7 @@ If you get an **ORA 01805** error during postupgrade, this means that the Oracle
 
 1. Make sure the time zone files are identical on both servers.
 
-For more information, visit: [https://download.oracle.com/docs/cd/E11882_01/server.112/e10729/ch4datetime.htm](http://download.oracle.com/docs/cd/E11882_01/server.112/e10729/ch4datetime.htm).
+For more information, visit: [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004).
 
 A time zone misalignment between client and server can also cause some lags. That is why we recommend using the same version of Oracle library on the client and server sides, both time zones must be the same.
 
