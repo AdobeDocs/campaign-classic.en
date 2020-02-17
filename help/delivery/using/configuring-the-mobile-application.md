@@ -121,7 +121,7 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
 1. Click **[!UICONTROL Next]** to start configuring the development application.
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to: [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to: [Integrating Campaign SDK into the mobile application](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
 
     >[!NOTE]
     >
@@ -252,7 +252,7 @@ To choose which connector you want to use, follow these steps:
 
 1. Enter a **[!UICONTROL Label]**.
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to: [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application).
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to: [Integrating Campaign SDK into the mobile application]((../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)).
 
     >[!NOTE]
     >
@@ -276,7 +276,7 @@ By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (
 1. Define the mapping in the **[!UICONTROL Subscription parameters]** tab.
    >[!CAUTION]
    >
-   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to the [Integrating Campaign SDK into the mobile application](#integrating-campaign-sdk-into-the-mobile-application) section.
+   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to the [Integrating Campaign SDK into the mobile application](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) section.
 
 ### Step 4: Creating an Android rich notification {#creating-android-delivery}
 
