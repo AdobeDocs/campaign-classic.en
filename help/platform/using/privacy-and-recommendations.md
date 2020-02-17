@@ -20,13 +20,21 @@ snippet: y
 
 ## About privacy and consent {#about-privacy-and-consent}
 
-Adobe Campaign is a powerful tool for collecting and processing extremely large amounts of data, including personal information. We encourage all users of Adobe Campaign to work within legislation (DPA, CAN-SPAM, European Directive on Privacy and Electronic Communications, European GDPR, etc.), make responsible and ethical use of personal information and refrain from sending unsolicited e-mail, push notifications and SMS messages ("spam"). We strongly believe in the principles of permission marketing in fostering customer lifetime value and loyalty, and we therefore strictly forbid the use of Adobe Campaign in sending unsolicited messages.
+Adobe Campaign is a powerful tool for collecting and processing extremely large amounts of data, including personal information. We encourage all users of Adobe Campaign to work within legislation (DPA, CAN-SPAM, European Directive on Privacy and Electronic Communications, European GDPR, CCPA, etc.), make responsible and ethical use of personal information and refrain from sending unsolicited e-mail, push notifications and SMS messages ("spam"). We strongly believe in the principles of permission marketing in fostering customer lifetime value and loyalty, and we therefore strictly forbid the use of Adobe Campaign in sending unsolicited messages.
 
 For more on this, refer to [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/marketing-cloud.html).
 
-Adobe Campaign provides the tools and functionalities, as well as best practices, to help you with your GDPR compliance when using our service. Refer to [this document](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html).
-
 Take the time to go through the [Security and Privacy checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html) to learn the key elements to check regarding security and privacy.
+
+## Privacy management {#privacy-management}
+
+GDPR (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
+
+CCPA (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
+
+In addition to consent management, data retention settings, and rights management, we provide, in our role as Data Processor, additional capabilities, to help facilitate your readiness as Data Controller for certain Privacy requests.
+
+In this [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html), you will learn how Adobe Campaign helps you manage the different Privacy key features: Right to Access, Right to be Forgotten, consent, data retention and user roles. You will also find best best practices, to help you with your Privacy compliance when using our service.
 
 ## Cookies and tracking capabilities {#cookies-and-tracking-capabilities}
 

@@ -30,6 +30,6 @@ There is no impact for Apache users if they use the provided **apache_neolane.co
 
 For IIS users (on Windows), several icons will appear missing in the console after the build update. Additional IIS update steps are required:
 
-1. After the build update, double-click on **iis_neolane_setup.vbs** located in the Campaign installation directory. The default path is C:Program Files (x86)AdobeAdobe Campaign v7tomcat-7conf
+1. After the build update, double-click on **iis_neolane_setup.vbs** located in the Campaign installation directory. The default path is C:\Program Files (x86)\Adobe\Adobe Campaign v7\tomcat-7\conf
 1. Restart the IIS site that has been updated by the previous step.
 

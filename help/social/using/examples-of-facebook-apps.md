@@ -26,7 +26,7 @@ When a user clicks the tab of a Facebook application, it is displayed in a space
 
 ![](assets/social_webapp_fb_000.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Please comply with the configuration steps described in [Creating a Facebook application](../../social/using/creating-a-facebook-application.md).
 
@@ -40,7 +40,7 @@ The examples of Facebook type web applications detailed here are:
 * How to forward settings to a Facebook application. Refer to [How to forward settings to a Facebook application?](#how-to-forward-settings-to-a-facebook-application-).
 * How to acquire fan data. Refer to [How to acquire fan data?](#how-to-acquire-fan-data-).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >These simple use cases are provided as examples to illustrate the functionalities of Facebook type web applications.
 
@@ -93,7 +93,7 @@ Check that the tab of the **App01** application shows up on your Facebook page. 
 
 ## How to forward settings to a Facebook application? {#how-to-forward-settings-to-a-facebook-application-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Comply with the configuration steps detailed in [Creating a Facebook application](../../social/using/creating-a-facebook-application.md).
 

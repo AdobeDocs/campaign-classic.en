@@ -77,7 +77,7 @@ Click **[!UICONTROL Preview]** and select a recipient to view the conditional co
 
 ## Creating multilingual email {#creating-multilingual-email}
 
-In the example below, you will learn how to create a multilingual email. Content will display in one language or the other depending on the recipient's prefered language.
+In the example below, you will learn how to create a multilingual email. Content will display in one language or the other depending on the recipient's preferred language.
 
 1. Create an email and select the target population. In this example, the condition to display one version or the other will be based on the **Language** value of the recipient's profile. In this example, these values are set to **EN**, **FR**, **ES**.
 1. In the email HTML content, click the **[!UICONTROL Source]** tab and paste the following code:

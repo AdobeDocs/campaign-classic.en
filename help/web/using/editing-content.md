@@ -131,7 +131,6 @@ Personalization blocks and fields can only be inserted into Text type blocks.
 >For each type of link, you can configure the opening mode: select the target window in the **Target** drop-down list. This value corresponds to the **`<target>`** HTML tag.  
 >
 >The list of available **targets** is as follows:  
-
 >
 >* Other (IFrame)
 >* Top window (_top)

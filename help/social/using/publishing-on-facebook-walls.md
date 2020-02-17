@@ -55,7 +55,7 @@ In order for Adobe Campaign to be able to publish on the walls of your pages, yo
 1. Log on to the Facebook account which you use to administer pages. 
 1. Enter the following address in your browser: [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Depending on the type of account you have, one or more authorizations may be necessary.
    >
@@ -83,7 +83,7 @@ To delegate write access to Adobe Campaign for posting on the walls of your page
 
 This step requires access to both your Adobe Campaign console and an Internet browser logged on to the Facebook account which you use for page administration:
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The Adobe Campaign operator must have administration rights to carry out this configuration.
 
@@ -103,7 +103,7 @@ This step requires access to both your Adobe Campaign console and an Internet br
 
    ![](assets/social_facebook_external_account_006.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >You must not use the unsecure URL under any circumstances.
 

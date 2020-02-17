@@ -74,11 +74,11 @@ To create a simulation, apply the following steps:
 
    ![](assets/simu_campaign_opti_edit_scope_save.png)
 
-   If necessary, you can use a dynamic condition via the **[!UICONTROL Edit the dynamic condition...]** link
+   If necessary, you can use a dynamic condition via the **[!UICONTROL Edit the dynamic condition...]** link.
 
    Click **[!UICONTROL Save]** to approve this configuration.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >Only deliveries whose target has been calculated are taken into account when calculating simulations (statuses: **Target ready** or **Ready to deliver**).
 
@@ -211,13 +211,13 @@ In the example below, we want to create an additional reporting axis based on th
 
     * **[!UICONTROL Generate target overlap statistics]** lets you recover all overlap statistics in the simulation report. Overlaps are recipients targeted in at least two deliveries within one simulation.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >Selecting this option considerably increases simulation execution time.
 
     * **[!UICONTROL Keep the simulation work table]** lets you keep simulation traces.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >The automatic saving of these tables requires a significant storage capacity: make sure the database is big enough.
 

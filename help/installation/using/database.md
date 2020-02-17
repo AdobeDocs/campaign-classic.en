@@ -28,13 +28,12 @@ Also check the [Database access layers](../../installation/using/prerequisites-o
 
 The native client must be installed on the Adobe Campaign application servers.
 
-You can check for the native client on the server via the ODBC driver configuration panel, under **SQL Native Client** (for Microsoft SQL Server 2005 clients), or **SQL Server Native Client 10.0** (for Microsoft SQL Server 2008 and 2008 R2 clients), or **SQL Server Native Client 11.0** (for Microsoft SQL Server 2012 clients).
+You can check for the native client on the server via the ODBC driver configuration panel, under **SQL Server Native Client 10.0** (for Microsoft SQL Server 2008 and 2008 R2 clients), or **SQL Server Native Client 11.0** (for Microsoft SQL Server 2012, 2014, 2016 and 2017  clients).
 
 The following access DLLs must be present:
 
-* **sqlncli.dll** for Microsoft SQL Server 2005 client,
 * **sqlncli10.dll** for Microsoft SQL Server 2008 and 2008 R2 clients,
-* **sqlncli11.dll** for Microsoft SQL Server 2012 client.
+* **sqlncli11.dll** for Microsoft SQL Server 2012, 2014, 2016 and 2017 clients.
 
   Access DLLs are found on the Microsoft website.
 

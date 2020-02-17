@@ -34,6 +34,10 @@ The following commands are used to start up and shut down the Adobe Campaign ser
     * **/etc/init.d/nlserver6 start**
     * **/etc/init.d/nlserver6 stop**
 
+ >[!NOTE]
+ >
+ >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl start nlserver** / **systemctl stop nlserver**
+
 Here is a list of the usual administration commands accessible in Linux (as **Adobe Campaign**):
 
 * Display all started Adobe Campaign modules: **/etc/init.d/nlserver6 pdump** or **/etc/init.d/nlserver6 status**
@@ -72,30 +76,19 @@ Here is a list of the usual administration commands accessible in Linux (as **Ad
   **nlserver restart web**
 
   >[!NOTE]
-  >
-
-  >
-  >    
-  >    
+  > 
   >    * If the instance is not specified, the "default" instance will be used.
   >    * In the event of an emergency, use the **-immediate** option to force an immediate halt to the process (equivalent to Unix command **kill -9**).
   >    * Use the **-noconsole** option to ensure that the module launched will display nothing on the console. Its logs will be written to the disk via the **syslogd** module.
   >    * Use the **-verbose** option to display additional information on process actions. 
   >    
-  >    
   >      Example:
-  >    
   >    
   >      **nlserver restart web -verbose**
   >    
-  >    
   >      **nlserver start mta@myinstance -verbose**
   >    
-  >    
   >      This option adds additional logs. We recommend starting the processes again without the **-verbose** option once you have found the desired information, to avoid overloading logs.
-  >    
-  >    
-  >
 
 * Start up all Adobe Campaign processes (equivalent to starting up the **nlserver6** service):
 

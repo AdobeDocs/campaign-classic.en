@@ -80,7 +80,7 @@ This step requires access to both your Adobe Campaign console and an Internet br
 
    ![](assets/social_facebook_external_account_009.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >You must not use the unsecure URL under any circumstances.
 

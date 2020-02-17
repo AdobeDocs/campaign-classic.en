@@ -26,7 +26,7 @@ There are three available Web tracking modes: **"Session tracking"**,**"Permanen
 
 Each mode has specific characteristics. The "permanent" Web tracking mode includes the characteristics of the "session" Web tracking mode, while the "anonymous" mode includes the characteristics of the "permanent" and "session" modes.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The "anonymous" Web tracking mode is enabled by default if the "Leads" package is enabled. In all other cases, the "session" Web tracking mode is enabled by default.
 >

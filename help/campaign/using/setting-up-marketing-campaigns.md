@@ -144,14 +144,14 @@ Recurring campaigns are created from a specific template defining the workflow t
 
   The configuration mode of the execution schedule coincides with the **[!UICONTROL Scheduler]** object of the Workflow. For more on this, refer to [this section](../../workflow/using/executing-a-workflow.md#architecture).
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >Execution schedule configuration must be performed carefully to avoid overloading the database. Recurring campaigns duplicate the workflow(s) of their template depending on the specified schedule. The implementation of excessively frequent workflow creation can hinder the operation of the database.
 
 1. Specify a value in the **[!UICONTROL Create in advance for]** field in order to create the corresponding workflows for the period indicated.
 1. Create the workflow template to be used in campaigns based on this template, with the targeting parameters and one or more generic deliveries.
 
-    >[!CAUTION]
+    >[!NOTE]
     >
     >This workflow must be saved as a recurring workflow template. To do this, edit the workflow properties and select the **[!UICONTROL Recurring workflow template]** option in the **[!UICONTROL Execution]** tab.
 
@@ -170,7 +170,7 @@ To create the recurring campaign and execute its workflows according to the sche
 
    For each line, you can add the following additional options:
 
-    * **[!UICONTROL To be approved]** : lets you force the delivery approval requests in the workflow
+    * **[!UICONTROL To be approved]** : lets you force the delivery approval requests in the workflow.
     * **[!UICONTROL To be started]** : lets you start the workflow when the start date has been reached.
 
    The **[!UICONTROL Create in advance for]** field lets you create all the workflows covering the period entered.
@@ -208,7 +208,7 @@ A periodic campaign is a campaign based on a specific template that lets you cre
 
 1. Enter the properties of the template.
 
-     >[!CAUTION]
+     >[!NOTE]
      >
      >The operator whom the template is assigned to needs to have the appropriate rights to create campaigns in the selected program.
 
@@ -224,7 +224,7 @@ A periodic campaign is a campaign based on a specific template that lets you cre
 
     ![](assets/s_ncs_user_op_template_period_planning_add.png)
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >Periodic campaign templates create new campaigns according to the schedule defined above. It must therefore be completed carefully, to avoid overloading the Adobe Campaign database.
 

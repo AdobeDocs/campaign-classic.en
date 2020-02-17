@@ -75,7 +75,7 @@ A data schema is identified by its name and its namespace.
 
 A namespace lets you group a set of schemas by area of interest. For example, the **cus** namespace is used for customer-specific configuration (**customers**).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >As a standard, the name of the namespace must be concise and must contain only authorized characters in accordance with XML naming rules.
 >

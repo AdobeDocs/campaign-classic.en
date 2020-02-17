@@ -24,7 +24,7 @@ The Adobe Campaign application server was designed for openness and easy integra
 
 Adobe Campaign APIs are used in JavaScript within the application and in SOAP outside of it. They make up a library of generic functions that can be enriched. For further information, refer to [Implementing SOAP methods](../../configuration/using/implementing-soap-methods.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The number of authorized Engine Calls per day varies upon your license contract. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).   
 >A list of all the APIs including their full description is available in [this dedicated documentation](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html).
@@ -153,7 +153,7 @@ The `<soap-env:fault>` element in the body of the SOAP message is used to convey
 
 The success or failure of the service invocation is identified when the `<faultcode>` element is verified.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >All Adobe Campaign Web services handle errors. It is therefore strongly recommended to test each call in order to handle returned errors.
 

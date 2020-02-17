@@ -27,7 +27,7 @@ Before starting the upgrading process, detemine and confirm which version of Ado
 
 >[!NOTE]
 >
->Also refer to the [installation guide](../../installation/using/general-architecture.md) and the [build upgrade](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) getting started.
+>Also refer to the [installation guide](../../installation/using/general-architecture.md) and the [build upgrade](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) getting started.
 
 ## In Windows {#in-windows}
 

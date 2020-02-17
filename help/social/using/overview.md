@@ -20,7 +20,7 @@ snippet: y
 
 Social Marketing lets you send deliveries to your various Facebook pages and Twitter accounts as opposed to recipient profiles. On Facebook, delivery content is displayed in the form of publications on page walls and will also appear in the news feed of all page fans. On Twitter, delivery content is displayed as tweets and will appear on the home page of account followers. You can also send direct messages to the account followers which you collect.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adobe Campaign asks that you comply with the terms of service communicated by Facebook and Twitter regarding message delivery.
 >
