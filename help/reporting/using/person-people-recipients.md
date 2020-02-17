@@ -28,7 +28,7 @@ This sample will help you understanding the difference between a person/a people
 
 >[!NOTE]
 >
->These indicators are used in the **[!UICONTROL Tracking indicators]** report. For more on this, refer to [Tracking indicators](#tracking-indicators).
+>These indicators are used in the **[!UICONTROL Tracking indicators]** report. For more on this, refer to [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators).
 
 Three links are added to a delivery. It is sent to 4 recipients:
 
