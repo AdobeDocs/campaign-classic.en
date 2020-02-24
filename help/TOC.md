@@ -581,7 +581,7 @@ sub-product: adobe campaign classic
   + Additional configurations {#additional-configurations}
        + [Configuring Campaign server](installation/using/configuring-campaign-server.md)
        + [Connecting through LDAP](installation/using/connecting-through-ldap.md)
-       + [Email deliverability](installation/using/email-deliverability.md)
+       + [Technical email configurations](installation/using/email-deliverability.md)
        + [Email archiving](installation/using/email-archiving.md)
        + [Time zone management](installation/using/time-zone-management.md)
        + [Configuring SpamAssassin](installation/using/configuring-spamassassin.md)
