@@ -118,6 +118,10 @@ When a custom table is being created in Adobe Campaign with a primary key as an 
 
 By default, a custom sequence will have values ranging from +1,000 to +2.1BB. Technically, it is possible  to get a full range of 4BB by enabling negative ids. This should be used with care and one id will be lost when crossing from negative to positive numbers: the record 0 is typically ignored by Adobe Campaign Classic in generated SQL queries.
 
+**Related topics:**
+* For more on the **Sequence auto-generation** feature, see this [document](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html).
+* For more on sequences exhaustion, watch this [video](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+
 ## Indexes {#indexes}
 
 Indexes are essential for performance. When you declare a key in the schema, Adobe will automatically create an index on the fields of the key. You can also declare more indexes for queries that do not use the key.
