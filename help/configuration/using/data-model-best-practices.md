@@ -50,7 +50,7 @@ What data should be sent to Adobe Campaign? It is critical to determine the data
 
 >[!NOTE]
 >
->Adobe Campaign is neither a data warehouse or a reporting tool. Therefore, do not try to import all possible customers and their associated information into Adobe Campaign, or import data which will only be used to build reports.
+>Adobe Campaign is neither a data warehouse nor a reporting tool. Therefore, do not try to import all possible customers and their associated information into Adobe Campaign, or import data which will only be used to build reports.
 
 To make the decision whether an attribute would be needed or not in Adobe Campaign, ask yourself if it would fall under one of these categories:
 * Attribute used for **segmentation**
@@ -145,9 +145,9 @@ However, keep in mind the following:
 
 ### Links {#links}
 
-Beware of the "own" integrity on large tables. Deleting records that have wide tables in "own" integrity can stop the instance. The table is locked and the deletions are made one by one. So it's best to use "neutral" integrity on child tables that have large volumes.
+Beware of the "own" integrity on large tables. Deleting records that have wide tables in "own" integrity can stop the instance. The table is locked, and the deletions are made one by one. So it's best to use "neutral" integrity on child tables that have large volumes.
 
-Declaring a link as an external join is not good for performance. The zero id record emulates the external join functionality. It is not necessary to declare external joins if the link uses the autopk.
+Declaring a link as an external join is not good for performance. The zero-id record emulates the external join functionality. It is not necessary to declare external joins if the link uses the autopk.
 
 While it is possible to join any table in a workflow, Adobe recommends defining common links between resources directly in the data structure definition.
 
@@ -179,7 +179,7 @@ Links performing an external join (1-0..1) should be used with care as it will i
 
 ## Data retention - Cleanup and purge {#data-retention}
 
-Adobe Campaign is neither a data warehouse or a reporting tool. Therefore, to ensure good performance of the Adobe Campaign solution, database growth should stay under control. To achieve this, following some of the best practices below may help.
+Adobe Campaign is neither a data warehouse nor a reporting tool. Therefore, to ensure good performance of the Adobe Campaign solution, database growth should stay under control. To achieve this, following some of the best practices below may help.
 
 By default, Adobe Campaign delivery and tracking logs have a retention duration of 180 days. A cleanup process runs to remove any log older than that.
 * If you want to keep logs longer, this decision should be taken carefully depending on the database size and the volume of messages sent. As a reminder, Adobe Campaign sequence is a 32-bit integer.
