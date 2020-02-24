@@ -70,7 +70,7 @@ To ensure good architecture and performance of your system, follow the best prac
 * The length for a **string** field should always be defined with the column. By default, the maximum length in Adobe Campaign is 255, but Adobe recommends keeping the field shorter if you already know that the size will not exceed a shorter length.
 * It is acceptable to have a field shorter in Adobe Campaign than it is in the source system if you are certain that the size in the source system was overestimated and would not be reached. This could mean a shorter string or smaller integer in Adobe Campaign.
 
-## Identifiers {identifiers}
+## Identifiers {#identifiers}
 
 Adobe Campaign resources have three identifiers, and it is possible to add an additional identifier.
 
@@ -100,6 +100,24 @@ When creating a custom table, you have two options:
 >
 >An autopk should not be used as a reference in workflows.
 
+## Sequences {#sequences}
+
+Adobe Campaign primary key is an auto-generated id for all out-of-the-box tables and can be the same for custom tables. For more on this, see [this section](#identifiers).
+
+This value is taken from what is called a **sequence**, which is a database object used to generate a number sequence.
+
+There are two types of sequences:
+* **Shared**: more than one table would pick their id from the same sequence. It means that if an id 'X' is used by one table, no other table sharing the same sequence would have a record with that id 'X'. **XtkNewId** is the default shared sequence available in Adobe Campaign.
+* **Dedicated**: only one table is picking its ids from the sequence. The sequence name would usually contain the table name.
+
+The sequence is an integer 32-bit value, with a finite maximum number of available values: 2.14 billion. After reaching the maximum value, the sequence is going back to 0, in order to recycle ids. If the old data has not been purged, the result will be a unique-key violation, which becomes a blocker for the platform health and usage. Adobe Campaign would not be able to send out communications (when it impacts delivery log table) and performances would be highly impacted.
+
+Therefore, a customer sending 6 billion emails annually with a retention period of 180 days for their logs would run out of ids in 4 months. To prevent such a challenge, make sure to have purge settings according to your volumes. For more on this, see [this section](#data-retention).
+
+When a custom table is being created in Adobe Campaign with a primary key as an autoPK, a custom dedicated sequence should systematically be associated with that table.
+
+By default, a custom sequence will have values ranging from +1,000 to +2.1BB. Technically, it is possible  to get a full range of 4BB by enabling negative ids. This should be used with care and one id will be lost when crossing from negative to positive numbers: the record 0 is typically ignored by Adobe Campaign Classic in generated SQL queries.
+
 ## Indexes {#indexes}
 
 Indexes are essential for performance. When you declare a key in the schema, Adobe will automatically create an index on the fields of the key. You can also declare more indexes for queries that do not use the key.
@@ -108,13 +126,14 @@ Adobe recommends defining additional indexes as it may improve performance.
 
 However, keep in mind the following:
 
-* Indexes should be limited in size and number because this impacts performance during the insertion of data.
-* Adding index on columns can improve the performance of data read access (SELECT), but it can decrease the performance of data write access (UPDATE).
-* Indexes increase the overall table size (to store the index itself).
 * Index usage is bound to your access pattern. Optimizing indexing is often a key part in database design and have to be handled by experts. Adding indexes is often an iterative workflow attached to database maintenance. It is done over time, step by step, to address performance issues when happening.
+* Indexes increase the overall table size (to store the index itself).
+* Adding index on columns can improve the performance of data read access (SELECT), but it can decrease the performance of data write access (UPDATE).
+* Because this impacts performance during the insertion of data, indexes should be limited in size and number.
 * Do not add indexes when not necessary. Make sure it is required and it increases the overall performance of your queries (test and learn).
-* Do not remove native indexes from out-of-the-box tables.
+* Generally speaking, an index is efficient if you know that your queries will not bring back more than 10% of the records.
 * Carefully select the indexes that need to be defined.
+* Do not remove native indexes from out-of-the-box tables.
 
 <!--When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
 
@@ -153,6 +172,22 @@ If the reverse link should not be visible to the user, you can hide it with the 
 Links performing an external join (1-0..1) should be used with care as it will impact the system performance.
     
 <!--* Cardinality “own” (deleting the source occurrence triggers the deletion of the target occurrence) should be used with care and not against table with very high volume. When distant table is expecting to have very high volumes, “neutral” cardinality should be preferred (deleting a record doesn’t have an impact on the distant table).-->
+
+## Data retention - Cleanup and purge {#data-retention}
+
+Adobe Campaign is neither a data warehouse or a reporting tool. Therefore, to ensure good performance of the Adobe Campaign solution, database growth should stay under control. To achieve this, following some of the best practices below may help.
+
+By default, Adobe Campaign delivery and tracking logs have a retention duration of 180 days. A cleanup process runs to remove any log older than that.
+* If you want to keep logs longer, this decision should be taken carefully depending on the database size and the volume of messages sent. As a reminder, Adobe Campaign sequence is a 32-bit integer.
+* It is recommended not to have more than 1 billion records at a time in these tables (about 50% of the 2.14 billion ids available) to limit risks of consuming all the available ids. This will require for some customers to lower the retention duration below 180 days.
+
+>[!IMPORTANT]
+>
+>Custom tables are not purged with the standard cleanup process. While this might not be required on day one, do not forget to build a purge process for your custom tables as this could lead to performance challenges.
+
+There are a few solutions to minimize the need of records in Adobe Campaign:
+* Export the data in a data warehouse outside of Adobe Campaign.
+* Generate aggregated values that will use less space while being sufficient for your marketing practices. For example, you do not need the full customer transaction history in Adobe Campaign to keep track of the last purchases.
 
 ## Performance {#operational-best-practices}
 
