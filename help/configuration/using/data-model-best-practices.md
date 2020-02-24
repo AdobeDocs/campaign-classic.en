@@ -218,7 +218,9 @@ In order to ensure better performance at any time, follow the best practices bel
 * It is good to have all the essential fields in one table because it makes it easier for users to build queries. Sometimes it is also good for performance to duplicate some fields across tables if it can avoid a join. 
 * Certain built-in functionalities will not be able to reference one-to-many relationships, for example, Offer Weighting formula and Deliveries.
 
-### Large tables {#large-tables}
+## Large tables {#large-tables}
+
+Adobe Campaign relies on third-party database engines. Depending on the provider, optimizing performance for larger tables may require a specific design.
 
 Below are a few best practices that should be followed when designing your data model using large tables and complex joins.
 
@@ -228,4 +230,36 @@ Below are a few best practices that should be followed when designing your data 
 * For join keys, always use numeric data rather than character strings.
 * Reduce as much as you can the depth of log retention. If your need deeper history, you can aggregate computation and/or handle custom log tables to store larger history.
 
-For more detailed best practices on how to optimize the database design for larger volumes, see [Campaign Classic Data model Best practices](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html).
+### Size of tables {size-of-tables}
+
+The table size is a combination of the number of records and the number of columns per record. Both can impact the performance of queries.
+
+* A **small-size** table is similar to the Delivery table. 
+* A **medium size** table is the same as the size of the Recipient table. It has one record per customer.
+* A **large-size** table is similar to the Broad log table. It has many records per customer.
+For example, if your database contains 10 million recipients, the Broad log table contains about 100 to 200 million messages, and the Delivery table contains a few thousand records.
+
+On PostgreSQL, a row should not exceed 8KB to avoid [TOAST](https://wiki.postgresql.org/wiki/TOAST) mechanism. Therefore, try to reduce as much as possible the number of columns and the size of each row to preserve optimal performance of the system (memory and CPU).
+
+The number of rows impacts performance as well. The Adobe Campaign database is not designed to store historical data that are not actively used for targeting or personalization purpose - this is an operational database.
+
+To prevent any performance issue related to the high number of rows, only keep the necessary records in the database. Any other record should be exported to a third-party data warehouse and removed from the Adobe Campaign operational database.
+
+Here are a few best practices regarding the size of tables:
+
+* Design large tables with fewer fields and more numeric data.
+* Do not use large number type of column (ex: Int64) to store small numbers like boolean values.
+* Remove unsused columns from the table definition.
+* Do not keep historical or inactive data in your Adobe Campaign database (export and cleanup).
+
+Here is an example:
+
+![](assets/transaction-table-example.png)
+
+In this example:
+* The *Transactions* and *Transaction Item* tables are large: more than 10 million.
+* The *Product* and *Store* tables are smaller: less than 10,000.
+* The product label and reference have been placed in the *Product* table.
+* The *Transaction Item* table only has a link to the *Product* table, which is numerical.
+
+<!--For more detailed best practices on how to optimize the database design for larger volumes, see [Campaign Classic Data model Best practices](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html).-->
