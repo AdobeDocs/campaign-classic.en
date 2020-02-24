@@ -64,4 +64,4 @@ To create the corresponding schema, apply the following stages:
 
 The **Federated Data Access - FDA** option give you access to the data stored in an external database.
 
-The configuration to be carried on the schemas to access data in an external database is detailed in [this page](../../platform/using/accessing-an-external-database.md#creating-the-data-schema).
+The configuration to be carried on the schemas to access data in an external database is detailed in [this page](../../platform/using/creating-data-schema.md).

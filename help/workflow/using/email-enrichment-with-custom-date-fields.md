@@ -122,4 +122,4 @@ You can now start designing your email delivery with the custom date fields crea
 
    ![](assets/uc_enrichment_20.png)
 
-Your email is now ready. You can start sending your proofs and confirm you delivery to send your birthday emails.
+Your email is now ready. You can start sending your proofs and confirm your delivery to send your birthday emails.

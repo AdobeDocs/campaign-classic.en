@@ -22,11 +22,11 @@ snippet: y
 
 For Windows, the migration steps are as follows:
 
-1. Stop services: refer to [Service stop](#service-stop),
-1. Back up the database: refer to [Back up the database and the current installation](#back-up-the-database-and-the-current-installation),
-1. Migrate the platform: refer to [Deploying Adobe Campaign v7](#deploying-adobe-campaign-v7),
-1. Migrate the redirection server (IIS): refer to [Migrating the redirection server (IIS)](#migrating-the-redirection-server--iis-),
-1. Re-start service: refer to [Re-starting the services](#re-starting-the-services),
+1. Stop services: refer to [Service stop](#service-stop).
+1. Back up the database: refer to [Back up the database and the current installation](#back-up-the-database-and-the-current-installation).
+1. Migrate the platform: refer to [Deploying Adobe Campaign v7](#deploying-adobe-campaign-v7).
+1. Migrate the redirection server (IIS): refer to [Migrating the redirection server (IIS)](#migrating-the-redirection-server--iis-).
+1. Re-start service: refer to [Re-starting the services](#re-starting-the-services).
 1. Delete and cleanse previous Adobe Campaign version: refer to [Deleting and cleansing Adobe Campaign previous version](#deleting-and-cleansing-adobe-campaign-previous-version).
 
 ## Service stop {#service-stop}
@@ -97,7 +97,7 @@ The procedure depends on your Adobe Campaign previous version.
    ren "Neolane v5" "Neolane v5.back"
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >As a precaution, we recommend that you zip the **Neolane v5.back** folder and save it elsewhere in a safe location other than the server.
 
@@ -137,7 +137,7 @@ The procedure depends on your Adobe Campaign previous version.
    ren "Neolane v6" "Neolane v6.back"
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >As a precaution, we recommend that you zip the **Neolane v6.back** folder and save it elsewhere in a safe location other than the server.
 
@@ -177,7 +177,7 @@ The procedure depends on your Adobe Campaign previous version.
    ren "Adobe Campaign v6" "Adobe Campaign v6.back"
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >As a precaution, we recommend that you zip the **Adobe Campaign v6.back** folder and save it elsewhere in a safe location other than the server.
 
@@ -242,7 +242,7 @@ To deploy Adobe Campaign, apply the following steps:
    copy "Adobe Campaign v6.back"/var/* "Adobe Campaign v7"/var/
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >For the first command above, do not copy the **config-default.xml** file.
 
@@ -264,7 +264,7 @@ To deploy Adobe Campaign, apply the following steps:
    nlserver config -postupgrade -instance:<instance name>
    ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Do not start Adobe Campaign services yet: some changes need to be made on IIS.
 

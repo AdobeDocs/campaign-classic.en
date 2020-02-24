@@ -96,7 +96,7 @@ Tracking configuration is the same as for an email delivery. For more on this, r
 >
 >In the **[!UICONTROL Tweet]** delivery template, tracking is enabled by default.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >We can't tell the difference between robots who analyze tweets and users who are actually clicking.
 
@@ -130,7 +130,7 @@ The **[!UICONTROL Synchronize Twitter accounts]** workflow (refer to [Synchroniz
 
 ![](assets/social_twitter_visitors_001.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In order for the workflow to recover the list of Twitter followers, the **[!UICONTROL Synchronize Twitter accounts]** box must be checked in the Edit screen of the service linked to the account. For more on this, refer to: [Delegating write access to Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign).
 
@@ -177,7 +177,7 @@ Select the followers whom you want to send your direct message to.
 
     * Select **[!UICONTROL Twitter subscribers]** to send a direct message to all account followers.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >You cannot send more than 250 messages per day. If your Twitter account has more than 250 followers, we highly recommend delivering in waves. This involves the same process as email deliveries. Refer to [this section](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 

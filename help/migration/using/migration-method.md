@@ -26,7 +26,7 @@ Performing a migration can be a chance to update your environment (database engi
 
 In v6.02, the "multi timezone" mode was only available for PostgreSQL database engines. It is now offered no matter what type of database engine is used. We strongly recommend that you transform your base to a "multi timezone" base. For more information on this, see the [Time zones](../../migration/using/general-configurations.md#time-zones) section.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Some software versions supported in Adobe Campaign 5.11 and 6.02 are no longer supported in Adobe Campaign v7.
 >

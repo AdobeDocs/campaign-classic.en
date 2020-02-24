@@ -300,7 +300,7 @@ You can specify in the source schema the name of the sequence to be used with th
 
 From ACC 18.10, **XtkNewId** is no more the default value for the sequence in the out-of-the-box schemas. You are now able to build schema or to extend existing schema with a dedicated sequence.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >When creating a new schema or during a schema extension, you need to keep the same primary key sequence value (@pkSequence) for the whole schema.
 
@@ -342,7 +342,7 @@ The schema generated:
 
 In addition to the definition of the key and its index, a numeric field called "id" has been added to the extended schema in order to contain the auto-generated primary key.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >A record with a primary key set to 0 is automatically inserted on creation of the table. This record is used to avoid outer joins, which are not effective on volume tables. By default, all foreign keys are initialized with value 0 so that a result can always be returned on the join when the data item is not populated.
 
@@ -369,7 +369,7 @@ For join relations using Federated Database Access:
 * ![](assets/join_fda_11.png) : Cardinality 1-1
 * ![](assets/join_fda_1m.png) : Cardinality 1-N
 
-For more information on FDA tables, refer to [Accessing an external database](../../platform/using/accessing-an-external-database.md).
+For more information on FDA tables, refer to [Accessing an external database](../../platform/using/about-fda.md).
 
 A link must be declared in the schema containing the foreign key of the table linked via the main element:
 

@@ -69,11 +69,15 @@ To create an execution instance type external account, apply the following steps
 
    Data collection occurs either via a Web service which uses HTTP/HTTPS access, or via the Federated Data Access (FDA) module.
 
+   >[!NOTE]
+   >
+   >Please note that when using FDA over HTTP, only excecution instances using a Postgres database are supported. MSSQL or Oracle databases are not supported.
+
    The second method is recommended if the control instance has direct access to the database of the execution instances. If not, choose the Web service access. The FDA account to specify coincides with the connection to the databases of the various execution instances created on the control instance. 
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   For more information on Federated Data Access (FDA), refer to [Accessing an external database](../../platform/using/accessing-an-external-database.md).
+   For more information on Federated Data Access (FDA), refer to [Accessing an external database](../../platform/using/about-fda.md).
 
 1. Click **[!UICONTROL Test the connection]** to make sure the control instance and the execution instance are linked up.
 

@@ -25,8 +25,6 @@ The **By form** type Web interface involves using a **Web application**. Dependi
 >[!NOTE]
 >
 >APIs are detailed in a dedicated document, access to which is dependent on your contract. Refer to [API](../../configuration/using/about-web-services.md).
-
->[!NOTE]
 >
 >The Web application used in this example is not a Web app that comes out-of-the-box with Adobe Campaign. To use a form in a campaign, you must create the dedicated Web application.
 
@@ -156,7 +154,7 @@ Once the checks have been approved, the campaign can start automatically.
 
     * the message content that will be sent to the local entities in the notification,
     * the approval reminder,
-    * the expected processing for the campaign
+    * the expected processing for the campaign.
 
    ![](assets/mkg_dist_use_case_target_valid7.png)
 

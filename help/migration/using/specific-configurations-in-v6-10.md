@@ -22,7 +22,7 @@ Certain improvements have been carried out in Adobe Campaign v7 in order to opti
 
 If you are migrating from a 6.10 platform and your client console is older than the 8104 build, you must update it. If this is not done before migrating, you will be prompted to update your client console when reconnecting. Click **[!UICONTROL Yes]**.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If you reject the update, you will not be able to connect.
 

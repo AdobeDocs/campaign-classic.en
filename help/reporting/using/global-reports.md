@@ -26,7 +26,7 @@ To display reports, click their names. The following reports are available by de
 
 ![](assets/s_ncs_user_report_global_list.png)
 
->[!CAUTION]
+>[!NOTE]
 >
 >This section shows only the reports linked to deliveries.
 
@@ -100,7 +100,7 @@ The following indicators are used:
   >
   >This indicator only concerns deliveries on mobile channels. For more on this, refer to [this section](../../delivery/using/sms-channel.md).
 
-  You can open up each line of the value table by clicking the [+] symbol. For each error type, you can show the breakdown of error messages by domain.
+  You can open up each line of the value table by clicking the `[+]` symbol. For each error type, you can show the breakdown of error messages by domain.
 
   ![](assets/s_ncs_user_errors_report_detail.png)
 

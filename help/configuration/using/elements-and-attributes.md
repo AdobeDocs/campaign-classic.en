@@ -171,7 +171,7 @@ The sequence in which `<attribute>` elements are defined in an `<srcschema>` doe
 * **userEnum (string)**: receives the internal name of an "open" enumeration. The values of the enumeration can be defined by the user in the interface. 
 * **visibleIf (string)**: defines a condition in the form of an XTK expression to show or hide the attribute.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >The attribute is hidden but its data can still be accessed.
 

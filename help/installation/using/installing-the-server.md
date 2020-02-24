@@ -163,6 +163,6 @@ Download LibreOffice, for example from [https://www.libreoffice.org/download/lib
 Add the following environment variable:
 
 ```
-OOO_BASIS_INSTALL_DIR="C:\Program Files (x86)\LibreOffice 5\"
+OOO_BASIS_INSTALL_DIR="C:\Program Files (x86)\LibreOffice 6\"
 ```
 

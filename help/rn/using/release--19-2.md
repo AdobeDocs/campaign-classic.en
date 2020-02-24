@@ -1,6 +1,8 @@
 ---
-title: Release 19.2 2
-description: Campaign Classic 19.2 Release Notes
+title: Release 19.2
+seo-title: Release 19.2
+description: Release 19.2
+seo-description: 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -16,81 +18,7 @@ snippet: y
 
 # Release 19.2{#release-19-2}
 
-Starting Campaign Classic 19.2, a status is associated to each build. You'll find below the list of statuses, what they mean and the associated image:
-
-![](assets/green2.png) **General Availability:** latest stable build available.
-
-![](assets/blue2.png) **Release Candidate:** validated by Adobe, waiting for production proofing.
-
-![](assets/orange2.png) **No longer available:** newer build available, update required.
-
-![](assets/green3.png) **General Availability:** latest stable build available.
-
-![](assets/blue3.png) **Release Candidate:** validated by Adobe, waiting for production proofing.
-
-![](assets/orange3.png) **No longer available:** newer build available, update required.
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/green.png"/></td>
-   <td>General Availability</td>
-   <td>Latest stable build available.</td>
-  </tr> 
-   <tr> 
-   <td><img src="assets/blue.png"/></td> 
-   <td>Release Candidate</td>
-   <td>This build has been validated by Adobe.  Waiting for production proofing.</td>
-  </tr> 
-  <tr> 
-   <td><img src="assets/orange.png"/></td> 
-   <td>No longer available</td>
-   <td>This build holds no major issue but a newer build is available with additional bug fixes. Update is required.</td>
-  </tr> 
- </tbody> 
-</table>
-
-
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/green3.png"/><strong>General Availability</strong></td>
-   <td>Latest stable build available.</td>
-  </tr> 
-   <tr> 
-   <td><img src="assets/blue3.png"/><strong>Release Candidate</strong></td> 
-   <td>This build has been validated by Adobe.  Waiting for production proofing.</td>
-  </tr> 
-  <tr> 
-   <td><img src="assets/orange3.png"/><strong>No longer available</strong></td> 
-   <td>This build holds no major issue but a newer build is available with additional bug fixes. Update is required.</td>
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
-    <thead> 
-  <tr> 
-   <th> Status<br /> </th> 
-      <th> Description<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/green3.png"/><strong>General Availability</strong></td>
-   <td>Latest stable build available.</td>
-  </tr> 
-   <tr> 
-   <td><img src="assets/blue3.png"/><strong>Release Candidate</strong></td> 
-   <td>This build has been validated by Adobe.  Waiting for production proofing.</td>
-  </tr> 
-  <tr> 
-   <td><img src="assets/orange3.png"/><strong>No longer available</strong></td> 
-   <td>This build holds no major issue but a newer build is available with additional bug fixes. Update is required.</td>
-  </tr> 
- </tbody> 
-</table>
+[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--19-1.md) &#124; [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
@@ -98,55 +26,29 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
    <td><img src="assets/green3.png"/><strong>General Availability</strong></td>
    <td><img src="assets/blue3.png"/><strong>Release Candidate</strong></td> 
    <td><img src="assets/orange3.png"/><strong>No longer available</strong></td> 
+   <td><img src="assets/red3.png"/><strong>Deprecated</strong></td> 
   </tr> 
    <tr> 
-   <td>Latest stable build available.</td>
-   <td>This build has been validated by Adobe. Waiting for production proofing.</td>
-   <td>This build holds no major issue but a newer build is available with additional bug fixes. Update is required.</td>
+   <td>Latest stable build available. Build validated in production.<br>&nbsp;</td>
+   <td>Build validated by Adobe. Waiting for production proofing.<br>&nbsp;</td>
+   <td>Newer build available with bug fixes. Update is required.<br>&nbsp;</td>
+   <td>Contains known regressions. Update is mandatory.<br>&nbsp;</td>
   </tr> 
  </tbody> 
 </table>
 
+Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032) to view the **last stable build** (GA).
 
-<table>
-<tr>
-  <td>
-    <img src="assets/stable.png"/>
-    <div>
-    <img src="assets/green3.png"/><strong>General Availability</strong>
-    </div>
-    <p>
-    <em>Latest stable build available.</em>
-    <p>
-  </td>
-  <td>
-    <img src="assets/available.png" />
-    <div>
-    <img src="assets/blue3.png"/><strong>Release Candidate</strong>
-    </div>
-    <p>
-    <em>This build has been validated by Adobe. Waiting for production proofing.</em>
-    <p>
-  </td>
-   <td>
-    <img src="assets/update.png" />
-    <div>
-    <img src="assets/orange3.png"/><strong>No longer available</strong>
-    </div>
-    <p>
-    <em>This build holds no major issue but a newer build is available with additional bug fixes. Update is required.</em>
-    <p>
-  </td>
-</tr>
-</table>
+## ![](assets/blue-2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
 
-| Additional resources: |  |
-|--- |--- |
-| [Upgrading to the latest build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |
-| [Latest Documentation Updates](../../rn/using/documentation-updates.md) | [Previous Release Notes](../../rn/using/release--19-1.md) |
-| [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) |   |
+_February 07, 2020_
 
-## ![](assets/blue2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
+**Improvements**
+
+* Fixed a regression issue due to the implementation of SSL certification which caused the user connection to fail on Windows server. (NEO-20629)
+* Fixed an issue which displayed an incorrect version tag number in the **About** menu.
+
+## ![](assets/orange-2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
 _December 02, 2019_
 
@@ -155,7 +57,7 @@ _December 02, 2019_
 <table> 
  <thead> 
   <tr> 
-   <th> California Consumer Privacy Act (CCPA)<br /> </th> 
+   <th> <strong>California Consumer Privacy Act (CCPA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -172,7 +74,7 @@ _December 02, 2019_
 <table> 
  <thead> 
   <tr> 
-   <th> Workflow live monitoring<br /> </th> 
+   <th> <strong>Workflow live monitoring</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -187,7 +89,7 @@ _December 02, 2019_
 <table> 
  <thead> 
   <tr> 
-   <th> Interactive content with AMP<br /> </th> 
+   <th> <strong>Interactive content with AMP</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -203,7 +105,7 @@ _December 02, 2019_
 <table> 
  <thead> 
   <tr> 
-   <th> Secure SMS Messaging (TLS)<br /> </th> 
+   <th> <strong>Secure SMS Messaging (TLS)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 

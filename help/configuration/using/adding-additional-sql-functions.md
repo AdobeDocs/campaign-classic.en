@@ -26,7 +26,7 @@ This mechanism can also be used if you wanted to use a recent or uncommon databa
 
 Once these functions have been added, they will appear in the expression editor just like other predefined functions.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >SQL function calls in the console are no longer naturally sent to the server. The mechanism described here therefore becomes **the only way to call** on the unplanned SQL function server.
 
@@ -36,7 +36,7 @@ The function(s) to add are in a **"package" file in XML format**, whose structur
 
 To install it from the console, select the **Tools/Advanced/Import package** options from the menu, then the **[!UICONTROL Install from file]** , and follow the instructions in the import wizard.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Warning: even if the list of imported functions appears in the function editor straight away, they will not be usable until Adobe Campaign has been restarted.
 
@@ -92,7 +92,7 @@ The function(s) to be added can be found in the **"package" file** in XML format
     
   ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Make sure to complete the @label attribute: this is the name that will be displayed in the list of available functions. If you do not enter anything, the group will not have a name. However, if you enter a name other than the existing name, the name of the entire group will change.
 

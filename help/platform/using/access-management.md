@@ -99,7 +99,7 @@ Once the operator's profile has been created, you can add to or update their inf
 
 >[!NOTE]
 >
->The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. For more on this, refer to [About Federated Data Access](../../platform/using/accessing-an-external-database.md#about-federated-data-access).
+>The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. For more on this, refer to [About Federated Data Access](../../platform/using/about-fda.md).
 
 ### Time zone of the operator {#time-zone-of-the-operator}
 

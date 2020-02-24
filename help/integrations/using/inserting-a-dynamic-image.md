@@ -22,9 +22,9 @@ This section details the steps to carry out in Adobe Campaign to integrate an im
 
 You must carry out the following actions in Adobe Target beforehand:
 
-* Create one or several [redirection offers](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Redirect_Offer.html), in which you must specify the URL of the image you will be using.
+* Create one or several [redirection offers](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html), in which you must specify the URL of the image you will be using.
 * Create one or several [audiences](https://marketing.adobe.com/resources/help/en_US/target/target/t_create-audience.html), to define the target of your activity.
-* Create an [Form-based experience composer](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_an_A_B_Test.html) activity, in which you must select a rawbox and specify several experiences, depending on the number of redirection offers created. For each experience, you must select one of the redirection offers created.
+* Create an [Form-based experience composer](https://docs.adobe.com/content/help/en/target/using/activities/abtest/create/test-create-ab.html) activity, in which you must select a rawbox and specify several experiences, depending on the number of redirection offers created. For each experience, you must select one of the redirection offers created.
 
   To specify these experiences, you can create segments using information from Adobe Campaign. To use data from Adobe Campaign in the offer's selection rules, you must specify the data in the rawbox in Adobe Target.
 
