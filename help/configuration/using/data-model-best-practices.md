@@ -28,7 +28,7 @@ Adobe Campaign system is extremely flexible and can be extended beyond the initi
 
 This document provides common use cases and best practices to learn how to architect properly your Adobe Campaign tool.
 
-## Data model architecture {data-model-architecture}
+## Data model architecture {#data-model-architecture}
 
 Adobe Campaign Standard is a powerful cross-channel campaign management system that can help you align your online and offline strategies to create personalized customer experiences.
 
@@ -197,7 +197,7 @@ There are a few solutions to minimize the need of records in Adobe Campaign:
 * Export the data in a data warehouse outside of Adobe Campaign.
 * Generate aggregated values that will use less space while being sufficient for your marketing practices. For example, you do not need the full customer transaction history in Adobe Campaign to keep track of the last purchases.
 
-## Performance {#operational-best-practices}
+## Performance {#performance}
 
 In order to ensure better performance at any time, follow the best practices below.
 
