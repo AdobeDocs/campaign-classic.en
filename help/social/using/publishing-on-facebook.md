@@ -154,7 +154,7 @@ Enter the various fields:
 
 1. In the **[!UICONTROL Status]** field, enter the text which will be displayed under the name of the page. 
 1. In the **[!UICONTROL Name]** field, enter the publication title.
-1. In the **[!UICONTROL Video code]** field, enter the code of the YouTube video. For instance, for the 'http://www.youtube.com/watch?v=abc123456' link, the video code will be 'abc123456'.
+1. In the **[!UICONTROL Video code]** field, enter the code of the YouTube video. For instance, for the 'https://www.youtube.com/watch?v=abc123456' link, the video code will be 'abc123456'.
 1. In the **[!UICONTROL Caption]** field, enter the text that will appear at the end of the publication.
 1. Go to the **[!UICONTROL Description]** field and enter the text to be displayed under the title.
 

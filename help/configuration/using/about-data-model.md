@@ -24,7 +24,7 @@ To access the description of each table, go to **[!UICONTROL Admin > Configurati
 
 ![](assets/data-model_documentation-tab.png)
 
-For more on the default Campaign Classic Data model description, refer to this [document](https://final-docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html).
+For more on the default Campaign Classic data model description, refer to this [document](https://final-docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html).
 
 The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a schema. For more on Adobe Campaign schemas, read out this [section](../../configuration/using/about-schema-reference.md).
 

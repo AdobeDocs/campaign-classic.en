@@ -16,20 +16,19 @@ internal: n
 snippet: y
 ---
 
-# Email deliverability{#email-deliverability}
+# Technical email configurations{#email-deliverability}
 
 ## Overview {#overview}
 
-The following section provides an overview of the configuration required for controlling the output of Adobe Campaign instances when delivering messages.
+The following section provides an overview of the configuration required for controlling the output of Adobe Campaign instances when delivering emails.
 
 >[!NOTE]
 >
->Some configurations can only be performed by Adobe for deployments hosted by Adobe. For example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).  
->Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices related to deliverability.
+>Some configurations can only be performed by Adobe for deployments hosted by Adobe, for example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 
 For more on the concepts and best practices related to deliverability, refer to this [section](../../delivery/using/about-deliverability.md).
 
-All technical recommendations concerning the efficient sending and receiving of messages by an Adobe Campaign platform are available in this [section](../../delivery/using/technical-recommendations.md).
+All technical recommendations concerning the efficient sending and receiving of emails by an Adobe Campaign platform are available in this [section](../../delivery/using/technical-recommendations.md).
 
 ## Operating principle {#operating-principle}
 

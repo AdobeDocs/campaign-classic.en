@@ -35,12 +35,12 @@ To display reports, click their names. The following reports are available by de
 * **[!UICONTROL Sharing to social networks]** : refer to [Sharing to social networks](#sharing-to-social-networks).
 * **[!UICONTROL Statistics on sharing activities]** : refer to [Statistics on sharing activities](#statistics-on-sharing-activities).
 * **[!UICONTROL Operating systems]** : refer to [Operating systems](#operating-systems).
-* **[!UICONTROL URLs and click streams]** : refer to [URLs and click streams](#urls-and-click-streams).
-* **[!UICONTROL Tracking indicators]** : refer to [Tracking indicators](#tracking-indicators).
+* **[!UICONTROL URLs and click streams]** : refer to [URLs and click streams](../../reporting/using/delivery-reports.md#urls-and-click-streams).
+* **[!UICONTROL Tracking indicators]** : refer to [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators).
 * **[!UICONTROL Non-deliverables and bounces]** : refer to [Non-deliverables and bounces](#non-deliverables-and-bounces).
 * **[!UICONTROL User activities]** : refer to [User activities](#user-activities).
 * **[!UICONTROL Subscription tracking]** : refer to [Subscription tracking](#subscription-tracking).
-* **[!UICONTROL Delivery summary]** : refer to [Delivery summary](#delivery-summary).
+* **[!UICONTROL Delivery summary]** : refer to [Delivery summary](../../reporting/using/delivery-reports.md#delivery-summary).
 * **[!UICONTROL Delivery statistics]** : refer to [Delivery statistics](#delivery-statistics).
 * **[!UICONTROL Breakdown of opens]** : refer to [Breakdown of opens](#breakdown-of-opens).
 
@@ -60,7 +60,7 @@ This report shows the breakdown of opens, clicks and transactions per half-hour,
 
 The following options are available:
 
-* **[!UICONTROL Opens]** : Total number of messages opened. Emails in text format are not taken into account. For more information on tracking opens, refer to [Tracking opens](#tracking-opens-).
+* **[!UICONTROL Opens]** : Total number of messages opened. Emails in text format are not taken into account. For more information on tracking opens, refer to [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-).
 * **[!UICONTROL Clicks]** : Total number of clicks on links in deliveries. Clicks on unsubscription links and mirror pages are not taken into account.
 * **[!UICONTROL Transactions]** : Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 
@@ -298,7 +298,7 @@ The following indicators are used:
 
 This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
 
-The number of opens corresponds to the total number of messages opened. Text format emails are not counted. For more information on Tracking opens, refer to the [Tracking opens](#tracking-opens-) section.
+The number of opens corresponds to the total number of messages opened. Text format emails are not counted. For more information on Tracking opens, refer to the [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-) section.
 
 ![](assets/dlv_useragent_report.png)
 

@@ -99,5 +99,5 @@ Example of possible values:
 * Europe/London,
 * America/New_York, etc.
 
-  These values are taken from the tz (Olson) database. For more information, refer to [http://en.wikipedia.org/wiki/List_of_tz_database_time_zones](http://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
+  These values are taken from the tz (Olson) database. For more information, refer to [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 
