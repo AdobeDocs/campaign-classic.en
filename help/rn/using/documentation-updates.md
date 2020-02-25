@@ -22,6 +22,20 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## February 2020 {#february-2020}
+
+A new section outlining best practices and key recommendations while designing the Adobe Campaign data model is now available. [Read more](../../configuration/using/data-model-best-practices.md)
+
+The "Email deliverability" section has been renamed to "Technical email configurations". [Read more](../../installation/using/email-deliverability.md)
+
+The Deliverability FAQ document has been updated with more details on the "quotas met" error message. [Read more](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ)
+
+AMP for Email being now supported by three email providers (Gmail, Outlook and Mail.ru), the section describing how to define interactive content with AMP has been updated. [Read more](../../delivery/using/defining-interactive-content.md)
+
+The Email archiving section has been clarified. [Read more](../../installation/using/email-archiving.md#recommendations-and-limitations)
+
+
+
 ## 20.1 - 17/02/2020{#release-20-1}
 
 **New capabilities included in the release**
@@ -63,12 +77,6 @@ A limitation has been added when using a query activity in a workflow. [Read mor
 A new section has been added to detail the enhanced email address validation rules to send an address to quarantine in case of soft error. [Read more](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
 The parameter from the configuration file indicating that an instance is using the Enhanced MTA or not is now documented. [Read more](../../installation/using/the-server-configuration-file.md#mta)
-
-## February 2020 {#february-2020}
-
-AMP for Email being now supported by three email providers (Gmail, Outlook and Mail.ru), the section describing how to define interactive content with AMP has been updated. [Read more](../../delivery/using/defining-interactive-content.md)
-
-The Email archiving section has been clarified. [Read more](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
 ## January 2020 {#january-2020}
 
