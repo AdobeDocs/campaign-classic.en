@@ -57,6 +57,7 @@ What data should be sent to Adobe Campaign? It is critical to determine the data
 >Adobe Campaign is neither a data warehouse nor a reporting tool. Therefore, do not try to import all possible customers and their associated information into Adobe Campaign, or import data which will only be used to build reports.
 
 To make the decision whether an attribute would be needed or not in Adobe Campaign, ask yourself if it would fall under one of these categories:
+
 * Attribute used for **segmentation**
 * Attribute used for **data management processes** (aggregate calculation for example)
 * Attribute used for **personalization**
@@ -178,14 +179,13 @@ Note that a reverse cardinality of a link is (N) by default. It is possible to d
 If the reverse link should not be visible to the user, you can hide it with the link definition revLink='_NONE_'. A good use case for this is to define a link from recipient to the last transaction completed for example. You only need to see the link from recipient to the last transaction and no reverse link is required to be visible from the transaction table.
 
 Links performing an external join (1-0..1) should be used with care as it will impact the system performance.
-    
-<!--* Cardinality “own” (deleting the source occurrence triggers the deletion of the target occurrence) should be used with care and not against table with very high volume. When distant table is expecting to have very high volumes, “neutral” cardinality should be preferred (deleting a record doesn’t have an impact on the distant table).-->
 
 ## Data retention - Cleanup and purge {#data-retention}
 
 Adobe Campaign is neither a data warehouse nor a reporting tool. Therefore, to ensure good performance of the Adobe Campaign solution, database growth should stay under control. To achieve this, following some of the best practices below may help.
 
 By default, Adobe Campaign delivery and tracking logs have a retention duration of 180 days. A cleanup process runs to remove any log older than that.
+
 * If you want to keep logs longer, this decision should be taken carefully depending on the database size and the volume of messages sent. As a reminder, Adobe Campaign sequence is a 32-bit integer.
 * It is recommended not to have more than 1 billion records at a time in these tables (about 50% of the 2.14 billion ids available) to limit risks of consuming all the available ids. This will require for some customers to lower the retention duration below 180 days.
 
