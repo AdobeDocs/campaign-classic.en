@@ -58,7 +58,7 @@ Attract your customers' attention and improve response rates thanks to the advan
 
 ### Analysis and reporting {#analysis-and-reporting}
 
-Adobe Campaign lets you monitor and interpret the behavior of your customers by gradually enriching their data and profiles. The reporting and analysis tools let you capitalize on each new campaign, target your marketing initiatives better, and optimize their impact and return on investment. Refer to [this page](../../reporting/using/reports-on-deliveries.md#accessing-existing-reports) for more information.
+Adobe Campaign lets you monitor and interpret the behavior of your customers by gradually enriching their data and profiles. The reporting and analysis tools let you capitalize on each new campaign, target your marketing initiatives better, and optimize their impact and return on investment. Refer to [this page](../../reporting/using/delivery-reports.md) for more information.
 
 ### Adobe Experience Cloud integrations {#adobe-experience-cloud-integrations}
 

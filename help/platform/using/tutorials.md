@@ -52,4 +52,4 @@ Discover Adobe Campaign's main features by watching our how-to videos.
 * [Managing seed and proofs in an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html): learn how to add seeds and proofs to an existing email in Adobe Campaign.
 * [Adobe Campaign and Microsoft Dynamics 365 integration](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/integrating/dynamics365-integration.html): learn how to link and synchronize Adobe Campaign and Microsoft Dynamics through CRM connectors capabilities.
 
-Besides these short and detailed videos, you can also find [training courses](https://training.adobe.com/training/courses.html) as well as [presentation videos](https://www.adobe.com/training/video.html) on our website.
+Besides these short and detailed videos, you can also find [training courses](https://learning.adobe.com/catalog.html) as well as [presentation videos](https://www.adobe.com/training/video.html) on our website.

@@ -102,7 +102,7 @@ You can use Adobe Campaign digital content editor to design a landing page and d
 
 ## How can I track deliveries? {#how-can-i-track-deliveries-}
 
-You can track deliveries sent with Campaign Classic through dedicated [delivery reports](../../reporting/using/reports-on-deliveries.md#delivery-reports) and then monitor your deliveries.
+You can track deliveries sent with Campaign Classic through dedicated [delivery reports](../../reporting/using/delivery-reports.md) and then monitor your deliveries.
 
 Learn more about tracking management in Campaign in [this page](https://helpx.adobe.com/campaign/kb/acc-tracking.html).
 
