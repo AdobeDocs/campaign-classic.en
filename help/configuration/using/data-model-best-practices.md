@@ -64,7 +64,7 @@ To make the decision whether an attribute would be needed or not in Adobe Campai
 
 If not falling into any of these, you are most likely not going to need this attribute in Adobe Campaign.
 
-## Choice of data types {#data-types}
+### Choice of data types {#data-types}
 
 To ensure good architecture and performance of your system, follow the best practices below to set up data in Adobe Campaign.
 
@@ -74,6 +74,28 @@ To ensure good architecture and performance of your system, follow the best prac
 * The **XML** type is a good way to avoid creating too many fields. But it also takes up disk space as it uses a CLOB column in the database. It also can lead to complex SQL queries and may impact performance.
 * The length for a **string** field should always be defined with the column. By default, the maximum length in Adobe Campaign is 255, but Adobe recommends keeping the field shorter if you already know that the size will not exceed a shorter length.
 * It is acceptable to have a field shorter in Adobe Campaign than it is in the source system if you are certain that the size in the source system was overestimated and would not be reached. This could mean a shorter string or smaller integer in Adobe Campaign.
+
+### Choice of fields {#choice-of-fields}
+
+A field is required to be stored in a table if it has a targeting or personalization purpose. In other words, if a field is not used to send a personalized email or used as a criterion in a query, it takes up disk space whereas it is useless. 
+
+For hybrid and on-premise instances, FDA (Federated Data Access, an optional feature that allows to access external data) covers the need to add a field "on-the-fly" during a campaign process. You do not need to import everything if you have FDA. For more on this, see [About Federated Data Access](../../platform/using/about-fda.md).
+
+### Choice of keys {#choice-of-keys}
+
+In addition to the **autopk** defined by default in most tables, you should consider adding some logical or business keys (account number, client number, and so on). It can be used later for imports/reconciliation or data packages. For more on this, see [Identifiers](#identifiers).
+
+Efficient keys are essential for performance. Numeric data types should always be preferred as keys for tables.
+
+For SQLServer database, you could consider using "clustered index" if performance is needed. Since Adobe does not handle this, you need to create it in SQL.
+
+### Dedicated tablespaces {#dedicated-tablespaces}
+
+The tablespace attribute in the schema allows you to specify a dedicated tablespace for a table.
+
+The installation wizard allows you to store objects by type (data, temporary, and index).
+
+Dedicated tablespaces are better for partitioning, security rules, and allow fluid and flexible administration, better optimization, and performance.
 
 ## Identifiers {#identifiers}
 
@@ -197,6 +219,8 @@ There are a few solutions to minimize the need of records in Adobe Campaign:
 * Export the data in a data warehouse outside of Adobe Campaign.
 * Generate aggregated values that will use less space while being sufficient for your marketing practices. For example, you do not need the full customer transaction history in Adobe Campaign to keep track of the last purchases.
 
+You can declare the "deleteStatus" attribute in a schema. It is more efficient to mark the record as deleted, then postpone the deletion in the cleanup task.
+
 ## Performance {#performance}
 
 In order to ensure better performance at any time, follow the best practices below.
@@ -218,9 +242,11 @@ In order to ensure better performance at any time, follow the best practices bel
 * It is good to have all the essential fields in one table because it makes it easier for users to build queries. Sometimes it is also good for performance to duplicate some fields across tables if it can avoid a join. 
 * Certain built-in functionalities will not be able to reference one-to-many relationships, for example, Offer Weighting formula and Deliveries.
 
-### Large tables {#large-tables}
+## Large tables {#large-tables}
 
-Below are a few best practices that should be followed when designing your data model using large tables and complex joins.
+Adobe Campaign relies on third-party database engines. Depending on the provider, optimizing performance for larger tables may require a specific design.
+
+Below are a few common best practices that should be followed when designing your data model using large tables and complex joins.
 
 * When using additional custom recipient tables, make sure you have a dedicated log table for each delivery mapping.
 * Reduce the number of columns, particularly by identifying those that are unused.
@@ -228,4 +254,36 @@ Below are a few best practices that should be followed when designing your data 
 * For join keys, always use numeric data rather than character strings.
 * Reduce as much as you can the depth of log retention. If your need deeper history, you can aggregate computation and/or handle custom log tables to store larger history.
 
-For more detailed best practices on how to optimize the database design for larger volumes, see [Campaign Classic Data model Best practices](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html).
+### Size of tables {#size-of-tables}
+
+The table size is a combination of the number of records and the number of columns per record. Both can impact the performance of queries.
+
+* A **small-size** table is similar to the Delivery table. 
+* A **medium size** table is the same as the size of the Recipient table. It has one record per customer.
+* A **large-size** table is similar to the Broad log table. It has many records per customer.
+For example, if your database contains 10 million recipients, the Broad log table contains about 100 to 200 million messages, and the Delivery table contains a few thousand records.
+
+On PostgreSQL, a row should not exceed 8KB to avoid [TOAST](https://wiki.postgresql.org/wiki/TOAST) mechanism. Therefore, try to reduce as much as possible the number of columns and the size of each row to preserve optimal performance of the system (memory and CPU).
+
+The number of rows impacts performance as well. The Adobe Campaign database is not designed to store historical data that are not actively used for targeting or personalization purpose - this is an operational database.
+
+To prevent any performance issue related to the high number of rows, only keep the necessary records in the database. Any other record should be exported to a third-party data warehouse and removed from the Adobe Campaign operational database.
+
+Here are a few best practices regarding the size of tables:
+
+* Design large tables with fewer fields and more numeric data.
+* Do not use large number type of column (ex: Int64) to store small numbers like boolean values.
+* Remove unsused columns from the table definition.
+* Do not keep historical or inactive data in your Adobe Campaign database (export and cleanup).
+
+Here is an example:
+
+![](assets/transaction-table-example.png)
+
+In this example:
+* The *Transactions* and *Transaction Item* tables are large: more than 10 million.
+* The *Product* and *Store* tables are smaller: less than 10,000.
+* The product label and reference have been placed in the *Product* table.
+* The *Transaction Item* table only has a link to the *Product* table, which is numerical.
+
+<!--For more detailed best practices on how to optimize the database design for larger volumes, see [Campaign Classic Data model Best practices](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html).-->
