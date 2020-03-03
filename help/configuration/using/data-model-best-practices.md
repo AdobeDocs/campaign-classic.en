@@ -64,7 +64,7 @@ To make the decision whether an attribute would be needed or not in Adobe Campai
 
 If not falling into any of these, you are most likely not going to need this attribute in Adobe Campaign.
 
-## Choice of data types {#data-types}
+### Choice of data types {#data-types}
 
 To ensure good architecture and performance of your system, follow the best practices below to set up data in Adobe Campaign.
 
@@ -74,6 +74,28 @@ To ensure good architecture and performance of your system, follow the best prac
 * The **XML** type is a good way to avoid creating too many fields. But it also takes up disk space as it uses a CLOB column in the database. It also can lead to complex SQL queries and may impact performance.
 * The length for a **string** field should always be defined with the column. By default, the maximum length in Adobe Campaign is 255, but Adobe recommends keeping the field shorter if you already know that the size will not exceed a shorter length.
 * It is acceptable to have a field shorter in Adobe Campaign than it is in the source system if you are certain that the size in the source system was overestimated and would not be reached. This could mean a shorter string or smaller integer in Adobe Campaign.
+
+### Choice of fields {#choice-of-fields}
+
+A field is required to be stored in a table if it has a targeting or personalization purpose. In other words, if a field is not used to send a personalized email or used as a criterion in a query, it takes up disk space whereas it is useless. 
+
+For hybrid and on-premise instances, FDA (Federated Data Access, an optional feature that allows to access external data) covers the need to add a field "on-the-fly" during a campaign process. You do not need to import everything if you have FDA. For more on this, see [About Federated Data Access](platform/using/about-fda.md).
+
+### Choice of keys {#choice-of-keys}
+
+In addition to the **autopk** defined by default in most tables, you should consider adding some logical or business keys (account number, client number, and so on). It can be used later for imports/reconciliation or data packages. For more on this, see [Identifiers](#identifiers).
+
+Efficient keys are essential for performance. Numeric data types should always be preferred as keys for tables.
+
+For SQLServer database, you could consider using "clustered index" if performance is needed. Since Adobe does not handle this, you need to create it in SQL.
+
+### Dedicated tablespaces {#dedicated-tablespaces}
+
+The tablespace attribute in the schema allows you to specify a dedicated tablespace for a table.
+
+The installation wizard allows you to store objects by type (data, temporary, and index).
+
+Dedicated tablespaces are better for partitioning, security rules, and allow fluid and flexible administration, better optimization, and performance.
 
 ## Identifiers {#identifiers}
 
@@ -196,6 +218,8 @@ By default, Adobe Campaign delivery and tracking logs have a retention duration 
 There are a few solutions to minimize the need of records in Adobe Campaign:
 * Export the data in a data warehouse outside of Adobe Campaign.
 * Generate aggregated values that will use less space while being sufficient for your marketing practices. For example, you do not need the full customer transaction history in Adobe Campaign to keep track of the last purchases.
+
+You can declare the "deleteStatus" attribute in a schema. It is more efficient to mark the record as deleted, then postpone the deletion in the cleanup task.
 
 ## Performance {#performance}
 
