@@ -254,7 +254,7 @@ Below are a few common best practices that should be followed when designing you
 * For join keys, always use numeric data rather than character strings.
 * Reduce as much as you can the depth of log retention. If your need deeper history, you can aggregate computation and/or handle custom log tables to store larger history.
 
-### Size of tables {size-of-tables}
+### Size of tables {#size-of-tables}
 
 The table size is a combination of the number of records and the number of columns per record. Both can impact the performance of queries.
 
