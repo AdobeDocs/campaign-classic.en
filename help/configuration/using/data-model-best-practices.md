@@ -222,7 +222,7 @@ In order to ensure better performance at any time, follow the best practices bel
 
 Adobe Campaign relies on third-party database engines. Depending on the provider, optimizing performance for larger tables may require a specific design.
 
-Below are a few best practices that should be followed when designing your data model using large tables and complex joins.
+Below are a few common best practices that should be followed when designing your data model using large tables and complex joins.
 
 * When using additional custom recipient tables, make sure you have a dedicated log table for each delivery mapping.
 * Reduce the number of columns, particularly by identifying those that are unused.
