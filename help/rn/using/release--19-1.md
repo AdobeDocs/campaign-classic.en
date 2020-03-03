@@ -70,7 +70,7 @@ _13 August 2019_
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/orange-2.png) **March 5th 2020**: new build (9032-...205c981c3) which includes the following fix:
+![](assets/green-2.png) **March 5th 2020**: new build (9032-...205c981c3) which includes the following fix:
 
 * Fixed an issue with external accounts useing FTP over SSL. (NEO-20498)
 
