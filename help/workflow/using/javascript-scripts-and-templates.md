@@ -110,7 +110,9 @@ In this example, an instance variable is used to compute dynamically the split p
 
 1. Inside the Initialization script section of the Advanced tab of the Split activity, define a JS condition. The JS condition selects the random sampling percentage of the first transition coming out of the Split activity and updates it to a value set by the instance variable created previously.
 
-    ```activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;```
+    ```
+    activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;
+    ```
 
     ![](assets/js_ex3.png)
 

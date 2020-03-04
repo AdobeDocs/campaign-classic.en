@@ -180,6 +180,6 @@ To submit the Web service, the Adobe Campaign server that implements the corresp
 
 The server URL is as follows:
 
-[https://`<server>`/nl/jsp/soaprouter.jsp`](https://XXXX//nl/jsp/soaprouter.jsp)
+https://serverName/nl/jsp/soaprouter.jsp
 
 With **`<server>`** the Adobe Campaign application server (**nlserver web**).
