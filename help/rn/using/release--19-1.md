@@ -37,7 +37,7 @@ snippet: y
  </tbody> 
 </table>
 
-Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032) to view the **last stable build** (GA).
+The **last stable build** is 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/orange-2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
@@ -70,7 +70,7 @@ _13 August 2019_
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/orange-2.png) **March 5th 2020**: new build (9032-...205c981c3) which includes the following fix:
+![](assets/green-2.png) **March 5th 2020**: new build (9032-...205c981c3) which includes the following fix:
 
 * Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
 
