@@ -1,5 +1,5 @@
 ---
-title: About the Adobe Campaign Classic data model
+title: Adobe Campaign Classic data model description
 description: This document describes the basics of the Adobe Campaign Classic data model.
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# About the Campaign Classic data model{#about-data-model}
+# Campaign data model description{#data-model-description}
 
 Adobe Campaign comes with a pre-defined data model. This section gives some details on the built-in tables of the Adobe Campaign data model and their interaction.
 
@@ -26,17 +26,17 @@ To access the description of each table, go to **[!UICONTROL Admin > Configurati
 >
 >The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a schema. For more on Adobe Campaign schemas, read out this [section](../../configuration/using/about-schema-reference.md).
 
-## Overview {#data-model-overview}
+## Description of the main tables {#description-main-tables}
 
 Adobe Campaign relies on a relational database containing tables that are linked together.
 
+The following diagram shows the joins between the main business tables of the Adobe Campaign data model with the main fields shown for each.
+
 ![](assets/data-model_diagram.png)
 
-The following is a diagram showing the joins between the main business tables of the Adobe Campaign data model with the main fields shown for each.
+![](assets/data-model_simplified-diagram.png)
 
 The basic structure of the Adobe Campaign data model can be described as follows.
-
-## Description of the main tables {#description-main-tables}
 
 ### NmsRecipient {#NmsRecipient}
 
