@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Latest Release{#release-top}
+# Latest Release{#latest-release}
 
 [Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--19-2.md) &#124; [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
@@ -37,7 +37,7 @@ snippet: y
 
 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032) to view the **last stable build** (GA).
 
-## [![test](assets/blue-2.png)](#release-top) Release 20.1 - Build 9122 {#release-20-1-build-9122} 
+## ![](assets/blue-2.png) Release 20.1 - Build 9122 {#release-20-1-build-9122} 
 
 _February 17, 2020_
 

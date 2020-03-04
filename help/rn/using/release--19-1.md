@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Release 19.1{#release-top}
+# Release 19.1{#release-19-1}
 
 [Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--19-1.md) &#124; [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
@@ -70,9 +70,9 @@ _13 August 2019_
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/green-2.png) **March 5th 2020**: new build (9032-...205c981c3) which includes the following fix:
+![](assets/orange-2.png) **March 5th 2020**: new build (9032-...205c981c3) which includes the following fix:
 
-* Fixed an issue with external accounts useing FTP over SSL. (NEO-20498)
+* Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
 
 ![](assets/orange-2.png) **December 17th 2019**: new build (9032-...9d34fb17e) which includes the following fix:
 
