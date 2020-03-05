@@ -46,7 +46,7 @@ The Adobe Campaign default data model is presented in this [document](https://fi
 
 >[!NOTE]
 >
->Adobe Campaign Classic allows to build a custom customer table. However, in most cases, it is recommended to leverage the standard [Recipient table](../../configuration/using/default-recipient-table.md) which already has pre-built additional tables and features.
+>Adobe Campaign Classic allows to build a custom customer table. However, in most cases, it is recommended to leverage the standard [Recipient table](../../configuration/using/about-data-model.md#default-recipient-table) which already has pre-built additional tables and features.
 
 ### Data for Adobe Campaign {#data-for-campaign}
 
