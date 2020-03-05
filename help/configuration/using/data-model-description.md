@@ -56,7 +56,7 @@ The iFolderId field is the foreign key that links the recipient to its execution
 
 The sCountryCode field is the 3166-1 Alpha 2 ISO code (2 characters) of the country associated with the recipient. This field is actually a foreign key on the country reference table (NmsCountry), which contains the country labels and other country code data. If the country is not populated, the value 'XX' is stored (and is used in place of a zero ID record).
 
-For more on the Recipient table, see this [section](../../configuration/using/default-recipient-table.md).
+For more on the Recipient table, see this [section](../../configuration/using/about-data-model.md#default-recipient-table).
 
 ### NmsGroup {#NmsGroup}
 
