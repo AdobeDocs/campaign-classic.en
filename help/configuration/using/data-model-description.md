@@ -30,17 +30,15 @@ To access the description of each table, go to **[!UICONTROL Admin > Configurati
 
 Adobe Campaign relies on a relational database containing tables that are linked together.
 
-The following diagram shows the joins between the main business tables of the Adobe Campaign data model with the main fields shown for each.
+The following diagram shows the joins between the main business tables of the Adobe Campaign data model with the main fields for each.
 
 <!--![](assets/data-model_diagram.png)-->
 
 ![](assets/data-model_simplified-diagram.png)
 
-The basic structure of the Adobe Campaign data model can be described as follows.
+The pre-defined Adobe Campaign data model includes the following main tables.
 
 ### NmsRecipient {#NmsRecipient}
-
-The data model relies on a main table which is by default the Recipient table (**NmsRecipient**). This table enables to store all the marketing profiles.
 
 This table matches the **nms:recipient** schema.
 
@@ -52,7 +50,7 @@ It is the default table used for the **recipients of deliveries**. As a result, 
 * sPhone, sMobilePhone, sFax contain the phone, mobile phone and fax numbers respectively.
 * iBlackList is the default opt-out flag used for the profiles (1 means "unsubscribed", 0 otherwise).
 
-The iFolderId field is the foreign key that links the recipient to its execution folder. Refer to the description of the XtkFolder table below for further details.
+The iFolderId field is the foreign key that links the recipient to its execution folder. For more on this, see [XtkFolder](#XtkFolder).
 
 The sCountryCode field is the 3166-1 Alpha 2 ISO code (2 characters) of the country associated with the recipient. This field is actually a foreign key on the country reference table (NmsCountry), which contains the country labels and other country code data. If the country is not populated, the value 'XX' is stored (and is used in place of a zero ID record).
 
@@ -62,7 +60,7 @@ For more on the Recipient table, see this [section](../../configuration/using/ab
 
 This table matches the **nms:group** schema.
 
-It enables you to create **statical groups of recipients**. There is a many-to-many relation between recipients and groups. For example, one recipient can belong to several groups and one group can contain several recipients. Groups can be created manually, via an import or via delivery targeting. Groups are often used as delivery targets. There is a unique index on the field representing the internal name of the sName group. The group is linked to a folder (The key is iFolderId. See the description of the XtkFolder table below).
+It enables you to create **statical groups of recipients**. There is a many-to-many relation between recipients and groups. For example, one recipient can belong to several groups and one group can contain several recipients. Groups can be created manually, via an import or via delivery targeting. Groups are often used as delivery targets. There is a unique index on the field representing the internal name of the sName group. The group is linked to a folder (The key is iFolderId. For more on this, see [XtkFolder](#XtkFolder)).
 
 ### NmsRcpGrpRel {#NmsRcpGrpRel}
 
@@ -74,7 +72,7 @@ This table matches the **nms:service** schema.
 
 Services are entities which are similar to groups (static recipient groupings), except that they circulate more information and enable easy management of subscriptions and unsubscriptions via forms.
 
-There is a unique index on the field representing the internal name of the sName service. The service is linked to a folder (The key is iFolderId. See the description of the XtkFolder table below). Finally, the iType field specifies the delivery channel of this service (0 for email, 1 for SMS, 2 for telephone, 3 for direct mail and 4 for fax).
+There is a unique index on the field representing the internal name of the sName service. The service is linked to a folder (The key is iFolderId. For more on this, see [XtkFolder](#XtkFolder)). Finally, the iType field specifies the delivery channel of this service (0 for email, 1 for SMS, 2 for telephone, 3 for direct mail and 4 for fax).
 
 ### NmsSubscription {#NmsSubscription}
 
@@ -94,13 +92,13 @@ This table matches the **nms:delivery** schema.
 
 Each record in this table represents a **delivery action** or a **delivery template**. It contains all the necessary parameters for performing deliveries (the target, the content, etc.). Delivery (broadcast) logs (NmsBroadLog) and associated tracking URLs (NmsTrackingUrl) are created during the analysis phase (see below for further details on both of these tables).
 
-There is a unique index on the field representing the internal name of the sInternalName delivery or scenario. The delivery is linked to an execution folder (The foreign key is iFolderProcessId. See the description of the XtkFolder table below).
+There is a unique index on the field representing the internal name of the sInternalName delivery or scenario. The delivery is linked to an execution folder (The foreign key is iFolderProcessId. For more on this, see [XtkFolder](#XtkFolder)).
 
 ### XtkFolder {#XtkFolder}
 
 It contains **all the folders in the tree** visible in the **Navigation** tab of the console.
 
-The folders are typed: The value of the sModel field specifies the type of data that can be contained in the folder. This field also enables the client console to display the data correctly with the corresponding forms. The possible values for this field are defined in the navTree.
+The folders are typed: the value of the sModel field specifies the type of data that can be contained in the folder. This field also enables the client console to display the data correctly with the corresponding forms. The possible values for this field are defined in the navTree.
 
 The tree is managed by the iParentId and iChildCount fields. The sFullName field gives the full path of the folder in the tree. Finally, there is a unique index on the field representing the internal name of the sName folder.
 
@@ -108,7 +106,7 @@ The tree is managed by the iParentId and iChildCount fields. The sFullName field
 
 ![](assets/data-model_delivery.png)
 
-* NmsBroadLogMsg: This table matches the **nms:broadLogMsg** schema. It is an extension of the delivery log table.
+NmsBroadLogMsg: This table matches the **nms:broadLogMsg** schema. It is an extension of the delivery log table.
 
 ## Campaign management {#campaign-management}
 
@@ -146,99 +144,63 @@ This table contains significant information stored in XML, including:
 
 **Execution context (information stored in XML)**
 
-Populates the tables and fields to be taken into account for measurement calculation, namely:
-* the nms:remaMatchRcp reaction log storage schema,
-* the transaction table schema (purchases for example),
-* the querying schema: enables you to define the start table of the hypothesis conditions,
-* the links to individuals: enables you to identify the individual based on the querying schema,
-* the transaction date: this field is not mandatory but we recommend that you use it to restrict the calculation perimeter,
-* the transaction amount: optional field for automatically calculating revenue indicators.
+The execution context populates the tables and fields to be taken into account for measurement calculation, namely:
+* The nms:remaMatchRcp reaction log storage schema.
+* The transaction table schema (purchases for example).
+* The querying schema, which enables you to define the start table of the hypothesis conditions.
+* The links to individuals, which enable you to identify the individual based on the querying schema.
+* The transaction date. This field is not mandatory but we recommend that you use it to restrict the calculation perimeter.
+* The transaction amount: it is an optional field for automatically calculating revenue indicators.
 
 **Hypothesis perimeter (information stored in XML)**
 
-Filtering of the hypothesis based on the table of the querying schema.
+The hypothesis perimeter consists in the filtering of the hypothesis based on the table of the querying schema.
 
 **Hypothesis overload script (information stored in XML)**
 
-JavaScript code which enables you to overload the content of the hypothesis during execution.
+The hypothesis overload script is a JavaScript code which enables you to overload the content of the hypothesis during execution.
 
 **Measurement indicators**
 
 The following indicators are updated automatically during hypothesis execution:
 
-* Number of reactions: **iTransaction**.
+* Number of reactions: **iTransaction**. Number of lines in the reaction logs table.
 
-    Number of lines in the reaction logs table
+* Number of contacted: **iContactReacted**. Distinct number of targeted contacts in the hypothesis.
 
-* Number of contacted: **iContactReacted**.
+* Control group count: **iProofReacted**. Distinct number of targeted control group contacts in the hypothesis.
 
-    Distinct number of targeted contacts in the hypothesis.
+* Contacted response rate: **dContactReactedRate**. Response rate of the contacts targeted in the hypothesis.
 
-* Control group count: **iProofReacted**.
+* Response rate of the control group: **dProofReactedRate**. Response rate of the hypothesis control group.
 
-    Distinct number of targeted control group contacts in the hypothesis.
+* Total revenue of population contacted: **dContactReactedTotalAmount**. Total revenue of the targets contacted in the hypothesis.
 
-* Contacted response rate: **dContactReactedRate**.
+* Average revenue of control group: **dContactReactedAvgAmount**. Total revenue of the contacted.
 
-    Response rate of the contacts targeted in the hypothesis.
+* Total revenue of the control group: **dProofReactedTotalAmount**. Total revenue of the hypothesis control group.
 
-* Response rate of the control group: **dProofReactedRate**.
+* Average revenue of control group: **dProofReactedAvgAmount**. Total revenue of the hypothesis control group.
 
-    Response rate of the hypothesis control group.
+* Total margin of contacts: **dContactReactedTotalMargin**. Total margin of contacts targeted in the hypothesis.
 
-* Total revenue of population contacted: **dContactReactedTotalAmount**.
-    Total revenue of the targets contacted in the hypothesis.
+* Average margin per contact: **dContactReactedAvgMargin**. Total margin of contacts targeted in the hypothesis.
 
-* Average revenue of control group: **dContactReactedAvgAmount**.
-    Total revenue of the contacted.
+* Total margin of control group: **dProofReactedTotalMargin**. Total margin of control group targeted in the hypothesis.
 
-* Total revenue of the control group: **dProofReactedTotalAmount**.
+* Average margin of control group: **dProofReactedAvgMargin**. Total margin of control group targeted in the hypothesis.
 
-    Total revenue of the hypothesis control group.
+* Additional revenue: **dAdditionnalAmount**. (Average revenue of contacted - Average revenue of control group) * Number of contacted.
 
-* Average revenue of control group: **dProofReactedAvgAmount**.
+* Additional margin: **dAdditionnalMargin**. (Average margin of contacted - Average margin of control group) / number of contacted.
 
-    Total revenue of the hypothesis control group.
+* Average cost per contact (SQL expression). Calculated cost of the delivery / Number of contacted.
 
-* Total margin of contacts: **dContactReactedTotalMargin**.
+* ROI (SQL expression). Calculated cost of the delivery / Total margin of contacted.
 
-    Total margin of contacts targeted in the hypothesis.
+* Effective ROI (SQL expression). Calculated cost of the delivery / Additional margin.
 
-* Average margin per contact: **dContactReactedAvgMargin**.
-
-    Total margin of contacts targeted in the hypothesis.
-
-* Total margin of control group: **dProofReactedTotalMargin**.
-
-    Total margin of control group targeted in the hypothesis.
-
-* Average margin of control group: **dProofReactedAvgMargin**.
-
-    Total margin of control group targeted in the hypothesis.
-
-* Additional revenue: **dAdditionnalAmount**.
-
-    (Average revenue of contacted - Average revenue of control group) * Number of contacted.
-
-* Additional margin: **dAdditionnalMargin**.
-
-    (Average margin of contacted - Average margin of control group) / number of contacted.
-
-* Average cost per contact (SQL expression).
-
-    Calculated cost of the delivery / Number of contacted.
-
-* ROI (SQL expression).
-
-    Calculated cost of the delivery / Total margin of contacted.
-
-* Effective ROI (SQL expression).
-
-    Calculated cost of the delivery / Additional margin.
-
-* Significance: **iSignificativy** (SQL expression).
-
-    Contains values 0 to 3 depending on the significance of the campaign.
+* Significance: **iSignificativy** (SQL expression). Contains values 0 to 3 depending on the significance of the campaign.
 
 ### NmsRemaMatchRcp {#NmsRemaMatchRcp}
 
