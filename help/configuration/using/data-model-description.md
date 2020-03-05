@@ -32,7 +32,7 @@ Adobe Campaign relies on a relational database containing tables that are linked
 
 The following diagram shows the joins between the main business tables of the Adobe Campaign data model with the main fields shown for each.
 
-![](assets/data-model_diagram.png)
+<!--![](assets/data-model_diagram.png)-->
 
 ![](assets/data-model_simplified-diagram.png)
 
