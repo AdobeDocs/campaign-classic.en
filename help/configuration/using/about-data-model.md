@@ -40,7 +40,7 @@ Adobe Campaign relies on a relational database containing tables that are linked
 
 The data model relies on a main table which is by default the Recipient table (**NmsRecipient**). This table enables to store all the marketing profiles.
 
-For more on the Recipient table, see this [section](#default-recipient-table.md).
+For more on the Recipient table, see this [section](#default-recipient-table).
 
 ### Delivery table {#delivery-table}
 
@@ -81,7 +81,7 @@ Also, as the Recipient table is part of the product, both the table and its asso
 
 When starting with Adobe Campaign, you need to assess the default data model to check which table is the best suited to store your marketing data.
 
-If relevant, you can use the default Recipient table with the out-of-the-box fields, such as described in this [section](#default-recipient-table.md).
+If relevant, you can use the default Recipient table with the out-of-the-box fields, such as described in this [section](#default-recipient-table).
 
 If needed, you can extend it with two mechanisms:
 
@@ -96,7 +96,7 @@ For more on configuring extension schemas to extend the conceptual data model, s
 
 ## Using a custom recipient table {#custom-recipient-table}
 
-When designing your Adobe Campaign data model, you can use the [out-of-the-box Recipient table](#default-recipient-table.md), or decide to create a non-standard recipient table to store you marketing profiles.
+When designing your Adobe Campaign data model, you can use the [out-of-the-box Recipient table](#default-recipient-table), or decide to create a non-standard recipient table to store you marketing profiles.
 
 Indeed, if your data model does not fit the recipient-centric structure, you can set up other tables as the targeting dimension within Adobe Campaign. For example, this can be relevant when you need to target households, accounts (like mobile phones) and companies/sites rather than simply recipients.
 
