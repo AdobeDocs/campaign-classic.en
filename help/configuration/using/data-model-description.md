@@ -106,7 +106,7 @@ The tree is managed by the iParentId and iChildCount fields. The sFullName field
 
 ![](assets/data-model_delivery.png)
 
-NmsBroadLogMsg: This table matches the **nms:broadLogMsg** schema. It is an extension of the delivery log table.
+**NmsBroadLogMsg**: This table matches the **nms:broadLogMsg** schema. It is an extension of the delivery log table.
 
 ## Campaign management {#campaign-management}
 
@@ -194,18 +194,9 @@ It contains a record representing an individual's reaction to a given hypothesis
 
 ![](assets/data-model_simulation.png)
 
-* **NmsSimulation**
-    
-    This table matches the **nms:simulation** schema. It represents a simulation for a set of deliveries or offers on a given population.
-
-* **NmsDlvSimulationRel**
-
-    This table matches the **nms:dlvSimulationRel** schema. It contains the list of deliveries taken into account in the simulation.
-    The scope of the simulation is stored in XML.
-
-* **NmsOfferSimulationRel**
-
-    This table matches the **nms:offerSimulationRel** schema. It lets you link up a simulation with an offer.
+* **NmsSimulation**: This table matches the **nms:simulation** schema. It represents a simulation for a set of deliveries or offers on a given population.
+* **NmsDlvSimulationRel**: This table matches the **nms:dlvSimulationRel** schema. It contains the list of deliveries taken into account in the simulation. The scope of the simulation is stored in XML.
+* **NmsOfferSimulationRel**: This table matches the **nms:offerSimulationRel** schema. It lets you link up a simulation with an offer.
 
 ## Interaction Module {#interaction-module}
 
@@ -221,17 +212,15 @@ It contains a record representing an individual's reaction to a given hypothesis
 
 ### NmsRtEvent {#NmsRtEvent}
 
-This table matches the **nms:rtEvent** schema.
-It contains a definition of real time events.
-
 ![](assets/data-model_message-center_rt.png)
+
+This table matches the **nms:rtEvent** schema. It contains a definition of real time events.
 
 ### NmsBatchEvent {#NmsBatchEvent}
 
-This table matches the **nms:batchEvent** schema.
-It contains the definition of events by batch.
-
 ![](assets/data-model_message-center_batch.png)
+
+This table matches the **nms:batchEvent** schema. It contains the definition of events by batch.
 
 ## Microsites Module {#microsites-module}
 
@@ -254,7 +243,7 @@ It contains the definition of events by batch.
 
 ![](assets/data-model_social.png)
 
-* **NmsVisitor**: This table matches the **nms:visitor** schema. It contains the information on visitors.
+* **NmsVisitor**: This table matches the **nms:visitor** schema. It contains information on visitors.
 * **NmsVisitorSub**: This table matches the **nms:visitorSub** schema. It enables you to link up a visitor to the services which they have subscribed to (Twitter or Facebook).
 * **NmsFriendShipRel**: This table matches the **nms:friendshipRel** schema. It enables you to link up visitors with their friends within the context of the Facebook service.
 * **NmsVisitorInterestRel**: This table matches the **nms:visitorInterestRel** schema. It enables you to link up visitors and their interests.
