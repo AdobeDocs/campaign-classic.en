@@ -162,44 +162,27 @@ The hypothesis overload script is a JavaScript code which enables you to overloa
 
 **Measurement indicators**
 
-The following indicators are updated automatically during hypothesis execution:
+The following indicators are updated automatically during the hypothesis execution:
 
-* Number of reactions: **iTransaction**.
-    Number of lines in the reaction logs table.
+* Number of reactions: **iTransaction**. Number of lines in the reaction logs table.
 * Number of contacted: **iContactReacted**. Distinct number of targeted contacts in the hypothesis.
 * Control group count: **iProofReacted**. Distinct number of targeted control group contacts in the hypothesis.
-
-* Contacted response rate: **dContactReactedRate**. Response rate of the contacts targeted in the hypothesis.
-
+* Contacted response rate: **dContactReactedRate**. Response rate of the targeted contacts in the hypothesis.
 * Response rate of the control group: **dProofReactedRate**. Response rate of the hypothesis control group.
-
-* Total revenue of population contacted: **dContactReactedTotalAmount**. Total revenue of the targets contacted in the hypothesis.
-
-* Average revenue of control group: **dContactReactedAvgAmount**. Total revenue of the contacted.
-
+* Total revenue of population contacted: **dContactReactedTotalAmount**. Total revenue of the targeted contacts in the hypothesis.
+* Average revenue of control group: **dContactReactedAvgAmount**. Average revenue of the targeted control group contacts in the hypothesis.
 * Total revenue of the control group: **dProofReactedTotalAmount**. Total revenue of the hypothesis control group.
-
-* Average revenue of control group: **dProofReactedAvgAmount**. Total revenue of the hypothesis control group.
-
-* Total margin of contacts: **dContactReactedTotalMargin**. Total margin of contacts targeted in the hypothesis.
-
-* Average margin per contact: **dContactReactedAvgMargin**. Total margin of contacts targeted in the hypothesis.
-
-* Total margin of control group: **dProofReactedTotalMargin**. Total margin of control group targeted in the hypothesis.
-
-* Average margin of control group: **dProofReactedAvgMargin**. Total margin of control group targeted in the hypothesis.
-
+* Average revenue of control group: **dProofReactedAvgAmount**. Average revenue of the hypothesis control group.
+* Total margin per contact: **dContactReactedTotalMargin**. Total margin per contact targeted in the hypothesis.
+* Average margin per contact: **dContactReactedAvgMargin**. Average margin per contact targeted in the hypothesis.
+* Total margin of control group: **dProofReactedTotalMargin**. Total margin of the control group targeted in the hypothesis.
+* Average margin of control group: **dProofReactedAvgMargin**. Average margin of the control group targeted in the hypothesis.
 * Additional revenue: **dAdditionnalAmount**. (Average revenue of contacted - Average revenue of control group) * Number of contacted.
-
-* Additional margin: **dAdditionnalMargin**. (Average margin of contacted - Average margin of control group) / number of contacted.
-
+* Additional margin: **dAdditionnalMargin**. (Average margin of contacted - Average margin of control group) / Number of contacted.
 * Average cost per contact (SQL expression). Calculated cost of the delivery / Number of contacted.
-
 * ROI (SQL expression). Calculated cost of the delivery / Total margin of contacted.
-
 * Effective ROI (SQL expression). Calculated cost of the delivery / Additional margin.
-
-* Significance: **iSignificativy** (SQL expression). Contains values 0 to 3 depending on the significance of the campaign.
+* Significance: **iSignificativy** (SQL expression). Contains values from 0 to 3 depending on the significance of the campaign.
 
 ### NmsRemaMatchRcp {#NmsRemaMatchRcp}
 
@@ -212,13 +195,16 @@ It contains a record representing an individual's reaction to a given hypothesis
 ![](assets/data-model_simulation.png)
 
 * **NmsSimulation**
-    This table matches the nms:simulation schema.
-    It represents a simulation for a set of deliveries or offers on a given population.
+    
+    This table matches the **nms:simulation** schema. It represents a simulation for a set of deliveries or offers on a given population.
+
 * **NmsDlvSimulationRel**
-    This table matches the **nms:dlvSimulationRel** schema.
-    It contains the list of deliveries taken into account in the simulation.
+
+    This table matches the **nms:dlvSimulationRel** schema. It contains the list of deliveries taken into account in the simulation.
     The scope of the simulation is stored in XML.
+
 * **NmsOfferSimulationRel**
+
     This table matches the **nms:offerSimulationRel** schema. It lets you link up a simulation with an offer.
 
 ## Interaction Module {#interaction-module}
