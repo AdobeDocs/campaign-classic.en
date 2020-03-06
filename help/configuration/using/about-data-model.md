@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# About the Campaign Classic data model{#about-data-model}
+# About the Campaign data model{#about-data-model}
 
 This section describes the basics of the Adobe Campaign Classic data model, for a better understanding of Campaign built-in tables and their interaction.
 
