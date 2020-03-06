@@ -165,11 +165,8 @@ The hypothesis overload script is a JavaScript code which enables you to overloa
 The following indicators are updated automatically during hypothesis execution:
 
 * Number of reactions: **iTransaction**.
-Number of lines in the reaction logs table.
-
-* Number of contacted: **iContactReacted**.
-Distinct number of targeted contacts in the hypothesis.
-
+    Number of lines in the reaction logs table.
+* Number of contacted: **iContactReacted**. Distinct number of targeted contacts in the hypothesis.
 * Control group count: **iProofReacted**. Distinct number of targeted control group contacts in the hypothesis.
 
 * Contacted response rate: **dContactReactedRate**. Response rate of the contacts targeted in the hypothesis.
