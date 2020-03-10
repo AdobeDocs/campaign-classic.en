@@ -642,9 +642,7 @@ sub-product: adobe campaign classic
 + Configuring Campaign Classic {#configuring-campaign-classic}
   + Data model {#data-model}
        + [About the data model](configuration/using/about-data-model.md)
-       + [Using the default Recipient table](configuration/using/default-recipient-table.md)
-       + [Extending the data model](configuration/using/extending-data-model.md)
-       + [Using a custom recipient table](configuration/using/custom-recipient-table.md)
+       + [Data model description](configuration/using/data-model-description.md)
        + [Best practices](configuration/using/data-model-best-practices.md)
   + Schema Reference {#schema-reference}
        + [About schema reference](configuration/using/about-schema-reference.md)

@@ -46,7 +46,7 @@ The Adobe Campaign default data model is presented in this [document](https://fi
 
 >[!NOTE]
 >
->Adobe Campaign Classic allows to build a custom customer table. However, in most cases, it is recommended to leverage the standard [Recipient table](../../configuration/using/default-recipient-table.md) which already has pre-built additional tables and features.
+>Adobe Campaign Classic allows to build a custom customer table. However, in most cases, it is recommended to leverage the standard [Recipient table](../../configuration/using/about-data-model.md#default-recipient-table) which already has pre-built additional tables and features.
 
 ### Data for Adobe Campaign {#data-for-campaign}
 
@@ -281,7 +281,7 @@ Here is an example:
 ![](assets/transaction-table-example.png)
 
 In this example:
-* The *Transactions* and *Transaction Item* tables are large: more than 10 million.
+* The *Transaction* and *Transaction Item* tables are large: more than 10 million.
 * The *Product* and *Store* tables are smaller: less than 10,000.
 * The product label and reference have been placed in the *Product* table.
 * The *Transaction Item* table only has a link to the *Product* table, which is numerical.
