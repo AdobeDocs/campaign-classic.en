@@ -42,7 +42,7 @@ This customer-centric approach is shown on the chart below. The **Recipient** ta
 
 To access the description of each table, go to **[!UICONTROL Admin > Configuration > Data schemas]**, select a resource from the list and click the **[!UICONTROL Documentation]** tab.
 
-The Adobe Campaign default data model is presented in this [document](https://final-docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html).
+The Adobe Campaign default data model is presented in this [document](../../configuration/using/data-model-description.md).
 
 >[!NOTE]
 >

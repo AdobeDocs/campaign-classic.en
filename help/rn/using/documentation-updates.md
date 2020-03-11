@@ -26,6 +26,8 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 The data model best practices page has been updated with new sections including [Sequences](../../configuration/using/data-model-best-practices.md#sequences), [Performance](../../configuration/using/data-model-best-practices.md#performance) and [Large tables](../../configuration/using/data-model-best-practices.md#large-tables), amongst others. [Read more](../../configuration/using/data-model-best-practices.md)
 
+A new section describing the Adobe Campaign pre-defined data model is now available. [Read more](../../configuration/using/data-model-description.md)
+
 ## February 2020 {#february-2020}
 
 A new section outlining best practices and key recommendations while designing the Adobe Campaign data model is now available. [Read more](../../configuration/using/data-model-best-practices.md)
