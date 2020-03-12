@@ -64,6 +64,11 @@ The following steps detail the configuration of Data connector using a wizard.
    ![](assets/adobe_genesis_install_013.png)
 
 1. From the **[!UICONTROL Admin]** tab, select **[!UICONTROL Data Connectors]**.
+   
+   You need to have the following Analytics tools permissions to access the **[!UICONTROL Data Connectors]** menu. For more on this, refer to this [page](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)
+   * Integrations (Create)
+   * Integrations (Update)
+   * Integrations (Delete)
 
    ![](assets/adobe_genesis_install_002.png)
 
