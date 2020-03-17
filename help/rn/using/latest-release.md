@@ -37,7 +37,13 @@ snippet: y
 
 The **last stable build** is 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/blue_2.png) Release 20.1 - Build 9122 {#release-20-1-build-9122} 
+## ![](assets/blue_2.png) Release 20.1.2 - Build 9123 {#release-20-1-2-build-9123}
+
+_March 13, 2020_
+
+* Fixed an issue that prevented version deployment on Red Hat 7 servers. (NEO-23332) 
+
+## ![](assets/orange_2.png) Release 20.1 - Build 9122 {#release-20-1-build-9122} 
 
 _February 17, 2020_
 
