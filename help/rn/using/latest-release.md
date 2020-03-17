@@ -41,7 +41,7 @@ The **last stable build** is 9032 (205c981c3). Click [here](../../rn/using/relea
 
 _March 13, 2020_
 
-* Fixed an issue that prevented version deployment on Red Hat 7 servers. (NEO-23332) 
+* Fixed an issue that prevented version deployment on Red Hat 7 servers. (NEO-23332)
 
 ## ![](assets/orange_2.png) Release 20.1 - Build 9122 {#release-20-1-build-9122} 
 
