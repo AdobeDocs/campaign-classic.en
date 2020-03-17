@@ -127,7 +127,7 @@ In the list of quarantined addresses, the **[!UICONTROL Error reason]** field in
 As opposed to hard errors, soft errors do not send immediately an address to quarantine, but instead they increment an error counter.
 
 * When the error counter reaches the limit threshold, then the address goes into quarantine.
-* In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the sixth error.
+* In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
 * The error counter threshold can be modified. For more on this, refer to [Retries after a delivery temporary failure](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 The error counter is reinitialized if the last significant error occurred more than 10 days ago. The address status then changes to **Valid** and it is deleted from the list of quarantines by the **Database cleanup** workflow.
