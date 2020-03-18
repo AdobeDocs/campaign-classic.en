@@ -48,4 +48,4 @@ Generally speaking, the following rights are necessary:
 
 >[!NOTE]
 >
->The database administrator needs to make these rights match with the rights specific to each database engine. For more information, refer to [RDBMS specific rights](https://docs.campaign.adobe.com/doc/AC6.1/en/technicalResources/technicalResources.html).
+>The database administrator needs to make these rights match with the rights specific to each database engine. For more information, refer to [RDBMS specific rights](https://docs.adobe.com/content/help/en/campaign-classic/using/assets/fda_rdbms_rights.pdf).
