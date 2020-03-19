@@ -16,7 +16,148 @@ internal: n
 snippet: y
 ---
 
-# Inserting a dynamic image{#inserting-a-dynamic-image}
+# Inserting Target dynamic content {#inserting-a-dynamic-image}
+
+In this guide, we will present how to integrate a dynamic offer from Target into an email in Adobe Campaign.
+
+We want to create a delivery that will include an image block that will dynamically change according to the recipient's country. The data is sent with each mbox request and depends on the visitor's IP address.
+
+In this email, we want one of the images to vary dynamically according to the following user-experiences:
+
+* The email is opened in France.
+* The email is opened in the United States.
+* If none of these conditions apply, a default image is displayed.
+
+![](assets/target_4.png)
+
+For this to work, we need to perform the following steps both in Adobe Campaign and Target Standard:
+
+1. Inserting the dynamic offer in an email
+1. Creating redirect offers
+1. Creating audiences
+1. Creating an Experience Targeting Activity
+1. Previewing and sending the email
+
+## Inserting the dynamic offer in an email {#inserting-dynamic-offer}
+
+In Adobe Campaign, once you're done defining the target and content of your email, you can insert a dynamic image from Target.
+
+To do this, specify the default image's URL, the location name, and the fields you want to transfer to Target.
+
+### Where to find the option {#option-offer}
+
+In Adobe Campaign, there are two ways to insert a dynamic image from Target into an email:
+
+* If you are using the digital content editor, choose an existing image and select **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** from the toolbar.
+
+   ![](assets/target_5.png)
+
+* If you are using the standard editor, place the cursor where you want to insert the image and select **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]** from the personalization drop-down menu.
+
+   ![](assets/target_12.png)
+
+### Defining the image parameters {#defining-image-parameters}
+
+* The **[!UICONTROL Default image]**'s URL: The image that will be displayed when none of the conditions are fulfilled. You can also select an image from your Assets library.
+* The **[!UICONTROL Target location]**: Enter a name for your dynamic offer's location. You will have to select this location in your Target activity.
+* The **[!UICONTROL Additional decision parameters]**: Select the Campaign fields that you need to transfer to Target. In our example, we added the Country field.
+
+   ![](assets/target_13.png)
+
+## Creating redirect offers {#create-redirect-offers}
+
+In Target Standard, you can create different versions of your offer. Depending on each user experience, a redirect offer can be created and you can specify the image that will be displayed.
+
+In our case, we need two redirect offers, the third one (the default one) is to be defined in Adobe Campaign.
+
+1. To create a new redirect offer in Target Standard, from the **[!UICONTROL Content]** tab, click **[!UICONTROL Code offers]**.
+
+1. Click **[!UICONTROL Create]** then **[!UICONTROL Redirect Offer]**.
+
+   ![](assets/target_9.png)
+
+1. Enter a name for the offer and the URL of your image.
+
+   ![](assets/target_6.png)
+
+1. Follow the same procedure for the remaining redirect offer. For more on this, refer to this [page](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html).
+
+## Creating audiences {audiences-target}
+
+In Target, you need to create the two audiences into which the people who visit your offer will be categorized for the  different contents to be delivered. For each audience, add a rule to define who will be able to see the offer.
+
+1. To create a new audience in Target, from the **[!UICONTROL Audiences]** tab, click **[!UICONTROL Create Audience]**.
+
+   ![](assets/audiences_1.png)
+
+1. Add a name to your audience.
+
+   ![](assets/audiences_2.png)
+
+1. Click **[!UICONTROL Add a rule]** and select a category. The rule uses specific criteria to target the visitors. You can refine the rules by adding conditions or by creating new rules in other categories.
+
+1. Follow the same procedure for the remaining audiences.
+
+## Creating an Experience Targeting Activity {#creating-targeting-activity}
+
+In Target Standard, we need to create an Experience Targeting activity, define the different experiences, and associate them with the corresponding offers.
+
+### Defining the audience {#defining-the-audience}
+
+1. To create an Experience Targeting activity, from the **[!UICONTROL Activities]** tab, click **[!UICONTROL Create Activity]** then **[!UICONTROL Experience Targeting]**.
+
+   ![](assets/target_10.png)
+
+1. Select **[!UICONTROL Form]** as **[!UICONTROL Experience Composer]**.
+
+1. Choose an audience by clicking the **[!UICONTROL Change audience]** button.
+
+   ![](assets/target_10_2.png)
+
+1. Select the audience that was created in the previous steps.
+
+   ![](assets/target_10_3.png)
+
+1. Create another experience by clicking **[!UICONTROL Add Experience Targeting]**.
+
+### Defining the location and content {#defining-location-content}
+
+Add a content for each audience:
+
+1. Select the location name that you chose when inserting the dynamic offer in Adobe Campaign.
+
+   ![](assets/target_15.png)
+
+1. Click the drop-down button and select **[!UICONTROL Change Redirect Offer]**.
+
+   ![](assets/target_content.png)
+
+1. Select the redirect offer that you had previously created.
+
+   ![](assets/target_content_2.png)
+
+1. Follow the same steps for the second experience.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This section details the steps to carry out in Adobe Campaign to integrate an image from Adobe Target into an email.
 
