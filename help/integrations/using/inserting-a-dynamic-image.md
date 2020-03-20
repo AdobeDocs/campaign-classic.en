@@ -138,6 +138,7 @@ Add a content for each audience:
 
 1. Follow the same steps for the second experience.
 
+### Defining the activity {#defining-activity}
 
 
 
