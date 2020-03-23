@@ -23,7 +23,7 @@ snippet: y
 Get started with Adobe Campaign by consulting our intuitive step-by-step guides.
 
 * [Editing email content with Adobe Experience Manager](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html): learn about the basics to get started with the integration between Adobe Campaign and Experience Manager.
-* [General Data Protection Regulation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html): discover what Adobe Campaign Classic provides to help you with your GDPR compliance when using our service.
+* [Privacy management](https://helpx.adobe.com/campaign/kb/acc-privacy.html): discover what Adobe Campaign Classic provides to help you with your Privacy compliance when using our service.
 * [Integrating dynamic content in an email](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/target.html): discover the basics to get started with the integration between Campaign Classic and Target Standard.
 * [Managing deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html): learn about the concepts and best practices related to deliverability as well as the tools offered by Adobe Campaign Classic to optimize sending your deliveries.
 * [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html): learn about the best practices related to delivery design and sending with Adobe Campaign Classic.
@@ -52,4 +52,4 @@ Discover Adobe Campaign's main features by watching our how-to videos.
 * [Managing seed and proofs in an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html): learn how to add seeds and proofs to an existing email in Adobe Campaign.
 * [Adobe Campaign and Microsoft Dynamics 365 integration](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/integrating/dynamics365-integration.html): learn how to link and synchronize Adobe Campaign and Microsoft Dynamics through CRM connectors capabilities.
 
-Besides these short and detailed videos, you can also find [training courses](https://training.adobe.com/training/courses.html) as well as [presentation videos](https://www.adobe.com/training/video.html) on our website.
+Besides these short and detailed videos, you can also find [training courses](https://learning.adobe.com/catalog.html) as well as [presentation videos](https://www.adobe.com/training/video.html) on our website.

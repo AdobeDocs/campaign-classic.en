@@ -31,7 +31,7 @@ The **Managing social networks** (Social Marketing) application designed for man
 
    Adobe Campaign Social Marketing also makes it easy to acquire new contacts via Facebook: contact users and ask them if they want to share their profile information. If they accept, Adobe Campaign automatically recovers the data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Facebook and Twitter make regular changes to their screens and processes. This document will be updated accordingly.
 >

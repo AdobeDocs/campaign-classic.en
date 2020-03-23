@@ -25,7 +25,7 @@ For each delivery, you can define several types of target populations. The secti
 * **The main recipients of the delivery**. [Read more](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
 * **The recipients of proof messages**, in order to set up a validation cycle. [Read more](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
-Additionnally, you can can also define [seed addresses](../../delivery/using/about-seed-addresses.md), and [control groups](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group). if the delivery is included in a marketing campaign.
+Additionally, you can also define [seed addresses](../../delivery/using/about-seed-addresses.md), and [control groups](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group). if the delivery is included in a marketing campaign.
 
 ## Selecting the main recipients of the delivery {#selecting-the-main-target}
 

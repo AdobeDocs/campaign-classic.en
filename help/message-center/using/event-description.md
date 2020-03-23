@@ -18,9 +18,9 @@ snippet: y
 
 # Event description{#event-description}
 
-## About transactional messaging datamodel {#about-transactional-messaging-datamodel}
+## About the transactional messaging data model {#about-transactional-messaging-datamodel}
 
-Transactional messaging relies on Campaign datamodel, and uses two additional separate tables. These tables, **NmsRtEvent** and **NmsBatchEvent**, contain the same fields and let you manage real time events on the one hand and batch events on the other.
+Transactional messaging relies on the Adobe Campaign data model, and uses two additional separate tables. These [tables](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** and **NmsBatchEvent**, contain the same fields and let you manage real time events on the one hand and batch events on the other.
 
 ## SOAP methods {#soap-methods}
 
@@ -116,7 +116,7 @@ The **`<rtevent>`** and **`<batchevent>`** elements have a set of attributes as 
 
 The mandatory attributes of the **`<rtevent>`** and **`<batchevent>`** elements are @type and @email. The value of @type must be the same as the itemized list value defined when configuring the execution instance. This value lets you define the template to be linked to the content of the event during the delivery.
 
-`<rtevent>  configuration example: </rtevent>`
+`<rtevent> configuration example:`
 
 ```
 <rtEvent type="order_confirmation" email="john.doe@domain.com" origin="eCommerce" wishedChannel="0" externalId="1242" mobilePhone="+33620202020"> 

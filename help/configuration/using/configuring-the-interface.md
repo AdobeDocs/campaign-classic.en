@@ -34,7 +34,7 @@ Adobe Campaign uses a "Nms_DefaultRcpSchema" global variable to dialog with the 
 
 Creating a new form will enable you to view and edit the data of the external recipient table.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The name of the form must be identical to the name of the schema which it concerns.
 

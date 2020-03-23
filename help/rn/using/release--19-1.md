@@ -18,13 +18,34 @@ snippet: y
 
 # Release 19.1{#release-19-1}
 
-## Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
+[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--19-1.md) &#124; [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td><img src="assets/green3.png"/><strong>General Availability</strong></td>
+   <td><img src="assets/blue3.png"/><strong>Release Candidate</strong></td> 
+   <td><img src="assets/orange3.png"/><strong>No longer available</strong></td> 
+   <td><img src="assets/red3.png"/><strong>Deprecated</strong></td> 
+  </tr> 
+   <tr> 
+   <td>Latest stable build available. Build validated in production.<br>&nbsp;</td>
+   <td>Build validated by Adobe. Waiting for production proofing.<br>&nbsp;</td>
+   <td>Newer build available with bug fixes. Update is required.<br>&nbsp;</td>
+   <td>Contains known regressions. Update is mandatory.<br>&nbsp;</td>
+  </tr> 
+ </tbody> 
+</table>
+
+The **last stable build** is 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+
+## ![](assets/orange_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
 >This build is for on-premise installations only. For hybrid deployments, hosted instances will keep running the 9032 build. Do not upgrade your marketing instance to the 9035 build as it is not compatible with 9032.
 
-3 October 2019
+_3 October 2019_
 
 **Improvements**
 
@@ -34,13 +55,9 @@ snippet: y
 * Fixed an issue which could lead to certain messages not being processed by the Mid-Sourcing server. (NEO-12395)
 * Fixed an issue which prevented the full use of the SQL Data Management activity (the "SQL Data Management" named right was missing).
 
-## Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
+## ![](assets/orange_2.png) Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
-13 August 2019
-
->[!CAUTION]
->
->This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+_13 August 2019_
 
 **Improvements**
 
@@ -53,57 +70,41 @@ snippet: y
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-**December 17th 2019**: new build (9032-9d34fb17e) which includes the following fix:
+![](assets/green_2.png) **March 5th 2020**: new build (9032-...205c981c3) which includes the following fix:
+
+* Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
+
+![](assets/orange_2.png) **December 17th 2019**: new build (9032-...9d34fb17e) which includes the following fix:
 
 * Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter).
  (NEO-19595)
 
-**December 11th 2019**: new build (9032-e28b428b7) which includes the following fix:
-
->[!CAUTION]
->
->This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+![](assets/orange_2.png) **December 11th 2019**: new build (9032-...e28b428b7) which includes the following fix:
 
 * Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
 
-**November 20th 2019**: new build (9032-3468c7bb5) which includes the following fixes:
-
->[!CAUTION]
->
->This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+![](assets/orange_2.png) **November 20th 2019**: new build (9032-...3468c7bb5) which includes the following fixes:
 
 * Fixed a login issue via IMS authentication. (NEO-17312)
 * Fixed an issue when displaying cumulative reports on multiple deliveries. (NEO-18165)
 * Fixed an issue that could block or make the web server crash.
 
-**September 19th 2019**: new build (9032-cee805c93) which includes the following fixes:
-
->[!CAUTION]
->
->This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+![](assets/orange_2.png) **September 19th 2019**: new build (9032-...cee805c93) which includes the following fixes:
 
 * Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
 * Fixed an index issue which could cause performance issues when sending transactional messages.
 
-**August 13th 2019**: initial 19.1.4 build which includes the following fixes:
+![](assets/orange_2.png) **August 13th 2019**: initial 19.1.4 build which includes the following fixes:
 
->[!CAUTION]
->
->This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
-  
 * Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
 * Fixed a regression caused by the NEO-12727 which could lead to workflows being stopped when a Test activity was executed twice. (NEO-16835) 
 * Fixed an issue which led to an erroneous HTTP code being returned (HTTP 200 OK instead of HTTP 403 Forbidden) when an invalid or expired session token was used in API calls. (NEO-16826) 
 * Fixed an issue with the DKIM key which was not embedded into emails anymore, thus causing deliverability issues. (NEO-16804) 
 * Fixed various issues with workflow scheduling. Workflows were scheduled to be executed once a day without taking into account the scheduler configuration. (NEO-16619, NEO-16426)
 
-## Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}
+## ![](assets/orange_2.png) Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}
 
-21 June 2019
-
->[!CAUTION]
->
->This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+_21 June 2019_
 
 **Security enhancements**
 
@@ -117,13 +118,9 @@ snippet: y
 * We now allow the deletion of dummy records created in Microsoft Dynamics during import workflow.
 * Improved permissions to execute the security zone package when using internal account.
 
-## Release 19.1 - Build 9026{#release-19-1-build-9026}
+## ![](assets/orange_2.png) Release 19.1 - Build 9026{#release-19-1-build-9026}
 
-30 May 2019
-
->[!CAUTION]
->
->This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+_30 May 2019_
 
 **What's new?**
 
@@ -179,7 +176,7 @@ snippet: y
 
 **Guardrail, robustness &amp; scalability improvements**
 
-* Lifespan - XtkNewId sequence usage optimization: the most consuming tables have been moved from the xtkNewId sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence ) 
+* Lifespan - XtkNewId sequence usage optimization: the most consuming tables have been moved from the xtkNewId sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence) 
 * FDA over HTTP v2: the FDA over HTTP protocol is widely used on Hybrid deployments, especially for broadLog retrieval and delivery preparation. Robustness has been enhanced to avoid network issues and possible errors as retrieving or pushing data. This requires that builds at both ends of the connection are up-to-date, otherwise the old protocol will still be used.
 * Tracking workflow: the tracking workflow robustness has been enhanced. Several issues related to tracking log inserts/updates and URL tracking customization have been fixed. In addition, the tracking workflow now detects tracking log issues that could lead to errors and stop the workflow. These issues are now discarded and not processed.
 * Cleanup workflow: the cleanup workflow has been improved to avoid potential errors and stops. This optimizes database size and performance.

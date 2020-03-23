@@ -18,7 +18,7 @@ snippet: y
 
 # Communication channels{#communication-channels}
 
-With Adobe Campaign, you can sent cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated [reports](../../reporting/using/reports-on-deliveries.md#accessing-existing-reports). These messages are designed and sent though deliveries, and can be personalized for each recipient.
+With Adobe Campaign, you can sent cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated [reports](../../reporting/using/delivery-reports.md). These messages are designed and sent though deliveries, and can be personalized for each recipient.
 
 Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports. The main functional access point is the delivery wizard. This access point leads to several capabilities covered by Adobe Campaign.
 
@@ -33,7 +33,7 @@ Adobe Campaign offers the following delivery channels:
 1. **Email channel**: email deliveries let you send personalized emails to the target population. Refer to [About email channel](../../delivery/using/about-email-channel.md).
 1. **Direct mail channel**: direct mail deliveries let you generate an extraction file which contains data on the target population. Refer to [About direct mail channel](../../delivery/using/about-direct-mail-channel.md).
 1. **Mobile channel**: deliveries on mobile channels let you send personalized SMS or LINE messages to the target population. Refer to [SMS channel](../../delivery/using/sms-channel.md).
-1. **Mobile application channel**: mobile app deliveries let you send notifications to iOs and Android systems. Refer to the [Mobile app channel](../../delivery/using/about-mobile-app-channel.md) chapter.
+1. **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems. Refer to the [Mobile app channel](../../delivery/using/about-mobile-app-channel.md) chapter.
 
    Other channels are described in [this page](../../delivery/using/other-channels.md).
 

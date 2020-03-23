@@ -31,19 +31,19 @@ You can track the execution of deliveries via various reports accessible from th
 
    By default, the following reports are available:
 
-    * **[!UICONTROL Delivery throughput]** : refer to [Delivery throughput](#delivery-throughput).
-    * **[!UICONTROL Sharing to social networks]** : refer to [Sharing to social networks](#sharing-to-social-networks).
-    * **[!UICONTROL Statistics on sharing activities]** : refer to [Statistics on sharing activities](#statistics-on-sharing-activities).
+    * **[!UICONTROL Delivery throughput]** : refer to [Delivery throughput](../../reporting/using/global-reports.md#delivery-throughput).
+    * **[!UICONTROL Sharing to social networks]** : refer to [Sharing to social networks](../../reporting/using/global-reports.md#sharing-to-social-networks).
+    * **[!UICONTROL Statistics on sharing activities]** : refer to [Statistics on sharing activities](../../reporting/using/global-reports.md#statistics-on-sharing-activities).
     * **[!UICONTROL Hot clicks]** : refer to [Hot clicks](#hot-clicks).
     * **[!UICONTROL Tracking statistics]** : refer to [Tracking statistics](#tracking-statistics)
     * **[!UICONTROL URLs and click streams]** : refer to [URLs and click streams](#urls-and-click-streams).
     * **[!UICONTROL Tracking indicators]** : refer to [Tracking indicators](#tracking-indicators).
-    * **[!UICONTROL Non-deliverables and bounces]** : refer to [Non-deliverables and bounces](#non-deliverables-and-bounces).
-    * **[!UICONTROL User activities]** : refer to [User activities](#user-activities).
+    * **[!UICONTROL Non-deliverables and bounces]** : refer to [Non-deliverables and bounces](../../reporting/using/global-reports.md#non-deliverables-and-bounces).
+    * **[!UICONTROL User activities]** : refer to [User activities](../../reporting/using/global-reports.md#user-activities).
     * **[!UICONTROL Delivery summary]** : refer to [Delivery summary](#delivery-summary).
-    * **[!UICONTROL Subscription tracking]** : refer to [Subscription tracking](#subscription-tracking).
-    * **[!UICONTROL Delivery statistics]** : refer to [Delivery statistics](#delivery-statistics).
-    * **[!UICONTROL Breakdown of opens]** : refer to [Breakdown of opens](#breakdown-of-opens).
+    * **[!UICONTROL Subscription tracking]** : refer to [Subscription tracking](../../reporting/using/global-reports.md#subscription-tracking).
+    * **[!UICONTROL Delivery statistics]** : refer to [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics).
+    * **[!UICONTROL Breakdown of opens]** : refer to [Breakdown of opens](../../reporting/using/global-reports.md#breakdown-of-opens).
 
 ## Tracking indicators {#tracking-indicators}
 
@@ -51,7 +51,7 @@ This report combines the key indicators for tracking the behavior of recipients 
 
 >[!NOTE]
 >
->Values calculated based on message opens are always estimates, due to the margin of error linked to emails in text format. The **[!UICONTROL Distinct opens/Sum of opens for the population reached]** indicators take this margin of error into account. For more information on tracking opens, refer to [Tracking opens](#tracking-opens-).
+>Values calculated based on message opens are always estimates, due to the margin of error linked to emails in text format. The **[!UICONTROL Distinct opens/Sum of opens for the population reached]** indicators take this margin of error into account. For more information on tracking opens, refer to [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-).
 
 ![](assets/s_ncs_user_tracking_synth_report.png)
 
@@ -74,7 +74,7 @@ This report combines the key indicators for tracking the behavior of recipients 
 
   >[!NOTE]
   >
-  >For more information on the difference between distinct people and targeted recipients, refer to [Targeted persons / recipients](#targeted-persons---recipients).
+  >For more information on the difference between distinct people and targeted recipients, refer to [Targeted persons / recipients](../../reporting/using/indicator-calculation.md#targeted-persons---recipients).
 
 **[!UICONTROL 3. Open and click-through rate]**
 
@@ -117,7 +117,7 @@ This table of values shows the breakdown of deliveries, opens, clicks and raw re
 
 **[!UICONTROL 6. Sharing activities to email and social networks]**
 
-This section shows the number of messages shared on each social network. For more on this, refer to [Sharing to social networks](#sharing-to-social-networks).
+This section shows the number of messages shared on each social network. For more on this, refer to [Sharing to social networks](../../reporting/using/global-reports.md#sharing-to-social-networks).
 
 ## URLs and click streams {#urls-and-click-streams}
 
@@ -133,7 +133,7 @@ The following rates are displayed in the upper section of the report:
 
   >[!NOTE]
   >
-  >For more information on tracking opens, refer to [Tracking opens](#tracking-opens-).
+  >For more information on tracking opens, refer to [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-).
 
 * **[!UICONTROL Distinct clicks]** : Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully. 
 * **[!UICONTROL Cumulated clicks]** : Total number of clicks by targeted recipients (excluding unsubscription link and mirror page). The rate displayed is calculated based on the number of messages forwarded successfully.
@@ -195,6 +195,6 @@ It lets you track the marketing impact of the delivery. You can configure how va
 
 This report provides a table of values and a Pareto chart which display the time required for the delivery to reach maximum efficiency. The following indicators are used:
 
-* **[!UICONTROL Opens]** : Estimate of the time needed to reach a percentage of the total number of messages opened. Emails in text format aren't taken into account. For more information on tracking opens, refer to [Tracking opens](#tracking-opens-).
+* **[!UICONTROL Opens]** : Estimate of the time needed to reach a percentage of the total number of messages opened. Emails in text format aren't taken into account. For more information on tracking opens, refer to [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-).
 * **[!UICONTROL Clicks]** : Estimate of the time required to reach a percentage of the total number of clicks recorded. Clicks on the opt-out link and the mirror page are not taken into account.
 * **[!UICONTROL Transactions]** : Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).

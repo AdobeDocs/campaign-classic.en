@@ -70,11 +70,11 @@ The variables are the free properties of the **[!UICONTROL instance]**, **[!UICO
 
 ### Instance variables {#instance-variables}
 
-The instance variables (**[!UICONTROL instance.vars.xxx]**) are comparable to global variables: They are shared by all activities.
+The instance variables (**[!UICONTROL instance.vars.xxx]**) are comparable to global variables. They are shared by all activities.
 
 ### Task variables {#task-variables}
 
-The task variables (**[!UICONTROL task.vars.xxx]**) are comparable to local variables: They are only used by the current task. These variables are used by persistent activities to keep data and are sometimes used to exchange data between the different scripts of a same activity.
+The task variables (**[!UICONTROL task.vars.xxx]**) are comparable to local variables. They are only used by the current task. These variables are used by persistent activities to keep data and are sometimes used to exchange data between the different scripts of a same activity.
 
 ### Event variables {#event-variables}
 
@@ -110,7 +110,9 @@ In this example, an instance variable is used to compute dynamically the split p
 
 1. Inside the Initialization script section of the Advanced tab of the Split activity, define a JS condition. The JS condition selects the random sampling percentage of the first transition coming out of the Split activity and updates it to a value set by the instance variable created previously.
 
-    ```activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;```
+    ```
+    activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;
+    ```
 
     ![](assets/js_ex3.png)
 

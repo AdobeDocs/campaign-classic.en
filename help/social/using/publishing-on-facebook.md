@@ -74,7 +74,7 @@ However it is also possible to use the audience filters used by Facebook. The **
 * **[!UICONTROL Cities]** 
 * **[!UICONTROL Languages]**
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Use this function with care. In delivery reports, the **[!UICONTROL Number of fans]** indicator will not take these Facebook filters into account.
 >
@@ -111,7 +111,7 @@ A status type delivery with a link may contain text, images and a link. The foll
 
 Enter the various fields:
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >All URLs must start with **"http://"** or **"https://"**.
 
@@ -131,7 +131,7 @@ Enter the various fields:
 
 1. In the **[!UICONTROL Image]** field, enter the URL of the image which will be displayed to the left of the publication.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The image has to be hosted on a public internet site in order for Facebook to be able to upload it.
 
@@ -154,7 +154,7 @@ Enter the various fields:
 
 1. In the **[!UICONTROL Status]** field, enter the text which will be displayed under the name of the page. 
 1. In the **[!UICONTROL Name]** field, enter the publication title.
-1. In the **[!UICONTROL Video code]** field, enter the code of the YouTube video. For instance, for the 'http://www.youtube.com/watch?v=abc123456' link, the video code will be 'abc123456'.
+1. In the **[!UICONTROL Video code]** field, enter the code of the YouTube video. For instance, for the 'https://www.youtube.com/watch?v=abc123456' link, the video code will be 'abc123456'.
 1. In the **[!UICONTROL Caption]** field, enter the text that will appear at the end of the publication.
 1. Go to the **[!UICONTROL Description]** field and enter the text to be displayed under the title.
 

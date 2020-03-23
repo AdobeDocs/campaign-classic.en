@@ -41,10 +41,6 @@ Discover how to import an existing HTML to create and send an email in Adobe Cam
 
 [Design an email with Campaign digital content editor](../../web/using/use-case--creating-an-email-delivery.md): learn how to use Campaign DCE to design an email through an example.
 
-## How can I add a barcode in an email? {#how-can-i-add-a-barcode-in-an-email-}
-
-Discover how to easily [add a barcode](../../delivery/using/inserting-a-barcode-in-an-email.md) in a personalized email.
-
 ## How can I create a subscription-based newsletter in Campaign? {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 
 [Create a newsletter service](../../delivery/using/managing-subscriptions.md): key steps to create a newsletter and manage subscriptions.

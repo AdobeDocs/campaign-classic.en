@@ -38,7 +38,7 @@ Before sending the delivery, you can define the sending parameters in the delive
   >
   >When the delivery is duplicated, the parameter is reset.
 
-* **[!UICONTROL Send using multiple waves]**: For more on thisn refer to [Sending using multiple waves](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: For more on this refer to [Sending using multiple waves](#sending-using-multiple-waves).
 
 * **[!UICONTROL Test SMTP delivery]**: This option allows you to test sending a delivery via SMTP. The delivery is processed up to connection to the SMTP server but is not sent.
 

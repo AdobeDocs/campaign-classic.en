@@ -124,7 +124,7 @@ snippet: y
      <li> <p>Track silent notifications in iOS </p> </li> 
      <li> <p>Implement feedback on registration calls in iOS</p> </li> 
      <li> <p>Improve iOS delivery preparation speed</p> </li> 
-    </ul> <p>As a part of GCM depreciation by Google, Android V2 connector now allows connections only to the FCM server.</p><p>For more information, refer to the <a href="../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application">detailed documentation</a>. The manual ugrade to FCM is detailed in this <a href="https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html">article</a>. </p> </td> 
+    </ul> <p>As a part of GCM depreciation by Google, Android V2 connector now allows connections only to the FCM server.</p><p>For more information, refer to the <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">detailed documentation</a>. The manual ugrade to FCM is detailed in this <a href="https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html">article</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> SQL Data Management activity<br /> </td> 

@@ -51,7 +51,7 @@ These two pieces of information must be concatenated with the identifier of the 
 tagid=<identifier>|<type>|<foldername>
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Remember to encode the value of the **tagid** parameter when it is used as a URL parameter.
 

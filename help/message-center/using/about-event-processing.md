@@ -27,7 +27,6 @@ Example of event data:
 To process transactional messaging events, the following steps must be applied:
 
 1. Event collection,
-1. Event enrichment prior to being transferred to a message template (if you acquired the enrichment option available for Campaign transactional messaging module),
 1. Event transfer to a message template,
 1. Event enrichment with personalization data,
 1. Delivery execution,

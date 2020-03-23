@@ -41,7 +41,7 @@ To create a subset:
 
    The process is the same as for a **Query**-type activity.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >You can filter the data in a maximum of two external databases (FDA).
 
@@ -55,7 +55,7 @@ To create a subset:
 
    ![](assets/s_user_segmentation_partage_add.png)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >If the **[!UICONTROL Enable overlapping of output populations]** option is not checked, subsets are created in the order of the tabs. Use the arrows in the upper right-hand section of this window to move them. If the first subset recovers 70% of the initial population, for example, then the next subset will apply its selection criteria only to the remaining 30%, and so on.
 
@@ -132,7 +132,7 @@ For an example of the **[!UICONTROL Local approval]** activity with a distributi
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >To use this function, you need to purchase the Distributed Marketing module, which is a Campaign option. Please check your license agreement.
 
@@ -197,7 +197,7 @@ The data distribution template lets you limit the number of records using a list
 
       In case of a simple limitation by data grouping without local approval, you do not need to enter the **[!UICONTROL Group or operator]** field.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >Make sure the operators have been assigned the appropriate rights.
 

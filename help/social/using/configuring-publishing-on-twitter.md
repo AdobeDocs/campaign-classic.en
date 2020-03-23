@@ -31,7 +31,7 @@ In order for Adobe Campaign to be able to send tweets to your Twitter accounts, 
 
 Start by creating one or more Twitter accounts to send your tweets to.
 
-To create a Twitter account, go to [http://twitter.com](http://twitter.com).
+To create a Twitter account, go to [https://twitter.com](https://twitter.com).
 
 ## Creating a test account on Twitter {#creating-a-test-account-on-twitter}
 
@@ -86,7 +86,7 @@ This step requires simultaneous access to your Adobe Campaign console and an Int
 
    ![](assets/social_twitter_service_009.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The **[!UICONTROL Internal name]** of the service must be identical to the name of the Twitter account. To make sure there are no entry errors, apply the following steps below.
 
@@ -120,7 +120,7 @@ The **[!UICONTROL Twitter account Synchronization]** workflow synchronizes Twitt
 
 ## Synchronizing Twitter accounts {#synchronizing-twitter-accounts}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In order for the workflow to recover the list of Twitter subscribers, the **[!UICONTROL Twitter account synchronization]** box must be checked in the editing section of the service linked to the account. For more on this, refer to [Delegating write access to Adobe Campaign](#delegating-write-access-to-adobe-campaign).
 

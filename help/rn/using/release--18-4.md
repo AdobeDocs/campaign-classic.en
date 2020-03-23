@@ -107,7 +107,7 @@ snippet: y
     <ul> 
      <li> <p>Right to Access: allows the Data Subject to receive a copy of his/her personal data captured by Data Controllers, potentially including data stored in Adobe Campaign.</p> </li> 
      <li> <p>Right to Delete: entitles the Data Subject to have his/her personal data captured by Data Controllers erased, potentially including data stored in Adobe Campaign.</p> </li> 
-    </ul> For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html">detailed documentation</a>.<br /> </td> 
+    </ul> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Active profiles<br /> </td> 
@@ -115,7 +115,7 @@ snippet: y
   </tr> 
   <tr> 
    <td> Android Push Connector enhancement<br /> </td> 
-   <td> <p>The Android connector has been enhanced to support higher throughput. </p> <p>For more information, refer to the <a href="../../delivery/using/setting-up-mobile-app-channel.md#android-connectors">detailed documentation</a>.</p> </td> 
+   <td> <p>The Android connector has been enhanced to support higher throughput. </p> <p>For more information, refer to the <a href="../../delivery/using/configuring-the-mobile-application.md">detailed documentation</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,7 +137,7 @@ snippet: y
 * A new mode is available for package import using command line, allowing circular dependencies (not recommended for large packages). See the 'Technical evolutions' section for more information. (NEO-8979) 
 * Improved performance for large amount of data loading in Teradata and fixed an issue which prevented from displaying the right value of data processed in the log. (NEO-10429)
 * Importing audiences from Audience Manager now works with split files. Previously, only the last file of the segment was imported by the importSharedAudience technical workflow. (NEO-10156)
-* On Windows, the Campaign server default installation path has changed. When launching the 64-bit version setup, the default installation path is now: **C:Program FilesAdobeAdobe Campaign Classic v7** instead of **C:Program Files (x86)AdobeAdobe Campaign Classic v7**
+* On Windows, the Campaign server default installation path has changed. When launching the 64-bit version setup, the default installation path is now: **C:\Program Files\Adobe\Adobe Campaign Classic v7** instead of **C:\Program Files (x86)\Adobe\Adobe Campaign Classic v7**
 * The default MX rules have been enhanced to include more domains and optimize throughput.
 * Enforced access restrictions on the deployment wizard SOAP call (xtk:serverOptions#SaveOptions).
 * The weka.jar obsolete library has been removed and the OpenSSL library has been updated for security optimization.

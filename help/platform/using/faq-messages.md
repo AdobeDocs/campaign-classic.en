@@ -102,7 +102,7 @@ Learn how to track your deliveries and understand the recipients' behaviour [fro
 
 Adobe Campaign comes with a set of reports to monitor your deliveries and track your messages.
 
-[Click here to learn more on built-in reports](../../reporting/using/reports-on-deliveries.md#delivery-reports).
+[Click here to learn more on built-in reports](../../reporting/using/delivery-reports.md).
 
 ### How does Adobe Campaign qualify and manage quarantine addresses? {#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
 

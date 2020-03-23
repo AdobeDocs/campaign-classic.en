@@ -39,9 +39,9 @@ Business API are specific to each type of object. They have an effect on:
 
 This section details the use of the "Subscribe", "Unsubscribe" and "SubmitDelivery" services.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->[Campaign JSAPI documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html) contains additional information on SOAP calls and using Javascript in Adobe Campaign, as well as a full reference to all methods and functions used in the application.
+>[Campaign JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) contains additional information on SOAP calls and using Javascript in Adobe Campaign, as well as a full reference to all methods and functions used in the application.
 
 ## Subscribe (nms:subscription) {#subscribe--nms-subscription-}
 

@@ -22,7 +22,7 @@ This section describes all of the available activities. According to the node or
 
 Workflow activities are grouped by category. There are four tabs available at the same time.
 
-In the campaign workflows, the **[!UICONTROL Events]** tab is replaced by the **[!UICONTROL Deliveries]** tab. The activities in this tab are detailed in the [Action activities](#action-activities) section.
+In the campaign workflows, the **[!UICONTROL Events]** tab is replaced by the **[!UICONTROL Deliveries]** tab. The activities in this tab are detailed in the [Action activities](../../workflow/using/about-action-activities.md) section.
 
 ![](assets/wf-activity-tabs.png)
 

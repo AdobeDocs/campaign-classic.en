@@ -22,10 +22,10 @@ snippet: y
 
 Migration steps in Linux are as follows:
 
-1. Stop services: see [Service stop](#service-stop),
-1. Save the database: see [Back up the database and the existing installation](#back-up-the-database-and-the-existing-installation),
-1. Uninstall previous Adobe Campaign version packages: see [Uninstalling Adobe Campaign previous version packages](#uninstalling-adobe-campaign-previous-version-packages),
-1. Migrate the platform: refer to [Deploying Adobe Campaign v7](#deploying-adobe-campaign-v7),
+1. Stop services: see [Service stop](#service-stop).
+1. Save the database: see [Back up the database and the existing installation](#back-up-the-database-and-the-existing-installation).
+1. Uninstall previous Adobe Campaign version packages: see [Uninstalling Adobe Campaign previous version packages](#uninstalling-adobe-campaign-previous-version-packages).
+1. Migrate the platform: refer to [Deploying Adobe Campaign v7](#deploying-adobe-campaign-v7).
 1. Re-start service: refer to [Re-starting services](#re-starting-services).
 
 ## Service stop {#service-stop}
@@ -86,7 +86,7 @@ The procedure depends on your Adobe Campaign previous version.
    mv nl5 nl5.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >As a precaution, we recommend that you zip the **nl5.back** folder and save it to a secure location other than the server.
 
@@ -121,7 +121,7 @@ The procedure depends on your Adobe Campaign previous version.
    mv nl6 nl6.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >As a precaution, we recommend that you zip the **nl6.back** folder and save it to a secure location other than the server.
 
@@ -156,7 +156,7 @@ The procedure depends on your Adobe Campaign previous version.
    mv nl6 nl6.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >As a precaution, we recommend that you zip the **nl6.back** folder and save it to a secure location other than the server.
 
@@ -260,16 +260,16 @@ To deploy Adobe Campaign, apply the following steps:
     * In **Debian**:
 
       ```    
-      dpkg -i nlserver6-v7-XXXX-linux-2.6-intel.deb
+      dpkg -i nlserver6-XXXX-linux-2.6-intel.deb
       ```
 
     * In **Red Hat**:
 
       ```    
-      rpm -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
+      rpm -Uvh nlserver6-XXXX-0.x86_64.rpm
       ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >You must install the packages successfully before going on to the next step.
 
@@ -305,13 +305,13 @@ To deploy Adobe Campaign, apply the following steps:
 1. Log in as **root** and prepare the instance using the following commands:
 
    ```
-   /etc/init.d/nlserver6-v7 start   
-   Starting nlserver6-v7: [  OK  ]
+   /etc/init.d/nlserver6 start   
+   Starting nlserver6: [  OK  ]
    ```
 
    ```
-   /etc/init.d/nlserver6-v7 stop
-   Stopping nlserver6-v7: [  OK  ]
+   /etc/init.d/nlserver6 stop
+   Stopping nlserver6: [  OK  ]
    ```
 
    >[!NOTE]
@@ -320,7 +320,7 @@ To deploy Adobe Campaign, apply the following steps:
 
 1. Go to the **nl5.back** backup folder and copy (overwrite) the configuration files and sub-folders of each instance. Log in as **neolane** and run the following command:
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >For the first command below, do not copy the **config-default.xml** file.
 
@@ -345,7 +345,7 @@ To deploy Adobe Campaign, apply the following steps:
    <trackinglogd autoStart="true"/>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >If the **trackinglogd** service is not started on the tracking server, no tracking information will be forwarded.
 
@@ -362,7 +362,7 @@ To deploy Adobe Campaign, apply the following steps:
    nlserver config -timezone:<time zone> -postupgrade -instance:<instance name>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >You must specify which timezone to use as a reference during the postupgrade (using the **-timezone** option). In this case, we are using the Europe/Paris timezone **-timezone: "Europe/Paris"**.
 
@@ -370,7 +370,7 @@ To deploy Adobe Campaign, apply the following steps:
    >
    >We strongly recommend upgrading your base to "multi timezone". For further information about timezone options, refer to the [Time zones](../../migration/using/general-configurations.md#time-zones) section.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Do not start Adobe Campaign services yet: changes still need to be made in Apache.
 
@@ -388,16 +388,16 @@ To deploy Adobe Campaign, apply the following steps:
     * In **Debian**:
 
       ```    
-      dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+      dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
     * In **Red Hat**:
 
       ```    
-      rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
+      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >You must install the packages successfully before going on to the next step.
 
@@ -421,7 +421,7 @@ To deploy Adobe Campaign, apply the following steps:
    <trackinglogd autoStart="true"/>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >If the **trackinglogd** service is not started on the tracking server, no tracking information will be forwarded.
 
@@ -467,16 +467,16 @@ To deploy Adobe Campaign, apply the following steps:
     * In **Debian**:
 
       ```    
-      dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+      dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
     * In **Red Hat**:
 
       ```    
-      rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
+      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >You must install the packages successfully before going on to the next step.
 
@@ -563,13 +563,6 @@ At this stage, Apache needs to be stopped. Refer to: [Service stop](#service-sto
 
       Go to the **/usr/local/apache2/conf** directory, edit the **http.conf** file and replace **nl5** with **nl6** in the following lines.
 
-      In **RHEL 6/Debian 7**:
-
-      ```    
-      LoadModule requesthandler22_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
-      Include /usr/local/neolane/nl6/tomcat-6/conf/apache_neolane.conf
-      ```    
-    
       In **RHEL 7/Debian 8**:
 
       ```    

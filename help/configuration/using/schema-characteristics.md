@@ -24,7 +24,7 @@ The characteristics of a schema that references an existing table are as follows
 * The names of tables and columns must be specified explicitly,
 * Indexes must be declared.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Do not delete fields in the standard recipient table, even if they are useless. This may cause behavioural errors in the Adobe Campaign database.
 
