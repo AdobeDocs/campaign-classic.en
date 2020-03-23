@@ -30,21 +30,19 @@ In this email, we want one of the images to vary dynamically according to the fo
 
 ![](assets/target_4.png)
 
-For this to work, we need to perform the following steps both in Adobe Campaign and Target Standard:
+For this to work, we need to perform the following steps both in Adobe Campaign and Target:
 
-1. Inserting the dynamic offer in an email
-1. Creating redirect offers
-1. Creating audiences
-1. Creating an Experience Targeting Activity
-1. Previewing and sending the email
+1. [Inserting the dynamic offer in an email](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
+1. [Creating redirect offers](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
+1. [Creating audiences](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
+1. [Creating an Experience Targeting Activity](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
+1. [Previewing and sending the email](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
 ## Inserting the dynamic offer in an email {#inserting-dynamic-offer}
 
 In Adobe Campaign, once you're done defining the target and content of your email, you can insert a dynamic image from Target.
 
 To do this, specify the default image's URL, the location name, and the fields you want to transfer to Target.
-
-### Where to find the option {#option-offer}
 
 In Adobe Campaign, there are two ways to insert a dynamic image from Target into an email:
 
@@ -60,13 +58,16 @@ In Adobe Campaign, there are two ways to insert a dynamic image from Target into
 
 * The **[!UICONTROL Default image]**'s URL: The image that will be displayed when none of the conditions are fulfilled. You can also select an image from your Assets library.
 * The **[!UICONTROL Target location]**: Enter a name for your dynamic offer's location. You will have to select this location in your Target activity.
-* The **[!UICONTROL Additional decision parameters]**: Select the Campaign fields that you need to transfer to Target. In our example, we added the Country field.
+* The **[!UICONTROL Landing Page]**: If you want the default image to redirect to a default landing page. This URL is only for the cases when the default image is displayed in the final email and is optional.
+* The **[!UICONTROL Additional decision parameters]**: Specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields. The Adobe Campaign fields used must have been specified in the rawbox. In our example, we added the Country field.
+
+If you use Enterprise permissions in your settings in Adobe Target, add the corresponding property in this field. Learn more about Target Enterprise permissions in [this page](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html).
 
    ![](assets/target_13.png)
 
 ## Creating redirect offers {#create-redirect-offers}
 
-In Target Standard, you can create different versions of your offer. Depending on each user experience, a redirect offer can be created and you can specify the image that will be displayed.
+In Target, you can create different versions of your offer. Depending on each user experience, a redirect offer can be created and you can specify the image that will be displayed.
 
 In our case, we need two redirect offers, the third one (the default one) is to be defined in Adobe Campaign.
 
@@ -82,9 +83,9 @@ In our case, we need two redirect offers, the third one (the default one) is to 
 
 1. Follow the same procedure for the remaining redirect offer. For more on this, refer to this [page](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html).
 
-## Creating audiences {audiences-target}
+## Creating audiences {#audiences-target}
 
-In Target, you need to create the two audiences into which the people who visit your offer will be categorized for the  different contents to be delivered. For each audience, add a rule to define who will be able to see the offer.
+In Target, you need to create the two audiences into which the people who visit your offer will be categorized for the different contents to be delivered. For each audience, add a rule to define who will be able to see the offer.
 
 1. To create a new audience in Target, from the **[!UICONTROL Audiences]** tab, click **[!UICONTROL Create Audience]**.
 
@@ -100,7 +101,7 @@ In Target, you need to create the two audiences into which the people who visit 
 
 ## Creating an Experience Targeting Activity {#creating-targeting-activity}
 
-In Target Standard, we need to create an Experience Targeting activity, define the different experiences, and associate them with the corresponding offers.
+In Target, we need to create an Experience Targeting activity, define the different experiences, and associate them with the corresponding offers.
 
 ### Defining the audience {#defining-the-audience}
 
@@ -140,64 +141,20 @@ Add a content for each audience:
 
 ### Defining the activity {#defining-activity}
 
+The **[!UICONTROL Target]** window summarizes your activity. If necessary, you can add other experiences.
 
+   ![](assets/target_experience.png)
 
+The **[!UICONTROL Goal & Settings]** window allows you to personalize your activity by setting a priority, an objective, or a duration.
 
+The **[!UICONTROL Reporting Settings]** section lets you select an action and edit the parameters that will determine when your goal is achieved.
 
+   ![](assets/target_experience_2.png)
 
+## Previewing and sending the email in Campaign Classic {#preview-send-email}
 
+In Adobe Campaign, you can now preview your email and test its rendering on different recipients. You will notice that the image changes according to the different experiences created. To learn more on email creation, refer to this [page](../../delivery/using/defining-the-email-content.md).
 
+You are now ready to send your email including a dynamic offer from Target.
 
-
-
-
-
-
-
-
-
-
-
-
-
-This section details the steps to carry out in Adobe Campaign to integrate an image from Adobe Target into an email.
-
-You must carry out the following actions in Adobe Target beforehand:
-
-* Create one or several [redirection offers](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Redirect_Offer.html), in which you must specify the URL of the image you will be using.
-* Create one or several [audiences](https://marketing.adobe.com/resources/help/en_US/target/target/t_create-audience.html), to define the target of your activity.
-* Create an [Form-based experience composer](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_an_A_B_Test.html) activity, in which you must select a rawbox and specify several experiences, depending on the number of redirection offers created. For each experience, you must select one of the redirection offers created.
-
-  To specify these experiences, you can create segments using information from Adobe Campaign. To use data from Adobe Campaign in the offer's selection rules, you must specify the data in the rawbox in Adobe Target.
-
-To insert an Adobe Target image in an Adobe Campaign delivery:
-
-1. Create an email delivery.
-1. In the available personalization fields, select **[!UICONTROL Include > Dynamic image served by Adobe Target]**.
-
-   ![](assets/tar_insert_dynamic_image.png)
-
-1. In the window that opens, select the image that will appear by default in the email. You can specify the image URL or use a [shared image](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
-1. Enter the name of the rawbox specified in Adobe Target.
-1. Enter a URL in the **[!UICONTROL Landing Page]** field if you want the default image to redirect to a default landing page. This URL is only for the cases when the default image is displayed in the final email and is optional.
-1. If you use Enterprise permissions in your settings in Adobe Target, add the corresponding property in this field. Learn more about Target Enterprise permissions in [this page](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html). This field is optional and not required if you don't use Enterprise permissions in Target.
-1. In **[!UICONTROL Additional decision parameters]**, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields. The Adobe Campaign fields used must have been specified in the rawbox.
-
-   ![](assets/tar_additional_decisionning_parameters.png)
-
-   Defining a parameter in Adobe Target is carried out via the rawbox created when integrating the Target image in Adobe Campaign and the **Refinements** option.
-
-   ![](assets/tar_additional_decisionning_parameters_1.png)
-
-   The example shown here demonstrates how to define different experiences for men and women.
-
-You can also define several cases based on the user's email domain and address. The data is automatically recovered from the user's browser when the email is opened.
-
-![](assets/tar_additional_decisionning_parameters_2.png)
-
-When previewing your email, you can see, when selecting different profiles, that the image inserted changes depending on the parameters specified in the Adobe Target activity and in Adobe Campaign.
-
-You can measure the results of your sends in Adobe Target.
-
-![](assets/tar_measure_results.png)
-
+   ![](assets/target_20.png)
