@@ -264,28 +264,38 @@ The default rules are as follows:
 
   The user can create his own rules.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >When importing a package and when updating data via the **Refresh for deliverability** workflow, the user-created rules are overwritten.
 
+  >[!NOTE]
+  >
+  >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Inbound email]** rules are no longer used. For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
 * **Domain management**
 
-  The domain management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate. The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules. Rules for the Hotmail and MSN domains are available by default in Adobe Campaign.
+  The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules. Rules for the Hotmail and MSN domains are available by default in Adobe Campaign.
 
   Click the **[!UICONTROL Detail]** icon to access rule configuration.
 
   ![](assets/tech_quarant_domain_rules_02.png)
 
-  To configure domain management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.
-
-  For example, in the general case, for a minimum of 300 messages, the sending of emails is blocked for three hours if the error rate reaches 90%.
-
   The **SMTP parameters** act as filters applied for a blocking rule.
 
     * You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
-    * **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.
+    * **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain. For more on this, see [this section](../../installation/using/configuring-campaign-server.md#smtp-relay)
+
+  >[!NOTE]
+  >
+  >If your messages are displayed in Outlook as **[!UICONTROL on behalf of]** with a different domain name, make sure you are not signing your emails with **Sender ID**, which is the outdated Microsoft’s proprietary email authentication standard. If the **[!UICONTROL Sender ID]** option is enabled, uncheck the corresponding box and contact the Adobe Campaign support. Your deliverability will not be impacted.
 
 * **MX Management**
+
+  * The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
+
+  * The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+
+  * To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked. For example, in the general case, for a minimum of 300 messages, the sending of emails is blocked for three hours if the error rate reaches 90%.
 
   For more on MX management, refer to [this section](../../installation/using/email-deliverability.md#mx-configuration).
 
