@@ -295,7 +295,7 @@ The default rules are as follows:
   >
   >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* The delivery server (MTA) must be restarted if the parameters have been changed.
 >* The modification or creation of management rules is for expert users only.

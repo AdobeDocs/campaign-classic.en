@@ -274,13 +274,17 @@ The MTA module acts as a native mail transfer agent for SMTP broadcast (port 25)
 
 It is, however, possible to replace it by a relay server if your security policy requires it. In that case, the global throughput will be the relay one (provided that the relay server throughput is inferior to the Adobe Campaign one).
 
+>[!NOTE]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), setting up an SMTP relay is not currently supported.
+
 In this case, these parameters are set by configuring the SMTP server in the **`<relay>`** section. You must specify the IP address (or host) of the SMTP server used to transfer mail and its associated port (25 by default).
 
 ```
 <relay address="192.0.0.3" port="25"/>
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >This operating mode implies serious limitations on deliveries, as it can greatly reduce the throughput because of the relay server intrinsic performances (latency, bandwith...). Moreover, the capacity to qualify synchronous delivery errors (detected by analyzing SMTP traffic) will be limited, and the sending will not be possible if the relay server is not available.
 
