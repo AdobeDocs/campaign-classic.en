@@ -77,7 +77,6 @@ Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/ab
 <table>
 <tr>
   <td valign="top"><strong>Useful pages</strong>
-
   * [Release notes](/help/rn/using/latest-release.md)
   * [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
   * [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
@@ -87,7 +86,6 @@ Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/ab
   * [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
   </td>
   <td valign="top"><strong>Resources for developers</strong>
-
   * [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
   * [Campaign Classic data model](../../configuration/using/about-data-model.md)
   * [JSAPI documentation](../../configuration/using/about-web-services.md)
@@ -95,6 +93,6 @@ Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/ab
   * [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html)
   * [Security & Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html)
   * [Technical notes](https://helpx.adobe.com/campaign/kb/article-list.html)
-
   </td>
 </tr>
+</table>
