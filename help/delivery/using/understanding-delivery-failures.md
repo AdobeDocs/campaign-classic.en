@@ -238,15 +238,15 @@ Bounce mails can have the following qualification status:
 
 ![](assets/deliverability_qualif_status.png)
 
->[!NOTE]
->
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are no longer used for synchronous delivery failure error messages. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
->
->Asynchronous bounces are still qualified by the inMail process through the [!UICONTROL Inbound email] rules. For more on this, see [Email management rules](#email-management-rules).
->
->For instances using the Enhanced MTA without **Webhooks/EFS**, the [!UICONTROL Inbound email] rules will also be used to process the synchronous bounce emails coming from the Enhanced MTA, using the same email address as for asynchronous bounce emails.
->
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+For hosted or hybrid installations, if you have upgraded to the Enhanced MTA:
+
+* The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are no longer used for synchronous delivery failure error messages. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
+
+* Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. For more on this, see [Email management rules](#email-management-rules).
+
+* For instances using the Enhanced MTA without **Webhooks/EFS**, the **[!UICONTROL Inbound email]** rules will also be used to process the synchronous bounce emails coming from the Enhanced MTA, using the same email address as for asynchronous bounce emails.
+
+For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 ### Email management rules {#email-management-rules}
 
@@ -278,7 +278,7 @@ The default rules are as follows:
 
   >[!NOTE]
   >
-  >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages.
+  >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
   >
   >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
