@@ -240,7 +240,11 @@ Bounce mails can have the following qualification status:
 
 >[!NOTE]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are no longer used. The Enhanced MTA will determine the bounce type and qualification, and send back that information to Campaign.
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are no longer used for synchronous delivery failure error messages. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
+>
+>Asynchronous bounces are still qualified by the inMail process through the [!UICONTROL Inbound email] rules. For more on this, see [Email management rules](#email-management-rules).
+>
+>For instances using the Enhanced MTA without **Webhooks/EFS**, the [!UICONTROL Inbound email] rules will also be used to process the synchronous bounce emails coming from the Enhanced MTA, using the same email address as for asynchronous bounce emails.
 >
 >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
@@ -270,13 +274,19 @@ The default rules are as follows:
   >
   >When importing a package and when updating data via the **Refresh for deliverability** workflow, the user-created rules are overwritten.
 
+  For more on bounce mail qualification, see [this section](#bounce-mail-qualification).
+
   >[!NOTE]
   >
-  >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Inbound email]** rules are no longer used. For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+  >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages.
+  >
+  >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 * **Domain management**
 
-  The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules. Rules for the Hotmail and MSN domains are available by default in Adobe Campaign.
+  The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+  
+  Rules for the Hotmail and MSN domains are available by default in Adobe Campaign.
 
   Click the **[!UICONTROL Detail]** icon to access rule configuration.
 
@@ -291,7 +301,9 @@ The default rules are as follows:
 
     >[!NOTE]
     >
-    >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level. For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+    >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
+    >
+    >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 * **MX Management**
 
