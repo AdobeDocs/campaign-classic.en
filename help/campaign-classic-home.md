@@ -24,9 +24,6 @@ Learn how to monitor your Campaign instance and processes
 * **[Interactive content with AMP](delivery/using/defining-interactive-content.md)**<br/>
 Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/about/email/) format
 
-* **[Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)**<br/>
-Learn how to manage settings and track usage of your Campaign instance
-
 [Click here for more updates](/help/rn/using/documentation-updates.md)
 
 ## Top pages
@@ -75,15 +72,29 @@ Learn how to manage settings and track usage of your Campaign instance
 </tr>
 </table>
 
-
 ## Additional Resources
 
-* [Release notes](/help/rn/using/latest-release.md)
+<table>
+<tr>
+  <td valign="top"><strong>Useful pages</strong>
 
-* [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+  * [Release notes](/help/rn/using/latest-release.md)
+  * [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+  * [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+  * [Getting started with Campaign Classic](../../platform/using/about-adobe-campaign-classic.md)
+  * [Gold Standard upgrade](https://helpx.adobe.com/campaign/kb/gold-standard.html)
+  * [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+  * [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+  </td>
+  <td valign="top"><strong>Resources for developers</strong>
 
-* [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+  * [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+  * [Campaign Classic data model](../../configuration/using/about-data-model.md)
+  * [JSAPI documentation](../../configuration/using/about-web-services.md)
+  * [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html)
+  * [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html)
+  * [Security & Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html)
+  * [Technical notes](https://helpx.adobe.com/campaign/kb/article-list.html)
 
-* [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html)
-
-* [Technical notes](https://helpx.adobe.com/campaign/kb/article-list.html)
+  </td>
+</tr>
