@@ -260,7 +260,9 @@ The default rules are as follows:
 
 * **Inbound email**
 
-  When an email fails, the remote server returns a bounce message to the address specified in the platform parameters. Adobe Campaign compares the content of each bounce mail to the strings in the list of rules, and then assigns it one of the three error types.
+  When an email fails, the remote server returns a bounce message to the address specified in the platform parameters.
+  
+  Adobe Campaign compares the content of each bounce mail to the strings in the list of rules, and then assigns it one of the three error types.
 
   The user can create his own rules.
 
@@ -283,11 +285,13 @@ The default rules are as follows:
   The **SMTP parameters** act as filters applied for a blocking rule.
 
     * You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
-    * **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain. For more on this, see [this section](../../installation/using/configuring-campaign-server.md#smtp-relay)
+    * **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain. For more on this, see [this section](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
-  >[!NOTE]
-  >
-  >If your messages are displayed in Outlook as **[!UICONTROL on behalf of]** with a different domain name, make sure you are not signing your emails with **Sender ID**, which is the outdated Microsoft’s proprietary email authentication standard. If the **[!UICONTROL Sender ID]** option is enabled, uncheck the corresponding box and contact the Adobe Campaign support. Your deliverability will not be impacted.
+    If your messages are displayed in Outlook as **[!UICONTROL on behalf of]** with a different domain name, make sure you are not signing your emails with **Sender ID**, which is the outdated Microsoft’s proprietary email authentication standard. If the **[!UICONTROL Sender ID]** option is enabled, uncheck the corresponding box and contact the Adobe Campaign support. Your deliverability will not be impacted.
+
+    >[!NOTE]
+    >
+    >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level. For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 * **MX Management**
 
