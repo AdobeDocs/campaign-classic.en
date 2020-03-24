@@ -20,7 +20,11 @@ snippet: y
 
 The section below details server-side configurations that can be performed to match your needs and your environment specificities.
 
-These configurations must be performed by administrators and for **On-premise** hosting models only. For **Hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within the Control Panel (for example, IP whitelisting or URL permissions).
+>[!IMPORTANT]
+>
+>These configurations must be performed by administrators and for **On-premise** hosting models only.
+>
+>For **Hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within the Control Panel (for example, IP whitelisting or URL permissions).
 
 For more information, refer to these sections:
 
@@ -105,7 +109,7 @@ All of the rights defining a zone are as follows:
 * **sessionTokenOnly**: the security token is not required in the connection URL
 * **showErrors**: errors on the server side are forwarded and displayed
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In a zone definition, each attribute with the **true** value reduces security.
 
@@ -151,7 +155,7 @@ The **proxy** parameter can be used in a **subNetwork** element to specify proxy
 
 When a proxy is referenced and a connection enters via this proxy (visible via the HTTP X-Forwarded-For header), the verified zone is that of the clients of the proxy and not that of the proxy.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If a proxy is configured and it is possible to override it (or it if does not exist), the IP address that will be tested will be able to be falsified.
 >
@@ -280,7 +284,7 @@ In this case, these parameters are set by configuring the SMTP server in the **`
 <relay address="192.0.0.3" port="25"/>
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >This operating mode implies serious limitations on deliveries, as it can greatly reduce the throughput because of the relay server intrinsic performances (latency, bandwith...). Moreover, the capacity to qualify synchronous delivery errors (detected by analyzing SMTP traffic) will be limited, and the sending will not be possible if the relay server is not available.
 
@@ -296,7 +300,7 @@ Also refer to [Email sending optimization](../../installation/using/email-delive
 
 ### Managing outbound SMTP traffic with affinities {#managing-outbound-smtp-traffic-with-affinities}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The affinity configuration needs to be coherent from one server to another. We recommend that you contact Adobe for affinity configuration, as configuration changes should be replicated on all application servers running the MTA.
 
@@ -362,7 +366,7 @@ Three connection protection modes exist:
 </urlPermission>
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >By default, new customers' client use the **blocking mode**. If they need to allow a new URL, they should contact their administrator to whitelist it.
 >
@@ -443,7 +447,7 @@ ruby
 sh
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >This list is not exhaustive.
 
@@ -465,7 +469,7 @@ For example:
 
 This user needs to be added to the sudoer list of the 'neolane' Adobe Campaign operator.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >You should not use a custom sudo. A standard sudo needs to be installed on the system.
 
@@ -581,7 +585,7 @@ To do this, go to the **serverConf.xml** file, located in the **conf** repositor
 
 Each process configured in this file has a **processRestartTime** attribute. You can modify the value of this attribute to adapt the restart time of each process according to your needs.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Do not delete this attribute. All processes must be restarted every day.
 
@@ -597,7 +601,7 @@ To limit the possible formats, you must replace the attribute value by a valid j
 
 For example: **uploadWhiteList=".&#42;.png,.&#42;.jpg"** will let you upload PNG and JPG formats on the server. No other formats will be accepted.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In Internet Explorer, the complete file path must be verified by the regular expression.
 
