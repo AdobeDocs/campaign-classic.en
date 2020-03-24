@@ -28,6 +28,8 @@ The data model best practices page has been updated with new sections including 
 
 A new section describing the Adobe Campaign pre-defined data model and the out-of-the-box tables interaction is now available. [Read more](../../configuration/using/data-model-description.md)
 
+Additional resources have been added to the documentation home page. [Read more](../../campaign-classic-home.md)
+
 ## February 2020 {#february-2020}
 
 A new section outlining best practices and key recommendations while designing the Adobe Campaign data model is now available. [Read more](../../configuration/using/data-model-best-practices.md)
