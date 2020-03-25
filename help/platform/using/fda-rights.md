@@ -18,16 +18,31 @@ snippet: y
 
 # FDA rights {#fda-rights}
 
-| &nbsp;| Snowflake  | Redshift | Oracle | SQLServer | PostgreSQL |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| Connecting to remote database  | USAGE ON WAREHOUSE and USAGE ON DATABASE privileges  | Creating a user linked to the AWS account  | CREATE SESSION privilege  | CONNECT permission | CONNECT privilege |
-| Creating tables |  CREATE TABLE ON SCHEMA privilege | CREATE privilege  |  CREATE TABLE privilege |  CREATE TABLE permission | CREATE privilege  |
-| Creating indexes | No Index support in Snowflake  |  CREATE privilege | INDEX or CREATE ANY INDEX privilege  | ALTER permission  | CREATE privilege  |
-|  Creating functions |  CREATE FUNCTION ON SCHEMA privilege |  USAGE ON LANGUAGE plpythonu privilege to be able to call external python scripts |  CREATE PROCEDURE or CREATE ANY PROCEDURE privilege |  CREATE FUNCTION permission | USAGE privilege |
-|  Creating procedures | CREATE PROCEDURE ON SCHEMA privilege  |  USAGE ON LANGUAGE plpythonu privilege to be able to call external python scripts | CREATE PROCEDURE or CREATE ANY PROCEDURE privilege  |  CREATE PROCEDURE permission | USAGE privilege (procedures are functions)  |
-| Removing objects (tables, indexes, functions, procedures)  |  Owning the object | Owning the object or being a superuser  |  DROP ANY <object> privilege * |  ALTER permission |  Table: owning the table Index: owning the index Function: owning the function |
-| Monitoring executions  | MONITOR privilege on the required object  |  No privilege required to use EXPLAIN command | INSERT and SELECT privilege and necessary privilege to execute the statement for which the EXPLAIN PLAN is based on  | SHOWPLAN permission  | No privilege required to use EXPLAIN statement  |
-|  Writing data |  INSERT and/or UPDATE privileges (depending on write operation) | INSERT and UPDATE privileges  | INSERT and UPDATE or INSERT and UPDATE ANY TABLE privileges  |  INSERT and UPDATE permissions |  INSERT and UPDATE privileges |
-| Loading data into tables  |  CREATE STAGE ON SCHEMA, SELECT and INSERT on the target table privileges |  SELECT and INSERT privileges | SELECT and INSERT privileges  | INSERT, ADMINISTER BULK OPERATIONS and ALTER TABLE permissions  |  SELECT and INSERT privileges |
-| Accessing to client data  |  SELECT on (FUTURE) TABLE(S) or VIEW(S) privilege(s) | SELECT privilege  | SELECT or SELECT ANY TABLE privilege  | SELECT permission  | SELECT privilege  |
-|  Accessing to metadata  | SELECT on INFORMATION_SCHEMA SCHEMA privilege  |  SELECT privilege | No privilege required to use DESCRIBE statement  | VIEW DEFINITION permission  | No privilege required to use "\d table" command  |
+| &nbsp;| Snowflake  | Redshift | Oracle | SQLServer | PostgreSQL | MySQL |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Connecting to remote database  | USAGE ON WAREHOUSE and USAGE ON DATABASE privileges  | Creating a user linked to the AWS account  | CREATE SESSION privilege  | CONNECT permission | CONNECT privilege | Creating a user tied to a remote host who has ALL PRIVILEGES |
+| Creating tables |  CREATE TABLE ON SCHEMA privilege | CREATE privilege  |  CREATE TABLE privilege |  CREATE TABLE permission | CREATE privilege  | CREATE privilege |
+| Creating indexes | No Index support in Snowflake  |  CREATE privilege | INDEX or CREATE ANY INDEX privilege  | ALTER permission  | CREATE privilege  | INDEX privilege |
+|  Creating functions |  CREATE FUNCTION ON SCHEMA privilege |  USAGE ON LANGUAGE plpythonu privilege to be able to call external python scripts |  CREATE PROCEDURE or CREATE ANY PROCEDURE privilege |  CREATE FUNCTION permission | USAGE privilege | CREATE ROUTINE privilege |
+|  Creating procedures | CREATE PROCEDURE ON SCHEMA privilege  |  USAGE ON LANGUAGE plpythonu privilege to be able to call external python scripts | CREATE PROCEDURE or CREATE ANY PROCEDURE privilege  |  CREATE PROCEDURE permission | USAGE privilege (procedures are functions)  | CREATE ROUTINE privilege |
+| Removing objects (tables, indexes, functions, procedures)  |  Owning the object | Owning the object or being a superuser  |  DROP ANY <object> privilege * |  ALTER permission |  Table: owning the table Index: owning the index Function: owning the function | DROP privilege |
+| Monitoring executions  | MONITOR privilege on the required object  |  No privilege required to use EXPLAIN command | INSERT and SELECT privilege and necessary privilege to execute the statement for which the EXPLAIN PLAN is based on  | SHOWPLAN permission  | No privilege required to use EXPLAIN statement  | SELECT privilege |
+|  Writing data |  INSERT and/or UPDATE privileges (depending on write operation) | INSERT and UPDATE privileges  | INSERT and UPDATE or INSERT and UPDATE ANY TABLE privileges  |  INSERT and UPDATE permissions |  INSERT and UPDATE privileges | INSERT and UPDATE privileges |
+| Loading data into tables  |  CREATE STAGE ON SCHEMA, SELECT and INSERT on the target table privileges |  SELECT and INSERT privileges | SELECT and INSERT privileges  | INSERT, ADMINISTER BULK OPERATIONS and ALTER TABLE permissions  |  SELECT and INSERT privileges | FILE privilege |
+| Accessing to client data  |  SELECT on (FUTURE) TABLE(S) or VIEW(S) privilege(s) | SELECT privilege  | SELECT or SELECT ANY TABLE privilege  | SELECT permission  | SELECT privilege  | SELECT privilege |
+|  Accessing to metadata  | SELECT on INFORMATION_SCHEMA SCHEMA privilege  |  SELECT privilege | No privilege required to use DESCRIBE statement  | VIEW DEFINITION permission  | No privilege required to use "\d table" command  | SELECT privilege |
+
+
+| &nbsp;|  DB2 UDB  | TeraData | InfiniDB | Sybase IQ / Sybase ASE | Netezza | Greenplum |AsterData |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Connecting to remote database  | | | | | | | |
+| Creating tables | | | | | | | |
+| Creating indexes | | | | | | | |
+|  Creating functions | | | | | | | |
+|  Creating procedures | | | | | | | |
+| Removing objects (tables, indexes, functions, procedures)  | | | | | | | |
+| Monitoring executions  | | | | | | | |
+|  Writing data | | | | | | | |
+| Loading data into tables  | | | | | | | |
+| Accessing to client data  | | | | | | | |
+|  Accessing to metadata  | | | | | | | |
