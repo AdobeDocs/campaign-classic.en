@@ -48,7 +48,7 @@ To configure it, edit the activity and enter the delivery options.
 
       After selecting the delivery action, you can display the content by clicking the **[!UICONTROL Edit link]** icon.
     
-    * Create a script to calculate the delivery. To do this, select the **[!UICONTROL Calculated by a script]** option and enter the script. You can open an input window by clicking the **[!UICONTROL Edit...]** option. The following example recovers the identifier of the delivery:
+    * Create a script to calculate the delivery. To do this, select the **[!UICONTROL Computed by a script]** option and enter the script. You can open an input window by clicking the **[!UICONTROL Edit...]** option. The following example recovers the identifier of the delivery:
     
       ![](assets/diffusion_edit_3.png)
 

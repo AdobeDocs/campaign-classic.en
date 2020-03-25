@@ -72,7 +72,7 @@ The following steps detail the configuration of Data connector using a wizard.
 
    ![](assets/adobe_genesis_install_002.png)
 
-1. From the list of partners, select **[!UICONTROL Neolane - Enterprise Marketing Platform]**.
+1. From the list of partners, select **[!UICONTROL Adobe Campaign Classic]**.
 
    ![](assets/adobe_genesis_install_014.png)
 

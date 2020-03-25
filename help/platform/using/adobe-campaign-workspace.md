@@ -48,6 +48,22 @@ Whereas with Web access, the options will mainly enable viewing:
 
 ![](assets/operation_from_web.png)
 
+### Languages {#languages}
+
+The language is selected when installing your Adobe Campaign Classic instance and cannot be changed afterwards. For more information on how to create an instance, refer to this [page](../../installation/using/creating-an-instance-and-logging-on.md).
+
+![](assets/language.png)
+
+You can choose between five different languages:
+
+* English (US)
+* English (EN)
+* French
+* German
+* Japanese
+
+The language you chose for your Adobe Campaign Classic instance might impact date and time formats. For more on this, refer to this [section](../../platform/using/adobe-campaign-workspace.md#date-and-time).
+
 ## Navigation basics {#navigation-basics}
 
 ### Browsing pages {#browsing-pages}

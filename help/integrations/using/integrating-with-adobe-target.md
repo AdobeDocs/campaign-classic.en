@@ -36,4 +36,3 @@ Several types of data can be utilized by Adobe Target:
 >[!NOTE]
 >
 >You can also find information regarding integration between Adobe Campaign and Adobe Target on the [Adobe Target help pages](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html).
-

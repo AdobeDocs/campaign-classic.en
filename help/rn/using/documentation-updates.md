@@ -28,6 +28,14 @@ The data model best practices page has been updated with new sections including 
 
 A new section describing the Adobe Campaign pre-defined data model and the out-of-the-box tables interaction is now available. [Read more](../../configuration/using/data-model-description.md)
 
+Additional resources have been added to the documentation home page. [Read more](../../campaign-classic-home.md)
+
+A use case has been added on how to integrate a dynamic offer from Adobe Target into an email in Adobe Campaign. [Read more](../../integrations/using/inserting-a-dynamic-image.md)
+
+A new section detailing the different languages available in Adobe Campaign is now available. [Read more](../../platform/using/adobe-campaign-workspace.md#languages)
+
+The Access management page has been updated with more information on Named rights. [Read more](../../platform/using/access-management.md#named-rights)
+
 ## February 2020 {#february-2020}
 
 A new section outlining best practices and key recommendations while designing the Adobe Campaign data model is now available. [Read more](../../configuration/using/data-model-best-practices.md)
@@ -39,8 +47,6 @@ The Deliverability FAQ document has been updated with more details on the "quota
 AMP for Email being now supported by three email providers (Gmail, Outlook and Mail.ru), the section describing how to define interactive content with AMP has been updated. [Read more](../../delivery/using/defining-interactive-content.md)
 
 The Email archiving section has been clarified. [Read more](../../installation/using/email-archiving.md#recommendations-and-limitations)
-
-
 
 ## 20.1 - 17/02/2020{#release-20-1}
 
