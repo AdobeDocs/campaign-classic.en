@@ -22,7 +22,7 @@ snippet: y
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | **Connecting to remote database**  | USAGE ON WAREHOUSE and USAGE ON DATABASE privileges  | Creating a user linked to the AWS account  | CREATE SESSION privilege  | CONNECT permission | CONNECT privilege | Creating a user tied to a remote host who has ALL PRIVILEGES |
 | **Creating tables** |  CREATE TABLE ON SCHEMA privilege | CREATE privilege  |  CREATE TABLE privilege |  CREATE TABLE permission | CREATE privilege  | CREATE privilege |
-| **Creating indexes** | No Index support in Snowflake  |  CREATE privilege | INDEX or CREATE ANY INDEX privilege  | ALTER permission  | CREATE privilege  | INDEX privilege |
+| **Creating indexes** | N/A |  CREATE privilege | INDEX or CREATE ANY INDEX privilege  | ALTER permission  | CREATE privilege  | INDEX privilege |
 |  **Creating functions** |  CREATE FUNCTION ON SCHEMA privilege |  USAGE ON LANGUAGE plpythonu privilege to be able to call external python scripts |  CREATE PROCEDURE or CREATE ANY PROCEDURE privilege |  CREATE FUNCTION permission | USAGE privilege | CREATE ROUTINE privilege |
 | **Creating procedures** | CREATE PROCEDURE ON SCHEMA privilege  |  USAGE ON LANGUAGE plpythonu privilege to be able to call external python scripts | CREATE PROCEDURE or CREATE ANY PROCEDURE privilege  |  CREATE PROCEDURE permission | USAGE privilege (procedures are functions)  | CREATE ROUTINE privilege |
 | **Removing objects (tables, indexes, functions, procedures)**  |  Owning the object | Owning the object or being a superuser  |  DROP ANY <&nbsp;object&nbsp;> privilege  |  ALTER permission |  Table: owning the table Index: owning the index Function: owning the function | DROP privilege |
