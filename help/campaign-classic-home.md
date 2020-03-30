@@ -83,6 +83,3 @@ Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/ab
 | [Gold Standard upgrade](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
 | [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) | [Security & Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) |
 | [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Technical notes](https://helpx.adobe.com/campaign/kb/article-list.html) |
-
-
-
