@@ -22,7 +22,7 @@ snippet: y
 >
 >The MTA prioritizes processing the transactional messages over any other delivery.
 
-On the execution instance, once the enrichment stages are complete and a delivery template has been linked to the event, the delivery is sent. All deliveries are grouped in the **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]** folder. 
+On the execution instance, once the enrichment stage is complete and a delivery template has been linked to the event, the delivery is sent. All deliveries are grouped in the **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]** folder.
 
 ![](assets/messagecenter_deliveries_execinstances_001.png)
 
