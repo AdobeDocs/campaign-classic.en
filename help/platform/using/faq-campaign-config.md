@@ -87,20 +87,23 @@ If this still doesn’t help, please try clearing the Hard Cache by performing t
 
 ## How to perform Hard Cache Clear when the issues are Machine-specific or User-specific? {perform-hard-cache-clear}
 
-1. On the client console, choose File > Clear the local cache.
+If you have issues such as the new logos being reflected correctly, able to successfully export the data which are machine specific / user specific, you might need to perform a Hard Cache clearing with Windows (Windows 7, Windows XP, Windows 10).
+
+1. On the client console, choose **[!UICONTROL File]** > **[!UICONTROL Clear the local cache]**.
 
 1. Logout and close the client console (rich client).
 
 1. Go to the following locations, based on your operating system version:
 
-Windows 7: C:\Users\<Username>\AppData\Roaming\Neolane\NL_5\
-Windows XP: C:\Documents and Settings\<Username>\Application Data\Neolane\NL_5
-Here you will see many xml files named nlclient-config-<alphanumerical value>.xml.
+    * Windows 7: C:\Users\<&nbsp;Username&nbsp;>\AppData\Roaming\Neolane\NL_5\
+    * Windows XP: C:\Documents and Settings\<&nbsp;Username&nbsp;>\Application Data\Neolane\NL_5
+
+    Here you will see many xml files named nlclient-config-<&nbsp;alphanumerical value&nbsp;>.xml.
 
 1. Delete these xml files and associated folders.
 
-Caution:
-
-Do not delete nlclient_cnx.xml file.
+    >[!CAUTION]
+    >
+    >Do not delete nlclient_cnx.xml file.
 
 1. Sign in to client console.
