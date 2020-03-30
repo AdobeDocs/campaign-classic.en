@@ -74,3 +74,33 @@ Adobe Campaign provides various CRM connectors for linking your Adobe Campaign p
 These connectors enable quick and easy data integration: Adobe Campaign provides a dedicated wizard for collecting and selecting from the tables available in the CRM. This guarantees two-directional synchronization to make sure data is up-to-date at all times throughout the systems.
 
 Read out [Configure CRM connectors](../../platform/using/crm-connectors.md) to learn how to synchronize your CRM tool with Adobe Campaign. Watch this use case video on [Adobe Campaign and Microsoft Dynamics 365 integration](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
+
+## How to perform Soft Cache Clear when the issues are Machine-specific or User-specific? {perform-soft-cache-clear}
+
+If you have issues such as the new logos being reflected correctly, able to successfully export the data which are machine specific / user specific, you might need to perform a Soft Cache clearing with Windows (Windows 7, Windows XP, Windows 10).
+
+Once you logged in, go to **[!UICONTROL File]** > **[!UICONTROL Clear the local cache]**. After this, logout and log back in.
+
+![](assets/faq_soft_cache.png)
+
+If this still doesn’t help, please try clearing the Hard Cache by performing the below steps.
+
+## How to perform Hard Cache Clear when the issues are Machine-specific or User-specific? {perform-hard-cache-clear}
+
+1. On the client console, choose File > Clear the local cache.
+
+1. Logout and close the client console (rich client).
+
+1. Go to the following locations, based on your operating system version:
+
+Windows 7: C:\Users\<Username>\AppData\Roaming\Neolane\NL_5\
+Windows XP: C:\Documents and Settings\<Username>\Application Data\Neolane\NL_5
+Here you will see many xml files named nlclient-config-<alphanumerical value>.xml.
+
+1. Delete these xml files and associated folders.
+
+Caution:
+
+Do not delete nlclient_cnx.xml file.
+
+1. Sign in to client console.
