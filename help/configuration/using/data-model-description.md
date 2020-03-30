@@ -36,7 +36,7 @@ The following diagram shows the joins between the main business tables of the Ad
 
 ![](assets/data-model_simplified-diagram.png)
 
-The pre-defined Adobe Campaign data model includes the following main tables.
+The pre-defined Adobe Campaign data model includes the main tables listed below.
 
 ### NmsRecipient {#NmsRecipient}
 
@@ -104,11 +104,15 @@ The tree is managed by the iParentId and iChildCount fields. The sFullName field
 
 ## Delivery and tracking {#delivery-and-tracking}
 
+This set of tables is linked to the **Delivery** out-of-the-box package, which enables to monitor deliveries and eventual issues encountered when messages are sent. For more on this, see [Monitoring deliveries](../../delivery/using/monitoring-a-delivery.md). For more on tracking, see [Tracking messages](../../delivery/using/about-message-tracking.md).
+
 ![](assets/data-model_delivery.png)
 
 **NmsBroadLogMsg**: This table matches the **nms:broadLogMsg** schema. It is an extension of the delivery log table.
 
 ## Campaign management {#campaign-management}
+
+This set of tables is linked to the **Marketing campaigns (Campaign)** out-of-the-box package, which enables to define, optimize, execute and analyze communications and marketing campaigns. For more on this, see [Orchestrating campaigns](../../campaign/using/designing-marketing-campaigns.md).
 
 ![](assets/data-model_campaign.png)
 
