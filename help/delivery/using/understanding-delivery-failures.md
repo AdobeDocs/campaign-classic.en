@@ -297,7 +297,7 @@ The default rules are as follows:
     * You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
     * **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain. For more on this, see [this section](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
-    If your messages are displayed in Outlook as **[!UICONTROL on behalf of]** with a different domain name, make sure you are not signing your emails with **Sender ID**, which is the outdated Microsoft’s proprietary email authentication standard. If the **[!UICONTROL Sender ID]** option is enabled, uncheck the corresponding box and contact the Adobe Campaign support. Your deliverability will not be impacted.
+    If your messages are displayed in Outlook with **[!UICONTROL on behalf of]** in the sender address, make sure you are not signing your emails with **Sender ID**, which is the outdated proprietary email authentication standard from Microsoft. If the **[!UICONTROL Sender ID]** option is enabled, uncheck the corresponding box and contact the Adobe Campaign support. Your deliverability will not be impacted.
 
     >[!NOTE]
     >
