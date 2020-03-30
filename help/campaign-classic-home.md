@@ -77,9 +77,9 @@ Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/ab
 | Useful pages | Resources for developers |
 |---|---|
 | [Release notes](/help/rn/using/latest-release.md) | [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [Campaign Classic data model](../../configuration/using/about-data-model.md)| 
-| [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) | [JSAPI documentation](../../configuration/using/about-web-services.md) | 
-| [Getting started with Campaign Classic](../../platform/using/about-adobe-campaign-classic.md) | [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html) | 
+| [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [Campaign Classic data model](/configuration/using/about-data-model.md)|
+| [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) | [JSAPI documentation](configuration/using/about-web-services.md) |
+| [Getting started with Campaign Classic](platform/using/about-adobe-campaign-classic.md) | [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html) |
 | [Gold Standard upgrade](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
 | [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) | [Security & Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) |
 | [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Technical notes](https://helpx.adobe.com/campaign/kb/article-list.html) |
