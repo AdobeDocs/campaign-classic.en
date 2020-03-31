@@ -195,7 +195,7 @@ The following table shows in which cases the three indexes described below are u
 
 | Search criteria | Index 1 (First name + Last name) | Index 2 (First name only) | Index 3 (Last name only) | Comments |
 |--- |--- |--- |--- |--- |
-| First name equals "Johnny" | Used | Used | Not used | As the first name is in first position on index 1, it will be used anyway: there is no need to add a criteria on the last name. |
+| First name equals "Johnny" | Used | Used | Not used | As the first name is in first position on index 1, it will be used anyway: there is no need to add a criterion on the last name. |
 | First name equals "Johnny" AND Last name equals "Smith" | Used | Not used | Not used | As both attributes are searched in the same query, only the index that combines both attributes  will be used. |
 | Last name equals "Smith" | Not used | Not used | Used | The order of the attributes in the index is taken into account. If you do not match this order, the index may not be used. |
 | First name starts with "Joh" | Used | Used | Not used | "Left search" will enable indexes. |
