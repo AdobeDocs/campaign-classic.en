@@ -236,7 +236,7 @@ This table matches the **nms:rtEvent** schema. It contains a definition of real 
 
 This table matches the **nms:batchEvent** schema. It contains the definition of events by batch.
 
-## Microsites Module {#microsites-module}
+<!--## Microsites Module {#microsites-module}
 
 This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](../../web/using/about-web-applications.md).
 
@@ -244,7 +244,7 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 * **NmsTrackingUrl**: This table matches the **nms:trackingUrl** schema.
 
-* **NmsPurl**: This table matches the **nms:purl** schema.
+* **NmsPurl**: This table matches the **nms:purl** schema.-->
 
 ## NMAC Module {#nmac-module}
 
