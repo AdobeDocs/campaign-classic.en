@@ -168,6 +168,33 @@ However, keep in mind the following:
 
 <!--When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
 
+### Example
+
+Managing indexes can become very complex so it is important to understand how they work. To illustrate this complexity, let's take a basic example such as searching recipients by filtering on the first name and last name. To do this:
+1. Go to the **[!UICONTROL Recipients]** folder.
+1. Right-click the **[!UICONTROL First name]** field and select **[!UICONTROL Filter on this field]**.
+1. Right-click the **[!UICONTROL Last name]** column and select **[!UICONTROL Filter on this field]**.
+
+The two corresponding filters **[!UICONTROL First name]** and **[!UICONTROL Last name]** are added.
+
+Now to speed up search on these filters, which indexes should be used?
+
+>[!NOTE]
+>
+>This example applies to hosted customers using a PostgreSQL database.
+
+The following table shows in which case the three indexes described below are used according to the search criteria that are used. This example enables to see how efficient an index can be for different access patterns.
+
+| Search criteria | Index 1 (First name + Last name) | Index 2 (First name only) | Index 3 (Last name only) |Comments |
+|--- |--- |--- |--- |--- |
+| First name equals "Johnny" | Yes | Yes | No | As the first name is in first position on index 1, it will be used anyway so there is no need to add a criteria on the last name. |
+| First name equals "Johnny" AND Last name equals "Smith" | Yes | No | No | As both attributes are searched in the same query, only the index that combines both attributes  will be used. |
+| Last name equals "Smith" | No | No | Yes | The order of the attributes in the index is taken into account. If you do not respect this order, the index may not be used. |
+| First name starts with "Joh" | Yes | Yes | No | "Left search" will enable indexes. |
+| First name ends with "nny" | No | No | No | "Right search" will disable indexes and then perform a full scan. Some specific index types could handle this use case but are not available by default with Campaign. |
+| First name contains "John" | No | No | No | This is a combination of left and right searches. Because of the latter, it will disable indexes. |
+| First name equals  "john" | Yes | No | No | Index is case-sensitive. Making it non case-sensitive should require to create an specific  index that includes an SQL function like "upper(firstname)". Same issue with other data transformation like "unaccent()". |
+
 ## Links and cardinality {#links-and-cardinality}
 
 ### Links {#links}
