@@ -88,7 +88,7 @@ Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/ab
   <td valign="top"><strong>Resources for developers</strong>
   * [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
   * [Campaign Classic data model](../../configuration/using/about-data-model.md)
-  * [JSAPI documentation](../../configuration/using/about-web-services.md)
+  * [JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html)
   * [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html)
   * [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html)
   * [Security & Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html)
