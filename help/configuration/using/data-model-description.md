@@ -104,7 +104,7 @@ The tree is managed by the iParentId and iChildCount fields. The sFullName field
 
 ## Delivery and tracking {#delivery-and-tracking}
 
-This set of tables is linked to the **Delivery** out-of-the-box package, which enables to monitor deliveries and eventual issues encountered when messages are sent. For more on this, see [Monitoring deliveries](../../delivery/using/monitoring-a-delivery.md). For more on tracking, see [Tracking messages](../../delivery/using/about-message-tracking.md).
+This set of tables is linked to the **Delivery** module, which allows to monitor deliveries and eventual issues encountered when messages are sent. For more on this, see [Monitoring deliveries](../../delivery/using/monitoring-a-delivery.md). For more on tracking, see [Tracking messages](../../delivery/using/about-message-tracking.md).
 
 ![](assets/data-model_delivery.png)
 
@@ -112,7 +112,7 @@ This set of tables is linked to the **Delivery** out-of-the-box package, which e
 
 ## Campaign management {#campaign-management}
 
-This set of tables is linked to the **Marketing campaigns (Campaign)** out-of-the-box package, which enables to define, optimize, execute and analyze communications and marketing campaigns. For more on this, see [Orchestrating campaigns](../../campaign/using/designing-marketing-campaigns.md).
+This set of tables is linked to the **Marketing campaigns** module, which allows to define, optimize, execute and analyze communications and marketing campaigns. For more on this, see [About marketing campaigns](../../campaign/using/designing-marketing-campaigns.md).
 
 ![](assets/data-model_campaign.png)
 
@@ -128,6 +128,8 @@ This set of tables is linked to the **Marketing campaigns (Campaign)** out-of-th
 
 ## Communication consistency {#communication-consistency}
 
+This set of tables is linked to the **Campaign Optimization** module, which allows to control, filter and monitor the sending of deliveries. For more on this, see [About campaign typologies](../../campaign/using/about-campaign-typologies.md).
+
 ![](assets/data-model_typology.png)
 
 * **NmsTypologyRule**: This table matches the **nms:typologyRule** schema. It contains the rules which apply to deliveries depending on typologies.
@@ -137,6 +139,8 @@ This set of tables is linked to the **Marketing campaigns (Campaign)** out-of-th
 * **NmsVolumeConsumed**: This table matches the **nms:volumeConsumed** schema. It contains all the consumption lines of the capacity rules.
 
 ## Response management {#response-management}
+
+This set of tables is linked to the **Response Manager** module, which allows to measure the success and profitability of marketing campaigns or offer propositions for all communication channels. For more on this, see [About response manager](../../campaign/using/about-response-manager.md).
 
 ![](assets/data-model_response.png)
 
@@ -196,6 +200,8 @@ It contains a record representing an individual's reaction to a given hypothesis
 
 ## Simulation and delivery {#simulation-and-delivery}
 
+This set of tables is linked to the **Simulation** module, which allows to test the distribution of offers belonging to a category or an environment before sending your proposition to recipients. For more on this, see [About offers simulation](../../interaction/using/about-offers-simulation.md).
+
 ![](assets/data-model_simulation.png)
 
 * **NmsSimulation**: This table matches the **nms:simulation** schema. It represents a simulation for a set of deliveries or offers on a given population.
@@ -203,6 +209,8 @@ It contains a record representing an individual's reaction to a given hypothesis
 * **NmsOfferSimulationRel**: This table matches the **nms:offerSimulationRel** schema. It lets you link up a simulation with an offer.
 
 ## Interaction Module {#interaction-module}
+
+This set of tables is linked to the **Interaction** module, which allows to respond in real time during an interaction with a given contact by making them a single or several adapted offers. For more on this, see [Interaction and offer management](../../interaction/using/interaction-and-offer-management.md).
 
 * **NmsOffer**: This table matches the **nms:offer** schema. It contains the definition of each marketing offer.
 * **NmsPropositionRcp**: This table matches the **nms:propositionRcp** schema. It contains the cross-channel log of marketing propositions sent to each individual. The record is created when a proposition is prepared or effectively made to an individual.
@@ -213,6 +221,8 @@ It contains a record representing an individual's reaction to a given hypothesis
 * **NmsOfferEnv**: This table matches the **nms:offerEnv**. It contains the offer environments.
 
 ## Message Center Module {#message-center-module}
+
+The following set of tables is linked to the **Transactional messaging** (Message Center) module, which allows to manage individual and unique communications sent to a user and generated from events triggered from information systems. For more on this, see [About transactional messaging](../../message-center/using/about-transactional-messaging.md).
 
 ### NmsRtEvent {#NmsRtEvent}
 
@@ -228,6 +238,8 @@ This table matches the **nms:batchEvent** schema. It contains the definition of 
 
 ## Microsites Module {#microsites-module}
 
+This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](../../web/using/about-web-applications.md).
+
 ![](assets/data-model_microsites.png)
 
 * **NmsTrackingUrl**: This table matches the **nms:trackingUrl** schema.
@@ -235,6 +247,8 @@ This table matches the **nms:batchEvent** schema. It contains the definition of 
 * **NmsPurl**: This table matches the **nms:purl** schema.
 
 ## NMAC Module {#nmac-module}
+
+This set of tables is linked to the **Mobile App Channel**, which allows to send personalized notifications to iOS and Android terminals via apps. For more on this, see [About mobile app channel](../../delivery/using/about-mobile-app-channel.md).
 
 * **NmsMobileApp**: This table matches the **nms:mobileApp** schema. It contains the mobile applications defined in Adobe Campaign.
 * **NmsAppSubscription**: This table matches the **nms:appSubscription** schema. It contains the subscribers information regarding one or more applications.
@@ -244,6 +258,8 @@ This table matches the **nms:batchEvent** schema. It contains the definition of 
 * **NmsBroadLogAppSubRcp**: This table matches the **nms:broadLogAppSubRcp** schema.
 
 ## Social Marketing Module {#social-marketing-module}
+
+This set of tables is linked to the **Managing social networks** module, which allows to interact with customers and prospects via Facebook and Twitter. For more on this, see [About social marketing](../../social/using/about-social-marketing.md).
 
 ![](assets/data-model_social.png)
 
