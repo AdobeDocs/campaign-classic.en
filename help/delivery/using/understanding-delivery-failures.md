@@ -98,7 +98,7 @@ The possible reasons for a delivery failure are:
   </tr> 
   <tr> 
    <td> Error ignored </td> 
-   <td> No error </td> 
+   <td> Ignored </td> 
    <td> 25 </td> 
    <td> The address is whitelisted. The error is therefore ignored and an email will be sent.<br /> </td> 
   </tr> 
