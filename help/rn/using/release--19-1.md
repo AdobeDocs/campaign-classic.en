@@ -70,7 +70,11 @@ _13 August 2019_
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) **March 5th 2020**: new build (9032-...205c981c3) which includes the following fix:
+![](assets/green_2.png) **April 2nd 2020**: new build (9032-...??) which includes the following fix:
+
+* We’re introducing a signature mechanism for tracking links in emails to prevent potential malicious use (phishing). This protects against the rewriting of tracking parameters which may include a URL used to redirect the user. The feature is currently disabled by default. Please contact Customer Care if you need to activate it.
+
+![](assets/orange_2.png) **March 5th 2020**: new build (9032-...205c981c3) which includes the following fix:
 
 * Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
 
