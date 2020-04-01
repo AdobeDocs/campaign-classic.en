@@ -75,7 +75,7 @@ These connectors enable quick and easy data integration: Adobe Campaign provides
 
 Read out [Configure CRM connectors](../../platform/using/crm-connectors.md) to learn how to synchronize your CRM tool with Adobe Campaign. Watch this use case video on [Adobe Campaign and Microsoft Dynamics 365 integration](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
 
-## How to perform Soft Cache Clear when the issues are Machine-specific or User-specific? {perform-soft-cache-clear}
+## How to perform Soft Cache Clear when the issues are Machine-specific or User-specific? {#perform-soft-cache-clear}
 
 If you have issues such as the new logos being reflected correctly, able to successfully export the data which are machine specific / user specific, you might need to perform a Soft Cache clearing with Windows (Windows 7, Windows XP, Windows 10).
 
@@ -85,7 +85,7 @@ Once you logged in, go to **[!UICONTROL File]** > **[!UICONTROL Clear the local 
 
 If this still doesn’t help, please try clearing the Hard Cache by performing the below steps.
 
-## How to perform Hard Cache Clear when the issues are Machine-specific or User-specific? {perform-hard-cache-clear}
+## How to perform Hard Cache Clear when the issues are Machine-specific or User-specific? {#perform-hard-cache-clear}
 
 If you have issues such as the new logos being reflected correctly, able to successfully export the data which are machine specific / user specific, you might need to perform a Hard Cache clearing with Windows (Windows 7, Windows XP, Windows 10).
 
