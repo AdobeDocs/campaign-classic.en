@@ -28,9 +28,13 @@ The FDA rights table has been moved to the Accessing an external database (FDA) 
 
 The FAQ has been updated with tips on how to clear soft and hard cache. [Read more](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)
 
+The Data model best practices section has been improved with additional information on indexes. [Read more](../../configuration/using/data-model-best-practices.md#indexes)
+
+The section describing the Adobe Campaign pre-defined data model has been updated with more details on each out-of-the-box table and with links to the relevant modules. [Read more](../../configuration/using/data-model-description.md)
+
 ## March 2020 {#march-2020}
 
-The data model best practices page has been updated with new sections including [Sequences](../../configuration/using/data-model-best-practices.md#sequences), [Performance](../../configuration/using/data-model-best-practices.md#performance) and [Large tables](../../configuration/using/data-model-best-practices.md#large-tables), amongst others. [Read more](../../configuration/using/data-model-best-practices.md)
+The Data model best practices page has been updated with new sections including [Sequences](../../configuration/using/data-model-best-practices.md#sequences), [Performance](../../configuration/using/data-model-best-practices.md#performance) and [Large tables](../../configuration/using/data-model-best-practices.md#large-tables), amongst others. [Read more](../../configuration/using/data-model-best-practices.md)
 
 A new section describing the Adobe Campaign pre-defined data model and the out-of-the-box tables interaction is now available. [Read more](../../configuration/using/data-model-description.md)
 
