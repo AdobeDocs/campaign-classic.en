@@ -104,7 +104,7 @@ The following table lists all standard packages with their description, the inst
    <td> Social networks (Social Marketing) <br /> </td> 
    <td> Synchronizes Adobe Campaign with Twitter and Facebook.<br /> </td> 
    <td> All</td> 
-   <td> <a href="../../social/using/starting-workflows.md">Learn More</a> </td> 
+   <td> <a href="../../social/using/about-social-marketing.md">Learn More</a> </td> 
   </tr> 
   <tr> 
    <td> Transactional message control (Message Center - Control)<br /> </td> 
