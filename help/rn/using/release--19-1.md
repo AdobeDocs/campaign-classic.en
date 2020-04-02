@@ -72,7 +72,9 @@ _13 August 2019_
 
 ![](assets/green_2.png) **April 2nd 2020**: new build (9032-...??) which includes the following fix:
 
-* We’re introducing a signature mechanism for tracking links in emails to prevent potential malicious use (phishing). This protects against the rewriting of tracking parameters which may include a URL used to redirect the user. The feature is currently disabled by default. Please contact Customer Care if you need to activate it.
+* We’re introducing a signature mechanism for tracking links in emails to prevent potential malicious use (phishing). This protects against the rewriting of tracking parameters which may include a URL used to redirect the user. This mechanism is currently disabled by default. Please contact Customer Care if you need to activate it.
+
+* A complementary security protection has been added to prevent the redirection of malformed URLs generated from previous builds or when the signature mechanism is off. Please contact Customer Care if you need to use it.
 
 ![](assets/orange_2.png) **March 5th 2020**: new build (9032-...205c981c3) which includes the following fix:
 
