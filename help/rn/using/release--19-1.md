@@ -70,7 +70,7 @@ _13 August 2019_
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) **April 2nd 2020**: new build (9032-...e8b36257e) which includes the following fix:
+![](assets/green_2.png) **April 3rd 2020**: new build (9032-...e8b36257e) which includes the following fix:
 
 * We’re introducing a signature mechanism for tracking links in emails to prevent potential malicious use (phishing). This protects against the rewriting of tracking parameters which may include a URL used to redirect the user. This mechanism is currently disabled by default. Please contact Customer Care if you need to activate it.
 
