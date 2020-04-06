@@ -70,29 +70,29 @@ _13 August 2019_
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) **April 6th 2020**: new build (9032-22a555d...) which includes the following fix:
+![](assets/green_2.png) **April 6th 2020**: new build (9032&#64;22a555d) which includes the following fix:
 
 * Improved security on tracking links in email. This mechanism is currently disabled by default. Please contact Customer Care if you need to activate it.
 
-![](assets/orange_2.png) **March 5th 2020**: new build (9032-19f73c5...) which includes the following fix:
+![](assets/orange_2.png) **March 5th 2020**: new build (9032&#64;19f73c5) which includes the following fix:
 
 * Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
 
-![](assets/orange_2.png) **December 17th 2019**: new build (9032-d6b8062...) which includes the following fix:
+![](assets/orange_2.png) **December 17th 2019**: new build (9032&#64;d6b8062) which includes the following fix:
 
 * Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter). (NEO-19595)
 
-![](assets/orange_2.png) **December 11th 2019**: new build (9032-bc4a935...) which includes the following fix:
+![](assets/orange_2.png) **December 11th 2019**: new build (9032&#64;bc4a935) which includes the following fix:
 
 * Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
 
-![](assets/orange_2.png) **November 20th 2019**: new build (9032-3468c7b...) which includes the following fixes:
+![](assets/orange_2.png) **November 20th 2019**: new build (9032&#64;3468c7b) which includes the following fixes:
 
 * Fixed a login issue via IMS authentication. (NEO-17312)
 * Fixed an issue when displaying cumulative reports on multiple deliveries. (NEO-18165)
 * Fixed an issue that could block or make the web server crash.
 
-![](assets/orange_2.png) **September 19th 2019**: new build (9032-cee805c...) which includes the following fixes:
+![](assets/orange_2.png) **September 19th 2019**: new build (9032&#64;cee805c) which includes the following fixes:
 
 * Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
 * Fixed an index issue which could cause performance issues when sending transactional messages.
