@@ -234,7 +234,7 @@ Bounce mails can have the following qualification status:
 
 * **[!UICONTROL To qualify]** : the bounce mail could not be qualified. Qualification must be assigned to the Deliverability team to guarantee efficient platform deliverability. As long as it isn't qualified, the bounce mail isn't used to enrich the list of email management rules.
 * **[!UICONTROL Keep]** : the bounce mail was qualified and will be used by the **Refresh for deliverability** workflow to be compared to existing email management rules and enrich the list.
-* **[!UICONTROL Ignore]** : the bounce mail was qualified but will not be used by the **Refresh for deliverability** workflow. It will not be sent to client instances.
+* **[!UICONTROL Ignore]** : the bounce mail is ignored by the Campaign MTA, meaning that this bounce will never cause the recipient's address to be quarantined. It will not be used by the **Refresh for deliverability** workflow and it will not be sent to client instances.
 
 ![](assets/deliverability_qualif_status.png)
 
