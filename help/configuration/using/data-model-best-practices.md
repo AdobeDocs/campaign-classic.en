@@ -137,7 +137,11 @@ There are two types of sequences:
 * **Shared**: more than one table would pick their id from the same sequence. It means that if an id 'X' is used by one table, no other table sharing the same sequence would have a record with that id 'X'. **XtkNewId** is the default shared sequence available in Adobe Campaign.
 * **Dedicated**: only one table is picking its ids from the sequence. The sequence name would usually contain the table name.
 
-The sequence is an integer 32-bit value, with a finite maximum number of available values: 2.14 billion. After reaching the maximum value, the sequence is going back to 0, in order to recycle ids. If the old data has not been purged, the result will be a unique-key violation, which becomes a blocker for the platform health and usage. Adobe Campaign would not be able to send out communications (when it impacts delivery log table) and performances would be highly impacted.
+>[!IMPORTANT]
+>
+>The sequence is an integer 32-bit value, with a finite maximum number of available values: 2.14 billion. After reaching the maximum value, the sequence is going back to 0, in order to recycle ids.
+>
+>If the old data has not been purged, the result will be a unique-key violation, which becomes a blocker for the platform health and usage. Adobe Campaign would not be able to send out communications (when it impacts delivery log table) and performances would be highly impacted.
 
 Therefore, a customer sending 6 billion emails annually with a retention period of 180 days for their logs would run out of ids in 4 months. To prevent such a challenge, make sure to have purge settings according to your volumes. For more on this, see [this section](#data-retention).
 
