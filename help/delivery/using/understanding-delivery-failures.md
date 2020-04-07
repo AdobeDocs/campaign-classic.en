@@ -238,21 +238,21 @@ Bounce mails can have the following qualification status:
 
 ![](assets/deliverability_qualif_status.png)
 
-For hosted or hybrid installations, if you have upgraded to the Enhanced MTA:
-
-* The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are no longer used for synchronous delivery failure error messages. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
-
-* Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. For more on this, see [Email management rules](#email-management-rules).
-
-* For instances using the Enhanced MTA without **Webhooks/EFS**, the **[!UICONTROL Inbound email]** rules will also be used to process the synchronous bounce emails coming from the Enhanced MTA, using the same email address as for asynchronous bounce emails.
-
-For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>[!NOTE]
+>
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA:
+>
+>* The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are no longer used for synchronous delivery failure error messages. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
+>
+>* Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. For more on this, see [Email management rules](#email-management-rules).
+>
+>* For instances using the Enhanced MTA without **Webhooks/EFS**, the **[!UICONTROL Inbound email]** rules will also be used to process the synchronous bounce emails coming from the Enhanced MTA, using the same email address as for asynchronous bounce emails.
+>
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 ### Email management rules {#email-management-rules}
 
 Mail rules are accessed via the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** node. Email management rules are shown in the lower part of the window.
-
-These rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
 
 ![](assets/tech_quarant_rules.png)
 
@@ -260,68 +260,60 @@ These rules contain the list of character strings which can be returned by remot
 >
 >The default parameters of the platform are configured in the deployment wizard. For further information, refer to [this section](../../installation/using/deploying-an-instance.md).
 
-The default rules are as follows:
-
-* **Inbound email**
-
-  When an email fails, the remote server returns a bounce message to the address specified in the platform parameters.
-  
-  Adobe Campaign compares the content of each bounce mail to the strings in the list of rules, and then assigns it one of the three error types.
-
-  The user can create his own rules.
-
-  >[!IMPORTANT]
-  >
-  >When importing a package and when updating data via the **Refresh for deliverability** workflow, the user-created rules are overwritten.
-
-  For more on bounce mail qualification, see [this section](#bounce-mail-qualification).
-
-  >[!NOTE]
-  >
-  >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
-  >
-  >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
-
-* **Domain management**
-
-  The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
-  
-  Rules for the Hotmail and MSN domains are available by default in Adobe Campaign.
-
-  Click the **[!UICONTROL Detail]** icon to access rule configuration.
-
-  ![](assets/tech_quarant_domain_rules_02.png)
-
-  The **SMTP parameters** act as filters applied for a blocking rule.
-
-    * You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
-    * **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain. For more on this, see [this section](../../installation/using/configuring-campaign-server.md#smtp-relay).
-
-    If your messages are displayed in Outlook with **[!UICONTROL on behalf of]** in the sender address, make sure you are not signing your emails with **Sender ID**, which is the outdated proprietary email authentication standard from Microsoft. If the **[!UICONTROL Sender ID]** option is enabled, uncheck the corresponding box and contact the Adobe Campaign support. Your deliverability will not be impacted.
-
-    >[!NOTE]
-    >
-    >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
-    >
-    >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
-
-* **MX Management**
-
-  * The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
-
-  * The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
-
-  * To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked. For example, in the general case, for a minimum of 300 messages, the sending of emails is blocked for three hours if the error rate reaches 90%.
-
-  For more on MX management, refer to [this section](../../installation/using/email-deliverability.md#mx-configuration).
-
-  >[!NOTE]
-  >
-  >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
-  >
-  >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+The default rules are as follows.
 
 >[!IMPORTANT]
 >
 >* The delivery server (MTA) must be restarted if the parameters have been changed.
 >* The modification or creation of management rules is for expert users only.
+
+#### Inbound email {#inbound-email}
+
+These rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
+  
+When an email fails, the remote server returns a bounce message to the address specified in the platform parameters. Adobe Campaign compares the content of each bounce mail to the strings in the list of rules, and then assigns it one of the three [error types](#delivery-failure-types-and-reasons).
+
+>[!NOTE]
+>
+>The user can create his own rules. When importing a package and when updating data via the **Refresh for deliverability** workflow, the user-created rules are overwritten.
+
+For more on bounce mail qualification, see [this section](#bounce-mail-qualification).
+
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, and if your instance has **Webhooks/EFS** functionality, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
+>
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+#### Domain management {#domain-management}
+
+The Adobe Campaign messaging server applies a single **Domain management** rule to all domains.
+
+<!--![](assets/tech_quarant_domain_rules_02.png)-->
+
+* You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
+* The **SMTP relay** parameters let you configure the IP address and the port of a relay server for a particular domain. For more on this, see [this section](../../installation/using/configuring-campaign-server.md#smtp-relay).
+
+If your messages are displayed in Outlook with **[!UICONTROL on behalf of]** in the sender address, make sure you are not signing your emails with **Sender ID**, which is the outdated proprietary email authentication standard from Microsoft. If the **[!UICONTROL Sender ID]** option is enabled, uncheck the corresponding box and contact the Adobe Campaign support. Your deliverability will not be impacted.
+
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
+>
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+#### MX Management {#mx-management}
+
+* The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
+
+* The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+
+* To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked. For example, in the general case, for a minimum of 300 messages, the sending of emails is blocked for three hours if the error rate reaches 90%.
+
+For more on MX management, refer to [this section](../../installation/using/email-deliverability.md#mx-configuration).
+
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+>
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
