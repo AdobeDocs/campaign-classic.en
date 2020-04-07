@@ -32,8 +32,6 @@ The Data model best practices section has been improved with additional informat
 
 The section describing the Adobe Campaign pre-defined data model has been updated with more details on each out-of-the-box table and with links to the relevant modules. [Read more](../../configuration/using/data-model-description.md)
 
-The [Bounce mail qualification](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) and [Email management rules](../../delivery/using/understanding-delivery-failures.md#email-management-rules) sections have been enhanced with updated information.
-
 ## March 2020 {#march-2020}
 
 The Data model best practices page has been updated with new sections including [Sequences](../../configuration/using/data-model-best-practices.md#sequences), [Performance](../../configuration/using/data-model-best-practices.md#performance) and [Large tables](../../configuration/using/data-model-best-practices.md#large-tables), amongst others. [Read more](../../configuration/using/data-model-best-practices.md)
