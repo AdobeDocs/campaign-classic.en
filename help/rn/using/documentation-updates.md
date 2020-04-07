@@ -32,7 +32,7 @@ The Data model best practices section has been improved with additional informat
 
 The section describing the Adobe Campaign pre-defined data model has been updated with more details on each out-of-the-box table and with links to the relevant modules. [Read more](../../configuration/using/data-model-description.md)
 
-Use cases from the Automating with workflows guide have been reorganized into thematic sections. [Read more](../../workflow/using/using-the-local-approval-activity.md)
+Use cases from the "Automating with workflows" guide have been reorganized into thematic sections. [Read more](../../workflow/using/using-the-local-approval-activity.md)
 
 ## March 2020 {#march-2020}
 
