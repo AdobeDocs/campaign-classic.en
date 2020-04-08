@@ -389,7 +389,6 @@ sub-product: adobe campaign classic
           + [Loading delivery content](workflow/using/loading-delivery-content.md)
           + [Cross-channel delivery workflow](workflow/using/cross-channel-delivery-workflow.md)
           + [Email enrichment with custom date fields](workflow/using/email-enrichment-with-custom-date-fields.md)
-          + [Using the Deduplication activity's merge functionality](workflow/using/deduplication-merge.md)
        + Monitoring {#monitoring}
           + [Sending a report to a list](workflow/using/sending-a-report-to-a-list.md)
           + [Supervising workflows](workflow/using/supervising-workflows.md)
@@ -399,6 +398,7 @@ sub-product: adobe campaign classic
           + [Creating a summary list](workflow/using/creating-a-summary-list.md)
           + [Enriching data](workflow/using/enriching-data.md) 
           + [Using aggregates](workflow/using/using-aggregates.md)
+          + [Using the Deduplication activity's merge functionality](workflow/using/deduplication-merge.md)
        + Designing queries {#designing-queries}
           + [Querying the recipient table](workflow/using/querying-recipient-table.md)
           + [Querying delivery information](workflow/using/querying-delivery-information.md)

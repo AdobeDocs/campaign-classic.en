@@ -70,6 +70,8 @@ The NmsRcpGrpRel relationship table only contains the two fields corresponding t
 
 This table matches the **nms:service** schema.
 
+In Adobe Campaign, you can create and manage subscriptions to information services (topics). The NmsService table stores the definition of the information services (topics) that you offer your recipients to subscribe to (a newsletter for example).
+
 Services are entities which are similar to groups (static recipient groupings), except that they circulate more information and enable easy management of subscriptions and unsubscriptions via forms.
 
 There is a unique index on the field representing the internal name of the sName service. The service is linked to a folder (The key is iFolderId. For more on this, see [XtkFolder](#XtkFolder)). Finally, the iType field specifies the delivery channel of this service (0 for email, 1 for SMS, 2 for telephone, 3 for direct mail and 4 for fax).
