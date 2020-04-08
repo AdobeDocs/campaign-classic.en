@@ -238,7 +238,7 @@ Bounce mails can have the following qualification status:
 
 ![](assets/deliverability_qualif_status.png)
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA:
 >
