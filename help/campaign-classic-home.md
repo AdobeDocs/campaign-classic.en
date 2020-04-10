@@ -13,16 +13,10 @@ topic: Premium
 ## What's New
 
 * **[Privacy Compliance](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-Learn how Adobe Campaign can help you with your Privacy compliance.
+Learn how Adobe Campaign can help you with your Privacy compliance
 
 * **[Tracking capabilities](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>
 Understand tracking capabilities in Campaign
-
-* **[Monitoring best practices](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>
-Learn how to monitor your Campaign instance and processes
-
-* **[Security guidelines](https://helpx.adobe.com/campaign/kb/acc-security.html)**<br/>
-Learn key elements to check regarding security and privacy
 
 * **[Interactive content with AMP](delivery/using/defining-interactive-content.md)**<br/>
 Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/about/email/) format
@@ -85,4 +79,4 @@ Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/ab
 | [Get started with Campaign Classic](platform/using/about-adobe-campaign-classic.md) | [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html) |
 | [Gold Standard upgrade](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
 | [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) | [Security & Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) |
-| [Campaign Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Technical notes](https://helpx.adobe.com/campaign/kb/article-list.html) |
+| [Campaign Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Monitoring best practices](https://helpx.adobe.com/campaign/kb/acc-maintenance.html) |
