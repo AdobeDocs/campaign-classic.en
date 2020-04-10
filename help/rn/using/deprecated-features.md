@@ -37,7 +37,7 @@ Generally, features that are planned to be removed in a future release are set t
 
 Customers are advised to review if they make use of the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided. Please refer to the target removal date to plan your environment and project updates accordingly.
 
-### Adobe Campaign 18.6 release {#18-6-release}
+### Adobe Campaign 18.6 release {#ac-18-6-release}
 
 <table> 
  <tbody> 
@@ -55,7 +55,7 @@ Customers are advised to review if they make use of the feature/capability in th
  </tbody> 
 </table>
 
-### Adobe Campaign 18.4 release {#18-4-release}
+### Adobe Campaign 18.4 release {#ac-18-4-release}
 
 <table> 
  <tbody> 
@@ -121,33 +121,33 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>Campaign APIs documentation - jsapi.chm file<br>&nbsp;</td>
-   <td>Campaign Classic APIs are now available in a dedicated page. If you were using the jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>. <br>&nbsp;</td>
-   <td><p>19.1</p><br>&nbsp;</td>
+   <td>Campaign Classic APIs are now available in a dedicated page. If you were using the jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
+   <td><19.1</td>
   </tr> 
   <tr> 
-   <td>Campaign Orchestration - Predictive marketing<br>&nbsp;</td>
-   <td>A large part of predictive marketing capabilities in Adobe Campaign Classic has been the consumption of predictive models. Although the predictive marketing workflow activity will be removed in an upcoming version, Adobe Campaign will continue to support the consumption and use of predictive models from external sources through other workflow activities. <br>&nbsp;</td>
-   <td><p>18.10</p><br>&nbsp;</td>
+   <td>Campaign Orchestration - Predictive marketing</td>
+   <td>A large part of predictive marketing capabilities in Adobe Campaign Classic has been the consumption of predictive models. Although the predictive marketing workflow activity will be removed in an upcoming version, Adobe Campaign will continue to support the consumption and use of predictive models from external sources through other workflow activities.</td>
+   <td>18.10</td>
   </tr> 
   <tr> 
-   <td>Web applications - Microsites<br>&nbsp;</td>
-   <td>Improve security by restricting access to only dedicated domains on Adobe Campaign configuration files. You can still use personalized URLs in Campaign by using DNS aliases. <a href="https://helpx.adobe.com/campaign/kb/domain-name-delegation.html">Learn more</a>. <br>&nbsp;</td>
-   <td><p>18.10</p><br>&nbsp;</td>
+   <td>Web applications - Microsites</td>
+   <td>Improve security by restricting access to only dedicated domains on Adobe Campaign configuration files. You can still use personalized URLs in Campaign by using DNS aliases. <a href="https://helpx.adobe.com/campaign/kb/domain-name-delegation.html">Learn more</a>.</td>
+   <td>18.10</td>
   </tr> 
   <tr> 
    <td>Push Notifications - iOS Binary Connector<br>&nbsp;</td>
-   <td>Per Apple's recommendation, Adobe will be removing the legacy iOS Binary Connector. The more capable and more efficient HTTP/2-based connector is already available. <a href="https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/BinaryProviderAPI.html">Learn more</a>. <br>&nbsp;</td>
-   <td><p>18.10</p><br>&nbsp;</td>
+   <td>Per Apple's recommendation, Adobe will be removing the legacy iOS Binary Connector. The more capable and more efficient HTTP/2-based connector is already available.</td>
+   <td>18.10</td>
   </tr> 
    <tr> 
-   <td>Mobile channel - MMS and WAP Push messages<br>&nbsp;</td>
+   <td>Mobile channel - MMS and WAP Push messages</td>
    <td>MMS and WAP Push mobile deliveries have been removed from Campaign Classic. Adobe recommends to leverage	<a href="../../delivery/using/sms-channel.md">SMS</a> and <a href="../../delivery/using/about-mobile-app-channel.md">Push</a> deliveries. <br>&nbsp;</td>
-   <td><p>18.4</p><br>&nbsp;</td>
+   <td>18.4</td>
   </tr> 
    <tr> 
-   <td>Mobile channel - LINE v1<br>&nbsp;</td>
-   <td>LINE Connect package is no longer available for installation in Adobe Campaign Classic. Adobe recommends using the new LINE Channel package to send LINE messages. <a href="../../delivery/using/line-channel.md">Learn more</a>. <br>&nbsp;</td>
-   <td><p>18.4</p><br>&nbsp;</td>
+   <td>Mobile channel - LINE v1</td>
+   <td>LINE Connect package is no longer available for installation in Adobe Campaign Classic. Adobe recommends using the new LINE Channel package to send LINE messages. <a href="../../delivery/using/line-channel.md">Learn more</a>.</td>
+   <td>18.4</td>
   </tr> 
  </tbody> 
 </table>
@@ -205,7 +205,7 @@ Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the fo
 
 Campaign Classic is not compatible with the following servers in Federated Data Access (FDA).
 
-* DB2 UDB 9.5, 9.7. More recent version of DB2 is supported through Federated Data Access (FDA). [Learn more](http://www-01.ibm.com/support/docview.wss?uid=swg21168270).
+* DB2 UDB 9.5, 9.7. More recent version of DB2 is  supported through Federated Data Access (FDA). [Learn more](http://www-01.ibm.com/support/docview.wss?uid=swg21168270).
 * Oracle 9i, 10G R2. More recent versions of Oracle are supported through Federated Data Access (FDA). [Learn more](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf).
 * PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. More recent versions of PostgreSQL are supported through Federated Data Access (FDA). [Learn more](https://www.postgresql.org/support/versioning).
 * MSSQL 2000, 2005, 2008 R2. More recent versions of SQL Server are supported through Federated Data Access (FDA). [Learn more](https://support.microsoft.com/en-us/lifecycle/search/1044).
