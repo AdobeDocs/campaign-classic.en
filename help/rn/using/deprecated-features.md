@@ -37,7 +37,7 @@ Generally, features that are planned to be removed in a future release are set t
 
 Customers are advised to review if they make use of the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided. Please refer to the target removal date to plan your environment and project updates accordingly.
 
-### Adobe Campaign 18.6 release  {#18-6-release}
+### Adobe Campaign 18.6 release {#18-6-release}
 
 <table> 
  <tbody> 
@@ -55,7 +55,7 @@ Customers are advised to review if they make use of the feature/capability in th
  </tbody> 
 </table>
 
-### Adobe Campaign 18.4 release  {#18-4-release}
+### Adobe Campaign 18.4 release {#18-4-release}
 
 <table> 
  <tbody> 
@@ -82,7 +82,7 @@ Customers are advised to review if they make use of the feature/capability in th
 
 ## Deprecated compatibility {#deprecated-compatibility}
 
-### Adobe Campaign 20.1 release  {#compat-20-1-release}
+### Adobe Campaign 20.1 release {#compat-20-1-release}
 
 Starting 20.1 February Release, the following system is deprecated for Campaign Classic. Compatibility will end in 20.2 release - June 2020.
 
@@ -125,7 +125,7 @@ This section lists features and capabilities that have been removed from Campaig
    <td><p>19.1</p><br>&nbsp;</td>
   </tr> 
   <tr> 
-   <td>Campaign Orchestration	 - Predictive marketing<br>&nbsp;</td>
+   <td>Campaign Orchestration - Predictive marketing<br>&nbsp;</td>
    <td>A large part of predictive marketing capabilities in Adobe Campaign Classic has been the consumption of predictive models. Although the predictive marketing workflow activity will be removed in an upcoming version, Adobe Campaign will continue to support the consumption and use of predictive models from external sources through other workflow activities. <br>&nbsp;</td>
    <td><p>18.10</p><br>&nbsp;</td>
   </tr> 
@@ -135,7 +135,7 @@ This section lists features and capabilities that have been removed from Campaig
    <td><p>18.10</p><br>&nbsp;</td>
   </tr> 
   <tr> 
-   <td>Push Notifications	- iOS Binary Connector<br>&nbsp;</td>
+   <td>Push Notifications - iOS Binary Connector<br>&nbsp;</td>
    <td>Per Apple's recommendation, Adobe will be removing the legacy iOS Binary Connector. The more capable and more efficient HTTP/2-based connector is already available. <a href="https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/BinaryProviderAPI.html">Learn more</a>. <br>&nbsp;</td>
    <td><p>18.10</p><br>&nbsp;</td>
   </tr> 
@@ -145,7 +145,7 @@ This section lists features and capabilities that have been removed from Campaig
    <td><p>18.4</p><br>&nbsp;</td>
   </tr> 
    <tr> 
-   <td>Mobile channel	- LINE v1<br>&nbsp;</td>
+   <td>Mobile channel - LINE v1<br>&nbsp;</td>
    <td>LINE Connect package is no longer available for installation in Adobe Campaign Classic. Adobe recommends using the new LINE Channel package to send LINE messages. <a href="../../delivery/using/line-channel.md">Learn more</a>. <br>&nbsp;</td>
    <td><p>18.4</p><br>&nbsp;</td>
   </tr> 
