@@ -141,7 +141,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>Mobile channel - MMS and WAP Push messages</td>
-   <td>MMS and WAP Push mobile deliveries have been removed from Campaign Classic. Adobe recommends to leverage	<a href="../../delivery/using/sms-channel.md">SMS</a> and <a href="../../delivery/using/about-mobile-app-channel.md">Push</a> deliveries. <br>&nbsp;</td>
+   <td>MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../delivery/using/sms-channel.md">SMS</a> and <a href="../../delivery/using/about-mobile-app-channel.md">Push</a> deliveries.</td>
    <td>18.4</td>
   </tr> 
    <tr> 
@@ -205,7 +205,7 @@ Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the fo
 
 Campaign Classic is not compatible with the following servers in Federated Data Access (FDA).
 
-* DB2 UDB 9.5, 9.7. More recent version of DB2 is  supported through Federated Data Access (FDA). [Learn more](http://www-01.ibm.com/support/docview.wss?uid=swg21168270).
+* DB2 UDB 9.5, 9.7. More recent version of DB2 is supported through Federated Data Access (FDA). [Learn more](http://www-01.ibm.com/support/docview.wss?uid=swg21168270).
 * Oracle 9i, 10G R2. More recent versions of Oracle are supported through Federated Data Access (FDA). [Learn more](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf).
 * PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. More recent versions of PostgreSQL are supported through Federated Data Access (FDA). [Learn more](https://www.postgresql.org/support/versioning).
 * MSSQL 2000, 2005, 2008 R2. More recent versions of SQL Server are supported through Federated Data Access (FDA). [Learn more](https://support.microsoft.com/en-us/lifecycle/search/1044).
