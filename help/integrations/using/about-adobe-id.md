@@ -25,9 +25,17 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID. T
 * Securer password management policy.
 * Use of Federated ID accounts (external ID provider).
 
-For more information on the different types of Adobe IDs, please consult: [https://helpx.adobe.com/en/enterprise/help/identity.html](https://helpx.adobe.com/en/enterprise/help/identity.html)
+Adobe’s identity management system helps admins create and manage user's access to applications and services. For more information on the different types of Adobe IDs, refer to [this page](https://helpx.adobe.com/enterprise/using/identity.html).
 
 >[!CAUTION]
 >
->The IMS implementation is strictly reserved to the Adobe technical administrators. The IMS implementation is a complex process which can take some time.
+>The IMS implementation is strictly reserved to the Adobe technical administrators. The IMS implementation is a complex process which can be long to implement.
+
+## Related topics
+
+| Useful pages | Additional resources |
+|---|---|
+| [Configuring IMS](../../integrations/using/configuring-ims.md) | [Experience Cloud FAQ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html) |
+| [Implementing IMS](../../integrations/using/implementing-ims.md) | [Access management](../../platform/using/access-management.md) |
+| [IMS Troubleshooting](../../integrations/using/ims-troubleshooting.md) |  [Installing Campaign packages](../../installation/using/installing-campaign-standard-packages.md) |
 

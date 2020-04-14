@@ -26,4 +26,14 @@ You can create an offer catalog that will interface with inbound and outbound ch
 
 Interaction lets you create and manage a catalog of offers, and configure the eligibility rules and application themes linked to them. Depending on the channel chosen, offer content can be personalized thanks to various rendering functions. Finally, you can use the simulation module to calculate the impact of an offer presentation.
 
+![](assets/Offermgt2.png)
+
 To familiarize yourself with the interaction feature and terminologies used in Campaign Interaction, watch this video: [Adobe Campaign Interaction overview](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com).
+
+## Related topics
+
+| Useful pages | Additional resources |
+|---|---|
+| [Interaction implementation steps](../../interaction/using/implementation-steps.md) | [Testing offer distribution](../../interaction/using/about-offers-simulation.md) |
+| [Live/Design environments](../../interaction/using/live-design-environments.md) | [Adding an offer in an email](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
+| [Creating offer spaces](../../interaction/using/creating-offer-spaces.md) |  [Use case: add an offer in a website](../../interaction/using/offers-on-an-inbound-channel.md)  |

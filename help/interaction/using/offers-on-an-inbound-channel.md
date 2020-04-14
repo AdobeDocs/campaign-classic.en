@@ -24,7 +24,7 @@ The Neobank site wants to display an offer on their website aimed at unidentifie
 
 To set up this interaction, we're going to:
 
-1. [Create an anonymous environement](#creating-an-anonymous-environment)
+1. [Create an anonymous environment](#creating-an-anonymous-environment)
 1. [Create anonymous offer spaces](#creating-anonymous-offer-spaces)
 1. [Create an offer category and a theme](#creating-an-offer-category-and-a-theme)
 1. [Create anonymous offers.](#creating-anonymous-offers)
