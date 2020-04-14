@@ -631,7 +631,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> Allows you to configure a separate database for working tables on Microsoft SQL Server. This optimizes backups and replication. <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)">Read more</a> <br /> </td> 
+   <td> Allows you to configure a separate database for working tables on Microsoft SQL Server, in order to optimize backups and replication. The option corresponds to the name of the temporary database: Work tables will be written in this database if specified. Example: 'tempdb.dbo.' (note that the name must end with a dot).</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)">Read more</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
