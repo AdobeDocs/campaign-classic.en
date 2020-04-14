@@ -55,6 +55,8 @@ For example, in the message above, the subject of the message is personalized fo
 >
 >The use of personalization fields is presented in [About personalization](../../delivery/using/about-personalization.md).
 
+You can insert emoticons in the subject of your email. To do so, click the emoticon pop-up. 
+
 ## Message content {#message-content}
 
 >[!CAUTION]
@@ -106,6 +108,15 @@ Messages are sent in HTML or text format by default, according to recipient pref
   As for the HTML format click the **[!UICONTROL Preview]** tab at the bottom of the page to view the rendering of the message with its personalization. 
 
   ![](assets/s_ncs_user_wizard_email01_142.png)
+
+### Inserting emoticons in an email 
+
+You can insert emoticons to your email content. 
+
+1. Click the emoticon pop-up. 
+1. Select an emoticon. 
+
+To customize the emoticon list, refer to [customizing the emoticon list]()
 
 ## Selecting message formats {#selecting-message-formats}
 
