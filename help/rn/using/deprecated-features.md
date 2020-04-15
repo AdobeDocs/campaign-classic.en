@@ -49,8 +49,8 @@ Customers are advised to review if they make use of the feature/capability in th
    <tr> 
    <td>Javascript SDK Security<br>&nbsp;</td>
    <td>decryptString<br>&nbsp;</td>
-   <td><p>For security reasons, decryptString API is no longer available by default for new installations.</p> 
-   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the decryptPassword function.</p><br>&nbsp;</td>
+   <td><p>For security reasons, <em>decryptString</em> API is no longer available by default for new installations.</p> 
+   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function.</p><br>&nbsp;</td>
   </tr> 
  </tbody> 
 </table>
@@ -122,7 +122,7 @@ This section lists features and capabilities that have been removed from Campaig
    <tr> 
    <td>Campaign APIs documentation - jsapi.chm file<br>&nbsp;</td>
    <td>Campaign Classic APIs are now available in a dedicated page. If you were using the jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
-   <td><19.1</td>
+   <td>19.1</td>
   </tr> 
   <tr> 
    <td>Campaign Orchestration - Predictive marketing</td>
