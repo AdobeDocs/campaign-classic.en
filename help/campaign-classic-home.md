@@ -12,6 +12,9 @@ topic: Premium
 
 ## What's New
 
+* **[Get Support](https://helpx.adobe.com/campaign/kb/ac-support.html)**</br>
+Access FAQs, best practices, help resources, and connect with Campaign experts and Customer Care team
+
 * **[Privacy Compliance](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 Learn how Adobe Campaign can help you with your Privacy compliance
 
