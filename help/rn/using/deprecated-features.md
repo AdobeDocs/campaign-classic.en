@@ -33,7 +33,7 @@ This process gives customers at least one release cycle to adapt their implement
 
 This section lists features and capabilities that have been marked as deprecated with latest Campaign Classic releases. 
 
-Generally, features that are planned to be removed in a future release are set to deprecated first, with an alternative provided. These features and capabilities are either no longer available for new Campaign Standard customers, or should not be used for any new implementation. They are also removed from product documentation.
+Generally, features that are planned to be removed in a future release are set to deprecated first, with an alternative provided. These features and capabilities are either no longer available for new Campaign Classic customers, or should not be used for any new implementation. They are also removed from product documentation.
 
 Customers are advised to review if they make use of the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided. Please refer to the target removal date to plan your environment and project updates accordingly.
 
@@ -42,62 +42,27 @@ Customers are advised to review if they make use of the feature/capability in th
 <table> 
  <tbody> 
   <tr> 
-   <td><strong>Area</strong></td>
-   <td><strong>Feature</strong></td> 
+   <td><strong>Feature</strong></td>
    <td><strong>Replacement</strong></td> 
   </tr> 
    <tr> 
-   <td>Javascript SDK Security<br>&nbsp;</td>
-   <td>decryptString<br>&nbsp;</td>
+   <td>decryptString API<br>&nbsp;</td>
    <td><p>For security reasons, <em>decryptString</em> API is no longer available by default for new installations.</p> 
-   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function.</p><br>&nbsp;</td>
+   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function. <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/f-decryptPassword.html?hl=decrypt">Learn more</a></p><br>&nbsp;</td>
   </tr> 
  </tbody> 
 </table>
-
-### Adobe Campaign 18.4 release {#ac-18-4-release}
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Area</strong></td>
-   <td><strong>Feature</strong></td> 
-   <td><strong>Replacement</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Email archiving<br>&nbsp;</td>
-   <td>File-based archiving<br>&nbsp;</td>
-   <td><p>Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a>.</p> 
-   <p><em>Target removal date: Campaign 20.2 release - June 2020</em></p><br>&nbsp;</td>
-  </tr> 
-   <tr> 
-   <td>Lead management<br>&nbsp;</td>
-   <td>Leads<br>&nbsp;</td>
-   <td><p>The Leads Management package in Adobe Campaign Classic simplified the process of building and maintaining the entire leads management life cycle. Similar functionality can be implemented via other native workflow activities and data model modifications.</p> 
-   <p><em>Target removal date: Campaign 20.2 release - June 2020</em></p><br>&nbsp;</td>
-  </tr> 
- </tbody> 
-</table>
-
 
 ## Deprecated compatibility {#deprecated-compatibility}
 
-### Adobe Campaign 20.1 release {#compat-20-1-release}
+The following systems are deprecated  for Campaign Classic. Please refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) to upgrade to a newer version or move to a new system before the compatibility ends.
 
-Starting 20.1 February Release, the following system is deprecated for Campaign Classic. Compatibility will end in 20.2 release - June 2020.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Area</strong></td>
-   <td><strong>Replacement</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Campaign Classic Client Console 32 bits<br>&nbsp;</td>
-   <td><p>Campaign Classic Client Console 64 bits</p><br>&nbsp;</td>
-  </tr> 
- </tbody> 
-</table>
+### Adobe Campaign 20.2 release {#compat-20-2-release}
+
+Starting 20.2 May Release, the following system is deprecated for Campaign Classic. Compatibility will end in 20.3 release - September 2020.
+
+* Client Console: Windows 7
 
 ### Adobe Campaign 19.2 release  {#compat-19-2-release}
 
@@ -106,48 +71,57 @@ Starting 19.2 Fall Release, the following operating systems are deprecated for C
 * Web Server: Apache 2.2. [Learn more](https://wiki.centos.org/About/Product)
 * Operating System: CentOS 6. [Learn more](https://wiki.centos.org/About/Product)
 
-Please refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) to upgrade to a newer version or move to a new system.
 
 ## Removed features {#removed-features}
 
-This section lists features and capabilities that have been removed from Campaign Standard.
+This section lists features and capabilities that have been removed from Campaign Classic.
 
 <table> 
  <tbody> 
   <tr> 
-   <td><strong>Area - Feature</strong></td>
+   <td><strong>Feature</strong></td>
    <td><strong>Replacement</strong></td> 
-   <td><strong>Version</strong></td> 
+   <td><strong>Removed in</strong></td> 
   </tr> 
    <tr> 
+   <td>File-based email archiving<br>&nbsp;</td>
+   <td><p>Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a>.</p> 
+   <td><p>20.2 release</p></td>
+  </tr> 
+   <tr> 
+   <td>Lead management<br>&nbsp;</td>
+   <td><p>The Leads Management package in Adobe Campaign Classic simplified the process of building and maintaining the entire leads management life cycle. Similar functionality can be implemented via other native workflow activities and data model modifications.</p> 
+   <td><p>20.2 release</p></td>
+   </tr>
+   <tr>
    <td>Campaign APIs documentation - jsapi.chm file<br>&nbsp;</td>
    <td>Campaign Classic APIs are now available in a dedicated page. If you were using the jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
-   <td>19.1</td>
+   <td><p>19.1 release</p></td>
   </tr> 
   <tr> 
    <td>Campaign Orchestration - Predictive marketing</td>
    <td>A large part of predictive marketing capabilities in Adobe Campaign Classic has been the consumption of predictive models. Although the predictive marketing workflow activity will be removed in an upcoming version, Adobe Campaign will continue to support the consumption and use of predictive models from external sources through other workflow activities.</td>
-   <td>18.10</td>
+   <td>18.10 release</td>
   </tr> 
   <tr> 
    <td>Web applications - Microsites</td>
    <td>Improve security by restricting access to only dedicated domains on Adobe Campaign configuration files. You can still use personalized URLs in Campaign by using DNS aliases. <a href="https://helpx.adobe.com/campaign/kb/domain-name-delegation.html">Learn more</a>.</td>
-   <td>18.10</td>
+   <td>18.10 release</td>
   </tr> 
   <tr> 
    <td>Push Notifications - iOS Binary Connector<br>&nbsp;</td>
    <td>Per Apple's recommendation, Adobe will be removing the legacy iOS Binary Connector. The more capable and more efficient HTTP/2-based connector is already available.</td>
-   <td>18.10</td>
+   <td>18.10 release</td>
   </tr> 
    <tr> 
    <td>Mobile channel - MMS and WAP Push messages</td>
    <td>MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../delivery/using/sms-channel.md">SMS</a> and <a href="../../delivery/using/about-mobile-app-channel.md">Push</a> deliveries.</td>
-   <td>18.4</td>
+   <td>18.4 release</td>
   </tr> 
    <tr> 
    <td>Mobile channel - LINE v1</td>
    <td>LINE Connect package is no longer available for installation in Adobe Campaign Classic. Adobe recommends using the new LINE Channel package to send LINE messages. <a href="../../delivery/using/line-channel.md">Learn more</a>.</td>
-   <td>18.4</td>
+   <td>18.4 release</td>
   </tr> 
  </tbody> 
 </table>
@@ -164,6 +138,10 @@ Adobe Campaign Classic Client Console can no longer run on the following systems
 
 * Windows Server 2003, 2008, 2008 R2
 * Windows XP, Vista
+
+>[!NOTE]
+>Starting Campaign 20.1 release, Campaign Classic Client Console 32 bits is no longer compatible with Campaign latest versions. You need to use 64 bits Client Console.
+
 
 ### Operating systems {#o-s-eol}
 
