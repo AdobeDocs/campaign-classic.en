@@ -346,7 +346,7 @@ The connector also supports the following Hive options:
    User/Password: admin/<your password here>
    ```
 
-1. Create the Hadoop external account, as detailed in [this page](../../platform/usingexternal-accounts.md#hadoop-external-account) section.
+1. Create the Hadoop external account, as detailed in [this page](../../platform/using/external-accounts.md#hadoop-external-account) section.
 
 ### For Linux {#for-linux}
 
