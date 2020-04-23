@@ -346,7 +346,7 @@ The connector also supports the following Hive options:
    User/Password: admin/<your password here>
    ```
 
-1. Create the Hadoop external account, as detailed in the [Creating a shared connection](../../message-center/using/creating-a-shared-connection.md) section.
+1. Create the Hadoop external account, as detailed in [this page](../../platform/usingexternal-accounts.md#hadoop-external-account) section.
 
 ### For Linux {#for-linux}
 
@@ -434,7 +434,7 @@ The connector also supports the following Hive options:
    isql vorac -v
    ```
 
-1. Create the Hadoop external account, as detailed in the [Creating a shared connection](../../message-center/using/creating-a-shared-connection.md) section.
+1. Create the Hadoop external account, as detailed in [this page](../../platform/using/external-accounts.md#hadoop-external-account) section.
 
 ## Configure access to Netezza {#configure-access-to-netezza}
 
@@ -483,7 +483,21 @@ Connecting to a Netezza external database in FDA requires additional configurati
     * **ODBCINI**: location of the odbc.ini file (for example /etc/odbc.ini).
     * **NZ_ODBC_INI_PATH**: location of the odbc.ini file. Netezza also requires this second variable for using the odbc.ini file.
 
-1. Create the Netezza external account, as detailed in the [Creating a shared connection](../../message-center/using/creating-a-shared-connection.md) section.
+1. In Campaign Classic, you can then configure your Netezza external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+
+1. Click **[!UICONTROL New]** and select **[!UICONTROL External database]** as **[!UICONTROL Type]**.
+
+1. To configure the **[!UICONTROL Netezza]** external account, you must specify:
+
+     * **[!UICONTROL Type]**: Netezza
+
+    * **[!UICONTROL Server]**: URL of the Netezza server
+
+    * **[!UICONTROL Account]**: Name of the user
+
+    * **[!UICONTROL Password]**: User account password
+
+    * **[!UICONTROL Database]**: Name of the database
 
 >[!NOTE]
 >
@@ -580,7 +594,21 @@ Connecting to a Sybase IQ external database in FDA requires additional configura
     * If you are using a customer.sh file to declare your path: add the path /opt/sybase/IQ-16_0/lib64 for the LD_LIBRARY_PATH variable.
     * Otherwise, use a Unix command.
 
-1. Create a new FDA external account, as described in the [Creating a shared connection](../../message-center/using/creating-a-shared-connection.md) section. For Sybase IQ, the server name corresponds to the ODBC connection (`<server_alias>`) defined in step 5. It is not necessarily the name of the server itself.
+1. In Campaign Classic, you can then configure your Sybase IQ external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+
+1. Click **[!UICONTROL New]** and select **[!UICONTROL External database]** as **[!UICONTROL Type]**.
+
+1. To configure the **[!UICONTROL Sybase IQ]** external account, you must specify:
+
+     * **[!UICONTROL Type]**: ODBC (Sybase ASE, Sybase IQ)
+
+    * **[!UICONTROL Server]**: Corresponds to the ODBC connection (`<server_alias>`) defined in step 5. Not necessarily the name of the server itself.
+
+    * **[!UICONTROL Account]**: Name of the user
+
+    * **[!UICONTROL Password]**: User account password
+
+    * **[!UICONTROL Database]**: Name of the database
 
 >[!NOTE]
 >
@@ -629,6 +657,22 @@ Connecting to a Teradata external database in FDA requires certain additional co
     * **ODBCINI**: location of the odbc.ini file (for example /etc/odbc.ini).
     * **NLSPATH**: location of the opermsgs.cat file (/opt/teradata/client/15.10/msg/opermsgs.cat)
 
+1. In Campaign Classic, you can then configure your Teradata external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+
+1. Click **[!UICONTROL New]** and select **[!UICONTROL External database]** as **[!UICONTROL Type]**.
+
+1. To configure the **[!UICONTROL Teradata]** external account, you must specify:
+
+     * **[!UICONTROL Type]**: Teradata
+
+    * **[!UICONTROL Server]**: URL of the Teradata server
+
+    * **[!UICONTROL Account]**: Name of the user
+
+    * **[!UICONTROL Password]**: User account password
+
+    * **[!UICONTROL Database]**: Name of the database
+
 ## Configure access to SAP HANA {#configure-access-to-sap-hana}
 
 Connecting to an SAP HANA external database in FDA requires certain additional configurations on the Adobe Campaign server:
@@ -667,4 +711,16 @@ Connecting to an SAP HANA external database in FDA requires certain additional c
     * **LD_LIBRARY_PATH**: It should include the link to your SAP Hana client (/usr/sap/hdbclient/libodbcHDB.so) by default).
     * **ODBCINI**: location of the odbc.ini file (for example /etc/odbc.ini).
 
-1. Create the SAP Hana external account, as detailed in the [Creating a shared connection](../../message-center/using/creating-a-shared-connection.md) section.
+1. In Campaign Classic, you can then configure your SAP Hana external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+
+1. Click **[!UICONTROL New]** and select **[!UICONTROL External database]** as **[!UICONTROL Type]**.
+
+1. To configure the **[!UICONTROL SAP Hana]** external account, you must specify:
+
+     * **[!UICONTROL Type]**: SAP Hana
+
+    * **[!UICONTROL Server]**: URL of the SAP Hana server
+
+    * **[!UICONTROL Account]**: Name of the user
+
+    * **[!UICONTROL Password]**: User account password
