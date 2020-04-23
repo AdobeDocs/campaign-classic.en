@@ -53,25 +53,6 @@ Customers are advised to review if they make use of the feature/capability in th
  </tbody> 
 </table>
 
-## Deprecated compatibility {#deprecated-compatibility}
-
-The following systems are deprecated  for Campaign Classic. Please refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) to upgrade to a newer version or move to a new system before the compatibility ends.
-
-
-### Adobe Campaign 20.2 release {#compat-20-2-release}
-
-Starting 20.2 May Release, the following system is deprecated for Campaign Classic. Compatibility will end in 20.3 release - September 2020.
-
-* Client Console: Windows 7
-
-### Adobe Campaign 19.2 release  {#compat-19-2-release}
-
-Starting 19.2 Fall Release, the following operating systems are deprecated for Campaign Classic. Compatibility will end in 2020 EOY.
-
-* Web Server: Apache 2.2. [Learn more](https://wiki.centos.org/About/Product)
-* Operating System: CentOS 6. [Learn more](https://wiki.centos.org/About/Product)
-
-
 ## Removed features {#removed-features}
 
 This section lists features and capabilities that have been removed from Campaign Classic.
@@ -125,6 +106,23 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
  </tbody> 
 </table>
+
+## Deprecated compatibility {#deprecated-compatibility}
+
+The following systems are deprecated  for Campaign Classic. Please refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) to upgrade to a newer version or move to a new system before the compatibility ends.
+
+### Adobe Campaign 20.2 release {#compat-20-2-release}
+
+Starting 20.2 May Release, the following system is deprecated for Campaign Classic. Compatibility will end in 20.3 release - September 2020.
+
+* Client Console: Windows 7
+
+### Adobe Campaign 19.2 release  {#compat-19-2-release}
+
+Starting 19.2 Fall Release, the following operating systems are deprecated for Campaign Classic. Compatibility will end in 2020 EOY.
+
+* Web Server: Apache 2.2. [Learn more](https://wiki.centos.org/About/Product)
+* Operating System: CentOS 6. [Learn more](https://wiki.centos.org/About/Product)
 
 ## End of compatibility {#end-of-compatibility}
 
