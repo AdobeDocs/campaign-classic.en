@@ -70,9 +70,9 @@ _13 August 2019_
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) **April 6th 2020**: new build (9032&#64;22a555d) which includes the following fix:
+![](assets/green_2.png) **April 27th 2020**: new build (9032&#64;??) which includes the following fix:
 
-* Improved security on tracking links in email. This mechanism is currently disabled by default. Please contact Customer Care if you need to activate it.
+* Improved security on tracking links in email. This mechanism is enabled by default for hosted customers. Non-Hosted customers can enable it by following the steps [here](https://helpx.adobe.com/campaign/kb/acc-security.html).
 
 ![](assets/orange_2.png) **March 5th 2020**: new build (9032&#64;19f73c5) which includes the following fix:
 
