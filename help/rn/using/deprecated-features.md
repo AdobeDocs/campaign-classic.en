@@ -46,7 +46,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <tr> 
    <td>ACS Connector<br>&nbsp;</td>
    <td><p>Starting 20.2 release, ACS Connector (Prime offering) is deprecated and no longer available for new installations.</p> 
-   <p>XXX</p>
+   <p>If you are using this capability, you need to work with your Adobe executive to identify best option to use as a remplacement and adapt your implementation accordingly.</p>
    <p><em>Target removal date: 2021</em></p></td>
   </tr> 
  </tbody> 
