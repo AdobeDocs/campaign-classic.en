@@ -37,8 +37,6 @@ Generally, features that are planned to be removed in a future release are set t
 
 Customers are advised to review if they make use of the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided. Please refer to the target removal date to plan your environment and project updates accordingly.
 
-### Adobe Campaign 18.6 release {#ac-18-6-release}
-
 <table> 
  <tbody> 
   <tr> 
@@ -46,9 +44,10 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><strong>Replacement</strong></td> 
   </tr> 
    <tr> 
-   <td>decryptString API<br>&nbsp;</td>
-   <td><p>For security reasons, <em>decryptString</em> API is no longer available by default for new installations.</p> 
-   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function. <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/f-decryptPassword.html?hl=decrypt">Learn more</a></p><br>&nbsp;</td>
+   <td>ACS Connector<br>&nbsp;</td>
+   <td><p>Starting 20.2 release, ACS Connector (Prime offering) is deprecated and no longer available for new installations.</p> 
+   <p>XXX</p>
+   <p><em>Target removal date: 2021</em></p></td>
   </tr> 
  </tbody> 
 </table>
@@ -62,47 +61,43 @@ This section lists features and capabilities that have been removed from Campaig
   <tr> 
    <td><strong>Feature</strong></td>
    <td><strong>Replacement</strong></td> 
-   <td><strong>Removed in</strong></td> 
   </tr> 
    <tr> 
    <td>File-based email archiving<br>&nbsp;</td>
-   <td><p>Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a>.</p> 
-   <td><p>20.2 release</p></td>
+   <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a>.</p> 
   </tr> 
    <tr> 
    <td>Lead management<br>&nbsp;</td>
-   <td><p>The Leads Management package in Adobe Campaign Classic simplified the process of building and maintaining the entire leads management life cycle. Similar functionality can be implemented via other native workflow activities and data model modifications.</p> 
-   <td><p>20.2 release</p></td>
+   <td><p>Starting Campaign 20.2 release, the Leads Management package is no longer available. Similar functionality can be implemented via other native workflow activities and data model modifications.</p> 
    </tr>
    <tr>
    <td>Campaign APIs documentation - jsapi.chm file<br>&nbsp;</td>
-   <td>Campaign Classic APIs are now available in a dedicated page. If you were using the jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
-   <td><p>19.1 release</p></td>
+   <td>Starting Campaign 19.1 release, Campaign Classic APIs are available in a dedicated page. If you were using the legacy jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
   </tr> 
   <tr> 
    <td>Campaign Orchestration - Predictive marketing</td>
-   <td>A large part of predictive marketing capabilities in Adobe Campaign Classic has been the consumption of predictive models. Although the predictive marketing workflow activity will be removed in an upcoming version, Adobe Campaign will continue to support the consumption and use of predictive models from external sources through other workflow activities.</td>
-   <td>18.10 release</td>
+   <td>Starting Campaign 18.10 release, the predictive marketing capabilities are no longer available.</td>
   </tr> 
   <tr> 
    <td>Web applications - Microsites</td>
-   <td>Improve security by restricting access to only dedicated domains on Adobe Campaign configuration files. You can still use personalized URLs in Campaign by using DNS aliases. <a href="https://helpx.adobe.com/campaign/kb/domain-name-delegation.html">Learn more</a>.</td>
-   <td>18.10 release</td>
+   <td>Starting Campaign 18.10 release, Microsites are no longer available. You can improve security by restricting access to only dedicated domains on Adobe Campaign configuration files, and use personalized URLs in Campaign by using DNS aliases. <a href="https://helpx.adobe.com/campaign/kb/domain-name-delegation.html">Learn more</a>.</td>
   </tr> 
   <tr> 
    <td>Push Notifications - iOS Binary Connector<br>&nbsp;</td>
-   <td>Per Apple's recommendation, Adobe will be removing the legacy iOS Binary Connector. The more capable and more efficient HTTP/2-based connector is already available.</td>
-   <td>18.10 release</td>
+   <td>Per Apple's recommendation, Adobe has removed the legacy iOS Binary Connector starting Campaign 18.10 release. The more capable and more efficient HTTP/2-based connector is already available.</td>
+  </tr> 
+  <tr> 
+   <td>decryptString API<br>&nbsp;</td>
+   <td><p>Starting Campaign  18.6 release, for security reasons, <em>decryptString</em> API is no longer available by default for new installations.</p> 
+   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function. <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/f-decryptPassword.html?hl=decrypt">Learn more</a></p></td>
   </tr> 
    <tr> 
    <td>Mobile channel - MMS and WAP Push messages</td>
-   <td>MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../delivery/using/sms-channel.md">SMS</a> and <a href="../../delivery/using/about-mobile-app-channel.md">Push</a> deliveries.</td>
-   <td>18.4 release</td>
+   <td>Starting Campaign 18.4 release, MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../delivery/using/sms-channel.md">SMS</a> and <a href="../../delivery/using/about-mobile-app-channel.md">Push</a> deliveries.</td>
   </tr> 
    <tr> 
    <td>Mobile channel - LINE v1</td>
-   <td>LINE Connect package is no longer available for installation in Adobe Campaign Classic. Adobe recommends using the new LINE Channel package to send LINE messages. <a href="../../delivery/using/line-channel.md">Learn more</a>.</td>
-   <td>18.4 release</td>
+   <td>Starting Campaign 18.4 release, LINE Connect package is no longer available. Adobe recommends using the new LINE Channel package as a replacement. <a href="../../delivery/using/line-channel.md">Learn more</a>.</td>
   </tr> 
  </tbody> 
 </table>
