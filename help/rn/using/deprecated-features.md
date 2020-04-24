@@ -48,7 +48,24 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><p>Starting 20.2 release, ACS Connector (Prime offering) is deprecated and no longer available for new installations.</p> 
    <p>If you are using this capability, you need to work with your Adobe executive to identify best option to use as a remplacement and adapt your implementation accordingly.</p>
    <p><em>Target removal date: 2021</em></p></td>
-  </tr> 
+  </tr>
+  <tr>
+  <td>SMS connectors<br>&nbsp;</td>
+  <td><p> Starting 20.2 release, the following SMS connectors are deprecated.<p>
+   <ul>
+   <li>NetSize</li>
+   <li>Generic SMPP (SMPP version 3.4 supporting binary mode)</li>
+   <li>Sybase365 (SAP SMS 365)</li>
+   <li>CLX Communications</li>
+   <li>Tele2</li>
+   <li>O2</li>
+   <li>iOS</li>
+   </ul>
+  <p>These connectors are compatible with the recommended Extended SMPP connector. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html">Learn more</a>.</p> 
+  <p>
+     <em>Target removal date: 2021</em></p>
+  </td> 
+ </tr>
  </tbody> 
 </table>
 
