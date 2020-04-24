@@ -1556,7 +1556,7 @@ Here are the different parameters of the **mta** node. This is the configuration
   </tr> 
   <tr> 
    <td> useMomentum<br /> </td> 
-   <td> If set to "true", your instance is using the <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html" target="_blank">Enhanced MTA</a>.<br /> </td> 
+   <td> If set to "true", your instance is using the <a href="https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html" target="_blank">Enhanced MTA</a>.<br /> </td> 
    <td> Boolean<br /> </td> 
    <td> <br /> </td>b 
   </tr>

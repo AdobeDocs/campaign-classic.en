@@ -19,6 +19,7 @@ sub-product: adobe campaign classic
     + [Release 18.10](rn/using/release--18-10.md)
     + [Release 18.6](rn/using/release--18-6.md)
     + [Release 18.4](rn/using/release--18-4.md)
+  + [Deprecated features](rn/using/deprecated-features.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -382,17 +383,22 @@ sub-product: adobe campaign classic
        + [Inbound Emails](workflow/using/inbound-emails.md)
        + [Inbound SMS](workflow/using/inbound-sms.md)
   + Use cases {#use-cases}
-       + [Using the local approval activity](workflow/using/using-the-local-approval-activity.md)
-       + [Sending a report to a list](workflow/using/sending-a-report-to-a-list.md)
-       + [Supervising workflows](workflow/using/supervising-workflows.md)
-       + [Coordinating data updates](workflow/using/coordinating-data-updates.md)
-       + [Creating a summary list](workflow/using/creating-a-summary-list.md)
-       + [Enriching data](workflow/using/enriching-data.md)
-       + [A/B testing](workflow/using/a-b-testing.md)
-       + [Using aggregates](workflow/using/using-aggregates.md)
-       + [Sending a birthday email](workflow/using/sending-a-birthday-email.md)
-       + [Loading delivery content](workflow/using/loading-delivery-content.md)
-       + [Cross-channel delivery workflow](workflow/using/cross-channel-delivery-workflow.md)
+       + Deliveries {#deliveries}
+          + [Using the local approval activity](workflow/using/using-the-local-approval-activity.md)
+          + [A/B testing](workflow/using/a-b-testing.md)
+          + [Sending a birthday email](workflow/using/sending-a-birthday-email.md)
+          + [Loading delivery content](workflow/using/loading-delivery-content.md)
+          + [Cross-channel delivery workflow](workflow/using/cross-channel-delivery-workflow.md)
+          + [Email enrichment with custom date fields](workflow/using/email-enrichment-with-custom-date-fields.md)
+       + Monitoring {#monitoring}
+          + [Sending a report to a list](workflow/using/sending-a-report-to-a-list.md)
+          + [Supervising workflows](workflow/using/supervising-workflows.md)
+          + [Sending personalized alerts to operators](workflow/using/sending-personalized-alerts-to-operators.md)
+       + Data management {#data-management}   
+          + [Coordinating data updates](workflow/using/coordinating-data-updates.md)
+          + [Creating a summary list](workflow/using/creating-a-summary-list.md)
+          + [Enriching data](workflow/using/enriching-data.md) 
+          + [Using aggregates](workflow/using/using-aggregates.md)
        + Designing queries {#designing-queries}
           + [Querying the recipient table](workflow/using/querying-recipient-table.md)
           + [Querying delivery information](workflow/using/querying-delivery-information.md)
@@ -402,8 +408,6 @@ sub-product: adobe campaign classic
           + [Adding an enumeration type calculated field](workflow/using/adding-enumeration-type-calculated-field.md)
           + [Creating a filter](workflow/using/creating-a-filter.md)
           + [Filtering duplicated recipients](workflow/using/filtering-duplicated-recipients.md)
-       + [Sending personalized alerts to operators](workflow/using/sending-personalized-alerts-to-operators.md)
-       + [Email enrichment with custom date fields](workflow/using/email-enrichment-with-custom-date-fields.md)
   + Monitoring workflows {#monitoring-workflows}
        + [Monitoring workflow execution](workflow/using/monitoring-workflow-execution.md)
        + [Monitoring technical workflows](workflow/using/monitoring-technical-workflows.md)
