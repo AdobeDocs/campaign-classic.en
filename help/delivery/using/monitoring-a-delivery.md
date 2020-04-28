@@ -20,12 +20,12 @@ snippet: y
 
 The **delivery dashboard** is key to monitor your deliveries and eventual issues encountered during the sending of messages.
 
-**Related topics**
+**Related topics:**
 
 * [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 * [Understanding quarantine management](../../delivery/using/understanding-quarantine-management.md)
-* [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html)
-* [Getting started: Managing deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html)
+* [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Managing deliverability](../../delivery/using/about-deliverability.md)
 
 ## Delivery dashboard {#delivery-dashboard}
 
