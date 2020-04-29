@@ -23,10 +23,10 @@ snippet: y
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green3.png"/><strong>General Availability</strong></td>
-   <td><img src="assets/blue3.png"/><strong>Release Candidate</strong></td> 
-   <td><img src="assets/orange3.png"/><strong>No longer available</strong></td> 
-   <td><img src="assets/red3.png"/><strong>Deprecated</strong></td> 
+   <td><img src="assets/do-not-localize/green3.png"/><strong>General Availability</strong></td>
+   <td><img src="assets/do-not-localize/blue3.png"/><strong>Release Candidate</strong></td> 
+   <td><img src="assets/do-not-localize/orange3.png"/><strong>No longer available</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>Deprecated</strong></td> 
   </tr> 
    <tr> 
    <td>Latest stable build available. Build validated in production.<br>&nbsp;</td>
@@ -37,9 +37,9 @@ snippet: y
  </tbody> 
 </table>
 
-The **last stable build** is 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/orange_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
+## ![](assets/do-not-localize/orange_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
@@ -55,7 +55,7 @@ _3 October 2019_
 * Fixed an issue which could lead to certain messages not being processed by the Mid-Sourcing server. (NEO-12395)
 * Fixed an issue which prevented the full use of the SQL Data Management activity (the "SQL Data Management" named right was missing).
 
-## ![](assets/orange_2.png) Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
+## ![](assets/do-not-localize/orange_2.png) Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
 _13 August 2019_
 
@@ -70,31 +70,35 @@ _13 August 2019_
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) **March 5th 2020**: new build (9032-...205c981c3) which includes the following fix:
+![](assets/do-not-localize/green_2.png) **April 29th 2020**: new build (9032&#64;3a9dc9c) which includes the following fix:
+
+* Improved security on tracking links in email. This is enabled by default for all customers. An additional, enhanced security feature is available which can be enabled by reaching out to Customer Care. More details on the feature and steps for non-hosted customers to enable it can be found in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
+* Fixed an issue which could prevent images from being displayed on Line deliveries. (NEO-23207)
+
+![](assets/do-not-localize/orange_2.png) **March 5th 2020**: new build (9032&#64;19f73c5) which includes the following fix:
 
 * Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
 
-![](assets/orange_2.png) **December 17th 2019**: new build (9032-...9d34fb17e) which includes the following fix:
+![](assets/do-not-localize/orange_2.png) **December 17th 2019**: new build (9032&#64;d6b8062) which includes the following fix:
 
-* Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter).
- (NEO-19595)
+* Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter). (NEO-19595)
 
-![](assets/orange_2.png) **December 11th 2019**: new build (9032-...e28b428b7) which includes the following fix:
+![](assets/do-not-localize/orange_2.png) **December 11th 2019**: new build (9032&#64;bc4a935) which includes the following fix:
 
 * Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
 
-![](assets/orange_2.png) **November 20th 2019**: new build (9032-...3468c7bb5) which includes the following fixes:
+![](assets/do-not-localize/orange_2.png) **November 20th 2019**: new build (9032&#64;3468c7b) which includes the following fixes:
 
 * Fixed a login issue via IMS authentication. (NEO-17312)
 * Fixed an issue when displaying cumulative reports on multiple deliveries. (NEO-18165)
 * Fixed an issue that could block or make the web server crash.
 
-![](assets/orange_2.png) **September 19th 2019**: new build (9032-...cee805c93) which includes the following fixes:
+![](assets/do-not-localize/orange_2.png) **September 19th 2019**: new build (9032&#64;cee805c) which includes the following fixes:
 
 * Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
 * Fixed an index issue which could cause performance issues when sending transactional messages.
 
-![](assets/orange_2.png) **August 13th 2019**: initial 19.1.4 build which includes the following fixes:
+![](assets/do-not-localize/orange_2.png) **August 13th 2019**: initial 19.1.4 build which includes the following fixes:
 
 * Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
 * Fixed a regression caused by the NEO-12727 which could lead to workflows being stopped when a Test activity was executed twice. (NEO-16835) 
@@ -102,7 +106,7 @@ _13 August 2019_
 * Fixed an issue with the DKIM key which was not embedded into emails anymore, thus causing deliverability issues. (NEO-16804) 
 * Fixed various issues with workflow scheduling. Workflows were scheduled to be executed once a day without taking into account the scheduler configuration. (NEO-16619, NEO-16426)
 
-## ![](assets/orange_2.png) Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}
+## ![](assets/do-not-localize/orange_2.png) Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}
 
 _21 June 2019_
 
@@ -118,7 +122,7 @@ _21 June 2019_
 * We now allow the deletion of dummy records created in Microsoft Dynamics during import workflow.
 * Improved permissions to execute the security zone package when using internal account.
 
-## ![](assets/orange_2.png) Release 19.1 - Build 9026{#release-19-1-build-9026}
+## ![](assets/do-not-localize/orange_2.png) Release 19.1 - Build 9026{#release-19-1-build-9026}
 
 _30 May 2019_
 
