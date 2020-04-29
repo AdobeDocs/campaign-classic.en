@@ -86,4 +86,4 @@ You can choose the time slot for which the throughput is calculated. To do this,
 >
 >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Delivery throughput]** page will no longer display the throughput to your email recipients. It will show the throughput speed for the relay of your messages from Campaign over to the Enhanced MTA.
 >
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
