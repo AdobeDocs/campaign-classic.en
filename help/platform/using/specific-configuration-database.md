@@ -144,13 +144,13 @@ As a general rule, you need to install the corresponding client layer on the ext
 
 >[!NOTE]
 >
->Snowflake connector is available for hosted and on-premise deployments. For more on this, refer to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>[!DNL Snowflake] connector is available for hosted and on-premise deployments. For more on this, refer to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ![](assets/snowflake_3.png)
 
 ### Snowflake on CentOS {#snowflake-centos}
 
-1. Download the ODBC drivers for Snowflake. [Click here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) to start downloading.
+1. Download the ODBC drivers for [!DNL Snowflake]. [Click here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) to start downloading.
 1. You then need to install the ODBC drivers on CentOs with the following command:
 
      ```
@@ -165,13 +165,13 @@ As a general rule, you need to install the corresponding client layer on the ext
     /etc/init.d/nlserver6 start
      ```
 
-1. In Campaign Classic, you can then configure your Snowflake external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+1. In Campaign Classic, you can then configure your [!DNL Snowflake] external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. Select the built-in **[!UICONTROL Snowflake]** external account.
 
 1. Configure the **[!UICONTROL Snowflake]** external account, you must specify:
 
-    * **[!UICONTROL Server]**: URL of the Snowflake server
+    * **[!UICONTROL Server]**: URL of the [!DNL Snowflake] server
 
     * **[!UICONTROL Account]**: Name of the user
 
@@ -197,7 +197,7 @@ The connector supports the following options:
 
 ### Snowflake on Debian {#snowflake-debian}
 
-1. Download the ODBC drivers for Snowflake. [Click here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) start downloading.
+1. Download the ODBC drivers for [!DNL Snowflake]. [Click here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) start downloading.
 
 1. You then need to install the ODBC drivers on Debian with the following command:
 
@@ -213,13 +213,13 @@ The connector supports the following options:
     systemctl start nlserver.service
      ```
      
-1. In Campaign Classic, you can then configure your Snowflake external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+1. In Campaign Classic, you can then configure your [!DNL Snowflake] external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. Select the built-in **[!UICONTROL Snowflake]** external account.
 
 1. To configure the **[!UICONTROL Snowflake]** external account, you must specify:
 
-    * **[!UICONTROL Server]**: URL of the Snowflake server
+    * **[!UICONTROL Server]**: URL of the [!DNL Snowflake] server
 
     * **[!UICONTROL Account]**: Name of the user
 
@@ -249,13 +249,13 @@ The connector supports the following options:
 
 1. Configure the ODBC driver. For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
 
-1. In Campaign Classic, you can then configure your Snowflake external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+1. In Campaign Classic, you can then configure your [!DNL Snowflake] external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. Select the built-in **[!UICONTROL Snowflake]** external account.
 
 1. To configure the **[!UICONTROL Snowflake]** external account, you must specify:
 
-    * **[!UICONTROL Server]**: URL of the Snowflake server
+    * **[!UICONTROL Server]**: URL of the [!DNL Snowflake] server
 
     * **[!UICONTROL Account]**: Name of the user
 
