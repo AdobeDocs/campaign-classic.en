@@ -23,10 +23,10 @@ snippet: y
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green3.png"/><strong>General Availability</strong></td>
-   <td><img src="assets/blue3.png"/><strong>Release Candidate</strong></td> 
-   <td><img src="assets/orange3.png"/><strong>No longer available</strong></td> 
-   <td><img src="assets/red3.png"/><strong>Deprecated</strong></td> 
+   <td><img src="assets/do-not-localize/green3.png"/><strong>General Availability</strong></td>
+   <td><img src="assets/do-not-localize/blue3.png"/><strong>Release Candidate</strong></td> 
+   <td><img src="assets/do-not-localize/orange3.png"/><strong>No longer available</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>Deprecated</strong></td> 
   </tr> 
    <tr> 
    <td>Latest stable build available. Build validated in production.<br>&nbsp;</td>
@@ -39,7 +39,7 @@ snippet: y
 
 The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/orange_2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
+## ![](assets/do-not-localize/orange_2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
 
 _February 07, 2020_
 
@@ -48,7 +48,7 @@ _February 07, 2020_
 * Fixed a regression issue due to the implementation of SSL certification which caused the user connection to fail on Windows server. (NEO-20629)
 * Fixed an issue which displayed an incorrect version tag number in the **About** menu.
 
-## ![](assets/orange_2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
+## ![](assets/do-not-localize/orange_2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
 _December 02, 2019_
 
