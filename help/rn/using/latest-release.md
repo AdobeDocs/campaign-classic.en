@@ -35,7 +35,7 @@ snippet: y
  </tbody> 
 </table>
 
-The **last stable build** is 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/blue_2.png) Release 20.1.2 - Build 9123 {#release-20-1-2-build-9123}
 
