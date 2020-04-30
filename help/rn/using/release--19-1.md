@@ -74,6 +74,17 @@ _13 August 2019_
 
 * Improved security on tracking links in email. This is enabled by default for all customers. An additional, enhanced security feature is available which can be enabled by reaching out to Customer Care. More details on the feature and steps for non-hosted customers to enable it can be found in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
 * Fixed an issue which could prevent images from being displayed on Line deliveries. (NEO-23207)
+* Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183) 
+* Fixed an issue which could affect push notification when sent at a high frequency. (NEO-20516)
+* Fixed an issue in offer response management which could lead to web server crashes. (NEO-19482)
+* Fixed an error in LibreOffice management which prevented you from exporting reports. (NEO-20982)
+* Fixed an issue which caused an error when upgrading numerous workflows using a survey activity. 
+* Improved LibreOffice management to avoid failures on email preview with .odt files. 
+* Improved the management of Apache connection to avoid latency on web service.
+* Improved the display of version tag (7 digit) in the **About** menu.
+* Fixed a regression in list management preventing offers from being published.
+* Fixed a regression causing the cleanup workflow to crash. 
+* Fixed a minor regression in the cleanup workflow logs.
 
 ![](assets/do-not-localize/orange_2.png) **March 5th 2020**: new build (9032&#64;19f73c5) which includes the following fix:
 
