@@ -78,14 +78,14 @@ _13 August 2019_
 * Fixed an issue which could affect push notification when sent at a high frequency. (NEO-20516)
 * Fixed an issue in offer response management which could lead to web server crashes. (NEO-19482)
 * Fixed an error in LibreOffice management which prevented you from exporting reports. (NEO-20982)
-* Fixed an issue which caused an error when upgradring numerous workflows using a survey activity. (NEO-23213) 
-* Improved LibreOffice management to avoid failures on email preview with .odt files. (NEO-18670)
-* Improved the management of Apache connection to avoid latency on web service. (NEO-18310)
-* Improved the dipslay of version tag (7 digit) in the **About** menu. (NEO-20687) 
-* Fixed a regression in list management preventing offers from being published. (NEO-23312)
-* Fixed a regression causing the cleanup workflow to crash. (NEO-22939) 
-* Fixed a minor regression in the cleanup workflow logs. (NEO-23219)
-* Fixed a regression which prevented images from being sent in a Line delivery. (NEO-23799)
+* Fixed an issue which caused an error when upgradring numerous workflows using a survey activity. 
+* Improved LibreOffice management to avoid failures on email preview with .odt files. 
+* Improved the management of Apache connection to avoid latency on web service.
+* Improved the dipslay of version tag (7 digit) in the **About** menu.
+* Fixed a regression in list management preventing offers from being published.
+* Fixed a regression causing the cleanup workflow to crash. 
+* Fixed a minor regression in the cleanup workflow logs.
+* Fixed a regression which prevented images from being sent in a Line delivery.
 
 ![](assets/do-not-localize/orange_2.png) **March 5th 2020**: new build (9032&#64;19f73c5) which includes the following fix:
 
