@@ -76,9 +76,7 @@ If the problem persists, contact the commercial or deliverability services, Adob
 
     Generally, the result of the IP address check will return a list that contains details of the blacklist and also the name of the web site that blacklisted the IP address.
 
-    By clicking the corresponding link, you can access the web site details.
-
-    Then, you can request that your web site be delisted from the web site that blacklisted the IP address.
+    By clicking the corresponding link, you can access the web site details. Then, you can request that your web site be delisted from the web site that blacklisted the IP address.
 
     >[!NOTE]
     >
