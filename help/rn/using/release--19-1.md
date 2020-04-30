@@ -85,7 +85,6 @@ _13 August 2019_
 * Fixed a regression in list management preventing offers from being published.
 * Fixed a regression causing the cleanup workflow to crash. 
 * Fixed a minor regression in the cleanup workflow logs.
-* Fixed a regression which prevented images from being sent in a Line delivery.
 
 ![](assets/do-not-localize/orange_2.png) **March 5th 2020**: new build (9032&#64;19f73c5) which includes the following fix:
 
