@@ -130,7 +130,7 @@ An example of how to use an instance variable in a workflow has been added. [Rea
 
 The "WdbcOptions_TempDbName" option has been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
 
-The FDA matrix page has been moved [here](/help/rn/using/assets/fda_rdbms_rights.pdf).
+The FDA matrix page has been moved [here](../../platform/using/remote-database-access-rights.md).
 
 The Access Rights Matrix page has been moved [here](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf).
 
