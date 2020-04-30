@@ -70,10 +70,22 @@ _13 August 2019_
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **April 29th 2020**: new build (9032&#64;3a9dc9c) which includes the following fix:
+![](assets/do-not-localize/green_2.png) **April 29th 2020**: new build (9032&#64;3a9dc9c) which includes the following fixes:
 
 * Improved security on tracking links in email. This is enabled by default for all customers. An additional, enhanced security feature is available which can be enabled by reaching out to Customer Care. More details on the feature and steps for non-hosted customers to enable it can be found in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
 * Fixed an issue which could prevent images from being displayed on Line deliveries. (NEO-23207)
+* Fixed an issue with the **File Transfer** activity wich prevented SFTP key based authentication from working on Debian 9. (NEO-23183) 
+* Fixed an issue which could affect push notification when sent at a high frequency. (NEO-20516)
+* Fixed an issue in offer response management which could lead to web server crashes. (NEO-19482)
+* Fixed an error in LibreOffice management which prevented you from exporting reports. (NEO-20982)
+* Fixed an issue which caused an error when upgradring numerous workflows using a survey activity. (NEO-23213) 
+* Improved LibreOffice management to avoid failures on email preview with .odt files. (NEO-18670)
+* Improved the management of Apache connection to avoid latency on web service. (NEO-18310)
+* Improved the dipslay of version tag (7 digit) in the **About** menu. (NEO-20687) 
+* Fixed a regression in list management preventing offers from being published. (NEO-23312)
+* Fixed a regression causing the cleanup workflow to crash. (NEO-22939) 
+* Fixed a minor regression in the cleanup workflow logs. (NEO-23219)
+* Fixed a regression which prevented images from being sent in a Line delivery. (NEO-23799)
 
 ![](assets/do-not-localize/orange_2.png) **March 5th 2020**: new build (9032&#64;19f73c5) which includes the following fix:
 
