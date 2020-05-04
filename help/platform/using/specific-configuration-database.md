@@ -272,7 +272,7 @@ The connector supports the following options:
 The connector supports the following options:
 
 | Option   |  Description |
-|---|---|
+|---|---|---|
 |  workschema |   Database schema to use for work tables |
 |  warehouse | Name of the default warehouse to use. It will override the user's default. |
 |  TimeZoneName |  By default empty, which means that the system time zone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
