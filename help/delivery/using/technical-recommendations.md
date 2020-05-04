@@ -78,7 +78,7 @@ DKIM replaced **DomainKeys** authentication.
 >
 >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, DKIM email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the **[!UICONTROL Domain management]** table as part of the Enhanced MTA upgrade.
 >
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
 
 Using DKIM requires some prerequisites:
 

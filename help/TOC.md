@@ -283,34 +283,34 @@ sub-product: adobe campaign classic
 + Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
   + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
   + Audience sharing {#audience-sharing}
-       + [Sharing audiences with Adobe Experience Cloud](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+       + [Sharing audiences with [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
        + [Submitting request to Adobe](integrations/using/submitting-request-to-adobe.md)
-       + [Configuring shared audiences integration in Adobe Campaign](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+       + [Configuring shared audiences integration in [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
        + [Troubleshooting](integrations/using/troubleshooting.md)
        + [Importing and exporting audiences](integrations/using/importing-and-exporting-audiences.md)
   + Asset sharing {#asset-sharing}
-       + [Sharing assets with Adobe Experience Cloud](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-       + [Configuring access to Assets](integrations/using/configuring-access-to-assets.md)
+       + [Sharing assets with [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+       + [Configuring access to [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
        + [Inserting a shared asset](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
-       + [About Adobe Experience Manager](integrations/using/about-adobe-experience-manager.md)
+       + [About [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
        + [Configuring the integration](integrations/using/configuring-the-integration.md)
-       + [Creating an Experience Manager newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
+       + [Creating an [!DNL Experience Manager] newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
   + Adobe Target {#adobe-target}
-       + [Integrating with Adobe Target](integrations/using/integrating-with-adobe-target.md)
-       + [Configuring the integration with Adobe Target](integrations/using/configuring-the-integration-with-adobe-target.md)
+       + [Integrating with [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+       + [Configuring the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
        + [Inserting a dynamic image](integrations/using/inserting-a-dynamic-image.md)
   + Connecting via an Adobe ID {#connecting-via-an-adobe-id}
-       + [About Adobe ID](integrations/using/about-adobe-id.md)
-       + [Configuring IMS](integrations/using/configuring-ims.md)
-       + [Implementing IMS](integrations/using/implementing-ims.md)
+       + [About [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
+       + [Configuring [!DNL IMS]](integrations/using/configuring-ims.md)
+       + [Implementing [!DNL IMS]](integrations/using/implementing-ims.md)
        + [IMS troubleshooting](integrations/using/ims-troubleshooting.md)
   + ACS Connector {#acs-connector}
-       + [ACS Connector principles and data cycle](integrations/using/acs-connector-principles-and-data-cycle.md)
+       + [[!DNL ACS Connector] principles and data cycle](integrations/using/acs-connector-principles-and-data-cycle.md)
        + [Synchronizing profiles](integrations/using/synchronizing-profiles.md)
        + [Synchronizing audiences](integrations/using/synchronizing-audiences.md)
        + [Synchronizing web applications](integrations/using/synchronizing-web-applications.md)
-       + [Troubleshooting the ACS Connector](integrations/using/troubleshooting-the-acs-connector.md)
+       + [Troubleshooting the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
 + Automating with Workflows {#automating-with-workflows}
   + Introduction {#introduction}
        + [About workflows](workflow/using/about-workflows.md)

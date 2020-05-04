@@ -486,7 +486,7 @@ startRedirection="true" startRedirectionInModule="true" trackWebVisitors="false"
       <url IPMask="" deny="" hostMask="" relayHost="false" relayPath="false" status="spare" targetUrl="" timeout="" urlPath="/*.jpg"/>
 
  </relay>
- ```
+```
 
 ## Purging data {#purging-data}
 
