@@ -93,7 +93,22 @@ As a general rule, you need to install the corresponding client layer on the ext
 
 1. You now need to configure the external account. You can find the detailed steps here.
 
-1. 
+1. Since Azure Synapse Analytics communicates through the TCP 1433 port, you need to open up this port on your firewall. Use the following command:
+
+    ```
+    firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="[server_ip_here]/32" port port="1433" protocol="tcp" accept'
+    # you can ping your hostname and the ping command will translate the hostname to IP address which you can use here
+    ```
+
+   >[!NOTE]
+   >
+   >To allow communication from Azure Synapse Analytics' side you might need to whitelist your public IP. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+
+1. In case of iptables, run the following command:
+
+    ```
+    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
+    ```
 
 ### Azure Synapse on Debian {#azure-debian}
 
