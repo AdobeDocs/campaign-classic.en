@@ -137,7 +137,11 @@ There are two types of sequences:
 * **Shared**: more than one table would pick their id from the same sequence. It means that if an id 'X' is used by one table, no other table sharing the same sequence would have a record with that id 'X'. **XtkNewId** is the default shared sequence available in Adobe Campaign.
 * **Dedicated**: only one table is picking its ids from the sequence. The sequence name would usually contain the table name.
 
-The sequence is an integer 32-bit value, with a finite maximum number of available values: 2.14 billion. After reaching the maximum value, the sequence is going back to 0, in order to recycle ids. If the old data has not been purged, the result will be a unique-key violation, which becomes a blocker for the platform health and usage. Adobe Campaign would not be able to send out communications (when it impacts delivery log table) and performances would be highly impacted.
+>[!IMPORTANT]
+>
+>The sequence is an integer 32-bit value, with a finite maximum number of available values: 2.14 billion. After reaching the maximum value, the sequence is going back to 0, in order to recycle ids.
+>
+>If the old data has not been purged, the result will be a unique-key violation, which becomes a blocker for the platform health and usage. Adobe Campaign would not be able to send out communications (when it impacts delivery log table) and performances would be highly impacted.
 
 Therefore, a customer sending 6 billion emails annually with a retention period of 180 days for their logs would run out of ids in 4 months. To prevent such a challenge, make sure to have purge settings according to your volumes. For more on this, see [this section](#data-retention).
 
@@ -167,6 +171,41 @@ However, keep in mind the following:
 * Do not remove native indexes from out-of-the-box tables.
 
 <!--When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
+
+### Example
+
+Managing indexes can become very complex, therefore it is important to understand how they work. To illustrate this complexity, let's take a basic example such as searching recipients by filtering on the first name and last name. To do this:
+1. Go to the folder that lists all recipients in the database. For more on this, see [Managing profiles](../../platform/using/managing-profiles.md).
+1. Right-click the **[!UICONTROL First name]** field.
+1. Select **[!UICONTROL Filter on this field]**.
+
+    ![](assets/data-model-index-example.png)
+
+1. Repeat this operation for the **[!UICONTROL Last name]** field.
+
+The two corresponding filters are added on top of the screen.
+
+![](assets/data-model-index-search.png)
+
+You can now perform search filtering on the **[!UICONTROL First name]** and **[!UICONTROL Last name]** fields according to the various filter conditions.
+
+Now to speed up search on these filters, you can add indexes. But which indexes should be used?
+
+>[!NOTE]
+>
+>This example applies to hosted customers using a PostgreSQL database.
+
+The following table shows in which cases the three indexes described below are used or not according to the access pattern displayed in the first column.
+
+| Search criteria | Index 1 (First name + Last name) | Index 2 (First name only) | Index 3 (Last name only) | Comments |
+|--- |--- |--- |--- |--- |
+| First name equals "Johnny" | Used | Used | Not used | As the first name is in first position on index 1, it will be used anyway: there is no need to add a criterion on the last name. |
+| First name equals "Johnny" AND Last name equals "Smith" | Used | Not used | Not used | As both attributes are searched in the same query, only the index that combines both attributes  will be used. |
+| Last name equals "Smith" | Not used | Not used | Used | The order of the attributes in the index is taken into account. If you do not match this order, the index may not be used. |
+| First name starts with "Joh" | Used | Used | Not used | "Left search" will enable indexes. |
+| First name ends with "nny" | Not used | Not used | Not used | "Right search" will disable indexes and a full scan will be performed. Some specific index types could handle this use case, but they are not available by default in Adobe Campaign. |
+| First name contains "John" | Not used | Not used | Not used | This is a combination of "left" and "right" searches. Because of the latter, it will disable indexes and a full scan will be performed. |
+| First name equals  "john" | Not used | Not used | Not used | Indexes are case-sensitive. To make it non case-sensitive, you should create a specific index that includes an SQL function like "upper(firstname)". You should do the same with other data transformation such as "unaccent(firstname)". |
 
 ## Links and cardinality {#links-and-cardinality}
 

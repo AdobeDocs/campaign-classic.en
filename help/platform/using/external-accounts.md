@@ -507,7 +507,6 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** a
 
 * **[!UICONTROL Custom Key identifier]**
 
-
 * **[!UICONTROL Key ID]**
 
 * **[!UICONTROL Client identifier]**

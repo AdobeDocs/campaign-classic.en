@@ -28,7 +28,6 @@ Adobe Campaign provides the **Federated Data Access** (FDA) option in order to p
 
 The FDA option allows you to extend your data model in a third-party database. It will automatically detect the structure of the targeted tables and use data from the SQL sources.
 
-
 In order to use this functionality, you have to:
 
 1. Have an external database that is compatible with the Adobe Campaign FDA module. The list of database systems and compatible versions is detailed in the [compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html). Users must also have the [necessary permissions](../../platform/using/remote-database-access-rights.md) in Adobe Campaign and on the external database.
@@ -37,7 +36,7 @@ In order to use this functionality, you have to:
 1. [Create the schema](../../platform/using/creating-data-schema.md) of the external database in Adobe Campaign. This allows you to recognize the data structure of the external database.
 1. Eventually, [Create a new target mapping](../../platform/using/defining-data-mapping.md) from the previously created schema, in the case where the recipients of your deliveries come from the external database. This presents certain limitations, particularly in regard to personalizing the deliveries.
 
-Once the data schema is created, data can be processed in Adobe Campaign workflows. For more on this, refer to [this section](../../workflow/using/executing-a-workflow.md#architecture).
+Once the data schema is created, data can be processed in Adobe Campaign workflows. For more on this, refer to [this section](../../workflow/using/accessing-an-external-database--fda-.md).
 
 ## Best practices and recommendations {#best-practices-and-recommendations}
 

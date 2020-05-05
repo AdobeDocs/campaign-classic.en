@@ -22,12 +22,12 @@ snippet: y
 
 To use the integration with the IMS:
 
-* You must have an Adobe Marketing Cloud organization and IMS IDs (provided when you first connect to the Adobe Marketing Cloud).
-* You have to add users in the Marketing Cloud. For more on this, refer to this page: [https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+* You must have an Adobe Experience Cloud organization and IMS IDs (provided when you first connect to the Adobe Experience Cloud).
+* You have to add users in the Experience Cloud. For more on this, refer to [this page](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 >[!NOTE]
 >
->Make sure that your users are linked to the Adobe Marketing Cloud groups that will be synced with Adobe Campaign. Refer to [Configuring the external account](#configuring-the-external-account).
+>Make sure that your users are linked to the Adobe Experience Cloud groups that will be synced with Adobe Campaign. Refer to [Configuring the external account](#configuring-the-external-account).
 
 ## Updating the console {#updating-the-console}
 
@@ -51,7 +51,7 @@ Configure the **Adobe Experience Cloud** external account in **[!UICONTROL Admin
 
 Enter the following information:
 
-* Connection information for the IMS server used (ID and secret). This information is provided by Adobe support. For more information, refer to the [FAQ for Adobe Experience Cloud Administrators](https://marketing.adobe.com/resources/help/en_US/mcloud/faq.html).
+* Connection information for the IMS server used (ID and secret). This information is provided by Adobe support. For more information, refer to the [FAQ for Adobe Experience Cloud Administrators](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html).
 
   The **[!UICONTROL Callback server]** address must be specified in **https**. This field corresponds to the access URL of your Adobe Campaign instance.
 

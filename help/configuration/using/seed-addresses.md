@@ -28,7 +28,7 @@ For more on using seed addresses, refer [this section](../../delivery/using/abou
 
 The **nms:seedMember** schema and the linked form which come out-of-the-box are meant to be extended for customer configuration, to reference all necessary fields. The schema definition contains comments detailing its configuration mode.
 
-Definition of the recipients table extended schema:
+Definition of the recipients table extended schema: 
 
 ```
 
