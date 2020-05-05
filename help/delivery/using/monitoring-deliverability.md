@@ -22,19 +22,19 @@ Below you will find details on the different monitoring tools offered by Adobe C
 
 Use the tools offered by Adobe Campaign to monitor your platform's deliverability:
 
-* The **[!UICONTROL Delivery throughput]** report which gives you an overview of the entire platform's throughput for a given period. For more on this, see [this page](../../reporting/using/global-reports.md#delivery-throughput).
-* The **[!UICONTROL Technical deliverability monitoring]** report which includes a number of deliverability quality indicators for your platform. For more on this, see [this section](#technical-deliverability-monitoring).
+* The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform's throughput for a given period. For more on this, see [this page](../../reporting/using/global-reports.md#delivery-throughput).
+* The **[!UICONTROL Technical deliverability monitoring]** report includes a number of deliverability quality indicators for your platform. For more on this, see [this section](#technical-deliverability-monitoring).
 * The Inbox rendering report. For more on this, see [About inbox rendering](../../delivery/using/inbox-rendering.md).
-* Overview of message quality: inbox, spam, etc.
-* The [delivery dashboard](../..delivery/using/monitoring-a-delivery.md#delivery-dashboard) gives you access to the [Delivery summary](../..delivery/using/monitoring-a-delivery.md#delivery-summary), the [Delivery logs and history](../..delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) and the [Tracking logs](../..delivery/using/monitoring-a-delivery.md#tracking-logs). They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks. <!--For more on this, see [Monitoring a delivery](../..delivery/using/monitoring-a-delivery.md).-->
-* The [number of messages sent](../..delivery/using/monitoring-a-delivery.md#number-of-messages-sent) also shows the number of messages to send, processed and sent with success.
+* Overview of message quality: inbox, spam, SpamAssassin, etc.
+* The [delivery dashboard](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) gives you access to the [Delivery summary](../../delivery/using/monitoring-a-delivery.md#delivery-summary), the [Delivery logs and history](../..delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) and the [Tracking logs](../../delivery/using/monitoring-a-delivery.md#tracking-logs). They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks. <!--For more on this, see [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md).-->
+* The [number of messages sent](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) also shows the number of messages to send, processed and sent with success.
 
 ## Monitoring guidelines {monitoring-guidelines}
 
 Here are some additional guidelines on deliverability monitoring:
 
 * Regularly check the delivery throughput for the whole platform to verify whether it is consistent with the original set-up.
-* Check that [retries](delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
+* Check that [retries](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
 * Regularly verify that the bounce mailbox is accessible and that the account is not about to expire.
 * Check each delivery throughput to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days).
 * When using [waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), verify that each wave has enough time to finish before the next one is triggered.
