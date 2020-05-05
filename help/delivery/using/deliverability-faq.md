@@ -86,8 +86,8 @@ If the problem persists, contact the commercial or deliverability services, Adob
 
 ### Identify a deliverability issue {identify-deliverability-issue}
 
-* Mailing or campaign metrics: Unsubscribe/abuse complaint/bounce rates are higher than usual.
-* Subscriber activity: Opens/clicks/transactions are lower than usual.
+* Mailing or campaign metrics: unsubscribe/abuse complaint/bounce rates are higher than usual.
+* Subscriber activity: opens/clicks/transactions are lower than usual.
 * Seed accounts show filtered or non-delivered mailings.
 
 ### Hypothesize potential causes 
