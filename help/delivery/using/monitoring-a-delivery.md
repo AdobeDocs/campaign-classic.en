@@ -270,8 +270,8 @@ You can access deliveries from the delivery list, via the **[!UICONTROL Campaign
 By default, the list of deliveries contains the names and statuses of the deliveries created in the selected node. It also shows the number of messages to send, processed and sent with success.
 
 * The number of **[!UICONTROL Messages to send]** corresponds to the number of recipients targeted after analysis and prior to delivery.
-* The number of messages in the **[!UICONTROL success]** column corresponds to the number of messages sent by the server and received by the recipients.
-* The number of **[!UICONTROL processed]** messages corresponds to the number of messages received plus the number of messages with errors.
+* The number of messages in the **[!UICONTROL Success]** column corresponds to the number of messages sent by the server and received by the recipients.
+* The number of **[!UICONTROL Processed]** messages corresponds to the number of messages received plus the number of messages with errors.
 
 The delivery dashboard lets you track the number of messages sent.
 
