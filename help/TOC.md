@@ -149,10 +149,11 @@ sub-product: adobe campaign classic
        + [Improve your reputation](delivery/using/improve-reputation.md)
        + [Re-engagement best practices](delivery/using/re-engagement-best-practices.md)
        + [Technical recommendations](delivery/using/technical-recommendations.md)
-       + [Technical monitoring](delivery/using/technical-monitoring.md)
+       + [Technical monitoring](/Users/juliettemassardier/OneDrive - Adobe Systems Incorporated/Documents/DOC Subjects/ACC/Deliverability/monitoring-deliverability.md)
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Blacklisting databases](delivery/using/blacklisting-databases.md)
+       + [Troubleshooting](delivery/using/deliverability-faq.md)
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
