@@ -37,40 +37,46 @@ snippet: y
 
 The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/do-not-localize/blue_2.png) Release 20.2- Build XXXX {#release-20-2-build-XXXX} 
+## ![](assets/do-not-localize/blue_2.png) Release 20.1.2 - Build 9123 {#release-20-1-2-build-9123}
 
-June 8, 2020_
+_March 13, 2020_
+
+* Fixed an issue that prevented version deployment on Red Hat 7 servers. (NEO-23332)
+
+## ![](assets/do-not-localize/orange_2.png) Release 20.1 - Build 9122 {#release-20-1-build-9122} 
+
+_February 17, 2020_
 
 **What's new?**
 
 <table> 
-<thead> 
-<tr> 
-<th> <strong>XXXX</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td> <p>XXX</p>
-<p>For more information, refer to the <a href="../../xxx">detailed documentation</a>.</p>
-</td> 
-</tr> 
-</tbody> 
+ <thead> 
+  <tr> 
+   <th> <strong>Snowflake FDA Connector</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Snowflake is a fully managed cloud data warehouse built to scale on both storage and compute level. With this new connector, Adobe Campaign can now leverage the power of Snowflake to perform Big Data Segmentation. This connector is available to all customers, including hosted by Adobe.</p>
+    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutorial video</a>.</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
 <table> 
-<thead> 
-<tr> 
-<th> <strong>XXX</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td> <p>XXX</p>
-<p>For more information, refer to the <a href="../../xxx">detailed documentation</a>.</p>
-</td> 
-</tr> 
-</tbody> 
+ <thead> 
+  <tr> 
+   <th> <strong>Hadoop FDA Connector Enhancements</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>The Hadoop FDA Connector has been improved to support Hadoop 3.0 as well as Cloudera.</p>
+    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">detailed documentation</a>.</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
 **Security enhancements**
