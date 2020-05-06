@@ -16,18 +16,25 @@ snippet: y
 
 # Monitoring deliverability{#monitoring-deliverability}
 
-Below you will find details on the different monitoring tools offered by Adobe Campaign as well as some additional guidelines on deliverability monitoring.
+Below you will find details on the different monitoring tools provided by Adobe Campaign as well as some additional guidelines on deliverability monitoring.
 
 ## Monitoring tools {#monitoring-tools}
 
-Use the tools offered by Adobe Campaign to monitor your platform's deliverability:
+Use the features offered by Adobe Campaign to monitor your platform's deliverability.
+
+The Deliverability package gives you access to:
+
+* Technical tracking report for day-to-day deliverability performance (technical monitoring). This report, available on demand, enables you to receive a daily report by email at a specified address. For more on this, contact the Adobe Customer Care team.
+* The [Inbox rendering report](../../delivery/using/inbox-rendering.md) which enables you to preview your messages on major email clients in order to scan content and reputation.
+* Overview of message quality (inbox, spam).
+
+You can also use the following tools:
 
 * The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform's throughput for a given period. For more on this, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
 * The **[!UICONTROL Technical deliverability monitoring]** report includes a number of deliverability quality indicators for your platform. For more on this, see [this section](#technical-deliverability-monitoring).
-* The [Inbox rendering report](../../delivery/using/inbox-rendering.md) enables you to preview your messages on major email clients in order to scan content and reputation.
-    <!--Overview of message quality: inbox, spam, [SpamAssassin](../../installation/using/configuring-spamassassin.md), etc.-->
-* The [delivery dashboard](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) gives you access to the [Delivery summary](../../delivery/using/monitoring-a-delivery.md#delivery-summary), the [Delivery logs and history](../..delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) and the [Tracking logs](../../delivery/using/monitoring-a-delivery.md#tracking-logs). They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks. <!--For more on this, see [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md).-->
+* The [delivery dashboard](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) gives you access to the [Delivery summary](../../delivery/using/monitoring-a-delivery.md#delivery-summary), the [Delivery logs and history](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) and the [Tracking logs](../../delivery/using/monitoring-a-delivery.md#tracking-logs). They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks. <!--For more on this, see [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md).-->
 * You can also check the number of messages to send, processed and sent with success. For more on this, see [this section](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent)
+    <!--[SpamAssassin](../../installation/using/configuring-spamassassin.md)?-->
 
 ## Monitoring guidelines {#monitoring-guidelines}
 
