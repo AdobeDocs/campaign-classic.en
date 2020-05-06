@@ -14,11 +14,11 @@ internal: n
 snippet: y
 ---
 
-# Monitoring deliverability {#monitoring-deliverability}
+# Monitoring deliverability{#monitoring-deliverability}
 
 Below you will find details on the different monitoring tools offered by Adobe Campaign as well as some additional guidelines on deliverability monitoring.
 
-## Monitoring tools {monitoring-tools}
+## Monitoring tools {#monitoring-tools}
 
 Use the tools offered by Adobe Campaign to monitor your platform's deliverability:
 
@@ -29,7 +29,7 @@ Use the tools offered by Adobe Campaign to monitor your platform's deliverabilit
 * The [delivery dashboard](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) gives you access to the [Delivery summary](../../delivery/using/monitoring-a-delivery.md#delivery-summary), the [Delivery logs and history](../..delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) and the [Tracking logs](../../delivery/using/monitoring-a-delivery.md#tracking-logs). They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks. <!--For more on this, see [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md).-->
 * You can also check the number of messages to send, processed and sent with success. For more on this, see [this section](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent)
 
-## Monitoring guidelines {monitoring-guidelines}
+## Monitoring guidelines {#monitoring-guidelines}
 
 Here are some additional guidelines on deliverability monitoring:
 
@@ -41,7 +41,7 @@ Here are some additional guidelines on deliverability monitoring:
 * Check that the number of errors and new [quarantines](../../delivery/using/understanding-quarantine-management.md) are consistent with other deliveries.
 * Carefully consult the [delivery logs](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (grey or black-listing, DNS issues, anti-spam rules, etc…).
 
-## Signal Spam
+## Signal Spam {#signal-spam}
 
 Signal Spam is a French service which offers anonymized feedback loop reporting for French ISPs (Orange, SFR).
 
@@ -49,7 +49,7 @@ Signal Spam is a French service which offers anonymized feedback loop reporting 
 
 * Signal Spam also provides direct complaints that end users log through a dedicated interface. Those complaints are then quarantined from the email address database.
 
-## 250ok
+## 250ok {#deliverability-250ok}
 
 [250ok](https://250ok.com/) is a a complementary monitoring solution to the Adobe deliverability internal tools which provides IP, domain blacklisting and reputation indicators.
 

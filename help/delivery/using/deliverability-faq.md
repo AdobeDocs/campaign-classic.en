@@ -18,7 +18,7 @@ snippet: y
 
 Are you experiencing a deliverability problem? You may find the solution here.
 
-## MX rule error
+## MX rule error {#mx-rule-error}
 
 **What does the error message 'quotas met' mean?**
 
@@ -82,15 +82,15 @@ If the problem persists, contact the commercial or deliverability services, Adob
     >
     >The delisting process may vary depending on the web site. Some sites require you to create an account, while others just need you to provide the IP address.
 
-## Best practices {best-practices}
+## Best practices {#best-practices}
 
-### Identify a deliverability issue {identify-deliverability-issue}
+### Identify a deliverability issue {#identify-deliverability-issue}
 
 * Mailing or campaign metrics: unsubscribe/abuse complaint/bounce rates are higher than usual.
 * Subscriber activity: opens/clicks/transactions are lower than usual.
 * Seed accounts show filtered or non-delivered mailings.
 
-### Hypothesize potential causes 
+### Hypothesize potential causes {#potential-causes}
 
 * Was there a recent change in list segmentation?
 * Have I acquired any new data sources?
@@ -101,7 +101,7 @@ If the problem persists, contact the commercial or deliverability services, Adob
 * What is the 'safe' segment on my file in terms of recency?
 * Do I have reactivation & reconfirmation strategies in place for segments that are not defined as safe? 
 
-### Address the issue
+### Address the issue {#address-issue}
 
 **Complaints**
 
