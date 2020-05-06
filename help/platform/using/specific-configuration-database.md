@@ -33,7 +33,6 @@ As a general rule, you need to install the corresponding client layer on the ext
 **Prerequisites:**
 
 * You will need root privileges to install a ODBC driver.
-* TCP 1433 port needs to be opened on your firewall. For more on this, refer to Firewall configuration.
 * Red Hat Enterprise ODBC drivers provided by Microsoft can also be used with CentOS to connect to SQL Server.
 * Version 13.0 will work with Red Hat 6 and 7.
 
@@ -41,7 +40,7 @@ As a general rule, you need to install the corresponding client layer on the ext
 
     >[!NOTE]
     >
-    >This is exclusive to version 13 of the ODBC Driver 13.
+    >This is exclusive to version 13 of the ODBC Driver.
 
     ```
     sudo su
@@ -112,75 +111,75 @@ As a general rule, you need to install the corresponding client layer on the ext
 
 ### Azure Synapse on Debian {#azure-debian}
 
-1. Download mysql-apt-config.deb. You can find it in this [page](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en).
+**Prerequisites:**
 
-1. Install the client library:
-
-    ```
-    $ dpkg -i mysql-apt-config_*_all.deb # choose mysql-5.7 in the configuration menu
-    $ apt update
-    $ apt install libmysqlclient20
-    ```
-
-1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
-
-1. Select the out-of-the box **[!UICONTROL Azure Synapse]** external account.
-
-1. To configure the **[!UICONTROL Azure Synapse]** external account:
-
-    * **[!UICONTROL Server]**
+* You will need root privileges to install a ODBC driver.
+* Curl is needed to install the msodbcsql package. If you don't have it installed, run the following command:
   
-      URL of the Azure Synapse server.
+  ```sudo apt-get install curl```
 
-    * **[!UICONTROL Account]**
+1. First, install the Microsoft ODBC driver for SQL Server. Use the following commands to install the ODBC Driver 13.1 for SQL Server:
 
-      Name of the user.
+    ```
+    sudo su
+    curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
+    curl https://packages.microsoft.com/config/debian/8/prod.list > /etc/apt/sources.list.d/mssql-release.list
+    exit
+    sudo apt-get update
+    sudo ACCEPT_EULA=Y apt-get install msodbcsql
+    ```
 
-    * **[!UICONTROL Password]**
+   >[!NOTE]
+   >
+   > If you get the following an error **"The method driver /usr/lib/apt/methods/https could not be found"** when calling **sudo apt-get update**, you should run the command ```sudo apt-get install apt-transport-https ca-certificates```.
 
-      User account password.
+1. You now need to install mssql-tools with the following commands. Mssq-tools are needed to use the bulk copy program (bcp) utility and to run queries.
 
-    * **[!UICONTROL Database]**
+    ```
+    sudo ACCEPT_EULA=Y apt-get install mssql-tools
+    echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
+    echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+    source ~/.bashrc
+    ```
 
-      Name of your database
+1. If needed, you can install unixODBC development headers by running the following command:
 
-    >[!NOTE]
-    >
-    >Make sure the **[!UICONTROL Time zone]** and **[!UICONTROL Unicode data]** are set according to your database.
+    ```
+    sudo yum install unixODBC-devel
+    ```
+
+1. After installing the drivers, you can test and verify your ODBC Driver and query your database if needed. Run the following command:
+
+    ```
+    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
+    ```
+
+1. You now need to configure the external account. You can find the detailed steps here.
+
+1. To configure iptables on Debian to ensure the connection with Azure Synapse Analytics, enable the outbound TCP 1433 port for your hostname with the following command:
+
+    ```
+    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
+    ```
+
+   >[!NOTE]
+   >
+   >To allow communication from Azure Synapse Analytics' side you might need to whitelist your public IP. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 ### Azure Synapse on Windows {#azure-windows}
 
-1. Download the C connector. You can find it in this [page](https://dev.mysql.com/downloads/connector/c).
+   >[!NOTE]
+   >
+   >This is exclusive to version 13 of the ODBC Driver but Adobe Campaign Classic can also use SQL Server Native Client drivers 11.0 and 10.0.
 
-1. Make sure the directory that contains libmysqlclient.dll is added to the PATH environment variable that nlserver will use.
+1. First, install the Microsoft ODBC driver. You can find it in this [page](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
-1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+1. Choose the following files to install: ```your_language\your_architecture\msodbcsql.msi (i.e: English\X64\msodbcsql.msi)```
 
-1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+1. Once your ODBC driver is installed, you can test it if needed which can be find in this page.
 
-1. Select the out-of-the box **[!UICONTROL Azure Synapse]** external account.
+1. You now need to configure the external account. You can find the detailed steps here.
 
-1. To configure the **[!UICONTROL Azure Synapse]** external account:
-
-    * **[!UICONTROL Server]**
-  
-      URL of the Azure Synapse server.
-
-    * **[!UICONTROL Account]**
-
-      Name of the user.
-
-    * **[!UICONTROL Password]**
-
-      User account password.
-
-    * **[!UICONTROL Database]**
-
-      Name of your database
-
-    >[!NOTE]
-    >
-    >Make sure the **[!UICONTROL Time zone]** and **[!UICONTROL Unicode data]** are set according to your database.
 
 ## Configure access to Snowflake {#configure-access-to-snowflake}
 
