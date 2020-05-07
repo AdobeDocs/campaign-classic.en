@@ -150,6 +150,7 @@ Adobe Campaign provides several connectors that allow you to communicate with ex
 
 The following connection types can be configured:
 
+* Azure Synapse. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse).
 * Oracle. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-oracle).
 * Netezza. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-netezza).
 * SAP HANA. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hana).
