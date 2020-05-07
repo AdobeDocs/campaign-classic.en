@@ -40,37 +40,45 @@ Here are the rules we want to use to merge the data into a single record:
 
 1. Open the **[!UICONTROL Deduplication]** activity, then click the **[Edit configuration]** link.
 
-1. Keep the most recent name (first name and last name).
+1. Select the **[!UICONTROL Email]** as reconciliation field for the deduplication, then click **[!UICONTROL Next]**.
 
-1. Indicate the identifier of the group of fields to be merged.
+    ![](assets/uc_merge_edit.png)
 
-  ![](assets/dedup4.png)
+1. Click the **[!UICONTROL Advanced parameters]** link, then activate the **[!UICONTROL Merge records]** and **[!UICONTROL Use several record merging criteria]** options.
+
+    ![](assets/uc_merge_advanced_parameters.png)
+
+1. The **[!UICONTROL Merge]** tab is added to the **[!UICONTROL Deduplication]** configuration screen.
+
+    We will use this tab to specify the data to merge when performing deduplication. To do this, click the **[!UICONTROL Add]** button.
+
+    ![](assets/uc_merge_add.png)
+
+1. Specify the identifier of the group of fields to be merged.
+
+    ![](assets/uc_merge_identifier.png)
 
 1. Indicate the conditions for selecting the records to be taken into account.
 
-  ![](assets/dedup5.png)
+    ![](assets/uc_merge_filter.png)
 
-1. Sort on date to select most recent first and the last name.
+1. Sort on date to select the most recent first name and last name.
 
-  ![](assets/dedup6.png)
+    ![](assets/uc_merge_sort.png)
 
-1. Select the data to be merged.
+1. Select the fields to keep and merge. In our case, we want to keep the first name, last name, and date.
 
-  ![](assets/dedup7.png)
+    ![](assets/uc_merge_keep.png)
 
-1. This rule is then added to the set of rules and a new element is added to the workflow schema.
+1. The rule is added to the set of rules and a new element is added to the workflow schema.
 
-  ![](assets/dedup8.png)
+    ![](assets/dedup8.png)
   
-  ![](assets/dedup9.png)
+    ![](assets/dedup9.png)
 
 ## Results {#results}
 
-Eventually when the user configures all the rules in the Merge tab, the following data is received at the end of the **[!UICONTROL Deduplication]** activity.
-
-The result is merged from the three records as per the rules defined in the merge functionality. After comparison, it is concluded that the most recent first name, last name, and mobile phone are used, along with the original phone (Home) used to build the data.
-
-**Original data**
+After configuring these rules, the following data is received at the end of the **[!UICONTROL Deduplication]** activity.
 
 Date | First Name | Last Name | Email | Mobile Phone | Phone
 -----|------------|-----------|-------|--------------|------
@@ -78,7 +86,7 @@ Date | First Name | Last Name | Email | Mobile Phone | Phone
 5/19/2013 | Robert | Tisner | bob@mycompany.com |   | 777-777-7777
 7/22/2013 | Bobby |   | bob@mycompany.com |   | 777-777-7777
 
-**Result from the **[!UICONTROL Merge]** functionality**
+The result is merged from the three records according to the rules configured earlier. After comparison, it is concluded that the most recent first name, last name, and mobile phone are used, along with the original phone (Home) used to build the data.
 
 Date | First Name | Last Name | Email | Mobile Phone | Phone
 -----|------------|-----------|-------|--------------|------
