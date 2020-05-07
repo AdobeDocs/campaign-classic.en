@@ -79,7 +79,7 @@ June 8, 2020_
 
 **Improvements**
 
-* Shared memory version has been increased. This evolution should be transparent for users. If you get an error, refer to the **Technical evolution** section below.
+* Shared memory version has been increased. This evolution should be transparent for users. If you get an error, refer to the **Technical evolutions** section below.
 
 **Other changes**
 
@@ -89,7 +89,7 @@ June 8, 2020_
 
 Regarding the shared memory version improvement, you should not have to do anything.
 
-For on-premise customers, you may need to delete shared memory after the upgrade (see instructions on this [page](../configuration/additional-parameters.md#redirection-server-configuration)) ONLY if you encounter the following error:
+For on-premise customers, you may need to delete shared memory after the upgrade (see instructions on this [page](../../configuration/additional-parameters.md#redirection-server-configuration)) ONLY if you encounter the following error:
 
 ```
 SRV-810031 Bad version for the shared memory block 'NlServerContext6.0'. Current version is 106, expected version 107. Please restart all services (nlserver and web server)...
