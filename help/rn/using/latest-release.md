@@ -79,7 +79,7 @@ June 8, 2020_
 
 **Improvements**
 
-* Shared memory version has been increased from 18 to 50 characters. However we recommend that you do not use more than 40 characters for the name of the instance added to the domain name. This evolution should be transparent for users. If you get an error, refer to the **Technical evolution** section below.
+* Shared memory version has been increased. This evolution should be transparent for users. If you get an error, refer to the **Technical evolution** section below.
 
 **Other changes**
 
