@@ -321,7 +321,7 @@ This step lets you delete records for which all data wasn't processed during imp
 
 ### Cleanup of workflow instances {#cleanup-of-workflow-instances}
 
-This task purges each workflow instance using its identifer (**lWorkflowId**) and history (**lHistory**). It deletes inactive tables by running the worktable cleanup task again.
+This task purges each workflow instance using its identifer (**lWorkflowId**) and history (**lHistory**). It deletes inactive tables by running the worktable cleanup task again. The cleanup also deletes all orphaned worktables (wkf% and wkfhisto%) of deleted workflows.
 
 >[!NOTE]
 >

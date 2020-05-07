@@ -81,6 +81,8 @@ June 8, 2020_
 
 * Shared memory version has been increased. This evolution should be transparent for users. If you get an error, refer to the **Technical evolutions** section below.
 
+* The cleanup workflow has been enhanced. Orphaned worktables of all deleted workflows are now also deleted automatically by the cleanup server.
+
 **Other changes**
 
 * XXX
