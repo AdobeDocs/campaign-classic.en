@@ -24,7 +24,7 @@ If an end-user opts-out of behavioral tracking via cookies or web beacons, then 
 
 >[!NOTE]
 >
->When scripting always follow the guidelines described in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
+>When scripting always follow the guidelines described in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#dev).
 
 ## Configuring the banner {#configuring-the-banner-}
 
