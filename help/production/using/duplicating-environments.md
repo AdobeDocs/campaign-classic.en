@@ -105,6 +105,10 @@ Check that the number of exported options/accounts is equal to the number of lin
 > 
 >For more information, refer to [this section](../../platform/using/working-with-data-packages.md#exporting-packages).
 
+>[!NOTE]
+>
+>When the nmsextaccount table is exported, passwords related to the external accounts (for example passwords for Mid-sourcing, Message Center Execution, SMPP, IMS and other external accounts) are not exported. Please make sure you have access to the correct passwords in advance, as they may need to be re-entered after the external accounts are imported back into the environment.
+
 ### Step 3 - Stop the target environment (dev) {#step-3---stop-the-target-environment--dev-}
 
 You need to stop Adobe Campaign processes on all target environment servers. This operation depends on your operating system.
