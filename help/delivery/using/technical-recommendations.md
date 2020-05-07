@@ -74,12 +74,6 @@ DKIM comes from a combination of the DomainKeys, Yahoo! and Cisco Identified Int
 
 DKIM replaced **DomainKeys** authentication.
 
->[!IMPORTANT]
->
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, DKIM email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the **[!UICONTROL Domain management]** table as part of the Enhanced MTA upgrade.
->
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
-
 Using DKIM requires some prerequisites:
 
 * **Security**: encryption is a key element of the DKIM and to insure the security level of the DKIM since the spring 2013, 1024b is the Best Practices recommended encryption size. Lower DKIM keys will not be considered as valid by the majority of access providers.
@@ -88,9 +82,13 @@ Using DKIM requires some prerequisites:
 
 >[!NOTE]
 >
->* If you have configured DomainKeys for your Adobe Campaign instance, you just need to select **dkim** in the domain handling rules. If not, follow the same configuration steps (private/public key) as for DomainKeys.
+>* If you have configured DomainKeys for your Adobe Campaign instance, you just need to select **dkim** in the [Domain management rules](../../delivery/using/understanding-delivery-failures.md#domain-management). If not, follow the same configuration steps (private/public key) as for DomainKeys.
 >* It is not necessary to enable both DomainKeys and DKIM for the same domain as DKIM is an improved version of DomainKeys.
 >* The following domains currently validate DKIM: AOL, Gmail.
+
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html), DKIM email authentication signing is done by the Enhanced MTA for all messages with all domains.
 
 ### DMARC {#dmarc}
 

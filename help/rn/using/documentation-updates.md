@@ -22,6 +22,15 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## May 2020 {#may-2020}
+
+The Monitoring deliverability section has been moved and reorganized. [Read more](../../delivery/using/monitoring-deliverability.md)
+
+The Deliverability troubleshooting section has been moved and updated. [Read more](../../delivery/using/deliverability-faq.md)
+
+The Starting a new platform section has been enhanced. [Read more](../../delivery/using/starting-new-platform.md)
+
+
 ## April 2020 {#april-2020}
 
 The FDA rights table has been moved to the Accessing an external database (FDA) documentation. [Read more](../../platform/using/remote-database-access-rights.md)
@@ -35,6 +44,8 @@ The section describing the Adobe Campaign pre-defined data model has been update
 Use cases from the "Automating with workflows" guide have been reorganized into thematic sections. [Read more](../../workflow/using/using-the-local-approval-activity.md)
 
 The [Bounce mail qualification](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) and [Email management rules](../../delivery/using/understanding-delivery-failures.md#email-management-rules) sections have been enhanced with updated information.
+
+The Adobe Campaign Enhanced MTA article has been updated. It now only applies to Campaign Classic. [Read more](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 ## March 2020 {#march-2020}
 
@@ -110,7 +121,7 @@ The Deliverability section has been moved, reorganized, and enhanced with update
 
 A new section describing the Adobe Campaign Classic data model basics and how to access the description of each table is now available. [Read more](../../configuration/using/about-data-model.md)
 
-The Adobe Campaign Enhanced MTA article has been updated with more detailed information on installing a specific Typology package on instances that do not add the required Enhanced MTA headers to every message. [Read more](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html#impacts)
+The Adobe Campaign Enhanced MTA article has been updated with more detailed information on installing a specific Typology package on instances that do not add the required Enhanced MTA headers to every message. [Read more](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html#impacts)
 
 The use cases related to query designing have been reorganized into separate sections. [Read more](../../workflow/using/querying-recipient-table.md)
 
@@ -128,7 +139,7 @@ An example of how to use an instance variable in a workflow has been added. [Rea
 
 The "WdbcOptions_TempDbName" option has been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
 
-The FDA matrix page has been moved [here](/help/rn/using/assets/fda_rdbms_rights.pdf).
+The FDA matrix page has been moved [here](../../platform/using/remote-database-access-rights.md).
 
 The Access Rights Matrix page has been moved [here](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf).
 
@@ -148,7 +159,7 @@ Secure SMS Messaging (TLS) - [Read more](https://helpx.adobe.com/campaign/kb/sms
 
 **Other documentation updates coming with the release**
 
-The Adobe Campaign Enhanced MTA documentation is now available. [Read more](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+The Adobe Campaign Enhanced MTA documentation is now available. [Read more](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 A new section has been added on how to troubleshoot a workflow staying in the "Start as soon as possible" state within a campaign. [Read more](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 

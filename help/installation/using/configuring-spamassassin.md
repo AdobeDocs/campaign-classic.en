@@ -24,11 +24,11 @@ snippet: y
 
 ## Overview {#overview}
 
-SpamAssassin is a piece of software designed to filter undesirable emails. In conjunction with this software, Adobe Campaign can assign a score to e-mails and determine whether a message is likely to be deemed undesirable before delivery is launched. To do this, SpamAssassin must be installed and configured on the application server(s) of Adobe Campaign and requires a certain number of additional Perl modules to operate.
+SpamAssassin is a piece of software designed to filter undesirable emails. In conjunction with this software, Adobe Campaign can assign a score to emails and determine whether a message is likely to be deemed undesirable before delivery is launched. To do this, SpamAssassin must be installed and configured on the application server(s) of Adobe Campaign and requires a certain number of additional Perl modules to operate.
 
 The deployment and integration of SpamAssassin as described in this chapter are based on default software installation, as are filtering and scoring rules, which are those provided by SpamAssassin without any alterations or optimizations. Score attribution and message qualification are based exclusively on the configuration of SpamAssassin options and on filtering rules. Network administrators are responsible for adapting them to their company's needs.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The qualification of emails as undesirable by SpamAssassin is based entirely on filtering and scoring rules.
 >
