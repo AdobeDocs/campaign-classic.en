@@ -163,9 +163,9 @@ To configure Azure Synapse on Windows:
 * You will need root privileges to install a ODBC driver.
 * Curl is needed to install the msodbcsql package. If you don't have it installed, run the following command:
   
-  ```
-  sudo apt-get install curl
-  ```
+    ```
+    sudo apt-get install curl
+    ```
 
 To configure Azure Synapse on Debian:
 
@@ -180,7 +180,7 @@ To configure Azure Synapse on Debian:
     sudo ACCEPT_EULA=Y apt-get install msodbcsql
     ```
 
-1. You now need to install mssql-tools with the following commands. Mssq-tools are needed to use the bulk copy program (bcp) utility and to run queries.
+1. You now need to install mssql-tools with the following commands. Mssq-tools are needed to use the bulk copy program (or BCP) utility and to run queries.
 
     ```
     sudo ACCEPT_EULA=Y apt-get install mssql-tools
