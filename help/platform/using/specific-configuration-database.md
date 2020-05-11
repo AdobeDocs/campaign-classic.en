@@ -518,7 +518,7 @@ Connecting to a Netezza external database in FDA requires additional configurati
 
 1. To configure the **[!UICONTROL Netezza]** external account, you must specify:
 
-     * **[!UICONTROL Type]**: Netezza
+    * **[!UICONTROL Type]**: Netezza
 
     * **[!UICONTROL Server]**: URL of the Netezza server
 
