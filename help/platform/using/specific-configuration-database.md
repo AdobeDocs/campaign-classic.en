@@ -51,99 +51,6 @@ To create your [!DNL Azure Synapse] external account external account:
 
     ![](assets/azure_1.png)
 
-### Azure Synapse on CentOS {#azure-centos}
-
-**Prerequisites:**
-
-* You will need root privileges to install a ODBC driver.
-* Red Hat Enterprise ODBC drivers provided by Microsoft can also be used with CentOS to connect to SQL Server.
-* Version 13.0 will work with Red Hat 6 and 7.
-
-To configure Azure Synapse on CentOS:
-
-1. First, install the ODBC Driver. You can find it in this [page](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
-
-    >[!NOTE]
-    >
-    >This is exclusive to version 13 of the ODBC Driver.
-
-    ```
-
-    sudo su
-    curl https://packages.microsoft.com/config/rhel/6/prod.repo > /etc/yum.repos.d/mssql-release.repo
-    exit
-    # Uninstall if already installed Unix ODBC driver
-    sudo yum remove unixODBC-utf16 unixODBC-utf16-devel #to avoid conflicts
-  
-    sudo ACCEPT_EULA=Y yum install msodbcsql
-  
-    sudo ACCEPT_EULA=Y yum install mssql-tools
-    echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
-    echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
-    source ~/.bashrc
-  
-    # the Microsoft driver expects unixODBC to be here /usr/lib64/libodbc.so.1, so add soft links to the '.so.2' files
-    cd /usr/lib64
-    sudo ln -s libodbccr.so.2   libodbccr.so.1
-    sudo ln -s libodbcinst.so.2 libodbcinst.so.1
-    sudo ln -s libodbc.so.2     libodbc.so.1
-  
-    # Set the path for unixODBC
-    export ODBCINI=/usr/local/etc/odbc.ini
-    export ODBCSYSINI=/usr/local/etc
-    source ~/.bashrc
-  
-    #Add a DSN information to /etc/odbc.ini
-    sudo vi /etc/odbc.ini
-  
-    #Add the following:
-    [Azure Synapse Analytics]
-    Driver      = ODBC Driver 13 for SQL Server
-    Description = Azure Synapse Analytics DSN
-    Trace       = No
-    Server      = [insert your server here]
-
-    ```
-
-1. If needed, you can install unixODBC development headers by running the following command:
-
-    ```
-
-    sudo yum install unixODBC-devel
-
-    ```
-
-1. After installing the drivers, you can test and verify your ODBC Driver and query your database if needed. Run the following command:
-
-    ```
-
-    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
-
-    ```
-
-1. In Campaign Classic, you can then configure your [!DNL Azure Synapse] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#azure-external).
-
-1. Since Azure Synapse Analytics communicates through the TCP 1433 port, you need to open up this port on your firewall. Use the following command:
-
-    ```
-
-    firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="[server_ip_here]/32" port port="1433" protocol="tcp" accept'
-    # you can ping your hostname and the ping command will translate the hostname to IP address which you can use here
-
-    ```
-
-   >[!NOTE]
-   >
-   >To allow communication from Azure Synapse Analytics' side you might need to whitelist your public IP. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
-
-1. In case of iptables, run the following command:
-
-    ```
-
-    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
-
-    ```
-
 ### Azure Synapse on Debian {#azure-debian}
 
 **Prerequisites:**
@@ -236,7 +143,7 @@ To configure Azure Synapse on Windows:
     ```
 
     your_language\your_architecture\msodbcsql.msi (i.e: English\X64\msodbcsql.msi)
-    
+
     ```
 
 1. Once your ODBC driver is installed, you can test it if needed. For more on this, refer to this [page](https://docs.microsoft.com/en-us/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver15#installing-microsoft-odbc-driver-for-sql-server).
