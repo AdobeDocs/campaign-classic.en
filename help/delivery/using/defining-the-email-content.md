@@ -109,14 +109,19 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   ![](assets/s_ncs_user_wizard_email01_142.png)
 
-### Inserting emoticons in an email 
+### Inserting emoticons in an email
 
-You can insert emoticons to your email content. 
+You can insert emoticons to your email content.
 
-1. Click the emoticon pop-up. 
-1. Select an emoticon. 
+1. Click the **[!UICONTROL Insert emoticon]** icon.
+1. Select an emoticon from the pop-up window.
+1. Click the **[!UICONTROL Close]** button when done.
 
-To customize the emoticon list, refer to [customizing the emoticon list]()
+>[!NOTE]
+>
+>For subject line, emoticons can only be inserted via a copy/paste.
+
+To customize the emoticon list, refer to [customizing the emoticon list](../../delivery/using/defining-interactive-content.md)
 
 ## Selecting message formats {#selecting-message-formats}
 
