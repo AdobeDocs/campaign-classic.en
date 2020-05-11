@@ -32,9 +32,11 @@ You can also use the following tools:
 
 * The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform's throughput for a given period. For more on this, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
 * The **[!UICONTROL Technical deliverability monitoring]** report includes a number of deliverability quality indicators for your platform. For more on this, see [this section](#technical-deliverability-monitoring).
-* The [delivery dashboard](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) gives you access to the [Delivery summary](../../delivery/using/monitoring-a-delivery.md#delivery-summary), the [Delivery logs and history](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) and the [Tracking logs](../../delivery/using/monitoring-a-delivery.md#tracking-logs). They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks. <!--For more on this, see [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md).-->
-* You can also check the number of messages to send, processed and sent with success. For more on this, see [this section](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent)
-    <!--[SpamAssassin](../../installation/using/configuring-spamassassin.md)?-->
+* Each delivery generates a broadcast statistics report which includes some reputation metrics that may impact your deliverability. For more on this, see the [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics) section.
+* More generally, the [delivery dashboard](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) gives you access to:
+    * the [delivery summary](../../delivery/using/monitoring-a-delivery.md#delivery-summary), which shows the detail of the sending and the [number of messages](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) to send, processed and sent with success;
+    * the [delivery logs and history](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history), which show which target has been excluded and why;
+    * the [tracking logs](../../delivery/using/monitoring-a-delivery.md#tracking-logs), which show tracking information such as opens and clicks.
 
 ## Monitoring guidelines {#monitoring-guidelines}
 
