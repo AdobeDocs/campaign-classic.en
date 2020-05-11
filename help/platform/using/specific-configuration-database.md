@@ -210,8 +210,8 @@ To configure Azure Synapse on Windows:
 1. Choose the following files to install:
 
     ```
-    your_language\your_architecture\msodbcsql.msi (i.e: English\X64\msodbcsql.msi
-    )```
+    your_language\your_architecture\msodbcsql.msi (i.e: English\X64\msodbcsql.msi)
+    ```
 
 1. Once your ODBC driver is installed, you can test it if needed. For more on this, refer to this [page](https://docs.microsoft.com/en-us/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver15#installing-microsoft-odbc-driver-for-sql-server).
 
