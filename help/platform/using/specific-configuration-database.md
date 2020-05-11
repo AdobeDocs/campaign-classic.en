@@ -180,6 +180,12 @@ To configure Azure Synapse on Debian:
     sudo ACCEPT_EULA=Y apt-get install msodbcsql
     ```
 
+1. If you get the following an error **"The method driver /usr/lib/apt/methods/https could not be found"** when calling **sudo apt-get update**, you should run the command:
+
+   ```
+   sudo apt-get install apt-transport-https ca-certificates
+   ```
+
 1. You now need to install mssql-tools with the following commands. Mssq-tools are needed to use the bulk copy program (or BCP) utility and to run queries.
 
     ```
