@@ -141,7 +141,9 @@ To configure Azure Synapse on CentOS:
 * You will need root privileges to install a ODBC driver.
 * Curl is needed to install the msodbcsql package. If you don't have it installed, run the following command:
   
-  ```sudo apt-get install curl```
+  ```
+  sudo apt-get install curl
+  ```
 
 To configure Azure Synapse on Debian:
 
@@ -158,7 +160,9 @@ To configure Azure Synapse on Debian:
 
 1. If you get the following an error **"The method driver /usr/lib/apt/methods/https could not be found"** when calling **sudo apt-get update**, you should run the command:
 
-   ```sudo apt-get install apt-transport-https ca-certificates```.
+   ```
+   sudo apt-get install apt-transport-https ca-certificates
+   ```
 
 1. You now need to install mssql-tools with the following commands. Mssq-tools are needed to use the bulk copy program (bcp) utility and to run queries.
 
@@ -203,14 +207,17 @@ To configure Azure Synapse on Windows:
 
 1. First, install the Microsoft ODBC driver. You can find it in this [page](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
-1. Choose the following files to install: ```your_language\your_architecture\msodbcsql.msi (i.e: English\X64\msodbcsql.msi)```
+1. Choose the following files to install:
+
+    ```
+    your_language\your_architecture\msodbcsql.msi (i.e: English\X64\msodbcsql.msi
+    )```
 
 1. Once your ODBC driver is installed, you can test it if needed. For more on this, refer to this [page](https://docs.microsoft.com/en-us/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver15#installing-microsoft-odbc-driver-for-sql-server).
 
 1. In Campaign Classic, you can then configure your [!DNL Azure Synapse] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#azure-external).
 
 1. Since Azure Synapse Analytics communicates through the TCP 1433 port, you need to open up this port on the Windows Defender Firewall. For more on this, refer to [Windows documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
-
 
 ## Configure access to Snowflake {#configure-access-to-snowflake}
 
