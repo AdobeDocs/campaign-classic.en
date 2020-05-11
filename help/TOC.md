@@ -120,6 +120,7 @@ sub-product: adobe campaign classic
        + [Conditional content](delivery/using/conditional-content.md)
        + [Personalized coupons](delivery/using/personalized-coupons.md)
        + [Generating personalized PDF documents](delivery/using/generating-personalized-pdf-documents.md)
+       + [Customizing the emoticon list](delivery/using/customize-emoticons.md)
   + Using seed addresses {#using-seed-addresses}
        + [About seed addresses](delivery/using/about-seed-addresses.md)
        + [Creating seed addresses](delivery/using/creating-seed-addresses.md)
