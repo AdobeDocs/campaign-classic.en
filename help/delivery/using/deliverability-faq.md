@@ -30,7 +30,7 @@ This means a connection can use an MX rule without successfully sending an email
 
 Therefore, 'quotas met' is not only a configuration issue, but can also be linked to reputation. It is important to analyze error messages in the [SMTP log](../../production/using/monitoring-processes.md#smtp-errors-per-domain).
 
-For more on MX configuration, see the [detailed documentation](../../installation/using/email-deliverability.md#mx-configuration).
+For more on MX configuration, see [this section](../../installation/using/email-deliverability.md#mx-configuration).
 
 ## Same error message for an ISP {#same-error-for-an-isp}
 
@@ -51,7 +51,7 @@ If the problem persists, contact the commercial or deliverability services, Adob
 
     * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
     
-    For more on this, see this [section](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
+    For more on this, see [this section](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
 
 * **What do the different quarantine error reasons mean?**
 
