@@ -105,7 +105,10 @@ If the problem persists, contact the commercial or deliverability services, Adob
 
 **Complaints**
 
-Complaints are defined by subscribers who hit the "this is spam' button. If your delivery issue was caused by complaints, you need to try to determine why recipients are complaining. Clients with high complaint rates may also want to consider moving their unsubscribe link to the top of their email to encourage subscribers who have decided to hit the spam button to unsubscribe instead of complaining.
+Complaints are defined by subscribers who report an email as a spam by hitting the corresponding button from their inbox.
+If your delivery issue was caused by complaints:
+* You need to try to determine why recipients are complaining.
+* You may also want to consider moving your unsubscribe link to the top of your email to encourage subscribers to unsubscribe instead of complaining with the spam button.
 
 Senders can glean a wealth of information from their feedback loop complaints. It’s important to bucket the data and look for patterns in things like opt-in source, how long the address has been subscribed, or even certain behavioral demographics. Complaints can often identify a risky data source or segment within the file. Risky is defined as most likely to complain, which can damage reputation, and in turn, inbox rates.
 
