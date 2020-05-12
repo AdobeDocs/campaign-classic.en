@@ -30,7 +30,7 @@ The main platform functionalities regarding time zone management are: import/exp
 
 **Operators** can modify time zones during **delivery configuration** and can specify the particular time zone in which the delivery will be executed.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If the database does not manage multiple time zones, for all data filtering manipulations, SQL queries must be executed in the time zone of the database server.
 
@@ -55,7 +55,7 @@ From a technical point of view, there are two ways of storing **Date+time** type
 1. TIMESTAMP WITH TIMEZONE format: the database engine stores dates in UTC. Each session opened will have a time zone, and the dates will be converted according to it.
 1. Local format + local time zone: all dates are stored in the local format (no time-lag management) and a single time zone is assigned to them. The time zone is stored in the **WdbcTimeZone** option of the Adobe Campaign instance and can be changed via the **[!UICONTROL Administration > Platform > Options]** menu of the tree.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Please be aware that this modification can result into data consistency and synchronization issues. 
 
@@ -67,7 +67,7 @@ Check the **[!UICONTROL UTC database (date fields with time zone)]** option to s
 
 ![](assets/install_wz_select_utc_option.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If you are using **Oracle**, the timezone files (.dat) of the Oracle client layers must be compatible with the timezones files installed on the server.
 
@@ -89,7 +89,7 @@ XML fields containing dates are now stored in UTC. During loading, fields not in
 
 To use an existing instance, add the **WdbcTimeZone** option and enter the instance's time zone.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Please make sure the correct value is configured for the WdbcTimeZone option: changes carried out later may lead to inconsistencies.
 

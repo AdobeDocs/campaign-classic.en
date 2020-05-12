@@ -36,7 +36,7 @@ MX rules (Mail eXchanger) are the rules that manage communication between a send
 
 More precisely, they are used to control the speed at which the Campaign MTA (Message Transfer Agent) sends emails to each individual email domain or ISP (e.g. hotmail.com, comcast.net). These rules are typically based on limits published by the ISPs (e.g. do not include more than 20 messages per each SMTP connection).
 
-For more on MX management, refer to the [dedicated section](../../installation/using/email-deliverability.md#mx-configuration).
+For more on MX management, refer to [this section](../../installation/using/email-deliverability.md#mx-configuration).
 
 ### TLS {#tls}
 

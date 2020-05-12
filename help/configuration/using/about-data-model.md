@@ -24,9 +24,9 @@ To access the description of each table, go to **[!UICONTROL Admin > Configurati
 
 ![](assets/data-model_documentation-tab.png)
 
-For more on the default Campaign Classic data model description, refer to this [section](../../configuration/using/data-model-description.md).
+For more on the default Campaign Classic data model description, refer to [this section](../../configuration/using/data-model-description.md).
 
-The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a schema. For more on Adobe Campaign schemas, read out this [section](../../configuration/using/about-schema-reference.md).
+The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a schema. For more on Adobe Campaign schemas, read out [this section](../../configuration/using/about-schema-reference.md).
 
 ## Overview {#data-model-overview}
 
@@ -34,13 +34,13 @@ Adobe Campaign relies on a relational database containing tables that are linked
 
 >[!NOTE]
 >
->For more on the Campaign data model architecture and related best practices, refer to this [section](../../configuration/using/data-model-best-practices.md#data-model-architecture).
+>For more on the Campaign data model architecture and related best practices, refer to [this section](../../configuration/using/data-model-best-practices.md#data-model-architecture).
 
 ### Recipient table {#recipient-table}
 
 The data model relies on a main table which is by default the Recipient table (**NmsRecipient**). This table enables to store all the marketing profiles.
 
-For more on the Recipient table, see this [section](#default-recipient-table).
+For more on the Recipient table, see [this section](#default-recipient-table).
 
 ### Delivery table {#delivery-table}
 
@@ -81,7 +81,7 @@ Also, as the Recipient table is part of the product, both the table and its asso
 
 When starting with Adobe Campaign, you need to assess the default data model to check which table is the best suited to store your marketing data.
 
-If relevant, you can use the default Recipient table with the out-of-the-box fields, such as described in this [section](#default-recipient-table).
+If relevant, you can use the default Recipient table with the out-of-the-box fields, such as described in [this section](#default-recipient-table).
 
 If needed, you can extend it with two mechanisms:
 
@@ -104,7 +104,7 @@ Indeed, if your data model does not fit the recipient-centric structure, you can
 >
 >In this case, you will need to create a new [target mapping](../../configuration/using/target-mapping.md).
 
-All the principles and steps needed when using a custom recipient table are detailed in this [section](../../configuration/using/about-custom-recipient-table.md).
+All the principles and steps needed when using a custom recipient table are detailed in [this section](../../configuration/using/about-custom-recipient-table.md).
 
 The benefits of using a custom Recipient table are as follows:
 
@@ -126,4 +126,4 @@ No maintenance is needed to check that all extensions are still valid upon upgra
 
 >[!IMPORTANT]
 >
->Using a custom recipient table is reserved for advanced users and is subject to some limitations. For more on this, see this section.
+>Using a custom recipient table is reserved for advanced users and is subject to some limitations. For more on this, see [this section](../../configuration/using/about-custom-recipient-table.md).

@@ -30,6 +30,7 @@ The Deliverability troubleshooting section has been moved and updated. [Read mor
 
 The Starting a new platform section has been enhanced. [Read more](../../delivery/using/starting-new-platform.md)
 
+The Sending transactional emails with attachments section has been moved and updated. [Read more](../../message-center/using/transactional-email-with-attachments.md)
 
 ## April 2020 {#april-2020}
 
