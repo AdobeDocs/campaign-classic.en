@@ -32,7 +32,11 @@ You can also use the following tools:
 
 * The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform's throughput for a given period. For more on this, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
 * The **[!UICONTROL Technical deliverability monitoring]** report includes a number of deliverability quality indicators for your platform. For more on this, see [this section](#technical-deliverability-monitoring).
-* Each delivery generates a broadcast statistics report which includes some reputation metrics that may impact your deliverability. For more on this, see the [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics) section.
+* Each delivery generates a broadcast statistics report for the different Internet service providers (ISPs). It shows some data quality and reputation metrics that may impact your deliverability, including the following numbers:
+    * **[!UICONTROL Hard bounces]** indicate data quality. This number should be less than 2%.
+    * **[!UICONTROL Soft bounces]** indicate reputation. This number should not be higher than 10% for any given ISP.
+    
+    For more on this, see the [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics) section.
 * More generally, the [delivery dashboard](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) gives you access to:
     * the [delivery summary](../../delivery/using/monitoring-a-delivery.md#delivery-summary), which shows the detail of the sending and the [number of messages](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) to send, processed and sent with success;
     * the [delivery logs and history](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history), which show which target has been excluded and why;
