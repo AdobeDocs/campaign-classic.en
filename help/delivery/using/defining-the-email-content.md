@@ -55,7 +55,7 @@ For example, in the message above, the subject of the message is personalized fo
 >
 >The use of personalization fields is presented in [About personalization](../../delivery/using/about-personalization.md).
 
-You can insert emoticons in the subject of your email. To do so, click the emoticon pop-up. 
+You can also insert emoticons to your subject line with a copy/paste.
 
 ## Message content {#message-content}
 
