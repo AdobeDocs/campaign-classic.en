@@ -526,9 +526,7 @@ sub-product: adobe campaign classic
        + [Message Center service level](message-center/using/message-center-service-level.md)
        + [Message Center processing time](message-center/using/message-center-processing-time.md)
   + Use case {#use-case}
-       + [Purpose](message-center/using/purpose.md)
-       + [Important notes](message-center/using/important-notes.md)
-       + [Implementation](message-center/using/implementation.md)
+       + [Sending transactional emails with attachments](message-center/using/transactional-email-with-attachments.md)
 + Integrating with Social media {#integrating-with-social-media}
   + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}
