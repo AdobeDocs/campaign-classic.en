@@ -16,29 +16,28 @@ internal: n
 snippet: y
 ---
 
-# Template publication{#template-publication}
+# Template unpublication{#template-unpublication}
 
-Once the message template created on the control instance is complete, you can publish it on all execution instances. Publication lets you automatically create two message templates on the execution instance which will allow you to send messages linked to real time and batch events.
+Once a message template is published on the execution instances, it can be unpublished.
 
->[!CAUTION]
->
->Remember to publish the template whenever you make any changes to it in order for these changes to be effective during transactional message delivery.
+Indeed, a published template can still be called. Therefore, if you are no longer using a message template, it is recommended to unpublish it. This is to avoid sending an unwanted transactional message by mistake.
 
->[!NOTE]
->
->When publishing transactional message templates, typology rules are automatically published on the execution instances.
+For example, you published a message template that you only use for Christmas campaigns. You may want to unpublish it after the Christmas period is over, and publish it again next year.
+
+To unpublish a transactional message template, follow the steps below.
 
 1. In the control instance, go to the **[!UICONTROL Message Center > Transactional message templates]** folder of the tree.
-1. Select the template you want to publish on your execution instances.
-1. Click **[!UICONTROL Publication]** .
+1. Select the template you want to unpublish from your execution instances.
+1. Click **[!UICONTROL Unpublish]**.
+1. Fill in the **[!UICONTROL Log of the process]** field.///
+1. Click **[!UICONTROL Start]**.
 
-   ![](assets/messagecenter_publish_model_008.png)
+![](assets/message-center-unpublish.png)
 
-Once publication is complete, both message templates to be applied to batch and real time type events are created in the tree of the production instance in the **[!UICONTROL Administration > Production > Message Center > Default > Transactional message templates]** folder. 
+The transactional message template status changes from **[!UICONTROL Published]** to **[!UICONTROL Unpublished]**.///
 
-![](assets/messagecenter_deployed_model_001.png)
+Once unpublication is complete:
 
->[!NOTE]
->
->If you replace an existing field of the transactional message template, such as the sender address, with an empty value, the corresponding field on the execution instance(s) will not be updated once the transactional message is published again. It will still contain the previous value. However, if you add a non-empty value, the corresponding field will be updated as usual after the next publication.
+* Both message templates (applied to batch and real-time type events) are updated in each execution instance, in the **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** folder. Their status changes from **[!UICONTROL In production]** to **[!UICONTROL Unpublished]**.///
 
+* Once a template is unpublished, you can delete it from the control instance if needed. To do so, select it from the list and click the **[!UICONTROL Delete]** button on top right of the screen.///
