@@ -20,7 +20,7 @@ snippet: y
 
 Once the message template created on the control instance is complete, you can publish it on all execution instances. Publication lets you automatically create two message templates on the execution instance which will allow you to send messages linked to real time and batch events.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >Remember to publish the template whenever you make any changes to it in order for these changes to be effective during transactional message delivery.
 
@@ -30,11 +30,11 @@ Once the message template created on the control instance is complete, you can p
 
 1. In the control instance, go to the **[!UICONTROL Message Center > Transactional message templates]** folder of the tree.
 1. Select the template you want to publish on your execution instances.
-1. Click **[!UICONTROL Publish]**.
+1. Click **[!UICONTROL Publication]** .
 
    ![](assets/messagecenter_publish_model_008.png)
 
-Once publication is complete, both message templates to be applied to batch and real time type events are created in the tree of the production instance in the **[!UICONTROL Administration > Production > Message Center > Default > Transactional message templates]** folder.
+Once publication is complete, both message templates to be applied to batch and real time type events are created in the tree of the production instance in the **[!UICONTROL Administration > Production > Message Center > Default > Transactional message templates]** folder. 
 
 ![](assets/messagecenter_deployed_model_001.png)
 
