@@ -148,12 +148,13 @@ sub-product: adobe campaign classic
        + [Starting a new platform](delivery/using/starting-new-platform.md)
        + [Control message content](delivery/using/control-message-content.md)
        + [Improve your reputation](delivery/using/improve-reputation.md)
-       + [Re-engagement best practices](delivery/using/re-engagement-best-practices.md)
        + [Technical recommendations](delivery/using/technical-recommendations.md)
-       + [Technical monitoring](delivery/using/technical-monitoring.md)
+       + [Monitoring deliverability](delivery/using/monitoring-deliverability.md)
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
+       + [Re-engagement best practices](delivery/using/re-engagement-best-practices.md)
        + [Blacklisting databases](delivery/using/blacklisting-databases.md)
+       + [Troubleshooting](delivery/using/deliverability-faq.md)
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
@@ -525,9 +526,7 @@ sub-product: adobe campaign classic
        + [Message Center service level](message-center/using/message-center-service-level.md)
        + [Message Center processing time](message-center/using/message-center-processing-time.md)
   + Use case {#use-case}
-       + [Purpose](message-center/using/purpose.md)
-       + [Important notes](message-center/using/important-notes.md)
-       + [Implementation](message-center/using/implementation.md)
+       + [Sending transactional emails with attachments](message-center/using/transactional-email-with-attachments.md)
 + Integrating with Social media {#integrating-with-social-media}
   + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}

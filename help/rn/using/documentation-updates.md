@@ -22,6 +22,16 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
 
+## May 2020 {#may-2020}
+
+The Monitoring deliverability section has been moved and reorganized. [Read more](../../delivery/using/monitoring-deliverability.md)
+
+The Deliverability troubleshooting section has been moved and updated. [Read more](../../delivery/using/deliverability-faq.md)
+
+The Starting a new platform section has been enhanced. [Read more](../../delivery/using/starting-new-platform.md)
+
+The Sending transactional emails with attachments section has been moved and updated. [Read more](../../message-center/using/transactional-email-with-attachments.md)
+
 ## April 2020 {#april-2020}
 
 The FDA rights table has been moved to the Accessing an external database (FDA) documentation. [Read more](../../platform/using/remote-database-access-rights.md)

@@ -276,6 +276,14 @@ The default operator groups are:
 
    These groups let you use **Distributed marketing** (optional Adobe Campaign module).
 
+1. Offer managers
+
+   The operators in this group can create and maintain offers. For more information on this, refer to this [page](../../interaction/using/operator-profiles.md).
+   This group contains the following named rights:
+
+    * INSERT FOLDERS: Right to insert folders into the Adobe Campaign tree (provided you have editing rights for the concerned branches),
+    * EDIT FOLDERS: Right to alter folder properties such as internal name, label, associated image, sub folder order, etc.
+
 ## Named rights {#named-rights}
 
 By default, Adobe Campaign proposes a set of named rights that let you define the authorizations assigned to operators and groups of operators. These rights can be edited from the **[!UICONTROL Administration > Access management > Named rights]** node of the tree. 

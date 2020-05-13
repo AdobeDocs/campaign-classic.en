@@ -41,9 +41,9 @@ As an expert user, you can configure tracking capabilities on your Campaign inst
 
 ## How to configure email deliverability? {#how-to-configure-email-deliverability-}
 
-In addition to the [Deliverability getting started guide](https://docs.adobe.com/content/help/en/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html), read out the section about email deliverability configuration to understand how to configure your instance to maximize Campaign delivering capabilities.
+In addition to the [Deliverability configuration](../../delivery/using/about-deliverability.md#configuration) section, read out the deliverability technical recommendations to understand how to configure your instance in order to maximize Campaign delivering capabilities.
 
-[Click here to learn more](../../installation/using/email-deliverability.md).
+[Click here to learn more](../../delivery/using/technical-recommendations.md).
 
 ## How can I implement content approval? {#how-can-i-implement-content-approval-}
 
@@ -102,7 +102,7 @@ If you have issues such as the new logos being reflected correctly, able to succ
 
 1. Delete these xml files and associated folders.
 
-    >[!CAUTION]
+    >[!IMPORTANT]
     >
     >Do not delete nlclient_cnx.xml file.
 
