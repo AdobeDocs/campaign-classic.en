@@ -63,13 +63,19 @@ The analysis is the stage during which the target population is calculated and t
    >
    >The analysis freezes the delivery (or the proof) at the moment of analysis. Any modification to the delivery (or the proof) must be followed by another analysis before becoming applicable.
 
-   The last log message displays any error messages and the number of errors. A special icon shows the error type: the yellow icon indicates a non-critical processing error, the red icon indicates a critical error that prevents the start of the delivery.
+1. Wait until the analysis is complete.
+
+   The last log message displays any error messages and the number of errors. A special icon shows the error type:
+   * The yellow icon indicates a non-critical processing error.
+   * The red icon indicates a critical error that prevents the start of the delivery.
 
    ![](assets/s_ncs_user_email_del_analyze_error.png)
 
-1. Click **[!UICONTROL Close]** to correct the errors. After making the changes, you must restart the analysis.
+1. Click **[!UICONTROL Close]** to correct the errors.
 
-Check the result of the analysis before clicking **[!UICONTROL Confirm delivery]** to send the message to the specified target. A confirmation message lets you launch the delivery.
+1. After making the changes, restart the analysis.
+
+After checking the result of the analysis, you will be able to click **[!UICONTROL Confirm delivery]** to send the message to the specified target. A confirmation message lets you launch the delivery.
 
 ![](assets/s_ncs_user_email_del_analyze_ok.png)
 
