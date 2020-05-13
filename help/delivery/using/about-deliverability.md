@@ -16,6 +16,8 @@ snippet: y
 
 # About deliverability{#about-deliverability}
 
+**Deliverability** consists in measuring the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.
+
 Adobe Campaign offers a certain number of tools to track the deliverability performance of your platform. This section also highlights the main principles you should have in mind when managing and optimizing deliverability.
 
 ## Configuration {#configuration}

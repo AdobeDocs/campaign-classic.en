@@ -156,7 +156,7 @@ Unprocessed bounces are not displayed in the Adobe Campaign interface. They are 
 * **[!UICONTROL Address for errors]** : Fill in this field to transfer to a third party address only the error messages that the inMail process was not able to qualify.
 * **[!UICONTROL SMTP server]** : Server used to send the unprocessed bounce emails.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >To forward unprocessed bounce emails, Adobe recommends only filling in the **[!UICONTROL Address for errors]** field. However, make sure the address that is used is checked regularly, as this could put a heavy load on your mail server. Contact your account executive for more information.
 
@@ -306,7 +306,7 @@ This stage lets you include data policy preferences.
 
 ## Access from the Internet {#access-from-the-internet}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >For privacy reasons, we recommend to use HTTPS for all external resources.
 
@@ -330,7 +330,7 @@ Adobe Campaign lets you differentiate these three URLs to spread the load over m
 
 ## Managing public resources {#managing-public-resources}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >For privacy reasons, we recommend to use HTTPS for all external resources.
 
