@@ -64,6 +64,10 @@ To configure a deduplication, enter its label, the method, and the deduplication
 
 1. Select the type of target for this activity (by default, deduplication is linked to recipients) and the criterion to be used, i.e. the field for which identical values enable you to identify duplicates.
 
+   >[!NOTE]
+   >
+   >If you are using external data as input, for example from an external file, make sure you select the **[!UICONTROL Temporary schema]** option.
+
    ![](assets/s_user_segmentation_dedup_param2.png)
 
 1. In the next step, the **[!UICONTROL Other]** option lets you select the criterion or criteria to be used in case of identical values.
