@@ -115,6 +115,9 @@ You can insert emoticons to your email content.
 
 1. Click the **[!UICONTROL Insert emoticon]** icon.
 1. Select an emoticon from the pop-up window.
+
+    ![](assets/emoticon_4.png)
+
 1. Click the **[!UICONTROL Close]** button when done.
 
 >[!NOTE]
@@ -125,7 +128,7 @@ To customize the emoticon list, refer to [customizing the emoticon list](../../d
 
 ## Selecting message formats {#selecting-message-formats}
 
-You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab. 
+You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab.
 
 ![](assets/s_ncs_user_wizard_email_param.png)
 

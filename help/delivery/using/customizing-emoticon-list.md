@@ -23,31 +23,43 @@ Emoticons are available for email and push for more on this refer to
 
 ## Adding a new emoticon {#add-new-emoticon}
 
->[!NOTE]
->Out-of-the-box enumerations can only be managed by an administrator of your Adobe Campaign Classic console.
+>[!CAUTION]
+>
+>The emoticon list can not exceed 81 entries.
 
-1. Choose your new emoticon to add in this [page](https://unicode.org/emoji/charts/full-emoji-list.html). Note that it has to be compatible with the different platforms such as browser and OS.
+1. Choose your new emoticon to add from this [page](https://unicode.org/emoji/charts/full-emoji-list.html). Note that it has to be compatible with the different platforms such as browser and OS.
 
 1. From the **[!UICONTROL Explorer]**, select **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Enumerations]** and click the **[!UICONTROL Emoticon list]** out-of-the-box enumeration.
 
-1. Click **[!UICONTROL Add]**
+    >[!NOTE]
+    >
+    >Out-of-the-box enumerations can only be managed by an administrator of your Adobe Campaign Classic console.
+
+    ![](assets/emoticon_1.png)
+
+1. Click **[!UICONTROL Add]**.
 
 1. Fill in the fields:
-    * **[!UICONTROL U+]**: Code of your new emoticon. You can find the list of emoticons' code in this [page](https://unicode.org/emoji/charts/full-emoji-list.html).
+    * **[!UICONTROL U+]**: Code of your new emoticon. You can find the list of emoticons' codes in this [page](https://unicode.org/emoji/charts/full-emoji-list.html).
 
     * **[!UICONTROL Label)**: Label of your new emoticon.
 
     * **[!UICONTROL Display order]**: Choose here in which order your new emoticon will be displayed. Note that by selecting an existing display order the existing emoticon will be automatically moved to the store.
+    <br>In this example, we chose the display order number 80 which means that if an entry already had this order it will be automatically moved to the store and our new entry will take its place in the enumeration list.
 
-        >[!NOTE]
-        >The emoticon list can not exceed 81 entries.
+     ![](assets/emoticon_2.png)
 
 1. Click **[!UICONTROL Ok]** then **[!UICONTROL Save]** when your configuration is finished.
 
-1. For your changed to be taken into account, you need to clear your cache by selecting **[!UICONTROL File]** > **[!UICONTROL Clear the local cache...]**.
+1. For your changes to be taken into account, you need to clear your cache by selecting **[!UICONTROL File]** > **[!UICONTROL Clear the local cache...]**.
 
-Your new emoticon has now been added to the **[!UICONTROL Emoticon list]** out-of-the-box enumeration. You can change its **[!UICONTROL Display order]** by double-clicking it and move it to the store if you do not need it anymore.
-It can now be used in your deliveries. For more information on how to use emoticons in your deliveries, refer to this page.
+     ![](assets/emoticon_3.png)
+
+1. Your new emoticon has now been added to the **[!UICONTROL Emoticon list]** out-of-the-box enumeration. Double-click  it to change its **[!UICONTROL Display order]** or move it to the store if you do not need it anymore.
+
+Your new emoticon can now be found in your deliveries in the **[!UICONTROL Insert emoticon]** pop-up window in the 80th position as configured in the previous steps. For more information on how to use emoticons in your deliveries, refer to this page.
+
+![](assets/emoticon_4.png)
 
 ## Emoticons selection {#emoticons-selection}
 
@@ -118,7 +130,7 @@ You can find below the list of the 81 out-of-the-box emoticons which can be foun
 | 61 | U+1F510 | locked with key |
 | 62 | U+2705  | check mark button |
 | 63 | U+274E  | cross mark button |
-| 64 | U+2795  | Plus sign |
+| 64 | U+2795  | plus sign |
 | 65 | U+1F4E6 | package   |
 | 66 | U+2B50  | star |
 | 67 | U+1F3C6 | trophy    |
