@@ -90,4 +90,10 @@ function encryptFile(file) {
 }
 ```
 
+>[!NOTE]
+>
+>Note that GPG keys can be added to your instance using the Control Panel, which is available to all customers hosted on AWS (excepted for customers who host their marketing instances on premise).
+>
+>For more on this, refer to [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html).
+
 When importing a file, you can also unzip or decrypt it. See [Unzipping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
