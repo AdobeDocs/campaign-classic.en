@@ -18,7 +18,7 @@ snippet: y
 
 ## Use {#use}
 
-The **[!UICONTROL Load (File)]** activity lets you directly access a source of external data and use it in Adobe Campaign. Indeed, all the data required for targeting operations isn't always found in the Adobe Campaign database: it can be made available in external files.
+The **[!UICONTROL Data loading (File)]** activity lets you directly access a source of external data and use it in Adobe Campaign. Indeed, all the data required for targeting operations isn't always found in the Adobe Campaign database: it can be made available in external files.
 
 The file to be loaded can be specified by the transition or calculated during the execution of this activity. For example, it can be the list of a client's 10 favorite products whose purchases are managed in an external database.
 
