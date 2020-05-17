@@ -34,10 +34,8 @@ You can define a pre-process to be executed during file import, for example so a
 
    ![](assets/preprocessing-dataloading.png)
 
-For more on this, refer to these sections:
+For more on this, refer to this section: [Unzippping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
 
-* [Unippping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing)
-* [Zipping or encrypting a file](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file)
 
 ## Defining the file format {#defining-the-file-format}
 

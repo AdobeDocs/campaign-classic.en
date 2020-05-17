@@ -44,7 +44,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 ### Unzipping or decrypting a file before processing {#unzipping-or-decrypting-a-file-before-processing}
 
-Adobe Campaign lets you import zipped or encrypted files. Before they can be read in a **[!UICONTROL Data loading (file)]** activity, you can define a pre-processing to unzip or to decrypt the file.
+Adobe Campaign lets you import zipped or encrypted files. Before they can be read in a [Data loading (file)](../../workflow/using/data-loading--file-.md) activity, you can define a pre-processing to unzip or to decrypt the file.
 
 To be able to do so:
 
@@ -70,6 +70,8 @@ You can then use the desired pre-processing commands into your workflows:
 
 1. Add other activities to manage data coming from the file.
 1. Save and execute your workflow.
+
+For more on how to use and configure a **[!UICONTROL Data loading (file)]** activity, refer to [this section](../../workflow/using/data-loading--file-.md).
 
 When exporting a file, you can also zip or encrypt it. See [Zipping or encrypting a file](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 

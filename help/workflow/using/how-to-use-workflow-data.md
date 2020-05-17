@@ -97,3 +97,5 @@ function encryptFile(file) {
 >For more on this, refer to [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html).
 
 When importing a file, you can also unzip or decrypt it. See [Unzipping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
+
+For more on how to use and configure a **[!UICONTROL Data extraction (file)]** activity, refer to [this section](../../workflow/using/extraction--file-.md).
