@@ -36,7 +36,6 @@ You can define a pre-process to be executed during file import, for example so a
 
 For more on this, refer to this section: [Unzippping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
 
-
 ## Defining the file format {#defining-the-file-format}
 
 When you load a file, the column format is automatically detected with the default parameters for each data type. You can modify these default parameters in order to specify the particular processes to apply to your data, particularly when there is an error or an empty value.
