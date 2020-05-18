@@ -81,7 +81,7 @@ To be able to do so:
 * If your installation of Adobe Campaign is hosted by Adobe: send a request to [Support](https://support.neolane.net) to have the necessary utilities installed on the server.
 * If your installation of Adobe Campaign is on premise: install the utility you want to use (for example: GPG, GZIP) as well as the necessary keys (encryption key) on the application server.
 
-You can then use commands or code, such as:
+You can then use commands or code in the **[!UICONTROL Script]** tab of the activity, such as:
 
 ```
 function encryptFile(file) {  
