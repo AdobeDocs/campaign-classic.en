@@ -389,7 +389,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
-   <td> (Install compatibility mode:build&gt;6000) If the "1" is entered, this option activates the compatibility mode for stored passwords. Changing this option prevents the use of old passwords stored in the database.<br /> </td> 
+   <td> (Install compatibility mode: build&gt;6000) When activated (value “1”), this option allows the use of old passwords stored in the database for the connexion to external accounts or to the instance.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 

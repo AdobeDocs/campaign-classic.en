@@ -292,7 +292,7 @@ The following parameters available for each rule are:
 
   * **[!UICONTROL Default configuration]**: This is the general configuration specified in the serverConf.xml configuration file which is applied.
 
-    >[!CAUTION]
+    >[!IMPORTANT]
     >
     >It is not recommended to modify the default configuration.
 
@@ -326,7 +326,7 @@ If the **[!UICONTROL Image inclusion]** option is enabled, these are displayed d
 
 This option is particularly used by the Japanese market for **Deco-mail**, **Decore Mail** or **Decoration Mail**. For more information, consult [this document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Inserting images in an email increases its size considerably.
 
@@ -354,7 +354,7 @@ To use the statistics server on the same machine, you must enter at least the na
  <mta statServerAddress="localhost">
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If this field is not populated, the **mta** will not start.
 

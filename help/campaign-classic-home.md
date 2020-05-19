@@ -13,16 +13,16 @@ topic: Premium
 ## What's New
 
 * **[Get Support](https://helpx.adobe.com/campaign/kb/ac-support.html)**<br/>
-Access FAQs, best practices, help resources, and connect with Campaign experts and Customer Care team
+Access FAQs, best practices, help resources, and request for help
 
 * **[Privacy Compliance](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 Learn how Adobe Campaign can help you with your Privacy compliance
 
 * **[Tracking capabilities](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>
-Understand tracking capabilities in Campaign
+Understand tracking capabilities and processes in Campaign
 
 * **[Interactive content with AMP](delivery/using/defining-interactive-content.md)**<br/>
-Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/about/email/) format
+Learn how to send dynamic emails with the new AMP format
 
 [Click here for more updates](/help/rn/using/documentation-updates.md)
 
@@ -79,7 +79,7 @@ Learn how to send dynamic emails with the new [AMP for Email](https://amp.dev/ab
 | [Release notes](/help/rn/using/latest-release.md) | [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [Campaign data model](configuration/using/about-data-model.md)|
 | [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| [Get started with Campaign Classic](platform/using/about-adobe-campaign-classic.md) | [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html) |
+| [Get started with Campaign](platform/using/about-adobe-campaign-classic.md) | [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html) |
 | [Gold Standard upgrade](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
-| [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) | [Security & Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) |
+| [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) | [Security & privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) |
 | [Campaign Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Monitoring best practices](https://helpx.adobe.com/campaign/kb/acc-maintenance.html) |

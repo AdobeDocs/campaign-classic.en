@@ -16,11 +16,9 @@ snippet: y
 
 # Deliverability key points{#deliverability-key-points}
 
-Deliverability consists in measuring the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.
-
 To optimize the deliverability of your Adobe Campaign emails, we recommend using the best practices listed below. Deliverability problems are generally linked to measures of protection against spam implemented by Internet service providers and mail server administrators.
 
-Email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format.
+**Email deliverability** refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format.
 
 These characteristics fall into four main categories:
 * Data quality
@@ -30,7 +28,7 @@ These characteristics fall into four main categories:
 
 Together, they form the foundation of a successful email deliverability program.
 
-The deliverability rate is the number of sent emails that were successfully delivered to its recipients.
+The **deliverability rate** is the number of sent emails that were successfully delivered to its recipients.
 
 The deliverability rate depends on numerous factors, particularly:
 * Correct configuration of your instances
@@ -41,7 +39,7 @@ The deliverability rate depends on numerous factors, particularly:
 * Message authentication (SPF, DKIM, DMARC)
 * Sender reputation
 
-Here is a list of the key points to check to ensure good deliverability.
+Below is a list of the key points to check to ensure good deliverability.
 
 ## Check network configuration {#network-configuration}
 
@@ -57,7 +55,7 @@ ISPs usually have a prominent means of reporting a received message as spam. Thi
 
 ## Send to honeypot addresses {#honeypot-addresses}
 
-ISPs and other organizations (refer to https://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.
+ISPs and other organizations (see the [Project Honey Pot](https://www.projecthoneypot.org/) website) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.
 
 ## Adapt the message content {#message-content}
  
