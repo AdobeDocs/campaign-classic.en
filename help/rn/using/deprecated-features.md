@@ -33,7 +33,7 @@ This process gives customers at least one release cycle to adapt their implement
 
 This section lists features and capabilities that have been marked as deprecated with latest Campaign Classic releases. 
 
-Generally, features that are planned to be removed in a future release are set to deprecated first, with an alternative provided. These features and capabilities are either no longer available for new Campaign Standard customers, or should not be used for any new implementation. They are also removed from product documentation.
+Generally, features that are planned to be removed in a future release are set to deprecated first, with an alternative provided. These features and capabilities are either no longer available for new Campaign Classic customers, or should not be used for any new implementation. They are also removed from product documentation.
 
 Customers are advised to review if they make use of the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided. Please refer to the target removal date to plan your environment and project updates accordingly.
 
@@ -110,7 +110,7 @@ Please refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/c
 
 ## Removed features {#removed-features}
 
-This section lists features and capabilities that have been removed from Campaign Standard.
+This section lists features and capabilities that have been removed from Campaign Classic.
 
 <table> 
  <tbody> 
