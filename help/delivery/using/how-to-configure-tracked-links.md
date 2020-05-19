@@ -38,7 +38,7 @@ Message tracking is enabled by default. To personalize how URLs are tracked, fol
 
 1. For each URL of the message, select whether or not to activate tracking.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >When the URL of the link is used as a label, it is recommended to desactivate tracking to avoid risks of rejection due to phishing.
    >

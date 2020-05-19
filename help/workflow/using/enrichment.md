@@ -51,7 +51,11 @@ There are four types of links:
 
   This option is configured in the **[!UICONTROL Reconciliation and deduplication]** tab that can be accessed via the **[!UICONTROL Edit additional data]** link of the **[!UICONTROL Enrichment]** activity.
 
-The [Enriching data](../../workflow/using/enriching-data.md) and [Creating a summary list](../../workflow/using/creating-a-summary-list.md) use cases detail the operating of Enrichment activities in their context.
+Use cases detailing the operating of Enrichment activities in their context are also available in these sections:
+
+* [Email enrichment with custom date fields](../../workflow/using/email-enrichment-with-custom-date-fields.md).
+* [Enriching data](../../workflow/using/enriching-data.md)
+* [Creating a summary list](../../workflow/using/creating-a-summary-list.md)
 
 ## Adding information {#adding-information}
 

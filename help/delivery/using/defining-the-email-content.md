@@ -33,7 +33,7 @@ To find out how to insert and use personalization fields, refer to [About person
 >* The sender's address is mandatory to allow an email to be sent (RFC standard).
 >* Adobe Campaign checks the syntax of email addresses entered.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In the context of the checks implemented by Internet Access Providers (ISPs) to combat unsolicited email (spam), Adobe recommends creating email accounts that correspond to the addresses specified for deliveries and replies. Check with your messaging system administrator.
 
@@ -41,7 +41,7 @@ To find out how to insert and use personalization fields, refer to [About person
 
 The subject of the message is configured in the corresponding field. You can enter it directly in the field or click the **[!UICONTROL Subject]** link to enter a script. The personalization link lets you insert database fields in the subject.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The message subject is mandatory.
 
@@ -57,7 +57,7 @@ For example, in the message above, the subject of the message is personalized fo
 
 ## Message content {#message-content}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >For privacy reasons, we recommend using HTTPS for all external resources.
 
@@ -69,7 +69,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   If you are using the [Digital Content Editor](../../web/using/about-campaign-html-editor.md) (DCE), refer to [Selecting a content template](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >The HTML content must be created beforehand, then imported into Adobe Campaign. The HTML editor is not designed for content creation.
 
@@ -123,7 +123,7 @@ Select the format of the email in the lower section of the window:
 
   The message contains both formats: text and HTML. The format displayed on reception depends on the configuration of the recipient's mail software (multipart-alternative).
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >This option includes both versions of the document. It therefore impacts the delivery rate, because the message size is greater.
 
@@ -164,7 +164,7 @@ Images can be:
 
 * An asset shared with Adobe Experience Cloud. Refer to [this section](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >To include images in the email messages using the delivery wizard, the Adobe Campaign instance must be configured to enable public resource management. This procedure can be performed from the deployment wizard. Refer to the [this section](../../installation/using/deploying-an-instance.md) for further information on configuration.
 
@@ -189,7 +189,7 @@ When you open HTML content with included images in the delivery wizard, a messag
 
 ![](assets/s_ncs_user_email_del_img_local.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The image access paths are modified during manual uploading or when sending messages.
 
@@ -354,7 +354,7 @@ In the **[!UICONTROL Preview]** tab of the content editing window, clicking **[!
 
 In addition to the previewing diagnosis, a second check is carried out when sending a proof or a delivery: a specific typology rule, **[!UICONTROL Deco-mail check]**, is started during the analysis.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >This typology rule is only executed if at least one of the recipients is configured to receive emails in **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** format.
 
@@ -391,6 +391,6 @@ When Adobe Campaign dynamically manages the formats according to the domain (pro
 
 The message contact will display correctly for the users on Japanese mobiles, just as for the standard recipients.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [this section](#limitations-and-recommendations).
