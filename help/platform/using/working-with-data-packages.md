@@ -332,3 +332,123 @@ Standard packages are installed when the Adobe Campaign is configured. Depending
 Refer to your license agreement to check which packages you can install.
 
 For more information on standard packages, refer to [this page](../../installation/using/installing-campaign-standard-packages.md).
+
+## Data package best practices 
+
+### Objective
+How to organize data packages in a consistent way across the life of the project.
+
+### Introduction
+Adobe Campaign allows you to export or import the platform configuration through a package system. Packages can contain different kinds of configurations and elements, filtered or not. If you miss some elements or do not import elements/packages in the correct order, the platform configuration can break.
+
+Moreover, with several people working on the same platform with a lot of different features, the package specifications folder can quickly become a mess.
+
+Although it is not mandatory to do so, this article will offer a solution to help organize and use packages in Adobe Campaign. This solution has been used with a project involving more than 10 consultants.
+
+### Constraints
+Organize packages and keep a track of what is changed and when.
+If a configuration is updated, minimize the risk of breaking something which is not directly linked to the update.
+
+### Recommendations
+
+#### Importing within the same version of the platform
+Always check that you deploy your packages between two instances that have the same build. Never force the import and always update the platform first (if the build is different).
+
+### Importing between different versions
+This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter. 
+
+#### Schema and database structure
+Importation of package with schema must be followed by schema generation.
+
+### Solution
+
+#### Package types
+Start by defining different types of packages. Only four types will be used:
+
+Entities
+Features
+Campaigns
+Updates
+
+ENTITIES
+All “xtk” and “nms” specific elements in Adobe Campaign like schemas, forms, folders, delivery templates, etc.
+You can consider an entity as both an “admin” and “platform” element.
+You should not include more than one entity in a package when uploading it on a Campaign instance.  
+Nothing “works” alone. An entity package does not have a specific role or objective.
+
+FEATURES
+Answers a client requirement/specification.
+Contains one or several functionalities.
+Should contain all dependencies to be able to run the functionality without any other package.
+
+CAMPAIGNS
+This is not mandatory. It is sometimes useful to create a specific type for all campaigns, even if a campaign can been seen as a feature.
+
+UPDATES
+Once configured, a feature can be exported into another environment. For example, the package can be exported from a dev environment to a test environment. In this test, a defect is revealed. First, it needs to be fixed on the dev environment. Then, the patch should be applied on the test platform.
+
+The first solution would be to export the whole feature again. But, to avoid any risk (updating something we don’t want), it’s better to have a package containing only the correction.
+
+That’s why we recommend creating an “update” package, containing only one entity type of the feature.
+
+An update could not only be a fix, but also a new element of your entity/feature/campaign package. To avoid deploying the whole package, you can export an “update” package.
+
+### Deploying a new instance
+If you need to deploy your configuration on a new instance, you can import all your entity packages.
+
+### Naming conventions
+Now that types are defined, we should specify a naming convention. Adobe Campaign does not allow you to create subfolders for package specifications meaning that numbers is the best solution for staying organized. Numbers prefix package names. You can use the following convention:
+
+Entity: From 1 to 99
+Feature: From 100 to 199
+Campaign: From 200 to 299
+Update: From 5000 to 5999
+
+### Rules
+It is better to set up rules for defining the correct number.
+
+### Packages
+
+#### Entity packages order
+To help the import, entity packages should by ordered as they will be imported. For example:
+
+001 – Schema
+002 – Form
+003 – Images
+...
+Note:
+
+Forms should be imported only after schema updates.
+
+#### Package 200
+The package number “200” should not be used for a specific campaign, but stay reserved. This number will be used to update something that concerns all campaigns.
+
+#### Update package
+The last point concerns the update package numbering. It is your package number (entity, feature, or campaign) with a “5” as prefix. For example:
+
+5001 to update one schema
+5200 to update all campaigns
+5101 to update the 101 feature
+The update package should only contain one specific entity, in order to be easily reusable. To split them, add a new number (start from 1). There are no specific ordering rules for these packages. To better understand, imagine that we have a 101 feature, a social application:
+
+It contains a webApp and an external account. 
+The package label is: 101 – Social application (socialApplication). 
+There is a defect on the webApp.
+The wepApp is corrected.
+A fix package needs to be created, with the following name: 5101 – 1 – Social application webApp (socialApplication_webApp).
+A new external account needs to be added for the social feature.
+External account is created.
+The new package is: 5101 – 2 – Social application external account (socialApplication_extAccount).
+In parallel the 101 package is updated to be added to the external account, but it is not deployed.
+![](assets/)
+
+#### Package documentation
+When you update a package, you should always put a comment in the description field to detail any modifications and reasons (for example, "add a new schema" or "fix a defect"). You should also date the comment. Always report your comment on an update package to the “parent” (package without the 5).
+
+Caution:
+
+>[!IMPORTANT]
+>
+>As the description field has a length of "only" 2.000 characters, you will run into issues when having lots of updates and thus lots of entries in the description field.
+
+![](assets/)
