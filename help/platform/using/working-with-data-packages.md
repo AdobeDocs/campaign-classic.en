@@ -355,7 +355,7 @@ The main constraints are as follows:
 >
 >For more on setting up a workflow to automatically export packages, see [this page](https://helpx.adobe.com/campaign/kb/export-packages-automatically.html).
 
-### Recommendations
+### Recommendations {#data-package-recommendations}
 
 Always import within the same version of the platform. You must check that you deploy your packages between two instances that have the same build. Never force the import and always update the platform first (if the build is different).
 
@@ -366,9 +366,9 @@ Always import within the same version of the platform. You must check that you d
 
 Pay attention to the schema and database structure. Importation of package with schema must be followed by schema generation.
 
-### Solution
+### Solution {#data-package-solution}
 
-#### Package types
+#### Package types {#package-types}
 
 Start by defining different types of packages. Only four types will be used:
 
@@ -399,7 +399,7 @@ That’s why we recommend creating an “update” package, containing only one 
 
 An update could not only be a fix, but also a new element of your entity/feature/campaign package. To avoid deploying the whole package, you can export an update package.
 
-### Naming conventions
+### Naming conventions {#data-package-naming}
 
 Now that types are defined, we should specify a naming convention. Adobe Campaign does not allow to create subfolders for package specifications, meaning that numbers is the best solution for staying organized. Numbers prefix package names. You can use the following convention:
 
@@ -408,13 +408,13 @@ Now that types are defined, we should specify a naming convention. Adobe Campaig
 * Campaign: from 200 to 299
 * Update: from 5000 to 5999
 
-### Packages
+### Packages {#data-packages}
 
 >[!NOTE]
 >
 >It is better to set up rules for defining the correct number of packages.
 
-#### Entity packages order
+#### Entity packages order {#entity-packages-order}
 To help the import, entity packages should by ordered as they will be imported. For example:
 * 001 – Schema
 * 002 – Form
@@ -425,10 +425,10 @@ To help the import, entity packages should by ordered as they will be imported. 
 >
 >Forms should be imported only after schema updates.
 
-#### Package 200
+#### Package 200 {#package-200}
 Package number “200” should not be used for a specific campaign: this number will be used to update something that concerns all campaigns.
 
-#### Update package
+#### Update package {#update-package}
 The last point concerns the update package numbering. It is your package number (entity, feature, or campaign) with a “5” as prefix. For example:
 * 5001 to update one schema
 * 5200 to update all campaigns
@@ -446,10 +446,12 @@ The update package should only contain one specific entity, in order to be easil
   * In parallel the 101 package is updated to be added to the external account, but it is not deployed.
 ![](assets/ncs_datapackage_best-practices-1.png)
 
-#### Package documentation
-When you update a package, you should always put a comment in the description field to detail any modifications and reasons (for example, "add a new schema" or "fix a defect"). You should also date the comment. Always report your comment on an update package to the “parent” (package without the 5 prefix).
+#### Package documentation {#package-documentation}
+When you update a package, you should always put a comment in the description field to detail any modifications and reasons (for example, "add a new schema" or "fix a defect").
 
 ![](assets/ncs_datapackage_best-practices-2.png)
+
+You should also date the comment. Always report your comment on an update package to the “parent” (package without the 5 prefix).
 
 >[!IMPORTANT]
 >
