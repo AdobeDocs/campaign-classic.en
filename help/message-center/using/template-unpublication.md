@@ -36,7 +36,7 @@ To unpublish a transactional message template, follow the steps below.
 
 ![](assets/message-center-unpublish.png)
 
-The transactional message template status changes from **[!UICONTROL Published]** to **[!UICONTROL Unpublished]**.
+The transactional message template status changes back from **[!UICONTROL Published]** to **[!UICONTROL Being edited]**.
 
 Once unpublication is complete:
 
