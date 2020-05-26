@@ -31,6 +31,8 @@ Deliverability guidelines when starting a new platform section has been enhanced
 
 The Sending transactional emails with attachments section has been moved and updated. [Read more](../../message-center/using/transactional-email-with-attachments.md)
 
+The Data package best practices section has been moved and updated. [Read more](../../platform/using/working-with-data-packages.md#data-package-best-practices)
+
 ## April 2020 {#april-2020}
 
 The FDA rights table has been moved to the Accessing an external database (FDA) documentation. [Read more](../../platform/using/remote-database-access-rights.md)

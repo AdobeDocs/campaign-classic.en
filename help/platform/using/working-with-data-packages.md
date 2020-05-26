@@ -332,3 +332,131 @@ Standard packages are installed when the Adobe Campaign is configured. Depending
 Refer to your license agreement to check which packages you can install.
 
 For more information on standard packages, refer to [this page](../../installation/using/installing-campaign-standard-packages.md).
+
+## Data package best practices {#data-package-best-practices}
+
+This section describes how to organize data packages in a consistent way across the life of the project.
+
+<!--Adobe Campaign allows you to export or import the platform configuration through a package system.-->
+
+Packages can contain different kinds of configurations and elements, filtered or not. If you miss some elements or do not import elements/packages in the correct order, the platform configuration can break.
+
+Moreover, with several people working on the same platform with a lot of different features, the package specifications folder can quickly become complex.
+
+Although it is not mandatory to do so, this section offers a solution to help organize and use packages in Adobe Campaign for large-scale projects.
+
+<!--This solution has been used with a project involving more than 10 consultants.-->
+
+The main constraints are as follows:
+* Organize packages and keep a track of what is changed and when
+* If a configuration is updated, minimize the risk of breaking something which is not directly linked to the update
+
+>[!NOTE]
+>
+>For more on setting up a workflow to automatically export packages, see [this page](https://helpx.adobe.com/campaign/kb/export-packages-automatically.html).
+
+### Recommendations {#data-package-recommendations}
+
+Always import within the same version of the platform. You must check that you deploy your packages between two instances that have the same build. Never force the import and always update the platform first (if the build is different).
+
+>[!IMPORTANT]
+>
+>Importing between different versions is not supported by Adobe.
+<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
+
+Pay attention to the schema and database structure. Importation of package with schema must be followed by schema generation.
+
+### Solution {#data-package-solution}
+
+#### Package types {#package-types}
+
+Start by defining different types of packages. Only four types will be used:
+
+**Entities**
+* All “xtk” and “nms” specific elements in Adobe Campaign like schemas, forms, folders, delivery templates, etc.
+* You can consider an entity as both an “admin” and “platform” element.
+* You should not include more than one entity in a package when uploading it on a Campaign instance.  
+
+<!--Nothing “works” alone. An entity package does not have a specific role or objective.-->
+
+If you need to deploy your configuration on a new instance, you can import all your entity packages.
+
+**Features**
+This type of package:
+* Answers a client requirement/specification.
+* Contains one or several functionalities.
+* Should contain all dependencies to be able to run the functionality without any other package.
+
+**Campaigns**
+This package is not mandatory. It is sometimes useful to create a specific type for all campaigns, even if a campaign can been seen as a feature.
+
+**Updates**
+Once configured, a feature can be exported into another environment. For example, the package can be exported from a dev environment to a test environment. In this test, a defect is revealed. First, it needs to be fixed on the dev environment. Then, the patch should be applied to the test platform.
+
+The first solution would be to export the whole feature again. But, to avoid any risk (updating unwanted elements), it is safer to have a package containing only the correction.
+
+That’s why we recommend creating an “update” package, containing only one entity type of the feature.
+
+An update could not only be a fix, but also a new element of your entity/feature/campaign package. To avoid deploying the whole package, you can export an update package.
+
+### Naming conventions {#data-package-naming}
+
+Now that types are defined, we should specify a naming convention. Adobe Campaign does not allow to create subfolders for package specifications, meaning that numbers is the best solution for staying organized. Numbers prefix package names. You can use the following convention:
+
+* Entity: from 1 to 99
+* Feature: from 100 to 199
+* Campaign: from 200 to 299
+* Update: from 5000 to 5999
+
+### Packages {#data-packages}
+
+>[!NOTE]
+>
+>It is better to set up rules for defining the correct number of packages.
+
+#### Entity packages order {#entity-packages-order}
+
+To help the import, entity packages should by ordered as they will be imported. For example:
+* 001 – Schema
+* 002 – Form
+* 003 – Images
+* etc.
+
+>[!NOTE]
+>
+>Forms should be imported only after schema updates.
+
+#### Package 200 {#package-200}
+
+Package number “200” should not be used for a specific campaign: this number will be used to update something that concerns all campaigns.
+
+#### Update package {#update-package}
+
+The last point concerns the update package numbering. It is your package number (entity, feature, or campaign) with a “5” as prefix. For example:
+* 5001 to update one schema
+* 5200 to update all campaigns
+* 5101 to update the 101 feature
+
+The update package should only contain one specific entity, in order to be easily reusable. To split them, add a new number (start from 1). There are no specific ordering rules for these packages. To better understand, imagine that we have a 101 feature, a social application:
+* It contains a webApp and an external account.
+  * The package label is: 101 – Social application (socialApplication).
+* There is a defect on the webApp.
+  * The wepApp is corrected.
+  * A fix package needs to be created, with the following name: 5101 – 1 – Social application webApp (socialApplication_webApp).
+* A new external account needs to be added for the social feature.
+  * External account is created.
+  * The new package is: 5101 – 2 – Social application external account (socialApplication_extAccount).
+  * In parallel the 101 package is updated to be added to the external account, but it is not deployed.
+![](assets/ncs_datapackage_best-practices-1.png)
+
+#### Package documentation {#package-documentation}
+
+When you update a package, you should always put a comment in the description field to detail any modifications and reasons (for example, "add a new schema" or "fix a defect").
+
+![](assets/ncs_datapackage_best-practices-2.png)
+
+You should also date the comment. Always report your comment on an update package to the “parent” (package without the 5 prefix).
+
+>[!IMPORTANT]
+>
+>The description field can only contain up to 2.000 characters.
