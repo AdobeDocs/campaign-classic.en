@@ -333,32 +333,34 @@ Refer to your license agreement to check which packages you can install.
 
 For more information on standard packages, refer to [this page](../../installation/using/installing-campaign-standard-packages.md).
 
-## Data package best practices 
+## Data package best practices {#data-package-best-practices}
 
-### Objective
-How to organize data packages in a consistent way across the life of the project.
+This section describes how to organize data packages in a consistent way across the life of the project.
 
-### Introduction
-Adobe Campaign allows you to export or import the platform configuration through a package system. Packages can contain different kinds of configurations and elements, filtered or not. If you miss some elements or do not import elements/packages in the correct order, the platform configuration can break.
+<!--Adobe Campaign allows you to export or import the platform configuration through a package system.-->
 
-Moreover, with several people working on the same platform with a lot of different features, the package specifications folder can quickly become a mess.
+Packages can contain different kinds of configurations and elements, filtered or not. If you miss some elements or do not import elements/packages in the correct order, the platform configuration can break.
 
-Although it is not mandatory to do so, this article will offer a solution to help organize and use packages in Adobe Campaign. This solution has been used with a project involving more than 10 consultants.
+Moreover, with several people working on the same platform with a lot of different features, the package specifications folder can quickly become complex.
 
-### Constraints
-Organize packages and keep a track of what is changed and when.
-If a configuration is updated, minimize the risk of breaking something which is not directly linked to the update.
+Although it is not mandatory to do so, this section offers a solution to help organize and use packages in Adobe Campaign for large-scale projects.
+
+<!--This solution has been used with a project involving more than 10 consultants.-->
+
+The main constraints are as follows:
+* Organize packages and keep a track of what is changed and when
+* If a configuration is updated, minimize the risk of breaking something which is not directly linked to the update
 
 ### Recommendations
 
-#### Importing within the same version of the platform
-Always check that you deploy your packages between two instances that have the same build. Never force the import and always update the platform first (if the build is different).
+Always import within the same version of the platform. You must check that you deploy your packages between two instances that have the same build. Never force the import and always update the platform first (if the build is different).
 
-### Importing between different versions
-This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter. 
+>[!IMPORTANT]
+>
+>Importing between different versions is not supported by Adobe.
+<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
 
-#### Schema and database structure
-Importation of package with schema must be followed by schema generation.
+Pay attention to the schema and database structure. Importation of package with schema must be followed by schema generation.
 
 ### Solution
 
