@@ -415,6 +415,7 @@ Now that types are defined, we should specify a naming convention. Adobe Campaig
 >It is better to set up rules for defining the correct number of packages.
 
 #### Entity packages order {#entity-packages-order}
+
 To help the import, entity packages should by ordered as they will be imported. For example:
 * 001 – Schema
 * 002 – Form
@@ -426,9 +427,11 @@ To help the import, entity packages should by ordered as they will be imported. 
 >Forms should be imported only after schema updates.
 
 #### Package 200 {#package-200}
+
 Package number “200” should not be used for a specific campaign: this number will be used to update something that concerns all campaigns.
 
 #### Update package {#update-package}
+
 The last point concerns the update package numbering. It is your package number (entity, feature, or campaign) with a “5” as prefix. For example:
 * 5001 to update one schema
 * 5200 to update all campaigns
@@ -447,6 +450,7 @@ The update package should only contain one specific entity, in order to be easil
 ![](assets/ncs_datapackage_best-practices-1.png)
 
 #### Package documentation {#package-documentation}
+
 When you update a package, you should always put a comment in the description field to detail any modifications and reasons (for example, "add a new schema" or "fix a defect").
 
 ![](assets/ncs_datapackage_best-practices-2.png)
