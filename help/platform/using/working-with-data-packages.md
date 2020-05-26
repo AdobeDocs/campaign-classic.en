@@ -351,6 +351,10 @@ The main constraints are as follows:
 * Organize packages and keep a track of what is changed and when
 * If a configuration is updated, minimize the risk of breaking something which is not directly linked to the update
 
+>[!NOTE]
+>
+>For more on setting up a workflow to automatically export packages, see [this page](https://helpx.adobe.com/campaign/kb/export-packages-automatically.html).
+
 ### Recommendations
 
 Always import within the same version of the platform. You must check that you deploy your packages between two instances that have the same build. Never force the import and always update the platform first (if the build is different).
