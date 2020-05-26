@@ -365,92 +365,88 @@ Pay attention to the schema and database structure. Importation of package with 
 ### Solution
 
 #### Package types
+
 Start by defining different types of packages. Only four types will be used:
 
-Entities
-Features
-Campaigns
-Updates
+**Entities**
+* All “xtk” and “nms” specific elements in Adobe Campaign like schemas, forms, folders, delivery templates, etc.
+* You can consider an entity as both an “admin” and “platform” element.
+* You should not include more than one entity in a package when uploading it on a Campaign instance.  
 
-ENTITIES
-All “xtk” and “nms” specific elements in Adobe Campaign like schemas, forms, folders, delivery templates, etc.
-You can consider an entity as both an “admin” and “platform” element.
-You should not include more than one entity in a package when uploading it on a Campaign instance.  
-Nothing “works” alone. An entity package does not have a specific role or objective.
+<!--Nothing “works” alone. An entity package does not have a specific role or objective.-->
 
-FEATURES
-Answers a client requirement/specification.
-Contains one or several functionalities.
-Should contain all dependencies to be able to run the functionality without any other package.
+If you need to deploy your configuration on a new instance, you can import all your entity packages.
 
-CAMPAIGNS
-This is not mandatory. It is sometimes useful to create a specific type for all campaigns, even if a campaign can been seen as a feature.
+**Features**
+This type of package:
+* Answers a client requirement/specification.
+* Contains one or several functionalities.
+* Should contain all dependencies to be able to run the functionality without any other package.
 
-UPDATES
-Once configured, a feature can be exported into another environment. For example, the package can be exported from a dev environment to a test environment. In this test, a defect is revealed. First, it needs to be fixed on the dev environment. Then, the patch should be applied on the test platform.
+**Campaigns**
+This package is not mandatory. It is sometimes useful to create a specific type for all campaigns, even if a campaign can been seen as a feature.
 
-The first solution would be to export the whole feature again. But, to avoid any risk (updating something we don’t want), it’s better to have a package containing only the correction.
+**Updates**
+Once configured, a feature can be exported into another environment. For example, the package can be exported from a dev environment to a test environment. In this test, a defect is revealed. First, it needs to be fixed on the dev environment. Then, the patch should be applied to the test platform.
+
+The first solution would be to export the whole feature again. But, to avoid any risk (updating unwanted elements), it is safer to have a package containing only the correction.
 
 That’s why we recommend creating an “update” package, containing only one entity type of the feature.
 
-An update could not only be a fix, but also a new element of your entity/feature/campaign package. To avoid deploying the whole package, you can export an “update” package.
-
-### Deploying a new instance
-If you need to deploy your configuration on a new instance, you can import all your entity packages.
+An update could not only be a fix, but also a new element of your entity/feature/campaign package. To avoid deploying the whole package, you can export an update package.
 
 ### Naming conventions
-Now that types are defined, we should specify a naming convention. Adobe Campaign does not allow you to create subfolders for package specifications meaning that numbers is the best solution for staying organized. Numbers prefix package names. You can use the following convention:
 
-Entity: From 1 to 99
-Feature: From 100 to 199
-Campaign: From 200 to 299
-Update: From 5000 to 5999
+Now that types are defined, we should specify a naming convention. Adobe Campaign does not allow to create subfolders for package specifications, meaning that numbers is the best solution for staying organized. Numbers prefix package names. You can use the following convention:
 
-### Rules
-It is better to set up rules for defining the correct number.
+* Entity: from 1 to 99
+* Feature: from 100 to 199
+* Campaign: from 200 to 299
+* Update: from 5000 to 5999
 
 ### Packages
 
+>[!NOTE]
+>
+>It is better to set up rules for defining the correct number of packages.
+
 #### Entity packages order
 To help the import, entity packages should by ordered as they will be imported. For example:
+* 001 – Schema
+* 002 – Form
+* 003 – Images
+* etc.
 
-001 – Schema
-002 – Form
-003 – Images
-...
-Note:
-
-Forms should be imported only after schema updates.
+>[!NOTE]
+>
+>Forms should be imported only after schema updates.
 
 #### Package 200
-The package number “200” should not be used for a specific campaign, but stay reserved. This number will be used to update something that concerns all campaigns.
+Package number “200” should not be used for a specific campaign: this number will be used to update something that concerns all campaigns.
 
 #### Update package
 The last point concerns the update package numbering. It is your package number (entity, feature, or campaign) with a “5” as prefix. For example:
+* 5001 to update one schema
+* 5200 to update all campaigns
+* 5101 to update the 101 feature
 
-5001 to update one schema
-5200 to update all campaigns
-5101 to update the 101 feature
 The update package should only contain one specific entity, in order to be easily reusable. To split them, add a new number (start from 1). There are no specific ordering rules for these packages. To better understand, imagine that we have a 101 feature, a social application:
-
-It contains a webApp and an external account. 
-The package label is: 101 – Social application (socialApplication). 
-There is a defect on the webApp.
-The wepApp is corrected.
-A fix package needs to be created, with the following name: 5101 – 1 – Social application webApp (socialApplication_webApp).
-A new external account needs to be added for the social feature.
-External account is created.
-The new package is: 5101 – 2 – Social application external account (socialApplication_extAccount).
-In parallel the 101 package is updated to be added to the external account, but it is not deployed.
-![](assets/)
+* It contains a webApp and an external account.
+  * The package label is: 101 – Social application (socialApplication).
+* There is a defect on the webApp.
+  * The wepApp is corrected.
+  * A fix package needs to be created, with the following name: 5101 – 1 – Social application webApp (socialApplication_webApp).
+* A new external account needs to be added for the social feature.
+  * External account is created.
+  * The new package is: 5101 – 2 – Social application external account (socialApplication_extAccount).
+  * In parallel the 101 package is updated to be added to the external account, but it is not deployed.
+![](assets/ncs_datapackage_best-practices-1.png)
 
 #### Package documentation
-When you update a package, you should always put a comment in the description field to detail any modifications and reasons (for example, "add a new schema" or "fix a defect"). You should also date the comment. Always report your comment on an update package to the “parent” (package without the 5).
+When you update a package, you should always put a comment in the description field to detail any modifications and reasons (for example, "add a new schema" or "fix a defect"). You should also date the comment. Always report your comment on an update package to the “parent” (package without the 5 prefix).
 
-Caution:
+![](assets/ncs_datapackage_best-practices-2.png)
 
 >[!IMPORTANT]
 >
->As the description field has a length of "only" 2.000 characters, you will run into issues when having lots of updates and thus lots of entries in the description field.
-
-![](assets/)
+>The description field can only contain up to 2.000 characters.
