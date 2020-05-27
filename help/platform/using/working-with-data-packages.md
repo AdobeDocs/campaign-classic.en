@@ -382,15 +382,18 @@ Start by defining different types of packages. Only four types will be used:
 If you need to deploy your configuration on a new instance, you can import all your entity packages.
 
 **Features**
+
 This type of package:
 * Answers a client requirement/specification.
 * Contains one or several functionalities.
 * Should contain all dependencies to be able to run the functionality without any other package.
 
 **Campaigns**
+
 This package is not mandatory. It is sometimes useful to create a specific type for all campaigns, even if a campaign can been seen as a feature.
 
 **Updates**
+
 Once configured, a feature can be exported into another environment. For example, the package can be exported from a dev environment to a test environment. In this test, a defect is revealed. First, it needs to be fixed on the dev environment. Then, the patch should be applied to the test platform.
 
 The first solution would be to export the whole feature again. But, to avoid any risk (updating unwanted elements), it is safer to have a package containing only the correction.
