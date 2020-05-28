@@ -102,7 +102,7 @@ _June 8, 2020_
  <tbody> 
   <tr> 
    <td> <p>Email Feedback Service is a scalable solution which captures feedback from the <a href=https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html>Enhanced MTA</a> directly to improve reporting metrics accuracy.</p>
-    <p>This capability is released as a private beta. As a hosted customer, you can join this beta program if your instance has been upgraded to the Enhanced MTA and if IMS is enabled. For more information, contact <a href=https://helpx.adobe.com/enterprise/using/support-and-expert-services.html>Adobe Customer Care</a>. </p>
+    <p>This capability is released as a private beta. As a hosted customer, you can join this beta program if your instance has been upgraded to the Enhanced MTA and if IMS is enabled. However, you need to check with <a href=https://helpx.adobe.com/enterprise/using/support-and-expert-services.html>Adobe Customer Care</a> if you are eligible. </p>
    </p>
    </td> 
   </tr> 
