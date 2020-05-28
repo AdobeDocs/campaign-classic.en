@@ -51,7 +51,7 @@ _June 8, 2020_
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>When designing a message in Campaign, you can now insert emoticons in the message body quickly, using a dedicated button. They can also be added in the email subject line. You can customize the list of available emoticons in the UI.</p>
+   <td> <p>When designing a message in Campaign, you can now insert emoticons in the message body quickly, using a dedicated button. They can also be added in the email subject line. You can customize the list of available emoticons in the interface.</p>
     <p>For more information about adding emoticons, refer to the <a href="../../delivery/using/defining-the-email-content.md#inserting-emoticons-in-an-email">detailed documentation</a>. Learn how to customize the emoticon list <a href="../../delivery/using/customizing-emoticon-list.md">in this section</a>.</p>
    </td> 
   </tr> 
