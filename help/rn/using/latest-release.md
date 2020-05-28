@@ -46,7 +46,7 @@ _June 8, 2020_
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Emoticon support</strong><br /> </th> 
+   <th> <strong>Support of Emoticons</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -76,7 +76,7 @@ _June 8, 2020_
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Thailand and Brazil Privacy laws</strong><br /> </th> 
+   <th> <strong>Thailand and Brazil Privacy Laws</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
