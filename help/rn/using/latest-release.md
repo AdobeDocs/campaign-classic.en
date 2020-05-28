@@ -37,7 +37,7 @@ snippet: y
 
 The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/do-not-localize/blue_2.png) Release 20.2.1 - Build 9124 {#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/blue_2.png) Release 20.2.1 - Build XXXX {#release-20-2-1-build-XXXX}
 
 _June 8, 2020_
 
@@ -85,8 +85,8 @@ _June 8, 2020_
    <p>Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug, 16 for all companies collecting or processing personal data in Brazil.</p>
    <p>These regulations apply to Adobe Campaign customers who hold data for Data Subjects residing in these countries. In addition to the privacy capabilities already available in Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity to include additional capabilities, to help facilitate your readiness for PDPA and LGPD:</p>
    <ul> 
-     <li><p>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR and CCPA. Read more - ADD LINK</p></li> 
-     <li> <p>When creating a Privacy request using Campaign interface or API, you now select the regulation type field: PDPA, LGPD, GDPR, CCPA. Read more - ADD LINK</p></li>
+     <li><p>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR and CCPA. <a href= https://helpx.adobe.com/campaign/kb/acc-privacy.html> Read more</a></p></li> 
+     <li> <p>When creating a Privacy request using Campaign interface or API, you now select the regulation type field: PDPA, LGPD, GDPR, CCPA. <a href=https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests>Read more</a>K</p></li>
     </ul>
    </td> 
   </tr> 
@@ -96,13 +96,13 @@ _June 8, 2020_
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Email Feedback Service with Campaign Enhanced MTA</strong><br /> </th> 
+   <th> <strong>Email Feedback Service with Campaign Enhanced MTA (beta)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Email Feedback Service is a scalable solution which captures feedback from the <a href=https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html>Enhanced MTA</a>directly, which can lead to improved and accurate reporting.</p>
-    <p>This capability is released as a private beta. It can only be available to hosted customers who upgraded to the Enhanced MTA and who have IMS enabled.</p>
+   <td> <p>Email Feedback Service is a scalable solution which captures feedback from the <a href=https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html>Enhanced MTA</a> directly, which can lead to improved and accurate reporting.</p>
+    <p>This capability is released as a private beta. As a hosted customer, you can be join this beta program if your instance has been upgraded to the Enhanced MTA and if IMS is enabled. For more information, contact <a href=https://helpx.adobe.com/enterprise/using/support-and-expert-services.html>Adobe Customer Care</a>. </p>
    </p>
    </td> 
   </tr> 
@@ -111,7 +111,7 @@ _June 8, 2020_
 
 **Security enhancements**
 
-* Improved security on tracking links in email is enabled by default for all customers. An additional, enhanced security feature is available which can be enabled by reaching out to Customer Care. More details on the feature and steps for non-hosted customers to enable it can be found in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html). (NEO-24232)
+Improved security on tracking links in email is enabled by default for all customers. An additional, enhanced security feature is available which can be enabled by reaching out to Customer Care. More details on the feature and steps for non-hosted customers to enable it can be found in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html). (NEO-24232)
 
 **Compatibility enhancements**
 
