@@ -16,7 +16,7 @@ snippet: y
 
 # Latest Release{#latest-release}
 
-[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--19-2.md) &#124; [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--19-2.md) &#124; [Deprecated features](../../rn/using/deprecated-features.md)
 
 <table> 
  <tbody> 
@@ -84,8 +84,25 @@ _June 8, 2020_
    <td> <p>Thailand’s Personal Data Protection Act (PDPA) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. </p>
    <p>Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug, 16 for all companies collecting or processing personal data in Brazil.</p>
    <p>These regulations apply to Adobe Campaign customers who hold data for Data Subjects residing in these countries. In addition to the privacy capabilities already available in Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity to include additional capabilities, to help facilitate your readiness for PDPA and LGPD:</p>
-    <p>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR and CCPA. Read more - ADD LINK</p>
-    <p>When creating a Privacy request using Campaign interface or API, you now select the regulation type field: PDPA, LGPD, GDPR, CCPA. Read more - ADD LINK</p>
+   <ul> 
+     <li><p>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR and CCPA. Read more - ADD LINK</p></li> 
+     <li> <p>When creating a Privacy request using Campaign interface or API, you now select the regulation type field: PDPA, LGPD, GDPR, CCPA. Read more - ADD LINK</p></li>
+    </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Email Feedback Service with Campaign Enhanced MTA</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Email Feedback Service is a scalable solution which captures feedback from the <a href=https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html>Enhanced MTA</a>directly, which can lead to improved and accurate reporting.</p>
+    <p>This capability is released as a private beta. It can only be available to hosted customers who upgraded to the Enhanced MTA and who have IMS enabled.</p>
    </p>
    </td> 
   </tr> 
@@ -94,132 +111,42 @@ _June 8, 2020_
 
 **Security enhancements**
 
-* Improved security in report configuration to protect from clickjacking. This applies to new reports. For old reports, you need to republish them to apply changes. (NEO-13282)
+* Improved security on tracking links in email is enabled by default for all customers. An additional, enhanced security feature is available which can be enabled by reaching out to Customer Care. More details on the feature and steps for non-hosted customers to enable it can be found in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html). (NEO-24232)
 
-* Fix a small memory issue in cryptString. (NEO-20071)
+**Compatibility enhancements**
 
-* Improved monitor JSP to fix an internal IP disclosure. (NEO-16821)
+The following systems are now supported with Campaign:
+* Operating systems: Debian 10
+* RDBMS: Oracle 19c and Oracle 11GR2
+* FDA: Azure Synapse Analytics 
 
-* Fixed an issue where stack trace information could be displayed to non admin users. (NEO-12388)
+The version 18 of the drivers for Oracle 18c are now supported.
 
-* Improved the management of cached data from previous sessions. (NEO-17039)
+The version 19 of the drivers for Oracle 19c are now supported.
 
-* Fixed an issue that prevented the logins.log file from recording successful login attempts through IMS. (NEO-11004)
+Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)</a>.
 
 **Improvements**
 
-* iOS 13 is now supported with the HTTP2 connector.
+* Transactional messaging has been improved for a better user experience. It is now possible to unpublish a transactional message template, which deletes it from the execution instances. ADD LINK
 
-* Improved quarantine management and cleanup of the tables used by the push notification feature (nms:address and nms:appSubscriptionRcp). For iOS (HTTP2 connector only), disabled tokens are now handled in the same way as for Android. The disable flag is now set in the NmsAppSubscriptionRcp table. [Read more](../../production/using/database-cleanup-workflow.md#subscription-cleanup--nmac-)
+* Some guardrails have been set to avoid issues when sending transactional messages with image attachment as URL.
 
-* A new option has been added in the **JavaScript code** and **Advanced JavaScript code** workflow activities to define a time-out period. This prevents the javascript execution phase from running for too long. If the time-out period elapses, the workflow is stopped. The default time-out is 1 hour. [Read more](../../workflow/using/sql-code-and-javascript-code.md)
+* The new **Prepare the delivery parts in the database** option enables to perform delivery preparation directly within the database, which can significantly accelerate the analysis. (NEO-23886)
 
-* The delivery analysis is now stopped when no matching affinity is found on the mid-sourcing server, with the corresponding error message being displayed.
+* Performances of the [CRM Connector activity](../../workflow/using/crm-connector.md) for Microsoft Dynamics have been improved. (NEO-13303)
 
-* Database failover for Postgres is now supported: when the database server crashes and restarts, Campaign now reconnects to it automatically.
-
-* The **Start Pending** view has been added to the Administration > Audit > Workflows Status node. This allows you to monitor all workflows on your instance that are waiting to be started by the **operationMgt** process. This view comes with the Marketing campaigns package. [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+* The [database cleanup workflow](../../production/using/database-cleanup-workflow.md) has been modified to clean all orphans temporary objects, such as temporary workflow tables. (NEO-17336)
 
 **Other changes**
 
-* On Linux, the nlserver service startup now uses a systemd unit instead of the /etc/init.d/nlserver6 script. The migration to the new startup scheme is performed automatically when you install the 20.1 package. The /etc/init.d/nlserver6 is still provided but for interacting with the nlserver service (start, restart, stop, etc.), we recommend that you use the systemctl command directly.
+The following SMS connectors are now deprecated:
+* NetSize
+* Generic SMPP (SMPP version 3.4 supporting binary mode)
+* Sybase365 (SAP SMS 365)
+* CLX Communications
+* Tele2
+* O2
+* iOS
 
-* The most consuming custom tables have been moved from the **xtkNewId** sequence to dedicated sequences. [Read more](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence) 
-
-* Improved query performance which could be affected by unnecessary database connections.
-
-* Improved the performance of the database update wizard.
-
-* The database record management was enhanced.
-
-* The robustness of the connection pool has been improved, which may prevent unexpected connection failures from happening too often.
-
-* The email address validation rules to send an address to quarantine in case of a soft error have been enhanced. [Read more](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
-
-* For Debian, Campaign now uses system PCRE libraries when they are available.
-
-* Campaign now allows the use of a more recent system ODBC library.
-
-* A timeout has been added to the LINE servlet when opening a connection to load a rich image. If the image is taking too much time to load, the servlet stops the connection to avoid a bottleneck.
-
-**Patches**
-
-* Fixed an account key encryption issue when using the Hadoop connector. 
-
-* Fixed a regression issue due to the implementation of SSL certification which caused the user connection to fail on Windows server. (NEO-20629)
-
-* Fixed an issue with the incremental query activity in case of negative workflow IDs. (NEO-19779)
-
-* Fixed an encoding issue when running queries via the Netezza FDA connector. (NEO-19594)
-
-* Fixed an issue which led to an error when using the POST method in the **Web Download** workflow event activity.
-
-* Fixed an issue with offer proposition generation. (NEO-18176)
-
-* Fixed a footer display issue when using the acquisition web form template.
-
-* Fixed an issue when parsing the URLs in the content of continuous deliveries which could cause them to crash. (NEO-16910)
-
-* Fixed an issue with the **Start** and **End** fields not being computed when creating a new campaign.
-
-* Fixed an issue with the **File Download** workflow activity when using a URL.
-
-* Fixed an issue when previewing an imported list in a query activity of a report. (NEO-13119)
-
-* Fixed an issue which displayed an outdated image when selecting the **Powered by Campaign** personalization block in the email editor. 
-
-* The network communication between the client and the server has been improved.
-
-* Fixed an issue when too many workflows are created in the same campaign. Now, you cannot create more than 28 workflows. A warning is displayed.
-
-* Fixed an issue when using the **A selection of columns** reconciliation option in a **Union** workflow activity.
-
-* Fixed a console crash issue that could occur when using a corrupted enrichment list in a workflow. (NEO-18096)
-
-* Fixed various console crash issues that could occur in workflows (NEO-18010, NEO-18032)
-
-* Fixed an issue which allowed the execution of an **External signal** workflow activity even when it was disabled. (NEO-17524)
-
-* Fixed an issue when creating a new schema.
-
-* Fixed a tracking issue when sending SMS messages. (NEO-19595)
-
-* Fixed an issue that displayed incorrect targeted audience number in delivery indicators. 
-
-* Fixed an issue that displayed incorrect percentages when generating a descriptive report via a workflow activity. (NEO-14314)
-
-* Fixed an issue that made the delivery throughput report show different numbers when time view parameter. (NEO-11783)
-
-* Fixed an issue that prevented the transactional messages tracking indicators from being updated by the Tracking workflow. (NEO-17770)
-
-* Fixed a regression issue that caused the web process to crash and restart when requesting an offer through SOAP. (NEO-19482)
-
-* Fixed an issue that prevented from uploading data to public resources if the upload directory was a remote shared location. (NEO-19361)
-
-* Fixed an issue that caused the **Import audiences from the Adobe Experience Cloud** technical workflow tp constantly fail. (NEO-18463)
-
-* Fixed an issue that prevented deliveries from being sent when using templates imported from Experience Manager. (NEO-17540)
-
-* Fixed an issue that occurred after upgrading to build 9032 and preventing the instance from connecting to the FTP server over SSL protocol. (NEO-20498)
-
-* Fixed an issue that occurred when deleting, inserting or updating a large amount of data with the **Update data** activity in a workflow using an FDA schema as the targeting dimension. (NEO-13280)
-
-* Fixed an issue that prevented emails from being sent when using the 'if' statement outside the `body` tag.
-
-* Fixed an issue that occurred when trying to display the mirror page from the delivery logs of a sent message. (NEO-17976)
-
-* Fixed an issue that prevented the **Link to mirror page** personalization block from being displayed in the **Text content** tab after clicking **Import HTML** in a delivery. (NEO-17568)
-
-* The error message displayed when clicking a link to a mirror page that expired has been clarified. (NEO-17340)
-
-* Fixed an issue that prevented some buttons from being used in the **Data distribution** creation screen.
-
-* Fixed an issue that occurred when scheduling a delivery activity in an instance with Asia/Kolkata as the time zone. (NEO-20001)
-
-* An error is now displayed when a delivery has an affinity configuration issue. 
-
-* Fixed an issue which displayed an incorrect version tag number in the **About** menu.
-
-* Fixed an issue that occurred when trying to update the routing account from a recurring delivery's properties in a workflow. (NEO-18684)
-
-* Fixed an issue that occurred when connecting to the instance through the redirection module, which prevented the connection from being cleaned properly once closed.
+Learn more in the [Deprecated features page](../../rn/using/deprecated-features.md).
