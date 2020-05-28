@@ -1,20 +1,20 @@
 ---
-title: Latest Release
-description: Latest Release
+title: Release 20.1
+description: Release 20.1
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
-topic-tags: latest-release-notes
+topic-tags: campaign-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
 ---
 
-# Latest Release{#latest-release}
+# Release 20.1{#release-20-1}
 
 [Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--19-2.md) &#124; [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
@@ -37,22 +37,34 @@ snippet: y
 
 The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/do-not-localize/blue_2.png) Release 20.2.1 - Build 9124 {#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/blue_2.png) Release 20.1.3 - Build 9124 {#release-20-1-3-build-9124}
 
-_June 8, 2020_
+_May 6, 2020_
+
+* Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183)
+
+## ![](assets/do-not-localize/orange_2.png) Release 20.1.2 - Build 9123 {#release-20-1-2-build-9123}
+
+_March 13, 2020_
+
+* Fixed an issue that prevented version deployment on Red Hat 7 servers. (NEO-23332)
+
+## ![](assets/do-not-localize/orange_2.png) Release 20.1 - Build 9122 {#release-20-1-build-9122} 
+
+_February 17, 2020_
 
 **What's new?**
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Emoticon support</strong><br /> </th> 
+   <th> <strong>Snowflake FDA Connector</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>When designing a message in Campaign, you can now insert emoticons in the message body quickly, using a dedicated button. They can also be added in the email subject line. You can customize the list of available emoticons in the UI.</p>
-    <p>For more information about adding emoticons, refer to the <a href="../../delivery/using/defining-the-email-content.md#inserting-emoticons-in-an-email">detailed documentation</a>. Learn how to customize the emoticon list <a href="../../delivery/using/customizing-emoticon-list.md">in this section</a>.</p>
+   <td> <p>Snowflake is a fully managed cloud data warehouse built to scale on both storage and compute level. With this new connector, Adobe Campaign can now leverage the power of Snowflake to perform Big Data Segmentation. This connector is available to all customers, including hosted by Adobe.</p>
+    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutorial video</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -61,32 +73,13 @@ _June 8, 2020_
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Azure Synapse FDA Connector</strong><br /> </th> 
+   <th> <strong>Hadoop FDA Connector Enhancements</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>You can now connect your Campaign instance to your Azure Synapse external database. This connection is managed through a new external account.</p>
-    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse-configure-access-to-azure-synapse">detailed documentation</a>.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Thailand and Brazil Privacy laws</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Thailand’s Personal Data Protection Act (PDPA) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. </p>
-   <p>Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug, 16 for all companies collecting or processing personal data in Brazil.</p>
-   <p>These regulations apply to Adobe Campaign customers who hold data for Data Subjects residing in these countries. In addition to the privacy capabilities already available in Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity to include additional capabilities, to help facilitate your readiness for PDPA and LGPD:</p>
-    <p>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR and CCPA. Read more - ADD LINK</p>
-    <p>When creating a Privacy request using Campaign interface or API, you now select the regulation type field: PDPA, LGPD, GDPR, CCPA. Read more - ADD LINK</p>
-   </p>
+   <td> <p>The Hadoop FDA Connector has been improved to support Hadoop 3.0 as well as Cloudera.</p>
+    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">detailed documentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 
