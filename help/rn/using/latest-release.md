@@ -117,22 +117,18 @@ Improved security on tracking links in email is enabled by default for all custo
 
 The following systems are now supported with Campaign:
 * Operating systems: Debian 10
-* RDBMS: Oracle 19c and Oracle 11GR2
-* FDA: Azure Synapse Analytics 
-
-The version 18 of the drivers for Oracle 18c are now supported.
-
-The version 19 of the drivers for Oracle 19c are now supported.
+* RDBMS: Oracle 18c and Oracle 19c
+* FDA: Azure Synapse Analytics
 
 Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)</a>.
 
 **Improvements**
 
-* Transactional messaging has been improved for a better user experience. It is now possible to unpublish a transactional message template, which deletes it from the execution instances. ADD LINK
+* Transactional messaging has been improved for a better user experience. It is now possible to unpublish a transactional message template, which deletes it from the execution instances. [Learn more](../../message-center/using/template-unpublication.md).
 
 * Some guardrails have been set to avoid issues when sending transactional messages with image attachment as URL.
 
-* The new **Prepare the delivery parts in the database** option enables to perform delivery preparation directly within the database, which can significantly accelerate the analysis. (NEO-23886)
+* The new **Prepare the delivery parts in the database** option enables to perform delivery preparation directly within the database, which can significantly accelerate the analysis. This option is only available for specific configurations. [Learn more](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis). (NEO-23886)
 
 * Performances of the [CRM Connector activity](../../workflow/using/crm-connector.md) for Microsoft Dynamics have been improved. (NEO-13303)
 
