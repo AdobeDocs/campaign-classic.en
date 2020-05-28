@@ -85,8 +85,8 @@ _June 8, 2020_
    <p>Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug, 16 for all companies collecting or processing personal data in Brazil.</p>
    <p>These regulations apply to Adobe Campaign customers who hold data for Data Subjects residing in these countries. In addition to the privacy capabilities already available in Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity to include additional capabilities, to help facilitate your readiness for PDPA and LGPD:</p>
    <ul> 
-     <li><p>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR and CCPA. <a href= https://helpx.adobe.com/campaign/kb/acc-privacy.html> Read more</a></p></li> 
-     <li> <p>When creating a Privacy request using Campaign interface or API, you now select the regulation type field: PDPA, LGPD, GDPR, CCPA. <a href=https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests>Read more</a>K</p></li>
+     <li><p>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR and CCPA. <a href= https://helpx.adobe.com/campaign/kb/acc-privacy.html>Read more</a></p></li> 
+     <li> <p>When creating a Privacy request using Campaign interface or API, you now select the regulation type field: PDPA, LGPD, GDPR, CCPA. <a href=https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests>Read more</a>.</p></li>
     </ul>
    </td> 
   </tr> 
@@ -101,8 +101,8 @@ _June 8, 2020_
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Email Feedback Service is a scalable solution which captures feedback from the <a href=https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html>Enhanced MTA</a> directly, which can lead to improved and accurate reporting.</p>
-    <p>This capability is released as a private beta. As a hosted customer, you can be join this beta program if your instance has been upgraded to the Enhanced MTA and if IMS is enabled. For more information, contact <a href=https://helpx.adobe.com/enterprise/using/support-and-expert-services.html>Adobe Customer Care</a>. </p>
+   <td> <p>Email Feedback Service is a scalable solution which captures feedback from the <a href=https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html>Enhanced MTA</a> directly to improve reporting metrics accuracy.</p>
+    <p>This capability is released as a private beta. As a hosted customer, you can join this beta program if your instance has been upgraded to the Enhanced MTA and if IMS is enabled. For more information, contact <a href=https://helpx.adobe.com/enterprise/using/support-and-expert-services.html>Adobe Customer Care</a>. </p>
    </p>
    </td> 
   </tr> 
@@ -135,8 +135,6 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 * The new **Prepare the delivery parts in the database** option enables to perform delivery preparation directly within the database, which can significantly accelerate the analysis. (NEO-23886)
 
 * Performances of the [CRM Connector activity](../../workflow/using/crm-connector.md) for Microsoft Dynamics have been improved. (NEO-13303)
-
-* The [database cleanup workflow](../../production/using/database-cleanup-workflow.md) has been modified to clean all orphans temporary objects, such as temporary workflow tables. (NEO-17336)
 
 **Other changes**
 
