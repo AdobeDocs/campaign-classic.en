@@ -20,7 +20,7 @@ snippet: y
 
 ## SQL code {#sql-code}
 
-An **[!UICONTROL SQL code*]* activity executes an SQL script. The script is a JST template.
+An **[!UICONTROL SQL code]** activity executes an SQL script. The script is a JST template.
 
    ![](assets/sql_code.png)
 

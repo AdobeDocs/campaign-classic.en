@@ -321,8 +321,13 @@ sub-product: adobe campaign classic
        + [Targeting data](workflow/using/targeting-data.md)
        + [Importing data](workflow/using/importing-data.md)
        + [How to use workflow data](workflow/using/how-to-use-workflow-data.md)
-       + [Executing a workflow](workflow/using/executing-a-workflow.md)
        + [Workflow best practices](workflow/using/workflow-best-practices.md)
+  +  Executing a workflow {#executing-a-workflow}
+       + [Starting a workflow](workflow/using/starting-a-workflow.md)
+       + [Workflow life cycle](workflow/using/workflow-life-cycle.md)
+       + [Data life cycle](workflow/using/data-life-cycle.md)
+       + [Defining approvals](workflow/using/defining-approvals.md)
+       + [Architecture](workflow/using/architecture.md)
   + Targeting activities {#targeting-activities}
        + [About targeting activities](workflow/using/about-targeting-activities.md)
        + [Query](workflow/using/query.md)
