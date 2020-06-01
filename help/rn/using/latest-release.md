@@ -132,15 +132,3 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 * Performances of the [CRM Connector activity](../../workflow/using/crm-connector.md) for Microsoft Dynamics have been improved. (NEO-13303)
 
-**Other changes**
-
-The following SMS connectors are now deprecated:
-* NetSize
-* Generic SMPP (SMPP version 3.4 supporting binary mode)
-* Sybase365 (SAP SMS 365)
-* CLX Communications
-* Tele2
-* O2
-* iOS
-
-Learn more in the [Deprecated features page](../../rn/using/deprecated-features.md).
