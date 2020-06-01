@@ -151,7 +151,7 @@ Targeting data building stages are as follows:
 1. For preparing data to meet delivery needs, refer to [Enriching and modifying data](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
 1. For using data to perform updates or within a delivery, refer to [Updating the database](../../workflow/using/how-to-use-workflow-data.md#updating-the-database).
 
-The results of all enrichments and all handlings carried out during targeting are stored and accessible in personalization fields, in particular for use when creating personalized messages. For more on this, refer to [Target data](../../workflow/using/executing-a-workflow.md#target-data)
+The results of all enrichments and all handlings carried out during targeting are stored and accessible in personalization fields, in particular for use when creating personalized messages. For more on this, refer to [Target data](../../workflow/using/data-life-cycle.md#target-data)
 
 ### Targeting and filtering dimensions {#targeting-and-filtering-dimensions}
 

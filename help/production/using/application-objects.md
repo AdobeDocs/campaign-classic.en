@@ -54,7 +54,7 @@ If a workflow imports files and doesn't make use of the standard features, it ne
 
 ## Transactional data and logs {#transactional-data-and-logs}
 
-Every [workflow](../../workflow/using/executing-a-workflow.md#work-table) that imports data into Adobe Campaign causes the size of the database to grow.
+Every [workflow](../../workflow/using/data-life-cycle.md#work-table) that imports data into Adobe Campaign causes the size of the database to grow.
 
 Check that cleanup or purge workflows are running and effectively purging records. All transactional data and logs must be purged. The cleanup task purges the standard tables only: tracking and broad logs. Specific tables must be purged by specific workflows. Refer to [this section](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
 

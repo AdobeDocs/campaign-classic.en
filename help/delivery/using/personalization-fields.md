@@ -72,7 +72,7 @@ We create an email in which we will first insert the name of the recipient and t
 
    >[!NOTE]
    >
-   >When a delivery is part of a workflow, you can use the data from the temporary workflow table. This data is grouped in the **[!UICONTROL Target extension]** menu. For more on this, refer to [this section](../../workflow/using/executing-a-workflow.md#target-data).
+   >When a delivery is part of a workflow, you can use the data from the temporary workflow table. This data is grouped in the **[!UICONTROL Target extension]** menu. For more on this, refer to [this section](../../workflow/using/data-life-cycle.md#target-data).
 
 ## Optimizing personalization {#optimizing-personalization}
 
