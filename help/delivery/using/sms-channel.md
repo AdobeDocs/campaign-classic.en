@@ -510,7 +510,7 @@ The **nlserver sms** module queries the SMS router at regular intervals. This al
 
 * **Unsubscription**: recipients who wish to stop receiving SMS deliveries can return a message containing the word STOP. If your provider allows it under the terms of the contract, you can retrieve messages via the **Inbound SMS** workflow activity and then create a query to enable the **No longer contact this recipient** option for the recipients concerned.
 
-  Refer to the [Workflows](../../workflow/using/executing-a-workflow.md#architecture) guide.
+  Refer to the [Workflows](../../workflow/using/architecture.md) guide.
 
 ## InSMS schema {#insms-schema}
 
