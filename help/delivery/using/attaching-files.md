@@ -38,15 +38,16 @@ To attach a local file to a delivery, follow the steps below.
 >You can attach several files to a delivery. Attachments can be in any format, included zipped format.
 
 1. Click the **[!UICONTROL Attachments]** link.
-1. Click the **[!UICONTROL Add]** button, then click **[!UICONTROL File...]** to select the file to be attached to the delivery.
+1. Click the **[!UICONTROL Add]** button.
+1. Click **[!UICONTROL File...]** to select the file to be attached to the delivery.
 
-  ![](assets/s_ncs_user_wizard_email_attachement.png)
+   ![](assets/s_ncs_user_wizard_email_attachement.png)
 
   You can also directly drag and drop the file in the delivery **[!UICONTROL Attachments]** field, or use the **[!UICONTROL Attach]** icon from the delivery wizard toolbar,
 
   ![](assets/s_ncs_user_wizard_add_file_ico.png)
 
-1. Once the file is selected, it is immediately uploaded onto the server to be available at the time of delivery. It is listed in the **[!UICONTROL Attachments]** field.
+Once the file is selected, it is immediately uploaded onto the server to be available at the time of delivery. It is listed in the **[!UICONTROL Attachments]** field.
 
   ![](assets/s_ncs_user_wizard_email_attachement_e.png)
 
