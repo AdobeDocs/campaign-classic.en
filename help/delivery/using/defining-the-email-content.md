@@ -172,13 +172,17 @@ The delivery wizard lets you add local images, or images stored in the library, 
 
 ![](assets/s_ncs_user_image_from_library.png)
 
-In order for the recipients to be able to view the images included in the messages that they receive, these messages must be available on a server accessible from the outside.
+>[!IMPORTANT]
+>
+>In order for the recipients to be able to view the images included in the messages that they receive, these messages must be available on a server accessible from the outside.
 
-To manage images via the delivery wizard, you must click the **[!UICONTROL Tracking & Images]** icon in the toolbar.
+To manage images via the delivery wizard:
 
-![](assets/s_ncs_user_email_del_img_param.png)
+1. Click the **[!UICONTROL Tracking & Images]** icon in the toolbar.
+  ![](assets/s_ncs_user_email_del_img_param.png)
 
-Select **[!UICONTROL Upload images]** in the **[!UICONTROL Images]** tab. You can then choose whether you wish to include the images in the email message.
+1. Select **[!UICONTROL Upload images]** in the **[!UICONTROL Images]** tab.
+1. You can then choose whether you wish to include the images in the email message.
 
 ![](assets/s_ncs_user_email_del_img_upload.png)
 
@@ -193,7 +197,7 @@ When you open HTML content with included images in the delivery wizard, a messag
 >
 >The image access paths are modified during manual uploading or when sending messages.
 
-**Example: sending a message with images {#example--sending-a-message-with-images}**
+### Example: sending a message with images {#example--sending-a-message-with-images}
 
 Here is a sample of a delivery with four images:
 
