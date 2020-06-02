@@ -16,7 +16,7 @@ snippet: y
 
 # Documentation Updates{#documentation-updates}
 
-his page lists all the new features and documentation updates per month and Campaign release.
+This page lists all the new features and documentation updates per month and Campaign release.
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 

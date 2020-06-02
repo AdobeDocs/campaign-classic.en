@@ -53,6 +53,13 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> List of schemas for which you want to use test addresses for Inbox Rendering. (element names are separated with commas) E.g.: custom_nms_recipient.<br /> </td> 
   </tr> 
   <tr> 
+   <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
+   <td><p> Lets you allow the operator in charge of the delivery to confirm the send, if a specific operator or group of operators is designated for starting a delivery in the delivery's properties.</p><p> To do this, activate the option by entering "1" as the value. To deactivate this option, enter "0".</p><p> The send confirmation process will then function as default: only the operator or group of operators designated for the send in the delivery properties (or an administrator) will be able to confirm and carry out the send. See <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">this section</a>.</p> </td> 
+   <tr> 
+   <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
+   <td> Adobe Campaign uses a "Nms_DefaultRcpSchema" global variable to dialog with the default recipient database (nms:recipient).<br /> The option value must correspond to the name of the schema which matches the external recipient table.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> <span class="uicontrol">NmsBilling_MainActionThreshold</span> <br /> </td> 
    <td> Minimum number of recipients in order for a delivery to be considered as the main one in the billing report.<br /> </td> 
   </tr> 
@@ -87,10 +94,6 @@ Some of them are built-in when installing Campaign, and others can be added manu
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_RemoveDuplicatesRecipients</span> <br /> </td> 
    <td> Entering "1" as the value lets you automatically ignore doubles.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
-   <td> Adobe Campaign uses a "Nms_DefaultRcpSchema" global variable to dialog with the default recipient database (nms:recipient).<br /> The option value must correspond to the name of the schema which matches the external recipient table.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ErrorAddressMasks</span> <br /> </td> 
@@ -157,6 +160,10 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> List of authorized forwarding email addresses (from the inbound mail processing module). The addresses have to be separated by commas (or * to allow all). E.g. xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
+   <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
+   <td> AES key used in the 'lineImage' servlet to encode the URLs (LINE channel).<br /> </td> 
+  </tr> 
+  <tr> 
    <td> <span class="uicontrol">NmsNPAI_EmailMaxError</span> <br /> </td> 
    <td> On channel "email"(use as default) : Maximal number of errors that is accepted, for SOFT errors during sending before putting the recipient into quarantine.<br /> </td> 
   </tr> 
@@ -173,9 +180,21 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> On channel "mobile" : Minimal period to spent since the previous referenced SOFT error, before taking into account a new SOFT error.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
-   <td> URL of the mirror page server (by default, should be identical to NmsTracking_ServerUrl).<br /> It is the default value of email deliveries when the URL is not specified in the routing definition.<br /> </td> 
+   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
+   <td> Allows a maximum period (expressed in hours) to be specified as to limit the number of broadlogs recovered every time the synchronization workflow is executed.</a>.<br /> </td> 
   </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
+   <td> Maximum number of calls in MidSourcing session, which can be run in parallel (3 by default).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
+   <td> Custom delay (in minutes) after which a delivery is considered as 'delayed', default being 30 minutes.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
+   <td><p>This option is used by the <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> technical workflow when counting the number of running deliveries.</p>It allows you to define the number of days above which deliveries with inconsistent status will be excluded from the count of running deliveries.</p><p>By default, the value is set to “7", meaning that inconsistent deliveries older than 7 days will be excluded.</p></td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
    <td> Line 1 of the sender's address.<br /> </td> 
@@ -196,10 +215,10 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> <span class="uicontrol">NmsPaper_SenderLine7</span> <br /> </td> 
    <td> Line 7 of the sender's address.<br /> </td> 
   </tr>
-    <tr> 
-   <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>This option is used by the <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> technical workflow when counting the number of running deliveries.</p>It allows you to define the number of days above which deliveries with inconsistent status will be excluded from the count of running deliveries.</p><p>By default, the value is set to “7", meaning that inconsistent deliveries older than 7 days will be excluded.</p></td> 
-  </tr>
+  <tr> 
+   <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
+   <td> URL of the mirror page server (by default, should be identical to NmsTracking_ServerUrl).<br /> It is the default value of email deliveries when the URL is not specified in the routing definition.<br /> </td> 
+  </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
    <td> Parameters of sent SMS messages: information transmitted to the SMS gateway to indicate the message priority.<br /> </td> 
@@ -213,51 +232,33 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> Period during which retries of SMS messages will be performed.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkEmail_Characters</span> <br /> </td> 
-   <td> Valid characters for an email address.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
-   <td> Allows a maximum period (expressed in hours) to be specified as to limit the number of broadlogs recovered every time the synchronization workflow is executed.</a>.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
-   <td> Maximum number of calls in MidSourcing session, which can be run in parallel (3 by default).<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> Lets you allow the operator in charge of the delivery to confirm the send, if a specific operator or group of operators is designated for starting a delivery in the delivery's properties.</p><p> To do this, activate the option by entering "1" as the value. To deactivate this option, enter "0".</p><p> The send confirmation process will then function as default: only the operator or group of operators designated for the send in the delivery properties (or an administrator) will be able to confirm and carry out the send. See <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">this section</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
-   <td> Custom delay (in minutes) after which a delivery is considered as 'delayed', default being 30 minutes.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">XtkBarcode_SpecialChar</span> <br /> </td> 
-   <td> Enable/Disable support for special characters for Code128.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
-   <td> AES key used in the 'lineImage' servlet to encode the URLs (LINE channel).<br /> </td> 
+   <td> <span class="uicontrol">NmsUserAgentStats_LastConsolidation</span> <br /> </td> 
+   <td> Last consolidation date for <span class="uicontrol">NmsUserAgent</span> statistics.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsWebSegments_LastStates</span> <br /> </td> 
    <td> Name of the option which contains the web segments and their states.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsUserAgentStats_LastConsolidation</span> <br /> </td> 
-   <td> Last consolidation date for <span class="uicontrol">NmsUserAgent</span> statistics.<br /> </td> 
+   <td> <span class="uicontrol">XtkBarcode_SpecialChar</span> <br /> </td> 
+   <td> Enable/disable support for special characters for Code128.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">XtkEmail_Characters</span> <br /> </td> 
+   <td> Valid characters for an email address.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Restrict_EditXML</span> </td> 
    <td> Add this option with the "0" value to disable the edition of deliveries' XML code (right-click / <span class="uicontrol">Edit XML source</span> or <span class="uicontrol">CTRL + F4</span> shortcut).<br /> </td> 
-  </tr> 
-  <!--<tr> 
+  </tr>  
+ </tbody> 
+</table>
+
+<!--<tr> 
    <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
    <td> BCC email address for Momentum to send a raw copy of the sent emails. <br /> </td> 
-  </tr> 
- </tbody> 
-</table>-->
+  </tr>
+-->
 
 ## Resources {#resources}
 
