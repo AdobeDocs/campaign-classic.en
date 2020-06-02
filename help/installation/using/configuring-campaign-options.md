@@ -42,7 +42,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRecommendedAttachments</span> <br /> </td> 
-   <td> Lets you set a maximum number of attachments in a delivery. If this value is exceeded, a warning will be displayed in the Delivery logs. The default value is 1 attachment.<br /> </td> 
+   <td> Lets you set a maximum number of attachments in an email or transactional email template. If this value is exceeded, a warning will be displayed in the delivery analysis logs or when publishing the transactional email template. The default value is 1 attachment.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImageServerTimeout</span> <br /> </td> 
