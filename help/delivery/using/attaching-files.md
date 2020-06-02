@@ -89,7 +89,7 @@ If the attachment is a local file, select the option: **[!UICONTROL File name is
 
 ### Attaching a personalized message {#attach-a-personalized-message}
 
-The option **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** lets you select a fine with personalization fields, such as the last name and first name of the intended recipient.
+The option **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** lets you select a file with personalization fields, such as the last name and first name of the intended recipient.
 
 ![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
