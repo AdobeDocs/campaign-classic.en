@@ -172,18 +172,21 @@ The delivery wizard lets you add local images, or images stored in the library, 
 
 ![](assets/s_ncs_user_image_from_library.png)
 
-In order for the recipients to be able to view the images included in the messages that they receive, these messages must be available on a server accessible from the outside.
+>[!IMPORTANT]
+>
+>In order for the recipients to be able to view the images included in the messages that they receive, these messages must be available on a server accessible from the outside.
 
-To manage images via the delivery wizard, you must click the **[!UICONTROL Tracking & Images]** icon in the toolbar.
+To manage images via the delivery wizard:
 
-![](assets/s_ncs_user_email_del_img_param.png)
+1. Click the **[!UICONTROL Tracking & Images]** icon in the toolbar.
+  ![](assets/s_ncs_user_email_del_img_param.png)
 
-Select **[!UICONTROL Upload images]** in the **[!UICONTROL Images]** tab. You can then choose whether you wish to include the images in the email message.
+1. Select **[!UICONTROL Upload images]** in the **[!UICONTROL Images]** tab.
+1. You can then choose whether you wish to include the images in the email message.
+  ![](assets/s_ncs_user_email_del_img_upload.png)
 
-![](assets/s_ncs_user_email_del_img_upload.png)
-
-* You can upload images manually without waiting for the delivery analysis phase. To do this, click the **[!UICONTROL Upload images now]** link.
-* You can specify another path for access to the images on the tracking server. To do this, enter it in the **[!UICONTROL Image URL]** field. This value overrides the value defined in the parameters of the installation wizard.
+  * You can upload images manually without waiting for the delivery analysis phase. To do this, click the **[!UICONTROL Upload images now]** link.
+  * You can specify another path for access to the images on the tracking server. To do this, enter it in the **[!UICONTROL Image URL]** field. This value overrides the value defined in the parameters of the installation wizard.
 
 When you open HTML content with included images in the delivery wizard, a message gives you the option of uploading the images immediately, according to the delivery parameters.
 
@@ -197,7 +200,7 @@ When you open HTML content with included images in the delivery wizard, a messag
 >
 >To avoid performance issue, if you include images downloaded on the fly from a personalized URL as [attachment](../../delivery/using/attaching-files.md), each image size cannot exceed 100,000 bytes by default. This threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
 
-**Example: sending a message with images {#example--sending-a-message-with-images}**
+### Example: sending a message with images {#example--sending-a-message-with-images}
 
 Here is a sample of a delivery with four images:
 
