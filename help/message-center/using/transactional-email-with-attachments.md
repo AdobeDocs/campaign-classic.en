@@ -40,7 +40,7 @@ In this scenario, the attachments are not pre-created, but added on the fly to t
 
 >[!NOTE]
 >
->To avoid performance issue, if you include images downloaded on the fly from a personalized URL as attachment, each image size cannot exceed 100,000 bytes by default. The recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
+>To avoid performance issue, if you include images downloaded on the fly from a personalized URL as attachment, each image size cannot exceed 100,000 bytes by default. This threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## Recommendations {#important-notes}
 

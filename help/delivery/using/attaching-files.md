@@ -20,7 +20,13 @@ snippet: y
 
 ## About email attachments {#about-email-attachments}
 
-You can attach one or more files to an email delivery. There are two possible cases:
+You can attach one or more files to an email delivery.
+
+>[!NOTE]
+>
+>To avoid performance issue, it is recommended not to include more than one attachment per email. The recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
+
+There are two possible cases:
 
 * Select a file and attach it to the delivery as it is.
 * Personalize the content of the attachment for each recipient. In this case, you need to create a **calculated attachment**: the name of the attachment is computed at the time of delivery for each message depending on the recipient. The content can also be personalized and converted into PDF format at the time of delivery, if you have the **Variable Digital Printing** option.
@@ -28,8 +34,6 @@ You can attach one or more files to an email delivery. There are two possible ca
 >[!NOTE]
 >
 >This type of configuration is generally carried out in the delivery templates. For more on this, refer to [About templates](../../delivery/using/about-templates.md).
-
-To avoid performance issue, it is recommended not to include more than one attachment per email. The recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## Attaching a local file {#attaching-a-local-file}
 
@@ -113,6 +117,10 @@ For this type of attachment, apply the following configuration steps:
    Each recipient receives a personalized PDF attached to the delivery.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
+
+>[!NOTE]
+>
+>To avoid performance issue, if you include images downloaded on the fly from a personalized URL as attachment, each image size cannot exceed 100,000 bytes by default. This threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
 
 ### Attaching a calculated file {#attach-a-calculated-file}
 
