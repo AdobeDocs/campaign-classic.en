@@ -36,6 +36,18 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
  </thead> 
  <tbody> 
+ <tr> 
+   <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
+   <td> Lets you define the maximum size (in bytes) allowed for an image included in the message content. The default value is 100,000 bytes. During analysis, when downloading the image(s) to process the email, if the size of an image exceeds this value or if there is a downloading issue, an error will be displayed in the Delivery logs and the delivery (or proof) will fail.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsDelivery_MaxRecommendedAttachments</span> <br /> </td> 
+   <td> Lets you set a maximum number of attachments in a delivery. If this value is exceeded, a warning will be displayed in the Delivery logs. The default value is 1 attachment.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsDelivery_ImageServerTimeout</span> <br /> </td> 
+   <td> Lets you define a timeout limit (in seconds) for getting a response from the server when retrieving an image included in the message content. If this value is exceeded, the message cannot be sent. The default value is 60 seconds.<br /> </td> 
+  </tr> 
   <tr> 
    <td> <span class="uicontrol">Deliverability_LastBroadLogMsgDate</span> <br /> </td> 
    <td> Date of the last broadLogMsg retrieved from the deliverability instance.<br /> </td> 

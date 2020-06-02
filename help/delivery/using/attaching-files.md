@@ -29,6 +29,8 @@ You can attach one or more files to an email delivery. There are two possible ca
 >
 >This type of configuration is generally carried out in the delivery templates. For more on this, refer to [About templates](../../delivery/using/about-templates.md).
 
+To avoid performance issue, it is recommended not to include more than one attachment per email. The recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
+
 ## Attaching a local file {#attaching-a-local-file}
 
 To attach a local file to a delivery, follow the steps below.

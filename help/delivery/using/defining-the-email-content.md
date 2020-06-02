@@ -193,6 +193,10 @@ When you open HTML content with included images in the delivery wizard, a messag
 >
 >The image access paths are modified during manual uploading or when sending messages.
 
+>[!NOTE]
+>
+>The maximum default value for each downloaded image using personalized URL and attached in email is 100,000 bytes. When downloading the image(s) to process the email for sending a proof, if the size of an image exceeds this value or if there is a downloading issue, the messsage cannot be sent. This option can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
+
 **Example: sending a message with images {#example--sending-a-message-with-images}**
 
 Here is a sample of a delivery with four images:
