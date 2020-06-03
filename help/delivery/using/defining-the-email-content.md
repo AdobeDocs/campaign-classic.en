@@ -55,7 +55,7 @@ For example, in the message above, the subject of the message is personalized fo
 >
 >The use of personalization fields is presented in [About personalization](../../delivery/using/about-personalization.md).
 
-You can also insert emoticons to your subject line with a copy/paste.
+You can also insert emoticons to your subject line with the **[!UICONTROL Insert emoticon]** pop-up window.
 
 ## Message content {#message-content}
 
@@ -109,7 +109,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   ![](assets/s_ncs_user_wizard_email01_142.png)
 
-### Inserting emoticons in an email
+### Inserting emoticons in an email {#inserting-emoticons}
 
 You can insert emoticons to your email content.
 
@@ -120,11 +120,7 @@ You can insert emoticons to your email content.
 
 1. Click the **[!UICONTROL Close]** button when done.
 
->[!NOTE]
->
->For subject line, emoticons can only be inserted via a copy/paste.
-
-To customize the emoticon list, refer to [customizing the emoticon list](../../delivery/using/defining-interactive-content.md)
+To customize the emoticon list, refer to this [page](../../delivery/using/customizing-emoticon-list.md).
 
 ## Selecting message formats {#selecting-message-formats}
 
