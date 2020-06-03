@@ -20,7 +20,7 @@ Adobe constantly evaluates product capabilities to identify older features that 
 
 To communicate the impending removal/replacement of Campaign Classic capabilities, the following rules apply:
 
-* Announcement of deprecation comes first. While deprecated capabilities can still be available for existing users, they will not be further enhanced, nor documented. 
+* Announcement of deprecation comes first. While deprecated capabilities can still be available and supported for existing users, they will not be further enhanced, nor documented. 
 * Removal of deprecated capabilities will occur in the following release at the earliest. Actual target date for removal is announced in this page. 
 
 This process gives customers at least one release cycle to adapt their implementation to a new version or successor of a deprecated capability, before actual removal. 
@@ -33,7 +33,7 @@ This process gives customers at least one release cycle to adapt their implement
 
 This section lists features and capabilities that have been marked as deprecated with latest Campaign Classic releases. 
 
-Generally, features that are planned to be removed in a future release are set to deprecated first, with an alternative provided. These features and capabilities are either no longer available for new Campaign Classic customers, or should not be used for any new implementation. They are also removed from product documentation.
+Generally, features that are planned to be removed in a future release are set to deprecated first. These features and capabilities are either no longer available for new Campaign Classic customers, or should not be used for any new implementation. They are also removed from product documentation.
 
 Customers are advised to review if they make use of the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided. Please refer to the target removal date to plan your environment and project updates accordingly.
 
@@ -61,11 +61,22 @@ Customers are advised to review if they make use of the feature/capability in th
    <li>O2</li>
    <li>iOS</li>
    </ul>
-  <p>These connectors are compatible with the recommended Extended SMPP connector. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html">Learn more</a>.</p> 
+  <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../delivey/using/sms-channel.md">Learn more</a>.</p> 
+  <p>Learn how to migrate legacy connectors in this technote - ADD LINK.</p>
   <p>
      <em>Target removal date: 2021</em></p>
   </td> 
  </tr>
+  <tr> 
+   <td><strong>Feature</strong></td>
+   <td><strong>Replacement</strong></td> 
+  </tr> 
+   <tr> 
+   <td>Fax channel<br>&nbsp;</td>
+   <td><p>Starting 20.2 release, the Fax channel is deprecated.</p> 
+   <p>If you are using this channel, you need to adapt your implementation accordingly. <a href="../../delivey/using/communication-channels.md">Learn more</a> about Campaign channels.</p>
+   <p><em>Target removal date: 2021</em></p></td>
+  </tr>
  </tbody> 
 </table>
 
