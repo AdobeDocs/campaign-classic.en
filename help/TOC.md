@@ -305,12 +305,6 @@ sub-product: adobe campaign classic
        + [Configuring IMS](integrations/using/configuring-ims.md)
        + [Implementing IMS](integrations/using/implementing-ims.md)
        + [IMS troubleshooting](integrations/using/ims-troubleshooting.md)
-  + ACS Connector {#acs-connector}
-       + [ACS Connector principles and data cycle](integrations/using/acs-connector-principles-and-data-cycle.md)
-       + [Synchronizing profiles](integrations/using/synchronizing-profiles.md)
-       + [Synchronizing audiences](integrations/using/synchronizing-audiences.md)
-       + [Synchronizing web applications](integrations/using/synchronizing-web-applications.md)
-       + [Troubleshooting the ACS Connector](integrations/using/troubleshooting-the-acs-connector.md)
 + Automating with Workflows {#automating-with-workflows}
   + Introduction {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
