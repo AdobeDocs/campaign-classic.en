@@ -24,7 +24,7 @@ To access the description of each table, go to **[!UICONTROL Admin > Configurati
 
 >[!NOTE]
 >
->The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a schema. For more on Adobe Campaign schemas, read out this [section](../../configuration/using/about-schema-reference.md).
+>The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a schema. For more on Adobe Campaign schemas, read out [this section](../../configuration/using/about-schema-reference.md).
 
 ## Description of the main tables {#description-main-tables}
 
@@ -54,7 +54,7 @@ The iFolderId field is the foreign key that links the recipient to its execution
 
 The sCountryCode field is the 3166-1 Alpha 2 ISO code (2 characters) of the country associated with the recipient. This field is actually a foreign key on the country reference table (NmsCountry), which contains the country labels and other country code data. If the country is not populated, the value 'XX' is stored (and is used in place of a zero ID record).
 
-For more on the Recipient table, see this [section](../../configuration/using/about-data-model.md#default-recipient-table).
+For more on the Recipient table, see [this section](../../configuration/using/about-data-model.md#default-recipient-table).
 
 ### NmsGroup {#NmsGroup}
 

@@ -142,7 +142,7 @@ Recurring campaigns are created from a specific template defining the workflow t
 
   ![](assets/s_ncs_user_op_template_recur_planning_wz.png)
 
-  The configuration mode of the execution schedule coincides with the **[!UICONTROL Scheduler]** object of the Workflow. For more on this, refer to [this section](../../workflow/using/executing-a-workflow.md#architecture).
+  The configuration mode of the execution schedule coincides with the **[!UICONTROL Scheduler]** object of the Workflow. For more on this, refer to [this section](../../workflow/using/architecture.md).
 
   >[!IMPORTANT]
   >

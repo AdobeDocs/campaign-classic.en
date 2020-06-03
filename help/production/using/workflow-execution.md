@@ -23,7 +23,8 @@ The section below presents information on common issues related to workflows exe
 For more information on workflows, refer to these sections:
 
 * [About workflows](../../workflow/using/about-workflows.md)
-* [Executing a workflow](../../workflow/using/executing-a-workflow.md)
+* [Starting a workflow](../../workflow/using/starting-a-workflow.md)
+* [Workflow life cycle](../../workflow/using/workflow-life-cycle.md)
 * [Best practices when using workflows](../../workflow/using/workflow-best-practices.md)
 
 ## Start as soon as possible in campaigns {#start-as-soon-as-possible-in-campaigns}

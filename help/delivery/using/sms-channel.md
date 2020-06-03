@@ -131,7 +131,7 @@ Transliteration consists of replacing one character of an SMS by another when th
 * If transliteration is **[!UICONTROL authorized]**, each character that is not taken into account is replaced by a GSM character when the message is sent. For example, the letter "ë" is replaced by "e". The message is therefore slightly altered, but the character limit will remain the same.
 * When transliteration is **[!UICONTROL not authorized]**, each message that contains characters that are not taken into account is sent in binary format (Unicode): all of the characters are therefore sent as they are. However, the SMS messages using Unicode are limited to 70 characters (or 67 characters per SMS for messages sent in multiple parts). If the maximum number of characters is exceeded, several messages will then be sent, which may create additional costs.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Inserting personalization fields into the content of your SMS message may introduce characters that are not taken into account by the GSM encoding.
 
@@ -339,7 +339,7 @@ You can declare **data_codings** and force the encoding if necessary: to do this
 
 * When you define the encodings that you would like to use as well as the linked **[!UICONTROL data_coding]** field values, Adobe Campaign will try to use the first encoding in the list, then the following, if the first encoding proves impossible.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The order of declaration is important: it is recommended that you put the list in ascending order **of cost** in order to favor the encodings allowing you to fit as many characters as possible in each SMS message.
 >
@@ -487,7 +487,7 @@ The following options are available:
   <% if( String(recipient.mobilePhone).indexOf("+1") == 0){ %>NeoShopUS<%} else {%>NeoShopWorld<%}%>
   ```
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >Check the law in your country regarding editing sender names. You should also check with your operator whether they offer this functionality.
 
@@ -530,7 +530,7 @@ The **nlserver sms** module queries the SMS router at regular intervals. This al
 
 * **Unsubscription**: recipients who wish to stop receiving SMS deliveries can return a message containing the word STOP. If your provider allows it under the terms of the contract, you can retrieve messages via the **Inbound SMS** workflow activity and then create a query to enable the **No longer contact this recipient** option for the recipients concerned.
 
-  Refer to the [Workflows](../../workflow/using/executing-a-workflow.md#architecture) guide.
+  Refer to the [Workflows](../../workflow/using/architecture.md) guide.
 
 ## InSMS schema {#insms-schema}
 
@@ -542,7 +542,7 @@ The InSMS schema contains information relevant to incoming SMS. A description of
 * **created**: date incoming message was inserted into Adobe Campaign.
 * **extAccount**: Adobe Campaign external account.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >The following fields are specific to NetSize.
   >
@@ -566,7 +566,7 @@ For example, if recipients send the keyword STOP, they automatically receive a c
 
 The sender name for this type of message is a short code usually used to send deliveries.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The following detailed procedure is only valid for SMPP connectors, except for the extended generic SMPP connector. For more on this, refer to the [Creating an SMPP external account](#creating-an-smpp-external-account) section.
 >
@@ -613,7 +613,7 @@ The sender name for this type of message is a short code usually used to send de
 
 1. Copy this file into the **conf** directory in Adobe Campaign, at the same place as the Web server.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >These kinds of automatic messages do not keep a history. Therefore they do not appear in the [delivery dashboard](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
 >
