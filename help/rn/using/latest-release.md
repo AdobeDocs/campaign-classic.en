@@ -122,33 +122,57 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 **Technical evolutions**
 
-Regarding the shared memory version improvement, you should not have to do anything.
+This new build updates shared memory and requires an additional step after performing the upgrade.
+As a Campaign administrator, you need to remove memory segments. This steps is mandatory, as old segments will prevent nlserver/nlsrvmod from starting.
 
-For on-premise customers, you may need to delete shared memory after the upgrade ONLY if you encounter the following error:
+On Windows, a system restart is needed.
+
+On Debian/CentOs, shared memory deletion is needed. Here are the steps:
+
+Before the upgrade, you need to follow these steps:
+
+1. Stop the apache2 (http2 on CentOS) service if it's running.
+1. Stop the nlserver (nlserver6 for build before NEO-18009) service if it's running.
+
+After the upgrade:
+
+1. Remove the shared memory using the **ipcrm** command, if the version is below the current version.
+1. Start the nlserver service if it was running.
+1. Start the apache2 service if it was running.
+
+Here are the command lines for Debian for above:
+
+/etc/init.d/nlserver* stop
+/etc/init.d/apache2 stop
 
 ```
-SRV-810031 Bad version for the shared memory block 'NlServerContext6.0'. Current version is 106, expected version 107. Please restart all services (nlserver and web server)...
+for i in `ipcs -s | awk '/www-data/
+{print $2}'`; do (ipcrm -s $i); done
 ```
 
-Here are the steps:
+```
+for i in `ipcs -m | awk '/www-data/ {print $2}
+'`; do (ipcrm shm $i); done
+```
 
-1. Stop the web server that hosts the redirection module (Apache, IIS, etc.),
-1. Stop the Adobe Campaign server: **net stop nlserver6** in Windows, **/etc/init.d/nlserver6 stop** in Linux,
+```
+for i in `ipcs -m | awk '/neolane/
+{print $2}'`; do (ipcrm shm $i); done
+```
 
-   >[!NOTE]
-   >
-   >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl stop nlserver**
+```
+for i in `ipcs -s | awk '/neolane/ {print $2}
+'`; do (ipcrm -s $i); done
+```
 
-1. In Linux, delete the shared memory segments using the **ipcrm** command,
-1. Restart the Adobe Campaign server: **net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux,
-
-   >[!NOTE]
-   >
-   >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl start nlserver**
-
-1. Restart the web server.
+/etc/init.d/apache2 restart
+/etc/init.d/nlserver* start
 
 An example for Linux is available on this [page](../../configuration/using/additional-parameters.md#redirection-server-configuration).
+
+
+
+
 
 **Other changes**
 
