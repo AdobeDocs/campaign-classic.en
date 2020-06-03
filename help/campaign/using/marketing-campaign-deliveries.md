@@ -26,7 +26,7 @@ To create a delivery linked to a campaign, click the **[!UICONTROL Add a deliver
 
 ![](assets/campaign_op_add_delivery.png)
 
-The suggested configurations are suited to the different types of delivery (direct mail, email, mobile channels, fax, or telephone). 
+The suggested configurations are suited to the different types of delivery: direct mail, email, mobile channels. 
 
 >[!NOTE]
 >
