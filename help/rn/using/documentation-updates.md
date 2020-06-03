@@ -16,7 +16,7 @@ snippet: y
 
 # Documentation Updates{#documentation-updates}
 
-his page lists all the new features and documentation updates per month and Campaign release.
+This page lists all the new features and documentation updates per month and Campaign release.
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
@@ -30,6 +30,8 @@ The Deliverability troubleshooting section has been moved and improved. [Read mo
 Deliverability guidelines when starting a new platform section has been enhanced. [Read more](../../delivery/using/starting-new-platform.md)
 
 The Sending transactional emails with attachments section has been moved and updated. [Read more](../../message-center/using/transactional-email-with-attachments.md)
+
+The Data package best practices section has been moved and updated. [Read more](../../platform/using/working-with-data-packages.md#data-package-best-practices)
 
 ## April 2020 {#april-2020}
 

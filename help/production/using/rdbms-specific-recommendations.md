@@ -97,7 +97,7 @@ vacuum full nmsdelivery;
 >* Adobe recommands adding the tables specific to your data model which can be subject to significant updates. This can be the case for **NmsRecipient** if you have large daily data replication flows.
 >* The **vacuum** and **re-index** commands will lock the table, which pauses some processes while maintenance is carried out.
 >* For very large tables (typically above 5 Gb), **vacuum full** can become quite inefficient and take a very long time. Adobe does not recommend using it for the **YyyNmsBroadLogXxx** table.
->* This maintenance operation can be implemented by an Adobe Campaign workflow, using an **[!UICONTROL SQL]** activity (for more on this, refer to [this section](../../workflow/using/executing-a-workflow.md#architecture)). Make sure you schedule maintenance for a low activity time which does not collide with your backup window.
+>* This maintenance operation can be implemented by an Adobe Campaign workflow, using an **[!UICONTROL SQL]** activity (for more on this, refer to [this section](../../workflow/using/architecture.md)). Make sure you schedule maintenance for a low activity time which does not collide with your backup window.
 >
 
 ### Rebuilding a database {#rebuilding-a-database}
