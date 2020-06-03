@@ -84,7 +84,7 @@ After checking the result of the analysis, you will be able to click **[!UICONTR
 >
 >Click the **[!UICONTROL Change the main delivery target]** link if the number of messages to send does not match your configuration. This lets you change the definition of the target population and re-start the analysis.
 
-### Analysis parameters {analysis-parameters}
+### Analysis parameters {#analysis-parameters}
 
 The **[!UICONTROL Analysis]** tab of the delivery properties lets you define a set of information concerning the preparation of messages during the analysis phase.
 
