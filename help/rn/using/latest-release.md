@@ -116,6 +116,40 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 * Performances of the [CRM Connector activity](../../workflow/using/crm-connector.md) for Microsoft Dynamics have been improved. (NEO-13303)
 
+* Shared memory version has been increased. This evolution should be transparent for users. If you get an error, refer to the **Technical evolutions** section below.
+
+* The cleanup workflow has been enhanced. Orphaned worktables of all deleted workflows are now also deleted automatically by the cleanup workflow.
+
+**Technical evolutions**
+
+Regarding the shared memory version improvement, you should not have to do anything.
+
+For on-premise customers, you may need to delete shared memory after the upgrade ONLY if you encounter the following error:
+
+```
+SRV-810031 Bad version for the shared memory block 'NlServerContext6.0'. Current version is 106, expected version 107. Please restart all services (nlserver and web server)...
+```
+
+Here are the steps:
+
+1. Stop the web server that hosts the redirection module (Apache, IIS, etc.),
+1. Stop the Adobe Campaign server: **net stop nlserver6** in Windows, **/etc/init.d/nlserver6 stop** in Linux,
+
+   >[!NOTE]
+   >
+   >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl stop nlserver**
+
+1. In Linux, delete the shared memory segments using the **ipcrm** command,
+1. Restart the Adobe Campaign server: **net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux,
+
+   >[!NOTE]
+   >
+   >Starting 20.1, we recommend using the following command instead (for Linux): **systemctl start nlserver**
+
+1. Restart the web server.
+
+An example for Linux is available on this [page](../../configuration/using/additional-parameters.md#redirection-server-configuration).
+
 **Other changes**
 
 The following SMS connectors are now deprecated:
