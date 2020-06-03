@@ -58,11 +58,11 @@ The sequence in which `<attribute>` elements are defined in an `<srcschema>` doe
 
   Accessible values are:
 
-    * "none": reconciliation alone. This means that Adobe Campaign will recover the element without updating it or generating an error if it doesn't exist.
-    * "insertOrUpdate": update with insertion. This means that Adobe Campaign will update the element or create it if it doesn't exist.
-    * "insert": insertion. This means that Adobe Campaign will insert the element without checking whether it exists.
-    * "update": update. This means that Adobe Campaign will update the element or generate an error if it doesn't exist.
-    * "delete": deletion. This means that Adobe Campaign will recover and delete elements.
+  * "none": reconciliation alone. This means that Adobe Campaign will recover the element without updating it or generating an error if it doesn't exist.
+  * "insertOrUpdate": update with insertion. This means that Adobe Campaign will update the element or create it if it doesn't exist.
+  * "insert": insertion. This means that Adobe Campaign will insert the element without checking whether it exists.
+  * "update": update. This means that Adobe Campaign will update the element or generate an error if it doesn't exist.
+  * "delete": deletion. This means that Adobe Campaign will recover and delete elements.
 
 * **advanced (boolean)**: when this option is activated (@advanced="true"), it lets you hide the attribute on the list of available fields accessible for configuring a list in a form.
 * **applicableIf (string)**: this attribute lets you make fields optional. The `<attribute>` element will be taken into account when updating the database when the constraint is complied with. "applicableIf" receives an XTK expression.
@@ -70,14 +70,14 @@ The sequence in which `<attribute>` elements are defined in an `<srcschema>` doe
 * **belongsTo (string)**: takes the name and namespace of the table that shares the field, and populates the schema where the attribute is declared. (used only in a `<schema>`).
 * **dataPolicy (string)**: enables you to specify approval constraints on values allowed in the SQL or XML field. The values for this attribute are:
 
-    * "none": no value
-    * "smartCase": first letters upper case
-    * "lowerCase": all lower case
-    * "upperCase": all upper case
-    * "email": email adress
-    * "phone": telephone number
-    * "identifier": identifier name
-    * "resIdentifier": file name
+  * "none": no value
+  * "smartCase": first letters upper case
+  * "lowerCase": all lower case
+  * "upperCase": all upper case
+  * "email": email adress
+  * "phone": telephone number
+  * "identifier": identifier name
+  * "resIdentifier": file name
 
 * **dbEnum (string)**: receives the internal name of a "closed" enumeration. The enumeration values must be defined in the `<srcschema>`.
 * **defOnDuplicate (boolean)**: if this attribute is activated, when a record is duplicated the default value (defined in @default) is automatically reapplied to the record.
@@ -109,19 +109,19 @@ The sequence in which `<attribute>` elements are defined in an `<srcschema>` doe
 
   When the schema is written to the database, prefixes are automatically added to the field name by Adobe Campaign:
 
-    * "i": prefix for the 'integer' type.
-    * "d": prefix for the 'double' type.
-    * "s": prefix for the character string type.
-    * "ts": prefix for the 'date' type.
+  * "i": prefix for the 'integer' type.
+  * "d": prefix for the 'double' type.
+  * "s": prefix for the character string type.
+  * "ts": prefix for the 'date' type.
 
   To fully define the name of the field in the table, use the "@sqlname" option when defining an attribute.
 
 * **notNull (boolean)**: lets you redefine Adobe Campaign's behavior regarding the management of NULL records in the database. By default, numeric fields are not null and string and date type fields can be null. 
 * **pkgStatus (string)**: during package exports, values are taken into account depending on the value of the "@pkgStatus":
 
-    * "always": always present
-    * "never": never present
-    * "default (or nothing)": the value is exported except if it's the default value or if it isn't an internal field which would not be compatible with other instances.
+  * "always": always present
+  * "never": never present
+  * "default (or nothing)": the value is exported except if it's the default value or if it isn't an internal field which would not be compatible with other instances.
 
 * **ref (string)**: this attribute defines a reference to an `<attribute>` element shared by several schemas (definition factoring). The definition isn't copied into the current schema.
 * **required (boolean)**: if this attribute is activated (@required="true"), the field is highlighted in the interface. The label of the field will be red in forms.
@@ -137,32 +137,32 @@ The sequence in which `<attribute>` elements are defined in an `<srcschema>` doe
 
   List of available types:
 
-    * ANY
-    * bin
-    * blob
-    * boolean
-    * byte
-    * CDATA
-    * datetime
-    * datetimetz
-    * datetimenotz
-    * date
-    * double
-    * enum
-    * float
-    * html
-    * int64
-    * link
-    * long
-    * memo
-    * MNTOKEN
-    * percent
-    * primarykey
-    * short
-    * string
-    * time
-    * timespan
-    * uuid
+  * ANY
+  * bin
+  * blob
+  * boolean
+  * byte
+  * CDATA
+  * datetime
+  * datetimetz
+  * datetimenotz
+  * date
+  * double
+  * enum
+  * float
+  * html
+  * int64
+  * link
+  * long
+  * memo
+  * MNTOKEN
+  * percent
+  * primarykey
+  * short
+  * string
+  * time
+  * timespan
+  * uuid
 
   If the "@type" attribute is left empty, Adobe Campaign will link a string of characters (STRING) with a length of 100 to the field by default.
 
@@ -350,11 +350,11 @@ The name of the index in the database is calculated by concatenating the name of
 
   Accessible values are:
 
-    * "none": reconciliation alone. This means that Adobe Campaign will recover the element without updating it or generating an error if it doesn't exist.
-    * "insertOrUpdate": update with insertion. This means that Adobe Campaign will update the element or create it if it doesn't exist.
-    * "insert": insertion. This means that Adobe Campaign will insert the element without checking whether it exists.
-    * "update": update. This means that Adobe Campaign will update the element or generate an error if it doesn't exist.
-    * "delete": deletion. This means that Adobe Campaign will recover and delete elements.
+  * "none": reconciliation alone. This means that Adobe Campaign will recover the element without updating it or generating an error if it doesn't exist.
+  * "insertOrUpdate": update with insertion. This means that Adobe Campaign will update the element or create it if it doesn't exist.
+  * "insert": insertion. This means that Adobe Campaign will insert the element without checking whether it exists.
+  * "update": update. This means that Adobe Campaign will update the element or generate an error if it doesn't exist.
+  * "delete": deletion. This means that Adobe Campaign will recover and delete elements.
 
 * **applicableIf (string)**: condition for taking the index into account - receives an XTK expression.
 * **label (string)**: index label.
@@ -446,11 +446,11 @@ There are four types of `<element>`  elements in Adobe Campaign:
 
   Accessible values are:
 
-    * "none": reconciliation alone. This means that Adobe Campaign will recover the element without updating it or generating an error if it doesn't exist.
-    * "insertOrUpdate": update with insertion. This means that Adobe Campaign will update the element or create it if it doesn't exist.
-    * "insert": insertion. This means that Adobe Campaign will insert the element without checking whether it exists.
-    * "update": update. This means that Adobe Campaign will update the element or generate an error if it doesn't exist.
-    * "delete": deletion. This means that Adobe Campaign will recover and delete elements.
+  * "none": reconciliation alone. This means that Adobe Campaign will recover the element without updating it or generating an error if it doesn't exist.
+  * "insertOrUpdate": update with insertion. This means that Adobe Campaign will update the element or create it if it doesn't exist.
+  * "insert": insertion. This means that Adobe Campaign will insert the element without checking whether it exists.
+  * "update": update. This means that Adobe Campaign will update the element or generate an error if it doesn't exist.
+  * "delete": deletion. This means that Adobe Campaign will recover and delete elements.
 
 * **advanced (boolean)**: when this option is activated (@advanced="true"), it lets you hide the attribute on the list of available fields accessible for configuring a list in a form.
 * **aggregate (string)**: lets you copy the definition of an `<element>`  via another schema. This attribute receives a schema declaration in the form of a "namespace:name".
@@ -458,14 +458,14 @@ There are four types of `<element>`  elements in Adobe Campaign:
 * **autopk (boolean)**: if this option is activated (autopk="true"), a unique key will be automatically defined. This option may only be used on the main element of the schema. Warning, Adobe Campaign only guarantees that the key generated is unique. It is not guaranteed that the key values are consecutive and incremental.
 * **dataPolicy (string)**: enables you to specify approval constraints on values allowed in the SQL field. The values for this attribute are:
 
-    * "none": no value
-    * "smartCase": first letters upper case
-    * "lowerCase": all lower case 
-    * "upperCase": all upper case
-    * "email": email adress
-    * "phone": telephone number
-    * "identifier": identifier name
-    * "resIdentifier": file name
+  * "none": no value
+  * "smartCase": first letters upper case
+  * "lowerCase": all lower case 
+  * "upperCase": all upper case
+  * "email": email adress
+  * "phone": telephone number
+  * "identifier": identifier name
+  * "resIdentifier": file name
 
 * **dbEnum (string)**: receives the internal name of a "closed" enumeration. The enumeration values must be defined in the `<srcschema>`.
 * **defOnDuplicate (boolean)**: if this attribute is activated, when a record is duplicated the default value (defined in @default) is automatically reapplied to the record.
@@ -478,13 +478,13 @@ There are four types of `<element>`  elements in Adobe Campaign:
 * **externalJoin (boolean)**: external join in a "link" type element.
 * **feature (string)**: defines a characteristics field: These fields are used for extending the data in an existing table, but with storage in an annex table. Accepted values are:
 
-    * "shared": the content is stored in a shared table per data type
-    * "dedicated": the content is stored in a dedicated table
+  * "shared": the content is stored in a shared table per data type
+  * "dedicated": the content is stored in a dedicated table
 
   SQL characteristics tables are built automatically based on the characteristic type:
 
-    * dedicated: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
-    * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+  * dedicated: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
+  * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
   There are two types of characteristics fields: simple fields where a single value is authorized on the characteristic, and multiple choice fields, where the characteristic is linked to a collection element which may contain several values.
 
@@ -501,11 +501,11 @@ There are four types of `<element>`  elements in Adobe Campaign:
 
   Accessible values are:
 
-    * "define": Adobe Campaign does not delete the entity if it is referenced via the link
-    * "normal": deleting the source occurrence initializes the keys of the link on the target occurrence (default mode), this type of integrity initializes all foreign keys
-    * "own": deleting the source occurrence triggers the deletion of the target occurrence
-    * "owncopy": similar to "own" (in case of deletion) or duplicates occurrences (in case of duplication)
-    * "neutral": does not do anything
+  * "define": Adobe Campaign does not delete the entity if it is referenced via the link
+  * "normal": deleting the source occurrence initializes the keys of the link on the target occurrence (default mode), this type of integrity initializes all foreign keys
+  * "own": deleting the source occurrence triggers the deletion of the target occurrence
+  * "owncopy": similar to "own" (in case of deletion) or duplicates occurrences (in case of duplication)
+  * "neutral": does not do anything
 
 * **label (string)**: element label. 
 * **labelSingular (string)**: label (singular form) of the element used in some parts of the interface. 
@@ -515,10 +515,10 @@ There are four types of `<element>`  elements in Adobe Campaign:
 
   When the schema is written to the database, prefixes are automatically added to the field name by Adobe Campaign.
 
-    * "i": prefix for the 'integer' type.
-    * "d": prefix for the 'double' type.
-    * "s": prefix for the character string type.
-    * "ts": prefix for the 'date' type.
+  * "i": prefix for the 'integer' type.
+  * "d": prefix for the 'double' type.
+  * "s": prefix for the character string type.
+  * "ts": prefix for the 'date' type.
 
   To define the name of the table in an autonomous way, you need to use the "@sqltable" attribute in the definition of the main schema element.
 
@@ -527,9 +527,9 @@ There are four types of `<element>`  elements in Adobe Campaign:
 * **pkSequence (string)**: receives the name of the sequence to be used for calculating an auto-incremental key. This attribute may only be used if an auto-incremental key is defined on the root element of the schema. 
 * **pkgStatus (string)**: during package exports, values will be taken into account as a function of the value of this attribute:
 
-    * "always": the element will always be present
-    * "never": the element will never be present
-    * "default (or nothing)": the element is exported unless it is the default element or if it isn't an internal field and would not be compatible with other instances
+  * "always": the element will always be present
+  * "never": the element will never be present
+  * "default (or nothing)": the element is exported unless it is the default element or if it isn't an internal field and would not be compatible with other instances
 
 * **ref (string)**: this attribute defines a reference to an >element> element shared by several schemas (definition factoring). The definition isn't copied into the current schema.
 * **required (boolean)**: if this attribute is activated (@required="true"), the field is highlighted in the interface. The label of the field will be red in forms. 
@@ -538,8 +538,8 @@ There are four types of `<element>`  elements in Adobe Campaign:
 
   Possible values are:
 
-    * "single" : Simple 1-1 type link
-    * "unbound": 1-N type collection link
+  * "single" : Simple 1-1 type link
+  * "unbound": 1-N type collection link
 
   By default, if the attribute isn't specified during link creation, cardinality will be 1-N.
 
@@ -781,7 +781,7 @@ Filtered link towards the "cus:Country" table based on the content of the "@coun
 <element name="StockEN" type="link" label="MyLink" target="cus:Stock">
    <join xpath-dst="@country" xpath-src="@code" dstFilterExpr="@country = 'EN'"/>
  </element>
- ```
+```
 
 ## `<key>` element {#key--element}
 

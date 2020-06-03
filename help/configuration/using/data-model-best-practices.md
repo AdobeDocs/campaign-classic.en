@@ -20,7 +20,7 @@ This document outlines key recommendations while designing your Adobe Campaign d
 
 For a better understanding of Campaign built-in tables and their interaction, refer to the [Campaign Classic data model](../../configuration/using/about-data-model.md) section.
 
-Read out this [documentation](../../configuration/using/about-schema-reference.md) to get started with Campaign schemas. Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in this [document](../../configuration/using/about-schema-edition.md).
+Read out [this documentation](../../configuration/using/about-schema-reference.md) to get started with Campaign schemas. Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this document](../../configuration/using/about-schema-edition.md).
 
 ## Overview {#overview}
 
@@ -42,7 +42,7 @@ This customer-centric approach is shown on the chart below. The **Recipient** ta
 
 To access the description of each table, go to **[!UICONTROL Admin > Configuration > Data schemas]**, select a resource from the list and click the **[!UICONTROL Documentation]** tab.
 
-The Adobe Campaign default data model is presented in this [document](../../configuration/using/data-model-description.md).
+The Adobe Campaign default data model is presented in [this document](../../configuration/using/data-model-description.md).
 
 >[!NOTE]
 >
@@ -150,8 +150,8 @@ When a custom table is being created in Adobe Campaign with a primary key as an 
 By default, a custom sequence will have values ranging from +1,000 to +2.1BB. Technically, it is possible  to get a full range of 4BB by enabling negative ids. This should be used with care and one id will be lost when crossing from negative to positive numbers: the record 0 is typically ignored by Adobe Campaign Classic in generated SQL queries.
 
 **Related topics:**
-* For more on the **Sequence auto-generation** feature, see this [document](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html).
-* For more on sequences exhaustion, watch this [video](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+* For more on the **Sequence auto-generation** feature, see [this document](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html).
+* For more on sequences exhaustion, watch [this video](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## Indexes {#indexes}
 

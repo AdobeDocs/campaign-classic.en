@@ -92,7 +92,29 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>File-based email archiving<br>&nbsp;</td>
-   <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a>.</p> 
+   <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a>.</p>
+  </tr> 
+ </tbody> 
+</table>
+
+### Adobe Campaign 19.2 release  {#compat-19-2-release}
+
+Starting 19.2 Fall Release, the following operating systems are deprecated for Campaign Classic. Compatibility will end in 2020 EOY.
+
+* Web Server: Apache 2.2. [Learn more](https://wiki.centos.org/About/Product)
+* Operating System: CentOS 6. [Learn more](https://wiki.centos.org/About/Product)
+
+Please refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) to upgrade to a newer version or move to a new system.
+
+## Removed features {#removed-features}
+
+This section lists features and capabilities that have been removed from Campaign Classic.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td><strong>Area - Feature</strong></td>
+   <td><strong>Replacement</strong></td> 
   </tr> 
    <tr> 
    <td>Lead management<br>&nbsp;</td>

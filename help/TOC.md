@@ -148,12 +148,13 @@ sub-product: adobe campaign classic
        + [Starting a new platform](delivery/using/starting-new-platform.md)
        + [Control message content](delivery/using/control-message-content.md)
        + [Improve your reputation](delivery/using/improve-reputation.md)
-       + [Re-engagement best practices](delivery/using/re-engagement-best-practices.md)
        + [Technical recommendations](delivery/using/technical-recommendations.md)
-       + [Technical monitoring](delivery/using/technical-monitoring.md)
+       + [Monitoring deliverability](delivery/using/monitoring-deliverability.md)
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
+       + [Re-engagement best practices](delivery/using/re-engagement-best-practices.md)
        + [Blacklisting databases](delivery/using/blacklisting-databases.md)
+       + [Troubleshooting](delivery/using/deliverability-faq.md)
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
        + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
@@ -283,34 +284,34 @@ sub-product: adobe campaign classic
 + Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
   + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
   + Audience sharing {#audience-sharing}
-       + [Sharing audiences with Adobe Experience Cloud](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+       + [Sharing audiences with [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
        + [Submitting request to Adobe](integrations/using/submitting-request-to-adobe.md)
-       + [Configuring shared audiences integration in Adobe Campaign](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+       + [Configuring shared audiences integration in [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
        + [Troubleshooting](integrations/using/troubleshooting.md)
        + [Importing and exporting audiences](integrations/using/importing-and-exporting-audiences.md)
   + Asset sharing {#asset-sharing}
-       + [Sharing assets with Adobe Experience Cloud](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-       + [Configuring access to Assets](integrations/using/configuring-access-to-assets.md)
+       + [Sharing assets with [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+       + [Configuring access to [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
        + [Inserting a shared asset](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
-       + [About Adobe Experience Manager](integrations/using/about-adobe-experience-manager.md)
+       + [About [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
        + [Configuring the integration](integrations/using/configuring-the-integration.md)
-       + [Creating an Experience Manager newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
+       + [Creating an [!DNL Experience Manager] newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
   + Adobe Target {#adobe-target}
-       + [Integrating with Adobe Target](integrations/using/integrating-with-adobe-target.md)
-       + [Configuring the integration with Adobe Target](integrations/using/configuring-the-integration-with-adobe-target.md)
+       + [Integrating with [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+       + [Configuring the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
        + [Inserting a dynamic image](integrations/using/inserting-a-dynamic-image.md)
   + Connecting via an Adobe ID {#connecting-via-an-adobe-id}
-       + [About Adobe ID](integrations/using/about-adobe-id.md)
-       + [Configuring IMS](integrations/using/configuring-ims.md)
-       + [Implementing IMS](integrations/using/implementing-ims.md)
+       + [About [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
+       + [Configuring [!DNL IMS]](integrations/using/configuring-ims.md)
+       + [Implementing [!DNL IMS]](integrations/using/implementing-ims.md)
        + [IMS troubleshooting](integrations/using/ims-troubleshooting.md)
   + ACS Connector {#acs-connector}
-       + [ACS Connector principles and data cycle](integrations/using/acs-connector-principles-and-data-cycle.md)
+       + [[!DNL ACS Connector] principles and data cycle](integrations/using/acs-connector-principles-and-data-cycle.md)
        + [Synchronizing profiles](integrations/using/synchronizing-profiles.md)
        + [Synchronizing audiences](integrations/using/synchronizing-audiences.md)
        + [Synchronizing web applications](integrations/using/synchronizing-web-applications.md)
-       + [Troubleshooting the ACS Connector](integrations/using/troubleshooting-the-acs-connector.md)
+       + [Troubleshooting the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
 + Automating with Workflows {#automating-with-workflows}
   + Introduction {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
@@ -320,8 +321,13 @@ sub-product: adobe campaign classic
        + [Targeting data](workflow/using/targeting-data.md)
        + [Importing data](workflow/using/importing-data.md)
        + [How to use workflow data](workflow/using/how-to-use-workflow-data.md)
-       + [Executing a workflow](workflow/using/executing-a-workflow.md)
        + [Workflow best practices](workflow/using/workflow-best-practices.md)
+  +  Executing a workflow {#executing-a-workflow}
+       + [Starting a workflow](workflow/using/starting-a-workflow.md)
+       + [Workflow life cycle](workflow/using/workflow-life-cycle.md)
+       + [Data life cycle](workflow/using/data-life-cycle.md)
+       + [Defining approvals](workflow/using/defining-approvals.md)
+       + [Architecture](workflow/using/architecture.md)
   + Targeting activities {#targeting-activities}
        + [About targeting activities](workflow/using/about-targeting-activities.md)
        + [Query](workflow/using/query.md)
@@ -514,6 +520,7 @@ sub-product: adobe campaign classic
        + [Transactional message preview](message-center/using/transactional-message-preview.md)
        + [Sending a proof](message-center/using/sending-a-proof.md)
        + [Template publication](message-center/using/template-publication.md)
+       + [Template unpublication](message-center/using/template-unpublication.md)
   + Event processing {#event-processing}
        + [About event processing](message-center/using/about-event-processing.md)
        + [Event collection](message-center/using/event-collection.md)
@@ -525,9 +532,7 @@ sub-product: adobe campaign classic
        + [Message Center service level](message-center/using/message-center-service-level.md)
        + [Message Center processing time](message-center/using/message-center-processing-time.md)
   + Use case {#use-case}
-       + [Purpose](message-center/using/purpose.md)
-       + [Important notes](message-center/using/important-notes.md)
-       + [Implementation](message-center/using/implementation.md)
+       + [Sending transactional emails with attachments](message-center/using/transactional-email-with-attachments.md)
 + Integrating with Social media {#integrating-with-social-media}
   + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}
