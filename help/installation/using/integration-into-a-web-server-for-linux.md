@@ -230,19 +230,19 @@ You should obtain:
 Trying 127.0.0.1...
 Connected to localhost.localdomain.
 Escape character is '^]'.
-````
+```
 
 Then enter:
 
 ```
 GET /r/test
-````
+```
 
 The following information is displayed:
 
 ```
 <redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='' localHost='XXXX'/>
 Connection closed by foreign host.
-````
+```
 
 You can also request the URL [`https://<computer>`](https://machine/r/test) from a Web browser.

@@ -30,5 +30,5 @@ Read more:
 
 * [About Targeting activities](../../workflow/using/about-targeting-activities.md)
 * [Importing data](../../workflow/using/importing-data.md)
-* [Executing a workflow](../../workflow/using/executing-a-workflow.md)
+* [Executing a workflow](../../workflow/using/starting-a-workflow.md)
 * [Workflow best practices](../../workflow/using/workflow-best-practices.md)

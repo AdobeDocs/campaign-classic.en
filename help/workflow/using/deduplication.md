@@ -45,6 +45,9 @@ Click the **[!UICONTROL Edit configuration...]** link to define the deduplicatio
 
    ![](assets/s_user_segmentation_dedup_param2.png)
 
+   >[!NOTE]
+   >
+   >If you are using external data as input, for example from an external file, make sure you select the **[!UICONTROL Temporary schema]** option.
    In the next step, the **[!UICONTROL Other]** option lets you select the criterion or criteria to be used:
 
    ![](assets/s_user_segmentation_dedup_param3.png)
