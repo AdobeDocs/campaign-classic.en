@@ -118,7 +118,7 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 * Shared memory version has been increased.
 
-  >[!NOTE]
+  >[!WARNING]
   >
   >This improvement requires an additional step after performing the upgrade. Refer to the **Technical evolutions** section below.
 
@@ -175,19 +175,9 @@ for i in `ipcs -s | awk '/neolane/ {print $2}
 An example for Linux is available on this [page](../../configuration/using/additional-parameters.md#redirection-server-configuration).
 
 
-
-
-
 **Other changes**
 
-The following SMS connectors are now deprecated:
-* NetSize
-* Generic SMPP (SMPP version 3.4 supporting binary mode)
-* Sybase365 (SAP SMS 365)
-* CLX Communications
-* Tele2
-* O2
-* iOS
+Legacy SMS connectors are now deprecated. Refer to the [Deprecated features page](../../rn/using/deprecated-features.md).
 
-Learn more in the [Deprecated features page](../../rn/using/deprecated-features.md).
-Learn how to migrate legacy connectors in this technote - ADD LINK.
+
+
