@@ -104,13 +104,13 @@ The following systems are now supported with Campaign:
 * RDBMS: Oracle 18c and Oracle 19c
 * FDA: Azure Synapse Analytics
 
-Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)</a>.
+Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
 **Improvements**
 
 * Transactional messaging has been improved for a better user experience. It is now possible to unpublish a transactional message template, which deletes it from the execution instances. [Learn more](../../message-center/using/template-unpublication.md).
 
-* Some guardrails have been set to avoid issues when sending transactional messages with image attachment as URL.
+* New options are available to set limitations when sending emails that include images or attachments. These guardrails can avoid performance issues, which is particularly useful with transactional messaging. [Read more](../../installation/using/configuring-campaign-options.md#delivery)
 
 * The new **Prepare the delivery parts in the database** option enables to perform delivery preparation directly within the database, which can significantly accelerate the analysis. This option is only available for specific configurations. [Learn more](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis). (NEO-23886)
 
@@ -128,3 +128,4 @@ The following SMS connectors are now deprecated:
 * iOS
 
 Learn more in the [Deprecated features page](../../rn/using/deprecated-features.md).
+Learn how to migrate legacy connectors in this technote - ADD LINK.
