@@ -16,7 +16,7 @@ snippet: y
 
 # Deprecated and removed features {#deprecated-and-removed-features}
 
-Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility. As Adobe Campaign Classic works with 3rd party tools, compatibility is updated on a regular basis, in order to implement supported versions only. Versions which are no longer compatible with Adobe Campaign Classic are listed below.
+Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility. As Adobe Campaign Classic works with 3rd party tools, compatibility is updated on a regular basis, in order to implement supported versions only. Versions which are no longer compatible with Adobe Campaign Classic are listed below and in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
 To communicate the impending removal/replacement of Campaign Classic capabilities, the following rules apply:
 
@@ -35,7 +35,7 @@ This section lists features and capabilities that have been marked as deprecated
 
 Generally, features that are planned to be removed in a future release are set to deprecated first. These features and capabilities are either no longer available for new Campaign Classic customers, or should not be used for any new implementation. They are also removed from product documentation.
 
-Customers are advised to review if they make use of the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided. Please refer to the target removal date to plan your environment and project updates accordingly.
+Customers are advised to review if they make use of the feature/capability in their current deployment, and make plans to change their implementation. Please refer to the target removal date to plan your environment and project updates accordingly.
 
 <table> 
  <tbody> 
