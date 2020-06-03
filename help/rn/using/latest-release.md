@@ -93,22 +93,6 @@ _June 8, 2020_
  </tbody> 
 </table>
 
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Email Feedback Service with Campaign Enhanced MTA (beta)</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Email Feedback Service is a scalable solution which captures feedback from the <a href=https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html>Enhanced MTA</a> directly to improve reporting metrics accuracy.</p>
-    <p>This capability is released as a private beta. As a hosted customer, you can join this beta program if your instance has been upgraded to the Enhanced MTA and if IMS is enabled. However, you need to check with <a href=https://helpx.adobe.com/enterprise/using/support-and-expert-services.html>Adobe Customer Care</a> if you are eligible. </p>
-   </p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
 **Security enhancements**
 
 Improved security on tracking links in email is enabled by default for all customers. An additional, enhanced security feature is available which can be enabled by reaching out to Customer Care. More details on the feature and steps for non-hosted customers to enable it can be found in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html). (NEO-24232)
