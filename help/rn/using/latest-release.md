@@ -116,7 +116,11 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 * Performances of the [CRM Connector activity](../../workflow/using/crm-connector.md) for Microsoft Dynamics have been improved. (NEO-13303)
 
-* Shared memory version has been increased. This evolution should be transparent for users. If you get an error, refer to the **Technical evolutions** section below.
+* Shared memory version has been increased.
+
+  >[!NOTE]
+  >
+  >This improvement requires an additional step after performing the upgrade. Refer to the **Technical evolutions** section below.
 
 * The cleanup workflow has been enhanced. Orphaned worktables of all deleted workflows are now also deleted automatically by the cleanup workflow.
 
