@@ -134,7 +134,7 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 * Certificates for iOS mobile applications with the iOS HTTP2 connector are now validated before sending push notifications, thus preventing deliveries from failing because of expired certificates. 
 
-* The management of HTTP proxy connections has been improved. 
+* The management of HTTP proxy connections has been improved. [Learn more](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
 
 **Other changes**
 
