@@ -95,7 +95,15 @@ _June 8, 2020_
 
 **Security enhancements**
 
-Improved security on tracking links in email is enabled by default for all customers. An additional, enhanced security feature is available which can be enabled by reaching out to Customer Care. More details on the feature and steps for non-hosted customers to enable it can be found in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html). (NEO-24232)
+* Improved security on tracking links in email is enabled by default for all customers. An additional, enhanced security feature is available which can be enabled by reaching out to Customer Care. More details on the feature and steps for non-hosted customers to enable it can be found in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html). (NEO-24232)
+
+* To optimize security, the MD5 hashing algorithm used to generate file names has been reinforced with sha256 for public file upload. (NEO-17044)
+
+* To reinforce security against XSS attacks, client-side scripts are disabled when executing a mirror page. (NEO-17987)
+
+* Fixed an issue which prevented the privacy cleanup from deleting reconciliation data. (NEO-25168, NEO-21004)
+
+* Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183)
 
 **Compatibility enhancements**
 
@@ -114,7 +122,7 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 * The new **Prepare the delivery parts in the database** option enables to perform delivery preparation directly within the database, which can significantly accelerate the analysis. This option is only available for specific configurations. [Learn more](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis). (NEO-23886)
 
-* Performances of the [CRM Connector activity](../../workflow/using/crm-connector.md) for Microsoft Dynamics have been improved. (NEO-13303)
+* Performances of the [CRM Connector activity](../../workflow/using/crm-connector.md) for Microsoft Dynamics have been improved. (NEO-13303, NEO-12710)
 
 * Shared memory version has been increased.
 
@@ -122,12 +130,34 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
   >
   >This improvement requires an additional step after performing the upgrade. Refer to the **Technical evolutions** section below.
 
-* The cleanup workflow has been enhanced. Orphaned worktables of all deleted workflows are now also deleted automatically by the cleanup workflow.
+* The cleanup workflow has been enhanced. Orphaned worktables of all deleted workflows are now also deleted automatically by the cleanup workflow. [Learn more](../../production/using/database-cleanup-workflow.md#cleanup-of-workflow-instances).
+
+* Certificates for iOS mobile application with the iOS HTTP2 connector are now validated before sending push notifications preventing deliveries to fail because of expired certificates. 
+
+* The management of HTTP proxy connections has been improved. 
+
+**Other changes**
+
+Legacy SMS connectors are now deprecated. Refer to the [Deprecated features page](../../rn/using/deprecated-features.md).
+
+You can no longer use your own Litmus account to provision and use Inbox rendering in Adobe Campaign. [Learn more](../../delivery/using/inbox-rendering.md).
+
+To better distinguish views from folders, the color of view names has been changed from dark blue to dark cyan. [Read more](../../platform/using/access-management.md#about-views)
+
+* Campaign Classic can now be connected to Microsoft Dynamics CRM accounts hosted in the UK, India and Canada regions. This concerns Office 365 and Dynamics 2015 (on-premise) type deployments.
+
+* Campaign now performs a TLS verification to check that the hostname of the server matches the hostname in the provided certificate.
+
+* The Delivery and tracking statistics table now displays one entry by delivery for the SMS channel, instead of one entry by delivery recipient.  
+
+* Added an error message in the log file to warn users when the downloaded file is larger than the disk space.
+
+* The following functions are now available for the Snowflake connector: MonthsAgo, DaysAgoInt, ToDateTime, YearsAgo.
 
 **Technical evolutions**
 
 This new build updates shared memory and requires an additional step after performing the upgrade.
-As a Campaign administrator, you need to remove memory segments. This steps is mandatory, as old segments will prevent nlserver/nlsrvmod from starting.
+As a Campaign administrator, you need to remove memory segments. These steps are mandatory, as old segments will prevent nlserver/nlsrvmod from starting.
 
 On Windows, a system restart is needed.
 
@@ -174,12 +204,46 @@ for i in `ipcs -s | awk '/neolane/ {print $2}
 
 An example for Linux is available on this [page](../../configuration/using/additional-parameters.md#redirection-server-configuration).
 
+**Patches**
 
-**Other changes**
-
-Legacy SMS connectors are now deprecated. Refer to the [Deprecated features page](../../rn/using/deprecated-features.md).
-
-You can no longer use your own Litmus account to provision and use Inbox rendering in Adobe Campaign. [Learn more](../../delivery/using/inbox-rendering.md).
-
-
-
+* Fixed a minor regression in the cleanup workflow logs.
+* Fixed an issue in the workflow Loading (SOAP) activity when parsing WSDL files.
+* Fixed an issue which caused an error when upgrading numerous workflows using a survey activity.
+* Fixed an intermittent connectivity issue during processing of inMail messages from the Enhanced MTA. (NEO-20380)
+* Fixed an issue that prevented the hot click percentages from showing properly when images were displayed with a 100% width in the HTML. (NEO-23203)
+* Fixed an issue that prevented the delivery’s conditional content from being fully displayed in the hot clicks report. (NEO-18729)
+* Fixed an issue that skipped the target approval step when resuming a workflow to send a recurring delivery. (NEO-18166)
+* Fixed an issue that prevented the "Restart message preparation" button from resuming the delivery after fixing an error in the workflow. (NEO-13488)
+* Fixed an issue that could cause deliveries to fail in mid-sourcing mode during ramp-up activity where target included recipients with Japanese email formats. (NEO-23846)
+* Fixed a timezone conversion issue with the Snowflake Connector (NEO-20105)
+* Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
+* Fixed an issue which could prevent images from being displayed in Line deliveries. (NEO-23207)
+* Fixed an issue that caused an error when publishing an offer. (NEO-23312)
+* Fixed an issue with push notifications which allowed test connections to work in mobile applications, even when the certificate had expired. (NEO-22991)
+* Fixed an issue which could affect push notification when sent at a high frequency. (NEO-20516)
+* Fixed an issue that caused the tracking data to include duplicates even though the tracking logs did not. (NEO-20040)
+* Fixed an issue that caused duplicate transactional emails to be sent after tracking server communication failure was fixed. (NEO-23640)
+* Fixed an issue that deleted the encoding parameter value when redirecting from tracking URL. (NEO-25637)
+* Fixed an issue that could prevent a query from working when comparing float numbers. (NEO-23243)
+* Fixed an issue that could prevent the **Modified by** column content from displaying after restarting a workflow. (NEO-23035)
+* Fixed an issue that caused the tracking technical workflow to fail when downloading logs from second container. (NEO-23159)
+* Fixed an issue that caused workflows to fail when running the **Enrichment** activity due to bad renaming. (NEO-17338)
+* Fixed an issue on the **Doubles to keep** field in the workflow **Deduplication** activity to prevent entering null or negative values.
+* Removed the **Scheduler wizard** from the recurring campaigns to avoid mentioning hours and minutes. Only dates are taken into account.
+* Fixed an issue with additional storage fields when creating deliveries through **Computed by a script** in the **Script** workflow activity. (NEO-20609)
+* Fixed an issue that prevented ghost workflows from being deleted within the database cleanup tasks.
+* Fixed an issue which caused the **Billing (active profiles)** technical workflow to fail. (NEO-19777)
+* Fixed an issue when testing the connection of the acsDefaultAccount external account. (NEO-23433)
+* Fixed an issue which prevented you from to creating a schema extension on a primary key with multiple columns with a Hadoop table. (NEO-17390)
+* Fixed an issue in the **Loading (SOAP)** activity that could prevent WSDL files from being loaded from a URL. (NEO-16924)
+* Fixed an issue which prevented you from performing an **Unconditional stop** through the console when multiple active workflow servers were load balanced. (NEO-19556)
+* Fixed a regression causing the cleanup workflow to crash.
+* Fixed an issue that could occur when publishing a template on an execution instance.
+* Fixed an issue that could prevent the collectPrivacyRequests technical workflow from running. (NEO-20513, NEO-25169)
+* Fixed issues that could happen when trying to connect to Audience Manager after updating to build 9080. (NEO-20511, NEO-25167)
+* Fixed issues that could occur when exporting reports in PDF or XLS format. (NEO-20982, NEO-23493, NEO-23348)
+* Fixed an issue that could display a delivery twice in the delivery list after it was sent.
+* Fixed an issue with delivery preparation that could occur when the routing configuration was set to send the delivery via mid-sourcing.
+* Fixed an issue that could display an error message when clicking a web application link within a Line message.
+* Fixed an issue that could prevent Microsoft Dynamics CRM from retrieving all entities. (NEO-24528)
+* Fixed an issue that deleted the Incremental query activity history after running the cleanup workflow.
