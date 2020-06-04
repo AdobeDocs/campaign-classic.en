@@ -611,7 +611,7 @@ If you need to connect the Campaign server to the outside through a proxy (using
 
 >[!NOTE]
 >
->Starting 20.2, the HTTP and HTTPS protocol parameters are no longer available. The following information still mentions those parameters as they remain available to previous builds including 9232.
+>Starting 20.2, the HTTP and HTTPS protocol parameters are no longer available. The following information still mentions those parameters as they remain available to previous builds including 9032.
 >
 >SOCKS proxies are not supported.
 
