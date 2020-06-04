@@ -52,7 +52,7 @@ _June 8, 2020_
  <tbody> 
   <tr> 
    <td> <p>When designing a message in Campaign, you can now easily insert emoticons in the message body, using a dedicated button. They can also be added in the email subject line. You can customize the list of available emoticons in the interface.</p>
-    <p>For more information about adding emoticons, refer to the <a href="../../delivery/using/defining-the-email-content.md#inserting-emoticons-in-an-email">detailed documentation</a>. Learn how to customize the emoticon list.</p>
+    <p>For more information about adding emoticons, refer to the <a href="../../delivery/using/defining-the-email-content.md#inserting-emoticons-in-an-email">detailed documentation</a>. Learn how to customize the emoticon list <a href="../../delivery/using/customizing-emoticon-list.md">in this section</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -101,7 +101,7 @@ _June 8, 2020_
 
 * To reinforce security against XSS attacks, client-side scripts are disabled when executing a mirror page. (NEO-17987)
 
-* Fixed an issue which prevented the privacy cleanup from deleting reconciliation data. (NEO-25168, NEO-21004)
+* Fixed an issue which prevented the **Privacy Request Cleanup** technical workflow from deleting reconciliation data. (NEO-25168, NEO-21004)
 
 * Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183)
 
@@ -116,7 +116,7 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 **Improvements**
 
-* Transactional messaging has been improved for a better user experience. You can now unpublish a transactional message template, which deletes it from the execution instances.
+* Transactional messaging has been improved for a better user experience. You can now unpublish a transactional message template, which deletes it from the execution instances. [Learn more](../../message-center/using/template-unpublication.md).
 
 * New options are available to set limitations when sending emails that include images or attachments. These guardrails can avoid performance issues, which is particularly useful with transactional messaging. [Read more](../../installation/using/configuring-campaign-options.md#delivery)
 
@@ -144,7 +144,7 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 * To better distinguish views from folders, the color of view names has been changed from dark blue to dark cyan. [Read more](../../platform/using/access-management.md#about-views)
 
-* Campaign Classic can now be connected to Microsoft Dynamics CRM accounts hosted in the UK, India and Canada regions. This concerns Office 365 and Dynamics 2015 (on-premise) deployment types.
+* Campaign Classic can now be connected to Microsoft Dynamics CRM accounts hosted in the UK, India and Canada regions. This applies to  Office 365 and On premise (Dynamics 2015) deployment types.
 
 * Campaign now performs a TLS verification to check that the hostname of the server matches the hostname in the provided certificate.
 
@@ -156,8 +156,7 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 **Technical evolutions**
 
-This new build updates shared memory and requires an additional step after performing the upgrade.
-As a Campaign administrator, you need to remove memory segments. These steps are mandatory, as old segments will prevent nlserver/nlsrvmod from starting.
+This new build updates shared memory and requires additional steps to perform the upgrade. As a Campaign administrator, you need to remove memory segments. These steps are mandatory, as old segments will prevent nlserver/nlsrvmod from starting.
 
 On Windows, a system restart is needed.
 
@@ -212,7 +211,7 @@ An example for Linux is available on this [page](../../configuration/using/addit
 
 * Fixed a minor regression in the cleanup workflow logs.
 * Fixed an issue in the workflow **Loading (SOAP)** activity when parsing WSDL files.
-* Fixed an issue which caused an error when upgrading numerous workflows using a **Survey** activity.
+* Fixed an issue which caused an error when upgrading numerous workflows using a **Survey** activity to process efficiently a high number of workflows.
 * Fixed an intermittent connectivity issue during the processing of inMail messages from the Enhanced MTA. (NEO-20380)
 * Fixed an issue that prevented the hot click percentages from showing properly when images were displayed with a 100% width in the HTML. (NEO-23203)
 * Fixed an issue that prevented the delivery’s conditional content from being fully displayed in the hot clicks report. (NEO-18729)
@@ -250,4 +249,4 @@ An example for Linux is available on this [page](../../configuration/using/addit
 * Fixed an issue with delivery preparation that could occur when the routing configuration was set to send the delivery via mid-sourcing.
 * Fixed an issue that could display an error message when clicking a web application link within a Line message.
 * Fixed an issue that could prevent Microsoft Dynamics CRM from retrieving all entities. (NEO-24528)
-* Fixed an issue that deleted the Incremental query activity history after running the cleanup workflow.
+* Fixed an issue that deleted the **Incremental query** activity history after running the cleanup workflow.
