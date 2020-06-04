@@ -51,7 +51,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <li>O2</li>
    <li>iOS</li>
    </ul>
-  <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../delivey/using/sms-channel.md">Learn more</a>.</p> 
+  <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../delivery/using/sms-channel.md">Learn more</a>.</p> 
   <p>Learn how to migrate legacy connectors in this technote - ADD LINK.</p>
   <p>
      <em>Target removal date: 2021</em></p>
@@ -64,7 +64,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <tr> 
    <td>Fax channel<br></td>
    <td><p>Starting 20.2 release, the Fax channel is deprecated.</p> 
-   <p>If you are using this channel, you need to adapt your implementation accordingly. <a href="../../delivey/using/communication-channels.md">Learn more</a> about Campaign channels.</p>
+   <p>If you are using this channel, you need to adapt your implementation accordingly. <a href="../../delivery/using/communication-channels.md">Learn more</a> about Campaign channels.</p>
    <p><em>Target removal date: 2021</em></p></td>
   </tr>
  </tbody> 
