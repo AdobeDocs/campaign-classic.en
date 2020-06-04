@@ -29,7 +29,7 @@ Learn best practices to import data through a Campaign workflow [in this section
 
 ## Can I monitor workflow execution? {#can-i-monitor-workflow-execution-}
 
-Understand how to monitor Campaign workflow execution [in this page](../../workflow/using/executing-a-workflow.md).
+Understand how to monitor Campaign workflow execution [in this page](../../workflow/using/starting-a-workflow.md).
 
 ## How can I update Campaign data with a workflow? {#how-can-i-update-campaign-data-with-a-workflow-}
 

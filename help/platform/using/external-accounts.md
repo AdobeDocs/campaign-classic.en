@@ -103,7 +103,7 @@ The **[!UICONTROL Routing]** external account allows you to configure each chann
 The following channels can be configured:
 
 * [Email](../../installation/using/deploying-an-instance.md#email-channel-parameters)
-* [Mobile (SMS)](../../delivery/using/sms-channel.md#activating-an-external-account).
+* [Mobile (SMS)](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
 * [Phone](../../delivery/using/other-channels.md)
 * [Direct mail](../../delivery/using/about-direct-mail-channel.md)
 * [Agency](../../delivery/using/other-channels.md)
@@ -150,6 +150,7 @@ Adobe Campaign provides several connectors that allow you to communicate with ex
 
 The following connection types can be configured:
 
+* Azure Synapse. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse).
 * Oracle. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-oracle).
 * Netezza. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-netezza).
 * SAP HANA. For more information, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hana).
