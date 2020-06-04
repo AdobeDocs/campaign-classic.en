@@ -85,7 +85,7 @@ If the attachment is a local file, select the option: **[!UICONTROL File name is
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
-   The file is then available on the server to be attached to the different deliveries created from this template.
+The file is then available on the server to be attached to the different deliveries created from this template.
 
 ### Attaching a personalized message {#attach-a-personalized-message}
 
@@ -124,7 +124,7 @@ You can calculate the attachment name during the delivery preparation. To do thi
 1. Specify the label you wish to apply to the attachment. 
 1. Specify the access path of the file and its exact name in the definition window.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The file must be present on the server.
 
@@ -149,7 +149,7 @@ When selecting the attachment, you can choose the option **[!UICONTROL The file 
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The file must be present on the server.
 

@@ -197,7 +197,7 @@ When you open HTML content with included images in the delivery wizard, a messag
 >
 >The image access paths are modified during manual uploading or when sending messages.
 
-### Example: sending a message with images {#example--sending-a-message-with-images}
+### Sending a message with images {#sending-a-message-with-images}
 
 Here is a sample of a delivery with four images:
 
