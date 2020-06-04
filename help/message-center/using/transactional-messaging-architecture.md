@@ -27,7 +27,7 @@ To use these capabilities, Adobe Campaign users log on to the control instance t
 
 Execution instances receive events, link them to transactional message templates, and send a personalized message to each recipient.
 
-  ![](assets/messagecenter_diagram.png)
+![](assets/messagecenter_diagram.png)
 
 ## Supporting several control instances {#supporting-several-control-instances}
 

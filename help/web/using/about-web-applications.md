@@ -18,7 +18,9 @@ snippet: y
 
 # About web applications{#about-web-applications}
 
-Adobe Campaign lets you create and publish dynamic and interactive Web applications with data from the database and content adapted to the rights of the connected user. You can create pages, such as an edit form on an extranet, or notification forms including data from the database with tables, charts, input forms, etc. This functionality lets you design and post Web pages where users can look up or enter information.
+Adobe Campaign lets you create and publish dynamic and interactive Web applications with data from the database and content adapted to the rights of the connected user. 
+
+You can create pages, such as an edit form on an extranet, or notification forms including data from the database with tables, charts, input forms, etc. This functionality lets you design and post Web pages where users can look up or enter information.
 
 This can be a subscription form containing data that has been preloaded with information contained in the Adobe Campaign database, as shown below:
 
