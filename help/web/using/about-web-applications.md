@@ -22,7 +22,7 @@ Adobe Campaign lets you create and publish dynamic and interactive Web applicati
 
 This can be a subscription form containing data that has been preloaded with information contained in the Adobe Campaign database, as shown below:
 
-![](assets/webapp_form_sample.png)
+   ![](assets/webapp_form_sample.png)
 
 This chapter provides an overview of how to manage Web applications.
 
