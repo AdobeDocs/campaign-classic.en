@@ -34,38 +34,13 @@ To send to a mobile phone, you need:
 
 1. An external account specifying a connector and type of message.
 
-   Available connectors are: NetSize, Generic SMPP (SMPP version 3.4 supporting binary mode), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2, and Extended generic SMPP.
+   Note that following connectors will be deprecated as of release 20.2: NetSize, Generic SMPP (SMPP version 3.4 supporting binary mode), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 and iOS. Deprecated capabilities are still available, but they will not be further enhanced, nor supported.
 
 1. A delivery template in which this external account is referenced.
 
-### Activating an external account {#activating-an-external-account}
-
-The list of external accounts can be found in the **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** node of the Adobe Campaign explorer tree.
-
-* For example, go to the default account called **[!UICONTROL NetSize mobile delivery]**.
-* In the **[!UICONTROL General]** tab, check the **[!UICONTROL Enabled]** box.
-
-  ![](assets/s_user_external_account_01.png)
-
-* Check that the **[!UICONTROL Mobile]** option is selected for the **[!UICONTROL Channel]** field.
-* In the **[!UICONTROL Mobile]** tab, select a connector from the drop-down list: NetSize, Generic SMPP, Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2, or Extended generic SMPP. For more information on the Extended generic SMPP connector, refer to the [Creating an SMPP external account](#creating-an-smpp-external-account) section.
-
-  ![](assets/s_user_external_account_connect_01.png)
-
-* Configure the connector according to the information provided by the supplier. In the example below, the operator is NetSize.
-
-  ![](assets/s_user_external_account_param.png)
-
-* In the **[!UICONTROL Connector]** tab, leave the **[!UICONTROL Call Web Service]** activation mode selected by default.
-
-  ![](assets/s_user_external_account_param_02.png)
-
-* If the **[!UICONTROL Connector]** tab is displayed, specify the access URL for the connector. The address must end in **netsize.jsp** if your provider is NetSize. For all other connectors, the URL address ends in **smpp34.jsp**.
-
 ### Creating an SMPP external account {#creating-an-smpp-external-account}
 
-If you want to use the SMPP protocol, you can also create a new external account.
-
+To send a SMS to a mobile phone, you first need to create your SMPP external account.
 For more information on SMS protocol and settings, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 To do this, follow the steps below:
@@ -80,7 +55,11 @@ To do this, follow the steps below:
 
    ![](assets/extended_smpp_connector.png)
 
-   The **[!UICONTROL Enable verbose SMPP traces in the log file]** option allows you to dump all SMPP traffic in log files. This option must be enabled to troubleshoot the connector and to compare with the traffic seen by the provider.
+   >[CAUTION]
+   >
+   > As of release 20.2, legacy connectors will be deprecated and not supported. We recommend using the **[!UICONTROL Extended generic SMPP]** connector. For more information on how to migrate to the recommended connector, refer to this [page](https://helpx.adobe.com/campaign/kb/sms-connector.html).
+
+1. The **[!UICONTROL Enable verbose SMPP traces in the log file]** option allows you to dump all SMPP traffic in log files. This option must be enabled to troubleshoot the connector and to compare with the traffic seen by the provider.
 
 1. Contact your SMS service provider who will explain to you how to complete the different external account fields from the **[!UICONTROL Connection settings]** tab.
 
@@ -371,6 +350,7 @@ Recipients are listed in the **[!UICONTROL Non deliverables and addresses]** tab
 
 If you have multiple external accounts using the Extended generic SMPP connector with the same provider account, the following issue may happen: when sending a reply to a short code, it may be received on any of your external account connections. Consequently, the automatic reply that is sent could not be the expected message.
 To avoid this, apply one of the following solutions, depending on the provider you are using:
+
 * Create one provider account for each external account.
 * Use the **[!UICONTROL System type]** field from the **[!UICONTROL Mobile]** > **[!UICONTROL Connection settings]** tab to distinguish each short code. Ask your provider a different value for each account.
 
@@ -386,23 +366,23 @@ To deliver via SMS channel, you must create a template in which the channel conn
 
 In order to keep the native delivery template, we recommend that you duplicate it and then configure it.
 
-In the example below, we create a template to deliver messages via the NetSize account enabled earlier. To do this:
+In the example below, we create a template to deliver messages via the SMPP account enabled earlier. To do this:
 
 1. Go to the **[!UICONTROL Delivery templates]** node.
 1. Right-click the **[!UICONTROL Send to mobiles]** template, and select **[!UICONTROL Duplicate]**.
 
    ![](assets/s_user_mobile_template_change_01.png)
 
-1. Change the label of the template.
+1. Change the label of the template, for example **Sent to mobiles (SMPP)**.
 
    ![](assets/s_user_mobile_template_change_02.png)
 
 1. Click **[!UICONTROL Properties]**.
-1. In the **[!UICONTROL General]** tab, select a routing mode that corresponds to an external account that you configured, for example **[!UICONTROL NetSize mobile delivery]**.
+1. In the **[!UICONTROL General]** tab, select a routing mode that corresponds to the external account that you created in the previous steps.
 
    ![](assets/s_user_mobile_template_change_03.png)
 
-1. Click **[!UICONTROL Save]** to create the template. 
+1. Click **[!UICONTROL Save]** to create the template.
 
    ![](assets/s_user_mobile_template_list.png)
 
@@ -418,8 +398,8 @@ To create a new SMS delivery, follow the steps below:
 >
 >Global concepts on delivery creation are presented in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
-1. Create a new delivery, for example from the Delivery dashboard. 
-1. Select the delivery template **[!UICONTROL Send to mobiles (NetSize)]** that you created earlier. For more on this, refer to the [Changing the delivery template](#changing-the-delivery-template) section.
+1. Create a new delivery, for example from the Delivery dashboard.
+1. Select the delivery template **Sent to mobiles (SMPP)** that you created earlier. For more on this, refer to the [Changing the delivery template](#changing-the-delivery-template) section.
 
    ![](assets/s_user_mobile_wizard.png)
 
@@ -481,7 +461,7 @@ The **[!UICONTROL Properties]** button gives access to the advanced delivery par
 
 The following options are available:
 
-* **Sender address** (only for NetSize connector and SMPP connectors): lets you personalize the name of the delivery sender using a string of alphanumeric characters limited to eleven characters. The field must not be exclusively made up of figures. You can define a condition to display, for example, different names according to the area code of the recipient:
+* **Sender address**: lets you personalize the name of the delivery sender using a string of alphanumeric characters limited to eleven characters. The field must not be exclusively made up of figures. You can define a condition to display, for example, different names according to the area code of the recipient:
 
   ```
   <% if( String(recipient.mobilePhone).indexOf("+1") == 0){ %>NeoShopUS<%} else {%>NeoShopWorld<%}%>
@@ -491,7 +471,7 @@ The following options are available:
   >
   >Check the law in your country regarding editing sender names. You should also check with your operator whether they offer this functionality.
 
-* **Transmission mode**: message transmission by SMS. 
+* **Transmission mode**: message transmission by SMS.
 * **Priority**: level of importance assigned to a message. **[!UICONTROL Normal]** priority is selected by default. Ask your service provider about the cost of SMS sent with **[!UICONTROL High]** priority.
 * **Type of application**: choose the application you wish to assign to your SMS delivery. The **[!UICONTROL Direct Marketing]** option is selected by default and is the most common one used.
 
