@@ -39,18 +39,8 @@ Customers are advised to review if they make use of the feature/capability in th
 
 <table> 
  <tbody> 
-  <tr> 
-   <td><strong>Feature</strong></td>
-   <td><strong>Replacement</strong></td> 
-  </tr> 
-   <tr> 
-   <td>ACS Connector<br>&nbsp;</td>
-   <td><p>Starting 20.2 release, ACS Connector (Prime offering) is deprecated and no longer available for new installations.</p> 
-   <p>If you are using this capability, you need to work with your Adobe executive to identify best option to use as a remplacement and adapt your implementation accordingly.</p>
-   <p><em>Target removal date: 2021</em></p></td>
-  </tr>
   <tr>
-  <td>SMS connectors<br>&nbsp;</td>
+  <td>SMS connectors<br></td>
   <td><p> Starting 20.2 release, the following SMS connectors are deprecated.<p>
    <ul>
    <li>NetSize</li>
@@ -72,7 +62,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><strong>Replacement</strong></td> 
   </tr> 
    <tr> 
-   <td>Fax channel<br>&nbsp;</td>
+   <td>Fax channel<br></td>
    <td><p>Starting 20.2 release, the Fax channel is deprecated.</p> 
    <p>If you are using this channel, you need to adapt your implementation accordingly. <a href="../../delivey/using/communication-channels.md">Learn more</a> about Campaign channels.</p>
    <p><em>Target removal date: 2021</em></p></td>
@@ -91,7 +81,7 @@ This section lists features and capabilities that have been removed from Campaig
    <td><strong>Replacement</strong></td> 
   </tr> 
    <tr> 
-   <td>File-based email archiving<br>&nbsp;</td>
+   <td>File-based email archiving<br></td>
    <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a>.</p>
   </tr> 
  </tbody> 
@@ -117,11 +107,11 @@ This section lists features and capabilities that have been removed from Campaig
    <td><strong>Replacement</strong></td> 
   </tr> 
    <tr> 
-   <td>Lead management<br>&nbsp;</td>
+   <td>Lead management<br></td>
    <td><p>Starting Campaign 20.2 release, the Leads Management package is no longer available. Similar functionality can be implemented via other native workflow activities and data model modifications.</p> 
    </tr>
    <tr>
-   <td>Campaign APIs documentation - jsapi.chm file<br>&nbsp;</td>
+   <td>Campaign APIs documentation - jsapi.chm file<br></td>
    <td>Starting Campaign 19.1 release, Campaign Classic APIs are available in a dedicated page. If you were using the legacy jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
   </tr> 
   <tr> 
