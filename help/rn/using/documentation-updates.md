@@ -24,9 +24,11 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 **New capabilities included in the release**
 
- - [Read more](../../)
+Support of Emoticons [Read more](../../delivery/using/defining-the-email-content.md#inserting-emoticons-in-an-email)
 
- - [Read more](../../)
+Azure Synapse FDA Connector [Read more](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse-configure-access-to-azure-synapse)
+
+Thailand and Brazil Privacy Laws [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
 **Other documentation updates coming with the release**
 
