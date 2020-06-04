@@ -321,7 +321,7 @@ This step lets you delete records for which all data wasn't processed during imp
 
 ### Cleanup of workflow instances {#cleanup-of-workflow-instances}
 
-This task purges each workflow instance using its identifer (**lWorkflowId**) and history (**lHistory**). It deletes inactive tables by running the worktable cleanup task again.
+This task purges each workflow instance using its identifer (**lWorkflowId**) and history (**lHistory**). It deletes inactive tables by running the worktable cleanup task again. The cleanup also deletes all orphaned worktables (wkf% and wkfhisto%) of deleted workflows.
 
 >[!NOTE]
 >
@@ -401,7 +401,7 @@ SELECT iGroupId FROM NmsGroup WHERE iType>0"
 This task deletes obsolete records from the visitor table using mass-deletion. Obsolete records are those for which the last modification is earlier than the conservation period defined in the deployment wizard (refer to [Deployment wizard](#deployment-wizard)). The following query is used:
 
 ```
-DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WHERE iRecipientId = 0 AND tsLastModified < $(tsDate) LIMIT 5000)
+DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WHERE iRecipientId = 0 AND tsLastModified < AddDays(GetDate(), -30) AND iOrigin = 0 LIMIT 20000)
 ```
 
 where **$(tsDate)** is the current server date, from which we subtract the period defined for the **NmsCleanup_VisitorPurgeDelay** option.
