@@ -22,6 +22,10 @@ Adobe Campaign enables you to stop tracking web behaviors of end-users who opt-o
 
 If an end-user opts-out of behavioral tracking via cookies or web beacons, then that information is transmitted to the Adobe Campaign tracking server with JavaScript APIs. Please note that some jurisdictions may require that Customer present end-users with an opt-in before an opt-out can be offered (or have other legal requirements), and it is Customer’s responsibility to comply with applicable laws.
 
+>[!NOTE]
+>
+>When scripting always follow the guidelines described in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#dev).
+
 ## Configuring the banner {#configuring-the-banner-}
 
 To be displayed within Web applications or Landing pages, the banner needs to be configured.

@@ -28,6 +28,10 @@ This can be a subscription form containing data that has been preloaded with inf
 
 This chapter provides an overview of how to manage Web applications.
 
+>[!NOTE]
+>
+>Refer to the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) to learn how to optimize security for web applications.
+
 >[!CAUTION]
 >
 >For privacy reasons, we recommend to use HTTPS for all external resources.
