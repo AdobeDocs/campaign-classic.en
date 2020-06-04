@@ -55,6 +55,8 @@ For example, in the message above, the subject of the message is personalized fo
 >
 >The use of personalization fields is presented in [About personalization](../../delivery/using/about-personalization.md).
 
+You can also insert emoticons to your subject line with the **[!UICONTROL Insert emoticon]** pop-up window.
+
 ## Message content {#message-content}
 
 >[!IMPORTANT]
@@ -107,9 +109,22 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   ![](assets/s_ncs_user_wizard_email01_142.png)
 
+### Inserting emoticons in an email {#inserting-emoticons}
+
+You can insert emoticons to your email content.
+
+1. Click the **[!UICONTROL Insert emoticon]** icon.
+1. Select an emoticon from the pop-up window.
+
+    ![](assets/emoticon_4.png)
+
+1. Click the **[!UICONTROL Close]** button when done.
+
+To customize the emoticon list, refer to this [page](../../delivery/using/customizing-emoticon-list.md).
+
 ## Selecting message formats {#selecting-message-formats}
 
-You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab. 
+You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab.
 
 ![](assets/s_ncs_user_wizard_email_param.png)
 
