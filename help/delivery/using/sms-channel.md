@@ -57,7 +57,7 @@ To do this, follow the steps below:
 
    >[CAUTION]
    >
-   > As of release 20.2, legacy connectors will be deprecated and not supported. We recommend using the **[!UICONTROL Extended generic SMPP]** connector. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html).
+   > As of release 20.2, legacy connectors will be deprecated and not supported. We recommend using the **[!UICONTROL Extended generic SMPP]** connector. For more information on how to migrate to the recommended connector, refer to this [page](https://helpx.adobe.com/campaign/kb/sms-connector.html).
 
 1. The **[!UICONTROL Enable verbose SMPP traces in the log file]** option allows you to dump all SMPP traffic in log files. This option must be enabled to troubleshoot the connector and to compare with the traffic seen by the provider.
 
