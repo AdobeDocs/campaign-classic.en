@@ -26,7 +26,6 @@ This process gives customers at least one release cycle to adapt their implement
 >[!NOTE]
 >Adobe Campaign releases and new capabilities are listed in the [Release Notes](../../rn/using/latest-release.md).
 
-
 ## Deprecated features {#deprecated-features}
 
 This section lists features and capabilities that have been marked as deprecated with latest Campaign Classic releases. 
@@ -74,34 +73,12 @@ This section lists features and capabilities that have been removed from Campaig
 <table> 
  <tbody> 
   <tr> 
-   <td><strong>Feature</strong></td>
+   <td><strong>Area - Feature</strong></td>
    <td><strong>Replacement</strong></td> 
   </tr> 
    <tr> 
    <td>File-based email archiving<br></td>
    <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a>.</p></td>
-  </tr> 
- </tbody> 
-</table>
-
-### Adobe Campaign 19.2 release  {#compat-19-2-release}
-
-Starting 19.2 Fall Release, the following operating systems are deprecated for Campaign Classic. Compatibility will end in 2020 EOY.
-
-* Web Server: Apache 2.2. [Learn more](https://wiki.centos.org/About/Product)
-* Operating System: CentOS 6. [Learn more](https://wiki.centos.org/About/Product)
-
-Please refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) to upgrade to a newer version or move to a new system.
-
-## Removed features {#removed-features}
-
-This section lists features and capabilities that have been removed from Campaign Classic.
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Area - Feature</strong></td>
-   <td><strong>Replacement</strong></td> 
   </tr> 
    <tr> 
    <td>Lead management</td>
@@ -145,16 +122,19 @@ The following systems are deprecated  for Campaign Classic. Please refer to the 
 
 ### Adobe Campaign 20.2 release {#compat-20-2-release}
 
-Starting 20.2 May Release, the following system is deprecated for Campaign Classic. Compatibility will end in 20.3 release - September 2020.
+Starting 20.2 release, the following system is deprecated for Campaign Classic. Compatibility will end in 20.3 release - September 2020.
 
 * Client Console: Windows 7
+* Legacy SMS connectors (see Deprecated features section below)
 
 ### Adobe Campaign 19.2 release  {#compat-19-2-release}
 
-Starting 19.2 Fall Release, the following operating systems are deprecated for Campaign Classic. Compatibility will end in 2020 EOY.
+Starting 19.2 release, the following operating systems are deprecated for Campaign Classic. Compatibility will end in 2020 EOY.
 
-* Web Server: Apache 2.2. [Learn more](https://wiki.centos.org/About/Product)
-* Operating System: CentOS 6. [Learn more](https://wiki.centos.org/About/Product)
+* Web Server: Apache 2.2.
+* Operating System: CentOS 6.
+
+Please refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) to upgrade to a newer version or move to a new system.
 
 ## End of compatibility {#end-of-compatibility}
 
