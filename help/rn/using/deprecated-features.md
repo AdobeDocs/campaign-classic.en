@@ -8,8 +8,6 @@ products: SG_CAMPAIGN/CLASSIC
 audience: rn
 content-type: reference
 topic-tags: campaign-classic-deprecated-features
-discoiquuid: 
-
 internal: n
 snippet: y
 ---
@@ -39,9 +37,11 @@ Customers are advised to review if they make use of the feature/capability in th
 
 <table> 
  <tbody> 
+   <tr>
    <td><strong>Feature</strong></td>
    <td><strong>Replacement</strong></td> 
   </tr> 
+  
    <tr>
   <td>SMS connectors<br></td>
   <td><p> Starting 20.2 release, the following SMS connectors are deprecated.<p>
@@ -60,8 +60,7 @@ Customers are advised to review if they make use of the feature/capability in th
      <em>Target removal date: 2021</em></p>
   </td> 
  </tr>
-  <tr> 
-   <tr> 
+  <tr>  
    <td>Fax channel<br></td>
    <td><p>Starting 20.2 release, the Fax channel is deprecated.</p> 
    <p>If you are using this channel, you need to adapt your implementation accordingly. <a href="../../delivery/using/communication-channels.md">Learn more</a> about Campaign channels.</p>
@@ -82,7 +81,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>File-based email archiving<br></td>
-   <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a>.</p>
+   <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -102,39 +101,47 @@ This section lists features and capabilities that have been removed from Campaig
 
 <table> 
  <tbody> 
+ 
   <tr> 
    <td><strong>Area - Feature</strong></td>
    <td><strong>Replacement</strong></td> 
   </tr> 
+  
    <tr> 
-   <td>Lead management<br></td>
+   <td>Lead management</td>
    <td><p>Starting Campaign 20.2 release, the Leads Management package is no longer available. Similar functionality can be implemented via other native workflow activities and data model modifications.</p></td>
    </tr>
+   
    <tr>
-   <td>Campaign APIs documentation - jsapi.chm file<br></td>
+   <td>Campaign APIs documentation - jsapi.chm file</td>
    <td>Starting Campaign 19.1 release, Campaign Classic APIs are available in a dedicated page. If you were using the legacy jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
   </tr> 
   <tr> 
    <td>Campaign Orchestration - Predictive marketing</td>
    <td>Starting Campaign 18.10 release, the predictive marketing capabilities are no longer available.</td>
   </tr> 
+  
   <tr> 
    <td>Web applications - Microsites</td>
    <td>Starting Campaign 18.10 release, Microsites are no longer available. You can improve security by restricting access to only dedicated domains on Adobe Campaign configuration files, and use personalized URLs in Campaign by using DNS aliases. <a href="https://helpx.adobe.com/campaign/kb/domain-name-delegation.html">Learn more</a>.</td>
   </tr> 
+  
   <tr> 
-   <td>Push Notifications - iOS Binary Connector<br>&nbsp;</td>
+   <td>Push Notifications - iOS Binary Connector</td>
    <td>Per Apple's recommendation, Adobe has removed the legacy iOS Binary Connector starting Campaign 18.10 release. The more capable and more efficient HTTP/2-based connector is already available.</td>
   </tr> 
+  
   <tr> 
-   <td>decryptString API<br>&nbsp;</td>
-   <td><p>Starting Campaign  18.6 release, for security reasons, <em>decryptString</em> API is no longer available by default for new installations.</p> 
+   <td>decryptString API</td>
+   <td><p>Starting Campaign 18.6 release, for security reasons, <em>decryptString</em> API is no longer available by default for new installations.</p> 
    <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function. <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/f-decryptPassword.html?hl=decrypt">Learn more</a></p></td>
   </tr> 
+  
    <tr> 
    <td>Mobile channel - MMS and WAP Push messages</td>
    <td>Starting Campaign 18.4 release, MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../delivery/using/sms-channel.md">SMS</a> and <a href="../../delivery/using/about-mobile-app-channel.md">Push</a> deliveries.</td>
   </tr> 
+  
    <tr> 
    <td>Mobile channel - LINE v1</td>
    <td>Starting Campaign 18.4 release, LINE Connect package is no longer available. Adobe recommends using the new LINE Channel package as a replacement. <a href="../../delivery/using/line-channel.md">Learn more</a>.</td>
