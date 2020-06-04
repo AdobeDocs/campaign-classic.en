@@ -108,7 +108,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>Lead management<br></td>
-   <td><p>Starting Campaign 20.2 release, the Leads Management package is no longer available. Similar functionality can be implemented via other native workflow activities and data model modifications.</p> 
+   <td><p>Starting Campaign 20.2 release, the Leads Management package is no longer available. Similar functionality can be implemented via other native workflow activities and data model modifications.</p></td>
    </tr>
    <tr>
    <td>Campaign APIs documentation - jsapi.chm file<br></td>
