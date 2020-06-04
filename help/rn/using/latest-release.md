@@ -179,5 +179,7 @@ An example for Linux is available on this [page](../../configuration/using/addit
 
 Legacy SMS connectors are now deprecated. Refer to the [Deprecated features page](../../rn/using/deprecated-features.md).
 
+You can no longer use your own Litmus account to provision and use Inbox rendering in Adobe Campaign. [Learn more](../../delivery/using/inbox-rendering.md).
+
 
 
