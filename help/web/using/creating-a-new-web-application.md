@@ -24,6 +24,10 @@ Go to the **Campaigns** tab and select the **[!UICONTROL Web Applications]** men
 
 ![](assets/webapp_create_from_campaign.png)
 
+>[!NOTE]
+>
+>ALways protect the pages that might contain personal information. Refer to the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy).
+
 This template determines the type of Web application. You can create:
 
 1. Web forms (+ profile modification)

@@ -20,6 +20,24 @@ This page lists all the new features and documentation updates per month and Cam
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
+## 20.2 - 08/06/2020{#release-20-2}
+
+**New capabilities included in the release**
+
+ - [Read more](../../)
+
+ - [Read more](../../)
+
+**Other documentation updates coming with the release**
+
+The new option enabling to unpublish a transactional message template is documented in
+[this section](../../message-center/using/template-unpublication.md).
+
+The new options allowing to set limitations when sending emails that include images downloaded from a personalized URL and attachments have been added to the list of Campaign Classic options. [Read more](../../installation/using/configuring-campaign-options.md#delivery)
+
+The new **Prepare the delivery parts in the database** option is documented in [this section](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis).
+
+The Validating the delivery section has been clarified and updated. [Read more](../../delivery/using/steps-validating-the-delivery.md)
 
 ## May 2020 {#may-2020}
 

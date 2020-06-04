@@ -14,6 +14,7 @@ sub-product: adobe campaign classic
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/latest-release.md)
   + Previous Releases {#previous-releases}
+    + [Release 20.1](rn/using/release--20-1.md)
     + [Release 19.2](rn/using/release--19-2.md)
     + [Release 19.1](rn/using/release--19-1.md)
     + [Release 18.10](rn/using/release--18-10.md)
@@ -599,6 +600,7 @@ sub-product: adobe campaign classic
        + [Interaction - Data buffer](installation/using/interaction---data-buffer.md)
   + Appendices {#appendices}
        + [The server configuration file](installation/using/the-server-configuration-file.md)
+       + [campaign-network-endpoints](installation/using/campaign-network-endpoints.md)
        + [Command lines](installation/using/command-lines.md)
        + [Creating new instances](installation/using/creating-new-instances.md)
        + [List of Campaign Classic options](installation/using/configuring-campaign-options.md)
