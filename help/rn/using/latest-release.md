@@ -67,7 +67,7 @@ _June 8, 2020_
  <tbody> 
   <tr> 
    <td> <p>You can now connect your Campaign instance to your Azure Synapse external database. This connection is managed through a new external account.</p>
-    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse-configure-access-to-azure-synapse">detailed documentation</a>.</p>
+    <p>Azure Synapse is only available for Hybrid and On-premise environments. For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse-configure-access-to-azure-synapse">detailed documentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 
