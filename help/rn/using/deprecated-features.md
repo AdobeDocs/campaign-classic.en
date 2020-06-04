@@ -39,7 +39,10 @@ Customers are advised to review if they make use of the feature/capability in th
 
 <table> 
  <tbody> 
-  <tr>
+   <td><strong>Feature</strong></td>
+   <td><strong>Replacement</strong></td> 
+  </tr> 
+   <tr>
   <td>SMS connectors<br></td>
   <td><p> Starting 20.2 release, the following SMS connectors are deprecated.<p>
    <ul>
@@ -58,9 +61,6 @@ Customers are advised to review if they make use of the feature/capability in th
   </td> 
  </tr>
   <tr> 
-   <td><strong>Feature</strong></td>
-   <td><strong>Replacement</strong></td> 
-  </tr> 
    <tr> 
    <td>Fax channel<br></td>
    <td><p>Starting 20.2 release, the Fax channel is deprecated.</p> 
