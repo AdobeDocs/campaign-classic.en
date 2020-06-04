@@ -211,11 +211,11 @@ When you open HTML content with included images in the delivery wizard, a messag
 >
 >The image access paths are modified during manual uploading or when sending messages.
 
+### Sending a message with images {#sending-a-message-with-images}
+
 >[!NOTE]
 >
 >To avoid performance issue, if you include images downloaded on the fly from a personalized URL as [attachment](../../delivery/using/attaching-files.md), each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
-
-### Example: sending a message with images {#example--sending-a-message-with-images}
 
 Here is a sample of a delivery with four images:
 
