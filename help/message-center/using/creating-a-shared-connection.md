@@ -18,7 +18,7 @@ snippet: y
 
 # Creating a shared connection{#creating-a-shared-connection}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* Schema extensions made on the schemas used by [Message Center technical workflows](../../message-center/using/technical-workflows.md) on either control or execution instances need to be duplicated on the other instances used by Adobe Campaign transactional messaging module.
 >* The control instance and the execution instance(s) must be installed on different machines. They cannot share the same Campaign instance.

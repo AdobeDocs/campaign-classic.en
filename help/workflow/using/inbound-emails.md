@@ -79,5 +79,5 @@ The first tab of the **Inbound Emails** activity lets you enter the parameters o
 
    ![](assets/email_rec_edit_3.png)
 
-   Configuration is the same as for the scheduling activity. Refer to [Expirations](../../workflow/using/executing-a-workflow.md#expirations).
+   Configuration is the same as for the scheduling activity. Refer to [Expirations](../../workflow/using/defining-approvals.md).
 

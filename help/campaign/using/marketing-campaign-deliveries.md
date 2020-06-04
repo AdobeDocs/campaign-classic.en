@@ -26,7 +26,7 @@ To create a delivery linked to a campaign, click the **[!UICONTROL Add a deliver
 
 ![](assets/campaign_op_add_delivery.png)
 
-The suggested configurations are suited to the different types of delivery (direct mail, email, mobile channels, fax, or telephone). 
+The suggested configurations are suited to the different types of delivery: direct mail, email, mobile channels. 
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ You can import a population into a list, then target this list in deliveries.
 
 The main target of a delivery can also be defined in the targeting workflow: this graphical environment lets you build a target using queries, tests and operators: union, deduplication, sharing, etc.
 
-The [Automating with workflows](../../workflow/using/executing-a-workflow.md#architecture) guide includes a detailed description of how the workflow module operates.
+The [Automating with workflows](../../workflow/using/architecture.md) guide includes a detailed description of how the workflow module operates.
 
 >[!IMPORTANT]
 >
@@ -100,7 +100,7 @@ The targeting workflow execution and formatting functions are accessible via the
 
 >[!NOTE]
 >
->The activities available to build the diagram as well as all display and layout features are detailed in the [Automating with workflows](../../workflow/using/executing-a-workflow.md#architecture) guide.
+>The activities available to build the diagram as well as all display and layout features are detailed in the [Automating with workflows](../../workflow/using/architecture.md) guide.
 
 You can create several targeting workflows for a single campaign. To add a workflow:
 
@@ -249,7 +249,7 @@ Click **[!UICONTROL Next]** to define the sorting order (if necessary) and selec
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-This configuration is equivalent to a sharing activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. Refer to the [this section](../../workflow/using/executing-a-workflow.md#architecture) for more information.
+This configuration is equivalent to a sharing activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. Refer to the [this section](../../workflow/using/architecture.md) for more information.
 
 ### Adding a population {#adding-a-population}
 

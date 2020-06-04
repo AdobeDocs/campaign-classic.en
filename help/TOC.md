@@ -121,6 +121,7 @@ sub-product: adobe campaign classic
        + [Conditional content](delivery/using/conditional-content.md)
        + [Personalized coupons](delivery/using/personalized-coupons.md)
        + [Generating personalized PDF documents](delivery/using/generating-personalized-pdf-documents.md)
+       + [Customizing the emoticon list](delivery/using/customizing-emoticon-list.md)
   + Using seed addresses {#using-seed-addresses}
        + [About seed addresses](delivery/using/about-seed-addresses.md)
        + [Creating seed addresses](delivery/using/creating-seed-addresses.md)
@@ -321,8 +322,13 @@ sub-product: adobe campaign classic
        + [Targeting data](workflow/using/targeting-data.md)
        + [Importing data](workflow/using/importing-data.md)
        + [How to use workflow data](workflow/using/how-to-use-workflow-data.md)
-       + [Executing a workflow](workflow/using/executing-a-workflow.md)
        + [Workflow best practices](workflow/using/workflow-best-practices.md)
+  +  Executing a workflow {#executing-a-workflow}
+       + [Starting a workflow](workflow/using/starting-a-workflow.md)
+       + [Workflow life cycle](workflow/using/workflow-life-cycle.md)
+       + [Data life cycle](workflow/using/data-life-cycle.md)
+       + [Defining approvals](workflow/using/defining-approvals.md)
+       + [Architecture](workflow/using/architecture.md)
   + Targeting activities {#targeting-activities}
        + [About targeting activities](workflow/using/about-targeting-activities.md)
        + [Query](workflow/using/query.md)
@@ -515,6 +521,7 @@ sub-product: adobe campaign classic
        + [Transactional message preview](message-center/using/transactional-message-preview.md)
        + [Sending a proof](message-center/using/sending-a-proof.md)
        + [Template publication](message-center/using/template-publication.md)
+       + [Template unpublication](message-center/using/template-unpublication.md)
   + Event processing {#event-processing}
        + [About event processing](message-center/using/about-event-processing.md)
        + [Event collection](message-center/using/event-collection.md)
@@ -526,9 +533,7 @@ sub-product: adobe campaign classic
        + [Message Center service level](message-center/using/message-center-service-level.md)
        + [Message Center processing time](message-center/using/message-center-processing-time.md)
   + Use case {#use-case}
-       + [Purpose](message-center/using/purpose.md)
-       + [Important notes](message-center/using/important-notes.md)
-       + [Implementation](message-center/using/implementation.md)
+       + [Sending transactional emails with attachments](message-center/using/transactional-email-with-attachments.md)
 + Integrating with Social media {#integrating-with-social-media}
   + [About social marketing](social/using/about-social-marketing.md)
   + Configuration {#configuration}
