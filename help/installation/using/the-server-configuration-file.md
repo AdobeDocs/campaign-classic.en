@@ -1530,6 +1530,12 @@ Here are the different parameters of the **mta** node. This is the configuration
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
+   <td> signEmailLinks<br /> </td> 
+   <td> Enable the signature mechanism. This improves security on tracking links in email.<br /> </td> 
+   <td> Boolean<br /> </td> 
+   <td> true<br /> </td> 
+  </tr>
+  <tr> 
    <td> statServerAddress<br /> </td> 
    <td> Address of the delivery statistics server, given as 
     &lt;dns or ip&gt; 
@@ -2544,6 +2550,12 @@ Here are the different parameters of the **tracking** node. This is the configur
    <td> false<br /> </td> 
   </tr> 
   <tr> 
+   <td> blockRedirectForUnsignedTrackingLink<br /> </td> 
+   <td> Disable malformed URLs generated from previous builds.<br /> </td> 
+   <td> Boolean<br /> </td> 
+   <td> false<br /> </td> 
+  </tr> 
+  <tr> 
    <td> consolidationPeriodSec<br /> </td> 
    <td> Consolidation period<br /> </td> 
    <td> Long<br /> </td> 
@@ -2596,6 +2608,18 @@ Here are the different parameters of the **tracking** node. This is the configur
    <td> Memory consumption warning: warning concerning the amount of RAM consumed (in Mb) by a given process.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> phishbowlServiceAPIKey<br /> </td> 
+   <td> API key for the Phishbowl Service Endpoint Integration. This protects redirection of malformed URLs generated from older builds. <br /> </td> 
+   <td> Long<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> phishbowlServiceEndpoint<br /> </td> 
+   <td> Endpoint for the Phishbowl Service Endpoint Integration. This protects redirection of malformed URLs generated from older builds.<br /> </td> 
+   <td> Long<br /> </td> 
+   <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
