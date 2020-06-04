@@ -141,13 +141,7 @@ The following table lists all standard packages with their description, the inst
    <td> Sends deliveries using the Telephone channel with Adobe Campaign.<br /> </td> 
    <td> All<br /> </td> 
    <td> Optional</td> 
-  </tr> 
-  <tr> 
-   <td> Fax channel<br /> </td> 
-   <td> Sends deliveries using the fax channel with Adobe Campaign.<br /> </td> 
-   <td> All<br /> </td> 
-   <td> Optional</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> Mobile App Channel<br /> </td> 
    <td> Uses the Adobe Campaign platform to send personalized notifications to iOS and Android terminals via apps. <br /> </td> 

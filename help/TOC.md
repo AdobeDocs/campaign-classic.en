@@ -122,6 +122,7 @@ sub-product: adobe campaign classic
        + [Conditional content](delivery/using/conditional-content.md)
        + [Personalized coupons](delivery/using/personalized-coupons.md)
        + [Generating personalized PDF documents](delivery/using/generating-personalized-pdf-documents.md)
+       + [Customizing the emoticon list](delivery/using/customizing-emoticon-list.md)
   + Using seed addresses {#using-seed-addresses}
        + [About seed addresses](delivery/using/about-seed-addresses.md)
        + [Creating seed addresses](delivery/using/creating-seed-addresses.md)
@@ -521,6 +522,7 @@ sub-product: adobe campaign classic
        + [Transactional message preview](message-center/using/transactional-message-preview.md)
        + [Sending a proof](message-center/using/sending-a-proof.md)
        + [Template publication](message-center/using/template-publication.md)
+       + [Template unpublication](message-center/using/template-unpublication.md)
   + Event processing {#event-processing}
        + [About event processing](message-center/using/about-event-processing.md)
        + [Event collection](message-center/using/event-collection.md)
@@ -598,6 +600,7 @@ sub-product: adobe campaign classic
        + [Interaction - Data buffer](installation/using/interaction---data-buffer.md)
   + Appendices {#appendices}
        + [The server configuration file](installation/using/the-server-configuration-file.md)
+       + [campaign-network-endpoints](installation/using/campaign-network-endpoints.md)
        + [Command lines](installation/using/command-lines.md)
        + [Creating new instances](installation/using/creating-new-instances.md)
        + [List of Campaign Classic options](installation/using/configuring-campaign-options.md)

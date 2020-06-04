@@ -55,7 +55,7 @@ Complete procedure to create an operator is described in [this page](#creating-a
 
 For more on Adobe Campaign and LDAP integration, refer to [this page](../../installation/using/connecting-through-ldap.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Operators need to be linked to a security zone to log on to an instance. For more on security zones in Adobe Campaign, refer to [this page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
@@ -142,7 +142,7 @@ The **[!UICONTROL Edit the access parameters...]** link lets you access the foll
 
   ![](assets/s_ncs_user_restrictions_operators.png)
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >This is a very tight restriction, and it must be used with caution. An operator logged in with this type of rights can ONLY see the content of the specified folder, and has no access to any other node of the tree via the explorer. However, depending on the functionalities he has access to (for example: workflows), he can display data that is usually stored in nodes that he cannot see.
 
@@ -172,7 +172,7 @@ You can access:
 
 Adobe Campaign uses technical operators with profiles configured by default: Administrator ('admin'), Billing ('billing'), Monitoring, Web application agent ('webapp'), etc. Some of these depend on the applications and options installed on the platform: 'central' and 'local' operators, for instance, are only visible if the Distributed Marketing option is installed.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >These technical operators are notified by default when information messages are returned by the platform. We strongly recommend providing a contact email for them.  
 >
@@ -390,7 +390,7 @@ In the **[!UICONTROL Security]** tab, if the **[!UICONTROL System folder]** opti
 
 ## Folders and views {#folders-and-views}
 
-### About folders and views {#about-folders-and-views}
+### About folders {#about-folders}
 
 Folders are nodes in Adobe Campaign tree. These nodes are created by right-clicking the tree, via the **[!UICONTROL Add new folder]** menu. By default, the first menu enables you to add the folder corresponding to the current context.
 
@@ -398,17 +398,23 @@ Folders are nodes in Adobe Campaign tree. These nodes are created by right-click
 
 You can grant permissions to these folders as on all the other folders of the tree. See [Folder access management](#folder-access-management).
 
+### About views {#about-views}
+
 In addition, you can create views in order to restrain access to data and organize the content of the tree to suit your requirements. You can then assign rights to the views.
 
 A view is a folder that displays records that are physically stored in one or more other folders of the same type. For example, if you create a Campaign folder that is a view, it displays all the campaigns present in the database by default, whatever their origin. This data can then be filtered.
 
 When you convert a folder to a view, all the data corresponding to the folder type present in the database is displayed in the view, irrespective of the folder in which it is saved. You can then filter it to restrict the list of data displayed.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The views contain data and provide access to it, but the data is not physically stored in the view folder. The operator must have the appropriate rights for the desired action in the data source folders (read access at least).  
 >
 >To give access to a view without giving access to its source folder, simply do not give read access on the parent node of the source folder.
+
+To distinguish views from folders, the name of each view is displayed in a different color (dark cyan).
+
+![](assets/s_ncs_user_view_name_color.png)
 
 ### Adding folders and creating views {#adding-folders-and-creating-views}
 
@@ -436,4 +442,3 @@ In the example below, we will create new folders to display specific data:
 The following deliveries will be displayed in the view:
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
-

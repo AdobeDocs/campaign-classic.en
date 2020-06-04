@@ -51,7 +51,7 @@ To install and configure SpamAssassin on Windows to enable integration with Adob
 
 1. Connect to the [Extranet portal](http://support.neolane.net) using your user credentials.
 1. Go to the **Download center** then browse the page to find the **Tools** section.
-1. Download the **Spam Assassin (Windows Installation) (1.0)** file.
+1. Download the **Neolane Spam Assassin (Windows Installation) (2.0)** file (neolane_spamassassin.2.0.zip).
 1. Copy this file onto the Adobe Campaign server then unzip it.
 
    >[!NOTE]
