@@ -247,9 +247,9 @@ To order a campaign:
 
    ![](assets/mkg_dist_subscribe_step1.png)
 
-   Complete the available parameters and approve the order.
+1. Complete the available parameters and approve the order.
 
-   A notification is sent to the manager of the organizational entity to which the local entity belongs, to approve this order.
+1. A notification is sent to the manager of the organizational entity to which the local entity belongs, to approve this order.
 
    ![](assets/mkg_dist_subscribe_step3.png)
 
