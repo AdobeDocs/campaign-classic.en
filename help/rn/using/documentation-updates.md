@@ -41,6 +41,19 @@ The new **Prepare the delivery parts in the database** option is documented in [
 
 The Validating the delivery section has been clarified and updated. [Read more](../../delivery/using/steps-validating-the-delivery.md)
 
+The parameters related to the new tracking link signature mechanism have been added to the [Server configuration file](../../installation/using/the-server-configuration-file) section.
+
+The Compatibility matrix has been updated. [Read more](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+
+The cleanup workflow section has been updated. [Learn more](../../production/using/database-cleanup-workflow.md)
+
+The Campaign network endpoints have been moved to this [section](../../installation/using/campaign-network-endpoints.md).
+
+The Spam Assassin installation section has been updated with the new installation file name. [Learn more](../../installation/using/configuring-spamassassin.md#installing-spamassassin)
+
+The section on duplicating environments has been updated. [Learn more](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)
+
+
 ## May 2020 {#may-2020}
 
 The Monitoring deliverability section has been moved and improved. [Read more](../../delivery/using/monitoring-deliverability.md)
