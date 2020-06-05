@@ -52,7 +52,7 @@ Here are some additional guidelines on deliverability monitoring:
 * Check each delivery throughput to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days).
 * When using [waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), verify that each wave has enough time to finish before the next one is triggered.
 * Check that the number of errors and new [quarantines](../../delivery/using/understanding-quarantine-management.md) are consistent with other deliveries.
-* Carefully consult the [delivery logs](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (grey or black-listing, DNS issues, anti-spam rules, etc…).
+* Carefully consult the [delivery logs](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (grey or black-listing, DNS issues, anti-spam rules, etc.).
 
 ## Signal Spam {#signal-spam}
 
@@ -64,7 +64,7 @@ Signal Spam is a French service which offers anonymized feedback loop reporting 
 
 ## 250ok {#deliverability-250ok}
 
-[250ok](https://250ok.com/) is a a complementary monitoring solution to the Adobe deliverability internal tools which provides IP, domain blacklisting and reputation indicators.
+[250ok](https://250ok.com/) is a complementary monitoring solution to the Adobe deliverability internal tools which provides IP, domain blacklisting and reputation indicators.
 
 The information provided is real-time, which allows for a pro-active assistance.
 

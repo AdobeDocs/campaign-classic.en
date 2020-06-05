@@ -80,8 +80,9 @@ You can also link filtering rules directly via this tab, without them being grou
 
 >[!NOTE]
 >
->* Only typologies and filtering rules are available in the selection window.
->* These configurations can be defined in the delivery template to be applied automatically to all new deliveries created using the template.
+>Only typologies and filtering rules are available in the selection window.
+>
+>These configurations can be defined in the delivery template to be applied automatically to all new deliveries created using the template.
 >
 
 ## Default deliverability exclusion rules {#default-deliverability-exclusion-rules}

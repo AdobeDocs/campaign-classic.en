@@ -78,6 +78,4 @@ The file processing order cannot be determined. To process a set of files sequen
 
 ## Output parameters {#output-parameters}
 
-* filename
-
-Complete filename. This is the filename after it has been moved to the historization directory. The path is therefore different, but the name is also different if another file with the same name already exists in the directory. The extension is kept.
+* filename: Complete filename. This is the filename after it has been moved to the historization directory. The path is therefore different, but the name is also different if another file with the same name already exists in the directory. The extension is kept.

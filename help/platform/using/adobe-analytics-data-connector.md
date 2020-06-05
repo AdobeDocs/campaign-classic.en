@@ -239,7 +239,7 @@ In order for the Adobe Experience Cloud to be able to track activity on the site
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. Open the delivery properties.
-1. Go to the **[!UICONTROL Web Analytics]** tab and select the previously created external account. Refer to [Step 2: Create the external account in Campaign](#step-2--create-the-external-account-in-campaign)).
+1. Go to the **[!UICONTROL Web Analytics]** tab and select the previously created external account. Refer to [Step 2: Create the external account in Campaign](#step-2--create-the-external-account-in-campaign).
 
    ![](assets/webanalytics_delivery_properties_002.png)
 

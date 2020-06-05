@@ -52,7 +52,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <li>O2</li>
    <li>iOS</li>
    </ul>
-  <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../delivery/using/sms-channel.md">Learn more</a>.</p> 
+  <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../delivery/using/sms-channel.md">Learn more</a></p> 
   <p>Learn how to migrate legacy connectors in this technote - ADD LINK.</p>
   <p><em>Target removal date: 2021</em></p>
   </td> 
@@ -78,7 +78,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>File-based email archiving<br></td>
-   <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a>.</p></td>
+   <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a></p></td>
   </tr> 
    <tr> 
    <td>Lead management</td>
@@ -94,7 +94,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
   <tr> 
    <td>Web applications - Microsites</td>
-   <td>Starting Campaign 18.10 release, Microsites are no longer available. You can improve security by restricting access to only dedicated domains on Adobe Campaign configuration files, and use personalized URLs in Campaign by using DNS aliases. <a href="https://helpx.adobe.com/campaign/kb/domain-name-delegation.html">Learn more</a>.</td>
+   <td>Starting Campaign 18.10 release, Microsites are no longer available. You can improve security by restricting access to only dedicated domains on Adobe Campaign configuration files, and use personalized URLs in Campaign by using DNS aliases. <a href="https://helpx.adobe.com/campaign/kb/domain-name-delegation.html">Learn more</a></td>
   </tr> 
   <tr> 
    <td>Push Notifications - iOS Binary Connector</td>
@@ -111,7 +111,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>Mobile channel - LINE v1</td>
-   <td>Starting Campaign 18.4 release, LINE Connect package is no longer available. Adobe recommends using the new LINE Channel package as a replacement. <a href="../../delivery/using/line-channel.md">Learn more</a>.</td>
+   <td>Starting Campaign 18.4 release, LINE Connect package is no longer available. Adobe recommends using the new LINE Channel package as a replacement. <a href="../../delivery/using/line-channel.md">Learn more</a></td>
   </tr> 
  </tbody> 
 </table>
@@ -157,23 +157,23 @@ Adobe Campaign Classic Client Console can no longer run on the following systems
 
 Starting 19.1 release, Adobe Campaign is no longer compatible with the following operating systems.
 
-* Debian 7. [Learn more](https://wiki.debian.org/DebianReleases).
-* RHEL 6.x. [Learn more](https://access.redhat.com/support/policy/updates/errata).
-* Windows Server 2008. [Learn more](https://support.microsoft.com/en-us/lifecycle/search/1163).
-* SLES 11. [Learn more](https://www.suse.com/lifecycle).
+* Debian 7. [Learn more](https://wiki.debian.org/DebianReleases)
+* RHEL 6.x. [Learn more](https://access.redhat.com/support/policy/updates/errata)
+* Windows Server 2008. [Learn more](https://support.microsoft.com/en-us/lifecycle/search/1163)
+* SLES 11. [Learn more](https://www.suse.com/lifecycle)
 
 ### Web servers {#web-server-eol}
 
 Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following web server. 
 
-* Microsoft IIS 7. [Learn more](https://support.microsoft.com/en-us/lifecycle/search/810).
+* Microsoft IIS 7. [Learn more](https://support.microsoft.com/en-us/lifecycle/search/810)
 
 ### Tools {#tools-eol}
 
 Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following tools.
 
-* Java JDK 7. [Learn more](http://www.oracle.com/technetwork/java/javase/eol-135779.html).
-* Libre Office 3.5 / 4.3 / 5.x, except when embeded in another tool. [Learn more](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases).
+* Java JDK 7. [Learn more](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
+* Libre Office 3.5 / 4.3 / 5.x, except when embeded in another tool. [Learn more](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### Database engines {#dbe-eol}
 
@@ -185,24 +185,24 @@ Refer to [Campaign Classic Compatibility matrix](https://helpx.adobe.com/campaig
 
 Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following FDA Servers.
 
-* Oracle 11G. [Learn more](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf).
-* PostgreSQL 9.3. [Learn more](https://www.postgresql.org/support/versioning).
-* MySQL 5.5. <[Learn more](http://www.fromdual.com/support-for-mysql-from-oracle).
-* DB2 9.5. [Learn more](http://www-01.ibm.com/support/docview.wss?uid=swg21168270).
-* Teradata 14 – 14.1. [Learn more](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068).
+* Oracle 11G. [Learn more](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
+* PostgreSQL 9.3. [Learn more](https://www.postgresql.org/support/versioning)
+* MySQL 5.5. [Learn more](http://www.fromdual.com/support-for-mysql-from-oracle)
+* DB2 9.5. [Learn more](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* Teradata 14 – 14.1. [Learn more](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)
 
 Campaign Classic is not compatible with the following servers in Federated Data Access (FDA).
 
-* DB2 UDB 9.5, 9.7. More recent version of DB2 is supported through Federated Data Access (FDA). [Learn more](http://www-01.ibm.com/support/docview.wss?uid=swg21168270).
-* Oracle 9i, 10G R2. More recent versions of Oracle are supported through Federated Data Access (FDA). [Learn more](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf).
-* PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. More recent versions of PostgreSQL are supported through Federated Data Access (FDA). [Learn more](https://www.postgresql.org/support/versioning).
-* MSSQL 2000, 2005, 2008 R2. More recent versions of SQL Server are supported through Federated Data Access (FDA). [Learn more](https://support.microsoft.com/en-us/lifecycle/search/1044).
-* MySQL 5.1. More recent versions of MySQL are supported through Federated Data Access (FDA). [Learn more](https://en.wikipedia.org/wiki/InfiniDB).
-* InfiniDB reached end of life. [Learn more](https://www.mysql.com/support).
-* Teradata 13, 13.1. More recent versions of Teradata are supported through Federated Data Access (FDA). [Learn more](https://www.info.teradata.com/download.cfm?ItemID=1007255).
-* Netezza 6.02, 7.0. Netezza reached end of life. [Learn more](https://en.wikipedia.org/wiki/Netezza).
-* AsterData 5.0. AsterData reached end of life. [Learn more](https://en.wikipedia.org/wiki/Aster_Data_Systems).
-* Sybase IQ 15.2, 15.4, 15.5 and Sybase ASE 15.0. More recent versions of Sybase are supported through Federated Data Access (FDA). [Learn more](https://sites.google.com/site/dbatipsandtricks/time-tracker).
+* DB2 UDB 9.5, 9.7. More recent version of DB2 is supported through Federated Data Access (FDA). [Learn more](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* Oracle 9i, 10G R2. More recent versions of Oracle are supported through Federated Data Access (FDA). [Learn more](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
+* PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. More recent versions of PostgreSQL are supported through Federated Data Access (FDA). [Learn more](https://www.postgresql.org/support/versioning)
+* MSSQL 2000, 2005, 2008 R2. More recent versions of SQL Server are supported through Federated Data Access (FDA). [Learn more](https://support.microsoft.com/en-us/lifecycle/search/1044)
+* MySQL 5.1. More recent versions of MySQL are supported through Federated Data Access (FDA). [Learn more](https://en.wikipedia.org/wiki/InfiniDB)
+* InfiniDB reached end of life. [Learn more](https://www.mysql.com/support)
+* Teradata 13, 13.1. More recent versions of Teradata are supported through Federated Data Access (FDA). [Learn more](https://www.info.teradata.com/download.cfm?ItemID=1007255)
+* Netezza 6.02, 7.0. Netezza reached end of life. [Learn more](https://en.wikipedia.org/wiki/Netezza)
+* AsterData 5.0. AsterData reached end of life. [Learn more](https://en.wikipedia.org/wiki/Aster_Data_Systems)
+* Sybase IQ 15.2, 15.4, 15.5 and Sybase ASE 15.0. More recent versions of Sybase are supported through Federated Data Access (FDA). [Learn more](https://sites.google.com/site/dbatipsandtricks/time-tracker)
 * Hadoop via HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic will still support the listed versions of Hadoop via HiveSQL through Federated Data Access (FDA), but these versions are merged with: HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) and HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
 
 **RDBMS SERVER**

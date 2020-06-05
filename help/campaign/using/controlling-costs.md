@@ -226,73 +226,71 @@ We are going to create a campaign with:
 
 #### Step 1 - Creating the budget {#step-1---creating-the-budget}
 
-Create a new budget via the **[!UICONTROL Campaign management > Budgets]** node.
+1. Create a new budget via the **[!UICONTROL Campaign management > Budgets]** node.
 
-Define a budget of 10,000 Euros in the **[!UICONTROL Allocated]** field of the **[!UICONTROL Amounts]** section. Add two expense categories in the lower section of the window:
+1. Define a budget of 10,000 Euros in the **[!UICONTROL Allocated]** field of the **[!UICONTROL Amounts]** section. Add two expense categories in the lower section of the window:
 
 ![](assets/s_user_cost_mgmt_sample_1.png)
 
 #### Step 2 - Configuring the service provider and defining the cost structures {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-Create a service provider and a service template with its cost structure from the **[!UICONTROL Administration > Campaigns]** node.
+1. Create a service provider and a service template with its cost structure from the **[!UICONTROL Administration > Campaigns]** node. For more on this, refer to [Creating a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
-For more on this, refer to [Creating a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+   For direct mail deliveries, create cost categories **[!UICONTROL Envelopes]** (types 114x229 and 162x229), **[!UICONTROL Postage]** and **[!UICONTROL Print]** (types A3 and A4). And then create the following cost structures:
 
-* For direct mail deliveries, create cost categories **[!UICONTROL Envelopes]** (types 114x229 and 162x229), **[!UICONTROL Postage]** and **[!UICONTROL Print]** (types A3 and A4). And then create the following cost structures:
+   ![](assets/s_user_cost_mgmt_sample_2.png)
 
-  ![](assets/s_user_cost_mgmt_sample_2.png)
+1. Add a fixed cost (in the cost categories) whose calculation is fixed and whose amount is blank (in the corresponding cost structure) and which will be specified individually for each delivery.
 
-  Add a fixed cost (in the cost categories) whose calculation is fixed and whose amount is blank (in the corresponding cost structure) and which will be specified individually for each delivery.
+   ![](assets/s_user_cost_mgmt_sample_5.png)
 
-  ![](assets/s_user_cost_mgmt_sample_5.png)
+   For tasks, create the following two cost categories:
 
-* For tasks, create the following two cost categories:
+    * **[!UICONTROL Room reservation]** (Small Room and Large Room), with a **fixed** cost structure in the amount of 300 and 500 Euros:
 
-    1. **[!UICONTROL Room reservation]** (Small Room and Large Room), with a **fixed** cost structure in the amount of 300 and 500 Euros:
-    
-       ![](assets/s_user_cost_mgmt_sample_6.png)
+   ![](assets/s_user_cost_mgmt_sample_6.png)
 
-    1. **[!UICONTROL Creation]** (**Content template** type), with a **daily** cost structure of 300 Euros:
-    
-       ![](assets/s_user_cost_mgmt_sample_7.png)
+    * **[!UICONTROL Creation]** (**Content template** type), with a **daily** cost structure of 300 Euros:
+
+    ![](assets/s_user_cost_mgmt_sample_7.png)
 
 #### Step 3 - Charging the budget in the campaign {#step-3---charging-the-budget-in-the-campaign}
 
-Create a campaign and select the budget created in Step 1.
+1. Create a campaign and select the budget created in Step 1.
 
->[!NOTE]
->
->By default, the budget selected for the program is applied to all campaigns in the program.
+   >[!NOTE]
+   >
+   >By default, the budget selected for the program is applied to all campaigns in the program.
 
-![](assets/s_user_cost_mgmt_sample_4.png)
+   ![](assets/s_user_cost_mgmt_sample_4.png)
 
-Specify the estimated provisional cost, with breakdown:
+1. Specify the estimated provisional cost, with breakdown:
 
-![](assets/s_user_cost_mgmt_sample_9.png)
+   ![](assets/s_user_cost_mgmt_sample_9.png)
 
-Click **[!UICONTROL Ok]** and then **[!UICONTROL Save]** to confirm this information. The calculated cost of the campaign is then updated with the estimated provisional cost.
+1. Click **[!UICONTROL Ok]** and then **[!UICONTROL Save]** to confirm this information. The calculated cost of the campaign is then updated with the estimated provisional cost.
 
 #### Step 4 - Creating the direct mail delivery {#step-4---creating-the-direct-mail-delivery}
 
-Create a workflow for the campaign and position the query activities to select the target (warning, the recipient postal addresses must be specified).
+1. Create a workflow for the campaign and position the query activities to select the target (warning, the recipient postal addresses must be specified).
 
-Create a direct mail delivery and select the service provider created in Step 2: the cost categories are displayed automatically.
+1. Create a direct mail delivery and select the service provider created in Step 2: the cost categories are displayed automatically.
 
-Override the cost of the envelopes and add a fixed cost. Also select the categories, concerned by these costs.
+1. Override the cost of the envelopes and add a fixed cost. Also select the categories, concerned by these costs.
 
-![](assets/s_user_cost_mgmt_sample_3.png)
+   ![](assets/s_user_cost_mgmt_sample_3.png)
 
->[!NOTE]
->
->If one of the cost categories is not used, it will not generate any expenses.
+   >[!NOTE]
+   >
+   >If one of the cost categories is not used, it will not generate any expenses.
 
-Start the workflow that you have just created to launch the analysis and calculate the costs.
+1. Start the workflow that you have just created to launch the analysis and calculate the costs.
 
-![](assets/s_user_cost_mgmt_sample_10.png)
+   ![](assets/s_user_cost_mgmt_sample_10.png)
 
-If budget approval is enabled for this campaign, approve the budget from the dashboard. You can check the approval of cost categories.
+1. If budget approval is enabled for this campaign, approve the budget from the dashboard. You can check the approval of cost categories.
 
-![](assets/s_user_cost_mgmt_sample_10b.png)
+   ![](assets/s_user_cost_mgmt_sample_10b.png)
 
 The expense line concerning the delivery is added in the **[!UICONTROL Edit > Budget]** tab of the campaign. Edit it to view the details of the calculation.
 
@@ -308,27 +306,27 @@ When you edit the calculated cost, you can check the cost breakdown and the stat
 
 To this campaign, we will add the two tasks for which the cost structures were created earlier (see [Step 2 - Configuring the service provider and defining the cost structures](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). To do this, in the campaign dashboard, click the **[!UICONTROL Add a task]** button. Name the task and click **[!UICONTROL Save]**.
 
-The task is then added to the task list. You must edit it to configure it.
+1. The task is then added to the task list. You must edit it to configure it.
 
-In the **[!UICONTROL Properties]** tab, select the service and the corresponding cost category:
+1. In the **[!UICONTROL Properties]** tab, select the service and the corresponding cost category:
 
-![](assets/s_user_cost_mgmt_sample_14.png)
+   ![](assets/s_user_cost_mgmt_sample_14.png)
 
-Next, click the **[!UICONTROL Expenses and revenue]** icon of the task and specify the estimated provisional cost. 
+1. Next, click the **[!UICONTROL Expenses and revenue]** icon of the task and specify the estimated provisional cost. 
 
-![](assets/s_user_cost_mgmt_sample_15.png)
+   ![](assets/s_user_cost_mgmt_sample_15.png)
 
-When the task has been saved, the calculated cost is specified with the value entered for the estimated provisional cost.
+   When the task has been saved, the calculated cost is specified with the value entered for the estimated provisional cost.
 
-When the task is completed (status **[!UICONTROL Finished]** ), the calculated cost is automatically updated with the cost of the Large Room as entered in its cost structure. This cost also appears in this category in the breakdown.
+   When the task is completed (status **[!UICONTROL Finished]** ), the calculated cost is automatically updated with the cost of the Large Room as entered in its cost structure. This cost also appears in this category in the breakdown.
 
-Next, create a second task according to the same procedure; scheduled over five days and related to the cost structure created earlier.
+1. Next, create a second task according to the same procedure; scheduled over five days and related to the cost structure created earlier.
 
-![](assets/s_user_cost_mgmt_sample_16.png)
+   ![](assets/s_user_cost_mgmt_sample_16.png)
 
-When the task is finished, the calculated cost is specified with the value from the related cost structure, i.e. 1500 Euros in our example (5 days x 300 Euros): 
+   When the task is finished, the calculated cost is specified with the value from the related cost structure, i.e. 1500 Euros in our example (5 days x 300 Euros): 
 
-![](assets/s_user_cost_mgmt_sample_17.png)
+   ![](assets/s_user_cost_mgmt_sample_17.png)
 
 #### Step 6 - Update the campaign budget status {#step-6---update-the-campaign-budget-status}
 

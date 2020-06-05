@@ -18,7 +18,7 @@ snippet: y
 
 # Interaction{#interaction}
 
-The workflow detailed below is installed with the **Offer engine (Interaction)** module by default. For more on this module, refer to this [section](../../interaction/using/interaction-and-offer-management.md).
+The workflows detailed below are installed with the **Offer engine (Interaction)** module by default. For more on this module, refer to this [section](../../interaction/using/interaction-and-offer-management.md).
 
 <table> 
  <tbody> 
