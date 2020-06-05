@@ -41,7 +41,7 @@ The new **Prepare the delivery parts in the database** option is documented in [
 
 The Validating the delivery section has been clarified and updated. [Read more](../../delivery/using/steps-validating-the-delivery.md)
 
-The parameters related to the new tracking link signature mechanism have been added to the [Server configuration file](../../installation/using/the-server-configuration-file) section.
+The parameters related to the new tracking link signature mechanism have been added to the [Server configuration file](../../installation/using/the-server-configuration-file.md) section.
 
 The Compatibility matrix has been updated. [Read more](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
