@@ -52,7 +52,7 @@ _June 8, 2020_
  <tbody> 
   <tr> 
    <td> <p>When designing a message in Campaign, you can now easily insert emoticons in the message body, using a dedicated button. They can also be added in the email subject line. You can customize the list of available emoticons in the interface.</p>
-    <p>For more information about adding emoticons, refer to the <a href="../../delivery/using/defining-the-email-content.md#inserting-emoticons-in-an-email">detailed documentation</a>. Learn how to customize the emoticon list <a href="../../delivery/using/customizing-emoticon-list.md">in this section</a>.</p>
+    <p>For more information about adding emoticons, refer to the <a href="../../delivery/using/defining-the-email-content.md#inserting-emoticons">detailed documentation</a>. Learn how to customize the emoticon list <a href="../../delivery/using/customizing-emoticon-list.md">in this section</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -67,7 +67,7 @@ _June 8, 2020_
  <tbody> 
   <tr> 
    <td> <p>You can now connect your Campaign instance to your Azure Synapse external database. This connection is managed through a new external account.</p>
-    <p>Azure Synapse is only available for Hybrid and On-premise environments. For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse-configure-access-to-azure-synapse">detailed documentation</a>.</p>
+    <p>Azure Synapse is only available for Hybrid and On-premise environments. For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse">detailed documentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 
