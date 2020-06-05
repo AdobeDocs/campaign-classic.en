@@ -103,7 +103,7 @@ The **[!UICONTROL Routing]** external account allows you to configure each chann
 The following channels can be configured:
 
 * [Email](../../installation/using/deploying-an-instance.md#email-channel-parameters)
-* [Mobile (SMS)](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+* [Mobile (SMS)](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)
 * [Phone](../../delivery/using/other-channels.md)
 * [Direct mail](../../delivery/using/about-direct-mail-channel.md)
 * [Agency](../../delivery/using/other-channels.md)
