@@ -37,7 +37,7 @@ snippet: y
 
 The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/do-not-localize/blue_2.png) Release 20.2.1 - Build XXXX {#release-20-2-1-build-XXXX}
+## ![](assets/do-not-localize/blue_2.png) Release 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
 _June 8, 2020_
 
