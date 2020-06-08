@@ -85,8 +85,6 @@ To create the diagram
 >
 >You can copy and paste activities within a same workflow. However, we do not recommend to copy paste activities across different workflows. Some settings attached to activities like Deliveries and Scheduler could lead to conflicts and errors while executing the destination workflow. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](#duplicating-workflows).
 
-### Additional layout options {#additional-layout-options}
-
 You can change the display and layout of the chart using the following elements:
 
 * **Using the toolbar**

@@ -20,6 +20,39 @@ This page lists all the new features and documentation updates per month and Cam
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
+## 20.2 - 08/06/2020{#release-20-2}
+
+**New capabilities included in the release**
+
+Support of Emoticons - [Read more](../../delivery/using/customizing-emoticon-list.md)
+
+Azure Synapse FDA Connector - [Read more](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse)
+
+Thailand and Brazil Privacy Laws - [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+
+**Other documentation updates coming with the release**
+
+The new option enabling to unpublish a transactional message template is documented in
+[this section](../../message-center/using/template-unpublication.md).
+
+The new options allowing to set limitations when sending emails that include images downloaded from a personalized URL and attachments have been added to the list of Campaign Classic options. [Read more](../../installation/using/configuring-campaign-options.md#delivery)
+
+The new **Prepare the delivery parts in the database** option is documented in [this section](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis).
+
+The Validating the delivery section has been clarified and updated. [Read more](../../delivery/using/steps-validating-the-delivery.md)
+
+The parameters related to the new tracking link signature mechanism have been added to the [Server configuration file](../../installation/using/the-server-configuration-file.md) section.
+
+The Compatibility matrix has been updated. [Read more](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+
+The cleanup workflow section has been updated. [Learn more](../../production/using/database-cleanup-workflow.md)
+
+The Campaign network endpoints have been moved to this [section](../../installation/using/campaign-network-endpoints.md).
+
+The Spam Assassin installation section has been updated with the new installation file name. [Learn more](../../installation/using/configuring-spamassassin.md#installing-spamassassin)
+
+The section on duplicating environments has been updated. [Learn more](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)
+
 
 ## May 2020 {#may-2020}
 

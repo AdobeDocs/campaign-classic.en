@@ -93,10 +93,6 @@ The following table provides access to available Experience Cloud integration do
    <td> <strong>Adobe Analytics - Data Connectors</strong><br /> </td> 
    <td> <strong>Data connectors</strong> (previously known as Adobe Genesis) allows Adobe Campaign and Adobe Analytics interact through segments concerning user behavior following an email campaign. Conversely, it sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics - Data connector.<br /> <p><a href="../../platform/using/adobe-analytics-data-connector.md">Learn more</a> about Campaign - Data Connectors integration.</p><br /> </td> 
   </tr> 
-  <tr> 
-   <td> <strong>Adobe Campaign Standard</strong> (Prime offering)<br /> </td> 
-   <td> Allows you to replicate data to <strong>Campaign Standard</strong>, uniting the best of both applications. Campaign Classic v7 has advanced tools to manage the primary marketing database. The data replication from Campaign Classic v7 allows Campaign Standard to leverage the rich data in a user-friendly environment.<br /><p> <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">Learn more</a> about Adobe Campaign Classic - Adobe Campaign Standard integration.</p><br /></td> 
-  </tr> 
  </tbody> 
 </table>
 

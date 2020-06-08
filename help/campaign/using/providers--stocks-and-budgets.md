@@ -77,7 +77,7 @@ To create a service template and define its content, apply the following steps:
 
    ![](assets/s_ncs_user_supplier_node_03.png)
 
-    * Enter a label for this cost category and select the type of process concerned: Delivery by **[!UICONTROL Direct mail]**, **[!UICONTROL E-mail]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]**, **[!UICONTROL Fax]** or **[!UICONTROL Task]**. 
+    * Enter a label for this cost category and select the type of process concerned: Delivery by **[!UICONTROL Direct mail]**, **[!UICONTROL E-mail]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]** or **[!UICONTROL Task]**. 
     * Click the **[!UICONTROL Add]** button to define the types of cost associated with this category.
     * If necessary, associated a stock line with each type of cost so that the quantities used will be related automatically to the existing stocks.
 
@@ -172,7 +172,7 @@ When a service is selected, the cost categories corresponding to the type of del
 
   ![](assets/s_ncs_user_supplier_mail_delivery_select.png)
 
-* For delivery on mobile channels, fax, or telephone, the same selection mode applies.
+* For delivery on mobile channels or telephone, the same selection mode applies.
 * For an email delivery, the service is selected from the **[!UICONTROL Advanced]** tab in the delivery properties, as in the following example:
 
   ![](assets/s_ncs_user_supplier_email_delivery_select.png)

@@ -20,7 +20,9 @@ snippet: y
 
  **[!UICONTROL Jump]** -type graphical objects are used to improve the readability of a complex diagram, particularly one with crossing transitions.
 
-Jumps are transitions without arrows: They go from one activity to another, as in the following example.
+Jumps are transitions without arrows.
+
+They go from one activity to another, as in the following example:
 
 ![](assets/s_user_segmentation_jump_sample.png)
 
