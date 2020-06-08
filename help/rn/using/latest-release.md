@@ -178,29 +178,19 @@ Here are the command lines for Debian:
 ```
 /etc/init.d/nlserver* stop
 /etc/init.d/apache2 stop
-```
 
-```
 for i in `ipcs -s | awk '/www-data/
 {print $2}'`; do (ipcrm -s $i); done
-```
 
-```
 for i in `ipcs -m | awk '/www-data/ {print $2}
 '`; do (ipcrm shm $i); done
-```
 
-```
 for i in `ipcs -m | awk '/neolane/
 {print $2}'`; do (ipcrm shm $i); done
-```
 
-```
 for i in `ipcs -s | awk '/neolane/ {print $2}
 '`; do (ipcrm -s $i); done
-```
 
-```
 /etc/init.d/apache2 restart
 /etc/init.d/nlserver* start
 ```
