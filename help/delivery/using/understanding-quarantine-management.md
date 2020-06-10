@@ -30,21 +30,21 @@ Adobe Campaign manages a list of quarantined addresses. Recipients whose address
 
 The profiles whose email addresses or phone number are in quarantine are automatically excluded during message preparation (see [Identifying quarantined addresses for a delivery](#identifying-quarantined-addresses-for-a-delivery)). This will speed up deliveries, as the error rate has a significant effect on delivery speed.
 
-Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid blacklisting by these providers.
+Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being put on block list by these providers.
 
 Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries. For more on best practices to secure and optimize your deliveries, refer to [this page](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
 
-### Quarantine vs blacklisting {#quarantine-vs-blacklisting}
+### Quarantine vs block list {#quarantine-vs-blacklisting}
 
 **Quarantine** applies only to an address, not the profile itself. It means that, if two profiles have the same email address, they will both be affected if the address is quarantined.
 
 Likewise, a profile whose email address is quarantined could update his profile and enter a new address, and could then be targeted by delivery actions again.
 
-**Blacklisting**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
+Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
 
 >[!NOTE]
 >
->When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, his profile is not blacklisted like in the email opt-out process. The profile phone number is sent to quarantine, so that the user continues receiving email messages.
+>When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, his profile is not added to the block list like in the email opt-out process. The profile phone number is sent to quarantine, so that the user continues receiving email messages.
 
 ## Identifying quarantined addresses {#identifying-quarantined-addresses}
 
@@ -100,11 +100,11 @@ If you need to remove an address from quarantine, change its status manually to 
 
 ![](assets/tech_quarant_error_status.png)
 
-If you change the status to **[!UICONTROL Whitelisted]**, the address will be targeted systematically each time even if an error is encountered.
+If you change the status to **[!UICONTROL On allow list]**, the address will be targeted systematically each time even if an error is encountered.
 
 >[!CAUTION]
 >
->Blacklisted addresses are not concerned by the quarantine system and are not targeted, even if you change the status of the address.
+>Addresses on the block list are not concerned by the quarantine system and are not targeted, even if you change the status of the address.
 
 You can also change the number of errors and the period between errors. To do this, change the settings of the deployment wizard (Email channel/Advanced settings). For more on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md).
 
