@@ -1,7 +1,7 @@
 ---
-title: Blacklisting databases
-seo-title: Blacklisting databases
-description: Blacklisting databases
+title: Block list databases
+seo-title: Block list databases
+description: Block list databases
 seo-description: 
 page-status-flag: never-activated
 uuid: 8a4a69f9-87d5-4044-bc55-76cdcb2e7800
@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Blacklisting databases{#blacklisting-databases}
+# Block list databases{#blacklisting-databases}
 
 Several organizations maintain databases of IP addresses and domains that are reputed to be used by spammers. Consulting these sites can be useful to understand why certain messages were rejected as spam. It is generally possible to request the removal of an address erroneously added to these lists.
 
@@ -32,7 +32,7 @@ The following is a list of the most widely used RBLs. For a more comprehensive l
 
   Refer to [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-  The database is more important. Being classified on this list is generally a serious situation. If this happens, you must act IMMEDIATELY and warn commercial services, deliverability, and Adobe Campaign support. 
+  The database is more important. Being classified on this list is generally a serious situation. If this happens, you must act IMMEDIATELY and warn commercial services, deliverability, and Adobe Campaign support.
 
 * **SpamCop**
 
