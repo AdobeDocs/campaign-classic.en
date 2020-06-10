@@ -58,7 +58,7 @@ Scopes defined in the Campaign external account must be a subset of those provis
 
 **Callback URL**
 
-The **Callback URL** should be whitelisted and start with "https://". Check that the **Callback URL** is linked to the corresponding instance. For example, the production instance should redirect to the production URL.
+The **Callback URL** should be added to the allow list and start with "https://". Check that the **Callback URL** is linked to the corresponding instance. For example, the production instance should redirect to the production URL.
 
 **Client ID and secret**
 
