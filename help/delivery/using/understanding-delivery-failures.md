@@ -200,7 +200,7 @@ A message can fail immediately (synchronous error), or later on, after it has be
   >
   >Configuration of the bounce mailbox is detailed in [this section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-  The feedback loop operates like bounce emails. When a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. Messages sent to users who have qualified an email as spam are automatically redirected towards an email box specifically created for this purpose. The addresses of these users are on the block list even though they didn't click the unsubscription link. Addresses are marked as blocked in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table.
+  The [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) operates like bounce emails. When a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. Messages sent to users who have qualified an email as spam are automatically redirected towards an email box specifically created for this purpose. The addresses of these users are on the block list even though they didn't click the unsubscription link. Addresses are on the block list in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table.
 
   >[!NOTE]
   >

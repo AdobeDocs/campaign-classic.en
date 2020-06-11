@@ -45,9 +45,9 @@ If the problem persists, contact the commercial or deliverability services, Adob
 
 ## Block list versus quarantine {#blacklisting-versus-quarantine}
 
-* **What is the difference between an email address on a block list and a quarantined email address?**
+* **What is the difference between an email address on the block list and a quarantined email address?**
 
-    * The status **[!UICONTROL Blocklisted]** is a result of a feedback loop (when a person reports a message as spam).
+    * The status **[!UICONTROL On block list]** is a result of a feedback loop (when a person reports a message as spam).
 
     * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
     
@@ -55,28 +55,28 @@ If the problem persists, contact the commercial or deliverability services, Adob
 
 * **What do the different quarantine error reasons mean?**
 
-    Here are 10 possible reasons: not defined, user unknown, invalid domain, address on a block list, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
+    Here are 10 possible reasons: not defined, user unknown, invalid domain, address on block list, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
     
     For more on this, see [Understanding quarantine management](../../delivery/using/understanding-quarantine-management.md).
 
 ## Removing from block list {#unblacklisting}
 
-* **One of my recipients was blocked by mistake. How do I remove them from the block list so that I can start sending them messages again?**
+* **One of my recipients was added to the block list by mistake. How do I remove them from the block list so that I can start sending them messages again?**
 
     * Go to **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
     * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
     * Save the record.
 
-* **How can I find out whether one of my IPs is blocked? How do I remove my IP(s) from the block list?**
+* **How can I find out whether one of my IPs is on a block list? How do I remove my IP(s) from a block list?**
 
-    To check whether your IP address is blocked, you can use various web sites to verify it:
-    * [https://mxtoolbox.com/](https://mxtoolbox.com/)
-    * [https://whatismyipaddress.com/blacklist-check](https://whatismyipaddress.com/blacklist-check)
-    * [https://www.blacklistalert.org/](https://www.blacklistalert.org/)
+    To check whether your IP address is on a block list, you can use various web sites to verify it:
+    * [MX Toolbox](https://mxtoolbox.com/)
+    * [What is my IP address](https://whatismyipaddress.com/blacklist-check)
+    * [Blocklist Alert](https://www.blacklistalert.org/)
 
     Generally, the result of the IP address check will return a list that contains details of the block list and also the name of the web site that blocked the IP address.
 
-    By clicking the corresponding link, you can access the web site details. Then, you can request that your web site be delisted from the web site that blocked the IP address.
+    By clicking the corresponding link, you can access the web site details. Then, you can request that your web site be delisted from the web site that added the IP address to its block list.
 
     >[!NOTE]
     >
