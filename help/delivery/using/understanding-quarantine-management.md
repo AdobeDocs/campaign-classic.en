@@ -96,7 +96,7 @@ You can look up the status of the email address of any recipient. To do this, se
 
 ### Removing a quarantined address {#removing-a-quarantined-address}
 
-If you need to remove an address from quarantine, change its status manually to **[!UICONTROL Valid]**. 
+To manually remove an address from quarantine, change its status to **[!UICONTROL Valid]** from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node.
 
 ![](assets/tech_quarant_error_status.png)
 
@@ -104,21 +104,19 @@ If you change the status to **[!UICONTROL On allow list]**, the address will be 
 
 >[!IMPORTANT]
 >
->Blacklisted addresses are not concerned by the quarantine system and are not targeted, even if you change the status of the address.
+> Addresses on the block list are not concerned by the quarantine system and are not targeted, even if you change the status of the address.
 
-The addresses are automatically removed from the quarantine list in the following cases:
+The addresses are automatically removed from the quarantine list (and their status changes to **[!UICONTROL Valid]**) in the following cases:
 
 * Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list after a successful delivery.
-* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list if they haven’t had a soft bounce in 10 days. For more on soft error management, see [this section](#soft-error-management).
-* Addresses in a **[!UICONTROL With errors]** status who bounced with the **[!UICONTROL Mailbox full]** error will be removed from the quarantine list after 30 days.
-
-The address status then changes to **Valid**.
+* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list if the last soft bounce occurred more than 10 days ago. For more on soft error management, see [this section](#soft-error-management).
+* Addresses in a **[!UICONTROL With errors]** status that bounced with the **[!UICONTROL Mailbox full]** error will be removed from the quarantine list after 30 days.
 
 >[!IMPORTANT]
 >
 >Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL On block list]** status will never be removed, even if they receive an email.
 
-You can also change the number of errors and the period between errors. To do this, change the settings of the deployment wizard (Email channel/Advanced settings). For more on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md).
+You can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the deployment wizard (**[!UICONTROL Email channel]** / **[!UICONTROL Advanced parameters]**). For more on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md).
 
 ## Conditions for sending an address to quarantine {#conditions-for-sending-an-address-to-quarantine}
 
