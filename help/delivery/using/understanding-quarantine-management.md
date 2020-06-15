@@ -100,19 +100,23 @@ If you need to remove an address from quarantine, change its status manually to 
 
 ![](assets/tech_quarant_error_status.png)
 
-If you change the status to **[!UICONTROL Whitelisted]**, the address will be targeted systematically each time even if an error is encountered.
+If you change the status to **[!UICONTROL On allow list]**, the address will be targeted systematically each time even if an error is encountered.
 
 >[!IMPORTANT]
 >
 >Blacklisted addresses are not concerned by the quarantine system and are not targeted, even if you change the status of the address.
 
-Recipients with an addresse in a **[!UICONTROL With errors]** status will be removed from the quarantine list after a successful delivery.
+The addresses are automatically removed from the quarantine list in the following cases:
 
-Recipients with an addresse in a **[!UICONTROL Quarantined]** or **[!UICONTROL On block list]** status will never be removed, even if they receive an email.
+* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list after a successful delivery.
+* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list if they haven’t had a soft bounce in 10 days. For more on soft error management, see [this section](#soft-error-management).
+* Addresses in a **[!UICONTROL With errors]** status who bounced with the **[!UICONTROL Mailbox full]** error will be removed from the quarantine list after 30 days.
 
-The only recipients that will be taken off the list are those whose address has been in a quarantine state for 30 days, and only if they bounced with the **[!UICONTROL Mailbox full]** error.
+The address status then changes to **Valid**.
 
-Recipients with an addresse in a **[!UICONTROL With errors]** status will be removed from the quarantine list by the **Database cleanup** workflow if they haven’t had a soft bounce in 10 days. The address status then changes to **Valid**. For more on soft error management, see [this section](#soft-error-management).
+>[!IMPORTANT]
+>
+>Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL On block list]** status will never be removed, even if they receive an email.
 
 You can also change the number of errors and the period between errors. To do this, change the settings of the deployment wizard (Email channel/Advanced settings). For more on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md).
 
