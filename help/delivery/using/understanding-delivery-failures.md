@@ -82,7 +82,7 @@ The possible reasons for a delivery failure are:
    <td> Address on block list </td> 
    <td> Hard </td> 
    <td> 8 </td> 
-   <td> The address was on the block list at the time of sending. This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
+   <td> The address was added to the block list at the time of sending. This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
   </tr> 
   <tr> 
    <td> Control address </td> 
