@@ -155,7 +155,7 @@ sub-product: adobe campaign classic
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Re-engagement best practices](delivery/using/re-engagement-best-practices.md)
-       + [Blacklisting databases](delivery/using/blacklisting-databases.md)
+       + [Block list databases](delivery/using/block-list-databases.md)
        + [Troubleshooting](delivery/using/deliverability-faq.md)
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
