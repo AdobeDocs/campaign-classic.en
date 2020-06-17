@@ -72,8 +72,6 @@ If the problem persists, contact the commercial or deliverability services, Adob
     To check whether your IP address is on a block list, you can use various web sites to verify it, such as:
     * [MX Toolbox](https://mxtoolbox.com/)
     * [What is my IP address](https://whatismyipaddress.com)
-    
-    <!--[Blocklist Alert](https://www.blacklistalert.org/)-->
 
     Generally, the result of the IP address check will return a list that contains details of the block list and also the name of the web site that blocked the IP address.
 

@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Block list databases{#blacklisting-databases}
+# Block list databases{#blocklisting-databases}
 
 Several organizations maintain databases of IP addresses and domains that are reputed to be used by spammers. Consulting these sites can be useful to understand why certain messages were rejected as spam. It is generally possible to request the removal of an address erroneously added to these lists.
 
@@ -26,7 +26,7 @@ These databases are called RBLs (Real-time Blackhole Lists) and they are consult
 * By sender domain: lists sender domains (full domain of the bounce mail address) sending spam or incorrectly configured.
 * By web domain: lists the domains (high-level domains as registered with the registrars) found in the URLs of the links and images contained in spam content. In Adobe Campaign, the domain to be taken into consideration is generally the address used for tracking.
 
-The following is a list of the most widely used RBLs. For a more comprehensive list, you can refer to [https://www.dnsstuff.com/](https://tools.dnsstuff.com/) ("Spam Blacklist Lookup" form).
+The following is a list of the most widely used RBLs. For a more comprehensive list, you can refer to [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
 
 * **Spamhaus**
 
