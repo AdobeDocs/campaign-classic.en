@@ -27,24 +27,24 @@ The triggers are used for targeting by a campaign workflow that sends emails. Th
 
 Using Experience Cloud Triggers in Campaign requires:
 
-*	Adobe Campaign version 6.11 build 8705 or later.
-*	Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select, or Standard.
+* Adobe Campaign version 6.11 build 8705 or later.
+* Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select, or Standard.
 
 Prerequisite configurations are:
 
-*	Creation of a private key file and then the creation of the oAuth application registered with that key.
-*	Configuration of the triggers in Adobe Analytics.
+* Creation of a private key file and then the creation of the oAuth application registered with that key.
+* Configuration of the triggers in Adobe Analytics.
 The Adobe Analytics configuration is out of the scope of this document. 
 Adobe Campaign requires the following information from Adobe Analytics:
-*	The name of the oAuth application.
-*	The IMSOrgId. It is the identifier of the Experience Cloud customer.
-*	The names of the triggers configured in Analytics.
-*	The name and format of the data fields to reconcile with the Marketing database.
+* The name of the oAuth application.
+* The IMSOrgId. It is the identifier of the Experience Cloud customer.
+* The names of the triggers configured in Analytics.
+* The name and format of the data fields to reconcile with the Marketing database.
 Note:
 Part of this configuration is a custom development and requires the following:
-*	Working knowledge of JSON, XML, and Javascript parsing in Adobe Campaign.
-*	Working knowledge of the QueryDef and Writer APIs.
-*	Working notions of encryption and authentication using private keys.
+* Working knowledge of JSON, XML, and Javascript parsing in Adobe Campaign.
+* Working knowledge of the QueryDef and Writer APIs.
+* Working notions of encryption and authentication using private keys.
 
 Since editing the JS code requires technical skills, do not attempt it without the proper understanding.
 Triggers are saved to a database table. Thus, trigger data can be safely used by marketing operators in targeting workflows.
@@ -122,24 +122,50 @@ Example:
 <pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
 ```
 
-KEY ENCRYPTION
+### Key encryption {#key-encription}
+
 To be used by pipelined, the private key must be encrypted.
 Encryption is done using the cryptString Javascript function.
 It must be performed on the same instance as pipelined. 
 A sample of private Key encryption with JavaScript is available in the Annexes.
-KEY REGISTRATION IN ADOBE CAMPAIGN
+
 The encrypted private key must be registered in Adobe Campaign. You can do it by editing the instance config file in the pipelined element, specifically the authPrivateKey attribute.
+
 Example:
+
 <pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
-PIPELINED PROCESS AUTO-START
+
+### Pipelined process auto-start {#pipelined-auto-start}
+
 The pipelined process must be started automatically.
 To do it, set the element in the configuration file to autostart="true":
+
 <pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
-PIPELINED PROCESS RESTART
+
+### Pipelined process restart {#pipelined-restart}
+
 It can also be started manually using the command line:
 nlserver start pipelined@instance
 A restart is required for the changes to take effect:
 nlserver restart pipelined@instance
-IN CASE OF ERROR
-Look for errors on the standard output (if you started manually) or in the pipelined log file. Refer to the Troubleshooting section of this document for more information on resolving issues.
-PIPELINED CONFIGURATION OPTIONS
+
+In case of errors, look for errors on the standard output (if you started manually) or in the pipelined log file. Refer to the Troubleshooting section of this document for more information on resolving issues.
+
+### Pipelined configuration options {#pipelined-configuration-options}
+
+| Option | Description |
+|:-:|:-:|
+| appName| ID of the OAuth application (Application ID) registered in Adobe Analytics (where the public key was uploaded): Admin > User Management > Legacy Oath application. Refer to this [section](../../integrations/using/configuring-pipeline.md#oauth-client-creation). |
+| authGatewayEndpoint| URL to get "gateway tokens". <br> Default: ```https://api.omniture.com ```|
+| authPrivateKey | Private key (public part uploaded in Adobe Analytics (refer to this section). AES encrypted with the XtkSecretKey option: xtk.session.EncryptPassword("PRIVATE_KEY");|
+| disableAuth| Disable authentication (connecting without gateway tokens is only accepted by some development Pipeline endpoints)|
+| discoverPipelineEndpoint | URL to discover the Pipeline Services endpoint to be used for this tenant. Default: https://producer-pipeline-pnw.adobe.net|
+| dumpStatePeriodSec| Period between 2 dumps of the process internal state in var/INSTANCE/pipelined.json Internal state is also accessible on-demand at http://INSTANCE/pipelined/status (port 7781). |
+| forcedPipelineEndpoint| Disable the discovery of the PipelineServicesEndpoint and force it  |
+| monitorServerPort| The pipelined process listens on this port to provide the process internal state at http://INSTANCE/pipelined/status (port 7781). |
+| pointerFlushMessageCount | When this number of messages is processed, the offsets are saved in the database. Default is 1000|
+| pointerFlushPeriodSec| After this period, the offsets will be saved in the database. Default is 5 (secs) |
+| processingJSThreads | Number of dedicated threads processing messages with custom JS connectors. Default is 4 |
+| processingThreads| Number of dedicated threads processing messages with built-in code. Default is 4 |
+| retryPeriodSec | Delay between retries (if there are processing errors). Default is 30 (secs) |
+| retryValiditySec| Discard the message if it is not successfully processed after this period (too many retries). Default is 300 (secs)
