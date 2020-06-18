@@ -32,6 +32,10 @@ The upper section of the configuration window for this activity lets you define 
 
 You can define a pre-process to be executed during file import, for example so as not to have to unzip the file on the server (and therefore save space for the unzipped file) but to include unzipping in file processing. Select the **[!UICONTROL Pre-process the file]** option and choose from one of 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg).
 
+   ![](assets/preprocessing-dataloading.png)
+
+For more on this, refer to this section: [Unzippping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
+
 ## Defining the file format {#defining-the-file-format}
 
 When you load a file, the column format is automatically detected with the default parameters for each data type. You can modify these default parameters in order to specify the particular processes to apply to your data, particularly when there is an error or an empty value.

@@ -31,7 +31,7 @@ To configure data extraction, apply the following steps:
 
    The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** option adds an extra step to filter the final result of the aggregate, for example on a given purchase order type, customers who have ordered more than 10 times, etc.
 
-1. If necessary, you can add new columns to the output file, such as computing or processing results for example. To do this, click the **[!UICONTROL Add]** icon 
+1. If necessary, you can add new columns to the output file, such as computing or processing results for example. To do this, click the **[!UICONTROL Add]** icon.
 
    ![](assets/s_advuser_extract_file_add_col.png)
 
@@ -46,6 +46,12 @@ To configure data extraction, apply the following steps:
    Choose the desired formula from the list.
 
    ![](assets/s_advuser_extract_file_agregate_values.png)
+
+You can define a post-process to be executing during the data extraction, allowing you to zip or to encrypt the files. To do this, the desired command must be added in the **[!UICONTROL Script]** tab of the activity.
+
+For more on this, refer to this section: [Zipping or encrypting a file](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+
+![](assets/postprocessing_dataextraction.png)
 
 ## List of aggregate functions {#list-of-aggregate-functions}
 

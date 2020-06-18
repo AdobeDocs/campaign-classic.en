@@ -81,7 +81,7 @@ To be able to do so:
 * If your installation of Adobe Campaign is hosted by Adobe: send a request to [Support](https://support.neolane.net) to have the necessary utilities installed on the server.
 * If your installation of Adobe Campaign is on premise: install the utility you want to use (for example: GPG, GZIP) as well as the necessary keys (encryption key) on the application server.
 
-You can then use commands or code, such as:
+You can then use commands or code in the **[!UICONTROL Script]** tab of the activity, such as:
 
 ```
 function encryptFile(file) {  
@@ -90,4 +90,63 @@ function encryptFile(file) {
 }
 ```
 
+>[!NOTE]
+>
+>Note that GPG keys can be added to your instance using the Control Panel, which is available to all customers hosted on AWS (excepted for customers who host their marketing instances on premise).
+>
+>For more on this, refer to [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html).
+
 When importing a file, you can also unzip or decrypt it. See [Unzipping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
+
+For more on how to use and configure a **[!UICONTROL Data extraction (file)]** activity, refer to [this section](../../workflow/using/extraction--file-.md).
+
+## Use case: Encrypting and exporting data using a key installed on Control Panel {use-case-gpg-encrypt}
+
+In this use case, we will build a workflow in order to encrypt and export data using a key installed on Control Panel.
+
+The steps to perform this use case are as follows:
+
+1. Generate a GPG key pair (public/private) using a PGP utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+
+    ![](assets/gpg_install.png)
+
+1. In Campaign Classic, build a workflow to export the data and export it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
+
+    ![](assets/gpg-workflow-encrypt.png)
+
+    * **[!UICONTROL Query]** activity: In this example, we want to execute a query to target the data from the database that we want to export.
+    * **[!UICONTROL Data extraction (file)]** activity: Extracts the data into a file.
+    * **[!UICONTROL JavaScript code]** activity: Encrypts the data to extract.
+    * **[!UICONTROL File transfer]** activity: Sends the data to a SFTP server.
+
+1. Configure the **[!UICONTROL Query]** activity to target the desired data from the database. For more on this, refer to [this section](../../automating/using/query.md).
+
+1. Open the **[!UICONTROL Data extraction (file)]** activity then configure it according to your needs. Global concepts on how to configure the activity are available in [this section](../../automating/using/extraction--file-.md).
+
+    ![](assets/gpg-data-extraction.png)
+
+1. Open the **[!UICONTROL JavaScript code]** activity, then copy-paste the command below to encrypt the data to extract.
+
+    >[!IMPORTANT]
+    >
+    >Make sure you replace the **fingerprint** value from the command with the fingerpint of the public key installed on the Control Panel.
+
+    ```
+    var cmd='gpg ';
+    cmd += ' --trust-model always';
+    cmd += ' --batch -yes';
+    cmd += ' --recipient fingerpint';
+    cmd += ' --encrypt --output ' + vars.filename + '.gpg ' + vars.filename;
+    execCommand(cmd,true);
+    vars.filename=vars.filename + '.gpg'
+    ```
+  
+      ![](assets/gpg-script.png)
+
+1. Open the **[!UICONTROL File transfer]** activity, then specify the SFTP server to which you want to send the file. Global concepts on how to configure the activity are available in [this section](../../automating/using/file-transfer.md).
+
+    ![](assets/gpg-file-transfer.png)
+
+1. You can now run the workflow. Once it is executed, data target by the query will be exported to the SFTP server into an encrypted .gpg file.
+
+    ![](assets/gpg-sftp-encrypt.png)
