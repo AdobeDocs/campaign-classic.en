@@ -85,8 +85,6 @@ To create the diagram
 >
 >You can copy and paste activities within a same workflow. However, we do not recommend to copy paste activities across different workflows. Some settings attached to activities like Deliveries and Scheduler could lead to conflicts and errors while executing the destination workflow. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](#duplicating-workflows).
 
-### Additional layout options {#additional-layout-options}
-
 You can change the display and layout of the chart using the following elements:
 
 * **Using the toolbar**
@@ -151,7 +149,7 @@ Targeting data building stages are as follows:
 1. For preparing data to meet delivery needs, refer to [Enriching and modifying data](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
 1. For using data to perform updates or within a delivery, refer to [Updating the database](../../workflow/using/how-to-use-workflow-data.md#updating-the-database).
 
-The results of all enrichments and all handlings carried out during targeting are stored and accessible in personalization fields, in particular for use when creating personalized messages. For more on this, refer to [Target data](../../workflow/using/executing-a-workflow.md#target-data)
+The results of all enrichments and all handlings carried out during targeting are stored and accessible in personalization fields, in particular for use when creating personalized messages. For more on this, refer to [Target data](../../workflow/using/data-life-cycle.md#target-data)
 
 ### Targeting and filtering dimensions {#targeting-and-filtering-dimensions}
 

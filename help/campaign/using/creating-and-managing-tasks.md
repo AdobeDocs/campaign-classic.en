@@ -270,10 +270,10 @@ When you create tasks via a campaign, you can create specific tasks. The type of
 
 The following tasks can be scheduled:
 
-* **[!UICONTROL Control task]**, refer to [Control tasks](#control-tasks),
-* **[!UICONTROL Marketing resource creation task]**, refer to [Grouping task](#grouping-task),
-* **[!UICONTROL Grouping task]**, refer to [Grouping task](#grouping-task),
-* **[!UICONTROL Notification task]**, refer to [Notification task](#notification-task).
+* [Control tasks](#control-tasks),
+* [Grouping task](#grouping-task),
+* [Grouping task](#grouping-task),
+* [Notification task](#notification-task).
 
 >[!NOTE]
 >

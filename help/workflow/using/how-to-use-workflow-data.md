@@ -60,7 +60,7 @@ In addition to the usual personalization fields, you can add personalization fie
 
 ![](assets/s_advuser_using_additional_data.png)
 
-The data contained in the workflow table is identified by its name: it is always made up of the **targetData** link. For more on this, refer to [Target data](../../workflow/using/executing-a-workflow.md#target-data).
+The data contained in the workflow table is identified by its name: it is always made up of the **targetData** link. For more on this, refer to [Target data](../../workflow/using/data-life-cycle.md#target-data).
 
 Within the framework of email delivery, personalization fields can also use data from target extension performed in the targeting workflow stages, as shown in the example below: 
 

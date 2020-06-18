@@ -203,6 +203,7 @@ You need to define the following settings:
 
   >[!NOTE]
   >
+  >Make sure that both the schema name and user name match. Recommended way of creating database is through campaign console client.
   >For an Oracle database, you do not need to enter the account name.
 
 * Indicate whether the database should be Unicode or not.

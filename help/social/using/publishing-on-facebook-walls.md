@@ -30,7 +30,7 @@ In order for Adobe Campaign to be able to send publications to Facebook walls, y
 Start by creating a Facebook account and several pages: these will be used for sending publications.
 
 * To create a Facebook account, use the [https://www.facebook.com](https://www.facebook.com) link.
-* To create a Facebook page, use the [https://www.facebook.com/pages/create.php](https://www.facebook.com/pages/create.php) link.
+* To create a Facebook page, use the [https://www.facebook.com/pages/create](https://www.facebook.com/pages/create) link.
 
   We recommend using the same Facebook account to administer all your pages. This way you will only need one Facebook application and one external account to write on all pages of the account.
 

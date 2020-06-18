@@ -29,7 +29,7 @@ Before starting designing emails, learn the concepts and best practices related 
 
 Delivery configuration and parameters can be saved in a delivery template in order to be re-used.
 
-Click here to learn more.
+[Click here to learn more](../../delivery/using/about-templates.md).
 
 ## Can I easily import an existing HTML to create an email in Campaign? {#can-i-easily-import-an-existing-html-to-create-an-email-in-campaign-}
 

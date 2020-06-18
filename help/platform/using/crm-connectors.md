@@ -206,7 +206,7 @@ To configure the Microsoft Dynamics connector to work with Adobe Campaign, apply
 
    ![](assets/crm_connectors_msdynamics_02.png)
 
-   Select the tables to be recovered.
+1. Select the tables to be recovered.
 
    ![](assets/crm_connectors_msdynamics_03.png)
 

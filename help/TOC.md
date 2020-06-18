@@ -14,6 +14,7 @@ sub-product: adobe campaign classic
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/latest-release.md)
   + Previous Releases {#previous-releases}
+    + [Release 20.1](rn/using/release--20-1.md)
     + [Release 19.2](rn/using/release--19-2.md)
     + [Release 19.1](rn/using/release--19-1.md)
     + [Release 18.10](rn/using/release--18-10.md)
@@ -121,6 +122,7 @@ sub-product: adobe campaign classic
        + [Conditional content](delivery/using/conditional-content.md)
        + [Personalized coupons](delivery/using/personalized-coupons.md)
        + [Generating personalized PDF documents](delivery/using/generating-personalized-pdf-documents.md)
+       + [Customizing the emoticon list](delivery/using/customizing-emoticon-list.md)
   + Using seed addresses {#using-seed-addresses}
        + [About seed addresses](delivery/using/about-seed-addresses.md)
        + [Creating seed addresses](delivery/using/creating-seed-addresses.md)
@@ -321,8 +323,13 @@ sub-product: adobe campaign classic
        + [Targeting data](workflow/using/targeting-data.md)
        + [Importing data](workflow/using/importing-data.md)
        + [How to use workflow data](workflow/using/how-to-use-workflow-data.md)
-       + [Executing a workflow](workflow/using/executing-a-workflow.md)
        + [Workflow best practices](workflow/using/workflow-best-practices.md)
+  +  Executing a workflow {#executing-a-workflow}
+       + [Starting a workflow](workflow/using/starting-a-workflow.md)
+       + [Workflow life cycle](workflow/using/workflow-life-cycle.md)
+       + [Data life cycle](workflow/using/data-life-cycle.md)
+       + [Defining approvals](workflow/using/defining-approvals.md)
+       + [Architecture](workflow/using/architecture.md)
   + Targeting activities {#targeting-activities}
        + [About targeting activities](workflow/using/about-targeting-activities.md)
        + [Query](workflow/using/query.md)
@@ -515,6 +522,7 @@ sub-product: adobe campaign classic
        + [Transactional message preview](message-center/using/transactional-message-preview.md)
        + [Sending a proof](message-center/using/sending-a-proof.md)
        + [Template publication](message-center/using/template-publication.md)
+       + [Template unpublication](message-center/using/template-unpublication.md)
   + Event processing {#event-processing}
        + [About event processing](message-center/using/about-event-processing.md)
        + [Event collection](message-center/using/event-collection.md)
@@ -592,6 +600,7 @@ sub-product: adobe campaign classic
        + [Interaction - Data buffer](installation/using/interaction---data-buffer.md)
   + Appendices {#appendices}
        + [The server configuration file](installation/using/the-server-configuration-file.md)
+       + [Campaign network endpoints](installation/using/campaign-network-endpoints.md)
        + [Command lines](installation/using/command-lines.md)
        + [Creating new instances](installation/using/creating-new-instances.md)
        + [List of Campaign Classic options](installation/using/configuring-campaign-options.md)
