@@ -44,8 +44,6 @@ The following example seeks to compile a list of recipients aged between 18 and 
 
    ![](assets/exclusion_example.png)
 
-The blacklist importation example uses an **Exclusion**-type activity which can be found in [Read list](../../workflow/using/read-list.md).
-
 ## Input parameters {#input-parameters}
 
 * tableName
