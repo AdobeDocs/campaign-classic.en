@@ -51,7 +51,7 @@ If the problem persists, contact the commercial or deliverability services, Adob
 
     * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
     
-    For more on this, see [this section](../../delivery/using/understanding-quarantine-management.md##quarantine-vs-block-list).
+    For more on this, see [this section](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-block-list).
 
 * **What do the different quarantine error reasons mean?**
 
