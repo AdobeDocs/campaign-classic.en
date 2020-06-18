@@ -108,8 +108,6 @@ The steps to perform this use case are as follows:
 
 1. Generate a GPG key pair (public/private) using a PGP utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
-    ![](assets/gpg_install.png)
-
 1. In Campaign Classic, build a workflow to export the data and export it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
 
     ![](assets/gpg-workflow-encrypt.png)
@@ -119,9 +117,9 @@ The steps to perform this use case are as follows:
     * **[!UICONTROL JavaScript code]** activity: Encrypts the data to extract.
     * **[!UICONTROL File transfer]** activity: Sends the data to a SFTP server.
 
-1. Configure the **[!UICONTROL Query]** activity to target the desired data from the database. For more on this, refer to [this section](../../automating/using/query.md).
+1. Configure the **[!UICONTROL Query]** activity to target the desired data from the database. For more on this, refer to [this section](../../workflow/using/query.md).
 
-1. Open the **[!UICONTROL Data extraction (file)]** activity then configure it according to your needs. Global concepts on how to configure the activity are available in [this section](../../automating/using/extraction--file-.md).
+1. Open the **[!UICONTROL Data extraction (file)]** activity then configure it according to your needs. Global concepts on how to configure the activity are available in [this section](../../workflow/using/extraction--file-.md).
 
     ![](assets/gpg-data-extraction.png)
 
@@ -143,7 +141,7 @@ The steps to perform this use case are as follows:
   
       ![](assets/gpg-script.png)
 
-1. Open the **[!UICONTROL File transfer]** activity, then specify the SFTP server to which you want to send the file. Global concepts on how to configure the activity are available in [this section](../../automating/using/file-transfer.md).
+1. Open the **[!UICONTROL File transfer]** activity, then specify the SFTP server to which you want to send the file. Global concepts on how to configure the activity are available in [this section](../../workflow/using/file-transfer.md).
 
     ![](assets/gpg-file-transfer.png)
 
