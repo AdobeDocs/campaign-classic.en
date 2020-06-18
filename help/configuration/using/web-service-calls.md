@@ -286,7 +286,7 @@ From an SOAP call:
 
 >[!NOTE]
 >
->The URLs used in the following **HttpServletRequest** calls need to be whitelisted in the url permissions section of the **serverConf.xml** file. This is also true for the URL of the server itself.
+>The URLs used in the following **HttpServletRequest** calls need to be on allowed list in the url permissions section of the **serverConf.xml** file. This is also true for the URL of the server itself.
 
   Logon execution():
 

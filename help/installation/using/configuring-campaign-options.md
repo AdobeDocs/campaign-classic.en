@@ -88,7 +88,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> Regular expressions for normalizing delivery messages.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsBroadcast_RemoveBlackList</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsBroadcast_RemoveBlockList</span> <br /> </td> 
    <td> Entering "1" as the value lets you exclude recipients who no longer wish to be contacted.<br /> </td> 
   </tr> 
   <tr> 
@@ -168,7 +168,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> Formula used to calculate the weighting of a message for a provisional delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsInmail_WhitelistEmails</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsInmail_AllowlistEmails</span> <br /> </td> 
    <td> List of authorized forwarding email addresses (from the inbound mail processing module). The addresses have to be separated by commas (or * to allow all). E.g. xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
