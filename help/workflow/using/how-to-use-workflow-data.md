@@ -100,7 +100,7 @@ When importing a file, you can also unzip or decrypt it. See [Unzipping or decry
 
 For more on how to use and configure a **[!UICONTROL Data extraction (file)]** activity, refer to [this section](../../workflow/using/extraction--file-.md).
 
-## Use case: Encrypting and exporting data using a key installed on Control Panel {use-case-gpg-encrypt}
+## Use case: Encrypting and exporting data using a key installed on Control Panel {#use-case-gpg-encrypt}
 
 In this use case, we will build a workflow in order to encrypt and export data using a key installed on Control Panel.
 
