@@ -115,7 +115,7 @@ The steps to perform this use case are as follows:
     * **[!UICONTROL Query]** activity: In this example, we want to execute a query to target the data from the database that we want to export.
     * **[!UICONTROL Data extraction (file)]** activity: Extracts the data into a file.
     * **[!UICONTROL JavaScript code]** activity: Encrypts the data to extract.
-    * **[!UICONTROL File transfer]** activity: Sends the data to a SFTP server.
+    * **[!UICONTROL File transfer]** activity: Sends the data to an external source (in this example, an SFTP server).
 
 1. Configure the **[!UICONTROL Query]** activity to target the desired data from the database. For more on this, refer to [this section](../../workflow/using/query.md).
 
