@@ -64,7 +64,7 @@ These stats are displayed per processing thread.
 * trigger-discarded: number of messages that were discarded after too many retries due to processing errors. This indicator should be zero.
 * trigger-failures: number of processing errors in the JS. This indicator should be zero.
 * trigger-received: number of messages received from the queue. 
- 
+
 * Settings: they are set in the config files.
     * flush-pointer-msg-count: number of messages in a batch.
     * flush-pointer-period-ms: time between two batches, in milliseconds.
