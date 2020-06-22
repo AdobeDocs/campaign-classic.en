@@ -24,9 +24,12 @@ It can be accessed manually using a browser or automatically with a monitoring a
 
 It's in REST format, which is described below.
 
+![](assets/triggers_8.png)
+
 ## Indicators {#indicators}
 
 This section lists the indicators in the status web service.
+
 Recommended indicators to monitor are highlighted.
 
 * Consumer: name of the client pulling the triggers. Configured in the pipeline option.
@@ -74,3 +77,4 @@ These stats are displayed per processing thread.
 
 This report displays the number of messages per hour in the last five days.
 
+    ![](assets/triggers_9.png)

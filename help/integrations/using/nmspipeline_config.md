@@ -70,12 +70,12 @@ Example:
 The key is a pair of files. It's in the RSA format and 4096 bytes long. It can be generated with an open source tool such as OpenSSL. Each time the tool is run, a new key is randomly generated.
 For the sake of convenience, the steps are listed below:
 
-*	```openssl genrsa -out <private_key.pem> 4096```
+* ```openssl genrsa -out <private_key.pem> 4096```
 
-*	```openssl rsa -pubout -in <private_key.pem> -out <public_key.pem>```
+* *```openssl rsa -pubout -in <private_key.pem> -out <public_key.pem>```
 
 Example private_key.pem file:
- 
+
 ```
 
 ----BEGIN RSA PRIVATE KEY----
@@ -86,7 +86,7 @@ MIIEowIBAAKCAQEAtqcYzt5WGGABxUJSfe1Xy8sAALrfVuDYURpdgbBEmS3bQMDb
 
 ```
 
- Example public_key.pem file:
+Example public_key.pem file:
 
 ```
 ----BEGIN PUBLIC KEY----
@@ -106,12 +106,17 @@ An Application of type JWT needs to be created by logging into the Adobe Analyti
 
 Follow these steps:
 
-1.	Select the Service Account (JWT Assertion).
-1.	Enter the Application name.
-1.	Register the public key.
-1.	Select the trigger's scope.
+1. Select the Service Account (JWT Assertion).
+1. Enter the Application name.
+1. Register the public key.
+1. Select the trigger's scope.
+
+    ![](assets/triggers_5.png)
+
 1. Click on Create and check the Application ID and Application Secret created.
- 
+
+    ![](assets/triggers_6.png)
+
 ### Application name registration in Adobe Campaign Classic {#application-name-registration}
 
 The Application ID of the oAuth client created must be configured in Adobe Campaign. You can do it by editing the instance config file in the pipelined element, specifically the appName attribute.
@@ -133,21 +138,32 @@ The encrypted private key must be registered in Adobe Campaign. You can do it by
 
 Example:
 
+```
 <pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
+```
 
 ### Pipelined process auto-start {#pipelined-auto-start}
 
 The pipelined process must be started automatically.
 To do it, set the element in the configuration file to autostart="true":
 
+```
 <pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
+```
 
 ### Pipelined process restart {#pipelined-restart}
 
 It can also be started manually using the command line:
+
+```
 nlserver start pipelined@instance
+```
+
 A restart is required for the changes to take effect:
+
+```
 nlserver restart pipelined@instance
+```
 
 In case of errors, look for errors on the standard output (if you started manually) or in the pipelined log file. Refer to the Troubleshooting section of this document for more information on resolving issues.
 
