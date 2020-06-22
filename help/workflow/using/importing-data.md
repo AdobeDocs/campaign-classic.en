@@ -93,7 +93,7 @@ The steps to perform this use case are as follows:
 
      ![](assets/gpg_workflow.png)
 
-    * **[!UICONTROL File transfer]** activity: Transfers the file from the SFTP server to Campaign Classic.
+    * **[!UICONTROL File transfer]** activity: Transfers the file from an external source to Campaign Classic. In this example, we want transfer the file from an SFTP server.
     * **[!UICONTROL Data loading (file)]** activity: Loads the data from the file into the database and decrypt it using the private key generated in the Control Panel.
 
 1. Open the **[!UICONTROL File transfer]** activity then specify the external account from which you want to import the encrypted .gpg file.
