@@ -228,11 +228,11 @@ In theory, it's possible to run the reconciliation query for each trigger in the
 
 It can be difficult to do it if no index is set on shopper_id. If the criteria are on a separate database server than the marketing server, it uses a database link, which has poor performance.
 
-###  Purge workflow {#purge-workflow}
+### Purge workflow {#purge-workflow}
 
 Triggers are processed within the hour so there is no reason to keep them for a long time. The volume can be about 1 million triggers per hour. It explains why a purge workflow must be put in place. The purge deletes all triggers that are older than three days and runs once per day.
 
-### Campaign workflow {campaign-workflow}
+### Campaign workflow {#campaign-workflow}
 
 The trigger campaign workflow is often similar to other recurring campaigns that have been used.
 For example, it can start with a query on the triggers looking for specific events during the last day. That target is used to send the email. Enrichments or data can come from the trigger. It can be safely used by Marketing as it requires no configuration.
