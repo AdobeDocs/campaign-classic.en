@@ -184,4 +184,4 @@ In case of errors, look for errors on the standard output (if you started manual
 | processingJSThreads | Number of dedicated threads processing messages with custom JS connectors. Default is 4 |
 | processingThreads| Number of dedicated threads processing messages with built-in code. Default is 4 |
 | retryPeriodSec | Delay between retries (if there are processing errors). Default is 30 (secs) |
-| retryValiditySec| Discard the message if it is not successfully processed after this period (too many retries). Default is 300 (secs)
+| retryValiditySec| Discard the message if it is not successfully processed after this period (too many retries). Default is 300 (secs) |
