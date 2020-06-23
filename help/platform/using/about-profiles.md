@@ -88,12 +88,12 @@ Active profiles are the profiles that are counted for billing purposes.
 
 Billing only concerns profiles that are **active**. A profile is considered active if the profile has been targeted or communicated with in the past 12 months via any channel.
 
+The profiles that were excluded during delivery preparation (typology rules, quarantines) are not taken into account. A profile that has been targeted by several deliveries will only be counted once.
+
 >[!NOTE]
 >
 >Facebook and Twitter channels are not taken into account.
 
-You can have an overview of the **[!UICONTROL Number of active profiles]** from the **[!UICONTROL Administration > Campaign Management > Customer metrics]** menu.
+You can have an overview of the **[!UICONTROL Number of active profiles]** from Campaign Standard **[!UICONTROL Administration > Campaign Management > Customer metrics]** menu. The actual count is performed by the **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [technical workflow](../../workflow/using/deliveries.md), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. Each period lasts for 12 months.
 
-The actual count is performed by the **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [technical workflow](../../workflow/using/delivery.md), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. Each period lasts for 12 months.
-
-The profiles that were excluded during delivery preparation (typology rules, quarantines) are not taken into account. A profile that has been targeted by several deliveries will only be counted once.
+If you are hosted on AWS and using Campaign Classic from build 8931, you can also monitor the number of active profiles used on your instances directly from the Control Panel. For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).

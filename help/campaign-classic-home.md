@@ -12,6 +12,8 @@ topic: Premium
 
 ## What's New
 
+* Both ‘whitelist’ and ‘blacklist’ terms have been removed from Adobe Campaign documentation. [Read more](/help/rn/using/documentation-updates.md)
+
 * **[Get Support](https://helpx.adobe.com/campaign/kb/ac-support.html)**<br/>
 Access FAQs, best practices, help resources, and request for help
 
