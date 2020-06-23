@@ -18,14 +18,14 @@ snippet: y
 
 # About Adobe Experience Cloud Triggers{#about-adobe-experience-triggers}
 
-Triggers is an integration between Adobe Campaign and Adobe Analytics using the pipeline. The pipeline retrieves users' actions or triggers from your website. A cart abandonment is an example of trigger. Triggers are processed in Adobe Campaign to send emails in near real time.
+[!DNL Triggers] is an integration between Adobe Campaign and Adobe Analytics using the pipeline. The pipeline retrieves users' actions or triggers from your website. A cart abandonment is an example of trigger. Triggers are processed in Adobe Campaign to send emails in near real time.
 
-Triggers run marketing actions within a short range of time following a user’s action. The typical response time is less than one hour.
+[!DNL Triggers] run marketing actions within a short range of time following a user’s action. The typical response time is less than one hour.
 
 It allows for more agile integrations since the configuration is minimal and a third party is not involved.
 It also supports high volumes of traffic without impacting the performance of marketing activities. As an example, the integration can process a million triggers per hour.
 
-## Triggers architecture {#triggers-architecture}
+## [!DNL Triggers] architecture {#triggers-architecture}
 
 ### What is Pipeline? {#pipeline-explanation}
 
@@ -39,17 +39,17 @@ Pipeline is a messaging system hosted in the Experience Cloud that uses [Apache 
 
 ### How does Pipeline work? {#how-pipeline-work}
 
-The "pipelined" process is always running on the Adobe Campaign marketing server. It connects to the pipeline, retrieves the events, and processes them immediately. 
+The "pipelined" process is always running on the Adobe Campaign marketing server. It connects to the pipeline, retrieves the events, and processes them immediately.
 
 ![](assets/triggers_2.png)
 
-The pipelined process logs in to the Experience Cloud using an authentication service and sends a private key. The authentication service returns a token. The token is used to authenticate when retrieving the events. Triggers are retrieved from a REST web service using a simple GET request. The response is JSON format. Parameters to the request include the name of the trigger and a pointer that indicates the last message retrieved. The pipelined process handles it automatically.
+The pipelined process logs in to the Experience Cloud using an authentication service and sends a private key. The authentication service returns a token. The token is used to authenticate when retrieving the events. [!DNL Triggers] are retrieved from a REST web service using a simple GET request. The response is JSON format. Parameters to the request include the name of the trigger and a pointer that indicates the last message retrieved. The pipelined process handles it automatically.
 
-## How to use Adobe Experience Cloud Triggers integration with Adobe Campaign Classic?
+## Using Adobe Experience Cloud Triggers integration with Adobe Campaign Classic
 
-Here are a few Triggers best practices:
+Here are a few [!DNL Triggers] best practices:
 
-* The trigger data needs to be stored as it comes in Campaign. It should not be processed directly as it would create latency.
+* The [!DNL Trigger] data needs to be stored as it comes in Campaign. It should not be processed directly as it would create latency.
 * Timestamp should be checked from the message and not from the data base.
 * Use TriggerTimestamp and trigger ID to remove duplicates.
 
@@ -63,6 +63,6 @@ The pipeline events are downloaded automatically. These events can be monitored 
 
 The Pipeline Event node is not built-in and needs to be added, as well as the related form needs to be created in Campaign. These operations are restricted to expert users only. For more on this, refer to these sections: [Navigation hierarchy](../../configuration/using/about-navigation-hierarchy.md) and [Editing forms](../../configuration/using/editing-forms.md).
 
-A recurrent campaign workflow does a query on triggers and if they match the marketing criteria, it starts a delivery.
+A recurrent campaign workflow queries on triggers and if they match the marketing criteria, it starts a delivery.
 
 ![](assets/triggers_4.png)

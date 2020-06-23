@@ -20,14 +20,14 @@ snippet: y
 
 Once the authentication works, pipelined can retrieve the events and process them. It only processes triggers that are configured in Adobe Campaign, ignoring the others. The trigger must have been generated from Analytics and pushed to the pipeline beforehand.
 The option can also be configured with a wildcard to catch all triggers regardless of name.
-The configuration of the triggers is done in an option, under Administration > Platform > Options. The option name is NmsPipeline_Config. Data type is "long text". It's in JSON format.
+
+The configuration of the triggers is done in an option, under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. The option name is **[!UICONTROL NmsPipeline_Config]**. Data type is "long text" in JSON format.
 
 This example specifies two triggers.
 
 Paste the JSON code from this template into the option value. Make sure to remove comments.
 
 ```
-
 {
     "topics": [ // list of "topics" that the pipelined is listening to.
         {
@@ -45,13 +45,11 @@ Paste the JSON code from this template into the option value. Make sure to remov
         }
     ]
 }
-
 ```
 
 This second example catches all triggers.
 
 ```
-
 {
  "topics": [
     {
@@ -66,14 +64,13 @@ This second example catches all triggers.
     }
  ]
  }
-
 ```
 
 >[!NOTE]
 >
->The trigger UID value to a specific trigger name in the Analytics interface can found as part of the URL querystring parameters in the Triggers interface. The triggerType UID is passed in the pipeline data stream and code can be written into the pipeline.JS to map the trigger UID to a user-friendly label that can be stored in a Trigger Name column in the pipelineEvents schema.
+>The [!DNL Trigger] UID value to a specific trigger name in the Analytics interface can found as part of the URL querystring parameters in the Triggers interface. The triggerType UID is passed in the pipeline data stream and code can be written into the pipeline.JS to map the trigger UID to a user-friendly label that can be stored in a Trigger Name column in the pipelineEvents schema.
 
-## The Consumer parameter {#consumer-parameter}
+## The consumer parameter {#consumer-parameter}
 
 The pipeline works with a “supplier and consumer” model. There can be many consumers on the same queue. Messages are “consumed” only for an individual consumer. Each consumer gets its own “copy” of the messages.
 

@@ -48,7 +48,7 @@ Recommended indicators to monitor are highlighted.
     * average-pointer-flush-time-ms: average processing time for one batch of triggers.
     * average-trigger-processing-time-ms: average time spent parsing the triggers data.
     * bytes-read: number of bytes read from the queue since the process was started.
-    * current-messages: current number of pending messages that have been pulled from the queue and are awaiting processing. This indicator should be close to zero.
+    * current-messages: current number of pending messages that have been pulled from the queue and are awaiting processing. **This indicator should be close to zero**.
     * current-retries: current number of messages that have failed processing and are awaiting retry.
     * peak-messages: maximum number of pending messages the process has been handling since it was started.
     * pointer-flushes: number of batches of messages processed since the start.
@@ -61,8 +61,8 @@ These stats are displayed per processing thread.
 
 * average-trigger-processing-time-ms: average time spent parsing the triggers data.
 * is-JS-processor: value "1" if this thread uses the custom JS.
-* trigger-discarded: number of messages that were discarded after too many retries due to processing errors. This indicator should be zero.
-* trigger-failures: number of processing errors in the JS. This indicator should be zero.
+* trigger-discarded: number of messages that were discarded after too many retries due to processing errors. **This indicator should be zero**.
+* trigger-failures: number of processing errors in the JS. **This indicator should be zero**.
 * trigger-received: number of messages received from the queue. 
 
 * Settings: they are set in the config files.
@@ -77,4 +77,4 @@ These stats are displayed per processing thread.
 
 This report displays the number of messages per hour in the last five days.
 
-    ![](assets/triggers_9.png)
+![](assets/triggers_9.png)

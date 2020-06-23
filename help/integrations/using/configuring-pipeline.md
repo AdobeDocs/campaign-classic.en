@@ -25,7 +25,7 @@ The triggers are used for targeting by a campaign workflow that sends emails. Th
 
 ## Prerequisites {#prerequisites}
 
-Using Experience Cloud Triggers in Campaign requires:
+Using [!DNL Experience Cloud Triggers] in Campaign requires:
 
 * Adobe Campaign version 6.11 build 8705 or later.
 * Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select, or Standard.
@@ -34,20 +34,25 @@ Prerequisite configurations are:
 
 * Creation of a private key file and then the creation of the oAuth application registered with that key.
 * Configuration of the triggers in Adobe Analytics.
-The Adobe Analytics configuration is out of the scope of this document. 
+
+The Adobe Analytics configuration is out of the scope of this document.
+
 Adobe Campaign requires the following information from Adobe Analytics:
+
 * The name of the oAuth application.
-* The IMSOrgId. It is the identifier of the Experience Cloud customer.
+* The IMSOrgId, the identifier of the Experience Cloud customer.
 * The names of the triggers configured in Analytics.
 * The name and format of the data fields to reconcile with the Marketing database.
-Note:
+
 Part of this configuration is a custom development and requires the following:
+
 * Working knowledge of JSON, XML, and Javascript parsing in Adobe Campaign.
 * Working knowledge of the QueryDef and Writer APIs.
 * Working notions of encryption and authentication using private keys.
 
-Since editing the JS code requires technical skills, do not attempt it without the proper understanding.
-Triggers are saved to a database table. Thus, trigger data can be safely used by marketing operators in targeting workflows.
+>[!NOTE]
+>
+>Since editing the JS code requires technical skills, do not attempt it without the proper understanding. <br>Triggers are saved to a database table. Thus, trigger data can be safely used by marketing operators in targeting workflows.
 
 ## Authentication and configuration files {#authentication-configuration}
 
@@ -72,7 +77,7 @@ For the sake of convenience, the steps are listed below:
 
 * ```openssl genrsa -out <private_key.pem> 4096```
 
-* *```openssl rsa -pubout -in <private_key.pem> -out <public_key.pem>```
+* ```openssl rsa -pubout -in <private_key.pem> -out <public_key.pem>```
 
 Example private_key.pem file:
 
@@ -102,18 +107,18 @@ EwIDAQAB
 
 ### oAuth client creation in Adobe Experience Cloud {#oauth-client-creation}
 
-An Application of type JWT needs to be created by logging into the Adobe Analytics in the correct organization account (Admin > User Management > Legacy Oath application). 
+An Application of type JWT needs to be created by logging into the Adobe Analytics in the correct organization account under **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Legacy Oath application]**.
 
 Follow these steps:
 
-1. Select the Service Account (JWT Assertion).
-1. Enter the Application name.
-1. Register the public key.
-1. Select the trigger's scope.
+1. Select the **[!UICONTROL Service Account (JWT Assertion)]**.
+1. Enter the **[!UICONTROL Application Name]**.
+1. Register the **[!UICONTROL Public key]**.
+1. Select the trigger's **[!UICONTROL Scopes]**.
 
     ![](assets/triggers_5.png)
 
-1. Click on Create and check the Application ID and Application Secret created.
+1. Click on **[!UICONTROL Create]** and check the **[!UICONTROL Application ID]** and **[!UICONTROL Application Secret]** created.
 
     ![](assets/triggers_6.png)
 
@@ -129,10 +134,9 @@ Example:
 
 ### Key encryption {#key-encription}
 
-To be used by pipelined, the private key must be encrypted.
-Encryption is done using the cryptString Javascript function.
-It must be performed on the same instance as pipelined. 
-A sample of private Key encryption with JavaScript is available in the Annexes.
+To be used by pipelined, the private key must be encrypted. Encryption is done using the cryptString Javascript function and must be performed on the same instance as pipelined.
+
+A sample of private Key encryption with JavaScript is available in this [page](../../integrations/using/pipeline-troubleshooting.md).
 
 The encrypted private key must be registered in Adobe Campaign. You can do it by editing the instance config file in the pipelined element, specifically the authPrivateKey attribute.
 
