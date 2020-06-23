@@ -172,7 +172,7 @@ In case of errors, look for errors on the standard output (if you started manual
 | Option | Description |
 |:-:|:-:|
 | appName| ID of the OAuth application (Application ID) registered in Adobe Analytics (where the public key was uploaded): Admin > User Management > Legacy Oath application. Refer to this [section](../../integrations/using/configuring-pipeline.md#oauth-client-creation). |
-| authGatewayEndpoint| URL to get "gateway tokens". <br> Default: ```https://api.omniture.com ```|
+| authGatewayEndpoint| URL to get "gateway tokens". <br> Default: https://api.omniture.com|
 | authPrivateKey | Private key (public part uploaded in Adobe Analytics (refer to this section). AES encrypted with the XtkSecretKey option: xtk.session.EncryptPassword("PRIVATE_KEY");|
 | disableAuth| Disable authentication (connecting without gateway tokens is only accepted by some development Pipeline endpoints)|
 | discoverPipelineEndpoint | URL to discover the Pipeline Services endpoint to be used for this tenant. Default: https://producer-pipeline-pnw.adobe.net|
