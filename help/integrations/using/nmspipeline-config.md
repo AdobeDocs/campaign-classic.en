@@ -31,7 +31,7 @@ Paste the JSON code from this template into the option value. Make sure to remov
 {
     "topics": [ // list of "topics" that the pipelined is listening to.
         {
-            "name": "triggers", // Name of the first topic : triggers.
+            "name": "triggers", // Name of the first topic: triggers.
             "consumer": "customer_dev", // Name of the instance that listens. 
             "triggers": [ // Array of triggers. 
                 {
