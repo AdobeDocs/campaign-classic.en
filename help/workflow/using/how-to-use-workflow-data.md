@@ -78,27 +78,21 @@ Adobe Campaign lets you export zipped or encrypted files. When defining an expor
 
 To be able to do so:
 
-* If your installation of Adobe Campaign is hosted by Adobe: send a request to [Support](https://support.neolane.net) to have the necessary utilities installed on the server.
-* If your installation of Adobe Campaign is on premise: install the utility you want to use (for example: GPG, GZIP) as well as the necessary keys (encryption key) on the application server.
+1. Install a GPG key pair for your instance using the [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
-You can then use commands or code in the **[!UICONTROL Script]** tab of the activity, such as:
+    >[!NOTE]
+    >
+    >Control Panel is available to all customers hosted on AWS (excepted for customers who host their marketing instances on premise).
 
-```
-function encryptFile(file) {  
-  var systemCommand = “gpg --encrypt --recipient  recipientToEncryptTo ” + file;  
-  var result = execCommand(systemCommand, true); 
-}
-```
+1. If your installation of Adobe Campaign is hosted by Adobe, contact Adobe Customer Care to have the necessary utilities installed on the server.
+1. If your installation of Adobe Campaign is on premise, install the utility you want to use (for example: GPG, GZIP) as well as the necessary keys (encryption key) on the application server.
 
->[!NOTE]
->
->Note that GPG keys can be added to your instance using the Control Panel, which is available to all customers hosted on AWS (excepted for customers who host their marketing instances on premise).
->
->For more on this, refer to [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html).
+You can then use commands or code in the **[!UICONTROL Script]** tab of the activity or in a **[!UICONTROL JavaScript code]** activity. An example is presented in the use case below.
 
-When importing a file, you can also unzip or decrypt it. See [Unzipping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
+**Related topics:**
 
-For more on how to use and configure a **[!UICONTROL Data extraction (file)]** activity, refer to [this section](../../workflow/using/extraction--file-.md).
+* [Unzipping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing)
+* [Data extraction (file) activity](../../workflow/using/extraction--file-.md).
 
 ### Use case: Encrypting and exporting data using a key installed on Control Panel {#use-case-gpg-encrypt}
 
@@ -106,7 +100,7 @@ In this use case, we will build a workflow in order to encrypt and export data u
 
 The steps to perform this use case are as follows:
 
-1. Generate a GPG key pair (public/private) using a PGP utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Generate a GPG key pair (public/private) using a GPG utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
 1. In Campaign Classic, build a workflow to export the data and export it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
 
@@ -127,13 +121,13 @@ The steps to perform this use case are as follows:
 
     >[!IMPORTANT]
     >
-    >Make sure you replace the **fingerprint** value from the command with the fingerpint of the public key installed on the Control Panel.
+    >Make sure you replace the **fingerprint** value from the command with the fingerprint of the public key installed on the Control Panel.
 
     ```
     var cmd='gpg ';
     cmd += ' --trust-model always';
     cmd += ' --batch -yes';
-    cmd += ' --recipient fingerpint';
+    cmd += ' --recipient fingerprint';
     cmd += ' --encrypt --output ' + vars.filename + '.gpg ' + vars.filename;
     execCommand(cmd,true);
     vars.filename=vars.filename + '.gpg'

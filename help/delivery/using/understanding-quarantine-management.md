@@ -86,7 +86,7 @@ The following reports provide information about the addresses in quarantine:
 
 * The **[!UICONTROL Non-deliverables and bounces]** report displays information about the addresses in quarantine, the types of error encountered, etc., and a failure breakdown by domain.
 
-You can look up this information for all deliveries of the platform (**Home page>Reports**) or for a specific delivery. You can also create customized reports and select the information to be displayed.
+You can look up this information for all deliveries of the platform (**[!UICONTROL Home page > Reports]**) or for a specific delivery. You can also create customized reports and select the information to be displayed.
 
 ### Identifying quarantined addresses for a recipient {#identifying-quarantined-addresses-for-a-recipient}
 
@@ -96,17 +96,31 @@ You can look up the status of the email address of any recipient. To do this, se
 
 ### Removing a quarantined address {#removing-a-quarantined-address}
 
-If you need to remove an address from quarantine, change its status manually to **[!UICONTROL Valid]**. 
+If needed, you can manually remove an address from the quarantine list. In addition to this, addresses that match specific conditions are automatically deleted from the quarantine list by the **[!UICONTROL Database cleanup]** workflow.
 
-![](assets/tech_quarant_error_status.png)
+To manually remove an address from the quarantine list:
 
-If you change the status to **[!UICONTROL On allow list]**, the address will be targeted systematically each time even if an error is encountered.
+* You can change its status to **[!UICONTROL Valid]** from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node.
 
->[!CAUTION]
+  ![](assets/tech_quarant_error_status.png)
+
+* You can also change its status to **[!UICONTROL On allow list]**. In this case, the address remains on the quarantine list, but it will be systematically targeted, even if an error is encountered.
+
+<!--Addresses on the block list are not concerned by the quarantine system and are not targeted, even if you change the status of the address.-->
+
+The addresses are automatically removed from the quarantine list in the following cases:
+
+* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list after a successful delivery.
+* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list if the last soft bounce occurred more than 10 days ago. For more on soft error management, see [this section](#soft-error-management).
+* Addresses in a **[!UICONTROL With errors]** status that bounced with the **[!UICONTROL Mailbox full]** error will be removed from the quarantine list after 30 days.
+
+Their status then changes to **[!UICONTROL Valid]**.
+
+>[!IMPORTANT]
 >
->Addresses on the block list are not concerned by the quarantine system and are not targeted, even if you change the status of the address.
+>Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL On block list]** status will never be removed, even if they receive an email.
 
-You can also change the number of errors and the period between errors. To do this, change the settings of the deployment wizard (Email channel/Advanced settings). For more on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md).
+You can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the deployment wizard (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). For more on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md).
 
 ## Conditions for sending an address to quarantine {#conditions-for-sending-an-address-to-quarantine}
 
@@ -116,7 +130,7 @@ Adobe Campaign manages quarantine according to the delivery failure type and the
 * **Hard error**: the corresponding email address is immediately sent to quarantine.
 * **Soft error**: soft errors do not send immediately an address to quarantine, but they increment an error counter. For more on this, see [Soft error management](#soft-error-management).
 
-If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine.
+If a user qualifies an email as a spam ([Feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop)), the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine.
 
 In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. Quarantine in Adobe Campaign is case sensitive. Make sure to import email addresses in lower case, so that they are not retargeted later on.
 
