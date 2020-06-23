@@ -20,7 +20,13 @@ snippet: y
 
 ## About email attachments {#about-email-attachments}
 
-You can attach one or more files to an email delivery. There are two possible cases:
+You can attach one or more files to an email delivery.
+
+>[!NOTE]
+>
+>To avoid performance issue, it is recommended not to include more than one attachment per email. The recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
+
+There are two possible cases:
 
 * Select a file and attach it to the delivery as it is.
 * Personalize the content of the attachment for each recipient. In this case, you need to create a **calculated attachment**: the name of the attachment is computed at the time of delivery for each message depending on the recipient. The content can also be personalized and converted into PDF format at the time of delivery, if you have the **Variable Digital Printing** option.
@@ -85,7 +91,7 @@ If the attachment is a local file, select the option: **[!UICONTROL File name is
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
-   The file is then available on the server to be attached to the different deliveries created from this template.
+The file is then available on the server to be attached to the different deliveries created from this template.
 
 ### Attaching a personalized message {#attach-a-personalized-message}
 
@@ -113,6 +119,10 @@ For this type of attachment, apply the following configuration steps:
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
+>[!NOTE]
+>
+>To avoid performance issue, if you include images downloaded on the fly from a personalized URL as attachment, each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
+
 ### Attaching a calculated file {#attach-a-calculated-file}
 
 You can calculate the attachment name during the delivery preparation. To do this, select the option **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]**.
@@ -124,7 +134,7 @@ You can calculate the attachment name during the delivery preparation. To do thi
 1. Specify the label you wish to apply to the attachment. 
 1. Specify the access path of the file and its exact name in the definition window.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The file must be present on the server.
 
@@ -149,7 +159,7 @@ When selecting the attachment, you can choose the option **[!UICONTROL The file 
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The file must be present on the server.
 

@@ -183,7 +183,7 @@ The section below provides best practices to optimize the queries running on Ado
 
   Ensure that the `where` clause is the same type as the field.
 
-  A common mistake is: `iBlacklist='3'` where `iBlacklist` is a numeric field, and `3` signifies a text value.
+  A common mistake is: `iBlocklist='3'` where `iBlocklist` is a numeric field, and `3` signifies a text value.
   
   Make sure you know what the execution plan of your query will be. Avoid full table scans, especially for real-time queries or near real-time queries running every minute.
 

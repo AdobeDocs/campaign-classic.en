@@ -68,6 +68,4 @@ Identifies the population to be saved in the group.
 
 ## Output parameters {#output-parameters}
 
-* groupId
-
-Group identifier.
+* groupId: Group identifier.

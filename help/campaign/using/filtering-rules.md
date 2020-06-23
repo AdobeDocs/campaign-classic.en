@@ -80,15 +80,16 @@ You can also link filtering rules directly via this tab, without them being grou
 
 >[!NOTE]
 >
->* Only typologies and filtering rules are available in the selection window.
->* These configurations can be defined in the delivery template to be applied automatically to all new deliveries created using the template.
+>Only typologies and filtering rules are available in the selection window.
+>
+>These configurations can be defined in the delivery template to be applied automatically to all new deliveries created using the template.
 >
 
 ## Default deliverability exclusion rules {#default-deliverability-exclusion-rules}
 
 Two filtering rules are available by default: **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** ) and **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** ). During the email analysis, these rules compare the recipient email addresses with the forbidden addresses or domain names contained in an encrypted global suppression list managed in the deliverability instance. If there is a match, the message is not sent to that recipient.
 
-This is to avoid being blacklisted due to malicious activity, especially the use of a Spamtrap. For example, if a Spamtrap is used to subscribe via one of your web forms, a confirmation email is automatically sent to that Spamtrap, and this results in your address being automatically blacklisted.
+This is to avoid being added to the block list due to malicious activity, especially the use of a Spamtrap. For example, if a Spamtrap is used to subscribe via one of your web forms, a confirmation email is automatically sent to that Spamtrap, and this results in your address being automatically added to the block list.
 
 >[!NOTE]
 >

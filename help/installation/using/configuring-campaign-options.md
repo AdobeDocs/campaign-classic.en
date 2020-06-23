@@ -88,7 +88,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> Regular expressions for normalizing delivery messages.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsBroadcast_RemoveBlackList</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsBroadcast_RemoveBlockList</span> <br /> </td> 
    <td> Entering "1" as the value lets you exclude recipients who no longer wish to be contacted.<br /> </td> 
   </tr> 
   <tr> 
@@ -102,6 +102,18 @@ Some of them are built-in when installing Campaign, and others can be added manu
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_FromAddressMasks</span> <br /> </td> 
    <td> Lets you define the syntax of the From address used when sending a message.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsDelivery_ImageServerTimeout</span> <br /> </td> 
+   <td> Lets you define a timeout limit (in seconds) for getting a response from the server when retrieving an image downloaded from a personalized URL and attached to an email. If this value is exceeded, the message cannot be sent. The default value is 60 seconds.<br /> </td> 
+  </tr> 
+ <tr> 
+   <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
+   <td> Lets you define the maximum size (in bytes) allowed for an image downloaded from a personalized URL and attached to an email. The default value is 100,000 bytes. When sending a proof and downloading the image(s) to process the email, if the size of an image exceeds this value or if there is a downloading issue, an error will be displayed in the Delivery logs and the proof delivery will fail.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsDelivery_MaxRecommendedAttachments</span> <br /> </td> 
+   <td> Lets you set a maximum number of attachments in an email or transactional email template. If this value is exceeded, a warning will be displayed in the delivery analysis logs or when publishing the transactional email template. The default value is 1 attachment.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRetry</span> <br /> </td> 
@@ -156,7 +168,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> Formula used to calculate the weighting of a message for a provisional delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsInmail_WhitelistEmails</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsInmail_AllowlistEmails</span> <br /> </td> 
    <td> List of authorized forwarding email addresses (from the inbound mail processing module). The addresses have to be separated by commas (or * to allow all). E.g. xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 

@@ -24,45 +24,59 @@ To do this:
 
 1. **Analyze the delivery**: this step lets you prepare the messages to deliver. Refer to [Analyzing the delivery](#analyzing-the-delivery).
 
-   Available validation modes are detailed in [Changing the approval mode](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
+   The rules applied during analysis are presented in the [Validation process with typologies](#validation-process-with-typologies) section. The available validation modes are detailed in the [Changing the approval mode](#changing-the-approval-mode) section.
 
 1. **Send proofs**: this step lets you approve content, URLs, personalization fields, etc. Refer to [Sending a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) and [Defining a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Both these steps must necessarily be carried out after each modification on the message content.
 
 ## Analyzing the delivery {#analyzing-the-delivery}
 
-The analysis is the stage during which the target population is calculated and the delivery content prepared. Once it is complete, the delivery is ready to be sent. To launch the delivery analysis, click **[!UICONTROL Send]**, then select **[!UICONTROL Deliver as soon as possible]**.
+The analysis is the stage during which the target population is calculated and the delivery content prepared. Once it is complete, the delivery is ready to be sent.
 
-![](assets/s_ncs_user_email_del_send.png)
+### Launching the analysis {#launching-the-analysis}
 
-The **[!UICONTROL Analyze]** button lets you launch the analysis manually. The progress bar shows the progress of the analysis. The lower section of the window displays the analysis result. Special icons display warnings.
+1. To launch the delivery analysis, click **[!UICONTROL Send]**.
+1. Select **[!UICONTROL Deliver as soon as possible]**.
 
-![](assets/s_ncs_user_interface_delivery04b.png)
+   ![](assets/s_ncs_user_email_del_send.png)
 
->[!NOTE]
->
->The validation rules are described in [Validation process with typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+1. Click **[!UICONTROL Analyze]** to launch the analysis manually.
 
-You can stop this job at any time by clicking **[!UICONTROL Stop]**.
+   The progress bar shows the progress of the analysis.
 
-![](assets/s_ncs_user_wizard_email01_16.png)
+   ![](assets/s_ncs_user_email_del_analyze_progress.png)
 
-No messages are sent during the analysis phase. You can therefore start or cancel this job without risk.
+   >[!NOTE]
+   >
+   >The validation rules used during analysis are described in the [Validation process with typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies) section.
 
->[!CAUTION]
->
->The analysis freezes the delivery (or the proof) at the moment of analysis. Any modification to the delivery (or the proof) must be followed by another analysis before becoming applicable.
+1. You can stop the analysis at any time by clicking **[!UICONTROL Stop]**.
 
-The last log message displays any error messages and the number of errors. A special icon shows the error type: the yellow icon indicates a non-critical processing error, the red icon indicates a critical error that prevents the start of the delivery.
+   ![](assets/s_ncs_user_wizard_email01_16.png)
 
-![](assets/s_ncs_user_email_del_analyze_error.png)
+   No messages are sent during the preparation phase. You can therefore start or cancel the analysis without risk.
 
-Click **[!UICONTROL Close]** to correct the errors. After making the changes, you must restart the analysis.
+   >[!IMPORTANT]
+   >
+   >When running, the analysis freezes the delivery (or proof). Any change to the delivery (or proof) must be followed by another analysis before becoming applicable.
 
-Check the result of the analysis before clicking **[!UICONTROL Confirm delivery]** to send the message to the specified target. A confirmation message lets you launch the delivery.
+1. Wait until the analysis is complete.
+
+   When the analysis finishes, the upper section of the window indicates if the delivery preparation is complete or if any errors occurred. All the validation steps, warnings and errors are listed. Colored icons show the message type:
+   * The blue icon indicates an informative message.
+   * The yellow icon indicates a non-critical processing error.
+   * The red icon indicates a critical error that prevents sending the delivery.
+
+   ![](assets/s_ncs_user_email_del_analyze_error.png)
+
+1. Click **[!UICONTROL Close]** to correct the errors if any.
+
+1. After making the changes, restart the analysis clicking **[!UICONTROL Analyze]**.
+
+After checking the result of the analysis, you will be able to click **[!UICONTROL Confirm delivery]** to send the message to the specified target. A confirmation message lets you launch the delivery.
 
 ![](assets/s_ncs_user_email_del_analyze_ok.png)
 
@@ -70,22 +84,38 @@ Check the result of the analysis before clicking **[!UICONTROL Confirm delivery]
 >
 >Click the **[!UICONTROL Change the main delivery target]** link if the number of messages to send does not match your configuration. This lets you change the definition of the target population and re-start the analysis.
 
-The delivery parameters **[!UICONTROL Analysis]** tab lets you define a set of information concerning the preparation of messages during the analysis phase.
+### Analysis parameters {#analysis-parameters}
+
+The **[!UICONTROL Analysis]** tab of the delivery properties lets you define a set of information concerning the preparation of messages during the analysis phase.
 
 ![](assets/s_ncs_user_email_del_analyze_adv_param.png)
 
 This tab gives access to the following options:
 
-* **[!UICONTROL Label and code of the delivery]** : the options concerning this section of the screen are used to calculate the values of these fields during the delivery analysis phase. The **[!UICONTROL Calculate the execution folder during the delivery analysis]** field computes the name of the folder that will contain this delivery action during the analysis phase.
-* **[!UICONTROL Approval mode]** : this field lets you select the type of delivery approval. The approval modes are presented in [Validation process with typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
-* **[!UICONTROL Prepare the personalization data with a workflow]** : this option allows to prepare the personalization data contained in your delivery in an automatic workflow. It allows to highly improve the delivery analysis performance when a lot of data are being processed, especially if the personalization data come from an external table through FDA. Refer to the [Accessing an external database (FDA)](../../platform/using/additional-options.md#optimizing-email-personalization-with-external-data) section.
-* **[!UICONTROL Start job in a detached process]** : This option lets you start the delivery analysis in a separate process. The analysis function uses the Adobe Campaign application server process (web nlserver) by default. By selecting this option, you ensure that the analysis will be completed even in the event of application server failure.
+* **[!UICONTROL Label and code of the delivery]** : the options in this section are used to calculate the values of these fields during the delivery analysis phase. The **[!UICONTROL Compute the execution folder during the delivery analysis]** field computes the name of the folder that will contain this delivery action during the analysis phase.
+* **[!UICONTROL Approval mode]** : this field lets you define manual or automatic delivery once analysis is complete. The validation modes are presented in the [Changing the approval mode](#changing-the-approval-mode) section.
+* **[!UICONTROL Prepare the delivery parts in the database]** : this option enables you to improve the delivery analysis performance. For more on this, see [this section](#improving-delivery-analysis).
+* **[!UICONTROL Prepare the personalization data with a workflow]** : this option
+allows to prepare the personalization data contained in your delivery in an automatic workflow, which can make you achieve a significant increase in performance for executing personalization. For more on this, see [Optimizing personalization](../../delivery/using/personalization-fields.md#optimizing-personalization).
+* **[!UICONTROL Start job in a detached process]** : this option lets you start the delivery analysis in a separate process. The analysis function uses the Adobe Campaign application server process (web nlserver) by default. By selecting this option, you ensure that the analysis will be completed even in the event of application server failure.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : this option adds the SQL query logs to the delivery journal during the analysis phase.
 * **[!UICONTROL Ignore personalization scripts during sending]** : this option lets you bypass the interpretation of JavaScript directives found in HTML content. They will be displayed as is in the delivered contents. These directives are introduced with the **<%=** tag).
 
+### Improving the delivery analysis performance {#improving-delivery-analysis}
+
+To speed up the delivery preparation, you can check the **[!UICONTROL Prepare the delivery parts in the database]** option before launching the analysis.
+
+When this option is enabled, the delivery preparation is performed directly within the database, which can significantly accelerate the analysis.
+
+Currently, this option is only available when the following conditions are met:
+* The delivery must be an email. The other channels are not supported for now.
+* You must not use mid-sourcing or external routing, only bulk delivery routing type. You can check the routing that is used in the **[!UICONTROL General]** tab of the **[!UICONTROL Delivery properties]**.
+* You cannot target a population coming from an external file. For a single delivery, click the **[!UICONTROL To]** link from the **[!UICONTROL Email parameters]** and check that the **[!UICONTROL Defined in the database]** option is selected. For a delivery used in a workflow, check that the recipients are **[!UICONTROL Specified by the inbound event(s)]** in the **[!UICONTROL Delivery]** tab.
+* You must be using a PostgreSQL database.
+
 ### Configuring the analysis priority {#analysis-priority-}
 
-When the delivery is part of a campaign, the **[!UICONTROL Advanced]** tab offers an additional option. This lets you organize the processing order for deliveries in the same campaign. 
+When the delivery is part of a campaign, the **[!UICONTROL Advanced]** tab offers an additional option. This lets you organize the processing order for deliveries in the same campaign.
 
 Before sending, each delivery is analyzed. The analysis duration depends on the delivery extraction file. The more significant the size of the file, the longer the analysis takes, making the following deliveries wait.
 
@@ -144,7 +174,7 @@ The **[!UICONTROL Advanced]** tab of delivery properties lets you define the pro
 The following options are available:
 
 * The first option lets you keep the proof doubles.
-* Both of the following options let you keep blacklisted recipients and addresses in quarantine. See the description of these options for the main target in [Customizing exclusion settings](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). Unlike the target of a delivery, where these addresses are excluded by default, they are kept by default for the target of a proof.
+* Both of the following options let you keep recipients that are on the block list and addresses in quarantine. See the description of these options for the main target in [Customizing exclusion settings](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). Unlike the target of a delivery, where these addresses are excluded by default, they are kept by default for the target of a proof.
 * The **[!UICONTROL Keep the delivery code for the proof]** option lets you give the proof the same delivery code as the one defined for the delivery to which it relates. This code is specified in the first step of the delivery wizard.
 * By default, the subject of the proof is prefixed by 'Proof #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.
 
@@ -165,6 +195,8 @@ The typology to be applied for each delivery is selected in the **[!UICONTROL Ty
 You can view and edit the approval rules, their content, their order of execution, and their full description via the **[!UICONTROL Administration > Campaign execution > Typology management > Typology rules]** node.
 
 You can create new rules and define new typologies from this node. These tasks are however reserved for expert users who know JavaScript.
+
+For more on typology rules, see [About campaign typologies](../../campaign/using/about-campaign-typologies.md).
 
 To edit the current typology, click the **[!UICONTROL Edit link]** icon to the right of the **[!UICONTROL Typology]** field.
 

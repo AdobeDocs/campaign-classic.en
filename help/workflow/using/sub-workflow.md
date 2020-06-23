@@ -22,20 +22,19 @@ The **[!UICONTROL Sub-workflow]** activity lets you trigger the execution of ano
 
 You can call multiple sub-workflows in a single workflow. Sub-workflows are executed synchronously.
 
->[!NOTE]
->
->For the sub-workflow to be run correctly, you must have only one "arrival" type jump with the lowest number, and only one "start" type jump with the highest number. For example, if you have "start" type jumps with a priority of 1, 2, and 3, you should have only one "start" type jump with a priority of 3.
+In the example below, a "master" workflow is calling a sub-workflow using jumps. For more on jump-type graphical objects, see [this section](../../workflow/using/jump--start-point-and-end-point-.md).
 
 1. Create a workflow that you will use as a sub-workflow in another workflow.
-1. Insert a **[!UICONTROL Jump (end point)]** activity with a priority of 1 at the beginning of the workflow. If you have multiple "arrival" type jumps, Adobe Campaign will use the "arrival" jump with the lowest number.
-
-   Insert a **[!UICONTROL Jump (start point)]** activity with a priority of 2 at the end of the workflow. If you have multiple "start" type jumps, Adobe Campaign will use the "starting" jump with the highest number.
+1. Insert a **[!UICONTROL Jump (end point)]** activity with a priority of 1 at the beginning of the workflow. If you have multiple "end point" type jumps, Adobe Campaign will use the "end point" jump with the lowest number.
+1. Insert a **[!UICONTROL Jump (start point)]** activity with a priority of 2 at the end of the workflow. If you have multiple "start point" type jumps, Adobe Campaign will use the "start point" jump with the highest number.
 
    ![](assets/subworkflow_jumps.png)
 
    >[!NOTE]
    >
-   >If the sub-workflow activity references a workflow with several **[!UICONTROL Jump]** activities, the sub-workflow is executed between the "arrival" type jump with the lowest number and the "start" type jump with the highest number.
+   >If the sub-workflow activity references a workflow with several **[!UICONTROL Jump]** activities, the sub-workflow is executed between the "end point" type jump with the lowest number and the "start point" type jump with the highest number.
+   >
+   >For the sub-workflow to be run correctly, you must have only one "end point" type jump with the lowest number, and only one "start point" type jump with the highest number.
 
 1. Complete and save this "sub-workflow".
 1. Create a "master" workflow.
@@ -74,6 +73,4 @@ Each inbound event must specify a target defined by these parameters.
 
 This set of three values identifies the population targeted by the query. **[!UICONTROL tableName]** is the name of the table that records the target identifiers, **[!UICONTROL schema]** is the schema of the population (usually nms:recipient) and **[!UICONTROL recCount]** is the number of elements in the table.
 
-* targetSchema
-
-This value is the schema of the work table. This parameter is valid for all transitions with **[!UICONTROL tableName]** and **[!UICONTROL schema]**.
+* targetSchema: This value is the schema of the work table. This parameter is valid for all transitions with **[!UICONTROL tableName]** and **[!UICONTROL schema]**.

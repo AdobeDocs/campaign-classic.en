@@ -93,12 +93,6 @@ The number of remaining available tokens is displayed in the **[!UICONTROL Gener
 
 Typically, the Inbox rendering feature is used to test the HTML framework of a newly designed email. Each rendering requires approximately up to 70 tokens (depending on the number of environments generally tested on). However, in some cases you may require multiple inbox rendering reports to fully test your delivery. It could therefore take more tokens to complete several checks.
 
->[!NOTE]
->
->If you are a Litmus client, you can use your own Litmus account to provision and use Inbox rendering in Adobe Campaign. For more on this, contact your Adobe account executive.
->
->Note that changing your Litmus credentials can cause authentication issues within Adobe Campaign.
-
 ## Accessing the inbox rendering report {#accessing-the-inbox-rendering-report}
 
 Once you have created your email delivery and defined its content as well as the targeted population, follow the steps below.

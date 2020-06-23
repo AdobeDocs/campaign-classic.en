@@ -18,7 +18,7 @@ snippet: y
 
 # Marketing Resources (MRM){#marketing-resources-mrm}
 
-The workflow detailed below is installed with the **Marketing resources (MRM)** module by default. For more on this module, refer to this [section](../../campaign/using/designing-marketing-campaigns.md).
+The workflows detailed below are installed with the **Marketing resources (MRM)** module by default. For more on this module, refer to this [section](../../campaign/using/designing-marketing-campaigns.md).
 
 <table> 
  <tbody> 

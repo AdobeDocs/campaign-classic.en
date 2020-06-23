@@ -24,7 +24,7 @@ The section below details server-side configurations that can be performed to ma
 >
 >These configurations must be performed by administrators and for **On-premise** hosting models only.
 >
->For **Hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within the Control Panel (for example, IP whitelisting or URL permissions).
+>For **Hosted** deployments, server-side settings can be configured by Adobe only. However, some settings can be set up within the Control Panel (for example, IP allow list management or URL permissions).
 
 For more information, refer to these sections:
 
@@ -354,9 +354,9 @@ With **Hybrid** and **On-premise** hosting models, the administrator needs to re
 
 Three connection protection modes exist:
 
-* **Blocking**: all URLs that do not belong to the whitelist are blocked, with an error message. This is the default mode after a postupgrade.
-* **Permissive**: all URLs that do not belong to the whitelist are allowed.
-* **Warning**: all non-white URLs are allowed, but the JS interpreter emits a warning, so that the administrator can collect them. This mode adds JST-310027 warning messages.
+* **Blocking**: all URLs that do not belong to the allow list are blocked, with an error message. This is the default mode after a postupgrade.
+* **Permissive**: all URLs that do not belong to the allow list are allowed.
+* **Warning**: all URLs that do not belong to the allow list are allowed, but the JS interpreter emits a warning, so that the administrator can collect them. This mode adds JST-310027 warning messages.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -368,9 +368,9 @@ Three connection protection modes exist:
 
 >[!IMPORTANT]
 >
->By default, new customers' client use the **blocking mode**. If they need to allow a new URL, they should contact their administrator to whitelist it.
+>By default, new customers' client use the **blocking mode**. If they need to allow a new URL, they should contact their administrator to add it to the allow list.
 >
->Existing customers coming from a migration can use the **warning mode** for a while. Meanwhile they need to analyze the outbound traffic before authorizing the URLs. Once the list of authorized URLs defined, they should contact their administrator to whitelist the URLs and activate the **blocking mode**.
+>Existing customers coming from a migration can use the **warning mode** for a while. Meanwhile they need to analyze the outbound traffic before authorizing the URLs. Once the list of authorized URLs defined, they should contact their administrator to add the URLs to the allow list and activate the **blocking mode**.
 
 ## Dynamic page security and relays {#dynamic-page-security-and-relays}
 
@@ -451,7 +451,7 @@ sh
 >
 >This list is not exhaustive.
 
-In the **exec** node of the server configuration file, you need to reference the previously created file in the **blacklistFile** attribute.
+In the **exec** node of the server configuration file, you need to reference the previously created file in the **blocklistFile** attribute.
 
 **For Linux only**: in the server configuration file, we recommand that you specify a user dedicated to executing external commands to enhance your security configuration. This user is set in the **exec** node of the configuration file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
@@ -463,7 +463,7 @@ For example:
 
 ```
 <serverConf>
- <exec user="theUnixUser" blacklistFile="/pathtothefile/blacklist"/>
+ <exec user="theUnixUser" blocklistFile="/pathtothefile/blocklist"/>
 </serverConf>
 ```
 
@@ -591,7 +591,7 @@ Each process configured in this file has a **processRestartTime** attribute. You
 
 ## Limiting uploadable files {#limiting-uploadable-files}
 
-A new attribute **uploadWhiteList** lets you restrict the file types available for upload on the Adobe Campaign server.
+A new attribute **uploadAllowList** lets you restrict the file types available for upload on the Adobe Campaign server.
 
 This attribute is available within the **dataStore** element of the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
@@ -599,7 +599,7 @@ The default value of this attribute is **.+** and it lets you upload any file ty
 
 To limit the possible formats, you must replace the attribute value by a valid java regular expression. You can enter several values by separating them by a comma.
 
-For example: **uploadWhiteList=".&#42;.png,.&#42;.jpg"** will let you upload PNG and JPG formats on the server. No other formats will be accepted.
+For example: **uploadAllowList=".&#42;.png,.&#42;.jpg"** will let you upload PNG and JPG formats on the server. No other formats will be accepted.
 
 >[!IMPORTANT]
 >
@@ -610,6 +610,8 @@ For example: **uploadWhiteList=".&#42;.png,.&#42;.jpg"** will let you upload PNG
 If you need to connect the Campaign server to the outside through a proxy (using a file transfer workflow activity for example), you need to configure the proxyConfig section of the serverConf via a command. The following proxy connections are possible: HTTP, HTTPS, FTP, SFTP. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
 >[!NOTE]
+>
+>Starting 20.2, the HTTP and HTTPS protocol parameters are no longer available. The following information still mentions those parameters as they remain available to previous builds including 9032.
 >
 >SOCKS proxies are not supported.
 

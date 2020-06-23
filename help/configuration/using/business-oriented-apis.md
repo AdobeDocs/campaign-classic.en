@@ -147,7 +147,7 @@ If the recipient is not present in the database or is not subscribed to the conc
 
 >[!NOTE]
 >
->If the service name is not specified as a parameter, the recipient is then automatically blacklisted (@blackList="1").
+>If the service name is not specified as a parameter, the recipient is then automatically on block list (@blockList="1").
 
 This call does not return any data, except errors.
 

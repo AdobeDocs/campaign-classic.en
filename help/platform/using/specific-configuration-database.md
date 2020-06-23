@@ -26,119 +26,198 @@ As a general rule, you need to install the corresponding client layer on the ext
 >
 >Compatible versions are listed in [Campaign Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#FederatedDataAccessFDA).
 
-<!--
 ## Configure access to Azure Synapse {#configure-access-to-azure-synapse}
+
+### Azure synapse external account {#azure-external}
+
+The [!DNL Azure] external account allows you to connect your Campaign instance to your Azure Synapse external database.
+To create your [!DNL Azure Synapse] external account external account:
+
+1. In Campaign Classic, configure your [!DNL Azure Synapse] external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+
+1. Click **[!UICONTROL Create]**.
+
+1. Configure the [!DNL Azure Synapse] external account, you must specify:
+
+     * **[!UICONTROL Type]**: Azure Synapse Analytics
+
+    * **[!UICONTROL Server]**: URL of the Azure Synapse server
+
+    * **[!UICONTROL Account]**: Name of the user
+
+    * **[!UICONTROL Password]**: User account password
+
+    * **[!UICONTROL Database]**: Name of the database
+
+    ![](assets/azure_1.png)
 
 ### Azure Synapse on CentOS {#azure-centos}
 
-1. Download mysql57-community-release.noarch.rpm. You can find it in this [page](https://dev.mysql.com/downloads/repo/yum).
+**Prerequisites:**
 
-1. Install the client library:
+* You will need root privileges to install a ODBC driver.
+* Red Hat Enterprise ODBC drivers provided by Microsoft can also be used with CentOS to connect to SQL Server.
+* Version 13.0 will work with Red Hat 6 and 7.
 
-    ```
-    $ yum install mysql57-community-release-el7-9.noarch.rpm
-    $ yum install mysql-community-libs
-    ```
+To configure Azure Synapse on CentOS:
 
-1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
-
-1. Select the out-of-the box **[!UICONTROL Azure Synapse]** external account.
-
-1. To configure the **[!UICONTROL Azure Synapse]** external account:
-
-    * **[!UICONTROL Server]**
-  
-      URL of the Azure Synapse server.
-
-    * **[!UICONTROL Account]**
-
-      Name of the user.
-
-    * **[!UICONTROL Password]**
-
-      User account password.
-
-    * **[!UICONTROL Database]**
-
-      Name of your database
+1. First, install the ODBC Driver. You can find it in this [page](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
     >[!NOTE]
     >
-    >Make sure the **[!UICONTROL Time zone]** and **[!UICONTROL Unicode data]** are set according to your database.
-
-### Azure Synapse on Debian {#azure-debian}
-
-1. Download mysql-apt-config.deb. You can find it in this [page](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en).
-
-1. Install the client library:
+    >This is exclusive to version 13 of the ODBC Driver.
 
     ```
-    $ dpkg -i mysql-apt-config_*_all.deb # choose mysql-5.7 in the configuration menu
-    $ apt update
-    $ apt install libmysqlclient20
-    ```
+    sudo su
+    curl https://packages.microsoft.com/config/rhel/6/prod.repo > /etc/yum.repos.d/mssql-release.repo
+    exit
+    # Uninstall if already installed Unix ODBC driver
+    sudo yum remove unixODBC-utf16 unixODBC-utf16-devel #to avoid conflicts
 
-1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
-
-1. Select the out-of-the box **[!UICONTROL Azure Synapse]** external account.
-
-1. To configure the **[!UICONTROL Azure Synapse]** external account:
-
-    * **[!UICONTROL Server]**
+    sudo ACCEPT_EULA=Y yum install msodbcsql
   
-      URL of the Azure Synapse server.
+    sudo ACCEPT_EULA=Y yum install mssql-tools
+    echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
+    echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+    source ~/.bashrc
+  
+    # the Microsoft driver expects unixODBC to be here /usr/lib64/libodbc.so.1, so add soft links to the '.so.2' files
+    cd /usr/lib64
+    sudo ln -s libodbccr.so.2   libodbccr.so.1
+    sudo ln -s libodbcinst.so.2 libodbcinst.so.1
+    sudo ln -s libodbc.so.2     libodbc.so.1
+  
+    # Set the path for unixODBC
+    export ODBCINI=/usr/local/etc/odbc.ini
+    export ODBCSYSINI=/usr/local/etc
+    source ~/.bashrc
+  
+    #Add a DSN information to /etc/odbc.ini
+    sudo vi /etc/odbc.ini
+  
+    #Add the following:
+    [Azure Synapse Analytics]
+    Driver      = ODBC Driver 13 for SQL Server
+    Description = Azure Synapse Analytics DSN
+    Trace       = No
+    Server      = [insert your server here]
+    ```
 
-    * **[!UICONTROL Account]**
+1. If needed, you can install unixODBC development headers by running the following command:
 
-      Name of the user.
+    ```
+    sudo yum install unixODBC-devel
+    ```
 
-    * **[!UICONTROL Password]**
+1. After installing the drivers, you can test and verify your ODBC Driver and query your database if needed. Run the following command:
 
-      User account password.
+    ```
+    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
+    ```
 
-    * **[!UICONTROL Database]**
+1. In Campaign Classic, you can then configure your [!DNL Azure Synapse] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#azure-external).
 
-      Name of your database
+1. Since Azure Synapse Analytics communicates through the TCP 1433 port, you need to open up this port on your firewall. Use the following command:
 
-    >[!NOTE]
-    >
-    >Make sure the **[!UICONTROL Time zone]** and **[!UICONTROL Unicode data]** are set according to your database.
+    ```
+    firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="[server_ip_here]/32" port port="1433" protocol="tcp" accept'
+    # you can ping your hostname and the ping command will translate the hostname to IP address which you can use here
+    ```
+
+   >[!NOTE]
+   >
+   >To allow communication from Azure Synapse Analytics' side you might need to add your public IP to the allow list. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+
+1. In case of iptables, run the following command:
+
+    ```
+    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
+    ```
 
 ### Azure Synapse on Windows {#azure-windows}
 
-1. Download the C connector. You can find it in this [page](https://dev.mysql.com/downloads/connector/c).
+   >[!NOTE]
+   >
+   >This is exclusive to version 13 of the ODBC Driver but Adobe Campaign Classic can also use SQL Server Native Client drivers 11.0 and 10.0.
 
-1. Make sure the directory that contains libmysqlclient.dll is added to the PATH environment variable that nlserver will use.
+To configure Azure Synapse on Windows:
 
-1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+1. First, install the Microsoft ODBC driver. You can find it in this [page](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
-1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+1. Choose the following files to install:
 
-1. Select the out-of-the box **[!UICONTROL Azure Synapse]** external account.
+    ```
+    your_language\your_architecture\msodbcsql.msi (i.e: English\X64\msodbcsql.msi)
+    ```
 
-1. To configure the **[!UICONTROL Azure Synapse]** external account:
+1. Once your ODBC driver is installed, you can test it if needed. For more on this, refer to this [page](https://docs.microsoft.com/en-us/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver15#installing-microsoft-odbc-driver-for-sql-server).
 
-    * **[!UICONTROL Server]**
+1. In Campaign Classic, you can then configure your [!DNL Azure Synapse] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#azure-external).
+
+1. Since Azure Synapse Analytics communicates through the TCP 1433 port, you need to open up this port on the Windows Defender Firewall. For more on this, refer to [Windows documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
+
+### Azure Synapse on Debian {#azure-debian}
+
+**Prerequisites:**
+
+* You will need root privileges to install a ODBC driver.
+* Curl is needed to install the msodbcsql package. If you don't have it installed, run the following command:
   
-      URL of the Azure Synapse server.
+    ```
+    sudo apt-get install curl
+    ```
 
-    * **[!UICONTROL Account]**
+To configure Azure Synapse on Debian:
 
-      Name of the user.
+1. First, install the Microsoft ODBC driver for SQL Server. Use the following commands to install the ODBC Driver 13.1 for SQL Server:
 
-    * **[!UICONTROL Password]**
+    ```
+    sudo su
+    curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
+    curl https://packages.microsoft.com/config/debian/8/prod.list > /etc/apt/sources.list.d/mssql-release.list
+    exit
+    sudo apt-get update
+    sudo ACCEPT_EULA=Y apt-get install msodbcsql
+    ```
 
-      User account password.
+1. If you get the following an error **"The method driver /usr/lib/apt/methods/https could not be found"** when calling **sudo apt-get update**, you should run the command:
 
-    * **[!UICONTROL Database]**
+   ```
+   sudo apt-get install apt-transport-https ca-certificates
+   ```
 
-      Name of your database
+1. You now need to install mssql-tools with the following commands. Mssq-tools are needed to use the bulk copy program (or BCP) utility and to run queries.
 
-    >[!NOTE]
-    >
-    >Make sure the **[!UICONTROL Time zone]** and **[!UICONTROL Unicode data]** are set according to your database.
+    ```
+    sudo ACCEPT_EULA=Y apt-get install mssql-tools
+    echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
+    echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+    source ~/.bashrc
+    ```
 
--->
+1. If needed, you can install unixODBC development headers by running the following command:
+
+    ```
+    sudo yum install unixODBC-devel
+    ```
+
+1. After installing the drivers, you can test and verify your ODBC Driver and query your database if needed. Run the following command:
+
+    ```
+    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
+    ```
+
+1. In Campaign Classic, you can now configure your [!DNL Azure Synapse] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#azure-external).
+
+1. To configure iptables on Debian to ensure the connection with Azure Synapse Analytics, enable the outbound TCP 1433 port for your hostname with the following command:
+
+    ```
+    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
+    ```
+
+   >[!NOTE]
+   >
+   >To allow communication from Azure Synapse Analytics' side you might need to add your public IP to the allow list. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 ## Configure access to Snowflake {#configure-access-to-snowflake}
 
@@ -148,24 +227,11 @@ As a general rule, you need to install the corresponding client layer on the ext
 
 ![](assets/snowflake_3.png)
 
-### Snowflake on CentOS {#snowflake-centos}
+### Snowflake external account {#snowflake-external}
 
-1. Download the ODBC drivers for [!DNL Snowflake]. [Click here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) to start downloading.
-1. You then need to install the ODBC drivers on CentOs with the following command:
+The [!DNL Snowflake] external account allows you to connect your Campaign instance to your Snowflake external database.
 
-     ```
-     rpm -Uvh unixodbc
-     rpm -Uvh snowflake-odbc-2.20.2.x86_64.rpm
-     ```
-
-1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
-
-     ```
-    /etc/init.d/nlserver6 stop
-    /etc/init.d/nlserver6 start
-     ```
-
-1. In Campaign Classic, you can then configure your [!DNL Snowflake] external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+1. In Campaign Classic, configure your [!DNL Snowflake] external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. Select the built-in **[!UICONTROL Snowflake]** external account.
 
@@ -195,6 +261,25 @@ The connector supports the following options:
 |  WeekStart |  WEEK_START session parameter. By default set to 0. <br>For more on this, refer to [this page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
 |  UseCachedResult | USE_CACHED_RESULTS session parameter. By default set to TRUE. This option can be used to disable Snowflake cached results. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 
+### Snowflake on CentOS {#snowflake-centos}
+
+1. Download the ODBC drivers for [!DNL Snowflake]. [Click here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) to start downloading.
+1. You then need to install the ODBC drivers on CentOs with the following command:
+
+     ```
+     rpm -Uvh unixodbc
+     rpm -Uvh snowflake-odbc-2.20.2.x86_64.rpm
+     ```
+
+1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
+
+     ```
+    /etc/init.d/nlserver6 stop
+    /etc/init.d/nlserver6 start
+     ```
+
+1. In Campaign Classic, you can then configure your [!DNL Snowflake] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#snowflake-external).
+
 ### Snowflake on Debian {#snowflake-debian}
 
 1. Download the ODBC drivers for [!DNL Snowflake]. [Click here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) start downloading.
@@ -212,36 +297,8 @@ The connector supports the following options:
     systemctl stop nlserver.service
     systemctl start nlserver.service
      ```
-     
-1. In Campaign Classic, you can then configure your [!DNL Snowflake] external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
-1. Select the built-in **[!UICONTROL Snowflake]** external account.
-
-1. To configure the **[!UICONTROL Snowflake]** external account, you must specify:
-
-    * **[!UICONTROL Server]**: URL of the [!DNL Snowflake] server
-
-    * **[!UICONTROL Account]**: Name of the user
-
-    * **[!UICONTROL Password]**: User account password
-
-    * **[!UICONTROL Database]**: Name of the database
-
-    ![](assets/snowflake.png)
-
-1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy functions]** button to create functions.
-
-    ![](assets/snowflake_2.png)
-
-The connector supports the following options:
-
-| Option   | Description |
-|---|---|
-|  workschema | Database schema to use for work tables |
-|  warehouse |  Name of the default warehouse to use. It will override the user's default. |
-|  TimeZoneName | By default empty, which means that the system time zone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone).|
-|  WeekStart |  WEEK_START session parameter. By default set to 0.  <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
-|  UseCachedResult | USE_CACHED_RESULTS session parameter. By default set to TRUE. This option can be used to disable Snowflake cached results. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+1. In Campaign Classic, you can then configure your [!DNL Snowflake] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#snowflake-external).
 
 ### Snowflake on Windows {#snowflake-windows}
 
@@ -249,35 +306,7 @@ The connector supports the following options:
 
 1. Configure the ODBC driver. For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
 
-1. In Campaign Classic, you can then configure your [!DNL Snowflake] external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
-
-1. Select the built-in **[!UICONTROL Snowflake]** external account.
-
-1. To configure the **[!UICONTROL Snowflake]** external account, you must specify:
-
-    * **[!UICONTROL Server]**: URL of the [!DNL Snowflake] server
-
-    * **[!UICONTROL Account]**: Name of the user
-
-    * **[!UICONTROL Password]**: User account password
-
-    * **[!UICONTROL Database]**: Name of the database
-
-    ![](assets/snowflake.png)
-
-1. Click the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy functions]** button to create functions.
-
-    ![](assets/snowflake_2.png)
-
-The connector supports the following options:
-
-| Option   |  Description |
-|---|---|---|
-|  workschema |   Database schema to use for work tables |
-|  warehouse | Name of the default warehouse to use. It will override the user's default. |
-|  TimeZoneName |  By default empty, which means that the system time zone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-|  WeekStart |  WEEK_START session parameter. By default set to 0. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
-|  UseCachedResult |  By default set to TRUE. This option can be used to disable Snowflake cached results (USE_CACHED_RESULTS session parameter) <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html).|
+1. In Campaign Classic, you can then configure your [!DNL Snowflake] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#snowflake-external).
 
 ## Configure access to Hadoop 3.0 {#configure-access-to-hadoop-3}
 
@@ -293,7 +322,7 @@ Connecting to a Hadoop external database in FDA requires the following configura
     systemctl stop nlserver.service
     systemctl start nlserver.service
      ```
-   
+
 1. In Campaign Classic, you can then configure your Snowflake external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. Click **[!UICONTROL Create]** and select **[!UICONTROL External database]** as Account type.
@@ -365,7 +394,7 @@ The connector also supports the following Hive options:
 1. Check ODBC files location.
 
    ```
-   
+
    root@campadpac71:/tmp# odbcinst -j
    unixODBC 2.3.1
    DRIVERS............: /etc/odbcinst.ini
@@ -384,7 +413,7 @@ The connector also supports the following Hive options:
    ```
    [ODBC Data Sources]
    vorac 
-   
+
    [vorac]
    Driver=/usr/lib/hive/lib/native/Linux-amd64-64/libhortonworkshiveodbc64.so
    HOST=vorac.azurehdinsight.net
@@ -417,13 +446,13 @@ The connector also supports the following Hive options:
 
    ```
    [Driver]
-   
+
    DriverManagerEncoding=UTF-16
    ErrorMessagesPath=/usr/lib/hive/lib/native/hiveodbc/ErrorMessages/
    LogLevel=0
    LogPath=/tmp/hive
    SwapFilePath=/tmp
-   
+
    ODBCInstLib=libodbcinst.so
    ```
 
@@ -449,19 +478,19 @@ Connecting to a Netezza external database in FDA requires additional configurati
 
     * **/etc/odbc.ini**
 
-      ```    
+      ```
       [ODBC]
       InstallDir=/etc/
-      ```    
-    
+      ```
+
       "InstallDir" corresponds to the location of the odbcinst.ini file.
-    
+
     * **/etc/odbcinst.ini**
 
-      ```    
+      ```
       [ODBC Drivers]
       NetezzaSQL = Installed
-       
+
       [NetezzaSQL]
       Driver           = /usr/local/nz/lib/libnzsqlodbc3.so
       Setup            = /usr/local/nz/lib/libnzsqlodbc3.so
@@ -489,7 +518,7 @@ Connecting to a Netezza external database in FDA requires additional configurati
 
 1. To configure the **[!UICONTROL Netezza]** external account, you must specify:
 
-     * **[!UICONTROL Type]**: Netezza
+    * **[!UICONTROL Type]**: Netezza
 
     * **[!UICONTROL Server]**: URL of the Netezza server
 
@@ -541,7 +570,7 @@ Connecting to an Oracle external database in FDA requires additional configurati
 
     * **libaio1**
 
-      ```    
+      ```
       aptitude install libaio1
       or
       yum install libaio1
@@ -565,10 +594,10 @@ Connecting to a Sybase IQ external database in FDA requires additional configura
 
     * **/etc/odbc.ini** (replace values like `<server_alias>` characters by your own):
 
-      ```    
+      ```
       [ODBC Data Sources]
       <server_alias>=libdbodbc.so
-      
+
       [<server_alias>]
       Driver=/opt/sybase/IQ-16_0/lib64/libdbodbc16.so
       Description=<description>
@@ -580,8 +609,8 @@ Connecting to a Sybase IQ external database in FDA requires additional configura
 
     * **/etc/odbcinst.ini**
 
-      ```    
-      
+      ```
+
       [ODBC DRIVERS]
       SAP SybaseIQ=Installed
       
@@ -630,19 +659,19 @@ Connecting to a Teradata external database in FDA requires certain additional co
 
     * **/etc/odbc.ini**
 
-      ```    
+      ```
       [ODBC]
       InstallDir=/etc/
-      ```    
-    
+      ```
+
       "InstallDir" corresponds to the location of the **odbcinst.ini** file.
-    
+
     * **/etc/odbcinst.ini**
 
-      ```    
+      ```
       [ODBC DRIVERS]
       teradata=Installed
-       
+
       [teradata]
       Driver=/opt/teradata/client/15.10/lib64/tdata.so
       APILevel=CORE
@@ -686,21 +715,21 @@ Connecting to an SAP HANA external database in FDA requires certain additional c
 
     * **/etc/odbc.ini**
 
-      ```    
+      ```
       [ODBC]
       InstallDir=/etc/
-      
+
       [HDB]
       Driver=HDBODBC
       servernode=localhost:39013 (this value depend of your server)
       User:SYSTEM
-      ```    
-    
+      ```
+
       "InstallDir" corresponds to the location of the **odbcinst.ini** file.
-    
+
     * **/etc/odbcinst.ini**
 
-      ```    
+      ```
       [HDBODBC]
       Description = "SmartCloudPT HANA"
       Driver = /usr/sap/hdbclient/libodbcHDB.so
