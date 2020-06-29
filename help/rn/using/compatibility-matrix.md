@@ -132,614 +132,334 @@ This document lists all systems and components supported for the latest build of
 
 ## RDBMS drivers{#RDBMSdrivers}
 
+<table>
+<tbody>
+<tr>
+<td>Oracle SQL*Net 11</td>
+</tr>
+<tr>
+<td>Oracle SQL*Net 12</td>
+</tr>
+<tr>
+<td>PostgreSQL (libpq)</td>
+</tr>
+<tr>
+<td>SQLServer</td>
+</tr>
+<tr>
+<td>DB2 (ODBC Driver)</td>
+</tr>
+</tbody>
+</table>
 
+>[!NOTE]
+>
+>RDBMS driver must match with RDBMS server version.
 
+## RDBMS servers{#RDBMSservers}
 
-
-
-
-    <a name="main-pars_table_752777258"></a>
-    <div class="noHeader"><table width="100%" cellspacing="0" cellpadding="1" border="1">
-<tbody><tr><td>Oracle SQL*Net 11</td>
-</tr><tr><td>Oracle SQL*Net 12</td>
-</tr><tr><td>PostgreSQL (libpq)</td>
-</tr><tr><td>SQLServer</td>
-</tr><tr><td>DB2 (ODBC Driver)</td>
-</tr></tbody></table>
-</div></div>
-<div class="note parbase section">
-
-
-
-    
-        
-            
-                <div class="help-note">
-                    <p>
-                        <span class="help-note-title">Note:</span>
-                        <p>RDBMS driver must match with RDBMS server version.</p>
-
-                    </p>
-                </div>
-                
-            
-
-
-
-        
-    
-    
-
-
-
-</div>
-<div class="header parbase section">
-
-
-
-    <a name="main-pars_header_183453300"></a>
-    
-        
-
-        
-
-        
-            
-            
-            
-            
-            
-            
-            <div class="header  header-top">
-                <h2 id="RDBMSservers">
-                    RDBMS servers
-                </h2>
-                
-                
-                    
-                
-            </div>
-            <!-- for Cascading Toc -->
-            
-                
-            
-        
-    
-
-</div>
-<div class="table parbase section">
-
-
-
-
-
-    <a name="main-pars_table_1458404284"></a>
-    <div class="noHeader"><table width="100%" cellspacing="0" cellpadding="1" border="1">
-<tbody><tr><td>Oracle</td>
-<td><ul>
-<li>11g R2<br>
-</li>
+<table>
+<tbody>
+<tr>
+<td>Oracle</td>
+<td>
+<ul>
+<li>11g R2</li>
 <li>12c</li>
 <li>18c</li>
 <li>19c</li>
 </ul>
 </td>
-</tr><tr><td>PostgreSQL</td>
-<td><ul>
-<li>9.4.x<br>
-</li>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td>
+<ul>
+<li>9.4.x</li>
 <li>9.5.x</li>
 <li>9.6.x</li>
 <li>10.x</li>
 <li>11.x</li>
 </ul>
-<p>Note: you can also use&nbsp;Amazon RDS for PostgreSQL with the versions specified above</p>
+<p>Note: you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
-</tr><tr><td>SQL Server</td>
-<td><ul>
-<li>2012 - SP1 and SP2<br>
-</li>
+</tr>
+<tr>
+<td>SQL Server</td>
+<td>
+<ul>
+<li>2012 - SP1 and SP2</li>
 <li>2014</li>
 <li>2016</li>
 <li>2017</li>
 </ul>
-<p>Warning:&nbsp;Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. Refer to the <a href="https://docs.campaign.adobe.com/doc/AC/en/INS_Prerequisites_and_recommendations__Database.html#Microsoft_SQL_Server">Installation guide</a>.<br>
-</p>
+<p>Warning: Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. Refer to the <a href="https://docs.campaign.adobe.com/doc/AC/en/INS_Prerequisites_and_recommendations__Database.html#Microsoft_SQL_Server">Installation guide</a>.</p>
 </td>
-</tr></tbody></table>
-</div></div>
-<div class="note parbase section">
+</tr><
+</tbody>
+</table>
 
+>[!NOTE]
+>
+>PostgreSQL is the default database server for Hosted environments.
 
+## CRM connectors{#CRMconnectors}
 
-    
-        
-            
-                <div class="help-note">
-                    <p>
-                        <span class="help-note-title">Note:</span>
-                        <p>PostgreSQL is the default database server for Hosted environments.</p>
-
-                    </p>
-                </div>
-                
-            
-
-
-
-        
-    
-    
-
-
-
-</div>
-<div class="header parbase section">
-
-
-
-    <a name="main-pars_header_528988623"></a>
-    
-        
-
-        
-
-        
-            
-            
-            
-            
-            
-            
-            <div class="header  header-top">
-                <h2 id="CRMconnectors">
-                    CRM connectors
-                </h2>
-                
-                
-                    
-                
-            </div>
-            <!-- for Cascading Toc -->
-            
-                
-            
-        
-    
-
-</div>
-<div class="table parbase section">
-
-
-
-
-
-    <a name="main-pars_table_2126291922"></a>
-    <div class="noHeader"><table width="100%" cellspacing="0" cellpadding="1" border="1">
-<tbody><tr><td>Salesforce connector API&nbsp;<br />
-</td>
-<td><ul>
+<table>
+<tbody>
+<tr>
+<td>Salesforce connector API</td>
+<td>
+<ul>
 <li>API version 37</li>
 </ul>
 </td>
-</tr><tr><td>SFDC API</td>
-<td><ul>
+</tr>
+<tr>
+<td>SFDC API</td>
+<td>
+<ul>
 <li>API version 15</li>
 <li>API version 21</li>
 </ul>
 </td>
-</tr><tr><td>Oracle On Demand API</td>
-<td><ul>
+</tr>
+<tr><td>Oracle On Demand API</td>
+<td>
+<ul>
 <li>Web Services v1.0 API</li>
 </ul>
 </td>
-</tr><tr><td>MS Dynamics</td>
-<td><ul>
+</tr>
+<tr>
+<td>MS Dynamics</td>
+<td>
+<ul>
 <li>Soap API - On-premise: 2007, 2015, 2016</li>
 <li>Soap API - Online: 2015, 2016</li>
 <li>Web API - On-premise and Online: 365, 2016, 2016 Update 1</li>
 </ul>
 </td>
-</tr></tbody></table>
-</div></div>
-<div class="header parbase section">
+</tr>
+</tbody>
+</table>
 
+## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
-
-    <a name="main-pars_header_1260543892"></a>
-    
-        
-
-        
-
-        
-            
-            
-            
-            
-            
-            
-            <div class="header  header-top">
-                <h2 id="FederatedDataAccessFDA">
-                    Federated Data Access (FDA)
-                </h2>
-                
-                
-                    
-                
-            </div>
-            <!-- for Cascading Toc -->
-            
-                
-            
-        
-    
-
-</div>
-<div class="table parbase section">
-
-
-
-
-
-    <a name="main-pars_table_430745646"></a>
-    <div class="noHeader"><table width="100%" cellspacing="0" cellpadding="1" border="1">
-<tbody><tr><td>Microsoft Azure Synapse Analytics</td>
+<table>
+<tbody>
+<tr>
+<td>Microsoft Azure Synapse Analytics</td>
 <td>&nbsp;</td>
-</tr><tr><td>Amazon Redshift<br>
-</td>
+</tr>
+<tr>
+<td>Amazon Redshift</td>
 <td><p>&nbsp;</p>
 </td>
-</tr><tr><td>Oracle</td>
-<td><ul>
+</tr>
+<tr>
+<td>Oracle</td>
+<td>
+<ul>
 <li>11g</li>
-<li>12c<br>
-</li>
+<li>12c</li>
 <li>18c</li>
 </ul>
 </td>
-</tr><tr><td>PostgreSQL</td>
-<td><ul>
-<li>9.4.x<br>
-</li>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td>
+<ul>
+<li>9.4.x</li>
 <li>9.5.x</li>
 <li>9.6.x</li>
 <li>10.x</li>
 <li>11.x</li>
 </ul>
 </td>
-</tr><tr><td>SQL Server<br>
-</td>
-<td><ul>
+</tr>
+<tr><td>SQL Server</td>
+<td>
+<ul>
 <li>2012 SP1 and SP2</li>
 <li>2014</li>
 <li>2016</li>
 <li>2017</li>
 </ul>
 </td>
-</tr><tr><td>MySQL</td>
-<td><ul>
-<li>5.7<br>
-</li>
+</tr>
+<tr><td>MySQL</td>
+<td>
+<ul>
+<li>5.7</li>
 </ul>
 </td>
-</tr><tr><td>Teradata</td>
-<td><ul>
-<li>15.0<br>
-</li>
+</tr>
+<tr>
+<td>Teradata</td>
+<td>
+<ul>
+<li>15.0</li>
 <li>15.10</li>
 <li>16</li>
 <li>16.20</li>
 </ul>
 </td>
-</tr><tr><td>Netezza</td>
-<td><ul>
+</tr>
+<tr>
+<td>Netezza</td>
+<td>
+<ul>
 <li>7.2</li>
 </ul>
 </td>
-</tr><tr><td>Sybase</td>
-<td><ul>
+</tr>
+<tr>
+<td>Sybase</td>
+<td>
+<ul>
 <li>IQ 16</li>
 <li>ASE 15.7</li>
 </ul>
 </td>
-</tr><tr><td>SAP HANA</td>
-<td><ul>
+</tr>
+<tr>
+<td>SAP HANA</td>
+<td>
+<ul>
 <li>version 1 SP12 or above</li>
 </ul>
 </td>
-</tr><tr><td>Hadoop via HiveSQL</td>
-<td><ul>
+</tr>
+<tr><td>Hadoop via HiveSQL</td>
+<td>
+<ul>
 <li>HortonWorks HDP 2.4.X, 2.5.x, 2.6.x</li>
 <li>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</li>
 <li>Cloudera CDH6.x</li>
 </ul>
 </td>
-</tr><tr><td>Snowflake</td>
+</tr>
+<tr>
+<td>Snowflake</td>
 <td>&nbsp;</td>
-</tr></tbody></table>
-</div></div>
-<div class="header parbase section">
+</tr>
+</tbody>
+</table>
 
+## Client Console operating systems{#ClientConsoleoperatingsystems}
 
-
-    <a name="main-pars_header_349986245"></a>
-    
-        
-
-        
-
-        
-            
-            
-            
-            
-            
-            
-            <div class="header  header-top">
-                <h2 id="ClientConsoleoperatingsystems">
-                    Client Console operating systems
-                </h2>
-                
-                
-                    
-                
-            </div>
-            <!-- for Cascading Toc -->
-            
-                
-            
-        
-    
-
-</div>
-<div class="table parbase section">
-
-
-
-
-
-    <a name="main-pars_table_990452260"></a>
-    <div class="noHeader"><table width="100%" cellspacing="0" cellpadding="1" border="1">
-<tbody><tr><td>Windows Server<br>
-</td>
-<td><ul>
+<table>
+<tbody>
+<tr>
+<td>Windows Server</td>
+<td>
+<ul>
 <li>2012</li>
 <li>2016</li>
 </ul>
 </td>
-</tr><tr><td>Windows</td>
-<td><ul>
+</tr>
+<tr>
+<td>Windows</td>
+<td>
+<ul>
 <li>8</li>
 <li>10 (recommended for Japanese instances)</li>
 </ul>
 </td>
-</tr></tbody></table>
-</div></div>
-<div class="header parbase section">
+</tr>
+</tbody>
+</table>
 
+## Mobile SDK{#MobileSDK}
 
-
-    <a name="main-pars_header_1143336137"></a>
-    
-        
-
-        
-
-        
-            
-            
-            
-            
-            
-            
-            <div class="header  header-top">
-                <h2 id="MobileSDK">
-                    Mobile SDK
-                </h2>
-                
-                
-                    
-                
-            </div>
-            <!-- for Cascading Toc -->
-            
-                
-            
-        
-    
-
-</div>
-<div class="table parbase section">
-
-
-
-
-
-    <a name="main-pars_table_862052127"></a>
-    <div class="noHeader"><table width="100%" cellspacing="0" cellpadding="1" border="1">
-<tbody><tr><td>Android</td>
-<td valign="top"><ul>
+<table>
+<tbody>
+<tr>
+<td>Android</td>
+<td>
+<ul>
 <li>7.x</li>
-<li>8.x&nbsp;</li>
-<li>9.0&nbsp;</li>
+<li>8.x</li>
+<li>9.0</li>
 </ul>
 <p>with mobile SDK build 1.0.27.</p>
 </td>
-</tr><tr><td>iOS</td>
-<td valign="top"><ul>
+</tr>
+<tr>
+<td>iOS</td>
+<td>
+<ul>
 <li>iOS 9</li>
 <li>iOS 10</li>
 <li>iOS 11</li>
 <li>iOS 12</li>
 <li>iOS 13</li>
 </ul>
-<p>with&nbsp;mobile SDK build 1.0.26,&nbsp;compatible with 32 and 64-bit versions.</p>
+<p>with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions.</p>
 </td>
-</tr></tbody></table>
-</div></div>
-<div class="header parbase section">
+</tr>
+</tbody>
+</table>
 
+## Browsers{#Browsers}
 
-
-    <a name="main-pars_header_2054797177"></a>
-    
-        
-
-        
-
-        
-            
-            
-            
-            
-            
-            
-            <div class="header  header-top">
-                <h2 id="Browsers">
-                    Browsers
-                </h2>
-                
-                
-                    
-                
-            </div>
-            <!-- for Cascading Toc -->
-            
-                
-            
-        
-    
-
-</div>
-<div class="table parbase section">
-
-
-
-
-
-    <a name="main-pars_table_583837044"></a>
-    <div class="noHeader"><table width="100%" cellspacing="0" cellpadding="1" border="1">
-<tbody><tr><td>Internet Explorer<br />
-</td>
-<td><ul>
+<table>
+<tbody>
+<tr>
+<td>Internet Explorer</td>
+<td>
+<ul>
 <li>11</li>
 </ul>
 </td>
-</tr><tr><td>Microsoft Edge</td>
-<td><ul>
+</tr>
+<tr>
+<td>Microsoft Edge</td>
+<td>
+<ul>
 <li>Latest version</li>
 </ul>
 </td>
-</tr><tr><td>Firefox</td>
-<td><ul>
-<li>Latest version&nbsp;</li>
-</ul>
-</td>
-</tr><tr><td>Chrome</td>
-<td><ul>
-<li>Latest version&nbsp;</li>
-</ul>
-</td>
-</tr><tr><td>Safari</td>
-<td><ul>
+</tr>
+<tr>
+<td>Firefox</td>
+<td>
+<ul>
 <li>Latest version</li>
 </ul>
 </td>
-</tr></tbody></table>
-</div></div>
-<div class="header parbase section">
-
-
-
-    <a name="main-pars_header_578261395"></a>
-    
-        
-
-        
-
-        
-            
-            
-            
-            
-            
-            
-            <div class="header  header-top">
-                <h2 id="ExperienceCloudintegrations">
-                    Experience Cloud integrations
-                </h2>
-                
-                
-                    
-                
-            </div>
-            <!-- for Cascading Toc -->
-            
-                
-            
-        
-    
-
-</div>
-<div class="text parbase section">
-
-    <a name="main-pars_text_1362496704"></a>
-    
-        
-            <div class="text"><p>For integrations with Adobe solutions, <a disablelinktracking="false" href="https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations">refer to this section</a>.</p>
-</div>
-        
-    
-    
-
-</div>
-<div class="header parbase section">
-
-
-
-    <a name="main-pars_header_783347623"></a>
-    
-        
-
-        
-
-        
-            
-            
-            
-            
-            
-            
-            <div class="header  header-top">
-                <h2 id="Morelikethis">
-                    More like this
-                </h2>
-                
-                
-                    
-                
-            </div>
-            <!-- for Cascading Toc -->
-            
-                
-            
-        
-    
-
-</div>
-<div class="text parbase section">
-
-    <a name="main-pars_text_1467587621"></a>
-    
-        
-            <div class="text"><ul>
-<li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html">Campaign Classic Release notes</a>&nbsp;</li>
-<li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/general-architecture.html">Installation Guide</a>&nbsp;</li>
-<li><a href="https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html">Deprecated features and systems</a>&nbsp;</li>
-<li><a href="https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html">Build upgrade procedure</a></li>
-<li><a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html">Campaign Classic Compatibility matrix for 19.0 release</a></li>
-<li><a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-1.html">Campaign Classic Compatibility matrix for 19.1 release</a></li>
+</tr>
+<tr><td>Chrome</td>
+<td>
+<ul>
+<li>Latest version</li>
 </ul>
-</div>
-        
+</td>
+</tr>
+<tr>
+<td>Safari</td>
+<td>
+<ul>
+<li>Latest version</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Experience Cloud integrations{#ExperienceCloudintegrations}
+
+For integrations with Adobe solutions, refer to this [section](https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations).
+
+## More like this{#Morelikethis}
+
+* [Campaign Classic Release notes](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)
+* [Installation Guide](https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/general-architecture.html)
+* [Deprecated features and systems](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+* [Build upgrade procedure](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)
+* [Campaign Classic Compatibility matrix for 19.0 release](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html)
+* [Campaign Classic Compatibility matrix for 19.1 release](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-1.html)
+
