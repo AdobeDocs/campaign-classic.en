@@ -18,6 +18,8 @@ snippet: y
 
 This document lists all systems and components supported for the latest build of **Adobe Campaign Classic (v6.11 and v7)**. Products and versions that are not part of this list are not compatible with Adobe Campaign.
 
+## Important notes{#important-notes}
+
 >[!WARNING]
 >
 >This matrix is regularly updated with new supported items being added and deprecated items being removed.
