@@ -18,7 +18,6 @@ snippet: y
 
 # Additional options {#additional-options}
 
-
 <!--
 
 ## HTTP relay to a remote instance {#http-relay-to-a-remote-instance}
@@ -87,6 +86,29 @@ During the delivery analysis, this option automatically creates and executes a w
 
 By checking this option, you can achieve a significant increase in performance for executing personalization.
 
+## Using data from an external database in a workflow {#using-data-from-an-external-database-in-a-workflow}
+
+In several Adobe Campaign workflow activities, you can use the data stored in an external database.
+
+### Filtering on external data {#filtering-on-external-data}
+
+The query activity allows you to add external data and use it in the defined filter configurations.
+
+For more on this, refer to the [Query](../../workflow/using/targeting-data.md#selecting-data) section.
+
+### Creating sub-sets {#creating-sub-sets}
+
+The split activity allows you to create sub-sets. You can use external data to define the filtering criteria to use.
+
+For more on this, refer to the [Split](../../workflow/using/split.md) section.
+
+### Loading external database {#loading-external-database}
+
+You can use the external data in the Data loading (RDBMS). This activity is presented in the [Data loading](../../workflow/using/data-loading--rdbms-.md) section.
+
+### Adding information and links {#adding-information-and-links}
+
+The enrichment activity allows you to add additional data to the workflow's worktable as well as links to an external table. For this reason, it can exploit the data from an external database. This activity is presented in the [Enrichment](../../workflow/using/enrichment.md) section.
 <!--
 
 ## Cloud Messaging - FDA synchronization {#cloud-messaging---fda-synchronization}
