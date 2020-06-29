@@ -18,6 +18,11 @@ snippet: y
 
 # Gold Standard release{#release-19-1}
 
+For more information on Gold Standard upgrade refer to this [article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+
+The initial 19.1.4 build is described in this [page](../../rn/using/release--19-1.md#release--19-1.md).
+
+
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
 ![](assets/do-not-localize/green_2.png) **June 22nd 2020**: new build (9032&#64;800be2e) which includes the following fixes:
