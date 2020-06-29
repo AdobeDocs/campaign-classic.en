@@ -39,7 +39,7 @@ A status is associated to each build. You'll find below the list of statuses and
 
 The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## Process to upgrade(#process-upgrade)
+## Process to upgrade{#process-upgrade}
 
 Here are a few useful links on the upgrade process:
 
@@ -47,11 +47,11 @@ Here are a few useful links on the upgrade process:
 * [Build upgrade FAQ](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) 
 * [Gold Standard upgrade](https://helpx.adobe.com/campaign/kb/gold-standard.html) 
 
-## Recommandations(#recommandations)
+## Recommandations{#recommandations}
 
 To ensure a stable configuration, we recommend that you install the same stable build on all servers that are running on the same client configuration.
 
-## Support and other useful links(#support)
+## Support and other useful links{#support}
 
 * [Help and Support](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
 * [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
