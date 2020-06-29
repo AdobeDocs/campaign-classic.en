@@ -84,7 +84,7 @@ Data model best practices have been improved with additional information on inde
 
 The section describing the Adobe Campaign built-in data model has been updated with more details on each table. [Read more](../../configuration/using/data-model-description.md)
 
-Workflow use cases have been updated and reorganized into thematic sections. [Read more](../../workflow/using/using-the-local-approval-activity.md)
+Workflow use cases have been updated and reorganized into thematic sections. [Read more](../../workflow/using/about-workflow-use-cases.md)
 
 The [Bounce mail qualification](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) and [Email management rules](../../delivery/using/understanding-delivery-failures.md#email-management-rules) sections have been enhanced with updated information.
 

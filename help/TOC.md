@@ -398,6 +398,7 @@ sub-product: adobe campaign classic
        + [Inbound Emails](workflow/using/inbound-emails.md)
        + [Inbound SMS](workflow/using/inbound-sms.md)
   + Use cases {#use-cases}
+       + [About workflow use cases](workflow/using/about-workflow-use-cases.md)
        + Deliveries {#deliveries}
           + [Using the local approval activity](workflow/using/using-the-local-approval-activity.md)
           + [A/B testing](workflow/using/a-b-testing.md)
