@@ -37,7 +37,7 @@ A status is associated to each build. You'll find below the list of statuses and
  </tbody> 
 </table>
 
-The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+The **last stable build** is 20.1.4 (build XXXX). Click [here](../../rn/using/release--20-1.md)
 
 ## Process to upgrade{#process-upgrade}
 
