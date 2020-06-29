@@ -35,15 +35,15 @@ The full list of Adobe solutions and core services which can be integrated with 
 
 Depending on your environment, several solutions can be linked to Adobe Experience Cloud. They are linked as Organizations. An **organization** is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud. The organization functions like a log-in company that spans all the Experience Cloud products and solutions. Most often, an organization is your company name. However, a company can have many organizations.
 
-Organization management and linking Adobe Experience Cloud accounts are detailed in the [Adobe Experience Cloud help portal](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+Organization management and linking Adobe Experience Cloud accounts are detailed in the [Adobe Experience Cloud help portal](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 >[!CAUTION]
 >
->When newly installing Adobe Campaign or integrating an existing installation with Adobe Experience Cloud, the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) is enabled. This service replaces the permanent cookie used first and foremost by Adobe Campaign for its tracking functionalities.
+>When newly installing Adobe Campaign or integrating an existing installation with Adobe Experience Cloud, the [Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) is enabled. This service replaces the permanent cookie used first and foremost by Adobe Campaign for its tracking functionalities.
 >
 >A unique visitor ID will then be assigned to recipients generating tracking logs. This ID will be saved in the **[!UICONTROL Requester UUID (@sourceID)]** field of the **[!UICONTROL nms:trackingLogRcp]** table. The tracking data of recipients who existed before the visitor ID service was implemented will therefore no longer be usable.
 >
->The ID will then be recognized by the other Adobe Experience Cloud solutions with the same [CNAME](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cname.html).
+>The ID will then be recognized by the other Adobe Experience Cloud solutions with the same [CNAME](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html).
 
 ## Experience Cloud integrations {#experience-cloud-integrations}
 
