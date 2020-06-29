@@ -16,16 +16,17 @@ internal: n
 snippet: y
 ---
 
-# Gold Standard release{#release-19-1}
+# Gold Standard release{#gold-standard}
 
-For more information on Gold Standard upgrade refer to this [article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+This page lists Gold Standard releases. 
 
-The initial 19.1.4 build is described in this [page](../../rn/using/release--19-1.md#release--19-1.md).
+For more information on Gold Standard upgrade, refer to this [article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
+## ![](assets/do-not-localize/green_2.png) June 2020{#gs-june-20}
 
-## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
+_22 June 2020_
 
-![](assets/do-not-localize/green_2.png) **June 22nd 2020**: new build (9032&#64;800be2e) which includes the following fixes:
+The build 9032&#64;800be2e includes the following fixes:
 
 * The iOS HTTP2 connector has been improved (third-party updates and error management). (NEO-25904, NEO-25903, NEO-25799)
 
@@ -37,7 +38,11 @@ The following fixes are related to the tracking link security mechanism:
 * Fixed an issue with the anti-phishing service. (NEO-25283)
 * Fixed a tracking issue when using specific custom tracking formulas. (NEO-25277)
 
-![](assets/do-not-localize/orange_2.png) **April 29th 2020**: new build (9032&#64;3a9dc9c) which includes the following fixes:
+## ![](assets/do-not-localize/orange_2.png) April 2020{#gs-april-20}
+
+_29 April 2020_
+
+The build 9032&#64;3a9dc9c includes the following fixes:
 
 * Improved security on tracking links in email. This is enabled by default for all customers. An additional, enhanced security feature is available which can be enabled by reaching out to Customer Care. More details on the feature and steps for non-hosted customers to enable it can be found in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
 * Fixed an issue which could prevent images from being displayed on Line deliveries. (NEO-23207)
@@ -53,30 +58,54 @@ The following fixes are related to the tracking link security mechanism:
 * Fixed a regression causing the cleanup workflow to crash. 
 * Fixed a minor regression in the cleanup workflow logs.
 
-![](assets/do-not-localize/orange_2.png) **March 5th 2020**: new build (9032&#64;19f73c5) which includes the following fix:
+## ![](assets/do-not-localize/orange_2.png) March 2020{#gs-march-20}
+
+_5 March 2020_
+
+The build 9032&#64;19f73c5 includes the following fix:
 
 * Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
 
-![](assets/do-not-localize/orange_2.png) **December 17th 2019**: new build (9032&#64;d6b8062) which includes the following fix:
+## ![](assets/do-not-localize/orange_2.png) December 2029{#gs-december2-19}
+
+_19 December 2019_
+
+The build 9032&#64;d6b8062 includes the following fix:
 
 * Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter). (NEO-19595)
 
-![](assets/do-not-localize/orange_2.png) **December 11th 2019**: new build (9032&#64;bc4a935) which includes the following fix:
+## ![](assets/do-not-localize/orange_2.png) December 2019{#gs-december1-19}
+
+_11 December 2019_
+
+The build 9032&#64;bc4a935 includes the following fix:
 
 * Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
 
-![](assets/do-not-localize/orange_2.png) **November 20th 2019**: new build (9032&#64;3468c7b) which includes the following fixes:
+## ![](assets/do-not-localize/orange_2.png) November 2019{#gs-november-19}
+
+_20 November 2019_
+
+The build 9032&#64;3468c7b includes the following fixes:
 
 * Fixed a login issue via IMS authentication. (NEO-17312)
 * Fixed an issue when displaying cumulative reports on multiple deliveries. (NEO-18165)
 * Fixed an issue that could block or make the web server crash.
 
-![](assets/do-not-localize/orange_2.png) **September 19th 2019**: new build (9032&#64;cee805c) which includes the following fixes:
+## ![](assets/do-not-localize/orange_2.png) September 2019{#gs-september-19}
+
+_19 September 2019_
+
+The build 9032&#64;cee805c includes the following fixes:
 
 * Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
 * Fixed an index issue which could cause performance issues when sending transactional messages.
 
-![](assets/do-not-localize/orange_2.png) **August 13th 2019**: initial 19.1.4 build which includes the following fixes:
+## ![](assets/do-not-localize/orange_2.png) August 2019{#gs-august-19}
+
+_13 August 2019_
+
+The initial 19.1.4 build includes the following fixes:
 
 * Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
 * Fixed a regression caused by the NEO-12727 which could lead to workflows being stopped when a Test activity was executed twice. (NEO-16835) 
