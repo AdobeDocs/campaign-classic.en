@@ -1,6 +1,6 @@
 ---
-title: Release Notes overview
-description: Release Notes overview
+title: Get started with upgrades
+description: Get started with upgrades
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Release notes overview{#rn-overview}
+# Get started with upgrades{#rn-overview}
 
 ## Release statuses{#rn-statuses}
 
