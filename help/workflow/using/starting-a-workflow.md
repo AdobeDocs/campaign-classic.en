@@ -26,7 +26,7 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 
 >[!IMPORTANT]
 >
->Keep in mind that, when an operator performs an action on a workflow (start, stop, pause, etc.), the action is not executed straightaway, but instead placed in a queue in order to be processed by the [workflow module](../../workflow/architecture.md).
+>Keep in mind that, when an operator performs an action on a workflow (start, stop, pause, etc.), the action is not executed straightaway, but instead placed in a queue in order to be processed by the [workflow module](../../workflow/using/architecture.md).
 
 ## Actions toolbar {#actions-toolbar}
 
