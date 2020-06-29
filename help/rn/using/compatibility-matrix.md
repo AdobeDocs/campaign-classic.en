@@ -197,7 +197,7 @@ This document lists all systems and components supported for the latest build of
 </ul>
 <p>Warning: Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. Refer to the <a href="https://docs.campaign.adobe.com/doc/AC/en/INS_Prerequisites_and_recommendations__Database.html#Microsoft_SQL_Server">Installation guide</a>.</p>
 </td>
-</tr><
+</tr>
 </tbody>
 </table>
 
