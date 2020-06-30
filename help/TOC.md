@@ -314,6 +314,13 @@ sub-product: adobe campaign classic
        + [Synchronizing audiences](integrations/using/synchronizing-audiences.md)
        + [Synchronizing web applications](integrations/using/synchronizing-web-applications.md)
        + [Troubleshooting the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
+  + Experience Cloud Triggers {#experience-triggers}
+       + [About [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
+       + [Configuring pipeline](integrations/using/configuring-pipeline.md)
+       + [Pipeline option NmsPipeline_Config](integrations/using/nmspipeline-config.md)
+       + [Triggers events](integrations/using/events.md)
+       + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
+       + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
 + Automating with Workflows {#automating-with-workflows}
   + Introduction {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
@@ -391,6 +398,7 @@ sub-product: adobe campaign classic
        + [Inbound Emails](workflow/using/inbound-emails.md)
        + [Inbound SMS](workflow/using/inbound-sms.md)
   + Use cases {#use-cases}
+       + [About workflow use cases](workflow/using/about-workflow-use-cases.md)
        + Deliveries {#deliveries}
           + [Using the local approval activity](workflow/using/using-the-local-approval-activity.md)
           + [A/B testing](workflow/using/a-b-testing.md)
