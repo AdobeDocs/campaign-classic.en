@@ -37,7 +37,9 @@ To create your [!DNL Azure Synapse] external account external account:
 
 1. In Campaign Classic, configure your [!DNL Azure Synapse] external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
-1. Click **[!UICONTROL Create]**.
+1. Click **[!UICONTROL New]**.
+
+1. Select **[!UICONTROL External database]** as your external account's **[!UICONTROL Type]**.
 
 1. Configure the [!DNL Azure Synapse] external account, you must specify:
 
@@ -235,9 +237,13 @@ The [!DNL Snowflake] external account allows you to connect your Campaign instan
 
 1. In Campaign Classic, configure your [!DNL Snowflake] external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
-1. Select the built-in **[!UICONTROL Snowflake]** external account.
+1. Click **[!UICONTROL New]**.
+
+1. Select **[!UICONTROL External database]** as your external account's **[!UICONTROL Type]**.
 
 1. Configure the **[!UICONTROL Snowflake]** external account, you must specify:
+
+    * **[!UICONTROL Type]**: [!DNL Snowflake]
 
     * **[!UICONTROL Server]**: URL of the [!DNL Snowflake] server
 
@@ -312,24 +318,17 @@ The connector supports the following options:
 
 ## Configure access to Hadoop 3.0 {#configure-access-to-hadoop-3}
 
-Connecting to a Hadoop external database in FDA requires the following configurations on the Adobe Campaign server. Note that this configuration is available for both Windows and Linux.
+### Hadoop external account {#hadoop-external}
 
-1. Download the ODBC drivers for Hadoop depending on your OS version. Drivers can be found on [this page](https://www.cloudera.com/downloads.html).
+The [!DNL Hadoop] external account allows you to connect your Campaign instance to your Hadoop external database.
 
-1. You then need to install the ODBC drivers and create a DSN for your Hive connection. Instructions can be found in [this page](https://docs.cloudera.com/documentation/other/connectors/hive-odbc/2-6-5/Cloudera-ODBC-Driver-for-Apache-Hive-Install-Guide.pdf)
+1. In Campaign Classic, configure your [!DNL Hadoop] external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
-1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
+1. Click **[!UICONTROL New]**.
 
-     ```
-    systemctl stop nlserver.service
-    systemctl start nlserver.service
-     ```
+1. Select **[!UICONTROL External database]** as your external account's **[!UICONTROL Type]**.
 
-1. In Campaign Classic, you can then configure your Snowflake external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
-
-1. Click **[!UICONTROL Create]** and select **[!UICONTROL External database]** as Account type.
-
-1. To configure the **[!UICONTROL  Hadoop]** external account, you need to specify:
+1. Configure the **[!UICONTROL Hadoop]** external account, you must specify:
 
     * **[!UICONTROL Type]**: ODBC (Sybase ASE, Sybase IQ)
 
@@ -361,12 +360,52 @@ The connector also supports the following Hive options:
 |  bucketsNumber |  20 |  Number of buckets when creating a clustered table. |
 |  fileFormat |  PARQUET |  Default file format for work tables. |
 
+### Configuring Hadoop 3.0 {#configuring-hadoop}
+
+Connecting to a Hadoop external database in FDA requires the following configurations on the Adobe Campaign server. Note that this configuration is available for both Windows and Linux.
+
+1. Download the ODBC drivers for Hadoop depending on your OS version. Drivers can be found on [this page](https://www.cloudera.com/downloads.html).
+
+1. You then need to install the ODBC drivers and create a DSN for your Hive connection. Instructions can be found in [this page](https://docs.cloudera.com/documentation/other/connectors/hive-odbc/2-6-5/Cloudera-ODBC-Driver-for-Apache-Hive-Install-Guide.pdf)
+
+1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
+
+     ```
+    systemctl stop nlserver.service
+    systemctl start nlserver.service
+     ```
+
+1. In Campaign Classic, you can then configure your [!DNL Hadoop] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#hadoop-external).
 
 ## Configure access to Oracle {#configure-access-to-oracle}
 
-Connecting to an Oracle external database in FDA requires additional configurations below on the Adobe Campaign server.
+### Oracle external account {#oracle-external}
 
-### For Linux {#for-linux-1}
+The [!DNL Oracle] external account allows you to connect your Campaign instance to your Hadoop external database.
+
+1. In Campaign Classic, configure your [!DNL oracle] external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+
+1. Click **[!UICONTROL New]**.
+
+1. Select **[!UICONTROL External database]** as your external account's **[!UICONTROL Type]**.
+
+1. Configure the **[!UICONTROL Oracle]** external account, you must specify:
+
+    * **[!UICONTROL Type]**: Oracle
+
+    * **[!UICONTROL Server]**: Name of the DNS
+
+    * **[!UICONTROL Account]**: Name of the user
+
+    * **[!UICONTROL Password]**: User account password
+
+    * **[!UICONTROL Time zone]**: Server time zone
+
+    ![](assets/oracle_config.png)
+
+### Oracle on Linux {#for-linux-1}
+
+Connecting to an Oracle external database in FDA requires additional configurations below on the Adobe Campaign server.
 
 1. Install the Oracle full client corresponding to your version of Oracle.
 1. Add your TNS definitions to your installation. To do this, specify them in a **tnsnames.ora** file in the /etc/oracle repository. If this repository does not exist, create it.
@@ -404,10 +443,16 @@ Connecting to an Oracle external database in FDA requires additional configurati
       yum install libaio1
       ```
 
-### For Windows {#for-windows-1}
+1. In Campaign Classic, you can then configure your [!DNL Oracle] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#oracle-external).
+
+### Oracle on Windows {#for-windows-1}
+
+Connecting to an Oracle external database in FDA requires additional configurations below on the Adobe Campaign server.
 
 1. Install the Oracle client.
 
 1. In the C:Oracle folder, create a **tnsnames.ora** file containing your TNS definition.
 
 1. Add a TNS_ADMIN environment variable with C:Oracle as value and restart the machine.
+
+1. In Campaign Classic, you can then configure your [!DNL Oracle] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#oracle-external).
