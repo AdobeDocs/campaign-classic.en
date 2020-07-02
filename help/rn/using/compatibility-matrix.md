@@ -410,42 +410,22 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tbody>
 <tr>
 <td>Internet Explorer</td>
-<td>
-<ul>
-<li>11</li>
-</ul>
-</td>
+<td>11</td>
 </tr>
 <tr>
 <td>Microsoft Edge</td>
-<td>
-<ul>
-<li>Latest version</li>
-</ul>
-</td>
+<td>Latest version</td>
 </tr>
 <tr>
 <td>Firefox</td>
-<td>
-<ul>
-<li>Latest version</li>
-</ul>
-</td>
+<td>Latest version</td>
 </tr>
 <tr><td>Chrome</td>
-<td>
-<ul>
-<li>Latest version</li>
-</ul>
-</td>
+<td>Latest version</td>
 </tr>
 <tr>
 <td>Safari</td>
-<td>
-<ul>
-<li>Latest version</li>
-</ul>
-</td>
+<td>Latest version</td>
 </tr>
 </tbody>
 </table>

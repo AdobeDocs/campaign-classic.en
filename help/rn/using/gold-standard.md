@@ -18,6 +18,10 @@ snippet: y
 
 # Gold Standard release{#gold-standard}
 
+As a Gold Standard user, you automatically benefit from the Gold Standard upgrade with the latest stable version without any action.
+
+This is our Long-Term-Support release. If you migrate from an old build, we recommend that you upgrade first to this version. 
+
 This page lists Gold Standard releases. 
 
 For more information on Gold Standard upgrade, refer to this [article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
