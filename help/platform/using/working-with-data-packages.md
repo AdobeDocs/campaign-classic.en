@@ -24,7 +24,7 @@ Adobe Campaign allows you to export or import the platform configuration and dat
 
 Data packages let entities of the Adobe Campaign database be displayed via files in XML format. Each entity contained in a package is represented with all of its data.
 
-The principle of **data packages** is to export a data configuration and integrate it into another Adobe Campaign system. For more information on how to maintain a consistent set of data packages, refer to this [technote](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_How_to_maintain_a_consistent_set_of_data_packages.pdf).
+The principle of **data packages** is to export a data configuration and integrate it into another Adobe Campaign system. Learn how to maintain a consistent set of data packages in this [section](#data-package-best-practices).
 
 ### Types of packages {#types-of-packages}
 
@@ -337,15 +337,11 @@ For more information on standard packages, refer to [this page](../../installati
 
 This section describes how to organize data packages in a consistent way across the life of the project.
 
-<!--Adobe Campaign allows you to export or import the platform configuration through a package system.-->
-
 Packages can contain different kinds of configurations and elements, filtered or not. If you miss some elements or do not import elements/packages in the correct order, the platform configuration can break.
 
 Moreover, with several people working on the same platform with a lot of different features, the package specifications folder can quickly become complex.
 
 Although it is not mandatory to do so, this section offers a solution to help organize and use packages in Adobe Campaign for large-scale projects.
-
-<!--This solution has been used with a project involving more than 10 consultants.-->
 
 The main constraints are as follows:
 * Organize packages and keep a track of what is changed and when
