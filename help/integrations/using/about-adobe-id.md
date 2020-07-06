@@ -27,7 +27,7 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID. T
 
 Adobe’s identity management system helps admins create and manage user's access to applications and services. For more information on the different types of Adobe IDs, refer to [this page](https://helpx.adobe.com/enterprise/using/identity.html).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The IMS implementation is strictly reserved to the Adobe technical administrators. The IMS implementation is a complex process which can be long to implement.
 

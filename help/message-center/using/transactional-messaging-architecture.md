@@ -31,7 +31,7 @@ Execution instances receive events, link them to transactional message templates
 
 ## Supporting several control instances {#supporting-several-control-instances}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Sharing an execution cluster with several control instances is only supported for on-premise environments.
 
@@ -47,7 +47,7 @@ It is possible to share an execution cluster among several control instances. Fo
 
 There are several precautions to take when installing the Transactional message packages. Adobe recommends you to work in a test environment before putting into production. You also need to have a compatible Adobe Campaign license. For more information, please contact your Adobe account executive.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The control instance and the execution instance(s) must be installed on different machines. They cannot share the same Campaign instance.
 
@@ -83,7 +83,7 @@ To use transactional messaging with Interaction, you need to apply the following
 
 * Install the **Interaction** package onto the control instance and configure your offer catalog.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >Do not replicate the offers onto the execution instances.
 

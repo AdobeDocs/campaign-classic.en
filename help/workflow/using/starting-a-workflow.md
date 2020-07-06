@@ -24,6 +24,10 @@ The toolbar allows you to start and track the execution of the workflow.
 
 The list of options available in the **[!UICONTROL Actions]** menu and the right-click menu are detailed below.
 
+>[!IMPORTANT]
+>
+>Keep in mind that, when an operator performs an action on a workflow (start, stop, pause, etc.), the action is not executed straightaway, but instead placed in a queue in order to be processed by the [workflow module](../../workflow/using/architecture.md).
+
 ## Actions toolbar {#actions-toolbar}
 
 The toolbar buttons are detailed in this [section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow). The **[!UICONTROL Actions]** button gives you access to additional execution options for acting on selected workflows. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]**.

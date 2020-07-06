@@ -12,6 +12,9 @@ topic: Premium
 
 ## What's New
 
+* **[Emoticons](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>
+You can now insert emoticons in messages and subject line
+
 * **[Get Support](https://helpx.adobe.com/campaign/kb/ac-support.html)**<br/>
 Access FAQs, best practices, help resources, and request for help
 
@@ -44,11 +47,11 @@ Learn how to send dynamic emails with the new AMP format
     <p>
   </td>
    <td>
-    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+    <a href="https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html">
       <img alt="Build Upgrade" src="platform/using/assets/upgrade.png" />
     </a>
     <div>
-      <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+      <a href="https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html">
     <strong>Upgrade to the latest build</strong>
     </a>
     </div>

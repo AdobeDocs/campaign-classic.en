@@ -28,7 +28,7 @@ When a message (email, SMS, push notification) cannot be sent to a profile, the 
 
 Once a message is sent, the delivery logs allows you to view the delivery status for each profile and the associated failure type and reason.
 
-Messages can also be excluded during the delivery preparation if an address is quarantined or if a profile is blacklisted. Excluded messages are listed in the delivery dashboard.
+Messages can also be excluded during the delivery preparation if an address is quarantined or if a profile is on the block list. Excluded messages are listed in the delivery dashboard.
 
 **Related topics:**
 
@@ -79,10 +79,10 @@ The possible reasons for a delivery failure are:
    <td> The quality rating for this address is too low.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted address </td> 
+   <td> Address on block list </td> 
    <td> Hard </td> 
    <td> 8 </td> 
-   <td> The address was blacklisted at the time of sending. This status is used for importing data from external lists and external systems when importing data into the Adobe Campaign Quarantine list.<br /> </td> 
+   <td> The address was added to the block list at the time of sending. This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
   </tr> 
   <tr> 
    <td> Control address </td> 
@@ -100,7 +100,7 @@ The possible reasons for a delivery failure are:
    <td> Error ignored </td> 
    <td> Ignored </td> 
    <td> 25 </td> 
-   <td> The address is whitelisted. The error is therefore ignored and an email will be sent.<br /> </td> 
+   <td> The address is on the allow list. The error is therefore ignored and an email will be sent.<br /> </td> 
   </tr> 
   <tr> 
    <td> Excluded after arbitration </td> 
@@ -200,7 +200,7 @@ A message can fail immediately (synchronous error), or later on, after it has be
   >
   >Configuration of the bounce mailbox is detailed in [this section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-  The feedback loop operates like bounce emails. When a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. Messages sent to users who have qualified an email as spam are automatically redirected towards an email box specifically created for this purpose. The addresses of these users are blacklisted even though they didn't click the unsubscription link. Addresses are blacklisted in the (**NmsAddress**) quarantine table and not the (**NmsRecipient**) recipient table.
+  The [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) operates like bounce emails. When a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. Messages sent to users who have qualified an email as spam are automatically redirected towards an email box specifically created for this purpose. The addresses of these users are on the block list even though they didn't click the unsubscription link. Addresses are on the block list in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table.
 
   >[!NOTE]
   >

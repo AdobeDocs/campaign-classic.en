@@ -126,7 +126,7 @@ To configure Azure Synapse on CentOS:
 
    >[!NOTE]
    >
-   >To allow communication from Azure Synapse Analytics' side you might need to whitelist your public IP. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >To allow communication from Azure Synapse Analytics' side you might need to add your public IP to the allow list. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 1. In case of iptables, run the following command:
 
@@ -217,7 +217,7 @@ To configure Azure Synapse on Debian:
 
    >[!NOTE]
    >
-   >To allow communication from Azure Synapse Analytics' side you might need to whitelist your public IP. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >To allow communication from Azure Synapse Analytics' side you might need to add your public IP to the allow list. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 ## Configure access to Snowflake {#configure-access-to-snowflake}
 
