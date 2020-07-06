@@ -198,14 +198,19 @@ The registration function enables you to:
       if( url == null )     url = "https://www.tripadvisor.fr";
       int iconId = R.drawable.notif_neotrip;
 
-      // notify Neolane that a notification just arrived
-      NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
-      nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
-        public void onNeolaneException(NeolaneException arg0, Object arg1) {}
-        public void onIOException(IOException arg0, Object arg1) {}
-        public void onComplete(String arg0, Object arg1){}
-      });
-      if (yourApplication.isActivityVisible())
+    // notify Neolane that a notification just arrived
+    SharedPreferences settings = context.getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
+    Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
+    Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
+    Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
+ 
+    NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
+    nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
+      public void onNeolaneException(NeolaneException arg0, Object arg1) {}
+      public void onIOException(IOException arg0, Object arg1) {}
+      public void onComplete(String arg0, Object arg1){}
+    });
+    if (yourApplication.isActivityVisible())
       {
         Log.i("INFO", "The application has the focus" );
         ...
@@ -243,27 +248,32 @@ The registration function enables you to:
 
   ```
   public class NotificationActivity extends Activity {
-   public static final String NOTIFICATION_URL_KEYNAME = "NotificationUrl";
-   .....
-   public void onCreate(Bundle savedBundle) {
-    super.onCreate(savedBundle);
-    setContentView(R.layout.notification_viewer);  
-    .....  
-    Bundle extra = getIntent().getExtras();  
-    .....  
-    //get the messageId and the deliveryId to do the tracking  
-    String deliveryId = extra.getString("_dId");
-    String messageId = extra.getString("_mId");
-    if (deliveryId != null && messageId != null) {
-     NeolaneAsyncRunner neolaneAs = new NeolaneAsyncRunner(Neolane.getInstance());
-     neolaneAs.notifyOpening(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
-      public void onNeolaneException(NeolaneException arg0, Object arg1) {}
-      public void onIOException(IOException arg0, Object arg1) {}
-      public void onComplete(String arg0, Object arg1) {}
-      });
+  public void onCreate(Bundle savedBundle) {
+    [...]
+    Bundle extra = getIntent().getExtras();
+    if (extra != null) {
+      // reinit the acc sdk
+      SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
+      Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
+      Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));               
+      Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
+ 
+      // Get the messageId and the deliveryId to do the tracking
+      String deliveryId = extra.getString("_dId");
+      String messageId = extra.getString("_mId");
+      if (deliveryId != null && messageId != null) {
+        try {
+          Neolane.getInstance().notifyOpening(Integer.valueOf(messageId), Integer.valueOf(deliveryId));
+        } catch (NeolaneException e) {
+          // ...
+        } catch (IOException e) {
+          // ...
+        }
+      }
     }
    }
   }
+
   ```
 
 * **In iOS**:
