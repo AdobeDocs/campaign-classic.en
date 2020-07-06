@@ -37,7 +37,7 @@ To correctly handle privacy and manage personal data, work within the legislatio
 * [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (US law setting the rules and requirements for commercial email)
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=) (California Consumer Privacy Act)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Thailand Personal Data Protection Act)
-<!--[LGPD](https://gdpr.eu/gdpr-vs-lgpd/) (Brazil's Lei Geral de Proteção de Dados), which will be effective starting Aug, 16 2020.-->
+* [LGPD](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf) (Brazilian General Data Protection Law) - will be effective starting Aug, 16 2020
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy 
 * **How Adobe Experience Cloud is used to collect information**
 
     * Adobe Experience Cloud solutions use cookies and similar technologies, such as web beacons (also known as tags or pixels), to enable you to collect information. For more on cookies and tracking capabilities with Adobe Campaign, see [this section](#tracking-capabilities).
-    * You may also use Adobe Experience Cloud technologies within your mobile apps. For more on sending mobile deliveries with Campaign, see [this page](https://helpx.adobe.com/campaign/kb/acs-mobile.html).
+    * You may also use Adobe Experience Cloud technologies within your mobile apps. For more on sending mobile deliveries with Campaign, see [SMS channel](../../delivery/using/sms-channel.md) and [Mobile app channel](../../delivery/using/about-mobile-app-channel.md).
 
 * **You users' privacy choices about your use of Adobe Experience Cloud**
 
@@ -86,14 +86,14 @@ The [main legislations](#privacy-regulations) refer to the different entities th
 
 Therefore, as a company collecting and sharing personal data, you are the Data Controller, your clients are the Data Subjects and Adobe Campaign acts as a Data Processor when handling their personal data as directed by you. Note that it is your responsibility as a Data Controller to handle the relationship with the Data Subjects such as when managing [privacy requests](#privacy-requests).
 
-When integrating Campaign with other Experience Cloud solutions where audiences can be transferred from one system to another, such as the [Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager or People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), or with other solutions such as [Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md), you need to pay extra care to personal data protection.
+When integrating Campaign with other Experience Cloud solutions where audiences can be transferred from one system to another, such as [Adobe Analytics](../../platform/using/adobe-analytics-data-connector.md), [Audience Manager or People core service](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md), or with other solutions through [CRM Connectors](../../platform/using/crm-connectors.md), you need to pay extra care to personal data protection.
 
 ## Data acquisition {#data-acquisition}
 
 Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and monitor consent from your recipients.
 
-* Always have recipients agree to receive communications. To do this, keep honoring opt-out requests as quickly as possible and verify consent through a double opt-in process. For more on this, see [Managing opt-in and opt-out in Campaign](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) and [Setting up a double opt-in process](../../channels/using/setting-up-a-double-opt-in-process.md).
-* Do not import fraudulent lists and use traps to check that your client file is not being used fraudulently. For more on this, see [Using traps](../../sending/using/using-traps.md).
+* Always have recipients agree to receive communications. To do this, keep honoring opt-out requests as quickly as possible and verify consent through a double opt-in process. For more on this, see [Create a subscription form with double opt-in](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in).
+* Do not import fraudulent lists and use seed addresses to check that your client file is not being used fraudulently. For more on this, see [About seed addresses](../../delivery/using/about-seed-addresses.md).
 * Through consent and rights management, you can track your recipients' preferences as well as manage who within your organization can access which data. For more on this, see [this section](#consent).
 * Facilitate and manage Privacy requests from your recipients. For more on this, see [this section](#privacy-requests).
 
@@ -104,7 +104,7 @@ Privacy management refer to all the processes and tools that can help you comply
 Adobe Campaign provides you with various sets of features dedicated to privacy management:
 * Consent management, data Retention and user Roles. See [this section](#consent).
 * Privacy requests (Right to Access and Right to be Forgotten). See [this section](#privacy-requests).
-* Opt-out for the Sale of Personal Information (CCPA-specific). See [this section](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+* Opt-out for the Sale of Personal Information (CCPA-specific). See [this section](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa).
 
 The main Privacy capabilities in Campaign and an example of the personas involved are presented in [this section](https://helpx.adobe.com/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
 
@@ -113,9 +113,9 @@ The main Privacy capabilities in Campaign and an example of the personas involve
 
 Originally, Adobe Campaign offers important features that are essential to Privacy:
 
-* **Consent management**: Through the subscription management process, you can manage your recipients' preferences and track which recipients have opted-in to which type of subscriptions. For more on this, see [Subscriptions](../../audiences/using/about-subscriptions.md) and [Landing pages](../../channels/using/getting-started-with-landing-pages.md).
+* **Consent management**: Through the subscription management process, you can manage your recipients' preferences and track which recipients have opted-in to which type of subscriptions. For more on this, see [About subscriptions](../../delivery/using/about-services-and-subscriptions.md).
 * **Data retention**: All built-in standard log tables have pre-set retention periods, generally limiting their data storage to 6 months or less. Additional retention periods can be set up with workflows. For more on this, reach out to the Adobe consultants or technical administrators.
-* **Rights management**: Adobe Campaign provides you with the ability to manage the rights assigned to the various Campaign operators via different pre-built or custom roles. This allows you to manage who within your company can access, modify or export different types of data. For more on this, see [About access management](../../administration/using/about-access-management.md).
+* **Rights management**: Adobe Campaign provides you with the ability to manage the rights assigned to the various Campaign operators via different pre-built or custom roles. This allows you to manage who within your company can access, modify or export different types of data. For more on this, see [About access management](../../platform/using/access-management.md).
 
 For more on these features and how to manage them in Adobe Campaign, see [this page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
 
@@ -139,13 +139,13 @@ Adobe Campaign provides additional capabilities to help you facilitate your read
 
 Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug, 16 for all companies collecting or processing personal data in Brazil. This regulation also applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-The **Access** and **Delete** requests are presented on [this page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess). The implementation steps to create these requests are detailed on [this page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
+The **Access** and **Delete** requests are presented on [this page](https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess). The implementation steps to create these requests are detailed on [this page](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests). <!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
 
 ## Tracking capabilities {#tracking-capabilities}
 
-Thanks to its tracking functionalities, Adobe Campaign enables you to track the behavior of your delivery recipients using session cookies and permanent cookies. For more on tracking, see [this page](../../sending/using/tracking-messages.md).
+Thanks to its tracking functionalities, Adobe Campaign enables you to track the behavior of your delivery recipients using session cookies and permanent cookies. For more on tracking, see [this page](../../web/using/web-application-tracking-opt-out.md).
 
-The configuration of the user tracking management is available for the Web Applications and Landing Pages with an Opt-out banner. Refer to [this page](../../web/using/web-application-tracking-opt-out.md).
+The configuration of the user tracking management is available for the web applications and landing pages with an opt-out banner. For more on this, see [this section](../../web/using/web-application-tracking-opt-out.md).
 
 >[!NOTE]
 >
