@@ -143,12 +143,16 @@ The **Access** and **Delete** requests are presented on [this page](https://help
 
 ## Tracking capabilities {#tracking-capabilities}
 
-Thanks to its tracking functionalities, Adobe Campaign enables you to track the behavior of your delivery recipients using session cookies and permanent cookies. For more on tracking, see [this page](../../web/using/web-application-tracking-opt-out.md).
+Thanks to its tracking functionalities, Adobe Campaign lets you track the messages sent and the behavior of recipients: opening, clicks on links, unsubscription, etc. For more on this, see [About message tracking](../../delivery/using/about-message-tracking.md).
 
-The configuration of the user tracking management is available for the web applications and landing pages with an opt-out banner. For more on this, see [this section](../../web/using/web-application-tracking-opt-out.md).
+Adobe Campaign allows you to track and measure visits on Web application pages by inserting tracking tags. For more on this, see [Tracking a web application](../../web/using/tracking-a-web-application.md).
+
+Adobe Campaign enables you to collect information on how internet users browse your website. For more on this, see [About web tracking](../../configuration/using/about-web-tracking.md).
 
 >[!NOTE]
 >
 >Regulations such as the General Data Protection Regulation (GDPR) state that companies require the agreement of website users before installing any cookies. You must inform users that your sites are equipped with web tracking tools via an authorization request.
 
-You can also add [tracked links](../../designing/using/links.md#about-tracked-urls) in your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking indicators](../../reporting/using/tracking-indicators.md) built-in report, or create your own [dedicated reports](../../reporting/using/about-dynamic-reports.md).
+The configuration of the user tracking management is available for the web applications and landing pages with an opt-out banner. For more on this, see [this section](../../web/using/web-application-tracking-opt-out.md).
+
+You can also add [tracked links](../../delivery/using/about-message-tracking.md) to your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking](../../delivery/using/monitoring-a-delivery.md#tracking-logs) tab of the delivery dashboard. Tracking data is interpreted in the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) report.
