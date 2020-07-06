@@ -26,10 +26,10 @@ snippet: y
 
 | Database version | Driver version |  Minimal Campaign version required |  Note |
 |:-:|:-:|:-:|:-:|
-| 15  |  15 |  Campaign Classic 17.9| Under Linux: Queries with timestamp may fail (fixed in build 8937 for 18.4 and 8977 for 18.10)
-In debug mode, warnings relative to bad memory usage in the driver may occur. However, stability was not an issue during our tests with this setup.  |
-|   |   |   |   |
-|   |   |   |   |
+| 15  |  15 |  Campaign Classic 17.9 | Under Linux: Queries with timestamp may fail (fixed in build 8937 for 18.4 and 8977 for 18.10) In debug mode, warnings relative to bad memory usage in the driver may occur. |
+| 15  | 16  | Campaign Classic 17.9  | Recommended setup for a Teradata 15 database under Linux.  |
+|  16 | 16  | Campaign Classic 18.10 |  Unicode characters with surrogate pairs are not fully handled. Using surrogate characters in data should work. Using surrogates in a filtering condition of a query will not work without this change. |
+| 16  |  15 |  not supported |  &nbsp; |
 
 **Based in Latin1**
 
@@ -43,7 +43,7 @@ Customers with a Latin-1 Teradata database migrating to a recent Campaign Classi
 
 #### User configuration {#user-configuration}
 
-The following rights are required: create/drop/execute custom procedures, create/drop/insert/select tables. You may also have to create user mode functions if you want to use md5 and sha2 function on your Adobe Campaign instance (see user mode functions).
+The following rights are required: create/drop/execute custom procedures, create/drop/insert/select tables. You may also have to create user mode functions if you want to use md5 and sha2 function on your Adobe Campaign instance.
 
 Make sure to configure the correct time zone. It should match what will be set in the external account created in the Adobe Campaign instance.
 
@@ -55,7 +55,7 @@ Campaign will not set a protection mode (fallback) on the objects it will create
 
 #### MD5 installation {#md5-installation}
 
-If you want to use md5 functions in your Adobe Campaign instance, you will have to install the user mode function on your Teradata database here (md5_20080530.zip).
+If you want to use md5 functions in your Adobe Campaign instance, you will have to install the user mode function on your Teradata database from this [page](https://downloads.teradata.com/download/extensibility/md5-message-digest-udf) (md5_20080530.zip).
 
 The sha1 of the downloaded file is 65cc0bb6935f72fcd84fef1ebcd64c00115dfd1e.
 
@@ -75,7 +75,7 @@ To install md5:
 
 #### SHA2 installation {#sha2-installation}
 
-If you want to use sha2 functions in your Adobe Campaign instance, you will have to install the user mode function on your Teradata database here (teradata-udf-sha2-1.0.zip).
+If you want to use sha2 functions in your Adobe Campaign instance, you will have to install the user mode function on your Teradata database from this [page](https://github.com/akuroda/teradata-udf-sha2/archive/v1.0.zip) (teradata-udf-sha2-1.0.zip).
 
 The sha1 of the downloaded file is e87438d37424836358bd3902cf1adeb629349780.
 
@@ -96,7 +96,7 @@ To install sha2:
 
 #### UDF_UTF16TO8 installation {#UDF-UTF16TO8-installation}
 
-If you want to use udf_utf16to8 functions in your Adobe Campaign instance, you will have to install the user mode function on your Teradata database from the "Teradata unicode tool kit" here (utk_release1.7.0.0.zip).
+If you want to use udf_utf16to8 functions in your Adobe Campaign instance, you will have to install the user mode function on your Teradata database from the "Teradata unicode tool kit" of this [page](https://downloads.teradata.com/download/tools/unicode-tool-kit) (utk_release1.7.0.0.zip).
 
 The sha1 of the downloaded file is e58235f434f52c71316a577cb48e20b97d24f470.
 
@@ -126,9 +126,9 @@ To install udf_utf16to8:
 
 Two things are required for the driver installation:
 
-* Teradata ODBC Driver: https://downloads.teradata.com/download/connectivity/odbc-driver/linux
+* Teradata ODBC Driver, which can be found in this [page](https://downloads.teradata.com/download/connectivity/odbc-driver/linux)
 
-* Teradata Tools and Utilities (used for the bulk load): https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-linux-installation-package-0
+* Teradata Tools and Utilities (used for the bulk load), which can be found in this [page](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-linux-installation-package-0)
 
 File names and sha1:
 
@@ -176,15 +176,15 @@ To install Tools:
 
 #### Driver configuration {#driver-configuration}
 
-Check specific database doc teradata
+To learn more on driver configuration, refer to this [section](../../platform/using/legacy-connectors.md#configure-access-to-teradata).
 
 #### Environment variables {#environment-varaiables}
 
-check dic teradata
+To learn more on the environment variables of the Adobe Campaign server, refer to this [section](../../platform/using/legacy-connectors.md#configure-access-to-teradata).
 
 ### Campaign server configuration for Windows #campaign-server-windows}
 
-You first need to download Teradata Tools and utilities for Windows.
+You first need to download Teradata Tools and utilities for Windows. You can download it from this [page](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-windows-installation-package)
 
 Make sure to install the ODBC driver and the Teradata Parallel Transporter Base. It will install telapi.dll that is used to do bulk load on Teradata database.
 
@@ -200,13 +200,13 @@ The error ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source na
 If you have a 18.10 Campaign server version, you can add ODBCDriverName="Teradata Database ODBC Driver 16.10" in the options of the external account. The version number can change, the exact name can be found by running odbcad32.exe and accessing to the Drivers tab.
 For version below 18.10, you will have to copy the Teradata section of odbcinst.ini created by the driver installation to a new section called Teradata,regedit can be used in this case.
 
-If your base is in latin1, you will have to add APICharSize=1 in the options. See the compatibility section for more information.
+If your base is in latin1, you will have to add APICharSize=1 in the options.
 
 ### Time zone {#timezone}
 
 Time zone handling has been improved and added in build 8931 for 18.4 and 8977 for 18.10.
 
-Teradata uses time zone name that are not standard, you can find the list on the Teradata site. Campaign will try to convert the time zone given in the external configuration to something Teradata understand. If a correspondence is not found, the closet GMT+X (or GMT-X) time zone will be found for the session, with a warning in the log.
+Teradata uses time zone name that are not standard, you can find the list on the [Teradata site](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/oGKvgl7gCeBMTGrp59BnwA). Adobe Campaign will try to convert the time zone given in the external configuration to something Teradata understand. If a correspondence is not found, the closet GMT+X (or GMT-X) time zone will be found for the session, with a warning in the log.
 The conversion is done reading a file called teradata_timezones.txt that tshould be in the following datakit directory: /usr/local/neolane/nl6/datakit under linux. If you edit this file, make sure to contact the Adobe Campaign team to make the change in the source code otherwise this file will be overwritten during next Campaign update.
 
 The time zone used to connect will be indicated when running nlserver with the -verbose switch, for example:
@@ -233,7 +233,7 @@ The server configuration does not require any specific installation steps. Adobe
 
 #### Debian {#debian-mysql}
 
-Download mysql-apt-config.deb from https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en.
+Download mysql-apt-config.deb from this [page](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en).
 
 Install the client library:
 
@@ -245,13 +245,13 @@ $ apt install libmysqlclient20
 
 #### Windows [#windows-mysql}
 
-Download the C connector from https://dev.mysql.com/downloads/connector/c. We recommend downloading version 5.7.
+Download the C connector from this [page](https://dev.mysql.com/downloads/connector/c). We recommend downloading version 5.7.
 
 Make sure the directory that contains libmysqlclient.dll is added to the PATH environment variable that nlserver will use.
 
 #### CentOS {#centos-mysql}
 
-Download mysql57-community-release.noarch.rpm from https://dev.mysql.com/downloads/repo/yum.
+Download mysql57-community-release.noarch.rpm from this [page](https://dev.mysql.com/downloads/repo/yum).
 
 Install the client library:
 
