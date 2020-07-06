@@ -32,7 +32,7 @@ The page displayed lets you view the state of the connected instance, i.e.:
 * the list of missing processes and execution information (start date, PID, etc.), 
 * a view of workflows and deliveries.
 
-Additional ways of monitoring the different Campaign processes are presented in [this page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+Additional ways of monitoring the different Campaign processes are presented in [this page](../../production/using/monitoring-guidelines.md).
 
 ### Log journal {#log-journal}
 
