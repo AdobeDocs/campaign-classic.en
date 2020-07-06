@@ -85,4 +85,4 @@ Learn how to send dynamic emails with the new AMP format
 | [Get started with Campaign](platform/using/about-adobe-campaign-classic.md) | [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html) |
 | [Gold Standard upgrade](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
 | [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) | [Security & privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) |
-| [Campaign Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Monitoring best practices](https://helpx.adobe.com/campaign/kb/acc-maintenance.html) |
+| [Campaign Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Monitoring guidelines](production/using/monitoring-guidelines.md) |
