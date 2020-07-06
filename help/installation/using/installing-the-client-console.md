@@ -72,6 +72,11 @@ Once the client console is installed, follow the steps below to create the conne
 
 You can add as many connections as needed to connect to your test, stage and production environments for example.
 
+>[!NOTE]
+>
+>The **[!UICONTROL Add]** button lets you create **[!UICONTROL folders]** to organize all your connections. Simply drag and drop each connection into a folder.
+
+
 ## Log on to Campaign 
 
 To log on to an existing instance, follow the steps below:
