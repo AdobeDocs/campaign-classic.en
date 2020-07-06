@@ -609,7 +609,7 @@ sub-product: adobe campaign classic
   + Introduction {#introduction}
        + [Foreword](production/using/foreword.md)
        + [General architecture](production/using/general-architecture.md)
-       + [Monitoring guidelines](/production/using/monitoring-guidelines.md)
+       + [Monitoring guidelines](production/using/monitoring-guidelines.md)
   + Production procedures {#production-procedures}
        + [Configuration principle](production/using/configuration-principle.md)
        + [Operating principle](production/using/operating-principle.md)
