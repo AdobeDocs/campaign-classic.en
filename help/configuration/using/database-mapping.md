@@ -358,7 +358,7 @@ The various types of associations (known as "cardinalities") are as follows:
 
 In the interface, you can distinguish the different types of relations easily thanks to their icons.
 
-For join relations with a campain table/database:
+For join relations with a campaign table/database:
 
 * ![](assets/join_with_campaign11.png) : Cardinality 1-1. For example, between a recipient and a current order. A recipient can be related to only one occurrence of the current order table at a time. 
 * ![](assets/externaljoin11.png) : Cardinality 1-1, external join. For example, between a recipient and their country. A recipient can be related to only one occurrence of the table country. The content of the country table will not be saved. 

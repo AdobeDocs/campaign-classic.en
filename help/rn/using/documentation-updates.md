@@ -20,6 +20,12 @@ This page lists all the new features and documentation updates per month and Cam
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
+## July 2020 {#july-2020}
+
+A new section has been added with guidelines related to Campaign Classic monitoring. [Read more](../../production/using/monitoring-guidelines.md)
+
+The Privacy and Consent section has been enhanced with more detailed information and useful links. [Read more](../../platform/using/privacy-and-recommendations.md).
+
 ## June 2020 {#june-2020}
 
 The Removing a quarantined address section has been updated. This includes clarification of the cases in which addresses are automatically removed from the quarantine list. [Read more](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
@@ -62,7 +68,6 @@ The Campaign network endpoints have been moved to this [section](../../installat
 The Spam Assassin installation section has been updated with the new installation file name. [Learn more](../../installation/using/configuring-spamassassin.md#installing-spamassassin)
 
 The section on duplicating environments has been updated. [Learn more](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)
-
 
 ## May 2020 {#may-2020}
 
@@ -254,7 +259,7 @@ The steps to configure Inbox rendering for on-premise installations have 
 
 ## September 2019 {#september-2019}
 
-A new page has been added to provide general guidelines for maintaining Campaign Classic. [Read more](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)
+A new page has been added to provide general guidelines for maintaining Campaign Classic. [Read more](../../production/using/monitoring-guidelines.md)
 
 Information related to workflows monitoring has been centralized into a new dedicated section. [Read more](../../workflow/using/monitoring-workflow-execution.md).
 

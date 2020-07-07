@@ -20,7 +20,7 @@ snippet: y
 
 Technical workflows need to be monitored, and actions need to be taken when they fail.
 
-Additional ways of monitoring the different Campaign processes are presented in [this page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+Additional ways of monitoring the different Campaign processes are presented in [this page](../../production/using/monitoring-guidelines.md).
 
 ## Instance monitoring dashboard {#instance-monitoring-dashboard}
 

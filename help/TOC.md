@@ -67,12 +67,13 @@ sub-product: adobe campaign classic
   + Accessing an external database (FDA){#accessing-external-database}
        + [About FDA](platform/using/about-fda.md)
        + [Specific configurations by database type](platform/using/specific-configuration-database.md)
+       + [Legacy connectors](platform/using/legacy-connectors.md)
        + [Remote database access rights](platform/using/remote-database-access-rights.md)
        + [Connecting to the database](platform/using/connecting-to-database.md)
        + [Creating the data schema](platform/using/creating-data-schema.md)
        + [Defining data mapping](platform/using/defining-data-mapping.md)
        + [Additional options](platform/using/additional-options.md)
-       + [Using data from an external database in a workflow](platform/using/data-external-database-workflow.md)
+       + [Appendices](platform/using/appendices-fda.md)       
   + Connectors {#connectors}
        + [About connectors](platform/using/about-connectors.md)
        + [CRM Connectors](platform/using/crm-connectors.md)
@@ -617,6 +618,7 @@ sub-product: adobe campaign classic
   + Introduction {#introduction}
        + [Foreword](production/using/foreword.md)
        + [General architecture](production/using/general-architecture.md)
+       + [Monitoring guidelines](production/using/monitoring-guidelines.md)
   + Production procedures {#production-procedures}
        + [Configuration principle](production/using/configuration-principle.md)
        + [Operating principle](production/using/operating-principle.md)

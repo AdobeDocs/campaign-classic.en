@@ -26,7 +26,7 @@ ACS Connector bridges Adobe Campaign v7 and Adobe Campaign Standard. It is an in
 
 With ACS Connector, Campaign Standard continues to be used by digital marketers to design, target, and execute campaigns while Campaign v7 is tailor-made for data-oriented users such as database marketers.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ACS Connector is only available as part of the Adobe Campaign Prime offering. For more information on how to license Adobe Campaign Prime, contact your account manager.
 >
@@ -76,7 +76,7 @@ ACS Connector replicates the following items on a periodic basis from Campaign S
 
 Replicating delivery IDs and email logs allows to access the history of deliveries and tracking data for your v7 recipients from Campaign v7.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Only email broadlogs and tracking logs are replicated from Campaign Standard to Campaign v7.
 
@@ -113,7 +113,7 @@ Billing is not impacted by your choice of application to send deliveries, Campai
 
 Two types of implementation exist for ACS Connector. Both of them are always performed by the Adobe Campaign Consulting team.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >This section is intended for expert users only, to provide them with a global view of the implementation process and its main steps.
 >
@@ -133,7 +133,7 @@ All the technical elements related to ACS Connector are available in the **[!UIC
 
 After the installation of the package, two technical workflows are available under **[!UICONTROL Administration > ACS Connector > Process]**.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Never try to modify these workflows. They should never be in error or paused. If this happens, please contact your Adobe Campaign consultant.
 
@@ -283,7 +283,7 @@ The rights are handled differently in Campaign v7 and Campaign Standard. In Camp
 
 This section describes some of the possibilities in terms of advanced implementation.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >This information can only be used as general guidelines. Reach out to your Adobe Campaign consultant for the implementation.
 

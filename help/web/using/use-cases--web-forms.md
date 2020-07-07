@@ -55,7 +55,7 @@ Confirmation messages are sent via a dedicated delivery template referenced at t
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >This option may only be disabled in this type of context.
 
