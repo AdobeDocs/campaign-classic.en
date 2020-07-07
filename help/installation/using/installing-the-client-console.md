@@ -24,7 +24,7 @@ Before starting, you need to check Campaign [Compatibility matrix](https://helpx
 
 >[!CAUTION]
 >
->Campaign Client console and Campaign application server must run on the same product version and build.
+>Campaign Client console and Campaign application server must run on the same product version. Adobe also recommends to use the same product build.
 
 ## Download the console{#download-the-client-console}
 
