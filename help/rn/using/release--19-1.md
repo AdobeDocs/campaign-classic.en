@@ -76,11 +76,11 @@ _7 July 2020_
 
 This new build (9032&#64;XXXXXXX) includes the following fix:
 
+* Fixed an issue which prevented tracking links from working. (NEO-26411)
+
 >[!CAUTION]
 >
 >We recommend that you upgrade the client console with the one available in this release. Refer to this [page](../../installation/using/installing-the-client-console.md)
-
-* Fixed an issue which prevented tracking links from working. (NEO-26411)
 
 ![](assets/do-not-localize/orange_2.png) **June 22nd 2020**: new build (9032&#64;800be2e) which includes the following fixes:
 
