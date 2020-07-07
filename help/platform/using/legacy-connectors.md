@@ -255,7 +255,7 @@ Connecting to a Sybase IQ external database in FDA requires additional configura
 
 ## Configure access to Teradata {#configure-access-to-teradata}
 
-Connecting to a Teradata external database in FDA requires certain additional configurations on the Adobe Campaign server. For more information on how to configure your Teradata database, refer to this [page](../../platform/using/fda-appendices-fda.md#teradata-configuration).
+Connecting to a Teradata external database in FDA requires certain additional configurations on the Adobe Campaign server. For more information on how to configure your Teradata database, refer to this [page](../../platform/using/appendices-fda.md#teradata-configuration).
 
 1. Install the [ODBC driver for Teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
 
