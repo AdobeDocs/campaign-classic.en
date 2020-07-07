@@ -125,7 +125,7 @@ This new build (9032&#64;3a9dc9c) includes the following fixes:
 
 ![](assets/do-not-localize/orange_2.png) **Gold Standard 6 release**
 
-_5 March 2020_
+_9 March 2019_
 
 This new build (9032&#64;19f73c5) includes the following fix:
 
@@ -133,7 +133,7 @@ This new build (9032&#64;19f73c5) includes the following fix:
 
 ![](assets/do-not-localize/orange_2.png) **Gold Standard 5 release**
 
-_17 December 2020_
+_17 December 2019_
 
 This new build (9032&#64;d6b8062) includes the following fix:
 
@@ -141,7 +141,7 @@ This new build (9032&#64;d6b8062) includes the following fix:
 
 ![](assets/do-not-localize/orange_2.png) **Gold Standard 4 release**
 
-_11 December 2020_
+_11 December 2019_
 
 This new build (9032&#64;bc4a935) includes the following fix:
 
@@ -149,7 +149,7 @@ This new build (9032&#64;bc4a935) includes the following fix:
 
 ![](assets/do-not-localize/orange_2.png) **Gold Standard 3 release**
 
-_20 November 2020_
+_20 November 2019_
 
 This new build (9032&#64;3468c7b) includes the following fixes:
 
@@ -159,7 +159,7 @@ This new build (9032&#64;3468c7b) includes the following fixes:
 
 ![](assets/do-not-localize/orange_2.png) **Gold Standard 2 release**
 
-_19 September 2020_
+_19 September 2019_
 
 This new build (9032&#64;cee805c) includes the following fixes:
 
@@ -168,7 +168,7 @@ This new build (9032&#64;cee805c) includes the following fixes:
 
 ![](assets/do-not-localize/orange_2.png) Release 19.1.4 - Build 9032
 
-_13 August 2020_
+_13 August 2019_
 
 Initial 19.1.4 build which includes the following fixes:
 
