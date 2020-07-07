@@ -86,7 +86,7 @@ This new build (9032&#64;XXXXXXX) includes the following fix:
 
 * The iOS HTTP2 connector has been improved (third-party updates and error management). (NEO-25904, NEO-25903, NEO-25799)
 
-The following fixes are related to the tracking link security mechanism:
+The following fixes are related to the tracking link security mechanism (see the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)):
 
 * Fixed an issue which prevented the tracking of "notification clicks" from working (iOS and Android push notifications). (NEO-25965)
 * Fixed an issue which could prevent you from opening/clicking tracking URLs when using certain legacy versions of Outlook.  (NEO-25688)
