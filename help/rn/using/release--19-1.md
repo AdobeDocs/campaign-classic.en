@@ -85,6 +85,11 @@ The following fixes are related to the tracking link security mechanism:
 ![](assets/do-not-localize/orange_2.png) **April 29th 2020**: new build (9032&#64;3a9dc9c) which includes the following fixes:
 
 * Improved security on tracking links in email. This is enabled by default for all customers. An additional, enhanced security feature is available which can be enabled by reaching out to Customer Care. More details on the feature and steps for non-hosted customers to enable it can be found in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
+
+ >[!CAUTION]
+ >
+ >If you experience issues with push notifications using tracking links, or deliveries using anchor tags, we recommend that you disable the new signature mechanism for tracking links. The procedure is detailed in this [page](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
+
 * Fixed an issue which could prevent images from being displayed on Line deliveries. (NEO-23207)
 * Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183) 
 * Fixed an issue which could affect push notification when sent at a high frequency. (NEO-20516)
