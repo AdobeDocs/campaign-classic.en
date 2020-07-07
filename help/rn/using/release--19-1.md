@@ -166,7 +166,7 @@ This new build (9032&#64;cee805c) includes the following fixes:
 * Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
 * Fixed an index issue which could cause performance issues when sending transactional messages.
 
-![](assets/do-not-localize/orange_2.png)
+![](assets/do-not-localize/orange_2.png) Release 19.1.4 - Build 9032
 
 _13 August 2020_
 
