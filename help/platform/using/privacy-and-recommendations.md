@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Privacy and consent{#privacy-and-recommendations}
+# Privacy and Consent{#privacy-and-recommendations}
 
 ## General recommendations {#general-recommendations}
 
@@ -157,7 +157,7 @@ Regulations such as the General Data Protection Regulation (GDPR) state that com
 
 ### Message tracking {#message-tracking}
 
-Adobe Campaign lets you track the emails sent and the behavior of your delivery recipients: opening, clicks on links, unsubscription, etc. For more on this, see [About message tracking](../../delivery/using/about-message-tracking.md).
+Adobe Campaign lets you track the emails sent and the behavior of your delivery recipients: opening, clicks on links, unsubscriptions, etc. For more on this, see [About message tracking](../../delivery/using/about-message-tracking.md).
 
 To do this, add [tracked links](../../delivery/using/how-to-configure-tracked-links.md) to your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking](../../delivery/using/monitoring-a-delivery.md#tracking-logs) tab of the delivery dashboard. Tracking data is interpreted in the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) report.
 
