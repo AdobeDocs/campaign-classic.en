@@ -74,7 +74,7 @@ _13 August 2019_
 
 _7 July 2020_
 
-This new build (9032&#64;XXXXXXX) includes the following fix:
+This new build (9032&#64;efd8a94) includes the following fix:
 
 * Fixed an issue which prevented tracking links from working. (NEO-26411)
 
