@@ -143,16 +143,28 @@ The **Access** and **Delete** requests are presented on [this page](https://help
 
 ## Tracking capabilities {#tracking-capabilities}
 
-Thanks to its tracking functionalities, Adobe Campaign lets you track the messages sent and the behavior of recipients: opening, clicks on links, unsubscription, etc. For more on this, see [About message tracking](../../delivery/using/about-message-tracking.md).
+### Cookies {#cookies}
 
-Adobe Campaign allows you to track and measure visits on Web application pages by inserting tracking tags. For more on this, see [Tracking a web application](../../web/using/tracking-a-web-application.md).
+Thanks to its tracking functionalities, Adobe Campaign enables you to track the browsing of your delivery recipients using two types of cookies:
 
-Adobe Campaign enables you to collect information on how internet users browse your website. For more on this, see [About web tracking](../../configuration/using/about-web-tracking.md).
+* A **session cookie** (nlid). This contains the identifier of the email sent to the contact (broadlogId) and the identifier of the message template (deliveryId). It is added when the contact clicks a URL included in an email sent by Adobe Campaign and enables you to track their behavior on the web. This session cookie is erased automatically when the browser is closed. The contact can configure their browser to refuse cookies.
+* A **permanent cookie** shared between Adobe Experience Cloud solutions. This enables you to identify the users who interact with the Experience Cloud solutions when they visit a website. The description of this cookie is available [here](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
 
->[!NOTE]
->
->Regulations such as the General Data Protection Regulation (GDPR) state that companies require the agreement of website users before installing any cookies. You must inform users that your sites are equipped with web tracking tools via an authorization request.
+Regulations such as the General Data Protection Regulation (GDPR) state that companies require the agreement of website users before installing any cookies.
 
-The configuration of the user tracking management is available for the web applications and landing pages with an opt-out banner. For more on this, see [this section](../../web/using/web-application-tracking-opt-out.md).
+* You must inform users that your sites are equipped with web tracking tools via an authorization request (that comes up over the page, for example) with a checkbox to authorize the use of cookies, or add a banner at the top of the first page they land on, etc.
+* Pop-up windows should be avoided as they are often blocked by browsers.
 
-You can also add [tracked links](../../delivery/using/about-message-tracking.md) to your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking](../../delivery/using/monitoring-a-delivery.md#tracking-logs) tab of the delivery dashboard. Tracking data is interpreted in the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) report.
+### Message tracking {#tracking}
+
+Adobe Campaign lets you track the messages sent and the behavior of your delivery recipients: opening, clicks on links, unsubscription, etc. For more on this, see [About message tracking](../../delivery/using/about-message-tracking.md).
+
+To do this, add [tracked links](../../delivery/using/how-to-configure-tracked-links.md) to your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking](../../delivery/using/monitoring-a-delivery.md#tracking-logs) tab of the delivery dashboard. Tracking data is interpreted in the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) report.
+
+### Web tracking {#web-tracking}
+
+Adobe Campaign also lets you monitor how recipients browse your website: insert tracking tags to collect information and measure visits on web application pages. For more on this, see [Tracking a web application](../../web/using/tracking-a-web-application.md).
+
+The configuration of web tracking is presented in [this section](../../configuration/using/about-web-tracking.md).
+
+To further manage tracking, Adobe Campaign enables you to display an opt-out banner to stop tracking web behaviors of end users who opt-out of behavioral tracking. For more on this, see [Web application tracking opt-out](../../web/using/web-application-tracking-opt-out.md).
