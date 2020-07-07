@@ -70,7 +70,15 @@ _13 August 2019_
 
 ## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **June 22nd 2020**: new build (9032&#64;800be2e) which includes the following fixes:
+![](assets/do-not-localize/green_2.png) **Gold Standard 10 release**
+
+_7 July 2020_
+
+This new build (9032&#64;XXXXXXX) includes the following fix:
+
+* Fixed an issue which prevented tracking links from working. (NEO-26411)
+
+![](assets/do-not-localize/orange_2.png) **June 22nd 2020**: new build (9032&#64;800be2e) which includes the following fixes:
 
 * The iOS HTTP2 connector has been improved (third-party updates and error management). (NEO-25904, NEO-25903, NEO-25799)
 
