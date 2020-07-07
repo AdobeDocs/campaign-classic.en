@@ -41,11 +41,11 @@ To correctly handle privacy and manage personal data, work within the legislatio
 
 >[!NOTE]
 >
->For more on how GDPR, CCPA, and PDPA apply to Adobe Campaign, see [this page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>For more on how GDPR, CCPA, PDPA, and LGPD apply to Adobe Campaign, see [this page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 ### Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
-Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy is handled in Campaign obeys the Adobe Experience Cloud general principles, such as the following:
+Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy is handled in Campaign obeys the Experience Cloud general principles, such as the following:
 
 * **What information is collected when using Adobe Experience Cloud**
 
@@ -129,7 +129,7 @@ Adobe Campaign provides additional capabilities to help you facilitate your read
 
 >[!NOTE]
 >
->This set of tools is here to help you with your privacy compliance for GDPR, CCPA, and PDPA. For more on these different regulations, see [this page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>This set of tools is here to help you with your privacy compliance for GDPR, CCPA, PDPA, and LGPD. For more on these different regulations, see [this page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -139,7 +139,7 @@ Adobe Campaign provides additional capabilities to help you facilitate your read
 
 Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug, 16 for all companies collecting or processing personal data in Brazil. This regulation also applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-The **Access** and **Delete** requests are presented on [this page](https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess). The implementation steps to create these requests are detailed on [this page](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests). <!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
+The **Access** and **Delete** requests are presented on [this page](https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess). The implementation steps to create these requests are detailed in [this section](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests). <!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
 
 ## Tracking capabilities {#tracking-capabilities}
 
@@ -155,9 +155,9 @@ Regulations such as the General Data Protection Regulation (GDPR) state that com
 * You must inform users that your sites are equipped with web tracking tools via an authorization request (that comes up over the page, for example) with a checkbox to authorize the use of cookies, or add a banner at the top of the first page they land on, etc.
 * Pop-up windows should be avoided as they are often blocked by browsers.
 
-### Message tracking {#tracking}
+### Message tracking {#message-tracking}
 
-Adobe Campaign lets you track the messages sent and the behavior of your delivery recipients: opening, clicks on links, unsubscription, etc. For more on this, see [About message tracking](../../delivery/using/about-message-tracking.md).
+Adobe Campaign lets you track the emails sent and the behavior of your delivery recipients: opening, clicks on links, unsubscription, etc. For more on this, see [About message tracking](../../delivery/using/about-message-tracking.md).
 
 To do this, add [tracked links](../../delivery/using/how-to-configure-tracked-links.md) to your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking](../../delivery/using/monitoring-a-delivery.md#tracking-logs) tab of the delivery dashboard. Tracking data is interpreted in the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) report.
 
