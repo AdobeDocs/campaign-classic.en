@@ -20,7 +20,7 @@ snippet: y
 
 ## About Data Connector integration {#about-data-connector-integration}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adobe Analytics Data Connector is not compatible with Transactional messaging (Message Center).
 
@@ -139,7 +139,7 @@ The integration of Adobe Campaign into the Analytics platforms is carried out us
 
    ![](assets/webanalytics_tracking_003.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >This configuration mode is reserved for expert users: any error in this formula may result in email deliveries being stopped.
 
