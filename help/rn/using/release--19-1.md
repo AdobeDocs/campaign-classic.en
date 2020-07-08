@@ -76,7 +76,7 @@ _7 July 2020_
 
 This new build (9032&#64;efd8a94) includes the following fix:
 
-* Fixed an issue which prevented tracking from working when the mid-souring server was on build 9032 (Gold Standard 7) and the marketing server on an older build (prior to 9032). (NEO-26411)
+* Fixed an issue which prevented tracking from working when the mid-sourcing server was on build 9032 (Gold Standard) and the marketing server on an older build (prior to 9032). (NEO-26411)
 
 >[!CAUTION]
 >
