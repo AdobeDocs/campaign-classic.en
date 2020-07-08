@@ -37,7 +37,7 @@ snippet: y
  </tbody> 
 </table>
 
-The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+The **last stable build** is Gold Standard 10. Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/do-not-localize/orange_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
@@ -76,7 +76,7 @@ _7 July 2020_
 
 This new build (9032&#64;efd8a94) includes the following fix:
 
-* Fixed an issue which prevented tracking links from working. (NEO-26411)
+* Fixed an issue which prevented tracking from working when the mid-souring server was on build 9032 (Gold Standard 7) and the marketing server on an older build (prior to 9032). (NEO-26411)
 
 >[!CAUTION]
 >
