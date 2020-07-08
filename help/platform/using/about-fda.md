@@ -38,6 +38,19 @@ In order to use this functionality, you have to:
 
 Once the data schema is created, data can be processed in Adobe Campaign workflows. For more on this, refer to [this section](../../workflow/using/accessing-an-external-database--fda-.md).
 
+## Available external databases {#external-database}
+
+You can find below the list of every external database compatible with the Adobe Campaign FDA module:
+
+* Microsoft Azure Synapse Analytics. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#azure-external).
+* Snowflake. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
+* Hadoop. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3).
+* Oracle. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-oracle).
+* Netezza. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-netezza).
+* Sybase IQ. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-sybase-iq).
+* Teradata. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).
+* SAP HANA. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md).
+
 ## Best practices and recommendations {#best-practices-and-recommendations}
 
 The FDA option is made to manipulate the data in external databases in batch mode in workflows. Using the FDA in another context, for example for unitary operations, must be carried out with precaution (Personalization, Interaction, real-time deliveries, etc.).

@@ -18,6 +18,8 @@ snippet: y
 
 # Launching Adobe Campaign{#launching-adobe-campaign}
 
+Campaign Client console is a rich client which enables you to connect to your Campaign application server(s). Learn how to download and configure the client console in [this page](../../installation/using/installing-the-client-console.md).
+
 ## Starting Adobe Campaign {#starting-adobe-campaign}
 
 You can start Adobe Campaign by selecting **[!UICONTROL Start / All Programs / Adobe Campaign v.X / Adobe Campaign client console]**.
@@ -56,14 +58,13 @@ In the **[!UICONTROL Connections]** window, click **[!UICONTROL Add > Connection
 
 You must then define the connection settings. To do this:
 
-* Enter a **[!UICONTROL Label]** to assign a name to your database connection.
-* Add the address of the application server in the **[!UICONTROL URL]** field. If you do not know the connection URL, contact the administrator.
-* Check **[!UICONTROL Connect with an Adobe ID]** for the operators to connect to the console using their Adobe ID. For more on this, refer to [this page](../../integrations/using/about-adobe-id.md).
-* Click **[!UICONTROL OK]** to validate.
+1. Enter a **[!UICONTROL Label]** to assign a name to your database connection.
 
->[!NOTE]
->
->The **[!UICONTROL Add]** button lets you create **[!UICONTROL folders]** to organize all your connections. Simply drag and drop each connection into a folder.
+1. Add the address of the application server in the **[!UICONTROL URL]** field. If you do not know the connection URL, contact the administrator.
+
+1. Check **[!UICONTROL Connect with an Adobe ID]** for the operators to connect to the console using their Adobe ID. For more on this, refer to [this page](../../integrations/using/about-adobe-id.md).
+
+1. Click **[!UICONTROL OK]** to validate.
 
 ## Operators and permissions {#operators-and-permissions}
 
