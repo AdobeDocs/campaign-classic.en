@@ -31,11 +31,11 @@ The principle of **data packages** is to export a data configuration and integra
 There are three types of exportable packages: user packages, platform packages and admin packages.
 
 * **User package**: it enables you to select the list of entities to be exported. This type of package manages dependencies and verifies errors.
-* **Platform package**: it includes all added technical resources (not standard): schemas, JavaScript code, etc. 
+* **Platform package**: it includes all added technical resources (non standard): schemas, JavaScript code, etc. 
 
   ![](assets/ncs_datapackage_package_platform.png)
 
-* **Admin package**: it includes all added templates and business objects (not standard): templates, libraries, etc.
+* **Admin package**: it includes all added templates and business objects (non standard): templates, libraries, etc.
 
   ![](assets/ncs_datapackage_package_admin.png)
 
@@ -309,7 +309,7 @@ To export a package from a package definition, follow the steps below:
 
 The package import wizard is accessible via the main menu **[!UICONTROL Tools > Advanced > Package import...]** of the Adobe Campaign client console.
 
-You can import a package from an export performed earlier, e.g. from another Adobe Campaign instance, or a standard package, depending on the terms of your license.
+You can import a package from an export performed earlier, e.g. from another Adobe Campaign instance, or a [built-in package](../../installation/using/installing-campaign-standard-packages.md), depending on the terms of your license.
 
 ![](assets/ncs_datapackage_import.png)
 
@@ -325,13 +325,13 @@ Click **[!UICONTROL Next]** and **[!UICONTROL Start]** to launch the import.
 
 ![](assets/ncs_datapackage_import_2.png)
 
-### Installing a standard package {#installing-a-standard-package}
+### Installing a built-in package {#installing-a-standard-package}
 
-Standard packages are installed when the Adobe Campaign is configured. Depending on your permissions and your deployment model, you can import new standard packages if you acquire new options or add-ons, or if you upgrade to a new offer.
+Standard packages are built-in packages, installed when the Adobe Campaign is configured. Depending on your permissions and your deployment model, you can import new standard packages if you acquire new options or add-ons, or if you upgrade to a new offer.
 
 Refer to your license agreement to check which packages you can install.
 
-For more information on standard packages, refer to [this page](../../installation/using/installing-campaign-standard-packages.md).
+For more information on built-in packages, refer to [this page](../../installation/using/installing-campaign-standard-packages.md).
 
 ## Data package best practices {#data-package-best-practices}
 
