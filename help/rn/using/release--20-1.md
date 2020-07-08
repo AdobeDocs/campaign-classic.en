@@ -17,9 +17,9 @@ snippet: y
 
 # Release 20.1{#release-20-1}
 
-## ![](assets/do-not-localize/green.png) Release 20.1.4 - Build XXXX {#release-20-1-4-build-XXXX}
+## ![](assets/do-not-localize/green.png) Release 20.1.4 - Build 9125 {#release-20-1-4-build-9125}
 
-_July X, 2020_
+_July 6, 2020_
 
 * X
 
@@ -34,6 +34,11 @@ _May 6, 2020_
 _March 13, 2020_
 
 * Fixed an issue that prevented version deployment on Red Hat 7 servers. (NEO-23332)
+* Fixed an intermittent connectivity issue during the processing of inMail messages from the Enhanced MTA. (NEO-20380)
+* Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
+* Fixed issues that could happen when trying to connect to Audience Manager after updrading to build 9080. (NEO-20511)
+* Fixed a regression causing the cleanup workflow to crash. 
+* Fixed a minor regression in the cleanup workflow logs.
 
 ## ![](assets/do-not-localize/orange_2.png) Release 20.1 - Build 9122 {#release-20-1-build-9122} 
 
