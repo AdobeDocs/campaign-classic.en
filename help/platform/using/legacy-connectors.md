@@ -18,6 +18,8 @@ snippet: y
 
 # Legacy connectors {#legacy-connectors}
 
+Legacy FDA connectors are still supported by Adobe. However, we recommend to replace them with more recent alternatives listed in this [page](../../platform/using/specific-configuration-database.md).
+
 ## Configure access to Hadoop 2.1 {#configure-access-to-hadoop}
 
 ### For Windows {#for-windows}

@@ -66,7 +66,7 @@ sub-product: adobe campaign classic
        + [External accounts](platform/using/external-accounts.md)
   + Accessing an external database (FDA){#accessing-external-database}
        + [About FDA](platform/using/about-fda.md)
-       + [Specific configurations by database type](platform/using/specific-configuration-database.md)
+       + [Configuring FDA connectors](platform/using/specific-configuration-database.md)
        + [Legacy connectors](platform/using/legacy-connectors.md)
        + [Remote database access rights](platform/using/remote-database-access-rights.md)
        + [Connecting to the database](platform/using/connecting-to-database.md)
