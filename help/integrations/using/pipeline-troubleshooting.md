@@ -22,7 +22,7 @@ snippet: y
 
 Your version of Adobe Campaign Classic does not support the pipeline.
 
-1. Check if the pipelined element is present in the config file. If not, it means it's not supported.
+1. Check if the [!DNL pipelined] element is present in the config file. If not, it means it's not supported.
 1. Upgrade to version 6.11 build 8705 or later.
 
 **Pipelined fails with '' aurait dû commencer par '[' ou '{' (iRc=16384)"**
@@ -46,7 +46,7 @@ The @authPrivateKey parameter of the instance config file is incorrect.
 1. Check that the authPrivateKey: starts with @, ends with =, and is about 4000 characters long.
 1. Look for the original key and check that it is: in RSA format, 4096 bits long, and starts with -----BEGIN RSA PRIVATE KEY-----.
 <br> If necessary, re-create the key and register it on Adobe Analytics. Refer to this [section](../../integrations/using/configuring-pipeline.md#oauth-client-creation).
-1. Check that the key was encoded within the same instance as pipelined. <br>If necessary, redo the encoding using the sample JavaScript or workflow.
+1. Check that the key was encoded within the same instance as [!DNL pipelined]. <br>If necessary, redo the encoding using the sample JavaScript or workflow.
 
 **Pipelined fails with "unable to read the token during authentication"**
 
@@ -58,12 +58,12 @@ The private key has an invalid format.
 
 **No triggers are retrieved**
 
-When the pipelined process is running and no triggers are retrieved:
+When the [!DNL pipelined] process is running and no triggers are retrieved:
 
 1. Make sure that the trigger is active in Analytics and is generating events.
-1. Make sure that the pipelined process is running.
-1. Look for errors in the pipelined log.
-1. Look for errors in the pipelined status page. trigger-discarted, trigger-failures should be zero.
+1. Make sure that the [!DNL pipelined] process is running.
+1. Look for errors in the [!DNL pipelined] log.
+1. Look for errors in the [!DNL pipelined] status page. trigger-discarted, trigger-failures should be zero.
 1. Check that the trigger name is configured in the **[!UICONTROL NmsPipeline_Config]** option. If there is a doubt, use the wildcard option.
 1. Check that Analytics has an active trigger and is generating events. There could be a delay of a few hours after the configuration is made in Analytics before it's active.
 
@@ -82,9 +82,9 @@ When the Analytics timestamp is much older than the creation date of the event i
 
 Generally, a trigger can take 15-90 minutes to launch a marketing campaign. This varies depending on the implementation of data collection, load on the pipeline, custom configuration of the defined trigger, and the workflow in Adobe Campaign.
 
-1. Check if the pipelined process has been running.
+1. Check if the [!DNL pipelined] process has been running.
 1. Look for errors in pipelined.log that can cause retries. Fix the errors, if applicable.
-1. Check the pipelined status page for the queue size. If the queue size is large, improve the performance of the JS.
+1. Check the [!DNL pipelined] status page for the queue size. If the queue size is large, improve the performance of the JS.
 1. Since a delay seems to increase with volume, configure the triggers on Analytics using fewer messages.
 Annexes
 
