@@ -124,7 +124,7 @@ Follow these steps:
 
 ### Application name registration in Adobe Campaign Classic {#application-name-registration}
 
-The Application ID of the oAuth client created must be configured in Adobe Campaign. You can do it by editing the instance config file in the pipelined element, specifically the appName attribute.
+The Application ID of the oAuth client created must be configured in Adobe Campaign. You can do it by editing the instance config file in the [!DNL pipelined] element, specifically the appName attribute.
 
 Example:
 
@@ -134,11 +134,11 @@ Example:
 
 ### Key encryption {#key-encription}
 
-To be used by pipelined, the private key must be encrypted. Encryption is done using the cryptString Javascript function and must be performed on the same instance as pipelined.
+To be used by [!DNL pipelined], the private key must be encrypted. Encryption is done using the cryptString Javascript function and must be performed on the same instance as [!DNL pipelined].
 
 A sample of private Key encryption with JavaScript is available in this [page](../../integrations/using/pipeline-troubleshooting.md).
 
-The encrypted private key must be registered in Adobe Campaign. You can do it by editing the instance config file in the pipelined element, specifically the authPrivateKey attribute.
+The encrypted private key must be registered in Adobe Campaign. You can do it by editing the instance config file in the [!DNL pipelined] element, specifically the authPrivateKey attribute.
 
 Example:
 
@@ -148,7 +148,7 @@ Example:
 
 ### Pipelined process auto-start {#pipelined-auto-start}
 
-The pipelined process must be started automatically.
+The [!DNL pipelined] process must be started automatically.
 To do it, set the element in the configuration file to autostart="true":
 
 ```
@@ -169,7 +169,7 @@ A restart is required for the changes to take effect:
 nlserver restart pipelined@instance
 ```
 
-In case of errors, look for errors on the standard output (if you started manually) or in the pipelined log file. Refer to the Troubleshooting section of this document for more information on resolving issues.
+In case of errors, look for errors on the standard output (if you started manually) or in the [!DNL pipelined] log file. Refer to the Troubleshooting section of this document for more information on resolving issues.
 
 ### Pipelined configuration options {#pipelined-configuration-options}
 
@@ -182,7 +182,7 @@ In case of errors, look for errors on the standard output (if you started manual
 | discoverPipelineEndpoint | URL to discover the Pipeline Services endpoint to be used for this tenant. Default: https://producer-pipeline-pnw.adobe.net|
 | dumpStatePeriodSec| Period between 2 dumps of the process internal state in var/INSTANCE/pipelined.json Internal state is also accessible on-demand at http://INSTANCE/pipelined/status (port 7781). |
 | forcedPipelineEndpoint| Disable the discovery of the PipelineServicesEndpoint and force it  |
-| monitorServerPort| The pipelined process listens on this port to provide the process internal state at http://INSTANCE/pipelined/status (port 7781). |
+| monitorServerPort| The [!DNL pipelined] process listens on this port to provide the process internal state at http://INSTANCE/pipelined/status (port 7781). |
 | pointerFlushMessageCount | When this number of messages is processed, the offsets are saved in the database. Default is 1000|
 | pointerFlushPeriodSec| After this period, the offsets will be saved in the database. Default is 5 (secs) |
 | processingJSThreads | Number of dedicated threads processing messages with custom JS connectors. Default is 4 |
