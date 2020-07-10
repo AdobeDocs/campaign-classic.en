@@ -126,12 +126,6 @@ The following table lists all standard packages with their description, the inst
    <td> All<br /> </td> 
   </tr> 
   <tr> 
-   <td> Telephone channel<br /> </td> 
-   <td> Sends deliveries using the Telephone channel with Adobe Campaign.<br /> </td> 
-   <td> All<br /> </td> 
-   <td> Optional</td> 
-  </tr>
-  <tr> 
    <td> Mobile App Channel<br /> </td> 
    <td> Uses the Adobe Campaign platform to send personalized notifications to iOS and Android terminals via apps. Optional. <a href="../../delivery/using/about-mobile-app-channel.md">Learn More</a> <br /> </td> 
    <td> All<br /> </td> 
