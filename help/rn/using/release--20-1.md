@@ -36,7 +36,7 @@ snippet: y
  </tbody> 
 </table>
 
-The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+The **last stable build** is Gold Standard 10. Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/do-not-localize/orange_2.png) Release 20.1.3 - Build 9124 {#release-20-1-3-build-9124}
 

@@ -35,7 +35,7 @@ snippet: y
  </tbody> 
 </table>
 
-The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+The **last stable build** is Gold Standard 10. Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel June release** with Active profiles monitoring, Subdomain deliverability audit and GPG keys management. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
