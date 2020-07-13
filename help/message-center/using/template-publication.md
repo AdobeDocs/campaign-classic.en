@@ -18,7 +18,11 @@ snippet: y
 
 # Template publication{#template-publication}
 
-Once the message template created on the control instance is complete, you can publish it on all execution instances. Publication lets you automatically create two message templates on the execution instance which will allow you to send messages linked to real-time and batch events.
+Once the message template created on the control instance is complete, you can publish it. This process will also publish it on all execution instances.
+
+Once a template is published, when the corresponding event is triggered, the execution instance will receive the event, link it to the transactional template and send a transactional message to each recipient.
+
+Publication lets you automatically create two message templates on the execution instance which will allow you to send messages linked to real-time and batch events.
 
 >[!IMPORTANT]
 >
