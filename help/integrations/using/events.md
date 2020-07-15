@@ -24,13 +24,13 @@ snippet: y
 
 Pipeline uses a JavaScript function to process each message. This function is user-defined.
 
-It is configured in the **[!UICONTROL NmsPipeline_Config]** option under the "JSConnector" attribute. This javascript is called every time an event is received. It's run by the pipelined process.
+It is configured in the **[!UICONTROL NmsPipeline_Config]** option under the "JSConnector" attribute. This javascript is called every time an event is received. It's run by the [!DNL pipelined] process.
 
 The sample JS file is cus:triggers.js.
 
 ### JavaScript function {#function-js}
 
-The pipeline Javascript must start with a specific function.
+The [!DNL pipelined] Javascript must start with a specific function.
 
 This function is called once for every event:
 
@@ -44,7 +44,7 @@ It should return as
 <undefined/>
 ```
 
-Restart pipelined after editing the JS.
+Restart [!DNL pipelined] after editing the JS.
 
 ### Trigger data format {#trigger-format}
 
@@ -105,7 +105,7 @@ Example:
 
 ### Order of events processing {#order-events}
 
-The events are processed one at a time, by order of offset. Each thread of the pipeline processes a different partition.
+The events are processed one at a time, by order of offset. Each thread of the [!DNL pipelined] processes a different partition.
 
 The ‘offset’ of the last event retrieved is stored in the database. Therefore, if the process is stopped, it restarts from the last message. This data is stored in the built-in schema xtk:pipelineOffset.
 
@@ -117,8 +117,8 @@ Currently, there is no way to have different queues for separate environments su
 
 ### Logging and error handling {#logging-error-handling}
 
-Logs such as logInfo() are directed to the pipelined log. Errors such as logError() are written to the pipelined log and cause the event to be put into a retry queue. Check the pipelined log.
-Messages in error are retried several times in the duration set in the pipelined options.
+Logs such as logInfo() are directed to the [!DNL pipelined] log. Errors such as logError() are written to the [!DNL pipelined] log and cause the event to be put into a retry queue. Check the pipelined log.
+Messages in error are retried several times in the duration set in the [!DNL pipelined] options.
 
 For debugging and monitoring purposes, the full trigger data is written into the trigger table. It is in the "data" field in XML format. Alternatively, a logInfo() containing the trigger data serves the same purpose.
 

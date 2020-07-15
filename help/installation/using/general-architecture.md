@@ -112,7 +112,7 @@ This process ensures the recording to the disk of inbound events, within the fra
 
 **Supervising modules** (nlserver watchdog)
 
-This technical process acts as a master process which spawns the others. It also monitors them and relaunches them automatically in case of incidents, thus maintaining maximum system uptime.
+This technical process acts as a primary process which spawns the others. It also monitors them and relaunches them automatically in case of incidents, thus maintaining maximum system uptime.
 
 **Statistics server** (nlserver stat)
 
