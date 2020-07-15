@@ -50,13 +50,17 @@ In the example below, a "master" workflow is calling a sub-workflow using jumps.
 
 1. Run the workflow.
 
-Once run, the workflow that was called as a sub-workflow is still in **[!UICONTROL Being edited]** status, which means the following:
+Once run, the workflow that was called as a sub-workflow remains in **[!UICONTROL Being edited]** status, which means the following:
 
 * You cannot right-click the transitions to display the target.
 * The count of intermediate populations cannot be displayed.
-* The logs are aggregated in the "master" workflow and they are only labelled as "subworkflow".
+* The sub-workflow logs display in the master workflow.
 
-Indeed, this workflow is only a template. A new sub-workflow based on this template is created when called from the "master" workflow.
+   ![](assets/subworkflow_logs.png)
+
+>[!NOTE]
+>
+>If any error occurs in the sub-workflow, the master workflow will pause and a copy of the sub-workflow will be created.
 
 ## Input parameters (optional) {#input-parameters--optional-}
 
