@@ -22,7 +22,7 @@ The **[!UICONTROL Sub-workflow]** activity lets you trigger the execution of ano
 
 You can call multiple sub-workflows in a single workflow. Sub-workflows are executed synchronously.
 
-In the example below, a "master" workflow is calling a sub-workflow using jumps. For more on jump-type graphical objects, see [this section](../../workflow/using/jump--start-point-and-end-point-.md).
+In the example below, a primary workflow is calling a sub-workflow using jumps. For more on jump-type graphical objects, see [this section](../../workflow/using/jump--start-point-and-end-point-.md).
 
 1. Create a workflow that you will use as a sub-workflow in another workflow.
 1. Insert a **[!UICONTROL Jump (end point)]** activity with a priority of 1 at the beginning of the workflow. If you have multiple "end point" type jumps, Adobe Campaign will use the "end point" jump with the lowest number.
@@ -37,7 +37,7 @@ In the example below, a "master" workflow is calling a sub-workflow using jumps.
    >For the sub-workflow to be run correctly, you must have only one "end point" type jump with the lowest number, and only one "start point" type jump with the highest number.
 
 1. Complete and save this "sub-workflow".
-1. Create a "master" workflow.
+1. Create a primary workflow.
 1. Insert a **[!UICONTROL Sub-workflow]** activity and open it.
 1. Select the workflow that you want to use from the **[!UICONTROL Workflow template]** drop-down list.
 
@@ -54,13 +54,13 @@ Once run, the workflow that was called as a sub-workflow remains in **[!UICONTRO
 
 * You cannot right-click the transitions to display the target.
 * The count of intermediate populations cannot be displayed.
-* The sub-workflow logs display in the master workflow.
+* The sub-workflow logs display in the primary workflow.
 
    ![](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >
->If any error occurs in the sub-workflow, the master workflow will pause and a copy of the sub-workflow will be created.
+>If any error occurs in the sub-workflow, the primary workflow will pause and a copy of the sub-workflow will be created.
 
 ## Input parameters (optional) {#input-parameters--optional-}
 
