@@ -32,7 +32,7 @@ To be displayed within Web applications or Landing pages, the banner needs to be
 
 Adobe Campaign is delivered with a sample banner that you must adapt to your needs. This banner version appears as a personalization block located in the content model folder. Refer to [this page](../../delivery/using/personalization-blocks.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >To create your own banner, you must personalize the out-of-the-box banner.
 

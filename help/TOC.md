@@ -29,7 +29,7 @@ sub-product: adobe campaign classic
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
-       + [Privacy and recommendations](platform/using/privacy-and-recommendations.md)
+       + [Privacy and consent](platform/using/privacy-and-recommendations.md)
        + [Launching Adobe Campaign](platform/using/launching-adobe-campaign.md)
        + [Adobe Campaign workspace](platform/using/adobe-campaign-workspace.md)
        + FAQ {#faq}
@@ -71,13 +71,14 @@ sub-product: adobe campaign classic
        + [External accounts](platform/using/external-accounts.md)
   + Accessing an external database (FDA){#accessing-external-database}
        + [About FDA](platform/using/about-fda.md)
-       + [Specific configurations by database type](platform/using/specific-configuration-database.md)
+       + [Configuring FDA connectors](platform/using/specific-configuration-database.md)
+       + [Legacy connectors](platform/using/legacy-connectors.md)
        + [Remote database access rights](platform/using/remote-database-access-rights.md)
        + [Connecting to the database](platform/using/connecting-to-database.md)
        + [Creating the data schema](platform/using/creating-data-schema.md)
        + [Defining data mapping](platform/using/defining-data-mapping.md)
        + [Additional options](platform/using/additional-options.md)
-       + [Using data from an external database in a workflow](platform/using/data-external-database-workflow.md)
+       + [Appendices](platform/using/appendices-fda.md)       
   + Connectors {#connectors}
        + [About connectors](platform/using/about-connectors.md)
        + [CRM Connectors](platform/using/crm-connectors.md)
@@ -319,6 +320,13 @@ sub-product: adobe campaign classic
        + [Synchronizing audiences](integrations/using/synchronizing-audiences.md)
        + [Synchronizing web applications](integrations/using/synchronizing-web-applications.md)
        + [Troubleshooting the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
+  + Experience Cloud Triggers {#experience-triggers}
+       + [About [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
+       + [Configuring pipeline](integrations/using/configuring-pipeline.md)
+       + [Pipeline option NmsPipeline_Config](integrations/using/nmspipeline-config.md)
+       + [Triggers events](integrations/using/events.md)
+       + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
+       + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
 + Automating with Workflows {#automating-with-workflows}
   + Introduction {#introduction}
        + [About workflows](workflow/using/about-workflows.md)
@@ -396,6 +404,7 @@ sub-product: adobe campaign classic
        + [Inbound Emails](workflow/using/inbound-emails.md)
        + [Inbound SMS](workflow/using/inbound-sms.md)
   + Use cases {#use-cases}
+       + [About workflow use cases](workflow/using/about-workflow-use-cases.md)
        + Deliveries {#deliveries}
           + [Using the local approval activity](workflow/using/using-the-local-approval-activity.md)
           + [A/B testing](workflow/using/a-b-testing.md)
@@ -614,6 +623,7 @@ sub-product: adobe campaign classic
   + Introduction {#introduction}
        + [Foreword](production/using/foreword.md)
        + [General architecture](production/using/general-architecture.md)
+       + [Monitoring guidelines](production/using/monitoring-guidelines.md)
   + Production procedures {#production-procedures}
        + [Configuration principle](production/using/configuration-principle.md)
        + [Operating principle](production/using/operating-principle.md)

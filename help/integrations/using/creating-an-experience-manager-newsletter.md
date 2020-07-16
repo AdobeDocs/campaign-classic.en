@@ -28,7 +28,7 @@ For a more detailed example on how to use this integration, refer to this [step-
 
    ![](assets/aem_uc_1.png)
 
-1. Select **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Master Area > Email campaigns]**.
+1. Select **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Main Area > Email campaigns]**.
 1. Click the **[!UICONTROL Create]** button in the upper right side of the page then select **[!UICONTROL Page]**.
 
    ![](assets/aem_uc_2.png)

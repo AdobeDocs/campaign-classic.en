@@ -40,7 +40,7 @@ Seed addresses are added to the target of deliveries by being imported or by bei
 
 For direct mail deliveries, seed addresses are added during extraction and mixed in the output document.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >For direct mail deliveries, the extraction file format must comply with the following limitations:  
 >

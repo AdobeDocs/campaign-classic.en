@@ -20,11 +20,29 @@ This page lists all the new features and documentation updates per month and Cam
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
+## July 2020 {#july-2020}
+
+A new section has been added with guidelines related to Campaign Classic monitoring. [Read more](../../production/using/monitoring-guidelines.md)
+
+The Privacy and Consent section has been enhanced with more detailed information and useful links. [Read more](../../platform/using/privacy-and-recommendations.md).
+
+The Privacy Management in Campaign Classic page has been updated with information on the 'regulation' field which is now available when using the API allowing to setup automatic Privacy request process. [Read more](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+
+The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+Information has been added on sub-workflows logs and behaviour in case of error. [Read more](../../workflow/using/sub-workflow.md)
+
+Best practices have been added in the **[!UICONTROL Scheduler]** activity section. [Read more](../../workflow/using/scheduler.md)
+
 ## June 2020 {#june-2020}
+
+The Removing a quarantined address section has been updated. This includes clarification of the cases in which addresses are automatically removed from the quarantine list. [Read more](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
 Use cases have been added on how to [encrypt](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) and [decrypt](../../workflow/using/importing-data.md#use-case-gpg-decrypt) data using Control Panel and Campaign workflows.
 
 Both ‘whitelist’ and ‘blacklist’ terms have been removed from Adobe Campaign documentation. Some occurrences of these terms may still exist in the product UI, option names and internal code, but will be replaced in upcoming Campaign releases with ‘blocklist’ and ‘allowlist.’
+
+The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
 
 ## 20.2 - 08/06/2020{#release-20-2}
 
@@ -59,7 +77,6 @@ The Spam Assassin installation section has been updated with the new installatio
 
 The section on duplicating environments has been updated. [Learn more](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)
 
-
 ## May 2020 {#may-2020}
 
 The Monitoring deliverability section has been moved and improved. [Read more](../../delivery/using/monitoring-deliverability.md)
@@ -82,7 +99,7 @@ Data model best practices have been improved with additional information on inde
 
 The section describing the Adobe Campaign built-in data model has been updated with more details on each table. [Read more](../../configuration/using/data-model-description.md)
 
-Workflow use cases have been updated and reorganized into thematic sections. [Read more](../../workflow/using/using-the-local-approval-activity.md)
+Workflow use cases have been updated and reorganized into thematic sections. [Read more](../../workflow/using/about-workflow-use-cases.md)
 
 The [Bounce mail qualification](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) and [Email management rules](../../delivery/using/understanding-delivery-failures.md#email-management-rules) sections have been enhanced with updated information.
 
@@ -250,7 +267,7 @@ The steps to configure Inbox rendering for on-premise installations have 
 
 ## September 2019 {#september-2019}
 
-A new page has been added to provide general guidelines for maintaining Campaign Classic. [Read more](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)
+A new page has been added to provide general guidelines for maintaining Campaign Classic. [Read more](../../production/using/monitoring-guidelines.md)
 
 Information related to workflows monitoring has been centralized into a new dedicated section. [Read more](../../workflow/using/monitoring-workflow-execution.md).
 

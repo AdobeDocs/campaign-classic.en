@@ -22,9 +22,9 @@ For each delivery, you can track the reception of messages and the activation of
 
 >[!NOTE]
 >
->Tracking applies to messages, but webtracking lets you monitor how recipients browse a website (pages visited, purchases).
+>Tracking applies to messages, but web tracking lets you monitor how recipients browse a website (pages visited, purchases).
 >
->The configuration of webtracking is presented in [this section](../../configuration/using/about-web-tracking.md).
+>The configuration of web tracking is presented in [this section](../../configuration/using/about-web-tracking.md).
 
 Message tracking is enabled by default. To personalize how URLs are tracked, follow the steps below:
 
