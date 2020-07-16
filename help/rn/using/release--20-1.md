@@ -17,30 +17,19 @@ snippet: y
 
 # Release 20.1{#release-20-1}
 
-## ![](assets/do-not-localize/green.png) Release 20.1.4 - Build 9125 {#release-20-1-4-build-9125}
-
-_July 6, 2020_
-
-* X
-
-## ![](assets/do-not-localize/orange_2.png) Release 20.1.3 - Build 9124 {#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/orange_2.png) Release 20.1.3 - Build 9124{#release-20-1-3-build-9124}
 
 _May 6, 2020_
 
-* Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183)
+* Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183) 
 
-## ![](assets/do-not-localize/orange_2.png) Release 20.1.2 - Build 9123 {#release-20-1-2-build-9123}
+## ![](assets/do-not-localize/orange_2.png) Release 20.1.2 - Build 9123{#release-20-1-2-build-9123}
 
 _March 13, 2020_
 
 * Fixed an issue that prevented version deployment on Red Hat 7 servers. (NEO-23332)
-* Fixed an intermittent connectivity issue during the processing of inMail messages from the Enhanced MTA. (NEO-20380)
-* Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
-* Fixed issues that could happen when trying to connect to Audience Manager after updrading to build 9080. (NEO-20511)
-* Fixed a regression causing the cleanup workflow to crash. 
-* Fixed a minor regression in the cleanup workflow logs.
 
-## ![](assets/do-not-localize/orange_2.png) Release 20.1 - Build 9122 {#release-20-1-build-9122} 
+## ![](assets/do-not-localize/orange_2.png) Release 20.1 - Build 9122{#release-20-1-build-9122}
 
 _February 17, 2020_
 

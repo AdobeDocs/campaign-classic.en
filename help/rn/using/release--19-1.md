@@ -34,7 +34,7 @@ _3 October 2019_
 * Fixed an issue which could lead to certain messages not being processed by the Mid-Sourcing server. (NEO-12395)
 * Fixed an issue which prevented the full use of the SQL Data Management activity (the "SQL Data Management" named right was missing).
 
-## ![](assets/do-not-localize/orange_2.png) Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
+## ![](assets/do-not-localize/red_2.png) Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
 _13 August 2019_
 
@@ -47,21 +47,14 @@ _13 August 2019_
 * A new authentication option has been added to support OAuth credentials within the AC connector with Microsoft Dynamics. (NEO-11982)
 * Fixing issue with UUID (Unique Universal Identifier) cause enrichment activity to fail withHive FDA.
 
-## ![](assets/do-not-localize/orange_2.png) Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
+## ![](assets/do-not-localize/green_2.png) Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
 >[!NOTE]
 >
 >19.1.4 Gold Standard releases are listed in this [page](../../rn/using/gold-standard.md).
 
-_August 13th 2019_
 
-* Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
-* Fixed a regression caused by the NEO-12727 which could lead to workflows being stopped when a Test activity was executed twice. (NEO-16835) 
-* Fixed an issue which led to an erroneous HTTP code being returned (HTTP 200 OK instead of HTTP 403 Forbidden) when an invalid or expired session token was used in API calls. (NEO-16826) 
-* Fixed an issue with the DKIM key which was not embedded into emails anymore, thus causing deliverability issues. (NEO-16804) 
-* Fixed various issues with workflow scheduling. Workflows were scheduled to be executed once a day without taking into account the scheduler configuration. (NEO-16619, NEO-16426)
-
-## ![](assets/do-not-localize/orange_2.png) Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}
+## ![](assets/do-not-localize/red_2.png) Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}
 
 _21 June 2019_
 
@@ -77,7 +70,7 @@ _21 June 2019_
 * We now allow the deletion of dummy records created in Microsoft Dynamics during import workflow.
 * Improved permissions to execute the security zone package when using internal account.
 
-## ![](assets/do-not-localize/orange_2.png) Release 19.1 - Build 9026{#release-19-1-build-9026}
+## ![](assets/do-not-localize/red_2.png) Release 19.1 - Build 9026{#release-19-1-build-9026}
 
 _30 May 2019_
 

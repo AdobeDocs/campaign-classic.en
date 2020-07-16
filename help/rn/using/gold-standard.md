@@ -26,7 +26,19 @@ This page lists Gold Standard releases.
 
 For more information on Gold Standard upgrade, refer to this [article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
-## ![](assets/do-not-localize/green_2.png) June 2020{#gs-june-20}
+## ![](assets/do-not-localize/green_2.png) Gold Standard 10 release{#gs-10}
+
+_7 July 2020_
+
+The build 9032&#64;efd8a94 includes the following fix:
+
+* Fixed an issue which prevented tracking from working when the signature feature was disabled. (NEO-26411)
+
+>[!CAUTION]
+>
+>We recommend that you upgrade the client console with the one available in this release. Refer to this [page](../../installation/using/installing-the-client-console.md)
+
+## ![](assets/do-not-localize/red_2.png) Gold Standard 9 release{#gs-9}
 
 _22 June 2020_
 
@@ -34,7 +46,7 @@ The build 9032&#64;800be2e includes the following fixes:
 
 * The iOS HTTP2 connector has been improved (third-party updates and error management). (NEO-25904, NEO-25903, NEO-25799)
 
-The following fixes are related to the tracking link security mechanism:
+The following fixes are related to the tracking link security mechanism (see the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)):
 
 * Fixed an issue which prevented the tracking of "notification clicks" from working (iOS and Android push notifications). (NEO-25965)
 * Fixed an issue which could prevent you from opening/clicking tracking URLs when using certain legacy versions of Outlook.  (NEO-25688)
@@ -42,13 +54,18 @@ The following fixes are related to the tracking link security mechanism:
 * Fixed an issue with the anti-phishing service. (NEO-25283)
 * Fixed a tracking issue when using specific custom tracking formulas. (NEO-25277)
 
-## ![](assets/do-not-localize/orange_2.png) April 2020{#gs-april-20}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 8 release{#gs-8}
 
 _29 April 2020_
 
 The build 9032&#64;3a9dc9c includes the following fixes:
 
 * Improved security on tracking links in email. This is enabled by default for all customers. An additional, enhanced security feature is available which can be enabled by reaching out to Customer Care. More details on the feature and steps for non-hosted customers to enable it can be found in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
+
+ >[!CAUTION]
+ >
+ >If you experience issues with push notifications using tracking links, or deliveries using anchor tags, we recommend that you disable the new signature mechanism for tracking links. The procedure is detailed in this [page](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
+
 * Fixed an issue which could prevent images from being displayed on Line deliveries. (NEO-23207)
 * Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183) 
 * Fixed an issue which could affect push notification when sent at a high frequency. (NEO-20516)
@@ -62,23 +79,23 @@ The build 9032&#64;3a9dc9c includes the following fixes:
 * Fixed a regression causing the cleanup workflow to crash. 
 * Fixed a minor regression in the cleanup workflow logs.
 
-## ![](assets/do-not-localize/orange_2.png) March 2020{#gs-march-20}
+## ![](assets/do-not-localize/orange_2.png) Gold Standard 6 release{#gs-6}
 
-_5 March 2020_
+_9 March 2020_
 
 The build 9032&#64;19f73c5 includes the following fix:
 
 * Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
 
-## ![](assets/do-not-localize/orange_2.png) December 2029{#gs-december2-19}
+## ![](assets/do-not-localize/orange_2.png) Gold Standard 5 release{#gs-5}
 
-_19 December 2019_
+_17 December 2019_
 
 The build 9032&#64;d6b8062 includes the following fix:
 
 * Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter). (NEO-19595)
 
-## ![](assets/do-not-localize/orange_2.png) December 2019{#gs-december1-19}
+## ![](assets/do-not-localize/orange_2.png) Gold Standard 4 release{#gs-4}
 
 _11 December 2019_
 
@@ -86,7 +103,7 @@ The build 9032&#64;bc4a935 includes the following fix:
 
 * Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
 
-## ![](assets/do-not-localize/orange_2.png) November 2019{#gs-november-19}
+## ![](assets/do-not-localize/orange_2.png) Gold Standard 3 release{#gs-3}
 
 _20 November 2019_
 
@@ -96,7 +113,7 @@ The build 9032&#64;3468c7b includes the following fixes:
 * Fixed an issue when displaying cumulative reports on multiple deliveries. (NEO-18165)
 * Fixed an issue that could block or make the web server crash.
 
-## ![](assets/do-not-localize/orange_2.png) September 2019{#gs-september-19}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 2 release{#gs-2}
 
 _19 September 2019_
 
@@ -105,7 +122,7 @@ The build 9032&#64;cee805c includes the following fixes:
 * Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
 * Fixed an index issue which could cause performance issues when sending transactional messages.
 
-## ![](assets/do-not-localize/orange_2.png) August 2019{#gs-august-19}
+## ![](assets/do-not-localize/red_2.png) Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
 _13 August 2019_
 
