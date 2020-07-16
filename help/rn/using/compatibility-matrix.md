@@ -114,25 +114,18 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 ## RDBMS drivers{#RDBMSdrivers}
 
-<table>
-<tbody>
-<tr>
-<td>Oracle SQL*Net 11</td>
-</tr>
-<tr>
-<td>Oracle SQL*Net 12</td>
-</tr>
-<tr>
-<td>PostgreSQL (libpq)</td>
-</tr>
-<tr>
-<td>SQLServer</td>
-</tr>
-<tr>
-<td>DB2 (ODBC Driver)</td>
-</tr>
-</tbody>
-</table>
+The following RDBMS drivers are supported:
+
+* Oracle SQL&#42;Net 11
+
+* Oracle SQL&#42;Net 12
+
+* PostgreSQL (libpq)
+
+* SQLServer
+
+* DB2 (ODBC Driver)
+
 
 >[!NOTE]
 >
