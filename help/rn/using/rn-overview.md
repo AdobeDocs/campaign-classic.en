@@ -18,7 +18,7 @@ snippet: y
 
 Adobe Campaign is regularly updated. On the average two or three minor versions are released every year with new features, improvements and fixes. In addition, we periodically release builds with cumulative fixes only. 
 
-This regular frequence of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product.
+This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product.
 
 This is the reason why we believe it is critical that you run the most recent version of Adobe Campaign. It will also ensure that you get a better support experience as identifying, reproducing and fixing an issue on a recent build is usually much faster. Also, many issues you may encounter have already been fixed in most recent builds.
 

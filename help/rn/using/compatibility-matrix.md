@@ -35,38 +35,30 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr> 
 <td>CentOs</td>
 <td>
-<ul>
-<li>7.x (64 bits)</li>
-</ul>
+<p>7.x (64 bits)</p>
 </td>
 </tr>
 <tr>
 <td>Debian</td>
 <td>
-<ul>
-<li>8 (64 bits)</li>
-<li>9 (64 bits)</li>
-<li>10 (64 bits)</li>
-</ul>
+<p>8 (64 bits)</p>
+<p>9 (64 bits)</p>
+<p>10 (64 bits)</p>
 </td>
 </tr>
 <tr>
 <td>RHEL</td>
 <td>
-<ul>
-<li>7.x (64 bits)</li>
-</ul>
+<p>7.x (64 bits)</p>
 <p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
 </td>
 </tr>
 <tr>
 <td>Windows Server</td>
 <td>
-<ul>
-<li>2012</li>
-<li>2012 R2</li>
-<li>2016</li>
-</ul>
+<p>2012</p>
+<p>2012 R2</p>
+<p>2016</p>
 </td>
 </tr>
 </tbody>
@@ -79,19 +71,15 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<ul>
-<li>8.0 on Windows Server 2012 - Windows 8</li>
-<li>8.5 on Windows Server 2012 R2</li>
-<li>10.0 on Windows Server 2016</li>
-</ul>
+<p>8.0 on Windows Server 2012 - Windows 8</p>
+<p>8.5 on Windows Server 2012 R2</p>
+<p>10.0 on Windows Server 2016</p>
 </td>
 </tr>
 <tr>
 <td>Apache</td>
 <td>
-<ul>
-<li>2.4 for RHEL7 - CentOS 7, Debian 8/9, Windows (64 bits)</li>
-</ul>
+<p>2.4 for RHEL7 - CentOS 7, Debian 8/9, Windows (64 bits)</p>
 </td>
 </tr>
 </tbody>
@@ -104,27 +92,21 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Java Development Kit (JDK)</td>
 <td>
-<ul>
-<li>8</li>
-<li>9</li>
-</ul>
+<p>8</p>
+<p>9</p>
 <p>The application has been approved for the Java Development Kit (JDK) developed by Oracle as well as for OpenJDK.</p>
 </td>
 </tr>
 <tr>
 <td>Libre Office</td>
 <td>
-<ul>
-<li>6 (and previous versions if embedded in your system)</li>
-</ul>
+<p>6 (and previous versions if embedded in your system)</p>
 </td>
 </tr>
 <tr>
 <td>SpamAssassin</td>
 <td>
-<ul>
-<li>3.4.x</li>
-</ul>
+<p>3.4.x</p>
 </td>
 </tr>
 </tbody>
@@ -163,36 +145,30 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Oracle</td>
 <td>
-<ul>
-<li>11g R2</li>
-<li>12c</li>
-<li>18c</li>
-<li>19c</li>
-</ul>
+<p>11g R2</p>
+<p>12c</p>
+<p>18c</p>
+<p>19c</p>
 </td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
 <td>
-<ul>
-<li>9.4.x</li>
-<li>9.5.x</li>
-<li>9.6.x</li>
-<li>10.x</li>
-<li>11.x</li>
-</ul>
+<p>9.4.x</p>
+<p>9.5.x</p>
+<p>9.6.x</p>
+<p>10.x</p>
+<p>11.x</p>
 <p>Note: you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
 </tr>
 <tr>
 <td>SQL Server</td>
 <td>
-<ul>
-<li>2012 - SP1 and SP2</li>
-<li>2014</li>
-<li>2016</li>
-<li>2017</li>
-</ul>
+<p>2012 - SP1 and SP2</p>
+<p>2014</p>
+<p>2016</p>
+<p>2017</p>
 <p>Warning: Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. Refer to the <a href="https://docs.campaign.adobe.com/doc/AC/en/INS_Prerequisites_and_recommendations__Database.html#Microsoft_SQL_Server">Installation guide</a>.</p>
 </td>
 </tr>
@@ -210,35 +186,27 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Salesforce connector API</td>
 <td>
-<ul>
-<li>API version 37</li>
-</ul>
+<p>API version 37</p>
 </td>
 </tr>
 <tr>
 <td>SFDC API</td>
 <td>
-<ul>
-<li>API version 15</li>
-<li>API version 21</li>
-</ul>
+<p>API version 15</p>
+<p>API version 21</p>
 </td>
 </tr>
 <tr><td>Oracle On Demand API</td>
 <td>
-<ul>
-<li>Web Services v1.0 API</li>
-</ul>
+<p>Web Services v1.0 API</p>
 </td>
 </tr>
 <tr>
 <td>MS Dynamics</td>
 <td>
-<ul>
-<li>Soap API - On-premise: 2007, 2015, 2016</li>
-<li>Soap API - Online: 2015, 2016</li>
-<li>Web API - On-premise and Online: 365, 2016, 2016 Update 1</li>
-</ul>
+<p>Soap API - On-premise: 2007, 2015, 2016</p>
+<p>Soap API - Online: 2015, 2016</p>
+<p>Web API - On-premise and Online: 365, 2016, 2016 Update 1</p>
 </td>
 </tr>
 </tbody>
@@ -260,85 +228,67 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Oracle</td>
 <td>
-<ul>
-<li>11g</li>
-<li>12c</li>
-<li>18c</li>
-</ul>
+<p>11g</p>
+<p>12c</p>
+<p>18c</p>
 </td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
 <td>
-<ul>
-<li>9.4.x</li>
-<li>9.5.x</li>
-<li>9.6.x</li>
-<li>10.x</li>
-<li>11.x</li>
-</ul>
+<p>9.4.x</p>
+<p>9.5.x</p>
+<p>9.6.x</p>
+<p>10.x</p>
+<p>11.x</p>
 </td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<ul>
-<li>2012 SP1 and SP2</li>
-<li>2014</li>
-<li>2016</li>
-<li>2017</li>
-</ul>
+<p>2012 SP1 and SP2</p>
+<p>2014</p>
+<p>2016</p>
+<p>2017</p>
 </td>
 </tr>
 <tr><td>MySQL</td>
 <td>
-<ul>
-<li>5.7</li>
-</ul>
+<p>5.7</p>
 </td>
 </tr>
 <tr>
 <td>Teradata</td>
 <td>
-<ul>
-<li>15.0</li>
-<li>15.10</li>
-<li>16</li>
-<li>16.20</li>
-</ul>
+<p>15.0</p>
+<p>15.10</p>
+<p>16</p>
+<p>16.20</p>
 </td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
-<ul>
-<li>7.2</li>
-</ul>
+<p>7.2</p>
 </td>
 </tr>
 <tr>
 <td>Sybase</td>
 <td>
-<ul>
-<li>IQ 16</li>
-<li>ASE 15.7</li>
-</ul>
+<p>IQ 16</p>
+<p>ASE 15.7</p>
 </td>
 </tr>
 <tr>
 <td>SAP HANA</td>
 <td>
-<ul>
-<li>version 1 SP12 or above</li>
-</ul>
+<p>version 1 SP12 or above</p>
 </td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
 <td>
-<ul>
-<li>HortonWorks HDP 2.4.X, 2.5.x, 2.6.x</li>
-<li>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</li>
-<li>Cloudera CDH6.x</li>
-</ul>
+<p>HortonWorks HDP 2.4.X, 2.5.x, 2.6.x</p>
+<p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
+<p>Cloudera CDH6.x</p>
 </td>
 </tr>
 <tr>
@@ -355,19 +305,15 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Windows Server</td>
 <td>
-<ul>
-<li>2012</li>
-<li>2016</li>
-</ul>
+<p>2012</p>
+<p>2016</p>
 </td>
 </tr>
 <tr>
 <td>Windows</td>
 <td>
-<ul>
-<li>8</li>
-<li>10 (recommended for Japanese instances)</li>
-</ul>
+<p>8</p>
+<p>10 (recommended for Japanese instances)</p>
 </td>
 </tr>
 </tbody>
@@ -380,24 +326,20 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Android</td>
 <td>
-<ul>
-<li>7.x</li>
-<li>8.x</li>
-<li>9.0</li>
-</ul>
+<p>7.x</p>
+<p>8.x</p>
+<p>9.0</p>
 <p>with mobile SDK build 1.0.27.</p>
 </td>
 </tr>
 <tr>
 <td>iOS</td>
 <td>
-<ul>
-<li>iOS 9</li>
-<li>iOS 10</li>
-<li>iOS 11</li>
-<li>iOS 12</li>
-<li>iOS 13</li>
-</ul>
+<p>iOS 9</p>
+<p>iOS 10</p>
+<p>iOS 11</p>
+<p>iOS 12</p>
+<p>iOS 13</p>
 <p>with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions.</p>
 </td>
 </tr>
@@ -406,29 +348,17 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 ## Browsers{#Browsers}
 
-<table>
-<tbody>
-<tr>
-<td>Internet Explorer</td>
-<td>11</td>
-</tr>
-<tr>
-<td>Microsoft Edge</td>
-<td>Latest version</td>
-</tr>
-<tr>
-<td>Firefox</td>
-<td>Latest version</td>
-</tr>
-<tr><td>Chrome</td>
-<td>Latest version</td>
-</tr>
-<tr>
-<td>Safari</td>
-<td>Latest version</td>
-</tr>
-</tbody>
-</table>
+Version 11 of Internet Explorer is supported.
+
+For the following browsers, the latest version is supported:
+
+* Microsoft Edge
+
+* Firefox
+
+* Chrome
+
+* Safari
 
 ## Experience Cloud integrations{#ExperienceCloudintegrations}
 
