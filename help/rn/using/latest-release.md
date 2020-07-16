@@ -16,27 +16,6 @@ snippet: y
 
 # Latest Release{#latest-release}
 
-[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--20-1.md) &#124; [Deprecated features](../../rn/using/deprecated-features.md)
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>General Availability</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>Release Candidate</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>No longer available</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>Deprecated</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Latest stable build available. Build validated in production.<br>&nbsp;</td>
-   <td>Build validated by Adobe. Waiting for production proofing.<br>&nbsp;</td>
-   <td>Newer build available with bug fixes. Update is required.<br>&nbsp;</td>
-   <td>Contains known regressions. Update is mandatory.<br>&nbsp;</td>
-  </tr> 
- </tbody> 
-</table>
-
-The **last stable build** is Gold Standard 10. Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
-
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel June release** with Active profiles monitoring, Subdomain deliverability audit and GPG keys management. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/blue_2.png) Release 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
