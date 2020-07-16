@@ -20,7 +20,9 @@ snippet: y
 
 As a Gold Standard user, you automatically benefit from the Gold Standard upgrade with the latest stable version without any action.
 
-This is our Long-Term-Support release. If you migrate from an old build, we recommend that you upgrade first to this version. 
+On premise and Hybrid customers can also benefit from Gold Standard releases.
+
+This is our Long-Term support release. If you migrate from an old build, we recommend that you upgrade first to this version. 
 
 This page lists Gold Standard releases. 
 

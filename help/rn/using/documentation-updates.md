@@ -22,6 +22,8 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 ## July 2020 {#july-2020}
 
+The [Release Notes](../../rn/using/latest-release.md) have been reorganized. An [overview page](../../rn/using/latest-release.md) has been added with information on build statuses, upgrade process, recommendations and important links. A dedicated page for [Gold Standard releases](../../rn/using/gold-standard.md) has also been added and the [Compatibility matrix](../../rn/using/compatibility-matrix.md) has been integrated.
+
 A new section has been added with guidelines related to Campaign Classic monitoring. [Read more](../../production/using/monitoring-guidelines.md)
 
 The Privacy and Consent section has been enhanced with more detailed information and useful links. [Read more](../../platform/using/privacy-and-recommendations.md).
