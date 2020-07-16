@@ -110,7 +110,6 @@ sub-product: adobe campaign classic
        + [Creating a direct mail delivery](delivery/using/creating-a-direct-mail-delivery.md)
        + [Defining the direct mail content](delivery/using/defining-the-direct-mail-content.md)
        + [Validating](delivery/using/validating.md)
-       + [Other channels](delivery/using/other-channels.md)
   + Using delivery templates {#using-delivery-templates}
        + [About templates](delivery/using/about-templates.md)
        + [Creating a delivery template](delivery/using/creating-a-delivery-template.md)
