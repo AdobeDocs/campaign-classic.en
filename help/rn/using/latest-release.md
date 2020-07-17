@@ -33,9 +33,8 @@ _July 22, 2020_
 * Fixed a crash issue in the deployment wizard.
 * Fixed an issue which could prevent the Offer notification workflow from properly working after a postupgrade.
 * The iOS HTTP2 connector has been improved (third-party updates and error management). (NEO-25904, NEO-25903)
-* Fixed an issue with catalina.properties in iOS push notifications.
+* The jarsToSkip list in catalina.properties has been updated to remove the reference to a jar file that was no longer used (iOS notifications). 
 * Fixed an issue delivery preparation after postugrade.
-* Fixed an issue which prevented the Message Center monitoring from working properly.
 * Following the switch to the [new sequence ID mechanism](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), all web applications that are updating the recipient table are republished during postupgrade.
 * Fixed a potential XSS vulnerability in delivery content. (NEO-17987, NEO-26073)
 * Fixed an issue which led to unsigned links from personalized domains being blocked when they should be allowed. (NEO-25210)
