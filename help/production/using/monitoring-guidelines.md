@@ -85,7 +85,7 @@ Following guidelines and best practices when using workflows can help improve pe
 
 ### Monitoring deliveries {#monitoring-deliveries}
 
-<img src="assets/do-not-localize/icon_send.svg" width="60px">
+<img src="assets/do-not-localize/icon_Send.svg" width="60px">
 
 **SMTP reports**
 
