@@ -22,25 +22,25 @@ snippet: y
 
 _July 22, 2020_
 
-Fixed an issue which prevented tracking from working when the signature feature was disabled or when using an old marketing instance with a recent Mid. (NEO-26411)
-Fixed an issue which could prevent you from opening/clicking tracking URLs when using certain legacy versions of Outlook. (NEO-25688)
-Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries. (NEO-26084)
-Fixed an issue when using calculated fields in a workflow. (NEO-25194)
-Fixed an issue which prevented the tracking of URLs using fragments in personalization parameters (anchor tags with pound-sign) from working. (NEO-25774)
-Fixed a tracking issue when using specific custom tracking formulas. (NEO-25277)
-Fixed an issue which prevented the on-the-fly creation of web tracking URLs from working. (NEO-20999)
-Fixed an issue with out-of-the-box delivery reports which appeared truncated when exported to PDF. (NEO-25757)
-Fixed a crash issue in the deployment wizard.
-Fixed an issue which could prevent the Offer notification workflow from properly working after a postupgrade.
-The iOS HTTP2 connector has been improved (third-party updates and error management). (NEO-25904, NEO-25903)
-Fixed an issue with catalina.properties in iOS push notifications.
-Fixed an issue delivery preparation after postugrade.
-Fixed an issue which prevented the Message Center monitoring from working properly.
-Following the switch to the [new sequence ID mechanism](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), all web applications that are updating the recipient table are republished during postupgrade.
-Fixed a potential XSS vulnerability in delivery content. (NEO-17987, NEO-26073)
-Fixed an issue which led to unsigned links from personalized domains being blocked when they should be allowed. (NEO-25210)
-Fixed an issue with the anti-phishing service. (NEO-25283)
-Fixed an issue which prevented the tracking of "notification clicks" from working (iOS and Android push notifications). (NEO-25965)
+* Fixed an issue which prevented tracking from working when the signature feature was disabled or when using an old marketing instance with a recent Mid. (NEO-26411)
+* Fixed an issue which could prevent you from opening/clicking tracking URLs when using certain legacy versions of Outlook. (NEO-25688)
+* Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries. (NEO-26084)
+* Fixed an issue when using calculated fields in a workflow. (NEO-25194)
+* Fixed an issue which prevented the tracking of URLs using fragments in personalization parameters (anchor tags with pound-sign) from working. (NEO-25774)
+* Fixed a tracking issue when using specific custom tracking formulas. (NEO-25277)
+* Fixed an issue which prevented the on-the-fly creation of web tracking URLs from working. (NEO-20999)
+* Fixed an issue with out-of-the-box delivery reports which appeared truncated when exported to PDF. (NEO-25757)
+* Fixed a crash issue in the deployment wizard.
+* Fixed an issue which could prevent the Offer notification workflow from properly working after a postupgrade.
+* The iOS HTTP2 connector has been improved (third-party updates and error management). (NEO-25904, NEO-25903)
+* Fixed an issue with catalina.properties in iOS push notifications.
+* Fixed an issue delivery preparation after postugrade.
+* Fixed an issue which prevented the Message Center monitoring from working properly.
+* Following the switch to the [new sequence ID mechanism](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), all web applications that are updating the recipient table are republished during postupgrade.
+* Fixed a potential XSS vulnerability in delivery content. (NEO-17987, NEO-26073)
+* Fixed an issue which led to unsigned links from personalized domains being blocked when they should be allowed. (NEO-25210)
+* Fixed an issue with the anti-phishing service. (NEO-25283)
+* Fixed an issue which prevented the tracking of "notification clicks" from working (iOS and Android push notifications). (NEO-25965)
 
 ## ![](assets/do-not-localize/orange_2.png) Release 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
