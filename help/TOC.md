@@ -12,7 +12,9 @@ sub-product: adobe campaign classic
 + [Product documentation](campaign-classic-home.md)
 + [Latest updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
+  + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest Release](rn/using/latest-release.md)
+  + [Gold Standard release](rn/using/gold-standard.md)
   + Previous Releases {#previous-releases}
     + [Release 20.1](rn/using/release--20-1.md)
     + [Release 19.2](rn/using/release--19-2.md)
@@ -20,7 +22,9 @@ sub-product: adobe campaign classic
     + [Release 18.10](rn/using/release--18-10.md)
     + [Release 18.6](rn/using/release--18-6.md)
     + [Release 18.4](rn/using/release--18-4.md)
-  + [Deprecated features](rn/using/deprecated-features.md)
+  + Deprecated features and compatibility {#deprecated-compatibility}
+    + [Deprecated features](rn/using/deprecated-features.md)
+    + [Compatibility Matrix](rn/using/compatibility-matrix.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -415,6 +419,7 @@ sub-product: adobe campaign classic
           + [Creating a summary list](workflow/using/creating-a-summary-list.md)
           + [Enriching data](workflow/using/enriching-data.md) 
           + [Using aggregates](workflow/using/using-aggregates.md)
+          + [Quarterly list update using an incremental query](workflow/using/quarterly-list-update.md)
        + Designing queries {#designing-queries}
           + [Querying the recipient table](workflow/using/querying-recipient-table.md)
           + [Querying delivery information](workflow/using/querying-delivery-information.md)
