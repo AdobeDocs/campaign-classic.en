@@ -32,7 +32,7 @@ Detailed information is available [here](../../production/using/monitoring-proce
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Monitor your instance</a></p></td>
 <td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">Monitor workflows</a></p></td>
 <td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Monitor the database</a></p></td>
-<td><img src="assets/do-not-localize/icon_Send.svg" width="60px"><p><a href="#monitoring-deliveries">Monitor deliveries</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Monitor deliveries</a></p></td></tr>
 </table>
 
 Additional ways of monitoring the different Campaign processes are available. They provide several ways of monitoring your instances to make sure that your system is healthy and eventually troubleshoot issues that may occur when setting up workflows, sending deliveries, etc.
@@ -85,7 +85,7 @@ Following guidelines and best practices when using workflows can help improve pe
 
 ### Monitoring deliveries {#monitoring-deliveries}
 
-<img src="assets/do-not-localize/icon_Send.svg" width="60px">
+<img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 **SMTP reports**
 
