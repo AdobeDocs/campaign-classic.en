@@ -240,7 +240,7 @@ $ apt update
 $ apt install libmysqlclient20
 ```
 
-#### Windows [#windows-mysql}
+#### Windows {#windows-mysql}
 
 Download the C connector from this [page](https://dev.mysql.com/downloads/connector/c). We recommend downloading version 5.7.
 
