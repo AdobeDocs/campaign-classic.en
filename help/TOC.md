@@ -114,7 +114,6 @@ sub-product: adobe campaign classic
        + [Creating a direct mail delivery](delivery/using/creating-a-direct-mail-delivery.md)
        + [Defining the direct mail content](delivery/using/defining-the-direct-mail-content.md)
        + [Validating](delivery/using/validating.md)
-       + [Other channels](delivery/using/other-channels.md)
   + Using delivery templates {#using-delivery-templates}
        + [About templates](delivery/using/about-templates.md)
        + [Creating a delivery template](delivery/using/creating-a-delivery-template.md)
@@ -420,6 +419,7 @@ sub-product: adobe campaign classic
           + [Creating a summary list](workflow/using/creating-a-summary-list.md)
           + [Enriching data](workflow/using/enriching-data.md) 
           + [Using aggregates](workflow/using/using-aggregates.md)
+          + [Quarterly list update using an incremental query](workflow/using/quarterly-list-update.md)
        + Designing queries {#designing-queries}
           + [Querying the recipient table](workflow/using/querying-recipient-table.md)
           + [Querying delivery information](workflow/using/querying-delivery-information.md)

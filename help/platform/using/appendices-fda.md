@@ -121,6 +121,7 @@ To install udf_utf16to8:
   
     -- Test: should return 410042
     SELECT CAST(Char2HexInt(UDF_UTF16to8(_UNICODE'004100000042'XC)) AS VARCHAR(100));
+    ```
 
 ### Campaign server configuration for Linux {#campaign-server-linux}
 
@@ -240,7 +241,7 @@ $ apt update
 $ apt install libmysqlclient20
 ```
 
-#### Windows [#windows-mysql}
+#### Windows {#windows-mysql}
 
 Download the C connector from this [page](https://dev.mysql.com/downloads/connector/c). We recommend downloading version 5.7.
 
