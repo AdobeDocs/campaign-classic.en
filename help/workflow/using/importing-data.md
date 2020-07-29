@@ -16,6 +16,11 @@ snippet: y
 
 # Importing data{#importing-data}
 
+>[!CAUTION]
+>
+>Please keep in mind the SFTP storage, DB Storage and active profile limits as per your Adobe 
+Campaign contract while using this functionality.
+
 ## How to collect data {#how-to-collect-data}
 
 ### Using data from a list: Read list {#using-data-from-a-list--read-list}
