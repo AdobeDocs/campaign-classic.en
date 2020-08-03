@@ -22,19 +22,19 @@ As a Gold Standard user, you automatically benefit from the Gold Standard upgrad
 
 On premise and Hybrid customers can also benefit from Gold Standard releases.
 
-This is our Long-Term support release. If you migrate from an old build, we recommend that you upgrade first to this version. 
+This is our Long-Term support release. If you migrate from an old build, we recommend that you upgrade first to this version.
 
-This page lists Gold Standard releases. 
+This page lists Gold Standard releases.
 
 For more information on Gold Standard upgrade, refer to this [article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
-## ![](assets/do-not-localize/green_2.png) Gold Standard 10 release{#gs-10}
+## ![](assets/do-not-localize/limited.png) Gold Standard 10 release{#gs-10}
 
 _7 July 2020_
 
 The build 9032&#64;efd8a94 includes the following fix:
 
-* Fixed an issue which prevented tracking from working when the signature feature was disabled. (NEO-26411)
+Fixed an issue which prevented tracking from working when the signature feature was disabled or when using an old marketing instance with a recent Mid. (NEO-26411)
 
 >[!CAUTION]
 >
@@ -81,7 +81,7 @@ The build 9032&#64;3a9dc9c includes the following fixes:
 * Fixed a regression causing the cleanup workflow to crash. 
 * Fixed a minor regression in the cleanup workflow logs.
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 6 release{#gs-6}
+## ![](assets/do-not-localize/green_2.png) Gold Standard 6 release{#gs-6}
 
 _9 March 2020_
 

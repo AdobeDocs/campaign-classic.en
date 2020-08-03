@@ -156,7 +156,7 @@ This sample JS code saves the trigger to the database.
 
 ```
 function processPipelineMessage(xmlTrigger)
- {```
+ {
  (…)
  var event = 
  <pipelineEvent

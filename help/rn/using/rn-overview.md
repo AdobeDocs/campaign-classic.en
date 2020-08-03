@@ -28,7 +28,9 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
 
 ![](assets/do-not-localize/green3.png) **General Availability** - Latest stable build available. Build validated in production. 
 
-The **last stable build** is Gold Standard 10. Click [here](../../rn/using/gold-standard.md)
+The **last stable build** is Gold Standard 6. Click [here](../../rn/using/gold-standard.md)
+
+![](assets/do-not-localize/limited.png) **Limited Availability** - Build currently in production validation. On demand deployment only.
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate** - Build validated by Adobe. Waiting for production proofing.
 
