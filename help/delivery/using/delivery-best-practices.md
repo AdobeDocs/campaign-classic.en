@@ -194,11 +194,7 @@ When building your emails, keep the general best practices below in mind.
 
 Learn how to insert an opt-out link [in this section](../../delivery/using/personalization-blocks.md#personalization-blocks-example).
 
-**Email size**
-
-To avoid performance or deliverability issues, the recommended maximum size of an email is about **35KB**.
-
-To check the message size, go the **[!UICONTROL Preview]** tab and choose a test profile. Once generated, the message size will be displayed in the top right corner.
+**Email size** - To avoid performance or deliverability issues, the recommended maximum size of an email is about **35KB**. To check the message size, go the **[!UICONTROL Preview]** tab and choose a test profile. Once generated, the message size will be displayed in the top right corner.
 
 To keep your email under the limit, consider the following:
 
@@ -276,6 +272,7 @@ Adobe recommends previewing your message to check its personalization and how yo
 *  An automatic anti-spam checking is performed during each preview. In the **[!UICONTROL Preview]** sub-tab, check [SpamAssassin](../../delivery/using/spamassassin.md) spam scoring.  Click **[!UICONTROL More...]** to find out more about the warning.  Before doing so, make sure SpamAssassin is correctly installed and configured on the Adobe Campaign application server. [Learn more](../../installation/using/configuring-spamassassin.md)
 
 ## Define the right target {#define-the-right-target}
+
 Targeted population is key: build your lists carefully, test your emails on popular email clients and mobile devices, and ensure that your email lists are up-to-date (with no unknown or obsolete addresses). You can also send proofs that help set up a complete validation cycle.
 
 Learn more about target populations [in this section](../../delivery/using/steps-defining-the-target-population.md)
