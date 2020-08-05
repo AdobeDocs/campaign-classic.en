@@ -249,7 +249,7 @@ Information was added to specify that personalization fields content cannot exce
 
 The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
-The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+The Delivery Best Practices getting started guide has been updated. [Read more](../../delivery/using/delivery-best-practices.md)
 
 ## October 2019 {#october-2019}
 
@@ -261,7 +261,7 @@ A new troubleshooting page has been added for tracking in Campaign Classic. [Rea
 
 A new page of best practices for Adobe Analytics Data Connector has been added. [Read more on Adobe Analytics Data Connector](../../platform/using/adobe-analytics-data-connector.md)
 
-The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+The Delivery Best Practices getting started guide has been moved and updated. [Read more](../../delivery/using/delivery-best-practices.md)
 
 A recommendation has been added to the SMS channel documentation to avoid issues when using multiple external accounts leveraging the Extended generic SMPP connector with the same provider account. [Read more](../../delivery/using/sms-channel.md#automatic-reply)
 
