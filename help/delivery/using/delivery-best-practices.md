@@ -16,6 +16,8 @@ snippet: y
 
 # Delivery best practices {#delivery-best-practices}
 
+Learn best practices related to delivery design and sending with Adobe Campaign.
+
 ## Optimize delivery {#optimize-delivery}
 
 Before even starting creating deliveries, you can take several actions to secure and optimize the sending process upstream.
@@ -335,7 +337,7 @@ Once your message is ready, make sure its content is displayed correctly, on all
 
 Before sending your message, also ensure that the parameters and configuration are consistent with the delivery.
 
-### Validation is key {#validation-is-key}
+### Why validation is key {#validation-is-key}
 
 Before sending a delivery, you need to ensure that your recipients will receive the message that you really want to send them. To do this, you need to validate the message content and delivery parameters.
 
@@ -454,7 +456,7 @@ To measure the speed at which the messages are delivered, you can control the de
 
 * Do no try to schedule large deliveries together. Please note that it can take 5 to 10 minutes to spread the load uniformly over the system.
 
-## Delivery troubleshooting {#delivery-troubleshooting}
+### Delivery troubleshooting {#delivery-troubleshooting}
 
 Specific actions can be performed when encountering issues with deliveries:
 
