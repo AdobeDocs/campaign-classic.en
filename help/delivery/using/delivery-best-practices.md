@@ -95,7 +95,7 @@ When you manage several brands in Adobe Campaign, Adobe recommends having one su
 
 **Tip**:  To avoid configuration errors in Campaign Standard, we recommend that you duplicate a native template and alter its properties rather than create a new template.
 
-**Configure addresses**
+### Configure addresses
 
 * The sender's address is mandatory to allow an email to be sent.
 
@@ -119,7 +119,7 @@ To configure addresses in Campaign interface, follow the steps below:
 
 1. In the **[!UICONTROL Reply address text]** fiels, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.
 
-**Set up a control group**
+### Set up a control group
 
 Once the delivery is sent, you can compare the behavior of the excluded recipients with the recipients who did receive the delivery. You can then measure the efficiency of your campaigns. Learn more about control groups [this section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
@@ -127,7 +127,7 @@ To set up a control group, click the **[!UICONTROL To]** link. In the **[!UICONT
 
    ![](assets/d_best_practices_control_group.png)
 
-**Use typologies to apply filters or control rules**
+### Use typologies to apply filters or control rules
 
 A typology contains checking rules that are applied during the analysis phase, before sending any message.
 
