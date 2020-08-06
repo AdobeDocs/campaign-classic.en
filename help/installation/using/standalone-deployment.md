@@ -71,7 +71,7 @@ As the volume grows, a variant of this architecture moves the database server to
     * the first exposed to the public for tracking and pointing to the computer on its public IP;
     * the second alias exposed to internal users for console access and pointing to the same computer.
 
-* Firewall configured to open STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to [Network configuration](../../installation/using/network-configuration.md).
+* Firewall configured to open SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 for Oracle, 5432 for PostgreSQL, etc.) ports. For further information, refer to [Network configuration](../../installation/using/network-configuration.md).
 
 In the following examples, the parameters of the instance are:
 
