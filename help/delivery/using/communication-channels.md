@@ -96,3 +96,33 @@ In addition, 'Other' type deliveries use a specific technical template which doe
 This channel has no specific mechanism. It is a generic channel that has its own external account routing option, delivery template type and campaign workflow activity, just like any other communication channel available in Adobe Campaign.
 
 This channel is designed for descriptive purposes only, for example to define deliveries for which you want to keep a trace of the target of a campaign performed in a tool other than Adobe Campaign.
+
+## Types of deliveries{#types-of-deliveries}
+
+There are three types of delivery objects in Campaign:
+
+### Single delivery {#single-delivery}
+
+A **delivery** is a standalone delivery object that is executed once. It can be duplicated, prepared again, but as long as it is in its final state (canceled, stopped, finished), it cannot be reused.
+
+Deliveries can be created either from the list of deliveries, or within a workflow via a [Delivery](../../workflow/using/delivery.md) activity.
+
+Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
+
+### Recurring delivery {#recurring-delivery}
+
+A **recurring delivery** lets you create a new delivery each time the activity is executed. This avoids you having to create a new delivery for recurring tasks.
+
+As an example, if you run this type of activity once a month, you will end up with 12 deliveries after a year.
+
+Recurring deliveries are created within workflows via the [Recurring delivery activity](../../workflow/using/recurring-delivery.md). An example of this activity being used is presented in this section: [Creating a recurring delivery in a targeting workflow](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+
+### Continuous delivery {#continuous-delivery}
+
+A **continuous delivery** lets you add new recipients to an existing delivery, which avoids having to create a new delivery each time it is executed.
+
+If an information in the delivery changes (content, name, etc.), a new delivery object is created at the delivery execution. If no information was changed, the same delivery object is reused and the delivery and tracking logs are added in the same object.
+
+As an example, if you run this type of activity once a month, you will end up with a single delivery after a year (provided you did not make any change to the delivery).
+
+Continuous deliveries are created within workflows via the [Continuous delivery activity](../../workflow/using/continuous-delivery.md).
