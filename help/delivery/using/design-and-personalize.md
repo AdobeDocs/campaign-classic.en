@@ -116,13 +116,15 @@ To avoid common formatting errors, check the following elements:
 
 * Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to [this section](../../delivery/using/technical-recommendations.md#dkim).
 
-* **Responsive email design** ensures that an email renders optimally for the device on which it is opened. 
+### Responsive email design
 
-    * Use responsive email HTML rather than web HTML.
+Responsive design ensures that an email renders optimally for the device on which it is opened. 
 
-    * Use the preview mode and send proofs to test the rendering on as much devices as possible.
+* Use responsive email HTML rather than web HTML
 
-    * The Adobe Campaign Classic Digital Content Editor (DCE) module includes some responsive design formatted templates for mobile available via **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Learn more [in this article](https://theblog.adobe.com/responsive-email-design-101/).
+* Use the preview mode and send proofs to test the rendering on as much devices as possible
+
+* The Adobe Campaign Classic Digital Content Editor (DCE) module includes some responsive design formatted templates for mobile available via **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Learn more [in this article](https://theblog.adobe.com/responsive-email-design-101/)
 
 ## Manage images {#manage-images}
 
