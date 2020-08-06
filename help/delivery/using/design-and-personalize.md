@@ -134,11 +134,11 @@ Follow the guidelines below when it comes to using images.
 
 Some email clients block images by default, and some users change their settings to block images for saving on data usage. Therefore, if images are not downloaded, the whole message can be lost. To avoid this:
 
- * Balance your content with image and text. Avoid entirely image-based emails.
+* Balance your content with image and text. Avoid entirely image-based emails.
 
- * If text must be contained in an image, use alt and title text to make sure your message gets across. Style your alt/title text to improve its appearance.
+* If text must be contained in an image, use alt and title text to make sure your message gets across. Style your alt/title text to improve its appearance.
 
- * Avoid the use of background images as they are not supported by some email clients.
+* Avoid the use of background images as they are not supported by some email clients.
 
 ### Make images responsive
 
