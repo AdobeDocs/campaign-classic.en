@@ -30,7 +30,7 @@ The suggested configurations are suited to the different types of delivery: dire
 
 >[!NOTE]
 >
->For more on creating and configuring deliveries, refer to the [Sending Messages](../../delivery/using/communication-channels.md) section.
+>For more on creating and configuring deliveries, refer to the [Sending Messages](../../delivery/using/steps-about-delivery-creation-steps.md) section.
 
 ## Selecting the target population {#selecting-the-target-population}
 

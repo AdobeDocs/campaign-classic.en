@@ -35,7 +35,7 @@ Adobe Campaign offers the following delivery channels:
 1. **Mobile channel**: deliveries on mobile channels let you send personalized SMS or LINE messages to the target population. Refer to [SMS channel](../../delivery/using/sms-channel.md).
 1. **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems. Refer to the [Mobile app channel](../../delivery/using/about-mobile-app-channel.md) chapter.
 
-   Other channels are described on [this page](../../delivery/using/communication-channels.md#other-channels).
+   Other channels are described on [this page](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels).
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ You can send different types of emails:
 
 To learn about delivery usage and recommendations, consult Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
 
-For more on the different types of deliveries, refer to [this section](../../delivery/using/types-of-deliveries.md).
+For more on the different types of deliveries, refer to [this section](#types-of-deliveries).
 
 ## Mobile deliveries {#mobile-deliveries}
 

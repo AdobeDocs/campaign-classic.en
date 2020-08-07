@@ -25,7 +25,7 @@ In addition, the **Marketing Resource Management (MRM)** module lets you control
 >[!NOTE]
 >
 >For more on the Adobe Campaign core functionalities, refer to the [Getting Started](../../platform/using/about-adobe-campaign-classic.md) section.  
->Capabilities related to population targeting, message personalization and message delivery on the various channels are detailed in [this section](../../delivery/using/communication-channels.md).
+>Capabilities related to population targeting, message personalization and message delivery on the various channels are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Core concepts {#core-concepts}
 

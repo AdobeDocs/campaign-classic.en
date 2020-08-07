@@ -70,7 +70,7 @@ Adobe Campaign offers a set of capabilities to help you implementing and optimiz
 
 The following capabilities are available. Depending on your license agreement, some of these capabilities can be available or not in your instance.
 
-* [Channels](../../delivery/using/communication-channels.md) - design and send deliveries on various channels: email, SMS, Line, mobile app, direct mail,
+* [Channels](../../delivery/using/steps-about-delivery-creation-steps.md) - design and send deliveries on various channels: email, SMS, Line, mobile app, direct mail,
 * [Campaign](../../campaign/using/designing-marketing-campaigns.md) - orchestrate cross-channel campaigns,
 * [MRM](../../campaign/using/about-marketing-resource-management.md) - manage marketing resources and budgets,
 * [Interaction](../../interaction/using/interaction-and-offer-management.md) - managing offers with Campaign,

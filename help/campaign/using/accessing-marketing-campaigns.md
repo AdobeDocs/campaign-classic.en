@@ -43,7 +43,7 @@ The navigation block of the **[!UICONTROL Campaigns]** universe offers various e
 >
 >For more on the overall Adobe Campaign ergonomics, permissions and on profile management functionalities, refer to [this section](../../platform/using/adobe-campaign-workspace.md).
 >
->All functionalities related to channels and deliveries are detailed in [this section](../../delivery/using/communication-channels.md).
+>All functionalities related to channels and deliveries are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ### Campaign calendar {#campaign-calendar}
 

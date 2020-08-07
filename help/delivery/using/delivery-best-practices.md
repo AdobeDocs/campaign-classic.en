@@ -66,7 +66,7 @@ Learn best practices related to delivery design and sending with Adobe Campaign.
       <img alt="Target" src="assets/do-not-localize/target.png"/>
     </a>
     <div>
-      <a href="odefine-the-right-audience.md">
+      <a href="define-the-right-audience.md">
     <strong>Define the right audience</strong>
     </a>
     </div>
