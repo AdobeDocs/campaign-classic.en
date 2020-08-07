@@ -162,7 +162,7 @@ The following RDBMS drivers are supported:
 <p>2014</p>
 <p>2016</p>
 <p>2017</p>
-<p>Warning: Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. Refer to the <a href="https://docs.campaign.adobe.com/doc/AC/en/INS_Prerequisites_and_recommendations__Database.html#Microsoft_SQL_Server">Installation guide</a>.</p>
+<p>Warning: Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">Learn more</a>.</p>
 </td>
 </tr>
 </tbody>

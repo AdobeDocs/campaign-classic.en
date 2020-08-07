@@ -37,7 +37,7 @@ There are two types of permissions you can grant to a user:
 
 >[!NOTE]
 >
->Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html).
+>Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
 
 ## Operators {#operators}
 
@@ -204,7 +204,7 @@ By default, the 'webapp' technical operator has the named ADMINISTRATION right, 
 
 >[!NOTE]
 >
->For more information on Security guidelines, refer to [Adobe Campaign Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html).
+>For more information on Security guidelines, refer to [Adobe Campaign Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
 
 ## Operator groups {#operator-groups}
 

@@ -35,7 +35,7 @@ You can [use workflows to create target population](../../campaign/using/marketi
 
 A list is a static set of recipients that can be targeted in delivery actions, updated during import operations or workflow execution. For example, a population extracted from the database via a query can supply a list.
 
-[Click here to learn more](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group). You can also watch [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html) about how to create a list manually, and [this other video](https://docs.campaign.adobe.com/doc/AC/en/Videos/creating_list_recipients_611.mp4) to create and automatically update a list of recipients in a workflow.
+[Click here to learn more](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group). You can also watch [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html) about how to create a list manually, and [this other video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html) to create and automatically update a list of recipients in a workflow.
 
 ## How can I deduplicate a population before sending a message? {#how-can-i-deduplicate-a-population-before-sending-a-message-}
 

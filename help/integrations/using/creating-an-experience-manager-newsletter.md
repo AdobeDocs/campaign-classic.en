@@ -20,7 +20,7 @@ snippet: y
 
 This integration can be used for example to create a newsletter in Adobe Experience Manager which will then be used in Adobe Campaign as part of an email campaign.
 
-For a more detailed example on how to use this integration, refer to this [step-by-step guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html).
+For a more detailed example on how to use this integration, refer to this [step-by-step guide](https://helpx.adobe.com/campaign/kb/acc-aem.html).
 
 **From Adobe Experience Manager:**
 

@@ -31,7 +31,7 @@ For more information, refer to these sections:
 * [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 * [Hosting models](../../installation/using/hosting-models.md)
 * [Campaign Classic On-premise & Hosted capability matrix](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)
-* [Hybrid and hosted models configuration steps](https://docs.campaign.adobe.com/doc/AC/en/INS_Hybrid_and_Hosted_models_About_hybrid_and_hosted_models.html)
+* [Hybrid and hosted models configuration steps](../../installation/using/about-hybrid-and-hosted-models.md) )
 
 Campaign Classic configuration files are stored in the **conf** folder of the Adobe Campaign installation folder. The configuration is spread over two files:
 
