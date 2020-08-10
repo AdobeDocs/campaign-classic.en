@@ -65,13 +65,15 @@ ISPs and other organizations (see the [Project Honey Pot](https://www.projecthon
  
 Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.
 
+## Best practices {#best-practices}
+
 Learn best practices related to deliverability with Adobe Campaign. Use the links below to navigate topics and find guidance.
 
 <table>
 <tr>
   <td>
     <a href="starting-new-platform.md">
-      <img alt="Start" src="assets/do-not-localize/optimize.png"/>
+      <img alt="Start" src="assets/do-not-localize/start.svg"/>
     </a>
     <div>
       <a href="starting-new-platform.md">
@@ -84,7 +86,7 @@ Learn best practices related to deliverability with Adobe Campaign. Use the link
   </td>
    <td>
     <a href="control-message-content.md">
-      <img alt="Design" src="assets/do-not-localize/design.png"/>
+      <img alt="Design" src="assets/do-not-localize/design.svg"/>
     </a>
     <div>
       <a href="control-message-content.md">
@@ -97,7 +99,7 @@ Learn best practices related to deliverability with Adobe Campaign. Use the link
   </td>
   <td>
     <a href="improve-reputatione.md">
-      <img alt="Design" src="assets/do-not-localize/checks.png"/>
+      <img alt="Design" src="assets/do-not-localize/check.svg"/>
     </a>
     <div>
       <a href="improve-reputation.md">
@@ -112,7 +114,7 @@ Learn best practices related to deliverability with Adobe Campaign. Use the link
 <tr>
   <td>
     <a href="technical-recommendations.md">
-      <img alt="Target" src="assets/do-not-localize/target.png"/>
+      <img alt="Optimize" src="assets/do-not-localize/optimize.svg"/>
     </a>
     <div>
       <a href="technical-recommendations.md">
@@ -125,7 +127,7 @@ Learn best practices related to deliverability with Adobe Campaign. Use the link
   </td>
    <td>
     <a href="monitoring-deliverability.md">
-      <img alt="Check" src="assets/do-not-localize/checks.png"/>
+      <img alt="Check" src="assets/do-not-localize/monitor.svg"/>
     </a>
     <div>
       <a href="monitoring-deliverability.md">
@@ -138,7 +140,7 @@ Learn best practices related to deliverability with Adobe Campaign. Use the link
   </td>
   <td>
     <a href="deliverability-faq.md">
-      <img alt="Optimize" src="assets/do-not-localize/monitor.png"/>
+      <img alt="Optimize" src="assets/do-not-localize/troubleshoot.svg"/>
     </a>
     <div>
       <a href="deliverability-faq.md">
