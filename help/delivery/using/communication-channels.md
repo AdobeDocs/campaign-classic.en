@@ -60,7 +60,7 @@ You can send different types of emails:
 * Recurring emails: in a campaign, send the same email regularly and aggregate each send and its reports on a periodic basis. The same email is sent, but usually to a different target, based on the eligible target for the day of the send. A common example is a birthday email. For more on this, refer to [Recurring deliveries](../../workflow/using/recurring-delivery.md).
 * Transactional emails: unitary emails that are triggered based on your customers' behavior. Refer to [Transactional messaging](../../message-center/using/about-transactional-messaging.md).
 
-To learn about delivery usage and recommendations, consult Campaign [Delivery best practices](../../delivery/using/delivery)-best-practices.md).
+To learn about delivery usage and recommendations, consult Campaign [Delivery best practices](../../delivery/using/delivery-best-practices.md).
 
 For more on the different types of deliveries, refer to [this section](#types-of-deliveries).
 

@@ -98,7 +98,7 @@ Learn best practices related to deliverability with Adobe Campaign. Use the link
     <p>
   </td>
   <td>
-    <a href="improve-reputatione.md">
+    <a href="improve-reputation.md">
       <img alt="Design" src="assets/do-not-localize/check.svg"/>
     </a>
     <div>
