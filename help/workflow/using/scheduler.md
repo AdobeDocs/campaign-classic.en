@@ -16,15 +16,25 @@ internal: n
 snippet: y
 ---
 
-# Scheduler{#scheduler}
+# Scheduler {#scheduler}
 
 The **Scheduler** is a persistent task that activates its transition at the times specified by its schedule.
 
 The **[!UICONTROL Scheduler]** activity should be considered as a scheduled start. The activity positioning rules within the chart are the same as for the **[!UICONTROL Start]** activity. This activity must not have an inbound transition.
 
-It is a best practice not to schedule a workflow to run more than every 15 minutes because it may impede overall system performance and create blocks in the database.
+## Best practices {#best-practices}
 
-When building your workflow, never use more than one **[!UICONTROL Scheduler]** activity per branch. For more on this, refer to: [Using activities](../../workflow/using/workflow-best-practices.md#using-activities).
+* Do not schedule a workflow to run more than every 15 minutes as it may impede overall system performance and create blocks in the database.
+
+* Never use more than one **[!UICONTROL Scheduler]** activity per branch in a workflow. See [Using activities](../../workflow/using/workflow-best-practices.md#using-activities).
+
+* Using a scheduler activity may lead to have several executions of a workflow running at the same time. For instance, you can have a scheduler triggering the workflow execution every hour, but sometimes the execution of the whole workflow takes more than an hour.
+
+   You may want to skip the execution if the workflow is already running. For more on how to prevent simultaneous executions of a workflow, refer to [this page](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions).
+
+* Note that the transition can be activated several hours later if the workflow was executing a long-term task, such as an import, or if the wfserver module was stopped for a time. In this case, it may be necessary to restrict the execution of the task activated by the scheduler to a certain time range.
+
+## Configuring the Scheduler activity {#configuring-scheduler-activity}
 
 The scheduler defines the activation schedule of the transition. To configure it, double-click the graphical object, then click **[!UICONTROL Change...]** 
 
@@ -47,7 +57,3 @@ A wizard lets you define the frequency and validity period of the activity. The 
 1. Check the configuration and click **[!UICONTROL Finish]** to save.
 
    ![](assets/s_user_segmentation_scheduler5.png)
-
-Using a scheduler activity may lead to have several executions of a workflow running at the same time. For instance, you can have a scheduler triggering the workflow execution every hour, but sometimes the execution of the whole workflow takes more than an hour. You may want to skip the execution if the workflow is already running. For more on how to prevent simultaneous executions of a workflow, refer to [this page](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions).
-
-Note also that the transition can be activated several hours later if the workflow was executing a long-term task, such as an import, or if the wfserver module was stopped for a time. In this case, it may be necessary to restrict the execution of the task activated by the scheduler to a certain time range. 

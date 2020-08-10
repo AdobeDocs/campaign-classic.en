@@ -24,7 +24,7 @@ The **delivery dashboard** is key to monitor your deliveries and eventual issues
 
 * [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 * [Understanding quarantine management](../../delivery/using/understanding-quarantine-management.md)
-* [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Delivery best practices](../../delivery/using/delivery-best-practices.md)
 * [Managing deliverability](../../delivery/using/about-deliverability.md)
 
 ## Delivery dashboard {#delivery-dashboard}

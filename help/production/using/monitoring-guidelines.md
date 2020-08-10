@@ -20,7 +20,7 @@ snippet: y
 
 The **[!UICONTROL Monitoring]** tab, which is accessible from Campaign Classic homepage, is the main entry point to help you monitor your instance.
 
-It provides a dashboard of what is occuring on your instance:  its status (build version, installed packages, etc.), system indicators, logs,  workflows that are currently running, state of last sent deliveries, etc.
+It provides a dashboard of what is occuring on your instance: its status (build version, installed packages, etc.), system indicators, logs,  workflows that are currently running, state of last sent deliveries, etc.
 
 Detailed information is available [here](../../production/using/monitoring-processes.md).
 
@@ -28,16 +28,18 @@ Detailed information is available [here](../../production/using/monitoring-proce
 
 ## Monitoring Campaign Classic processes {#monitoring-campaign-classic-processes}
 
-Additional ways of monitoring the different Campaign processes are available. For more information, refer to the sections below.
-
 <table>
-<tr><td><img src="assets/do-not-localize/instance_icon.svg" width="60px"><p><a href="#monitoring-instance">Monitor your instance</a></p></td>
-<td><img src="assets/do-not-localize/workflow_icon.svg" width="60px"><p><a href="#moniroting-workflows">Monitor workflows</a></p></td>
-<td><img src="assets/do-not-localize/database_icon.svg" width="60px"><p><a href="#monitoring-database">Monitor the database</a></p></td>
-<td><img src="assets/do-not-localize/delivery_icon.svg" width="60px"><p><a href="#monitoring-deliveries">Monitor deliveries</a></p></td></tr>
+<tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Monitor your instance</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">Monitor workflows</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Monitor deliveries</a></p></td>
+<td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Monitor the database</a></p></td></tr>
 </table>
 
+Additional ways of monitoring the different Campaign processes are available. They provide several ways of monitoring your instances to make sure that your system is healthy and eventually troubleshoot issues that may occur when setting up workflows, sending deliveries, etc.
+
 ### Monitoring your instance {#monitoring-instance}
+
+<img src="assets/do-not-localize/icon_system.svg" width="60px">
 
 **Automatic monitoring tools**
 
@@ -56,6 +58,8 @@ The Control Panel allows you to manage several settings of your instance: manage
 >Please note that the Control Panel is accessible to Admin users only, and available for all customers using Adobe Managed Services.
 
 ### Monitoring workflows {#monitoring-workflows}
+
+<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 **Workflow HeatMap**
 
@@ -81,6 +85,8 @@ Following guidelines and best practices when using workflows can help improve pe
 
 ### Monitoring deliveries {#monitoring-deliveries}
 
+<img src="assets/do-not-localize/icon_send.svg" width="60px">
+
 **SMTP reports**
 
 SMTP reports display delivery statistics and SMTP errors by domain. [Click here](../../production/using/monitoring-processes.md) for more information.
@@ -97,6 +103,8 @@ Specific actions can be performed when encountering issues with deliveries:
 * [Temporary files issues](../../production/using/temporary-files.md) - *on premise hosting models only*
 
 ### Monitoring the database {#monitoring-database}
+
+<img src="assets/do-not-localize/icon_database.svg" width="60px">
 
 **Database cleanup workflow**
 

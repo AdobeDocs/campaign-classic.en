@@ -12,7 +12,9 @@ sub-product: adobe campaign classic
 + [Product documentation](campaign-classic-home.md)
 + [Latest updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
+  + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest Release](rn/using/latest-release.md)
+  + [Gold Standard release](rn/using/gold-standard.md)
   + Previous Releases {#previous-releases}
     + [Release 20.1](rn/using/release--20-1.md)
     + [Release 19.2](rn/using/release--19-2.md)
@@ -20,11 +22,13 @@ sub-product: adobe campaign classic
     + [Release 18.10](rn/using/release--18-10.md)
     + [Release 18.6](rn/using/release--18-6.md)
     + [Release 18.4](rn/using/release--18-4.md)
-  + [Deprecated features](rn/using/deprecated-features.md)
+  + Deprecated features and compatibility {#deprecated-compatibility}
+    + [Deprecated features](rn/using/deprecated-features.md)
+    + [Compatibility Matrix](rn/using/compatibility-matrix.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
-       + [Privacy and recommendations](platform/using/privacy-and-recommendations.md)
+       + [Privacy and consent](platform/using/privacy-and-recommendations.md)
        + [Launching Adobe Campaign](platform/using/launching-adobe-campaign.md)
        + [Adobe Campaign workspace](platform/using/adobe-campaign-workspace.md)
        + FAQ {#faq}
@@ -66,7 +70,7 @@ sub-product: adobe campaign classic
        + [External accounts](platform/using/external-accounts.md)
   + Accessing an external database (FDA){#accessing-external-database}
        + [About FDA](platform/using/about-fda.md)
-       + [Specific configurations by database type](platform/using/specific-configuration-database.md)
+       + [Configuring FDA connectors](platform/using/specific-configuration-database.md)
        + [Legacy connectors](platform/using/legacy-connectors.md)
        + [Remote database access rights](platform/using/remote-database-access-rights.md)
        + [Connecting to the database](platform/using/connecting-to-database.md)
@@ -79,8 +83,9 @@ sub-product: adobe campaign classic
        + [CRM Connectors](platform/using/crm-connectors.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}
-  + About deliveries and channels {#about-deliveries-and-channels}
+  + Get started with messages {#about-deliveries-and-channels}
        + [Communication channels](delivery/using/communication-channels.md)
+       + [Delivery best practices](delivery/using/delivery-best-practices.md)
        + [Accessing deliveries information](delivery/using/accessing-deliveries-information.md)
        + [Types of deliveries](delivery/using/types-of-deliveries.md)
   + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}
@@ -110,7 +115,6 @@ sub-product: adobe campaign classic
        + [Creating a direct mail delivery](delivery/using/creating-a-direct-mail-delivery.md)
        + [Defining the direct mail content](delivery/using/defining-the-direct-mail-content.md)
        + [Validating](delivery/using/validating.md)
-       + [Other channels](delivery/using/other-channels.md)
   + Using delivery templates {#using-delivery-templates}
        + [About templates](delivery/using/about-templates.md)
        + [Creating a delivery template](delivery/using/creating-a-delivery-template.md)
@@ -416,6 +420,7 @@ sub-product: adobe campaign classic
           + [Creating a summary list](workflow/using/creating-a-summary-list.md)
           + [Enriching data](workflow/using/enriching-data.md) 
           + [Using aggregates](workflow/using/using-aggregates.md)
+          + [Quarterly list update using an incremental query](workflow/using/quarterly-list-update.md)
        + Designing queries {#designing-queries}
           + [Querying the recipient table](workflow/using/querying-recipient-table.md)
           + [Querying delivery information](workflow/using/querying-delivery-information.md)

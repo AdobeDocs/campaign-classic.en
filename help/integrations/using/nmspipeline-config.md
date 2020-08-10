@@ -18,7 +18,7 @@ snippet: y
 
 # Pipeline option NmsPipeline_Config {#nmspipeline_config}
 
-Once the authentication works, pipelined can retrieve the events and process them. It only processes triggers that are configured in Adobe Campaign, ignoring the others. The trigger must have been generated from Analytics and pushed to the pipeline beforehand.
+Once the authentication works, [!DNL pipelined] can retrieve the events and process them. It only processes triggers that are configured in Adobe Campaign, ignoring the others. The trigger must have been generated from Analytics and pushed to the pipeline beforehand.
 The option can also be configured with a wildcard to catch all triggers regardless of name.
 
 The configuration of the triggers is done in an option, under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. The option name is **[!UICONTROL NmsPipeline_Config]**. Data type is "long text" in JSON format.
@@ -83,6 +83,6 @@ Make sure that the JSON is valid with the help of this this [website](http://jso
 
 * "name" is the trigger ID. A wildcard "*" catches all triggers.
 * "Consumer" is any unique string that uniquely identifies the nlserver instance. It can usually be the instance name itself. For multiple environments (dev/stage/prod), please ensure it is unique for each of them so that each instance gets a copy of the message.
-* Pipelined also supports the "aliases" topic.
+* [!DNL Pipelined] also supports the "aliases" topic.
 
-Restart pipelined after making changes.
+Restart [!DNL pipelined] after making changes.

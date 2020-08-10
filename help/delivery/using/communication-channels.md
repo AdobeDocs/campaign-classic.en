@@ -35,7 +35,7 @@ Adobe Campaign offers the following delivery channels:
 1. **Mobile channel**: deliveries on mobile channels let you send personalized SMS or LINE messages to the target population. Refer to [SMS channel](../../delivery/using/sms-channel.md).
 1. **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems. Refer to the [Mobile app channel](../../delivery/using/about-mobile-app-channel.md) chapter.
 
-   Other channels are described on [this page](../../delivery/using/other-channels.md).
+   Other channels are described on [this page](../../delivery/using/communication-channels.md#other-channels).
 
    >[!NOTE]
    >
@@ -86,3 +86,13 @@ Adobe Campaign allows you to send personalized and segmented [push notifications
 [Direct mail](../../delivery/using/about-direct-mail-channel.md) is an offline channel that allows you to personalize and generate the file required by direct mail providers. It gives you the possibility to mix online and offline channels in your customer journeys.
 
 Online channels allow you to create your messages (email, SMS, mobile app delivery, etc.) and send them to your audience directly from Adobe Campaign. With offline channels, it is different. When you prepare a direct mail delivery, Adobe Campaign generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.
+
+## Other channels {#other-channels}
+
+Adobe Campaign offers Agency or Telephone delivery templates, which are used to create external deliveries. Using these channels implies you set up dedicated methodologies to process output files. Configuration steps are the same as for [Direct mail channel](../../delivery/using/about-direct-mail-channel.md).
+
+In addition, 'Other' type deliveries use a specific technical template which does not execute a process: this lets them manage marketing actions executed outside of the Adobe Campaign platform.
+
+This channel has no specific mechanism. It is a generic channel that has its own external account routing option, delivery template type and campaign workflow activity, just like any other communication channel available in Adobe Campaign.
+
+This channel is designed for descriptive purposes only, for example to define deliveries for which you want to keep a trace of the target of a campaign performed in a tool other than Adobe Campaign.

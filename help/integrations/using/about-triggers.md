@@ -39,11 +39,11 @@ Pipeline is a messaging system hosted in the Experience Cloud that uses [Apache 
 
 ### How does Pipeline work? {#how-pipeline-work}
 
-The "pipelined" process is always running on the Adobe Campaign marketing server. It connects to the pipeline, retrieves the events, and processes them immediately.
+The [!DNL pipelined] process is always running on the Adobe Campaign marketing server. It connects to the pipeline, retrieves the events, and processes them immediately.
 
 ![](assets/triggers_2.png)
 
-The pipelined process logs in to the Experience Cloud using an authentication service and sends a private key. The authentication service returns a token. The token is used to authenticate when retrieving the events. [!DNL Triggers] are retrieved from a REST web service using a simple GET request. The response is JSON format. Parameters to the request include the name of the trigger and a pointer that indicates the last message retrieved. The pipelined process handles it automatically.
+The [!DNL pipelined] process logs in to the Experience Cloud using an authentication service and sends a private key. The authentication service returns a token. The token is used to authenticate when retrieving the events. [!DNL Triggers] are retrieved from a REST web service using a simple GET request. The response is JSON format. Parameters to the request include the name of the trigger and a pointer that indicates the last message retrieved. The [!DNL pipelined] process handles it automatically.
 
 ## Using Adobe Experience Cloud Triggers integration with Adobe Campaign Classic
 

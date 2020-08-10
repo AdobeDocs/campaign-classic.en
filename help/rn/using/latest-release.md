@@ -16,30 +16,32 @@ snippet: y
 
 # Latest Release{#latest-release}
 
-[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--20-1.md) &#124; [Deprecated features](../../rn/using/deprecated-features.md)
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>General Availability</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>Release Candidate</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>No longer available</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>Deprecated</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Latest stable build available. Build validated in production.<br>&nbsp;</td>
-   <td>Build validated by Adobe. Waiting for production proofing.<br>&nbsp;</td>
-   <td>Newer build available with bug fixes. Update is required.<br>&nbsp;</td>
-   <td>Contains known regressions. Update is mandatory.<br>&nbsp;</td>
-  </tr> 
- </tbody> 
-</table>
-
-The **last stable build** is Gold Standard 10. Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
-
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel June release** with Active profiles monitoring, Subdomain deliverability audit and GPG keys management. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/blue_2.png) Release 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
+## ![](assets/do-not-localize/blue_2.png) Release 20.2.1 - Build 9180 {#release-20-2-2-build-9180}
+
+_July 22, 2020_
+
+* Fixed an issue which prevented tracking from working when the signature feature was disabled or when using an old marketing instance with a recent Mid. (NEO-26411)
+* Fixed an issue which led to unsigned links from personalized domains being blocked when they should be allowed. (NEO-25210)
+* Fixed an issue which could prevent you from opening/clicking tracking URLs when using certain legacy versions of Outlook. (NEO-25688)
+* Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries. (NEO-26084)
+* Fixed an issue with encoding URL management in the anti-phishing service. (NEO-25283)
+* Fixed an issue which prevented the tracking of URLs using fragments in personalization parameters (anchor tags with pound-sign) from working. (NEO-25774)
+* Fixed a tracking issue when using specific custom tracking formulas. (NEO-25277)
+Fixed an issue which prevented the tracking of "notification clicks" from working (iOS and Android push notifications). (NEO-25965)
+* Fixed a regression impacting calculated fields in a workflow. (NEO-25194)
+* Fixed a regression which prevented the on-the-fly creation of web tracking URLs from working. (NEO-20999)
+* Fixed an issue with out-of-the-box delivery reports which appeared truncated when exported to PDF. (NEO-25757)
+* Fixed a crash issue in the deployment wizard.
+* Fixed an issue which could prevent the Offer notification workflow from properly working after a postupgrade.
+* The iOS HTTP2 connector has been improved (third-party updates and error management). (NEO-25904, NEO-25903)
+* The jarsToSkip list in catalina.properties has been updated to remove the reference to a jar file that was no longer used (iOS notifications).
+* Fixed an issue blocking delivery preparation after postupgrade.
+* Following the switch to the [new sequence ID mechanism](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), all web applications that are updating the recipient table are republished during postupgrade.
+* Fixed a potential XSS vulnerability in delivery content. (NEO-17987, NEO-26073)
+
+## ![](assets/do-not-localize/orange_2.png) Release 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
 _June 8, 2020_
 

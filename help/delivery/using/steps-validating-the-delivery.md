@@ -24,7 +24,7 @@ To do this:
 
 1. **Analyze the delivery**: this step lets you prepare the messages to deliver. Refer to [Analyzing the delivery](#analyzing-the-delivery).
 
-   The rules applied during analysis are presented in the [Validation process with typologies](#validation-process-with-typologies) section. The available validation modes are detailed in the [Changing the approval mode](#changing-the-approval-mode) section.
+   The rules applied during analysis are presented in [this section](#validation-process-with-typologies) section. The available validation modes are detailed in the [Changing the approval mode](#changing-the-approval-mode) section.
 
 1. **Send proofs**: this step lets you approve content, URLs, personalization fields, etc. Refer to [Sending a proof](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) and [Defining a specific proof target](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 

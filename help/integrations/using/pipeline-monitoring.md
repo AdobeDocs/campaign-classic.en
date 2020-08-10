@@ -18,7 +18,7 @@ snippet: y
 
 # Pipeline monitoring {#pipeline-monitoring}
 
-The pipelined status web service gives information on the status of the pipelined process.
+The [!DNL pipelined] status web service gives information on the status of the [!DNL pipelined] process.
 
 It can be accessed manually using a browser or automatically with a monitoring application.
 
@@ -43,7 +43,7 @@ Recommended indicators to monitor are highlighted.
     * next-offsets-flush: time to wait until the next batch, when finished.
     * processed-since-last-flush: number of triggers processed in the last batch.
 * routing
-    * triggers: list of triggers retrieved. Configured in the pipelined option.
+    * triggers: list of triggers retrieved. Configured in the [!DNL pipelined] option.
 * stats
     * average-pointer-flush-time-ms: average processing time for one batch of triggers.
     * average-trigger-processing-time-ms: average time spent parsing the triggers data.
