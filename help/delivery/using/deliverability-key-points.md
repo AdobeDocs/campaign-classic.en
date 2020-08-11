@@ -73,7 +73,7 @@ Learn best practices related to deliverability with Adobe Campaign. Use the link
 <tr>
   <td>
     <a href="starting-new-platform.md">
-      <img alt="Start" src="assets/do-not-localize/start.svg"/>
+      <img alt="Start" src="assets/do-not-localize/start.svg" width="60px"/>
     </a>
     <div>
       <a href="starting-new-platform.md">
@@ -86,7 +86,7 @@ Learn best practices related to deliverability with Adobe Campaign. Use the link
   </td>
    <td>
     <a href="control-message-content.md">
-      <img alt="Design" src="assets/do-not-localize/design.svg"/>
+      <img alt="Design" src="assets/do-not-localize/design.svg" width="60px"/>
     </a>
     <div>
       <a href="control-message-content.md">
@@ -99,7 +99,7 @@ Learn best practices related to deliverability with Adobe Campaign. Use the link
   </td>
   <td>
     <a href="improve-reputation.md">
-      <img alt="Design" src="assets/do-not-localize/check.svg"/>
+      <img alt="Design" src="assets/do-not-localize/check.svg" width="60px"/>
     </a>
     <div>
       <a href="improve-reputation.md">
@@ -114,7 +114,7 @@ Learn best practices related to deliverability with Adobe Campaign. Use the link
 <tr>
   <td>
     <a href="technical-recommendations.md">
-      <img alt="Optimize" src="assets/do-not-localize/optimize.svg"/>
+      <img alt="Optimize" src="assets/do-not-localize/optimize.svg" width="60px"/>
     </a>
     <div>
       <a href="technical-recommendations.md">
@@ -127,7 +127,7 @@ Learn best practices related to deliverability with Adobe Campaign. Use the link
   </td>
    <td>
     <a href="monitoring-deliverability.md">
-      <img alt="Check" src="assets/do-not-localize/monitor.svg"/>
+      <img alt="Check" src="assets/do-not-localize/monitor.svg" width="60px"/>
     </a>
     <div>
       <a href="monitoring-deliverability.md">
@@ -140,7 +140,7 @@ Learn best practices related to deliverability with Adobe Campaign. Use the link
   </td>
   <td>
     <a href="deliverability-faq.md">
-      <img alt="Optimize" src="assets/do-not-localize/troubleshoot.svg"/>
+      <img alt="Optimize" src="assets/do-not-localize/troubleshoot.svg" width="60px"/>
     </a>
     <div>
       <a href="deliverability-faq.md">
