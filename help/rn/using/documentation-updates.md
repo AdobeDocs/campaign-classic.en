@@ -18,7 +18,37 @@ snippet: y
 
 This page lists all the new features and documentation updates per month and Campaign release.
 
+
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
+
+## August 2020 {#aug-2020}
+
+Learn best practices related to delivery design and sending with Campaign in a dedicated section. [Read more](../../delivery/using/delivery-best-practices.md)
+
+The Deliverability best practices landing page has been improved to facilitate access to sub-sections. [Read more](../../delivery/using/deliverability-key-points.md)
+
+How-to videos are now available on the following topics:
+
+* [How to set up fatigue management using typology rules and predefined filters](../../campaign/using/about-campaign-typologies.md)
+
+* [How to create an email in a campaign](../../campaign/using/designing-marketing-campaigns.md)
+
+* [How to create a multilingual newsletter with conditional content](../../delivery/using/conditional-content.md)
+
+* [How to configure and deploy a delivery template](../../delivery/using/creating-a-delivery-template.md)
+
+* [How to activate and use AMP for emails](../../delivery/using/defining-interactive-content.md)
+
+* [How to personalize emails using dynamic content blocks](../../delivery/using/personalization-blocks.md)
+
+* [How to personalize emails using personalization fields](../../delivery/using/personalization-fields.md)
+
+* [How to manage seed and proofs in an email](../../delivery/using/steps-defining-the-target-population.md)
+
+* [How to set up a recurring delivery](../../workflow/using/recurring-delivery.md)
+
+* [How to set up a continuous delivery](../../workflow/using/continuous-delivery.md)
+
 
 ## July 2020 {#july-2020}
 
