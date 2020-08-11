@@ -116,3 +116,9 @@ During preview or sending, if the personalization phase exceeds the maximum time
 The default value is 5 seconds.
 
 If you set this option to 0, there will be no time limit for the personalization phase.
+
+## How to personalize emails using personalization fields
+
+Learn how to add a personalization field to the subject line and the content of an email delivery.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)

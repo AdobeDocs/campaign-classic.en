@@ -213,7 +213,7 @@ You can define a control group at campaign level, in which case the control grou
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a population](#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
 
 #### Activating the control group for a delivery {#activating-the-control-group-for-a-delivery}
 
@@ -232,7 +232,7 @@ By default, the control group configuration defined at the campaign level applie
 1. Click the **[!UICONTROL Control group]** tab and then select **[!UICONTROL Enable and edit control group configuration]**.
 1. Click **[!UICONTROL Edit...]** to configure the control group.
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a population](#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
 
 #### Extracting the control group from the main target {#extracting-the-control-group-from-the-main-target}
 
@@ -251,7 +251,7 @@ Click **[!UICONTROL Next]** to define the sorting order (if necessary) and selec
 
 This configuration is equivalent to a sharing activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. Refer to the [this section](../../workflow/using/architecture.md) for more information.
 
-### Adding a population {#adding-a-population}
+### Adding a control group {#adding-a-population}
 
 You can define a new population to be used as a control group. This population can come from a group of recipients or you can create it via a specific query.
 

@@ -66,3 +66,21 @@ To configure a delivery template, carry out the following steps:
 >[!NOTE]
 >
 >To avoid configuration errors, we recommend that you duplicate a native template and alter its properties rather than create a new template.
+
+## How to configure a delivery template
+
+The following video demonstrates how to configure a template for an ad hoc delivery.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
+
+## How to set up delivery templates properties
+
+The following video shows how to set the delivery template properties and explains each property in detail.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
+
+## How to deploy an ad-hoc delivery template
+
+This video explains how to deploy an ad-hoc email delivery template and it explains the difference between an email delivery and a delivery workflow.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)

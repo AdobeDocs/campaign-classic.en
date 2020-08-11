@@ -62,3 +62,11 @@ The following concepts need to be known in the context of Campaign:
   A delivery outline is a structured description of a delivery. Every delivery can refer to a delivery outline which contains, for example, the related offers, documents to be attached, or a link to stores. An offer can be referenced in the delivery according to the delivery outline selected.
 
   For more on this, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+
+## How to create an email in a campaign
+
+This video explains how to create a campaign and an email in Adobe Campaign Classic.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
+For more details, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md)
