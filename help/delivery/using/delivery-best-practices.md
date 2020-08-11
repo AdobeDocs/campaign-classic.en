@@ -22,7 +22,7 @@ Learn best practices related to delivery design and sending with Adobe Campaign.
 <tr>
   <td>
     <a href="optimize-delivery.md">
-      <img alt="Optimize" src="assets/do-not-localize/optimize.svg"/>
+      <img alt="Optimize" src="assets/do-not-localize/optimize.svg" width="60px"/>
     </a>
     <div>
       <a href="optimize-delivery.md">
@@ -35,7 +35,7 @@ Learn best practices related to delivery design and sending with Adobe Campaign.
   </td>
    <td>
     <a href="use-templates.md">
-      <img alt="Templates" src="assets/do-not-localize/design.svg"/>
+      <img alt="Templates" src="assets/do-not-localize/design.svg" width="60px"/>
     </a>
     <div>
       <a href="use-templates.md">
@@ -48,7 +48,7 @@ Learn best practices related to delivery design and sending with Adobe Campaign.
   </td>
   <td>
     <a href="design-and-personalize.md">
-      <img alt="Design" src="assets/do-not-localize/custom.svg"/>
+      <img alt="Design" src="assets/do-not-localize/custom.svg" width="60px"/>
     </a>
     <div>
       <a href="design-and-personalize.md">
@@ -63,7 +63,7 @@ Learn best practices related to delivery design and sending with Adobe Campaign.
 <tr>
   <td>
     <a href="define-the-right-audience.md">
-      <img alt="Target" src="assets/do-not-localize/profiles.svg"/>
+      <img alt="Target" src="assets/do-not-localize/profiles.svg" width="60px"/>
     </a>
     <div>
       <a href="define-the-right-audience.md">
@@ -76,7 +76,7 @@ Learn best practices related to delivery design and sending with Adobe Campaign.
   </td>
    <td>
     <a href="check-before-sending.md">
-      <img alt="Check" src="assets/do-not-localize/start.svg"/>
+      <img alt="Check" src="assets/do-not-localize/start.svg" width="60px"/>
     </a>
     <div>
       <a href="check-before-sending.md">
@@ -89,7 +89,7 @@ Learn best practices related to delivery design and sending with Adobe Campaign.
   </td>
   <td>
     <a href="track-and-monitor.md">
-      <img alt="Optimize" src="assets/do-not-localize/troubleshoot.svg"/>
+      <img alt="Optimize" src="assets/do-not-localize/troubleshoot.svg" width="60px"/>
     </a>
     <div>
       <a href="track-and-monitor.md">
