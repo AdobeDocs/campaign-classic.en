@@ -46,3 +46,17 @@ Only when the **[!UICONTROL Specified by the inbound event]** option is selected
 This set of three values identifies the target resulting from the on the fly delivery. **[!UICONTROL tableName]** is the name of the table which memorizes the target's identifiers, **[!UICONTROL schema]** is the schema of the population (usually nms:recipient) and **[!UICONTROL recCount]** is the number of elements in the table.
 
 The transition associated with the complement has the same parameters.
+
+## How to set up a continuous delivery
+
+This section explains how to set up a continuous delivery.
+
+The **continuous delivery** lets you add new recipients to an existing delivery and avoids you having to create a new delivery each time a new recipient is added. You can update the creative directly in the campaign workflow and it will update the template in the delivery template Resource folder.  
+  
+A continuous delivery will create a SINGLE delivery and delivery logs (broadLog) and tracking logs that reference that one delivery are added each time it executes.
+
+![Continuous Delivery](assets/delivery_continuous.jpg)
+
+This video shows how to configure a continuous delivery with an incremental query.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)

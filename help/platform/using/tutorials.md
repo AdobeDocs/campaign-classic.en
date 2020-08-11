@@ -22,13 +22,13 @@ snippet: y
 
 Get started with Adobe Campaign by consulting our intuitive step-by-step guides.
 
-* [Editing email content with Adobe Experience Manager](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html): learn about the basics to get started with the integration between Adobe Campaign and Experience Manager.
+* [Editing email content with Adobe Experience Manager](https://helpx.adobe.com/campaign/kb/acc-aem.html): learn about the basics to get started with the integration between Adobe Campaign and Experience Manager.
 * [Privacy management](https://helpx.adobe.com/campaign/kb/acc-privacy.html): discover what Adobe Campaign Classic provides to help you with your Privacy compliance when using our service.
-* [Integrating dynamic content in an email](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/target.html): discover the basics to get started with the integration between Campaign Classic and Target Standard.
-* [Managing deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html): learn about the concepts and best practices related to deliverability as well as the tools offered by Adobe Campaign Classic to optimize sending your deliveries.
-* [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html): learn about the best practices related to delivery design and sending with Adobe Campaign Classic.
-* [Performing a build upgrade](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html): this guide presents you the key steps and best practices to perform a build upgrade with Campaign Classic.
-* [Security configuration checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html): discover key elements to check regarding security configuration and hardening for on-premise deployment
+* [Integrating dynamic content in an email](https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html): discover the basics to get started with the integration between Campaign Classic and Target Standard.
+* [Managing deliverability](../../delivery/using/deliverability-key-points.md): learn about the concepts and best practices related to deliverability as well as the tools offered by Adobe Campaign Classic to optimize sending your deliveries.
+* [Delivery best practices](../../delivery/using/delivery-best-practices.md): learn about the best practices related to delivery design and sending with Adobe Campaign Classic.
+* [Performing a build upgrade]https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html: this guide presents you the key steps and best practices to perform a build upgrade with Campaign Classic.
+* [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html): discover key elements to check regarding security configuration and hardening for on-premise deployment
 
 Learn more about Adobe Campaign by checking the following use cases and examples:
 

@@ -18,7 +18,7 @@ snippet: y
 
 # Upgrading{#upgrading}
 
-Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html).
+Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](../../rn/using/latest-release.md) .
 
 >[!CAUTION]
 >
@@ -27,7 +27,7 @@ Before starting the upgrading process, detemine and confirm which version of Ado
 
 >[!NOTE]
 >
->Also refer to the [installation guide](../../installation/using/general-architecture.md) and the [build upgrade](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) getting started.
+>Also refer to the [installation guide](../../installation/using/general-architecture.md) and the [build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) getting started.
 
 ## In Windows {#in-windows}
 

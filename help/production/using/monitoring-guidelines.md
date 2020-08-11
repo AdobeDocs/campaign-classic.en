@@ -89,11 +89,11 @@ Following guidelines and best practices when using workflows can help improve pe
 
 **SMTP reports**
 
-SMTP reports display delivery statistics and SMTP errors by domain. [Click here](../../production/using/monitoring-processes.md) for more information.
+SMTP reports display delivery statistics and SMTP errors by domain. [Learn more](../../production/using/monitoring-processes.md)
 
 **Best practices**
 
-[Best practices for delivery sending and designing](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) can help you improve their performances.
+[Best practices for delivery sending and designing](../../delivery/using/delivery-best-practices.md) can help you improve their performances.
 
 **Delivery troubleshooting**
 Specific actions can be performed when encountering issues with deliveries:

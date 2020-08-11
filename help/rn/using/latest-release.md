@@ -18,11 +18,11 @@ snippet: y
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel June release** with Active profiles monitoring, Subdomain deliverability audit and GPG keys management. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/blue_2.png) Release 20.2.1 - Build 9180 {#release-20-2-2-build-9180}
+## ![](assets/do-not-localize/blue_2.png) Release 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
 _July 22, 2020_
 
-* Fixed an issue which prevented tracking from working when the signature feature was disabled or when using an old marketing instance with a recent Mid. (NEO-26411)
+* Fixed an issue which prevented tracking from working when the signature feature was disabled. (NEO-26411)
 * Fixed an issue which led to unsigned links from personalized domains being blocked when they should be allowed. (NEO-25210)
 * Fixed an issue which could prevent you from opening/clicking tracking URLs when using certain legacy versions of Outlook. (NEO-25688)
 * Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries. (NEO-26084)

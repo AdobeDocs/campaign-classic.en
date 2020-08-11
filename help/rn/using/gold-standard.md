@@ -34,7 +34,7 @@ _7 July 2020_
 
 The build 9032&#64;efd8a94 includes the following fix:
 
-Fixed an issue which prevented tracking from working when the signature feature was disabled or when using an old marketing instance with a recent Mid. (NEO-26411)
+Fixed an issue which prevented tracking from working when the signature feature was disabled. (NEO-26411)
 
 >[!CAUTION]
 >

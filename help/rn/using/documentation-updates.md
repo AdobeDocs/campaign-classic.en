@@ -285,7 +285,7 @@ The best practices for performance improvements of workflows and deliveries have
 
 Control Panel - [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
-Audit trail - [Read more](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html)
+Audit trail - [Read more](../../production/using/audit-trail.md)
 
 **Other documentation updates coming with the release**
 

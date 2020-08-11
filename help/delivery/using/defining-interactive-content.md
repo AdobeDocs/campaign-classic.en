@@ -33,7 +33,9 @@ This feature is available through a dedicated package in Adobe Campaign. To use 
 
 For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/creating-a-shared-connection.md#execution-instance). Contact your account executive.
 
-Watch this [video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html) to see how to activate AMP in Adobe Campaign and learn about the usage.
+The video below explains how to activate AMP in Adobe Campaign Classic and showcases the usage.
+
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
 
 ## About AMP for Email {#about-amp-for-email}
 

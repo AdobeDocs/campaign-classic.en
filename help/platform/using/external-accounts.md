@@ -104,9 +104,9 @@ The following channels can be configured:
 
 * [Email](../../installation/using/deploying-an-instance.md#email-channel-parameters)
 * [Mobile (SMS)](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)
-* [Phone](../../delivery/using/communication-channels.md#other-channels)
+* [Phone](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Direct mail](../../delivery/using/about-direct-mail-channel.md)
-* [Agency](../../delivery/using/communication-channels.md#other-channels)
+* [Agency](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Facebook](../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign)
 * [Twitter](../../social/using/configuring-publishing-on-twitter.md)
 * [iOS channel](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-ios)

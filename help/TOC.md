@@ -83,13 +83,17 @@ sub-product: adobe campaign classic
        + [CRM Connectors](platform/using/crm-connectors.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}
-  + Get started with messages {#about-deliveries-and-channels}
-       + [Communication channels](delivery/using/communication-channels.md)
-       + [Delivery best practices](delivery/using/delivery-best-practices.md)
-       + [Accessing deliveries information](delivery/using/accessing-deliveries-information.md)
-       + [Types of deliveries](delivery/using/types-of-deliveries.md)
+     + [Get started with messages](delivery/using/communication-channels.md)
+  + Delivery best practices {#delivery-bestpractices}
+       + [Learn good practices](delivery/using/delivery-best-practices.md)
+       + [Optimize delivery](delivery/using/optimize-delivery.md)
+       + [Use templates](delivery/using/use-templates.md)
+       + [Build personalized content](delivery/using/design-and-personalize.md)
+       + [Define the right audience](delivery/using/define-the-right-audience.md)
+       + [Check before sending](delivery/using/check-before-sending.md)
+       + [Track and monitor](delivery/using/track-and-monitor.md)                    
   + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}
-       + [About delivery creation ](delivery/using/steps-about-delivery-creation-steps.md)
+       + [Get started with deliveries](delivery/using/steps-about-delivery-creation-steps.md)
        + [Creating and identifying the delivery](delivery/using/steps-create-and-identify-the-delivery.md)
        + [Defining the target population](delivery/using/steps-defining-the-target-population.md)
        + [Validating the delivery](delivery/using/steps-validating-the-delivery.md)

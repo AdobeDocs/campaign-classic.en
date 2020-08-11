@@ -112,7 +112,7 @@ Read out the [Security configuration checklist](https://helpx.adobe.com/campaign
 
 ## How to translate an error message? {#how-to-translate-an-error-message-}
 
-An error message is displayed in a foreign language? All error messages and their translation are listed in [this page](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html).
+An error message is displayed in a foreign language? All error messages and their translation are listed in [this page](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html).
 
 ## Can I create a webform and collect answers in Campaign? {#can-i-create-a-webform-and-collect-answers-in-campaign-}
 
