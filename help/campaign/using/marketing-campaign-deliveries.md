@@ -20,6 +20,8 @@ snippet: y
 
 Deliveries can be created via the campaign dashboard, a campaign workflow or directly via the overview of deliveries.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#create-email-video)
+
 ## Creating deliveries {#creating-deliveries}
 
 To create a delivery linked to a campaign, click the **[!UICONTROL Add a delivery]** link in the campaign dashboard.
@@ -71,6 +73,13 @@ The [Automating with workflows](../../workflow/using/architecture.md) guide incl
 >[!IMPORTANT]
 >
 >In the same campaign, you cannot set up more than 28 workflows. Past this limit, additional workflows are not visible in the interface and can generate errors.
+
+### How to create an email in a campaign {#create-email-video}
+
+This video explains how to create a campaign and an email in Adobe Campaign Classic.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
 
 #### Creating a targeting workflow {#creating-a-targeting-workflow}
 

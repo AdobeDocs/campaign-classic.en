@@ -22,7 +22,9 @@ Personalization fields are used for first-level personalization of the content o
 
 For example, the personalization field with the **<%= recipient.LastName %>** syntax tells Adobe Campaign to insert the name of the recipient into the database (recipient table).
 
->[!NOTE]
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#personalization-fields-video)
+
+>[!CAUTION]
 >
 >Personalization fields content cannot exceed 1024 characters.
 
@@ -117,7 +119,7 @@ The default value is 5 seconds.
 
 If you set this option to 0, there will be no time limit for the personalization phase.
 
-## How to personalize emails using personalization fields
+## How to personalize emails using personalization fields {#personalization-field-video}
 
 Learn how to add a personalization field to the subject line and the content of an email delivery.
 
