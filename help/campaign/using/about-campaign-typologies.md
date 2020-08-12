@@ -20,6 +20,8 @@ snippet: y
 
 Campaign Optimization is the Adobe Campaign module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#typologies-video)
+
 >[!NOTE]
 >
 >Depending on your offering, Campaign Optimization can be included or an add-on. Please check your license agreement.
@@ -62,7 +64,7 @@ Steps to create and apply a typology to your deliveries are listed below:
 
 During delivery preparation, recipients are excluded when criterion is met. You can check logs to monitor exclusions. Sample use cases on pressure typology rules are available in [this page](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules).
 
-## How to set up fatigue management using typology rules
+## How to set up fatigue management using typology rules {#typologies-video}
 
 This video explains how to implement fatigue management in Adobe Campaign Classic by leveraging typology rules.
 

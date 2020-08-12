@@ -63,10 +63,3 @@ The following concepts need to be known in the context of Campaign:
 
   For more on this, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
-## How to create an email in a campaign
-
-This video explains how to create a campaign and an email in Adobe Campaign Classic.
-
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
-
-For more details, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md)

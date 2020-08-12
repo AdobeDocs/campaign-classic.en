@@ -31,7 +31,7 @@ How-to videos are now available on the following topics:
 
 * [How to set up fatigue management using typology rules and predefined filters](../../campaign/using/about-campaign-typologies.md)
 
-* [How to create an email in a campaign](../../campaign/using/designing-marketing-campaigns.md)
+* [How to create an email in a campaign](../../campaign/using/marketing-campaign-deliveries.md)
 
 * [How to create a multilingual newsletter with conditional content](../../delivery/using/conditional-content.md)
 

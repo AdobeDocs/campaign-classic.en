@@ -167,6 +167,9 @@ You can reduce the size of the target population. To do this, specify the number
 
 The proof is a special message that lets you test a delivery before sending it to the main target. Proof recipients are responsible for approving both the form and content of the message.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#seeds-and-proofs-video)
+
+
 To select the target of the proofs, follow the steps below:
 
 1. Click the **[!UICONTROL To]** link.
@@ -223,11 +226,12 @@ You can use **[!UICONTROL Seed addresses]** as target of the proofs: this option
 
 You can combine the definition of a specific proof target and the use of seed addresses using the **[!UICONTROL Specific target and Seed addresses]** option. The related configurations are then defined in two separate sub-tabs.
 
-## How to manage seed and proofs in an email
+## How to manage seed and proofs in an email {#seeds-and-proofs-video}
 
 In this video you will learn how to add seeds and proofs to an existing email and how to send it.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+
 See also:
 * [Selecting the proof target](#selecting-the-proof-target)
 

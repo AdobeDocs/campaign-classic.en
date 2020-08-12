@@ -20,13 +20,15 @@ snippet: y
 
 Personalization blocks are dynamic, personalized and contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. See [Inserting personalization blocks](#inserting-personalization-blocks).
 
->[!NOTE]
->
->Personalization blocks are also available from the **[!UICONTROL Digital Content Editor (DCE)]** . For more on this, refer to [this page](../../web/using/editing-content.md#inserting-a-personalization-block).
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#personalization-blocks-video)
 
 Personalization blocks are accessed via the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** node of the Adobe Campaign explorer. Several blocks are available by default (see [Out-of-the-box personalization blocks](#out-of-the-box-personalization-blocks)).
 
 You have the ability to define new blocks that will enable you to optimize your deliveries personalization. For more on this, refer to [Defining custom personalization blocks](#defining-custom-personalization-blocks).
+
+>[!NOTE]
+>
+>Personalization blocks are also available from the **[!UICONTROL Digital Content Editor (DCE)]** . For more on this, refer to [this page](../../web/using/editing-content.md#inserting-a-personalization-block).
 
 ## Inserting personalization blocks {#inserting-personalization-blocks}
 
@@ -153,7 +155,7 @@ To create a personalization block, go to the explorer and apply the following st
 
     * Enter the content (in HTML, text, JavaScript, etc.) of the personalization block(s) and click **[!UICONTROL Save]**.
 
-## How to personalize emails using dynamic content blocks
+## How to personalize emails using dynamic content blocks {#personalization-blocks-video}
 
 Learn how created dynamic content blocks and how use them to personalize the content of your email delivery.
 
