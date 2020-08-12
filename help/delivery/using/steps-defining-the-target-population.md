@@ -228,6 +228,7 @@ You can combine the definition of a specific proof target and the use of seed ad
 In this video you will learn how to add seeds and proofs to an existing email and how to send it.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+
 See also:
 * [Selecting the proof target](#selecting-the-proof-target)
 
