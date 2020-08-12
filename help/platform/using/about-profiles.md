@@ -18,6 +18,12 @@ snippet: y
 
 # About profiles{#about-profiles}
 
+Profiles (customers, prospects, newsletter subscribers, etc.) are centralized in the Adobe Campaign database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PI data in a consolidated view to analyze and take action.
+
+In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Thanks to the recipient data that are stored in the database, you will be able to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
+
+![](assets/do-not-localize/how-to-video.png) [Understand the concept of profiles in video](#create-profiles-video)
+
 ## Profile types {#profile-types}
 
 Adobe Campaign lets you manage profiles throughout their entire lifecycle: creation, import, targeting, action tracking, updates, etc.
@@ -97,3 +103,23 @@ The profiles that were excluded during delivery preparation (typology rules, qua
 You can have an overview of the **[!UICONTROL Number of active profiles]** from Campaign Standard **[!UICONTROL Administration > Campaign Management > Customer metrics]** menu. The actual count is performed by the **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [technical workflow](../../workflow/using/deliveries.md), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. Each period lasts for 12 months.
 
 If you are hosted on AWS and using Campaign Classic from build 8931, you can also monitor the number of active profiles used on your instances directly from the Control Panel. For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+
+## How to create and manage profiles {#create-profiles-video}
+
+Learn how to access profile data, sort and filter profiles and manually create and manage profiles.
+
+This video also explains the compliance of Adobe Campaign Classic with General Data Protection Regulations. 
+
+>[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
+
+**See also**
+
+* [Privacy mamangement in Campaign](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
+
+* [Define the target population](../../delivery/using/define-the-right-audience.md)
+
+* [Create queries and segment data in workflows](../../workflow/using/targeting-data.md)
+
+* [Select target mapping](../../delivery/using/selecting-a-target-mapping.md)
+
+* [Define the audience - best practices](../../delivery/using/define-the-right-audience.md)
