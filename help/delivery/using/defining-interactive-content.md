@@ -27,8 +27,7 @@ For more on testing and sending AMP emails, see [Targeting an AMP email](#target
 This feature is available through a dedicated package in Adobe Campaign. To use it, this package must be installed. Once done, restart the server for the package to be taken into account.
 
  >[!NOTE]
-    >
-    >For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/creating-a-shared-connection.md#execution-instance). Contact your account executive.
+ > For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/creating-a-shared-connection.md#execution-instance). Contact your account executive.
 
 
 ## About AMP for Email {#about-amp-for-email}
@@ -40,11 +39,11 @@ For example:
 * Content stays up-to-date in the message.
 * Recipients can take action like responding to a form without leaving their inbox.
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#amp-email-video)
-
 AMP for Email is compatible with existing emails. The AMP version of the message is embedded into the email as a new MIME part, in addition to the HTML and/or plain text, ensuring compatibility across all email clients.
 
 For more on the AMP for Email format, specification and requirements, see the [AMP developer documentation](https://amp.dev/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email).
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#amp-email-video)
 
 ## Key steps to use AMP for Email with Adobe Campaign {#key-steps-to-use-amp}
 
