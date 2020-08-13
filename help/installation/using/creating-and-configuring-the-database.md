@@ -125,7 +125,7 @@ The **[!UICONTROL Creation steps]** window enables you to display and edit the S
 
 * For an Oracle, Microsoft SQL Server or PostgreSQL database, the administrator may also define the **storage parameters** to be used when creating database objects.
 
-  These parameters receive the exact tablespace names (warning: case sensitive). They are respectively stored in the **[!UICONTROL Administration > Platform > Options]** node in the following options:
+  These parameters receive the exact tablespace names (warning: case sensitive). They are respectively stored in the **[!UICONTROL Administration > Platform > Options]** node in the following options (see [](../../installation/using/configuring-campaign-options.md#database)):
 
     * **WdbcOptions_TableSpaceUser**: user tables based on a schema
     * **WdbcOptions_TableSpaceIndex**: index of user tables based on a schema
