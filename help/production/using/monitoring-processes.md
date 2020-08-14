@@ -498,7 +498,7 @@ The installation procedure is as follows:
 1. Run archive extraction.
 1. Read the **readme** file.
 1. Update the **netconf.xml** configuration file.
-1. Update the **netreport.bat** (Windows) or **netreport.sh **(Linux) file.
+1. Update the **netreport.bat** (Windows) or **netreport.sh** (Linux) file.
 
 ### Configuring the netconf.xml file {#configuring-the-netconf-xml-file}
 
