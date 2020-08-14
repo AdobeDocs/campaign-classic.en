@@ -128,7 +128,7 @@ The following rules must be adhered to:
 
 * Only **`<element>`** elements can contain **`<attribute>`** elements and **`<element>`** elements in the XML structure.
 * An **`<attribute>`** element must have a unique name within an **`<element>`**.
-* The use of**`<elements>`** in multi-line data strings is recommended.
+* The use of **`<elements>`** in multi-line data strings is recommended.
 
 ## Data types {#data-types}
 
