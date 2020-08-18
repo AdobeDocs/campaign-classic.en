@@ -88,9 +88,9 @@ The section below lists the information to check and provide to the Adobe Suppor
 1. If you are using a key based authentication, check that the key you are using is the same that you provided to Adobe Support team for the instance configuration.
 1. If you are using FileZilla or an equivalent FTP tool, provide the connection logs details in the support ticket.
 
-## "Couldn't resolve host name" error, upload error in cURL
+## "Couldn't resolve host name" error
 
-This section provides information on the checks and action to perform when getting the "Couldn't resolve host name." error after connecting to FTP server from Campaign Classic.
+This section provides information on the checks and action to perform when getting the "Couldn't resolve host name" error after connecting to FTP server from Campaign Classic.
 
 The workflow journal shows the following logs:
 
