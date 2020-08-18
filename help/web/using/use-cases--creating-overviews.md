@@ -217,7 +217,7 @@ These two elements will be grouped in the same container in order to be graphica
 
    ![](assets/s_ncs_configuration_webapp_refreshlink.png)
 
-1. Add the refresh icon on the **[!UICONTROL Image]** field: **/xtk/img/refresh.png **.
+1. Add the refresh icon on the **[!UICONTROL Image]** field: **/xtk/img/refresh.png**.
 1. Using the sort-order arrows, reorganize the various elements of your Web application as shown below.
 
    ![](assets/s_ncs_configuration_webapp_orderelements.png)

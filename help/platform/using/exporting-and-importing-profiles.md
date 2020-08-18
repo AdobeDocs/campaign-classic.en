@@ -16,15 +16,27 @@ internal: n
 snippet: y
 ---
 
-# Exporting and importing profiles{#exporting-and-importing-profiles}
+# Importing and exporting profiles{#exporting-and-importing-profiles}
 
-Recipient profiles can be imported into the Adobe Campaign database or exported and stored in a file external to the database.
+You can [use workflows](#use-workflows) to import or export recipients profiles into Adobe Campaign database, or set up [generic imports or export jobs](#create-jobs).
 
-To configure and execute data imports and exports, go to the **[!UICONTROL Profiles and targets]** universe and click the **[!UICONTROL Jobs]** link.
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#import-profiles-video)
+
+## Use workflows{#use-workflows}
+
+Exports and imports are configured in dedicated templates executed through workflows via the **[!UICONTROL Import]** and **[!UICONTROL Export]** activities. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. [Learn more](../../workflow/using/importing-data.md#best-practices-when-importing-data)
+
+If necessary, you can create an occasional import or export job via the **[!UICONTROL Generic imports and exports]** feature described below.
+
+## Create jobs{#create-jobs}
+
+To configure and execute data imports and exports jobs, go to the **[!UICONTROL Profiles and targets]** tab and click the **[!UICONTROL Jobs]** link. [Learn more](../../platform/using/generic-imports-and-exports.md)
 
 ![](assets/s_ncs_user_interface_import_link.png)
 
->[!NOTE]
->
->Data importing and exporting are presented in [Generic imports and exports](../../platform/using/generic-imports-and-exports.md) and in [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html).
 
+## How to import profiles{#import-profiles-video}
+
+This video explains how to import profiles in Adobe Campaign, for an occasional import.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)

@@ -249,7 +249,7 @@ For example, a unicode database must not only authorize storage of LATIN1 data, 
 
 On the machine where the (**nlserver web**) Adobe Campaign application server is installed, download and copy the file
 
-**setup-client-6.**XXXX**.exe**
+**setup-client-6.XXXX.exe**
 
 in **[path of the application]**datakitnlengjsp
 
@@ -263,7 +263,7 @@ The next time client consoles are connected, a window will inform users about th
 
 On the machine where the Adobe Campaign application server (**nlserver web**) is installed, retrieve the following package:
 
-**setup-client-6.**XXXX**.exe**
+**setup-client-6.XXXX.exe**
 
 and copy it, saving as **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
 

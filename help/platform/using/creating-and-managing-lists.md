@@ -22,7 +22,7 @@ snippet: y
 
 A list is a static set of profiles that can be targeted in delivery actions or updated during import operations or during workflow execution. For example, a population extracted from the database via a query can supply a list.
 
-Deliveries (via e-mail, SMS, or other channels) aimed at these lists can then be set up in keeping with the professional ethics of permission marketing.
+
 
 Lists are created and managed via the **[!UICONTROL Lists]** link in the **[!UICONTROL Profiles and targets]** tab.
 
