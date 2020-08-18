@@ -54,7 +54,7 @@ sub-product: adobe campaign classic
        + [Generic imports and exports](platform/using/generic-imports-and-exports.md)
        + [Exporting data](platform/using/exporting-data.md)
        + [Importing data](platform/using/importing-data.md)
-       + [SFTP server best practices and troubleshooting](platform/using/sftp-server-usage.md)
+       + [SFTP server usage](platform/using/sftp-server-usage.md)
   + Filtering data {#filtering-data}
        + [Filtering options](platform/using/filtering-options.md)
        + [Creating filters](platform/using/creating-filters.md)

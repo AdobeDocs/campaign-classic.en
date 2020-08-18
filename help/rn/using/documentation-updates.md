@@ -48,7 +48,7 @@ How-to videos are now available on the following topics:
 
 * [How to set up a continuous delivery](../../workflow/using/continuous-delivery.md)
 
-Information has been added on the checks and action to perform when getting the "Couldn't resolve host name" error after connecting to FTP server. [Read more](../../platform/using/sftp-server-usage.md)
+Information has been added on the checks and actions to perform when getting the "Couldn't resolve host name" error after connecting to an FTP server. [Read more](../../platform/using/sftp-server-usage.md)
 
 ## July 2020 {#july-2020}
 

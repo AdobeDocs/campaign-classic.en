@@ -1,5 +1,5 @@
 ---
-title: SFTP server best practices and troubleshooting
+title: SFTP server usage
 description: Learn more on SFTP server best practices and troubleshooting.
 page-status-flag: never-activated
 uuid: 5281058d-91bd-4f98-835d-1d46dc7b8b1f
@@ -111,9 +111,9 @@ This error indicates that FTP server domain name could not be resolved properly.
    1. Check if the server name has been added into the local DNS server.
    1. If yes, run the following command on Adobe Campaign server to get the IP address:
 
-   `nslookup <server domain name>`
+      `nslookup <server domain name>`
 
-   This confirms the FTP server is working and reachable from Adobe Campaign application server.
+      This confirms the FTP server is working and reachable from Adobe Campaign application server.
 
 1. Troubleshoot **session logs**:
 
@@ -121,16 +121,16 @@ This error indicates that FTP server domain name could not be resolved properly.
    1. Go to **[!UICONTROL File Transfer]** tab, then click **[!UICONTROL Advanced Parameters]**.
    1. Check the **[!UICONTROL Display the session logs]** option.
 
-   ![](assets/sftp-error-display-logs.png)
+      ![](assets/sftp-error-display-logs.png)
 
    1. Go to the workflow Audit and check if the logs show the 'Couldn't resolve host name' error.
 
-   If the SFTP server is hosted by Adobe, check whether IP is added to the allow list by contacting Customer Care.
+1. If the SFTP server is hosted by Adobe, check whether IP is added to the allow list by contacting Customer Care.
 
-   Otherwise validate:
+      Otherwise validate:
 
-   * The password doesn't contain '@'. The connection failed if there is '@' in the password.
-   * There are no firewall issues which can hamper communication between Adobe Campaign application server and SFTP server.
-   * Run tracert and telnet commands from the campaign server to the sftp to see if there are any connection issues.
-   * There are no communication protocol issues.
-   * Port is open.
+      * The password doesn't contain '@'. The connection failed if there is '@' in the password.
+      * There are no firewall issues which can hamper communication between Adobe Campaign application server and SFTP server.
+      * Run tracert and telnet commands from the campaign server to the sftp to see if there are any connection issues.
+      * There are no communication protocol issues.
+      * Port is open.
