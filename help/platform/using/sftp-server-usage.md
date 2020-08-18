@@ -1,8 +1,6 @@
 ---
-title: SFTP server usage
-seo-title: SFTP server usage
-description: SFTP server usage
-seo-description: 
+title: SFTP server best practices and troubleshooting
+description: Learn more on SFTP server best practices and troubleshooting.
 page-status-flag: never-activated
 uuid: 5281058d-91bd-4f98-835d-1d46dc7b8b1f
 contentOwner: sauviat
@@ -16,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# SFTP server usage{#sftp-server-usage}
+# SFTP server best practices and troubleshooting {#sftp-server-usage}
 
 ## SFTP server best practices {#sftp-server-best-practices}
 
@@ -49,7 +47,7 @@ To avoid such problems, Adobe recommends following the best practices below.
 >
 >If you use your own SFTP server, make sure to follow the recommendations above as much as possible.
 
-## SFTP server troubleshooting {#sftp-server-troubleshooting}
+## Connection issues with Adobe hosted SFTP server {#sftp-server-troubleshooting}
 
 The section below lists the information to check and provide to the Adobe Support team via a [support ticket](https://support.neolane.net) when encountering connection issues with Adobe hosted SFTP servers.
 
@@ -90,3 +88,49 @@ The section below lists the information to check and provide to the Adobe Suppor
 1. If you are using a key based authentication, check that the key you are using is the same that you provided to Adobe Support team for the instance configuration.
 1. If you are using FileZilla or an equivalent FTP tool, provide the connection logs details in the support ticket.
 
+## "Couldn't resolve host name" error, upload error in cURL
+
+This section provides information on the checks and action to perform when getting the "Couldn't resolve host name." error after connecting to FTP server from Campaign Classic.
+
+The workflow journal shows the following logs:
+
+```
+16/05/2016 12:49:03    fileTransfer    Upload error in cURL
+16/05/2016 12:49:03    fileTransfer    Couldn't resolve host name
+16/05/2016 12:49:03    fileTransfer    Couldn't resolve host name
+16/05/2016 12:49:03    fileTransfer    Starting transfer of '/usr/local/neolane/nl6/var/williamreed/export/Recipients' to 'ftp://213.253.61.250/Recipients'
+16/05/2016 12:49:03    fileTransfer    1 file(s) to transfer
+```
+
+This error occurs when trying to connect the FTP server from a workflow and downloading the files from the server, while you are still able to connect via FTP using FileZilla or WinSCP.
+
+This error indicates that FTP server domain name could not be resolved properly. To troubleshoot, do the following:
+
+1. Troubleshoot **DNS server configuration**:
+
+   1. Check if the server name has been added into the local DNS server.
+   1. If yes, run the following command on Adobe Campaign server to get the IP address:
+
+   `nslookup <server domain name>`
+
+   This confirms the FTP server is working and reachable from Adobe Campaign application server.
+
+1. Troubleshoot **session logs**:
+
+   1. In the workflow, double-click the [File transfer](../../workflow/using/file-transfer.md) activity.
+   1. Go to **[!UICONTROL File Transfer]** tab, then click **[!UICONTROL Advanced Parameters]**.
+   1. Check the **[!UICONTROL Display the session logs]** option.
+
+   ![](assets/sftp-error-display-logs.png)
+
+   1. Go to the workflow Audit and check if the logs show the 'Couldn't resolve host name' error.
+
+   If the SFTP server is hosted by Adobe, check whether IP is added to the allow list by contacting Customer Care.
+
+   Otherwise validate:
+
+   * The password doesn't contain '@'. The connection failed if there is '@' in the password.
+   * There are no firewall issues which can hamper communication between Adobe Campaign application server and SFTP server.
+   * Run tracert and telnet commands from the campaign server to the sftp to see if there are any connection issues.
+   * There are no communication protocol issues.
+   * Port is open.
