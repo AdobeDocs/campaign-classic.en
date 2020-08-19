@@ -23,3 +23,7 @@ A join triggers its outbound transition only when all inbound transitions are ac
 The outbound sent population of the activity is determined by choosing a main set among the inbound transitions in the activity.
 
 The outbound transition can only contain one of the inbound transition populations. If the activity is not configured, the outbound transition will randomly select one of the inbound populations.
+
+>[!CAUTION]
+>
+>In the case of **AND-join** type activities, the event variables are merged but if a same variable is defined twice, there is a conflict and the value remains undetermined. For more on this, refer to [](../../workflow/using/javascript-scripts-and-templates.md#event-variables).
