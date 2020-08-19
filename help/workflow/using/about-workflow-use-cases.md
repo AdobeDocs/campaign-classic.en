@@ -38,6 +38,7 @@ They will help you discover the different contexts in which workflows can be use
 * [Sending a report to a list](../../workflow/using/sending-a-report-to-a-list.md)
 * [Supervising workflows](../../workflow/using/supervising-workflows.md)
 * [Sending personalized alerts to operators](../../workflow/using/sending-personalized-alerts-to-operators.md)
+* [Setting up a recipient approval process before a delivery is sent](../../workflow/using/using-the-local-approval-activity.md)
 
 ## Data management {#management}
 
