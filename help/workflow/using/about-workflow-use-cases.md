@@ -30,6 +30,7 @@ They will help you discover the different contexts in which workflows can be use
 * [Loading delivery content](../../workflow/using/loading-delivery-content.md)
 * [Cross-channel delivery workflow](../../workflow/using/cross-channel-delivery-workflow.md)
 * [Email enrichment with custom date fields](../../workflow/using/email-enrichment-with-custom-date-fields.md)
+* [Automating content creation, edition and publishing](../../delivery/using/automating-via-workflows.md#examples)
 
 ## Monitoring {#monitoring}
 
