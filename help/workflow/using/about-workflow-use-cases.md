@@ -22,7 +22,7 @@ They will help you discover the different contexts in which workflows can be use
 
 ## Deliveries {#deliveries}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
+<img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 * [Using the local approval activity](../../workflow/using/using-the-local-approval-activity.md)
 * [A/B testing](../../workflow/using/a-b-testing.md)
@@ -52,7 +52,7 @@ They will help you discover the different contexts in which workflows can be use
 * [Encrypting and exporting data using a key installed on Control Panel](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [Quarterly list update using an incremental query](../../workflow/using/quarterly-list-update.md)
 
-## Designing queries {#designing-queries}
+## Targeting {#designing-queries}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
@@ -64,3 +64,5 @@ They will help you discover the different contexts in which workflows can be use
 * [Adding an enumeration type calculated field](../../workflow/using/adding-enumeration-type-calculated-field.md)
 * [Creating a filter](../../workflow/using/creating-a-filter.md)
 * [Filtering duplicated recipients](../../workflow/using/filtering-duplicated-recipients.md)
+* [Calling an instance variable in a query](../../workflow/using/javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)
+* [Applying a split percentage on a population](../../workflow/using/javascript-scripts-and-templates.md#example)
