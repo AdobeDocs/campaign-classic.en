@@ -86,7 +86,7 @@ The event variables (**[!UICONTROL vars.xxx]**) enable the exchange of data betw
 
 Event are the most often used variables, and they should be used in preference to instance variables.
 
-Certain event variables are modified or read by the various activities. These are all string-type variables. For example, an export sets the **[!UICONTROL vars.filename]** variable with the full name of the file that has just been exported. All these read or modified variables are documented in [About activities](../../worksflow/using/about-activities.md), in the sections **Input parameters** and **Output parameters** of the activities.
+Certain event variables are modified or read by the various activities. These are all string-type variables. For example, an export sets the **[!UICONTROL vars.filename]** variable with the full name of the file that has just been exported. All these read or modified variables are documented in [About activities](../../workflow/using/about-activities.md), in the sections **Input parameters** and **Output parameters** of the activities.
 
 ### Use cases {#example}
 
