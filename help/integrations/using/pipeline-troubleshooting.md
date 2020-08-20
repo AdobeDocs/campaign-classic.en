@@ -25,7 +25,7 @@ Your version of Adobe Campaign Classic does not support the pipeline.
 1. Check if the [!DNL pipelined] element is present in the config file. If not, it means it's not supported.
 1. Upgrade to version 6.11 build 8705 or later.
 
-**Pipelined fails with '' aurait dû commencer par '[' ou '{' (iRc=16384)"**
+**Pipelined fails with '' aurait dû commencer par `[` ou `{` (iRc=16384)"**
 
 The **NmsPipeline_Config** option is not set. It's actually a JSON parsing error.
 Set the JSON config in the option **NmsPipeline_Config**. See "routing option" in this page.

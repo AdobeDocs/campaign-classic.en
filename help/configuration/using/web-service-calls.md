@@ -80,7 +80,7 @@ A WSDL (Web Service Description Library) file is available for each service. Thi
 
 To generate a WSDL file, you must enter the following URL from a Web browser:
 
-[https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
+https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 
 With:
 
@@ -250,7 +250,7 @@ From an SOAP call:
 
 * Using **HttpSoapConnection/SoapService**:
 
-  ```
+```
   
     var cnx = new HttpSoapConnection("https://serverURL/nl/jsp/soaprouter.jsp");
   var session = new SoapService(cnx, 'urn:xtk:session');
@@ -280,7 +280,7 @@ From an SOAP call:
           </queryDef>);
   logInfo(queryRes[0].toXMLString())
 
-  ```
+```
 
 * Using **HttpServletRequest**:
 
@@ -288,10 +288,9 @@ From an SOAP call:
 >
 >The URLs used in the following **HttpServletRequest** calls need to be on allowed list in the url permissions section of the **serverConf.xml** file. This is also true for the URL of the server itself.
 
-  Logon execution():
+Logon execution():
 
-  ```
-
+```
 var req = new HttpClientRequest("https://serverURL/nl/jsp/soaprouter.jsp");
 req.header["Content-Type"] = "text/xml; charset=utf-8";
 req.header["SOAPAction"] =   "xtk:session#Logon";
@@ -313,12 +312,11 @@ var resp = req.response;
 var xmlRes = new XML(String(resp.body).replace("<?xml version='1.0'?>",""));
 var sessionToken = String(xmlRes..*::pstrSessionToken);;
 var securityToken = String(xmlRes..*::pstrSecurityToken);
+```
 
-  ```
+Query execution:
 
-  Query execution:
-
-  ```
+```
 var req2 = new HttpClientRequest("https://serverURL/nl/jsp/soaprouter.jsp");
 req2.header["Content-Type"] = "text/xml; charset=utf-8";
 req2.header["SOAPAction"] =   "xtk:queryDef#ExecuteQuery";req2.header["X-Security-Token"] = securityToken;
@@ -334,5 +332,4 @@ req2.body = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/en
 req2.execute();
 var resp2 = req2.response;
 logInfo(resp2.body)
-  ```
-
+```

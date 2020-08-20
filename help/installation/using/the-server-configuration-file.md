@@ -1539,9 +1539,9 @@ Here are the different parameters of the **mta** node. This is the configuration
    <td> statServerAddress<br /> </td> 
    <td> Address of the delivery statistics server, given as 
     &lt;dns or ip&gt; 
-      [: 
+      <code>[</code>: 
      &lt;port&gt; 
-       ]. See 
+       <code>]</code>. See 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordinates of the statistics server</a>. 
       <br /> 
      </td> 
