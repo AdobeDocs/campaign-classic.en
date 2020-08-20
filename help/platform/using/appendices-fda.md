@@ -183,7 +183,7 @@ To learn more on driver configuration, refer to this [section](../../platform/us
 
 To learn more on the environment variables of the Adobe Campaign server, refer to this [section](../../platform/using/legacy-connectors.md#configure-access-to-teradata).
 
-### Campaign server configuration for Windows #campaign-server-windows}
+### Campaign server configuration for Windows {#campaign-server-windows}
 
 You first need to download Teradata Tools and utilities for Windows. You can download it from this [page](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-windows-installation-package)
 
