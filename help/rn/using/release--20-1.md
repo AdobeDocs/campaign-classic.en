@@ -177,7 +177,7 @@ _February 17, 2020_
 
 * Fixed an issue that occurred when deleting, inserting or updating a large amount of data with the **Update data** activity in a workflow using an FDA schema as the targeting dimension. (NEO-13280)
 
-* Fixed an issue that prevented emails from being sent when using the 'if' statement outside the `body` tag.
+* Fixed an issue that prevented emails from being sent when using the 'if' statement outside the `body` tag. (NEO-18628)
 
 * Fixed an issue that occurred when trying to display the mirror page from the delivery logs of a sent message. (NEO-17976)
 
