@@ -37,7 +37,7 @@ _X August 2020_
 * Fixed a regression impacting calculated fields in a workflow. (NEO-25194)
 * Fixed an issue that could prevent Microsoft Dynamics CRM from retrieving all entities. (NEO-24528)
 * Fixed an issue when testing the connection of the acsDefaultAccount external account. (NEO-23433)
-* Fixed a web server restarting issue due to dabase encoding problem. (NEO-23264)
+* Fixed a web server restarting issue due to database encoding problem. (NEO-23264)
 * Fixed an issue with the database cleanup workflow which could fail. (NEO-23160)
 * The cleanup workflow now purges expired lists by batches of 100 instead of one by one.
 * Following the switch to the [new sequence ID mechanism](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), all web applications that are updating the recipient table are republished during postupgrade.
