@@ -18,6 +18,15 @@ snippet: y
 
 # Release 19.1{#release-19-1}
 
+## ![](assets/do-not-localize/blue_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
+
+_X August 2020_
+
+**Improvements**
+
+* A new authentication option has been added to support OAuth credentials within the AC connector with Microsoft Dynamics. (NEO-11982)
+
+
 ## ![](assets/do-not-localize/orange_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
