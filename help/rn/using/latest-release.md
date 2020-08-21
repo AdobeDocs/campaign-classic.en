@@ -242,6 +242,6 @@ An example for Linux is available on this [page](../../configuration/using/addit
 * Fixed an issue that could display a delivery twice in the delivery list after it was sent.
 * Fixed an issue with delivery preparation that could occur when the routing configuration was set to send the delivery via mid-sourcing.
 * Fixed an issue that could display an error message when clicking a web application link within a Line message.
-* Fixed an issue that could prevent Microsoft Dynamics CRM from retrieving all entities. (NEO-24528)
 * Fixed an issue that deleted the **Incremental query** activity history after running the cleanup workflow.
-* Fixed an issue when creating a mid-sourcing external account where the NmsMidSourcing_LastBroadLog_&lt;InternalName&gt; option was missing
+* Fixed an issue when creating a mid-sourcing external account where the NmsMidSourcing_LastBroadLog_&lt;InternalName&gt; option was missing.
+* Fixed a web server restarting issue due to database encoding problem. (NEO-23264)

@@ -39,11 +39,13 @@ _X August 2020_
 * Fixed an issue when testing the connection of the acsDefaultAccount external account. (NEO-23433)
 * Fixed a web server restarting issue due to dabase encoding problem. (NEO-23264)
 * Fixed an issue with the database cleanup workflow which could fail. (NEO-23160)
+* The cleanup workflow now purges expired lists by batches of 100 instead of one by one.
 * Following the switch to the [new sequence ID mechanism](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), all web applications that are updating the recipient table are republished during postupgrade.
 * Fixed an issue that prevented emails from being sent when using the 'if' statement outside the `body` tag. (NEO-18628)
 * Fixed an issue that prevented the transactional messages tracking indicators from being updated by the Tracking workflow. (NEO-17770)
 * Improved the performance of the database update wizard.
 * Fixed console crash that could occur when unchecking tracked URLs in an email, from the **Text content** tab. (NEO-13545)
+* Fixed an issue which prevented you from uploading files in a File Transfer activity using an Azure Blob Storage external account. (NEO-13717)
 
 ## ![](assets/do-not-localize/orange_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
@@ -73,6 +75,7 @@ _13 August 2019_
 * Fixed an issue with the midEmetter package installation through command line.
 * A new authentication option has been added to support OAuth credentials within the AC connector with Microsoft Dynamics. (NEO-11982)
 * Fixing issue with UUID (Unique Universal Identifier) cause enrichment activity to fail withHive FDA.
+* Fixed a regression on Oracle causing some functions to be considered as invalid after postupgrade. (NEO-12759)
 
 ## ![](assets/do-not-localize/green_2.png) Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 

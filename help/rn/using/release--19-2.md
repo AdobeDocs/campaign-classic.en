@@ -159,4 +159,6 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 * Fixed a timeout issue when importing data from an external SFTP. (NEO-19723)
 * Fixed an issue when accessing to Predictive models. (NEO-19713)
 * Fixed an issue affecting random sampling in **Split** workflow activity with Hadoop FDA database. (NEO-16636)
+* Fixed a regression on Oracle causing some functions to be considered as invalid after postupgrade. (NEO-12759)
+
 
