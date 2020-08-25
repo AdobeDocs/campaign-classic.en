@@ -26,7 +26,7 @@ A condition is a JavaScript expression that must be evaluated to 'true' or 'fals
 
 For more information on all the additional JavaScript functions and SOAP methods of the applicative server accessible via workflow JavaScript, refer to [JSAPI documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
-You can also insert variables directly from this editor.
+You can also insert variables directly from this editor. For more  information on how to work with variables, refer to [this section](../../workflow/using/javascript-scripts-and-templates.md#variables).
 
 Conditions can be added, deleted, or ordered from the activity property edit window, but can also be modified from the transition.
 
