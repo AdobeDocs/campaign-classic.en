@@ -45,7 +45,7 @@ The following illustration shows the location of schemas in the Adobe Campaign d
 
 ## Syntax of schemas {#syntax-of-schemas}
 
-The root element of the schema is **`<srcschema>`**. It contains the ** **`<element>`** and **`<attribute>`** sub-elements.
+The root element of the schema is **`<srcschema>`**. It contains the **`<element>`** and **`<attribute>`** sub-elements.
 
 The first **`<element>`** sub-element coincides with the root of the entity.
 

@@ -20,7 +20,7 @@ snippet: y
 
 This integration can be used for example to create a newsletter in Adobe Experience Manager which will then be used in Adobe Campaign as part of an email campaign.
 
-For a more detailed example on how to use this integration, refer to this [step-by-step guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html).
+For a more detailed example on how to use this integration, refer to this [step-by-step guide](https://helpx.adobe.com/campaign/kb/acc-aem.html).
 
 **From Adobe Experience Manager:**
 
@@ -28,7 +28,7 @@ For a more detailed example on how to use this integration, refer to this [step-
 
    ![](assets/aem_uc_1.png)
 
-1. Select **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Master Area > Email campaigns]**.
+1. Select **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Main Area > Email campaigns]**.
 1. Click the **[!UICONTROL Create]** button in the upper right side of the page then select **[!UICONTROL Page]**.
 
    ![](assets/aem_uc_2.png)

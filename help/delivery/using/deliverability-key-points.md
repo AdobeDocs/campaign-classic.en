@@ -64,3 +64,92 @@ ISPs and other organizations (see the [Project Honey Pot](https://www.projecthon
 ## Work on your reputation {#reputation}
  
 Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.
+
+## Best practices {#best-practices}
+
+Learn best practices related to deliverability with Adobe Campaign. Use the links below to navigate topics and find guidance.
+
+<table>
+<tr>
+  <td>
+    <a href="starting-new-platform.md">
+      <img alt="Start" src="assets/do-not-localize/start.svg" width="60px"/>
+    </a>
+    <div>
+      <a href="starting-new-platform.md">
+    <strong>Start</strong>
+    </a>
+    </div>
+    <p>
+    <em>Starting a new platform</em>
+    <p>
+  </td>
+   <td>
+    <a href="control-message-content.md">
+      <img alt="Design" src="assets/do-not-localize/design.svg" width="60px"/>
+    </a>
+    <div>
+      <a href="control-message-content.md">
+    <strong>Design</strong>
+    </a>
+    </div>
+    <p>
+    <em>Control message content</em>
+    <p>
+  </td>
+  <td>
+    <a href="improve-reputation.md">
+      <img alt="Design" src="assets/do-not-localize/check.svg" width="60px"/>
+    </a>
+    <div>
+      <a href="improve-reputation.md">
+    <strong>Send</strong>
+    </a>
+    </div>
+    <p>
+    <em>Improve your reputation</em>
+    <p>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="technical-recommendations.md">
+      <img alt="Optimize" src="assets/do-not-localize/optimize.svg" width="60px"/>
+    </a>
+    <div>
+      <a href="technical-recommendations.md">
+    <strong>Optimize</strong>
+    </a>
+    </div>
+    <p>
+    <em>Technical recommendations</em>
+    <p>
+  </td>
+   <td>
+    <a href="monitoring-deliverability.md">
+      <img alt="Check" src="assets/do-not-localize/monitor.svg" width="60px"/>
+    </a>
+    <div>
+      <a href="monitoring-deliverability.md">
+    <strong>Monitor</strong>
+    </a>
+    </div>
+    <p>
+    <em>Monitoring tools</em>
+    <p>
+  </td>
+  <td>
+    <a href="deliverability-faq.md">
+      <img alt="Optimize" src="assets/do-not-localize/troubleshoot.svg" width="60px"/>
+    </a>
+    <div>
+      <a href="deliverability-faq.md">
+    <strong>Troubleshoot</strong>
+    </a>
+    </div>
+    <p>
+    <em>Solve issues</em>
+    <p>
+  </td>
+</tr>
+</table>

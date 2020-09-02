@@ -203,8 +203,7 @@ Another way to add columns, for example if you want to display data which is not
    >
    >Use the **Search** field to run a search in the available fields. For further information, see [Sorting a list](#sorting-a-list).
    >
-   >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields.
-    [Configuring lists](#configuring-lists).  
+   >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields. [Configuring lists](#configuring-lists).  
    >
    >You can also sort and filter data. See [Filtering options](../../platform/using/filtering-options.md).
 

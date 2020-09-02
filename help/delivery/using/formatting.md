@@ -475,7 +475,7 @@ Examples:
   <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
   ```
 
-* Adding the conditional test **<% if (recipient.language == 'en') { %>**:
+* Adding the conditional test **<% if (recipient.language == 'en') `{` %>**:
 
   ```
   <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>

@@ -20,6 +20,8 @@ snippet: y
 
 Deliveries can be created via the campaign dashboard, a campaign workflow or directly via the overview of deliveries.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#create-email-video)
+
 ## Creating deliveries {#creating-deliveries}
 
 To create a delivery linked to a campaign, click the **[!UICONTROL Add a delivery]** link in the campaign dashboard.
@@ -30,7 +32,7 @@ The suggested configurations are suited to the different types of delivery: dire
 
 >[!NOTE]
 >
->For more on creating and configuring deliveries, refer to the [Sending Messages](../../delivery/using/communication-channels.md) section.
+>For more on creating and configuring deliveries, refer to the [Sending Messages](../../delivery/using/steps-about-delivery-creation-steps.md) section.
 
 ## Selecting the target population {#selecting-the-target-population}
 
@@ -71,6 +73,13 @@ The [Automating with workflows](../../workflow/using/architecture.md) guide incl
 >[!IMPORTANT]
 >
 >In the same campaign, you cannot set up more than 28 workflows. Past this limit, additional workflows are not visible in the interface and can generate errors.
+
+### How to create an email in a campaign {#create-email-video}
+
+This video explains how to create a campaign and an email in Adobe Campaign Classic.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
 
 #### Creating a targeting workflow {#creating-a-targeting-workflow}
 
@@ -213,7 +222,7 @@ You can define a control group at campaign level, in which case the control grou
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a population](#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
 
 #### Activating the control group for a delivery {#activating-the-control-group-for-a-delivery}
 
@@ -232,7 +241,7 @@ By default, the control group configuration defined at the campaign level applie
 1. Click the **[!UICONTROL Control group]** tab and then select **[!UICONTROL Enable and edit control group configuration]**.
 1. Click **[!UICONTROL Edit...]** to configure the control group.
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a population](#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
 
 #### Extracting the control group from the main target {#extracting-the-control-group-from-the-main-target}
 
@@ -251,7 +260,7 @@ Click **[!UICONTROL Next]** to define the sorting order (if necessary) and selec
 
 This configuration is equivalent to a sharing activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. Refer to the [this section](../../workflow/using/architecture.md) for more information.
 
-### Adding a population {#adding-a-population}
+### Adding a control group {#adding-a-population}
 
 You can define a new population to be used as a control group. This population can come from a group of recipients or you can create it via a specific query.
 

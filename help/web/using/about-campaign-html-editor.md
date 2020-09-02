@@ -56,7 +56,7 @@ To create an email delivery, the steps are as follows:
 * Create a delivery from an email type template in which the DCE is active,
 * Select existing content or creating content from a standard template,
 * Edit and configure online content,
-* Send the delivery, for more on this refer to [this section](../../delivery/using/communication-channels.md).
+* Send the delivery, for more on this refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 >[!NOTE]
 >

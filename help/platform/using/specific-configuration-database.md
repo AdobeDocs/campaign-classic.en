@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Specific configurations by database type {#specific-configurations-by-database-type}
+# Configuring FDA connectors {#specific-configurations-by-database-type}
 
 Depending on the external databases that you want to be able to access from Adobe Campaign, you will need to carry out certain specific configurations. These configurations essentially involve installing drivers and declaring environment variables that belong to each RDBMS on the Adobe Campaign server.
 
@@ -274,17 +274,17 @@ The connector supports the following options:
 1. Download the ODBC drivers for [!DNL Snowflake]. [Click here](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) to start downloading.
 1. You then need to install the ODBC drivers on CentOs with the following command:
 
-     ```
-     rpm -Uvh unixodbc
-     rpm -Uvh snowflake-odbc-2.20.2.x86_64.rpm
-     ```
+    ```
+    rpm -Uvh unixodbc
+    rpm -Uvh snowflake-odbc-2.20.2.x86_64.rpm
+    ```
 
 1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
 
-     ```
+    ```
     /etc/init.d/nlserver6 stop
     /etc/init.d/nlserver6 start
-     ```
+    ```
 
 1. In Campaign Classic, you can then configure your [!DNL Snowflake] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#snowflake-external).
 
@@ -295,15 +295,15 @@ The connector supports the following options:
 1. You then need to install the ODBC drivers on Debian with the following command:
 
      ```
-    apt-get install unixodbc
-    apt-get install snowflake-odbc-x.xx.x.x86_64.deb
+     apt-get install unixodbc
+     apt-get install snowflake-odbc-x.xx.x.x86_64.deb
      ```
 
 1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
 
      ```
-    systemctl stop nlserver.service
-    systemctl start nlserver.service
+     systemctl stop nlserver.service
+     systemctl start nlserver.service
      ```
 
 1. In Campaign Classic, you can then configure your [!DNL Snowflake] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#snowflake-external).
@@ -371,8 +371,8 @@ Connecting to a Hadoop external database in FDA requires the following configura
 1. After downloading and installing the ODBC drivers, you need to restart Campaign Classic. To do so, run the following command:
 
      ```
-    systemctl stop nlserver.service
-    systemctl start nlserver.service
+     systemctl stop nlserver.service
+     systemctl start nlserver.service
      ```
 
 1. In Campaign Classic, you can then configure your [!DNL Hadoop] external account. For more on how to configure your external account, refer to this [section](../../platform/using/specific-configuration-database.md#hadoop-external).

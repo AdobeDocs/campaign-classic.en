@@ -58,4 +58,3 @@ To do this:
 >[!NOTE]
 >
 >Best practices and troubleshooting on SFTP server usage are detailed [in this page](../../platform/using/sftp-server-usage.md).
-

@@ -46,19 +46,19 @@ In the context of Adobe Campaign, the following concepts must be defined:
 
   For more on this, refer to [Managing marketing resources](../../campaign/using/managing-marketing-resources.md).
 
-## User-friendliness {#user-friendliness}
-
 >[!NOTE]
 >
 >For more on the overall Adobe Campaign workspace, refer to [this section](../../platform/using/adobe-campaign-workspace.md).
 >  
->All functionalities linked to deliveries and profile management are detailed in [this section](../../delivery/using/communication-channels.md).  
+>All functionalities linked to deliveries and communication channels are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).  
 >
 >All campaign related functionalities are detailed in [Accessing marketing campaigns](../../campaign/using/accessing-marketing-campaigns.md).
 
 Additionally, plans and programs in Adobe Campaign offer extra functionalities:
 
-* Budget management. For more on this, refer to [Controlling costs](../../campaign/using/controlling-costs.md),
-* Task management. For more on this, refer to [Creating and managing tasks](../../campaign/using/creating-and-managing-tasks.md),
-* Marketing resource management. For more on this, refer to [Managing marketing resources](../../campaign/using/managing-marketing-resources.md).
+* Budget management. For more on this, refer to [Controlling costs](../../campaign/using/controlling-costs.md)
+
+* Task management. For more on this, refer to [Creating and managing tasks](../../campaign/using/creating-and-managing-tasks.md)
+
+* Marketing resource management. For more on this, refer to [Managing marketing resources](../../campaign/using/managing-marketing-resources.md)
 

@@ -20,11 +20,62 @@ This page lists all the new features and documentation updates per month and Cam
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
+## August 2020 {#aug-2020}
+
+Learn best practices related to delivery design and sending with Campaign in a dedicated section. [Read more](../../delivery/using/delivery-best-practices.md)
+
+The Deliverability best practices landing page has been improved to facilitate access to sub-sections. [Read more](../../delivery/using/deliverability-key-points.md)
+
+How-to videos are now available on the following topics:
+
+* [How to set up fatigue management using typology rules and predefined filters](../../campaign/using/about-campaign-typologies.md)
+
+* [How to create an email in a campaign](../../campaign/using/marketing-campaign-deliveries.md)
+
+* [How to create a multilingual newsletter with conditional content](../../delivery/using/conditional-content.md)
+
+* [How to configure and deploy a delivery template](../../delivery/using/creating-a-delivery-template.md)
+
+* [How to activate and use AMP for emails](../../delivery/using/defining-interactive-content.md)
+
+* [How to personalize emails using dynamic content blocks](../../delivery/using/personalization-blocks.md)
+
+* [How to personalize emails using personalization fields](../../delivery/using/personalization-fields.md)
+
+* [How to manage seed and proofs in an email](../../delivery/using/steps-defining-the-target-population.md)
+
+* [How to set up a recurring delivery](../../workflow/using/recurring-delivery.md)
+
+* [How to set up a continuous delivery](../../workflow/using/continuous-delivery.md)
+
+Information has been added on the checks and actions to perform when getting the "Couldn't resolve host name" error after connecting to an FTP server. [Read more](../../platform/using/sftp-server-usage.md)
+
+New use cases have been referenced in the list of [workflow use cases](../../workflow/using/about-workflow-use-cases.md):
+
+* Automating content creation, edition and publishing
+* Setting up a recipient approval process before a delivery is sent
+* Calling an instance variable in a query
+* Applying a split percentage on a population
+
+The **[!UICONTROL AND-join]** activity section has been enriched with additional information on its usage, as well as a note regarding the use of variables. [Read more](../../workflow/using/and-join.md)
+
 ## July 2020 {#july-2020}
+
+A use case on how to automatically update a list using an incremental query has been added to the workflow use cases. [Read more](../../workflow/using/about-workflow-use-cases.md)
+
+The [Release Notes](../../rn/using/latest-release.md) have been reorganized: an [overview page](../../rn/using/latest-release.md) has been added with information on build statuses, upgrade process, recommendations and important links. A dedicated page for [Gold Standard releases](../../rn/using/gold-standard.md) has also been added and the [Compatibility matrix](../../rn/using/compatibility-matrix.md) has been integrated.
 
 A new section has been added with guidelines related to Campaign Classic monitoring. [Read more](../../production/using/monitoring-guidelines.md)
 
 The Privacy and Consent section has been enhanced with more detailed information and useful links. [Read more](../../platform/using/privacy-and-recommendations.md).
+
+The Privacy Management in Campaign Classic page has been updated with information on the 'regulation' field which is now available when using the API allowing to setup automatic Privacy request process. [Read more](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+
+The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+Information has been added on sub-workflows logs and behaviour in case of error. [Read more](../../workflow/using/sub-workflow.md)
+
+Best practices have been added in the **[!UICONTROL Scheduler]** activity section. [Read more](../../workflow/using/scheduler.md)
 
 ## June 2020 {#june-2020}
 
@@ -34,7 +85,7 @@ Use cases have been added on how to [encrypt](../../workflow/using/how-to-use-wo
 
 Both ‘whitelist’ and ‘blacklist’ terms have been removed from Adobe Campaign documentation. Some occurrences of these terms may still exist in the product UI, option names and internal code, but will be replaced in upcoming Campaign releases with ‘blocklist’ and ‘allowlist.’
 
-The Experience Cloud Triggers and dobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
+The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
 
 ## 20.2 - 08/06/2020{#release-20-2}
 
@@ -237,7 +288,7 @@ Information was added to specify that personalization fields content cannot exce
 
 The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
-The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+The Delivery Best Practices getting started guide has been updated. [Read more](../../delivery/using/delivery-best-practices.md)
 
 ## October 2019 {#october-2019}
 
@@ -249,7 +300,7 @@ A new troubleshooting page has been added for tracking in Campaign Classic. [Rea
 
 A new page of best practices for Adobe Analytics Data Connector has been added. [Read more on Adobe Analytics Data Connector](../../platform/using/adobe-analytics-data-connector.md)
 
-The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+The Delivery Best Practices getting started guide has been moved and updated. [Read more](../../delivery/using/delivery-best-practices.md)
 
 A recommendation has been added to the SMS channel documentation to avoid issues when using multiple external accounts leveraging the Extended generic SMPP connector with the same provider account. [Read more](../../delivery/using/sms-channel.md#automatic-reply)
 
@@ -273,7 +324,7 @@ The best practices for performance improvements of workflows and deliveries have
 
 Control Panel - [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
-Audit trail - [Read more](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html)
+Audit trail - [Read more](../../production/using/audit-trail.md)
 
 **Other documentation updates coming with the release**
 

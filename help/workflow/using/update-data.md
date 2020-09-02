@@ -27,7 +27,7 @@ The **[!UICONTROL Operation type]** field lets you choose the process to be carr
 * **[!UICONTROL Insert or update]**: add data or update it if it has already been added.
 * **[!UICONTROL Insert]**: only add data.
 * **[!UICONTROL Update]**: only update data.
-* **[!UICONTROL Update and merge collections]**: update data and choose a "master" record, then link elements linked to the duplicates in this master record. Duplicates can then be deleted without creating orphan attached elements.
+* **[!UICONTROL Update and merge collections]**: update data and choose a primary record, then link elements linked to the duplicates in this primary record. Duplicates can then be deleted without creating orphan attached elements.
 * **[!UICONTROL Delete]**: delete data.
 
 ![](assets/s_advuser_update_data_1.png)

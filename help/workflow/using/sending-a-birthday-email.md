@@ -28,7 +28,7 @@ To set up this use case, we created the following targeting workflow:
 
 This (daily run) workflow selects all recipients that have their birthday on the current date.
 
-This use case can also be found in the form of a video. For more on this, refer to the [Creating a workflow](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
+This use case can also be found in the form of a video. For more on this, refer to the [Creating a workflow](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html) video.
 
 To do this, create a campaign and click the **[!UICONTROL Targeting and workflows]** tab. For more on this, refer to the [Building the main target in a workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) section.
 

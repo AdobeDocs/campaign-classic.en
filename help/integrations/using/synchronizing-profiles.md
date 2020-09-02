@@ -56,7 +56,7 @@ When a recipient clicks the unsubscription link in an email sent by Campaign Sta
 
 ## Editing a recipient {#editing-a-recipient}
 
-The steps below for changing a single point of data offer a simple example of how Campaign v7 becomes the master database for Campaign Standard when using data replication. Modifying or deleting replicated data in Campaign v7 has the same effect on the corresponding data in Campaign Standard.
+The steps below for changing a single point of data offer a simple example of how Campaign v7 becomes the primary database for Campaign Standard when using data replication. Modifying or deleting replicated data in Campaign v7 has the same effect on the corresponding data in Campaign Standard.
 
 1. Choose the newly created recipient from [Creating a new recipient](#creating-a-new-recipient) and edit the recipient’s name. For example, choose a **[!UICONTROL Salutation]** for the recipient (e.g. Mr. or Mrs.). For further information, see [Editing a profile](../../platform/using/editing-a-profile.md).
 

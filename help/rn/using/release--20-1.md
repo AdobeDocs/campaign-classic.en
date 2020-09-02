@@ -17,40 +17,19 @@ snippet: y
 
 # Release 20.1{#release-20-1}
 
-[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--19-2.md) &#124; [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>General Availability</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>Release Candidate</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>No longer available</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>Deprecated</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Latest stable build available. Build validated in production.<br>&nbsp;</td>
-   <td>Build validated by Adobe. Waiting for production proofing.<br>&nbsp;</td>
-   <td>Newer build available with bug fixes. Update is required.<br>&nbsp;</td>
-   <td>Contains known regressions. Update is mandatory.<br>&nbsp;</td>
-  </tr> 
- </tbody> 
-</table>
-
-The **last stable build** is Gold Standard 10. Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
-
-## ![](assets/do-not-localize/orange_2.png) Release 20.1.3 - Build 9124 {#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/orange_2.png) Release 20.1.3 - Build 9124{#release-20-1-3-build-9124}
 
 _May 6, 2020_
 
-* Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183)
+* Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183) 
 
-## ![](assets/do-not-localize/orange_2.png) Release 20.1.2 - Build 9123 {#release-20-1-2-build-9123}
+## ![](assets/do-not-localize/orange_2.png) Release 20.1.2 - Build 9123{#release-20-1-2-build-9123}
 
 _March 13, 2020_
 
 * Fixed an issue that prevented version deployment on Red Hat 7 servers. (NEO-23332)
 
-## ![](assets/do-not-localize/orange_2.png) Release 20.1 - Build 9122 {#release-20-1-build-9122} 
+## ![](assets/do-not-localize/orange_2.png) Release 20.1 - Build 9122{#release-20-1-build-9122}
 
 _February 17, 2020_
 
@@ -198,7 +177,7 @@ _February 17, 2020_
 
 * Fixed an issue that occurred when deleting, inserting or updating a large amount of data with the **Update data** activity in a workflow using an FDA schema as the targeting dimension. (NEO-13280)
 
-* Fixed an issue that prevented emails from being sent when using the 'if' statement outside the `body` tag.
+* Fixed an issue that prevented emails from being sent when using the 'if' statement outside the `body` tag. (NEO-18628)
 
 * Fixed an issue that occurred when trying to display the mirror page from the delivery logs of a sent message. (NEO-17976)
 

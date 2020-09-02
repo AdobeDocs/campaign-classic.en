@@ -34,7 +34,7 @@ XML documents are stored in MEMO type fields of the database.
 
 You must be familiar with the Adobe Campaign data model to be able to address the fields of the database in your scripts.
 
-For a presentation of the data model, refer to the [Adobe Campaign Data model description](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html).
+For a presentation of the data model, refer to the [Adobe Campaign Data model description](../../configuration/using/data-model-description.md).
 
 In order to generate its structure, refer to this article: [How to generate a Data Model or Data Dictionary](https://helpx.adobe.com/campaign/kb/generate-data-model.html).
 

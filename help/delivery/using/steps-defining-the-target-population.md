@@ -22,25 +22,23 @@ snippet: y
 
 For each delivery, you can define several types of target populations. The section below provides more information on how to select:
 
-* **The main recipients of the delivery**. [Read more](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
-* **The recipients of proof messages**, in order to set up a validation cycle. [Read more](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+* The main recipients of the delivery. [Read more](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
+* The recipients of proof messages, in order to set up a validation cycle. [Read more](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
 
-Additionally, you can also define [seed addresses](../../delivery/using/about-seed-addresses.md), and [control groups](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group). if the delivery is included in a marketing campaign.
+Additionally, if the delivery is included in a marketing campaign, you can also define [seed addresses](../../delivery/using/about-seed-addresses.md), and [control groups](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
 ## Selecting the main recipients of the delivery {#selecting-the-main-target}
 
-In most cases, the main target is extracted from the Campaign database (default mode).
+In most cases, the main target is extracted from Adobe Campaign database (default mode). However, recipients can also be stored in an external file. Learn more in [this section](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
 
-Recipients can also be stored in an external file. The configuration of this type of delivery is presented in [Selecting external recipients](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+To select the recipients of a delivery, follow the steps below:
 
-To select the recipients of the delivery being created, follow these steps:
-
-1. Click the **[!UICONTROL To]** link.
-1. If the recipients are stored in the database, select the first option.
+1. In the delivery editor, select **[!UICONTROL To]**.
+1. If the recipients are stored in the database, choose the first option.
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. Select the target mapping in the **[!UICONTROL Target mapping]** drop-down list. Adobe Campaign default target mapping is **[!UICONTROL Recipients]**.
+1. Select the target mapping in the **[!UICONTROL Target mapping]** drop-down list. Adobe Campaign default target mapping is **[!UICONTROL Recipients]**, based on **nms:recipient** schema.
 
    Other target mappings are available, and some can be related to your specific configuration. For more on target mappings, refer to [Selecting a target mapping](../../delivery/using/selecting-a-target-mapping.md).
 
@@ -169,6 +167,9 @@ You can reduce the size of the target population. To do this, specify the number
 
 The proof is a special message that lets you test a delivery before sending it to the main target. Proof recipients are responsible for approving both the form and content of the message.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#seeds-and-proofs-video)
+
+
 To select the target of the proofs, follow the steps below:
 
 1. Click the **[!UICONTROL To]** link.
@@ -224,3 +225,16 @@ You can use **[!UICONTROL Seed addresses]** as target of the proofs: this option
 >Seed addresses are presented in [About seed addresses](../../delivery/using/about-seed-addresses.md).
 
 You can combine the definition of a specific proof target and the use of seed addresses using the **[!UICONTROL Specific target and Seed addresses]** option. The related configurations are then defined in two separate sub-tabs.
+
+## How to manage seed and proofs in an email {#seeds-and-proofs-video}
+
+In this video you will learn how to add seeds and proofs to an existing email and how to send it.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+
+See also:
+* [Selecting the proof target](#selecting-the-proof-target)
+
+* [About seed adresses](../../delivery/using/about-seed-addresses.md)
+
+* [Use case: selecting seed addresses on criteria](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)

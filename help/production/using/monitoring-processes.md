@@ -485,7 +485,7 @@ Adobe Campaign can provide an instance monitoring tool (netreport) that lets you
 
 The following pre-installation precautions are required for automatic monitoring:
 
-* You must have the **netreport.tgz **(Linux installation) or **netreport.zip** (Windows installation) files,
+* You must have the **netreport.tgz** (Linux installation) or **netreport.zip** (Windows installation) files,
 * We strongly advise you not to install monitoring on the machine to be monitored, 
 * it must be installed on a machine with a JRE or a JDK,
 * in Linux, the machine to be monitored must have the **bc** package. For more on this, refer to [this section](../../installation/using/installing-packages-with-linux.md#distribution-based-on-rpm--packages).
@@ -498,7 +498,7 @@ The installation procedure is as follows:
 1. Run archive extraction.
 1. Read the **readme** file.
 1. Update the **netconf.xml** configuration file.
-1. Update the **netreport.bat** (Windows) or **netreport.sh **(Linux) file.
+1. Update the **netreport.bat** (Windows) or **netreport.sh** (Linux) file.
 
 ### Configuring the netconf.xml file {#configuring-the-netconf-xml-file}
 
