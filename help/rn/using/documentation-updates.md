@@ -50,6 +50,15 @@ How-to videos are now available on the following topics:
 
 Information has been added on the checks and actions to perform when getting the "Couldn't resolve host name" error after connecting to an FTP server. [Read more](../../platform/using/sftp-server-usage.md)
 
+New use cases have been referenced in the list of [workflow use cases](../../workflow/using/about-workflow-use-cases.md):
+
+* Automating content creation, edition and publishing
+* Setting up a recipient approval process before a delivery is sent
+* Calling an instance variable in a query
+* Applying a split percentage on a population
+
+The **[!UICONTROL AND-join]** activity section has been enriched with additional information on its usage, as well as a note regarding the use of variables. [Read more](../../workflow/using/and-join.md)
+
 ## July 2020 {#july-2020}
 
 A use case on how to automatically update a list using an incremental query has been added to the workflow use cases. [Read more](../../workflow/using/about-workflow-use-cases.md)
