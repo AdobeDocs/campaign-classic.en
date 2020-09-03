@@ -244,4 +244,4 @@ An example for Linux is available on this [page](../../configuration/using/addit
 * Fixed an issue that could display an error message when clicking a web application link within a Line message.
 * Fixed an issue that deleted the **Incremental query** activity history after running the cleanup workflow.
 * Fixed an issue when creating a mid-sourcing external account where the NmsMidSourcing_LastBroadLog_&lt;InternalName&gt; option was missing.
-* Fixed a regression issue on database connection causing the web server to constanstly restart due to a database encoding problem. This could lead to overconsumption. (NEO-23264)
+* Fixed a regression issue on database connection causing the web server to constantly restart due to a database encoding problem. This could lead to overconsumption. (NEO-23264)

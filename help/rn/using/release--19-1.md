@@ -30,14 +30,14 @@ _3 September 2020_
 * Fixed an issue with the url cache mechanism which did not retrieve the label or category.
 * Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries (due to improper ASCII character control). (NEO-26084)
 * The jarsToSkip list in catalina.properties has been updated to remove the reference to a jar file that was no longer used (iOS notifications).
-* Fixed a regresssion issue which prevented after publication after postupgrade.
+* Fixed a regression issue which prevented after publication after postupgrade.
 * Fixed a regression with out-of-the-box delivery reports which appeared truncated when exported to PDF. (NEO-25757)
 * Fixed an issue that deleted the encoding parameter value when redirecting from a tracking URL (impact on Japanese characters). (NEO-25637)
 * Fixed an issue which led to unsigned links from personalized domains being blocked when they should be allowed. (NEO-25210)
 * Fixed a regression impacting calculated fields in a workflow causing the workflow to fail. (NEO-25194)
 * Fixed a compatibility issue with Microsoft Dynamics (from version 8.2) that could prevent some API calls from executing (RetrieveAllEntities). (NEO-24528)
 * Fixed a regression issue when using the ACS Connector feature which prevented the connection to a Campaign Standard instance (incorrect management of the FOH/FOH2 connection). (NEO-23433)
-* Fixed a regression issue on database connection causing the web server to constanstly restart due to a database encoding problem. This could lead to overconsumption. (NEO-23264)
+* Fixed a regression issue on database connection causing the web server to constantly restart due to a database encoding problem. This could lead to overconsumption. (NEO-23264)
 * Fixed an issue with the database cleanup workflow which could fail due to unmanaged data source. (NEO-23160, NEO-23364)
 * The cleanup workflow now purges expired lists by batches of 100 instead of one by one.
 * Following the switch to the [new sequence ID mechanism](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), all web applications that are updating the recipient table are republished during postupgrade.
