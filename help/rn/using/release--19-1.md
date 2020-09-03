@@ -20,32 +20,32 @@ snippet: y
 
 ## ![](assets/do-not-localize/blue_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
 
-_X August 2020_
+_3 September 2020_
 
 **Improvements**
 
-* Fixed an issue which could lead to nlsrvmod crashes. 
+* Improved nlsrvmod for Apache 2.4 thread usage to fix nlsrvmod crashes. 
 * Fixed an issue when using the File Transfer activity with an Azure external account and an SSL encryption. The connection was performed through HTTP instead of HTTPS. (NEO-26720)
 * In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]** for a better user experience.
 * Fixed an issue with the url cache mechanism which did not retrieve the label or category.
-* Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries. (NEO-26084)
+* Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries (due to inproper ASCII character control). (NEO-26084)
 * The jarsToSkip list in catalina.properties has been updated to remove the reference to a jar file that was no longer used (iOS notifications).
-* Fixed an issue which could prevent the Offer notification workflow from properly working after a postupgrade.
-* Fixed an issue with out-of-the-box delivery reports which appeared truncated when exported to PDF. (NEO-25757)
-* Fixed an issue that deleted the encoding parameter value when redirecting from a tracking URL. (NEO-25637)
+* Fixed a regresssion issue which prevented after publication after postupgrade.
+* Fixed a regression with out-of-the-box delivery reports which appeared truncated when exported to PDF. (NEO-25757)
+* Fixed an issue that deleted the encoding parameter value when redirecting from a tracking URL (impact on Japanese characters). (NEO-25637)
 * Fixed an issue which led to unsigned links from personalized domains being blocked when they should be allowed. (NEO-25210)
-* Fixed a regression impacting calculated fields in a workflow. (NEO-25194)
-* Fixed an issue that could prevent Microsoft Dynamics CRM from retrieving all entities. (NEO-24528)
-* Fixed an issue when testing the connection of the acsDefaultAccount external account. (NEO-23433)
-* Fixed a web server restarting issue due to database encoding problem. (NEO-23264)
-* Fixed an issue with the database cleanup workflow which could fail. (NEO-23160)
+* Fixed a regression impacting calculated fields in a workflow causing the workflow to fail. (NEO-25194)
+* Fixed a compatibility issue with Microsoft Dynamics (from version 8.2) that could prevent some API calls from executing (RetrieveAllEntities). (NEO-24528)
+* Fixed a regression issue when using the ACS Connector feature which prevented the connection to a Campaign Standard instance (incorrect management of the FOH/FOH2 connection). (NEO-23433)
+* Fixed a regression issue on database connection causing the web server to constanstly restart due to a database encoding problem. This could lead to overconsumption. (NEO-23264)
+* Fixed an issue with the database cleanup workflow which could fail due to unmanaged data source. (NEO-23160, NEO-23364)
 * The cleanup workflow now purges expired lists by batches of 100 instead of one by one.
 * Following the switch to the [new sequence ID mechanism](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), all web applications that are updating the recipient table are republished during postupgrade.
-* Fixed an issue that prevented emails from being sent when using the 'if' statement outside the `body` tag. (NEO-18628)
+* Fixed an issue preventing emails from being sent when there was Javascript code outside of the HTML content tag. (NEO-18628)
 * Fixed an issue that prevented the transactional messages tracking indicators from being updated by the Tracking workflow. (NEO-17770)
-* Improved the performance of the database update wizard.
-* Fixed console crash that could occur when unchecking tracked URLs in an email, from the **Text content** tab. (NEO-13545)
-* Fixed an issue which prevented you from uploading files in a File Transfer activity using an Azure Blob Storage external account. (NEO-13717)
+* Improved the performance of the database update wizard to make fewer SQL statements in order to optimize response time.
+* Fixed a console crash issue that could occur when unchecking tracked URLs in an email, from the **Text content** tab due to a non-initialized variable. (NEO-13545)
+* Fixed an issue which prevented you from uploading files in a File Transfer activity using an Azure Blob Storage external account due to a non-initialized variable (m_pCurlReader). (NEO-13717)
 
 ## ![](assets/do-not-localize/orange_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
@@ -71,11 +71,12 @@ _13 August 2019_
 
 * Fixed an issue with the SQL statement 'SELECT COUNT' which was executed on the default database rather than the FDA database during Data extraction in Data Management activity.
 * To improve customer infrastructure capabilities, an SFTP proxy declaration is now available in the server configuration file.
-* Fixed a Client console crash when "adding a linked table" in the Data Loading (RDBMS) workflow activity with no table name. (NEO-12213)
-* Fixed an issue with the midEmetter package installation through command line.
+* Fixed a crash issue when the **Add linked table** field was empty in the **Data Loading (RDBMS)** workflow activity. (NEO-12213)
+* Fixed an issue with the midEmitter package installation through command line.
 * A new authentication option has been added to support OAuth credentials within the AC connector with Microsoft Dynamics. (NEO-11982)
-* Fixing issue with UUID (Unique Universal Identifier) cause enrichment activity to fail withHive FDA.
+* Fixed an issue with UUID (Unique Universal Identifier) management causing the Query and Data loading workflow activities to fail with Hive FDA.
 * Fixed a regression on Oracle causing some functions to be considered as invalid after postupgrade. (NEO-12759)
+* Fixed a regression leading to an incorrect time zone being picked when setting the time in a Scheduler workflow activity.
 
 ## ![](assets/do-not-localize/green_2.png) Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
