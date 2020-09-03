@@ -28,7 +28,7 @@ _3 September 2020_
 * Fixed an issue when using the File Transfer activity with an Azure external account and an SSL encryption. The connection was performed through HTTP instead of HTTPS. (NEO-26720)
 * In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]** for a better user experience.
 * Fixed an issue with the url cache mechanism which did not retrieve the label or category.
-* Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries (due to inproper ASCII character control). (NEO-26084)
+* Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries (due to improper ASCII character control). (NEO-26084)
 * The jarsToSkip list in catalina.properties has been updated to remove the reference to a jar file that was no longer used (iOS notifications).
 * Fixed a regresssion issue which prevented after publication after postupgrade.
 * Fixed a regression with out-of-the-box delivery reports which appeared truncated when exported to PDF. (NEO-25757)

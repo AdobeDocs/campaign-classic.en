@@ -25,7 +25,7 @@ _July 22, 2020_
 * Fixed an issue which prevented tracking from working when the signature feature was disabled. (NEO-26411)
 * Fixed an issue which led to unsigned links from personalized domains being blocked when they should be allowed. (NEO-25210)
 * Fixed an issue which could prevent you from opening/clicking tracking URLs when using certain legacy versions of Outlook. (NEO-25688)
-* Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries (due to inproper ASCII character control). (NEO-26084)
+* Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries (due to improper ASCII character control). (NEO-26084)
 * Fixed an issue with encoding URL management in the anti-phishing service. (NEO-25283)
 * Fixed an issue which prevented the tracking of URLs using fragments in personalization parameters (anchor tags with pound-sign) from working. (NEO-25774)
 * Fixed a tracking issue when using specific custom tracking formulas. (NEO-25277)
