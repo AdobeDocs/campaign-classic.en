@@ -16,7 +16,7 @@ snippet: y
 
 # Improving your reputation{#improve-reputation}
 
-To avoid exhausting your recipients, delete duplicate email addresses from your target. This step protects your sending reputation and ensures good quarantine management. Adobe Campaign offers the necessary tools to implement these recommendations and avoid the risk of being added to a block list by the ISP.
+To avoid exhausting your recipients, delete duplicate email addresses from your target. This step protects your sending reputation and ensures good quarantine management. Adobe Campaign offers the necessary tools to implement these recommendations and avoid the risk of being denylisted by the ISP.
 
 To avoid duplicates as much as possible, the following actions must be carried out:
 
@@ -38,7 +38,7 @@ Having duplicate email addresses can have multiple consequences:
 * The same message being sent more than once. Even if Campaign performs a deduplication procedure by default before sending, there is nothing to stop the same message being sent by different actions having the same content when a target is split.
 * Unsubscription requests not honored. If a recipient unsubscribes after receiving a message, their duplicate profile will still be eligible for future messages.
 
-Besides this side-stepping of opt-in procedures, this situation will likely lead users to consider the messages as spam and to trigger a block list procedure at the ISP.
+Besides this side-stepping of opt-in procedures, this situation will likely lead users to consider the messages as spam and to trigger a denylist procedure at the ISP.
 
 You must be especially prudent when performing operations on the database:
 

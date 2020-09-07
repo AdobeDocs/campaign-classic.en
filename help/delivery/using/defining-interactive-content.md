@@ -152,7 +152,7 @@ You can also consult the [Tips and known limitations for Gmail](https://develope
 AMP for Email being available as a beta capability, currently you can experiment sending an AMP email in two steps:
 
 1. Adobe Campaign enables you to test delivering an AMP-powered dynamic email to selected email addresses appropriately configured, in order to verify its contents and behavior. See [Testing AMP email delivery for selected addresses](#testing-amp-delivery-for-selected-addresses).
-1. Once tested, you can send a delivery or a campaign as part of the AMP for Email beta program by registering with the relevant email provider(s) to have your sender domain added to the allow list. See [Delivering AMP emails by registering with an email provider](#delivering-amp-emails-by-registering).
+1. Once tested, you can send a delivery or a campaign as part of the AMP for Email beta program by registering with the relevant email provider(s) to have your sender domain added to the allowlist. See [Delivering AMP emails by registering with an email provider](#delivering-amp-emails-by-registering).
 
 ### Testing AMP email delivery for selected addresses {#testing-amp-delivery-for-selected-addresses}
 
@@ -162,7 +162,7 @@ You can test sending dynamic messages from Adobe Campaign to selected email addr
 >
 >Currently only Gmail, Outlook and Mail.ru support testing the AMP format.
 
-For Gmail and Outlook, you must first add the sender address(es) you are using to the allow list to deliver from Adobe Campaign for the Gmail and Outlook accounts you are targeting.
+For Gmail and Outlook, you must first add the sender address(es) you are using to the allowlist to deliver from Adobe Campaign for the Gmail and Outlook accounts you are targeting.
 
 To do this:
 1. Make sure the option enabling dynamic email is checked for the relevant email provider(s).
@@ -176,7 +176,7 @@ To test sending an AMP email to a Mail.ru address, follow the steps from the [Ma
 
 ### Delivering AMP emails by registering with an email provider {#delivering-amp-emails-by-registering}
 
- You can experiment delivering dynamic emails by registering with the email providers that take part to the AMP beta program in order to have your sender domain added to the allow list.
+ You can experiment delivering dynamic emails by registering with the email providers that take part to the AMP beta program in order to have your sender domain added to the allowlist.
 
 >[!NOTE]
 >

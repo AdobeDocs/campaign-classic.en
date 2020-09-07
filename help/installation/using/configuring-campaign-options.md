@@ -88,7 +88,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> Regular expressions for normalizing delivery messages.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsBroadcast_RemoveBlockList</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsBroadcast_RemoveBlackList</span> <br /> </td> 
    <td> Entering "1" as the value lets you exclude recipients who no longer wish to be contacted.<br /> </td> 
   </tr> 
   <tr> 

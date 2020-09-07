@@ -36,6 +36,8 @@ You can:
 >
 >Data import in Campaign should be performed through workflows to secure data consistency and improve efficiency. For more on this, refer to the [Importing data](../../workflow/using/importing-data.md), [Import best practices](../../workflow/using/importing-data.md#best-practices-when-importing-data) and [Import template example](../../workflow/using/importing-data.md#setting-up-a-recurring-import) sections.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](../../platform/using/exporting-and-importing-profiles#create-list-video)
+
 ## Creating a job template {#creating-a-job-template}
 
 Import and export templates are stored in the **[!UICONTROL Resources > Templates > Job templates]** directory of the Adobe Campaign tree.
@@ -50,7 +52,7 @@ The procedure for creating a process template is presented in [Export wizard](..
 
 >[!NOTE]
 >
->The native template **[!UICONTROL Import block list]** is already configured to import a list of e-mail addresses which were added to the block list.
+>The native template **[!UICONTROL Import denylist]** is already configured to import a list of email addresses which were added to the denylist.
 > 
 >The **[!UICONTROL New text import]** and **[!UICONTROL New text export]** templates let you configure an import or export from scratch.
 

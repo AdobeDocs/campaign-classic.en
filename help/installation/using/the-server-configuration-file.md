@@ -568,8 +568,8 @@ For additional information, refer to [Restricting authorized external commands](
  </thead> 
  <tbody> 
   <tr> 
-   <td> blocklistFile<br /> </td> 
-   <td> Path to the file containing the commands to add to the allow list. <br /> </td> 
+   <td> blacklistFile<br /> </td> 
+   <td> Path to the file containing the commands to add to the allowlist. <br /> </td> 
    <td> String<br /> </td> 
   </tr> 
   <tr> 
@@ -3076,7 +3076,7 @@ For additional information, refer to [Dynamic page security and relays](../../in
   </tr> 
   <tr> 
    <td> status<br /> </td> 
-   <td> Synchronization status of a public resource (enumeration). Possible values are 'normal' (normal execution), 'blocklist' (url added to block list in case of error 404) and 'spare' (file upload on spare server if existing).<br /> </td> 
+   <td> Synchronization status of a public resource (enumeration). Possible values are 'normal' (normal execution), 'blacklist' (url added to denylist in case of error 404) and 'spare' (file upload on spare server if existing).<br /> </td> 
    <td> String<br /> </td> 
    <td> normal<br /> </td> 
   </tr> 
@@ -3134,19 +3134,19 @@ Here is the default configuration:
      timeout="" status="normal" httpAllowed="true" urlPath="/nl/jsp/s.jsp"/>
 
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/nms/jsp/*.jsp"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/nms/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/xtk/jsp/*.jsp"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/xtk/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/nl/jsp/*.jsp"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/nl/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="*.jssp"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="*.jssp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="true" urlPath="/webApp/*"/>
+     timeout="" status="blacklist" httpAllowed="true" urlPath="/webApp/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/report/*"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/report/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/jssp/*"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/jssp/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
      timeout="" status="normal" httpAllowed="false" urlPath="/strings/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"

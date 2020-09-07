@@ -58,7 +58,7 @@ To reach your recipients' inbox without bouncing or being marked as spam, you ne
 
 It is in your best interest to maintain good quarantine management processes.
 
-When starting to send emails on a new platform, you may use a list of addresses that are not fully qualified. If you send to invalid addresses or to honeypot addresses (mailboxes only created to trick spammers), this will start to diminish the reputation of your platform. Good quarantine management processes help to: maintain address quality, avoid block list by internet access providers, and reduce your error rate, speeding up deliveries and throughput.
+When starting to send emails on a new platform, you may use a list of addresses that are not fully qualified. If you send to invalid addresses or to honeypot addresses (mailboxes only created to trick spammers), this will start to diminish the reputation of your platform. Good quarantine management processes help to: maintain address quality, avoid denylist by internet access providers, and reduce your error rate, speeding up deliveries and throughput.
 
 **Tips**
 
@@ -69,7 +69,7 @@ When starting to send emails on a new platform, you may use a list of addresses 
 * Adobe Campaign manages erroneous addresses according to the type of error returned. For more on this, refer to [this section](../../delivery/using/understanding-quarantine-management.md).
 
 
-* Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to a block list by these providers.
+* Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being denylisted by these providers.
 
 * Quarantines management will also help reducing SMS sending costs by excluding erroneous phone numbers from deliveries. 
 

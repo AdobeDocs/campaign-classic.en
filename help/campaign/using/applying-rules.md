@@ -80,7 +80,7 @@ In standard operation mode, the rules are applied in the following sequence:
 1. Control rules, if they are applied at the start of targeting.
 1. Filtering rules:
 
-    * Native application rules for address qualification: defined address / non-verified address / address on the block list / quarantined address / address quality.
+    * Native application rules for address qualification: defined address / non-verified address / address on the denylist / quarantined address / address quality.
     * Filtering rules defined by the user.
     * Deduplication rule on the address or the identifier (applied if necessary).
 

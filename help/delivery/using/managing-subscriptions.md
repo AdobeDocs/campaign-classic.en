@@ -149,7 +149,7 @@ To register recipients for an information service, you can:
 
 email deliveries must contain an unsubscription link, by law. Recipients can click this link to update their profile and be excluded from the targets of future deliveries.
 
-The default unsubscription link is inserted via the last button in the toolbar of the content editor provided in the delivery wizard (see [About personalization](../../delivery/using/about-personalization.md)). When the recipient clicks this link, the profile is added to the block list (opt-out), meaning that this recipient will no longer be targeted by any delivery action.
+The default unsubscription link is inserted via the last button in the toolbar of the content editor provided in the delivery wizard (see [About personalization](../../delivery/using/about-personalization.md)). When the recipient clicks this link, the profile is denylisted (opt-out), meaning that this recipient will no longer be targeted by any delivery action.
 
 Recipients can, however, choose to unsubscribe from a service without unsubscribing from all services. To allow this, you can use a web form (refer to [this section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)) or insert a personalized unsubscription link (see [Personalization blocks](../../delivery/using/personalization-blocks.md)).
 

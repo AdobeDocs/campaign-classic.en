@@ -48,7 +48,7 @@ According to a Return Path study, re-engagement campaigns came out with a result
 ### Phase 1 {#phase-1}
 
 * The first step is to identify subscribers who have very little to no open or click activity, and accordingly segment this group based on a set time frame. The thumb rule is to review subscribers who have not opened or clicked an email within the last 90 days. However, this varies according to the nature of the business (for example, seasonal sending).
-* Another point to keep in mind while defining timeframes is that ISPs and block list companies consider engagement to be anywhere between 1.5 and 1.8 years. Additionally, behavioral activities such as purchases and website activity, or other touch points, such as preferences during the sign-up phase or first point of contact.
+* Another point to keep in mind while defining timeframes is that ISPs and denylist companies consider engagement to be anywhere between 1.5 and 1.8 years. Additionally, behavioral activities such as purchases and website activity, or other touch points, such as preferences during the sign-up phase or first point of contact.
 
 ### Phase 2 {#phase-2}
 
