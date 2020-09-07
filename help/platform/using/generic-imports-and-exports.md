@@ -36,7 +36,7 @@ You can:
 >
 >Data import in Campaign should be performed through workflows to secure data consistency and improve efficiency. For more on this, refer to the [Importing data](../../workflow/using/importing-data.md), [Import best practices](../../workflow/using/importing-data.md#best-practices-when-importing-data) and [Import template example](../../workflow/using/importing-data.md#setting-up-a-recurring-import) sections.
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](../../platform/using/exporting-and-importing-profiles#create-list-video)
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](../../platform/using/exporting-and-importing-profiles#import-profiles-video)
 
 ## Creating a job template {#creating-a-job-template}
 
