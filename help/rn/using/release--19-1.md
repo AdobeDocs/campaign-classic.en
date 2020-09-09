@@ -18,9 +18,9 @@ snippet: y
 
 # Release 19.1{#release-19-1}
 
-## ![](assets/do-not-localize/blue_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
+## ![](assets/do-not-localize/limited_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
 
-_3 September 2020_
+_9 September 2020_
 
 **Improvements**
 
