@@ -18,7 +18,20 @@ snippet: y
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel June release** with Active profiles monitoring, Subdomain deliverability audit and GPG keys management. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/blue_2.png) Release 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
+## ![](assets/do-not-localize/blue_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
+
+_September 11, 2020_
+
+* Fixed a regression causing delivery preparation to be blocked due to a single erroneous function on delivery part leading to memory overload. (NEO-27346)
+* Fixed a postupgrade issue which turned off Apache and the web server before the web application republication. (NEO-27155)
+* Fixed a regression on HTML template management leading to tracking URLs becoming visible due to a misintepretation of tabs. (NEO-25909)
+* Fixed an issue with the database cleanup workflow which could fail due to unmanaged data source. (NEO-23160, NEO-23364)
+* The cleanup workflow now purges expired lists by batches of 100 instead of one by one.
+* Fixed a regression which prevented you from modifying the internal name of an external account. (NEO-27323)
+* Fixing a regression during postupgrade causing an incorrect start of nlserver (error logs).
+* The update management for shared memory has been improved. The additional steps required in 20.2 are not needed anymore. 
+
+## ![](assets/do-not-localize/orange_2.png) Release 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
 _July 22, 2020_
 
