@@ -18,7 +18,7 @@ snippet: y
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel June release** with Active profiles monitoring, Subdomain deliverability audit and GPG keys management. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/orange_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
+## ![](assets/do-not-localize/blue_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
 _September 11, 2020_
 
