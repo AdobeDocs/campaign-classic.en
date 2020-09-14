@@ -90,6 +90,10 @@ The general layout of the Adobe Campaign explorer is presented in [Using Adobe C
 
 Active profiles are the profiles that are counted for billing purposes.
 
+>[!NOTE]
+>
+>Active profiles count is available for **Marketing instances** only. It is not available for Execution instances, meaning MID (mid sourcing) and RT (Message Center / Real-time messaging) instances.
+
 “**Profile**” means a record of information (e.g.: a record in the nmsRecipient table or an external table containing a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel) representing an end-customer, prospect, or lead.
 
 Billing only concerns profiles that are **active**. A profile is considered active if the profile has been targeted or communicated with in the past 12 months via any channel.
