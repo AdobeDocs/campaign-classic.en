@@ -159,7 +159,7 @@ While sending a delivery, you may face the following status on your delivery das
   </tr> 
   <tr> 
    <td> Ignored<br /> </td> 
-   <td> The delivery was not sent to the recipient because of an error with his address. It was either denylisted, quarantined, not provided or a duplicate. <br /> </td> 
+   <td> The delivery was not sent to the recipient because of an error with his address. It was either on denylist, quarantined, not provided or a duplicate. <br /> </td> 
   </tr> 
   <tr> 
    <td> Sent<br /> </td> 

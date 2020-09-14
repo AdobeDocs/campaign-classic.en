@@ -47,7 +47,7 @@ Confirmation messages are sent via a dedicated delivery template referenced at t
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. Since the recipients of this delivery haven't confirmed their approval, they are still on the database denylist. For them to receive this communication, you need to authorize deliveries based on this template to target denylisted recipients.
+1. Since the recipients of this delivery haven't confirmed their approval, they are still on the database denylist. For them to receive this communication, you need to authorize deliveries based on this template to target recipients on denylist.
 
    To do this, click the **[!UICONTROL Exclusions]** tab.
 
@@ -105,7 +105,7 @@ To do this, follow the steps below:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   The first **[!UICONTROL Script]** activity will add denylisted recipients until they confirmed their subscription to the newsletter. Its content must be as follows:
+   The first **[!UICONTROL Script]** activity will add recipients on denylist until they confirmed their subscription to the newsletter. Its content must be as follows:
 
    ```
    ctx.recipient.@blackList=1
@@ -169,7 +169,7 @@ Subscription to the newsletter involves the following steps:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is denylisted until they confirm their subscription with the email.
+   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is on denylist until they confirm their subscription with the email.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
@@ -183,7 +183,7 @@ Subscription to the newsletter involves the following steps:
 
    In Adobe Campaign, the user profile is updated:
 
-    * they are no longer denylisted,
+    * they are no longer on denylist,
     * they are subscribed to the information service.
     
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)

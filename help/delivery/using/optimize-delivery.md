@@ -69,7 +69,7 @@ When starting to send emails on a new platform, you may use a list of addresses 
 * Adobe Campaign manages erroneous addresses according to the type of error returned. For more on this, refer to [this section](../../delivery/using/understanding-quarantine-management.md).
 
 
-* Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being denylisted by these providers.
+* Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers.
 
 * Quarantines management will also help reducing SMS sending costs by excluding erroneous phone numbers from deliveries. 
 

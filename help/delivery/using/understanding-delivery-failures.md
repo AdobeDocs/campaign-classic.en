@@ -28,7 +28,7 @@ When a message (email, SMS, push notification) cannot be sent to a profile, the 
 
 Once a message is sent, the delivery logs allows you to view the delivery status for each profile and the associated failure type and reason.
 
-Messages can also be excluded during the delivery preparation if an address is quarantined or if a profile is denylisted. Excluded messages are listed in the delivery dashboard.
+Messages can also be excluded during the delivery preparation if an address is quarantined or if a profile is on denylist. Excluded messages are listed in the delivery dashboard.
 
 **Related topics:**
 
@@ -79,7 +79,7 @@ The possible reasons for a delivery failure are:
    <td> The quality rating for this address is too low.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Address denylisted </td> 
+   <td> Address on denylist </td> 
    <td> Hard </td> 
    <td> 8 </td> 
    <td> The address was added to the denylist at the time of sending. This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
@@ -200,7 +200,7 @@ A message can fail immediately (synchronous error), or later on, after it has be
   >
   >Configuration of the bounce mailbox is detailed in [this section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-  The [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) operates like bounce emails. When a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. Messages sent to users who have qualified an email as spam are automatically redirected towards an email box specifically created for this purpose. The addresses of these users are denylisted even though they didn't click the unsubscription link. Addresses are denylisted in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table.
+  The [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) operates like bounce emails. When a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. Messages sent to users who have qualified an email as spam are automatically redirected towards an email box specifically created for this purpose. The addresses of these users are on denylist even though they didn't click the unsubscription link. Addresses are in denylist in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table.
 
   >[!NOTE]
   >

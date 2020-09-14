@@ -45,9 +45,9 @@ If the problem persists, contact the commercial or deliverability services, Adob
 
 ## Denylist versus quarantine {#denylist-versus-quarantine}
 
-* **What is the difference between a denylisted email address and a quarantined email address?**
+* **What is the difference between a email address on denylist and a quarantined email address?**
 
-    * The status **[!UICONTROL Denylisted]** is a result of a feedback loop (when a person reports a message as spam).
+    * The status **[!UICONTROL On denylist]** is a result of a feedback loop (when a person reports a message as spam).
 
     * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
     
@@ -55,13 +55,13 @@ If the problem persists, contact the commercial or deliverability services, Adob
 
 * **What do the different quarantine error reasons mean?**
 
-    Here are 10 possible reasons: not defined, user unknown, invalid domain, denylisted, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
+    Here are 10 possible reasons: not defined, user unknown, invalid domain, on denylist, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
     
     For more on this, see [Understanding quarantine management](../../delivery/using/understanding-quarantine-management.md).
 
 ## Removing from denylist {#remove-from-denylist}
 
-* **One of my recipients was denylisted by mistake. How do I remove them from the denyist so that I can start sending them messages again?**
+* **One of my recipients was added to denylist by mistake. How do I remove them from the denyist so that I can start sending them messages again?**
 
     * Go to **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
     * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.

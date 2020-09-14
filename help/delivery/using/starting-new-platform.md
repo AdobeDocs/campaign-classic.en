@@ -20,7 +20,7 @@ Maintaining your domain and IP address reputation is essential when setting up a
 
 * Starting to send emails is a sensitive step because the platform does not have any history of use and, when the sending IPs have never been used for this purpose, no reputation.
 
-* ISPs are naturally suspicious of IP addresses that have never been used to send email and that suddenly start to send large volumes of email traffic. Indeed, spammers generally use "unknown" IP addresses (addresses that have never been denylisted) to send the largest possible number of messages before detection.
+* ISPs are naturally suspicious of IP addresses that have never been used to send email and that suddenly start to send large volumes of email traffic. Indeed, spammers generally use "unknown" IP addresses (addresses that have never been on denylist) to send the largest possible number of messages before detection.
 
 * You cannot expect to reach operational speed in terms of output at the very start of the production phase. Furthermore, you should not attempt to send messages at this rate as it might lead the ISPs to block the sending addresses and to severely compromise the rest of the start-up phase.
 

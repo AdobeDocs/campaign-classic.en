@@ -109,7 +109,7 @@ The following options are available:
 
 * **[!UICONTROL Delivery duration of messages]** : Beyond this time, the delivery is stopped (by default, 5 days),
 * **[!UICONTROL Online resources validity duration]** : Time for which information from the recipient profile is kept in order to generate mirror pages,
-* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** : When this option is selected, denylisted recipients will not be contacted,
+* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** : When this option is selected, on denylist recipients will not be contacted,
 * **[!UICONTROL Automatically ignore doubles]** : When this option is selected, delivery will not be made to duplicate addresses.
 
 ### Retry parameters {#retry-parameters}

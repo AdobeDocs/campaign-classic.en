@@ -30,7 +30,7 @@ Adobe Campaign manages a list of quarantined addresses. Recipients whose address
 
 The profiles whose email addresses or phone number are in quarantine are automatically excluded during message preparation (see [Identifying quarantined addresses for a delivery](#identifying-quarantined-addresses-for-a-delivery)). This will speed up deliveries, as the error rate has a significant effect on delivery speed.
 
-Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being denylisted by these providers.
+Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers.
 
 Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries. For more on best practices to secure and optimize your deliveries, refer to [this page](../../delivery/using/delivery-best-practices.md) .
 
@@ -116,7 +116,7 @@ Their status then changes to **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
 >
->Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL Denylisted]** status will never be removed, even if they receive an email.
+>Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL On denylist]** status will never be removed, even if they receive an email.
 
 You can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the deployment wizard (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). For more on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md).
 
