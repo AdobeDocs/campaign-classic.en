@@ -24,7 +24,6 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 * A note has been added to specify that Active profiles count is available for Marketing instances only. [Read more](../../platform/using/about-profiles.md#active-profiles)
 
-
 ## August 2020 {#aug-2020}
 
 Learn best practices related to delivery design and sending with Campaign in a dedicated section. [Read more](../../delivery/using/delivery-best-practices.md)
