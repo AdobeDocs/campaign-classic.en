@@ -38,14 +38,14 @@ _July 22, 2020_
 * Fixed an issue which prevented tracking from working when the signature feature was disabled. (NEO-26411)
 * Fixed an issue which led to unsigned links from personalized domains being blocked when they should be allowed. (NEO-25210)
 * Fixed an issue which could prevent you from opening/clicking tracking URLs when using certain legacy versions of Outlook. (NEO-25688)
-* Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries. (NEO-26084)
+* Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries (due to improper ASCII character control). (NEO-26084)
 * Fixed an issue with encoding URL management in the anti-phishing service. (NEO-25283)
 * Fixed an issue which prevented the tracking of URLs using fragments in personalization parameters (anchor tags with pound-sign) from working. (NEO-25774)
 * Fixed a tracking issue when using specific custom tracking formulas. (NEO-25277)
 Fixed an issue which prevented the tracking of "notification clicks" from working (iOS and Android push notifications). (NEO-25965)
-* Fixed a regression impacting calculated fields in a workflow. (NEO-25194)
+* Fixed a regression impacting calculated fields in a workflow causing the workflow to fail. (NEO-25194)
 * Fixed a regression which prevented the on-the-fly creation of web tracking URLs from working. (NEO-20999)
-* Fixed an issue with out-of-the-box delivery reports which appeared truncated when exported to PDF. (NEO-25757)
+* Fixed a regression issue with out-of-the-box delivery reports which appeared truncated when exported to PDF. (NEO-25757)
 * Fixed a crash issue in the deployment wizard.
 * Fixed an issue which could prevent the Offer notification workflow from properly working after a postupgrade.
 * The iOS HTTP2 connector has been improved (third-party updates and error management). (NEO-25904, NEO-25903)
@@ -233,7 +233,7 @@ An example for Linux is available on this [page](../../configuration/using/addit
 * Fixed an issue which could affect push notifications when sent at a high frequency. (NEO-20516)
 * Fixed an issue that caused the tracking data to include duplicates even though the tracking logs did not. (NEO-20040)
 * Fixed an issue that caused duplicate transactional emails to be sent after a tracking server communication failure was fixed. (NEO-23640)
-* Fixed an issue that deleted the encoding parameter value when redirecting from a tracking URL. (NEO-25637)
+* Fixed an issue that deleted the encoding parameter value when redirecting from a tracking URL (impact on Japanese characters). (NEO-25637)
 * Fixed an issue that could prevent a query from working when comparing float numbers. (NEO-23243)
 * Fixed an issue that could prevent the **Modified by** column content from displaying after restarting a workflow. (NEO-23035)
 * Fixed an issue that caused the tracking technical workflow to fail when downloading logs from a second container. (NEO-23159)
@@ -243,7 +243,7 @@ An example for Linux is available on this [page](../../configuration/using/addit
 * Fixed an issue with additional storage fields when creating deliveries through the **Computed by a script** option in the **Script** workflow activity. (NEO-20609)
 * Fixed an issue that prevented ghost workflows from being deleted within the database cleanup tasks.
 * Fixed an issue which caused the **Billing (active profiles)** technical workflow to fail. (NEO-19777)
-* Fixed an issue when testing the connection of the acsDefaultAccount external account. (NEO-23433)
+* Fixed a regression issue when using the ACS Connector feature which prevented the connection to a Campaign Standard instance (incorrect management of the FOH/FOH2 connection). (NEO-23433)
 * Fixed an issue which prevented you from to creating a schema extension on a primary key with multiple columns with a Hadoop table. (NEO-17390)
 * Fixed an issue in the **Loading (SOAP)** activity that could prevent WSDL files from being loaded from a URL. (NEO-16924)
 * Fixed an issue which prevented you from performing an **Unconditional stop** through the console when multiple active workflow servers were load balanced. (NEO-19556)
@@ -255,6 +255,6 @@ An example for Linux is available on this [page](../../configuration/using/addit
 * Fixed an issue that could display a delivery twice in the delivery list after it was sent.
 * Fixed an issue with delivery preparation that could occur when the routing configuration was set to send the delivery via mid-sourcing.
 * Fixed an issue that could display an error message when clicking a web application link within a Line message.
-* Fixed an issue that could prevent Microsoft Dynamics CRM from retrieving all entities. (NEO-24528)
 * Fixed an issue that deleted the **Incremental query** activity history after running the cleanup workflow.
-* Fixed an issue when creating a mid-sourcing external account where the NmsMidSourcing_LastBroadLog_&lt;InternalName&gt; option was missing
+* Fixed an issue when creating a mid-sourcing external account where the NmsMidSourcing_LastBroadLog_&lt;InternalName&gt; option was missing.
+* Fixed a regression issue on database connection causing the web server to constantly restart due to a database encoding problem. This could lead to overconsumption. (NEO-23264)
