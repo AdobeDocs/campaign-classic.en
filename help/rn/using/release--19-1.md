@@ -46,6 +46,8 @@ _9 September 2020_
 * Improved the performance of the database update wizard to make fewer SQL statements in order to optimize response time.
 * Fixed a console crash issue that could occur when unchecking tracked URLs in an email, from the **Text content** tab due to a non-initialized variable. (NEO-13545)
 * Fixed an issue which prevented you from uploading files in a File Transfer activity using an Azure Blob Storage external account due to a non-initialized variable (m_pCurlReader). (NEO-13717)
+* Fixed a postupgrade issue which turned off Apache and the web server before the web application republication. (NEO-27155)
+* (NEO-17108)
 
 ## ![](assets/do-not-localize/orange_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
