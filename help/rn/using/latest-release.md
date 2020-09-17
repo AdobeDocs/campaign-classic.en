@@ -42,7 +42,7 @@ _July 22, 2020_
 * Fixed an issue with encoding URL management in the anti-phishing service. (NEO-25283)
 * Fixed an issue which prevented the tracking of URLs using fragments in personalization parameters (anchor tags with pound-sign) from working. (NEO-25774)
 * Fixed a tracking issue when using specific custom tracking formulas. (NEO-25277)
-Fixed an issue which prevented the tracking of "notification clicks" from working (iOS and Android push notifications). (NEO-25965)
+* Fixed an issue which prevented the tracking of "notification clicks" from working (iOS and Android push notifications). (NEO-25965)
 * Fixed a regression impacting calculated fields in a workflow causing the workflow to fail. (NEO-25194)
 * Fixed a regression which prevented the on-the-fly creation of web tracking URLs from working. (NEO-20999)
 * Fixed a regression issue with out-of-the-box delivery reports which appeared truncated when exported to PDF. (NEO-25757)
