@@ -1,15 +1,16 @@
 ---
 product: Adobe Campaign Classic
 audience: end-user
-user-guide-title: Adobe Campaign Classic Help
+user-guide-title: Adobe Campaign Classic Guide
 breadcrumb-title: Campaign Classic Guide
-user-guide-description: Adobe Campaign lets you coordinate the creation of conversational marketing campaigns. Adobe Campaign has innovative features to model, streamline, and automate marketing and customer communication processes.
+breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
+user-guide-description: Design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment.
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 ---
 
-# Adobe Campaign Classic Help {#using}
+# Adobe Campaign Classic Guide {#using}
 
 + [Product documentation](campaign-classic-home.md)
 + [Latest updates](rn/using/documentation-updates.md)
