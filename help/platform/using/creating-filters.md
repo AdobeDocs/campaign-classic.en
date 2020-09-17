@@ -272,7 +272,7 @@ The predefined filters are:
    <td> Selects recipients who have clicked in a delivery at least X times in the last Y months.<br /> </td> 
   </tr> 
   <tr> 
- <td> Email address on denylist<br /> </td> 
+ <td> Denylisted email address<br /> </td> 
     <td> Selects recipients whose email address is on the denylist.<br/> </td>
   </tr> 
   <tr> 

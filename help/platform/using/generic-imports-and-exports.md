@@ -42,8 +42,6 @@ You can:
 
 Import and export templates are stored in the **[!UICONTROL Resources > Templates > Job templates]** directory of the Adobe Campaign tree.
 
-![](assets/s_ncs_user_export_wizard_template.png)
-
 By default, three import templates and one export template are present in this directory. They must not be modified. You can duplicate them to create your own templates or create a new template via the **[!UICONTROL New > Import template]** / **[!UICONTROL Export template]** menu.
 
 ![](assets/s_ncs_user_export_wizard_template_create.png)

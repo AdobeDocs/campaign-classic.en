@@ -79,7 +79,7 @@ The possible reasons for a delivery failure are:
    <td> The quality rating for this address is too low.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Address on denylist </td> 
+   <td> Denylisted address </td> 
    <td> Hard </td> 
    <td> 8 </td> 
    <td> The address was added to the denylist at the time of sending. This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
