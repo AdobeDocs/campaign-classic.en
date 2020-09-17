@@ -104,7 +104,7 @@ To manually remove an address from the quarantine list:
 
   ![](assets/tech_quarant_error_status.png)
 
-* You can also change its status to **[!UICONTROL On allowlist]**. In this case, the address remains on the quarantine list, but it will be systematically targeted, even if an error is encountered.
+* You can also change its status to **[!UICONTROL Allowlisted]**. In this case, the address remains on the quarantine list, but it will be systematically targeted, even if an error is encountered.
 
 The addresses are automatically removed from the quarantine list in the following cases:
 
