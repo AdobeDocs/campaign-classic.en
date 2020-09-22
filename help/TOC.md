@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign Classic
 audience: end-user
 user-guide-title: Adobe Campaign Classic Guide
 breadcrumb-title: Campaign Classic Guide
@@ -8,6 +7,7 @@ user-guide-description: Design, plan, execute, manage, and optimize cross-channe
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
+type: Documentation
 ---
 
 # Adobe Campaign Classic Guide {#using}
