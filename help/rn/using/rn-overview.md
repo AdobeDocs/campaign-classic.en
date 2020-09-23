@@ -28,7 +28,7 @@ Starting Campaign Classic 19.2, a status is associated to each build. You'll fin
 
 ![](assets/do-not-localize/green3.png) **General Availability** - Latest stable build available. Build validated in production. 
 
-The **last stable build** is Gold Standard 6. Click [here](../../rn/using/gold-standard.md)
+The **last stable build** is Gold Standard 10. Click [here](../../rn/using/gold-standard.md#gs-10)
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability** - Build currently in production validation. On demand deployment only.
 
@@ -42,7 +42,7 @@ The **last stable build** is Gold Standard 6. Click [here](../../rn/using/gold-s
 
 As a hosted customer (Managed Service or Hybrid), you need to reach out to the Customer Care team to have your environment upgraded.
 
-As a Gold Standard user, you will automatically benefit from the Gold Standard upgrade with the latest stable version without any action. [Learn more](https://helpx.adobe.com/campaign/kb/gold-standard.html#gs-6) 
+As a Gold Standard user, you will automatically benefit from the Gold Standard upgrade with the latest stable version without any action. [Learn more](https://helpx.adobe.com/campaign/kb/gold-standard.html#gs-10) 
 
 As an on-premise user, you can perform the upgrade. To do this, you need to [download the latest stable build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and upgrade all your environments. Learn more on the [upgrade process](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html), and consult the [build upgrade FAQ](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html).
 
