@@ -1,7 +1,7 @@
 ---
-title: Configuring the mobile application in Adobe Campaign
-seo-title: Configuring the mobile application in Adobe Campaign
-description: Configuring the mobile application in Adobe Campaign
+title: Configuring the mobile application in Adobe Campaign with iOS
+seo-title: Configuring the mobile application in Adobe Campaign with iOS
+description: Configuring the mobile application in Adobe Campaign with iOS
 seo-description: 
 page-status-flag: never-activated
 uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
@@ -16,9 +16,11 @@ internal: n
 snippet: y
 ---
 
-# Configuring the mobile application in Adobe Campaign {#configuring-the-mobile-application-in-adobe-campaign}
+# Configuring the mobile application in Adobe Campaign with iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
-You can find below a configuration sample based on a company which sells online holiday packages. His mobile application (Neotrips) is available to its customers in two versions: Neotrips for Android and Neotrips for iOS. To configure the mobile application in Adobe Campaign, you need to:
+You can find below a configuration sample based on a company which sells online holiday packages. His mobile application (Neotrips) is available to its customers in two versions: Neotrips for Android and Neotrips for iOS.  For more information on how to configure your Android mobile application in Adobe Campaign, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md).
+
+To configure the mobile application in Adobe Campaign, you need to:
 
 * Create a **[!UICONTROL Mobile application]** type information service for the Neotrips mobile application.
 * Add the iOS and Android versions of the application to this service.
@@ -30,15 +32,7 @@ You can find below a configuration sample based on a company which sells online 
 >
 >Go to the **[!UICONTROL Subscriptions]** tab of the service to view the list of subscribers to the service, i.e. all people who have installed the application on their mobile and agreed to receive notifications.
 
-## Configuring the mobile application with iOS {#configuring-the-mobile-application-ios}
-
->[!CAUTION]
->
->The application must have been configured for Push actions BEFORE any integration to Adobe Campaign SDK.
->
->If this is not the case, please refer to [this page](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/).
-
-### Step 1: Installing the package {#installing-package-ios}
+## Installing the package {#installing-package-ios}
 
 1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Package import...]** in the Adobe Campaign client console.
 
@@ -58,7 +52,7 @@ You can find below a configuration sample based on a company which sells online 
 
 1. **[!UICONTROL Close]** the installation window.
 
-### Step 2: Configuring iOS external account {#configuring-external-account-ios}
+## Configuring iOS external account {#configuring-external-account-ios}
 
 For iOS, two connectors are available:
 
@@ -83,7 +77,13 @@ To choose which connector you want to use, follow these steps:
 
 Your iOS connector is now configured. You can start creating your service.
 
-### Step 3: Configuring iOS service {#configuring-ios-service}
+## Configuring iOS service {#configuring-ios-service}
+
+>[!CAUTION]
+>
+>The application must have been configured for Push actions BEFORE any integration to Adobe Campaign SDK.
+>
+>If this is not the case, please refer to [this page](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/).
 
 1. Go to the **[!UICONTROL Profiles and Targets > Services and subscriptions]** node and click **[!UICONTROL New]**.
 
@@ -143,7 +143,7 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
 1. Click **[!UICONTROL Finish]**. Your iOS application is now ready to be used in Campaign Classic.
 
-### Step 4: Creating an iOS rich notification {#creating-ios-delivery}
+## Creating an iOS rich notification {#creating-ios-delivery}
 
 With iOS 10 or higher, it is possible to generate rich notifications. Adobe Campaign can send notifications using variables that will allow the device to display a rich notification.
 
@@ -179,134 +179,3 @@ You now need to create a new delivery and link it to the mobile application that
 The image and web page should be displayed in the push notification when received on the subscribers' mobile iOS devices.
 
    ![](assets/nmac_ios_8.png)
-
-## Configuring the mobile application with Android {#configuring-the-mobile-application-android}
-
-### Step 1: Installing the package {#installing-package-android}
-
-1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Package import...]** in the Adobe Campaign client console.
-
-   ![](assets/package_ios.png)
-
-1. Select **[!UICONTROL Install a standard package]**.
-
-1. In the list that appears, check **[!UICONTROL Mobile App Channel]**.
-
-   ![](assets/package_ios_2.png)
-
-1. Click **[!UICONTROL Next]**, then **[!UICONTROL Start]** to start the package installation.
-
-   Once the packages are installed, the progress bar shows **100%** and you can see the following message in the installation logs: **[!UICONTROL Installation of packages successful]**.
-
-   ![](assets/package_ios_3.png)
-
-1. **[!UICONTROL Close]** the installation window.
-
-### Step 2: Configuring Android external account {#configuring-external-account-android}
-
-For Android, two connectors are available:
-
-* The V1 connector which allows one connection per MTA child. 
-* The V2 connector which allows simultaneous connections to the FCM server to improve throughput.
-
-To choose which connector you want to use, follow these steps:
-
-1. Go to **[!UICONTROL Administration > Platform > External accounts]**.
-1. Select the **[!UICONTROL Android routing]** external account.
-1. In the **[!UICONTROL Connector]** tab, fill in the **[!UICONTROL JavaScript used in the connector]** field:
-
-   For Android V2: https://localhost:8080/nms/jsp/androidPushConnectorV2.js
-
-   >[!NOTE]
-   >
-   > You can also configure it as follow https://localhost:8080/nms/jsp/androidPushConnector.js but we advise you to use version 2 of the connector.
-
-   ![](assets/nmac_connectors3.png)
-
-1. For Android V2, one additional parameter is available in the Adobe Server configuration file (serverConf.xml):
-
-    * **maxGCMConnectPerChild**: Maximum limit of parallel HTTP requests to the FCM initiated by each child server (8 by default).
-
-### Step 3: Configuring Android service {#configuring-android-service}
-
-1. Go to the **[!UICONTROL Profiles and Targets > Services and subscriptions]** node and click **[!UICONTROL New]**.
-
-   ![](assets/nmac_service_1.png)
-
-1. Define a **[!UICONTROL Label]** and an **[!UICONTROL Internal name]**.
-1. Go to the **[!UICONTROL Type]** field and select **[!UICONTROL Mobile application]**.
-
-   >[!NOTE]
-   >
-   >The default **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the **[!UICONTROL Target mapping]** field of the service. For more on creating target mapping, refer to the [Configuration guide](../../configuration/using/about-custom-recipient-table.md).
-
-   ![](assets/nmac_ios.png)
-
-1. Then click the **[!UICONTROL Add]** button to select the application type.
-
-   ![](assets/nmac_service_2.png)
-
-1. Select **[!UICONTROL Create an Android application]**.
-
-   ![](assets/nmac_android.png)
-
-1. Enter a **[!UICONTROL Label]**.
-
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to: [Integrating Campaign SDK into the mobile application](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md).
-
-    >[!NOTE]
-    >
-    > The **[!UICONTROL Integration key]** is fully customizable with string value but needs to be exactly the same as the one specified in the SDK.
-
-1. Select one of the out-of-the-box icon from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
-
-1. Enter the application's connection settings: enter the project key that was provided by the developer of the mobile application.
-
-1. As an option, you can enrich a push message content with some **[!UICONTROL Application variables]** if needed. These are fully customizable and a part of the message payload sent to the mobile device.
-
-   In the following example, we add **title**, **imageURL** and **iconURL** to create rich push notification and then provides the application with the image, title and icon to display within the notification.
-
-   ![](assets/nmac_android_2.png)
-
-1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. Your Android application is now ready to be used in Campaign Classic.
-
-By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (@userKey) field of the **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** table. This key enables you to link a subscription to a recipient. To collect additional data (such as a complex reconciliation key), you need to apply the following configuration:
-
-1. Create an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema and define the new fields.
-1. Define the mapping in the **[!UICONTROL Subscription parameters]** tab.
-   >[!CAUTION]
-   >
-   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to the [Integrating Campaign SDK into the mobile application](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) section.
-
-### Step 4: Creating an Android rich notification {#creating-android-delivery}
-
-You now need to create a new delivery and link it to the mobile application that you created.
-
-1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
-
-1. Click **[!UICONTROL New]**.
-
-    ![](assets/nmac_android_3.png)
-
-1. Select **[!UICONTROL Deliver on Android (android)]** in the **[!UICONTROL Delivery template]** drop-down. Add a **[!UICONTROL Label]** to your delivery.
-
-1. Click **[!UICONTROL To]** to define the population to target. By default, the **[!UICONTROL Subscriber application]** target mapping is applied. Click **[!UICONTROL Add]** to select our previously created service.
-
-    ![](assets/nmac_android_7.png)
-
-1. In the **[!UICONTROL Target type]** window, select Subscribers of an Android mobile application and click **[!UICONTROL Next]**.
-
-1. In the **[!UICONTROL Service]** drop-down, select your previously created service then application and click **[!UICONTROL Finish]**.
-    The **[!UICONTROL Application variables]** are automatically added depending on what was added during the configuration steps.
-
-    ![](assets/nmac_android_6.png)
-
-1. Edit your rich notification.
-
-    ![](assets/nmac_android_5.png)
-
-1. Click **[!UICONTROL Save]** and send your delivery.
-
-The image and web page should be displayed in the push notification when received on the subscribers' mobile Android devices.
-
-![](assets/nmac_android_4.png)
