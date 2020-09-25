@@ -105,8 +105,8 @@ To choose which connector you want to use, follow these steps:
     > The **[!UICONTROL Integration key]** is fully customizable with string value but needs to be exactly the same as the one specified in the SDK.
 
 1. Select one of the out-of-the-box icon from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
-   * HTTP. For more information refer to this section.
-   * HTTPV1. For more information refer to this section.
+   * HTTP. For more information refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
+   * HTTPV1. For more information refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
 
 1. Fill in the Firebase Cloud Messaging settings for the Android connection.
 
