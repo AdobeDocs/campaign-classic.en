@@ -130,7 +130,6 @@ By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (
 | notification  message|  title, body, android_channel_id, icon, sound, tag, color, click_action	 <br> | dryRun |
 
 <br>
-<br>
 
 After creating service and a new mobile application, you need to configure your mobile application depending on the chosen API version.
 For more information on service and mobile application creations, refer to this section.
@@ -164,9 +163,9 @@ For more information on service and mobile application creations, refer to this 
 1. Click **[!UICONTROL Load project json file to extract projet details]** to load directly your json file.
 
 1. You can also enter manually the following details:
-   * Project ID
-   * Private key
-   * Client email
+   * **[!UICONTROL Project ID]**
+   * **[!UICONTROL Private key]**
+   * **[!UICONTROL Client email]**
 
 1. Click **[!UICONTROL Test connection]** to check that your configuration is correct and that the marketing server has access to the FCM.
 
@@ -176,15 +175,24 @@ For more information on service and mobile application creations, refer to this 
 
 1. As an option, you can enrich a push message content with some **[!UICONTROL Application variables]** if needed. These are fully customizable and a part of the message payload sent to the mobile device.
 
-   In the following example, we add **title**, **imageURL** and **iconURL** to create rich push notification and then provides the application with the image, title and icon to display within the notification.
-
    ![](assets/nmac_android_2.png)
 
 1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. Your Android application is now ready to be used in Campaign Classic.
 
 ## Creating an Android rich notification {#creating-android-delivery}
 
-You now need to create a new delivery and link it to the mobile application that you created.
+With Firebase Cloud Messaging, you can choose between two types of messages:
+
+* **[!UICONTROL Data message]**, handled by the client app.
+   <br>Messages are sent directly to the mobile application which will generate and display the android notification to the device. Data messages contain only your custom application variables.
+
+* **[!UICONTROL Notification message]**, handled automatically by the FCM SDK.
+   <br> FCM automatically displays the message on your users' devices on behalf of the client app. Notification messages contain a predefined set of parameters and options but can still be further personalized with custom application variables.
+
+For more information on Firebase Cloud Messaging messages types, refer to [FCM documentation](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages
+).
+
+### Creating a data message {#creating-data-message}
 
 1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 
@@ -194,7 +202,7 @@ You now need to create a new delivery and link it to the mobile application that
 
 1. Select **[!UICONTROL Deliver on Android (android)]** in the **[!UICONTROL Delivery template]** drop-down. Add a **[!UICONTROL Label]** to your delivery.
 
-1. Click **[!UICONTROL To]** to define the population to target. By default, the **[!UICONTROL Subscriber application]** target mapping is applied. Click **[!UICONTROL Add]** to select our previously created service.
+1. Click **[!UICONTROL To]** to define the population to target. By default, the **[!UICONTROL Subscriber application]** target mapping is applied. Click **[!UICONTROL Add]** to select your service.
 
     ![](assets/nmac_android_7.png)
 
@@ -205,6 +213,8 @@ You now need to create a new delivery and link it to the mobile application that
 
     ![](assets/nmac_android_6.png)
 
+1. Select **[!UICONTROL data message]**.
+
 1. Edit your rich notification.
 
     ![](assets/nmac_android_5.png)
@@ -214,3 +224,23 @@ You now need to create a new delivery and link it to the mobile application that
 The image and web page should be displayed in the push notification when received on the subscribers' mobile Android devices.
 
 ![](assets/nmac_android_4.png)
+
+### Creating a notification message {#creating-notification-message}
+
+   >[!NOTE]
+   >
+   >Additional options for notification message are only available with HTTPV1 configuration. For more on this, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+
+1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
+
+1. Click **[!UICONTROL New]**.
+
+    ![](assets/nmac_android_3.png)
+
+1. Select **[!UICONTROL Deliver on Android (android)]** in the **[!UICONTROL Delivery template]** drop-down. Add a **[!UICONTROL Label]** to your delivery.
+
+1. Click **[!UICONTROL To]** to define the population to target. By default, the **[!UICONTROL Subscriber application]** target mapping is applied. Click **[!UICONTROL Add]** to select your service
+
+    ![](assets/nmac_android_7.png)
+
+1. Select **[!UICONTROL notification message]**.
