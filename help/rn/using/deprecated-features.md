@@ -125,7 +125,7 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 Starting 20.2 release, the following systems are deprecated for Campaign Classic. Compatibility will end in 20.3 release - October 2020.
 
 * Client Console: Windows 7
-* Legacy SMS connectors (see [Deprecated features](#deprecated-features)
+* Legacy SMS connectors - see [Deprecated features](#deprecated-features)
 * DB2 UDB 10.5 for Federated Data Access (FDA)
 
 ### Adobe Campaign 19.2 release  {#compat-19-2-release}
