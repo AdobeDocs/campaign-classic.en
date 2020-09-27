@@ -75,5 +75,5 @@ Refer to these sections to find guidance and best practices to automate processe
 * Discover how to use workflows to import data in Campaign in [this section](../../workflow/using/importing-data.md).
 * Workflow best practices are detailed in [this page](../../workflow/using/workflow-best-practices.md).
 * Find guidance about workflow execution in [this section](../../workflow/using/starting-a-workflow.md).
-* Learn how to monitor workflows in [this page](../../workflow/using/monitoring-workflow-execution).
+* Learn how to monitor workflows in [this page](../../workflow/using/monitoring-workflow-execution.md).
 * Learn how to grant access to users to use workflows in [this page](../../workflow/using/managing-rights.md).
