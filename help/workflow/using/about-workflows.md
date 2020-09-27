@@ -14,9 +14,9 @@ internal: n
 snippet: y
 ---
 
-# Get started with workflows{#about-workflows}
+# Get started with workflows{#gs-workflows}
 
-## About workflows
+## About workflows{#about-workflows}
 
 Adobe Campaign includes a workflow module that empowers you to orchestrate the full range of processes and tasks across the different modules of the application server. This comprehensive graphical environment lets you design processes including segmentation, campaign execution, file processing, human participation, etc. The workflow engine executes and tracks these processes.
 
@@ -66,7 +66,7 @@ Each workflow contains:
 
   Learn more on workflow data and tables in [this section](../../workflow/using/how-to-use-workflow-data.md).
 
-## Key principles and best practices
+## Key principles and best practices{#principles-workflows}
 
 Refer to these sections to find guidance and best practices to automate processes with workflows:
 

@@ -30,7 +30,7 @@ type: Documentation
     + [Compatibility Matrix](rn/using/compatibility-matrix.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
-       + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
+       + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
        + [Privacy and consent](platform/using/privacy-and-recommendations.md)
        + [Launching Adobe Campaign](platform/using/launching-adobe-campaign.md)
        + [Adobe Campaign workspace](platform/using/adobe-campaign-workspace.md)
@@ -259,7 +259,7 @@ type: Documentation
        + [Use case: displaying report on answers to an online survey](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Designing web content {#designing-content}
   + Web applications {#web-applications}
-       + [About web applications](web/using/about-web-applications.md)
+       + [Get started with web applications](web/using/about-web-applications.md)
        + [Creating a new web application](web/using/creating-a-new-web-application.md)
        + [Designing a web application](web/using/designing-a-web-application.md)
        + [Use cases: creating overviews](web/using/use-cases--creating-overviews.md)
@@ -335,7 +335,7 @@ type: Documentation
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
 + Automating with Workflows {#automating-with-workflows}
   + Introduction {#introduction}
-       + [About workflows](workflow/using/about-workflows.md)
+       + [Get started with workflows](workflow/using/about-workflows.md)
        + [About activities](workflow/using/about-activities.md)
   +  General operation {#general-operation}
        + [Building a workflow](workflow/using/building-a-workflow.md)
@@ -471,7 +471,7 @@ type: Documentation
        + [Transfer to Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
        + [Mid-sourcing platform](workflow/using/mid-sourcing-platform.md)
 + Managing Offers {#managing-offers}
-  + Interaction Overview {#interaction-overview}
+  + Get started with Interaction {#interaction-overview}
        + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
        + [Glossary](interaction/using/glossary.md)
        + [Interaction best practices](interaction/using/interaction-best-practices.md)
@@ -523,7 +523,7 @@ type: Documentation
        + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
 + Transactional Messaging {#transactional-messaging}
   + Introduction {#introduction}
-       + [About transactional messaging](message-center/using/about-transactional-messaging.md)
+       + [Get started with transactional messaging](message-center/using/about-transactional-messaging.md)
        + [Transactional messaging architecture](message-center/using/transactional-messaging-architecture.md)
        + [Event description](message-center/using/event-description.md)
   + Instance configuration {#instance-configuration}
