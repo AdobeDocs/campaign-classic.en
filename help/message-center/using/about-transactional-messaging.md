@@ -1,8 +1,6 @@
 ---
 title: About transactional messaging
-seo-title: About transactional messaging
-description: About transactional messaging
-seo-description: 
+description: Send trigger messages based on events generated from information systems. 
 page-status-flag: never-activated
 uuid: c854daac-8756-44f3-a4e2-be31177ab9d1
 contentOwner: sauviat

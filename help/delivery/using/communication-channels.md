@@ -1,7 +1,7 @@
 ---
 title: Communication channels
 seo-title: Communication channels
-description: Communication channels
+description: Create deliveries to send personalized messages on different channels.
 seo-description: 
 page-status-flag: never-activated
 uuid: 42975431-64c9-4ecb-98ed-b1f9b13c157e

@@ -1,7 +1,7 @@
 ---
 title: Designing marketing campaigns
 seo-title: Designing marketing campaigns
-description: Designing marketing campaigns
+description: Define, optimize, execute and analyse marketing campaigns.
 seo-description: 
 page-status-flag: never-activated
 uuid: e0fd5df6-7516-4ca6-bbdf-243a264d0283

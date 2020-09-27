@@ -1,8 +1,6 @@
 ---
 title: About web applications
-seo-title: About web applications
-description: About web applications
-seo-description: 
+description: Create and share dynamic Web applications, landing pages and surveys.
 page-status-flag: never-activated
 uuid: acfa6e5e-b503-4a1a-871e-e70007874f57
 contentOwner: sauviat
@@ -16,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# About web applications{#about-web-applications}
+# Get started with web applications{#about-web-applications}
 
 Adobe Campaign lets you create and publish dynamic and interactive Web applications with data from the database and content adapted to the rights of the connected user. 
 
