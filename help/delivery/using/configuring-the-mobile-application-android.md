@@ -24,6 +24,8 @@ You can find below a configuration sample based on a company which sells online 
 * Add the iOS and Android versions of the application to this service.
 * Create a delivery for both iOS and Android.
 
+To learn more on how to configure Neotrips for iOS and how to create a delivery for iOS, refer to this [page](../../delivery/using/configuring-the-mobile-application.md).
+
 ![](assets/nmac_service_diagram.png)
 
 >[!NOTE]
@@ -219,6 +221,8 @@ For more information on Firebase Cloud Messaging messages types, refer to [FCM d
 
     ![](assets/nmac_android_5.png)
 
+1. You can add your previously configured **[!UICONTROL Application variables]** if needed. **[!UICONTROL Application variables]** needs to be configured in the Android service and are a part of the message payload sent to the mobile device.
+
 1. Click **[!UICONTROL Save]** and send your delivery.
 
 The image and web page should be displayed in the push notification when received on the subscribers' mobile Android devices.
@@ -244,3 +248,15 @@ The image and web page should be displayed in the push notification when receive
     ![](assets/nmac_android_7.png)
 
 1. Select **[!UICONTROL notification message]**.
+
+1. Edit your rich notification.
+
+    ![](assets/nmac_android_5.png)
+
+1. You can add your previously configured **[!UICONTROL Application variables]** if needed. **[!UICONTROL Application variables]** needs to be configured in the Android service and are a part of the message payload sent to the mobile device.
+
+1. Click **[!UICONTROL Save]** and send your delivery.
+
+The image and web page should be displayed in the push notification when received on the subscribers' mobile Android devices.
+
+![](assets/nmac_android_4.png)

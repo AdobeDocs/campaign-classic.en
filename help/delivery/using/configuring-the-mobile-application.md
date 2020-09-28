@@ -18,13 +18,15 @@ snippet: y
 
 # Configuring the mobile application in Adobe Campaign with iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
-You can find below a configuration sample based on a company which sells online holiday packages. His mobile application (Neotrips) is available to its customers in two versions: Neotrips for Android and Neotrips for iOS.  For more information on how to configure your Android mobile application in Adobe Campaign, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md).
+You can find below a configuration sample based on a company which sells online holiday packages. His mobile application (Neotrips) is available to its customers in two versions: Neotrips for Android and Neotrips for iOS.
 
 To configure the mobile application in Adobe Campaign, you need to:
 
 * Create a **[!UICONTROL Mobile application]** type information service for the Neotrips mobile application.
 * Add the iOS and Android versions of the application to this service.
 * Create a delivery for both iOS and Android.
+
+To learn more on how to configure Neotrips for Android and how to create a delivery for Android, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md).
 
 ![](assets/nmac_service_diagram.png)
 
