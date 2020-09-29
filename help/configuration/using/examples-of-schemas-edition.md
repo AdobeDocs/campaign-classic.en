@@ -299,6 +299,7 @@ CREATE TABLE CusRcpGrpRel( iRcpGroupId INTEGER NOT NULL Default 0, iRecipientId 
 CREATE UNIQUE INDEX CusRcpGrpRel_id ON CusRcpGrpRel(iRcpGroupId, iRecipientId);
 CREATE INDEX CusRcpGrpRel_recipientId ON CusRcpGrpRel(iRecipientId);
 ```
+
 ## Use Case: link a field to an existing reference table {#uc-link}
 
 This use case demonstrates how you can use an existing reference table as an alternative to built-in Adobe Campaign enumeration mechanisms (enum, userEnum, or dbEnum).
@@ -332,10 +333,13 @@ The user interface will not display a link but a field. When the user picks that
 ![](assets/schema-edition-ex.png)
 
 * In order for it to auto-complete, you must define a compute-string in the reference table.
+
 * Add the **noDbIndex="true"** attribute in the link definition to prevent Adobe Campaign from creating an index on the values stored in the source table of the link.
 
 ## Related topics
 
 * [Working with enumerations](../../platform/using/managing-enumerations.md)
+
 * [Get Started with Campaign schemas](../../configuration/using/about-schema-edition.md)
+
 * [Updating the database structure](../../configuration/using/updating-the-database-structure.md)
