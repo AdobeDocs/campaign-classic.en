@@ -41,6 +41,12 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><strong>Replacement</strong></td> 
   </tr>
    <tr>
+  <td>Demdex domain<br></td>
+  <td><p> Starting Campaign 20.3 release, the demdex domain used to import and export audiences to the Adobe Experience Cloud is deprecated.<p>
+  <p>If you are using the demdex domain for your import/export external accounts, you need to adapt your implementation accordingly. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Learn more</a></p> 
+  <p><em>Target removal date: 2021</em></p>
+  </td>
+  </tr>
   <td>SMS connectors<br></td>
   <td><p> Starting Campaign 20.2 release, the following SMS connectors are deprecated.<p>
    <ul>

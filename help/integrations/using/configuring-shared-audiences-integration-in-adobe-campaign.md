@@ -32,8 +32,8 @@ First, we need to configure or check the external accounts in Adobe Campaign as 
 1. Click the **[!UICONTROL Explorer]** icon.
 1. Go to **[!UICONTROL Administration > Platform > External accounts]**. The mentioned SFTP accounts should have been configured by Adobe and the necessary information should have been communicated to you.
 
-    * **[!UICONTROL importSharedAudience]**: SFTP account dedicated to importing audiences.
-    * **[!UICONTROL exportSharedAudience]**: SFTP account dedicated to exporting audiences.
+    * **[!UICONTROL importSharedAudience]**: account dedicated to importing audiences.
+    * **[!UICONTROL exportSharedAudience]**: account dedicated to exporting audiences.
 
    ![](assets/aam_config_1.png)
 
@@ -61,7 +61,7 @@ First, we need to configure or check the external accounts in Adobe Campaign as 
 
    >[!NOTE]
    >
-   >If you are using demdex, fill in the **[!UICONTROL Server]** field: **ftp-out.demdex.com** domain for the import external account and **ftp-in.demdex.com** domain for the export external account. <br>Note that demdex is now deprecated, we advise using Amazon Simple Storage Service (S3) connector to import or export data. For more on this, refer to the Deprecated features page.
+   >If you are using demdex, fill in the **[!UICONTROL Server]** field: **ftp-out.demdex.com** domain for the import external account and **ftp-in.demdex.com** domain for the export external account. <br>Note that demdex is now deprecated, we advise using Amazon Simple Storage Service (S3) connector to import or export data. For more on this, refer to the [Deprecated features](../../rn/using/deprecated-features.md) page.
 
    ![](assets/aam_config_2.png)
 
