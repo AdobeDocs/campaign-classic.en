@@ -26,6 +26,8 @@ A note has been added to specify that Active profiles count is available for Mar
 
 A new sample about schema edition has been added to link a field to an existing reference table. [Read more](../../configuration/using/examples-of-schemas-edition.md#uc-link)
 
+A note has been added regarding the use of additional data with seed addresses in deliveries. [Read more](../../delivery/using/creating-seed-addresses.md#defining-addresses)
+
 ## August 2020 {#aug-2020}
 
 Learn best practices related to delivery design and sending with Campaign in a dedicated section. [Read more](../../delivery/using/delivery-best-practices.md)
