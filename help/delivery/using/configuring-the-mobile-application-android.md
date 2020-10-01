@@ -208,20 +208,20 @@ For more information on Firebase Cloud Messaging messages types, refer to [FCM d
 
     ![](assets/nmac_android_7.png)
 
-1. In the **[!UICONTROL Target type]** window, select Subscribers of an Android mobile application and click **[!UICONTROL Next]**.
+1. In the **[!UICONTROL Target type]** window, select **[!UICONTROL Subscribers of an Android mobile application]** and click **[!UICONTROL Next]**.
 
 1. In the **[!UICONTROL Service]** drop-down, select your previously created service then application and click **[!UICONTROL Finish]**.
     The **[!UICONTROL Application variables]** are automatically added depending on what was added during the configuration steps.
 
     ![](assets/nmac_android_6.png)
 
-1. Select **[!UICONTROL data message]**.
+1. Select **[!UICONTROL data message]** as **[!UICONTROL Message Type]**.
 
 1. Edit your rich notification.
 
     ![](assets/nmac_android_5.png)
 
-1. You can add your previously configured **[!UICONTROL Application variables]** if needed. **[!UICONTROL Application variables]** needs to be configured in the Android service and are a part of the message payload sent to the mobile device.
+1. You can add information in your previously configured **[!UICONTROL Application variables]** if needed. **[!UICONTROL Application variables]** needs to be configured in the Android service and are a part of the message payload sent to the mobile device.
 
 1. Click **[!UICONTROL Save]** and send your delivery.
 
@@ -243,20 +243,40 @@ The image and web page should be displayed in the push notification when receive
 
 1. Select **[!UICONTROL Deliver on Android (android)]** in the **[!UICONTROL Delivery template]** drop-down. Add a **[!UICONTROL Label]** to your delivery.
 
-1. Click **[!UICONTROL To]** to define the population to target. By default, the **[!UICONTROL Subscriber application]** target mapping is applied. Click **[!UICONTROL Add]** to select your service
+1. Click **[!UICONTROL To]** to define the population to target. By default, the **[!UICONTROL Subscriber application]** target mapping is applied. Click **[!UICONTROL Add]** to select your service.
 
     ![](assets/nmac_android_7.png)
 
-1. Select **[!UICONTROL notification message]**.
+1. In the **[!UICONTROL Target type]** window, select **[!UICONTROL Subscribers of an Android mobile application]** and click **[!UICONTROL Next]**.
 
-1. Edit your rich notification.
+1. In the **[!UICONTROL Service]** drop-down, select your previously created service then application and click **[!UICONTROL Finish]**.
 
-    ![](assets/nmac_android_5.png)
+    ![](assets/nmac_android_6.png)
 
-1. You can add your previously configured **[!UICONTROL Application variables]** if needed. **[!UICONTROL Application variables]** needs to be configured in the Android service and are a part of the message payload sent to the mobile device.
+1. Select **[!UICONTROL notification message]** as **[!UICONTROL Message Type]**.
+
+1. Add a title and edit your message. Personalize your push notification with the **[!UICONTROL Notification options]**:
+
+   * **[!UICONTROL Channel ID]**: set the notification's channel ID. The app must create a channel with this channel ID before any notification with this channel ID is received. If you don't send this channel ID in the request, or if the channel ID provided has not yet been created by the app, FCM uses the channel ID specified in the app manifest.
+   * **[!UICONTROL Sound]**: set the sound to play when the device receives the notification.
+   * **[!UICONTROL Color]**:
+   * **[!UICONTROL Icon]**: set the notification's icon to display on your profiles' devices.
+   * **[!UICONTROL Tag]**: set the identifier used to replace existing notifications in the notification drawer.
+   * **[!UICONTROL Click action]**: set the action associated with a user click on the notification.
+
+1. If your application is configured with HTTPV1 protocol, you can further personalize your push notification with the following **[!UICONTROL HTTPV1 additional options]**:
+
+   * **[!UICONTROL Ticker]**:
+   * **[!UICONTROL Image]**:
+   * **[!UICONTROL Notification count]**:
+   * **[!UICONTROL Sticky]**: set to true or false. If set to false, the notification is automatically dismissed when the user clicks it. If set to true, the notification is still displayed even when the user clicks it.
+   * **[!UICONTROL Notification priority]**: set the priority levels of your notification. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority).
+   * **[!UICONTROL Visibility]**: set the visibility levels of your notification. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility).
+
+
+
+1. You can add information in your previously configured **[!UICONTROL Application variables]** if needed. **[!UICONTROL Application variables]** needs to be configured in the Android service and are a part of the message payload sent to the mobile device.
 
 1. Click **[!UICONTROL Save]** and send your delivery.
 
 The image and web page should be displayed in the push notification when received on the subscribers' mobile Android devices.
-
-![](assets/nmac_android_4.png)
