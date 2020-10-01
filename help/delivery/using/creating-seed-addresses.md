@@ -40,7 +40,12 @@ To create seed addresses, follow the steps below:
    ![](assets/s_ncs_user_seedlist_new_address.png)
 
 1. In the **[!UICONTROL Seed fields]** tab, enter the values that will be inserted in the delivery logs during the analysis phase (in the **[!UICONTROL nms:broadLog]** table).
-1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Datamanagement workflows and which you want to assign a specific value to.
+
+1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to.
+
+   >[!NOTE]
+   >
+   >Make sure that additional target data has been defined with an alias starting with '@' in the **[!UICONTROL Enrichment]** activity. Otherwise, you will not be able to use them properly with your seed addresses in your delivery activity.
 
 ## Creating seed address templates {#creating-seed-address-templates}
 

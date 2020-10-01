@@ -20,6 +20,10 @@ snippet: y
 
 Once a message template is published on the execution instances, it can be unpublished.
 
+>[!NOTE]
+>
+>This capability is available starting Campaign 20.2 release.
+
 Indeed, a published template can still be called. Therefore, if you are no longer using a message template, it is recommended to unpublish it. This is to avoid sending an unwanted transactional message by mistake. For example, you published a message template that you only use for Christmas campaigns. You may want to unpublish it after the Christmas period is over, and publish it again next year.
 
 Also, you cannot delete a transactional message template that has the **[!UICONTROL Published]** status. You must unpublish it first.
