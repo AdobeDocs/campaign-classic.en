@@ -169,15 +169,17 @@ For more information on service and mobile application creations, refer to this 
    * **[!UICONTROL Private key]**
    * **[!UICONTROL Client email]**
 
+   ![](assets/nmac_android_10.png)
+
 1. Click **[!UICONTROL Test connection]** to check that your configuration is correct and that the marketing server has access to the FCM.
 
    >[!CAUTION]
    >
    >For Mid-Sourcing Deployment, the **[!UICONTROL Test connection]** button will not check if the MID server has access to the FCM server.
 
-1. As an option, you can enrich a push message content with some **[!UICONTROL Application variables]** if needed. These are fully customizable and a part of the message payload sent to the mobile device.
+   ![](assets/nmac_android_11.png)
 
-   ![](assets/nmac_android_2.png)
+1. As an option, you can enrich a push message content with some **[!UICONTROL Application variables]** if needed. These are fully customizable and a part of the message payload sent to the mobile device.
 
 1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. Your Android application is now ready to be used in Campaign Classic.
 
@@ -257,23 +259,29 @@ The image and web page should be displayed in the push notification when receive
 
 1. Add a title and edit your message. Personalize your push notification with the **[!UICONTROL Notification options]**:
 
-   * **[!UICONTROL Channel ID]**: set the notification's channel ID. The app must create a channel with this channel ID before any notification with this channel ID is received. If you don't send this channel ID in the request, or if the channel ID provided has not yet been created by the app, FCM uses the channel ID specified in the app manifest.
-   * **[!UICONTROL Sound]**: set the sound to play when the device receives the notification.
-   * **[!UICONTROL Color]**:
-   * **[!UICONTROL Icon]**: set the notification's icon to display on your profiles' devices.
-   * **[!UICONTROL Tag]**: set the identifier used to replace existing notifications in the notification drawer.
-   * **[!UICONTROL Click action]**: set the action associated with a user click on the notification.
+   * **[!UICONTROL Channel ID]**: Set your notification's channel ID. The app must create a channel with this channel ID before any notification with this channel ID is received.
+   * **[!UICONTROL Sound]**: Set the sound to play when the device receives your notification.
+   * **[!UICONTROL Color]**: Set your notification's icon color.
+   * **[!UICONTROL Icon]**: Set the notification's icon to display on your profiles' devices.
+   * **[!UICONTROL Tag]**: Set the identifier used to replace existing notifications in the notification drawer.
+   * **[!UICONTROL Click action]**: Set the action associated with a user click on your notification.
+
+   For more on the **[!UICONTROL Notification options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification).
+
+   ![](assets/nmac_android_8.png)
 
 1. If your application is configured with HTTPV1 protocol, you can further personalize your push notification with the following **[!UICONTROL HTTPV1 additional options]**:
 
-   * **[!UICONTROL Ticker]**:
-   * **[!UICONTROL Image]**:
-   * **[!UICONTROL Notification count]**:
-   * **[!UICONTROL Sticky]**: set to true or false. If set to false, the notification is automatically dismissed when the user clicks it. If set to true, the notification is still displayed even when the user clicks it.
-   * **[!UICONTROL Notification priority]**: set the priority levels of your notification. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority).
-   * **[!UICONTROL Visibility]**: set the visibility levels of your notification. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility).
+   * **[!UICONTROL Ticker]**: Set the ticker text of your notification. Only available for devices set to Android 5.0 Lollipop.
+   * **[!UICONTROL Image]**: Set the image's URL to be displayed in your notification.
+   * **[!UICONTROL Notification count]**: Set the number of new unread information to display directly on the application icon.
+   * **[!UICONTROL Sticky]**: Set to true or false. If set to false, the notification is automatically dismissed when the user clicks it. If set to true, the notification is still displayed even when the user clicks it.
+   * **[!UICONTROL Notification priority]**: Set the priority levels of your notification to default, minimum, low or high. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority).
+   * **[!UICONTROL Visibility]**: Set the visibility levels of your notification to public, private or secret. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility).
 
+   For more on the **[!UICONTROL HTTPV1 additional options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification).
 
+   ![](assets/nmac_android_9.png)
 
 1. You can add information in your previously configured **[!UICONTROL Application variables]** if needed. **[!UICONTROL Application variables]** needs to be configured in the Android service and are a part of the message payload sent to the mobile device.
 
