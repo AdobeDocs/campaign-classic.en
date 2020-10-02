@@ -1,8 +1,6 @@
 ---
 title: About workflows
-seo-title: About workflows
-description: About workflows
-seo-description: 
+description: Automate processes with workflows, manage data and audiences, send messages, and more.
 page-status-flag: never-activated
 uuid: 19adb0e5-042d-47a0-9f92-24e4b3045dbe
 contentOwner: sauviat
@@ -16,7 +14,9 @@ internal: n
 snippet: y
 ---
 
-# About workflows{#about-workflows}
+# Get started with workflows{#gs-workflows}
+
+## About workflows{#about-workflows}
 
 Adobe Campaign includes a workflow module that empowers you to orchestrate the full range of processes and tasks across the different modules of the application server. This comprehensive graphical environment lets you design processes including segmentation, campaign execution, file processing, human participation, etc. The workflow engine executes and tracks these processes.
 
@@ -66,3 +66,14 @@ Each workflow contains:
 
   Learn more on workflow data and tables in [this section](../../workflow/using/how-to-use-workflow-data.md).
 
+## Key principles and best practices{#principles-workflows}
+
+Refer to these sections to find guidance and best practices to automate processes with workflows:
+
+* Learn more about workflow activities in [this page](../../workflow/using/how-to-use-workflow-data.md).
+* Learn how to build a workflow in [this section](../../workflow/using/building-a-workflow.md).
+* Discover how to use workflows to import data in Campaign in [this section](../../workflow/using/importing-data.md).
+* Workflow best practices are detailed in [this page](../../workflow/using/workflow-best-practices.md).
+* Find guidance about workflow execution in [this section](../../workflow/using/starting-a-workflow.md).
+* Learn how to monitor workflows in [this page](../../workflow/using/monitoring-workflow-execution.md).
+* Learn how to grant access to users to use workflows in [this page](../../workflow/using/managing-rights.md).

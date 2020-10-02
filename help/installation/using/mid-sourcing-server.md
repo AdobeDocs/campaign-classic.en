@@ -166,7 +166,7 @@ You must stop and then restart the server in order for the modification to be ta
 1. Confirm your configuration by clicking **[!UICONTROL Test the connection]**.
 1. Declare the tracking instance referenced on the mid-sourcing server:
 
-   Click the link **[!UICONTROL Use this platform as a platform to access the tracking servers]**,
+   Click the link **[!UICONTROL Use this platform as a proxy to access the tracking servers]**,
 
    Specify the name of the tracking instance and then confirm the connection with the tracking server.
 

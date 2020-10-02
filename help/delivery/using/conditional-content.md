@@ -20,6 +20,9 @@ snippet: y
 
 By configuring conditional content fields, you can create dynamic personalization based on the recipient's profile for example. Text blocks and/or images are replaced when a particular condition is satisfied.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#conditionnal-content-video)
+
+
 ## Using conditions in an email {#using-conditions-in-an-email}
 
 In the example below, you will learn how to create a message, dynamically personalized on the recipient's gender and interests.
@@ -106,3 +109,9 @@ In the example below, you will learn how to create a multilingual email. Content
    >[!NOTE]
    >
    >As no alternative version has been defined in the email content, make sure to filter target population before sending the email.
+
+## How to create a multilingual newsletter with conditional content {#conditionnal-content-video}
+
+Learn how to add conditional content to a delivery on the example of a multilingual newsletter.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)

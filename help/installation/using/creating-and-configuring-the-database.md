@@ -62,7 +62,7 @@ Depending on the selected database engine, the server identification information
 * For a **PostgreSQL** or **DB2** engine, you must specify the DNS name (or IP address) defined on the application server to access the database server.
 * For a **Microsoft SQL Server** engine, you must define:
 
-    1. the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS\ `<instance>`** (instance mode),
+    1. the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS `\<instance>`** (instance mode),
     1. the authentication method used to access Microsoft SQL Server: **[!UICONTROL SQL Server authentication]** or **[!UICONTROL Windows NT authentication]**.
     
        ![](assets/s_ncs_install_db_mssql_creation01.png)
@@ -125,7 +125,7 @@ The **[!UICONTROL Creation steps]** window enables you to display and edit the S
 
 * For an Oracle, Microsoft SQL Server or PostgreSQL database, the administrator may also define the **storage parameters** to be used when creating database objects.
 
-  These parameters receive the exact tablespace names (warning: case sensitive). They are respectively stored in the **[!UICONTROL Administration > Platform > Options]** node in the following options:
+  These parameters receive the exact tablespace names (warning: case sensitive). They are respectively stored in the **[!UICONTROL Administration > Platform > Options]** node in the following options (see [](../../installation/using/configuring-campaign-options.md#database)):
 
     * **WdbcOptions_TableSpaceUser**: user tables based on a schema
     * **WdbcOptions_TableSpaceIndex**: index of user tables based on a schema

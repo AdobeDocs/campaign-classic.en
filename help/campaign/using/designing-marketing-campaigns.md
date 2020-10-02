@@ -1,7 +1,7 @@
 ---
 title: Designing marketing campaigns
 seo-title: Designing marketing campaigns
-description: Designing marketing campaigns
+description: Define, optimize, execute and analyse marketing campaigns.
 seo-description: 
 page-status-flag: never-activated
 uuid: e0fd5df6-7516-4ca6-bbdf-243a264d0283
@@ -25,7 +25,7 @@ In addition, the **Marketing Resource Management (MRM)** module lets you control
 >[!NOTE]
 >
 >For more on the Adobe Campaign core functionalities, refer to the [Getting Started](../../platform/using/about-adobe-campaign-classic.md) section.  
->Capabilities related to population targeting, message personalization and message delivery on the various channels are detailed in [this section](../../delivery/using/communication-channels.md).
+>Capabilities related to population targeting, message personalization and message delivery on the various channels are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Core concepts {#core-concepts}
 
@@ -62,3 +62,4 @@ The following concepts need to be known in the context of Campaign:
   A delivery outline is a structured description of a delivery. Every delivery can refer to a delivery outline which contains, for example, the related offers, documents to be attached, or a link to stores. An offer can be referenced in the delivery according to the delivery outline selected.
 
   For more on this, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+

@@ -1,7 +1,7 @@
 ---
 title: Communication channels
 seo-title: Communication channels
-description: Communication channels
+description: Create deliveries to send personalized messages on different channels.
 seo-description: 
 page-status-flag: never-activated
 uuid: 42975431-64c9-4ecb-98ed-b1f9b13c157e
@@ -24,7 +24,7 @@ Core functionalities include targeting, definition and personalization of messag
 
 >[!NOTE]
 >
->Adobe Campaign offers a set of tools to monitor your deliverability and optimize email sending. For more information, consult the [Deliverability getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and [Deliverability management](../../delivery/using/about-deliverability.md).
+>Adobe Campaign offers a set of tools to monitor your deliverability and optimize email sending. For more information, consult the [Deliverability getting started](../../delivery/using/deliverability-key-points.md) and [Deliverability management](../../delivery/using/about-deliverability.md).
 
 Delivery sending can be automated by preparing a delivery and/or sending it in the process of a workflow. For more on delivery-type activities in workflows, refer to [this section](../../workflow/using/about-action-activities.md).
 
@@ -35,7 +35,7 @@ Adobe Campaign offers the following delivery channels:
 1. **Mobile channel**: deliveries on mobile channels let you send personalized SMS or LINE messages to the target population. Refer to [SMS channel](../../delivery/using/sms-channel.md).
 1. **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems. Refer to the [Mobile app channel](../../delivery/using/about-mobile-app-channel.md) chapter.
 
-   Other channels are described on [this page](../../delivery/using/communication-channels.md#other-channels).
+   Other channels are described on [this page](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels).
 
    >[!NOTE]
    >
@@ -60,9 +60,9 @@ You can send different types of emails:
 * Recurring emails: in a campaign, send the same email regularly and aggregate each send and its reports on a periodic basis. The same email is sent, but usually to a different target, based on the eligible target for the day of the send. A common example is a birthday email. For more on this, refer to [Recurring deliveries](../../workflow/using/recurring-delivery.md).
 * Transactional emails: unitary emails that are triggered based on your customers' behavior. Refer to [Transactional messaging](../../message-center/using/about-transactional-messaging.md).
 
-To learn about delivery usage and recommendations, consult Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
+To learn about delivery usage and recommendations, consult Campaign [Delivery best practices](../../delivery/using/delivery-best-practices.md).
 
-For more on the different types of deliveries, refer to [this section](../../delivery/using/types-of-deliveries.md).
+For more on the different types of deliveries, refer to [this section](#types-of-deliveries).
 
 ## Mobile deliveries {#mobile-deliveries}
 
@@ -96,3 +96,33 @@ In addition, 'Other' type deliveries use a specific technical template which doe
 This channel has no specific mechanism. It is a generic channel that has its own external account routing option, delivery template type and campaign workflow activity, just like any other communication channel available in Adobe Campaign.
 
 This channel is designed for descriptive purposes only, for example to define deliveries for which you want to keep a trace of the target of a campaign performed in a tool other than Adobe Campaign.
+
+## Types of deliveries{#types-of-deliveries}
+
+There are three types of delivery objects in Campaign:
+
+### Single delivery {#single-delivery}
+
+A **delivery** is a standalone delivery object that is executed once. It can be duplicated, prepared again, but as long as it is in its final state (canceled, stopped, finished), it cannot be reused.
+
+Deliveries can be created either from the list of deliveries, or within a workflow via a [Delivery](../../workflow/using/delivery.md) activity.
+
+Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
+
+### Recurring delivery {#recurring-delivery}
+
+A **recurring delivery** lets you create a new delivery each time the activity is executed. This avoids you having to create a new delivery for recurring tasks.
+
+As an example, if you run this type of activity once a month, you will end up with 12 deliveries after a year.
+
+Recurring deliveries are created within workflows via the [Recurring delivery activity](../../workflow/using/recurring-delivery.md). An example of this activity being used is presented in this section: [Creating a recurring delivery in a targeting workflow](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+
+### Continuous delivery {#continuous-delivery}
+
+A **continuous delivery** lets you add new recipients to an existing delivery, which avoids having to create a new delivery each time it is executed.
+
+If an information in the delivery changes (content, name, etc.), a new delivery object is created at the delivery execution. If no information was changed, the same delivery object is reused and the delivery and tracking logs are added in the same object.
+
+As an example, if you run this type of activity once a month, you will end up with a single delivery after a year (provided you did not make any change to the delivery).
+
+Continuous deliveries are created within workflows via the [Continuous delivery activity](../../workflow/using/continuous-delivery.md).

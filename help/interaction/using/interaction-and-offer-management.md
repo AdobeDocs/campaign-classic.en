@@ -1,8 +1,6 @@
 ---
 title: Interaction and offer management
-seo-title: Interaction and offer management
-description: Interaction and offer management
-seo-description: 
+description: Send the best offers to your contacts based on eligibility rules.
 page-status-flag: never-activated
 uuid: 70720baa-e64e-4fb6-8301-fe3920791f79
 contentOwner: sauviat

@@ -626,21 +626,21 @@ Some of them are built-in when installing Campaign, and others can be added manu
     <li><p>1 -  pg_cancel_backend: stops workflow process and cancels query in the database<p></li>
     <li><p>2 – pg_terminate_backend: stops workflow process and terminates query in the database<p></li></ul></td> 
   </tr>  
-  <tr> 
-   <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign standard tables.<br /> </td> 
+    <tr> 
+   <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
+   <td> Name of the tablespace intended to contain the data of the Adobe Campaign standard tables.<br />See <a href="../../installation/using/creating-and-configuring-the-database.md">Creating and configuring the database</a>.</td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Name of the tablespace intended to contain the data of the standard Adobe Campaign tables.<br /> </td> 
+   <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
+   <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign standard tables.<br />See <a href="../../installation/using/creating-and-configuring-the-database.md">Creating and configuring the database</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 
-   <td> Name of the tablespace intended to contain the data of the Adobe Campaign work tables.<br /> </td> 
+   <td> Name of the tablespace intended to contain the data of the Adobe Campaign work tables.<br />See <a href="../../installation/using/creating-and-configuring-the-database.md">Creating and configuring the database</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWorkIndex</span> <br /> </td> 
-   <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign work tables.<br /> </td> 
+   <td> Name of the tablespace intended to contain the indexes of the Adobe Campaign work tables.<br />See <a href="../../installation/using/creating-and-configuring-the-database.md">Creating and configuring the database</a>.</td> 
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 

@@ -32,7 +32,7 @@ The profiles whose email addresses or phone number are in quarantine are automat
 
 Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to a block list by these providers.
 
-Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries. For more on best practices to secure and optimize your deliveries, refer to [this page](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
+Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries. For more on best practices to secure and optimize your deliveries, refer to [this page](../../delivery/using/delivery-best-practices.md) .
 
 ### Quarantine vs block list {#quarantine-vs-block-list}
 

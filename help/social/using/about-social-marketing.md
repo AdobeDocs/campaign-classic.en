@@ -1,8 +1,6 @@
 ---
 title: About social marketing
-seo-title: About social marketing
-description: About social marketing
-seo-description: 
+description: Learn how to use Campaign to interact with customers via Facebook and Twitter.
 page-status-flag: never-activated
 uuid: 64c861e3-b685-44e2-9b5b-4fbf5d70baa9
 contentOwner: sauviat

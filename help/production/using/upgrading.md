@@ -18,7 +18,7 @@ snippet: y
 
 # Upgrading{#upgrading}
 
-Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html).
+Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](../../rn/using/latest-release.md) .
 
 >[!CAUTION]
 >
@@ -27,7 +27,7 @@ Before starting the upgrading process, detemine and confirm which version of Ado
 
 >[!NOTE]
 >
->Also refer to the [installation guide](../../installation/using/general-architecture.md) and the [build upgrade](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) getting started.
+>Also refer to the [installation guide](../../installation/using/general-architecture.md) and the [build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) getting started.
 
 ## In Windows {#in-windows}
 
@@ -249,7 +249,7 @@ For example, a unicode database must not only authorize storage of LATIN1 data, 
 
 On the machine where the (**nlserver web**) Adobe Campaign application server is installed, download and copy the file
 
-**setup-client-6.**XXXX**.exe**
+**setup-client-6.XXXX.exe**
 
 in **[path of the application]**datakitnlengjsp
 
@@ -263,7 +263,7 @@ The next time client consoles are connected, a window will inform users about th
 
 On the machine where the Adobe Campaign application server (**nlserver web**) is installed, retrieve the following package:
 
-**setup-client-6.**XXXX**.exe**
+**setup-client-6.XXXX.exe**
 
 and copy it, saving as **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
 

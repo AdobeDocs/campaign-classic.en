@@ -37,7 +37,7 @@ There can be several causes for this issue, follow the steps below to solve it:
 
     For more on technical workflows monitoring, refer to [this page](../../workflow/using/monitoring-technical-workflows.md).
 
-    >[NOTE]
+    >[!NOTE]
     >
     >Once the workflow restarted, make sure you execute the pending tasks (right-click the **[!UICONTROL Scheduler]** activity / **[!UICONTROL Execute pending task(s) now]**) in order to check if it fails again on any of the activities.
 
@@ -74,7 +74,7 @@ There can be several causes for this issue, follow the steps below to solve it:
 
     To check the number of workflows running of your instance, we recommend using the predefined views, accessible by default in the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** folder. For more information, refer to [this page](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
 
-    >[CAUTION]
+    >[!CAUTION]
     >
     >Increasing the **[!UICONTROL NmsOperation_LimitConcurrency]** option threshold may lead to performance issues on your instance. In any case, do not perform this on your own and reach out to your Adobe Campaign contact.
 

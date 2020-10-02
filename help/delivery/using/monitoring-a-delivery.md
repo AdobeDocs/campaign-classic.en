@@ -102,7 +102,7 @@ If delivery performances are bad, you can check:
 
 * **The size of the delivery**: Large deliveries can take longer to complete. MTA children are configured to handle a default batch size, which works for most instances, but need to be checked when deliveries are constantly slow.
 * **The target of the delivery**: Delivery performances ban be affected by soft bounce errors, which are handled according to the retry configuration. The greater the number of errors, the more retries needed. 
-* **The overall platform load**: When several large deliveries are being sent, the overall platform can be affected. You can also check IP reputation and deliverability issues. For more on this, refer to Adobe Campaign [Deliverability best practices guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and to [this page](../../delivery/using/about-deliverability.md).
+* **The overall platform load**: When several large deliveries are being sent, the overall platform can be affected. You can also check IP reputation and deliverability issues. For more on this, refer to Adobe Campaign [Deliverability best practices guide](../../delivery/using/deliverability-key-points.md) and to [this page](../../delivery/using/about-deliverability.md).
 
 Platform and database maintenance can also affect delivery sending performances. For more on this, refer to [this page](../../production/using/database-performances.md).
 
@@ -111,10 +111,10 @@ Platform and database maintenance can also affect delivery sending performances.
 After clicking the **[!UICONTROL Send]** button, your delivery seems to take longer than usual. This may be caused by different elements:
 
 * Some email providers might have added your IP addresses to a block list. In this case, check your broadlogs and consult [this section](../../delivery/using/about-deliverability.md).
-* Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign [Delivery best practices](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) to learn about content guidelines.
+* Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign [Delivery best practices](../../delivery/using/delivery-best-practices.md) to learn about content guidelines.
 * Throttling might have occurred within the Adobe Campaign MTA. This is caused by:
 
-    * Messages pended (**[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. For more information about this message, refer to [this page](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ). To learn more about MX rules, refer to [this page](../../delivery/using/technical-recommendations.md#mx-rules).
+    * Messages pended (**[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. For more information about this message, refer to [this page](../../delivery/using/deliverability-faq.md) . To learn more about MX rules, refer to [this page](../../delivery/using/technical-recommendations.md#mx-rules).
     * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential block list.
 
 * A system issue can prevent servers from interacting together: this can slow down the whole sending process. Check the servers to ensure that there is no memory or resource issues which can impact Campaign in the process of getting the personalization data for example.
@@ -196,7 +196,7 @@ While sending a delivery, you may face the following status on your delivery das
  </tbody> 
 </table>
 
-To learn how to optimize the deliverability of your Adobe Campaign emails, refer to Adobe Campaign [Deliverability best practices guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and to [this page](../../delivery/using/about-deliverability.md).
+To learn how to optimize the deliverability of your Adobe Campaign emails, refer to Adobe Campaign [Deliverability best practices guide](../../delivery/using/deliverability-key-points.md)  and to [this page](../../delivery/using/about-deliverability.md).
 
 ### Pending status {#pending-status}
 

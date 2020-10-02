@@ -57,7 +57,7 @@ Using an external recipient table has the following limitations:
 
 * The link with the **[!UICONTROL visitor]** table does not work.
 
-  Thus, to use the **[!UICONTROLSocial Marketing]** module you must configure the storage step to reference the correct table.
+  Thus, to use the **[!UICONTROL Social Marketing]** module you must configure the storage step to reference the correct table.
 
   Similarly, when using referral functions, the standard initial message transfer template must be adapted.
 

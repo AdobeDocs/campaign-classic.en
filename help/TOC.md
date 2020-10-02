@@ -1,13 +1,16 @@
 ---
-product: Adobe Campaign Classic
 audience: end-user
-user-guide-title: Adobe Campaign Classic Help
+user-guide-title: Adobe Campaign Classic Guide
+breadcrumb-title: Campaign Classic Guide
+breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
+user-guide-description: Design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment.
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
+type: Documentation
 ---
 
-# Adobe Campaign Classic Help {#using}
+# Adobe Campaign Classic Guide {#using}
 
 + [Product documentation](campaign-classic-home.md)
 + [Latest updates](rn/using/documentation-updates.md)
@@ -27,7 +30,7 @@ sub-product: adobe campaign classic
     + [Compatibility Matrix](rn/using/compatibility-matrix.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
-       + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
+       + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
        + [Privacy and consent](platform/using/privacy-and-recommendations.md)
        + [Launching Adobe Campaign](platform/using/launching-adobe-campaign.md)
        + [Adobe Campaign workspace](platform/using/adobe-campaign-workspace.md)
@@ -83,13 +86,17 @@ sub-product: adobe campaign classic
        + [CRM Connectors](platform/using/crm-connectors.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}
-  + Get started with messages {#about-deliveries-and-channels}
-       + [Communication channels](delivery/using/communication-channels.md)
-       + [Delivery best practices](delivery/using/delivery-best-practices.md)
-       + [Accessing deliveries information](delivery/using/accessing-deliveries-information.md)
-       + [Types of deliveries](delivery/using/types-of-deliveries.md)
+     + [Get started with messages](delivery/using/communication-channels.md)
+  + Delivery best practices {#delivery-bestpractices}
+       + [Learn good practices](delivery/using/delivery-best-practices.md)
+       + [Optimize delivery](delivery/using/optimize-delivery.md)
+       + [Use templates](delivery/using/use-templates.md)
+       + [Build personalized content](delivery/using/design-and-personalize.md)
+       + [Define the right audience](delivery/using/define-the-right-audience.md)
+       + [Check before sending](delivery/using/check-before-sending.md)
+       + [Track and monitor](delivery/using/track-and-monitor.md)                    
   + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}
-       + [About delivery creation ](delivery/using/steps-about-delivery-creation-steps.md)
+       + [Get started with deliveries](delivery/using/steps-about-delivery-creation-steps.md)
        + [Creating and identifying the delivery](delivery/using/steps-create-and-identify-the-delivery.md)
        + [Defining the target population](delivery/using/steps-defining-the-target-population.md)
        + [Validating the delivery](delivery/using/steps-validating-the-delivery.md)
@@ -252,7 +259,7 @@ sub-product: adobe campaign classic
        + [Use case: displaying report on answers to an online survey](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Designing web content {#designing-content}
   + Web applications {#web-applications}
-       + [About web applications](web/using/about-web-applications.md)
+       + [Get started with web applications](web/using/about-web-applications.md)
        + [Creating a new web application](web/using/creating-a-new-web-application.md)
        + [Designing a web application](web/using/designing-a-web-application.md)
        + [Use cases: creating overviews](web/using/use-cases--creating-overviews.md)
@@ -328,7 +335,7 @@ sub-product: adobe campaign classic
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
 + Automating with Workflows {#automating-with-workflows}
   + Introduction {#introduction}
-       + [About workflows](workflow/using/about-workflows.md)
+       + [Get started with workflows](workflow/using/about-workflows.md)
        + [About activities](workflow/using/about-activities.md)
   +  General operation {#general-operation}
        + [Building a workflow](workflow/using/building-a-workflow.md)
@@ -421,7 +428,7 @@ sub-product: adobe campaign classic
           + [Enriching data](workflow/using/enriching-data.md) 
           + [Using aggregates](workflow/using/using-aggregates.md)
           + [Quarterly list update using an incremental query](workflow/using/quarterly-list-update.md)
-       + Designing queries {#designing-queries}
+       + Targeting {#designing-queries}
           + [Querying the recipient table](workflow/using/querying-recipient-table.md)
           + [Querying delivery information](workflow/using/querying-delivery-information.md)
           + [Performing aggregate computing](workflow/using/performing-aggregate-computing.md)
@@ -464,7 +471,7 @@ sub-product: adobe campaign classic
        + [Transfer to Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
        + [Mid-sourcing platform](workflow/using/mid-sourcing-platform.md)
 + Managing Offers {#managing-offers}
-  + Interaction Overview {#interaction-overview}
+  + Get started with Interaction {#interaction-overview}
        + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
        + [Glossary](interaction/using/glossary.md)
        + [Interaction best practices](interaction/using/interaction-best-practices.md)
@@ -516,7 +523,7 @@ sub-product: adobe campaign classic
        + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
 + Transactional Messaging {#transactional-messaging}
   + Introduction {#introduction}
-       + [About transactional messaging](message-center/using/about-transactional-messaging.md)
+       + [Get started with transactional messaging](message-center/using/about-transactional-messaging.md)
        + [Transactional messaging architecture](message-center/using/transactional-messaging-architecture.md)
        + [Event description](message-center/using/event-description.md)
   + Instance configuration {#instance-configuration}

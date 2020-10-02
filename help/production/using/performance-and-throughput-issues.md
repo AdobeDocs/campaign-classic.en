@@ -20,7 +20,7 @@ snippet: y
 
 >[!NOTE]
 >
->First of all, you should check that you have the latest build installed. This ensures that you have the latest features and bug fixes. Refer to the [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) for more information on the content of each release.
+>First of all, you should check that you have the latest build installed. This ensures that you have the latest features and bug fixes. Refer to the [Release Notes](../../rn/using/latest-release.md) for more information on the content of each release.
 
 ## Hardware and infrastructure {#hardware-and-infrastructure}
 
@@ -68,5 +68,5 @@ Here are is a list of best practices and articles related to deliverability:
 
 >[!NOTE]
 >
->Don't forget to consult the [Deliverability getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) guide.
+>See also [Deliverability key points](../../delivery/using/deliverability-key-points.md) section.
 

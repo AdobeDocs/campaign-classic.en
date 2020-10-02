@@ -7,8 +7,7 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
-topic-tags: campaign-release-notes
-topic-tags: latest-release-notes
+topic-tags: campaign-release-notes, latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
@@ -101,7 +100,7 @@ _February 17, 2020_
 
 * Improved query performance which could be affected by unnecessary database connections.
 
-* Improved the performance of the database update wizard.
+* Improved the performance of the database update wizard to make fewer SQL statements in order to optimize response time.
 
 * The database record management was enhanced.
 
@@ -177,7 +176,7 @@ _February 17, 2020_
 
 * Fixed an issue that occurred when deleting, inserting or updating a large amount of data with the **Update data** activity in a workflow using an FDA schema as the targeting dimension. (NEO-13280)
 
-* Fixed an issue that prevented emails from being sent when using the 'if' statement outside the `body` tag.
+* Fixed an issue preventing emails from being sent when there was Javascript code outside of the HTML content tag. (NEO-18628)
 
 * Fixed an issue that occurred when trying to display the mirror page from the delivery logs of a sent message. (NEO-17976)
 

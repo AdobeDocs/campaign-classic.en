@@ -70,7 +70,7 @@ An out-of-the-box template is supplied in order to create a campaign for which n
 
 The creation and configuration of campaign templates are presented in [Campaign templates](#campaign-templates).
 
-For more on campaign creation, refer to the [Creating a campaign and an email](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
+For more on campaign creation, refer to [this video](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
 
 ## Configuration of the available modules {#configuration-of-the-available-modules}
 

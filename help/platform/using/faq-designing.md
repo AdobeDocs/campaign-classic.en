@@ -23,7 +23,7 @@ Discover key steps to design omni-channel messages with Adobe Campaign.
 
 Before starting designing emails, learn the concepts and best practices related to delivery design and sending with Adobe Campaign.
 
-[Click here to learn more](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
+[Click here to learn more](../../delivery/using/delivery-best-practices.md).
 
 ## What is a delivery template? {#what-is-a-delivery-template-}
 
