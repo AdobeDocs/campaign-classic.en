@@ -165,7 +165,7 @@ Data example:
 
 When it receives an event, Adobe Campaign generates a unique return ID. This is the ID of the archived version of the event.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >When receiving SOAP calls, Adobe Campaign verifies the email address format. If an email address is incorrectly formatted, an error is returned.
 
@@ -235,4 +235,4 @@ However, if the event fails to be processed, the method returns an error message
      </SOAP-ENV:Body>
   </SOAP-ENV:Envelope>
   ```
-
+  

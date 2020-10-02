@@ -18,9 +18,9 @@ snippet: y
 
 # Purging events{#purging-events}
 
-You can use the deployment wizard to configure how long the data is to be stored in the database.
+You can use the [deployment wizard](../../production/using/database-cleanup-workflow.md#deployment-wizard) to configure how long the data is to be stored in the database.
 
-Event purging is carried out automatically by the **[!UICONTROL Database cleanup]** workflow. This workflow purges the events received and stored on the execution instances and events archived on a control instance.
+Event purging is carried out automatically by the [Database cleanup workflow](../../production/using/database-cleanup-workflow.md). This workflow purges the events received and stored on the execution instances and events archived on a control instance.
 
 Use the arrows as appropriate to change the purge settings.
 
