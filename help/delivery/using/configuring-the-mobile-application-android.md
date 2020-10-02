@@ -129,7 +129,7 @@ By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (
 | Message type | Configurable message element   |  Configurable options |
 |:-:|:-:|:-:|
 | data message  | N/A  | dryRun  |
-| notification  message|  title, body, android_channel_id, icon, sound, tag, color, click_action	 <br> | dryRun |
+| notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action <br> | dryRun |
 
 <br>
 
@@ -153,7 +153,7 @@ For more information on service and mobile application creations, refer to this 
 | Message type | Configurable message element   |  Configurable options |
 |:-:|:-:|:-:|
 | data message  | N/A  | validate_only  |
-| notification  message|  title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
+| notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
 
 <br>
 <br>
