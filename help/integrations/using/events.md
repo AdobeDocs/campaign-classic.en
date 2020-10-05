@@ -16,7 +16,19 @@ internal: n
 snippet: y
 ---
 
-# Triggers events {#events}
+# ACX package implementation {#events}
+
+Warning: Parts of this configuration is a custom development and requires the following:
+
+Working knowledge of JSON, XML, and Javascript parsing in Adobe Campaign.
+Working knowledge of the QueryDef and Writer APIs.
+Working notions of encryption and authentication using private keys.
+Since editing the JS code requires technical skills, please do not attempt it without the proper understanding.
+
+Triggers are saved to a database table. Thus, trigger data can be safely used by marketing in targeting workflows.
+
+
+Event received via pipeline is processed immediately using Javascript code. It is saved into a database table with no further processing in real time. The triggers are then used for targeting by a campaign workflow that sends emails. The campaign is set up so that a customer that has triggered the event, receives an email. 
 
 ## Processing events in JavaScript {#events-javascript}
 
