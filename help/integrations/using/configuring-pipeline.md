@@ -23,42 +23,29 @@ The list of triggers to be processed is configured in an option. It is in JSON f
 The trigger is processed immediately using Javascript code. It is saved into a database table with no further processing in real time.
 The triggers are used for targeting by a campaign workflow that sends emails. The campaign is set up so that a customer that has both trigger events receives an email.
 
+>[!CAUTION]
+>
+>In case of Hybrid deployment, ensure pipeline is configured on mid instance.
+
 ## Prerequisites {#prerequisites}
 
 Using [!DNL Experience Cloud Triggers] in Campaign requires:
 
-* Adobe Campaign version 6.11 build 8705 or later.
-* Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select, or Standard.
+* Adobe Campaign 19.1.9 version or 20.3.1. and above.
+* Analytics Standard version.
 
 Prerequisite configurations are:
 
-* Creation of a private key file and then the creation of the oAuth application registered with that key.
+* Adobe IO project authentication
+* The IMSOrgId, the identifier of the Experience Cloud customer with Adobe Analytics added.
+* The provisioning team must have System Administrator Privileges for the customer's IMS Org
 * Configuration of the triggers in Adobe Analytics.
-
-The Adobe Analytics configuration is out of the scope of this document.
-
-Adobe Campaign requires the following information from Adobe Analytics:
-
-* The name of the oAuth application.
-* The IMSOrgId, the identifier of the Experience Cloud customer.
-* The names of the triggers configured in Analytics.
-* The name and format of the data fields to reconcile with the Marketing database.
-
-Part of this configuration is a custom development and requires the following:
-
-* Working knowledge of JSON, XML, and Javascript parsing in Adobe Campaign.
-* Working knowledge of the QueryDef and Writer APIs.
-* Working notions of encryption and authentication using private keys.
-
->[!NOTE]
->
->Since editing the JS code requires technical skills, do not attempt it without the proper understanding. <br>Triggers are saved to a database table. Thus, trigger data can be safely used by marketing operators in targeting workflows.
 
 ## Authentication and configuration files {#authentication-configuration}
 
 Authentication is required since Pipeline is hosted in the Adobe Experience Cloud.
-If the Marketing server is hosted on premise, when it logs in to Pipeline, it must authenticate to have a secure connection.
 It uses a pair of public and private keys. This process is the same function as a user/password, only more secure.
+Authentication is supported for the Marketing cloud via Adobe IO Project.
 
 ### IMSOrgId {#imsorgid}
 
