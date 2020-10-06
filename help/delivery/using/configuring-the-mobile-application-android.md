@@ -167,10 +167,11 @@ For more information on service and mobile application creations, refer to this 
 
 <br>
 <br>
+
 After creating service and a new mobile application, you need to configure your mobile application depending on the chosen API version.
 For more information on service and mobile application creations, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service)
 
-1. In your **[!UICONTROL Mobile application creation wizard]** window, select HTTPV1 in the **[!UICONTROL API version]** drop-down.
+1. In your **[!UICONTROL Mobile application creation wizard]** window, select **[!UICONTROL HTTPV1]** in the **[!UICONTROL API version]** drop-down.
 
 1. Click **[!UICONTROL Load project json file to extract projet details]** to load directly your json file.
 

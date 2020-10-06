@@ -358,6 +358,134 @@ Android V2 quarantine mecanism uses the same process as Android V1, the same app
    <td> Refused<br /> </td> 
    <td> No<br /> </td> 
   </tr> 
+    <tr> 
+   <td> FCM message rejection: Invalid argument<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> INVALID_ARGUMENT </td> 
+   <td> Ignored</td> 
+   <td> Undefined<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Third party authentication error<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> THIRD_PARTY_AUTH_ERROR </td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> Yes<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Sender ID mismatch<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> SENDER_ID_MISMATCH </td> 
+   <td> Soft</td>
+   <td> User unknown<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Unregistered<br /> </td> 
+   <td> Failure<br /> </td>
+   <td> UNREGISTERED </td> 
+   <td> Hard</td> 
+   <td> User unknown<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Internal<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> INTERNAL </td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> Yes<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Unavailable<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> UNAVAILABLE</td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> Yes<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: unexpected error code<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> unexpected error code</td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+  <tr> 
+   <td> Authentication: Connection issue<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> Impossible to connect to authentication server </td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> Yes<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Unauthorized client or scope in request.<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> unauthorized_client </td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Client is unauthorized to retrieve access tokens using this method, or client not authorized for any of the scopes requested.<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> unauthorized_client </td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Access denied<br /> </td> 
+   <td> Failure<br /> </td>
+   <td> access_denied</td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Non-valid email<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Invalid JWT<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Invalid JWT Signature<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Invalid OAuth scope or ID token audience provided<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> unauthorized_client</td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: OAuth client disabled<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> disabled_client</td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
  </tbody> 
 </table>
 
