@@ -88,6 +88,10 @@ The Adobe Campaign server must be able to contact the APNS server on the followi
 * 2195 (sending) and 2186 (feedback service) for iOS binary connector
 * 443 for iOS HTTP/2 connector
 
+   >[!NOTE]
+   >
+   > Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+
 To check that it works correctly, use the following commands:
 
 * For tests:

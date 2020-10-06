@@ -156,6 +156,10 @@ The items put in quarantine are device tokens.
 
 **For iOS - binary connector**
 
+   >[!NOTE]
+   >
+   > Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+
 For each notification, Adobe Campaign receives the synchronous and asynchronous errors from the APNS server. For the following synchronous errors, Adobe Campaign generates soft errors:
 
 * Payload length issues: no retry, the failure reason is **[!UICONTROL Unreachable]**.
