@@ -56,24 +56,19 @@ To learn more on how to configure Neotrips for Android and how to create a deliv
 
 ## Configuring iOS external account {#configuring-external-account-ios}
 
-For iOS, two connectors are available:
+For iOS, the iOS HTTP/2 connector sends notifications to the HTTP/2 APNS.
 
-* The iOS binary connector sends notifications on the legacy binary APNS server.
-* The iOS HTTP/2 connector sends notifications to the HTTP/2 APNS.
-
-To choose which connector you want to use, follow these steps:
+To configure this connector, follow these steps:
 
 1. Go to **[!UICONTROL Administration > Platform > External accounts]**.
 1. Select the **[!UICONTROL iOS routing]** external account.
-1. In the **[!UICONTROL Connector]** tab, fill in the **[!UICONTROL Access URL of the connector]** field:
-
-   For iOS HTTP2: http://localhost:8080/nms/jsp/iosHTTP2.jsp
-
-   ![](assets/nmac_connectors.png)
+1. In the **[!UICONTROL Connector]** tab, fill in the **[!UICONTROL Access URL of the connector]** field with the following URL: ```http://localhost:8080/nms/jsp/iosHTTP2.jsp```
 
    >[!NOTE]
    >
-   > You can also configure it as follow https://localhost:8080/nms/jsp/ios.jsp but we advise you to use version 2 of the connector.
+   > Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+
+   ![](assets/nmac_connectors.png)
 
 1. Click **[!UICONTROL Save]**.
 
@@ -104,6 +99,16 @@ Your iOS connector is now configured. You can start creating your service.
 
    ![](assets/nmac_service_2.png)
 
+1. Create your iOS Development and Production applications. For more on this, refer to this [section](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app).
+
+## Creating the iOS application {#creating-ios-app}
+
+After creating your service, you now need to create your iOS application:
+
+1. From your newly created service, click the **[!UICONTROL Add]** button to select the application type.
+
+   ![](assets/nmac_service_2.png) 
+
 1. The following window appears. Select **[!UICONTROL Create an iOS application]** and start by entering the **[!UICONTROL Label]**.
 
    ![](assets/nmac_ios_2.png)
@@ -131,19 +136,21 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
 1. Select one of the out-of-the-box icon from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
 
-1. Click the **[!UICONTROL Enter the certificate...]** link then select the authentication certificate and enter the password that was provided by the mobile application developer. You can click **[!UICONTROL Test the connection]** to be sure it is successful.
-
-   >[!NOTE]
-    >
-    >Apple requires different certificates for Development and Production versions of a same mobile application. You will need to configure the two separate applications in Adobe Campaign.
+1. Select the **[!UICONTROL Authentication mode]**, you can always change your authentication mode later on in the **[!UICONTROL Certificate]** tab or your mobile application.
+   *  **[!UICONTROL Certificate-based authentication]**: Select your p12 key with the **[!UICONTROL Enter the certificate...]** link then select the authentication certificate and enter the password that was provided by the mobile application developer.
+   * **[!UICONTROL Token-based authentication]**: Fill in the connection settings **[!UICONTROL Key ID]**, **[!UICONTROL Team ID]** and **[!UICONTROL Bundle ID]** then select your p8 certificate by clicking **[!UICONTROL Enter the private key]**. For more on **[!UICONTROL Token-based authentication]**, refer to [Apple documentation](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apnsToken-based)
 
    ![](assets/nmac_ios_4.png)
+
+1. You can click **[!UICONTROL Test the connection]** to be sure it is successful.
 
 1. Click **[!UICONTROL Next]** to start configuring the production application and follow the same steps as detailed above.
 
    ![](assets/nmac_ios_5.png)
 
-1. Click **[!UICONTROL Finish]**. Your iOS application is now ready to be used in Campaign Classic.
+1. Click **[!UICONTROL Finish]**. 
+
+Your iOS application is now ready to be used in Campaign Classic.
 
 ## Creating an iOS rich notification {#creating-ios-delivery}
 
