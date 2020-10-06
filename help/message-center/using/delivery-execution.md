@@ -18,7 +18,7 @@ snippet: y
 
 # Delivery execution{#delivery-execution}
 
-## Transactional message send {#transactional-message-send}
+## Transactional message sending {#transactional-message-send}
 
 On the execution instance, once the enrichment stage is complete and a delivery template has been linked to the event, the delivery is sent.
 
@@ -38,11 +38,11 @@ By default, they are sorted into sub-folders by delivery month. This sort can be
 >
 >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, all transactional messages may also be sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages and they are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) document.
 
-## Transactional message log updates {#transactional-message-log-update}
+## Transactional message monitoring {#transactional-message-monitoring}
 
-When extracting transactional messaging delivery logs from the control instance, you may observe that the delivery ID associated with each broadlog ID changes every month.
+To monitor your transactional messages, check the delivery logs. Accessing the delivery logs is presented in [this section](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).
 
-This is because the [delivery logs](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) of the transactional deliveries sent from the execution instance are synchronized back to the control instance as follows.
+The transactional deliveries sent from the execution instance are synchronized back to the control instance as follows.
 
 <!--To access the delivery logs, see [this section](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).-->
 
@@ -57,14 +57,16 @@ Let's take a [delivery template](../../message-center/using/introduction.md) lab
 
 1. The transactional email is sent and the delivery status changes to **[!UICONTROL Sent]**.
 1. The **Message Center execution instance** (mcSync_mcExec) workflow retrieves the delivery logs from the execution instance and updates the delivery logs on the control instance.
-1. The control instance searches for an existing delivery for the current week (2020-03-16_Template_1).
+1. The control instance searches for an existing delivery for week 40 (2020-09-28_Template_1).
 
     >[!NOTE]
     >
     >If not found, a new delivery is created.
 
-1. An inbound bounce is received for the event.
+1. The week after, an inbound bounce is received for the event.
 1. The status of the event changes to **[!UICONTROL Delivery failed]**.
-1. The **Message Center execution instance** (mcSync_mcExec) workflow retrieves the delivery logs from the execution instance and searches for a delivery for the current week (2020-03-20_Template_1) to update the delivery logs. The delivery logs are then linked to a new delivery for the current week.
+1. The **Message Center execution instance** (mcSync_mcExec) workflow retrieves the delivery logs from the execution instance and searches for a delivery for week 41 (2020-10-05_Template_1) to update the delivery logs. The delivery logs are then linked to a new delivery for the current week.
 
-To summarize, the deliveries accumulate on a weekly basis the events based on the latest event update instead of the event creation date.
+To summarize, the deliveries weekly accumulate the events based on the latest event update, and not on the event creation date.
+
+Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.
