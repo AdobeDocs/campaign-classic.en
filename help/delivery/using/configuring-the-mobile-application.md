@@ -101,7 +101,7 @@ Your iOS connector is now configured. You can start creating your service.
 
 1. Create your iOS Development and Production applications. For more on this, refer to this [section](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app).
 
-## Creating the iOS application {#creating-ios-app}
+## Creating iOS mobile application {#creating-ios-app}
 
 After creating your service, you now need to create your iOS application:
 
@@ -136,7 +136,7 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
 1. Select one of the out-of-the-box icon from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
 
-1. Select the **[!UICONTROL Authentication mode]**, you can always change your authentication mode later on in the **[!UICONTROL Certificate]** tab or your mobile application.
+1. Select the **[!UICONTROL Authentication mode]**. Note that you can always change your authentication mode later on in the **[!UICONTROL Certificate]** tab of your mobile application.
    * **[!UICONTROL Certificate-based authentication]**: Click **[!UICONTROL Enter the certificate...]**  then select your p12 key and enter the password that was provided by the mobile application developer.
    * **[!UICONTROL Token-based authentication]**: Fill in the connection settings **[!UICONTROL Key ID]**, **[!UICONTROL Team ID]** and **[!UICONTROL Bundle ID]** then select your p8 certificate by clicking **[!UICONTROL Enter the private key]**. For more on **[!UICONTROL Token-based authentication]**, refer to [Apple documentation](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apnsToken-based).
 

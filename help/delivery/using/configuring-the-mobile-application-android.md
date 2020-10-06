@@ -96,6 +96,16 @@ To choose which connector you want to use, follow these steps:
 
    ![](assets/nmac_service_2.png)
 
+1. Create your Android application. For more on this, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#creating-android-app).
+
+## Creating Android mobile application {#creating-android-app}
+
+After creating your service, you now need to create your Android application:
+
+1. From your newly created service, click the **[!UICONTROL Add]** button to select the application type.
+
+   ![](assets/nmac_service_2.png)
+
 1. Select **[!UICONTROL Create an Android application]** and enter a **[!UICONTROL Label]**.
 
    ![](assets/nmac_android.png)
@@ -106,11 +116,11 @@ To choose which connector you want to use, follow these steps:
     >
     > The **[!UICONTROL Integration key]** is fully customizable with string value but needs to be exactly the same as the one specified in the SDK.
 
-1. Select one of the out-of-the-box icon from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
+1. Select one of the **[!UICONTROL API version]**:
    * HTTP. For more information refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
    * HTTPV1. For more information refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
 
-1. Fill in the Firebase Cloud Messaging settings for the Android connection.
+1. Fill in the **[!UICONTROL Firebase Cloud Messaging settings for the Android connection]** fields.
 
 1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. Your Android application is now ready to be used in Campaign Classic.
 
@@ -133,8 +143,8 @@ By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (
 
 <br>
 
-After creating service and a new mobile application, you need to configure your mobile application depending on the chosen API version.
-For more information on service and mobile application creations, refer to this section.
+After creating a service and a new mobile application, you need to configure your mobile application depending on the chosen API version.
+For more information on service and mobile application creations, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service).
 
 1. In your **[!UICONTROL Mobile application creation wizard]** window, select **[!UICONTROL HTTP (legacy)]** in the **[!UICONTROL API version]** drop-down.
 
@@ -158,7 +168,7 @@ For more information on service and mobile application creations, refer to this 
 <br>
 <br>
 After creating service and a new mobile application, you need to configure your mobile application depending on the chosen API version.
-For more information on service and mobile application creations, refer to this section.
+For more information on service and mobile application creations, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service)
 
 1. In your **[!UICONTROL Mobile application creation wizard]** window, select HTTPV1 in the **[!UICONTROL API version]** drop-down.
 

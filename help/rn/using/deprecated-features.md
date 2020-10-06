@@ -38,7 +38,7 @@ Customers are advised to review if they make use of the feature/capability in th
  <tbody> 
    <tr>
    <td><strong>Feature</strong></td>
-   <td><strong>Replacement</strong></td> 
+   <td><strong>Replacement</strong></td>
   </tr>
   <tr>
   <td>iOS legacy binary<br></td>
@@ -46,7 +46,7 @@ Customers are advised to review if they make use of the feature/capability in th
   <p> If you are using this connector, you need to adapt your implementation accordingly.
   <a href="https://helpx.adobe.com/campaign/kb/migrate-to-http2.html">Learn more</a></p>
   <p><em>Target removal date: 2021</em></p>
-  </td> 
+  </td>
  </tr>
    <tr>
   <td>SMS connectors<br></td>
