@@ -137,8 +137,8 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 1. Select one of the out-of-the-box icon from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
 
 1. Select the **[!UICONTROL Authentication mode]**, you can always change your authentication mode later on in the **[!UICONTROL Certificate]** tab or your mobile application.
-   *  **[!UICONTROL Certificate-based authentication]**: Select your p12 key with the **[!UICONTROL Enter the certificate...]** link then select the authentication certificate and enter the password that was provided by the mobile application developer.
-   * **[!UICONTROL Token-based authentication]**: Fill in the connection settings **[!UICONTROL Key ID]**, **[!UICONTROL Team ID]** and **[!UICONTROL Bundle ID]** then select your p8 certificate by clicking **[!UICONTROL Enter the private key]**. For more on **[!UICONTROL Token-based authentication]**, refer to [Apple documentation](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apnsToken-based)
+   * **[!UICONTROL Certificate-based authentication]**: Click **[!UICONTROL Enter the certificate...]**  then select your p12 key and enter the password that was provided by the mobile application developer.
+   * **[!UICONTROL Token-based authentication]**: Fill in the connection settings **[!UICONTROL Key ID]**, **[!UICONTROL Team ID]** and **[!UICONTROL Bundle ID]** then select your p8 certificate by clicking **[!UICONTROL Enter the private key]**. For more on **[!UICONTROL Token-based authentication]**, refer to [Apple documentation](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apnsToken-based).
 
    ![](assets/nmac_ios_4.png)
 
@@ -148,7 +148,7 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
    ![](assets/nmac_ios_5.png)
 
-1. Click **[!UICONTROL Finish]**. 
+1. Click **[!UICONTROL Finish]**.
 
 Your iOS application is now ready to be used in Campaign Classic.
 
