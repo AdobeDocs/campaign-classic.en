@@ -304,4 +304,4 @@ The number of opens corresponds to the total number of messages opened. Text for
 
 >[!NOTE]
 >
->Browser and operating system names make up part of the information sent by the browser's user agent to which the nail has been opened. Adobe Campaign deduces the type of device using its the device information.
+>Browser and operating system names make up part of the information sent by the browser's user agent to which the message has been opened. Adobe Campaign deduces the type of device using its the device information.
