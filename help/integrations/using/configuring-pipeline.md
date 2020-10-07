@@ -46,13 +46,13 @@ Authentication is required since pipeline is hosted in the Adobe Experience Clou
 It uses a pair of public and private keys. This process has the same function as a user/password but is more secure.
 Authentication is supported for the Marketing Cloud via Adobe IO Project.
 
-## Step 1: Creating/updating Adobe IO Project
+## Step 1: Creating/updating Adobe IO Project {#creating-adobe-io-project}
 
 For Hosted customers, you can create a customer care ticket to enable your organization with Adobe IO Technical Account Tokens for the Triggers integration.
 
 For On Premise customers, refer to the Configuring Adobe IO for Adobe Experience Cloud Triggers page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe IO credential.
 
-## Step 2: Configuring NmsPipeline_Config pipeline option
+## Step 2: Configuring NmsPipeline_Config pipeline option {#configuring-nmspipeline}
 
 Once the authentication is set, pipeline will retrieve the events. It will only process triggers that are configured in Adobe Campaign. The trigger must have been generated from Adobe Analytics and pushed to the pipeline which will only process triggers that are configured in Adobe Campaign.
 The option can also be configured with a wildcard in order to catch all triggers regardless of the name.
@@ -106,7 +106,7 @@ Note that the trigger UID value to a specific trigger name in the Adobe Analytic
 
 Careful notation and logging of which triggers are active should be kept until the Analytics UI can be updated to visually include the triggerType ID that is passed in the pipeline data stream.
 
-### The Consumer parameter
+### The Consumer parameter {#consumer-parameter}
 
 The pipeline works like a “supplier and consumer” model. There can be many consumers on the same queue. Messages are “consumed” only for an individual consumer. Each consumer gets its own “copy” of the messages.
 
@@ -114,7 +114,7 @@ The “consumer” parameter identifies the instance as one of these consumers. 
 
 The pipeline service keeps track of the messages retrieved by each consumer. Using different consumers for different instances makes sure that every message is sent to each instance.
 
-### How to configure Pipeline option
+### Pipeline option recommendations {#pipeline-option-recommendation}
 
 To configure Pipeline option, you should follow these recommendations:
 
@@ -125,7 +125,7 @@ To configure Pipeline option, you should follow these recommendations:
 * Pipelined also supports the "aliases" topic.
 * You should always restart Pipelined after making changes.
 
-## Step 3: Optional configuration
+## Step 3: Optional configuration {#step-optional}
 
 You can change some internal parameters as per your load requirements but make sure to test them before putting them into production.
 
