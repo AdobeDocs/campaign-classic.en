@@ -43,7 +43,7 @@ The [!DNL pipelined] process is always running on the Adobe Campaign marketing s
 
 The [!DNL pipelined] process logs in to the Experience Cloud using an authentication service and sends a private key. The authentication service returns a token. The token is used to authenticate when retrieving the events.
 
-For more information on authentication, refer to this page.
+For more information on authentication, refer to this [page](../../delivery/using/configuring-adobe-io.md).
 
 >[!NOTE]
 >

@@ -19,13 +19,12 @@ snippet: y
 # Configuring pipeline {#configuring-pipeline}
 
 Authentication parameters such as the customer ID, the private key, and the authentication endpoint are configured in the instance configuration files.
-The list of triggers to be processed is configured in an option. It is in JSON format.
-The trigger is processed immediately using Javascript code. It is saved into a database table with no further processing in real time.
+The list of triggers to be processed is configured in an option in JSON format.
 The triggers are used for targeting by a campaign workflow that sends emails. The campaign is set up so that a customer that has both trigger events receives an email.
 
 >[!CAUTION]
 >
->In case of Hybrid deployment, ensure pipeline is configured on mid instance.
+>In case of Hybrid deployment, ensure that pipeline is configured on a mid-instance.
 
 ## Prerequisites {#prerequisites}
 
@@ -43,30 +42,32 @@ Prerequisite configurations are:
 
 ## Authentication and configuration files {#authentication-configuration}
 
-Authentication is required since Pipeline is hosted in the Adobe Experience Cloud.
-It uses a pair of public and private keys. This process is the same function as a user/password, only more secure.
-Authentication is supported for the Marketing cloud via Adobe IO Project.
+Authentication is required since pipeline is hosted in the Adobe Experience Cloud.
+It uses a pair of public and private keys. This process has the same function as a user/password but is more secure.
+Authentication is supported for the Marketing Cloud via Adobe IO Project.
 
 ## Step 1: Creating/updating Adobe IO Project
 
-For Hosted customers, please create a customer care ticket to Enable your org with Adobe IO Technical Account Tokens for Triggers Integration.
+For Hosted customers, you can create a customer care ticket to enable your organization with Adobe IO Technical Account Tokens for the Triggers integration.
 
-For On Premise customers, please visit this article to set it up: Adobe IO Project provisioning for ACC . Please select "Adobe Analytics" while adding API to the Adobe IO Credential.
+For On Premise customers, refer to the Configuring Adobe IO for Adobe Experience Cloud Triggers page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe IO credential.
 
-## Step 2: Pipeline option NmsPipeline_Config
+## Step 2: Configuring NmsPipeline_Config pipeline option
 
-Once the authentication works, pipelined will retrieve the events and process them. It will only process triggers that are configured in Adobe Campaign, ignoring the others. Of course, the trigger must have been generated from Analytics and pushed to the pipeline beforehand.
-The option can also be configured with a wildcard in order to catch all triggers regardless of name.
-The configuration of the triggers is done in an option, under Administration > Platform > Options. The option name is NmsPipeline_Config. Data type is "long text". It's in JSON format.
+Once the authentication is set, pipeline will retrieve the events. It will only process triggers that are configured in Adobe Campaign. The trigger must have been generated from Adobe Analytics and pushed to the pipeline which will only process triggers that are configured in Adobe Campaign.
+The option can also be configured with a wildcard in order to catch all triggers regardless of the name.
 
-Example 1
-This example specifies two triggers.
-Paste the JSON code from this template into the option value. Make sure to remove comments.
+1. In Adobe Campaign, access the options menu under **[!UICONTROL Administration]** > **[!UICONTROL Platform]**  > **[!UICONTROL Options]** in the **[!UICONTROL Explorer]**.
 
-{
+1. Select the **[!UICONTROL NmsPipeline_Config]** option.
+
+1. In the **[!UICONTROL Value (long text)]** field, you can paste the following JSON code, which specifies two triggers. You need to make sure to remove comments.
+
+    ```
+    {
     "topics": [ // list of "topics" that the pipelined is listening to.
        {
-            "name": "triggers", // Name of the first topic : triggers.
+            "name": "triggers", // Name of the first topic: triggers.
             "consumer": "customer_dev", // Name of the instance that listens.  This value can be found on the monitoring page of Adobe Campaign.
             "triggers": [ // Array of triggers.
                 {
@@ -79,34 +80,35 @@ Paste the JSON code from this template into the option value. Make sure to remov
             ]
         }
     ]
-}
-
-
-Example 2
-This example catches all triggers.
-
- {
- "topics": [
-    {
-      "name": "triggers",
-      "consumer":  "customer_dev",
-      "triggers": [
-        {
-          "name": "*",
-          "jsConnector": "cus:pipeline.js"
-        }
-      ]
     }
- ]
- }
+    ```
 
-Important Note:  The trigger UID value to a specific trigger name in the Analytics UI and can found as part of the URL querystring parameters on the trigger UI. The triggerType UID is passed in the pipeline data stream and code can be written into the pipeline.JS to map the trigger UID to a friendly label that can be stored in a Trigger Name column in the pipelineEvents schema.
+1. You can also paste the following JSON code which catches all triggers.
+
+    ```
+    {
+    "topics": [
+      {
+        "name": "triggers",
+        "consumer":  "customer_dev",
+        "triggers": [
+          {
+            "name": "*",
+            "jsConnector": "cus:pipeline.js"
+          }
+        ]
+      }
+    ]
+    }
+    ```
+
+Note that the trigger UID value to a specific trigger name in the Adobe Analytics UI and can found as part of the URL querystring parameters on the trigger UI. The triggerType UID is passed in the pipeline data stream and code can be written into the pipeline.JS to map the trigger UID to a friendly label that can be stored in a Trigger Name column in the pipelineEvents schema.
 
 Careful notation and logging of which triggers are active should be kept until the Analytics UI can be updated to visually include the triggerType ID that is passed in the pipeline data stream.
 
 ### The Consumer parameter
 
-The pipeline works with a “supplier and consumer” model. There can be many consumers on the same queue. Messages are “consumed” only for an individual consumer. Each consumer gets its own “copy” of the messages.
+The pipeline works like a “supplier and consumer” model. There can be many consumers on the same queue. Messages are “consumed” only for an individual consumer. Each consumer gets its own “copy” of the messages.
 
 The “consumer” parameter identifies the instance as one of these consumers. It’s the identity of the instance calling the pipeline. You can fill it with the instance name which can be found on the Monitoring page of the Client Console.
 
@@ -114,34 +116,60 @@ The pipeline service keeps track of the messages retrieved by each consumer. Usi
 
 ### How to configure Pipeline option
 
-Add or edit triggers under the "triggers" array; do not edit the rest.
-Make sure the JSON is valid; this website can help: http://jsonlint.com/
+To configure Pipeline option, you should follow these recommendations:
 
-"name" is the trigger ID. A wildcard "*" will catch all triggers.
-"Consumer" is the name of the calling instance or application. It should be configured with the instance name and customer name.
-Pipelined also supports the "aliases" topic.
-Restart pipelined after making changes.
+* Add or edit triggers under **[!UICONTROL Triggers]**, you should not edit the rest.
+* Make sure the JSON is valid. You can use a JSON Validator, refer to this [website](http://jsonlint.com/) for example.
+* "name" corresponds to the trigger ID. A wildcard "*" will catch all triggers.
+* "Consumer" corresponds to the name of the calling instance or application.
+* Pipelined also supports the "aliases" topic.
+* You should always restart Pipelined after making changes.
 
 ## Step 3: Optional configuration
 
-Optional Configuration
-You can tweak some internal parameters as per your load requirements. Please be careful and be sure to test them before putting them into production. The list of optional parameters is available in the Optional Configuration section in the Annexes below.
+You can change some internal parameters as per your load requirements but make sure to test them before putting them into production.
 
-Pipelined process auto-start
+The list of optional parameters can be found below:
+
+|  Option | Description  |
+|:-:|:-:|
+|  appName(Legacy) |  AppID of the OAuth application registered in the Legacy Oath application where the public key was uploaded. For more on this, refer to this [page](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md.) |
+| authGatewayEndpoint(Legacy)  |  URL to get gateway tokens. Default: ```https://api.omniture.com``` |
+|  authPrivateKey(Legacy) |  The private key, public part uploaded in the Legacy Oath application, AES encrypted with the XtkKey option: ```cryptString("PRIVATE_KEY")``` |
+| disableAuth(Legacy)  | Disable authentication, connecting without gateway tokens will only be accepted by some development Pipeline endpoints. |
+| discoverPipelineEndpoint  |  URL to find the Pipeline Services endpoint to be used for this tenant. Default: ```https://producer-pipeline-pnw.adobe.net``` |
+| dumpStatePeriodSec  |  Period between two dumps of the internal state process in ```var/INSTANCE/pipelined.json.``` <br> Internal state is also accessible on-demand here: ```http://INSTANCE:7781/pipelined/status``` |
+| forcedPipelineEndpoint  |  Disable the detection of the PipelineServicesEndpoint to force it |
+| monitorServerPort  | The pipelined process will listen on this port to provide the internal state process here: ```http://INSTANCE:PORT/pipelined/status```. <br>Default is 7781  |
+|  pointerFlushMessageCount |  When this number of messages is processed, the offsets will be saved in the database. <br> Default is 1000 |
+|  pointerFlushPeriodSec | After this period, the offsets will be saved in the database. <br>Default is 5 (secs) |
+| processingJSThreads  | Number of dedicated threads processing messages with custom JS connectors. <br> Default is 4  |
+|  processingThreads | Number of dedicated threads processing messages with built-in code. <br>Default is 4  |
+| retryPeriodSec  |  Delay between retries in case of processing errors. <br>Default is 30 (secs) |
+| retryValiditySec  | Discard the message if it is not successfully processed after this period (too many retries). <br>Default is 300 (secs)  |
+
+### Pipelined process auto-start {#pipelined-process-autostart}
+
 The pipelined process needs to be started automatically.
 
 For this, set the <pipelined> element in the config file to autostart="true":
 
+```
  <pipelined autoStart="true" ... "/>
-Pipelined process restart
+```
+
+### Pipelined process restart {#pipelined-process-restart}
+
 A restart is required for the changes to take effect:
+
+```
 nlserver restart pipelined@instance
+```
 
-## Step 4: Validation
+## Step 4: Validation {#step-validation}
 
-To validate the pipeline setup for provisioning., follow the steps below:
+To validate the pipeline setup for provisioning, follow the steps below:
 
-Make sure the pipelined process is running.
-Check the pipelined.log for pipeline connection logs.
-Verify the connection and pings are received. (Hosted customers can use the Monitoring Universe from the Client Console)
-Manual validation is completed.
+* Make sure the pipelined process is running.
+* Check the pipelined.log for pipeline connection logs.
+* Verify the connection and if pings are received. Hosted customers can use the Monitoring from the Client Console.
