@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: ff7e6f72-7605-41ee-b25a-1e4618e674d7
-index: y
-internal: n
-snippet: y
 ---
 
 # Target mapping{#target-mapping}

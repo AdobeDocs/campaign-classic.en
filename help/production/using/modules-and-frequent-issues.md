@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: a44f5e71-3f9b-4d02-8b7a-a9782bb6bdd8
-index: y
-internal: n
-snippet: y
 ---
 
 # Modules and frequent issues{#modules-and-frequent-issues}

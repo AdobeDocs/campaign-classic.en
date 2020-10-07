@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 7a92bc51-24cf-4ce6-bd50-a315f8f6e34e
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a test environment{#creating-a-test-environment}

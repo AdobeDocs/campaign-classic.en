@@ -11,9 +11,6 @@ audience: social
 content-type: reference
 topic-tags: configuration
 discoiquuid: 32f81ae9-396d-4bb6-8c81-6b75744f529d
-index: y
-internal: n
-snippet: y
 ---
 
 # Starting workflows{#starting-workflows}

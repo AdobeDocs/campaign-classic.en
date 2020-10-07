@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 discoiquuid: 820be231-af76-44ce-8f4d-cd5eae1eb169
-index: y
-internal: n
-snippet: y
 ---
 
 # Edition{#edition}

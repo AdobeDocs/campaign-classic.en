@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 discoiquuid: 568a9dec-5818-4666-b858-aa41fe827b92
-index: y
-internal: n
-snippet: y
 ---
 
 # Event recycling{#event-recycling}

@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: a2d34989-a6ca-4e98-8354-520b693f5604
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating an email delivery{#creating-an-email-delivery}

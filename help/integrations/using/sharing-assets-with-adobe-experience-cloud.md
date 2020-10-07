@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 discoiquuid: d10624ea-d961-4162-879b-1754f897d763
-index: y
-internal: n
-snippet: y
 ---
 
 # Sharing assets with Adobe Experience Cloud{#sharing-assets-with-adobe-experience-cloud}

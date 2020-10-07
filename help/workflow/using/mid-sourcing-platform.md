@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: a5c54b06-390c-4f4e-9f09-d9a53a529149
-index: y
-internal: n
-snippet: y
 ---
 
 # Mid-sourcing platform{#mid-sourcing-platform}

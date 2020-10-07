@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: d0dd9c74-aad5-452e-a11d-c231dacd2aec
-index: y
-internal: n
-snippet: y
 ---
 
 # Intersection{#intersection}

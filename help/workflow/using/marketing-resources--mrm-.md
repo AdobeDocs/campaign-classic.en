@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: cf535ff5-f871-4edb-bc05-993cd5b1937b
-index: y
-internal: n
-snippet: y
 ---
 
 # Marketing Resources (MRM){#marketing-resources-mrm}

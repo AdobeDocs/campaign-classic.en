@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 discoiquuid: 5d8bbfe0-e202-4062-aa47-9ad87b975bb7
-index: y
-internal: n
-snippet: y
 ---
 
 # About message tracking{#about-message-tracking}

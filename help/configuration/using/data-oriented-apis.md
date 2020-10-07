@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: fba46d42-0253-425b-bbc2-6702d4140e05
-index: y
-internal: n
-snippet: y
 ---
 
 # Data oriented APIs{#data-oriented-apis}

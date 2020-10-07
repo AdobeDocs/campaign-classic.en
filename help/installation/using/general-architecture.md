@@ -9,9 +9,6 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 7c28c179-eb18-437e-baf2-25829566c766
-index: y
-internal: n
-snippet: y
 ---
 
 # General architecture{#general-architecture}

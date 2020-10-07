@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 2c5e0004-2a5d-4e89-ae6c-6bad186bd958
-index: y
-internal: n
-snippet: y
 ---
 
 # Before starting{#before-starting}

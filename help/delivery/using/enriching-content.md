@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: 4404c21e-0a89-4762-af20-384ad7071916
-index: y
-internal: n
-snippet: y
 ---
 
 # Enriching content{#enriching-content}

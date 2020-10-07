@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 discoiquuid: 3cea2be4-4da4-4ebd-a241-1bbaa5abb16e
-index: y
-internal: n
-snippet: y
 ---
 
 # Live/Design environments{#live-design-environments}

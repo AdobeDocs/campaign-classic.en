@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
-index: y
-internal: n
-snippet: y
 ---
 
 # Understanding quarantine management{#understanding-quarantine-management}

@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 15bfe1c3-3502-4cac-a624-b2aa66bb5b4b
-index: y
-internal: n
-snippet: y
 ---
 
 # Client console availability for Linux{#client-console-availability-for-linux}

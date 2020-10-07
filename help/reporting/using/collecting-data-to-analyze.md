@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 594a333d-1fc3-49a0-b3f6-7ea8fa4321e9
-index: y
-internal: n
-snippet: y
 ---
 
 # Collecting data to analyze{#collecting-data-to-analyze}

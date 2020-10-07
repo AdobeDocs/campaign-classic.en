@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 discoiquuid: a557026c-3b6a-4302-a042-0015449eaca5
-index: y
-internal: n
-snippet: y
 ---
 
 # Simulation tracking{#simulation-tracking}

@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 2e648e63-06d2-4e8f-9934-066a41d18eac
-index: y
-internal: n
-snippet: y
 ---
 
 # Technical workflows{#technical-workflows}

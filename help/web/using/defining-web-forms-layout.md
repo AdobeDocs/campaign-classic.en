@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: 67d1d39b-3a5f-4ed6-8fcf-570891043b10
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining web forms layout{#defining-web-forms-layout}

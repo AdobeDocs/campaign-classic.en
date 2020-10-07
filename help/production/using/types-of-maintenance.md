@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 discoiquuid: 4a436ccf-097c-43e6-9eda-492bada5512a
-index: y
-internal: n
-snippet: y
 ---
 
 # Types of maintenance{#types-of-maintenance}

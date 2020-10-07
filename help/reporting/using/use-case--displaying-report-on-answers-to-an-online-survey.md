@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 discoiquuid: 5404a227-6cfb-463b-9a56-af46a022eb38
-index: y
-internal: n
-snippet: y
 ---
 
 # Use case: displaying report on answers to an online survey{#use-case-displaying-report-on-answers-to-an-online-survey}

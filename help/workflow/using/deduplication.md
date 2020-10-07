@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 83b915bd-7e23-41b5-9f9a-f7eb72026376
-index: y
-internal: n
-snippet: y
 ---
 
 # Deduplication{#deduplication}
@@ -48,7 +45,8 @@ Click the **[!UICONTROL Edit configuration...]** link to define the deduplicatio
    >[!NOTE]
    >
    >If you are using external data as input, for example from an external file, make sure you select the **[!UICONTROL Temporary schema]** option.
-   In the next step, the **[!UICONTROL Other]** option lets you select the criterion or criteria to be used:
+   >
+   >In the next step, the **[!UICONTROL Other]** option lets you select the criterion or criteria to be used:
 
    ![](assets/s_user_segmentation_dedup_param3.png)
 

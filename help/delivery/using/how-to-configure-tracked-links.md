@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 discoiquuid: 9cae3861-88eb-447a-aa23-9d1de0710eec
-index: y
-internal: n
-snippet: y
 ---
 
 # How to configure tracked links{#how-to-configure-tracked-links}

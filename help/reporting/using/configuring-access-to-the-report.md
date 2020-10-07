@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: dd50ca25-8fa2-48fa-84cc-a63e476701a0
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring access to the report{#configuring-access-to-the-report}

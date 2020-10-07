@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
-index: y
-internal: n
-snippet: y
 ---
 
 # How to use workflow data{#how-to-use-workflow-data}

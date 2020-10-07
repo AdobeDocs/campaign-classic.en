@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 discoiquuid: 0c33fd79-8fa5-4cc0-8881-c6d6f4ee1648
-index: y
-internal: n
-snippet: y
 ---
 
 # Editing forms{#editing-forms}

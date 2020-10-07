@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 discoiquuid: df1b6ead-3471-404a-b43f-a68fb86cb14c
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring access to Assets{#configuring-access-to-assets}

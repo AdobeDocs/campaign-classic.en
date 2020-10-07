@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: 8dfc5e7c-c762-46ba-bbda-a7251354cb47
-index: y
-internal: n
-snippet: y
 ---
 
 # Generating personalized PDF documents{#generating-personalized-pdf-documents}

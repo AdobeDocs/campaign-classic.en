@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: f87da08f-68b9-4e2b-821f-b3ff20e390f1
-index: y
-internal: n
-snippet: y
 ---
 
 # Enriching data{#enriching-data}

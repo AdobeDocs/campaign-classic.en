@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
-index: y
-internal: n
-snippet: y
 ---
 
 # Launching Adobe Campaign{#launching-adobe-campaign}

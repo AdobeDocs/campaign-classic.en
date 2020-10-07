@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: 38ba9be9-dabc-41d4-878c-d772955301fe
-index: y
-internal: n
-snippet: y
 ---
 
 # About web tracking{#about-web-tracking}

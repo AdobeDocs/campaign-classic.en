@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 0ca5e0f6-cc81-4da9-aecf-a095cc1a19f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining a conditional content{#defining-a-conditional-content}

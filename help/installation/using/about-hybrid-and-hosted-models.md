@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: hybrid-and-hosted-models
 discoiquuid: cf6dd02f-f493-4a83-ba77-b4544f63cab0
-index: y
-internal: n
-snippet: y
 ---
 
 # About hybrid and hosted models{#about-hybrid-and-hosted-models}

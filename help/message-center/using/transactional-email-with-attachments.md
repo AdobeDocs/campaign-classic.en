@@ -9,9 +9,6 @@ audience: message-center
 content-type: reference
 topic-tags: use-case
 discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
-index: y
-internal: n
-snippet: y
 ---
 
 # Use case: Sending transactional emails with attachments{#transactional-email-with-attachments}

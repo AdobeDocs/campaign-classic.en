@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: ef7aa3a0-249f-46eb-9300-5b97bce31c8c
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing profiles{#managing-profiles}

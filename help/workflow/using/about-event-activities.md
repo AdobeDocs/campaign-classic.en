@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 discoiquuid: 7714d028-018e-4728-8c92-42021ed280e0
-index: y
-internal: n
-snippet: y
 ---
 
 # About event activities{#about-event-activities}

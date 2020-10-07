@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: c4b3f1f1-4be7-441e-b348-35d0e26b57d8
-index: y
-internal: n
-snippet: y
 ---
 
 # Identifying execution instances{#identifying-execution-instances}

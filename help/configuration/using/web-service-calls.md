@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 6934c165-6d27-4ce5-8607-170f299b4702
-index: y
-internal: n
-snippet: y
 ---
 
 # Web service calls{#web-service-calls}

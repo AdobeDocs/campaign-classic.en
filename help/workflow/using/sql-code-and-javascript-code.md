@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 1afa75c2-7377-4d03-9105-11bcc9e3206c
-index: y
-internal: n
-snippet: y
 ---
 
 # SQL code and JavaScript code{#sql-code-and-javascript-code}

@@ -9,9 +9,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 6b3fe8b9-dae6-4f8e-83e1-3376c0fe72a5
-index: y
-internal: n
-snippet: y
 ---
 
 # About mobile app channel{#about-mobile-app-channel}

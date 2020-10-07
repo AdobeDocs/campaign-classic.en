@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: faaecbd6-f707-4307-8921-04d8993c2c47
-index: y
-internal: n
-snippet: y
 ---
 
 # Prerequisites of Campaign installation in Windows{#prerequisites-of-campaign-installation-in-windows}

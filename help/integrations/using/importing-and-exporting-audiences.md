@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 discoiquuid: f26cc65a-76be-4b7a-bde3-d0cbe3eedaaf
-index: y
-internal: n
-snippet: y
 ---
 
 # Importing and exporting audiences{#importing-and-exporting-audiences}

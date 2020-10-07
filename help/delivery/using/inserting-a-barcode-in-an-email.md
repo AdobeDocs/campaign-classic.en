@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: 679b9ae2-362c-483d-acb8-47bc01928541
-index: y
-internal: n
-snippet: y
 ---
 
 # Inserting a barcode in an email{#inserting-a-barcode-in-an-email}

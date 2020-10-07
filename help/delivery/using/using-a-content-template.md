@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: 48f491b7-bf7b-457f-9cf2-db2bbf4eceea
-index: y
-internal: n
-snippet: y
 ---
 
 # Using a content template{#using-a-content-template}

@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
-index: y
-internal: n
-snippet: y
 ---
 
 # IMS troubleshooting{#ims-troubleshooting}

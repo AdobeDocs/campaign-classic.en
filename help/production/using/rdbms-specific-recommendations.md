@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 discoiquuid: b2219912-5570-45d2-8b52-52486e29d008
-index: y
-internal: n
-snippet: y
 ---
 
 # RDBMS Specific recommendations{#rdbms-specific-recommendations}

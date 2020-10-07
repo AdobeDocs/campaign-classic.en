@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 discoiquuid: 9469495c-9e46-4fd8-826d-1b7227326ce1
-index: y
-internal: n
-snippet: y
 ---
 
 # About inbound channels{#about-inbound-channels}
