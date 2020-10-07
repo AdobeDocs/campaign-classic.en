@@ -15,8 +15,7 @@ discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
 
 >[!CAUTION]
 >
->Please keep in mind the SFTP storage, Database Storage and Active profile limits as per your Adobe 
-Campaign contract while importing data.
+>Please keep in mind the SFTP storage, Database Storage and Active profile limits as per your Adobe Campaign contract while importing data.
 
 ## How to collect data {#how-to-collect-data}
 
