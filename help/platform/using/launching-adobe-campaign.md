@@ -90,7 +90,8 @@ The **[!UICONTROL Help > About...]** menu lets you access the following informat
 * **build** number,
 * a link to contact Adobe Campaign Support.
 
-  >[!CAUTION]
-  >
-  >Whenever you reach out to Adobe Support team, you need to provide the version number and build number of your Campaign client console and application server.
+![](assets/about-acc.png)
 
+Whenever you reach out to Adobe Support team, you need to provide the version number and build number of your Campaign client console and application server.
+
+If you are running on [Campaign Gold Standard version](../../rn/using/gold-standard.md), you also need to share the SHA/1 characters which are displayed in the About box. As an example, for Gold **Standard 10 release**, the build number will show **build 9032&#64;efd8a94***. Learn more about Gold Standard in this [article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
