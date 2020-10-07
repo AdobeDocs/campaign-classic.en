@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 discoiquuid: a5fc6c78-b4fb-41fd-a072-7be4ece3c554
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating indicators{#creating-indicators}

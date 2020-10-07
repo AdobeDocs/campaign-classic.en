@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 582f7ac6-cebe-4b47-8730-bbc16fd6b1bd
-index: y
-internal: n
-snippet: y
 ---
 
 # Before reading{#before-reading}

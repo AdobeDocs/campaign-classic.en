@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 3bc88f9c-cc42-4bf6-a318-0093c73e4d82
-index: y
-internal: n
-snippet: y
 ---
 
 # Transactional message preview{#transactional-message-preview}

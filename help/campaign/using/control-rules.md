@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: be037a80-3f94-465c-ba7d-ae7d50f70e36
-index: y
-internal: n
-snippet: y
 ---
 
 # Control rules{#control-rules}

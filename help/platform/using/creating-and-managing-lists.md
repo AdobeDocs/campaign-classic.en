@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and managing lists{#creating-and-managing-lists}

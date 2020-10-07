@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 18d6f5e1-308f-4080-b7c4-ebf836f74842
-index: y
-internal: n
-snippet: y
 ---
 
 # SQL Data Management{#sql-data-management}

@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 discoiquuid: ad1ce80d-8976-430d-9964-e50d548b2822
-index: y
-internal: n
-snippet: y
 ---
 
 # Accessing the tracking logs{#accessing-the-tracking-logs}

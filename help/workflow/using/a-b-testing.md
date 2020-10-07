@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 4113c3fe-a279-4fe1-be89-ea43c96edc34
-index: y
-internal: n
-snippet: y
 ---
 
 # A/B testing{#a-b-testing}

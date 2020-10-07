@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 9834638f-a8bb-4969-9f8d-99b8d9fdb1ca
-index: y
-internal: n
-snippet: y
 ---
 
 # Standalone deployment{#standalone-deployment}

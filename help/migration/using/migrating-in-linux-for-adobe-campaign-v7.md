@@ -11,9 +11,6 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 discoiquuid: 8f6519e8-5c8d-4974-b193-a9f1cf78b3a3
-index: y
-internal: n
-snippet: y
 ---
 
 # Migrating in Linux for Adobe Campaign v7{#migrating-in-linux-for-adobe-campaign-v}

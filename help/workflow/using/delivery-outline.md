@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: a2a65f97-425b-44b2-8cf4-beea850423bc
-index: y
-internal: n
-snippet: y
 ---
 
 # Delivery outline{#delivery-outline}

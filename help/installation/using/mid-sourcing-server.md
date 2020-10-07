@@ -9,9 +9,6 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 34ee3d99-4ffb-4279-b994-5ab7abc7cf06
-index: y
-internal: n
-snippet: y
 ---
 
 # Mid-sourcing server{#mid-sourcing-server}

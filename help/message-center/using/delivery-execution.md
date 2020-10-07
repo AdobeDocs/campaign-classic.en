@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 discoiquuid: afb375de-2de3-47ad-8b37-664cc04864e8
-index: y
-internal: n
-snippet: y
 ---
 
 # Delivery execution{#delivery-execution}

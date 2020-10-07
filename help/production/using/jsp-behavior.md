@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 5dcc4090-effe-479e-8d5c-67e6a6542fbb
-index: y
-internal: n
-snippet: y
 ---
 
 # JSP behavior{#jsp-behavior}

@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: fac3e3ec-82a7-4087-ba88-2b28b0f69d1c
-index: y
-internal: n
-snippet: y
 ---
 
 # Log files{#log-files}

@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: 050c804e-87b7-4d68-b787-c396fec329d2
-index: y
-internal: n
-snippet: y
 ---
 
 # Privacy Data Protection Regulation{#general-data-protection-regulation-gdpr}

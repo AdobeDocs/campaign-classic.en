@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 discoiquuid: 716de3cb-7ec9-454b-9e8f-0b134388687c
-index: y
-internal: n
-snippet: y
 ---
 
 # About transactional messaging reports{#about-transactional-messaging-reports}

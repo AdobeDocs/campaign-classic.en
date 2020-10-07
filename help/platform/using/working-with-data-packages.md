@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 discoiquuid: 42867665-d0ca-486e-9110-91716c0d5c57
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with data packages{#working-with-data-packages}

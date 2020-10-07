@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: 5e9c17ad-14d2-4173-9fc9-0e48a21426c8
-index: y
-internal: n
-snippet: y
 ---
 
 # Operating principle{#operating-principle}

@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 discoiquuid: 64d87bea-2376-4684-ac93-6ca56fe0f262
-index: y
-internal: n
-snippet: y
 ---
 
 # ACS Connector principles and data cycle{#acs-connector-principles-and-data-cycle}

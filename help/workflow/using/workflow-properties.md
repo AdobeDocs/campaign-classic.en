@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: 71969b30-cc01-4358-9597-f17939720684
-index: y
-internal: n
-snippet: y
 ---
 
 # Workflow properties{#workflow-properties}

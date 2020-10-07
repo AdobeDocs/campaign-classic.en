@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring a delivery{#monitoring-a-delivery}

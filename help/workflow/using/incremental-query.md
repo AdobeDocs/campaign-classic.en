@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 31071cd2-7d97-4a4f-a6cc-5ac5b6178be5
-index: y
-internal: n
-snippet: y
 ---
 
 # Incremental query{#incremental-query}

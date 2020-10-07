@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 discoiquuid: 8653d4fc-e47f-451a-95f2-c9209a252664
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing the campaign package{#publishing-the-campaign-package}

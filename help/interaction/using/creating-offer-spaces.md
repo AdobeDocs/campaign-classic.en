@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 discoiquuid: 0fae2149-0980-466d-ac9e-8afec2e278be
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating offer spaces{#creating-offer-spaces}

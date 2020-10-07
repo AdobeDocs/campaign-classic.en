@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: f6e44634-3a13-480e-ab44-f3c744054a96
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing offer presentation{#managing-offer-presentation}

@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: ae8fc2b7-456b-481c-8abb-64dab1c22534
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing activity images{#managing-activity-images}

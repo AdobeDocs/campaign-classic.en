@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: dbe9080c-66e3-4ff6-8f16-959f9748f666
-index: y
-internal: n
-snippet: y
 ---
 
 # CRM Connectors{#crm-connectors}

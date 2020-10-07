@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 5addada8-0185-488f-9825-83f60981c139
-index: y
-internal: n
-snippet: y
 ---
 
 # About profiles{#about-profiles}

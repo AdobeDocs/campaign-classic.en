@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 978cbe62-f06a-46a6-b8a1-e30a65b8470a
-index: y
-internal: n
-snippet: y
 ---
 
 # Supervising workflows{#supervising-workflows}

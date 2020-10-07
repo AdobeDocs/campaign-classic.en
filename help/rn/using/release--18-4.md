@@ -11,9 +11,6 @@ audience: rn
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 4dc87ff3-eb6a-40ac-97ee-00b64cd7718d
-index: y
-internal: n
-snippet: y
 ---
 
 # Release 18.4{#release-18-4}

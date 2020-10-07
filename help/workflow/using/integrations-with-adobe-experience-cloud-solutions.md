@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: dddc3bdc-2344-423b-81d9-6f93847448a0
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrations with Adobe Experience Cloud solutions{#integrations-with-adobe-experience-cloud-solutions}

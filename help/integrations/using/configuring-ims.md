@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: 279d0548-c876-4d5f-a195-48618bd5e9d1
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring IMS{#configuring-ims}

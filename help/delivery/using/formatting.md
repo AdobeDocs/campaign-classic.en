@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: d678db05-cc44-4086-98a5-e5296e8e5de8
-index: y
-internal: n
-snippet: y
 ---
 
 # Formatting{#formatting}

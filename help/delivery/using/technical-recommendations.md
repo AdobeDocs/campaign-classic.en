@@ -9,9 +9,6 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
-index: y
-internal: n
-snippet: y
 ---
 
 # Technical recommendations{#technical-recommendations}

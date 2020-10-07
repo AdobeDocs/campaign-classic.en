@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 discoiquuid: affecd87-00a3-4d50-92d3-31ac6228948b
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing answers{#managing-answers}

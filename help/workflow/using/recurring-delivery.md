@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 185d3256-a21e-47d7-bee7-7b91762ca1e2
-index: y
-internal: n
-snippet: y
 ---
 
 # Recurring delivery{#recurring-delivery}

@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 81090be2-3ed4-4f35-948b-e21af6e19999
-index: y
-internal: n
-snippet: y
 ---
 
 # Sending a proof{#sending-a-proof}

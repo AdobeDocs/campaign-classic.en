@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: d90594bb-e3ba-4fb1-9e11-83d519c1ca7d
-index: y
-internal: n
-snippet: y
 ---
 
 # Offers by cell{#offers-by-cell}

@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: 72c5151c-ce1e-425a-9aee-beefe9f21a67
-index: y
-internal: n
-snippet: y
 ---
 
 # About campaign typologies{#about-campaign-typologies}

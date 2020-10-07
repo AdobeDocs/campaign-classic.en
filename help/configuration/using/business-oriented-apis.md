@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: e7b3ffca-c85f-498d-89b4-23fcff59de49
-index: y
-internal: n
-snippet: y
 ---
 
 # Business oriented APIs{#business-oriented-apis}

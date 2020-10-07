@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 discoiquuid: 691eea2c-bffc-4520-91c8-43798eece916
-index: y
-internal: n
-snippet: y
 ---
 
 # Use cases{#use-cases}

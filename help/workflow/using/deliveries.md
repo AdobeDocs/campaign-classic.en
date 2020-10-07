@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: 37612f62-68c0-4f73-a9a1-6d017aab862f
-index: y
-internal: n
-snippet: y
 ---
 
 # Deliveries{#deliveries}

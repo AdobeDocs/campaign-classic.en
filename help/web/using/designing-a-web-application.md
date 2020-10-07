@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: 08efa472-d090-404d-9ad7-47adb3489c30
-index: y
-internal: n
-snippet: y
 ---
 
 # Designing a web application{#designing-a-web-application}

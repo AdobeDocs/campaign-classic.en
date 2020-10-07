@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 discoiquuid: 9a61fe74-f779-4f23-be25-3d9a8e95704a
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing subscriptions{#managing-subscriptions}

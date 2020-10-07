@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 733576d2-505f-4598-89eb-a10e7331bf7e
-index: y
-internal: n
-snippet: y
 ---
 
 # Edit schema{#edit-schema}

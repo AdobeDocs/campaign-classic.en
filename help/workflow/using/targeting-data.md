@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 79f1e85a-b5e6-4875-ac57-ab979fc57079
-index: y
-internal: n
-snippet: y
 ---
 
 # Targeting data{#targeting-data}

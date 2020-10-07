@@ -9,9 +9,6 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
-index: y
-internal: n
-snippet: y
 ---
 
 # Querying delivery information {#querying-delivery-information}

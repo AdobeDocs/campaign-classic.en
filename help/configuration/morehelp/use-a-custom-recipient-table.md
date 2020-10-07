@@ -8,9 +8,6 @@ uuid: ef2710af-ba7d-4374-a5e9-ce5201238ad1
 contentOwner: sauviat
 discoiquuid: ea6012d3-a481-4f3d-9fba-ea9a7736241a
 iscontainer: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Use a custom recipient table{#use-a-custom-recipient-table}

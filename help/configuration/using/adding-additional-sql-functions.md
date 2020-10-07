@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 728a95f8-46fe-49a8-a645-a0dd6eeb6615
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding additional SQL functions{#adding-additional-sql-functions}

@@ -9,9 +9,6 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: f449ccd5-3965-4ab8-b5a9-993f3260aba9
-index: y
-internal: n
-snippet: y
 ---
 
 # SFTP server best practices and troubleshooting {#sftp-server-usage}

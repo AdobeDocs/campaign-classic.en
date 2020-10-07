@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: dd8f9adf-208c-42d9-b1a7-bfc8a690687e
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing Campaign Classic built-in packages{#installing-campaign-standard-packages}

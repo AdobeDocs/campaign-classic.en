@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 discoiquuid: fa9ae600-91fc-4aea-ae02-8ab9064947ac
-index: y
-internal: n
-snippet: y
 ---
 
 # Inbound SMS{#inbound-sms}

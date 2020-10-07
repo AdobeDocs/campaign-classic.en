@@ -9,9 +9,6 @@ audience: social
 content-type: reference
 topic-tags: introduction
 discoiquuid: 743b891a-5857-4734-8035-ea9f23860680
-index: y
-internal: n
-snippet: y
 ---
 
 # About social marketing{#about-social-marketing}

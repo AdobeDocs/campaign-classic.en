@@ -9,9 +9,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: e2dd8161-fe38-48bf-a288-8ec328b2660e
-index: y
-internal: n
-snippet: y
 ---
 
 # Sending an email{#sending-an-email}

@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring processes{#monitoring-processes}

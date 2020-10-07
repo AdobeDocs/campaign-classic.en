@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 76984d9d-7759-4e0f-a275-09cca27589fa
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementing SOAP methods{#implementing-soap-methods}

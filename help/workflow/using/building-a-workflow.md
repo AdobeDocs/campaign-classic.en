@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 2d4ccf81-cd85-4f4c-8ba8-5b5612af1e16
-index: y
-internal: n
-snippet: y
 ---
 
 # Building a workflow {#building-a-workflow}

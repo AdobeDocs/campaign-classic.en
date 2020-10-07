@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: aa37bdc6-0f85-4eca-859f-e8b15083cfb5
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring SpamAssassin{#configuring-spamassassin}

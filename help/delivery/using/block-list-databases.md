@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: eede254d-2b25-46ed-b10f-fa1d54780a75
-index: y
-internal: n
-snippet: y
 ---
 
 # Block list databases{#blocklisting-databases}

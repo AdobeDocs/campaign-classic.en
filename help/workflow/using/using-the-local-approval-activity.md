@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: c143d8c3-c3ce-470c-8812-4b19cdb8afbf
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the local approval activity{#using-the-local-approval-activity}

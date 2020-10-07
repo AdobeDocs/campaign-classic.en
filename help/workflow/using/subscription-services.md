@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 940bec7e-e3f0-4251-b7fe-72bf188743a7
-index: y
-internal: n
-snippet: y
 ---
 
 # Subscription Services{#subscription-services}

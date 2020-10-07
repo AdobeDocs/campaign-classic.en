@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 96a7aea4-4799-4ac7-8dff-666b075a1c43
-index: y
-internal: n
-snippet: y
 ---
 
 # Read list{#read-list}

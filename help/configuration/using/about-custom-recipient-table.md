@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: c3ff8462-e47e-4637-8213-769fdeb86a57
-index: y
-internal: n
-snippet: y
 ---
 
 # About custom recipient table{#about-custom-recipient-table}

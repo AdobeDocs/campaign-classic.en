@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
-index: y
-internal: n
-snippet: y
 ---
 
 # Personalization blocks{#personalization-blocks}

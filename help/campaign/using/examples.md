@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 discoiquuid: 7b0aef75-345d-45be-b7d0-a9f6944ee678
-index: y
-internal: n
-snippet: y
 ---
 
 # Examples{#examples}

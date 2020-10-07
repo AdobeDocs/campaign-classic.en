@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 discoiquuid: 6d19a5a6-98e5-4b1a-a56a-67cfead152bd
-index: y
-internal: n
-snippet: y
 ---
 
 # Submitting request to Adobe{#submitting-request-to-adobe}

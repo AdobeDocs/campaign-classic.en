@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 9ca649b4-2226-4cfe-bae1-4632c421975b
-index: y
-internal: n
-snippet: y
 ---
 
 # Using aggregates{#using-aggregates}
