@@ -34,10 +34,10 @@ Prerequisite configurations are:
 
 1. Extract existing integration client ID from Adobe Campaign.
 
-    * For Build Version 20.2.1, extract the client Id from the instance configuration file ims/authIMSTAClientId
+    * For Build Version 20.2.1, extract the client Id from the instance configuration file ims/authIMSTAClientId.
     <br>Non existing or empty attribute indicates client Id is not configured.
 
-    * Build Version 19.1.9 and 20.3.1 or above, use SOAP call and replace <INSTANCE_URI> and <SESSION_TOKEN>
+    * Build Version 19.1.9 and 20.3.1 or above, use SOAP call and replace <&nbsp;INSTANCE_URI&nbsp;> and <&nbsp;SESSION_TOKEN&nbsp;>
 
         ```
         curl --location --request POST '<INSTANCE_URI>/nl/jsp/soaprouter.jsp' \
@@ -56,15 +56,17 @@ Prerequisite configurations are:
 
     >[!NOTE]
     >
-    >If your Client ID is empty, you can directly create a New project in Adobe IO.
+    >If your Client ID is empty, you can directly **[!UICONTROL Create a New project]** in Adobe IO.
 
 1. You know need to identify the existing project using the extracted client ID.
 
-    1. Create an API key from the gateway console at (admin.adobe.io), linked to any IMSOrgID (required to be done just once)
-    1. Subscribe this API key to DevManagentAPISDK and JIL(required to be done just once)
-    1. Get the user token by logging-in to console.adobe.io as a person with system admin role for the IMSOrg we are working for, open developer console and type copy(adobeIMS.getAccessToken()). This token has the following scopes ```AdobeID,openid,adobeio_api,gnav,read_organizations,additional_info.projectedProductContext,unified_dev_portal,additional_info.roles,read_pc.dma_bullseye,session,adobeio.appregistry.read,adobeio.appregistry.write,sao.creative_cloud. FYI, unified_dev_portal``` is the one we need.
-    1. Use this user token + API key to call Console APIs.
-    1. Setup environment
+    1. Create an API key from the [gateway console](admin.adobe.io) linked to any IMSOrgID.
+    1. Subscribe this API key to DevManagentAPISDK and JIL.
+    1. Get the user token by logging-in to Adobe IO console with System administrator role for the IMSOrg and open the developer console and type: copy(adobeIMS.getAccessToken()).
+    This token has the following scopes: AdobeID, openid, adobeio_api, gnav, read_organizations, additional_info.projectedProductContext, unified_dev_portal, additional_info.roles, read_pc.dma_bullseye, session, adobeio.appregistry.read, adobeio.appregistry.write, sao.creative_cloud.
+    1. Use the user token and API key to call Console APIs.
+    1. Setup the environment as follows:
+
         ```
         export API_KEY='<API Key created in step 1 of Prerequisite Steps>'
         export TOKEN='Bearer <copied from developer console in step 3 of Prerequisite Steps>'
@@ -72,7 +74,8 @@ Prerequisite configurations are:
         export CLIENT_ID='<Project Client ID extracted from Campaign>'
        
         ```
-    1. Run the following script to extract Project details:
+
+    1. Run the following script to extract the project details:
 
         ```    
         #!/bin/sh
@@ -112,15 +115,27 @@ Prerequisite configurations are:
 
 1. Select **[!UICONTROL + Add to Project]** and choose **[!UICONTROL API]**.
 
+    ![](assets/adobe_io_1.png)
+
 1. In the window **[!UICONTROL Add an API]**, select **[!UICONTROL Adobe Analytics]**.
+
+    ![](assets/adobe_io_2.png)
 
 1. Choose **[!UICONTROL Service Account (JWT)]** as the authentication type.
 
+    ![](assets/adobe_io_3.png)
+
 1. If you're Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a Public and Private keypair.
+
+    ![](assets/adobe_io_4.png)
 
 1. Upload your public key and click **[!UICONTROL Next]**.
 
-1. Choose the product profile called Analytics-<Org Name> and click Save configured API.
+    ![](assets/adobe_io_5.png)
+
+1. Choose the product profile called **Analytics-<&nbsp;Org Name&nbsp;>** and click **[!UICONTROL Save configured API]**.
+
+    ![](assets/adobe_io_6.png)
 
 1. From your project, select **[!UICONTROL Service Account (JWT)]** and copy the following information:
     * **[!UICONTROL Client ID]**
@@ -128,12 +143,14 @@ Prerequisite configurations are:
     * **[!UICONTROL Technical account ID]**
     * **[!UICONTROL Organization ID]**
 
+    ![](assets/adobe_io_7.png)
+
 ## Step 2: Add the project credentials in Adobe Campaign {#add-credentials-campaign}
 
-To add the project credentials in Adobe Campaign, run the following command as `neolane` user on all the containers of the campaign instance command to insert the Technical Account credentials in the instance configuration file.
+To add the project credentials in Adobe Campaign, run the following command as neolane user on all the containers of the campaign instance command to insert the Technical Account credentials in the instance configuration file.
 
 ```
-    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID[/Client_Secret[/Base64_encoded_Private_Key]]
+nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID[/Client_Secret[/Base64_encoded_Private_Key]]
 ```
 
 >[!NOTE]
@@ -142,7 +159,7 @@ To add the project credentials in Adobe Campaign, run the following command as `
 
 ## Step 3: Update pipelined tag {#update-pipelined-tag}
 
-To update pipelined tag, you need to update the authentication type to Adobe IO project in the <configuration file config-<instance-name>.xml as follows:
+To update pipelined tag, you need to update the authentication type to Adobe IO project in the configuration file **config-<&nbsp;instance-name&nbsp;>.xml** as follows:
 
 ```
 <pipelined ... authType="imsJwtToken"  ... />
@@ -150,4 +167,4 @@ To update pipelined tag, you need to update the authentication type to Adobe IO 
 
 >[!NOTE]
 >
->If you were using the older version of Triggers Integration (using Legacy JWT tokens), and you reached here to configure some other feature, you should also add the Adobe IO API for "Adobe Analytics"(in step 1) to automatically migrate to the new Triggers Authentication as well.
+>If you are using the older version of Triggers Integration using Legacy JWT tokens, you should also add the Adobe IO API for [!DNL Adobe Analytics] detailed in the first step to automatically migrate to the new Triggers Authentication.
