@@ -180,7 +180,7 @@ function processPipelineMessage(xmlTrigger)
  data = {xmlTrigger.toXMLString()}
  />
  xtk.session.Write(event)
- return <undef/>; 
+ return <undef/>;
  }
 ```
 

@@ -50,7 +50,7 @@ Authentication is supported for the Marketing Cloud via Adobe IO Project.
 
 For Hosted customers, you can create a customer care ticket to enable your organization with Adobe IO Technical Account Tokens for the Triggers integration.
 
-For On Premise customers, refer to the Configuring Adobe IO for Adobe Experience Cloud Triggers page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe IO credential.
+For On Premise customers, refer to the [Configuring Adobe IO for Adobe Experience Cloud Triggers](../../help/integrations/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe IO credential.
 
 ## Step 2: Configuring NmsPipeline_Config pipeline option {#configuring-nmspipeline}
 
@@ -102,17 +102,13 @@ The option can also be configured with a wildcard in order to catch all triggers
     }
     ```
 
-Note that the trigger UID value to a specific trigger name in the Adobe Analytics UI and can found as part of the URL querystring parameters on the trigger UI. The triggerType UID is passed in the pipeline data stream and code can be written into the pipeline.JS to map the trigger UID to a friendly label that can be stored in a Trigger Name column in the pipelineEvents schema.
-
-Careful notation and logging of which triggers are active should be kept until the Analytics UI can be updated to visually include the triggerType ID that is passed in the pipeline data stream.
-
 ### The Consumer parameter {#consumer-parameter}
 
-The pipeline works like a “supplier and consumer” model. There can be many consumers on the same queue. Messages are “consumed” only for an individual consumer. Each consumer gets its own “copy” of the messages.
+The pipeline works like a supplier and consumer model. There can be many consumers on the same queue. Messages are consumed only for an individual consumer: each consumer gets its own copy of the messages.
 
-The “consumer” parameter identifies the instance as one of these consumers. It’s the identity of the instance calling the pipeline. You can fill it with the instance name which can be found on the Monitoring page of the Client Console.
+The Consumer parameter identifies the instance as one of these consumers. The identity of the instance will call the pipeline. You can fill it with the instance name which can be found on the Monitoring page of the Client Console.
 
-The pipeline service keeps track of the messages retrieved by each consumer. Using different consumers for different instances makes sure that every message is sent to each instance.
+The pipeline service keeps track of the messages retrieved by each consumer. Using different consumers for different instances allows you to make sure that every message is sent to each instance.
 
 ### Pipeline option recommendations {#pipeline-option-recommendation}
 
