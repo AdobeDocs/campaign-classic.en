@@ -88,24 +88,20 @@ Prerequisite configurations are:
         jq '.[] | select(.code=="'$IMS_ORG_ID'") | .id' | \
         sed -e 's|"||g'\
         )
-	
         #Get Integration Id
         export INTEGRATION_ID=$(curl -H "x-api-key: $API_KEY" -H "Authorization: $TOKEN" "$ENDPOINT/console/organizations/$ORG_ID/integrations" | \
         jq '.content | .[] | select(.apiKey=="'$CLIENT_ID'") | .id'
         )
-	
         #Get Project Id
         export PROJECT_ID=$(curl -H "x-api-key: $API_KEY" -H "Authorization: $TOKEN" "$ENDPOINT/console/organizations/$ORG_ID/projects_workspaces/credentials/$INTEGRATION_ID" | \
         jq '.projectId'| \
         sed -e 's|"||g'\
         )
-	
         #Get Project Name
         export PROJECT_TITLE=$(curl -H "x-api-key: $API_KEY" -H "Authorization: $TOKEN" "$ENDPOINT/console/organizations/$ORG_ID/projects/$PROJECT_ID" | \
         jq '.title'| \
         sed -e 's|"||g'\
         )
-
         echo $'\n\n'
         echo "Project Title: "$PROJECT_TITLE
         echo 'Project URL:   https://console.adobe.io/projects/'$ORG_ID'/'$PROJECT_ID'/overview'
