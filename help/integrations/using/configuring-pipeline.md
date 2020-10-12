@@ -148,7 +148,7 @@ The list of optional parameters can be found below:
 
 The pipelined process needs to be started automatically.
 
-For this, set the <pipelined> element in the config file to autostart="true":
+For this, set the <&nbsp;pipelined&nbsp;> element in the config file to autostart="true":
 
 ```
  <pipelined autoStart="true" ... "/>
