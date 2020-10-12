@@ -47,7 +47,7 @@ For more information on authentication, refer to this [page](../../integrations/
 
 >[!NOTE]
 >
->Further processing of events is done as part of the ACX Package provided outside the default implementation. Received event is processed immediately using JavaScript code. It is saved into a database table with no further processing in real time. The triggers are used for targeting by a campaign workflow that sends emails. The campaign is set up so that a customer that has triggered the event, receives an email.
+>Further processing of events is done as part of the ACX Package provided outside the default implementation. Received event is processed immediately using JavaScript code. It is saved into a database table with no further processing in real time. The triggers are used for targeting by a campaign workflow which sends emails. The campaign is set up so the customer that has triggered the event will receive an email.
 
 ## Using Adobe Experience Cloud Triggers integration with Adobe Campaign Classic
 

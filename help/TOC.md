@@ -330,8 +330,7 @@ type: Documentation
        + [About [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
        + [Configuring pipeline](integrations/using/configuring-pipeline.md)
        + [Configuring Adobe IO for Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)
-       + [Pipeline option NmsPipeline_Config](integrations/using/nmspipeline-config.md)
-       + [ACX package implementation](integrations/using/events.md)
+       + [Configuring events](integrations/using/events.md)
        + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
 + Automating with Workflows {#automating-with-workflows}

@@ -83,7 +83,7 @@ The option can also be configured with a wildcard in order to catch all triggers
     }
     ```
 
-1. You can also paste the following JSON code which catches all triggers.
+1. You can also choose to paste the following JSON code which catches all triggers.
 
     ```
     {
@@ -104,9 +104,9 @@ The option can also be configured with a wildcard in order to catch all triggers
 
 ### The Consumer parameter {#consumer-parameter}
 
-The pipeline works like a supplier and consumer model. There can be many consumers on the same queue. Messages are consumed only for an individual consumer: each consumer gets its own copy of the messages.
+The pipeline works like a supplier and consumer model. Messages are consumed only for an individual consumer: each consumer gets its own copy of the messages.
 
-The Consumer parameter identifies the instance as one of these consumers. The identity of the instance will call the pipeline. You can fill it with the instance name which can be found on the Monitoring page of the Client Console.
+The **Consumer** parameter identifies the instance as one of these consumers. The identity of the instance will call the pipeline. You can fill it with the instance name which can be found on the Monitoring page of the Client Console.
 
 The pipeline service keeps track of the messages retrieved by each consumer. Using different consumers for different instances allows you to make sure that every message is sent to each instance.
 
@@ -119,7 +119,7 @@ To configure Pipeline option, you should follow these recommendations:
 * "name" corresponds to the trigger ID. A wildcard "*" will catch all triggers.
 * "Consumer" corresponds to the name of the calling instance or application.
 * Pipelined also supports the "aliases" topic.
-* You should always restart Pipelined after making changes.
+* You should always restart pipelined after making changes.
 
 ## Step 3: Optional configuration {#step-optional}
 
@@ -166,6 +166,6 @@ nlserver restart pipelined@instance
 
 To validate the pipeline setup for provisioning, follow the steps below:
 
-* Make sure the pipelined process is running.
+* Make sure the [!DNL pipelined] process is running.
 * Check the pipelined.log for pipeline connection logs.
 * Verify the connection and if pings are received. Hosted customers can use the Monitoring from the Client Console.

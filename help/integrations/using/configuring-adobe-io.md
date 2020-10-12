@@ -26,7 +26,7 @@ Prerequisite configurations are:
 
 ## Step 1: Create/update Adobe IO Project {#creating-adobe-io-project}
 
-1. Access Adobe IO and log in using a System Administrator for the IMSorg.
+1. Access Adobe IO and log in with the System Administrator right for the IMSorg.
 
     >[!NOTE]
     >
@@ -143,7 +143,7 @@ Prerequisite configurations are:
 
 ## Step 2: Add the project credentials in Adobe Campaign {#add-credentials-campaign}
 
-To add the project credentials in Adobe Campaign, run the following command as neolane user on all the containers of the campaign instance command to insert the Technical Account credentials in the instance configuration file.
+To add the project credentials in Adobe Campaign, run the following command as neolane user on all the containers of the Adobe Campaign instance to insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
 
 ```
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID[/Client_Secret[/Base64_encoded_Private_Key]]
@@ -155,7 +155,7 @@ nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_
 
 ## Step 3: Update pipelined tag {#update-pipelined-tag}
 
-To update pipelined tag, you need to update the authentication type to Adobe IO project in the configuration file **config-<&nbsp;instance-name&nbsp;>.xml** as follows:
+To update [!DNL pipelined] tag, you need to update the authentication type to Adobe IO project in the configuration file **config-<&nbsp;instance-name&nbsp;>.xml** as follows:
 
 ```
 <pipelined ... authType="imsJwtToken"  ... />
