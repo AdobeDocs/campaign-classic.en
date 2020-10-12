@@ -45,7 +45,7 @@ The @authPrivateKey parameter of the instance config file is incorrect.
 1. Check that the authPrivateKey is set.
 1. Check that the authPrivateKey: starts with @, ends with =, and is about 4000 characters long.
 1. Look for the original key and check that it is: in RSA format, 4096 bits long, and starts with -----BEGIN RSA PRIVATE KEY-----.
-<br> If necessary, re-create the key and register it on Adobe Analytics. Refer to this [section](../../integrations/using/configuring-pipeline.md#oauth-client-creation).
+<br> If necessary, re-create the key and register it on Adobe Analytics.
 1. Check that the key was encoded within the same instance as [!DNL pipelined]. <br>If necessary, redo the encoding using the sample JavaScript or workflow.
 
 **Pipelined fails with "unable to read the token during authentication"**
