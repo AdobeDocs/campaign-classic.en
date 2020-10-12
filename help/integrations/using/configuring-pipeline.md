@@ -50,7 +50,7 @@ Authentication is supported for the Marketing Cloud via Adobe IO Project.
 
 For Hosted customers, you can create a customer care ticket to enable your organization with Adobe IO Technical Account Tokens for the Triggers integration.
 
-For On Premise customers, refer to the [Configuring Adobe IO for Adobe Experience Cloud Triggers](../../help/integrations/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe IO credential.
+For On Premise customers, refer to the [Configuring Adobe IO for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe IO credential.
 
 ## Step 2: Configuring NmsPipeline_Config pipeline option {#configuring-nmspipeline}
 

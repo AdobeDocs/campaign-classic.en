@@ -60,7 +60,7 @@ Prerequisite configurations are:
 
 1. You know need to identify the existing project using the extracted client ID.
 
-    1. Create an API key from the [gateway console](admin.adobe.io) linked to any IMSOrgID.
+    1. Create an API key from the [gateway console](https://admin.adobe.io/) linked to any IMSOrgID.
     1. Subscribe this API key to DevManagentAPISDK and JIL.
     1. Get the user token by logging-in to Adobe IO console with System administrator role for the IMSOrg and open the developer console and type: copy(adobeIMS.getAccessToken()).
     This token has the following scopes: AdobeID, openid, adobeio_api, gnav, read_organizations, additional_info.projectedProductContext, unified_dev_portal, additional_info.roles, read_pc.dma_bullseye, session, adobeio.appregistry.read, adobeio.appregistry.write, sao.creative_cloud.
