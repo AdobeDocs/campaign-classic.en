@@ -171,7 +171,7 @@ The **[!UICONTROL Advanced]** tab of delivery properties lets you define the pro
 The following options are available:
 
 * The first option lets you keep the proof doubles.
-* Both of the following options let you keep recipients that are on the block list and addresses in quarantine. See the description of these options for the main target in [Customizing exclusion settings](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). Unlike the target of a delivery, where these addresses are excluded by default, they are kept by default for the target of a proof.
+* Both of the following options let you keep recipients that are on denylist and addresses in quarantine. See the description of these options for the main target in [Customizing exclusion settings](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). Unlike the target of a delivery, where these addresses are excluded by default, they are kept by default for the target of a proof.
 * The **[!UICONTROL Keep the delivery code for the proof]** option lets you give the proof the same delivery code as the one defined for the delivery to which it relates. This code is specified in the first step of the delivery wizard.
 * By default, the subject of the proof is prefixed by 'Proof #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.
 

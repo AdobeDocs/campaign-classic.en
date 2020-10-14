@@ -40,39 +40,39 @@ If you always get the same error message for an ISP, your email or IP may have b
 
 If the problem persists, contact the commercial or deliverability services, Adobe Campaign Client Care or Adobe Campaign support.
 
-## Block list versus quarantine {#block-list-versus-quarantine}
+## Denylist versus quarantine {#denylist-versus-quarantine}
 
-* **What is the difference between an email address on the block list and a quarantined email address?**
+* **What is the difference between a email address on denylist and a quarantined email address?**
 
-    * The status **[!UICONTROL On block list]** is a result of a feedback loop (when a person reports a message as spam).
+    * The status **[!UICONTROL Denylisted]** is a result of a feedback loop (when a person reports a message as spam).
 
     * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
     
-    For more on this, see [this section](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-block-list).
+    For more on this, see [this section](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **What do the different quarantine error reasons mean?**
 
-    Here are 10 possible reasons: not defined, user unknown, invalid domain, address on block list, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
+    Here are 10 possible reasons: not defined, user unknown, invalid domain, on denylist, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
     
     For more on this, see [Understanding quarantine management](../../delivery/using/understanding-quarantine-management.md).
 
-## Removing from block list {#remove-from-block-list}
+## Removing from denylist {#remove-from-denylist}
 
-* **One of my recipients was added to the block list by mistake. How do I remove them from the block list so that I can start sending them messages again?**
+* **One of my recipients was added to denylist by mistake. How do I remove them from the denyist so that I can start sending them messages again?**
 
     * Go to **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
     * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
     * Save the record.
 
-* **How can I find out whether one of my IPs is on a block list? How do I remove my IP(s) from a block list?**
+* **How can I find out whether one of my IPs is on a denylist? How do I remove my IP(s) from a denylist?**
 
-    To check whether your IP address is on a block list, you can use various web sites to verify it, such as:
+    To check whether your IP address is on a denylist, you can use various web sites to verify it, such as:
     * [MX Toolbox](https://mxtoolbox.com/)
     * [What is my IP address](https://whatismyipaddress.com)
 
-    Generally, the result of the IP address check will return a list that contains details of the block list and also the name of the web site that blocked the IP address.
+    Generally, the result of the IP address check will return a list that contains details of the denylist and also the name of the web site that denied the IP address.
 
-    By clicking the corresponding link, you can access the web site details. Then, you can request that your web site be delisted from the web site that added the IP address to its block list.
+    By clicking the corresponding link, you can access the web site details. Then, you can request that your web site be delisted from the web site that added the IP address to its denylist.
 
     >[!NOTE]
     >

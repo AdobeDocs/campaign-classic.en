@@ -557,7 +557,7 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** (n
   <tr> 
    <td> Complaints<br /> </td> 
    <td> @complaints<br /> </td> 
-   <td> Count of messages with a status equal to "Failed" and a reason equal to "address added to the block list".<br /> </td> 
+   <td> Count of messages with a status equal to "Failed" and a reason equal to "address on denylist".<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=8)<br /> </td> 
   </tr> 
   <tr> 
@@ -759,7 +759,7 @@ This report is based on the **[!UICONTROL Delivery]** table (nms:delivery).
   <tr> 
    <td> Messages rejected by the rule<br /> </td> 
    <td> @reject<br /> </td> 
-   <td> Number of addresses ignored during the analysis in keeping with typology rules: address not specified, quarantined, added to the block list, etc.<br /> </td> 
+   <td> Number of addresses ignored during the analysis in keeping with typology rules: address not specified, quarantined, on denylist, etc.<br /> </td> 
    <td> sum([properties/@reject])<br /> </td> 
   </tr> 
   <tr> 

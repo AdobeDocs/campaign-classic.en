@@ -24,7 +24,7 @@ SpamAssassin leverages a variety of spam-detection techniques, including:
 * DNS-based and fuzzy-checksum-based spam detection
 * Bayesian filtering
 * External programs
-* Block lists
+* Denylists
 * Online databases
 
 >[!NOTE]

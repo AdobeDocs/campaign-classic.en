@@ -19,8 +19,6 @@ discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
 
 A list is a static set of profiles that can be targeted in delivery actions or updated during import operations or during workflow execution. For example, a population extracted from the database via a query can supply a list.
 
-
-
 Lists are created and managed via the **[!UICONTROL Lists]** link in the **[!UICONTROL Profiles and targets]** tab.
 
 ![](assets/s_ncs_user_interface_group_link.png)
@@ -34,6 +32,8 @@ Two types of lists are available in Adobe Campaign:
 * **[!UICONTROL List]** type: The **[!UICONTROL List]** type lists allows you to use workflows to create and manage lists. These will be specific lists resulting from data imports, that can be updated via the dedicated **[!UICONTROL List update]** workflow activity.
 
   Unlike the **[!UICONTROL Group]** type list, this type list can be automatically updated with a **[!UICONTROL Scheduler]** activity. Note that For an example on how to create **[!UICONTROL List]** type lists, refer to [this page](../../workflow/using/list-update.md).
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#create-list-video)
 
 ## Creating a profile list from a group {#creating-a-profile-list-from-a-group}
 
@@ -124,3 +124,22 @@ You can delete one or more lists from the group list in the Adobe Campaign tree.
 >
 >When you delete a list, the profiles on the list are not affected but the data in their profile is updated.
 
+## How to create a list of recipients {#create-list-video}
+
+A list is a static set of recipients that can be targeted in delivery actions or updated during import operations or during workflow execution. A list of recipients is also referred to as audience.
+
+Learn how to create an audience by configuring a list of recipients from the Explorer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+
+## How to create a list of recipients with a workflow
+
+Learn how create a workflow in order to target recipients and how to make it recurring before using the list in an email target.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
+
+**See also**
+
+* 
+
+* 

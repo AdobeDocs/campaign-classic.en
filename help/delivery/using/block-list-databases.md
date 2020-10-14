@@ -1,7 +1,7 @@
 ---
-title: Block list databases
-seo-title: Block list databases
-description: Block list databases
+title: Denylist databases
+seo-title: Denylist databases
+description: Denylist databases
 seo-description: 
 page-status-flag: never-activated
 uuid: 8a4a69f9-87d5-4044-bc55-76cdcb2e7800
@@ -13,7 +13,7 @@ topic-tags: deliverability-management
 discoiquuid: eede254d-2b25-46ed-b10f-fa1d54780a75
 ---
 
-# Block list databases{#blocklisting-databases}
+# Denylist databases{#denylist-databases}
 
 Several organizations maintain databases of IP addresses and domains that are reputed to be used by spammers. Consulting these sites can be useful to understand why certain messages were rejected as spam. It is generally possible to request the removal of an address erroneously added to these lists.
 

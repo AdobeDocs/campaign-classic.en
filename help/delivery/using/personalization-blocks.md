@@ -103,7 +103,7 @@ A list of personalization blocks is available by default to help you personalize
   >For more on the mirror page generation, refer to [Generating the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
-* **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (block list).
+* **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (denylist).
 * **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. This block must be inserted in the source code of the delivery, into **`<script>...</script>`** tags.
 
   In the example below, the function is used to replace the element "My header" by "My new header" with uppercase letters at each word:

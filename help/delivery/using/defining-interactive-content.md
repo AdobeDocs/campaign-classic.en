@@ -144,6 +144,7 @@ You can also consult the [Tips and known limitations for Gmail](https://develope
 Currently you can experiment sending an AMP email in two steps:
 
 1. Adobe Campaign enables you to test delivering an AMP-powered dynamic email to selected email addresses appropriately configured, in order to verify its contents and behavior. See [Testing AMP email delivery for selected addresses](#testing-amp-delivery-for-selected-addresses).
+
 1. Once tested, you can send a delivery or a campaign as part of the AMP for Email program by registering with the relevant email provider(s) to have your sender domain added to the allow list. See [Delivering AMP emails by registering with an email provider](#delivering-amp-emails-by-registering).
 
 ### Testing AMP email delivery for selected addresses {#testing-amp-delivery-for-selected-addresses}
@@ -154,7 +155,7 @@ You can test sending dynamic messages from Adobe Campaign to selected email addr
 >
 >Currently only Gmail, Outlook and Mail.ru support testing the AMP format.
 
-For Gmail and Outlook, you must first add the sender address(es) you are using to the allow list to deliver from Adobe Campaign for the Gmail and Outlook accounts you are targeting.
+For Gmail and Outlook, you must first add the sender address(es) you are using to the allowlist to deliver from Adobe Campaign for the Gmail and Outlook accounts you are targeting.
 
 To do this:
 1. Make sure the option enabling dynamic email is checked for the relevant email provider(s).

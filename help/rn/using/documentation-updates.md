@@ -7,7 +7,7 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
-topic-tags: latest-release-notes
+topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
@@ -16,6 +16,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 This page lists all the new features and documentation updates per month and Campaign release.
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
+
+## October 2020 {#oct-2020}
+
+A new technote has been created with details on how to migrate from the legacy binary protocol to HTTP/2-based APNs provider API. [Read more](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
 ## September 2020 {#september-2020}
 
@@ -87,8 +91,6 @@ Best practices have been added in the **[!UICONTROL Scheduler]** activity sectio
 The Removing a quarantined address section has been updated. This includes clarification of the cases in which addresses are automatically removed from the quarantine list. [Read more](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
 Use cases have been added on how to [encrypt](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) and [decrypt](../../workflow/using/importing-data.md#use-case-gpg-decrypt) data using Control Panel and Campaign workflows.
-
-Both ‘whitelist’ and ‘blacklist’ terms have been removed from Adobe Campaign documentation. Some occurrences of these terms may still exist in the product UI, option names and internal code, but will be replaced in upcoming Campaign releases with ‘blocklist’ and ‘allowlist.’
 
 The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
 

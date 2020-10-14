@@ -145,7 +145,7 @@ The following options are available:
 
     ![](assets/s_ncs_user_wizard_email02j.png)
 
-* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , i.e. recipients whose email addresses are on a block list ('opt out'). This option must remain selected in order to observe the professional ethics of e-marketing and the laws governing e-commerce.
+* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , i.e. recipients whose email addresses are on denylist ('opt out'). This option must remain selected in order to observe the professional ethics of e-marketing and the laws governing e-commerce.
 * **[!UICONTROL Exclude quarantined recipients]**. This option lets you exclude from the target any profiles with an address that does not respond. We strongly recommend keeping this option selected.
 
   >[!NOTE]
