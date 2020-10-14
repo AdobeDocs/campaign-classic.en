@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: 0d50826e-2211-4c3b-8413-ca1453bba6c4
-index: y
-internal: n
-snippet: y
 ---
 
 # Filtering rules{#filtering-rules}

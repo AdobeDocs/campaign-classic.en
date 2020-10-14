@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: d08ff769-da93-4f86-8802-f0fb5b051ece
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuration principle{#configuration-principle}

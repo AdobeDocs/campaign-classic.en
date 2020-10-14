@@ -9,9 +9,6 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring deliverability{#monitoring-deliverability}

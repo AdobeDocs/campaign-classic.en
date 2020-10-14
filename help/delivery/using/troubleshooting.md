@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: b64c9729-cfe2-4d02-8c59-9e53efd34a96
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting{#troubleshooting}

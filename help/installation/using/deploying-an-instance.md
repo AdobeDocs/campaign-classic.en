@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 71fc8bfc-40e0-4592-a540-bd6807ded3a0
-index: y
-internal: n
-snippet: y
 ---
 
 # Deploying an instance{#deploying-an-instance}

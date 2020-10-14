@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 discoiquuid: b82ae459-30b5-4a1c-91cc-5c7b8f128333
-index: y
-internal: n
-snippet: y
 ---
 
 # Updating the database structure{#updating-the-database-structure}

@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: 3999577b-0460-4898-a4ec-a7b0e5002065
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementing IMS{#implementing-ims}

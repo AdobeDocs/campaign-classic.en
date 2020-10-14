@@ -9,17 +9,13 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
-index: y
-internal: n
-snippet: y
 ---
 
 # Importing data{#importing-data}
 
 >[!CAUTION]
 >
->Please keep in mind the SFTP storage, Database Storage and Active profile limits as per your Adobe 
-Campaign contract while importing data.
+>Please keep in mind the SFTP storage, Database Storage and Active profile limits as per your Adobe Campaign contract while importing data.
 
 ## How to collect data {#how-to-collect-data}
 

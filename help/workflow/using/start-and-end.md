@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 8b239d5e-2317-42c8-9fee-7d40bea624da
-index: y
-internal: n
-snippet: y
 ---
 
 # Start and end{#start-and-end}

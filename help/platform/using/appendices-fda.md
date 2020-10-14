@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
-index: y
-internal: n
-snippet: y
 ---
 
 # Appendices {#fda-appendices}

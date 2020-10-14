@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: bc06c00d-f421-452e-bde0-b4ecc12c72c8
-index: y
-internal: n
-snippet: y
 ---
 
 # Database mapping{#database-mapping}

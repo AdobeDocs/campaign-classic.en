@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
-index: y
-internal: n
-snippet: y
 ---
 
 # Understanding delivery failures{#understanding-delivery-failures}

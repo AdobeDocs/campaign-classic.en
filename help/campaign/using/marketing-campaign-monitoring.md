@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring marketing campaigns {#monitoring-marketing-campaigns}

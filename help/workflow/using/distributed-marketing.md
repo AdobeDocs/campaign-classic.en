@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: 5d34669d-e79f-42e1-85ba-8b4e38d98e5c
-index: y
-internal: n
-snippet: y
 ---
 
 # Distributed Marketing{#distributed-marketing}

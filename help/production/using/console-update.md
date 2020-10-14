@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 9281808b-1c2f-4095-9051-f181f089f205
-index: y
-internal: n
-snippet: y
 ---
 
 # Console update{#console-update}

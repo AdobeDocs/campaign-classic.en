@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: d41658ab-ee79-4a5c-a165-d94b81eb2b33
-index: y
-internal: n
-snippet: y
 ---
 
 # SpamAssassin{#spamassassin}

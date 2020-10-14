@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 discoiquuid: da60b9ca-4b51-4bff-affc-2b12c576973a
-index: y
-internal: n
-snippet: y
 ---
 
 # External accounts{#external-accounts}

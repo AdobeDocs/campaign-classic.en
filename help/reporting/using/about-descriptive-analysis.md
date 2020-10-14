@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 discoiquuid: ae57ef5f-e5db-4a91-a65a-d1f5f5b905ef
-index: y
-internal: n
-snippet: y
 ---
 
 # About descriptive analysis{#about-descriptive-analysis}

@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: 5ff1577f-0809-46fd-ac1e-11b24637e35c
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Analytics Data Connector{#adobe-analytics-data-connector}

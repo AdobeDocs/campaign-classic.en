@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 7f471ac1-cd6a-4371-977e-52d60ce8d968
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a shared connection{#creating-a-shared-connection}

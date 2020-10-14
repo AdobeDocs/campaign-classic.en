@@ -1,8 +1,6 @@
 ---
 title: General architecture
-seo-title: General architecture
-description: General architecture
-seo-description: 
+description: Learn how to install and configure Campaign Classic.
 page-status-flag: never-activated
 uuid: 686bc660-2403-4bab-a4ea-9b872adf8fa0
 contentOwner: sauviat
@@ -11,9 +9,6 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 7c28c179-eb18-437e-baf2-25829566c766
-index: y
-internal: n
-snippet: y
 ---
 
 # General architecture{#general-architecture}

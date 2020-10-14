@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: a21e9c9e-ffc5-40d1-8eac-f4f25da8f21d
-index: y
-internal: n
-snippet: y
 ---
 
 # About reports creation in Campaign{#about-reports-creation-in-campaign}

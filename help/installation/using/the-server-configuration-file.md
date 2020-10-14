@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
-index: y
-internal: n
-snippet: y
 ---
 
 # The server configuration file{#the-server-configuration-file}

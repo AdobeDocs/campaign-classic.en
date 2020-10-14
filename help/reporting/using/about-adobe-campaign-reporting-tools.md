@@ -1,8 +1,6 @@
 ---
 title: About Adobe Campaign reporting tools
-seo-title: About Adobe Campaign reporting tools
-description: About Adobe Campaign reporting tools
-seo-description: 
+description: Analyze the success of your campaigns in build-in or customized reports.
 page-status-flag: never-activated
 uuid: a8122c9e-60ba-4ef7-bc63-05d6cf16fad0
 contentOwner: sauviat
@@ -11,9 +9,6 @@ audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
 discoiquuid: c5dad561-0708-4b7a-84a0-eb00beff58c6
-index: y
-internal: n
-snippet: y
 ---
 
 # Get started with reporting {#about-adobe-campaign-reporting-tools}

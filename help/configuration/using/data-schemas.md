@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 discoiquuid: b65e8d27-f427-464e-ad42-51c0a88eee86
-index: y
-internal: n
-snippet: y
 ---
 
 # Data schemas{#data-schemas}

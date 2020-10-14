@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 discoiquuid: cf6a79ac-c5b1-4508-bcf1-73f2fbbfe87b
-index: y
-internal: n
-snippet: y
 ---
 
 # About navigation hierarchy{#about-navigation-hierarchy}

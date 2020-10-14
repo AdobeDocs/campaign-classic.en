@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 discoiquuid: 1c9af980-4e6b-44dc-af61-dd284863ec7d
-index: y
-internal: n
-snippet: y
 ---
 
 # Extending a schema{#extending-a-schema}

@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 discoiquuid: 6da65fb5-18a1-41a0-96d8-588e383f944b
-index: y
-internal: n
-snippet: y
 ---
 
 # New field wizard{#new-field-wizard}

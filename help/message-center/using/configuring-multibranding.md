@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 907d82c8-9262-4952-b8df-21144dd55824
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring multibranding{#configuring-multibranding}

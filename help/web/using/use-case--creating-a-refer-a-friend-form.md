@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 discoiquuid: bbb1154f-2818-489c-9860-0e860596cbf7
-index: y
-internal: n
-snippet: y
 ---
 
 # Use case: creating a Refer A Friend form{#use-case-creating-a-refer-a-friend-form}

@@ -11,9 +11,6 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 discoiquuid: f459dc07-b7db-4526-b428-852b51c9c00e
-index: y
-internal: n
-snippet: y
 ---
 
 # Migrating in Windows for Adobe Campaign 7{#migrating-in-windows-for-adobe-campaign}

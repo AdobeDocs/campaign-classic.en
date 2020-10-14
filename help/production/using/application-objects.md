@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 discoiquuid: 24d4875b-81fa-4bf3-8cf0-e6998bec4949
-index: y
-internal: n
-snippet: y
 ---
 
 # Application objects{#application-objects}

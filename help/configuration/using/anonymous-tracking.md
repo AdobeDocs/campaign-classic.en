@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: 2d2c6ae9-4dba-4b82-a25e-eda65a49572d
-index: y
-internal: n
-snippet: y
 ---
 
 # Anonymous tracking{#anonymous-tracking}

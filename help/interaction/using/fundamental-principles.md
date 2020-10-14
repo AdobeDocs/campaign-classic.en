@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: general-operation
 discoiquuid: 695cf33f-1cc7-4ae8-8ef6-05aa65219411
-index: y
-internal: n
-snippet: y
 ---
 
 # Fundamental principles{#fundamental-principles}

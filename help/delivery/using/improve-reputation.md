@@ -9,9 +9,6 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
-index: y
-internal: n
-snippet: y
 ---
 
 # Improving your reputation{#improve-reputation}

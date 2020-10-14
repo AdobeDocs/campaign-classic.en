@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: 41338d32-b95c-45ae-bee6-17b2af5bd837
-index: y
-internal: n
-snippet: y
 ---
 
 # Seed addresses{#seed-addresses}

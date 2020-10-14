@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 discoiquuid: 5f1e5886-628f-4c9e-80c1-d82feec23e8c
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a landing page{#creating-a-landing-page}

@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
-index: y
-internal: n
-snippet: y
 ---
 
 # About reports on deliveries{#reports-on-deliveries}

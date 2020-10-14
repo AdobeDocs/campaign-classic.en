@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 70e4e63d-354d-4912-b75a-dba38e1c0b03
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a chart{#creating-a-chart}

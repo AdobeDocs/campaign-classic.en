@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
-index: y
-internal: n
-snippet: y
 ---
 
 # Use cases: web forms{#use-cases-web-forms}

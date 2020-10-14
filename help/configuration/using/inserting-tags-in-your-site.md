@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: 57988b00-62cc-43d3-a2eb-bfed5bff7dc1
-index: y
-internal: n
-snippet: y
 ---
 
 # Inserting tags in your site{#inserting-tags-in-your-site}

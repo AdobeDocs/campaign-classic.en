@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and configuring the database{#creating-and-configuring-the-database}

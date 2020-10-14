@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: f3666c12-5e6f-452e-b1d6-b69a7e9f6f6e
-index: y
-internal: n
-snippet: y
 ---
 
 # Attaching files{#attaching-files}

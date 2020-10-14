@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: c94ce5b7-aa8a-4ea2-845d-68c9c7dc2a7b
-index: y
-internal: n
-snippet: y
 ---
 
 # Update data{#update-data}

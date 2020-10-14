@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 discoiquuid: e46a4e87-6c02-4b9c-bf6d-bb4e785e78fa
-index: y
-internal: n
-snippet: y
 ---
 
 # Message Center service level{#message-center-service-level}

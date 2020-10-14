@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 9fd7122e-22c7-4f9a-a2a4-5de3daaa3c2e
-index: y
-internal: n
-snippet: y
 ---
 
 # Delivery{#delivery}

@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: 4abce633-647f-4ae4-9419-859f6e2e8628
-index: y
-internal: n
-snippet: y
 ---
 
 # Automating via workflows{#automating-via-workflows}

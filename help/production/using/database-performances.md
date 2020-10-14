@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 6358c8fd-2b75-4462-acd1-887ee44d3110
-index: y
-internal: n
-snippet: y
 ---
 
 # Database performances{#database-performances}

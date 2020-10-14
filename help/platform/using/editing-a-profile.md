@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
-index: y
-internal: n
-snippet: y
 ---
 
 # Editing a profile{#editing-a-profile}

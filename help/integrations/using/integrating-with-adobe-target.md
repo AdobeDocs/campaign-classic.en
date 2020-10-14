@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 discoiquuid: 44c7acdd-6b7a-4e88-b2a7-3e9bf8a6eab5
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Adobe Target{#integrating-with-adobe-target}

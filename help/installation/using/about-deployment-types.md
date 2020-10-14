@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 298d9b9f-220f-4862-bc4c-1ad7f8d51049
-index: y
-internal: n
-snippet: y
 ---
 
 # About deployment types{#about-deployment-types}

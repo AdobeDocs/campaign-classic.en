@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 853f26ad-d373-49a5-952e-4197ffc3d904
-index: y
-internal: n
-snippet: y
 ---
 
 # Improving deliverability through re-engagement{#re-engagement}

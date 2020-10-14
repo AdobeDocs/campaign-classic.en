@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 discoiquuid: 667746cb-b553-4a71-8523-6b2695047ab6
-index: y
-internal: n
-snippet: y
 ---
 
 # Using an analysis report{#processing-a-report}

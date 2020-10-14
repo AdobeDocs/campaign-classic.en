@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: c7395094-c635-45ab-8455-a050f7d16b64
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating an instance and logging on{#creating-an-instance-and-logging-on}

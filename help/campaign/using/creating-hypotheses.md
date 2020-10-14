@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 discoiquuid: 0f73de0e-e589-4e39-9895-209dad75db75
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating hypotheses{#creating-hypotheses}

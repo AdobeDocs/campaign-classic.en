@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Campaign server{#configuring-campaign-server}

@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: d1510fd9-995b-46c6-8d57-e1fe3999235e
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing the server{#installing-the-server}

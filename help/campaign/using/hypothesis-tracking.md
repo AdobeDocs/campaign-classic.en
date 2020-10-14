@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 discoiquuid: 4452bfc6-9ac4-4d81-a63c-879a163c13ee
-index: y
-internal: n
-snippet: y
 ---
 
 # Hypothesis tracking{#hypothesis-tracking}

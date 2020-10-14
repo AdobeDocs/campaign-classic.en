@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: 328e5b2f-8596-4eda-8ac5-57cb29bfb691
-index: y
-internal: n
-snippet: y
 ---
 
 # Translating a web application{#translating-a-web-application}

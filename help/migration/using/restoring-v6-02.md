@@ -11,9 +11,6 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 discoiquuid: 4f65ba19-e9f0-4425-b640-f27c61394859
-index: y
-internal: n
-snippet: y
 ---
 
 # Restoring v6.02{#restoring-v}

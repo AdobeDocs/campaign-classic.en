@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 2fe907da-ef37-46e2-a8fb-6ad4e18be486
-index: y
-internal: n
-snippet: y
 ---
 
 # Cross-channel delivery workflow{#cross-channel-delivery-workflow}

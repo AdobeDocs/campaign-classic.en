@@ -11,9 +11,6 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
 ---
 
 # Release 19.2{#release-19-2}
@@ -131,7 +128,7 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 
 **Patches**
 
-* Fixed console crash that could occur when adding an empty linked table in the **Data Loading (RDBMS)** workflow activity. (NEO-12213)
+* Fixed a crash issue when the **Add linked table** field was empty in the **Data Loading (RDBMS)** workflow activity. (NEO-12213)
 * Fixed an issue which could lead to certain messages not being processed by the Mid-Sourcing server. (NEO-12395)
 * Fixed an issue in the database cleanup workflow when using the query banding option with Teradata. (NEO-12399)
 * Fixed an issue affecting delivery analysis with typology rule including ne.jp domain. (NEO-12609)
@@ -145,7 +142,7 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 * Fixed an issue in workflows when using the **File transfer** activity to download files using the **Delete the source files after transfer** option, with name containing a space character. (NEO-13411)
 * Fixed an issue with Tomcat cache cleanup which could lead to memory issues. (NEO-13456)
 * Fixed an issue when installing the **Control of offer engine with execution instance** built-in package on an existing control instance running in Microsoft SQL 2017. (NEO-13539)
-* Fixed console crash that could occur when unchecking tracked URLs in an email, from the **Text content** tab. (NEO-13545)
+* Fixed a console crash issue that could occur when unchecking tracked URLs in an email, from the **Text content** tab due to a non-initialized variable. (NEO-13545)
 * Fixed an encoding issue on Chinese sender name. (NEO-13837)
 * Fixed an error which could raise when displaying survey response data from the Explorer. (NEO-14590)
 * Fixed an issue which could lead to discrepancy between the delivery log classification and the quarantine table. (NEO-16547)
@@ -159,4 +156,6 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 * Fixed a timeout issue when importing data from an external SFTP. (NEO-19723)
 * Fixed an issue when accessing to Predictive models. (NEO-19713)
 * Fixed an issue affecting random sampling in **Split** workflow activity with Hadoop FDA database. (NEO-16636)
+* Fixed a regression on Oracle causing some functions to be considered as invalid after postupgrade. (NEO-12759)
+
 

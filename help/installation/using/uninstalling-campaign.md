@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 discoiquuid: 702253cc-3e1a-44ad-9340-b8588ee86bad
-index: y
-internal: n
-snippet: y
 ---
 
 # Uninstalling Campaign{#uninstalling-campaign}

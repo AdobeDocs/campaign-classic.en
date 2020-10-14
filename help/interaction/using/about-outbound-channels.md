@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 discoiquuid: a22a25bf-e920-4766-a864-00d32b4c8029
-index: y
-internal: n
-snippet: y
 ---
 
 # About outbound channels{#about-outbound-channels}

@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: f4322902-c72d-4443-9c30-09add4c615a3
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing a web form{#publishing-a-web-form}

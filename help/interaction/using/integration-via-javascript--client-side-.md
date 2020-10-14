@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 discoiquuid: 7453d768-31eb-4372-aae3-27527cd5c79b
-index: y
-internal: n
-snippet: y
 ---
 
 # Integration via JavaScript (client side){#integration-via-javascript-client-side}

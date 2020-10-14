@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: 279b0ae6-2578-4f1f-af59-13a1a9c80b32
-index: y
-internal: n
-snippet: y
 ---
 
 # Publication templates{#publication-templates}

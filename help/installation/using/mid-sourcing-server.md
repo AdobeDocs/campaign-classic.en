@@ -9,9 +9,6 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 34ee3d99-4ffb-4279-b994-5ab7abc7cf06
-index: y
-internal: n
-snippet: y
 ---
 
 # Mid-sourcing server{#mid-sourcing-server}
@@ -166,7 +163,7 @@ You must stop and then restart the server in order for the modification to be ta
 1. Confirm your configuration by clicking **[!UICONTROL Test the connection]**.
 1. Declare the tracking instance referenced on the mid-sourcing server:
 
-   Click the link **[!UICONTROL Use this platform as a platform to access the tracking servers]**,
+   Click the link **[!UICONTROL Use this platform as a proxy to access the tracking servers]**,
 
    Specify the name of the tracking instance and then confirm the connection with the tracking server.
 

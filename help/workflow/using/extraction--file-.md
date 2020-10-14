@@ -9,9 +9,6 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: fe4e6f64-eb0a-44bc-8221-6c9bfb99871f
-index: y
-internal: n
-snippet: y
 ---
 
 # Data extraction (file){#extraction-file}

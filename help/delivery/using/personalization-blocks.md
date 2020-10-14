@@ -11,16 +11,13 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
-index: y
-internal: n
-snippet: y
 ---
 
 # Personalization blocks{#personalization-blocks}
 
 Personalization blocks are dynamic, personalized and contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. See [Inserting personalization blocks](#inserting-personalization-blocks).
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png) Discover this feature [in video](#personalization-blocks-video)
 
 Personalization blocks are accessed via the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** node of the Adobe Campaign explorer. Several blocks are available by default (see [Out-of-the-box personalization blocks](#out-of-the-box-personalization-blocks)).
 

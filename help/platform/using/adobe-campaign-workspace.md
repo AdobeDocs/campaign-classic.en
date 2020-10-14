@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Campaign workspace{#adobe-campaign-workspace}

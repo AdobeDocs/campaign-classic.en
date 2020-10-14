@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: b22b3abb-6fe5-4f4d-93fc-0d00d426edb6
-index: y
-internal: n
-snippet: y
 ---
 
 # Content manager resources and principles{#content-manager-resources-and-principles}

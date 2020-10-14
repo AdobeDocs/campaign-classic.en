@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: 8b6d5f89-a904-47d8-bfb7-5dd383fc1f63
-index: y
-internal: n
-snippet: y
 ---
 
 # Control of offer engine{#control-of-offer-engine}

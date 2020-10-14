@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
 discoiquuid: 904961e0-7dff-4350-8d5d-e4bdd368b3ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Best practices for reporting{#best-practices-reporting}

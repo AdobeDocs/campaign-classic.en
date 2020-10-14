@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: ff465a00-0233-4872-ab2d-472d5a1c88bb
-index: y
-internal: n
-snippet: y
 ---
 
 # Encoding of the Oracle database{#encoding-of-the-oracle-database}

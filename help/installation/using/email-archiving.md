@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: d6467875-949b-4b47-940f-620efd4db5e0
-index: y
-internal: n
-snippet: y
 ---
 
 # Email archiving{#email-archiving}

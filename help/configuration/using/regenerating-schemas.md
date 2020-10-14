@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 discoiquuid: 0f7c835e-b429-422b-87ae-1234c7dd8fe6
-index: y
-internal: n
-snippet: y
 ---
 
 # Regenerating schemas{#regenerating-schemas}

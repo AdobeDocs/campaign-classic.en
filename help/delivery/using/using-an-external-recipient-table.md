@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 discoiquuid: 92c32b2d-d8bf-41ab-9349-ef4a15f10521
-index: y
-internal: n
-snippet: y
 ---
 
 # Using an external recipient table{#using-an-external-recipient-table}

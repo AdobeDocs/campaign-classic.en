@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
-index: y
-internal: n
-snippet: y
 ---
 
 # Generic imports and exports{#generic-imports-and-exports}

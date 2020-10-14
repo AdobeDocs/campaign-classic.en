@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 discoiquuid: 91115d4f-0cb6-4bce-b28d-17f15e9f9a0a
-index: y
-internal: n
-snippet: y
 ---
 
 # Synchronizing profiles{#synchronizing-profiles}

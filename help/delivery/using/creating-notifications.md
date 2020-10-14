@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating notifications{#creating-notifications}

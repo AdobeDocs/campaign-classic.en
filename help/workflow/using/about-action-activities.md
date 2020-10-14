@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: d31c094e-c4c2-4948-b7f6-148dae2b5434
-index: y
-internal: n
-snippet: y
 ---
 
 # About action activities{#about-action-activities}

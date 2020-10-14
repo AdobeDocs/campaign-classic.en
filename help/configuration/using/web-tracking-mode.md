@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: efeef54b-925d-4654-8601-52a73539b41f
-index: y
-internal: n
-snippet: y
 ---
 
 # Web tracking mode{#web-tracking-mode}
