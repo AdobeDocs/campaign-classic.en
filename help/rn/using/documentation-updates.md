@@ -7,7 +7,7 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
-topic-tags: latest-release-notes
+topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
@@ -16,6 +16,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 This page lists all the new features and documentation updates per month and Campaign release.
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
+
+## October 2020 {#oct-2020}
+
+A new technote has been created with details on how to migrate from the legacy binary protocol to HTTP/2-based APNs provider API. [Read more](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
 ## September 2020 {#september-2020}
 
