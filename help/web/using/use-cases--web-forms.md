@@ -48,7 +48,7 @@ Confirmation messages are sent via a dedicated delivery template referenced at t
 
    To do this, click the **[!UICONTROL Exclusions]** tab.
 
-1. Click the **[!UICONTROL Edit...]** link and uncheck the **[!UICONTROL Exclude recipients who no longer want to be contacted (blacklist)]** option.
+1. Click the **[!UICONTROL Edit...]** link and uncheck the **[!UICONTROL Exclude recipients who no longer want to be contacted]** option.
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
