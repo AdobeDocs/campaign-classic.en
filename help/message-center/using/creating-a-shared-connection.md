@@ -68,9 +68,9 @@ To create an execution instance type external account, apply the following steps
 
    >[!NOTE]
    >
-   >Please note that when using FDA over HTTP, only excecution instances using a Postgres database are supported. MSSQL or Oracle databases are not supported.
+   >Please note that when using FDA over HTTP, only execution instances using a PostgreSQL database are supported. MSSQL or Oracle databases are not supported.
 
-   The second method is recommended if the control instance has direct access to the database of the execution instances. If not, choose the Web service access. The FDA account to specify coincides with the connection to the databases of the various execution instances created on the control instance. 
+   The second method is recommended if the control instance has direct access to the database of the execution instances. If not, choose the Web service access. The FDA account to specify coincides with the connection to the databases of the various execution instances created on the control instance.
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
