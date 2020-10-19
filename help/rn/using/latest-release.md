@@ -77,7 +77,7 @@ Starting 20.3, the demdex domain used to import and export audiences to the Adob
 
 **Improvements**
 
-* To prevent incompatibility with some internet security GPO rules restrictions, the Campaign client console logon screen has been replaced by a built-in standard Windows form.
+* **Client console**: to prevent incompatibility with some internet security GPO rules restrictions, the Campaign client console logon screen has been replaced by a built-in standard Windows form. Fixed an issue when copy/pasting activities in a workflow using 64-bits Client console.
 * In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]** for a better user experience.
 * The workflow identifier is now displayed in the logs when resuming a workflow, which allows you to identify better which workflow was resumed.
 * Triggers integration authentication originally based on oAUTH authenticaton setup to access pipeline has now been changed and moved to Adobe I/O. 
@@ -128,4 +128,3 @@ Implements Customer request NEO-26856
 * Fixed an issue that made unwanted URLs visible in the delivered emails after importing HTML templates containing tracking links. (NEO-25909)
 * Fixed an issue that caused the server to crash when displaying the target data of the remainder from a **Split** activity in a workflow.
 * Fixed possible delivery throughput issues caused by server crashes. Campaign now prevents memory corruption when cleaning the expression parser. (NEO-26856)
-* Fixed an issue when copy/pasting activities in a workflow using 64-bits Client console.
