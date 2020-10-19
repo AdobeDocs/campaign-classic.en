@@ -19,6 +19,10 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 ## October 2020 {#oct-2020}
 
+Campaign Reporting advanced capabilities section has been improved to detail how to use URL parameters and variables in custom reports. [Read more](../../reporting/using/advanced-functionalities.md)
+
+The reports properties page has been reorganized and enriched to facilitate configuration. [Read more](../../reporting/using/properties-of-the-report.md)
+
 A new technote has been created with details on how to migrate from the legacy binary protocol to HTTP/2-based APNs provider API. [Read more](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
 ## September 2020 {#september-2020}

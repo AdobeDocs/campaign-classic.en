@@ -31,6 +31,8 @@ The marketing campaign cycle in Adobe Campaign illustrates the main areas of fun
 
 ![](assets/d_ncs_user_emarketing.png)
 
+![](assets/do-not-localize/how-to-video.png) [Discover primary features and capabilities in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html)
+
 ### Integrated customer profile {#integrated-customer-profile}
 
 Profiles (customers, prospects, newsletter subscribers, etc.) are centralized in the Adobe Campaign database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PII data in a consolidated view to analyze and take action.

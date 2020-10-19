@@ -60,7 +60,7 @@ You can get the list of all systems and components supported for the latest buil
 
 You can access latest Campaign Classic release notes [in this page](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html).
 
-## 9. What is the procedure for domain delegation? {#what-is-the-procedure-for-domain-delegation-}
+## 9. What is the procedure for domain configuration? {#what-is-the-procedure-for-domain-delegation-}
 
 A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
 Adobe takes account of the Domain Name System (DNS) for email delivery, which allows the client to keep their brand image by using a DNS alias with its domain names, and Adobe to autonomously implement all the technical best practices that allow it to optimize deliverability during emailing.

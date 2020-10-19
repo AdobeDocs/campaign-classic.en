@@ -588,7 +588,7 @@ Each process configured in this file has a **processRestartTime** attribute. You
 
 ## Limiting uploadable files {#limiting-uploadable-files}
 
-A new attribute **uploadAllowList** lets you restrict the file types available for upload on the Adobe Campaign server.
+A new attribute **uploadWhiteList** lets you restrict the file types available for upload on the Adobe Campaign server.
 
 This attribute is available within the **dataStore** element of the **serverConf.xml** file. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
@@ -596,7 +596,7 @@ The default value of this attribute is **.+** and it lets you upload any file ty
 
 To limit the possible formats, you must replace the attribute value by a valid java regular expression. You can enter several values by separating them by a comma.
 
-For example: **uploadAllowList=".&#42;.png,.&#42;.jpg"** will let you upload PNG and JPG formats on the server. No other formats will be accepted.
+For example: **uploadWhiteList=".&#42;.png,.&#42;.jpg"** will let you upload PNG and JPG formats on the server. No other formats will be accepted.
 
 >[!IMPORTANT]
 >
