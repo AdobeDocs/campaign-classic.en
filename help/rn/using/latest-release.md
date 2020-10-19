@@ -85,11 +85,15 @@ Starting 20.3, the demdex domain used to import and export audiences to the Adob
 * Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. 
 * A new permanent cookie has been introduced: nllastdelid. This cookie (other than UUID230) will store deliveryId. When session cookie is not present, broadlog information would be taken from the deliveryId present in this cookie.
 This change fixes an issue which occurred when the browser session was over: the session cookie containing deliveryId and broadlogId got deleted. Without deliveryId, broadlog information could not be found and the tracking table information would be missing in case of permanent tracking (last delivery).
-Learn more about cookies in this [section]() > link to https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/starting-with-adobe-campaign/privacy-and-recommendations.html#cookies"
+Learn more about cookies in this [section](../../platform/using/privacy-and-recommendations.md#cookies)
+* Improved high volume delivery throughout performance via the deliverability server.
 
 **Other changes**
 * In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]** for a better user experience.
 * In the **Update event status** technical workflow, the sizing of the **sumQueueTime**, **sumSuccessDeliveryTime** and **sumSuccessDeliveryQueueTime** destination fields was changed from 32 to 64 bits for the Update delivery stats activity. This is to match the sizing of the incoming corresponding fields in the **Delivery statistics** activity and therefore prevent the **Update delivery stats** activity from failing. (NEO-11557)
+* When using relative path for SFTP,  `~/` will not be added automatically anymore. If you need to use SFTP, you can add `~/` to your path manually but we recommend using absolute path.
+* Windows NT authentication has been removed from the available authentication methods when configuring a new database with a Microsoft SQL Server.
+* The database cleanup workflow has been optimized for Teradata in order to improve performance. (NEO-19959)
 
 **Patches**
 
@@ -109,10 +113,8 @@ Learn more about cookies in this [section]() > link to https://docs.adobe.com/co
 * Fixed an issue with the **Data loading (file)** activity, which could prevent you from importing Japanese characters from txt and csv files if they were positioned at the end of the file. (NEO-24957)
 * Fixed an issue with continuous deliveries which could prevent the **Analysis Started** and **Analysis Completed** fields from being populated correctly. (NEO-20755)
 * Fixed an issue that could display an error message when trying to preview SMS messages after a query on another schema than **Recipient** (nms:recipient). (NEO-27517)
-* Windows NT authentication has been removed from the available authentication methods when configuring a new database with a Microsoft SQL Server.
 * Fixed an issue when using the Snowflake FDA connector. A user with the Snowflake FDA access name rights could not execute a query on a Snowflake schema. An error of the type "Password not found" was displayed in the logs. (NEO-23851)
 * Fixed an issue when using an FDA connector which happened when the linked FDA schema name was a substring of an element name of the current schema. This occurred, for example, if the FDA schema was "cust" and one of the elements within the Recipient schema was "customer". When fetching the column inside the "customer" element and adding a column from the "cust" FDA schema, the value for the local column was missing. (NEO-20193)
-* The database cleanup workflow has been optimized for Teradata in order to improve performance. (NEO-19959)
 * Fixed an issue in workflows when fetching records from an external database and inserting them in the Campaign database. (NEO-26359)
 * Improved the error message displayed when inserting an image from Adobe Target and the tenant name was empty in the external account.
 * Fixed an issue in the **Message Center Event History** report that caused script errors when trying to apply filters and made the filter by a date range impossible. (NEO-23365)
@@ -121,7 +123,6 @@ Learn more about cookies in this [section]() > link to https://docs.adobe.com/co
 * Fixed an issue when using the **File Transfer** activity linked to an Azure external account encrypted in SSL where the connection was made with HTTP instead of HTTPS. (NEO-26720)
 * Fixed an issue for MSSQL database where an error could occur with the up_updatestats procedure during the clean up workflow.
 * Fixed a crash which occurred during the web process shutdown if Interaction requests were still being processed. (NEO-26447)
-* When using relative path for SFTP,  `~/` will not be added automatically anymore. If you need to use SFTP, you can add `~/` to your path manually but we recommend using absolute path.
 * Fixed an issue where the **NoNull** function in Oracle DB was not working anymore after upgrade 9032. (NEO-26488)
 * Fixed an issue where the tracking workflow was failing after upgrade 9171 if the LINEV2 package was installed without the Message Center package.
 * Fixed a scalability issue that prevented the connection pool from being increased to the desired number of connections because the database connection string for the attribute 'APP' ended up getting an invalid value. (NEO-25105)
@@ -129,5 +130,4 @@ Learn more about cookies in this [section]() > link to https://docs.adobe.com/co
 * Fixed an issue that made unwanted URLs visible in the delivered emails after importing HTML templates containing tracking links. (NEO-25909)
 * Fixed an issue that caused the server to crash when displaying the target data of the remainder from a **Split** activity in a workflow.
 * Fixed a server crash issue by preventing memory corruption when cleaning the expression parser. (NEO-26856)
-* Improved high volume delivery throughout performance via the deliverability server.
 * Fixed an issue in the enrichment activity where non-admin users defined instance variables. (NEO-25653) 
