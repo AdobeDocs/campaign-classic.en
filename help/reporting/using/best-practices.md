@@ -1,8 +1,6 @@
 ---
 title: Best practices for reporting
-seo-title: Best practices for reporting
-description: Best practices for reporting
-seo-description: 
+description: Campaign reporting best practices
 page-status-flag: never-activated
 uuid: 09de6a17-b3a7-4543-b672-b0a21653aa75
 contentOwner: sauviat
@@ -13,7 +11,7 @@ topic-tags: reporting-in-adobe-campaign
 discoiquuid: 904961e0-7dff-4350-8d5d-e4bdd368b3ff
 ---
 
-# Best practices for reporting{#best-practices-reporting}
+# Reporting best practices{#best-practices-reporting}
 
 ## Analyzing needs{#analyzing-needs}
 
@@ -29,15 +27,15 @@ To optimize the creation, use and durability of a report, you need to take a clo
 
    For instance, you can:
 
-    * Explore the data in the database and define measurements (via [this section](../../reporting/using/about-cubes.md)),
-    * Add indicators to an existing report (refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md)),
-    * View the data in the database (via [this section](../../reporting/using/about-descriptive-analysis.md)),
-    * Create a new delivery report (refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md)),
-    * Export data from the Adobe Campaign database (via a workflow, refer to [this section](../../workflow/using/about-workflows.md)),
-    * Create a pivot table (refer to [this section](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)),
-    * Explore aggregated data (via [this section](../../reporting/using/about-cubes.md)),
-    * Use a wizard to analyze data (via [this section](../../reporting/using/about-descriptive-analysis.md)),
-    * Analyze large volumes of data (refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md)), etc.
+    * Explore the data in the database and define measurements. Learn more [in this section](../../reporting/using/about-cubes.md)
+    * Add indicators to an existing report. Learn more [in this section](../../reporting/using/about-reports-creation-in-campaign.md)
+    * View the data in the database. Learn more [in this section](../../reporting/using/about-descriptive-analysis.md)
+    * Create a new delivery report. Learn more [in this section](../../reporting/using/about-reports-creation-in-campaign.md)),
+    * Export data from the Adobe Campaign database (via a workflow, refer to [this section](../../workflow/using/about-workflows.md)
+    * Create a pivot table. Learn more [in this section](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
+    * Explore aggregated data. Learn more [in this section](../../reporting/using/about-cubes.md)
+    * Use a wizard to analyze data. Learn more [in this section](../../reporting/using/about-descriptive-analysis.md)
+    * Analyze large volumes of data. Learn more [in this section](../../reporting/using/about-reports-creation-in-campaign.md)
 
 1. Identify the target population
 
@@ -72,7 +70,7 @@ Namely:
 
   Likewise, during the design phase, with a small volume of data, if report calculation exceeds 60 seconds, the calculation methods needs to be changed.
 
-* When using Marketing Analytics, the manipulated data must not exceed 10 million lines.
+* When using Marketing Analytics module, reporting data must not exceed 10 million lines.
 
 We also recommend calculating aggregates at night and using this aggregated data directly in the reports. These aggregates must be created via dedicated Data Management workflows (SQL queries).
 
@@ -96,15 +94,19 @@ The recommendations above enable you to optimize report calculation.
 
 In addition to this, Adobe Campaign recommends the following improvements:
 
-* Study the datamodel: indexed fields must be used mainly to improve calculation formulas.
+* Work on your datamodel: indexed fields must be used mainly to improve calculation formulas.
 
   To find an indexed field quickly, look at the name of the column in the Adobe Campaign interface: the sorting arrow is underlined in red if the field is indexed.
 
-* Make sure the report is valid in the long run: data volume may increase significantly over time.
+  For more on indexes, refer to [this section](../../configuration/using/data-model-best-practices.md#indexes).
+
+* Make sure the report is scalable: data volume may increase significantly over time.
 
   Likewise, the volume of data manipulated during the test phases may differ from the actual data volume in production. This is why test phases are important.
 
   Finally, data purge delays need to be known and adapted when necessary for easy data manipulation.
+
+  For more on cleanup and data retention, refer to [this section](../../configuration/using/data-model-best-practices.md#data-retention).
 
 ### Exporting reports {#exporting-reports}
 
