@@ -25,9 +25,8 @@ type: Documentation
     + [Release 18.10](rn/using/release--18-10.md)
     + [Release 18.6](rn/using/release--18-6.md)
     + [Release 18.4](rn/using/release--18-4.md)
-  + Deprecated features and compatibility {#deprecated-compatibility}
-    + [Deprecated features](rn/using/deprecated-features.md)
-    + [Compatibility Matrix](rn/using/compatibility-matrix.md)
+  + [Deprecated features](rn/using/deprecated-features.md)
+  + [Compatibility Matrix](rn/using/compatibility-matrix.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
