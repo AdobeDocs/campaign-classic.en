@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: d52c3e72-bac0-48d9-9750-0a30aa816b83
-index: y
-internal: n
-snippet: y
 ---
 
 # Recommending a category{#recommending-a-category}

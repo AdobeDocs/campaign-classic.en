@@ -9,9 +9,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: da0779dc-b734-483b-81e9-ff4706a2b6de
-index: y
-internal: n
-snippet: y
 ---
 
 # Inbox rendering (IR){#inbox-rendering}

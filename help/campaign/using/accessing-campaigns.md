@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 discoiquuid: 39d8ddcd-7fae-44fa-8a49-c3ad999e7903
-index: y
-internal: n
-snippet: y
 ---
 
 # Accessing campaigns{#accessing-campaigns}

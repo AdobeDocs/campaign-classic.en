@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 9d80be19-8dde-4278-ab5f-23f364fe422e
-index: y
-internal: n
-snippet: y
 ---
 
 # Continuous delivery{#continuous-delivery}

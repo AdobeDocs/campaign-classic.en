@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 discoiquuid: 3621d4ec-8839-40c3-a574-486c408f79ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Command lines{#command-lines}

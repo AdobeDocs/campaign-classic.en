@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 discoiquuid: 63245348-0402-4929-9c4f-71f01f97758e
-index: y
-internal: n
-snippet: y
 ---
 
 # Offers on an inbound channel{#offers-on-an-inbound-channel}

@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: general-operation
 discoiquuid: 7f79c0d8-77b0-4cc6-a888-7dbd32d2f3b6
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementation steps{#implementation-steps}

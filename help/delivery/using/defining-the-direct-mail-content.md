@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 discoiquuid: 443689f4-4c82-490f-ad96-22446f649a07
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining the direct mail content{#defining-the-direct-mail-content}

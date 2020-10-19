@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: cd03c475-fe57-4c6e-b1c0-533938e6f74e
-index: y
-internal: n
-snippet: y
 ---
 
 # Migration procedures{#migration-procedures}

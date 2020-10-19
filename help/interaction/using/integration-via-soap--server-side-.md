@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 discoiquuid: 477a2c31-0403-4db1-a372-c75dca58380d
-index: y
-internal: n
-snippet: y
 ---
 
 # Integration via SOAP (server side){#integration-via-soap-server-side}

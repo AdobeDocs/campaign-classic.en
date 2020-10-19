@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining data mapping {#defining-data-mapping}

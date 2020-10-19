@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 990b6cbc-9b7b-4278-a635-653d5abafe87
-index: y
-internal: n
-snippet: y
 ---
 
 # Extension example{#extension-example}

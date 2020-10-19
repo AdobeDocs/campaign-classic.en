@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: d41658ab-ee79-4a5c-a165-d94b81eb2b33
-index: y
-internal: n
-snippet: y
 ---
 
 # SpamAssassin{#spamassassin}
@@ -27,7 +24,7 @@ SpamAssassin leverages a variety of spam-detection techniques, including:
 * DNS-based and fuzzy-checksum-based spam detection
 * Bayesian filtering
 * External programs
-* Block lists
+* Denylists
 * Online databases
 
 >[!NOTE]

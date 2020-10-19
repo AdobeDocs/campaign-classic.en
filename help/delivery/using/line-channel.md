@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 discoiquuid: 1d3cc650-3c79-4a1d-b2bc-e7eb6d59d2f1
-index: y
-internal: n
-snippet: y
 ---
 
 # LINE channel{#line-channel}

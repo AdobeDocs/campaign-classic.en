@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 798409af-b236-4bb5-ac0f-90f0a19db345
-index: y
-internal: n
-snippet: y
 ---
 
 # Time constraint{#time-constraint}

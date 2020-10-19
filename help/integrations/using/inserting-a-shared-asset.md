@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 discoiquuid: 3d01cc7e-5685-4101-bf4b-ef5f6e52b3c9
-index: y
-internal: n
-snippet: y
 ---
 
 # Inserting a shared asset{#inserting-a-shared-asset}

@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: a9fad813-3256-4a00-ba74-7dbaba9e8e23
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating offer categories{#creating-offer-categories}

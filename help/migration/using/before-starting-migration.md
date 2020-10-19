@@ -11,9 +11,6 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 discoiquuid: d8877378-fb43-4f32-91c6-60f2f788f916
-index: y
-internal: n
-snippet: y
 ---
 
 # Before starting migration{#before-starting-migration}

@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 discoiquuid: 1ffe9f58-7258-4794-a314-524065f8a33b
-index: y
-internal: n
-snippet: y
 ---
 
 # About Campaign HTML editor{#about-campaign-html-editor}

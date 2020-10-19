@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 discoiquuid: 8e575da0-c51a-4106-a826-3e1771e63649
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining filter conditions{#defining-filter-conditions}

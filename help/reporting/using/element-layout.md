@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 8fdda764-3e42-4972-a9c9-63567588931e
-index: y
-internal: n
-snippet: y
 ---
 
 # Element layout{#element-layout}

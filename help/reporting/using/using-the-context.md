@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 72fe6df0-0271-48f9-bd6d-bb1ff25fbdf3
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the context{#using-the-context}

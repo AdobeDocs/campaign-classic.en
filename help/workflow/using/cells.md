@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: f7187d42-56e9-4681-b172-22abd43ecd29
-index: y
-internal: n
-snippet: y
 ---
 
 # Cells{#cells}

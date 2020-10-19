@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 discoiquuid: f8ae9497-9ca2-4c0c-8dc8-c0563839b036
-index: y
-internal: n
-snippet: y
 ---
 
 # Form structure{#form-structure}

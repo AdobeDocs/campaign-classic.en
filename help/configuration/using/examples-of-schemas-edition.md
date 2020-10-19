@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 discoiquuid: 82057cdf-d421-4580-aa38-8c27ca6e20fb
-index: y
-internal: n
-snippet: y
 ---
 
 # Examples of schemas edition{#examples-of-schemas-edition}

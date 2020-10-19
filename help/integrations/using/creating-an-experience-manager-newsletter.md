@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 627ade78-96b3-4a6e-9ace-74610a3c8d1a
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating an Experience Manager newsletter{#creating-an-experience-manager-newsletter}

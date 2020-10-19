@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: 1b2ae224-8406-4506-b589-6e5f6631e87f
-index: y
-internal: n
-snippet: y
 ---
 
 # Additional parameters{#additional-parameters}

@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 discoiquuid: df68ab11-7a8b-4e89-8cc4-8764e8a859b2
-index: y
-internal: n
-snippet: y
 ---
 
 # Synchronizing web applications{#synchronizing-web-applications}

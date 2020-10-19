@@ -11,9 +11,6 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 discoiquuid: 0e17abea-5e86-43b5-8bca-ee39d9b24c90
-index: y
-internal: n
-snippet: y
 ---
 
 # About rollback{#about-rollback}

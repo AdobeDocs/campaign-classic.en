@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 639d2f42-e397-4694-942c-b2b8ad94ce9c
-index: y
-internal: n
-snippet: y
 ---
 
 # Network configuration{#network-configuration}

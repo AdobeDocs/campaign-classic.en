@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: 8bcbcd23-9251-412a-ae72-11f15db74112
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing time zones{#managing-time-zones}

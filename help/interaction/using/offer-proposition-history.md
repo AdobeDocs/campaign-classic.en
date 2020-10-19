@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: tracking-offers
 discoiquuid: 82e67697-5dc7-4013-a00d-be8cdad31354
-index: y
-internal: n
-snippet: y
 ---
 
 # Offer proposition history{#offer-proposition-history}

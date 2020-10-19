@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 066d0ac1-033c-467b-aa6c-43a97ecd8632
-index: y
-internal: n
-snippet: y
 ---
 
 # Enterprise deployment{#enterprise-deployment}

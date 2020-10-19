@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 discoiquuid: a1a39eaa-6d6f-42c5-a36b-bd1cb3a77dcb
-index: y
-internal: n
-snippet: y
 ---
 
 # Structure of a data schema{#structure-of-a-data-schema}

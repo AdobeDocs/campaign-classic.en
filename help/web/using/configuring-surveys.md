@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 discoiquuid: 98706258-0621-4aa9-bf14-f92f14946308
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring surveys{#configuring-surveys}

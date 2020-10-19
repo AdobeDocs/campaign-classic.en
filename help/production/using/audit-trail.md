@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: aa147a8c-9d93-45c8-bb4a-db714739f4c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Audit trail{#audit-trail}

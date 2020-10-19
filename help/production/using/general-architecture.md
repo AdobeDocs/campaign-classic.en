@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: introduction
 discoiquuid: f4879774-afe5-4556-ab60-9297cabbca2c
-index: y
-internal: n
-snippet: y
 ---
 
 # General architecture{#general-architecture}

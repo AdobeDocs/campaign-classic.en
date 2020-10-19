@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: 43afd347-6600-409a-8f67-a4f3e9776d51
-index: y
-internal: n
-snippet: y
 ---
 
 # About personalization{#about-personalization}

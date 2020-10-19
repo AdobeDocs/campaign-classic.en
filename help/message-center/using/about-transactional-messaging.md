@@ -9,9 +9,6 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 discoiquuid: 97df4bd5-a8e3-48f4-87c8-fa090ea3f771
-index: y
-internal: n
-snippet: y
 ---
 
 # About transactional messaging{#about-transactional-messaging}

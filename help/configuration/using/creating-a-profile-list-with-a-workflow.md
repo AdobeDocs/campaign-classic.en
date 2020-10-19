@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: ba42c3cf-31fc-4fbc-b230-a2b3982328c5
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a profile list with a workflow{#creating-a-profile-list-with-a-workflow}

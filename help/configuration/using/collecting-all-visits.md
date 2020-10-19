@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: 7f841368-3867-4d6e-9720-c038d9bea0ce
-index: y
-internal: n
-snippet: y
 ---
 
 # Collecting all visits{#collecting-all-visits}

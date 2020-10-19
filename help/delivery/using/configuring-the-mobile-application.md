@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring the mobile application in Adobe Campaign with iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}

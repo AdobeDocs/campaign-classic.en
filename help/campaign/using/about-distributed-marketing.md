@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 discoiquuid: 6d694f5c-1d1f-4686-b3bf-8697d919a0c8
-index: y
-internal: n
-snippet: y
 ---
 
 # About distributed marketing{#about-distributed-marketing}

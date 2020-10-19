@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 discoiquuid: 8ef303b4-d9ce-40ee-a6c6-ed5012ab8eb8
-index: y
-internal: n
-snippet: y
 ---
 
 # Presentation rules{#presentation-rules}

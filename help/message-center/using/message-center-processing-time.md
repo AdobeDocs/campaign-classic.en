@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 discoiquuid: d1f591d2-95e8-4d99-bc60-955c96b532eb
-index: y
-internal: n
-snippet: y
 ---
 
 # Message Center processing time{#message-center-processing-time}

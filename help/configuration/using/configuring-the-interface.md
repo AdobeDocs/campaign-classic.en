@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: 8fb9ff23-17a7-4425-9195-738d6fd914dc
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring the interface{#configuring-the-interface}

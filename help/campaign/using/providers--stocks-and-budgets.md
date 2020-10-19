@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: d4627141-cef1-4ddb-ad6a-5dc217b9fa96
-index: y
-internal: n
-snippet: y
 ---
 
 # Providers, stocks and budgets{#providers-stocks-and-budgets}

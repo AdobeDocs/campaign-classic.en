@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 discoiquuid: 749a084e-69ee-46b4-b09b-cb91bb1da3cd
-index: y
-internal: n
-snippet: y
 ---
 
 # Synchronizing audiences{#synchronizing-audiences}

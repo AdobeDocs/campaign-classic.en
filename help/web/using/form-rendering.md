@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: 669635bd-868b-4550-b075-6294ccb71297
-index: y
-internal: n
-snippet: y
 ---
 
 # Form rendering{#form-rendering}

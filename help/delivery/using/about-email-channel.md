@@ -9,9 +9,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: 88575757-ef1b-4247-88ff-6f355c1ecd3e
-index: y
-internal: n
-snippet: y
 ---
 
 # About email channel{#about-email-channel}

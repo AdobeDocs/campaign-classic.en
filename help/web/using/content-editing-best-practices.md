@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 discoiquuid: 3ad38469-8e22-4bfc-8029-5d360f76d6bb
-index: y
-internal: n
-snippet: y
 ---
 
 # Content editing best practices{#content-editing-best-practices}

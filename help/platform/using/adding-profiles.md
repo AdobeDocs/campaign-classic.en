@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 299f84e6-f6ff-4ca0-9799-b56d57e1752b
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding profiles{#adding-profiles}

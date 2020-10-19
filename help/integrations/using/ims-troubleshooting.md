@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
-index: y
-internal: n
-snippet: y
 ---
 
 # IMS troubleshooting{#ims-troubleshooting}
@@ -58,7 +55,7 @@ Scopes defined in the Campaign external account must be a subset of those provis
 
 **Callback URL**
 
-The **Callback URL** should be added to the allow list and start with "https://". Check that the **Callback URL** is linked to the corresponding instance. For example, the production instance should redirect to the production URL.
+The **Callback URL** should be added to the allowlist and start with "https://". Check that the **Callback URL** is linked to the corresponding instance. For example, the production instance should redirect to the production URL.
 
 **Client ID and secret**
 

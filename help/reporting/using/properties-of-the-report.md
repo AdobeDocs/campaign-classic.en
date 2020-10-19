@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 5ec88743-be51-438c-9064-dd0196fdd7d3
-index: y
-internal: n
-snippet: y
 ---
 
 # Properties of the report{#properties-of-the-report}

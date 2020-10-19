@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 discoiquuid: e1f8958d-f036-4635-be6e-ebdbea6ac116
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking a campaign{#tracking-a-campaign}

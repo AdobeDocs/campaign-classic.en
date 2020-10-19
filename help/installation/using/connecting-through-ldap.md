@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1563db7c-ccb6-46b3-9299-67ec0aedaca0
-index: y
-internal: n
-snippet: y
 ---
 
 # Connecting through LDAP{#connecting-through-ldap}

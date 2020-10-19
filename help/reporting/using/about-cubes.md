@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 discoiquuid: 42db3be8-ee02-4158-adcd-846420a32460
-index: y
-internal: n
-snippet: y
 ---
 
 # About cubes{#about-cubes}

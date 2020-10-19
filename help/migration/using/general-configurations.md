@@ -11,9 +11,6 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 discoiquuid: f4b1c108-7f71-4aa1-8394-a7f660834c9c
-index: y
-internal: n
-snippet: y
 ---
 
 # General configurations{#general-configurations}
@@ -188,7 +185,7 @@ For example:
 
 ```
 <url IPMask="" deny="" hostMask="" httpAllowed="true" relayHost="true" relayPath="true"
-           status="blocklist" targetUrl="https://localhost:8080" timeout="" urlPath="*/cus/myPublicPage.jssp"/>
+           status="blacklist" targetUrl="https://localhost:8080" timeout="" urlPath="*/cus/myPublicPage.jssp"/>
 ```
 
 ## Syntax {#syntax}

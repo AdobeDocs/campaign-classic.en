@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 3e2ccb70-6c0c-435f-9c06-f3e5e40367bb
-index: y
-internal: n
-snippet: y
 ---
 
 # Prerequisites of Campaign installation in Linux{#prerequisites-of-campaign-installation-in-linux}

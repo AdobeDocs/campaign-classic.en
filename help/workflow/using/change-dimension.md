@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 61583062-2349-4ab3-a3bf-310d21894f34
-index: y
-internal: n
-snippet: y
 ---
 
 # Change dimension{#change-dimension}

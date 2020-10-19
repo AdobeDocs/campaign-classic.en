@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: ee724240-c337-489d-a21b-5f3aec1f247a
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing workflows{#managing-workflows}

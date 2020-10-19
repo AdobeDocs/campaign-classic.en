@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 discoiquuid: 8e7eb53c-bbe2-4bd4-8581-c2a63a3dc84e
-index: y
-internal: n
-snippet: y
 ---
 
 # Accessing marketing campaigns{#accessing-marketing-campaigns}

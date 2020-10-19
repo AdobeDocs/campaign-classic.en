@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: 69e3e99f-d392-4316-926c-3c3c675415ad
-index: y
-internal: n
-snippet: y
 ---
 
 # Message Center (Control){#message-center-control}

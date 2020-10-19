@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 1dcf01af-c2f3-4975-ba05-628d52952064
-index: y
-internal: n
-snippet: y
 ---
 
 # Database{#database}

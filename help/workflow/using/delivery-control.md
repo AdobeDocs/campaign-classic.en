@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 0b5ee05c-4b96-425a-ab0f-60b930de21bd
-index: y
-internal: n
-snippet: y
 ---
 
 # Delivery control{#delivery-control}

@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: 0f5399a8-860d-4a1b-86a9-9011b973346b
-index: y
-internal: n
-snippet: y
 ---
 
 # Switching to Unicode{#switching-to-unicode}

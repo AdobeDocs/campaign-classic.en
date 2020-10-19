@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
-index: y
-internal: n
-snippet: y
 ---
 
 # Inbox rendering{#inbox-rendering}

@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: 12f13b8d-afc3-4b55-a31b-080d31f84fc9
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuration{#configuration}

@@ -11,9 +11,6 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 discoiquuid: 9330d4f2-b36d-440d-b56e-b2d4448199b2
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview{#overview}

@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: 339f4aa9-0513-4b0e-ac2a-24f5dc012d49
-index: y
-internal: n
-snippet: y
 ---
 
 # Social Marketing{#social-marketing}

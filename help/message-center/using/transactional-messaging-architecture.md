@@ -9,9 +9,6 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 discoiquuid: a910d5fe-cef4-47d8-b3bc-0055ef0d1afd
-index: y
-internal: n
-snippet: y
 ---
 
 # Transactional messaging architecture{#transactional-messaging-architecture}

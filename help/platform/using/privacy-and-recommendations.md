@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
-index: y
-internal: n
-snippet: y
 ---
 
 # Privacy and Consent{#privacy-and-recommendations}

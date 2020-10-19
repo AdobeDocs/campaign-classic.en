@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
-index: y
-internal: n
-snippet: y
 ---
 
 # Global reports {#global-reports}
@@ -304,4 +301,4 @@ The number of opens corresponds to the total number of messages opened. Text for
 
 >[!NOTE]
 >
->Browser and operating system names make up part of the information sent by the browser's user agent to which the nail has been opened. Adobe Campaign deduces the type of device using its the device information.
+>Browser and operating system names make up part of the information sent by the browser's user agent to which the message has been opened. Adobe Campaign deduces the type of device using its the device information.

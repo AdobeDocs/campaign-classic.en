@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 discoiquuid: 9c1884f6-1dd8-41ab-b8dc-604c8cc2dc89
-index: y
-internal: n
-snippet: y
 ---
 
 # List of Campaign Classic options{#configuring-campaign-options}
@@ -88,7 +85,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
    <td> Regular expressions for normalizing delivery messages.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsBroadcast_RemoveBlockList</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsBroadcast_RemoveBlackList</span> <br /> </td> 
    <td> Entering "1" as the value lets you exclude recipients who no longer wish to be contacted.<br /> </td> 
   </tr> 
   <tr> 
@@ -644,7 +641,7 @@ Some of them are built-in when installing Campaign, and others can be added manu
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> Allows you to configure a separate database for working tables on Microsoft SQL Server, in order to optimize backups and replication. The option corresponds to the name of the temporary database: Work tables will be written in this database if specified. Example: 'tempdb.dbo.' (note that the name must end with a dot).</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">Read more</a> <br /> </td> 
+   <td> Allows you to configure a separate database for working tables on Microsoft SQL Server, in order to optimize backups and replication. The option corresponds to the name of the temporary database: Work tables will be written in this database if specified. Example: 'tempdb.dbo.' (note that the name must end with a dot). <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">Read more</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 

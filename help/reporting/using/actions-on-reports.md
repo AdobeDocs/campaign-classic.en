@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 3b9c138e-8f7f-4ee1-9baa-328848d01d3a
-index: y
-internal: n
-snippet: y
 ---
 
 # Actions on reports{#actions-on-reports}

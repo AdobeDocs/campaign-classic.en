@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 discoiquuid: 8fa464e6-3c88-441c-8179-0c54960469a7
-index: y
-internal: n
-snippet: y
 ---
 
 # Routing towards a template{#routing-towards-a-template}

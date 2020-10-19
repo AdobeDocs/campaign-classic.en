@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 811a42a4-552c-49cb-bffd-7e124ef83735
-index: y
-internal: n
-snippet: y
 ---
 
 # Distributed architectures{#distributed-architectures}

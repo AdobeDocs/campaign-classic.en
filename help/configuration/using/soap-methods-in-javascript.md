@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 815d3eb9-ac45-441f-9a5f-0cd505fcf88a
-index: y
-internal: n
-snippet: y
 ---
 
 # SOAP methods in JavaScript{#soap-methods-in-javascript}

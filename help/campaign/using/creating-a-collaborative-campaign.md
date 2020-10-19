@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 discoiquuid: 01d8be92-7312-4386-b5f5-651af31308f7
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a collaborative campaign{#creating-a-collaborative-campaign-intro}

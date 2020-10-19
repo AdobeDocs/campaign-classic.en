@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 discoiquuid: 9b937d4d-55ae-4bd4-8dc6-eea42f15b69f
-index: y
-internal: n
-snippet: y
 ---
 
 # File collector{#file-collector}

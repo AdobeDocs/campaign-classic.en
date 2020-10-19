@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 discoiquuid: d538f489-f1ae-4682-9c21-d0300bd42b26
-index: y
-internal: n
-snippet: y
 ---
 
 # Steps to create a query{#steps-to-create-a-query}

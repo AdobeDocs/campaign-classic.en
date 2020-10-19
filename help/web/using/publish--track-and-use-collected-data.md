@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 discoiquuid: 434a4bda-0907-42a7-8a75-2db658bba046
-index: y
-internal: n
-snippet: y
 ---
 
 # Publish, track and use collected data{#publish-track-and-use-collected-data}

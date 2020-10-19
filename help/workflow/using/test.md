@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 78c70ef4-807d-45d4-ac87-2b741c0ef5cb
-index: y
-internal: n
-snippet: y
 ---
 
 # Test{#test}
