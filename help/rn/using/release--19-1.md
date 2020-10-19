@@ -23,7 +23,6 @@ _15 September 2020_
 
 * Improved nlsrvmod for Apache 2.4 thread usage to fix nlsrvmod crashes. 
 * Fixed an issue when using the File Transfer activity with an Azure external account and an SSL encryption. The connection was performed through HTTP instead of HTTPS. (NEO-26720)
-* In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]** for a better user experience.
 * Fixed an issue with the url cache mechanism which did not retrieve the label or category.
 * Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries (due to improper ASCII character control). (NEO-26084)
 * The jarsToSkip list in catalina.properties has been updated to remove the reference to a jar file that was no longer used (iOS notifications).
