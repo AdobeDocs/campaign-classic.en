@@ -222,7 +222,7 @@ To count the number of records on a query:
 
 >[!NOTE]
 >
->Again we use the condition from the previous example. The `<select>` and clauses are not used. </select>`
+>Again we use the condition from the previous example. The `<select>` and clauses are not used. `</select>`
 
 #### Data grouping {#data-grouping}
 
