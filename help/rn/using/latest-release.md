@@ -94,6 +94,7 @@ Learn more about cookies in this [section](../../platform/using/privacy-and-reco
 * When using relative path for SFTP,  `~/` will not be added automatically anymore. If you need to use SFTP, you can add `~/` to your path manually but we recommend using absolute path.
 * Windows NT authentication has been removed from the available authentication methods when configuring a new database with a Microsoft SQL Server.
 * The database cleanup workflow has been optimized for Teradata in order to improve performance. (NEO-19959)
+* Improved the error message displayed when inserting an image from Adobe Target and the tenant name was empty in the external account.
 
 **Patches**
 
@@ -116,7 +117,6 @@ Learn more about cookies in this [section](../../platform/using/privacy-and-reco
 * Fixed an issue when using the Snowflake FDA connector. A user with the Snowflake FDA access name rights could not execute a query on a Snowflake schema. An error of the type "Password not found" was displayed in the logs. (NEO-23851)
 * Fixed an issue when using an FDA connector which happened when the linked FDA schema name was a substring of an element name of the current schema. This occurred, for example, if the FDA schema was "cust" and one of the elements within the Recipient schema was "customer". When fetching the column inside the "customer" element and adding a column from the "cust" FDA schema, the value for the local column was missing. (NEO-20193)
 * Fixed an issue in workflows when fetching records from an external database and inserting them in the Campaign database. (NEO-26359)
-* Improved the error message displayed when inserting an image from Adobe Target and the tenant name was empty in the external account.
 * Fixed an issue in the **Message Center Event History** report that caused script errors when trying to apply filters and made the filter by a date range impossible. (NEO-23365)
 * Fixed an interference issue between the **Campaign jobs** (operationMgt) and **Preview** (forecasting) technical workflows. This occurred when scheduled deliveries stayed in "Target Ready" or "Ready to be delivered" status. (NEO-20819)
 * Fixed an XML parsing issue when the XML identifier was not be present in mdata field in xtkOperator. It was causing postupgrade failure. (NEO-26113)
