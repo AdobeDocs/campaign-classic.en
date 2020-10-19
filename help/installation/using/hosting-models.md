@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 3175b9ab-e305-4f19-8267-d6172fa07a2a
-index: y
-internal: n
-snippet: y
 ---
 
 # Hosting models{#hosting-models}

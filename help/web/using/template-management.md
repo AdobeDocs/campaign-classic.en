@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 discoiquuid: 12b2d22b-ac6d-4ddd-a8cb-57bc56df4281
-index: y
-internal: n
-snippet: y
 ---
 
 # Template management{#template-management}

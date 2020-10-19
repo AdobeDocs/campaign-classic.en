@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5e24d94a-f9c1-4642-a881-dfc4b5492f14
-index: y
-internal: n
-snippet: y
 ---
 
 # Elements and attributes {#elements-and-attributes}

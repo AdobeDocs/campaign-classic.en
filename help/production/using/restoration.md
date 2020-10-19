@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 5d6b2c11-d97e-4fdb-9baf-e3bc446e7b8e
-index: y
-internal: n
-snippet: y
 ---
 
 # Restoration{#restoration}

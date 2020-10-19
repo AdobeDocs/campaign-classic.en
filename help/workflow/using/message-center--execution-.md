@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: dc3d8998-9493-4d71-b3e2-6f9531cb9bac
-index: y
-internal: n
-snippet: y
 ---
 
 # Message Center (Execution){#message-center-execution}

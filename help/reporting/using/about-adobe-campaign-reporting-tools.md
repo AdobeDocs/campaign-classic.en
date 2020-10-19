@@ -9,9 +9,6 @@ audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
 discoiquuid: c5dad561-0708-4b7a-84a0-eb00beff58c6
-index: y
-internal: n
-snippet: y
 ---
 
 # Get started with reporting {#about-adobe-campaign-reporting-tools}

@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: 8867d9c3-2ce4-4611-8c88-ce505c3a01d1
-index: y
-internal: n
-snippet: y
 ---
 
 # JavaScript scripts and templates{#javascript-scripts-and-templates}

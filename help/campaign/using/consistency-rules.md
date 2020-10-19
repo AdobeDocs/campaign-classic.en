@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: 9bcb5dc1-8cb4-4781-a8cd-8d072ff28b1a
-index: y
-internal: n
-snippet: y
 ---
 
 # Consistency rules{#consistency-rules}

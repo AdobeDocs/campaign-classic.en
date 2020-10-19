@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 2cd8a320-37e8-410a-b71b-0c13c8e15482
-index: y
-internal: n
-snippet: y
 ---
 
 # Personalization data{#personalization-data}

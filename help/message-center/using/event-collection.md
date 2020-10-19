@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 discoiquuid: cfff302a-6ac0-461a-a1e4-8e4b617fe134
-index: y
-internal: n
-snippet: y
 ---
 
 # Event collection{#event-collection}

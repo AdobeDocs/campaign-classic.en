@@ -9,9 +9,6 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
-index: y
-internal: n
-snippet: y
 ---
 
 # Starting a workflow {#starting-a-workflow}

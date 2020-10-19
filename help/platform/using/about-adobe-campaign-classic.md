@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
-index: y
-internal: n
-snippet: y
 ---
 
 # Get Started with Campaign Classic{#about-adobe-campaign-classic}

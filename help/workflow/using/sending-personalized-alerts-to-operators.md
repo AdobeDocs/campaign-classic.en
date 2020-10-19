@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 4d72db10-29bd-4b3c-adb3-bead02890271
-index: y
-internal: n
-snippet: y
 ---
 
 # Sending personalized alerts to operators{#sending-personalized-alerts-to-operators}

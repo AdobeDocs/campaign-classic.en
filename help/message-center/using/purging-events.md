@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 2f643080-93b4-4c9f-80cf-b1770b149e6c
-index: y
-internal: n
-snippet: y
 ---
 
 # Purging events{#purging-events}

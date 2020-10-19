@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 discoiquuid: a9eb6627-2e51-42d0-9b29-5b798bdf5b33
-index: y
-internal: n
-snippet: y
 ---
 
 # Designing marketing campaigns{#designing-marketing-campaigns}

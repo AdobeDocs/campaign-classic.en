@@ -9,9 +9,6 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 discoiquuid: d8b49f68-c783-43fc-9907-e8480ecd28c2
-index: y
-internal: n
-snippet: y
 ---
 
 # File transfer{#file-transfer}

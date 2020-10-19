@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 0c264783-2775-4ec6-8d49-cd9a45a18d60
-index: y
-internal: n
-snippet: y
 ---
 
 # Advanced functionalities{#advanced-functionalities}

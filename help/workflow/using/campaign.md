@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: de892ec4-c378-4b22-875e-aa9345f82552
-index: y
-internal: n
-snippet: y
 ---
 
 # Campaign{#campaign}

@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
-index: y
-internal: n
-snippet: y
 ---
 
 # Database cleanup workflow{#database-cleanup-workflow}

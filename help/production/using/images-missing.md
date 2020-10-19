@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: e001db7a-7c53-477e-a534-ce4d83d68559
-index: y
-internal: n
-snippet: y
 ---
 
 # Images missing{#images-missing}

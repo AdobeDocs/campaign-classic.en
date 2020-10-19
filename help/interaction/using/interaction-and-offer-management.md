@@ -9,9 +9,6 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 discoiquuid: 9fe22450-057c-44b4-ab73-4027a2ddb20c
-index: y
-internal: n
-snippet: y
 ---
 
 # Interaction and offer management{#interaction-and-offer-management}

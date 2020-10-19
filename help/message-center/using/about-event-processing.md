@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 discoiquuid: a78c9986-7c49-47db-99a0-9f0949c4dee7
-index: y
-internal: n
-snippet: y
 ---
 
 # About event processing{#about-event-processing}

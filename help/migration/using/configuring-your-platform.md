@@ -11,9 +11,6 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 discoiquuid: 4d2e765b-750b-457f-ad55-8bd6faaa86af
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring your platform{#configuring-your-platform}

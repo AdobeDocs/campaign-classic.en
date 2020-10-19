@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: 9f4e8d10-7387-4716-aa85-a6b012ad14ef
-index: y
-internal: n
-snippet: y
 ---
 
 # About content management{#about-content-management}

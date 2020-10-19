@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring pipeline {#configuring-pipeline}

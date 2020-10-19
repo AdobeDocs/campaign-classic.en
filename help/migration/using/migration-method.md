@@ -11,9 +11,6 @@ audience: migration
 content-type: reference
 topic-tags: migration-overview
 discoiquuid: 3ac779a7-1f91-4c1c-a439-10d01697326a
-index: y
-internal: n
-snippet: y
 ---
 
 # Migration method{#migration-method}

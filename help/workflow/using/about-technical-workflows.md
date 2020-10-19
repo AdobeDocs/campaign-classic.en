@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: 0d65d47f-1f51-4757-8b1d-7d4a8ddc3c97
-index: y
-internal: n
-snippet: y
 ---
 
 # About technical workflows{#about-technical-workflows}

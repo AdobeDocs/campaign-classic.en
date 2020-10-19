@@ -9,9 +9,6 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 discoiquuid: 0af1fd96-48ef-43c9-a03b-0f9a6e0e02fe
-index: y
-internal: n
-snippet: y
 ---
 
 # About Campaign integrations {#about-campaign-integrations}

@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: f18237b0-ef54-46a6-9c14-34b038f9de18
-index: y
-internal: n
-snippet: y
 ---
 
 # Temporary files{#temporary-files}

@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 discoiquuid: ba9c8e4c-441b-4422-a465-758771025ee8
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating new instances{#creating-new-instances}

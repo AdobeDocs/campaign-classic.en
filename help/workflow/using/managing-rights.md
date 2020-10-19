@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: f78603e9-f6ff-4ebe-941b-b3fbd1924b71
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing rights{#managing-rights}

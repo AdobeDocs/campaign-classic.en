@@ -9,9 +9,6 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 discoiquuid: 85e8348f-d240-4a36-b7bd-645807dbc227
-index: y
-internal: n
-snippet: y
 ---
 
 # Interaction best practices{#interaction-best-practices}

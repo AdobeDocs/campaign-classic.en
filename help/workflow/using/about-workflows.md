@@ -9,9 +9,6 @@ audience: workflow
 content-type: reference
 topic-tags: introduction
 discoiquuid: 868940d1-f19d-4e9a-bffa-8654abb4441c
-index: y
-internal: n
-snippet: y
 ---
 
 # Get started with workflows{#gs-workflows}

@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 discoiquuid: d71e5ff7-1e81-4c49-9673-c6fae890029b
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and managing tasks{#creating-and-managing-tasks}

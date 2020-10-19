@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
-index: y
-internal: n
-snippet: y
 ---
 
 # Use cases: web forms{#use-cases-web-forms}
@@ -47,11 +44,11 @@ Confirmation messages are sent via a dedicated delivery template referenced at t
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. Since the recipients of this delivery haven't confirmed their approval, they are still on the database block list. For them to receive this communication, you need to authorize deliveries based on this template to target recipients that are on the block list.
+1. Since the recipients of this delivery haven't confirmed their approval, they are still on the database denylist. For them to receive this communication, you need to authorize deliveries based on this template to target recipients on denylist.
 
    To do this, click the **[!UICONTROL Exclusions]** tab.
 
-1. Click the **[!UICONTROL Edit...]** link and uncheck the **[!UICONTROL Exclude recipients who no longer want to be contacted (blocklist)]** option.
+1. Click the **[!UICONTROL Edit...]** link and uncheck the **[!UICONTROL Exclude recipients who no longer want to be contacted (blacklist)]** option.
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
@@ -105,10 +102,10 @@ To do this, follow the steps below:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   The first **[!UICONTROL Script]** activity will add recipients to the block list until they confirmed their subscription to the newsletter. Its content must be as follows:
+   The first **[!UICONTROL Script]** activity will add recipients on denylist until they confirmed their subscription to the newsletter. Its content must be as follows:
 
    ```
-   ctx.recipient.@blockList=1
+   ctx.recipient.@blackList=1
    ```
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
@@ -116,7 +113,7 @@ To do this, follow the steps below:
    The second **[!UICONTROL Script]** activity authorizes deliveries to be send to the users and subscribes them to the newsletter. The last two lines of the script will allow you to transfer your recipients from the temp folder to another folder and be reconciled with existing profiles as soon as they confirmed the subscription.
 
    ```
-   ctx.recipient.@blockList=0
+   ctx.recipient.@blackList=0
    nms.subscription.Subscribe("INTERNAL_NAME_OF_THE_NEWSLETTER", ctx.recipient, false)
    ctx.recipient.folder = <folder name="nmsRootRecipient"/>
    nms.subscription.Unsubscribe("TEMP", ctx.recipient)
@@ -169,7 +166,7 @@ Subscription to the newsletter involves the following steps:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is added to the block list until they confirm their subscription with the email.
+   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is on denylist until they confirm their subscription with the email.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
@@ -183,7 +180,7 @@ Subscription to the newsletter involves the following steps:
 
    In Adobe Campaign, the user profile is updated:
 
-    * they are no longer on the block list,
+    * they are no longer on denylist,
     * they are subscribed to the information service.
     
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)

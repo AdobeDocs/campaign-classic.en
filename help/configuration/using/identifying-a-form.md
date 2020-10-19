@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 discoiquuid: d2309f41-8356-4d7e-bd84-c08521e0b0d0
-index: y
-internal: n
-snippet: y
 ---
 
 # Identifying a form{#identifying-a-form}

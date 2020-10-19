@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 discoiquuid: 538d3b48-ff39-463f-878d-ebe085057129
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting the ACS Connector{#troubleshooting-the-acs-connector}

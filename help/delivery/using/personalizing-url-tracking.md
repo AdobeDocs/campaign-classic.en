@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 discoiquuid: f0e8a50b-d4a4-4271-87f7-802ef410a0f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Personalizing URL tracking{#personalizing-url-tracking}

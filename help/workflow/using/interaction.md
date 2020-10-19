@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: 1683477a-9233-4a25-b0d0-0c81051eb440
-index: y
-internal: n
-snippet: y
 ---
 
 # Interaction{#interaction}

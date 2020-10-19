@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: 84f9dbad-365f-405d-88a0-14171fbb805f
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a new web application{#creating-a-new-web-application}

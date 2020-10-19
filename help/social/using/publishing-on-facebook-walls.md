@@ -11,9 +11,6 @@ audience: social
 content-type: reference
 topic-tags: configuration
 discoiquuid: 8577db0b-f1fc-41af-aa0f-ec4d02dac376
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing on Facebook walls{#publishing-on-facebook-walls}

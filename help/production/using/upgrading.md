@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
-index: y
-internal: n
-snippet: y
 ---
 
 # Upgrading{#upgrading}

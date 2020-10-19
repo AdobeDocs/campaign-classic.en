@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 discoiquuid: addfc395-7a85-4be1-a757-a719ed34bb33
-index: y
-internal: n
-snippet: y
 ---
 
 # Hypothesis templates{#hypothesis-templates}

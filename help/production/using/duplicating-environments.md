@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 9f7118f4-aef0-469c-bbe1-b62bed674faa
-index: y
-internal: n
-snippet: y
 ---
 
 # Duplicating environments{#duplicating-environments}

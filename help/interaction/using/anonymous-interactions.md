@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 discoiquuid: 3fd7a1ef-b0e2-4a7e-9e36-044d997db785
-index: y
-internal: n
-snippet: y
 ---
 
 # Anonymous interactions{#anonymous-interactions}

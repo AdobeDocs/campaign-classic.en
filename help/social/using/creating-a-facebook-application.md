@@ -11,9 +11,6 @@ audience: social
 content-type: reference
 topic-tags: configuration
 discoiquuid: c1d880bb-256e-451c-8c52-198711907f8e
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a Facebook application{#creating-a-facebook-application}

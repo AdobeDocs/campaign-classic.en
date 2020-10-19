@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: 367314a2-eb6d-4710-8a47-5a51049ad924
-index: y
-internal: n
-snippet: y
 ---
 
 # LINE Channel{#line-channel}

@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 discoiquuid: 199eb687-3da6-49c1-9997-ef1cbd2647b6
-index: y
-internal: n
-snippet: y
 ---
 
 # Filtering options{#filtering-options}

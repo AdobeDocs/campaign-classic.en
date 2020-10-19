@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 discoiquuid: e2c6e273-1640-4f46-a80e-0cecb06e2769
-index: y
-internal: n
-snippet: y
 ---
 
 # Selecting a target mapping{#selecting-a-target-mapping}

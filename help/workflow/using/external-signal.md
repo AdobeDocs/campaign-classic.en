@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 3739593f-056c-4165-87ef-63c812bd3c43
-index: y
-internal: n
-snippet: y
 ---
 
 # External signal{#external-signal}

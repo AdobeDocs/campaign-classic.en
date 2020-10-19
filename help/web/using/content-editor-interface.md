@@ -12,9 +12,6 @@ content-type: reference
 topic-tags: editing-html-content
 dc-title: </strong> and
 discoiquuid: 20c64d31-c2ed-4bc9-9f0e-46f2e0c08c88
-index: y
-internal: n
-snippet: y
 ---
 
 # Content editor interface{#content-editor-interface}

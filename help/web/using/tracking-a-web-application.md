@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: 8e52f927-dadd-44c8-a51d-f717bc083eef
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking a web application{#tracking-a-web-application}

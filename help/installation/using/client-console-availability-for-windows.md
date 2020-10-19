@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: 4fa2e8c1-33d1-4d14-941b-ca528b8ceabb
-index: y
-internal: n
-snippet: y
 ---
 
 # Client console availability for Windows{#client-console-availability-for-windows}

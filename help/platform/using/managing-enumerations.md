@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 discoiquuid: 7674c856-2b64-4a85-9ffa-3e14a142028e
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing enumerations{#managing-enumerations}

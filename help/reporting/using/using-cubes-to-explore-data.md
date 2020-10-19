@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 discoiquuid: e1ab1e82-8194-40a8-8df3-e7cfbaa3e777
-index: y
-internal: n
-snippet: y
 ---
 
 # Using cubes to explore data{#using-cubes-to-explore-data}

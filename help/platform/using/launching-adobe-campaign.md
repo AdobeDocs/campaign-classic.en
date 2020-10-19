@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
-index: y
-internal: n
-snippet: y
 ---
 
 # Launching Adobe Campaign{#launching-adobe-campaign}
@@ -86,11 +83,23 @@ To disconnect from Adobe Campaign, use the first icon in the icon bar.
 
 The **[!UICONTROL Help > About...]** menu lets you access the following information:
 
-* **version** number,
-* **build** number,
-* a link to contact Adobe Campaign Support.
+* **version** number
+* **build** number
+* a link to contact Adobe Customer Care
+* links to Adobe Privacy Policy, Terms of Use and Cookies Policy
 
-  >[!CAUTION]
-  >
-  >Whenever you reach out to Adobe Support team, you need to provide the version number and build number of your Campaign client console and application server.
+![](assets/about-acc.png)
 
+Whenever you reach out to Adobe Support team, you need to provide the version number and build number of your Campaign client console and application server.
+
+If you are running on [Campaign Gold Standard version](../../rn/using/gold-standard.md), you also need to share the SHA/1 characters which are displayed in the **[!UICONTROL About]** box. As an example, for Gold **Standard 10 release**, the build number will show **build 9032&#64;efd8a94**, as shown below:
+
+![](assets/about-acc-gs.png)
+
+Learn more about Gold Standard [in this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+
+**Related topics**:
+
+* [Campaign Support options](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
+* [Software Distribution](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)
+* [Experience Cloud Support and Expert sessions](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

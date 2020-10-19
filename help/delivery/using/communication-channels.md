@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
-index: y
-internal: n
-snippet: y
 ---
 
 # Communication channels{#communication-channels}

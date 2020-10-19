@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: 8e4028f8-055a-435c-b226-3d8e0a352f92
-index: y
-internal: n
-snippet: y
 ---
 
 # About Campaign built-in reports{#about-campaign-built-in-reports}

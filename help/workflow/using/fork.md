@@ -9,9 +9,6 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 16f50f5f-cbad-4de7-aa73-38615ae76ac0
-index: y
-internal: n
-snippet: y
 ---
 
 # Fork{#fork}

@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 2c2a7196-9183-46b1-b1e2-4a07a53e93b4
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating the message template{#creating-the-message-template}

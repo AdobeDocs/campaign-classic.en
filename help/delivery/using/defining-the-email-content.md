@@ -9,9 +9,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining the email content{#defining-the-email-content}

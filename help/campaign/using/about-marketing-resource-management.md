@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 discoiquuid: 6101e083-3754-41e1-8a93-021b1a771dc0
-index: y
-internal: n
-snippet: y
 ---
 
 # About marketing resource management{#about-marketing-resource-management}

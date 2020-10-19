@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 94178104-f8ba-4c17-8ff9-928c5d2df1b7
-index: y
-internal: n
-snippet: y
 ---
 
 # Loading (SOAP){#loading-soap}

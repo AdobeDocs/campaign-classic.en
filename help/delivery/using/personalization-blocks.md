@@ -11,16 +11,13 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
-index: y
-internal: n
-snippet: y
 ---
 
 # Personalization blocks{#personalization-blocks}
 
 Personalization blocks are dynamic, personalized and contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. See [Inserting personalization blocks](#inserting-personalization-blocks).
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png) Discover this feature [in video](#personalization-blocks-video)
 
 Personalization blocks are accessed via the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** node of the Adobe Campaign explorer. Several blocks are available by default (see [Out-of-the-box personalization blocks](#out-of-the-box-personalization-blocks)).
 
@@ -106,7 +103,7 @@ A list of personalization blocks is available by default to help you personalize
   >For more on the mirror page generation, refer to [Generating the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
-* **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (block list).
+* **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (denylist).
 * **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. This block must be inserted in the source code of the delivery, into **`<script>...</script>`** tags.
 
   In the example below, the function is used to replace the element "My header" by "My new header" with uppercase letters at each word:

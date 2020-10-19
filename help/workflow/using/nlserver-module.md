@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 3bd4f755-8e57-4f43-b7c0-5e4a76389930
-index: y
-internal: n
-snippet: y
 ---
 
 # Nlserver module{#nlserver-module}

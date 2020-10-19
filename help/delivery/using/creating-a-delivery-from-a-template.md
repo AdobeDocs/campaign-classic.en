@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 discoiquuid: 8b50d14a-8cc6-4546-8069-47fe24f15b61
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a delivery from a template{#creating-a-delivery-from-a-template}

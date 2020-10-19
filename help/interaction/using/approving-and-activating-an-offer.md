@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 7b1c58a0-6fd6-4c9d-b1c4-f3dffda42523
-index: y
-internal: n
-snippet: y
 ---
 
 # Approving and activating an offer{#approving-and-activating-an-offer}
