@@ -61,7 +61,7 @@ _October 27, 2020_
 * Secure loading of libraries: Campaign now prevents unnecessary DLLs from loading while charging Campaign Client (nlclient) to protect from DLL preloading attacks. [Learn more](https://support.microsoft.com/en-us/help/2389418/secure-loading-of-libraries-to-prevent-dll-preloading-attacks)
 * Fixed two Server-Side Request Forgery (SSRF) issues, one in the exportReport.jsp file and one within the usage of the CaptchaValidate() JavaScript function, that could be vulnerabilities for attackers to probe internal network services available to the server.
 * Fixed an issue that occurred while handling GDPR privacy requests that prevented records from being deleted from custom tables with a second-level relationship to the Recipient table. (NEO-25967)
-Fixed a security issue using API calls made by non-admin users when trying to synchronize AEM templates.
+* Fixed a security issue using API calls made by non-admin users when trying to synchronize Adobe Experience Manager templates.
 
 **Compatibility updates and deprecated features**
 
@@ -77,7 +77,7 @@ Starting 20.3, the demdex domain used to import and export audiences to the Adob
 
 **Improvements**
 
-* **Client console**: to prevent incompatibility with some internet security GPO rules restrictions, the Campaign client console logon screen has been replaced by a built-in standard Windows form. Fixed an issue when copy/pasting activities in a workflow using 64-bits Client console.
+* **Client console**: to prevent incompatibility with some internet security GPO rules restrictions, the Campaign client console logon screen has been replaced by a built-in standard Windows form. Fixed an issue when copy/pasting activities in a workflow using 64-bits Client console. In the **About** menu, information has been added to distinguish 64 and 32 bits consoles. 
 * In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]** for a better user experience.
 * The workflow identifier is now displayed in the logs when resuming a workflow, which allows you to identify better which workflow was resumed.
 * Triggers integration authentication originally based on oAUTH authenticaton setup to access pipeline has now been changed and moved to Adobe I/O. 
