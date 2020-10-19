@@ -85,8 +85,8 @@ Starting 20.3, the demdex domain used to import and export audiences to the Adob
 * Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. 
 * A new permanent cookie has been introduced: nllastdelid. This cookie (other than UUID230) will store deliveryId. When session cookie is not present, broadlog information would be taken from the deliveryId present in this cookie.
 This change fixes an issue which occurred when the browser session was over: the session cookie containing deliveryId and broadlogId got deleted. Without deliveryId, broadlog information could not be found and the tracking table information would be missing in case of permanent tracking (last delivery).
-Learn more about cookies in this [section](../../platform/using/privacy-and-recommendations.md#cookies)
-* Improved high volume delivery throughout performance via the deliverability server.
+Learn more about cookies in this [section](../../platform/using/privacy-and-recommendations.md#cookies).
+* Improved high volume delivery throughout performance with deliverability server by restarting the MTA process before delivery sending. 
 
 **Other changes**
 * In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]** for a better user experience.
