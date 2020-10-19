@@ -18,6 +18,7 @@ type: Documentation
   + [Latest Release](rn/using/latest-release.md)
   + [Gold Standard release](rn/using/gold-standard.md)
   + Previous Releases {#previous-releases}
+    + [Release 20.2](rn/using/release--20-2.md)
     + [Release 20.1](rn/using/release--20-1.md)
     + [Release 19.2](rn/using/release--19-2.md)
     + [Release 19.1](rn/using/release--19-1.md)
