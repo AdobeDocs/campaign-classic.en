@@ -31,6 +31,8 @@ _October 27, 2020_
 <tr> 
 <td> <p>To prevent incompatibility with some internet security GPO rules restrictions, Campaign client console logon screen has been replaced by a built-in standard Windows form.
 </p>
+<p>Windows 7 is no longer supported with Adobe Campaign CLassic. <a href=../../rn/using/deprecated-features.md>Read more</a>
+</p>
 <p>For more information, refer to the detailed documentation.</p>
 </td> 
 </tr> 
@@ -81,11 +83,6 @@ The following systems are now supported with Campaign:
 * MSSQL2019
 
 Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md).
-
-The following systems are now deprecated:
-* Windows 7
-* Apache 2.2
-* CentOS 6
 
 Learn more in the [Deprecated and removed features](../../rn/using/deprecated-features.md) page.
 
