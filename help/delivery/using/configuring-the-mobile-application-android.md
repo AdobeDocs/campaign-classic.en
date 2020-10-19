@@ -136,7 +136,7 @@ By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (
 
 ### With HTTP {#android-service-http}
 
-| Message type | Configurable message element   |  Configurable options |
+| Message type | Configurable message element (FCM payload name) |  Configurable options (FCM payload name) |
 |:-:|:-:|:-:|
 | data message  | N/A  | dryRun  |
 | notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action <br> | dryRun |
@@ -160,7 +160,7 @@ For more information on service and mobile application creations, refer to this 
 
 ### With HTTPV1 {#android-service-httpv1}
 
-| Message type | Configurable message element   |  Configurable options |
+| Message type | Configurable message element (FCM payload name) |  Configurable options (FCM payload name) |
 |:-:|:-:|:-:|
 | data message  | N/A  | validate_only  |
 | notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
@@ -173,7 +173,7 @@ For more information on service and mobile application creations, refer to this 
 
 1. In your **[!UICONTROL Mobile application creation wizard]** window, select **[!UICONTROL HTTPV1]** in the **[!UICONTROL API version]** drop-down.
 
-1. Click **[!UICONTROL Load project json file to extract projet details]** to load directly your json file.
+1. Click **[!UICONTROL Load project json file to extract projet details]** to load directly your JSON key file. For more information on how to extract your JSON file, refer to this [page](https://firebase.google.com/docs/admin/setup#initialize-sdk).
 
 1. You can also enter manually the following details:
    * **[!UICONTROL Project ID]**
