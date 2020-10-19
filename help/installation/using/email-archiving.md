@@ -13,7 +13,7 @@ topic-tags: additional-configurations
 discoiquuid: d6467875-949b-4b47-940f-620efd4db5e0
 ---
 
-# Email archiving{#email-archiving}
+# Email BCC {#email-archiving}
 
 You can configure Adobe Campaign to keep a copy of emails sent from your platform.
 
@@ -23,15 +23,15 @@ To do this, .eml files corresponding to the sent emails are transferred to a rem
 
 ## Recommendations and limitations {#recommendations-and-limitations}
 
-* The email archiving feature is optional. Please check your license agreement.
-* For **hosted and hybrid architectures**, contact your account executive to activate it. The BCC address of your choice must be provided to the Adobe team who will configure it for you.
-* For **on-premise installations**, follow the guidelines below to activate it - see the [Activating email archiving (on premise)](#activating-email-archiving--on-premise-) and [Configuring the BCC email address (on premise)](#configuring-the-bcc-email-address--on-premise-) sections.
+* Email BCC capability is optional. Please check your license agreement.
+* For **hosted and hybrid architectures**, contact your account executive to activate it. The BCC email address of your choice must be provided to the Adobe team who will configure it for you.
+* For **on-premise installations**, follow the guidelines below to activate it - see the [Activating email BCC (on premise)](#activating-email-archiving--on-premise-) and [Configuring the BCC email address (on premise)](#configuring-the-bcc-email-address--on-premise-) sections.
 * You can only use one BCC email address.
-* Once email BCC is configured, make sure the feature is enabled in the delivery template or in the delivery through the **[!UICONTROL Archive emails]** option. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
+* Once email BCC is configured, make sure the feature is enabled in the delivery template or in the delivery through the **[!UICONTROL Email BCC]** option. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
 * Only successfully sent emails are taken in account, bounces are not.
-* The email archiving system changed with Adobe Campaign 17.2 (build 8795). If you were already using email archiving, you must upgrade manually to the new email archiving system (BCC). For more on this, see the [Updated email archiving system (BCC)](#updated-email-archiving-system--bcc-) section.
+* The email archiving system changed with Adobe Campaign 17.2 (build 8795). If you were already using email archiving, you must upgrade manually to the new email BCC system. For more on this, see the [Moving to the new Email BCC](#updated-email-archiving-system--bcc-) section.
 
-## Activating email archiving (on premise) {#activating-email-archiving--on-premise-}
+## Activating Email BCC (on premise) {#activating-email-archiving--on-premise-}
 
 To activate BCC email archiving when Adobe Campaign is installed on premise, follow the steps below.
 
@@ -63,7 +63,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 >[!NOTE]
 >
->In a mid-sourcing instance, the directory for the archived emails is located on the mid-sourcing server.  
+>In a mid-sourcing instance, the directory for the BCC emails is located on the mid-sourcing server.  
 >
 >The deliveryID and the broadlogID come from the mid-sourcing server when the status of the emails is not sent. Once the status has changed to **[!UICONTROL Sent]**, these IDs come from the marketing server.
 
@@ -121,7 +121,7 @@ In the **config- `<instance name>.xml`** file, use the following parameters to d
 >
 >Besides, the relay assigns a **[!UICONTROL Sent]** status to all emails, including those that are not sent. Therefore, all messages are archived.
 
-## Updated email archiving system (BCC) {#updated-email-archiving-system--bcc-}
+## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
 
 >[!CAUTION]
 >
@@ -133,9 +133,9 @@ To do this, make the following changes to the **`config-<instance>.xml`** file:
 1. Set the **compressionFormat** parameter to **1** if needed.
 1. Set the **archivingType** parameter to **1**.
 
-Once email BCC is configured, make sure you select the **[!UICONTROL Archive emails]** option in the delivery template or the delivery. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
+Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]** option in the delivery template or the delivery. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
 
-## Best practices {#best-practices}
+## Email BCC best practices {#best-practices}
 
 * **BCC address mailbox**: make sure it has enough reception capacity to archive all the emails that are sent by the MTA.
 * **MTA mutualization**: the BCC archiving feature works at the MTA level. It lets you duplicate every email sent by the MTA. As the MTA can be mutualized across several instances (dev, test, or prod for example) or even across several clients (in a mid-sourcing environment), setting up this feature impacts security:

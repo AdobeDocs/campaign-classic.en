@@ -1,8 +1,6 @@
 ---
-title: Inbox rendering
-seo-title: Inbox rendering
-description: Inbox rendering
-seo-description: 
+title: Inbox rendering in Campaign
+description: Learn how to capture email renderings and make them available in a dedicated report
 page-status-flag: never-activated
 uuid: 2025f5e9-8a19-407c-9e0a-378ba5a76208
 contentOwner: sauviat
