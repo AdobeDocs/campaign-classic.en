@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 19220d8e-9494-46b4-9aa0-4c4a729aea96
-index: y
-internal: n
-snippet: y
 ---
 
 # Mid-sourcing deployment{#mid-sourcing-deployment}

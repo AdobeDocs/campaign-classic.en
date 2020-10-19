@@ -11,9 +11,6 @@ audience: social
 content-type: reference
 topic-tags: configuration
 discoiquuid: 9d74ed9c-0055-4556-a205-6e5fea11816b
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring publishing on Twitter{#configuring-publishing-on-twitter}

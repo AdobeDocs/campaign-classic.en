@@ -9,9 +9,6 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: f449ccd5-3965-4ab8-b5a9-993f3260aba9
-index: y
-internal: n
-snippet: y
 ---
 
 # SFTP server best practices and troubleshooting {#sftp-server-usage}
@@ -41,7 +38,7 @@ To avoid such problems, Adobe recommends following the best practices below.
 * Occasionally, log-in to SFTP to directly check what is lying there.
 * Remember that SFTP disk management is primarily your responsibility.
 * By default, all the folders you create are in Read/Write mode for your identifier only. When creating folders that need to be accessed by Campaign, make sure to configure them with Read/write rights for the whole group. Otherwise, workflows may not be able to create / delete files as they are run under a different identifier within the same group for security reasons.
-* The public IPs from which you are trying to initiate the SFTP connection must be added to the allow list on the Campaign instance. Adding IP addresses to the allow list can be requested via a [support ticket](https://support.neolane.net).
+* The public IPs from which you are trying to initiate the SFTP connection must be added to the allowlist on the Campaign instance. Adding IP addresses to the allowlist can be requested via a [support ticket](https://support.neolane.net).
 
 >[!CAUTION]
 >
@@ -83,7 +80,7 @@ The section below lists the information to check and provide to the Adobe Suppor
 
    If the port is not opened, make sure to open outbound connections at your side, then try again. If you still meet connection issues, share the output of the command with Adobe Support team.
 
-1. Check that the public IP from which you are trying to initiate the SFTP connection is the one you provided to the Adobe Support for the allow list.
+1. Check that the public IP from which you are trying to initiate the SFTP connection is the one you provided to the Adobe Support for the allowlist.
 1. If you are using a password-based authentication, your password may have expired (passwords have a 90 days validity period). We therefore strongly recommend using a key based authentication (see [SFTP server best practices](#sftp-server-best-practices)).
 1. If you are using a key based authentication, check that the key you are using is the same that you provided to Adobe Support team for the instance configuration.
 1. If you are using FileZilla or an equivalent FTP tool, provide the connection logs details in the support ticket.
@@ -125,7 +122,7 @@ This error indicates that FTP server domain name could not be resolved properly.
 
    1. Go to the workflow Audit and check if the logs show the 'Couldn't resolve host name' error.
 
-1. If the SFTP server is hosted by Adobe, check whether IP is added to the allow list by contacting Customer Care.
+1. If the SFTP server is hosted by Adobe, check whether IP is added to the allowlist by contacting Customer Care.
 
       Otherwise validate:
 

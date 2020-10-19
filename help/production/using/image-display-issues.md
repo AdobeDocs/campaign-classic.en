@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: dfccfe8c-b826-4648-9a0b-23d7e6a4808a
-index: y
-internal: n
-snippet: y
 ---
 
 # Image display issues{#image-display-issues}

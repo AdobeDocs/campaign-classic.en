@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 discoiquuid: 9a3f1dc9-71ef-4039-94b4-a217996f6a80
-index: y
-internal: n
-snippet: y
 ---
 
 # Operator profiles{#operator-profiles}

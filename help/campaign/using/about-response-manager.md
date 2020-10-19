@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 discoiquuid: a4669fee-4512-455f-b495-ebd5a0746b76
-index: y
-internal: n
-snippet: y
 ---
 
 # About response manager{#about-response-manager}

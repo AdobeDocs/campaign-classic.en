@@ -11,9 +11,6 @@ audience: social
 content-type: reference
 topic-tags: annexes
 discoiquuid: 07be1d3c-b038-48ca-be37-a33adb8e0fc0
-index: y
-internal: n
-snippet: y
 ---
 
 # Examples of Facebook apps{#examples-of-facebook-apps}

@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: introduction
 discoiquuid: 96c0ffae-b7b8-4346-bf20-963aa233438f
-index: y
-internal: n
-snippet: y
 ---
 
 # About activities{#about-activities}

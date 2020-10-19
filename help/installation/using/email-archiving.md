@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: d6467875-949b-4b47-940f-620efd4db5e0
-index: y
-internal: n
-snippet: y
 ---
 
 # Email archiving{#email-archiving}
@@ -147,5 +144,5 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Archive ema
     * If you use the same MTA across multiple instances (development, test, prod) for a single client, the messages sent from all three instances will be duplicated by the dataLogPath option.
 
 * **Emails per connection**: BCC email archiving operates by opening a connection and trying to send all emails through that connection. Adobe recommends checking with your internal technical contact the number of emails that are accepted on a given connection. Increasing this number can have a great impact on BCC throughput.
-* **BCC sending IPs**: currently, BCC emails are not sent through the normal MTA proxies. Instead, a direct connection is open from the MTA server to the destination email server. This means that you may need to add additional IPs to the allow list on your network, depending on your email server configuration.
+* **BCC sending IPs**: currently, BCC emails are not sent through the normal MTA proxies. Instead, a direct connection is open from the MTA server to the destination email server. This means that you may need to add additional IPs to the allowlist on your network, depending on your email server configuration.
 

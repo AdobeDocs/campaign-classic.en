@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: efe09c66-b74b-48f0-9042-5da4342e014e
-index: y
-internal: n
-snippet: y
 ---
 
 # Coordinating data updates{#coordinating-data-updates}

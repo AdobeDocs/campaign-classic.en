@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 discoiquuid: d47017a3-a342-4758-a700-b8e88aa724f2
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating predefined filters{#creating-predefined-filters}

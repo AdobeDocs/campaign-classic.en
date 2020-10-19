@@ -9,9 +9,6 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
-index: y
-internal: n
-snippet: y
 ---
 
 # Get started with web applications{#about-web-applications}

@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 0d617f1c-0d0b-489f-9027-a92b1f1eee37
-index: y
-internal: n
-snippet: y
 ---
 
 # About Adobe Experience Cloud Triggers{#about-adobe-experience-triggers}

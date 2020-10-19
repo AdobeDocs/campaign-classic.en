@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: tracking-offers
 discoiquuid: 6aae6a10-b03e-41f1-a6e9-29100800bae1
-index: y
-internal: n
-snippet: y
 ---
 
 # Offer analysis report{#offer-analysis-report}

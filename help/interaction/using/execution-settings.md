@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 discoiquuid: 52b5d5a9-10dc-4601-8fe4-962a2334322b
-index: y
-internal: n
-snippet: y
 ---
 
 # Execution settings{#execution-settings}

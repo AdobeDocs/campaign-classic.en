@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 870ab0f2-1bd7-42e7-8d83-a08a520b6587
-index: y
-internal: n
-snippet: y
 ---
 
 # Backup{#backup}

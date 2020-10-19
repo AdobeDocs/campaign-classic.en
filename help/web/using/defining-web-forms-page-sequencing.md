@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: 85bf3244-6896-43e7-96b8-84c45c282fec
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining web forms page sequencing{#defining-web-forms-page-sequencing}

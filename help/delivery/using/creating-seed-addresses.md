@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 discoiquuid: 6dad49af-4818-471b-9df1-057cc6b9a68a
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating seed addresses{#creating-seed-addresses}

@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 8dda45b4-4b5d-4b4e-a8b4-45d9bc49aaf3
-index: y
-internal: n
-snippet: y
 ---
 
 # Cross-channel deliveries{#cross-channel-deliveries}

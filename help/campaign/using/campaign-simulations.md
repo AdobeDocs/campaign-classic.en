@@ -11,9 +11,6 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: e8e7a720-c93d-491d-8768-270e47e9c898
-index: y
-internal: n
-snippet: y
 ---
 
 # Campaign simulations{#campaign-simulations}

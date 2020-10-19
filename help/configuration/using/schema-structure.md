@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: b5c8faf7-d0ae-4d95-b7fe-6ef9674a33d2
-index: y
-internal: n
-snippet: y
 ---
 
 # Schema structure{#schema-structure}

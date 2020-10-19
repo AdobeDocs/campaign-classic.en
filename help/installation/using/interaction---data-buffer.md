@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: cbfdeb2f-4f20-45b8-8cc0-89362f9ea9c1
-index: y
-internal: n
-snippet: y
 ---
 
 # Interaction - Data buffer{#interaction-data-buffer}

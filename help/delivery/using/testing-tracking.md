@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 discoiquuid: 4ed23249-4ecf-4e57-91b3-6fae1387bd6a
-index: y
-internal: n
-snippet: y
 ---
 
 # Testing tracking{#testing-tracking}

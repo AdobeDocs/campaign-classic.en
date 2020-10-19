@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 18bb18c6-c41b-4501-9312-1af04db10dd5
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction{#introduction}

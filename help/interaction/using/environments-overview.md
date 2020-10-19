@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 discoiquuid: c7b4103d-99b2-4e64-a457-ee0e3326b172
-index: y
-internal: n
-snippet: y
 ---
 
 # Environments overview{#environments-overview}

@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 discoiquuid: a31c5c9f-503f-4b55-8409-34d4addbd581
-index: y
-internal: n
-snippet: y
 ---
 
 # Recommendations{#recommendations}

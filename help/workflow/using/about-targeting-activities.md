@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 91caf55f-e7ff-4693-a014-e8fc5d243072
-index: y
-internal: n
-snippet: y
 ---
 
 # About targeting activities{#about-targeting-activities}

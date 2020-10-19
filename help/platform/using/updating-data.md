@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 1e196989-b8c1-473a-89c9-bbeb68b98419
-index: y
-internal: n
-snippet: y
 ---
 
 # Updating data{#updating-data}

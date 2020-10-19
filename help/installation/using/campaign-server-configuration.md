@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: f296676e-3bf1-47da-8239-f5ae54e52fc0
-index: y
-internal: n
-snippet: y
 ---
 
 # Campaign server configuration{#campaign-server-configuration}

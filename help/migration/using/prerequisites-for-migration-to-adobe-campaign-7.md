@@ -11,9 +11,6 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 discoiquuid: a3bbd8cc-97c6-4b08-adbf-76ab77b97262
-index: y
-internal: n
-snippet: y
 ---
 
 # Prerequisites for migration to Adobe Campaign 7{#prerequisites-for-migration-to-adobe-campaign}

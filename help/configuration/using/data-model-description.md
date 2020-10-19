@@ -9,9 +9,6 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
-index: y
-internal: n
-snippet: y
 ---
 
 # Campaign data model description{#data-model-description}
@@ -48,7 +45,7 @@ It is the default table used for the **recipients of deliveries**. As a result, 
 * iEmailFormat: preferred format for emails (1 for Text, 2 for HTML and 0 if undefined).
 * sAddress1, sAddress2, sAddress3, sAddress4, sZipCode, sCity are used to build the postal address (in keeping with the XPZ 10-011 AFNOR standard from May 1997).
 * sPhone, sMobilePhone, sFax contain the phone, mobile phone and fax numbers respectively.
-* iBlockList is the default opt-out flag used for the profiles (1 means "unsubscribed", 0 otherwise).
+* iBlackList is the default opt-out flag used for the profiles (1 means "unsubscribed", 0 otherwise).
 
 The iFolderId field is the foreign key that links the recipient to its execution folder. For more on this, see [XtkFolder](#XtkFolder).
 

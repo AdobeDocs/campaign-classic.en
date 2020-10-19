@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: 8f413002-bd32-426f-88b9-44cefae68593
-index: y
-internal: n
-snippet: y
 ---
 
 # Web application tracking opt-out{#web-application-tracking-opt-out}

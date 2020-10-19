@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 0325ab0f-394e-404b-9f4a-db3cc18d2493
-index: y
-internal: n
-snippet: y
 ---
 
 # Importing and exporting profiles{#exporting-and-importing-profiles}

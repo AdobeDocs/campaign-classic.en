@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 discoiquuid: 22e289d0-c33c-4daa-a893-b292e523f30b
-index: y
-internal: n
-snippet: y
 ---
 
 # About templates{#about-templates}

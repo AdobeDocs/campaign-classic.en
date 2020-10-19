@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
-index: y
-internal: n
-snippet: y
 ---
 
 # Tutorials{#tutorials}

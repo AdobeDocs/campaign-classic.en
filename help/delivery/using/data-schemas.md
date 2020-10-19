@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: aeaa9475-3715-40a4-8864-29d126883272
-index: y
-internal: n
-snippet: y
 ---
 
 # Data schemas{#data-schemas}

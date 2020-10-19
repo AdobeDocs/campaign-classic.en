@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 031f8d5d-940c-4a4c-97e7-ad4ef61983c1
-index: y
-internal: n
-snippet: y
 ---
 
 # Update aggregate{#update-aggregate}

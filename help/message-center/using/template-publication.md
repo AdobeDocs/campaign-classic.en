@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 43908738-a71a-49be-ac00-175f57a0555c
-index: y
-internal: n
-snippet: y
 ---
 
 # Template publication{#template-publication}

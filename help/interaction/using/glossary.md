@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 discoiquuid: 5b2b7682-6bac-4282-8d27-e8a259934e7d
-index: y
-internal: n
-snippet: y
 ---
 
 # Glossary{#glossary}

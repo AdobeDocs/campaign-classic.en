@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: 21777423-0c8a-4bb1-b210-972f660648bd
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing reports{#managing-reports}

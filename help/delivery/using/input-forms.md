@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: abf097eb-ade5-479e-9e20-8bd6bc9d96aa
-index: y
-internal: n
-snippet: y
 ---
 
 # Input forms{#input-forms}

@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: 167cc61a-fbc7-48cb-89ff-fbdbf9321c01
-index: y
-internal: n
-snippet: y
 ---
 
 # Conditional content{#conditional-content}

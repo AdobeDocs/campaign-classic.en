@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 04faa9f3-d160-4060-b26e-44333f2faf71
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing packages with Linux{#installing-packages-with-linux}

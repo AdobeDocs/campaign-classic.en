@@ -11,9 +11,6 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 discoiquuid: 1b6ce502-0d33-46e4-b52e-124b849de11f
-index: y
-internal: n
-snippet: y
 ---
 
 # Specific configurations in v6.10{#specific-configurations-in-v6-10}

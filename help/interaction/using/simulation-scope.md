@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 discoiquuid: ef658468-e20b-45d9-a714-c152e55c1c79
-index: y
-internal: n
-snippet: y
 ---
 
 # Simulation scope{#simulation-scope}

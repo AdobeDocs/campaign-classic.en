@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 discoiquuid: fbc38e33-60a6-4d21-a598-312293d168fb
-index: y
-internal: n
-snippet: y
 ---
 
 # Use case{#use-case}

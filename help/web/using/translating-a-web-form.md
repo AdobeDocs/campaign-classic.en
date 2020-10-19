@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: 145c26cc-c868-4b7b-904d-6af577fbcb83
-index: y
-internal: n
-snippet: y
 ---
 
 # Translating a web form{#translating-a-web-form}

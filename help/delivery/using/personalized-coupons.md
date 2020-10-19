@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: f324afa5-304c-470e-a592-290f76a11ccb
-index: y
-internal: n
-snippet: y
 ---
 
 # Personalized coupons{#personalized-coupons}

@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 discoiquuid: 4ec34980-62a2-47b9-b103-de4290925624
-index: y
-internal: n
-snippet: y
 ---
 
 # Use case: creating an email delivery{#use-case-creating-an-email-delivery}

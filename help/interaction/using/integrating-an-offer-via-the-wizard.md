@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 discoiquuid: 181fcb70-9394-4091-93df-92c39273ec3d
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating an offer via the wizard{#integrating-an-offer-via-the-wizard}

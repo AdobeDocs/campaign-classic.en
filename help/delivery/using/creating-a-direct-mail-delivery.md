@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 discoiquuid: d6eae7e3-0d57-457e-99a2-1ed7b10474e6
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a direct mail delivery{#creating-a-direct-mail-delivery}

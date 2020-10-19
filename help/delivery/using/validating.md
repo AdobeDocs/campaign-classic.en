@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 discoiquuid: c363a7cf-81a5-4c02-a021-b822eeeadd03
-index: y
-internal: n
-snippet: y
 ---
 
 # Validating{#validating}

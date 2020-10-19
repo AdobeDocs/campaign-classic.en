@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 discoiquuid: 66f2b229-92d9-4db1-97a4-2d9eb2270446
-index: y
-internal: n
-snippet: y
 ---
 
 # Viral and social marketing{#viral-and-social-marketing}

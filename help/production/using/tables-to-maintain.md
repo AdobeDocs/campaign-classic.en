@@ -11,9 +11,6 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 discoiquuid: 6ec4e566-7116-4d7f-835d-cb0f3c3a6a7a
-index: y
-internal: n
-snippet: y
 ---
 
 # Tables to maintain{#tables-to-maintain}

@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 discoiquuid: 18ba04d9-7bab-4eea-8dbb-6c2c138c5293
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the descriptive analysis wizard{#using-the-descriptive-analysis-wizard}

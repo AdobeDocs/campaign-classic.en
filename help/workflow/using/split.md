@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 9eadfda0-0614-4e4e-aed0-26f0b9222fbd
-index: y
-internal: n
-snippet: y
 ---
 
 # Split{#split}
