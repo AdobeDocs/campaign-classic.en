@@ -1,6 +1,6 @@
 ---
-title: Using the Adobe Campaign Classic Recipient table
-description: Learn how to use the out-of-the-box recipient table in Adobe Campaign Classic when designing your data model.
+title: Data model best practices
+description: Learn how to work with Campaign Classic data model
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -238,7 +238,7 @@ If the reverse link should not be visible to the user, you can hide it with the 
 
 Links performing an external join (1-0..1) should be used with care as it will impact the system performance.
 
-## Data retention - Cleanup and purge {#data-retention}
+## Data retention - cleanup and purge {#data-retention}
 
 Adobe Campaign is neither a data warehouse nor a reporting tool. Therefore, to ensure good performance of the Adobe Campaign solution, database growth should stay under control. To achieve this, following some of the best practices below may help.
 
@@ -246,6 +246,10 @@ By default, Adobe Campaign delivery and tracking logs have a retention duration 
 
 * If you want to keep logs longer, this decision should be taken carefully depending on the database size and the volume of messages sent. As a reminder, Adobe Campaign sequence is a 32-bit integer.
 * It is recommended not to have more than 1 billion records at a time in these tables (about 50% of the 2.14 billion ids available) to limit risks of consuming all the available ids. This will require for some customers to lower the retention duration below 180 days.
+
+Learn more about data retention in [Campaign Privacy and Securuty guidelines](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
+
+Learn more about Campaign Data base cleanup workflow [in this section](../../production/using/database-cleanup-workflow.md)..
 
 >[!IMPORTANT]
 >
