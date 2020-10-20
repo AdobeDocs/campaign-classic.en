@@ -583,7 +583,7 @@ type: Documentation
        + [Application server](installation/using/application-server.md)
        + [Messaging server](installation/using/messaging-server.md)
        + [Network configuration](installation/using/network-configuration.md)
-  + Deployment types  {#deployment-types-}
+  + Deployment types {#deployment-types-}
        + [About deployment types](installation/using/about-deployment-types.md)
        + [Standalone deployment](installation/using/standalone-deployment.md)
        + [Standard deployment](installation/using/standard-deployment.md)
