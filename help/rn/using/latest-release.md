@@ -29,12 +29,15 @@ _October 27, 2020_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>You can now choose between two authentication modes for iOS in Campaign Classic:</p>
+<td> <p>When integrating your mobile app with Campaign, you need to secure your communication with Apple Push Notification Service (APNs). You can use certificates or authentication tokens.
+</p>
+<p>These two authentication modes are now available for iOS mobile apps in Campaign Classic:
+</p>
 <ul> 
-<li><p>Certificate-based authentication using p12 key.</p></li> 
-<li><p>Token-based authentication using p8 certificate.</p></li>
+<li><p>Certificate-based authentication: this authentication mode is based on a .p12 file. For every app, a separate certificate is required. This certificate is delivered by Apple through your developer account. <a href=https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns>Learn more</a></p></li> 
+<li><p>Token-based authentication: this authentication mode is based on a .p8 file. This authentication mode is faster as each request to APNs contains the token. <a href=https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns>Learn more</a></p></li>
 </ul>
-<p>For more information, refer to the <a href=../../delivery/using/configuring-the-mobile-application.md>detailed documentation</a>.</p>
+<p>FLearn how to select the authentication mode in Campaign in the <a href=../../delivery/using/configuring-the-mobile-application.md>detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
