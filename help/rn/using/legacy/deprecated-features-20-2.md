@@ -128,6 +128,15 @@ Starting 20.2 release, the following systems are deprecated for Campaign Classic
 * Legacy SMS connectors - see [Deprecated features](#deprecated-features)
 * DB2 UDB 10.5 for Federated Data Access (FDA)
 
+### Adobe Campaign 19.2 release  {#compat-19-2-release}
+
+Starting 19.2 release, the following operating systems are deprecated for Campaign Classic. Compatibility will end in 2020 EOY.
+
+* Web Server: Apache 2.2.
+* Operating System: CentOS 6.
+
+Please refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system.
+
 ## End of compatibility {#end-of-compatibility}
 
 >[!CAUTION]
@@ -149,7 +158,6 @@ Adobe Campaign Classic Client Console can no longer run on the following systems
 
 Starting 19.1 release, Adobe Campaign is no longer compatible with the following operating systems.
 
-* CentOS 6 Learn more](https://wiki.centos.org/Download)
 * Debian 7. [Learn more](https://wiki.debian.org/DebianReleases)
 * RHEL 6.x. [Learn more](https://access.redhat.com/support/policy/updates/errata)
 * Windows Server 2008. [Learn more](https://support.microsoft.com/en-us/lifecycle/search/1163)
@@ -159,7 +167,6 @@ Starting 19.1 release, Adobe Campaign is no longer compatible with the following
 
 Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following web server. 
 
-* Apache 2.2. [Learn more](https://httpd.apache.org/)
 * Microsoft IIS 7. [Learn more](https://support.microsoft.com/en-us/lifecycle/search/810)
 
 ### Tools {#tools-eol}
