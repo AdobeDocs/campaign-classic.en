@@ -34,10 +34,10 @@ _October 27, 2020_
 <p>These two authentication modes are now available for iOS mobile apps in Campaign Classic:
 </p>
 <ul> 
+<li><p>Token-based authentication (recommended): this authentication mode is based on a .p8 file. This authentication mode is faster as each request to APNs contains the token. <a href=https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns>Learn more</a></p></li>
 <li><p>Certificate-based authentication: this authentication mode is based on a .p12 file. For every app, a separate certificate is required. This certificate is delivered by Apple through your developer account. <a href=https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns>Learn more</a></p></li> 
-<li><p>Token-based authentication: this authentication mode is based on a .p8 file. This authentication mode is faster as each request to APNs contains the token. <a href=https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns>Learn more</a></p></li>
 </ul>
-<p>FLearn how to select the authentication mode in Campaign in the <a href=../../delivery/using/configuring-the-mobile-application.md>detailed documentation</a>.</p>
+<p>Learn how to select the authentication mode in Campaign in the <a href=../../delivery/using/configuring-the-mobile-application.md>detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
