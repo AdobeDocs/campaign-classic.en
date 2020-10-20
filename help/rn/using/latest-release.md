@@ -62,7 +62,7 @@ _October 27, 2020_
 **Security enhancements**
 
 * Secure loading of libraries: Campaign now prevents unnecessary DLLs from loading while charging Campaign Client (nlclient) to protect from DLL preloading attacks. [Learn more](https://support.microsoft.com/en-us/help/2389418/secure-loading-of-libraries-to-prevent-dll-preloading-attacks) (NEO-24147)
-* Fixed two Server-Side Request Forgery (SSRF) issues, one in the exportReport.jsp file and one within the usage of the CaptchaValidate() JavaScript function, that could be vulnerabilities for attackers to probe internal network services available to the server.
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) attacks. (NEO-25661)
 * Fixed an issue that occurred while handling GDPR privacy requests that prevented records from being deleted from custom tables with a second-level relationship to the Recipient table. (NEO-25967)
 * Fixed a security issue using API calls made by non-admin users when trying to synchronize Adobe Experience Manager templates.
 
@@ -89,7 +89,7 @@ Starting 20.3, the demdex domain used to import and export audiences to the Adob
 * A new permanent cookie has been introduced: nllastdelid. This cookie (other than UUID230) will store deliveryId. When session cookie is not present, broadlog information would be taken from the deliveryId present in this cookie.
 This change fixes an issue which occurred when the browser session was over: the session cookie containing deliveryId and broadlogId got deleted. Without deliveryId, broadlog information could not be found and the tracking table information would be missing in case of permanent tracking (last delivery).
 Learn more about cookies in this [section](../../platform/using/privacy-and-recommendations.md#cookies).
-* Improved high volume delivery throughout performance with deliverability server by restarting the MTA process before delivery sending. 
+* Improved high volume delivery throughput performance with deliverability server by restarting the MTA process before delivery sending. 
 
 **Other changes**
 * In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]** for a better user experience.
