@@ -51,8 +51,6 @@ You can access the server connection settings via the link above the input zone.
 
 In the **[!UICONTROL Connections]** window, click **[!UICONTROL Add > Connection]**.
 
-![](assets/s_ncs_user_add_connexion.png)
-
 You must then define the connection settings. To do this:
 
 1. Enter a **[!UICONTROL Label]** to assign a name to your database connection.
