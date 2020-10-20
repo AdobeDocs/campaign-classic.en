@@ -23,7 +23,7 @@ You can start Adobe Campaign by selecting **[!UICONTROL Start / All Programs / A
 
 The client console connection window lets you select or configure existing databases and connect to them using a user name and password:
 
-![](assets/acc-logon-screen.png)
+![](assets/s_ncs_user_login.png)
 
 ## Connecting to Adobe Campaign {#connecting-to-adobe-campaign}
 
@@ -79,18 +79,18 @@ To disconnect from Adobe Campaign, use the first icon in the icon bar.
 >
 >You can also close the application without logging off first.
 
-## Getting your Campaign version {#getting-your-campaign-version}
+## Getting your Adobe Campaign version {#getting-your-campaign-version}
 
 The **[!UICONTROL Help > About...]** menu lets you access the following information:
 
-* **version** number
-* **build** number
+* **version** number for Campaign client console and application server
+* **build** number for Campaign client console and application server
 * a link to contact Adobe Customer Care
 * links to Adobe Privacy Policy, Terms of Use and Cookies Policy
 
 ![](assets/about-acc.png)
 
-Whenever you reach out to Adobe Support team, you need to provide the version number and build number of your Campaign client console and application server.
+Whenever you reach out to Adobe Customer Care team, you need to provide the version number and build number of your Campaign client console and application server.
 
 If you are running on [Campaign Gold Standard version](../../rn/using/gold-standard.md), you also need to share the SHA/1 characters which are displayed in the **[!UICONTROL About]** box. As an example, for Gold **Standard 10 release**, the build number will show **build 9032&#64;efd8a94**, as shown below:
 
