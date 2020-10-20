@@ -618,11 +618,11 @@ type: Documentation
        + [Mid-sourcing server](installation/using/mid-sourcing-server.md)
        + [Interaction - Data buffer](installation/using/interaction---data-buffer.md)
   + Appendices {#appendices}
-       + [The server configuration file](installation/using/the-server-configuration-file.md)
+       + [Server configuration file](installation/using/the-server-configuration-file.md)
        + [Campaign network endpoints](installation/using/campaign-network-endpoints.md)
        + [Command lines](installation/using/command-lines.md)
        + [Creating new instances](installation/using/creating-new-instances.md)
-       + [List of Campaign Classic options](installation/using/configuring-campaign-options.md)
+       + [List of Campaign options](installation/using/configuring-campaign-options.md)
        + [Uninstalling Campaign](installation/using/uninstalling-campaign.md)
 + Monitoring Campaign Classic {#monitoring-campaign-classic}
   + Introduction {#introduction}
