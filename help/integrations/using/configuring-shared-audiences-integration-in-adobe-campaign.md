@@ -22,6 +22,10 @@ Once you have submitted this request, Adobe will proceed to the provisioning of 
 1. [Step 3: Configure Campaign Tracking server](#step-3--configure-campaign-tracking-server)
 1. [Step 4: Configure the Visitor ID Service](#step-4--configure-the-visitor-id-service)
 
+>[!IMPORTANT]
+>
+>If you are using the demdex domain and following the syntax **ftp-out.demdex.com** for the import external account and **ftp-in.demdex.com** for the export external account, you need to adapt your implementation accordingly and move to Amazon Simple Storage Service (S3) connector to import or export data. For more information on how to configure your external accounts with Amazon S3, refer to this [section](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign).
+
 ## Step 1: Configure or check the external accounts in Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 First, we need to configure or check the external accounts in Adobe Campaign as follows:
@@ -55,10 +59,6 @@ First, we need to configure or check the external accounts in Adobe Campaign as 
 
    * **[!UICONTROL AWS Region]**
   To learn more on AWS region, refer to this [page](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
-
-   >[!NOTE]
-   >
-   >If you are using demdex, fill in the **[!UICONTROL Server]** field: **ftp-out.demdex.com** domain for the import external account and **ftp-in.demdex.com** domain for the export external account. <br>Note that demdex is now deprecated, we advise using Amazon Simple Storage Service (S3) connector to import or export data. For more on this, refer to the [Deprecated features](../../rn/using/deprecated-features.md) page.
 
    ![](assets/aam_config_2.png)
 
