@@ -583,21 +583,21 @@ type: Documentation
        + [Application server](installation/using/application-server.md)
        + [Messaging server](installation/using/messaging-server.md)
        + [Network configuration](installation/using/network-configuration.md)
-  + Deployment types  {#deployment-types-}
+  + Deployment types {#deployment-types-}
        + [About deployment types](installation/using/about-deployment-types.md)
        + [Standalone deployment](installation/using/standalone-deployment.md)
        + [Standard deployment](installation/using/standard-deployment.md)
        + [Enterprise deployment](installation/using/enterprise-deployment.md)
        + [Mid-sourcing deployment](installation/using/mid-sourcing-deployment.md)
        + [Power Booster and Power Cluster](installation/using/power-booster-and-power-cluster.md)
-  + Installing Campaign in Windows  {#installing-campaign-in-windows-}
-       + [Prerequisites of Campaign installation in Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+  + Campaign on Windows {#installing-campaign-in-windows-}
+       + [Before installing Campaign on Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
        + [Installing the server](installation/using/installing-the-server.md)
        + [Integration into a Web server for Windows](installation/using/integration-into-a-web-server-for-windows.md)
        + [Client console availability for Windows](installation/using/client-console-availability-for-windows.md)
        + [Installing the client console](installation/using/installing-the-client-console.md)
-  + Installing Campaign in Linux  {#installing-campaign-in-linux-}
-       + [Prerequisites of Campaign installation in Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+  + Campaign on Linux  {#installing-campaign-in-linux-}
+       + [Before installing Campaign on Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
        + [Installing packages with Linux](installation/using/installing-packages-with-linux.md)
        + [Integration into a Web server for Linux](installation/using/integration-into-a-web-server-for-linux.md)
        + [Client console availability for Linux](installation/using/client-console-availability-for-linux.md)
@@ -618,11 +618,11 @@ type: Documentation
        + [Mid-sourcing server](installation/using/mid-sourcing-server.md)
        + [Interaction - Data buffer](installation/using/interaction---data-buffer.md)
   + Appendices {#appendices}
-       + [The server configuration file](installation/using/the-server-configuration-file.md)
+       + [Server configuration file](installation/using/the-server-configuration-file.md)
        + [Campaign network endpoints](installation/using/campaign-network-endpoints.md)
        + [Command lines](installation/using/command-lines.md)
        + [Creating new instances](installation/using/creating-new-instances.md)
-       + [List of Campaign Classic options](installation/using/configuring-campaign-options.md)
+       + [List of Campaign options](installation/using/configuring-campaign-options.md)
        + [Uninstalling Campaign](installation/using/uninstalling-campaign.md)
 + Monitoring Campaign Classic {#monitoring-campaign-classic}
   + Introduction {#introduction}

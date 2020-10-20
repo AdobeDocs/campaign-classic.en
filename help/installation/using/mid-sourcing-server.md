@@ -1,6 +1,6 @@
 ---
-title: Installing a mid-sourcing server in Adobe Campaign Classic
-description: This section details the installation and configuration of a mid-sourcing server in Adobe Campaign Classic.
+title: Installing a mid-sourcing server in Campaign
+description: This section details the installation and configuration of a mid-sourcing server in Campaign
 page-status-flag: never-activated
 uuid: 9b891a64-d75e-44d2-8de2-17334e1b8dca
 contentOwner: sauviat
