@@ -79,7 +79,7 @@ To disconnect from Adobe Campaign, use the first icon in the icon bar.
 >
 >You can also close the application without logging off first.
 
-## Getting your Campaign version {#getting-your-campaign-version}
+## Getting your Adobe Campaign version {#getting-your-campaign-version}
 
 The **[!UICONTROL Help > About...]** menu lets you access the following information:
 
