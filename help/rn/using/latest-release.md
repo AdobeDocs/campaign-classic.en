@@ -66,7 +66,7 @@ _October 27, 2020_
 * Fixed an issue that occurred while handling GDPR privacy requests that prevented records from being deleted from custom tables with a second-level relationship to the Recipient table. (NEO-25967)
 * Fixed a security issue using API calls made by non-admin users when trying to synchronize Adobe Experience Manager templates.
 
-**Compatibility updates and deprecated features**
+**Compatibility updates**
 
 The following systems are now supported with Campaign:
 * iOS 14
@@ -76,7 +76,11 @@ The following systems are now supported with Campaign:
 
 Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
+**Deprecated features**
+
 Starting 20.3, the demdex domain used to import and export audiences to the Adobe Experience Cloud is deprecated. If you are using the demdex domain for your import/export external accounts, you need to adapt your implementation accordingly. [Learn more](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+
+Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/about-adobe-experience-triggers.md)
 
 **Improvements**
 
@@ -85,7 +89,6 @@ Starting 20.3, the demdex domain used to import and export audiences to the Adob
    * Fixed an issue when copy/pasting activities in a workflow using 64-bits Client console. (NEO-27635) 
    * In the **About** menu, information has been added to distinguish 64 and 32 bits consoles. 
 * The workflow identifier is now displayed in the logs when resuming a workflow, which allows you to identify better which workflow was resumed.
-* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. 
 * A new permanent cookie has been introduced: nllastdelid. This cookie (other than UUID230) will store deliveryId. When session cookie is not present, broadlog information would be taken from the deliveryId present in this cookie.
 This change fixes an issue which occurred when the browser session was over: the session cookie containing deliveryId and broadlogId got deleted. Without deliveryId, broadlog information could not be found and the tracking table information would be missing in case of permanent tracking (last delivery).
 Learn more about cookies in this [section](../../platform/using/privacy-and-recommendations.md#cookies).
