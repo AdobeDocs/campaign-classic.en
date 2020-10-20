@@ -11,7 +11,7 @@ topic-tags: architecture-and-hosting-models
 discoiquuid: 582f7ac6-cebe-4b47-8730-bbc16fd6b1bd
 ---
 
-# Capability matrix per hosting model {#capability-matrix-per-model}
+# Capability matrix {#capability-matrix-per-model}
 
 Adobe Campaign Classic comes with a set of modules and options. The availability of these modules and their use can depend on the type of deployment of your installation. This article shares some details about the main differences for certain features between fully hosted (Managed Services) and on-premise deployments.
 
@@ -19,7 +19,7 @@ This page shows the main differences between hosted (Managed Services) and on-pr
 
 The different hosting models are introduced [in this section](../../installation/using/hosting-models.md).
 
-## Capability matrix{#capability-matrix}
+## Availability per deployment model {#capability-matrix}
 
 | Capability | Hosted | Hybrid | On-premise |  Details                                                                                                                                                                                                              |
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

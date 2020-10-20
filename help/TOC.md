@@ -590,14 +590,14 @@ type: Documentation
        + [Enterprise deployment](installation/using/enterprise-deployment.md)
        + [Mid-sourcing deployment](installation/using/mid-sourcing-deployment.md)
        + [Power Booster and Power Cluster](installation/using/power-booster-and-power-cluster.md)
-  + Installing Campaign in Windows  {#installing-campaign-in-windows-}
-       + [Prerequisites of Campaign installation in Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+  + Campaign on Windows {#installing-campaign-in-windows-}
+       + [Before installing Campaign on Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
        + [Installing the server](installation/using/installing-the-server.md)
        + [Integration into a Web server for Windows](installation/using/integration-into-a-web-server-for-windows.md)
        + [Client console availability for Windows](installation/using/client-console-availability-for-windows.md)
        + [Installing the client console](installation/using/installing-the-client-console.md)
-  + Installing Campaign in Linux  {#installing-campaign-in-linux-}
-       + [Prerequisites of Campaign installation in Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+  + Campaign on Linux  {#installing-campaign-in-linux-}
+       + [Before installing Campaign on Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
        + [Installing packages with Linux](installation/using/installing-packages-with-linux.md)
        + [Integration into a Web server for Linux](installation/using/integration-into-a-web-server-for-linux.md)
        + [Client console availability for Linux](installation/using/client-console-availability-for-linux.md)
