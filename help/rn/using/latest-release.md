@@ -78,9 +78,12 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 
 **Deprecated features**
 
-Starting 20.3, the demdex domain used to import and export audiences to the Adobe Experience Cloud is deprecated. If you are using the demdex domain for your import/export external accounts, you need to adapt your implementation accordingly. [Learn more](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+The following features are deprecated in 20.3:
 
-Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/about-adobe-experience-triggers.md)
+* The demdex domain used to import and export audiences to the Adobe Experience Cloud is deprecated. If you are using the demdex domain for your import/export external accounts, you need to adapt your implementation accordingly. [Learn more](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/about-adobe-experience-triggers.md)
+
+Learn more in the Deprecated and removed features [page](../../rn/using/deprecated-features.md).
 
 **Improvements**
 
@@ -95,12 +98,12 @@ Learn more about cookies in this [section](../../platform/using/privacy-and-reco
 * Improved high volume delivery throughput performance with deliverability server by restarting the MTA process before delivery sending. 
 
 **Other changes**
-* In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]** for a better user experience.
 * In the **Update event status** technical workflow, the sizing of the **sumQueueTime**, **sumSuccessDeliveryTime** and **sumSuccessDeliveryQueueTime** destination fields was changed from 32 to 64 bits for the Update delivery stats activity. This is to match the sizing of the incoming corresponding fields in the **Delivery statistics** activity and therefore prevent the **Update delivery stats** activity from failing. (NEO-11557)
 * When using relative path for SFTP,  `~/` will not be added automatically anymore. If you need to use SFTP, you can add `~/` to your path manually but we recommend using absolute path.
 * Windows NT authentication has been removed from the available authentication methods when configuring a new database with a Microsoft SQL Server.
 * The database cleanup workflow has been optimized for Teradata in order to improve performance. (NEO-19959)
 * Improved the error message displayed when inserting an image from Adobe Target and the tenant name was empty in the external account.
+* In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]**.
 
 **Patches**
 
