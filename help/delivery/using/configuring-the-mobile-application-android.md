@@ -158,7 +158,7 @@ For more information on service and mobile application creations, refer to this 
 
 1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. Your Android application is now ready to be used in Campaign Classic.
 
-### With HTTPV1 {#android-service-httpv1}
+### With HTTP v1 API {#android-service-httpv1}
 
 | Message type | Configurable message element (FCM payload name) |  Configurable options (FCM payload name) |
 |:-:|:-:|:-:|
@@ -246,7 +246,7 @@ The image and web page should be displayed in the push notification when receive
 
    >[!NOTE]
    >
-   >Additional options for notification message are only available with HTTPV1 configuration. For more on this, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+   >Additional options for notification message are only available with HTTP v1 API configuration. For more on this, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
 
 1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 
@@ -281,7 +281,7 @@ The image and web page should be displayed in the push notification when receive
 
    ![](assets/nmac_android_8.png)
 
-1. If your application is configured with HTTPV1 protocol, you can further personalize your push notification with the following **[!UICONTROL HTTPV1 additional options]**:
+1. If your application is configured with HTTP v1 API protocol, you can further personalize your push notification with the following **[!UICONTROL HTTPV1 additional options]**:
 
    * **[!UICONTROL Ticker]**: Set the ticker text of your notification. Only available for devices set to Android 5.0 Lollipop.
    * **[!UICONTROL Image]**: Set the image's URL to be displayed in your notification.
