@@ -1,8 +1,6 @@
 ---
 title: SpamAssassin
-seo-title: SpamAssassin
-description: SpamAssassin
-seo-description: 
+description: Learn how to set up email spam detection with SpamAssassin
 page-status-flag: never-activated
 uuid: 4f439432-4215-42ed-8f92-b4ca8dd92726
 contentOwner: sauviat

@@ -570,17 +570,16 @@ type: Documentation
        + [Examples of Facebook apps](social/using/examples-of-facebook-apps.md)
        + [Tracking](social/using/tracking.md)
 + Installing Campaign Classic {#installing-campaign-classic}
-  + Architecture and hosting models {#architecture-and-hosting-models}
-       + [Before reading](installation/using/before-reading.md)
+  + Architecture principles {#architecture-and-hosting-models}
        + [General architecture](installation/using/general-architecture.md)
-       + [Hosting models](installation/using/hosting-models.md)
-  + Hybrid and Hosted models {#hybrid-and-hosted-models}
-       + [About hybrid and hosted models](installation/using/about-hybrid-and-hosted-models.md)
-       + [Hybrid model](installation/using/hybrid-model.md)
-       + [Hosted model](installation/using/hosted-model.md)
-  + Prerequisites and recommendations  {#prerequisites-and-recommendations-}
-       + [Before starting](installation/using/before-starting.md)
-       + [Database](installation/using/database.md)
+       + Hosting models{#hosting-models-lp}
+          + [About hosting models](installation/using/hosting-models.md)
+          + [Hybrid model](installation/using/hybrid-model.md)
+          + [Hosted model](installation/using/hosted-model.md)
+          + [Capability matrix](installation/using/capability-matrix.md)
+  + Deployment guidelines {#deployment-guidelines}
+       + [Prerequisites](installation/using/before-starting.md)
+       + [Database server](installation/using/database.md)
        + [Application server](installation/using/application-server.md)
        + [Messaging server](installation/using/messaging-server.md)
        + [Network configuration](installation/using/network-configuration.md)

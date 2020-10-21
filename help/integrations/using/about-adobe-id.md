@@ -1,8 +1,6 @@
 ---
-title: About Adobe ID
-seo-title: About Adobe ID
-description: About Adobe ID
-seo-description: 
+title: Use your Adobe ID in Campaign
+description: Learn more about Adobe IMS integration
 page-status-flag: never-activated
 uuid: d88f70f7-637a-4609-8747-784700b6ca1a
 contentOwner: sauviat

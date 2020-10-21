@@ -1,8 +1,6 @@
 ---
 title: Network configuration
-seo-title: Network configuration
-description: Network configuration
-seo-description: 
+description: Learn system communication guidelines
 page-status-flag: never-activated
 uuid: 17357170-7440-4603-bea6-2e4b9086ae72
 contentOwner: sauviat
