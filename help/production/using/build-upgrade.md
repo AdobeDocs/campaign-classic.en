@@ -362,7 +362,7 @@ There are different types of merges:
 
 #### Where to find the code?
 
-1. Built-in code is stored in XML files in the datakit folder. Find the XML file that matches the conflicting object. Example: <Adobe Campaign installation folder>\datakit\nms\fra\form\recipient.xml
+1. Built-in code is stored in XML files in the datakit folder. Find the XML file that matches the conflicting object. Example: installationDirectory\datakit\nms\fra\form\recipient.xml
 1. Retrieve the original version: via the [Download center](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html) or another non-upgraded installation of the product.
 1. Retrieve the new version: via the [Download center](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html) or the customer's installed files.
 1. Retrieve the custom version: retrieve the object's source code from within the Campaign client.
