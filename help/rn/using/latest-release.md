@@ -13,8 +13,6 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 # Latest Release{#latest-release}
 
-# Release 20.3{#release-20-3}
-
 ## ![](assets/do-not-localize/blue_2.png) Release 20.3.1 - Build XXX {#release-20-3-1-build-XXX}
 
 _October 27, 2020_
