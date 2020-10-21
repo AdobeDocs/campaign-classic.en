@@ -130,7 +130,7 @@ Technical resources are available in Campaign Classic documentation. We recommen
 **Hosting models and capabilities**
 
 * [Campaign Classic hosting models](../../installation/using/hosting-models.md)
-* [Hosting model capabilities](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)
+* [Hosting model capabilities](../../installation/using/capability-matrix.md)
 
 **Server configuration**
 

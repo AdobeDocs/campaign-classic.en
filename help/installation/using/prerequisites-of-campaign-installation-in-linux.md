@@ -1,8 +1,6 @@
 ---
 title: Prerequisites of Campaign installation in Linux
-seo-title: Prerequisites of Campaign installation in Linux
 description: Prerequisites of Campaign installation in Linux
-seo-description: 
 page-status-flag: never-activated
 uuid: 65c7af3f-ca1d-4255-b54a-6a3c83af40ae
 contentOwner: sauviat

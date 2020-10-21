@@ -1,8 +1,6 @@
 ---
 title: Hosting models
-seo-title: Hosting models
 description: Hosting models
-seo-description: 
 page-status-flag: never-activated
 uuid: a9e035d9-326b-4e14-8f05-a22fe38d172b
 contentOwner: sauviat
@@ -19,7 +17,7 @@ Adobe Campaign offers a choice of three hosting models, providing flexibility an
 
 >[!NOTE]
 >
->For Adobe hosted environments, main installation and configuration steps can only be performed by Adobe, such as configuring the server and customizing instance configuration files. To learn more about the main differences between deployment modes, refer to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>For Adobe hosted environments, main installation and configuration steps can only be performed by Adobe, such as configuring the server and customizing instance configuration files. To learn more about the main differences between deployment modes, refer to [this page](../../installation/using/capability-matrix.md).
 
 * **Managed Services (Hosted)**
 
