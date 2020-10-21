@@ -59,11 +59,11 @@ Depending on the selected database engine, the server identification information
 * For a **PostgreSQL** or **DB2** engine, you must specify the DNS name (or IP address) defined on the application server to access the database server.
 * For a **Microsoft SQL Server** engine, you must define: the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS `\<instance>`** (instance mode),
 
->[!CAUTION]
->
-> Starting 20.3, **[!UICONTROL SQL Server authentication]** is the only authentication mode available for Microsoft SQL Server.
+   >[!CAUTION]
+   >
+   > Starting 20.3, **[!UICONTROL SQL Server authentication]** is the only authentication mode available for Microsoft SQL Server.
 
-![](assets/s_ncs_install_db_mssql_creation01.png)
+   ![](assets/s_ncs_install_db_mssql_creation01.png)
 
 ### Step 2 - Connecting to the server {#step-2---connecting-to-the-server}
 
