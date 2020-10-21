@@ -17,7 +17,7 @@ Adobe Campaign provides the **Federated Data Access** (FDA) option in order to p
 
 >[!CAUTION]
 >
->Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the Snowflake connectors. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the Snowflake connectors. For more on this, refer [to this page](../../installation/using/capability-matrix.md).
 
 ## Operating principle {#operating-principle}
 

@@ -33,9 +33,9 @@ Check your [version and build number](../../platform/using/launching-adobe-campa
 
 ## What are the differences when working on-premise vs. in a hosted environment? {#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
 
-Adobe Campaign Classic comes with a set of modules and options. The availability of these modules and their configuration can depend on the [type of deployment](../../installation/using/hosting-models.md) of your installation: hosted (Managed Services) or on-premise.
+Adobe Campaign Classic comes with a set of modules and options. The availability of these modules and their configuration can depend on the [type of deployment](../../installation/using/hosting-models.md) of your installation: hosted (Managed Services), hybrid or on-premise.
 
-[Click here to learn more](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+[Click here to learn more](../../installation/using/capability-matrix.md).
 
 ## How can I set up user permissions? {#how-can-i-set-up-user-permissions-}
 
