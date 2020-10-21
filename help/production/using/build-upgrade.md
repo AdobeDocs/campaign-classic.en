@@ -275,7 +275,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 If the warning concerns a conflict of resources, user attention is required to resolve it.
 
-The **postupgrade_<server version number>_<time of postupgrade>.log** file contains the synchronization result. It is available by default in the following directory: **<installation directory/var/<instance/postupgrade**. Errors and warnings are indicated by the error and warning attributes.
+The **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** file contains the synchronization result. It is available by default in the following directory: **installationDirectory/var/instanceName/postupgrade**. Errors and warnings are indicated by the error and warning attributes.
 
 ### Analyze conflicts
 
