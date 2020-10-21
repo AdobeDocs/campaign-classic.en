@@ -111,7 +111,7 @@ This version is compatible with java 7.
 
 The tomcat-7 directory is replaced with a tomcat-8 directory.
 
-On windows, _iis_neolane_setup.vbs_ and _apache_neolane.conf_ are now installed in the `conf` directory (instead of `tomcat-7/conf` previously);
+On windows, _iis_neolane_setup.vbs_ and _apache_neolane.conf_ are now installed in the `conf` directory (instead of `tomcat-7/conf` previously).
 
 On linux, _apache_neolane.conf_ is now installed in the `conf` directory.
 
