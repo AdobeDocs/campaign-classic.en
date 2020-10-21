@@ -33,6 +33,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <td>CentOs</td>
 <td>
 <p>7.x (64 bits)</p>
+<p>8.x (64 bits)</p>
 </td>
 </tr>
 <tr>
@@ -47,6 +48,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <td>RHEL</td>
 <td>
 <p>7.x (64 bits)</p>
+<p>8.x (64 bits)</p>
 <p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
 </td>
 </tr>
