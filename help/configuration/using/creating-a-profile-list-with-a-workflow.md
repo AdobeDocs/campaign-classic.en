@@ -1,8 +1,6 @@
 ---
 title: Creating a profile list with a workflow
-seo-title: Creating a profile list with a workflow
-description: Creating a profile list with a workflow
-seo-description: 
+description: Learn how to create a profile list in a workflow
 page-status-flag: never-activated
 uuid: a30f7217-fe82-4290-b1e6-e7a126a316c1
 contentOwner: sauviat
@@ -15,7 +13,13 @@ discoiquuid: ba42c3cf-31fc-4fbc-b230-a2b3982328c5
 
 # Creating a profile list with a workflow{#creating-a-profile-list-with-a-workflow}
 
-To create a **[!UICONTROL List]** type list based on the new recipient table, you need to create a targeting workflow which will generate the list. For more information about lists in Campaign, refer to [this section](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign).
+To create a **[!UICONTROL List]** type list based on the new recipient table, you need to create a targeting workflow which will generate the list. 
+
+For more information about lists in Campaign, refer to [this section](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign).
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](../../platform/using/creating-and-managing-lists.md#create-list-in-a-wf-video)
+
+To create a targeting workflow and update recipients in a custom recipient table, follow the steps below: 
 
 1. Go to the **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** node of the explorer.
 1. Create a new targeting workflow.
@@ -39,7 +43,4 @@ To create a **[!UICONTROL List]** type list based on the new recipient table, yo
 
    ![](assets/mapping_list_view.png)
 
->[!NOTE]
->
->You can also refer to the [Creating a list of recipients](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html) video.
 

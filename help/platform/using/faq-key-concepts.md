@@ -57,7 +57,9 @@ Refer to [this document](https://helpx.adobe.com/campaign/kb/campaign-privacy-ov
 
 ## What are Campaign user interface concepts I should know? {#what-are-campaign-user-interface-concepts-i-should-know-}
 
-Read out [this section](../../platform/using/adobe-campaign-workspace.md) to learn more about Adobe Campaign workspace basics. You can also watch [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html).
+Read out [this section](../../platform/using/adobe-campaign-workspace.md) to learn more about Adobe Campaign workspace basics. 
+
+![](assets/do-not-localize/how-to-video.png) [Discover Campaign workspace in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 ## How can I select the audience of my messages? {#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -77,7 +79,9 @@ A workflow can also involve one or more operators to be notified or who can make
 
 ## How to create and send a first email? {#how-to-create-and-send-a-first-email-}
 
-[Click here to learn more](../../delivery/using/about-email-channel.md) or [watch this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-campaign-and-an-email.html) to create an email in a campaign.
+[Click here to learn more](../../delivery/using/about-email-channel.md).
+
+![](assets/do-not-localize/how-to-video.png) [Discover this in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
 ## How to send SMS messages? {#how-to-send-sms-messages-}
 

@@ -14,7 +14,7 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 
 # Common questions{#common-questions}
 
-Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also [watch tutorial videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) and read out Campaign [Getting started guides](../../platform/using/tutorials.md#step-by-step-guides) to learn key capabilities. Cannot find the answer? [Ask the Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/campaign).
+Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also [watch tutorial videos](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html) and read out Campaign [Getting started guides](../../platform/using/tutorials.md#step-by-step-guides) to learn key capabilities. Cannot find the answer? [Ask the Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/campaign).
 
 ## 1. How can I upgrade Campaign to the latest version? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
