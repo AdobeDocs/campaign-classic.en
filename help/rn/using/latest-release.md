@@ -103,6 +103,18 @@ Learn more about cookies in this [section](../../platform/using/privacy-and-reco
 * Improved the error message displayed when inserting an image from Adobe Target and the tenant name was empty in the external account.
 * In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]**.
 
+**Technical evolutions**
+
+In 20.3, Tomcat is updated from version 7 (7.0.103) to version 8 (8.5.57).
+
+This version is compatible with java 7.
+
+The tomcat-7 directory is replaced with a tomcat-8 directory.
+
+On windows, _iis_neolane_setup.vbs_ and _apache_neolane.conf_ are now installed in the `conf` directory (instead of `tomcat-7/conf` previously);
+
+On linux, _apache_neolane.conf_ is now installed in the `conf` directory.
+
 **Patches**
 
 * Fixed an issue which could prevent delivery statistics from being recomputed.

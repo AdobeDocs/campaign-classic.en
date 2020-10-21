@@ -63,7 +63,7 @@ Apply the following configuration steps:
 
    ![](assets/s_ncs_install_iis7_parameters_step1.png)
 
-1. A **VBS** script enables you to automatically configure the resources used by the Adobe Campaign server on the virtual directory we have just created. To launch it, double click the **iis_neolane_setup.vbs** file located in the `[INSTALL]\tomcat-7\conf` folder, where `[INSTALL]` is the path for accessing the Adobe Campaign installation folder.
+1. A **VBS** script enables you to automatically configure the resources used by the Adobe Campaign server on the virtual directory we have just created. To launch it, double click the **iis_neolane_setup.vbs** file located in the `[INSTALL]\conf` folder, where `[INSTALL]` is the path for accessing the Adobe Campaign installation folder.
 
    ![](assets/s_ncs_install_iis7_parameters_step2.png)
 

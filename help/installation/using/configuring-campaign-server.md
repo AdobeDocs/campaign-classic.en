@@ -237,7 +237,7 @@ Once the zones are defined and the **[!UICONTROL Security zone]** enumeration is
 
 ### Default port for Tomcat {#default-port-for-tomcat}
 
-When the 8080 listening port of the Tomcat server is already busy with another application required for your configuration, you need to replace the 8080 port with a free one (8090 for instance). To change it, edit the **server.xml** file saved in the **/tomcat-7/conf** directory of the Adobe Campaign installation folder.
+When the 8080 listening port of the Tomcat server is already busy with another application required for your configuration, you need to replace the 8080 port with a free one (8090 for instance). To change it, edit the **server.xml** file saved in the **/tomcat-8/conf** directory of the Adobe Campaign installation folder.
 
 Then modify the port of the JSP relay pages. To do this, change the **serverConf.xml** file saved in the **/conf** directory of the Adobe Campaign installation directory. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
@@ -251,7 +251,7 @@ Then modify the port of the JSP relay pages. To do this, change the **serverConf
 
 ### Mapping a folder in Tomcat {#mapping-a-folder-in-tomcat}
 
-To define customer specific settings, you can create a **user_contexts.xml** file in the **/tomcat-7/conf** folder, which also contains the **contexts.xml** file.
+To define customer specific settings, you can create a **user_contexts.xml** file in the **/tomcat-8/conf** folder, which also contains the **contexts.xml** file.
 
 This file will contain the following type of information:
 
