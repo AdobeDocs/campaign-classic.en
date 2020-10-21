@@ -35,15 +35,18 @@ Learn more about Adobe Campaign by checking the following use cases and examples
 * [Creating overviews](../../web/using/use-cases--creating-overviews.md): create overview-type Web applications to display all the Web applications in your database.
 * [Workflow use cases](../../workflow/using/about-workflow-use-cases.md): discover through these use cases different ways to use workflows.
 
-## How-to videos {#how-to-videos}
+## Self-help {#how-to-videos}
 
-### Tutorial videos 
+In addition to product documentation, you can access Campaign self-help resources listed below.
+
+### Tutorial videos
+
 Discover Adobe Campaign's main features in video. [Learn more](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html)
 
-## Training sessions and videos
+### Training sessions and videos
 
 Besides these short and detailed videos, you can find [training courses](https://learning.adobe.com/catalog.html) and watch feature [presentation videos](https://www.adobe.com/training/video.html) on Adobe.com.
 
-## Experience League Courses
+### Experience League Courses
 
 You can also visit the [Recommended Courses](https://experienceleague.adobe.com/?lang=en#dashboard/learning) for Adobe Campaign Classic: courses are expertly curated collections of lessons that quickly help you gain skills and knowledge.
