@@ -13,7 +13,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 # Latest Release{#latest-release}
 
-## ![](assets/do-not-localize/blue_2.png) Release 20.3.1 - Build XXX {#release-20-3-1-build-XXX}
+## ![](assets/do-not-localize/blue_2.png) Release 20.3.1 - Build 9227 {#release-20-3-1-build-9227}
 
 _October 27, 2020_
 
@@ -51,7 +51,7 @@ _October 27, 2020_
 <tr> 
 <td> <p>Android push notifications have been improved to support FCM HTTP v1 API for Android push channel authentication. </p>
 <p>With the new supported API version, you can now send FCM Notification Messages which provides enhanced rich push messaging capabilities. <a href=https://firebase.google.com/docs/cloud-messaging/migrate-v1>Learn more</a></p> 
-<p>For more information, refer to the <a href=../../delivery/using/configuring-the-mobile-application-android.md>detailed documentation</a>.</p>
+<p>For more information, refer to the .</p>
 </td> 
 </tr> 
 </tbody> 
@@ -79,7 +79,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 The following features are deprecated in 20.3:
 
 * The demdex domain used to import and export audiences to the Adobe Experience Cloud is deprecated. If you are using the demdex domain for your import/export external accounts, you need to adapt your implementation accordingly. [Learn more](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/about-adobe-experience-triggers.md)
+* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/about-<triggers class="md"></triggers>)
 
 Learn more in the Deprecated and removed features [page](../../rn/using/deprecated-features.md).
 
