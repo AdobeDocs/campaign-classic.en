@@ -36,6 +36,7 @@ type: Documentation
        + FAQ {#faq}
           + [Common questions](platform/using/common-questions.md)
           + [Key concepts](platform/using/faq-key-concepts.md)
+          + [Build upgrade](platform/using/faq-build-upgrade.md)
           + [Audiences](platform/using/faq-audiences.md)
           + [Design messages](platform/using/faq-designing.md)
           + [Send messages](platform/using/faq-messages.md)
