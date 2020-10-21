@@ -22,8 +22,8 @@ Adobe Campaign lets you import data to the database from one or more files in te
 >You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function.
 >
 >The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../workflow/using/read-list.md).  
->
->For more on this, watch the [Importing profiles](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html) video.
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/importing-profiles.html)
 
 ## Structure of the data to import {#structure-of-the-data-to-import}
 

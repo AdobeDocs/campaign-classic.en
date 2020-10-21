@@ -28,7 +28,7 @@ The delivery analysis is the phase during which the target population is calcula
 
 Adobe highly recommends creating proof messages to test your delivery on an approval group before sending it to the main target. You can then validate message content, personalization and delivery parameters.
 
-[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). You can also watch [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html).
+[Click here to learn more](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). 
 
 ### How to use seed addresses in Adobe Campaign? {#how-to-use-seed-addresses-in-adobe-campaign-}
 

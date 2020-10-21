@@ -1,8 +1,6 @@
 ---
 title: Creating and managing lists
-seo-title: Creating and managing lists
-description: Creating and managing lists
-seo-description: 
+description: Learn how to create and manage lists
 page-status-flag: never-activated
 uuid: 17d1a7d0-a728-490e-a820-19f469fddbcd
 contentOwner: sauviat
@@ -132,7 +130,7 @@ Learn how to create an audience by configuring a list of recipients from the Exp
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-## How to create a list of recipients with a workflow
+## How to create a list of recipients with a workflow {#create-list-in-a-wf-video}
 
 Learn how create a workflow in order to target recipients and how to make it recurring before using the list in an email target.
 
