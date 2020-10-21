@@ -48,8 +48,9 @@ Customers are advised to review if they make use of the feature/capability in th
   </td>
   <tr>
   <td>OAuth Authentication (OAuth and JWT)<br></td>
-  <td><p> Starting Campaign 20.3 release, Triggers integration authentication originally based on oAUTH authenticaton setup to access pipeline has now been changed and moved to Adobe I/O. <p>
+  <td><p> Starting Campaign 20.3 release, Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. <p>
   <p>If you are using Triggers integration, you need to adapt your implementation accordingly. <a href="../../integrations/using/about-triggers.md">Learn more</a></p> 
+  <p>For more information on OAuth Authentication depreciation, refer to this <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
   <p><em>Target removal date: April 2021</em></p>
   </td>
   </tr>
