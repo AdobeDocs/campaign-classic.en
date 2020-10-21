@@ -149,6 +149,7 @@ The following RDBMS drivers are supported:
 <p>9.6.x</p>
 <p>10.x</p>
 <p>11.x</p>
+<p>12.x</p>
 <p>Note: you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
 </tr>
@@ -231,6 +232,7 @@ The following RDBMS drivers are supported:
 <p>9.6.x</p>
 <p>10.x</p>
 <p>11.x</p>
+<p>12.x</p>
 </td>
 </tr>
 <tr><td>SQL Server</td>
