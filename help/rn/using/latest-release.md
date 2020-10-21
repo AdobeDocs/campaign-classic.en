@@ -29,7 +29,7 @@ _October 27, 2020_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>When integrating your mobile app with Campaign, you need to secure your communication with Apple Push Notification Service (APNs). You can use certificates or authentication tokens.
+<td> <p>When integrating your mobile app with Campaign, you need to secure your communication with Apple Push Notification service (APNs). You can use certificate-based or token-based authentication.
 </p>
 <p>These two authentication modes are now available for iOS mobile apps in Campaign Classic:
 </p>
@@ -61,10 +61,10 @@ _October 27, 2020_
 
 **Security enhancements**
 
-* Secure loading of libraries: Campaign now prevents unnecessary DLLs from loading while charging Campaign Client (nlclient) to protect from DLL preloading attacks. [Learn more](https://support.microsoft.com/en-us/help/2389418/secure-loading-of-libraries-to-prevent-dll-preloading-attacks) (NEO-24147)
+* Secure loading of libraries: In order to protect from DLL preloading attacks, Campaign now loads Windows DLLs only from the Windows default system DLL path while loading the Campaign Client (nlclient). [Learn more](https://support.microsoft.com/en-us/help/2389418/secure-loading-of-libraries-to-prevent-dll-preloading-attacks) (NEO-24147)
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) attacks. (NEO-25661)
 * Fixed an issue that occurred while handling GDPR privacy requests that prevented records from being deleted from custom tables with a second-level relationship to the Recipient table. (NEO-25967)
-* Fixed a security issue using API calls made by non-admin users when trying to synchronize Adobe Experience Manager templates.
+* Fixed a security issue using API calls made by non-admin users when trying to synchronize Adobe Experience Manager templates. (NEO-23487)
 
 **Compatibility updates**
 
