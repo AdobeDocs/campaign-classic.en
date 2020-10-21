@@ -38,30 +38,9 @@ Customers are advised to review if they make use of the feature/capability in th
  <tbody> 
    <tr>
    <td><strong>Feature</strong></td>
-   <td><strong>Replacement</strong></td>
+   <td><strong>Replacement</strong></td> 
   </tr>
-  <tr>
-  <td>iOS legacy binary<br></td>
-  <td><p>Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated.<p>
-  <p> If you are using this connector, you need to adapt your implementation accordingly.
-  <a href="https://helpx.adobe.com/campaign/kb/migrate-to-http2.html">Learn more</a></p>
-  <p><em>Target removal date: 2021</em></p>
-  </td>
- </tr>
    <tr>
-  <td>Demdex domain<br></td>
-  <td><p> Starting Campaign 20.3 release, the demdex domain used to import and export audiences to the Adobe Experience Cloud is deprecated.<p>
-  <p>If you are using the demdex domain for your import/export external accounts, you need to adapt your implementation accordingly. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Learn more</a></p> 
-  <p><em>Target removal date: 2021</em></p>
-  </td>
-  <tr>
-  <td>OAuth Authentication (OAuth and JWT)<br></td>
-  <td><p> Starting Campaign 20.3 release, Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. <p>
-  <p>If you are using Triggers integration, you need to adapt your implementation accordingly. <a href="../../integrations/using/about-triggers.md">Learn more</a></p> 
-  <p>For more information on OAuth Authentication depreciation, refer to this <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
-  <p><em>Target removal date: April 2021</em></p>
-  </td>
-  </tr>
   <td>SMS connectors<br></td>
   <td><p> Starting Campaign 20.2 release, the following SMS connectors are deprecated.<p>
    <ul>
@@ -149,6 +128,15 @@ Starting 20.2 release, the following systems are deprecated for Campaign Classic
 * Legacy SMS connectors - see [Deprecated features](#deprecated-features)
 * DB2 UDB 10.5 for Federated Data Access (FDA)
 
+### Adobe Campaign 19.2 release  {#compat-19-2-release}
+
+Starting 19.2 release, the following operating systems are deprecated for Campaign Classic. Compatibility will end in 2020 EOY.
+
+* Web Server: Apache 2.2.
+* Operating System: CentOS 6.
+
+Please refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system.
+
 ## End of compatibility {#end-of-compatibility}
 
 >[!CAUTION]
@@ -160,7 +148,7 @@ Starting 20.2 release, the following systems are deprecated for Campaign Classic
 Adobe Campaign Classic Client Console can no longer run on the following systems as they have been deprecated by their editor. Customers running Campaign Client Console on one of these versions need to upgrade to newest version before target removal date. Refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 * Windows Server 2003, 2008, 2008 R2
-* Windows 7, XP, Vista
+* Windows XP, Vista
 
 >[!NOTE]
 >Starting Campaign 20.1 release, Campaign Classic Client Console 32 bits is no longer compatible with Campaign latest versions. You need to use 64 bits Client Console.
@@ -170,7 +158,6 @@ Adobe Campaign Classic Client Console can no longer run on the following systems
 
 Starting 19.1 release, Adobe Campaign is no longer compatible with the following operating systems.
 
-* CentOS 6 [Learn more](https://wiki.centos.org/Download)
 * Debian 7. [Learn more](https://wiki.debian.org/DebianReleases)
 * RHEL 6.x. [Learn more](https://access.redhat.com/support/policy/updates/errata)
 * Windows Server 2008. [Learn more](https://support.microsoft.com/en-us/lifecycle/search/1163)
@@ -180,7 +167,6 @@ Starting 19.1 release, Adobe Campaign is no longer compatible with the following
 
 Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following web server. 
 
-* Apache 2.2. [Learn more](https://httpd.apache.org/)
 * Microsoft IIS 7. [Learn more](https://support.microsoft.com/en-us/lifecycle/search/810)
 
 ### Tools {#tools-eol}

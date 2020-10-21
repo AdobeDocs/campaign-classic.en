@@ -18,15 +18,15 @@ type: Documentation
   + [Latest Release](rn/using/latest-release.md)
   + [Gold Standard release](rn/using/gold-standard.md)
   + Previous Releases {#previous-releases}
+    + [Release 20.2](rn/using/release--20-2.md)
     + [Release 20.1](rn/using/release--20-1.md)
     + [Release 19.2](rn/using/release--19-2.md)
     + [Release 19.1](rn/using/release--19-1.md)
     + [Release 18.10](rn/using/release--18-10.md)
     + [Release 18.6](rn/using/release--18-6.md)
     + [Release 18.4](rn/using/release--18-4.md)
-  + Deprecated features and compatibility {#deprecated-compatibility}
-    + [Deprecated features](rn/using/deprecated-features.md)
-    + [Compatibility Matrix](rn/using/compatibility-matrix.md)
+  + [Deprecated features](rn/using/deprecated-features.md)
+  + [Compatibility Matrix](rn/using/compatibility-matrix.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)

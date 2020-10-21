@@ -21,7 +21,7 @@ For this, enter the following commands:
 
 ```
 nlserver stop web
-cd nl6/tomcat-7
+cd nl6/tomcat-8
 rm -r work/
 nlserver start web
 ```

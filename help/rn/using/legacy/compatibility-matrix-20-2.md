@@ -1,6 +1,6 @@
 ---
 title: Compatibility matrix
-description: Campaign Classic Compatibility matrix
+description: Compatibility matrix
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -33,7 +33,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <td>CentOs</td>
 <td>
 <p>7.x (64 bits)</p>
-<p>8.x (64 bits)</p>
 </td>
 </tr>
 <tr>
@@ -48,7 +47,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <td>RHEL</td>
 <td>
 <p>7.x (64 bits)</p>
-<p>8.x (64 bits)</p>
 <p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
 </td>
 </tr>
@@ -151,7 +149,6 @@ The following RDBMS drivers are supported:
 <p>9.6.x</p>
 <p>10.x</p>
 <p>11.x</p>
-<p>12.x</p>
 <p>Note: you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
 </tr>
@@ -162,7 +159,6 @@ The following RDBMS drivers are supported:
 <p>2014</p>
 <p>2016</p>
 <p>2017</p>
-<p>2019</p>
 <p>Warning: Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">Learn more</a>.</p>
 </td>
 </tr>
@@ -235,7 +231,6 @@ The following RDBMS drivers are supported:
 <p>9.6.x</p>
 <p>10.x</p>
 <p>11.x</p>
-<p>12.x</p>
 </td>
 </tr>
 <tr><td>SQL Server</td>
@@ -244,7 +239,6 @@ The following RDBMS drivers are supported:
 <p>2014</p>
 <p>2016</p>
 <p>2017</p>
-<p>2019</p>
 </td>
 </tr>
 <tr><td>MySQL</td>
@@ -336,7 +330,6 @@ The following RDBMS drivers are supported:
 <p>iOS 11</p>
 <p>iOS 12</p>
 <p>iOS 13</p>
-<p>iOS 14</p>
 <p>with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions.</p>
 </td>
 </tr>
