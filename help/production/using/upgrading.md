@@ -1,8 +1,6 @@
 ---
-title: Upgrading
-seo-title: Upgrading
-description: Upgrading
-seo-description: 
+title: Upgrading to a new build
+description: Learn technical steps to upgrade to a new build
 page-status-flag: never-activated
 uuid: f24552d4-6bdf-411c-a1f2-b8f339c311f4
 contentOwner: sauviat
@@ -13,7 +11,7 @@ topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 ---
 
-# Upgrading{#upgrading}
+# Upgrading to a new build (on-premise){#upgrading}
 
 Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](../../rn/using/latest-release.md) .
 
