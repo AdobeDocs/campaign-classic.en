@@ -162,7 +162,7 @@ Yes. The server is shutdown during an upgrade to ensure that the data integrity 
 
 ## Who should I contact to open the build upgrade ticket?
 
-Contact your [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Client Care will schedule the build dates and open the build upgrade tickets.
+If you face issues after a build upgrade, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Customer Care schedules the build dates and opens build upgrade related tickets.
 
 Learn more in [Help and Support options for Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
 

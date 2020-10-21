@@ -646,7 +646,8 @@ type: Documentation
        + [Database cleanup workflow](production/using/database-cleanup-workflow.md)
   + Updating Adobe Campaign {#updating-adobe-campaign}
        + [Introduction](production/using/introduction.md)
-       + [Upgrading](production/using/upgrading.md)
+       + [Performing a build upgrade](production/using/build-upgrade.md)
+       + [Upgrading procedure (on-premise)](production/using/upgrading.md)
        + [Switching to Unicode](production/using/switching-to-unicode.md)
        + [Migration procedures](production/using/migration-procedures.md)
   + Database maintenance {#database-maintenance}
@@ -748,8 +749,4 @@ type: Documentation
        + [Specific configurations in v5.11](migration/using/specific-configurations-in-v5-11.md)
        + [Specific configurations in v6.02](migration/using/specific-configurations-in-v6-02.md)
        + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
-  + Rollback {#rollback}
-       + [About rollback](migration/using/about-rollback.md)
-       + [Restoring v5.11](migration/using/restoring-v5-11.md)
-       + [Restoring v6.02](migration/using/restoring-v6-02.md)
-       + [Restoring v6.1](migration/using/restoring-v6-1.md)
+  + [Rollback procedure](migration/using/about-rollback.md)
