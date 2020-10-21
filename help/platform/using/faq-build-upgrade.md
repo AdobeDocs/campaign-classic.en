@@ -111,6 +111,7 @@ Upgrades can be performed off-hours. It is always recommended to upgrade the env
 There is no cost to install the build upgrade for hosted Customers. If there are custom developments in the system, the Customer will need to identify resources needed to test those developments post upgrade and to correct any issues found with those custom developments.    
 
 ## Will there be access to the instance during the upgrade process?
+
 No. The server is shutdown during an upgrade to ensure that the data integrity is preserved while the product is upgraded. Once completed, it is restarted, and all services resume.    
 
 ## Will the emails continue to be sent from Message Center during the upgrade process?
