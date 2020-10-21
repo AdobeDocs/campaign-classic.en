@@ -330,6 +330,7 @@ The following RDBMS drivers are supported:
 <p>iOS 11</p>
 <p>iOS 12</p>
 <p>iOS 13</p>
+<p>iOS 14</p>
 <p>with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions.</p>
 </td>
 </tr>
