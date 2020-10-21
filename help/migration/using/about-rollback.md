@@ -17,7 +17,7 @@ After a migration, in case of issues, you might need to rollback to the previous
 
 The rollback procedure depends on your initial version of Campaign.
 
-# Restoring v6.1
+## Restoring v6.1
 
 Here is the procedure to restore a v6.1 from a v7.
 
