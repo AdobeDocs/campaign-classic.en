@@ -93,11 +93,11 @@ Learn more in the Deprecated and removed features [page](../../rn/using/deprecat
 * A new permanent cookie has been introduced: nllastdelid. This cookie (other than UUID230) will store deliveryId. When session cookie is not present, broadlog information would be taken from the deliveryId present in this cookie.
 This change fixes an issue which occurred when the browser session was over: the session cookie containing deliveryId and broadlogId got deleted. Without deliveryId, broadlog information could not be found and the tracking table information would be missing in case of permanent tracking (last delivery).
 Learn more about cookies in this [section](../../platform/using/privacy-and-recommendations.md#cookies).
-* Improved high volume delivery throughput performance with deliverability server by restarting the MTA process before delivery sending. 
+* Improved high volume delivery throughput performance with deliverability server by restarting the MTA process before delivery sending.
 
 **Other changes**
 * In the **Update event status** technical workflow, the sizing of the **sumQueueTime**, **sumSuccessDeliveryTime** and **sumSuccessDeliveryQueueTime** destination fields was changed from 32 to 64 bits for the Update delivery stats activity. This is to match the sizing of the incoming corresponding fields in the **Delivery statistics** activity and therefore prevent the **Update delivery stats** activity from failing. (NEO-11557)
-* When using relative path for SFTP,  `~/` will not be added automatically anymore. If you need to use SFTP, you can add `~/` to your path manually but we recommend using absolute path.
+* When using relative path for SFTP, `~/` will not be added automatically anymore. If you need to use SFTP, you can add `~/` to your path manually but we recommend using absolute path.
 * Windows NT authentication has been removed from the available authentication methods when configuring a new database with a Microsoft SQL Server.
 * The database cleanup workflow has been optimized for Teradata in order to improve performance. (NEO-19959)
 * Improved the error message displayed when inserting an image from Adobe Target and the tenant name was empty in the external account.
@@ -107,9 +107,7 @@ Learn more about cookies in this [section](../../platform/using/privacy-and-reco
 
 In 20.3, Tomcat is updated from version 7 (7.0.103) to version 8 (8.5.57).
 
-This version is compatible with java 7.
-
-The tomcat-7 directory is replaced with a tomcat-8 directory.
+The `tomcat-7` directory is replaced with a `tomcat-8` directory.
 
 On windows, _iis_neolane_setup.vbs_ and _apache_neolane.conf_ are now installed in the `conf` directory (instead of `tomcat-7/conf` previously).
 
