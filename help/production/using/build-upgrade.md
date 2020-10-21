@@ -87,9 +87,9 @@ You also need to know all the [useful command lines](../../installation/using/co
 * **nlserver pdump**: lists running processes
 * **nlserver pdump -who**: lists active client sessions
 * **nlserver monitor -missing**: lists missing properties
-* **nlserver start process@<instance>**: starts a process
-* **nlserver stop process@<instance>**: stops a process
-* **nlserver restart process@<instance>**: restarts a process
+* **nlserver start process@instanceName**: starts a process
+* **nlserver stop process@instanceName**: stops a process
+* **nlserver restart process@instanceName**: restarts a process
 * **nlserver shutdown**: stops all Campaign processes
 * **nlserver watchdog -svc**: starts the watchdog (UNIX only)
 
