@@ -219,7 +219,7 @@ The [Sending push notifications](../../delivery/using/about-mobile-app-channel.m
 
 The new parameter for URLs report configuration has been documented [here](../../reporting/using/properties-of-the-report.md#defining-additional-settings).
 
-The **Campaign Classic On-premise & Hosted capability matrix** page has been updated with the new FDA connectors. [Read more](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)
+The **Campaign Classic On-premise & Hosted capability matrix** page has been updated with the new FDA connectors. [Read more](../../installation/using/capability-matrix.md).
 
 The **Campaign Classic Capability matrix** page has been updated. [Read more](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
@@ -373,7 +373,7 @@ A new Knowledge base article on using the offer catalog in Adobe Campaign Classi
 
 The Sub-workflow activity section has been enhanced with an example of usage. [Read more](../../workflow/using/sub-workflow.md)
 
-The [Campaign Classic On-premise & Hosted capability matrix](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html) Knowledge base article has been updated with information relating to Email BCC.
+The [Campaign Classic On-premise & Hosted capability matrix](../../installation/using/capability-matrix.md) page has been updated with information relating to Email BCC.
 
 The Transactional Messaging documentation has been updated with a note regarding template publication. [Read more](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 
@@ -440,6 +440,6 @@ The "Workflow monitoring" section has been updated with a note for builds betwee
 
 Added a use case on how to send an email with custom data fields using the Enrichment activity in a workflow. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Email_enrichment_with_custom_date_fields.html)
 
-Feature videos have been moved [here](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html).
+Feature videos have been moved [here](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html).
 
 Two technotes have been added on [Teradata](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) and [MySQL 5.7](https://helpx.adobe.com/campaign/kb/campaign_fda_mysql.html).
