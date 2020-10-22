@@ -1,8 +1,6 @@
 ---
 title: SpamAssassin
-seo-title: SpamAssassin
-description: SpamAssassin
-seo-description: 
+description: Learn how to set up email spam detection with SpamAssassin
 page-status-flag: never-activated
 uuid: 4f439432-4215-42ed-8f92-b4ca8dd92726
 contentOwner: sauviat
@@ -11,9 +9,6 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: d41658ab-ee79-4a5c-a165-d94b81eb2b33
-index: y
-internal: n
-snippet: y
 ---
 
 # SpamAssassin{#spamassassin}
@@ -27,7 +22,7 @@ SpamAssassin leverages a variety of spam-detection techniques, including:
 * DNS-based and fuzzy-checksum-based spam detection
 * Bayesian filtering
 * External programs
-* Block lists
+* Denylists
 * Online databases
 
 >[!NOTE]

@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 discoiquuid: ef7d9b16-506a-409c-a578-000b88cd17a2
-index: y
-internal: n
-snippet: y
 ---
 
 # About surveys{#about-surveys}

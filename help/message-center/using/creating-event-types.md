@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 5c0a428f-a3e7-4848-8c47-b72832ba97c2
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating event types{#creating-event-types}

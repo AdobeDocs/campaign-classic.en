@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: b9846eda-eeca-433e-b961-6dfc2aa2708b
-index: y
-internal: n
-snippet: y
 ---
 
 # Time zone management{#time-zone-management}

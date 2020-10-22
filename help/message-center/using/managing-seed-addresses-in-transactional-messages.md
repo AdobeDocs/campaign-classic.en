@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 12e7043e-e8b5-48a9-8a2f-99e2e6040c3c
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing seed addresses in transactional messages{#managing-seed-addresses-in-transactional-messages}

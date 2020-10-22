@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 discoiquuid: 6e27caea-1f1a-457d-bdec-1f93a12b01cf
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating an offer via a workflow{#integrating-an-offer-via-a-workflow}

@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 1556e87f-9d92-4548-a75a-4f44030ab8d5
-index: y
-internal: n
-snippet: y
 ---
 
 # Messaging server{#messaging-server}

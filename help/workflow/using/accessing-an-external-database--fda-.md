@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: 1ca7ec80-18d1-4e94-bfe6-16ecd094fdf3
-index: y
-internal: n
-snippet: y
 ---
 
 # Accessing an external database (FDA){#accessing-an-external-database-fda}

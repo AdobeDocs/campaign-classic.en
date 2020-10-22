@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and configuring the database{#creating-and-configuring-the-database}
@@ -62,7 +59,7 @@ Depending on the selected database engine, the server identification information
 * For a **PostgreSQL** or **DB2** engine, you must specify the DNS name (or IP address) defined on the application server to access the database server.
 * For a **Microsoft SQL Server** engine, you must define:
 
-    1. the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS\ `<instance>`** (instance mode),
+    1. the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS `\<instance>`** (instance mode),
     1. the authentication method used to access Microsoft SQL Server: **[!UICONTROL SQL Server authentication]** or **[!UICONTROL Windows NT authentication]**.
     
        ![](assets/s_ncs_install_db_mssql_creation01.png)

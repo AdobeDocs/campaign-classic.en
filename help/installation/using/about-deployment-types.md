@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 298d9b9f-220f-4862-bc4c-1ad7f8d51049
-index: y
-internal: n
-snippet: y
 ---
 
 # About deployment types{#about-deployment-types}
@@ -28,5 +25,5 @@ In case of a configuration on multiple computers, you don't have to use the same
 >Adobe for deployments hosted by Adobe. For example, to
 >configure the server and instance configuration files.
 >
->To learn more about the main differences between deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to the [Feature differences for hosted and on-premise deployments](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html) article.
+>To learn more about the main differences between deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to the [Feature differences for hosted and on-premise deployments](../../installation/using/capability-matrix.md).
 

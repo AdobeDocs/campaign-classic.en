@@ -1,8 +1,6 @@
 ---
 title: Creating a new report
-seo-title: Creating a new report
-description: Creating a new report
-seo-description: 
+description: Learn key steps to create a new report
 page-status-flag: never-activated
 uuid: dcea5c28-da09-4a31-a13c-c8995c6faa63
 contentOwner: sauviat
@@ -11,9 +9,6 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 22c92ddf-fbea-49d3-afd4-1ba427be399d
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a new report{#creating-a-new-report}
@@ -56,29 +51,29 @@ Activities are linked up using transitions, represented by arrows.
 
 To build a report, depending on its nature and context, you need to identify the useful elements and modelize their logical sequence.
 
-1. Use the 'Start' activity to materialize the first process to be carried out to build the report. You can only use one of these activities per report.
+1. Use the **[!UICONTROL Start]** activity to materialize the first process to be carried out to build the report. You can only use one of these activities per report.
 
    It is mandatory if the chart includes a loop.
 
-1. Add one or more 'Query' activities to collect data that is useful for building the report. Data can be collected either directly via a query on a schema of the database, or via an imported list or an existing Cube.
+1. Add one or more **[!UICONTROL Query]** activities to collect data that is useful for building the report. Data can be collected either directly via a query on a schema of the database, or via an imported list or an existing Cube.
 
    For more on this, refer to [Collecting data to analyze](../../reporting/using/collecting-data-to-analyze.md).
 
    This data will be displayed (or not) in the report depending on page configuration.
 
-1. Place one or more 'Page' activities to define the graphical representation of the collected data. You can insert tables, charts, input fields, and condition the display of one or more pages, or elements of the page. The displayed content is fully configurable.
+1. Place one or more **[!UICONTROL Page]** activities to define the graphical representation of the collected data. You can insert tables, charts, input fields, and condition the display of one or more pages, or elements of the page. The displayed content is fully configurable.
 
    For more on this, refer to [Static elements](#static-elements).
 
-1. Use a 'Test' activity to define the conditions for displaying or accessing data.
+1. Use a **[!UICONTROL Test]** activity to define the conditions for displaying or accessing data.
 
    For more on this, refer to [Conditioning page display](../../reporting/using/defining-a-conditional-content.md#conditioning-page-display).
 
-1. If necessary, add personalized scripts via the 'Script' activity, for instance to calculate the name of a report, to filter the display of the result within a specific context, etc.
+1. If necessary, add personalized scripts via the **[!UICONTROL Script]** activity, for instance to calculate the name of a report, to filter the display of the result within a specific context, etc.
 
    For more on this, refer to [Script activity](../../reporting/using/advanced-functionalities.md#script-activity).
 
-1. Finally, you for easier reading of complex reports, you can insert one or more 'jump' type activities. This lets you go from one activity to another without materializing the transition on the report. The 'Jump' can also be used to display another report.
+1. Finally, you for easier reading of complex reports, you can insert one or more **[!UICONTROL Jump]** type activities. This lets you go from one activity to another without materializing the transition on the report. The **[!UICONTROL Jump]** activity can also be used to display another report.
 
    For more on this, refer to [Jump activity](../../reporting/using/advanced-functionalities.md#jump-activity).
 
@@ -163,4 +158,3 @@ Finally, you can integrate one or more advanced controls into your reports. This
 Here you can filter the data in the report to display only the information contained in one of the folders of the tree: 
 
 ![](assets/reporting_control_folder.png)
-

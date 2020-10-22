@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: f296676e-3bf1-47da-8239-f5ae54e52fc0
-index: y
-internal: n
-snippet: y
 ---
 
 # Campaign server configuration{#campaign-server-configuration}
@@ -24,7 +21,7 @@ Additional configurations are offered in [Configuring Campaign server](../../ins
 
 >[!NOTE]
 >
->Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to this [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Server side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [the capability matrix](../../installation/using/capability-matrix.md).
 
 ## Internal identifier {#internal-identifier}
 

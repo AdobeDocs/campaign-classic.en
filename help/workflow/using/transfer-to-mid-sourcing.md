@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: 57b873e9-e934-410b-b966-040cebd94e3e
-index: y
-internal: n
-snippet: y
 ---
 
 # Transfer to Mid-sourcing{#transfer-to-mid-sourcing}

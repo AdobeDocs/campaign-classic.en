@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring the mobile application in Adobe Campaign {#configuring-the-mobile-application-in-adobe-campaign}
@@ -132,8 +129,8 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 1. Click the **[!UICONTROL Enter the certificate...]** link then select the authentication certificate and enter the password that was provided by the mobile application developer. You can click **[!UICONTROL Test the connection]** to be sure it is successful.
 
    >[!NOTE]
-    >
-    >Apple requires different certificates for Development and Production versions of a same mobile application. You will need to configure the two separate applications in Adobe Campaign.
+   >
+   >Apple requires different certificates for Development and Production versions of a same mobile application. You will need to configure the two separate applications in Adobe Campaign.
 
    ![](assets/nmac_ios_4.png)
 

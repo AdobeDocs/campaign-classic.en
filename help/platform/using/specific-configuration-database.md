@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring FDA connectors {#specific-configurations-by-database-type}
@@ -130,7 +127,7 @@ To configure Azure Synapse on CentOS:
 
    >[!NOTE]
    >
-   >To allow communication from Azure Synapse Analytics' side you might need to add your public IP to the allow list. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >To allow communication from Azure Synapse Analytics' side you might need to add your public IP to the allowlist. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 1. In case of iptables, run the following command:
 
@@ -221,13 +218,13 @@ To configure Azure Synapse on Debian:
 
    >[!NOTE]
    >
-   >To allow communication from Azure Synapse Analytics' side you might need to add your public IP to the allow list. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >To allow communication from Azure Synapse Analytics' side you might need to add your public IP to the allowlist. To do so, refer to [Azure documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 ## Configure access to Snowflake {#configure-access-to-snowflake}
 
 >[!NOTE]
 >
->[!DNL Snowflake] connector is available for hosted and on-premise deployments. For more on this, refer to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>[!DNL Snowflake] connector is available for hosted and on-premise deployments. For more on this, refer to [this page](../../installation/using/capability-matrix.md).
 
 ![](assets/snowflake_3.png)
 

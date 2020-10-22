@@ -1,8 +1,6 @@
 ---
-title: Database
-seo-title: Database
-description: Database
-seo-description: 
+title: Campaign Classic Database recommendations
+description: Database recommendations
 page-status-flag: never-activated
 uuid: b318365c-8846-4c1d-b5f7-ece55fb8c4af
 contentOwner: sauviat
@@ -11,9 +9,6 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 1dcf01af-c2f3-4975-ba05-628d52952064
-index: y
-internal: n
-snippet: y
 ---
 
 # Database{#database}
@@ -28,14 +23,11 @@ Also check the [Database access layers](../../installation/using/prerequisites-o
 
 The native client must be installed on the Adobe Campaign application servers.
 
-You can check for the native client on the server via the ODBC driver configuration panel, under **SQL Server Native Client 10.0** (for Microsoft SQL Server 2008 and 2008 R2 clients), or **SQL Server Native Client 11.0** (for Microsoft SQL Server 2012, 2014, 2016 and 2017  clients).
+You can check for the native client on the server via the ODBC driver configuration panel, under **SQL Server Native Client 11.0**.
 
-The following access DLLs must be present:
+The following access DLL must be present: **sqlncli11.dll**.
 
-* **sqlncli10.dll** for Microsoft SQL Server 2008 and 2008 R2 clients,
-* **sqlncli11.dll** for Microsoft SQL Server 2012, 2014, 2016 and 2017 clients.
-
-  Access DLLs are found on the Microsoft website.
+Access DLLs are found on the Microsoft website.
 
 >[!NOTE]
 >

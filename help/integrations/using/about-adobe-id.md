@@ -1,8 +1,6 @@
 ---
-title: About Adobe ID
-seo-title: About Adobe ID
-description: About Adobe ID
-seo-description: 
+title: Use your Adobe ID in Campaign
+description: Learn more about Adobe IMS integration
 page-status-flag: never-activated
 uuid: d88f70f7-637a-4609-8747-784700b6ca1a
 contentOwner: sauviat
@@ -11,9 +9,6 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: c988362b-432e-4f9f-8d36-00b3d0015756
-index: y
-internal: n
-snippet: y
 ---
 
 # About Adobe ID{#about-adobe-id}

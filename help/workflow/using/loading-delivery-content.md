@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 3667da3d-4940-4128-8878-f1ee67216f56
-index: y
-internal: n
-snippet: y
 ---
 
 # Loading delivery content{#loading-delivery-content}

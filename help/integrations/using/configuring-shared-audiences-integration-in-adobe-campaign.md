@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 discoiquuid: 4443b0ca-80c6-467d-a4df-50864aae8496
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring shared audiences integration in Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
@@ -43,9 +40,11 @@ First, we need to configure or check the external accounts in Adobe Campaign as 
 
    >[!NOTE]
    >
-   >If you are using S3, enter your **[!UICONTROL AWS S3 Account Server]** following this syntax:   
-     `<S3bucket name>.s3.amazonaws.com/<s3object path>`     
-     For more information on how to configure your S3 account, refer to this [page](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account).
+   >If you are using S3, enter your **[!UICONTROL AWS S3 Account Server]** following this syntax:
+   >
+   >`<S3bucket name>.s3.amazonaws.com/<s3object path>`
+   >
+   >For more information on how to configure your S3 account, refer to this [page](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account).
 
    ![](assets/aam_config_2.png)
 

@@ -11,9 +11,6 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: 3e593527-5580-44ea-93dc-9084d862537e
-index: y
-internal: n
-snippet: y
 ---
 
 # List of reports{#list-of-reports}

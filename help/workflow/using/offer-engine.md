@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 08987595-e80c-4197-ad1e-9aa7cfc7c3eb
-index: y
-internal: n
-snippet: y
 ---
 
 # Offer engine{#offer-engine}

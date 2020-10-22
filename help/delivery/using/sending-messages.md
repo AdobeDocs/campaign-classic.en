@@ -1,6 +1,6 @@
 ---
 title: Sending an email with Adobe Campaign Classic
-description: Learn about the parameters that are specific to delivering emails in Adobe Campaign Classic.
+description: Learn about email delivery parameters
 page-status-flag: never-activated
 uuid: 791f7a54-3225-46ca-ad6f-6c32e9c62d75
 contentOwner: sauviat
@@ -9,9 +9,6 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: e2dd8161-fe38-48bf-a288-8ec328b2660e
-index: y
-internal: n
-snippet: y
 ---
 
 # Sending an email{#sending-an-email}
@@ -25,25 +22,25 @@ The detailed process when validating and sending a delivery is presented in the 
 
 The sections below detail the parameters that are specific to delivering emails.
 
-## Archiving emails {#archiving-emails}
+## Email BCC {#archiving-emails}
 
 Adobe Campaign enables you to store emails on an external system through BCC by simply adding a BCC email address to your message target. Once the option activated, an exact copy of all sent messages will be kept for this delivery.
 
-For more information on configuring Email BCC, refer to [this section](../../installation/using/email-archiving.md).
+For more information on Email BCC configuration and best practices, refer to [this section](../../installation/using/email-archiving.md).
 
 >[!NOTE]
 >
->This feature is optional. Please check your license agreement and contact your account executive to activate it.
+>Email BCC is an optional capability. Please check your license agreement and contact your account executive to activate it.
 
-When creating a new delivery or delivery template, Email BCC is not enabled by default, even if the option has been purchased. You must enable it manually in each delivery or template where you want to use it.
+When creating a new delivery or delivery template, Email BCC is not enabled by default. You need enable it manually at the email delivery or delivery template level.
 
-To do this, follow the steps below:
+To enable Email BCC for an email delivery template, follow the steps below:
 
 1. Go to **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** or **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Select the delivery of your choice or duplicate the out-of-the-box **Email delivery** template, then select the duplicated template.
 1. Click the **Properties** button.
 1. Select the **[!UICONTROL Delivery]** tab.
-1. Check the **Archive emails** box to keep a copy of all sent messages for this delivery or for each delivery based on this template.
+1. Check the **Email BCC** option. A copy of all sent messages for each delivery based on this template will be sent to the Email BCC address which has been configured.
 
    ![](assets/s_ncs_user_wizard_archiving.png)
 

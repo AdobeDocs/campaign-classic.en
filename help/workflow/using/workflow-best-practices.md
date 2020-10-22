@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 3da951ef-5775-4593-8301-f143c71edc19
-index: y
-internal: n
-snippet: y
 ---
 
 # Workflow best practices{#workflow-best-practices}

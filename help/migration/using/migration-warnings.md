@@ -11,9 +11,6 @@ audience: migration
 content-type: reference
 topic-tags: migration-overview
 discoiquuid: 1fa1fe0f-c392-413a-9fa0-d1b4e10e2e5e
-index: y
-internal: n
-snippet: y
 ---
 
 # Migration warnings{#migration-warnings}

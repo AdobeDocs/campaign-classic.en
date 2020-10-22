@@ -11,9 +11,6 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 discoiquuid: f3ff8c8e-22b0-4d61-9f26-11f5ca3bc0be
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting{#troubleshooting}

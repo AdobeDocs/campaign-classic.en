@@ -1,8 +1,6 @@
 ---
 title: Accessing an external database
-seo-title: Accessing an external database
-description: Accessing an external database
-seo-description: 
+description: Learn how to access and process data in an external database
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
@@ -11,9 +9,6 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
-index: y
-internal: n
-snippet: y
 ---
 
 # About Federated Data Access {#about-federated-data-access}
@@ -22,7 +17,7 @@ Adobe Campaign provides the **Federated Data Access** (FDA) option in order to p
 
 >[!CAUTION]
 >
->Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the Snowflake connectors. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the Snowflake connectors. For more on this, refer [to this page](../../installation/using/capability-matrix.md).
 
 ## Operating principle {#operating-principle}
 

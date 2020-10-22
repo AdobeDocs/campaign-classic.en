@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: f3cd5409-c301-4580-96e3-9349e18cf42a
-index: y
-internal: n
-snippet: y
 ---
 
 # Jump (start point and end point){#jump-start-point-and-end-point}

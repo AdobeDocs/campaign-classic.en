@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: c61e8592-8868-4bb6-95ce-817da2cd248b
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating filters{#creating-filters}

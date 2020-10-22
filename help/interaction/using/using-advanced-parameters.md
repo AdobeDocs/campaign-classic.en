@@ -11,9 +11,6 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 2bb756a2-4aca-4195-9b7a-ec85028a8012
-index: y
-internal: n
-snippet: y
 ---
 
 # Using advanced parameters{#using-advanced-parameters}

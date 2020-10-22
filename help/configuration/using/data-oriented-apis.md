@@ -11,9 +11,6 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: fba46d42-0253-425b-bbc2-6702d4140e05
-index: y
-internal: n
-snippet: y
 ---
 
 # Data oriented APIs{#data-oriented-apis}
@@ -225,7 +222,7 @@ To count the number of records on a query:
 
 >[!NOTE]
 >
->Again we use the condition from the previous example. The `<select>` and clauses are not used. </select>`
+>Again we use the condition from the previous example. The `<select>` and clauses are not used. `</select>`
 
 #### Data grouping {#data-grouping}
 

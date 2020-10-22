@@ -1,7 +1,7 @@
 ---
 title: About Adobe Campaign Classic
 seo-title: About Adobe Campaign Classic
-description: About Adobe Campaign Classic
+description: Discover key capabilities, user interface and global guidelines.
 seo-description: 
 page-status-flag: never-activated
 uuid: 2d0160fa-8328-4ff9-ab91-56e4058f8a99
@@ -11,12 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
-index: y
-internal: n
-snippet: y
 ---
 
-# About Adobe Campaign Classic{#about-adobe-campaign-classic}
+# Get Started with Campaign Classic{#about-adobe-campaign-classic}
 
 To deliver a high degree of customer engagement and great experiences, brands must create consistent customer journeys at all touchpoints. Marketers can now efficiently design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment and drive loyalty.
 
@@ -33,6 +30,8 @@ Adobe Campaign provides a platform for designing cross-channel customer experien
 The marketing campaign cycle in Adobe Campaign illustrates the main areas of functionality of the product:
 
 ![](assets/d_ncs_user_emarketing.png)
+
+![](assets/do-not-localize/how-to-video.png) [Discover primary features and capabilities in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html)
 
 ### Integrated customer profile {#integrated-customer-profile}
 

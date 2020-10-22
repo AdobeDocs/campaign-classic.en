@@ -1,8 +1,6 @@
 ---
 title: Installing the client console
-seo-title: Installing the client console
-description: Installing the client console
-seo-description: 
+description: Learn how to install the client console
 page-status-flag: never-activated
 uuid: 1279c0d8-bf27-4a58-ae94-796d6147231a
 contentOwner: sauviat
@@ -11,9 +9,6 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: d1069b23-e08d-43c5-bbfb-3158ac40dc7e
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing Campaign client console{#installing-the-client-console}
@@ -77,7 +72,7 @@ You can add as many connections as needed to connect to your test, stage and pro
 >The **[!UICONTROL Add]** button lets you create **[!UICONTROL folders]** to organize all your connections. Simply drag and drop each connection into a folder.
 
 
-## Log on to Campaign 
+## Log on to Adobe Campaign 
 
 To log on to an existing instance, follow the steps below:
 

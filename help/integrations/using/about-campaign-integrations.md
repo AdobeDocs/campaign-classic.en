@@ -1,6 +1,6 @@
 ---
 title: About Campaign integrations
-description: Learn about functional integrations available between the current version of Adobe Campaign and [Adobe Experience Cloud solutions
+description: Use other Adobe solutions and combine their different capabilities with Campaign.
 page-status-flag: never-activated
 uuid: 087abdf0-b4b2-45e6-be21-b03bf85ddf83
 contentOwner: sauviat
@@ -9,9 +9,6 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 discoiquuid: 0af1fd96-48ef-43c9-a03b-0f9a6e0e02fe
-index: y
-internal: n
-snippet: y
 ---
 
 # About Campaign integrations {#about-campaign-integrations}

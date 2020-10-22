@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 075206aa-ff7b-4fa8-a05d-14a29fb119ba
-index: y
-internal: n
-snippet: y
 ---
 
 # AND-join{#and-join}

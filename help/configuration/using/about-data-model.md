@@ -1,6 +1,6 @@
 ---
 title: About the Adobe Campaign Classic data model
-description: This document describes the basics of the Adobe Campaign Classic data model.
+description: Learn how to extend Campaign data model, edit schemas, use APIs, and more.
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -9,9 +9,6 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
-index: y
-internal: n
-snippet: y
 ---
 
 # About the Campaign data model{#about-data-model}

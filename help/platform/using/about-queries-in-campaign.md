@@ -11,9 +11,6 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 discoiquuid: 08161b4a-7196-41db-b3df-68012a9fc2f8
-index: y
-internal: n
-snippet: y
 ---
 
 # About queries in Campaign{#about-queries-in-campaign}

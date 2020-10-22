@@ -11,9 +11,6 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 8565a453-a7e0-475d-9254-3f948c04d105
-index: y
-internal: n
-snippet: y
 ---
 
 # About initial configuration{#about-initial-configuration}

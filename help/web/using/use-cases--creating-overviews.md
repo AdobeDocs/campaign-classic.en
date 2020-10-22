@@ -11,9 +11,6 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: a3834828-4d39-4699-b648-d399797b8ea7
-index: y
-internal: n
-snippet: y
 ---
 
 # Use cases: creating overviews{#use-cases-creating-overviews}

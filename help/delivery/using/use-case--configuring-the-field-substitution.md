@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 discoiquuid: a104fcab-75e6-4d73-bc3d-88570de6df7f
-index: y
-internal: n
-snippet: y
 ---
 
 # Use case: configuring the field substitution{#use-case-configuring-the-field-substitution}

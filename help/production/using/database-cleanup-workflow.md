@@ -1,8 +1,6 @@
 ---
 title: Database cleanup workflow
-seo-title: Database cleanup workflow
-description: Database cleanup workflow
-seo-description: 
+description: Learn how obsolete data is automatically cleaned up
 page-status-flag: never-activated
 uuid: a7478641-cdf6-4bd4-9dd7-0c84416c9de6
 contentOwner: sauviat
@@ -11,9 +9,6 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
-index: y
-internal: n
-snippet: y
 ---
 
 # Database cleanup workflow{#database-cleanup-workflow}
@@ -28,7 +23,7 @@ The **[!UICONTROL Database cleanup]** workflow accessible via the **[!UICONTROL 
 
 The database cleanup is configured on two levels: in the workflow scheduler and in the deployment wizard.
 
-### The scheduler {#the-scheduler}
+### Workflow scheduler {#the-scheduler}
 
 >[!NOTE]
 >
@@ -49,7 +44,7 @@ By default, the **[!UICONTROL Database cleanup]** workflow is configured to star
 
 ### Deployment wizard {#deployment-wizard}
 
-The **[!UICONTROL Deployment wizard]** , accessed via the **[!UICONTROL Tools > Advanced]** menu, lets you configure how long data is saved for. Values are expressed in days. If these values aren't altered, the workflow will use the default values. 
+The **[!UICONTROL Deployment wizard]**, accessed via the **[!UICONTROL Tools > Advanced]** menu, lets you configure how long data is saved for. Values are expressed in days. If these values aren't altered, the workflow will use the default values. 
 
 ![](assets/ncs_cleanup_deployment-wizard.png)
 

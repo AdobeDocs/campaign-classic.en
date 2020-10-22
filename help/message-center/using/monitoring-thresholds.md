@@ -11,9 +11,6 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 76922657-2c0d-467e-acee-c1a61677fb44
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring thresholds{#monitoring-thresholds}

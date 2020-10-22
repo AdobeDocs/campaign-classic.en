@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: f75cef72-a841-4b58-b135-7aed770bc4e3
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile App Channel{#mobile-app-channel}

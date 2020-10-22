@@ -1,8 +1,6 @@
 ---
 title: Gold Standard release
-seo-title: Gold Standard release
 description: Gold Standard release
-seo-description: 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,9 +9,6 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
 ---
 
 # Gold Standard release{#gold-standard}
@@ -28,7 +23,7 @@ This page lists Gold Standard releases.
 
 For more information on Gold Standard upgrade, refer to this [article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
-## ![](assets/do-not-localize/limited.png) Gold Standard 10 release{#gs-10}
+## ![](assets/do-not-localize/green_2.png) Gold Standard 10 release{#gs-10}
 
 _7 July 2020_
 
@@ -81,7 +76,7 @@ The build 9032&#64;3a9dc9c includes the following fixes:
 * Fixed a regression causing the cleanup workflow to crash. 
 * Fixed a minor regression in the cleanup workflow logs.
 
-## ![](assets/do-not-localize/green_2.png) Gold Standard 6 release{#gs-6}
+## ![](assets/do-not-localize/orange_2.png) Gold Standard 6 release{#gs-6}
 
 _9 March 2020_
 

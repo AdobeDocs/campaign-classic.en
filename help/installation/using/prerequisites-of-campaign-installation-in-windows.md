@@ -1,8 +1,6 @@
 ---
 title: Prerequisites of Campaign installation in Windows
-seo-title: Prerequisites of Campaign installation in Windows
 description: Prerequisites of Campaign installation in Windows
-seo-description: 
 page-status-flag: never-activated
 uuid: 3c030186-d2ab-4845-b5c6-2ed49da00756
 contentOwner: sauviat
@@ -11,9 +9,6 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: faaecbd6-f707-4307-8921-04d8993c2c47
-index: y
-internal: n
-snippet: y
 ---
 
 # Prerequisites of Campaign installation in Windows{#prerequisites-of-campaign-installation-in-windows}

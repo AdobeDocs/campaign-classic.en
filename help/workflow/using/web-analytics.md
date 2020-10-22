@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: cc2d4741-2b26-4933-a28d-5dd7b5f436be
-index: y
-internal: n
-snippet: y
 ---
 
 # Web Analytics{#web-analytics}

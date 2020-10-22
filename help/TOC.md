@@ -1,14 +1,15 @@
 ---
-product: Adobe Campaign Classic
 audience: end-user
-user-guide-title: Adobe Campaign Classic Help
-user-guide-description: Adobe Campaign lets you coordinate the creation of conversational marketing campaigns. Adobe Campaign has innovative features to model, streamline, and automate marketing and customer communication processes.
-index: y
+user-guide-title: Adobe Campaign Classic Guide
+breadcrumb-title: Campaign Classic Guide
+breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
+user-guide-description: Design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment.
 product: adobe campaign
 sub-product: adobe campaign classic
+type: Documentation
 ---
 
-# Adobe Campaign Classic Help {#using}
+# Adobe Campaign Classic Guide {#using}
 
 + [Product documentation](campaign-classic-home.md)
 + [Latest updates](rn/using/documentation-updates.md)
@@ -28,13 +29,14 @@ sub-product: adobe campaign classic
     + [Compatibility Matrix](rn/using/compatibility-matrix.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
-       + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
+       + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
        + [Privacy and consent](platform/using/privacy-and-recommendations.md)
        + [Launching Adobe Campaign](platform/using/launching-adobe-campaign.md)
        + [Adobe Campaign workspace](platform/using/adobe-campaign-workspace.md)
        + FAQ {#faq}
           + [Common questions](platform/using/common-questions.md)
           + [Key concepts](platform/using/faq-key-concepts.md)
+          + [Build upgrade](platform/using/faq-build-upgrade.md)
           + [Audiences](platform/using/faq-audiences.md)
           + [Design messages](platform/using/faq-designing.md)
           + [Send messages](platform/using/faq-messages.md)
@@ -257,7 +259,7 @@ sub-product: adobe campaign classic
        + [Use case: displaying report on answers to an online survey](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Designing web content {#designing-content}
   + Web applications {#web-applications}
-       + [About web applications](web/using/about-web-applications.md)
+       + [Get started with web applications](web/using/about-web-applications.md)
        + [Creating a new web application](web/using/creating-a-new-web-application.md)
        + [Designing a web application](web/using/designing-a-web-application.md)
        + [Use cases: creating overviews](web/using/use-cases--creating-overviews.md)
@@ -333,7 +335,7 @@ sub-product: adobe campaign classic
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
 + Automating with Workflows {#automating-with-workflows}
   + Introduction {#introduction}
-       + [About workflows](workflow/using/about-workflows.md)
+       + [Get started with workflows](workflow/using/about-workflows.md)
        + [About activities](workflow/using/about-activities.md)
   +  General operation {#general-operation}
        + [Building a workflow](workflow/using/building-a-workflow.md)
@@ -469,7 +471,7 @@ sub-product: adobe campaign classic
        + [Transfer to Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
        + [Mid-sourcing platform](workflow/using/mid-sourcing-platform.md)
 + Managing Offers {#managing-offers}
-  + Interaction Overview {#interaction-overview}
+  + Get started with Interaction {#interaction-overview}
        + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
        + [Glossary](interaction/using/glossary.md)
        + [Interaction best practices](interaction/using/interaction-best-practices.md)
@@ -521,7 +523,7 @@ sub-product: adobe campaign classic
        + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
 + Transactional Messaging {#transactional-messaging}
   + Introduction {#introduction}
-       + [About transactional messaging](message-center/using/about-transactional-messaging.md)
+       + [Get started with transactional messaging](message-center/using/about-transactional-messaging.md)
        + [Transactional messaging architecture](message-center/using/transactional-messaging-architecture.md)
        + [Event description](message-center/using/event-description.md)
   + Instance configuration {#instance-configuration}
@@ -569,35 +571,34 @@ sub-product: adobe campaign classic
        + [Examples of Facebook apps](social/using/examples-of-facebook-apps.md)
        + [Tracking](social/using/tracking.md)
 + Installing Campaign Classic {#installing-campaign-classic}
-  + Architecture and hosting models {#architecture-and-hosting-models}
-       + [Before reading](installation/using/before-reading.md)
+  + Architecture principles {#architecture-and-hosting-models}
        + [General architecture](installation/using/general-architecture.md)
-       + [Hosting models](installation/using/hosting-models.md)
-  + Hybrid and Hosted models {#hybrid-and-hosted-models}
-       + [About hybrid and hosted models](installation/using/about-hybrid-and-hosted-models.md)
-       + [Hybrid model](installation/using/hybrid-model.md)
-       + [Hosted model](installation/using/hosted-model.md)
-  + Prerequisites and recommendations  {#prerequisites-and-recommendations-}
-       + [Before starting](installation/using/before-starting.md)
-       + [Database](installation/using/database.md)
+       + Hosting models{#hosting-models-lp}
+          + [About hosting models](installation/using/hosting-models.md)
+          + [Hybrid model](installation/using/hybrid-model.md)
+          + [Hosted model](installation/using/hosted-model.md)
+          + [Capability matrix](installation/using/capability-matrix.md)
+  + Deployment guidelines {#deployment-guidelines}
+       + [Prerequisites](installation/using/before-starting.md)
+       + [Database server](installation/using/database.md)
        + [Application server](installation/using/application-server.md)
        + [Messaging server](installation/using/messaging-server.md)
        + [Network configuration](installation/using/network-configuration.md)
-  + Deployment types  {#deployment-types-}
+  + Deployment types {#deployment-types-}
        + [About deployment types](installation/using/about-deployment-types.md)
        + [Standalone deployment](installation/using/standalone-deployment.md)
        + [Standard deployment](installation/using/standard-deployment.md)
        + [Enterprise deployment](installation/using/enterprise-deployment.md)
        + [Mid-sourcing deployment](installation/using/mid-sourcing-deployment.md)
        + [Power Booster and Power Cluster](installation/using/power-booster-and-power-cluster.md)
-  + Installing Campaign in Windows  {#installing-campaign-in-windows-}
-       + [Prerequisites of Campaign installation in Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+  + Campaign on Windows {#installing-campaign-in-windows-}
+       + [Before installing Campaign on Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
        + [Installing the server](installation/using/installing-the-server.md)
        + [Integration into a Web server for Windows](installation/using/integration-into-a-web-server-for-windows.md)
        + [Client console availability for Windows](installation/using/client-console-availability-for-windows.md)
        + [Installing the client console](installation/using/installing-the-client-console.md)
-  + Installing Campaign in Linux  {#installing-campaign-in-linux-}
-       + [Prerequisites of Campaign installation in Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+  + Campaign on Linux  {#installing-campaign-in-linux-}
+       + [Before installing Campaign on Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
        + [Installing packages with Linux](installation/using/installing-packages-with-linux.md)
        + [Integration into a Web server for Linux](installation/using/integration-into-a-web-server-for-linux.md)
        + [Client console availability for Linux](installation/using/client-console-availability-for-linux.md)
@@ -618,11 +619,11 @@ sub-product: adobe campaign classic
        + [Mid-sourcing server](installation/using/mid-sourcing-server.md)
        + [Interaction - Data buffer](installation/using/interaction---data-buffer.md)
   + Appendices {#appendices}
-       + [The server configuration file](installation/using/the-server-configuration-file.md)
+       + [Server configuration file](installation/using/the-server-configuration-file.md)
        + [Campaign network endpoints](installation/using/campaign-network-endpoints.md)
        + [Command lines](installation/using/command-lines.md)
        + [Creating new instances](installation/using/creating-new-instances.md)
-       + [List of Campaign Classic options](installation/using/configuring-campaign-options.md)
+       + [List of Campaign options](installation/using/configuring-campaign-options.md)
        + [Uninstalling Campaign](installation/using/uninstalling-campaign.md)
 + Monitoring Campaign Classic {#monitoring-campaign-classic}
   + Introduction {#introduction}
@@ -645,7 +646,8 @@ sub-product: adobe campaign classic
        + [Database cleanup workflow](production/using/database-cleanup-workflow.md)
   + Updating Adobe Campaign {#updating-adobe-campaign}
        + [Introduction](production/using/introduction.md)
-       + [Upgrading](production/using/upgrading.md)
+       + [Performing a build upgrade](production/using/build-upgrade.md)
+       + [Upgrading procedure (on-premise)](production/using/upgrading.md)
        + [Switching to Unicode](production/using/switching-to-unicode.md)
        + [Migration procedures](production/using/migration-procedures.md)
   + Database maintenance {#database-maintenance}
@@ -747,8 +749,4 @@ sub-product: adobe campaign classic
        + [Specific configurations in v5.11](migration/using/specific-configurations-in-v5-11.md)
        + [Specific configurations in v6.02](migration/using/specific-configurations-in-v6-02.md)
        + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
-  + Rollback {#rollback}
-       + [About rollback](migration/using/about-rollback.md)
-       + [Restoring v5.11](migration/using/restoring-v5-11.md)
-       + [Restoring v6.02](migration/using/restoring-v6-02.md)
-       + [Restoring v6.1](migration/using/restoring-v6-1.md)
+  + [Rollback procedure](migration/using/about-rollback.md)

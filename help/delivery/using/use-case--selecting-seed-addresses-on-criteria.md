@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 discoiquuid: fa8aab62-e182-4388-aa23-c255b0dbd42e
-index: y
-internal: n
-snippet: y
 ---
 
 # Use case: selecting seed addresses on criteria{#use-case-selecting-seed-addresses-on-criteria}

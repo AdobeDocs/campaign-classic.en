@@ -11,9 +11,6 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring a delivery{#monitoring-a-delivery}
@@ -110,12 +107,12 @@ Platform and database maintenance can also affect delivery sending performances.
 
 After clicking the **[!UICONTROL Send]** button, your delivery seems to take longer than usual. This may be caused by different elements:
 
-* Some email providers might have added your IP addresses to a block list. In this case, check your broadlogs and consult [this section](../../delivery/using/about-deliverability.md).
+* Some email providers might have added your IP addresses to a denylist. In this case, check your broadlogs and consult [this section](../../delivery/using/about-deliverability.md).
 * Your delivery might be too big to be processed quickly, this may occur with high JavaScript personalization or if your delivery weighs more than 60kbytes. Refer to Adobe Campaign [Delivery best practices](../../delivery/using/delivery-best-practices.md) to learn about content guidelines.
 * Throttling might have occurred within the Adobe Campaign MTA. This is caused by:
 
     * Messages pended (**[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. For more information about this message, refer to [this page](../../delivery/using/deliverability-faq.md) . To learn more about MX rules, refer to [this page](../../delivery/using/technical-recommendations.md#mx-rules).
-    * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential block list.
+    * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential denylist.
 
 * A system issue can prevent servers from interacting together: this can slow down the whole sending process. Check the servers to ensure that there is no memory or resource issues which can impact Campaign in the process of getting the personalization data for example.
 
@@ -159,7 +156,7 @@ While sending a delivery, you may face the following status on your delivery das
   </tr> 
   <tr> 
    <td> Ignored<br /> </td> 
-   <td> The delivery was not sent to the recipient because of an error with his address. It was either added to a block list, quarantined, not provided or a duplicate. <br /> </td> 
+   <td> The delivery was not sent to the recipient because of an error with his address. It was either on denylist, quarantined, not provided or a duplicate. <br /> </td> 
   </tr> 
   <tr> 
    <td> Sent<br /> </td> 

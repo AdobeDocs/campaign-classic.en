@@ -1,8 +1,6 @@
 ---
 title: Connecting through LDAP
-seo-title: Connecting through LDAP
-description: Connecting through LDAP
-seo-description: 
+description: Learn how to use LDAP to login to Campaign 
 page-status-flag: never-activated
 uuid: 13a426bc-7c34-49e5-ac8e-26d830845f28
 contentOwner: sauviat
@@ -11,9 +9,6 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1563db7c-ccb6-46b3-9299-67ec0aedaca0
-index: y
-internal: n
-snippet: y
 ---
 
 # Connecting through LDAP{#connecting-through-ldap}

@@ -11,9 +11,6 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 discoiquuid: 8590cc75-11c8-450d-90e8-56744e12ac70
-index: y
-internal: n
-snippet: y
 ---
 
 # Web download{#web-download}

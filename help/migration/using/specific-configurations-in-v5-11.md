@@ -11,9 +11,6 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 discoiquuid: fc280640-528d-44de-87d8-52f443772abd
-index: y
-internal: n
-snippet: y
 ---
 
 # Specific configurations in v5.11{#specific-configurations-in-v5-11}

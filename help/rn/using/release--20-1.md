@@ -7,12 +7,8 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
-topic-tags: campaign-release-notes
-topic-tags: latest-release-notes
+topic-tags: campaign-release-notes, latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
 ---
 
 # Release 20.1{#release-20-1}
@@ -44,7 +40,7 @@ _February 17, 2020_
  <tbody> 
   <tr> 
    <td> <p>Snowflake is a fully managed cloud data warehouse built to scale on both storage and compute level. With this new connector, Adobe Campaign can now leverage the power of Snowflake to perform Big Data Segmentation. This connector is available to all customers, including hosted by Adobe.</p>
-    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutorial video</a>.</p>
+    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutorial video</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -101,7 +97,7 @@ _February 17, 2020_
 
 * Improved query performance which could be affected by unnecessary database connections.
 
-* Improved the performance of the database update wizard.
+* Improved the performance of the database update wizard to make fewer SQL statements in order to optimize response time.
 
 * The database record management was enhanced.
 
@@ -177,7 +173,7 @@ _February 17, 2020_
 
 * Fixed an issue that occurred when deleting, inserting or updating a large amount of data with the **Update data** activity in a workflow using an FDA schema as the targeting dimension. (NEO-13280)
 
-* Fixed an issue that prevented emails from being sent when using the 'if' statement outside the `body` tag. (NEO-18628)
+* Fixed an issue preventing emails from being sent when there was Javascript code outside of the HTML content tag. (NEO-18628)
 
 * Fixed an issue that occurred when trying to display the mirror page from the delivery logs of a sent message. (NEO-17976)
 
