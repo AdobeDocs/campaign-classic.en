@@ -14,7 +14,7 @@ snippet: y
 
 # Deprecated and removed features {#deprecated-and-removed-features}
 
-Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility. As Adobe Campaign Classic works with 3rd party tools, compatibility is updated on a regular basis, in order to implement supported versions only. Versions which are no longer compatible with Adobe Campaign Classic are listed below and in the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
+Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility. As Adobe Campaign Classic works with 3rd party tools, compatibility is updated on a regular basis, in order to implement supported versions only. Versions which are no longer compatible with Adobe Campaign Classic are listed below and in the [Compatibility matrix](../../../rn/using/compatibility-matrix.md).
 
 To communicate the impending removal/replacement of Campaign Classic capabilities, the following rules apply:
 
@@ -24,7 +24,7 @@ To communicate the impending removal/replacement of Campaign Classic capabilitie
 This process gives customers at least one release cycle to adapt their implementation to a new version or successor of a deprecated capability, before actual removal. 
 
 >[!NOTE]
->Adobe Campaign releases and new capabilities are listed in the [Release Notes](../../rn/using/latest-release.md).
+>Adobe Campaign releases and new capabilities are listed in the [Release Notes](../../../rn/using/latest-release.md).
 
 ## Deprecated features {#deprecated-features}
 
@@ -52,7 +52,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <li>O2</li>
    <li>iOS</li>
    </ul>
-  <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../delivery/using/sms-channel.md">Learn more</a></p> 
+  <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../../delivery/using/sms-channel.md">Learn more</a></p> 
   <p>Learn how to migrate legacy connectors in <a href="https://helpx.adobe.com/campaign/kb/sms-connector.html">this technote</a>.</p>
   <p><em>Target removal date: 2021</em></p>
   </td> 
@@ -60,7 +60,7 @@ Customers are advised to review if they make use of the feature/capability in th
   <tr>  
    <td>Fax channel<br></td>
    <td><p>Starting Campaign 20.2 release, the Fax channel is deprecated.</p> 
-   <p>If you are using this channel, you need to adapt your implementation accordingly. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Learn more</a> about Campaign channels.</p>
+   <p>If you are using this channel, you need to adapt your implementation accordingly. <a href="../../../delivery/using/steps-about-delivery-creation-steps.md">Learn more</a> about Campaign channels.</p>
    <p><em>Target removal date: 2021</em></p></td>
   </tr>
  </tbody> 
@@ -78,7 +78,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>File-based email archiving<br></td>
-   <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a></p></td>
+   <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../../installation/using/email-archiving.md">Learn more</a></p></td>
   </tr> 
    <tr> 
    <td>Lead management</td>
@@ -107,18 +107,18 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>Mobile channel - MMS and WAP Push messages</td>
-   <td>Starting Campaign 18.4 release, MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../delivery/using/sms-channel.md">SMS</a> and <a href="../../delivery/using/about-mobile-app-channel.md">Push</a> deliveries.</td>
+   <td>Starting Campaign 18.4 release, MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../../delivery/using/sms-channel.md">SMS</a> and <a href="../../../delivery/using/about-mobile-app-channel.md">Push</a> deliveries.</td>
   </tr> 
    <tr> 
    <td>Mobile channel - LINE v1</td>
-   <td>Starting Campaign 18.4 release, LINE Connect package is no longer available. Adobe recommends using the new LINE Channel package as a replacement. <a href="../../delivery/using/line-channel.md">Learn more</a></td>
+   <td>Starting Campaign 18.4 release, LINE Connect package is no longer available. Adobe recommends using the new LINE Channel package as a replacement. <a href="../../../delivery/using/line-channel.md">Learn more</a></td>
   </tr> 
  </tbody> 
 </table>
 
 ## Deprecated compatibility {#deprecated-compatibility}
 
-The following systems are deprecated for Campaign Classic. Please refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system before the compatibility ends.
+The following systems are deprecated for Campaign Classic. Please refer to the [Compatibility matrix](../../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system before the compatibility ends.
 
 ### Adobe Campaign 20.2 release {#compat-20-2-release}
 
@@ -135,17 +135,17 @@ Starting 19.2 release, the following operating systems are deprecated for Campai
 * Web Server: Apache 2.2.
 * Operating System: CentOS 6.
 
-Please refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system.
+Please refer to the [Compatibility matrix](../../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system.
 
 ## End of compatibility {#end-of-compatibility}
 
 >[!CAUTION]
 >
->Adobe Campaign Classic is compatible with all the systems and tools listed in the [Compatibility matrix](../../rn/using/compatibility-matrix.md). When specific versions of these 3rd party systems and tools reach end-of-life (EOL) with their respective creators, Adobe Campaign is no longer compatible with those versions: they are announced as deprecated, and then are removed from our compatibility matrix in the subsequent product release. Please ensure you are on supported versions of any systems listed in the compatibility matrix to avoid any issues.
+>Adobe Campaign Classic is compatible with all the systems and tools listed in the [Compatibility matrix](../../../rn/using/compatibility-matrix.md). When specific versions of these 3rd party systems and tools reach end-of-life (EOL) with their respective creators, Adobe Campaign is no longer compatible with those versions: they are announced as deprecated, and then are removed from our compatibility matrix in the subsequent product release. Please ensure you are on supported versions of any systems listed in the compatibility matrix to avoid any issues.
 
 ### Client console {#client-console-eol}
 
-Adobe Campaign Classic Client Console can no longer run on the following systems as they have been deprecated by their editor. Customers running Campaign Client Console on one of these versions need to upgrade to newest version before target removal date. Refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
+Adobe Campaign Classic Client Console can no longer run on the following systems as they have been deprecated by their editor. Customers running Campaign Client Console on one of these versions need to upgrade to newest version before target removal date. Refer to the [Compatibility matrix](../../../rn/using/compatibility-matrix.md).
 
 * Windows Server 2003, 2008, 2008 R2
 * Windows XP, Vista
@@ -180,7 +180,7 @@ Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the fo
 
 Adobe does not support the following database engines as they have been deprecated by their editor. Customers running in these versions need to upgrade to newest version or move to another one.
 
-Refer to [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md) to access the list of compatible versions.
+Refer to [Campaign Compatibility matrix](../../../rn/using/compatibility-matrix.md) to access the list of compatible versions.
 
 **FEDERATED DATA ACCESS (FDA)**
 
