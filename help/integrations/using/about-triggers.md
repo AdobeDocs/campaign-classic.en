@@ -32,15 +32,19 @@ It also supports high volumes of traffic without impacting the performance of ma
 
 Pipeline is a messaging system hosted in the Experience Cloud that uses [Apache Kafka](http://kafka.apache.org/). It is a way to easily pass data between solutions. Further, Pipeline is a message queue rather than a database. Producers push events in the pipeline and the consumers listen to the flow and do what they want with the event. Events are kept for a few days but no more. The purpose is to listen 24/7 and process events immediately.
 
-![](assets/triggers_1.png)
-
 ### How does Pipeline work? {#how-pipeline-work}
 
 The [!DNL pipelined] process is always running on the Adobe Campaign marketing server. It connects to the pipeline, retrieves the events, and processes them immediately.
 
 ![](assets/triggers_2.png)
 
-The [!DNL pipelined] process logs in to the Experience Cloud using an authentication service and sends a private key. The authentication service returns a token. The token is used to authenticate when retrieving the events. [!DNL Triggers] are retrieved from a REST web service using a simple GET request. The response is JSON format. Parameters to the request include the name of the trigger and a pointer that indicates the last message retrieved. The [!DNL pipelined] process handles it automatically.
+The [!DNL pipelined] process logs in to the Experience Cloud using an authentication service and sends a private key. The authentication service returns a token. The token is used to authenticate when retrieving the events.
+
+For more information on authentication, refer to this [page](../../integrations/using/configuring-adobe-io.md).
+
+>[!NOTE]
+>
+>Further processing of events is done as part of the ACX Package provided outside the default implementation. Received event is processed immediately using JavaScript code. It is saved into a database table with no further processing in real time. The triggers are used for targeting by a campaign workflow which sends emails. The campaign is set up so the customer that has triggered the event will receive an email.
 
 ## Using Adobe Experience Cloud Triggers integration with Adobe Campaign Classic
 
