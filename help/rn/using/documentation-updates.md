@@ -19,6 +19,8 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 ## October 2020 {#oct-2020}
 
+FAQs about Campaign build upgrade have been added to Campaign common questions. Read more [Read more](../../platform/using/faq-build-upgrade.md)
+
 Campaign on-premise, hosted and hybrid hosting models are now described in a dedicated section. [Read more](../../installation/using/hosting-models.md)
 
 Campaign capability matrix per hosting model has been updated and moved in the Installation guide. [Read more](../../installation/using/capability-matrix.md)
