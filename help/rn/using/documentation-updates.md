@@ -19,6 +19,10 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 ## October 2020 {#oct-2020}
 
+Details have been added in the 'About' box description in the 'Getting your Adobe Campaign version' section. [Read more](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
+
+Guidelines to perform a build upgrade have been added to the 'Updating Adobe Campaign Classic' section. Read more [Read more](../../production/using/build-upgrade.md)
+
 FAQs about Campaign build upgrade have been added to Campaign common questions. Read more [Read more](../../platform/using/faq-build-upgrade.md)
 
 Campaign on-premise, hosted and hybrid hosting models are now described in a dedicated section. [Read more](../../installation/using/hosting-models.md)
