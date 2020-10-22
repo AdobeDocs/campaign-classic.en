@@ -18,15 +18,15 @@ type: Documentation
   + [Latest Release](rn/using/latest-release.md)
   + [Gold Standard release](rn/using/gold-standard.md)
   + Previous Releases {#previous-releases}
+    + [Release 20.2](rn/using/release--20-2.md)
     + [Release 20.1](rn/using/release--20-1.md)
     + [Release 19.2](rn/using/release--19-2.md)
     + [Release 19.1](rn/using/release--19-1.md)
     + [Release 18.10](rn/using/release--18-10.md)
     + [Release 18.6](rn/using/release--18-6.md)
     + [Release 18.4](rn/using/release--18-4.md)
-  + Deprecated features and compatibility {#deprecated-compatibility}
-    + [Deprecated features](rn/using/deprecated-features.md)
-    + [Compatibility Matrix](rn/using/compatibility-matrix.md)
+  + [Deprecated features](rn/using/deprecated-features.md)
+  + [Compatibility Matrix](rn/using/compatibility-matrix.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -115,6 +115,7 @@ type: Documentation
        + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
        + [Integrating Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
        + [Configuring the mobile application in Adobe Campaign](delivery/using/configuring-the-mobile-application.md)
+       + [Configuring the mobile application in Adobe Campaign with Android](delivery/using/configuring-the-mobile-application-android.md)
        + [Creating notifications](delivery/using/creating-notifications.md)
        + [Troubleshooting](delivery/using/troubleshooting.md)
   + Sending direct mail {#sending-direct-mail}
@@ -329,8 +330,8 @@ type: Documentation
   + Experience Cloud Triggers {#experience-triggers}
        + [About [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
        + [Configuring pipeline](integrations/using/configuring-pipeline.md)
-       + [Pipeline option NmsPipeline_Config](integrations/using/nmspipeline-config.md)
-       + [Triggers events](integrations/using/events.md)
+       + [Configuring Adobe IO for Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)
+       + [Configuring events](integrations/using/events.md)
        + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
 + Automating with Workflows {#automating-with-workflows}

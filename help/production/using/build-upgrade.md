@@ -204,7 +204,6 @@ The following services need to be restarted:
 
 On the machine where the Adobe Campaign application server is installed (nlserverweb), download and copy the file:
 
-
     ```
     Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
     ```
@@ -248,7 +247,6 @@ In the context of a mid-sourcing environment, you need to perform these addition
 
     ```
     http://[InsertServerURL]/r/test
-
     ```
 
 >[!NOTE]

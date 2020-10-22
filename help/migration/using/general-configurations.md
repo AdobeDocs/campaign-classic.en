@@ -476,13 +476,13 @@ If you choose to manually resolve the conflict, proceed as follows:
 The integrated Tomcat server in Adobe Campaign v7 has changed version (Tomcat 7). Its installation folder (tomcat-6) has therefore also changed (tomcat 7). After the postupgrade, make sure to check that the paths do link to the updated folder (in the **[!UICONTROL serverConf.xml]** file):
 
 ```
-$(XTK_INSTALL_DIR)/tomcat-7/bin/bootstrap.jar 
-$(XTK_INSTALL_DIR)/tomcat-7/bin/tomcat-juli.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-util.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-api.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/servlet-api.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/jsp-api.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/el-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 
+$(XTK_INSTALL_DIR)/tomcat-8/bin/tomcat-juli.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-util.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 ```
 
 ## Interaction {#interaction}

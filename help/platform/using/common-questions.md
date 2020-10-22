@@ -1,7 +1,6 @@
 ---
 title: Common questions
-seo-title: Common questions
-description: Campaign Classic FAQ
+description: Adobe Campaign Classic FAQ
 page-status-flag: never-activated
 uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
 contentOwner: sauviat
@@ -14,7 +13,13 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 
 # Common questions{#common-questions}
 
-Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also [watch tutorial videos](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html) and read out Campaign [Getting started guides](../../platform/using/tutorials.md#step-by-step-guides) to learn key capabilities. Cannot find the answer? [Ask the Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/campaign).
+Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also:
+
+* [Watch tutorial videos](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html)
+* [Browse self-help options](../../platform/using/tutorials.md#how-to-videos)
+* [Read out get started and use cases section](../../platform/using/tutorials.md#step-by-step-guides)
+* Cannot find the answer? [Ask the Expert](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+* Need support? [Consult Campaign Help and Support options](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
 
 ## 1. How can I upgrade Campaign to the latest version? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
@@ -22,7 +27,7 @@ Adobe Campaign Classic, specifically, uses a range of technology to deliver valu
 
 If you are using Adobe Managed Services, you can benefit from Campaign Gold Standard upgrade. For more on this refer to [this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
-[Read out this article](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) to learn how to update your environment and read [Common questions](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) on this specific topic.
+[Read out this section](../../production/using/build-upgrade.md) to learn how to update your environment and read [Common questions](../../platform/using/faq-build-upgrade.md) on this specific topic.
 
 ## 2. What is the database cleanup workflow? {#what-is-the-database-cleanup-workflow-}
 

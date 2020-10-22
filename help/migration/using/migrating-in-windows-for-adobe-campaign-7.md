@@ -298,10 +298,10 @@ At this stage, the IIS server must be stopped. Refer to [Service stop](#service-
 
 1. Execute the **iis_neolane_setup.vbs** script to automatically configure the resources used by the Adobe Campaign server on the virtual directory previously created.
 
-    * This file is found in the **`[Adobe Campaign v7]`\tomcat-7\conf file**, where **`[Adobe Campaign v7]`** is the access path to the Adobe Campaign installation directory. The command for executing the script is as follows (for administrators):
+    * This file is found in the **`[Adobe Campaign v7]`\conf** directory, where **`[Adobe Campaign v7]`** is the access path to the Adobe Campaign installation directory. The command for executing the script is as follows (for administrators):
 
       ```    
-      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\tomcat-7\conf
+      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
       cscript iis_neolane_setup.vbs
       ```
 

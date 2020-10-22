@@ -67,7 +67,7 @@ Apply the following steps:
 1. Create the file **nlsrv.conf** in **/etc/apache2/mods-available** using the following command:
 
    ```
-   ln -s /usr/local/[INSTALL]/nl6/tomcat-7/conf/apache_neolane.conf /etc/apache2/mods-available/nlsrv.conf
+   ln -s /usr/local/[INSTALL]/nl6/conf/apache_neolane.conf /etc/apache2/mods-available/nlsrv.conf
    ```
 
 1. Activate this module with the following command:
@@ -156,7 +156,7 @@ Apply the following steps:
 
     ```
     LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
-    Include /usr/local/neolane/nl6/tomcat-7/conf/apache_neolane.conf
+    Include /usr/local/neolane/nl6/conf/apache_neolane.conf
     ```
 
 1. For **RHEL7**:

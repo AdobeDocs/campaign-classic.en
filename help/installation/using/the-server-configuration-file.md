@@ -2893,19 +2893,19 @@ Here are the different parameters of the **web > jsp** node. This is the configu
 The **web > jsp > classpath** node contains the list of all class paths to use when starting JVM. Here is the default configuration:
 
 ```
-'$(XTK_INSTALL_DIR)/tomcat-7/bin/bootstrap.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/bin/tomcat-juli.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-coyote.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-util.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/servlet-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/jsp-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/el-api.jar
+'$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/bin/tomcat-juli.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-coyote.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-util.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
           $(XTK_INSTALL_DIR)/java/lib/log4j-1.2.11.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/annotations-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/catalina.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/websocket-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat7-websocket.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/annotations-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/catalina.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/websocket-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat7-websocket.jar
           $(XTK_INSTALL_DIR)/java/lib/pdfbox-2.0.4.jar
           $(XTK_INSTALL_DIR)/java/lib/FontBox-0.1.0.jar
           $(XTK_INSTALL_DIR)/java/lib/AGJavaEndpoint.22.jar
