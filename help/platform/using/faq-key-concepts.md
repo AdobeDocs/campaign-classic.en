@@ -1,6 +1,5 @@
 ---
 title: Key concepts
-seo-title: Campaign Features FAQ
 description: Campaign Classic FAQ
 page-status-flag: never-activated
 uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1

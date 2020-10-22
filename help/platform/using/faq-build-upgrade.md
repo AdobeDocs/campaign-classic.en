@@ -199,3 +199,10 @@ all content is displayed and present.
     * Test sending SMS
     * If you have any external FDA connected, test if the data is being sent both ways
     * If you use integrations such as Adobe Campaign-Adobe Experience Manager, Adobe Campaign-Adobe Analytics, test if they still work like before
+
+**See also**
+
+* [Performing a build upgrade](../../production/using/build-upgrade.md)
+* [Campaign Classic Release Notes](../../rn/using/rn-overview.md)
+* [Help and Support options for Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
+* [Gold Standard program](https://helpx.adobe.com/campaign/kb/gold-standard.html)
