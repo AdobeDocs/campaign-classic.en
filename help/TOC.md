@@ -114,7 +114,7 @@ type: Documentation
   + Sending push notifications {#sending-push-notifications}
        + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
        + [Integrating Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
-       + [Configuring the mobile application in Adobe Campaign](delivery/using/configuring-the-mobile-application.md)
+       + [Configuring the mobile application in Adobe Campaign with iOS](delivery/using/configuring-the-mobile-application.md)
        + [Configuring the mobile application in Adobe Campaign with Android](delivery/using/configuring-the-mobile-application-android.md)
        + [Creating notifications](delivery/using/creating-notifications.md)
        + [Troubleshooting](delivery/using/troubleshooting.md)
