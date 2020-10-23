@@ -23,7 +23,7 @@ You can start Adobe Campaign by selecting **[!UICONTROL Start / All Programs / A
 
 The client console connection window lets you select or configure existing databases and connect to them using a user name and password:
 
-![](assets/s_ncs_user_login.png)
+![](assets/acc-logon.png)
 
 ## Connecting to Adobe Campaign {#connecting-to-adobe-campaign}
 
@@ -39,7 +39,7 @@ You can also connect with a dedicated login/password:
 
    The first time you access the database, your password is the one given to you by the administrator. Once you are connected, you can change your password via the **[!UICONTROL Tools > Change password...]** menu. Details on operators and connections are available in [Access management](../../platform/using/access-management.md).
 
-1. Click **[!UICONTROL Log in]** to confirm.
+1. Click **[!UICONTROL LOG IN]** to confirm.
 
 You can now access [Adobe Campaign workspace](../../platform/using/adobe-campaign-workspace.md).
 
