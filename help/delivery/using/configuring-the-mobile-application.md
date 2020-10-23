@@ -1,8 +1,6 @@
 ---
-title: Configuring the mobile application in Adobe Campaign with iOS
-seo-title: Configuring the mobile application in Adobe Campaign with iOS
-description: Configuring the mobile application in Adobe Campaign with iOS
-seo-description: 
+title: Configuring the iOS mobile application in Adobe Campaign
+description: Learn how to set up your mobile application for iOS
 page-status-flag: never-activated
 uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
 contentOwner: sauviat
@@ -13,47 +11,17 @@ topic-tags: sending-push-notifications
 discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
 ---
 
-# Configuring the mobile application in Adobe Campaign with iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
+# Configuration steps for iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
-You can find below a configuration sample based on a company which sells online holiday packages. His mobile application (Neotrips) is available to its customers in two versions: Neotrips for Android and Neotrips for iOS.
-
-To configure the mobile application in Adobe Campaign, you need to:
-
-* Create a **[!UICONTROL Mobile application]** type information service for the Neotrips mobile application.
-* Add the iOS and Android versions of the application to this service.
-* Create a delivery for both iOS and Android.
-
-To learn more on how to configure Neotrips for Android and how to create a delivery for Android, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md).
-
-![](assets/nmac_service_diagram.png)
+Once the package is installed, you can define your iOS app settings in Adobe Campaign Classic.
 
 >[!NOTE]
 >
->Go to the **[!UICONTROL Subscriptions]** tab of the service to view the list of subscribers to the service, i.e. all people who have installed the application on their mobile and agreed to receive notifications.
-
-## Installing the package {#installing-package-ios}
-
-1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Package import...]** in the Adobe Campaign client console.
-
-   ![](assets/package_ios.png)
-
-1. Select **[!UICONTROL Install a standard package]**.
-
-1. In the list that appears, check **[!UICONTROL Mobile App Channel]**.
-
-   ![](assets/package_ios_2.png)
-
-1. Click **[!UICONTROL Next]**, then **[!UICONTROL Start]** to start the package installation.
-
-   Once the packages are installed, the progress bar shows **100%** and you can see the following message in the installation logs: **[!UICONTROL Installation of packages successful]**.
-
-   ![](assets/package_ios_3.png)
-
-1. **[!UICONTROL Close]** the installation window.
+>To learn how to configure your app for Android and how to create a delivery for Android, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md).
 
 ## Configuring iOS external account {#configuring-external-account-ios}
 
-For iOS, the iOS HTTP/2 connector sends notifications to the HTTP/2 APNS.
+For iOS, the iOS HTTP/2 connector sends notifications to the HTTP/2 APNs.
 
 To configure this connector, follow these steps:
 

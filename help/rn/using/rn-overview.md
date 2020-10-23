@@ -23,17 +23,19 @@ This is the reason why we believe it is critical that you run the most recent ve
 
 Starting Campaign Classic 19.2, a status is associated to each build. You'll find below the list of statuses and how to interpret them.
 
-![](assets/do-not-localize/green3.png) **General Availability** - Latest stable build available. Build validated in production. 
+![](assets/do-not-localize/green3.png) **General Availability** (GA) - Validated in production and recommended by Adobe. 
 
-The **last stable build** is Gold Standard 10. Click [here](../../rn/using/gold-standard.md#gs-10)
+The **last GA build** is Gold Standard 10. Click [here](../../rn/using/gold-standard.md#gs-10)
 
-![](assets/do-not-localize/limited3.png) **Limited Availability** - Build currently in production validation. On demand deployment only.
+![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
-![](assets/do-not-localize/blue3.png) **Release Candidate** - Build validated by Adobe. Waiting for production proofing.
+![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest version with new capabilities.
 
-![](assets/do-not-localize/orange3.png) **No longer available** - Newer build available with bug fixes. Update is required.
+The **last RC build** is Campaign Classic 20.3. Click [here](../../rn/using/latest-release.md)
 
-![](assets/do-not-localize/red3.png) **Deprecated** - Contains known regressions. Update is mandatory.
+![](assets/do-not-localize/orange3.png) **No longer available** - Update to a newer build is required.
+
+![](assets/do-not-localize/red3.png) **Deprecated** - Update to a newer build is mandatory.
 
 ## Process to upgrade{#process-upgrade}
 

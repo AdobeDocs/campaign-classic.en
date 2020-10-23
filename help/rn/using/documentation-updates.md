@@ -19,6 +19,21 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 ## October 2020 {#oct-2020}
 
+**New capabilities included in 20.3 release**
+
+Push notifications improvements for iOS: learn how to select the authentication mode in Campaign [in this section](../../delivery/using/configuring-the-mobile-application.md)
+
+Push notifications improvements for Android: learn how to move to FCM HTTP v1 API for Android push channel authentication [in this section](../../delivery/using/configuring-the-mobile-application-android.md)
+
+
+**Other documentation updates coming with the release**
+
+Updated [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md).
+
+Updated [Deprecated and removed features page](../../rn/using/deprecated-features.md).
+
+**Other updates**
+
 Details have been added in the 'About' box description in the 'Getting your Adobe Campaign version' section. [Read more](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 
 Guidelines to perform a build upgrade have been added to the 'Updating Adobe Campaign Classic' section. Read more [Read more](../../production/using/build-upgrade.md)
