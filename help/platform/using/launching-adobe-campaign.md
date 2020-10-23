@@ -88,7 +88,7 @@ The **[!UICONTROL Help > About...]** menu lets you access the following informat
 
 ![](assets/about-acc.png)
 
-Whenever you reach out to Adobe Customer Care team, you need to provide the version number and build number of your Campaign client console and application server.
+Whenever you reach out to Adobe Customer Care team, you need to provide the version number and build number of your Adobe Campaign client console and application server.
 
 If you are running on [Campaign Gold Standard version](../../rn/using/gold-standard.md), you also need to share the SHA/1 characters which are displayed in the **[!UICONTROL About]** box. As an example, for Gold **Standard 10 release**, the build number will show **build 9032&#64;efd8a94**, as shown below:
 
@@ -98,6 +98,6 @@ Learn more about Gold Standard [in this article](https://helpx.adobe.com/campaig
 
 **Related topics**:
 
-* [Campaign Support options](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
-* [Software Distribution](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)
-* [Experience Cloud Support and Expert sessions](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* [Adobe Campaign Help and Support options](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
+* [Adobe Software Distribution](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)
+* [Adobe Experience Cloud Support and Expert sessions](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
