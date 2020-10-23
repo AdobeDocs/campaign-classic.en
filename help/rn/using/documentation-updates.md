@@ -28,7 +28,9 @@ Push notifications improvements for Android: learn how to move to FCM HTTP v1 AP
 
 **Other documentation updates coming with the release**
 
+Updated [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
+Updated [Deprecated and removed features page](../../rn/using/deprecated-features.md).
 
 **Other updates**
 
