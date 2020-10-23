@@ -51,14 +51,14 @@ You can define the application behavior for when the user activates the notifica
 
 The **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) workflow updates notification unsubscriptions on mobile devices. For more information on this workflow, refer to the [Workflows guide](../../workflow/using/mobile-app-channel.md).
 
-Adobe Campaign is compatible with both binary and HTTP/2 APNS. For more details on the configuration steps, refer to the [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) section.
+Adobe Campaign is compatible with both binary and HTTP/2 APNs. For more details on the configuration steps, refer to the [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) section.
 
 ## Data path {#data-path}
 
 The following schemas detail the steps that enable a mobile application to exchange data with Adobe Campaign. This process involves three entities:
 
 * the mobile application
-* the notification service: APNS (Apple Push Notification Service) for Apple and FCM (Firebase Cloud Messaging) for Android
+* the notification service: APNs (Apple Push Notification Service) for Apple and FCM (Firebase Cloud Messaging) for Android
 * Adobe Campaign
 
 The three main steps of the notification process are: registration of the application in Adobe Campaign (subscription collection), deliveries, and tracking.
@@ -80,7 +80,7 @@ The following information is available in Adobe Campaign:
 
 ![](assets/nmac_delivery_view.png)
 
-The Adobe Campaign server must be able to contact the APNS server on the following ports:
+The Adobe Campaign server must be able to contact the APNs server on the following ports:
 
 * 2195 (sending) and 2186 (feedback service) for iOS binary connector
 * 443 for iOS HTTP/2 connector
@@ -103,7 +103,7 @@ To check that it works correctly, use the following commands:
   telnet gateway.push.apple.com
   ```
 
-If an iOS binary connector is used, the MTA and web server must be able to contact the APNS on port 2195 (sending), the workflow server must be able to contact the APNS on port 2196 (feedback service).
+If an iOS binary connector is used, the MTA and web server must be able to contact the APNs on port 2195 (sending), the workflow server must be able to contact the APNs on port 2196 (feedback service).
 
-If an iOS HTTP/2 connector is used, the MTA, web server and workflow server must be able to contact the APNS on port 443.
+If an iOS HTTP/2 connector is used, the MTA, web server and workflow server must be able to contact the APNs on port 443.
 

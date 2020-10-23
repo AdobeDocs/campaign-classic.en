@@ -221,7 +221,7 @@ Synchronously, if the APNs returns an "unregistered" status for a message, the t
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> Certificate issue (password, corruption, etc.) and test connection to APNS issue<br /> </td> 
+   <td> Certificate issue (password, corruption, etc.) and test connection to APNs issue<br /> </td> 
    <td> Failure<br /> </td> 
    <td> Various error messages according to the error<br /> </td> 
    <td> Soft<br /> </td> 

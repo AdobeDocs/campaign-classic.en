@@ -1,8 +1,6 @@
 ---
-title: Configuring the mobile application in Adobe Campaign
-seo-title: Configuring the mobile application in Adobe Campaign
-description: Configuring the mobile application in Adobe Campaign
-seo-description: 
+title: Configuring the Android mobile application in Adobe Campaign
+description: Learn how to set up your mobile application for Android
 page-status-flag: never-activated
 uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
 contentOwner: sauviat
@@ -16,41 +14,14 @@ internal: n
 snippet: y
 ---
 
-# Configuring the mobile application in Adobe Campaign with Android {#configuring-the-mobile-application-in-adobe-campaign-android}
+# Configuration steps for Android
 
-You can find below a configuration sample based on a company which sells online holiday packages. His mobile application (Neotrips) is available to its customers in two versions: Neotrips for Android and Neotrips for iOS. To configure the mobile application in Adobe Campaign, you need to:
-
-* Create a **[!UICONTROL Mobile application]** type information service for the Neotrips mobile application.
-* Add the iOS and Android versions of the application to this service.
-* Create a delivery for both iOS and Android.
-
-To learn more on how to configure Neotrips for iOS and how to create a delivery for iOS, refer to this [page](../../delivery/using/configuring-the-mobile-application.md).
-
-![](assets/nmac_service_diagram.png)
+Once the package is installed, you can define your Android app settings in Adobe Campaign Classic.
 
 >[!NOTE]
 >
->Go to the **[!UICONTROL Subscriptions]** tab of the service to view the list of subscribers to the service, i.e. all people who have installed the application on their mobile and agreed to receive notifications.
+>To learn how to configure your app for iOS and how to create a delivery for iOS, refer to this [section](../../delivery/using/configuring-the-mobile-application.md).
 
-## Installing the package {#installing-package-android}
-
-1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Package import...]** in the Adobe Campaign client console.
-
-   ![](assets/package_ios.png)
-
-1. Select **[!UICONTROL Install a standard package]**.
-
-1. In the list that appears, check **[!UICONTROL Mobile App Channel]**.
-
-   ![](assets/package_ios_2.png)
-
-1. Click **[!UICONTROL Next]**, then **[!UICONTROL Start]** to start the package installation.
-
-   Once the packages are installed, the progress bar shows **100%** and you can see the following message in the installation logs: **[!UICONTROL Installation of packages successful]**.
-
-   ![](assets/package_ios_3.png)
-
-1. **[!UICONTROL Close]** the installation window.
 
 ## Configuring Android external account {#configuring-external-account-android}
 
@@ -134,42 +105,15 @@ By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (
    >
    >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to the [Integrating Campaign SDK into the mobile application](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) section.
 
-### With HTTP {#android-service-http}
-
-| Message type | Configurable message element (FCM payload name) |  Configurable options (FCM payload name) |
-|:-:|:-:|:-:|
-| data message  | N/A  | dryRun  |
-| notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action <br> | dryRun |
-
-<br>
-
-After creating a service and a new mobile application, you need to configure your mobile application depending on the chosen API version.
-For more information on service and mobile application creations, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service).
-
-1. In your **[!UICONTROL Mobile application creation wizard]** window, select **[!UICONTROL HTTP (legacy)]** in the **[!UICONTROL API version]** drop-down.
-
-1. Enter the **[!UICONTROL Project key]** that was provided by the developer of the mobile application.
-
-1. As an option, you can enrich a push message content with some **[!UICONTROL Application variables]** if needed. These are fully customizable and a part of the message payload sent to the mobile device.
-
-   In the following example, we add **title**, **imageURL** and **iconURL** to create rich push notification and then provides the application with the image, title and icon to display within the notification.
-
-   ![](assets/nmac_android_2.png)
-
-1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. Your Android application is now ready to be used in Campaign Classic.
-
-### With HTTP v1 API {#android-service-httpv1}
-
-| Message type | Configurable message element (FCM payload name) |  Configurable options (FCM payload name) |
-|:-:|:-:|:-:|
-| data message  | N/A  | validate_only  |
-| notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
-
-<br>
-<br>
+### Select the API version{#select-api-version}
 
 After creating service and a new mobile application, you need to configure your mobile application depending on the chosen API version.
+
 For more information on service and mobile application creations, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service)
+
+#### Use HTTP v1 API version{#android-service-httpv1}
+
+To configure the HTTP v1 API version, follow the steps below:
 
 1. In your **[!UICONTROL Mobile application creation wizard]** window, select **[!UICONTROL HTTPV1]** in the **[!UICONTROL API version]** drop-down.
 
@@ -193,6 +137,41 @@ For more information on service and mobile application creations, refer to this 
 1. As an option, you can enrich a push message content with some **[!UICONTROL Application variables]** if needed. These are fully customizable and a part of the message payload sent to the mobile device.
 
 1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. Your Android application is now ready to be used in Campaign Classic.
+
+Below are the FCM payload names to further personalize your push notification:
+
+| Message type | Configurable message element (FCM payload name) |  Configurable options (FCM payload name) |
+|:-:|:-:|:-:|
+| data message  | N/A  | validate_only  |
+| notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
+
+<br>
+<br>
+
+#### HTTP API version{#android-service-http}
+
+To configure the HTTP (legacy) API version, follow the steps below:
+
+1. In your **[!UICONTROL Mobile application creation wizard]** window, select **[!UICONTROL HTTP (legacy)]** in the **[!UICONTROL API version]** drop-down.
+
+1. Enter the **[!UICONTROL Project key]** that was provided by the developer of the mobile application.
+
+1. As an option, you can enrich a push message content with some **[!UICONTROL Application variables]** if needed. These are fully customizable and a part of the message payload sent to the mobile device.
+
+   In the following example, we add **title**, **imageURL** and **iconURL** to create rich push notification and then provides the application with the image, title and icon to display within the notification.
+
+   ![](assets/nmac_android_2.png)
+
+1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. Your Android application is now ready to be used in Campaign Classic.
+
+Below are the FCM payload names to further personalize your push notification:
+
+| Message type | Configurable message element (FCM payload name) |  Configurable options (FCM payload name) |
+|:-:|:-:|:-:|
+| data message  | N/A  | dryRun  |
+| notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action <br> | dryRun |
+
+<br>
 
 ## Creating an Android rich notification {#creating-android-delivery}
 

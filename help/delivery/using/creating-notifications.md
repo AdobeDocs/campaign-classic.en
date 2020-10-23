@@ -1,8 +1,6 @@
 ---
-title: Creating notifications
-seo-title: Creating notifications
-description: Creating notifications
-seo-description: 
+title: Creating push notifications
+description: Learn how to create push notifications
 page-status-flag: never-activated
 uuid: fb1862df-e616-4147-a642-dc867bc983b5
 contentOwner: sauviat

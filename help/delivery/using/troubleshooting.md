@@ -15,7 +15,7 @@ discoiquuid: b64c9729-cfe2-4d02-8c59-9e53efd34a96
 
 # Troubleshooting{#troubleshooting}
 
-If your mobile device is connected to Wi-Fi and you are not receiving notifications, check that the FCM/APNS ports are not being blocked by your firewall.
+If your mobile device is connected to Wi-Fi and you are not receiving notifications, check that the FCM/APNs ports are not being blocked by your firewall.
 
 **Android**: The mobile device connects to the FCM servers on ports 5228 to 5230. You therefore must configure your firewall so that it authorizes connection with FCM. The ports to open are: 5228 (the most frequently used), 5229 and 5230.
 
