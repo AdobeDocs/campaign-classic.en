@@ -32,32 +32,32 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr> 
 <td>CentOs</td>
 <td>
-<p>7.x (64 bits)</p>
 <p>8.x (64 bits)</p>
+<p>7.x (64 bits)</p>
 </td>
 </tr>
 <tr>
 <td>Debian</td>
 <td>
-<p>8 (64 bits)</p>
-<p>9 (64 bits)</p>
 <p>10 (64 bits)</p>
+<p>9 (64 bits)</p>
+<p>8 (64 bits)</p>
 </td>
 </tr>
 <tr>
 <td>RHEL</td>
 <td>
-<p>7.x (64 bits)</p>
 <p>8.x (64 bits)</p>
+<p>7.x (64 bits)</p>
 <p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
 </td>
 </tr>
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2012</p>
-<p>2012 R2</p>
 <p>2016</p>
+<p>2012 R2</p>
+<p>2012</p>
 </td>
 </tr>
 </tbody>
@@ -70,9 +70,9 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>8.0 on Windows Server 2012 - Windows 8</p>
-<p>8.5 on Windows Server 2012 R2</p>
 <p>10.0 on Windows Server 2016</p>
+<p>8.5 on Windows Server 2012 R2</p>
+<p>8.0 on Windows Server 2012 - Windows 8</p>
 </td>
 </tr>
 <tr>
@@ -91,8 +91,9 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Java Development Kit (JDK)</td>
 <td>
-<p>8</p>
+<p>11</p>
 <p>9</p>
+<p>8</p>
 <p>The application has been approved for the Java Development Kit (JDK) developed by Oracle as well as for OpenJDK.</p>
 </td>
 </tr>
@@ -111,58 +112,43 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 </tbody>
 </table>
 
-## RDBMS drivers{#RDBMSdrivers}
-
-The following RDBMS drivers are supported:
-
-* Oracle SQL&#42;Net 11
-
-* Oracle SQL&#42;Net 12
-
-* PostgreSQL (libpq)
-
-* SQLServer
-
-* DB2 (ODBC Driver)
-
+## RDBMS servers{#RDBMSservers}
 
 >[!NOTE]
 >
 >RDBMS driver must match with RDBMS server version.
-
-## RDBMS servers{#RDBMSservers}
 
 <table>
 <tbody>
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g R2</p>
-<p>12c</p>
-<p>18c</p>
 <p>19c</p>
+<p>18c</p>
+<p>12c</p>
+<p>11g R2</p>
 </td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>9.4.x</p>
-<p>9.5.x</p>
-<p>9.6.x</p>
-<p>10.x</p>
-<p>11.x</p>
 <p>12.x</p>
+<p>11.x</p>
+<p>10.x</p>
+<p>9.6.x</p>
+<p>9.5.x</p>
+<p>9.4.x</p>
 <p>Note: you can also use Amazon RDS for PostgreSQL with the versions specified above.</p>
 </td>
 </tr>
 <tr>
 <td>SQL Server</td>
 <td>
-<p>2012 - SP1 and SP2</p>
-<p>2014</p>
-<p>2016</p>
-<p>2017</p>
 <p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
+<p>2012 - SP1 and SP2</p>
 <p>Warning: Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">Learn more</a>.</p>
 </td>
 </tr>
@@ -186,8 +172,8 @@ The following RDBMS drivers are supported:
 <tr>
 <td>SFDC API</td>
 <td>
-<p>API version 15</p>
 <p>API version 21</p>
+<p>API version 15</p>
 </td>
 </tr>
 <tr><td>Oracle On Demand API</td>
@@ -222,29 +208,29 @@ The following RDBMS drivers are supported:
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g</p>
-<p>12c</p>
 <p>18c</p>
+<p>12c</p>
+<p>11g</p>
 </td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>9.4.x</p>
-<p>9.5.x</p>
-<p>9.6.x</p>
-<p>10.x</p>
-<p>11.x</p>
 <p>12.x</p>
+<p>11.x</p>
+<p>10.x</p>
+<p>9.6.x</p>
+<p>9.5.x</p>
+<p>9.4.x</p>
 </td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2012 SP1 and SP2</p>
-<p>2014</p>
-<p>2016</p>
-<p>2017</p>
 <p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
+<p>2012 SP1 and SP2</p>
 </td>
 </tr>
 <tr><td>MySQL</td>
@@ -255,10 +241,10 @@ The following RDBMS drivers are supported:
 <tr>
 <td>Teradata</td>
 <td>
-<p>15.0</p>
-<p>15.10</p>
-<p>16</p>
 <p>16.20</p>
+<p>16</p>
+<p>15.10</p>
+<p>15.0</p>
 </td>
 </tr>
 <tr>
@@ -301,8 +287,8 @@ The following RDBMS drivers are supported:
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2012</p>
 <p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>
@@ -322,21 +308,14 @@ The following RDBMS drivers are supported:
 <tr>
 <td>Android</td>
 <td>
-<p>7.x</p>
-<p>8.x</p>
-<p>9.0</p>
+<p>7.x, 8.x, 9.0</p>
 <p>with mobile SDK build 1.0.27.</p>
 </td>
 </tr>
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9</p>
-<p>iOS 10</p>
-<p>iOS 11</p>
-<p>iOS 12</p>
-<p>iOS 13</p>
-<p>iOS 14</p>
+<p>iOS 9 - 14</p>
 <p>with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions.</p>
 </td>
 </tr>
@@ -357,16 +336,11 @@ For the following browsers, the latest version is supported:
 
 * Safari
 
-## Experience Cloud integrations{#ExperienceCloudintegrations}
-
-For integrations with Adobe solutions, refer to this [section](https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations).
-
 ## More like this{#Morelikethis}
 
-* [Campaign Classic Release notes](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)
-* [Installation Guide](https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/general-architecture.html)
-* [Deprecated features and systems](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+* [Campaign Classic Release notes](../../rn/using/latest-release.md)
+* [Installation Guide](../../installation/using/general-architecture.md)
+* [Deprecated features and systems](../../rn/using/deprecated-features.md)
 * [Build upgrade procedure](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)
 * [Campaign Classic Compatibility matrix for 19.0 release](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html)
 * [Campaign Classic Compatibility matrix for 19.1 release](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-1.html)
-
