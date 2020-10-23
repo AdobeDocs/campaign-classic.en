@@ -99,7 +99,7 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
     >
     > The **[!UICONTROL Integration key]** is fully customizable with string value but needs to be exactly the same as the one specified in the SDK.
 
-1. Select one of the out-of-the-box icon from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
+1. Select one of the out-of-the-box icons from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
 
 1. Select the **[!UICONTROL Authentication mode]**. Note that you can always change your authentication mode later on in the **[!UICONTROL Certificate]** tab of your mobile application.
    * **[!UICONTROL Certificate-based authentication]**: Click **[!UICONTROL Enter the certificate...]**  then select your p12 key and enter the password that was provided by the mobile application developer.
