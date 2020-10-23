@@ -23,7 +23,7 @@ Unless mentioned otherwise, all minor releases are supported.
 
 Adobe Campaign Classic is compatible with all the systems and tools listed in this page. As specific versions of these 3rd party systems and tools reach end-of-life (EOL) with their respective creators, Adobe Campaign will no longer be compatible with those versions, and they will be removed from our compatibility matrix in the subsequent product release. Please ensure you are on supported versions of any systems listed in the compatibility matrix to avoid any issues.
 
-To learn more about deprecated items, visit [this page](../../../rn/using/deprecated-features.md).
+To learn more about deprecated items, visit [this page](../../rn/using/deprecated-features.md).
 
 ## Operating Systems{#OperatingSystems}
 
