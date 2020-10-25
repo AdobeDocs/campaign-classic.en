@@ -25,12 +25,14 @@ Push notifications improvements for iOS: learn how to select the authentication 
 
 Push notifications improvements for Android: learn how to move to FCM HTTP v1 API for Android push channel authentication [in this section](../../delivery/using/configuring-the-mobile-application-android.md)
 
-
 **Other documentation updates coming with the release**
 
 Updated [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 Updated [Deprecated and removed features page](../../rn/using/deprecated-features.md).
+
+Release notes and Compatibility matrix for Gold Standard release are now available in a dedicated section.
+[Read more](../../rn/using/gold-standard.md#gs-10).
 
 **Other updates**
 
