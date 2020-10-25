@@ -1,6 +1,6 @@
 ---
-title: Compatibility matrix
-description: Campaign Classic Compatibility matrix
+title: Gold Standard Compatibility matrix
+description: Campaign Classic Compatibility matrix for Gold Standard release
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,21 +11,15 @@ topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
-# Compatibility matrix{#compatibility-matrix}
+# Gold Standard Compatibility matrix{#compatibility-matrix}
 
-This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic**. Products and versions that are not part of this list are not compatible with Adobe Campaign.
+This document lists all systems and components supported for **Adobe Campaign Classic Gold Standard** 19.1 builds. Products and versions that are not part of this list are not compatible with Adobe Campaign.
 
 ## Important notes{#important-notes}
 
 Unless mentioned otherwise, all minor releases are supported.
 
-In its [latest build](../../rn/using/latest-release.md), Adobe Campaign Classic is compatible with all the systems and tools listed in this page. As specific versions of these 3rd party systems and tools reach end-of-life (EOL) with their respective creators, Adobe Campaign will no longer be compatible with those versions, and they will be removed from our compatibility matrix in the subsequent product release. Please ensure you are on supported versions of any systems listed in the compatibility matrix to avoid any issues.
-
-To learn more about deprecated items, visit [this page](../../rn/using/deprecated-features.md).
-
->[!CAUTION]
->
->This matrix is regularly updated with new supported items being added and deprecated items being removed.
+Adobe Campaign Classic is compatible with all the systems and tools listed in this page. As specific versions of these 3rd party systems and tools reach end-of-life (EOL) with their respective creators, Adobe Campaign will no longer be compatible with those versions, and they will be removed from our compatibility matrix in the subsequent product release. Please ensure you are on supported versions of any systems listed in the compatibility matrix to avoid any issues.
 
 ## Operating Systems{#OperatingSystems}
 
@@ -41,7 +35,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Debian</td>
 <td>
-<p>10 (64 bits)</p>
 <p>9 (64 bits)</p>
 <p>8 (64 bits)</p>
 </td>
@@ -49,7 +42,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>RHEL</td>
 <td>
-<p>8.x (64 bits)</p>
 <p>7.x (64 bits)</p>
 <p><strong>Important:</strong> If you are using RHEL, you must be willing to disable SELinux or to have your architects write custom SELinux rules to check that an enabled SELinux is not causing issues with Campaign operations.</p>
 </td>
@@ -81,6 +73,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <td>Apache</td>
 <td>
 <p>2.4 for RHEL7 - CentOS 7, Debian 8/9, Windows (64 bits)</p>
+<p>2.2 for RHEL6 - CentOS 6 only (64 bits)</p>
 </td>
 </tr>
 </tbody>
@@ -93,8 +86,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Java Development Kit (JDK)</td>
 <td>
-<p>11</p>
-<p>9</p>
 <p>8</p>
 <p>The application has been approved for the Java Development Kit (JDK) developed by Oracle as well as for OpenJDK.</p>
 </td>
@@ -125,7 +116,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Oracle</td>
 <td>
-<p>19c</p>
 <p>18c</p>
 <p>12c</p>
 <p>11g R2</p>
@@ -134,7 +124,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>12.x</p>
 <p>11.x</p>
 <p>10.x</p>
 <p>9.6.x</p>
@@ -146,12 +135,20 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>SQL Server</td>
 <td>
-<p>2019</p>
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 and SP2</p>
+<p>2018</p>
+<p>2018 R2</p>
 <p>Warning: Microsoft SQL Server is not supported as the primary database when the Campaign server is running on Linux. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">Learn more</a>.</p>
+</td>
+</tr>
+<tr>
+<td>DB2 UDB</td>
+<td>
+<p>9.7</p>
+<p>Warning: DB2 UDB is not allowed for new installations.</p>
 </td>
 </tr>
 </tbody>
@@ -199,18 +196,8 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <table>
 <tbody>
 <tr>
-<td>Microsoft Azure Synapse Analytics</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>Amazon Redshift</td>
-<td><p>&nbsp;</p>
-</td>
-</tr>
-<tr>
 <td>Oracle</td>
 <td>
-<p>18c</p>
 <p>12c</p>
 <p>11g</p>
 </td>
@@ -218,17 +205,14 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>12.x</p>
 <p>11.x</p>
 <p>10.x</p>
 <p>9.6.x</p>
-<p>9.5.x</p>
 <p>9.4.x</p>
 </td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019</p>
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
@@ -272,7 +256,6 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <td>
 <p>HortonWorks HDP 2.4.X, 2.5.x, 2.6.x</p>
 <p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
-<p>Cloudera CDH6.x</p>
 </td>
 </tr>
 <tr>
@@ -296,6 +279,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Windows</td>
 <td>
+<p>Seven</p>
 <p>8</p>
 <p>10 (recommended for Japanese instances)</p>
 </td>
@@ -317,8 +301,8 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9 - 14</p>
-<p>with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions.</p>
+<p>iOS 9 - 12</p>
+<p>with mobile SDK build 1.0.25, compatible with 32 and 64-bit versions.</p>
 </td>
 </tr>
 </tbody>
@@ -342,7 +326,5 @@ For the following browsers, the latest version is supported:
 
 * [Campaign Classic Release notes](../../rn/using/latest-release.md)
 * [Installation Guide](../../installation/using/general-architecture.md)
-* [Deprecated features and systems](../../rn/using/deprecated-features.md)
+* [Deprecated features and systems in the latest Campaign version](../../rn/using/deprecated-features.md)
 * [Build upgrade procedure](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)
-* [Campaign Classic Compatibility matrix for 19.0 release](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html)
-* [Campaign Classic Compatibility matrix for 19.1 release](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-1.html)

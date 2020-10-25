@@ -16,7 +16,9 @@ type: Documentation
 + Release Notes {#release-notes}
   + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest Release](rn/using/latest-release.md)
-  + [Gold Standard release](rn/using/gold-standard.md)
+  + Gold Standard Release {#gs-release}
+     + [Gold Standard Release Notes](rn/using/gold-standard.md)
+     + [Gold Standard Compatibility Matrix](rn/using/compatibility-matrix-gs.md)
   + Previous Releases {#previous-releases}
     + [Release 20.2](rn/using/release--20-2.md)
     + [Release 20.1](rn/using/release--20-1.md)

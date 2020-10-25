@@ -37,30 +37,30 @@ The **last RC build** is Campaign Classic 20.3. Click [here](../../rn/using/late
 
 ![](assets/do-not-localize/red3.png) **Deprecated** - Update to a newer build is mandatory.
 
-## Process to upgrade{#process-upgrade}
-
-As a hosted customer (Managed Service or Hybrid), you need to reach out to the Customer Care team to have your environment upgraded.
-
-As a Gold Standard user, you will automatically benefit from the Gold Standard upgrade with the latest stable version without any action. [Learn more](https://helpx.adobe.com/campaign/kb/gold-standard.html#gs-10) 
-
-As an on-premise user, you can perform the upgrade. To do this, you need to [download the latest stable build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and upgrade all your environments. Learn more on the [upgrade process](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html), and consult the [build upgrade FAQ](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html).
-
 ## Recommendations{#recommendations}
 
 To ensure a stable configuration, we recommend that you install the same stable build on all servers that are running on the same client configuration.
 
 To keep your implementation up-to-date, make sure to read out the [Deprecated and removed features](../../rn/using/deprecated-features.md) and [Compatibility matrix](../../rn/using/compatibility-matrix.md) pages with each new release.
 
-To be informed of new Experience Cloud solution releases, subscribe to the [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html).
+## Process to upgrade{#process-upgrade}
 
-Find out more on the other [recommendations](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html#Recommendations).
+As a hosted customer (Managed Service or Hybrid), you need to reach out to the Customer Care team to have your environment upgraded.
+
+As an on-premise user, you can perform the upgrade. To do this, you need to [download the latest stable build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and upgrade all your environments. Learn more on the [upgrade process](../../production/using/build-upgrade.md), and consult the [build upgrade FAQ](../../platform/using/faq-build-upgrade.md).
+
+### Gold Standard{#upgrade-for-gold-standard-users}
+
+As a Gold Standard user, you will automatically benefit from the Gold Standard upgrade with the [latest GA build]((../../rn/using/gold-standard.md#gs-10)) without any action. [Learn more](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+
+>[!NOTE]
+>Compatibility matrix for Gold Standard is available in the [GA Compatibility matrix](../../rn/using/compatibility-matrix-gs.md).
 
 ## Support and other useful links{#support}
 
 * [Help and Support](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
 * [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
-* [Documentation updates](../../rn/using/documentation-updates.md)
-* [Previous releases](../../rn/using/release--20-1.md)
-* [Deprecated features](../../rn/using/deprecated-features.md)
-* [Compatibility matrix](../../rn/using/compatibility-matrix.md)
+* [Latest documentation updates](../../rn/using/documentation-updates.md)
+* [Deprecated and removed features](../../rn/using/deprecated-features.md)
 
+To be informed of new Experience Cloud solution releases, subscribe to the [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html).

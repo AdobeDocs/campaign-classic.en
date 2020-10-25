@@ -2,7 +2,6 @@
 title: Campaign Classic deprecated and removed features
 description: This page lists deprecated and removed features of Adobe Campaign Classic
 page-status-flag: never-activated
-uuid: 
 contentOwner: simonetn
 products: SG_CAMPAIGN/CLASSIC
 audience: rn
