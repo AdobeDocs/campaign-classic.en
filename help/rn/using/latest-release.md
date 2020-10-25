@@ -81,7 +81,7 @@ The following features are deprecated in 20.3:
 * The demdex domain used to import and export audiences to the Adobe Experience Cloud is deprecated. If you are using the demdex domain for your import/export external accounts, you need to adapt your implementation accordingly. [Learn more](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 * Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/about-triggers.md)
 
-Learn more in the Deprecated and removed features [page](../../rn/using/deprecated-features.md).
+Learn more in the [Deprecated and removed features page](../../rn/using/deprecated-features.md).
 
 **Improvements**
 
