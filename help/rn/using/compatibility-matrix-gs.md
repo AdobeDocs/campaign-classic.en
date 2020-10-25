@@ -2,26 +2,26 @@
 title: Gold Standard Compatibility matrix
 description: Campaign Classic Compatibility matrix for Gold Standard release
 page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fd
 contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7p
 ---
 
-# Gold Standard Compatibility matrix{#compatibility-matrix}
+# Gold Standard Compatibility matrix{#compatibility-matrix-gs}
 
 This document lists all systems and components supported for **Adobe Campaign Classic Gold Standard** 19.1 builds. Products and versions that are not part of this list are not compatible with Adobe Campaign.
 
-## Important notes{#important-notes}
+## Important notes{#important-notes-gs}
 
 Unless mentioned otherwise, all minor releases are supported.
 
 Adobe Campaign Classic is compatible with all the systems and tools listed in this page. As specific versions of these 3rd party systems and tools reach end-of-life (EOL) with their respective creators, Adobe Campaign will no longer be compatible with those versions, and they will be removed from our compatibility matrix in the subsequent product release. Please ensure you are on supported versions of any systems listed in the compatibility matrix to avoid any issues.
 
-## Operating Systems{#OperatingSystems}
+## Operating Systems{#OperatingSystems-gs}
 
 <table> 
 <tbody> 
@@ -57,7 +57,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </tbody>
 </table>    
 
-## Web Servers{#WebServers}
+## Web Servers{#WebServers-gs}
 
 <table>
 <tbody>
@@ -79,7 +79,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </tbody>
 </table>
 
-## Tools{#Tools}
+## Tools{#Tools-gs}
 
 <table>
 <tbody>
@@ -105,7 +105,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </tbody>
 </table>
 
-## RDBMS servers{#RDBMSservers}
+## RDBMS servers{#RDBMSservers-gs}
 
 >[!NOTE]
 >
@@ -158,7 +158,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 >
 >PostgreSQL is the default database server for Hosted environments.
 
-## CRM connectors{#CRMconnectors}
+## CRM connectors{#CRMconnectors-gs}
 
 <table>
 <tbody>
@@ -191,7 +191,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </tbody>
 </table>
 
-## Federated Data Access (FDA){#FederatedDataAccessFDA}
+## Federated Data Access (FDA){#FederatedDataAccessFDA-gs}
 
 <table>
 <tbody>
@@ -265,7 +265,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </tbody>
 </table>
 
-## Client Console operating systems{#ClientConsoleoperatingsystems}
+## Client Console operating systems{#ClientConsoleoperatingsystems-gs}
 
 <table>
 <tbody>
@@ -287,7 +287,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </tbody>
 </table>
 
-## Mobile SDK{#MobileSDK}
+## Mobile SDK{#MobileSDK-gs}
 
 <table>
 <tbody>
@@ -308,7 +308,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </tbody>
 </table>
 
-## Browsers{#Browsers}
+## Browsers{#Browsers-gs}
 
 Version 11 of Internet Explorer is supported.
 
@@ -322,7 +322,7 @@ For the following browsers, the latest version is supported:
 
 * Safari
 
-## More like this{#Morelikethis}
+## More like this{#Morelikethis-gs}
 
 * [Campaign Classic Release notes](../../rn/using/latest-release.md)
 * [Installation Guide](../../installation/using/general-architecture.md)
