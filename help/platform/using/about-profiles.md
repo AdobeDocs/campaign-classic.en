@@ -115,7 +115,7 @@ This video also explains the compliance of Adobe Campaign Classic with General D
 
 **See also**
 
-* [Privacy mamangement in Campaign](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
+* [Privacy management in Campaign](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
 
 * [Define the target population](../../delivery/using/define-the-right-audience.md)
 

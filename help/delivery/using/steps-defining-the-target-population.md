@@ -232,6 +232,6 @@ In this video you will learn how to add seeds and proofs to an existing email an
 See also:
 * [Selecting the proof target](#selecting-the-proof-target)
 
-* [About seed adresses](../../delivery/using/about-seed-addresses.md)
+* [About seed addresses](../../delivery/using/about-seed-addresses.md)
 
 * [Use case: selecting seed addresses on criteria](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)

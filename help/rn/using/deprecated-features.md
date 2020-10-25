@@ -2,7 +2,6 @@
 title: Campaign Classic deprecated and removed features
 description: This page lists deprecated and removed features of Adobe Campaign Classic
 page-status-flag: never-activated
-uuid: 
 contentOwner: simonetn
 products: SG_CAMPAIGN/CLASSIC
 audience: rn
@@ -143,11 +142,7 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 
 ### Adobe Campaign 20.2 release {#compat-20-2-release}
 
-Starting 20.2 release, the following systems are deprecated for Campaign Classic. Compatibility will end in 20.3 release - October 2020.
-
-* Client Console: Windows 7
-* Legacy SMS connectors - see [Deprecated features](#deprecated-features)
-* DB2 UDB 10.5 for Federated Data Access (FDA)
+Starting 20.2 release, Legacy SMS connectors are deprecated. See [Deprecated features section](#deprecated-features)
 
 ## End of compatibility {#end-of-compatibility}
 
@@ -198,7 +193,11 @@ Refer to [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md)
 
 **FEDERATED DATA ACCESS (FDA)**
 
-Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following FDA Servers.
+Starting 20.2 release, Adobe Campaign is no longer compatible with the following FDA Server:
+
+* DB2 UDB 10.5
+
+Starting 19.1 Spring Release, Adobe Campaign is no longer compatible with the following FDA Servers:
 
 * PostgreSQL 9.3. [Learn more](https://www.postgresql.org/support/versioning)
 * MySQL 5.5. [Learn more](http://www.fromdual.com/support-for-mysql-from-oracle)
