@@ -51,7 +51,7 @@ As an on-premise user, you can perform the upgrade. To do this, you need to [dow
 
 ### Gold Standard{#upgrade-for-gold-standard-users}
 
-As a Gold Standard user, you will automatically benefit from the Gold Standard upgrade with the [latest GA build]((../../rn/using/gold-standard.md#gs-10)) without any action. [Learn more](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+As a Gold Standard user, you will automatically benefit from the Gold Standard upgrade with the [latest GA build](../../rn/using/gold-standard.md#gs-10) without any action. [Learn more](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
 >[!NOTE]
 >Compatibility matrix for Gold Standard is available in the [GA Compatibility matrix](../../rn/using/compatibility-matrix-gs.md).
