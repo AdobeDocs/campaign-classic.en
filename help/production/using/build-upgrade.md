@@ -204,9 +204,10 @@ The following services need to be restarted:
 
 On the machine where the Adobe Campaign application server is installed (nlserverweb), download and copy the file:
 
-    ```
-    Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
-    ```
+```
+Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
+```
+
 
 The next time client consoles are connected, a window will inform users about the availability of a new update and offer them the possibility of downloading and installing it.
 
