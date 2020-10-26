@@ -145,7 +145,7 @@ This type of content lets you publish a link to a YouTube video. Just like a sta
 
 Enter the various fields:
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >All URLs must start with **"http://"** or **"https://"**.
 
