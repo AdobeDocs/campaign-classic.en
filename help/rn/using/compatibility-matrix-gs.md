@@ -279,6 +279,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <tr>
 <td>Windows</td>
 <td>
+<p>Seven</p>
 <p>8</p>
 <p>10 (recommended for Japanese instances)</p>
 </td>
@@ -300,7 +301,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9 - 13</p>
+<p>iOS 9 - 12</p>
 <p>with mobile SDK build 1.0.25, compatible with 32 and 64-bit versions.</p>
 </td>
 </tr>
