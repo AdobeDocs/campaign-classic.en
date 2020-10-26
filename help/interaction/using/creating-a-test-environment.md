@@ -17,7 +17,7 @@ discoiquuid: 7a92bc51-24cf-4ce6-bd50-a315f8f6e34e
 
 To create a test environment (sandbox mode), apply the following steps:
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Only use this environment creation method for test environments. In all other cases, use the target mapping wizard. For more on this, refer to [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 

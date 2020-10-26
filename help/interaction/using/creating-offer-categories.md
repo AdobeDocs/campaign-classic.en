@@ -39,11 +39,11 @@ To create an additional category, apply the following steps:
 
    Thereafter, as needed you can:
 
-    * assign eligibility dates from the **[!UICONTROL Eligibility]** tab.
+    * Assign eligibility dates from the **[!UICONTROL Eligibility]** tab.
     
       ![](assets/offer_cat_create_004.png)
 
-    * enter key words that may be used to select offers from within this category, using the **[!UICONTROL Themes]** field.
+    * Enter key words that may be used to select offers from within this category, using the **[!UICONTROL Themes]** field.
     
       ![](assets/offer_cat_create_005.png)
 
@@ -51,7 +51,7 @@ To create an additional category, apply the following steps:
       >
       >When calling up the offer engine, only the part of the catalog in which the themes or categories match the parameters is selected.
 
-    * You can temporarily "boost" the offer weight of a category for a given period via the **[!UICONTROL Multiplier weight]** field.
+    * Temporarily "boost" the offer weight of a category for a given period via the **[!UICONTROL Multiplier weight]** field.
     
       ![](assets/offer_cat_create_006.png)
 

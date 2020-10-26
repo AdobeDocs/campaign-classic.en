@@ -23,15 +23,15 @@ The **[!UICONTROL Offer analysis]** report provides you with an overview of the 
 
 Statistics are sorted based on three criteria:
 
-* by date.
+* By date:
 
   ![](assets/offer_report_perdate.png)
 
-* by space.
+* By space:
 
   ![](assets/offer_report_perspaces.png)
 
-* by deliveries.
+* By deliveries:
 
   ![](assets/offer_report_perdeliveries.png)
 

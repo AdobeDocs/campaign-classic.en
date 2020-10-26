@@ -19,7 +19,7 @@ This chapter details how to manage offer environments in Interaction.
 
 Several different user profiles are involved in managing and using offers. The first step therefore involves ensuring that these profiles exist, and if not, creating them.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The following configurations need to be carried out by a **technical administrator**.
 

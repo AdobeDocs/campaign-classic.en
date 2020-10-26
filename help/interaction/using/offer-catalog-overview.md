@@ -23,7 +23,6 @@ Offer management is carried out via a tree of folders in the Adobe Campaign.
 
 Before creating your offers, you must first specify an environment (see [Environments overview](../../interaction/using/environments-overview.md)). It will contain all the characteristics (eligibility, constraints on the target, presentation rules) of a set of offers, sorted into categories, as well as the list of their spaces.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Creating the offer catalog, i.e. the categories and the offers, is the responsibility of the **[!UICONTROL Offer manager]**.
-

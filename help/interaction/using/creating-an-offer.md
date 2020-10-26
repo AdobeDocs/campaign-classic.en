@@ -85,7 +85,7 @@ To create a weight in an offer, apply the following steps:
 
    ![](assets/offer_weight_create_006.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >If no weight is entered (0), the target will not be considered eligible for the offer.
 
@@ -109,7 +109,7 @@ To create a weight in an offer, apply the following steps:
    >
    >If a target is eligible for multiple weights for a selected offer, the engine keeps the best (highest) weight. When calling up the offer engine, an offer is selected a maximum of once per contact.
 
-### A summary of offer eligibility rules {#a-summary-of-offer-eligibility-rules}
+### Summary of offer eligibility rules {#a-summary-of-offer-eligibility-rules}
 
 Once configuration is complete, a summary of the eligibility rules will be available on the offer dashboard.
 

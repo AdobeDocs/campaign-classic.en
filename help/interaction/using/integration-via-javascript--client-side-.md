@@ -64,7 +64,7 @@ The following use cases detail the possible options for integrating offers via J
    <script id="interactionProposalScript" src="https://instance.adobe.org:8080/nl/interactionProposal.js?env=OE3" type="text/javascript"></script>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The `<script>` tag must not be self-closing.
 
@@ -208,7 +208,7 @@ The following use case details the configurations to carry out in Adobe Campaign
    </srcSchema>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Each element needs to be defined twice. CDATA ("_jst") type elements can contain personalization fields.
    >
@@ -258,7 +258,7 @@ The following use case details the configurations to carry out in Adobe Campaign
 
    ![](assets/interaction_xmlmode_form_001.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The fields of the ( `<input>`) form must point to the CDATA type elements defined in the created schema.
 

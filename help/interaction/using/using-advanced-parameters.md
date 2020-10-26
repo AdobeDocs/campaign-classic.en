@@ -17,7 +17,7 @@ discoiquuid: 2bb756a2-4aca-4195-9b7a-ec85028a8012
 
 This chapter details the various possible advanced parameters in Interaction.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The following chapter is intended for **technical administrators**.
 
@@ -26,4 +26,3 @@ This chapter details the various possible advanced parameters in Interaction.
 * Creating a test environment is detailed in the [Creating a test environment](../../interaction/using/creating-a-test-environment.md) section.
 * You can modify standard engine behavior using hooks. For more on this, refer to the [Hooks](../../interaction/using/hooks.md) section 
 * Finally, using Interaction with a distributed architecture is detailed in the [Distributed architectures](../../interaction/using/distributed-architectures.md) section.
-
