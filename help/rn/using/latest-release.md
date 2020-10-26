@@ -13,7 +13,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 # Latest Release{#latest-release}
 
-## ![](assets/do-not-localize/blue_2.png) Release 20.3.1 - Build 9227 {#release-20-3-1-build-9227}
+This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic Release Candidate version**.
+
+For Campaign Classic Gold Standard version (latest GA build), [refer to this page](../../rn/using/gold-standard.md).
+
+## ![](assets/do-not-localize/blue_2.png) Release 20.3.1 - Build 9228 {#release-20-3-1-build-9228}
 
 _October 27, 2020_
 
@@ -51,7 +55,7 @@ _October 27, 2020_
 <tr> 
 <td> <p>Android push notifications have been improved to support FCM HTTP v1 API for Android push channel authentication. </p>
 <p>With the new supported API version, you can now send FCM Notification Messages which provides enhanced rich push messaging capabilities. <a href=https://firebase.google.com/docs/cloud-messaging/migrate-v1>Learn more</a></p> 
-<p>For more information, refer to the .</p>
+<p>Learn how to configure FCM HTTP v1 API for Android in Adobe Campaign in <a href=../../delivery/using/configuring-the-mobile-application-android.md>this section</a> .</p>
 </td> 
 </tr> 
 </tbody> 
@@ -81,7 +85,7 @@ The following features are deprecated in 20.3:
 * The demdex domain used to import and export audiences to the Adobe Experience Cloud is deprecated. If you are using the demdex domain for your import/export external accounts, you need to adapt your implementation accordingly. [Learn more](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 * Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/about-triggers.md)
 
-Learn more in the Deprecated and removed features [page](../../rn/using/deprecated-features.md).
+Learn more in the [Deprecated and removed features page](../../rn/using/deprecated-features.md).
 
 **Improvements**
 
@@ -92,20 +96,21 @@ Learn more in the Deprecated and removed features [page](../../rn/using/deprecat
 * The workflow identifier is now displayed in the logs when resuming a workflow, which allows you to identify better which workflow was resumed.
 * A new permanent cookie has been introduced: nllastdelid. This cookie (other than UUID230) will store deliveryId. When session cookie is not present, broadlog information would be taken from the deliveryId present in this cookie.
 This change fixes an issue which occurred when the browser session was over: the session cookie containing deliveryId and broadlogId got deleted. Without deliveryId, broadlog information could not be found and the tracking table information would be missing in case of permanent tracking (last delivery).
-Learn more about cookies in this [section](../../platform/using/privacy-and-recommendations.md#cookies).
+Learn more about cookies in [this section](../../platform/using/privacy-and-recommendations.md#cookies).
 * Improved high volume delivery throughput performance with deliverability server by restarting the MTA process before delivery sending.
 
 **Other changes**
-* In the **Update event status** technical workflow, the sizing of the **sumQueueTime**, **sumSuccessDeliveryTime** and **sumSuccessDeliveryQueueTime** destination fields was changed from 32 to 64 bits for the Update delivery stats activity. This is to match the sizing of the incoming corresponding fields in the **Delivery statistics** activity and therefore prevent the **Update delivery stats** activity from failing. (NEO-11557)
-* When using relative path for SFTP, `~/` will not be added automatically anymore. If you need to use SFTP, you can add `~/` to your path manually but we recommend using absolute path.
+
+* When using relative path for SFTP, `~/` characters are no longer automatically added. If needed, you can add `~/` characters to your path manually but Adobe recommends using an **absolute path**.
 * Windows NT authentication has been removed from the available authentication methods when configuring a new database with a Microsoft SQL Server.
 * The database cleanup workflow has been optimized for Teradata in order to improve performance. (NEO-19959)
 * Improved the error message displayed when inserting an image from Adobe Target and the tenant name was empty in the external account.
 * In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]**.
+* To improve robustness, selectAll queries with invalid nodes are now rejected. If you need to disable the check and get back to the previous behavior, you can set the XtkSecurity_Disable_QueryCheck to 0.
 
 **Technical evolutions**
 
-In 20.3, Tomcat is updated from version 7 (7.0.103) to version 8 (8.5.57).
+Tomcat has been updated from version 7 (7.0.103) to version 8 (8.5.57).
 
 The `tomcat-7` directory is replaced with a `tomcat-8` directory.
 
@@ -134,6 +139,7 @@ On linux, _apache_neolane.conf_ is now installed in the `conf` directory.
 * Fixed an issue when using the Snowflake FDA connector. A user with the Snowflake FDA access name rights could not execute a query on a Snowflake schema. An error of the type "Password not found" was displayed in the logs. (NEO-23851)
 * Fixed an issue when using an FDA connector which happened when the linked FDA schema name was a substring of an element name of the current schema. This occurred, for example, if the FDA schema was "cust" and one of the elements within the Recipient schema was "customer". When fetching the column inside the "customer" element and adding a column from the "cust" FDA schema, the value for the local column was missing. (NEO-20193)
 * Fixed an issue in workflows when fetching records from an external database and inserting them in the Campaign database. (NEO-26359)
+* Fixed an issue in the **Update event status** technical workflow: to match the sizing of the incoming corresponding fields in the **Delivery statistics** activity, the sizing of three destination fields in the **Update delivery stats** activity was changed from 32 to 64 bits. (NEO-11557) Learn more about the **Update event status** workflow in [this section](../../workflow/using/message-center--execution-.md).
 * Fixed an issue in the **Message Center Event History** report that caused script errors when trying to apply filters and made the filter by a date range impossible. (NEO-23365)
 * Fixed an interference issue between the **Campaign jobs** (operationMgt) and **Preview** (forecasting) technical workflows. This occurred when scheduled deliveries stayed in "Target Ready" or "Ready to be delivered" status. (NEO-20819)
 * Fixed an XML parsing issue when the XML identifier was not be present in mdata field in xtkOperator. It was causing postupgrade failure. (NEO-26113)

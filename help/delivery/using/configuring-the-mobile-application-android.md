@@ -117,16 +117,16 @@ To configure the HTTP v1 API version, follow the steps below:
 
 1. In your **[!UICONTROL Mobile application creation wizard]** window, select **[!UICONTROL HTTPV1]** in the **[!UICONTROL API version]** drop-down.
 
-1. Click **[!UICONTROL Load project json file to extract projet details]** to load directly your JSON key file. For more information on how to extract your JSON file, refer to this [page](https://firebase.google.com/docs/admin/setup#initialize-sdk).
+1. Click **[!UICONTROL Load project json file to extract projet details...]** to load directly your JSON key file. For more information on how to extract your JSON file, refer to this [page](https://firebase.google.com/docs/admin/setup#initialize-sdk).
 
 1. You can also enter manually the following details:
-   * **[!UICONTROL Project ID]**
-   * **[!UICONTROL Private key]**
-   * **[!UICONTROL Client email]**
+   * **[!UICONTROL Project Id]**
+   * **[!UICONTROL Private Key]**
+   * **[!UICONTROL Client Email]**
 
    ![](assets/nmac_android_10.png)
 
-1. Click **[!UICONTROL Test connection]** to check that your configuration is correct and that the marketing server has access to the FCM.
+1. Click **[!UICONTROL Test the connection]** to check that your configuration is correct and that the marketing server has access to the FCM.
 
    >[!CAUTION]
    >
@@ -264,12 +264,12 @@ The image and web page should be displayed in the push notification when receive
 
    * **[!UICONTROL Ticker]**: Set the ticker text of your notification. Only available for devices set to Android 5.0 Lollipop.
    * **[!UICONTROL Image]**: Set the image's URL to be displayed in your notification.
-   * **[!UICONTROL Notification count]**: Set the number of new unread information to display directly on the application icon.
+   * **[!UICONTROL Notification Count]**: Set the number of new unread information to display directly on the application icon.
    * **[!UICONTROL Sticky]**: Set to true or false. If set to false, the notification is automatically dismissed when the user clicks it. If set to true, the notification is still displayed even when the user clicks it.
-   * **[!UICONTROL Notification priority]**: Set the priority levels of your notification to default, minimum, low or high. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority).
+   * **[!UICONTROL Notification Priority]**: Set the priority levels of your notification to default, minimum, low or high. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority).
    * **[!UICONTROL Visibility]**: Set the visibility levels of your notification to public, private or secret. For more on this, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility).
 
-   For more on the **[!UICONTROL HTTPV1 additional options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification).
+   For more on the **[!UICONTROL HTTP v1 additional options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification).
 
    ![](assets/nmac_android_9.png)
 

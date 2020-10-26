@@ -15,6 +15,8 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic**. Products and versions that are not part of this list are not compatible with Adobe Campaign.
 
+As a Gold Standard user, refer to the 
+
 ## Important notes{#important-notes}
 
 Unless mentioned otherwise, all minor releases are supported.
@@ -326,17 +328,9 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 
 ## Browsers{#Browsers}
 
-Version 11 of Internet Explorer is supported.
+For the following browsers, the latest version is supported: Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
 
-For the following browsers, the latest version is supported:
-
-* Microsoft Edge
-
-* Firefox
-
-* Chrome
-
-* Safari
+Internet Explorer 11 is supported.
 
 ## More like this{#Morelikethis}
 
@@ -344,5 +338,3 @@ For the following browsers, the latest version is supported:
 * [Installation Guide](../../installation/using/general-architecture.md)
 * [Deprecated features and systems](../../rn/using/deprecated-features.md)
 * [Build upgrade procedure](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)
-* [Campaign Classic Compatibility matrix for 19.0 release](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html)
-* [Campaign Classic Compatibility matrix for 19.1 release](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-1.html)
