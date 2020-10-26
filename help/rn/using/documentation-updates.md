@@ -23,7 +23,7 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 Push notifications improvements for iOS - [Read more](../../delivery/using/configuring-the-mobile-application.md)
 
-Push notifications improvements for Android: [Read more](../../delivery/using/configuring-the-mobile-application-android.md)
+Push notifications improvements for Android - [Read more](../../delivery/using/configuring-the-mobile-application-android.md)
 
 **Other documentation updates coming with the release**
 
