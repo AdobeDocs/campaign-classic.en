@@ -21,20 +21,22 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 **New capabilities included in 20.3 release**
 
-Push notifications improvements for iOS: learn how to select the authentication mode in Campaign [in this section](../../delivery/using/configuring-the-mobile-application.md)
+Push notifications improvements for iOS - [Read more](../../delivery/using/configuring-the-mobile-application.md)
 
-Push notifications improvements for Android: learn how to move to FCM HTTP v1 API for Android push channel authentication [in this section](../../delivery/using/configuring-the-mobile-application-android.md)
+Push notifications improvements for Android: [Read more](../../delivery/using/configuring-the-mobile-application-android.md)
 
 **Other documentation updates coming with the release**
 
-Updated [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md).
+The Compatibility matrix has been updated. [Read more](../../rn/using/compatibility-matrix.md)
 
-Updated [Deprecated and removed features page](../../rn/using/deprecated-features.md).
+The Deprecated and removed features page has been updated. [Read more](../../rn/using/deprecated-features.md)
 
 Release notes and Compatibility matrix for Gold Standard release are now available in a dedicated section.
 [Read more](../../rn/using/gold-standard.md#gs-10).
 
 **Other updates**
+
+Documentation pages have been updated to reflect the Tomcat 8 update. 
 
 Details have been added in the 'About' box description in the 'Getting your Adobe Campaign version' section. [Read more](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 
