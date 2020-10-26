@@ -71,7 +71,7 @@ There can be several causes for this issue, follow the steps below to solve it:
 
     To check the number of workflows running of your instance, we recommend using the predefined views, accessible by default in the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** folder. For more information, refer to [this page](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
 
-    >[!CAUTION]
+    >[!IMPORTANT]
     >
     >Increasing the **[!UICONTROL NmsOperation_LimitConcurrency]** option threshold may lead to performance issues on your instance. In any case, do not perform this on your own and reach out to your Adobe Campaign contact.
 

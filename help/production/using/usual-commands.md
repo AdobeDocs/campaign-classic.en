@@ -151,7 +151,7 @@ Enter the password.
 
 To change the **internal** password: **nlserver config -internalpassword**
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >To log on with the **Internal** identifier, you need to have defined a password beforehand. For more on this, refer to [this section](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
@@ -163,4 +163,3 @@ To change the **internal** password: **nlserver config -internalpassword**
 >
 >  nlserver config -setdblogin:Oracle:test6@dbserver
 >
-

@@ -50,7 +50,7 @@ Make sure database maintenance is correctly scheduled and executed. To do this, 
 
 For more on this, refer to [this section](../../production/using/recommendations.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If you are using a mid-sourcing configuration, it is essential for databases to be maintained on a regular basis. When analyzing a delivery on the marketing platform, the marketing instance sends information to the mid-sourcing instance. If the process is slowed down, the marketing instance will be impacted.
 
@@ -62,7 +62,7 @@ Please check the number and size of work tables. When they exceed a certain size
 * stop or delete workflows which are paused due to an error,
 * stop all workflows used for tests which do not contain an **[!UICONTROL End]** activity and whose status therefore remains **[!UICONTROL Paused]** .
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If the operation takes a long time and frees up a lot of space, this means that in-depth maintenance is necessary (index rebuilding, etc.). For more on this, refer to [this section](../../production/using/recommendations.md).
 

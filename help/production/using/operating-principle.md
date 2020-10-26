@@ -72,7 +72,7 @@ The available modules are detailed in the following table:
 |  web  | Application server (HTTP and SOAP)  |
 |  wfserver  | Workflow server  |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >There is one last module: the tracking and relay module linked to the application server which, for the sake of performance, is integrated via native mechanisms into an Apache or IIS web server via a dynamic library. There is no Adobe Campaign command enabling you to start or administer this module. You must therefore use the commands of the Web server itself.
 

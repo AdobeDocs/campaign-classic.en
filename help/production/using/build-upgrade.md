@@ -339,7 +339,7 @@ There are three options to resolve conflicts: **Accept the new version**, **Keep
 * The object will not be upgraded
 * Long term impacts: version incompatibilities, the customer will not benefit from bug fixes.
 
->[!CAUTION]
+>[!IMPORTANT]
 >It is highly recommended to resolve conflicts.
 >
 
@@ -403,7 +403,7 @@ Here are the steps to perform a complex merge:
 1. Perform in test environment
 
 
->[!CAUTION]
+>[!IMPORTANT]
 >Development skills are required to perform complex merges.
 >
 

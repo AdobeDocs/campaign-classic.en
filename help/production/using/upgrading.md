@@ -15,7 +15,7 @@ discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 
 Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](../../rn/using/latest-release.md) .
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >We strongly recommend making a database backup on each instance before updating. For more information, refer to [Backup](../../production/using/backup.md).   
 >To perform an upgrade, make sur you have the ability and permissions to access instances and logs.
@@ -24,7 +24,7 @@ Before starting the upgrading process, detemine and confirm which version of Ado
 >
 >Also refer to the [installation guide](../../installation/using/general-architecture.md) and the [build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) getting started.
 
-## In Windows {#in-windows}
+## Windows {#in-windows}
 
 To update Adobe Campaign in a new version when delivering a new build, the following procedure should be applied in Windows:
 
@@ -47,7 +47,7 @@ In order to replace all files with the new version, you need to shut down all in
     
     * Adobe Campaign service: **net stop nlserver6**
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >You also need to make sure the redirection server (webmdl) is stopped, so that the **nlsrvmod.dll** file used by IIS can be replaced with the new version.
 
@@ -105,7 +105,7 @@ The services to be restarted are:
 
 * Adobe Campaign service: **net start nlserver6**
 
-## In Linux {#in-linux}
+## Linux {#in-linux}
 
 To update Adobe Campaign in a new version when a new build is delivered, the procedure for Linux is as follows:
 
@@ -165,7 +165,7 @@ To do this, execute the following command:
 /etc/init.d/apache stop
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* Your script might be called **httpd** instead of **apache**.
 >* You MUST execute this command until you obtain the following reply: 
@@ -215,7 +215,7 @@ There are three ways to resolve a conflict:
 * **[!UICONTROL Accept the new version]** : recommended if the resources provided with Adobe Campaign have not been changed by the user.
 * **[!UICONTROL Keep the current version]** : means that the update is rejected.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >If you select this resolution mode, you may not benefit from corrections in the new version.
 
@@ -240,7 +240,7 @@ For example, a unicode database must not only authorize storage of LATIN1 data, 
 
 ## Warn the client consoles of the available update {#warn-the-client-consoles-of-the-available-update}
 
-### In Windows {#in-windows-1}
+### Windows {#in-windows-1}
 
 On the machine where the (**nlserver web**) Adobe Campaign application server is installed, download and copy the file
 
@@ -254,7 +254,7 @@ The next time client consoles are connected, a window will inform users about th
 >
 >Make sure the IIS_XPG user has the appropriate read rights for this installation file and refer to the [installation guide](../../installation/using/general-architecture.md) for more information.
 
-### In Linux {#in-linux-1}
+### Linux {#in-linux-1}
 
 On the machine where the Adobe Campaign application server (**nlserver web**) is installed, retrieve the following package:
 
