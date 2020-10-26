@@ -279,7 +279,6 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <tr>
 <td>Windows</td>
 <td>
-<p>Seven</p>
 <p>8</p>
 <p>10 (recommended for Japanese instances)</p>
 </td>
@@ -301,7 +300,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9 - 12</p>
+<p>iOS 9 - 13</p>
 <p>with mobile SDK build 1.0.25, compatible with 32 and 64-bit versions.</p>
 </td>
 </tr>
@@ -310,21 +309,13 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 
 ## Browsers{#Browsers-gs}
 
-Version 11 of Internet Explorer is supported.
+For the following browsers, the latest version is supported: Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
 
-For the following browsers, the latest version is supported:
-
-* Microsoft Edge
-
-* Firefox
-
-* Chrome
-
-* Safari
+Internet Explorer 11 is supported.
 
 ## More like this{#Morelikethis-gs}
 
 * [Campaign Classic Release notes](../../rn/using/latest-release.md)
 * [Installation Guide](../../installation/using/general-architecture.md)
-* [Deprecated features and systems in the latest Campaign version](../../rn/using/deprecated-features.md)
+* [Deprecated features and systems](../../rn/using/deprecated-features.md)
 * [Build upgrade procedure](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)

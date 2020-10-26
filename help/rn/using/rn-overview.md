@@ -21,7 +21,7 @@ This is the reason why we believe it is critical that you run the most recent ve
 
 ## Release statuses{#rn-statuses}
 
-Starting Campaign Classic 19.2, a status is associated to each build. You'll find below the list of statuses and how to interpret them.
+A status is associated to each build. You'll find below the list of statuses and how to interpret them.
 
 ![](assets/do-not-localize/green3.png) **General Availability** (GA) - Validated in production and recommended by Adobe. 
 

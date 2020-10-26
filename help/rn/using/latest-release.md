@@ -13,6 +13,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 # Latest Release{#latest-release}
 
+This page lists new capabilities, improvements and fixes coming with the **latest Campaign Classic Release Candidate version**.
+
+For Campaign Classic Gold Standard version (latest GA build), [refer to this page](../../rn/using/gold-standard.md).
+
 ## ![](assets/do-not-localize/blue_2.png) Release 20.3.1 - Build 9227 {#release-20-3-1-build-9227}
 
 _October 27, 2020_
