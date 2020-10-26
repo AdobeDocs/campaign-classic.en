@@ -17,7 +17,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 For Campaign Classic Gold Standard version (latest GA build), [refer to this page](../../rn/using/gold-standard.md).
 
-## ![](assets/do-not-localize/blue_2.png) Release 20.3.1 - Build 9227 {#release-20-3-1-build-9227}
+## ![](assets/do-not-localize/blue_2.png) Release 20.3.1 - Build 9228 {#release-20-3-1-build-9228}
 
 _October 27, 2020_
 
@@ -106,6 +106,7 @@ Learn more about cookies in [this section](../../platform/using/privacy-and-reco
 * The database cleanup workflow has been optimized for Teradata in order to improve performance. (NEO-19959)
 * Improved the error message displayed when inserting an image from Adobe Target and the tenant name was empty in the external account.
 * In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]**.
+* To improve robustness, selectAll queries with invalid nodes are now rejected. If you need to disable the check and get back to the previous behavior, you can set the XtkSecurity_Disable_QueryCheck to 0.
 
 **Technical evolutions**
 
