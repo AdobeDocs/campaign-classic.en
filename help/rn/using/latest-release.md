@@ -101,7 +101,7 @@ Learn more about cookies in this [section](../../platform/using/privacy-and-reco
 
 **Other changes**
 * In the **Update event status** technical workflow, the sizing of the **sumQueueTime**, **sumSuccessDeliveryTime** and **sumSuccessDeliveryQueueTime** destination fields was changed from 32 to 64 bits for the Update delivery stats activity. This is to match the sizing of the incoming corresponding fields in the **Delivery statistics** activity and therefore prevent the **Update delivery stats** activity from failing. (NEO-11557)
-* When using relative path for SFTP, `~/` will not be added automatically anymore. If you need to use SFTP, you can add `~/` to your path manually but we recommend using absolute path.
+* When using relative path for SFTP, `~/` characters are no longer automatically added. If needed, you can add `~/` characters to your path manually but Adobe recommends using an **absolute path**.
 * Windows NT authentication has been removed from the available authentication methods when configuring a new database with a Microsoft SQL Server.
 * The database cleanup workflow has been optimized for Teradata in order to improve performance. (NEO-19959)
 * Improved the error message displayed when inserting an image from Adobe Target and the tenant name was empty in the external account.
@@ -109,7 +109,7 @@ Learn more about cookies in this [section](../../platform/using/privacy-and-reco
 
 **Technical evolutions**
 
-In 20.3, Tomcat is updated from version 7 (7.0.103) to version 8 (8.5.57).
+Tomcat has been updated from version 7 (7.0.103) to version 8 (8.5.57).
 
 The `tomcat-7` directory is replaced with a `tomcat-8` directory.
 
