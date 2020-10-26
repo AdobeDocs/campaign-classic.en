@@ -21,7 +21,7 @@ Adobe Campaign lets you coordinate the creation of conversational marketing camp
 
 >[!NOTE]
 >
->Adobe Campaign Classic is available in v6.11 and v7. Except when mentioned, help materials apply to both versions, in the latest build. Screenshots reflect Campaign Classic v7 user interface.
+>Adobe Campaign Classic is available in v6.11 and v7. Except when mentioned, help materials apply to both versions, in the [latest build](../../rn/using/latest-release.md). Screenshots reflect Campaign Classic v7 user interface.
 
 ## Key capabilities {#key-capabilities}
 

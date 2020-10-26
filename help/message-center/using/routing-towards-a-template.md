@@ -27,7 +27,6 @@ Definition of the event type in the message template properties:
 
 By default, routing is based on the following information:
 
-* the event type,
-* the channel to be used (by default: email),
-* the most recent delivery template, based on the publication date.
-
+* The event type
+* The channel to be used (by default: email)
+* The most recent delivery template, based on the publication date

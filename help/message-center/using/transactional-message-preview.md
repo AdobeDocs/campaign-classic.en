@@ -28,4 +28,3 @@ Once you have created one or more seed addresses and the message body, you can p
 1. Select the seed address created previously to display the personalized message.
 
    ![](assets/messagecenter_create_seedaddr_009.png)
-
