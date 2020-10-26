@@ -102,7 +102,7 @@ Learn more about cookies in [this section](../../platform/using/privacy-and-reco
 **Other changes**
 
 * When using relative path for SFTP, `~/` characters are no longer automatically added. If needed, you can add `~/` characters to your path manually but Adobe recommends using an **absolute path**.
-* Windows NT authentication has been removed from the available authentication methods when configuring a new database with a Microsoft SQL Server.
+* Windows NT authentication has been removed from the available authentication methods when configuring a new database with a Microsoft SQL Server. [Read more](../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine)
 * The database cleanup workflow has been optimized for Teradata in order to improve performance. (NEO-19959)
 * Improved the error message displayed when inserting an image from Adobe Target and the tenant name was empty in the external account.
 * In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]**.

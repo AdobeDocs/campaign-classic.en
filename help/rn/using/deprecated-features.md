@@ -97,6 +97,10 @@ This section lists features and capabilities that have been removed from Campaig
    <td><strong>Replacement</strong></td> 
   </tr> 
    <tr> 
+   <td>Windows NT authentication<br></td>
+   <td><p>Starting Campaign 20.3 release, Windows NT authentication has been removed from the available authentication methods when configuring a new database with a Microsoft SQL Server.. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">Learn more</a></p></td>
+  </tr>
+   <tr> 
    <td>File-based email archiving<br></td>
    <td><p>Starting Campaign 20.2 release, file-based email archiving is no longer available. Email archiving is now available through a dedicated BCC email address. <a href="../../installation/using/email-archiving.md">Learn more</a></p></td>
   </tr> 

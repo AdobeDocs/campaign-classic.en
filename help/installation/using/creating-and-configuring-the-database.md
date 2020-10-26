@@ -61,7 +61,7 @@ Depending on the selected database engine, the server identification information
 
    >[!CAUTION]
    >
-   > Starting 20.3, **[!UICONTROL SQL Server authentication]** is the only authentication mode available for Microsoft SQL Server.
+   > Starting 20.3, Windows NT authentication is decommissioned. **[!UICONTROL SQL Server authentication]** is now the only authentication mode available for Microsoft SQL Server. [Read more](../../rn/using/deprecated-features.md)
 
    ![](assets/s_ncs_install_db_mssql_creation01.png)
 
