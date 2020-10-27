@@ -15,7 +15,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic**. Products and versions that are not part of this list are not compatible with Adobe Campaign.
 
-As a Gold Standard user, refer to the 
+If you are a Gold Standard user, refer to the [Gold Standard Compatibility matrix](../../rn/using/compatibility-matrix-gs.md).
 
 ## Important notes{#important-notes}
 
