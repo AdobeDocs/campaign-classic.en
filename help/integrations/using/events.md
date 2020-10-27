@@ -13,7 +13,7 @@ topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 ---
 
-# Configuring events {#events}
+# Configuring events for custom implementation {#events}
 
 Parts of this configuration is a custom development and requires the following:
 

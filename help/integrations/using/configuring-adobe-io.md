@@ -32,82 +32,15 @@ Prerequisite configurations are:
     >
     > Make sure you are logged into the correct IMSorg portal.
 
-1. Extract existing integration client ID from Adobe Campaign.
-
-    * For Build Version 20.2.1, extract the client Id from the instance configuration file ims/authIMSTAClientId.
-    <br>Non existing or empty attribute indicates client Id is not configured.
-
-    * Build Version 19.1.9 and 20.3.1 or above, use SOAP call and replace <&nbsp;INSTANCE_URI&nbsp;> and <&nbsp;SESSION_TOKEN&nbsp;>
-
-        ```
-        curl --location --request POST '<INSTANCE_URI>/nl/jsp/soaprouter.jsp' \
-            --header 'SOAPAction: xtk:session#GetTAClientId' \
-            --header 'Content-Type: application/xml' \
-            --data-raw '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
-            xmlns:urn="urn:xtk:session">
-        <soapenv:Header/>
-        <soapenv:Body>
-            <urn:GetTAClientId>
-                <urn:sessiontoken><SESSION_TOKEN></urn:sessiontoken>
-         </urn:GetTAClientId>
-        </soapenv:Body>
-        </soapenv:Envelope>
-        ```
+1. Extract existing integration client ID from the instance configuration file ims/authIMSTAClientId. Non existing or empty attribute indicates client Id is not configured.
 
     >[!NOTE]
     >
     >If your Client ID is empty, you can directly **[!UICONTROL Create a New project]** in Adobe IO.
 
-1. You know need to identify the existing project using the extracted client ID.
+1. You now need to identify the existing project using the extracted client ID. Look for existing projects with the same client ID as the one extracted in previous step.
 
-    1. Create an API key from the [gateway console](https://admin.adobe.io/) linked to any IMSOrgID.
-    1. Subscribe this API key to DevManagentAPISDK and JIL.
-    1. Get the user token by logging-in to Adobe IO console with System administrator role for the IMSOrg and open the developer console and type: copy(adobeIMS.getAccessToken()).
-    This token has the following scopes: AdobeID, openid, adobeio_api, gnav, read_organizations, additional_info.projectedProductContext, unified_dev_portal, additional_info.roles, read_pc.dma_bullseye, session, adobeio.appregistry.read, adobeio.appregistry.write, sao.creative_cloud.
-    1. Use the user token and API key to call Console APIs.
-    1. Setup the environment as follows:
-
-        ```
-        export API_KEY='<API Key created in step 1 of Prerequisite Steps>'
-        export TOKEN='Bearer <copied from developer console in step 3 of Prerequisite Steps>'
-        export IMS_ORG_ID='<Org id of the customer for which integration is needed>'
-        export CLIENT_ID='<Project Client ID extracted from Campaign>'
-       
-        ```
-
-    1. Run the following script to extract the project details:
-
-        ```    
-        #!/bin/sh
-
-        alias jq='~/Downloads/jq-win64.exe'
-        export ENDPOINT='https://developers.adobe.io'
-
-        #Get Org Id
-        export ORG_ID=$(curl -H "x-api-key: $API_KEY" -H "Authorization: $TOKEN" "$ENDPOINT/console/organizations" | \
-        jq '.[] | select(.code=="'$IMS_ORG_ID'") | .id' | \
-        sed -e 's|"||g'\
-        )
-        #Get Integration Id
-        export INTEGRATION_ID=$(curl -H "x-api-key: $API_KEY" -H "Authorization: $TOKEN" "$ENDPOINT/console/organizations/$ORG_ID/integrations" | \
-        jq '.content | .[] | select(.apiKey=="'$CLIENT_ID'") | .id'
-        )
-        #Get Project Id
-        export PROJECT_ID=$(curl -H "x-api-key: $API_KEY" -H "Authorization: $TOKEN" "$ENDPOINT/console/organizations/$ORG_ID/projects_workspaces/credentials/$INTEGRATION_ID" | \
-        jq '.projectId'| \
-        sed -e 's|"||g'\
-        )
-        #Get Project Name
-        export PROJECT_TITLE=$(curl -H "x-api-key: $API_KEY" -H "Authorization: $TOKEN" "$ENDPOINT/console/organizations/$ORG_ID/projects/$PROJECT_ID" | \
-        jq '.title'| \
-        sed -e 's|"||g'\
-        )
-        echo $'\n\n'
-        echo "Project Title: "$PROJECT_TITLE
-        echo 'Project URL:   https://console.adobe.io/projects/'$ORG_ID'/'$PROJECT_ID'/overview'
-        ```
-
-    1. Open the extracted Project.
+    ![](assets/adobe_io_8.png)
 
 1. Select **[!UICONTROL + Add to Project]** and choose **[!UICONTROL API]**.
 
