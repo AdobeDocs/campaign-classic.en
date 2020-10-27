@@ -43,8 +43,8 @@ Customers are advised to review if they make use of the feature/capability in th
   <td>CRM connectors<br></td>
    <td><p>Starting Campaign 20.3 release, the following CRM connectors are deprecated:</p>
    <u>
-   <li><p>Soap API - On-premise: 2007, 2015, 2016</p></li>
-   <li><p>Soap API - Online: 2015, 2016</p></li>
+   <li>Soap API - On-premise: 2007, 2015, 2016</li>
+   <li>Soap API - Online: 2015, 2016</li>
    </ul>
   <p><em>Target removal date: 2021</em></p>
   </td>
