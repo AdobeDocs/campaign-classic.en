@@ -40,6 +40,16 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><strong>Replacement</strong></td>
   </tr>
   <tr>
+  <td>CRM connectors<br></td>
+   <td><p>Starting Campaign 20.3 release, the following CRM connectors are deprecated:</p>
+   <u>
+   <li><p>Soap API - On-premise: 2007, 2015, 2016</p></li>
+   <li><p>Soap API - Online: 2015, 2016</p></li>
+   </ul>
+  <p><em>Target removal date: 2021</em></p>
+  </td>
+ </tr>
+  <tr>
   <td>iOS legacy binary<br></td>
   <td><p>Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated.<p>
   <p> If you are using this connector, you need to adapt your implementation accordingly.
