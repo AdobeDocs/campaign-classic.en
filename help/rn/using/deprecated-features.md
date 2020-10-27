@@ -42,7 +42,7 @@ Customers are advised to review if they make use of the feature/capability in th
   <tr>
   <td>CRM connectors<br></td>
    <td><p>Starting Campaign 20.3 release, the following CRM connectors are deprecated:</p>
-   <u>
+   <ul>
    <li>Soap API - On-premise: 2007, 2015, 2016</li>
    <li>Soap API - Online: 2015, 2016</li>
    </ul>
