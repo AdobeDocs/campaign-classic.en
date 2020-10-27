@@ -33,7 +33,7 @@ export TRACE_ADDR=localhost:<listening port>
 
 You need to create the **TRACE_ADDR** environment variable with the **localhost** value: **`<listening port="" />`**.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >We recommend running some tests to make sure your platform is working after you create this environment variable.
 
@@ -44,4 +44,3 @@ Each operator needs to be linked to a zone to log on to an instance and the oper
 >[!NOTE]
 >
 >For more on configuring security zones, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
-

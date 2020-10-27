@@ -72,7 +72,7 @@ You will get a tree structure containing your new environment:
        }   
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The rendering function must name the fields used for the space in the order in which they were previously selected so that the offers display correctly.
 
@@ -216,7 +216,7 @@ To create the offer space to match the **Best Offer** category, apply the follow
 
    ![](assets/offer_inbound_fallback_example_025.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The rendering function must name the fields used for the space in the order in which they were previously selected so that the offers display correctly.
 

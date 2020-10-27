@@ -50,7 +50,7 @@ The directories to be backed up are therefore:
 
 * nl6/var/`<instanceName>`/relay (optional)  
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >It is essential to back up the database.
 

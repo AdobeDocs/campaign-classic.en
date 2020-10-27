@@ -135,9 +135,3 @@ Learn how to create an audience by configuring a list of recipients from the Exp
 Learn how create a workflow in order to target recipients and how to make it recurring before using the list in an email target.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
-
-**See also**
-
-* 
-
-* 

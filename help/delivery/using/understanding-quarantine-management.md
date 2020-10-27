@@ -151,20 +151,24 @@ The items put in quarantine are device tokens.
 
 **For iOS - binary connector**
 
-For each notification, Adobe Campaign receives the synchronous and asynchronous errors from the APNS server. For the following synchronous errors, Adobe Campaign generates soft errors:
+   >[!NOTE]
+   >
+   > Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+
+For each notification, Adobe Campaign receives the synchronous and asynchronous errors from the APNs server. For the following synchronous errors, Adobe Campaign generates soft errors:
 
 * Payload length issues: no retry, the failure reason is **[!UICONTROL Unreachable]**.
 * Certificate expiration issues: no retry, the failure reason is **[!UICONTROL Unreachable]**.
 * Connection lost during the delivery: retry performed, the failure reason is **[!UICONTROL Unreachable]**.
 * Service configuration issue (invalid certificate, invalid certificate password, no certificate): no retry, the failure reason is **[!UICONTROL Unreachable]**.
 
-The APNS server asynchronously notifies Adobe Campaign that a device token has been unregistered (when the mobile application has been uninstalled by the user). The **[!UICONTROL mobileAppOptOutMgt]** workflow runs every 6 hours to contact the APNS feedback services to update the **AppSubscriptionRcp** table. For all the deactivated tokens, the field **Disabled** is set to **True** and the subscription linked to that device token will be automatically excluded from future deliveries.
+The APNs server asynchronously notifies Adobe Campaign that a device token has been unregistered (when the mobile application has been uninstalled by the user). The **[!UICONTROL mobileAppOptOutMgt]** workflow runs every 6 hours to contact the APNs feedback services to update the **AppSubscriptionRcp** table. For all the deactivated tokens, the field **Disabled** is set to **True** and the subscription linked to that device token will be automatically excluded from future deliveries.
 
-**For iOS - HTTP/2 connector**
+**For iOS - HTTP/V2 connector**
 
-The http/2 protocol allows a direct feedback and status for each push delivery. If the http/2 protocol connector is used, the feedback service is no longer called by the **[!UICONTROL mobileAppOptOutMgt]** workflow. The unregistered tokens are handled differently between the iOS binary connector and the iOS http/2 connector. A token is considered unregistered when a mobile application is uninstalled or reinstalled.
+The HTTP/V2 protocol allows a direct feedback and status for each push delivery. If the HTTP/V2 protocol connector is used, the feedback service is no longer called by the **[!UICONTROL mobileAppOptOutMgt]** workflow. The unregistered tokens are handled differently between the iOS binary connector and the iOS HTTP/V2 connector. A token is considered unregistered when a mobile application is uninstalled or reinstalled.
 
-Synchronously, if the APNS returns an "unregistered" status for a message, the target token will be immediately be put in quarantine.
+Synchronously, if the APNs returns an "unregistered" status for a message, the target token will be immediately be put in quarantine.
 
 <table> 
  <tbody> 
@@ -217,7 +221,7 @@ Synchronously, if the APNS returns an "unregistered" status for a message, the t
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> Certificate issue (password, corruption, etc.) and test connection to APNS issue<br /> </td> 
+   <td> Certificate issue (password, corruption, etc.) and test connection to APNs issue<br /> </td> 
    <td> Failure<br /> </td> 
    <td> Various error messages according to the error<br /> </td> 
    <td> Soft<br /> </td> 
@@ -233,7 +237,7 @@ Synchronously, if the APNS returns an "unregistered" status for a message, the t
    <td> Yes<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNS message rejection: Unregistration<br /> the user has removed the application or the token has expired<br /> </td> 
+   <td> APNs message rejection: Unregistration<br /> the user has removed the application or the token has expired<br /> </td> 
    <td> Failure<br /> </td> 
    <td> Unregistered<br /> </td> 
    <td> Hard<br /> </td> 
@@ -241,7 +245,7 @@ Synchronously, if the APNS returns an "unregistered" status for a message, the t
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNS message rejection: all other errors<br /> </td> 
+   <td> APNs message rejection: all other errors<br /> </td> 
    <td> Failure<br /> </td> 
    <td> The error rejection cause will be present in the error message<br /> </td> 
    <td> Soft<br /> </td> 
@@ -353,6 +357,134 @@ Android V2 quarantine mecanism uses the same process as Android V1, the same app
    <td> Refused<br /> </td> 
    <td> No<br /> </td> 
   </tr> 
+    <tr> 
+   <td> FCM message rejection: Invalid argument<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> INVALID_ARGUMENT </td> 
+   <td> Ignored</td> 
+   <td> Undefined<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Third party authentication error<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> THIRD_PARTY_AUTH_ERROR </td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> Yes<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Sender ID mismatch<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> SENDER_ID_MISMATCH </td> 
+   <td> Soft</td>
+   <td> User unknown<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Unregistered<br /> </td> 
+   <td> Failure<br /> </td>
+   <td> UNREGISTERED </td> 
+   <td> Hard</td> 
+   <td> User unknown<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Internal<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> INTERNAL </td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> Yes<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: Unavailable<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> UNAVAILABLE</td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> Yes<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM message rejection: unexpected error code<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> unexpected error code</td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+  <tr> 
+   <td> Authentication: Connection issue<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> Impossible to connect to authentication server </td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> Yes<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Unauthorized client or scope in request.<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> unauthorized_client </td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Client is unauthorized to retrieve access tokens using this method, or client not authorized for any of the scopes requested.<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> unauthorized_client </td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Access denied<br /> </td> 
+   <td> Failure<br /> </td>
+   <td> access_denied</td> 
+   <td> Ignored</td>
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Non-valid email<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Invalid JWT<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Invalid JWT Signature<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: Invalid OAuth scope or ID token audience provided<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> unauthorized_client</td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentication: OAuth client disabled<br /> </td> 
+   <td> Failure<br /> </td> 
+   <td> disabled_client</td> 
+   <td> Ignored</td> 
+   <td> Refused<br /> </td> 
+   <td> No<br /> </td> 
+  </tr>
  </tbody> 
 </table>
 

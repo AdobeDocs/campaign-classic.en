@@ -70,7 +70,7 @@ To configure multibranding, you need to configure both execution instances and c
    <%@ value object="provider" xpath="@trackingURL" %>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >These changes could lead to conflicts when upgrading. You may need to manually merge these formulas with their new version.
 

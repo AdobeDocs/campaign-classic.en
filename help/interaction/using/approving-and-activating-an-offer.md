@@ -29,7 +29,7 @@ The content of an offer has one representation per space. As each offer space ha
 
 You can choose to approve the offer content on certain available spaces and reject it on others.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Once the content and eligibility of an offer are approved, the publication workflow (Offer notification) runs automatically and the offer is made live and available on all activated spaces.
 
@@ -55,7 +55,7 @@ To approve the offer content, apply the following steps:
 
 Approving offer eligibility means accepting or rejecting offer weights and the eligibility rules also configured in the offer or inherited from the rules created in the parent category.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Once the content and eligibility of an offer are approved, the publication workflow (Offer notification) runs automatically and the offer is made live and available on all activated spaces.
 

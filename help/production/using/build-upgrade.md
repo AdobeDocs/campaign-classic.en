@@ -204,10 +204,10 @@ The following services need to be restarted:
 
 On the machine where the Adobe Campaign application server is installed (nlserverweb), download and copy the file:
 
+```
+Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
+```
 
-    ```
-    Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
-    ```
 
 The next time client consoles are connected, a window will inform users about the availability of a new update and offer them the possibility of downloading and installing it.
 
@@ -248,7 +248,6 @@ In the context of a mid-sourcing environment, you need to perform these addition
 
     ```
     http://[InsertServerURL]/r/test
-
     ```
 
 >[!NOTE]
@@ -340,7 +339,7 @@ There are three options to resolve conflicts: **Accept the new version**, **Keep
 * The object will not be upgraded
 * Long term impacts: version incompatibilities, the customer will not benefit from bug fixes.
 
->[!CAUTION]
+>[!IMPORTANT]
 >It is highly recommended to resolve conflicts.
 >
 
@@ -404,7 +403,7 @@ Here are the steps to perform a complex merge:
 1. Perform in test environment
 
 
->[!CAUTION]
+>[!IMPORTANT]
 >Development skills are required to perform complex merges.
 >
 

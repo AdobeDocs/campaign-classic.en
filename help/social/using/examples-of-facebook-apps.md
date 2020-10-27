@@ -122,7 +122,7 @@ To recreate this use case, we have created a web application made up of the foll
 
 ## How to acquire fan data? {#how-to-acquire-fan-data-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Comply with the configuration steps detailed in [Creating a Facebook application](../../social/using/creating-a-facebook-application.md).
 
@@ -243,7 +243,7 @@ If the profile doesn't exist in the database and the Facebook user's email addre
 
 1. In the **[!UICONTROL Mapping]** field, select the schema which you want to carry out the reconciliation on.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Make sure the fields of the **[!UICONTROL Social networks]** tab are correctly entered in the delivery mapping. Delivery mappings are accessed via the **[!UICONTROL Administration > Campaign management > Target mappings]** node.
 

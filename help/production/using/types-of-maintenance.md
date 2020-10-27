@@ -23,7 +23,7 @@ Adobe Campaign provides a built-in workflow which lets you schedule certain data
 * deletion of orphaned records and status reinitialization for expired objects,
 * updating the database statistics.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Please note that the cleanup task deals mostly with application level maintenance, not with RDBMS level maintenance (with the exception of statistics update). However, maintenance operations will be required on the database. Even if the database cleanup workflow runs successfully, this does not mean that the database is optimally tuned.
 

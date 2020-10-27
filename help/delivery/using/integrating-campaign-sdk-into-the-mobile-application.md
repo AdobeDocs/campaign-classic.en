@@ -130,7 +130,7 @@ The registration function enables you to:
 * **In iOS**:
 
   ```
-  // Callback called on successful registration to the APNS
+  // Callback called on successful registration to the APNs
   - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
   {
       // Pass the token to Adobe Campaign

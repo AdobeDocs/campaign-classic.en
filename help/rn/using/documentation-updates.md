@@ -19,6 +19,31 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 ## October 2020 {#oct-2020}
 
+**New capabilities included in 20.3 release**
+
+Push notifications improvements for iOS - [Read more](../../delivery/using/configuring-the-mobile-application.md)
+
+Push notifications improvements for Android - [Read more](../../delivery/using/configuring-the-mobile-application-android.md)
+
+**Other documentation updates coming with the release**
+
+The Compatibility matrix has been updated. [Read more](../../rn/using/compatibility-matrix.md)
+
+The Deprecated and removed features page has been updated. [Read more](../../rn/using/deprecated-features.md)
+
+Release notes and Compatibility matrix for Gold Standard release are now available in a dedicated section.
+[Read more](../../rn/using/gold-standard.md#gs-10).
+
+**Other updates**
+
+Documentation pages have been updated to reflect the Tomcat 8 update. 
+
+Details have been added in the 'About' box description in the 'Getting your Adobe Campaign version' section. [Read more](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
+
+Guidelines to perform a build upgrade have been added to the 'Updating Adobe Campaign Classic' section. Read more [Read more](../../production/using/build-upgrade.md)
+
+FAQs about Campaign build upgrade have been added to Campaign common questions. Read more [Read more](../../platform/using/faq-build-upgrade.md)
+
 Campaign on-premise, hosted and hybrid hosting models are now described in a dedicated section. [Read more](../../installation/using/hosting-models.md)
 
 Campaign capability matrix per hosting model has been updated and moved in the Installation guide. [Read more](../../installation/using/capability-matrix.md)

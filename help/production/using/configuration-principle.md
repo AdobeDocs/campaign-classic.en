@@ -21,7 +21,7 @@ For a given server, there are two elements that are common to all Adobe Campaign
 
 * The **internal** password: this is the general administrator password. It is common to all instances of a particular application server.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >To log on with the **Internal** identifier, you need to have defined a password beforehand. For more on this, refer to [this section](../../installation/using/campaign-server-configuration.md#internal-identifier).
 

@@ -49,7 +49,7 @@ The mono-instance log files are listed in the following table:
 |  inMail.log  | Bounce mail module log  |
 |  logins.log  | Logs all login attempts to Adobe Campaign (sucess or not)  |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The **redir** directory only exists on redirection servers. The **url** subdirectory contains the matches of the URLs to be redirected, and the subdirectory **log** contains the tracking logs. To generate tracking logs, the **trackinglogd** module must be running.
 

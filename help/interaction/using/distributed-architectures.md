@@ -32,7 +32,7 @@ To be able to support scalability and provide 24/7 service on the inbound channe
 
 Offer synchronization is carried out via packages. On execution instances, all catalog objects are prefixed by the external account name. This means several control instances (development and production instances for example) can be supported on one same execution instance.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >We recommend you use short and explicit internal names.
 
@@ -106,7 +106,7 @@ If, for optimization reasons, only part of the marketing database is duplicated 
 
 Here is a list of maintenance options available on the control instance:
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >These options must only be used for specific maintenance cases.
 
@@ -122,7 +122,7 @@ The following option is available on execution instances:
 
 If your instance did not previously have the Interaction package, no migration is necessary. By default, the proposition table will be in 64 bits after the packages have been installed.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Depending on the volume of existing propositions in your instance, this operation may take a while.
 
