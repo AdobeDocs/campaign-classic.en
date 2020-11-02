@@ -1,8 +1,6 @@
 ---
-title: Installing Campaign Classic standard packages
-seo-title: Installing Campaign Classic standard packages
-description: Installing Campaign Classic standard packages
-seo-description: 
+title: Installing Campaign Classic built-in packages
+description: Learn how to install Campaign built-in packages
 page-status-flag: never-activated
 uuid: 1cba9487-52fc-442f-ae99-f8a2c157f25e
 contentOwner: sauviat
@@ -45,7 +43,7 @@ The packages are now installed.
 
 ### List of out-of-the-box Packages {#list-of-standard-packages}
 
-The following table lists all standard packages with their description, the instance type they can be installed on (Marketing, Mid, etc.) and additional information.
+The following table lists all Campaign built-in packages. 
 
 <table> 
  <thead> 
@@ -73,17 +71,17 @@ The following table lists all standard packages with their description, the inst
   </tr> 
   <tr> 
    <td> Offer engine (interaction)<br /> </td> 
-   <td> Responds in real time during an interaction with a given contact (a customer or target) by making them a single or several adapted offers.  Optional. <a href="../../interaction/using/interaction-and-offer-management.md">Learn More</a> <br /> </td> 
+   <td> Responds in real time during an interaction with a given contact (a customer or target) by making them a single or several adapted offers.  Optional. <a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">Learn More</a> <br /> </td> 
    <td> All<br /> </td> 
   </tr> 
   <tr> 
    <td> Control of offer engine with execution instance. Optional.<br /> </td> 
-   <td> </td> 
+   <td> Package to install on control instance for Offer engine (interaction). <a href="../../interaction/using/distributed-architectures.md#packages-configuration">Learn More</a> </td> 
    <td> Marketing<br /> </td>  
   </tr> 
   <tr> 
    <td> Offer engine for execution instances. Optional.<br /> </td> 
-   <td> </td> 
+   <td> Package to install on execution instances for Offer engine (interaction). <a href="../../interaction/using/distributed-architectures.md">Learn More</a> </td> 
    <td> Mid, Execution <br /> </td>  
   </tr> 
   <!--tr> 
@@ -193,13 +191,13 @@ The following table lists all standard packages with their description, the inst
    <td> Marketing</td> 
   </tr> 
   <tr> 
-   <td> Adobe Marketing Cloud Shared Audiences Integration<br /> </td> 
+   <td> Adobe Experience Cloud Shared Audiences Integration<br /> </td> 
    <td> Allows you to exchange and share audiences/segments with Adobe Experience Cloud solutions and core services. Requires IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Learn More</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integration with Adobe Marketing Cloud<br /> </td> 
-   <td> Enables you to import and export audiences/segments from different Adobe Marketing Cloud solutions into Adobe Campaign. Optional. <a href="../../integrations/using/configuring-ims.md#installing-the-package">Learn More</a> </td> 
+   <td> Integration with Adobe Experience Cloud<br /> </td> 
+   <td> Enables you to import and export audiences/segments from different Adobe Experience Cloud solutions into Adobe Campaign. Optional. <a href="../../integrations/using/configuring-ims.md#installing-the-package">Learn More</a> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
@@ -216,6 +214,11 @@ The following table lists all standard packages with their description, the inst
    <td> Mid-sourcing platform<br /> </td> 
    <td> This configuration is an optimal intermediate solution between a hosted (ASP) configuration and internalization. The outward-facing execution components are carried out on a "mid-sourcing" server hosted at Adobe Campaign. Optional. <a href="../../installation/using/mid-sourcing-server.md">Learn More</a> <br /> </td> 
    <td> Mid-sourcing </td> 
+  </tr> 
+  <tr> 
+   <td> AMP support<br /> </td> 
+   <td> Enables you to use the new interactive AMP for email format, and send dynamic emails. Optional. <a href="../../delivery/using/defining-interactive-content.md">Learn More</a> <br /> </td> 
+   <td> All </td> 
   </tr> 
   <tr> 
    <td> ACS Connector<br /> </td> 

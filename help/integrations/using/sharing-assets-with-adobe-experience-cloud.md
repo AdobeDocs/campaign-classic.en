@@ -30,5 +30,5 @@ Consult the [Configuring access to Assets](../../integrations/using/configuring-
 
 >[!NOTE]
 >
->If you are using Adobe Campaign On-Premise, integration with Assets core service and with AEM Assets is not available, unless AEM Assets is also On-Premise.
+>In the context of a Adobe Campaign On-Premise environment, integration with Assets core service and with AEM Assets is not available, unless AEM Assets is also On-Premise.
 
