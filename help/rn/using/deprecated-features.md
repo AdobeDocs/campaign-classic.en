@@ -45,6 +45,8 @@ Customers are advised to review if they make use of the feature/capability in th
    <ul>
    <li>Soap API - On-premise: 2007, 2015, 2016</li>
    <li>Soap API - Online: 2015, 2016</li>
+   <li>Web API – Microsoft Dynamics CRM On-premise: 2016, 2016 Update 1</li>
+   <li>Web API – Microsoft Dynamics CRM Online: 2016, 2016 Update 1</li>
    </ul>
   <p><em>Target removal date: 2021</em></p>
   </td>
