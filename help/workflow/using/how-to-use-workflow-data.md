@@ -101,7 +101,7 @@ The steps to perform this use case are as follows:
 
 1. Generate a GPG key pair (public/private) using a GPG utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
-1. In Campaign Classic, build a workflow to export the data and export it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
+1. In Campaign Classic, build a workflow to export the data and encrypt it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
 
     ![](assets/gpg-workflow-encrypt.png)
 
@@ -140,4 +140,3 @@ The steps to perform this use case are as follows:
 
 1. You can now run the workflow. Once it is executed, data target by the query will be exported to the SFTP server into an encrypted .gpg file.
 
-    ![](assets/gpg-sftp-encrypt.png)
