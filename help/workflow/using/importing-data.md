@@ -266,8 +266,6 @@ The steps to perform this use case are as follows:
 
 1. In the external system, use the public key downloaded from the Control Panel to encrypt the data to import into Campaign Classic.
 
-     ![](assets/gpg_external.png)
-
 1. In Campaign Classic, build a workflow to import the encrypted data and decrypt it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
 
      ![](assets/gpg_workflow.png)

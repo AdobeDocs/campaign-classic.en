@@ -3213,7 +3213,7 @@ For additional information, refer to this [section](../../installation/using/dep
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> IMS organization identifier: unique organization identifier within the Adobe Marketing Cloud, used in particular for the VisitorID service and the IMS SSO. <br /> </td> 
+   <td> Identity Management System (IMS) organization identifier: unique organization identifier within the Adobe Experience Cloud, used in particular for the VisitorID service and the IMS SSO. <br /> </td> 
    <td> String<br /> </td> 
    <td> <br /> </td> 
   </tr> 
