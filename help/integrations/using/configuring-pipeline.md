@@ -1,8 +1,6 @@
 ---
-title: Configuring the integration
-seo-title: Configuring the integration
-description: Configuring the integration
-seo-description: 
+title: Configuring the pipeline
+description: Learn how to configure the pipeline
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat
@@ -25,17 +23,17 @@ The triggers are used for targeting by a campaign workflow that sends emails. Th
 
 ## Prerequisites {#prerequisites}
 
-Using [!DNL Experience Cloud Triggers] in Campaign requires:
+Before starting this configuration, please check you have:
 
-* Adobe Campaign 19.1.9 version or 20.3.1. and above.
-* Analytics Standard version.
+* a recent version of Adobe Campaign: 19.1.8 or 20.2.1 builds, and above,
+* Adobe Analytics Standard version
 
-Prerequisite configurations are:
+You will also need:
 
 * Adobe I/O project authentication
-* The IMSOrgId, the identifier of the Experience Cloud customer with Adobe Analytics added.
-* The provisioning team must have System Administrator Privileges for the customer's IMS Org
-* Configuration of the triggers in Adobe Analytics.
+* a valid IMSOrgID, the identifier of the Experience Cloud customer with Adobe Analytics added
+* a Developer access to the IMS Org
+* triggers configuration done in Adobe Analytics
 
 ## Authentication and configuration files {#authentication-configuration}
 
