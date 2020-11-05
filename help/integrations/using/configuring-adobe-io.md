@@ -1,8 +1,6 @@
 ---
-title: Configuring Adobe IO for Adobe Experience Cloud Triggers
-seo-title: Configuring Adobe IO for Adobe Experience Cloud Triggers
-description: Configuring Adobe IO for Adobe Experience Cloud Triggers
-seo-description: 
+title: Configuring Adobe I/O for Adobe Experience Cloud Triggers
+description: Learn how to configure Adobe I/O for Adobe Experience Cloud Triggers
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat
@@ -16,29 +14,36 @@ internal: n
 snippet: y
 ---
 
-# Configuring Adobe IO for Adobe Experience Cloud Triggers {#configuring-adobe-io}
+# Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
-Prerequisite configurations are:
+## Prerequisites {#adobe-io-prerequisites}
 
-* Adobe Campaign Classic build ACC-19.1.9 or ACC-20.2.1 and above.
-* a valid IMSOrgID.
-* a Developer access to the IMS Org. You need to request the System Administrator privileges of the IMS Org to follow the procedure detailed in this [page](https://helpx.adobe.com/ca/enterprise/admin-guide.html/ca/enterprise/using/manage-developers.ug.html) to provide this access for the all Product Profiles.
+Before starting this implementation, please check you have:
 
-## Step 1: Create/update Adobe IO Project {#creating-adobe-io-project}
+* a recent version of Adobe Campaign: 19.1.8 or 20.2.1 builds, and above,
+* a valid IMSOrgID: the Identity Management System (IMS) organization identifier is the unique identifier within the Adobe Experience Cloud, used in particular for the VisitorID service and the IMS Single-Sign On (SSO),
+* a Developer access to the IMS Org. 
 
-1. Access Adobe IO and log in with the System Administrator right for the IMSorg.
+>[!NOTE]
+>
+>If you need to request the System Administrator privileges of the IMS Org, follow the procedure detailed [in this page](https://helpx.adobe.com/ca/enterprise/admin-guide.html/ca/enterprise/using/manage-developers.ug.html) to provide this access for the all Product Profiles.
+>
+
+## Step 1: Create/update Adobe I/O Project {#creating-adobe-io-project}
+
+1. Access Adobe I/O and log in with the System Administrator right for the IMSorg.
 
     >[!NOTE]
     >
     > Make sure you are logged into the correct IMSorg portal.
 
-1. Extract existing integration client ID from the instance configuration file ims/authIMSTAClientId. Non existing or empty attribute indicates client Id is not configured.
+1. Extract existing integration client ID from the instance configuration file ims/authIMSTAClientId. Non existing or empty attribute indicates client ID is not configured.
 
     >[!NOTE]
     >
-    >If your Client ID is empty, you can directly **[!UICONTROL Create a New project]** in Adobe IO.
+    >If your Client ID is empty, you can directly **[!UICONTROL Create a New project]** in Adobe I/O.
 
-1. You now need to identify the existing project using the extracted client ID. Look for existing projects with the same client ID as the one extracted in previous step.
+1. Identify the existing project using the extracted client ID. Look for existing projects with the same client ID as the one extracted in previous step.
 
     ![](assets/adobe_io_8.png)
 
@@ -46,7 +51,7 @@ Prerequisite configurations are:
 
     ![](assets/adobe_io_1.png)
 
-1. In the window **[!UICONTROL Add an API]**, select **[!UICONTROL Adobe Analytics]**.
+1. In the **[!UICONTROL Add an API]** window, select **[!UICONTROL Adobe Analytics]**.
 
     ![](assets/adobe_io_2.png)
 
@@ -54,7 +59,7 @@ Prerequisite configurations are:
 
     ![](assets/adobe_io_3.png)
 
-1. If you're Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a Public and Private keypair.
+1. If your Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a Public and Private keypair.
 
     ![](assets/adobe_io_4.png)
 
@@ -76,7 +81,7 @@ Prerequisite configurations are:
 
 ## Step 2: Add the project credentials in Adobe Campaign {#add-credentials-campaign}
 
-To add the project credentials in Adobe Campaign, run the following command as neolane user on all the containers of the Adobe Campaign instance to insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
+To add the project credentials in Adobe Campaign, run the following command as 'neolane' user on all the containers of the Adobe Campaign instance to insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
 
 ```
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID[/Client_Secret[/Base64_encoded_Private_Key]]
@@ -88,7 +93,7 @@ nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_
 
 ## Step 3: Update pipelined tag {#update-pipelined-tag}
 
-To update [!DNL pipelined] tag, you need to update the authentication type to Adobe IO project in the configuration file **config-<&nbsp;instance-name&nbsp;>.xml** as follows:
+To update [!DNL pipelined] tag, you need to update the authentication type to Adobe I/O project in the configuration file **config-<&nbsp;instance-name&nbsp;>.xml** as follows:
 
 ```
 <pipelined ... authType="imsJwtToken"  ... />
@@ -96,4 +101,4 @@ To update [!DNL pipelined] tag, you need to update the authentication type to Ad
 
 >[!NOTE]
 >
->If you are using the older version of Triggers Integration using Legacy JWT tokens, you should also add the Adobe IO API for [!DNL Adobe Analytics] detailed in the first step to automatically migrate to the new Triggers Authentication.
+>If you are using the older version of Triggers Integration using Legacy JWT tokens, you should also add the Adobe I/O API for [!DNL Adobe Analytics] detailed in the first step to automatically migrate to the new Triggers Authentication.

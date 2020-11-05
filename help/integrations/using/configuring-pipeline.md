@@ -32,7 +32,7 @@ Using [!DNL Experience Cloud Triggers] in Campaign requires:
 
 Prerequisite configurations are:
 
-* Adobe IO project authentication
+* Adobe I/O project authentication
 * The IMSOrgId, the identifier of the Experience Cloud customer with Adobe Analytics added.
 * The provisioning team must have System Administrator Privileges for the customer's IMS Org
 * Configuration of the triggers in Adobe Analytics.
@@ -41,13 +41,13 @@ Prerequisite configurations are:
 
 Authentication is required since pipeline is hosted in the Adobe Experience Cloud.
 It uses a pair of public and private keys. This process has the same function as a user/password but is more secure.
-Authentication is supported for the Marketing Cloud via Adobe IO Project.
+Authentication is supported for the Marketing Cloud via Adobe I/O Project.
 
-## Step 1: Creating/updating Adobe IO Project {#creating-adobe-io-project}
+## Step 1: Creating/updating Adobe I/O Project {#creating-adobe-io-project}
 
-For Hosted customers, you can create a customer care ticket to enable your organization with Adobe IO Technical Account Tokens for the Triggers integration.
+For Hosted customers, you can create a customer care ticket to enable your organization with Adobe I/O Technical Account Tokens for the Triggers integration.
 
-For On Premise customers, refer to the [Configuring Adobe IO for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe IO credential.
+For On Premise customers, refer to the [Configuring Adobe I/O for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe I/O credential.
 
 ## Step 2: Configuring NmsPipeline_Config pipeline option {#configuring-nmspipeline}
 
