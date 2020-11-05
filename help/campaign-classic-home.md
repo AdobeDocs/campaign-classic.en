@@ -10,7 +10,7 @@ topic: Premium
 
 ## What's New
 
-* **[Update your Adobe Experience Cloud Triggers integration](integrations/using/configuring-adobe-io.md)))**<br/>
+* **[Update your Adobe Experience Cloud Triggers integration](integrations/using/configuring-adobe-io.md)**<br/>
 The legacy oAuth authentication service has reached end-of-life. Learn how to migrate to Adobe I/O. 
 
 * **[Move to HTTP/2-based APNs provider API](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/>
