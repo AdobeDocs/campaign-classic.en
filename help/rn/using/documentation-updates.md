@@ -34,6 +34,8 @@ The Deprecated and removed features page has been updated. [Read more](../../rn/
 Release notes and Compatibility matrix for Gold Standard release are now available in a dedicated section.
 [Read more](../../rn/using/gold-standard.md#gs-10).
 
+Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/about-triggers.md)
+
 **Other updates**
 
 Documentation pages have been updated to reflect the Tomcat 8 update. 
