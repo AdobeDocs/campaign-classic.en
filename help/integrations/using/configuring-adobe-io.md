@@ -16,12 +16,16 @@ snippet: y
 
 # Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
+>[!CAUTION]
+>
+>If you are using an older version of Triggers integration through JWT tokens or oAuth authentication, **you need to move to Adobe I/O as described below**. JWT and oAuth authentication modes are now deprecated. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis)
+
 ## Prerequisites {#adobe-io-prerequisites}
 
 Before starting this implementation, please check you have:
 
 * a recent version of Adobe Campaign: 19.1.8 or 20.2.1 builds, and above,
-* a valid IMSOrgID: the Identity Management System (IMS) organization identifier is the unique identifier within the Adobe Experience Cloud, used in particular for the VisitorID service and the IMS Single-Sign On (SSO),
+* a valid IMSOrgID: the Identity Management System (IMS) organization identifier is the unique identifier within the Adobe Experience Cloud, used for example for the VisitorID service and the IMS Single-Sign On (SSO),
 * a Developer access to the IMS Org. 
 
 >[!NOTE]
@@ -98,7 +102,3 @@ To update [!DNL pipelined] tag, you need to update the authentication type to Ad
 ```
 <pipelined ... authType="imsJwtToken"  ... />
 ```
-
->[!NOTE]
->
->If you are using the older version of Triggers Integration using Legacy JWT tokens, you should also add the Adobe I/O API for [!DNL Adobe Analytics] detailed in the first step to automatically migrate to the new Triggers Authentication.

@@ -1,8 +1,6 @@
 ---
-title: Configuring the integration
-seo-title: Configuring the integration
-description: Configuring the integration
-seo-description: 
+title: Configuring Adobe Experience Manager integration
+description: Learn how to configure Campaign-AEM integration
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat

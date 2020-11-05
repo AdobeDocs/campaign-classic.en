@@ -1,8 +1,6 @@
 ---
-title: About Adobe Experience Manager
-seo-title: About Adobe Experience Manager
-description: About Adobe Experience Manager
-seo-description: 
+title: About Adobe Experience Cloud Triggers
+description: Get started with Adobe Experience Cloud Triggers implementation
 page-status-flag: never-activated
 uuid: c523822f-8178-4989-bd88-ab402470e540
 contentOwner: sauviat
@@ -13,9 +11,13 @@ topic-tags: adobe-experience-manager
 discoiquuid: 0d617f1c-0d0b-489f-9027-a92b1f1eee37
 ---
 
-# About Adobe Experience Cloud Triggers{#about-adobe-experience-triggers}
+# Get started with Adobe Experience Cloud Triggers{#about-adobe-experience-triggers}
 
 [!DNL Triggers] is an integration between Adobe Campaign and Adobe Analytics using the pipeline. The pipeline retrieves users' actions or triggers from your website. A cart abandonment is an example of trigger. Triggers are processed in Adobe Campaign to send emails in near real time.
+
+>[!CAUTION]
+>
+>This capability is not available out of the box as part of the product. The implementation requires Adobe Consulting to be engaged. Please reach out to your Adobe representative to find out more
 
 [!DNL Triggers] run marketing actions within a short range of time following a user’s action. The typical response time is less than one hour.
 
@@ -31,7 +33,3 @@ The [!DNL pipelined] process is always running on the Adobe Campaign marketing s
 The [!DNL pipelined] process logs in to the Experience Cloud using an authentication service and sends a private key. The authentication service returns a token. The token is used to authenticate when retrieving the events.
 
 For more information on authentication, refer to this [page](../../integrations/using/configuring-adobe-io.md).
-
->[!NOTE]
->
->Further processing of events is done as part of the ACX Package provided outside the default implementation. Received event is processed immediately using JavaScript code. It is saved into a database table with no further processing in real time. The triggers are used for targeting by a campaign workflow which sends emails. The campaign is set up so the customer that has triggered the event will receive an email.

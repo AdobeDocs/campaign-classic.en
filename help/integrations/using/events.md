@@ -1,8 +1,6 @@
 ---
-title: Configuring the integration
-seo-title: Configuring the integration
-description: Configuring the integration
-seo-description: 
+title: Configuring events
+description: Learn how to configure events for custom implementation
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat
@@ -21,9 +19,7 @@ Parts of this configuration is a custom development and requires the following:
 * Working knowledge of the QueryDef and Writer APIs.
 * Working notions of encryption and authentication using private keys.
 
-Since editing the JS code requires technical skills, please do not attempt it without the proper understanding.
-
-Further processing of events is done as part of the ACX Package provided outside the default implementation. Received event is processed immediately using JavaScript code. It is saved into a database table with no further processing in real time. The triggers are used for targeting by a campaign workflow which sends emails. The campaign is set up so the customer that has triggered the event will receive an email.
+Since editing the Javascript code requires technical skills, please do not attempt it without the proper understanding.
 
 ## Processing events in JavaScript {#events-javascript}
 
@@ -33,7 +29,7 @@ Pipeline uses a JavaScript function to process each message. This function is us
 
 It is configured in the **[!UICONTROL NmsPipeline_Config]** option under the "JSConnector" attribute. This javascript is called every time an event is received. It's run by the [!DNL pipelined] process.
 
-The sample JS file is cus:triggers.js.
+The sample Javascript file is cus:triggers.js.
 
 ### JavaScript function {#function-js}
 
@@ -51,7 +47,7 @@ It should return as
 <undefined/>
 ```
 
-You should restart [!DNL pipelined] after editing the JS.
+You should restart [!DNL pipelined] after editing the Javascript.
 
 ### Trigger data format {#trigger-format}
 
@@ -131,7 +127,7 @@ For debugging and monitoring purposes, the full trigger data is written into the
 
 ### Parsing the data {#data-parsing}
 
-This sample JS code parses the eVar01 in the enrichments.
+This sample Javascript code parses the eVar01 in the enrichments.
 
 ```
 function processPipelineMessage(xmlTrigger)

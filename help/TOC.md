@@ -332,7 +332,7 @@ type: Documentation
        + [Synchronizing web applications](integrations/using/synchronizing-web-applications.md)
        + [Troubleshooting the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
   + Experience Cloud Triggers {#experience-triggers}
-       + [About [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
+       + [Get started with [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
        + [Configuring pipeline](integrations/using/configuring-pipeline.md)
        + [Configuring Adobe I/O for Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)
        + [Configuring events for custom implementation](integrations/using/events.md)

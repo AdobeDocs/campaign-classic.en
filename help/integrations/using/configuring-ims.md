@@ -1,8 +1,6 @@
 ---
 title: Configuring IMS
-seo-title: Configuring IMS
-description: Configuring IMS
-seo-description: 
+description: Learn how to connect via an Adobe ID
 page-status-flag: never-activated
 uuid: b659d29f-2a27-4a7b-b5ca-f44c3271dd4e
 contentOwner: sauviat
