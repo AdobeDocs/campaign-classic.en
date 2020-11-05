@@ -268,14 +268,14 @@ The steps to perform this use case are as follows:
 
 1. In Campaign Classic, build a workflow to import the encrypted data and decrypt it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
 
-     ![](assets/gpg_workflow.png)
+     ![](assets/gpg_import_workflow.png)
 
     * **[!UICONTROL File transfer]** activity: Transfers the file from an external source to Campaign Classic. In this example, we want transfer the file from an SFTP server.
     * **[!UICONTROL Data loading (file)]** activity: Loads the data from the file into the database and decrypt it using the private key generated in the Control Panel.
 
 1. Open the **[!UICONTROL File transfer]** activity then specify the external account from which you want to import the encrypted .gpg file.
 
-     ![](assets/gpg_transfer.png)
+     ![](assets/gpg_key_transfer.png)
 
      Global concepts on how to configure the activity are available in [this section](../../workflow/using/file-transfer.md).
 
