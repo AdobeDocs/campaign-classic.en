@@ -188,9 +188,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>MS Dynamics</td>
 <td>
-<p>Soap API - On-premise: 2007, 2015, 2016</p>
-<p>Soap API - Online: 2015, 2016</p>
-<p>Web API - On-premise and Online: 365, 2016, 2016 Update 1</p>
+<p>Web API: Dynamics 365 On-premise and Online</p>
 </td>
 </tr>
 </tbody>
