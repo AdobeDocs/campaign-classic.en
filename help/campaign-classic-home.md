@@ -10,6 +10,9 @@ topic: Premium
 
 ## What's New
 
+* **[Update your Adobe Experience Cloud Triggers integration](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/>
+The legacy oAuth authentication service has reached end-of-life. Learn how to migrate to Adobe I/O. 
+
 * **[Move to HTTP/2-based APNs provider API](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/>
 Learn how to migrate from the legacy binary protocol to HTTP/2-based APNs provider API. 
 
@@ -18,9 +21,6 @@ You can now insert emoticons in messages and subject line
 
 * **[Get Support](https://helpx.adobe.com/campaign/kb/ac-support.html)**<br/>
 Access FAQs, best practices, help resources, and request for help
-
-* **[Privacy Compliance](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-Learn how Adobe Campaign can help you with your Privacy compliance
 
 * **[Tracking capabilities](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>
 Understand tracking capabilities and processes in Campaign

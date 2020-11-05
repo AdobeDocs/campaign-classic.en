@@ -18,7 +18,7 @@ snippet: y
 
 >[!CAUTION]
 >
->If you are using an older version of Triggers integration through JWT tokens or oAuth authentication, **you need to move to Adobe I/O as described below**. JWT and oAuth authentication modes are now deprecated. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis)
+>If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O as described below**. Legacy oAuth authentication mode will be retired in April 30, 2021. [Learn more](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md)
 
 ## Prerequisites {#adobe-io-prerequisites}
 
