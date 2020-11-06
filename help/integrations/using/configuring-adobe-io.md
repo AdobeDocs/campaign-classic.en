@@ -53,27 +53,27 @@ Before starting this implementation, please check you have:
 
 1. Select **[!UICONTROL + Add to Project]** and choose **[!UICONTROL API]**.
 
-    ![](assets/adobe_io_1.png)
+    ![](assets/do-not-localize/adobe_io_1.png)
 
 1. In the **[!UICONTROL Add an API]** window, select **[!UICONTROL Adobe Analytics]**.
 
-    ![](assets/adobe_io_2.png)
+    ![](assets/do-not-localize/adobe_io_2.png)
 
 1. Choose **[!UICONTROL Service Account (JWT)]** as the authentication type.
 
-    ![](assets/adobe_io_3.png)
+    ![](assets/do-not-localize/adobe_io_3.png)
 
 1. If your Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a Public and Private keypair.
 
-    ![](assets/adobe_io_4.png)
+    ![](assets/do-not-localize/adobe_io_4.png)
 
 1. Upload your public key and click **[!UICONTROL Next]**.
 
-    ![](assets/adobe_io_5.png)
+    ![](assets/do-not-localize/adobe_io_5.png)
 
 1. Choose the product profile called **Analytics-<&nbsp;Org Name&nbsp;>** and click **[!UICONTROL Save configured API]**.
 
-    ![](assets/adobe_io_6.png)
+    ![](assets/do-not-localize/adobe_io_6.png)
 
 1. From your project, select **[!UICONTROL Service Account (JWT)]** and copy the following information:
     * **[!UICONTROL Client ID]**
@@ -81,7 +81,7 @@ Before starting this implementation, please check you have:
     * **[!UICONTROL Technical account ID]**
     * **[!UICONTROL Organization ID]**
 
-    ![](assets/adobe_io_7.png)
+    ![](assets/do-not-localize/adobe_io_7.png)
 
 ## Step 2: Add the project credentials in Adobe Campaign {#add-credentials-campaign}
 
