@@ -15,19 +15,19 @@ discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 
 # Privacy request management {#privacy-requests}
 
-For a general presentation on Privacy Management, refer to [this section]().
+For a general presentation on Privacy Management, refer to [this section](../../platform/using/privacy-management.md).
 
-This information applies to GDPR, CCPA, PDPA, and LGPD. For more on these regulations, see [this section]().
+This information applies to GDPR, CCPA, PDPA, and LGPD. For more on these regulations, see [this section](../../platform/using/privacy-management.md#privacy-management-regulations).
 
-The opt-out for the Sale of Personal Information, which is specific to CCPA, is explained in [this section]().
+The opt-out for the Sale of Personal Information, which is specific to CCPA, is explained in [this section](#sale-of-personal-information-ccpa).
 
 >[!IMPORTANT]
 >
->Installation procedures described in this document are applicable starting Campaign Classic 18.4 (build 8931+). If you are running on a previous version, refer to this [technote]().
+>Installation procedures described in this document are applicable starting Campaign Classic 18.4 (build 8931+). If you are running on a previous version, refer to this [technote](https://helpx.adobe.com/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html).
 
 ## About Privacy Requests {#about-privacy-requests}
 
-In order to help you facilitate your Privacy readiness, Adobe Campaign now allows you to handle Access and Delete requests.
+In order to help you facilitate your Privacy readiness, Adobe Campaign allows you to handle Access and Delete requests.
 
 The **Right to Access** and the **Right to be Forgotten** (delete request) are described in [this section](../../platform/using/privacy-management.md#right-access-forgotten).
 
@@ -372,7 +372,7 @@ var requestId = nms.privacyRequest.CreateRequestByName(namespaceName, reconcilia
 // User can use a simple queryDef with requestID as a parameter to check request status.
 ```
 
-## Opt-out for the Sale of Personal Information (CCPA) {#sale-of-personal-information}
+## Opt-out for the Sale of Personal Information (CCPA) {#sale-of-personal-information-ccpa}
 
 CCPA (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
 
@@ -442,6 +442,6 @@ Configure the recipients list to display the op-out column. To learn how to conf
 
 ![](assets/privacy-ccpa-6.png)
 
-You can click on the column to sort recipients according to the opt-out information. You can also create a filter to only display recipients who have opted-out. For more on creating filters, see this section.
+You can click the column to sort recipients according to the opt-out information. You can also create a filter to only display recipients who have opted-out. For more on creating filters, see [this section](../../platform/using/creating-filters.md).
 
 ![](assets/privacy-ccpa-7.png)

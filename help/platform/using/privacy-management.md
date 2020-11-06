@@ -17,41 +17,41 @@ discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 
 Adobe Campaign offers a set of tools to help you comply with Privacy regulations (including GDPR, CCPA, PDPA, LGPD).
 
-This article presents general information on what Privacy Management is and the features we provide to manage the new Right to Access and Right to be Forgotten. See [this section]().
+This section presents general information on what Privacy Management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
-On this page, you will also find information on important features to manage Privacy (consent, data retention and user roles - see [this section](#)), as well as best practices to help you with your Privacy compliance when using our service.
+It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.
 
 ## Regulations on privacy management {#privacy-management-regulations}
 
 Adobe Campaign's capabilities help you comply with the following regulations:
 
-* GDPR ([General Data Protection Regulation](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements for EU's countries.
-* CCPA ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=)) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-* PDPA ([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. 
-* LGPD ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) will be effective early 2021 for all companies collecting or processing personal data in Brazil.
+* **GDPR** ([General Data Protection Regulation](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements for EU's countries.
+* **CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=)) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
+* **PDPA** ([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. 
+* **LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) will be effective early 2021 for all companies collecting or processing personal data in Brazil.
 
 All of these regulations apply to Adobe Campaign customers who hold data for Data Subjects residing in the respective regions or countries mentioned above (EU, California, Thailand, Brazil).
 
-Several Privacy capabilities are already available in Adobe Campaign, including consent management, data retention settings, and rights management. See [Consent, Retention and Roles](). In addition to this, we are taking this opportunity in our role as Data Processor to include additional capabilities, to help facilitate your readiness as Data Controller for certain Privacy requests. See [Right to Access and Right to be Forgotten]().
+(Several Privacy capabilities are available in Adobe Campaign, including consent management, data retention settings, and rights management. See [Consent, Retention and Roles](#consent-retention-roles). In addition to this, Adobe Campaign helps facilitate your readiness as Data Controller for certain Privacy requests. See [Right to Access and Right to be Forgotten](#right-access-forgotten).)
 
 For more on personal data and on the different entities that manage data (Data Controller, Data Processor and Data Subject), see [Personal data and Personas](../../platform/using/privacy-and-recommendations.md#personal-data).
 
 ## Right to Access and Right to be Forgotten {#right-access-forgotten}
 
-In order to help you facilitate your Privacy readiness, Adobe Campaign now allows you to handle **Access** and **Delete** requests.
+In order to help you facilitate your Privacy readiness, Adobe Campaign allows you to handle **Access** and **Delete** requests.
 
 * The **Right to Access** is the right for the Data Subject to obtain from the Data Controller confirmation as to whether or not personal data concerning them is being processed, where and for what purpose. The Data Controller shall provide a copy of the personal data, free of charge, in an electronic format.
 
 * Also known as Data Erasure, the **Right to be Forgotten** (delete request) entitles the Data Subject to have the Data Controller erase his/her personal data, cease further dissemination of the data, and potentially have third parties halt processing of the data.
 
-To learn how you can create **Access** and **Delete** requests and how Adobe Campaign processes them, refer to the [implementation steps]() for Adobe Campaign Classic.
+To learn how you can create **Access** and **Delete** requests and how Adobe Campaign processes them, refer to the [implementation steps](../../platform/using/privacy-request-management.md).
 
 <!--Tutorials on Privacy management in Campaign Standard are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
 https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en-->
 
 ## Consent, Retention and Roles {#consent-retention-roles}
 
-In addition to the new **Right to Access** and **Right to be Forgotten** capabilities, Adobe Campaign offers other important features that are essential to Privacy:
+In addition to the most recent **Right to Access** and **Right to be Forgotten** capabilities, Adobe Campaign offers other important features that are essential to Privacy:
 
 * **Consent management**: subscription functionality for preference management
 * **Data retention**: data retention periods on all standard log tables, additional retention periods can be set up with workflows
@@ -63,25 +63,38 @@ Consent signifies agreement by the Data Subject to the processing of personal da
 
 The features to help manage some aspects of consent have been core to Adobe Campaign since the beginning. Through our subscription management process, customers can track which recipients have opted-in to which type of subscriptions whether it be newsletters, daily or weekly promotions, or any other type of marketing program.
 
-Consent management in Campaign Classic (refer to the detailed documentation):
+![](assets/privacy-consent-management.png)
 
+For more on Consent management, refer to the [detailed documentation](../../delivery/using/managing-subscriptions.md)).
 
-![](assets/privacy-folders.png)
+In addition to the Consent Management tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the sale of Personal Information. Refer to [this section](../../platform/using/privacy-request-management.md#sale-of-personal-information).
 
-![](assets/privacy-folders.png)
+### Data retention {#data-retention}
 
-![](assets/privacy-folders.png)
+Regarding retention, built-in log tables in Campaign have pre-set retention periods on them, generally limiting their data storage to 6 months or less.
 
-![](assets/privacy-folders.png)
+The following are the default retention values for built-in tables. Be aware that the retention configuration is set by Adobe technical administrators during implementation and values may vary for each implementation, based on customer requirements.
 
-![](assets/privacy-folders.png)
+* **Consolidated tracking**: 1 year
+* **Delivery logs**: 6 months
+* **Tracking logs**: 1 year
+* **Deleted deliveries**: 1 week
+* **Import rejects**: 6 months
+* **Visitor profiles**: 1 month
+* **Offer propositions**: 1 year
+* **Events**: 1 month
+* **Statistics of event processing**: 1 year
+* **Archived events**: 1 year
+* **Pipeline events ignored**: 1 month
 
-![](assets/privacy-folders.png)
+And similar to delete, using standard workflow functionality, it is possible to set up retention periods for any custom table.
 
-![](assets/privacy-folders.png)
+Reach out to the Adobe consultants or technical administrators to learn more about retention or if you need to set retention for custom tables.
 
-![](assets/privacy-folders.png)
+### Rights management {#rights-management}
 
-![](assets/privacy-folders.png)
+Adobe Campaign provides you the ability to manage the rights assigned to the various Campaign operators via different pre-built or custom roles. One benefit is this allows you to manage who within your company can access different types of data. For example, you might have different marketers covering different geos and each marketer can only access data from their geo. Similarly, this functionality also allows you to configure different capabilities for each user, such as limiting who can send deliveries, or more relevant for Privacy management, who can modify or export data.
 
-![](assets/privacy-folders.png)
+![](assets/privacy-user-management.png)
+
+For more on right management, refer to the [detailed documentation](../../platform/using/access-management.md).
