@@ -49,7 +49,7 @@ Before starting this implementation, please check you have:
 
 1. Identify the existing project using the extracted client ID. Look for existing projects with the same client ID as the one extracted in previous step.
 
-    ![](assets/adobe_io_8.png)
+    ![](assets/do-not-localize/adobe_io_8.png)
 
 1. Select **[!UICONTROL + Add to Project]** and choose **[!UICONTROL API]**.
 
