@@ -48,9 +48,9 @@ It is therefore your responsibility as a Data Controller to confirm the identity
 
 ### Install the Privacy package {#install-privacy-package}
 
-In order to use this feature, you need to install the **[!UICONTROL Privacy Data Protection Regulation]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** > **[!UICONTROL Adobe Campaign Package]** menu. For more information on how to install packages, refer to the detailed documentation.
+In order to use this feature, you need to install the **[!UICONTROL Privacy Data Protection Regulation]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** > **[!UICONTROL Adobe Campaign Package]** menu. For more information on how to install packages, refer to the [detailed documentation](../../installation/using/installing-campaign-standard-packages.md).
 
-Two new folders, specific to Privacy are created under Administration > Platform:
+Two new folders, specific to Privacy are created under **[!UICONTROL Administration]** > **[!UICONTROL Platform]**:
 
 * **[!UICONTROL Privacy Requests]**: this is where you will create your Privacy requests and track their evolution.
 * **[!UICONTROL Namespaces]**: this is where you will define the field that will be used to identify the Data Subject in the Adobe Campaign database.
@@ -69,13 +69,13 @@ In **[!UICONTROL Administration]** > **[!UICONTROL Access Management]** > **[!UI
 
 ![](assets/privacy-right.png)
 
-### Managing Privacy Requests {#managing}
+## Managing Privacy Requests {#managing}
 
 Before creating Privacy requests, you need to define the **namespace** you will use. The namespace is the key that will be used to identify the Data Subject in the Adobe Campaign database.
 
 Three namespaces are available out-of-the-box: email, phone and mobile phone. If you need a different namespace (a recipient custom field, for example), you can create a new one from **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
 
-#### Create a privacy request {#}
+### Create a privacy request {#}
 
 Adobe Campaign allows you to create your Privacy requests and track their evolution. To create a new Privacy request, follow these instructions:
 
@@ -83,11 +83,11 @@ Adobe Campaign allows you to create your Privacy requests and track their evolut
 
     ![](assets/privacy-requests-folder.png)
 
-1. This screen allows you to view all the current Privacy requests, their status and logs. Click **[!UICONTROL New]** to create a new Privacy request.
+1. This screen allows you to view all the current Privacy requests, their status and logs. Click **[!UICONTROL New]** to create a Privacy request.
 
-![](assets/privacy-request-new.png)
+    ![](assets/privacy-request-new.png)
 
-1. Select the Regulation (GDPR, CCPA, PDPA or LGPD),  Request type (Access or Delete), select a Namespace and enter the Reconciliation value. If you're using email as the namespace, type in the Data Subject's email.
+1. Select the **[!UICONTROL Regulation]** (GDPR, CCPA, PDPA or LGPD),  **[!UICONTROL Request type]** (Access or Delete), select a **[!UICONTROL Namespace]** and enter the **[!UICONTROL Reconciliation value]**. If you're using email as the namespace, type in the Data Subject's email.
 
     ![](assets/privacy-request-properties.png)
 
@@ -100,7 +100,7 @@ The Privacy technical workflows run once every day and process each new request:
 
 ### List of tables {#list-of-tables}
 
-When performing a Delete or Access Privacy request, Adobe Campaign searches all the Data Subject's data based on the Reconciliation value in all the tables that have a link to the recipient table (own type).
+When performing a Delete or Access Privacy request, Adobe Campaign searches all the Data Subject's data based on the **[!UICONTROL Reconciliation value]** in all the tables that have a link to the recipient table (own type).
 
 Here is the list of out-of-the-box tables that are taken into account when performing Privacy requests:
 
@@ -122,7 +122,7 @@ If you created custom tables that have a link to the recipient table (own type),
 >If you perform Privacy batch requests using profile deletion workflows, please take into consideration the following remarks:
 >* Profile deletion via workflows do not process children tables.
 >* You need to handle the deletion for all the children tables.
->* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the Delete privacy requests data perform the deletion. We suggest to limit to 200 profiles per day to delete for performance reasons.
+>* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** perform the deletion. We suggest to limit to 200 profiles per day to delete for performance reasons.
 
 #### Privacy request statuses {#privacy-request-statuses}
 
@@ -140,11 +140,11 @@ Here are the different statuses for Privacy requests:
 
 By default, the **2-step process** is activated. When you create a new Delete request using this mode, Adobe Campaign always performs an Access request first. This allows you to check the data before confirming the deletion.
 
-You can change this mode from the privacy request edition screen. Click on **[!UICONTROL Advanced settings]**.
+You can change this mode from the privacy request edition screen. Click **[!UICONTROL Advanced settings]**.
 
 ![](assets/privacy-request-advanced-settings.png)
 
-With the 2-step mode activated, the status of a new Delete request changes to **[!UICONTROL Confirm Delete Pending]**. Download the generated XML file from the privacy request screen and check the data. To confirm erasing the data, click on the **[!UICONTROL Confirm delete data]** button.
+With the 2-step mode activated, the status of a new Delete request changes to **[!UICONTROL Confirm Delete Pending]**. Download the generated XML file from the privacy request screen and check the data. To confirm erasing the data, click the **[!UICONTROL Confirm delete data]** button.
 
 ![](assets/privacy-request-delete-data.png)
 
