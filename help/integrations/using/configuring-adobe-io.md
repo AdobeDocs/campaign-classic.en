@@ -24,7 +24,7 @@ snippet: y
 
 Before starting this implementation, please check you have:
 
-* a recent version of Adobe Campaign: 19.1.8 or 20.2.1 builds, and above,
+* a recent version of Adobe Campaign (20.2.1 and above),
 * a valid IMSOrgID: the Identity Management System (IMS) organization identifier is the unique identifier within the Adobe Experience Cloud, used for example for the VisitorID service and the IMS Single-Sign On (SSO),
 * a Developer access to the IMS Org. 
 
