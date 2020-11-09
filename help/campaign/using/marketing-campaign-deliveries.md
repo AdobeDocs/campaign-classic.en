@@ -17,7 +17,7 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 
 Deliveries can be created via the campaign dashboard, a campaign workflow or directly via the overview of deliveries.
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[Discover this feature in video](#create-email-video)
 
 ## Creating deliveries {#creating-deliveries}
 
