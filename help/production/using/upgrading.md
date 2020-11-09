@@ -168,9 +168,9 @@ To do this, execute the following command:
 >[!IMPORTANT]
 >
 >* Your script might be called **httpd** instead of **apache**.
->* You MUST execute this command until you obtain the following reply: 
->This operation is required in order for Apache to apply the new library.
+>* You MUST execute this command until you obtain the following reply:
 >
+>   This operation is required in order for Apache to apply the new library.
 
 Then restart Apache:
 
