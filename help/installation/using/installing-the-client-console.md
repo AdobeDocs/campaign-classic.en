@@ -71,7 +71,6 @@ You can add as many connections as needed to connect to your test, stage and pro
 >
 >The **[!UICONTROL Add]** button lets you create **[!UICONTROL folders]** to organize all your connections. Simply drag and drop each connection into a folder.
 
-
 ## Log on to Adobe Campaign 
 
 To log on to an existing instance, follow the steps below:

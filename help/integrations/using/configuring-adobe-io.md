@@ -24,7 +24,7 @@ snippet: y
 
 Before starting this implementation, please check you have:
 
-* a recent version of Adobe Campaign: 19.1.8 or 20.2.1 builds, and above,
+* a recent version of Adobe Campaign (20.2.1 and above),
 * a valid IMSOrgID: the Identity Management System (IMS) organization identifier is the unique identifier within the Adobe Experience Cloud, used for example for the VisitorID service and the IMS Single-Sign On (SSO),
 * a Developer access to the IMS Org. 
 
@@ -49,31 +49,31 @@ Before starting this implementation, please check you have:
 
 1. Identify the existing project using the extracted client ID. Look for existing projects with the same client ID as the one extracted in previous step.
 
-    ![](assets/adobe_io_8.png)
+    ![](assets/do-not-localize/adobe_io_8.png)
 
 1. Select **[!UICONTROL + Add to Project]** and choose **[!UICONTROL API]**.
 
-    ![](assets/adobe_io_1.png)
+    ![](assets/do-not-localize/adobe_io_1.png)
 
 1. In the **[!UICONTROL Add an API]** window, select **[!UICONTROL Adobe Analytics]**.
 
-    ![](assets/adobe_io_2.png)
+    ![](assets/do-not-localize/adobe_io_2.png)
 
 1. Choose **[!UICONTROL Service Account (JWT)]** as the authentication type.
 
-    ![](assets/adobe_io_3.png)
+    ![](assets/do-not-localize/adobe_io_3.png)
 
 1. If your Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a Public and Private keypair.
 
-    ![](assets/adobe_io_4.png)
+    ![](assets/do-not-localize/adobe_io_4.png)
 
 1. Upload your public key and click **[!UICONTROL Next]**.
 
-    ![](assets/adobe_io_5.png)
+    ![](assets/do-not-localize/adobe_io_5.png)
 
 1. Choose the product profile called **Analytics-<&nbsp;Org Name&nbsp;>** and click **[!UICONTROL Save configured API]**.
 
-    ![](assets/adobe_io_6.png)
+    ![](assets/do-not-localize/adobe_io_6.png)
 
 1. From your project, select **[!UICONTROL Service Account (JWT)]** and copy the following information:
     * **[!UICONTROL Client ID]**
@@ -81,7 +81,7 @@ Before starting this implementation, please check you have:
     * **[!UICONTROL Technical account ID]**
     * **[!UICONTROL Organization ID]**
 
-    ![](assets/adobe_io_7.png)
+    ![](assets/do-not-localize/adobe_io_7.png)
 
 ## Step 2: Add the project credentials in Adobe Campaign {#add-credentials-campaign}
 
