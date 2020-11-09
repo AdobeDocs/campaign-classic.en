@@ -27,4 +27,4 @@ The outbound transition can only contain one of the inbound transition populatio
 
 >[!CAUTION]
 >
->In the case of **AND-join** type activities, the event variables are merged but if a same variable is defined twice, there is a conflict and the value remains undetermined. For more on this, refer to [](../../workflow/using/javascript-scripts-and-templates.md#event-variables).
+>In the case of **AND-join** type activities, the event variables are merged but if a same variable is defined twice, there is a conflict and the value remains undetermined. For more on this, refer to [this section](../../workflow/using/javascript-scripts-and-templates.md#event-variables).
