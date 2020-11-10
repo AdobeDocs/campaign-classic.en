@@ -1,7 +1,7 @@
 ---
-title: Privacy and recommendations
-seo-title: Privacy and recommendations
-description: Privacy and recommendations
+title: Privacy requests
+seo-title: Privacy requests
+description: Privacy requests
 seo-description: 
 page-status-flag: never-activated
 uuid: a044bbea-521d-4c1e-8aab-7d51a87fc94b
@@ -27,9 +27,7 @@ The opt-out for the Sale of Personal Information, which is specific to CCPA, is 
 
 ## About Privacy Requests {#about-privacy-requests}
 
-In order to help you facilitate your Privacy readiness, Adobe Campaign allows you to handle Access and Delete requests.
-
-The **Right to Access** and the **Right to be Forgotten** (delete request) are described in [this section](../../platform/using/privacy-management.md#right-access-forgotten).
+In order to help you facilitate your Privacy readiness, Adobe Campaign allows you to handle Access and Delete requests. The **Right to Access** and the **Right to be Forgotten** (delete request) are described in [this section](../../platform/using/privacy-management.md#right-access-forgotten).
 
 Let's see how you can create Access and Delete requests, as well as how Adobe Campaign processes them.
 
@@ -37,8 +35,12 @@ Let's see how you can create Access and Delete requests, as well as how Adobe Ca
 
 Adobe Campaign offers Data Controllers two possibilities for performing Privacy Access and Delete requests:
 
-* Via the **Adobe Campaign interface**: for each Privacy request, the Data Controller creates a new privacy request in Adobe Campaign.
-* Via the **API**: Adobe Campaign provides an API that allows the automatic process of Privacy requests using SOAP.
+* Via the **Adobe Campaign interface**: for each Privacy request, the Data Controller creates a new privacy request in Adobe Campaign. See [this section](#create-privacy-request-ui).
+* Via the **API**: Adobe Campaign provides an API that allows the automatic process of Privacy requests using SOAP. See [this section](#automatic-privacy-request-api).
+
+>[!NOTE]
+>
+>For more on personal data and on the different entities that manage data (Data Controller, Data Processor and Data Subject), see [Personal data and Personas](../../platform/using/privacy-and-recommendations.md#personal-data).
 
 ### Prerequisites {#prerequesites}
 
@@ -50,7 +52,7 @@ It is therefore your responsibility as a Data Controller to confirm the identity
 
 In order to use this feature, you need to install the **[!UICONTROL Privacy Data Protection Regulation]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** > **[!UICONTROL Adobe Campaign Package]** menu. For more information on how to install packages, refer to the [detailed documentation](../../installation/using/installing-campaign-standard-packages.md).
 
-Two new folders, specific to Privacy are created under **[!UICONTROL Administration]** > **[!UICONTROL Platform]**:
+Two new folders, specific to Privacy, are created under **[!UICONTROL Administration]** > **[!UICONTROL Platform]**:
 
 * **[!UICONTROL Privacy Requests]**: this is where you will create your Privacy requests and track their evolution.
 * **[!UICONTROL Namespaces]**: this is where you will define the field that will be used to identify the Data Subject in the Adobe Campaign database.
@@ -69,15 +71,15 @@ In **[!UICONTROL Administration]** > **[!UICONTROL Access Management]** > **[!UI
 
 ![](assets/privacy-right.png)
 
-## Managing Privacy Requests {#managing}
+### Namespaces {#namesspaces}
 
-Before creating Privacy requests, you need to define the **namespace** you will use. The namespace is the key that will be used to identify the Data Subject in the Adobe Campaign database.
+Before creating Privacy requests, you need to define the namespace you will use. This is the key that will be used to identify the Data Subject in the Adobe Campaign database.
 
 Three namespaces are available out-of-the-box: email, phone and mobile phone. If you need a different namespace (a recipient custom field, for example), you can create a new one from **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
 
-### Create a privacy request {#}
+## Create a privacy request {#create-privacy-request-ui}
 
-Adobe Campaign allows you to create your Privacy requests and track their evolution. To create a new Privacy request, follow these instructions:
+The **Adobe Campaign interface** allows you to create your Privacy requests and track their evolution. To create a new Privacy request, follow these instructions:
 
 1. Access the Privacy request folder under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Privacy Requests]**.
 
@@ -124,7 +126,7 @@ If you created custom tables that have a link to the recipient table (own type),
 >* You need to handle the deletion for all the children tables.
 >* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** perform the deletion. We suggest to limit to 200 profiles per day to delete for performance reasons.
 
-#### Privacy request statuses {#privacy-request-statuses}
+### Privacy request statuses {#privacy-request-statuses}
 
 Here are the different statuses for Privacy requests:
 
@@ -132,11 +134,11 @@ Here are the different statuses for Privacy requests:
 * **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: the workflow is processing the request.
 * **[!UICONTROL Delete pending]**: the workflow has identified all the recipient data to delete.
 * **[!UICONTROL Delete in progress]**: the workflow is processing the deletion.
-* **[!UICONTROL Delete Confirmation Pending]**: (Delete request in 2-steps process mode) the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.
+* **[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.
 * **[!UICONTROL Complete]**: the processing of the request has finished without an error.
-* **[!UICONTROL Error]**: the workflow has encountered an error. The reason appears in the list of privacy requests in the **[!UICONTROL Request status]** column. For example, **[!UICONTROL Error data not found]** means that no recipient data matching the Data Subject's **[!UICONTROL Reconciliation value]** has been found in the database.
+* **[!UICONTROL Error]**: the workflow has encountered an error. The reason appears in the list of Privacy requests in the **[!UICONTROL Request status]** column. For example, **[!UICONTROL Error data not found]** means that no recipient data matching the Data Subject's **[!UICONTROL Reconciliation value]** has been found in the database.
 
-#### 2-step process {#two-step-process}
+### 2-step process {#two-step-process}
 
 By default, the **2-step process** is activated. When you create a new Delete request using this mode, Adobe Campaign always performs an Access request first. This allows you to check the data before confirming the deletion.
 
@@ -148,7 +150,7 @@ With the 2-step mode activated, the status of a new Delete request changes to **
 
 ![](assets/privacy-request-delete-data.png)
 
-#### JSSP URL {#jspp-url}
+### JSSP URL {#jspp-url}
 
 When processing Access requests, Adobe Campaign generates a JSSP that retrieves the recipient's data from the database and exports it into an XML file stored on the local machine. The JSSP URL is defined as below:
 
@@ -158,7 +160,7 @@ When processing Access requests, Adobe Campaign generates a JSSP that retrieves 
 
 where @id is the privacy request ID.
 
-This URL is stored in the **[!UICONTROL "File location" (@urlFile)]** field of the Privacy Requests (gdprRequest) schema.
+This URL is stored in the **[!UICONTROL "File location" (@urlFile)]** field of the **[!UICONTROL Privacy Requests (gdprRequest)]** schema.
 
 The information is available in the database for 90 days. Once the request is cleaned up by the technical workflow, the information is removed from the database and the URL becomes obsolete. Please check that the URL is still valid before downloading the data from a web page.
 
@@ -208,19 +210,19 @@ Here is a code snippet you can use as an example in the web application **[!UICO
 
 Since the access to the Data Subject's data file is restricted, the web page anonymous access must be disabled. Only operator with the **[!UICONTROL Privacy Data Right]** named right can log on to the page and download the data.
 
-#### Using the API {#using-the-api}
+## Automatic Privacy request process {#automatic-privacy-request-api}
 
-Adobe Campaign provides an API which allows you to setup an automatic Privacy request process.
+Adobe Campaign provides an **API** which allows you to setup an automatic Privacy request process.
 
-With the API, the general Privacy process is the same as using the interface. The only difference is the creation of the Privacy request. Instead of creating the request in Adobe Campaign, a POST containing the request information is sent to Campaign. For every request, a new entry is added in the **[!UICONTROL Privacy Requests]** screen. The Privacy technical workflows then process the request, the same way as for a request added using the interface.
+With the API, the general Privacy process is the same as [using the interface](#create-privacy-request-ui). The only difference is the creation of the Privacy request. Instead of creating the request in Adobe Campaign, a POST containing the request information is sent to Campaign. For every request, a new entry is added in the **[!UICONTROL Privacy Requests]** screen. The Privacy technical workflows then process the request, the same way as for a request added using the interface.
 
-If you're using the API to submit Privacy requests, we recommend that you leave the **[!UICONTROL 2-step process]** activated for the first Delete requests, in order to test the returned data. When your tests are finished, you can deactivate the 2-step process so that the Delete request process can run automatically.
+If you're using the API to submit Privacy requests, we recommend that you leave the **2-step process** activated for the first Delete requests, in order to test the returned data. When your tests are finished, you can deactivate the 2-step process so that the Delete request process can run automatically.
 
 The **[!UICONTROL CreateRequestByName]** JS API is defined as follows.
 
 >[!NOTE]
 >
->If you were using the **[!UICONTROL gdprRequest]** API, you can still use it but it is recommended to use the new **[!UICONTROL privacyRequest]** API.
+>If you were using the **gdprRequest** API, you can still use it but it is recommended to use the new **privacyRequest** API.
 
 >[!IMPORTANT]
 >
@@ -246,23 +248,23 @@ The **[!UICONTROL CreateRequestByName]** JS API is defined as follows.
 >
 >If you are migrating to 20.2 and if you were already using the API, you must add the ‘regulation’ field as shown above. If you are using a previous build, you can continue to use the API without the ‘regulation’ field.
 
-#### Invoking the API externally {#invoking-api-externally}
+### Invoking the API externally {#invoking-api-externally}
 
 Here is an example of how you can invoke the API externally (authentication via the API and details about the Privacy API specifically). For more information on the Privacy API, consult the [API documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/s-nms-privacyRequest.html). You can also consult the [Web service calls documentation](../../configuration/using/web-service-calls.md).
 
 First of all, you need to perform the authentication via the API:
 
-1. Download the xtk:session WSDL via this url: <server url>/nl/jsp/schemawsdl.jsp?schema=xtk:session
+1. Download the **xtk:session** WSDL via this url: **`<server url>`/nl/jsp/schemawsdl.jsp?schema=xtk:session**.
 
 1. Use the "Logon" method and pass in a username and password as parameters in the request. You will get a response containing a session token. Here is an example using SoapUI.
 
     ![](assets/privacy-api.png)
 
-1. Use the returned Session Token as the authentication for all subsequence API calls. It expires after 24 hours
+1. Use the returned Session Token as the authentication for all subsequence API calls. It expires after 24 hours.
 
-Then you invoke the Privacy API:
+Then invoke the Privacy API:
 
-1. Download the WSDL from this URL: <server url>/nl/jsp/schemawsdl.jsp?schema=nms:privacyRequest
+1. Download the WSDL from this URL: **`<server url>`/nl/jsp/schemawsdl.jsp?schema=nms:privacyRequest**.
 
 1. Use **[!UICONTROL CreateRequestByName]** to create a specific Privacy request.
 
@@ -272,11 +274,11 @@ Then you invoke the Privacy API:
 
     To help you perform the steps above, consider the following:
 
-    * You can use a **queryDef** on the **nms:gdprRequest** schema to check the status of the access request.
-    * You can use a **queryDef** on the **nms:gdprRequestData** schema to get the result of the access request.
-    * To be able to download the XML file from "$(serverUrl)'/nms/gdpr.jssp?id='@id", you must be logged in and accessing it from a whitelisted IP. To do this, you must create a web application allowing you to access the file generated by the JSSP.    
+    * You can use a **queryDef** on the **nms:gdprRequest** schema to check the status of the Access request.
+    * You can use a **queryDef** on the **nms:gdprRequestData** schema to get the result of the Access request.
+    * To be able to download the XML file from **"$(serverUrl)'/nms/gdpr.jssp?id='@id"**, you must be logged in and accessing it from a whitelisted IP. To do this, create a web application allowing you to access the file generated by the JSSP.
 
-#### Invoking the API from a JS {#invoking-api-from-js}
+### Invoking the API from a JS {#invoking-api-from-js}
 
 Here is an example of how you can invoke the API from a JS within Campaign Classic.
 
@@ -286,99 +288,100 @@ Here is an example of how you can invoke the API from a JS within Campaign Class
 >
 >If you are migrating to 20.2 and if you were already using the API, you must add the ‘regulation’ field. If you are using a previous build, you can continue to use the API without the ‘regulation’ field.
 
-If you are using a previous build (with GDPR package), you can continue to use the API without the ‘regulation’ field as shown below:
+* If you are **using a previous build (with GDPR package)**, you can continue to use the API without the ‘regulation’ field as shown below:
 
-```
-loadLibrary("nms:gdpr.js");
-/**************************** 
-This code calls an API to create new Privay request on the DB.
-It requires 4 parameters below.
-Feel free to change parameter values.
-****************************/
-// 1. Namespace internal name
-var namespaceName = "defaultNamespace1";
-// 2. Reconciliation value for privacy request
-var reconciliationValue = "example@adobe.com";
-// 3. Privacy request type
-// GDPR_REQUEST_TYPE_ACCESS = 1;
-// GDPR_REQUEST_TYPE_DELETE = 2;
-var requestType = GDPR_REQUEST_TYPE_ACCESS;
-// 4. Confirm deleting data required.
-// value : true or false
-var ConfirmDeletePending = true;
-// BEGIN
-var requestId = nms.privacyRequest.CreateRequestByName(namespaceName, reconciliationValue, requestType, ConfirmDeletePending);
-// User can use a simple queryDef with requestID as a parameter to check request status.
-```
+    ```
+    loadLibrary("nms:gdpr.js");
+    /**************************** 
+    This code calls an API to create new Privay request on the DB.
+    It requires 4 parameters below.
+    Feel free to change parameter values.
+    ****************************/
+    // 1. Namespace internal name
+    var namespaceName = "defaultNamespace1";
+    // 2. Reconciliation value for privacy request
+    var reconciliationValue = "example@adobe.com";
+    // 3. Privacy request type
+    // GDPR_REQUEST_TYPE_ACCESS = 1;
+    // GDPR_REQUEST_TYPE_DELETE = 2;
+    var requestType = GDPR_REQUEST_TYPE_ACCESS;
+    // 4. Confirm deleting data required.
+    // value : true or false
+    var ConfirmDeletePending = true;
+    // BEGIN
+    var requestId = nms.privacyRequest.CreateRequestByName(namespaceName, reconciliationValue, requestType, ConfirmDeletePending);
+    // User can use a simple queryDef with requestID as a parameter to check request status.
+    ```
 
-If you are migrating to 20.2 and if you were already using the API, you must add the ‘regulation’ field as shown below:
+* If you are **migrating to 20.2** and if you were already using the API, you must add the ‘regulation’ field as shown below:
 
-```
-loadLibrary("nms:gdpr.js");
-/**************************** 
-This code calls an API to create new Privay request on the DB.
-It requires 5 parameters below.
-Feel free to change parameter values.
-****************************/
-// 1. Namespace internal name
-var namespaceName = "defaultNamespace1";
-// 2. Reconciliation value for privacy request
-var reconciliationValue = "example@adobe.com";
-// 3. Privacy request type
-// PRIVACY_REQUEST_TYPE_ACCESS = 1;
-// PRIVACY_REQUEST_TYPE_DELETE = 2;
-var requestType = PRIVACY_REQUEST_TYPE_ACCESS;
-// 4. Confirm deleting data required.
-// value : true or false
-var ConfirmDeletePending = true;
-// 5. Specify which regulation applies to newly created request. This is mandatory parameter.
-// GDPR = 1
-// CCPA = 2
-// PDPA = 3
-// LGPD = 4
-var regulation = 1;
-// BEGIN
-var requestId = nms.privacyRequest.CreateRequestByName(namespaceName, reconciliationValue, requestType, ConfirmDeletePending, regulation);
-// User can use a simple queryDef with requestID as a parameter to check request status.
-```
-If you are using Campaign Classic 20.2 (build 9178+) or above, the 'regulation' field is optional, as shown below:
+    ```
+    loadLibrary("nms:gdpr.js");
+    /**************************** 
+    This code calls an API to create new Privay request on the DB.
+    It requires 5 parameters below.
+    Feel free to change parameter values.
+    ****************************/
+    // 1. Namespace internal name
+    var namespaceName = "defaultNamespace1";
+    // 2. Reconciliation value for privacy request
+    var reconciliationValue = "example@adobe.com";
+    // 3. Privacy request type
+    // PRIVACY_REQUEST_TYPE_ACCESS = 1;
+    // PRIVACY_REQUEST_TYPE_DELETE = 2;
+    var requestType = PRIVACY_REQUEST_TYPE_ACCESS;
+    // 4. Confirm deleting data required.
+    // value : true or false
+    var ConfirmDeletePending = true;
+    // 5. Specify which regulation applies to newly created request. This is mandatory parameter.
+    // GDPR = 1
+    // CCPA = 2
+    // PDPA = 3
+    // LGPD = 4
+    var regulation = 1;
+    // BEGIN
+    var requestId = nms.privacyRequest.CreateRequestByName(namespaceName, reconciliationValue, requestType, ConfirmDeletePending, regulation);
+    // User can use a simple queryDef with requestID as a parameter to check request status.
+    ```
 
-```
-loadLibrary("nms:gdpr.js");
-/**************************** 
-This code calls an API to create new Privay request on the DB.
-It requires 5 parameters below.
-Feel free to change parameter values 
-****************************/
-// 1. Namespace internal name
-var namespaceName = "defaultNamespace1";
-// 2. Reconciliation value for privacy request
-var reconciliationValue = "example@adobe.com";
-// 3. Privacy request type
-// PRIVACY_REQUEST_TYPE_ACCESS = 1;
-// PRIVACY_REQUEST_TYPE_DELETE = 2;
-var requestType = PRIVACY_REQUEST_TYPE_ACCESS;
-// 4. Confirm deleting data required.
-// value : true or false
-var ConfirmDeletePending = true;
-// 5. Specify which regulation applies to newly created request. This is optional parameter.
-// GDPR = 1
-// CCPA = 2
-// PDPA = 3
-// LGPD = 4
-var regulation = 1;
-// BEGIN
-var requestId = nms.privacyRequest.CreateRequestByName(namespaceName, reconciliationValue, requestType, ConfirmDeletePending, regulation);
-// User can use a simple queryDef with requestID as a parameter to check request status.
-```
+* If you are **using Campaign Classic 20.2 (build 9178+) or above**, the 'regulation' field is optional, as shown below:
+
+    ```
+    loadLibrary("nms:gdpr.js");
+    /**************************** 
+    This code calls an API to create new Privay request on the DB.
+    It requires 5 parameters below.
+    Feel free to change parameter values 
+    ****************************/
+    // 1. Namespace internal name
+    var namespaceName = "defaultNamespace1";
+    // 2. Reconciliation value for privacy request
+    var reconciliationValue = "example@adobe.com";
+    // 3. Privacy request type
+    // PRIVACY_REQUEST_TYPE_ACCESS = 1;
+    // PRIVACY_REQUEST_TYPE_DELETE = 2;
+    var requestType = PRIVACY_REQUEST_TYPE_ACCESS;
+    // 4. Confirm deleting data required.
+    // value : true or false
+    var ConfirmDeletePending = true;
+    // 5. Specify which regulation applies to newly created request. This is optional parameter.
+    // GDPR = 1
+    // CCPA = 2
+    // PDPA = 3
+    // LGPD = 4
+    var regulation = 1;
+    // BEGIN
+    var requestId = nms.privacyRequest.CreateRequestByName(namespaceName, reconciliationValue, requestType, ConfirmDeletePending, regulation);
+    // User can use a simple queryDef with requestID as a parameter to check request status.
+    ```
 
 ## Opt-out for the Sale of Personal Information (CCPA) {#sale-of-personal-information-ccpa}
 
-CCPA (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
+The **California Consumer Privacy Act** (CCPA) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
 
 The configuration and usage of Access and Delete requests are common to both GDPR and CCPA. This section presents the opt-out for the sale of personal data, which is specific to CCPA.
 
-In addition to the [Consent management](../../platform/using/privacy-management.md#consent-management) tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the sale of Personal Information. 
+In addition to the [Consent management](../../platform/using/privacy-management.md#consent-management) tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the sale of Personal Information.
 
 A consumer decides, through your system, that he/she does not allow his/her personal information from being sold to a third-party. In Adobe Campaign, you will be able to store and track this information.
 
@@ -386,7 +389,7 @@ For this to work, you need to extend the Profiles table and add an **[!UICONTROL
 
 >[!IMPORTANT]
 >
->It is the responsibility of the customer to keep track of the request dates for CCPA. As a technology provider, we only provide a way to Opt-Out. It is the responsibility of the customer to receive the data subject's request and use the available capability.
+>It is your responsibility as the Data Controller to receive the Data Subject's request and to keep track of the request dates for CCPA. As a technology provider, we only provide a way to opt-out. For more on your role as a Data Controller, see [Personal data and Personas](../../platform/using/privacy-and-recommendations.md#personal-data).
 
 ### Prerequisite {#ccpa-prerequisite}
 
@@ -400,7 +403,7 @@ For more detailed information on how to create a new field, refer to the [Schema
 >
 >Modifying schemas is a sensitive operation which must be performed by expert users only.
 
-1. Click the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Add new fields]**, select **[!UICONTROL Recipients]** as the **[!UICONTROL Document type]** and click **[!UICONTROL Next]**. For more on adding fields to a table, see [this section](../../configuration/using/new-field-wizard.md).
+1. Go to **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Add new fields]**, select **[!UICONTROL Recipients]** as the **[!UICONTROL Document type]** and click **[!UICONTROL Next]**. For more on adding fields to a table, see [this section](../../configuration/using/new-field-wizard.md).
 
     ![](assets/privacy-ccpa-1.png)
 
@@ -408,7 +411,7 @@ For more detailed information on how to create a new field, refer to the [Schema
 
     ![](assets/privacy-ccpa-2.png)
 
-    This will extend or create the **[!UICONTROL Recipient (cus)]** schema. Click on it and verify that the field has been correctly added.
+    This will extend or create the **[!UICONTROL Recipient (cus)]** schema. Click it to verify that the field has been correctly added.
 
     ![](assets/privacy-ccpa-3.png)
 
@@ -422,7 +425,7 @@ For more detailed information on how to create a new field, refer to the [Schema
 
 1. Disconnect and re-connect. Follow the steps described in the next section to verify that the field is available on a recipient's details. 
 
-#### Usage {#usage}
+### Usage {#usage}
 
 It is the responsibility of the Data Controller to populate the value of the field and follow the CCPA guidelines and rules concerning data selling.
 

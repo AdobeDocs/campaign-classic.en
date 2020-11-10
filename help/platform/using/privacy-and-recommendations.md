@@ -1,7 +1,7 @@
 ---
-title: Privacy management
-seo-title: Privacy management
-description: Privacy management
+title: Privacy and consent
+seo-title: Privacy and consent
+description: Privacy and consent
 seo-description: 
 page-status-flag: never-activated
 uuid: a044bbea-521d-4c1e-8aab-7d51a87fc94b
