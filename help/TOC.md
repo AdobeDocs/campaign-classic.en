@@ -32,7 +32,6 @@ type: Documentation
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
-       + [Privacy and consent](platform/using/privacy-and-recommendations.md)
        + [Launching Adobe Campaign](platform/using/launching-adobe-campaign.md)
        + [Adobe Campaign workspace](platform/using/adobe-campaign-workspace.md)
        + FAQ {#faq}
@@ -47,6 +46,10 @@ type: Documentation
           + [Reports](platform/using/faq-reporting.md)
           + [Development](platform/using/faq-developers.md)
        + [Tutorials](platform/using/tutorials.md)
+  + Privacy {#privacy}
+       + [Privacy and consent](platform/using/privacy-and-recommendations.md)
+       + [Privacy management](platform/using/privacy-management.md)
+       + [Privacy requests](platform/using/privacy-requests.md)
   + Profile management {#profile-management}
        + [About profiles](platform/using/about-profiles.md)
        + [Editing a profile](platform/using/editing-a-profile.md)
