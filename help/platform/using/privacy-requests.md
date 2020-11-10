@@ -1,8 +1,6 @@
 ---
 title: Privacy requests
-seo-title: Privacy requests
-description: Privacy requests
-seo-description: 
+description: Learn how to manage Privacy requests
 page-status-flag: never-activated
 uuid: a044bbea-521d-4c1e-8aab-7d51a87fc94b
 contentOwner: sauviat

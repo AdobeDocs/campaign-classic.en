@@ -1,8 +1,6 @@
 ---
-title: Privacy and consent
-seo-title: Privacy and consent
-description: Privacy and consent
-seo-description: 
+title: Privacy and Consent
+description: Learn more about Privacy and Consent
 page-status-flag: never-activated
 uuid: a044bbea-521d-4c1e-8aab-7d51a87fc94b
 contentOwner: sauviat
