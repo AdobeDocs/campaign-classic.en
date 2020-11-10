@@ -1,8 +1,6 @@
 ---
 title: Union
-seo-title: Union
-description: Union
-seo-description: 
+description: Learn more about the Union workflow activity
 page-status-flag: never-activated
 uuid: 987e106e-c414-4db4-a93e-96e43dc04370
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: File collector
-seo-title: File collector
-description: File collector
-seo-description: 
+description: Learn more about the File collector workflow activity
 page-status-flag: never-activated
 uuid: 57ef7b2b-f257-4d76-970f-55aece719cec
 contentOwner: sauviat

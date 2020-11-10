@@ -1,8 +1,6 @@
 ---
 title: Subscription Services
-seo-title: Subscription Services
-description: Subscription Services
-seo-description: 
+description: Learn more about the Subscription Services workflow activity
 page-status-flag: never-activated
 uuid: f8c05f8a-0791-4294-8aa3-69b7325e4d43
 contentOwner: sauviat

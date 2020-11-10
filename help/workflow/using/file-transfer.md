@@ -1,6 +1,6 @@
 ---
 title: File transfer
-description: Learn more about the File transfer activity.
+description: Learn more about the File transfer workflow activity
 page-status-flag: never-activated
 uuid: 6431d908-a110-4a9a-8848-9abf78ef8157
 contentOwner: sauviat

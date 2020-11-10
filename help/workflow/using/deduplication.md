@@ -1,8 +1,6 @@
 ---
 title: Deduplication
-seo-title: Deduplication
-description: Deduplication
-seo-description: 
+description: Learn more about the Deduplication workflow activity
 page-status-flag: never-activated
 uuid: 90dee589-ac45-442e-89ef-1c14bb22200d
 contentOwner: sauviat

@@ -1,6 +1,6 @@
 ---
 title: Defining approvals
-description: Approvals enable operators to make decisions governing a workflow or to confirm its continued execution.
+description: Approvals enable operators to make decisions governing a workflow or to confirm its continued execution
 page-status-flag: never-activated
 uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
 contentOwner: sauviat

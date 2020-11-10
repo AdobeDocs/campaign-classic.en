@@ -1,8 +1,6 @@
 ---
 title: Targeting data
-seo-title: Targeting data
-description: Targeting data
-seo-description: 
+description: Learn more about Targeting data in a workflow
 page-status-flag: never-activated
 uuid: 90c46ae9-8f9d-4538-a0fe-92fb3373f863
 contentOwner: sauviat

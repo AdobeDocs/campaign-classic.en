@@ -1,8 +1,6 @@
 ---
 title: Scheduler
-seo-title: Scheduler
-description: Scheduler
-seo-description: 
+description: Learn more about the Scheduler workflow activity
 page-status-flag: never-activated
 uuid: e814b978-2edd-442e-9334-9633bc9ec63a
 contentOwner: sauviat

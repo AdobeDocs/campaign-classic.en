@@ -25,9 +25,9 @@ Workflows occur within various contexts and stages of the campaign management pr
 
 Adobe Campaign uses workflows to:
 
-* Carry out targeting campaigns. For more on this, refer to [Implementation steps](../../workflow/using/building-a-workflow.md#implementation-steps-).
-* Build campaigns: for each campaign, the **[!UICONTROL Workflow]** tab lets you build the target and create the deliveries. For more on this, refer to [Campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows).
-* Perform technical processes: cleanup, collecting tracking information or provisional calculations. For more on this, refer to [Technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows).
+* Carry out targeting campaigns. [Learn more](../../workflow/using/building-a-workflow.md#implementation-steps-)
+* Build campaigns: for each campaign, the **[!UICONTROL Workflow]** tab lets you build the target and create the deliveries. [Learn more](../../workflow/using/building-a-workflow.md#campaign-workflows)
+* Perform technical processes: cleanup, collecting tracking information or provisional calculations. [Learn more](../../workflow/using/building-a-workflow.md#technical-workflows)
 
 A workflow can mean both a process definition (the workflow model, which is a representation of what is supposed to happen) and an instance of this process (a workflow instance, which is a representation of what is actually happening).
 

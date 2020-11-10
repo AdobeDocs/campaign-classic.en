@@ -1,8 +1,6 @@
 ---
 title: Workflow properties
-seo-title: Workflow properties
-description: Workflow properties
-seo-description: 
+description: Learn more about Campaign Workflow properties
 page-status-flag: never-activated
 uuid: bd576cc0-2db8-4519-bcb5-52bf5c811f42
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Web Analytics
-seo-title: Web Analytics
-description: Web Analytics
-seo-description: 
+description: Learn more about the Web Analytics package
 page-status-flag: never-activated
 uuid: 63742453-16d9-48c2-9a3d-d96f5b131fb3
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Cross-channel deliveries
-seo-title: Cross-channel deliveries
-description: Cross-channel deliveries
-seo-description: 
+description: Learn more about cross-channel deliveries
 page-status-flag: never-activated
 uuid: 191ff39e-f739-48b3-8865-ad1b641b7499
 contentOwner: sauviat

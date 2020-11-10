@@ -1,8 +1,6 @@
 ---
 title: Inbound SMS
-seo-title: Inbound SMS
-description: Inbound SMS
-seo-description: 
+description: Learn more about the Inbound SMS workflow activity
 page-status-flag: never-activated
 uuid: 895e54df-e795-48ac-ac94-96dab454c550
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Workflow best practices
-seo-title: Workflow best practices
-description: Workflow best practices
-seo-description: 
+description: Learn Campaign Workflow best practices
 page-status-flag: never-activated
 uuid: 56b04004-5d96-4169-9494-3d04284d5a3d
 contentOwner: sauviat

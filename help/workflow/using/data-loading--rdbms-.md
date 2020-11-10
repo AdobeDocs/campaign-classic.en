@@ -1,8 +1,6 @@
 ---
 title: Data loading (RDBMS)
-seo-title: Data loading (RDBMS)
-description: Data loading (RDBMS)
-seo-description: 
+description: Learn more about Data loading (RDBMS) workflow activity
 page-status-flag: never-activated
 uuid: d5ec30f2-398a-4b16-9232-924437da146a
 contentOwner: sauviat

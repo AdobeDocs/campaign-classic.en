@@ -1,8 +1,6 @@
 ---
 title: SQL code and JavaScript code
-seo-title: SQL code and JavaScript code
-description: SQL code and JavaScript code
-seo-description: 
+description: Learn more about SQL and JavaScript codes workflow activities
 page-status-flag: never-activated
 uuid: 20a39bbf-c6b0-4697-97b4-c07609cfb048
 contentOwner: sauviat

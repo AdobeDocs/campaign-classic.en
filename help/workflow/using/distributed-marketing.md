@@ -1,8 +1,6 @@
 ---
 title: Distributed Marketing
-seo-title: Distributed Marketing
-description: Distributed Marketing
-seo-description: 
+description: Learn more about the Distributed Marketing package
 page-status-flag: never-activated
 uuid: 071edddc-b9d2-4193-a667-71f738132684
 contentOwner: sauviat

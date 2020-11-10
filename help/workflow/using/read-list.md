@@ -1,8 +1,6 @@
 ---
 title: Read list
-seo-title: Read list
-description: Read list
-seo-description: 
+description: Learn more about the Read list workflow activity
 page-status-flag: never-activated
 uuid: 34e28675-f28b-407f-8d60-41a5383af0db
 contentOwner: sauviat

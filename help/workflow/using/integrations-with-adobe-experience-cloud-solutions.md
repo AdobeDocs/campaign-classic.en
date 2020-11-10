@@ -1,8 +1,6 @@
 ---
-title: Integrations with Adobe Experience Cloud solutions
-seo-title: Integrations with Adobe Experience Cloud solutions
-description: Integrations with Adobe Experience Cloud solutions
-seo-description: 
+title: Integrations with Adobe Experience Cloud solutions workflows
+description: Learn more about Integrations with Adobe Experience Cloud solutions workflows
 page-status-flag: never-activated
 uuid: 6f179af5-1e5b-42a9-a493-1b726af2af8e
 contentOwner: sauviat

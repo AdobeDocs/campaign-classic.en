@@ -1,8 +1,6 @@
 ---
 title: Cross-channel delivery workflow
-seo-title: Cross-channel delivery workflow
-description: Cross-channel delivery workflow
-seo-description: 
+description: Learn more about cross-channel delivery workflows
 page-status-flag: never-activated
 uuid: 02d51b13-656f-48f3-b744-5968ffa94b3e
 contentOwner: sauviat

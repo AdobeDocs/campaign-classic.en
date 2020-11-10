@@ -1,8 +1,6 @@
 ---
 title: Email Deliverability
-seo-title: Email Deliverability
-description: Email Deliverability
-seo-description: 
+description: Learn more about the Email Deliverability package
 page-status-flag: never-activated
 uuid: f60a09f0-47a0-4fc0-b0ac-47178af6ad55
 contentOwner: sauviat

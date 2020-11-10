@@ -1,8 +1,6 @@
 ---
 title: Time constraint
-seo-title: Time constraint
-description: Time constraint
-seo-description: 
+description: Learn more about the Time constraint workflow activity
 page-status-flag: never-activated
 uuid: 63bde1af-dd78-4fca-b3b9-edb1b64552cd
 contentOwner: sauviat

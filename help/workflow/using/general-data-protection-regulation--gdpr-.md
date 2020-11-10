@@ -1,8 +1,6 @@
 ---
-title: General Data Protection Regulation (GDPR)
-seo-title: General Data Protection Regulation (GDPR)
-description: General Data Protection Regulation (GDPR)
-seo-description: 
+title: Privacy Data Protection Regulation workflows
+description: Learn more about the Privacy Data Protection Regulation workflows
 page-status-flag: never-activated
 uuid: cb5f5d79-52ac-4ce4-abc7-a3a1f0a001cf
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Split
-seo-title: Split
-description: Split
-seo-description: 
+description: Learn more about the Split workflow activity
 page-status-flag: never-activated
 uuid: 00dc3436-e271-4512-8f29-71a55213afc3
 contentOwner: sauviat

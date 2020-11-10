@@ -1,8 +1,6 @@
 ---
 title: Web download
-seo-title: Web download
-description: Web download
-seo-description: 
+description: Learn more about the Web download workflow activity
 page-status-flag: never-activated
 uuid: 44039e9c-0cd8-4d3f-b73f-e01c5343835a
 contentOwner: sauviat

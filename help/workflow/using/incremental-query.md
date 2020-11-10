@@ -1,8 +1,6 @@
 ---
 title: Incremental query
-seo-title: Incremental query
-description: Incremental query
-seo-description: 
+description: Learn more about the Incremental query workflow activity
 page-status-flag: never-activated
 uuid: 24d322e8-172c-4faa-8a1f-59085b390a76
 contentOwner: sauviat

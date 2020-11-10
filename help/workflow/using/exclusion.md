@@ -1,8 +1,6 @@
 ---
 title: Exclusion
-seo-title: Exclusion
-description: Exclusion
-seo-description: 
+description: Learn more about the Exclusion workflow activity
 page-status-flag: never-activated
 uuid: e4f54a0b-2fec-4415-986b-83c8928ed174
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Sending a birthday email
-seo-title: Sending a birthday email
-description: Sending a birthday email
-seo-description: 
+description: Learn how to send a birthday email with a workflow
 page-status-flag: never-activated
 uuid: 4d215ff4-a61d-4294-8f15-17c612022577
 contentOwner: sauviat

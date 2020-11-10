@@ -1,6 +1,6 @@
 ---
 title: Data extraction (file)
-description: Learn more about the Data extraction (file) workflow activity.
+description: Learn more about the Data extraction (file) workflow activity
 page-status-flag: never-activated
 uuid: c1e3fde3-183c-4602-9cef-760e4648fcf7
 contentOwner: sauviat

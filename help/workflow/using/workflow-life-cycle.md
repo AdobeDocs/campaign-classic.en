@@ -1,6 +1,6 @@
 ---
 title: Workflow life cycle
-description: Learn more about the life cycle of a workflow.
+description: Learn more about the life cycle of a workflow
 page-status-flag: never-activated
 uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
 contentOwner: sauviat

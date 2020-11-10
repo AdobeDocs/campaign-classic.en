@@ -1,8 +1,6 @@
 ---
 title: Recurring delivery
-seo-title: Recurring delivery
-description: Recurring delivery
-seo-description: 
+description: Learn more about the Recurring delivery workflow activity
 page-status-flag: never-activated
 uuid: 715855df-fe29-46e8-a7ab-d534f010a26e
 contentOwner: sauviat

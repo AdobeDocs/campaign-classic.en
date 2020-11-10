@@ -1,8 +1,6 @@
 ---
 title: Update aggregate
-seo-title: Update aggregate
-description: Update aggregate
-seo-description: 
+description: Learmore about the Update aggregate workflow activity
 page-status-flag: never-activated
 uuid: 34ae42e1-da34-43be-b219-0b3b872177b3
 contentOwner: sauviat

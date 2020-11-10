@@ -1,8 +1,6 @@
 ---
 title: Social Marketing
-seo-title: Social Marketing
-description: Social Marketing
-seo-description: 
+description: Learn more about Social Marketing technical workflows
 page-status-flag: never-activated
 uuid: ab84cc4d-0599-4fff-976c-89525faeb889
 contentOwner: sauviat
