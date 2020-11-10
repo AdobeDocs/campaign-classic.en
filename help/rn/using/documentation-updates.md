@@ -17,6 +17,10 @@ This page lists all the new features and documentation updates per month and Cam
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
+## November 2020 {#nov-2020}
+
+The Privacy section has been moved and enriched with two new sections: [Privacy management](../../platform/using/privacy-management.md) and [Managing privacy requests](../../platform/using/privacy-requests.md).
+
 ## October 2020 {#oct-2020}
 
 **New capabilities included in 20.3 release**
