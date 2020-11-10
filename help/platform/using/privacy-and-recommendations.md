@@ -135,7 +135,7 @@ Adobe Campaign provides additional capabilities to help you facilitate your read
 
 Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug, 16 for all companies collecting or processing personal data in Brazil. This regulation also applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-The **Access** and **Delete** requests are presented on [this page](../../platform/using/privacy-management.md##right-access-forgotten). The implementation steps to create these requests are detailed in [this section](../../platform/using/privacy-requests.md). <!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
+The **Access** and **Delete** requests are presented on [this page](../../platform/using/privacy-management.md#right-access-forgotten). The implementation steps to create these requests are detailed in [this section](../../platform/using/privacy-requests.md). <!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
 
 ## Tracking capabilities {#tracking-capabilities}
 
