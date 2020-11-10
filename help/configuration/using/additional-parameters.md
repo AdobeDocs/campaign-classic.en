@@ -1,8 +1,6 @@
 ---
-title: Additional parameters
-seo-title: Additional parameters
-description: Additional parameters
-seo-description: 
+title: Additional web tracking parameters
+description: Learn more about parameters for web tracking
 page-status-flag: never-activated
 uuid: c223c84a-f8fd-43d3-9deb-b1c19d442c65
 contentOwner: sauviat

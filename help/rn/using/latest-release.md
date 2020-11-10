@@ -53,7 +53,7 @@ _October 27, 2020_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Android push notifications have been improved to support FCM HTTP v1 API for Android push channel authentication. </p>
+<td> <p><a href=../../delivery/using/configuring-the-mobile-application-android.md#creating-notification-message>Android push notifications</a> have been improved to support FCM HTTP v1 API for Android push channel authentication. </p>
 <p>With the new supported API version, you can now send FCM Notification Messages which provides enhanced rich push messaging capabilities. <a href=https://firebase.google.com/docs/cloud-messaging/migrate-v1>Learn more</a></p> 
 <p>Learn how to configure FCM HTTP v1 API for Android in Adobe Campaign in <a href=../../delivery/using/configuring-the-mobile-application-android.md>this section</a> .</p>
 </td> 
