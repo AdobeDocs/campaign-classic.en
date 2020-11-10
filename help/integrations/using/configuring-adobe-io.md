@@ -22,9 +22,10 @@ snippet: y
 
 ## Prerequisites {#adobe-io-prerequisites}
 
+This integration only applies starting **Campaign Classic 20.3 release**.
+
 Before starting this implementation, please check you have:
 
-* a recent version of Adobe Campaign (20.2.1 and above),
 * a valid IMSOrgID: the Identity Management System (IMS) organization identifier is the unique identifier within the Adobe Experience Cloud, used for example for the VisitorID service and the IMS Single-Sign On (SSO),
 * a Developer access to the IMS Org. 
 
