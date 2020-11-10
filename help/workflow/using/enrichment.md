@@ -1,8 +1,6 @@
 ---
 title: Enrichment
-seo-title: Enrichment
-description: Enrichment
-seo-description: 
+description: Learn more about the Enrichment workflow activity
 page-status-flag: never-activated
 uuid: 8dad57b7-fa08-48ee-990c-f9f0bb312d1f
 contentOwner: sauviat

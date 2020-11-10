@@ -1,8 +1,6 @@
 ---
 title: Supervising workflows
-seo-title: Supervising workflows
-description: Supervising workflows
-seo-description: 
+description: Learn how to supervise Campaign workflows
 page-status-flag: never-activated
 uuid: e16d1c40-50ae-4c3d-95df-fac62f987a15
 contentOwner: sauviat

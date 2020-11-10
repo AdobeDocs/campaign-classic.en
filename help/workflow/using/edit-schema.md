@@ -1,8 +1,6 @@
 ---
 title: Edit schema
-seo-title: Edit schema
-description: Edit schema
-seo-description: 
+description: Learn more about the Edit schema workflow activity
 page-status-flag: never-activated
 uuid: abd77902-98b7-4ab7-a240-dd6b3bb247bb
 contentOwner: sauviat

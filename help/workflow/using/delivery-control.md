@@ -1,8 +1,6 @@
 ---
 title: Delivery control
-seo-title: Delivery control
-description: Delivery control
-seo-description: 
+description: Learn more about the Delivery control workflow activity
 page-status-flag: never-activated
 uuid: f9cef2d9-a6a5-45bd-8c7a-fabc11879628
 contentOwner: sauviat

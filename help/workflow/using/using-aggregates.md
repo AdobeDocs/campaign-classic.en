@@ -1,8 +1,6 @@
 ---
 title: Using aggregates
-seo-title: Using aggregates
-description: Using aggregates
-seo-description: 
+description: Learn how to use aggregates
 page-status-flag: never-activated
 uuid: 70556745-56b2-4f22-bbc5-7f8106fb0d4a
 contentOwner: sauviat

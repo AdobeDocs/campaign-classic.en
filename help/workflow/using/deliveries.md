@@ -1,8 +1,6 @@
 ---
 title: Deliveries
-seo-title: Deliveries
-description: Deliveries
-seo-description: 
+description: Learn more about default Deliveries workflows
 page-status-flag: never-activated
 uuid: d323eb4d-937b-4b37-8400-942336f0a1b4
 contentOwner: sauviat

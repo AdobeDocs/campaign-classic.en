@@ -1,6 +1,6 @@
 ---
-title: Inbox rendering technical workflow in Adobe Campaign Classic
-description: This section describes the technical workflow installed with the Inbox rendering package in Adobe Campaign Classic.
+title: Inbox rendering technical workflow
+description: This section describes the technical workflow installed with the Inbox rendering package
 page-status-flag: never-activated
 uuid: f60a09f0-47a0-4fc0-b0ac-47178af6ad55
 contentOwner: sauviat

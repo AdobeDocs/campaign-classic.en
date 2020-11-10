@@ -1,8 +1,6 @@
 ---
 title: Inbound Emails
-seo-title: Inbound Emails
-description: Inbound Emails
-seo-description: 
+description: Learn more about the Inbound Emails workflow activity
 page-status-flag: never-activated
 uuid: 6bcc7952-f051-4e50-8833-95d49c7ed781
 contentOwner: sauviat

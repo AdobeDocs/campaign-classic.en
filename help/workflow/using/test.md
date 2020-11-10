@@ -1,8 +1,6 @@
 ---
 title: Test
-seo-title: Test
-description: Test
-seo-description: 
+description: Learn more about the Test workflow activity
 page-status-flag: never-activated
 uuid: 3522f4ac-3a72-4ff1-b3aa-1b4c283ef2bd
 contentOwner: sauviat

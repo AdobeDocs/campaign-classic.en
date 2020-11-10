@@ -1,6 +1,6 @@
 ---
 title: Fork
-description: Fork
+description: Learn more about the Fork workflow activity
 page-status-flag: never-activated
 uuid: 90db1991-cff9-4dbd-a478-7aae1d845836
 contentOwner: sauviat

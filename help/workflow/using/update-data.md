@@ -1,8 +1,6 @@
 ---
 title: Update data
-seo-title: Update data
-description: Update data
-seo-description: 
+description: Learn more about the Update data workflow activity
 page-status-flag: never-activated
 uuid: 5f3ab7c8-175a-4b06-a50c-edc97b226e3c
 contentOwner: sauviat

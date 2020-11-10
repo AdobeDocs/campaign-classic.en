@@ -1,8 +1,6 @@
 ---
 title: External signal
-seo-title: External signal
-description: External signal
-seo-description: 
+description: Learn more about the External signal workflow activity
 page-status-flag: never-activated
 uuid: dbe6624a-70cf-4ac4-adfd-bc72db9bb3f3
 contentOwner: sauviat

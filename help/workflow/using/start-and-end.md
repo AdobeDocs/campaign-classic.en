@@ -1,8 +1,6 @@
 ---
 title: Start and end
-seo-title: Start and end
-description: Start and end
-seo-description: 
+description: Learn more about Start and End workflow activities
 page-status-flag: never-activated
 uuid: ec0c818c-c307-4f50-908c-507bce0ea27b
 contentOwner: sauviat

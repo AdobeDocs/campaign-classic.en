@@ -1,8 +1,6 @@
 ---
 title: Wait
-seo-title: Wait
-description: Wait
-seo-description: 
+description: Learn more about the Wait workflow activity
 page-status-flag: never-activated
 uuid: 55e4f15d-8d69-45b1-b842-5ccdfdedf550
 contentOwner: sauviat

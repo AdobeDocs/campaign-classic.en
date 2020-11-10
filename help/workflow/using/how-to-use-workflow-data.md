@@ -1,8 +1,6 @@
 ---
 title: How to use workflow data
-seo-title: How to use workflow data
-description: How to use workflow data
-seo-description: 
+description: Learn how to use workflow data
 page-status-flag: never-activated
 uuid: ed03f14b-1b53-426e-9213-22cb2f3deb19
 contentOwner: sauviat

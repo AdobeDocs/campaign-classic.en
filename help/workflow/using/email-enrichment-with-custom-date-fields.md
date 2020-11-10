@@ -1,8 +1,6 @@
 ---
 title: Email enrichment with custom date fields
-seo-title: Email enrichment with custom date fields
-description: Email enrichment with custom date fields
-seo-description: 
+description: Learn how to enrich emails with custom date fields
 page-status-flag: never-activated
 uuid: 6dd240b1-f995-4e12-90a5-55aeb584bcdc
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Task
-seo-title: Task
-description: Task
-seo-description: 
+description: Learn more about the Task workflow activity
 page-status-flag: never-activated
 uuid: a6fda9d7-83ce-4528-8a9e-e7d06e9b1017
 contentOwner: sauviat

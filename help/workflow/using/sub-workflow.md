@@ -1,8 +1,6 @@
 ---
 title: Sub-workflow
-seo-title: Sub-workflow
-description: Sub-workflow
-seo-description: 
+description: Learn more about the Sub-workflow activity
 page-status-flag: never-activated
 uuid: c952633f-1aca-44cf-bb50-a67e9b086030
 contentOwner: sauviat

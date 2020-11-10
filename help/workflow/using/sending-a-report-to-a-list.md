@@ -1,8 +1,6 @@
 ---
 title: Sending a report to a list
-seo-title: Sending a report to a list
-description: Sending a report to a list
-seo-description: 
+description: Learn how to send a report to a list with a workflow
 page-status-flag: never-activated
 uuid: 29759fd8-47f3-47cc-9f7e-263e305fd6fb
 contentOwner: sauviat

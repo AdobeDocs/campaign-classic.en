@@ -1,8 +1,6 @@
 ---
 title: SQL Data Management
-seo-title: SQL Data Management
-description: SQL Data Management
-seo-description: 
+description: Learn more about SQL Data Management workflow activity
 page-status-flag: never-activated
 uuid: b6057496-2dd5-4289-96df-98378e4f0ae7
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Using the local approval activity
-seo-title: Using the local approval activity
-description: Using the local approval activity
-seo-description: 
+description: Learn how to use the local approval activity
 page-status-flag: never-activated
 uuid: 6003aaed-543d-4e6b-b1f2-ad4e9757bff3
 contentOwner: sauviat

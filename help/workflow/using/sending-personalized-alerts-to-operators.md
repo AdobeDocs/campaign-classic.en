@@ -1,8 +1,6 @@
 ---
 title: Sending personalized alerts to operators
-seo-title: Sending personalized alerts to operators
-description: Sending personalized alerts to operators
-seo-description: 
+description: Learn how to send personalized alerts to operators
 page-status-flag: never-activated
 uuid: 10dd46b9-df28-4043-91f9-c9316a7c69d3
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Enriching data
-seo-title: Enriching data
-description: Enriching data
-seo-description: 
+description: Learn more about the Enrichment workflow activity
 page-status-flag: never-activated
 uuid: 3f65a8a2-b3e1-4c4c-9653-b8a7c4d7557a
 contentOwner: sauviat

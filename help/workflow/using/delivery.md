@@ -1,8 +1,6 @@
 ---
 title: Delivery
-seo-title: Delivery
-description: Delivery
-seo-description: 
+description: Learn more about the Delivery-type workflow activity
 page-status-flag: never-activated
 uuid: 3a74fd0b-8598-46a0-bf13-cf35db0987d7
 contentOwner: sauviat

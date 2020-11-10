@@ -1,8 +1,6 @@
 ---
 title: Query
-seo-title: Query
-description: Query
-seo-description: 
+description: Learn more about the Query workflow activity
 page-status-flag: never-activated
 uuid: 32f4f467-5083-414f-8616-1aa4bf2b5867
 contentOwner: sauviat

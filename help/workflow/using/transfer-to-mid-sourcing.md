@@ -1,8 +1,6 @@
 ---
 title: Transfer to Mid-sourcing
-seo-title: Transfer to Mid-sourcing
-description: Transfer to Mid-sourcing
-seo-description: 
+description: Learn more about Transfer to Mid-sourcing workflows
 page-status-flag: never-activated
 uuid: 6b5be5a0-d1ea-428b-a755-74dd34b1d53d
 contentOwner: sauviat
