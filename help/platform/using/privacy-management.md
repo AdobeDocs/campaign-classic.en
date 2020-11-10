@@ -46,7 +46,7 @@ In order to help you facilitate your Privacy readiness, Adobe Campaign allows yo
 
 * Also known as Data Erasure, the **Right to be Forgotten** (delete request) entitles the Data Subject to have the Data Controller erase his/her personal data, cease further dissemination of the data, and potentially have third parties halt processing of the data.
 
-To learn how you can create **Access** and **Delete** requests and how Adobe Campaign processes them, refer to the [implementation steps](../../platform/using/privacy-request-management.md).
+To learn how you can create **Access** and **Delete** requests and how Adobe Campaign processes them, refer to the [implementation steps](../../platform/using/privacy-requests.md).
 
 <!--Tutorials on Privacy management in Campaign Standard are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
 https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en-->
@@ -69,7 +69,7 @@ The features to help manage some aspects of consent have been core to Adobe Camp
 
 For more on Consent management, refer to the [detailed documentation](../../delivery/using/managing-subscriptions.md).
 
-In addition to the Consent Management tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the sale of Personal Information. Refer to [this section](../../platform/using/privacy-request-management.md#sale-of-personal-information).
+In addition to the Consent Management tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the sale of Personal Information. Refer to [this section](../../platform/using/privacy-requests.md#sale-of-personal-information).
 
 ### Data retention {#data-retention}
 

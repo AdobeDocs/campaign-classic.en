@@ -13,7 +13,7 @@ topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 ---
 
-# Privacy request management {#privacy-requests}
+# Managing privacy requests {#privacy-requests}
 
 For a general presentation on Privacy Management, refer to [this section](../../platform/using/privacy-management.md).
 
@@ -48,7 +48,7 @@ Adobe Campaign offers Data Controllers tools to create and process Privacy reque
 
 It is therefore your responsibility as a Data Controller to confirm the identity of the Data Subject making the request and to confirm that the data returned to the requester is about the Data Subject.
 
-### Install the Privacy package {#install-privacy-package}
+### Installing the Privacy package {#install-privacy-package}
 
 In order to use this feature, you need to install the **[!UICONTROL Privacy Data Protection Regulation]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** > **[!UICONTROL Adobe Campaign Package]** menu. For more information on how to install packages, refer to the [detailed documentation](../../installation/using/installing-campaign-standard-packages.md).
 
@@ -77,7 +77,7 @@ Before creating Privacy requests, you need to define the namespace you will use.
 
 Three namespaces are available out-of-the-box: email, phone and mobile phone. If you need a different namespace (a recipient custom field, for example), you can create a new one from **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
 
-## Create a privacy request {#create-privacy-request-ui}
+## Creating a privacy request {#create-privacy-request-ui}
 
 The **Adobe Campaign interface** allows you to create your Privacy requests and track their evolution. To create a new Privacy request, follow these instructions:
 
