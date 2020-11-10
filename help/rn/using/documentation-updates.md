@@ -19,6 +19,8 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 ## November 2020 {#nov-2020}
 
+[Campaign 20.2.3 release](../../rn/using/release--20-2.md#release-20-2-3-build-9182) has moved to General Availability (GA).
+
 The Privacy section has been moved and enriched with two new sections: [Privacy management](../../platform/using/privacy-management.md) and [Managing privacy requests](../../platform/using/privacy-requests.md).
 
 ## October 2020 {#oct-2020}

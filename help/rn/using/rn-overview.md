@@ -25,13 +25,13 @@ A status is associated to each build. You'll find below the list of statuses and
 
 ![](assets/do-not-localize/green3.png) **General Availability** (GA) - Validated in production and recommended by Adobe. 
 
-The **last GA build** is Gold Standard 10. Click [here](../../rn/using/gold-standard.md#gs-10)
+The **last GA builds** are: [Gold Standard 10 release](../../rn/using/gold-standard.md#gs-10) and [Campaign 20.2.3 release](../../rn/using/release--20-2.md#release-20-2-3-build-9182)
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest version with new capabilities.
 
-The **last RC build** is Campaign Classic 20.3. Click [here](../../rn/using/latest-release.md)
+The **last RC build** is [Campaign Classic 20.3 release](../../rn/using/latest-release.md)
 
 ![](assets/do-not-localize/orange3.png) **No longer available** - Update to a newer build is required.
 

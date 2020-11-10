@@ -15,7 +15,7 @@ discoiquuid: 0c33fd79-8fa5-4cc0-8881-c6d6f4ee1648
 
 # Editing forms{#editing-forms}
 
-The input form creation and configuration screen is accessible from the **[!UICONTROL Administration > Configuration > Input forms]** folder of the Adobe Campaign client console:
+The input form creation and configuration screen is accessible from the **[!UICONTROL Administration] > [!UICONTROL Configuration] > [!UICONTROL Input forms]** folder of the Adobe Campaign client console:
 
 ![](assets/d_ncs_integration_form_arbo.png)
 
