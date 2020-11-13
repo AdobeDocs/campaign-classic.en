@@ -1,21 +1,88 @@
 ---
-title: Appendices
-seo-title: FDA Appendices
-description: FDA Appendices
-seo-description: 
+title: Configure access to Teradata
+description: Learn how to configure access to Teradata in FDA
 page-status-flag: never-activated
-uuid: 2596fabc-679a-45c8-a62a-165c221654b7
+uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
+discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 ---
 
-# Appendices {#fda-appendices}
+# Configure access to Teradata {#configure-access-to-teradata}
 
-## Teradata additional configurations {#teradata-configuration}
+Use Campaign [Federated Data Access](../../platform/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Teradata.
+
+1. Install and configure [Teradata drivers](#teradata-config)
+1. Configure the Teradata [external account](#teradata-external) in Campaign
+
+## Teradata configuration {#teradata-config}
+
+Connecting to a Teradata external database in FDA requires certain additional configurations on the Adobe Campaign server. For more information on how to configure your Teradata database, refer to [this section](#teradata-additional-configurations).
+
+1. Install the [ODBC driver for Teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
+
+   It is made up of three packages that can be installed on Red Hat (or CentOS)/Suse in the following order:
+
+    * TeraGSS
+    * tdicu1510 (install it using setup_wrapper.sh)
+    * tdodbc1510 (install it using setup_wrapper.sh)
+
+1. Configure the ODBC driver. The configuration can be carried out in the standard files: **/etc/odbc.ini** for general parameters and /etc/odbcinst.ini for declaring drivers:
+
+    * **/etc/odbc.ini**
+
+      ```
+      [ODBC]
+      InstallDir=/etc/
+      ```
+
+      "InstallDir" corresponds to the location of the **odbcinst.ini** file.
+
+    * **/etc/odbcinst.ini**
+
+      ```
+      [ODBC DRIVERS]
+      teradata=Installed
+
+      [teradata]
+      Driver=/opt/teradata/client/15.10/lib64/tdata.so
+      APILevel=CORE
+      ConnectFunctions=YYY
+      DriverODBCVer=3.51
+      SQLLevel=1
+      ```
+
+1. Specify the environment variables of the Adobe Campaign server:
+
+    * **LD_LIBRARY_PATH**: /opt/teradata/client/15.10/lib64 and /opt/teradata/client/15.10/odbc_64/lib.
+    * **ODBCINI**: location of the odbc.ini file (for example /etc/odbc.ini).
+    * **NLSPATH**: location of the opermsgs.cat file (/opt/teradata/client/15.10/msg/opermsgs.cat)
+
+## Teradata external account{#teradata-external}
+
+The Teradata external account allows you to connect your Campaign instance to your Teradata external database.
+
+1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+
+1. Click **[!UICONTROL New]** and select **[!UICONTROL External database]** as **[!UICONTROL Type]**.
+
+1. To configure the **[!UICONTROL Teradata]** external account, you must specify:
+
+     * **[!UICONTROL Type]**: Teradata
+
+    * **[!UICONTROL Server]**: URL of the Teradata server
+
+    * **[!UICONTROL Account]**: Name of the user
+
+    * **[!UICONTROL Password]**: User account password
+
+    * **[!UICONTROL Database]**: Name of the database
+
+
+## Additional configurations {#teradata-additional-configurations}
 
 ### Compatibility {#teradata-compatibility}
 
@@ -26,7 +93,7 @@ discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
 | 15  |  15 |  Campaign Classic 17.9 | Under Linux: Queries with timestamp may fail (fixed in build 8937 for 18.4 and 8977 for 18.10) In debug mode, warnings relative to bad memory usage in the driver may occur. |
 | 15  | 16  | Campaign Classic 17.9  | Recommended setup for a Teradata 15 database under Linux.  |
 |  16 | 16  | Campaign Classic 18.10 |  Unicode characters with surrogate pairs are not fully handled. Using surrogate characters in data should work. Using surrogates in a filtering condition of a query will not work without this change. |
-| 16  |  15 |  not supported |  &nbsp; |
+| 16  |  15 |  Campaign Classic 19.0 |  &nbsp; |
 
 **Based in Latin1**
 
@@ -172,14 +239,6 @@ To install Tools:
 
 1. A libtelapi.so file should be available in /opt/teradata/client/16.20/lib64.
 
-#### Driver configuration {#driver-configuration}
-
-To learn more on driver configuration, refer to this [section](../../platform/using/legacy-connectors.md#configure-access-to-teradata).
-
-#### Environment variables {#environment-varaiables}
-
-To learn more on the environment variables of the Adobe Campaign server, refer to this [section](../../platform/using/legacy-connectors.md#configure-access-to-teradata).
-
 ### Campaign server configuration for Windows {#campaign-server-windows}
 
 You first need to download Teradata Tools and utilities for Windows. You can download it from this [page](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-windows-installation-package)
@@ -217,42 +276,3 @@ When using bulk load, or "fast load" in Teradata documents, Campaign can't indic
 ```
 MODIFY USER $login$ AS TIME ZONE = 'Europe Central';
 ```
-
-## MySQL 5.7 configuration {#mysql-57-configuration}
-
-### Server configuration {#server-configuration-mysql}
-
-The server configuration does not require any specific installation steps. Adobe Campaign should work with a latin1 database, default on MySQL, or an unicode database.
-
-### Driver installation {#driver-installation-mysql}
-
-#### Debian {#debian-mysql}
-
-Download mysql-apt-config.deb from this [page](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en).
-
-Install the client library:
-
-```
-$ dpkg -i mysql-apt-config_*_all.deb # choose mysql-5.7 in the configuration menu
-$ apt update
-$ apt install libmysqlclient20
-```
-
-#### Windows {#windows-mysql}
-
-Download the C connector from this [page](https://dev.mysql.com/downloads/connector/c). We recommend downloading version 5.7.
-
-Make sure the directory that contains libmysqlclient.dll is added to the PATH environment variable that nlserver will use.
-
-#### CentOS {#centos-mysql}
-
-Download mysql57-community-release.noarch.rpm from this [page](https://dev.mysql.com/downloads/repo/yum).
-
-Install the client library:
-
-$ yum install mysql57-community-release-el7-9.noarch.rpm
-$ yum install mysql-community-libs
-
-### External account configuration {#external-account-mysql}
-
-The external account configuration does not require any specific steps. Make sure the time zone and Use unicode data are set according to your database.

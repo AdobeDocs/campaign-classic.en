@@ -11,54 +11,62 @@ topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 ---
 
-# About Federated Data Access {#about-federated-data-access}
+# Get Started with Federated Data Access {#about-federated-data-access}
 
 Adobe Campaign provides the **Federated Data Access** (FDA) option in order to process information stored in one or more external databases: you can access external data without changing the structure of Adobe Campaign data.
 
->[!CAUTION]
->
->Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the Snowflake connectors. For more on this, refer [to this page](../../installation/using/capability-matrix.md).
-
-## Operating principle {#operating-principle}
+## Prerequisites {#operating-principle}
 
 The FDA option allows you to extend your data model in a third-party database. It will automatically detect the structure of the targeted tables and use data from the SQL sources.
 
-In order to use this functionality, you have to:
+In order to use this capability, prerequisites are listed below:
 
-1. Have an external database that is compatible with the Adobe Campaign FDA module. The list of database systems and compatible versions is detailed in the [compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html). Users must also have the [necessary permissions](../../platform/using/remote-database-access-rights.md) in Adobe Campaign and on the external database.
-1. [Install the drivers](../../platform/using/specific-configuration-database.md) that correspond to your database on the Adobe Campaign server.
-1. [Create and configure an external account](../../platform/using/connecting-to-database.md) that allows you to establish the connection between Adobe Campaign and the external database. For more information on available external accounts, refer to this [page](../../platform/using/external-accounts.md).
-1. [Create the schema](../../platform/using/creating-data-schema.md) of the external database in Adobe Campaign. This allows you to recognize the data structure of the external database.
-1. Eventually, [Create a new target mapping](../../platform/using/defining-data-mapping.md) from the previously created schema, in the case where the recipients of your deliveries come from the external database. This presents certain limitations, particularly in regard to personalizing the deliveries.
+* **Configuration**: except for Snowflake, you need an **on-premise** or **hybrid** hosting model to set up Federated Data Access. [Learn more](../../installation/using/hosting-models.md)
+* **External database version**: you need to have an external database that is compatible with the Adobe Campaign FDA module. The list of database systems and compatible versions is detailed in the [compatibility matrix](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA). 
+* **Permissions**: users must also have the [necessary permissions](../../platform/using/remote-database-access-rights.md) in Adobe Campaign and on the external database.
 
-Once the data schema is created, data can be processed in Adobe Campaign workflows. For more on this, refer to [this section](../../workflow/using/accessing-an-external-database--fda-.md).
+## Limitations {#limitations}
 
-## Available external databases {#external-database}
-
-You can find below the list of every external database compatible with the Adobe Campaign FDA module:
-
-* Microsoft Azure Synapse Analytics. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#azure-external).
-* Snowflake. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
-* Hadoop. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3).
-* Oracle. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-oracle).
-* Netezza. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-netezza).
-* Sybase IQ. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-sybase-iq).
-* Teradata. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).
-* SAP HANA. For more on this, refer to this [section](../../platform/using/specific-configuration-database.md).
-
-## Best practices and recommendations {#best-practices-and-recommendations}
-
-The FDA option is made to manipulate the data in external databases in batch mode in workflows. Using the FDA in another context, for example for unitary operations, must be carried out with precaution (Personalization, Interaction, real-time deliveries, etc.).
+The FDA option is made to manipulate the data in external databases in batch mode in workflows. To avoid performance issues, it is not recommended to use the FDA module in the context of unitary operations, such as: personalization, interaction, real-time messaging, etc.
 
 Avoid the operations that need to use both the Adobe Campaign and the external database as much as possible. To do this, you can:
 
 * Export the Adobe Campaign database to the external database and execute the operations only from the external database before re-importing the results into Adobe Campaign.
+
 * Collect the data from the external Adobe Campaign database and execute the operations locally.
 
 If you want to carry out personalization in your deliveries using data from the external database, collect the data to use in a workflow to make it available in a temporary table. Then use the data from the temporary table to personalize your delivery.
 
-## Limitations {#limitations}
+The FDA option is subject to the limitations of the external database system that you use.
 
-The FDA option is subjected to the limitation soft the external database system that you use.
+## Recommendations {#recommendations}
 
-For performance reasons, we do not advise using this functionality for carrying out unitary operations (delivery personalization, Interaction module, real time).
+### Create temporary schemas {#create-temporary-schemas}
+
+You can manage several accesses to an FDA Greenplum external database. A dedicated option lets you create a working schema directly when configuring an external account.
+
+![](assets/fda_work_table.png)
+
+>[!NOTE]
+>
+>This option is only available with PostgreSQL Greenplum.
+
+### Optimize email personalization with external data {#optimizing-email-personalization-with-external-data}
+
+Starting build 8740, the **[!UICONTROL Prepare the personalization data with a workflow]** option is available in the **[!UICONTROL Analysis]** tab of the delivery properties.
+
+During the delivery analysis, this option automatically creates and executes a workflow that stores all of the data linked to the target in a temporary table, including data from tables linked in FDA.
+
+By checking this option, you can achieve a significant increase in performance for executing personalization.
+
+### Use data from an external database in a workflow {#using-data-from-an-external-database-in-a-workflow}
+
+In several Adobe Campaign workflow activities, you can use the data stored in an external database.
+
+* **Filter on external data** -  The [Query](../../workflow/using/targeting-data.md#selecting-data) activity allows you to add external data and use it in the defined filter configurations. For more on this, refer to [this page](../../workflow/using/targeting-data.md#selecting-data).
+
+* **Create sub-sets** - The [Split](../../workflow/using/split.md) activity allows you to create sub-sets. You can use external data to define the filtering criteria to use. For more on this, refer to [this page](../../workflow/using/split.md).
+
+* **Load external database** - You can use the external data in the [Data loading](../../workflow/using/data-loading--rdbms-.md) (RDBMS) activity. Learn more in [this page](../../workflow/using/data-loading--rdbms-.md).
+
+* **Adding information and links** - The [Enrichment](../../workflow/using/enrichment.md) activity lets you to add additional data to the workflow's worktable as well as links to an external table. For this reason, it can use data from an external database. Learn more in [this page](../../workflow/using/enrichment.md).

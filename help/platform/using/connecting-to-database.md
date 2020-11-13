@@ -1,8 +1,6 @@
 ---
 title: Accessing an external database
-seo-title: Accessing an external database
-description: Accessing an external database
-seo-description: 
+description: Learn how to connect to an external database
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
@@ -31,7 +29,7 @@ To enable a connection to a shared external database, as long as this connection
 1. Click the **[!UICONTROL New]** button and select the **[!UICONTROL External database]** type.
 1. Define the **[!UICONTROL Connection]** parameters of the external database.
 
-   For connections to an **ODBC** type database the **[!UICONTROL Server]** field must contain the name of the ODBC data source and not the server name. Moreover, certain additional configurations may be necessary depending on the databases used. Refer to the [Specific configurations by database type](../../platform/using/specific-configuration-database.md) section.
+   For connections to an **ODBC** type database the **[!UICONTROL Server]** field must contain the name of the ODBC data source and not the server name. Moreover, certain additional configurations may be necessary depending on the databases used. Refer to the [Specific configurations by database type](../../platform/using/configure-fda.md) section.
 
 1. Once the parameters are entered, click the **[!UICONTROL Test the connection]** button to approve them.
 

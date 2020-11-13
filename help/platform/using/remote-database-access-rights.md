@@ -1,8 +1,6 @@
 ---
-title: Accessing an external database
-seo-title: Accessing an external database
-description: Accessing an external database
-seo-description: 
+title: Permissions for accessing an external database
+description: External database access permissions
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat

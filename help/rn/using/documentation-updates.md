@@ -141,7 +141,7 @@ The Experience Cloud Triggers and Adobe Campaign Classic integration page has be
 
 Support of Emoticons - [Read more](../../delivery/using/customizing-emoticon-list.md)
 
-Azure Synapse FDA Connector - [Read more](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse)
+Azure Synapse FDA Connector - [Read more](../../platform/using/configure-fda-synapse.md)
 
 Thailand and Brazil Privacy Laws - [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
@@ -226,9 +226,9 @@ The Email archiving section has been improved. [Read more](../../installation/us
 
 **New capabilities included in 20.1 release**
 
-Snowflake FDA Connector - [Read more](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)
+Snowflake FDA Connector - [Read more](../../platform/using/configure-fda-snowflake.md)
 
-Hadoop FDA Connector Enhancements - [Read more](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3)
+Hadoop FDA Connector Enhancements - [Read more](../../platform/using/configure-fda-hadoop.md)
 
 **Other documentation updates coming with the release**
 

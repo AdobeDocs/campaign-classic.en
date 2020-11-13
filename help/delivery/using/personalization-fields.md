@@ -79,7 +79,7 @@ You can optimize personalization using a dedicated option: **[!UICONTROL Prepare
 
 During the delivery analysis, this option automatically creates and executes a workflow that stores all of the data linked to the target in a temporary table, including data from tables linked in FDA.
 
-Checking this option can highly improve the delivery analysis performance when a lot of data are being processed, especially if the personalization data come from an external table through FDA. For more on this, see [Accessing an external database (FDA)](../../platform/using/additional-options.md#optimizing-email-personalization-with-external-data).
+Checking this option can highly improve the delivery analysis performance when a lot of data are being processed, especially if the personalization data come from an external table through FDA. For more on this, see [Accessing an external database (FDA)](../../platform/using/about-fda.md).
 
 For example, if you are experiencing performance issues when delivering to a high number of recipients while using a lot of personalization fields and/or personalization blocks in the content of your messages, this option can accelerate the handling of personalization and therefore the delivering of your messages.
 

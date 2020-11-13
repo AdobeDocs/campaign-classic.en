@@ -1,8 +1,6 @@
 ---
-title: Legacy connectors
-seo-title: Legacy connectors
-description: Legacy connectors
-seo-description: 
+title: Configure access to SAP HANA
+description: Learn how to configure access to SAP HANA in FDA
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
@@ -13,8 +11,14 @@ topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 ---
 
+# Configure access to SAP HANA {#configure-access-to-sap-hana}
 
-## Configure access to SAP HANA {#configure-access-to-sap-hana}
+Use Campaign [Federated Data Access](../../platform/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to SAP HANA.
+
+1. Configure [SAP HANA database](#sap-config)
+1. Configure the SAP HANA [external account](#sap-external) in Campaign
+
+## SAP HANA drivers {#sap-config}
 
 Connecting to an SAP HANA external database in FDA requires certain additional configurations on the Adobe Campaign server:
 
@@ -52,7 +56,11 @@ Connecting to an SAP HANA external database in FDA requires certain additional c
     * **LD_LIBRARY_PATH**: It should include the link to your SAP Hana client (/usr/sap/hdbclient/libodbcHDB.so) by default).
     * **ODBCINI**: location of the odbc.ini file (for example /etc/odbc.ini).
 
-1. In Campaign Classic, you can then configure your SAP Hana external account. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+## SAP HANA external account{#sap-external}
+
+The SAP HANA external account allows you to connect your Campaign instance to your SAP HANA external database.
+
+1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** '>' **[!UICONTROL Platform]** '>' **[!UICONTROL External accounts]**.
 
 1. Click **[!UICONTROL New]** and select **[!UICONTROL External database]** as **[!UICONTROL Type]**.
 
