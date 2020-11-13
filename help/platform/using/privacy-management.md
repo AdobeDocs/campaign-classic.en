@@ -17,7 +17,7 @@ Adobe Campaign offers a set of tools to help you comply with Privacy regulations
 
 * This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
-* It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.
+* It also contains information on important features to manage Privacy ([Consent, Retention and Roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.
 
 ## Regulations on privacy management {#privacy-management-regulations}
 
@@ -67,7 +67,7 @@ The features to help manage some aspects of consent have been core to Adobe Camp
 
 For more on Consent management, refer to the [detailed documentation](../../delivery/using/managing-subscriptions.md).
 
-In addition to the Consent Management tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the sale of Personal Information. Refer to [this section](../../platform/using/privacy-requests.md#sale-of-personal-information).
+In addition to the Consent Management tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the sale of Personal Information. Refer to [this section](../../platform/using/privacy-requests.md##sale-of-personal-information-ccpa).
 
 ### Data retention {#data-retention}
 
