@@ -76,7 +76,7 @@ type: Documentation
        + [Working with data packages](platform/using/working-with-data-packages.md)
        + [Managing enumerations](platform/using/managing-enumerations.md)
        + [External accounts](platform/using/external-accounts.md)
-  + Accessing an external database (FDA){#accessing-external-database}
+  + Accessing an external database {#accessing-external-database}
        + [Get started with FDA](platform/using/about-fda.md)
        + [Configuring FDA connectors](platform/using/configure-fda.md)
           + [Snowflake](platform/using/configure-fda-snowflake.md)
@@ -87,7 +87,7 @@ type: Documentation
           + [Sybase IQ](platform/using/configure-fda-sybase.md)
           + [Teradata](platform/using/configure-fda-teradata.md)
           + [SAP HANA](platform/using/configure-fda-sap-hana.md)
-       + [Remote database access rights](platform/using/remote-database-access-rights.md)
+       + [Remote access rights](platform/using/remote-database-access-rights.md)
        + [Connecting to the database](platform/using/connecting-to-database.md)
        + [Creating the data schema](platform/using/creating-data-schema.md)
        + [Defining data mapping](platform/using/defining-data-mapping.md)

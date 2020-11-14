@@ -43,7 +43,7 @@ The FDA option is subject to the limitations of the external database system tha
 
 ### Create temporary schemas {#create-temporary-schemas}
 
-You can manage several accesses to an FDA Greenplum external database. A dedicated option lets you create a working schema directly when configuring an external account.
+You can manage several accesses to Greenplum external database throuhgh FDA. A dedicated option lets you create a working schema directly when configuring the external account.
 
 ![](assets/fda_work_table.png)
 
@@ -53,15 +53,15 @@ You can manage several accesses to an FDA Greenplum external database. A dedicat
 
 ### Optimize email personalization with external data {#optimizing-email-personalization-with-external-data}
 
-Starting build 8740, the **[!UICONTROL Prepare the personalization data with a workflow]** option is available in the **[!UICONTROL Analysis]** tab of the delivery properties.
+You can pre-process message personalization in a dedicated workflow. To perform this, use the **[!UICONTROL Prepare the personalization data with a workflow]** option, available in the **[!UICONTROL Analysis]** tab of the delivery properties.
 
-During the delivery analysis, this option automatically creates and executes a workflow that stores all of the data linked to the target in a temporary table, including data from tables linked in FDA.
+During the delivery analysis, this option automatically creates and executes a workflow that stores all of the data linked to the target in a temporary table, including data from tables linked in an external database.
 
-By checking this option, you can achieve a significant increase in performance for executing personalization.
+This option significantly improves performances when executing the personalization step.
 
 ### Use data from an external database in a workflow {#using-data-from-an-external-database-in-a-workflow}
 
-In several Adobe Campaign workflow activities, you can use the data stored in an external database.
+In multiple Adobe Campaign workflow activities, you can use the data stored in an external database.
 
 * **Filter on external data** -  The [Query](../../workflow/using/targeting-data.md#selecting-data) activity allows you to add external data and use it in the defined filter configurations. For more on this, refer to [this page](../../workflow/using/targeting-data.md#selecting-data).
 
@@ -69,4 +69,4 @@ In several Adobe Campaign workflow activities, you can use the data stored in an
 
 * **Load external database** - You can use the external data in the [Data loading](../../workflow/using/data-loading--rdbms-.md) (RDBMS) activity. Learn more in [this page](../../workflow/using/data-loading--rdbms-.md).
 
-* **Adding information and links** - The [Enrichment](../../workflow/using/enrichment.md) activity lets you to add additional data to the workflow's worktable as well as links to an external table. For this reason, it can use data from an external database. Learn more in [this page](../../workflow/using/enrichment.md).
+* **Adding information and links** - The [Enrichment](../../workflow/using/enrichment.md) activity lets you to add additional data to the worktable of the workflow, and links to an external table. In this context, it can use data from an external database. Learn more in [this page](../../workflow/using/enrichment.md).
