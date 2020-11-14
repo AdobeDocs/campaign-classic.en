@@ -13,7 +13,7 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 
 # Configure access to Teradata {#configure-access-to-teradata}
 
-Use Campaign [Federated Data Access](../../platform/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Teradata.
+Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Teradata.
 
 1. Install and configure [Teradata drivers](#teradata-config)
 1. Configure the Teradata [external account](#teradata-external) in Campaign

@@ -76,22 +76,6 @@ type: Documentation
        + [Working with data packages](platform/using/working-with-data-packages.md)
        + [Managing enumerations](platform/using/managing-enumerations.md)
        + [External accounts](platform/using/external-accounts.md)
-  + Accessing an external database {#accessing-external-database}
-       + [Get started with FDA](platform/using/about-fda.md)
-       + Configuration guidelines {#config-databases}
-          + [Configuration steps](platform/using/configure-fda.md)
-          + [Configure Snowflake](platform/using/configure-fda-snowflake.md)
-          + [Configure Azure Synapse](platform/using/configure-fda-synapse.md)
-          + [Configure Hadoop](platform/using/configure-fda-hadoop.md)
-          + [Configure Oracle](platform/using/configure-fda-oracle.md)
-          + [Configure Netezza](platform/using/configure-fda-netezza.md)
-          + [Configure Sybase IQ](platform/using/configure-fda-sybase.md)
-          + [Configure Teradata](platform/using/configure-fda-teradata.md)
-          + [Configure SAP HANA](platform/using/configure-fda-sap-hana.md)
-       + [Remote access rights](platform/using/remote-database-access-rights.md)
-       + [Connecting to the database](platform/using/connecting-to-database.md)
-       + [Creating the data schema](platform/using/creating-data-schema.md)
-       + [Defining data mapping](platform/using/defining-data-mapping.md)
   + Connectors {#connectors}
        + [About connectors](platform/using/about-connectors.md)
        + [CRM Connectors](platform/using/crm-connectors.md)
@@ -584,7 +568,7 @@ type: Documentation
   + Annexes {#annexes}
        + [Examples of Facebook apps](social/using/examples-of-facebook-apps.md)
        + [Tracking](social/using/tracking.md)
-+ Installing Campaign Classic {#installing-campaign-classic}
++ Installation and configuration guide {#installing-campaign-classic}
   + Architecture principles {#architecture-and-hosting-models}
        + [General architecture](installation/using/general-architecture.md)
        + Hosting models{#hosting-models-lp}
@@ -632,6 +616,22 @@ type: Documentation
        + [Configuring SpamAssassin](installation/using/configuring-spamassassin.md)
        + [Mid-sourcing server](installation/using/mid-sourcing-server.md)
        + [Interaction - Data buffer](installation/using/interaction---data-buffer.md)
+  + Accessing an external database {#accessing-external-database}
+       + [Get started with FDA](platform/using/about-fda.md)
+       + Configuration guidelines {#config-databases}
+          + [Configuration steps](installation/using/configure-fda.md)
+          + [Configure Snowflake](installation/using/configure-fda-snowflake.md)
+          + [Configure Azure Synapse](installation/using/configure-fda-synapse.md)
+          + [Configure Hadoop](installation/using/configure-fda-hadoop.md)
+          + [Configure Oracle](installation/using/configure-fda-oracle.md)
+          + [Configure Netezza](installation/using/configure-fda-netezza.md)
+          + [Configure Sybase IQ](installation/using/configure-fda-sybase.md)
+          + [Configure Teradata](installation/using/configure-fda-teradata.md)
+          + [Configure SAP HANA](installation/using/configure-fda-sap-hana.md)
+       + [Remote access rights](installation/using/remote-database-access-rights.md)
+       + [Connecting to the database](installation/using/connecting-to-database.md)
+       + [Creating the data schema](installation/using/creating-data-schema.md)
+       + [Defining data mapping](installation/using/defining-data-mapping.md)
   + Appendices {#appendices}
        + [Server configuration file](installation/using/the-server-configuration-file.md)
        + [Campaign network endpoints](installation/using/campaign-network-endpoints.md)
@@ -639,7 +639,7 @@ type: Documentation
        + [Creating new instances](installation/using/creating-new-instances.md)
        + [List of Campaign options](installation/using/configuring-campaign-options.md)
        + [Uninstalling Campaign](installation/using/uninstalling-campaign.md)
-+ Monitoring Campaign Classic {#monitoring-campaign-classic}
++ Monitoring guide {#monitoring-campaign-classic}
   + Introduction {#introduction}
        + [Foreword](production/using/foreword.md)
        + [General architecture](production/using/general-architecture.md)
@@ -687,7 +687,7 @@ type: Documentation
        + [Console update](production/using/console-update.md)
        + [Lost password](production/using/lost-password.md)
        + [JSP behavior](production/using/jsp-behavior.md)
-+ Configuring Campaign Classic {#configuring-campaign-classic}
++ Developers guide {#configuring-campaign-classic}
   + Data model {#data-model}
        + [About the data model](configuration/using/about-data-model.md)
        + [Data model description](configuration/using/data-model-description.md)
@@ -745,7 +745,7 @@ type: Documentation
        + [Inserting tags in your site](configuration/using/inserting-tags-in-your-site.md)
        + [Collecting all visits](configuration/using/collecting-all-visits.md)
        + [Anonymous tracking](configuration/using/anonymous-tracking.md)
-+ Migrating to a new version {#migrating-to-a-new-version}
++ Migration guide {#migrating-to-a-new-version}
   + Migration overview {#migration-overview}
        + [About migration](migration/using/about-migration.md)
        + [Migration method](migration/using/migration-method.md)

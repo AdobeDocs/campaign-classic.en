@@ -13,7 +13,7 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 
 # Configure access to Netezza {#configure-access-to-netezza}
 
-Use Campaign [Federated Data Access](../../platform/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Netezza.
+Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Netezza.
 
 1. Install and configure [Netezza drivers](#netezza-config)
 1. Configure the Netezza [external account](#netezza-external) in Campaign

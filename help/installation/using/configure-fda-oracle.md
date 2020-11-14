@@ -13,7 +13,7 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 
 # Configure access to Oracle {#configure-access-to-oracle}
 
-Use Campaign [Federated Data Access](../../platform/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Oracle.
+Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Oracle.
 
 1. Configure Oracle on [Linux](#oracle-linux) or [Windows](#azure-windows)
 1. Configure the Oracle [external account](#oracle-external) in Campaign

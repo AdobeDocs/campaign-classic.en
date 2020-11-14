@@ -24,4 +24,4 @@ Multiple activities allow you to interact with data from an external database:
 * Enrichment
 * Data loading
 
-Use of the FDA option depends on your Adobe Campaign license. Configuring this option as well as the best practices and limitations linked to using it are detailed in this [section](../../platform/using/about-fda.md).
+Use of the FDA option depends on your Adobe Campaign license. Configuring this option as well as the best practices and limitations linked to using it are detailed in this [section](../../installation/using/about-fda.md).

@@ -13,7 +13,7 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 
 # Configure access to SAP HANA {#configure-access-to-sap-hana}
 
-Use Campaign [Federated Data Access](../../platform/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to SAP HANA.
+Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to SAP HANA.
 
 1. Configure [SAP HANA database](#sap-config)
 1. Configure the SAP HANA [external account](#sap-external) in Campaign

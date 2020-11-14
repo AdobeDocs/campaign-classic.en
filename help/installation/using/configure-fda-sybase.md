@@ -22,7 +22,9 @@ Use Campaign **Federated Data Access** (FDA) option to process information store
 
 Connecting to a Sybase IQ external database in FDA requires additional configurations below on the Adobe Campaign server.
 
-1. Make sure the unixodbc package is on the server.
+>[!NOTE]
+>
+>Before starting, make sure the **unixodbc** package is on the server.
 
 1. Install **iq_odbc**. An error can occur at the end of the installation. This error can be ignored.
 

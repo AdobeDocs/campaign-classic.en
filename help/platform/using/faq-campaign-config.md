@@ -52,7 +52,7 @@ Campaign lets you set up approval processes for the main steps of the marketing 
 
 Adobe Campaign provides the Federated Data Access (FDA) option in order to process information stored in one or more external databases: you can access external data without changing the structure of Adobe Campaign data.
 
-[Click here to learn more](../../platform/using/connecting-to-database.md).
+[Click here to learn more](../../installation/using/connecting-to-database.md).
 
 ## Which external databases can I connect Campaign to? {#which-external-databases-can-i-connect-campaign-to-}
 

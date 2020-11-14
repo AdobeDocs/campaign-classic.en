@@ -23,7 +23,7 @@ In order to use this capability, prerequisites are listed below:
 
 * **Configuration**: except for Snowflake, you need an **on-premise** or **hybrid** hosting model to set up Federated Data Access. [Learn more](../../installation/using/hosting-models.md)
 * **External database version**: you need to have an external database that is compatible with the Adobe Campaign FDA module. The list of database systems and compatible versions is detailed in the [compatibility matrix](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA). 
-* **Permissions**: users must also have the [necessary permissions](../../platform/using/remote-database-access-rights.md) in Adobe Campaign and on the external database.
+* **Permissions**: users must also have the [necessary permissions](../../installation/using/remote-database-access-rights.md) in Adobe Campaign and on the external database.
 
 ## Limitations {#limitations}
 

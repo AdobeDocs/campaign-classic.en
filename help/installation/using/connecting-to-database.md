@@ -17,7 +17,7 @@ To enable a connection to the external database, you must indicate the connectio
 
 >[!CAUTION]
 >
->The Adobe Campaign user needs specific rights for the external database and the Adobe Campaign application server to process data from an external database. For more on this, refer to the [Remote database access rights](../../platform/using/remote-database-access-rights.md) section.
+>The Adobe Campaign user needs specific rights for the external database and the Adobe Campaign application server to process data from an external database. For more on this, refer to the [Remote database access rights](../../installation/using/remote-database-access-rights.md) section.
 >
 >To avoid any malfunction, operators who access remote shared data must be working from separate spaces.
 
@@ -29,7 +29,7 @@ To enable a connection to a shared external database, as long as this connection
 1. Click the **[!UICONTROL New]** button and select the **[!UICONTROL External database]** type.
 1. Define the **[!UICONTROL Connection]** parameters of the external database.
 
-   For connections to an **ODBC** type database the **[!UICONTROL Server]** field must contain the name of the ODBC data source and not the server name. Moreover, certain additional configurations may be necessary depending on the databases used. Refer to the [Specific configurations by database type](../../platform/using/configure-fda.md) section.
+   For connections to an **ODBC** type database the **[!UICONTROL Server]** field must contain the name of the ODBC data source and not the server name. Moreover, certain additional configurations may be necessary depending on the databases used. Refer to the [Specific configurations by database type](../../installation/using/configure-fda.md) section.
 
 1. Once the parameters are entered, click the **[!UICONTROL Test the connection]** button to approve them.
 

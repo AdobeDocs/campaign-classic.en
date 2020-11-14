@@ -366,7 +366,7 @@ For join relations using Federated Database Access:
 * ![](assets/join_fda_11.png) : Cardinality 1-1
 * ![](assets/join_fda_1m.png) : Cardinality 1-N
 
-For more information on FDA tables, refer to [Accessing an external database](../../platform/using/about-fda.md).
+For more information on FDA tables, refer to [Accessing an external database](../../installation/using/about-fda.md).
 
 A link must be declared in the schema containing the foreign key of the table linked via the main element:
 

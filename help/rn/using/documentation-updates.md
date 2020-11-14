@@ -141,7 +141,7 @@ The Experience Cloud Triggers and Adobe Campaign Classic integration page has be
 
 Support of Emoticons - [Read more](../../delivery/using/customizing-emoticon-list.md)
 
-Azure Synapse FDA Connector - [Read more](../../platform/using/configure-fda-synapse.md)
+Azure Synapse FDA Connector - [Read more](../../installation/using/configure-fda-synapse.md)
 
 Thailand and Brazil Privacy Laws - [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
@@ -182,7 +182,7 @@ The Data package best practices section has been moved and updated. [Read more](
 
 ## April 2020 {#april-2020}
 
-The FDA rights table has been moved to the Accessing an external database (FDA) documentation. [Read more](../../platform/using/remote-database-access-rights.md)
+The FDA rights table has been moved to the Accessing an external database (FDA) documentation. [Read more](../../installation/using/remote-database-access-rights.md)
 
 The FAQ has been updated with tips on how to clear soft and hard cache. [Read more](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)
 
@@ -226,9 +226,9 @@ The Email archiving section has been improved. [Read more](../../installation/us
 
 **New capabilities included in 20.1 release**
 
-Snowflake FDA Connector - [Read more](../../platform/using/configure-fda-snowflake.md)
+Snowflake FDA Connector - [Read more](../../installation/using/configure-fda-snowflake.md)
 
-Hadoop FDA Connector Enhancements - [Read more](../../platform/using/configure-fda-hadoop.md)
+Hadoop FDA Connector Enhancements - [Read more](../../installation/using/configure-fda-hadoop.md)
 
 **Other documentation updates coming with the release**
 
@@ -286,7 +286,7 @@ An example of how to use an instance variable in a workflow has been added. [Rea
 
 The "WdbcOptions_TempDbName" option has been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
 
-The FDA matrix page has been moved [here](../../platform/using/remote-database-access-rights.md).
+The FDA matrix page has been moved [here](../../installation/using/remote-database-access-rights.md).
 
 The Access Rights Matrix page has been moved [here](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf).
 
