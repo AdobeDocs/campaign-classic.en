@@ -190,6 +190,7 @@ To configure Azure Synapse on Debian:
 ## Azure Synapse external account {#azure-external}
 
 The [!DNL Azure Synapse] external account allows you to connect your Campaign instance to your Azure Synapse external database.
+
 To create your [!DNL Azure Synapse] external account follow the steps below:
 
 1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** '>' **[!UICONTROL Platform]** '>' **[!UICONTROL External accounts]**.
@@ -197,6 +198,8 @@ To create your [!DNL Azure Synapse] external account follow the steps below:
 1. Click **[!UICONTROL New]**.
 
 1. Select **[!UICONTROL External database]** as your external account's **[!UICONTROL Type]**.
+
+    ![](assets/azure_1.png)
 
 1. Configure the [!DNL Azure Synapse] external account, you must specify:
 
@@ -210,4 +213,3 @@ To create your [!DNL Azure Synapse] external account follow the steps below:
 
     * **[!UICONTROL Database]**: Name of the database
 
-    ![](assets/azure_1.png)

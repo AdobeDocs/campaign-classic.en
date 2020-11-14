@@ -1,8 +1,6 @@
 ---
 title: External accounts
-seo-title: External accounts
 description: External accounts
-seo-description: 
 page-status-flag: never-activated
 uuid: e06e7a36-b449-4ab0-a4f6-fa82dbb8de11
 contentOwner: sauviat
@@ -15,7 +13,9 @@ discoiquuid: da60b9ca-4b51-4bff-affc-2b12c576973a
 
 # External accounts{#external-accounts}
 
-An external account is a configuration that allows you to configure and test the access to a server that is external to Adobe Campaign. These external accounts can be used in Campaign workflows to access and manage data.
+Adobe Campaign comes with a set of pre-defined external accounts. In order to set up connections with external systems, you can create new external accounts.
+
+External accounts are used by technical processes such as technical workflows or campaign workflows. When setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account.
 
 You can set up the following types of external accounts:
 
@@ -29,20 +29,15 @@ You can set up the following types of external accounts:
 * [SFTP external account](#sftp-external-account)
 * [Adobe Experience Manager external account](#adobe-experience-manager-external-account)
 * [Amazon Simple Storage Service (S3) external account](#amazon-simple-storage-service--s3--external-account)
-* [Azure external account](#azure-external-account)
-* [Hadoop external account](#hadoop-external-account)
 * [Microsoft Dynamics CRM external account](#microsoft-dynamics-crm-external-account)
 * [Oracle on demand external account](#oracle-on-demand-external-account)
 * [Salesforce CRM external account](#salesforce-crm-external-account)
 
 ## Creating an external account {#creating-an-external-account}
 
-Adobe Campaign comes with a set of pre-defined external accounts. In order to set up connections with external systems such as FTP servers used for file transfers, you can create your own external accounts.
+To create a new external account, follow the steps below. Detailed settings depend on the type of external account.
 
-External accounts are used by technical processes such as technical workflows or campaign workflows. When setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account.
-
-1. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
-1. Unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+1. From Campaign **[!UICONTROL Explorer]**, select **[!UICONTROL Administration]** '>' **[!UICONTROL Platform]** '>' **[!UICONTROL External accounts]**.
 
    ![](assets/ext_account_1.png)
 
@@ -50,16 +45,16 @@ External accounts are used by technical processes such as technical workflows or
 
    ![](assets/ext_account_2.png)
 
-1. Enter a **[!UICONTROL Label]** and **[!UICONTROL Internal Name]**. Both will be used when selecting external accounts in workflows.
-1. Check **[!UICONTROL Enabled]** if you want your connection to be enabled.
+1. Enter a **[!UICONTROL Label]** and an **[!UICONTROL Internal Name]**. 
 1. Select your external account **[!UICONTROL Type]** which one you want to create.
 1. Configure the access to the account by specifying credentials depending on the chosen external account type.
 
    The necessary information is usually provided by the provider of the server you are connecting to.
 
+1. Check the **[!UICONTROL Enabled]** option to activate the connection.
 1. Click **[!UICONTROL Save]**.
 
-The external account is created and added to the external accounts list. It is now available for your data/file transfers or routing configurations in workflow activities and delivery properties.
+The external account is created and added to the external accounts list. 
 
 ## Bounce mails external account {#bounce-mails-external-account}
 
@@ -141,99 +136,22 @@ To know where to locate these credentials, refer to this [page](https://help.dre
 
 ## External database external account {#external-database-external-account}
 
-Adobe Campaign provides several connectors that allow you to communicate with external applications and connect to database engines.
+Use the **External database** type external account to connect to external an database. Learn more about Federated Data Access (FDA) option in [this section](../../installation/using/about-fda.md).
+
+External databases compatible with Campaign are listed in the [Compatibility matrix](../../rn/using/compatibility-matrix.md)
 
 ![](assets/ext_account_11.png)
 
-The following connection types can be configured:
+External account configuration settings depend on the database engine. Learn more in the following sections:
 
-* Azure Synapse. For more information, refer to this [page](../../installation/using/configure-fda-synapse.md).
-* Oracle. For more information, refer to this [page](../../installation/using/configure-fda-oracle.md).
-* Netezza. For more information, refer to this [page](../../installation/using/configure-fda-netezza.md).
-* SAP HANA. For more information, refer to this [page](../../installation/using/configure-fda-sap-hana.md).
-* InfiniDB
-* Microsoft SQL server
-* AsterData
-* PostgreSQL
-* Teradata
-* DB2
-* Amazon Redshift
-* ODBC (Sybase ASE, Sybase IQ)
-* HTTP relay to remote database
-
-### Snowflake external account {#snowflake-external-account}
-
-The **Snowflake** external account allows you to connect your Campaign instance to your Snowflake external database. For more information on how to configure Campaign Classic with Snowflake, refer to this [page](../../installation/using/configure-fda-snowflake.md).
-
-To configure this external account to work with Adobe Campaign, you need to provide the following details:
-
-* **[!UICONTROL Server]**
-  
-      URL of the Snowflake server.
-
-* **[!UICONTROL Account]**
-
-      Name of the user.
-
-* **[!UICONTROL Password]**
-
-      User account password.
-
-* **[!UICONTROL Database]**
-
-      Name of your database.
-
-![](assets/snowflake.png)
-
-### Teradata external account {#teradata-external-account}
-
-The **Teradata** external account allows you to connect your Campaign instance to your Teradata external database. For more information on how to configure Campaign Classic with Teradata, refer to this [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) or this [section](../../installation/using/configure-fda-teradata.md).
-
-![](assets/ext_account_19.png)
-
-To configure this external account to work with Adobe Campaign, you need to provide the following details:
-
-* **[!UICONTROL Type]**
-
-  Choose the **[!UICONTROL Teradata]** type.
-
-* **[!UICONTROL Server]**
-
-  URL or name of your Teradata server.
-
-* **[!UICONTROL Account]**
-
-  Name of the account used to access the Teradata database.
-
-* **[!UICONTROL Password]**
-
-  Password used to connect to the Teradata database.
-
-* **[!UICONTROL Database]**
-
-  This field can be left empty.
-
-* **[!UICONTROL Options]**
-
-  Options to be passed through Teradata.
-
-* **[!UICONTROL Timezone]**
-
-  Timezone set in Teradata.
-
-![](assets/ext_account_20.png)
-
-When multiple Adobe Campaign users connect to the same FDA Teradata external account, the **[!UICONTROL Query banding]** tab allows you to set a query band, i.e. a set of key/value pairs, on a session.
-
-Each time a Campaign user performs a query on the Teradata database, Adobe Campaign will send meta data, which consists of a list of keys, associated to this user. This data can then be used by Teradata administrators for audit purposes or to manage access rights.
-
-Check the **[!UICONTROL Active]** box to activate this feature
-
-The **[!UICONTROL Default]** field lets you enter a default query band that will be used if a user has no associated query band. If this field is left empty, the users with no query band will not be able to use Teradata.
-
-The **[!UICONTROL Users]** field allows you to specify a query band for each user. You can add as many key/value pairs as you need e.g. priority=1;workload=high. If the user has no query band assigned, the **[!UICONTROL Default]** field will be applied.
-
-For more information on **[!UICONTROL Query banding]**, refer to the [Teradata documentation](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw).
+* Configure access to [Azure Synapse](../../installation/using/configure-fda-synapse.md)
+* Configure access to [Hadoop](../../installation/using/configure-fda-hadoop.md)
+* Configure access to [Oracle](../../installation/using/configure-fda-oracle.md)
+* Configure access to [Netezza](../../installation/using/configure-fda-netezza.md)
+* Configure access to [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
+* Configure access to [Snowflake](../../installation/using/configure-fda-snowflake.md)
+* Configure access to [Sybase IQ](../../installation/using/configure-fda-sybase.md)
+* Configure access to [Teradata](../../installation/using/configure-fda-teradata.md)
 
 ## Web Analytics external account {#web-analytics-external-account}
 
@@ -404,38 +322,6 @@ As you are setting up this new external account, you need to provide the followi
 * The **[!UICONTROL Use server side encryption]** checkbox allows you to store your file in S3 encrypted mode.
 
 To learn where to find the access key ID and secret access key, refer to Amazon Web services [documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
-
-## Azure external account {#azure-external-account}
-
-The **[!UICONTROL Azure]** external account enables a connection to a shared external database, as long as this connection is active, the database can be accessed via Adobe Campaign.
-
-![](assets/ext_account_15.png)
-
-* **[!UICONTROL Server]**
-
-  URL of the Azure server.
-
-* **[!UICONTROL Encryption]**
-
-  Type of chosen encryption between **[!UICONTROL None]** or **[!UICONTROL SSL]**.
-
-* **[!UICONTROL Access key]**
-
-  To know where to find your access key, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-manage) (section **View and copy access keys**).
-
-## Hadoop external account {#hadoop-external-account}
-
-The **[!UICONTROL Hadoop]** external account enables a connection to a shared external database, as long as this connection is active, the database can be accessed via Adobe Campaign. For more information on how to configure access to Hadoop, refer to this [section](../../installation/using/configure-fda-hadoop.md).
-
-![](assets/ext_account_16.png)
-
-* **[!UICONTROL Server]**
-
-  URL of the Hadoop server.
-
-* **[!UICONTROL User account name]**
-
-  Name of the account used to access Hadoop.
 
 ## Microsoft Dynamics CRM external account {#microsoft-dynamics-crm-external-account}
 

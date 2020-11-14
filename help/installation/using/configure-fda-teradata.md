@@ -17,10 +17,11 @@ Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA
 
 1. Install and configure [Teradata drivers](#teradata-config)
 1. Configure the Teradata [external account](#teradata-external) in Campaign
+1. Set up [additional configuration](#teradata-additional-configurations) for Teradata and Campaign server
 
 ## Teradata configuration {#teradata-config}
 
-Connecting to a Teradata external database in FDA requires certain additional configurations on the Adobe Campaign server. For more information on how to configure your Teradata database, refer to [this section](#teradata-additional-configurations).
+You need to install drivers for Teradata to have connection to Campaign implemented.
 
 1. Install the [ODBC driver for Teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
 
@@ -61,29 +62,69 @@ Connecting to a Teradata external database in FDA requires certain additional co
     * **ODBCINI**: location of the odbc.ini file (for example /etc/odbc.ini).
     * **NLSPATH**: location of the opermsgs.cat file (/opt/teradata/client/15.10/msg/opermsgs.cat)
 
+>[!NOTE]
+>
+>Connecting to a Teradata external database in FDA requires additional configurations steps on the Adobe Campaign server. [Learn more](#teradata-additional-configurations).
+>
+
 ## Teradata external account{#teradata-external}
 
-The Teradata external account allows you to connect your Campaign instance to your Teradata external database.
+The Teradata external account allows you to connect your Campaign instance to your Teradata external database. 
 
 1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. Click **[!UICONTROL New]** and select **[!UICONTROL External database]** as **[!UICONTROL Type]**.
 
+    ![](assets/ext_account_19.png)
+
 1. To configure the **[!UICONTROL Teradata]** external account, you must specify:
 
-     * **[!UICONTROL Type]**: Teradata
+     * **[!UICONTROL Type]**: Choose the **[!UICONTROL Teradata]** type.
 
-    * **[!UICONTROL Server]**: URL of the Teradata server
+    * **[!UICONTROL Server]**: URL or name of your Teradata server
 
-    * **[!UICONTROL Account]**: Name of the user
+    * **[!UICONTROL Account]**: Name of the account used to access the Teradata database
 
-    * **[!UICONTROL Password]**: User account password
+    * **[!UICONTROL Password]**: Password used to connect to the Teradata database
 
-    * **[!UICONTROL Database]**: Name of the database
+    * **[!UICONTROL Database]**: Name of the database (optional)
 
+    * * **[!UICONTROL Options]**: Options to be passed through Teradata. Use the following format: 'parameter=value'. Use a semi-column as separator between values.
+
+    * * **[!UICONTROL Timezone]**: Timezone set in Teradata. [Learn more](#timezone)
+
+### Query banding
+
+When multiple Adobe Campaign users connect to the same FDA Teradata external account, the **[!UICONTROL Query banding]** tab allows you to set a query band, i.e. a set of key/value pairs, on a session.
+
+![](assets/ext_account_20.png)
+
+When this option is configured, each time a Campaign user performs a query on the Teradata database, Adobe Campaign will send meta data, which consists of a list of keys, associated to this user. This data can then be used by Teradata administrators for audit purposes or to manage access rights.
+
+>[!NOTE]
+>
+>For more information on **[!UICONTROL Query banding]**, refer to the [Teradata documentation](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw).
+
+To configure Query banding, follow the steps below:
+
+1. Use the  **[!UICONTROL Default]** to enter a default query band that will be used if a user has no associated query band. If this field is left empty, the users with no query band will not be able to use Teradata.
+
+1. Use the **[!UICONTROL Users]** field to specify a query band for each user. You can add as many key/value pairs as you need e.g. priority=1;workload=high. If the user has no query band assigned, the **[!UICONTROL Default]** field will be applied.
+
+1. Check the **[!UICONTROL Active]** box to activate this feature
+
+#### External account troubleshooting {#external-account-troubleshooting}
+
+If the following error appears while testing the connection **TIM-030008 Date '2': missing character(s) (iRc=-53)** make sure that the ODBC driver is correctly installed and that the LD_LIBRARY_PATH (Linux) / PATH (Windows) is set for the Campaign server.
+
+The error **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified.** occurs with Windows if you use a 16.X driver. Adobe Campaign expects the teradata to be named '{teradata}' in odbcinst.ini.
+
+* Starting Campaign 18.10, you can add ODBCDriverName="Teradata Database ODBC Driver 16.10" in the options of the external account. The version number can change, the exact name can be found by running odbcad32.exe and accessing to the Drivers tab.
+
+* If you are using an older Campaign version, you will have to copy the Teradata section of odbcinst.ini created by the driver installation to a new section called Teradata. Regedit can be used in this case. If your base is in latin1, you will have to add **APICharSize=1** in the options.
 
 ## Additional configurations {#teradata-additional-configurations}
-
+<!--
 ### Compatibility {#teradata-compatibility}
 
 **Based in Unicode**
@@ -102,7 +143,7 @@ Versions previous to Adobe Campaign Classic 17.9 only supported Teradata Latin-1
 Starting from Adobe Campaign Classic 17.9, we now support by default Teradata database in Unicode.
 
 Customers with a Latin-1 Teradata database migrating to a recent Campaign Classic release will have to add the parameter APICharSize=1 in the options of the external account.
-
+-->
 ### Database configuration {#database-configuration}
 
 #### User configuration {#user-configuration}
@@ -246,16 +287,6 @@ You first need to download Teradata Tools and utilities for Windows. You can dow
 Make sure to install the ODBC driver and the Teradata Parallel Transporter Base. It will install telapi.dll used to do bulk load on Teradata database.
 
 Make sure the path of the driver and the utilities is in the PATH variable that nlserver will have during execution. By default the path is C:\Program Files (x86)\Teradata\Client\15.10\bin on Windows 32 bits or C:\Program Files\Teradata\Client\15.10\bin on 64 bit).
-
-### External account troubleshooting {#external-account-troubleshooting}
-
-If the following error appears while testing the connection **TIM-030008 Date '2': missing character(s) (iRc=-53)** make sure that the ODBC driver is correctly installed and that the LD_LIBRARY_PATH (Linux) / PATH (Windows) is set for the Campaign server.
-
-The error **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified.** occurs with Windows if you use a 16.X driver. Adobe Campaign expects the teradata to be named '{teradata}' in odbcinst.ini.
-If you have a 18.10 Adobe Campaign server version, you can add ODBCDriverName="Teradata Database ODBC Driver 16.10" in the options of the external account. The version number can change, the exact name can be found by running odbcad32.exe and accessing to the Drivers tab.
-For version below 18.10, you will have to copy the Teradata section of odbcinst.ini created by the driver installation to a new section called Teradata,regedit can be used in this case.
-
-If your base is in latin1, you will have to add APICharSize=1 in the options.
 
 ### Time zone {#timezone}
 
