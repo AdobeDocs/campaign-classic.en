@@ -11,7 +11,7 @@ topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 ---
 
-## Configure access to Sybase IQ {#configure-access-to-sybase-iq}
+# Configure access to Sybase IQ {#configure-access-to-sybase-iq}
 
 Use Campaign **Federated Data Access** (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Sybase IQ.
 
@@ -23,8 +23,11 @@ Use Campaign **Federated Data Access** (FDA) option to process information store
 Connecting to a Sybase IQ external database in FDA requires additional configurations below on the Adobe Campaign server:
 
 1. Make sure the unixodbc package is on the server.
+
 1. Install **iq_odbc**. An error can occur at the end of the installation. This error can be ignored.
+
 1. Install **iq_client_common**. A Java error can occur at the end of the installation. This error can be ignored.
+
 1. Configure the ODBC driver. The configuration can be carried out in the standard files: /etc/odbc.ini for general parameters and /etc/odbcinst.ini for declaring drivers:
 
     * **/etc/odbc.ini** (replace values like `<server_alias>` characters by your own):

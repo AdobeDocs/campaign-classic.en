@@ -78,7 +78,7 @@ The connector also supports the following Hive options:
 |  fileFormat |  PARQUET |  Default file format for work tables. |
 
 
-## Configuring Hadoop 2.1 {#configure-access-to-hadoop}
+## Configuring Hadoop 2.1 {#configure-access-hadoop-2}
 
 If you need to connect to Hadoop 2.1, follow the steps decribed below for [Windows](#for-windows) or [Linux](#for-linux).
 
