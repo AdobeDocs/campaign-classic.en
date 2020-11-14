@@ -144,6 +144,7 @@ Starting from Adobe Campaign Classic 17.9, we now support by default Teradata da
 
 Customers with a Latin-1 Teradata database migrating to a recent Campaign Classic release will have to add the parameter APICharSize=1 in the options of the external account.
 -->
+
 ### Database configuration {#database-configuration}
 
 #### User configuration {#user-configuration}
