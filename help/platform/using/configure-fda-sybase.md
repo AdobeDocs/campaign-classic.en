@@ -20,7 +20,7 @@ Use Campaign **Federated Data Access** (FDA) option to process information store
 
 ## Sybase IQ configuration {#configuring-sybase}
 
-Connecting to a Sybase IQ external database in FDA requires additional configurations below on the Adobe Campaign server:
+Connecting to a Sybase IQ external database in FDA requires additional configurations below on the Adobe Campaign server.
 
 1. Make sure the unixodbc package is on the server.
 

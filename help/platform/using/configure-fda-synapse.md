@@ -22,9 +22,9 @@ Use Campaign [Federated Data Access](../../platform/using/about-fda.md) (FDA) op
 
 >[!CAUTION]
 >
->   * You will need root privileges to install an ODBC driver.
->   * Red Hat Enterprise ODBC drivers provided by Microsoft can also be used with CentOS to connect to SQL Server.
->   * Version 13.0 will work with Red Hat 6 and 7.
+>* You will need root privileges to install an ODBC driver.
+>* Red Hat Enterprise ODBC drivers provided by Microsoft can also be used with CentOS to connect to SQL Server.
+>* Version 13.0 will work with Red Hat 6 and 7.
 
 To configure Azure Synapse on CentOS, follow the steps below:
 
