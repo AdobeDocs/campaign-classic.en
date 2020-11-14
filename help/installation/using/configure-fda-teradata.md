@@ -124,6 +124,7 @@ The error **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source 
 * If you are using an older Campaign version, you will have to copy the Teradata section of odbcinst.ini created by the driver installation to a new section called Teradata. Regedit can be used in this case. If your base is in latin1, you will have to add **APICharSize=1** in the options.
 
 ## Additional configurations {#teradata-additional-configurations}
+
 <!--
 ### Compatibility {#teradata-compatibility}
 
@@ -145,11 +146,9 @@ Starting from Adobe Campaign Classic 17.9, we now support by default Teradata da
 Customers with a Latin-1 Teradata database migrating to a recent Campaign Classic release will have to add the parameter APICharSize=1 in the options of the external account.
 -->
 
-### Database configuration {#database-configuration}
+### User configuration {#user-configuration}
 
-#### User configuration {#user-configuration}
-
-The following rights are required: create/drop/execute custom procedures, create/drop/insert/select tables. You may also have to create user mode functions if you want to use md5 and sha2 function on your Adobe Campaign instance.
+The following rights are required on the external database: create/drop/execute custom procedures, create/drop/insert/select tables. You may also have to create user mode functions if you want to use md5 and sha2 function on your Adobe Campaign instance.
 
 Make sure to configure the correct time zone. It should match what will be set in the external account created in the Adobe Campaign instance.
 
@@ -159,7 +158,7 @@ Adobe Campaign will not set a protection mode (fallback) on the objects it will 
 | :-: |
 | ```MODIFY USER $login$ AS NO FALLBACK;```  |
 
-#### MD5 installation {#md5-installation}
+### MD5 installation {#md5-installation}
 
 If you want to use md5 functions in your Adobe Campaign instance, you will have to install the user mode function on your Teradata database from this [page](https://downloads.teradata.com/download/extensibility/md5-message-digest-udf) (md5_20080530.zip).
 
@@ -179,7 +178,7 @@ To install md5:
     .run file = hash_md5.btq
     ```
 
-#### SHA2 installation {#sha2-installation}
+### SHA2 installation {#sha2-installation}
 
 If you want to use sha2 functions in your Adobe Campaign instance, you will have to install the user mode function on your Teradata database from this [page](https://github.com/akuroda/teradata-udf-sha2/archive/v1.0.zip) (teradata-udf-sha2-1.0.zip).
 
@@ -200,7 +199,7 @@ To install sha2:
     .run file = hash_sha512.sql
     ```
 
-#### UDF_UTF16TO8 installation {#UDF-UTF16TO8-installation}
+### UDF_UTF16TO8 installation {#UDF-UTF16TO8-installation}
 
 If you want to use udf_utf16to8 functions in your Adobe Campaign instance, you will have to install the user mode function on your Teradata database from the **Teradata unicode tool kit** of this [page](https://downloads.teradata.com/download/tools/unicode-tool-kit) (utk_release1.7.0.0.zip).
 
@@ -229,7 +228,7 @@ To install udf_utf16to8:
     SELECT CAST(Char2HexInt(UDF_UTF16to8(_UNICODE'004100000042'XC)) AS VARCHAR(100));
     ```
 
-### Campaign server configuration for Linux {#campaign-server-linux}
+## Campaign server configuration for Linux {#campaign-server-linux}
 
 The following is required for the driver installation:
 
@@ -245,7 +244,7 @@ File names and sha1:
 
 If there is no package for your Linux distribution, you can install as explained on a CentOS 7 (for example using docker) and then copy the content of the /opt/teradata on your Adobe Campaign server.
 
-#### ODBC driver installation {#odbc-installation}
+### ODBC driver installation {#odbc-installation}
 
 To install ODBC driver:
 
@@ -261,7 +260,7 @@ To install ODBC driver:
 
 1. Run the setup_wrapper.sh.
 
-#### Teradata tools and utilities installation {#teradata-tools-installation}
+### Teradata tools and utilities installation {#teradata-tools-installation}
 
 To install Tools:
 
@@ -281,7 +280,7 @@ To install Tools:
 
 1. A libtelapi.so file should be available in /opt/teradata/client/16.20/lib64.
 
-### Campaign server configuration for Windows {#campaign-server-windows}
+## Campaign server configuration for Windows {#campaign-server-windows}
 
 You first need to download Teradata Tools and utilities for Windows. You can download it from this [page](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-windows-installation-package)
 
@@ -289,7 +288,7 @@ Make sure to install the ODBC driver and the Teradata Parallel Transporter Base.
 
 Make sure the path of the driver and the utilities is in the PATH variable that nlserver will have during execution. By default the path is C:\Program Files (x86)\Teradata\Client\15.10\bin on Windows 32 bits or C:\Program Files\Teradata\Client\15.10\bin on 64 bit).
 
-### Time zone {#timezone}
+## Time zone {#timezone}
 
 Teradata uses time zone name that are not standard, you can find the list on the [Teradata site](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/oGKvgl7gCeBMTGrp59BnwA). Adobe Campaign will try to convert the time zone given in the external configuration to something Teradata understand. If a correspondence is not found, the closet GMT+X (or GMT-X) time zone will be found for the session, with a warning in the log.
 
