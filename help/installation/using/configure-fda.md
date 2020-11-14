@@ -27,7 +27,7 @@ As a general rule, you need to install the corresponding client layer on the ext
 To set up access to an external database with FDA, configuration steps are:
 
 1. Install the drivers that correspond to your database on the Adobe Campaign server. Drivers are listed in the database-specific pages [listed below](#fda-specific-configuration). 
-1. [Create and configure an external account](../../installation/using/connecting-to-database.md) that allows you to establish the connection between Adobe Campaign and the external database. For more information on external accounts in Campaign, refer to [this page](../../platform/using/external-accounts.md).
+1. [Create and configure an external account](../../installation/using/connecting-to-database.md) that allows you to establish the connection between Adobe Campaign and the external database. For more information on external accounts in Campaign, refer to [this page](../../installation/using/external-accounts.md).
 1. [Create the schema](../../installation/using/creating-data-schema.md) of the external database in Adobe Campaign. This allows you to recognize the data structure of the external database.
 1. If needed, [create a new target mapping](../../installation/using/defining-data-mapping.md) from the previously created schema. This is required if the recipients of your deliveries come from the external database. This implementation comes with limitations related to message personalization.
 

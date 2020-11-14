@@ -100,7 +100,7 @@ _December 02, 2019_
 
 * Memory consumption optimization for Push Notifications.
 * For performance and storage optimization, the handling of the **logins.log** file has been enhanced. The file is now split into multiple files, one each day with a maximum of 365 files retained. [Read more](../../production/using/log-files.md)
-* Microsoft Dynamics CRM external account can now be configured using password credentials (password + username) or certificate (private key). [Read more](../../platform/using/external-accounts.md#microsoft-dynamics-crm-external-account)
+* Microsoft Dynamics CRM external account can now be configured using password credentials (password + username) or certificate (private key). [Read more](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
 * Some enhancements have been added to the Hadoop FDA connector to improve reliability
 * A specific guardrail has been added to check disk space before allowing to upload public resources on the server.
 * New [Campaign Options](../../installation/using/configuring-campaign-options.md) have been added:

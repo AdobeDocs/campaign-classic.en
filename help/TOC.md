@@ -75,7 +75,6 @@ type: Documentation
        + [Access management](platform/using/access-management.md)
        + [Working with data packages](platform/using/working-with-data-packages.md)
        + [Managing enumerations](platform/using/managing-enumerations.md)
-       + [External accounts](platform/using/external-accounts.md)
   + Connectors {#connectors}
        + [About connectors](platform/using/about-connectors.md)
        + [CRM Connectors](platform/using/crm-connectors.md)
@@ -616,6 +615,7 @@ type: Documentation
        + [Configuring SpamAssassin](installation/using/configuring-spamassassin.md)
        + [Mid-sourcing server](installation/using/mid-sourcing-server.md)
        + [Interaction - Data buffer](installation/using/interaction---data-buffer.md)
+       + [Configuring external accounts](installation/using/external-accounts.md)
   + Accessing an external database {#accessing-external-database}
        + [Get started with FDA](installation/using/about-fda.md)
        + Configuration guidelines {#config-databases}
