@@ -617,7 +617,7 @@ type: Documentation
        + [Mid-sourcing server](installation/using/mid-sourcing-server.md)
        + [Interaction - Data buffer](installation/using/interaction---data-buffer.md)
   + Accessing an external database {#accessing-external-database}
-       + [Get started with FDA](platform/using/about-fda.md)
+       + [Get started with FDA](installation/using/about-fda.md)
        + Configuration guidelines {#config-databases}
           + [Configuration steps](installation/using/configure-fda.md)
           + [Configure Snowflake](installation/using/configure-fda-snowflake.md)
