@@ -1,8 +1,6 @@
 ---
 title: About web services
-seo-title: About web services
 description: About web services
-seo-description: 
 page-status-flag: never-activated
 uuid: f0b21cb3-aa75-4f54-a9f5-64e880f93e53
 contentOwner: sauviat

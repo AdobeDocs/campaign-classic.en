@@ -335,4 +335,4 @@ Internet Explorer 11 is supported.
 * [Campaign Classic Release notes](../../rn/using/latest-release.md)
 * [Installation Guide](../../installation/using/general-architecture.md)
 * [Deprecated features and systems](../../rn/using/deprecated-features.md)
-* [Build upgrade procedure](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)
+* [Build upgrade procedure](../../production/using/build-upgrade.md)

@@ -40,11 +40,11 @@ topic: Premium
     <p>
   </td>
    <td>
-    <a href="https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html">
+    <a href="production/using/build-upgrade.md">
       <img alt="Build Upgrade" src="platform/using/assets/upgrade.png" />
     </a>
     <div>
-      <a href="https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html">
+      <a href="production/using/build-upgrade.md">
     <strong>Upgrade to the latest build</strong>
     </a>
     </div>
