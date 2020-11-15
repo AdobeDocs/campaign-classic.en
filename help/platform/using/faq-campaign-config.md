@@ -56,7 +56,7 @@ Adobe Campaign provides the Federated Data Access (FDA) option in order to proce
 
 ## Which external databases can I connect Campaign to? {#which-external-databases-can-i-connect-campaign-to-}
 
-External database compatible with Campaign through Federated Data Access (FDA) are listed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+External database compatible with Campaign through Federated Data Access (FDA) are listed in the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 ## Can Adobe Campaign integrate with LDAP? {#can-adobe-campaign-integrate-with-ldap-}
 

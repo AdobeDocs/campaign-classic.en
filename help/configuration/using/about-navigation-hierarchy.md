@@ -1,8 +1,6 @@
 ---
 title: About navigation hierarchy
-seo-title: About navigation hierarchy
 description: About navigation hierarchy
-seo-description: 
 page-status-flag: never-activated
 uuid: 3fc31f78-2de7-4fb2-b951-71c87d4f0cfe
 contentOwner: sauviat

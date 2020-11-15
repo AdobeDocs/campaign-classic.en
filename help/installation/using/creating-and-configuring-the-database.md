@@ -47,7 +47,7 @@ Select the database engine among those in the drop-down list.
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-Supported databases are presented in the section [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+Supported databases are listed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 Identify the server and choose the type of operation to perform. In this case, **[!UICONTROL Create or recycle a database]**.
 

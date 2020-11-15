@@ -31,7 +31,7 @@ Connecting to the CRM is carried out via dedicated workflow activities. These ac
 
 CRMs listed below can be integrated into Adobe Campaign.
 
-Supported versions are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+Supported versions are detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 * **Salesforce.com**
 

@@ -27,7 +27,7 @@ In v6.02, the "multi timezone" mode was only available for PostgreSQL database e
 >
 >Some software versions supported in Adobe Campaign 5.11 and 6.02 are no longer supported in Adobe Campaign v7.
 >
->For further information about the versions supported by Adobe Campaign, consult the [compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+>For further information about the versions supported by Adobe Campaign, consult the [compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 ## Key migration steps {#key-migration-steps}
 

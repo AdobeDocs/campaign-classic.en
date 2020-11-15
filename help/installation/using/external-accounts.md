@@ -1,6 +1,6 @@
 ---
 title: External accounts
-description: External accounts
+description: Learn how to create external accounts
 page-status-flag: never-activated
 uuid: e06e7a36-b449-4ab0-a4f6-fa82dbb8de11
 contentOwner: sauviat

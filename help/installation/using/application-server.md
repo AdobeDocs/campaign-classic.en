@@ -25,7 +25,7 @@ You must first install a JDK on the computers on which you wish to run the Adobe
 
 The application has been approved for the Java Development Kit (JDK) developed by Oracle as well as for **OpenJDK**.
 
-The supported versions are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+The supported versions are detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 >[!NOTE]
 >
