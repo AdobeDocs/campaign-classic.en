@@ -39,11 +39,11 @@ The different hosting models are introduced [in this section](../../installation
 
 ## Federated Data Access{#fda}
 
-Adobe Campaign provides the **Federated Data Access** (FDA) option in order to process information stored in one or more external databases: you can access external data without changing the structure of Adobe Campaign data. [Learn more](../../platform/using/about-fda.md)
+Adobe Campaign provides the **Federated Data Access** (FDA) option in order to process information stored in one or more external databases: you can access external data without changing the structure of Adobe Campaign data. [Learn more](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >
->Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the [Snowflake connector](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
+>Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the [Snowflake connector](../../installation/using/configure-fda-snowflake.md).
 
 
 **See also**

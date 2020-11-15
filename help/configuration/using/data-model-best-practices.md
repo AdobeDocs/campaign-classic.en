@@ -76,7 +76,7 @@ To ensure good architecture and performance of your system, follow the best prac
 
 A field is required to be stored in a table if it has a targeting or personalization purpose. In other words, if a field is not used to send a personalized email or used as a criterion in a query, it takes up disk space whereas it is useless. 
 
-For hybrid and on-premise instances, FDA (Federated Data Access, an optional feature that allows to access external data) covers the need to add a field "on-the-fly" during a campaign process. You do not need to import everything if you have FDA. For more on this, see [About Federated Data Access](../../platform/using/about-fda.md).
+For hybrid and on-premise instances, FDA (Federated Data Access, an optional feature that allows to access external data) covers the need to add a field "on-the-fly" during a campaign process. You do not need to import everything if you have FDA. For more on this, see [About Federated Data Access](../../installation/using/about-fda.md).
 
 ### Choice of keys {#choice-of-keys}
 

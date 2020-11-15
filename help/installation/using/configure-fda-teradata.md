@@ -1,22 +1,131 @@
 ---
-title: Appendices
-seo-title: FDA Appendices
-description: FDA Appendices
-seo-description: 
+title: Configure access to Teradata
+description: Learn how to configure access to Teradata in FDA
 page-status-flag: never-activated
-uuid: 2596fabc-679a-45c8-a62a-165c221654b7
+uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
+discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 ---
 
-# Appendices {#fda-appendices}
+# Configure access to Teradata {#configure-access-to-teradata}
 
-## Teradata additional configurations {#teradata-configuration}
+Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Teradata.
 
+1. Install and configure [Teradata drivers](#teradata-config)
+1. Configure the Teradata [external account](#teradata-external) in Campaign
+1. Set up [additional configuration](#teradata-additional-configurations) for Teradata and Campaign server
+
+## Teradata configuration {#teradata-config}
+
+You need to install drivers for Teradata to have connection to Campaign implemented.
+
+1. Install the [ODBC driver for Teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
+
+   It is made up of three packages that can be installed on Red Hat (or CentOS)/Suse in the following order:
+
+    * TeraGSS
+    * tdicu1510 (install it using setup_wrapper.sh)
+    * tdodbc1510 (install it using setup_wrapper.sh)
+
+1. Configure the ODBC driver. The configuration can be carried out in the standard files: **/etc/odbc.ini** for general parameters and /etc/odbcinst.ini for declaring drivers:
+
+    * **/etc/odbc.ini**
+
+      ```
+      [ODBC]
+      InstallDir=/etc/
+      ```
+
+      "InstallDir" corresponds to the location of the **odbcinst.ini** file.
+
+    * **/etc/odbcinst.ini**
+
+      ```
+      [ODBC DRIVERS]
+      teradata=Installed
+
+      [teradata]
+      Driver=/opt/teradata/client/15.10/lib64/tdata.so
+      APILevel=CORE
+      ConnectFunctions=YYY
+      DriverODBCVer=3.51
+      SQLLevel=1
+      ```
+
+1. Specify the environment variables of the Adobe Campaign server:
+
+    * **LD_LIBRARY_PATH**: /opt/teradata/client/15.10/lib64 and /opt/teradata/client/15.10/odbc_64/lib.
+    * **ODBCINI**: location of the odbc.ini file (for example /etc/odbc.ini).
+    * **NLSPATH**: location of the opermsgs.cat file (/opt/teradata/client/15.10/msg/opermsgs.cat)
+
+>[!NOTE]
+>
+>Connecting to a Teradata external database in FDA requires additional configurations steps on the Adobe Campaign server. [Learn more](#teradata-additional-configurations).
+>
+
+## Teradata external account{#teradata-external}
+
+The Teradata external account allows you to connect your Campaign instance to your Teradata external database. 
+
+1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+
+1. Click **[!UICONTROL New]** and select **[!UICONTROL External database]** as **[!UICONTROL Type]**.
+
+    ![](assets/ext_account_19.png)
+
+1. To configure the **[!UICONTROL Teradata]** external account, you must specify:
+
+     * **[!UICONTROL Type]**: Choose the **[!UICONTROL Teradata]** type.
+
+    * **[!UICONTROL Server]**: URL or name of your Teradata server
+
+    * **[!UICONTROL Account]**: Name of the account used to access the Teradata database
+
+    * **[!UICONTROL Password]**: Password used to connect to the Teradata database
+
+    * **[!UICONTROL Database]**: Name of the database (optional)
+
+    * * **[!UICONTROL Options]**: Options to be passed through Teradata. Use the following format: 'parameter=value'. Use a semi-column as separator between values.
+
+    * * **[!UICONTROL Timezone]**: Timezone set in Teradata. [Learn more](#timezone)
+
+### Query banding
+
+When multiple Adobe Campaign users connect to the same FDA Teradata external account, the **[!UICONTROL Query banding]** tab allows you to set a query band, i.e. a set of key/value pairs, on a session.
+
+![](assets/ext_account_20.png)
+
+When this option is configured, each time a Campaign user performs a query on the Teradata database, Adobe Campaign will send meta data, which consists of a list of keys, associated to this user. This data can then be used by Teradata administrators for audit purposes or to manage access rights.
+
+>[!NOTE]
+>
+>For more information on **[!UICONTROL Query banding]**, refer to the [Teradata documentation](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw).
+
+To configure Query banding, follow the steps below:
+
+1. Use the  **[!UICONTROL Default]** to enter a default query band that will be used if a user has no associated query band. If this field is left empty, the users with no query band will not be able to use Teradata.
+
+1. Use the **[!UICONTROL Users]** field to specify a query band for each user. You can add as many key/value pairs as you need e.g. priority=1;workload=high. If the user has no query band assigned, the **[!UICONTROL Default]** field will be applied.
+
+1. Check the **[!UICONTROL Active]** box to activate this feature
+
+#### External account troubleshooting {#external-account-troubleshooting}
+
+If the following error appears while testing the connection **TIM-030008 Date '2': missing character(s) (iRc=-53)** make sure that the ODBC driver is correctly installed and that the LD_LIBRARY_PATH (Linux) / PATH (Windows) is set for the Campaign server.
+
+The error **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified.** occurs with Windows if you use a 16.X driver. Adobe Campaign expects the teradata to be named '{teradata}' in odbcinst.ini.
+
+* Starting Campaign 18.10, you can add ODBCDriverName="Teradata Database ODBC Driver 16.10" in the options of the external account. The version number can change, the exact name can be found by running odbcad32.exe and accessing to the Drivers tab.
+
+* If you are using an older Campaign version, you will have to copy the Teradata section of odbcinst.ini created by the driver installation to a new section called Teradata. Regedit can be used in this case. If your base is in latin1, you will have to add **APICharSize=1** in the options.
+
+## Additional configurations {#teradata-additional-configurations}
+
+<!--
 ### Compatibility {#teradata-compatibility}
 
 **Based in Unicode**
@@ -26,7 +135,7 @@ discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
 | 15  |  15 |  Campaign Classic 17.9 | Under Linux: Queries with timestamp may fail (fixed in build 8937 for 18.4 and 8977 for 18.10) In debug mode, warnings relative to bad memory usage in the driver may occur. |
 | 15  | 16  | Campaign Classic 17.9  | Recommended setup for a Teradata 15 database under Linux.  |
 |  16 | 16  | Campaign Classic 18.10 |  Unicode characters with surrogate pairs are not fully handled. Using surrogate characters in data should work. Using surrogates in a filtering condition of a query will not work without this change. |
-| 16  |  15 |  not supported |  &nbsp; |
+| 16  |  15 |  Campaign Classic 19.0 |  &nbsp; |
 
 **Based in Latin1**
 
@@ -35,12 +144,11 @@ Versions previous to Adobe Campaign Classic 17.9 only supported Teradata Latin-1
 Starting from Adobe Campaign Classic 17.9, we now support by default Teradata database in Unicode.
 
 Customers with a Latin-1 Teradata database migrating to a recent Campaign Classic release will have to add the parameter APICharSize=1 in the options of the external account.
+-->
 
-### Database configuration {#database-configuration}
+### User configuration {#user-configuration}
 
-#### User configuration {#user-configuration}
-
-The following rights are required: create/drop/execute custom procedures, create/drop/insert/select tables. You may also have to create user mode functions if you want to use md5 and sha2 function on your Adobe Campaign instance.
+The following rights are required on the external database: create/drop/execute custom procedures, create/drop/insert/select tables. You may also have to create user mode functions if you want to use md5 and sha2 function on your Adobe Campaign instance.
 
 Make sure to configure the correct time zone. It should match what will be set in the external account created in the Adobe Campaign instance.
 
@@ -50,7 +158,7 @@ Adobe Campaign will not set a protection mode (fallback) on the objects it will 
 | :-: |
 | ```MODIFY USER $login$ AS NO FALLBACK;```  |
 
-#### MD5 installation {#md5-installation}
+### MD5 installation {#md5-installation}
 
 If you want to use md5 functions in your Adobe Campaign instance, you will have to install the user mode function on your Teradata database from this [page](https://downloads.teradata.com/download/extensibility/md5-message-digest-udf) (md5_20080530.zip).
 
@@ -70,7 +178,7 @@ To install md5:
     .run file = hash_md5.btq
     ```
 
-#### SHA2 installation {#sha2-installation}
+### SHA2 installation {#sha2-installation}
 
 If you want to use sha2 functions in your Adobe Campaign instance, you will have to install the user mode function on your Teradata database from this [page](https://github.com/akuroda/teradata-udf-sha2/archive/v1.0.zip) (teradata-udf-sha2-1.0.zip).
 
@@ -91,7 +199,7 @@ To install sha2:
     .run file = hash_sha512.sql
     ```
 
-#### UDF_UTF16TO8 installation {#UDF-UTF16TO8-installation}
+### UDF_UTF16TO8 installation {#UDF-UTF16TO8-installation}
 
 If you want to use udf_utf16to8 functions in your Adobe Campaign instance, you will have to install the user mode function on your Teradata database from the **Teradata unicode tool kit** of this [page](https://downloads.teradata.com/download/tools/unicode-tool-kit) (utk_release1.7.0.0.zip).
 
@@ -120,7 +228,7 @@ To install udf_utf16to8:
     SELECT CAST(Char2HexInt(UDF_UTF16to8(_UNICODE'004100000042'XC)) AS VARCHAR(100));
     ```
 
-### Campaign server configuration for Linux {#campaign-server-linux}
+## Campaign server configuration for Linux {#campaign-server-linux}
 
 The following is required for the driver installation:
 
@@ -136,7 +244,7 @@ File names and sha1:
 
 If there is no package for your Linux distribution, you can install as explained on a CentOS 7 (for example using docker) and then copy the content of the /opt/teradata on your Adobe Campaign server.
 
-#### ODBC driver installation {#odbc-installation}
+### ODBC driver installation {#odbc-installation}
 
 To install ODBC driver:
 
@@ -152,7 +260,7 @@ To install ODBC driver:
 
 1. Run the setup_wrapper.sh.
 
-#### Teradata tools and utilities installation {#teradata-tools-installation}
+### Teradata tools and utilities installation {#teradata-tools-installation}
 
 To install Tools:
 
@@ -172,15 +280,7 @@ To install Tools:
 
 1. A libtelapi.so file should be available in /opt/teradata/client/16.20/lib64.
 
-#### Driver configuration {#driver-configuration}
-
-To learn more on driver configuration, refer to this [section](../../platform/using/legacy-connectors.md#configure-access-to-teradata).
-
-#### Environment variables {#environment-varaiables}
-
-To learn more on the environment variables of the Adobe Campaign server, refer to this [section](../../platform/using/legacy-connectors.md#configure-access-to-teradata).
-
-### Campaign server configuration for Windows {#campaign-server-windows}
+## Campaign server configuration for Windows {#campaign-server-windows}
 
 You first need to download Teradata Tools and utilities for Windows. You can download it from this [page](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-windows-installation-package)
 
@@ -188,17 +288,7 @@ Make sure to install the ODBC driver and the Teradata Parallel Transporter Base.
 
 Make sure the path of the driver and the utilities is in the PATH variable that nlserver will have during execution. By default the path is C:\Program Files (x86)\Teradata\Client\15.10\bin on Windows 32 bits or C:\Program Files\Teradata\Client\15.10\bin on 64 bit).
 
-### External account troubleshooting {#external-account-troubleshooting}
-
-If the following error appears while testing the connection **TIM-030008 Date '2': missing character(s) (iRc=-53)** make sure that the ODBC driver is correctly installed and that the LD_LIBRARY_PATH (Linux) / PATH (Windows) is set for the Campaign server.
-
-The error **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified.** occurs with Windows if you use a 16.X driver. Adobe Campaign expects the teradata to be named '{teradata}' in odbcinst.ini.
-If you have a 18.10 Adobe Campaign server version, you can add ODBCDriverName="Teradata Database ODBC Driver 16.10" in the options of the external account. The version number can change, the exact name can be found by running odbcad32.exe and accessing to the Drivers tab.
-For version below 18.10, you will have to copy the Teradata section of odbcinst.ini created by the driver installation to a new section called Teradata,regedit can be used in this case.
-
-If your base is in latin1, you will have to add APICharSize=1 in the options.
-
-### Time zone {#timezone}
+## Time zone {#timezone}
 
 Teradata uses time zone name that are not standard, you can find the list on the [Teradata site](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/oGKvgl7gCeBMTGrp59BnwA). Adobe Campaign will try to convert the time zone given in the external configuration to something Teradata understand. If a correspondence is not found, the closet GMT+X (or GMT-X) time zone will be found for the session, with a warning in the log.
 
@@ -217,42 +307,3 @@ When using bulk load, or "fast load" in Teradata documents, Campaign can't indic
 ```
 MODIFY USER $login$ AS TIME ZONE = 'Europe Central';
 ```
-
-## MySQL 5.7 configuration {#mysql-57-configuration}
-
-### Server configuration {#server-configuration-mysql}
-
-The server configuration does not require any specific installation steps. Adobe Campaign should work with a latin1 database, default on MySQL, or an unicode database.
-
-### Driver installation {#driver-installation-mysql}
-
-#### Debian {#debian-mysql}
-
-Download mysql-apt-config.deb from this [page](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en).
-
-Install the client library:
-
-```
-$ dpkg -i mysql-apt-config_*_all.deb # choose mysql-5.7 in the configuration menu
-$ apt update
-$ apt install libmysqlclient20
-```
-
-#### Windows {#windows-mysql}
-
-Download the C connector from this [page](https://dev.mysql.com/downloads/connector/c). We recommend downloading version 5.7.
-
-Make sure the directory that contains libmysqlclient.dll is added to the PATH environment variable that nlserver will use.
-
-#### CentOS {#centos-mysql}
-
-Download mysql57-community-release.noarch.rpm from this [page](https://dev.mysql.com/downloads/repo/yum).
-
-Install the client library:
-
-$ yum install mysql57-community-release-el7-9.noarch.rpm
-$ yum install mysql-community-libs
-
-### External account configuration {#external-account-mysql}
-
-The external account configuration does not require any specific steps. Make sure the time zone and Use unicode data are set according to your database.

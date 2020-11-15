@@ -1,6 +1,6 @@
 ---
 title: Hosting models
-description: Hosting models
+description: Discover Campaign hosting models
 page-status-flag: never-activated
 uuid: a9e035d9-326b-4e14-8f05-a22fe38d172b
 contentOwner: sauviat

@@ -19,7 +19,7 @@ Adobe Campaign provides several connectors that allow you to communicate with ex
 
 These connectors are:
 
-* FDA Connector (**Federated Data Access**) enables you to connect Campaign to one or more external databases and process information stored into them without affecting your Campaign data. [Learn more](../../platform/using/about-fda.md).
+* FDA Connector (**Federated Data Access**) enables you to connect Campaign to one or more external databases and process information stored into them without affecting your Campaign data. [Learn more](../../installation/using/about-fda.md).
 * CRM connectors enable to exchange data between Adobe Campaign and your CRM solution using dedicated workflow activities. [Learn more](../../platform/using/crm-connectors.md).
 * Analytics Data Connectors (was **Adobe Genesis**) enables you to share data between Adobe Campaign and Adobe Analytics. [Learn more](../../platform/using/adobe-analytics-data-connector.md).
 
