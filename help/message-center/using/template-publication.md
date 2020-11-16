@@ -1,8 +1,6 @@
 ---
 title: Template publication
-seo-title: Template publication
-description: Template publication
-seo-description: 
+description: Transactional message template publication
 page-status-flag: never-activated
 uuid: f83dbe5f-762c-4c58-aeed-6ec289eb522f
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Integration into a Web server for Linux
-seo-title: Integration into a Web server for Linux
-description: Integration into a Web server for Linux
-seo-description: 
+description: Learn how to integrate Campaign into a Web server (Linux)
 page-status-flag: never-activated
 uuid: 7b18d176-4458-46a8-8da4-3621f90c6b13
 contentOwner: sauviat
@@ -242,4 +240,4 @@ The following information is displayed:
 Connection closed by foreign host.
 ```
 
-You can also request the URL [`https://<computer>`](https://machine/r/test) from a Web browser.
+You can also request the URL [`https://<computer>`](https://myserver.adobe.com/r/test) from a Web browser.

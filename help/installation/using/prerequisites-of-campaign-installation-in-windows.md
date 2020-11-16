@@ -13,7 +13,7 @@ discoiquuid: faaecbd6-f707-4307-8921-04d8993c2c47
 
 # Prerequisites of Campaign installation in Windows{#prerequisites-of-campaign-installation-in-windows}
 
-The technical configuration and software needed to install Adobe Campaign is presented in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+The technical configuration and software needed to install Adobe Campaign is presented in the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 The Adobe Campaign server installation process for multi-instance usage is described below in [Installing the server](../../installation/using/installing-the-server.md).
 

@@ -87,7 +87,7 @@ The Adobe Campaign server must be able to contact the APNs server on the followi
 
    >[!NOTE]
    >
-   > Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+   > Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
 To check that it works correctly, use the following commands:
 

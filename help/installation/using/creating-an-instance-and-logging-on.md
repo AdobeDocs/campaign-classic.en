@@ -39,7 +39,7 @@ To create a new instance, follow the steps below:
 
 1. Specify a connection to your Adobe Campaign application server via a URL. Use either a DNS or an alias of the machine, or your IP address.
 
-   For example, you can use the [`https://<machine>.<domain>.com`](https://machine) type URL.
+   For example, you can use the [`https://<machine>.<domain>.com`](https://myserver.adobe.com) type URL.
 
    >[!CAUTION]
    >

@@ -261,7 +261,7 @@ A semi-automatic update edit control input form is added:
 <input label="File name" type="editbtn" xpath="/tmp/@name">
   <enter>
     <soapCall name="GetAndTransform" service="ncm:content">
-      <param exprIn="'https://server/incoming/' + [/tmp/@name] + '.xml'" type="string"/>
+      <param exprIn="'https://myserver.adobe.com/incoming/' + [/tmp/@name] + '.xml'" type="string"/>
       <param exprIn="'xtk:xslt|cus:book-workflow.xsl'" type="string"/>
       <param type="DOMElement" xpathOut="."/>
     </soapCall>
@@ -269,7 +269,7 @@ A semi-automatic update edit control input form is added:
 </input>
 ```
 
-The edit zone lets you enter the name of the file to be retrieved. The URL is constructed based on this name, for example: https://server/incomin/data.xml
+The edit zone lets you enter the name of the file to be retrieved. The URL is constructed based on this name, for example: https://myserver.adobe.com/incomin/data.xml
 
 The format of the data to be retrieved is the same as in example 1 of workflow automation. We shall use the "cus:book-workflow.xsl" stylesheet seen in this example.
 

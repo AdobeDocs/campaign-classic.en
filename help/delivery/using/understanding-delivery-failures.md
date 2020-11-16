@@ -1,8 +1,6 @@
 ---
 title: Understanding delivery failures
-seo-title: Understanding delivery failures
-description: Understanding delivery failures
-seo-description: 
+description: Learn how to understand delivery failures
 page-status-flag: never-activated
 uuid: 03a91f84-77fe-40a9-8be9-a6a35a873ae1
 contentOwner: sauviat

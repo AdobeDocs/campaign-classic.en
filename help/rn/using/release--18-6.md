@@ -21,7 +21,7 @@ discoiquuid: 79a6d3cf-2425-49b9-9b92-b56be26438bf
 
 >[!CAUTION]
 >
->This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+>This build has been recalled. Please [upgrade to the latest build](../../production/using/build-upgrade.md) or contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **What's new?**
 
@@ -35,7 +35,7 @@ discoiquuid: 79a6d3cf-2425-49b9-9b92-b56be26438bf
  <tbody> 
   <tr> 
    <td> Query banding<br /> </td> 
-   <td> <p>When multiple Campaign users connect to the same FDA Teradata external account, you can now pass a query band (key/value pairs) specific to each user. Each time a Campaign user performs a query on the Teradata database, Adobe Campaign is now able to send meta data associated to the user. These data, which consist in a list of keys and values can then be used by Teradata administrators for audit purposes or to manage access rights, for example.</p><p>For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#Teradata_external_account">detailed documentation</a>.</p> </td>
+   <td> <p>When multiple Campaign users connect to the same FDA Teradata external account, you can now pass a query band (key/value pairs) specific to each user. Each time a Campaign user performs a query on the Teradata database, Adobe Campaign is now able to send meta data associated to the user. These data, which consist in a list of keys and values can then be used by Teradata administrators for audit purposes or to manage access rights, for example.</p><p>For more information, refer to the <a href="../../installation/using/external-accounts.md">detailed documentation</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -77,7 +77,7 @@ For more information on query banding, refer to these articles:
 
 >[!CAUTION]
 >
->This build has been recalled. Please [upgrade to the latest build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) or contact [technical support](https://support.neolane.net/).
+>This build has been recalled. Please [upgrade to the latest build](../../production/using/build-upgrade.md) or contact [technical support](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **What's new?**
 

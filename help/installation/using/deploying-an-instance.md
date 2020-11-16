@@ -1,8 +1,6 @@
 ---
 title: Deploying an instance
-seo-title: Deploying an instance
-description: Deploying an instance
-seo-description: 
+description: Learn more about Campaign deployment wizard
 page-status-flag: never-activated
 uuid: 5694b07a-6c1c-45a3-8a22-fd9da163c28c
 contentOwner: sauviat
