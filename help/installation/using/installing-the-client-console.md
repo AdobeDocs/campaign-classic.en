@@ -27,7 +27,7 @@ To download and in install the Adobe Campaign client console, follow the steps b
 
 1. Open a web browser and download the console from the following address:
 
-   [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://machine/nl/jsp/logon.jsp).
+   [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://myserver.adobe.com/nl/jsp/logon.jsp).
 
 1. In the identification window, enter your login and password. 
 
@@ -59,7 +59,7 @@ Once the client console is installed, follow the steps below to create the conne
 
 1. Specify a connection to your Adobe Campaign application server via a URL. Use either a DNS or an alias of the machine, or your IP address.
 
-   For example, you can use the [`https://<machine>.<domain>.com`](https://machine) type URL.
+   For example, you can use the [`https://<machine>.<domain>.com`](https://myserver.adobe.com) type URL.
 
 1. If Adobe IMS is configured for your organization, check the option **[!UICONTROL Connect with an Adobe ID]** 
 
