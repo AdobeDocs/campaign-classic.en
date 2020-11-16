@@ -19,6 +19,10 @@ The "mid-sourcing" architecture is presented in [Mid-sourcing deployment](../../
 
 Installing a mid-sourcing server follows the same process as installing a server in the normal way (refer to the standard configuration). It is an independent instance with its own database which can be used to run deliveries. Simply put, it contains an extra configuration to allow remote instances execute deliveries through it in mid-sourcing mode.
 
+>[!CAUTION]
+>
+>Once the mid-sourcing server has been setup and the [sync workflows](../../workflow/using/transfer-to-mid-sourcing.md) have run for the first time, make sure you do not update the internal name of the mid-sourcing external accounts.
+
 ## Steps for installing and configuring an instance {#steps-for-installing-and-configuring-an-instance}
 
 ### Prerequisites for installing and configuring an instance {#prerequisites-for-installing-and-configuring-an-instance}
