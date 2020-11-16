@@ -1,8 +1,6 @@
 ---
 title: Creating seed addresses
-seo-title: Creating seed addresses
-description: Creating seed addresses
-seo-description: 
+description: Learn how to create and use seed addresses
 page-status-flag: never-activated
 uuid: 0dae107a-7b53-4096-93c3-9517b402cbc9
 contentOwner: sauviat

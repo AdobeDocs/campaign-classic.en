@@ -1,8 +1,6 @@
 ---
 title: Monitoring processes
-seo-title: Monitoring processes
-description: Monitoring processes
-seo-description: 
+description: Learn how to monitor Campaign processes
 page-status-flag: never-activated
 uuid: 9dc1461f-5e95-454d-8df5-19baab85f184
 contentOwner: sauviat

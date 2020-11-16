@@ -336,7 +336,7 @@ The Delivery Best Practices getting started guide has been updated. [Read more](
 
 ## October 2019 {#october-2019}
 
-The list of error messages for Campaign Standard and Campaign Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+The list of error messages for Campaign Standard and Campaign Classic has been updated. [Read more](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
@@ -378,29 +378,29 @@ The [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-mat
 
 The 'Deprecated and Removed Features in Campaign Classic' page has been updated. [Read more](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
-The description of the server configuration file has been added to the Installation guide. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_The_server_configuration_file.html)
+The description of the server configuration file has been added to the Installation guide. [Read more](../../installation/using/the-server-configuration-file.md)
 
-A section has been added describing the installation and configuration steps for hosted and hybrid models. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Hybrid_and_Hosted_models_Introduction.html)
+A section has been added describing the installation and configuration steps for hosted and hybrid models. [Read more](../../installation/using/hosting-models.md)
 
-A section has been added describing the Campaign server uninstallation steps. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_Uninstalling_Campaign.html)
+A section has been added describing the Campaign server uninstallation steps. [Read more](../../installation/using/uninstalling-campaign.md)
 
-The [security](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html), [deliverability](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) and [privacy](https://helpx.adobe.com/campaign/kb/acc-privacy.html) getting started guides have been updated.
+The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [deliverability](../../delivery/using/deliverability-key-points.md) and [privacy](../../platform/using/privacy-management.md) getting started guides have been updated.
 
-The description of the pre-process workflow option has been updated to reflect product changes. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Action_activities.html#Data_loading__file_)
+The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../workflow/using/data-loading--file-.md)
 
-The Marketing Cloud Triggers technote has been updated. [Read more](https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html)
+The Marketing Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
 
-The list of error messages has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+The list of error messages has been updated. [Read more](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
-Added more information on SOAP authentication methods for transactional messaging. [Read more](https://docs.campaign.adobe.com/doc/AC/en/MCE_Introduction_Event_description.html)
+Added more information on SOAP authentication methods for transactional messaging. [Read more](../../message-center/using/event-description.md)
 
-The Apache configuration steps have been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Installing_Campaign_in_Linux__Integration_into_a_Web_server.html#Configuring_Apache_web_server_in_RHEL)
+The Apache configuration steps have been updated. [Read more](../../installation/using/integration-into-a-web-server-for-linux.md)
 
-A new page has been added including the list of endpoints for Campaign Standard and Classic. [Read more](https://helpx.adobe.com/campaign/kb/campaign-endpoints.html)
+A new page has been added including the list of endpoints for Campaign Standard and Classic. [Read more](../../installation/using/campaign-network-endpoints.md)
 
-The Data package best practices article has been updated. [Read more](https://helpx.adobe.com/campaign/kb/data-package-best-practices.html)
+The Data package best practices article has been updated. [Read more](../../configuration/using/data-model-best-practices.md)
 
-The Managing Offers documentation has been updated with a new section listing best practices. [Read more](https://docs.campaign.adobe.com/doc/AC/en/ITA_Interaction_Overview_Interaction_best_practices.html)
+The Managing Offers documentation has been updated with a new section listing best practices. [Read more](../../interaction/using/interaction-best-practices.md)
 
 A new Knowledge base article on using the offer catalog in Adobe Campaign Classic has been created. [Read more](https://helpx.adobe.com/campaign/kb/offer-best-practices.html)
 
@@ -408,30 +408,30 @@ The Sub-workflow activity section has been enhanced with an example of usage. [R
 
 The [Campaign Classic On-premise & Hosted capability matrix](../../installation/using/capability-matrix.md) page has been updated with information relating to Email BCC.
 
-The Transactional Messaging documentation has been updated with a note regarding template publication. [Read more](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
+The Transactional Messaging documentation has been updated with a note regarding template publication. [Read more](../../message-center/using/template-publication.md)
 
-The Unprocessed bounce mails section has been updated with more details on the Forwarding address and Address for errors fields. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Initial_configuration_Deploying_an_instance.html#Unprocessed_bounce_mails)
+The Unprocessed bounce mails section has been updated with more details on the Forwarding address and Address for errors fields. [Read more](../../installation/using/deploying-an-instance.md)
 
-A new section on workflow planning best practices has been added. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Workflow_best_practices.html#Execution_and_performance)
+A new section on workflow planning best practices has been added. [Read more](../../workflow/using/workflow-best-practices.md)
 
 Added two new options to the list of Campaign options: XtkSecurity_Restrict_EditXML and NmsOperation_OperationMgtDebug.
- [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_Configuring_Campaign_options.html)
+ [Read more](../../installation/using/configuring-campaign-options.md)
 
 Added information on the different external accounts available in Campaign Classic and how to configure them.
- [Read more](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html)
+ [Read more](../../installation/using/external-accounts.md)
 
 Updated Analytics Data Connector section to reflect interface changes.
- [Read more](https://docs.campaign.adobe.com/doc/AC/en/PTF_Connectors_Adobe_Analytics_Data_Connector.html)
+ [Read more](../../platform/using/adobe-analytics-data-connector.md)
 
 Added information on the Billing report.
- [Read more](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Monitoring_processes.html#Billing_report)
+ [Read more](../../production/using/monitoring-processes.md)
 
 Updated documentation on the Shared audiences integration.
- [Read more](https://docs.campaign.adobe.com/doc/AC/en/ITG_Audience_sharing_Configuring_shared_audiences_integration_in_Adobe_Campaign.html)
+ [Read more](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
 The following technotes have been updated: [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) and [Sequence auto generation](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
-The Technical workflows section has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WKF_Technical_workflows_About_technical_workflows.html)
+The Technical workflows section has been updated. [Read more](../../workflow/using/about-technical-workflows.md)
 
 The Campaign Domain Name Setup procedure has been improved and updated. [Read more](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
 
@@ -439,40 +439,38 @@ The Migration procedure for Android Apps from Google Cloud Messaging (GCM) to Fi
 
 The Campaign Hardware Sizing Guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.html)
 
-Information was added on Query Banding for the Teradata external account. [Read more](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#External_database_external_account)
+Information was added on Query Banding for the Teradata external account. [Read more](../../installation/using/external-accounts.md)
 
 ## January 2019{#release-doc-16-01-2019}
 
-The Marketing Cloud Triggers technote has been updated. [Read more](https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html)
+The Marketing Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
 
-A note was added in the offer approval section to specify  that the "Content approved" mention indicates that the content approval process has been achieved, whether all offers have been enabled/approved or not. [Read more](https://docs.campaign.adobe.com/doc/AC/en/ITA_Managing_an_offer_catalog_Approving_and_activating_an_offer.html#Approving_offer_content)
+A note was added in the offer approval section to specify  that the "Content approved" mention indicates that the content approval process has been achieved, whether all offers have been enabled/approved or not. [Read more](../../interaction/using/offer-catalog-overview.md)
 
-A new section was added in the Installation guide, listing options from the Administration / Platform / Options node. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_Configuring_Campaign_options.html)
+A new section was added in the Installation guide, listing options from the Administration / Platform / Options node. [Read more](../../installation/using/configuring-campaign-options.md)
 
-Information was added about the use of seed addresses to protect your mailing list. [Read more](https://docs.campaign.adobe.com/doc/AC/en/DLV_Using_seed_addresses_About_seed_addresses.html)
+Information was added about the use of seed addresses to protect your mailing list. [Read more](../../delivery/using/creating-seed-addresses.md)
 
 Key steps when creating and sending a delivery have been regrouped into a new section, with references to the various channels when needed. [Read more](../../delivery/using/steps-about-delivery-creation-steps.md)
 
-The [Email archiving](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html) section has been moved, reorganized and improved with clarified information:
+The [Email archiving](../../installation/using/email-archiving.md) section has been moved, reorganized and improved with clarified information:
 
-* Best practices have been added regarding emails per connection and BCC sending IPs parameters. [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Best_practices)
+* Best practices have been added regarding emails per connection and BCC sending IPs parameters.
 
-* We've updated the steps to upgrade to the new email archiving system (BCC) if you were already using email archiving with an older build (prior to Adobe Campaign 17.2 – build 8795). [Read more](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Updated_email_archiving_system__BCC_)
+* We've updated the steps to upgrade to the new email archiving system (BCC) if you were already using email archiving with an older build (prior to Adobe Campaign 17.2 – build 8795).
 
-A use case has been added to the Automating with Workflows guide: Sending personalized alerts to operators. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Sending_personalized_alerts_to_operators.html)
+A use case has been added to the Automating with Workflows guide: Sending personalized alerts to operators. [Read more](../../workflow/using/sending-personalized-alerts-to-operators.md)
 
-The "Migrating to a new version" section has been updated. The documentation now only details the steps for a migration to Adobe Campaign Classic v7 from any older version, as it is no longer possible to migrate to Adobe Campaign v6.11. [Read more](https://docs.campaign.adobe.com/doc/AC/en/MIG_Migration_overview_About_migration.html)
+The "Migrating to a new version" section has been updated. The documentation now only details the steps for a migration to Adobe Campaign Classic v7 from any older version, as it is no longer possible to migrate to Adobe Campaign v6.11. [Read more](../../migration/using/about-migration.md)
 
-The "Retries after a delivery temporary failure" section has been clarified. [Read more](https://docs.campaign.adobe.com/doc/AC/en/DLV_Monitoring_deliveries_Understanding_delivery_failures.html#Retries_after_a_delivery_temporary_failure)
+The "Retries after a delivery temporary failure" section has been clarified. [Read more](../../delivery/using/understanding-delivery-failures.md)
 
-Links to the "Digital Content Editor" section have been added to the "Defining the email content" section. [Read more](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_emails_Defining_the_email_content.html#Message_content)
+Links to the "Digital Content Editor" section have been added to the "Defining the email content" section. [Read more](../../delivery/using/defining-the-email-content.md)
 
-The "Transactional messaging architecture" section has been updated with a warning specifying that the control and the execution instances cannot be installed on the same machine. [Read more](https://docs.campaign.adobe.com/doc/AC/en/MCE_Introduction_Transactional_messaging_architecture.html)
+The "Transactional messaging architecture" section has been updated with a warning specifying that the control and the execution instances cannot be installed on the same machine. [Read more](../../message-center/using/transactional-messaging-architecture.md)
 
-The "Workflow monitoring" section has been updated with a note for builds between 8700 and 8977 (18.10), including a link to the technote on how to install the Workflow HeatMap package for these builds. [Read more](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Monitoring_processes.html#About_the_Workflow_HeatMap)
+The "Workflow monitoring" section has been updated with a note for builds between 8700 and 8977 (18.10), including a link to the technote on how to install the Workflow HeatMap package for these builds. [Read more](../../workflow/using/heatmap.md)
 
-Added a use case on how to send an email with custom data fields using the Enrichment activity in a workflow. [Read more](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Email_enrichment_with_custom_date_fields.html)
+Added a use case on how to send an email with custom data fields using the Enrichment activity in a workflow. [Read more](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 
 Feature videos have been moved [here](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html).
-
-Two technotes have been added on [Teradata](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) and [MySQL 5.7](https://helpx.adobe.com/campaign/kb/campaign_fda_mysql.html).

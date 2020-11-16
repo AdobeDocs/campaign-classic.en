@@ -1,8 +1,6 @@
 ---
 title: Campaign network endpoints
-seo-title: Campaign network endpoints
 description: Campaign network endpoints
-seo-description: 
 page-status-flag: never-activated
 uuid: be21ae4b-ca2a-4952-b256-cd8dc51309cf
 contentOwner: sauviat

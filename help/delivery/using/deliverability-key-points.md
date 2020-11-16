@@ -1,6 +1,6 @@
 ---
-title: Key points when managing deliverability in Adobe Campaign Classic
-description: What are the key points to check when managing deliverability in Adobe Campaign Classic?
+title: Deliverability key points
+description: key points to check to improve your deliverability
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat

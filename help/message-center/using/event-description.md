@@ -1,8 +1,6 @@
 ---
-title: Event description
-seo-title: Event description
-description: Event description
-seo-description: 
+title: Message center event description
+description: Learn more about transactional messaging event
 page-status-flag: never-activated
 uuid: 7b174ffd-28b2-4147-b992-e17b0b2cf733
 contentOwner: sauviat

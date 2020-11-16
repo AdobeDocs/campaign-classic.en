@@ -1,6 +1,6 @@
 ---
-title: About deliverability in Adobe Campaign Classic
-description: Learn more about managing deliverability in Adobe Campaign Classic.
+title: About deliverability in Campaign
+description: Learn deliverability best practices
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
