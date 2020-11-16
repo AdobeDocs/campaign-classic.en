@@ -1,8 +1,6 @@
 ---
 title: Configuring Campaign options
-seo-title: Configuring Campaign options
-description: Configuring Campaign options
-seo-description: 
+description: Learn how to configure Campaign options
 page-status-flag: never-activated
 uuid: 32e85e41-6898-4fb3-90c8-2201ceea2e91
 contentOwner: sauviat

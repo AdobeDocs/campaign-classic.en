@@ -67,7 +67,7 @@ To run the upgrade file, apply the following steps:
 
 1. Run **setup.exe**.
 
-   To download this file, go to the Adobe Campaign Support page ( [https://support.neolane.net/](https://support.neolane.net/)) via the **Download Center** link. 
+   To download this file, connect to the [Software distribution portal](https://experience.adobe.com/downloads) using your user credentials. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
 1. Select the installation mode: choose **[!UICONTROL Update or repair]** 
 1. Click **[!UICONTROL Next]** .
@@ -121,7 +121,7 @@ To find out how to update the client console, refer to [this section](../../inst
 
 ### Obtain updated packages {#obtain-updated-packages}
 
-Start by recovering both updated packages of Adobe Campaign: go to the Adobe Campaign Support page ( [https://support.neolane.net/](https://support.neolane.net/)) via the **Download Center** link.
+Start by recovering both updated packages of Adobe Campaign: connect to the [Software distribution portal](https://experience.adobe.com/downloads) using your user credentials. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
 The file is **nlserver6-v7-XXX.rpm**
 

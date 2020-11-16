@@ -1,8 +1,6 @@
 ---
 title: Offer catalog overview
-seo-title: Offer catalog overview
-description: Offer catalog overview
-seo-description: 
+description: Learn more about offer catalog in Campaign
 page-status-flag: never-activated
 uuid: 97b3bebc-4c82-42d3-ae6e-6642caa17687
 contentOwner: sauviat

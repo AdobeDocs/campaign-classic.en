@@ -1,8 +1,6 @@
 ---
 title: Uninstalling Campaign
-seo-title: Uninstalling Campaign
-description: Uninstalling Campaign
-seo-description: 
+description: Learn how to uninstall Campaign
 page-status-flag: never-activated
 uuid: 4e95a576-a2fe-41dd-a03d-e4a3120f8788
 contentOwner: sauviat

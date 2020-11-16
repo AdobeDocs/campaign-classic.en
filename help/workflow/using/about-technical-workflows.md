@@ -1,8 +1,6 @@
 ---
 title: About technical workflows
-seo-title: About technical workflows
-description: About technical workflows
-seo-description: 
+description: Campaign technical workflows list
 page-status-flag: never-activated
 uuid: 60b66853-ae4f-458d-bd62-076f2d7c965f
 contentOwner: sauviat

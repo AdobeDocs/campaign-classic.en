@@ -1,8 +1,6 @@
 ---
 title: Configuring shared audiences integration in Adobe Campaign
-seo-title: Configuring shared audiences integration in Adobe Campaign
-description: Configuring shared audiences integration in Adobe Campaign
-seo-description: 
+description: Learn how to configure shared audiences integration
 page-status-flag: never-activated
 uuid: 6ed137e4-027f-4eb0-a0b5-4beb7deef51f
 contentOwner: sauviat
