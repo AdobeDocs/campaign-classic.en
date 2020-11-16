@@ -62,6 +62,15 @@
         },
         {
             "pattern": "^.*marketing.adobe.com"
-        }          
+        },
+        {
+        	"pattern": "^.*console.campaign.net"
+        },
+        {
+         	"pattern": "^.*tracking.campaign.net"       
+        },
+        {
+        	"pattern": "^.*myserver.adobe.com" 
+        }        
     ]
 }
