@@ -435,14 +435,14 @@ To populate the values, several methods can be used:
 
 You should then ensure that you never sell to any third party the personal information of profiles who have opted-out.
 
-To change the opt-out status, go to **[!UICONTROL Profiles and Target]** > **[!UICONTROL Recipients]** and select a recipient. In the **[!UICONTROL General]** tab, you will see the field configured in the previous section.
+1. To change the opt-out status, go to **[!UICONTROL Profiles and Target]** > **[!UICONTROL Recipients]** and select a recipient. In the **[!UICONTROL General]** tab, you will see the field configured in the previous section.
 
-![](assets/privacy-ccpa-5.png)
+    ![](assets/privacy-ccpa-5.png)
 
-Configure the recipients list to display the op-out column. To learn how to configure lists, refer to the [detailed documentation](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+1. Configure the recipients list to display the op-out column. To learn how to configure lists, refer to the [detailed documentation](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
-![](assets/privacy-ccpa-6.png)
+    ![](assets/privacy-ccpa-6.png)
 
-You can click the column to sort recipients according to the opt-out information. You can also create a filter to only display recipients who have opted-out. For more on creating filters, see [this section](../../platform/using/creating-filters.md).
+1. You can click the column to sort recipients according to the opt-out information. You can also create a filter to only display recipients who have opted-out. For more on creating filters, see [this section](../../platform/using/creating-filters.md).
 
-![](assets/privacy-ccpa-7.png)
+    ![](assets/privacy-ccpa-7.png)
