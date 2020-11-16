@@ -55,7 +55,7 @@ Customers are advised to review if they make use of the feature/capability in th
   <td>iOS legacy binary<br></td>
   <td><p>Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated.<p>
   <p> If you are using this connector, you need to adapt your implementation accordingly.
-  <a href="https://helpx.adobe.com/campaign/kb/migrate-to-http2.html">Learn more</a></p>
+  <a href="https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html">Learn more</a></p>
   <p><em>Target removal date: 2021</em></p>
   </td>
  </tr>
