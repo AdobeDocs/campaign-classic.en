@@ -64,13 +64,16 @@
             "pattern": "^.*marketing.adobe.com"
         },
         {
-        	"pattern": "^.*console.campaign.net"
+        	"pattern": "*console.campaign.net/*"
         },
         {
          	"pattern": "^.*tracking.campaign.net"       
         },
         {
         	"pattern": "^.*myserver.adobe.com" 
-        }        
+        },
+        {
+        	"pattern": "^.*myserver.adobe.com" 
+        }
     ]
 }
