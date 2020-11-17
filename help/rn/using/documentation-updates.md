@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Classic Documentation Updates
-description: This page lists all the new features and documentation updates for each release of Adobe Campaign Classic.
+description: This page lists all the new features and documentation updates for each release of Adobe Campaign Classic
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -18,6 +18,12 @@ This page lists all the new features and documentation updates per month and Cam
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
 ## November 2020 {#nov-2020}
+
+Campaign data model overview has been improved and reorganized. [Read more](../../configuration/using/about-data-model.md).
+
+External account configuration has moved to [this section](../../installation/using/external-accounts.md).
+
+Campaign Federated Data Access (FDA) documentation has been improved with details for each external database configuration, and moved to [this section](../../installation/using/about-fda.md).
 
 [Campaign 20.2.3 release](../../rn/using/release--20-2.md#release-20-2-3-build-9182) has moved to General Availability (GA).
 

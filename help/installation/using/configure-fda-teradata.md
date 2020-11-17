@@ -79,7 +79,7 @@ The Teradata external account allows you to connect your Campaign instance to yo
 
 1. To configure the **[!UICONTROL Teradata]** external account, you must specify:
 
-     * **[!UICONTROL Type]**: Choose the **[!UICONTROL Teradata]** type.
+    * **[!UICONTROL Type]**: Choose the **[!UICONTROL Teradata]** type.
 
     * **[!UICONTROL Server]**: URL or name of your Teradata server
 
@@ -89,9 +89,9 @@ The Teradata external account allows you to connect your Campaign instance to yo
 
     * **[!UICONTROL Database]**: Name of the database (optional)
 
-    * * **[!UICONTROL Options]**: Options to be passed through Teradata. Use the following format: 'parameter=value'. Use a semi-column as separator between values.
+    * **[!UICONTROL Options]**: Options to be passed through Teradata. Use the following format: 'parameter=value'. Use a semi-column as separator between values.
 
-    * * **[!UICONTROL Timezone]**: Timezone set in Teradata. [Learn more](#timezone)
+    * **[!UICONTROL Timezone]**: Timezone set in Teradata. [Learn more](#timezone)
 
 ### Query banding
 

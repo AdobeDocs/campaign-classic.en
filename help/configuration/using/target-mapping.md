@@ -1,8 +1,6 @@
 ---
 title: Target mapping
-seo-title: Target mapping
-description: Target mapping
-seo-description: 
+description: Learn how to create a target mapping
 page-status-flag: never-activated
 uuid: a7dad8eb-c191-4f10-b7d8-63e0699603b7
 contentOwner: sauviat
