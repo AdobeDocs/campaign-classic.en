@@ -26,7 +26,7 @@ Key steps are:
 
 1. [Configure the Android external account](#configuring-external-account-android)
 1. [Configure the Android service](#configuring-android-service)
-1. [Create the mobile app in Campaign]({#creating-android-app)
+1. [Create the mobile app in Campaign](#creating-android-app)
 1. [Extend the app schema with additional data](#extend-subscription-schema)
 
 You will then be able to [create an Android rich notification](#creating-android-delivery).
