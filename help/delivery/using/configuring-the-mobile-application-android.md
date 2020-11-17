@@ -95,11 +95,7 @@ After creating your service, you now need to create your Android application:
     >
     > The **[!UICONTROL Integration key]** is fully customizable with string value but needs to be exactly the same as the one specified in the SDK.
 
-1. Select the **[!UICONTROL API version]**:
-
-   * HTTPV1. Configuration is detailed in this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
-   * HTTP (legacy). Configuration is detailed in this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
-
+1. Select the **[!UICONTROL API version]**: HTTP v1 or HTTP (legacy). These configurations are detailed in [this section](#select-api-version)
 
 1. Fill in the **[!UICONTROL Firebase Cloud Messaging the Android connection settings]** fields.
 
@@ -111,9 +107,10 @@ By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (
 
 After creating service and a new mobile application, you need to configure your mobile application depending on the chosen API version.
 
-For more information on service and mobile application creations, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service)
+* **HTTP v1** configuration is detailed in this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+* **HTTP (legacy)** configuration is detailed in this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
 
-#### Use HTTP v1 API version{#android-service-httpv1}
+#### Configure HTTP v1 API{#android-service-httpv1}
 
 To configure the HTTP v1 API version, follow the steps below:
 
@@ -150,7 +147,7 @@ Below are the FCM payload names to further personalize your push notification:
 <br>
 <br>
 
-#### HTTP API version{#android-service-http}
+#### Configure HTTP (legacy) API{#android-service-http}
 
 To configure the HTTP (legacy) API version, follow the steps below:
 
