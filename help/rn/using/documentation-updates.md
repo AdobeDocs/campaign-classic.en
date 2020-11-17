@@ -21,7 +21,9 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 [Campaign 20.2.3 release](../../rn/using/release--20-2.md#release-20-2-3-build-9182) has moved to General Availability (GA).
 
-The Privacy section has been moved and enriched with two new sections: [Privacy management](../../platform/using/privacy-management.md) and [Managing privacy requests](../../platform/using/privacy-requests.md).
+The Privacy section has been moved and enriched with two new pages: [Privacy management](../../platform/using/privacy-management.md) and [Managing privacy requests](../../platform/using/privacy-requests.md).
+
+A note has been added in the mid-sourcing server configuration page to specify that the external account's internal name should not be updated once the server has been setup. [Read more](../../installation/using/mid-sourcing-server.md)
 
 ## October 2020 {#oct-2020}
 

@@ -123,7 +123,7 @@ The steps to perform this use case are as follows:
     ```
     var cmd='gpg ';
     cmd += ' --trust-model always';
-    cmd += ' --batch -yes';
+    cmd += ' --batch --yes';
     cmd += ' --recipient fingerprint';
     cmd += ' --encrypt --output ' + vars.filename + '.gpg ' + vars.filename;
     execCommand(cmd,true);

@@ -75,7 +75,7 @@ Before creating Privacy requests, you need to define the namespace you will use.
 
 Three namespaces are available out-of-the-box: email, phone and mobile phone. If you need a different namespace (a recipient custom field, for example), you can create a new one from **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
 
-## Creating a privacy request {#create-privacy-request-ui}
+## Creating a Privacy request {#create-privacy-request-ui}
 
 The **Adobe Campaign interface** allows you to create your Privacy requests and track their evolution. To create a new Privacy request, follow these instructions:
 
@@ -122,7 +122,7 @@ If you created custom tables that have a link to the recipient table (own type),
 >If you perform Privacy batch requests using profile deletion workflows, please take into consideration the following remarks:
 >* Profile deletion via workflows do not process children tables.
 >* You need to handle the deletion for all the children tables.
->* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** perform the deletion. We suggest to limit to 200 profiles per day to delete for performance reasons.
+>* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. We suggest to limit to 200 profiles per day to delete for performance reasons.
 
 ### Privacy request statuses {#privacy-request-statuses}
 
@@ -435,14 +435,14 @@ To populate the values, several methods can be used:
 
 You should then ensure that you never sell to any third party the personal information of profiles who have opted-out.
 
-To change the opt-out status, go to **[!UICONTROL Profiles and Target]** > **[!UICONTROL Recipients]** and select a recipient. In the **[!UICONTROL General]** tab, you will see the field configured in the previous section.
+1. To change the opt-out status, go to **[!UICONTROL Profiles and Target]** > **[!UICONTROL Recipients]** and select a recipient. In the **[!UICONTROL General]** tab, you will see the field configured in the previous section.
 
-![](assets/privacy-ccpa-5.png)
+    ![](assets/privacy-ccpa-5.png)
 
-Configure the recipients list to display the op-out column. To learn how to configure lists, refer to the [detailed documentation](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+1. Configure the recipients list to display the op-out column. To learn how to configure lists, refer to the [detailed documentation](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
-![](assets/privacy-ccpa-6.png)
+    ![](assets/privacy-ccpa-6.png)
 
-You can click the column to sort recipients according to the opt-out information. You can also create a filter to only display recipients who have opted-out. For more on creating filters, see [this section](../../platform/using/creating-filters.md).
+1. You can click the column to sort recipients according to the opt-out information. You can also create a filter to only display recipients who have opted-out. For more on creating filters, see [this section](../../platform/using/creating-filters.md).
 
-![](assets/privacy-ccpa-7.png)
+    ![](assets/privacy-ccpa-7.png)
