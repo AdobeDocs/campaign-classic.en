@@ -1,8 +1,6 @@
 ---
 title: Extending a schema
-seo-title: Extending a schema
-description: Extending a schema
-seo-description: 
+description: Learn how to extend a schema
 page-status-flag: never-activated
 uuid: 1767b9de-1d72-4ece-aeec-87f83862d81c
 contentOwner: sauviat

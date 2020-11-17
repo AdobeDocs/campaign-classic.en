@@ -1,8 +1,6 @@
 ---
 title: About schema edition
-seo-title: About schema edition
-description: About schema edition
-seo-description: 
+description: Get started with schema edition
 page-status-flag: never-activated
 uuid: edb4d47d-b507-4d86-9873-ebd5f6acefc6
 contentOwner: sauviat
