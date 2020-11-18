@@ -31,6 +31,8 @@ The Privacy section has been moved and enriched with two new pages: [Privacy man
 
 A note has been added in the mid-sourcing server configuration page to specify that the external account's internal name should not be updated once the server has been setup. [Read more](../../installation/using/mid-sourcing-server.md)
 
+Information has been added on the syntax to use when specifying a path to an external SFTP server. [Read more](../../platform/using/sftp-server-usage.md#external-SFTP-server)
+
 ## October 2020 {#oct-2020}
 
 **New capabilities included in 20.3 release**

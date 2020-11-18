@@ -13,11 +13,27 @@ discoiquuid: f449ccd5-3965-4ab8-b5a9-993f3260aba9
 
 # SFTP server best practices and troubleshooting {#sftp-server-usage}
 
-## SFTP server best practices {#sftp-server-best-practices}
+## SFTP server global recommendations {#global-recommendations}
 
-When managing files and data for ETL purposes, these files are stored on a hosted SFTP server provided by Adobe. This SFTP is designed to be a temporary storage space on which you can control retention and deletion of files.
+When managing files and data for ETL purposes, these files are stored on a hosted SFTP server provided by Adobe. Make sure you follow the recommendations below when using SFTP servers.
 
-When not correctly used or monitored, this space can quickly fill the physical space available on the server and lead to files being truncated on subsequent uploads. Once the space saturated, automatic purge may trigger and erase oldest files from the SFTP storage.
+* Use key based authentication rather than password authentication, in order to avoid password expiration (passwords have a validity period of 90 days). Moreover, key based authentication lets you generate multiple keys, for example when managing multiple entities. On the contrary, password authentication requires that you share the password with all the entities you are managing.
+
+  The supported key format is SSH-2 RSA 2048. Keys can be generated with tools like PyTTY (Windows), or ssh-keygen (Unix).You will have to provide the public key to Adobe Support team via [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to have it uploaded on the Campaign server. 
+
+* Use batching in SFTP uploads as well as in workflows.
+
+* Handle errors/exceptions.
+
+* By default, all the folders you create are in Read/Write mode for your identifier only. When creating folders that need to be accessed by Campaign, make sure to configure them with Read/write rights for the whole group. Otherwise, workflows may not be able to create / delete files as they are run under a different identifier within the same group for security reasons.
+
+* The public IPs from which you are trying to initiate the SFTP connection must be added to the allowlist on the Campaign instance. Adding IP addresses to the allowlist can be requested via [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
+## Database usage best practices {#sftp-server-best-practices}
+
+SFTP severs are designed to be temporary storage spaces on which you can control retention and deletion of files.
+
+When not correctly used or monitored, these spaces can quickly fill the physical space available on the server and lead to files being truncated on subsequent uploads. Once the space saturated, automatic purge may trigger and erase oldest files from the SFTP storage.
 
 To avoid such problems, Adobe recommends following the best practices below.
 
@@ -28,21 +44,21 @@ To avoid such problems, Adobe recommends following the best practices below.
 >To check if your instance is hosted on AWS, follow the steps detailed in [this section](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id) .
 
 * The server size capabilities vary according to your license. In any case, keep the minimum data possible, and keep data for only as long as required (15 days is the maximum time limit).
-* Use key based authentication rather than password authentication, in order to avoid password expiration (passwords have a validity period of 90 days). Moreover, key based authentication lets you generate multiple keys, for example when managing multiple entities. On the contrary, password authentication requires that you share the password with all the entities you are managing.
-
-  The supported key format is SSH-2 RSA 2048. Keys can be generated with tools like PyTTY (Windows), or ssh-keygen (Unix).You will have to provide the public key to Adobe Support team via [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to have it uploaded on the Campaign server. 
 
 * Use workflows to properly delete the data (manage the retention from workflows consuming the data).
-* Use batching in SFTP uploads as well as in workflows.
-* Handle errors/exceptions.
-* Occasionally, log-in to SFTP to directly check what is lying there.
-* Remember that SFTP disk management is primarily your responsibility.
-* By default, all the folders you create are in Read/Write mode for your identifier only. When creating folders that need to be accessed by Campaign, make sure to configure them with Read/write rights for the whole group. Otherwise, workflows may not be able to create / delete files as they are run under a different identifier within the same group for security reasons.
-* The public IPs from which you are trying to initiate the SFTP connection must be added to the allowlist on the Campaign instance. Adding IP addresses to the allowlist can be requested via [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
->[!CAUTION]
->
->If you use your own SFTP server, make sure to follow the recommendations above as much as possible.
+* Occasionally, log-in to SFTP to directly check what is lying there.
+
+* Remember that SFTP disk management is primarily your responsibility.
+
+## External SFTP server usage {#external-SFTP-server}
+
+If you use your own SFTP server, make sure you follow the recommendations above as much as possible.
+
+Moreover, when specifying in Campaign Classic a path to an external SFTP server, the path syntax differ according to the SFTP server operating system:
+
+* If your SFTP server is on **Windows**, always use a relative path.
+* If your STP server is on **Linux**, always use a path that is relative to the home (starting with "~/"), or an absolute path (starting with "/").
 
 ## Connection issues with Adobe hosted SFTP server {#sftp-server-troubleshooting}
 
