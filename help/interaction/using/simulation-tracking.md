@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Simulation tracking
-seo-title: Simulation tracking
 description: Simulation tracking
-seo-description: 
-page-status-flag: never-activated
-uuid: 8979eb5b-596b-4308-87a1-126afcfb6e0c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-discoiquuid: a557026c-3b6a-4302-a042-0015449eaca5
 ---
 
 # Simulation tracking{#simulation-tracking}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Sharing audiences with Adobe Experience Cloud
-seo-title: Sharing audiences with Adobe Experience Cloud
 description: Sharing audiences with Adobe Experience Cloud
-seo-description: 
-page-status-flag: never-activated
-uuid: 24ac3463-69ab-48b4-85e0-4fe1948bf5ed
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-discoiquuid: 8f295058-5a78-4512-9bdf-d5f022457e10
 ---
 
 # Sharing audiences with Adobe Experience Cloud{#sharing-audiences-with-adobe-experience-cloud}

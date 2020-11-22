@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating web tracking tags
-seo-title: Creating web tracking tags
 description: Creating web tracking tags
-seo-description: 
-page-status-flag: never-activated
-uuid: c5599bdd-e6b8-4db4-b0ca-aaee2adc1919
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: 647ca037-4efb-4524-9642-11056d096aea
 ---
 
 # Creating web tracking tags{#creating-web-tracking-tags}

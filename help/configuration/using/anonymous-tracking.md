@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Anonymous tracking
-seo-title: Anonymous tracking
 description: Anonymous tracking
-seo-description: 
-page-status-flag: never-activated
-uuid: 21ba3657-eabf-4228-9fc0-e72712bf8fe7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: 2d2c6ae9-4dba-4b82-a25e-eda65a49572d
 ---
 
 # Anonymous tracking{#anonymous-tracking}

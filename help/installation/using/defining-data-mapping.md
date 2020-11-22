@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Accessing an external database
-seo-title: Accessing an external database
 description: Accessing an external database
-seo-description: 
-page-status-flag: never-activated
-uuid: b84359b9-c584-431d-80d5-71146d9b6854
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 ---
 
 # Defining data mapping {#defining-data-mapping}

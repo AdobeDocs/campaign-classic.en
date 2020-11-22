@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic transactional messaging architecture
 description: This section describes the Adobe Campaign Classic transactional messaging architecture.
-page-status-flag: never-activated
-uuid: a8fe7a37-6df7-49f4-838f-97a72e4a38f3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: introduction
-discoiquuid: a910d5fe-cef4-47d8-b3bc-0055ef0d1afd
 ---
 
 # Transactional messaging architecture{#transactional-messaging-architecture}

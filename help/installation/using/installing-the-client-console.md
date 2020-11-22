@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Installing the client console
 description: Learn how to install the client console
-page-status-flag: never-activated
-uuid: 1279c0d8-bf27-4a58-ae94-796d6147231a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-discoiquuid: d1069b23-e08d-43c5-bbfb-3158ac40dc7e
 ---
 
 # Installing Campaign client console{#installing-the-client-console}

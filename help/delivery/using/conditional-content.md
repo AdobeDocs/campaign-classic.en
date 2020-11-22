@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Conditional content
-seo-title: Conditional content
 description: Conditional content
-seo-description: 
-page-status-flag: never-activated
-uuid: d1c38263-a163-448c-8822-8b3e776e45cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: 167cc61a-fbc7-48cb-89ff-fbdbf9321c01
 ---
 
 # Conditional content{#conditional-content}

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Upgrading to a new build
 description: Learn technical steps to upgrade to a new build
-page-status-flag: never-activated
-uuid: f24552d4-6bdf-411c-a1f2-b8f339c311f4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 ---
 
 # Upgrading to a new build (on-premise){#upgrading}

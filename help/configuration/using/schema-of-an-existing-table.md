@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Schema of an existing table
-seo-title: Schema of an existing table
 description: Schema of an existing table
-seo-description: 
-page-status-flag: never-activated
-uuid: cb766259-8ed7-40a1-8df7-75a8a3f9986d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 6877d94d-d6e5-4080-a537-ef1bb6e6f8cf
 ---
 
 # Schema of an existing table{#schema-of-an-existing-table}

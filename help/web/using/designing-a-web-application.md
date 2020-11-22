@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Designing a web application
-seo-title: Designing a web application
 description: Designing a web application
-seo-description: 
-page-status-flag: never-activated
-uuid: 29c11154-f056-4047-849a-739ba0a2c615
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-applications
-discoiquuid: 08efa472-d090-404d-9ad7-47adb3489c30
 ---
 
 # Designing a web application{#designing-a-web-application}

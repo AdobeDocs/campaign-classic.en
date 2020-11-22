@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Workflow execution
-seo-title: Workflow execution
 description: Workflow execution
-seo-description: 
-page-status-flag: never-activated
-uuid: 115256f6-bdf2-4594-885c-e90d02a25b80
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 7d8828c5-5776-49ca-b4f7-a4a6aaaa9db1
 ---
 
 # Workflow execution{#workflow-execution}

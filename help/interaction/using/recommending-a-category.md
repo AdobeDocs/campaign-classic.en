@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Recommending a category
-seo-title: Recommending a category
 description: Recommending a category
-seo-description: 
-page-status-flag: never-activated
-uuid: d6bda8bb-003b-45cf-8f68-928f41bec959
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-discoiquuid: d52c3e72-bac0-48d9-9750-0a30aa816b83
 ---
 
 # Recommending a category{#recommending-a-category}

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Offer catalog overview
 description: Learn more about offer catalog in Campaign
-page-status-flag: never-activated
-uuid: 97b3bebc-4c82-42d3-ae6e-6642caa17687
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-discoiquuid: 762b0233-4b2a-420c-ba28-240cfba362e8
 ---
 
 # Offer catalog overview{#offer-catalog-overview}

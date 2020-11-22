@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About inbound channels
-seo-title: About inbound channels
 description: About inbound channels
-seo-description: 
-page-status-flag: never-activated
-uuid: 4224282b-f05f-400e-82f9-9ee9d7a8b443
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-discoiquuid: 9469495c-9e46-4fd8-826d-1b7227326ce1
 ---
 
 # About inbound channels{#about-inbound-channels}

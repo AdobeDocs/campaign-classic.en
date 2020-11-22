@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Failure to connect
-seo-title: Failure to connect
 description: Failure to connect
-seo-description: 
-page-status-flag: never-activated
-uuid: 5e4cf47d-9699-4b4c-9c45-064fdc17110a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 493067fb-68f1-48b9-afaa-3127a847db83
 ---
 
 # Failure to connect{#failure-to-connect}

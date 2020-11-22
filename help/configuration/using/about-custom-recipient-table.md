@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About custom recipient table
-seo-title: About custom recipient table
 description: About custom recipient table
-seo-description: 
-page-status-flag: never-activated
-uuid: 4b162da4-90d2-44ff-9f89-ff0275540359
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: c3ff8462-e47e-4637-8213-769fdeb86a57
 ---
 
 # About custom recipient table{#about-custom-recipient-table}

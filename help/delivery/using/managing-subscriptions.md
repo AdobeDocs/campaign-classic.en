@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Managing subscriptions
-seo-title: Managing subscriptions
 description: Managing subscriptions
-seo-description: 
-page-status-flag: never-activated
-uuid: a2c526fa-3080-4dd5-9628-f0e7040f93cd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
-discoiquuid: 9a61fe74-f779-4f23-be25-3d9a8e95704a
 ---
 
 # Managing subscriptions{#managing-subscriptions}

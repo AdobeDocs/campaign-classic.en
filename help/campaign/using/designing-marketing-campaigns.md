@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Designing marketing campaigns
-seo-title: Designing marketing campaigns
 description: Define, optimize, execute and analyse marketing campaigns.
-seo-description: 
-page-status-flag: never-activated
-uuid: e0fd5df6-7516-4ca6-bbdf-243a264d0283
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
-discoiquuid: a9eb6627-2e51-42d0-9b29-5b798bdf5b33
 ---
 
 # Designing marketing campaigns{#designing-marketing-campaigns}

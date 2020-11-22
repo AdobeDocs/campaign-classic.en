@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Personalization data
-seo-title: Personalization data
 description: Personalization data
-seo-description: 
-page-status-flag: never-activated
-uuid: d3d66216-502a-410b-b062-fb413eb9363f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-discoiquuid: 2cd8a320-37e8-410a-b71b-0c13c8e15482
 ---
 
 # Personalization data{#personalization-data}

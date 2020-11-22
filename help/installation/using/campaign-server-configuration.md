@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Campaign server configuration
-seo-title: Campaign server configuration
 description: Campaign server configuration
-seo-description: 
-page-status-flag: never-activated
-uuid: a1fadad2-e888-4dd8-bc1f-04df16ba7d46
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: f296676e-3bf1-47da-8239-f5ae54e52fc0
 ---
 
 # Campaign server configuration{#campaign-server-configuration}

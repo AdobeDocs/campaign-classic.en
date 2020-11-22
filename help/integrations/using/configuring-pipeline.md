@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring the pipeline
 description: Learn how to configure the pipeline
-page-status-flag: never-activated
-uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 ---
 
 # Configuring pipeline {#configuring-pipeline}

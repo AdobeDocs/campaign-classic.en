@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About web services
 description: About web services
-page-status-flag: never-activated
-uuid: f0b21cb3-aa75-4f54-a9f5-64e880f93e53
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: 65919173-3ce0-4d98-936b-f4581df536ae
 ---
 
 # About web services{#about-web-services}

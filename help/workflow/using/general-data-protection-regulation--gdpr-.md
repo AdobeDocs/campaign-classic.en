@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Privacy Data Protection Regulation workflows
 description: Learn more about the Privacy Data Protection Regulation workflows
-page-status-flag: never-activated
-uuid: cb5f5d79-52ac-4ce4-abc7-a3a1f0a001cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: 050c804e-87b7-4d68-b787-c396fec329d2
 ---
 
 # Privacy Data Protection Regulation{#general-data-protection-regulation-gdpr}

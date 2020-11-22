@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Applying rules
-seo-title: Applying rules
 description: Applying rules
-seo-description: 
-page-status-flag: never-activated
-uuid: 4472fc0d-d717-4603-8472-bdaf2835a02a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
 ---
 
 # Applying rules{#applying-rules}

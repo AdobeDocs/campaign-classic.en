@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: SMS channel
-seo-title: SMS channel
 description: SMS channel
-seo-description: 
-page-status-flag: never-activated
-uuid: be6a2abc-ba5c-4363-bf38-cc309ee3a8d9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-discoiquuid: 8b101c0b-3611-4f15-813b-7c0bf54fc48a
 ---
 
 # SMS channel{#sms-channel}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Examples
-seo-title: Examples
 description: Examples
-seo-description: 
-page-status-flag: never-activated
-uuid: bfc9bb13-500b-4435-b56a-550588a240bb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-discoiquuid: 7b0aef75-345d-45be-b7d0-a9f6944ee678
 ---
 
 # Examples{#examples}

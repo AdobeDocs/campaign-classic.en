@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Marketing campaign deliveries
 description: Learn more about marketing campaign deliveries
-page-status-flag: never-activated
-uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 ---
 
 # Marketing campaign deliveries {#marketing-campaign-deliveries}

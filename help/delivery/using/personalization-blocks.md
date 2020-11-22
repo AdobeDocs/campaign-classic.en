@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Personalization blocks
-seo-title: Personalization blocks
 description: Personalization blocks
-seo-description: 
-page-status-flag: never-activated
-uuid: f9867f8d-f6ce-4a5f-b6b4-fd8056d28576
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
 ---
 
 # Personalization blocks{#personalization-blocks}

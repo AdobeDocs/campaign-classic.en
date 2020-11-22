@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Template management
-seo-title: Template management
 description: Template management
-seo-description: 
-page-status-flag: never-activated
-uuid: 1f76d1f1-c1a6-493a-bb8c-178712f2a32f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-discoiquuid: 12b2d22b-ac6d-4ddd-a8cb-57bc56df4281
 ---
 
 # Template management{#template-management}

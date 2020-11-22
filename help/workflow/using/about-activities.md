@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About activities
-seo-title: About activities
 description: About activities
-seo-description: 
-page-status-flag: never-activated
-uuid: f71620c3-048b-462c-bb87-cfb454d93498
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: introduction
-discoiquuid: 96c0ffae-b7b8-4346-bf20-963aa233438f
 ---
 
 # About activities{#about-activities}

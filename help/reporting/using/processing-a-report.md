@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Processing a report
-seo-title: Processing a report
 description: Processing a report
-seo-description: 
-page-status-flag: never-activated
-uuid: af8f1101-135f-49ce-bada-bd19fe32053b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
-discoiquuid: 667746cb-b553-4a71-8523-6b2695047ab6
 ---
 
 # Using an analysis report{#processing-a-report}

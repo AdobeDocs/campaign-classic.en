@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Analytics Data Connector
-seo-title: Adobe Analytics Data Connector
 description: Adobe Analytics Data Connector
-seo-description: 
-page-status-flag: never-activated
-uuid: 5a1de443-04de-49a8-9057-5d8381e48630
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: 5ff1577f-0809-46fd-ac1e-11b24637e35c
 ---
 
 # Adobe Analytics Data Connector{#adobe-analytics-data-connector}

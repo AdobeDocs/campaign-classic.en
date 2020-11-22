@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Understanding quarantine management
-seo-title: Understanding quarantine management
 description: Understanding quarantine management
-seo-description: 
-page-status-flag: never-activated
-uuid: 9421e26c-bdcc-4588-8e44-fa6f31051081
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 ---
 
 # Understanding quarantine management{#understanding-quarantine-management}

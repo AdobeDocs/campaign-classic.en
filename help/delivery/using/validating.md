@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Validating
-seo-title: Validating
 description: Validating
-seo-description: 
-page-status-flag: never-activated
-uuid: e3cd96ef-4f5d-4e17-9fec-5eaa4d835cb1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-discoiquuid: c363a7cf-81a5-4c02-a021-b822eeeadd03
 ---
 
 # Validating{#validating}

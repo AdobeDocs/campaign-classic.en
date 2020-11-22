@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Scheduler
 description: Learn more about the Scheduler workflow activity
-page-status-flag: never-activated
-uuid: e814b978-2edd-442e-9334-9633bc9ec63a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: 093dbe8a-494f-4fe7-8614-3bf58486e34c
 ---
 
 # Scheduler {#scheduler}

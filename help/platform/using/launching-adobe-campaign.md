@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Launching Adobe Campaign
-seo-title: Launching Adobe Campaign
 description: Launching Adobe Campaign
-seo-description: 
-page-status-flag: never-activated
-uuid: c1c5bb0d-ae8e-4b0e-ab39-8b2291162557
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 ---
 
 # Launching Adobe Campaign{#launching-adobe-campaign}

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Time constraint
 description: Learn more about the Time constraint workflow activity
-page-status-flag: never-activated
-uuid: 63bde1af-dd78-4fca-b3b9-edb1b64552cd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: 798409af-b236-4bb5-ac0f-90f0a19db345
 ---
 
 # Time constraint{#time-constraint}

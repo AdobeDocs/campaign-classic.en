@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Technical recommendations for improving deliverability with Adobe Campaign Classic
 description: Discover techniques, configurations, and tools that you can use to improve your deliverability rate with Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: 71be1087-e5ff-4a7a-85ca-36803839e72f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
 ---
 
 # Technical recommendations{#technical-recommendations}

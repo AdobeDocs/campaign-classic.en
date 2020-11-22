@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: "Use cases: web forms"
-seo-title: "Use cases: web forms"
 description: "Use cases: web forms"
-seo-description: 
-page-status-flag: never-activated
-uuid: b2c3f171-325e-4913-a188-a791bad0df2e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
 ---
 
 # Use cases: web forms{#use-cases-web-forms}

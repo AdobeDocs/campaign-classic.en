@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About web forms
-seo-title: About web forms
 description: About web forms
-seo-description: 
-page-status-flag: never-activated
-uuid: 1d129af4-008b-4f6a-9094-b2edd6c1eee1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: 3b8e4691-fcbc-48ef-b529-11c9a9a9d788
 ---
 
 # About web forms{#about-web-forms}

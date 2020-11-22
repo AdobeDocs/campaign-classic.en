@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Viral and social marketing
-seo-title: Viral and social marketing
 description: Viral and social marketing
-seo-description: 
-page-status-flag: never-activated
-uuid: dca3db7e-cc8d-42ca-b1b8-45e9fb739c97
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
-discoiquuid: 66f2b229-92d9-4db1-97a4-2d9eb2270446
 ---
 
 # Viral and social marketing{#viral-and-social-marketing}

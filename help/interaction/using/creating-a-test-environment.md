@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a test environment
-seo-title: Creating a test environment
 description: Creating a test environment
-seo-description: 
-page-status-flag: never-activated
-uuid: 60ce42d5-6c0c-4a0d-bfd6-c778b42563a7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-discoiquuid: 7a92bc51-24cf-4ce6-bd50-a315f8f6e34e
 ---
 
 # Creating a test environment{#creating-a-test-environment}

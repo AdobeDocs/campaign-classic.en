@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a new report
 description: Learn key steps to create a new report
-page-status-flag: never-activated
-uuid: dcea5c28-da09-4a31-a13c-c8995c6faa63
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: 22c92ddf-fbea-49d3-afd4-1ba427be399d
 ---
 
 # Creating a new report{#creating-a-new-report}

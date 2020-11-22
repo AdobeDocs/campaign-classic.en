@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Message center event description
 description: Learn more about transactional messaging event
-page-status-flag: never-activated
-uuid: 7b174ffd-28b2-4147-b992-e17b0b2cf733
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: introduction
-discoiquuid: 3c8388d8-1a91-4d16-a8ac-016f643c6009
 ---
 
 # Event description{#event-description}

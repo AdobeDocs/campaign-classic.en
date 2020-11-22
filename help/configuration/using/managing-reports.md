@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Managing reports
-seo-title: Managing reports
 description: Managing reports
-seo-description: 
-page-status-flag: never-activated
-uuid: 3b8e6f11-4cbd-450e-871b-50fd0ead96db
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: 21777423-0c8a-4bb1-b210-972f660648bd
 ---
 
 # Managing reports{#managing-reports}

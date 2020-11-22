@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Use your Adobe ID in Campaign
 description: Learn more about Adobe IMS integration
-page-status-flag: never-activated
-uuid: d88f70f7-637a-4609-8747-784700b6ca1a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-discoiquuid: c988362b-432e-4f9f-8d36-00b3d0015756
 ---
 
 # About Adobe ID{#about-adobe-id}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating an Experience Manager newsletter
-seo-title: Creating an Experience Manager newsletter
 description: Creating an Experience Manager newsletter
-seo-description: 
-page-status-flag: never-activated
-uuid: 75cf4891-06a6-42d2-9b22-b4d93e0dc64a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-discoiquuid: 627ade78-96b3-4a6e-9ace-74610a3c8d1a
 ---
 
 # Creating an Experience Manager newsletter{#creating-an-experience-manager-newsletter}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuration
-seo-title: Configuration
 description: Configuration
-seo-description: 
-page-status-flag: never-activated
-uuid: 0f2aadc3-5199-476c-9956-6e39b899a7d0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
-discoiquuid: b781fd52-828c-4582-a546-a1fee7e5a26d
 ---
 
 # Configuration{#configuration}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About campaign typologies
-seo-title: About campaign typologies
 description: About campaign typologies
-seo-description: 
-page-status-flag: never-activated
-uuid: ec89fb14-7e2f-4e9f-b7ab-3c2caf93a697
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-discoiquuid: 72c5151c-ce1e-425a-9aee-beefe9f21a67
 ---
 
 # About campaign typologies{#about-campaign-typologies}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Offers on an inbound channel
-seo-title: Offers on an inbound channel
 description: Offers on an inbound channel
-seo-description: 
-page-status-flag: never-activated
-uuid: 45cfc990-da38-451b-b65e-e9703e443a4d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: case-study
-discoiquuid: 63245348-0402-4929-9c4f-71f01f97758e
 ---
 
 # Offers on an inbound channel{#offers-on-an-inbound-channel}

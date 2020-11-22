@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring SpamAssassin
-seo-title: Configuring SpamAssassin
 description: Configuring SpamAssassin
-seo-description: 
-page-status-flag: never-activated
-uuid: 327548c0-d621-4417-9fc9-b0bf30251dc0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: aa37bdc6-0f85-4eca-859f-e8b15083cfb5
 ---
 
 # Configuring SpamAssassin{#configuring-spamassassin}

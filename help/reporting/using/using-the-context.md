@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Using the context
-seo-title: Using the context
 description: Using the context
-seo-description: 
-page-status-flag: never-activated
-uuid: ac8c7068-d640-4934-b7f5-bc91b98eab4c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: 72fe6df0-0271-48f9-bd6d-bb1ff25fbdf3
 ---
 
 # Using the context{#using-the-context}

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Update aggregate
 description: Learmore about the Update aggregate workflow activity
-page-status-flag: never-activated
-uuid: 34ae42e1-da34-43be-b219-0b3b872177b3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 031f8d5d-940c-4a4c-97e7-ad4ef61983c1
 ---
 
 # Update aggregate{#update-aggregate}

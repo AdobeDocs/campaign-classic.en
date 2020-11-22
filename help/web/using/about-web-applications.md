@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About web applications
 description: Create and share dynamic Web applications, landing pages and surveys.
-page-status-flag: never-activated
-uuid: acfa6e5e-b503-4a1a-871e-e70007874f57
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-applications
-discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
 ---
 
 # Get started with web applications{#about-web-applications}

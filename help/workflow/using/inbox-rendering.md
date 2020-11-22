@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Inbox rendering technical workflow
 description: This section describes the technical workflow installed with the Inbox rendering package
-page-status-flag: never-activated
-uuid: f60a09f0-47a0-4fc0-b0ac-47178af6ad55
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: da0779dc-b734-483b-81e9-ff4706a2b6de
 ---
 
 # Inbox rendering (IR){#inbox-rendering}

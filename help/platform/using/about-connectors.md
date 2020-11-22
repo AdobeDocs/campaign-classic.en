@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About connectors
-seo-title: About connectors
 description: About connectors
-seo-description: 
-page-status-flag: never-activated
-uuid: 2596fabc-679a-45c8-a62a-165c221654b7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
 ---
 
 # About connectors{#about-connectors}

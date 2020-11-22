@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating predefined filters
-seo-title: Creating predefined filters
 description: Creating predefined filters
-seo-description: 
-page-status-flag: never-activated
-uuid: cc09435c-4c9f-436c-8648-3a9c5e20a98b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-discoiquuid: d47017a3-a342-4758-a700-b8e88aa724f2
 ---
 
 # Creating predefined filters{#creating-predefined-filters}

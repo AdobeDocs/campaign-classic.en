@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Start and end
 description: Learn more about Start and End workflow activities
-page-status-flag: never-activated
-uuid: ec0c818c-c307-4f50-908c-507bce0ea27b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: 8b239d5e-2317-42c8-9fee-7d40bea624da
 ---
 
 # Start and end{#start-and-end}

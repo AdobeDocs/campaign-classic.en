@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A/B testing
-seo-title: A/B testing
 description: A/B testing
-seo-description: 
-page-status-flag: never-activated
-uuid: 8887574e-447b-48a5-afc6-95783ffa7fb3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 4113c3fe-a279-4fe1-be89-ea43c96edc34
 ---
 
 # A/B testing{#a-b-testing}

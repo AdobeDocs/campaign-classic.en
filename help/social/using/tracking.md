@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Tracking
-seo-title: Tracking
 description: Tracking
-seo-description: 
-page-status-flag: never-activated
-uuid: 607886fd-c036-4f61-aa86-fc0a97d38762
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: annexes
-discoiquuid: 1755ab4f-b655-48da-bf9a-426807bd85fd
 ---
 
 # Tracking{#tracking}

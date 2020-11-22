@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Advanced capabilities
 description: Advanced capabilities
-page-status-flag: never-activated
-uuid: 4dbf4750-0226-4f96-98d8-ec49b20374ac
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: 0c264783-2775-4ec6-8d49-cd9a45a18d60
 ---
 
 # Advanced capabilities{#advanced-functionalities}

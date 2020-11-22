@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Delivery outline
 description: Learn more about the Delivery outline workflow activity
-page-status-flag: never-activated
-uuid: 2b924cc6-6b71-481e-acab-2d035bbc2852
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: a2a65f97-425b-44b2-8cf4-beea850423bc
 ---
 
 # Delivery outline{#delivery-outline}

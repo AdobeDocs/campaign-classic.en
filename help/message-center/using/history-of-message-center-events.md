@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: History of Message Center events
-seo-title: History of Message Center events
 description: History of Message Center events
-seo-description: 
-page-status-flag: never-activated
-uuid: ed2cf462-6fa9-47c7-912d-6d8253806629
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: reports
-discoiquuid: 3caa1bd7-7111-4f94-ab89-5e12eaca4966
 ---
 
 # History of Message Center events{#history-of-message-center-events}

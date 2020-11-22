@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Recommendations
-seo-title: Recommendations
 description: Recommendations
-seo-description: 
-page-status-flag: never-activated
-uuid: d898fe6d-7627-405f-b2bc-b17bf1dc9e96
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-discoiquuid: a31c5c9f-503f-4b55-8409-34d4addbd581
 ---
 
 # Recommendations{#recommendations}

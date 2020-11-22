@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring Campaign options
 description: Learn how to configure Campaign options
-page-status-flag: never-activated
-uuid: 32e85e41-6898-4fb3-90c8-2201ceea2e91
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: appendices
-discoiquuid: 9c1884f6-1dd8-41ab-b8dc-604c8cc2dc89
 ---
 
 # List of Campaign Classic options{#configuring-campaign-options}

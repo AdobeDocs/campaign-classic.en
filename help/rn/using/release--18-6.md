@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Release 18.6
-seo-title: Release 18.6
 description: Release 18.6
-seo-description: 
-page-status-flag: never-activated
-uuid: 72941f8f-0b84-4868-a768-8aa972459ef2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 79a6d3cf-2425-49b9-9b92-b56be26438bf
 ---
 
 # Release 18.6{#release-18-6}

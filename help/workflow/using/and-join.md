@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: AND-join
-seo-title: AND-join
 description: AND-join
-seo-description: 
-page-status-flag: never-activated
-uuid: 8234d6cd-0e9b-4187-9ddf-9e1f86aa1b9a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: 075206aa-ff7b-4fa8-a05d-14a29fb119ba
 ---
 
 # AND-join{#and-join}

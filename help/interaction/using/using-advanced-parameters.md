@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Using advanced parameters
-seo-title: Using advanced parameters
 description: Using advanced parameters
-seo-description: 
-page-status-flag: never-activated
-uuid: ae34c763-23fd-43ee-9784-4ea95027090b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-discoiquuid: 2bb756a2-4aca-4195-9b7a-ec85028a8012
 ---
 
 # Using advanced parameters{#using-advanced-parameters}

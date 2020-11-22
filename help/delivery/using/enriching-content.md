@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Enriching content
-seo-title: Enriching content
 description: Enriching content
-seo-description: 
-page-status-flag: never-activated
-uuid: 6f1bce9f-88ed-4ad3-987f-79f6c68264d2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: content-management
-discoiquuid: 4404c21e-0a89-4762-af20-384ad7071916
 ---
 
 # Enriching content{#enriching-content}

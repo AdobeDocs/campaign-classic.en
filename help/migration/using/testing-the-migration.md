@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Testing the migration
-seo-title: Testing the migration
 description: Testing the migration
-seo-description: 
-page-status-flag: never-activated
-uuid: 3ee6a10b-dea2-41c6-9aef-ee3ac922b459
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-discoiquuid: 30e3082f-a367-4c3b-bff2-208ccf97acd4
 ---
 
 # Testing the migration{#testing-the-migration}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Delivery execution
-seo-title: Delivery execution
 description: Delivery execution
-seo-description: 
-page-status-flag: never-activated
-uuid: d4f4cea7-783b-45d3-b004-297104f0a906
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-discoiquuid: afb375de-2de3-47ad-8b37-664cc04864e8
 ---
 
 # Delivery execution{#delivery-execution}

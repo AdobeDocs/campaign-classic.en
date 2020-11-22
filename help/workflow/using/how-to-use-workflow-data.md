@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: How to use workflow data
 description: Learn how to use workflow data
-page-status-flag: never-activated
-uuid: ed03f14b-1b53-426e-9213-22cb2f3deb19
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
 ---
 
 # How to use workflow data{#how-to-use-workflow-data}

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Deliverability key points
 description: key points to check to improve your deliverability
-page-status-flag: never-activated
-uuid: 2681042b-3018-42ae-b252-2367b56616bd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 ---
 
 # Deliverability key points{#deliverability-key-points}

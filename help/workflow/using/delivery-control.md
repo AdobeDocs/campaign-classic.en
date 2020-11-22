@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Delivery control
 description: Learn more about the Delivery control workflow activity
-page-status-flag: never-activated
-uuid: f9cef2d9-a6a5-45bd-8c7a-fabc11879628
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 0b5ee05c-4b96-425a-ab0f-60b930de21bd
 ---
 
 # Delivery control{#delivery-control}

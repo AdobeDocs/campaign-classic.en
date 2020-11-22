@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Campaign
-seo-title: Campaign
 description: Campaign
-seo-description: 
-page-status-flag: never-activated
-uuid: 9e5cf203-e5e9-4383-b628-aa6f131491e0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: de892ec4-c378-4b22-875e-aa9345f82552
 ---
 
 # Campaign{#campaign}

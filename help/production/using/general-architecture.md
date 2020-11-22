@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: General architecture
-seo-title: General architecture
 description: General architecture
-seo-description: 
-page-status-flag: never-activated
-uuid: a565a10c-cbef-455a-aa1d-9be9cd207c7a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: introduction
-discoiquuid: f4879774-afe5-4556-ab60-9297cabbca2c
 ---
 
 # General architecture{#general-architecture}

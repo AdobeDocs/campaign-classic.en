@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: SQL Data Management
 description: Learn more about SQL Data Management workflow activity
-page-status-flag: never-activated
-uuid: b6057496-2dd5-4289-96df-98378e4f0ae7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 18d6f5e1-308f-4080-b7c4-ebf836f74842
 ---
 
 # SQL Data Management{#sql-data-management}

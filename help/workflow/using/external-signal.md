@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: External signal
 description: Learn more about the External signal workflow activity
-page-status-flag: never-activated
-uuid: dbe6624a-70cf-4ac4-adfd-bc72db9bb3f3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: 3739593f-056c-4165-87ef-63c812bd3c43
 ---
 
 # External signal{#external-signal}

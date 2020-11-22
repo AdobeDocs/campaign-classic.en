@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About surveys
-seo-title: About surveys
 description: About surveys
-seo-description: 
-page-status-flag: never-activated
-uuid: 31a07a48-2ebb-4b51-ae24-382f3ce3f04a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: online-surveys
-discoiquuid: ef7d9b16-506a-409c-a578-000b88cd17a2
 ---
 
 # About surveys{#about-surveys}

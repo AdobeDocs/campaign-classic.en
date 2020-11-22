@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Operating principle
-seo-title: Operating principle
 description: Operating principle
-seo-description: 
-page-status-flag: never-activated
-uuid: a15929ca-5b1f-499a-a883-43fd0a318c98
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: 5e9c17ad-14d2-4173-9fc9-0e48a21426c8
 ---
 
 # Operating principle{#operating-principle}

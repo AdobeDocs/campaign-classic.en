@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Tutorials
-seo-title: Tutorials
 description: Tutorials
-seo-description: 
-page-status-flag: never-activated
-uuid: f335a7fc-5d79-4b3a-a422-98c9ef4f4562
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
 ---
 
 # Tutorials{#tutorials}

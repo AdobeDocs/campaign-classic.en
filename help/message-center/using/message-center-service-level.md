@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Message Center service level
-seo-title: Message Center service level
 description: Message Center service level
-seo-description: 
-page-status-flag: never-activated
-uuid: 8e363706-292b-40db-97bc-d41b41910556
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: reports
-discoiquuid: e46a4e87-6c02-4b9c-bf6d-bb4e785e78fa
 ---
 
 # Message Center service level{#message-center-service-level}

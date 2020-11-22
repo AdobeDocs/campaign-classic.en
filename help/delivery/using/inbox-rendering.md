@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Inbox rendering in Campaign
 description: Learn how to capture email renderings and make them available in a dedicated report
-page-status-flag: never-activated
-uuid: 2025f5e9-8a19-407c-9e0a-378ba5a76208
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
 ---
 
 # Inbox rendering{#inbox-rendering}

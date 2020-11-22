@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Workflow HeatMap
 description: Monitor your Campaign workflows with Workflow HeatMap
-page-status-flag: never-activated
-uuid: 4d215ff4-a61d-4294-8f15-17c612022577
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 ---
 
 # Workflow HeatMap {#workflow-heatmap}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Using a web form template
-seo-title: Using a web form template
 description: Using a web form template
-seo-description: 
-page-status-flag: never-activated
-uuid: c2986dca-a6c7-4ebc-9be8-c4716611f502
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: d9369ba1-0397-40fe-bbaf-24252564d93c
 ---
 
 # Using a web form template{#using-a-web-form-template}

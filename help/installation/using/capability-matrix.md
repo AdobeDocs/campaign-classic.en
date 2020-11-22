@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Campaign On-premise, Hybrid and Hosted capability matrix
 description: Learn main differences between hosted and on-premise deployments
-page-status-flag: never-activated
-uuid: d1c786a1-2691-4966-9108-059004050464
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
-discoiquuid: 582f7ac6-cebe-4b47-8730-bbc16fd6b1bd
 ---
 
 # Capability matrix {#capability-matrix-per-model}

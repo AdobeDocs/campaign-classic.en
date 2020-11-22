@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About services and subscriptions
-seo-title: About services and subscriptions
 description: About services and subscriptions
-seo-description: 
-page-status-flag: never-activated
-uuid: 259ad642-8001-42d0-ba82-d4d7d566f196
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
-discoiquuid: 6a2eb799-ea0b-404d-8dc8-5f3ba1e4b630
 ---
 
 # About services and subscriptions{#about-services-and-subscriptions}

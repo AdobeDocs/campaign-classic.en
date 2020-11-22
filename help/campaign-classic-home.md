@@ -1,5 +1,7 @@
 ---
 keywords: Campaign Classic;home;popular topics
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic product documentation
 topic: Premium
 ---

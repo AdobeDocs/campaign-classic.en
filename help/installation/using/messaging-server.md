@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Messaging server
-seo-title: Messaging server
 description: Messaging server
-seo-description: 
-page-status-flag: never-activated
-uuid: d7de0405-23eb-4a0d-80a5-c75d661771bb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-discoiquuid: 1556e87f-9d92-4548-a75a-4f44030ab8d5
 ---
 
 # Messaging server{#messaging-server}

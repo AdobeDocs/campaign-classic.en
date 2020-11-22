@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Filtering options
-seo-title: Filtering options
 description: Filtering options
-seo-description: 
-page-status-flag: never-activated
-uuid: 79e9870b-3a27-4924-9d75-1ebec6911140
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: 199eb687-3da6-49c1-9997-ef1cbd2647b6
 ---
 
 # Filtering options{#filtering-options}

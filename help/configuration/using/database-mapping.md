@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Database mapping
-seo-title: Database mapping
 description: Database mapping
-seo-description: 
-page-status-flag: never-activated
-uuid: a51df3eb-cae6-4e8d-8386-d62defc1b610
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-discoiquuid: bc06c00d-f421-452e-bde0-b4ecc12c72c8
 ---
 
 # Database mapping{#database-mapping}

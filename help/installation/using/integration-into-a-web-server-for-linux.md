@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Integration into a Web server for Linux
 description: Learn how to integrate Campaign into a Web server (Linux)
-page-status-flag: never-activated
-uuid: 7b18d176-4458-46a8-8da4-3621f90c6b13
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-discoiquuid: 752ba848-aee9-4bb0-b2c5-490f3124f74e
 ---
 
 # Integration into a Web server for Linux{#integration-into-a-web-server-for-linux}

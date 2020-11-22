@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Command lines
-seo-title: Command lines
 description: Command lines
-seo-description: 
-page-status-flag: never-activated
-uuid: fa897d6a-0326-4922-8936-2471af2f213c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: appendices
-discoiquuid: 3621d4ec-8839-40c3-a574-486c408f79ba
 ---
 
 # Command lines{#command-lines}

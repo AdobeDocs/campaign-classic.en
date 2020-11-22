@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: CRM Connectors
-seo-title: CRM Connectors
 description: CRM Connectors
-seo-description: 
-page-status-flag: never-activated
-uuid: ef3d88a1-b0fd-4790-b6e8-63fa339ef991
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: dbe9080c-66e3-4ff6-8f16-959f9748f666
 ---
 
 # CRM Connectors{#crm-connectors}

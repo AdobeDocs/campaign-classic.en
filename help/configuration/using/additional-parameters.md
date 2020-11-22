@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Additional web tracking parameters
 description: Learn more about parameters for web tracking
-page-status-flag: never-activated
-uuid: c223c84a-f8fd-43d3-9deb-b1c19d442c65
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: 1b2ae224-8406-4506-b589-6e5f6631e87f
 ---
 
 # Additional parameters{#additional-parameters}

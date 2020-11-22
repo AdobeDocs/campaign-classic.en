@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Getting started with surveys
-seo-title: Getting started with surveys
 description: Getting started with surveys
-seo-description: 
-page-status-flag: never-activated
-uuid: 62ca684c-94a7-465a-9536-75e8a96b1c0e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: online-surveys
-discoiquuid: 2df82006-dcc3-4b07-bc36-b646b1c27aaa
 ---
 
 # Getting started with surveys{#getting-started-with-surveys}

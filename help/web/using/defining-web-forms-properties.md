@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining web forms properties
-seo-title: Defining web forms properties
 description: Defining web forms properties
-seo-description: 
-page-status-flag: never-activated
-uuid: 2fb0952a-5f73-48f5-b344-e3247cefca62
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: 36953eb5-3296-4796-9352-945121bbdc69
 ---
 
 # Defining web forms properties{#defining-web-forms-properties}

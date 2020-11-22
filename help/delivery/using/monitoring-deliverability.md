@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Monitoring deliverability in Adobe Campaign Classic
 description: Learn about tools and guidelines on deliverability monitoring in Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: 0b5c5dbd-f532-4d8a-a255-9e6d88357d8d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
 ---
 
 # Monitoring deliverability{#monitoring-deliverability}

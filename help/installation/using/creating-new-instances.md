@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating new instances
-seo-title: Creating new instances
 description: Creating new instances
-seo-description: 
-page-status-flag: never-activated
-uuid: b048705e-f356-4f26-baf5-10415b01fb64
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: appendices
-discoiquuid: ba9c8e4c-441b-4422-a465-758771025ee8
 ---
 
 # Creating new instances{#creating-new-instances}

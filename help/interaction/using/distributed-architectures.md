@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Distributed architectures
-seo-title: Distributed architectures
 description: Distributed architectures
-seo-description: 
-page-status-flag: never-activated
-uuid: f672446f-18e6-4fff-81a1-01ee22792755
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-discoiquuid: 811a42a4-552c-49cb-bffd-7e124ef83735
 ---
 
 # Distributed architectures{#distributed-architectures}

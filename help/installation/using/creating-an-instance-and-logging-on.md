@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating an instance and logging on
-seo-title: Creating an instance and logging on
 description: Creating an instance and logging on
-seo-description: 
-page-status-flag: never-activated
-uuid: cb1620b3-f6e8-41dc-9142-ac0da65b6f8d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: c7395094-c635-45ab-8455-a050f7d16b64
 ---
 
 # Creating an instance and logging on{#creating-an-instance-and-logging-on}

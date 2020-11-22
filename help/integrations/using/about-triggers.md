@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About Adobe Experience Cloud Triggers
 description: Get started with Adobe Experience Cloud Triggers implementation
-page-status-flag: never-activated
-uuid: c523822f-8178-4989-bd88-ab402470e540
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-discoiquuid: 0d617f1c-0d0b-489f-9027-a92b1f1eee37
 ---
 
 # Get started with Adobe Experience Cloud Triggers{#about-adobe-experience-triggers}

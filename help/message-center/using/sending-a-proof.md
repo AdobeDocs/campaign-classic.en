@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Sending a proof
-seo-title: Sending a proof
 description: Sending a proof
-seo-description: 
-page-status-flag: never-activated
-uuid: 6446cc5c-8378-48d1-9486-bffbae83e28d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-discoiquuid: 81090be2-3ed4-4f35-948b-e21af6e19999
 ---
 
 # Sending a proof{#sending-a-proof}

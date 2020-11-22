@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Business oriented APIs
-seo-title: Business oriented APIs
 description: Business oriented APIs
-seo-description: 
-page-status-flag: never-activated
-uuid: ddb6e5cf-dfe0-4dc9-ac5b-fab21827b874
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: e7b3ffca-c85f-498d-89b4-23fcff59de49
 ---
 
 # Business oriented APIs{#business-oriented-apis}

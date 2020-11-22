@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Time zone management
-seo-title: Time zone management
 description: Time zone management
-seo-description: 
-page-status-flag: never-activated
-uuid: b8926761-65e2-48fd-8689-2ae6b0596e72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: b9846eda-eeca-433e-b961-6dfc2aa2708b
 ---
 
 # Time zone management{#time-zone-management}

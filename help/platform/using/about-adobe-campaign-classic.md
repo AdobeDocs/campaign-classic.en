@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About Adobe Campaign Classic
-seo-title: About Adobe Campaign Classic
 description: Discover key capabilities, user interface and global guidelines.
-seo-description: 
-page-status-flag: never-activated
-uuid: 2d0160fa-8328-4ff9-ab91-56e4058f8a99
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
 ---
 
 # Get Started with Campaign Classic{#about-adobe-campaign-classic}

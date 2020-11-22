@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Troubleshooting
-seo-title: Troubleshooting
 description: Troubleshooting
-seo-description: 
-page-status-flag: never-activated
-uuid: 02bd48cf-3928-4817-97b0-1e64cc8ad8ef
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: b64c9729-cfe2-4d02-8c59-9e53efd34a96
 ---
 
 # Troubleshooting{#troubleshooting}

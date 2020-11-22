@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: List of reports
-seo-title: List of reports
 description: List of reports
-seo-description: 
-page-status-flag: never-activated
-uuid: 79a914d0-7828-4fe1-b1b7-b055d4bf1f82
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-discoiquuid: 3e593527-5580-44ea-93dc-9084d862537e
 ---
 
 # List of reports{#list-of-reports}

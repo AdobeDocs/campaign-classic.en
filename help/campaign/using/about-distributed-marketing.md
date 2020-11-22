@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About distributed marketing
-seo-title: About distributed marketing
 description: About distributed marketing
-seo-description: 
-page-status-flag: never-activated
-uuid: 7f7ece67-c644-4072-a06c-c5b49f3acb5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-discoiquuid: 6d694f5c-1d1f-4686-b3bf-8697d919a0c8
 ---
 
 # About distributed marketing{#about-distributed-marketing}

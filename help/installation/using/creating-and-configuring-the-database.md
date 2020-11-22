@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating and configuring the database
-seo-title: Creating and configuring the database
 description: Creating and configuring the database
-seo-description: 
-page-status-flag: never-activated
-uuid: e5143d55-61fa-416a-80db-c29a0caf9a3e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 ---
 
 # Creating and configuring the database{#creating-and-configuring-the-database}

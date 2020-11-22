@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Accessing the tracking logs
-seo-title: Accessing the tracking logs
 description: Accessing the tracking logs
-seo-description: 
-page-status-flag: never-activated
-uuid: 1460739d-7e10-430d-8fed-fd24815f4a40
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-discoiquuid: ad1ce80d-8976-430d-9964-e50d548b2822
 ---
 
 # Accessing the tracking logs{#accessing-the-tracking-logs}

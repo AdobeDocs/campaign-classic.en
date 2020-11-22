@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Importing data
 description: Learn how to import data in Adobe Campaign
-page-status-flag: never-activated
-uuid: c8cf2bf1-f7a5-4de4-9e53-a961c9e5beca
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
 ---
 
 # Importing data{#importing-data}

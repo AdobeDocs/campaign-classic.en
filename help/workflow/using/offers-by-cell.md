@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Offers by cell
-seo-title: Offers by cell
 description: Offers by cell
-seo-description: 
-page-status-flag: never-activated
-uuid: 731bfdde-abd2-400e-9e22-3dbaad37c5b9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: d90594bb-e3ba-4fb1-9e11-83d519c1ca7d
 ---
 
 # Offers by cell{#offers-by-cell}

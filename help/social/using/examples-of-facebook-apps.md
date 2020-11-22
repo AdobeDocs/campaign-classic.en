@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Examples of Facebook apps
-seo-title: Examples of Facebook apps
 description: Examples of Facebook apps
-seo-description: 
-page-status-flag: never-activated
-uuid: 336f4006-3545-4b04-959d-61cd0446af27
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: annexes
-discoiquuid: 07be1d3c-b038-48ca-be37-a33adb8e0fc0
 ---
 
 # Examples of Facebook apps{#examples-of-facebook-apps}

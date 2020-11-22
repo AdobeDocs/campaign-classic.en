@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Operator profiles
-seo-title: Operator profiles
 description: Operator profiles
-seo-description: 
-page-status-flag: never-activated
-uuid: cd718d20-79cb-40ed-b2ae-23186387e2db
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-discoiquuid: 9a3f1dc9-71ef-4039-94b4-a217996f6a80
 ---
 
 # Operator profiles{#operator-profiles}

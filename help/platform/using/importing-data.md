@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Importing data
-seo-title: Importing data
 description: Importing data
-seo-description: 
-page-status-flag: never-activated
-uuid: ca2269ad-7cfd-4f27-88be-469445a468bf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: c886bd02-c484-443c-93ca-ca244adbf893
 ---
 
 # Importing data{#importing-data}

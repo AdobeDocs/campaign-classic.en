@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Best practices for reporting
 description: Campaign reporting best practices
-page-status-flag: never-activated
-uuid: 09de6a17-b3a7-4543-b672-b0a21653aa75
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
-discoiquuid: 904961e0-7dff-4350-8d5d-e4bdd368b3ff
 ---
 
 # Reporting best practices{#best-practices-reporting}

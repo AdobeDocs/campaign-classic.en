@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Interaction and offer management
 description: Send the best offers to your contacts based on eligibility rules.
-page-status-flag: never-activated
-uuid: 70720baa-e64e-4fb6-8301-fe3920791f79
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-discoiquuid: 9fe22450-057c-44b4-ab73-4027a2ddb20c
 ---
 
 # Interaction and offer management{#interaction-and-offer-management}

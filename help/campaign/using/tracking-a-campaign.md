@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Tracking a campaign
-seo-title: Tracking a campaign
 description: Tracking a campaign
-seo-description: 
-page-status-flag: never-activated
-uuid: 66919c81-b22c-4138-a654-ea53154ba718
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-discoiquuid: e1f8958d-f036-4635-be6e-ebdbea6ac116
 ---
 
 # Tracking a campaign{#tracking-a-campaign}

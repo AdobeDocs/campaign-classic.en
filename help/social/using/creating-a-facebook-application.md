@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a Facebook application
-seo-title: Creating a Facebook application
 description: Creating a Facebook application
-seo-description: 
-page-status-flag: never-activated
-uuid: f02129b9-6f64-41ee-8b56-d85211a58f69
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: configuration
-discoiquuid: c1d880bb-256e-451c-8c52-198711907f8e
 ---
 
 # Creating a Facebook application{#creating-a-facebook-application}

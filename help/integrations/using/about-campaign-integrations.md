@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About Campaign integrations
 description: Use other Adobe solutions and combine their different capabilities with Campaign.
-page-status-flag: never-activated
-uuid: 087abdf0-b4b2-45e6-be21-b03bf85ddf83
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
-discoiquuid: 0af1fd96-48ef-43c9-a03b-0f9a6e0e02fe
 ---
 
 # Get started with Adobe Campaign integrations {#about-campaign-integrations}

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Enriching data
 description: Learn more about the Enrichment workflow activity
-page-status-flag: never-activated
-uuid: 3f65a8a2-b3e1-4c4c-9653-b8a7c4d7557a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: f87da08f-68b9-4e2b-821f-b3ff20e390f1
 ---
 
 # Enriching data{#enriching-data}

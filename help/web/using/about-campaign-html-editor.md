@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About Campaign HTML editor
-seo-title: About Campaign HTML editor
 description: About Campaign HTML editor
-seo-description: 
-page-status-flag: never-activated
-uuid: 1b1d392d-4f19-4092-b57d-02051a242675
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-discoiquuid: 1ffe9f58-7258-4794-a314-524065f8a33b
 ---
 
 # About Campaign HTML editor{#about-campaign-html-editor}

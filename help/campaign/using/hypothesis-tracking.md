@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Hypothesis tracking
-seo-title: Hypothesis tracking
 description: Hypothesis tracking
-seo-description: 
-page-status-flag: never-activated
-uuid: cb949a9d-8bbe-446b-b5b4-22234a91a68b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-discoiquuid: 4452bfc6-9ac4-4d81-a63c-879a163c13ee
 ---
 
 # Hypothesis tracking{#hypothesis-tracking}

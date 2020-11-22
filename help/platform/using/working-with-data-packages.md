@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Working with data packages
-seo-title: Working with data packages
 description: Working with data packages
-seo-description: 
-page-status-flag: never-activated
-uuid: 867b2702-dbc4-4b71-a385-a2c7fd09d25e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-discoiquuid: 42867665-d0ca-486e-9110-91716c0d5c57
 ---
 
 # Working with data packages{#working-with-data-packages}

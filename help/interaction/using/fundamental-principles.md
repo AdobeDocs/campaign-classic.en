@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Fundamental principles
-seo-title: Fundamental principles
 description: Fundamental principles
-seo-description: 
-page-status-flag: never-activated
-uuid: 1ed3982b-7f9f-494d-8603-e856859bc31a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: general-operation
-discoiquuid: 695cf33f-1cc7-4ae8-8ef6-05aa65219411
 ---
 
 # Fundamental principles{#fundamental-principles}

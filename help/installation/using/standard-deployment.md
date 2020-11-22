@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Standard deployment
-seo-title: Standard deployment
 description: Standard deployment
-seo-description: 
-page-status-flag: never-activated
-uuid: e2f9c4d9-4b36-4899-9954-493135597057
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: d714b759-cc08-4656-876c-9820d5c56216
 ---
 
 # Standard deployment{#standard-deployment}

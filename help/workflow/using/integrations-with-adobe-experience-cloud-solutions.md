@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Integrations with Adobe Experience Cloud solutions workflows
 description: Learn more about Integrations with Adobe Experience Cloud solutions workflows
-page-status-flag: never-activated
-uuid: 6f179af5-1e5b-42a9-a493-1b726af2af8e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: dddc3bdc-2344-423b-81d9-6f93847448a0
 ---
 
 # Integrations with Adobe Experience Cloud solutions{#integrations-with-adobe-experience-cloud-solutions}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Integration via JavaScript (client side)
-seo-title: Integration via JavaScript (client side)
 description: Integration via JavaScript (client side)
-seo-description: 
-page-status-flag: never-activated
-uuid: 19cafecd-cf13-458a-857e-0a45c346f4ed
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-discoiquuid: 7453d768-31eb-4372-aae3-27527cd5c79b
 ---
 
 # Integration via JavaScript (client side){#integration-via-javascript-client-side}

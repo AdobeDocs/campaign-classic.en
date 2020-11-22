@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Cumulative reports
-seo-title: Cumulative reports
 description: Cumulative reports
-seo-description: 
-page-status-flag: never-activated
-uuid: 83ea834e-08f7-441b-8f15-a25ec07c4aab
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 ---
 
 # Cumulative reports {#cumulative-reports}

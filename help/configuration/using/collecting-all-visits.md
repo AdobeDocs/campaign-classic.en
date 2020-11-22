@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Collecting all visits
-seo-title: Collecting all visits
 description: Collecting all visits
-seo-description: 
-page-status-flag: never-activated
-uuid: c2869b3d-33bb-4a22-a8e6-ac037f0665d9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: 7f841368-3867-4d6e-9720-c038d9bea0ce
 ---
 
 # Collecting all visits{#collecting-all-visits}

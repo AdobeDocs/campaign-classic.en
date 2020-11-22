@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Release 20.2
 description: Release 20.2
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Release 20.2{#release-20-2}
