@@ -6,9 +6,6 @@ description: Content editor interface
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-dc-solution: Campaign Classic
-product: campaign
-title: </strong> and
 ---
 
 # Content editor interface{#content-editor-interface}
