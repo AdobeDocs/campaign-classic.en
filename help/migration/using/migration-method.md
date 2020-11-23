@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Migration method
-seo-title: Migration method
 description: Migration method
-seo-description: 
-page-status-flag: never-activated
-uuid: 6b954d5b-cfa3-43c6-ac3d-da9185e9e9d1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-overview
-discoiquuid: 3ac779a7-1f91-4c1c-a439-10d01697326a
 ---
 
 # Migration method{#migration-method}

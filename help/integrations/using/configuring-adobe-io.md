@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring Adobe I/O for Adobe Experience Cloud Triggers
 description: Learn how to configure Adobe I/O for Adobe Experience Cloud Triggers
-page-status-flag: never-activated
-uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 index: y
 internal: n
 snippet: y

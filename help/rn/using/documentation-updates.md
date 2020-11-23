@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic Documentation Updates
 description: This page lists all the new features and documentation updates for each release of Adobe Campaign Classic
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Documentation Updates{#documentation-updates}

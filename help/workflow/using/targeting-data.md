@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Targeting data
 description: Learn more about Targeting data in a workflow
-page-status-flag: never-activated
-uuid: 90c46ae9-8f9d-4538-a0fe-92fb3373f863
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: 79f1e85a-b5e6-4875-ac57-ab979fc57079
 ---
 
 # Targeting data{#targeting-data}

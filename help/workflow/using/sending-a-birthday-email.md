@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Sending a birthday email
 description: Learn how to send a birthday email with a workflow
-page-status-flag: never-activated
-uuid: 4d215ff4-a61d-4294-8f15-17c612022577
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 ---
 
 # Sending a birthday email{#sending-a-birthday-email}

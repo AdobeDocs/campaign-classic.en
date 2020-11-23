@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About seed addresses
-seo-title: About seed addresses
 description: About seed addresses
-seo-description: 
-page-status-flag: never-activated
-uuid: 80ab5abc-3ae0-484d-88c0-be039aac360d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-discoiquuid: b49acfd0-b601-4694-88e3-cc0a169cb866
 ---
 
 # About seed addresses{#about-seed-addresses}

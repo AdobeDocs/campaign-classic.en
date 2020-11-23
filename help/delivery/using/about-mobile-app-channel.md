@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About mobile app channel in Adobe Campaign Classic
 description: This section provides general information specific to the mobile app channel in Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: e8d26b33-dc7c-4abd-956a-92f419a117e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: 6b3fe8b9-dae6-4f8e-83e1-3376c0fe72a5
 ---
 
 # About mobile app channel{#about-mobile-app-channel}

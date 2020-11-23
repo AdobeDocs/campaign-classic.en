@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Personalization fields
-seo-title: Personalization fields
 description: Personalization fields
-seo-description: 
-page-status-flag: never-activated
-uuid: 3a94a50e-259e-40c3-ae67-8a2c42e9fad7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
 ---
 
 # Personalization fields{#personalization-fields}

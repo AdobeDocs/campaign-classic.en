@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Workflow best practices
 description: Learn Campaign Workflow best practices
-page-status-flag: never-activated
-uuid: 56b04004-5d96-4169-9494-3d04284d5a3d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: 3da951ef-5775-4593-8301-f143c71edc19
 ---
 
 # Workflow best practices{#workflow-best-practices}

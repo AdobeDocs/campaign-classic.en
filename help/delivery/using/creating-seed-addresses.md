@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating seed addresses
 description: Learn how to create and use seed addresses
-page-status-flag: never-activated
-uuid: 0dae107a-7b53-4096-93c3-9517b402cbc9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-discoiquuid: 6dad49af-4818-471b-9df1-057cc6b9a68a
 ---
 
 # Creating seed addresses{#creating-seed-addresses}

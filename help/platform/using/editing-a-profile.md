@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Editing a profile
-seo-title: Editing a profile
 description: Editing a profile
-seo-description: 
-page-status-flag: never-activated
-uuid: ad3cd54e-b22f-4fae-8d2a-3e0d3e45fffb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
 ---
 
 # Editing a profile{#editing-a-profile}

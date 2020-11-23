@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Database performances
-seo-title: Database performances
 description: Database performances
-seo-description: 
-page-status-flag: never-activated
-uuid: 47ff7532-1fe7-47c2-bc3b-0f46d3a4a288
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 6358c8fd-2b75-4462-acd1-887ee44d3110
 ---
 
 # Database performances{#database-performances}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Data oriented APIs
-seo-title: Data oriented APIs
 description: Data oriented APIs
-seo-description: 
-page-status-flag: never-activated
-uuid: f81356b3-8eef-4b65-9510-47c9d4b4e871
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: fba46d42-0253-425b-bbc2-6702d4140e05
 ---
 
 # Data oriented APIs{#data-oriented-apis}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Connection thresholds
-seo-title: Connection thresholds
 description: Connection thresholds
-seo-description: 
-page-status-flag: never-activated
-uuid: a4b6959a-0f5b-41a2-b4c3-d7d6613d1a18
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: f3db77db-94cc-4d75-a59b-2dddce776759
 ---
 
 # Connection thresholds{#connection-thresholds}

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Data extraction (file)
 description: Learn more about the Data extraction (file) workflow activity
-page-status-flag: never-activated
-uuid: c1e3fde3-183c-4602-9cef-760e4648fcf7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: fe4e6f64-eb0a-44bc-8221-6c9bfb99871f
 ---
 
 # Data extraction (file){#extraction-file}

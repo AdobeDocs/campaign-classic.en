@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring IMS
 description: Learn how to connect via an Adobe ID
-page-status-flag: never-activated
-uuid: b659d29f-2a27-4a7b-b5ca-f44c3271dd4e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-discoiquuid: 279d0548-c876-4d5f-a195-48618bd5e9d1
 ---
 
 # Configuring IMS{#configuring-ims}

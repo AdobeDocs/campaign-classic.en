@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Implementing SOAP methods
-seo-title: Implementing SOAP methods
 description: Implementing SOAP methods
-seo-description: 
-page-status-flag: never-activated
-uuid: c9366f4e-460d-4087-88f7-9cc6d0de597a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: 76984d9d-7759-4e0f-a275-09cca27589fa
 ---
 
 # Implementing SOAP methods{#implementing-soap-methods}

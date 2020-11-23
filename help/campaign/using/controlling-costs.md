@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Controlling costs
-seo-title: Controlling costs
 description: Controlling costs
-seo-description: 
-page-status-flag: never-activated
-uuid: 4209ebad-966f-44a6-a33c-bbb398c6f5c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-discoiquuid: 892b93ed-cb0e-4af5-a1ae-eff0c8b703c6
 ---
 
 # Controlling costs{#controlling-costs}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Approving and activating an offer
-seo-title: Approving and activating an offer
 description: Approving and activating an offer
-seo-description: 
-page-status-flag: never-activated
-uuid: 1be96bb4-ef17-4b4d-b872-05e1c6b1412d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-discoiquuid: 7b1c58a0-6fd6-4c9d-b1c4-f3dffda42523
 ---
 
 # Approving and activating an offer{#approving-and-activating-an-offer}

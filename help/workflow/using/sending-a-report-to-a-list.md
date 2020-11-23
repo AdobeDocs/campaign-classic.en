@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Sending a report to a list
 description: Learn how to send a report to a list with a workflow
-page-status-flag: never-activated
-uuid: 29759fd8-47f3-47cc-9f7e-263e305fd6fb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 41b8a8a8-efac-4e8e-8aea-d4fd06c46e74
 ---
 
 # Sending a report to a list{#sending-a-report-to-a-list}

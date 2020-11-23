@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Migrating in Windows for Adobe Campaign 7
-seo-title: Migrating in Windows for Adobe Campaign 7
 description: Migrating in Windows for Adobe Campaign 7
-seo-description: 
-page-status-flag: never-activated
-uuid: 74464400-bdd4-42f8-bcbe-ace7095ae4e4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
-discoiquuid: f459dc07-b7db-4526-b428-852b51c9c00e
 ---
 
 # Migrating in Windows for Adobe Campaign 7{#migrating-in-windows-for-adobe-campaign}

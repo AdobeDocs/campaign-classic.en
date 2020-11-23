@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Exporting and importing profiles
-seo-title: Exporting and importing profiles
 description: Exporting and importing profiles
-seo-description: 
-page-status-flag: never-activated
-uuid: 94915370-d9b4-4c03-be8f-c30c3006171a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: 0325ab0f-394e-404b-9f4a-db3cc18d2493
 ---
 
 # Importing and exporting profiles{#exporting-and-importing-profiles}

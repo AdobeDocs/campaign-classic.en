@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About workflows
 description: Automate processes with workflows, manage data and audiences, send messages, and more.
-page-status-flag: never-activated
-uuid: 19adb0e5-042d-47a0-9f92-24e4b3045dbe
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: introduction
-discoiquuid: 868940d1-f19d-4e9a-bffa-8654abb4441c
 ---
 
 # Get started with workflows{#gs-workflows}

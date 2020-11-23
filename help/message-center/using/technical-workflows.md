@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Technical workflows
-seo-title: Technical workflows
 description: Technical workflows
-seo-description: 
-page-status-flag: never-activated
-uuid: dfd1b180-86b5-4740-9bad-a0e210f433c5
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-discoiquuid: 2e648e63-06d2-4e8f-9934-066a41d18eac
 ---
 
 # Technical workflows{#technical-workflows}

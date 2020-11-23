@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About offers simulation
-seo-title: About offers simulation
 description: About offers simulation
-seo-description: 
-page-status-flag: never-activated
-uuid: 3c6783a0-6bab-4c41-8101-1d926c1ac6ac
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-discoiquuid: 0af021af-2686-4a37-97d9-6d13a851b5dd
 ---
 
 # About offers simulation{#about-offers-simulation}

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Migration to Campaign Classic
 description: Learn how to migrate to Campaign Classic from a previous Campaign version
-page-status-flag: never-activated
-uuid: 23a9c858-b6c1-495f-a463-0ceb147068c9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-overview
-discoiquuid: 0ff9a8a9-2cb7-4b0b-a45e-2431151e59f1
 ---
 
 # Migrating to Campaign Classic{#about-migration}

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Privacy requests
 description: Learn how to manage Privacy requests
-page-status-flag: never-activated
-uuid: a044bbea-521d-4c1e-8aab-7d51a87fc94b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 ---
 
 # Managing privacy requests {#privacy-requests}

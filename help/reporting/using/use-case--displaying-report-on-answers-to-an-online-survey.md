@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: "Use case: displaying report on answers to an online survey"
-seo-title: "Use case: displaying report on answers to an online survey"
 description: "Use case: displaying report on answers to an online survey"
-seo-description: 
-page-status-flag: never-activated
-uuid: 2c0a5b7d-c606-4bcb-9600-8f89e6fce32a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-discoiquuid: 5404a227-6cfb-463b-9a56-af46a022eb38
 ---
 
 # Use case: displaying report on answers to an online survey{#use-case-displaying-report-on-answers-to-an-online-survey}

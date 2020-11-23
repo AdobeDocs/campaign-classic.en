@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Hosted model
-seo-title: Hosted model
 description: Hosted model
-seo-description: 
-page-status-flag: never-activated
-uuid: b8db3c93-ccba-465a-8b75-921d7266c4e4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: hybrid-and-hosted-models
-discoiquuid: ada27825-42bd-48c7-bc03-a619f1fa9463
 ---
 
 # Hosted model{#hosted-model}

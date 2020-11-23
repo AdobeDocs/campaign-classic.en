@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About response manager
-seo-title: About response manager
 description: About response manager
-seo-description: 
-page-status-flag: never-activated
-uuid: 3087a96d-50fb-488a-9b76-70eb5c67deed
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-discoiquuid: a4669fee-4512-455f-b495-ebd5a0746b76
 ---
 
 # About response manager{#about-response-manager}

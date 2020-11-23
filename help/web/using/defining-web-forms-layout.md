@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining web forms layout
-seo-title: Defining web forms layout
 description: Defining web forms layout
-seo-description: 
-page-status-flag: never-activated
-uuid: ae8659d0-3608-44dd-93ec-33c418a66ad0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: 67d1d39b-3a5f-4ed6-8fcf-570891043b10
 ---
 
 # Defining web forms layout{#defining-web-forms-layout}

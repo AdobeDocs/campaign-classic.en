@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Database cleanup workflow
 description: Learn how obsolete data is automatically cleaned up
-page-status-flag: never-activated
-uuid: a7478641-cdf6-4bd4-9dd7-0c84416c9de6
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: data-processing
-discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
 ---
 
 # Database cleanup workflow{#database-cleanup-workflow}

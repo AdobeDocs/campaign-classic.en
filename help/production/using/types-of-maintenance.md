@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Types of maintenance
-seo-title: Types of maintenance
 description: Types of maintenance
-seo-description: 
-page-status-flag: never-activated
-uuid: 44faee3d-0549-4f63-8fdc-b24e6de47bc4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-discoiquuid: 4a436ccf-097c-43e6-9eda-492bada5512a
 ---
 
 # Types of maintenance{#types-of-maintenance}

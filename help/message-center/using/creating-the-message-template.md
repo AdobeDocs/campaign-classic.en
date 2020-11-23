@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating the message template
-seo-title: Creating the message template
 description: Creating the message template
-seo-description: 
-page-status-flag: never-activated
-uuid: 8155275c-729b-40ca-abae-e6b75889cc1a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-discoiquuid: 2c2a7196-9183-46b1-b1e2-4a07a53e93b4
 ---
 
 # Creating the message template{#creating-the-message-template}

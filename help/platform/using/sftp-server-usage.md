@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: SFTP server usage
 description: Learn more on SFTP server best practices and troubleshooting.
-page-status-flag: never-activated
-uuid: 5281058d-91bd-4f98-835d-1d46dc7b8b1f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: f449ccd5-3965-4ab8-b5a9-993f3260aba9
 ---
 
 # SFTP server best practices and troubleshooting {#sftp-server-usage}

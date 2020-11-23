@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Input forms
-seo-title: Input forms
 description: Input forms
-seo-description: 
-page-status-flag: never-activated
-uuid: f7537707-3ea9-4afb-a4c1-4a985f62dbdf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: content-management
-discoiquuid: abf097eb-ade5-479e-9e20-8bd6bc9d96aa
 ---
 
 # Input forms{#input-forms}

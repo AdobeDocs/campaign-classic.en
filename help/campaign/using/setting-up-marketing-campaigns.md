@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Setting up marketing campaigns
-seo-title: Setting up marketing campaigns
 description: Setting up marketing campaigns
-seo-description: 
-page-status-flag: never-activated
-uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 ---
 
 # Setting up marketing campaigns{#setting-up-marketing-campaigns}

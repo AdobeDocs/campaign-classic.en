@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Using the descriptive analysis wizard
-seo-title: Using the descriptive analysis wizard
 description: Using the descriptive analysis wizard
-seo-description: 
-page-status-flag: never-activated
-uuid: 30554909-4b91-46ff-bd8d-fa57ab6304f9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
-discoiquuid: 18ba04d9-7bab-4eea-8dbb-6c2c138c5293
 ---
 
 # Using the descriptive analysis wizard{#using-the-descriptive-analysis-wizard}

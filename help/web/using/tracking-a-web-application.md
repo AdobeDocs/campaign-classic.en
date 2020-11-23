@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Tracking a web application
-seo-title: Tracking a web application
 description: Tracking a web application
-seo-description: 
-page-status-flag: never-activated
-uuid: c087b40c-fd14-440f-8f38-33f5f68120a9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-applications
-discoiquuid: 8e52f927-dadd-44c8-a51d-f717bc083eef
 ---
 
 # Tracking a web application{#tracking-a-web-application}

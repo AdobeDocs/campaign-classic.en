@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Log precision
-seo-title: Log precision
 description: Log precision
-seo-description: 
-page-status-flag: never-activated
-uuid: 8396bc4f-2954-40bb-b511-61802e60e123
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: c6c39b7d-7bbd-4789-b1ea-b938153e9679
 ---
 
 # Log precision{#log-precision}

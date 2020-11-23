@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Images missing
-seo-title: Images missing
 description: Images missing
-seo-description: 
-page-status-flag: never-activated
-uuid: 0dc73ea0-70bc-476d-bdff-2e62d6929f21
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: e001db7a-7c53-477e-a534-ce4d83d68559
 ---
 
 # Images missing{#images-missing}

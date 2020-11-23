@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Data schemas
-seo-title: Data schemas
 description: Data schemas
-seo-description: 
-page-status-flag: never-activated
-uuid: 3327a38c-e44d-4581-a67b-bb60c1604a5f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: content-management
-discoiquuid: aeaa9475-3715-40a4-8864-29d126883272
 ---
 
 # Data schemas{#data-schemas}

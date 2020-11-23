@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: General configurations
-seo-title: General configurations
 description: General configurations
-seo-description: 
-page-status-flag: never-activated
-uuid: 317a145d-36b0-40fe-a272-ad5e35b0b190
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: configuration
-discoiquuid: f4b1c108-7f71-4aa1-8394-a7f660834c9c
 ---
 
 # General configurations{#general-configurations}

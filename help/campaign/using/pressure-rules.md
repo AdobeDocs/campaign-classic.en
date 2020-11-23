@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Pressure rules
-seo-title: Pressure rules
 description: Pressure rules
-seo-description: 
-page-status-flag: never-activated
-uuid: 653d8336-8765-4938-88c1-a96cd76c3b7e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-discoiquuid: 3710768e-ab7f-40a4-9c48-830695adc990
 ---
 
 # Pressure rules{#pressure-rules}

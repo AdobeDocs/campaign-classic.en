@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating an offer
-seo-title: Creating an offer
 description: Creating an offer
-seo-description: 
-page-status-flag: never-activated
-uuid: 9e8b0351-e2a5-4043-be86-e275d2f849ea
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-discoiquuid: 010c88f4-9444-448f-bb7b-7191517d2e23
 ---
 
 # Creating an offer{#creating-an-offer}

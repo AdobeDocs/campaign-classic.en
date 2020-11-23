@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating offer categories
-seo-title: Creating offer categories
 description: Creating offer categories
-seo-description: 
-page-status-flag: never-activated
-uuid: 5ac0ae5e-1731-4699-b4ef-f3867ad0ab58
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-discoiquuid: a9fad813-3256-4a00-ba74-7dbaba9e8e23
 ---
 
 # Creating offer categories{#creating-offer-categories}

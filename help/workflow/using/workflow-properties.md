@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Workflow properties
 description: Learn more about Campaign Workflow properties
-page-status-flag: never-activated
-uuid: bd576cc0-2db8-4519-bcb5-52bf5c811f42
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-discoiquuid: 71969b30-cc01-4358-9597-f17939720684
 ---
 
 # Workflow properties{#workflow-properties}

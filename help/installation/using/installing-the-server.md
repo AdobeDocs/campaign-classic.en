@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Installing the server
-seo-title: Installing the server
 description: Installing the server
-seo-description: 
-page-status-flag: never-activated
-uuid: 02534211-c267-490d-b9c1-78f56f1284e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-discoiquuid: d1510fd9-995b-46c6-8d57-e1fe3999235e
 ---
 
 # Installing the server{#installing-the-server}

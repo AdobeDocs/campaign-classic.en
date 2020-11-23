@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring surveys
-seo-title: Configuring surveys
 description: Configuring surveys
-seo-description: 
-page-status-flag: never-activated
-uuid: e6798345-f408-43fb-b37c-aef889fb3a6d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: online-surveys
-discoiquuid: 98706258-0621-4aa9-bf14-f92f14946308
 ---
 
 # Configuring surveys{#configuring-surveys}

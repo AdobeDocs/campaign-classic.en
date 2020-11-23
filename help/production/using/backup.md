@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Backup
-seo-title: Backup
 description: Backup
-seo-description: 
-page-status-flag: never-activated
-uuid: 50134154-a671-4534-b48d-a9e2c42e8f1a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: data-processing
-discoiquuid: 870ab0f2-1bd7-42e7-8d83-a08a520b6587
 ---
 
 # Backup{#backup}

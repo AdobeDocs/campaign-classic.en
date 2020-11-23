@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Using a content template
-seo-title: Using a content template
 description: Using a content template
-seo-description: 
-page-status-flag: never-activated
-uuid: 893b9711-593f-4865-b61a-ef0fede9a2b0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: content-management
-discoiquuid: 48f491b7-bf7b-457f-9cf2-db2bbf4eceea
 ---
 
 # Using a content template{#using-a-content-template}

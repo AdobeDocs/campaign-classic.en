@@ -1,14 +1,10 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Track and monitor messages
-seo-title: Track and monitor messages
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 ---
 
 # Track and monitor {#track-and-monitor}

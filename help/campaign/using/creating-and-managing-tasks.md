@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating and managing tasks
-seo-title: Creating and managing tasks
 description: Creating and managing tasks
-seo-description: 
-page-status-flag: never-activated
-uuid: 1d219ae4-1ca9-42cb-a49e-2b647520bda0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-discoiquuid: d71e5ff7-1e81-4c49-9673-c6fae890029b
 ---
 
 # Creating and managing tasks{#creating-and-managing-tasks}

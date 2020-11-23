@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Message Center processing time
-seo-title: Message Center processing time
 description: Message Center processing time
-seo-description: 
-page-status-flag: never-activated
-uuid: 06aca2c2-33c0-4839-bee4-fd838c49ce76
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: reports
-discoiquuid: d1f591d2-95e8-4d99-bc60-955c96b532eb
 ---
 
 # Message Center processing time{#message-center-processing-time}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Synchronizing profiles
-seo-title: Synchronizing profiles
 description: Synchronizing profiles
-seo-description: 
-page-status-flag: never-activated
-uuid: 3d5f0fd4-dfe7-4b34-a75f-8cf36fb7c91d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-discoiquuid: 91115d4f-0cb6-4bce-b28d-17f15e9f9a0a
 ---
 
 # Synchronizing profiles{#synchronizing-profiles}

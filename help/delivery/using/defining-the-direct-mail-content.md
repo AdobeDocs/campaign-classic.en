@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining the direct mail content
-seo-title: Defining the direct mail content
 description: Defining the direct mail content
-seo-description: 
-page-status-flag: never-activated
-uuid: eac69f58-5ecb-4884-8806-edb16e6dece8
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-discoiquuid: 443689f4-4c82-490f-ad96-22446f649a07
 ---
 
 # Defining the direct mail content{#defining-the-direct-mail-content}

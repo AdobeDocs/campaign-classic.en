@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Static elements in a web form
-seo-title: Static elements in a web form
 description: Static elements in a web form
-seo-description: 
-page-status-flag: never-activated
-uuid: 628e2252-16a2-4c8a-a178-60a9441d3198
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: ca3377c6-a120-4cd0-aaf4-80248f4f5918
 ---
 
 # Static elements in a web form{#static-elements-in-a-web-form}

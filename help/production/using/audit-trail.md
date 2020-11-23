@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Audit trail
-seo-title: Audit trail
 description: Audit trail
-seo-description: 
-page-status-flag: never-activated
-uuid: b96b93b6-e002-4c67-b9ce-b66cdcd395d7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: aa147a8c-9d93-45c8-bb4a-db714739f4c0
 ---
 
 # Audit trail{#audit-trail}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Discussion forums
-seo-title: Discussion forums
 description: Discussion forums
-seo-description: 
-page-status-flag: never-activated
-uuid: 6253bb32-c71d-45ac-bc03-027131ae95a5
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-discoiquuid: 88eb17b6-5206-4064-9cd9-b4645a85c609
 ---
 
 # Discussion forums{#discussion-forums}

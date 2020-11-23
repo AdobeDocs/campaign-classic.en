@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Building a workflow
 description: Learn how to build a workflow
-page-status-flag: never-activated
-uuid: 55743545-dd4b-4a0a-aeff-8fd638812b9d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: 2d4ccf81-cd85-4f4c-8ba8-5b5612af1e16
 ---
 
 # Building a workflow {#building-a-workflow}

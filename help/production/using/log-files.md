@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Log files
-seo-title: Log files
 description: Log files
-seo-description: 
-page-status-flag: never-activated
-uuid: 266bc067-0218-4b3e-941c-dc5cd0b6a10d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: fac3e3ec-82a7-4087-ba88-2b28b0f69d1c
 ---
 
 # Log files{#log-files}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Email deliverability
-seo-title: Email deliverability
 description: Email deliverability
-seo-description: 
-page-status-flag: never-activated
-uuid: 983aec6b-60f6-4c9b-a75a-1693958626c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: 86c18986-1f65-40ff-80dc-1fbff37f406d
 ---
 
 # Technical email configurations{#email-deliverability}

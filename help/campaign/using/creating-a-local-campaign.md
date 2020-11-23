@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a local campaign
-seo-title: Creating a local campaign
 description: Creating a local campaign
-seo-description: 
-page-status-flag: never-activated
-uuid: 86e78d9e-26cb-4aea-b8ce-5e52ae352b48
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-discoiquuid: bd057441-8524-49e6-b5d5-fbd0ec5bca85
 ---
 
 # Creating a local campaign{#creating-a-local-campaign}

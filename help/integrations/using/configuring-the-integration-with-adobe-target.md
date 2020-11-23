@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring the integration with Adobe Target
-seo-title: Configuring the integration with Adobe Target
 description: Configuring the integration with Adobe Target
-seo-description: 
-page-status-flag: never-activated
-uuid: b9337e92-e4e5-4cba-a559-75db7460d5c5
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
-discoiquuid: 378d5ff9-88c0-43f1-beb8-454701e9f1d1
 ---
 
 # Configuring the integration with Adobe Target{#configuring-the-integration-with-adobe-target}

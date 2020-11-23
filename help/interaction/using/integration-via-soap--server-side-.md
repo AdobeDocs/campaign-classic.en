@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Integration via SOAP (server side)
-seo-title: Integration via SOAP (server side)
 description: Integration via SOAP (server side)
-seo-description: 
-page-status-flag: never-activated
-uuid: 678371c5-4246-4886-994e-30dbbc70f14a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-discoiquuid: 477a2c31-0403-4db1-a372-c75dca58380d
 ---
 
 # Integration via SOAP (server-side){#integration-via-soap-server-side}

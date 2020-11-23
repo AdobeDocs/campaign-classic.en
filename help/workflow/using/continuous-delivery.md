@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Continuous delivery
-seo-title: Continuous delivery
 description: Continuous delivery
-seo-description: 
-page-status-flag: never-activated
-uuid: af8b4582-299e-47f9-9819-987b35db94ab
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 9d80be19-8dde-4278-ab5f-23f364fe422e
 ---
 
 # Continuous delivery{#continuous-delivery}

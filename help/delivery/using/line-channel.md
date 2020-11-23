@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: LINE channel
-seo-title: LINE channel
 description: LINE channel
-seo-description: 
-page-status-flag: never-activated
-uuid: 94b4e044-3f5d-42a6-b249-29f417386156
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-discoiquuid: 1d3cc650-3c79-4a1d-b2bc-e7eb6d59d2f1
 ---
 
 # LINE channel{#line-channel}

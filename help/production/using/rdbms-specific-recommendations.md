@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: RDBMS Specific recommendations
-seo-title: RDBMS Specific recommendations
 description: RDBMS Specific recommendations
-seo-description: 
-page-status-flag: never-activated
-uuid: 637c1b5a-0484-4734-a012-eb4ba8036263
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-discoiquuid: b2219912-5570-45d2-8b52-52486e29d008
 ---
 
 # RDBMS Specific recommendations{#rdbms-specific-recommendations}

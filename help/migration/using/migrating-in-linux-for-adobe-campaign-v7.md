@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Migrating in Linux for Adobe Campaign v7
-seo-title: Migrating in Linux for Adobe Campaign v7
 description: Migrating in Linux for Adobe Campaign v7
-seo-description: 
-page-status-flag: never-activated
-uuid: 47870ea4-b07b-4db7-8094-7a8b6f4b6936
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
-discoiquuid: 8f6519e8-5c8d-4974-b193-a9f1cf78b3a3
 ---
 
 # Migrating in Linux for Adobe Campaign v7{#migrating-in-linux-for-adobe-campaign-v}

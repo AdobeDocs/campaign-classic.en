@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Examples of schemas edition
-seo-title: Examples of schemas edition
 description: Examples of schemas edition
-seo-description: 
-page-status-flag: never-activated
-uuid: f4bc1596-cf4e-4d1f-b6e8-b18cbd1e2e23
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 82057cdf-d421-4580-aa38-8c27ca6e20fb
 ---
 
 # Examples of schemas edition{#examples-of-schemas-edition}

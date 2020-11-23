@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About profiles
-seo-title: About profiles
 description: About profiles
-seo-description: 
-page-status-flag: never-activated
-uuid: 9a3fcb58-a356-4eee-bc26-c64825de5f99
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: 5addada8-0185-488f-9825-83f60981c139
 ---
 
 # About profiles{#about-profiles}

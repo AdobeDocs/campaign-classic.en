@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Migration warnings
 description: Migration warnings
-page-status-flag: never-activated
-uuid: 35361471-881c-4aaf-a57b-ed7e89a97eae
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-overview
-discoiquuid: 1fa1fe0f-c392-413a-9fa0-d1b4e10e2e5e
 ---
 
 # Migration warnings{#migration-warnings}

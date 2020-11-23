@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Web download
 description: Learn more about the Web download workflow activity
-page-status-flag: never-activated
-uuid: 44039e9c-0cd8-4d3f-b73f-e01c5343835a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-discoiquuid: 8590cc75-11c8-450d-90e8-56744e12ac70
 ---
 
 # Web download{#web-download}

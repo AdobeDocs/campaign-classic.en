@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Content editing best practices
-seo-title: Content editing best practices
 description: Content editing best practices
-seo-description: 
-page-status-flag: never-activated
-uuid: badc6806-b474-4cad-94a3-003a50271281
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-discoiquuid: 3ad38469-8e22-4bfc-8029-5d360f76d6bb
 ---
 
 # Content editing best practices{#content-editing-best-practices}

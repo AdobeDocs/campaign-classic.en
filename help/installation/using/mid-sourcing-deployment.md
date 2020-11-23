@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Mid-sourcing deployment
-seo-title: Mid-sourcing deployment
 description: Mid-sourcing deployment
-seo-description: 
-page-status-flag: never-activated
-uuid: e359c486-7ee6-4295-80fc-4c371a0ef068
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: 19220d8e-9494-46b4-9aa0-4c4a729aea96
 ---
 
 # Mid-sourcing deployment{#mid-sourcing-deployment}

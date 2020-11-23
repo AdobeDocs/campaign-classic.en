@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Translating a web form
-seo-title: Translating a web form
 description: Translating a web form
-seo-description: 
-page-status-flag: never-activated
-uuid: 3de2b021-ce1e-4597-8099-7fbef3279170
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: 145c26cc-c868-4b7b-904d-6af577fbcb83
 ---
 
 # Translating a web form{#translating-a-web-form}

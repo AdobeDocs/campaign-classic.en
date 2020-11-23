@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About templates
-seo-title: About templates
 description: About templates
-seo-description: 
-page-status-flag: never-activated
-uuid: 13b5ad3a-aded-43b8-ae4d-c23aa7bc17bd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
-discoiquuid: 22e289d0-c33c-4daa-a893-b292e523f30b
 ---
 
 # About templates{#about-templates}

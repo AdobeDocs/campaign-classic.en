@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About deliverability in Campaign
 description: Learn deliverability best practices
-page-status-flag: never-activated
-uuid: 2681042b-3018-42ae-b252-2367b56616bd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 ---
 
 # About deliverability{#about-deliverability}

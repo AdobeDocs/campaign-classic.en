@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Alert
-seo-title: Alert
 description: Alert
-seo-description: 
-page-status-flag: never-activated
-uuid: caf39f7b-67e0-4ede-b477-5ac9afdee7c3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: 7cf01a80-1fef-4093-a60a-8ddba62a2464
 ---
 
 # Alert{#alert}

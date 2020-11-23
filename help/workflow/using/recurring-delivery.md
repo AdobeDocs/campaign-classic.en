@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Recurring delivery
 description: Learn more about the Recurring delivery workflow activity
-page-status-flag: never-activated
-uuid: 715855df-fe29-46e8-a7ab-d534f010a26e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 185d3256-a21e-47d7-bee7-7b91762ca1e2
 ---
 
 # Recurring delivery{#recurring-delivery}

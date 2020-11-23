@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating and managing lists
 description: Learn how to create and manage lists
-page-status-flag: never-activated
-uuid: 17d1a7d0-a728-490e-a820-19f469fddbcd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
 ---
 
 # Creating and managing lists{#creating-and-managing-lists}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign workspace
-seo-title: Adobe Campaign workspace
 description: Adobe Campaign workspace
-seo-description: 
-page-status-flag: never-activated
-uuid: ed954f73-6456-4fa3-b284-9b2d865c2afb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
 ---
 
 # Adobe Campaign workspace{#adobe-campaign-workspace}

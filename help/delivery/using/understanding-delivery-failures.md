@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Understanding delivery failures
 description: Learn how to understand delivery failures
-page-status-flag: never-activated
-uuid: 03a91f84-77fe-40a9-8be9-a6a35a873ae1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
 ---
 
 # Understanding delivery failures{#understanding-delivery-failures}

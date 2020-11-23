@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining web forms page sequencing
-seo-title: Defining web forms page sequencing
 description: Defining web forms page sequencing
-seo-description: 
-page-status-flag: never-activated
-uuid: 297fad62-d806-4bd8-9b8c-313c20344ab0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: 85bf3244-6896-43e7-96b8-84c45c282fec
 ---
 
 # Defining web forms page sequencing{#defining-web-forms-page-sequencing}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Importing and exporting audiences
-seo-title: Importing and exporting audiences
 description: Importing and exporting audiences
-seo-description: 
-page-status-flag: never-activated
-uuid: af03ce68-8a58-4909-83e9-23c385820284
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-discoiquuid: f26cc65a-76be-4b7a-bde3-d0cbe3eedaaf
 ---
 
 # Importing and exporting audiences{#importing-and-exporting-audiences}

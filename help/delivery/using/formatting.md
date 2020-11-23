@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Formatting
-seo-title: Formatting
 description: Formatting
-seo-description: 
-page-status-flag: never-activated
-uuid: b6065289-c487-416b-8847-49aa0fb782bf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: content-management
-discoiquuid: d678db05-cc44-4086-98a5-e5296e8e5de8
 ---
 
 # Formatting{#formatting}

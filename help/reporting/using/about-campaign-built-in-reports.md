@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About Campaign built-in reports
-seo-title: About Campaign built-in reports
 description: About Campaign built-in reports
-seo-description: 
-page-status-flag: never-activated
-uuid: 28c32281-51b8-419d-9f18-c7073788df13
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-discoiquuid: 8e4028f8-055a-435c-b226-3d8e0a352f92
 ---
 
 # About Campaign built-in reports{#about-campaign-built-in-reports}

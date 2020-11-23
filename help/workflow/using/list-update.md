@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: List update
-seo-title: List update
 description: List update
-seo-description: 
-page-status-flag: never-activated
-uuid: 1446f115-3f64-4b95-8e04-6426ab1b8dab
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: ca2cd5bf-78a2-4e43-955d-206f4474d1e0
 ---
 
 # List update{#list-update}

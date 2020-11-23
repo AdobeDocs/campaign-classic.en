@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publishing a web form
-seo-title: Publishing a web form
 description: Publishing a web form
-seo-description: 
-page-status-flag: never-activated
-uuid: 37222829-1d56-438c-a4ca-878925debcb5
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: f4322902-c72d-4443-9c30-09add4c615a3
 ---
 
 # Publishing a web form{#publishing-a-web-form}

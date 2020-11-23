@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Task
 description: Learn more about the Task workflow activity
-page-status-flag: never-activated
-uuid: a6fda9d7-83ce-4528-8a9e-e7d06e9b1017
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: ec6f9a10-ad84-4d9f-86e2-490539c2171b
 ---
 
 # Task{#task}

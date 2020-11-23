@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Enrichment
 description: Learn more about the Enrichment workflow activity
-page-status-flag: never-activated
-uuid: 8dad57b7-fa08-48ee-990c-f9f0bb312d1f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: b7ff47e1-ef12-4f04-afff-1a6c01d7701f
 ---
 
 # Enrichment{#enrichment}

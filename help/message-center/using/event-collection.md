@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Event collection
-seo-title: Event collection
 description: Event collection
-seo-description: 
-page-status-flag: never-activated
-uuid: 8c373962-40d4-4982-9bd1-ce1cf8261dd5
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-discoiquuid: cfff302a-6ac0-461a-a1e4-8e4b617fe134
 ---
 
 # Event collection{#event-collection}

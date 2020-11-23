@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About marketing resource management
-seo-title: About marketing resource management
 description: About marketing resource management
-seo-description: 
-page-status-flag: never-activated
-uuid: 01f9958a-f963-4fb3-b171-1f760cd34353
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-discoiquuid: 6101e083-3754-41e1-8a93-021b1a771dc0
 ---
 
 # About marketing resource management{#about-marketing-resource-management}

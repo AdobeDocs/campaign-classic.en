@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Integration into a Web server for Windows
-seo-title: Integration into a Web server for Windows
 description: Integration into a Web server for Windows
-seo-description: 
-page-status-flag: never-activated
-uuid: a5042221-44fe-46a6-9322-288b108396e2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-discoiquuid: a4f2ae0e-e631-4ab6-934e-8298e4ce6f2c
 ---
 
 # Integration into a Web server for Windows{#integration-into-a-web-server-for-windows}

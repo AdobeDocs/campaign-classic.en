@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating push notifications
 description: Learn how to create push notifications
-page-status-flag: never-activated
-uuid: fb1862df-e616-4147-a642-dc867bc983b5
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
 ---
 
 # Creating notifications{#creating-notifications}

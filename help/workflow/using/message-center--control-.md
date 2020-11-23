@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Message Center (Control)
-seo-title: Message Center (Control)
 description: Message Center (Control)
-seo-description: 
-page-status-flag: never-activated
-uuid: bdb3610b-a893-4e60-a9f7-f21d90b66919
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: 69e3e99f-d392-4316-926c-3c3c675415ad
 ---
 
 # Message Center (Control){#message-center-control}

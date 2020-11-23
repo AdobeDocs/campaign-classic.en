@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Edit schema
 description: Learn more about the Edit schema workflow activity
-page-status-flag: never-activated
-uuid: abd77902-98b7-4ab7-a240-dd6b3bb247bb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 733576d2-505f-4598-89eb-a10e7331bf7e
 ---
 
 # Edit schema{#edit-schema}

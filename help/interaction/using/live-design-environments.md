@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Live/Design environments
-seo-title: Live/Design environments
 description: Live/Design environments
-seo-description: 
-page-status-flag: never-activated
-uuid: 38ee2f6a-e446-4ac6-b962-40b648eeaf66
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-discoiquuid: 3cea2be4-4da4-4ebd-a241-1bbaa5abb16e
 ---
 
 # Live/Design environments{#live-design-environments}

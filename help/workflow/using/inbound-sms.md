@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Inbound SMS
 description: Learn more about the Inbound SMS workflow activity
-page-status-flag: never-activated
-uuid: 895e54df-e795-48ac-ac94-96dab454c550
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-discoiquuid: fa9ae600-91fc-4aea-ae02-8ab9064947ac
 ---
 
 # Inbound SMS{#inbound-sms}

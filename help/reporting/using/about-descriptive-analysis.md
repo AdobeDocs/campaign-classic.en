@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About descriptive analysis
-seo-title: About descriptive analysis
 description: About descriptive analysis
-seo-description: 
-page-status-flag: never-activated
-uuid: ce62beff-bed5-4901-a9ce-0028afbd744d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
-discoiquuid: ae57ef5f-e5db-4a91-a65a-d1f5f5b905ef
 ---
 
 # About descriptive analysis{#about-descriptive-analysis}

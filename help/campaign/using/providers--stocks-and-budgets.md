@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Providers, stocks and budgets
-seo-title: Providers, stocks and budgets
 description: Providers, stocks and budgets
-seo-description: 
-page-status-flag: never-activated
-uuid: 6caffaaf-a6a6-40e1-8b17-07c81748382c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-discoiquuid: d4627141-cef1-4ddb-ad6a-5dc217b9fa96
 ---
 
 # Providers, stocks and budgets{#providers-stocks-and-budgets}

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Installing Campaign Classic built-in packages
 description: Learn how to install Campaign built-in packages
-page-status-flag: never-activated
-uuid: 1cba9487-52fc-442f-ae99-f8a2c157f25e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: dd8f9adf-208c-42d9-b1a7-bfc8a690687e
 ---
 
 # Installing Campaign Classic built-in packages{#installing-campaign-standard-packages}

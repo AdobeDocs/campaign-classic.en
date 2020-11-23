@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About social marketing
 description: Learn how to use Campaign to interact with customers via Facebook and Twitter.
-page-status-flag: never-activated
-uuid: 64c861e3-b685-44e2-9b5b-4fbf5d70baa9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: introduction
-discoiquuid: 743b891a-5857-4734-8035-ea9f23860680
 ---
 
 # About social marketing{#about-social-marketing}

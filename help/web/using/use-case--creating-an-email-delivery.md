@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: "Use case: creating an email delivery"
-seo-title: "Use case: creating an email delivery"
 description: "Use case: creating an email delivery"
-seo-description: 
-page-status-flag: never-activated
-uuid: 7cd6329c-63d5-4cf0-9451-f0b4c2eaf0dd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-discoiquuid: 4ec34980-62a2-47b9-b103-de4290925624
 ---
 
 # Use case: creating an email delivery{#use-case-creating-an-email-delivery}

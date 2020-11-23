@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Usual commands
-seo-title: Usual commands
 description: Usual commands
-seo-description: 
-page-status-flag: never-activated
-uuid: f06df8c0-d4ec-4d6b-84d5-f46d852388a3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: 90718075-87a7-4e9a-935b-571010908e79
 ---
 
 # Usual commands{#usual-commands}

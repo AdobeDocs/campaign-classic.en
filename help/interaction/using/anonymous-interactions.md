@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Anonymous interactions
-seo-title: Anonymous interactions
 description: Anonymous interactions
-seo-description: 
-page-status-flag: never-activated
-uuid: 6e28e8a4-8d2f-4747-8dd0-680fbf02b25d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-discoiquuid: 3fd7a1ef-b0e2-4a7e-9e36-044d997db785
 ---
 
 # Anonymous interactions{#anonymous-interactions}

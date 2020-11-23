@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Cross-channel deliveries
 description: Learn more about cross-channel deliveries
-page-status-flag: never-activated
-uuid: 191ff39e-f739-48b3-8865-ad1b641b7499
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 8dda45b4-4b5d-4b4e-a8b4-45d9bc49aaf3
 ---
 
 # Cross-channel deliveries{#cross-channel-deliveries}

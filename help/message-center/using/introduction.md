@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Introduction
-seo-title: Introduction
 description: Introduction
-seo-description: 
-page-status-flag: never-activated
-uuid: 5fe35361-16e1-4424-9c57-f029ec1c2502
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-discoiquuid: 18bb18c6-c41b-4501-9312-1af04db10dd5
 ---
 
 # Introduction{#introduction}

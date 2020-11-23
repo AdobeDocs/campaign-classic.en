@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Communication channels
-seo-title: Communication channels
 description: Create deliveries to send personalized messages on different channels.
-seo-description: 
-page-status-flag: never-activated
-uuid: 42975431-64c9-4ecb-98ed-b1f9b13c157e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
 ---
 
 # Communication channels{#communication-channels}

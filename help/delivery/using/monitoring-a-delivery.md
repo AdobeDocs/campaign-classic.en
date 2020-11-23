@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Monitoring a delivery
-seo-title: Monitoring a delivery
 description: Monitoring a delivery
-seo-description: 
-page-status-flag: never-activated
-uuid: 7cb409eb-a01c-4b4d-bb62-760e0bafdc8a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
 ---
 
 # Monitoring a delivery{#monitoring-a-delivery}

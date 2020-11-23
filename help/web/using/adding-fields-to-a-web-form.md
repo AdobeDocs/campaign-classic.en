@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adding fields to a web form
-seo-title: Adding fields to a web form
 description: Adding fields to a web form
-seo-description: 
-page-status-flag: never-activated
-uuid: 33c6ab85-b021-422a-a224-c9eff27e6fc0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: d63892b3-260d-45e8-b99a-1e7c78353395
 ---
 
 # Adding fields to a web form{#adding-fields-to-a-web-form}

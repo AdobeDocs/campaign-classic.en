@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About outbound channels
-seo-title: About outbound channels
 description: About outbound channels
-seo-description: 
-page-status-flag: never-activated
-uuid: 802d4ff8-c172-494a-9086-6e35c57e5cf5
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
-discoiquuid: a22a25bf-e920-4766-a864-00d32b4c8029
 ---
 
 # About outbound channels{#about-outbound-channels}

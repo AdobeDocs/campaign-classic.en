@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring access to Assets
-seo-title: Configuring access to Assets
 description: Configuring access to Assets
-seo-description: 
-page-status-flag: never-activated
-uuid: dc8c0016-92c8-41ab-98c6-d0fe0bfd6c41
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-discoiquuid: df1b6ead-3471-404a-b43f-a68fb86cb14c
 ---
 
 # Configuring access to Assets{#configuring-access-to-assets}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring access to the report
-seo-title: Configuring access to the report
 description: Configuring access to the report
-seo-description: 
-page-status-flag: never-activated
-uuid: d32d9805-f84f-457f-b37b-a8278642336a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: dd50ca25-8fa2-48fa-84cc-a63e476701a0
 ---
 
 # Configuring access to the report{#configuring-access-to-the-report}

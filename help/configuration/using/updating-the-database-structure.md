@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Updating the database structure
-seo-title: Updating the database structure
 description: Updating the database structure
-seo-description: 
-page-status-flag: never-activated
-uuid: 084dcc7b-f890-4dff-a322-c9a8f1d614b8
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: b82ae459-30b5-4a1c-91cc-5c7b8f128333
 ---
 
 # Updating the database structure{#updating-the-database-structure}

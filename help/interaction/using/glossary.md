@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Glossary
-seo-title: Glossary
 description: Glossary
-seo-description: 
-page-status-flag: never-activated
-uuid: 7c96d243-99d8-4402-9e2a-75beb8b2fbee
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-discoiquuid: 5b2b7682-6bac-4282-8d27-e8a259934e7d
 ---
 
 # Glossary{#glossary}

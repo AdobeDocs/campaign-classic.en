@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Specific configurations in v6.02
-seo-title: Specific configurations in v6.02
 description: Specific configurations in v6.02
-seo-description: 
-page-status-flag: never-activated
-uuid: ea072af3-fdc1-4828-ad13-d4327de1eaf8
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: configuration
-discoiquuid: 87a6cbda-54a6-4dae-8224-e06dc217f4fc
 ---
 
 # Specific configurations in v6.02{#specific-configurations-in-v6-02}

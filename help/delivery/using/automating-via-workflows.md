@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Automating via workflows
-seo-title: Automating via workflows
 description: Automating via workflows
-seo-description: 
-page-status-flag: never-activated
-uuid: c77e8b2b-2a2c-4c6e-8497-662e7269e226
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: content-management
-discoiquuid: 4abce633-647f-4ae4-9419-859f6e2e8628
 ---
 
 # Automating via workflows{#automating-via-workflows}

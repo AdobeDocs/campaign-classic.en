@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Monitoring processes
 description: Learn how to monitor Campaign processes
-page-status-flag: never-activated
-uuid: 9dc1461f-5e95-454d-8df5-19baab85f184
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
 ---
 
 # Monitoring processes{#monitoring-processes}

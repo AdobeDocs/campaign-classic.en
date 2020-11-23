@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adding profiles
-seo-title: Adding profiles
 description: Adding profiles
-seo-description: 
-page-status-flag: never-activated
-uuid: c37d7bc7-b4aa-4d29-a592-7d484d995779
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: 299f84e6-f6ff-4ca0-9799-b56d57e1752b
 ---
 
 # Adding profiles{#adding-profiles}

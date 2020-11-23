@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Before starting migration
 description: Before starting migration
-page-status-flag: never-activated
-uuid: b9325510-2fa5-4be4-9cf0-f37232bbbd8c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-discoiquuid: d8877378-fb43-4f32-91c6-60f2f788f916
 ---
 
 # Before starting migration{#before-starting-migration}

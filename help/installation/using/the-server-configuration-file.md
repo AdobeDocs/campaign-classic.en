@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: The server configuration file
-seo-title: The server configuration file
 description: The server configuration file
-seo-description: 
-page-status-flag: never-activated
-uuid: 8ef7168b-3543-4830-80b0-65a023158b3f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: appendices
-discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 ---
 
 # The server configuration file{#the-server-configuration-file}

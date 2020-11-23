@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a chart
-seo-title: Creating a chart
 description: Creating a chart
-seo-description: 
-page-status-flag: never-activated
-uuid: 516ec707-207e-4320-8d70-fd410425bd4b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: 70e4e63d-354d-4912-b75a-dba38e1c0b03
 ---
 
 # Creating a chart{#creating-a-chart}

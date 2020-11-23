@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Managing profiles
-seo-title: Managing profiles
 description: Managing profiles
-seo-description: 
-page-status-flag: never-activated
-uuid: f045dd5e-e069-4293-8c44-49d71071b041
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: ef7aa3a0-249f-46eb-9300-5b97bce31c8c
 ---
 
 # Managing profiles{#managing-profiles}
