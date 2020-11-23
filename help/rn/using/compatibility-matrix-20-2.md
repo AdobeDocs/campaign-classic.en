@@ -189,7 +189,7 @@ The following RDBMS drivers are supported:
 </td>
 </tr>
 <tr>
-<td>MS Dynamics</td>
+<td>Microsoft Dynamics</td>
 <td>
 <p>Soap API - On-premise: 2007, 2015, 2016</p>
 <p>Soap API - Online: 2015, 2016</p>
