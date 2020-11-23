@@ -207,6 +207,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Oracle</td>
 <td>
+<p>19c</p>
 <p>18c</p>
 <p>12c</p>
 <p>11g</p>
