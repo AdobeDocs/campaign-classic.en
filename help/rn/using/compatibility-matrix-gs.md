@@ -246,7 +246,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <tr>
 <td>SAP HANA</td>
 <td>
-<p>version 1 SP12 or above</p>
+<p>version 1 SPS 12</p>
 </td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
@@ -254,10 +254,6 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <p>HortonWorks HDP 2.4.X, 2.5.x, 2.6.x</p>
 <p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
 </td>
-</tr>
-<tr>
-<td>Snowflake</td>
-<td>&nbsp;</td>
 </tr>
 </tbody>
 </table>

@@ -207,6 +207,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Oracle</td>
 <td>
+<p>19c</p>
 <p>18c</p>
 <p>12c</p>
 <p>11g</p>
@@ -262,7 +263,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>SAP HANA</td>
 <td>
-<p>version 1 SP12 or above</p>
+<p>version 1 SPS 12</p>
 </td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
