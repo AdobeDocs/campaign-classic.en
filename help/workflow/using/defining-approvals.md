@@ -59,7 +59,7 @@ The operator groups for approvals should be designated as roles or functions rat
 
 ## Expirations {#expirations}
 
-Expirations are specific transitions that are used in different types of activity, and particularly in approvals. An expiration can be used to trigger an action after a given lapse of time in the absence of a response or to pursue the workflow (and assign an approval to a different group, for example).
+Expirations are specific transitions that are used in different types of activity, and particularly in approvals. You can use an expiration to trigger an action after a given time without response. It can also be used, for example, to pursue the workflow and assign an approval to a different group.
 
 The second tab in the activity approval properties lets you define one or more expirations. In fact, you can define multiple expiration types.
 
