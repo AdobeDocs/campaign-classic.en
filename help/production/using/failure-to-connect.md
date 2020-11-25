@@ -34,45 +34,46 @@ You can try the following tests and if the connection failure persists, please c
   </tr>
   <tr> 
    <td>Does the Web server respond?</td> 
-   <td>Connect to the Adobe Campaign server access URL using a Web browser: **`http(s):// <urlserver>`**. If it does not respond, the web server is stopped on the machine. Contact the system administrator of your host company in order to restart the service.</td>
+   <td>Connect to the Adobe Campaign server access URL using a Web browser: <b>http(s):// &lt;urlserver&gt;</b>. If it does not respond, the web server is stopped on the machine. Contact the system administrator of your host company in order to restart the service.</td>
   </tr>
   <tr> 
    <td>Has Adobe Campaign been correctly integrated?</td> 
-   <td>Log on to the: **`http(s)://<urlserver>/r/test`** URL. The server should return the following type of message
+   <td>Log on to the: <b>http(s)://&lt;urlserver&gt;/r/test</b> URL. The server should return the following type of message:
 
-      ```
-      <redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='<hostname>' localHost='<server>'/>
-      ```
+      <pre>
+      	<redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='<hostname>' localHost='<server>'/>
+      </pre>
     
       If you do not obtain this result, check in your Web server configuration that integration is taken into account.</td>
   </tr>
   <tr> 
    <td>Has the Adobe Campaign Web module been launched?</td> 
    <td>
-   Connect to the following URL: **`http(s)://<URLSERVER>/nl/jsp/logon.jsp`**
+   Connect to the following URL: <b>http(s)://&gt;URLSERVER&lt;/nl/jsp/logon.jsp</b>
    		* If you obtain a Tomcat Java error:
 
           Is the JAVA integration correctly performed? Adobe Campaign requires a SUN JDK.
 
-          It is integrated in the file **`[path of application]`/nl6/customer.sh**
+          It is integrated in the file [path of application]/nl6/customer.sh
         
         * If you obtain a blank page:
 
           Has the Adobe Campaign Web module started up? You should obtain:
 
-          ```
+         <pre>
           nlserver pdump
           HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
           [...]
           web@default (27515) - 55.2 Mb
           [...]
-          ```
+          </pre>
         
        *  If not, restart it using the following command:
 
-          ```        
+          <pre>        
           nlserver start web
-          ```</td>
+          </pre>
+          </td>
   </tr>
   <tr>
   	<td>Check the general configuration of the security zones.</td>
