@@ -55,9 +55,7 @@ Is the JAVA integration correctly performed? Adobe Campaign requires a SUN JDK.
 It is integrated in the file [path of application]/nl6/customer.sh
 
 * If you obtain a blank page:
-
 Has the Adobe Campaign Web module started up? You should obtain:
-
 <pre>
 nlserver pdump
 HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -65,9 +63,7 @@ HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA
 web@default (27515) - 55.2 Mb
 [...]
 </pre>
-
-*  If not, restart it using the following command:
-
+* If not, restart it using the following command:
 <pre>        
 nlserver start web
 </pre>
