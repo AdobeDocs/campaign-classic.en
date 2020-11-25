@@ -51,7 +51,11 @@ If you do not obtain this result, check in your Web server configuration that in
 </tr>
 <tr>
 <td>Check the general configuration of the security zones.</td>
-<td>For more on configuring security zones, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones)</td>
+<td>For more on configuring security zones, refer to <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=en#configuring-campaign-server"/>this section.</a></td>
+</tr>
+<tr>
+<td>The command nlserver pdump returns <b>No tasks</b></td>
+<td>You must restart the entire Adobe Campaign application. To do this, use the following command: <b>nlserver watchdog -svc -noconsole</b></td>
 </tr>
 </tbody> 
 </table>
