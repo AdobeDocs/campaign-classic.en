@@ -55,6 +55,8 @@ To choose which connector you want to use, follow these steps:
 
 ## Configuring Android service {#configuring-android-service}
 
+![](assets/do-not-localize/how-to-video.png) [Learn how to configure an Android service in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=en#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
+
 1. Go to the **[!UICONTROL Profiles and Targets > Services and subscriptions]** node and click **[!UICONTROL New]**.
 
    ![](assets/nmac_service_1.png)
@@ -171,6 +173,8 @@ Below are the FCM payload names to further personalize your push notification:
 
 ## Extend the appsubscriptionRcp schema {#extend-subscription-schema}
 
+![](assets/do-not-localize/how-to-video.png) [Learn how to extend the appsubscriptionRcp schema in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html?lang=en#extending-the-app-subscription-schema-to-personalize-push-notifications)
+
 You need to extend the **appsubscriptionRcp** to define new additional fields to store parameters from the app in Campaign database . These fields will be used for personalization for example. To do this:
 
 1. Create an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema and define the new fields. Learn more about schema extension in [this page](../../configuration/using/about-schema-edition.md)
@@ -180,7 +184,6 @@ You need to extend the **appsubscriptionRcp** to define new additional fields to
    >[!CAUTION]
    >
    >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to the [Integrating Campaign SDK into the mobile application](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) section.
-
 
 ## Creating an Android rich notification {#creating-android-delivery}
 
@@ -235,6 +238,8 @@ The image and web page should be displayed in the push notification when receive
    >[!NOTE]
    >
    >Additional options for notification message are only available with HTTP v1 API configuration. For more on this, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+
+![](assets/do-not-localize/how-to-video.png) [Learn how to create an Android push notification in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=en#additional-resources)
 
 1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 

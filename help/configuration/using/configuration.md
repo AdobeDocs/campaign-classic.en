@@ -155,7 +155,7 @@ The **`<nodemodel>`** element contains the description of the folder type with t
 * **name**: internal name
 * **label**: label used in the **[!UICONTROL Add new folder]** menu and as a default label when inserting a folder.
 * **img**: default image on folder insertion.
-* **hiddenCommands**: list of commands (separated by a comma) to be masked. Possible values: "insert", "delete", "update" and "duplicate".
+* **hiddenCommands**: list of commands (separated by a comma) to be masked. Possible values: "adbnew", "adbsave", "adbcancel" and "adbdup".
 * **newFolderShortCuts**: list of shortcuts on models (**`<nodemodel>`** separated by a comma) in folder creation. 
 * **insertRight**, **editRight**, **deleteRight**: rights for inserting, editing and deleting folders.
 

@@ -178,7 +178,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </td>
 </tr>
 <tr>
-<td>MS Dynamics</td>
+<td>Microsoft Dynamics</td>
 <td>
 <p>Soap API - On-premise: 2007, 2015, 2016</p>
 <p>Soap API - Online: 2015, 2016</p>

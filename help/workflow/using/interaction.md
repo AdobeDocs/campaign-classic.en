@@ -27,6 +27,7 @@ The workflows detailed below are installed with the **Offer engine (Interaction)
    <tr> 
    <td> <span class="uicontrol">MessageCenter full aggregate calculation</span> <br /> </td> 
    <td> <span class="uicontrol">agg_messageCenter_full</span> <br /> </td> 
+   <td> This workflow updates the <strong>Full</strong> aggregate for the <strong>Message center</strong> cube. It is triggered every day at 3am by default. This aggregate captures the following dimensions: Channel, Date, Status and Event type.<br /> The <strong>Message center</strong> cube is then used to generate reports based on events. You can learn more about cubes in <a href="../../reporting/using/about-cubes.md">this section</a>.<br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 

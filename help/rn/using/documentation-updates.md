@@ -30,6 +30,10 @@ A note has been added in the mid-sourcing server configuration page to specify t
 
 Information has been added on the syntax to use when specifying a path to an external SFTP server. [Read more](../../platform/using/sftp-server-usage.md#external-SFTP-server)
 
+The Personal Data and Personas section has been updated with a use case scenario to illustrate how the different personas are interacting when it comes to Privacy. [Read more](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
+
+A new section listing Frequently Asked Questions on Privacy has been added. [Read more](../../platform/using/privacy-faq.md)
+
 ## October 2020 {#oct-2020}
 
 **New capabilities included in 20.3 release**

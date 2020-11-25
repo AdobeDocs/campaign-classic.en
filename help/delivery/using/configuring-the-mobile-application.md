@@ -42,7 +42,7 @@ Your iOS connector is now configured. You can start creating your service.
 >
 >The application must have been configured for Push actions BEFORE any integration to Adobe Campaign SDK.
 >
->If this is not the case, please refer to [this page](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/).
+>If this is not the case, please refer to [this page](https://developer.apple.com/documentation/usernotifications).
 
 1. Go to the **[!UICONTROL Profiles and Targets > Services and subscriptions]** node and click **[!UICONTROL New]**.
 

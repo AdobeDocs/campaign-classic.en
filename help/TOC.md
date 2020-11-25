@@ -53,6 +53,7 @@ type: Documentation
        + [Privacy and consent](platform/using/privacy-and-recommendations.md)
        + [Privacy management](platform/using/privacy-management.md)
        + [Privacy requests](platform/using/privacy-requests.md)
+     + [Privacy FAQ](platform/using/privacy-faq.md)
   + Profile management {#profile-management}
        + [About profiles](platform/using/about-profiles.md)
        + [Editing a profile](platform/using/editing-a-profile.md)
