@@ -451,8 +451,10 @@ The export model must be associated with the service provider selected for the d
 >
 >For more on exports, refer to the [Getting Started](../../platform/using/generic-imports-and-exports.md) section.
 
-#### How to create an email in a campaign {#create-email-video}
+#### Tutorial video {#create-email-video}
 
 This video explains how to create a campaign and an email in Adobe Campaign Classic.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

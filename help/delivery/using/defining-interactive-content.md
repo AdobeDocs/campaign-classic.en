@@ -196,8 +196,10 @@ For example, if you included a product list in your email, when editing the pric
 >
 >By default the **[!UICONTROL AMP inclusion]** option is set to **[!UICONTROL No]**.
 
-## How to activate and use AMP for emails {#amp-email-video}
+## Tutorial video {#amp-email-video}
 
 The video below explains how to activate AMP in Adobe Campaign Classic and showcases the usage.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

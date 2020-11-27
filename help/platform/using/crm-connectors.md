@@ -65,7 +65,7 @@ Supported versions are detailed in Campaign [Compatibility matrix](../../rn/usin
 
   Refer to [this section](#example-for-microsoft-dynamics) to learn how to set up the connection with Microsoft Dynamics.
 
-  Learn about Adobe Campaign and Microsoft Dynamics integration use cases in [this video](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
+  ![](assets/do-not-localize/how-to-video.png) Learn about Adobe Campaign and Microsoft Dynamics integration use cases in [this video](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
 
   >[!IMPORTANT]
   >

@@ -12,9 +12,7 @@ topic-tags: unitary-interactions
 
 Offers can be presented on various offer spaces using an inbound or outbound channel. This chapter details some specific features for inbound channels.
 
->[!NOTE]
->
->You can also watch this [video](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) that details how to deliver an offer on an inbound channel.
+![](assets/do-not-localize/how-to-video.png) You can also watch this [video](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) that details how to deliver an offer on an inbound channel.
 
 In order for an offer to be selected by the offer engine, it has to be approved and be available in a live environment For more on this, refer to [Approving and activating an offer](../../interaction/using/approving-and-activating-an-offer.md).
 
