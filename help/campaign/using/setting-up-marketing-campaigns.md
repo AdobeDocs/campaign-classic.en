@@ -12,6 +12,8 @@ topic-tags: orchestrate-campaigns
 
 Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 
+![](assets/do-not-localize/how-to-video.png) Discover how to create a marketing plan, programs, and campaigns [in video](#video)
+
 To create a marketing campaign:
 
 1. Create a campaign: discover campaigns and their characteristics: label, type, start and end dates, budget, associated resources, manager(s) and participants.
@@ -38,7 +40,7 @@ To create a marketing campaign:
 
    See [Creating service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
-When these steps have been completed, you can start the deliveries (see [Starting a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), check the data, processes and information relating to the deliveries and, if necessary, manage the associated documents (see [Managing associated documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). You can also track the execution of the processing phases of campaigns and deliveries (see [Tracking](../../campaign/using/marketing-campaign-monitoring.md).
+When these steps have been completed, you can start the deliveries (see [Starting a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), check the data, processes and information relating to the deliveries and, if necessary, manage the associated documents (see [Managing associated documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). You can also track the execution of the processing phases of campaigns and deliveries (see [Tracking](../../campaign/using/marketing-campaign-monitoring.md)).
 
 ## Creating plan and program hierarchy {#creating-plan-and-program-hierarchy}
 
@@ -223,3 +225,9 @@ A periodic campaign is a campaign based on a specific template that lets you cre
     ![](assets/s_ncs_user_op_template_period_planning.png)
 
   Each periodic campaign contains the same elements. Once created, it is managed as a standard campaign.
+
+## Tutorial video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
