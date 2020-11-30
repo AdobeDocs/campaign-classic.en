@@ -46,7 +46,7 @@ The **[!UICONTROL Edit]** tab lets you create your content.
 
 To define the configuration and content of the Web form, apply the following steps:
 
-* Start by creating the required pages and checks: input fields, drop-down lists, HTML content, etc.
+* Start by creating the required pages and controls: input fields, drop-down lists, HTML content, etc.
 
   This step is detailed below.
 

@@ -56,7 +56,7 @@ The following identification methods are possible:
   > 
   >This function is particularly useful for Web applications but not recommended for public forms. The selected access control option must be "Enable access control".
 
-The **[!UICONTROL Skip preloading if identification is empty]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.
+The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.
 
 The **[!UICONTROL Auto-load data referenced in the form]** option lets you automatically preload the data that matches input and merge fields in the form. However, data referenced in **[!UICONTROL Script]** and **[!UICONTROL Test]** activities is not concerned. If this option isn't selected, you need to define the fields using the **[!UICONTROL Load additional data]** option.
 

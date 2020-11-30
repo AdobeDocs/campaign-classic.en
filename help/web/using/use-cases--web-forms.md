@@ -127,7 +127,7 @@ To do this, follow the steps below:
 
 1. Configure the **[!UICONTROL Storage]** activity to save the information entered in the form page.
 
-   This activity lets you create recipient profiles in a dedicated temporary to set them apart from the profiles in the database, whom communications can be sent to.
+   This activity lets you create recipient profiles in a dedicated temporary folder to set them apart from the profiles in the database, whom communications can be sent to.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5g.png)
 

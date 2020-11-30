@@ -29,7 +29,7 @@ The main improvements featured in this version are as follows:
 
     * **Conversion rate**: number of persons who displayed all steps of a navigation path.
     * **Bounce rate**: number of persons who displayed the first step only 
-    * **Conversion tunnel**: loss rate between each step.
+    * **Conversion funnel**: loss rate between each step.
 
   In addition, a **Sector** type chart shows the population according to its source.
 
