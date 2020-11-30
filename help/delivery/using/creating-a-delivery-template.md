@@ -64,6 +64,7 @@ To configure a delivery template, carry out the following steps:
 ## Tutorial videos {#delivery-template-video}
 
 ### How to configure a delivery template 
+
 The following video demonstrates how to configure a template for an ad hoc delivery.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
