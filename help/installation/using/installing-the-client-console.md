@@ -91,6 +91,8 @@ To log on to an existing instance, follow the steps below:
 
 ## Tutorial video
 
+This video shows how to install and setup the Adobe Campaign Client.
+
 >[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
 Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

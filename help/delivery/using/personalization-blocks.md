@@ -149,7 +149,7 @@ To create a personalization block, go to the explorer and apply the following st
 
 ## Tutorial video {#personalization-blocks-video}
 
-Learn how created dynamic content blocks and how use them to personalize the content of your email delivery.
+Learn how to create dynamic content blocks and how to use them to personalize the content of your email delivery.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 

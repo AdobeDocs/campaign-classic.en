@@ -385,6 +385,8 @@ In the fields that express a duration (e.g. validity period of the resources of 
 
 ## Tutorial video {#video}
 
+This video presents Campaign Classic workspace.
+
 >[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
 
 Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
