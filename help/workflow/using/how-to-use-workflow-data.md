@@ -90,7 +90,7 @@ You can then use commands or code in the **[!UICONTROL Script]** tab of the acti
 
 In this use case, we will build a workflow in order to encrypt and export data using a key installed on Control Panel.
 
-![](assets/do-not-localize/how-to-video.png) A tutorial video showing how to use a GPG key to encrypt data is also available in [this section](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings).
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 The steps to perform this use case are as follows:
 
@@ -135,3 +135,10 @@ The steps to perform this use case are as follows:
 
 1. You can now run the workflow. Once it is executed, data target by the query will be exported to the SFTP server into an encrypted .gpg file.
 
+### Tutorial video {#video}
+
+This video shows how to use a GPG key to encrypt data is also available in
+
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

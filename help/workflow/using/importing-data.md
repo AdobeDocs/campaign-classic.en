@@ -250,7 +250,7 @@ An example is presented in the use case below.
 
 In this use case, we will build a workflow in order to import data that has been encrypted in an external system, using a key generated in the Control Panel.
 
-![](assets/do-not-localize/how-to-video.png) A tutorial video showing how to use a GPG key to decrypt data is also available in [this section](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings).
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 The steps to perform this use case are as follows:
 
@@ -295,3 +295,11 @@ The steps to perform this use case are as follows:
 1. You can now run the workflow. Once it is executed, you can check in the workflow logs that the decryption has been executed, and that data from the file have been imported.
 
     ![](assets/gpg_run.png)
+
+### Tutorial video {#video}
+
+This video shows how to use a GPG key to decrypt data.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
