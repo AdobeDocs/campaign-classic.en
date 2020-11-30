@@ -49,7 +49,7 @@ In the following example, the list update activity follows a query which targets
 
    The list of matching recipients is then created or updated.
 
-For more on this, refer to the [Creating a list of recipients](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html) video.
+![](assets/do-not-localize/how-to-video.png) For more on this, refer to the [Creating a list of recipients](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html) video.
 
 ## Input parameters {#input-parameters}
 

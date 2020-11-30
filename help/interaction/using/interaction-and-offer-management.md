@@ -20,7 +20,7 @@ Interaction lets you create and manage a catalog of offers, and configure the el
 
 ![](assets/Offermgt2.png)
 
-To familiarize yourself with the interaction feature and terminologies used in Campaign Interaction, watch this video: [Adobe Campaign Interaction overview](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com).
+![](assets/do-not-localize/how-to-video.png) To familiarize yourself with the interaction feature and terminologies used in Campaign Interaction, watch [this video](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com).
 
 ## Related topics
 

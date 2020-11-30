@@ -102,8 +102,10 @@ In the example below, you will learn how to create a multilingual email. Content
    >
    >As no alternative version has been defined in the email content, make sure to filter target population before sending the email.
 
-## How to create a multilingual newsletter with conditional content {#conditionnal-content-video}
+## Tutorial video {#conditionnal-content-video}
 
 Learn how to add conditional content to a delivery on the example of a multilingual newsletter.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

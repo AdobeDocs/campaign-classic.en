@@ -147,8 +147,10 @@ To create a personalization block, go to the explorer and apply the following st
 
     * Enter the content (in HTML, text, JavaScript, etc.) of the personalization block(s) and click **[!UICONTROL Save]**.
 
-## How to personalize emails using dynamic content blocks {#personalization-blocks-video}
+## Tutorial video {#personalization-blocks-video}
 
 Learn how created dynamic content blocks and how use them to personalize the content of your email delivery.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

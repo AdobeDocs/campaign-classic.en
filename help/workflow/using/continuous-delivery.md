@@ -10,7 +10,11 @@ topic-tags: action-activities
 
 # Continuous delivery{#continuous-delivery}
 
-A **Continuous delivery** type action lets you add new recipients to an existing delivery. This delivery type avoids you having to create a new delivery each time: This mode is often more efficient, in particular for low-volume alerts or notifications sent out as and when needed. At a delivery template level, you can specify a script to calculate the label (and the campaign folder) of the associated delivery. If the script calculates a delivery that does not yet exist, it is created on the fly.
+A **Continuous delivery** type action lets you add new recipients to an existing delivery. This delivery type avoids you having to create a new delivery each time: This mode is often more efficient, in particular for low-volume alerts or notifications sent out as and when needed.
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#continuous-delivery-video)
+
+At a delivery template level, you can specify a script to calculate the label (and the campaign folder) of the associated delivery. If the script calculates a delivery that does not yet exist, it is created on the fly.
 
 ![](assets/edit_diffusion_fil.png)
 
@@ -49,6 +53,10 @@ A continuous delivery will create a SINGLE delivery and delivery logs (broadLog)
 
 ![Continuous Delivery](assets/delivery_continuous.jpg)
 
+## Tutorial video {#continuous-delivery-video}
+
 This video shows how to configure a continuous delivery with an incremental query.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

@@ -218,13 +218,16 @@ You can use **[!UICONTROL Seed addresses]** as target of the proofs: this option
 
 You can combine the definition of a specific proof target and the use of seed addresses using the **[!UICONTROL Specific target and Seed addresses]** option. The related configurations are then defined in two separate sub-tabs.
 
-## How to manage seed and proofs in an email {#seeds-and-proofs-video}
+## Tutorial video {#seeds-and-proofs-video}
 
 In this video you will learn how to add seeds and proofs to an existing email and how to send it.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+
 See also:
+
 * [Selecting the proof target](#selecting-the-proof-target)
 
 * [About seed addresses](../../delivery/using/about-seed-addresses.md)
