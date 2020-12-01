@@ -268,7 +268,7 @@ type: Documentation
        + [Tracking a web application](web/using/tracking-a-web-application.md)
        + [Web application tracking opt-out](web/using/web-application-tracking-opt-out.md)
   + Editing HTML content {#editing-html-content}
-       + [About Campaign HTML editor](web/using/about-campaign-html-editor.md)
+       + [Get started with the HTML editor](web/using/about-campaign-html-editor.md)
        + [Template management](web/using/template-management.md)
        + [Content editor interface](web/using/content-editor-interface.md)
        + [Editing content](web/using/editing-content.md)
@@ -276,7 +276,7 @@ type: Documentation
        + [Creating a landing page](web/using/creating-a-landing-page.md)
        + [Use case: creating an email delivery](web/using/use-case--creating-an-email-delivery.md)
   + Web forms {#web-forms}
-       + [About web forms](web/using/about-web-forms.md)
+       + [Get started with web forms](web/using/about-web-forms.md)
        + [Using a web form template](web/using/using-a-web-form-template.md)
        + [Adding fields to a web form](web/using/adding-fields-to-a-web-form.md)
        + [Static elements in a web form](web/using/static-elements-in-a-web-form.md)
@@ -289,9 +289,9 @@ type: Documentation
        + [Translating a web form](web/using/translating-a-web-form.md)
        + [Use cases: web forms](web/using/use-cases--web-forms.md)
   + Online surveys {#online-surveys}
-       + [About surveys](web/using/about-surveys.md)
-       + [Getting started with surveys](web/using/getting-started-with-surveys.md)
-       + [Building a survey](web/using/building-a-survey.md)
+       + [Get started with surveys](web/using/about-surveys.md)
+       + [Key steps to create a survey](web/using/getting-started-with-surveys.md)
+       + [Designing a survey](web/using/building-a-survey.md)
        + [Managing answers](web/using/managing-answers.md)
        + [Publish, track and use collected data](web/using/publish--track-and-use-collected-data.md)
        + [Configuring surveys](web/using/configuring-surveys.md)

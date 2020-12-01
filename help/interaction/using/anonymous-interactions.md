@@ -10,7 +10,7 @@ topic-tags: unitary-interactions
 
 # Anonymous interactions{#anonymous-interactions}
 
-Watch this [video](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) to get an overview of how offers are delivered to identified and anonymous targets.
+![](assets/do-not-localize/how-to-video.png) Watch this [video](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) to get an overview of how offers are delivered to identified and anonymous targets.
 
 ## Targeting and storing an environment for anonymous interactions {#targeting-and-storing-an-environment-for-anonymous-interactions}
 
