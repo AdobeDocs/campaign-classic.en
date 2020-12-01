@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: About web applications
-description: Create and share dynamic Web applications, landing pages and surveys.
+title: Get started with web applications
+description: Create and share dynamic Web applications, landing pages and surveys
 audience: web
 content-type: reference
 topic-tags: web-applications

@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Building a survey
-description: Building a survey
+title: Designing a survey
+description: Designing a survey
 audience: web
 content-type: reference
 topic-tags: online-surveys
 ---
 
-# Building a survey{#building-a-survey}
+# Designing a survey{#building-a-survey}
 
 ## Creating a new survey {#creating-a-new-survey}
 
