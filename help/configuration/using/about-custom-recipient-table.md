@@ -69,5 +69,5 @@ For example:
 * The default configurations for certain workflow activities reference the standard recipients table (**[!UICONTROL nms:recipient]**): these configurations must be changed when used for an external recipients table. Refer to the [Managing workflows](../../configuration/using/managing-workflows.md) section.
 * The standard **[!UICONTROL Unsubscription link]** personalization block must be adapted.
 * The target mapping of the standard delivery templates must be modified.
-* V4 forms are not compatible for use with an external recipients table: you must use Web applications.
+* V4 forms are not compatible for use with an external recipients table: you must use web applications.
 

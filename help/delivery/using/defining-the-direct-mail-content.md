@@ -26,7 +26,7 @@ This link lets you access the extraction wizard and define the information (colu
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-It is possible to insert a personalized URL into the extraction file. For more on this, refer to [Web functionality](../../web/using/publishing-a-web-form.md).
+It is possible to insert a personalized URL into the extraction file. For more on this, refer to [this section](../../web/using/publishing-a-web-form.md).
 
 >[!NOTE]
 >

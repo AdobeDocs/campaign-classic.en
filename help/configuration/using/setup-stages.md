@@ -15,7 +15,7 @@ The basic principle is the insertion of web tracking tags in certain pages of yo
 There are two types of tags:
 
 * **WEB**: this tag tells you if the page has been visited,
-* **TRANSACTION**: operates like a Web tag, but with the possibility of adding information on the business volume generated, for example (transaction amount, number of items purchased, etc.).
+* **TRANSACTION**: operates like a web tag, but with the possibility of adding information on the business volume generated, for example (transaction amount, number of items purchased, etc.).
 
 Apply the following steps to set up these tags:
 
