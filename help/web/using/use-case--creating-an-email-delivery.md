@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Use case: creating an email delivery
+title: Use case - creating an email delivery
 description: Creating an email delivery use case
 audience: web
 content-type: reference
