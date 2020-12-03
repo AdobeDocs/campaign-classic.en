@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 ---
 
-# Monitoring interface {#monitoring-a-delivery}
+# Delivery monitoring interface {#monitoring-a-delivery}
 
 The **delivery dashboard** is key to monitor your deliveries and eventual issues encountered during the sending of messages.
 

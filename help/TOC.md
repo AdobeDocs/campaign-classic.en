@@ -148,7 +148,7 @@ type: Documentation
        + [Managing subscriptions](delivery/using/managing-subscriptions.md)
        + [Viral and social marketing](delivery/using/viral-and-social-marketing.md)
   + Monitoring deliveries {#monitoring-deliveries}
-       + [Monitoring a delivery](delivery/using/monitoring-a-delivery.md)
+       + [Monitoring a delivery](delivery/using/monitoring-interface.md)
        + [Understanding delivery failures](delivery/using/understanding-delivery-failures.md)
        + [Understanding quarantine management](delivery/using/understanding-quarantine-management.md)
   + Tracking messages {#tracking-messages}

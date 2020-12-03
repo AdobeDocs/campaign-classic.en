@@ -53,7 +53,7 @@ The following table lists all Campaign built-in packages.
  <tbody> 
   <tr> 
    <td> Delivery<br /> </td> 
-   <td> Monitors deliveries and eventual issues encountered when messages are sent. <a href="../../delivery/using/monitoring-a-delivery.md">Learn more</a><br /> </td> 
+   <td> Monitors deliveries and eventual issues encountered when messages are sent. <a href="../../delivery/using/monitoring-interface.md">Learn more</a><br /> </td> 
    <td> All</td> 
   </tr> 
   <tr> 

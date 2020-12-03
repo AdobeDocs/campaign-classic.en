@@ -188,7 +188,7 @@ Tracking can be viewed in the delivery reports and in the **[!UICONTROL Edit > T
 
 Clicks on the URL contained in the delivery are measured by Adobe Campaign. The number of clicks on the **[!UICONTROL Like]** button, the number of comments and the number of fans are measured by Facebook.
 
-Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](../../delivery/using/monitoring-a-delivery.md).
+Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](../../delivery/using/monitoring-interface.md).
 
 >[!NOTE]
 >
