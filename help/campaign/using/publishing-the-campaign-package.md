@@ -24,7 +24,7 @@ You may then begin the approval process by clicking **[!UICONTROL Submit for app
 
 ![](assets/s_advuser_mkg_dist_valid_process.png)
 
-A notification message is then sent to the reviewer to confirm the availability of this campaign package. The message contains a link to accept or reject the approval via Web access.
+A notification message is then sent to the reviewer to confirm the availability of this campaign package. The message contains a link to accept or reject the approval via web access.
 
 ![](assets/s_advuser_mkg_dist_valid_process1.png)
 

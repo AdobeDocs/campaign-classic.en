@@ -29,7 +29,7 @@ The navigation block of the **[!UICONTROL Campaigns]** universe offers various e
 * **Campaign calendar**: calendar of plans, marketing programs, deliveries and campaigns. Refer to [Campaign calendar](#campaign-calendar).
 * **Campaigns**: access to the campaigns contained in all marketing programs.
 * **Deliveries**: access to the deliveries linked to the campaigns.
-* **Web Applications**: access to Web applications (forms, surveys, etc.).
+* **Web Applications**: access to web applications (forms, surveys, etc.).
 
 >[!NOTE]
 >
@@ -155,7 +155,7 @@ You can access the Adobe Campaign console screens via an internet browser to vie
 
    ![](assets/s_ncs_user_interface_web_campaign_01.png)
 
-Approvals (of a target or a delivery content, for instance) can be carried out via Web access.
+Approvals (of a target or a delivery content, for instance) can be carried out via web access.
 
 ![](assets/campaign_web_interface_validation.png)
 
