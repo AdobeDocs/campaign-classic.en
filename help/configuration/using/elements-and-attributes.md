@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Elements and attributes
-seo-title: Elements and attributes
 description: Elements and attributes
-seo-description: 
-page-status-flag: never-activated
-uuid: 72b0128a-a453-4646-93e5-b399914abb76
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-discoiquuid: 5e24d94a-f9c1-4642-a881-dfc4b5492f14
 ---
 
 # Elements and attributes {#elements-and-attributes}

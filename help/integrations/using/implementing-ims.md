@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Implementing IMS
-seo-title: Implementing IMS
 description: Implementing IMS
-seo-description: 
-page-status-flag: never-activated
-uuid: 9f36e979-39b6-402e-b8f2-dede4a88d727
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-discoiquuid: 3999577b-0460-4898-a4ec-a7b0e5002065
 ---
 
 # Implementing IMS{#implementing-ims}

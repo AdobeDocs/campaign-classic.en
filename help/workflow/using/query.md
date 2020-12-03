@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Query
-seo-title: Query
-description: Query
-seo-description: 
-page-status-flag: never-activated
-uuid: 32f4f467-5083-414f-8616-1aa4bf2b5867
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Query workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: b53d9810-f61f-4257-b410-e4d30f78429d
 ---
 
 # Query{#query}

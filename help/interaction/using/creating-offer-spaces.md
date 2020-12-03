@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating offer spaces
-seo-title: Creating offer spaces
 description: Creating offer spaces
-seo-description: 
-page-status-flag: never-activated
-uuid: 2ad38697-db14-4dc0-abb8-9b71d57e0e35
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-discoiquuid: 0fae2149-0980-466d-ac9e-8afec2e278be
 ---
 
 # Creating offer spaces{#creating-offer-spaces}

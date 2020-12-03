@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Email archiving
-seo-title: Email archiving
 description: Email archiving
-seo-description: 
-page-status-flag: never-activated
-uuid: a5ed0659-be61-4d73-98e7-db3da24d92f3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: d6467875-949b-4b47-940f-620efd4db5e0
 ---
 
 # Email BCC {#email-archiving}

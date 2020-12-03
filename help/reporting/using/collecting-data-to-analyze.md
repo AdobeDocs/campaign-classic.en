@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Collecting data to analyze
-seo-title: Collecting data to analyze
 description: Collecting data to analyze
-seo-description: 
-page-status-flag: never-activated
-uuid: 5a611786-6e56-4fce-b232-dd8428f3a5f2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: 594a333d-1fc3-49a0-b3f6-7ea8fa4321e9
 ---
 
 # Collecting data to analyze{#collecting-data-to-analyze}

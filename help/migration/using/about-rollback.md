@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Rollback to the previous version
 description: Learn how to rollback to the previous version
-page-status-flag: never-activated
-uuid: 9d404ca5-e38c-48ba-b5e0-8e70a40482c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: rollback
-discoiquuid: 0e17abea-5e86-43b5-8bca-ee39d9b24c90
 ---
 
 # Rollback to the previous version{#about-rollback}

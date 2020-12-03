@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Intersection
-seo-title: Intersection
 description: Intersection
-seo-description: 
-page-status-flag: never-activated
-uuid: a8ff7a66-6c12-4e3c-ad45-d11b34ca64ff
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: d0dd9c74-aad5-452e-a11d-c231dacd2aec
 ---
 
 # Intersection{#intersection}

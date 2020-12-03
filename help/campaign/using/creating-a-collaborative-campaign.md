@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a collaborative campaign
-seo-title: Creating a collaborative campaign
 description: Creating a collaborative campaign
-seo-description: 
-page-status-flag: never-activated
-uuid: 13d8ff65-1480-422a-85b6-40b553a3c151
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-discoiquuid: 01d8be92-7312-4386-b5f5-651af31308f7
 ---
 
 # Creating a collaborative campaign{#creating-a-collaborative-campaign-intro}

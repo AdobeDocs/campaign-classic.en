@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Implementation
-seo-title: Implementation
 description: Implementation
-seo-description: 
-page-status-flag: never-activated
-uuid: 883bad1c-c35b-4c48-9dca-c0cb947facb6
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 853f26ad-d373-49a5-952e-4197ffc3d904
 ---
 
 # Improving deliverability through re-engagement{#re-engagement}

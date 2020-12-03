@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating an email delivery
-seo-title: Creating an email delivery
 description: Creating an email delivery
-seo-description: 
-page-status-flag: never-activated
-uuid: a0b2fe13-a2a5-4f12-9f7f-ed7309a3e705
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: a2d34989-a6ca-4e98-8354-520b693f5604
 ---
 
 # Creating an email delivery{#creating-an-email-delivery}

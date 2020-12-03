@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: General architecture
 description: Learn how to install and configure Campaign Classic.
-page-status-flag: never-activated
-uuid: 686bc660-2403-4bab-a4ea-9b872adf8fa0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
-discoiquuid: 7c28c179-eb18-437e-baf2-25829566c766
 ---
 
 # General architecture{#general-architecture}
@@ -37,7 +34,7 @@ Adobe Campaign is based on a service-oriented architecture (SOA) and comprises s
 
 >[!CAUTION]
 >
->If not explicitly stated otherwise, installation, updates and maintenance on all components of an Adobe Campaign platform are the responsibility of the machine administrator(s) hosting them. This includes implementing the prerequisites for Adobe Campaign applications as well as complying with the [Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) between components.
+>If not explicitly stated otherwise, installation, updates and maintenance on all components of an Adobe Campaign platform are the responsibility of the machine administrator(s) hosting them. This includes implementing the prerequisites for Adobe Campaign applications as well as complying with Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md) between components.
 
 ## Presentation layer {#presentation-layer}
 

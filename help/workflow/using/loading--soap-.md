@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Loading (SOAP)
-seo-title: Loading (SOAP)
 description: Loading (SOAP)
-seo-description: 
-page-status-flag: never-activated
-uuid: 80597892-e363-48f6-8633-faad161064a4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 94178104-f8ba-4c17-8ff9-928c5d2df1b7
 ---
 
 # Loading (SOAP){#loading-soap}

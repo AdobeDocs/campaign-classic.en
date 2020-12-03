@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About schema edition
-seo-title: About schema edition
-description: About schema edition
-seo-description: 
-page-status-flag: never-activated
-uuid: edb4d47d-b507-4d86-9873-ebd5f6acefc6
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Get started with schema edition
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: d5b08e4e-060c-4185-9dac-af270918e2b9
 ---
 
 # About schema edition{#about-schema-edition}

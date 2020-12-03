@@ -1,15 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Campaign Settings FAQ
-seo-title: How to configure Campaign
 description: Campaign Classic FAQ
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 ---
 
 # Campaign Settings FAQ {#settings-faq}
@@ -52,11 +48,11 @@ Campaign lets you set up approval processes for the main steps of the marketing 
 
 Adobe Campaign provides the Federated Data Access (FDA) option in order to process information stored in one or more external databases: you can access external data without changing the structure of Adobe Campaign data.
 
-[Click here to learn more](../../platform/using/connecting-to-database.md).
+[Click here to learn more](../../installation/using/connecting-to-database.md).
 
 ## Which external databases can I connect Campaign to? {#which-external-databases-can-i-connect-campaign-to-}
 
-External database compatible with Campaign through Federated Data Access (FDA) are listed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+External database compatible with Campaign through Federated Data Access (FDA) are listed in the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 ## Can Adobe Campaign integrate with LDAP? {#can-adobe-campaign-integrate-with-ldap-}
 
@@ -70,7 +66,9 @@ Adobe Campaign provides various CRM connectors for linking your Adobe Campaign p
 
 These connectors enable quick and easy data integration: Adobe Campaign provides a dedicated wizard for collecting and selecting from the tables available in the CRM. This guarantees two-directional synchronization to make sure data is up-to-date at all times throughout the systems.
 
-Read out [Configure CRM connectors](../../platform/using/crm-connectors.md) to learn how to synchronize your CRM tool with Adobe Campaign. Watch this use case video on [Adobe Campaign and Microsoft Dynamics 365 integration](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
+Read out [Configure CRM connectors](../../platform/using/crm-connectors.md) to learn how to synchronize your CRM tool with Adobe Campaign.
+
+![](assets/do-not-localize/how-to-video.png) Watch this use case video on [Adobe Campaign and Microsoft Dynamics 365 integration](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
 
 ## How to perform Soft Cache Clear when the issues are Machine-specific or User-specific? {#perform-soft-cache-clear}
 

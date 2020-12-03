@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publish, track and use collected data
-seo-title: Publish, track and use collected data
 description: Publish, track and use collected data
-seo-description: 
-page-status-flag: never-activated
-uuid: eac16f2c-0423-4727-a2da-3af1d6c616ec
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: online-surveys
-discoiquuid: 434a4bda-0907-42a7-8a75-2db658bba046
 ---
 
 # Publish, track and use collected data{#publish-track-and-use-collected-data}

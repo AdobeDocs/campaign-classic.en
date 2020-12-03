@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Schema structure
-seo-title: Schema structure
 description: Schema structure
-seo-description: 
-page-status-flag: never-activated
-uuid: 9be70907-6154-4890-91e8-fd0fac30ab05
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-discoiquuid: b5c8faf7-d0ae-4d95-b7fe-6ef9674a33d2
 ---
 
 # Schema structure{#schema-structure}

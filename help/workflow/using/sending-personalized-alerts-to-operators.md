@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Sending personalized alerts to operators
-seo-title: Sending personalized alerts to operators
-description: Sending personalized alerts to operators
-seo-description: 
-page-status-flag: never-activated
-uuid: 10dd46b9-df28-4043-91f9-c9316a7c69d3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to send personalized alerts to operators
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 4d72db10-29bd-4b3c-adb3-bead02890271
 ---
 
 # Sending personalized alerts to operators{#sending-personalized-alerts-to-operators}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Distributed Marketing
-seo-title: Distributed Marketing
-description: Distributed Marketing
-seo-description: 
-page-status-flag: never-activated
-uuid: 071edddc-b9d2-4193-a667-71f738132684
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Distributed Marketing package
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: 5d34669d-e79f-42e1-85ba-8b4e38d98e5c
 ---
 
 # Distributed Marketing{#distributed-marketing}

@@ -1,9 +1,8 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Campaign Classic deprecated and removed features
 description: This page lists deprecated and removed features of Adobe Campaign Classic
-page-status-flag: never-activated
-contentOwner: simonetn
-products: SG_CAMPAIGN/CLASSIC
 audience: rn
 content-type: reference
 topic-tags: campaign-classic-deprecated-features
@@ -40,23 +39,35 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><strong>Replacement</strong></td>
   </tr>
   <tr>
+  <td>CRM connectors<br></td>
+   <td><p>Starting Campaign 20.3 release, the following CRM connectors are deprecated:</p>
+   <ul>
+   <li>Soap API - On-premise: 2007, 2015, 2016</li>
+   <li>Soap API - Online: 2015, 2016</li>
+   <li>Web API – Microsoft Dynamics CRM On-premise: 2016, 2016 Update 1</li>
+   <li>Web API – Microsoft Dynamics CRM Online: 2016, 2016 Update 1</li>
+   </ul>
+  <p><em>Target removal date: April 2021</em></p>
+  </td>
+ </tr>
+  <tr>
   <td>iOS legacy binary<br></td>
   <td><p>Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated.<p>
   <p> If you are using this connector, you need to adapt your implementation accordingly.
-  <a href="https://helpx.adobe.com/campaign/kb/migrate-to-http2.html">Learn more</a></p>
-  <p><em>Target removal date: 2021</em></p>
+  <a href="https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html">Learn more</a></p>
+  <p><em>Target removal date: April 2021</em></p>
   </td>
  </tr>
    <tr>
   <td>Demdex domain<br></td>
   <td><p> Starting Campaign 20.3 release, the demdex domain used to import and export audiences to the Adobe Experience Cloud is deprecated.<p>
   <p>If you are using the demdex domain for your import/export external accounts, you need to adapt your implementation accordingly. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Learn more</a></p> 
-  <p><em>Target removal date: 2021</em></p>
+  <p><em>Target removal date: April 2021</em></p>
   </td>
   <tr>
   <td>OAuth Authentication (OAuth and JWT)<br></td>
   <td><p> Starting Campaign 20.3 release, Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. <p>
-  <p>If you are using Triggers integration, you need to adapt your implementation accordingly. <a href="../../integrations/using/about-triggers.md">Learn more</a></p> 
+  <p>If you are using Triggers integration, you need to adapt your implementation accordingly. <a href="../../integrations/using/configuring-adobe-io.md">Learn more</a></p> 
   <p>For more information on OAuth Authentication depreciation, refer to this <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
   <p><em>Target removal date: April 2021</em></p>
   </td>
@@ -74,14 +85,14 @@ Customers are advised to review if they make use of the feature/capability in th
    </ul>
   <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../delivery/using/sms-channel.md">Learn more</a></p> 
   <p>Learn how to migrate legacy connectors in <a href="https://helpx.adobe.com/campaign/kb/sms-connector.html">this technote</a>.</p>
-  <p><em>Target removal date: 2021</em></p>
+  <p><em>Target removal date: April 2021</em></p>
   </td> 
  </tr>
   <tr>  
    <td>Fax channel<br></td>
    <td><p>Starting Campaign 20.2 release, the Fax channel is deprecated.</p> 
    <p>If you are using this channel, you need to adapt your implementation accordingly. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Learn more</a> about Campaign channels.</p>
-   <p><em>Target removal date: 2021</em></p></td>
+   <p><em>Target removal date: April 2021</em></p></td>
   </tr>
  </tbody> 
 </table>

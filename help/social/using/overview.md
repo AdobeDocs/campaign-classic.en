@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Overview
-seo-title: Overview
 description: Overview
-seo-description: 
-page-status-flag: never-activated
-uuid: e1cd6b8c-b7e4-4cfb-a3d6-ad05f81a8e5f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-discoiquuid: 9330d4f2-b36d-440d-b56e-b2d4448199b2
 ---
 
 # Overview{#overview}

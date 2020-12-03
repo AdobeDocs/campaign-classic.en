@@ -1,21 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Compatibility matrix
 description: Campaign Classic Compatibility matrix
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Compatibility matrix{#compatibility-matrix}
 
 This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic**. Products and versions that are not part of this list are not compatible with Adobe Campaign.
 
-As a Gold Standard user, refer to the 
+If you are a Gold Standard user, refer to the [Gold Standard Compatibility matrix](../../rn/using/compatibility-matrix-gs.md).
 
 ## Important notes{#important-notes}
 
@@ -188,9 +185,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>MS Dynamics</td>
 <td>
-<p>Soap API - On-premise: 2007, 2015, 2016</p>
-<p>Soap API - Online: 2015, 2016</p>
-<p>Web API - On-premise and Online: 365, 2016, 2016 Update 1</p>
+<p>Web API: Dynamics 365 On-premise and Online</p>
 </td>
 </tr>
 </tbody>
@@ -212,6 +207,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>Oracle</td>
 <td>
+<p>19c</p>
 <p>18c</p>
 <p>12c</p>
 <p>11g</p>
@@ -267,7 +263,7 @@ To learn more about deprecated items, visit [this page](../../rn/using/deprecate
 <tr>
 <td>SAP HANA</td>
 <td>
-<p>version 1 SP12 or above</p>
+<p>version 1 SPS 12</p>
 </td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
@@ -337,4 +333,4 @@ Internet Explorer 11 is supported.
 * [Campaign Classic Release notes](../../rn/using/latest-release.md)
 * [Installation Guide](../../installation/using/general-architecture.md)
 * [Deprecated features and systems](../../rn/using/deprecated-features.md)
-* [Build upgrade procedure](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)
+* [Build upgrade procedure](../../production/using/build-upgrade.md)

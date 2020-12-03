@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Update data
-seo-title: Update data
-description: Update data
-seo-description: 
-page-status-flag: never-activated
-uuid: 5f3ab7c8-175a-4b06-a50c-edc97b226e3c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Update data workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: c94ce5b7-aa8a-4ea2-845d-68c9c7dc2a7b
 ---
 
 # Update data{#update-data}

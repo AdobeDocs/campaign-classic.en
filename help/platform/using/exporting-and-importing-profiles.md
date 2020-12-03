@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Exporting and importing profiles
-seo-title: Exporting and importing profiles
 description: Exporting and importing profiles
-seo-description: 
-page-status-flag: never-activated
-uuid: 94915370-d9b4-4c03-be8f-c30c3006171a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: 0325ab0f-394e-404b-9f4a-db3cc18d2493
 ---
 
 # Importing and exporting profiles{#exporting-and-importing-profiles}
@@ -32,8 +27,10 @@ To configure and execute data imports and exports jobs, go to the **[!UICONTROL 
 ![](assets/s_ncs_user_interface_import_link.png)
 
 
-## How to import profiles{#import-profiles-video}
+## Tutorial video {#import-profiles-video}
 
 This video explains how to import profiles in Adobe Campaign, for an occasional import.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

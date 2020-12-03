@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Get started with upgrades
 description: Learn more about Campaign Classic upgrades
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Get started with upgrades{#rn-overview}
@@ -25,13 +22,13 @@ A status is associated to each build. You'll find below the list of statuses and
 
 ![](assets/do-not-localize/green3.png) **General Availability** (GA) - Validated in production and recommended by Adobe. 
 
-The **last GA build** is Gold Standard 10. Click [here](../../rn/using/gold-standard.md#gs-10)
+The **last GA builds** are: [Gold Standard 10 release](../../rn/using/gold-standard.md#gs-10) and [Campaign 20.2.3 release](../../rn/using/release--20-2.md#release-20-2-3-build-9182)
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest version with new capabilities.
 
-The **last RC build** is Campaign Classic 20.3. Click [here](../../rn/using/latest-release.md)
+The **last RC build** is [Campaign Classic 20.3 release](../../rn/using/latest-release.md)
 
 ![](assets/do-not-localize/orange3.png) **No longer available** - Update to a newer build is required.
 

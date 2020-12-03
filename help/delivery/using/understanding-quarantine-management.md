@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Understanding quarantine management
-seo-title: Understanding quarantine management
 description: Understanding quarantine management
-seo-description: 
-page-status-flag: never-activated
-uuid: 9421e26c-bdcc-4588-8e44-fa6f31051081
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 ---
 
 # Understanding quarantine management{#understanding-quarantine-management}
@@ -151,9 +146,9 @@ The items put in quarantine are device tokens.
 
 **For iOS - binary connector**
 
-   >[!NOTE]
-   >
-   > Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+>[!NOTE]
+>
+>Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
 For each notification, Adobe Campaign receives the synchronous and asynchronous errors from the APNs server. For the following synchronous errors, Adobe Campaign generates soft errors:
 

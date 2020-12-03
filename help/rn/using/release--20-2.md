@@ -1,21 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Release 20.2
 description: Release 20.2
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Release 20.2{#release-20-2}
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/blue_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
+## ![](assets/do-not-localize/green_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
 _September 11, 2020_
 
@@ -83,7 +80,7 @@ _June 8, 2020_
  <tbody> 
   <tr> 
    <td> <p>You can now connect your Campaign instance to your Azure Synapse external database. This connection is managed through a new external account.</p>
-    <p>Azure Synapse is only available for Hybrid and On-premise environments. For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse">detailed documentation</a>.</p>
+    <p>Azure Synapse is only available for Hybrid and On-premise environments. For more information, refer to the <a href="../../installation/using/configure-fda-synapse.md">detailed documentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 

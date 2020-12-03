@@ -1,23 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Communication channels
-seo-title: Communication channels
 description: Create deliveries to send personalized messages on different channels.
-seo-description: 
-page-status-flag: never-activated
-uuid: 42975431-64c9-4ecb-98ed-b1f9b13c157e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
 ---
 
 # Communication channels{#communication-channels}
 
-With Adobe Campaign, you can sent cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated [reports](../../reporting/using/delivery-reports.md). These messages are designed and sent though deliveries, and can be personalized for each recipient.
+With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated [reports](../../reporting/using/delivery-reports.md). These messages are designed and sent though deliveries, and can be personalized for each recipient.
 
-Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports. The main functional access point is the delivery wizard. This access point leads to several capabilities covered by Adobe Campaign.
+Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports. The main functional access point is the delivery wizard. This access point leads to multiple capabilities covered by Adobe Campaign.
 
 >[!NOTE]
 >
@@ -36,7 +31,7 @@ Adobe Campaign offers the following delivery channels:
 
    >[!NOTE]
    >
-   >Using multiple channels depends on your package. Please check your license agreement.
+   >The number of available channels depends on your contract. Please check your license agreement.
 
 Deliveries can be carried out **online** (via email, one of the mobile channels and push notifications), and **offline** (direct mail channel).
 

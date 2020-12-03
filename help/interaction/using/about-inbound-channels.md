@@ -1,25 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About inbound channels
-seo-title: About inbound channels
 description: About inbound channels
-seo-description: 
-page-status-flag: never-activated
-uuid: 4224282b-f05f-400e-82f9-9ee9d7a8b443
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-discoiquuid: 9469495c-9e46-4fd8-826d-1b7227326ce1
 ---
 
 # About inbound channels{#about-inbound-channels}
 
 Offers can be presented on various offer spaces using an inbound or outbound channel. This chapter details some specific features for inbound channels.
 
->[!NOTE]
->
->You can also watch this [video](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) that details how to deliver an offer on an inbound channel.
+![](assets/do-not-localize/how-to-video.png) You can also watch this [video](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) that details how to deliver an offer on an inbound channel.
 
 In order for an offer to be selected by the offer engine, it has to be approved and be available in a live environment For more on this, refer to [Approving and activating an offer](../../interaction/using/approving-and-activating-an-offer.md).
 

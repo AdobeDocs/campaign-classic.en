@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Prerequisites and recommendations
 description: Learn prerequisites before installing Campaign (on-premise)
-page-status-flag: never-activated
-uuid: b3fb7485-1200-4699-af40-98c94f632ae1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-discoiquuid: 2c5e0004-2a5d-4e89-ae6c-6bad186bd958
 ---
 
 # Before starting{#before-starting}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: JSP behavior
-seo-title: JSP behavior
 description: JSP behavior
-seo-description: 
-page-status-flag: never-activated
-uuid: b9e9f348-968c-46e0-8340-df1f1fcaf3a3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 5dcc4090-effe-479e-8d5c-67e6a6542fbb
 ---
 
 # JSP behavior{#jsp-behavior}

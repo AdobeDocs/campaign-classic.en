@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Get started with build upgrades
 description: Learn key steps to upgrade to a new build
-page-status-flag: never-activated
-uuid: f24552d4-6bdf-411c-a1f2-b8f339c311f4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 ---
 
 # Performing a build upgrade{#performing-a-build-upgrade}
@@ -339,7 +336,7 @@ There are three options to resolve conflicts: **Accept the new version**, **Keep
 * The object will not be upgraded
 * Long term impacts: version incompatibilities, the customer will not benefit from bug fixes.
 
->[!CAUTION]
+>[!IMPORTANT]
 >It is highly recommended to resolve conflicts.
 >
 
@@ -403,7 +400,7 @@ Here are the steps to perform a complex merge:
 1. Perform in test environment
 
 
->[!CAUTION]
+>[!IMPORTANT]
 >Development skills are required to perform complex merges.
 >
 

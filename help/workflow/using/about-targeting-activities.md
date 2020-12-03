@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About targeting activities
-seo-title: About targeting activities
 description: About targeting activities
-seo-description: 
-page-status-flag: never-activated
-uuid: c62d15a2-f701-4d56-8491-57cd8b52d4cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 91caf55f-e7ff-4693-a014-e8fc5d243072
 ---
 
 # About targeting activities{#about-targeting-activities}

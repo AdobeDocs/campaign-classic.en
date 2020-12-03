@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Installing packages with Linux
-seo-title: Installing packages with Linux
 description: Installing packages with Linux
-seo-description: 
-page-status-flag: never-activated
-uuid: d83f00b5-500b-406a-a3d6-ea5639f244f0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-discoiquuid: 04faa9f3-d160-4060-b26e-44333f2faf71
 ---
 
 # Installing packages with Linux{#installing-packages-with-linux}

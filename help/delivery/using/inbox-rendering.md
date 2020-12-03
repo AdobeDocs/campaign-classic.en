@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Inbox rendering in Campaign
 description: Learn how to capture email renderings and make them available in a dedicated report
-page-status-flag: never-activated
-uuid: 2025f5e9-8a19-407c-9e0a-378ba5a76208
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
 ---
 
 # Inbox rendering{#inbox-rendering}
@@ -34,7 +31,7 @@ For hosted and hybrid clients, Inbox rendering is configured on your instance by
 For on-premise installations, follow the steps below to configure Inbox rendering.
 
 1. Install the **[!UICONTROL Inbox rendering (IR)]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menu. For more on this, see [Installing Campaign Classic standard packages](../../installation/using/installing-campaign-standard-packages.md).
-1. Configure an external account of the HTTP type via the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** node. For more on this, see [Creating an external account](../../platform/using/external-accounts.md#creating-an-external-account).
+1. Configure an external account of the HTTP type via the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** node. For more on this, see [Creating an external account](../../installation/using/external-accounts.md#creating-an-external-account).
 1. Set the external account parameters as follows:
     * **[!UICONTROL Label]**: Deliverability server info
     * **[!UICONTROL Internal name]**: deliverabilityInstance

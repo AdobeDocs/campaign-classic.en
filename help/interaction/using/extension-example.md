@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Extension example
-seo-title: Extension example
 description: Extension example
-seo-description: 
-page-status-flag: never-activated
-uuid: 6703b6e8-4eac-4a94-a80a-a7cd71b25cdf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-discoiquuid: 990b6cbc-9b7b-4278-a635-653d5abafe87
 ---
 
 # Extension example{#extension-example}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publishing the campaign package
-seo-title: Publishing the campaign package
 description: Publishing the campaign package
-seo-description: 
-page-status-flag: never-activated
-uuid: f2d35a8d-191f-4c53-8682-7ccce2a94257
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-discoiquuid: 8653d4fc-e47f-451a-95f2-c9209a252664
 ---
 
 # Publishing the campaign package{#publishing-the-campaign-package}

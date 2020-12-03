@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Using aggregates
-seo-title: Using aggregates
-description: Using aggregates
-seo-description: 
-page-status-flag: never-activated
-uuid: 70556745-56b2-4f22-bbc5-7f8106fb0d4a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to use aggregates
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 9ca649b4-2226-4cfe-bae1-4632c421975b
 ---
 
 # Using aggregates{#using-aggregates}

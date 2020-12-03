@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About message tracking
-seo-title: About message tracking
 description: About message tracking
-seo-description: 
-page-status-flag: never-activated
-uuid: 91127faf-b9c4-46af-b842-b9816c501ecf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-discoiquuid: 5d8bbfe0-e202-4062-aa47-9ad87b975bb7
 ---
 
 # About message tracking{#about-message-tracking}

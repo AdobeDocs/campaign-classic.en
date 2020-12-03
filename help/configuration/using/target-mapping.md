@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Target mapping
-seo-title: Target mapping
-description: Target mapping
-seo-description: 
-page-status-flag: never-activated
-uuid: a7dad8eb-c191-4f10-b7d8-63e0699603b7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to create a target mapping
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: ff7e6f72-7605-41ee-b25a-1e4618e674d7
 ---
 
 # Target mapping{#target-mapping}

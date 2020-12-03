@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: How to use workflow data
-seo-title: How to use workflow data
-description: How to use workflow data
-seo-description: 
-page-status-flag: never-activated
-uuid: ed03f14b-1b53-426e-9213-22cb2f3deb19
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to use workflow data
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
 ---
 
 # How to use workflow data{#how-to-use-workflow-data}
@@ -95,13 +90,13 @@ You can then use commands or code in the **[!UICONTROL Script]** tab of the acti
 
 In this use case, we will build a workflow in order to encrypt and export data using a key installed on Control Panel.
 
-A tutorial video showing how to use a GPG key to encrypt data is also available in [this section](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 The steps to perform this use case are as follows:
 
 1. Generate a GPG key pair (public/private) using a GPG utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
-1. In Campaign Classic, build a workflow to export the data and export it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
+1. In Campaign Classic, build a workflow to export the data and encrypt it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
 
     ![](assets/gpg-workflow-encrypt.png)
 
@@ -125,7 +120,7 @@ The steps to perform this use case are as follows:
     ```
     var cmd='gpg ';
     cmd += ' --trust-model always';
-    cmd += ' --batch -yes';
+    cmd += ' --batch --yes';
     cmd += ' --recipient fingerprint';
     cmd += ' --encrypt --output ' + vars.filename + '.gpg ' + vars.filename;
     execCommand(cmd,true);
@@ -140,4 +135,10 @@ The steps to perform this use case are as follows:
 
 1. You can now run the workflow. Once it is executed, data target by the query will be exported to the SFTP server into an encrypted .gpg file.
 
-    ![](assets/gpg-sftp-encrypt.png)
+### Tutorial video {#video}
+
+This video shows how to use a GPG key to encrypt data is also available in
+
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

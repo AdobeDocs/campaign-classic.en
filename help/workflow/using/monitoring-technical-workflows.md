@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Monitoring technical workflows
-seo-title: Monitoring technical workflows
 description: Monitoring technical workflows
-seo-description: 
-page-status-flag: never-activated
-uuid: 4d215ff4-a61d-4294-8f15-17c612022577
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 ---
 
 # Monitoring technical workflows {#monitoring-technical-workflows}

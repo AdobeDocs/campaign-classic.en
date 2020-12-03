@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Client console availability for Windows
-seo-title: Client console availability for Windows
 description: Client console availability for Windows
-seo-description: 
-page-status-flag: never-activated
-uuid: d1cbb34e-87e0-481b-a78b-3616047eb5cb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-discoiquuid: 4fa2e8c1-33d1-4d14-941b-ca528b8ceabb
 ---
 
 # Client console availability for Windows{#client-console-availability-for-windows}

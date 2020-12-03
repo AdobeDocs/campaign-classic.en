@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring the iOS mobile application in Adobe Campaign
 description: Learn how to set up your mobile application for iOS
-page-status-flag: never-activated
-uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
 ---
 
 # Configuration steps for iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
@@ -31,7 +28,7 @@ To configure this connector, follow these steps:
 
    >[!NOTE]
    >
-   > Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+   > Starting Campaign 20.3 release, the iOS legacy binary connector is deprecated. If you are using this connector, you need to adapt your implementation accordingly. [Learn more](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
    ![](assets/nmac_connectors.png)
 
@@ -45,7 +42,7 @@ Your iOS connector is now configured. You can start creating your service.
 >
 >The application must have been configured for Push actions BEFORE any integration to Adobe Campaign SDK.
 >
->If this is not the case, please refer to [this page](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/).
+>If this is not the case, please refer to [this page](https://developer.apple.com/documentation/usernotifications).
 
 1. Go to the **[!UICONTROL Profiles and Targets > Services and subscriptions]** node and click **[!UICONTROL New]**.
 
@@ -103,7 +100,7 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
 1. Select the **[!UICONTROL Authentication mode]**. Note that you can always change your authentication mode later on in the **[!UICONTROL Certificate]** tab of your mobile application.
    * **[!UICONTROL Certificate-based authentication]**: Click **[!UICONTROL Enter the certificate...]**  then select your p12 key and enter the password that was provided by the mobile application developer.
-   * **[!UICONTROL Token-based authentication]**: Fill in the connection settings **[!UICONTROL Key ID]**, **[!UICONTROL Team ID]** and **[!UICONTROL Bundle ID]** then select your p8 certificate by clicking **[!UICONTROL Enter the private key]**. For more on **[!UICONTROL Token-based authentication]**, refer to [Apple documentation](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apnsToken-based).
+   * **[!UICONTROL Token-based authentication]**: Fill in the connection settings **[!UICONTROL Key ID]**, **[!UICONTROL Team ID]** and **[!UICONTROL Bundle ID]** then select your p8 certificate by clicking **[!UICONTROL Enter the private key]**. For more on **[!UICONTROL Token-based authentication]**, refer to [Apple documentation](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns).
 
    >[!NOTE]
    >

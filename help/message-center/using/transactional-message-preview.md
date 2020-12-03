@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Transactional message preview
-seo-title: Transactional message preview
 description: Transactional message preview
-seo-description: 
-page-status-flag: never-activated
-uuid: 3cf356bf-85f5-43e2-8d5d-7ac7f576b15e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-discoiquuid: 3bc88f9c-cc42-4bf6-a318-0093c73e4d82
 ---
 
 # Transactional message preview{#transactional-message-preview}

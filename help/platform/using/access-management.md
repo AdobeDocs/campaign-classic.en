@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Access management
-seo-title: Access management
 description: Access management
-seo-description: 
-page-status-flag: never-activated
-uuid: 3f0cfa8f-1511-4445-9acb-b5be46e78295
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 ---
 
 # Access management{#access-management}
@@ -96,7 +91,7 @@ Once the operator's profile has been created, you can add to or update their inf
 
 >[!NOTE]
 >
->The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. For more on this, refer to [About Federated Data Access](../../platform/using/about-fda.md).
+>The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. For more on this, refer to [About Federated Data Access](../../installation/using/about-fda.md).
 
 ### Time zone of the operator {#time-zone-of-the-operator}
 

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring SpamAssassin
-seo-title: Configuring SpamAssassin
 description: Configuring SpamAssassin
-seo-description: 
-page-status-flag: never-activated
-uuid: 327548c0-d621-4417-9fc9-b0bf30251dc0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: aa37bdc6-0f85-4eca-859f-e8b15083cfb5
 ---
 
 # Configuring SpamAssassin{#configuring-spamassassin}
@@ -46,8 +41,7 @@ To install and configure SpamAssassin on Windows to enable integration with Adob
 
 ### Installing SpamAssassin {#installing-spamassassin}
 
-1. Connect to the [Extranet portal](http://support.neolane.net) using your user credentials.
-1. Go to the **Download center** then browse the page to find the **Tools** section.
+1. Connect to the [Software distribution portal](https://experience.adobe.com/downloads) using your user credentials. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 1. Download the **Neolane Spam Assassin (Windows Installation) (2.0)** file (neolane_spamassassin.2.0.zip).
 1. Copy this file onto the Adobe Campaign server then unzip it.
 

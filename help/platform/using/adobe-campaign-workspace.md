@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign workspace
-seo-title: Adobe Campaign workspace
 description: Adobe Campaign workspace
-seo-description: 
-page-status-flag: never-activated
-uuid: ed954f73-6456-4fa3-b284-9b2d865c2afb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
 ---
 
 # Adobe Campaign workspace{#adobe-campaign-workspace}
@@ -23,7 +18,7 @@ From the central section of the home page, you can use links to access Campaign 
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [Discover Campaign workspace in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png) Discover Campaign workspace in [video](#video)
 
 >[!NOTE]
 >
@@ -387,3 +382,11 @@ In the fields that express a duration (e.g. validity period of the resources of 
 * **[!UICONTROL d]** for days.
 
 ![](assets/enter_unit_sample.png)
+
+## Tutorial video {#video}
+
+This video presents Campaign Classic workspace.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

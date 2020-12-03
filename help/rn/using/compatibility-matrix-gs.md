@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Gold Standard Compatibility matrix
 description: Campaign Classic Compatibility matrix for Gold Standard release
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7p
 ---
 
 # Gold Standard Compatibility matrix{#compatibility-matrix-gs}
@@ -181,7 +178,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 </td>
 </tr>
 <tr>
-<td>MS Dynamics</td>
+<td>Microsoft Dynamics</td>
 <td>
 <p>Soap API - On-premise: 2007, 2015, 2016</p>
 <p>Soap API - Online: 2015, 2016</p>
@@ -249,7 +246,7 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <tr>
 <td>SAP HANA</td>
 <td>
-<p>version 1 SP12 or above</p>
+<p>version 1 SPS 12</p>
 </td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
@@ -257,10 +254,6 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <p>HortonWorks HDP 2.4.X, 2.5.x, 2.6.x</p>
 <p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
 </td>
-</tr>
-<tr>
-<td>Snowflake</td>
-<td>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -301,8 +294,8 @@ Adobe Campaign Classic is compatible with all the systems and tools listed in th
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9 - 12</p>
-<p>with mobile SDK build 1.0.25, compatible with 32 and 64-bit versions.</p>
+<p>iOS 9 - 14</p>
+<p>with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions.</p>
 </td>
 </tr>
 </tbody>

@@ -1,15 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Common questions
-seo-title: Common questions
 description: Campaign Classic FAQ
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 ---
 
 # Developers FAQ {#dev-faq}

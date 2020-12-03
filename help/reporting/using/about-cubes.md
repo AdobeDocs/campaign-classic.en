@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About cubes
-seo-title: About cubes
 description: About cubes
-seo-description: 
-page-status-flag: never-activated
-uuid: 429bd5e9-288a-4c71-9b01-c4c5690f5abe
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-discoiquuid: 42db3be8-ee02-4158-adcd-846420a32460
 ---
 
 # About cubes{#about-cubes}

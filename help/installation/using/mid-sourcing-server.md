@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Installing a mid-sourcing server in Campaign
 description: This section details the installation and configuration of a mid-sourcing server in Campaign
-page-status-flag: never-activated
-uuid: 9b891a64-d75e-44d2-8de2-17334e1b8dca
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: 34ee3d99-4ffb-4279-b994-5ab7abc7cf06
 ---
 
 # Mid-sourcing server{#mid-sourcing-server}
@@ -18,6 +15,10 @@ This section details the installation and configuration of a mid-sourcing server
 The "mid-sourcing" architecture is presented in [Mid-sourcing deployment](../../installation/using/mid-sourcing-deployment.md).
 
 Installing a mid-sourcing server follows the same process as installing a server in the normal way (refer to the standard configuration). It is an independent instance with its own database which can be used to run deliveries. Simply put, it contains an extra configuration to allow remote instances execute deliveries through it in mid-sourcing mode.
+
+>[!CAUTION]
+>
+>Once the mid-sourcing server has been setup and the [sync workflows](../../workflow/using/transfer-to-mid-sourcing.md) have run for the first time, make sure you do not update the internal name of the mid-sourcing external accounts.
 
 ## Steps for installing and configuring an instance {#steps-for-installing-and-configuring-an-instance}
 

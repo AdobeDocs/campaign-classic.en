@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Synchronizing web applications
-seo-title: Synchronizing web applications
 description: Synchronizing web applications
-seo-description: 
-page-status-flag: never-activated
-uuid: da74e4d3-e439-454a-8a43-6784e4789d1b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-discoiquuid: df68ab11-7a8b-4e89-8cc4-8764e8a859b2
 ---
 
 # Synchronizing web applications{#synchronizing-web-applications}

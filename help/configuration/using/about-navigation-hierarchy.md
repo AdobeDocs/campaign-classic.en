@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About navigation hierarchy
-seo-title: About navigation hierarchy
 description: About navigation hierarchy
-seo-description: 
-page-status-flag: never-activated
-uuid: 3fc31f78-2de7-4fb2-b951-71c87d4f0cfe
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
-discoiquuid: cf6a79ac-c5b1-4508-bcf1-73f2fbbfe87b
 ---
 
 # About navigation hierarchy{#about-navigation-hierarchy}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Deploying an instance
-seo-title: Deploying an instance
-description: Deploying an instance
-seo-description: 
-page-status-flag: never-activated
-uuid: 5694b07a-6c1c-45a3-8a22-fd9da163c28c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about Campaign deployment wizard
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: 71fc8bfc-40e0-4592-a540-bd6807ded3a0
 ---
 
 # Deploying an instance{#deploying-an-instance}

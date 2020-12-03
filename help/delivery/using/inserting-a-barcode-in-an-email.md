@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Inserting a barcode in an email
-seo-title: Inserting a barcode in an email
 description: Inserting a barcode in an email
-seo-description: 
-page-status-flag: never-activated
-uuid: 61f9d8ea-38b0-46a5-8085-b6f34f8559f7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: 679b9ae2-362c-483d-acb8-47bc01928541
 ---
 
 # Inserting a barcode in an email{#inserting-a-barcode-in-an-email}

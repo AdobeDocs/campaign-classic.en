@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Glossary
-seo-title: Glossary
 description: Glossary
-seo-description: 
-page-status-flag: never-activated
-uuid: 7c96d243-99d8-4402-9e2a-75beb8b2fbee
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-discoiquuid: 5b2b7682-6bac-4282-8d27-e8a259934e7d
 ---
 
 # Glossary{#glossary}
@@ -24,7 +19,7 @@ Below is the definition of the main Interaction elements.
 
 * **Offer space**: folder defining the location where the offer is exposed. Defining a space lets you specify the channel used, specify whether or not it can be used in unitary mode (by default: only in batch mode), build the content of the offer using rendering functions, and specify the offer of the offers presented. A space is an interface between the channel and the offer engine.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >An offer space is not a communication channel, it coincides with a specific exposition location on the channel. For example, offers exposed on a website can occupy two spaces on the same page. In this case, we will then have two spaces for the same channel.
   >

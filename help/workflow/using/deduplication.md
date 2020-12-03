@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Deduplication
-seo-title: Deduplication
-description: Deduplication
-seo-description: 
-page-status-flag: never-activated
-uuid: 90dee589-ac45-442e-89ef-1c14bb22200d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Deduplication workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 83b915bd-7e23-41b5-9f9a-f7eb72026376
 ---
 
 # Deduplication{#deduplication}

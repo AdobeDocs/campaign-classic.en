@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Personalization blocks
-seo-title: Personalization blocks
 description: Personalization blocks
-seo-description: 
-page-status-flag: never-activated
-uuid: f9867f8d-f6ce-4a5f-b6b4-fd8056d28576
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
 ---
 
 # Personalization blocks{#personalization-blocks}
@@ -152,8 +147,10 @@ To create a personalization block, go to the explorer and apply the following st
 
     * Enter the content (in HTML, text, JavaScript, etc.) of the personalization block(s) and click **[!UICONTROL Save]**.
 
-## How to personalize emails using dynamic content blocks {#personalization-blocks-video}
+## Tutorial video {#personalization-blocks-video}
 
-Learn how created dynamic content blocks and how use them to personalize the content of your email delivery.
+Learn how to create dynamic content blocks and how to use them to personalize the content of your email delivery.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

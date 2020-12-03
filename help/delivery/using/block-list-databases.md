@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Denylist databases
-seo-title: Denylist databases
 description: Denylist databases
-seo-description: 
-page-status-flag: never-activated
-uuid: 8a4a69f9-87d5-4044-bc55-76cdcb2e7800
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: eede254d-2b25-46ed-b10f-fa1d54780a75
 ---
 
 # Denylist databases{#denylist-databases}

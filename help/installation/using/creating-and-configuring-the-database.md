@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating and configuring the database
-seo-title: Creating and configuring the database
 description: Creating and configuring the database
-seo-description: 
-page-status-flag: never-activated
-uuid: e5143d55-61fa-416a-80db-c29a0caf9a3e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 ---
 
 # Creating and configuring the database{#creating-and-configuring-the-database}
@@ -47,7 +42,7 @@ Select the database engine among those in the drop-down list.
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-Supported databases are presented in the section [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+Supported databases are listed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 Identify the server and choose the type of operation to perform. In this case, **[!UICONTROL Create or recycle a database]**.
 
@@ -123,7 +118,7 @@ The **[!UICONTROL Creation steps]** window enables you to display and edit the S
 
 * For an Oracle, Microsoft SQL Server or PostgreSQL database, the administrator may also define the **storage parameters** to be used when creating database objects.
 
-  These parameters receive the exact tablespace names (warning: case sensitive). They are respectively stored in the **[!UICONTROL Administration > Platform > Options]** node in the following options (see [](../../installation/using/configuring-campaign-options.md#database)):
+  These parameters receive the exact tablespace names (warning: case sensitive). They are respectively stored in the **[!UICONTROL Administration > Platform > Options]** node in the following options (see [this section](../../installation/using/configuring-campaign-options.md#database)):
 
     * **WdbcOptions_TableSpaceUser**: user tables based on a schema
     * **WdbcOptions_TableSpaceIndex**: index of user tables based on a schema

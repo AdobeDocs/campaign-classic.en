@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a summary list
-seo-title: Creating a summary list
 description: Creating a summary list
-seo-description: 
-page-status-flag: never-activated
-uuid: ea9d097d-d474-47e6-b0d7-08d587666a55
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 6b0acb6b-0808-4972-b2a2-15fab29b3861
 ---
 
 # Creating a summary list{#creating-a-summary-list}

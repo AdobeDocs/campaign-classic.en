@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Latest Release
 description: Latest Campaign Classic Release Notes
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Latest Release{#latest-release}
@@ -36,10 +33,10 @@ _October 27, 2020_
 <p>These two authentication modes are now available for iOS mobile apps in Campaign Classic:
 </p>
 <ul> 
-<li><p>Token-based authentication (recommended): this authentication mode is based on a .p8 file. This authentication mode is faster as each request to APNs contains the token. <a href=https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns>Learn more</a></p></li>
-<li><p>Certificate-based authentication: this authentication mode is based on a .p12 file. For every app, a separate certificate is required. This certificate is delivered by Apple through your developer account. <a href=https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns>Learn more</a></p></li> 
+<li><p>Token-based authentication (recommended): this authentication mode is based on a .p8 file. This authentication mode is faster as each request to APNs contains the token. <a href="https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns">Learn more</a></p></li>
+<li><p>Certificate-based authentication: this authentication mode is based on a .p12 file. For every app, a separate certificate is required. This certificate is delivered by Apple through your developer account. <a href="https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns">Learn more</a></p></li> 
 </ul>
-<p>Learn how to select the authentication mode in Campaign in the <a href=../../delivery/using/configuring-the-mobile-application.md>detailed documentation</a>.</p>
+<p>Learn how to select the authentication mode in Campaign in the <a href="../../delivery/using/configuring-the-mobile-application.md">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -53,9 +50,9 @@ _October 27, 2020_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Android push notifications have been improved to support FCM HTTP v1 API for Android push channel authentication. </p>
-<p>With the new supported API version, you can now send FCM Notification Messages which provides enhanced rich push messaging capabilities. <a href=https://firebase.google.com/docs/cloud-messaging/migrate-v1>Learn more</a></p> 
-<p>Learn how to configure FCM HTTP v1 API for Android in Adobe Campaign in <a href=../../delivery/using/configuring-the-mobile-application-android.md>this section</a> .</p>
+<td> <p><a href="../../delivery/using/configuring-the-mobile-application-android.md#creating-notification-message">Android push notifications</a> have been improved to support FCM HTTP v1 API for Android push channel authentication. </p>
+<p>With the new supported API version, you can now send FCM Notification Messages which provides enhanced rich push messaging capabilities. <a href="https://firebase.google.com/docs/cloud-messaging/migrate-v1">Learn more</a></p> 
+<p>Learn how to configure FCM HTTP v1 API for Android in Adobe Campaign in <a href="../../delivery/using/configuring-the-mobile-application-android.md">this section</a> .</p>
 </td> 
 </tr> 
 </tbody> 
@@ -83,7 +80,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 The following features are deprecated in 20.3:
 
 * The demdex domain used to import and export audiences to the Adobe Experience Cloud is deprecated. If you are using the demdex domain for your import/export external accounts, you need to adapt your implementation accordingly. [Learn more](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/about-triggers.md)
+* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/configuring-adobe-io.md)
 
 Learn more in the [Deprecated and removed features page](../../rn/using/deprecated-features.md).
 

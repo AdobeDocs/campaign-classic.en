@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Troubleshooting the ACS Connector
-seo-title: Troubleshooting the ACS Connector
 description: Troubleshooting the ACS Connector
-seo-description: 
-page-status-flag: never-activated
-uuid: aef85b74-0388-44f8-b864-21db136a692c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-discoiquuid: 538d3b48-ff39-463f-878d-ebe085057129
 ---
 
 # Troubleshooting the ACS Connector{#troubleshooting-the-acs-connector}

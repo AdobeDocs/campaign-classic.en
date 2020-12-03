@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a table
-seo-title: Creating a table
 description: Creating a table
-seo-description: 
-page-status-flag: never-activated
-uuid: c5bca799-a5d6-4d98-8fc5-25d7f71be5f7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: 74084618-2b35-42c5-8a86-87ce137abb71
 ---
 
 # Creating a table{#creating-a-table}

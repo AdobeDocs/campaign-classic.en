@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Use case
-seo-title: Use case
 description: Use case
-seo-description: 
-page-status-flag: never-activated
-uuid: d4c76fdf-d562-4151-93ec-08b4f6563440
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: fbc38e33-60a6-4d21-a598-312293d168fb
 ---
 
 # Use case{#use-case}

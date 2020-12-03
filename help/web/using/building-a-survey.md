@@ -1,19 +1,14 @@
 ---
-title: Building a survey
-seo-title: Building a survey
-description: Building a survey
-seo-description: 
-page-status-flag: never-activated
-uuid: 50d501b9-2b4f-48d1-b394-f7f71c413990
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: Designing a survey
+description: Designing a survey
 audience: web
 content-type: reference
 topic-tags: online-surveys
-discoiquuid: 6850851d-1dbe-44f0-bbff-18dbac2cad9a
 ---
 
-# Building a survey{#building-a-survey}
+# Designing a survey{#building-a-survey}
 
 ## Creating a new survey {#creating-a-new-survey}
 

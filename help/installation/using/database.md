@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Campaign Classic Database recommendations
 description: Database recommendations
-page-status-flag: never-activated
-uuid: b318365c-8846-4c1d-b5f7-ece55fb8c4af
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-discoiquuid: 1dcf01af-c2f3-4975-ba05-628d52952064
 ---
 
 # Database{#database}

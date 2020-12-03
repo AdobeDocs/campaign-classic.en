@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Log precision
-seo-title: Log precision
 description: Log precision
-seo-description: 
-page-status-flag: never-activated
-uuid: 8396bc4f-2954-40bb-b511-61802e60e123
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: c6c39b7d-7bbd-4789-b1ea-b938153e9679
 ---
 
 # Log precision{#log-precision}
@@ -19,7 +14,7 @@ You can apply this process to all Adobe Campaign modules to increase log precisi
 
 It involves relaunching the processes with a higher level of logs.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >This procedure cancels the services in progress on this module.
 
@@ -55,7 +50,7 @@ Adobe Campaign can operate with two levels of log:
    nlserver restart <MODULE_NAME> -noconsole
    ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The logs of these commands are stored in the log file of the module.
 
@@ -83,7 +78,7 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 >
 >The **Tracefile** mode lets you save the logs. In the examples above, the logs are saved in the **var/`<instance-name>`/mta_debug.log** and **var/default/web_debug.log** files.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In Windows, do not add the LD_PRELOAD option. The following command suffices:   
 >nlserver web -tomcat -verbose -tracefilter:&#42;

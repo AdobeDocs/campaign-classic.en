@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Form structure
-seo-title: Form structure
 description: Form structure
-seo-description: 
-page-status-flag: never-activated
-uuid: b4e2078e-5630-493b-8ed5-3553ffea105c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: input-forms
-discoiquuid: f8ae9497-9ca2-4c0c-8dc8-c0563839b036
 ---
 
 # Form structure{#form-structure}

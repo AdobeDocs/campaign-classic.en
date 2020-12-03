@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Release 20.1
 description: Release 20.1
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Release 20.1{#release-20-1}
@@ -40,7 +37,7 @@ _February 17, 2020_
  <tbody> 
   <tr> 
    <td> <p>Snowflake is a fully managed cloud data warehouse built to scale on both storage and compute level. With this new connector, Adobe Campaign can now leverage the power of Snowflake to perform Big Data Segmentation. This connector is available to all customers, including hosted by Adobe.</p>
-    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutorial video</a>.</p>
+    <p>For more information, refer to the <a href="../../installation/using/configure-fda-snowflake.md">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutorial video</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -55,7 +52,7 @@ _February 17, 2020_
  <tbody> 
   <tr> 
    <td> <p>The Hadoop FDA Connector has been improved to support Hadoop 3.0 as well as Cloudera.</p>
-    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">detailed documentation</a>.</p>
+    <p>For more information, refer to the <a href="../../installation/using/configure-fda-hadoop.md">detailed documentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Database cleanup workflow
 description: Learn how obsolete data is automatically cleaned up
-page-status-flag: never-activated
-uuid: a7478641-cdf6-4bd4-9dd7-0c84416c9de6
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: data-processing
-discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
 ---
 
 # Database cleanup workflow{#database-cleanup-workflow}
@@ -38,7 +35,7 @@ By default, the **[!UICONTROL Database cleanup]** workflow is configured to star
 
 ![](assets/ncs_cleanup_scheduler.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In order for the **[!UICONTROL Database cleanup]** workflow to start at the date and time defined in the scheduler, the workflow engine (wfserver) must be started. If this isn't the case, database cleansing won't take place until next time the workflow engine is started.
 
@@ -77,7 +74,7 @@ All tasks executed by the **[!UICONTROL Database cleanup]** workflow are describ
 
 At the date and time defined in the workflow scheduler (refer to [The scheduler](#the-scheduler)), the workflow engine starts the database cleanup process. The Database cleanup connects to the database and executes the tasks in the sequence shown below.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If one of these tasks fails, the following ones will not be executed.   
 >SQL queries with a **LIMIT** attribute will be executed repeatedly until all information is processed.

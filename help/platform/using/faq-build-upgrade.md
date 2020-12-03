@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Build upgrade FAQ
 description: Common questions related to Campaign build upgrades
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 ---
 
 # Build Upgrade FAQ {#build-upgrade-faq}
@@ -57,7 +54,7 @@ For instance, using the server information from the screenshot in the previous s
 
 Adobe will take a backup of your system prior to any changes. However, if there is critical customization work that is in your non-production system (development or staging servers), it is HIGHLY RECOMMENDED you export that work as a package prior to any upgrade.
 
-For more information, [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+![](assets/do-not-localize/how-to-video.png) For more information, [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
 
 ## When will the upgrades take place?
 

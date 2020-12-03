@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Coordinating data updates
-seo-title: Coordinating data updates
 description: Coordinating data updates
-seo-description: 
-page-status-flag: never-activated
-uuid: 003d63f8-3169-4190-882e-e360a83ccafb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: efe09c66-b74b-48f0-9042-5da4342e014e
 ---
 
 # Coordinating data updates{#coordinating-data-updates}

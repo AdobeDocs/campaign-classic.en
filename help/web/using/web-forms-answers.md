@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Web forms answers
-seo-title: Web forms answers
 description: Web forms answers
-seo-description: 
-page-status-flag: never-activated
-uuid: 374df070-8969-4bf6-bd24-0b827d38593f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: c89926b6-488e-4c72-8f67-b6af388bade3
 ---
 
 # Web forms answers{#web-forms-answers}

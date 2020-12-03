@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Managing answers
-seo-title: Managing answers
 description: Managing answers
-seo-description: 
-page-status-flag: never-activated
-uuid: 329e2f4a-c5bc-4654-bdef-71a0818fc2b7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: online-surveys
-discoiquuid: affecd87-00a3-4d50-92d3-31ac6228948b
 ---
 
 # Managing answers{#managing-answers}

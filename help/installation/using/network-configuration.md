@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Network configuration
 description: Learn system communication guidelines
-page-status-flag: never-activated
-uuid: 17357170-7440-4603-bea6-2e4b9086ae72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-discoiquuid: 639d2f42-e397-4694-942c-b2b8ad94ce9c
 ---
 
 # Network configuration{#network-configuration}

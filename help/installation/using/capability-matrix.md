@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Campaign On-premise, Hybrid and Hosted capability matrix
 description: Learn main differences between hosted and on-premise deployments
-page-status-flag: never-activated
-uuid: d1c786a1-2691-4966-9108-059004050464
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
-discoiquuid: 582f7ac6-cebe-4b47-8730-bbc16fd6b1bd
 ---
 
 # Capability matrix {#capability-matrix-per-model}
@@ -39,11 +36,11 @@ The different hosting models are introduced [in this section](../../installation
 
 ## Federated Data Access{#fda}
 
-Adobe Campaign provides the **Federated Data Access** (FDA) option in order to process information stored in one or more external databases: you can access external data without changing the structure of Adobe Campaign data. [Learn more](../../platform/using/about-fda.md)
+Adobe Campaign provides the **Federated Data Access** (FDA) option in order to process information stored in one or more external databases: you can access external data without changing the structure of Adobe Campaign data. [Learn more](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >
->Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the [Snowflake connector](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
+>Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the [Snowflake connector](../../installation/using/configure-fda-snowflake.md).
 
 
 **See also**

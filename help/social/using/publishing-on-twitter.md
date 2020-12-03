@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publishing on Twitter
-seo-title: Publishing on Twitter
 description: Publishing on Twitter
-seo-description: 
-page-status-flag: never-activated
-uuid: 405bce50-a63c-4bd3-8f03-c71809bb1cfd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-discoiquuid: 2dc278ce-477c-493d-8abb-8bbdf2e988a5
 ---
 
 # Publishing on Twitter{#publishing-on-twitter}

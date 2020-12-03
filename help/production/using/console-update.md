@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Console update
-seo-title: Console update
 description: Console update
-seo-description: 
-page-status-flag: never-activated
-uuid: d2193d4f-b98c-47b1-88f1-7e5ccf4c453c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 9281808b-1c2f-4095-9051-f181f089f205
 ---
 
 # Console update{#console-update}

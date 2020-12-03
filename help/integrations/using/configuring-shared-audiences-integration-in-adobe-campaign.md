@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring shared audiences integration in Adobe Campaign
-seo-title: Configuring shared audiences integration in Adobe Campaign
-description: Configuring shared audiences integration in Adobe Campaign
-seo-description: 
-page-status-flag: never-activated
-uuid: 6ed137e4-027f-4eb0-a0b5-4beb7deef51f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to configure shared audiences integration
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-discoiquuid: 4443b0ca-80c6-467d-a4df-50864aae8496
 ---
 
 # Configuring shared audiences integration in Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}

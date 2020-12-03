@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a shared connection
-seo-title: Creating a shared connection
 description: Creating a shared connection
-seo-description: 
-page-status-flag: never-activated
-uuid: 30d6d23b-72c6-4454-8d6b-a10102f89262
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-discoiquuid: 7f471ac1-cd6a-4371-977e-52d60ce8d968
 ---
 
 # Creating a shared connection{#creating-a-shared-connection}
@@ -74,7 +69,7 @@ To create an execution instance type external account, apply the following steps
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   For more information on Federated Data Access (FDA), refer to [Accessing an external database](../../platform/using/about-fda.md).
+   For more information on Federated Data Access (FDA), refer to [Accessing an external database](../../installation/using/about-fda.md).
 
 1. Click **[!UICONTROL Test the connection]** to make sure the control instance and the execution instance are linked up.
 

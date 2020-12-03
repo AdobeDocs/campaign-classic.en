@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Subscription Services
-seo-title: Subscription Services
-description: Subscription Services
-seo-description: 
-page-status-flag: never-activated
-uuid: f8c05f8a-0791-4294-8aa3-69b7325e4d43
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Subscription Services workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 940bec7e-e3f0-4251-b7fe-72bf188743a7
 ---
 
 # Subscription Services{#subscription-services}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Migration method
-seo-title: Migration method
 description: Migration method
-seo-description: 
-page-status-flag: never-activated
-uuid: 6b954d5b-cfa3-43c6-ac3d-da9185e9e9d1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-overview
-discoiquuid: 3ac779a7-1f91-4c1c-a439-10d01697326a
 ---
 
 # Migration method{#migration-method}
@@ -27,7 +22,7 @@ In v6.02, the "multi timezone" mode was only available for PostgreSQL database e
 >
 >Some software versions supported in Adobe Campaign 5.11 and 6.02 are no longer supported in Adobe Campaign v7.
 >
->For further information about the versions supported by Adobe Campaign, consult the [compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+>For further information about the versions supported by Adobe Campaign, consult the [compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 ## Key migration steps {#key-migration-steps}
 

@@ -1,21 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining interactive content in Adobe Campaign Classic
 description: Learn how to define interactive and dynamic email content with AMP in Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: ddcc2e3b-e251-4a7a-a22a-28701522839f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 ---
 
 # Defining interactive content{#defining-interactive-content}
 
-Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
+Adobe Campaign enables you to use the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
 
-Currently with AMP for Email, you can:
+With AMP for Email, you can:
 * Test delivering AMP emails to specific addresses appropriately configured.
 * Deliver AMP emails to Gmail, Outlook or Mail.ru addresses after registering with the corresponding providers.
 
@@ -199,8 +196,10 @@ For example, if you included a product list in your email, when editing the pric
 >
 >By default the **[!UICONTROL AMP inclusion]** option is set to **[!UICONTROL No]**.
 
-## How to activate and use AMP for emails {#amp-email-video}
+## Tutorial video {#amp-email-video}
 
 The video below explains how to activate AMP in Adobe Campaign Classic and showcases the usage.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

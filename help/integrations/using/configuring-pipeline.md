@@ -1,16 +1,11 @@
 ---
-title: Configuring the integration
-seo-title: Configuring the integration
-description: Configuring the integration
-seo-description: 
-page-status-flag: never-activated
-uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: Configuring the pipeline
+description: Learn how to configure the pipeline
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 ---
 
 # Configuring pipeline {#configuring-pipeline}
@@ -25,29 +20,29 @@ The triggers are used for targeting by a campaign workflow that sends emails. Th
 
 ## Prerequisites {#prerequisites}
 
-Using [!DNL Experience Cloud Triggers] in Campaign requires:
+Before starting this configuration, please check you are using:
 
-* Adobe Campaign 19.1.9 version or 20.3.1. and above.
-* Analytics Standard version.
+* Adobe Campaign 20.3 release minimum
+* Adobe Analytics Standard version
 
-Prerequisite configurations are:
+You will also need:
 
-* Adobe IO project authentication
-* The IMSOrgId, the identifier of the Experience Cloud customer with Adobe Analytics added.
-* The provisioning team must have System Administrator Privileges for the customer's IMS Org
-* Configuration of the triggers in Adobe Analytics.
+* Adobe I/O project authentication
+* a valid IMSOrgID, the identifier of the Experience Cloud customer with Adobe Analytics added
+* a Developer access to the IMS Org
+* triggers configuration done in Adobe Analytics
 
 ## Authentication and configuration files {#authentication-configuration}
 
 Authentication is required since pipeline is hosted in the Adobe Experience Cloud.
 It uses a pair of public and private keys. This process has the same function as a user/password but is more secure.
-Authentication is supported for the Marketing Cloud via Adobe IO Project.
+Authentication is supported for the Marketing Cloud via Adobe I/O Project.
 
-## Step 1: Creating/updating Adobe IO Project {#creating-adobe-io-project}
+## Step 1: Creating/updating Adobe I/O Project {#creating-adobe-io-project}
 
-For Hosted customers, you can create a customer care ticket to enable your organization with Adobe IO Technical Account Tokens for the Triggers integration.
+For Hosted customers, you can create a customer care ticket to enable your organization with Adobe I/O Technical Account Tokens for the Triggers integration.
 
-For On Premise customers, refer to the [Configuring Adobe IO for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe IO credential.
+For On Premise customers, refer to the [Configuring Adobe I/O for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe I/O credential.
 
 ## Step 2: Configuring NmsPipeline_Config pipeline option {#configuring-nmspipeline}
 

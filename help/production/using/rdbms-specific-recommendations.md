@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: RDBMS Specific recommendations
-seo-title: RDBMS Specific recommendations
 description: RDBMS Specific recommendations
-seo-description: 
-page-status-flag: never-activated
-uuid: 637c1b5a-0484-4734-a012-eb4ba8036263
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-discoiquuid: b2219912-5570-45d2-8b52-52486e29d008
 ---
 
 # RDBMS Specific recommendations{#rdbms-specific-recommendations}
@@ -363,7 +358,7 @@ Please contact your database administrator to find out about the procedures best
 
 >[!NOTE]
 >
->For Microsoft SQL Server, you can use the maintenance plan detailed [in this page](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
+>For Microsoft SQL Server, you can use the maintenance plan detailed on [this page](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
 
 The example below concerns Microsoft SQL Server 2005. If you are using another version, contact your database administrator to find out about maintenance procedures.
 
@@ -415,7 +410,7 @@ The example below concerns Microsoft SQL Server 2005. If you are using another v
 
    Note that an object has been created in the **[!UICONTROL SQL Server Agent > Jobs]** folder. This object lets you start the maintenance plan. In our example there is only one object since all the maintenance tasks are part of the same plan.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >For this object to run, the Microsoft SQL Server agent must be enabled.
 

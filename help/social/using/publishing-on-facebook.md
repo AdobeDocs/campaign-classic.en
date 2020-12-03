@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publishing on Facebook
-seo-title: Publishing on Facebook
 description: Publishing on Facebook
-seo-description: 
-page-status-flag: never-activated
-uuid: f15170fa-0e7d-4913-81d6-0072c1ece482
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-discoiquuid: 335cf2de-1874-4e48-9538-f0937641cf96
 ---
 
 # Publishing on Facebook{#publishing-on-facebook}
@@ -145,7 +140,7 @@ This type of content lets you publish a link to a YouTube video. Just like a sta
 
 Enter the various fields:
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >All URLs must start with **"http://"** or **"https://"**.
 

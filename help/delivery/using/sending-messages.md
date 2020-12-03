@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Sending an email with Adobe Campaign Classic
 description: Learn about email delivery parameters
-page-status-flag: never-activated
-uuid: 791f7a54-3225-46ca-ad6f-6c32e9c62d75
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: e2dd8161-fe38-48bf-a288-8ec328b2660e
 ---
 
 # Sending an email{#sending-an-email}

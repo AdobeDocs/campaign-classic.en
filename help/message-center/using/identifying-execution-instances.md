@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Identifying execution instances
-seo-title: Identifying execution instances
 description: Identifying execution instances
-seo-description: 
-page-status-flag: never-activated
-uuid: 215908da-9e70-4f37-aa99-67e80c2ae16a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-discoiquuid: c4b3f1f1-4be7-441e-b348-35d0e26b57d8
 ---
 
 # Identifying execution instances{#identifying-execution-instances}

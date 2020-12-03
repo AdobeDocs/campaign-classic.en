@@ -1,19 +1,14 @@
 ---
-title: Setting up mobile app channel
-seo-title: Setting up mobile app channel
-description: Setting up mobile app channel
-seo-description: 
-page-status-flag: never-activated
-uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: Integrate Campaign SDK
+description: Learn how to integrate Campaign SDK to your mobile app
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
 ---
 
-# Integrating Campaign SDK into the mobile application {#integrating-campaign-sdk-into-the-mobile-application}
+# Integrating Campaign SDK with your app {#integrating-campaign-sdk-into-the-mobile-application}
 
 Campaign SDKs for iOS and Android are one of the components of the Mobile App Channel module.
 
@@ -23,7 +18,7 @@ Campaign SDKs for iOS and Android are one of the components of the Mobile App Ch
 
 The goal of the SDK is to facilitate the integration of a mobile application into the Adobe Campaign platform.
 
-To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#MobileSDK) .
+To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md#MobileSDK) .
 
 ## Loading Campaign SDK {#loading-campaign-sdk}
 

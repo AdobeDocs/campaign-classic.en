@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Quarterly list update using an incremental query
 description: In this use case, an incremental query is used to automatically update a recipient list.
-page-status-flag: never-activated
-uuid: 24d322e8-172c-4faa-8a1f-59085b390a76
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 31071cd2-7d97-4a4f-a6cc-5ac5b6178be5
 ---
 
 # Quarterly list update using an incremental query {#quarterly-list-update}

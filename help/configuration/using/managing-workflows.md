@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Managing workflows
-seo-title: Managing workflows
 description: Managing workflows
-seo-description: 
-page-status-flag: never-activated
-uuid: 8b6320c0-1aae-4acd-a698-03f9bebd916d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: ee724240-c337-489d-a21b-5f3aec1f247a
 ---
 
 # Managing workflows{#managing-workflows}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring the interface
-seo-title: Configuring the interface
 description: Configuring the interface
-seo-description: 
-page-status-flag: never-activated
-uuid: 101ba02f-da43-4dcc-b9ff-6e5ca848fc5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: 8fb9ff23-17a7-4425-9195-738d6fd914dc
 ---
 
 # Configuring the interface{#configuring-the-interface}

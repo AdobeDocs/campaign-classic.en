@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Properties of the report
 description: Learn more about the report properties settings
-page-status-flag: never-activated
-uuid: 56163f53-d115-45b8-94a5-c173ac4c6533
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: 5ec88743-be51-438c-9064-dd0196fdd7d3
 ---
 
 # Properties of the report{#properties-of-the-report}

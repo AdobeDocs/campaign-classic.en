@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Common questions
 description: Adobe Campaign Classic FAQ
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 ---
 
 # Common questions{#common-questions}
@@ -59,11 +56,11 @@ To connect to Adobe Campaign Classic, you need to launch Adobe Campaign client c
 
 ## 7. Which systems and components Campaign Classic is compatible with? {#which-systems-and-components-campaign-classic-is-compatible-with-}
 
-You can get the list of all systems and components supported for the latest build of Campaign in [Adobe Campaign Classic Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+You can get the list of all systems and components supported for the latest build of Campaign in [Adobe Campaign Classic Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 ## 8. Where are Campaign Classic release notes? {#where-are-campaign-classic-release-notes-}
 
-You can access latest Campaign Classic release notes [in this page](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html).
+You can access latest Campaign Classic release notes [in this page](../../rn/using/latest-release.md).
 
 ## 9. What is the procedure for domain configuration? {#what-is-the-procedure-for-domain-delegation-}
 

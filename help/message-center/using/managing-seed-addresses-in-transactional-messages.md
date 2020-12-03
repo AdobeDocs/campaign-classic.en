@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Managing seed addresses in transactional messages
-seo-title: Managing seed addresses in transactional messages
 description: Managing seed addresses in transactional messages
-seo-description: 
-page-status-flag: never-activated
-uuid: 51c4e79d-53bb-4d46-9c7d-e90066f5317d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-discoiquuid: 12e7043e-e8b5-48a9-8a2f-99e2e6040c3c
 ---
 
 # Managing seed addresses in transactional messages{#managing-seed-addresses-in-transactional-messages}

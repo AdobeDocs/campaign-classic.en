@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About profiles
-seo-title: About profiles
 description: About profiles
-seo-description: 
-page-status-flag: never-activated
-uuid: 9a3fcb58-a356-4eee-bc26-c64825de5f99
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: 5addada8-0185-488f-9825-83f60981c139
 ---
 
 # About profiles{#about-profiles}
@@ -105,13 +100,15 @@ The profiles that were excluded during delivery preparation (typology rules, qua
 
 You can have an overview of the **[!UICONTROL Number of active profiles]** from Campaign Standard **[!UICONTROL Administration > Campaign Management > Customer metrics]** menu. The actual count is performed by the **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [technical workflow](../../workflow/using/deliveries.md), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. Each period lasts for 12 months.
 
-## How to create and manage profiles {#create-profiles-video}
+## Tutorial video {#create-profiles-video}
 
 Learn how to access profile data, sort and filter profiles and manually create and manage profiles.
 
 This video also explains the compliance of Adobe Campaign Classic with General Data Protection Regulations. 
 
 >[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 **See also**
 

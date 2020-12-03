@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Generic imports and exports
-seo-title: Generic imports and exports
 description: Generic imports and exports
-seo-description: 
-page-status-flag: never-activated
-uuid: e98753bb-1f14-4ec7-aa3b-d5e4f1ebaef7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
 ---
 
 # Generic imports and exports{#generic-imports-and-exports}

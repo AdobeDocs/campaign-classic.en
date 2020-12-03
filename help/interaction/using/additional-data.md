@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Additional data
-seo-title: Additional data
 description: Additional data
-seo-description: 
-page-status-flag: never-activated
-uuid: 81a889ce-b02d-4593-95fa-1de5601182e0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-discoiquuid: 29339aad-fd8e-4dae-8f6e-2db87221ad04
 ---
 
 # Additional data{#additional-data}

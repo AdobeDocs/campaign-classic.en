@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Sharing assets with Adobe Experience Cloud
-seo-title: Sharing assets with Adobe Experience Cloud
 description: Sharing assets with Adobe Experience Cloud
-seo-description: 
-page-status-flag: never-activated
-uuid: 23f0dfb2-9105-451d-9b97-1d31b23d2665
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-discoiquuid: d10624ea-d961-4162-879b-1754f897d763
 ---
 
 # Sharing assets with Adobe Experience Cloud{#sharing-assets-with-adobe-experience-cloud}
@@ -30,5 +25,5 @@ Consult the [Configuring access to Assets](../../integrations/using/configuring-
 
 >[!NOTE]
 >
->If you are using Adobe Campaign On-Premise, integration with Assets core service and with AEM Assets is not available, unless AEM Assets is also On-Premise.
+>In the context of a Adobe Campaign On-Premise environment, integration with Assets core service and with AEM Assets is not available, unless AEM Assets is also On-Premise.
 

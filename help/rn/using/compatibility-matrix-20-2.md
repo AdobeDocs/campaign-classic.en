@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Compatibility matrix
 description: Compatibility matrix
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
 # Compatibility matrix{#compatibility-matrix}
@@ -192,7 +189,7 @@ The following RDBMS drivers are supported:
 </td>
 </tr>
 <tr>
-<td>MS Dynamics</td>
+<td>Microsoft Dynamics</td>
 <td>
 <p>Soap API - On-premise: 2007, 2015, 2016</p>
 <p>Soap API - Online: 2015, 2016</p>

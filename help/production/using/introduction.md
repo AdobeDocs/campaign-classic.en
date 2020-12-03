@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Introduction
-seo-title: Introduction
 description: Introduction
-seo-description: 
-page-status-flag: never-activated
-uuid: 4192a74e-1d4f-4784-80e3-53aaefa9141e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-discoiquuid: 772992bf-588f-42bd-a72a-986a88815264
 ---
 
 # Introduction{#introduction}

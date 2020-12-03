@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring the Android mobile application in Adobe Campaign
 description: Learn how to set up your mobile application for Android
-page-status-flag: never-activated
-uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
 index: y
 internal: n
 snippet: y
@@ -22,6 +19,14 @@ Once the package is installed, you can define your Android app settings in Adobe
 >
 >To learn how to configure your app for iOS and how to create a delivery for iOS, refer to this [section](../../delivery/using/configuring-the-mobile-application.md).
 
+Key steps are:
+
+1. [Configure the Android external account](#configuring-external-account-android)
+1. [Configure the Android service](#configuring-android-service)
+1. [Create the mobile app in Campaign](#creating-android-app)
+1. [Extend the app schema with additional data](#extend-subscription-schema)
+
+You will then be able to [create an Android rich notification](#creating-android-delivery).
 
 ## Configuring Android external account {#configuring-external-account-android}
 
@@ -49,6 +54,8 @@ To choose which connector you want to use, follow these steps:
     * **maxGCMConnectPerChild**: Maximum limit of parallel HTTP requests to the FCM initiated by each child server (8 by default).
 
 ## Configuring Android service {#configuring-android-service}
+
+![](assets/do-not-localize/how-to-video.png) [Learn how to configure an Android service in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=en#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
 
 1. Go to the **[!UICONTROL Profiles and Targets > Services and subscriptions]** node and click **[!UICONTROL New]**.
 
@@ -87,31 +94,22 @@ After creating your service, you now need to create your Android application:
     >
     > The **[!UICONTROL Integration key]** is fully customizable with string value but needs to be exactly the same as the one specified in the SDK.
 
-1. Select one of the **[!UICONTROL API version]**:
-   * HTTP. For more information refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
-   * HTTPV1. For more information refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+1. Select the **[!UICONTROL API version]**: HTTP v1 or HTTP (legacy). These configurations are detailed in [this section](#select-api-version)
 
-1. Fill in the **[!UICONTROL Firebase Cloud Messaging settings for the Android connection]** fields.
+1. Fill in the **[!UICONTROL Firebase Cloud Messaging the Android connection settings]** fields.
 
 1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. Your Android application is now ready to be used in Campaign Classic.
 
 By default, Adobe Campaign saves a key in the **[!UICONTROL User identifier]** (@userKey) field of the **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** table. This key enables you to link a subscription to a recipient. To collect additional data (such as a complex reconciliation key), you need to apply the following configuration:
 
-1. Create an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema and define the new fields.
-
-1. Define the mapping in the **[!UICONTROL Subscription parameters]** tab.
-
-   >[!CAUTION]
-   >
-   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to the [Integrating Campaign SDK into the mobile application](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) section.
-
 ### Select the API version{#select-api-version}
 
 After creating service and a new mobile application, you need to configure your mobile application depending on the chosen API version.
 
-For more information on service and mobile application creations, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service)
+* **HTTP v1** configuration is detailed in this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+* **HTTP (legacy)** configuration is detailed in this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
 
-#### Use HTTP v1 API version{#android-service-httpv1}
+#### Configure HTTP v1 API{#android-service-httpv1}
 
 To configure the HTTP v1 API version, follow the steps below:
 
@@ -119,10 +117,10 @@ To configure the HTTP v1 API version, follow the steps below:
 
 1. Click **[!UICONTROL Load project json file to extract projet details...]** to load directly your JSON key file. For more information on how to extract your JSON file, refer to this [page](https://firebase.google.com/docs/admin/setup#initialize-sdk).
 
-1. You can also enter manually the following details:
-   * **[!UICONTROL Project Id]**
-   * **[!UICONTROL Private Key]**
-   * **[!UICONTROL Client Email]**
+   You can also enter manually the following details:
+      * **[!UICONTROL Project Id]**
+      * **[!UICONTROL Private Key]**
+      * **[!UICONTROL Client Email]**
 
    ![](assets/nmac_android_10.png)
 
@@ -148,7 +146,7 @@ Below are the FCM payload names to further personalize your push notification:
 <br>
 <br>
 
-#### HTTP API version{#android-service-http}
+#### Configure HTTP (legacy) API{#android-service-http}
 
 To configure the HTTP (legacy) API version, follow the steps below:
 
@@ -172,6 +170,20 @@ Below are the FCM payload names to further personalize your push notification:
 | notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action <br> | dryRun |
 
 <br>
+
+## Extend the appsubscriptionRcp schema {#extend-subscription-schema}
+
+![](assets/do-not-localize/how-to-video.png) [Learn how to extend the appsubscriptionRcp schema in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html?lang=en#extending-the-app-subscription-schema-to-personalize-push-notifications)
+
+You need to extend the **appsubscriptionRcp** to define new additional fields to store parameters from the app in Campaign database . These fields will be used for personalization for example. To do this:
+
+1. Create an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema and define the new fields. Learn more about schema extension in [this page](../../configuration/using/about-schema-edition.md)
+
+1. Define the mapping in the **[!UICONTROL Subscription parameters]** tab.
+
+   >[!CAUTION]
+   >
+   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Refer to the [Integrating Campaign SDK into the mobile application](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) section.
 
 ## Creating an Android rich notification {#creating-android-delivery}
 
@@ -226,6 +238,8 @@ The image and web page should be displayed in the push notification when receive
    >[!NOTE]
    >
    >Additional options for notification message are only available with HTTP v1 API configuration. For more on this, refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+
+![](assets/do-not-localize/how-to-video.png) [Learn how to create an Android push notification in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=en#additional-resources)
 
 1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 

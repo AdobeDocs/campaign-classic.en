@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic Interaction best practices
 description: This section presents the best practice approach to manage the Interaction module in Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: 88bcc1d5-be8f-4a63-9b4a-3843b5751abe
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-discoiquuid: 85e8348f-d240-4a36-b7bd-645807dbc227
 ---
 
 # Interaction best practices{#interaction-best-practices}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Interaction - Data buffer
-seo-title: Interaction - Data buffer
 description: Interaction - Data buffer
-seo-description: 
-page-status-flag: never-activated
-uuid: 4cb742b5-6bde-43e8-b26b-16f27dd65f72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: cbfdeb2f-4f20-45b8-8cc0-89362f9ea9c1
 ---
 
 # Interaction - Data buffer{#interaction-data-buffer}

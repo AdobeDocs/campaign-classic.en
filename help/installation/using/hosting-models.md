@@ -1,14 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Hosting models
-description: Hosting models
-page-status-flag: never-activated
-uuid: a9e035d9-326b-4e14-8f05-a22fe38d172b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Discover Campaign hosting models
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
-discoiquuid: 3175b9ab-e305-4f19-8267-d6172fa07a2a
 ---
 
 # Hosting models{#hosting-models}

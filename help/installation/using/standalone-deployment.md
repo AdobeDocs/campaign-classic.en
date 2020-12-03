@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Standalone deployment
-seo-title: Standalone deployment
 description: Standalone deployment
-seo-description: 
-page-status-flag: never-activated
-uuid: 48ce793e-cb9f-4102-898f-758512cb9bf2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: 9834638f-a8bb-4969-9f8d-99b8d9fdb1ca
 ---
 
 # Standalone deployment{#standalone-deployment}

@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Offer analysis report
-seo-title: Offer analysis report
 description: Offer analysis report
-seo-description: 
-page-status-flag: never-activated
-uuid: 5593b570-adc0-41a7-a83c-f8e6e4be6247
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: tracking-offers
-discoiquuid: 6aae6a10-b03e-41f1-a6e9-29100800bae1
 ---
 
 # Offer analysis report{#offer-analysis-report}
@@ -23,15 +18,15 @@ The **[!UICONTROL Offer analysis]** report provides you with an overview of the 
 
 Statistics are sorted based on three criteria:
 
-* by date.
+* By date:
 
   ![](assets/offer_report_perdate.png)
 
-* by space.
+* By space:
 
   ![](assets/offer_report_perspaces.png)
 
-* by deliveries.
+* By deliveries:
 
   ![](assets/offer_report_perdeliveries.png)
 

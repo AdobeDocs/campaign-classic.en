@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Event recycling
-seo-title: Event recycling
 description: Event recycling
-seo-description: 
-page-status-flag: never-activated
-uuid: 55624a41-65a1-4759-8087-6e5d2c5c5b62
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-discoiquuid: 568a9dec-5818-4666-b858-aa41fe827b92
 ---
 
 # Event recycling{#event-recycling}

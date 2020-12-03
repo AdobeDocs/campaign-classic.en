@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adding seed addresses
-seo-title: Adding seed addresses
 description: Adding seed addresses
-seo-description: 
-page-status-flag: never-activated
-uuid: e94ddd46-bed6-4505-91b7-7e17abb0e9c8
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-discoiquuid: 0b9b53bf-4dd2-416c-894e-393aded489f8
 ---
 
 # Adding seed addresses{#adding-seed-addresses}

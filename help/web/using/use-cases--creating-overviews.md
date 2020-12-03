@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: "Use cases: creating overviews"
-seo-title: "Use cases: creating overviews"
 description: "Use cases: creating overviews"
-seo-description: 
-page-status-flag: never-activated
-uuid: 404ae82b-2766-4802-8673-aaaa26868f46
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-applications
-discoiquuid: a3834828-4d39-4699-b648-d399797b8ea7
 ---
 
 # Use cases: creating overviews{#use-cases-creating-overviews}

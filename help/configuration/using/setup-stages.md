@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Setup stages
-seo-title: Setup stages
 description: Setup stages
-seo-description: 
-page-status-flag: never-activated
-uuid: 4111a805-95ab-4e26-be51-2db1e5c20f57
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: 76174374-af73-4da0-b62b-6979bca0102b
 ---
 
 # Setup stages{#setup-stages}

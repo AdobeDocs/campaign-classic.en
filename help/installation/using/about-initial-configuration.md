@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About initial configuration
-seo-title: About initial configuration
 description: About initial configuration
-seo-description: 
-page-status-flag: never-activated
-uuid: d873082d-02b2-4840-ad23-fbe30b42da2c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: 8565a453-a7e0-475d-9254-3f948c04d105
 ---
 
 # About initial configuration{#about-initial-configuration}

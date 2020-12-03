@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Uninstalling Campaign
-seo-title: Uninstalling Campaign
-description: Uninstalling Campaign
-seo-description: 
-page-status-flag: never-activated
-uuid: 4e95a576-a2fe-41dd-a03d-e4a3120f8788
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to uninstall Campaign
 audience: installation
 content-type: reference
 topic-tags: appendices
-discoiquuid: 702253cc-3e1a-44ad-9340-b8588ee86bad
 ---
 
 # Uninstalling Campaign{#uninstalling-campaign}

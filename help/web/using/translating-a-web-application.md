@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Translating a web application
-seo-title: Translating a web application
 description: Translating a web application
-seo-description: 
-page-status-flag: never-activated
-uuid: 7b24a872-d3d1-4473-a6f9-96ba2a0eee8b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-applications
-discoiquuid: 328e5b2f-8596-4eda-8ac5-57cb29bfb691
 ---
 
 # Translating a web application{#translating-a-web-application}

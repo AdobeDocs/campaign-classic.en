@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Test
-seo-title: Test
-description: Test
-seo-description: 
-page-status-flag: never-activated
-uuid: 3522f4ac-3a72-4ff1-b3aa-1b4c283ef2bd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Test workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: 78c70ef4-807d-45d4-ac87-2b741c0ef5cb
 ---
 
 # Test{#test}

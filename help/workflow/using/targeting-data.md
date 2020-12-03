@@ -1,16 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Targeting data
-seo-title: Targeting data
-description: Targeting data
-seo-description: 
-page-status-flag: never-activated
-uuid: 90c46ae9-8f9d-4538-a0fe-92fb3373f863
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about Targeting data in a workflow
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: 79f1e85a-b5e6-4875-ac57-ab979fc57079
 ---
 
 # Targeting data{#targeting-data}
@@ -175,7 +170,7 @@ To configure it, you first need to select criteria:
 
    ![](assets/split-subset-config-add_external_data.png)
 
-   For more on this, refer to this [section](../../platform/using/about-fda.md).
+   For more on this, refer to this [section](../../installation/using/about-fda.md).
 
 Then, we need to add new subsets:
 
