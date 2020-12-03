@@ -103,7 +103,7 @@ Threshold values can be either constant or calculated by a formula with variable
 
 **Example:**
 
-You can index the number of authorized messages according to the segment to which the recipient belongs. This means that a recipient belonging to the Web segment may receive more messages than other recipients. An **[!UICONTROL Iif (@origin='Web', 5, 3)]** type formula authorizes the delivery of 5 messages to recipients and 3 for other segments. Configuration will be as follows:
+You can index the number of authorized messages according to the segment to which the recipient belongs. This means that a recipient belonging to the web segment may receive more messages than other recipients. An **[!UICONTROL Iif (@origin='Web', 5, 3)]** type formula authorizes the delivery of 5 messages to recipients and 3 for other segments. Configuration will be as follows:
 
 ![](assets/campaign_opt_pressure_sample.png)
 

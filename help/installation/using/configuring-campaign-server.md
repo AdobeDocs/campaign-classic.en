@@ -599,15 +599,18 @@ For example: **uploadWhiteList=".&#42;.png,.&#42;.jpg"** will let you upload PNG
 
 ## Proxy connection configuration {#proxy-connection-configuration}
 
-If you need to connect the Campaign server to the outside through a proxy (using a file transfer workflow activity for example), you need to configure the proxyConfig section of the serverConf via a command. The following proxy connections are possible: HTTP, HTTPS, FTP, SFTP. All the parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
+You can connect the Campaign server to an external system through a proxy, using a **File Transfer** workflow activity for example. To achieve this, you need to configure the **proxyConfig** section of the **serverConf.xml** file through a specific command. All parameters available in the **serverConf.xml** are listed in this [section](../../installation/using/the-server-configuration-file.md).
 
->[!NOTE]
+The following proxy connections are possible: HTTP, HTTPS, FTP, SFTP. Please note that starting 20.2 Campaign release, the HTTP and HTTPS protocol parameters are **no longer available**. Those parameters are still mentioned below as they remain available in previous builds - including 9032.
+
+>[!CAUTION]
 >
->Starting 20.2, the HTTP and HTTPS protocol parameters are no longer available. The following information still mentions those parameters as they remain available to previous builds including 9032.
+>Only the basic authentication mode is supported. NTLM authentication is not supported.
 >
 >SOCKS proxies are not supported.
+>
 
-Use the following command:
+You can use the following command:
 
 ```
 nlserver config -setproxy:[protocol]/[serverIP]:[port]/[login][:‘https’|'http’]

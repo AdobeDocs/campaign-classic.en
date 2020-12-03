@@ -86,7 +86,7 @@ For campaigns, according to the level of commitment, a cost can be planned, comm
 >   
 >The option **[!UICONTROL Commitment level]** represents a projection of costs into the future before they are charged to the budget. According to the progress of a campaign, task, or delivery, you can decide to assign a higher or lower commitment level (1. Planned, 2. Reserved, 3. Committed) using the combo box.
 
-For example, the estimated planned cost of a Web campaign is 45,000 Euro.
+For example, the estimated planned cost of a web campaign is 45,000 Euro.
 
 ![](assets/s_user_edit_budget_node_impact_0.png)
 

@@ -169,7 +169,7 @@ Adobe Campaign lets you set up approval processes for the main stages of the mar
 
 For direct mail deliveries, Adobe Campaign operators can view the extraction file before it is sent to the router, and if necessary they can change the format and re-launch extraction. See [Approving an extraction file](#approving-an-extraction-file).
 
-For each campaign you can approve the delivery target, content (see [Approving content](#approving-content)) and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a Web connection. See [Approving processes](#approving-processes).
+For each campaign you can approve the delivery target, content (see [Approving content](#approving-content)) and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a web connection. See [Approving processes](#approving-processes).
 
 When these validation phases are complete, the delivery can be launched. See [Starting a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery).
 

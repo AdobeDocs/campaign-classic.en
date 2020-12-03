@@ -149,6 +149,8 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 * The management of HTTP proxy connections has been improved. [Learn more](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
 
+* New option in **[!UICONTROL Javascript Code]** and **[!UICONTROL Advanced Javascript Code]** workflow activities to stop execution after a limit. Default value is 1 hour. [Learn more](../../workflow/using/sql-code-and-javascript-code.md#javascript-code).
+
 **Other changes**
 
 * Legacy SMS connectors are now deprecated. Refer to the [Deprecated features page](../../rn/using/deprecated-features.md).
