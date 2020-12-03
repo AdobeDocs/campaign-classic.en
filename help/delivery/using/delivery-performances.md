@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Monitoring a delivery
-description: Monitoring a delivery
+title: Delivery performances
+description: Learn more about delivery performances and how to troubleshoot related issues.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries

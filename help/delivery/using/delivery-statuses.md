@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Monitoring a delivery
-description: Monitoring a delivery
+title: Delivery statuses
+description: Learn more about the statuses available on your delivery dashboard.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries

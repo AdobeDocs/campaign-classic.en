@@ -1,14 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Monitoring a delivery
-description: Monitoring a delivery
+title: Delivery monitoring interface
+description: Learn more about the interface available to monitor deliveries.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 ---
 
 # Delivery monitoring interface {#monitoring-a-delivery}
+
+## Delivery dashboard {#delivery-dashboard}
 
 The **delivery dashboard** is key to monitor your deliveries and eventual issues encountered during the sending of messages.
 
