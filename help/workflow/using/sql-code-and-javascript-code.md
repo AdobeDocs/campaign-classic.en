@@ -28,24 +28,27 @@ An **[!UICONTROL SQL code]** activity executes an SQL script. The script is a JS
 
 **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** activities execute a JavaScript script in the context of a workflow. For more on scripting, refer to the [JavaScript scripts and templates](../../workflow/using/javascript-scripts-and-templates.md) section.
 
->[!NOTE]
->
->By default, the execution phase of **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** activities cannot exceed 1 hour. After this delay, the process will be aborted with an error message and the activity execution will fail.
->
->You can change this delay in the **[!UICONTROL Stop execution after]** field available in the activities' properties.
+### Execution delay
 
-* **[!UICONTROL JavaScript code]**
+By default, the execution phase of **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** activities cannot exceed 1 hour. After this delay, the process will be aborted with an error message and the activity execution will fail.
 
-    ![](assets/javascript_code.png)
+You can change this delay in the **[!UICONTROL Stop execution after]** field available in these activities.
 
-    * **[!UICONTROL Script]**: The central area of the editor contains the script to be executed.
-    * **[!UICONTROL Processing errors]**: Refer to [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+To ignore this limit, you need to set the value to **0**.
 
-* **[!UICONTROL Advanced JavaScript code]**
+### JavaScript code
 
-   ![](assets/advanced_javascript_code.png)
+![](assets/javascript_code.png)
 
-    * **[!UICONTROL First call]**: The first zone of the editor contains the script to execute during the first call.
-    * **[!UICONTROL Next calls]**: The second zone of the editor contains the script to execute during the next calls.
-    * **[!UICONTROL Transitions]**: You can define several activity output transitions.
-    * **[!UICONTROL Schedule]**: The **[!UICONTROL Schedule]** tab lets you schedule when to trigger the activity.
+* **[!UICONTROL Script]**: The central area of the editor contains the script to be executed.
+
+* **[!UICONTROL Process errors]**: Refer to [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+
+### Advanced JavaScript code
+
+![](assets/advanced_javascript_code.png)
+
+* **[!UICONTROL First call]**: The first zone of the editor contains the script to execute during the first call.
+* **[!UICONTROL Next calls]**: The second zone of the editor contains the script to execute during the next calls.
+* **[!UICONTROL Transitions]**: You can define several activity output transitions.
+* **[!UICONTROL Schedule]**: The **[!UICONTROL Schedule]** tab lets you schedule when to trigger the activity.

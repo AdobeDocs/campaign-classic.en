@@ -24,6 +24,7 @@ _September 11, 2020_
 * Fixed a regression which prevented you from modifying the internal name of an external account. (NEO-27323)
 * Fixing a regression during postupgrade causing an incorrect start of nlserver (error logs).
 * The update management for shared memory has been improved. The additional steps required in 20.2 are not needed anymore. 
+* New option in Javascript Code and Advanced Javascript code workflow activities to Stop execution after a limit. Default value is 1 hour. [Learn more](../../workflow/using//sql-code-and-javascript-code.md#javascript-code).
 
 ## ![](assets/do-not-localize/orange_2.png) Release 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
