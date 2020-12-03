@@ -42,7 +42,7 @@ The Security Zones self-service interface can be used to manage entries in the V
 
 Adobe Campaign comes with a set of dashboards and tools to monitor your email deliveries.
 
-[Click here to learn](../../delivery/using/monitoring-a-delivery.md) how to make sure your messages are being sent, monitor the execution and engage action if an error occurs.
+[Click here to learn](../../delivery/using/monitoring-interface.md) how to make sure your messages are being sent, monitor the execution and engage action if an error occurs.
 
 ## 5. Can I monitor workflow execution? {#can-i-monitor-workflow-execution}
 

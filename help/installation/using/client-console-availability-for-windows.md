@@ -23,7 +23,7 @@ To do this, you must:
 1. Copy and paste this package into the Adobe Campaign installation folder, under **/datakit/nl/eng/jsp**.
 1. Start the Adobe Campaign server.
 
-The final users may then download the console installation program via a Web browser thanks to the following URL:
+The final users may then download the console installation program via a web browser thanks to the following URL:
 
 ```
 https://<your Adobe Campaign server>:>port number>/nl/jsp/logon.jsp

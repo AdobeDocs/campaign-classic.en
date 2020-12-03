@@ -131,7 +131,7 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 
 ```
 
-The `<soap-env:fault>` element in the body of the SOAP message is used to convey the error signals arising during the processing of the Web service. This is composed of the following sub-elements:
+The `<soap-env:fault>` element in the body of the SOAP message is used to convey the error signals arising during the processing of the web service. This is composed of the following sub-elements:
 
 * `<faultcode>` : indicates the type of error. The error types are:
 

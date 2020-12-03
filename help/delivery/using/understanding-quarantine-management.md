@@ -44,7 +44,7 @@ Quarantined addresses can be listed for a specific delivery or for the entire pl
 
 ### Identifying quarantined addresses for a delivery {#identifying-quarantined-addresses-for-a-delivery}
 
-Quarantined addresses for a specific delivery are listed during the delivery preparation phase, in the delivery logs of the delivery dashboard (see [Delivery logs and history](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)).
+Quarantined addresses for a specific delivery are listed during the delivery preparation phase, in the delivery logs of the delivery dashboard (see [Delivery logs and history](../../delivery/using/monitoring-interface.md#delivery-logs-and-history)).
 
 ### Identifying quarantined addresses for the entire platform {#identifying-quarantined-addresses-for-the-entire-platform}
 

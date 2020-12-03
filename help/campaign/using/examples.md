@@ -12,15 +12,15 @@ topic-tags: distributed-marketing
 
 ## Creating a local campaign (by form) {#creating-a-local-campaign--by-form-}
 
-The **By form** type Web interface involves using a **Web application**. Depending on its configuration, this Web application can contain any type of defined personalized elements. For example, you can suggest links to evaluate the target, the budget, the content, etc. via dedicated APIs.
+The **By form** type web interface involves using a **web application**. Depending on its configuration, this web application can contain any type of defined personalized elements. For example, you can suggest links to evaluate the target, the budget, the content, etc. via dedicated APIs.
 
 >[!NOTE]
 >
 >APIs are detailed in a dedicated document, access to which is dependent on your contract. Refer to [API](../../configuration/using/about-web-services.md).
 >
->The Web application used in this example is not a Web app that comes out-of-the-box with Adobe Campaign. To use a form in a campaign, you must create the dedicated Web application.
+>The Web application used in this example is not a Web app that comes out-of-the-box with Adobe Campaign. To use a form in a campaign, you must create the dedicated web application.
 
-When creating the campaign template, click the **[!UICONTROL Zoom]** icon within the **[!UICONTROL Web interface]** option of the **[!UICONTROL Advanced campaign settings...]** link to access details of the Web application.
+When creating the campaign template, click the **[!UICONTROL Zoom]** icon within the **[!UICONTROL Web interface]** option of the **[!UICONTROL Advanced campaign settings...]** link to access details of the web application.
 
 ![](assets/mkg_dist_local_op_form1.png)
 
@@ -99,7 +99,7 @@ The steps are as follows:
 
    ![](assets/mkg_dist_use_case_target_valid8.png)
 
-1. By clicking the **[!UICONTROL Access your contact list and approve targeting]** link, the local entity is given access (via Web browser) to the list of clients selected for the campaign.
+1. By clicking the **[!UICONTROL Access your contact list and approve targeting]** link, the local entity is given access (via web browser) to the list of clients selected for the campaign.
 
    ![](assets/mkg_dist_use_case_target_valid9.png)
 
