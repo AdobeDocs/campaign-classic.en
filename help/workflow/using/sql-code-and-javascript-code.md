@@ -28,15 +28,15 @@ An **[!UICONTROL SQL code]** activity executes an SQL script. The script is a JS
 
 **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** activities execute a JavaScript script in the context of a workflow. For more on scripting, refer to the [JavaScript scripts and templates](../../workflow/using/javascript-scripts-and-templates.md) section.
 
-### Execution delay
+### Execution delay {#exec-delay}
 
-By default, the execution phase of **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** activities cannot exceed 1 hour. After this delay, the process will be aborted with an error message and the activity execution will fail.
+Starting 20.2 release, an execution delay has been added to the **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** activities. By default, the execution phase cannot exceed 1 hour. After this delay, the process will be aborted with an error message and the activity execution will fail.
 
 You can change this delay in the **[!UICONTROL Stop execution after]** field available in these activities.
 
 To ignore this limit, you need to set the value to **0**.
 
-### JavaScript code
+### JavaScript code {#js-code-desc}
 
 ![](assets/javascript_code.png)
 
@@ -44,7 +44,7 @@ To ignore this limit, you need to set the value to **0**.
 
 * **[!UICONTROL Process errors]**: Refer to [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
-### Advanced JavaScript code
+### Advanced JavaScript code {#adv-js-code-desc}
 
 ![](assets/advanced_javascript_code.png)
 

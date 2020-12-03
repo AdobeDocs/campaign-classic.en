@@ -24,7 +24,6 @@ _September 11, 2020_
 * Fixed a regression which prevented you from modifying the internal name of an external account. (NEO-27323)
 * Fixing a regression during postupgrade causing an incorrect start of nlserver (error logs).
 * The update management for shared memory has been improved. The additional steps required in 20.2 are not needed anymore. 
-* New option in Javascript Code and Advanced Javascript code workflow activities to Stop execution after a limit. Default value is 1 hour. [Learn more](../../workflow/using//sql-code-and-javascript-code.md#javascript-code).
 
 ## ![](assets/do-not-localize/orange_2.png) Release 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
@@ -149,6 +148,8 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 * Certificates for iOS mobile applications with the iOS HTTP2 connector are now validated before sending push notifications, thus preventing deliveries from failing because of expired certificates. 
 
 * The management of HTTP proxy connections has been improved. [Learn more](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
+
+* New option in **[!UICONTROL Javascript Code]** and **[!UICONTROL Advanced Javascript Code]** workflow activities to stop execution after a limit. Default value is 1 hour. [Learn more](../../workflow/using//sql-code-and-javascript-code.md#javascript-code).
 
 **Other changes**
 
