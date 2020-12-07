@@ -483,7 +483,7 @@ The following options are available:
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Monitoring a delivery](../../delivery/using/monitoring-interface.md)
+* [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md)
 * [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 * [About message tracking](../../delivery/using/about-message-tracking.md)
 
@@ -587,6 +587,6 @@ The sender name for this type of message is a short code usually used to send de
 
 >[!IMPORTANT]
 >
->These kinds of automatic messages do not keep a history. Therefore they do not appear in the [delivery dashboard](../../delivery/using/monitoring-interface.md).
+>These kinds of automatic messages do not keep a history. Therefore they do not appear in the [delivery dashboard](../../delivery/using/delivery-dashboard.md).
 >
 >These messages are not considered part of the [commercial pressure rules](../../campaign/using/pressure-rules.md).

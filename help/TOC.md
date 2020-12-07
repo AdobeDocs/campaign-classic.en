@@ -148,10 +148,12 @@ type: Documentation
        + [Managing subscriptions](delivery/using/managing-subscriptions.md)
        + [Viral and social marketing](delivery/using/viral-and-social-marketing.md)
   + Monitoring deliveries {#monitoring-deliveries}
-       + Monitoring a delivery {#monitoring-a-delivery}
-          + [Delivery monitoring interface](delivery/using/monitoring-interface.md)
-          + [Delivery performances](delivery/using/delivery-performances.md)
-          + [Delivery statuses](delivery/using/delivery-statuses.md)
+       + [Get started with delivery monitoring](delivery/using/about-delivery-monitoring.md)     
+       + [Accessing the list of deliveries](delivery/using/list-of-deliveries.md)     
+       + [Delivery dashboard](delivery/using/delivery-dashboard.md)
+       + [Delivery performances recommendations](delivery/using/delivery-performances.md)
+       + [Delivery sending troubleshooting](delivery/using/delivery-troubleshooting.md)
+       + [Delivery statuses](delivery/using/delivery-statuses.md)
        + [Understanding delivery failures](delivery/using/understanding-delivery-failures.md)
        + [Understanding quarantine management](delivery/using/understanding-quarantine-management.md)
   + Tracking messages {#tracking-messages}

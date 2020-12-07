@@ -100,7 +100,7 @@ The tree is managed by the iParentId and iChildCount fields. The sFullName field
 
 ## Delivery and tracking {#delivery-and-tracking}
 
-This set of tables is linked to the **Delivery** module, which allows to monitor deliveries and eventual issues encountered when messages are sent. For more on this, see [Monitoring deliveries](../../delivery/using/monitoring-interface.md). For more on tracking, see [Tracking messages](../../delivery/using/about-message-tracking.md).
+This set of tables is linked to the **Delivery** module, which allows to monitor deliveries and eventual issues encountered when messages are sent. For more on this, see [Monitoring deliveries](../../delivery/using/about-delivery-monitoring.md). For more on tracking, see [Tracking messages](../../delivery/using/about-message-tracking.md).
 
 ![](assets/data-model_delivery.png)
 

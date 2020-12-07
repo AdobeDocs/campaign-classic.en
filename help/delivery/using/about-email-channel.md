@@ -24,6 +24,6 @@ The key steps to send an email are as follows:
 * [Defining the target population](../../delivery/using/steps-defining-the-target-population.md)
 * [Defining the email content](../../delivery/using/defining-the-email-content.md)
 * [Sending the email](../../delivery/using/sending-messages.md)
-* [Monitoring the delivery](../../delivery/using/monitoring-interface.md)
+* [Monitoring the delivery](../../delivery/using/about-delivery-monitoring.md)
 
 The sections below provide information that is specific to the email channel. For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).

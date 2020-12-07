@@ -82,7 +82,7 @@ The **[!UICONTROL Preview]** tab lets you view a rendering of the tweet.
 
 Tracking can be viewed in the delivery reports and in the **[!UICONTROL Edit > Tracking]** tab of the delivery and the service.
 
-Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](../../delivery/using/monitoring-interface.md).
+Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](../../delivery/using/about-delivery-monitoring.md).
 
 >[!NOTE]
 >
