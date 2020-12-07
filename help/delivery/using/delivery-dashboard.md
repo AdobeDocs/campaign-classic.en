@@ -8,11 +8,26 @@ content-type: reference
 topic-tags: monitoring-deliveries
 ---
 
-# Delivery monitoring interface {#monitoring-a-delivery}
-
-## Delivery dashboard {#delivery-dashboard}
+# Delivery dashboard {#delivery-dashboard}
 
 The **delivery dashboard** is key to monitor your deliveries and eventual issues encountered during the sending of messages.
+
+It allows you to retrieve information on a delivery and edit it if necessary. Note that tab contents may no longer be changed once the delivery has been sent.
+
+![](assets/s_ncs_user_del_details.png)
+
+Here are the information you can monitor using the several tabs that are available in the dashboard:
+
+* [Delivery summary](#delivery-summary)
+* [Delivery reports](#delivery-reports)
+* [Delivery logs, history and exclusions](#delivery-logs-and-history)
+* [Delivery tracking logs and history](#tracking-logs)
+* [Delivery rendering](#delivery-rendering)
+* [Delivery audit](#delivery-audit-)
+
+<!-->
+Lister aussi tout ce à quoi on a accès dans le delivery dashboard (ce qui est décrit dessous) : logs, rapports, inbox rendering, mirror page, …etc.
+-->
 
 **Related topics:**
 
@@ -21,19 +36,19 @@ The **delivery dashboard** is key to monitor your deliveries and eventual issues
 * [Delivery best practices](../../delivery/using/delivery-best-practices.md)
 * [Managing deliverability](../../delivery/using/about-deliverability.md)
 
-To view the information on a delivery, edit it, view the dashboard and click the available tabs.
-
-Tab contents may no longer be changed once the delivery has been sent. 
-
-![](assets/s_ncs_user_del_details.png)
-
 ## Delivery summary {#delivery-summary}
 
 The **[!UICONTROL Summary]** tab contains the characteristics of the delivery: delivery status, channel used, information about the sender, subject, information concerning execution. For more on this, refer to [Number of messages sent](#number-of-messages-sent).
 
 The **[!UICONTROL reports]** link lets you look at a set of reports concerning the delivery action: general delivery report, detailed report, delivery report, distribution of failed messages, opening rate, clicks and transactions, etc. The contents of this tab can be configured according to your requirements. For more information, refer to [this section](../../reporting/using/delivery-reports.md).
 
-## Delivery logs and history {#delivery-logs-and-history}
+## Delivery reports {#delivery-reports}
+
+<!--parler de reports + screenshot, ou section à part?-->
+
+## Delivery logs, history and exclusions {#delivery-logs-and-history}
+
+<!--4. Dans Delivery logs and history, montrer le lien ‘Display the mirror page for this message’-->
 
 The **[!UICONTROL Delivery]** tab gives a history of the occurrences in this delivery. It contains the delivery logs, i.e. the list of messages sent and their status and the associated messages.
 
@@ -47,7 +62,7 @@ Various statuses are listed on [this page](#delivery-statuses).
 >
 >The **[!UICONTROL Display the mirror page for this message...]** link lets you view the mirror page for the contents of the delivery selected from the list in a new window. The mirror page is available only for deliveries for which HTML content has been defined. For more on this, refer to [Generating the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
-## Tracking logs {#tracking-logs}
+## Delivery tracking logs and history {#tracking-logs}
 
 The **[!UICONTROL Tracking]** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign. The tracking data is updated hourly.
 
@@ -61,6 +76,10 @@ Tracking configuration is performed at the appropriate stage in the delivery wiz
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 
+<!--Ajouter une section sur Inbox Rendering + lien-->
+
+## Delivery rendering {#delivery-rendering}
+
 ## Delivery audit {#delivery-audit-}
 
 The **[!UICONTROL Audit]** tab contains the delivery log and all the messages concerning the proofs. The **[!UICONTROL Refresh]** button lets you update the data. Use the **[!UICONTROL Filters]** button to define a filter on the data.
@@ -72,19 +91,3 @@ The **[!UICONTROL Proofs]** sub-tab lets you view the list of proofs that have b
 ![](assets/s_ncs_user_delivery_log_tab.png)
 
 You can modify the information displayed in this window (and that of the **[!UICONTROL Delivery]** and **[!UICONTROL Tracking]** tabs) by selecting the columns to be displayed. To do this, click the **[!UICONTROL Configure list]** icon located in the lower right-hand corner. For more on configuring list display, refer to [this section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
-
-## Number of messages sent {#number-of-messages-sent}
-
-You can access deliveries from the delivery list, via the **[!UICONTROL Campaign Management > Deliveries]** node of the tree.
-
-By default, the list of deliveries contains the names and statuses of the deliveries created in the selected node. It also shows the number of messages to send, processed and sent with success.
-
-* The number of **[!UICONTROL Messages to send]** corresponds to the number of recipients targeted after analysis and prior to delivery.
-* The number of messages in the **[!UICONTROL Success]** column corresponds to the number of messages sent by the server and received by the recipients.
-* The number of **[!UICONTROL Processed]** messages corresponds to the number of messages received plus the number of messages with errors.
-
-The delivery dashboard lets you track the number of messages sent.
-
->[!NOTE]
->
->For large deliveries, you may wish to update these values. To do this, select the delivery in question and then right-click it. Select **[!UICONTROL Action > Recompute delivery and tracking indicators...]** and then use the wizard to update this information.
