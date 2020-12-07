@@ -16,7 +16,7 @@ You clicked the Send button? Let's see what happens. Once the delivery is sent, 
 To control your campaigns, you must ensure that the message has indeed been delivered to your recipients.
 
 From Campaign delivery dashboard, you can check the processed messages and delivery audit logs.
-You can also control the status of the messages in the delivery logs. [Learn more](../../delivery/using/monitoring-interface.md).
+You can also control the status of the messages in the delivery logs. [Learn more](../../delivery/using/about-delivery-monitoring.md).
 
 What if the deliveries are not being sent and their status remains **Pending**?
 

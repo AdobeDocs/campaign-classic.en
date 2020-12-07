@@ -31,10 +31,10 @@ You can also use the following tools:
     * **[!UICONTROL Soft bounces]** indicate reputation. This number should not be higher than 10% for any given ISP.
     
     For more on this, see the [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics) section.
-* More generally, the [delivery dashboard](../../delivery/using/monitoring-interface.md) gives you access to:
-    * the [delivery summary](../../delivery/using/monitoring-interface.md#delivery-summary), which shows the detail of the sending and the [number of messages](../../delivery/using/monitoring-interface.md#number-of-messages-sent) to send, processed and sent with success;
-    * the [delivery logs and history](../../delivery/using/monitoring-interface.md#delivery-logs-and-history), which show which target has been excluded and why;
-    * the [tracking logs](../../delivery/using/monitoring-interface.md#tracking-logs), which show tracking information such as opens and clicks.
+* More generally, the [delivery dashboard](../../delivery/using/about-delivery-monitoring.md) gives you access to:
+    * the [delivery summary](../../delivery/using/delivery-dashboard.md#delivery-summary), which shows the detail of the sending and the number of messages to send, processed and sent with success;
+    * the [delivery logs and history](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history), which show which target has been excluded and why;
+    * the [tracking logs](../../delivery/using/delivery-dashboard.md#tracking-logs), which show tracking information such as opens and clicks.
 
 ## Monitoring guidelines {#monitoring-guidelines}
 
@@ -46,7 +46,7 @@ Here are some additional guidelines on deliverability monitoring:
 * Check each delivery throughput to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days).
 * When using [waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), verify that each wave has enough time to finish before the next one is triggered.
 * Check that the number of errors and new [quarantines](../../delivery/using/understanding-quarantine-management.md) are consistent with other deliveries.
-* Carefully consult the [delivery logs](../../delivery/using/monitoring-interface.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).
+* Carefully consult the [delivery logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).
 
 ## Signal Spam {#signal-spam}
 
