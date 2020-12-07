@@ -692,7 +692,6 @@ type: Documentation
        + [Lost password](production/using/lost-password.md)
        + [JSP behavior](production/using/jsp-behavior.md)
 + Developers guide {#configuring-campaign-classic}
-+ + [About Campaign configuration](configuration/using/about-config-guide.md)
   + Data model {#data-model}
        + [About the data model](configuration/using/about-data-model.md)
        + [Data model description](configuration/using/data-model-description.md)

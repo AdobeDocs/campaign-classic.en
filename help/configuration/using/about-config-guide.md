@@ -12,5 +12,4 @@ topic-tags: about
 
 Test
 
-![](assets/testsvg.svg)
 
