@@ -25,7 +25,7 @@ Here are the information you can monitor using the several tabs that are availab
 * [Delivery rendering](#delivery-rendering)
 * [Delivery audit](#delivery-audit-)
 
-<!-->
+<!--
 Lister aussi tout ce à quoi on a accès dans le delivery dashboard (ce qui est décrit dessous) : logs, rapports, inbox rendering, mirror page, …etc.
 -->
 
