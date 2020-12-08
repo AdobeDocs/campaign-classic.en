@@ -28,3 +28,90 @@ By default, the list of deliveries contains the names and statuses of the delive
 
 * [Delivery dashboard](../../delivery/using/delivery-dashboard.md)
 * [Delivery statuses](../../delivery/using/delivery-statuses.md)
+
+## Use case: How to know which IPs send emails
+
+In this section, you will learn how to define which IP sent each email in a delivery.
+
+>[!NOTE]
+>
+>This modification is different if you are using a single instance or mid-sourcing instance. Before doing the modification ensure you're connected to email sending instance.
+
+### Step 1: Extend the schema
+
+To add **publicID** in your delivery logs you need to extend the schema first. You can proceed as follow.
+
+1. Create a schema extension, under **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data Schemas]** > **[!UICONTROLNew]**.
+
+    For more information about schema extensions, refer to [this page](../../configuration/using/extending-a-schema.md).
+
+1. Select **[!UICONTROL broadLogRcp]** to extend the Recipient delivery logs (nms) and define a custom Namespace. In this case it will be "cus":
+
+    ![](assets/schema-parameters.png)
+
+    >[!NOTE]
+    >
+    >If your instance is in Mid-sourcing, you need to work with broadLogMid schema.
+
+1. Add the new field in your extension. In this sample, you need to replace:
+
+    ```
+    <element img="nms:broadLog.png" label="Recipient delivery logs" labelSingular="Recipient delivery log" name="broadLogRcp"/>
+    ```
+
+    by:
+
+    ```
+    <element img="nms:broadLog.png" label="Recipient delivery logs" labelSingular="Recipient delivery log" name="broadLogRcp">
+    <attribute desc="Outbound IP identifier" label="IP identifier"
+    name="publicId" type="long"/>
+    </element>
+    ```
+
+    ![](assets/edit-schema.png)
+
+### Step 2: Update database structure
+
+Once modifications are done, you need to update database structure so that it is aligned with its logical description.
+
+To do this, follow the steps below:
+
+1. Click the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Update database structure...]** menu.
+
+    ![](assets/update-database-structure.png)
+
+1. In the **[!UICONTROL Edit tables]** window, the **[!UICONTROL NmsBroadLogRcp]** table is checked (or the **[!UICONTROL broadLogMid]** table if your are in a Mid-sourcing environment), as below:
+
+    ![](assets/edit-tables.png)
+
+    >[!IMPORTANT]
+    >
+    >Always ensure there is no other modification, except the **[!UICONTROL NmsBroadLoGRcp]** table (or the **[!UICONTROL broadLogMid]** table if your are in a Mid-sourcing environment). If so, uncheck other tables.
+
+1. Click **[!UICONTROL Next]** to validate. The following screen displays:
+
+    ![](assets/update-script.png)
+
+1. Click **[!UICONTROL Next]**, then **[!UICONTROL Start]** to start updating database structure. Index building is starting. This step can be long, depending on the number of rows in the **[!UICONTROL NmsBroadLogRcp]** table.
+
+    ![](assets/start-database-update.png)
+
+  >[!NOTE]
+  >
+  >Once update of the physical structure of the database is sucessfully completed, you need to disconnect and reconnect so that your modifications are taken into account.
+
+### Step 3: Validate the modification
+
+To confirm everything worked correctly, you need to update delivery logs screen.
+
+To do this, access the delivery logs and add the "IP identifier" column.
+
+![](assets/list-config.png)
+
+>[!NOTE]
+>
+>To learn how to configure lists in Campaign Classic interface, refer to [this page](../../platform/using/adobe-campaign-workspace.md).
+
+Below is what you should see in the **[!UICONTROL Delivery]** tab after modifications:
+
+![](assets/logs-with-ip.png)
