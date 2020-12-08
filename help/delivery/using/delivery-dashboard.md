@@ -101,6 +101,7 @@ The **[!UICONTROL Proofs]** sub-tab lets you view the list of proofs that have b
 
 You can modify the information displayed in this window (and that of the **[!UICONTROL Delivery]** and **[!UICONTROL Tracking]** tabs) by selecting the columns to be displayed. To do this, click the **[!UICONTROL Configure list]** icon located in the lower right-hand corner. For more on configuring list display, refer to [this section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
+<<<<<<< Updated upstream
 ## Use case: Adding senders' IPs to the delivery logs {#use-case}
 
 In this section, you will learn how add to the delivery logs information regarding the IP address that sent each email in a delivery.
@@ -187,3 +188,20 @@ To do this, access the delivery logs and add the "IP identifier" column.
 Below is what you should see in the **[!UICONTROL Delivery]** tab after modifications:
 
 ![](assets/logs-with-ip.png)
+=======
+## Delivery dashboard synchronization {#delivery-dashboard-synchronization}
+
+From your delivery dashboard, you want to check the processed messages and delivery logs to be sure that your delivery was successfully sent.
+
+Some indicators or status can be incorrect or not up-to-date, this may be resolved with the following solutions:
+
+* If your delivery status is incorrect, check that all necessary approvals have been done for this delivery or that the **[!UICONTROL operationMgt]** and **[!UICONTROL deliveryMgt]** workflows are running without errors. This can also be due to the delivery using an affinity not configured on the sending instance.
+
+* If your delivery indicators are still at zero and if you are on a mid-sourcing configuration, check the **[!UICONTROL Mid-sourcing (delivery counters)]** technical workflow. Start it if its status is not **[!UICONTROL Started]**. You can then try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**. For more information on tracking indicators, refer to this [section](../../reporting/using/delivery-reports.md#tracking-indicators).
+
+* If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** to resynchronize. For more information on tracking indicators, refer to this [section](../../reporting/using/delivery-reports.md#tracking-indicators).
+
+* If your delivery counter is not up-to-date for mid-sourcing deployments, check that the **[!UICONTROL Mid-Sourcing (Delivery counters)]** technical workflow is running. For more on this, refer to this [page](../../installation/using/mid-sourcing-deployment.md).
+
+You can also track your deliveries with different reports via the delivery dashboard. For more on this, refer to this [section](../../reporting/using/delivery-reports.md).
+>>>>>>> Stashed changes
