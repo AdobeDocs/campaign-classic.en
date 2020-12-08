@@ -10,13 +10,17 @@ topic-tags: monitoring-deliveries
 
 # Get started with delivery monitoring {#about-delivery-monitoring}
 
-Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. In this section, you will learn more about the information you can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
+Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers.
+
+In this section, you will learn more about the information you can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
 
 <img src="assets/do-not-localize/icon_monitor.svg" width="60px">
 
 **Monitor your deliveries**
 
-The list of deliveries allows you to see all created deliveries into one single location. For each delivery, a dedicated dashboard is also available, allowing you to monitor various types of information and eventual issues encountered during the sending of messages: delivery reports, mirror pages, exclusions, tracking logs, rendering, etc.
+The list of deliveries allows you to see all created deliveries into one single location.
+
+For each delivery, a dedicated dashboard is available. It allows you to monitor  eventual issues encountered during the sending as well as various types of information regarding the delivery: reports, mirror pages, exclusions, tracking logs, rendering, etc.
 
 * [Accessing the list of deliveries](../../delivery/using/list-of-deliveries.md)
 * [Delivery dashboard](../../delivery/using/delivery-dashboard.md)
@@ -42,4 +46,6 @@ When a message cannot be sent to a profile, the remote server automatically send
 
 **Understand quarantine management**
 
-Adobe Campaign manages a list of quarantined addresses. Recipients whose address is quarantined are excluded by default during delivery analysis, and will not be targeted. In [this section](../../delivery/using/understanding-quarantine-management.md), you will find information on how to identify and manage quarantined addresses, and learn more about the conditions for sending an address to quarantine.
+Adobe Campaign manages a list of quarantined addresses. Recipients whose address is quarantined are excluded by default during delivery analysis, and will not be targeted.
+
+In [this section](../../delivery/using/understanding-quarantine-management.md), you will find information on how to identify and manage quarantined addresses, and learn more about the conditions for sending an address to quarantine.
