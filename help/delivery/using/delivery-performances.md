@@ -1,24 +1,22 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Delivery performances
-description: Learn more about delivery performances and how to troubleshoot related issues.
+title: Delivery performances best practices
+description: Learn more about delivery performances and best practices.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 ---
 
-# Delivery performances recommendations {#delivery-performances}
+# Delivery performances best practices {#delivery-performances}
 
-## Performance issues checklist {#performance-issues}
+We recommend following the guidelines below to ensure you deliveries perform well, as well as the checks the perform if you encounter deliveries issues.
 
-If delivery performances are bad, you can check:
+**Related topics:**
 
-* **The size of the delivery**: Large deliveries can take longer to complete. MTA children are configured to handle a default batch size, which works for most instances, but need to be checked when deliveries are constantly slow.
-* **The target of the delivery**: Delivery performances ban be affected by soft bounce errors, which are handled according to the retry configuration. The greater the number of errors, the more retries needed. 
-* **The overall platform load**: When several large deliveries are being sent, the overall platform can be affected. You can also check IP reputation and deliverability issues. For more on this, refer to Adobe Campaign [Deliverability best practices guide](../../delivery/using/deliverability-key-points.md) and to [this page](../../delivery/using/about-deliverability.md).
-
-Platform and database maintenance can also affect delivery sending performances. For more on this, refer to [this page](../../production/using/database-performances.md).
+* [Delivery dashboard](../../delivery/using/delivery-dashboard.md)
+* [Delivery troubleshooting](../../delivery/using/delivery-troubleshooting.md)
+* [About deliverability](../../delivery/using/about-deliverability.md)
 
 ## Best practices for performance {#best-practices-performance}
 
@@ -41,3 +39,13 @@ Platform and database maintenance can also affect delivery sending performances.
 >[!NOTE]
 >
 >ISPs would deactivate addresses after a period of inactivity. Bounced messages are sent to senders to inform them about this new status.
+
+## Performance issues checklist {#performance-issues}
+
+If delivery performances are bad, you can check:
+
+* **The size of the delivery**: Large deliveries can take longer to complete. MTA children are configured to handle a default batch size, which works for most instances, but need to be checked when deliveries are constantly slow.
+* **The target of the delivery**: Delivery performances ban be affected by soft bounce errors, which are handled according to the retry configuration. The greater the number of errors, the more retries needed. 
+* **The overall platform load**: When several large deliveries are being sent, the overall platform can be affected. You can also check IP reputation and deliverability issues. For more on this, refer to Adobe Campaign [Deliverability best practices guide](../../delivery/using/deliverability-key-points.md) and to [this page](../../delivery/using/about-deliverability.md).
+
+Platform and database maintenance can also affect delivery sending performances. For more on this, refer to [this page](../../production/using/database-performances.md).
