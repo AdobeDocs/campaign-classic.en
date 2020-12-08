@@ -20,22 +20,6 @@ Additionally, make sure you follow the best practices and checklist detailed in 
 * [Delivery dashboard](../../delivery/using/delivery-dashboard.md)
 * [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 
-## Delivery dashboard synchronization {#delivery-dashboard-synchronization}
-
-From your delivery dashboard, you want to check the processed messages and delivery logs to be sure that your delivery was successfully sent.
-
-Some indicators or status can be incorrect or not up-to-date, this may be resolved with the following solutions:
-
-* If your delivery status is incorrect, check that all necessary approvals have been done for this delivery or that the **[!UICONTROL operationMgt]** and **[!UICONTROL deliveryMgt]** workflows are running without errors. This can also be due to the delivery using an affinity not configured on the sending instance.
-
-* If your delivery indicators are still at zero and if you are on a mid-sourcing configuration, check the **[!UICONTROL Mid-sourcing (delivery counters)]** technical workflow. Start it if its status is not **[!UICONTROL Started]**. You can then try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**. For more information on tracking indicators, refer to this [section](../../reporting/using/delivery-reports.md#tracking-indicators).
-
-* If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** to resynchronize. For more information on tracking indicators, refer to this [section](../../reporting/using/delivery-reports.md#tracking-indicators).
-
-* If your delivery counter is not up-to-date for mid-sourcing deployments, check that the **[!UICONTROL Mid-Sourcing (Delivery counters)]** technical workflow is running. For more on this, refer to this [page](../../installation/using/mid-sourcing-deployment.md).
-
-You can also track your deliveries with different reports via the delivery dashboard. For more on this, refer to this [section](../../reporting/using/delivery-reports.md).
-
 ## Slow deliveries {#slow-deliveries}
 
 After clicking the **[!UICONTROL Send]** button, your delivery seems to take longer than usual. This may be caused by different elements:
