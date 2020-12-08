@@ -27,7 +27,6 @@ For more details on the different delivery failures you can encounter, and how t
 * [About deliverability](../../delivery/using/about-deliverability.md)
 
 ## List of delivery statuses {#list-delivery-statuses}
-<!-- 10. Regrouper les statuts par ordre logique (mettre SMS providers ensemble, éviter de commencer par Not Applicable – même si c’est comme ça dans l’UI) -->
 
 <table> 
  <thead> 
