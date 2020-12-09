@@ -18,6 +18,26 @@ This page lists Gold Standard releases.
 
 For more information on Campaign Gold Standard program, refer [to this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
+## ![](assets/do-not-localize/limited_2.png) Gold Standard 11 release{#gs-11}
+
+_9 December 2020_
+
+The build 9032&#64;09e3573 includes the following improvements:
+
+* When integrating your mobile app with Campaign, you need to secure your communication with Apple Push Notification service (APNs). The certificate-based or token-based authentication modes are now available for iOS mobile apps in Campaign Classic. [Learn more](../../delivery/using/configuring-the-mobile-application.md)
+
+* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/configuring-adobe-io.md)
+
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) attacks when using the captcha feature. (NEO-27777)
+
+* Fixed an issue which prevented tracking from working when the signature feature was disabled. (NEO-26411)
+
+* Campaign client console has been updated to ensure support for the new IMS authentication mechanism.
+
+>[!CAUTION]
+>
+>Client console upgrade is mandatory. After March, 1st, 2020, you will not be able to connect via IMS with the previous version of the console  Refer to [this page](../../installation/using/installing-the-client-console.md)
+
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 10 release{#gs-10}
 
 _7 July 2020_
@@ -28,7 +48,7 @@ Fixed an issue which prevented tracking from working when the signature feature 
 
 >[!CAUTION]
 >
->We recommend that you upgrade the client console with the one available in this release. Refer [to this page](../../installation/using/installing-the-client-console.md)
+>We recommend that you upgrade the client console with the one available in this release. Refer to [this page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 9 release{#gs-9}
 
