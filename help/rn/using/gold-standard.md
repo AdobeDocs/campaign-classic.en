@@ -22,7 +22,7 @@ For more information on Campaign Gold Standard program, refer [to this article](
 
 _9 December 2020_
 
-The build 9032&#64;09e3573 includes the following improvements:
+The build 9032&#64;09e3573 includes the following improvements and fixes:
 
 * When integrating your mobile app with Campaign, you need to secure your communication with Apple Push Notification service (APNs). The certificate-based or token-based authentication modes are now available for iOS mobile apps in Campaign Classic. [Learn more](../../delivery/using/configuring-the-mobile-application.md)
 
@@ -30,13 +30,11 @@ The build 9032&#64;09e3573 includes the following improvements:
 
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) attacks when using the captcha feature. (NEO-27777)
 
-* Fixed an issue which prevented tracking from working when the signature feature was disabled. (NEO-26411)
-
 * Campaign client console has been updated to ensure support for the new IMS authentication mechanism.
 
 >[!CAUTION]
 >
->Client console upgrade is mandatory. After March, 1st, 2020, you will not be able to connect via IMS with the previous version of the console  Refer to [this page](../../installation/using/installing-the-client-console.md)
+>Client console upgrade is mandatory. After March, 1st, 2020, you will not be able to connect via IMS with the previous version of the console. Refer to [this page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 10 release{#gs-10}
 
