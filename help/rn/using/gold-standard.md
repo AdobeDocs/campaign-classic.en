@@ -34,7 +34,7 @@ The build 9032&#64;09e3573 includes the following improvements and fixes:
 
 >[!CAUTION]
 >
->Client console upgrade is mandatory. After March, 1st, 2020, you will not be able to connect via IMS with the previous version of the console. Refer to [this page](../../installation/using/installing-the-client-console.md)
+>Client console upgrade is mandatory. After March, 1st, 2020, you will not be able to connect via IMS with the previous version of the console. Refer to [this page](../../installation/using/installing-the-client-console.md).
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 10 release{#gs-10}
 
