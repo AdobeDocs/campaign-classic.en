@@ -52,7 +52,7 @@ Delivery logs are key to learn why a delivery failed. Here are possible errors t
 
   ```
   Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
-  ````
+  ```
 
   The cause of this issue is almost always a personalization within the HTML attempting to call upon a table or field that has not been defined or mapped in the upstream targeting or in the delivery's target mapping.
 
@@ -72,7 +72,7 @@ Delivery logs are key to learn why a delivery failed. Here are possible errors t
 
 * When a delivery fails, the following error can appear in the delivery logs:
 
-  ````
+  ```
   DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
   ```
 
