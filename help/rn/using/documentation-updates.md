@@ -14,6 +14,12 @@ This page lists all the new features and documentation updates per month and Cam
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
+## December 2020 {#dec-2020}
+
+The delivery monitoring section has been reorganized into thematic topics. [Read more](../../delivery/using/about-delivery-monitoring.md)
+
+A use case has been added on how to add senders' IP addresses to the delivery logs. [Read more](../../delivery/using/delivery-dashboard.md#use-case)
+
 ## November 2020 {#nov-2020}
 
 Campaign data model overview has been improved and reorganized. [Read more](../../configuration/using/about-data-model.md).

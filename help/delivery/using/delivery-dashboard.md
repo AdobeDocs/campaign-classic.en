@@ -116,7 +116,7 @@ Some indicators or status can be incorrect or not up-to-date, this may be resolv
 
 You can also track your deliveries with different reports via the delivery dashboard. For more on this, refer to this [section](../../reporting/using/delivery-reports.md).
 
-## Use case: Adding senders' IPs to the delivery logs {#use-case}
+## Use case: Adding senders' IP addresses to the logs {#use-case}
 
 In this section, you will learn how add to the delivery logs information regarding the IP address that sent each email in a delivery.
 
