@@ -40,7 +40,7 @@ The `<srcschema>` is the root element of a schema. It is the input point for the
 
 ## Use and context of use {#use-and-context-of-use-9}
 
-Schema presentation is available in [About schema reference](../../configuration/using/about-schema-reference.md) and [Schema structure](../../configuration/using/schema-structure.md).
+Schema presentation is available in [About schema reference](../../../configuration/using/about-schema-reference.md) and [Schema structure](../../../configuration/using/schema-structure.md).
 
 ## Attribute description {#attribute-description-14}
 
