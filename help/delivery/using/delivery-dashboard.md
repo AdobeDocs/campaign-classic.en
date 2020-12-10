@@ -20,8 +20,7 @@ Here are the information you can monitor using the several tabs that are availab
 * [Delivery reports](#delivery-reports)
 * [Delivery logs, mirror pages, exclusions](#delivery-logs-and-history)
 * [Delivery tracking logs and history](#tracking-logs)
-* [Delivery rendering](#deli
-very-rendering)
+* [Delivery rendering](#delivery-rendering)
 * [Delivery audit](#delivery-audit-)
 
 ![](assets/s_ncs_user_del_details.png)
