@@ -14,6 +14,12 @@ This page lists all the new features and documentation updates per month and Cam
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
+## December 2020 {#dec-2020}
+
+The delivery monitoring section has been reorganized into thematic topics. [Read more](../../delivery/using/about-delivery-monitoring.md)
+
+A use case has been added on how to add senders' IP addresses to the delivery logs. [Read more](../../delivery/using/delivery-dashboard.md#use-case)
+
 ## November 2020 {#nov-2020}
 
 Campaign data model overview has been improved and reorganized. [Read more](../../configuration/using/about-data-model.md).
@@ -371,7 +377,7 @@ Information related to workflows monitoring has been centralized into a new dedi
 
 A new page about general guidelines for tracking in Adobe Campaign Classic has been added. [Read more](https://helpx.adobe.com/campaign/kb/acc-tracking.html).
 
-The best practices for performance improvements of workflows and deliveries have been updated. [Read more on workflows](../../workflow/using/workflow-best-practices.md) and [more on deliveries](../../delivery/using/monitoring-a-delivery.md#best-practices-performance).
+The best practices for performance improvements of workflows and deliveries have been updated. [Read more on workflows](../../workflow/using/workflow-best-practices.md) and [more on deliveries](../../delivery/using/delivery-performances.md#best-practices-performance).
 
 ## May 2019 {#release-19-1}
 
