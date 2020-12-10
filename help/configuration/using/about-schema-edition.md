@@ -139,7 +139,7 @@ Example of defining a default value:
 
 ```
 <attribute name="transactionDate" label="Transaction Date" type="datetime" default="GetDate()"/>
-`
+```
 
 Example of using a common attribute as a template for a field also marked as mandatory:
 
