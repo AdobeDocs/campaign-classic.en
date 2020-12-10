@@ -10,7 +10,7 @@ topic-tags: monitoring-deliveries
 
 # Delivery performances best practices {#delivery-performances}
 
-We recommend following the guidelines below to ensure you deliveries perform well, as well as the checks the perform if you encounter deliveries issues.
+We recommend following the guidelines below to ensure your deliveries perform well, as well as the checks the perform if you encounter deliveries issues.
 
 **Related topics:**
 
