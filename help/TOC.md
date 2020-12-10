@@ -609,7 +609,7 @@ type: Documentation
        + [Creating and configuring the database](installation/using/creating-and-configuring-the-database.md)
        + [Campaign server configuration](installation/using/campaign-server-configuration.md)
        + [Deploying an instance](installation/using/deploying-an-instance.md)
-       + [Installing Campaign Classic standard packages](installation/using/installing-campaign-standard-packages.md)
+       + [Installing Campaign Classic built-in packages](installation/using/installing-campaign-standard-packages.md)
   + Additional configurations {#additional-configurations}
        + [Configuring Campaign server](installation/using/configuring-campaign-server.md)
        + [Connecting through LDAP](installation/using/connecting-through-ldap.md)
