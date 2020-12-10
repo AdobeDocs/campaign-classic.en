@@ -18,6 +18,8 @@ Before starting, you need to check Campaign [Compatibility matrix](https://helpx
 >
 >Campaign Client console and Campaign application server must run on the same product version. Adobe also recommends to use the same product build.
 
+![](assets/do-not-localize/how-to-video.png) Discover how to install and setup the Adobe Campaign Client in [video](#video)
+
 ## Download the console{#download-the-client-console}
 
 To download and in install the Adobe Campaign client console, follow the steps below:
@@ -86,4 +88,11 @@ To log on to an existing instance, follow the steps below:
 
 * [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
 * [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) 
-* [Install and setup the Adobe Campaign Client](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) (video)
+
+## Tutorial video
+
+This video shows how to install and setup the Adobe Campaign Client.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

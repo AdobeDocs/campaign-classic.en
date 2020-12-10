@@ -54,7 +54,7 @@ For instance, using the server information from the screenshot in the previous s
 
 Adobe will take a backup of your system prior to any changes. However, if there is critical customization work that is in your non-production system (development or staging servers), it is HIGHLY RECOMMENDED you export that work as a package prior to any upgrade.
 
-For more information, [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+![](assets/do-not-localize/how-to-video.png) For more information, [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
 
 ## When will the upgrades take place?
 

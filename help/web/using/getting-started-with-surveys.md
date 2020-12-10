@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Getting started with surveys
-description: Getting started with surveys
+title: Key steps to create a survey
+description: Create your first survey with Campaign
 audience: web
 content-type: reference
 topic-tags: online-surveys
 ---
 
-# Getting started with surveys{#getting-started-with-surveys}
+# Key steps to create a survey{#getting-started-with-surveys}
 
 Here is a quick overview of the main steps to create a simple survey, using the following template:
 

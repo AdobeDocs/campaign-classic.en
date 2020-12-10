@@ -32,9 +32,9 @@ In the above example, the rendering will be as follows:
 
 ## Positioning the fields on the page {#positioning-the-fields-on-the-page}
 
-The layout of the Web form is defined page by page in each container and can be overloaded for each check.
+The layout of the Web form is defined page by page in each container and can be overloaded if needed.
 
-Pages are broken down into columns: each page contains a certain number of columns. Each field of the page occupies **n** cells. Containers also occupy a certain number of columns and the fields they contain occupy a certain number of cells
+Pages are broken down into columns: each page contains a certain number of columns. Each field of the page occupies **n** cells. Containers also occupy a certain number of columns and the fields they contain occupy a certain number of cells.
 
 By default, pages are built on a single column and each element occupies one cell. This means that fields are displayed one under another, each one occupying a whole line, as shown below:
 

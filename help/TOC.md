@@ -148,7 +148,12 @@ type: Documentation
        + [Managing subscriptions](delivery/using/managing-subscriptions.md)
        + [Viral and social marketing](delivery/using/viral-and-social-marketing.md)
   + Monitoring deliveries {#monitoring-deliveries}
-       + [Monitoring a delivery](delivery/using/monitoring-a-delivery.md)
+       + [Get started with delivery monitoring](delivery/using/about-delivery-monitoring.md)     
+       + [Accessing the list of deliveries](delivery/using/list-of-deliveries.md)     
+       + [Delivery dashboard](delivery/using/delivery-dashboard.md)
+       + [Delivery performances best practices](delivery/using/delivery-performances.md)
+       + [Delivery troubleshooting](delivery/using/delivery-troubleshooting.md)
+       + [Delivery statuses](delivery/using/delivery-statuses.md)
        + [Understanding delivery failures](delivery/using/understanding-delivery-failures.md)
        + [Understanding quarantine management](delivery/using/understanding-quarantine-management.md)
   + Tracking messages {#tracking-messages}
@@ -268,7 +273,7 @@ type: Documentation
        + [Tracking a web application](web/using/tracking-a-web-application.md)
        + [Web application tracking opt-out](web/using/web-application-tracking-opt-out.md)
   + Editing HTML content {#editing-html-content}
-       + [About Campaign HTML editor](web/using/about-campaign-html-editor.md)
+       + [Get started with the HTML editor](web/using/about-campaign-html-editor.md)
        + [Template management](web/using/template-management.md)
        + [Content editor interface](web/using/content-editor-interface.md)
        + [Editing content](web/using/editing-content.md)
@@ -276,7 +281,7 @@ type: Documentation
        + [Creating a landing page](web/using/creating-a-landing-page.md)
        + [Use case: creating an email delivery](web/using/use-case--creating-an-email-delivery.md)
   + Web forms {#web-forms}
-       + [About web forms](web/using/about-web-forms.md)
+       + [Get started with web forms](web/using/about-web-forms.md)
        + [Using a web form template](web/using/using-a-web-form-template.md)
        + [Adding fields to a web form](web/using/adding-fields-to-a-web-form.md)
        + [Static elements in a web form](web/using/static-elements-in-a-web-form.md)
@@ -289,9 +294,9 @@ type: Documentation
        + [Translating a web form](web/using/translating-a-web-form.md)
        + [Use cases: web forms](web/using/use-cases--web-forms.md)
   + Online surveys {#online-surveys}
-       + [About surveys](web/using/about-surveys.md)
-       + [Getting started with surveys](web/using/getting-started-with-surveys.md)
-       + [Building a survey](web/using/building-a-survey.md)
+       + [Get started with surveys](web/using/about-surveys.md)
+       + [Key steps to create a survey](web/using/getting-started-with-surveys.md)
+       + [Designing a survey](web/using/building-a-survey.md)
        + [Managing answers](web/using/managing-answers.md)
        + [Publish, track and use collected data](web/using/publish--track-and-use-collected-data.md)
        + [Configuring surveys](web/using/configuring-surveys.md)

@@ -93,7 +93,7 @@ If you have to write a JSSP, Server-Side APIs are available:
 
 * **NL.ServerWebTracking._displayOptOutBanner()**
 
-  Returns true if the opt-out banner should be displayed after an opt-out banner was selected by the administrator
+  Returns "true" if the opt-out banner should be displayed after an opt-out banner was selected by the administrator
 
   This code is called when the administrator has already chosen to use the Web tracking opt-out banner.
 

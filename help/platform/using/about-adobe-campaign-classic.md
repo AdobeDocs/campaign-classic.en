@@ -18,6 +18,8 @@ Adobe Campaign lets you coordinate the creation of conversational marketing camp
 >
 >Adobe Campaign Classic is available in v6.11 and v7. Except when mentioned, help materials apply to both versions, in the [latest build](../../rn/using/latest-release.md). Screenshots reflect Campaign Classic v7 user interface.
 
+![](assets/do-not-localize/how-to-video.png) [Discover primary features and capabilities in video](#video)
+
 ## Key capabilities {#key-capabilities}
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and provides an environment for visual campaign orchestration, real time interaction management and cross channel execution.
@@ -25,8 +27,6 @@ Adobe Campaign provides a platform for designing cross-channel customer experien
 The marketing campaign cycle in Adobe Campaign illustrates the main areas of functionality of the product:
 
 ![](assets/d_ncs_user_emarketing.png)
-
-![](assets/do-not-localize/how-to-video.png) [Discover primary features and capabilities in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html)
 
 ### Integrated customer profile {#integrated-customer-profile}
 
@@ -80,3 +80,10 @@ The following capabilities are available. Depending on your license agreement, s
 * [Web Services](../../configuration/using/about-web-services.md) - use Campaign through APIs/Web Services,
 * [Reporting](../../reporting/using/about-adobe-campaign-reporting-tools.md) - access built-in reports, analyze data and design your own reports.
 
+## Tutorial video {#video}
+
+This video presents Campaign Classic main features and capabilities.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

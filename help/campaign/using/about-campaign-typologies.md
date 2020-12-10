@@ -56,18 +56,22 @@ Steps to create and apply a typology to your deliveries are listed below:
 
 During delivery preparation, recipients are excluded when criterion is met. You can check logs to monitor exclusions. Sample use cases on pressure typology rules are available in [this page](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules).
 
-## How to set up fatigue management using typology rules {#typologies-video}
+## Tutorial videos {#typologies-video}
+
+### How to set up fatigue management using typology rules
 
 This video explains how to implement fatigue management in Adobe Campaign Classic by leveraging typology rules.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
 
-## How to set up fatigue management using predefined filters
+### How to set up fatigue management using predefined filters
 
 Fatigue management controls frequency and quantity of messaging to avoid over-solicitation of recipients. If you do not have the campaign optimization module in your campaign instance, you may configure a predefined filter that will filter the target population by the number of messages received
 This video explains how to implement fatigue management in Adobe Campaign Classic by using filters.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 **Related topic**
 

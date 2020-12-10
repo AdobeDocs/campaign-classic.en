@@ -119,7 +119,9 @@ You can delete one or more lists from the group list in the Adobe Campaign tree.
 >
 >When you delete a list, the profiles on the list are not affected but the data in their profile is updated.
 
-## How to create a list of recipients {#create-list-video}
+## Tutorial video {#create-list-video}
+
+### How to create a list of recipients
 
 A list is a static set of recipients that can be targeted in delivery actions or updated during import operations or during workflow execution. A list of recipients is also referred to as audience.
 
@@ -127,8 +129,10 @@ Learn how to create an audience by configuring a list of recipients from the Exp
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-## How to create a list of recipients with a workflow {#create-list-in-a-wf-video}
+### How to create a list of recipients with a workflow {#create-list-in-a-wf-video}
 
 Learn how create a workflow in order to target recipients and how to make it recurring before using the list in an email target.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
