@@ -85,7 +85,7 @@ Delivery logs are key to learn why a delivery failed. Here are possible errors t
   ```
   Inbound email bounce (rule 'Auto_replies' has matched this bounce).
   ```
-  
+
   This means that the delivery succeeded but Adobe Campaign received an auto-reply from the recipient (e.g. an "Out of office" reply) that matched the 'Auto_replies' inbound email rules.
   
   The auto-reply email is ignored by Adobe Campaign, and the recipient's address will not be sent to quarantines.
