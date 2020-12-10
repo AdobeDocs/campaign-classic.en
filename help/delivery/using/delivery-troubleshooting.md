@@ -12,7 +12,7 @@ topic-tags: monitoring-deliveries
 
 This section lists common issues you may encounter when sending deliveries, and how to troubleshoot them.
 
-Additionally, make sure you follow the best practices and checklist detailed in [this page]((../../delivery/using/delivery-performances.md)) to ensure your deliveries perform well.
+Additionally, make sure you follow the best practices and checklist detailed in [this page](../../delivery/using/delivery-performances.md) to ensure your deliveries perform well.
 
 **Related topics:**
 
