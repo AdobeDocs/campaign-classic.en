@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: schema-reference
 ---
 
-# `<parameters>` element {#parameters--element}
+# parameters element {#parameters--element}
 
 ## Content model {#content-model-13}
 

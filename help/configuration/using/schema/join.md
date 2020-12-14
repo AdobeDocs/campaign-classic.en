@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: schema-reference
 ---
 
-# `<join>` element {#join--element}
+# join element {#join--element}
 
 ## Content model {#content-model-7}
 

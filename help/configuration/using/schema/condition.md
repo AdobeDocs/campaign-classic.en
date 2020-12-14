@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: schema-reference
 ---
 
-# `<condition>` element {#condition--element}
+# condition element {#condition--element}
 
 ## Content model {#content-model-2}
 

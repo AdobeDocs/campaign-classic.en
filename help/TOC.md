@@ -705,7 +705,7 @@ type: Documentation
        + [About schema reference](configuration/using/about-schema-reference.md)
        + [Schema structure](configuration/using/schema-structure.md)
        + [Database mapping](configuration/using/database-mapping.md)
-       + [Elements and attributes] {#elements-attributes}
+       + Elements and attributes {#elements-attributes}
            + [Introduction](configuration/using/schema-introduction.md)
            + [Attribute](configuration/using/schema/attribute.md)
            + [Compute string](configuration/using/schema/compute-string.md)

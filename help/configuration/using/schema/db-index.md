@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: schema-reference
 ---
 
-# `<dbindex>` element {#dbindex--element}
+# dbindex element {#dbindex--element}
 
 ## Content model {#content-model-3}
 

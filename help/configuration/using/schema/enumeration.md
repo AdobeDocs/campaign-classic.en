@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: schema-reference
 ---
 
-# `<enumeration>` element {#enumeration--element}
+# enumeration element {#enumeration--element}
 
 ## Content model {#content-model-5}
 

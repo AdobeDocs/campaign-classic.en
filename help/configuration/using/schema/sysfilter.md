@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: schema-reference
 ---
 
-# `<sysfilter>` element {#sysfilter--element}
+# sysfilter element {#sysfilter--element}
 
 ## Content model {#content-model-15}
 

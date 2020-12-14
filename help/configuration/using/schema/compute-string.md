@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: schema-reference
 ---
 
-# `<compute-string>` element {#compute-string--element}
+# compute-string element {#compute-string--element}
 
 ## Content model {#content-model-1}
 

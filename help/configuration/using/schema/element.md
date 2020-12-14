@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: schema-reference
 ---
 
-# `<element>` element {#element--element}
+# element element {#element--element}
 
 ## Content model {#content-model-4}
 

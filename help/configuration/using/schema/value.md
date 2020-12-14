@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: schema-reference
 ---
 
-# `<value>` element {#value--element}
+# value element {#value--element}
 
 ## Content model {#content-model-16}
 
