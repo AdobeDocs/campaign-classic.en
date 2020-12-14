@@ -34,7 +34,7 @@ The build 9032&#64;09e3573 includes the following improvements and fixes:
 
 >[!CAUTION]
 >
->Upgrade is mandatory (server and console) to be able to connect from March 21st, 2020.
+>Following the connection protocol update, upgrade is mandatory (server and console) to be able to connect from March 21st, 2020.
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 10 release{#gs-10}
 
