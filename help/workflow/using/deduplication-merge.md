@@ -20,13 +20,17 @@ snippet: y
 
 This use case describes how to use of the **[!UICONTROL Merge]** functionality in the **[!UICONTROL Deduplication]** activity.
 
-The data shown below is duplicated based on the **[!UICONTROL Email]** field.
+For more information on this fonctionality, refer to [this section](../../workflow/using/deduplication.md#merging-fields-into-single-record).
 
-Date | First Name | Last Name | Email | Mobile Phone | Phone
------|------------|-----------|-------|--------------|------
-2/3/2013 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888
-5/19/2013 | Robert | Tisner | bob@mycompany.com |   | 777-777-7777
-7/22/2013 | Bobby |   | bob@mycompany.com |   | 777-777-7777
+The **[!UICONTROL Deduplication]** activity is used for removing duplicate rows from a data set. In this use case, the data shown below is duplicated based on the Email field. 
+
+|Date | First Name | Last Name | Email | Mobile Phone | Phone|
+|-----|------------|-----------|-------|--------------|------|
+|5/19/2013 | Robert | Tisner | bob@mycompany.com | | 777-777-7777|
+|7/22/2013 | Bobby | | bob@mycompany.com | | 777-777-7777|
+|2/3/2013 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888|
+
+With the Deduplication activity's **[!UICONTROL Merge]** fonctionality, you can configure a set of rules for the deduplication to define a group of fields to merge into a single resulting data record. For example, with a set of duplicate records, you can choose to keep the oldest phone number or most recent name.
 
 Here are the rules we want to use to merge the data into a single record:
 
@@ -34,9 +38,8 @@ Here are the rules we want to use to merge the data into a single record:
 * Keep the most recent name (first name and last name fields),
 * Keep the most recent mobile phone,
 * Keep the oldest phone number,
-* All fields in a group must be non-null to be eligible for the final record.
 
-## Configuring the rules {#configuring-rules}
+## Activing the Merge functionality {#activating-merge}
 
 1. Open the **[!UICONTROL Deduplication]** activity, then click the **[Edit configuration]** link.
 
@@ -54,6 +57,8 @@ Here are the rules we want to use to merge the data into a single record:
 
     ![](assets/uc_merge_add.png)
 
+## Configuring the rules {#configuring-rules}
+
 1. Specify the identifier of the group of fields to be merged.
 
     ![](assets/uc_merge_identifier.png)
@@ -66,7 +71,7 @@ Here are the rules we want to use to merge the data into a single record:
 
     ![](assets/uc_merge_sort.png)
 
-1. Select the fields to keep and merge. In our case, we want to keep the first name, last name, and date.
+1. Select the fields to merge. In our case, we want to keep the first name, last name, and date.
 
     ![](assets/uc_merge_keep.png)
 
@@ -91,10 +96,3 @@ The result is merged from the three records according to the rules configured ea
 Date | First Name | Last Name | Email | Mobile Phone | Phone
 -----|------------|-----------|-------|--------------|------
 2/3/2013 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888
-
-**Related topics:**
-
-* Deduplication activity in Campaign Classic
-* Targetting data
-* Workflow best practices
-* Importing profiles

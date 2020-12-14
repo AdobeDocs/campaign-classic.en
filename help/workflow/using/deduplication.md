@@ -135,6 +135,8 @@ The **[!UICONTROL Merge]** functionality allows you to configure a set of rules 
 
 For example, with a set of duplicate records, you can choose to keep the oldest phone number or most recent name.
 
+A use case leveraging this feature is available in [this section](../../workflow/using/deduplication-merge.md).
+
 To do this, follow these steps:
 
 1. In the **[!UICONTROL Deduplication method]** selection step, click the **[!UICONTROL Advanced Parameters]** link.
