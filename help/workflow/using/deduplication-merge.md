@@ -26,9 +26,9 @@ The **[!UICONTROL Deduplication]** activity is used for removing duplicate rows 
 
 |Date | First Name | Last Name | Email | Mobile Phone | Phone|
 |-----|------------|-----------|-------|--------------|------|
-|5/19/2013 | Robert | Tisner | bob@mycompany.com | | 777-777-7777|
-|7/22/2013 | Bobby | | bob@mycompany.com | | 777-777-7777|
-|2/3/2013 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888|
+|5/19/2013 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777|
+|7/22/2013 | Bobby | Tisner | bob@mycompany.com | | 777-777-7777|
+|2/3/2013 | Bob |  | bob@mycompany.com | | 888-888-8888|
 
 With the Deduplication activity's **[!UICONTROL Merge]** fonctionality, you can configure a set of rules for the deduplication to define a group of fields to merge into a single resulting data record. For example, with a set of duplicate records, you can choose to keep the oldest phone number or most recent name.
 
@@ -39,7 +39,7 @@ Here are the rules we want to use to merge the data into a single record:
 * Keep the most recent mobile phone,
 * Keep the oldest phone number,
 
-## Activing the Merge functionality {#activating-merge}
+## Activating the Merge functionality {#activating-merge}
 
 1. Open the **[!UICONTROL Deduplication]** activity, then click the **[Edit configuration]** link.
 
