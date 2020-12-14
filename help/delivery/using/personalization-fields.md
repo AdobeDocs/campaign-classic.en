@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Personalization fields
-seo-title: Personalization fields
 description: Personalization fields
-seo-description: 
-page-status-flag: never-activated
-uuid: 3a94a50e-259e-40c3-ae67-8a2c42e9fad7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
-index: y
-internal: n
-snippet: y
 ---
 
 # Personalization fields{#personalization-fields}
@@ -22,7 +14,9 @@ Personalization fields are used for first-level personalization of the content o
 
 For example, the personalization field with the **<%= recipient.LastName %>** syntax tells Adobe Campaign to insert the name of the recipient into the database (recipient table).
 
->[!NOTE]
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#personalization-fields-video)
+
+>[!CAUTION]
 >
 >Personalization fields content cannot exceed 1024 characters.
 
@@ -72,15 +66,15 @@ We create an email in which we will first insert the name of the recipient and t
 
    >[!NOTE]
    >
-   >When a delivery is part of a workflow, you can use the data from the temporary workflow table. This data is grouped in the **[!UICONTROL Target extension]** menu. For more on this, refer to [this section](../../workflow/using/executing-a-workflow.md#target-data).
+   >When a delivery is part of a workflow, you can use the data from the temporary workflow table. This data is grouped in the **[!UICONTROL Target extension]** menu. For more on this, refer to [this section](../../workflow/using/data-life-cycle.md#target-data).
 
 ## Optimizing personalization {#optimizing-personalization}
 
-You can optimize personalization using a dedicated option: **[!UICONTROL Prepare the personalization data with a workflow]**, available in the **[!UICONTROL Analysis]** tab of the delivery properties.
+You can optimize personalization using a dedicated option: **[!UICONTROL Prepare the personalization data with a workflow]**, available in the **[!UICONTROL Analysis]** tab of the delivery properties. For more on analyzing the delivery, see [this section](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 During the delivery analysis, this option automatically creates and executes a workflow that stores all of the data linked to the target in a temporary table, including data from tables linked in FDA.
 
-By checking this option, you can achieve a significant increase in performance for executing personalization.
+Checking this option can highly improve the delivery analysis performance when a lot of data are being processed, especially if the personalization data come from an external table through FDA. For more on this, see [Accessing an external database (FDA)](../../installation/using/about-fda.md).
 
 For example, if you are experiencing performance issues when delivering to a high number of recipients while using a lot of personalization fields and/or personalization blocks in the content of your messages, this option can accelerate the handling of personalization and therefore the delivering of your messages.
 
@@ -116,3 +110,11 @@ During preview or sending, if the personalization phase exceeds the maximum time
 The default value is 5 seconds.
 
 If you set this option to 0, there will be no time limit for the personalization phase.
+
+## Tutorial video {#personalization-fields-video}
+
+Learn how to add a personalization field to the subject line and the content of an email delivery.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

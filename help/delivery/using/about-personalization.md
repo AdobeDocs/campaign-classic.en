@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About personalization
-seo-title: About personalization
 description: About personalization
-seo-description: 
-page-status-flag: never-activated
-uuid: 45184611-ed9b-4a34-9c85-52f51de4ecab
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: 43afd347-6600-409a-8f67-a4f3e9776d51
-index: y
-internal: n
-snippet: y
 ---
 
 # About personalization{#about-personalization}

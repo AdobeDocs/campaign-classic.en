@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Images missing
-seo-title: Images missing
 description: Images missing
-seo-description: 
-page-status-flag: never-activated
-uuid: 0dc73ea0-70bc-476d-bdff-2e62d6929f21
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: e001db7a-7c53-477e-a534-ce4d83d68559
-index: y
-internal: n
-snippet: y
 ---
 
 # Images missing{#images-missing}
@@ -30,6 +22,6 @@ There is no impact for Apache users if they use the provided **apache_neolane.co
 
 For IIS users (on Windows), several icons will appear missing in the console after the build update. Additional IIS update steps are required:
 
-1. After the build update, double-click on **iis_neolane_setup.vbs** located in the Campaign installation directory. The default path is C:\Program Files (x86)\Adobe\Adobe Campaign v7\tomcat-7\conf
+1. After the build update, double-click on **iis_neolane_setup.vbs** located in the Campaign installation directory. The default path is C:\Program Files (x86)\Adobe\Adobe Campaign v7\conf
 1. Restart the IIS site that has been updated by the previous step.
 

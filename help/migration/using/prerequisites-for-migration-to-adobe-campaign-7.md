@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Prerequisites for migration to Adobe Campaign 7
-seo-title: Prerequisites for migration to Adobe Campaign 7
 description: Prerequisites for migration to Adobe Campaign 7
-seo-description: 
-page-status-flag: never-activated
-uuid: 9f4e4cdf-5338-4597-9d9d-5a3bd13033c7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
-discoiquuid: a3bbd8cc-97c6-4b08-adbf-76ab77b97262
-index: y
-internal: n
-snippet: y
 ---
 
 # Prerequisites for migration to Adobe Campaign 7{#prerequisites-for-migration-to-adobe-campaign}

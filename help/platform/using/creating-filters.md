@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating filters
-seo-title: Creating filters
 description: Creating filters
-seo-description: 
-page-status-flag: never-activated
-uuid: 9fa4a80d-8f03-4f24-92a1-44f6ae2a2337
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: 066e730b-2527-4257-b11f-2e73f746a8a5
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating filters{#creating-filters}
@@ -272,8 +264,8 @@ The predefined filters are:
    <td> Selects recipients who have clicked in a delivery at least X times in the last Y months.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted email address<br /> </td> 
-   <td> Selects recipients whose email address is blacklisted.<br /> </td> 
+ <td> Denylisted email address<br /> </td> 
+    <td> Selects recipients whose email address is on the denylist.<br/> </td>
   </tr> 
   <tr> 
    <td> Quarantined email address<br /> </td> 

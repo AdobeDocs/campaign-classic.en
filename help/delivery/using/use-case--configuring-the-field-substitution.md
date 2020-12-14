@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: "Use case: configuring the field substitution"
-seo-title: "Use case: configuring the field substitution"
 description: "Use case: configuring the field substitution"
-seo-description: 
-page-status-flag: never-activated
-uuid: 7f083dc6-e6d7-4eea-ac66-87674716515c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-discoiquuid: a104fcab-75e6-4d73-bc3d-88570de6df7f
-index: y
-internal: n
-snippet: y
 ---
 
 # Use case: configuring the field substitution{#use-case-configuring-the-field-substitution}

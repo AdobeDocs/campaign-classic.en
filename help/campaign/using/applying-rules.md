@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Applying rules
-seo-title: Applying rules
 description: Applying rules
-seo-description: 
-page-status-flag: never-activated
-uuid: 4472fc0d-d717-4603-8472-bdaf2835a02a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
-index: y
-internal: n
-snippet: y
 ---
 
 # Applying rules{#applying-rules}
@@ -80,7 +72,7 @@ In standard operation mode, the rules are applied in the following sequence:
 1. Control rules, if they are applied at the start of targeting.
 1. Filtering rules:
 
-    * Native application rules for address qualification: defined address / non-verified address / blacklisted address / quarantined address / address quality.
+    * Native application rules for address qualification: defined address / non-verified address / address on the denylist / quarantined address / address quality.
     * Filtering rules defined by the user.
     * Deduplication rule on the address or the identifier (applied if necessary).
 

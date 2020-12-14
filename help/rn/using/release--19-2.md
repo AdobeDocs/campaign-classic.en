@@ -1,43 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Release 19.2
-seo-title: Release 19.2
 description: Release 19.2
-seo-description: 
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
 ---
 
 # Release 19.2{#release-19-2}
-
-[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--19-1.md) &#124; [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>General Availability</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>Release Candidate</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>No longer available</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>Deprecated</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Latest stable build available. Build validated in production.<br>&nbsp;</td>
-   <td>Build validated by Adobe. Waiting for production proofing.<br>&nbsp;</td>
-   <td>Newer build available with bug fixes. Update is required.<br>&nbsp;</td>
-   <td>Contains known regressions. Update is mandatory.<br>&nbsp;</td>
-  </tr> 
- </tbody> 
-</table>
-
-The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/do-not-localize/orange_2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
 
@@ -96,7 +67,7 @@ _December 02, 2019_
   <tr> 
 <td> <p>Adobe Campaign enables you to try out the new interactive <a href="https://amp.dev/about/email/">AMP for Email</a> format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.</p>
    <p>This capability is released as a public beta.</p>
-   <p>For more information, refer to the <a href="../../delivery/using/defining-interactive-content.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
+   <p>For more information, refer to the <a href="../../delivery/using/defining-interactive-content.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -124,7 +95,7 @@ _December 02, 2019_
 
 * Memory consumption optimization for Push Notifications.
 * For performance and storage optimization, the handling of the **logins.log** file has been enhanced. The file is now split into multiple files, one each day with a maximum of 365 files retained. [Read more](../../production/using/log-files.md)
-* Microsoft Dynamics CRM external account can now be configured using password credentials (password + username) or certificate (private key). [Read more](../../platform/using/external-accounts.md#microsoft-dynamics-crm-external-account)
+* Microsoft Dynamics CRM external account can now be configured using password credentials (password + username) or certificate (private key). [Read more](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
 * Some enhancements have been added to the Hadoop FDA connector to improve reliability
 * A specific guardrail has been added to check disk space before allowing to upload public resources on the server.
 * New [Campaign Options](../../installation/using/configuring-campaign-options.md) have been added:
@@ -152,7 +123,7 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 
 **Patches**
 
-* Fixed console crash that could occur when adding an empty linked table in the **Data Loading (RDBMS)** workflow activity. (NEO-12213)
+* Fixed a crash issue when the **Add linked table** field was empty in the **Data Loading (RDBMS)** workflow activity. (NEO-12213)
 * Fixed an issue which could lead to certain messages not being processed by the Mid-Sourcing server. (NEO-12395)
 * Fixed an issue in the database cleanup workflow when using the query banding option with Teradata. (NEO-12399)
 * Fixed an issue affecting delivery analysis with typology rule including ne.jp domain. (NEO-12609)
@@ -166,7 +137,7 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 * Fixed an issue in workflows when using the **File transfer** activity to download files using the **Delete the source files after transfer** option, with name containing a space character. (NEO-13411)
 * Fixed an issue with Tomcat cache cleanup which could lead to memory issues. (NEO-13456)
 * Fixed an issue when installing the **Control of offer engine with execution instance** built-in package on an existing control instance running in Microsoft SQL 2017. (NEO-13539)
-* Fixed console crash that could occur when unchecking tracked URLs in an email, from the **Text content** tab. (NEO-13545)
+* Fixed a console crash issue that could occur when unchecking tracked URLs in an email, from the **Text content** tab due to a non-initialized variable. (NEO-13545)
 * Fixed an encoding issue on Chinese sender name. (NEO-13837)
 * Fixed an error which could raise when displaying survey response data from the Explorer. (NEO-14590)
 * Fixed an issue which could lead to discrepancy between the delivery log classification and the quarantine table. (NEO-16547)
@@ -180,4 +151,6 @@ The build 1.0.26 of the iOS SDK is now available. In this new build, we’ve add
 * Fixed a timeout issue when importing data from an external SFTP. (NEO-19723)
 * Fixed an issue when accessing to Predictive models. (NEO-19713)
 * Fixed an issue affecting random sampling in **Split** workflow activity with Hadoop FDA database. (NEO-16636)
+* Fixed a regression on Oracle causing some functions to be considered as invalid after postupgrade. (NEO-12759)
+
 

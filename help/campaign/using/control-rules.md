@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Control rules
-seo-title: Control rules
 description: Control rules
-seo-description: 
-page-status-flag: never-activated
-uuid: a83e56d0-573a-4592-b2b1-0d3b3e52b03f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-discoiquuid: be037a80-3f94-465c-ba7d-ae7d50f70e36
-index: y
-internal: n
-snippet: y
 ---
 
 # Control rules{#control-rules}

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publishing on Twitter
-seo-title: Publishing on Twitter
 description: Publishing on Twitter
-seo-description: 
-page-status-flag: never-activated
-uuid: 405bce50-a63c-4bd3-8f03-c71809bb1cfd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-discoiquuid: 2dc278ce-477c-493d-8abb-8bbdf2e988a5
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing on Twitter{#publishing-on-twitter}
@@ -90,7 +82,7 @@ The **[!UICONTROL Preview]** tab lets you view a rendering of the tweet.
 
 Tracking can be viewed in the delivery reports and in the **[!UICONTROL Edit > Tracking]** tab of the delivery and the service.
 
-Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](../../delivery/using/monitoring-a-delivery.md).
+Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](../../delivery/using/about-delivery-monitoring.md).
 
 >[!NOTE]
 >

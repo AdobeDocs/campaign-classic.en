@@ -1,26 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Performance and throughput issues
-seo-title: Performance and throughput issues
 description: Performance and throughput issues
-seo-description: 
-page-status-flag: never-activated
-uuid: 28c35453-9a15-44a3-9961-f4c604c209c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: ec66e3e3-b09a-44a4-914d-e3b38c7643f8
-index: y
-internal: n
-snippet: y
 ---
 
 # Performance and throughput issues{#performance-and-throughput-issues}
 
 >[!NOTE]
 >
->First of all, you should check that you have the latest build installed. This ensures that you have the latest features and bug fixes. Refer to the [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) for more information on the content of each release.
+>First of all, you should check that you have the latest build installed. This ensures that you have the latest features and bug fixes. Refer to the [Release Notes](../../rn/using/latest-release.md) for more information on the content of each release.
 
 ## Hardware and infrastructure {#hardware-and-infrastructure}
 
@@ -62,11 +54,11 @@ Here are is a list of best practices and articles related to deliverability:
 * IP reputation: if the IP reputation is not good enough, there will be an impact on performance. The **Deliverability Monitoring** module offers various tools to track the deliverability performance of your platform. Refer to this [page](../../delivery/using/monitoring-deliverability.md). 
 * IP warm-up: the IP warm-up is performed by the deliverability team. This involves gradually increasing the number of emails through new IPs over a period of a few weeks.
 * IP affinity setup: an incorrect IP affinity setup can stop the emails altogether (incorrect operator/affinity name in configuration) or reduce the throughput (small number of IPs in the affinity). Refer to this [page](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
-* Email size: email size plays an important role in throughput. The recommended maximum email size is 60 KB. Refer to this [page](https://helpx.adobe.com/legal/product-descriptions/campaign.html). In the [Delivery throughput](../../reporting/using/delivery-reports.md#delivery-throughput) report, check the number of bytes transferred by hour. 
+* Email size: email size plays an important role in throughput. The recommended maximum email size is 60 KB. Refer to this [page](https://helpx.adobe.com/legal/product-descriptions/campaign.html). In the [Delivery throughput](../../reporting/using/global-reports.md#delivery-throughput) report, check the number of bytes transferred by hour. 
 * Large number of invalid recipients: when there is a large number of invalid recipients, it can impact throughput. The MTA keeps retrying sending emails to invalid recipients. Please make sure your database is well maintained.
 * Amount of personalization: if a delivery stays in "Personalization in progress", check the JavaScript used in personalization blocks.
 
 >[!NOTE]
 >
->Don't forget to consult the [Deliverability getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) guide.
+>See also [Deliverability key points](../../delivery/using/deliverability-key-points.md) section.
 

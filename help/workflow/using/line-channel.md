@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: LINE Channel
-seo-title: LINE Channel
 description: LINE Channel
-seo-description: 
-page-status-flag: never-activated
-uuid: 0b0e34b2-7ee9-456a-9ed9-7ede889584b6
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: 367314a2-eb6d-4710-8a47-5a51049ad924
-index: y
-internal: n
-snippet: y
 ---
 
 # LINE Channel{#line-channel}

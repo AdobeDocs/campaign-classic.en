@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining web forms layout
-seo-title: Defining web forms layout
 description: Defining web forms layout
-seo-description: 
-page-status-flag: never-activated
-uuid: ae8659d0-3608-44dd-93ec-33c418a66ad0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: 67d1d39b-3a5f-4ed6-8fcf-570891043b10
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining web forms layout{#defining-web-forms-layout}
@@ -40,9 +32,9 @@ In the above example, the rendering will be as follows:
 
 ## Positioning the fields on the page {#positioning-the-fields-on-the-page}
 
-The layout of the Web form is defined page by page in each container and can be overloaded for each check.
+The layout of the Web form is defined page by page in each container and can be overloaded if needed.
 
-Pages are broken down into columns: each page contains a certain number of columns. Each field of the page occupies **n** cells. Containers also occupy a certain number of columns and the fields they contain occupy a certain number of cells
+Pages are broken down into columns: each page contains a certain number of columns. Each field of the page occupies **n** cells. Containers also occupy a certain number of columns and the fields they contain occupy a certain number of cells.
 
 By default, pages are built on a single column and each element occupies one cell. This means that fields are displayed one under another, each one occupying a whole line, as shown below:
 

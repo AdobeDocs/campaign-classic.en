@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Approval
-seo-title: Approval
 description: Approval
-seo-description: 
-page-status-flag: never-activated
-uuid: 49285790-5aa7-4e15-a657-42e4f78be518
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: a0090c78-5873-446d-8d5f-b0f94ff5d373
-index: y
-internal: n
-snippet: y
 ---
 
 # Approval{#approval}
@@ -66,7 +58,7 @@ Click the **[!UICONTROL Advanced parameters...]** link to select the delivery te
 
 This template can be modified to personalize message layout, but it is preferable to make a copy. The targeting mechanism (external file, target mapping) must not be modified because it is required for notifications to operate correctly.
 
-An approval example is shown in [Defining approvals](../../workflow/using/executing-a-workflow.md#defining-approvals).
+An approval example is shown in [Defining approvals](../../workflow/using/defining-approvals.md).
 
 ## Output parameters {#output-parameters}
 

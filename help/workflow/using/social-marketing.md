@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Social Marketing
-seo-title: Social Marketing
-description: Social Marketing
-seo-description: 
-page-status-flag: never-activated
-uuid: ab84cc4d-0599-4fff-976c-89525faeb889
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about Social Marketing technical workflows
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: 339f4aa9-0513-4b0e-ac2a-24f5dc012d49
-index: y
-internal: n
-snippet: y
 ---
 
 # Social Marketing{#social-marketing}

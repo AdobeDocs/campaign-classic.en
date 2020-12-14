@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Integrating with Adobe Target
-seo-title: Integrating with Adobe Target
 description: Integrating with Adobe Target
-seo-description: 
-page-status-flag: never-activated
-uuid: de482b31-0b7b-4669-8a00-28da48c6c5a9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
-discoiquuid: 44c7acdd-6b7a-4e88-b2a7-3e9bf8a6eab5
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Adobe Target{#integrating-with-adobe-target}
@@ -35,4 +27,4 @@ Several types of data can be utilized by Adobe Target:
 
 >[!NOTE]
 >
->You can also find information regarding integration between Adobe Campaign and Adobe Target on the [Adobe Target help pages](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html).
+>You can also find information regarding integration between Adobe Campaign and Adobe Target on the [Adobe Target help pages](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html).

@@ -1,43 +1,44 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Release 19.1
-seo-title: Release 19.1
 description: Release 19.1
-seo-description: 
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
 ---
 
 # Release 19.1{#release-19-1}
 
-[Build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation updates](../../rn/using/documentation-updates.md) &#124; [Previous releases](../../rn/using/release--19-1.md) &#124; [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+## ![](assets/do-not-localize/limited_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>General Availability</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>Release Candidate</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>No longer available</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>Deprecated</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Latest stable build available. Build validated in production.<br>&nbsp;</td>
-   <td>Build validated by Adobe. Waiting for production proofing.<br>&nbsp;</td>
-   <td>Newer build available with bug fixes. Update is required.<br>&nbsp;</td>
-   <td>Contains known regressions. Update is mandatory.<br>&nbsp;</td>
-  </tr> 
- </tbody> 
-</table>
+_15 September 2020_
 
-The **last stable build** is 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+**Improvements**
+
+* Improved nlsrvmod for Apache 2.4 thread usage to fix nlsrvmod crashes. 
+* Fixed an issue when using the File Transfer activity with an Azure external account and an SSL encryption. The connection was performed through HTTP instead of HTTPS. (NEO-26720)
+* Fixed an issue with the url cache mechanism which did not retrieve the label or category.
+* Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries (due to improper ASCII character control). (NEO-26084)
+* The jarsToSkip list in catalina.properties has been updated to remove the reference to a jar file that was no longer used (iOS notifications).
+* Fixed a regression issue which prevented after publication after postupgrade.
+* Fixed a regression with out-of-the-box delivery reports which appeared truncated when exported to PDF. (NEO-25757)
+* Fixed an issue that deleted the encoding parameter value when redirecting from a tracking URL (impact on Japanese characters). (NEO-25637)
+* Fixed an issue which led to unsigned links from personalized domains being blocked when they should be allowed. (NEO-25210)
+* Fixed a regression impacting calculated fields in a workflow causing the workflow to fail. (NEO-25194)
+* Fixed a compatibility issue with Microsoft Dynamics (from version 8.2) that could prevent some API calls from executing (RetrieveAllEntities). (NEO-24528)
+* Fixed a regression issue when using the ACS Connector feature which prevented the connection to a Campaign Standard instance (incorrect management of the FOH/FOH2 connection). (NEO-23433)
+* Fixed a regression issue on database connection causing the web server to constantly restart due to a database encoding problem. This could lead to overconsumption. (NEO-23264)
+* Fixed an issue with the database cleanup workflow which could fail due to unmanaged data source. (NEO-23160, NEO-23364)
+* The cleanup workflow now purges expired lists by batches of 100 instead of one by one.
+* Following the switch to the [new sequence ID mechanism](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), all web applications that are updating the recipient table are republished during postupgrade.
+* Fixed an issue preventing emails from being sent when there was Javascript code outside of the HTML content tag. (NEO-18628)
+* Fixed an issue that prevented the transactional messages tracking indicators from being updated by the Tracking workflow. (NEO-17770)
+* Improved the performance of the database update wizard to make fewer SQL statements in order to optimize response time.
+* Fixed a console crash issue that could occur when unchecking tracked URLs in an email, from the **Text content** tab due to a non-initialized variable. (NEO-13545)
+* Fixed an issue which prevented you from uploading files in a File Transfer activity using an Azure Blob Storage external account due to a non-initialized variable (m_pCurlReader). (NEO-13717)
+* Fixed a postupgrade issue which turned off Apache and the web server before the web application republication. (NEO-27155)
+* Fixed a regression which led to an incorrect timezone being picked when setting time in a **Scheduler** workflow activity.
 
 ## ![](assets/do-not-localize/orange_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
@@ -55,7 +56,7 @@ _3 October 2019_
 * Fixed an issue which could lead to certain messages not being processed by the Mid-Sourcing server. (NEO-12395)
 * Fixed an issue which prevented the full use of the SQL Data Management activity (the "SQL Data Management" named right was missing).
 
-## ![](assets/do-not-localize/orange_2.png) Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
+## ![](assets/do-not-localize/red_2.png) Release 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
 _13 August 2019_
 
@@ -63,61 +64,21 @@ _13 August 2019_
 
 * Fixed an issue with the SQL statement 'SELECT COUNT' which was executed on the default database rather than the FDA database during Data extraction in Data Management activity.
 * To improve customer infrastructure capabilities, an SFTP proxy declaration is now available in the server configuration file.
-* Fixed a Client console crash when "adding a linked table" in the Data Loading (RDBMS) workflow activity with no table name. (NEO-12213)
-* Fixed an issue with the midEmetter package installation through command line.
+* Fixed a crash issue when the **Add linked table** field was empty in the **Data Loading (RDBMS)** workflow activity. (NEO-12213)
+* Fixed an issue with the midEmitter package installation through command line.
 * A new authentication option has been added to support OAuth credentials within the AC connector with Microsoft Dynamics. (NEO-11982)
-* Fixing issue with UUID (Unique Universal Identifier) cause enrichment activity to fail withHive FDA.
+* Fixed an issue with UUID (Unique Universal Identifier) management causing the Query and Data loading workflow activities to fail with Hive FDA.
+* Fixed a regression on Oracle causing some functions to be considered as invalid after postupgrade. (NEO-12759)
+* Fixed a regression leading to an incorrect time zone being picked when setting the time in a Scheduler workflow activity.
 
-## Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
+## ![](assets/do-not-localize/green_2.png) Release 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **April 29th 2020**: new build (9032&#64;3a9dc9c) which includes the following fixes:
+>[!NOTE]
+>
+>19.1.4 Gold Standard releases are listed in this [page](../../rn/using/gold-standard.md).
 
-* Improved security on tracking links in email. This is enabled by default for all customers. An additional, enhanced security feature is available which can be enabled by reaching out to Customer Care. More details on the feature and steps for non-hosted customers to enable it can be found in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
-* Fixed an issue which could prevent images from being displayed on Line deliveries. (NEO-23207)
-* Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183) 
-* Fixed an issue which could affect push notification when sent at a high frequency. (NEO-20516)
-* Fixed an issue in offer response management which could lead to web server crashes. (NEO-19482)
-* Fixed an error in LibreOffice management which prevented you from exporting reports. (NEO-20982)
-* Fixed an issue which caused an error when upgrading numerous workflows using a survey activity. 
-* Improved LibreOffice management to avoid failures on email preview with .odt files. 
-* Improved the management of Apache connection to avoid latency on web service.
-* Improved the display of version tag (7 digit) in the **About** menu.
-* Fixed a regression in list management preventing offers from being published.
-* Fixed a regression causing the cleanup workflow to crash. 
-* Fixed a minor regression in the cleanup workflow logs.
 
-![](assets/do-not-localize/orange_2.png) **March 5th 2020**: new build (9032&#64;19f73c5) which includes the following fix:
-
-* Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
-
-![](assets/do-not-localize/orange_2.png) **December 17th 2019**: new build (9032&#64;d6b8062) which includes the following fix:
-
-* Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter). (NEO-19595)
-
-![](assets/do-not-localize/orange_2.png) **December 11th 2019**: new build (9032&#64;bc4a935) which includes the following fix:
-
-* Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
-
-![](assets/do-not-localize/orange_2.png) **November 20th 2019**: new build (9032&#64;3468c7b) which includes the following fixes:
-
-* Fixed a login issue via IMS authentication. (NEO-17312)
-* Fixed an issue when displaying cumulative reports on multiple deliveries. (NEO-18165)
-* Fixed an issue that could block or make the web server crash.
-
-![](assets/do-not-localize/orange_2.png) **September 19th 2019**: new build (9032&#64;cee805c) which includes the following fixes:
-
-* Fixed an issue when using the CRM Connector for Salesforce. (NEO-17712)
-* Fixed an index issue which could cause performance issues when sending transactional messages.
-
-![](assets/do-not-localize/orange_2.png) **August 13th 2019**: initial 19.1.4 build which includes the following fixes:
-
-* Fixed an issue with the scheduler activity generating undesired error messages during wizard configuration. Reverting update from NEO-11662. (NEO-17097)
-* Fixed a regression caused by the NEO-12727 which could lead to workflows being stopped when a Test activity was executed twice. (NEO-16835) 
-* Fixed an issue which led to an erroneous HTTP code being returned (HTTP 200 OK instead of HTTP 403 Forbidden) when an invalid or expired session token was used in API calls. (NEO-16826) 
-* Fixed an issue with the DKIM key which was not embedded into emails anymore, thus causing deliverability issues. (NEO-16804) 
-* Fixed various issues with workflow scheduling. Workflows were scheduled to be executed once a day without taking into account the scheduler configuration. (NEO-16619, NEO-16426)
-
-## ![](assets/do-not-localize/orange_2.png) Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}
+## ![](assets/do-not-localize/red_2.png) Release 19.1.2 - Build 9029{#release-19-1-2-build-9029}
 
 _21 June 2019_
 
@@ -133,7 +94,7 @@ _21 June 2019_
 * We now allow the deletion of dummy records created in Microsoft Dynamics during import workflow.
 * Improved permissions to execute the security zone package when using internal account.
 
-## ![](assets/do-not-localize/orange_2.png) Release 19.1 - Build 9026{#release-19-1-build-9026}
+## ![](assets/do-not-localize/red_2.png) Release 19.1 - Build 9026{#release-19-1-build-9026}
 
 _30 May 2019_
 
@@ -149,11 +110,11 @@ _30 May 2019_
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> <p>To increase efficiency in your work as an Admin user, manage settings of your SFTP servers by monitoring storage, whitelisting IP addresses, and installing SSH keys for each instance. Please note Control Panel is only available for customers hosted on AWS as of today (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">login through the Experience Cloud today</a>).</p> <p>For more information, refer to the <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">how-to video</a>. </p><p>Note: upgrading to the latest Campaign build is not required to access the Control Panel.</p> </td> 
+   <td> <p>To increase efficiency in your work as an Admin user, manage settings of your SFTP servers by monitoring storage, add IP addresses to allowlist, and installing SSH keys for each instance. Please note Control Panel is only available for customers hosted on AWS as of today (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">login through the Experience Cloud today</a>).</p> <p>For more information, refer to the <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/control-panel-overview.html">how-to video</a>. </p><p>Note: upgrading to the latest Campaign build is not required to access the Control Panel.</p> </td> 
   </tr> 
     <tr> 
    <td> Audit trail<br /> </td> 
-   <td> <p>As admin, increase productivity by monitoring and managing changes made within the Adobe Campaign Classic instance. The Audit Trail will log actions made on Source Schemas, Workflows and Options. You can quickly see if an element has been created, modified or deleted.</p><p>For more information, refer to the <a href="../../production/using/audit-trail.md">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/monitoring/audit-trail.html">how-to video</a>.</p></td> 
+   <td> <p>As admin, increase productivity by monitoring and managing changes made within the Adobe Campaign Classic instance. The Audit Trail will log actions made on Source Schemas, Workflows and Options. You can quickly see if an element has been created, modified or deleted.</p><p>For more information, refer to the <a href="../../production/using/audit-trail.md">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/monitoring/audit-trail.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Guardrail, Robustness &amp; Scalability<br /> </td> 

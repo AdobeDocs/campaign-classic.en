@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: CRM Connectors
-seo-title: CRM Connectors
 description: CRM Connectors
-seo-description: 
-page-status-flag: never-activated
-uuid: ef3d88a1-b0fd-4790-b6e8-63fa339ef991
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: dbe9080c-66e3-4ff6-8f16-959f9748f666
-index: y
-internal: n
-snippet: y
 ---
 
 # CRM Connectors{#crm-connectors}
@@ -34,13 +26,13 @@ Connecting to the CRM is carried out via dedicated workflow activities. These ac
 
 CRMs listed below can be integrated into Adobe Campaign.
 
-Supported versions are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+Supported versions are detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 * **Salesforce.com**
 
   Refer to [this section](#example-for-salesforce-com) to learn how to set up the connection with Salesforce.com.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >When connecting Adobe Campaign with Salesforce.com, limitations are:  
   >
@@ -56,7 +48,7 @@ Supported versions are detailed in the [Compatibility matrix](https://helpx.adob
 
   Refer to [this section](#example-for-oracle-on-demand) to learn how to set up the connection with Oracle On Demand.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >When connecting Adobe Campaign with Oracle On Demand, limitations are:  
   >
@@ -73,9 +65,9 @@ Supported versions are detailed in the [Compatibility matrix](https://helpx.adob
 
   Refer to [this section](#example-for-microsoft-dynamics) to learn how to set up the connection with Microsoft Dynamics.
 
-  Learn about Adobe Campaign and Microsoft Dynamics integration use cases in [this video](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
+  ![](assets/do-not-localize/how-to-video.png) Learn about Adobe Campaign and Microsoft Dynamics integration use cases in [this video](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >When connecting Adobe Campaign with Microsoft Dynamics, limitations are:  
   >
@@ -190,7 +182,7 @@ To configure the Microsoft Dynamics connector to work with Adobe Campaign, apply
 
    Adobe Campaign Classic supports the Dynamics 365 REST interface with OAuth protocol for authentication.
 
-   If you select a **[!UICONTROL WebAPI]** deployment, you need to register an app on Azure Directory and get the **clientId** from the Azure Directory. This registration is documented in [this page](https://msdn.microsoft.com/en-us/library/mt622431.aspx).
+   If you select a **[!UICONTROL WebAPI]** deployment, you need to register an app on Azure Directory and get the **clientId** from the Azure Directory. This registration is documented in [this page](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/mt622431(v=crm.8)?redirectedfrom=MSDN).
 
    >[!NOTE]
    >
@@ -206,7 +198,7 @@ To configure the Microsoft Dynamics connector to work with Adobe Campaign, apply
 
    ![](assets/crm_connectors_msdynamics_02.png)
 
-   Select the tables to be recovered.
+1. Select the tables to be recovered.
 
    ![](assets/crm_connectors_msdynamics_03.png)
 
@@ -273,7 +265,7 @@ For an import activity, the **CRM Connector** activity configuration steps are:
 
    If necessary, alter the data format via the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in [Data format](#data-format).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The identifier of the record in the CRM is mandatory for linking objects in CRM and in Adobe Campaign. It is added automatically when the box is approved.  
    >
@@ -285,7 +277,7 @@ For an import activity, the **CRM Connector** activity configuration steps are:
 
    ![](assets/crm_task_import_filter.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The limitations linked to data filtering modes are detailed in [Filtering data](#filtering-data).
 
@@ -378,7 +370,7 @@ For an export, apply the following configuration to the **CRM Connector** activi
 1. Select an **[!UICONTROL Export to CRM]** operation.
 1. Go to the **[!UICONTROL Remote object]** drop-down list and select the object concerned by the process. This object coincides with one of the tables created in Adobe Campaign during connector configuration.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The export function of the **CRM Connectors** activity can insert or update fields on the CRM side. To enable field updates in the CRM, you need to specify the primary key of the remote table. If the key is missing, data will be inserted (instead of being updated).
 
@@ -453,7 +445,7 @@ To do this, apply the following steps:
 
    ![](assets/crm_import_deleted_obj.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >The element deletion period must coincide with the limitations specific to the CRM. This means that for Salesforce.com, for instance, elements deleted over 30 days ago cannot be recovered.
 

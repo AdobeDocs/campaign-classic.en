@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Content Management
-seo-title: Content Management
 description: Content Management
-seo-description: 
-page-status-flag: never-activated
-uuid: 8d1bf84b-96e5-4d3d-9d77-42d2027a74db
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 13b72aa1-de40-4548-835b-97e765e04e95
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Management{#content-management}

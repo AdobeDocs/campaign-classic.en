@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Tables to maintain
-seo-title: Tables to maintain
 description: Tables to maintain
-seo-description: 
-page-status-flag: never-activated
-uuid: 1085e929-65cc-48fa-9c31-0508a14b4704
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-discoiquuid: 6ec4e566-7116-4d7f-835d-cb0f3c3a6a7a
-index: y
-internal: n
-snippet: y
 ---
 
 # Tables to maintain{#tables-to-maintain}

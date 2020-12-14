@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Synchronizing audiences
-seo-title: Synchronizing audiences
 description: Synchronizing audiences
-seo-description: 
-page-status-flag: never-activated
-uuid: eda67bf7-8a0a-4240-8b31-de364be5d572
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-discoiquuid: 749a084e-69ee-46b4-b09b-cb91bb1da3cd
-index: y
-internal: n
-snippet: y
 ---
 
 # Synchronizing audiences{#synchronizing-audiences}

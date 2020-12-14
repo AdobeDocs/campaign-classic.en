@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Offer proposition history
-seo-title: Offer proposition history
 description: Offer proposition history
-seo-description: 
-page-status-flag: never-activated
-uuid: 91f45612-ede2-49f2-b0cd-1a9a19e6693a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: tracking-offers
-discoiquuid: 82e67697-5dc7-4013-a00d-be8cdad31354
-index: y
-internal: n
-snippet: y
 ---
 
 # Offer proposition history{#offer-proposition-history}

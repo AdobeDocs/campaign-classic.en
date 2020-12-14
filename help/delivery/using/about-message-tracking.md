@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About message tracking
-seo-title: About message tracking
 description: About message tracking
-seo-description: 
-page-status-flag: never-activated
-uuid: 91127faf-b9c4-46af-b842-b9816c501ecf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-discoiquuid: 5d8bbfe0-e202-4062-aa47-9ad87b975bb7
-index: y
-internal: n
-snippet: y
 ---
 
 # About message tracking{#about-message-tracking}
@@ -22,7 +14,7 @@ In the context of an email delivery, tracking lets you track the messages sent a
 
 Tracking metrics can be consulted in the **[!UICONTROL URLs and click streams]**, **[!UICONTROL Tracking statistics]**, and **[!UICONTROL Hot clicks]** reports, and in the **[!UICONTROL Tracking]** tab of the delivery.
 
-The delivery dashboard is also key to monitor your deliveries and eventual issues encountered during the sending of messages. For more on this refer to [this section](../../delivery/using/monitoring-a-delivery.md).
+The delivery dashboard is also key to monitor your deliveries and eventual issues encountered during the sending of messages. For more on this refer to [this section](../../delivery/using/delivery-dashboard.md).
 
 **Related topics**:
 

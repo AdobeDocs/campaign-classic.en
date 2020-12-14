@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Schema characteristics
-seo-title: Schema characteristics
 description: Schema characteristics
-seo-description: 
-page-status-flag: never-activated
-uuid: ca8eb7af-ef22-403a-8f04-ece5dc903174
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: 441e80e1-0559-41fd-83e8-afdf94279e75
-index: y
-internal: n
-snippet: y
 ---
 
 # Schema characteristics{#schema-characteristics}

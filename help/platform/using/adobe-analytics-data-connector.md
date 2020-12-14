@@ -1,26 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Analytics Data Connector
-seo-title: Adobe Analytics Data Connector
 description: Adobe Analytics Data Connector
-seo-description: 
-page-status-flag: never-activated
-uuid: 5a1de443-04de-49a8-9057-5d8381e48630
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: 5ff1577f-0809-46fd-ac1e-11b24637e35c
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Analytics Data Connector{#adobe-analytics-data-connector}
 
 ## About Data Connector integration {#about-data-connector-integration}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adobe Analytics Data Connector is not compatible with Transactional messaging (Message Center).
 
@@ -139,7 +131,7 @@ The integration of Adobe Campaign into the Analytics platforms is carried out us
 
    ![](assets/webanalytics_tracking_003.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >This configuration mode is reserved for expert users: any error in this formula may result in email deliveries being stopped.
 
@@ -239,7 +231,7 @@ In order for the Adobe Experience Cloud to be able to track activity on the site
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. Open the delivery properties.
-1. Go to the **[!UICONTROL Web Analytics]** tab and select the previously created external account. Refer to [Step 2: Create the external account in Campaign](#step-2--create-the-external-account-in-campaign)).
+1. Go to the **[!UICONTROL Web Analytics]** tab and select the previously created external account. Refer to [Step 2: Create the external account in Campaign](#step-2--create-the-external-account-in-campaign).
 
    ![](assets/webanalytics_delivery_properties_002.png)
 

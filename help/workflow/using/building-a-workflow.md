@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Building a workflow
-seo-title: Building a workflow
-description: Building a workflow
-seo-description: 
-page-status-flag: never-activated
-uuid: 55743545-dd4b-4a0a-aeff-8fd638812b9d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to build a workflow
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: 2d4ccf81-cd85-4f4c-8ba8-5b5612af1e16
-index: y
-internal: n
-snippet: y
 ---
 
 # Building a workflow {#building-a-workflow}
@@ -24,7 +16,7 @@ This section details the key principles and best practices to build a workflow i
 * Design the workflow diagram, see [Adding and linking activities](#adding-and-linking-activities)
 * Access parameters and properties of activities, see [Configuring activities](#configuring-activities)
 * Design targeting workflows, see [Targeting workflows](#targeting-workflows)
-* Use workflow to execute a campaign, see [Campaign workflows](#campaign-workflows)
+* Use workflows to execute a campaign, see [Campaign workflows](#campaign-workflows)
 * Access and create technical workflows, see [Technical workflows](#technical-workflows)
 * Use templates to create workflows, see [Workflow templates](#workflow-templates)
 
@@ -85,8 +77,6 @@ To create the diagram
 >
 >You can copy and paste activities within a same workflow. However, we do not recommend to copy paste activities across different workflows. Some settings attached to activities like Deliveries and Scheduler could lead to conflicts and errors while executing the destination workflow. Instead, we recommended you to  **Duplicate** workflows. For more information, see [Duplicating workflows](#duplicating-workflows).
 
-### Additional layout options {#additional-layout-options}
-
 You can change the display and layout of the chart using the following elements:
 
 * **Using the toolbar**
@@ -143,15 +133,15 @@ Targeting workflows can be created and edited via the **[!UICONTROL Profiles and
 
 Targeting workflows within the framework of a campaign are stored with all campaign workflows.
 
-### Implementation steps {#implementation-steps-}
+### Key steps to create a targeting workflow {#implementation-steps-}
 
-Targeting data building stages are as follows:
+Steps to create a targeting workflow are detailed in these sections:
 
-1. For identifying data in the database, refer to [Creating queries](../../workflow/using/targeting-data.md#creating-queries).
-1. For preparing data to meet delivery needs, refer to [Enriching and modifying data](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
-1. For using data to perform updates or within a delivery, refer to [Updating the database](../../workflow/using/how-to-use-workflow-data.md#updating-the-database).
+1. **Identify** data in the database -  See [Creating queries](../../workflow/using/targeting-data.md#creating-queries)
+1. **Prepare** data to meet delivery needs - See [Enriching and modifying data](../../workflow/using/targeting-data.md#enriching-and-modifying-data)
+1. **Use** data to perform updates or within a delivery - See [Updating the database](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)
 
-The results of all enrichments and all handlings carried out during targeting are stored and accessible in personalization fields, in particular for use when creating personalized messages. For more on this, refer to [Target data](../../workflow/using/executing-a-workflow.md#target-data)
+The results of all enrichments and all handlings carried out during targeting are stored and accessible in personalization fields, in particular for use when creating personalized messages. For more on this, refer to [Target data](../../workflow/using/data-life-cycle.md#target-data)
 
 ### Targeting and filtering dimensions {#targeting-and-filtering-dimensions}
 
@@ -177,15 +167,15 @@ For each campaign, you can create workflows to be executed from the **[!UICONTRO
 
 ![](assets/wf-in-op-edit-delivery-tab.png)
 
-This tab contains the same activities as for all workflows. They are presented in the [Implementation steps](#implementation-steps-) section.
+This tab contains the same activities as for all workflows. [Learn more](#implementation-steps-)
 
-In addition to targeting campaigns, campaign workflows enable you to create and configure deliveries entirely for all available channels. Once created in the workflow, these deliveries are available from the dashboard of the campaign.
+In addition to targeting campaigns, campaign workflows enable you to create and configure deliveries entirely for all available channels. Once created in the workflow, these deliveries are available from the dashboard of the campaign. [Learn more](../../campaign/using/marketing-campaign-deliveries.md)
 
 All campaign workflows are centralized under the **[!UICONTROL Administration > Production > Objects created automatically > Campaign workflows]** node.
 
 ![](assets/campaigns_wf.png)
 
-Campaign workflows and implementation examples are detailed in this [page](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
+Campaign workflows and implementation examples are detailed in [this page](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
 ## Technical workflows {#technical-workflows}
 
@@ -203,7 +193,7 @@ The **[!UICONTROL Campaign process]** subfolder centralizes the workflows requir
 
 You can create other technical workflows in the **[!UICONTROL Administration > Production > Technical workflows]** node of the tree structure. However, this process is reserved for expert users.
 
-The activities offered are the same as for targeting workflows. For more on this, refer to [Implementation steps](#implementation-steps-).
+The activities offered are the same as for targeting workflows. [Learn more](#implementation-steps-)
 
 ## Workflow templates {#workflow-templates}
 

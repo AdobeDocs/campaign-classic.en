@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Structure of a data schema
-seo-title: Structure of a data schema
 description: Structure of a data schema
-seo-description: 
-page-status-flag: never-activated
-uuid: 83e3995d-fa31-4cb5-acf2-83f17329c99c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: a1a39eaa-6d6f-42c5-a36b-bd1cb3a77dcb
-index: y
-internal: n
-snippet: y
 ---
 
 # Structure of a data schema{#structure-of-a-data-schema}

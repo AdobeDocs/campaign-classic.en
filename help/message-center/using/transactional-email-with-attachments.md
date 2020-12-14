@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adding attachments to transactional messages with Adobe Campaign Classic
 description: Learn how to send transactional emails with individual and/or personalized attachments using Adobe Campaign Classic
-page-status-flag: never-activated
-uuid: 4452d839-318a-49d8-8abb-4ba04c803e9f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: use-case
-discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
-index: y
-internal: n
-snippet: y
 ---
 
 # Use case: Sending transactional emails with attachments{#transactional-email-with-attachments}
@@ -38,6 +32,10 @@ In this scenario, the attachments are not pre-created, but added on the fly to t
 * If the attachment is associated with a transaction (as in the example scenario described above), it may contain dynamic data that is generated during the customer process.
 * Attaching PDF files optimizes security as you can encrypt them and send them over HTTPS.
 
+>[!NOTE]
+>
+>To avoid performance issue, if you include images downloaded on the fly from a personalized URL as attachment, each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
+
 ## Recommendations {#important-notes}
 
 Before implementing this scenario, read carefully the guidelines below:
@@ -46,6 +44,10 @@ Before implementing this scenario, read carefully the guidelines below:
 * Since there is no direct access to the Transactionnal Messaging instances or servers outside of Adobe, there is no standard way to push such files on these servers (no FTP access). 
 * It is not contractually correct to use the disk space on the Transactional Messaging instances to store files of any sort, not even for attachments.
 * You need to use another online disk system to host these files. You need an FTP access to this system and you must be able to write and delete files.
+
+>[!NOTE]
+>
+>To avoid performance issue, it is recommended not to include more than one attachment per email. The recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## Implementation {#implementation}
 

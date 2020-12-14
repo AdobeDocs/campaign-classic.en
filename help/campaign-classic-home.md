@@ -1,7 +1,7 @@
 ---
 keywords: Campaign Classic;home;popular topics
-seo-title: Adobe Campaign Classic product documentation
 solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic product documentation
 topic: Premium
 ---
@@ -12,19 +12,17 @@ topic: Premium
 
 ## What's New
 
-* **[Get Support](https://helpx.adobe.com/campaign/kb/ac-support.html)**<br/>
-Access FAQs, best practices, help resources, and request for help
+* **[Update your Adobe Experience Cloud Triggers integration](integrations/using/configuring-adobe-io.md)**<br/> The legacy oAuth authentication service has reached end-of-life. Learn how to migrate to Adobe I/O
 
-* **[Privacy Compliance](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-Learn how Adobe Campaign can help you with your Privacy compliance
+* **[Move to HTTP/2-based APNs provider API](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/> Learn how to migrate from the legacy binary protocol to HTTP/2-based APNs provider API
 
-* **[Tracking capabilities](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>
-Understand tracking capabilities and processes in Campaign
+* **[Add emoticons to your messages](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/> You can now insert emoticons in messages and subject line
 
-* **[Interactive content with AMP](delivery/using/defining-interactive-content.md)**<br/>
-Learn how to send dynamic emails with the new AMP format
+* **[Get Support](https://helpx.adobe.com/campaign/kb/ac-support.html)**<br/> Access FAQs, best practices, help resources, and request for help
 
-[Click here for more updates](/help/rn/using/documentation-updates.md)
+* **[Tracking capabilities](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/> Understand tracking capabilities and processes in Campaign
+
+[More updates](/help/rn/using/documentation-updates.md)
 
 ## Top pages
 
@@ -44,11 +42,11 @@ Learn how to send dynamic emails with the new AMP format
     <p>
   </td>
    <td>
-    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+    <a href="production/using/build-upgrade.md">
       <img alt="Build Upgrade" src="platform/using/assets/upgrade.png" />
     </a>
     <div>
-      <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+      <a href="production/using/build-upgrade.md">
     <strong>Upgrade to the latest build</strong>
     </a>
     </div>
@@ -77,9 +75,9 @@ Learn how to send dynamic emails with the new AMP format
 | Useful pages | Resources for developers |
 |---|---|
 | [Release notes](/help/rn/using/latest-release.md) | [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [Campaign data model](configuration/using/about-data-model.md)|
-| [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
+| [How-to videos](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html) | [Campaign data model](configuration/using/about-data-model.md)|
+| [Compatibility matrix](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Get started with Campaign](platform/using/about-adobe-campaign-classic.md) | [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html) |
 | [Gold Standard upgrade](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
-| [Deprecated features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) | [Security & privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) |
-| [Campaign Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Monitoring best practices](https://helpx.adobe.com/campaign/kb/acc-maintenance.html) |
+| [Deprecated features](rn/using/deprecated-features.md) | [Security & privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html) |
+| [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) | [Monitoring guidelines](production/using/monitoring-guidelines.md) |

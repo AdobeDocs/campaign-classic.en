@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Generic imports and exports
-seo-title: Generic imports and exports
 description: Generic imports and exports
-seo-description: 
-page-status-flag: never-activated
-uuid: e98753bb-1f14-4ec7-aa3b-d5e4f1ebaef7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
-index: y
-internal: n
-snippet: y
 ---
 
 # Generic imports and exports{#generic-imports-and-exports}
@@ -36,11 +28,11 @@ You can:
 >
 >Data import in Campaign should be performed through workflows to secure data consistency and improve efficiency. For more on this, refer to the [Importing data](../../workflow/using/importing-data.md), [Import best practices](../../workflow/using/importing-data.md#best-practices-when-importing-data) and [Import template example](../../workflow/using/importing-data.md#setting-up-a-recurring-import) sections.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](../../platform/using/exporting-and-importing-profiles.md#import-profiles-video)
+
 ## Creating a job template {#creating-a-job-template}
 
 Import and export templates are stored in the **[!UICONTROL Resources > Templates > Job templates]** directory of the Adobe Campaign tree.
-
-![](assets/s_ncs_user_export_wizard_template.png)
 
 By default, three import templates and one export template are present in this directory. They must not be modified. You can duplicate them to create your own templates or create a new template via the **[!UICONTROL New > Import template]** / **[!UICONTROL Export template]** menu.
 
@@ -50,7 +42,7 @@ The procedure for creating a process template is presented in [Export wizard](..
 
 >[!NOTE]
 >
->The native template **[!UICONTROL Import blacklist]** is already configured to import a list of blacklisted e-mail addresses. 
+>The native template **[!UICONTROL Import denylist]** is already configured to import a list of email addresses which were added to the denylist.
 > 
 >The **[!UICONTROL New text import]** and **[!UICONTROL New text export]** templates let you configure an import or export from scratch.
 

@@ -1,19 +1,11 @@
 ---
-title: Event description
-seo-title: Event description
-description: Event description
-seo-description: 
-page-status-flag: never-activated
-uuid: 7b174ffd-28b2-4147-b992-e17b0b2cf733
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: Message center event description
+description: Learn more about transactional messaging event
 audience: message-center
 content-type: reference
 topic-tags: introduction
-discoiquuid: 3c8388d8-1a91-4d16-a8ac-016f643c6009
-index: y
-internal: n
-snippet: y
 ---
 
 # Event description{#event-description}
@@ -165,7 +157,7 @@ Data example:
 
 When it receives an event, Adobe Campaign generates a unique return ID. This is the ID of the archived version of the event.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >When receiving SOAP calls, Adobe Campaign verifies the email address format. If an email address is incorrectly formatted, an error is returned.
 

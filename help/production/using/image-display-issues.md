@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Image display issues
-seo-title: Image display issues
 description: Image display issues
-seo-description: 
-page-status-flag: never-activated
-uuid: 8fc51459-ee46-4c05-8011-f0651e6b451b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: dfccfe8c-b826-4648-9a0b-23d7e6a4808a
-index: y
-internal: n
-snippet: y
 ---
 
 # Image display issues{#image-display-issues}

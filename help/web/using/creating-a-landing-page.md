@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a landing page
-seo-title: Creating a landing page
 description: Creating a landing page
-seo-description: 
-page-status-flag: never-activated
-uuid: fc0e9749-f44e-4aa0-bdfa-6f44ba570bea
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-discoiquuid: 5f1e5886-628f-4c9e-80c1-d82feec23e8c
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a landing page{#creating-a-landing-page}

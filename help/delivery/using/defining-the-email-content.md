@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining the email content in Adobe Campaign Classic
 description: Learn how to define the email content when using Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: ddcc2e3b-e251-4a7a-a22a-28701522839f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining the email content{#defining-the-email-content}
@@ -54,6 +48,8 @@ For example, in the message above, the subject of the message is personalized fo
 >[!NOTE]
 >
 >The use of personalization fields is presented in [About personalization](../../delivery/using/about-personalization.md).
+
+You can also insert emoticons to your subject line with the **[!UICONTROL Insert emoticon]** pop-up window.
 
 ## Message content {#message-content}
 
@@ -107,9 +103,22 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   ![](assets/s_ncs_user_wizard_email01_142.png)
 
+### Inserting emoticons in an email {#inserting-emoticons}
+
+You can insert emoticons to your email content.
+
+1. Click the **[!UICONTROL Insert emoticon]** icon.
+1. Select an emoticon from the pop-up window.
+
+    ![](assets/emoticon_4.png)
+
+1. Click the **[!UICONTROL Close]** button when done.
+
+To customize the emoticon list, refer to this [page](../../delivery/using/customizing-emoticon-list.md).
+
 ## Selecting message formats {#selecting-message-formats}
 
-You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab. 
+You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab.
 
 ![](assets/s_ncs_user_wizard_email_param.png)
 
@@ -172,18 +181,21 @@ The delivery wizard lets you add local images, or images stored in the library, 
 
 ![](assets/s_ncs_user_image_from_library.png)
 
-In order for the recipients to be able to view the images included in the messages that they receive, these messages must be available on a server accessible from the outside.
+>[!IMPORTANT]
+>
+>In order for the recipients to be able to view the images included in the messages that they receive, these messages must be available on a server accessible from the outside.
 
-To manage images via the delivery wizard, you must click the **[!UICONTROL Tracking & Images]** icon in the toolbar.
+To manage images via the delivery wizard:
 
-![](assets/s_ncs_user_email_del_img_param.png)
+1. Click the **[!UICONTROL Tracking & Images]** icon in the toolbar.
+  ![](assets/s_ncs_user_email_del_img_param.png)
 
-Select **[!UICONTROL Upload images]** in the **[!UICONTROL Images]** tab. You can then choose whether you wish to include the images in the email message.
+1. Select **[!UICONTROL Upload images]** in the **[!UICONTROL Images]** tab.
+1. You can then choose whether you wish to include the images in the email message.
+  ![](assets/s_ncs_user_email_del_img_upload.png)
 
-![](assets/s_ncs_user_email_del_img_upload.png)
-
-* You can upload images manually without waiting for the delivery analysis phase. To do this, click the **[!UICONTROL Upload images now]** link.
-* You can specify another path for access to the images on the tracking server. To do this, enter it in the **[!UICONTROL Image URL]** field. This value overrides the value defined in the parameters of the installation wizard.
+* You can upload images manually without waiting for the delivery analysis phase. To do this, click the **[!UICONTROL Upload the images straightaway...]** link.
+* You can specify another path for access to the images on the tracking server. To do this, enter it in the **[!UICONTROL Images URL]** field. This value overrides the value defined in the parameters of the installation wizard.
 
 When you open HTML content with included images in the delivery wizard, a message gives you the option of uploading the images immediately, according to the delivery parameters.
 
@@ -193,7 +205,11 @@ When you open HTML content with included images in the delivery wizard, a messag
 >
 >The image access paths are modified during manual uploading or when sending messages.
 
-**Example: sending a message with images {#example--sending-a-message-with-images}**
+### Sending a message with images {#sending-a-message-with-images}
+
+>[!NOTE]
+>
+>To avoid performance issue, if you include images downloaded on the fly from a personalized URL as [attachment](../../delivery/using/attaching-files.md), each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
 
 Here is a sample of a delivery with four images:
 

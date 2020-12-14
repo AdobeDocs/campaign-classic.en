@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Consistency rules
-seo-title: Consistency rules
 description: Consistency rules
-seo-description: 
-page-status-flag: never-activated
-uuid: 9b497460-ba42-4bc7-98e0-55c1b4be5e44
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-discoiquuid: 9bcb5dc1-8cb4-4781-a8cd-8d072ff28b1a
-index: y
-internal: n
-snippet: y
 ---
 
 # Consistency rules{#consistency-rules}

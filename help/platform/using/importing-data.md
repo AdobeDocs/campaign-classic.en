@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Importing data
-seo-title: Importing data
 description: Importing data
-seo-description: 
-page-status-flag: never-activated
-uuid: ca2269ad-7cfd-4f27-88be-469445a468bf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: c886bd02-c484-443c-93ca-ca244adbf893
-index: y
-internal: n
-snippet: y
 ---
 
 # Importing data{#importing-data}
@@ -22,11 +14,11 @@ Adobe Campaign lets you import data to the database from one or more files in te
 
 >[!NOTE]
 >
->You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function. 
-> 
->The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../workflow/using/read-list.md).  
+>You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function.
 >
->For more on this, watch the [Importing profiles](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html) video.
+>The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../workflow/using/read-list.md).  
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/importing-profiles.html)
 
 ## Structure of the data to import {#structure-of-the-data-to-import}
 

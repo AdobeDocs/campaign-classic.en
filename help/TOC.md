@@ -1,34 +1,46 @@
 ---
-product: Adobe Campaign Classic
 audience: end-user
-user-guide-title: Adobe Campaign Classic Help
-index: y
-product: adobe campaign
+product: campaign
+title: Adobe Campaign Classic Guide
+breadcrumb-title: Campaign Classic
+product: campaign
+title: Campaign Classic Guide
+breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
+user-guide-description: Design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment.
+solution: Campaign Classic
 sub-product: adobe campaign classic
+type: Documentation
 ---
 
-# Adobe Campaign Classic Help {#using}
+# Adobe Campaign Classic Guide {#using}
 
 + [Product documentation](campaign-classic-home.md)
 + [Latest updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
+  + [Get started with upgrades](rn/using/rn-overview.md)
   + [Latest Release](rn/using/latest-release.md)
+  + Gold Standard Release {#gs-release}
+     + [Gold Standard Release Notes](rn/using/gold-standard.md)
+     + [Gold Standard Compatibility Matrix](rn/using/compatibility-matrix-gs.md)
   + Previous Releases {#previous-releases}
+    + [Release 20.2](rn/using/release--20-2.md)
+    + [Release 20.1](rn/using/release--20-1.md)
     + [Release 19.2](rn/using/release--19-2.md)
     + [Release 19.1](rn/using/release--19-1.md)
     + [Release 18.10](rn/using/release--18-10.md)
     + [Release 18.6](rn/using/release--18-6.md)
     + [Release 18.4](rn/using/release--18-4.md)
   + [Deprecated features](rn/using/deprecated-features.md)
+  + [Compatibility Matrix](rn/using/compatibility-matrix.md)
 + Getting Started {#getting-started}
   + Starting with Adobe Campaign {#starting-with-adobe-campaign}
-       + [About Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
-       + [Privacy and recommendations](platform/using/privacy-and-recommendations.md)
+       + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
        + [Launching Adobe Campaign](platform/using/launching-adobe-campaign.md)
        + [Adobe Campaign workspace](platform/using/adobe-campaign-workspace.md)
        + FAQ {#faq}
           + [Common questions](platform/using/common-questions.md)
           + [Key concepts](platform/using/faq-key-concepts.md)
+          + [Build upgrade](platform/using/faq-build-upgrade.md)
           + [Audiences](platform/using/faq-audiences.md)
           + [Design messages](platform/using/faq-designing.md)
           + [Send messages](platform/using/faq-messages.md)
@@ -37,6 +49,11 @@ sub-product: adobe campaign classic
           + [Reports](platform/using/faq-reporting.md)
           + [Development](platform/using/faq-developers.md)
        + [Tutorials](platform/using/tutorials.md)
+  + Privacy {#privacy}
+       + [Privacy and consent](platform/using/privacy-and-recommendations.md)
+       + [Privacy management](platform/using/privacy-management.md)
+       + [Privacy requests](platform/using/privacy-requests.md)
+     + [Privacy FAQ](platform/using/privacy-faq.md)
   + Profile management {#profile-management}
        + [About profiles](platform/using/about-profiles.md)
        + [Editing a profile](platform/using/editing-a-profile.md)
@@ -62,27 +79,22 @@ sub-product: adobe campaign classic
        + [Access management](platform/using/access-management.md)
        + [Working with data packages](platform/using/working-with-data-packages.md)
        + [Managing enumerations](platform/using/managing-enumerations.md)
-       + [External accounts](platform/using/external-accounts.md)
-  + Accessing an external database (FDA){#accessing-external-database}
-       + [About FDA](platform/using/about-fda.md)
-       + [Specific configurations by database type](platform/using/specific-configuration-database.md)
-       + [Remote database access rights](platform/using/remote-database-access-rights.md)
-       + [Connecting to the database](platform/using/connecting-to-database.md)
-       + [Creating the data schema](platform/using/creating-data-schema.md)
-       + [Defining data mapping](platform/using/defining-data-mapping.md)
-       + [Additional options](platform/using/additional-options.md)
-       + [Using data from an external database in a workflow](platform/using/data-external-database-workflow.md)
   + Connectors {#connectors}
        + [About connectors](platform/using/about-connectors.md)
        + [CRM Connectors](platform/using/crm-connectors.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}
-  + About deliveries and channels {#about-deliveries-and-channels}
-       + [Communication channels](delivery/using/communication-channels.md)
-       + [Accessing deliveries information](delivery/using/accessing-deliveries-information.md)
-       + [Types of deliveries](delivery/using/types-of-deliveries.md)
+     + [Get started with messages](delivery/using/communication-channels.md)
+  + Delivery best practices {#delivery-bestpractices}
+       + [Learn good practices](delivery/using/delivery-best-practices.md)
+       + [Optimize delivery](delivery/using/optimize-delivery.md)
+       + [Use templates](delivery/using/use-templates.md)
+       + [Build personalized content](delivery/using/design-and-personalize.md)
+       + [Define the right audience](delivery/using/define-the-right-audience.md)
+       + [Check before sending](delivery/using/check-before-sending.md)
+       + [Track and monitor](delivery/using/track-and-monitor.md)                    
   + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}
-       + [About delivery creation ](delivery/using/steps-about-delivery-creation-steps.md)
+       + [Get started with deliveries](delivery/using/steps-about-delivery-creation-steps.md)
        + [Creating and identifying the delivery](delivery/using/steps-create-and-identify-the-delivery.md)
        + [Defining the target population](delivery/using/steps-defining-the-target-population.md)
        + [Validating the delivery](delivery/using/steps-validating-the-delivery.md)
@@ -100,7 +112,10 @@ sub-product: adobe campaign classic
   + Sending push notifications {#sending-push-notifications}
        + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
        + [Integrating Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
-       + [Configuring the mobile application in Adobe Campaign](delivery/using/configuring-the-mobile-application.md)
+       + Configuring the mobile application{#configure-the-mobile-app}
+            + [Get started with the app configuration](delivery/using/get-started-app-config.md)
+            + [Configuration steps for iOS](delivery/using/configuring-the-mobile-application.md)
+            + [Configuration steps for Android](delivery/using/configuring-the-mobile-application-android.md)
        + [Creating notifications](delivery/using/creating-notifications.md)
        + [Troubleshooting](delivery/using/troubleshooting.md)
   + Sending direct mail {#sending-direct-mail}
@@ -108,7 +123,6 @@ sub-product: adobe campaign classic
        + [Creating a direct mail delivery](delivery/using/creating-a-direct-mail-delivery.md)
        + [Defining the direct mail content](delivery/using/defining-the-direct-mail-content.md)
        + [Validating](delivery/using/validating.md)
-       + [Other channels](delivery/using/other-channels.md)
   + Using delivery templates {#using-delivery-templates}
        + [About templates](delivery/using/about-templates.md)
        + [Creating a delivery template](delivery/using/creating-a-delivery-template.md)
@@ -121,6 +135,7 @@ sub-product: adobe campaign classic
        + [Conditional content](delivery/using/conditional-content.md)
        + [Personalized coupons](delivery/using/personalized-coupons.md)
        + [Generating personalized PDF documents](delivery/using/generating-personalized-pdf-documents.md)
+       + [Customizing the emoticon list](delivery/using/customizing-emoticon-list.md)
   + Using seed addresses {#using-seed-addresses}
        + [About seed addresses](delivery/using/about-seed-addresses.md)
        + [Creating seed addresses](delivery/using/creating-seed-addresses.md)
@@ -133,7 +148,12 @@ sub-product: adobe campaign classic
        + [Managing subscriptions](delivery/using/managing-subscriptions.md)
        + [Viral and social marketing](delivery/using/viral-and-social-marketing.md)
   + Monitoring deliveries {#monitoring-deliveries}
-       + [Monitoring a delivery](delivery/using/monitoring-a-delivery.md)
+       + [Get started with delivery monitoring](delivery/using/about-delivery-monitoring.md)     
+       + [Accessing the list of deliveries](delivery/using/list-of-deliveries.md)     
+       + [Delivery dashboard](delivery/using/delivery-dashboard.md)
+       + [Delivery performances best practices](delivery/using/delivery-performances.md)
+       + [Delivery troubleshooting](delivery/using/delivery-troubleshooting.md)
+       + [Delivery statuses](delivery/using/delivery-statuses.md)
        + [Understanding delivery failures](delivery/using/understanding-delivery-failures.md)
        + [Understanding quarantine management](delivery/using/understanding-quarantine-management.md)
   + Tracking messages {#tracking-messages}
@@ -153,7 +173,7 @@ sub-product: adobe campaign classic
        + [Inbox rendering](delivery/using/inbox-rendering.md)
        + [SpamAssassin](delivery/using/spamassassin.md)
        + [Re-engagement best practices](delivery/using/re-engagement-best-practices.md)
-       + [Blacklisting databases](delivery/using/blacklisting-databases.md)
+       + [Block list databases](delivery/using/block-list-databases.md)
        + [Troubleshooting](delivery/using/deliverability-faq.md)
   + Content management module {#content-management}
        + [About content management](delivery/using/about-content-management.md)
@@ -245,7 +265,7 @@ sub-product: adobe campaign classic
        + [Use case: displaying report on answers to an online survey](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Designing web content {#designing-content}
   + Web applications {#web-applications}
-       + [About web applications](web/using/about-web-applications.md)
+       + [Get started with web applications](web/using/about-web-applications.md)
        + [Creating a new web application](web/using/creating-a-new-web-application.md)
        + [Designing a web application](web/using/designing-a-web-application.md)
        + [Use cases: creating overviews](web/using/use-cases--creating-overviews.md)
@@ -253,7 +273,7 @@ sub-product: adobe campaign classic
        + [Tracking a web application](web/using/tracking-a-web-application.md)
        + [Web application tracking opt-out](web/using/web-application-tracking-opt-out.md)
   + Editing HTML content {#editing-html-content}
-       + [About Campaign HTML editor](web/using/about-campaign-html-editor.md)
+       + [Get started with the HTML editor](web/using/about-campaign-html-editor.md)
        + [Template management](web/using/template-management.md)
        + [Content editor interface](web/using/content-editor-interface.md)
        + [Editing content](web/using/editing-content.md)
@@ -261,7 +281,7 @@ sub-product: adobe campaign classic
        + [Creating a landing page](web/using/creating-a-landing-page.md)
        + [Use case: creating an email delivery](web/using/use-case--creating-an-email-delivery.md)
   + Web forms {#web-forms}
-       + [About web forms](web/using/about-web-forms.md)
+       + [Get started with web forms](web/using/about-web-forms.md)
        + [Using a web form template](web/using/using-a-web-form-template.md)
        + [Adding fields to a web form](web/using/adding-fields-to-a-web-form.md)
        + [Static elements in a web form](web/using/static-elements-in-a-web-form.md)
@@ -274,9 +294,9 @@ sub-product: adobe campaign classic
        + [Translating a web form](web/using/translating-a-web-form.md)
        + [Use cases: web forms](web/using/use-cases--web-forms.md)
   + Online surveys {#online-surveys}
-       + [About surveys](web/using/about-surveys.md)
-       + [Getting started with surveys](web/using/getting-started-with-surveys.md)
-       + [Building a survey](web/using/building-a-survey.md)
+       + [Get started with surveys](web/using/about-surveys.md)
+       + [Key steps to create a survey](web/using/getting-started-with-surveys.md)
+       + [Designing a survey](web/using/building-a-survey.md)
        + [Managing answers](web/using/managing-answers.md)
        + [Publish, track and use collected data](web/using/publish--track-and-use-collected-data.md)
        + [Configuring surveys](web/using/configuring-surveys.md)
@@ -312,17 +332,29 @@ sub-product: adobe campaign classic
        + [Synchronizing audiences](integrations/using/synchronizing-audiences.md)
        + [Synchronizing web applications](integrations/using/synchronizing-web-applications.md)
        + [Troubleshooting the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
+  + Experience Cloud Triggers {#experience-triggers}
+       + [Get started with [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
+       + [Configuring pipeline](integrations/using/configuring-pipeline.md)
+       + [Configuring Adobe I/O for Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)
+       + [Configuring events for custom implementation](integrations/using/events.md)
+       + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
+       + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
 + Automating with Workflows {#automating-with-workflows}
   + Introduction {#introduction}
-       + [About workflows](workflow/using/about-workflows.md)
+       + [Get started with workflows](workflow/using/about-workflows.md)
        + [About activities](workflow/using/about-activities.md)
   +  General operation {#general-operation}
        + [Building a workflow](workflow/using/building-a-workflow.md)
        + [Targeting data](workflow/using/targeting-data.md)
        + [Importing data](workflow/using/importing-data.md)
        + [How to use workflow data](workflow/using/how-to-use-workflow-data.md)
-       + [Executing a workflow](workflow/using/executing-a-workflow.md)
        + [Workflow best practices](workflow/using/workflow-best-practices.md)
+  +  Executing a workflow {#executing-a-workflow}
+       + [Starting a workflow](workflow/using/starting-a-workflow.md)
+       + [Workflow life cycle](workflow/using/workflow-life-cycle.md)
+       + [Data life cycle](workflow/using/data-life-cycle.md)
+       + [Defining approvals](workflow/using/defining-approvals.md)
+       + [Architecture](workflow/using/architecture.md)
   + Targeting activities {#targeting-activities}
        + [About targeting activities](workflow/using/about-targeting-activities.md)
        + [Query](workflow/using/query.md)
@@ -384,6 +416,7 @@ sub-product: adobe campaign classic
        + [Inbound Emails](workflow/using/inbound-emails.md)
        + [Inbound SMS](workflow/using/inbound-sms.md)
   + Use cases {#use-cases}
+       + [About workflow use cases](workflow/using/about-workflow-use-cases.md)
        + Deliveries {#deliveries}
           + [Using the local approval activity](workflow/using/using-the-local-approval-activity.md)
           + [A/B testing](workflow/using/a-b-testing.md)
@@ -402,6 +435,8 @@ sub-product: adobe campaign classic
           + [Using aggregates](workflow/using/using-aggregates.md)
           + [Using the Deduplication activity's merge functionality](workflow/using/deduplication-merge.md)
        + Designing queries {#designing-queries}
+          + [Quarterly list update using an incremental query](workflow/using/quarterly-list-update.md)
+       + Targeting {#designing-queries}
           + [Querying the recipient table](workflow/using/querying-recipient-table.md)
           + [Querying delivery information](workflow/using/querying-delivery-information.md)
           + [Performing aggregate computing](workflow/using/performing-aggregate-computing.md)
@@ -418,7 +453,7 @@ sub-product: adobe campaign classic
        + [Workflow properties](workflow/using/workflow-properties.md)
        + [Advanced parameters](workflow/using/advanced-parameters.md)
        + [JavaScript scripts and templates](workflow/using/javascript-scripts-and-templates.md)
-       + [Accessing an external database (FDA)](workflow/using/accessing-an-external-database--fda-.md)
+       + [Accessing an external database](workflow/using/accessing-an-external-database--fda-.md)
        + [Managing rights](workflow/using/managing-rights.md)
        + [Managing activity images](workflow/using/managing-activity-images.md)
        + [Managing propensity](workflow/using/managing-propensity.md)
@@ -444,7 +479,7 @@ sub-product: adobe campaign classic
        + [Transfer to Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
        + [Mid-sourcing platform](workflow/using/mid-sourcing-platform.md)
 + Managing Offers {#managing-offers}
-  + Interaction Overview {#interaction-overview}
+  + Get started with Interaction {#interaction-overview}
        + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
        + [Glossary](interaction/using/glossary.md)
        + [Interaction best practices](interaction/using/interaction-best-practices.md)
@@ -496,7 +531,7 @@ sub-product: adobe campaign classic
        + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
 + Transactional Messaging {#transactional-messaging}
   + Introduction {#introduction}
-       + [About transactional messaging](message-center/using/about-transactional-messaging.md)
+       + [Get started with transactional messaging](message-center/using/about-transactional-messaging.md)
        + [Transactional messaging architecture](message-center/using/transactional-messaging-architecture.md)
        + [Event description](message-center/using/event-description.md)
   + Instance configuration {#instance-configuration}
@@ -516,6 +551,7 @@ sub-product: adobe campaign classic
        + [Transactional message preview](message-center/using/transactional-message-preview.md)
        + [Sending a proof](message-center/using/sending-a-proof.md)
        + [Template publication](message-center/using/template-publication.md)
+       + [Template unpublication](message-center/using/template-unpublication.md)
   + Event processing {#event-processing}
        + [About event processing](message-center/using/about-event-processing.md)
        + [Event collection](message-center/using/event-collection.md)
@@ -542,36 +578,35 @@ sub-product: adobe campaign classic
   + Annexes {#annexes}
        + [Examples of Facebook apps](social/using/examples-of-facebook-apps.md)
        + [Tracking](social/using/tracking.md)
-+ Installing Campaign Classic {#installing-campaign-classic}
-  + Architecture and hosting models {#architecture-and-hosting-models}
-       + [Before reading](installation/using/before-reading.md)
++ Installation and configuration guide {#installing-campaign-classic}
+  + Architecture principles {#architecture-and-hosting-models}
        + [General architecture](installation/using/general-architecture.md)
-       + [Hosting models](installation/using/hosting-models.md)
-  + Hybrid and Hosted models {#hybrid-and-hosted-models}
-       + [About hybrid and hosted models](installation/using/about-hybrid-and-hosted-models.md)
-       + [Hybrid model](installation/using/hybrid-model.md)
-       + [Hosted model](installation/using/hosted-model.md)
-  + Prerequisites and recommendations  {#prerequisites-and-recommendations-}
-       + [Before starting](installation/using/before-starting.md)
-       + [Database](installation/using/database.md)
+       + Hosting models{#hosting-models-lp}
+          + [About hosting models](installation/using/hosting-models.md)
+          + [Hybrid model](installation/using/hybrid-model.md)
+          + [Hosted model](installation/using/hosted-model.md)
+          + [Capability matrix](installation/using/capability-matrix.md)
+  + Deployment guidelines {#deployment-guidelines}
+       + [Prerequisites](installation/using/before-starting.md)
+       + [Database server](installation/using/database.md)
        + [Application server](installation/using/application-server.md)
        + [Messaging server](installation/using/messaging-server.md)
        + [Network configuration](installation/using/network-configuration.md)
-  + Deployment types  {#deployment-types-}
+  + Deployment types {#deployment-types-}
        + [About deployment types](installation/using/about-deployment-types.md)
        + [Standalone deployment](installation/using/standalone-deployment.md)
        + [Standard deployment](installation/using/standard-deployment.md)
        + [Enterprise deployment](installation/using/enterprise-deployment.md)
        + [Mid-sourcing deployment](installation/using/mid-sourcing-deployment.md)
        + [Power Booster and Power Cluster](installation/using/power-booster-and-power-cluster.md)
-  + Installing Campaign in Windows  {#installing-campaign-in-windows-}
-       + [Prerequisites of Campaign installation in Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+  + Campaign on Windows {#installing-campaign-in-windows-}
+       + [Before installing Campaign on Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
        + [Installing the server](installation/using/installing-the-server.md)
        + [Integration into a Web server for Windows](installation/using/integration-into-a-web-server-for-windows.md)
        + [Client console availability for Windows](installation/using/client-console-availability-for-windows.md)
        + [Installing the client console](installation/using/installing-the-client-console.md)
-  + Installing Campaign in Linux  {#installing-campaign-in-linux-}
-       + [Prerequisites of Campaign installation in Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+  + Campaign on Linux  {#installing-campaign-in-linux-}
+       + [Before installing Campaign on Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
        + [Installing packages with Linux](installation/using/installing-packages-with-linux.md)
        + [Integration into a Web server for Linux](installation/using/integration-into-a-web-server-for-linux.md)
        + [Client console availability for Linux](installation/using/client-console-availability-for-linux.md)
@@ -591,16 +626,35 @@ sub-product: adobe campaign classic
        + [Configuring SpamAssassin](installation/using/configuring-spamassassin.md)
        + [Mid-sourcing server](installation/using/mid-sourcing-server.md)
        + [Interaction - Data buffer](installation/using/interaction---data-buffer.md)
+       + [Configuring external accounts](installation/using/external-accounts.md)
+  + Accessing an external database {#accessing-external-database}
+       + [Get started with FDA](installation/using/about-fda.md)
+       + Configuration guidelines {#config-databases}
+          + [Configuration steps](installation/using/configure-fda.md)
+          + [Configure Snowflake](installation/using/configure-fda-snowflake.md)
+          + [Configure Azure Synapse](installation/using/configure-fda-synapse.md)
+          + [Configure Hadoop](installation/using/configure-fda-hadoop.md)
+          + [Configure Oracle](installation/using/configure-fda-oracle.md)
+          + [Configure Netezza](installation/using/configure-fda-netezza.md)
+          + [Configure Sybase IQ](installation/using/configure-fda-sybase.md)
+          + [Configure Teradata](installation/using/configure-fda-teradata.md)
+          + [Configure SAP HANA](installation/using/configure-fda-sap-hana.md)
+       + [Remote access rights](installation/using/remote-database-access-rights.md)
+       + [Connecting to the database](installation/using/connecting-to-database.md)
+       + [Creating the data schema](installation/using/creating-data-schema.md)
+       + [Defining data mapping](installation/using/defining-data-mapping.md)
   + Appendices {#appendices}
-       + [The server configuration file](installation/using/the-server-configuration-file.md)
+       + [Server configuration file](installation/using/the-server-configuration-file.md)
+       + [Campaign network endpoints](installation/using/campaign-network-endpoints.md)
        + [Command lines](installation/using/command-lines.md)
        + [Creating new instances](installation/using/creating-new-instances.md)
-       + [List of Campaign Classic options](installation/using/configuring-campaign-options.md)
+       + [List of Campaign options](installation/using/configuring-campaign-options.md)
        + [Uninstalling Campaign](installation/using/uninstalling-campaign.md)
-+ Monitoring Campaign Classic {#monitoring-campaign-classic}
++ Monitoring guide {#monitoring-campaign-classic}
   + Introduction {#introduction}
        + [Foreword](production/using/foreword.md)
        + [General architecture](production/using/general-architecture.md)
+       + [Monitoring guidelines](production/using/monitoring-guidelines.md)
   + Production procedures {#production-procedures}
        + [Configuration principle](production/using/configuration-principle.md)
        + [Operating principle](production/using/operating-principle.md)
@@ -617,7 +671,8 @@ sub-product: adobe campaign classic
        + [Database cleanup workflow](production/using/database-cleanup-workflow.md)
   + Updating Adobe Campaign {#updating-adobe-campaign}
        + [Introduction](production/using/introduction.md)
-       + [Upgrading](production/using/upgrading.md)
+       + [Performing a build upgrade](production/using/build-upgrade.md)
+       + [Upgrading procedure (on-premise)](production/using/upgrading.md)
        + [Switching to Unicode](production/using/switching-to-unicode.md)
        + [Migration procedures](production/using/migration-procedures.md)
   + Database maintenance {#database-maintenance}
@@ -643,7 +698,7 @@ sub-product: adobe campaign classic
        + [Console update](production/using/console-update.md)
        + [Lost password](production/using/lost-password.md)
        + [JSP behavior](production/using/jsp-behavior.md)
-+ Configuring Campaign Classic {#configuring-campaign-classic}
++ Developers guide {#configuring-campaign-classic}
   + Data model {#data-model}
        + [About the data model](configuration/using/about-data-model.md)
        + [Data model description](configuration/using/data-model-description.md)
@@ -652,7 +707,25 @@ sub-product: adobe campaign classic
        + [About schema reference](configuration/using/about-schema-reference.md)
        + [Schema structure](configuration/using/schema-structure.md)
        + [Database mapping](configuration/using/database-mapping.md)
-       + [Elements and attributes](configuration/using/elements-and-attributes.md)
+       + Elements and attributes {#elements-attributes}
+           + [Introduction](configuration/using/schema-introduction.md)
+           + [Attribute](configuration/using/schema/attribute.md)
+           + [Compute string](configuration/using/schema/compute-string.md)
+           + [Condition](configuration/using/schema/condition.md)
+           + [DB index](configuration/using/schema/db-index.md)
+           + [Element](configuration/using/schema/element.md)
+           + [Enumeration](configuration/using/schema/enumeration.md)
+           + [Help](configuration/using/schema/help.md)
+           + [Join](configuration/using/schema/join.md)
+           + [Key](configuration/using/schema/key.md) 
+           + [Keyfield](configuration/using/schema/keyfield.md)
+           + [Method](configuration/using/schema/method.md)
+           + [Methods](configuration/using/schema/methods.md)
+           + [Param](configuration/using/schema/param.md)
+           + [Parameters](configuration/using/schema/parameters.md)
+           + [SrcSchema](configuration/using/schema/srcschema.md)
+           + [Sysfilter](configuration/using/schema/sysfilter.md)
+           + [Value](configuration/using/schema/value.md)
   + Editing schemas {#editing-schemas}
        + [About schema edition](configuration/using/about-schema-edition.md)
        + [Data schemas](configuration/using/data-schemas.md)
@@ -701,7 +774,7 @@ sub-product: adobe campaign classic
        + [Inserting tags in your site](configuration/using/inserting-tags-in-your-site.md)
        + [Collecting all visits](configuration/using/collecting-all-visits.md)
        + [Anonymous tracking](configuration/using/anonymous-tracking.md)
-+ Migrating to a new version {#migrating-to-a-new-version}
++ Migration guide {#migrating-to-a-new-version}
   + Migration overview {#migration-overview}
        + [About migration](migration/using/about-migration.md)
        + [Migration method](migration/using/migration-method.md)
@@ -719,8 +792,4 @@ sub-product: adobe campaign classic
        + [Specific configurations in v5.11](migration/using/specific-configurations-in-v5-11.md)
        + [Specific configurations in v6.02](migration/using/specific-configurations-in-v6-02.md)
        + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
-  + Rollback {#rollback}
-       + [About rollback](migration/using/about-rollback.md)
-       + [Restoring v5.11](migration/using/restoring-v5-11.md)
-       + [Restoring v6.02](migration/using/restoring-v6-02.md)
-       + [Restoring v6.1](migration/using/restoring-v6-1.md)
+  + [Rollback procedure](migration/using/about-rollback.md)

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Email deliverability
-seo-title: Email deliverability
 description: Email deliverability
-seo-description: 
-page-status-flag: never-activated
-uuid: 983aec6b-60f6-4c9b-a75a-1693958626c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: 86c18986-1f65-40ff-80dc-1fbff37f406d
-index: y
-internal: n
-snippet: y
 ---
 
 # Technical email configurations{#email-deliverability}
@@ -24,7 +16,7 @@ The following section provides an overview of the configuration required for con
 
 >[!NOTE]
 >
->Some configurations can only be performed by Adobe for deployments hosted by Adobe, for example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Some configurations can only be performed by Adobe for deployments hosted by Adobe, for example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md).
 
 For more on the concepts and best practices related to deliverability, refer to this [section](../../delivery/using/about-deliverability.md).
 

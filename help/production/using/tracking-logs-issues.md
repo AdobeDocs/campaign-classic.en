@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Tracking logs issues
-seo-title: Tracking logs issues
 description: Tracking logs issues
-seo-description: 
-page-status-flag: never-activated
-uuid: 996869c4-7ffe-4fcc-9555-1d8b65e93e87
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 1b9ff479-4847-408d-a5c2-9a164805081f
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking logs issues{#tracking-logs-issues}

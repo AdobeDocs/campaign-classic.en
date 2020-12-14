@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Database performances
-seo-title: Database performances
 description: Database performances
-seo-description: 
-page-status-flag: never-activated
-uuid: 47ff7532-1fe7-47c2-bc3b-0f46d3a4a288
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 6358c8fd-2b75-4462-acd1-887ee44d3110
-index: y
-internal: n
-snippet: y
 ---
 
 # Database performances{#database-performances}
@@ -53,7 +45,7 @@ Make sure database maintenance is correctly scheduled and executed. To do this, 
 
 For more on this, refer to [this section](../../production/using/recommendations.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If you are using a mid-sourcing configuration, it is essential for databases to be maintained on a regular basis. When analyzing a delivery on the marketing platform, the marketing instance sends information to the mid-sourcing instance. If the process is slowed down, the marketing instance will be impacted.
 
@@ -65,7 +57,7 @@ Please check the number and size of work tables. When they exceed a certain size
 * stop or delete workflows which are paused due to an error,
 * stop all workflows used for tests which do not contain an **[!UICONTROL End]** activity and whose status therefore remains **[!UICONTROL Paused]** .
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If the operation takes a long time and frees up a lot of space, this means that in-depth maintenance is necessary (index rebuilding, etc.). For more on this, refer to [this section](../../production/using/recommendations.md).
 

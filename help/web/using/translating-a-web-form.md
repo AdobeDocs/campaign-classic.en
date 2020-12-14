@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Translating a web form
-seo-title: Translating a web form
 description: Translating a web form
-seo-description: 
-page-status-flag: never-activated
-uuid: 3de2b021-ce1e-4597-8099-7fbef3279170
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: 145c26cc-c868-4b7b-904d-6af577fbcb83
-index: y
-internal: n
-snippet: y
 ---
 
 # Translating a web form{#translating-a-web-form}
@@ -106,7 +98,7 @@ It's possible to export and import character strings to translate them using a t
 
 ### Exporting files {#exporting-files}
 
-1. Select the Web application(s) whose strings you want to import, right-click, then select **[!UICONTROL Actions > Export strings for translation...]** 
+1. Select the Web application(s) whose strings you want to export, right-click, then select **[!UICONTROL Actions > Export strings for translation...]** 
 
    ![](assets/s_ncs_admin_survey_trad_export.png)
 
@@ -455,7 +447,7 @@ To add a language, apply the following steps:
 
    ![](assets/s_ncs_admin_survey_trad_system_translation.png)
 
-1. Select the translation language and enter a translation for the string. You can approve the translation by checking the **[!UICONTROL Translation validated]** option. 
+1. Select the translation language and enter a translation for the string. You can approve the translation by checking the **[!UICONTROL Translation approved]** option. 
 
    ![](assets/s_ncs_admin_survey_trad_system_translation2.png)
 
@@ -471,7 +463,7 @@ To add a language, apply the following steps:
 
 To translate Web applications into languages other than the default ones (refer to [Changing forms display language](#changing-forms-display-language)), you will need to add a new translation language.
 
-1. Click the **[!UICONTROL Administration > Platform > Itemized lists]** node of the Adobe Campaign tree and select **[!UICONTROL Languages available for translation]** from the list. The list of available translations is displayed in the lower section of the window. 
+1. Click the **[!UICONTROL Administration > Platform > Enumerations]** node of the Adobe Campaign tree and select **[!UICONTROL Languages available for translation]** from the list. The list of available translations is displayed in the lower section of the window. 
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 

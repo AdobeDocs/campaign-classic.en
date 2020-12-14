@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Campaign simulations
-seo-title: Campaign simulations
 description: Campaign simulations
-seo-description: 
-page-status-flag: never-activated
-uuid: d5a090ef-57e5-46b2-b9ad-6d4d964c8e20
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-discoiquuid: e8e7a720-c93d-491d-8768-270e47e9c898
-index: y
-internal: n
-snippet: y
 ---
 
 # Campaign simulations{#campaign-simulations}

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating and managing tasks
-seo-title: Creating and managing tasks
 description: Creating and managing tasks
-seo-description: 
-page-status-flag: never-activated
-uuid: 1d219ae4-1ca9-42cb-a49e-2b647520bda0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-discoiquuid: d71e5ff7-1e81-4c49-9673-c6fae890029b
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and managing tasks{#creating-and-managing-tasks}
@@ -270,10 +262,10 @@ When you create tasks via a campaign, you can create specific tasks. The type of
 
 The following tasks can be scheduled:
 
-* **[!UICONTROL Control task]**, refer to [Control tasks](#control-tasks),
-* **[!UICONTROL Marketing resource creation task]**, refer to [Grouping task](#grouping-task),
-* **[!UICONTROL Grouping task]**, refer to [Grouping task](#grouping-task),
-* **[!UICONTROL Notification task]**, refer to [Notification task](#notification-task).
+* [Control tasks](#control-tasks),
+* [Grouping task](#grouping-task),
+* [Grouping task](#grouping-task),
+* [Notification task](#notification-task).
 
 >[!NOTE]
 >

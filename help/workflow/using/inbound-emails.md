@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Inbound Emails
-seo-title: Inbound Emails
-description: Inbound Emails
-seo-description: 
-page-status-flag: never-activated
-uuid: 6bcc7952-f051-4e50-8833-95d49c7ed781
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Inbound Emails workflow activity
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-discoiquuid: 4c0530b1-0292-45bc-8730-668bc5b8550b
-index: y
-internal: n
-snippet: y
 ---
 
 # Inbound Emails{#inbound-emails}
@@ -79,5 +71,5 @@ The first tab of the **Inbound Emails** activity lets you enter the parameters o
 
    ![](assets/email_rec_edit_3.png)
 
-   Configuration is the same as for the scheduling activity. Refer to [Expirations](../../workflow/using/executing-a-workflow.md#expirations).
+   Configuration is the same as for the scheduling activity. Refer to [Expirations](../../workflow/using/defining-approvals.md).
 

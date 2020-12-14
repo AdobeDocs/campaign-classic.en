@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Update data
-seo-title: Update data
-description: Update data
-seo-description: 
-page-status-flag: never-activated
-uuid: 5f3ab7c8-175a-4b06-a50c-edc97b226e3c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Update data workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: c94ce5b7-aa8a-4ea2-845d-68c9c7dc2a7b
-index: y
-internal: n
-snippet: y
 ---
 
 # Update data{#update-data}
@@ -27,7 +19,7 @@ The **[!UICONTROL Operation type]** field lets you choose the process to be carr
 * **[!UICONTROL Insert or update]**: add data or update it if it has already been added.
 * **[!UICONTROL Insert]**: only add data.
 * **[!UICONTROL Update]**: only update data.
-* **[!UICONTROL Update and merge collections]**: update data and choose a "master" record, then link elements linked to the duplicates in this master record. Duplicates can then be deleted without creating orphan attached elements.
+* **[!UICONTROL Update and merge collections]**: update data and choose a primary record, then link elements linked to the duplicates in this primary record. Duplicates can then be deleted without creating orphan attached elements.
 * **[!UICONTROL Delete]**: delete data.
 
 ![](assets/s_advuser_update_data_1.png)

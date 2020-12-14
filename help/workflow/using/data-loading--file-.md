@@ -1,24 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Data loading (file)
-description: Learn more about the Data loading (file) activity.
-page-status-flag: never-activated
-uuid: c064aa23-412e-49b4-a51d-b0e8ca572f2e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Data loading (file) workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: dcb5b8e8-be38-4d89-908d-f57c2413a9bc
-index: y
-internal: n
-snippet: y
 ---
 
 # Data loading (file){#data-loading-file}
 
 ## Use {#use}
 
-The **[!UICONTROL Load (File)]** activity lets you directly access a source of external data and use it in Adobe Campaign. Indeed, all the data required for targeting operations isn't always found in the Adobe Campaign database: it can be made available in external files.
+The **[!UICONTROL Data loading (File)]** activity lets you directly access a source of external data and use it in Adobe Campaign. Indeed, all the data required for targeting operations isn't always found in the Adobe Campaign database: it can be made available in external files.
 
 The file to be loaded can be specified by the transition or calculated during the execution of this activity. For example, it can be the list of a client's 10 favorite products whose purchases are managed in an external database.
 
@@ -31,6 +25,10 @@ The upper section of the configuration window for this activity lets you define 
 ![](assets/s_advuser_wf_etl_file.png)
 
 You can define a pre-process to be executed during file import, for example so as not to have to unzip the file on the server (and therefore save space for the unzipped file) but to include unzipping in file processing. Select the **[!UICONTROL Pre-process the file]** option and choose from one of 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg).
+
+   ![](assets/preprocessing-dataloading.png)
+
+For more on this, refer to this section: [Unzippping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
 
 ## Defining the file format {#defining-the-file-format}
 

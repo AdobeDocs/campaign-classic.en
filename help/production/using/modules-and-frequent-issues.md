@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Modules and frequent issues
-seo-title: Modules and frequent issues
 description: Modules and frequent issues
-seo-description: 
-page-status-flag: never-activated
-uuid: d53324ce-b6e2-40d7-932d-36ce4a6f5cf8
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: a44f5e71-3f9b-4d02-8b7a-a9782bb6bdd8
-index: y
-internal: n
-snippet: y
 ---
 
 # Modules and frequent issues{#modules-and-frequent-issues}

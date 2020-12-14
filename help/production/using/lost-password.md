@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Lost password
-seo-title: Lost password
 description: Lost password
-seo-description: 
-page-status-flag: never-activated
-uuid: caac68bf-abdc-45da-9697-b689ebd37002
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: d52eeadc-19c6-4d48-995a-1c1f2ca3b5ec
-index: y
-internal: n
-snippet: y
 ---
 
 # Lost password{#lost-password}

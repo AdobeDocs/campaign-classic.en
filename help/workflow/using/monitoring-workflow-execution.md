@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Monitoring workflow execution
-seo-title: Monitoring workflow execution
 description: Monitoring workflow execution
-seo-description: 
-page-status-flag: never-activated
-uuid: 4d215ff4-a61d-4294-8f15-17c612022577
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring workflow execution {#monitoring-workflow-execution}
@@ -24,7 +16,7 @@ A use case on how to create a workflow that lets you monitor the status of a set
 
 Additionnally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. For more on this, refer to the [dedicated section](../../production/using/audit-trail.md).
 
-Additional ways of monitoring the different Campaign processes are presented in [this page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+Additional ways of monitoring the different Campaign processes are presented in [this page](../../production/using/monitoring-guidelines.md).
 
 ## Displaying progress {#displaying-progress}
 
@@ -98,7 +90,7 @@ The log shows the chronological list of execution messages related to targeting 
 
 ## Purging the logs {#purging-the-logs}
 
-Workflow history is not purged automatically: all messages are kept by default. History can be purged via the **[!UICONTROL File > Actions]** menu or by clicking the **[!UICONTROL Actions]** button located in the toolbar above the list. Select **[!UICONTROL Purge history]**. The options available in the **[!UICONTROL Actions]** menu is detailed in the [Actions toolbar](../../workflow/using/executing-a-workflow.md#actions-toolbar) section.
+Workflow history is not purged automatically: all messages are kept by default. History can be purged via the **[!UICONTROL File > Actions]** menu or by clicking the **[!UICONTROL Actions]** button located in the toolbar above the list. Select **[!UICONTROL Purge history]**. The options available in the **[!UICONTROL Actions]** menu is detailed in the [Actions toolbar](../../workflow/using/starting-a-workflow.md) section.
 
 ![](assets/purge_historique.png)
 

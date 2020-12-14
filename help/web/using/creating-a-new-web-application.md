@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a new web application
-seo-title: Creating a new web application
 description: Creating a new web application
-seo-description: 
-page-status-flag: never-activated
-uuid: 4e783bd5-222f-4d35-8df7-1e1b83587b5a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-applications
-discoiquuid: 84f9dbad-365f-405d-88a0-14171fbb805f
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a new web application{#creating-a-new-web-application}
@@ -23,6 +15,10 @@ Web application types are selected during creation.
 Go to the **Campaigns** tab and select the **[!UICONTROL Web Applications]** menu. Click the **[!UICONTROL Create]** button. Select the Web application template you want to use:
 
 ![](assets/webapp_create_from_campaign.png)
+
+>[!NOTE]
+>
+>Always protect the pages that might contain personal information. Refer to the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy).
 
 This template determines the type of Web application. You can create:
 

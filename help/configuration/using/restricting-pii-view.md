@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Restricting PII view
-seo-title: Restricting PII view
 description: Restricting PII view
-seo-description: 
-page-status-flag: never-activated
-uuid: 4dddc7f5-dac3-47b3-b3cb-92b47eb595fa
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 550439c1-978c-414e-be5b-a9e1a202c4cd
-index: y
-internal: n
-snippet: y
 ---
 
 # Restricting PII view{#restricting-pii-view}

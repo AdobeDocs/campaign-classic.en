@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a local campaign
-seo-title: Creating a local campaign
 description: Creating a local campaign
-seo-description: 
-page-status-flag: never-activated
-uuid: 86e78d9e-26cb-4aea-b8ce-5e52ae352b48
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-discoiquuid: bd057441-8524-49e6-b5d5-fbd0ec5bca85
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a local campaign{#creating-a-local-campaign}
@@ -52,27 +44,27 @@ In the campaign window, click the **[!UICONTROL Edit]** tab, then click the **[!
 
 In the **Distributed marketing** tab, you can choose the type of Web interface and specify the default values and parameters to be entered when a local entity places an order.
 
-The Web interface corresponds to a form to be filled in by the local entity when ordering the campaign.
+The web interface corresponds to a form to be filled in by the local entity when ordering the campaign.
 
-Select the type of Web interface to be applied to the campaigns created from the template:
+Select the type of web interface to be applied to the campaigns created from the template:
 
 ![](assets/mkt_distr_1.png)
 
-There are four types of Web interfaces available:
+There are four types of web interfaces available:
 
 * **[!UICONTROL By brief]** : local entity must provide a description whereby it describes the campaign configurations. Once the order has been approved, the central entity configures and executes the campaign as a whole.
 
   ![](assets/mkt_distr_6.png)
 
-* **[!UICONTROL By form]** : local entity has access to a Web form where, depending on the template used, they can edit the content, the target, its maximum size, as well as creation and extraction dates using personalization fields. Local entity can evaluate the target and preview content from this Web form.
+* **[!UICONTROL By form]** : local entity has access to a web form where, depending on the template used, they can edit the content, the target, its maximum size, as well as creation and extraction dates using personalization fields. Local entity can evaluate the target and preview content from this web form.
 
   ![](assets/mkt_distr_8.png)
 
-  The form offered is specified in a Web application that must be selected in a drop-down list from the **[!UICONTROL Web Interface]** field in the template's **[!UICONTROL Advanced campaign settings...]** link. Refer to [Creating a local campaign (by form)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+  The form offered is specified in a web application that must be selected in a drop-down list from the **[!UICONTROL web Interface]** field in the template's **[!UICONTROL Advanced campaign settings...]** link. Refer to [Creating a local campaign (by form)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
   >[!NOTE]
   >
-  >The Web application used in this example is an example. You must create a specific Web app to be able to use a form. Refer to [API](../../configuration/using/about-web-services.md).
+  >The web application used in this example is an example. You must create a specific web app to be able to use a form. Refer to [API](../../configuration/using/about-web-services.md).
 
   ![](assets/mkt_distr_7.png)
 
@@ -241,15 +233,15 @@ To order a campaign:
 
    >[!NOTE]
    >
-   >Web applications are detailed in the [Web functionalities](../../web/using/about-web-applications.md) guide.
+   >Web applications are detailed in [this section](../../web/using/about-web-applications.md).
 
 1. Enter the necessary information in the first page (order label and comment) and click **[!UICONTROL Next]**.
 
    ![](assets/mkg_dist_subscribe_step1.png)
 
-   Complete the available parameters and approve the order.
+1. Complete the available parameters and approve the order.
 
-   A notification is sent to the manager of the organizational entity to which the local entity belongs, to approve this order.
+1. A notification is sent to the manager of the organizational entity to which the local entity belongs, to approve this order.
 
    ![](assets/mkg_dist_subscribe_step3.png)
 

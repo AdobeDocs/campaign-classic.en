@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Starting workflows
-seo-title: Starting workflows
 description: Starting workflows
-seo-description: 
-page-status-flag: never-activated
-uuid: d53ec473-a840-4db5-aa6c-d44139098b2e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: configuration
-discoiquuid: 32f81ae9-396d-4bb6-8c81-6b75744f529d
-index: y
-internal: n
-snippet: y
 ---
 
 # Starting workflows{#starting-workflows}

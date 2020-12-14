@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Exporting data
-seo-title: Exporting data
 description: Exporting data
-seo-description: 
-page-status-flag: never-activated
-uuid: 818de79a-587f-4735-b333-4bc702c3b450
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: fecadb66-b81d-4fb6-9971-7bfd024d70b7
-index: y
-internal: n
-snippet: y
 ---
 
 # Exporting data{#exporting-data}
@@ -69,7 +61,7 @@ Select an output format for the export file. The following formats can be used: 
 * For **[!UICONTROL Text]** format, select the delimiters to separate the columns (tabs, commas, semi-colons, or custom) and the strings (single or double quotes, or none).
 * For **[!UICONTROL text]** and **[!UICONTROL CSV]**, you can select the option **[!UICONTROL Use first lines as column titles]**.
 * Indicate the date format and number format. To do this, click the **[!UICONTROL Edit]** button for the field concerned and use the editor.
-* For fields containing enumerated values, you can select **[!UICONTROL Export labels instead of internal values of enumerations]**. For example, the title can be stored in the form **1=Mr.**, **2=Miss**,** 3=Mrs.**. If this option is selected, **Mr.**, **Miss** and **Mrs.** will be exported.
+* For fields containing enumerated values, you can select **[!UICONTROL Export labels instead of internal values of enumerations]**. For example, the title can be stored in the form **1=Mr.**, **2=Miss**, **3=Mrs.**. If this option is selected, **Mr.**, **Miss** and **Mrs.** will be exported.
 
 ### Step 4 - Data selection {#step-4---data-selection}
 

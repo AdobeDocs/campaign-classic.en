@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Setup stages
-seo-title: Setup stages
 description: Setup stages
-seo-description: 
-page-status-flag: never-activated
-uuid: 4111a805-95ab-4e26-be51-2db1e5c20f57
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: 76174374-af73-4da0-b62b-6979bca0102b
-index: y
-internal: n
-snippet: y
 ---
 
 # Setup stages{#setup-stages}
@@ -23,7 +15,7 @@ The basic principle is the insertion of web tracking tags in certain pages of yo
 There are two types of tags:
 
 * **WEB**: this tag tells you if the page has been visited,
-* **TRANSACTION**: operates like a Web tag, but with the possibility of adding information on the business volume generated, for example (transaction amount, number of items purchased, etc.).
+* **TRANSACTION**: operates like a web tag, but with the possibility of adding information on the business volume generated, for example (transaction amount, number of items purchased, etc.).
 
 Apply the following steps to set up these tags:
 

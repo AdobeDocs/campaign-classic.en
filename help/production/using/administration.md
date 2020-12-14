@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Administration
-seo-title: Administration
 description: Administration
-seo-description: 
-page-status-flag: never-activated
-uuid: 376efec1-1647-43b4-b72f-2603214c7cc6
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: 860be8be-f28c-4836-b4fb-e91c6a4616c6
-index: y
-internal: n
-snippet: y
 ---
 
 # Administration{#administration}

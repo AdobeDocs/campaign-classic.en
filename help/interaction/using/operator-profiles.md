@@ -1,26 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Operator profiles
-seo-title: Operator profiles
 description: Operator profiles
-seo-description: 
-page-status-flag: never-activated
-uuid: cd718d20-79cb-40ed-b2ae-23186387e2db
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-discoiquuid: 9a3f1dc9-71ef-4039-94b4-a217996f6a80
-index: y
-internal: n
-snippet: y
 ---
 
 # Operator profiles{#operator-profiles}
 
 There are two types of operators who use Interaction: offer managers and delivery managers. They each have specific rights that only give them access to some parts of the tree and the platform.
 
-* **[!UICONTROL Offer manager]** : creates and maintains offers
+* **[!UICONTROL Offer manager]** : creates and maintains offers. Note that if offers are used in the workflow, the operator will need to be in the **[!UICONTROL Administrator]** or **[!UICONTROL Offer managers]** operator group to execute the workflow.
 * **[!UICONTROL Delivery manager]** : approves and uses offers
 
 The steps for creating operators specific to Interaction are identical to those used to create all other operators on the platform. For more on this, refer to [this section](../../platform/using/access-management.md#creating-an-operator). The rights are configured during operator creation.

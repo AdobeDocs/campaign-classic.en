@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Deliveries
-seo-title: Deliveries
-description: Deliveries
-seo-description: 
-page-status-flag: never-activated
-uuid: d323eb4d-937b-4b37-8400-942336f0a1b4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about default Deliveries workflows
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: 37612f62-68c0-4f73-a9a1-6d017aab862f
-index: y
-internal: n
-snippet: y
 ---
 
 # Deliveries{#deliveries}

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Extending a schema
-seo-title: Extending a schema
-description: Extending a schema
-seo-description: 
-page-status-flag: never-activated
-uuid: 1767b9de-1d72-4ece-aeec-87f83862d81c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to extend a schema
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 1c9af980-4e6b-44dc-af61-dd284863ec7d
-index: y
-internal: n
-snippet: y
 ---
 
 # Extending a schema{#extending-a-schema}

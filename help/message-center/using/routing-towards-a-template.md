@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Routing towards a template
-seo-title: Routing towards a template
 description: Routing towards a template
-seo-description: 
-page-status-flag: never-activated
-uuid: 1f8252c4-7f96-4759-9544-39b8f854961f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-discoiquuid: 8fa464e6-3c88-441c-8179-0c54960469a7
-index: y
-internal: n
-snippet: y
 ---
 
 # Routing towards a template{#routing-towards-a-template}
@@ -30,7 +22,6 @@ Definition of the event type in the message template properties:
 
 By default, routing is based on the following information:
 
-* the event type,
-* the channel to be used (by default: email),
-* the most recent delivery template, based on the publication date.
-
+* The event type
+* The channel to be used (by default: email)
+* The most recent delivery template, based on the publication date

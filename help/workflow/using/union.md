@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Union
-seo-title: Union
-description: Union
-seo-description: 
-page-status-flag: never-activated
-uuid: 987e106e-c414-4db4-a93e-96e43dc04370
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Union workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 573021ad-1efb-4156-af6d-417737ce745a
-index: y
-internal: n
-snippet: y
 ---
 
 # Union{#union}

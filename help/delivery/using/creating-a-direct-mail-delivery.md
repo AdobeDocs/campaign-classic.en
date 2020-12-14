@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a direct mail delivery
-seo-title: Creating a direct mail delivery
 description: Creating a direct mail delivery
-seo-description: 
-page-status-flag: never-activated
-uuid: f7567144-48e8-4683-89d4-a34efb451215
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-discoiquuid: d6eae7e3-0d57-457e-99a2-1ed7b10474e6
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a direct mail delivery{#creating-a-direct-mail-delivery}

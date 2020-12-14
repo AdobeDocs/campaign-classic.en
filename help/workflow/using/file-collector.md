@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: File collector
-seo-title: File collector
-description: File collector
-seo-description: 
-page-status-flag: never-activated
-uuid: 57ef7b2b-f257-4d76-970f-55aece719cec
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the File collector workflow activity
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-discoiquuid: 9b937d4d-55ae-4bd4-8dc6-eea42f15b69f
-index: y
-internal: n
-snippet: y
 ---
 
 # File collector{#file-collector}
@@ -78,6 +70,4 @@ The file processing order cannot be determined. To process a set of files sequen
 
 ## Output parameters {#output-parameters}
 
-* filename
-
-Complete filename. This is the filename after it has been moved to the historization directory. The path is therefore different, but the name is also different if another file with the same name already exists in the directory. The extension is kept.
+* filename: Complete filename. This is the filename after it has been moved to the historization directory. The path is therefore different, but the name is also different if another file with the same name already exists in the directory. The extension is kept.

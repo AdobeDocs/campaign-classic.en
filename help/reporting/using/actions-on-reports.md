@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Actions on reports
-seo-title: Actions on reports
 description: Actions on reports
-seo-description: 
-page-status-flag: never-activated
-uuid: 7f9d99ab-ce19-46dd-bbf0-79de348d38fb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: 3b9c138e-8f7f-4ee1-9baa-328848d01d3a
-index: y
-internal: n
-snippet: y
 ---
 
 # Actions on reports{#actions-on-reports}

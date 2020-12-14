@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Integrating an offer via the wizard
-seo-title: Integrating an offer via the wizard
 description: Integrating an offer via the wizard
-seo-description: 
-page-status-flag: never-activated
-uuid: 0d8cf0b5-fc27-4bf4-bd1d-892fe6e3257b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
-discoiquuid: 181fcb70-9394-4091-93df-92c39273ec3d
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating an offer via the wizard{#integrating-an-offer-via-the-wizard}

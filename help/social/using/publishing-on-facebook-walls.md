@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publishing on Facebook walls
-seo-title: Publishing on Facebook walls
 description: Publishing on Facebook walls
-seo-description: 
-page-status-flag: never-activated
-uuid: 02288473-a0d7-42b5-9f86-3c96550ab1a8
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: configuration
-discoiquuid: 8577db0b-f1fc-41af-aa0f-ec4d02dac376
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing on Facebook walls{#publishing-on-facebook-walls}
@@ -30,7 +22,7 @@ In order for Adobe Campaign to be able to send publications to Facebook walls, y
 Start by creating a Facebook account and several pages: these will be used for sending publications.
 
 * To create a Facebook account, use the [https://www.facebook.com](https://www.facebook.com) link.
-* To create a Facebook page, use the [https://www.facebook.com/pages/create.php](https://www.facebook.com/pages/create.php) link.
+* To create a Facebook page, use the [https://www.facebook.com/pages/create](https://www.facebook.com/pages/create) link.
 
   We recommend using the same Facebook account to administer all your pages. This way you will only need one Facebook application and one external account to write on all pages of the account.
 

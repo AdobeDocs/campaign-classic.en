@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Inserting tags in your site
-seo-title: Inserting tags in your site
 description: Inserting tags in your site
-seo-description: 
-page-status-flag: never-activated
-uuid: e5e4a431-2093-4d5a-acd2-0040b6ce3519
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: 57988b00-62cc-43d3-a2eb-bfed5bff7dc1
-index: y
-internal: n
-snippet: y
 ---
 
 # Inserting tags in your site{#inserting-tags-in-your-site}

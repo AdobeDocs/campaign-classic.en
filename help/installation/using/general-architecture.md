@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: General architecture
-seo-title: General architecture
-description: General architecture
-seo-description: 
-page-status-flag: never-activated
-uuid: 686bc660-2403-4bab-a4ea-9b872adf8fa0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to install and configure Campaign Classic.
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
-discoiquuid: 7c28c179-eb18-437e-baf2-25829566c766
-index: y
-internal: n
-snippet: y
 ---
 
 # General architecture{#general-architecture}
@@ -42,14 +34,14 @@ Adobe Campaign is based on a service-oriented architecture (SOA) and comprises s
 
 >[!CAUTION]
 >
->If not explicitly stated otherwise, installation, updates and maintenance on all components of an Adobe Campaign platform are the responsibility of the machine administrator(s) hosting them. This includes implementing the prerequisites for Adobe Campaign applications as well as complying with the [Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) between components.
+>If not explicitly stated otherwise, installation, updates and maintenance on all components of an Adobe Campaign platform are the responsibility of the machine administrator(s) hosting them. This includes implementing the prerequisites for Adobe Campaign applications as well as complying with Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md) between components.
 
 ## Presentation layer {#presentation-layer}
 
 The application can be accessed in different ways, depending on the users' needs: Rich client, Thin client or API integration.
 
 * **Rich client**: The main user interface of the application is a rich client, in other words, a native application (Windows) that communicates with the Adobe Campaign application server solely with standard internet protocols (SOAP, HTTP, etc.). This console provides great user-friendliness for productivity, uses very little bandwidth (through the use of a local cache) and is designed for easy deployment. This console can be deployed from an internet browser, can be updated automatically and does not require any specific network configuration because it only generates HTTP(S) traffic.
-* **Thin client**: Certain parts of the application can be accessed via a simple Web browser using an HTML user interface, including the reporting module, delivery approval stages, functionalities of the Distributed Marketing module (central/local), instance monitoring, etc. This mode makes it possible to include Adobe Campaign functionalities in an intranet or an extranet.
+* **Thin client**: Certain parts of the application can be accessed via a simple web browser using an HTML user interface, including the reporting module, delivery approval stages, functionalities of the Distributed Marketing module (central/local), instance monitoring, etc. This mode makes it possible to include Adobe Campaign functionalities in an intranet or an extranet.
 * **Integration via the APIs**: In certain cases, the system can be called from external application using the Web Services APIs exposed via the SOAP protocol.
 
 ## Logical application layer {#logical-application-layer}
@@ -112,7 +104,7 @@ This process ensures the recording to the disk of inbound events, within the fra
 
 **Supervising modules** (nlserver watchdog)
 
-This technical process acts as a master process which spawns the others. It also monitors them and relaunches them automatically in case of incidents, thus maintaining maximum system uptime.
+This technical process acts as a primary process which spawns the others. It also monitors them and relaunches them automatically in case of incidents, thus maintaining maximum system uptime.
 
 **Statistics server** (nlserver stat)
 

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Concepts and methodology
-seo-title: Concepts and methodology
 description: Concepts and methodology
-seo-description: 
-page-status-flag: never-activated
-uuid: 595e9183-97f5-470d-9d82-dcd756e1fc83
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-discoiquuid: 4655ad65-7eba-44d5-b3f9-f4b8f44d9d5c
-index: y
-internal: n
-snippet: y
 ---
 
 # Best practices for cubes{#concepts-and-methodology}

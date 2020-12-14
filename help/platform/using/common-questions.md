@@ -1,23 +1,22 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Common questions
-seo-title: Common questions
-description: Campaign Classic FAQ
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Adobe Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-index: y
-internal: n
-snippet: y
 ---
 
 # Common questions{#common-questions}
 
-Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also [watch tutorial videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) and read out Campaign [Getting started guides](../../platform/using/tutorials.md#step-by-step-guides) to learn key capabilities. Cannot find the answer? [Ask the Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/campaign).
+Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also:
+
+* [Watch tutorial videos](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html)
+* [Browse self-help options](../../platform/using/tutorials.md#how-to-videos)
+* [Read out get started and use cases section](../../platform/using/tutorials.md#step-by-step-guides)
+* Cannot find the answer? [Ask the Expert](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+* Need support? [Consult Campaign Help and Support options](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
 
 ## 1. How can I upgrade Campaign to the latest version? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
@@ -25,7 +24,7 @@ Adobe Campaign Classic, specifically, uses a range of technology to deliver valu
 
 If you are using Adobe Managed Services, you can benefit from Campaign Gold Standard upgrade. For more on this refer to [this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
-[Read out this article](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) to learn how to update your environment and read [Common questions](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) on this specific topic.
+[Read out this section](../../production/using/build-upgrade.md) to learn how to update your environment and read [Common questions](../../platform/using/faq-build-upgrade.md) on this specific topic.
 
 ## 2. What is the database cleanup workflow? {#what-is-the-database-cleanup-workflow-}
 
@@ -43,11 +42,11 @@ The Security Zones self-service interface can be used to manage entries in the V
 
 Adobe Campaign comes with a set of dashboards and tools to monitor your email deliveries.
 
-[Click here to learn](../../delivery/using/monitoring-a-delivery.md) how to make sure your messages are being sent, monitor the execution and engage action if an error occurs.
+[Click here to learn](../../delivery/using/about-delivery-monitoring.md) how to make sure your messages are being sent, monitor the execution and engage action if an error occurs.
 
 ## 5. Can I monitor workflow execution? {#can-i-monitor-workflow-execution}
 
-Understand how to monitor Campaign workflow execution [in this page](../../workflow/using/executing-a-workflow.md).
+Understand how to monitor Campaign workflow execution [in this page](../../workflow/using/starting-a-workflow.md).
 
 ## 6. How can I connect to Campaign Classic? {#how-can-i-connect-to-campaign-classic-}
 
@@ -57,13 +56,13 @@ To connect to Adobe Campaign Classic, you need to launch Adobe Campaign client c
 
 ## 7. Which systems and components Campaign Classic is compatible with? {#which-systems-and-components-campaign-classic-is-compatible-with-}
 
-You can get the list of all systems and components supported for the latest build of Campaign in [Adobe Campaign Classic Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+You can get the list of all systems and components supported for the latest build of Campaign in [Adobe Campaign Classic Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 ## 8. Where are Campaign Classic release notes? {#where-are-campaign-classic-release-notes-}
 
-You can access latest Campaign Classic release notes [in this page](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html).
+You can access latest Campaign Classic release notes [in this page](../../rn/using/latest-release.md).
 
-## 9. What is the procedure for domain delegation? {#what-is-the-procedure-for-domain-delegation-}
+## 9. What is the procedure for domain configuration? {#what-is-the-procedure-for-domain-delegation-}
 
 A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
 Adobe takes account of the Domain Name System (DNS) for email delivery, which allows the client to keep their brand image by using a DNS alias with its domain names, and Adobe to autonomously implement all the technical best practices that allow it to optimize deliverability during emailing.

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Integration into a Web server for Windows
-seo-title: Integration into a Web server for Windows
 description: Integration into a Web server for Windows
-seo-description: 
-page-status-flag: never-activated
-uuid: a5042221-44fe-46a6-9322-288b108396e2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-discoiquuid: a4f2ae0e-e631-4ab6-934e-8298e4ce6f2c
-index: y
-internal: n
-snippet: y
 ---
 
 # Integration into a Web server for Windows{#integration-into-a-web-server-for-windows}
@@ -25,7 +17,7 @@ You can use this integrated Tomcat server to serve HTTP requests.
 In this case:
 
 * the default listening port is 8080. To change it, refer to [Configuring Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
-* The client consoles then connect using a URL such as [https:// `<computer>`:8080](https://machine:8080).
+* The client consoles then connect using a URL such as [https:// `<computer>`:8080](https://myserver.adobe.com:8080).
 
 However, for security and administration reasons, we recommend using a dedicated Web server as the main entry point for HTTP traffic when the computer that is running Adobe Campaign is exposed on the Internet and you wish to open access to the console outside of your network.
 
@@ -66,7 +58,7 @@ Apply the following configuration steps:
 
    ![](assets/s_ncs_install_iis7_parameters_step1.png)
 
-1. A **VBS** script enables you to automatically configure the resources used by the Adobe Campaign server on the virtual directory we have just created. To launch it, double click the **iis_neolane_setup.vbs** file located in the `[INSTALL]\tomcat-7\conf` folder, where `[INSTALL]` is the path for accessing the Adobe Campaign installation folder.
+1. A **VBS** script enables you to automatically configure the resources used by the Adobe Campaign server on the virtual directory we have just created. To launch it, double click the **iis_neolane_setup.vbs** file located in the `[INSTALL]\conf` folder, where `[INSTALL]` is the path for accessing the Adobe Campaign installation folder.
 
    ![](assets/s_ncs_install_iis7_parameters_step2.png)
 

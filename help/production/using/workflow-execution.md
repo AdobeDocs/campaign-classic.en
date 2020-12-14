@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Workflow execution
-seo-title: Workflow execution
 description: Workflow execution
-seo-description: 
-page-status-flag: never-activated
-uuid: 115256f6-bdf2-4594-885c-e90d02a25b80
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 7d8828c5-5776-49ca-b4f7-a4a6aaaa9db1
-index: y
-internal: n
-snippet: y
 ---
 
 # Workflow execution{#workflow-execution}
@@ -23,7 +15,8 @@ The section below presents information on common issues related to workflows exe
 For more information on workflows, refer to these sections:
 
 * [About workflows](../../workflow/using/about-workflows.md)
-* [Executing a workflow](../../workflow/using/executing-a-workflow.md)
+* [Starting a workflow](../../workflow/using/starting-a-workflow.md)
+* [Workflow life cycle](../../workflow/using/workflow-life-cycle.md)
 * [Best practices when using workflows](../../workflow/using/workflow-best-practices.md)
 
 ## Start as soon as possible in campaigns {#start-as-soon-as-possible-in-campaigns}
@@ -36,7 +29,7 @@ There can be several causes for this issue, follow the steps below to solve it:
 
     For more on technical workflows monitoring, refer to [this page](../../workflow/using/monitoring-technical-workflows.md).
 
-    >[NOTE]
+    >[!NOTE]
     >
     >Once the workflow restarted, make sure you execute the pending tasks (right-click the **[!UICONTROL Scheduler]** activity / **[!UICONTROL Execute pending task(s) now]**) in order to check if it fails again on any of the activities.
 
@@ -73,7 +66,7 @@ There can be several causes for this issue, follow the steps below to solve it:
 
     To check the number of workflows running of your instance, we recommend using the predefined views, accessible by default in the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** folder. For more information, refer to [this page](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
 
-    >[CAUTION]
+    >[!IMPORTANT]
     >
     >Increasing the **[!UICONTROL NmsOperation_LimitConcurrency]** option threshold may lead to performance issues on your instance. In any case, do not perform this on your own and reach out to your Adobe Campaign contact.
 

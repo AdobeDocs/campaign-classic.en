@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Data loading (RDBMS)
-seo-title: Data loading (RDBMS)
-description: Data loading (RDBMS)
-seo-description: 
-page-status-flag: never-activated
-uuid: d5ec30f2-398a-4b16-9232-924437da146a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about Data loading (RDBMS) workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: a128caac-5740-4dac-b14d-1d2fcef3cc69
-index: y
-internal: n
-snippet: y
 ---
 
 # Data loading (RDBMS){#data-loading-rdbms}

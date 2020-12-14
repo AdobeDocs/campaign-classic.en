@@ -1,18 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Workflows FAQ
-seo-title: Automate processes and manage data with workflows
 description: Campaign Classic FAQ
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-index: y
-internal: n
-snippet: y
 ---
 
 # Workflows FAQ {#workflows-faq}
@@ -29,7 +22,7 @@ Learn best practices to import data through a Campaign workflow [in this section
 
 ## Can I monitor workflow execution? {#can-i-monitor-workflow-execution-}
 
-Understand how to monitor Campaign workflow execution [in this page](../../workflow/using/executing-a-workflow.md).
+Understand how to monitor Campaign workflow execution [in this page](../../workflow/using/starting-a-workflow.md).
 
 ## How can I update Campaign data with a workflow? {#how-can-i-update-campaign-data-with-a-workflow-}
 

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Managing marketing resources
-seo-title: Managing marketing resources
 description: Managing marketing resources
-seo-description: 
-page-status-flag: never-activated
-uuid: 35333bcb-0749-45b1-98ab-d5de6d91861c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-discoiquuid: 069dbc6b-4019-4d66-85a8-0e4de6b66f18
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing marketing resources{#managing-marketing-resources}

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About web services
-seo-title: About web services
 description: About web services
-seo-description: 
-page-status-flag: never-activated
-uuid: f0b21cb3-aa75-4f54-a9f5-64e880f93e53
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: 65919173-3ce0-4d98-936b-f4581df536ae
-index: y
-internal: n
-snippet: y
 ---
 
 # About web services{#about-web-services}
@@ -27,7 +19,7 @@ Adobe Campaign APIs are used in JavaScript within the application and in SOAP ou
 >[!IMPORTANT]
 >
 >The number of authorized Engine Calls per day varies upon your license contract. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).   
->A list of all the APIs including their full description is available in [this dedicated documentation](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html).
+>A list of all the APIs including their full description is available in [this dedicated documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
 ## Prerequisites {#prerequisites}
 
@@ -139,7 +131,7 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 
 ```
 
-The `<soap-env:fault>` element in the body of the SOAP message is used to convey the error signals arising during the processing of the Web service. This is composed of the following sub-elements:
+The `<soap-env:fault>` element in the body of the SOAP message is used to convey the error signals arising during the processing of the web service. This is composed of the following sub-elements:
 
 * `<faultcode>` : indicates the type of error. The error types are:
 

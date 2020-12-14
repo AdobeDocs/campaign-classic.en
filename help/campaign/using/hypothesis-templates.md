@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Hypothesis templates
-seo-title: Hypothesis templates
 description: Hypothesis templates
-seo-description: 
-page-status-flag: never-activated
-uuid: 080417c2-1c45-4404-961e-2e660d8f0436
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-discoiquuid: addfc395-7a85-4be1-a757-a719ed34bb33
-index: y
-internal: n
-snippet: y
 ---
 
 # Hypothesis templates{#hypothesis-templates}

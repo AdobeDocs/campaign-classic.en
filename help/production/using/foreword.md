@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Foreword
-seo-title: Foreword
 description: Foreword
-seo-description: 
-page-status-flag: never-activated
-uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: introduction
-discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
-index: y
-internal: n
-snippet: y
 ---
 
 # Foreword{#foreword}

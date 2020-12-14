@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Temporary files
-seo-title: Temporary files
 description: Temporary files
-seo-description: 
-page-status-flag: never-activated
-uuid: ae7ec619-e93f-41fb-ba7c-fcbcf4cba84f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: f18237b0-ef54-46a6-9c14-34b038f9de18
-index: y
-internal: n
-snippet: y
 ---
 
 # Temporary files{#temporary-files}

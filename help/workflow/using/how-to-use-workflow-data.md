@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: How to use workflow data
-seo-title: How to use workflow data
-description: How to use workflow data
-seo-description: 
-page-status-flag: never-activated
-uuid: ed03f14b-1b53-426e-9213-22cb2f3deb19
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to use workflow data
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
-index: y
-internal: n
-snippet: y
 ---
 
 # How to use workflow data{#how-to-use-workflow-data}
@@ -60,7 +52,7 @@ In addition to the usual personalization fields, you can add personalization fie
 
 ![](assets/s_advuser_using_additional_data.png)
 
-The data contained in the workflow table is identified by its name: it is always made up of the **targetData** link. For more on this, refer to [Target data](../../workflow/using/executing-a-workflow.md#target-data).
+The data contained in the workflow table is identified by its name: it is always made up of the **targetData** link. For more on this, refer to [Target data](../../workflow/using/data-life-cycle.md#target-data).
 
 Within the framework of email delivery, personalization fields can also use data from target extension performed in the targeting workflow stages, as shown in the example below: 
 
@@ -78,16 +70,75 @@ Adobe Campaign lets you export zipped or encrypted files. When defining an expor
 
 To be able to do so:
 
-* If your installation of Adobe Campaign is hosted by Adobe: send a request to [Support](https://support.neolane.net) to have the necessary utilities installed on the server.
-* If your installation of Adobe Campaign is on premise: install the utility you want to use (for example: GPG, GZIP) as well as the necessary keys (encryption key) on the application server.
+1. Install a GPG key pair for your instance using the [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
-You can then use commands or code, such as:
+    >[!NOTE]
+    >
+    >Control Panel is available to all customers hosted on AWS (excepted for customers who host their marketing instances on premise).
 
-```
-function encryptFile(file) {  
-  var systemCommand = “gpg --encrypt --recipient  recipientToEncryptTo ” + file;  
-  var result = execCommand(systemCommand, true); 
-}
-```
+1. If your installation of Adobe Campaign is hosted by Adobe, contact Adobe Customer Care to have the necessary utilities installed on the server.
+1. If your installation of Adobe Campaign is on premise, install the utility you want to use (for example: GPG, GZIP) as well as the necessary keys (encryption key) on the application server.
 
-When importing a file, you can also unzip or decrypt it. See [Unzipping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
+You can then use commands or code in the **[!UICONTROL Script]** tab of the activity or in a **[!UICONTROL JavaScript code]** activity. An example is presented in the use case below.
+
+**Related topics:**
+
+* [Unzipping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing)
+* [Data extraction (file) activity](../../workflow/using/extraction--file-.md).
+
+### Use case: Encrypting and exporting data using a key installed on Control Panel {#use-case-gpg-encrypt}
+
+In this use case, we will build a workflow in order to encrypt and export data using a key installed on Control Panel.
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+
+The steps to perform this use case are as follows:
+
+1. Generate a GPG key pair (public/private) using a GPG utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+
+1. In Campaign Classic, build a workflow to export the data and encrypt it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
+
+    ![](assets/gpg-workflow-encrypt.png)
+
+    * **[!UICONTROL Query]** activity: In this example, we want to execute a query to target the data from the database that we want to export.
+    * **[!UICONTROL Data extraction (file)]** activity: Extracts the data into a file.
+    * **[!UICONTROL JavaScript code]** activity: Encrypts the data to extract.
+    * **[!UICONTROL File transfer]** activity: Sends the data to an external source (in this example, an SFTP server).
+
+1. Configure the **[!UICONTROL Query]** activity to target the desired data from the database. For more on this, refer to [this section](../../workflow/using/query.md).
+
+1. Open the **[!UICONTROL Data extraction (file)]** activity then configure it according to your needs. Global concepts on how to configure the activity are available in [this section](../../workflow/using/extraction--file-.md).
+
+    ![](assets/gpg-data-extraction.png)
+
+1. Open the **[!UICONTROL JavaScript code]** activity, then copy-paste the command below to encrypt the data to extract.
+
+    >[!IMPORTANT]
+    >
+    >Make sure you replace the **fingerprint** value from the command with the fingerprint of the public key installed on the Control Panel.
+
+    ```
+    var cmd='gpg ';
+    cmd += ' --trust-model always';
+    cmd += ' --batch --yes';
+    cmd += ' --recipient fingerprint';
+    cmd += ' --encrypt --output ' + vars.filename + '.gpg ' + vars.filename;
+    execCommand(cmd,true);
+    vars.filename=vars.filename + '.gpg'
+    ```
+  
+      ![](assets/gpg-script.png)
+
+1. Open the **[!UICONTROL File transfer]** activity, then specify the SFTP server to which you want to send the file. Global concepts on how to configure the activity are available in [this section](../../workflow/using/file-transfer.md).
+
+    ![](assets/gpg-file-transfer.png)
+
+1. You can now run the workflow. Once it is executed, data target by the query will be exported to the SFTP server into an encrypted .gpg file.
+
+### Tutorial video {#video}
+
+This video shows how to use a GPG key to encrypt data is also available in
+
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

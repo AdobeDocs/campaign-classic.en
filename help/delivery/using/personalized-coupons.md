@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Personalized coupons
-seo-title: Personalized coupons
 description: Personalized coupons
-seo-description: 
-page-status-flag: never-activated
-uuid: c840e2de-f0ef-478b-af9f-82e1b6534933
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: f324afa5-304c-470e-a592-290f76a11ccb
-index: y
-internal: n
-snippet: y
 ---
 
 # Personalized coupons{#personalized-coupons}

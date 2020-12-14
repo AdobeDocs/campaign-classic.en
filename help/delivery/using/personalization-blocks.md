@@ -1,32 +1,26 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Personalization blocks
-seo-title: Personalization blocks
 description: Personalization blocks
-seo-description: 
-page-status-flag: never-activated
-uuid: f9867f8d-f6ce-4a5f-b6b4-fd8056d28576
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
-index: y
-internal: n
-snippet: y
 ---
 
 # Personalization blocks{#personalization-blocks}
 
 Personalization blocks are dynamic, personalized and contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. See [Inserting personalization blocks](#inserting-personalization-blocks).
 
->[!NOTE]
->
->Personalization blocks are also available from the **[!UICONTROL Digital Content Editor (DCE)]** . For more on this, refer to [this page](../../web/using/editing-content.md#inserting-a-personalization-block).
+![](assets/do-not-localize/how-to-video.png) Discover this feature [in video](#personalization-blocks-video)
 
 Personalization blocks are accessed via the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** node of the Adobe Campaign explorer. Several blocks are available by default (see [Out-of-the-box personalization blocks](#out-of-the-box-personalization-blocks)).
 
 You have the ability to define new blocks that will enable you to optimize your deliveries personalization. For more on this, refer to [Defining custom personalization blocks](#defining-custom-personalization-blocks).
+
+>[!NOTE]
+>
+>Personalization blocks are also available from the **[!UICONTROL Digital Content Editor (DCE)]** . For more on this, refer to [this page](../../web/using/editing-content.md#inserting-a-personalization-block).
 
 ## Inserting personalization blocks {#inserting-personalization-blocks}
 
@@ -104,7 +98,7 @@ A list of personalization blocks is available by default to help you personalize
   >For more on the mirror page generation, refer to [Generating the mirror page](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
-* **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (blacklist). 
+* **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (denylist).
 * **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. This block must be inserted in the source code of the delivery, into **`<script>...</script>`** tags.
 
   In the example below, the function is used to replace the element "My header" by "My new header" with uppercase letters at each word:
@@ -151,4 +145,12 @@ To create a personalization block, go to the explorer and apply the following st
 
       ![](assets/s_ncs_user_personalized_block_b.png)
 
-    * Enter the content (in HTML, text, JavaScript, etc.) of the personalization block(s) and click **[!UICONTROL Save]** .
+    * Enter the content (in HTML, text, JavaScript, etc.) of the personalization block(s) and click **[!UICONTROL Save]**.
+
+## Tutorial video {#personalization-blocks-video}
+
+Learn how to create dynamic content blocks and how to use them to personalize the content of your email delivery.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

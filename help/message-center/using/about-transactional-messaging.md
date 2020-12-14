@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About transactional messaging
-seo-title: About transactional messaging
-description: About transactional messaging
-seo-description: 
-page-status-flag: never-activated
-uuid: c854daac-8756-44f3-a4e2-be31177ab9d1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Send trigger messages based on events generated from information systems. 
 audience: message-center
 content-type: reference
 topic-tags: introduction
-discoiquuid: 97df4bd5-a8e3-48f4-87c8-fa090ea3f771
-index: y
-internal: n
-snippet: y
 ---
 
 # About transactional messaging{#about-transactional-messaging}

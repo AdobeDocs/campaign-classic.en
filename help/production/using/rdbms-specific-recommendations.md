@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: RDBMS Specific recommendations
-seo-title: RDBMS Specific recommendations
 description: RDBMS Specific recommendations
-seo-description: 
-page-status-flag: never-activated
-uuid: 637c1b5a-0484-4734-a012-eb4ba8036263
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-discoiquuid: b2219912-5570-45d2-8b52-52486e29d008
-index: y
-internal: n
-snippet: y
 ---
 
 # RDBMS Specific recommendations{#rdbms-specific-recommendations}
@@ -97,7 +89,7 @@ vacuum full nmsdelivery;
 >* Adobe recommands adding the tables specific to your data model which can be subject to significant updates. This can be the case for **NmsRecipient** if you have large daily data replication flows.
 >* The **vacuum** and **re-index** commands will lock the table, which pauses some processes while maintenance is carried out.
 >* For very large tables (typically above 5 Gb), **vacuum full** can become quite inefficient and take a very long time. Adobe does not recommend using it for the **YyyNmsBroadLogXxx** table.
->* This maintenance operation can be implemented by an Adobe Campaign workflow, using an **[!UICONTROL SQL]** activity (for more on this, refer to [this section](../../workflow/using/executing-a-workflow.md#architecture)). Make sure you schedule maintenance for a low activity time which does not collide with your backup window.
+>* This maintenance operation can be implemented by an Adobe Campaign workflow, using an **[!UICONTROL SQL]** activity (for more on this, refer to [this section](../../workflow/using/architecture.md)). Make sure you schedule maintenance for a low activity time which does not collide with your backup window.
 >
 
 ### Rebuilding a database {#rebuilding-a-database}
@@ -366,7 +358,7 @@ Please contact your database administrator to find out about the procedures best
 
 >[!NOTE]
 >
->For Microsoft SQL Server, you can use the maintenance plan detailed [in this page](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
+>For Microsoft SQL Server, you can use the maintenance plan detailed on [this page](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
 
 The example below concerns Microsoft SQL Server 2005. If you are using another version, contact your database administrator to find out about maintenance procedures.
 
@@ -418,7 +410,7 @@ The example below concerns Microsoft SQL Server 2005. If you are using another v
 
    Note that an object has been created in the **[!UICONTROL SQL Server Agent > Jobs]** folder. This object lets you start the maintenance plan. In our example there is only one object since all the maintenance tasks are part of the same plan.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >For this object to run, the Microsoft SQL Server agent must be enabled.
 

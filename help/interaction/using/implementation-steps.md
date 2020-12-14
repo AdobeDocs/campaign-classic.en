@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Implementation steps
-seo-title: Implementation steps
 description: Implementation steps
-seo-description: 
-page-status-flag: never-activated
-uuid: 11582071-00a2-4245-af3e-bc81174ce223
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: general-operation
-discoiquuid: 7f79c0d8-77b0-4cc6-a888-7dbd32d2f3b6
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementation steps{#implementation-steps}

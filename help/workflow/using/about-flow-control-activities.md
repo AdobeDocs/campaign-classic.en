@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About flow control activities
-seo-title: About flow control activities
 description: About flow control activities
-seo-description: 
-page-status-flag: never-activated
-uuid: de3fee78-4f1c-4c75-a7d4-b2257b0c3316
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: 27cd51f6-b787-4703-a34d-ce23321f0dcf
-index: y
-internal: n
-snippet: y
 ---
 
 # About flow control activities{#about-flow-control-activities}

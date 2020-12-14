@@ -1,22 +1,14 @@
 ---
-title: About web forms
-seo-title: About web forms
-description: About web forms
-seo-description: 
-page-status-flag: never-activated
-uuid: 1d129af4-008b-4f6a-9094-b2edd6c1eee1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: Get started with web forms
+description: Get started with web forms in Campaign
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: 3b8e4691-fcbc-48ef-b529-11c9a9a9d788
-index: y
-internal: n
-snippet: y
 ---
 
-# About web forms{#about-web-forms}
+# Get started with web forms{#about-web-forms}
 
 Adobe Campaign integrates a graphical module for defining and publishing Web forms to create pages containing input and selection fields, and which may include data in the database. This lets you design and post Web pages which users can access to view or enter information.
 
@@ -54,7 +46,7 @@ The **[!UICONTROL Edit]** tab lets you create your content.
 
 To define the configuration and content of the Web form, apply the following steps:
 
-* Start by creating the required pages and checks: input fields, drop-down lists, HTML content, etc.
+* Start by creating the required pages and controls: input fields, drop-down lists, HTML content, etc.
 
   This step is detailed below.
 

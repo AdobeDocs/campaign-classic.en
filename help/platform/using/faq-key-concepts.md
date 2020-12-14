@@ -1,18 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Key concepts
-seo-title: Campaign Features FAQ
 description: Campaign Classic FAQ
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-index: y
-internal: n
-snippet: y
 ---
 
 # Key concepts {#key-concepts}
@@ -36,9 +29,9 @@ Check your [version and build number](../../platform/using/launching-adobe-campa
 
 ## What are the differences when working on-premise vs. in a hosted environment? {#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
 
-Adobe Campaign Classic comes with a set of modules and options. The availability of these modules and their configuration can depend on the [type of deployment](../../installation/using/hosting-models.md) of your installation: hosted (Managed Services) or on-premise.
+Adobe Campaign Classic comes with a set of modules and options. The availability of these modules and their configuration can depend on the [type of deployment](../../installation/using/hosting-models.md) of your installation: hosted (Managed Services), hybrid or on-premise.
 
-[Click here to learn more](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+[Click here to learn more](../../installation/using/capability-matrix.md).
 
 ## How can I set up user permissions? {#how-can-i-set-up-user-permissions-}
 
@@ -60,7 +53,9 @@ Refer to [this document](https://helpx.adobe.com/campaign/kb/campaign-privacy-ov
 
 ## What are Campaign user interface concepts I should know? {#what-are-campaign-user-interface-concepts-i-should-know-}
 
-Read out [this section](../../platform/using/adobe-campaign-workspace.md) to learn more about Adobe Campaign workspace basics. You can also watch [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html).
+Read out [this section](../../platform/using/adobe-campaign-workspace.md) to learn more about Adobe Campaign workspace basics. 
+
+![](assets/do-not-localize/how-to-video.png) [Discover Campaign workspace in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 ## How can I select the audience of my messages? {#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -80,7 +75,9 @@ A workflow can also involve one or more operators to be notified or who can make
 
 ## How to create and send a first email? {#how-to-create-and-send-a-first-email-}
 
-[Click here to learn more](../../delivery/using/about-email-channel.md) or [watch this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-campaign-and-an-email.html) to create an email in a campaign.
+[Click here to learn more](../../delivery/using/about-email-channel.md).
+
+![](assets/do-not-localize/how-to-video.png) [Discover this in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
 ## How to send SMS messages? {#how-to-send-sms-messages-}
 
@@ -112,7 +109,7 @@ Read out the [Security configuration checklist](https://helpx.adobe.com/campaign
 
 ## How to translate an error message? {#how-to-translate-an-error-message-}
 
-An error message is displayed in a foreign language? All error messages and their translation are listed in [this page](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html).
+An error message is displayed in a foreign language? All error messages and their translation are listed in [this page](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html).
 
 ## Can I create a webform and collect answers in Campaign? {#can-i-create-a-webform-and-collect-answers-in-campaign-}
 

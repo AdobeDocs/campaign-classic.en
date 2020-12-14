@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a delivery from a template
-seo-title: Creating a delivery from a template
 description: Creating a delivery from a template
-seo-description: 
-page-status-flag: never-activated
-uuid: d0506c9b-dc3f-4956-af5c-21a3f23307c3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
-discoiquuid: 8b50d14a-8cc6-4546-8069-47fe24f15b61
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a delivery from a template{#creating-a-delivery-from-a-template}

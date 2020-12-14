@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Examples of schemas edition
-seo-title: Examples of schemas edition
 description: Examples of schemas edition
-seo-description: 
-page-status-flag: never-activated
-uuid: f4bc1596-cf4e-4d1f-b6e8-b18cbd1e2e23
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 82057cdf-d421-4580-aa38-8c27ca6e20fb
-index: y
-internal: n
-snippet: y
 ---
 
 # Examples of schemas edition{#examples-of-schemas-edition}
@@ -300,3 +292,46 @@ CREATE UNIQUE INDEX CusRcpGrpRel_id ON CusRcpGrpRel(iRcpGroupId, iRecipientId);
 CREATE INDEX CusRcpGrpRel_recipientId ON CusRcpGrpRel(iRecipientId);
 ```
 
+## Use Case: link a field to an existing reference table {#uc-link}
+
+This use case demonstrates how you can use an existing reference table as an alternative to built-in Adobe Campaign enumeration mechanisms (enum, userEnum, or dbEnum).
+
+You can also use an existing reference table as an enumeration in your schemas. This can be achieved by creating a link between a table and the reference table, and by adding the attribute **displayAsField="true"**.
+
+In this example, the reference table contains a list of bank names and identifiers:
+
+```
+<srcSchema entitySchema="xtk:srcSchema" img="cus:bank16x16.png" label="Bank" mappingType="sql" name="bank" namespace="cus"
+xtkschema="xtk:srcSchema">
+    <element img="cus:bank16x16.png" label="Banks" name="bank">
+        <compute-string expr="@name"/>
+        <key name="id">
+            <keyfield xpath="@id"/>
+        </key>
+        <attribute label="Bank Id" name="id" type="short"/>
+        <attribute label="Name" length="64" name="name" type="string"/>
+     </element> 
+</srcSchema>
+```
+
+In any table using this reference table, define a link and add the **displayAsField="true"** attribute.
+
+```
+<element displayAsField="true" label="Bank" name="bank" target="cus:bank" type="link" noDbIndex="true"/>
+```
+
+The user interface will not display a link but a field. When the user picks that field, he can select a value from the reference table or use the auto-complete feature.
+
+![](assets/schema-edition-ex.png)
+
+* In order for it to auto-complete, you must define a compute-string in the reference table.
+
+* Add the **noDbIndex="true"** attribute in the link definition to prevent Adobe Campaign from creating an index on the values stored in the source table of the link.
+
+## Related topics
+
+* [Working with enumerations](../../platform/using/managing-enumerations.md)
+
+* [Get Started with Campaign schemas](../../configuration/using/about-schema-edition.md)
+
+* [Updating the database structure](../../configuration/using/updating-the-database-structure.md)
