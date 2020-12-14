@@ -22,7 +22,7 @@ For more information on Campaign Gold Standard program, refer [to this article](
 
 _14 December 2020_
 
-The build 9032&#64;09e3573 includes the following improvements and fixes:
+The build 9032&#64;2a2a028 includes the following improvements and fixes:
 
 * Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/configuring-adobe-io.md)
 
