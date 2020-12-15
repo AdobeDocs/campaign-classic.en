@@ -20,7 +20,7 @@ For more information on Campaign Gold Standard program, refer [to this article](
 
 ## ![](assets/do-not-localize/limited_2.png) Gold Standard 11 release{#gs-11}
 
-_14 December 2020_
+_15 December 2020_
 
 The build 9032&#64;2a2a028 includes the following improvements and fixes:
 
