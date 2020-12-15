@@ -30,7 +30,7 @@ Below are listed the main principles to be followed when starting up a new platf
 * **Limit the throughput rate** by limiting the number of mtachilds. For more on adjusting such technical setting, contact your Adobe Campaign administrator.
 * **Progressively increase the volumes sent** to avoid being marked as spam. Do not target the whole database from the very start, but rather add an extra fraction of the list each time you send. This should enable you to increase the volume at each step while reducing the overall rate of invalid addresses. To ensure smooth development of the start-up phase, you can use waves. For more on this, see [Sending using multiple waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 * **Send regularly**. To a certain extent it is better to send small shots regularly rather than large campaigns sporadically.
-* **Pay close attention to the delivery reports**. High error indicators can mean a technical setting is badly configured. For more on this, see [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md).
+* **Pay close attention to the delivery reports**. High error indicators can mean a technical setting is badly configured. For more on this, see [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md).
 
 **Related topics**:
 * [Increase your email reputation with IP warming](https://helpx.adobe.com/campaign/kb/increase-email-rep-ip-warming.html)

@@ -10,7 +10,7 @@ topic-tags: connectors
 
 # Configure access to Snowflake {#configure-access-to-snowflake}
 
-Use Campaign **Federated Data Access** (FDA) option to process information stored in an external databases. Follow the steps below to configure access to [!DNL Snowflake].
+Use Campaign **Federated Data Access** (FDA) option to process information stored in an external database. Follow the steps below to configure access to [!DNL Snowflake].
 
 1. Configure [!DNL Snowflake] on [CentOS](#snowflake-centos), [Windows](#snowflake-windows) or [Debian](#snowflake-debian)
 1. Configure the [!DNL Snowflake] [external account](#snowflake-external) in Campaign
