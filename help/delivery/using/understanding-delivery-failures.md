@@ -24,8 +24,8 @@ Messages can also be excluded during the delivery preparation if an address is q
 
 **Related topics:**
 
-* [Delivery logs and history](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)
-* [Failed status](../../delivery/using/monitoring-a-delivery.md#failed-status)
+* [Delivery logs and history](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)
+* [Failed status](../../delivery/using/delivery-performances.md#failed-status)
 * [Delivery failure types and reasons](#delivery-failure-types-and-reasons)
 
 ## Delivery failure types and reasons {#delivery-failure-types-and-reasons}

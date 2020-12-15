@@ -14,7 +14,7 @@ In the context of an email delivery, tracking lets you track the messages sent a
 
 Tracking metrics can be consulted in the **[!UICONTROL URLs and click streams]**, **[!UICONTROL Tracking statistics]**, and **[!UICONTROL Hot clicks]** reports, and in the **[!UICONTROL Tracking]** tab of the delivery.
 
-The delivery dashboard is also key to monitor your deliveries and eventual issues encountered during the sending of messages. For more on this refer to [this section](../../delivery/using/monitoring-a-delivery.md).
+The delivery dashboard is also key to monitor your deliveries and eventual issues encountered during the sending of messages. For more on this refer to [this section](../../delivery/using/delivery-dashboard.md).
 
 **Related topics**:
 
