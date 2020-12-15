@@ -51,7 +51,7 @@ For **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
 
 For **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
 
-1. Look at all the workflows located under the **[!UICONTROL Campaign process]** folder. For more on this, refer to this [page](../../workflow/using/campaign.md).
+1. Look at all the workflows located under the **[!UICONTROL Campaign process]** folder. For more on this, refer to this [page](../../workflow/using/about-technical-workflows.md).
 1. Check that the workflows runs as scheduled and that the journal does not highlight recurrent errors.
 
 ## Workflow supervision {#workflow-supervision}
