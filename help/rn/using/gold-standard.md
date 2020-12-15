@@ -18,6 +18,24 @@ This page lists Gold Standard releases.
 
 For more information on Campaign Gold Standard program, refer [to this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
+## ![](assets/do-not-localize/limited_2.png) Gold Standard 11 release{#gs-11}
+
+_15 December 2020_
+
+The build 9032&#64;2a2a028 includes the following improvements and fixes:
+
+* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/configuring-adobe-io.md)
+
+* Following the end of support for iOS APNs legacy binary protocol, all instances using this protocol are updated to HTTP/2 protocol during postupgrade.
+
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) attacks when using the captcha feature. (NEO-27777)
+
+* The connection protocol has been updated to follow the new IMS authentication mechanism. 
+
+>[!CAUTION]
+>
+>Following the connection protocol update, upgrade is mandatory (server and console) to be able to connect from March 21st, 2020.
+
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 10 release{#gs-10}
 
 _7 July 2020_
