@@ -262,9 +262,9 @@ The specification recommends using this format for the SR text field. It is a li
 
 Example of a SR text field matching exactly the Appendix B recommendation:
 
-````
+```
 id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
-````
+```
 
 The id field is the ID received in the `SUBMIT_SM_RESP PDU`, the acknowledge of the MT.
 

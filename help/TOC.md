@@ -109,6 +109,8 @@ type: Documentation
   + Sending messages on mobiles {#sending-messages-on-mobiles}
        + [SMS channel](delivery/using/sms-channel.md)
        + [LINE channel](delivery/using/line-channel.md)
+       + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
+       + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
   + Sending push notifications {#sending-push-notifications}
        + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
        + [Integrating Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
