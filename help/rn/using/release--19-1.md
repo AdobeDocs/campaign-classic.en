@@ -18,7 +18,7 @@ _16 December 2020_
 
 * Following the end of support for iOS APNs legacy binary protocol, all instances using this protocol are updated to HTTP/2 protocol during postupgrade.
 
-* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) attacks when using the captcha feature. (NEO-27777)
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
 
 * The connection protocol has been updated to follow the new IMS authentication mechanism. 
 
@@ -26,7 +26,12 @@ _16 December 2020_
    >
    >Following the connection protocol update, upgrade is mandatory (server and console) to be able to connect from March 21st, 2020.
 
+28609
+
 * Fixed an issue that displayed incorrect percentages when generating a descriptive report via a workflow activity. (NEO-14314)
+* On Linux, the nlserver service startup now uses a systemd unit instead of the /etc/init.d/nlserver6 script. The migration to the new startup scheme is performed automatically when you install the 20.1 package. The /etc/init.d/nlserver6 is still provided but for interacting with the nlserver service (start, restart, stop, etc.), we recommend that you use the systemctl command directly.
+
+
 
 ## ![](assets/do-not-localize/limited_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
 
