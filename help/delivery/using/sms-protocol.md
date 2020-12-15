@@ -752,7 +752,7 @@ The validity period is transmitted in the `validity_period` field of the `SUBMIT
 
 ## Extended generic SMPP connector {#acc-extended-connector}
 
-![](assets/sms_protocol.png)
+![](assets/sms_protocol_4.png)
 
 Arrows represent data flow, not TCP connection initiations.
 
