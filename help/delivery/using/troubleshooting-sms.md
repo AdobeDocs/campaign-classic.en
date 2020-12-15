@@ -112,7 +112,7 @@ How to fix connection stability problems:
 
 * Check that the connection is stable. An SMPP connection should stay up for at least 1 hour continuously except for transmitters on Adobe Campaign Classic. See the section [Issue with unstable connections](../../delivery/using/sms-protocol.md#issues-unstable-connection).
 
-* If restarting the MTA makes sending MT working again for a small period of time, you probably have throttling due to an unstable connection. See the section [Issue with unstable connections](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
+* If restarting the MTA makes sending MT working again for a small period of time, you probably have throttling due to an unstable connection. See the section [Issue with unstable connections](../../delivery/using/troubleshooting-sms.md#issues-unstable-connection).
 
 * Check that the broad log is present and in the correct status with the correct dates. If it's not, it's not a SMS issue but a delivery issue or a delivery preparation issue.
 
@@ -134,7 +134,7 @@ Duplicates are often caused by retries. It's normal to have duplicates when retr
 
 * If you see duplicates sent exactly 60 seconds apart, it's probably a problem on the provider side, they don't send a `SUBMIT_SM_RESP` quick enough.
 
-* If you see many `BIND/UNBIND`, you have an unstable connection. See the[Issue with unstable connections](../../administration/using/troubleshooting-sms.md#issues-unstable-connection) section for solutions before attempting to solve duplicate messages issues.
+* If you see many `BIND/UNBIND`, you have an unstable connection. See the[Issue with unstable connections](../../delivery/using/troubleshooting-sms.md#issues-unstable-connection) section for solutions before attempting to solve duplicate messages issues.
 
 Mitigating the amount of duplicates when there is a retry:
 
