@@ -344,7 +344,7 @@ The maximum size of a message depends on its encoding. This table sums up all th
 |:-:|:-:|:-:|:-:|:-:|
 | GSM7 |  0 | 160 | 152  | GSM7 basic character set + extension (extended characters take 2 characters) |
 | Latin-1 | 3 |  140 | 134 |  ISO-8859-1 |
-|  UCS-2 <br>UTF-16 | 8	 | 70  |  67 |  Unicode (varies from phone to phone) |
+|  UCS-2 <br>UTF-16 | 8 | 70  |  67 |  Unicode (varies from phone to phone) |
 
 ## SMPP external account parameters {#SMPP-parameters-external}
 
