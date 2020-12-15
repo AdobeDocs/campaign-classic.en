@@ -10,6 +10,24 @@ topic-tags: latest-release-notes
 
 # Release 19.1{#release-19-1}
 
+## ![](assets/do-not-localize/limited_2.png) Release 19.1.7 - Build xxxx {#release-19-1-8-build-xxxx}
+
+_16 December 2020_
+
+* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/configuring-adobe-io.md)
+
+* Following the end of support for iOS APNs legacy binary protocol, all instances using this protocol are updated to HTTP/2 protocol during postupgrade.
+
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) attacks when using the captcha feature. (NEO-27777)
+
+* The connection protocol has been updated to follow the new IMS authentication mechanism. 
+
+   >[!CAUTION]
+   >
+   >Following the connection protocol update, upgrade is mandatory (server and console) to be able to connect from March 21st, 2020.
+
+* Fixed an issue that displayed incorrect percentages when generating a descriptive report via a workflow activity. (NEO-14314)
+
 ## ![](assets/do-not-localize/limited_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
 
 _15 September 2020_
