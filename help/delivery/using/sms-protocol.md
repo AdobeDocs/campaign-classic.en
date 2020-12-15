@@ -726,7 +726,7 @@ The field is limited to 21 characters by the SMPP specification, but some provid
 
 #### Maximum number of SMS per message {#maximum-sms}
 
-This setting only works if the Message payload setting is disabled. For more information on this, refer to this [page](../../delivery/using/configuring-channels/configuring-sms-channel). If the message requires more SMS than this value, an error will be triggered.
+This setting only works if the Message payload setting is disabled. If the message requires more SMS than this value, an error will be triggered.
 
 The SMS protocol limits SMS to 255 parts, but some mobile phones have trouble putting together long messages with more than 10 parts or so (the limit depends on the exact model). We advise you not to go over 5 parts per message.
 
@@ -752,7 +752,7 @@ The validity period is transmitted in the `validity_period` field of the `SUBMIT
 
 ## Extended generic SMPP connector {#acc-extended-connector}
 
-![](assets/sms_protocol_4)
+![](assets/sms_protocol.png)
 
 Arrows represent data flow, not TCP connection initiations.
 
