@@ -28,7 +28,7 @@ The build 9032&#64;2a2a028 includes the following improvements and fixes:
 
 * Following the end of support for iOS APNs legacy binary protocol, all instances using this protocol are updated to HTTP/2 protocol during postupgrade.
 
-* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) attacks when using the captcha feature. (NEO-27777)
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
 
 * The connection protocol has been updated to follow the new IMS authentication mechanism. 
 
