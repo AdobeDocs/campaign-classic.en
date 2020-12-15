@@ -252,7 +252,7 @@ To adapt to error management, the broad log message system of Campaign has been 
 
 As mentioned above, there are 2 different kinds of errors: synchronous replies in the SUBMIT_SM_RESP that happen immediately after the message was sent to the SMSC and receipts that may come much later when the mobile received the message or when the message timed out. In that case the error is found in a SR.
 
-When a SR is received, status and error can be found in its `short_message` field (example for Appendix B conforming implementations). Be careful, the `short_message` field of the PDU is often called the text field because it contains text in MT; but in case of SR, it contains technical information plus a sub-field named Text (which is practically useless BTW except for some troubleshooting). These 2 fields are different and `short_message` actually contains the Text field and other information.
+When a SR is received, status and error can be found in its `short_message` field (example for Appendix B conforming implementations). Be careful, the `short_message` field of the PDU is often called the text field because it contains text in MT; but in case of SR, it contains technical information plus a sub-field named Text. These 2 fields are different and `short_message` actually contains the Text field and other information.
 
 The old Adobe Campaign Classic connectors (all of them except Extended SMPP) use a hardcoded behavior that depends on the selected provider. Generic SMPP only distinguishes between success and error, with no detail. Delivery log may contain some information which is not guaranteed.
 
@@ -342,8 +342,7 @@ The maximum size of a message depends on its encoding. This table sums up all th
 
 |  Encoding | Usual data_coding  |  Message size (characters) | Part size for multipart SMS | Available characters  |
 |:-:|:-:|:-:|:-:|:-:|
-| GSM7 |  0 | 160 | 152  | GSM7 basic character set + extension
-(extended characters take 2 characters) |
+| GSM7 |  0 | 160 | 152  | GSM7 basic character set + extension (extended characters take 2 characters) |
 | Latin-1 | 3 |  140 | 134 |  ISO-8859-1 |
 |  UCS-2 <br>UTF-16 | 8	 | 70  |  67 |  Unicode (varies from phone to phone) |
 
@@ -459,7 +458,7 @@ Defines the default source address for messages. This setting only applies if th
 
 By default, the source number field is not passed, so the provider will substitute it for the short code.
 
-This enables the sender address / oADC override feature.
+This enables the sender address/oADC override feature.
 
 #### Short code {#short-code}
 
