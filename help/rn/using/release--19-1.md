@@ -42,7 +42,7 @@ Tomcat has been updated from version 7 (7.0.103) to version 8 (8.5.57). The `tom
 
 On Linux, the nlserver service startup now uses a systemd unit instead of the /etc/init.d/nlserver6 script. The migration to the new startup scheme is performed automatically when you install the 19.1.8 package. The /etc/init.d/nlserver6 is still provided but for interacting with the nlserver service (start, restart, stop, etc.), we recommend that you use the systemctl command directly.
 
-## ![](assets/do-not-localize/limited_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
+## ![](assets/do-not-localize/red_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
 
 _15 September 2020_
 
@@ -72,7 +72,7 @@ _15 September 2020_
 * Fixed a postupgrade issue which turned off Apache and the web server before the web application republication. (NEO-27155)
 * Fixed a regression which led to an incorrect timezone being picked when setting time in a **Scheduler** workflow activity.
 
-## ![](assets/do-not-localize/orange_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
+## ![](assets/do-not-localize/red_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
