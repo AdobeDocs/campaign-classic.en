@@ -456,7 +456,7 @@ type: Documentation
        + [Managing activity images](workflow/using/managing-activity-images.md)
        + [Managing propensity](workflow/using/managing-propensity.md)
        + [Managing time zones](workflow/using/managing-time-zones.md)
-       + [List of technical workflows](workflow/using/about-technical-workflows.md)
+       + [Technical workflows](workflow/using/about-technical-workflows.md)
 + Managing Offers {#managing-offers}
   + Get started with Interaction {#interaction-overview}
        + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)

@@ -1,14 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: List of technical workflows
+title: Technical workflows
 description: Learn more about the technical workflows available with Campaign Classic packages.
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 ---
 
-# About technical workflows{#about-technical-workflows}
+# Technical workflows{#about-technical-workflows}
+
+## About technical workflows {#overview}
 
 The workflows detailed in this section are installed with the different Adobe Campaign built-in packages. These packages, and related technical workflows, depend on your licence agreement. Built-in packages are detailed in [this section](../../installation/using/installing-campaign-standard-packages.md).
 
@@ -19,6 +21,8 @@ By default, technical workflows are available in a sub-folder of the following n
 >Technical workflows related to the Message Center module are available by default in the **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** node.
 
 For more on how to monitor technical workflows, refer to the [dedicated section](../../workflow/using/monitoring-technical-workflows.md).
+
+## List of technical workflows {#list-technical-workflows}
 
 |Technical workflow|Package|Description|
 |------|--------|-----------|
