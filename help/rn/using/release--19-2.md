@@ -10,6 +10,17 @@ topic-tags: latest-release-notes
 
 # Release 19.2{#release-19-2}
 
+## ![](assets/do-not-localize/limited_2.png) Release 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
+
+_23 December 2020_
+
+>[!CAUTION]
+>
+>This release comes with a new connection protocol:  upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2020
+
+* The connection protocol has been updated to follow the new IMS authentication mechanism. 
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
+
 ## ![](assets/do-not-localize/orange_2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
 
 _February 07, 2020_
@@ -19,7 +30,7 @@ _February 07, 2020_
 * Fixed a regression issue due to the implementation of SSL certification which caused the user connection to fail on Windows server. (NEO-20629)
 * Fixed an issue which displayed an incorrect version tag number in the **About** menu.
 
-## ![](assets/do-not-localize/orange_2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
+## ![](assets/do-not-localize/red_2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
 _December 02, 2019_
 
