@@ -129,7 +129,7 @@ Yes. Customers should provide Adobe with a point of contact available during or 
 
 ## Do I need to update the client console?
 
-Yes. The client console must be on the same build or newer build as the server instance. Once the upgrade has been completed, your client console should prompt you to upgrade to the latest build to ensure that it stays aligned with the server build.    
+Yes. The client console must be on the same build as the server instance. Once the upgrade has been completed, your client console should prompt you to upgrade to the latest build to ensure that it stays aligned with the server build.    
 
 ## What is the rollback plan? Are backups of my data kept?
 
