@@ -10,19 +10,30 @@ topic-tags: campaign-release-notes, latest-release-notes
 
 # Release 20.1{#release-20-1}
 
+## ![](assets/do-not-localize/limited_2.png) Release 20.1.4 - Build 9126 {#release-20-1-4-build-9126}
+
+_24 December 2020_
+
+>[!CAUTION]
+>
+>This release comes with a new connection protocol:  upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2020
+
+* The connection protocol has been updated to follow the new IMS authentication mechanism. 
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
+
 ## ![](assets/do-not-localize/orange_2.png) Release 20.1.3 - Build 9124{#release-20-1-3-build-9124}
 
 _May 6, 2020_
 
 * Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183) 
 
-## ![](assets/do-not-localize/orange_2.png) Release 20.1.2 - Build 9123{#release-20-1-2-build-9123}
+## ![](assets/do-not-localize/red_2.png) Release 20.1.2 - Build 9123{#release-20-1-2-build-9123}
 
 _March 13, 2020_
 
 * Fixed an issue that prevented version deployment on Red Hat 7 servers. (NEO-23332)
 
-## ![](assets/do-not-localize/orange_2.png) Release 20.1 - Build 9122{#release-20-1-build-9122}
+## ![](assets/do-not-localize/red_2.png) Release 20.1 - Build 9122{#release-20-1-build-9122}
 
 _February 17, 2020_
 
