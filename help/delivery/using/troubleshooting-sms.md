@@ -78,7 +78,7 @@ Once you checked every account individually, there are 2 possible scenarios:
 
 * Check **External account** settings. Ask the provider the value of the fields.
 
-* If the connection is successful but unstable, check the [Issue with unstable connections](../../administration/using/troubleshooting-sms.md#issues-unstable-connection) section.
+* If the connection is successful but unstable, check the [Issue with unstable connections](../../delivery/using/troubleshooting-sms.md#issues-unstable-connection) section.
 
 * If connection issues are difficult to diagnose, a network capture can provide information. Make sure that the network capture runs simultaneously while the problem appears for it can be analyzed efficiently. You should also note the exact time at which the problem appears.
 
@@ -238,7 +238,7 @@ A network capture is not always needed, usually verbose SMPP messages are enough
 
 * Connection issues, but the verbose messages don't show any `BIND_RESP PDU`.
 
-* Unexplained disconnections with no error message, the usual behavior of the connector when it detects a low level protocol error.
+* Unexplained disconnections with no error message, the usual behavior of the connector when it detects a low-level protocol error.
 
 * The provider complains about the unbind/disconnection process.
 
