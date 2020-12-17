@@ -38,6 +38,7 @@ Here are the rules we want to use to merge the data into a single record:
 * Keep the most recent name (first name and last name fields),
 * Keep the most recent mobile phone,
 * Keep the oldest phone number,
+* All fields in a group must be non-null to be eligible for the final record.
 
 ## Activating the Merge functionality {#activating-merge}
 
