@@ -20,7 +20,7 @@ For more information on Campaign Gold Standard program, refer [to this article](
 
 ## ![](assets/do-not-localize/limited_2.png) Gold Standard 11 release{#gs-11}
 
-_15 December 2020_
+_16 December 2020_
 
 >[!CAUTION]
 >
