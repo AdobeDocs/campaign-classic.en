@@ -19,7 +19,7 @@ snippet: y
 
 ## Prerequisites {#adobe-io-prerequisites}
 
-This integration only applies starting **Campaign Classic 20.3 and Gold Standard 11 releases**.
+This integration only applies starting **Campaign Classic 20.3 release**.
 
 Before starting this implementation, please check you have:
 
