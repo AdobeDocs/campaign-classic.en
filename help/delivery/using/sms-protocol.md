@@ -227,6 +227,8 @@ Multipart SMS, or long SMS, are SMS that are sent in multiple parts. Due to tech
 
 Each part of a long message is an individual SMS. These parts travel independently on the network and are assembled by the receiving mobile phone. To handle retries and connectivity problems, Adobe Campaign sends these parts in reverse order and requests a SR only on the first part of the message, the last sent. Since the mobile phone only displays a message when its first part is received, retries on additional parts won't produce duplicates on the mobile phone.
 
+The maximum number of SMS per message can be set per delivery using the **Maximum number of SMS per message** setting in the **Delivery template**. Messages that go above this limit will fail during sending with a SMS too long failure reason.
+
 There are 2 ways to send long SMS:
 
 * **UDH**: the default and recommended way to send long messages. In this mode, the connector splits the message in multiple `SUBMIT_SM PDU`s with UDH information in them. This protocol is the one used by mobile phones themselves. This means that Adobe Campaign has the most control over the message generation, making it capable to compute exactly how many parts were sent and how they were split.
@@ -361,6 +363,8 @@ It is possible to set a limit to the number of MTA instances allowed to connect 
 This option allows finer control over the number of connections, see [Simultaneous connections](../../delivery/using/sms-protocol.md#connection-settings).
 
 If you set a value higher than the number of running MTAs, all MTAs will run as normal: this option is only a limit and cannot spawn additional MTAs.
+
+If you need to precisely control the number of connections, e.g. provider requirement, it is recommended to always set this option even if the current deployment has the right number of MTAs running. If additional MTAs are added afterwards, the connection limit will still be respected.
 
 ### Connection settings {#connection-settings}
 
@@ -734,6 +738,8 @@ The field is limited to 21 characters by the SMPP specification, but some provid
 This setting only works if the **Message payload** setting is disabled. If the message requires more SMS than this value, an error will be triggered.
 
 The SMS protocol limits SMS to 255 parts, but some mobile phones have trouble putting together long messages with more than 10 parts or so, the limit depends on the exact model. We advise you not to go over 5 parts per message.
+
+Due to how personalized messages work in Adobe Campaign, messages can vary in size. Having a great amount of long messages could increase sending costs.
 
 #### Transmission mode {#transmission-mode}
 
