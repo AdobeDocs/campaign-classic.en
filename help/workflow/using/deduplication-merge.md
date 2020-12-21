@@ -101,7 +101,7 @@ Modification date | First Name | Last Name | Email | Mobile Phone | Phone|
 The result is merged from the three records according to the rules configured earlier. After comparison, it is concluded that the most recent name and mobile phone are used, along with the original phone number.
 
 | First Name | Last Name | Email | Mobile Phone | Phone|
------|------------|-----------|-------|--------------|------|
+|------------|-----------|-------|--------------|------|
 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888|
 
 >[!NOTE]
