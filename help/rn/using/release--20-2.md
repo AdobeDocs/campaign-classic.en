@@ -12,7 +12,7 @@ topic-tags: campaign-release-notes, latest-release-notes
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/green_2.png) Release 20.2.4 - Build 9186 {#release-20-2-4-build-9186}
+## ![](assets/do-not-localize/green_2.png) Release 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
 
 _21 December 2020_
 
@@ -26,23 +26,10 @@ _21 December 2020_
 * Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has been changed and moved to Adobe I/O. [Learn more](../../integrations/using/configuring-adobe-io.md)
 * Following the end of support for iOS APNs legacy binary protocol, all instances using this protocol are updated to HTTP/2 protocol during postupgrade.
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
-* Fixed an issue causing the deactivation of the SMPP connector after a connection error, preventing other SMS deliveries from being sent and leading to performance issues.
-* Fixed an issue that displayed incorrect percentages when generating a descriptive report via a workflow activity. (NEO-14314)
-* Fixed a delivery preparation issue when the **Exclude duplicate address during delivery** option was unselected. (NEO-13240)
-* Fixed an issue that could cause workflows to fail when running an **Enrichment** activity. (NEO-17338)
-* Fixed an issue in workflows when fetching records from an external database and inserting them in the Campaign database. (NEO-26359)
-* Fixed a server crash issue by preventing memory corruption when cleaning the expression parser.
-* Fixed an issue which prevented the **NoNull** function from working in Oracle databases after upgrading to build 9032. (NEO-26488)
-* Fixed an issue when editing a campaign template description that prevented the **Save** button from displaying when copy-pasting symbols like, for example, Japanese characters. (NEO-27071)
-* Fixed an issue which prevented the description of a campaign or campaign template from being saved when clicking outside of the window before clicking the **Save** button. (NEO-27449)
-* Fixed an issue at the proxy configuration level that prevented you from logging into Adobe Campaign after the latest Windows 10 update. (NEO-27813)
-* Fixed an issue related to the management of empty lines in log files, causing failures in the MTA process behavior and leading to performance drops in delivery sending.
-
-**Technical evolutions**
-
-Tomcat has been updated from version 7 (7.0.103) to version 8 (8.5.57). The `tomcat-7` directory is replaced with a `tomcat-8` directory. On windows, _iis_neolane_setup.vbs_ and _apache_neolane.conf_ are now installed in the `conf` directory (instead of `tomcat-7/conf` previously). On linux, _apache_neolane.conf_ is now installed in the `conf` directory.
-
-On Linux, the nlserver service startup now uses a systemd unit instead of the /etc/init.d/nlserver6 script. The migration to the new startup scheme is performed automatically when you install the 20.2.4 package. The /etc/init.d/nlserver6 is still provided but for interacting with the nlserver service (start, restart, stop, etc.), we recommend that you use the systemctl command directly.
+* Fixed an issue causing the deactivation of the SMPP connector after a connection error, preventing other SMS deliveries from being sent and leading to performance issues. (NEO-28609)
+* Fixed a server crash issue by preventing memory corruption when cleaning the expression parser. (NEO-26856)
+* Fixed an issue that caused the server to crash when displaying the target data of the remainder from a **Split** activity in a workflow.
+* Fixed an issue that could display an error message when trying to preview SMS messages after a query on another schema than **Recipient** (nms:recipient). (NEO-27517)
 
 ## ![](assets/do-not-localize/green_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
