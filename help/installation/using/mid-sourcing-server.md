@@ -18,7 +18,7 @@ Installing a mid-sourcing server follows the same process as installing a server
 
 >[!CAUTION]
 >
->Once the mid-sourcing server has been setup and the [sync workflows](../../workflow/using/transfer-to-mid-sourcing.md) have run for the first time, make sure you do not update the internal name of the mid-sourcing external accounts.
+>Once the mid-sourcing server has been setup and the [sync workflows](../../workflow/using/about-technical-workflows.md) have run for the first time, make sure you do not update the internal name of the mid-sourcing external accounts.
 
 ## Steps for installing and configuring an instance {#steps-for-installing-and-configuring-an-instance}
 
