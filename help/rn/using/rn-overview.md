@@ -30,13 +30,13 @@ The **last GA builds** are: [Gold Standard 10 release](../../rn/using/gold-stand
 
 The **last RC build** is [Campaign Classic 20.3 release](../../rn/using/latest-release.md)
 
-![](assets/do-not-localize/orange3.png) **No longer available** - Update to a newer build is required.
-
-![](assets/do-not-localize/red3.png) **Deprecated** - Update to a newer build is mandatory.
+![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. Existing implementations must be upgraded.
 
 ## Recommendations{#recommendations}
 
 To ensure a stable configuration, we recommend that you install the same stable build on all servers that are running on the same client configuration.
+
+In addition, the client console should be on the same build as the server instance.
 
 To keep your implementation up-to-date, make sure to read out the [Deprecated and removed features](../../rn/using/deprecated-features.md) and [Compatibility matrix](../../rn/using/compatibility-matrix.md) pages with each new release.
 
