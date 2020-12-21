@@ -87,6 +87,10 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 **Improvements**
 
 * Several improvements have been made to the **Client console**:
+   * The connection protocol has been updated to follow the new IMS authentication mechanism. 
+      >[!CAUTION]
+      >
+      >Following the connection protocol update, upgrade is mandatory (server and console) to be able to connect from March 21st, 2020.   
    * To prevent incompatibility with some internet security GPO rules restrictions, the Campaign client console logon screen has been replaced by a built-in standard Windows form. 
    * Fixed an issue when copy/pasting activities in a workflow using 64-bits Client console. (NEO-27635) 
    * In the **About** menu, information has been added to distinguish 64 and 32 bits consoles. 
