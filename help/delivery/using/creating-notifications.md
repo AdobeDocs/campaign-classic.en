@@ -88,7 +88,7 @@ To send a proof and to send the final delivery, use the same process as email de
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
 * [Push notification quarantines](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md)
+* [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md)
 * [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 
 ## Sending notifications on Android {#sending-notifications-on-android}
@@ -131,5 +131,5 @@ The detailed process when validating and sending a delivery is presented in the 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
 * [Push notification quarantines](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md)
+* [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md)
 * [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
