@@ -30,9 +30,7 @@ The **last GA builds** are: [Gold Standard 10 release](../../rn/using/gold-stand
 
 The **last RC build** is [Campaign Classic 20.3 release](../../rn/using/latest-release.md)
 
-![](assets/do-not-localize/orange3.png) **No longer available** - Update to a newer build is required.
-
-![](assets/do-not-localize/red3.png) **Deprecated** - Update to a newer build is mandatory.
+![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. Existing implementations must be upgraded.
 
 ## Recommendations{#recommendations}
 
