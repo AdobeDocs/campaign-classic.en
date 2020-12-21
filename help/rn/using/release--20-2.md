@@ -25,7 +25,7 @@ _September 11, 2020_
 * Fixing a regression during postupgrade causing an incorrect start of nlserver (error logs).
 * The update management for shared memory has been improved. The additional steps required in 20.2 are not needed anymore. 
 
-## ![](assets/do-not-localize/orange_2.png) Release 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
+## ![](assets/do-not-localize/red_2.png) Release 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
 _July 22, 2020_
 
@@ -50,7 +50,7 @@ _July 22, 2020_
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel June release** with Active profiles monitoring, Subdomain deliverability audit and GPG keys management. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/orange_2.png) Release 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
+## ![](assets/do-not-localize/red_2.png) Release 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
 _June 8, 2020_
 

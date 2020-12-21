@@ -46,7 +46,7 @@ Fixed an issue which prevented tracking from working when the signature feature 
 
 >[!CAUTION]
 >
->We recommend that you upgrade the client console with the one available in this release. Refer [to this page](../../installation/using/installing-the-client-console.md)
+>We recommend that you upgrade the client console with the one available in this release. Refer to [this page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 9 release{#gs-9}
 
@@ -89,7 +89,7 @@ The build 9032&#64;3a9dc9c includes the following fixes:
 * Fixed a regression causing the cleanup workflow to crash. 
 * Fixed a minor regression in the cleanup workflow logs.
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 6 release{#gs-6}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 6 release{#gs-6}
 
 _9 March 2020_
 
@@ -97,7 +97,7 @@ The build 9032&#64;19f73c5 includes the following fix:
 
 * Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 5 release{#gs-5}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 5 release{#gs-5}
 
 _17 December 2019_
 
@@ -105,7 +105,7 @@ The build 9032&#64;d6b8062 includes the following fix:
 
 * Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter). (NEO-19595)
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 4 release{#gs-4}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 4 release{#gs-4}
 
 _11 December 2019_
 
@@ -113,7 +113,7 @@ The build 9032&#64;bc4a935 includes the following fix:
 
 * Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 3 release{#gs-3}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 3 release{#gs-3}
 
 _20 November 2019_
 
