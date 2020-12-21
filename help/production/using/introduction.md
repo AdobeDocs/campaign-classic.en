@@ -17,7 +17,7 @@ This section presents the procedure to be applied to upgrade Adobe Campaign, cli
 >For hosted instances, you must coordinate with your Adobe Administrator.  
 >For on-premise instances, you can get assistance from Adobe Consultants.
 
-The upgrade must be applied to all servers where Adobe Campaign is installed.
+The upgrade must be applied to all servers where Adobe Campaign is installed. 
 
 1. Migrate the redirection and tracking servers (Apache/IIS).
 1. Migrate the Power Booster/Cluster servers.
@@ -28,6 +28,10 @@ Adobe Campaign is based on several processes executed on the server side which y
 * Application server (nlserver web)
 * Delivery server (nlserver mta)
 * Redirection server (webmdl)
+
+>[!CAUTION]
+>
+>The client console should be on the same build as the server instance.
 
 >[!NOTE]
 >
