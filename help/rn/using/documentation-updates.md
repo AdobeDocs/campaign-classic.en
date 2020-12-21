@@ -22,6 +22,8 @@ A use case has been added on how to add senders' IP addresses to the delivery lo
 
 Privacy FAQ has been moved to [this section](../../platform/using/privacy-faq.md).
 
+A use case has been added on how to use the merge functionality of the Deduplication activity. [Read more](../../workflow/using/deduplication-merge.md)
+
 ## November 2020 {#nov-2020}
 
 Campaign data model overview has been improved and reorganized. [Read more](../../configuration/using/about-data-model.md).
