@@ -24,27 +24,22 @@ For more information on this fonctionality, refer to [this section](../../workfl
 
 The **[!UICONTROL Deduplication]** activity is used for removing duplicate rows from a data set. In this use case, the data shown below is duplicated based on the Email field. 
 
-|Date | First Name | Last Name | Email | Mobile Phone | Phone|
+|Last modification date | First Name | Last Name | Email | Mobile Phone | Phone|
 |-----|------------|-----------|-------|--------------|------|
-|5/19/2013 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777|
-|7/22/2013 | Bobby | Tisner | bob@mycompany.com | | 777-777-7777|
-|2/3/2013 | Bob |  | bob@mycompany.com | | 888-888-8888|
+|5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777|
+|7/22/2020 | Bobby | Tisner | bob@mycompany.com | | 777-777-7777|
+|10/03/2020 | Bob |  | bob@mycompany.com | | 888-888-8888|
 
 With the Deduplication activity's **[!UICONTROL Merge]** fonctionality, you can configure a set of rules for the deduplication to define a group of fields to merge into a single resulting data record. For example, with a set of duplicate records, you can choose to keep the oldest phone number or most recent name.
 
-Here are the rules we want to use to merge the data into a single record:
-
-* Deduplicate on the email field,
-* Keep the most recent name (first name and last name fields),
-* Keep the most recent mobile phone,
-* Keep the oldest phone number,
-* All fields in a group must be non-null to be eligible for the final record.
-
 ## Activating the Merge functionality {#activating-merge}
 
-1. Open the **[!UICONTROL Deduplication]** activity, then click the **[Edit configuration]** link.
 
-1. Select the **[!UICONTROL Email]** as reconciliation field for the deduplication, then click **[!UICONTROL Next]**.
+To enable the merge functionality, you first need to configure the **[!UICONTROL Deduplication]** activity. To do this, follow these steps:
+
+1. Open the activity, then click the **[Edit configuration]** link.
+
+1. Select the reconciliation field to use for the deduplication, then click **[!UICONTROL Next]**. In this example, we want to deduplicate based on the email field.
 
     ![](assets/uc_merge_edit.png)
 
@@ -52,31 +47,44 @@ Here are the rules we want to use to merge the data into a single record:
 
     ![](assets/uc_merge_advanced_parameters.png)
 
-1. The **[!UICONTROL Merge]** tab is added to the **[!UICONTROL Deduplication]** configuration screen.
+1. The **[!UICONTROL Merge]** tab is added to the **[!UICONTROL Deduplication]** configuration screen. We will use this tab to specify the data to merge when performing deduplication.
 
-    We will use this tab to specify the data to merge when performing deduplication. To do this, click the **[!UICONTROL Add]** button.
+## Configuring the fields to merge {#configuring-rules}
+
+Here are the rules we want to use to merge the data into a single record:
+
+* Keep the most recent name (first name and last name fields),
+* Keep the most recent mobile phone,
+* Keep the oldest phone number,
+* All fields in a group must be non-null to be eligible for the final record.
+
+To configure these rules, follow these steps:
+
+1. Open the **[!UICONTROL Merge]** tab, then click the **[!UICONTROL Add]** button.
 
     ![](assets/uc_merge_add.png)
 
-## Configuring the rules {#configuring-rules}
-
-1. Specify the identifier of the group of fields to be merged.
+1. Specify the identifier and label of the group of fields to be merged.
 
     ![](assets/uc_merge_identifier.png)
 
 1. Indicate the conditions for selecting the records to be taken into account.
 
+    In this example, we want to take into account **[!UICONTROL First Name]** and **[!UICONTROL Last Name]** fields that are not empty only.
+
     ![](assets/uc_merge_filter.png)
 
-1. Sort on date to select the most recent first name and last name.
+1. Sort on modification date in order to select the most recent name.
 
     ![](assets/uc_merge_sort.png)
 
-1. Select the fields to merge. In our case, we want to keep the first name, last name, and date.
+1. Select the fields to merge. In this example, we want to keep the first name and last name fields.
 
     ![](assets/uc_merge_keep.png)
 
-1. The rule is added to the set of rules and a new element is added to the workflow schema.
+1. The fields are added to the set of data to merge and a new element is added to the workflow schema.
+
+    Repeat these steps to configure the mobile phone and phone fields.
 
     ![](assets/dedup8.png)
   
@@ -86,14 +94,20 @@ Here are the rules we want to use to merge the data into a single record:
 
 After configuring these rules, the following data is received at the end of the **[!UICONTROL Deduplication]** activity.
 
-Date | First Name | Last Name | Email | Mobile Phone | Phone
------|------------|-----------|-------|--------------|------
-2/3/2013 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888
-5/19/2013 | Robert | Tisner | bob@mycompany.com |   | 777-777-7777
-7/22/2013 | Bobby |   | bob@mycompany.com |   | 777-777-7777
+Date | First Name | Last Name | Email | Mobile Phone | Phone|
+-----|------------|-----------|-------|--------------|------|
+|5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777|
+|7/22/2020 | Bobby | Tisner | bob@mycompany.com | | 777-777-7777|
+|10/03/2020 | Bob |  | bob@mycompany.com | | 888-888-8888|
 
 The result is merged from the three records according to the rules configured earlier. After comparison, it is concluded that the most recent first name, last name, and mobile phone are used, along with the original phone (Home) used to build the data.
 
-Date | First Name | Last Name | Email | Mobile Phone | Phone
------|------------|-----------|-------|--------------|------
-2/3/2013 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888
+Date | First Name | Last Name | Email | Mobile Phone | Phone|
+-----|------------|-----------|-------|--------------|------|
+10/03/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888|
+
+>[!NOTE]
+>
+> Note that the first name to be merged is "Bobby", because we configured a "Name" rule made of both the first name and last fields.
+>
+>As a result, "Bob" (the most recent first name) could not be taken into account because its associated last name was empty. The most recent combination of first and last names was merged in the final record.
