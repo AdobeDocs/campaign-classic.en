@@ -70,11 +70,9 @@ To configure these rules, follow these steps:
 
 1. Indicate the conditions for selecting the records to be taken into account.
 
-    In this example, we want to take into account **[!UICONTROL First Name]** and **[!UICONTROL Last Name]** fields that are not empty only.
-
     ![](assets/uc_merge_filter.png)
 
-1. Sort on modification date in order to select the most recent name.
+1. Sort on the last modification date in order to select the most recent name.
 
     ![](assets/uc_merge_sort.png)
 
@@ -94,20 +92,20 @@ To configure these rules, follow these steps:
 
 After configuring these rules, the following data is received at the end of the **[!UICONTROL Deduplication]** activity.
 
-Date | First Name | Last Name | Email | Mobile Phone | Phone|
+Modification date | First Name | Last Name | Email | Mobile Phone | Phone|
 -----|------------|-----------|-------|--------------|------|
 |5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777|
 |7/22/2020 | Bobby | Tisner | bob@mycompany.com | | 777-777-7777|
 |10/03/2020 | Bob |  | bob@mycompany.com | | 888-888-8888|
 
-The result is merged from the three records according to the rules configured earlier. After comparison, it is concluded that the most recent first name, last name, and mobile phone are used, along with the original phone (Home) used to build the data.
+The result is merged from the three records according to the rules configured earlier. After comparison, it is concluded that the most recent name and mobile phone are used, along with the original phone number.
 
-Date | First Name | Last Name | Email | Mobile Phone | Phone|
+| First Name | Last Name | Email | Mobile Phone | Phone|
 -----|------------|-----------|-------|--------------|------|
-10/03/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888|
+| Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888|
 
 >[!NOTE]
 >
-> Note that the first name to be merged is "Bobby", because we configured a "Name" rule made of both the first name and last fields.
+> Note that the first name that has been merged is "Bobby", because we configured a "Name" rule made of both the first name and last fields.
 >
->As a result, "Bob" (the most recent first name) could not be taken into account because its associated last name was empty. The most recent combination of first and last names was merged in the final record.
+>As a result, "Bob" (the most recent first name) could not be taken into account because its associated last name field was empty. The most recent combination of first and last names was merged in the final record.
