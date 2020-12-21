@@ -30,6 +30,10 @@ _21 December 2020_
 * Fixed a server crash issue by preventing memory corruption when cleaning the expression parser. (NEO-26856)
 * Fixed an issue that caused the server to crash when displaying the target data of the remainder from a **Split** activity in a workflow.
 * Fixed an issue that could display an error message when trying to preview SMS messages after a query on another schema than **Recipient** (nms:recipient). (NEO-27517)
+* Fixed an issue when making an HTTP request using a Javascript activity. If the port number was defined in the host name, the call failed with a certificate error. (NEO-29146)
+* Fixed an issue which generated large core dump files on the marketing instance. (NEO-28117)
+* Fixed an issue which could cause the web process to crash. (NEO-27790)
+* Which an issue which caused deliveries to fail when triggered by a non-admin operator. (NEO-28597, NEO-27517)
 
 ## ![](assets/do-not-localize/green_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
