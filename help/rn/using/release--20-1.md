@@ -10,6 +10,17 @@ topic-tags: campaign-release-notes, latest-release-notes
 
 # Release 20.1{#release-20-1}
 
+## ![](assets/do-not-localize/limited_2.png) Release 20.1.4 - Build 9126 {#release-20-1-4-build-9126}
+
+_24 December 2020_
+
+>[!CAUTION]
+>
+>This release comes with a new connection protocol:  upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2020
+
+* The connection protocol has been updated to follow the new IMS authentication mechanism. 
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
+
 ## ![](assets/do-not-localize/red_2.png) Release 20.1.3 - Build 9124{#release-20-1-3-build-9124}
 
 _May 6, 2020_
