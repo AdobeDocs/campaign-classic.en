@@ -28,3 +28,6 @@ For more on how to monitor technical workflows, refer to the [dedicated section]
 |------|--------|-----------|
 |**Alias cleansing** (aliasCleansing)|Delivery|This workflow standardizes enumeration values. It is triggered every day at 3am by default.|
 |**Billing** (billing)|Delivery|This workflow sends the system activity report to the 'billing' operator by email. It is triggered the 25th of every month by default.|
+|**Calculation of Twitter statistics** (statsTwitter)|Social networks (Social Marketing)|This workflow calculates statistics linked to retweets and visits on Twitter.|
+|**Campaign jobs** (operationMgt)|Marketing campaigns (Campaign)|This workflow manages the jobs for marketing campaigns (launches targeting, file extraction, etc.). It also creates workflows related to recurring and periodic campaigns.|
+|**Collect privacy requests** (collectPrivacyRequests)|Privacy Data Protection Regulation|This workflow generates the recipient's data stored in Adobe Campaign and makes it available for download in the privacy request's screen.|
