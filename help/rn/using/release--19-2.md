@@ -21,7 +21,7 @@ _23 December 2020_
 * The connection protocol has been updated to follow the new IMS authentication mechanism. 
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
 
-## ![](assets/do-not-localize/orange_2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
+## ![](assets/do-not-localize/red_2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
 
 _February 07, 2020_
 
