@@ -18,6 +18,8 @@ This page lists Gold Standard releases.
 
 For more information on Campaign Gold Standard program, refer [to this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
+## ![](assets/do-not-localize/limited_2.png) Gold Standard 11 release{#gs-11}
+
 _21 December 2020_
 
 >[!CAUTION]
