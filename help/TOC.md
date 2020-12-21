@@ -41,7 +41,6 @@ type: Documentation
           + [Common questions](platform/using/common-questions.md)
           + [Key concepts](platform/using/faq-key-concepts.md)
           + [Build upgrade](platform/using/faq-build-upgrade.md)
-          + [Privacy](platform/using/privacy-faq.md)
           + [Audiences](platform/using/faq-audiences.md)
           + [Design messages](platform/using/faq-designing.md)
           + [Send messages](platform/using/faq-messages.md)
@@ -54,6 +53,7 @@ type: Documentation
        + [Privacy and consent](platform/using/privacy-and-recommendations.md)
        + [Privacy management](platform/using/privacy-management.md)
        + [Privacy requests](platform/using/privacy-requests.md)
+     + [Privacy FAQ](platform/using/privacy-faq.md)
   + Profile management {#profile-management}
        + [About profiles](platform/using/about-profiles.md)
        + [Editing a profile](platform/using/editing-a-profile.md)

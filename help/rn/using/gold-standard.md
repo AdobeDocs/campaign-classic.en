@@ -20,7 +20,7 @@ For more information on Campaign Gold Standard program, refer [to this article](
 
 ## ![](assets/do-not-localize/limited_2.png) Gold Standard 11 release{#gs-11}
 
-_16 December 2020_
+_21 December 2020_
 
 >[!CAUTION]
 >
@@ -46,7 +46,7 @@ Fixed an issue which prevented tracking from working when the signature feature 
 
 >[!CAUTION]
 >
->We recommend that you upgrade the client console with the one available in this release. Refer to [this page](../../installation/using/installing-the-client-console.md)
+>We recommend that you upgrade the client console with the one available in this release. Refer [to this page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 9 release{#gs-9}
 
