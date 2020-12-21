@@ -35,7 +35,7 @@ _21 December 2020_
 * Fixed an issue which could cause the web process to crash. (NEO-27790)
 * Which an issue which caused deliveries to fail when triggered by a non-admin operator. (NEO-28597, NEO-27517)
 
-## ![](assets/do-not-localize/green_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
+## ![](assets/do-not-localize/red_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
 _September 11, 2020_
 
