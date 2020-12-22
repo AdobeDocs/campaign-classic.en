@@ -12,7 +12,30 @@ topic-tags: campaign-release-notes, latest-release-notes
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/green_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
+## ![](assets/do-not-localize/green_2.png) Release 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
+
+_22 December 2020_
+
+>[!CAUTION]
+>
+>This release comes with a new connection protocol:  upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2020
+
+**Improvements**
+
+* The connection protocol has been updated to follow the new IMS authentication mechanism. 
+* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has been changed and moved to Adobe I/O. [Learn more](../../integrations/using/configuring-adobe-io.md)
+* Following the end of support for iOS APNs legacy binary protocol, all instances using this protocol are updated to HTTP/2 protocol during postupgrade.
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
+* Fixed an issue causing the deactivation of the SMPP connector after a connection error, preventing other SMS deliveries from being sent and leading to performance issues. (NEO-28609)
+* Fixed a server crash issue by preventing memory corruption when cleaning the expression parser. (NEO-26856)
+* Fixed an issue that caused the server to crash when displaying the target data of the remainder from a **Split** activity in a workflow.
+* Fixed an issue that could display an error message when trying to preview SMS messages after a query on another schema than **Recipient** (nms:recipient). (NEO-27517)
+* Fixed an issue when making an HTTPS connection request with the port number explicitly defined in the host name, the call failed with a certificate error. (NEO-29146)
+* Fixed an issue in POSIX thread management which generated large core dump files on the marketing instance. (NEO-28117, NEO-29281)
+* Fixed issues which could cause the web process to crash when preparing deliveries or with recurring delivery preview. (NEO-27790, NEO-27517)
+* Fixed an issue which caused deliveries or proof sending to fail when triggered by a non-admin operator. (NEO-28597)
+
+## ![](assets/do-not-localize/red_2.png) Release 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
 _September 11, 2020_
 
