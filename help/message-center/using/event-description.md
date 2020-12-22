@@ -51,7 +51,6 @@ The **PushEvents** method is made up of a **`<urn:domeventcollection>`** paramet
 Example using PushEvent:
 
 ```
-
 <urn:PushEvent>
 
  <sessiontoken>___921f9b38-72ac-49ad-b481-ab32973efc50</sessiontoken>
@@ -67,7 +66,6 @@ Example using PushEvent:
  </urn:domEvent>
 
 </urn:PushEvent>
-
 ```
 
 >[!NOTE]
@@ -77,7 +75,6 @@ Example using PushEvent:
 Example using PushEvents:
 
 ```
-
 <urn:PushEvents>
 
  <sessiontoken>___921f9b38-72ac-49ad-b481-ab32973efc50</sessiontoken>
@@ -97,7 +94,6 @@ Example using PushEvents:
  </urn:domEventCollection>
 
 </urn:PushEvents>
-
 ```
 
 The **`<rtevent>`** and **`<batchevent>`** elements have a set of attributes as well as a mandatory child element: **`<ctx>`** for integrating message data.
@@ -133,7 +129,6 @@ The **`<ctx>`** element contains the message data. Its XML content is open, whic
 Data example:
 
 ```
-
    <ctx>
                <client>
                         <firstname>John</firstname>
@@ -150,7 +145,6 @@ Data example:
                            </article>
                </orderdetails>
     </ctx>
-   
 ```
 
 ## Information returned by the SOAP call {#information-returned-by-the-soap-call}
@@ -171,6 +165,7 @@ When it receives an event, Adobe Campaign generates a unique return ID. This is 
         </urn:PushEventResponse>
      </SOAP-ENV:Body>
   </SOAP-ENV:Envelope>
+
   ```
 
 If the value of the return identifier is strictly greater than zero, this means the event has been successfully archived in Adobe Campaign.
@@ -218,13 +213,13 @@ However, if the event fails to be processed, the method returns an error message
 
 * Example of an event that failed and returned a zero identifier (wrong method name):
 
-  ```
-  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-     <SOAP-ENV:Body>
-        <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
-           <plId xsi:type="xsd:long">0</plId>
-        </urn:PushEventResponse>
-     </SOAP-ENV:Body>
-  </SOAP-ENV:Envelope>
-  ```
+   ```
+   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+      <SOAP-ENV:Body>
+         <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
+            <plId xsi:type="xsd:long">0</plId>
+         </urn:PushEventResponse>
+      </SOAP-ENV:Body>
+   </SOAP-ENV:Envelope>
+   ```
 

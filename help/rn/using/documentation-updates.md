@@ -22,6 +22,12 @@ A use case has been added on how to add senders' IP addresses to the delivery lo
 
 Privacy FAQ has been moved to [this section](../../platform/using/privacy-faq.md).
 
+A use case has been added on how to use the Deduplication activity's Merge functionality. [Read more](../../workflow/using/deduplication-merge.md)
+
+The SMS connector protocol and settings page has been moved [here](../../delivery/using/sms-protocol.md).
+
+A note has been added to the Transactional messaging section to warn that the event folders must not be set as views on the execution instances, to avoid access right issues. [Read more](../../message-center/using/event-collection.md)
+
 ## November 2020 {#nov-2020}
 
 Campaign data model overview has been improved and reorganized. [Read more](../../configuration/using/about-data-model.md).

@@ -25,7 +25,7 @@ In some cases, workflows executed from a campaign do not start when clicking the
 
 There can be several causes for this issue, follow the steps below to solve it:
 
-1. Check the [**[!UICONTROL operationMgt]**](../../workflow/using/campaign.md) technical workflow status. This workflow manages jobs or workflows inside a campaign. If it fails, this will result in workflows to not start / stop. Restart it to resume the running of campaign workflows.
+1. Check the [**[!UICONTROL operationMgt]**](../../workflow/using/about-technical-workflows.md) technical workflow status. This workflow manages jobs or workflows inside a campaign. If it fails, this will result in workflows to not start / stop. Restart it to resume the running of campaign workflows.
 
     For more on technical workflows monitoring, refer to [this page](../../workflow/using/monitoring-technical-workflows.md).
 
