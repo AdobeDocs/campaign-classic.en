@@ -33,6 +33,7 @@ Both methods contain an **`<urn:sessiontoken>`** element for logging on to the t
 In case you're using a loadbalanced server, you can use the User/Password authentication (at the level of the RT message). Example:
 
 ```
+
 <PushEvent xmlns="urn:nms:rtEvent">
 <sessiontoken>mc/PASSWORD</sessiontoken>
 <domEvent>
@@ -42,6 +43,7 @@ In case you're using a loadbalanced server, you can use the User/Password authen
 </rtEvent>
 </domEvent>
 </PushEvent>
+
 ```
 
 The **PushEvent** method is made up of a **`<urn:domevent>`** parameter which contains the event.
@@ -111,7 +113,9 @@ The mandatory attributes of the **`<rtevent>`** and **`<batchevent>`** elements 
 `<rtevent> configuration example:`
 
 ```
+
 <rtEvent type="order_confirmation" email="john.doe@domain.com" origin="eCommerce" wishedChannel="0" externalId="1242" mobilePhone="+33620202020"> 
+
 ```
 
 In this example, two channels are provided: the email address and the mobile phone number. The **wishedChannel** lets you select the channel you wish to use when transforming the event into a message. The "0" value corresponds to the email channel, the "1" value to the mobile channel, etc.
@@ -164,6 +168,7 @@ When it receives an event, Adobe Campaign generates a unique return ID. This is 
 * Example of an identifier returned by the method when event processing is successful:
 
   ```
+
   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
      <SOAP-ENV:Body>
         <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
@@ -171,6 +176,7 @@ When it receives an event, Adobe Campaign generates a unique return ID. This is 
         </urn:PushEventResponse>
      </SOAP-ENV:Body>
   </SOAP-ENV:Envelope>
+
   ```
 
 If the value of the return identifier is strictly greater than zero, this means the event has been successfully archived in Adobe Campaign.
@@ -180,6 +186,7 @@ However, if the event fails to be processed, the method returns an error message
 * Processing example of an event that failed when the query does not contain a login or the specified operator doesn't have the required rights:
 
   ```
+
   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
      <SOAP-ENV:Body>
         <SOAP-ENV:Fault>
@@ -189,11 +196,13 @@ However, if the event fails to be processed, the method returns an error message
         </SOAP-ENV:Fault>
      </SOAP-ENV:Body>
   </SOAP-ENV:Envelope>
+
   ```
 
 * Example of an event that failed due to an error in the query (the XML classification isn't complied with):
 
   ```
+
   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
      <SOAP-ENV:Body>
         <SOAP-ENV:Fault>
@@ -214,11 +223,13 @@ However, if the event fails to be processed, the method returns an error message
         </SOAP-ENV:Fault>
      </SOAP-ENV:Body>
   </SOAP-ENV:Envelope>
+
   ```
 
 * Example of an event that failed and returned a zero identifier (wrong method name):
 
   ```
+
   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
      <SOAP-ENV:Body>
         <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
@@ -226,5 +237,6 @@ However, if the event fails to be processed, the method returns an error message
         </urn:PushEventResponse>
      </SOAP-ENV:Body>
   </SOAP-ENV:Envelope>
+  
   ```
   
