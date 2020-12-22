@@ -147,7 +147,7 @@ Data example:
     </ctx>
 ```
 
-<## Information returned by the SOAP call {#information-returned-by-the-soap-call}
+## Information returned by the SOAP call {#information-returned-by-the-soap-call}
 
 When it receives an event, Adobe Campaign generates a unique return ID. This is the ID of the archived version of the event.
 
