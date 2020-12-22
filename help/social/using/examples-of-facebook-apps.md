@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Examples of Facebook apps
-seo-title: Examples of Facebook apps
 description: Examples of Facebook apps
-seo-description: 
-page-status-flag: never-activated
-uuid: 336f4006-3545-4b04-959d-61cd0446af27
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: annexes
-discoiquuid: 07be1d3c-b038-48ca-be37-a33adb8e0fc0
-index: y
-internal: n
-snippet: y
 ---
 
 # Examples of Facebook apps{#examples-of-facebook-apps}
@@ -125,7 +117,7 @@ To recreate this use case, we have created a web application made up of the foll
 
 ## How to acquire fan data? {#how-to-acquire-fan-data-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Comply with the configuration steps detailed in [Creating a Facebook application](../../social/using/creating-a-facebook-application.md).
 
@@ -246,7 +238,7 @@ If the profile doesn't exist in the database and the Facebook user's email addre
 
 1. In the **[!UICONTROL Mapping]** field, select the schema which you want to carry out the reconciliation on.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Make sure the fields of the **[!UICONTROL Social networks]** tab are correctly entered in the delivery mapping. Delivery mappings are accessed via the **[!UICONTROL Administration > Campaign management > Target mappings]** node.
 

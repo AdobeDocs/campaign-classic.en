@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Edition
-seo-title: Edition
 description: Edition
-seo-description: 
-page-status-flag: never-activated
-uuid: df9298fc-5f62-4afb-8118-ca7e3987e81f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
-discoiquuid: 820be231-af76-44ce-8f4d-cd5eae1eb169
-index: y
-internal: n
-snippet: y
 ---
 
 # Edition{#edition}

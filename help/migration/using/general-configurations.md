@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: General configurations
-seo-title: General configurations
 description: General configurations
-seo-description: 
-page-status-flag: never-activated
-uuid: 317a145d-36b0-40fe-a272-ad5e35b0b190
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: configuration
-discoiquuid: f4b1c108-7f71-4aa1-8394-a7f660834c9c
-index: y
-internal: n
-snippet: y
 ---
 
 # General configurations{#general-configurations}
@@ -188,7 +180,7 @@ For example:
 
 ```
 <url IPMask="" deny="" hostMask="" httpAllowed="true" relayHost="true" relayPath="true"
-           status="blocklist" targetUrl="https://localhost:8080" timeout="" urlPath="*/cus/myPublicPage.jssp"/>
+           status="blacklist" targetUrl="https://localhost:8080" timeout="" urlPath="*/cus/myPublicPage.jssp"/>
 ```
 
 ## Syntax {#syntax}
@@ -479,13 +471,13 @@ If you choose to manually resolve the conflict, proceed as follows:
 The integrated Tomcat server in Adobe Campaign v7 has changed version (Tomcat 7). Its installation folder (tomcat-6) has therefore also changed (tomcat 7). After the postupgrade, make sure to check that the paths do link to the updated folder (in the **[!UICONTROL serverConf.xml]** file):
 
 ```
-$(XTK_INSTALL_DIR)/tomcat-7/bin/bootstrap.jar 
-$(XTK_INSTALL_DIR)/tomcat-7/bin/tomcat-juli.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-util.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-api.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/servlet-api.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/jsp-api.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/el-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 
+$(XTK_INSTALL_DIR)/tomcat-8/bin/tomcat-juli.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-util.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 ```
 
 ## Interaction {#interaction}

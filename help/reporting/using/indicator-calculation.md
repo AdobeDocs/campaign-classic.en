@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Indicator calculation
-seo-title: Indicator calculation
 description: Indicator calculation
-seo-description: 
-page-status-flag: never-activated
-uuid: 83ea834e-08f7-441b-8f15-a25ec07c4aab
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
-index: y
-internal: n
-snippet: y
 ---
 
 # Indicator calculation {#indicator-calculation}
@@ -560,7 +552,7 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** (n
   <tr> 
    <td> Complaints<br /> </td> 
    <td> @complaints<br /> </td> 
-   <td> Count of messages with a status equal to "Failed" and a reason equal to "address added to the block list".<br /> </td> 
+   <td> Count of messages with a status equal to "Failed" and a reason equal to "address on denylist".<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=8)<br /> </td> 
   </tr> 
   <tr> 
@@ -762,7 +754,7 @@ This report is based on the **[!UICONTROL Delivery]** table (nms:delivery).
   <tr> 
    <td> Messages rejected by the rule<br /> </td> 
    <td> @reject<br /> </td> 
-   <td> Number of addresses ignored during the analysis in keeping with typology rules: address not specified, quarantined, added to the block list, etc.<br /> </td> 
+   <td> Number of addresses ignored during the analysis in keeping with typology rules: address not specified, quarantined, on denylist, etc.<br /> </td> 
    <td> sum([properties/@reject])<br /> </td> 
   </tr> 
   <tr> 

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Managing activity images
-seo-title: Managing activity images
 description: Managing activity images
-seo-description: 
-page-status-flag: never-activated
-uuid: 6497d979-b22b-4245-9142-b7c5ff047413
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-discoiquuid: ae8fc2b7-456b-481c-8abb-64dab1c22534
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing activity images{#managing-activity-images}

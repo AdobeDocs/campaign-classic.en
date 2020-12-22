@@ -1,24 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign workspace
-seo-title: Adobe Campaign workspace
 description: Adobe Campaign workspace
-seo-description: 
-page-status-flag: never-activated
-uuid: ed954f73-6456-4fa3-b284-9b2d865c2afb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Campaign workspace{#adobe-campaign-workspace}
 
-## About Adobe Campaign interface {#about-adobe-campaign-interface}
+## Exploring Adobe Campaign interface {#about-adobe-campaign-interface}
 
 Once you are connected to the database, you will access the Adobe Campaign home page, which is a dashboard: it is made up of links and shortcuts which let you access capabilities, depending on your installation as well as general platform configurations.
 
@@ -26,7 +18,7 @@ From the central section of the home page, you can use links to access Campaign 
 
 ![](assets/d_ncs_user_interface_home.png)
 
-The screenshot above is an example of the home page for an Adobe Campaign user. For more on this, watch the [Adobe Campaign Interface overview video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html).
+![](assets/do-not-localize/how-to-video.png) Discover Campaign workspace in [video](#video)
 
 >[!NOTE]
 >
@@ -50,7 +42,7 @@ Whereas with Web access, the options will mainly enable viewing:
 
 ### Languages {#languages}
 
-The language is selected when installing your Adobe Campaign Classic instance and cannot be changed afterwards. For more information on how to create an instance, refer to this [page](../../installation/using/creating-an-instance-and-logging-on.md).
+The language is selected when installing your Adobe Campaign Classic instance.
 
 ![](assets/language.png)
 
@@ -63,6 +55,12 @@ You can choose between five different languages:
 * Japanese
 
 The language you chose for your Adobe Campaign Classic instance might impact date and time formats. For more on this, refer to this [section](../../platform/using/adobe-campaign-workspace.md#date-and-time).
+
+For more information on how to create an instance, refer to this [page](../../installation/using/creating-an-instance-and-logging-on.md).
+
+>[!CAUTION]
+>
+>The language cannot be changed after the instance creation. 
 
 ## Navigation basics {#navigation-basics}
 
@@ -170,9 +168,9 @@ In the list configuration window, click "Advanced parameters" (bottom left) and 
 
 ![](assets/s_ncs_user_configurelist_advancedparam.png)
 
-### Configuring lists {#configuring-lists}
+## Configuring lists {#configuring-lists}
 
-#### Add columns {#add-columns}
+### Add columns {#add-columns}
 
 There are two ways to add a column in a list.
 
@@ -218,14 +216,14 @@ Another way to add columns, for example if you want to display data which is not
 
 1. Click **[!UICONTROL OK]** to confirm the configuration and display the result.
 
-#### Create a new column {#create-a-new-column}
+### Create a new column {#create-a-new-column}
 
 You can create new columns to display additional fields in the list. To do this:
 
 1. Click **[!UICONTROL Configure the list]** at below and to the right of the list.
 1. Click **[!UICONTROL Add]** to display a new field in the list.
 
-#### Remove a column {#remove-a-column}
+### Remove a column {#remove-a-column}
 
 You can mask one or more columns in a list of records using **[!UICONTROL Configure list]** located below and to the right of the list.
 
@@ -237,11 +235,11 @@ In the list configuration window, select the column to be masked from the **[!UI
 
 Repeat for each column to be masked. Click **[!UICONTROL OK]** to confirm the configuration and display the result.
 
-#### Adjust column width {#adjust-column-width}
+### Adjust column width {#adjust-column-width}
 
 When a list is active, i.e. at least one line is selected, you can use F9 to adjust the width of the columns so that all the columns can be displayed on screen.
 
-#### Display sub-folders records {#display-sub-folders-records}
+### Display sub-folders records {#display-sub-folders-records}
 
 Lists can display:
 
@@ -282,7 +280,7 @@ Click **[!UICONTROL Save]** in the folder properties window. The list display is
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
-### Exporting a list {#exporting-a-list}
+## Exporting a list {#exporting-a-list}
 
 To export data from a list, you must use an export wizard. To access it, select the elements to be exported from the list, right-click and select **[!UICONTROL Export...]**.
 
@@ -292,7 +290,7 @@ The use of the import and export functions is explained in [Generic imports and 
 >
 >Elements from a list must not be exported using the Copy/Paste function.
 
-### Sorting a list {#sorting-a-list}
+## Sorting a list {#sorting-a-list}
 
 Lists can contain a large amount of data. You can sort these data or apply simple or advanced filters. Sorting lets you display data in ascending or descending order. Filters let you define and combine criteria to display selected data only.
 
@@ -317,7 +315,7 @@ You can also configure sorting or combine sort criteria. To do this, follow the 
 
 1. Click **[!UICONTROL Ok]** to confirm this configuration and display the result in the list.
 
-### Running a search {#running-a-search}
+### Searching elements {#running-a-search}
 
 You can run a search of the available fields in an editor using the **[!UICONTROL Search]** field located above the list of fields. Press **Enter** on the keyboard or browse the list. The fields that match your search will have bold labels.
 
@@ -385,3 +383,10 @@ In the fields that express a duration (e.g. validity period of the resources of 
 
 ![](assets/enter_unit_sample.png)
 
+## Tutorial video {#video}
+
+This video presents Campaign Classic workspace.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

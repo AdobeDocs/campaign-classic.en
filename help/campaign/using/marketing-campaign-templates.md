@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Marketing campaign templates
-seo-title: Marketing campaign templates
 description: Marketing campaign templates
-seo-description: Marketing campaign templates
-page-status-flag: never-activated
-uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-index: y
-internal: n
-snippet: y
 ---
 
 # Marketing Campaign templates {#campaign-templates}
@@ -70,7 +62,7 @@ An out-of-the-box template is supplied in order to create a campaign for which n
 
 The creation and configuration of campaign templates are presented in [Campaign templates](#campaign-templates).
 
-For more on campaign creation, refer to [this video](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
+![](assets/do-not-localize/how-to-video.png) For more on campaign creation, refer to [this video](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
 
 ## Configuration of the available modules {#configuration-of-the-available-modules}
 

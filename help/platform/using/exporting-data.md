@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Exporting data
-seo-title: Exporting data
 description: Exporting data
-seo-description: 
-page-status-flag: never-activated
-uuid: 818de79a-587f-4735-b333-4bc702c3b450
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: fecadb66-b81d-4fb6-9971-7bfd024d70b7
-index: y
-internal: n
-snippet: y
 ---
 
 # Exporting data{#exporting-data}

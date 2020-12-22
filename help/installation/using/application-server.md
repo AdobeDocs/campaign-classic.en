@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Application server
-seo-title: Application server
 description: Application server
-seo-description: 
-page-status-flag: never-activated
-uuid: 837c6a5c-53a4-4d1b-a084-9cf77e7a0eee
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-discoiquuid: 7a9e028c-255d-4aad-9827-d19f9a7897b2
-index: y
-internal: n
-snippet: y
 ---
 
 # Application server{#application-server}
@@ -28,7 +20,7 @@ You must first install a JDK on the computers on which you wish to run the Adobe
 
 The application has been approved for the Java Development Kit (JDK) developed by Oracle as well as for **OpenJDK**.
 
-The supported versions are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+The supported versions are detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 >[!NOTE]
 >

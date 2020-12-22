@@ -1,30 +1,22 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Gold Standard release
-description: Gold Standard release
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Campaign Classic Gold Standard Release notes
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
 ---
 
 # Gold Standard release{#gold-standard}
 
-As a Gold Standard user, you automatically benefit from the Gold Standard upgrade with the latest stable version without any action.
+Gold Standard is Campaign Classic Long-Term support release. As a Gold Standard user, you automatically benefit from the Gold Standard upgrade with the latest stable version without any action. On premise and Hybrid customers can also benefit from Gold Standard releases.
 
-On premise and Hybrid customers can also benefit from Gold Standard releases.
-
-This is our Long-Term support release. If you migrate from an old build, we recommend that you upgrade first to this version.
+If you migrate from an old build, we recommend that you upgrade first to this version.
 
 This page lists Gold Standard releases.
 
-For more information on Gold Standard upgrade, refer to this [article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+For more information on Campaign Gold Standard program, refer [to this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 10 release{#gs-10}
 
@@ -36,7 +28,7 @@ Fixed an issue which prevented tracking from working when the signature feature 
 
 >[!CAUTION]
 >
->We recommend that you upgrade the client console with the one available in this release. Refer to this [page](../../installation/using/installing-the-client-console.md)
+>We recommend that you upgrade the client console with the one available in this release. Refer to [this page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 9 release{#gs-9}
 
@@ -46,7 +38,7 @@ The build 9032&#64;800be2e includes the following fixes:
 
 * The iOS HTTP2 connector has been improved (third-party updates and error management). (NEO-25904, NEO-25903, NEO-25799)
 
-The following fixes are related to the tracking link security mechanism (see the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)):
+The following fixes are related to the tracking link security mechanism (learn more in the [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)):
 
 * Fixed an issue which prevented the tracking of "notification clicks" from working (iOS and Android push notifications). (NEO-25965)
 * Fixed an issue which could prevent you from opening/clicking tracking URLs when using certain legacy versions of Outlook.  (NEO-25688)
@@ -64,7 +56,7 @@ The build 9032&#64;3a9dc9c includes the following fixes:
 
  >[!CAUTION]
  >
- >If you experience issues with push notifications using tracking links, or deliveries using anchor tags, we recommend that you disable the new signature mechanism for tracking links. The procedure is detailed in this [page](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
+ >If you experience issues with push notifications using tracking links, or deliveries using anchor tags, we recommend that you disable the new signature mechanism for tracking links. The procedure is detailed [in this page](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
 
 * Fixed an issue which could prevent images from being displayed on Line deliveries. (NEO-23207)
 * Fixed an issue with the **File Transfer** activity which prevented SFTP key based authentication from working on Debian 9. (NEO-23183) 
@@ -79,7 +71,7 @@ The build 9032&#64;3a9dc9c includes the following fixes:
 * Fixed a regression causing the cleanup workflow to crash. 
 * Fixed a minor regression in the cleanup workflow logs.
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 6 release{#gs-6}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 6 release{#gs-6}
 
 _9 March 2020_
 
@@ -87,7 +79,7 @@ The build 9032&#64;19f73c5 includes the following fix:
 
 * Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 5 release{#gs-5}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 5 release{#gs-5}
 
 _17 December 2019_
 
@@ -95,7 +87,7 @@ The build 9032&#64;d6b8062 includes the following fix:
 
 * Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter). (NEO-19595)
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 4 release{#gs-4}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 4 release{#gs-4}
 
 _11 December 2019_
 
@@ -103,7 +95,7 @@ The build 9032&#64;bc4a935 includes the following fix:
 
 * Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 3 release{#gs-3}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 3 release{#gs-3}
 
 _20 November 2019_
 

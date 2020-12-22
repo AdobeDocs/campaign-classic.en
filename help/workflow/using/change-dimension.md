@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Change dimension
-seo-title: Change dimension
 description: Change dimension
-seo-description: 
-page-status-flag: never-activated
-uuid: 6cb309c0-4096-47ce-b1d4-37a3ddafaaa1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 61583062-2349-4ab3-a3bf-310d21894f34
-index: y
-internal: n
-snippet: y
 ---
 
 # Change dimension{#change-dimension}

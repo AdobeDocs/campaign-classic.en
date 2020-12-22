@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Starting a workflow
-description: Learn how to start a workflow and discover workflows actions toolbar and right-click menu.
-page-status-flag: never-activated
-uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to start a workflow and discover workflows actions toolbar and right-click menu
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
-index: y
-internal: n
-snippet: y
 ---
 
 # Starting a workflow {#starting-a-workflow}

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About web services
-seo-title: About web services
 description: About web services
-seo-description: 
-page-status-flag: never-activated
-uuid: f0b21cb3-aa75-4f54-a9f5-64e880f93e53
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: 65919173-3ce0-4d98-936b-f4581df536ae
-index: y
-internal: n
-snippet: y
 ---
 
 # About web services{#about-web-services}
@@ -139,7 +131,7 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 
 ```
 
-The `<soap-env:fault>` element in the body of the SOAP message is used to convey the error signals arising during the processing of the Web service. This is composed of the following sub-elements:
+The `<soap-env:fault>` element in the body of the SOAP message is used to convey the error signals arising during the processing of the web service. This is composed of the following sub-elements:
 
 * `<faultcode>` : indicates the type of error. The error types are:
 

@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Data loading (file)
-description: Learn more about the Data loading (file) activity.
-page-status-flag: never-activated
-uuid: c064aa23-412e-49b4-a51d-b0e8ca572f2e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Data loading (file) workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: dcb5b8e8-be38-4d89-908d-f57c2413a9bc
-index: y
-internal: n
-snippet: y
 ---
 
 # Data loading (file){#data-loading-file}

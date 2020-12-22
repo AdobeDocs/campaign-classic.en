@@ -1,19 +1,11 @@
 ---
-title: "Use case: creating an email delivery"
-seo-title: "Use case: creating an email delivery"
-description: "Use case: creating an email delivery"
-seo-description: 
-page-status-flag: never-activated
-uuid: 7cd6329c-63d5-4cf0-9451-f0b4c2eaf0dd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: Use case - creating an email delivery
+description: Creating an email delivery use case
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-discoiquuid: 4ec34980-62a2-47b9-b103-de4290925624
-index: y
-internal: n
-snippet: y
 ---
 
 # Use case: creating an email delivery{#use-case-creating-an-email-delivery}
@@ -31,7 +23,7 @@ Our final goal is to create a delivery with a personalized template which contai
 >
 >Before you start, you must have at least one **HTML template** configured to host the content of your future deliveries.
 >
->In the delivery **[!UICONTROL Properties]** , make sure that the **[!UICONTROL Content editing mode]** (in the **[!UICONTROL Advanced]** tab) is set to **[!UICONTROL DCE]**. To ensure the editor's optimal operation, refer to the [Content editing best practices](../../web/using/content-editing-best-practices.md).
+>In the delivery **[!UICONTROL Properties]**, make sure that the **[!UICONTROL Content editing mode]** (in the **[!UICONTROL Advanced]** tab) is set to **[!UICONTROL DCE]**. To ensure the editor's optimal operation, refer to the [Content editing best practices](../../web/using/content-editing-best-practices.md).
 
 ## Step 1 - Creating a delivery {#step-1---creating-a-delivery}
 

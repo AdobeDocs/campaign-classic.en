@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About distributed marketing
-seo-title: About distributed marketing
 description: About distributed marketing
-seo-description: 
-page-status-flag: never-activated
-uuid: 7f7ece67-c644-4072-a06c-c5b49f3acb5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-discoiquuid: 6d694f5c-1d1f-4686-b3bf-8697d919a0c8
-index: y
-internal: n
-snippet: y
 ---
 
 # About distributed marketing{#about-distributed-marketing}
@@ -71,9 +63,9 @@ Refer to [Creating a local campaign](../../campaign/using/creating-a-local-campa
 
 A collaborative campaign is a campaign whose **execution schedule is defined** by the central entity, which the local entity may use. The content remains the same for each local entity but costs are shared. To take part, local entities subscribe to the collaborative campaign.
 
-* **[!UICONTROL Collaborative campaign (by form)]**: recommended for campaigns involving up to 300 local entities. The local entity can enter predefined parameters for targeting and content personalization in a Web form. The form can be an Adobe Campaign form or an external form (extranet client). A functional administrator can define and configure the form based on a form template defined by the integrator. To order the campaign, the local entity just needs Web access.
+* **[!UICONTROL Collaborative campaign (by form)]**: recommended for campaigns involving up to 300 local entities. The local entity can enter predefined parameters for targeting and content personalization in a web form. The form can be an Adobe Campaign form or an external form (extranet client). A functional administrator can define and configure the form based on a form template defined by the integrator. To order the campaign, the local entity just needs web access.
 * **[!UICONTROL Collaborative campaign (by campaign)]**: recommended for campaigns aimed at dozens of local entities. This type of campaign creates child campaigns for each local entity. Once the **[!UICONTROL collaborative campaign (by campaign)]** is approved by the central entity, the campaign is made available to the local entity, who can modify it. Execution is automatically synched between parent and child campaigns. The local entity must have access to an instance to order a campaign and participate in it.
-* **[!UICONTROL Collaborative campaign (by target approval)]**: recommended for campaigns aimed at several thousand local entities. Local entity receives a contact list that has been predefined by the central entity. The local entity decides whether or not to keep certain contacts based on the campaign content, via a Web form. Local entities are deduced from the list of selected contacts. To participate in the campaign, the local entity just needs Web access.
+* **[!UICONTROL Collaborative campaign (by target approval)]**: recommended for campaigns aimed at several thousand local entities. Local entity receives a contact list that has been predefined by the central entity. The local entity decides whether or not to keep certain contacts based on the campaign content, via a web form. Local entities are deduced from the list of selected contacts. To participate in the campaign, the local entity just needs web access.
 * **[!UICONTROL Collaborative campaign (simple)]**: this mode ensures compatibility with the specific execution processes of previous versions.
 
 Refer to [Creating a collaborative campaign](../../campaign/using/creating-a-collaborative-campaign.md).
@@ -145,7 +137,7 @@ The implementation procedure depends on the type of campaign package used and th
     * execution schedule (contact date and extraction date), **for local operators only**,
     * extension of order schema with all necessary additional fields.
 
-1. Create a Web form (Adobe or extranet) that allows you to display localization parameters, evaluate the target and budget, as well as preview the content and approve the order.
+1. Create a web form (Adobe or extranet) that allows you to display localization parameters, evaluate the target and budget, as well as preview the content and approve the order.
 
    For **collaborative campaigns (by target approval)**, create the table where the approvals for each local entity will be saved.
 

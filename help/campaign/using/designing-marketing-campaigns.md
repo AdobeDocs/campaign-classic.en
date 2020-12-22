@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Designing marketing campaigns
-seo-title: Designing marketing campaigns
 description: Define, optimize, execute and analyse marketing campaigns.
-seo-description: 
-page-status-flag: never-activated
-uuid: e0fd5df6-7516-4ca6-bbdf-243a264d0283
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
-discoiquuid: a9eb6627-2e51-42d0-9b29-5b798bdf5b33
-index: y
-internal: n
-snippet: y
 ---
 
 # Designing marketing campaigns{#designing-marketing-campaigns}
@@ -26,6 +18,8 @@ In addition, the **Marketing Resource Management (MRM)** module lets you control
 >
 >For more on the Adobe Campaign core functionalities, refer to the [Getting Started](../../platform/using/about-adobe-campaign-classic.md) section.  
 >Capabilities related to population targeting, message personalization and message delivery on the various channels are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+
+![](assets/do-not-localize/how-to-video.png) [Discover marketing campaigns keys concepts in video](#video)
 
 ## Core concepts {#core-concepts}
 
@@ -63,3 +57,10 @@ The following concepts need to be known in the context of Campaign:
 
   For more on this, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
+## Tutorial {#video}
+
+This video presents the key concepts of marketing campaigns.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

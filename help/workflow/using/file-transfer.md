@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: File transfer
-description: Learn more about the File transfer activity.
-page-status-flag: never-activated
-uuid: 6431d908-a110-4a9a-8848-9abf78ef8157
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the File transfer workflow activity
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-discoiquuid: d8b49f68-c783-43fc-9907-e8480ecd28c2
-index: y
-internal: n
-snippet: y
 ---
 
 # File transfer{#file-transfer}

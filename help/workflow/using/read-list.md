@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Read list
-seo-title: Read list
-description: Read list
-seo-description: 
-page-status-flag: never-activated
-uuid: 34e28675-f28b-407f-8d60-41a5383af0db
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Read list workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 96a7aea4-4799-4ac7-8dff-666b075a1c43
-index: y
-internal: n
-snippet: y
 ---
 
 # Read list{#read-list}

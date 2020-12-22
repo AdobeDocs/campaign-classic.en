@@ -1,22 +1,14 @@
 ---
-title: About surveys
-seo-title: About surveys
-description: About surveys
-seo-description: 
-page-status-flag: never-activated
-uuid: 31a07a48-2ebb-4b51-ae24-382f3ce3f04a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: Get started with surveys
+description: Get started with Campaign surveys
 audience: web
 content-type: reference
 topic-tags: online-surveys
-discoiquuid: ef7d9b16-506a-409c-a578-000b88cd17a2
-index: y
-internal: n
-snippet: y
 ---
 
-# About surveys{#about-surveys}
+# Get started with surveys{#about-surveys}
 
 Adobe Campaign includes a graphical module to define and publish Web applications. This is used to create pages, such as an edit form on an extranet, or notification forms including data from the database with tables, charts, input forms, etc. This functionality lets you design and post web pages where users can look up or enter information.
 
@@ -32,7 +24,7 @@ Web application management is detailed in [this section](../../web/using/about-w
 >
 >For privacy reasons, we recommend to use HTTPS for all external resources.
 
-## Campaign Surveys scope {#campaign-surveys-scope}
+## Feature scope {#campaign-surveys-scope}
 
 In Adobe Campaign, Web applications in general let you access the following functionalities:
 

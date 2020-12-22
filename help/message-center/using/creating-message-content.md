@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating message content
-seo-title: Creating message content
 description: Creating message content
-seo-description: 
-page-status-flag: never-activated
-uuid: 4ee013fc-fba2-4120-b796-dd4008000ea9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-discoiquuid: 1f420652-c9af-4a49-8d5c-a640e960aced
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating message content{#creating-message-content}

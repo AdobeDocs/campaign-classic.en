@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Access management
-seo-title: Access management
 description: Access management
-seo-description: 
-page-status-flag: never-activated
-uuid: 3f0cfa8f-1511-4445-9acb-b5be46e78295
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
-index: y
-internal: n
-snippet: y
 ---
 
 # Access management{#access-management}
@@ -99,7 +91,7 @@ Once the operator's profile has been created, you can add to or update their inf
 
 >[!NOTE]
 >
->The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. For more on this, refer to [About Federated Data Access](../../platform/using/about-fda.md).
+>The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. For more on this, refer to [About Federated Data Access](../../installation/using/about-fda.md).
 
 ### Time zone of the operator {#time-zone-of-the-operator}
 
@@ -350,7 +342,7 @@ Default groups and named rights allow operators to access certain folders in the
 
 Adobe Campaign access rights matrix is available [here](/help/platform/using/assets/access-rights-matrix.pdf).
 
-[![image](assets/do-not-localize/user_management.png)](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
+[![image](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=en)
 
 ## Folder access management {#folder-access-management}
 

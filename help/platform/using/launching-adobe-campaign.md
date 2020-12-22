@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Launching Adobe Campaign
-seo-title: Launching Adobe Campaign
 description: Launching Adobe Campaign
-seo-description: 
-page-status-flag: never-activated
-uuid: c1c5bb0d-ae8e-4b0e-ab39-8b2291162557
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
-index: y
-internal: n
-snippet: y
 ---
 
 # Launching Adobe Campaign{#launching-adobe-campaign}
@@ -26,7 +18,7 @@ You can start Adobe Campaign by selecting **[!UICONTROL Start / All Programs / A
 
 The client console connection window lets you select or configure existing databases and connect to them using a user name and password:
 
-![](assets/s_ncs_user_login.png)
+![](assets/acc-logon.png)
 
 ## Connecting to Adobe Campaign {#connecting-to-adobe-campaign}
 
@@ -42,7 +34,7 @@ You can also connect with a dedicated login/password:
 
    The first time you access the database, your password is the one given to you by the administrator. Once you are connected, you can change your password via the **[!UICONTROL Tools > Change password...]** menu. Details on operators and connections are available in [Access management](../../platform/using/access-management.md).
 
-1. Click **[!UICONTROL Log in]** to confirm.
+1. Click **[!UICONTROL LOG IN]** to confirm.
 
 You can now access [Adobe Campaign workspace](../../platform/using/adobe-campaign-workspace.md).
 
@@ -53,8 +45,6 @@ You can access the server connection settings via the link above the input zone.
 ![](assets/s_ncs_user_connections_management.png)
 
 In the **[!UICONTROL Connections]** window, click **[!UICONTROL Add > Connection]**.
-
-![](assets/s_ncs_user_add_connexion.png)
 
 You must then define the connection settings. To do this:
 
@@ -82,15 +72,27 @@ To disconnect from Adobe Campaign, use the first icon in the icon bar.
 >
 >You can also close the application without logging off first.
 
-## Getting your Campaign version {#getting-your-campaign-version}
+## Getting your Adobe Campaign version {#getting-your-campaign-version}
 
 The **[!UICONTROL Help > About...]** menu lets you access the following information:
 
-* **version** number,
-* **build** number,
-* a link to contact Adobe Campaign Support.
+* **version** number for Campaign client console and application server
+* **build** number for Campaign client console and application server
+* a link to contact Adobe Customer Care
+* links to Adobe Privacy Policy, Terms of Use and Cookies Policy
 
-  >[!CAUTION]
-  >
-  >Whenever you reach out to Adobe Support team, you need to provide the version number and build number of your Campaign client console and application server.
+![](assets/about-acc.png)
 
+Whenever you reach out to Adobe Customer Care team, you need to provide the version number and build number of your Adobe Campaign client console and application server.
+
+If you are running on [Campaign Gold Standard version](../../rn/using/gold-standard.md), you also need to share the SHA/1 characters which are displayed in the **[!UICONTROL About]** box. As an example, for Gold **Standard 10 release**, the build number will show **build 9032&#64;efd8a94**, as shown below:
+
+![](assets/about-acc-gs.png)
+
+Learn more about Gold Standard [in this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+
+**Related topics**:
+
+* [Adobe Campaign Help and Support options](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
+* [Adobe Software Distribution](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)
+* [Adobe Experience Cloud Support and Expert sessions](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

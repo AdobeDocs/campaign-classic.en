@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adding attachments to transactional messages with Adobe Campaign Classic
 description: Learn how to send transactional emails with individual and/or personalized attachments using Adobe Campaign Classic
-page-status-flag: never-activated
-uuid: 4452d839-318a-49d8-8abb-4ba04c803e9f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: use-case
-discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
-index: y
-internal: n
-snippet: y
 ---
 
 # Use case: Sending transactional emails with attachments{#transactional-email-with-attachments}

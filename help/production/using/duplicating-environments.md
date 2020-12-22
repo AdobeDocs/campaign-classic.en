@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Duplicating environments
-seo-title: Duplicating environments
 description: Duplicating environments
-seo-description: 
-page-status-flag: never-activated
-uuid: b8fb8083-e3ec-4b1c-9449-73ac03508d89
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: data-processing
-discoiquuid: 9f7118f4-aef0-469c-bbe1-b62bed674faa
-index: y
-internal: n
-snippet: y
 ---
 
 # Duplicating environments{#duplicating-environments}
@@ -22,7 +14,7 @@ snippet: y
 
 ### Overview {#overview}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If you do not have access to the server and the database (hosted environments), you will not be able to perform the procedures described below. Please contact Adobe.
 
@@ -45,14 +37,14 @@ To do this, apply the following steps:
    >In the context of Adobe Campaign, a **cauterization** combines actions that let you stop all processes interacting with the outside: logs, tracking, deliveries, campaign workflows, etc.  
    >This step is necessary to avoid delivering messages several times (once from the nominal environment and one from the duplicated environment).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >One environment can contain several instances. Each Adobe Campaign instance is subjected to a license contract. Check your license agreement to see how many environments you can have.   
    >The procedure below lets you transfer an environment without impacting the number of environments and instances you have installed.
 
 ### Before you start {#before-you-start}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >We strongly recommend running a full backup of the databases for all instances of the source and target environments before starting the transfer process. This way if a problem occurs, you will be able to restore the backups and return to your initial configuration.
 
@@ -66,7 +58,7 @@ This section will help you understand the steps required for transferring a sour
 
 The following steps must be performed with great care: some processes may still be in progress when the source environment databases are copied. Cauterization (step 3 below) prevents messages from being sent twice and maintains data consistency.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* The following procedure is valid in PostgreSQL language. If the SQL language is different (Oracle, for example), the SQL queries must be adapted.
 >* The commands below apply within the context of a **prod** instance and a **dev** instance under PostgreSQL.
@@ -211,7 +203,7 @@ Check that access to the client console functions.
 
 ### Step 8 - Import options and external accounts into the target environment (dev) {#step-8---import-options-and-external-accounts-into-the-target-environment--dev-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Only the web process should be started at this step. If this is not the case, stop other running processes before continuing
 

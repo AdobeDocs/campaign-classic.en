@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating filters
-seo-title: Creating filters
 description: Creating filters
-seo-description: 
-page-status-flag: never-activated
-uuid: fa03ef00-6cc8-414a-8b3d-dbc1565c91a8
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: c61e8592-8868-4bb6-95ce-817da2cd248b
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating filters{#creating-filters}

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Editing a profile
-seo-title: Editing a profile
 description: Editing a profile
-seo-description: 
-page-status-flag: never-activated
-uuid: ad3cd54e-b22f-4fae-8d2a-3e0d3e45fffb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
-index: y
-internal: n
-snippet: y
 ---
 
 # Editing a profile{#editing-a-profile}
@@ -42,7 +34,7 @@ This screen contains all general data about the selected profile. In particular,
 
 >[!NOTE]
 >
->When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on the block list, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). They will no longer be targeted by deliveries on any channel (email, direct mail, etc.). For more on this, refer to [this page](../../delivery/using/understanding-quarantine-management.md).
+>When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on denylist, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). They will no longer be targeted by deliveries on any channel (email, direct mail, etc.). For more on this, refer to [this page](../../delivery/using/understanding-quarantine-management.md).
 
 ## Contact information tab {#contact-information-tab}
 
@@ -98,5 +90,5 @@ The list is configurable, and usually contains: the URL clicked, date and time o
 
 >[!NOTE]
 >
->For more on tracking functionality, please refer to [this page](../../delivery/using/monitoring-a-delivery.md).
+>For more on tracking functionality, please refer to [this page](../../delivery/using/delivery-dashboard.md).
 

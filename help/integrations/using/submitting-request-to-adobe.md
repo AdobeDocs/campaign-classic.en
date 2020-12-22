@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Submitting request to Adobe
-seo-title: Submitting request to Adobe
 description: Submitting request to Adobe
-seo-description: 
-page-status-flag: never-activated
-uuid: 8caa1dd6-864d-4101-8b72-c9bd28b8173f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-discoiquuid: 6d19a5a6-98e5-4b1a-a56a-67cfead152bd
-index: y
-internal: n
-snippet: y
 ---
 
 # Submitting request to Adobe{#submitting-request-to-adobe}

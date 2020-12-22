@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Managing offer presentation
-seo-title: Managing offer presentation
 description: Managing offer presentation
-seo-description: 
-page-status-flag: never-activated
-uuid: cf4614b9-a322-4170-aa6d-4f138f8ca2d2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-discoiquuid: f6e44634-3a13-480e-ab44-f3c744054a96
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing offer presentation{#managing-offer-presentation}

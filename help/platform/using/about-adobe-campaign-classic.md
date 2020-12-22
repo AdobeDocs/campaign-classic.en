@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About Adobe Campaign Classic
-seo-title: About Adobe Campaign Classic
 description: Discover key capabilities, user interface and global guidelines.
-seo-description: 
-page-status-flag: never-activated
-uuid: 2d0160fa-8328-4ff9-ab91-56e4058f8a99
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
-index: y
-internal: n
-snippet: y
 ---
 
 # Get Started with Campaign Classic{#about-adobe-campaign-classic}
@@ -24,7 +16,9 @@ Adobe Campaign lets you coordinate the creation of conversational marketing camp
 
 >[!NOTE]
 >
->Adobe Campaign Classic is available in v6.11 and v7. Except when mentioned, help materials apply to both versions, in the latest build. Screenshots reflect Campaign Classic v7 user interface.
+>Adobe Campaign Classic is available in v6.11 and v7. Except when mentioned, help materials apply to both versions, in the [latest build](../../rn/using/latest-release.md). Screenshots reflect Campaign Classic v7 user interface.
+
+![](assets/do-not-localize/how-to-video.png) [Discover primary features and capabilities in video](#video)
 
 ## Key capabilities {#key-capabilities}
 
@@ -86,3 +80,10 @@ The following capabilities are available. Depending on your license agreement, s
 * [Web Services](../../configuration/using/about-web-services.md) - use Campaign through APIs/Web Services,
 * [Reporting](../../reporting/using/about-adobe-campaign-reporting-tools.md) - access built-in reports, analyze data and design your own reports.
 
+## Tutorial video {#video}
+
+This video presents Campaign Classic main features and capabilities.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

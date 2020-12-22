@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Delivery reports
-seo-title: Delivery reports
 description: Delivery reports
-seo-description: 
-page-status-flag: never-activated
-uuid: 83ea834e-08f7-441b-8f15-a25ec07c4aab
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
-index: y
-internal: n
-snippet: y
 ---
 
 # Delivery reports {#delivery-reports}
@@ -69,7 +61,7 @@ This report combines the key indicators for tracking the behavior of recipients 
 * **[!UICONTROL Distinct opens for the population reached]** : Estimation of the number of targeted recipients having opened a message at least once. Clicks on unsubscription links and mirror pages are taken into account. 
 * **[!UICONTROL Sum of opens for the population reached]** : Estimation of the total number of opens by targeted recipients. 
 * **[!UICONTROL Clicks on opt-out link]** : Number of clicks on the unsubscription link.
-* **[!UICONTROL Clicks on the mirror page link]** : Number of clicks on the link to the mirror page. In order to be taken into account, the link must be defined as such in the delivery wizard (tracked URLs). Refer to this [page](../../delivery/using/monitoring-a-delivery.md). 
+* **[!UICONTROL Clicks on the mirror page link]** : Number of clicks on the link to the mirror page. In order to be taken into account, the link must be defined as such in the delivery wizard (tracked URLs). Refer to this [page](../../delivery/using/about-delivery-monitoring.md). 
 * **[!UICONTROL Estimation of forwards]** : Estimation of the number of emails forwarded by the targeted recipients. This value is calculated by subtracting the number of distinct people and the number of distinct recipients who clicked in the email.
 
   >[!NOTE]
@@ -125,7 +117,7 @@ This report shows the list of pages visited following a delivery.
 
 ![](assets/s_ncs_user_url_report.png)
 
-You can configure the contents of this report by selecting: the score chart to be displayed, the time filter (since the action launch, over the first 6 hours following launch, etc.) and the data display mode (by label, by URL, by category - for more on this, refer to [this page](../../delivery/using/monitoring-a-delivery.md)). Click **[!UICONTROL Refresh]** to confirm your selection.
+You can configure the contents of this report by selecting: the score chart to be displayed, the time filter (since the action launch, over the first 6 hours following launch, etc.) and the data display mode (by label, by URL, by category. Click **[!UICONTROL Refresh]** to confirm your selection.
 
 The following rates are displayed in the upper section of the report:
 
@@ -160,7 +152,7 @@ This report provides all the main information on the delivery.
 This section has two indicators:
 
 * **[!UICONTROL Initial population]** : Total number of recipients targeted by the delivery. 
-* **[!UICONTROL Messages rejected by the rule]** : Number of addresses ignored during the analysis when applying typology rules: address missing, quarantined, added to the block list, etc. For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+* **[!UICONTROL Messages rejected by the rule]** : Number of addresses ignored during the analysis when applying typology rules: address missing, quarantined, on denylist, etc. For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
 **[!UICONTROL Causes of exclusion]**
 

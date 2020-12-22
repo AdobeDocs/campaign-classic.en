@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Managing enumerations
-seo-title: Managing enumerations
 description: Managing enumerations
-seo-description: 
-page-status-flag: never-activated
-uuid: 23ad4cae-237f-48e5-b111-cfe88cf0b864
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-discoiquuid: 7674c856-2b64-4a85-9ffa-3e14a142028e
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing enumerations{#managing-enumerations}

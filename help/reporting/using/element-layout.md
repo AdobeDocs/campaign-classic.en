@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Element layout
-seo-title: Element layout
 description: Element layout
-seo-description: 
-page-status-flag: never-activated
-uuid: 60dc80d9-f81b-48ce-9341-f975daaf5ebc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: 8fdda764-3e42-4972-a9c9-63567588931e
-index: y
-internal: n
-snippet: y
 ---
 
 # Element layout{#element-layout}

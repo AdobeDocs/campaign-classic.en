@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Workflow life cycle
-description: Learn more about the life cycle of a workflow.
-page-status-flag: never-activated
-uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the life cycle of a workflow
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
-index: y
-internal: n
-snippet: y
 ---
 
 # Workflow life cycle {#workflow-life-cycle}

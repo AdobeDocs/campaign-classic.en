@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publishing on Facebook
-seo-title: Publishing on Facebook
 description: Publishing on Facebook
-seo-description: 
-page-status-flag: never-activated
-uuid: f15170fa-0e7d-4913-81d6-0072c1ece482
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-discoiquuid: 335cf2de-1874-4e48-9538-f0937641cf96
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing on Facebook{#publishing-on-facebook}
@@ -148,7 +140,7 @@ This type of content lets you publish a link to a YouTube video. Just like a sta
 
 Enter the various fields:
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >All URLs must start with **"http://"** or **"https://"**.
 
@@ -196,7 +188,7 @@ Tracking can be viewed in the delivery reports and in the **[!UICONTROL Edit > T
 
 Clicks on the URL contained in the delivery are measured by Adobe Campaign. The number of clicks on the **[!UICONTROL Like]** button, the number of comments and the number of fans are measured by Facebook.
 
-Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](../../delivery/using/monitoring-a-delivery.md).
+Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](../../delivery/using/about-delivery-monitoring.md).
 
 >[!NOTE]
 >

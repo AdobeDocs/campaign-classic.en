@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: JavaScript scripts and templates
-seo-title: JavaScript scripts and templates
 description: JavaScript scripts and templates
-seo-description: 
-page-status-flag: never-activated
-uuid: d341a892-dc71-4413-acb8-9cba372b38cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-discoiquuid: 8867d9c3-2ce4-4611-8c88-ce505c3a01d1
-index: y
-internal: n
-snippet: y
 ---
 
 # JavaScript scripts and templates{#javascript-scripts-and-templates}

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Web service calls
-seo-title: Web service calls
 description: Web service calls
-seo-description: 
-page-status-flag: never-activated
-uuid: 7defe0e4-bb4a-4f6a-b6e8-e2ffac73b4c1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: 6934c165-6d27-4ce5-8607-170f299b4702
-index: y
-internal: n
-snippet: y
 ---
 
 # Web service calls{#web-service-calls}
@@ -56,7 +48,7 @@ The presence of the "static" attribute (with the value "true") describes this me
 
 A "const" method implicitly has an XML document in the format of its associated schema as its input.
 
-A full description of the `<method>` element of an Adobe Campaign schema is available in the "Schema references" chapter under  <a href="../../configuration/using/elements-and-attributes.md#method--element" target="_blank">  `<method>`    element.
+A full description of the `<method>` element of an Adobe Campaign schema is available in the "Schema references" chapter under [Method](../../configuration/using/schema/method.md)
 
 Example of the "const"-type "ExecuteQuery" method from the "xtk:queryDef" schema:
 

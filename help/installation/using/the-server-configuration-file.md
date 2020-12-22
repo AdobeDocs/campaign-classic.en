@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: The server configuration file
-seo-title: The server configuration file
 description: The server configuration file
-seo-description: 
-page-status-flag: never-activated
-uuid: 8ef7168b-3543-4830-80b0-65a023158b3f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: appendices
-discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
-index: y
-internal: n
-snippet: y
 ---
 
 # The server configuration file{#the-server-configuration-file}
@@ -22,7 +14,7 @@ The overall configuration of Adobe Campaign is defined in the **serverConf.xml**
 
 >[!NOTE]
 >
->Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html). The installation and configuration steps for hosted and hybrid models are presented in this [section](../../installation/using/hosted-model.md).
+>Server-side configurations can only be performed by Adobe for deployments hosted by Adobe. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md). The installation and configuration steps for hosted and hybrid models are presented in this [section](../../installation/using/hosted-model.md).
 
 The first parameters are inside the **shared** node. These are related to the instance. They are potentially used by all the nlserver commands (nlserver web, nlserver wfserver, etc.). The other sections are related to a specific nlserver sub-command.
 
@@ -568,8 +560,8 @@ For additional information, refer to [Restricting authorized external commands](
  </thead> 
  <tbody> 
   <tr> 
-   <td> blocklistFile<br /> </td> 
-   <td> Path to the file containing the commands to add to the allow list. <br /> </td> 
+   <td> blacklistFile<br /> </td> 
+   <td> Path to the file containing the commands to add to the allowlist. <br /> </td> 
    <td> String<br /> </td> 
   </tr> 
   <tr> 
@@ -2896,19 +2888,19 @@ Here are the different parameters of the **web > jsp** node. This is the configu
 The **web > jsp > classpath** node contains the list of all class paths to use when starting JVM. Here is the default configuration:
 
 ```
-'$(XTK_INSTALL_DIR)/tomcat-7/bin/bootstrap.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/bin/tomcat-juli.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-coyote.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-util.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/servlet-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/jsp-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/el-api.jar
+'$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/bin/tomcat-juli.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-coyote.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-util.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
           $(XTK_INSTALL_DIR)/java/lib/log4j-1.2.11.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/annotations-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/catalina.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/websocket-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat7-websocket.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/annotations-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/catalina.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/websocket-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat7-websocket.jar
           $(XTK_INSTALL_DIR)/java/lib/pdfbox-2.0.4.jar
           $(XTK_INSTALL_DIR)/java/lib/FontBox-0.1.0.jar
           $(XTK_INSTALL_DIR)/java/lib/AGJavaEndpoint.22.jar
@@ -3076,7 +3068,7 @@ For additional information, refer to [Dynamic page security and relays](../../in
   </tr> 
   <tr> 
    <td> status<br /> </td> 
-   <td> Synchronization status of a public resource (enumeration). Possible values are 'normal' (normal execution), 'blocklist' (url added to block list in case of error 404) and 'spare' (file upload on spare server if existing).<br /> </td> 
+   <td> Synchronization status of a public resource (enumeration). Possible values are 'normal' (normal execution), 'blacklist' (url added to denylist in case of error 404) and 'spare' (file upload on spare server if existing).<br /> </td> 
    <td> String<br /> </td> 
    <td> normal<br /> </td> 
   </tr> 
@@ -3134,19 +3126,19 @@ Here is the default configuration:
      timeout="" status="normal" httpAllowed="true" urlPath="/nl/jsp/s.jsp"/>
 
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/nms/jsp/*.jsp"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/nms/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/xtk/jsp/*.jsp"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/xtk/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/nl/jsp/*.jsp"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/nl/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="*.jssp"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="*.jssp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="true" urlPath="/webApp/*"/>
+     timeout="" status="blacklist" httpAllowed="true" urlPath="/webApp/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/report/*"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/report/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/jssp/*"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/jssp/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
      timeout="" status="normal" httpAllowed="false" urlPath="/strings/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
@@ -3216,7 +3208,7 @@ For additional information, refer to this [section](../../installation/using/dep
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> IMS organization identifier: unique organization identifier within the Adobe Marketing Cloud, used in particular for the VisitorID service and the IMS SSO. <br /> </td> 
+   <td> Identity Management System (IMS) organization identifier: unique organization identifier within the Adobe Experience Cloud, used in particular for the VisitorID service and the IMS SSO. <br /> </td> 
    <td> String<br /> </td> 
    <td> <br /> </td> 
   </tr> 

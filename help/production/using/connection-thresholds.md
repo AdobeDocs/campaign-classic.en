@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Connection thresholds
-seo-title: Connection thresholds
 description: Connection thresholds
-seo-description: 
-page-status-flag: never-activated
-uuid: a4b6959a-0f5b-41a2-b4c3-d7d6613d1a18
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: f3db77db-94cc-4d75-a59b-2dddce776759
-index: y
-internal: n
-snippet: y
 ---
 
 # Connection thresholds{#connection-thresholds}
@@ -28,7 +20,7 @@ There are three different thresholds:
 
     * Tomcat side: all queries actually arriving on the Adobe Campaign Tomcat client.
 
-      This threshold is configured in the **nl6/tomcat-7/conf/server.xml** file. The **maxThreads** attribute lets you increase the threshold of the number of queries processed at a time. It can be changed to 250, for instance.
+      This threshold is configured in the **nl6/tomcat-8/conf/server.xml** file. The **maxThreads** attribute lets you increase the threshold of the number of queries processed at a time. It can be changed to 250, for instance.
 
       ```    
       <Connector protocol="HTTP/1.1" port="8080"

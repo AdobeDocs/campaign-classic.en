@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Prerequisites of Campaign installation in Linux
-seo-title: Prerequisites of Campaign installation in Linux
 description: Prerequisites of Campaign installation in Linux
-seo-description: 
-page-status-flag: never-activated
-uuid: 65c7af3f-ca1d-4255-b54a-6a3c83af40ae
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-discoiquuid: 3e2ccb70-6c0c-435f-9c06-f3e5e40367bb
-index: y
-internal: n
-snippet: y
 ---
 
 # Prerequisites of Campaign installation in Linux{#prerequisites-of-campaign-installation-in-linux}
@@ -22,11 +14,11 @@ snippet: y
 
 This section details the preliminary configurations steps required before installing Adobe Campaign.
 
-The technical and software configuration required for installing Adobe Campaign is detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+The technical and software configuration required for installing Adobe Campaign is detailed in the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 As a reminder, the following components need to be installed and correctly configured:
 
-* Apache, refer to [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html),
+* Apache, refer to [Compatibility matrix](../../rn/using/compatibility-matrix.md),
 * Java JDK and OpenJDK, refer to [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
 * Libraries, refer to [Libraries](#libraries),
 * Database access layers, refer to [Database access layers](#database-access-layers),
@@ -167,7 +159,7 @@ The following configurations are necessary with CentOS:
 
 The access layers for the database engine you are using must be installed on your server and be accessible via the Adobe Campaign account. Versions and installation modes may vary depending on the database engine used.
 
-The supported pilot version are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+The supported pilot version are detailed in the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 Also check the general [Database](../../installation/using/database.md) section.
 

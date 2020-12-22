@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Cells
-seo-title: Cells
 description: Cells
-seo-description: 
-page-status-flag: never-activated
-uuid: 1b18928f-04e1-4268-ab8e-ff74d78599de
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: f7187d42-56e9-4681-b172-22abd43ecd29
-index: y
-internal: n
-snippet: y
 ---
 
 # Cells{#cells}

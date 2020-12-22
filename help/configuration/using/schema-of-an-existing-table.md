@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Schema of an existing table
-seo-title: Schema of an existing table
 description: Schema of an existing table
-seo-description: 
-page-status-flag: never-activated
-uuid: cb766259-8ed7-40a1-8df7-75a8a3f9986d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 6877d94d-d6e5-4080-a537-ef1bb6e6f8cf
-index: y
-internal: n
-snippet: y
 ---
 
 # Schema of an existing table{#schema-of-an-existing-table}
@@ -64,4 +56,4 @@ To create the corresponding schema, apply the following stages:
 
 The **Federated Data Access - FDA** option give you access to the data stored in an external database.
 
-The configuration to be carried on the schemas to access data in an external database is detailed in [this page](../../platform/using/creating-data-schema.md).
+The configuration to be carried on the schemas to access data in an external database is detailed in [this page](../../installation/using/creating-data-schema.md).

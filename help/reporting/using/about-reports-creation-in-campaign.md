@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About reports creation in Campaign
-seo-title: About reports creation in Campaign
 description: About reports creation in Campaign
-seo-description: 
-page-status-flag: never-activated
-uuid: 9176ab80-c941-47a1-956a-3d1d63c403ba
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: a21e9c9e-ffc5-40d1-8eac-f4f25da8f21d
-index: y
-internal: n
-snippet: y
 ---
 
 # About reports creation in Campaign{#about-reports-creation-in-campaign}

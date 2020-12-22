@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: ACS Connector principles and data cycle
-seo-title: ACS Connector principles and data cycle
 description: ACS Connector principles and data cycle
-seo-description: 
-page-status-flag: never-activated
-uuid: ea62ee69-042e-4c18-aaea-d65872d07dd9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-discoiquuid: 64d87bea-2376-4684-ac93-6ca56fe0f262
-index: y
-internal: n
-snippet: y
 ---
 
 # ACS Connector principles and data cycle{#acs-connector-principles-and-data-cycle}
@@ -212,15 +204,15 @@ You will find below the list of recipient fields that are replicated with the ba
   </tr> 
   <tr> 
    <td> No longer contact (by any channel)<br /> </td> 
-   <td> @blockList<br /> </td> 
+   <td> @blackList<br /> </td> 
   </tr> 
   <tr> 
    <td> No longer contact by email<br /> </td> 
-   <td> @blockListEmail<br /> </td> 
+   <td> @blackListEmail<br /> </td> 
   </tr> 
   <tr> 
    <td> No longer contact by SMS<br /> </td> 
-   <td> @blockListMobile<br /> </td> 
+   <td> @blackListMobile<br /> </td> 
   </tr> 
   <tr> 
    <td> Phone<br /> </td> 

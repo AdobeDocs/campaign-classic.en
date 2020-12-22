@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Monitoring processes
-seo-title: Monitoring processes
-description: Monitoring processes
-seo-description: 
-page-status-flag: never-activated
-uuid: 9dc1461f-5e95-454d-8df5-19baab85f184
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to monitor Campaign processes
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring processes{#monitoring-processes}
@@ -44,7 +36,7 @@ It is possible to display the log journal related to a process. To do this, clic
 
 The list of system indicators enables you to display information concerning the machine, such as its physical and virtual memory, active processes and available disk space. Indicators are different for Linux and Windows operating systems. Go to the **[!UICONTROL Instance Monitoring]** page and click the **[!UICONTROL Display]** link to open the list of indicators
 
-#### In Windows {#in-windows}
+#### Windows {#in-windows}
 
 * **[!UICONTROL Pending events queued]** : indicator specific to **Message Center**. Refer to [this section](../../message-center/using/monitoring-thresholds.md) for more information.
 * **[!UICONTROL Memory]** : information concerning the physical memory (RAM).
@@ -99,7 +91,7 @@ The list of system indicators enables you to display information concerning the 
 
   When the **[!UICONTROL Alert]** indicator is displayed, it may be that the concerned process is locked by the SQL database engine or that it is stuck in an infinite loop. The **watchdog** process provided by Adobe Campaign automatically re-starts all processes every day and enables you to solve this issue. However, you can also stop the concerned process yourself to force re-start.
 
-#### In Linux {#in-linux}
+#### Linux {#in-linux}
 
 ![](assets/production_system_indicators_linux_001.png)
 
@@ -252,7 +244,7 @@ They are grouped under **Monitoring** > 'SMTP Monitoring'.
 
 ![](assets/smtp_reports_access.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* Information related to SMTP Monitoring is only available if the email channel has been activated.
 >* The **[!UICONTROL SMTP sending statistics]** are only offered if the statistics server is started on the instance. 
@@ -477,7 +469,7 @@ Adobe Campaign can provide an instance monitoring tool (netreport) that lets you
 
 ![](assets/pro_netreport.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >This tool can be used to monitor your instances but is not supported by Adobe Campaign. Contact your Campaign Administrator for more information.
 
@@ -542,7 +534,7 @@ Here is a configuration example:
 >
 >You can specify various configurations by adding a suffix to the **netconf.xml** file, for example, **netconf-dev.xml**, **netconf-prod.xml**, etc. Then specify the configuration to use for executing the netreport in the **netreport.bat** or **netreport.sh** files by adding **$JAVA_HOME/bin/java netreport dev** or **@%JAVA_HOME%binjava netreport prod** for example.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >For the **monitoring** operator to work, the machine that the netreport is executed on must be in a security zone that is in **sessionTokenOnly** mode. If no trusted IP mask has been specified for this operator, the security zone must also be in **allowEmptyPassword** and **allowUserPassword** mode.
 

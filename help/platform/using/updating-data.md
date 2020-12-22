@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Updating data
-seo-title: Updating data
 description: Updating data
-seo-description: 
-page-status-flag: never-activated
-uuid: 3a192934-215a-4a0a-a141-956b5c229f5b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: 1e196989-b8c1-473a-89c9-bbeb68b98419
-index: y
-internal: n
-snippet: y
 ---
 
 # Updating data{#updating-data}

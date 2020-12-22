@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Split
-seo-title: Split
-description: Split
-seo-description: 
-page-status-flag: never-activated
-uuid: 00dc3436-e271-4512-8f29-71a55213afc3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Split workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 9eadfda0-0614-4e4e-aed0-26f0b9222fbd
-index: y
-internal: n
-snippet: y
 ---
 
 # Split{#split}

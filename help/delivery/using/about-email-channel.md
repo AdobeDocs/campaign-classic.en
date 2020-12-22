@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About email channel in Adobe Campaign Classic
 description: This section provides general information specific to the email channel in Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: aaef3c4a-99b2-4554-9a78-bb66459e45a4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: 88575757-ef1b-4247-88ff-6f355c1ecd3e
-index: y
-internal: n
-snippet: y
 ---
 
 # About email channel{#about-email-channel}
@@ -30,6 +24,6 @@ The key steps to send an email are as follows:
 * [Defining the target population](../../delivery/using/steps-defining-the-target-population.md)
 * [Defining the email content](../../delivery/using/defining-the-email-content.md)
 * [Sending the email](../../delivery/using/sending-messages.md)
-* [Monitoring the delivery](../../delivery/using/monitoring-a-delivery.md)
+* [Monitoring the delivery](../../delivery/using/about-delivery-monitoring.md)
 
 The sections below provide information that is specific to the email channel. For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).

@@ -1,64 +1,53 @@
 ---
-title: About Campaign HTML editor
-seo-title: About Campaign HTML editor
-description: About Campaign HTML editor
-seo-description: 
-page-status-flag: never-activated
-uuid: 1b1d392d-4f19-4092-b57d-02051a242675
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: Get started with Campaign HTML editor
+description: Get started with Campaign DCE
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-discoiquuid: 1ffe9f58-7258-4794-a314-524065f8a33b
-index: y
-internal: n
-snippet: y
 ---
 
-# About Campaign HTML editor{#about-campaign-html-editor}
+# Get started with Campaign HTML editor{#about-campaign-html-editor}
 
-The **Digital Content Editor (DCE)** is an HTML content editor that lets you easily create or modify templates or content in HTML format within Adobe Campaign.
+The **Digital Content Editor (DCE)** is an HTML content editor that lets you easily create content and templates in HTML format within Adobe Campaign.
 
-The Digital Content Editor allows you to insert and format page elements and associate database fields with elements of an HTML page. It is offered by default when creating a page for a Web application, or available when creating deliveries based on a template in which it is active.
+With the Digital Content Editor, you can insert and format page elements, and map database fields with elements of an HTML page. This editor is available when creating a page for a web application, or when creating deliveries based on a DCE template.
 
 >[!NOTE]
->
->The DCE only allows you to carry out the operations detailed in this section.
->
->If you would like to add server-side JavaScript code, it is better to add it in personalization blocks. For more information on creating and modifying personalization blocks, refer to [this page](../../delivery/using/personalization-blocks.md).
+>>
+>If you need to add server-side JavaScript code, use personalization blocks. [Learn more](../../delivery/using/personalization-blocks.md).
 
 >[!CAUTION]
 >
->For privacy reasons, we recommend to use HTTPS for all external resources.
+>All external resources need to be referenced with an HTTPS URL.
 
-## Content Editor general operation {#content-editor-general-operation}
+## Key steps to use the Digital Content Editor {#content-editor-general-operation}
 
-This section presents the main steps to edit and upload content edited with the DCE within the framework of a Web application and in the context of a delivery.
+This section presents key steps to edit and upload content edited with the DCE, in the context of a web application and delivery design.
 
 The general operation is as follows: 
 
 ![](assets/dce_schema.png)
 
-To create a simple Web application, the steps are as follows:
+To create a simple **web application**, you need to:
 
-* Create a Web application, for more on this, refer to [Creating a landing page](../../web/using/creating-a-landing-page.md),
-* Select existing content or creating content from a standard template, for more on this, refer to [Template management](../../web/using/template-management.md),
-* Edit and configure content, for more on this, refer to [Editing content](../../web/using/editing-content.md),
-* Publish the Web application, for more on this, refer to [Publishing content](../../web/using/creating-a-landing-page.md#step-3---publishing-content) and [this page](../../web/using/publishing-a-web-form.md#managing-web-forms-delivery-and-tracking).
-
->[!NOTE]
->
->For a complete example detailing the implementation of the DCE within the framework of a Web application, refer to [Creating a landing page](../../web/using/creating-a-landing-page.md).
-
-To create an email delivery, the steps are as follows:
-
-* Create a delivery from an email type template in which the DCE is active,
-* Select existing content or creating content from a standard template,
-* Edit and configure online content,
-* Send the delivery, for more on this refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+1. Create a web application - [Learn more](../../web/using/creating-a-landing-page.md)
+1. Select existing content or creating content from a standard template - [Learn more](../../web/using/template-management.md)
+1. Edit and configure content - [Learn more](../../web/using/editing-content.md)
+1. Publish the Web application - [Learn more](../../web/using/creating-a-landing-page.md#step-3---publishing-content)
 
 >[!NOTE]
 >
->For a complete example detailing the implementation of the DCE within the framework of an email delivery, refer to [this use case](../../web/using/use-case--creating-an-email-delivery.md).
+>A complete implementation sample in the context of a web application is available in  [this section](../../web/using/creating-a-landing-page.md).
 
+To create an **email delivery**, you need to:
+
+1. Create a delivery from a DCE template - [Learn more](../../web/using/use-case--creating-an-email-delivery.md)
+1. Select an existing content or create content from a [standard template](../../web/using/template-management.md)
+1. Edit and configure online content
+1. Send the delivery - [Learn more](../../delivery/using/steps-about-delivery-creation-steps.md)
+
+>[!NOTE]
+>
+>A complete implementation sample in the context of an email delivery is available in [this use case](../../web/using/use-case--creating-an-email-delivery.md).

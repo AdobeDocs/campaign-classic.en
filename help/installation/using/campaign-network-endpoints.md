@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Campaign network endpoints
-seo-title: Campaign network endpoints
 description: Campaign network endpoints
-seo-description: 
-page-status-flag: never-activated
-uuid: be21ae4b-ca2a-4952-b256-cd8dc51309cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
-index: y
-internal: n
-snippet: y
 ---
 
 # Campaign network endpoints {#campaign-standard-network-endpoints}

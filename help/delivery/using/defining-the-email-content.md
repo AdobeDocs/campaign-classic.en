@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining the email content in Adobe Campaign Classic
 description: Learn how to define the email content when using Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: ddcc2e3b-e251-4a7a-a22a-28701522839f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining the email content{#defining-the-email-content}

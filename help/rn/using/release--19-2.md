@@ -1,24 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Release 19.2
-seo-title: Release 19.2
 description: Release 19.2
-seo-description: 
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
 ---
 
 # Release 19.2{#release-19-2}
 
-## ![](assets/do-not-localize/orange_2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
+## ![](assets/do-not-localize/red_2.png) Release 19.2.3 - Build 9081 {#release-19-2-3-build-9081} 
 
 _February 07, 2020_
 
@@ -27,7 +19,7 @@ _February 07, 2020_
 * Fixed a regression issue due to the implementation of SSL certification which caused the user connection to fail on Windows server. (NEO-20629)
 * Fixed an issue which displayed an incorrect version tag number in the **About** menu.
 
-## ![](assets/do-not-localize/orange_2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
+## ![](assets/do-not-localize/red_2.png) Release 19.2 - Build 9080 {#release-19-2-build-9080} 
 
 _December 02, 2019_
 
@@ -75,7 +67,7 @@ _December 02, 2019_
   <tr> 
 <td> <p>Adobe Campaign enables you to try out the new interactive <a href="https://amp.dev/about/email/">AMP for Email</a> format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.</p>
    <p>This capability is released as a public beta.</p>
-   <p>For more information, refer to the <a href="../../delivery/using/defining-interactive-content.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
+   <p>For more information, refer to the <a href="../../delivery/using/defining-interactive-content.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -103,7 +95,7 @@ _December 02, 2019_
 
 * Memory consumption optimization for Push Notifications.
 * For performance and storage optimization, the handling of the **logins.log** file has been enhanced. The file is now split into multiple files, one each day with a maximum of 365 files retained. [Read more](../../production/using/log-files.md)
-* Microsoft Dynamics CRM external account can now be configured using password credentials (password + username) or certificate (private key). [Read more](../../platform/using/external-accounts.md#microsoft-dynamics-crm-external-account)
+* Microsoft Dynamics CRM external account can now be configured using password credentials (password + username) or certificate (private key). [Read more](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
 * Some enhancements have been added to the Hadoop FDA connector to improve reliability
 * A specific guardrail has been added to check disk space before allowing to upload public resources on the server.
 * New [Campaign Options](../../installation/using/configuring-campaign-options.md) have been added:

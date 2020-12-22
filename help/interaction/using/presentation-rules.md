@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Presentation rules
-seo-title: Presentation rules
 description: Presentation rules
-seo-description: 
-page-status-flag: never-activated
-uuid: 460f06f8-cdb9-401d-a45e-e54e56d66781
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: case-study
-discoiquuid: 8ef303b4-d9ce-40ee-a6c6-ed5012ab8eb8
-index: y
-internal: n
-snippet: y
 ---
 
 # Presentation rules{#presentation-rules}

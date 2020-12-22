@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Data oriented APIs
-seo-title: Data oriented APIs
 description: Data oriented APIs
-seo-description: 
-page-status-flag: never-activated
-uuid: f81356b3-8eef-4b65-9510-47c9d4b4e871
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: fba46d42-0253-425b-bbc2-6702d4140e05
-index: y
-internal: n
-snippet: y
 ---
 
 # Data oriented APIs{#data-oriented-apis}
@@ -225,7 +217,7 @@ To count the number of records on a query:
 
 >[!NOTE]
 >
->Again we use the condition from the previous example. The `<select>` and clauses are not used. </select>`
+>Again we use the condition from the previous example. The `<select>` and clauses are not used. `</select>`
 
 #### Data grouping {#data-grouping}
 

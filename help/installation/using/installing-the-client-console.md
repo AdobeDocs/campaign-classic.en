@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Installing the client console
-seo-title: Installing the client console
-description: Installing the client console
-seo-description: 
-page-status-flag: never-activated
-uuid: 1279c0d8-bf27-4a58-ae94-796d6147231a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to install the client console
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-discoiquuid: d1069b23-e08d-43c5-bbfb-3158ac40dc7e
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing Campaign client console{#installing-the-client-console}
@@ -26,13 +18,15 @@ Before starting, you need to check Campaign [Compatibility matrix](https://helpx
 >
 >Campaign Client console and Campaign application server must run on the same product version. Adobe also recommends to use the same product build.
 
+![](assets/do-not-localize/how-to-video.png) Discover how to install and setup the Adobe Campaign Client in [video](#video)
+
 ## Download the console{#download-the-client-console}
 
 To download and in install the Adobe Campaign client console, follow the steps below:
 
 1. Open a web browser and download the console from the following address:
 
-   [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://machine/nl/jsp/logon.jsp).
+   [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://myserver.adobe.com/nl/jsp/logon.jsp).
 
 1. In the identification window, enter your login and password. 
 
@@ -64,7 +58,7 @@ Once the client console is installed, follow the steps below to create the conne
 
 1. Specify a connection to your Adobe Campaign application server via a URL. Use either a DNS or an alias of the machine, or your IP address.
 
-   For example, you can use the [`https://<machine>.<domain>.com`](https://machine) type URL.
+   For example, you can use the [`https://<machine>.<domain>.com`](https://myserver.adobe.com) type URL.
 
 1. If Adobe IMS is configured for your organization, check the option **[!UICONTROL Connect with an Adobe ID]** 
 
@@ -76,8 +70,7 @@ You can add as many connections as needed to connect to your test, stage and pro
 >
 >The **[!UICONTROL Add]** button lets you create **[!UICONTROL folders]** to organize all your connections. Simply drag and drop each connection into a folder.
 
-
-## Log on to Campaign 
+## Log on to Adobe Campaign 
 
 To log on to an existing instance, follow the steps below:
 
@@ -95,4 +88,11 @@ To log on to an existing instance, follow the steps below:
 
 * [Creating an instance and logging on](../../installation/using/creating-an-instance-and-logging-on.md).
 * [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) 
-* [Install and setup the Adobe Campaign Client](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) (video)
+
+## Tutorial video
+
+This video shows how to install and setup the Adobe Campaign Client.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

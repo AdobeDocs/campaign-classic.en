@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About action activities
-seo-title: About action activities
 description: About action activities
-seo-description: 
-page-status-flag: never-activated
-uuid: f7da73e0-0661-440e-8e69-f92290b69415
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: d31c094e-c4c2-4948-b7f6-148dae2b5434
-index: y
-internal: n
-snippet: y
 ---
 
 # About action activities{#about-action-activities}

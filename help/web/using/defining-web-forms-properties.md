@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining web forms properties
-seo-title: Defining web forms properties
 description: Defining web forms properties
-seo-description: 
-page-status-flag: never-activated
-uuid: 2fb0952a-5f73-48f5-b344-e3247cefca62
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: 36953eb5-3296-4796-9352-945121bbdc69
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining web forms properties{#defining-web-forms-properties}
@@ -36,7 +28,7 @@ The form template is chosen during form creation. It cannot be changed later. Fo
 
 The fields of Web forms are stored in the recipients table by default. You can change the table used by selecting a new table from the **[!UICONTROL Document type]** field. The **[!UICONTROL Zoom]** icon lets you view the content of the selected table.
 
-By default, answers are stored in the **[!UICONTROL Answer to a recipient form]** table.
+By default, answers are stored in the **Answer to a recipient form** table.
 
 ## Setting up an error page {#setting-up-an-error-page}
 

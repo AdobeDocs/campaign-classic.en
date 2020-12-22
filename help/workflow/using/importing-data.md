@@ -1,25 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Importing data
-description: Learn how to import data in Adobe Campaign Classic
-page-status-flag: never-activated
-uuid: c8cf2bf1-f7a5-4de4-9e53-a961c9e5beca
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to import data in Adobe Campaign
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
-index: y
-internal: n
-snippet: y
 ---
 
 # Importing data{#importing-data}
 
 >[!CAUTION]
 >
->Please keep in mind the SFTP storage, Database Storage and Active profile limits as per your Adobe 
-Campaign contract while importing data.
+>Please keep in mind the SFTP storage, Database Storage and Active profile limits as per your Adobe Campaign contract while importing data.
 
 ## How to collect data {#how-to-collect-data}
 
@@ -257,7 +250,7 @@ An example is presented in the use case below.
 
 In this use case, we will build a workflow in order to import data that has been encrypted in an external system, using a key generated in the Control Panel.
 
-A tutorial video showing how to use a GPG key to decrypt data is also available in [this section](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html).
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 The steps to perform this use case are as follows:
 
@@ -270,18 +263,16 @@ The steps to perform this use case are as follows:
 
 1. In the external system, use the public key downloaded from the Control Panel to encrypt the data to import into Campaign Classic.
 
-     ![](assets/gpg_external.png)
-
 1. In Campaign Classic, build a workflow to import the encrypted data and decrypt it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
 
-     ![](assets/gpg_workflow.png)
+     ![](assets/gpg_import_workflow.png)
 
     * **[!UICONTROL File transfer]** activity: Transfers the file from an external source to Campaign Classic. In this example, we want transfer the file from an SFTP server.
     * **[!UICONTROL Data loading (file)]** activity: Loads the data from the file into the database and decrypt it using the private key generated in the Control Panel.
 
 1. Open the **[!UICONTROL File transfer]** activity then specify the external account from which you want to import the encrypted .gpg file.
 
-     ![](assets/gpg_transfer.png)
+     ![](assets/gpg_key_transfer.png)
 
      Global concepts on how to configure the activity are available in [this section](../../workflow/using/file-transfer.md).
 
@@ -304,3 +295,11 @@ The steps to perform this use case are as follows:
 1. You can now run the workflow. Once it is executed, you can check in the workflow logs that the decryption has been executed, and that data from the file have been imported.
 
     ![](assets/gpg_run.png)
+
+### Tutorial video {#video}
+
+This video shows how to use a GPG key to decrypt data.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

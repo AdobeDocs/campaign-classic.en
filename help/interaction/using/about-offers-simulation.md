@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About offers simulation
-seo-title: About offers simulation
 description: About offers simulation
-seo-description: 
-page-status-flag: never-activated
-uuid: 3c6783a0-6bab-4c41-8101-1d926c1ac6ac
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-discoiquuid: 0af021af-2686-4a37-97d9-6d13a851b5dd
-index: y
-internal: n
-snippet: y
 ---
 
 # About offers simulation{#about-offers-simulation}
@@ -22,7 +14,9 @@ The **Simulation** module lets you test the distribution of offers belonging to 
 
 Simulation takes into account the contexts and eligibility rules previously applied to offers (refer to [Offer catalog overview](../../interaction/using/offer-catalog-overview.md)), as well as their presentation rules (refer to [Managing offer presentation](../../interaction/using/managing-offer-presentation.md)). This lets you test and refine various versions of your offer proposition without actually using an offer or over/under soliciting a target, since simulation has no impact on the targeted recipients.
 
-To learn how to simulate an offer, read the steps below. You can also watch this [video](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com).
+To learn how to simulate an offer, read the steps below.
+
+![](assets/do-not-localize/how-to-video.png) You can also watch this [video](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com).
 
 ## Main steps for creating a simulation {#main-steps-for-creating-a-simulation}
 

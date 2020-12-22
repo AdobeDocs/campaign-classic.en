@@ -1,24 +1,48 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Release 19.1
-seo-title: Release 19.1
 description: Release 19.1
-seo-description: 
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
 ---
 
 # Release 19.1{#release-19-1}
 
-## ![](assets/do-not-localize/limited_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
+## ![](assets/do-not-localize/limited_2.png) Release 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
+
+_16 December 2020_
+
+>[!CAUTION]
+>
+>This release comes with a new connection protocol:  upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2020
+
+**Improvements**
+
+* The connection protocol has been updated to follow the new IMS authentication mechanism. 
+* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has been changed and moved to Adobe I/O. [Learn more](../../integrations/using/configuring-adobe-io.md)
+* Following the end of support for iOS APNs legacy binary protocol, all instances using this protocol are updated to HTTP/2 protocol during postupgrade.
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
+* Fixed an issue causing the deactivation of the SMPP connector after a connection error, preventing other SMS deliveries from being sent and leading to performance issues.
+* Fixed an issue that displayed incorrect percentages when generating a descriptive report via a workflow activity. (NEO-14314)
+* Fixed a delivery preparation issue when the **Exclude duplicate address during delivery** option was unselected. (NEO-13240)
+* Fixed an issue that could cause workflows to fail when running an **Enrichment** activity. (NEO-17338)
+* Fixed an issue in workflows when fetching records from an external database and inserting them in the Campaign database. (NEO-26359)
+* Fixed a server crash issue by preventing memory corruption when cleaning the expression parser.
+* Fixed an issue which prevented the **NoNull** function from working in Oracle databases after upgrading to build 9032. (NEO-26488)
+* Fixed an issue when editing a campaign template description that prevented the **Save** button from displaying when copy-pasting symbols like, for example, Japanese characters. (NEO-27071)
+* Fixed an issue which prevented the description of a campaign or campaign template from being saved when clicking outside of the window before clicking the **Save** button. (NEO-27449)
+* Fixed an issue at the proxy configuration level that prevented you from logging into Adobe Campaign after the latest Windows 10 update. (NEO-27813)
+* Fixed an issue related to the management of empty lines in log files, causing failures in the MTA process behavior and leading to performance drops in delivery sending.
+
+**Technical evolutions**
+
+Tomcat has been updated from version 7 (7.0.103) to version 8 (8.5.57). The `tomcat-7` directory is replaced with a `tomcat-8` directory. On windows, _iis_neolane_setup.vbs_ and _apache_neolane.conf_ are now installed in the `conf` directory (instead of `tomcat-7/conf` previously). On linux, _apache_neolane.conf_ is now installed in the `conf` directory.
+
+On Linux, the nlserver service startup now uses a systemd unit instead of the /etc/init.d/nlserver6 script. The migration to the new startup scheme is performed automatically when you install the 19.1.8 package. The /etc/init.d/nlserver6 is still provided but for interacting with the nlserver service (start, restart, stop, etc.), we recommend that you use the systemctl command directly.
+
+## ![](assets/do-not-localize/red_2.png) Release 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
 
 _15 September 2020_
 
@@ -26,7 +50,6 @@ _15 September 2020_
 
 * Improved nlsrvmod for Apache 2.4 thread usage to fix nlsrvmod crashes. 
 * Fixed an issue when using the File Transfer activity with an Azure external account and an SSL encryption. The connection was performed through HTTP instead of HTTPS. (NEO-26720)
-* In delivery properties, the **[!UICONTROL Archive emails]** option has been renamed **[!UICONTROL Email BCC]** for a better user experience.
 * Fixed an issue with the url cache mechanism which did not retrieve the label or category.
 * Fixed an issue which led to mirror page URLs being incorrectly defined in email deliveries (due to improper ASCII character control). (NEO-26084)
 * The jarsToSkip list in catalina.properties has been updated to remove the reference to a jar file that was no longer used (iOS notifications).
@@ -49,7 +72,7 @@ _15 September 2020_
 * Fixed a postupgrade issue which turned off Apache and the web server before the web application republication. (NEO-27155)
 * Fixed a regression which led to an incorrect timezone being picked when setting time in a **Scheduler** workflow activity.
 
-## ![](assets/do-not-localize/orange_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
+## ![](assets/do-not-localize/red_2.png) Release 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
@@ -119,11 +142,11 @@ _30 May 2019_
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> <p>To increase efficiency in your work as an Admin user, manage settings of your SFTP servers by monitoring storage, add IP addresses to allow list, and installing SSH keys for each instance. Please note Control Panel is only available for customers hosted on AWS as of today (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">login through the Experience Cloud today</a>).</p> <p>For more information, refer to the <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">how-to video</a>. </p><p>Note: upgrading to the latest Campaign build is not required to access the Control Panel.</p> </td> 
+   <td> <p>To increase efficiency in your work as an Admin user, manage settings of your SFTP servers by monitoring storage, add IP addresses to allowlist, and installing SSH keys for each instance. Please note Control Panel is only available for customers hosted on AWS as of today (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">login through the Experience Cloud today</a>).</p> <p>For more information, refer to the <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/control-panel-overview.html">how-to video</a>. </p><p>Note: upgrading to the latest Campaign build is not required to access the Control Panel.</p> </td> 
   </tr> 
     <tr> 
    <td> Audit trail<br /> </td> 
-   <td> <p>As admin, increase productivity by monitoring and managing changes made within the Adobe Campaign Classic instance. The Audit Trail will log actions made on Source Schemas, Workflows and Options. You can quickly see if an element has been created, modified or deleted.</p><p>For more information, refer to the <a href="../../production/using/audit-trail.md">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/monitoring/audit-trail.html">how-to video</a>.</p></td> 
+   <td> <p>As admin, increase productivity by monitoring and managing changes made within the Adobe Campaign Classic instance. The Audit Trail will log actions made on Source Schemas, Workflows and Options. You can quickly see if an element has been created, modified or deleted.</p><p>For more information, refer to the <a href="../../production/using/audit-trail.md">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/monitoring/audit-trail.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Guardrail, Robustness &amp; Scalability<br /> </td> 

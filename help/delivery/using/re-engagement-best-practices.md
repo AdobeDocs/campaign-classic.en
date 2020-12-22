@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Implementation
-seo-title: Implementation
 description: Implementation
-seo-description: 
-page-status-flag: never-activated
-uuid: 883bad1c-c35b-4c48-9dca-c0cb947facb6
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 853f26ad-d373-49a5-952e-4197ffc3d904
-index: y
-internal: n
-snippet: y
 ---
 
 # Improving deliverability through re-engagement{#re-engagement}
@@ -48,7 +40,7 @@ According to a Return Path study, re-engagement campaigns came out with a result
 ### Phase 1 {#phase-1}
 
 * The first step is to identify subscribers who have very little to no open or click activity, and accordingly segment this group based on a set time frame. The thumb rule is to review subscribers who have not opened or clicked an email within the last 90 days. However, this varies according to the nature of the business (for example, seasonal sending).
-* Another point to keep in mind while defining timeframes is that ISPs and block list companies consider engagement to be anywhere between 1.5 and 1.8 years. Additionally, behavioral activities such as purchases and website activity, or other touch points, such as preferences during the sign-up phase or first point of contact.
+* Another point to keep in mind while defining timeframes is that ISPs and denylist companies consider engagement to be anywhere between 1.5 and 1.8 years. Additionally, behavioral activities such as purchases and website activity, or other touch points, such as preferences during the sign-up phase or first point of contact.
 
 ### Phase 2 {#phase-2}
 

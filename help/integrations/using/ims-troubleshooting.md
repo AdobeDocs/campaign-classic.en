@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: IMS troubleshooting
-seo-title: IMS troubleshooting
 description: IMS troubleshooting
-seo-description: 
-page-status-flag: never-activated
-uuid: 5db95afc-8cbf-4ec3-b58f-504486fe4a40
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
-index: y
-internal: n
-snippet: y
 ---
 
 # IMS troubleshooting{#ims-troubleshooting}
@@ -58,7 +50,7 @@ Scopes defined in the Campaign external account must be a subset of those provis
 
 **Callback URL**
 
-The **Callback URL** should be added to the allow list and start with "https://". Check that the **Callback URL** is linked to the corresponding instance. For example, the production instance should redirect to the production URL.
+The **Callback URL** should be added to the allowlist and start with "https://". Check that the **Callback URL** is linked to the corresponding instance. For example, the production instance should redirect to the production URL.
 
 **Client ID and secret**
 

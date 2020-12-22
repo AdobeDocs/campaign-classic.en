@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Sub-workflow
-seo-title: Sub-workflow
-description: Sub-workflow
-seo-description: 
-page-status-flag: never-activated
-uuid: c952633f-1aca-44cf-bb50-a67e9b086030
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Sub-workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: a4441820-1b3d-4bac-a6e3-1c9c14466d19
-index: y
-internal: n
-snippet: y
 ---
 
 # Sub-workflow{#sub-workflow}

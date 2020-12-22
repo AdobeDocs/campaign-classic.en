@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Delivery
-seo-title: Delivery
-description: Delivery
-seo-description: 
-page-status-flag: never-activated
-uuid: 3a74fd0b-8598-46a0-bf13-cf35db0987d7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn more about the Delivery-type workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 9fd7122e-22c7-4f9a-a2a4-5de3daaa3c2e
-index: y
-internal: n
-snippet: y
 ---
 
 # Delivery{#delivery}

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Mid-sourcing platform
-seo-title: Mid-sourcing platform
 description: Mid-sourcing platform
-seo-description: 
-page-status-flag: never-activated
-uuid: c4ee36c6-7dc9-4823-8e79-291f4487bd80
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: a5c54b06-390c-4f4e-9f09-d9a53a529149
-index: y
-internal: n
-snippet: y
 ---
 
 # Mid-sourcing platform{#mid-sourcing-platform}

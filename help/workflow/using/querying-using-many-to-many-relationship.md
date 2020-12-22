@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Querying using a many-to-many relationship
 description: Learn how to perform queries using a many-to-many relationship
-page-status-flag: never-activated
-uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
-index: y
-internal: n
-snippet: y
 ---
 
 # Querying using a many-to-many relationship {#querying-using-a-many-to-many-relationship}

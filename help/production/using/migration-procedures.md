@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Migration procedures
-seo-title: Migration procedures
 description: Migration procedures
-seo-description: 
-page-status-flag: never-activated
-uuid: bad54f1f-abdc-4730-b7a1-5305ee17a223
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-discoiquuid: cd03c475-fe57-4c6e-b1c0-533938e6f74e
-index: y
-internal: n
-snippet: y
 ---
 
 # Migration procedures{#migration-procedures}

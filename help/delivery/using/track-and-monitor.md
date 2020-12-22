@@ -1,17 +1,10 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Track and monitor messages
-seo-title: Track and monitor messages
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
-index: y
-internal: n
-snippet: y
 ---
 
 # Track and monitor {#track-and-monitor}
@@ -23,7 +16,7 @@ You clicked the Send button? Let's see what happens. Once the delivery is sent, 
 To control your campaigns, you must ensure that the message has indeed been delivered to your recipients.
 
 From Campaign delivery dashboard, you can check the processed messages and delivery audit logs.
-You can also control the status of the messages in the delivery logs. [Learn more](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
+You can also control the status of the messages in the delivery logs. [Learn more](../../delivery/using/about-delivery-monitoring.md).
 
 What if the deliveries are not being sent and their status remains **Pending**?
 
@@ -65,6 +58,6 @@ Specific actions can be performed when encountering issues with deliveries:
 
 * [Image display issues](../../production/using/image-display-issues.md)
 
-* [Delivery performance issues](../../delivery/using/monitoring-a-delivery.md#performance_issues)
+* [Delivery performance issues](../../delivery/using/delivery-performances.md)
 
 * [Temporary files issues](../../production/using/temporary-files.md) - *on-premise customers only*

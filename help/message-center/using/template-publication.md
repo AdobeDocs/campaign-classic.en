@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Template publication
-seo-title: Template publication
-description: Template publication
-seo-description: 
-page-status-flag: never-activated
-uuid: f83dbe5f-762c-4c58-aeed-6ec289eb522f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Transactional message template publication
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-discoiquuid: 43908738-a71a-49be-ac00-175f57a0555c
-index: y
-internal: n
-snippet: y
 ---
 
 # Template publication{#template-publication}

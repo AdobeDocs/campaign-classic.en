@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: About custom recipient table
-seo-title: About custom recipient table
 description: About custom recipient table
-seo-description: 
-page-status-flag: never-activated
-uuid: 4b162da4-90d2-44ff-9f89-ff0275540359
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: c3ff8462-e47e-4637-8213-769fdeb86a57
-index: y
-internal: n
-snippet: y
 ---
 
 # About custom recipient table{#about-custom-recipient-table}
@@ -77,5 +69,5 @@ For example:
 * The default configurations for certain workflow activities reference the standard recipients table (**[!UICONTROL nms:recipient]**): these configurations must be changed when used for an external recipients table. Refer to the [Managing workflows](../../configuration/using/managing-workflows.md) section.
 * The standard **[!UICONTROL Unsubscription link]** personalization block must be adapted.
 * The target mapping of the standard delivery templates must be modified.
-* V4 forms are not compatible for use with an external recipients table: you must use Web applications.
+* V4 forms are not compatible for use with an external recipients table: you must use web applications.
 

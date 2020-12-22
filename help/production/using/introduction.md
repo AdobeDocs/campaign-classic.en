@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Introduction
-seo-title: Introduction
 description: Introduction
-seo-description: 
-page-status-flag: never-activated
-uuid: 4192a74e-1d4f-4784-80e3-53aaefa9141e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-discoiquuid: 772992bf-588f-42bd-a72a-986a88815264
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction{#introduction}
@@ -25,7 +17,7 @@ This section presents the procedure to be applied to upgrade Adobe Campaign, cli
 >For hosted instances, you must coordinate with your Adobe Administrator.  
 >For on-premise instances, you can get assistance from Adobe Consultants.
 
-The upgrade must be applied to all servers where Adobe Campaign is installed.
+The upgrade must be applied to all servers where Adobe Campaign is installed. 
 
 1. Migrate the redirection and tracking servers (Apache/IIS).
 1. Migrate the Power Booster/Cluster servers.
@@ -36,6 +28,10 @@ Adobe Campaign is based on several processes executed on the server side which y
 * Application server (nlserver web)
 * Delivery server (nlserver mta)
 * Redirection server (webmdl)
+
+>[!CAUTION]
+>
+>The client console should be on the same build as the server instance.
 
 >[!NOTE]
 >

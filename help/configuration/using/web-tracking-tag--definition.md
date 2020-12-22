@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: "Web tracking tag: definition"
-seo-title: "Web tracking tag: definition"
 description: "Web tracking tag: definition"
-seo-description: 
-page-status-flag: never-activated
-uuid: 915ddfd8-ad1b-41ac-96ed-f7fae687c09f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: b8996508-7173-4225-95e7-b51209aae1f1
-index: y
-internal: n
-snippet: y
 ---
 
 # Web tracking tag: definition{#web-tracking-tag-definition}

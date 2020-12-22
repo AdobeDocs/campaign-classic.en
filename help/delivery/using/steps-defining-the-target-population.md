@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining the target population
-seo-title: Defining the target population
 description: Defining the target population
-seo-description: 
-page-status-flag: never-activated
-uuid: 8bf70ea4-5f28-4d85-b5ce-0bd3ed3eea55
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining the target population {#defining-the-target-population}
@@ -148,7 +140,7 @@ The following options are available:
 
     ![](assets/s_ncs_user_wizard_email02j.png)
 
-* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , i.e. recipients whose email addresses are on a block list ('opt out'). This option must remain selected in order to observe the professional ethics of e-marketing and the laws governing e-commerce.
+* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , i.e. recipients whose email addresses are on denylist ('opt out'). This option must remain selected in order to observe the professional ethics of e-marketing and the laws governing e-commerce.
 * **[!UICONTROL Exclude quarantined recipients]**. This option lets you exclude from the target any profiles with an address that does not respond. We strongly recommend keeping this option selected.
 
   >[!NOTE]
@@ -226,15 +218,16 @@ You can use **[!UICONTROL Seed addresses]** as target of the proofs: this option
 
 You can combine the definition of a specific proof target and the use of seed addresses using the **[!UICONTROL Specific target and Seed addresses]** option. The related configurations are then defined in two separate sub-tabs.
 
-## How to manage seed and proofs in an email {#seeds-and-proofs-video}
+See also:
+
+* [Selecting the proof target](#selecting-the-proof-target)
+* [About seed addresses](../../delivery/using/about-seed-addresses.md)
+* [Use case: selecting seed addresses on criteria](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+
+## Tutorial video {#seeds-and-proofs-video}
 
 In this video you will learn how to add seeds and proofs to an existing email and how to send it.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
-See also:
-* [Selecting the proof target](#selecting-the-proof-target)
-
-* [About seed adresses](../../delivery/using/about-seed-addresses.md)
-
-* [Use case: selecting seed addresses on criteria](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

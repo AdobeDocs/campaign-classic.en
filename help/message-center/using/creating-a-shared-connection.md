@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Creating a shared connection
-seo-title: Creating a shared connection
 description: Creating a shared connection
-seo-description: 
-page-status-flag: never-activated
-uuid: 30d6d23b-72c6-4454-8d6b-a10102f89262
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-discoiquuid: 7f471ac1-cd6a-4371-977e-52d60ce8d968
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a shared connection{#creating-a-shared-connection}
@@ -71,13 +63,13 @@ To create an execution instance type external account, apply the following steps
 
    >[!NOTE]
    >
-   >Please note that when using FDA over HTTP, only excecution instances using a Postgres database are supported. MSSQL or Oracle databases are not supported.
+   >Please note that when using FDA over HTTP, only execution instances using a PostgreSQL database are supported. MSSQL or Oracle databases are not supported.
 
-   The second method is recommended if the control instance has direct access to the database of the execution instances. If not, choose the Web service access. The FDA account to specify coincides with the connection to the databases of the various execution instances created on the control instance. 
+   The second method is recommended if the control instance has direct access to the database of the execution instances. If not, choose the Web service access. The FDA account to specify coincides with the connection to the databases of the various execution instances created on the control instance.
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   For more information on Federated Data Access (FDA), refer to [Accessing an external database](../../platform/using/about-fda.md).
+   For more information on Federated Data Access (FDA), refer to [Accessing an external database](../../installation/using/about-fda.md).
 
 1. Click **[!UICONTROL Test the connection]** to make sure the control instance and the execution instance are linked up.
 

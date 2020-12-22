@@ -1,24 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Defining interactive content in Adobe Campaign Classic
 description: Learn how to define interactive and dynamic email content with AMP in Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: ddcc2e3b-e251-4a7a-a22a-28701522839f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining interactive content{#defining-interactive-content}
 
-Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
+Adobe Campaign enables you to use the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
 
-In this version, you can:
+With AMP for Email, you can:
 * Test delivering AMP emails to specific addresses appropriately configured.
 * Deliver AMP emails to Gmail, Outlook or Mail.ru addresses after registering with the corresponding providers.
 
@@ -48,19 +42,14 @@ For more on the AMP for Email format, specification and requirements, see the [A
 ## Key steps to use AMP for Email with Adobe Campaign {#key-steps-to-use-amp}
 
 To successfully test and send an AMP email with Adobe Campaign, follow the steps below:
-1. Install the **[!UICONTROL AMP support (Beta)]** package. See [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md).
+1. Install the **[!UICONTROL AMP support]** package. See [Installing Campaign standard packages](../../installation/using/installing-campaign-standard-packages.md).
 1. Create an email and build your AMP content within Adobe Campaign. See [Build AMP email content with Adobe Campaign](#build-amp-email-content).
 1. Make sure you follow all the delivery requirements from the email providers supporting the AMP format. See [AMP for Email delivery requirements](#amp-for-email-delivery-requirements).
-
-    >[!NOTE]
-    >
-    >AMP for Email is available as a beta capability for testing purpose. Currently only a few email providers support testing this format.
-
 1. When defining your target, make sure you select recipients that will be able to display the AMP format. See [Targeting an AMP email](#targeting-amp-email).
 
     >[!NOTE]
     >
-    >Currently you can only test delivering AMP emails to specific email addresses appropriately configured or after registration with the email providers participating in the AMP beta program.
+    >Currently you can only deliver AMP emails to [specific email addresses](#testing-amp-delivery-for-selected-addresses) (for testing purpose) or after [registrating](#delivering-amp-emails-by-registering) with the supported email clients.
 
 1. Send your email as you would usually do. See [Sending an AMP email](#sending-amp-email).
 
@@ -149,10 +138,11 @@ You can also consult the [Tips and known limitations for Gmail](https://develope
 
 ## Targeting an AMP email {#targeting-amp-email}
 
-AMP for Email being available as a beta capability, currently you can experiment sending an AMP email in two steps:
+Currently you can experiment sending an AMP email in two steps:
 
 1. Adobe Campaign enables you to test delivering an AMP-powered dynamic email to selected email addresses appropriately configured, in order to verify its contents and behavior. See [Testing AMP email delivery for selected addresses](#testing-amp-delivery-for-selected-addresses).
-1. Once tested, you can send a delivery or a campaign as part of the AMP for Email beta program by registering with the relevant email provider(s) to have your sender domain added to the allow list. See [Delivering AMP emails by registering with an email provider](#delivering-amp-emails-by-registering).
+
+1. Once tested, you can send a delivery or a campaign as part of the AMP for Email program by registering with the relevant email provider(s) to have your sender domain added to the allow list. See [Delivering AMP emails by registering with an email provider](#delivering-amp-emails-by-registering).
 
 ### Testing AMP email delivery for selected addresses {#testing-amp-delivery-for-selected-addresses}
 
@@ -162,7 +152,7 @@ You can test sending dynamic messages from Adobe Campaign to selected email addr
 >
 >Currently only Gmail, Outlook and Mail.ru support testing the AMP format.
 
-For Gmail and Outlook, you must first add the sender address(es) you are using to the allow list to deliver from Adobe Campaign for the Gmail and Outlook accounts you are targeting.
+For Gmail and Outlook, you must first add the sender address(es) you are using to the allowlist to deliver from Adobe Campaign for the Gmail and Outlook accounts you are targeting.
 
 To do this:
 1. Make sure the option enabling dynamic email is checked for the relevant email provider(s).
@@ -176,7 +166,7 @@ To test sending an AMP email to a Mail.ru address, follow the steps from the [Ma
 
 ### Delivering AMP emails by registering with an email provider {#delivering-amp-emails-by-registering}
 
- You can experiment delivering dynamic emails by registering with the email providers that take part to the AMP beta program in order to have your sender domain added to the allow list.
+ You can experiment delivering dynamic emails by registering with the supported email providers in order to have your sender domain added to the allow list.
 
 >[!NOTE]
 >
@@ -206,8 +196,10 @@ For example, if you included a product list in your email, when editing the pric
 >
 >By default the **[!UICONTROL AMP inclusion]** option is set to **[!UICONTROL No]**.
 
-## How to activate and use AMP for emails {#amp-email-video}
+## Tutorial video {#amp-email-video}
 
 The video below explains how to activate AMP in Adobe Campaign Classic and showcases the usage.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
+
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

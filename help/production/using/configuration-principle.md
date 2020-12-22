@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuration principle
-seo-title: Configuration principle
 description: Configuration principle
-seo-description: 
-page-status-flag: never-activated
-uuid: 6315d526-b820-46ab-96c7-e64e101c6a7d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: d08ff769-da93-4f86-8802-f0fb5b051ece
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuration principle{#configuration-principle}
@@ -24,7 +16,7 @@ For a given server, there are two elements that are common to all Adobe Campaign
 
 * The **internal** password: this is the general administrator password. It is common to all instances of a particular application server.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >To log on with the **Internal** identifier, you need to have defined a password beforehand. For more on this, refer to [this section](../../installation/using/campaign-server-configuration.md#internal-identifier).
 

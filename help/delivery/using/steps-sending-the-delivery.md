@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuring and sending the delivery
-seo-title: Configuring and sending the delivery
 description: Configuring and sending the delivery
-seo-description: 
-page-status-flag: never-activated
-uuid: 8bf70ea4-5f28-4d85-b5ce-0bd3ed3eea55
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring and sending the delivery {#configuring-and-sending-the-delivery}
@@ -46,9 +38,9 @@ Before sending the delivery, you can define the sending parameters in the delive
   >
   >Using this option is not advised when installing using mid-sourcing as to not call mta.
   >
-  >For more information on configuring an SMTP server, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+  >For more information on configuring an SMTP server, refer [to this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* **[!UICONTROL Archive emails]**: This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [Archiving emails](../../delivery/using/sending-messages.md#archiving-emails).
+* **[!UICONTROL Email BCC]**: This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer [to this section](../../delivery/using/sending-messages.md#archiving-emails).
 
 Once the delivery is configured and ready to be sent, make sure you have run the [Delivery analysis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery). Once done, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages.
 
@@ -58,7 +50,7 @@ You can then close the delivery wizard and track the execution of the delivery f
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md)
+* [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md)
 * [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
 * [About message tracking](../../delivery/using/about-message-tracking.md)
 
@@ -141,7 +133,7 @@ To balance the load, you can divide deliveries into several batches. Configure t
    >
    >You must also allow enough time for retries when configuring the last waves. See [this section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
-1. To monitor your sends, go to the delivery logs. See [this page](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).
+1. To monitor your sends, go to the delivery logs. See [this page](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 
    You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
 

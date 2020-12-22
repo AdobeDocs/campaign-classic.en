@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Simulation scope
-seo-title: Simulation scope
 description: Simulation scope
-seo-description: 
-page-status-flag: never-activated
-uuid: d3145926-0a7e-455f-9b93-55be1b2a0518
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-discoiquuid: ef658468-e20b-45d9-a714-c152e55c1c79
-index: y
-internal: n
-snippet: y
 ---
 
 # Simulation scope{#simulation-scope}

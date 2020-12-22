@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Managing offer templates
-seo-title: Managing offer templates
 description: Managing offer templates
-seo-description: 
-page-status-flag: never-activated
-uuid: d5d1198e-d3f3-4b83-8907-4646af89fa8c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-discoiquuid: 62d03128-5525-4556-8590-8492847c4a1f
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing offer templates{#managing-offer-templates}

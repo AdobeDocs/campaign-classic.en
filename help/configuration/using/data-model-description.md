@@ -1,17 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic data model description
 description: This document describes the Adobe Campaign Classic data model.
-page-status-flag: never-activated
-uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
-index: y
-internal: n
-snippet: y
 ---
 
 # Campaign data model description{#data-model-description}
@@ -48,7 +42,7 @@ It is the default table used for the **recipients of deliveries**. As a result, 
 * iEmailFormat: preferred format for emails (1 for Text, 2 for HTML and 0 if undefined).
 * sAddress1, sAddress2, sAddress3, sAddress4, sZipCode, sCity are used to build the postal address (in keeping with the XPZ 10-011 AFNOR standard from May 1997).
 * sPhone, sMobilePhone, sFax contain the phone, mobile phone and fax numbers respectively.
-* iBlockList is the default opt-out flag used for the profiles (1 means "unsubscribed", 0 otherwise).
+* iBlackList is the default opt-out flag used for the profiles (1 means "unsubscribed", 0 otherwise).
 
 The iFolderId field is the foreign key that links the recipient to its execution folder. For more on this, see [XtkFolder](#XtkFolder).
 
@@ -106,7 +100,7 @@ The tree is managed by the iParentId and iChildCount fields. The sFullName field
 
 ## Delivery and tracking {#delivery-and-tracking}
 
-This set of tables is linked to the **Delivery** module, which allows to monitor deliveries and eventual issues encountered when messages are sent. For more on this, see [Monitoring deliveries](../../delivery/using/monitoring-a-delivery.md). For more on tracking, see [Tracking messages](../../delivery/using/about-message-tracking.md).
+This set of tables is linked to the **Delivery** module, which allows to monitor deliveries and eventual issues encountered when messages are sent. For more on this, see [Monitoring deliveries](../../delivery/using/about-delivery-monitoring.md). For more on tracking, see [Tracking messages](../../delivery/using/about-message-tracking.md).
 
 ![](assets/data-model_delivery.png)
 

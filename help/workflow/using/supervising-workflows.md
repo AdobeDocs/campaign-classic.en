@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Supervising workflows
-seo-title: Supervising workflows
-description: Supervising workflows
-seo-description: 
-page-status-flag: never-activated
-uuid: e16d1c40-50ae-4c3d-95df-fac62f987a15
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+description: Learn how to supervise Campaign workflows
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 978cbe62-f06a-46a6-b8a1-e30a65b8470a
-index: y
-internal: n
-snippet: y
 ---
 
 # Supervising workflows{#supervising-workflows}

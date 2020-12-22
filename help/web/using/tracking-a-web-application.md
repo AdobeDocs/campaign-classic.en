@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Tracking a web application
-seo-title: Tracking a web application
 description: Tracking a web application
-seo-description: 
-page-status-flag: never-activated
-uuid: c087b40c-fd14-440f-8f38-33f5f68120a9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-applications
-discoiquuid: 8e52f927-dadd-44c8-a51d-f717bc083eef
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking a web application{#tracking-a-web-application}
@@ -37,7 +29,7 @@ The main improvements featured in this version are as follows:
 
     * **Conversion rate**: number of persons who displayed all steps of a navigation path.
     * **Bounce rate**: number of persons who displayed the first step only 
-    * **Conversion tunnel**: loss rate between each step.
+    * **Conversion funnel**: loss rate between each step.
 
   In addition, a **Sector** type chart shows the population according to its source.
 

@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Jump (start point and end point)
-seo-title: Jump (start point and end point)
 description: Jump (start point and end point)
-seo-description: 
-page-status-flag: never-activated
-uuid: 68e669eb-6c70-483e-afb7-7340225a6e1d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: f3cd5409-c301-4580-96e3-9349e18cf42a
-index: y
-internal: n
-snippet: y
 ---
 
 # Jump (start point and end point){#jump-start-point-and-end-point}

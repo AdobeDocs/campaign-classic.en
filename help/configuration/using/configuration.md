@@ -1,19 +1,11 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuration
-seo-title: Configuration
 description: Configuration
-seo-description: 
-page-status-flag: never-activated
-uuid: 0f2aadc3-5199-476c-9956-6e39b899a7d0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
-discoiquuid: b781fd52-828c-4582-a546-a1fee7e5a26d
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuration{#configuration}
@@ -163,7 +155,7 @@ The **`<nodemodel>`** element contains the description of the folder type with t
 * **name**: internal name
 * **label**: label used in the **[!UICONTROL Add new folder]** menu and as a default label when inserting a folder.
 * **img**: default image on folder insertion.
-* **hiddenCommands**: list of commands (separated by a comma) to be masked. Possible values: "insert", "delete", "update" and "duplicate".
+* **hiddenCommands**: list of commands (separated by a comma) to be masked. Possible values: "adbnew", "adbsave", "adbcancel" and "adbdup".
 * **newFolderShortCuts**: list of shortcuts on models (**`<nodemodel>`** separated by a comma) in folder creation. 
 * **insertRight**, **editRight**, **deleteRight**: rights for inserting, editing and deleting folders.
 
