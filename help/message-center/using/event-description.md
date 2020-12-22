@@ -147,7 +147,7 @@ Data example:
     </ctx>
 ```
 
-<!--## Information returned by the SOAP call {#information-returned-by-the-soap-call}
+<## Information returned by the SOAP call {#information-returned-by-the-soap-call}
 
 When it receives an event, Adobe Campaign generates a unique return ID. This is the ID of the archived version of the event.
 
@@ -212,7 +212,7 @@ However, if the event fails to be processed, the method returns an error message
   ```
 
 * Example of an event that failed and returned a zero identifier (wrong method name):
-
+  
   ```
   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
      <SOAP-ENV:Body>
@@ -221,5 +221,4 @@ However, if the event fails to be processed, the method returns an error message
         </urn:PushEventResponse>
      </SOAP-ENV:Body>
   </SOAP-ENV:Envelope>
-  ```-->
-  
+  ```
