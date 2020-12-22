@@ -38,13 +38,11 @@ By default, they are sorted into sub-folders by delivery month. This sort can be
 >
 >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, all transactional messages may also be sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages and they are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) document.
 
-## Transactional message monitoring {#transactional-message-monitoring}
+<!--## Transactional message monitoring {#transactional-message-monitoring}
 
 To monitor your transactional messages, check the delivery logs. Accessing the delivery logs is presented in [this section](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).
 
 The transactional deliveries sent from the execution instance are synchronized back to the control instance as follows.
-
-<!--To access the delivery logs, see [this section](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).-->
 
 Let's take a [delivery template](../../message-center/using/introduction.md) labelled *Template_1*.
 
@@ -69,4 +67,4 @@ Let's take a [delivery template](../../message-center/using/introduction.md) lab
 
 To summarize, the deliveries weekly accumulate the events based on the latest event update, and not on the event creation date.
 
-Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.
+Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.-->
