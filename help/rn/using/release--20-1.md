@@ -12,7 +12,7 @@ topic-tags: campaign-release-notes, latest-release-notes
 
 ## ![](assets/do-not-localize/limited_2.png) Release 20.1.4 - Build 9126 {#release-20-1-4-build-9126}
 
-_24 December 2020_
+_23 December 2020_
 
 >[!CAUTION]
 >
