@@ -109,6 +109,8 @@ type: Documentation
   + Sending messages on mobiles {#sending-messages-on-mobiles}
        + [SMS channel](delivery/using/sms-channel.md)
        + [LINE channel](delivery/using/line-channel.md)
+       + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
+       + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
   + Sending push notifications {#sending-push-notifications}
        + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
        + [Integrating Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
@@ -433,6 +435,8 @@ type: Documentation
           + [Creating a summary list](workflow/using/creating-a-summary-list.md)
           + [Enriching data](workflow/using/enriching-data.md) 
           + [Using aggregates](workflow/using/using-aggregates.md)
+          + [Using the Deduplication activity's merge functionality](workflow/using/deduplication-merge.md)
+       + Designing queries {#designing-queries}
           + [Quarterly list update using an incremental query](workflow/using/quarterly-list-update.md)
        + Targeting {#designing-queries}
           + [Querying the recipient table](workflow/using/querying-recipient-table.md)
@@ -456,26 +460,7 @@ type: Documentation
        + [Managing activity images](workflow/using/managing-activity-images.md)
        + [Managing propensity](workflow/using/managing-propensity.md)
        + [Managing time zones](workflow/using/managing-time-zones.md)
-  + Technical workflows {#technical-workflows}
-       + [About technical workflows](workflow/using/about-technical-workflows.md)
-       + [Deliveries](workflow/using/deliveries.md)
-       + [Campaign](workflow/using/campaign.md)
-       + [Web Analytics](workflow/using/web-analytics.md)
-       + [Distributed Marketing](workflow/using/distributed-marketing.md)
-       + [Deliverability monitoring](workflow/using/email-deliverability.md)
-       + [Inbox rendering](workflow/using/inbox-rendering.md)
-       + [Interaction](workflow/using/interaction.md)
-       + [Control of offer engine](workflow/using/control-of-offer-engine.md)
-       + [Message Center (Control)](workflow/using/message-center--control-.md)
-       + [Message Center (Execution)](workflow/using/message-center--execution-.md)
-       + [Mobile App Channel](workflow/using/mobile-app-channel.md)
-       + [LINE Channel](workflow/using/line-channel.md)
-       + [Marketing Resources (MRM)](workflow/using/marketing-resources--mrm-.md)
-       + [Social Marketing](workflow/using/social-marketing.md)
-       + [Integrations with Adobe Experience Cloud solutions](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-       + [Privacy Data Protection Regulation](workflow/using/general-data-protection-regulation--gdpr-.md)
-       + [Transfer to Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
-       + [Mid-sourcing platform](workflow/using/mid-sourcing-platform.md)
+       + [Technical workflows](workflow/using/about-technical-workflows.md)
 + Managing Offers {#managing-offers}
   + Get started with Interaction {#interaction-overview}
        + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
@@ -614,7 +599,7 @@ type: Documentation
        + [Creating and configuring the database](installation/using/creating-and-configuring-the-database.md)
        + [Campaign server configuration](installation/using/campaign-server-configuration.md)
        + [Deploying an instance](installation/using/deploying-an-instance.md)
-       + [Installing Campaign Classic standard packages](installation/using/installing-campaign-standard-packages.md)
+       + [Installing Campaign Classic built-in packages](installation/using/installing-campaign-standard-packages.md)
   + Additional configurations {#additional-configurations}
        + [Configuring Campaign server](installation/using/configuring-campaign-server.md)
        + [Connecting through LDAP](installation/using/connecting-through-ldap.md)

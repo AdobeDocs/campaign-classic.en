@@ -44,4 +44,3 @@ On the execution instance(s), the technical workflows for transactional messagin
     * **[!UICONTROL Ignored by the delivery]** : this status is copied from the delivery logs. It means that the delivery was ignored.
     * **[!UICONTROL Delivery failed]** : this status is copied from the delivery logs. It means that the delivery failed.
     * **[!UICONTROL Event not taken into account]** : the event could not be linked to a message template. The event will not be processed.
-

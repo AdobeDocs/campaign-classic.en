@@ -103,7 +103,7 @@ As the Data Controller you will need to ensure that when you receive a deletion 
 
 ## Opt in again {#opt-in-again}
 
-**Can a Data Subject, whose data has been erased from Adobe Campaign, opt in again later?**
+### Can a Data Subject, whose data has been erased from Adobe Campaign, opt in again later?
 
 It is possible for a Data Subject to opt-in again or to be added as a new recipient after his/her data has been erased from Adobe Campaign.
 

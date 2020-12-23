@@ -275,7 +275,7 @@ Once all approvals have been granted, the delivery status changes to **[!UICONTR
 
 >[!NOTE]
 >
->The technical workflows concerning campaign processes are presented in [List of campaign process workflows](../../workflow/using/campaign.md).
+>The technical workflows related to the Campaign package are presented in [List of technical workflows](../../workflow/using/about-technical-workflows.md).
 
 **Step 1 - File approval**
 
