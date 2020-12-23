@@ -182,13 +182,13 @@ To configure the Microsoft Dynamics connector to work with Adobe Campaign, apply
 
    Adobe Campaign Classic supports the Dynamics 365 REST interface with OAuth protocol for authentication.
 
-   If you select a **[!UICONTROL WebAPI]** deployment, you need to register an app on Azure Directory and get the **clientId** from the Azure Directory. This registration is documented in [this page](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/mt622431(v=crm.8)?redirectedfrom=MSDN).
+   If you select a **[!UICONTROL WebAPI]** deployment, you need to register an app on Azure Directory and get the **clientId** from the Azure Directory. This registration is documented in [this page](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
 
    >[!NOTE]
    >
    >The redirectURL parameter is not required by Adobe Campaign Classic.
 
-   The **clientId** value is used with the username/password to fetch bearer token using grant type password. This is called **Resource Owner Password Credentials Grant**. For more on this, refer to [this page](https://blogs.msdn.microsoft.com/wushuai/2016/09/25/resource-owner-password-credentials-grant-in-azure-ad-oauth/).
+   The **clientId** value is used with the username/password to fetch bearer token using grant type password. This is called **Resource Owner Password Credentials Grant**. For more on this, refer to [this page](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth-ropc).
 
    ![](assets/crm_connectors_msdynamics_01_3.png)
 
