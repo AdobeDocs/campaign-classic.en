@@ -23,29 +23,25 @@ This integration only applies starting **Campaign Classic 20.3, 20.2.4, 19.1.8 a
 
 Before starting this implementation, please check you have:
 
-* a valid IMSOrgID: the Identity Management System (IMS) organization identifier is the unique identifier within the Adobe Experience Cloud, used for example for the VisitorID service and the IMS Single-Sign On (SSO),
-* a Developer access to the IMS Org. 
-
->[!NOTE]
->
->If you need to request the System Administrator privileges of the IMS Org, follow the procedure detailed [in this page](https://helpx.adobe.com/ca/enterprise/admin-guide.html/ca/enterprise/using/manage-developers.ug.html) to provide this access for the all Product Profiles.
+* a valid **Organization identifier**: the Identity Management System (IMS) organization identifier is the unique identifier within the Adobe Experience Cloud, used for example for the VisitorID service and the IMS Single-Sign On (SSO). [Learn more](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
+* a **Developer access** to your Organization.  If you need to request the System Administrator privileges of the IMS Org, follow the procedure detailed [in this page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html) to provide this access for the all Product Profiles.
 >
 
 ## Step 1: Create/update Adobe I/O Project {#creating-adobe-io-project}
 
-1. Access Adobe I/O and log in with the System Administrator right for the IMSorg.
+1. Access Adobe I/O and log in with the System Administrator right for the IMS Organization.
 
     >[!NOTE]
     >
-    > Make sure you are logged into the correct IMSorg portal.
+    > Make sure you are logged into the correct Organization portal.
 
-1. Extract existing integration client ID from the instance configuration file ims/authIMSTAClientId. Non existing or empty attribute indicates client ID is not configured.
+1. Extract existing integration client ID from the instance configuration file ims/authIMSTAClientId. Non existing or empty attribute indicates client identifier is not configured.
 
     >[!NOTE]
     >
-    >If your Client ID is empty, you can directly **[!UICONTROL Create a New project]** in Adobe I/O.
+    >If your Client identifier is empty, you can directly **[!UICONTROL Create a New project]** in Adobe I/O.
 
-1. Identify the existing project using the extracted client ID. Look for existing projects with the same client ID as the one extracted in previous step.
+1. Identify the existing project using the extracted client identifier. Look for existing projects with the same client identifier as the one extracted in previous step.
 
     ![](assets/do-not-localize/adobe_io_8.png)
 

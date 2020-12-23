@@ -18,7 +18,7 @@ _22 December 2020_
 
 >[!CAUTION]
 >
->This release comes with a new connection protocol:  upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2020
+>This release comes with a new connection protocol:  upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2021.
 
 **Improvements**
 
