@@ -18,6 +18,8 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 The **[!UICONTROL Fork]** activity section has been enriched with additional information. A note has been added to specify that the outbound transitions do not execute simultaneously and that the activity should therefore not be used to improve workflows's performances. [Read more](../../workflow/using/fork.md)
 
+The Locating Tomcat version section has been moved [here](../../production/using/locate-tomcat-version.md).
+
 ## December 2020 {#dec-2020}
 
 The delivery monitoring section has been reorganized into thematic topics. [Read more](../../delivery/using/about-delivery-monitoring.md)
@@ -176,8 +178,7 @@ Thailand and Brazil Privacy Laws - [Read more](https://helpx.adobe.com/campaign/
 
 **Other documentation updates coming with the release**
 
-The new option enabling to unpublish a transactional message template is documented in
-[this section](../../message-center/using/template-unpublication.md).
+The new option enabling to unpublish a transactional message template is documented in [this section](../../message-center/using/template-unpublication.md).
 
 The new options allowing to set limitations when sending emails that include images downloaded from a personalized URL and attachments have been added to the list of Campaign Classic options. [Read more](../../installation/using/configuring-campaign-options.md#delivery)
 
