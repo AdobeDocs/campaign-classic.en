@@ -16,6 +16,10 @@ For example, you can use an AND-join activity in the context of content creation
 
 ![](assets/and-join-usage.png)
 
+>[!NOTE]
+>
+>Note that inbound transitions that are configured with different targeting dimensions cannot be joined together using an **[!UICONTROL AND-join]** activity.
+
 The outbound sent population of the activity is determined by choosing a main set among the inbound transitions in the activity.
 
 The outbound transition can only contain one of the inbound transition populations. If the activity is not configured, the outbound transition will randomly select one of the inbound populations.
