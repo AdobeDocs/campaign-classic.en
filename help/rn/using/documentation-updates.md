@@ -166,7 +166,7 @@ Use cases have been added on how to [encrypt](../../workflow/using/how-to-use-wo
 
 The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
 
-## july 2020 {#release-20-2}
+## July 2020 {#release-20-2}
 
 **New capabilities included in 20.2 release**
 
