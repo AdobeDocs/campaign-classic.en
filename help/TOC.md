@@ -681,6 +681,7 @@ type: Documentation
        + [Console update](production/using/console-update.md)
        + [Lost password](production/using/lost-password.md)
        + [JSP behavior](production/using/jsp-behavior.md)
+       + [Locating Tomcat version](production/using/locate-tomcat-version.md)
 + Developers guide {#configuring-campaign-classic}
   + Data model {#data-model}
        + [About the data model](configuration/using/about-data-model.md)
