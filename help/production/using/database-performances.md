@@ -8,14 +8,14 @@ content-type: reference
 topic-tags: troubleshooting
 ---
 
-# Database performances{#database-performances}
+# Database performance{#database-performances}
 
 Most performance issues are linked to database maintenance. Here are four main leads to help you find the cause of slow performance:
 
-* Configuration,
-* Installation and configuration of the Adobe Campaign platform,
-* Database maintenance,
-* Real-time diagnosis.
+* Configuration
+* Installation and configuration of the Adobe Campaign platform
+* Database maintenance
+* Real-time diagnosis
 
 ## Configuration {#configuration}
 
