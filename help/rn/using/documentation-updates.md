@@ -20,6 +20,8 @@ The **[!UICONTROL Fork]** activity section has been enriched with additional inf
 
 The Locating Tomcat version section has been moved [here](../../production/using/locate-tomcat-version.md).
 
+The list of technical workflows with their associated packages has been reorganized into one single page. [Read more](../../workflow/using/about-technical-workflows.md)
+
 ## December 2020 {#dec-2020}
 
 The delivery monitoring section has been reorganized into thematic topics. [Read more](../../delivery/using/about-delivery-monitoring.md)
