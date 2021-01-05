@@ -22,6 +22,8 @@ The Locating Tomcat version section has been moved [here](../../production/using
 
 The list of technical workflows with their associated packages has been reorganized into one single page. [Read more](../../workflow/using/about-technical-workflows.md)
 
+The troubleshooting section of the Monitoring guide has been reorganized and enhanced with a landing page. [Read more](../../production/using/troubleshooting.md).
+
 ## December 2020 {#dec-2020}
 
 The delivery monitoring section has been reorganized into thematic topics. [Read more](../../delivery/using/about-delivery-monitoring.md)
