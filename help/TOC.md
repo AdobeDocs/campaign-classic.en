@@ -687,6 +687,7 @@ type: Documentation
        + Technical troubleshooting {#technical-troubleshooting}
           + [Stack trace in Linux](production/using/stack-trace-in-linux.md)
           + [JSP behavior](production/using/jsp-behavior.md)
+          + [Locating Tomcat version](production/using/locate-tomcat-version.md)
 + Developers guide {#configuring-campaign-classic}
   + Data model {#data-model}
        + [About the data model](configuration/using/about-data-model.md)
