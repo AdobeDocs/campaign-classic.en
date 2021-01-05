@@ -36,31 +36,31 @@ To do this, apply the following procedure:
 1. Go to the **internalPassword** line.
 
     ```    
-   <!-- XTK authentication mode internalPassword : Password of internal account -->
-   <xtk internalPassword="myPassword"/>
-   ```
+    <!-- XTK authentication mode internalPassword : Password of internal account -->
+    <xtk internalPassword="myPassword"/>
+    ```
 
 1. Delete the string in quotes, in this case: **myPassword**
 
    You thus obtain the following line:
 
-   ```    
-   !-- XTK authentication mode internalPassword : Password of internal account -->
-   <xtk internalPassword=""/
-   ```
+    ```    
+    !-- XTK authentication mode internalPassword : Password of internal account -->
+    <xtk internalPassword=""/
+    ```
 
 1. Save changes and close the file.
 
 1. Configure the new password. To do this, enter the following commands:
 
-   ```    
-   nlserver config -internalpassword
-   HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
-   Enter current password.
-   Password: (empty)
-   Enter the new password.
-   Password: 
-   Confirmation 
-   ```
+    ```    
+    nlserver config -internalpassword
+    HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
+    Enter current password.
+    Password: (empty)
+    Enter the new password.
+    Password: 
+    Confirmation 
+    ```
 
 1. You can now use your new password to connect in **Internal** mode.
