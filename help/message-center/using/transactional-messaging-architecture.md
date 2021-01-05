@@ -57,7 +57,15 @@ If you need to use several channels, you must install and configure related pack
 
 ## Adding a delivery channel {#adding-a-delivery-channel}
 
-Adding a delivery channel (mobile channel, Mobile App channel, etc.) must be performed before installing the Transactional message package. If you have started a transactional messaging project on the email channel, then decide during the project to add a new channel, you must follow these steps:
+Adding a delivery channel (mobile channel, Mobile App channel, etc.) must be performed before installing the Transactional message package.
+
+Adobe recommends you always add the delivery channel package before installing the Transactional message package.
+
+However, if you have started a transactional messaging project on the email channel, then decide during the project to add a new channel, you can follow the steps below.
+
+>[!NOTE]
+>
+>This procedure only applies to customers using a Windows NLServer installed on the same machine as they are working on.
 
 1. Install the channel you need, for example the **Mobile channel**, using the package import wizard ( **[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]** ).
 1. Perform a file import ( **[!UICONTROL Tools > Advanced > Import package... > File]** ), and select the **datakitnms**`[Your language]`**packagemessageCenter.xml** file.
