@@ -45,7 +45,7 @@ Specific actions can be performed when encountering issues with deliveries:
 * [Failure to connect](../../production/using/failure-to-connect.md)
 * [Connection thresholds](../../production/using/connection-thresholds.md)
 
-## Technical troubleshooting {technical-troubleshooting}
+## Technical troubleshooting {#technical-troubleshooting}
 
 * [Stack trace in Linux](../../production/using/stack-trace-in-linux.md)
 * [JSP behavior](../../production/using/jsp-behavior.md)
