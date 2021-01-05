@@ -10,9 +10,9 @@ topic-tags: troubleshooting
 
 # Temporary files{#temporary-files}
 
-If error messages such as the following appear (particularly in delivery logs) when the system is put into production:
+Error messages such as the following may display (particularly in delivery logs) when the system is put into production:
 
-**Unable to rename file '/tmp/tmp0000.tmp' to /usr/local/neolane/nl6/bin/..//var/XXX/mta/86510470.xml ;(errno=18, Invalid cross-device link) (iRc=-52)**
+*Unable to rename file '/tmp/tmp0000.tmp' to /usr/local/neolane/nl6/bin/..//var/XXX/mta/86510470.xml ;(errno=18, Invalid cross-device link) (iRc=-52)*
 
 The cause is as follows:
 
