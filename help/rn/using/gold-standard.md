@@ -26,7 +26,7 @@ _22 December 2020_
 >
 >This release comes with a new connection protocol: upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2021.
 
-The build 9032&#64;d3b452f includes the following improvements and fixes:
+The build 9032&#64;2a2a028 includes the following improvements and fixes:
 
 * The connection protocol has been updated to follow the new IMS authentication mechanism. 
 
