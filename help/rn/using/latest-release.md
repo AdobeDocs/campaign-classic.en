@@ -20,7 +20,7 @@ _6 January 2021_
 
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
 
-## ![](assets/do-not-localize/red.png) Release 20.3.1 - Build 9228 {#release-20-3-1-build-9228}
+## ![](assets/do-not-localize/red_2.png) Release 20.3.1 - Build 9228 {#release-20-3-1-build-9228}
 
 _October 27, 2020_
 
