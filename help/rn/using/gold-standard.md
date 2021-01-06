@@ -18,7 +18,7 @@ This page lists Gold Standard releases.
 
 For more information on Campaign Gold Standard program, refer [to this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
-## ![](assets/do-not-localize/limited_2.png) Gold Standard 11 release{#gs-11}
+## ![](assets/do-not-localize/green_2.png) Gold Standard 11 release{#gs-11}
 
 _22 December 2020_
 
@@ -26,7 +26,7 @@ _22 December 2020_
 >
 >This release comes with a new connection protocol: upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2021.
 
-The build 9032&#64;2a2a028 includes the following improvements and fixes:
+The build 9032&#64;d3b452f includes the following improvements and fixes:
 
 * The connection protocol has been updated to follow the new IMS authentication mechanism. 
 
@@ -36,7 +36,7 @@ The build 9032&#64;2a2a028 includes the following improvements and fixes:
 
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
 
-## ![](assets/do-not-localize/green_2.png) Gold Standard 10 release{#gs-10}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 10 release{#gs-10}
 
 _7 July 2020_
 
