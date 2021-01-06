@@ -14,6 +14,16 @@ This page lists all the new features and documentation updates per month and Cam
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
+## January 2021 {#jan,2021}
+
+The **[!UICONTROL Fork]** activity section has been enriched with additional information. A note has been added to specify that the outbound transitions do not execute simultaneously and that the activity should therefore not be used to improve workflows's performances. [Read more](../../workflow/using/fork.md)
+
+The Locating Tomcat version section has been moved [here](../../production/using/locate-tomcat-version.md).
+
+The list of technical workflows with their associated packages has been reorganized into one single page. [Read more](../../workflow/using/about-technical-workflows.md)
+
+The troubleshooting section of the Monitoring guide has been reorganized and enhanced with a landing page. [Read more](../../production/using/troubleshooting.md).
+
 ## December 2020 {#dec-2020}
 
 The delivery monitoring section has been reorganized into thematic topics. [Read more](../../delivery/using/about-delivery-monitoring.md)
@@ -142,7 +152,7 @@ The [Release Notes](../../rn/using/latest-release.md) have been reorganized: an 
 
 A new section has been added with guidelines related to Campaign Classic monitoring. [Read more](../../production/using/monitoring-guidelines.md)
 
-The Privacy and Consent section has been enhanced with more detailed information and useful links. [Read more](../../platform/using/privacy-and-recommendations.md).
+The Privacy and Consent section has been enhanced with more detailed information and useful links. [Read more](../../platform/using/privacy-and-recommendations.md)
 
 The Privacy Management in Campaign Classic page has been updated with information on the 'regulation' field which is now available when using the API allowing to setup automatic Privacy request process. [Read more](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
@@ -160,7 +170,7 @@ Use cases have been added on how to [encrypt](../../workflow/using/how-to-use-wo
 
 The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
 
-## july 2020 {#release-20-2}
+## July 2020 {#release-20-2}
 
 **New capabilities included in 20.2 release**
 
@@ -172,8 +182,7 @@ Thailand and Brazil Privacy Laws - [Read more](https://helpx.adobe.com/campaign/
 
 **Other documentation updates coming with the release**
 
-The new option enabling to unpublish a transactional message template is documented in
-[this section](../../message-center/using/template-unpublication.md).
+The new option enabling to unpublish a transactional message template is documented in [this section](../../message-center/using/template-unpublication.md).
 
 The new options allowing to set limitations when sending emails that include images downloaded from a personalized URL and attachments have been added to the list of Campaign Classic options. [Read more](../../installation/using/configuring-campaign-options.md#delivery)
 

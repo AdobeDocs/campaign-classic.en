@@ -664,23 +664,31 @@ type: Documentation
        + [Types of maintenance](production/using/types-of-maintenance.md)
        + [RDBMS Specific recommendations](production/using/rdbms-specific-recommendations.md)
        + [Application objects](production/using/application-objects.md)
-  + Troubleshooting {#troubleshooting}
-       + [Performance and throughput issues](production/using/performance-and-throughput-issues.md)
-       + [Images missing](production/using/images-missing.md)
-       + [Image display issues](production/using/image-display-issues.md)
-       + [Temporary files](production/using/temporary-files.md)
-       + [Database performances](production/using/database-performances.md)
-       + [Modules and frequent issues](production/using/modules-and-frequent-issues.md)
-       + [Log precision](production/using/log-precision.md)
-       + [Tracking logs issues](production/using/tracking-logs-issues.md)
-       + [Workflow execution](production/using/workflow-execution.md)
-       + [Failure to connect](production/using/failure-to-connect.md)
-       + [Connection thresholds](production/using/connection-thresholds.md)
-       + [Stack trace in Linux](production/using/stack-trace-in-linux.md)
-       + [Encoding of the Oracle database](production/using/encoding-of-the-oracle-database.md)
-       + [Console update](production/using/console-update.md)
-       + [Lost password](production/using/lost-password.md)
-       + [JSP behavior](production/using/jsp-behavior.md)
+  + Troubleshooting {#troubleshooting-toc}
+       + [Production troubleshooting overview](production/using/troubleshooting.md)
+       + Common and general issues {#common-general-issues-toc}
+          + [Modules and frequent issues](production/using/modules-and-frequent-issues.md)
+          + [Workflow execution](production/using/workflow-execution.md)
+          + [Lost password](production/using/lost-password.md)
+          + [Console update](production/using/console-update.md)
+       + Delivery troubleshooting {#delivery-troubleshooting-toc}
+          + [Performance and throughput issues](production/using/performance-and-throughput-issues.md)
+          + [Image display issues](production/using/image-display-issues.md)
+          + [Images missing](production/using/images-missing.md)
+          + [Temporary files](production/using/temporary-files.md)
+       + Working with logs {#working-with-log-toc}
+          + [Log precision](production/using/log-precision.md)
+          + [Tracking logs issues](production/using/tracking-logs-issues.md)
+       + Database issues {#database-issues-toc}
+          + [Database performance](production/using/database-performances.md)
+          + [Encoding of the Oracle database](production/using/encoding-of-the-oracle-database.md)
+       + Connection improvements {#connection-improvements-toc}
+          + [Failure to connect](production/using/failure-to-connect.md)
+          + [Connection thresholds](production/using/connection-thresholds.md)
+       + Technical troubleshooting {#technical-troubleshooting-toc}
+          + [Stack trace in Linux](production/using/stack-trace-in-linux.md)
+          + [JSP behavior](production/using/jsp-behavior.md)
+          + [Locating Tomcat version](production/using/locate-tomcat-version.md)
 + Developers guide {#configuring-campaign-classic}
   + Data model {#data-model}
        + [About the data model](configuration/using/about-data-model.md)
