@@ -49,7 +49,7 @@ These steps are detailed below.
 
 ## Configure Microsoft Dynamics CRM {#config-crm-microsoft}
 
-To generate the access token and keys to setup the account, you need to login to [portal.azure.com](portal.azure.com) using a **Global administrator** credentials. Then follow the steps outlined below.
+To generate the access token and keys to setup the account, you need to login to [Microsoft Azure](https://portal.azure.com) using a **Global administrator** credentials. Then follow the steps outlined below.
 
 ### Get Microsoft Dynamics Client ID {#get-client-id-microsoft}
 
@@ -102,14 +102,14 @@ The App user is the user that the application registered above will use. Any cha
 
 **Step 2**:  Assign a proper license to the created user
 
-1. From [portal.azure.com](portal.azure.com), click on **Admin app**.
+1. From [Microsoft Azure](https://portal.azure.com), click on **Admin app**.
 1. Go to **Users > Active Users** and click on the newly created user.
 1. Click on **Edit product licenses** and select the **Dynamics 365 Customer Engagement Plan**.
 1. Click **Close**.
 
 **Step 3**: Create an application user on Dynamics CRM
 
-1. From [portal.azure.com](portal.azure.com), navigate to **Settings > Security > Users**.
+1. From [Microsoft Azure](https://portal.azure.com), navigate to **Settings > Security > Users**.
 1. Click on drop down, select **Application users** and click **New**.
 1. Use the same username as the user created on active directory above 
 
@@ -161,4 +161,4 @@ To connect Microsoft Dynamics and Campaign, you need to create and configure a d
 
    ![](assets/crm_connectors_msdynamics_06.png)
 
-Campaign and Microsoft Dynamics are now connected. You can set up data synchronization between the two systems. Learn more in the [Data synchronization](../../platform/using/crm-data-synch.md) section.
+Campaign and Microsoft Dynamics are now connected. You can set up data synchronization between the two systems. Learn more in the [Data synchronization](../../platform/using/crm-data-sync.md) section.
