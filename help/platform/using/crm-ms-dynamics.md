@@ -74,9 +74,11 @@ The client secret is the key which is unique to the Client ID. To get the certif
 1. To generate the certificate you can use openssl.
 
    For example:
+
    ```
    - openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout '<'private key name'>' -out '<'public certificate name'>
    ```
+   
 1. Click on the **manifest** link to get the **certificate key identifier** and the **key ID**.
 
 ### Configure permissions {#config-permissions-microsoft}
