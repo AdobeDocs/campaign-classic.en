@@ -14,6 +14,13 @@ This page lists all the new features and documentation updates per month and Cam
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
+
+## January 2021 {#jan-2021}
+
+All steps to connect Campaign and Microsoft Dynamics are now detailed in a dedicated page. [Read more](../../platform/using/crm-ms-dynamics.md).
+
+The CRM Connectors section has been updated, improved and reorganized. [Read more](../../platform/using/crm-connectors.md).
+
 ## December 2020 {#dec-2020}
 
 The delivery monitoring section has been reorganized into thematic topics. [Read more](../../delivery/using/about-delivery-monitoring.md)

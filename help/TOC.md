@@ -81,7 +81,10 @@ type: Documentation
        + [Managing enumerations](platform/using/managing-enumerations.md)
   + Connectors {#connectors}
        + [About connectors](platform/using/about-connectors.md)
-       + [CRM Connectors](platform/using/crm-connectors.md)
+       + CRM Connectors{#crm-connectors}
+          + [Get started with CRM Connectors](platform/using/crm-connectors.md)
+          + [Connect with Microsoft Dynamics](platform/using/crm-ms-dynamics.md)
+          + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}
      + [Get started with messages](delivery/using/communication-channels.md)
