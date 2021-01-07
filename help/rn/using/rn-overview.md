@@ -22,7 +22,7 @@ A status is associated to each build. You'll find below the list of statuses and
 
 ![](assets/do-not-localize/green3.png) **General Availability** (GA) - Validated in production and recommended by Adobe. 
 
-The **last GA builds** are: [Gold Standard 10 release](../../rn/using/gold-standard.md#gs-10) and [Campaign 20.2.4 release](../../rn/using/release--20-2.md#release-20-2-4-build-9187)
+The **last GA builds** are: [Gold Standard 11 release](../../rn/using/gold-standard.md#gs-11) and [Campaign 20.2.4 release](../../rn/using/release--20-2.md#release-20-2-4-build-9187)
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
@@ -48,7 +48,7 @@ As an on-premise user, you can perform the upgrade. To do this, you need to [dow
 
 ### Gold Standard{#upgrade-for-gold-standard-users}
 
-As a Gold Standard user, you will automatically benefit from the Gold Standard upgrade with the [latest GA build](../../rn/using/gold-standard.md#gs-10) without any action. [Learn more](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+As a hosted Gold Standard user, you will automatically benefit from the Gold Standard upgrade with the [latest GA Gold Standard build](../../rn/using/gold-standard.md#gs-10) without any action. [Learn more](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
 >[!NOTE]
 >Compatibility matrix for Gold Standard is available in the [GA Compatibility matrix](../../rn/using/compatibility-matrix-gs.md).

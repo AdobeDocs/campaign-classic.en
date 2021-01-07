@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: latest-release-notes
 ---
 
-# Gold Standard release{#gold-standard}
+# Gold Standard releases{#gold-standard}
 
-Gold Standard is Campaign Classic Long-Term support release. As a Gold Standard user, you automatically benefit from the Gold Standard upgrade with the latest stable version without any action. On premise and Hybrid customers can also benefit from Gold Standard releases.
+Gold Standard is Campaign Classic Long-Term support release. As a hosted Gold Standard user, you automatically benefit from the Gold Standard upgrade with the latest stable version without any action. On-premise and Hybrid customers can also benefit from Gold Standard releases.
 
-If you migrate from an old build, we recommend that you upgrade first to this version.
+If you migrate from an old build, we recommend that you upgrade to this version first.
 
 This page lists Gold Standard releases.
 
 For more information on Campaign Gold Standard program, refer [to this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
-## ![](assets/do-not-localize/limited_2.png) Gold Standard 11 release{#gs-11}
+## ![](assets/do-not-localize/green_2.png) Gold Standard 11 release{#gs-11}
 
 _22 December 2020_
 
@@ -26,7 +26,7 @@ _22 December 2020_
 >
 >This release comes with a new connection protocol: upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2021.
 
-The build 9032&#64;2a2a028 includes the following improvements and fixes:
+The build 9032&#64;d3b452f includes the following improvements and fixes:
 
 * The connection protocol has been updated to follow the new IMS authentication mechanism. 
 
@@ -36,7 +36,7 @@ The build 9032&#64;2a2a028 includes the following improvements and fixes:
 
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
 
-## ![](assets/do-not-localize/green_2.png) Gold Standard 10 release{#gs-10}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 10 release{#gs-10}
 
 _7 July 2020_
 

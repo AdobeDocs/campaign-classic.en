@@ -194,7 +194,7 @@ This example uses the same concept as the first example, only it creates the del
 
 The first **Create delivery** task creates the delivery action.
 
-The fork activity lets you launch target calculation and the creation of the content instance at the same time.
+The fork activity lets you launch target calculation and the creation of the content instance in parallel.
 
 Once the tasks have been executed, the AND-join box activates the **Delivery** task to launch the previously created delivery on content and targeting.
 
