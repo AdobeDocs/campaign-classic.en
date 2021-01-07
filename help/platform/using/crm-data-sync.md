@@ -96,7 +96,6 @@ You can specify the remote CRM field to be taken into account to identify the mo
 By default, the following fields are used (in the specified order):
 
 * For Microsoft Dynamics: **modifiedon**,
-* For Oracle On Demand: **LastUpdated**, **ModifiedDate**, **LastLoggedIn**,
 * For Salesforce.com: **LastModifiedDate**, **SystemModstamp**.
 
 Activating the **[!UICONTROL Automatic index]** option generates three variables that can be used in the synchronization workflow via a **[!UICONTROL JavaScript code]** type activity. These activities are:
@@ -218,10 +217,7 @@ Rejects are collected with their error code and the related message, this means 
 >
 >Even when the **[!UICONTROL Process rejects]** option isn't enabled, a warning is generated for each rejected column with an error code and message.
 
-The **[!UICONTROL Reject]** output transition lets you access the output schema that contains the specific columns relevant to error messages and codes. These columns are:
-
-* For Oracle On Demand: **errorLogFilename** (name of the log file on the Oracle side), **errorCode** (error code), **errorSymbol** (error symbol, different from the error code), **errorMessage** (description of the error context).
-* For Salesforce.com: **errorSymbol** (error symbol, different from the error code), **errorMessage** (description of the error context).
+The **[!UICONTROL Reject]** output transition lets you access the output schema that contains the specific columns relevant to error messages and codes. For Salesforce.com, this column is **errorSymbol** (error symbol, different from the error code), **errorMessage** (description of the error context).
 
 ## Importing objects deleted in the CRM {#importing-objects-deleted-in-the-crm}
 

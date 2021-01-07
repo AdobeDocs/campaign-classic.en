@@ -69,50 +69,13 @@ In general, to use CRM connectors in Adobe Campaign, apply the following steps:
 
    ![](assets/crm_connectors_sfdc_exe.png)
 
+   >[!NOTE]
+   >
+   > Multiple selection enumerations in Salesforce are not supported.
+
 1. To import CRM data or to export Adobe Campaign data to the CRM, you need to create a workflow and use the **[!UICONTROL CRM connector]** activity.
 
    ![](assets/crm_connectors_sfdc_wf.png)
 
 Learn more about data synchronization [in this page](../../platform/using/crm-data-sync.md).
 
-## Best practices and limitations
-
-### Connect with Microsoft Dynamics
-
-Learn how to connect Campaign and Microsoft Dynamics [in this section](../../platform/using/crm-ms-dynamics.md).
-
-### Connect with Salesforce
-
-You can connect your Salesforce CRM with Campaign and synchonize data between the two systems. Note that :
-
-* Test production instances are supported.
-* Assignation rules are supported.
-* Multiple selection enumerations are not supported by Adobe Campaign.
-
-### Connect with Oracle On Demand
-
-You can connect your Oracle On Demand CRM with Campaign and synchonize data between the two systems. Note that :
-* Adobe Campaign can synchronize any object available in the standard Oracle On Demand templates. If you have added personalized tables in Oracle On Demand, these won't be recovered in Adobe Campaign.
-* API version v1.0 lets you sort or filter data during a query but does not let you do both simultaneously.
-* The dates sent by Oracle On Demand do not contain time zone information.
-* Multiple selection enumerations are not supported by Adobe Campaign.
-
-To configure the **Oracle On Demand** connector to work with Adobe Campaign, follow the steps described in the [Implementation steps](#crm-implementation-steps) section.
-
-Once configuration is done, you can synchronize data between the two systems through a workflow.
-
-1. To import Oracle On Demand data into Adobe Campaign, create the following type of workflow:
-
-   ![](assets/crm_connectors_ood_5.png)
-
-   This workflow imports contacts via Oracle On Demand, synchronizes them with the existing Adobe Campaign data, deletes duplicate contacts, and updates the Adobe Campaign database.
-
-   The **[!UICONTROL CRM Connector]** activity needs to be configured as shown here:
-
-   ![](assets/crm_connectors_ood_6.png)
-
-1. To export Adobe Campaign data to Oracle On Demand, create the following workflow:
-
-   ![](assets/crm_connectors_ood_7.png)
-
-   This workflow collects the relevant data using queries, then exports it into the Oracle On Demand contacts table.
