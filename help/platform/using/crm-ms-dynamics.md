@@ -123,7 +123,7 @@ The App user is the user that the application registered above will use. Any cha
 
 ## Configure Campaign {#configure-acs-for-microsoft}
 
-To connect Microsoft Dynamics and Campaign, you need to create and configure a dedicated External Accoount in Campaign.
+To connect Microsoft Dynamics and Campaign, you need to create and configure a dedicated External Account in Campaign.
 
 1. Navigate to **[!UICONTROL Administration > Platform > External accounts]**.
 
@@ -135,7 +135,11 @@ To connect Microsoft Dynamics and Campaign, you need to create and configure a d
 
    ![](assets/crm-ms-dynamics-ext-account.png)
 
-   For more information on CRM version compatibility, refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
+   >[!NOTE]
+   >
+   >* For more information on CRM version compatibility, refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
+   >
+   >* Microsoft Dynamics CRM External account configuration is detailed [in this section](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account).
 
 1. Click the **[!UICONTROL Microsoft CRM configuration wizard...]** link: Adobe Campaign automatically detects the tables from the Microsoft Dynamics data template.
 
