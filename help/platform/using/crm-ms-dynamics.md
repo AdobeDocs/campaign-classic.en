@@ -49,7 +49,7 @@ These steps are detailed below.
 
 ## Configure Microsoft Dynamics CRM {#config-crm-microsoft}
 
-To generate the access token and keys to setup the account, you need to login to [Microsoft Azure](https://portal.azure.com) using a **Global administrator** credentials. Then follow the steps outlined below.
+To generate the access token and keys to setup the account, you need to login to [Microsoft Azure Directory](https://portal.azure.com) using a **Global administrator** credentials. Then follow the steps outlined below.
 
 ### Get Microsoft Dynamics Client ID {#get-client-id-microsoft}
 
@@ -121,7 +121,7 @@ The App user is the user that the application registered above will use. Any cha
 1. Assign the **Application ID** for [the application you created earlier](#get-client-id-microsoft).
 1. Click on **Manage Roles** and choose the **System administrator** role to the user.
 
-## Configure Campaign {#configure-acs-for-microsoft}
+## Configure Campaign {#configure-acc-for-microsoft}
 
 To connect Microsoft Dynamics and Campaign, you need to create and configure a dedicated External Account in Campaign.
 
