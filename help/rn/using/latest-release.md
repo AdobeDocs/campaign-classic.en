@@ -19,6 +19,7 @@ For Campaign Classic Gold Standard version (latest GA build), [refer to this pag
 _6 January 2021_
 
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
+* Fixed a regression issue related to the broadlog generation process that could cause the MTA process to crash.
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.3.1 - Build 9228 {#release-20-3-1-build-9228}
 
