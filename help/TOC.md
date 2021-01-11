@@ -63,12 +63,12 @@ type: Documentation
        + [Exporting and importing profiles](platform/using/exporting-and-importing-profiles.md)
        + [Creating and managing lists](platform/using/creating-and-managing-lists.md)
   + Importing and exporting data {#importing-and-exporting-data}
-       + [About data import and export](platform/using/)
+       + [About data import and export](platform/using/get-start-data-import-export.md)
        + Importing and exporting data using workflows
-          + [Collecting and exporting data using workflows](platform/using/)
-          + [Exporting data using workflows](platform/using/)
+          + [Collecting and exporting data using workflows](platform/using/collecting-data-workflows.md)
+          + [Exporting data using workflows](platform/using/exporting-data-workflows.md)
        + Importing and exporting data using templates {importing-exporting-using-templates}
-          + [Get started with data import and export](platform/using/get-start-data-import-export.md)
+          + [Get started with import and export templates](platform/using/about-import-export-templates.md)
           + [Creating import and export templates](platform/using/creating-import-export-templates.md)
           + [Launching immport jobs](platform/using/launching-import-jobs.md)
           + [Launching export jobs](platform/using/launching-export-jobs.md)
