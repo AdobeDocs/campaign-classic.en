@@ -63,23 +63,23 @@ type: Documentation
        + [Exporting and importing profiles](platform/using/exporting-and-importing-profiles.md)
        + [Creating and managing lists](platform/using/creating-and-managing-lists.md)
   + Importing and exporting data {#importing-and-exporting-data}
-       + [About data import and export]()
+       + [About data import and export](platform/using/)
        + Importing and exporting data using workflows
-          + [Collecting and exporting data using workflows]()
-          + [Exporting data using workflows]()
+          + [Collecting and exporting data using workflows](platform/using/)
+          + [Exporting data using workflows](platform/using/)
        + Importing and exporting data using templates {importing-exporting-using-templates}
-          + [About import and export templates]()
-          + [Creating import and export templates]()
-          + [Launching immport jobs]()
-          + [Launching export jobs]()
-          + [Monitoring jobs execution]()
-          + [Import operations samples]()
+          + [Get started with data import and export](platform/using/get-start-data-import-export.md)
+          + [Creating import and export templates](platform/using/creating-import-export-templates.md)
+          + [Launching immport jobs](platform/using/launching-import-jobs.md)
+          + [Launching export jobs](platform/using/launching-export-jobs.md)
+          + [Monitoring jobs execution](platform/using/monitoring-jobs-execution.md)
+          + [Import operations samples](platform/using/import-operations-samples.md)
        + Managing data encryption and compression {managing-data-encryption-compression}
-          + [Unzipping or decrypting a file before processing]()
-          + [Zipping or encrypting a file before processing]()
+          + [Unzipping or decrypting a file before processing](platform/using/unzip-decypt.md)
+          + [Zipping or encrypting a file before processing](platform/using/zip-encrypt.md)
        + Best practices and troubleshooting {best-practices}
-          + [Import best practices]()
-          + [SFTP server best practices and troubleshooting]()
+          + [Import best practices](platform/using/import-best-practices.md)
+          + [SFTP server best practices and troubleshooting](platform/using/sftp-server-usage.md)
   + Filtering data {#filtering-data}
        + [Filtering options](platform/using/filtering-options.md)
        + [Creating filters](platform/using/creating-filters.md)
@@ -361,7 +361,6 @@ type: Documentation
   +  General operation {#general-operation}
        + [Building a workflow](workflow/using/building-a-workflow.md)
        + [Targeting data](workflow/using/targeting-data.md)
-       + [Importing data](workflow/using/importing-data.md)
        + [How to use workflow data](workflow/using/how-to-use-workflow-data.md)
        + [Workflow best practices](workflow/using/workflow-best-practices.md)
   +  Executing a workflow {#executing-a-workflow}
