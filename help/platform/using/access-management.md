@@ -342,7 +342,7 @@ Default groups and named rights allow operators to access certain folders in the
 
 Adobe Campaign access rights matrix is available [here](/help/platform/using/assets/access-rights-matrix.pdf).
 
-[![image](assets/do-not-localize/user_management.png)](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
+[![image](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=en)
 
 ## Folder access management {#folder-access-management}
 
@@ -444,3 +444,7 @@ In the example below, we will create new folders to display specific data:
 The following deliveries will be displayed in the view:
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
+
+>[!NOTE]
+>
+>When managing [transactional messaging](../../message-center/using/about-transactional-messaging.md) events, the **[!UICONTROL Real time events]** or **[!UICONTROL Batch events]** folders must not be set as views on the execution instances, as this could lead to access right issues. For more on event collection, see [this section](../../message-center/using/event-collection.md).

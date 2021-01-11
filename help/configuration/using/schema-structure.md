@@ -126,7 +126,7 @@ The following rules must be adhered to:
 
 The data type is entered via the **type** attribute in the **`<attribute>`** and **`<element>`** elements.
 
-A detailed list is available in the description of the [`<attribute>` element](../../configuration/using/elements-and-attributes.md#attribute--element) and the [`<element>` element](../../configuration/using/elements-and-attributes.md#element--element).
+A detailed list is available in the description of the [`<attribute>` element](../../configuration/using/schema/attribute.md) and the [`<element>` element](../../configuration/using/schema/element.md)).
 
 When this attribute is not populated, **string** is the default data type unless the element contains child elements. If it does, it is used only to structure the elements hierarchically (**`<location>`** element in our example).
 

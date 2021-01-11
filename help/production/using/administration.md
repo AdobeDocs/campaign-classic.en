@@ -68,19 +68,19 @@ Here is a list of the usual administration commands accessible in Linux (as **Ad
   **nlserver restart web**
 
   >[!NOTE]
-  > 
-  >    * If the instance is not specified, the "default" instance will be used.
-  >    * In the event of an emergency, use the **-immediate** option to force an immediate halt to the process (equivalent to Unix command **kill -9**).
-  >    * Use the **-noconsole** option to ensure that the module launched will display nothing on the console. Its logs will be written to the disk via the **syslogd** module.
-  >    * Use the **-verbose** option to display additional information on process actions. 
-  >    
-  >      Example:
-  >    
-  >      **nlserver restart web -verbose**
-  >    
-  >      **nlserver start mta@myinstance -verbose**
-  >    
-  >      This option adds additional logs. We recommend starting the processes again without the **-verbose** option once you have found the desired information, to avoid overloading logs.
+  >
+  >* If the instance is not specified, the "default" instance will be used.
+  >* In the event of an emergency, use the **-immediate** option to force an immediate halt to the process (equivalent to Unix command **kill -9**).
+  >* Use the **-noconsole** option to ensure that the module launched will display nothing on the console. Its logs will be written to the disk via the **syslogd** module.
+  >* Use the **-verbose** option to display additional information on process actions. 
+  >
+  >   Example:
+  >
+  >   **nlserver restart web -verbose**
+  >
+  >   **nlserver start mta@myinstance -verbose**
+  >
+  >   This option adds additional logs. We recommend starting the processes again without the **-verbose** option once you have found the desired information, to avoid overloading logs.
 
 * Start up all Adobe Campaign processes (equivalent to starting up the **nlserver6** service):
 

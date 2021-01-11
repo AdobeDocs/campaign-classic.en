@@ -58,6 +58,10 @@ _October 27, 2020_
 </tbody> 
 </table>
 
+>[!CAUTION]
+>
+>This release comes with a new connection protocol: upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2021.
+
 **Security enhancements**
 
 * Secure loading of libraries: In order to protect from DLL preloading attacks, Campaign now loads Windows DLLs only from the Windows default system DLL path while loading the Campaign Client (nlclient). [Learn more](https://support.microsoft.com/en-us/help/2389418/secure-loading-of-libraries-to-prevent-dll-preloading-attacks) (NEO-24147)
@@ -87,6 +91,7 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 **Improvements**
 
 * Several improvements have been made to the **Client console**:
+   * The connection protocol has been updated to follow the new IMS authentication mechanism. Server and client console upgrade is mandatory to be able to connect after March 21, 2021.
    * To prevent incompatibility with some internet security GPO rules restrictions, the Campaign client console logon screen has been replaced by a built-in standard Windows form. 
    * Fixed an issue when copy/pasting activities in a workflow using 64-bits Client console. (NEO-27635) 
    * In the **About** menu, information has been added to distinguish 64 and 32 bits consoles. 
@@ -136,7 +141,7 @@ On linux, _apache_neolane.conf_ is now installed in the `conf` directory.
 * Fixed an issue when using the Snowflake FDA connector. A user with the Snowflake FDA access name rights could not execute a query on a Snowflake schema. An error of the type "Password not found" was displayed in the logs. (NEO-23851)
 * Fixed an issue when using an FDA connector which happened when the linked FDA schema name was a substring of an element name of the current schema. This occurred, for example, if the FDA schema was "cust" and one of the elements within the Recipient schema was "customer". When fetching the column inside the "customer" element and adding a column from the "cust" FDA schema, the value for the local column was missing. (NEO-20193)
 * Fixed an issue in workflows when fetching records from an external database and inserting them in the Campaign database. (NEO-26359)
-* Fixed an issue in the **Update event status** technical workflow: to match the sizing of the incoming corresponding fields in the **Delivery statistics** activity, the sizing of three destination fields in the **Update delivery stats** activity was changed from 32 to 64 bits. (NEO-11557) Learn more about the **Update event status** workflow in [this section](../../workflow/using/message-center--execution-.md).
+* Fixed an issue in the **Update event status** technical workflow: to match the sizing of the incoming corresponding fields in the **Delivery statistics** activity, the sizing of three destination fields in the **Update delivery stats** activity was changed from 32 to 64 bits. (NEO-11557) Learn more about the **Update event status** workflow in [this section](../../workflow/using/about-technical-workflows.md).
 * Fixed an issue in the **Message Center Event History** report that caused script errors when trying to apply filters and made the filter by a date range impossible. (NEO-23365)
 * Fixed an interference issue between the **Campaign jobs** (operationMgt) and **Preview** (forecasting) technical workflows. This occurred when scheduled deliveries stayed in "Target Ready" or "Ready to be delivered" status. (NEO-20819)
 * Fixed an XML parsing issue when the XML identifier was not be present in mdata field in xtkOperator. It was causing postupgrade failure. (NEO-26113)

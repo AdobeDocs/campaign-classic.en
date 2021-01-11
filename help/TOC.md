@@ -41,6 +41,7 @@ type: Documentation
           + [Common questions](platform/using/common-questions.md)
           + [Key concepts](platform/using/faq-key-concepts.md)
           + [Build upgrade](platform/using/faq-build-upgrade.md)
+          + [Privacy](platform/using/privacy-faq.md)
           + [Audiences](platform/using/faq-audiences.md)
           + [Design messages](platform/using/faq-designing.md)
           + [Send messages](platform/using/faq-messages.md)
@@ -53,7 +54,6 @@ type: Documentation
        + [Privacy and consent](platform/using/privacy-and-recommendations.md)
        + [Privacy management](platform/using/privacy-management.md)
        + [Privacy requests](platform/using/privacy-requests.md)
-     + [Privacy FAQ](platform/using/privacy-faq.md)
   + Profile management {#profile-management}
        + [About profiles](platform/using/about-profiles.md)
        + [Editing a profile](platform/using/editing-a-profile.md)
@@ -109,6 +109,8 @@ type: Documentation
   + Sending messages on mobiles {#sending-messages-on-mobiles}
        + [SMS channel](delivery/using/sms-channel.md)
        + [LINE channel](delivery/using/line-channel.md)
+       + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
+       + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
   + Sending push notifications {#sending-push-notifications}
        + [About mobile app channel](delivery/using/about-mobile-app-channel.md)
        + [Integrating Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
@@ -433,6 +435,8 @@ type: Documentation
           + [Creating a summary list](workflow/using/creating-a-summary-list.md)
           + [Enriching data](workflow/using/enriching-data.md) 
           + [Using aggregates](workflow/using/using-aggregates.md)
+          + [Using the Deduplication activity's merge functionality](workflow/using/deduplication-merge.md)
+       + Designing queries {#designing-queries}
           + [Quarterly list update using an incremental query](workflow/using/quarterly-list-update.md)
        + Targeting {#designing-queries}
           + [Querying the recipient table](workflow/using/querying-recipient-table.md)
@@ -456,26 +460,7 @@ type: Documentation
        + [Managing activity images](workflow/using/managing-activity-images.md)
        + [Managing propensity](workflow/using/managing-propensity.md)
        + [Managing time zones](workflow/using/managing-time-zones.md)
-  + Technical workflows {#technical-workflows}
-       + [About technical workflows](workflow/using/about-technical-workflows.md)
-       + [Deliveries](workflow/using/deliveries.md)
-       + [Campaign](workflow/using/campaign.md)
-       + [Web Analytics](workflow/using/web-analytics.md)
-       + [Distributed Marketing](workflow/using/distributed-marketing.md)
-       + [Deliverability monitoring](workflow/using/email-deliverability.md)
-       + [Inbox rendering](workflow/using/inbox-rendering.md)
-       + [Interaction](workflow/using/interaction.md)
-       + [Control of offer engine](workflow/using/control-of-offer-engine.md)
-       + [Message Center (Control)](workflow/using/message-center--control-.md)
-       + [Message Center (Execution)](workflow/using/message-center--execution-.md)
-       + [Mobile App Channel](workflow/using/mobile-app-channel.md)
-       + [LINE Channel](workflow/using/line-channel.md)
-       + [Marketing Resources (MRM)](workflow/using/marketing-resources--mrm-.md)
-       + [Social Marketing](workflow/using/social-marketing.md)
-       + [Integrations with Adobe Experience Cloud solutions](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-       + [Privacy Data Protection Regulation](workflow/using/general-data-protection-regulation--gdpr-.md)
-       + [Transfer to Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
-       + [Mid-sourcing platform](workflow/using/mid-sourcing-platform.md)
+       + [Technical workflows](workflow/using/about-technical-workflows.md)
 + Managing Offers {#managing-offers}
   + Get started with Interaction {#interaction-overview}
        + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
@@ -614,7 +599,7 @@ type: Documentation
        + [Creating and configuring the database](installation/using/creating-and-configuring-the-database.md)
        + [Campaign server configuration](installation/using/campaign-server-configuration.md)
        + [Deploying an instance](installation/using/deploying-an-instance.md)
-       + [Installing Campaign Classic standard packages](installation/using/installing-campaign-standard-packages.md)
+       + [Installing Campaign Classic built-in packages](installation/using/installing-campaign-standard-packages.md)
   + Additional configurations {#additional-configurations}
        + [Configuring Campaign server](installation/using/configuring-campaign-server.md)
        + [Connecting through LDAP](installation/using/connecting-through-ldap.md)
@@ -679,23 +664,31 @@ type: Documentation
        + [Types of maintenance](production/using/types-of-maintenance.md)
        + [RDBMS Specific recommendations](production/using/rdbms-specific-recommendations.md)
        + [Application objects](production/using/application-objects.md)
-  + Troubleshooting {#troubleshooting}
-       + [Performance and throughput issues](production/using/performance-and-throughput-issues.md)
-       + [Images missing](production/using/images-missing.md)
-       + [Image display issues](production/using/image-display-issues.md)
-       + [Temporary files](production/using/temporary-files.md)
-       + [Database performances](production/using/database-performances.md)
-       + [Modules and frequent issues](production/using/modules-and-frequent-issues.md)
-       + [Log precision](production/using/log-precision.md)
-       + [Tracking logs issues](production/using/tracking-logs-issues.md)
-       + [Workflow execution](production/using/workflow-execution.md)
-       + [Failure to connect](production/using/failure-to-connect.md)
-       + [Connection thresholds](production/using/connection-thresholds.md)
-       + [Stack trace in Linux](production/using/stack-trace-in-linux.md)
-       + [Encoding of the Oracle database](production/using/encoding-of-the-oracle-database.md)
-       + [Console update](production/using/console-update.md)
-       + [Lost password](production/using/lost-password.md)
-       + [JSP behavior](production/using/jsp-behavior.md)
+  + Troubleshooting {#troubleshooting-toc}
+       + [Production troubleshooting overview](production/using/troubleshooting.md)
+       + Common and general issues {#common-general-issues-toc}
+          + [Modules and frequent issues](production/using/modules-and-frequent-issues.md)
+          + [Workflow execution](production/using/workflow-execution.md)
+          + [Lost password](production/using/lost-password.md)
+          + [Console update](production/using/console-update.md)
+       + Delivery troubleshooting {#delivery-troubleshooting-toc}
+          + [Performance and throughput issues](production/using/performance-and-throughput-issues.md)
+          + [Image display issues](production/using/image-display-issues.md)
+          + [Images missing](production/using/images-missing.md)
+          + [Temporary files](production/using/temporary-files.md)
+       + Working with logs {#working-with-log-toc}
+          + [Log precision](production/using/log-precision.md)
+          + [Tracking logs issues](production/using/tracking-logs-issues.md)
+       + Database issues {#database-issues-toc}
+          + [Database performance](production/using/database-performances.md)
+          + [Encoding of the Oracle database](production/using/encoding-of-the-oracle-database.md)
+       + Connection improvements {#connection-improvements-toc}
+          + [Failure to connect](production/using/failure-to-connect.md)
+          + [Connection thresholds](production/using/connection-thresholds.md)
+       + Technical troubleshooting {#technical-troubleshooting-toc}
+          + [Stack trace in Linux](production/using/stack-trace-in-linux.md)
+          + [JSP behavior](production/using/jsp-behavior.md)
+          + [Locating Tomcat version](production/using/locate-tomcat-version.md)
 + Developers guide {#configuring-campaign-classic}
   + Data model {#data-model}
        + [About the data model](configuration/using/about-data-model.md)
@@ -705,7 +698,25 @@ type: Documentation
        + [About schema reference](configuration/using/about-schema-reference.md)
        + [Schema structure](configuration/using/schema-structure.md)
        + [Database mapping](configuration/using/database-mapping.md)
-       + [Elements and attributes](configuration/using/elements-and-attributes.md)
+       + Elements and attributes {#elements-attributes}
+           + [Introduction](configuration/using/schema-introduction.md)
+           + [Attribute](configuration/using/schema/attribute.md)
+           + [Compute string](configuration/using/schema/compute-string.md)
+           + [Condition](configuration/using/schema/condition.md)
+           + [DB index](configuration/using/schema/db-index.md)
+           + [Element](configuration/using/schema/element.md)
+           + [Enumeration](configuration/using/schema/enumeration.md)
+           + [Help](configuration/using/schema/help.md)
+           + [Join](configuration/using/schema/join.md)
+           + [Key](configuration/using/schema/key.md) 
+           + [Keyfield](configuration/using/schema/keyfield.md)
+           + [Method](configuration/using/schema/method.md)
+           + [Methods](configuration/using/schema/methods.md)
+           + [Param](configuration/using/schema/param.md)
+           + [Parameters](configuration/using/schema/parameters.md)
+           + [SrcSchema](configuration/using/schema/srcschema.md)
+           + [Sysfilter](configuration/using/schema/sysfilter.md)
+           + [Value](configuration/using/schema/value.md)
   + Editing schemas {#editing-schemas}
        + [About schema edition](configuration/using/about-schema-edition.md)
        + [Data schemas](configuration/using/data-schemas.md)

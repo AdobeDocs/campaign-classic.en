@@ -8,17 +8,35 @@ content-type: reference
 topic-tags: latest-release-notes
 ---
 
-# Gold Standard release{#gold-standard}
+# Gold Standard releases{#gold-standard}
 
-Gold Standard is Campaign Classic Long-Term support release. As a Gold Standard user, you automatically benefit from the Gold Standard upgrade with the latest stable version without any action. On premise and Hybrid customers can also benefit from Gold Standard releases.
+Gold Standard is Campaign Classic Long-Term support release. As a hosted Gold Standard user, you automatically benefit from the Gold Standard upgrade with the latest stable version without any action. On-premise and Hybrid customers can also benefit from Gold Standard releases.
 
-If you migrate from an old build, we recommend that you upgrade first to this version.
+If you migrate from an old build, we recommend that you upgrade to this version first.
 
 This page lists Gold Standard releases.
 
 For more information on Campaign Gold Standard program, refer [to this article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
-## ![](assets/do-not-localize/green_2.png) Gold Standard 10 release{#gs-10}
+## ![](assets/do-not-localize/green_2.png) Gold Standard 11 release{#gs-11}
+
+_22 December 2020_
+
+>[!CAUTION]
+>
+>This release comes with a new connection protocol: upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after March 21st, 2021.
+
+The build 9032&#64;d3b452f includes the following improvements and fixes:
+
+* The connection protocol has been updated to follow the new IMS authentication mechanism. 
+
+* Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Learn more](../../integrations/using/configuring-adobe-io.md)
+
+* Following the end of support for iOS APNs legacy binary protocol, all instances using this protocol are updated to HTTP/2 protocol during postupgrade.
+
+* Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
+
+## ![](assets/do-not-localize/red_2.png) Gold Standard 10 release{#gs-10}
 
 _7 July 2020_
 
@@ -28,7 +46,7 @@ Fixed an issue which prevented tracking from working when the signature feature 
 
 >[!CAUTION]
 >
->We recommend that you upgrade the client console with the one available in this release. Refer [to this page](../../installation/using/installing-the-client-console.md)
+>We recommend that you upgrade the client console with the one available in this release. Refer to [this page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 9 release{#gs-9}
 
@@ -71,7 +89,7 @@ The build 9032&#64;3a9dc9c includes the following fixes:
 * Fixed a regression causing the cleanup workflow to crash. 
 * Fixed a minor regression in the cleanup workflow logs.
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 6 release{#gs-6}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 6 release{#gs-6}
 
 _9 March 2020_
 
@@ -79,7 +97,7 @@ The build 9032&#64;19f73c5 includes the following fix:
 
 * Fixed an issue with external accounts using FTP over SSL. (NEO-20498)
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 5 release{#gs-5}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 5 release{#gs-5}
 
 _17 December 2019_
 
@@ -87,7 +105,7 @@ The build 9032&#64;d6b8062 includes the following fix:
 
 * Fixed a tracking issue on the following communication channels: mobile (SMS, MMS), push (iOS, Android) and social networks (Facebook, Twitter). (NEO-19595)
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 4 release{#gs-4}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 4 release{#gs-4}
 
 _11 December 2019_
 
@@ -95,7 +113,7 @@ The build 9032&#64;bc4a935 includes the following fix:
 
 * Fixed a performance isssue when sending messages with a MSSQL database. (NEO-17558)
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 3 release{#gs-3}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 3 release{#gs-3}
 
 _20 November 2019_
 

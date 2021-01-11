@@ -15,7 +15,7 @@ topic-tags: adobe-experience-manager
 Your version of Adobe Campaign Classic does not support the pipeline.
 
 1. Check if the [!DNL pipelined] element is present in the config file. If not, it means it's not supported.
-1. Upgrade to version 6.11 build 8705 or later.
+1. Upgrade to Campaign 20.3 or Gold Standard 11.
 
 **Pipelined fails with '' aurait dû commencer par `[` ou `{` (iRc=16384)"**
 
@@ -24,7 +24,7 @@ Set the JSON config in the option **NmsPipeline_Config**. See "routing option" i
 
 **Pipelined fails with "the subject must be a valid organization or client"**
 
-The IMSOrgid configuration is not valid.
+The Organization identifier configuration is not valid.
 
 1. Check that the IMSOrgId is set in the serverConf.xml.
 1. Look for an empty IMSOrgId in the instance config file that can override the default. If so, remove it.
@@ -78,4 +78,3 @@ Generally, a trigger can take 15-90 minutes to launch a marketing campaign. This
 1. Look for errors in pipelined.log that can cause retries. Fix the errors, if applicable.
 1. Check the [!DNL pipelined] status page for the queue size. If the queue size is large, improve the performance of the JS.
 1. Since a delay seems to increase with volume, configure the triggers on Analytics using fewer messages.
-Annexes
