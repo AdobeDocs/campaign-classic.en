@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Exporting data
-description: Exporting data
+title: Generic imports and exports
+description: Generic imports and exports
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -10,11 +10,9 @@ topic-tags: importing-and-exporting-data
 
 # Exporting data{#exporting-data}
 
-## Export wizard {#export-wizard}
-
 The export parameters are recorded via a wizard. The generic export module is available as a standard, and lets you access and extract data from the database: contacts, clients, lists, segments, etc. For example, it can be useful to use campaign tracking data (tracking history, etc.) in a spreadsheet. The output data can be in txt, CSV, TAB, or XML format.
 
-### Step 1 - Choosing the export template {#step-1---choosing-the-export-template}
+## Step 1 - Choosing the export template {#step-1---choosing-the-export-template}
 
 When launching the export wizard, you first have to select a template. As an example, to configure the export of recipients who recently registered, follow the steps below:
 
@@ -30,7 +28,7 @@ When launching the export wizard, you first have to select a template. As an exa
 1. Enter a name for export in the **[!UICONTROL Label]** field. You can add a description.
 1. Select the export type. There are two possible types of export: **[!UICONTROL Simple export]** to export only one file, and **[!UICONTROL Multiple export]** to export several files in a single execution, from one or more types of source document.
 
-### Step 2 - Type of file to export {#step-2---type-of-file-to-export}
+## Step 2 - Type of file to export {#step-2---type-of-file-to-export}
 
 Select the type of document to be exported, i.e. the schema of the data to export.
 
@@ -52,7 +50,7 @@ By default, when the export is launched from the **[!UICONTROL Jobs]** node the 
 
   You must enter the date of the last modification. It can be retrieved from a field or calculated.
 
-### Step 3 - Defining the output format {#step-3---defining-the-output-format}
+## Step 3 - Defining the output format {#step-3---defining-the-output-format}
 
 Select an output format for the export file. The following formats can be used: text, fixed-column text, CSV, and XML.
 
@@ -63,7 +61,7 @@ Select an output format for the export file. The following formats can be used: 
 * Indicate the date format and number format. To do this, click the **[!UICONTROL Edit]** button for the field concerned and use the editor.
 * For fields containing enumerated values, you can select **[!UICONTROL Export labels instead of internal values of enumerations]**. For example, the title can be stored in the form **1=Mr.**, **2=Miss**, **3=Mrs.**. If this option is selected, **Mr.**, **Miss** and **Mrs.** will be exported.
 
-### Step 4 - Data selection {#step-4---data-selection}
+## Step 4 - Data selection {#step-4---data-selection}
 
 Select the fields to export. To do this:
 
@@ -74,19 +72,19 @@ Select the fields to export. To do this:
 
 1. Click the **[!UICONTROL Add]** button to call on functions. For more on this, refer to [List of functions](../../platform/using/defining-filter-conditions.md#list-of-functions).
 
-### Step 5 - Sorting columns {#step-5---sorting-columns}
+## Step 5 - Sorting columns {#step-5---sorting-columns}
 
 Select the sorting order of the columns.
 
 ![](assets/s_ncs_user_export_wizard05.png)
 
-### Step 6 - Filter conditions {#step-6---filter-conditions-}
+## Step 6 - Filter conditions {#step-6---filter-conditions-}
 
 You can add filter conditions to avoid exporting all the data. The configuration of this filtering is the same as recipient targeting in the delivery wizard. Refer to [this page](../../delivery/using/steps-defining-the-target-population.md).
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
-### Step 7 - Data formatting {#step-7---data-formatting}
+## Step 7 - Data formatting {#step-7---data-formatting}
 
 You can modify the order and label of the fields for the output file and apply transformations to the source data.
 
@@ -106,7 +104,7 @@ If you are exporting a collection of elements (e.g. recipients' subscriptions, t
 
 ![](assets/s_ncs_user_export_wizard06_c.png)
 
-### Step 8 - Data preview {#step-8---data-preview}
+## Step 8 - Data preview {#step-8---data-preview}
 
 Click **[!UICONTROL Start the preview of the data]** for a preview of the export result. By default, the first 200 lines are displayed. To change this value, click the arrows to the right of the **[!UICONTROL Lines to display]** field.
 
@@ -114,14 +112,8 @@ Click **[!UICONTROL Start the preview of the data]** for a preview of the export
 
 Click the tabs at the bottom of the wizard to switch from the preview of results in columns to the results in XML. You can also view the generated SQL queries.
 
-### Step 9 - Launching the export {#step-9---launching-the-export}
+## Step 9 - Launching the export {#step-9---launching-the-export}
 
 Click **[!UICONTROL Start]** to launch data export.
 
 ![](assets/s_ncs_user_export_wizard08.png)
-
-## Exporting data via a workflow {#exporting-data-via-a-workflow}
-
-Workflows can be a useful way to automate some of your export processes or to export precise sets of data after using some of the available data management activities available to transform your data.
-
-To learn more about exporting data from a workflow, refer to [this section](../../workflow/using/how-to-use-workflow-data.md).

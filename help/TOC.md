@@ -63,10 +63,23 @@ type: Documentation
        + [Exporting and importing profiles](platform/using/exporting-and-importing-profiles.md)
        + [Creating and managing lists](platform/using/creating-and-managing-lists.md)
   + Importing and exporting data {#importing-and-exporting-data}
-       + [Generic imports and exports](platform/using/generic-imports-and-exports.md)
-       + [Exporting data](platform/using/exporting-data.md)
-       + [Importing data](platform/using/importing-data.md)
-       + [SFTP server usage](platform/using/sftp-server-usage.md)
+       + [About data import and export]()
+       + Importing and exporting data using workflows
+          + [Collecting and exporting data using workflows]()
+          + [Exporting data using workflows]()
+       + Importing and exporting data using templates {importing-exporting-using-templates}
+          + [About import and export templates]()
+          + [Creating import and export templates]()
+          + [Launching immport jobs]()
+          + [Launching export jobs]()
+          + [Monitoring jobs execution]()
+          + [Import operations samples]()
+       + Managing data encryption and compression {managing-data-encryption-compression}
+          + [Unzipping or decrypting a file before processing]()
+          + [Zipping or encrypting a file before processing]()
+       + Best practices and troubleshooting {best-practices}
+          + [Import best practices]()
+          + [SFTP server best practices and troubleshooting]()
   + Filtering data {#filtering-data}
        + [Filtering options](platform/using/filtering-options.md)
        + [Creating filters](platform/using/creating-filters.md)
