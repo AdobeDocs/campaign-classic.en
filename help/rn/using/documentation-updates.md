@@ -14,7 +14,7 @@ This page lists all the new features and documentation updates per month and Cam
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
-## January 2021 {#jan,2021}
+## January 2021 {#jan-2021}
 
 The **[!UICONTROL Fork]** activity section has been enriched with additional information. A note has been added to specify that the outbound transitions do not execute simultaneously and that the activity should therefore not be used to improve workflows's performances. [Read more](../../workflow/using/fork.md)
 
