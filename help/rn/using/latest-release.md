@@ -14,9 +14,9 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 For Campaign Classic Gold Standard version (latest GA build), [refer to this page](../../rn/using/gold-standard.md).
 
-## ![](assets/do-not-localize/blue_2.png) Release 20.3.3 - Build 9233 {#release-20-3-3-build-9233}
+## ![](assets/do-not-localize/blue_2.png) Release 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
 
-_6 January 2021_
+_11 January 2021_
 
 * Fixed a security issue to reinforce protection against Server Side Request Forgery (SSRF) issues. (NEO-27777)
 * Fixed a regression issue related to the broadlog generation process that could cause the MTA process to crash.
