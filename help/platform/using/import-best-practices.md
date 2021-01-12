@@ -27,7 +27,7 @@ In many projects, imports are built without **[!UICONTROL Deduplication]** activ
 
 Do not rest on assumption that the incoming data is consistent and correct, or that the IT department or Adobe Campaign supervisor will take care of it. During the project, keep the data cleansing in mind. Deduplicate, reconcile, and maintain consistency when you import data.
 
-An example of a generic workflow template designed for importing data is available in the [Example: Import workflow template](../../automating/using/creating-import-workflow-templates.md) section.
+An example of a generic workflow template designed for importing data is available in the [Example: Import workflow template](../../platform/using/creating-import-export-templates.md) section.
 
 ## Using flat file formats {#using-flat-file-formats}
 
@@ -56,8 +56,8 @@ Use zipped files for imports and exports when possible. GZIP is supported by def
 
 **Related topics:**
 
-* [Load file activity](../../automating/using/load-file.md)
-* [Extract file activity](../../automating/using/extract-file.md)
+* [Load file activity](../../workflow/using/load-file.md)
+* [Extract file activity](../../workflow/using/extract-file.md)
 
 ## Importing in Delta mode {#importing-in-delta-mode}
 

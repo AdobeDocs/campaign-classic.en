@@ -19,7 +19,7 @@ You can view the tracking of the execution in the upper section of this editor. 
 
 >[!NOTE]
 >
->Import/export job statuses are presented in [Job statuses](../../platform/using/monitoring-jobs-executions.md).
+>Import/export job statuses are presented in [Job statuses](../../platform/using/monitoring-jobs-execution.md).
 
 Job status indicates the current status of a job. Each status is represented by a special icon and label. This information is displayed in the list of jobs. The statuses and their icons are listed below:
 
