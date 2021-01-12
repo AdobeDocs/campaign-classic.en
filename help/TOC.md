@@ -75,7 +75,7 @@ type: Documentation
           + [Monitoring jobs execution](platform/using/monitoring-jobs-execution.md)
           + [Import operations samples](platform/using/import-operations-samples.md)
        + Managing data encryption and compression {managing-data-encryption-compression}
-          + [Unzipping or decrypting a file before processing](platform/using/unzip-decypt.md)
+          + [Unzipping or decrypting a file before processing](platform/using/unzip-decrypt.md)
           + [Zipping or encrypting a file before processing](platform/using/zip-encrypt.md)
        + Best practices and troubleshooting {best-practices}
           + [Import best practices](platform/using/import-best-practices.md)
