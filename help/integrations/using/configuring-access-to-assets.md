@@ -61,5 +61,6 @@ When you insert images into a delivery's content based on this template, the **[
 
 >[!NOTE]
 >
->If the **[!UICONTROL Integration with the Adobe Experience Cloud]** package is also installed on your Adobe Campaign instance, you will only be able to use the assets available in the Adobe Experience Cloud library. To also access the assets in your AEM Assets library, you must synchronize AEM Assets and Adobe Experience Cloud. The assets in AEM Assets will then also be available in the Adobe Experience Cloud library. In this case, you do not need to create a specific delivery template. For more information on synchronizing between AEM Assets and Adobe Experience Cloud, refer to the [detailed documentation](https://docs.adobe.com/docs/en/aod/overview/collaborating/aem-assets-aod-sync.html).
+>If the **[!UICONTROL Integration with the Adobe Experience Cloud]** package is also installed on your Adobe Campaign instance, you will only be able to use the assets available in the Adobe Experience Cloud library. To also access the assets in your AEM Assets library, you must synchronize AEM Assets and Adobe Experience Cloud. The assets in AEM Assets will then also be available in the Adobe Experience Cloud library. In this case, you do not need to create a specific delivery template. For more information on synchronizing between AEM Assets and Adobe Experience Cloud, refer to the [detailed documentation](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/configure-assets-cc-integration.html#integration).
+
 
