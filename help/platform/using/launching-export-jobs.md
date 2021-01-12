@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Generic imports and exports
-description: Generic imports and exports
+title: Launching export jobs
+description: Learn how to launch to export jobs in Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 ---
 
-# Exporting data{#exporting-data}
+# Launching export jobs {#launching-export-jobs}
 
 The export parameters are recorded via a wizard. The generic export module is available as a standard, and lets you access and extract data from the database: contacts, clients, lists, segments, etc. For example, it can be useful to use campaign tracking data (tracking history, etc.) in a spreadsheet. The output data can be in txt, CSV, TAB, or XML format.
 
@@ -98,7 +98,7 @@ You can modify the order and label of the fields for the output file and apply t
 
   ![](assets/s_ncs_user_export_wizard06.png)
 
-* Click **[!UICONTROL Add a calculated field]** if you want to create a new calculated field (for example, a column containing last name + first name). For more on this, refer to [Calculated fields](../../platform/using/importing-data.md#calculated-fields).
+* Click **[!UICONTROL Add a calculated field]** if you want to create a new calculated field (for example, a column containing last name + first name). For more on this, refer to [Calculated fields](../../platform/using/launching-import-jobs.md#calculated-fields).
 
 If you are exporting a collection of elements (e.g. recipients' subscriptions, the lists to which they belong, etc.), you must specify the number of elements in the collection you want to export. 
 

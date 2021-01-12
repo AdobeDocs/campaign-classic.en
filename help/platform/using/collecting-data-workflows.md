@@ -1,26 +1,22 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Generic imports and exports
-description: Generic imports and exports
+title: Collecting data using workflows
+description: Learn how to collect data using workflows in Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 ---
 
-# How to collect data {#how-to-collect-data}
-
-## Importing data from a workflow {#importing-data-from-a-workflow}
+# Collecting data using workflows {#collecting-data-workflows}
 
 Workflows can be a useful way to automate some of your import processes. Whether you import data from a local file or from a SFTP, you can use workflows to standardize your data management procedures.
-
-To learn more about importing data from a workflow, refer to [this section](../../workflow/using/importing-data.md).
 
 ## Using data from a list: Read list {#using-data-from-a-list--read-list}
 
 The data sent in a workflow can come from lists whereby the data has been prepared and structured beforehand.
 
-This list may have been directly created in Adobe Campaign or imported by the **[!UICONTROL Import a list]** option. For more on this option, refer to this [page](../../platform/using/generic-imports-and-exports.md).
+This list may have been directly created in Adobe Campaign or imported by the **[!UICONTROL Import a list]** option. For more on this option, refer to this [page](../../platform/using/about-import-export-jobs.md).
 
 For more on using the read list activity in a workflow, refer to [Read list](../../workflow/using/read-list.md).
 

@@ -10,7 +10,7 @@ topic-tags: profile-management
 
 # Adding profiles{#adding-profiles}
 
-In most cases, profiles are [imported to Campaign through a workflow](../../workflow/using/importing-data.md). However, you can add one or more profiles directly from the interface, by clicking the **[!UICONTROL Create]** button. They will then be added to the database.
+In most cases, profiles are [imported to Campaign through a workflow](../../platform/using/collecting-data-workflows.md). However, you can add one or more profiles directly from the interface, by clicking the **[!UICONTROL Create]** button. They will then be added to the database.
 
 ![](assets/s_ncs_user_profile_add.png)
 

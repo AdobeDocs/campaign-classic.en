@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Generic imports and exports
-description: Generic imports and exports
+title: Import operations samples
+description: Learn more about import operations you can perform using import jobs.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 ---
 
-# Generic import samples {#generic-import-samples}
+# Import operations samples {#import-operations-samples}
 
-## Example: Import from a list of recipients {#example--import-from-a-list-of-recipients}
+## Import from a list of recipients {#example--import-from-a-list-of-recipients}
 
 To create and supply a list of recipients from the overview of lists, apply the following steps:
 
@@ -37,7 +37,7 @@ To create and supply a list of recipients from the overview of lists, apply the 
 
    ![](assets/s_ncs_user_import_example00_03.png)
 
-## Example: import new records from a text file {#example--import-new-records-from-a-text-file-}
+## Import new records from a text file {#example--import-new-records-from-a-text-file-}
 
 To import new recipient profiles stored in a text file into the Adobe Campaign database, apply the following steps:
 
@@ -93,7 +93,7 @@ To import new recipient profiles stored in a text file into the Adobe Campaign d
         
           ![](assets/s_ncs_user_import_example07_02.png)
 
-## Example: Update and insert recipients {#example--update-and-insert-recipients}
+## Update and insert recipients {#example--update-and-insert-recipients}
 
 We want to update existing records in the database and create new ones from a text file. Here is an example of the procedure:
 
@@ -133,7 +133,7 @@ We want to update existing records in the database and create new ones from a te
     
       ![](assets/s_ncs_user_import_example06_03.png)
 
-## Example: Enrich the values with those of an external file {#example--enrich-the-values-with-those-of-an-external-file}
+## Enrich the values with those of an external file {#example--enrich-the-values-with-those-of-an-external-file}
 
 We want to modify certain fields in a database table from a text file, giving priority to the values contained in the database.
 
@@ -184,7 +184,7 @@ Apply the following steps:
 
    Only values that were empty have been replaced by values from the text file, but the existing value in the database has not been overwritten by the value from the import file.
 
-## Example: Update and enrich the values from those in an external file {#example--update-and-enrich-the-values-from-those-in-an-external-file}
+## Update and enrich the values from those in an external file {#example--update-and-enrich-the-values-from-those-in-an-external-file}
 
 We want to modify certain fields in a database table from a text file, giving priority to the values contained in the text file.
 

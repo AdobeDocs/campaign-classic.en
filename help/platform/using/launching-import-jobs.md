@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Generic imports and exports
-description: Generic imports and exports
+title: Launching import jobs
+description: Learn how to launch import jobs in Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 ---
 
-# Importing data{#importing-data}
+# Launching import jobs {#launching-import-jobs}
 
 Adobe Campaign lets you import data to the database from one or more files in text, CSV, TAB, or XML format. These files are associated with a table (main or linked), and each field of the source file(s) is associated with a field of the database. The import configuration can be saved for reuse so that you can schedule import tasks that will automate your replication operations.
 

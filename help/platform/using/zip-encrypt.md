@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Generic imports and exports
-description: Generic imports and exports
+title: Zipping or encrypting a file
+description: Learn how to zip or crypt a file in Campaign Classic before processing.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -27,7 +27,7 @@ You can then use commands or code in the **[!UICONTROL Script]** tab of the acti
 
 **Related topics:**
 
-* [Unzipping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing)
+* [Unzipping or decrypting a file before processing](../../platform/using/unzip-decrypt.md)
 * [Data extraction (file) activity](../../workflow/using/extraction--file-.md).
 
 ## Use case: Encrypting and exporting data using a key installed on Control Panel {#use-case-gpg-encrypt}

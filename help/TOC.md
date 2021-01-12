@@ -68,7 +68,7 @@ type: Documentation
           + [Collecting and exporting data using workflows](platform/using/collecting-data-workflows.md)
           + [Exporting data using workflows](platform/using/exporting-data-workflows.md)
        + Importing and exporting data using templates {importing-exporting-using-templates}
-          + [Get started with import and export templates](platform/using/about-import-export-templates.md)
+          + [Get started with import and export templates](platform/using/about-import-export-jobs.md)
           + [Creating import and export templates](platform/using/creating-import-export-templates.md)
           + [Launching immport jobs](platform/using/launching-import-jobs.md)
           + [Launching export jobs](platform/using/launching-export-jobs.md)

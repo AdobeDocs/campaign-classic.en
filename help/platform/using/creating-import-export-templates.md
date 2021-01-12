@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Generic imports and exports
-description: Generic imports and exports
+title: Creating import and export templates
+description: Learn how to create import and export templates in Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 ---
 
-# Generic imports and exports{#generic-imports-and-exports}
+# Creating import and export templates {#creating-import-export-templates}
 
 Adobe Campaign offers a data export module that makes it easy to extract a list of customers or prospects (for example, following a targeting operation) who will then become part of a target population.
 
@@ -21,16 +21,14 @@ Adobe Campaign also offers an import module that lets you supply your database w
 You can:
 
 * Create an import or export template and configure it (see below).
-* Create an import or export: refer to [Exporting data](../../platform/using/exporting-data.md) or [Importing data](../../platform/using/importing-data.md).
+* Create an import or export: refer to [Exporting data](../../platform/using/launching-export-jobs.md) or [Importing data](../../platform/using/launching-import-jobs.md).
 * Launch the import or export and monitor its execution. refer to [Execution tracking](#execution-tracking).
 
 >[!CAUTION]
 >
->Data import in Campaign should be performed through workflows to secure data consistency and improve efficiency. For more on this, refer to the [Importing data](../../workflow/using/importing-data.md), [Import best practices](../../workflow/using/importing-data.md#best-practices-when-importing-data) and [Import template example](../../workflow/using/importing-data.md#setting-up-a-recurring-import) sections.
+>Data import in Campaign should be performed through workflows to secure data consistency and improve efficiency. For more on this, refer to the [Collecting data using workflows](../../platform/using/collecting-data-workflows.md), [Import best practices](../../workflow/using/import-best-practices.md) and [Import workflow template example](../../platform/using/collecting-data-workflows.md#setting-up-a-recurring-import) sections.
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](../../platform/using/exporting-and-importing-profiles.md#import-profiles-video)
-
-## Creating a job template {#creating-a-job-template}
 
 Import and export templates are stored in the **[!UICONTROL Resources > Templates > Job templates]** directory of the Adobe Campaign tree.
 
@@ -38,7 +36,7 @@ By default, three import templates and one export template are present in this d
 
 ![](assets/s_ncs_user_export_wizard_template_create.png)
 
-The procedure for creating a process template is presented in [Export wizard](../../platform/using/exporting-data.md#export-wizard) and [Import wizard](../../platform/using/importing-data.md#import-wizard).
+The procedure for creating a process template is presented in [this page](../../platform/using/creating-import-export-templates.md).
 
 >[!NOTE]
 >
@@ -46,11 +44,9 @@ The procedure for creating a process template is presented in [Export wizard](..
 > 
 >The **[!UICONTROL New text import]** and **[!UICONTROL New text export]** templates let you configure an import or export from scratch.
 
-## Creating a new import/export {#creating-a-new-import-export}
-
 Once the template has been configured, import and export operations can be launched in several contexts in Adobe Campaign.
 
-All of these open the [import](../../platform/using/importing-data.md) or [export](../../platform/using/exporting-data.md#export-wizard) wizard.
+All of these open the [import](../../platform/using/launching-import-jobs.md) or [export](../../platform/using/launching-export-jobs.md) wizard.
 
 * In the **[!UICONTROL Profiles and targets]** section of Adobe Campaign workspace, click the **[!UICONTROL Jobs]** link: this takes you to the list of existing imports and exports.
 
@@ -67,17 +63,3 @@ All of these open the [import](../../platform/using/importing-data.md) or [expor
   To export/import data, click the **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** node, then the **[!UICONTROL New]** icon, and select **[!UICONTROL Export]** or **[!UICONTROL Import]**. This opens the appropriate wizard.
 
   ![](assets/s_ncs_user_export_wizard_launch_from_menu.png)
-
-## Execution tracking {#execution-tracking}
-
-You can view the tracking of the execution in the upper section of this editor. You can close the export wizard and view the execution of the job via the list of import/export jobs.
-
-![](assets/s_ncs_user_export_list_and_details.png)
-
-* The **[!UICONTROL Log]** tab lets you look at log messages concerning execution.
-* The **[!UICONTROL Rejects]** tab contains the rejected records. See [Behavior in the event of an error](../../platform/using/importing-data.md#behavior-in-the-event-of-an-error).
-
->[!NOTE]
->
->Import/export job statuses are presented in [Job statuses](../../platform/using/importing-data.md#job-statuses).
-

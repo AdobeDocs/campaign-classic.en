@@ -16,7 +16,7 @@ Adding coupons to your deliveries can give your recipients enhanced value for pr
 >
 >Coupon management is a package that must be installed. To confirm that you have Coupon management, check **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
 >
->Coupon data can be imported and exported using CSV and XML formats. For details regarding importing and exporting, refer to [this section](../../platform/using/generic-imports-and-exports.md).
+>Coupon data can be imported and exported using CSV and XML formats. For details regarding importing and exporting, refer to [this section](../../platform/using/get-started-data-import-export.md).
 
 ## Creating a coupon {#creating-a-coupon}
 
@@ -51,7 +51,7 @@ Before following the steps below, make sure that you know the type of coupon you
 
    >[!NOTE]
    >
-   >Individual coupons can be imported in bulk. For details regarding importing and exporting, refer to [this section](../../platform/using/generic-imports-and-exports.md).
+   >Individual coupons can be imported in bulk. For details regarding importing and exporting, refer to [this section](../../platform/using/get-started-data-import-export.md).
 
 ### Configuring individual coupons {#configuring-individual-coupons}
 
