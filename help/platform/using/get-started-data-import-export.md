@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 ---
 
-# Get started with data import and export {get-started-data-import-export}
+# Get started with data import and export {#get-started-data-import-export}
 
 Adobe Campaign offers a data export module that makes it easy to extract a list of customers or prospects (for example, following a targeting operation) who will then become part of a target population.
 
