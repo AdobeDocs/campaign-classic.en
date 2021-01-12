@@ -56,8 +56,8 @@ Use zipped files for imports and exports when possible. GZIP is supported by def
 
 **Related topics:**
 
-* [Load file activity](../../workflow/using/load-file.md)
-* [Extract file activity](../../workflow/using/extract-file.md)
+* [Data loading (file) activity](../../workflow/using/data-loading--file-.md)
+* [Data extraction (file) activity](../../workflow/using/extraction--file-.md)
 
 ## Importing in Delta mode {#importing-in-delta-mode}
 
