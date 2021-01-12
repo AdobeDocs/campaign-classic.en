@@ -29,18 +29,6 @@ Do not rest on assumption that the incoming data is consistent and correct, or t
 
 An example of a generic workflow template designed for importing data is available in the [Example: Import workflow template](../../automating/using/creating-import-workflow-templates.md) section.
 
->[!NOTE]
->
->You can also use [import templates](../../automating/using/importing-data-with-import-templates.md). They are workflow templates defined by an administrator that, once activated, only offer the possibility to specify the file containing the data to import.
-
-**Related topics:**
-
-* [Load file activity](../../automating/using/load-file.md)
-* [Reconciliation activity](../../automating/using/reconciliation.md)
-* [Segmentation activity](../../automating/using/segmentation.md)
-* [Deduplication activity](../../automating/using/deduplication.md)
-* [Update data activity](../../automating/using/update-data.md)
-
 ## Using flat file formats {#using-flat-file-formats}
 
 The most efficient format for imports is flat files. Flat files can be imported in bulk mode at the database level.

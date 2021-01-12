@@ -26,7 +26,7 @@ You can:
 
 >[!CAUTION]
 >
->Data import in Campaign should be performed through workflows to secure data consistency and improve efficiency. For more on this, refer to the [Collecting data using workflows](../../platform/using/collecting-data-workflows.md), [Import best practices](../../workflow/using/import-best-practices.md) and [Import workflow template example](../../platform/using/collecting-data-workflows.md#setting-up-a-recurring-import) sections.
+>Data import in Campaign should be performed through workflows to secure data consistency and improve efficiency. For more on this, refer to the [Collecting data using workflows](../../platform/using/collecting-data-workflows.md), [Import best practices](../../platform/using/import-best-practices.md) and [Import workflow template example](../../platform/using/collecting-data-workflows.md#setting-up-a-recurring-import) sections.
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](../../platform/using/exporting-and-importing-profiles.md#import-profiles-video)
 
