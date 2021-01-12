@@ -166,7 +166,7 @@ Best practices have been added in the **[!UICONTROL Scheduler]** activity sectio
 
 The Removing a quarantined address section has been updated. This includes clarification of the cases in which addresses are automatically removed from the quarantine list. [Read more](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-Use cases have been added on how to [encrypt](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) and [decrypt](../../workflow/using/importing-data.md#use-case-gpg-decrypt) data using Control Panel and Campaign workflows.
+Use cases have been added on how to [encrypt](../../platform/using/zip-encrypt.md) and [decrypt](../../platform/using/unzip-decrypt.md) data using Control Panel and Campaign workflows.
 
 The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
 

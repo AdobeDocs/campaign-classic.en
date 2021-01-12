@@ -123,7 +123,7 @@ To register recipients for an information service, you can:
 * Automatically subscribe a set of recipients to this service. The list of recipients can come from a filtering operation, a group, a folder, an import, or a direct selection using the mouse. To subscribe these recipients, select the profiles and right-click. Select **[!UICONTROL Actions > Subscribe selection to a service...]**, select the service concerned, and launch the operation.
 * Import recipients and subscribe them automatically to an information service. To do this, select the service concerned in the last step of the import wizard.
 
-  For more on this, refer to [this section](../../platform/using/importing-data.md#import-wizard).
+  For more on this, refer to [this section](../../platform/using/launching-import-jobs.md).
 
 * Use a web form so that recipients can subscribe to a service.
 

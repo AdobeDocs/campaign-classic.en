@@ -18,7 +18,7 @@ You can import recipients or create them manually using Campaign client console.
 
 ## How to import profiles? {#how-to-import-profiles-}
 
-Discover easy use cases to [import profiles](../../platform/using/importing-data.md#generic-import-samples) in your database. 
+Discover easy use cases to [import profiles](../../platform/using/import-operations-samples.md) in your database. 
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/importing-profiles.html)
 

@@ -30,4 +30,4 @@ It is possible to insert a personalized URL into the extraction file. For more o
 
 >[!NOTE]
 >
->This wizard includes the steps of the export wizard detailed in the [Getting Started](../../platform/using/exporting-data.md#export-wizard) section.
+>This wizard includes the steps of the export wizard detailed in the [Getting Started](../../platform/using/launching-export-jobs.md) section.

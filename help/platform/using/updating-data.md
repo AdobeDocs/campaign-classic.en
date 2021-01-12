@@ -85,7 +85,7 @@ The content of a list can be exported. To configure and run the export:
 
     ![](assets/s_ncs_user_export_list_start.png)
 
-   For more on how to configure the export wizard, refer to [Export wizard](../../platform/using/exporting-data.md#export-wizard).
+   For more on how to configure the export wizard, refer to [this section](../../platform/using/launching-export-jobs.md).
 
 ## Subscribing to a service {#subscribing-to-a-service}
 
