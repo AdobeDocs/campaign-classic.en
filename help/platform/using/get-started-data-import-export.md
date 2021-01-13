@@ -20,10 +20,7 @@ Adobe Campaign Classic provides data management capabilities that allow you to i
 
 With workflows, import and export operations can be repeated automatically according to a schedule, for example to automate data exchange between several information systems.
 
-For more on this, refer to these sections:
-
-* [Collecting data using workflows](../../platform/using/import-export-workflows.md)
-* [Exporting data using workflows](../../platform/using/exporting-data-workflows.md)
+For more on this, refer to [this section](../../platform/using/import-export-workflows.md).
 
 <img src="assets/do-not-localize/icon_templates.svg" width="60px">
 
@@ -48,8 +45,8 @@ These operations are performed within workflows, by applying pre-processing stag
 
 For more on this, refer to these sections:
 
-* [Unzipping or decrypting a file](help/platform/using/unzip-decrypt.md)
-* [Zipping or encrypting a file](help/platform/using/zip-encrypt.md)
+* [Unzipping or decrypting a file](../../platform/using/unzip-decrypt.md)
+* [Zipping or encrypting a file](../../platform/using/zip-encrypt.md)
 
 <img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
 

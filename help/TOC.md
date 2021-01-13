@@ -354,10 +354,9 @@ type: Documentation
        + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
 + Automating with Workflows {#automating-with-workflows}
-  + Introduction {#introduction}
-       + [Get started with workflows](workflow/using/about-workflows.md)
+  + Get started with workflows {#introduction}
+       + [About workflows](workflow/using/about-workflows.md)
        + [About activities](workflow/using/about-activities.md)
-  +  General operation {#general-operation}
        + [Building a workflow](workflow/using/building-a-workflow.md)
        + [Targeting data](workflow/using/targeting-data.md)
        + [How to use workflow data](workflow/using/how-to-use-workflow-data.md)
