@@ -1,16 +1,22 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Launching export jobs
-description: Learn how to launch to export jobs in Campaign Classic.
+title: Configuring export jobs
+description: Learn how to configure and execute export jobs in Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 ---
 
-# Launching export jobs {#launching-export-jobs}
+# Configuring export jobs {#executing-export-jobs}
 
-The export parameters are recorded via a wizard. The generic export module is available as a standard, and lets you access and extract data from the database: contacts, clients, lists, segments, etc. For example, it can be useful to use campaign tracking data (tracking history, etc.) in a spreadsheet. The output data can be in txt, CSV, TAB, or XML format.
+The export jobs allow you to access and extract data from the database: contacts, clients, lists, segments, etc.
+
+For example, it can be useful to use campaign tracking data (tracking history, etc.) in a spreadsheet. The output data can be in txt, CSV, TAB, or XML format.
+
+The export wizard lets you configure an export, define its options and launch execution. It is a series of screens whose content depends on the type of export (simple or multiple) and the operator's rights.
+
+The export wizard displays after creating a new export job (see [Creating  import and export jobs](../../platform/using/creating-import-export-jobs.md).
 
 ## Step 1 - Choosing the export template {#step-1---choosing-the-export-template}
 
@@ -98,7 +104,7 @@ You can modify the order and label of the fields for the output file and apply t
 
   ![](assets/s_ncs_user_export_wizard06.png)
 
-* Click **[!UICONTROL Add a calculated field]** if you want to create a new calculated field (for example, a column containing last name + first name). For more on this, refer to [Calculated fields](../../platform/using/launching-import-jobs.md#calculated-fields).
+* Click **[!UICONTROL Add a calculated field]** if you want to create a new calculated field (for example, a column containing last name + first name). For more on this, refer to [Calculated fields](../../platform/using/executing-import-jobs.md#calculated-fields).
 
 If you are exporting a collection of elements (e.g. recipients' subscriptions, the lists to which they belong, etc.), you must specify the number of elements in the collection you want to export. 
 
@@ -117,3 +123,5 @@ Click the tabs at the bottom of the wizard to switch from the preview of results
 Click **[!UICONTROL Start]** to launch data export.
 
 ![](assets/s_ncs_user_export_wizard08.png)
+
+You can then monitor the execution of the import job (see [Monitoring jobs execution](../../platform/using/monitoring-jobs-execution.md).

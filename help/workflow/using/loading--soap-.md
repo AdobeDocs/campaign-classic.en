@@ -36,7 +36,7 @@ Operation is as follows:
 
    If you wish to update the example, select **[!UICONTROL Re-analyze the example]**.
 
-   You can also personalize the format of column data via the **[!UICONTROL Advanced parameters]** link. For more on formatting imported data, refer to this [section](../../platform/using/launching-import-jobs.md).
+   You can also personalize the format of column data via the **[!UICONTROL Advanced parameters]** link. For more on formatting imported data, refer to this [section](../../platform/using/executing-import-jobs.md).
 
 1. You can use the line number as an identifier and/or specify that the SOAP call returns several elements.
 1. Enter the following tab scripts according to their function:

@@ -1,44 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Collecting data using workflows
-description: Learn how to collect data using workflows in Campaign Classic.
-audience: platform
+title: Setting up a recurring import
+description: Learn how to configure a workflow template for recurring imports.
+audience: workflow
 content-type: reference
-topic-tags: importing-and-exporting-data
+topic-tags: use-cases
 ---
 
-# Collecting data using workflows {#collecting-data-workflows}
+# Setting up a recurring import workflow {#setting-up-a-recurring-import}
 
-Workflows can be a useful way to automate some of your import processes. Whether you import data from a local file or from a SFTP, you can use workflows to standardize your data management procedures.
-
-## Using data from a list: Read list {#using-data-from-a-list--read-list}
-
-The data sent in a workflow can come from lists whereby the data has been prepared and structured beforehand.
-
-This list may have been directly created in Adobe Campaign or imported by the **[!UICONTROL Import a list]** option. For more on this option, refer to this [page](../../platform/using/about-import-export-jobs.md).
-
-For more on using the read list activity in a workflow, refer to [Read list](../../workflow/using/read-list.md).
-
-## Loading data from a file {#loading-data-from-a-file}
-
-The data processed in a workflow can be extracted from a structured file so that it can be imported into Adobe Campaign.
-
-A description of the loading data activity can be found in the [Data loading (file)](../../workflow/using/data-loading--file-.md) section.
-
-Example of structured file to import:
-
-```
-lastname;firstname;birthdate;email;crmID
-Smith;Hayden;23/05/1989;hayden.smith@example.com;124365
-Mars;Daniel;17/11/1987;dannymars@example.com;123545
-Smith;Clara;08/02/1989;hayden.smith@example.com;124567
-Durance;Allison;15/12/1978;allison.durance@example.com;120987
-```
-
-## Use case: setting up a recurring import {#setting-up-a-recurring-import}
-
-Using an import template is a best practice if you need to regularly import files with the same structure.
+Using a workflow template is a best practice if you need to regularly import files with the same structure.
 
 This example shows how to pre-set a workflow that can be reused for importing profiles coming from a CRM in the Adobe Campaign database. For more information about all possible settings for each activity, refer to this [section](../../workflow/using/about-activities.md).
 

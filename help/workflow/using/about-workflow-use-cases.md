@@ -50,6 +50,7 @@ They will help you discover the different contexts in which workflows can be use
 * [Encrypting and exporting data using a key installed on Control Panel](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [Quarterly list update using an incremental query](../../workflow/using/quarterly-list-update.md)
 * [Using the Deduplication activity's merge functionality](../../workflow/using/deduplication-merge.md)
+* [Setting up a recurring import workflow](../../workflow/using/recurring-import-workflow.md)
 
 ## Targeting {#designing-queries}
 

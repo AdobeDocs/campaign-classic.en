@@ -18,7 +18,7 @@ Learn how to orchestrate processes and tasks with Adobe Campaign workflows.
 
 ## How can I import data in Campaign? {#how-can-i-import-data-in-campaign-}
 
-Learn best practices to import data in [this section](../../platform/using/import-best-practices.md).
+Learn best practices to import data in [this section](../../platform/using/import-export-best-practices.md).
 
 ## Can I monitor workflow execution? {#can-i-monitor-workflow-execution-}
 

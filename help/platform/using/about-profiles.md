@@ -51,7 +51,7 @@ It also gives you access to:
 * lists; see [Creating and managing lists](../../platform/using/creating-and-managing-lists.md),
 * subscription services; refer to [this page](../../delivery/using/managing-subscriptions.md),
 * web applications; refer to [this page](../../web/using/about-web-applications.md),
-* imports and exports (jobs); refer to [Generic imports and exports](../../platform/using/about-import-export-jobs.md),
+* imports and exports (jobs); refer to [Generic imports and exports](../../platform/using/about-generic-imports-exports.md),
 * targeting workflows; refer to [this page](../../workflow/using/building-a-workflow.md#implementation-steps-).
 
 The recipients page lets you perform frequent operations on profiles: edits, updates, adds, deletions, sorts.

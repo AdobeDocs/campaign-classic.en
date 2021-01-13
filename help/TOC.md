@@ -63,22 +63,21 @@ type: Documentation
        + [Exporting and importing profiles](platform/using/exporting-and-importing-profiles.md)
        + [Creating and managing lists](platform/using/creating-and-managing-lists.md)
   + Importing and exporting data {#importing-and-exporting-data}
-       + [About data import and export](platform/using/get-started-data-import-export.md)
-       + Importing and exporting data using workflows {importing-exporting-workflows}
-          + [Collecting and exporting data using workflows](platform/using/collecting-data-workflows.md)
-          + [Exporting data using workflows](platform/using/exporting-data-workflows.md)
+       + [Get start with data import and export](platform/using/get-started-data-import-export.md)
+       + [Importing and exporting data using workflows](platform/using/import-export-workflows.md)
        + Importing and exporting data using templates {importing-exporting-using-templates}
-          + [Get started with import and export templates](platform/using/about-import-export-jobs.md)
+          + [Get started with import and export templates](platform/using/about-generic-imports-exports.md)
           + [Creating import and export templates](platform/using/creating-import-export-templates.md)
-          + [Launching immport jobs](platform/using/launching-import-jobs.md)
-          + [Launching export jobs](platform/using/launching-export-jobs.md)
+          + [Creating import and export jobs](platform/using/creating-import-export-jobs.md)
+          + [Configuring import jobs](platform/using/executing-import-jobs.md)
+          + [Configuring export jobs](platform/using/executing-export-jobs.md)
           + [Monitoring jobs execution](platform/using/monitoring-jobs-execution.md)
           + [Import operations samples](platform/using/import-operations-samples.md)
        + Managing data encryption and compression {managing-data-encryption-compression}
           + [Unzipping or decrypting a file before processing](platform/using/unzip-decrypt.md)
           + [Zipping or encrypting a file before processing](platform/using/zip-encrypt.md)
        + Best practices and troubleshooting {best-practices}
-          + [Import best practices](platform/using/import-best-practices.md)
+          + [Import and export best practices](platform/using/import-export-best-practices.md)
           + [SFTP server best practices and troubleshooting](platform/using/sftp-server-usage.md)
   + Filtering data {#filtering-data}
        + [Filtering options](platform/using/filtering-options.md)
@@ -355,10 +354,9 @@ type: Documentation
        + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
        + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
 + Automating with Workflows {#automating-with-workflows}
-  + Introduction {#introduction}
-       + [Get started with workflows](workflow/using/about-workflows.md)
+  + Get started with workflows {#introduction}
+       + [About workflows](workflow/using/about-workflows.md)
        + [About activities](workflow/using/about-activities.md)
-  +  General operation {#general-operation}
        + [Building a workflow](workflow/using/building-a-workflow.md)
        + [Targeting data](workflow/using/targeting-data.md)
        + [How to use workflow data](workflow/using/how-to-use-workflow-data.md)
@@ -448,6 +446,7 @@ type: Documentation
           + [Enriching data](workflow/using/enriching-data.md) 
           + [Using aggregates](workflow/using/using-aggregates.md)
           + [Using the Deduplication activity's merge functionality](workflow/using/deduplication-merge.md)
+          + [Setting up a recurring import workflow](workflow/using/recurring-import-workflow.md)
        + Designing queries {#designing-queries}
           + [Quarterly list update using an incremental query](workflow/using/quarterly-list-update.md)
        + Targeting {#designing-queries}
