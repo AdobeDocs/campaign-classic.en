@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Collecting data using workflows
-description: Learn how to collect data using workflows in Campaign Classic.
+title: Importing and exporting data using workflows
+description: Learn how to import and export data using workflows in Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -18,9 +18,9 @@ Workflows can be a useful way to automate some of your import processes. Whether
 
 The data sent in a workflow can come from lists whereby the data has been prepared and structured beforehand.
 
-This list may have been directly created in Adobe Campaign or imported by the **[!UICONTROL Import a list]** option. For more on this option, refer to this [page](../../platform/using/about-import-export-templates.md).
+This list may have been directly created in Adobe Campaign or imported by the **[!UICONTROL Import a list]** option. For more on this option, refer to this [page](../../platform/using/about-generic-imports-exports.md).
 
-For more on using the read list activity in a workflow, refer to [Read list](../../workflow/using/read-list.md).
+For more on using the read list activity in a workflow, refer to [this page](../../workflow/using/read-list.md).
 
 ### Loading data from a file {#loading-data-from-a-file}
 
@@ -38,8 +38,10 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
+Once data has been collected you can use it in your workflows, for example to enrich a delivery or update the database. For more on this, refer to [this page](../../workflow/using/how-to-use-workflow-data.md).
+
 ## Exporting data {#exporting-data-via-a-workflow}
 
 Workflows can be a useful way to automate some of your export processes or to export precise sets of data after using some of the available data management activities available to transform your data.
 
-To learn more about exporting data from a workflow, refer to [this section](../../workflow/using/how-to-use-workflow-data.md).
+Export operations are performed using a **[!UICONTROL Data extraction (file) activity]**. For more on how to configure and use the activity, refer to [this page](../../workflow/using/extraction--file-.md).

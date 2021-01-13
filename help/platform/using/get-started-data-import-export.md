@@ -10,7 +10,7 @@ topic-tags: importing-and-exporting-data
 
 # Get started with data import and export {#get-started-data-import-export}
 
-Adobe Campaign Classic provides data management capabilities that allow you to import and export data. These operations can be performed using either workflows or dedicated import and export templates.
+Adobe Campaign Classic provides data management capabilities that allow you to import and export data. These operations can be performed using either workflows or generic imports and exports.
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
@@ -27,18 +27,16 @@ For more on this, refer to these sections:
 
 <img src="assets/do-not-localize/icon_templates.svg" width="60px">
 
-## Import and export templates {#import-export-templates}
+## Generic imports and exports {#generic-import-export}
 
-Additionally, Campaign Classic provides **data import and export templates** that allow you to create occasional import or export jobs.
+Additionally, Campaign Classic provides **generic imports and exports** that allow you to create occasional import or export jobs.
 
-You can, for example, extract a list of customers or prospects who will then become part of a target population, or supply your database with data from external files. Imports and exports are configured in dedicated templates, that you can then execute and monitor.
+Imports and exports are configured in dedicated templates, that you can configure and use to launch and monitor import and export jobs.
 
-For more on how to configure import and export templates, then execute jobs, refer to [this section](../../platform/using/about-import-export-templates.md).
-
-For more on this, refer to 
+For more on generic imports and exports, refer to [this section](../../platform/using/about-generic-imports-exports.md).
 
 >[!CAUTION]
->Import and export modules should be used for occasional operations. To secure data consistency and improve efficiency, it is recommended to perform your import and export operations using workflows.
+>Generic imports and exports should be used for occasional operations only. To ensure data consistency and improve efficiency, it is recommended to perform your import and export operations using workflows.
 
 <img src="assets/do-not-localize/icon_encrypt.svg" width="60px">
 

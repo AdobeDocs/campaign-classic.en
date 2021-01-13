@@ -66,10 +66,11 @@ type: Documentation
        + [Get start with data import and export](platform/using/get-started-data-import-export.md)
        + [Importing and exporting data using workflows](platform/using/import-export-workflows.md)
        + Importing and exporting data using templates {importing-exporting-using-templates}
-          + [Get started with import and export templates](platform/using/about-import-export-templates.md)
+          + [Get started with import and export templates](platform/using/about-generic-imports-exports.md)
           + [Creating import and export templates](platform/using/creating-import-export-templates.md)
-          + [Launching immport jobs](platform/using/launching-import-jobs.md)
-          + [Launching export jobs](platform/using/launching-export-jobs.md)
+          + [Creating import and export jobs](platform/using/creating-import-export-jobs.md)
+          + [Configuring import jobs](platform/using/executing-import-jobs.md)
+          + [Configuring export jobs](platform/using/executing-export-jobs.md)
           + [Monitoring jobs execution](platform/using/monitoring-jobs-execution.md)
           + [Import operations samples](platform/using/import-operations-samples.md)
        + Managing data encryption and compression {managing-data-encryption-compression}

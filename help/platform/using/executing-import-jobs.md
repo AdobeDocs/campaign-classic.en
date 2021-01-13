@@ -1,34 +1,32 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Launching import jobs
-description: Learn how to launch import jobs in Campaign Classic.
+title: Configuring import jobs
+description: Learn how to configure and execute import jobs in Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 ---
 
-# Launching import jobs {#launching-import-jobs}
+# Configuring import jobs {#executing-import-jobs}
 
-Adobe Campaign lets you import data to the database from one or more files in text, CSV, TAB, or XML format. These files are associated with a table (main or linked), and each field of the source file(s) is associated with a field of the database. The import configuration can be saved for reuse so that you can schedule import tasks that will automate your replication operations.
+Adobe Campaign lets you import data into the database from one or more files in text, CSV, TAB, or XML format. These files are associated with a table (main or linked), and each field of the source file(s) is associated with a field of the database.
 
 >[!NOTE]
 >
->You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function.
->
->The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../workflow/using/read-list.md).  
+>You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function. The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../workflow/using/read-list.md).  
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/importing-profiles.html)
+The import wizard lets you configure an import, define its options (such as data transformation), and launch execution. It is a series of screens whose content depends on the type of import (simple or multiple) and the operator's rights.
+
+The import wizard displays after creating a new import job (see [Creating  import and export jobs](../../platform/using/creating-import-export-jobs.md).
+
+>[!NOTE]
+>
+>If you use an IIS Web server, a configuration may be necessary to authorize uploading large files (>28 MB). For more information, refer to [this section](../../installation/using/integration-into-a-web-server-for-windows.md#changing-the-upload-file-size-limit).
+
+## Source file {#source-file}
 
 In the source file, each line coincides with a record. The data in records is separated by delimiters (space, tab, character, etc.). This means that data is retrieved in the form of columns, and each column is associated with a field of the database.
-
-The import wizard lets you configure the import, define its options (such as data transformation), and launch execution. It is a series of screens whose content depends on the type of import (simple or multiple) and the operator's rights.
-
->[!NOTE]
->
->If you use an IIS Web server, a configuration may be necessary to authorize uploading large files (>28 MB).  
->
->For more information, refer to [this section](../../installation/using/integration-into-a-web-server-for-windows.md#changing-the-upload-file-size-limit).
 
 ## Step 1 - Choosing the import template {#step-1---choosing-the-import-template}
 
@@ -86,7 +84,7 @@ The **[!UICONTROL Advanced parameters]** link lets you access the following opti
 
   You can define variables associated with the job that will be accessible in the query editors and calculated fields. To create a variable, click **[!UICONTROL Add]** and use the variable editor.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >The **[!UICONTROL Variables]** tab is for Workflow-type programming use only, and should be configured by expert users only.
 
@@ -135,7 +133,7 @@ You must then select the destination schema and map the data of each column onto
 
   To associate the source fields and destination fields automatically, click the **[!UICONTROL Guess the destination fields]** icon to the right of the list of fields. The proposed fields can be modified if required.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >The result of this operation must always be validated before you proceed to the next step.
 
@@ -143,7 +141,7 @@ You must then select the destination schema and map the data of each column onto
 
   ![](assets/s_ncs_user_import_wizard03_2.png)
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >The transformation is applied at the time of the import. If constraints on the destination field have been defined, however (in the above example, on the @lastname field), these constraints take priority.
 
@@ -231,7 +229,7 @@ The **[!UICONTROL Management of doubles]** field lets you configure the deduplic
 * In **[!UICONTROL Reject entity]** mode, the element is not imported, and an error is generated in the import logs.
 * In **[!UICONTROL Ignore]** mode, the element is not imported, but no trace of the error is kept. This mode lets you optimize performance.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Deduplication is performed in memory only. The size of an import with deduplication is therefore limited. The limit depends on several parameters (capacity of the application server, activity, number of fields in the key, etc.). The maximum size for a deduplication is of the order of 1,000,000 lines.
 
@@ -329,3 +327,5 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 The last step of the wizard lets you launch data import. To do this, click the **[!UICONTROL Start]** button.
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
+
+You can then monitor the execution of the import job (see [Monitoring jobs execution](../../platform/using/monitoring-jobs-execution.md).

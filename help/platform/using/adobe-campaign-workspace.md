@@ -284,7 +284,7 @@ Click **[!UICONTROL Save]** in the folder properties window. The list display is
 
 To export data from a list, you must use an export wizard. To access it, select the elements to be exported from the list, right-click and select **[!UICONTROL Export...]**.
 
-The use of the import and export functions is explained in [Generic imports and exports](../../platform/using/about-import-export-templates.md).
+The use of the import and export functions is explained in [Generic imports and exports](../../platform/using/about-generic-imports-exports.md).
 
 >[!CAUTION]
 >
