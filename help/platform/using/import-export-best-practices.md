@@ -1,15 +1,15 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Import best practices
-description: Learn more about the best practices to follow when importing data into Campaign Classic database.
+title: Import and export best practices
+description: Learn more about the best practices to follow when importing or exporting data.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 
 ---
 
-# Import best practices {#import-best-practices}
+# Import and export best practices {#import-export-best-practices}
 
 >[!CAUTION]
 >

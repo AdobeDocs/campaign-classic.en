@@ -16,13 +16,13 @@ You can [use workflows](#use-workflows) to import or export recipients profiles 
 
 ## Use workflows{#use-workflows}
 
-Exports and imports are configured in dedicated templates executed through workflows via import and export activities. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. [Learn more](../../platform/using/collecting-data-workflows.md#best-practices-when-importing-data)
+Exports and imports are configured in dedicated templates executed through workflows via import and export activities. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. [Learn more](../../platform/using/import-export-workflows.md#best-practices-when-importing-data)
 
 If necessary, you can create an occasional import or export job via the **[!UICONTROL Generic imports and exports]** feature described below.
 
 ## Create jobs{#create-jobs}
 
-To configure and execute data imports and exports jobs, go to the **[!UICONTROL Profiles and targets]** tab and click the **[!UICONTROL Jobs]** link. [Learn more](../../platform/using/about-import-export-jobs.md)
+To configure and execute data imports and exports jobs, go to the **[!UICONTROL Profiles and targets]** tab and click the **[!UICONTROL Jobs]** link. [Learn more](../../platform/using/about-import-export-templates.md)
 
 ![](assets/s_ncs_user_interface_import_link.png)
 

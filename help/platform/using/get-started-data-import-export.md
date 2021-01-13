@@ -10,29 +10,53 @@ topic-tags: importing-and-exporting-data
 
 # Get started with data import and export {#get-started-data-import-export}
 
-Adobe Campaign offers a data export module that makes it easy to extract a list of customers or prospects (for example, following a targeting operation) who will then become part of a target population.
+Adobe Campaign Classic provides data management capabilities that allow you to import and export data. These operations can be performed using either workflows or dedicated import and export templates.
 
-Adobe Campaign also offers an import module that lets you supply your database with data from external files.
+<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
->[!NOTE]
->
->Exports and imports are configured in dedicated templates executed through workflows via the **[!UICONTROL Import]** and **[!UICONTROL Export]** activities. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. If necessary, you can create an occasional import or export via the **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** node of the Adobe Campaign tree.
+## Workflows {#workflows}
+
+**Workflows** are a useful way to automate your import processes. Whether you import data from a local file or from a SFTP, they allow you to standardize your data management procedures.
+
+With workflows, import and export operations can be repeated automatically according to a schedule, for example to automate data exchange between several information systems.
+
+For more on this, refer to these sections:
+
+* [Collecting data using workflows](../../platform/using/import-export-workflows.md)
+* [Exporting data using workflows](../../platform/using/exporting-data-workflows.md)
+
+<img src="assets/do-not-localize/icon_templates.svg" width="60px">
+
+## Import and export templates {#import-export-templates}
+
+Additionally, Campaign Classic provides **data import and export templates** that allow you to create occasional import or export jobs.
+
+You can, for example, extract a list of customers or prospects who will then become part of a target population, or supply your database with data from external files. Imports and exports are configured in dedicated templates, that you can then execute and monitor.
+
+For more on how to configure import and export templates, then execute jobs, refer to [this section](../../platform/using/about-import-export-templates.md).
+
+For more on this, refer to 
 
 >[!CAUTION]
->
->Data import in Campaign should be performed through workflows to secure data consistency and improve efficiency. For more on this, refer to the [Importing data](../../platform/using/collecting-data-workflows.md), [Import best practices](../../platform/using/import-best-practices.md) and [Import workflow template example](../../platform/using/collecting-data-workflows.md#setting-up-a-recurring-import) sections.
+>Import and export modules should be used for occasional operations. To secure data consistency and improve efficiency, it is recommended to perform your import and export operations using workflows.
 
->[!CAUTION]
->
->Please keep in mind the SFTP storage, Database Storage and Active profile limits as per your Adobe Campaign contract while importing data.
+<img src="assets/do-not-localize/icon_encrypt.svg" width="60px">
 
+## Data encryption and compression {#data-encryption-compression}
 
+Campaign Classic allows you to import zipped or encrypted files, and export zipped or encrypted file.
 
+These operations are performed within workflows, by applying pre-processing stages to the data you want to leverage.
 
+For more on this, refer to these sections:
 
+* [Unzipping or decrypting a file](help/platform/using/unzip-decrypt.md)
+* [Zipping or encrypting a file](help/platform/using/zip-encrypt.md)
 
-Workflows can be a useful way to automate some of your import processes. Whether you import data from a local file or from a SFTP, you can use workflows to standardize your data management procedures.
+<img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
 
-To learn more about importing data from a workflow, refer to [this section](../../platform/using/collecting-data-workflows.md).
+## Best practices and troubleshooting {#best-practices-troubleshooting}
 
+Several [best practices](../../platform/using/import-export-best-practices.md) should be followed when performing import and export operations to ensure data consistency within the database and avoid commong error during update or export.
 
+Additionally, recommendations and common issues related to SFTP servers usage are available in [this section](../../platform/using/sftp-server-usage.md).
