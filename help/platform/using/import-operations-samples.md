@@ -1,14 +1,14 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Import operations samples
-description: Learn more about import operations you can perform using import jobs.
+title: Generic import samples
+description: Learn more about generic imports you can perform using import jobs.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 ---
 
-# Import operations samples {#import-operations-samples}
+# Generic import samples {#import-operations-samples}
 
 ## Import from a list of recipients {#example--import-from-a-list-of-recipients}
 

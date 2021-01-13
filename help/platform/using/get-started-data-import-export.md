@@ -12,6 +12,10 @@ topic-tags: importing-and-exporting-data
 
 Adobe Campaign Classic provides data management capabilities that allow you to import and export data. These operations can be performed using either workflows or generic imports and exports.
 
+>[!IMPORTANT]
+>
+>Please keep in mind the SFTP storage, database storage and active profile limits as per your Adobe Campaign contract while using this functionality.
+
 ## Workflows {#workflows}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">

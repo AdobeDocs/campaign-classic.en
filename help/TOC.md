@@ -72,7 +72,7 @@ type: Documentation
           + [Configuring import jobs](platform/using/executing-import-jobs.md)
           + [Configuring export jobs](platform/using/executing-export-jobs.md)
           + [Monitoring jobs execution](platform/using/monitoring-jobs-execution.md)
-          + [Import operations samples](platform/using/import-operations-samples.md)
+          + [Generic import samples](platform/using/import-operations-samples.md)
        + Managing data encryption and compression {managing-data-encryption-compression}
           + [Unzipping or decrypting a file before processing](platform/using/unzip-decrypt.md)
           + [Zipping or encrypting a file before processing](platform/using/zip-encrypt.md)
