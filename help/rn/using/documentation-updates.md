@@ -24,6 +24,8 @@ The list of technical workflows with their associated packages has been reorgani
 
 The troubleshooting section of the Monitoring guide has been reorganized and enhanced with a landing page. [Read more](../../production/using/troubleshooting.md).
 
+The "Importing and exporting data" section has been reorganized and enriched with new pages related to workflows, data compression and encryption, as well as import best practices. [Read more](../../platform/using/get-started-data-import-export.md)
+
 ## December 2020 {#dec-2020}
 
 The delivery monitoring section has been reorganized into thematic topics. [Read more](../../delivery/using/about-delivery-monitoring.md)
