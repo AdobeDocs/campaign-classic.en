@@ -12,9 +12,9 @@ topic-tags: importing-and-exporting-data
 
 Adobe Campaign Classic provides data management capabilities that allow you to import and export data. These operations can be performed using either workflows or generic imports and exports.
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
-
 ## Workflows {#workflows}
+
+<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 **Workflows** are a useful way to automate your import processes. Whether you import data from a local file or from a SFTP, they allow you to standardize your data management procedures.
 
@@ -22,9 +22,9 @@ With workflows, import and export operations can be repeated automatically accor
 
 For more on this, refer to [this section](../../platform/using/import-export-workflows.md).
 
-<img src="assets/do-not-localize/icon_templates.svg" width="60px">
-
 ## Generic imports and exports {#generic-import-export}
+
+<img src="assets/do-not-localize/icon_templates.svg" width="60px">
 
 Additionally, Campaign Classic provides **generic imports and exports** that allow you to create occasional import or export jobs.
 
@@ -35,9 +35,9 @@ For more on generic imports and exports, refer to [this section](../../platform/
 >[!CAUTION]
 >Generic imports and exports should be used for occasional operations only. To ensure data consistency and improve efficiency, it is recommended to perform your import and export operations using workflows.
 
-<img src="assets/do-not-localize/icon_encrypt.svg" width="60px">
-
 ## Data encryption and compression {#data-encryption-compression}
+
+<img src="assets/do-not-localize/icon_encrypt.svg" width="60px">
 
 Campaign Classic allows you to import zipped or encrypted files, and export zipped or encrypted file.
 
@@ -48,9 +48,9 @@ For more on this, refer to these sections:
 * [Unzipping or decrypting a file](../../platform/using/unzip-decrypt.md)
 * [Zipping or encrypting a file](../../platform/using/zip-encrypt.md)
 
-<img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
-
 ## Best practices and troubleshooting {#best-practices-troubleshooting}
+
+<img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
 
 Several [best practices](../../platform/using/import-export-best-practices.md) should be followed when performing import and export operations to ensure data consistency within the database and avoid commong error during update or export.
 
