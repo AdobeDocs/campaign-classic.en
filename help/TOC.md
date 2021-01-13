@@ -446,6 +446,7 @@ type: Documentation
           + [Enriching data](workflow/using/enriching-data.md) 
           + [Using aggregates](workflow/using/using-aggregates.md)
           + [Using the Deduplication activity's merge functionality](workflow/using/deduplication-merge.md)
+          + [Setting up a recurring import workflow](workflow/using/recurring-import-workflow.md)
        + Designing queries {#designing-queries}
           + [Quarterly list update using an incremental query](workflow/using/quarterly-list-update.md)
        + Targeting {#designing-queries}
