@@ -13,17 +13,17 @@ topic-tags: workflow-general-operation
 
 Being cautious and following the few simple rules detailed below will help a lot in ensuring data consistency within the database and in avoiding common errors during database update or data exports.
 
-## Using import templates {#using-import-templates}
+## Using workflow templates {#using-import-templates}
 
-Most import workflows should contain the following activities: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
+Most workflows aimed at importing data should contain the following activities: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
 
-Using import templates makes it very convenient to prepare similar imports and ensure data consistency within the database.
+Using workflow templates makes it very convenient to prepare similar imports and ensure data consistency within the database.
 
 In many projects, imports are built without **[!UICONTROL Deduplication]** activity because the files used in the project do not have duplicates. Duplicates sometimes appear from importing different files. De-duplication is then difficult. Therefore a deduplication step is a good precaution in all import workflows.
 
 Do not rest on assumption that the incoming data is consistent and correct, or that the IT department or Adobe Campaign supervisor will take care of it. During the project, keep the data cleansing in mind. Deduplicate, reconcile, and maintain consistency when you import data.
 
-An example of a generic workflow template designed for importing data is available in the [Example: Import workflow template](../../platform/using/creating-import-export-templates.md) section.
+An example of a generic workflow template designed for importing data is available in the [Example: Workflow template to import data](../../platform/using/creating-import-export-templates.md) section.
 
 ## Using flat file formats {#using-flat-file-formats}
 
