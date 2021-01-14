@@ -18,7 +18,7 @@ Learn how to orchestrate processes and tasks with Adobe Campaign workflows.
 
 ## How can I import data in Campaign? {#how-can-i-import-data-in-campaign-}
 
-Learn best practices to import data through a Campaign workflow [in this section](../../workflow/using/importing-data.md).
+Learn best practices to import data in [this section](../../platform/using/import-export-best-practices.md).
 
 ## Can I monitor workflow execution? {#can-i-monitor-workflow-execution-}
 
@@ -52,7 +52,7 @@ Learn how to split a target into several subsets [in this section](../../workflo
 
 You can modify certain fields in a Campaign table with values from an external text file.
 
-[Click here to learn how](../../platform/using/importing-data.md#example--enrich-the-values-with-those-of-an-external-file).
+[Click here to learn how](../../platform/using/import-operations-samples.md#example--enrich-the-values-with-those-of-an-external-file).
 
 ## How can I identify and target new recipients? {#how-can-i-identify-and-target-new-recipients-}
 

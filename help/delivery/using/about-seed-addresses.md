@@ -39,5 +39,5 @@ For direct mail deliveries, seed addresses are added during extraction and mixed
 >For direct mail deliveries, the extraction file format must comply with the following limitations:  
 >
 >* It must not use the option **[!UICONTROL Handle groupings (GROUP BY+HAVING)]**.
->* If element collections are extracted, these fields will have an empty value for the seed addresses, unless the **[!UICONTROL Single row (expert user)]** option is selected. For more on this, refer to [this section](../../platform/using/exporting-data.md#step-7---data-formatting).
+>* If element collections are extracted, these fields will have an empty value for the seed addresses, unless the **[!UICONTROL Single row (expert user)]** option is selected. For more on this, refer to [this section](../../platform/using/executing-export-jobs.md#step-7---data-formatting).
 >

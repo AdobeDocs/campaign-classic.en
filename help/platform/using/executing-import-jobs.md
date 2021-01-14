@@ -1,40 +1,34 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Importing data
-description: Importing data
+title: Configuring import jobs
+description: Learn how to configure and execute import jobs in Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 ---
 
-# Importing data{#importing-data}
+# Configuring import jobs {#executing-import-jobs}
 
-Adobe Campaign lets you import data to the database from one or more files in text, CSV, TAB, or XML format. These files are associated with a table (main or linked), and each field of the source file(s) is associated with a field of the database. The import configuration can be saved for reuse so that you can schedule import tasks that will automate your replication operations.
+Adobe Campaign lets you import data into the database from one or more files in text, CSV, TAB, or XML format. These files are associated with a table (main or linked), and each field of the source file(s) is associated with a field of the database.
 
 >[!NOTE]
 >
->You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function.
+>You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function. The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../workflow/using/read-list.md).  
+
+The import wizard lets you configure an import, define its options (such as data transformation), and launch execution. It is a series of screens whose content depends on the type of import (simple or multiple) and the operator's rights.
+
+The import wizard displays after creating a new import job (see [Creating  import and export jobs](../../platform/using/creating-import-export-jobs.md).
+
+>[!NOTE]
 >
->The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../workflow/using/read-list.md).  
+>If you use an IIS Web server, a configuration may be necessary to authorize uploading large files (>28 MB). For more information, refer to [this section](../../installation/using/integration-into-a-web-server-for-windows.md#changing-the-upload-file-size-limit).
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/importing-profiles.html)
-
-## Structure of the data to import {#structure-of-the-data-to-import}
+## Source file {#source-file}
 
 In the source file, each line coincides with a record. The data in records is separated by delimiters (space, tab, character, etc.). This means that data is retrieved in the form of columns, and each column is associated with a field of the database.
 
-## Import wizard {#import-wizard}
-
-The import wizard lets you configure the import, define its options (such as data transformation), and launch execution. It is a series of screens whose content depends on the type of import (simple or multiple) and the operator's rights.
-
->[!NOTE]
->
->If you use an IIS Web server, a configuration may be necessary to authorize uploading large files (>28 MB).  
->
->For more information, refer to [this section](../../installation/using/integration-into-a-web-server-for-windows.md#changing-the-upload-file-size-limit).
-
-### Step 1 - Choosing the import template {#step-1---choosing-the-import-template}
+## Step 1 - Choosing the import template {#step-1---choosing-the-import-template}
 
 When launching the import wizard, you first have to select a template. As an example, to configure the import of recipients who received a newsletter, follow the steps below:
 
@@ -64,7 +58,7 @@ When launching the import wizard, you first have to select a template. As an exa
    >
    >Multiple imports should only address specific needs and are not recommended.
 
-#### Advanced parameters {#advanced-parameters}
+### Advanced parameters {#advanced-parameters}
 
 The **[!UICONTROL Advanced parameters]** link lets you access the following options:
 
@@ -90,11 +84,11 @@ The **[!UICONTROL Advanced parameters]** link lets you access the following opti
 
   You can define variables associated with the job that will be accessible in the query editors and calculated fields. To create a variable, click **[!UICONTROL Add]** and use the variable editor.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >The **[!UICONTROL Variables]** tab is for Workflow-type programming use only, and should be configured by expert users only.
 
-### Step 2 - Source file selection {#step-2---source-file-selection}
+## Step 2 - Source file selection {#step-2---source-file-selection}
 
 The source file can be in text format (txt, csv, tab, fixed columns) or xml.
 
@@ -114,7 +108,7 @@ Use the options offered above this view to configure the import. The parameters 
 * **[!UICONTROL Auto-detect format]** is used to reinitialize the format of the data source. This option lets you reapply the original formats to data that has been formatted via the **[!UICONTROL Click here to change the file format...]** option.
 * The **[!UICONTROL Advanced parameters]** link lets you filter the source data and access advanced options. From this screen, you can choose to import only part of the file. You can also define a filter, for example to import only 'Prospect' or 'Customer' type users, according to the value of the corresponding line. These options should be used by expert JavaScript users only.
 
-#### Changing the file format {#changing-the-file-format}
+### Changing the file format {#changing-the-file-format}
 
 The **[!UICONTROL Click here to change the file format...]** option lets you format the data of the source file, and in particular to specify the column separator and the type of data for each field. This configuration is performed via the following window:
 
@@ -126,7 +120,7 @@ You can view the result of the configuration in the preview zone in the lower pa
 
 Click **[!UICONTROL OK]** to save the formatting, then click **[!UICONTROL Next]** to display the next step.
 
-### Step 3 - Field mapping {#step-3---field-mapping}
+## Step 3 - Field mapping {#step-3---field-mapping}
 
 You must then select the destination schema and map the data of each column onto fields in the database. 
 
@@ -139,7 +133,7 @@ You must then select the destination schema and map the data of each column onto
 
   To associate the source fields and destination fields automatically, click the **[!UICONTROL Guess the destination fields]** icon to the right of the list of fields. The proposed fields can be modified if required.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >The result of this operation must always be validated before you proceed to the next step.
 
@@ -147,13 +141,13 @@ You must then select the destination schema and map the data of each column onto
 
   ![](assets/s_ncs_user_import_wizard03_2.png)
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >The transformation is applied at the time of the import. If constraints on the destination field have been defined, however (in the above example, on the @lastname field), these constraints take priority.
 
 * You can add calculated fields using the appropriate icon, located to the right of the central table. Calculated fields let you perform complex transformations, add virtual columns, or merge the data of several columns. Refer to the following sections for details of the various possibilities.
 
-#### Calculated fields {#calculated-fields}
+### Calculated fields {#calculated-fields}
 
 Calculated fields are new columns added to the source file and calculated from other columns. Calculated fields can then be associated with fields of the Adobe Campaign database. Reconciliation operations, however, are not possible on calculated fields.
 
@@ -170,7 +164,7 @@ There are four types of calculated fields:
 
   ![](assets/s_ncs_user_import_wizard03_4.png)
 
-### Step 4 - Reconciliation {#step-4---reconciliation}
+## Step 4 - Reconciliation {#step-4---reconciliation}
 
 The reconciliation step of the import wizard lets you define the mode of reconciling the data from the file with the existing data in the database, and to set the priority rules between the file data and the database data. The configuration window looks like this:
 
@@ -182,7 +176,7 @@ Special options are available for each node (table or field). When you click the
 
 ![](assets/s_ncs_user_import_wizard04_2.png)
 
-#### Types of operation {#types-of-operation}
+### Types of operation {#types-of-operation}
 
 For each table concerned by the import, you must define the type of operation. The following operations are available for the main element of the database:
 
@@ -202,7 +196,7 @@ The following options are available for each field in the table concerned by the
 >
 >The definition of a reconciliation key is always **mandatory**, except in the case of insertion without deduplication.
 
-#### Reconciliation keys {#reconciliation-keys}
+### Reconciliation keys {#reconciliation-keys}
 
 At least one reconciliation key must be filled in to manage deduplication.
 
@@ -220,7 +214,7 @@ Avoid choosing a field which might be modified during import; if this occurs, th
 >
 >Reconciliation is therefore performed on this folder only (unless no folder is selected).
 
-#### Deduplication {#deduplication}
+### Deduplication {#deduplication}
 
 >[!NOTE]
 >
@@ -235,7 +229,7 @@ The **[!UICONTROL Management of doubles]** field lets you configure the deduplic
 * In **[!UICONTROL Reject entity]** mode, the element is not imported, and an error is generated in the import logs.
 * In **[!UICONTROL Ignore]** mode, the element is not imported, but no trace of the error is kept. This mode lets you optimize performance.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Deduplication is performed in memory only. The size of an import with deduplication is therefore limited. The limit depends on several parameters (capacity of the application server, activity, number of fields in the key, etc.). The maximum size for a deduplication is of the order of 1,000,000 lines.
 
@@ -243,7 +237,7 @@ Deduplication concerns a record that is present both in the source file and the 
 
 The options **[!UICONTROL Reject]** and **[!UICONTROL Ignore]** operate as presented above.
 
-#### Behavior in the event of an error {#behavior-in-the-event-of-an-error}
+### Behavior in the event of an error {#behavior-in-the-event-of-an-error}
 
 Most data transfer operations generate various types of errors (incoherent line format, invalid e-mail address, etc.). All errors and all warnings generated by the import engine are stored and linked to the import instance.
 
@@ -272,7 +266,7 @@ You can generate a file containing these records via the **[!UICONTROL Export re
 
 ![](assets/s_ncs_user_import_errors_export.png)
 
-### Step 5 - Additional step when importing recipients {#step-5---additional-step-when-importing-recipients}
+## Step 5 - Additional step when importing recipients {#step-5---additional-step-when-importing-recipients}
 
 The next step of the import wizard lets you select or create the folder in which data will be imported, automatically map imported recipients with a (new or existing) list, and subscribe recipients to a service.
 
@@ -328,279 +322,10 @@ The next step of the import wizard lets you select or create the folder in which
 
 Click **[!UICONTROL Next]** to validate this step and display the following step.
 
-### Step 6 - Launching the import {#step-6---launching-the-import}
+## Step 6 - Launching the import {#step-6---launching-the-import}
 
 The last step of the wizard lets you launch data import. To do this, click the **[!UICONTROL Start]** button.
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 
-### Job statuses {#job-statuses}
-
-Job status indicates the current status of a job. Each status is represented by a special icon and label. This information is displayed in the list of jobs. The statuses and their icons are listed below:
-
-![](assets/s_ncs_user_export_status.png)
-
-* **Editing in progress**
-
-  Job is being created.
-
-* **Execution in progress**
-
-  The job is being executed.
-
-* **Cancel**
-
-  Click the **[!UICONTROL Cancel]** button: the job in progress is cancelled.
-
-* **Cancellation in progress**
-
-  The cancellation command has been taken into account and the job is being cancelled.
-
-* **Pause in progress**
-
-  Click **[!UICONTROL Pause]**: the job is being suspended.
-
-* **Paused**
-
-  Click **[!UICONTROL Pause]**: the job is suspended. It can be restarted by clicking **[!UICONTROL Start]**.
-
-* **Finished**
-
-  Execution of the job is finished.
-
-* **Finished with error**
-
-  The job was not executed because of a technical error.
-
-* **Server shutdown in progress**
-
-  The job in progress is interrupted because the Adobe Campaign server has shut down.
-
-## Generic import samples {#generic-import-samples}
-
-### Example: Import from a list of recipients {#example--import-from-a-list-of-recipients}
-
-To create and supply a list of recipients from the overview of lists, apply the following steps:
-
-1. Creating the list
-
-    * Click the **[!UICONTROL Lists]** link in the **[!UICONTROL Profiles and targets]** menu of the Adobe Campaign home page.
-    * Click the **[!UICONTROL Create]** and then the **[!UICONTROL Import a list]** button.
-
-1. Selecting the file to import
-
-   Click the folder to the right of the **[!UICONTROL Local file]** field and select the file containing the list to import.
-
-   ![](assets/s_ncs_user_import_example00_01.png)
-
-1. List name and storage
-
-   Input the name of the list and select the directory where it should be saved.
-
-   ![](assets/s_ncs_user_import_example00_02.png)
-
-1. Launching the import
-
-   Click **[!UICONTROL Next]** and then **[!UICONTROL Start]** to start importing the list.
-
-   ![](assets/s_ncs_user_import_example00_03.png)
-
-### Example: import new records from a text file {#example--import-new-records-from-a-text-file-}
-
-To import new recipient profiles stored in a text file into the Adobe Campaign database, apply the following steps:
-
-1. Choosing a template
-
-    * From the Adobe Campaign home page, click the **[!UICONTROL Profiles and targets]** link, then **[!UICONTROL Jobs]**. Above the list of jobs, click **[!UICONTROL New import]**.
-    * Keep the **[!UICONTROL New text import]** template selected by default.
-    * Change the label and the description.
-    * Select **[!UICONTROL Simple import]**.
-    * Keep the default job folder.
-    * Click **[!UICONTROL Advanced parameters]** and select the **[!UICONTROL Tracking mode]** option to view the details of your import during execution.
-
-1. Selecting the file to import
-
-   Click the folder to the right of the **[!UICONTROL Local file]** field and select the file you want to import.
-
-   ![](assets/s_ncs_user_import_example01_01.png)
-
-1. Associating fields
-
-   Click the **[!UICONTROL Guess the destination fields]** icon to map the source and destination schemas automatically. Check the information in this window before clicking **[!UICONTROL Next]**.
-
-   ![](assets/s_ncs_user_import_example03_01.png)
-
-1. Reconciliation
-
-    * Go to the **Recipients (nms:recipient)** table.
-    * Select the **[!UICONTROL Insertion]** operation and leave the default values in the other fields.
-    
-      ![](assets/s_ncs_user_import_example04_01.png)
-
-1. Importing recipients
-
-    * If necessary, specify a folder for your records to be imported into.
-    
-      ![](assets/s_ncs_user_import_example05_01.png)
-
-1. Launching the import
-
-    * Click **[!UICONTROL Start]**.
-
-      In the central area of the editor, you can check that the import operation has succeeded and view the number of records processed.
-    
-      ![](assets/s_ncs_user_import_example06_01.png)
-
-      The **[!UICONTROL Tracking]** mode lets you track the details of the import for each record in the source file. To do this, from the home page click **[!UICONTROL Profiles and Targets]** then **[!UICONTROL Processes]**, select the relevant import, and look up the **[!UICONTROL General]**, **[!UICONTROL Journal]** and **[!UICONTROL Rejects]** tabs.
-
-        * Checking import progress
-        
-          ![](assets/s_ncs_user_import_example07_01.png)
-
-        * Process viewing for each record
-        
-          ![](assets/s_ncs_user_import_example07_02.png)
-
-### Example: Update and insert recipients {#example--update-and-insert-recipients}
-
-We want to update existing records in the database and create new ones from a text file. Here is an example of the procedure:
-
-1. Choosing a template
-
-   Repeat the steps described in example 2 above.
-
-1. File to import
-
-   Select the file that you want to import.
-
-   In our example, the overview of the first lines of the file shows that the file contains updates for three records and the creation of a record.
-
-   ![](assets/s_ncs_user_import_example02_02.png)
-
-1. Associating fields
-
-   Apply the procedure in example 2 above.
-
-1. Reconciliation
-
-    * Keep **[!UICONTROL Update or insert]** selected by default.
-    * Keep the option **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** mode so that existing records in the database will be modified with data from the text file.
-    * Select the fields **[!UICONTROL Birth date]**, **[!UICONTROL Name]** and **[!UICONTROL Company]** and assign a reconciliation key to them. 
-    
-      ![](assets/s_ncs_user_import_example04_02.png)
-
-1. Launching the import
-
-    * Click **[!UICONTROL Start]**.
-
-      In the tracking window, you can check that the import has succeeded and view the number of records processed.
-    
-      ![](assets/s_ncs_user_import_example06_02.png)
-
-    * Look in the recipient table to check that the records have been modified by this operation.
-    
-      ![](assets/s_ncs_user_import_example06_03.png)
-
-### Example: Enrich the values with those of an external file {#example--enrich-the-values-with-those-of-an-external-file}
-
-We want to modify certain fields in a database table from a text file, giving priority to the values contained in the database.
-
-In this example, you can see that certain fields in your text file have a value, while the corresponding fields in the database are empty. Other fields contain a different value from the one contained in the database.
-
-* Content of the text file to import.
-
-  ![](assets/s_ncs_user_import_example02_03.png)
-
-* Database status before import
-
-  ![](assets/s_ncs_user_import_example06_04.png)
-
-Apply the following steps:
-
-1. Choosing a template
-
-   Apply the procedure in example 2 above.
-
-1. File to import
-
-   Select the file that you want to import.
-
-1. Associating fields
-
-   Apply the procedure in example 2 above.
-
-   In the preview of the first lines of the file, you can see that the file contains updates for certain records.
-
-1. Reconciliation
-
-    * Go to the table and select the **[!UICONTROL Update]** operation.
-    * Select the option **[!UICONTROL Reject entity]** for the **[!UICONTROL Management of doubles]** field.
-    * Keep the option **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** mode so that existing records in the database will be modified with data from the text file.
-    * Place the cursor on the **[!UICONTROL Last name (@lastName)]** node and select the **[!UICONTROL Update only if destination is empty]** option.
-    * Repeat this operation for the **[!UICONTROL Company (@company)]** node.
-    * Assign a reconciliation key to the fields **[!UICONTROL Birth date]**, **[!UICONTROL E-mail]** and **[!UICONTROL First name]**.
-    
-      ![](assets/s_ncs_user_import_example04_03.png)
-
-1. Launching the import
-
-   Click **[!UICONTROL Start]**.
-
-   Look in the recipient table to check that the records have been modified by the import.
-
-   ![](assets/s_ncs_user_import_example06_05.png)
-
-   Only values that were empty have been replaced by values from the text file, but the existing value in the database has not been overwritten by the value from the import file.
-
-### Example: Update and enrich the values from those in an external file {#example--update-and-enrich-the-values-from-those-in-an-external-file}
-
-We want to modify certain fields in a database table from a text file, giving priority to the values contained in the text file.
-
-In this example, you will see that certain fields in your text file have an empty value, while the corresponding fields in the database are not empty. Other fields contain a different value from the one in the database.
-
-* Content of the text file to import.
-
-  ![](assets/s_ncs_user_import_example02_04.png)
-
-* Database status before import
-
-  ![](assets/s_ncs_user_import_example06_07.png)
-
-1. Choosing a template
-
-   Apply the procedure in example 2 above.
-
-1. File to import
-
-   Select the file that you want to import.
-
-   In the preview of the first lines of the file, you can see that the file contains empty fields and updates for certain records.
-
-1. Associating fields
-
-   Apply the procedure in example 2 above.
-
-1. Reconciliation
-
-    * Go to the table and select **[!UICONTROL Update]**.
-    * Select the option **[!UICONTROL Reject entity]** for the **[!UICONTROL Management of doubles]** field.
-    * Leave the option **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** mode for existing records in the database to be modified with data from the text file.
-    * Place the cursor on the **[!UICONTROL Account number (@account)]** node and select the option **[!UICONTROL Take empty values into account]**.
-    * Select the fields **[!UICONTROL Birth date]**, **[!UICONTROL E-mail]** and **[!UICONTROL First name]** and assign a reconciliation key to them. 
-    
-      ![](assets/s_ncs_user_import_example04_04.png)
-
-1. Launching the import
-
-    * Click **[!UICONTROL Start]**. 
-    * Look in the recipient table to check that the records have been modified by the operation.
-    
-      ![](assets/s_ncs_user_import_example06_06.png)
-
-      The values of the text file which were empty have overwritten those in the database. The existing values in the database were updated with those in the import file in keeping with the **[!UICONTROL Update]** option selected for duplicates in step 4.
-
-## Importing data from a workflow {#importing-data-from-a-workflow}
-
-Workflows can be a useful way to automate some of your import processes. Whether you import data from a local file or from a SFTP, you can use workflows to standardize your data management procedures.
-
-To learn more about importing data from a workflow, refer to [this section](../../workflow/using/importing-data.md).
+You can then monitor the execution of the import job (see [Monitoring jobs execution](../../platform/using/monitoring-jobs-execution.md).

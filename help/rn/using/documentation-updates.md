@@ -14,7 +14,7 @@ This page lists all the new features and documentation updates per month and Cam
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
-## January 2021 {#jan,2021}
+## January 2021 {#jan-2021}
 
 The **[!UICONTROL Fork]** activity section has been enriched with additional information. A note has been added to specify that the outbound transitions do not execute simultaneously and that the activity should therefore not be used to improve workflows's performances. [Read more](../../workflow/using/fork.md)
 
@@ -23,6 +23,8 @@ The Locating Tomcat version section has been moved [here](../../production/using
 The list of technical workflows with their associated packages has been reorganized into one single page. [Read more](../../workflow/using/about-technical-workflows.md)
 
 The troubleshooting section of the Monitoring guide has been reorganized and enhanced with a landing page. [Read more](../../production/using/troubleshooting.md).
+
+The "Importing and exporting data" section has been reorganized and enriched with new pages related to workflows, data compression and encryption, as well as import best practices. [Read more](../../platform/using/get-started-data-import-export.md)
 
 ## December 2020 {#dec-2020}
 
@@ -166,7 +168,7 @@ Best practices have been added in the **[!UICONTROL Scheduler]** activity sectio
 
 The Removing a quarantined address section has been updated. This includes clarification of the cases in which addresses are automatically removed from the quarantine list. [Read more](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-Use cases have been added on how to [encrypt](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) and [decrypt](../../workflow/using/importing-data.md#use-case-gpg-decrypt) data using Control Panel and Campaign workflows.
+Use cases have been added on how to [encrypt](../../platform/using/zip-encrypt.md) and [decrypt](../../platform/using/unzip-decrypt.md) data using Control Panel and Campaign workflows.
 
 The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
 
