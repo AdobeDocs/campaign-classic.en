@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: CRM Connectors
-description: CRM Connectors
+description: Get started with CRM Connectors in Campaign
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -31,15 +31,16 @@ Supported CRM and versions are detailed in Campaign [Compatibility matrix](../..
 
 ### Implementation steps {#crm-implementation-steps}
 
-Learn how to connect Campaign and Microsoft Dynamics [in this section](../../platform/using/crm-ms-dynamics.md)
+Learn step-by-step procedure to connect Campaign and Microsoft Dynamics [in this section](../../platform/using/crm-ms-dynamics.md)
 
-In general, to use CRM connectors in Adobe Campaign, apply the following steps:
+In general, to use CRM connectors in Adobe Campaign, follow these steps:
 
 1. Create a new external account via the **[!UICONTROL Administration > Platform > External accounts]** node of the Adobe Campaign tree.
-1. Run the configuration wizard to generate the available CRM tables : the configuration wizard lets you collect tables and create the matching schema.
- Click **[!UICONTROL Start]** to run the execution.
+1. Select the CRM system you need to connect Campaign to.
+1. Enter settings to enable connection.
+1. Run the configuration wizard to generate the available CRM table: the configuration wizard lets you collect tables and create the matching schema.
 
-   Example for Salesforce configuration wizard:
+   Example for **Salesforce** configuration wizard:
 
    ![](assets/crm_connectors_sfdc_launch.png)
 
@@ -49,7 +50,7 @@ In general, to use CRM connectors in Adobe Campaign, apply the following steps:
 
 1. Check the schema generated in Adobe Campaign in the **[!UICONTROL Administration > Configuration > Data schemas]** node.
 
-   Example for Salesforce schema:
+   Example for **Salesforce** schema:
 
    ![](assets/crm_connectors_sfdc_table.png)
 
@@ -57,9 +58,11 @@ In general, to use CRM connectors in Adobe Campaign, apply the following steps:
 
    To do this, click the **[!UICONTROL Synchronizing enumerations...]** link and select the Adobe Campaign enumeration that matches the CRM enumeration.
 
-   You can replace all values of an Adobe Campaign enumeration with those of the CRM: to do this, select **[!UICONTROL Yes]** in the **[!UICONTROL Replace]** column.
+   >[!NOTE]
+   >
+   >You can replace all values of an Adobe Campaign enumeration with those of the CRM: to do this, select **[!UICONTROL Yes]** in the **[!UICONTROL Replace]** column.
 
-   Example for Salesforce enumerations:
+   Example for **Salesforce** enumerations:
 
    ![](assets/crm_connectors_sfdc_enum.png)
 
@@ -73,9 +76,8 @@ In general, to use CRM connectors in Adobe Campaign, apply the following steps:
    >
    > Multiple selection enumerations in Salesforce are not supported.
 
-1. To import CRM data or to export Adobe Campaign data to the CRM, you need to create a workflow and use the **[!UICONTROL CRM connector]** activity.
+1. To synchronize data between Adobe Campaign data and the CRM system, you need to create a workflow and use the **[!UICONTROL CRM connector]** activity.
 
    ![](assets/crm_connectors_sfdc_wf.png)
 
-Learn more about data synchronization [in this page](../../platform/using/crm-data-sync.md).
-
+   Learn more about data synchronization [in this page](../../platform/using/crm-data-sync.md).

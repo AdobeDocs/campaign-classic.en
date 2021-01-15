@@ -10,16 +10,16 @@ topic-tags: targeting-activities
 
 # CRM Connector{#crm-connector}
 
-The **CRM connector** lets you configure the data synchronization between Adobe Campaign and a CRM.
+The **CRM connector** activity lets you configure the data synchronization between Adobe Campaign and a CRM system.
 
 For more information on CRM connectors in Adobe Campaign, refer to this [section](../../platform/using/crm-connectors.md).
 
-This means you can:
+With this activity, you can:
 
-* Import from the CRM,
-* Export to CRM,
-* Import objects deleted in the CRM,
-* Delete objects in the CRM.
+* Import from the CRM
+* Export to CRM
+* Import objects deleted in the CRM
+* Delete objects in the CRM
 
 ![](assets/crm_task_select_op.png)
 

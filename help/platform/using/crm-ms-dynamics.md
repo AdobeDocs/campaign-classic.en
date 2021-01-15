@@ -8,18 +8,18 @@ content-type: reference
 topic-tags: connectors
 ---
 
-# Connect Campaign and Microsoft Dynamics{#connect-to-msdyn}
+# Connect Campaign and Microsoft Dynamics 365{#connect-to-msdyn}
    
 You can connect Campaign Classic to **Microsoft Dynamics CRM 365** via Web API. Refer to [this section](#microsoft-dynamics-implementation-step) to learn how to set up the connection with Microsoft Dynamics.
 
 Data synchronization is carried out via a dedicated workflow activity. [Learn more](../../platform/using/crm-data-sync.md).
 
-![](assets/do-not-localize/how-to-video.png) Learn about Adobe Campaign and Microsoft Dynamics integration use cases in [this video](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
+![](assets/do-not-localize/how-to-video.png) Learn how to implement the Adobe Campaign and Microsoft Dynamics integration in [this video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/integrating/dynamics365-integration.html).
 
 >[!NOTE]
-> Starting Campaign 20.3, connection with older Microsoft Dynamics versions is deprecated. [Learn more](../../rn/using/deprecated-features.md).
+> Starting Campaign 20.3 release, connection with older Microsoft Dynamics versions is deprecated. [Learn more](../../rn/using/deprecated-features.md).
 >
-> For more information on CRM version compatibility, refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md#CRMconnectors).
+> For more information on CRM systems version compatibility, refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md#CRMconnectors).
 >
 
 ## Implementation steps{#microsoft-dynamics-implementation-steps}

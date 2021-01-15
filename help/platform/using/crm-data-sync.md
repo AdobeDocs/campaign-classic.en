@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connectors
 ---
 
-# Data synchronization with CRM {#data-synchronization}
+# Data synchronization between Campaign and the CRM {#data-synchronization}
 
-Synchronization between Adobe Campaign and the CRM is carried out via a dedicated workflow activity: [CRM connector](../../workflow/using/crm-connector.md).
+Data synchronization between Adobe Campaign and the CRM is carried out via a dedicated workflow activity: [CRM connector](../../workflow/using/crm-connector.md).
 
 For example, to import the Microsoft Dynamics data into Adobe Campaign, create the following type of workflow:
 
@@ -24,10 +24,10 @@ The **[!UICONTROL CRM Connector]** activity needs to be configured to synchroniz
 
 With this activity you can:
 
-* Import from the CRM (refer to [Importing from the CRM](#importing-from-the-crm)),
-* Export to CRM (refer to [Exporting to the CRM](#exporting-to-the-crm)),
-* Import objects deleted in the CRM (refer to [Importing objects deleted in the CRM](#importing-objects-deleted-in-the-crm)),
-* Delete objects in the CRM (refer to [Deleting objects in the CRM](#deleting-objects-in-the-crm)).
+* Import from the CRM - [Learn more](#importing-from-the-crm)
+* Export to CRM - [Learn more](#exporting-to-the-crm)
+* Import objects deleted in the CRM - [Learn more](#importing-objects-deleted-in-the-crm)
+* Delete objects in the CRM - [Learn more](#deleting-objects-in-the-crm)
 
 ![](assets/crm_task_select_op.png)
 
@@ -43,7 +43,7 @@ To import data via the CRM in Adobe Campaign, you need to create the following t
 
 ![](assets/crm_wf_import.png)
 
-For an import activity, the **CRM Connector** activity configuration steps are:
+For an import activity, the **[!UICONTROL CRM Connector]** activity configuration steps are:
 
 1. Select an **[!UICONTROL Import from the CRM]** operation.
 1. Go to the **[!UICONTROL Remote object]** drop-down list and select the object concerned by the process. This object coincides with one of the tables created in Adobe Campaign during connector configuration.
@@ -119,10 +119,10 @@ To ensure efficient operation with the various CRMs, filters need to be created 
 * JOIN comparisons are not supported.
 * The expression in the left-hand column must be a field. It cannot be a combination of several expressions, a number, etc.
 
-For instance, the following filtering conditions will NOT be valid for a CRM import, because the OR operator is placed at the same level as the AND operators:
+For example, the following filtering conditions will NOT be valid for a CRM import, because the OR operator is placed at the same level as the AND operators:
 
 * The OR operator is placed at the same level as the AND operators
-* Comparisons are carried out on text strings.
+* Comparisons are carried out on text strings
 
 ![](assets/crm_import_wrong_filter.png)
 
@@ -154,14 +154,14 @@ To export data towards the CRM, you need to create the following type of workflo
 
 ![](assets/crm_export_diagram.png)
 
-For an export, apply the following configuration to the **CRM Connector** activity:
+For an export, apply the following configuration to the **[!UICONTROL CRM Connector]** activity:
 
 1. Select an **[!UICONTROL Export to CRM]** operation.
 1. Go to the **[!UICONTROL Remote object]** drop-down list and select the object concerned by the process. This object coincides with one of the tables created in Adobe Campaign during connector configuration.
 
    >[!IMPORTANT]
    >
-   >The export function of the **CRM Connectors** activity can insert or update fields on the CRM side. To enable field updates in the CRM, you need to specify the primary key of the remote table. If the key is missing, data will be inserted (instead of being updated).
+   >The export function of the **[!UICONTROL CRM Connector]** activity can insert or update fields on the CRM side. To enable field updates in the CRM, you need to specify the primary key of the remote table. If the key is missing, data will be inserted (instead of being updated).
 
 1. In the **[!UICONTROL Mapping]** section, specify the fields to be exported and their mapping in the CRM.
 
@@ -246,3 +246,4 @@ The **[!UICONTROL Behavior]** tab lets you enable the processing of rejects. Thi
 >[!NOTE]
 >
 >Even when the **[!UICONTROL Process rejects]** option is disabled, a warning is generated for each rejected column.
+>
