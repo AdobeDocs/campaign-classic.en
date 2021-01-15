@@ -14,14 +14,14 @@ There can be multiple reasons for tracking logs not being forwarded. We recommen
 
 * **Does the **Tracking** workflow have errors?**
 
-Refer to [Monitoring technical workflows](../../workflow/using/monitoring-technical-workflows.md).
+  Refer to [Monitoring technical workflows](../../workflow/using/monitoring-technical-workflows.md).
 
   ![](assets/tracking_scheduled_task.png)
 
 * **Is the module **trackinglogd** running on the server?**
 
-Refer to [Log files](../../production/using/log-files.md).
+  Refer to [Log files](../../production/using/log-files.md).
 
 * **Have changes been made?**
 
-They can trigger a loss of connection to the servers using the tracking alias.
+  They can trigger a loss of connection to the servers using the tracking alias.

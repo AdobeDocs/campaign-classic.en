@@ -19,7 +19,7 @@ For example, you can use the activity after a query, in order to perform two act
 
 You can also use the activity in the context of content creation and delivery sending automation, in order to launch the target calculation and the content creation in parallel. A dedicated use case is available in [this section](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
 
->[!WARNING]
+>[!IMPORTANT]
 >
 >Keep in mind that the outbound transitions added after a Fork activity will not execute simultaneously.
 >
