@@ -27,7 +27,6 @@ You can set up the following types of external accounts:
 * [Adobe Experience Manager external account](#adobe-experience-manager-external-account)
 * [Amazon Simple Storage Service (S3) external account](#amazon-simple-storage-service--s3--external-account)
 * [Microsoft Dynamics CRM external account](#microsoft-dynamics-crm-external-account)
-* [Oracle on demand external account](#oracle-on-demand-external-account)
 * [Salesforce CRM external account](#salesforce-crm-external-account)
 
 ## Creating an external account {#creating-an-external-account}
@@ -324,35 +323,11 @@ To learn where to find the access key ID and secret access key, refer to Amazon 
 
 The **[!UICONTROL Microsoft Dynamics CRM]** external account allows you to import and export Microsoft Dynamics data into Adobe Campaign.
 
-Configuration for Microsoft Dynamics connector to work with Adobe Campaign depends on your deployment type.
-With **[!UICONTROL On-premise]** and **[!UICONTROL Office 365]** deployment types, you need to provide the following details:
+Learn more about Campaign - Microsoft Dynamics CRM connector in this [page](../../platform/using/crm-ms-dynamics.md).
 
-![](assets/ext_account_21.png)
-
-* **[!UICONTROL Account]**
-
-  Account used to sign in to Microsoft CRM.
-
-* **[!UICONTROL Server]**
-
-  URL of your Microsoft CRM server.
-
-* **[!UICONTROL Password]**
-
-  Password used to sign in to Microsoft CRM.
-
-* **[!UICONTROL Company name]** for On-premise and Office 365 deployment
-
-   Name of your Company.
-
-* **[!UICONTROL Organization name]** for On-premise deployment
-
-  Name of your organization.
-  Organization name which can be found in the Developers resources dashboard in Microsoft Dynamics, **[!UICONTROL Unique Name]** field.
-
-* **[!UICONTROL CRM version]** for On-premise
-
-  Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
+>[!NOTE]
+>
+> **[!UICONTROL On-premise]** and **[!UICONTROL Office 365]** deployment types are now deprecated. [Learn more](../../rn/using/deprecated-features.md).
 
 With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credentials]** authentication, you need to provide the following details:
 
@@ -398,29 +373,7 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** a
 
   Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
 
-For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md#example-for-microsoft-dynamics).
-
-## Oracle on demand external account {#oracle-on-demand-external-account}
-
-The **[!UICONTROL Oracle on demand]** external account allows you to import and export Oracle data into Adobe Campaign.
-
-![](assets/ext_account_18.png)
-
-To configure the Oracle on demand external account to work with Adobe Campaign, you need to provide the following details:
-
-* **[!UICONTROL Account]**
-
-  Account used to sign in to Oracle CRM on demand.
-
-* **[!UICONTROL Server]**
-
-  URL of your Oracle CRM on demand server.
-
-* **[!UICONTROL Password]**
-
-  Password used to sign in to Oracle CRM on demand.
-
-For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md#example-for-oracle-on-demand).
+For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md).
 
 ## Salesforce CRM external account {#salesforce-crm-external-account}
 
@@ -452,4 +405,4 @@ To configure the Salesforce CRM external account to work with Adobe Campaign, yo
 
 For this external account, you need to configure you Salesforce CRM with the configuration wizard.
 
-For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md#example-for-salesforce-com).
+For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md).

@@ -16,6 +16,10 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 ## January 2021 {#jan-2021}
 
+All steps to connect Campaign and Microsoft Dynamics are now detailed in a dedicated page. [Read more](../../platform/using/crm-ms-dynamics.md).
+
+The CRM Connectors section has been updated, improved and reorganized. [Read more](../../platform/using/crm-connectors.md).
+
 The **[!UICONTROL Fork]** activity section has been enriched with additional information. A note has been added to specify that the outbound transitions do not execute simultaneously and that the activity should therefore not be used to improve workflows's performances. [Read more](../../workflow/using/fork.md)
 
 The Locating Tomcat version section has been moved [here](../../production/using/locate-tomcat-version.md).
