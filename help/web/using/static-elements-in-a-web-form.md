@@ -27,7 +27,7 @@ The following types of field are available:
 
 ## Inserting HTML content {#inserting-html-content}
 
-You can include HTML content in a form page: hypertext links, images, formatted paragraphs, video or Flash objects, etc.
+You can include HTML content in a form page: hypertext links, images, formatted paragraphs, videos, etc.
 
 The HTML editor lets you enter the content to insert into the form page. To open the editor, click **[!UICONTROL Static elements]** > **[!UICONTROL HTML]** .
 
